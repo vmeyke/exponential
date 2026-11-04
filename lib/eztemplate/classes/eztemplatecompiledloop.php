@@ -2,7 +2,7 @@
 /**
  * File containing the eZTemplateCompiledLoop class.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -48,27 +48,83 @@ class eZTemplateCompiledLoop
         return isset( $this->Parameters['sequence_var'] );
     }
 
-    /*!
-     * Destroys PHP and template variables defined by the loop.
+    /**
+     * The PHP variables of the loop's sequence, named after the loop: a loop that saves its state for a template that
+     * includes itself (eZTemplateForeachFunction, eZTemplateForFunction) saves them too.
+     *
+     * @return string[]
      */
-    function cleanup()
+    function sequenceVariableNames()
+    {
+        return array( "{$this->Name}_sequence_array_{$this->UniqID}", "{$this->Name}_sequence_var_{$this->UniqID}" );
+    }
+
+    /**
+     * Destroys PHP and template variables defined by the loop.
+     *
+     * @param bool $templateVariable also the template variable of the sequence; false for a loop that saves its state
+     *                               for a template that includes itself: it removes the template variable with
+     *                               sequenceTemplateVariableCleanup() once no loop of its code runs any more, so the
+     *                               loop outside still reads it after the include, as when interpreted
+     */
+    function cleanup( $templateVariable = true )
     {
         if ( $this->hasSequence() )
-            $this->destroySequenceVars();
+            $this->destroySequenceVars( $templateVariable );
 
         $this->NewNodes[] = eZTemplateNodeTool::createCodePieceNode( "\$skipDelimiter = false;" );
+    }
+
+    /**
+     * For a loop whose only PHP state is its sequence ({while}, {do}): saves the sequence's PHP variables before
+     * initVars() when a loop of the same code runs (a template that includes itself runs the same code in the same
+     * scope), so the include does not reset or unset them under the loop outside. Call restoreSequenceState() after
+     * cleanup( false ).
+     */
+    function saveSequenceState()
+    {
+        if ( !$this->hasSequence() )
+            return;
+        $stack = "{$this->Name}_sequence_stack_{$this->UniqID}";
+        $this->NewNodes[] = eZTemplateNodeTool::createCodePieceNode( "if ( isset( \$$stack ) ) \$" . $stack . "[] = compact( '" . implode( "', '", $this->sequenceVariableNames() ) . "' );\n" .
+                                                                     "else \$$stack = [];" );
+    }
+
+    /**
+     * Restores what saveSequenceState() saved, or removes the sequence's template variable and the stack when no loop
+     * of this code runs any more.
+     */
+    function restoreSequenceState()
+    {
+        if ( !$this->hasSequence() )
+            return;
+        $stack = "{$this->Name}_sequence_stack_{$this->UniqID}";
+        $this->NewNodes[] = eZTemplateNodeTool::createCodePieceNode( "if ( count( \$$stack ) ) extract( array_pop( \$$stack ) );\nelse\n{\n" );
+        $this->sequenceTemplateVariableCleanup();
+        $this->NewNodes[] = eZTemplateNodeTool::createVariableUnsetNode( $stack );
+        $this->NewNodes[] = eZTemplateNodeTool::createCodePieceNode( "}\n" );
+    }
+
+    /**
+     * Removes the template variable of the sequence (see cleanup()).
+     */
+    function sequenceTemplateVariableCleanup()
+    {
+        if ( $this->hasSequence() )
+            $this->NewNodes[] = eZTemplateNodeTool::createVariableUnsetNode( $this->Parameters['sequence_var'][0][1] );
     }
 
     /*!
     \private
     */
-    function destroySequenceVars()
+    function destroySequenceVars( $templateVariable = true )
     {
         $fName      = $this->Name;
         $uniqid     = $this->UniqID;
         $this->NewNodes[] = eZTemplateNodeTool::createVariableUnsetNode( "{$fName}_sequence_array_$uniqid" );
         $this->NewNodes[] = eZTemplateNodeTool::createVariableUnsetNode( "{$fName}_sequence_var_$uniqid" );
-        $this->NewNodes[] = eZTemplateNodeTool::createVariableUnsetNode( $this->Parameters['sequence_var'][0][1] );
+        if ( $templateVariable )
+            $this->NewNodes[] = eZTemplateNodeTool::createVariableUnsetNode( $this->Parameters['sequence_var'][0][1] );
     }
 
 

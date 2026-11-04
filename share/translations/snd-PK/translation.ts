@@ -984,6 +984,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>صرف هي صفحو ڳوليو ويندو آهي: %count مان %from کان %to تائين.</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>ڪرنل ۽ ايڪسٽينشنن جو هر ڊيٽا جو قسم، ۽ ڪلاس ۽ مواد ان کي ڪيئن استعمال ڪن ٿا.</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>ڊيٽا جا قسم</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2316,6 +2324,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>سسٽم صفحا به بُڪ مارڪ ڪري سگهجن ٿا: صفحو کوليو (سيٽ اپ، آڊٽ ٽريل، استعمال ڪندڙن جي فهرست ...) ۽ ان جي مٿان "هي صفحو بُڪ مارڪ ڪريو" چونڊيو. اهڙن بُڪ مارڪن تي گيئر جو آئڪن هوندو آهي.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>توهان هاڻي هي صفحو هتي کولي نٿا سگهو. بُڪ مارڪ هٽايو، يا ڪنهن منتظم کان رسائي گهرو.</translation>
     </message>
 </context>
 <context>
@@ -5165,6 +5177,210 @@
         <source>Go to the first page</source>
         <translation>پهرين صفحي تي وڃو</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>ٻيو</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>آخري 7 ڏينهن</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>مرضي جو عرصو</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>سڀ لفظ</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>ڪو به لفظ</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>بلڪل جملو</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>مطابقت</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>نالو ا–ي</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>نالو ي–ا</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>تبديل ٿيل، نوان پهريان</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>تبديل ٿيل، پراڻا پهريان</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>شايع ٿيل، نوان پهريان</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>شايع ٿيل، پراڻا پهريان</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>تبديل ٿيل</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>فلٽر</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>فلٽر ڏيکاريو</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>فلٽر لڪايو</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>ري سيٽ ڪريو</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>لاڳو ڪريو</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>لفظ</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>مواد جو قسم</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>وڌيڪ ڏيکاريو (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>مواد جو هڪ قسم چونڊيو ته جيئن ان جي ڪنهن هڪ خاصيت ۾ ڳولا ڪري سگهو.</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>سيڪشن</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>کان</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>کي</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>شروعاتي تاريخ صحيح تاريخ ناهي.</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>آخري تاريخ صحيح تاريخ ناهي.</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>مالڪ</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>استعمال ڪندڙ جي ID، لاگ ان يا اي ميل پتو.</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>“%input” لاءِ ڪو استعمال ڪندڙ نه مليو.</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>ٻولي</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>ڪا به ٻولي</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>جڳهه</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>%count جڳهيون</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>في صفحو نتيجا</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>“%text” لاءِ نتيجا (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>نتيجا (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>هن مطابق ترتيب ڏيو</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>ترتيب ڏيو</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>سرگرم فلٽر</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>هي فلٽر هٽايو</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>يا فلٽر چونڊيو ۽ انهن کي لاڳو ڪريو ته جيئن ملندڙ مواد جي فهرست ڏسي سگهو.</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>لفظ لکڻ کان پوءِ فلٽر ڳولا کي محدود ڪن ٿا.</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>“%text” لاءِ ڪي نتيجا نه مليا.</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>ڪي نتيجا نه مليا.</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>مٿي ڏنل ڪو فلٽر هٽايو.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>ترجما</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>ڪارروايون</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>%name تبديل ڪريو</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>تبديل ڪريو</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -7514,6 +7730,10 @@
         <source>Setup &gt; Cronjobs</source>
         <translation>سيٽ اپ &gt; ڪرون جابز</translation>
     </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>اڃا تائين ڪرون ڪم جو ڪوبه حصو نه هليو آهي: ڪمن جي قطار، درآمدون، اطلاع ۽ ڳولا جي انڊيڪس انتظار ۾ آهن. php bin/php/installcrontab.php --add --apply هلايو، يا --show جون سٽون crontab ۾ شامل ڪريو.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/dashboard/drafts</name>
@@ -8058,8 +8278,8 @@
         <translation>اصل ليکڪن ۽ Exponential سان شامل ٿرڊ پارٽي سافٽ ويئر جا ڪاپي رائيٽ نوٽيس، لائسنس جي شرط مطابق، سورس فائلن ۽ LICENSE فائل ۾ محفوظ رکيا ويا آهن.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>هيٺ ڏنل Exponential جي انهن حصو وٺندڙن جي فهرست آهي جن eZ Systems Contributor Licensing Agreement جي شرطن ۽ ضابطن تحت پنهنجو ڪم 7x جي استعمال لاءِ لائسنس ڪيو آهي. هن معاهدي جي اجازت مطابق، 7x هر حصيداري کي ساڳئي لائسنس تحت ٻيهر ورهائي ٿو جيڪو ان فائل جو آهي جنهن ۾ اها حصيداري شامل آهي. فهرست ۾ هر حصو وٺندڙ جو نالو، اختياري رابطي جي معلومات ۽ اهي فائلون ڏنل آهن جن ۾ هنن حصو ورتو آهي.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>اهي حصو وٺندڙ جن کي Exponential ۽ ان سافٽ ويئر تي ڪم لاءِ ساراهيو وڃي ٿو جنهن مان اهو پيدا ٿيو، انهن فائلن سان جن ۾ هنن حصو ورتو. هي ساراهه آهي، ڪاپي رائيٽ نوٽيس ناهي: Exponential ۾ حصا Contributor Licensing Agreement تحت Exponential Foundation ۽ 7x کي سونپيا وڃن ٿا.</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13881,32 +14101,20 @@ Note: The packages will not be uninstalled.</source>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%evaluate_link"&gt;Exponential Enterprise Edition جو جائزو وٺو&lt;/a&gt; - &lt;a href="%share_link"&gt;Exponential Community جا ميمبر ٿيو، مٽاسٽا ڪريو ۽ حصو وٺو&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; ڪاپي رائيٽ &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; ۽ ٻيا.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class="edition-info"&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>&lt;span class="edition-info"&gt;%edition&lt;/span&gt; جي طاقت سان. وڌيڪ معلومات لاءِ &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt; ڏسو.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; ڪاپي رائيٽ &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; ۽ ٻيا.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> وڌيڪ معلومات لاءِ &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt; ڏسو.</translation>
     </message>
     <message>
-        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; ڪاپي رائيٽ &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; ۽ ٻيا.</translation>
+        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href="%evaluate_link"&gt;Exponential (From 7x) جو جائزو وٺو&lt;/a&gt; - &lt;a href="%share_link"&gt;Exponential Community جا ميمبر ٿيو، مدد حاصل ڪريو ۽ حصو وٺو&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; ڪاپي رائيٽ &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; ۽ ٻيا.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13915,6 +14123,61 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Help center</source>
         <translation>مدد جو مرڪز</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>مواد</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>دستاويزن جا صفحا</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>استعمال ڪندڙ</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>مواد جا ڪلاس</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>انتظام</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>صفحو %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>سڀ نتيجا ڏسو</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>%count نتيجا</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>هڪ نتيجو</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>%count تجويزون</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>ڪا تجويز ناهي</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>تجويزون لوڊ نه ٿي سگهيون.</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>تجويزون</translation>
     </message>
 </context>
 <context>
@@ -14383,6 +14646,14 @@ Note: The packages will not be uninstalled.</source>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>هيءَ انسٽاليشن هڪ عام ڊيمو آهي: ڪو به ان جي منتظم جو پاسورڊ ڄاڻي سگهي ٿو، ۽ منتظم جا پاسورڊ تبديل يا ري سيٽ نٿا ٿي سگهن. هتي ڪا به ذاتي شيءِ داخل نه ڪريو.</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>توهان جون ڊوائيسون</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>سيڪيورٽي سرگرمي</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14672,6 +14943,14 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>گائيڊ، ڳولا ۽ غلطي جي رپورٽ ڪرڻ جو طريقو.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>تازو مواد</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>سڀ کان تازو مواد، جيڪو جائزي لاءِ روڪيو ويو آهي، ۽ ڪنهن چونڊ تي عمل.</translation>
     </message>
 </context>
 <context>
@@ -15130,6 +15409,46 @@ Note: The packages will not be uninstalled.</source>
         <source>Synchronisations</source>
         <translation>هم آهنگيون</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>GraphQL API: ان جو اينڊ پوائنٽ، اسڪيما ۽ ڪوئريون آزمائڻ لاءِ هڪ پلي گرائونڊ.</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>مائيگريشنز</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>انسٽاليشن ۾ تبديليون فائلن طور محفوظ: انهن جي حالت، رنز، هلائڻ ۽ واپس ڪرڻ.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>تازو مواد</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>سڀ کان تازو مواد، جيڪو جائزي لاءِ روڪيو ويو آهي، ۽ ڪنهن چونڊ تي عمل.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>سائيٽ جي اسٽيٽڪ ڪاپي GitHub Pages يا ڪنهن به git هوسٽ تي شايع ڪريو.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>اسٽيٽڪ اشاعت</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>ڊيٽا جا قسم</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>ڪرنل ۽ ايڪسٽينشنن جو هر ڊيٽا جو قسم، ۽ ڪلاس ۽ مواد ان کي ڪيئن استعمال ڪن ٿا.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15294,6 +15613,22 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>اهي اڪائونٽ جيڪي ڪو به استعمال نٿو ڪري يا جن کي ڏسڻ جي ضرورت آهي؛ انهن کي غير فعال ڪريو، کوليو يا برآمد ڪريو.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>استعمال ڪندڙن جو آڊٽ لاگ</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>ڪنهن تبديلي ڪئي، ڪير لاگ ان ٿيو يا رد ٿيو، هر اڪائونٽ مطابق؛ فلٽر ۽ برآمد ڪريو.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>لاگ ان رپورٽ</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>ڪير لاگ ان آهي، هر ڏينهن جا لاگ ان ۽ ناڪاميون؛ ڪنهن استعمال ڪندڙ کي هر هنڌ تان لاگ آئوٽ ڪريو.</translation>
     </message>
 </context>
 <context>
@@ -22110,6 +22445,22 @@ Note: The packages will not be uninstalled.</source>
         <source>%n hours ago</source>
         <translation>%n ڪلاڪ اڳ</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>GraphQL API جي محفوظ ٿيل ڪوئرين جا جواب، ۽ ان جي اسڪيما جا مواد ڪلاس.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>اسٽيٽڪ ڪاپي GitHub Pages يا ڪنهن به git هوسٽ تي شايع ڪريو</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>اسٽيٽڪ اشاعت</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>اسٽيٽڪ ڪيش هن سرور تان صفحا پيش ڪري ٿو. سائيٽ جي اسٽيٽڪ ڪاپي ڪنهن ٻئي هنڌ، GitHub Pages يا ڪنهن به git هوسٽ تي شايع ڪرڻ لاءِ، اسٽيٽڪ اشاعت استعمال ڪريو.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25651,6 +26002,10 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>last purge</source>
         <translation>آخري صفائي</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>لکڻيون حالت جو تالو نه وٺي سگهيون (آخري ڀيرو %date): هر هڪ سڀ ڪيش ٿيل نتيجا پراڻا ڪري ڇڏيا. %file هر ان استعمال ڪندڙ لاءِ لکڻ جوڳي هجڻ گهرجي جنهن جي نالي سان سائيٽ هلي ٿي؛ NFS تي ان کي NFSv4 يا lockd گهرجي.</translation>
     </message>
 </context>
 <context>
@@ -33599,6 +33954,14 @@ Note: The packages will not be uninstalled.</source>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>PHP هينڊلر جا مدو ختم ٿيل سيشن PHP پاڻ هٽائي ٿو (session.gc_maxlifetime)، نه ته هي صفحو يا session_gc ڪرون ڪم جو حصو.</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>سڀني استعمال ڪندڙن جا لاگ ان سيشن لاگ ان رپورٽ ۾ ڏيکاريا ۽ لاگ آئوٽ ڪيا وڃن ٿا، جيڪا هر سيشن هينڊلر سان ڪم ڪري ٿي.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>لاگ ان رپورٽ کوليو</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37923,6 +38286,26 @@ your account.</source>
     <message>
         <source>None yet</source>
         <translation>اڃا ڪا ناهي</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>سيڪيورٽي سرگرمي</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>توهان جا تازا لاگ ان، ناڪام ڪوششون ۽ توهان جي پاسورڊ، اي ميل پتي ۽ ٻن قدمن واري لاگ ان ۾ تبديليون.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>هن اڪائونٽ جا تازا لاگ ان، ناڪام ڪوششون ۽ سيڪيورٽي تبديليون.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>سرگرمي جو جائزو وٺو</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>%count ناڪام لاگ ان</translation>
     </message>
 </context>
 <context>
@@ -44089,6 +44472,42 @@ If you want to send comments to the approver or view the status use the URL belo
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>سائن ان ٿيڻ کانپوءِ استعمال ڪندڙ کي ٻيو ڪجهه ڪرڻ کان اڳ نئون پاسورڊ چونڊڻو پوندو. جڏهن توهان ڪنهن کي عارضي پاسورڊ ڏيو ته ان کي استعمال ڪريو.</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>اڳ ۾ موجود تصوير چونڊيو</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>جيڪا شيءِ توهان چونڊيو ٿا، ان جي تصوير واري فائل هن خاني ۾ نقل ڪئي ويندي. ٻي شيءِ تبديل نه ٿيندي.</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>“%name” جي تصوير هن خاني ۾ نقل ڪئي وئي.</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>تصوير لاءِ براؤز ڪريو</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>نالي سان تصويرون ڳوليو</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>ڳوليو</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>“%name” جي تصوير استعمال ڪريو</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>هي تصوير استعمال ڪريو</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>ڪا به تصوير توهان جي ڳولا سان نٿي ملي.</translation>
     </message>
 </context>
 <context>
@@ -51013,6 +51432,10 @@ See the requirements page for more information.</source>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>crontab لکيو نه ويو (%reason). اهي سٽون ان استعمال ڪندڙ جي crontab ۾ شامل ڪريو جنهن طور سائيٽ هلي ٿي، ٻي صورت ۾ قطار، درآمدون، اطلاع ۽ ڳولا انڊيڪس ڪڏهن به نه هلندا:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>ٻيهر انسٽال kickstarter سان ٿئي ٿو (%file، پوءِ php bin/php/kickstarter.php run --apply) يا نئين انسٽاليشن سان.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54892,6 +55315,10 @@ your account.</source>
         <source>eZJSCore Public Packer cache</source>
         <translation>eZJSCore Public Packer ڪيش</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>GraphQL ڪيش (جواب ۽ اسڪيما ڪلاس)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54978,6 +55405,14 @@ your account.</source>
     <message>
         <source>Copy of %class_name</source>
         <translation>%class_name جي نقل</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>ڊيٽا جا قسم</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>ڊيٽا جو قسم %string</translation>
     </message>
 </context>
 <context>
@@ -55804,6 +56239,26 @@ your account.</source>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>SVG تصوير پڙهي نه سگهي، يا ان ۾ ڪجهه به محفوظ طريقي سان ڏيکاري نٿو سگهجي.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>تصوير نقل نه ٿي سگهي. مهرباني ڪري ٻيهر ڪوشش ڪريو يا سائيٽ جي منتظم سان رابطو ڪريو.</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>چونڊيل شيءِ موجود ناهي يا توهان کي ان کي پڙهڻ جي اجازت ناهي.</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>چونڊيل شيءِ ۾ ڪا تصوير ناهي.</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>چونڊيل شيءِ جي تصوير واري فائل پڙهي نه سگهي.</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>چونڊيل شيءِ جي تصوير هن خاني جي اجازت کان وڏي آهي: %1 بائيٽ.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56334,6 +56789,42 @@ your account.</source>
         <source>The bookmark was renamed to "%name".</source>
         <translation>بُڪ مارڪ جو نالو تبديل ڪري "%name" ڪيو ويو.</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>هي صفحو هن سائيٽ رسائي (%siteaccess) ۾ بند ٿيل آهي. بُڪ مارڪ اهڙي سائيٽ رسائي ۾ کوليو جنهن ۾ هي صفحو موجود هجي.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>هن صفحي جو ماڊيول هتي انسٽال ٿيل يا فعال ناهي.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>هي صفحو هاڻي موجود ناهي: ان جي ماڊيول ۾ اهڙو ڪو منظر ناهي.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>توهان جو ڪوبه ڪردار توهان کي هي صفحو کولڻ جي اجازت نٿو ڏئي.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>توهان وٽ هن سائيٽ رسائي کي استعمال ڪرڻ جي اجازت ناهي.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>توهان وٽ اهو مواد پڙهڻ جي اجازت ناهي جيڪو هي صفحو ڏيکاري ٿو.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>هن قسم جي صفحي کي بُڪ مارڪ نٿو ڪري سگهجي: اهو صرف هڪ فارم تي عمل ڪري ٿو، يا صرف هڪ لمحي جو صفحو آهي.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>هن صفحي جو پتو موجود ناهي.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>هي صفحو هن وقت کولي نٿو سگهجي.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56805,6 +57296,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>گذريل رن ۾ ميل ٽرانسپورٽ %count پيغام رد ڪري ڇڏيا. ميل سرور ۽ site.ini MailSettings چيڪ ڪريو.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>%count واقعا انتظار ۾ آهن ۽ اطلاعن واري ڪرون ڪم جو ڪوبه هلڻ رڪارڊ ناهي. ڪرون ڪم جو حصو &quot;frequent&quot; crontab ۾ شامل ڪريو، يا exp:notification:run --apply هلايو.</translation>
     </message>
 </context>
 <context>
@@ -63061,6 +63556,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Choose another site or section with the node picker</source>
         <translation>نوڊ پڪر سان ڪا ٻي سائيٽ يا سيڪشن چونڊيو</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>صرف سسٽم منتظم مالڪ تبديل ڪري سگهي ٿو: ./console exp:content-check --fix-permissions --apply کي root طور هلايو.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64594,6 +65093,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>empty</source>
         <translation>خالي</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>دستخط جي ڪنجي هڪ سال کان پراڻي آهي: ان کي exp:audit key rotate --apply سان مٽايو.</translation>
     </message>
 </context>
 <context>
@@ -68424,6 +68927,486 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Share of page time</source>
         <translation>صفحي جي وقت جو حصو</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>مڪمل رينڊر جي گذارش ڪئي وئي هئي</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>صفحي ڪيش ۾ هي صفحو نه هو (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>صفحي ڪيش جواب نه ڏنو</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>رينڊر ٿيل</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>ڪرنل رينڊر ڪيو: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>صفحي ڪيش مان %ms ms ۾ فراهم ڪيو ويو. هي صفحو %stored تي %render ms جي هڪ رينڊر محفوظ ڪيو هو، %age s اڳ.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>هاڻي رينڊر ڪريو</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>ڪيش ٿيل منظر ڏانهن واپس</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>%stored واري رينڊر مان (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>هيءَ گذارش: صفحي ڪيش مان %ms ms ۾ فراهم ڪئي وئي.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>استعمال ڪندڙ</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>استعمال ڪندڙ ID</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>ڪيش پروفائل</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>هي ڏيک</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>منظر ڪيش</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>هر استعمال ڪندڙ لاءِ (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>استعمال ڪندڙ جي ڪيش پروفائل: ساڳي پروفائل وارا استعمال ڪندڙ ڏيک ڪيش فائلون ورهائين ٿا</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ها</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>نه</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>لاگ ان نالو</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>لاگ ان ٿيل</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>سيشن</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>مواد ڏيک ڪيش ڪنجي جا اهي حصا جيڪي استعمال ڪندڙ تي منحصر آهن، بلڪل ائين جيئن ڪنجي انهن کي وٺي ٿي، هن صفحي جي ViewCacheTweaks تحت. ساڳي پروفائل وارا استعمال ڪندڙ ڏيکن جون ڪيش فائلون ورهائين ٿا، جيستائين ڪنهن ڏيک جا پنهنجا حصا مختلف نه هجن (ترجيحون، ٻڌندڙن جون ڪنجيون): انهن جي پنهنجي پروفائل آهي، صرف هن صفحي لاءِ.</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>پروفائل</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>هي ڏيک (نوڊ %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: هر لاگ ان ٿيل استعمال ڪندڙ جون پنهنجيون ڪيش فائلون آهن.</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>لاڳو ViewCacheTweaks: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>حصو</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>قدر</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>ڪو به حصو استعمال ڪندڙ تي منحصر ناهي (ViewCacheTweaks).</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>هي ڏيک</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>متن طور ڪاپي ڪريو</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>ڪردار</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>ڪا به ڪردار تفويض پڙهي نه سگهجي.</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>ڪردار ID</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>ڪردار</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>حد</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>تفويض ڪيل</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>استعمال ڪندڙ</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>گروپ %name (شيءِ %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>نقل ٿي ويو</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>ڪاپي نه ٿي سگهي.</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>ٻڌندڙ طرفان ڇڏيل</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>گمنام ملاقاتي</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>توهان جهڙو</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>مختلف</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>اها پروفائل جيڪا گمنام گهمندڙن کي ساڳي ViewCacheTweaks تحت ملي ٿي، ڊفالٽ ترجيحن سان، ڏيک جي حصن کانسواءِ: سيشن پڙهندڙ ٻڌندڙ کان انهن بابت پڇي نٿو سگهجي.</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>ترجيحون</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>ڪو به ڏيک موڊ استعمال ڪندڙ جي ترجيحن تي منحصر ناهي (site.ini [ContentSettings] CachedViewPreferences).</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>اهي ترجيحون جن تي هنن ڏيک موڊن جا ڏيک منحصر آهن (CachedViewPreferences)، استعمال ڪندڙ جي قدر يا ڊفالٽ سان. اهي پروفائل ۾ userpreferences طور آهن، سڀني ڏيک موڊن جون گڏ.</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>ڏسڻ جو موڊ</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>ترجيح</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>ڊفالٽ</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>پاليسيون</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>ڪردارن جون پاليسيون ڏيکاريو (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>هي حصو کولڻ تي پاليسيون سرور تان لوڊ ٿين ٿيون، هڪ وقت ۾ هڪ صفحو، ۽ ماڊيول ۽ فنڪشن مطابق فلٽر ٿي سگهن ٿيون.</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>فنڪشن</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>سڀ ماڊيول</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>سڀ فنڪشن</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>حدون</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>وڌيڪ ڏيکاريو</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>انهن ڪردارن جون ڪي پاليسيون ناهن.</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>ڪا به پاليسي فلٽر سان نٿي ملي.</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%matching مان %shown پاليسيون (ڪل %total)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>کولڻ تي لوڊ ٿئي ٿو.</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>module/function، ڪردار، حد</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>پاليسيون ڳوليو</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>وڌيڪ لوڊ ڪريو</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>ماڊيول/فنڪشن</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>سڀ ڪردار (%count پاليسيون)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>ڪا پاليسي نه ٿي ملي.</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%matched پاليسين مان %shown</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>ڪو جواب ناهي</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>لڪايل</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>وضاحتون ڏيکاريو</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>وضاحتون لڪايو</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>کوليو</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>سڀ کوليو</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>سڀ بند ڪريو</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>ڪنجي يا قدر</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>سيشن ۾ ڳوليو</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>قسم</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>%count وڌيڪ</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>ڏيکارڻ لاءِ تمام گهڻو اندر رکيل</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>ڪٽيل، ڪل %count اکر</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>شروع ٿيو</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>ڪوڪي جو نالو</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>سيشن ID</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>هينڊلر</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>محفوظ ڪرڻ جو رستو</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>PHP ڊفالٽ</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>مدت (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>ڪوڪي</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>مدت %s سيڪنڊ</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>توهان جو پنهنجو PHP سيشن، جيئن اهو حصو کولڻ وقت هو، ڪڏهن به ٻيو نه. انهن ڪنجين جا قدر جيڪي راز وانگر لڳن ٿيون (ٽوڪن، هيش، پاسورڊ) لڪايا وڃن ٿا (debugbar.ini SessionMask[])؛ باقي سڀ ڪجهه جيئن محفوظ ٿيل آهي تيئن ڏيکاريو وڃي ٿو، ذاتي ڊيٽا به.</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>%count ڪنجيون، %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>وڏو</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>سيشن خالي آهي.</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>هن درخواست لاءِ ڪو به سيشن شروع نه ڪيو ويو.</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>ايڪسٽينشن %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>ڪرنل ۽ ٻيا</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>سڀ داخلائون نه ڏيکاريون ويون آهن: سيشن ۾ ان کان وڌيڪ آهي جيترو هتي فهرست ۾ ڏيکاري سگهجي ٿو.</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>%count ڪنجيون فهرست ۾ ناهن.</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>فريم</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>جيڪي قدر ٽوڪن وانگر لڳن ٿا (JSON Web Token، Authorization هيڊر جون سندون، نجي ڪنجي، ڊگهو هيڪس يا بي ترتيب متن) اهي به لڪايا وڃن ٿا، انهن جي ڪنجي جو نالو ڪجهه به هجي (debugbar.ini SessionValueMask[]).</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>ڪنجي راز وانگر لڳي ٿي (debugbar.ini SessionMask[]).</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>قدر ٽوڪن وانگر لڳي ٿو.</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>لڪايل ڪنجي جي هيٺان.</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>سيشن متن طور، جدول وانگر لڪايل.</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>سيشن %size کان وڏو آهي (debugbar.ini SessionWarnBytes): هن صارف جي هر درخواست سڄو سيشن پڙهي ٿي، ۽ تبديل ٿيڻ تي ان کي لکي ٿي.</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP هي سيشن فائلن ۾ رکي ٿو ۽ سڄي درخواست دوران فائل کي لاڪ رکي ٿو: ساڳئي صارف جون درخواستون (ڪيترائي ٽيب، AJAX ڪالون) هڪ ٻئي جو انتظار ڪن ٿيون.</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>کليل رکو</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>%size کان وڏو (debugbar.ini SessionWarnBytes): هن صارف جي هر درخواست سڄو سيشن پڙهي ٿي.</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%count مان %hits ڪيش مان پڙهيا ويا</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>ڪو به ٽيمپليٽ رينڊر نه ٿيو (ويو ڪيش مان پڙهيل ويو ڪو به ٽيمپليٽ رينڊر نٿو ڪري).</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>ڪردار جون تفويضون</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>ڪردار ۽ پاليسيون</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>گمنام گهمڻ وارن کان مختلف</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>گمنام گهمڻ وارن جهڙو</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70304,6 +71287,14 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>not sent</source>
         <translation>نه موڪليو ويو</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>اطلاعن وارو ڪرون ڪم پنهنجو هر هلڻ هتي رڪارڊ ڪري ٿو. حصو frequent crontab ۾ شامل ڪريو، يا exp:notification:run --apply هلايو.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>ڪنسول استعمال ڪريو: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -76022,6 +77013,98 @@ You will need to change the class of the node by using the swap functionality.</
         <source>This topic is not Released; readers do not see it.</source>
         <translation>هي موضوع جاري نه ٿيو آهي؛ پڙهندڙ ان کي نٿا ڏسن.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>مائيگريشنز</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>انسٽاليشن ۾ تبديليون فائلن طور محفوظ: انهن جي حالت، رنز، هلائڻ ۽ واپس ڪرڻ.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>سائيٽ جي اسٽيٽڪ ڪاپي GitHub Pages يا ڪنهن به git هوسٽ تي شايع ڪريو.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>اسٽيٽڪ اشاعت</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>جاچ ۾</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>پڙهندڙ هي صفحو ڏسن ٿا.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>جيستائين ڪو ان کي جاري نه ڪري، پڙهندڙن کان لڪيل آهي.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>صفحو هاڻي جاچ ۾ آهي. جيستائين جاري نه ٿئي، پڙهندڙن کان لڪيل آهي.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>صفحو جاري ٿي ويو آهي: پڙهندڙ هاڻي ان کي ڏسن ٿا.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>صفحو وري مسودو آهي. جيستائين ان جي جاچ ٿي جاري نه ٿئي، پڙهندڙن کان لڪيل آهي.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>هاڻي جاري ڪريو</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>رڳو %role ڪردار وارو اهو استعمال ڪندڙ هن ورزن کي جاري ڪري سگهي ٿو جنهن اهو نه لکيو هجي.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>جاري ٿيڻ جي انتظار ۾ مدد جا موضوع</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>جيستائين وري جاري نه ٿئي، ان کي پڙهندڙن کان لڪائي ٿو.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>اڳيان هڪ جائزو وٺندڙ ان کي جاچيندو. پڙهندڙ اڃا ان کي نه ٿا ڏسن.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>پڙهندڙ ان کي فوري ڏسن ٿا.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>وڌيڪ ڪم لاءِ ان کي جاچ مان ڪڍي ٿو. پڙهندڙ ان کي نه ٿا ڏسن.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>هي صفحو پڙهندڙن کان لڪايو؟</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>هي صفحو واپس مسودي ۾ موڪليو؟</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>جيستائين ڪو وري جاري نه ڪري، پڙهندڙ %title وڌيڪ نه ٿا ڏسن.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title وڌيڪ ڪم لاءِ واپس مسودي ۾ وڃي ٿو. پڙهندڙ اڃا به ان کي نه ٿا ڏسن، ۽ جاري ٿيڻ کان اڳ ان کي نئين جاچ گهرجي.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>رد ڪريو</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>اهي موضوع جاچ ۾ آهن. موجوده ورزن نه لکڻ وارو ڪو ماڻهو جڏهن انهن کي جاري ڪندو ته پڙهندڙ انهن کي ڏسندا.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76477,6 +77560,46 @@ You will need to change the class of the node by using the swap functionality.</
         <source>None.</source>
         <translation>ڪجهه به ناهي.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>تصديق واري ايپ سان</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>اي ميل ذريعي ڪوڊ سان</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>بحالي ڪوڊ سان</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>پاس ڪي سان</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>ٻاهرين اڪائونٽ سان</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>سيڪيورٽي سرگرمي</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>ان جي نيٽ ورڪ طور ڏيکاريو ويو آهي؛ پتو ائين رکيو وڃي ٿو جيئن سائيٽ جون ڊيٽا تحفظ سيٽنگون چون ٿيون.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>رڪارڊ نه ڪيو ويو</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>هنڌ</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>لڳ ڀڳ</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76720,6 +77843,42 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Manage devices</source>
         <translation>ڊوائيس سنڀاليو</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>تصديق واري ايپ سان</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>اي ميل ذريعي ڪوڊ سان</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>بحالي ڪوڊ سان</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>پاس ڪي سان</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>ٻاهرين اڪائونٽ سان</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>سيڪيورٽي سرگرمي</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>رڪارڊ نه ڪيو ويو</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>هنڌ</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>لڳ ڀڳ</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76799,6 +77958,14 @@ You will need to change the class of the node by using the swap functionality.</
         <source>View the sessions of this user</source>
         <translation>هن استعمال ڪندڙ جا سيشن ڏسو</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>%site تي توهان جو اڪائونٽ %login هينئر ئي اهڙي هنڌ تان لاگ ان لاءِ استعمال ٿيو جتان هن تازو لاگ ان نه ڪيو هو:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>لڳ ڀڳ هنڌ</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76837,6 +78004,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%os تي %browser</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>لاگ ان رپورٽ</translation>
     </message>
 </context>
 <context>
@@ -77045,6 +78216,82 @@ You will need to change the class of the node by using the swap functionality.</
         <source>The passkey could not be checked. Please try again.</source>
         <translation>پاس ڪي جي جاچ نه ٿي سگهي. مهرباني ڪري ٻيهر ڪوشش ڪريو.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>جيڪي اڪائونٽ صرف پاس ڪيئن سان لاگ ان ٿين ٿا، اهي هتي پاسورڊ استعمال نٿا ڪري سگهن: “پاس ڪي سان لاگ ان ڪريو” چونڊيو.</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>%login جون پاس ڪيئون</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>اهي پاس ڪيئون جن سان هي اڪائونٽ لاگ ان ٿئي ٿو. گم ٿيل يا چوري ٿيل ڊوائيس تي موجود پاس ڪي منسوخ ڪريو: ان سان وڌيڪ لاگ ان نه ٿي سگهندو. نيون پاس ڪيئون مالڪ پاڻ شامل ڪري ٿو.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>توهان جي اڪائونٽ کي هڪ پاس ڪي گهرجي</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>پنهنجي اڪائونٽ ۾ هڪ پاس ڪي شامل ڪريو</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>جاري رکڻ لاءِ هڪ پاس ڪي شامل ڪريو. پوءِ توهان صرف پاسورڊ بدران ان سان لاگ ان ٿيندا.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>پاس ڪي سان لاگ ان ٿيڻ پاسورڊ کان وڌيڪ تيز ۽ محفوظ آهي. هاڻي هڪ شامل ڪريو، يا ان کان سواءِ جاري رکو.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>هاڻي نه</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>پاس ڪي “%name” منسوخ ڪجي؟</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>ان سان هاڻي هن اڪائونٽ ۾ لاگ ان نٿو ٿي سگهي. جيڪڏهن اها آخري هئي ته مالڪ پاسورڊ سان لاگ ان ٿيندو، يا توهان نئون پاسورڊ مقرر ڪندا.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>پاس ڪي منسوخ ڪريو</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>منسوخ ڪريو</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>هن اڪائونٽ وٽ ڪا پاس ڪي ناهي.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>تصديق ڪندڙ</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>اڻڄاتل</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>توهان جي آخري پاس ڪي: ان کي هٽائڻ کان اڳ ٻي شامل ڪريو.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>هي اڪائونٽ صرف پاس ڪيئن سان لاگ ان ٿئي ٿو (پاس ڪي پاليسي): ڪا به نه بچي ته اهو وري پنهنجي پاسورڊ سان لاگ ان ٿيندو.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>هي توهان جي آخري پاس ڪي آهي ۽ توهان جو اڪائونٽ ان کان سواءِ لاگ ان نٿو ٿي سگهي. پهريان ٻي پاس ڪي شامل ڪريو.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>پاس ڪي “%name” منسوخ ڪئي وئي. ان سان هاڻي هن اڪائونٽ ۾ لاگ ان نٿو ٿي سگهي.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77144,6 +78391,34 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Code from your authenticator app</source>
         <translation>توهان جي تصديق ڪندڙ ايپ جو ڪوڊ</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>توهان ڊيٽا کي هميشه لاءِ ختم ڪرڻ يا لاگ صاف ڪرڻ وارا آهيو.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>توهان جو پاسورڊ ۽ هڪ پاس ڪي</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>توهان جو پاسورڊ ۽ توهان جي تصديق ڪندڙ ايپ جو ڪوڊ</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>يا:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>هي برائوزر پاس ڪيئون استعمال نٿو ڪري سگهي. ٻيو طريقو يا ٻيو برائوزر استعمال ڪريو.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>جڏهن توهان جاري رکندا، توهان جو برائوزر توهان جي پاس ڪيئن مان هڪ گهرندو.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>پاس ڪي سان جاري رکو</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77234,6 +78509,70 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Setup</source>
         <translation>سيٽ اپ</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>پنهنجو پاسورڊ، اي ميل پتو، پاس ڪيئون، ٻن قدمن وارو لاگ ان، بحالي ڪوڊ يا API ڪنجيون تبديل ڪرڻ، ۽ پنهنجي ٻين ڊوائيسن تان لاگ آئوٽ ڪرڻ.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>استعمال ڪندڙن، انهن جي پاسورڊن ۽ ڊوائيسن، اڪائونٽ سيٽنگن کي ٺاهڻ ۽ تبديل ڪرڻ، نوان اڪائونٽ منظور يا رد ڪرڻ، ڪردار ڏيڻ ۽ پاليسيون تبديل ڪرڻ.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>ڊيٽا ختم ڪرڻ</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>ڪچرادان خالي ڪرڻ، ان مان شيون هٽائڻ ۽ هڪ ئي وقت ڪيتريون شيون هٽائڻ.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>مواد هٽائڻ، شايع ڪرڻ ۽ محفوظ ڪرڻ</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>مواد هٽائڻ (ڪچرادان ۾ به)، شايع ڪرڻ ۽ مسودو محفوظ ڪرڻ، فارم موڪلڻ وقت پڇيو ويندو آهي. ڊفالٽ طور بند.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>ڪنهن حساس عمل کان اڳ لاگ ان ٿيل استعمال ڪندڙ ٻيهر تصديق ڪري ٿو ته هو ڪير آهي: پنهنجي پاسورڊ ۽ پاس ڪي سان، يا پاس ڪي کان سواءِ پنهنجي پاسورڊ ۽ تصديق ڪندڙ ايپ جي ڪوڊ سان. صرف ويب صفحا پڇن ٿا: REST انٽرفيس، SOAP، WebDAV، expservices لاگ ان ۽ ڪمانڊ لائين ڪڏهن به نه.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>سيٽنگون ڪٿي لاڳو ٿين ٿيون</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>سيٽنگون لاءِ</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>هر سائيٽ رسائي</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>سائيٽ رسائي %name</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>کوليو</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>ڪنهن کان پڇيو وڃي: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>صرف انهن جي ميمبرن کان پڇڻ لاءِ استعمال ڪندڙن جا گروپ نشان لڳايو (مثال طور ايڊيٽر). ڪو به نشان نه: هر استعمال ڪندڙ.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>settings/override/site.ini.append.php ۾، هر سائيٽ رسائي لاءِ محفوظ ٿئي ٿو. محفوظ ڪرڻ وقت تصديق گهري وڃي ٿي ته اهو توهان آهيو.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>settings/siteaccess/%name/site.ini.append.php ۾ محفوظ ٿئي ٿو. settings/override ۾ موجود قدر کي ان تي ترجيح آهي. محفوظ ڪرڻ وقت تصديق گهري وڃي ٿي ته اهو توهان آهيو.</translation>
     </message>
 </context>
 <context>
@@ -77336,6 +78675,6822 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Open the page</source>
         <translation>صفحو کوليو</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%count مان %from کان %to</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>لاگ ان نالو يا استعمال ڪندڙ جي ID: اهو اڪائونٽ جنهن بابت واقعو هو يا اهو استعمال ڪندڙ جنهن عمل ڪيو.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>اڪائونٽ</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>عمل</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>پوءِ</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>ڪو به نتيجو</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>پهريان</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>ڪندڙ</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>صاف ڪريو</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>مڪمل</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>واقعا %days ڏينهن تائين رکيا ويندا آهن.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>واقعا تيستائين رکيا ويندا آهن جيستائين انهن کي هٿ سان هٽايو نه وڃي.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>واقعا</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>هر عمل</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>هن اڪائونٽ جا سڀ واقعا</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>لسٽ کي CSV طور برآمد ڪريو (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>ناڪام</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>کان</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>لسٽ محدود ڪريو</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>ڪو به واقعو نٿو ملي.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>في صفحو</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>audit.ini ۾ رڪارڊنگ بند آهي ([UserAuditSettings] UserAudit)؛ لسٽ اهو ڏيکاري ٿي جيڪو اڳ ۾ رڪارڊ ٿيو هو.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>رد ٿيل</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>نتيجو</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>ڏيکاريو</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>استعمال ڪندڙن جي آڊٽ لاگ جو ٽيبل موجود ناهي. ان کي php update/common/scripts/6.0/createuseraudittable.php سان ٺاهيو؛ تيستائين آڊٽ فائلون هر واقعو محفوظ رکن ٿيون.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>هن صفحي کي SQL ڊيٽابيس گهرجي؛ اهو MongoDB تي موجود ناهي. آڊٽ فائلون هر واقعو محفوظ رکن ٿيون.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>تائين</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>استعمال ڪندڙن جو آڊٽ لاگ</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>استعمال ڪندڙ</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>ڪڏهن</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>ڪٿي</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>ڪنهن ڪهڙو اڪائونٽ تبديل ڪيو، ٺاهيو، فعال ڪيو، غير فعال ڪيو، منتقل ڪيو يا هٽايو، ڪير لاگ ان ٿيو يا رد ٿيو، ۽ ڪهڙا ڪردار ڏنا ويا: هر واقعي جي هڪ لائين، فيلڊن جي اڳ ۽ پوءِ جي قدرن سان. پاسورڊ ۽ راز ڪڏهن به رڪارڊ نٿا ڪيا وڃن.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>گروپ</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>سسٽم</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>اڻڄاتل</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>پنهنجو اڪائونٽ محفوظ ڪريو</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>%site تي توهان جي اڪائونٽ %login ۾ لاگ ان لاءِ هڪ بحالي ڪوڊ استعمال ڪيو ويو.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>هڪ بحالي ڪوڊ استعمال ڪيو ويو</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>اڪائونٽ</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>لڳ ڀڳ پتو</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>ٻيهر لاگ ان ٿيڻ لاءِ نئون پاسورڊ گهرو، يا سائيٽ جي منتظمن سان رابطو ڪريو.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>نئون پاسورڊ گهرو</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>هر بحالي ڪوڊ هڪ ڀيرو ڪم ڪري ٿو. جيڪڏهن توهان جو فون گم ٿي ويو آهي ته پنهنجي تصديق واري ايپ ٻيهر سيٽ اپ ڪريو ۽ نوان بحالي ڪوڊ ڪنهن محفوظ هنڌ رکو.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>توهان جي اڪائونٽ ۾ لاگ ان جون ناڪام ڪوششون</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>هاڻي کان لاگ ان توهان جي پاسورڊ کان سواءِ هڪ ڪوڊ به گهرندو. جيڪڏهن اهو توهان ڪيو آهي ته توهان کي ڪجهه به ڪرڻ جي ضرورت ناهي.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>جيڪڏهن اهو توهان هئا ۽ توهان پنهنجو پاسورڊ وساري ويٺا آهيو ته نئون پاسورڊ گهرو. جيڪڏهن نه، ته وڌيڪ مضبوط پاسورڊ چونڊيو ۽ ٻن قدمن وارو لاگ ان چالو ڪريو.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>جيڪڏهن اهو توهان نه هئا ته ٿي سگهي ٿو ڪو توهان جو پاسورڊ ڄاڻي ٿو: ان کي هينئر ئي تبديل ڪريو ۽ ڏسو ته توهان جو اڪائونٽ ڪٿي لاگ ان آهي.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>باقي بحالي ڪوڊ</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>پنهنجين ڊوائيسن جو جائزو وٺو</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>سيڪيورٽي خبرداري</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>ڪنهن %site تي توهان جي اڪائونٽ %login ۾ غلط پاسورڊ سان لاڳيتو %count ڀيرا لاگ ان ٿيڻ جي ڪوشش ڪئي.</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>%site تي توهان جي اڪائونٽ %login ۾ هڪ سيڪيورٽي واقعو ٿيو.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>هي توهان جي اڪائونٽ بابت سيڪيورٽي خبرداري آهي. اها هر اهڙي تبديلي تي موڪلي وڃي ٿي ۽ بند نٿي ڪري سگهجي.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>وقت</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>%site تي توهان جي اڪائونٽ %login لاءِ ٻن قدمن وارو لاگ ان بند ڪيو ويو.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>ٻن قدمن وارو لاگ ان بند ڪيو ويو</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>%site تي توهان جي اڪائونٽ %login لاءِ ٻن قدمن وارو لاگ ان چالو ڪيو ويو.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>ٻن قدمن وارو لاگ ان چالو ڪيو ويو</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>%site تي توهان جو اڪائونٽ %login تمام گهڻن ناڪام لاگ ان کان پوءِ بند ڪيو ويو.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>توهان جو اڪائونٽ هاڻي صرف توهان جي پاسورڊ سان محفوظ آهي. جيڪڏهن اهو توهان نه ڪيو آهي ته پنهنجو پاسورڊ تبديل ڪرڻ کان پوءِ ٻن قدمن وارو لاگ ان ٻيهر چالو ڪريو.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>توهان جو اڪائونٽ بند ڪيو ويو</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>%site تي توهان جي اڪائونٽ %login ۾ هڪ پاس ڪي شامل ڪئي وئي.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>جنهن وٽ به هي پاس ڪي آهي، اهو توهان جي پاسورڊ کان سواءِ توهان جي اڪائونٽ ۾ لاگ ان ٿي سگهي ٿو. جيڪڏهن توهان اها شامل نه ڪئي، ته پاس ڪيئون هيٺ ان کي هٽايو ۽ پنهنجو پاسورڊ تبديل ڪريو.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>%site تي توهان جي اڪائونٽ %login مان هڪ پاس ڪي هٽائي وئي.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>ان سان هاڻي توهان جي اڪائونٽ ۾ لاگ ان نٿو ٿي سگهي. جيڪڏهن توهان اها نه هٽائي، ته پنهنجون پاس ڪيئون ۽ ڊوائيسون چيڪ ڪريو.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>توهان جي اڪائونٽ ۾ هڪ پاس ڪي شامل ڪئي وئي</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>توهان جي اڪائونٽ مان هڪ پاس ڪي هٽائي وئي</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>سيڪيورٽي سرگرمي</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>%name جي سيڪيورٽي سرگرمي</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>لاگ ان ٿيو</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>لاگ ان جي ناڪام ڪوشش</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>لاگ آئوٽ ٿيو</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>سيشن لاگ آئوٽ ڪيا ويا</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>نئين ڊوائيس تان لاگ ان</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>نئين هنڌ تان لاگ ان</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>سڃاڻپ جي تصديق ٿي (&quot;تصديق ڪريو ته هي توهان آهيو&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>سڃاڻپ جي جانچ ناڪام</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>پاس ڪي سان لاگ ان ٿيو</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>پاس ڪي سان لاگ ان ناڪام</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>لاگ ان رد ڪيو ويو: ٻن قدمن وارو ڪوڊ غائب يا غلط آهي</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>غلط ٻن قدمن وارو ڪوڊ</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>ناڪام لاگ ان کان پوءِ اڪائونٽ بند ڪيو ويو</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>اڪائونٽ کوليو ويو</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>پاسورڊ تبديل ٿيو</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>پاسورڊ جي تبديلي ناڪام</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>پاسورڊ ري سيٽ ٿيو</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>نئون پاسورڊ گهريو ويو</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>اي ميل پتو تبديل ٿيو</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>استعمال ڪندڙ جو نالو تبديل ٿيو</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>ٻن قدمن وارو لاگ ان چالو ٿيو</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>ٻن قدمن وارو لاگ ان بند ٿيو</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>بحالي ڪوڊ استعمال ٿيو</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>نوان بحالي ڪوڊ</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>ايپ پاسورڊ ٺاهيو ويو</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>ايپ پاسورڊ منسوخ ڪيو ويو</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>پاس ڪي شامل ڪئي وئي</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>پاس ڪي هٽائي وئي</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>اڪائونٽ فعال ڪيو ويو</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>اڪائونٽ غير فعال ڪيو ويو</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>سڀ</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>لاگ ان ۽ سيشن</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>اڪائونٽ جون تبديليون</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>ڌيان گهرجي</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>توهان پاران</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>استعمال ڪندڙ پاران</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>%login پاران</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>طريقو</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>براؤزر</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>آپريٽنگ سسٽم</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>ڊوائيس</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>جاءِ</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>ملڪ</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>سيشن</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>ڪهڙا</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>چينل</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>ناڪام ڪوششون</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>باقي ڪوڊ</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>لاگ ان هينڊلر</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>سيڪيورٽي سرگرمي</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>%name جي سيڪيورٽي سرگرمي</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>توهان جي اڪائونٽ جي سيڪيورٽي ۾ لاگ ان ۽ تبديليون. جيڪڏهن توهان ڪجهه اهڙو ڏسو جيڪو توهان نه ڪيو آهي ته پنهنجو پاسورڊ تبديل ڪريو ۽ انهن ڊوائيسن کي لاگ آئوٽ ڪريو جن کي توهان نٿا سڃاڻو.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>هن اڪائونٽ جي سيڪيورٽي ۾ لاگ ان ۽ تبديليون.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>توهان جون ڊوائيسون</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>پاسورڊ تبديل ڪريو</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>اڪائونٽ ڏانهن واپس</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>سيڪيورٽي سرگرمي رڪارڊ نٿي ٿئي</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>اها استعمال ڪندڙن جي آڊٽ لاگ مان پڙهي وڃي ٿي، جنهن جو ٽيبل expuser_audit غائب آهي يا هن ڊيٽابيس تي سهائتا يافته ناهي. php update/common/scripts/6.0/createuseraudittable.php هلايو، يا 6.0.15 جي ڊيٽابيس اپڊيٽ.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>گذريل %days ڏينهن</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>گذريل %days ڏينهن ۾ لاگ ان</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>تازي سيڪيورٽي سرگرمي</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>ڏيکاريو</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>ناڪام</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>رد ٿيل</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>اڃا تائين ڪا سيڪيورٽي سرگرمي رڪارڊ ناهي ٿي.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>سيڪيورٽي واقعا %days ڏينهن تائين رکيا وڃن ٿا.</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>سيڪيورٽي واقعا تيستائين رکيا وڃن ٿا جيستائين ڪو منتظم انهن کي هٽائي.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>منهنجو لاگ ان ڊيٽا ڊائونلوڊ ڪريو</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>توهان جا سيشن ۽ سيڪيورٽي واقعا هڪ JSON فائل طور.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>هن سائيٽ تي سيشن رڪارڊ نه ٿيندا آهن، تنهن ڪري ٻي ڪا به ڊوائيس لاگ آئوٽ نه ٿي سگهي. هاڻي ئي پنهنجو پاسورڊ تبديل ڪريو.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count ٻيا سيشن لاگ آئوٽ ڪيا ويا. هاڻي پنهنجو پاسورڊ تبديل ڪريو.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>ٻي ڪا به ڊوائيس لاگ ان نه هئي. هاڻي پنهنجو پاسورڊ تبديل ڪريو.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>مهرباني. هي واقعو توهان جي طور تي نشان لڳايو ويو آهي.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>ان واقعي کي ڪنهن جواب جي ضرورت ناهي.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>صفحي جي مدي ختم ٿي وئي هئي. ڪجهه تبديل نه ٿيو؛ مهرباني ڪري ٻيهر ڪوشش ڪريو.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>پنهنجو اڪائونٽ محفوظ ڪريو</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>جيڪڏهن هتي ڪجهه توهان نه ڪيو هو، ته باقي سڀ ڊوائيسون لاگ آئوٽ ڪريو، پوءِ نئون پاسورڊ چونڊيو. مون کي ياد رکو سان لاگ ان رهيل ڊوائيسون به لاگ آئوٽ ٿي وينديون.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>هن کان سواءِ هر ڊوائيس پنهنجي ايندڙ درخواست تي لاگ آئوٽ ٿي ويندي. پوءِ توهان نئون پاسورڊ چونڊيو.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>ها، باقي ڊوائيسون لاگ آئوٽ ڪريو</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>ڇا هي توهان هئا؟</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>ها، اهو مان هوس</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>نه، منهنجو اڪائونٽ محفوظ ڪريو</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>لاگ ان ٿيو</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>لاگ ان جي ناڪام ڪوشش</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>لاگ آئوٽ ٿيو</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>سيشن لاگ آئوٽ ڪيا ويا</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>نئين ڊوائيس تان لاگ ان</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>نئين هنڌ تان لاگ ان</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>سڃاڻپ جي تصديق ٿي (&quot;تصديق ڪريو ته هي توهان آهيو&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>سڃاڻپ جي جانچ ناڪام</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>پاس ڪي سان لاگ ان ٿيو</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>پاس ڪي سان لاگ ان ناڪام</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>لاگ ان رد ڪيو ويو: ٻن قدمن وارو ڪوڊ غائب يا غلط آهي</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>غلط ٻن قدمن وارو ڪوڊ</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>ناڪام لاگ ان کان پوءِ اڪائونٽ بند ڪيو ويو</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>اڪائونٽ کوليو ويو</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>پاسورڊ تبديل ٿيو</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>پاسورڊ جي تبديلي ناڪام</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>پاسورڊ ري سيٽ ٿيو</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>نئون پاسورڊ گهريو ويو</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>اي ميل پتو تبديل ٿيو</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>استعمال ڪندڙ جو نالو تبديل ٿيو</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>ٻن قدمن وارو لاگ ان چالو ٿيو</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>ٻن قدمن وارو لاگ ان بند ٿيو</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>بحالي ڪوڊ استعمال ٿيو</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>نوان بحالي ڪوڊ</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>ايپ پاسورڊ ٺاهيو ويو</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>ايپ پاسورڊ منسوخ ڪيو ويو</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>پاس ڪي شامل ڪئي وئي</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>پاس ڪي هٽائي وئي</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>اڪائونٽ فعال ڪيو ويو</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>اڪائونٽ غير فعال ڪيو ويو</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>سڀ</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>لاگ ان ۽ سيشن</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>اڪائونٽ جون تبديليون</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>ڌيان گهرجي</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>سيڪيورٽي سرگرمي</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>%name جي سيڪيورٽي سرگرمي</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>توهان جي اڪائونٽ جي سيڪيورٽي ۾ لاگ ان ۽ تبديليون. جيڪڏهن توهان ڪجهه اهڙو ڏسو جيڪو توهان نه ڪيو آهي ته پنهنجو پاسورڊ تبديل ڪريو ۽ انهن ڊوائيسن کي لاگ آئوٽ ڪريو جن کي توهان نٿا سڃاڻو.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>توهان جون ڊوائيسون</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>پاسورڊ تبديل ڪريو</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>هن سائيٽ تي اڃا سيڪيورٽي سرگرمي رڪارڊ نٿي ٿئي.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>گذريل %days ڏينهن ۾ لاگ ان</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>ناڪام ڪوششون</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>اڃا تائين ڪا سيڪيورٽي سرگرمي رڪارڊ ناهي ٿي.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>منهنجو لاگ ان ڊيٽا ڊائونلوڊ ڪريو</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>توهان جا سيشن ۽ سيڪيورٽي واقعا هڪ JSON فائل طور.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>هن سائيٽ تي سيشن رڪارڊ نه ٿيندا آهن، تنهن ڪري ٻي ڪا به ڊوائيس لاگ آئوٽ نه ٿي سگهي. هاڻي ئي پنهنجو پاسورڊ تبديل ڪريو.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count ٻيا سيشن لاگ آئوٽ ڪيا ويا. هاڻي پنهنجو پاسورڊ تبديل ڪريو.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>ٻي ڪا به ڊوائيس لاگ ان نه هئي. هاڻي پنهنجو پاسورڊ تبديل ڪريو.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>مهرباني. هي واقعو توهان جي طور تي نشان لڳايو ويو آهي.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>ان واقعي کي ڪنهن جواب جي ضرورت ناهي.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>صفحي جي مدي ختم ٿي وئي هئي. ڪجهه تبديل نه ٿيو؛ مهرباني ڪري ٻيهر ڪوشش ڪريو.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>پنهنجو اڪائونٽ محفوظ ڪريو</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>جيڪڏهن هتي ڪجهه توهان نه ڪيو هو، ته باقي سڀ ڊوائيسون لاگ آئوٽ ڪريو، پوءِ نئون پاسورڊ چونڊيو. مون کي ياد رکو سان لاگ ان رهيل ڊوائيسون به لاگ آئوٽ ٿي وينديون.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>هن کان سواءِ هر ڊوائيس پنهنجي ايندڙ درخواست تي لاگ آئوٽ ٿي ويندي. پوءِ توهان نئون پاسورڊ چونڊيو.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>ها، باقي ڊوائيسون لاگ آئوٽ ڪريو</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>ڇا هي توهان هئا؟</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>ها، اهو مان هوس</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>نه، منهنجو اڪائونٽ محفوظ ڪريو</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>پاسورڊ</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>پاسورڊ ۽ ٻن قدمن وارو ڪوڊ</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>REST انٽرفيس</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>SOAP انٽرفيس</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>سنگل سائن آن</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>سيشن رڪارڊ ٿيڻ کان اڳ لاگ ان ٿيو</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>لاگ ان رپورٽ</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>سائيٽ تي ڪير لاگ ان آهي، اڪائونٽ ڪيترا ڀيرا لاگ ان ٿين ٿا ۽ ناڪام ٿين ٿا، ۽ ڪنهن استعمال ڪندڙ کي هر هنڌ تان لاگ آئوٽ ڪرڻ. هر سيشن هينڊلر سان ڪم ڪري ٿي.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>سيشن لاگ آئوٽ ڪيو ويو. ڊوائيس کي ٻيهر لاگ ان ٿيڻو پوندو.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>%login کي %count سيشنن مان لاگ آئوٽ ڪيو ويو.</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>%login جو ڪوبه هلندڙ سيشن نه هو.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>ڪنهن به اڪائونٽ جو اهو ID، استعمال ڪندڙ جو نالو يا اي ميل پتو ناهي.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>هي اهو سيشن آهي جيڪو توهان استعمال ڪري رهيا آهيو. ان کي ختم ڪرڻ لاءِ لاگ آئوٽ ڪريو.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>اهو سيشن اڳ ئي ختم ٿي چڪو هو.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>صفحي جي مدت ختم ٿي چڪي هئي. ڪجهه به تبديل نه ٿيو؛ مهرباني ڪري ٻيهر ڪوشش ڪريو.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>هن سائيٽ تي سيشن رڪارڊ نٿا ٿين (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>ٽيبل expuser_session غائب آهي</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>ان جي ٺهڻ سان ئي سيشن رڪارڊ ٿيڻ لڳندا: php update/common/scripts/6.0/createusersessiontable.php، يا 6.0.15 جي ڊيٽابيس اپڊيٽ.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>هاڻي ۽ اڄ</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>هلندڙ سيشن</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>لاگ ان استعمال ڪندڙ</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>اڄ جا لاگ ان</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>اڄ جون ناڪام ڪوششون</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>ڪنهن استعمال ڪندڙ کي هر هنڌ تان لاگ آئوٽ ڪريو</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>اڪائونٽ جو هر سيشن پنهنجي ايندڙ درخواست تي ختم ٿئي ٿو، اهي به جيڪي &quot;مون کي ياد رکو&quot; سان رکيل آهن. اهو تڏهن استعمال ڪريو جڏهن ڪو اڪائونٽ غلط هٿن ۾ هجي سگهي؛ پوءِ ان جو پاسورڊ ري سيٽ ڪريو.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>استعمال ڪندڙ ID، استعمال ڪندڙ جو نالو يا اي ميل پتو</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>هر هنڌ تان لاگ آئوٽ ڪريو</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>هاڻي لاگ ان</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>تازو استعمال ٿيل %limit ڏيکاريا ويا آهن.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>استعمال ڪندڙ</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>ڊوائيس</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>پتو</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>لاگ ان ٿيو</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>آخري ڀيرو سرگرم</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>ڪارروايون</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>هي ڊوائيس</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>رڪارڊ نه ڪيو ويو</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>لاگ آئوٽ ڪريو</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>ڪوبه سيشن لاگ ان ناهي.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>گذريل %days ڏينهن</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>لاگ ان ۽ ناڪام ڪوششون استعمال ڪندڙن جي آڊٽ لاگ مان ڳڻيون وڃن ٿيون، جيڪو موجود ناهي؛ نوان سيشن ڳڻيا وڃن ٿا.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>ڏينهن</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>لاگ ان</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>ناڪام ڪوششون</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>نوان سيشن</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>سيشن هينڊلر: %handler. سيشن ٽيبل expuser_session مان پڙهيا وڃن ٿا، تنهن ڪري رپورٽ هر هينڊلر سان ڪم ڪري ٿي.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>گذريل %hours ڪلاڪن ۾ مشڪوڪ سرگرمي</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>هڪ نيٽ ورڪ %accounts اڪائونٽن ۾ لاگ ان ڪرڻ ۾ ناڪام ٿيو (%count ڪوششون)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>ناڪام لاگ ان کان پوءِ اڪائونٽ بند ڪيو ويو</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>هڪ اڪائونٽ تي %count ناڪام لاگ ان</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>هڪ ئي وقت %count ملڪن مان لاگ ان ٿيو</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>سيڪيورٽي سرگرمي</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>سيشن</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>ناڪام لاگ ان يوزر آڊٽ لاگ مان پڙهيا ويندا آهن، جيڪو هتي دستياب ناهي.</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>ڪجهه به مشڪوڪ ناهي: بار بار ناڪام لاگ ان وارو ڪو اڪائونٽ ناهي، ڪيترن اڪائونٽن جي ڪوشش ڪندڙ ڪو نيٽ ورڪ ناهي، ڪيترن ملڪن مان لاگ ان ٿيل ڪو اڪائونٽ ناهي.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>توهان جي اڪائونٽ لاءِ سيڪيورٽي خبرداري</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>توهان جي اڪائونٽ %login ۾ هڪ سيڪيورٽي واقعو ٿيو: %event. جيڪڏهن اهو توهان نه هئا ته %url تي پنهنجو اڪائونٽ محفوظ ڪريو.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>سيٽ اپ</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>هن سائيٽ جي مواد کان هڪ ئي درخواست ۾ بلڪل اهي فيلڊ گهرو جن جي ڪنهن صفحي کي ضرورت آهي. اسڪيما مواد جي ڪلاسن جي پيروي ڪري ٿو؛ هر ڪوئري ان کي موڪليندڙ استعمال ڪندڙ جي اختيارن سان هلي ٿي.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>هن سائيٽ رسائي ۾ GraphQL API بند آهي. ان کي graphql.ini ۾ چالو ڪريو: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>GraphQL لائبريري (webonyx/graphql-php 15) انسٽال ٿيل ناهي.</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>اينڊ پوائنٽ</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>لائبريري</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>اسڪيما</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>%count مواد ڪلاس، اسڪيما %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>ڪوئري</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>متغير (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>هلايو</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>جواب</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>هلي رهيو آهي…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>جواب پڙهي نه سگهيو.</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>ڪوئري توهان جي اختيارن سان، هن سيشن سان سائن ان ٿي هلي ٿي.</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%count، %seconds سيڪنڊن ۾</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>ڪا حد ناهي</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>گهرائي</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>پيچيدگي</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>هر فهرست ۾ شيون</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (ڊفالٽ %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>هر يوزر يا ڪيئي لاءِ درخواستون</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>هر گمنام پتي لاءِ درخواستون</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>انٽرو اسپيڪشن</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>صرف محفوظ ٿيل ڪوئريون</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>سڀ کان وڏي ڪوئري</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>%bytes بائيٽس</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>سڀ کان وڏو اپلوڊ</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>ڪا به سائيٽ رسائي %siteaccess ناهي.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>%siteaccess ۾ ميوٽيشنز چالو ڪيون ويون.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>%siteaccess ۾ ميوٽيشنز بند ڪيون ويون.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>%siteaccess ۾ GraphQL API چالو ڪيو ويو.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>%siteaccess ۾ GraphQL API بند ڪيو ويو.</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>سيٽنگون لکي نه سگهيون: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>جواب ڪيش صاف ٿي وئي: %count جواب هٽايا ويا.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>ڪوئري هٽائڻ لاءِ ان جي ڀرسان باڪس تي نشان لڳايو.</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>ڪوئري هٽائي نه سگهجي: PersistedQueryDirectoryList[] جي ڪنهن ڊائريڪٽري ۾ آيل ڪوئري پنهنجي فائل سان گڏ هٽائي ويندي آهي.</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>محفوظ ٿيل ڪوئري هٽائي وئي.</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>ميوٽيشنز</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>چالو</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>بند</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>سائيٽ رسائيون</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>جتي API ۽ ان جون ميوٽيشنز جواب ڏين ٿيون. بٽڻ graphql.ini لکن ٿا، جيئن ./console exp:graphql:enable ۽ exp:graphql:disable ڪن ٿا.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>سائيٽ رسائي</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>GraphQL API</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>تبديل ڪريو</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>بند ڪريو</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>ميوٽيشنز بند</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>ميوٽيشنز چالو</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>چالو ڪريو</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>حدون</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>هن سائيٽ رسائي جو graphql.ini [GraphQLSettings].</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>جواب ڪيش</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>محفوظ ٿيل ڪوئرين جا جواب، يوزر جي اختيارن مطابق رکيل ۽ جڏهن به مواد شايع ٿئي ته ختم ٿيندڙ.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>حالت</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>رکيل جواب</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>%count جواب، %bytes بائيٽس</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>وڌ ۾ وڌ رکيا وڃن</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds سيڪنڊ</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>آخري ڀيرو ختم ٿيو</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>جواب ڪيش صاف ڪريو</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>محفوظ ٿيل ڪوئريون</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>./console exp:graphql:persist سان، يا ڪلائنٽس طرفان محفوظ ٿيل (خودڪار محفوظ ڪوئريون)؛ نالي يا SHA-256 سان سڏيون وڃن ٿيون.</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>نالا</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>سائيز</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>ڪٿي</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>هٽايو</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>گڏ آيل</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>محفوظ ٿيل</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>ها، هي ڪوئري هٽايو</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>اڃا ڪا محفوظ ٿيل ڪوئري ناهي.</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>API ڪيز</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>ذاتي API ڪيز دائري graphql:read (ڪوئريون) يا graphql:write (ميوٽيشنز) سان. انهن کي API رسائي واري صفحي تي، يا ./console exp:graphql:keys سان ٺاهيو ۽ منسوخ ڪريو.</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>API رسائي</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>سڀ ڪيز</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>ڪيئي</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>نالو</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>مالڪ</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>دائرا</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>آخري استعمال</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>فعال</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>ختم ٿيل</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>منسوخ ٿيل</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>ڪڏهن به نه</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>اڃا GraphQL دائري واري ڪا API ڪيئي ناهي.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>هي صفحو ڏيکاريندڙ سائيٽ رسائي %siteaccess ۾ GraphQL API بند آهي؛ هيٺيون جدول ڏيکاري ٿو ته اهو ڪٿي جواب ڏئي ٿو.</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>هي صفحو ڏيکاريندڙ سائيٽ رسائي %siteaccess لاءِ.</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>ويب هڪس</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>هر ايونٽ جيڪو ڪو اينڊ پوائنٽ گهري (publish, update, trash, delete, move, hide, reveal, mutation) ان ڏانهن صحيح سان ڪرون جاب حصي graphqlwebhooks ذريعي موڪليو ويندو آهي. ./console exp:graphql:webhooks اهو ئي ڪم ڪري ٿو جيڪو هي سيڪشن.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>ايونٽس</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>سڀ</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>هر سائيٽ رسائي</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>خراب</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>ڪو راز ناهي</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>انتظار ۾</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count ڇڏيا ويا</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>آخري ترسيل</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>ٽيسٽ موڪليو</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>ها، هي ويب هڪ هٽايو</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>اڃا ڪو ويب هڪ ناهي.</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>ويب هڪ شامل ڪريو</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>شامل ڪريو</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>تازيون ترسيلون</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>وقت</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>نتيجو</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>سبسڪرپشنز</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>ڪلائنٽس لاءِ لائيو تازه ڪاريون: /api/graphql/subscribe تي هڪ ايونٽ اسٽريم، ۽ Velocity تي هڪ WebSocket (graphql-transport-ws). هر ايونٽ صرف انهن سبسڪرائبرز ڏانهن وڃي ٿو جيڪي ان جو مواد پڙهي سگهن ٿا.</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>هاڻي کليل</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>وڌ ۾ وڌ کليل</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>ڪل %total، في صارف %user، في پتو %address</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>گمنام سبسڪرپشنز</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>اسٽريم جي مدت</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>ويب هڪ شامل نه ٿي سگهيو: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>ويب هڪ %name تبديل ڪيو ويو؛ ان جو دستخطي راز برقرار رهي ٿو.</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>دستخطي راز محفوظ نه ٿي سگهيو (سيٽ اپ &gt; راز).</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>ويب هڪ %name شامل ڪيو ويو. ان جو دستخطي راز، صرف هن ڀيري ڏيکاريل: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>ڪو ويب هڪ %name ناهي.</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>ويب هڪ %name جواب نه ڏنو: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>ويب هڪ %name %ms ms ۾ %status جواب ڏنو.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>ويب هڪ هٽائڻ لاءِ ان جي ڀرسان باڪس تي نشان لڳايو.</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>ويب هڪ %name هٽايو ويو.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>هن سائيٽ رسائي ۾ GraphQL API بند آهي.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>GraphQL لائبريري انسٽال ٿيل ناهي.</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>GET يا POST استعمال ڪريو.</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>درخواست جي باڊي JSON آبجيڪٽ ناهي.</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables JSON آبجيڪٽ ناهي.</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions JSON آبجيڪٽ ناهي.</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>ڪوئري POST سان موڪليو.</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>درخواست ۾ ڪا ڪوئري ناهي.</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>ڪوئري %max بائيٽس کان ڊگهي آهي.</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>اندروني سرور جي غلطي</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node کي id، remoteId، path ۽ urlAlias مان بلڪل هڪ جي ضرورت آهي.</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content کي id ۽ remoteId مان بلڪل هڪ جي ضرورت آهي.</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>after جو ڪرسر هن API جو ڏنل ناهي.</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>تصوير جو ڪو عرف %alias ناهي (image.ini [AliasSettings] AliasList[]).</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>هتي صرف محفوظ ٿيل ڪوئريون قبول ٿين ٿيون: ڪنهن محفوظ ٿيل ڪوئري جي id موڪليو.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>محفوظ ٿيل ڪوئري جو هيش SHA-256 ناهي.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>محفوظ ٿيل ڪوئري جو هيش ڪوئري سان نٿو ملي.</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>تمام گهڻيون درخواستون: %window سيڪنڊن ۾ وڌ ۾ وڌ %limit. %reset سيڪنڊن کانپوءِ ٻيهر ڪوشش ڪريو.</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>ڪوئري %depth سطحون اونهي آهي؛ وڌ ۾ وڌ %max جي اجازت آهي.</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>ڪوئري جي پيچيدگي %complexity آهي؛ وڌ ۾ وڌ %max جي اجازت آهي.</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>هي درخواست اسڪيما نٿي پڙهي سگهي (introspection).</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search کي متن يا فلٽر جي ضرورت آهي (classes, subtree, sections, publishedAfter, publishedBefore).</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument تاريخ ناهي (ISO 8601, 2026-10-30).</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag کي id، remoteId ۽ path مان بلڪل هڪ جي ضرورت آهي.</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout کي id، identifier ۽ urlAlias مان بلڪل هڪ جي ضرورت آهي.</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>multipart درخواست جو فيلڊ operations هڪ JSON درخواست ناهي.</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>multipart درخواست جو فيلڊ map JSON آبجيڪٽ ناهي.</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>multipart درخواست ۾ فائل %field ناهي.</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>فيلڊ map جو رستو variables. سان شروع ٿيڻ گهرجي: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>فائل %name مڪمل نه پهتي (اپلوڊ نقص %error).</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>فائل %name %max بائيٽس کان وڏي آهي.</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>فائل %name جانچي نه سگهجي.</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>هن سائيٽ رسائي ۾ ميوٽيشنز بند آهن (graphql.ini [GraphQLSettings] MutationsEnabled).</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>ميوٽيشن POST سان موڪليو.</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>مواد تبديل ڪرڻ لاءِ سائن ان ڪريو.</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>API ڪيئي وٽ دائرو %scope ناهي.</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>سيشن واري ميوٽيشن کي سيشن جو فارم ٽوڪن گهرجي (هيڊر X-CSRF-Token).</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>uploadFromUrl بند آهي: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] ۾ ڪو به هوسٽ ناهي.</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>پتو https پتو هجڻ گهرجي.</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>هوسٽ %host graphql.ini [GraphQLSettings] UploadFromUrlHostList[] ۾ ناهي.</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>فائل حاصل نه ٿي سگهي.</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload صرف ان پٽ قسم آهي.</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>Upload قسم جو ويريئيبل multipart درخواست جي فائل وٺي ٿو.</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>ريموٽ id %remoteId اڳ ۾ ئي استعمال ٿيل آهي.</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>مواد جو %language ۾ ترجمو اڳ ۾ ئي موجود آهي: updateContent استعمال ڪريو.</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>گهٽ ۾ گهٽ هڪ فيلڊ ڏيو.</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>نئون ورزن ٺاهي نه سگهيو (مواد جا تمام گهڻا ڊرافٽ آهن).</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>ورزن %version ڊرافٽ ناهي.</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent کي id ۽ nodeId مان بلڪل هڪ گهرجي.</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>ڪنهن جاءِ کي پاڻ کان هيٺ منتقل نٿو ڪري سگهجي.</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>مواد جي %parentId هيٺ اڳ ۾ ئي جاءِ آهي.</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>فيلڊ %field جي قيمت محفوظ نه ٿي سگهي.</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>ڪا به مواد ٻولي %language ناهي.</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>اسڪيما ۾ ڪو به مواد ڪلاس %class ناهي.</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>مواد موجود ناهي، يا توهان کي اهو پڙهڻ جي اجازت ناهي.</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>توهان کي هن مواد سان ائين ڪرڻ جي اجازت ناهي.</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>ڪلاس %class ۾ ڪو لکڻ لائق فيلڊ %field ناهي.</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>فيلڊ %field ٻه ڀيرا ڏنل آهي.</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>فيلڊ %field فائل وٺي ٿو: ان کي اپلوڊ طور موڪليو (multipart درخواست).</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>فيلڊ %field فائل نٿو وٺي.</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>فيلڊ %field کي قيمت گهرجي.</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>فارميٽ %format صرف رچ ٽيڪسٽ فيلڊز لاءِ آهي؛ %field پنهنجي قيمت جيئن آهي تيئن وٺي ٿو (RAW).</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>فيلڊ %field لازمي آهي.</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>HTML پڙهي نه سگهجي.</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content صرف id سان version وٺي ٿو.</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>پريويو ٽوڪن صحيح ناهي يا ختم ٿي چڪو آهي.</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>اوريجن ناهي (https://host يا https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>GraphQL API جو دائرو ناهي: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>سبسڪرپشنز /api/graphql/subscribe ڏانهن موڪليو (هڪ ايونٽ اسٽريم يا هڪ WebSocket).</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>درخواست دستاويز جي ڪنهن به آپريشن جو نالو نٿي ڏئي.</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>هڪ سبسڪرپشن بلڪل هڪ فيلڊ گهري ٿي.</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>تمام گهڻيون سبسڪرپشنز کليل آهن؛ بعد ۾ ٻيهر ڪوشش ڪريو.</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>توهان وٽ %max سبسڪرپشنز کليل آهن، جيڪا وڌ ۾ وڌ اجازت آهي.</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>توهان جي پتي وٽ %max سبسڪرپشنز کليل آهن، جيڪا وڌ ۾ وڌ اجازت آهي.</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>هن سائيٽ رسائي ۾ سبسڪرپشنز بند آهن.</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>سبسڪرائب ڪرڻ لاءِ سائن ان ڪريو (هڪ ٽوڪن يا هڪ ذاتي API ڪيئي).</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>ميوٽيشنز /api/graphql ڏانهن موڪليو.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>مائيگريشنز</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>اسٽيٽس پڙهي نه سگهيو: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>مائيگريشنز جا ٽيبل اڃا موجود ناهن: ./console exp:upgrade --apply انهن کي ٺاهي ٿو.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>ناڪام مائيگريشنز: %count</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>هڪ رن هلي رهي آهي، %user شروع ڪئي</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>انسٽاليشن لاڪ ٿيل آهي: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>التوا ۾</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>ناڪام</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>يتيم</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>آخري رن</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>اڃا ڪوبه نه</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>سڀ مائيگريشنز</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>نقلي رن</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>آزمائشي رن</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>التوا ۾ مائيگريشنز هڪ ٽرانزيڪشن ۾ هليون جيڪا پوءِ واپس ڪئي وئي: ڪجهه به محفوظ نه رکيو ويو. هيٺ ڏنل آهي ته هر هڪ ڊيٽابيس ۾ ڇا تبديل ڪيو.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>هڪ رن هاڻي ڇا ڪندي. ڪجهه به تبديل نٿو ٿئي: هر التوا واري مائيگريشن اهي تبديليون ڏيکاري ٿي جيڪي هوءَ ڪندي، ۽ رن اهو جيڪو اڳ ۽ پوءِ ڪندي.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>نقل ڪريو</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>هلايو</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>آزمائشي رن ناڪام ٿي: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>نقل لاءِ PostgreSQL يا SQLite گهربل آهي، جن جون اسڪيما تبديليون واپس ٿي سگهن ٿيون؛ هن ڊيٽابيس تي هيٺيون منصوبو اهو آهي جيڪو رن ڪندي.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>مائيگريشنز</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>مائيگريشن</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>حالت</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>اها ڇا ڪندي</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>نقل: %result، %ms ms ۾</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>اڃا ڪا مائيگريشن ناهي.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>رن کان اڳ ۽ پوءِ</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>اڳ وارو اسنيپ شاٽ</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>ورتو ويندو، ۽ مائيگريشن ناڪام ٿيڻ تي بحال ڪيو ويندو</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>بند</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>پوءِ وارو اسنيپ شاٽ</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>رن ڪامياب ٿيڻ تي ورتو ويندو</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>ڪل مائيگريشنز %total: التوا ۾ %pending، مڪمل %done، ناڪام %failed.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>مائيگريشن جي تاريخ</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>هر رن پنهنجي يوزر، ماحول، اسنيپ شاٽس ۽ ان سان جيڪو ڪمٽ، ٽيگ ۽ پش ڪيو ويو. ناڪام يا روڪيل رن ٻيهر جاري ڪري سگهجي ٿي؛ جنهن رن کان اڳ اسنيپ شاٽ ورتو ويو هجي اها واپس ڪري سگهجي ٿي.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>رنز پڙهي نه سگهيون: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>مائيگريشنز جا ٽيبل اڃا موجود ناهن: ./console exp:upgrade --apply انهن کي ٺاهي ٿو.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>ڏيکاريو</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>سڀ</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>رنز</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>شروع ٿي</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>طرفان</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>اسنيپ شاٽس</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>ريپوزيٽري</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>عمل</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>اڳ</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>پوءِ</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>پش: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>ٻيهر جاري ڪريو</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>واپس ڪريو</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>هن حالت ۾ ڪا رن ناهي.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>هتي شروع ٿيل</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>انهن صفحن تي شروع ٿيل رنز، ٻيهر جاري ڪرڻ ۽ واپسيون، هر هڪ جي رپورٽ سان.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>ڇا</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>نتيجو</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>واپسي</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>%target جي واپسي</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>رن %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>رن ڇا ڪيو، ان جو رڪارڊ ۽ ان جو لاگ. هتي شروع ٿيل رن هي صفحو بند ٿيڻ تي پس منظر ۾ جاري رهي ٿي؛ ان کي ڏسڻ لاءِ صفحو ٻيهر کوليو.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>هي رن ٻيهر جاري ڪريو</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>هي رن واپس ڪريو</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>رڪارڊ پڙهي نه سگهيو: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>پيش رفت</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>%user طرفان %time تي شروع ٿي.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>ڪوڊ جي جانچ ۽ رن کان اڳ اسنيپ شاٽ وٺڻ</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>%id هلي رهي آهي (%total مان %index)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>%total مان %done مڪمل</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>مائيگريشنز هلي چڪيون؛ جيڪڏهن ڪا ناڪام ٿي ته اسنيپ شاٽ بحال ٿي رهيو آهي</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>رن کان پوءِ اسنيپ شاٽ، ڪمٽ، ٽيگ ۽ پش</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>اسنيپ شاٽ بحال ٿي رهيو آهي</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>رن ختم ٿي وئي. ان جي رپورٽ لوڊ ٿي رهي آهي.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>پيش رفت ڏسي نه سگهي. رن ڪيئن هلي رهي آهي ڏسڻ لاءِ صفحو ٻيهر لوڊ ڪريو.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>هي صفحو رن کي هلندي ڏيکاري ٿو.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>ٻيهر لوڊ ڪريو</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>رپورٽ</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>وقت</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms ملي سيڪنڊ</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>رن جيڪو غلطين طور ڇاپيو</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>رڪارڊ</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>ماحول</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>ڪوبه نه</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>ختم ٿي</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>ڪمٽ</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>ٽيگ</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>پش</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>پيغام</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>هن رن جون مائيگريشنز</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>ذريعو</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>رن لاگ</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>صرف لاگ جو آخري حصو ڏيکاريو ويو آهي.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>هلي رهي آهي</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>رپورٽ کان سواءِ ختم ٿي</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>ڪامياب</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>ناڪام</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>رد ٿيل</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>ڊيٽابيس تائين پهچ نه هئي</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>اندروني غلطي</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>هڪ رن هلي رهي آهي</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind، %user طرفان %time تي شروع ٿي.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>ان کي ڏسو</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>انسٽاليشن لاڪ ٿيل آهي</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>ٻي رن وٽ لاڪ آهي (اپ گريڊ يا ڪنسول تي رن): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>مڪمل</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>التوا ۾</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>ضرورت ناهي</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>اڻڄاتل</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>واپس ٿيل</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>لاڳو ٿيل</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>لاڳو ٿيندي</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>واپس ورتل</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>واپس ورتي ويندي</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>نه هلي</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>ٻي جو انتظار</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>تبديلي قبول ٿي</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>تبديلي قبول ٿيندي</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>نقل ٿيل</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>مائيگريشنز</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>اسٽيٽس</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>تاريخ</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>%target واپس وٺو</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>هڪ رن ان کان اڳ ورتل اسنيپ شاٽ ڏانهن واپس ورتي ويندي آهي، هڪ مائيگريشن پنهنجي down() سان. اڳوڻو اسنيپ شاٽ بحال ڪرڻ ماهرن لاءِ آهي. هر هڪ پس منظر ۾ توهان طور هلي ٿي، موجوده حالت جي اسنيپ شاٽ کان پوءِ.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>جيڪو واپس وٺي سگهجي ٿو اهو پڙهي نه سگهيو: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>هڪ رن</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>هڪ مائيگريشن</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>اڳوڻو اسنيپ شاٽ</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>وضاحت</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ها</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>نه</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>اسنيپ شاٽ</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>ليبل</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>ورتو ويو</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>قسم</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>بحال ڪرڻ وارا حصا</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>ڊيٽابيس</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>اسٽوريج فائلون (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>سيٽنگون (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>ڊيٽابيس بحال ڪرڻ ان کي سيشنز سميت اسنيپ شاٽ جي وقت ڏانهن واپس وٺي ٿو: ان کان پوءِ توهان کي ٻيهر سائن ان ڪرڻ لاءِ چيو وڃي سگهي ٿو. ان وقت کان پوءِ تبديل ٿيل سڀ ڪجهه گم ٿي ويندو؛ پهرين موجوده حالت جو اسنيپ شاٽ ورتو ويندو آهي.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>مون کي خبر آهي ته هي ڇا بحال ڪري ٿو</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>اسنيپ شاٽ جي id ٻيهر ٽائيپ ڪريو</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>ها، واپس وٺو</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>رد ڪريو</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>اهي رنز جن کان اڳ اسنيپ شاٽ ورتو ويو.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>چونڊيو</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>اڃا اسنيپ شاٽ سان ڪا رن ناهي.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>لاڳو ٿيل مائيگريشنز جيڪي پاڻ کي واپس وٺي سگهن ٿيون (انهن وٽ down() آهي).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>ڪنهن به لاڳو ٿيل مائيگريشن وٽ down() ناهي.</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>اڳوڻا اسنيپ شاٽس (ماهر)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>اڃا ڪو اسنيپ شاٽ ناهي.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>مائيگريشنز هلايو</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>رن %user طور پس منظر ۾ هلي ٿي، ۽ ان جو صفحو ان کي هلندي ڏيکاري ٿو. پهرين مائيگريشن کان اڳ انسٽاليشن جو اسنيپ شاٽ ورتو ويندو آهي؛ جڏهن مائيگريشن ناڪام ٿئي ٿي ته رن رڪجي ٿي ۽ اسنيپ شاٽ بحال ٿئي ٿو.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>پهرين آزمائشي رن</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>اسٽيٽس پڙهي نه سگهيو: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>التوا واريون مائيگريشنز</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>اهي هن ترتيب ۾ هلن ٿيون. ڪنهن هڪ کي، ۽ جيڪي ان کي گهرن ٿيون، بعد واري رن لاءِ ڇڏڻ لاءِ ان جو نشان هٽايو.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>ان کي هلايو</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>هلڻ دوران مرمت وارو موڊ آن ڪري ٿو.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>لاڳو ٿيڻ کان پوءِ تبديل ٿيل</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>هي فائلون اهي ناهن جيڪي لاڳو ڪيون ويون هيون. رن انهن کي رد ڪري ٿي جيستائين تبديلي ڪنهن سبب سان قبول نه ڪئي وڃي؛ اهي ٻيهر نه هلنديون، نئون چيڪ سم رڪارڊ ٿيندو ۽ سبب آڊٽ لاگ ۾ محفوظ ٿيندو.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>تبديليون قبول ڪريو</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>ڇو</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>ڊفالٽ محفوظ آهن. هر خانو هڪ قدم ڇڏي ٿو.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>اسنيپ شاٽ نه</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>رن کان اڳ ۽ پوءِ ڪو اسنيپ شاٽ نه: ناڪامي خودڪار طور بحال نٿي ٿي سگهي.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>بحالي نه</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>ناڪامي کان پوءِ، انسٽاليشن کي ائين ڇڏيو جيئن ناڪامي ڇڏيو.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>اڻ ڪمٽ ٿيل تبديليون رکو</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>هلايو جيتوڻيڪ سيٽنگن، ايڪسٽينشنز يا ڊزائنن ۾ اڻ ڪمٽ ٿيل تبديليون هجن؛ اهي اسنيپ شاٽ ۾ شامل ٿينديون.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>ڪمٽ نه</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>اسٽيٽس فائل ۽ رن لاگ ڪمٽ نه ڪريو (نه ٽيگ ۽ نه پش).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>پش نه</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>ڪمٽ ۽ ٽيگ ڪريو، پر پش نه ڪريو.</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>ٽيگ نه</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>ڪمٽ ۽ پش ڪريو، پر رن کي ٽيگ نه ڪريو.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>ها، اهي مائيگريشنز هاڻي هلايو</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>ڪا مائيگريشن التوا ۾ ناهي.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>اسٽيٽس ڏانهن واپس</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>هن انسٽاليشن ۾ تبديليون هڪ ڀيرو فائلن طور لکيل (مواد، ڪلاسز، ڪردار، سيٽنگون، اسڪيما) ۽ سائيٽ جي هر انسٽاليشن تي ساڳئي ترتيب ۾ لاڳو ٿيل. رن پهرين اسنيپ شاٽ وٺي ٿي، مائيگريشن ناڪام ٿيڻ تي ان کي بحال ڪري ٿي، ۽ جيڪو ڪيو ان کي رڪارڊ، ڪمٽ ۽ پش ڪري ٿي.</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>التوا واريون %count هلايو</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>جائزو</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>التوا ۾</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>مڪمل</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>ناڪام</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>ضرورت ناهي</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>ڊيٽابيس</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>ٽرانزيڪشنز: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>سائيٽ جون مائيگريشنز migrations/ ۾ آهن، ايڪسٽينشن جون extension/&lt;name&gt;/migrations/ ۾. اهي پنهنجن نالن ۽ گهرجن جي ترتيب ۾ هلن ٿيون.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>آخري رن</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>فائل لاڳو ٿيڻ کان پوءِ تبديل ٿي.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>اڃا ڪا مائيگريشن ناهي. ./console exp:migration:generate --skeleton &lt;name&gt; --apply پهرين لکي ٿو.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>تازيون رنز</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>سڀ رنز</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>اڃا ڪا رن ناهي.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>رن جي نقل لاءِ پاليسي migration/run گهربل آهي.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>هڪ رن هلي رهي آهي: ختم ٿيڻ کان پوءِ نقل ڪريو.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>سيٽ اپ</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target هن انسٽاليشن جي نه رن آهي، نه مائيگريشن ۽ نه اسنيپ شاٽ.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>پهرين &quot;ها، واپس وٺو&quot; تي نشان لڳايو.</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>اڳوڻو اسنيپ شاٽ بحال ڪرڻ ماهرن لاءِ آهي: &quot;مون کي خبر آهي ته هي ڇا بحال ڪري ٿو&quot; تي نشان لڳايو.</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>اسنيپ شاٽ جي id ٻيهر ٽائيپ ڪريو: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>بحال ڪرڻ لاءِ گهٽ ۾ گهٽ هڪ حصو چونڊيو.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>هن رن کان اڳ ڪو اسنيپ شاٽ نه ورتو ويو: ان جون مائيگريشنز هڪ هڪ ڪري واپس وٺو، يا اڳوڻو اسنيپ شاٽ بحال ڪريو.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>هي مائيگريشن پاڻ واپس نٿي وٺي سگهجي: اها لاڳو ناهي، يا ان وٽ down() ناهي.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>فارم پڙهي نه سگهيو.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>ٻيهر جاري ڪرڻ لاءِ رن چونڊيو.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>پهرين &quot;ها، اهي مائيگريشنز هاڻي هلايو&quot; تي نشان لڳايو.</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>گهٽ ۾ گهٽ هڪ مائيگريشن چونڊيو.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>هڪ مائيگريشن لاڳو ٿيڻ کان پوءِ تبديل ٿي: تبديلي سبب سان قبول ڪريو، يا فائل واپس رکو.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>سبب ڏيو ته تبديل ٿيل مائيگريشنز ڇو قبول ڪيون پيون وڃن.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>سبب وڌ ۾ وڌ 500 اکرن جو آهي.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>هتي شروع ٿيل رن اڃا هلي رهي آهي (%detail). ان جي ختم ٿيڻ جو انتظار ڪريو.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>ٻي رن وٽ انسٽاليشن جو لاڪ آهي: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>رن لاءِ هڪ موجود سائن ان ٿيل يوزر گهربل آهي.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>ڪو php ڪمانڊ لائن پروگرام نه مليو. migration.ini [AdminSettings] PhpCliPath کي ان جي مڪمل رستي تي سيٽ ڪريو.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open بند آهي، تنهنڪري هتي رن شروع نٿي ٿي سگهي. سرور تي ./console exp:migration:migrate --apply هلايو.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>رنز جي فولڊر ۾ لکي نٿو سگهجي: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>رن شروع ٿي پر پنهنجي پروسيس id نه ٻڌائي. %detail چيڪ ڪريو.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>ٻڌايو ته ڇا واپس وٺڻو آهي.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>رن شروع نه ٿي سگهي.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>تبديليون رڪارڊ ڪرڻ</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>جيستائين رڪارڊنگ هلي رهي آهي، توهان انتظام ۾ يا سائيٽ جي پاسي واري بار ۾ جيڪو بدلايو ٿا اهو هڪ لڏپلاڻ جي قدمن طور سانڍيو وڃي ٿو: مواد، ڪلاس، ڪردار ۽ پاليسيون، حصا، استعمال ڪندڙ ۽ ٽوليون، URL ٻيا نالا، سيٽنگون. ڪم پورو ٿيڻ تي ان کي روڪيو، ڏسو ته ان ڇا پڪڙيو، ۽ ان مان هڪ لڏپلاڻ ٺاهيو.</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>رڪارڊنگون پڙهي نه سگهيون: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>رڪارڊنگن جا جدول اڃا موجود ناهن: پهرين اپ گريڊ هلايو (exp:upgrade --apply).</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>migration.ini ۾ رڪارڊنگ بند آهي ([RecordingSettings] Recording=disabled).</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>منهنجون تبديليون</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>جيستائين توهان نه روڪيو، فقط اهو رڪارڊ ڪري ٿي جيڪو توهان بدلايو ٿا، جتي به بدلايو.</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>رڪارڊنگ</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>%time کان، هيستائين %count تبديليون.</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>ليبل (اختياري)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>ڏيکاريو ته ان ڇا پڪڙيو</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>رڪارڊنگ روڪيو</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>منهنجي تبديلين جي رڪارڊنگ شروع ڪريو</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>سڄي سائيٽ جي دري</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>بند ٿيڻ تائين هر استعمال ڪندڙ ۽ ڪنسول جي هر تبديلي رڪارڊ ڪري ٿي. کولڻ وقت توهان کان تصديق گهري وڃي ٿي ته اهو توهان آهيو.</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>کليل</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>دري بند ڪريو</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>سڄي سائيٽ جي دري کوليو</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>رڪارڊنگون</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>استعمال ڪندڙ جو کاتو (لاگ ان، اي ميل، پاسورڊ) ۽ استعمال ڪندڙن جي کاتن جا خانا ڪڏهن به رڪارڊ نه ٿيندا آهن.</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>تبديليون</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>سڄي سائيٽ</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>%name جون تبديليون</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>روڪيل</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>اڃا ڪا رڪارڊنگ ناهي.</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>رڪارڊنگ %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>سڀ رڪارڊنگون</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>ان مان ٺهندڙ لڏپلاڻ</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>هر بدليل شيءِ لاءِ هڪ قدم ۾ گڏ ڪيل تبديليون: هن رڪارڊنگ مان ٺهيل لڏپلاڻ ڇا ڪندي.</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>جڏهن هن تنصيب ۾ YAML قدم جا قسم %types هوندا ته ان مان لڏپلاڻ ٺاهي سگهجي ٿي.</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>ڄاڻي واڻي ڇڏيو ويو: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>ڪجهه به رڪارڊ نه ٿيو.</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>ان ڇا پڪڙيو</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>%count تبديليون، ان ترتيب ۾ جنهن ۾ ڪيون ويون.</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>تبديلي</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>قدم</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>بابت</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>وڌيڪ %count: ./console exp:migration:record:show سڀني جي فهرست ڏئي ٿو.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>اڇلايو</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>رڪارڊنگ ۽ جيڪو ان پڪڙيو اهو هٽائي ٿو. جيڪو بدليو اهو بدليل ئي رهي ٿو.</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>ها، هيءَ رڪارڊنگ اڇلايو</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>رڪارڊ ٿي رهي آهي…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>توهان جون تبديليون هڪ لڏپلاڻ لاءِ رڪارڊ ٿي رهيون آهن.</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>هن سائيٽ جي هر تبديلي هڪ لڏپلاڻ لاءِ رڪارڊ ٿي رهي آهي (سڄي سائيٽ جي دري).</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>سڄي سائيٽ جي رڪارڊنگ شروع ٿي وئي: جيستائين توهان نه روڪيو، هر استعمال ڪندڙ جي هر تبديلي رڪارڊ ٿيندي.</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>رڪارڊنگ شروع ٿي وئي: جيستائين توهان نه روڪيو، توهان جون تبديليون رڪارڊ ٿينديون.</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>رڪارڊنگ روڪي وئي. جيڪو ان پڪڙيو اهو اڇلائڻ تائين رهندو.</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>رڪارڊنگ ۽ ان جا واقعا هٽايا ويا.</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>ڪا رڪارڊنگ %id ناهي.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>پهرين "ها، هيءَ رڪارڊنگ اڇلايو" تي نشان لڳايو.</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>سيشن رڪارڊنگ فقط اهو استعمال ڪندڙ روڪي سگهي ٿو جنهن رڪارڊ ڪئي.</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>روڪڻ لاءِ رڪارڊنگ چونڊيو.</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>هن قسم جي رڪارڊنگ اڳ ۾ ئي هلي رهي آهي.</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>رڪارڊنگ بدلائي نه سگهي: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>لڏپلاڻ ٺاهيو</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>لڏپلاڻ جو نالو (اختياري)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>لڏپلاڻ %file لکي وئي. اهي تبديليون جيڪي ڪو به قدم نٿو ڪري سگهي، فائل جي مٿان ڄاڻايل آهن، هٿ سان ڪرڻيون آهن.</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>ڪا به لڏپلاڻ نه لکي وئي: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>حصن ۾ هڪ ڊگهو رن</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>خالي خانا migration.ini [RunSettings] جون سيٽنگون رکن ٿا.</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>وڌ ۾ وڌ ايترا مائگريشن</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>هن کان پوءِ وڌيڪ مائگريشن ناهي (سيڪنڊ)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>مائگريشنن وچ ۾ وقفو (سيڪنڊ)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>گهٽ ترجيح (1 کان 19)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>ڊگهي رن جو خانو 1 کان شروع ٿيندڙ پورو عدد آهي (وقفو: 0 کان 60 سيڪنڊ، ترجيح: 1 کان 19)، يا خالي.</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>اهو %time تي پاڻ بند ٿئي ٿو.</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>هن کان پوءِ پاڻ بند ڪريو (منٽ، اختياري)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>منٽ 1 کان 44640 (31 ڏينهن) تائين پورو عدد آهن، يا خالي.</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>مائيگريشن %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>نئين مائيگريشن</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>YAML مائيگريشن: ان کي متن طور لکو يا فارم ۾ ان جا قدم ٺاهيو، ان کي جانچيو، پوءِ ان کي مائيگريشن فولڊر ۾ محفوظ ڪريو.</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>هي مائيگريشن اڳ ۾ ئي هلي چڪي آهي، تنهن ڪري ٻيهر محفوظ نه ٿيندي: تبديل ٿيل فائل کي چيڪ سم جو محافظ رد ڪري ڇڏيندو. تبديلي نئين مائيگريشن ۾ ڪريو.</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>ويب سرور فائل نٿو لکي سگهي.</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>مٿي تبصري جون سٽون هيڊر آهن (description، author، requires، environments، engines). جڏهن فارم ۾ ڪو قدم شامل يا تبديل ڪيو وڃي ٿو، مائيگريشن ٻيهر لکي وڃي ٿي: قدمن جي وچ وارا تبصرا نه رکيا ويندا.</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>مائيگريشن جو نالو</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>اها ڪٿي وڃي ٿي</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>سائيٽ</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>YAML متن</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>جانچيو</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>محفوظ ڪريو</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>مرحلا</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>ڪنجيون</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>تبديل ڪريو</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>مٿي منتقل ڪريو</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>هيٺ منتقل ڪريو</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>هٽايو</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>اڃا ڪو قدم ناهي: فارم سان هڪ شامل ڪريو، يا انهن کي متن ۾ لکو.</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>قدم %number تبديل ڪريو</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>هڪ قدم شامل ڪريو</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>قدم جو فارم ان جي قدم جي قسم مان ٺهي ٿو: ان جون ڪنجيون، هر هڪ ڇا وٺي ٿي ۽ اهي موڊ جن سان اهو تعلق رکي ٿو.</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>قدم جو قسم</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>ان جو فارم ڏيکاريو</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>قدم ۾ اهڙيون ڪنجيون آهن جن کي ان جو قسم نٿو ڄاڻي؛ قدم تبديل ٿيڻ وقت اهي ڇڏيون وينديون: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>موڊ</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>۾</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>صرف %modes ۾</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>ڊفالٽ: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>شرطون، حوالا ۽ تبصرو</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>نالو=قدر جوڙا، ڪاما سان الڳ ٿيل. هن قدم جا قدر: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>مثال</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>قدم تبديل ڪريو</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>قدم شامل ڪريو</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>exp:migration:check ڇا ٿو چوي: هيڊر، دستاويز ۽ هر قدم، ان جي قدم جي قسم طرفان جانچيل.</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>مائيگريشن جانچ ۾ پاس آهي.</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>پيش منظر</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>YAML جيئن اهو محفوظ ٿيندو.</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>YAML ڏيکاريو</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>YAML مائيگريشنز</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>هلي چڪي</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>اڃا ڪا YAML مائيگريشن ناهي.</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>ايڊيٽر</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>مائيگريشن فولڊرن ۾ ڪا YAML مائيگريشن %id ناهي.</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>قدم جو قسم چونڊيو.</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>قدم شامل ٿي ويو. محفوظ ڪرڻ کان اڳ مائيگريشن جانچيو.</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>قدم تبديل ٿي ويو. محفوظ ڪرڻ کان اڳ مائيگريشن جانچيو.</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>هڪ قدم چونڊيو.</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>هن قدم جو ڪو فارم ناهي (هڪ لوپ، يا اهڙو قدم جو قسم جيڪو هن انسٽاليشن ۾ ناهي): ان کي متن ۾ تبديل ڪريو.</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>چونڊيو ته مائيگريشن ڪٿي وڃي: سائيٽ يا ڪا فعال ايڪسٽينشن.</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>%file محفوظ ٿي وئي. مائيگريشن هلڻ کان اڳ آزمائشي رن هلايو.</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>محفوظ نه ٿيو: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>ريموٽس</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>ٻيون انسٽاليشنون جن ڏانهن هي پنهنجون مائيگريشنز ڊپلاءِ ڪري ٿي: ڊپلاءِ مائيگريشنز چونڊيل ريموٽس ڏانهن موڪلي ٿو ۽ اتي انهن کي هلائي ٿو، سڀ هڪ ئي وقت ۽ هم آهنگيءَ ۾. ريموٽ ڪڏهن به راز نٿو رکي: ان جي سند سيٽ اپ &gt; ڳجهيون معلومات ۾ هڪ جو نالو ڏئي ٿي.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>نئون ريموٽ</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>مدد</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>%id جي ڪنيڪشن جي جانچ</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>ريموٽس</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>هڪ ئي وقت %parallel ريموٽس تائين ڪم ٿئي ٿو؛ هر هڪ تي هڪ فيز %timeout سيڪنڊ وٺي سگهي ٿو.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>ريموٽ</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>پتو</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>سند</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>گروپ</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>درست ڪرڻ لاءِ سيٽنگون</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>صرف فائلون (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>SSH ڪنجي</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>پاسورڊ</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>ڪو نه (هوسٽ جو SSH ايجنٽ ۽ ڪنجيون)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>ڪنيڪشن جي جانچ ڪريو</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>ڪنهن گروپ ڏانهن ڊپلاءِ ان جي هر ريموٽ ڏانهن وڃي ٿو.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>ريموٽس ڏانهن ڊپلاءِ ڪريو</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>اڃا ڪو ريموٽ سيٽ اپ ٿيل ناهي.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>ريموٽ %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>هتي ڪجهه به موڪليو يا هلايو نٿو وڃي: “محفوظ ڪريو” سيٽنگون settings/override/migration.ini.append.php ۾ لکي ٿو. سند هڪ نالو آهي؛ ان جي قيمت سيٽ اپ &gt; ڳجهيون معلومات ۾ يا ماحول ۾ رهي ٿي.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>اهي سيٽنگون جانچيو</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>سيٽنگون جيئن داخل ڪيون ويون، اڃا محفوظ ناهن.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>جائزو</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>سيٽنگون صحيح آهن. اهي لائينون لکيون وينديون:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>ٽرانسپورٽ</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>صرف نالو؛ قدر سيٽ اپ &gt; ڳجهيون معلومات ۾ رهي ٿو</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>اهي لائينون جيڪي لکيون وينديون</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>ڪنيڪشن</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>هوسٽ ڪنجي</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. ريموٽ</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>ريموٽ کي ڇا سڏيو وڃي ٿو ۽ اهو ڪهڙو ماحول آهي.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>آءِ ڊي</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>اکر، انگ، - ۽ _، مثال طور production1. اهو رپورٽن ۾ ۽ ڪنسول تي (--remotes=production1) ريموٽ جو نالو آهي ۽ بعد ۾ بدلائي نٿو سگهجي.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... مرحلي وار ڊپلاءِ ماحولن مان هن ترتيب ۾ گذري ٿو.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>اختياري، ڪاما سان الڳ، مثال طور production. ڪنهن گروپ ڏانهن ڊپلاءِ ان جي هر ريموٽ ڏانهن وڃي ٿو.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. ڪنيڪشن</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>فائلون اتي ڪيئن پهچن ٿيون، ۽ انسٽاليشن ڪٿي آهي.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>SSH تي، صرف جيڪو بدليو، ٽٽل منتقلي ٻيهر جاري ٿئي ٿي. جتي rsync انسٽال هجي اتي بهترين چونڊ.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>فائلن لاءِ scp سان SSH.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>فائلن لاءِ sftp سان SSH.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>صرف فائلون: مائيگريشنز موڪليون ۽ واپس پڙهيون وڃن ٿيون، پر اتي هلائي نٿيون سگهجن.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>TLS تي FTP؛ صرف فائلون.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>هن سرور تي ٻي انسٽاليشن، هڪ فولڊر ۾.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>هوسٽ</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>هوسٽ جو نالو يا پتو، مثال طور node1.example.com. local لاءِ نه.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>پورٽ</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>خالي: SSH لاءِ 22، FTP لاءِ 21.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>استعمال ڪندڙ</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>رستو</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>اتي انسٽاليشن جو روٽ، مثال طور /var/www/site (FTP لاءِ: اهو رستو جيڪو FTP اڪائونٽ ڏسي ٿو).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>PHP ڪمانڊ لائن</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>اتي PHP CLI: php، يا مڪمل رستو جهڙوڪ /opt/plesk/php/8.4/bin/php.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>ڪنسول اسڪرپٽس اتي root طور هلن ٿا</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>صرف تڏهن جڏهن ريموٽ جو استعمال ڪندڙ root هجي (پوءِ اهي --allow-root-user سان هلايون وڃن ٿيون).</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. سند</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>هي انسٽاليشن اتي ڪيئن سائن ان ٿئي ٿي. صرف هڪ نالو محفوظ ٿئي ٿو.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>ڪوبه نه</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>ان استعمال ڪندڙ جو SSH ايجنٽ ۽ ڪنجيون جنهن طور هي انسٽاليشن هلي ٿي (۽ local لاءِ هميشه).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>راز طور رکيل پرائيويٽ ڪنجي.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>راز طور رکيل پاسورڊ (FTP ان سان سائن ان ٿئي ٿو).</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>راز جو نالو</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>سيٽ اپ &gt; ڳجهيون معلومات مان هڪ راز، مثال طور deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>سيٽ اپ &gt; ڳجهيون معلومات</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>يا ماحول جو ويريئبل</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>سرور پروسيس جو اهو ويريئبل جنهن ۾ اهو رکيل آهي، مثال طور DEPLOY_KEY (env:DEPLOY_KEY طور محفوظ). اهو راز جي نالي جي جاءِ وٺي ٿو.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. هوسٽ ڪنجي</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>اختياري، SSH، sftp ۽ rsync لاءِ.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>هوسٽ ڪنجي جو فنگر پرنٽ</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... جيئن ssh-keygen -l ان کي ڇاپي ٿو. ان سان، هوسٽ کي اها ڪنجي ڏيکارڻي پوندي؛ ان کان سواءِ، ڪنجي پهرين رابطي تي سکي وڃي ٿي.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. جائزو</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>مٿين سيٽنگن سان ڪنيڪشن جي جانچ ڪريو، پوءِ انهن لائينن جو جائزو وٺو جيڪي لکيون وينديون.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>هي ريموٽ هٽايو</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>ان جون سيٽنگون settings/override/migration.ini.append.php مان ڪڍيون وڃن ٿيون. ريموٽ تي ڪجهه به نٿو بدلجي، ۽ ان جا ڊپلاءِز تاريخ ۾ رهن ٿا.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>ها، هي ريموٽ هٽايو</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>ڊپلاءِز</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>ڊپلاءِ هن انسٽاليشن جون مائيگريشنز چونڊيل ريموٽس ڏانهن موڪلي ٿو ۽ اتي انهن کي %user طور هلائي ٿو، سڀ هڪ ئي وقت ۽ هم آهنگيءَ ۾: پهرين هر ريموٽ جانچيو وڃي ٿو، ۽ جڏهن هڪ ناڪام ٿئي ٿو، ته هر اهو ريموٽ جنهن لاڳو ڪيو واپس ڪيو وڃي ٿو. اهو پس منظر ۾ هلندو رهي ٿو، ۽ ان جو صفحو هلندي هر ريموٽ ڏيکاري ٿو.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. ريموٽس</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>ريموٽس، هڪ گروپ، يا ٻنهي تي نشان لڳايو.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>ان ڏانهن ڊپلاءِ ڪريو</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. ڪيئن</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>ڊپلاءِ ڪريو</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>موڪليو ۽ هلايو</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>مائيگريشنز هر ريموٽ تي هڪ گڏيل رن آءِ ڊي سان موڪليون، تصديق ڪيون ۽ هلايون وڃن ٿيون.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>صرف منتقلي</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>فائلون موڪليون ۽ تصديق ڪيون وڃن ٿيون، ڪجهه به نٿو هلايو وڃي (FTP ريموٽ لاءِ واحد طريقو).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>مرحلي وار</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>ماحولن جي ترتيب ۾ مرحلي وار (dev, stage, beta, production ...): پهريون مرحلو ڊپلاءِ ٿئي ٿو، پوءِ هڪ گيٽ انتظار ڪري ٿو جيستائين ڪو ايندڙ کي منظور ڪري. هر مرحلي اندر سڀ ڪجهه يا ڪجهه به نه.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>صرف اهي مائيگريشنز</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>اختياري: مائيگريشن آءِ ڊيز، ڪاما سان الڳ. خالي: سائيٽ ۽ ان جي ايڪسٽينشنز جي هر مائيگريشن.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>صرف اڳواٽ جانچ</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>ها، هاڻي ڊپلاءِ ڪريو</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>اهي ڊپلاءِز جن ڪجهه موڪليو يا هلايو، نوان پهرين (اڳواٽ جانچ ڪا رپورٽ نٿي رکي).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>صرف منتقلي</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>مرحلي وار، %stages مرحلا</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>هم آهنگ ناهي</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>اڃا ڪو ڊپلاءِ ناهي.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>ڊپلاءِ %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>ڊپلاءِ جو هر ريموٽ ان جي حالت سان. هتي شروع ڪيل ڊپلاءِ هي صفحو بند ٿيڻ تي پس منظر ۾ هلندو رهي ٿو؛ ان کي ڏسڻ لاءِ صفحو ٻيهر کوليو.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>سڀ ڊپلاءِز</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>اڳواٽ جانچ</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>ايندڙ مرحلو</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>سيٽنگون ۽ سندون جانچيون پيون وڃن</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>اڳواٽ جانچ: هر ريموٽ جي حالت پڙهي پئي وڃي</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>مائيگريشن فائلون موڪليون پيون وڃن</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>جيڪو پهتو ان جي تصديق ٿي رهي آهي</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>هر ريموٽ تي مائيگريشنز هلي رهيون آهن</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>ريموٽس واپس ڪيا پيا وڃن</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>ڊپلاءِ ختم ٿي ويو. ان جي رپورٽ لوڊ ٿي رهي آهي.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>پيش رفت جو پتو نه لڳائي سگهيو. ڊپلاءِ ڪيئن پيو هلي اهو ڏسڻ لاءِ صفحو ٻيهر لوڊ ڪريو.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>فيز</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>هي صفحو ڊپلاءِ کي هلندي ڏيکاري ٿو.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>هم آهنگ</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>مرحلا</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>مرحلو %stage پنهنجي گيٽ تي انتظار ڪري رهيو آهي</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>گيٽ %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>%user طرفان %time تي منظور ٿيل</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>مرحلو</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>موڪليل فائلون</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>ڪرنل ورزن</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>لاڳو ٿيل: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>لاڳو ڪرڻ لاءِ: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>فيزون</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>گيٽ: %stages مان مرحلو %stage</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>ان کان اڳ وارا مرحلا ڊپلاءِ ٿي چڪا آهن. انهن کي جانچيو، پوءِ ايندڙ مرحلو منظور ڪريو: ان جا ريموٽس ٻيهر جانچيا ۽ ڊپلاءِ ڪيا وڃن ٿا، سڀ ڪجهه يا ڪجهه به نه.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>اڳيون</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>ها، ايندڙ مرحلو هاڻي ڊپلاءِ ڪريو</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>منظور ڪريو</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>هي ڊپلاءِ واپس ڪريو</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>هر اهو ريموٽ جنهن ان کي لاڳو ڪيو (%list) پنهنجي رن کان اڳ ورتل اسنيپ شاٽ ڏانهن موٽي ٿو، سڀ هڪ ئي وقت.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>ها، هي ڊپلاءِ هاڻي واپس ڪريو</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>رٿيل</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>منتقل ٿيل</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>ڊپلاءِ ٿيل</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>گيٽ تي انتظار ۾</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>چونڊيل</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>تيار ٿيل</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>تيار</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>پنهنجي مرحلي جي انتظار ۾</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>فائلون موڪليون ويون</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>تصديق ٿيل</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>ناڪام، پاڻ کي بحال ڪيو</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>اڻ بدليل</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>ڊپلاءِ نه ٿيل</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>پهچ کان ٻاهر</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>ريموٽ جواب ڏنو.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>ريموٽ هن وقت استعمال نٿو ٿي سگهي.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done مڪمل، %pending التوا ۾، %failed ناڪام</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>لاڪ</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>اتي هڪ رن لاڪ رکي ٿي</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>خالي</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stages مان %stage</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>جانچڻ لاءِ ريموٽ چونڊيو.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>پهرين “ها، هي ريموٽ هٽايو” تي نشان لڳايو.</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>ريموٽ هٽائي نه سگهيو: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>ريموٽ محفوظ نه ٿي سگهيو: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>سيٽنگن جي فائل پڙهي نٿي سگهجي: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>گهٽ ۾ گهٽ هڪ ريموٽ يا گروپ چونڊيو.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>چونڊيل ريموٽ هاڻي سيٽنگن ۾ ناهي. صفحو ٻيهر لوڊ ڪريو.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>پهرين “ها، هاڻي ڊپلاءِ ڪريو” تي نشان لڳايو.</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>FTP ريموٽ مائيگريشنز هلائي نٿو سگهي: “صرف منتقلي” چونڊيو، يا ان کي ڇڏي ڏيو.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>ڊپلاءِ ڪرڻ واريون مائيگريشنز ڪاما سان الڳ مائيگريشن آءِ ڊيز آهن.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>ڊپلاءِ اڃا هلي رهيو آهي. ان جي ختم ٿيڻ جو انتظار ڪريو.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>هي ڊپلاءِ ڪنهن گيٽ تي انتظار نٿو ڪري.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>ڪنهن به ريموٽ هي ڊپلاءِ لاڳو نه ڪيو: واپس ڪرڻ لاءِ ڪجهه ناهي.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>پهرين “ها، ايندڙ مرحلو هاڻي ڊپلاءِ ڪريو” تي نشان لڳايو.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>پهرين “ها، هي ڊپلاءِ هاڻي واپس ڪريو” تي نشان لڳايو.</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>%id آءِ ڊي وارو ريموٽ اڳ ۾ ئي موجود آهي.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>پورٽ 1 کان 65535 تائين هڪ نمبر آهي.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>ماحول اکرن، انگن، - ۽ _ مان ٺهيل هڪ لفظ آهي (alpha, dev, stage, beta, production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>گروپ اکرن، انگن، - ۽ _ مان ٺهيل هڪ لفظ آهي (all نه): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>سند هن وقت پڙهي نٿي سگهجي: %problem. پهرين ڊپلاءِ کان اڳ ان کي سيٽ اپ &gt; ڳجهيون معلومات ۾ محفوظ ڪريو (يا ويريئبل سيٽ ڪريو).</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>FTP ريموٽ صرف فائلون وصول ڪري ٿو: ان ڏانهن ڊپلاءِ “صرف منتقلي” آهي، ۽ ان جون مائيگريشنز اتي هٿ سان هلايون وڃن ٿيون.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>ريموٽ %id settings/override/migration.ini.append.php ۾ ناهي؛ ان کي اتان هٽايو جتي اهو سيٽ ٿيل آهي.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>FTP تي سائن ان ٿي index.php پڙهيو ويو. FTP ريموٽ جي مائيگريشن حالت پڙهي نٿي سگهجي.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>تبديل ٿيل</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>ٺاهيل</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>نالو</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>ڪلاس</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>سيڪشن</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>ٺاهيندڙ</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>تازو مواد</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>سڄي سائيٽ جو تازو ٺاهيل ۽ تبديل ٿيل مواد، نئين پهرين: جيڪو گهمڻ وارن موڪليو، جيڪو جائزي لاءِ روڪيو ويو آهي، ۽ اشاعت جا منتظر مسودا. آئٽم چونڊيو ته جيئن انهن کي آزاد ڪريو، روڪيو، لڪايو، ظاهر ڪريو، هٽايو يا ڪنهن ٻئي سيڪشن يا حالت ۾ منتقل ڪريو.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>فهرست پڙهي نه سگهي: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>جائزي لاءِ روڪ اڃا سيٽ نه ڪئي وئي آهي، تنهن ڪري ڪجهه به روڪيو نٿو وڃي ۽ روڪڻ جا عمل پيش نٿا ڪيا وڃن. اپ گريڊ قدم 6.0.15-review-hold ان کي سيٽ ڪري ٿو: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>فهرست کي فلٽر ڪريو</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>کان</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>تائين</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>تاريخ</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>ٺاهيل (پهرين اشاعت)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>سڀ</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>اسٽيٽس</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>شايع ٿيل</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>مسودو، ڪڏهن به شايع نه ٿيو</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>التوا ۾ (منظوري يا ڪنهن تاريخ جو انتظار)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>ڪچرادان ۾</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>جائزي لاءِ روڪيل</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>روڪيل</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>روڪيل ناهي</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>لڪيل</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>ظاهر</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>موڪلڻ جي تاريخ</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>ڪا به سائيٽ رسائي</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>صرف اهو جيڪو آڊٽ درج ڪيو.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>هاڻي: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>لاگ ان نالو يا يوزر آئي ڊي.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>فلٽر</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>فلٽر صاف ڪريو</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>آئٽم</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%count مان %from کان %to</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>ڪو آئٽم ناهي</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(%ms ملي سيڪنڊن ۾ پڙهيو ويو)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>چونڊيل آئٽمن تي عمل</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>هن صفحي تي سڀ چونڊيو</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>%count چونڊيل</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>عمل</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>ڪو عمل چونڊيو</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>روڪ ختم ڪريو</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>جائزي لاءِ روڪيو</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>لڪايو</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>ظاهر ڪريو</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>ڪچرادان ۾ موڪليو</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>ختم ڪريو</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>سيڪشن مقرر ڪريو</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>حالت مقرر ڪريو</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>سبب</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>روڪڻ لاءِ ضروري؛ روڪ سان گڏ ۽ آڊٽ ۾ رکيو ويندو آهي.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>ڪو سيڪشن چونڊيو</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>حالت</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>ڪا حالت چونڊيو</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>چونڊيلن تي لاڳو ڪريو</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>هر آئٽم توهان جي پنهنجي اجازتن سان جانچيو ويندو آهي. ڪچرادان ۾ موڪلڻ ۽ ختم ڪرڻ کان اڳ توهان کان تصديق گهري ويندي آهي. %count کان وڌيڪ آئٽم پس منظر ۾ هلن ٿا.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>چونڊيو</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>اشاعت</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>هتان موڪليو ويو</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>%name چونڊيو</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>اڃا نه</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(بنا نالي)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>آئي ڊي %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>مسودو</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>التوا ۾</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>پنهنجي والدين سبب لڪيل</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>روڪيل: نئين موڪل</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>ورزن %version التوا ۾</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>ورزن %version تي ڪم جاري</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>مسودو، ورزن %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>ورزن %version شايع ٿيل</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>%date لاءِ مقرر</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>ڪو پتو ناهي</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>درج ناهي</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>انهن فلٽرن سان ڪجهه به نٿو ملي.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>سڀ ڏيکاريو</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>اڃا ڪو مواد ناهي.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>في صفحو</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>في صفحو %count آئٽم ڏيکاريو.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says "not recorded".</source>
+        <translation>ڪنهن موڪل جو پتو ۽ برائوزر آڊٽ انڊيڪس مان اچن ٿا، جيڪو هتي موجود ناهي: ڪالم ۾ "درج ناهي" لکيل آهي.</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>پتو ۽ برائوزر اهي آهن جيڪي آڊٽ هن آئٽم لاءِ درج ڪيا (خودڪار روڪ انهن کي هميشه درج ڪري ٿي؛ اشاعت ۽ ٺاهڻ صرف جتي چالو هجي)، جيئن ان جون رازداري سيٽنگون انهن کي رکن ٿيون.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: %count آئٽم</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>ختم ڪرڻ آئٽمن کي انهن جي سڀني ورزنن ۽ ترجمن سميت هميشه لاءِ هٽائي ڇڏي ٿو. ان کي واپس نٿو ڪري سگهجي.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>آئٽم ڪچرادان ۾ وڃن ٿا، جتان انهن کي بحال ڪري سگهجي ٿو.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>هر آئٽم توهان جي پنهنجي اجازتن سان جانچيو ويندو آهي؛ جنهن آئٽم جا ذيلي آئٽم هجن اهو جيئن آهي تيئن رهي ٿو (ان کي مواد جي بناوت ۾ هٽايو). توهان کان تصديق ڪرڻ لاءِ چيو ويندو ته اهو توهان ئي آهيو.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>اهو پس منظر ۾ هلي ٿو: ان جي پيش رفت جو صفحو کلي ٿو، ۽ مڪمل ٿيڻ تي هر آئٽم جو نتيجو ڏيکاريو ويندو آهي.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>چونڊيل آئٽم</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>۽ %count وڌيڪ</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>رد ڪريو</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>ڪجهه به نه ڪيو ويو</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>سبب: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>عمل اڃا پس منظر ۾ هلي رهيو آهي.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>ان جي پيش رفت</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>پس منظر جو عمل ناڪام ٿيو: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>مڪمل</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>رد ڪيل</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>ناڪام</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>هر آئٽم</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>آئٽم</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>نتيجو</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>ڇو</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>فهرست ڏانهن واپس</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>سيٽ اپ</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>ڪجهه نه ڪيو ويو</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>تصديق ڪريو</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>ڪو عمل چونڊيو.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>گهٽ ۾ گهٽ هڪ آئٽم چونڊيو.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>هڪ وقت ۾ وڌ ۾ وڌ 1000 آئٽم چونڊيو.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>ٻڌايو ته آئٽم ڇو روڪيا ويا آهن.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>سيڪشن چونڊيو.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>حالت چونڊيو.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>فارم پڙهي نه سگهيو.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>ڊيش بورڊ</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>تازو مواد</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>ڳڻپ پڙهي نه سگهي: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>جائزي لاءِ روڪيل</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>اڄ نوان</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>جائزي لاءِ روڪ اڃا سيٽ نه ڪئي وئي آهي (اپ گريڊ قدم 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>سڄو تازو مواد</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>توهان کي نگراني جا عمل هلائڻ جي اجازت ناهي (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>نگراني جو عمل مڪمل ناهي: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>نگراني: %count شين تي %action</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%total مان %done شيون: %ok مڪمل، %refused رد، %failed ناڪام</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok مڪمل، %refused رد، %failed ناڪام</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>اهو هاڻي موجود ناهي.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>ان جي ڪا جاءِ ناهي (شايع ناهي ٿيو).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>توهان کي ان کي لڪائڻ جي اجازت ناهي (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>توهان کي ان کي ظاهر ڪرڻ جي اجازت ناهي (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>اهو اڳ ۾ ئي لڪيل آهي.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>اهو لڪيل ناهي.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>لڪايو ويو.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>ظاهر ڪيو ويو.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>اهو ڪچرادان ۾ آهي: ان کي اتي ئي خالي يا بحال ڪريو.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>جيڪو مسودو ڪڏهن شايع نه ٿيو اهو ڪچرادان ۾ نٿو وڃي سگهي: ان کي ختم ڪريو.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>توهان کي ان کي ختم ڪرڻ جي اجازت ناهي (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>ختم ڪيو ويو.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>توهان کي ان کي هٽائڻ جي اجازت ناهي (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>ان جا ذيلي آئٽم آهن: ان کي مواد جي بناوت ۾ هٽايو، جتي اهي درج آهن.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>اهو هٽايو نه ويو (ٿي سگهي ٿو ڪو ورڪ فلو هٽائڻ کي روڪي رهيو هجي).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>ڪچرادان ۾ موڪليو ويو.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>سيڪشن موجود ناهي.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>اهو اڳ ۾ ئي هن سيڪشن ۾ آهي.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>توهان کي هي سيڪشن مقرر ڪرڻ جي اجازت ناهي (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>سيڪشن مقرر نه ٿيو.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>سيڪشن مقرر ڪيو ويو.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>حالت موجود ناهي.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>اهو اڳ ۾ ئي هن حالت ۾ آهي.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>توهان کي هي حالت مقرر ڪرڻ جي اجازت ناهي (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>حالت مقرر نه ٿي (ٿي سگهي ٿو ڪو ورڪ فلو تبديلي کي روڪي رهيو هجي).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>حالت مقرر ڪئي وئي.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>اهڙو ڪو عمل ناهي.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>جائزي لاءِ روڪ سيٽ نه ڪئي وئي آهي (اپ گريڊ قدم 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>ٻڌايو ته اهو ڇو روڪيو ويو آهي.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>اهو اڳ ۾ ئي روڪيل آهي.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>توهان کي ان کي روڪڻ جي اجازت ناهي (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>روڪ نه لڳائي وئي (ٿي سگهي ٿو ڪو ورڪ فلو تبديلي کي روڪي رهيو هجي).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>روڪيو ويو.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>اهو روڪيل ناهي.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>توهان کي ان کي آزاد ڪرڻ جي اجازت ناهي (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>روڪ ختم نه ٿي (ٿي سگهي ٿو ڪو ورڪ فلو تبديلي کي روڪي رهيو هجي).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>آزاد ڪيو ويو؛ اڃا لڪيل: توهان کي ان کي ظاهر ڪرڻ جي اجازت ناهي (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>آزاد ڪيو ويو.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>سڀ ٽارگيٽ</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>آخري اشاعت</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>پنهنجي سائيٽ جي مفت اسٽيٽڪ ڪاپي GitHub Pages تي شايع ڪريو:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>پراڻا صفحا</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>اسٽيٽڪ اشاعت</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>اسٽيٽڪ اشاعت بند آهي.</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>ٽارگيٽ</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>ٽارگيٽ پڙهي نه سگهيا: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>هڪ ڪم هلي رهيو آهي</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>جانچ لاءِ بلڊ</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>هي لڪايو</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>ٽارگيٽ ٺاهيو</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>ڪڏهن به نه</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>سبق پڙهو</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>%added شامل ٿيا، %changed تبديل ٿيا، %removed هٽايا ويا</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%limit مان %bytes (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>وڌيڪ %count فهرست ۾ ناهن.</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>%pages صفحا لکيا ويا</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path جي سائيز %size آهي، جيڪا هوسٽ پاران هڪ فائل لاءِ ڏنل اجازت کان وڌيڪ آهي.</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>حد جو %percent %</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds سيڪنڊ</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag اها اشاعت آهي جيڪا هن وقت سائيٽ تي آهي.</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: ڪم %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>GitHub پروجيڪٽ سائيٽ لاءِ /ريپوزيٽري/؛ ڪسٽم ڊومين يا يوزر سائيٽ لاءِ خالي.</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. سائيٽ</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. هوسٽ</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. ريپوزيٽري ۾ سائن ان</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. ريپوزيٽري</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. لنڪس ۽ بنيادي رستو</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. توهان جو پنهنجو ڊومين</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. بلڊ ۾ ڇا آهي</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. اهو ڪڏهن شايع ٿئي ٿو</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. جائزو وٺو ۽ محفوظ ڪريو</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>GitHub پروجيڪٽ سائيٽ /&lt;repository&gt;/ هيٺ هوندي آهي؛ لاڳاپيل لنڪس اتي ۽ ٻين سڀني هنڌن تي ڪم ڪن ٿيون.</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>هڪ بلڊ %site جو هر صفحو ائين آڻي ٿو جيئن سائن ان نه ٿيل گهمندڙ ان کي ڏسي ٿو، لنڪس ٻيهر لکي ٿو، فائلون ڪاپي ڪري ٿو ۽ نتيجو ٽارگيٽ جي فولڊر ۾ لکي ٿو. جيستائين توهان بلڊ جانچي شايع ڪريو نه دٻايو، ڪجهه به شايع نٿو ٿئي.</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>هڪ cron اظهار، مثال طور 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>ڊيپلاءِ ڪنجي ڳجهي معلومات %secret طور رکيل آهي.</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>ڊيپلاءِ ڪنجي هن انسٽاليشن کي SSH ذريعي صرف هڪ ريپوزيٽري ۾ پش ڪرڻ ڏئي ٿي ۽ ٻئي ڪٿي به نه. ان جو نجي اڌ سيٽ اپ &gt; ڳجهيون معلومات ۾ رهي ٿو؛ صرف عوامي اڌ ڏيکاريو وڃي ٿو.</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>هن ٽارگيٽ لاءِ ٺاهيل ڊيپلاءِ ڪنجي</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>ڊيپلاءِ ڪنجي SSH ذريعي سائن ان ٿئي ٿي: git پتو SSH پتي ۾ بدلايو (git@github.com:owner/repo.git).</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>هڪ ڪم هلي رهيو آهي، جيڪو %user شروع ڪيو</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>هن ٽارگيٽ جو هڪ ڪم اڃا هلي رهيو آهي (%detail). ان جي ختم ٿيڻ جو انتظار ڪريو.</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>هن ٽارگيٽ جو هڪ ڪم اڃا هلي رهيو آهي. ان جي ختم ٿيڻ جو انتظار ڪريو.</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>صفحي /news/ کان صفحي /about-us/team ڏانهن لنڪ هيئن لکي ويندي</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>نئين ڊيپلاءِ ڪنجي ٺاهي وئي. ان جو عوامي اڌ هاڻي ريپوزيٽري ۾ شامل ڪريو.</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>جنهن صفحي ۾ صفائي کان پوءِ به ڊيبگ آئوٽ پٽ، فارم ٽوڪن يا سيشن آءِ ڊي هجي، اهو ڪڏهن به شايع نٿو ٿئي.</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>واپسي ماهرن لاءِ آهي: &quot;مان ڄاڻان ٿو ته هي ڇا بدلائي ٿو&quot; تي نشان لڳايو ۽ ٽيگ جو نالو ٻيهر لکو.</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>سائيٽ %site تائين، هڪ فائل %file تائين ٿي سگهي ٿي، مهيني ۾ لڳ ڀڳ 100 GB ٽريفڪ سان. مفت پلان تي ريپوزيٽري عوامي هجڻ گهرجي. GitHub Pages دڪانن يا ٻين ڪمرشل ٽرانزيڪشنن لاءِ نه آهي.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>ٽارگيٽ هڪ سائيٽ آهي جيڪا هڪ git ريپوزيٽري ۾ شايع ٿئي ٿي. هتي ڪجهه به بلڊ يا شايع نٿو ٿئي: محفوظ ڪريو سيٽنگون settings/override/staticcache.ini.append.php ۾ لکي ٿو.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>ٽارگيٽ هڪ سائيٽ آهي جيڪا هڪ هنڌ شايع ٿئي ٿي، مثال طور GitHub Pages تي توهان جي عوامي سائيٽ.</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>سيٽ اپ &gt; ڳجهيون معلومات مان هڪ ٽوڪن</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>ريپوزيٽري جو هڪ ورڪ فلو ان کي شايع ڪري ٿو.</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>هي عوامي ڪنجي لکڻ جي اجازت سان ريپوزيٽري ۾ شامل ڪريو. GitHub: Settings &gt; Deploy keys &gt; Add deploy key، Allow write access تي نشان لڳايو.</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>شامل ٿيل</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>ٻيو git هوسٽ</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>ٻيو پروسيس هن ٽارگيٽ تي ڪم ڪري رهيو آهي: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>واپس</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>بنيادي رستو</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>اڳ</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>بنيادي رستي هيٺ</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>برانچ</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>ٽٽل لنڪس</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>بلڊ ۾ ٽٽل لنڪس</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>بلڊ</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>بلڊ %id، %user طرفان</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>بلڊ %name</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>هاڻي بلڊ ڪريو</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>جانچ لاءِ بلڊ</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>طرفان</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>هٿ سان، هتي</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>منسوخ ڪريو</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>تبديل ڪريو</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>تبديل ٿيل</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>تبديليون</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>پهريان جانچيو</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>اهي سيٽنگون جانچيو</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>جانچيو ته بلڊ ڇا بدلائي ٿو، ان کي ڏسو، پوءِ ان کي شايع ڪريو يا ڦٽو ڪريو.</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>اها اشاعت چونڊيو جنهن ڏانهن واپس وڃڻو آهي.</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>ايندڙ رليز ۾ ايندو.</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>ڪمٽ</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>ڪمٽس</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>بلڊ کي ڪمٽ ڪري ٿو، ٽيگ ڪري ٿو ۽ %remote ڏانهن پش ڪري ٿو. پش ڪڏهن به زوري نٿو ڪيو وڃي؛ توهان بعد ۾ ڪنهن به اشاعت ڏانهن واپس وڃي سگهو ٿا.</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>اڳوڻي فولڊر سان ڀيٽ: %added شامل ٿيا، %changed تبديل ٿيا، %removed هٽايا ويا، %unchanged اڻ بدليل.</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>آخري اشاعت سان ڀيٽ.</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>سند</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>ڪسٽم ڊومين</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>ڊيبگ آئوٽ پٽ، فارم ٽوڪن، سيشن آءِ ڊيز ۽ nonce هميشه ڪڍيا وڃن ٿا.</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>ڊيپلاءِ ڪنجي</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>%name جي ڊيپلاءِ ڪنجي</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>ڦٽو ڪريو</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>بلڊ ڦٽو ڪريو</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>ڊومين</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>خالي: سائيٽ جو پتو. ٻي صورت ۾ ساڳي سائيٽ جو اندروني پتو.</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>ختم ٿيو</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>هر لنڪ بنيادي رستي سان شروع ٿئي ٿي.</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>هر اشاعت static/%id/&lt;n&gt; ٽيگ سان هڪ ڪمٽ آهي. واپس وڃڻ اڳوڻي اشاعت جي فائلن سان نئون ڪمٽ ٺاهي ٿو: تاريخ رهي ٿي، ڪو ٽيگ نٿو هلي ۽ ڪجهه به زوري نٿو ڪيو وڃي.</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>اضافي فائلون</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>صفحا هتان آڻيو</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>فائل</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>فائلون</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>گم ٿيل فائلون</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>فائلون، سائيٽ</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>فائلون جيڪي گڏ نه ٿي سگهيون</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>فنگرپرنٽ</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>فولڊر</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>SSH پتي لاءِ. ڪنجي محفوظ ڪرڻ کان پوءِ ٺهي ٿي؛ توهان ان جو عوامي اڌ ريپوزيٽري ۾ شامل ڪريو ٿا.</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>https:// پتي لاءِ. GitHub: هڪ fine-grained ٽوڪن جنهن کي ريپوزيٽري تي Contents پڙهڻ ۽ لکڻ جي اجازت هجي.</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>ماهرن لاءِ. عوامي سائيٽ پش مڪمل ٿيندي ئي بدلجي ٿي.</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>فارم</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>GitHub ريپوزيٽري مان مفت هوسٽنگ.</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>برانچ مان</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>git پتو</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub ايپ</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages %site جي سائيٽ ۽ %file جي فائل جي اجازت ڏئي ٿو.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>GitHub Pages جون حدون</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages فائلون جيئن آهن تيئن شايع ڪري ٿو (_ سان شروع ٿيندڙ فائلن لاءِ ضروري).</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub برانچ کي ائين پيش ڪري ٿو جيئن اها پش ڪئي وئي. ڊفالٽ.</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab، Gitea، توهان جو پنهنجو سرور: ڪا به git ريپوزيٽري.</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>اڳوڻي اشاعت ڏانهن واپس وڃو</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>مدد</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>وزرڊ سان مدد</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>انهن کي لڪايو</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>تاريخ</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>%name جي تاريخ</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>هوسٽ</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>GitHub Pages بلڊ ڪيئن وصول ڪري ٿو</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>مون تبديليون جانچي ورتيون آهن</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>مان ڄاڻان ٿو ته هي ڇا بدلائي ٿو</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>آءِ ڊي</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>اهو بند آهي: جيستائين اهو آن نه ٿئي، ڪجهه به بلڊ نٿو ٿي سگهي.</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>اهو پس منظر ۾ %user طور هلي ٿو؛ توهان هي صفحو بند ڪري سگهو ٿا.</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>ڪم %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>ڳجهي معلومات %secret طور رکيل.</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>قسم</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>آخري اشاعت</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>اهي صفحا ڇڏي ڏيو</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>اهي سيڪشن ڇڏي ڏيو</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>لنڪس</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>ٻيهر لکيل لنڪس</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>لائيو سائيٽ</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>بلڊ ڏسو</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>ننڍا اکر، انگ، _ ۽ -، مثال طور github-public. اهو فولڊر ۽ ٽيگن (static/&lt;id&gt;/&lt;n&gt;) جو نالو رکي ٿو ۽ بعد ۾ بدلائي نٿو سگهجي.</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>نئين ڪنجي ٺاهيو</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>ٽارگيٽ ٺاهيو</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>ڪنجي ٺاهيو</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>پهريان هوسٽ تي ريپوزيٽري ٺاهيو؛ خالي به ٺيڪ آهي.</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>مينيفيسٽ</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>پيغام</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>اڪثر صفحا</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>نالو</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>سيٽ اپ &gt; ڳجهيون معلومات ۾ ٽوڪن جو نالو</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>نئون ٽارگيٽ</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>اڳيون</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>نه</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>اڃا ڪو ڪمٽ ناهي.</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>ڪا ڪنجي نه ٺهي: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>ڪمانڊ لائن لاءِ php بائنري نه ملي. migration.ini [AdminSettings] PhpCliPath ۾ ان جو مڪمل رستو سيٽ ڪريو.</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>اڃا ڪو ٽيگ ناهي.</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>اڃا ڪو ٽارگيٽ ناهي.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>ڪجهه به نه</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>بلڊ ۾ ناهي.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>اڃا ڪجهه به شايع نه ٿيو آهي.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>اڃا ڪجهه به شايع نه ٿيو آهي: هر فائل نئين آهي.</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>اطلاع ڏيو</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>شيڊول تي</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>ڪنسول تي</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>سرور تي: ./console exp:static:serve %id ان کي ساڳئي طريقي سان پيش ڪري ٿو.</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>هر لائن ۾ هڪ رستو، * ڪنهن به حصي سان ملي ٿو: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>ٽارگيٽ سان صرف نالو محفوظ ٿئي ٿو؛ ٽوڪن يا ڪنجي پاڻ سيٽ اپ &gt; ڳجهيون معلومات ۾ رهي ٿي ۽ ڪڏهن به لاگ ۾ ظاهر نٿي ٿئي.</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>صرف اهو جنهن جو صفحا نالو وٺن ٿا</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>صرف ٽوڪن سان. env:NAME ان جي بدران سرور جو هڪ ماحولياتي متغير پڙهي ٿو.</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>پريويو کوليو</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>بلڊ کي ائين کولي ٿو جيئن هوسٽ ان کي پيش ڪندو، ٽارگيٽ جي فولڊر مان. لنڪ توهان لاءِ هڪ ڪلاڪ ڪم ڪري ٿي.</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>اختياري. خالي: جيڪو شايع ٿيو هو.</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>اختياري. ڊومين سان سائيٽ ان جي روٽ تي پيش ٿئي ٿي.</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>آئوٽ پٽ</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>صفحا</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>ٽارگيٽ جا صفحا</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>رد ٿيل صفحا</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>پوسٽ پروسيسنگ</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>پريويو</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>پريويو ۽ اشاعت</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>%name جو پريويو ۽ اشاعت</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>بلڊ جو پريويو</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>پيش رفت</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>عوامي پتو</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>عوامي ڪنجي</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>شايع ڪريو</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>سائيٽ جي اسٽيٽڪ ڪاپي GitHub Pages يا ڪنهن به git هوسٽ تي شايع ڪريو: ان کي بلڊ ڪريو، تبديليون جانچيو، شايع ڪريو، ۽ ضرورت پوڻ تي اڳوڻي اشاعت ڏانهن واپس وڃو.</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>واپس وڃڻ لاءِ اشاعت</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>اشاعتون</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>پش</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>سبق پڙهو</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>رڪارڊ</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>رد ٿيل</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>لاڳاپيل</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>ٻيهر لوڊ ڪريو</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>هٽايل</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>ڪنجي بدلايو: پراڻي ڪم ڪرڻ بند ڪري ڇڏيندي</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>رپورٽ</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>بلڊ جي رپورٽ</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>ريپوزيٽري</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>جائزو</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>جائزو هر سيٽنگ جانچي ٿو ۽ اهي لائينون ڏيکاري ٿو جيڪي لکيون وينديون. اڃا ڪجهه به محفوظ ناهي ٿيو.</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>واپس ڪريو</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>واپسي</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>محفوظ ڪريو</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>شيڊول</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>ڳولا جو صفحو</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>سيڪشن آءِ ڊيز، ڪاما سان الڳ ٿيل.</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>انهن کي لائيو سائيٽ ڏانهن موڪليو</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>سيٽنگ</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>سيٽنگون</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>%name جون سيٽنگون</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>سيٽ اپ</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>سيٽ اپ &gt; ڳجهيون معلومات</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>فهرستن ۾ ڏيکاريو ويندو آهي، مثال طور &quot;GitHub Pages تي عوامي سائيٽ&quot;.</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>GitHub ايپ سان سائن ان GitHub انٽيگريشن سان ايندو.</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>سائيٽ</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>شايع ڪرڻ لاءِ سائيٽ</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>سائيز</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>سائيز ۽ حدون</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>بلڊ جي سائيز</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>پراڻا صفحا</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>شروع ٿيو</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>%user %time تي شروع ڪيو.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>حالت</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>اسٽيٽڪ اشاعت</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>اسٽيٽڪ اشاعت بند آهي</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>اسٽيٽڪ اشاعت بند آهي.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>اسٽيٽڪ اشاعت بند آهي. پهريان ان کي سيٽ اپ &gt; اسٽيٽڪ اشاعت ۾ آن ڪريو.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>اسٽيٽڪ اشاعت آن آهي.</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>%total مان قدم %step</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>قدم</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>صفائي</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>بند ڪريو</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>آن ڪريو</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>اسٽيٽڪ اشاعت آن ڪريو</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>ٽيگ</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>ٽيگز</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>ٽارگيٽ</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>ٽارگيٽ ٺاهي ۽ بدلائي سگهجن ٿا، پر جيستائين اهو آن نه ٿئي، ڪجهه به بلڊ يا شايع نٿو ٿئي.</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>سرچ انجڻن کي ٻڌائي ٿو ته ڇا پڙهڻ گهرجي.</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>بلڊ ڦٽو نه ٿي سگهيو: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>بلڊ آخري اشاعت جهڙو آهي: شايع ڪرڻ لاءِ ڪجهه به ناهي.</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>بلڊ ڦٽو ڪيو ويو: فولڊر ۾ ٻيهر آخري اشاعت آهي.</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>ڊفالٽ اڪثر سائيٽن لاءِ مناسب آهن.</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>فولڊر ۾ هڪ بلڊ آهي جيڪو اڃا شايع ناهي ٿيو؛ نئون بلڊ ان جي جاءِ وٺي ٿو.</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>ڪمن جي فولڊر ۾ لکي نٿو سگهجي: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>ڪم تيار نه ٿي سگهيو: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>ڪم شروع نه ٿي سگهيو.</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>ڪم ختم ٿي ويو. ان جي رپورٽ لوڊ ٿي رهي آهي.</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>ڪم کي سائن ان ٿيل يوزر گهرجي.</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>ڪم شروع ٿيو پر ان پنهنجي پروسيس آءِ ڊي نه ٻڌائي. %detail جانچيو.</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>ڪنجي</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>سڀ کان وڏي فائل: %path، %size.</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>اهي لائينون جيڪي لکيون وينديون</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>سرچ انجڻن لاءِ صفحن جي فهرست؛ عوامي پتو گهرجي.</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>صفحا ائين آندا وڃن ٿا جيئن سائن ان نه ٿيل گهمندڙ انهن کي ڏسي ٿو. انتظامي ۽ ايڊيٽنگ siteaccess ڪڏهن به پيش نه ڪيا ويندا.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>پيش رفت جي پيروي نه ٿي سگهي. ڪم ڪيئن هلي رهيو آهي ڏسڻ لاءِ صفحو ٻيهر لوڊ ڪريو.</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>ڪنجي جو عوامي اڌ:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>برانچ جو روٽ</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>ڳجهي معلومات جو اسٽور اڃا سيٽ ناهي (./console exp:upgrade --apply ان جو ٽيبل ٺاهي ٿو)، تنهن ڪري ڪا ڪنجي رکي نٿي سگهجي.</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>سرور پاڻ سائن ان ٿئي ٿو (پنهنجي SSH ڪنجي يا ڪريڊينشل هيلپر سان)، يا ريپوزيٽري هن سرور تي آهي.</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>سيٽنگ لکي نه سگهي: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>سيٽنگون صحيح آهن. اهي لائينون لکيون وينديون:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>سيٽنگن جي فائل پڙهي نٿي سگهجي: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>سائيٽ ان اشاعت جي فائلن ڏانهن واپس وڃي ٿي؛ اڃا شايع نه ٿيل بلڊ کي پهريان شايع يا ڦٽو ڪرڻو پوندو.</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>اڻ موجود پتن لاءِ سائيٽ جو پنهنجو صفحو.</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>ٽارگيٽ محفوظ نه ٿي سگهيو: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>ٽارگيٽ اڃا هن ڪنجي سان سائن ان نٿو ٿئي: ان جي سيٽنگن ۾ &quot;هن ٽارگيٽ لاءِ ٺاهيل ڊيپلاءِ ڪنجي&quot; چونڊيو.</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>ٽارگيٽ پڙهي نه سگهيا: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>اڃا جانچ لاءِ ڪو بلڊ ناهي.</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>هن انسٽاليشن ۾ ڪو فرنٽ siteaccess ناهي. انتظامي ۽ ايڊيٽنگ siteaccess ڪڏهن به شايع نه ٿيندا.</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>هي صفحو ڪم جي پيروي ڪري ٿو جيئن اهو هلي ٿو؛ صفحو بند ٿيڻ تي اهو پس منظر ۾ جاري رهي ٿو.</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>هن ٽارگيٽ وٽ اڃا ڪا ڊيپلاءِ ڪنجي ناهي.</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>هي ٽارگيٽ اڃا هتي بلڊ ناهي ٿيو.</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>هن ٽارگيٽ وٽ هڪ آهي.</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>هن بلڊ کي ڦٽو ڪري ٿو: فولڊر ۾ ٻيهر آخري اشاعت هوندي. لائيو سائيٽ نٿي بدلجي.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>پهريان &quot;مون تبديليون جانچي ورتيون آهن&quot; تي نشان لڳايو.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>وقت</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>ٽرگرز</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>ٽيگ جو نالو ٻيهر لکو</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>اڻ بدليل</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>ويب هڪ</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>ڇا</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>ڇا بدلجي ٿو</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>هر فائل ڇا آهي؛ هميشه لکيو وڃي ٿو.</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>ڪم ڇا ڪيو ۽ ان جو رڪارڊ. هتي شروع ٿيل ڪم هي صفحو بند ٿيڻ تي پس منظر ۾ جاري رهي ٿو.</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>ڪم غلطين طور ڇا ڇپيو</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>جنهن جو صفحا نالو وٺن ٿا، ۽ شايع ٿيل مواد جي هر تصوير</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>ڪڏهن</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>جڏهن اشاعت ناڪام ٿئي</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>جڏهن اشاعت ڪامياب ٿئي</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>جڏهن مواد شايع ٿئي</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>انهن شين جون لنڪس ڪيڏانهن وڃن جيڪي ڪاپي ۾ ناهن (ڳولا، لاگ ان).</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>اسٽيٽڪ ڪاپي ڪٿان پيش ٿئي ٿي.</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>ڪهڙي سائيٽ شايع ٿئي ٿي، ۽ ٽارگيٽ جو نالو ڇا آهي.</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>ڪنهن به رستي هيٺ ڪم ڪري ٿو. ڊفالٽ.</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>جڏهن به ڪسٽم ڊومين سيٽ ٿئي، لکيو وڃي ٿو.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>ها</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>توهان هميشه هتي ۽ ڪنسول تي هٿ سان بلڊ ۽ شايع ڪري سگهو ٿا.</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>صرف نالو؛ قدر سيٽ اپ &gt; ڳجهيون معلومات ۾ رهي ٿو</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>%path هيٺ</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>رپورٽ کان سواءِ ختم ٿيو</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>اضافي</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>ناڪام</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>فائل</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages، يا main فولڊر docs سان.</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>git هوسٽ</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (ٽوڪن سان) يا git@github.com:owner/repo.git (ڊيپلاءِ ڪنجي سان)؛ ان ۾ ڪڏهن به پاسورڊ يا ٽوڪن نه.</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/، سائيٽ ميپ ۽ ڪينونيڪل لنڪس لاءِ.</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>تصوير</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>ڪڏهن به نه</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>نه</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>ڪو ريموٽ ناهي</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>ڪجهه به نه: ڪمٽس فولڊر ۾ رهن ٿا</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>ڪجهه به نه: ڪجهه به نه بدليو</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>پش نه ٿيو</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>ڪجهه به نه بدليو</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>صفحو</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>ڪامياب</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>proc_open بند آهي، تنهن ڪري هتي ڪم شروع نٿو ٿي سگهي. سرور تي ./console exp:static:build استعمال ڪريو.</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>اشاعت</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>شايع ٿيل</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>پش باقي</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>پش ٿيل</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>رد ٿيل</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>لاڳاپيل</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>واپسي</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>واپس ٿيل</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>هلي رهيو</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>صرف فولڊر</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: فائل CNAME ۾ لکيو ويندو. ڊومين جو DNS هوسٽ ڏانهن ائين اشارو ڪريو جيئن اهو وضاحت ڪري ٿو؛ HTTPS شروع ٿيڻ ۾ ڪجهه وقت لڳي سگهي ٿو.</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>ها، اڃا شايع ناهي ٿيو</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>هڪ GitHub App</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>ريپوزيٽري جو هڪ ورڪ فلو ان کي شايع ڪري ٿو. بلڊ ورڪ فلو فائل لکي ٿو؛ فولڊر خالي ڇڏيو.</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>GitHub ريپوزيٽري ۽ ٽوڪن يا GitHub App سان ٽارگيٽ محفوظ ڪرڻ کان پوءِ، هي قدم ريپوزيٽري ٺاهي سگهي ٿو ۽ GitHub Pages آن ڪري سگهي ٿو. ٻي صورت ۾ پهريان GitHub تي ريپوزيٽري ٺاهيو؛ خالي ريپوزيٽري به ٺيڪ آهي.</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>برانچ يا GitHub Actions؟</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>DNS چيڪ ڪريو</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>جيڪڏهن ريپوزيٽري موجود ناهي ته ٺاهيو</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>GitHub تي ريپوزيٽري ٺاهيو ۽ ان جي سيٽنگن ۾ GitHub Pages آن ڪريو (Settings &gt; Pages).</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>ريپوزيٽري %repo نه هجڻ تي ان کي ٺاهي ٿو (جيڪڏهن چيو وڃي)، محفوظ ڪيل مطابق برانچ مان يا GitHub Actions مان GitHub Pages آن ڪري ٿو، ۽ ڪسٽم ڊومين ۽ HTTPS سيٽ ڪري ٿو. اهو محفوظ ڪيل سيٽنگون استعمال ڪري ٿو: پهريان تبديليون محفوظ ڪريو.</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>GitHub تي تفصيل</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>پهريان ڪسٽم ڊومين داخل ڪريو.</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>هر push پهريان انهن حدن سان چيڪ ڪيو ويندو آهي.</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>GitHub تي https:// پتي لاءِ. هن انسٽاليشن لاءِ سيٽ ڪيل App سائن ان ڪري ٿو؛ ان کي انسٽاليشن id گهرجي.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages خانگي ريپوزيٽري صرف ادا ڪيل پلان تي پيش ڪري ٿو.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: سب ڊومين (www.example.com) کي &lt;owner&gt;.github.io ڏانهن CNAME رڪارڊ گهرجي؛ اصل ڊومين (example.com) کي A رڪارڊ %ips.</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>GitHub App جو انسٽاليشن id</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>آخري Pages بلڊ</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>حدون ۽ شرطون</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>مفت پلان تي GitHub Pages لاءِ ضروري.</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>GitHub تي</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>صرف GitHub App سان: GitHub تي App جي انسٽاليشن جي پتي جي آخر وارو نمبر. App پاڻ staticcache.ini ۾ سيٽ ٿيندو آهي (GitHubAppId, GitHubAppKey).</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>خانگي</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>عوامي</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>پهريان GitHub ريپوزيٽري ۽ ٽوڪن يا GitHub App سان ٽارگيٽ محفوظ ڪريو.</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>ڊومين فراهم ڪندڙ وٽ هي رڪارڊ سيٽ ڪريو:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>GitHub تي سيٽ اپ ڪريو</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>%domain جو DNS اڃا GitHub Pages ڏانهن اشارو نٿو ڪري.</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>%domain جو DNS GitHub Pages ڏانهن اشارو ڪري ٿو.</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>GitHub انٽيگريشن هتي دستياب ناهي: %problem. برانچ ۾ شايع ڪرڻ پوءِ به ڪم ڪري ٿو؛ ريپوزيٽري جي سيٽنگن ۾ GitHub Pages آن ڪريو.</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>هن ٽارگيٽ لاءِ GitHub قدم دستياب ناهن: %problem.</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>سند طور ٽوڪن يا GitHub App هجڻ تي GitHub Pages جي حالت ڏيکاري ويندي آهي.</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>پنهنجو ڊومين استعمال ڪريو</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>ڪهڙو چونڊجي: ٽوڪن، ڊيپلاءِ ڪنجي يا GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>GitHub ريپوزيٽري ۽ ٽوڪن يا GitHub App سان، وزرڊ توهان لاءِ ريپوزيٽري ٺاهي سگهي ٿو، GitHub Pages آن ڪري سگهي ٿو ۽ ڊومين سيٽ ڪري سگهي ٿو (قدم 4).</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>بلڊ ٿي رهيو آهي</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>بلڊ ٿي ويو</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>GitHub Actions مان</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>برانچ %branch مان</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>اڃا ڪجهه به نه</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>نه مليو</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>بند</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>خانگي</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>عوامي</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>قطار ۾</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>اڻڄاتل</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%pages صفحن تي %count:</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>هر ٽيڪسٽ فائل سان گڏ .gz (۽ .br) فائل، انهن هوسٽن لاءِ جيڪي انهن کي ڏين ٿا.</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>صفحي جي هر پراڻي پتي ۽ عرف لاءِ هڪ ننڍو صفحو، ته جيئن پراڻا لنڪ ڪم ڪندا رهن.</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>جڏهن GitHub Actions سائيٽ پهچائي ٿو ته هميشه لکيو ويندو آهي.</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>SPDX id جهڙوڪ CC-BY-4.0، يا پاڻ متن.</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>ٽوڪري</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>سرور ڏانهن ڪالون</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>تبصرا</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>فارم جيڪي معلومات گڏ ڪن ٿا</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>GitHub Actions workflow</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>صفحن ۾ گهٽ خالي جاءِ ۽ ڪي تبصرا نه.</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>مواد جو لائسنس</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>لاگ ان</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>Minify</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>ٻيا فارم</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>Precompress</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>ريڊائريڪٽ صفحا</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>ريڊائريڪٽ صفحا: %count.</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>ڳولا</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>ڳولا جو انڊيڪس: %languages ۾ %pages صفحا.</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>اسٽائل شيٽ ۽ اسڪرپٽ جن جا نالا انهن جي مواد جي هيش مطابق آهن، ته جيئن برائوزر انهن کي رکي سگهن.</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>تبديل ٿيل صفحا، آخري تبديليءَ کان ڪجهه منٽ پوءِ (cronjob جو حصو staticpublish).</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>مواد جو لائسنس، هيٺين خاني مان.</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>سڄي سائيٽ، شيڊيول جي وقتن تي (cronjob جو حصو staticpublish).</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>صفحن جي انهن حصن کي سرور گهرجي؛ هر هڪ کي متبادل ڏنو ويو آهي. شايع ڪرڻ کان اڳ انهن کي چيڪ ڪريو.</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>جيڪو جامد طور ڪم نٿو ڪري</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>ريپوزيٽري ڇا آهي، انهيءَ لاءِ جيڪو هوسٽ تي کولي.</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>ڇڏيل</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>متبادل متن</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>لائيو سائيٽ جو فارم اينڊ پوائنٽ</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>لائيو سائيٽ</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>ڪاپيءَ جو ڳولا صفحو</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>فارم موڪلي نه سگهيو.</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>مهرباني: فارم موڪليو ويو.</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>فارم قبول نه ٿيو: جيڪو داخل ڪيو اٿوَ سو چيڪ ڪريو ۽ ٻيهر موڪليو.</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>انهن صفحن جا لنڪ هٽايو جيڪي نقل ۾ ناهن</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>انتظاميه ڏانهن ويندڙ لنڪ هٽايو</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>انهن جو متن رهي ٿو. تصويرون، فارم ۽ ٻين سائيٽن جا لنڪ ڪڏهن به نه هٽايا ويندا آهن.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>ورزن</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>ڇپائڻ لاءِ سائيٽ رسائيون</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>سائيٽ رسائي</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>پاڙ ۾</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>پاڙ ۾ ڪا سائيٽ رسائي ناهي: هر هڪ پنهنجي فولڊر ۾ آهي، ۽ پاڙ انهن ڏانهن لنڪ ڏئي ٿي</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>سائيٽ رسائيون</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>هڪ سائيٽ رسائي چونڊيو، يا ڪيتريون جيڪي پنهنجي URI اڳياڙي ذريعي هڪ ميزبان ونڊين ٿيون. پاڙ واري اتي ئي ڏني وڃي ٿي، باقي پنهنجي اڳياڙي جي فولڊر ۾ (/ger/)؛ انهن وچ ۾ لنڪ نقل ۾ ئي رهن ٿا. انتظاميه جون رسائيون ڪڏهن به نه ڏيکاريون وڃن ٿيون.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>%site تي %target جي جامد اشاعت ناڪام ٿي</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>%site تي %target جي جامد اشاعت ڪامياب ٿي</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>هي ميل %site موڪلي آهي ڇاڪاڻ ته جامد اشاعت جو هدف %target ان جي گهر ڪري ٿو.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>%site تي ڊپلاءِ %deploy ناڪام ٿيو</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>%site تي ڊپلاءِ %deploy هڪ دروازي تي انتظار ڪري رهيو آهي</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>%site تي ڊپلاءِ %deploy ڪامياب ٿيو</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>هي ميل %site موڪليو آهي، ڇاڪاڻ ته migration.ini [RemoteSettings] Notify[] ان جي گهر ڪري ٿو.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>ڊيٽا جا قسم (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>%time تي ڳڻيو ويو، %minutes منٽن کانپوءِ ٻيهر</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>ڊيٽا جو قسم ڪلاس جي خاصيت جي هڪ قسم جي قدر محفوظ ڪري ٿو ۽ ان کي تبديل ڪري ٿو: متن جي هڪ لائن، هڪ تصوير، هڪ تعلق. انهن مان گهڻا ڪرنل آڻي ٿو، ايڪسٽينشنون وڌيڪ شامل ڪن ٿيون. هتي اهي سڀ آهن، ڪير انهن کي مهيا ڪري ٿو ۽ ڪيترو مواد انهن کي استعمال ڪري ٿو. اهو ڊيٽا جو قسم جيڪو ڊيٽابيس استعمال ڪري ٿو پر هاڻي ڪجهه به ان کي رجسٽر نٿو ڪري، اهو ان واري مواد کي ٽوڙي ٿو.</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>ڪلاس گروپ</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>گذريل منٽن جي ڳڻپ استعمال ڪرڻ بدران هاڻي ٻيهر ڳڻيو.</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>ٻيهر ڳڻيو</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>جائزو</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>رجسٽر ٿيو</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>استعمال ۾</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>استعمال نه ٿيو</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>ڊيٽا جا قسم مهيا ڪندڙ ايڪسٽينشنون</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>ڪلاس جون خاصيتون</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>شيءِ جون خاصيتون</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>رجسٽر ٿيل ناهي</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>فهرست ۾ آهي، فائل غائب</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>%count ڊيٽا جا قسم استعمال ٿين ٿا پر رجسٽر ٿيل ناهن</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>%class_attributes ڪلاس جي خاصيتن ۽ %object_attributes شيءِ جي خاصيتن وٽ اهڙو ڊيٽا جو قسم آهي جنهن کي ڪا به ايڪسٽينشن يا سيٽنگ رجسٽر نٿي ڪري. انهن جون شيون ڏيکاري، تبديل يا شايع نٿيون ڪري سگهجن. ڊيٽا جو قسم مهيا ڪندڙ ايڪسٽينشن فعال ڪريو، يا ڪلاس تبديل ڪريو.</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>رڳو اهي ڏيکاريو</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>ڊيٽا جو قسم ڳوليو</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>سڃاڻپ ڪندڙ، نالو، PHP ڪلاس يا ايڪسٽينشن.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>ڏيکاريو</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>سڀ</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>مهيا ڪندڙ</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>سڀ</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>ڪرنل</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>ڪو به ڊيٽا جو قسم هن فلٽر سان نٿو ملي.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>سڀ ڏيکاريو</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>ايڪسٽينشن</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%count ڊيٽا جي قسمن مان %shown، %used استعمال ۾</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>ڊيٽابيس ۾ انهن ڊيٽا جي قسمن جون ڪلاس يا شيءِ جون خاصيتون آهن، پر content.ini انهن مان ڪنهن کي به فهرست ۾ نٿي ڏيکاري، يا ان جي فائل غائب آهي.</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>%provider جا ڊيٽا جا قسم</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>ڊيٽا جو قسم</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>PHP ڪلاس ۽ فائل</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>ڪلاس</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>شيون</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>فليگ</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>ڪوبه نه</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>ڪو به ڊيٽا جو قسم ڳولا سان نٿو ملي. ڳولا صاف ڪريو.</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>%count ڊيٽا جي قسمن مان %shown ڏيکاريا ويا</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>ڏيکاريل ڊيٽا جا قسم: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>%column موجب ترتيب ڏيو</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>%time تي ڳڻيو ويو</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>سڀ ڊيٽا جا قسم</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>مدد جو صفحو</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>هي ڊيٽا جو قسم استعمال ٿئي ٿو پر رجسٽر ٿيل ناهي</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>جيستائين ڪا به ايڪسٽينشن ڊيٽا جو قسم رجسٽر نٿي ڪري، هيٺين ڪلاسن جون شيون ڏيکاري، تبديل يا شايع نٿيون ڪري سگهجن. ان کي مهيا ڪندڙ ايڪسٽينشن فعال ڪريو ۽ ان کي content.ini [DataTypeSettings] AvailableDataTypes[] ۾ شامل ڪريو، يا ڪلاس تبديل ڪريو.</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini هن ڊيٽا جي قسم کي فهرست ۾ ڏيکاري ٿي، پر ڪنهن به ڊيٽا جي قسم جي ڊائريڪٽري ۾ ان جي فائل ناهي. ان کي ڪجهه به استعمال نٿو ڪري؛ ان کي AvailableDataTypes[] مان هٽايو يا ان جي ايڪسٽينشن فعال ڪريو.</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>هن ڊيٽا جي قسم بابت</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>سڃاڻپ ڪندڙ</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>نالو</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>ايڪسٽينشن %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>ڪو به نه</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>PHP ڪلاس</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>فائل</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>AvailableDataTypes[] ۾</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ها</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>نه</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>ان جي قدر جا ڪالم</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>ان جي ڪلاس خاصيت جي سيٽنگن جا ڪالم</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>ٽيبل</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>ڪالم ۽ ٽيبل ڊيٽا جي قسم جو ڪوڊ پڙهي ڳوليا وڃن ٿا: هڪ رهنمائي، واعدو ناهي.</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>ٽيمپليٽ</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>سائيٽ رسائي</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>ٽيمپليٽ</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>ڪٿي مليو</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>هي انتظاميه</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>ڊفالٽ سائيٽ</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>اوور رائيڊ کان سواءِ: ڪلاس يا خاصيت سان ملندڙ اوور رائيڊ ٽيمپليٽ انهن تي ترجيح رکي ٿو.</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>ان کي استعمال ڪندڙ ڪلاس (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>ڪنهن به ڪلاس ۾ هن ڊيٽا جي قسم جي خاصيت ناهي.</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>ڪلاس</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>خاصيتون</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>ڪلاس جون خاصيتون (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>خاصيت</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>سيٽنگون</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>لازمي</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>ڳولي سگهجندڙ</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>ترجمي جوڳو</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>معلومات گڏ ڪري ٿو</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>ان کي استعمال ڪندڙ ڪجهه مواد</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>آخري تبديل ٿيل پهريان</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>تبديل ٿيل</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>نوڊ %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>هر ترجمي جي پنهنجي قدر آهي.</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>ڳولا ان جي قدرن کي انڊيڪس ڪري ٿي.</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>اهو گهمڻ وارن کان معلومات گڏ ڪري سگهي ٿو (فارم).</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>فهرستن کي ان سان ترتيب ڏئي سگهجي ٿو: ترتيب جي ڪنجي %type.</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>ترتيب ڏيڻ جوڳو</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>ان جون قدرون ٻين شين ڏانهن اشارو ڪن ٿيون.</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>لاڳاپا</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>ان کي سادي متن مان ڀري سگهجي ٿو (امپورٽ، REST).</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>متن مان</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>ان کي فائل مان ڀري سگهجي ٿو.</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>فائل مان</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>ان جي ڪلاس خاصيت جون سيٽنگون پيڪيجن ۾ وڃن ٿيون.</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>پيڪيج</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>مواد (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%count مان %from کان %to</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>فهرست کي فلٽر ڪريو</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>سڀ ڪلاس</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>سيڪشن</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>ٻوليون</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>مالڪ</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>شايع ٿيل</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>ترتيب ڦيرايو</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>ڪو آئٽم ناهي</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>في صفحو</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>هر صفحي تي %count آئٽم ڏيکاريو.</translation>
     </message>
 </context>
 </TS>

@@ -984,6 +984,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>ຄົ້ນຫາສະເພາະໜ້ານີ້ເທົ່ານັ້ນ: %from ຫາ %to ຈາກ %count.</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>ທຸກປະເພດຂໍ້ມູນຂອງເຄີເນລ ແລະ ສ່ວນຂະຫຍາຍ, ແລະ ວິທີທີ່ຄລາສ ແລະ ເນື້ອຫາໃຊ້ພວກມັນ.</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>ປະເພດຂໍ້ມູນ</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2316,6 +2324,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>ໜ້າລະບົບກໍສາມາດບຸກມາກໄດ້ເຊັ່ນກັນ: ເປີດໜ້າ (ຕັ້ງຄ່າລະບົບ, ບັນທຶກການກວດສອບ, ລາຍການຜູ້ໃຊ້ ...) ແລ້ວເລືອກ ບຸກມາກໜ້ານີ້ ຂ້າງເທິງມັນ. ບຸກມາກດັ່ງກ່າວມີໄອຄອນເຟືອງ.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>ທ່ານບໍ່ສາມາດເປີດໜ້ານີ້ຢູ່ບ່ອນນີ້ໄດ້ອີກຕໍ່ໄປ. ກະລຸນາເອົາບຸກມາກອອກ ຫຼື ຂໍສິດເຂົ້າເຖິງຈາກຜູ້ເບິ່ງແຍງລະບົບ.</translation>
     </message>
 </context>
 <context>
@@ -5165,6 +5177,210 @@
         <source>Go to the first page</source>
         <translation>ໄປທີ່ໜ້າທຳອິດ</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>ອື່ນໆ</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>7 ມື້ຜ່ານມາ</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>ຊ່ວງເວລາກຳນົດເອງ</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>ທຸກຄຳ</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>ຄຳໃດກໍໄດ້</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>ປະໂຫຍກທີ່ກົງກັນ</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>ຄວາມກ່ຽວຂ້ອງ</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>ຊື່ A–Z</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>ຊື່ Z–A</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>ແກ້ໄຂ, ໃໝ່ສຸດກ່ອນ</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>ແກ້ໄຂ, ເກົ່າສຸດກ່ອນ</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>ເຜີຍແຜ່, ໃໝ່ສຸດກ່ອນ</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>ເຜີຍແຜ່, ເກົ່າສຸດກ່ອນ</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>ແກ້ໄຂເມື່ອ</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>ຕົວກັ່ນຕອງ</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>ສະແດງຕົວກັ່ນຕອງ</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>ເຊື່ອງຕົວກັ່ນຕອງ</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>ຣີເຊັດ</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>ນຳໃຊ້</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>ຄຳ</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>ປະເພດເນື້ອຫາ</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>ສະແດງເພີ່ມເຕີມ (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>ເລືອກປະເພດເນື້ອຫາໜຶ່ງ ເພື່ອຄົ້ນຫາໃນແອັດທຣິບິວໜຶ່ງຂອງມັນ.</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>ພາກສ່ວນ</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>ຈາກ</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>ເຖິງ</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>ວັນທີເລີ່ມຕົ້ນບໍ່ແມ່ນວັນທີທີ່ຖືກຕ້ອງ.</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>ວັນທີສິ້ນສຸດບໍ່ແມ່ນວັນທີທີ່ຖືກຕ້ອງ.</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>ເຈົ້າຂອງ</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>ID ຜູ້ໃຊ້, ຊື່ເຂົ້າລະບົບ ຫຼື ທີ່ຢູ່ອີເມວ.</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>ບໍ່ພົບຜູ້ໃຊ້ສຳລັບ “%input”.</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>ພາສາ</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>ພາສາໃດກໍໄດ້</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>ຕຳແໜ່ງ</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>%count ຕຳແໜ່ງ</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>ຜົນລັບຕໍ່ໜ້າ</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>ຜົນລັບສຳລັບ “%text” (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>ຜົນລັບ (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>ຮຽງລຳດັບຕາມ</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>ຮຽງລຳດັບ</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>ຕົວກັ່ນຕອງທີ່ໃຊ້ຢູ່</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>ເອົາຕົວກັ່ນຕອງນີ້ອອກ</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>ຫຼື ເລືອກຕົວກັ່ນຕອງ ແລະ ນຳໃຊ້ ເພື່ອສະແດງລາຍການເນື້ອຫາທີ່ກົງກັນ.</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>ຕົວກັ່ນຕອງຈະຈຳກັດການຄົ້ນຫາໃຫ້ແຄບລົງ ເມື່ອທ່ານພິມຄຳແລ້ວ.</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>ບໍ່ພົບຜົນລັບສຳລັບ “%text”.</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>ບໍ່ພົບຜົນລັບ.</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>ເອົາຕົວກັ່ນຕອງດ້ານເທິງອອກ.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>ການແປ</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>ການດຳເນີນການ</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>ແກ້ໄຂ %name</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>ແກ້ໄຂ</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -7514,6 +7730,10 @@
         <source>Setup &gt; Cronjobs</source>
         <translation>ຕັ້ງຄ່າລະບົບ &gt; ວຽກ cron</translation>
     </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>ຍັງບໍ່ມີສ່ວນຂອງວຽກ cron ໃດເຮັດວຽກເທື່ອ: ຄິວວຽກ, ການນຳເຂົ້າ, ການແຈ້ງເຕືອນ ແລະ ດັດຊະນີການຄົ້ນຫາກຳລັງລໍຖ້າຢູ່. ກະລຸນາແລ່ນ php bin/php/installcrontab.php --add --apply ຫຼື ເພີ່ມແຖວຈາກ --show ເຂົ້າໃນ crontab.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/dashboard/drafts</name>
@@ -8058,8 +8278,8 @@
         <translation>ແຈ້ງການລິຂະສິດຂອງຜູ້ຂຽນເດີມ ແລະຂອງຊອບແວບຸກຄົນທີສາມທີ່ລວມຢູ່ກັບ Exponential ຖືກເກັບໄວ້ໃນໄຟລ໌ຕົ້ນສະບັບ ແລະໃນໄຟລ໌ LICENSE ຕາມທີ່ໃບອະນຸຍາດກຳນົດ.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>ຕໍ່ໄປນີ້ແມ່ນລາຍຊື່ຜູ້ປະກອບສ່ວນ Exponential ທີ່ໄດ້ອະນຸຍາດຜົນງານຂອງຕົນໃຫ້ 7x ໃຊ້ ພາຍໃຕ້ຂໍ້ກຳນົດ ແລະເງື່ອນໄຂຂອງ eZ Systems Contributor Licensing Agreement. ຕາມທີ່ຂໍ້ຕົກລົງນີ້ອະນຸຍາດ, 7x ແຈກຢາຍການປະກອບສ່ວນແຕ່ລະອັນຕໍ່ພາຍໃຕ້ໃບອະນຸຍາດດຽວກັນກັບໄຟລ໌ທີ່ລວມການປະກອບສ່ວນນັ້ນ. ລາຍຊື່ນີ້ລະບຸຜູ້ປະກອບສ່ວນແຕ່ລະຄົນ, ຂໍ້ມູນຕິດຕໍ່ (ຖ້າມີ) ແລະໄຟລ໌ທີ່ເຂົາເຈົ້າໄດ້ປະກອບສ່ວນ ຫຼືມີສ່ວນຮ່ວມ.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>ຜູ້ປະກອບສ່ວນທີ່ໄດ້ຮັບການຍົກຍ້ອງສຳລັບວຽກງານຂອງເຂົາເຈົ້າໃນ Exponential ແລະ ໃນຊອບແວທີ່ມັນເຕີບໃຫຍ່ມາຈາກ, ພ້ອມກັບໄຟລ໌ທີ່ເຂົາເຈົ້າໄດ້ປະກອບສ່ວນ. ນີ້ແມ່ນການຍົກຍ້ອງ, ບໍ່ແມ່ນແຈ້ງການລິຂະສິດ: ການປະກອບສ່ວນໃຫ້ Exponential ຖືກໂອນໃຫ້ Exponential Foundation ແລະ 7x ຕາມ Contributor Licensing Agreement.</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13881,32 +14101,20 @@ Note: The packages will not be uninstalled.</source>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%evaluate_link"&gt;ທົດລອງ Exponential Enterprise Edition&lt;/a&gt; - &lt;a href="%share_link"&gt;ເປັນສະມາຊິກຂອງ Exponential Community, ແລກປ່ຽນ ແລະປະກອບສ່ວນ&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; ລິຂະສິດ &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; ແລະອື່ນໆ.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class="edition-info"&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>ຂັບເຄື່ອນໂດຍ &lt;span class="edition-info"&gt;%edition&lt;/span&gt;. ສຳລັບຂໍ້ມູນເພີ່ມເຕີມ ເບິ່ງ &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; ລິຂະສິດ &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; ແລະອື່ນໆ.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> ສຳລັບຂໍ້ມູນເພີ່ມເຕີມ ເບິ່ງ &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
     </message>
     <message>
-        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; ລິຂະສິດ &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; ແລະຜູ້ອື່ນໆ.</translation>
+        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href="%evaluate_link"&gt;ທົດລອງ Exponential (ຈາກ 7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;ເປັນສະມາຊິກຂອງຊຸມຊົນ Exponential, ຮັບການຊ່ວຍເຫຼືອ ແລະປະກອບສ່ວນ&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; ລິຂະສິດ &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; ແລະຜູ້ອື່ນໆ.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13915,6 +14123,61 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Help center</source>
         <translation>ສູນຊ່ວຍເຫຼືອ</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>ເນື້ອຫາ</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>ໜ້າເອກະສານ</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>ຜູ້ໃຊ້</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>ຄລາສເນື້ອຫາ</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>ສ່ວນຜູ້ເບິ່ງແຍງລະບົບ</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>ໜ້າ %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>ເບິ່ງຜົນລັບທັງໝົດ</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>%count ຜົນລັບ</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>ໜຶ່ງຜົນລັບ</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>%count ຄຳແນະນຳ</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>ບໍ່ມີຄຳແນະນຳ</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>ບໍ່ສາມາດໂຫຼດຄຳແນະນຳໄດ້.</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>ຄຳແນະນຳ</translation>
     </message>
 </context>
 <context>
@@ -14383,6 +14646,14 @@ Note: The packages will not be uninstalled.</source>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>ການຕິດຕັ້ງນີ້ເປັນການສາທິດສາທາລະນະ: ໃຜກໍອາດຮູ້ລະຫັດຜ່ານຜູ້ເບິ່ງແຍງລະບົບ, ແລະບໍ່ສາມາດປ່ຽນ ຫຼືຣີເຊັດລະຫັດຜ່ານຜູ້ເບິ່ງແຍງລະບົບໄດ້. ກະລຸນາຢ່າປ້ອນຂໍ້ມູນສ່ວນຕົວໃດໆຢູ່ນີ້.</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>ອຸປະກອນຂອງທ່ານ</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>ກິດຈະກຳດ້ານຄວາມປອດໄພ</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14672,6 +14943,14 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>ຄູ່ມື, ການຄົ້ນຫາ ແລະວິທີລາຍງານຂໍ້ຜິດພາດ.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>ເນື້ອຫາລ່າສຸດ</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>ເນື້ອຫາໃໝ່ສຸດ, ສິ່ງທີ່ຖືກກັກໄວ້ເພື່ອກວດສອບ, ແລະ ການກະທຳກັບລາຍການທີ່ເລືອກ.</translation>
     </message>
 </context>
 <context>
@@ -15130,6 +15409,46 @@ Note: The packages will not be uninstalled.</source>
         <source>Synchronisations</source>
         <translation>ການຊິງໂຄຣໄນ</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>GraphQL API: ຈຸດປາຍທາງ, ສະຄີມາ ແລະ ບ່ອນທົດລອງຄຳຖາມ.</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>ການຍ້າຍຂໍ້ມູນ</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>ການປ່ຽນແປງການຕິດຕັ້ງທີ່ເກັບເປັນໄຟລ໌: ສະຖານະ, ການດຳເນີນການ, ດຳເນີນການ ແລະ ຍ້ອນກັບ.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>ເນື້ອຫາລ່າສຸດ</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>ເນື້ອຫາໃໝ່ສຸດ, ສິ່ງທີ່ຖືກກັກໄວ້ເພື່ອກວດສອບ, ແລະ ການກະທຳກັບລາຍການທີ່ເລືອກ.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>ເຜີຍແຜ່ສຳເນົາແບບສະຖິດຂອງເວັບໄຊໄປຍັງ GitHub Pages ຫຼື ໂຮສ git ໃດກໍໄດ້.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>ການເຜີຍແຜ່ແບບສະຖິດ</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>ປະເພດຂໍ້ມູນ</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>ທຸກປະເພດຂໍ້ມູນຂອງເຄີເນລ ແລະ ສ່ວນຂະຫຍາຍ, ແລະ ວິທີທີ່ຄລາສ ແລະ ເນື້ອຫາໃຊ້ພວກມັນ.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15294,6 +15613,22 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>ບັນຊີທີ່ບໍ່ມີໃຜໃຊ້ ຫຼືທີ່ຕ້ອງກວດເບິ່ງ; ປິດໃຊ້ງານ, ປົດລັອກ ຫຼືສົ່ງອອກ.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>ບັນທຶກການກວດສອບຜູ້ໃຊ້</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>ໃຜໄດ້ປ່ຽນແປງ, ເຂົ້າສູ່ລະບົບ ຫຼື ຖືກປະຕິເສດ ຕາມແຕ່ລະບັນຊີ; ກັ່ນຕອງ ແລະ ສົ່ງອອກ.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>ລາຍງານການເຂົ້າສູ່ລະບົບ</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>ໃຜເຂົ້າສູ່ລະບົບຢູ່, ຈຳນວນການເຂົ້າສູ່ລະບົບ ແລະ ຄວາມລົ້ມເຫຼວຕໍ່ມື້; ໃຫ້ຜູ້ໃຊ້ອອກຈາກລະບົບທຸກບ່ອນ.</translation>
     </message>
 </context>
 <context>
@@ -22110,6 +22445,22 @@ Note: The packages will not be uninstalled.</source>
         <source>%n hours ago</source>
         <translation>%n ຊົ່ວໂມງກ່ອນ</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>ຄຳຕອບຂອງຄຳຖາມທີ່ບັນທຶກໄວ້ຂອງ GraphQL API ແລະ ຄລາສເນື້ອຫາຂອງສະຄີມາຂອງມັນ.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>ເຜີຍແຜ່ສຳເນົາແບບສະຖິດໄປຍັງ GitHub Pages ຫຼື ໂຮສ git ໃດກໍໄດ້</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>ການເຜີຍແຜ່ແບບສະຖິດ</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>ແຄຊສະຖິດໃຫ້ບໍລິການໜ້າຈາກເຊີບເວີນີ້. ເພື່ອເຜີຍແຜ່ສຳເນົາແບບສະຖິດຂອງເວັບໄຊໄປບ່ອນອື່ນ, ໃນ GitHub Pages ຫຼື ໂຮສ git ໃດກໍໄດ້, ໃຫ້ໃຊ້ການເຜີຍແຜ່ແບບສະຖິດ.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25651,6 +26002,10 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>last purge</source>
         <translation>ການລ້າງຄັ້ງລ່າສຸດ</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>ການຂຽນບໍ່ສາມາດເອົາລັອກສະຖານະໄດ້ (ຄັ້ງສຸດທ້າຍ %date): ແຕ່ລະຄັ້ງເຮັດໃຫ້ຜົນລັບທີ່ແຄຊໄວ້ທັງໝົດລ້າສະໄໝ. %file ຕ້ອງຂຽນໄດ້ໂດຍຜູ້ໃຊ້ທຸກຄົນທີ່ເວັບໄຊແລ່ນເປັນ; ໃນ NFS ຕ້ອງການ NFSv4 ຫຼື lockd.</translation>
     </message>
 </context>
 <context>
@@ -33599,6 +33954,14 @@ Note: The packages will not be uninstalled.</source>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>ເຊສຊັນທີ່ໝົດເວລາຂອງຕົວຈັດການ PHP ຖືກເອົາອອກໂດຍ PHP ເອງ (session.gc_maxlifetime) ບໍ່ແມ່ນໂດຍໜ້ານີ້ ຫຼືສ່ວນ cronjob session_gc.</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>ເຊສຊັນທີ່ເຂົ້າສູ່ລະບົບຢູ່ຂອງຜູ້ໃຊ້ທຸກຄົນສະແດງຢູ່ໃນລາຍງານການເຂົ້າສູ່ລະບົບ ແລະ ສາມາດອອກຈາກລະບົບໄດ້ຈາກບ່ອນນັ້ນ, ລາຍງານນີ້ເຮັດວຽກກັບຕົວຈັດການເຊສຊັນທຸກແບບ.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>ເປີດລາຍງານການເຂົ້າສູ່ລະບົບ</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37923,6 +38286,26 @@ your account.</source>
     <message>
         <source>None yet</source>
         <translation>ຍັງບໍ່ມີ</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>ກິດຈະກຳດ້ານຄວາມປອດໄພ</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>ການເຂົ້າສູ່ລະບົບຫຼ້າສຸດ, ຄວາມພະຍາຍາມທີ່ລົ້ມເຫຼວ ແລະ ການປ່ຽນແປງລະຫັດຜ່ານ, ທີ່ຢູ່ອີເມວ ແລະ ການຢືນຢັນຕົວຕົນສອງຂັ້ນຕອນຂອງທ່ານ.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>ການເຂົ້າສູ່ລະບົບຫຼ້າສຸດ, ຄວາມພະຍາຍາມທີ່ລົ້ມເຫຼວ ແລະ ການປ່ຽນແປງດ້ານຄວາມປອດໄພຂອງບັນຊີນີ້.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>ກວດເບິ່ງກິດຈະກຳ</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>ເຂົ້າສູ່ລະບົບລົ້ມເຫຼວ %count ເທື່ອ</translation>
     </message>
 </context>
 <context>
@@ -44089,6 +44472,42 @@ If you want to send comments to the approver or view the status use the URL belo
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>ຫຼັງຈາກເຂົ້າສູ່ລະບົບ ຜູ້ໃຊ້ຕ້ອງເລືອກລະຫັດຜ່ານໃໝ່ກ່ອນເຮັດສິ່ງອື່ນ. ໃຊ້ມັນເມື່ອທ່ານໃຫ້ລະຫັດຜ່ານຊົ່ວຄາວແກ່ໃຜຜູ້ໜຶ່ງ.</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>ເລືອກຮູບພາບທີ່ມີຢູ່ແລ້ວ</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>ໄຟລ໌ຮູບພາບຂອງອອບເຈັກທີ່ທ່ານເລືອກຈະຖືກສຳເນົາເຂົ້າໃນຊ່ອງນີ້. ອອບເຈັກອື່ນຈະບໍ່ມີການປ່ຽນແປງ.</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>ຮູບພາບຂອງ "%name" ໄດ້ຖືກສຳເນົາເຂົ້າໃນຊ່ອງນີ້ແລ້ວ.</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>ທ່ອງເບິ່ງຮູບພາບ</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>ຄົ້ນຫາຮູບພາບຕາມຊື່</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>ຄົ້ນຫາ</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>ໃຊ້ຮູບພາບຂອງ "%name"</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>ໃຊ້ຮູບພາບນີ້</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>ບໍ່ມີຮູບພາບທີ່ກົງກັບການຄົ້ນຫາຂອງທ່ານ.</translation>
     </message>
 </context>
 <context>
@@ -51013,6 +51432,10 @@ See the requirements page for more information.</source>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>crontab ບໍ່ໄດ້ຖືກຂຽນ (%reason). ກະລຸນາເພີ່ມແຖວເຫຼົ່ານີ້ໃສ່ crontab ຂອງຜູ້ໃຊ້ທີ່ໄຊດຳເນີນການ ບໍ່ດັ່ງນັ້ນຄິວ, ການນຳເຂົ້າ, ການແຈ້ງເຕືອນ ແລະດັດຊະນີການຄົ້ນຫາຈະບໍ່ຖືກດຳເນີນການເລີຍ:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>ການຕິດຕັ້ງຄືນໃໝ່ເຮັດໄດ້ດ້ວຍ Kickstarter (%file ແລ້ວແລ່ນ php bin/php/kickstarter.php run --apply) ຫຼື ດ້ວຍການຕິດຕັ້ງໃໝ່ທັງໝົດ.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54892,6 +55315,10 @@ your account.</source>
         <source>eZJSCore Public Packer cache</source>
         <translation>ແຄຊ Public Packer ຂອງ eZJSCore</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>ແຄຊ GraphQL (ຄຳຕອບ ແລະ ຄລາສສະຄີມາ)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54978,6 +55405,14 @@ your account.</source>
     <message>
         <source>Copy of %class_name</source>
         <translation>ສຳເນົາຂອງ %class_name</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>ປະເພດຂໍ້ມູນ</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>ປະເພດຂໍ້ມູນ %string</translation>
     </message>
 </context>
 <context>
@@ -55804,6 +56239,26 @@ your account.</source>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>ບໍ່ສາມາດອ່ານຮູບພາບ SVG ໄດ້ ຫຼືບໍ່ມີຫຍັງໃນມັນທີ່ສາມາດສະແດງໄດ້ຢ່າງປອດໄພ.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>ບໍ່ສາມາດສຳເນົາຮູບພາບໄດ້. ກະລຸນາລອງໃໝ່ ຫຼືຕິດຕໍ່ຜູ້ເບິ່ງແຍງລະບົບຂອງໄຊ.</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>ອອບເຈັກທີ່ເລືອກບໍ່ມີຢູ່ ຫຼືທ່ານບໍ່ມີສິດອ່ານມັນ.</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>ອອບເຈັກທີ່ເລືອກບໍ່ມີຮູບພາບ.</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>ບໍ່ສາມາດອ່ານໄຟລ໌ຮູບພາບຂອງອອບເຈັກທີ່ເລືອກໄດ້.</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>ຮູບພາບຂອງອອບເຈັກທີ່ເລືອກໃຫຍ່ກວ່າທີ່ຊ່ອງນີ້ອະນຸຍາດ: %1 ໄບຕ໌.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56334,6 +56789,42 @@ your account.</source>
         <source>The bookmark was renamed to "%name".</source>
         <translation>ບຸກມາກຖືກປ່ຽນຊື່ເປັນ "%name" ແລ້ວ.</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>ໜ້ານີ້ຖືກປິດໄວ້ໃນການເຂົ້າເຖິງໄຊນີ້ (%siteaccess). ກະລຸນາເປີດບຸກມາກໃນການເຂົ້າເຖິງໄຊທີ່ມີໜ້ານີ້.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>ໂມດູນຂອງໜ້ານີ້ບໍ່ໄດ້ຖືກຕິດຕັ້ງ ຫຼື ບໍ່ໄດ້ເປີດໃຊ້ຢູ່ບ່ອນນີ້.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>ໜ້ານີ້ບໍ່ມີຢູ່ອີກຕໍ່ໄປ: ໂມດູນຂອງມັນບໍ່ມີມຸມມອງນີ້.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>ບໍ່ມີບົດບາດໃດຂອງທ່ານທີ່ອະນຸຍາດໃຫ້ທ່ານເປີດໜ້ານີ້.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>ທ່ານບໍ່ມີສິດໃຊ້ການເຂົ້າເຖິງໄຊນີ້.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>ທ່ານບໍ່ມີສິດອ່ານເນື້ອຫາທີ່ໜ້ານີ້ສະແດງ.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>ບໍ່ສາມາດບຸກມາກໜ້າປະເພດນີ້ໄດ້: ມັນພຽງແຕ່ດຳເນີນການກັບແບບຟອມ ຫຼື ເປັນໜ້າຊົ່ວຄາວ.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>ບໍ່ມີທີ່ຢູ່ຂອງໜ້ານີ້.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>ບໍ່ສາມາດເປີດໜ້ານີ້ໄດ້ໃນຕອນນີ້.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56805,6 +57296,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>ລະບົບສົ່ງເມວປະຕິເສດ %count ຂໍ້ຄວາມໃນການດຳເນີນການຄັ້ງສຸດທ້າຍ. ກະລຸນາກວດສອບເຊີບເວີເມວ ແລະ site.ini MailSettings.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>ມີ %count ເຫດການທີ່ລໍຖ້າຢູ່ ແລະ ບໍ່ມີການບັນທຶກການເຮັດວຽກຂອງວຽກ cron ການແຈ້ງເຕືອນ. ກະລຸນາເພີ່ມສ່ວນຂອງວຽກ cron &quot;frequent&quot; ເຂົ້າໃນ crontab ຫຼື ແລ່ນ exp:notification:run --apply.</translation>
     </message>
 </context>
 <context>
@@ -63061,6 +63556,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Choose another site or section with the node picker</source>
         <translation>ເລືອກໄຊ ຫຼືພາກສ່ວນອື່ນດ້ວຍຕົວເລືອກໂນດ</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>ມີແຕ່ຜູ້ດູແລລະບົບເທົ່ານັ້ນທີ່ປ່ຽນເຈົ້າຂອງໄດ້: ກະລຸນາແລ່ນ ./console exp:content-check --fix-permissions --apply ໃນນາມ root.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64594,6 +65093,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>empty</source>
         <translation>ຫວ່າງເປົ່າ</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>ກະແຈສຳລັບລົງລາຍເຊັນມີອາຍຸເກີນໜຶ່ງປີແລ້ວ: ກະລຸນາໝູນວຽນກະແຈດ້ວຍ exp:audit key rotate --apply.</translation>
     </message>
 </context>
 <context>
@@ -68424,6 +68927,486 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Share of page time</source>
         <translation>ສ່ວນແບ່ງຂອງເວລາໜ້າ</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>ມີການຮ້ອງຂໍໃຫ້ສະແດງຜົນເຕັມໜ້າ</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>ແຄຊໜ້າບໍ່ມີໜ້ານີ້ (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>ແຄຊໜ້າບໍ່ຕອບສະໜອງ</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>ສະແດງຜົນແລ້ວ</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>ສະແດງຜົນໂດຍເຄີເນລ: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>ສົ່ງຈາກແຄຊໜ້າໃນ %ms ms. ໜ້ານີ້ຖືກເກັບໄວ້ເມື່ອ %stored ໂດຍການສະແດງຜົນທີ່ໃຊ້ເວລາ %render ms, ເມື່ອ %age ວິນາທີກ່ອນ.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>ສະແດງຜົນດຽວນີ້</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>ກັບຄືນໄປມຸມມອງຈາກແຄຊ</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>ຈາກການສະແດງຜົນເມື່ອ %stored (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>ຄຳຮ້ອງຂໍນີ້: ສົ່ງຈາກແຄຊໜ້າໃນ %ms ms.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>ຜູ້ໃຊ້</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>ID ຜູ້ໃຊ້</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>ໂປຣໄຟລ໌ແຄຊ</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>ມຸມມອງນີ້</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>ແຄຊມຸມມອງ</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>ຕໍ່ຜູ້ໃຊ້ (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>ໂປຣໄຟລ໌ແຄຊຂອງຜູ້ໃຊ້: ຜູ້ໃຊ້ທີ່ມີໂປຣໄຟລ໌ດຽວກັນໃຊ້ໄຟລ໌ແຄຊມຸມມອງຮ່ວມກັນ</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ແມ່ນ</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ບໍ່</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>ຊື່ເຂົ້າສູ່ລະບົບ</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>ເຂົ້າສູ່ລະບົບແລ້ວ</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>ເຊສຊັນ</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>ສ່ວນຂອງກະແຈແຄຊມຸມມອງເນື້ອຫາທີ່ຂຶ້ນກັບຜູ້ໃຊ້ ຕາມທີ່ກະແຈນຳໃຊ້ພໍດີ ພາຍໃຕ້ ViewCacheTweaks ຂອງໜ້ານີ້. ຜູ້ໃຊ້ທີ່ມີໂປຣໄຟລ໌ດຽວກັນໃຊ້ໄຟລ໌ແຄຊຂອງມຸມມອງຮ່ວມກັນ ເວັ້ນເສຍແຕ່ສ່ວນຂອງມຸມມອງເອງແຕກຕ່າງກັນ (ຄ່າທີ່ມັກ, ກະແຈຂອງ listener): ສ່ວນເຫຼົ່ານັ້ນມີໂປຣໄຟລ໌ຂອງຕົນເອງ ສະເພາະໜ້ານີ້ເທົ່ານັ້ນ.</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>ໂປຣໄຟລ໌</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>ມຸມມອງນີ້ (ໂນດ %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: ຜູ້ໃຊ້ທຸກຄົນທີ່ເຂົ້າສູ່ລະບົບມີໄຟລ໌ແຄຊຂອງຕົນເອງ.</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>ViewCacheTweaks ທີ່ມີຜົນ: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>ສ່ວນ</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>ຄ່າ</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>ບໍ່ມີສ່ວນໃດຂຶ້ນກັບຜູ້ໃຊ້ (ViewCacheTweaks).</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>ມຸມມອງນີ້</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>ສຳເນົາເປັນຂໍ້ຄວາມ</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>ບົດບາດ</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>ບໍ່ສາມາດອ່ານການມອບໝາຍບົດບາດໄດ້.</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>ID ບົດບາດ</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>ບົດບາດ</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>ຂໍ້ຈຳກັດ</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>ມອບໝາຍໃຫ້</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>ຜູ້ໃຊ້</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>ກຸ່ມ %name (ວັດຖຸ %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>ສຳເນົາແລ້ວ</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>ບໍ່ສາມາດສຳເນົາໄດ້.</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>ຖືກ listener ລະເວັ້ນ</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>ຜູ້ເຂົ້າຊົມບໍ່ລະບຸຊື່</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>ຄືກັບຂອງທ່ານ</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>ແຕກຕ່າງ</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>ໂປຣໄຟລ໌ທີ່ຜູ້ເຂົ້າຊົມນິລະນາມໄດ້ຮັບພາຍໃຕ້ ViewCacheTweaks ດຽວກັນ ດ້ວຍຄ່າທີ່ມັກເລີ່ມຕົ້ນ ໂດຍບໍ່ມີສ່ວນຂອງມຸມມອງ: ບໍ່ສາມາດຖາມ listener ທີ່ອ່ານເຊດຊັນເພື່ອຂໍສ່ວນເຫຼົ່ານັ້ນໄດ້.</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>ການຕັ້ງຄ່າທີ່ມັກ</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>ບໍ່ມີໂໝດມຸມມອງໃດຂຶ້ນກັບຄ່າທີ່ມັກຂອງຜູ້ໃຊ້ (site.ini [ContentSettings] CachedViewPreferences).</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>ຄ່າທີ່ມັກທີ່ມຸມມອງຂອງໂໝດມຸມມອງເຫຼົ່ານີ້ຂຶ້ນກັບ (CachedViewPreferences) ພ້ອມຄ່າຂອງຜູ້ໃຊ້ ຫຼື ຄ່າເລີ່ມຕົ້ນ. ພວກມັນຢູ່ໃນໂປຣໄຟລ໌ເປັນ userpreferences ຂອງທຸກໂໝດມຸມມອງລວມກັນ.</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>ໂໝດການສະແດງ</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>ຄ່າທີ່ມັກ</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>ຄ່າເລີ່ມຕົ້ນ</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>ນະໂຍບາຍ</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>ສະແດງນະໂຍບາຍຂອງບົດບາດ (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>ນະໂຍບາຍຈະຖືກໂຫຼດຈາກເຊີບເວີເມື່ອເປີດພາກນີ້ ເທື່ອລະໜ້າ ແລະ ສາມາດກັ່ນຕອງຕາມໂມດູນ ແລະ ຟັງຊັນໄດ້.</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>ຟັງຊັນ</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>ທຸກໂມດູນ</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>ຟັງຊັນທັງໝົດ</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>ຂໍ້ຈຳກັດ</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>ສະແດງເພີ່ມເຕີມ</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>ບົດບາດເຫຼົ່ານີ້ບໍ່ມີນະໂຍບາຍ.</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>ບໍ່ມີນະໂຍບາຍໃດກົງກັບຕົວກັ່ນຕອງ.</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%shown ຈາກ %matching ນະໂຍບາຍ (ທັງໝົດ %total)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>ໂຫຼດເມື່ອເປີດ.</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>module/function, ບົດບາດ, ຂໍ້ຈຳກັດ</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>ຄົ້ນຫານະໂຍບາຍ</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>ໂຫຼດເພີ່ມ</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>ໂມດູນ/ຟັງຊັນ</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>ທຸກບົດບາດ (%count ນະໂຍບາຍ)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>ບໍ່ມີນະໂຍບາຍທີ່ກົງກັນ.</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%shown ຈາກ %matched ນະໂຍບາຍ</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>ບໍ່ມີຄຳຕອບ</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>ຖືກປິດບັງ</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>ສະແດງຄຳອະທິບາຍ</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>ເຊື່ອງຄຳອະທິບາຍ</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>ເປີດ</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>ເປີດທັງໝົດ</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>ປິດທັງໝົດ</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>ກະແຈ ຫຼື ຄ່າ</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>ຄົ້ນຫາໃນເຊສຊັນ</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>ປະເພດ</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>ອີກ %count</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>ຊ້ອນກັນເລິກເກີນໄປທີ່ຈະສະແດງ</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>ຖືກຕັດ, ທັງໝົດ %count ຕົວອັກສອນ</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>ເລີ່ມເມື່ອ</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>ຊື່ຄຸກກີ້</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>ID ເຊສຊັນ</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>ຕົວຈັດການ</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>ເສັ້ນທາງບັນທຶກ</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>ຄ່າເລີ່ມຕົ້ນຂອງ PHP</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>ອາຍຸການໃຊ້ງານ (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>ຄຸກກີ້</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>ອາຍຸການໃຊ້ງານ %s ວິ</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>ເຊສຊັນ PHP ຂອງທ່ານເອງ ຕາມທີ່ມັນເປັນໃນຕອນທີ່ເປີດພາກສ່ວນນີ້ ບໍ່ແມ່ນຂອງຜູ້ອື່ນຈັກເທື່ອ. ຄ່າຂອງກະແຈທີ່ເບິ່ງຄືຄວາມລັບ (ໂທເຄັນ, ແຮຊ, ລະຫັດຜ່ານ) ຈະຖືກປິດບັງ (debugbar.ini SessionMask[]); ສ່ວນອື່ນທັງໝົດຈະສະແດງຕາມທີ່ບັນທຶກໄວ້ ລວມທັງຂໍ້ມູນສ່ວນຕົວ.</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>%count ກະແຈ, %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>ໃຫຍ່</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>ເຊສຊັນຫວ່າງເປົ່າ.</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>ບໍ່ມີເຊສຊັນໃດຖືກເລີ່ມສຳລັບຄຳຮ້ອງຂໍນີ້.</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>ສ່ວນຂະຫຍາຍ %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>ເຄີເນວ ແລະ ອື່ນໆ</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>ບໍ່ໄດ້ສະແດງທຸກລາຍການ: ເຊສຊັນມີຫຼາຍກວ່າທີ່ສາມາດລາຍຊື່ໄດ້ຢູ່ນີ້.</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>%count ກະແຈບໍ່ໄດ້ຖືກລາຍຊື່.</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>ກອບ</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>ຄ່າທີ່ເບິ່ງຄືໂທເຄັນ (JSON Web Token, ຂໍ້ມູນປະຈຳຕົວຂອງສ່ວນຫົວ Authorization, ກະແຈສ່ວນຕົວ, ຂໍ້ຄວາມ hex ຫຼື ສຸ່ມທີ່ຍາວ) ກໍຖືກປິດບັງເຊັ່ນກັນ ບໍ່ວ່າກະແຈຂອງມັນຈະມີຊື່ຫຍັງ (debugbar.ini SessionValueMask[]).</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>ກະແຈເບິ່ງຄືຄວາມລັບ (debugbar.ini SessionMask[]).</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>ຄ່າເບິ່ງຄືໂທເຄັນ.</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>ຢູ່ລຸ່ມກະແຈທີ່ຖືກປິດບັງ.</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>ເຊສຊັນເປັນຂໍ້ຄວາມ, ປິດບັງຄືກັບຕາຕະລາງ.</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>ເຊສຊັນໃຫຍ່ກວ່າ %size (debugbar.ini SessionWarnBytes): ທຸກຄຳຮ້ອງຂໍຂອງຜູ້ໃຊ້ນີ້ອ່ານເຊສຊັນທັງໝົດ ແລະ ຂຽນມັນເມື່ອມັນປ່ຽນແປງ.</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP ເກັບເຊສຊັນນີ້ໄວ້ໃນໄຟລ໌ ແລະ ລັອກໄຟລ໌ຕະຫຼອດຄຳຮ້ອງຂໍ: ຄຳຮ້ອງຂໍຂອງຜູ້ໃຊ້ດຽວກັນ (ຫຼາຍແຖບ, ການເອີ້ນ AJAX) ລໍຖ້າກັນ.</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>ເປີດໄວ້</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>ໃຫຍ່ກວ່າ %size (debugbar.ini SessionWarnBytes): ທຸກຄຳຮ້ອງຂໍຂອງຜູ້ໃຊ້ນີ້ອ່ານເຊສຊັນທັງໝົດ.</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%hits ຈາກ %count ອ່ານຈາກແຄຊ</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>ບໍ່ມີແມ່ແບບໃດຖືກສະແດງຜົນ (ມຸມມອງທີ່ອ່ານຈາກແຄຊມຸມມອງບໍ່ສະແດງຜົນແມ່ແບບໃດ).</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>ການມອບໝາຍບົດບາດ</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>ບົດບາດ ແລະນະໂຍບາຍ</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>ແຕກຕ່າງຈາກຜູ້ເຂົ້າຊົມທີ່ບໍ່ລະບຸຊື່</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>ຄືກັບຜູ້ເຂົ້າຊົມທີ່ບໍ່ລະບຸຊື່</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70304,6 +71287,14 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>not sent</source>
         <translation>ບໍ່ໄດ້ສົ່ງ</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>ວຽກ cron ການແຈ້ງເຕືອນຈະບັນທຶກການເຮັດວຽກແຕ່ລະເທື່ອໄວ້ທີ່ນີ້. ກະລຸນາເພີ່ມສ່ວນ frequent ເຂົ້າໃນ crontab ຫຼື ແລ່ນ exp:notification:run --apply.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>ໃຊ້ຄອນໂຊນ: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -76022,6 +77013,98 @@ You will need to change the class of the node by using the swap functionality.</
         <source>This topic is not Released; readers do not see it.</source>
         <translation>ຫົວຂໍ້ນີ້ຍັງບໍ່ຖືກອອກ; ຜູ້ອ່ານບໍ່ເຫັນມັນ.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>ການຍ້າຍຂໍ້ມູນ</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>ການປ່ຽນແປງການຕິດຕັ້ງທີ່ເກັບເປັນໄຟລ໌: ສະຖານະ, ການດຳເນີນການ, ດຳເນີນການ ແລະ ຍ້ອນກັບ.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>ເຜີຍແຜ່ສຳເນົາແບບສະຖິດຂອງເວັບໄຊໄປຍັງ GitHub Pages ຫຼື ໂຮສ git ໃດກໍໄດ້.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>ການເຜີຍແຜ່ແບບສະຖິດ</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>ກຳລັງກວດທານ</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>ຜູ້ອ່ານເຫັນໜ້ານີ້.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>ເຊື່ອງໄວ້ຈາກຜູ້ອ່ານຈົນກວ່າຈະມີຄົນອອກມັນ.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>ໜ້ານີ້ຢູ່ໃນສະພາວະກວດທານແລ້ວ. ມັນຖືກເຊື່ອງໄວ້ຈາກຜູ້ອ່ານຈົນກວ່າຈະຖືກອອກ.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>ໜ້ານີ້ຖືກອອກແລ້ວ: ຜູ້ອ່ານເຫັນມັນແລ້ວ.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>ໜ້ານີ້ກັບເປັນສະບັບຮ່າງອີກຄັ້ງ. ມັນຖືກເຊື່ອງໄວ້ຈາກຜູ້ອ່ານຈົນກວ່າຈະຖືກກວດທານ ແລະອອກ.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>ອອກດຽວນີ້</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>ມີແຕ່ຜູ້ໃຊ້ທີ່ມີບົດບາດ %role ແລະບໍ່ໄດ້ຂຽນເວີຊັນນີ້ເທົ່ານັ້ນທີ່ສາມາດອອກມັນໄດ້.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>ຫົວຂໍ້ຊ່ວຍເຫຼືອທີ່ລໍຖ້າການອອກ</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>ເຊື່ອງມັນຈາກຜູ້ອ່ານຈົນກວ່າຈະຖືກອອກອີກຄັ້ງ.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>ຕໍ່ໄປຜູ້ກວດທານຈະກວດມັນ. ຜູ້ອ່ານຍັງບໍ່ເຫັນມັນ.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>ຜູ້ອ່ານເຫັນມັນທັນທີ.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>ເອົາມັນອອກຈາກການກວດທານເພື່ອແກ້ໄຂຕື່ມ. ຜູ້ອ່ານບໍ່ເຫັນມັນ.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>ເຊື່ອງໜ້ານີ້ຈາກຜູ້ອ່ານບໍ?</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>ສົ່ງໜ້ານີ້ກັບເປັນສະບັບຮ່າງບໍ?</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>ຜູ້ອ່ານຈະບໍ່ເຫັນ %title ອີກຈົນກວ່າຈະມີຄົນອອກມັນອີກຄັ້ງ.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title ກັບເປັນສະບັບຮ່າງເພື່ອແກ້ໄຂຕື່ມ. ຜູ້ອ່ານຍັງບໍ່ເຫັນມັນ, ແລະມັນຕ້ອງໄດ້ກວດທານໃໝ່ກ່ອນຈະຖືກອອກ.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>ຍົກເລີກ</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>ຫົວຂໍ້ເຫຼົ່ານີ້ຢູ່ໃນສະພາວະກວດທານ. ຜູ້ອ່ານຈະເຫັນພວກມັນເມື່ອມີຄົນທີ່ບໍ່ໄດ້ຂຽນເວີຊັນປັດຈຸບັນອອກພວກມັນ.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76477,6 +77560,46 @@ You will need to change the class of the node by using the swap functionality.</
         <source>None.</source>
         <translation>ບໍ່ມີ.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>ດ້ວຍແອັບຢືນຢັນຕົວຕົນ</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>ດ້ວຍລະຫັດທາງອີເມວ</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>ດ້ວຍລະຫັດກູ້ຄືນ</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>ດ້ວຍພາສຄີ</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>ດ້ວຍບັນຊີພາຍນອກ</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>ກິດຈະກຳດ້ານຄວາມປອດໄພ</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>ສະແດງເປັນເຄືອຂ່າຍ; ທີ່ຢູ່ຈະຖືກເກັບໄວ້ຕາມການຕັ້ງຄ່າການປົກປ້ອງຂໍ້ມູນຂອງເວັບໄຊ.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>ບໍ່ໄດ້ບັນທຶກໄວ້</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>ສະຖານທີ່</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>ໂດຍປະມານ</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76720,6 +77843,42 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Manage devices</source>
         <translation>ຈັດການອຸປະກອນ</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>ດ້ວຍແອັບຢືນຢັນຕົວຕົນ</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>ດ້ວຍລະຫັດທາງອີເມວ</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>ດ້ວຍລະຫັດກູ້ຄືນ</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>ດ້ວຍພາສຄີ</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>ດ້ວຍບັນຊີພາຍນອກ</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>ກິດຈະກຳດ້ານຄວາມປອດໄພ</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>ບໍ່ໄດ້ບັນທຶກໄວ້</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>ສະຖານທີ່</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>ໂດຍປະມານ</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76799,6 +77958,14 @@ You will need to change the class of the node by using the swap functionality.</
         <source>View the sessions of this user</source>
         <translation>ເບິ່ງເຊສຊັນຂອງຜູ້ໃຊ້ນີ້</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>ບັນຊີ %login ຂອງທ່ານໃນ %site ຫາກໍຖືກໃຊ້ເຂົ້າສູ່ລະບົບຈາກສະຖານທີ່ທີ່ບໍ່ໄດ້ເຂົ້າສູ່ລະບົບມາໄລຍະໜຶ່ງແລ້ວ:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>ສະຖານທີ່ໂດຍປະມານ</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76837,6 +78004,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%browser ເທິງ %os</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>ລາຍງານການເຂົ້າສູ່ລະບົບ</translation>
     </message>
 </context>
 <context>
@@ -77045,6 +78216,82 @@ You will need to change the class of the node by using the swap functionality.</
         <source>The passkey could not be checked. Please try again.</source>
         <translation>ບໍ່ສາມາດກວດສອບພາສຄີໄດ້. ກະລຸນາລອງອີກຄັ້ງ.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>ບັນຊີທີ່ເຂົ້າສູ່ລະບົບດ້ວຍພາສຄີເທົ່ານັ້ນບໍ່ສາມາດໃຊ້ລະຫັດຜ່ານຢູ່ນີ້ໄດ້: ກະລຸນາເລືອກ &quot;ເຂົ້າສູ່ລະບົບດ້ວຍພາສຄີ&quot;.</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>ພາສຄີຂອງ %login</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>ພາສຄີທີ່ບັນຊີນີ້ໃຊ້ເຂົ້າສູ່ລະບົບ. ກະລຸນາເພີກຖອນພາສຄີທີ່ຢູ່ໃນອຸປະກອນທີ່ເສຍ ຫຼືຖືກລັກ: ມັນຈະບໍ່ສາມາດເຂົ້າສູ່ລະບົບໄດ້ອີກ. ເຈົ້າຂອງບັນຊີເພີ່ມພາສຄີໃໝ່ເອງ.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>ບັນຊີຂອງທ່ານຕ້ອງການພາສຄີ</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>ເພີ່ມພາສຄີໃສ່ບັນຊີຂອງທ່ານ</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>ກະລຸນາເພີ່ມພາສຄີເພື່ອດຳເນີນການຕໍ່. ຈາກນັ້ນທ່ານຈະເຂົ້າສູ່ລະບົບດ້ວຍມັນ ແທນທີ່ຈະໃຊ້ພຽງແຕ່ລະຫັດຜ່ານ.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>ການເຂົ້າສູ່ລະບົບດ້ວຍພາສຄີໄວກວ່າ ແລະປອດໄພກວ່າລະຫັດຜ່ານ. ເພີ່ມດຽວນີ້ ຫຼືດຳເນີນການຕໍ່ໂດຍບໍ່ມີມັນ.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>ບໍ່ແມ່ນຕອນນີ້</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>ທ່ານຕ້ອງການເພີກຖອນພາສຄີ &quot;%name&quot; ບໍ່?</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>ມັນຈະບໍ່ສາມາດເຂົ້າສູ່ລະບົບບັນຊີນີ້ໄດ້ອີກ. ຖ້າມັນແມ່ນອັນສຸດທ້າຍ, ເຈົ້າຂອງຈະເຂົ້າສູ່ລະບົບດ້ວຍລະຫັດຜ່ານ ຫຼືທ່ານຕັ້ງລະຫັດຜ່ານໃໝ່.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>ເພີກຖອນພາສຄີ</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>ເພີກຖອນ</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>ບັນຊີນີ້ບໍ່ມີພາສຄີ.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>ຕົວຢືນຢັນຕົວຕົນ</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>ບໍ່ຮູ້ຈັກ</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>ພາສຄີສຸດທ້າຍຂອງທ່ານ: ກະລຸນາເພີ່ມອັນອື່ນກ່ອນທີ່ຈະເອົາມັນອອກ.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>ບັນຊີນີ້ເຂົ້າສູ່ລະບົບດ້ວຍພາສຄີເທົ່ານັ້ນ (ນະໂຍບາຍພາສຄີ): ເມື່ອບໍ່ມີພາສຄີເຫຼືອ, ມັນຈະເຂົ້າສູ່ລະບົບດ້ວຍລະຫັດຜ່ານອີກຄັ້ງ.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>ນີ້ແມ່ນພາສຄີສຸດທ້າຍຂອງທ່ານ ແລະບັນຊີຂອງທ່ານບໍ່ສາມາດເຂົ້າສູ່ລະບົບໄດ້ໂດຍບໍ່ມີມັນ. ກະລຸນາເພີ່ມພາສຄີອື່ນກ່ອນ.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>ພາສຄີ &quot;%name&quot; ຖືກເພີກຖອນແລ້ວ. ມັນບໍ່ສາມາດເຂົ້າສູ່ລະບົບບັນຊີນີ້ໄດ້ອີກ.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77144,6 +78391,34 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Code from your authenticator app</source>
         <translation>ລະຫັດຈາກແອັບຢືນຢັນຕົວຕົນຂອງທ່ານ</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>ທ່ານກຳລັງຈະລຶບຂໍ້ມູນຖາວອນ ຫຼືລ້າງບັນທຶກ.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>ລະຫັດຜ່ານຂອງທ່ານ ແລະພາສຄີ</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>ລະຫັດຜ່ານຂອງທ່ານ ແລະລະຫັດຈາກແອັບຢືນຢັນຕົວຕົນຂອງທ່ານ</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>ຫຼື:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>ບຣາວເຊີນີ້ບໍ່ສາມາດໃຊ້ພາສຄີໄດ້. ກະລຸນາໃຊ້ວິທີອື່ນ ຫຼືບຣາວເຊີອື່ນ.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>ເມື່ອທ່ານດຳເນີນການຕໍ່, ບຣາວເຊີຂອງທ່ານຈະຂໍພາສຄີໜຶ່ງຂອງທ່ານ.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>ດຳເນີນການຕໍ່ດ້ວຍພາສຄີ</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77234,6 +78509,70 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Setup</source>
         <translation>ຕັ້ງຄ່າລະບົບ</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>ການປ່ຽນລະຫັດຜ່ານ, ທີ່ຢູ່ອີເມວ, ພາສຄີ, ການຢືນຢັນຕົວຕົນສອງຂັ້ນຕອນ, ລະຫັດກູ້ຄືນ ຫຼືກະແຈ API ຂອງຕົນເອງ ແລະການອອກຈາກລະບົບໃນອຸປະກອນອື່ນຂອງຕົນເອງ.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>ການສ້າງ ແລະແກ້ໄຂຜູ້ໃຊ້, ລະຫັດຜ່ານ ແລະອຸປະກອນຂອງເຂົາເຈົ້າ, ການຕັ້ງຄ່າບັນຊີ, ການອະນຸມັດ ຫຼືປະຕິເສດບັນຊີຜູ້ໃຊ້ໃໝ່, ການມອບໝາຍບົດບາດ ແລະການແກ້ໄຂນະໂຍບາຍ.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>ການລຶບຂໍ້ມູນ</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>ການລ້າງຖັງຂີ້ເຫຍື້ອ, ການເອົາລາຍການອອກຈາກຖັງ ແລະການເອົາຫຼາຍລາຍການອອກພ້ອມກັນ.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>ການເອົາອອກ, ເຜີຍແຜ່ ແລະບັນທຶກເນື້ອຫາ</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>ການເອົາເນື້ອຫາອອກ (ລວມທັງໄປຖັງຂີ້ເຫຍື້ອ), ການເຜີຍແຜ່ ແລະການບັນທຶກສະບັບຮ່າງ, ຖາມເມື່ອສົ່ງແບບຟອມ. ປິດໄວ້ຕາມຄ່າເລີ່ມຕົ້ນ.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>ກ່ອນການກະທຳທີ່ລະອຽດອ່ອນ ຜູ້ໃຊ້ທີ່ເຂົ້າສູ່ລະບົບແລ້ວຈະຢືນຢັນອີກຄັ້ງວ່າແມ່ນໃຜ: ດ້ວຍລະຫັດຜ່ານ ແລະພາສຄີ ຫຼືຖ້າບໍ່ມີພາສຄີ ດ້ວຍລະຫັດຜ່ານ ແລະລະຫັດຈາກແອັບຢືນຢັນຕົວຕົນ. ມີແຕ່ໜ້າເວັບເທົ່ານັ້ນທີ່ຖາມ: ສ່ວນຕິດຕໍ່ REST, SOAP, WebDAV, ການເຂົ້າສູ່ລະບົບ expservices ແລະແຖວຄຳສັ່ງບໍ່ເຄີຍຖາມ.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>ບ່ອນທີ່ການຕັ້ງຄ່າມີຜົນ</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>ການຕັ້ງຄ່າສຳລັບ</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>ທຸກການເຂົ້າເຖິງໄຊ</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>ການເຂົ້າເຖິງໄຊ %name</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>ເປີດ</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>ຜູ້ທີ່ຖືກຖາມ: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>ໝາຍກຸ່ມຜູ້ໃຊ້ເພື່ອຖາມສະເພາະສະມາຊິກຂອງກຸ່ມນັ້ນ (ເຊັ່ນ: ຜູ້ແກ້ໄຂ). ບໍ່ໄດ້ໝາຍ: ຜູ້ໃຊ້ທຸກຄົນ.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>ບັນທຶກໃນ settings/override/site.ini.append.php ສຳລັບທຸກການເຂົ້າເຖິງໄຊ. ການບັນທຶກຈະຂໍໃຫ້ທ່ານຢືນຢັນວ່າແມ່ນທ່ານ.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>ບັນທຶກໃນ settings/siteaccess/%name/site.ini.append.php. ຄ່າໃນ settings/override ມີຄວາມສຳຄັນກວ່າ. ການບັນທຶກຈະຂໍໃຫ້ທ່ານຢືນຢັນວ່າແມ່ນທ່ານ.</translation>
     </message>
 </context>
 <context>
@@ -77336,6 +78675,6822 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Open the page</source>
         <translation>ເປີດໜ້າ</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from–%to ຈາກ %count</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>ຊື່ເຂົ້າສູ່ລະບົບ ຫຼື ID ຜູ້ໃຊ້: ບັນຊີທີ່ເຫດການກ່ຽວຂ້ອງ ຫຼື ຜູ້ໃຊ້ທີ່ໄດ້ດຳເນີນການ.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>ບັນຊີ</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>ການກະທຳ</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>ຫຼັງ</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>ທຸກຜົນລັບ</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>ກ່ອນ</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>ໂດຍ</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>ລ້າງ</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>ສຳເລັດ</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>ເຫດການຈະຖືກເກັບໄວ້ %days ມື້.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>ເຫດການຈະຖືກເກັບໄວ້ຈົນກວ່າຈະຖືກລຶບອອກດ້ວຍມື.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>ເຫດການທັງໝົດ</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>ທຸກການກະທຳ</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>ທຸກເຫດການຂອງບັນຊີນີ້</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>ສົ່ງອອກລາຍການເປັນ CSV (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>ລົ້ມເຫຼວ</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>ຈາກ</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>ຈຳກັດລາຍການ</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>ບໍ່ມີເຫດການທີ່ກົງກັນ.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>ຕໍ່ໜ້າ</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>ການບັນທຶກຖືກປິດຢູ່ໃນ audit.ini ([UserAuditSettings] UserAudit); ລາຍການສະແດງສິ່ງທີ່ໄດ້ບັນທຶກໄວ້ກ່ອນໜ້ານີ້.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>ຖືກປະຕິເສດ</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>ຜົນລັບ</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>ສະແດງ</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>ບໍ່ມີຕາຕະລາງຂອງບັນທຶກການກວດສອບຜູ້ໃຊ້. ສ້າງມັນດ້ວຍ php update/common/scripts/6.0/createuseraudittable.php ; ຈົນກວ່າຈະເຖິງຕອນນັ້ນ ໄຟລ໌ການກວດສອບຈະເກັບທຸກເຫດການໄວ້.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>ໜ້ານີ້ຕ້ອງການຖານຂໍ້ມູນ SQL; ບໍ່ສາມາດໃຊ້ໄດ້ກັບ MongoDB. ໄຟລ໌ການກວດສອບຈະເກັບທຸກເຫດການໄວ້.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>ເຖິງ</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>ບັນທຶກການກວດສອບຜູ້ໃຊ້</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>ຜູ້ໃຊ້</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>ເວລາ</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>ສະຖານທີ່</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>ໃຜໄດ້ປ່ຽນແປງ, ສ້າງ, ເປີດໃຊ້ງານ, ປິດໃຊ້ງານ, ຍ້າຍ ຫຼື ເອົາບັນຊີໃດອອກ, ໃຜໄດ້ເຂົ້າສູ່ລະບົບ ຫຼື ຖືກປະຕິເສດ, ແລະ ບົດບາດໃດໄດ້ຖືກມອບໝາຍ: ໜຶ່ງແຖວຕໍ່ເຫດການ, ພ້ອມກັບຊ່ອງຂໍ້ມູນກ່ອນ ແລະ ຫຼັງ. ລະຫັດຜ່ານ ແລະ ຂໍ້ມູນລັບຈະບໍ່ຖືກບັນທຶກເລີຍ.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>ກຸ່ມ</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>ລະບົບ</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>ບໍ່ຮູ້ຈັກ</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>ປົກປ້ອງບັນຊີຂອງທ່ານ</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>ມີການໃຊ້ລະຫັດກູ້ຄືນເພື່ອເຂົ້າສູ່ລະບົບບັນຊີ %login ຂອງທ່ານໃນ %site.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>ມີການໃຊ້ລະຫັດກູ້ຄືນ</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>ບັນຊີ</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>ທີ່ຢູ່ໂດຍປະມານ</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>ກະລຸນາຂໍລະຫັດຜ່ານໃໝ່ເພື່ອເຂົ້າສູ່ລະບົບອີກຄັ້ງ ຫຼື ຕິດຕໍ່ຜູ້ດູແລເວັບໄຊ.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>ຂໍລະຫັດຜ່ານໃໝ່</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>ລະຫັດກູ້ຄືນແຕ່ລະລະຫັດໃຊ້ໄດ້ພຽງເທື່ອດຽວ. ຖ້າທ່ານເຮັດໂທລະສັບເສຍ, ກະລຸນາຕັ້ງຄ່າແອັບຢືນຢັນຕົວຕົນຄືນໃໝ່ ແລະ ເກັບລະຫັດກູ້ຄືນຊຸດໃໝ່ໄວ້ໃນບ່ອນທີ່ປອດໄພ.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>ມີຄວາມພະຍາຍາມເຂົ້າສູ່ລະບົບບັນຊີຂອງທ່ານທີ່ລົ້ມເຫຼວ</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>ນັບແຕ່ນີ້ໄປ, ການເຂົ້າສູ່ລະບົບຈະຂໍລະຫັດເພີ່ມເຕີມຈາກລະຫັດຜ່ານຂອງທ່ານ. ຖ້າທ່ານເປັນຜູ້ດຳເນີນການເອງ, ທ່ານບໍ່ຈຳເປັນຕ້ອງເຮັດຫຍັງ.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>ຖ້າແມ່ນທ່ານ ແລະ ທ່ານລືມລະຫັດຜ່ານ, ກະລຸນາຂໍລະຫັດຜ່ານໃໝ່. ຖ້າບໍ່ແມ່ນ, ກະລຸນາເລືອກລະຫັດຜ່ານທີ່ແໜ້ນໜາກວ່າເກົ່າ ແລະ ເປີດການຢືນຢັນຕົວຕົນສອງຂັ້ນຕອນ.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>ຖ້າບໍ່ແມ່ນທ່ານ, ອາດມີຄົນຮູ້ລະຫັດຜ່ານຂອງທ່ານ: ກະລຸນາປ່ຽນລະຫັດຜ່ານທັນທີ ແລະ ກວດເບິ່ງວ່າບັນຊີຂອງທ່ານເຂົ້າສູ່ລະບົບຢູ່ໃສແດ່.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>ລະຫັດກູ້ຄືນທີ່ເຫຼືອ</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>ກວດເບິ່ງອຸປະກອນຂອງທ່ານ</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>ການແຈ້ງເຕືອນດ້ານຄວາມປອດໄພ</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>ມີຄົນພະຍາຍາມເຂົ້າສູ່ລະບົບບັນຊີ %login ຂອງທ່ານໃນ %site ດ້ວຍລະຫັດຜ່ານທີ່ບໍ່ຖືກຕ້ອງ %count ເທື່ອຕິດຕໍ່ກັນ.</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>ເກີດເຫດການດ້ານຄວາມປອດໄພກັບບັນຊີ %login ຂອງທ່ານໃນ %site.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>ນີ້ແມ່ນການແຈ້ງເຕືອນດ້ານຄວາມປອດໄພກ່ຽວກັບບັນຊີຂອງທ່ານ. ມັນຈະຖືກສົ່ງທຸກຄັ້ງທີ່ມີການປ່ຽນແປງແບບນີ້ ແລະ ບໍ່ສາມາດປິດໄດ້.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>ເວລາ</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>ປິດການຢືນຢັນຕົວຕົນສອງຂັ້ນຕອນສຳລັບບັນຊີ %login ຂອງທ່ານໃນ %site ແລ້ວ.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>ປິດການຢືນຢັນຕົວຕົນສອງຂັ້ນຕອນແລ້ວ</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>ເປີດການຢືນຢັນຕົວຕົນສອງຂັ້ນຕອນສຳລັບບັນຊີ %login ຂອງທ່ານໃນ %site ແລ້ວ.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>ເປີດການຢືນຢັນຕົວຕົນສອງຂັ້ນຕອນແລ້ວ</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>ບັນຊີ %login ຂອງທ່ານໃນ %site ຖືກລັອກຫຼັງຈາກເຂົ້າສູ່ລະບົບລົ້ມເຫຼວຫຼາຍເທື່ອເກີນໄປ.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>ດຽວນີ້ບັນຊີຂອງທ່ານຖືກປົກປ້ອງດ້ວຍລະຫັດຜ່ານພຽງຢ່າງດຽວ. ຖ້າທ່ານບໍ່ໄດ້ດຳເນີນການນີ້, ກະລຸນາເປີດການຢືນຢັນຕົວຕົນສອງຂັ້ນຕອນອີກຄັ້ງຫຼັງຈາກປ່ຽນລະຫັດຜ່ານແລ້ວ.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>ບັນຊີຂອງທ່ານຖືກລັອກ</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>ມີການເພີ່ມພາສຄີໃສ່ບັນຊີ %login ຂອງທ່ານໃນ %site.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>ຜູ້ໃດທີ່ມີພາສຄີນີ້ສາມາດເຂົ້າສູ່ລະບົບບັນຊີຂອງທ່ານໄດ້ໂດຍບໍ່ຕ້ອງໃຊ້ລະຫັດຜ່ານ. ຖ້າທ່ານບໍ່ໄດ້ເພີ່ມມັນ, ກະລຸນາເອົາມັນອອກໃນ ພາສຄີ ແລະປ່ຽນລະຫັດຜ່ານຂອງທ່ານ.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>ມີການເອົາພາສຄີອອກຈາກບັນຊີ %login ຂອງທ່ານໃນ %site.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>ມັນບໍ່ສາມາດເຂົ້າສູ່ລະບົບບັນຊີຂອງທ່ານໄດ້ອີກ. ຖ້າທ່ານບໍ່ໄດ້ເອົາມັນອອກ, ກະລຸນາກວດເບິ່ງພາສຄີ ແລະອຸປະກອນຂອງທ່ານ.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>ມີການເພີ່ມພາສຄີໃສ່ບັນຊີຂອງທ່ານ</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>ມີການເອົາພາສຄີອອກຈາກບັນຊີຂອງທ່ານ</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>ກິດຈະກຳດ້ານຄວາມປອດໄພ</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>ກິດຈະກຳດ້ານຄວາມປອດໄພຂອງ %name</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>ເຂົ້າສູ່ລະບົບແລ້ວ</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>ຄວາມພະຍາຍາມເຂົ້າສູ່ລະບົບທີ່ລົ້ມເຫຼວ</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>ອອກຈາກລະບົບແລ້ວ</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>ອອກຈາກລະບົບເຊສຊັນແລ້ວ</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>ເຂົ້າສູ່ລະບົບຈາກອຸປະກອນໃໝ່</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>ເຂົ້າສູ່ລະບົບຈາກສະຖານທີ່ໃໝ່</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>ຢືນຢັນຕົວຕົນແລ້ວ (&quot;ຢືນຢັນວ່າແມ່ນທ່ານ&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>ການກວດສອບຕົວຕົນລົ້ມເຫຼວ</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>ເຂົ້າສູ່ລະບົບດ້ວຍພາສຄີແລ້ວ</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>ການເຂົ້າສູ່ລະບົບດ້ວຍພາສຄີລົ້ມເຫຼວ</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>ປະຕິເສດການເຂົ້າສູ່ລະບົບ: ບໍ່ມີລະຫັດສອງຂັ້ນຕອນ ຫຼື ລະຫັດບໍ່ຖືກຕ້ອງ</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>ລະຫັດສອງຂັ້ນຕອນບໍ່ຖືກຕ້ອງ</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>ບັນຊີຖືກລັອກຫຼັງຈາກເຂົ້າສູ່ລະບົບລົ້ມເຫຼວ</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>ປົດລັອກບັນຊີແລ້ວ</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>ປ່ຽນລະຫັດຜ່ານແລ້ວ</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>ການປ່ຽນລະຫັດຜ່ານລົ້ມເຫຼວ</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>ຣີເຊັດລະຫັດຜ່ານແລ້ວ</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>ຂໍລະຫັດຜ່ານໃໝ່ແລ້ວ</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>ປ່ຽນທີ່ຢູ່ອີເມວແລ້ວ</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>ປ່ຽນຊື່ຜູ້ໃຊ້ແລ້ວ</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>ເປີດການຢືນຢັນຕົວຕົນສອງຂັ້ນຕອນແລ້ວ</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>ປິດການຢືນຢັນຕົວຕົນສອງຂັ້ນຕອນແລ້ວ</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>ໃຊ້ລະຫັດກູ້ຄືນແລ້ວ</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>ລະຫັດກູ້ຄືນຊຸດໃໝ່</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>ສ້າງລະຫັດຜ່ານແອັບແລ້ວ</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>ຖອນລະຫັດຜ່ານແອັບແລ້ວ</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>ເພີ່ມພາສຄີແລ້ວ</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>ເອົາພາສຄີອອກແລ້ວ</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>ເປີດໃຊ້ງານບັນຊີແລ້ວ</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>ປິດໃຊ້ງານບັນຊີແລ້ວ</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>ທັງໝົດ</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>ການເຂົ້າສູ່ລະບົບ ແລະ ເຊສຊັນ</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>ການປ່ຽນແປງບັນຊີ</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>ຕ້ອງໃຫ້ຄວາມສົນໃຈ</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>ໂດຍທ່ານ</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>ໂດຍຜູ້ໃຊ້</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>ໂດຍ %login</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>ວິທີການ</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>ໂປຣແກຣມທ່ອງເວັບ</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>ລະບົບປະຕິບັດການ</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>ອຸປະກອນ</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>ສະຖານທີ່</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>ປະເທດ</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>ເຊສຊັນ</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>ລາຍການໃດ</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>ຊ່ອງທາງ</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>ຄວາມພະຍາຍາມທີ່ລົ້ມເຫຼວ</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>ລະຫັດທີ່ເຫຼືອ</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>ຕົວຈັດການການເຂົ້າສູ່ລະບົບ</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>ກິດຈະກຳດ້ານຄວາມປອດໄພ</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>ກິດຈະກຳດ້ານຄວາມປອດໄພຂອງ %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>ການເຂົ້າສູ່ລະບົບ ແລະ ການປ່ຽນແປງດ້ານຄວາມປອດໄພຂອງບັນຊີຂອງທ່ານ. ຖ້າທ່ານເຫັນສິ່ງທີ່ທ່ານບໍ່ໄດ້ເຮັດ, ກະລຸນາປ່ຽນລະຫັດຜ່ານ ແລະ ອອກຈາກລະບົບອຸປະກອນທີ່ທ່ານບໍ່ຮູ້ຈັກ.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>ການເຂົ້າສູ່ລະບົບ ແລະ ການປ່ຽນແປງດ້ານຄວາມປອດໄພຂອງບັນຊີນີ້.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>ອຸປະກອນຂອງທ່ານ</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>ປ່ຽນລະຫັດຜ່ານ</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>ກັບໄປທີ່ບັນຊີ</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>ບໍ່ມີການບັນທຶກກິດຈະກຳດ້ານຄວາມປອດໄພ</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>ກິດຈະກຳນີ້ອ່ານຈາກບັນທຶກການກວດສອບຜູ້ໃຊ້, ເຊິ່ງຕາຕະລາງ expuser_audit ຂອງມັນບໍ່ມີ ຫຼື ບໍ່ຮອງຮັບໃນຖານຂໍ້ມູນນີ້. ກະລຸນາແລ່ນ php update/common/scripts/6.0/createuseraudittable.php ຫຼື ການອັບເດດຖານຂໍ້ມູນຂອງ 6.0.15.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>%days ມື້ທີ່ຜ່ານມາ</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>ການເຂົ້າສູ່ລະບົບໃນ %days ມື້ທີ່ຜ່ານມາ</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>ກິດຈະກຳດ້ານຄວາມປອດໄພຫຼ້າສຸດ</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>ສະແດງ</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>ລົ້ມເຫຼວ</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>ຖືກປະຕິເສດ</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>ຍັງບໍ່ມີການບັນທຶກກິດຈະກຳດ້ານຄວາມປອດໄພ.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>ເຫດການດ້ານຄວາມປອດໄພຈະຖືກເກັບໄວ້ %days ມື້.</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>ເຫດການດ້ານຄວາມປອດໄພຈະຖືກເກັບໄວ້ຈົນກວ່າຜູ້ດູແລລະບົບຈະເອົາອອກ.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>ດາວໂຫຼດຂໍ້ມູນການເຂົ້າສູ່ລະບົບຂອງຂ້ອຍ</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>ເຊສຊັນ ແລະ ເຫດການດ້ານຄວາມປອດໄພຂອງທ່ານໃນຮູບແບບໄຟລ໌ JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>ເວັບໄຊນີ້ບໍ່ໄດ້ບັນທຶກເຊສຊັນ, ສະນັ້ນຈຶ່ງບໍ່ສາມາດອອກຈາກລະບົບອຸປະກອນອື່ນໄດ້. ກະລຸນາປ່ຽນລະຫັດຜ່ານຂອງທ່ານດຽວນີ້.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>ໄດ້ອອກຈາກລະບົບ %count ເຊສຊັນອື່ນແລ້ວ. ຕອນນີ້ກະລຸນາປ່ຽນລະຫັດຜ່ານຂອງທ່ານ.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>ບໍ່ມີອຸປະກອນອື່ນເຂົ້າສູ່ລະບົບຢູ່. ຕອນນີ້ກະລຸນາປ່ຽນລະຫັດຜ່ານຂອງທ່ານ.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>ຂອບໃຈ. ເຫດການນີ້ຖືກໝາຍວ່າເປັນຂອງທ່ານແລ້ວ.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>ເຫດການນັ້ນບໍ່ຕ້ອງການຄຳຕອບ.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>ໜ້າໄດ້ໝົດອາຍຸແລ້ວ. ບໍ່ມີສິ່ງໃດຖືກປ່ຽນແປງ; ກະລຸນາລອງອີກຄັ້ງ.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>ປົກປ້ອງບັນຊີຂອງທ່ານ</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>ຖ້າມີບາງຢ່າງຢູ່ນີ້ທີ່ບໍ່ແມ່ນທ່ານ, ໃຫ້ອອກຈາກລະບົບອຸປະກອນອື່ນທັງໝົດ, ແລ້ວເລືອກລະຫັດຜ່ານໃໝ່. ອຸປະກອນທີ່ຍັງເຂົ້າສູ່ລະບົບໄວ້ດ້ວຍ “ຈື່ຂ້ອຍໄວ້” ກໍຈະຖືກອອກຈາກລະບົບເຊັ່ນກັນ.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>ທຸກອຸປະກອນຍົກເວັ້ນອັນນີ້ຈະຖືກອອກຈາກລະບົບໃນຄຳຮ້ອງຂໍຖັດໄປ. ຈາກນັ້ນທ່ານຈະເລືອກລະຫັດຜ່ານໃໝ່.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>ແມ່ນ, ອອກຈາກລະບົບອຸປະກອນອື່ນ</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>ນີ້ແມ່ນທ່ານບໍ?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>ແມ່ນ, ແມ່ນຂ້ອຍເອງ</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>ບໍ່, ປົກປ້ອງບັນຊີຂອງຂ້ອຍ</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>ເຂົ້າສູ່ລະບົບແລ້ວ</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>ຄວາມພະຍາຍາມເຂົ້າສູ່ລະບົບທີ່ລົ້ມເຫຼວ</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>ອອກຈາກລະບົບແລ້ວ</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>ອອກຈາກລະບົບເຊສຊັນແລ້ວ</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>ເຂົ້າສູ່ລະບົບຈາກອຸປະກອນໃໝ່</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>ເຂົ້າສູ່ລະບົບຈາກສະຖານທີ່ໃໝ່</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>ຢືນຢັນຕົວຕົນແລ້ວ (&quot;ຢືນຢັນວ່າແມ່ນທ່ານ&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>ການກວດສອບຕົວຕົນລົ້ມເຫຼວ</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>ເຂົ້າສູ່ລະບົບດ້ວຍພາສຄີແລ້ວ</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>ການເຂົ້າສູ່ລະບົບດ້ວຍພາສຄີລົ້ມເຫຼວ</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>ປະຕິເສດການເຂົ້າສູ່ລະບົບ: ບໍ່ມີລະຫັດສອງຂັ້ນຕອນ ຫຼື ລະຫັດບໍ່ຖືກຕ້ອງ</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>ລະຫັດສອງຂັ້ນຕອນບໍ່ຖືກຕ້ອງ</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>ບັນຊີຖືກລັອກຫຼັງຈາກເຂົ້າສູ່ລະບົບລົ້ມເຫຼວ</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>ປົດລັອກບັນຊີແລ້ວ</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>ປ່ຽນລະຫັດຜ່ານແລ້ວ</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>ການປ່ຽນລະຫັດຜ່ານລົ້ມເຫຼວ</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>ຣີເຊັດລະຫັດຜ່ານແລ້ວ</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>ຂໍລະຫັດຜ່ານໃໝ່ແລ້ວ</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>ປ່ຽນທີ່ຢູ່ອີເມວແລ້ວ</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>ປ່ຽນຊື່ຜູ້ໃຊ້ແລ້ວ</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>ເປີດການຢືນຢັນຕົວຕົນສອງຂັ້ນຕອນແລ້ວ</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>ປິດການຢືນຢັນຕົວຕົນສອງຂັ້ນຕອນແລ້ວ</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>ໃຊ້ລະຫັດກູ້ຄືນແລ້ວ</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>ລະຫັດກູ້ຄືນຊຸດໃໝ່</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>ສ້າງລະຫັດຜ່ານແອັບແລ້ວ</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>ຖອນລະຫັດຜ່ານແອັບແລ້ວ</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>ເພີ່ມພາສຄີແລ້ວ</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>ເອົາພາສຄີອອກແລ້ວ</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>ເປີດໃຊ້ງານບັນຊີແລ້ວ</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>ປິດໃຊ້ງານບັນຊີແລ້ວ</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>ທັງໝົດ</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>ການເຂົ້າສູ່ລະບົບ ແລະ ເຊສຊັນ</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>ການປ່ຽນແປງບັນຊີ</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>ຕ້ອງໃຫ້ຄວາມສົນໃຈ</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>ກິດຈະກຳດ້ານຄວາມປອດໄພ</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>ກິດຈະກຳດ້ານຄວາມປອດໄພຂອງ %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>ການເຂົ້າສູ່ລະບົບ ແລະ ການປ່ຽນແປງດ້ານຄວາມປອດໄພຂອງບັນຊີຂອງທ່ານ. ຖ້າທ່ານເຫັນສິ່ງທີ່ທ່ານບໍ່ໄດ້ເຮັດ, ກະລຸນາປ່ຽນລະຫັດຜ່ານ ແລະ ອອກຈາກລະບົບອຸປະກອນທີ່ທ່ານບໍ່ຮູ້ຈັກ.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>ອຸປະກອນຂອງທ່ານ</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>ປ່ຽນລະຫັດຜ່ານ</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>ເວັບໄຊນີ້ຍັງບໍ່ມີການບັນທຶກກິດຈະກຳດ້ານຄວາມປອດໄພ.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>ການເຂົ້າສູ່ລະບົບໃນ %days ມື້ທີ່ຜ່ານມາ</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>ຄວາມພະຍາຍາມທີ່ລົ້ມເຫຼວ</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>ຍັງບໍ່ມີການບັນທຶກກິດຈະກຳດ້ານຄວາມປອດໄພ.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>ດາວໂຫຼດຂໍ້ມູນການເຂົ້າສູ່ລະບົບຂອງຂ້ອຍ</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>ເຊສຊັນ ແລະ ເຫດການດ້ານຄວາມປອດໄພຂອງທ່ານໃນຮູບແບບໄຟລ໌ JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>ເວັບໄຊນີ້ບໍ່ໄດ້ບັນທຶກເຊສຊັນ, ສະນັ້ນຈຶ່ງບໍ່ສາມາດອອກຈາກລະບົບອຸປະກອນອື່ນໄດ້. ກະລຸນາປ່ຽນລະຫັດຜ່ານຂອງທ່ານດຽວນີ້.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>ໄດ້ອອກຈາກລະບົບ %count ເຊສຊັນອື່ນແລ້ວ. ຕອນນີ້ກະລຸນາປ່ຽນລະຫັດຜ່ານຂອງທ່ານ.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>ບໍ່ມີອຸປະກອນອື່ນເຂົ້າສູ່ລະບົບຢູ່. ຕອນນີ້ກະລຸນາປ່ຽນລະຫັດຜ່ານຂອງທ່ານ.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>ຂອບໃຈ. ເຫດການນີ້ຖືກໝາຍວ່າເປັນຂອງທ່ານແລ້ວ.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>ເຫດການນັ້ນບໍ່ຕ້ອງການຄຳຕອບ.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>ໜ້າໄດ້ໝົດອາຍຸແລ້ວ. ບໍ່ມີສິ່ງໃດຖືກປ່ຽນແປງ; ກະລຸນາລອງອີກຄັ້ງ.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>ປົກປ້ອງບັນຊີຂອງທ່ານ</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>ຖ້າມີບາງຢ່າງຢູ່ນີ້ທີ່ບໍ່ແມ່ນທ່ານ, ໃຫ້ອອກຈາກລະບົບອຸປະກອນອື່ນທັງໝົດ, ແລ້ວເລືອກລະຫັດຜ່ານໃໝ່. ອຸປະກອນທີ່ຍັງເຂົ້າສູ່ລະບົບໄວ້ດ້ວຍ “ຈື່ຂ້ອຍໄວ້” ກໍຈະຖືກອອກຈາກລະບົບເຊັ່ນກັນ.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>ທຸກອຸປະກອນຍົກເວັ້ນອັນນີ້ຈະຖືກອອກຈາກລະບົບໃນຄຳຮ້ອງຂໍຖັດໄປ. ຈາກນັ້ນທ່ານຈະເລືອກລະຫັດຜ່ານໃໝ່.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>ແມ່ນ, ອອກຈາກລະບົບອຸປະກອນອື່ນ</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>ນີ້ແມ່ນທ່ານບໍ?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>ແມ່ນ, ແມ່ນຂ້ອຍເອງ</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>ບໍ່, ປົກປ້ອງບັນຊີຂອງຂ້ອຍ</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>ລະຫັດຜ່ານ</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>ລະຫັດຜ່ານ ແລະ ລະຫັດສອງຂັ້ນຕອນ</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>ສ່ວນຕິດຕໍ່ REST</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>ສ່ວນຕິດຕໍ່ SOAP</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>ການເຂົ້າສູ່ລະບົບຄັ້ງດຽວ (SSO)</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>ເຂົ້າສູ່ລະບົບກ່ອນເລີ່ມບັນທຶກເຊສຊັນ</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>ລາຍງານການເຂົ້າສູ່ລະບົບ</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>ໃຜເຂົ້າສູ່ລະບົບເວັບໄຊຢູ່, ບັນຊີເຂົ້າສູ່ລະບົບ ແລະ ລົ້ມເຫຼວເລື້ອຍປານໃດ, ແລະ ການໃຫ້ຜູ້ໃຊ້ອອກຈາກລະບົບທຸກບ່ອນ. ເຮັດວຽກກັບຕົວຈັດການເຊສຊັນທຸກແບບ.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>ອອກຈາກລະບົບເຊສຊັນແລ້ວ. ອຸປະກອນຕ້ອງເຂົ້າສູ່ລະບົບອີກຄັ້ງ.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>%login ຖືກອອກຈາກລະບົບຈາກ %count ເຊສຊັນ.</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>%login ບໍ່ມີເຊສຊັນທີ່ກຳລັງເຮັດວຽກຢູ່.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>ບໍ່ມີບັນຊີທີ່ມີ ID, ຊື່ຜູ້ໃຊ້ ຫຼື ທີ່ຢູ່ອີເມວນັ້ນ.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>ນີ້ແມ່ນເຊສຊັນທີ່ທ່ານກຳລັງໃຊ້ຢູ່. ເພື່ອສິ້ນສຸດມັນ, ກະລຸນາອອກຈາກລະບົບ.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>ເຊສຊັນນັ້ນສິ້ນສຸດໄປແລ້ວ.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>ໜ້ານີ້ໝົດອາຍຸແລ້ວ. ບໍ່ມີຫຍັງຖືກປ່ຽນແປງ; ກະລຸນາລອງໃໝ່ອີກຄັ້ງ.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>ເວັບໄຊນີ້ບໍ່ບັນທຶກເຊສຊັນ (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>ບໍ່ມີຕາຕະລາງ expuser_session</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>ເຊສຊັນຈະຖືກບັນທຶກເມື່ອສ້າງຕາຕະລາງແລ້ວ: php update/common/scripts/6.0/createusersessiontable.php ຫຼື ການອັບເດດຖານຂໍ້ມູນຂອງ 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>ດຽວນີ້ ແລະ ມື້ນີ້</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>ເຊສຊັນທີ່ກຳລັງເຮັດວຽກ</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>ຜູ້ໃຊ້ທີ່ເຂົ້າສູ່ລະບົບຢູ່</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>ການເຂົ້າສູ່ລະບົບມື້ນີ້</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>ຄວາມພະຍາຍາມທີ່ລົ້ມເຫຼວມື້ນີ້</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>ໃຫ້ຜູ້ໃຊ້ອອກຈາກລະບົບທຸກບ່ອນ</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>ທຸກເຊສຊັນຂອງບັນຊີຈະສິ້ນສຸດເມື່ອມີຄຳຮ້ອງຂໍເທື່ອຕໍ່ໄປ, ລວມທັງເຊສຊັນທີ່ຄົງໄວ້ດ້ວຍ &quot;ຈື່ຂ້ອຍໄວ້&quot;. ໃຊ້ເມື່ອບັນຊີອາດຕົກຢູ່ໃນມືຄົນອື່ນ; ຈາກນັ້ນຣີເຊັດລະຫັດຜ່ານຂອງບັນຊີ.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>ID ຜູ້ໃຊ້, ຊື່ຜູ້ໃຊ້ ຫຼື ທີ່ຢູ່ອີເມວ</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>ອອກຈາກລະບົບທຸກບ່ອນ</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>ເຂົ້າສູ່ລະບົບຢູ່ດຽວນີ້</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>ສະແດງ %limit ລາຍການທີ່ໃຊ້ຫຼ້າສຸດ.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>ຜູ້ໃຊ້</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>ອຸປະກອນ</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>ທີ່ຢູ່</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>ເຂົ້າສູ່ລະບົບແລ້ວ</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>ໃຊ້ງານຫຼ້າສຸດ</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>ການດຳເນີນການ</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>ອຸປະກອນນີ້</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>ບໍ່ໄດ້ບັນທຶກໄວ້</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>ອອກຈາກລະບົບ</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>ບໍ່ມີເຊສຊັນທີ່ເຂົ້າສູ່ລະບົບຢູ່.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>%days ມື້ທີ່ຜ່ານມາ</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>ການເຂົ້າສູ່ລະບົບ ແລະ ຄວາມພະຍາຍາມທີ່ລົ້ມເຫຼວນັບຈາກບັນທຶກການກວດສອບຜູ້ໃຊ້, ເຊິ່ງບໍ່ມີ; ສ່ວນເຊສຊັນໃໝ່ຍັງນັບໄດ້.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>ວັນ</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>ການເຂົ້າສູ່ລະບົບ</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>ຄວາມພະຍາຍາມທີ່ລົ້ມເຫຼວ</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>ເຊສຊັນໃໝ່</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>ຕົວຈັດການເຊສຊັນ: %handler. ເຊສຊັນອ່ານຈາກຕາຕະລາງ expuser_session, ສະນັ້ນລາຍງານຈຶ່ງເຮັດວຽກກັບຕົວຈັດການທຸກແບບ.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>ກິດຈະກຳທີ່ໜ້າສົງໄສໃນ %hours ຊົ່ວໂມງທີ່ຜ່ານມາ</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>ເຄືອຂ່າຍໜຶ່ງເຂົ້າສູ່ລະບົບ %accounts ບັນຊີບໍ່ສຳເລັດ (%count ຄັ້ງ)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>ບັນຊີຖືກລັອກຫຼັງຈາກເຂົ້າສູ່ລະບົບບໍ່ສຳເລັດ</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>ເຂົ້າສູ່ລະບົບບໍ່ສຳເລັດ %count ຄັ້ງໃນບັນຊີດຽວ</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>ເຂົ້າສູ່ລະບົບຈາກ %count ປະເທດພ້ອມກັນ</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>ກິດຈະກຳດ້ານຄວາມປອດໄພ</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>ເຊສຊັນ</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>ການເຂົ້າສູ່ລະບົບທີ່ບໍ່ສຳເລັດຖືກອ່ານຈາກບັນທຶກການກວດສອບຜູ້ໃຊ້, ເຊິ່ງບໍ່ມີຢູ່ທີ່ນີ້.</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>ບໍ່ມີຫຍັງໜ້າສົງໄສ: ບໍ່ມີບັນຊີທີ່ເຂົ້າສູ່ລະບົບບໍ່ສຳເລັດຊ້ຳໆ, ບໍ່ມີເຄືອຂ່າຍທີ່ພະຍາຍາມຫຼາຍບັນຊີ, ບໍ່ມີບັນຊີທີ່ເຂົ້າສູ່ລະບົບຈາກຫຼາຍປະເທດ.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>ການແຈ້ງເຕືອນດ້ານຄວາມປອດໄພສຳລັບບັນຊີຂອງທ່ານ</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>ເກີດເຫດການດ້ານຄວາມປອດໄພກັບບັນຊີ %login ຂອງທ່ານ: %event. ຖ້າບໍ່ແມ່ນທ່ານ, ກະລຸນາປົກປ້ອງບັນຊີຂອງທ່ານທີ່ %url.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>ຕັ້ງຄ່າລະບົບ</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>ຂໍຈາກເນື້ອຫາຂອງໄຊນີ້ ສະເພາະຊ່ອງຂໍ້ມູນທີ່ໜ້າໜຶ່ງຕ້ອງການ ໃນຄຳຮ້ອງດຽວ. ສະຄີມາເຮັດຕາມຄລາສເນື້ອຫາ; ທຸກຄຳຖາມຈະດຳເນີນການດ້ວຍສິດຂອງຜູ້ໃຊ້ທີ່ສົ່ງມັນ.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>GraphQL API ຖືກປິດໃນການເຂົ້າເຖິງໄຊນີ້. ເປີດມັນໃນ graphql.ini: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>ຍັງບໍ່ໄດ້ຕິດຕັ້ງຫ້ອງສະໝຸດ GraphQL (webonyx/graphql-php 15).</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>ຈຸດປາຍທາງ</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>ຫ້ອງສະໝຸດ</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>ສະຄີມາ</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>%count ຄລາສເນື້ອຫາ, ສະຄີມາ %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>ຄຳຖາມ</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>ຕົວແປ (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>ດຳເນີນການ</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>ຄຳຕອບ</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>ກຳລັງດຳເນີນການ…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>ບໍ່ສາມາດອ່ານຄຳຕອບໄດ້.</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>ຄຳຖາມດຳເນີນການດ້ວຍສິດຂອງທ່ານ, ເຂົ້າສູ່ລະບົບດ້ວຍເຊດຊັນນີ້.</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%count ໃນ %seconds ວິ</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>ບໍ່ຈຳກັດ</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>ຄວາມເລິກ</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>ຄວາມຊັບຊ້ອນ</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>ລາຍການຕໍ່ລາຍຊື່</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (ຄ່າເລີ່ມຕົ້ນ %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>ຄຳຮ້ອງຕໍ່ຜູ້ໃຊ້ ຫຼືກະແຈ</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>ຄຳຮ້ອງຕໍ່ທີ່ຢູ່ບໍ່ລະບຸຕົວຕົນ</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>Introspection</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>ສະເພາະຄຳຖາມທີ່ບັນທຶກໄວ້</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>ຄຳຖາມໃຫຍ່ສຸດ</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>%bytes ໄບຕ໌</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>ການອັບໂຫຼດໃຫຍ່ສຸດ</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>ບໍ່ມີການເຂົ້າເຖິງໄຊ %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>ການປ່ຽນແປງຖືກເປີດໃນ %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>ການປ່ຽນແປງຖືກປິດໃນ %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>GraphQL API ຖືກເປີດໃນ %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>GraphQL API ຖືກປິດໃນ %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>ບໍ່ສາມາດຂຽນການຕັ້ງຄ່າໄດ້: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>ລ້າງແຄຊຄຳຕອບແລ້ວ: ລຶບ %count ຄຳຕອບ.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>ໝາຍກ່ອງຂ້າງຄຳຖາມເພື່ອລຶບມັນ.</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>ບໍ່ສາມາດລຶບຄຳຖາມໄດ້: ຄຳຖາມທີ່ມາພ້ອມໃນໄດເຣັກທໍຣີຂອງ PersistedQueryDirectoryList[] ຈະຖືກລຶບພ້ອມກັບໄຟລ໌ຂອງມັນ.</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>ລຶບຄຳຖາມທີ່ບັນທຶກໄວ້ແລ້ວ.</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>ການປ່ຽນແປງ</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>ເປີດ</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>ປິດ</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>ການເຂົ້າເຖິງໄຊ</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>ບ່ອນທີ່ API ແລະການປ່ຽນແປງຂອງມັນຕອບ. ປຸ່ມຕ່າງໆຂຽນ graphql.ini ຄືກັບ ./console exp:graphql:enable ແລະ exp:graphql:disable.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>ການເຂົ້າເຖິງໄຊ</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>GraphQL API</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>ປ່ຽນ</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>ປິດ</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>ປິດການປ່ຽນແປງ</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>ເປີດການປ່ຽນແປງ</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>ເປີດ</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>ຂີດຈຳກັດ</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>graphql.ini [GraphQLSettings] ຂອງການເຂົ້າເຖິງໄຊນີ້.</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>ແຄຊຄຳຕອບ</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>ຄຳຕອບຂອງຄຳຖາມທີ່ບັນທຶກໄວ້, ເກັບແຍກຕາມສິດຂອງຜູ້ໃຊ້ ແລະໝົດອາຍຸທຸກຄັ້ງທີ່ເຜີຍແຜ່ເນື້ອຫາ.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>ສະຖານະ</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>ຄຳຕອບທີ່ເກັບໄວ້</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>%count ຄຳຕອບ, %bytes ໄບຕ໌</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>ເກັບໄວ້ສູງສຸດ</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds ວິ</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>ໝົດອາຍຸຄັ້ງລ່າສຸດ</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>ລ້າງແຄຊຄຳຕອບ</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>ຄຳຖາມທີ່ບັນທຶກໄວ້</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>ບັນທຶກດ້ວຍ ./console exp:graphql:persist ຫຼືໂດຍໄຄລເອັນ (ຄຳຖາມທີ່ບັນທຶກອັດຕະໂນມັດ); ເອີ້ນໃຊ້ດ້ວຍຊື່ ຫຼື SHA-256.</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>ຊື່</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>ຂະໜາດ</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>ບ່ອນ</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>ລຶບ</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>ມາພ້ອມ</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>ບັນທຶກແລ້ວ</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>ແມ່ນ, ລຶບຄຳຖາມນີ້</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>ຍັງບໍ່ມີຄຳຖາມທີ່ບັນທຶກໄວ້.</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>ກະແຈ API</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>ກະແຈ API ສ່ວນຕົວທີ່ມີຂອບເຂດ graphql:read (ຄຳຖາມ) ຫຼື graphql:write (ການປ່ຽນແປງ). ສ້າງ ແລະຖອນພວກມັນໃນໜ້າ ການເຂົ້າເຖິງ API ຫຼືດ້ວຍ ./console exp:graphql:keys.</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>ການເຂົ້າເຖິງ API</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>ກະແຈທັງໝົດ</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>ກະແຈ</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>ຊື່</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>ເຈົ້າຂອງ</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>ຂອບເຂດ</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>ໃຊ້ຄັ້ງລ່າສຸດ</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>ໃຊ້ງານ</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>ໝົດອາຍຸ</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>ຖືກຖອນ</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>ບໍ່ເຄີຍ</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>ຍັງບໍ່ມີກະແຈ API ທີ່ມີຂອບເຂດ GraphQL.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>GraphQL API ຖືກປິດໃນການເຂົ້າເຖິງໄຊ %siteaccess ທີ່ສະແດງໜ້ານີ້; ຕາຕະລາງຂ້າງລຸ່ມສະແດງບ່ອນທີ່ມັນຕອບ.</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>ສຳລັບການເຂົ້າເຖິງໄຊ %siteaccess ທີ່ສະແດງໜ້ານີ້.</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>Webhook</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>ທຸກເຫດການທີ່ຈຸດປາຍທາງຮ້ອງຂໍ (publish, update, trash, delete, move, hide, reveal, mutation) ຈະຖືກສົ່ງໄປຫາມັນ ພ້ອມລາຍເຊັນ ໂດຍສ່ວນ cronjob graphqlwebhooks. ./console exp:graphql:webhooks ເຮັດຄືກັນກັບພາກສ່ວນນີ້.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>ເຫດການ</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>ທັງໝົດ</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>ທຸກການເຂົ້າເຖິງໄຊ</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>ເສຍ</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>ບໍ່ມີຂໍ້ມູນລັບ</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>ກຳລັງລໍຖ້າ</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>ຍົກເລີກ %count</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>ການສົ່ງຄັ້ງລ່າສຸດ</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>ສົ່ງການທົດສອບ</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>ແມ່ນ, ລຶບ Webhook ນີ້</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>ຍັງບໍ່ມີ Webhook.</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>ເພີ່ມ Webhook</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>ເພີ່ມ</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>ການສົ່ງຫຼ້າສຸດ</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>ເວລາ</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>ຜົນລັບ</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>ການສະໝັກຮັບຂໍ້ມູນ</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>ການອັບເດດສົດສຳລັບລູກຂ່າຍ: ສະຕຣີມເຫດການທີ່ /api/graphql/subscribe ແລະ WebSocket (graphql-transport-ws) ເທິງ Velocity. ແຕ່ລະເຫດການຈະສົ່ງໄປຫາສະເພາະຜູ້ສະໝັກທີ່ອ່ານເນື້ອຫາຂອງມັນໄດ້.</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>ເປີດຢູ່ຕອນນີ້</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>ເປີດໄດ້ສູງສຸດ</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>ທັງໝົດ %total, %user ຕໍ່ຜູ້ໃຊ້, %address ຕໍ່ທີ່ຢູ່</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>ການສະໝັກຮັບຂໍ້ມູນແບບບໍ່ລະບຸຊື່</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>ຄວາມຍາວຂອງສະຕຣີມ</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>ບໍ່ສາມາດເພີ່ມ Webhook ໄດ້: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>Webhook %name ຖືກປ່ຽນແລ້ວ; ຂໍ້ມູນລັບສຳລັບລາຍເຊັນຂອງມັນຍັງຄົງເດີມ.</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>ບໍ່ສາມາດບັນທຶກຂໍ້ມູນລັບສຳລັບລາຍເຊັນໄດ້ (ຕັ້ງຄ່າລະບົບ &gt; ຂໍ້ມູນລັບ).</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>Webhook %name ຖືກເພີ່ມແລ້ວ. ຂໍ້ມູນລັບສຳລັບລາຍເຊັນຂອງມັນ, ສະແດງພຽງຄັ້ງນີ້: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>ບໍ່ມີ Webhook %name.</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>Webhook %name ບໍ່ໄດ້ຕອບ: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>Webhook %name ຕອບ %status ໃນ %ms ms.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>ໝາຍກ່ອງຂ້າງ Webhook ເພື່ອລຶບມັນ.</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>Webhook %name ຖືກລຶບແລ້ວ.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>GraphQL API ຖືກປິດໃນການເຂົ້າເຖິງໄຊນີ້.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>ຍັງບໍ່ໄດ້ຕິດຕັ້ງຫ້ອງສະໝຸດ GraphQL.</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>ໃຊ້ GET ຫຼື POST.</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>ເນື້ອໃນຄຳຮ້ອງບໍ່ແມ່ນອອບເຈັກ JSON.</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables ບໍ່ແມ່ນອອບເຈັກ JSON.</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions ບໍ່ແມ່ນອອບເຈັກ JSON.</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>ສົ່ງຄຳຖາມດ້ວຍ POST.</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>ຄຳຮ້ອງບໍ່ມີຄຳຖາມ.</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>ຄຳຖາມຍາວກວ່າ %max ໄບຕ໌.</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>ຂໍ້ຜິດພາດພາຍໃນເຊີບເວີ</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node ຕ້ອງການອັນດຽວເທົ່ານັ້ນຈາກ id, remoteId, path ແລະ urlAlias.</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content ຕ້ອງການອັນດຽວເທົ່ານັ້ນຈາກ id ແລະ remoteId.</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>ເຄີເຊີຂອງ after ບໍ່ແມ່ນອັນທີ່ API ນີ້ໃຫ້.</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>ບໍ່ມີຊື່ແທນຮູບພາບ %alias (image.ini [AliasSettings] AliasList[]).</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>ຢູ່ນີ້ຮັບສະເພາະຄຳຖາມທີ່ບັນທຶກໄວ້ເທົ່ານັ້ນ: ສົ່ງ id ຂອງຄຳຖາມທີ່ບັນທຶກໄວ້.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>ແຮຊຂອງຄຳຖາມທີ່ບັນທຶກໄວ້ບໍ່ແມ່ນ SHA-256.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>ແຮຊຂອງຄຳຖາມທີ່ບັນທຶກໄວ້ບໍ່ກົງກັບຄຳຖາມ.</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>ຄຳຮ້ອງຫຼາຍເກີນໄປ: ສູງສຸດ %limit ໃນ %window ວິນາທີ. ລອງໃໝ່ໃນອີກ %reset ວິນາທີ.</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>ຄຳຖາມເລິກ %depth ລະດັບ; ອະນຸຍາດສູງສຸດ %max.</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>ຄຳຖາມມີຄວາມຊັບຊ້ອນ %complexity; ອະນຸຍາດສູງສຸດ %max.</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>ຄຳຮ້ອງນີ້ບໍ່ສາມາດອ່ານສະຄີມາໄດ້ (introspection).</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search ຕ້ອງການຂໍ້ຄວາມ ຫຼື ຕົວກອງ (classes, subtree, sections, publishedAfter, publishedBefore).</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument ບໍ່ແມ່ນວັນທີ (ISO 8601, 2026-10-30).</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag ຕ້ອງການອັນດຽວເທົ່ານັ້ນຈາກ id, remoteId ແລະ path.</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout ຕ້ອງການອັນດຽວເທົ່ານັ້ນຈາກ id, identifier ແລະ urlAlias.</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>ຊ່ອງ operations ຂອງຄຳຮ້ອງ multipart ບໍ່ແມ່ນຄຳຮ້ອງ JSON ດຽວ.</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>ຊ່ອງ map ຂອງຄຳຮ້ອງ multipart ບໍ່ແມ່ນອອບເຈັກ JSON.</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>ຄຳຮ້ອງ multipart ບໍ່ມີໄຟລ໌ %field.</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>ເສັ້ນທາງຂອງຊ່ອງ map ຕ້ອງເລີ່ມດ້ວຍ variables.: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>ໄຟລ໌ %name ມາຮອດບໍ່ຄົບ (ຂໍ້ຜິດພາດການອັບໂຫຼດ %error).</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>ໄຟລ໌ %name ໃຫຍ່ກວ່າ %max ໄບຕ໌.</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>ບໍ່ສາມາດກວດສອບໄຟລ໌ %name ໄດ້.</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>ການປ່ຽນແປງ (mutation) ຖືກປິດໃນການເຂົ້າເຖິງໄຊນີ້ (graphql.ini [GraphQLSettings] MutationsEnabled).</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>ສົ່ງການປ່ຽນແປງດ້ວຍ POST.</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>ເຂົ້າສູ່ລະບົບເພື່ອປ່ຽນເນື້ອຫາ.</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>ກະແຈ API ບໍ່ມີຂອບເຂດ %scope.</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>ການປ່ຽນແປງທີ່ໃຊ້ເຊດຊັນຕ້ອງການໂທເຄັນຟອມຂອງເຊດຊັນ (ສ່ວນຫົວ X-CSRF-Token).</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>uploadFromUrl ຖືກປິດ: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] ບໍ່ໄດ້ລະບຸໂຮສໃດ.</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>ທີ່ຢູ່ຕ້ອງເປັນທີ່ຢູ່ https.</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>ໂຮສ %host ບໍ່ຢູ່ໃນ graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>ບໍ່ສາມາດດຶງໄຟລ໌ໄດ້.</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload ເປັນປະເພດຂໍ້ມູນເຂົ້າເທົ່ານັ້ນ.</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>ຕົວແປປະເພດ Upload ຮັບໄຟລ໌ຂອງຄຳຮ້ອງ multipart.</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>id ໄລຍະໄກ %remoteId ຖືກໃຊ້ແລ້ວ.</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>ເນື້ອຫາມີຄຳແປເປັນ %language ແລ້ວ: ໃຊ້ updateContent.</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>ໃຫ້ຢ່າງໜ້ອຍໜຶ່ງຊ່ອງ.</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>ບໍ່ສາມາດສ້າງເວີຊັນໃໝ່ໄດ້ (ເນື້ອຫາມີຮ່າງຫຼາຍເກີນໄປ).</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>ເວີຊັນ %version ບໍ່ແມ່ນຮ່າງ.</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent ຕ້ອງການ id ຫຼື nodeId ພຽງອັນດຽວ.</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>ບໍ່ສາມາດຍ້າຍຕຳແໜ່ງໄປໄວ້ໃຕ້ຕົວມັນເອງໄດ້.</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>ເນື້ອຫາມີຕຳແໜ່ງຢູ່ໃຕ້ %parentId ແລ້ວ.</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>ບໍ່ສາມາດບັນທຶກຄ່າຂອງຊ່ອງ %field ໄດ້.</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>ບໍ່ມີພາສາເນື້ອຫາ %language.</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>ບໍ່ມີຄລາສເນື້ອຫາ %class ໃນສະຄີມາ.</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>ເນື້ອຫາບໍ່ມີ, ຫຼືທ່ານບໍ່ມີສິດອ່ານມັນ.</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>ທ່ານບໍ່ມີສິດເຮັດສິ່ງນີ້ກັບເນື້ອຫານີ້.</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>ຄລາສ %class ບໍ່ມີຊ່ອງ %field ທີ່ຂຽນໄດ້.</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>ຊ່ອງ %field ຖືກໃຫ້ສອງເທື່ອ.</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>ຊ່ອງ %field ຮັບໄຟລ໌: ສົ່ງເປັນການອັບໂຫຼດ (ຄຳຮ້ອງ multipart).</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>ຊ່ອງ %field ບໍ່ຮັບໄຟລ໌.</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>ຊ່ອງ %field ຕ້ອງມີຄ່າ.</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>ຮູບແບບ %format ໃຊ້ສະເພາະຊ່ອງຂໍ້ຄວາມແບບລາຍລະອຽດ; %field ຮັບຄ່າຕາມທີ່ເປັນ (RAW).</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>ຊ່ອງ %field ຈຳເປັນ.</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>ບໍ່ສາມາດອ່ານ HTML ໄດ້.</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content ຮັບ version ພ້ອມ id ເທົ່ານັ້ນ.</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>ໂທເຄັນສະແດງຕົວຢ່າງບໍ່ຖືກຕ້ອງ ຫຼືໝົດອາຍຸແລ້ວ.</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>ບໍ່ແມ່ນ origin (https://host ຫຼື https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>ບໍ່ແມ່ນຂອບເຂດຂອງ GraphQL API: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>ສົ່ງການສະໝັກຮັບຂໍ້ມູນໄປທີ່ /api/graphql/subscribe (ສະຕຣີມເຫດການ ຫຼື WebSocket).</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>ຄຳຮ້ອງຂໍບໍ່ໄດ້ລະບຸຊື່ການດຳເນີນການໃດໆຂອງເອກະສານ.</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>ການສະໝັກຮັບຂໍ້ມູນໜຶ່ງຮ້ອງຂໍຊ່ອງຂໍ້ມູນດຽວເທົ່ານັ້ນ.</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>ມີການສະໝັກຮັບຂໍ້ມູນເປີດຢູ່ຫຼາຍເກີນໄປ; ກະລຸນາລອງໃໝ່ພາຍຫຼັງ.</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>ທ່ານມີການສະໝັກຮັບຂໍ້ມູນເປີດຢູ່ %max ລາຍການ, ເຊິ່ງເປັນຈຳນວນສູງສຸດທີ່ອະນຸຍາດ.</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>ທີ່ຢູ່ຂອງທ່ານມີການສະໝັກຮັບຂໍ້ມູນເປີດຢູ່ %max ລາຍການ, ເຊິ່ງເປັນຈຳນວນສູງສຸດທີ່ອະນຸຍາດ.</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>ການສະໝັກຮັບຂໍ້ມູນຖືກປິດໃນການເຂົ້າເຖິງໄຊນີ້.</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>ເຂົ້າສູ່ລະບົບເພື່ອສະໝັກຮັບຂໍ້ມູນ (ໂທເຄັນ ຫຼື ກະແຈ API ສ່ວນຕົວ).</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>ສົ່ງການປ່ຽນແປງໄປທີ່ /api/graphql.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>ການຍ້າຍຂໍ້ມູນ</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>ບໍ່ສາມາດອ່ານສະຖານະໄດ້: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>ຍັງບໍ່ມີຕາຕະລາງຂອງການຍ້າຍຂໍ້ມູນ: ./console exp:upgrade --apply ຈະສ້າງພວກມັນ.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>ການຍ້າຍຂໍ້ມູນ %count ລາຍການລົ້ມເຫຼວ</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>ມີການດຳເນີນການຢູ່, ເລີ່ມໂດຍ %user</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>ການຕິດຕັ້ງຖືກລັອກ: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>ລໍຖ້າດຳເນີນການ</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>ລົ້ມເຫຼວ</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>ລາຍການກຳພ້າ</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>ການດຳເນີນການຄັ້ງລ່າສຸດ</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>ຍັງບໍ່ມີ</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>ການຍ້າຍຂໍ້ມູນທັງໝົດ</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>ການດຳເນີນການຈຳລອງ</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>ທົດລອງດຳເນີນການ</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>ການຍ້າຍຂໍ້ມູນທີ່ລໍຖ້າໄດ້ດຳເນີນການໃນທຸລະກຳທີ່ຖືກຍ້ອນກັບພາຍຫຼັງ: ບໍ່ມີຫຍັງຖືກເກັບໄວ້. ດ້ານລຸ່ມແມ່ນສິ່ງທີ່ແຕ່ລະລາຍການໄດ້ປ່ຽນແປງໃນຖານຂໍ້ມູນ.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>ສິ່ງທີ່ການດຳເນີນການຈະເຮັດໃນຕອນນີ້. ບໍ່ມີຫຍັງຖືກປ່ຽນແປງ: ການຍ້າຍຂໍ້ມູນທີ່ລໍຖ້າແຕ່ລະລາຍການຈະສະແດງການປ່ຽນແປງທີ່ມັນຈະເຮັດ, ແລະ ການດຳເນີນການຈະສະແດງສິ່ງທີ່ຈະເຮັດກ່ອນ ແລະ ຫຼັງ.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>ຈຳລອງ</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>ດຳເນີນການ</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>ການທົດລອງດຳເນີນການລົ້ມເຫຼວ: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>ການຈຳລອງຕ້ອງການ PostgreSQL ຫຼື SQLite ເຊິ່ງການປ່ຽນແປງໂຄງສ້າງສາມາດຍ້ອນກັບໄດ້; ໃນຖານຂໍ້ມູນນີ້ ແຜນດ້ານລຸ່ມແມ່ນສິ່ງທີ່ການດຳເນີນການຈະເຮັດ.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>ລາຍການຍ້າຍຂໍ້ມູນ</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>ການຍ້າຍຂໍ້ມູນ</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>ສະຖານະ</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>ສິ່ງທີ່ຈະເຮັດ</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>ການຈຳລອງ: %result ໃນ %ms ມິລລິວິນາທີ</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>ຍັງບໍ່ມີການຍ້າຍຂໍ້ມູນ.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>ກ່ອນ ແລະ ຫຼັງການດຳເນີນການ</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>ພາບບັນທຶກກ່ອນ</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>ຖືກບັນທຶກ ແລະ ກູ້ຄືນເມື່ອການຍ້າຍຂໍ້ມູນລົ້ມເຫຼວ</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>ປິດ</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>ພາບບັນທຶກຫຼັງ</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>ຖືກບັນທຶກເມື່ອການດຳເນີນການສຳເລັດ</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>ການຍ້າຍຂໍ້ມູນ %total ລາຍການ: ລໍຖ້າ %pending, ສຳເລັດ %done, ລົ້ມເຫຼວ %failed.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>ປະຫວັດການຍ້າຍຂໍ້ມູນ</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>ທຸກການດຳເນີນການພ້ອມຜູ້ໃຊ້, ສະພາບແວດລ້ອມ, ພາບບັນທຶກ ແລະ ສິ່ງທີ່ຖືກຄອມມິດ, ຕິດແທັກ ແລະ ພຸຊ. ການດຳເນີນການທີ່ລົ້ມເຫຼວ ຫຼື ຖືກຂັດຈັງຫວະສາມາດສືບຕໍ່ໄດ້; ການດຳເນີນການທີ່ມີພາບບັນທຶກກ່ອນໜ້າສາມາດຍົກເລີກຄືນໄດ້.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>ບໍ່ສາມາດອ່ານການດຳເນີນການໄດ້: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>ຍັງບໍ່ມີຕາຕະລາງຂອງການຍ້າຍຂໍ້ມູນ: ./console exp:upgrade --apply ຈະສ້າງພວກມັນ.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>ສະແດງ</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>ທັງໝົດ</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>ການດຳເນີນການ</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>ເລີ່ມ</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>ໂດຍ</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>ພາບບັນທຶກ</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>ຄັງເກັບ</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>ການກະທຳ</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>ກ່ອນ</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>ຫຼັງ</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>ພຸຊ: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>ສືບຕໍ່</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>ຍ້ອນກັບ</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>ບໍ່ມີການດຳເນີນການໃນສະຖານະນີ້.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>ເລີ່ມຢູ່ນີ້</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>ການດຳເນີນການ, ການສືບຕໍ່ ແລະ ການຍ້ອນກັບທີ່ເລີ່ມໃນໜ້ານີ້ ພ້ອມລາຍງານຂອງແຕ່ລະອັນ.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>ຫຍັງ</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>ຜົນລັບ</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>ການຍ້ອນກັບ</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>ການຍ້ອນກັບ %target</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>ການດຳເນີນການ %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>ສິ່ງທີ່ການດຳເນີນການໄດ້ເຮັດ, ບັນທຶກ ແລະ ບັນທຶກເຫດການຂອງມັນ. ການດຳເນີນການທີ່ເລີ່ມຢູ່ນີ້ຈະດຳເນີນຕໍ່ໃນພື້ນຫຼັງເມື່ອປິດໜ້ານີ້; ເປີດໜ້ານີ້ອີກຄັ້ງເພື່ອຕິດຕາມ.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>ສືບຕໍ່ການດຳເນີນການນີ້</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>ຍ້ອນກັບການດຳເນີນການນີ້</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>ບໍ່ສາມາດອ່ານບັນທຶກໄດ້: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>ຄວາມຄືບໜ້າ</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>ເລີ່ມໂດຍ %user ເວລາ %time.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>ກຳລັງກວດສອບໂຄດ ແລະ ບັນທຶກພາບກ່ອນການດຳເນີນການ</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>ກຳລັງດຳເນີນການ %id (%index ຈາກ %total)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>ສຳເລັດ %done ຈາກ %total</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>ການຍ້າຍຂໍ້ມູນໄດ້ດຳເນີນການແລ້ວ; ກຳລັງກູ້ຄືນພາບບັນທຶກຖ້າມີລາຍການລົ້ມເຫຼວ</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>ກຳລັງບັນທຶກພາບຫຼັງການດຳເນີນການ, ຄອມມິດ, ຕິດແທັກ ແລະ ພຸຊ</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>ກຳລັງກູ້ຄືນພາບບັນທຶກ</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>ການດຳເນີນການສິ້ນສຸດແລ້ວ. ກຳລັງໂຫຼດລາຍງານ.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>ບໍ່ສາມາດຕິດຕາມຄວາມຄືບໜ້າໄດ້. ໂຫຼດໜ້າຄືນໃໝ່ເພື່ອເບິ່ງວ່າການດຳເນີນການເປັນແນວໃດ.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>ໜ້ານີ້ຕິດຕາມການດຳເນີນການໃນຂະນະທີ່ມັນດຳເນີນໄປ.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>ໂຫຼດຄືນໃໝ່</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>ລາຍງານ</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>ເວລາ</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms ມິລລິວິນາທີ</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>ສິ່ງທີ່ການດຳເນີນການພິມອອກເປັນຂໍ້ຜິດພາດ</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>ບັນທຶກ</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>ສະພາບແວດລ້ອມ</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>ບໍ່ມີ</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>ສິ້ນສຸດ</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>ຄອມມິດ</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>ແທັກ</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>ພຸຊ</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>ຂໍ້ຄວາມ</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>ການຍ້າຍຂໍ້ມູນຂອງການດຳເນີນການນີ້</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>ແຫຼ່ງທີ່ມາ</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>ບັນທຶກເຫດການຂອງການດຳເນີນການ</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>ສະແດງສະເພາະທ້າຍຂອງບັນທຶກເຫດການ.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>ກຳລັງດຳເນີນການ</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>ສິ້ນສຸດໂດຍບໍ່ມີລາຍງານ</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>ສຳເລັດ</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>ລົ້ມເຫຼວ</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>ຖືກປະຕິເສດ</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>ບໍ່ສາມາດເຊື່ອມຕໍ່ຖານຂໍ້ມູນໄດ້</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>ຂໍ້ຜິດພາດພາຍໃນ</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>ມີການດຳເນີນການຢູ່</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind ເລີ່ມໂດຍ %user ເວລາ %time.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>ຕິດຕາມ</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>ການຕິດຕັ້ງຖືກລັອກ</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>ການດຳເນີນການອື່ນກຳລັງຖືລັອກ (ການອັບເກຣດ ຫຼື ການດຳເນີນການໃນຄອນໂຊນ): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>ສຳເລັດ</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>ລໍຖ້າ</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>ບໍ່ຈຳເປັນ</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>ບໍ່ຮູ້ຈັກ</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>ຖືກຍ້ອນກັບ</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>ນຳໃຊ້ແລ້ວ</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>ຈະຖືກນຳໃຊ້</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>ຖືກຍົກເລີກຄືນ</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>ຈະຖືກຍົກເລີກຄືນ</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>ບໍ່ໄດ້ດຳເນີນການ</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>ລໍຖ້າລາຍການອື່ນ</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>ຍອມຮັບການປ່ຽນແປງແລ້ວ</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>ການປ່ຽນແປງຈະຖືກຍອມຮັບ</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>ຈຳລອງແລ້ວ</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>ການຍ້າຍຂໍ້ມູນ</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>ສະຖານະ</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>ປະຫວັດ</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>ຍົກເລີກຄືນ %target</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>ການດຳເນີນການຈະຖືກຍົກເລີກຄືນໄປຫາພາບບັນທຶກທີ່ບັນທຶກກ່ອນໜ້າ, ການຍ້າຍຂໍ້ມູນລາຍການດຽວດ້ວຍ down() ຂອງມັນ. ການກູ້ຄືນພາບບັນທຶກກ່ອນໜ້ານັ້ນສຳລັບຜູ້ຊ່ຽວຊານ. ແຕ່ລະອັນດຳເນີນການໃນພື້ນຫຼັງໃນນາມຂອງທ່ານ ຫຼັງຈາກບັນທຶກພາບສະຖານະປັດຈຸບັນ.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>ບໍ່ສາມາດອ່ານສິ່ງທີ່ຍົກເລີກຄືນໄດ້: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>ການດຳເນີນການ</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>ການຍ້າຍຂໍ້ມູນລາຍການດຽວ</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>ພາບບັນທຶກກ່ອນໜ້າ</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>ຄຳອະທິບາຍ</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ແມ່ນ</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ບໍ່</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>ພາບບັນທຶກ</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>ປ້າຍຊື່</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>ບັນທຶກເມື່ອ</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>ປະເພດ</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>ສ່ວນທີ່ຈະກູ້ຄືນ</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>ຖານຂໍ້ມູນ</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>ໄຟລ໌ບ່ອນເກັບ (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>ການຕັ້ງຄ່າ (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>ການກູ້ຄືນຖານຂໍ້ມູນຈະພາມັນກັບໄປຫາເວລາຂອງພາບບັນທຶກ ລວມທັງເຊສຊັນ: ທ່ານອາດຈະຕ້ອງເຂົ້າສູ່ລະບົບອີກຄັ້ງຫຼັງຈາກນັ້ນ. ທຸກຢ່າງທີ່ປ່ຽນແປງຕັ້ງແຕ່ນັ້ນຈະສູນເສຍ; ພາບບັນທຶກຂອງສະຖານະປັດຈຸບັນຈະຖືກບັນທຶກກ່ອນ.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>ຂ້ອຍຮູ້ວ່າສິ່ງນີ້ກູ້ຄືນຫຍັງ</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>ພິມລະຫັດຂອງພາບບັນທຶກອີກຄັ້ງ</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>ແມ່ນ, ຍົກເລີກຄືນ</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>ຍົກເລີກ</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>ການດຳເນີນການທີ່ມີພາບບັນທຶກກ່ອນໜ້າ.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>ເລືອກ</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>ຍັງບໍ່ມີການດຳເນີນການທີ່ມີພາບບັນທຶກ.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>ການຍ້າຍຂໍ້ມູນທີ່ນຳໃຊ້ແລ້ວ ເຊິ່ງສາມາດຍົກເລີກຕົວເອງຄືນໄດ້ (ພວກມັນມີ down()).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>ບໍ່ມີການຍ້າຍຂໍ້ມູນທີ່ນຳໃຊ້ແລ້ວໃດມີ down().</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>ພາບບັນທຶກກ່ອນໜ້າ (ຜູ້ຊ່ຽວຊານ)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>ຍັງບໍ່ມີພາບບັນທຶກ.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>ດຳເນີນການຍ້າຍຂໍ້ມູນ</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>ການດຳເນີນການຈະດຳເນີນໃນພື້ນຫຼັງໃນນາມ %user ແລະ ໜ້າຂອງມັນຈະສະແດງຄວາມຄືບໜ້າ. ກ່ອນການຍ້າຍຂໍ້ມູນທຳອິດຈະບັນທຶກພາບຂອງການຕິດຕັ້ງ; ເມື່ອການຍ້າຍຂໍ້ມູນລົ້ມເຫຼວ ການດຳເນີນການຈະຢຸດ ແລະ ພາບບັນທຶກຈະຖືກກູ້ຄືນ.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>ທົດລອງດຳເນີນການກ່ອນ</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>ບໍ່ສາມາດອ່ານສະຖານະໄດ້: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>ການຍ້າຍຂໍ້ມູນທີ່ລໍຖ້າ</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>ພວກມັນດຳເນີນການຕາມລຳດັບນີ້. ຍົກເລີກການໝາຍລາຍການໃດໜຶ່ງເພື່ອປະມັນ ແລະ ລາຍການທີ່ຕ້ອງການມັນໄວ້ສຳລັບການດຳເນີນການຄັ້ງຕໍ່ໄປ.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>ດຳເນີນການ</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>ເປີດໂໝດບຳລຸງຮັກສາໃນຂະນະທີ່ດຳເນີນການ.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>ປ່ຽນແປງຫຼັງຈາກນຳໃຊ້</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>ໄຟລ໌ເຫຼົ່ານີ້ບໍ່ແມ່ນໄຟລ໌ທີ່ຖືກນຳໃຊ້. ການດຳເນີນການຈະປະຕິເສດພວກມັນ ເວັ້ນເສຍແຕ່ການປ່ຽນແປງຈະຖືກຍອມຮັບພ້ອມເຫດຜົນ; ພວກມັນຈະບໍ່ຖືກດຳເນີນການອີກ, ຄ່າກວດສອບໃໝ່ຈະຖືກບັນທຶກ ແລະ ເຫດຜົນຈະຖືກເກັບໄວ້ໃນບັນທຶກການກວດສອບ.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>ຍອມຮັບການປ່ຽນແປງ</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>ເປັນຫຍັງ</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>ຄ່າເລີ່ມຕົ້ນແມ່ນຄ່າທີ່ປອດໄພ. ແຕ່ລະກ່ອງຈະຂ້າມຂັ້ນຕອນໜຶ່ງ.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>ບໍ່ບັນທຶກພາບ</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>ບໍ່ບັນທຶກພາບກ່ອນ ແລະ ຫຼັງການດຳເນີນການ: ຄວາມລົ້ມເຫຼວຈະບໍ່ສາມາດກູ້ຄືນອັດຕະໂນມັດໄດ້.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>ບໍ່ກູ້ຄືນ</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>ຫຼັງຈາກລົ້ມເຫຼວ ໃຫ້ປະການຕິດຕັ້ງໄວ້ຕາມທີ່ຄວາມລົ້ມເຫຼວປະໄວ້.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>ເກັບການປ່ຽນແປງທີ່ຍັງບໍ່ໄດ້ຄອມມິດ</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>ດຳເນີນການເຖິງແມ່ນວ່າການຕັ້ງຄ່າ, ສ່ວນຂະຫຍາຍ ຫຼື ການອອກແບບມີການປ່ຽນແປງທີ່ຍັງບໍ່ໄດ້ຄອມມິດ; ພວກມັນຈະເຂົ້າໄປໃນພາບບັນທຶກ.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>ບໍ່ຄອມມິດ</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>ບໍ່ຄອມມິດໄຟລ໌ສະຖານະ ແລະ ບັນທຶກເຫດການຂອງການດຳເນີນການ (ບໍ່ຕິດແທັກ ແລະ ບໍ່ພຸຊ).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>ບໍ່ພຸຊ</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>ຄອມມິດ ແລະ ຕິດແທັກ ແຕ່ບໍ່ພຸຊ.</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>ບໍ່ຕິດແທັກ</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>ຄອມມິດ ແລະ ພຸຊ ແຕ່ບໍ່ຕິດແທັກການດຳເນີນການ.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>ແມ່ນ, ດຳເນີນການຍ້າຍຂໍ້ມູນເຫຼົ່ານີ້ດຽວນີ້</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>ບໍ່ມີການຍ້າຍຂໍ້ມູນທີ່ລໍຖ້າ.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>ກັບໄປທີ່ສະຖານະ</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>ການປ່ຽນແປງການຕິດຕັ້ງນີ້ທີ່ຂຽນເປັນໄຟລ໌ຄັ້ງດຽວ (ເນື້ອຫາ, ຄລາສ, ບົດບາດ, ການຕັ້ງຄ່າ, ໂຄງສ້າງ) ແລະ ນຳໃຊ້ກັບທຸກການຕິດຕັ້ງຂອງເວັບໄຊຕາມລຳດັບດຽວກັນ. ການດຳເນີນການຈະບັນທຶກພາບກ່ອນ, ກູ້ຄືນມັນເມື່ອການຍ້າຍຂໍ້ມູນລົ້ມເຫຼວ, ແລະ ບັນທຶກ, ຄອມມິດ ແລະ ພຸຊສິ່ງທີ່ມັນໄດ້ເຮັດ.</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>ດຳເນີນການ %count ລາຍການທີ່ລໍຖ້າ</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>ພາບລວມ</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>ລໍຖ້າດຳເນີນການ</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>ສຳເລັດ</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>ລົ້ມເຫຼວ</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>ບໍ່ຈຳເປັນ</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>ຖານຂໍ້ມູນ</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>ທຸລະກຳ: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>ການຍ້າຍຂໍ້ມູນຂອງເວັບໄຊຢູ່ໃນ migrations/, ຂອງສ່ວນຂະຫຍາຍຢູ່ໃນ extension/&lt;name&gt;/migrations/. ພວກມັນດຳເນີນການຕາມລຳດັບຊື່ ແລະ ສິ່ງທີ່ພວກມັນຕ້ອງການ.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>ການດຳເນີນການຄັ້ງລ່າສຸດ</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>ໄຟລ໌ໄດ້ປ່ຽນແປງຫຼັງຈາກນຳໃຊ້.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>ຍັງບໍ່ມີການຍ້າຍຂໍ້ມູນ. ./console exp:migration:generate --skeleton &lt;name&gt; --apply ຈະຂຽນອັນທຳອິດ.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>ການດຳເນີນການລ່າສຸດ</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>ທຸກການດຳເນີນການ</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>ຍັງບໍ່ມີການດຳເນີນການ.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>ການຈຳລອງການດຳເນີນການຕ້ອງການນະໂຍບາຍ migration/run.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>ມີການດຳເນີນການຢູ່: ຈຳລອງເມື່ອມັນສິ້ນສຸດແລ້ວ.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>ຕັ້ງຄ່າລະບົບ</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target ບໍ່ແມ່ນການດຳເນີນການ, ການຍ້າຍຂໍ້ມູນ ຫຼື ພາບບັນທຶກຂອງການຕິດຕັ້ງນີ້.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>ໝາຍ &quot;ແມ່ນ, ຍົກເລີກຄືນ&quot; ກ່ອນ.</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>ການກູ້ຄືນພາບບັນທຶກກ່ອນໜ້າແມ່ນສຳລັບຜູ້ຊ່ຽວຊານ: ໝາຍ &quot;ຂ້ອຍຮູ້ວ່າສິ່ງນີ້ກູ້ຄືນຫຍັງ&quot;.</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>ພິມລະຫັດຂອງພາບບັນທຶກອີກຄັ້ງ: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>ເລືອກຢ່າງໜ້ອຍໜຶ່ງສ່ວນເພື່ອກູ້ຄືນ.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>ການດຳເນີນການນີ້ບໍ່ມີພາບບັນທຶກກ່ອນໜ້າ: ຍົກເລີກການຍ້າຍຂໍ້ມູນຂອງມັນຄືນເທື່ອລະລາຍການ ຫຼື ກູ້ຄືນພາບບັນທຶກກ່ອນໜ້າ.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>ການຍ້າຍຂໍ້ມູນນີ້ບໍ່ສາມາດຍົກເລີກຕົວເອງຄືນໄດ້: ມັນບໍ່ໄດ້ຖືກນຳໃຊ້ ຫຼື ບໍ່ມີ down().</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>ບໍ່ສາມາດອ່ານແບບຟອມໄດ້.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>ເລືອກການດຳເນີນການທີ່ຈະສືບຕໍ່.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>ໝາຍ &quot;ແມ່ນ, ດຳເນີນການຍ້າຍຂໍ້ມູນເຫຼົ່ານີ້ດຽວນີ້&quot; ກ່ອນ.</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>ເລືອກການຍ້າຍຂໍ້ມູນຢ່າງໜ້ອຍໜຶ່ງລາຍການ.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>ການຍ້າຍຂໍ້ມູນໄດ້ປ່ຽນແປງຫຼັງຈາກນຳໃຊ້: ຍອມຮັບການປ່ຽນແປງພ້ອມເຫດຜົນ ຫຼື ນຳໄຟລ໌ກັບຄືນ.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>ໃຫ້ເຫດຜົນວ່າເປັນຫຍັງຈຶ່ງຍອມຮັບການຍ້າຍຂໍ້ມູນທີ່ປ່ຽນແປງ.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>ເຫດຜົນມີໄດ້ສູງສຸດ 500 ຕົວອັກສອນ.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>ການດຳເນີນການທີ່ເລີ່ມຢູ່ນີ້ຍັງດຳເນີນຢູ່ (%detail). ລໍຖ້າໃຫ້ມັນສິ້ນສຸດ.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>ການດຳເນີນການອື່ນກຳລັງຖືລັອກຂອງການຕິດຕັ້ງ: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>ການດຳເນີນການຕ້ອງການຜູ້ໃຊ້ທີ່ເຂົ້າສູ່ລະບົບແລ້ວ ແລະ ມີຢູ່ແທ້.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>ບໍ່ພົບໂປຣແກຣມ php ສຳລັບແຖວຄຳສັ່ງ. ຕັ້ງ migration.ini [AdminSettings] PhpCliPath ເປັນເສັ້ນທາງເຕັມຂອງມັນ.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open ຖືກປິດໃຊ້ງານ ດັ່ງນັ້ນບໍ່ສາມາດເລີ່ມການດຳເນີນການຢູ່ນີ້ໄດ້. ດຳເນີນການ ./console exp:migration:migrate --apply ໃນເຊີບເວີ.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>ບໍ່ສາມາດຂຽນລົງໂຟນເດີຂອງການດຳເນີນການໄດ້: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>ການດຳເນີນການໄດ້ເລີ່ມແລ້ວ ແຕ່ບໍ່ໄດ້ລາຍງານລະຫັດໂປຣເຊສຂອງມັນ. ກວດສອບ %detail.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>ລະບຸສິ່ງທີ່ຈະຍົກເລີກຄືນ.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>ບໍ່ສາມາດເລີ່ມການດຳເນີນການໄດ້.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>ການບັນທຶກການປ່ຽນແປງ</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>ໃນຂະນະທີ່ການບັນທຶກກຳລັງດຳເນີນຢູ່ ສິ່ງທີ່ທ່ານປ່ຽນໃນການຄຸ້ມຄອງ ຫຼື ໃນແຖບຂ້າງຂອງເວັບໄຊ ຈະຖືກເກັບໄວ້ເປັນຂັ້ນຕອນຂອງການຍ້າຍ: ເນື້ອຫາ, ຄລາສ, ບົດບາດ ແລະ ນະໂຍບາຍ, ພາກສ່ວນ, ຜູ້ໃຊ້ ແລະ ກຸ່ມ, ຊື່ແທນ URL, ການຕັ້ງຄ່າ. ຢຸດມັນເມື່ອທ່ານເຮັດແລ້ວ, ເບິ່ງວ່າມັນຈັບຫຍັງໄວ້, ແລ້ວສ້າງການຍ້າຍຈາກມັນ.</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>ບໍ່ສາມາດອ່ານການບັນທຶກໄດ້: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>ຕາຕະລາງຂອງການບັນທຶກຍັງບໍ່ມີ: ໃຫ້ດຳເນີນການອັບເກຣດກ່ອນ (exp:upgrade --apply).</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>ການບັນທຶກຖືກປິດໃນ migration.ini ([RecordingSettings] Recording=disabled).</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>ການປ່ຽນແປງຂອງຂ້ອຍ</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>ບັນທຶກພຽງສິ່ງທີ່ທ່ານປ່ຽນ, ບໍ່ວ່າທ່ານຈະປ່ຽນຢູ່ໃສ, ຈົນກວ່າທ່ານຈະຢຸດມັນ.</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>ການບັນທຶກ</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>ຕັ້ງແຕ່ %time, ມາຮອດປັດຈຸບັນ %count ການປ່ຽນແປງ.</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>ປ້າຍ (ບໍ່ບັງຄັບ)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>ສະແດງສິ່ງທີ່ມັນຈັບໄວ້</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>ຢຸດການບັນທຶກ</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>ເລີ່ມບັນທຶກການປ່ຽນແປງຂອງຂ້ອຍ</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>ໜ້າຕ່າງສຳລັບທັງເວັບໄຊ</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>ບັນທຶກທຸກການປ່ຽນແປງຂອງຜູ້ໃຊ້ທຸກຄົນ ແລະ ຂອງຄອນໂຊນ ຈົນກວ່າຈະຖືກປິດ. ເມື່ອເປີດ ທ່ານຈະຖືກຂໍໃຫ້ຢືນຢັນວ່າແມ່ນທ່ານ.</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>ເປີດຢູ່</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>ປິດໜ້າຕ່າງ</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>ເປີດໜ້າຕ່າງສຳລັບທັງເວັບໄຊ</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>ລາຍການບັນທຶກ</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>ບັນຊີຂອງຜູ້ໃຊ້ (ຊື່ເຂົ້າລະບົບ, ອີເມວ, ລະຫັດຜ່ານ) ແລະ ຊ່ອງຂໍ້ມູນຂອງບັນຊີຜູ້ໃຊ້ ບໍ່ເຄີຍຖືກບັນທຶກ.</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>ການປ່ຽນແປງ</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>ທັງເວັບໄຊ</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>ການປ່ຽນແປງຂອງ %name</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>ຢຸດແລ້ວ</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>ຍັງບໍ່ມີການບັນທຶກ.</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>ການບັນທຶກ %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>ການບັນທຶກທັງໝົດ</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>ການຍ້າຍທີ່ມັນຈະສ້າງ</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>ການປ່ຽນແປງທີ່ລວມເປັນຂັ້ນຕອນດຽວສຳລັບແຕ່ລະສິ່ງທີ່ຖືກປ່ຽນ: ສິ່ງທີ່ການຍ້າຍທີ່ສ້າງຈາກການບັນທຶກນີ້ຈະເຮັດ.</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>ສາມາດສ້າງການຍ້າຍຈາກມັນໄດ້ເມື່ອການຕິດຕັ້ງນີ້ມີປະເພດຂັ້ນຕອນ YAML %types.</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>ຕັ້ງໃຈປະໄວ້: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>ບໍ່ມີຫຍັງຖືກບັນທຶກ.</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>ສິ່ງທີ່ມັນຈັບໄວ້</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>%count ການປ່ຽນແປງ, ຕາມລຳດັບທີ່ເຮັດ.</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>ການປ່ຽນແປງໜຶ່ງ</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>ຂັ້ນຕອນ</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>ກ່ຽວກັບ</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>ອີກ %count: ./console exp:migration:record:show ສະແດງທັງໝົດ.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>ຖິ້ມ</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>ລຶບການບັນທຶກ ແລະ ສິ່ງທີ່ມັນຈັບໄວ້. ສິ່ງທີ່ຖືກປ່ຽນຍັງຄົງປ່ຽນ.</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>ແມ່ນ, ຖິ້ມການບັນທຶກນີ້</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>ກຳລັງບັນທຶກ…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>ການປ່ຽນແປງຂອງທ່ານກຳລັງຖືກບັນທຶກສຳລັບການຍ້າຍ.</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>ທຸກການປ່ຽນແປງໃນເວັບໄຊນີ້ກຳລັງຖືກບັນທຶກສຳລັບການຍ້າຍ (ໜ້າຕ່າງສຳລັບທັງເວັບໄຊ).</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>ການບັນທຶກທັງເວັບໄຊໄດ້ເລີ່ມແລ້ວ: ທຸກການປ່ຽນແປງຂອງຜູ້ໃຊ້ທຸກຄົນຈະຖືກບັນທຶກຈົນກວ່າທ່ານຈະຢຸດມັນ.</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>ການບັນທຶກໄດ້ເລີ່ມແລ້ວ: ການປ່ຽນແປງຂອງທ່ານຈະຖືກບັນທຶກຈົນກວ່າທ່ານຈະຢຸດມັນ.</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>ຢຸດການບັນທຶກແລ້ວ. ສິ່ງທີ່ມັນຈັບໄວ້ຈະຍັງຢູ່ຈົນກວ່າທ່ານຈະຖິ້ມມັນ.</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>ການບັນທຶກ ແລະ ເຫດການຂອງມັນຖືກລຶບແລ້ວ.</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>ບໍ່ມີການບັນທຶກ %id.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>ໝາຍ "ແມ່ນ, ຖິ້ມການບັນທຶກນີ້" ກ່ອນ.</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>ມີແຕ່ຜູ້ໃຊ້ທີ່ບັນທຶກເທົ່ານັ້ນທີ່ສາມາດຢຸດການບັນທຶກເຊດຊັນໄດ້.</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>ເລືອກການບັນທຶກທີ່ຈະຢຸດ.</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>ການບັນທຶກປະເພດນີ້ກຳລັງດຳເນີນຢູ່ແລ້ວ.</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>ບໍ່ສາມາດປ່ຽນການບັນທຶກໄດ້: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>ສ້າງການຍ້າຍ</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>ຊື່ຂອງການຍ້າຍ (ທາງເລືອກ)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>ຂຽນການຍ້າຍ %file ແລ້ວ. ການປ່ຽນແປງທີ່ບໍ່ມີຂັ້ນຕອນໃດເຮັດໄດ້ ຖືກລະບຸໄວ້ເທິງສຸດຂອງໄຟລ໌ ເພື່ອເຮັດດ້ວຍມື.</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>ບໍ່ໄດ້ຂຽນການຍ້າຍ: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>ການແລ່ນຍາວເປັນສ່ວນໆ</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>ຊ່ອງຫວ່າງຈະຮັກສາການຕັ້ງຄ່າຂອງ migration.ini [RunSettings].</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>ການຍ້າຍຫຼາຍທີ່ສຸດເທົ່ານີ້</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>ບໍ່ມີການຍ້າຍອີກຫຼັງຈາກ (ວິນາທີ)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>ພັກລະຫວ່າງການຍ້າຍ (ວິນາທີ)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>ບູລິມະສິດຕ່ຳກວ່າ (1 ເຖິງ 19)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>ຊ່ອງການແລ່ນຍາວແມ່ນຈຳນວນເຕັມຈາກ 1 (ການພັກ: ວິນາທີຈາກ 0 ເຖິງ 60, ບູລິມະສິດ: 1 ເຖິງ 19) ຫຼືຫວ່າງ.</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>ມັນປິດເອງເວລາ %time.</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>ປິດເອງຫຼັງຈາກ (ນາທີ, ທາງເລືອກ)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>ນາທີແມ່ນຈຳນວນເຕັມຈາກ 1 ເຖິງ 44640 (31 ມື້) ຫຼືຫວ່າງ.</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>ການຍ້າຍຂໍ້ມູນ %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>ການຍ້າຍຂໍ້ມູນໃໝ່</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>ການຍ້າຍຂໍ້ມູນ YAML: ຂຽນເປັນຂໍ້ຄວາມ ຫຼື ສ້າງຂັ້ນຕອນຂອງມັນໃນແບບຟອມ, ກວດສອບ, ແລ້ວບັນທຶກໄວ້ໃນໂຟນເດີການຍ້າຍຂໍ້ມູນ.</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>ການຍ້າຍຂໍ້ມູນນີ້ດຳເນີນການແລ້ວ, ສະນັ້ນຈະບໍ່ຖືກບັນທຶກອີກ: ໄຟລ໌ທີ່ຖືກປ່ຽນຈະຖືກປະຕິເສດໂດຍຕົວປ້ອງກັນຜົນລວມກວດສອບ. ໃຫ້ປ່ຽນແປງໃນການຍ້າຍຂໍ້ມູນໃໝ່.</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>ເວັບເຊີບເວີບໍ່ສາມາດຂຽນໄຟລ໌ນີ້ໄດ້.</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>ແຖວຄຳເຫັນຢູ່ເທິງສຸດແມ່ນສ່ວນຫົວ (description, author, requires, environments, engines). ເມື່ອເພີ່ມ ຫຼື ປ່ຽນຂັ້ນຕອນໃນແບບຟອມ, ການຍ້າຍຂໍ້ມູນຈະຖືກຂຽນຄືນໃໝ່: ຄຳເຫັນລະຫວ່າງຂັ້ນຕອນຈະບໍ່ຖືກເກັບໄວ້.</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>ຊື່ຂອງການຍ້າຍຂໍ້ມູນ</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>ບ່ອນທີ່ຈະໄປ</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>ເວັບໄຊ</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>ຂໍ້ຄວາມ YAML</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>ກວດສອບ</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>ບັນທຶກ</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>ຂັ້ນຕອນ</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>ກະແຈ</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>ແກ້ໄຂ</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>ຍ້າຍຂຶ້ນ</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>ຍ້າຍລົງ</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>ເອົາອອກ</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>ຍັງບໍ່ມີຂັ້ນຕອນ: ເພີ່ມໜຶ່ງຂັ້ນຕອນດ້ວຍແບບຟອມ ຫຼື ຂຽນໄວ້ໃນຂໍ້ຄວາມ.</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>ປ່ຽນຂັ້ນຕອນ %number</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>ເພີ່ມຂັ້ນຕອນໜຶ່ງ</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>ແບບຟອມຂອງຂັ້ນຕອນຖືກສ້າງຈາກປະເພດຂັ້ນຕອນຂອງມັນ: ກະແຈຂອງມັນ, ສິ່ງທີ່ແຕ່ລະກະແຈຮັບ ແລະ ໂໝດທີ່ມັນເປັນຂອງ.</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>ປະເພດຂັ້ນຕອນ</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>ສະແດງແບບຟອມຂອງມັນ</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>ຂັ້ນຕອນນີ້ມີກະແຈທີ່ປະເພດຂອງມັນບໍ່ຮູ້ຈັກ; ພວກມັນຈະຖືກຕັດອອກເມື່ອປ່ຽນຂັ້ນຕອນ: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>ໂໝດ</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>ໃນ</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>ສະເພາະໃນ %modes</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>ຄ່າເລີ່ມຕົ້ນ: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>ເງື່ອນໄຂ, ການອ້າງອີງ ແລະ ຄຳເຫັນ</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>ຄູ່ ຊື່=ຄ່າ ແຍກດ້ວຍເຄື່ອງໝາຍຈຸດ. ຄ່າຂອງຂັ້ນຕອນນີ້: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>ຕົວຢ່າງ</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>ປ່ຽນຂັ້ນຕອນ</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>ເພີ່ມຂັ້ນຕອນ</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>ສິ່ງທີ່ exp:migration:check ບອກ: ສ່ວນຫົວ, ເອກະສານ ແລະ ທຸກຂັ້ນຕອນທີ່ກວດສອບໂດຍປະເພດຂັ້ນຕອນຂອງມັນ.</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>ການຍ້າຍຂໍ້ມູນຜ່ານການກວດສອບ.</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>ສະແດງຕົວຢ່າງ</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>YAML ຕາມທີ່ຈະຖືກບັນທຶກ.</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>ສະແດງ YAML</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>ການຍ້າຍຂໍ້ມູນ YAML</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>ດຳເນີນການແລ້ວ</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>ຍັງບໍ່ມີການຍ້າຍຂໍ້ມູນ YAML.</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>ຜູ້ແກ້ໄຂ</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>ບໍ່ມີການຍ້າຍຂໍ້ມູນ YAML %id ໃນໂຟນເດີການຍ້າຍຂໍ້ມູນ.</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>ເລືອກປະເພດຂັ້ນຕອນ.</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>ເພີ່ມຂັ້ນຕອນແລ້ວ. ກວດສອບການຍ້າຍຂໍ້ມູນກ່ອນບັນທຶກ.</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>ປ່ຽນຂັ້ນຕອນແລ້ວ. ກວດສອບການຍ້າຍຂໍ້ມູນກ່ອນບັນທຶກ.</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>ເລືອກຂັ້ນຕອນ.</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>ຂັ້ນຕອນນີ້ບໍ່ມີແບບຟອມ (ເປັນລູບ ຫຼື ປະເພດຂັ້ນຕອນທີ່ການຕິດຕັ້ງນີ້ບໍ່ມີ): ປ່ຽນມັນໃນຂໍ້ຄວາມ.</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>ເລືອກບ່ອນທີ່ການຍ້າຍຂໍ້ມູນຈະໄປ: ເວັບໄຊ ຫຼື ສ່ວນຂະຫຍາຍທີ່ເປີດໃຊ້ຢູ່.</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>ບັນທຶກ %file ແລ້ວ. ທົດລອງດຳເນີນການກ່ອນທີ່ການຍ້າຍຂໍ້ມູນຈະດຳເນີນການ.</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>ບໍ່ໄດ້ບັນທຶກ: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>ເຄື່ອງປາຍທາງ</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>ການຕິດຕັ້ງອື່ນໆທີ່ການຕິດຕັ້ງນີ້ນຳສົ່ງການຍ້າຍຂໍ້ມູນໄປຫາ: ການນຳສົ່ງຈະສົ່ງການຍ້າຍຂໍ້ມູນໄປຫາເຄື່ອງປາຍທາງທີ່ເລືອກ ແລະ ດຳເນີນການຢູ່ທີ່ນັ້ນ, ທັງໝົດພ້ອມກັນ ແລະ ສອດຄ່ອງກັນ. ເຄື່ອງປາຍທາງບໍ່ເຄີຍເກັບຂໍ້ມູນລັບ: ຂໍ້ມູນເຂົ້າສູ່ລະບົບຂອງມັນອ້າງເຖິງຊື່ໜຶ່ງໃນ ຕັ້ງຄ່າລະບົບ &gt; ຂໍ້ມູນລັບ.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>ເຄື່ອງປາຍທາງໃໝ່</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>ຊ່ວຍເຫຼືອ</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>ທົດສອບການເຊື່ອມຕໍ່ຂອງ %id</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>ເຄື່ອງປາຍທາງທັງໝົດ</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>ເຄື່ອງປາຍທາງສູງສຸດ %parallel ເຄື່ອງຈະຖືກດຳເນີນການພ້ອມກັນ; ຊ່ວງໜຶ່ງອາດໃຊ້ເວລາ %timeout ວິນາທີໃນແຕ່ລະເຄື່ອງ.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>ເຄື່ອງປາຍທາງ</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>ທີ່ຢູ່</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>ຂໍ້ມູນເຂົ້າສູ່ລະບົບ</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>ກຸ່ມ</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>ການຕັ້ງຄ່າທີ່ຕ້ອງແກ້ໄຂ</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>ໄຟລ໌ເທົ່ານັ້ນ (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>ກະແຈ SSH</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>ລະຫັດຜ່ານ</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>ບໍ່ມີ (SSH agent ແລະ ກະແຈຂອງໂຮສ)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>ທົດສອບການເຊື່ອມຕໍ່</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>ການນຳສົ່ງໄປຫາກຸ່ມຈະໄປຮອດທຸກເຄື່ອງປາຍທາງໃນກຸ່ມນັ້ນ.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>ນຳສົ່ງໄປຫາເຄື່ອງປາຍທາງ</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>ຍັງບໍ່ມີເຄື່ອງປາຍທາງໃດຖືກຕັ້ງຄ່າ.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>ເຄື່ອງປາຍທາງ %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>ບໍ່ມີຫຍັງຖືກສົ່ງ ຫຼື ດຳເນີນການຢູ່ນີ້: ບັນທຶກ ຈະຂຽນການຕັ້ງຄ່າລົງໃນ settings/override/migration.ini.append.php. ຂໍ້ມູນເຂົ້າສູ່ລະບົບເປັນພຽງຊື່; ຄ່າຂອງມັນຍັງຢູ່ໃນ ຕັ້ງຄ່າລະບົບ &gt; ຂໍ້ມູນລັບ ຫຼື ໃນສະພາບແວດລ້ອມ.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>ກວດການຕັ້ງຄ່າເຫຼົ່ານີ້</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>ການຕັ້ງຄ່າຕາມທີ່ປ້ອນ, ຍັງບໍ່ໄດ້ບັນທຶກ.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>ກວດສອບ</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>ການຕັ້ງຄ່າຖືກຕ້ອງ. ແຖວເຫຼົ່ານີ້ຈະຖືກຂຽນ:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>ວິທີສົ່ງ</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>ພຽງຊື່ເທົ່ານັ້ນ; ຄ່າຍັງຢູ່ໃນ ຕັ້ງຄ່າລະບົບ &gt; ຂໍ້ມູນລັບ</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>ແຖວທີ່ຈະຖືກຂຽນ</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>ການເຊື່ອມຕໍ່</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>ກະແຈຂອງໂຮສ</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. ເຄື່ອງປາຍທາງ</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>ເຄື່ອງປາຍທາງມີຊື່ຫຍັງ ແລະ ເປັນສະພາບແວດລ້ອມໃດ.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>ຕົວອັກສອນ, ຕົວເລກ, - ແລະ _, ຕົວຢ່າງ production1. ມັນເປັນຊື່ຂອງເຄື່ອງປາຍທາງໃນລາຍງານ ແລະ ໃນຄອນໂຊລ (--remotes=production1) ແລະ ບໍ່ສາມາດປ່ຽນໄດ້ພາຍຫຼັງ.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... ການນຳສົ່ງເປັນໄລຍະຈະຜ່ານສະພາບແວດລ້ອມຕາມລຳດັບນີ້.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>ບໍ່ບັງຄັບ, ຂັ້ນດ້ວຍເຄື່ອງໝາຍຈຸດ, ຕົວຢ່າງ production. ການນຳສົ່ງໄປຫາກຸ່ມຈະໄປຮອດທຸກເຄື່ອງປາຍທາງໃນກຸ່ມນັ້ນ.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. ການເຊື່ອມຕໍ່</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>ໄຟລ໌ໄປຮອດທີ່ນັ້ນແນວໃດ, ແລະ ການຕິດຕັ້ງຢູ່ໃສ.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>ຜ່ານ SSH, ສະເພາະສິ່ງທີ່ປ່ຽນແປງ, ການໂອນທີ່ຂາດຈະດຳເນີນຕໍ່. ເປັນທາງເລືອກທີ່ດີທີ່ສຸດບ່ອນທີ່ມີ rsync ຕິດຕັ້ງ.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>SSH ກັບ scp ສຳລັບໄຟລ໌.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>SSH ກັບ sftp ສຳລັບໄຟລ໌.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>ໄຟລ໌ເທົ່ານັ້ນ: ການຍ້າຍຂໍ້ມູນຈະຖືກສົ່ງ ແລະ ອ່ານກັບຄືນ, ແຕ່ບໍ່ສາມາດດຳເນີນການຢູ່ທີ່ນັ້ນໄດ້.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>FTP ຜ່ານ TLS; ໄຟລ໌ເທົ່ານັ້ນ.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>ການຕິດຕັ້ງອື່ນຢູ່ໃນເຊີບເວີນີ້, ໃນໂຟນເດີໜຶ່ງ.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>ໂຮສ</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>ຊື່ໂຮສ ຫຼື ທີ່ຢູ່, ຕົວຢ່າງ node1.example.com. ບໍ່ໃຊ້ສຳລັບ local.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>ພອດ</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>ວ່າງ: 22 ສຳລັບ SSH, 21 ສຳລັບ FTP.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>ຜູ້ໃຊ້</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>ເສັ້ນທາງ</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>ໂຟນເດີຮາກຂອງການຕິດຕັ້ງຢູ່ທີ່ນັ້ນ, ຕົວຢ່າງ /var/www/site (ສຳລັບ FTP: ເສັ້ນທາງທີ່ບັນຊີ FTP ເຫັນ).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>ບັນທັດຄຳສັ່ງ PHP</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>PHP CLI ຢູ່ທີ່ນັ້ນ: php, ຫຼື ເສັ້ນທາງເຕັມເຊັ່ນ /opt/plesk/php/8.4/bin/php.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>ສະຄຣິບຄອນໂຊລເຮັດວຽກໃນນາມ root ຢູ່ທີ່ນັ້ນ</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>ສະເພາະເມື່ອຜູ້ໃຊ້ຂອງເຄື່ອງປາຍທາງແມ່ນ root (ຈາກນັ້ນຈະດຳເນີນການດ້ວຍ --allow-root-user).</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. ຂໍ້ມູນເຂົ້າສູ່ລະບົບ</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>ການຕິດຕັ້ງນີ້ເຂົ້າສູ່ລະບົບຢູ່ທີ່ນັ້ນແນວໃດ. ບັນທຶກໄວ້ແຕ່ຊື່ເທົ່ານັ້ນ.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>ບໍ່ມີ</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>SSH agent ແລະ ກະແຈຂອງຜູ້ໃຊ້ທີ່ການຕິດຕັ້ງນີ້ເຮັດວຽກໃນນາມ (ແລະ ສະເໝີສຳລັບ local).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>ກະແຈສ່ວນຕົວທີ່ເກັບໄວ້ເປັນຂໍ້ມູນລັບ.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>ລະຫັດຜ່ານທີ່ເກັບໄວ້ເປັນຂໍ້ມູນລັບ (FTP ເຂົ້າສູ່ລະບົບດ້ວຍມັນ).</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>ຊື່ຂໍ້ມູນລັບ</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>ຂໍ້ມູນລັບຈາກ ຕັ້ງຄ່າລະບົບ &gt; ຂໍ້ມູນລັບ, ຕົວຢ່າງ deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>ຕັ້ງຄ່າລະບົບ &gt; ຂໍ້ມູນລັບ</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>ຫຼື ຕົວແປສະພາບແວດລ້ອມ</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>ຕົວແປຂອງໂປຣເຊສເຊີບເວີທີ່ເກັບມັນໄວ້, ຕົວຢ່າງ DEPLOY_KEY (ບັນທຶກເປັນ env:DEPLOY_KEY). ມັນໃຊ້ແທນຊື່ຂໍ້ມູນລັບ.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. ກະແຈຂອງໂຮສ</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>ບໍ່ບັງຄັບ, ສຳລັບ SSH, sftp ແລະ rsync.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>ລາຍນິ້ວມືຂອງກະແຈໂຮສ</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... ຕາມທີ່ ssh-keygen -l ພິມອອກ. ຖ້າມີ, ໂຮສຕ້ອງສະແດງກະແຈນີ້; ຖ້າບໍ່ມີ, ກະແຈຈະຖືກຈື່ໄວ້ໃນການຕິດຕໍ່ຄັ້ງທຳອິດ.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. ກວດສອບ</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>ທົດສອບການເຊື່ອມຕໍ່ດ້ວຍການຕັ້ງຄ່າຂ້າງເທິງ, ຈາກນັ້ນກວດສອບແຖວທີ່ຈະຖືກຂຽນ.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>ລຶບເຄື່ອງປາຍທາງນີ້</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>ການຕັ້ງຄ່າຂອງມັນຈະຖືກເອົາອອກຈາກ settings/override/migration.ini.append.php. ບໍ່ມີຫຍັງປ່ຽນແປງຢູ່ເຄື່ອງປາຍທາງ, ແລະ ການນຳສົ່ງຂອງມັນຍັງຄົງຢູ່ໃນປະຫວັດ.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>ແມ່ນ, ລຶບເຄື່ອງປາຍທາງນີ້</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>ການນຳສົ່ງ</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>ການນຳສົ່ງຈະສົ່ງການຍ້າຍຂໍ້ມູນຂອງການຕິດຕັ້ງນີ້ໄປຫາເຄື່ອງປາຍທາງທີ່ເລືອກ ແລະ ດຳເນີນການຢູ່ທີ່ນັ້ນໃນນາມ %user, ທັງໝົດພ້ອມກັນ ແລະ ສອດຄ່ອງກັນ: ທຸກເຄື່ອງປາຍທາງຈະຖືກກວດສອບກ່ອນ, ແລະ ເມື່ອເຄື່ອງໃດລົ້ມເຫຼວ, ທຸກເຄື່ອງປາຍທາງທີ່ນຳໃຊ້ແລ້ວຈະຖືກຍ້ອນກັບ. ມັນດຳເນີນຢູ່ເບື້ອງຫຼັງ, ແລະ ໜ້າຂອງມັນຈະສະແດງທຸກເຄື່ອງປາຍທາງໃນລະຫວ່າງດຳເນີນ.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. ເຄື່ອງປາຍທາງທັງໝົດ</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>ໝາຍເຄື່ອງປາຍທາງ, ກຸ່ມ, ຫຼື ທັງສອງຢ່າງ.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>ນຳສົ່ງໄປຫາມັນ</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. ວິທີການ</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>ນຳສົ່ງ</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>ສົ່ງ ແລະ ດຳເນີນການ</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>ການຍ້າຍຂໍ້ມູນຈະຖືກສົ່ງ, ຢືນຢັນ ແລະ ດຳເນີນການຢູ່ທຸກເຄື່ອງປາຍທາງດ້ວຍ ID ການດຳເນີນການດຽວກັນ.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>ໂອນເທົ່ານັ້ນ</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>ໄຟລ໌ຈະຖືກສົ່ງ ແລະ ຢືນຢັນ, ບໍ່ມີຫຍັງຖືກດຳເນີນການ (ວິທີດຽວສຳລັບເຄື່ອງປາຍທາງ FTP).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>ເປັນໄລຍະ</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>ເທື່ອລະໄລຍະຕາມລຳດັບຂອງສະພາບແວດລ້ອມ (dev, stage, beta, production ...): ໄລຍະທຳອິດຈະຖືກນຳສົ່ງ, ຈາກນັ້ນດ່ານຈະລໍຖ້າຈົນກວ່າມີຄົນອະນຸມັດໄລຍະຖັດໄປ. ທັງໝົດ ຫຼື ບໍ່ມີເລີຍ ພາຍໃນແຕ່ລະໄລຍະ.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>ສະເພາະການຍ້າຍຂໍ້ມູນເຫຼົ່ານີ້</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>ບໍ່ບັງຄັບ: ID ຂອງການຍ້າຍຂໍ້ມູນ, ຂັ້ນດ້ວຍເຄື່ອງໝາຍຈຸດ. ວ່າງ: ທຸກການຍ້າຍຂໍ້ມູນຂອງເວັບໄຊ ແລະ ສ່ວນຂະຫຍາຍຂອງມັນ.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>ກວດກ່ອນເທົ່ານັ້ນ</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>ແມ່ນ, ນຳສົ່ງດຽວນີ້</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>ການນຳສົ່ງທີ່ໄດ້ສົ່ງ ຫຼື ດຳເນີນການບາງຢ່າງ, ລ່າສຸດຢູ່ກ່ອນ (ການກວດກ່ອນບໍ່ເກັບລາຍງານ).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>ໂອນເທົ່ານັ້ນ</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>ເປັນໄລຍະ, %stages ໄລຍະ</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>ບໍ່ສອດຄ່ອງກັນ</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>ຍັງບໍ່ມີການນຳສົ່ງ.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>ການນຳສົ່ງ %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>ທຸກເຄື່ອງປາຍທາງຂອງການນຳສົ່ງພ້ອມສະຖານະ. ການນຳສົ່ງທີ່ເລີ່ມຢູ່ນີ້ຈະດຳເນີນຕໍ່ຢູ່ເບື້ອງຫຼັງເມື່ອປິດໜ້ານີ້; ເປີດໜ້ານີ້ອີກເພື່ອຕິດຕາມ.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>ການນຳສົ່ງທັງໝົດ</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>ການກວດກ່ອນ</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>ໄລຍະຖັດໄປ</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>ກຳລັງກວດສອບການຕັ້ງຄ່າ ແລະ ຂໍ້ມູນເຂົ້າສູ່ລະບົບ</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>ການກວດກ່ອນ: ກຳລັງອ່ານສະຖານະຂອງທຸກເຄື່ອງປາຍທາງ</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>ກຳລັງສົ່ງໄຟລ໌ການຍ້າຍຂໍ້ມູນ</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>ກຳລັງຢືນຢັນສິ່ງທີ່ມາຮອດ</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>ກຳລັງດຳເນີນການຍ້າຍຂໍ້ມູນຢູ່ທຸກເຄື່ອງປາຍທາງ</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>ກຳລັງຍ້ອນກັບເຄື່ອງປາຍທາງ</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>ການນຳສົ່ງສິ້ນສຸດແລ້ວ. ກຳລັງໂຫຼດລາຍງານ.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>ບໍ່ສາມາດຕິດຕາມຄວາມຄືບໜ້າໄດ້. ໂຫຼດໜ້ານີ້ຄືນໃໝ່ເພື່ອເບິ່ງວ່າການນຳສົ່ງເປັນແນວໃດ.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>ຊ່ວງ</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>ໜ້ານີ້ຕິດຕາມການນຳສົ່ງໃນລະຫວ່າງດຳເນີນ.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>ສອດຄ່ອງກັນ</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>ໄລຍະຕ່າງໆ</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>ໄລຍະ %stage ລໍຖ້າຢູ່ດ່ານຂອງມັນ</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>ດ່ານ %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>ອະນຸມັດໂດຍ %user ເວລາ %time</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>ໄລຍະ</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>ໄຟລ໌ທີ່ສົ່ງແລ້ວ</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>ເວີຊັນເຄີເນລ</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>ນຳໃຊ້ແລ້ວ: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>ທີ່ຈະນຳໃຊ້: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>ຊ່ວງຕ່າງໆ</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>ດ່ານ: ໄລຍະ %stage ຈາກ %stages</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>ໄລຍະກ່ອນໜ້ານີ້ຖືກນຳສົ່ງແລ້ວ. ກວດສອບພວກມັນ, ຈາກນັ້ນອະນຸມັດໄລຍະຖັດໄປ: ເຄື່ອງປາຍທາງຂອງມັນຈະຖືກກວດສອບອີກຄັ້ງ ແລະ ນຳສົ່ງ, ທັງໝົດ ຫຼື ບໍ່ມີເລີຍ.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>ຖັດໄປ</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>ແມ່ນ, ນຳສົ່ງໄລຍະຖັດໄປດຽວນີ້</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>ອະນຸມັດ</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>ຍ້ອນກັບການນຳສົ່ງນີ້</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>ທຸກເຄື່ອງປາຍທາງທີ່ນຳໃຊ້ມັນແລ້ວ (%list) ຈະກັບໄປຫາພາບບັນທຶກທີ່ຖ່າຍໄວ້ກ່ອນການດຳເນີນການ, ທັງໝົດພ້ອມກັນ.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>ແມ່ນ, ຍ້ອນກັບການນຳສົ່ງນີ້ດຽວນີ້</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>ວາງແຜນໄວ້</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>ໂອນແລ້ວ</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>ນຳສົ່ງແລ້ວ</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>ລໍຖ້າຢູ່ດ່ານ</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>ເລືອກແລ້ວ</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>ກຽມພ້ອມແລ້ວ</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>ພ້ອມແລ້ວ</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>ລໍຖ້າໄລຍະຂອງມັນ</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>ສົ່ງໄຟລ໌ແລ້ວ</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>ຢືນຢັນແລ້ວ</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>ລົ້ມເຫຼວ, ກູ້ຄືນຕົວເອງແລ້ວ</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>ບໍ່ປ່ຽນແປງ</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>ຍັງບໍ່ໄດ້ນຳສົ່ງ</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>ເຂົ້າເຖິງບໍ່ໄດ້</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>ເຄື່ອງປາຍທາງຕອບກັບແລ້ວ.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>ບໍ່ສາມາດໃຊ້ເຄື່ອງປາຍທາງໄດ້ໃນຕອນນີ້.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done ສຳເລັດແລ້ວ, %pending ລໍຖ້າດຳເນີນການ, %failed ລົ້ມເຫຼວ</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>ການລັອກ</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>ມີການດຳເນີນການໜຶ່ງຖືການລັອກຢູ່ທີ່ນັ້ນ</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>ວ່າງ</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stage ຈາກ %stages</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>ເລືອກເຄື່ອງປາຍທາງທີ່ຈະທົດສອບ.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>ໝາຍ “ແມ່ນ, ລຶບເຄື່ອງປາຍທາງນີ້” ກ່ອນ.</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>ບໍ່ສາມາດລຶບເຄື່ອງປາຍທາງໄດ້: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>ບໍ່ສາມາດບັນທຶກເຄື່ອງປາຍທາງໄດ້: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>ບໍ່ສາມາດອ່ານໄຟລ໌ການຕັ້ງຄ່າໄດ້: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>ເລືອກເຄື່ອງປາຍທາງ ຫຼື ກຸ່ມຢ່າງໜ້ອຍໜຶ່ງ.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>ເຄື່ອງປາຍທາງທີ່ເລືອກໄວ້ເຄື່ອງໜຶ່ງບໍ່ມີຢູ່ໃນການຕັ້ງຄ່າອີກແລ້ວ. ກະລຸນາໂຫຼດໜ້ານີ້ຄືນໃໝ່.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>ໝາຍ “ແມ່ນ, ນຳສົ່ງດຽວນີ້” ກ່ອນ.</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>ເຄື່ອງປາຍທາງ FTP ບໍ່ສາມາດດຳເນີນການຍ້າຍຂໍ້ມູນໄດ້: ເລືອກ “ໂອນເທົ່ານັ້ນ” ຫຼື ບໍ່ຕ້ອງລວມມັນເຂົ້າ.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>ການຍ້າຍຂໍ້ມູນທີ່ຈະນຳສົ່ງແມ່ນ ID ຂອງການຍ້າຍຂໍ້ມູນ, ຂັ້ນດ້ວຍເຄື່ອງໝາຍຈຸດ.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>ການນຳສົ່ງຍັງດຳເນີນຢູ່. ລໍຖ້າໃຫ້ມັນສິ້ນສຸດ.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>ການນຳສົ່ງນີ້ບໍ່ໄດ້ລໍຖ້າຢູ່ດ່ານ.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>ບໍ່ມີເຄື່ອງປາຍທາງໃດນຳໃຊ້ການນຳສົ່ງນີ້: ບໍ່ມີຫຍັງໃຫ້ຍ້ອນກັບ.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>ໝາຍ “ແມ່ນ, ນຳສົ່ງໄລຍະຖັດໄປດຽວນີ້” ກ່ອນ.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>ໝາຍ “ແມ່ນ, ຍ້ອນກັບການນຳສົ່ງນີ້ດຽວນີ້” ກ່ອນ.</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>ມີເຄື່ອງປາຍທາງທີ່ມີ ID %id ຢູ່ແລ້ວ.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>ພອດແມ່ນຕົວເລກຈາກ 1 ຫາ 65535.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>ສະພາບແວດລ້ອມແມ່ນຄຳທີ່ປະກອບດ້ວຍຕົວອັກສອນ, ຕົວເລກ, - ແລະ _ (alpha, dev, stage, beta, production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>ກຸ່ມແມ່ນຄຳທີ່ປະກອບດ້ວຍຕົວອັກສອນ, ຕົວເລກ, - ແລະ _ (ບໍ່ແມ່ນ all): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>ບໍ່ສາມາດອ່ານຂໍ້ມູນເຂົ້າສູ່ລະບົບໄດ້ໃນຕອນນີ້: %problem. ບັນທຶກມັນໄວ້ໃນ ຕັ້ງຄ່າລະບົບ &gt; ຂໍ້ມູນລັບ (ຫຼື ຕັ້ງຕົວແປ) ກ່ອນການນຳສົ່ງຄັ້ງທຳອິດ.</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>ເຄື່ອງປາຍທາງ FTP ຮັບໄດ້ແຕ່ໄຟລ໌: ການນຳສົ່ງໄປຫາມັນແມ່ນ “ໂອນເທົ່ານັ້ນ”, ແລະ ການຍ້າຍຂໍ້ມູນຂອງມັນຕ້ອງດຳເນີນການດ້ວຍມືຢູ່ທີ່ນັ້ນ.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>ເຄື່ອງປາຍທາງ %id ບໍ່ຢູ່ໃນ settings/override/migration.ini.append.php; ລຶບມັນອອກຢູ່ບ່ອນທີ່ມັນຖືກຕັ້ງໄວ້.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>ເຂົ້າສູ່ລະບົບຜ່ານ FTP ແລະ ອ່ານ index.php ແລ້ວ. ບໍ່ສາມາດອ່ານສະຖານະການຍ້າຍຂໍ້ມູນຂອງເຄື່ອງປາຍທາງ FTP ໄດ້.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>ແກ້ໄຂເມື່ອ</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>ສ້າງເມື່ອ</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>ຊື່</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>ຄລາສ</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>ພາກສ່ວນ</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>ຜູ້ສ້າງ</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>ເນື້ອຫາລ່າສຸດ</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>ເນື້ອຫາທີ່ສ້າງ ແລະ ແກ້ໄຂລ່າສຸດຂອງທັງໄຊ, ໃໝ່ສຸດກ່ອນ: ສິ່ງທີ່ຜູ້ເຂົ້າຊົມສົ່ງມາ, ສິ່ງທີ່ຖືກກັກໄວ້ເພື່ອກວດສອບ, ສະບັບຮ່າງທີ່ລໍຖ້າການເຜີຍແຜ່. ເລືອກລາຍການເພື່ອປົດການກັກ, ກັກໄວ້, ເຊື່ອງ, ສະແດງ, ເອົາອອກ ຫຼື ຍ້າຍໄປພາກສ່ວນ ຫຼື ສະພາບອື່ນ.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>ບໍ່ສາມາດອ່ານລາຍການໄດ້: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>ການກັກໄວ້ເພື່ອກວດສອບຍັງບໍ່ໄດ້ຕັ້ງຄ່າ, ສະນັ້ນບໍ່ມີຫຍັງຖືກກັກໄວ້ ແລະ ບໍ່ມີການກະທຳກັກໃຫ້ໃຊ້. ຂັ້ນຕອນການອັບເກຣດ 6.0.15-review-hold ຈະຕັ້ງຄ່າໃຫ້: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>ກັ່ນຕອງລາຍການ</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>ຈາກ</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>ເຖິງ</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>ວັນທີ</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>ສ້າງເມື່ອ (ເຜີຍແຜ່ຄັ້ງທຳອິດ)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>ທັງໝົດ</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>ສະຖານະ</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>ເຜີຍແຜ່ແລ້ວ</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>ສະບັບຮ່າງ, ບໍ່ເຄີຍເຜີຍແຜ່</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>ລໍຖ້າດຳເນີນການ (ລໍຖ້າການອະນຸມັດ ຫຼື ວັນທີ)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>ຢູ່ໃນຖັງຂີ້ເຫຍື້ອ</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>ຖືກກັກໄວ້ເພື່ອກວດສອບ</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>ຖືກກັກໄວ້</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>ບໍ່ຖືກກັກໄວ້</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>ຖືກເຊື່ອງ</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>ເບິ່ງເຫັນໄດ້</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>ສົ່ງເມື່ອ</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>ການເຂົ້າເຖິງໄຊໃດກໍໄດ້</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>ສະເພາະສິ່ງທີ່ການກວດສອບບັນທຶກໄວ້.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>ດຽວນີ້: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>ຊື່ເຂົ້າລະບົບ ຫຼື ID ຜູ້ໃຊ້.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>ກັ່ນຕອງ</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>ລ້າງຕົວກັ່ນຕອງ</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>ລາຍການ</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from ຫາ %to ຈາກ %count</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>ບໍ່ມີລາຍການ</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(ອ່ານໃນ %ms ມິລລິວິນາທີ)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>ການກະທຳກັບລາຍການທີ່ເລືອກ</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>ເລືອກທັງໝົດໃນໜ້ານີ້</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>ເລືອກແລ້ວ %count</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>ການກະທຳ</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>ເລືອກການກະທຳ</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>ປົດການກັກ</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>ກັກໄວ້ເພື່ອກວດສອບ</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>ເຊື່ອງ</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>ສະແດງ</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>ຍ້າຍໄປຖັງຂີ້ເຫຍື້ອ</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>ລຶບ</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>ກຳນົດພາກສ່ວນ</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>ກຳນົດສະພາບ</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>ເຫດຜົນ</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>ຈຳເປັນສຳລັບການກັກ; ເກັບໄວ້ກັບການກັກ ແລະ ໃນບັນທຶກການກວດສອບ.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>ເລືອກພາກສ່ວນ</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>ສະພາບ</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>ເລືອກສະພາບ</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>ນຳໃຊ້ກັບລາຍການທີ່ເລືອກ</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>ແຕ່ລະລາຍການຖືກກວດສອບຕາມສິດຂອງທ່ານເອງ. ການຍ້າຍໄປຖັງຂີ້ເຫຍື້ອ ແລະ ການລຶບຈະຂໍໃຫ້ທ່ານຢືນຢັນ. ຫຼາຍກວ່າ %count ລາຍການຈະເຮັດວຽກຢູ່ເບື້ອງຫຼັງ.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>ເລືອກ</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>ການເຜີຍແຜ່</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>ສົ່ງຈາກ</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>ເລືອກ %name</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>ຍັງບໍ່ມີ</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(ບໍ່ມີຊື່)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>ສະບັບຮ່າງ</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>ລໍຖ້າດຳເນີນການ</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>ຖືກເຊື່ອງໂດຍລາຍການແມ່</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>ຖືກກັກໄວ້: ການສົ່ງໃໝ່</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>ເວີຊັນ %version ລໍຖ້າດຳເນີນການ</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>ເວີຊັນ %version ກຳລັງແກ້ໄຂ</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>ສະບັບຮ່າງ, ເວີຊັນ %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>ເວີຊັນ %version ເຜີຍແຜ່ແລ້ວ</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>ກຳນົດໄວ້ສຳລັບ %date</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>ບໍ່ມີທີ່ຢູ່</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>ບໍ່ໄດ້ບັນທຶກ</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>ບໍ່ມີຫຍັງກົງກັບຕົວກັ່ນຕອງເຫຼົ່ານີ້.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>ສະແດງທັງໝົດ</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>ຍັງບໍ່ມີເນື້ອຫາ.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>ຕໍ່ໜ້າ</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>ສະແດງ %count ລາຍການຕໍ່ໜ້າ.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says "not recorded".</source>
+        <translation>ທີ່ຢູ່ ແລະ ບຣາວເຊີຂອງການສົ່ງມາຈາກດັດຊະນີການກວດສອບ, ເຊິ່ງບໍ່ມີຢູ່ທີ່ນີ້: ຖັນຈະສະແດງວ່າ "ບໍ່ໄດ້ບັນທຶກ".</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>ທີ່ຢູ່ ແລະ ບຣາວເຊີແມ່ນສິ່ງທີ່ການກວດສອບບັນທຶກໄວ້ສຳລັບລາຍການນັ້ນ (ການກັກອັດຕະໂນມັດບັນທຶກສະເໝີ; ການເຜີຍແຜ່ ແລະ ການສ້າງສະເພາະເມື່ອເປີດໃຊ້), ຕາມທີ່ການຕັ້ງຄ່າຄວາມເປັນສ່ວນຕົວຂອງມັນເກັບຮັກສາໄວ້.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: %count ລາຍການ</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>ການລຶບຈະເອົາລາຍການອອກຢ່າງຖາວອນ, ພ້ອມທຸກເວີຊັນ ແລະ ຄຳແປຂອງມັນ. ບໍ່ສາມາດຍົກເລີກໄດ້.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>ລາຍການຈະຖືກຍ້າຍໄປຖັງຂີ້ເຫຍື້ອ, ເຊິ່ງສາມາດກູ້ຄືນໄດ້ຈາກບ່ອນນັ້ນ.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>ແຕ່ລະລາຍການຖືກກວດສອບຕາມສິດຂອງທ່ານເອງ; ລາຍການທີ່ມີລາຍການຍ່ອຍຈະຖືກປະໄວ້ຕາມເດີມ (ເອົາອອກໃນໂຄງສ້າງເນື້ອຫາ). ທ່ານຈະຖືກຂໍໃຫ້ຢືນຢັນວ່າແມ່ນທ່ານເອງ.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>ການກະທຳນີ້ເຮັດວຽກຢູ່ເບື້ອງຫຼັງ: ໜ້າຄວາມຄືບໜ້າຂອງມັນຈະເປີດຂຶ້ນ, ແລະ ຜົນລັບຂອງແຕ່ລະລາຍການຈະສະແດງເມື່ອສຳເລັດ.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>ລາຍການທີ່ເລືອກ</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>ແລະ ອີກ %count</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>ຍົກເລີກ</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>ບໍ່ມີຫຍັງຖືກດຳເນີນການ</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>ເຫດຜົນ: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>ການກະທຳຍັງເຮັດວຽກຢູ່ເບື້ອງຫຼັງ.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>ຄວາມຄືບໜ້າ</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>ການກະທຳເບື້ອງຫຼັງລົ້ມເຫຼວ: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>ສຳເລັດ</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>ຖືກປະຕິເສດ</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>ລົ້ມເຫຼວ</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>ແຍກຕາມລາຍການ</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>ລາຍການ</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>ຜົນລັບ</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>ສາເຫດ</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>ກັບໄປທີ່ລາຍການ</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>ຕັ້ງຄ່າລະບົບ</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>ບໍ່ໄດ້ເຮັດຫຍັງ</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>ຢືນຢັນ</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>ເລືອກການກະທຳ.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>ເລືອກຢ່າງໜ້ອຍໜຶ່ງລາຍການ.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>ເລືອກໄດ້ບໍ່ເກີນ 1000 ລາຍການຕໍ່ຄັ້ງ.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>ບອກເຫດຜົນທີ່ລາຍການຖືກກັກໄວ້.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>ເລືອກພາກສ່ວນ.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>ເລືອກສະພາບ.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>ບໍ່ສາມາດອ່ານແບບຟອມໄດ້.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>ແດຊບອດ</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>ເນື້ອຫາລ່າສຸດ</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>ບໍ່ສາມາດອ່ານຈຳນວນໄດ້: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>ຖືກກັກໄວ້ເພື່ອກວດສອບ</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>ໃໝ່ມື້ນີ້</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>ການກັກໄວ້ເພື່ອກວດສອບຍັງບໍ່ໄດ້ຕັ້ງຄ່າ (ຂັ້ນຕອນການອັບເກຣດ 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>ເນື້ອຫາລ່າສຸດທັງໝົດ</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>ທ່ານບໍ່ໄດ້ຮັບອະນຸຍາດໃຫ້ດຳເນີນການກວດກາເນື້ອຫາ (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>ການກວດກາເນື້ອຫາບໍ່ສົມບູນ: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>ການກວດກາເນື້ອຫາ: %action ກັບ %count ອອບເຈັກ</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%done ຈາກ %total ອອບເຈັກ: ສຳເລັດ %ok, ຖືກປະຕິເສດ %refused, ລົ້ມເຫຼວ %failed</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>ສຳເລັດ %ok, ຖືກປະຕິເສດ %refused, ລົ້ມເຫຼວ %failed</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>ມັນບໍ່ມີຢູ່ແລ້ວ.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>ມັນບໍ່ມີຕຳແໜ່ງ (ບໍ່ໄດ້ເຜີຍແຜ່).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>ທ່ານບໍ່ໄດ້ຮັບອະນຸຍາດໃຫ້ເຊື່ອງມັນ (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>ທ່ານບໍ່ໄດ້ຮັບອະນຸຍາດໃຫ້ສະແດງມັນ (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>ມັນຖືກເຊື່ອງຢູ່ແລ້ວ.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>ມັນບໍ່ໄດ້ຖືກເຊື່ອງ.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>ເຊື່ອງແລ້ວ.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>ສະແດງແລ້ວ.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>ມັນຢູ່ໃນຖັງຂີ້ເຫຍື້ອ: ລ້າງ ຫຼື ກູ້ຄືນມັນຢູ່ບ່ອນນັ້ນ.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>ສະບັບຮ່າງທີ່ບໍ່ເຄີຍເຜີຍແຜ່ບໍ່ສາມາດໄປຖັງຂີ້ເຫຍື້ອໄດ້: ໃຫ້ລຶບມັນ.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>ທ່ານບໍ່ໄດ້ຮັບອະນຸຍາດໃຫ້ລຶບມັນ (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>ລຶບແລ້ວ.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>ທ່ານບໍ່ໄດ້ຮັບອະນຸຍາດໃຫ້ເອົາມັນອອກ (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>ມັນມີລາຍການຍ່ອຍ: ເອົາມັນອອກໃນໂຄງສ້າງເນື້ອຫາ, ບ່ອນທີ່ລາຍການຍ່ອຍຖືກສະແດງ.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>ມັນບໍ່ໄດ້ຖືກເອົາອອກ (ຂັ້ນຕອນການເຮັດວຽກອາດກັກການເອົາອອກໄວ້).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>ຍ້າຍໄປຖັງຂີ້ເຫຍື້ອແລ້ວ.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>ບໍ່ມີພາກສ່ວນນີ້.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>ມັນຢູ່ໃນພາກສ່ວນນີ້ແລ້ວ.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>ທ່ານບໍ່ໄດ້ຮັບອະນຸຍາດໃຫ້ກຳນົດພາກສ່ວນນີ້ (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>ບໍ່ໄດ້ກຳນົດພາກສ່ວນ.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>ກຳນົດພາກສ່ວນແລ້ວ.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>ບໍ່ມີສະພາບນີ້.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>ມັນຢູ່ໃນສະພາບນີ້ແລ້ວ.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>ທ່ານບໍ່ໄດ້ຮັບອະນຸຍາດໃຫ້ກຳນົດສະພາບນີ້ (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>ບໍ່ໄດ້ກຳນົດສະພາບ (ຂັ້ນຕອນການເຮັດວຽກອາດກັກການປ່ຽນແປງໄວ້).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>ກຳນົດສະພາບແລ້ວ.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>ບໍ່ມີການກະທຳດັ່ງກ່າວ.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>ການກັກໄວ້ເພື່ອກວດສອບບໍ່ໄດ້ຕັ້ງຄ່າ (ຂັ້ນຕອນການອັບເກຣດ 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>ບອກເຫດຜົນທີ່ມັນຖືກກັກໄວ້.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>ມັນຖືກກັກໄວ້ແລ້ວ.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>ທ່ານບໍ່ໄດ້ຮັບອະນຸຍາດໃຫ້ກັກມັນໄວ້ (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>ບໍ່ໄດ້ວາງການກັກ (ຂັ້ນຕອນການເຮັດວຽກອາດກັກການປ່ຽນແປງໄວ້).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>ກັກໄວ້ແລ້ວ.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>ມັນບໍ່ໄດ້ຖືກກັກໄວ້.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>ທ່ານບໍ່ໄດ້ຮັບອະນຸຍາດໃຫ້ປົດມັນ (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>ບໍ່ໄດ້ປົດການກັກ (ຂັ້ນຕອນການເຮັດວຽກອາດກັກການປ່ຽນແປງໄວ້).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>ປົດແລ້ວ; ຍັງຖືກເຊື່ອງ: ທ່ານບໍ່ໄດ້ຮັບອະນຸຍາດໃຫ້ສະແດງມັນ (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>ປົດແລ້ວ.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>ເປົ້າໝາຍທັງໝົດ</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>ການເຜີຍແຜ່ລ່າສຸດ</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>ເຜີຍແຜ່ສຳເນົາແບບສະຖິດຂອງເວັບໄຊທ່ານໄດ້ຟຣີໃນ GitHub Pages:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>ໜ້າທີ່ລ້າສະໄໝ</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>ການເຜີຍແຜ່ແບບສະຖິດ</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>ການເຜີຍແຜ່ແບບສະຖິດຖືກປິດຢູ່.</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>ເປົ້າໝາຍ</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>ບໍ່ສາມາດອ່ານເປົ້າໝາຍໄດ້: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>ມີວຽກກຳລັງດຳເນີນຢູ່</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>ການສ້າງທີ່ລໍຖ້າກວດ</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>ເຊື່ອງອັນນີ້</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>ສ້າງເປົ້າໝາຍ</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>ບໍ່ເຄີຍ</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>ອ່ານບົດແນະນຳ</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>ເພີ່ມ %added, ປ່ຽນ %changed, ລຶບ %removed</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%bytes ຈາກ %limit (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>ອີກ %count ລາຍການບໍ່ໄດ້ສະແດງ.</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>ຂຽນແລ້ວ %pages ໜ້າ</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path ມີຂະໜາດ %size, ເກີນກວ່າທີ່ໂຮສອະນຸຍາດຕໍ່ໄຟລ໌.</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>%percent % ຂອງຂີດຈຳກັດ</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds ວິ</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag ແມ່ນການເຜີຍແຜ່ທີ່ເວັບໄຊມີໃນຕອນນີ້.</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: ວຽກ %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>/ຄັງເກັບ/ ສຳລັບເວັບໄຊໂປຣເຈັກ GitHub; ປ່ອຍຫວ່າງສຳລັບໂດເມນຂອງທ່ານເອງ ຫຼື ເວັບໄຊຜູ້ໃຊ້.</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. ເວັບໄຊ</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. ໂຮສ</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. ການເຂົ້າສູ່ຄັງເກັບ</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. ຄັງເກັບ</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. ລິງ ແລະ ເສັ້ນທາງພື້ນຖານ</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. ໂດເມນຂອງທ່ານເອງ</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. ສິ່ງທີ່ການສ້າງບັນຈຸ</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. ເມື່ອໃດຈະເຜີຍແຜ່</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. ກວດທານ ແລະ ບັນທຶກ</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>ເວັບໄຊໂປຣເຈັກ GitHub ຢູ່ພາຍໃຕ້ /&lt;repository&gt;/; ລິງແບບສຳພັດໃຊ້ໄດ້ຢູ່ທີ່ນັ້ນ ແລະ ບ່ອນອື່ນໆ.</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>ການສ້າງຈະດຶງທຸກໜ້າຂອງ %site ຕາມທີ່ຜູ້ເຂົ້າຊົມທີ່ບໍ່ໄດ້ເຂົ້າສູ່ລະບົບເຫັນ, ຂຽນລິງໃໝ່, ສຳເນົາໄຟລ໌ ແລະ ຂຽນຜົນລັບໄປທີ່ໂຟນເດີຂອງເປົ້າໝາຍ. ບໍ່ມີຫຍັງຖືກເຜີຍແຜ່ຈົນກວ່າທ່ານຈະກວດການສ້າງ ແລະ ກົດ &quot;ເຜີຍແຜ່&quot;.</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>ສຳນວນ cron, ຕົວຢ່າງ 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>ກະແຈນຳໃຊ້ຖືກເກັບໄວ້ເປັນຂໍ້ມູນລັບ %secret.</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>ກະແຈນຳໃຊ້ອະນຸຍາດໃຫ້ການຕິດຕັ້ງນີ້ພຸຊໄປຍັງຄັງເກັບດຽວຜ່ານ SSH ແລະ ບໍ່ມີບ່ອນອື່ນ. ສ່ວນສ່ວນຕົວຂອງມັນຢູ່ໃນ ຕັ້ງຄ່າລະບົບ &gt; ຂໍ້ມູນລັບ; ສະແດງພຽງແຕ່ສ່ວນສາທາລະນະ.</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>ກະແຈນຳໃຊ້ທີ່ສ້າງສຳລັບເປົ້າໝາຍນີ້</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>ກະແຈນຳໃຊ້ເຂົ້າສູ່ລະບົບຜ່ານ SSH: ປ່ຽນທີ່ຢູ່ git ເປັນທີ່ຢູ່ SSH (git@github.com:owner/repo.git).</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>ມີວຽກກຳລັງດຳເນີນຢູ່, ເລີ່ມໂດຍ %user</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>ວຽກຂອງເປົ້າໝາຍນີ້ຍັງດຳເນີນຢູ່ (%detail). ລໍຖ້າໃຫ້ມັນສິ້ນສຸດ.</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>ວຽກຂອງເປົ້າໝາຍນີ້ຍັງດຳເນີນຢູ່. ລໍຖ້າໃຫ້ມັນສິ້ນສຸດ.</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>ລິງຈາກໜ້າ /news/ ໄປຫາໜ້າ /about-us/team ຈະຖືກຂຽນເປັນ</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>ສ້າງກະແຈນຳໃຊ້ໃໝ່ແລ້ວ. ເພີ່ມສ່ວນສາທາລະນະຂອງມັນໃສ່ຄັງເກັບດຽວນີ້.</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>ໜ້າທີ່ຍັງມີຂໍ້ມູນດີບັກ, ໂທເຄັນຟອມ ຫຼື ID ເຊສຊັນຫຼັງຈາກການລອກອອກ ຈະບໍ່ຖືກເຜີຍແຜ່ເລີຍ.</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>ການຍ້ອນກັບແມ່ນສຳລັບຜູ້ຊ່ຽວຊານ: ໝາຍ &quot;ຂ້ອຍຮູ້ວ່າສິ່ງນີ້ປ່ຽນຫຍັງ&quot; ແລະ ພິມຊື່ແທັກອີກຄັ້ງ.</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>ເວັບໄຊສາມາດມີຂະໜາດເຖິງ %site, ໄຟລ໌ໜຶ່ງເຖິງ %file, ພ້ອມປະລິມານການໃຊ້ງານປະມານ 100 GB ຕໍ່ເດືອນ. ໃນແຜນຟຣີ ຄັງເກັບຕ້ອງເປັນສາທາລະນະ. GitHub Pages ບໍ່ໄດ້ມີໄວ້ສຳລັບຮ້ານຄ້າ ຫຼື ທຸລະກຳການຄ້າອື່ນໆ.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>ເປົ້າໝາຍແມ່ນເວັບໄຊໜຶ່ງທີ່ເຜີຍແຜ່ໄປຍັງຄັງເກັບ git ໜຶ່ງ. ບໍ່ມີຫຍັງຖືກສ້າງ ຫຼື ເຜີຍແຜ່ຢູ່ນີ້: &quot;ບັນທຶກ&quot; ຂຽນການຕັ້ງຄ່າໄປທີ່ settings/override/staticcache.ini.append.php.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>ເປົ້າໝາຍແມ່ນເວັບໄຊໜຶ່ງທີ່ເຜີຍແຜ່ໄປຍັງບ່ອນໜຶ່ງ, ຕົວຢ່າງເວັບໄຊສາທາລະນະຂອງທ່ານໃນ GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>ໂທເຄັນຈາກ ຕັ້ງຄ່າລະບົບ &gt; ຂໍ້ມູນລັບ</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>Workflow ຂອງຄັງເກັບເປັນຜູ້ເຜີຍແຜ່ມັນ.</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>ເພີ່ມກະແຈສາທາລະນະນີ້ໃສ່ຄັງເກັບພ້ອມສິດຂຽນ. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, ໝາຍ Allow write access.</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>ເພີ່ມແລ້ວ</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>ໂຮສ git ອື່ນ</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>ມີໂປຣເຊສອື່ນກຳລັງເຮັດວຽກກັບເປົ້າໝາຍນີ້: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>ກັບຄືນ</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>ເສັ້ນທາງພື້ນຖານ</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>ກ່ອນ</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>ພາຍໃຕ້ເສັ້ນທາງພື້ນຖານ</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>ສາຂາ</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>ລິງທີ່ເສຍ</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>ລິງທີ່ເສຍໃນການສ້າງ</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>ການສ້າງ</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>ການສ້າງ %id ໂດຍ %user</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>ສ້າງ %name</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>ສ້າງດຽວນີ້</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>ການສ້າງທີ່ລໍຖ້າກວດ</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>ໂດຍ</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>ດ້ວຍມື, ຢູ່ນີ້</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>ຍົກເລີກ</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>ປ່ຽນ</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>ປ່ຽນແລ້ວ</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>ການປ່ຽນແປງ</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>ກວດກ່ອນ</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>ກວດການຕັ້ງຄ່າເຫຼົ່ານີ້</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>ກວດເບິ່ງວ່າການສ້າງປ່ຽນຫຍັງ, ເບິ່ງມັນ, ແລ້ວເຜີຍແຜ່ ຫຼື ຖິ້ມມັນ.</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>ເລືອກການເຜີຍແຜ່ທີ່ຈະກັບໄປຫາ.</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>ຈະມາພ້ອມລຸ້ນຕໍ່ໄປ.</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>ຄອມມິດ</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>ຄອມມິດ</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>ຄອມມິດການສ້າງ, ຕິດແທັກ ແລະ ພຸຊໄປຍັງ %remote. ການພຸຊບໍ່ເຄີຍຖືກບັງຄັບ; ທ່ານສາມາດກັບໄປຫາການເຜີຍແຜ່ໃດກໍໄດ້ພາຍຫຼັງ.</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>ທຽບກັບໂຟນເດີກ່ອນໜ້າ: ເພີ່ມ %added, ປ່ຽນ %changed, ລຶບ %removed, ບໍ່ປ່ຽນ %unchanged.</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>ທຽບກັບການເຜີຍແຜ່ລ່າສຸດ.</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>ຂໍ້ມູນເຂົ້າສູ່ລະບົບ</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>ໂດເມນຂອງທ່ານເອງ</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>ຂໍ້ມູນດີບັກ, ໂທເຄັນຟອມ, ID ເຊສຊັນ ແລະ nonce ຈະຖືກລອກອອກສະເໝີ.</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>ກະແຈນຳໃຊ້</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>ກະແຈນຳໃຊ້ຂອງ %name</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>ຖິ້ມ</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>ຖິ້ມການສ້າງ</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>ໂດເມນ</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>ຫວ່າງ: ທີ່ຢູ່ຂອງເວັບໄຊ. ຖ້າບໍ່ດັ່ງນັ້ນແມ່ນທີ່ຢູ່ພາຍໃນຂອງເວັບໄຊດຽວກັນ.</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>ສິ້ນສຸດ</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>ທຸກລິງເລີ່ມຕົ້ນດ້ວຍເສັ້ນທາງພື້ນຖານ.</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>ທຸກການເຜີຍແຜ່ແມ່ນຄອມມິດທີ່ມີແທັກ static/%id/&lt;n&gt;. ການກັບຄືນຈະສ້າງຄອມມິດໃໝ່ດ້ວຍໄຟລ໌ຂອງການເຜີຍແຜ່ກ່ອນໜ້າ: ປະຫວັດຍັງຄົງຢູ່, ບໍ່ມີແທັກໃດຖືກຍ້າຍ ແລະ ບໍ່ມີຫຍັງຖືກບັງຄັບ.</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>ໄຟລ໌ເພີ່ມເຕີມ</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>ດຶງໜ້າຈາກ</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>ໄຟລ໌</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>ໄຟລ໌</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>ໄຟລ໌ທີ່ຂາດ</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>ໄຟລ໌ຂອງ</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>ໄຟລ໌ທີ່ບໍ່ສາມາດລວບລວມໄດ້</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>ລາຍນິ້ວມື</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>ໂຟນເດີ</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>ສຳລັບທີ່ຢູ່ SSH. ກະແຈຈະຖືກສ້າງຫຼັງບັນທຶກ; ທ່ານເພີ່ມສ່ວນສາທາລະນະຂອງມັນໃສ່ຄັງເກັບ.</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>ສຳລັບທີ່ຢູ່ https://. GitHub: ໂທເຄັນແບບລະອຽດ (fine-grained) ທີ່ມີສິດ Contents ອ່ານ ແລະ ຂຽນໃນຄັງເກັບ.</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>ສຳລັບຜູ້ຊ່ຽວຊານ. ເວັບໄຊສາທາລະນະຈະປ່ຽນທັນທີທີ່ການພຸຊສຳເລັດ.</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>ຟອມ</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>ໂຮສຕິ້ງຟຣີຈາກຄັງເກັບ GitHub.</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>ຈາກສາຂາ</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>ທີ່ຢູ່ git</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages ອະນຸຍາດເວັບໄຊ %site ແລະ ໄຟລ໌ %file.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>ຂີດຈຳກັດຂອງ GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages ເຜີຍແຜ່ໄຟລ໌ຕາມທີ່ມັນເປັນ (ຈຳເປັນສຳລັບໄຟລ໌ທີ່ຂຶ້ນຕົ້ນດ້ວຍ _).</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub ໃຫ້ບໍລິການສາຂາຕາມທີ່ຖືກພຸຊ. ຄ່າເລີ່ມຕົ້ນ.</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, ເຊີບເວີຂອງທ່ານເອງ: ຄັງເກັບ git ໃດກໍໄດ້.</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>ກັບໄປຫາການເຜີຍແຜ່ກ່ອນໜ້າ</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>ຊ່ວຍເຫຼືອ</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>ຊ່ວຍເຫຼືອກ່ຽວກັບຕົວຊ່ວຍ</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>ເຊື່ອງພວກມັນ</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>ປະຫວັດ</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>ປະຫວັດຂອງ %name</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>ໂຮສ</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>GitHub Pages ຮັບການສ້າງແນວໃດ</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>ຂ້ອຍໄດ້ກວດການປ່ຽນແປງແລ້ວ</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>ຂ້ອຍຮູ້ວ່າສິ່ງນີ້ປ່ຽນຫຍັງ</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>ມັນຖືກປິດຢູ່: ບໍ່ສາມາດສ້າງຫຍັງໄດ້ຈົນກວ່າຈະເປີດ.</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>ມັນເຮັດວຽກໃນພື້ນຫຼັງເປັນ %user; ທ່ານສາມາດປິດໜ້ານີ້ໄດ້.</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>ວຽກ %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>ເກັບໄວ້ເປັນຂໍ້ມູນລັບ %secret.</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>ປະເພດ</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>ການເຜີຍແຜ່ລ່າສຸດ</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>ຍົກເວັ້ນໜ້າເຫຼົ່ານີ້</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>ຍົກເວັ້ນພາກສ່ວນເຫຼົ່ານີ້</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>ລິງ</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>ລິງທີ່ຂຽນໃໝ່</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>ເວັບໄຊຈິງ</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>ເບິ່ງການສ້າງ</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>ຕົວພິມນ້ອຍ, ຕົວເລກ, _ ແລະ -, ຕົວຢ່າງ github-public. ມັນເປັນຊື່ຂອງໂຟນເດີ ແລະ ແທັກ (static/&lt;id&gt;/&lt;n&gt;) ແລະ ບໍ່ສາມາດປ່ຽນພາຍຫຼັງໄດ້.</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>ສ້າງກະແຈໃໝ່</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>ສ້າງເປົ້າໝາຍ</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>ສ້າງກະແຈ</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>ສ້າງຄັງເກັບໃນໂຮສກ່ອນ; ຄັງຫວ່າງກໍໄດ້.</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>ລາຍການໄຟລ໌</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>ຂໍ້ຄວາມ</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>ໜ້າສ່ວນໃຫຍ່</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>ຊື່</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>ຊື່ຂອງໂທເຄັນໃນ ຕັ້ງຄ່າລະບົບ &gt; ຂໍ້ມູນລັບ</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>ເປົ້າໝາຍໃໝ່</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>ຖັດໄປ</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>ບໍ່</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>ຍັງບໍ່ມີຄອມມິດ.</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>ບໍ່ໄດ້ສ້າງກະແຈ: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>ບໍ່ພົບໂປຣແກຣມແຖວຄຳສັ່ງ php. ຕັ້ງ migration.ini [AdminSettings] PhpCliPath ເປັນເສັ້ນທາງເຕັມຂອງມັນ.</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>ຍັງບໍ່ມີແທັກ.</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>ຍັງບໍ່ມີເປົ້າໝາຍ.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>ບໍ່ມີ</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>ບໍ່ຢູ່ໃນການສ້າງ.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>ຍັງບໍ່ມີຫຍັງຖືກເຜີຍແຜ່.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>ຍັງບໍ່ມີຫຍັງຖືກເຜີຍແຜ່: ທຸກໄຟລ໌ແມ່ນໃໝ່.</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>ແຈ້ງເຕືອນ</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>ຕາມກຳນົດເວລາ</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>ໃນຄອນໂຊນ</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>ໃນເຊີບເວີ: ./console exp:static:serve %id ໃຫ້ບໍລິການມັນແບບດຽວກັນ.</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>ໜຶ່ງເສັ້ນທາງຕໍ່ແຖວ, * ກົງກັບສ່ວນໃດກໍໄດ້: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>ມີພຽງຊື່ທີ່ເກັບໄວ້ກັບເປົ້າໝາຍ; ໂທເຄັນ ຫຼື ກະແຈເອງຍັງຢູ່ໃນ ຕັ້ງຄ່າລະບົບ &gt; ຂໍ້ມູນລັບ ແລະ ບໍ່ເຄີຍປາກົດໃນບັນທຶກ.</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>ສະເພາະສິ່ງທີ່ໜ້າອ້າງເຖິງ</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>ສະເພາະກັບໂທເຄັນ. env:NAME ຈະອ່ານຕົວແປສະພາບແວດລ້ອມຂອງເຊີບເວີແທນ.</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>ເປີດຕົວຢ່າງ</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>ເປີດການສ້າງຕາມທີ່ໂຮສຈະໃຫ້ບໍລິການ, ຈາກໂຟນເດີຂອງເປົ້າໝາຍ. ລິງໃຊ້ໄດ້ສຳລັບທ່ານໜຶ່ງຊົ່ວໂມງ.</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>ບໍ່ບັງຄັບ. ຫວ່າງ: ສິ່ງທີ່ຖືກເຜີຍແຜ່.</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>ບໍ່ບັງຄັບ. ເມື່ອມີໂດເມນ ເວັບໄຊຈະຖືກໃຫ້ບໍລິການທີ່ຮາກຂອງມັນ.</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>ຜົນອອກ</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>ໜ້າ</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>ໜ້າຂອງເປົ້າໝາຍ</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>ໜ້າທີ່ຖືກປະຕິເສດ</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>ການປະມວນຜົນຫຼັງ</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>ສະແດງຕົວຢ່າງ</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>ສະແດງຕົວຢ່າງ ແລະ ເຜີຍແຜ່</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>ສະແດງຕົວຢ່າງ ແລະ ເຜີຍແຜ່ %name</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>ສະແດງຕົວຢ່າງການສ້າງ</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>ຄວາມຄືບໜ້າ</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>ທີ່ຢູ່ສາທາລະນະ</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>ກະແຈສາທາລະນະ</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>ເຜີຍແຜ່</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>ເຜີຍແຜ່ສຳເນົາແບບສະຖິດຂອງເວັບໄຊໄປຍັງ GitHub Pages ຫຼື ໂຮສ git ໃດກໍໄດ້: ສ້າງມັນ, ກວດການປ່ຽນແປງ, ເຜີຍແຜ່, ແລະ ກັບໄປຫາການເຜີຍແຜ່ກ່ອນໜ້າເມື່ອຈຳເປັນ.</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>ການເຜີຍແຜ່ທີ່ຈະກັບໄປຫາ</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>ການເຜີຍແຜ່</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>ພຸຊ</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>ອ່ານບົດແນະນຳ</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>ບັນທຶກການເຮັດວຽກ</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>ຖືກປະຕິເສດ</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>ແບບສຳພັດ</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>ໂຫຼດໃໝ່</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>ລຶບແລ້ວ</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>ແທນທີ່ກະແຈ: ກະແຈເກົ່າຈະໃຊ້ບໍ່ໄດ້</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>ລາຍງານ</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>ລາຍງານຂອງການສ້າງ</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>ຄັງເກັບ</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>ກວດທານ</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>ການກວດທານຈະກວດທຸກການຕັ້ງຄ່າ ແລະ ສະແດງແຖວທີ່ຈະຖືກຂຽນ. ຍັງບໍ່ມີຫຍັງຖືກບັນທຶກ.</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>ຍ້ອນກັບ</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>ການຍ້ອນກັບ</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>ບັນທຶກ</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>ກຳນົດເວລາ</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>ໜ້າຄົ້ນຫາ</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>ID ຂອງພາກສ່ວນ, ແຍກດ້ວຍເຄື່ອງໝາຍຈຸດ.</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>ສົ່ງພວກມັນໄປເວັບໄຊຈິງ</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>ການຕັ້ງຄ່າ</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>ການຕັ້ງຄ່າ</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>ການຕັ້ງຄ່າຂອງ %name</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>ຕັ້ງຄ່າລະບົບ</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>ຕັ້ງຄ່າລະບົບ &gt; ຂໍ້ມູນລັບ</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>ສະແດງໃນລາຍການ, ຕົວຢ່າງ &quot;ເວັບໄຊສາທາລະນະໃນ GitHub Pages&quot;.</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>ການເຂົ້າສູ່ລະບົບດ້ວຍ GitHub App ຈະມາພ້ອມການເຊື່ອມຕໍ່ GitHub.</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>ເວັບໄຊ</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>ເວັບໄຊທີ່ຈະເຜີຍແຜ່</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>ຂະໜາດ</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>ຂະໜາດ ແລະ ຂີດຈຳກັດ</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>ຂະໜາດຂອງການສ້າງ</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>ໜ້າທີ່ລ້າສະໄໝ</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>ເລີ່ມ</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>ເລີ່ມໂດຍ %user ເວລາ %time.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>ສະຖານະ</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>ການເຜີຍແຜ່ແບບສະຖິດ</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>ການເຜີຍແຜ່ແບບສະຖິດຖືກປິດຢູ່</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>ການເຜີຍແຜ່ແບບສະຖິດຖືກປິດຢູ່.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>ການເຜີຍແຜ່ແບບສະຖິດຖືກປິດຢູ່. ເປີດມັນກ່ອນໃນ ຕັ້ງຄ່າລະບົບ &gt; ການເຜີຍແຜ່ແບບສະຖິດ.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>ການເຜີຍແຜ່ແບບສະຖິດຖືກເປີດຢູ່.</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>ຂັ້ນຕອນ %step ຈາກ %total</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>ຂັ້ນຕອນ</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>ລອກອອກ</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>ປິດ</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>ເປີດ</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>ເປີດການເຜີຍແຜ່ແບບສະຖິດ</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>ແທັກ</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>ແທັກ</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>ເປົ້າໝາຍ</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>ສາມາດສ້າງ ແລະ ປ່ຽນເປົ້າໝາຍໄດ້, ແຕ່ຈະບໍ່ມີຫຍັງຖືກສ້າງ ຫຼື ເຜີຍແຜ່ຈົນກວ່າຈະເປີດ.</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>ບອກເຄື່ອງມືຄົ້ນຫາວ່າຈະອ່ານຫຍັງ.</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>ບໍ່ສາມາດຖິ້ມການສ້າງໄດ້: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>ການສ້າງຄືກັນກັບການເຜີຍແຜ່ລ່າສຸດ: ບໍ່ມີຫຍັງໃຫ້ເຜີຍແຜ່.</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>ການສ້າງຖືກຖິ້ມແລ້ວ: ໂຟນເດີມີການເຜີຍແຜ່ລ່າສຸດອີກຄັ້ງ.</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>ຄ່າເລີ່ມຕົ້ນເໝາະກັບເວັບໄຊສ່ວນໃຫຍ່.</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>ໂຟນເດີມີການສ້າງທີ່ຍັງບໍ່ໄດ້ເຜີຍແຜ່; ການສ້າງໃໝ່ຈະແທນທີ່ມັນ.</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>ບໍ່ສາມາດຂຽນໂຟນເດີຂອງວຽກໄດ້: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>ບໍ່ສາມາດກະກຽມວຽກໄດ້: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>ບໍ່ສາມາດເລີ່ມວຽກໄດ້.</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>ວຽກສິ້ນສຸດແລ້ວ. ກຳລັງໂຫຼດລາຍງານຂອງມັນ.</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>ວຽກຕ້ອງການຜູ້ໃຊ້ທີ່ເຂົ້າສູ່ລະບົບແລ້ວ.</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>ວຽກໄດ້ເລີ່ມແລ້ວແຕ່ບໍ່ໄດ້ລາຍງານ ID ໂປຣເຊສຂອງມັນ. ກວດ %detail.</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>ກະແຈ</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>ໄຟລ໌ໃຫຍ່ທີ່ສຸດ: %path, %size.</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>ແຖວທີ່ຈະຖືກຂຽນ</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>ລາຍການໜ້າສຳລັບເຄື່ອງມືຄົ້ນຫາ; ຕ້ອງການທີ່ຢູ່ສາທາລະນະ.</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>ໜ້າຖືກດຶງຕາມທີ່ຜູ້ເຂົ້າຊົມທີ່ບໍ່ໄດ້ເຂົ້າສູ່ລະບົບເຫັນ. ການເຂົ້າເຖິງເວັບໄຊສຳລັບການບໍລິຫານ ແລະ ການແກ້ໄຂຈະບໍ່ຖືກສະເໜີເລີຍ.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>ບໍ່ສາມາດຕິດຕາມຄວາມຄືບໜ້າໄດ້. ໂຫຼດໜ້າໃໝ່ເພື່ອເບິ່ງວ່າວຽກເປັນແນວໃດ.</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>ສ່ວນສາທາລະນະຂອງກະແຈ:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>ຮາກຂອງສາຂາ</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>ບ່ອນເກັບຂໍ້ມູນລັບຍັງບໍ່ໄດ້ຕັ້ງຄ່າ (./console exp:upgrade --apply ຈະສ້າງຕາຕະລາງຂອງມັນ), ສະນັ້ນຈຶ່ງບໍ່ສາມາດເກັບກະແຈໄດ້.</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>ເຊີບເວີເຂົ້າສູ່ລະບົບເອງ (ດ້ວຍກະແຈ SSH ຂອງມັນ ຫຼື ຕົວຊ່ວຍຂໍ້ມູນເຂົ້າສູ່ລະບົບ), ຫຼື ຄັງເກັບຢູ່ໃນເຊີບເວີນີ້.</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>ບໍ່ສາມາດຂຽນການຕັ້ງຄ່າໄດ້: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>ການຕັ້ງຄ່າຖືກຕ້ອງ. ແຖວເຫຼົ່ານີ້ຈະຖືກຂຽນ:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>ບໍ່ສາມາດອ່ານໄຟລ໌ການຕັ້ງຄ່າໄດ້: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>ເວັບໄຊຈະກັບໄປຫາໄຟລ໌ຂອງການເຜີຍແຜ່ນັ້ນ; ການສ້າງທີ່ຍັງບໍ່ໄດ້ເຜີຍແຜ່ຕ້ອງຖືກເຜີຍແຜ່ ຫຼື ຖິ້ມກ່ອນ.</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>ໜ້າຂອງເວັບໄຊເອງສຳລັບທີ່ຢູ່ທີ່ບໍ່ມີ.</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>ບໍ່ສາມາດບັນທຶກເປົ້າໝາຍໄດ້: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>ເປົ້າໝາຍຍັງບໍ່ໄດ້ເຂົ້າສູ່ລະບົບດ້ວຍກະແຈນີ້: ເລືອກ &quot;ກະແຈນຳໃຊ້ທີ່ສ້າງສຳລັບເປົ້າໝາຍນີ້&quot; ໃນການຕັ້ງຄ່າຂອງມັນ.</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>ບໍ່ສາມາດອ່ານເປົ້າໝາຍໄດ້: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>ຍັງບໍ່ມີການສ້າງໃຫ້ກວດ.</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>ການຕິດຕັ້ງນີ້ບໍ່ມີການເຂົ້າເຖິງເວັບໄຊໜ້າບ້ານ. ການເຂົ້າເຖິງເວັບໄຊສຳລັບການບໍລິຫານ ແລະ ການແກ້ໄຂຈະບໍ່ຖືກເຜີຍແຜ່ເລີຍ.</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>ໜ້ານີ້ຕິດຕາມວຽກໃນຂະນະທີ່ມັນດຳເນີນ; ມັນຈະດຳເນີນຕໍ່ໃນພື້ນຫຼັງເມື່ອປິດໜ້າ.</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>ເປົ້າໝາຍນີ້ຍັງບໍ່ມີກະແຈນຳໃຊ້.</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>ເປົ້າໝາຍນີ້ຍັງບໍ່ໄດ້ຖືກສ້າງຢູ່ນີ້.</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>ເປົ້າໝາຍນີ້ມີແລ້ວ.</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>ຖິ້ມການສ້າງນີ້: ໂຟນເດີມີການເຜີຍແຜ່ລ່າສຸດອີກຄັ້ງ. ເວັບໄຊຈິງບໍ່ປ່ຽນ.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>ໝາຍ &quot;ຂ້ອຍໄດ້ກວດການປ່ຽນແປງແລ້ວ&quot; ກ່ອນ.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>ເວລາ</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>ຕົວກະຕຸ້ນ</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>ພິມຊື່ແທັກອີກຄັ້ງ</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>ບໍ່ປ່ຽນ</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>ເວັບຮຸກ</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>ຫຍັງ</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>ສິ່ງທີ່ປ່ຽນ</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>ແຕ່ລະໄຟລ໌ແມ່ນຫຍັງ; ຂຽນສະເໝີ.</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>ສິ່ງທີ່ວຽກໄດ້ເຮັດ ແລະ ບັນທຶກຂອງມັນ. ວຽກທີ່ເລີ່ມຢູ່ນີ້ຈະດຳເນີນຕໍ່ໃນພື້ນຫຼັງເມື່ອປິດໜ້ານີ້.</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>ສິ່ງທີ່ວຽກພິມອອກເປັນຂໍ້ຜິດພາດ</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>ສິ່ງທີ່ໜ້າອ້າງເຖິງ ແລະ ທຸກຮູບພາບຂອງເນື້ອຫາທີ່ເຜີຍແຜ່</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>ເມື່ອໃດ</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>ເມື່ອການເຜີຍແຜ່ລົ້ມເຫຼວ</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>ເມື່ອການເຜີຍແຜ່ສຳເລັດ</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>ເມື່ອເນື້ອຫາຖືກເຜີຍແຜ່</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>ລິງໄປຫາສິ່ງທີ່ສຳເນົາບໍ່ມີຈະໄປໃສ (ການຄົ້ນຫາ, ການເຂົ້າສູ່ລະບົບ).</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>ສຳເນົາແບບສະຖິດຖືກໃຫ້ບໍລິການຈາກໃສ.</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>ເວັບໄຊໃດຖືກເຜີຍແຜ່ ແລະ ເປົ້າໝາຍມີຊື່ວ່າຫຍັງ.</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>ໃຊ້ໄດ້ພາຍໃຕ້ເສັ້ນທາງໃດກໍໄດ້. ຄ່າເລີ່ມຕົ້ນ.</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>ຂຽນທຸກຄັ້ງທີ່ຕັ້ງໂດເມນຂອງທ່ານເອງ.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>ແມ່ນ</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>ທ່ານສາມາດສ້າງ ແລະ ເຜີຍແຜ່ດ້ວຍມືໄດ້ສະເໝີຢູ່ນີ້ ແລະ ໃນຄອນໂຊນ.</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>ພຽງຊື່ເທົ່ານັ້ນ; ຄ່າຍັງຢູ່ໃນ ຕັ້ງຄ່າລະບົບ &gt; ຂໍ້ມູນລັບ</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>ພາຍໃຕ້ %path</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>ສິ້ນສຸດໂດຍບໍ່ມີລາຍງານ</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>ເພີ່ມເຕີມ</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>ລົ້ມເຫຼວ</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>ໄຟລ໌</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages, ຫຼື main ພ້ອມໂຟນເດີ docs.</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>ໂຮສ git</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (ດ້ວຍໂທເຄັນ) ຫຼື git@github.com:owner/repo.git (ດ້ວຍກະແຈນຳໃຊ້); ບໍ່ເຄີຍມີລະຫັດຜ່ານ ຫຼື ໂທເຄັນຢູ່ໃນນັ້ນ.</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/, ສຳລັບແຜນຜັງເວັບໄຊ ແລະ ລິງ canonical.</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>ຮູບພາບ</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>ບໍ່ເຄີຍ</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ບໍ່</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>ບໍ່ມີ remote</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>ບໍ່ມີ: ຄອມມິດຍັງຢູ່ໃນໂຟນເດີ</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>ບໍ່ມີ: ບໍ່ມີຫຍັງປ່ຽນ</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>ບໍ່ໄດ້ພຸຊ</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>ບໍ່ມີຫຍັງປ່ຽນ</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>ໜ້າ</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>ຜ່ານ</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>proc_open ຖືກປິດໃຊ້ງານ, ສະນັ້ນບໍ່ສາມາດເລີ່ມວຽກຢູ່ນີ້ໄດ້. ໃຊ້ ./console exp:static:build ໃນເຊີບເວີ.</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>ການເຜີຍແຜ່</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>ເຜີຍແຜ່ແລ້ວ</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>ລໍຖ້າພຸຊ</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>ພຸຊແລ້ວ</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>ຖືກປະຕິເສດ</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>ແບບສຳພັດ</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>ການຍ້ອນກັບ</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>ຍ້ອນກັບແລ້ວ</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>ກຳລັງດຳເນີນ</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>ສະເພາະໂຟນເດີ</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: ຂຽນໄປທີ່ໄຟລ໌ CNAME. ຊີ້ DNS ຂອງໂດເມນໄປຫາໂຮສຕາມທີ່ມັນອະທິບາຍ; HTTPS ອາດໃຊ້ເວລາຈັກໜ້ອຍເພື່ອເລີ່ມ.</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>ແມ່ນ, ຍັງບໍ່ໄດ້ເຜີຍແຜ່</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>GitHub App ໜຶ່ງ</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>Workflow ຂອງຄັງເກັບເປັນຜູ້ເຜີຍແຜ່ມັນ. ການສ້າງຈະຂຽນໄຟລ໌ workflow; ປ່ອຍໂຟນເດີໃຫ້ຫວ່າງ.</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>ຫຼັງຈາກບັນທຶກເປົ້າໝາຍທີ່ມີຄັງເກັບ GitHub ແລະໂທເຄັນ ຫຼື GitHub App, ຂັ້ນຕອນນີ້ສາມາດສ້າງຄັງເກັບ ແລະເປີດ GitHub Pages ໄດ້. ບໍ່ດັ່ງນັ້ນ ໃຫ້ສ້າງຄັງເກັບໃນ GitHub ກ່ອນ; ຄັງເກັບຫວ່າງກໍໄດ້.</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>ສາຂາ ຫຼື GitHub Actions?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>ກວດ DNS</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>ສ້າງຄັງເກັບຖ້າມັນຍັງບໍ່ມີ</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>ສ້າງຄັງເກັບໃນ GitHub ແລະເປີດ GitHub Pages ໃນການຕັ້ງຄ່າຂອງມັນ (Settings &gt; Pages).</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>ສ້າງຄັງເກັບ %repo ເມື່ອມັນບໍ່ມີ (ຖ້າຖືກຮ້ອງຂໍ), ເປີດ GitHub Pages ຈາກສາຂາ ຫຼືຈາກ GitHub Actions ຕາມທີ່ບັນທຶກໄວ້, ແລະຕັ້ງໂດເມນຂອງທ່ານເອງ ແລະ HTTPS. ມັນໃຊ້ການຕັ້ງຄ່າທີ່ບັນທຶກໄວ້: ບັນທຶກການປ່ຽນແປງກ່ອນ.</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>ລາຍລະອຽດໃນ GitHub</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>ປ້ອນໂດເມນຂອງທ່ານເອງກ່ອນ.</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>ທຸກ push ຈະຖືກກວດກັບຂີດຈຳກັດເຫຼົ່ານີ້ກ່ອນ.</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>ສຳລັບທີ່ຢູ່ https:// ໃນ GitHub. App ທີ່ຕັ້ງໄວ້ສຳລັບການຕິດຕັ້ງນີ້ຈະເຂົ້າສູ່ລະບົບ; ມັນຕ້ອງການ id ຂອງການຕິດຕັ້ງ.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages ໃຫ້ບໍລິການຄັງເກັບສ່ວນຕົວສະເພາະແຜນທີ່ຈ່າຍເງິນເທົ່ານັ້ນ.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: ໂດເມນຍ່ອຍ (www.example.com) ຕ້ອງມີບັນທຶກ CNAME ໄປຫາ &lt;owner&gt;.github.io; ໂດເມນຫຼັກ (example.com) ຕ້ອງມີບັນທຶກ A %ips.</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>id ການຕິດຕັ້ງຂອງ GitHub App</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>ການສ້າງ Pages ຄັ້ງລ່າສຸດ</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>ຂີດຈຳກັດ ແລະເງື່ອນໄຂ</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>ຈຳເປັນສຳລັບ GitHub Pages ໃນແຜນຟຣີ.</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>ໃນ GitHub</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>ສະເພາະກັບ GitHub App: ຕົວເລກທີ່ທ້າຍທີ່ຢູ່ຂອງການຕິດຕັ້ງ App ໃນ GitHub. ຕົວ App ເອງຕັ້ງໃນ staticcache.ini (GitHubAppId, GitHubAppKey).</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>ສ່ວນຕົວ</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>ສາທາລະນະ</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>ບັນທຶກເປົ້າໝາຍທີ່ມີຄັງເກັບ GitHub ແລະໂທເຄັນ ຫຼື GitHub App ກ່ອນ.</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>ຕັ້ງບັນທຶກເຫຼົ່ານີ້ຢູ່ຜູ້ໃຫ້ບໍລິການໂດເມນ:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>ຕັ້ງຄ່າໃນ GitHub</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>DNS ຂອງ %domain ຍັງບໍ່ຊີ້ໄປຫາ GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>DNS ຂອງ %domain ຊີ້ໄປຫາ GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>ການເຊື່ອມໂຍງ GitHub ບໍ່ມີຢູ່ທີ່ນີ້: %problem. ການເຜີຍແຜ່ໄປຫາສາຂາຍັງໃຊ້ໄດ້; ເປີດ GitHub Pages ໃນການຕັ້ງຄ່າຂອງຄັງເກັບ.</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>ຂັ້ນຕອນ GitHub ບໍ່ມີສຳລັບເປົ້າໝາຍນີ້: %problem.</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>ສະຖານະຂອງ GitHub Pages ຈະສະແດງເມື່ອໃຊ້ໂທເຄັນ ຫຼື GitHub App ເປັນຂໍ້ມູນເຂົ້າສູ່ລະບົບ.</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>ໃຊ້ໂດເມນຂອງທ່ານເອງ</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>ຈະເລືອກອັນໃດ: ໂທເຄັນ, ກະແຈນຳໃຊ້ ຫຼື GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>ດ້ວຍຄັງເກັບ GitHub ແລະໂທເຄັນ ຫຼື GitHub App, ຕົວຊ່ວຍສາມາດສ້າງຄັງເກັບ, ເປີດ GitHub Pages ແລະຕັ້ງໂດເມນໃຫ້ທ່ານ (ຂັ້ນຕອນ 4).</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>ກຳລັງສ້າງ</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>ສ້າງແລ້ວ</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>ຈາກ GitHub Actions</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>ຈາກສາຂາ %branch</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>ຍັງບໍ່ມີ</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>ບໍ່ພົບ</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>ປິດ</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>ສ່ວນຕົວ</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>ສາທາລະນະ</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>ຢູ່ໃນຄິວ</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>ບໍ່ຮູ້ຈັກ</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%count ໃນ %pages ໜ້າ:</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>ໄຟລ໌ .gz (ແລະ .br) ຢູ່ຂ້າງໄຟລ໌ຂໍ້ຄວາມທຸກໄຟລ໌, ສຳລັບໂຮສທີ່ໃຫ້ບໍລິການມັນ.</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>ໜ້ານ້ອຍໆ ສຳລັບທຸກທີ່ຢູ່ເກົ່າ ແລະ ຊື່ແທນຂອງໜ້າ, ເພື່ອໃຫ້ລິ້ງເກົ່າໃຊ້ໄດ້ຕໍ່.</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>ຂຽນສະເໝີເມື່ອ GitHub Actions ສົ່ງມອບເວັບໄຊ.</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>SPDX id ເຊັ່ນ CC-BY-4.0, ຫຼື ຕົວຂໍ້ຄວາມເອງ.</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>ກະຕ່າ</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>ການເອີ້ນໄປຫາເຊີບເວີ</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>ຄວາມຄິດເຫັນ</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>ຟອມທີ່ເກັບຂໍ້ມູນ</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>ເວີກໂຟລວ໌ GitHub Actions</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>ຊ່ອງວ່າງໜ້ອຍລົງ ແລະ ບໍ່ມີຄຳອະທິບາຍໃນໜ້າ.</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>ໃບອະນຸຍາດຂອງເນື້ອຫາ</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>ເຂົ້າສູ່ລະບົບ</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>ຫຍໍ້ໂຄດ</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>ຟອມອື່ນໆ</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>ບີບອັດລ່ວງໜ້າ</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>ໜ້າປ່ຽນເສັ້ນທາງ</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>ໜ້າປ່ຽນເສັ້ນທາງ: %count.</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>ຄົ້ນຫາ</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>ດັດຊະນີຄົ້ນຫາ: %pages ໜ້າໃນ %languages.</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>ສະໄຕລ໌ ແລະ ສະຄຣິບທີ່ຕັ້ງຊື່ດ້ວຍແຮຊຂອງເນື້ອຫາ, ເພື່ອໃຫ້ບຣາວເຊີເກັບໄວ້ໄດ້.</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>ໜ້າທີ່ປ່ຽນແປງ, ບໍ່ເທົ່າໃດນາທີຫຼັງການປ່ຽນແປງຄັ້ງສຸດທ້າຍ (ສ່ວນ cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>ໃບອະນຸຍາດຂອງເນື້ອຫາ, ຈາກຊ່ອງຂ້າງລຸ່ມ.</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>ທັງເວັບໄຊ, ຕາມເວລາຂອງຕາຕະລາງ (ສ່ວນ cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>ສ່ວນເຫຼົ່ານີ້ຂອງໜ້າຕ້ອງການເຊີບເວີ; ແຕ່ລະສ່ວນມີທາງສຳຮອງ. ກວດສອບກ່ອນເຜີຍແຜ່.</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>ສິ່ງທີ່ບໍ່ເຮັດວຽກແບບສະຖິດ</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>ຄັງເກັບແມ່ນຫຍັງ, ສຳລັບຜູ້ທີ່ເປີດມັນຢູ່ໂຮສ.</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>ຍົກເວັ້ນ</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>ຂໍ້ຄວາມສຳຮອງ</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>ປາຍທາງຟອມຂອງເວັບໄຊຈິງ</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>ເວັບໄຊຈິງ</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>ໜ້າຄົ້ນຫາຂອງສຳເນົາ</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>ບໍ່ສາມາດສົ່ງຟອມໄດ້.</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>ຂອບໃຈ: ສົ່ງຟອມແລ້ວ.</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>ຟອມບໍ່ຖືກຍອມຮັບ: ກວດສອບສິ່ງທີ່ທ່ານປ້ອນ ແລ້ວສົ່ງອີກຄັ້ງ.</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>ລຶບລິ້ງໄປຫາໜ້າທີ່ສຳເນົາບໍ່ມີ</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>ລຶບລິ້ງໄປຫາສ່ວນບໍລິຫານ</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>ຂໍ້ຄວາມຂອງມັນຍັງຢູ່. ຮູບພາບ, ແບບຟອມ ແລະ ລິ້ງໄປຫາເວັບໄຊອື່ນ ບໍ່ເຄີຍຖືກລຶບ.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>ເວີຊັນ</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>ການເຂົ້າເຖິງໄຊທີ່ຈະເຜີຍແຜ່</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>ການເຂົ້າເຖິງໄຊ</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>ທີ່ຮາກ</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>ບໍ່ມີການເຂົ້າເຖິງໄຊທີ່ຮາກ: ແຕ່ລະອັນຢູ່ໃນໂຟນເດີຂອງມັນ ແລະຮາກເຊື່ອມໂຍງໄປຫາພວກມັນ</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>ການເຂົ້າເຖິງໄຊ</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>ໝາຍການເຂົ້າເຖິງໄຊໜຶ່ງ ຫຼືຫຼາຍອັນທີ່ໃຊ້ໂຮສດຽວກັນຜ່ານຄຳນຳໜ້າ URI. ອັນທີ່ຢູ່ຮາກຈະໃຫ້ບໍລິການຢູ່ທີ່ນັ້ນ ອັນອື່ນຢູ່ໃນໂຟນເດີຂອງຄຳນຳໜ້າ (/ger/); ລິ້ງລະຫວ່າງພວກມັນຢູ່ໃນສຳເນົາ. ບໍ່ເຄີຍສະເໜີການເຂົ້າເຖິງການບໍລິຫານ.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>ການເຜີຍແຜ່ແບບຄົງທີ່ຂອງ %target ລົ້ມເຫຼວໃນ %site</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>ການເຜີຍແຜ່ແບບຄົງທີ່ຂອງ %target ສຳເລັດໃນ %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>ອີເມວນີ້ຖືກສົ່ງໂດຍ %site ເພາະເປົ້າໝາຍການເຜີຍແຜ່ແບບຄົງທີ່ %target ຮ້ອງຂໍ.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>ການນຳສົ່ງ %deploy ລົ້ມເຫຼວຢູ່ %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>ການນຳສົ່ງ %deploy ກຳລັງລໍຖ້າຢູ່ປະຕູໜຶ່ງຢູ່ %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>ການນຳສົ່ງ %deploy ສຳເລັດຢູ່ %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>ອີເມວນີ້ຖືກສົ່ງໂດຍ %site ເພາະວ່າ migration.ini [RemoteSettings] Notify[] ຮ້ອງຂໍ.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>ປະເພດຂໍ້ມູນ (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>ນັບເມື່ອ %time, ນັບໃໝ່ຫຼັງຈາກ %minutes ນາທີ</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>ປະເພດຂໍ້ມູນເກັບ ແລະ ແກ້ໄຂຄ່າປະເພດໜຶ່ງຂອງຄຸນລັກສະນະຄລາສ: ແຖວຂໍ້ຄວາມ, ຮູບພາບ, ຄວາມສຳພັນ. ເຄີເນລໃຫ້ສ່ວນຫຼາຍ, ສ່ວນຂະຫຍາຍເພີ່ມອີກ. ນີ້ແມ່ນທັງໝົດ, ໃຜເປັນຜູ້ໃຫ້ ແລະ ເນື້ອຫາໃຊ້ພວກມັນຫຼາຍປານໃດ. ປະເພດຂໍ້ມູນທີ່ຖານຂໍ້ມູນໃຊ້ ແຕ່ບໍ່ມີສິ່ງໃດລົງທະບຽນອີກແລ້ວ ຈະເຮັດໃຫ້ເນື້ອຫາທີ່ມີມັນເສຍຫາຍ.</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>ກຸ່ມຄລາສ</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>ນັບໃໝ່ດຽວນີ້ ແທນການໃຊ້ຜົນນັບຂອງສອງສາມນາທີຜ່ານມາ.</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>ນັບໃໝ່</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>ພາບລວມ</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>ລົງທະບຽນເມື່ອ</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>ກຳລັງໃຊ້</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>ບໍ່ໄດ້ໃຊ້</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>ສ່ວນຂະຫຍາຍທີ່ໃຫ້ປະເພດຂໍ້ມູນ</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>ຄຸນລັກສະນະຄລາສ</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>ຄຸນລັກສະນະຂອງອອບເຈັກ</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>ບໍ່ໄດ້ລົງທະບຽນ</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>ມີໃນລາຍການ, ບໍ່ມີໄຟລ໌</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>ປະເພດຂໍ້ມູນ %count ລາຍການຖືກໃຊ້ ແຕ່ບໍ່ໄດ້ລົງທະບຽນ</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>ຄຸນລັກສະນະຄລາສ %class_attributes ລາຍການ ແລະ ຄຸນລັກສະນະອອບເຈັກ %object_attributes ລາຍການ ມີປະເພດຂໍ້ມູນທີ່ບໍ່ມີສ່ວນຂະຫຍາຍ ຫຼື ການຕັ້ງຄ່າໃດລົງທະບຽນ. ອອບເຈັກຂອງພວກມັນບໍ່ສາມາດສະແດງ, ແກ້ໄຂ ຫຼື ເຜີຍແຜ່ໄດ້. ເປີດໃຊ້ສ່ວນຂະຫຍາຍທີ່ໃຫ້ປະເພດຂໍ້ມູນນັ້ນ ຫຼື ປ່ຽນຄລາສ.</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>ສະແດງສະເພາະອັນເຫຼົ່ານີ້</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>ຊອກຫາປະເພດຂໍ້ມູນ</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>ຕົວລະບຸ, ຊື່, ຄລາສ PHP ຫຼື ສ່ວນຂະຫຍາຍ.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>ສະແດງ</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>ທັງໝົດ</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>ໃຫ້ໂດຍ</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>ທຸກຄົນ</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>ເຄີເນລ</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>ບໍ່ມີປະເພດຂໍ້ມູນທີ່ກົງກັບຕົວກັ່ນຕອງນີ້.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>ສະແດງທັງໝົດ</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>ສ່ວນຂະຫຍາຍ</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%shown ຈາກ %count ປະເພດຂໍ້ມູນ, ໃຊ້ຢູ່ %used</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>ຖານຂໍ້ມູນມີຄຸນລັກສະນະຄລາສ ຫຼື ອອບເຈັກຂອງປະເພດຂໍ້ມູນເຫຼົ່ານີ້ ແຕ່ content.ini ບໍ່ໄດ້ລະບຸອັນໃດເລີຍ ຫຼື ໄຟລ໌ຂອງມັນຫາຍໄປ.</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>ປະເພດຂໍ້ມູນຂອງ %provider</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>ປະເພດຂໍ້ມູນ</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>ຄລາສ ແລະ ໄຟລ໌ PHP</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>ຄລາສ</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>ອອບເຈັກ</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>ເຄື່ອງໝາຍ</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>ບໍ່ມີ</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>ບໍ່ມີປະເພດຂໍ້ມູນທີ່ກົງກັບການຊອກຫາ. ລ້າງການຊອກຫາ.</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>ສະແດງ %shown ຈາກ %count ປະເພດຂໍ້ມູນ</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>ປະເພດຂໍ້ມູນທີ່ສະແດງ: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>ຮຽງລຳດັບຕາມ %column</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>ນັບເມື່ອ %time</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>ປະເພດຂໍ້ມູນທັງໝົດ</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>ໜ້າຊ່ວຍເຫຼືອ</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>ປະເພດຂໍ້ມູນນີ້ຖືກໃຊ້ ແຕ່ບໍ່ໄດ້ລົງທະບຽນ</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>ອອບເຈັກຂອງຄລາສຂ້າງລຸ່ມບໍ່ສາມາດສະແດງ, ແກ້ໄຂ ຫຼື ເຜີຍແຜ່ໄດ້ ຕາບໃດທີ່ບໍ່ມີສ່ວນຂະຫຍາຍໃດລົງທະບຽນປະເພດຂໍ້ມູນນີ້. ເປີດໃຊ້ສ່ວນຂະຫຍາຍທີ່ໃຫ້ມັນ ແລະ ເພີ່ມມັນໃສ່ content.ini [DataTypeSettings] AvailableDataTypes[] ຫຼື ປ່ຽນຄລາສ.</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini ລະບຸປະເພດຂໍ້ມູນນີ້ ແຕ່ບໍ່ມີໂຟນເດີປະເພດຂໍ້ມູນໃດມີໄຟລ໌ຂອງມັນ. ບໍ່ມີສິ່ງໃດໃຊ້ມັນ; ລຶບມັນອອກຈາກ AvailableDataTypes[] ຫຼື ເປີດໃຊ້ສ່ວນຂະຫຍາຍຂອງມັນ.</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>ກ່ຽວກັບປະເພດຂໍ້ມູນນີ້</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>ຕົວລະບຸ</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>ຊື່</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>ສ່ວນຂະຫຍາຍ %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>ບໍ່ມີໃຜ</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>ຄລາສ PHP</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>ໄຟລ໌</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>ຢູ່ໃນ AvailableDataTypes[]</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ແມ່ນ</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ບໍ່</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>ຖັນຂອງຄ່າ</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>ຖັນຂອງການຕັ້ງຄ່າຄຸນລັກສະນະຄລາສ</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>ຕາຕະລາງ</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>ຖັນ ແລະ ຕາຕະລາງພົບໄດ້ໂດຍການອ່ານລະຫັດຂອງປະເພດຂໍ້ມູນ: ເປັນແນວທາງ, ບໍ່ແມ່ນຄຳໝັ້ນສັນຍາ.</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>ແມ່ແບບ</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>ການເຂົ້າເຖິງໄຊ</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>ແມ່ແບບ</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>ພົບໃນ</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>ການບໍລິຫານນີ້</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>ເວັບໄຊເລີ່ມຕົ້ນ</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>ບໍ່ລວມການແທນທີ່: ແມ່ແບບແທນທີ່ທີ່ກົງກັບຄລາສ ຫຼື ຄຸນລັກສະນະຈະມີສິດກ່ອນອັນເຫຼົ່ານີ້.</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>ຄລາສທີ່ໃຊ້ມັນ (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>ບໍ່ມີຄລາສໃດມີຄຸນລັກສະນະຂອງປະເພດຂໍ້ມູນນີ້.</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>ຄລາສ</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>ຄຸນລັກສະນະ</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>ຄຸນລັກສະນະຄລາສ (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>ຄຸນລັກສະນະ</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>ການຕັ້ງຄ່າ</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>ຈຳເປັນ</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>ຄົ້ນຫາໄດ້</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>ແປໄດ້</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>ເກັບກຳຂໍ້ມູນ</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>ເນື້ອຫາບາງສ່ວນທີ່ໃຊ້ມັນ</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>ແກ້ໄຂລ່າສຸດກ່ອນ</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>ແກ້ໄຂເມື່ອ</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>ໂນດ %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>ແຕ່ລະການແປມີຄ່າຂອງຕົນເອງ.</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>ການຊອກຫາຈັດດັດຊະນີຄ່າຂອງມັນ.</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>ມັນສາມາດເກັບກຳຂໍ້ມູນຈາກຜູ້ເຂົ້າຊົມ (ແບບຟອມ).</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>ລາຍການສາມາດຮຽງຕາມມັນໄດ້: ກະແຈຮຽງ %type.</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>ຮຽງລຳດັບໄດ້</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>ຄ່າຂອງມັນຊີ້ໄປຫາອອບເຈັກອື່ນ.</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>ຄວາມສຳພັນ</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>ມັນສາມາດຕື່ມຈາກຂໍ້ຄວາມທຳມະດາໄດ້ (ນຳເຂົ້າ, REST).</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>ຈາກຂໍ້ຄວາມ</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>ມັນສາມາດຕື່ມຈາກໄຟລ໌ໄດ້.</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>ຈາກໄຟລ໌</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>ການຕັ້ງຄ່າຄຸນລັກສະນະຄລາສຂອງມັນຖືກລວມເຂົ້າໃນແພັກເກັດ.</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>ແພັກເກດ</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>ເນື້ອຫາ (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from ຫາ %to ຈາກ %count</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>ກັ່ນຕອງລາຍການ</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>ທຸກຄລາສ</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>ພາກສ່ວນ</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>ພາສາ</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>ເຈົ້າຂອງ</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>ເຜີຍແຜ່ແລ້ວ</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>ກັບລຳດັບ</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>ບໍ່ມີລາຍການ</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>ຕໍ່ໜ້າ</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>ສະແດງ %count ລາຍການຕໍ່ໜ້າ.</translation>
     </message>
 </context>
 </TS>

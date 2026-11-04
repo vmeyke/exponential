@@ -7,7 +7,7 @@
  *
  * Skipped where another search engine (Solr, ...) is configured.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @package tests
  * @group kernel
@@ -15,6 +15,7 @@
 
 require_once __DIR__ . '/expContentModelLiveTestCase.php';
 
+#[\PHPUnit\Framework\Attributes\Group('kernel')]
 class eZSearchEngineLiveTest extends expContentModelLiveTestCase
 {
     /** @var string a word nobody else has, made for the run */

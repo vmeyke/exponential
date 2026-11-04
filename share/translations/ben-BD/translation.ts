@@ -982,6 +982,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>শুধু এই পৃষ্ঠায় অনুসন্ধান করা হয়েছে: %count-এর মধ্যে %from থেকে %to।</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>কার্নেল ও এক্সটেনশনের প্রতিটি ডেটা টাইপ, এবং ক্লাস ও কনটেন্ট কীভাবে এটি ব্যবহার করে।</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>ডেটাটাইপ</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2314,6 +2322,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>সিস্টেম পৃষ্ঠাও বুকমার্ক করা যায়: পৃষ্ঠাটি খুলুন (সেটআপ, অডিট ট্রেইল, ব্যবহারকারীদের একটি তালিকা ...) এবং তার উপরে “এই পৃষ্ঠা বুকমার্ক করুন” বেছে নিন। এমন বুকমার্কে একটি গিয়ার আইকন থাকে।</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>আপনি আর এখানে এই পৃষ্ঠাটি খুলতে পারবেন না। বুকমার্কটি অপসারণ করুন, অথবা কোনো প্রশাসকের কাছে অ্যাক্সেস চান।</translation>
     </message>
 </context>
 <context>
@@ -5163,6 +5175,210 @@
         <source>Go to the first page</source>
         <translation>প্রথম পৃষ্ঠায় যান</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>অন্যান্য</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>গত ৭ দিন</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>কাস্টম সময়সীমা</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>সব শব্দ</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>যেকোনো শব্দ</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>হুবহু বাক্যাংশ</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>প্রাসঙ্গিকতা</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>নাম A–Z</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>নাম Z–A</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>পরিবর্তিত, নতুনগুলো আগে</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>পরিবর্তিত, পুরোনোগুলো আগে</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>প্রকাশিত, নতুনগুলো আগে</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>প্রকাশিত, পুরোনোগুলো আগে</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>পরিবর্তিত</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>ফিল্টার</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>ফিল্টার দেখান</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>ফিল্টার লুকান</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>রিসেট করুন</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>প্রয়োগ করুন</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>শব্দ</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>বিষয়বস্তুর ধরন</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>আরও দেখান (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>এর কোনো একটি অ্যাট্রিবিউটে খুঁজতে একটি বিষয়বস্তুর ধরন বেছে নিন।</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>বিভাগ</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>প্রেরক</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>প্রতি</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>শুরুর তারিখটি বৈধ তারিখ নয়।</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>শেষের তারিখটি বৈধ তারিখ নয়।</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>মালিক</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>ব্যবহারকারী ID, লগইন বা ই-মেইল ঠিকানা।</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>“%input”-এর জন্য কোনো ব্যবহারকারী পাওয়া যায়নি।</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>ভাষা</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>যেকোনো ভাষা</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>অবস্থান</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>%count টি অবস্থান</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>প্রতি পৃষ্ঠায় ফলাফল</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>“%text”-এর ফলাফল (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>ফলাফল (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>সাজান</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>সাজান</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>সক্রিয় ফিল্টার</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>এই ফিল্টারটি অপসারণ করুন</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>অথবা ফিল্টার বেছে নিয়ে প্রয়োগ করুন এবং মিলে যাওয়া বিষয়বস্তুর তালিকা দেখুন।</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>শব্দ লেখার পরে ফিল্টারগুলো অনুসন্ধান সংকুচিত করে।</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>“%text”-এর জন্য কোনো ফলাফল পাওয়া যায়নি।</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>কোনো ফলাফল পাওয়া যায়নি।</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>উপরের একটি ফিল্টার সরান।</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>অনুবাদসমূহ</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>অ্যাকশন</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>%name সম্পাদনা করুন</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>সম্পাদনা করুন</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -7512,6 +7728,10 @@
         <source>Setup &gt; Cronjobs</source>
         <translation>সেটআপ &gt; ক্রনজব</translation>
     </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>এখনও কোনো ক্রন জব অংশ চালানো হয়নি: জব সারি, ইমপোর্ট, বিজ্ঞপ্তি এবং সার্চ ইনডেক্স অপেক্ষা করছে। php bin/php/installcrontab.php --add --apply চালান, অথবা --show যে লাইনগুলো দেখায় সেগুলো crontab ফাইলে যোগ করুন।</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/dashboard/drafts</name>
@@ -8056,8 +8276,8 @@
         <translation>লাইসেন্সের প্রয়োজনীয়তা অনুযায়ী, মূল লেখকদের এবং Exponential-এর সাথে অন্তর্ভুক্ত তৃতীয় পক্ষের সফটওয়্যারের কপিরাইট নোটিশ সোর্স ফাইল ও LICENSE ফাইলে সংরক্ষিত আছে।</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>নিচে Exponential-এর সেই অবদানকারীদের তালিকা দেওয়া হলো, যারা eZ Systems Contributor Licensing Agreement-এর শর্তাবলী অনুযায়ী 7x-এর ব্যবহারের জন্য তাদের কাজের লাইসেন্স দিয়েছেন। এই চুক্তি অনুমোদিত হওয়া অনুযায়ী, 7x প্রতিটি অবদান সেই ফাইলের লাইসেন্সের অধীনেই পুনরায় বিতরণ করে, যে ফাইলে অবদানটি অন্তর্ভুক্ত আছে। তালিকায় প্রত্যেক অবদানকারীর নাম, ঐচ্ছিক যোগাযোগের তথ্য এবং তাদের অবদান রাখা ফাইলগুলো উল্লেখ করা আছে।</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>Exponential এবং যে সফটওয়্যার থেকে এটি গড়ে উঠেছে তাতে কাজের জন্য স্বীকৃত অবদানকারীরা, তাঁরা যে ফাইলগুলিতে অবদান রেখেছেন সেগুলিসহ। এটি স্বীকৃতি, কপিরাইট নোটিশ নয়: Contributor Licensing Agreement অনুযায়ী Exponential-এ অবদানগুলি Exponential Foundation ও 7x-কে হস্তান্তর করা হয়।</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13879,32 +14099,20 @@ Note: The packages will not be uninstalled.</source>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;Exponential Enterprise Edition মূল্যায়ন করুন&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Exponential কমিউনিটির সদস্য হোন, আদান-প্রদান করুন ও অবদান রাখুন&lt;/a&gt;। &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; কপিরাইট &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; ও অন্যান্য।</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>&lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt; দ্বারা চালিত। আরও তথ্যের জন্য &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt; দেখুন।</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; কপিরাইট &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; ও অন্যান্য।</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> আরও তথ্যের জন্য &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt; দেখুন।</translation>
     </message>
     <message>
-        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; কপিরাইট &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; ও অন্যান্য।</translation>
+        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Exponential কমিউনিটির সদস্য হোন, সহায়তা পান ও অবদান রাখুন&lt;/a&gt;।</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; কপিরাইট &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; ও অন্যান্য।</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13913,6 +14121,61 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Help center</source>
         <translation>সাহায্য কেন্দ্র</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>বিষয়বস্তু</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>নথির পৃষ্ঠা</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>ব্যবহারকারী</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>কনটেন্ট ক্লাস</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>প্রশাসন</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>পৃষ্ঠা %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>সব ফলাফল দেখুন</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>%countটি ফলাফল</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>একটি ফলাফল</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>%count টি প্রস্তাবনা</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>কোনো প্রস্তাবনা নেই</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>প্রস্তাবনাগুলো লোড করা যায়নি।</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>প্রস্তাবনা</translation>
     </message>
 </context>
 <context>
@@ -14381,6 +14644,14 @@ Note: The packages will not be uninstalled.</source>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>এই ইনস্টলেশনটি একটি পাবলিক ডেমো: যে কেউ এর প্রশাসকের পাসওয়ার্ড জানতে পারে, এবং প্রশাসকের পাসওয়ার্ড পরিবর্তন বা রিসেট করা যায় না। এখানে ব্যক্তিগত কিছু প্রবেশ করাবেন না।</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>আপনার ডিভাইস</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>নিরাপত্তা কার্যকলাপ</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14670,6 +14941,14 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>নির্দেশিকা, অনুসন্ধান এবং ত্রুটি কীভাবে রিপোর্ট করবেন।</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>সাম্প্রতিক কনটেন্ট</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>নতুন কনটেন্ট, পর্যালোচনার জন্য যা আটকে রাখা আছে, এবং একটি নির্বাচনের উপর কার্যক্রম।</translation>
     </message>
 </context>
 <context>
@@ -15128,6 +15407,46 @@ Note: The packages will not be uninstalled.</source>
         <source>Synchronisations</source>
         <translation>সিঙ্ক্রোনাইজেশন</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>GraphQL API: এর এন্ড পয়েন্ট, স্কিমা এবং কোয়েরি চেষ্টা করার একটি প্লেগ্রাউন্ড।</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>মাইগ্রেশন</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>ফাইল হিসেবে রাখা ইনস্টলেশনের পরিবর্তন: তাদের অবস্থা, রানগুলো, চালানো ও ফিরিয়ে নেওয়া।</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>সাম্প্রতিক কনটেন্ট</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>নতুন কনটেন্ট, পর্যালোচনার জন্য যা আটকে রাখা আছে, এবং একটি নির্বাচনের উপর কার্যক্রম।</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>একটি সাইটের স্ট্যাটিক কপি GitHub Pages বা যেকোনো git হোস্টে প্রকাশ করুন।</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>স্ট্যাটিক প্রকাশনা</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>ডেটাটাইপ</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>কার্নেল ও এক্সটেনশনের প্রতিটি ডেটা টাইপ, এবং ক্লাস ও কনটেন্ট কীভাবে এটি ব্যবহার করে।</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15292,6 +15611,22 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>যে অ্যাকাউন্ট কেউ ব্যবহার করে না বা যেগুলো দেখা দরকার; সেগুলো নিষ্ক্রিয় করুন, আনলক করুন বা এক্সপোর্ট করুন।</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>ব্যবহারকারী অডিট লগ</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>প্রতিটি অ্যাকাউন্টে কে পরিবর্তন করেছেন, সাইন ইন করেছেন বা প্রত্যাখ্যাত হয়েছেন; ফিল্টার ও এক্সপোর্ট করুন।</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>সাইন-ইন প্রতিবেদন</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>কে সাইন ইন করে আছেন, প্রতিদিনের সাইন-ইন ও ব্যর্থতা; একজন ব্যবহারকারীকে সব জায়গা থেকে সাইন আউট করুন।</translation>
     </message>
 </context>
 <context>
@@ -22108,6 +22443,22 @@ Note: The packages will not be uninstalled.</source>
         <source>%n hours ago</source>
         <translation>%n ঘণ্টা আগে</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>GraphQL API-এর সংরক্ষিত কোয়েরিগুলোর উত্তর, এবং এর স্কিমার কনটেন্ট ক্লাসসমূহ।</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>GitHub Pages বা যেকোনো git হোস্টে একটি স্ট্যাটিক কপি প্রকাশ করুন</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>স্ট্যাটিক প্রকাশনা</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>স্ট্যাটিক ক্যাশে এই সার্ভার থেকে পৃষ্ঠা পরিবেশন করে। কোনো সাইটের স্ট্যাটিক কপি অন্য কোথাও, GitHub Pages বা যেকোনো git হোস্টে প্রকাশ করতে স্ট্যাটিক প্রকাশনা ব্যবহার করুন।</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25649,6 +26000,10 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>last purge</source>
         <translation>সর্বশেষ পরিষ্কার</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>লেখাগুলো অবস্থার লক নিতে পারেনি (শেষবার %date): প্রতিটি সব ক্যাশ করা ফলাফল পুরোনো করে দিয়েছে। সাইটটি যে প্রতিটি ব্যবহারকারী হিসেবে চলে, তাদের সবার জন্য %file লেখার যোগ্য হতে হবে; NFS-এ এর জন্য NFSv4 বা lockd দরকার।</translation>
     </message>
 </context>
 <context>
@@ -33597,6 +33952,14 @@ Note: The packages will not be uninstalled.</source>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>PHP হ্যান্ডলারের মেয়াদোত্তীর্ণ সেশনগুলো PHP নিজেই (session.gc_maxlifetime) মুছে দেয়, এই পৃষ্ঠা বা session_gc ক্রনজব অংশ নয়।</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>সব ব্যবহারকারীর সাইন-ইন করা সেশন সাইন-ইন প্রতিবেদনে তালিকাভুক্ত হয় এবং সেখান থেকে সাইন আউট করা যায়; এটি যেকোনো সেশন হ্যান্ডলারের সাথে কাজ করে।</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>সাইন-ইন প্রতিবেদন খুলুন</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37921,6 +38284,26 @@ your account.</source>
     <message>
         <source>None yet</source>
         <translation>এখনও কোনোটি নেই</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>নিরাপত্তা কার্যকলাপ</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>আপনার সাম্প্রতিক সাইন-ইন, ব্যর্থ প্রচেষ্টা এবং আপনার পাসওয়ার্ড, ইমেল ঠিকানা ও দ্বি-ধাপ সাইন-ইনের পরিবর্তন।</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>এই অ্যাকাউন্টের সাম্প্রতিক সাইন-ইন, ব্যর্থ প্রচেষ্টা এবং নিরাপত্তা পরিবর্তন।</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>কার্যকলাপ পর্যালোচনা করুন</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>%count টি ব্যর্থ সাইন-ইন</translation>
     </message>
 </context>
 <context>
@@ -44087,6 +44470,42 @@ If you want to send comments to the approver or view the status use the URL belo
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>সাইন ইন করার পর ব্যবহারকারীকে অন্য কিছু করার আগে একটি নতুন পাসওয়ার্ড বেছে নিতে হবে। কাউকে অস্থায়ী পাসওয়ার্ড দিলে এটি ব্যবহার করুন।</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>একটি বিদ্যমান ছবি বেছে নিন</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>আপনি যে অবজেক্টটি বেছে নেবেন তার ছবির ফাইলটি এই ফিল্ডে কপি করা হয়। অন্য অবজেক্টটি পরিবর্তিত হয় না।</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>“%name”-এর ছবিটি এই ফিল্ডে কপি করা হয়েছে।</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>ছবির জন্য ব্রাউজ করুন</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>নাম দিয়ে ছবি খুঁজুন</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>অনুসন্ধান</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>“%name”-এর ছবিটি ব্যবহার করুন</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>এই ছবিটি ব্যবহার করুন</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>আপনার অনুসন্ধানের সাথে কোনো ছবি মেলেনি।</translation>
     </message>
 </context>
 <context>
@@ -51011,6 +51430,10 @@ See the requirements page for more information.</source>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>crontab লেখা হয়নি (%reason)। যে ব্যবহারকারী হিসেবে সাইটটি চলে তার crontab-এ এই লাইনগুলো যোগ করুন, নইলে সারি, ইমপোর্ট, বিজ্ঞপ্তি এবং সার্চ ইনডেক্স কখনো চলবে না:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>পুনরায় ইনস্টল করা হয় কিকস্টার্টার দিয়ে (%file, তারপর php bin/php/kickstarter.php run --apply) অথবা একটি নতুন ইনস্টলেশনের মাধ্যমে।</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54890,6 +55313,10 @@ your account.</source>
         <source>eZJSCore Public Packer cache</source>
         <translation>eZJSCore পাবলিক প্যাকার ক্যাশে</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>GraphQL ক্যাশ (উত্তর ও স্কিমার ক্লাস)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54976,6 +55403,14 @@ your account.</source>
     <message>
         <source>Copy of %class_name</source>
         <translation>%class_name এর কপি</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>ডেটাটাইপ</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>ডেটা টাইপ %string</translation>
     </message>
 </context>
 <context>
@@ -55802,6 +56237,26 @@ your account.</source>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>SVG ছবিটি পড়া যায়নি, অথবা এতে নিরাপদে দেখানো যায় এমন কিছু নেই।</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>ছবিটি কপি করা যায়নি। অনুগ্রহ করে আবার চেষ্টা করুন অথবা সাইট প্রশাসকের সাথে যোগাযোগ করুন।</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>নির্বাচিত অবজেক্টটি নেই অথবা এটি পড়ার অনুমতি আপনার নেই।</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>নির্বাচিত অবজেক্টটির কোনো ছবি নেই।</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>নির্বাচিত অবজেক্টটির ছবির ফাইল পড়া যায়নি।</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>নির্বাচিত অবজেক্টটির ছবি এই ফিল্ডের অনুমোদিত আকারের চেয়ে বড়: %1 বাইট।</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56332,6 +56787,42 @@ your account.</source>
         <source>The bookmark was renamed to &quot;%name&quot;.</source>
         <translation>বুকমার্কটির নাম পরিবর্তন করে “%name” রাখা হয়েছে।</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>এই সাইটঅ্যাক্সেসে (%siteaccess) এই পৃষ্ঠাটি নিষ্ক্রিয় করা আছে। যে সাইটঅ্যাক্সেসে এই পৃষ্ঠাটি আছে, সেখানে বুকমার্কটি খুলুন।</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>এই পৃষ্ঠার মডিউলটি এখানে ইনস্টল বা সক্রিয় করা নেই।</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>এই পৃষ্ঠাটি আর নেই: এর মডিউলে এমন কোনো ভিউ নেই।</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>আপনার কোনো ভূমিকাই আপনাকে এই পৃষ্ঠাটি খোলার অনুমতি দেয় না।</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>আপনি এই সাইটঅ্যাক্সেস ব্যবহার করতে পারবেন না।</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>এই পৃষ্ঠাটি যে বিষয়বস্তু দেখায়, তা আপনি পড়তে পারবেন না।</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>এই ধরনের পৃষ্ঠা বুকমার্ক করা যায় না: এটি শুধু একটি ফর্মের ওপর কাজ করে, অথবা এটি এক মুহূর্তের পৃষ্ঠা।</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>এই পৃষ্ঠার ঠিকানা অনুপস্থিত।</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>এই পৃষ্ঠাটি এখন খোলা যাচ্ছে না।</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56803,6 +57294,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>সর্বশেষ রানে মেইল ট্রান্সপোর্ট %countটি বার্তা প্রত্যাখ্যান করেছে। মেইল সার্ভার এবং site.ini MailSettings পরীক্ষা করুন।</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>%count টি ইভেন্ট অপেক্ষা করছে এবং বিজ্ঞপ্তি ক্রন জবের কোনো চালনা রেকর্ড করা নেই। ক্রন জব অংশ &quot;frequent&quot; crontab ফাইলে যোগ করুন, অথবা exp:notification:run --apply চালান।</translation>
     </message>
 </context>
 <context>
@@ -63059,6 +63554,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Choose another site or section with the node picker</source>
         <translation>নোড পিকার দিয়ে অন্য সাইট বা বিভাগ বেছে নিন</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>শুধু সিস্টেম প্রশাসক মালিক পরিবর্তন করতে পারেন: root হিসেবে ./console exp:content-check --fix-permissions --apply চালান।</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64592,6 +65091,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>empty</source>
         <translation>খালি</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>স্বাক্ষর কী এক বছরের বেশি পুরনো: exp:audit key rotate --apply দিয়ে এটি পরিবর্তন করুন।</translation>
     </message>
 </context>
 <context>
@@ -68422,6 +68925,486 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Share of page time</source>
         <translation>পৃষ্ঠার সময়ের অংশ</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>সম্পূর্ণ রেন্ডারের অনুরোধ করা হয়েছিল</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>পৃষ্ঠা ক্যাশেতে পৃষ্ঠাটি ছিল না (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>পৃষ্ঠা ক্যাশে সাড়া দেয়নি</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>রেন্ডার করা হয়েছে</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>কার্নেল দ্বারা রেন্ডার করা হয়েছে: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>%ms ms সময়ে পৃষ্ঠা ক্যাশে থেকে পরিবেশন করা হয়েছে। পৃষ্ঠাটি %stored সময়ে %render ms-এর একটি রেন্ডার দ্বারা সংরক্ষিত হয়েছিল, %age s আগে।</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>এখনই রেন্ডার করুন</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>ক্যাশে করা ভিউতে ফিরে যান</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>%stored সময়ের রেন্ডার থেকে (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>এই অনুরোধ: %ms ms সময়ে পৃষ্ঠা ক্যাশে থেকে পরিবেশন করা হয়েছে।</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>ব্যবহারকারী</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>ব্যবহারকারী ID</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>ক্যাশ প্রোফাইল</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>এই ভিউ</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>ভিউ ক্যাশে</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>প্রতি ব্যবহারকারী (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>ব্যবহারকারীর ক্যাশ প্রোফাইল: একই প্রোফাইলের ব্যবহারকারীরা ভিউ ক্যাশ ফাইল ভাগ করে নেয়</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>হ্যাঁ</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>না</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>লগ ইন</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>লগ ইন করা</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>সেশন</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>কনটেন্ট ভিউ ক্যাশ কী-এর যে অংশগুলো ব্যবহারকারীর উপর নির্ভর করে, কী যেভাবে সেগুলো নেয় ঠিক সেভাবে, এই পৃষ্ঠার ViewCacheTweaks অনুযায়ী। একই প্রোফাইলের ব্যবহারকারীরা ভিউগুলোর ক্যাশ ফাইল ভাগ করে নেয়, যদি না কোনো ভিউয়ের নিজের অংশ আলাদা হয় (পছন্দসমূহ, লিসেনারের কী): সেগুলোর নিজস্ব প্রোফাইল থাকে, শুধু এই পৃষ্ঠার জন্য।</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>প্রোফাইল</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>এই ভিউ (নোড %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: লগ ইন করা প্রত্যেক ব্যবহারকারীর নিজস্ব ক্যাশ ফাইল থাকে।</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>কার্যকর ViewCacheTweaks: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>অংশ</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>মান</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>কোনো অংশ ব্যবহারকারীর উপর নির্ভর করে না (ViewCacheTweaks)।</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>এই ভিউ</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>টেক্সট হিসেবে কপি করুন</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>ভূমিকা</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>কোনো রোল অ্যাসাইনমেন্ট পড়া যায়নি।</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>রোল আইডি</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>ভূমিকা</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>সীমাবদ্ধতা</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>নির্ধারিত</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>ব্যবহারকারীকে</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>গ্রুপ %name (অবজেক্ট %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>কপি করা হয়েছে</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>কপি করা যায়নি।</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>একটি লিসেনার বাদ দিয়েছে</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>বেনামী দর্শনার্থী</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>আপনার মতোই</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>ভিন্ন</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>একই ViewCacheTweaks অনুযায়ী বেনামী দর্শকেরা যে প্রোফাইল পায়, ডিফল্ট পছন্দসমূহসহ, ভিউয়ের অংশগুলো ছাড়া: সেশন পড়ে এমন লিসেনারের কাছে সেগুলো চাওয়া যায় না।</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>পছন্দসমূহ</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>কোনো ভিউ মোড ব্যবহারকারীর পছন্দের উপর নির্ভর করে না (site.ini [ContentSettings] CachedViewPreferences)।</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>এই ভিউ মোডগুলোর ভিউ যে পছন্দগুলোর উপর নির্ভর করে (CachedViewPreferences), ব্যবহারকারীর মান বা ডিফল্ট মানসহ। প্রোফাইলে এগুলো userpreferences হিসেবে থাকে, সব ভিউ মোডের একসাথে।</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>ভিউ মোড</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>পছন্দ</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>ডিফল্ট</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>নীতি</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>রোলগুলোর পলিসি দেখান (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>এই অংশ খোলা হলে পলিসিগুলো সার্ভার থেকে এক পৃষ্ঠা করে লোড হয় এবং মডিউল ও ফাংশন অনুযায়ী ফিল্টার করা যায়।</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>ফাংশন</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>সব মডিউল</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>সব ফাংশন</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>সীমাবদ্ধতা</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>আরও দেখান</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>এই রোলগুলোর কোনো পলিসি নেই।</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>কোনো পলিসি ফিল্টারের সাথে মেলে না।</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%matching পলিসির মধ্যে %shown টি (মোট %total)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>খোলার সময় লোড হয়।</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>module/function, ভূমিকা, সীমাবদ্ধতা</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>নীতিগুলি অনুসন্ধান করুন</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>আরও লোড করুন</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>মডিউল/ফাংশন</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>সব ভূমিকা (%count টি নীতি)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>কোনো নীতি মেলেনি।</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%matched টি নীতির মধ্যে %shown টি</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>কোনো উত্তর নেই</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>লুকানো</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>ব্যাখ্যা দেখান</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>ব্যাখ্যা লুকান</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>খুলুন</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>সব খুলুন</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>সব বন্ধ করুন</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>কী বা মান</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>সেশনে অনুসন্ধান করুন</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>ধরন</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>আরও %countটি</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>দেখানোর জন্য খুব গভীরে নেস্ট করা</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>কাটা হয়েছে, মোট %countটি অক্ষর</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>শুরু হয়েছে</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>কুকির নাম</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>সেশন ID</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>হ্যান্ডলার</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>সংরক্ষণের পাথ</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>PHP ডিফল্ট</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>আয়ুষ্কাল (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>কুকি</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>আয়ুষ্কাল %s সে</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>আপনার নিজের PHP সেশন, অংশটি খোলার সময় যেমন ছিল, কখনও অন্য কারও নয়। গোপন তথ্যের মতো দেখায় এমন কী-এর (টোকেন, হ্যাশ, পাসওয়ার্ড) মান লুকানো থাকে (debugbar.ini SessionMask[]); বাকি সবকিছু যেমন সংরক্ষিত তেমনই দেখানো হয়, ব্যক্তিগত তথ্যও।</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>%countটি কী, %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>বড়</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>সেশনটি খালি।</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>এই অনুরোধের জন্য কোনো সেশন শুরু হয়নি।</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>এক্সটেনশন %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>কার্নেল ও অন্যান্য</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>সব এন্ট্রি দেখানো হয়নি: সেশনে এখানে তালিকাভুক্ত করার চেয়ে বেশি আছে।</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>%countটি কী তালিকাভুক্ত নয়।</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>কাঠামো</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>টোকেনের মতো দেখায় এমন মানও (একটি JSON Web Token, একটি Authorization হেডারের ক্রেডেনশিয়াল, একটি প্রাইভেট কী, দীর্ঘ hex বা এলোমেলো টেক্সট) লুকানো থাকে, তাদের কী-এর নাম যা-ই হোক (debugbar.ini SessionValueMask[])।</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>কী-টি গোপন তথ্যের মতো দেখায় (debugbar.ini SessionMask[])।</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>মানটি টোকেনের মতো দেখায়।</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>একটি লুকানো কী-এর নিচে।</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>টেক্সট হিসেবে সেশন, টেবিলের মতোই লুকানো।</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>সেশনটি %size-এর চেয়ে বড় (debugbar.ini SessionWarnBytes): এই ব্যবহারকারীর প্রতিটি অনুরোধ পুরো সেশন পড়ে, এবং পরিবর্তিত হলে তা লেখে।</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP এই সেশনটি ফাইলে রাখে এবং পুরো অনুরোধের সময় ফাইলটি লক করে রাখে: একই ব্যবহারকারীর অনুরোধগুলো (একাধিক ট্যাব, AJAX কল) একে অপরের জন্য অপেক্ষা করে।</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>খোলা রাখুন</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>%size-এর চেয়ে বড় (debugbar.ini SessionWarnBytes): এই ব্যবহারকারীর প্রতিটি অনুরোধ পুরো সেশন পড়ে।</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%count-এর মধ্যে %hitsটি ক্যাশে থেকে পড়া হয়েছে</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>কোনো টেমপ্লেট রেন্ডার করা হয়নি (ভিউ ক্যাশে থেকে পড়া একটি ভিউ কোনো টেমপ্লেট রেন্ডার করে না)।</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>ভূমিকা নির্ধারণ</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>ভূমিকা ও নীতিমালা</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>বেনামী দর্শকদের থেকে আলাদা</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>বেনামী দর্শকদের মতোই</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70302,6 +71285,14 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>not sent</source>
         <translation>পাঠানো হয়নি</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>বিজ্ঞপ্তি ক্রন জব তার প্রতিটি চালনা এখানে রেকর্ড করে। frequent অংশটি crontab ফাইলে যোগ করুন, অথবা exp:notification:run --apply চালান।</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>কনসোল ব্যবহার করুন: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -76020,6 +77011,98 @@ You will need to change the class of the node by using the swap functionality.</
         <source>This topic is not Released; readers do not see it.</source>
         <translation>এই বিষয়টি রিলিজ করা হয়নি; পাঠকরা এটি দেখতে পান না।</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>মাইগ্রেশন</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>ফাইল হিসেবে রাখা ইনস্টলেশনের পরিবর্তন: তাদের অবস্থা, রানগুলো, চালানো ও ফিরিয়ে নেওয়া।</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>একটি সাইটের স্ট্যাটিক কপি GitHub Pages বা যেকোনো git হোস্টে প্রকাশ করুন।</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>স্ট্যাটিক প্রকাশনা</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>পর্যালোচনায়</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>পাঠকরা এই পৃষ্ঠাটি দেখতে পান।</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>কেউ রিলিজ না করা পর্যন্ত পাঠকদের কাছ থেকে লুকানো।</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>পৃষ্ঠাটি এখন পর্যালোচনায় আছে। রিলিজ না হওয়া পর্যন্ত এটি পাঠকদের কাছ থেকে লুকানো।</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>পৃষ্ঠাটি রিলিজ করা হয়েছে: পাঠকরা এখন এটি দেখতে পান।</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>পৃষ্ঠাটি আবার একটি খসড়া। পর্যালোচনা ও রিলিজ না হওয়া পর্যন্ত এটি পাঠকদের কাছ থেকে লুকানো।</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>এখনই রিলিজ করুন</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>শুধু %role ভূমিকাধারী এমন একজন ব্যবহারকারী এটি রিলিজ করতে পারেন যিনি এই সংস্করণটি লেখেননি।</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>রিলিজের অপেক্ষায় থাকা সাহায্য বিষয়সমূহ</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>আবার রিলিজ না হওয়া পর্যন্ত এটি পাঠকদের কাছ থেকে লুকিয়ে রাখে।</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>এরপর একজন পর্যালোচক এটি যাচাই করবেন। পাঠকরা এখনও এটি দেখতে পান না।</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>পাঠকরা সঙ্গে সঙ্গে এটি দেখতে পান।</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>আরও কাজের জন্য এটিকে পর্যালোচনা থেকে সরিয়ে নেয়। পাঠকরা এটি দেখতে পান না।</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>এই পৃষ্ঠাটি পাঠকদের কাছ থেকে লুকাবেন?</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>এই পৃষ্ঠাটি খসড়ায় ফেরত পাঠাবেন?</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>কেউ আবার রিলিজ না করা পর্যন্ত পাঠকরা আর %title দেখতে পান না।</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title আরও কাজের জন্য খসড়ায় ফিরে যায়। পাঠকরা এখনও এটি দেখতে পান না, এবং রিলিজের আগে এর নতুন পর্যালোচনা প্রয়োজন।</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>বাতিল করুন</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>এই বিষয়গুলো পর্যালোচনায় আছে। বর্তমান সংস্করণটি লেখেননি এমন কেউ রিলিজ করলেই পাঠকরা এগুলো দেখতে পান।</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76475,6 +77558,46 @@ You will need to change the class of the node by using the swap functionality.</
         <source>None.</source>
         <translation>কোনোটিই নয়।</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>একটি অথেনটিকেটর অ্যাপ দিয়ে</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>ইমেলে পাঠানো একটি কোড দিয়ে</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>একটি পুনরুদ্ধার কোড দিয়ে</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>একটি পাসকি দিয়ে</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>একটি বাহ্যিক অ্যাকাউন্ট দিয়ে</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>নিরাপত্তা কার্যকলাপ</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>এর নেটওয়ার্ক হিসেবে দেখানো হয়; সাইটের ডেটা সুরক্ষা সেটিংস অনুযায়ী ঠিকানাটি রাখা হয়।</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>রেকর্ড করা নেই</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>অবস্থান</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>আনুমানিক</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76718,6 +77841,42 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Manage devices</source>
         <translation>ডিভাইস পরিচালনা করুন</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>একটি অথেনটিকেটর অ্যাপ দিয়ে</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>ইমেলে পাঠানো একটি কোড দিয়ে</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>একটি পুনরুদ্ধার কোড দিয়ে</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>একটি পাসকি দিয়ে</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>একটি বাহ্যিক অ্যাকাউন্ট দিয়ে</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>নিরাপত্তা কার্যকলাপ</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>রেকর্ড করা নেই</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>অবস্থান</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>আনুমানিক</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76797,6 +77956,14 @@ You will need to change the class of the node by using the swap functionality.</
         <source>View the sessions of this user</source>
         <translation>এই ব্যবহারকারীর সেশন দেখুন</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>%site সাইটে আপনার অ্যাকাউন্ট %login দিয়ে এইমাত্র এমন একটি স্থান থেকে সাইন ইন করা হয়েছে, যেখান থেকে সম্প্রতি সাইন ইন করা হয়নি:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>আনুমানিক অবস্থান</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76835,6 +78002,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%os-এ %browser</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>সাইন-ইন প্রতিবেদন</translation>
     </message>
 </context>
 <context>
@@ -77043,6 +78214,82 @@ You will need to change the class of the node by using the swap functionality.</
         <source>The passkey could not be checked. Please try again.</source>
         <translation>পাসকি যাচাই করা যায়নি। অনুগ্রহ করে আবার চেষ্টা করুন।</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>যেসব অ্যাকাউন্ট কেবল পাসকি দিয়ে সাইন ইন করে সেগুলো এখানে পাসওয়ার্ড ব্যবহার করতে পারে না: “পাসকি দিয়ে সাইন ইন করুন” বেছে নিন।</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>%login এর পাসকি</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>এই অ্যাকাউন্ট যেসব পাসকি দিয়ে সাইন ইন করে। হারানো বা চুরি যাওয়া ডিভাইসে থাকা পাসকি প্রত্যাহার করুন: এটি আর সাইন ইন করতে পারবে না। মালিক নতুনগুলো নিজেই যোগ করেন।</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>আপনার অ্যাকাউন্টের একটি পাসকি প্রয়োজন</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>আপনার অ্যাকাউন্টে একটি পাসকি যোগ করুন</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>এগিয়ে যেতে একটি পাসকি যোগ করুন। এরপর আপনি কেবল পাসওয়ার্ডের বদলে এটি দিয়ে সাইন ইন করবেন।</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>পাসকি দিয়ে সাইন ইন করা পাসওয়ার্ডের চেয়ে দ্রুত ও নিরাপদ। এখনই একটি যোগ করুন, অথবা এটি ছাড়াই এগিয়ে যান।</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>এখন নয়</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>পাসকি “%name” প্রত্যাহার করবেন?</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>এটি আর এই অ্যাকাউন্টে সাইন ইন করতে পারবে না। এটি শেষটি হলে মালিক পাসওয়ার্ড দিয়ে সাইন ইন করবেন, অথবা আপনি একটি নতুন পাসওয়ার্ড সেট করবেন।</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>পাসকি প্রত্যাহার করুন</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>প্রত্যাহার করুন</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>এই অ্যাকাউন্টের কোনো পাসকি নেই।</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>অথেনটিকেটর</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>অজানা</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>আপনার শেষ পাসকি: এটি অপসারণের আগে আরেকটি যোগ করুন।</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>এই অ্যাকাউন্ট কেবল পাসকি দিয়ে সাইন ইন করে (পাসকি নীতি): কোনোটি না থাকলে এটি আবার নিজের পাসওয়ার্ড দিয়ে সাইন ইন করে।</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>এটি আপনার শেষ পাসকি, এবং আপনার অ্যাকাউন্ট পাসকি ছাড়া সাইন ইন করতে পারে না। আগে আরেকটি পাসকি যোগ করুন।</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>পাসকি “%name” প্রত্যাহার করা হয়েছে। এটি আর এই অ্যাকাউন্টে সাইন ইন করতে পারবে না।</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77142,6 +78389,34 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Code from your authenticator app</source>
         <translation>আপনার অথেনটিকেটর অ্যাপের কোড</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>আপনি ডেটা স্থায়ীভাবে মুছে ফেলতে বা একটি লগ খালি করতে যাচ্ছেন।</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>আপনার পাসওয়ার্ড এবং একটি পাসকি</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>আপনার পাসওয়ার্ড এবং আপনার অথেনটিকেটর অ্যাপের একটি কোড</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>অথবা:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>এই ব্রাউজার পাসকি ব্যবহার করতে পারে না। অন্য কোনো উপায় বা অন্য ব্রাউজার ব্যবহার করুন।</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>আপনি চালিয়ে গেলে আপনার ব্রাউজার আপনার একটি পাসকি চাইবে।</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>পাসকি দিয়ে চালিয়ে যান</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77232,6 +78507,70 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Setup</source>
         <translation>সেটআপ</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>নিজের পাসওয়ার্ড, ইমেইল ঠিকানা, পাসকি, দ্বি-ধাপ সাইন-ইন, পুনরুদ্ধার কোড বা API কী পরিবর্তন করা, এবং নিজের অন্যান্য ডিভাইস থেকে সাইন আউট করা।</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>ব্যবহারকারী, তাদের পাসওয়ার্ড ও ডিভাইস তৈরি ও সম্পাদনা, অ্যাকাউন্ট সেটিংস, নতুন ব্যবহারকারী অ্যাকাউন্ট অনুমোদন বা প্রত্যাখ্যান, ভূমিকা নির্ধারণ এবং নীতি সম্পাদনা।</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>ডেটা মুছে ফেলা</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>ট্র্যাশ খালি করা, সেখান থেকে আইটেম অপসারণ করা এবং একসাথে একাধিক আইটেম অপসারণ করা।</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>বিষয়বস্তু অপসারণ, প্রকাশ ও সংরক্ষণ করা</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>বিষয়বস্তু অপসারণ (ট্র্যাশে সরানোও), প্রকাশ করা এবং খসড়া সংরক্ষণ করা; ফর্ম পাঠানোর সময় জিজ্ঞাসা করা হয়। ডিফল্টভাবে বন্ধ।</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>কোনো সংবেদনশীল কার্যক্রমের আগে একজন সাইন ইন করা ব্যবহারকারী আবার নিশ্চিত করেন যে তিনি কে: তার পাসওয়ার্ড ও একটি পাসকি দিয়ে, অথবা পাসকি না থাকলে তার পাসওয়ার্ড ও তার অথেনটিকেটর অ্যাপের কোড দিয়ে। কেবল ওয়েব পৃষ্ঠাগুলো জিজ্ঞাসা করে: REST ইন্টারফেস, SOAP, WebDAV, expservices লগইন এবং কমান্ড লাইন কখনো জিজ্ঞাসা করে না।</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>সেটিংস কোথায় প্রযোজ্য</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>যার জন্য সেটিংস</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>প্রতিটি সাইটঅ্যাক্সেস</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>সাইটঅ্যাক্সেস %name</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>খুলুন</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>কাকে জিজ্ঞাসা করা হয়: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>কেবল সদস্যদের জিজ্ঞাসা করতে ব্যবহারকারী গোষ্ঠী চিহ্নিত করুন (যেমন সম্পাদকরা)। কোনোটি চিহ্নিত না থাকলে: প্রত্যেক ব্যবহারকারী।</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>settings/override/site.ini.append.php-এ সংরক্ষিত হয়, প্রতিটি সাইটঅ্যাক্সেসের জন্য। সংরক্ষণের সময় আপনাকে নিশ্চিত করতে বলা হয় যে এটি আপনি।</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>settings/siteaccess/%name/site.ini.append.php-এ সংরক্ষিত হয়। settings/override-এর কোনো মান এর ওপর অগ্রাধিকার পায়। সংরক্ষণের সময় আপনাকে নিশ্চিত করতে বলা হয় যে এটি আপনি।</translation>
     </message>
 </context>
 <context>
@@ -77334,6 +78673,6822 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Open the page</source>
         <translation>পৃষ্ঠাটি খুলুন</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from থেকে %to, মোট %count</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>একটি লগইন নাম বা ব্যবহারকারী ID: যে অ্যাকাউন্টের বিষয়ে ইভেন্টটি ঘটেছে, অথবা যে ব্যবহারকারী কাজটি করেছেন।</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>অ্যাকাউন্ট</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>কার্যক্রম</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>পরে</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>যেকোনো ফলাফল</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>পূর্বে</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>সম্পাদনকারী</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>মুছে ফেলুন</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>সম্পন্ন</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>ইভেন্টগুলো %days দিন রাখা হয়।</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>হাতে মুছে না ফেলা পর্যন্ত ইভেন্টগুলো রাখা হয়।</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>ইভেন্টসমূহ</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>সব কার্যক্রম</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>এই অ্যাকাউন্টের সব ইভেন্ট</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>তালিকাটি CSV হিসেবে এক্সপোর্ট করুন (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>ব্যর্থ হয়েছে</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>থেকে</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>তালিকা সংকুচিত করুন</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>কোনো ইভেন্ট মেলেনি।</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>প্রতি পৃষ্ঠায়</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>audit.ini ফাইলে রেকর্ডিং বন্ধ করা আছে ([UserAuditSettings] UserAudit); তালিকাটি আগে রেকর্ড করা তথ্য দেখায়।</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>প্রত্যাখ্যাত</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>ফলাফল</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>দেখান</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>ব্যবহারকারী অডিট লগের টেবিলটি নেই। php update/common/scripts/6.0/createuseraudittable.php দিয়ে এটি তৈরি করুন; ততক্ষণ পর্যন্ত অডিট ফাইলগুলো প্রতিটি ইভেন্ট সংরক্ষণ করে।</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>এই পৃষ্ঠার জন্য একটি SQL ডেটাবেস প্রয়োজন; MongoDB ব্যবহার করলে এটি উপলব্ধ নয়। অডিট ফাইলগুলো প্রতিটি ইভেন্ট সংরক্ষণ করে।</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>পর্যন্ত</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>ব্যবহারকারী অডিট লগ</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>ব্যবহারকারী</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>কখন</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>কোথায়</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>কে কোন অ্যাকাউন্ট পরিবর্তন, তৈরি, সক্রিয়, নিষ্ক্রিয়, স্থানান্তর বা অপসারণ করেছেন, কে সাইন ইন করেছেন বা প্রত্যাখ্যাত হয়েছেন এবং কোন ভূমিকাগুলো বরাদ্দ করা হয়েছে: প্রতিটি ইভেন্টের জন্য একটি লাইন, আগের ও পরের ফিল্ডসহ। পাসওয়ার্ড ও গোপন তথ্য কখনও রেকর্ড করা হয় না।</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>গ্রুপ</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>সিস্টেম</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>অজানা</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>আপনার অ্যাকাউন্ট সুরক্ষিত করুন</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>%site সাইটে আপনার অ্যাকাউন্ট %login এ সাইন ইন করতে একটি পুনরুদ্ধার কোড ব্যবহার করা হয়েছে।</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>একটি পুনরুদ্ধার কোড ব্যবহার করা হয়েছে</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>অ্যাকাউন্ট</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>আনুমানিক ঠিকানা</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>আবার সাইন ইন করতে একটি নতুন পাসওয়ার্ডের অনুরোধ করুন, অথবা সাইটের প্রশাসকদের সাথে যোগাযোগ করুন।</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>নতুন পাসওয়ার্ডের অনুরোধ করুন</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>প্রতিটি পুনরুদ্ধার কোড একবারই কাজ করে। আপনার ফোন হারিয়ে গেলে আপনার অথেনটিকেটর অ্যাপ আবার সেট আপ করুন এবং নতুন পুনরুদ্ধার কোডগুলো নিরাপদ স্থানে রাখুন।</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>আপনার অ্যাকাউন্টে ব্যর্থ সাইন-ইন প্রচেষ্টা</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>এখন থেকে সাইন ইন করার সময় আপনার পাসওয়ার্ডের পাশাপাশি একটি কোড চাওয়া হবে। এটি আপনি করে থাকলে আপনাকে কিছু করতে হবে না।</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>এটি আপনি হয়ে থাকলে এবং পাসওয়ার্ড ভুলে গিয়ে থাকলে একটি নতুন পাসওয়ার্ডের অনুরোধ করুন। তা না হলে আরও শক্তিশালী পাসওয়ার্ড বেছে নিন এবং দ্বি-ধাপ সাইন-ইন চালু করুন।</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>এটি আপনি না হলে কেউ হয়তো আপনার পাসওয়ার্ড জানে: এখনই এটি পরিবর্তন করুন এবং দেখুন আপনার অ্যাকাউন্ট কোথায় সাইন ইন করা আছে।</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>অবশিষ্ট পুনরুদ্ধার কোড</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>আপনার ডিভাইস পর্যালোচনা করুন</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>নিরাপত্তা সতর্কতা</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>কেউ %site সাইটে আপনার অ্যাকাউন্ট %login এ ভুল পাসওয়ার্ড দিয়ে পরপর %count বার সাইন ইন করার চেষ্টা করেছে।</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>%site সাইটে আপনার অ্যাকাউন্ট %login এ একটি নিরাপত্তা ইভেন্ট ঘটেছে।</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>এটি আপনার অ্যাকাউন্ট সম্পর্কে একটি নিরাপত্তা সতর্কতা। এ ধরনের প্রতিটি পরিবর্তনের জন্য এটি পাঠানো হয় এবং এটি বন্ধ করা যায় না।</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>সময়</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>%site সাইটে আপনার অ্যাকাউন্ট %login এর জন্য দ্বি-ধাপ সাইন-ইন বন্ধ করা হয়েছে।</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>দ্বি-ধাপ সাইন-ইন বন্ধ করা হয়েছে</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>%site সাইটে আপনার অ্যাকাউন্ট %login এর জন্য দ্বি-ধাপ সাইন-ইন চালু করা হয়েছে।</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>দ্বি-ধাপ সাইন-ইন চালু করা হয়েছে</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>অনেকবার ব্যর্থ সাইন-ইনের পর %site সাইটে আপনার অ্যাকাউন্ট %login লক করা হয়েছে।</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>আপনার অ্যাকাউন্ট এখন শুধু আপনার পাসওয়ার্ড দিয়ে সুরক্ষিত। এটি আপনি না করে থাকলে পাসওয়ার্ড পরিবর্তন করার পর দ্বি-ধাপ সাইন-ইন আবার চালু করুন।</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>আপনার অ্যাকাউন্ট লক করা হয়েছে</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>%site সাইটে আপনার অ্যাকাউন্ট %login এ একটি পাসকি যোগ করা হয়েছে।</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>এই পাসকি যার কাছে আছে সে আপনার পাসওয়ার্ড ছাড়াই আপনার অ্যাকাউন্টে সাইন ইন করতে পারে। আপনি এটি যোগ না করে থাকলে পাসকি অংশে গিয়ে এটি অপসারণ করুন এবং আপনার পাসওয়ার্ড পরিবর্তন করুন।</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>%site সাইটে আপনার অ্যাকাউন্ট %login থেকে একটি পাসকি অপসারণ করা হয়েছে।</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>এটি আর আপনার অ্যাকাউন্টে সাইন ইন করতে পারবে না। আপনি এটি অপসারণ না করে থাকলে আপনার পাসকি ও ডিভাইসগুলো পরীক্ষা করুন।</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>আপনার অ্যাকাউন্টে একটি পাসকি যোগ করা হয়েছে</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>আপনার অ্যাকাউন্ট থেকে একটি পাসকি অপসারণ করা হয়েছে</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>নিরাপত্তা কার্যকলাপ</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>%name এর নিরাপত্তা কার্যকলাপ</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>সাইন ইন করা হয়েছে</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>ব্যর্থ সাইন-ইন প্রচেষ্টা</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>সাইন আউট করা হয়েছে</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>সেশন সাইন আউট করা হয়েছে</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>নতুন ডিভাইস থেকে সাইন-ইন</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>নতুন অবস্থান থেকে সাইন-ইন</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>পরিচয় নিশ্চিত করা হয়েছে (“নিশ্চিত করুন যে এটি আপনি”)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>পরিচয় যাচাই ব্যর্থ হয়েছে</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>পাসকি দিয়ে সাইন ইন করা হয়েছে</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>পাসকি দিয়ে সাইন-ইন ব্যর্থ হয়েছে</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>সাইন-ইন প্রত্যাখ্যাত: দ্বি-ধাপ কোড নেই বা ভুল</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>ভুল দ্বি-ধাপ কোড</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>ব্যর্থ সাইন-ইনের পর অ্যাকাউন্ট লক করা হয়েছে</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>অ্যাকাউন্ট আনলক করা হয়েছে</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>পাসওয়ার্ড পরিবর্তন করা হয়েছে</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>পাসওয়ার্ড পরিবর্তন ব্যর্থ হয়েছে</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>পাসওয়ার্ড রিসেট করা হয়েছে</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>নতুন পাসওয়ার্ডের অনুরোধ করা হয়েছে</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>ইমেল ঠিকানা পরিবর্তন করা হয়েছে</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>ব্যবহারকারীর নাম পরিবর্তন করা হয়েছে</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>দ্বি-ধাপ সাইন-ইন চালু করা হয়েছে</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>দ্বি-ধাপ সাইন-ইন বন্ধ করা হয়েছে</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>পুনরুদ্ধার কোড ব্যবহার করা হয়েছে</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>নতুন পুনরুদ্ধার কোড</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>অ্যাপ পাসওয়ার্ড তৈরি করা হয়েছে</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>অ্যাপ পাসওয়ার্ড প্রত্যাহার করা হয়েছে</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>পাসকি যোগ করা হয়েছে</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>পাসকি অপসারণ করা হয়েছে</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>অ্যাকাউন্ট সক্রিয় করা হয়েছে</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>অ্যাকাউন্ট নিষ্ক্রিয় করা হয়েছে</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>সব</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>সাইন-ইন ও সেশন</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>অ্যাকাউন্টের পরিবর্তন</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>মনোযোগ প্রয়োজন</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>আপনার দ্বারা</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>ব্যবহারকারীর দ্বারা</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>%login দ্বারা</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>পদ্ধতি</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>ব্রাউজার</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>অপারেটিং সিস্টেম</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>ডিভাইস</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>স্থান</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>দেশ</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>সেশন</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>কোনগুলো</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>মাধ্যম</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>ব্যর্থ প্রচেষ্টা</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>অবশিষ্ট কোড</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>সাইন-ইন হ্যান্ডলার</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>নিরাপত্তা কার্যকলাপ</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>%name এর নিরাপত্তা কার্যকলাপ</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>আপনার অ্যাকাউন্টের সাইন-ইন এবং নিরাপত্তায় পরিবর্তন। এমন কিছু দেখলে যা আপনি করেননি, আপনার পাসওয়ার্ড পরিবর্তন করুন এবং যে ডিভাইসগুলো আপনি চেনেন না সেগুলো সাইন আউট করুন।</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>এই অ্যাকাউন্টের সাইন-ইন এবং নিরাপত্তায় পরিবর্তন।</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>আপনার ডিভাইস</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>পাসওয়ার্ড পরিবর্তন করুন</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>অ্যাকাউন্টে ফিরে যান</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>নিরাপত্তা কার্যকলাপ রেকর্ড করা হয় না</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>এটি ব্যবহারকারী অডিট লগ থেকে পড়া হয়, যার টেবিল expuser_audit নেই বা এই ডেটাবেসে সমর্থিত নয়। php update/common/scripts/6.0/createuseraudittable.php চালান, অথবা 6.0.15 এর ডেটাবেস আপডেট চালান।</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>গত %days দিন</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>গত %days দিনে সাইন-ইন</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>সাম্প্রতিক নিরাপত্তা কার্যকলাপ</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>দেখান</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>ব্যর্থ</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>প্রত্যাখ্যাত</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>এখনও কোনো নিরাপত্তা কার্যকলাপ রেকর্ড করা হয়নি।</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>নিরাপত্তা ইভেন্টগুলো %days দিন রাখা হয়।</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>কোনো প্রশাসক অপসারণ না করা পর্যন্ত নিরাপত্তা ইভেন্টগুলো রাখা হয়।</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>আমার সাইন-ইন ডেটা ডাউনলোড করুন</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>JSON ফাইল হিসেবে আপনার সেশন ও নিরাপত্তা ইভেন্ট।</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>এই সাইটে সেশন রেকর্ড করা হয় না, তাই অন্য কোনো ডিভাইস সাইন আউট করা যায়নি। এখনই আপনার পাসওয়ার্ড পরিবর্তন করুন।</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>অন্য %countটি সেশন সাইন আউট করা হয়েছে। এখন আপনার পাসওয়ার্ড পরিবর্তন করুন।</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>অন্য কোনো ডিভাইস সাইন ইন করা ছিল না। এখন আপনার পাসওয়ার্ড পরিবর্তন করুন।</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>ধন্যবাদ। ঘটনাটি আপনার হিসেবে চিহ্নিত করা হয়েছে।</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>ওই ঘটনার কোনো উত্তরের প্রয়োজন নেই।</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>পৃষ্ঠাটির মেয়াদ শেষ হয়ে গিয়েছিল। কিছুই পরিবর্তন করা হয়নি; অনুগ্রহ করে আবার চেষ্টা করুন।</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>আপনার অ্যাকাউন্ট সুরক্ষিত করুন</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>এখানে কোনো কিছু যদি আপনি না করে থাকেন, তাহলে অন্য সব ডিভাইস সাইন আউট করুন, তারপর একটি নতুন পাসওয়ার্ড বেছে নিন। আমাকে মনে রাখুন দিয়ে সাইন ইন থাকা ডিভাইসগুলোও সাইন আউট হয়ে যায়।</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>এটি ছাড়া প্রতিটি ডিভাইস তার পরবর্তী অনুরোধে সাইন আউট হয়ে যায়। তারপর আপনি একটি নতুন পাসওয়ার্ড বেছে নেবেন।</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>হ্যাঁ, অন্য ডিভাইসগুলো সাইন আউট করুন</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>এটি কি আপনি ছিলেন?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>হ্যাঁ, এটি আমি ছিলাম</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>না, আমার অ্যাকাউন্ট সুরক্ষিত করুন</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>সাইন ইন করা হয়েছে</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>ব্যর্থ সাইন-ইন প্রচেষ্টা</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>সাইন আউট করা হয়েছে</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>সেশন সাইন আউট করা হয়েছে</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>নতুন ডিভাইস থেকে সাইন-ইন</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>নতুন অবস্থান থেকে সাইন-ইন</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>পরিচয় নিশ্চিত করা হয়েছে (“নিশ্চিত করুন যে এটি আপনি”)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>পরিচয় যাচাই ব্যর্থ হয়েছে</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>পাসকি দিয়ে সাইন ইন করা হয়েছে</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>পাসকি দিয়ে সাইন-ইন ব্যর্থ হয়েছে</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>সাইন-ইন প্রত্যাখ্যাত: দ্বি-ধাপ কোড নেই বা ভুল</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>ভুল দ্বি-ধাপ কোড</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>ব্যর্থ সাইন-ইনের পর অ্যাকাউন্ট লক করা হয়েছে</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>অ্যাকাউন্ট আনলক করা হয়েছে</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>পাসওয়ার্ড পরিবর্তন করা হয়েছে</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>পাসওয়ার্ড পরিবর্তন ব্যর্থ হয়েছে</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>পাসওয়ার্ড রিসেট করা হয়েছে</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>নতুন পাসওয়ার্ডের অনুরোধ করা হয়েছে</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>ইমেল ঠিকানা পরিবর্তন করা হয়েছে</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>ব্যবহারকারীর নাম পরিবর্তন করা হয়েছে</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>দ্বি-ধাপ সাইন-ইন চালু করা হয়েছে</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>দ্বি-ধাপ সাইন-ইন বন্ধ করা হয়েছে</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>পুনরুদ্ধার কোড ব্যবহার করা হয়েছে</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>নতুন পুনরুদ্ধার কোড</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>অ্যাপ পাসওয়ার্ড তৈরি করা হয়েছে</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>অ্যাপ পাসওয়ার্ড প্রত্যাহার করা হয়েছে</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>পাসকি যোগ করা হয়েছে</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>পাসকি অপসারণ করা হয়েছে</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>অ্যাকাউন্ট সক্রিয় করা হয়েছে</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>অ্যাকাউন্ট নিষ্ক্রিয় করা হয়েছে</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>সব</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>সাইন-ইন ও সেশন</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>অ্যাকাউন্টের পরিবর্তন</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>মনোযোগ প্রয়োজন</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>নিরাপত্তা কার্যকলাপ</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>%name এর নিরাপত্তা কার্যকলাপ</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>আপনার অ্যাকাউন্টের সাইন-ইন এবং নিরাপত্তায় পরিবর্তন। এমন কিছু দেখলে যা আপনি করেননি, আপনার পাসওয়ার্ড পরিবর্তন করুন এবং যে ডিভাইসগুলো আপনি চেনেন না সেগুলো সাইন আউট করুন।</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>আপনার ডিভাইস</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>পাসওয়ার্ড পরিবর্তন করুন</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>এই সাইটে নিরাপত্তা কার্যকলাপ এখনও রেকর্ড করা হয় না।</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>গত %days দিনে সাইন-ইন</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>ব্যর্থ প্রচেষ্টা</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>এখনও কোনো নিরাপত্তা কার্যকলাপ রেকর্ড করা হয়নি।</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>আমার সাইন-ইন ডেটা ডাউনলোড করুন</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>JSON ফাইল হিসেবে আপনার সেশন ও নিরাপত্তা ইভেন্ট।</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>এই সাইটে সেশন রেকর্ড করা হয় না, তাই অন্য কোনো ডিভাইস সাইন আউট করা যায়নি। এখনই আপনার পাসওয়ার্ড পরিবর্তন করুন।</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>অন্য %countটি সেশন সাইন আউট করা হয়েছে। এখন আপনার পাসওয়ার্ড পরিবর্তন করুন।</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>অন্য কোনো ডিভাইস সাইন ইন করা ছিল না। এখন আপনার পাসওয়ার্ড পরিবর্তন করুন।</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>ধন্যবাদ। ঘটনাটি আপনার হিসেবে চিহ্নিত করা হয়েছে।</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>ওই ঘটনার কোনো উত্তরের প্রয়োজন নেই।</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>পৃষ্ঠাটির মেয়াদ শেষ হয়ে গিয়েছিল। কিছুই পরিবর্তন করা হয়নি; অনুগ্রহ করে আবার চেষ্টা করুন।</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>আপনার অ্যাকাউন্ট সুরক্ষিত করুন</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>এখানে কোনো কিছু যদি আপনি না করে থাকেন, তাহলে অন্য সব ডিভাইস সাইন আউট করুন, তারপর একটি নতুন পাসওয়ার্ড বেছে নিন। আমাকে মনে রাখুন দিয়ে সাইন ইন থাকা ডিভাইসগুলোও সাইন আউট হয়ে যায়।</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>এটি ছাড়া প্রতিটি ডিভাইস তার পরবর্তী অনুরোধে সাইন আউট হয়ে যায়। তারপর আপনি একটি নতুন পাসওয়ার্ড বেছে নেবেন।</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>হ্যাঁ, অন্য ডিভাইসগুলো সাইন আউট করুন</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>এটি কি আপনি ছিলেন?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>হ্যাঁ, এটি আমি ছিলাম</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>না, আমার অ্যাকাউন্ট সুরক্ষিত করুন</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>পাসওয়ার্ড</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>পাসওয়ার্ড ও দ্বি-ধাপ কোড</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>REST ইন্টারফেস</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>SOAP ইন্টারফেস</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>সিঙ্গেল সাইন-অন</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>সেশন রেকর্ড শুরু হওয়ার আগে সাইন ইন করা হয়েছে</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>সাইন-ইন প্রতিবেদন</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>সাইটে কে সাইন ইন করে আছেন, অ্যাকাউন্টগুলো কত ঘন ঘন সাইন ইন করে ও ব্যর্থ হয়, এবং একজন ব্যবহারকারীকে সব জায়গা থেকে সাইন আউট করা। এটি যেকোনো সেশন হ্যান্ডলারের সাথে কাজ করে।</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>সেশনটি সাইন আউট করা হয়েছে। ডিভাইসটিকে আবার সাইন ইন করতে হবে।</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>%login কে %count টি সেশন থেকে সাইন আউট করা হয়েছে।</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>%login এর কোনো চলমান সেশন ছিল না।</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>এই ID, ব্যবহারকারীর নাম বা ইমেল ঠিকানার কোনো অ্যাকাউন্ট নেই।</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>এটি সেই সেশন যা আপনি ব্যবহার করছেন। এটি শেষ করতে সাইন আউট করুন।</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>সেই সেশনটি আগেই শেষ হয়ে গিয়েছিল।</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>পৃষ্ঠাটির মেয়াদ শেষ হয়ে গিয়েছিল। কিছুই পরিবর্তন করা হয়নি; অনুগ্রহ করে আবার চেষ্টা করুন।</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>এই সাইটে সেশন রেকর্ড করা হয় না (site.ini [UserSessionSettings] Tracking=disabled)।</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>expuser_session টেবিলটি নেই</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>টেবিলটি তৈরি হলেই সেশন রেকর্ড করা হবে: php update/common/scripts/6.0/createusersessiontable.php, অথবা 6.0.15 এর ডেটাবেস আপডেট।</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>এখন ও আজ</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>চলমান সেশন</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>সাইন ইন করা ব্যবহারকারী</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>আজকের সাইন-ইন</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>আজকের ব্যর্থ প্রচেষ্টা</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>একজন ব্যবহারকারীকে সব জায়গা থেকে সাইন আউট করুন</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>অ্যাকাউন্টের প্রতিটি সেশন তার পরবর্তী অনুরোধে শেষ হয়, “আমাকে মনে রাখুন” দিয়ে রাখা সেশনগুলোও। কোনো অ্যাকাউন্ট ভুল হাতে পড়ে থাকতে পারে এমন হলে এটি ব্যবহার করুন; তারপর এর পাসওয়ার্ড রিসেট করুন।</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>ব্যবহারকারী ID, ব্যবহারকারীর নাম বা ইমেল ঠিকানা</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>সব জায়গা থেকে সাইন আউট করুন</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>এখন সাইন ইন করা</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>সর্বশেষ ব্যবহৃত %limit টি দেখানো হচ্ছে।</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>ব্যবহারকারী</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>ডিভাইস</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>ঠিকানা</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>সাইন ইন করা হয়েছে</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>সর্বশেষ সক্রিয়</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>অ্যাকশন</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>এই ডিভাইস</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>রেকর্ড করা নেই</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>সাইন আউট করুন</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>কোনো সেশন সাইন ইন করা নেই।</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>গত %days দিন</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>সাইন-ইন ও ব্যর্থ প্রচেষ্টা ব্যবহারকারী অডিট লগ থেকে গণনা করা হয়, যা নেই; নতুন সেশনগুলো গণনা করা হয়।</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>দিন</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>সাইন-ইন</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>ব্যর্থ প্রচেষ্টা</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>নতুন সেশন</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>সেশন হ্যান্ডলার: %handler। সেশনগুলো expuser_session টেবিল থেকে পড়া হয়, তাই প্রতিবেদনটি যেকোনো হ্যান্ডলারের সাথে কাজ করে।</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>গত %hours ঘণ্টায় সন্দেহজনক কার্যকলাপ</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>একটি নেটওয়ার্ক %accountsটি অ্যাকাউন্টে সাইন ইন করতে ব্যর্থ হয়েছে (%countটি প্রচেষ্টা)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>ব্যর্থ সাইন-ইনের পরে অ্যাকাউন্ট লক করা হয়েছে</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>একটি অ্যাকাউন্টে %countটি ব্যর্থ সাইন-ইন</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>একই সময়ে %countটি দেশ থেকে সাইন ইন করা হয়েছে</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>নিরাপত্তা কার্যকলাপ</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>সেশন</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>ব্যর্থ সাইন-ইনগুলো ব্যবহারকারী অডিট লগ থেকে পড়া হয়, যা এখানে উপলব্ধ নয়।</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>সন্দেহজনক কিছু নেই: বারবার ব্যর্থ সাইন-ইন সহ কোনো অ্যাকাউন্ট নেই, একাধিক অ্যাকাউন্ট চেষ্টা করা কোনো নেটওয়ার্ক নেই, একাধিক দেশ থেকে সাইন ইন করা কোনো অ্যাকাউন্ট নেই।</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>আপনার অ্যাকাউন্টের নিরাপত্তা সতর্কতা</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>আপনার অ্যাকাউন্ট %login এ একটি নিরাপত্তা ইভেন্ট ঘটেছে: %event। এটি আপনি না হলে %url ঠিকানায় আপনার অ্যাকাউন্ট সুরক্ষিত করুন।</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>সেটআপ</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>এই সাইটের কনটেন্ট থেকে একটি পৃষ্ঠার ঠিক যে ফিল্ডগুলো দরকার, সেগুলো একটি অনুরোধেই চেয়ে নিন। স্কিমা কনটেন্ট ক্লাস অনুসরণ করে; প্রতিটি কোয়েরি তার প্রেরক ব্যবহারকারীর অধিকার নিয়ে চলে।</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>এই সাইটঅ্যাক্সেসে GraphQL API বন্ধ আছে। graphql.ini ফাইলে এটি চালু করুন: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>GraphQL লাইব্রেরি (webonyx/graphql-php 15) ইনস্টল করা নেই।</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>এন্ড পয়েন্ট</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>লাইব্রেরি</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>স্কিমা</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>%count কনটেন্ট ক্লাস, স্কিমা %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>কোয়েরি</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>ভেরিয়েবল (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>চালান</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>উত্তর</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>চলছে…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>উত্তরটি পড়া যায়নি।</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>কোয়েরিটি আপনার অধিকার নিয়ে, এই সেশনে সাইন ইন অবস্থায় চলে।</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%seconds সে-এ %count</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>কোনো সীমা নেই</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>গভীরতা</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>জটিলতা</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>প্রতি তালিকায় আইটেম</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (ডিফল্ট %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>প্রতি ব্যবহারকারী বা কী-তে অনুরোধ</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>প্রতি বেনামি ঠিকানায় অনুরোধ</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>ইনট্রোস্পেকশন</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>শুধু সংরক্ষিত কোয়েরি</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>সবচেয়ে বড় কোয়েরি</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>%bytes বাইট</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>সবচেয়ে বড় আপলোড</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>%siteaccess নামে কোনো সাইটঅ্যাক্সেস নেই।</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>%siteaccess-এ মিউটেশন চালু করা হয়েছে।</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>%siteaccess-এ মিউটেশন বন্ধ করা হয়েছে।</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>%siteaccess-এ GraphQL API চালু করা হয়েছে।</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>%siteaccess-এ GraphQL API বন্ধ করা হয়েছে।</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>সেটিংস লেখা যায়নি: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>উত্তর ক্যাশ খালি করা হয়েছে: %count টি উত্তর সরানো হয়েছে।</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>কোয়েরিটি সরাতে তার পাশের বাক্সে টিক দিন।</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>কোয়েরিটি সরানো যায়নি: PersistedQueryDirectoryList[]-এর কোনো ডিরেক্টরিতে সরবরাহকৃত কোয়েরি তার ফাইলের সঙ্গে সরানো হয়।</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>সংরক্ষিত কোয়েরিটি সরানো হয়েছে।</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>মিউটেশন</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>চালু</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>বন্ধ</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>সাইটঅ্যাক্সেস</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>API ও এর মিউটেশন কোথায় উত্তর দেয়। বোতামগুলো graphql.ini লেখে, যেমন ./console exp:graphql:enable ও exp:graphql:disable করে।</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>সাইটঅ্যাক্সেস</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>GraphQL API</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>পরিবর্তন</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>বন্ধ করুন</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>মিউটেশন বন্ধ</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>মিউটেশন চালু</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>চালু করুন</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>সীমা</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>এই সাইটঅ্যাক্সেসের graphql.ini [GraphQLSettings]।</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>উত্তর ক্যাশ</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>সংরক্ষিত কোয়েরির উত্তর, ব্যবহারকারীর অধিকার অনুযায়ী রাখা হয় এবং কনটেন্ট প্রকাশিত হলেই মেয়াদোত্তীর্ণ হয়।</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>অবস্থা</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>রাখা উত্তর</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>%count টি উত্তর, %bytes বাইট</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>সর্বোচ্চ রাখা হয়</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds সে</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>শেষ মেয়াদোত্তীর্ণ</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>উত্তর ক্যাশ খালি করুন</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>সংরক্ষিত কোয়েরি</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>./console exp:graphql:persist দিয়ে বা ক্লায়েন্টদের মাধ্যমে সংরক্ষিত (স্বয়ংক্রিয় সংরক্ষিত কোয়েরি); নাম বা SHA-256 দিয়ে ডাকা হয়।</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>নাম</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>আকার</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>কোথায়</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>সরান</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>সরবরাহকৃত</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>সংরক্ষিত</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>হ্যাঁ, এই কোয়েরিটি সরান</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>এখনও কোনো সংরক্ষিত কোয়েরি নেই।</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>API কী</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>graphql:read (কোয়েরি) বা graphql:write (মিউটেশন) স্কোপসহ ব্যক্তিগত API কী। এগুলো API অ্যাক্সেস পৃষ্ঠায় বা ./console exp:graphql:keys দিয়ে তৈরি ও বাতিল করুন।</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>API অ্যাক্সেস</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>সব কী</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>কী</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>নাম</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>মালিক</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>স্কোপ</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>শেষ ব্যবহার</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>সক্রিয়</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>মেয়াদোত্তীর্ণ</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>বাতিল</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>কখনও না</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>এখনও GraphQL স্কোপসহ কোনো API কী নেই।</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>এই পৃষ্ঠাটি দেখানো সাইটঅ্যাক্সেস %siteaccess-এ GraphQL API বন্ধ আছে; নিচের টেবিলে দেখানো হয়েছে এটি কোথায় উত্তর দেয়।</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>এই পৃষ্ঠাটি দেখানো সাইটঅ্যাক্সেস %siteaccess-এর জন্য।</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>ওয়েবহুক</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>কোনো এন্ড পয়েন্ট যে ইভেন্টগুলো চায় (publish, update, trash, delete, move, hide, reveal, mutation), তার প্রতিটি cronjob অংশ graphqlwebhooks স্বাক্ষর করে তাকে পাঠায়। ./console exp:graphql:webhooks এই অংশের মতোই কাজ করে।</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>ইভেন্ট</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>সব</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>প্রতিটি সাইটঅ্যাক্সেস</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>ত্রুটিপূর্ণ</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>সিক্রেট নেই</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>অপেক্ষমাণ</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count বাতিল</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>শেষ ডেলিভারি</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>পরীক্ষা পাঠান</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>হ্যাঁ, এই ওয়েবহুকটি সরান</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>এখনও কোনো ওয়েবহুক নেই।</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>ওয়েবহুক যোগ করুন</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>যোগ করুন</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>সাম্প্রতিক ডেলিভারি</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>সময়</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>ফলাফল</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>সাবস্ক্রিপশন</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>ক্লায়েন্টদের জন্য লাইভ আপডেট: /api/graphql/subscribe-এ একটি ইভেন্ট স্ট্রিম, এবং Velocity-তে একটি WebSocket (graphql-transport-ws)। প্রতিটি ইভেন্ট কেবল সেই সাবস্ক্রাইবারদের কাছে যায় যারা এর কনটেন্ট পড়তে পারেন।</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>এখন খোলা</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>সর্বোচ্চ খোলা</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>মোট %total, ব্যবহারকারী প্রতি %user, ঠিকানা প্রতি %address</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>বেনামী সাবস্ক্রিপশন</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>স্ট্রিমের দৈর্ঘ্য</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>ওয়েবহুকটি যোগ করা যায়নি: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>ওয়েবহুক %name পরিবর্তন করা হয়েছে; এর সাইনিং সিক্রেট একই থাকে।</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>সাইনিং সিক্রেট সংরক্ষণ করা যায়নি (সেটআপ &gt; সিক্রেট)।</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>ওয়েবহুক %name যোগ করা হয়েছে। এর সাইনিং সিক্রেট, কেবল এবারই দেখানো হচ্ছে: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>%name নামে কোনো ওয়েবহুক নেই।</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>ওয়েবহুক %name উত্তর দেয়নি: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>ওয়েবহুক %name %ms ms-এ %status উত্তর দিয়েছে।</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>ওয়েবহুকটি সরাতে তার পাশের বাক্সে টিক দিন।</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>ওয়েবহুক %name সরানো হয়েছে।</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>এই সাইটঅ্যাক্সেসে GraphQL API বন্ধ আছে।</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>GraphQL লাইব্রেরি ইনস্টল করা নেই।</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>GET বা POST ব্যবহার করুন।</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>বডি কোনো JSON অবজেক্ট নয়।</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables কোনো JSON অবজেক্ট নয়।</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions কোনো JSON অবজেক্ট নয়।</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>কোয়েরিটি POST দিয়ে পাঠান।</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>অনুরোধে কোনো কোয়েরি নেই।</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>কোয়েরিটি %max বাইটের চেয়ে দীর্ঘ।</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>অভ্যন্তরীণ সার্ভার ত্রুটি</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node-এর জন্য id, remoteId, path ও urlAlias-এর ঠিক একটি প্রয়োজন।</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content-এর জন্য id ও remoteId-এর ঠিক একটি প্রয়োজন।</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>after-এর কার্সরটি এই API-এর দেওয়া নয়।</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>%alias নামে কোনো ছবির অ্যালিয়াস নেই (image.ini [AliasSettings] AliasList[])।</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>এখানে শুধু সার্ভারে সংরক্ষিত কোয়েরি গ্রহণ করা হয়: একটি সংরক্ষিত কোয়েরির id পাঠান।</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>সংরক্ষিত কোয়েরির hash কোনো SHA-256 নয়।</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>সংরক্ষিত কোয়েরির hash কোয়েরির সঙ্গে মেলে না।</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>অত্যধিক অনুরোধ: %window সেকেন্ডে সর্বোচ্চ %limit টি। %reset সেকেন্ড পরে আবার চেষ্টা করুন।</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>কোয়েরিটি %depth স্তর গভীর; সর্বোচ্চ %max টি অনুমোদিত।</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>কোয়েরিটির জটিলতা %complexity; সর্বোচ্চ %max অনুমোদিত।</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>এই অনুরোধ স্কিমা পড়তে পারবে না (introspection)।</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search-এর জন্য একটি টেক্সট বা একটি ফিল্টার প্রয়োজন (classes, subtree, sections, publishedAfter, publishedBefore)।</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument কোনো তারিখ নয় (ISO 8601, 2026-10-30)।</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag-এর জন্য id, remoteId ও path-এর ঠিক একটি প্রয়োজন।</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout-এর জন্য id, identifier ও urlAlias-এর ঠিক একটি প্রয়োজন।</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>multipart অনুরোধের operations ফিল্ডটি একটি JSON অনুরোধ নয়।</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>multipart অনুরোধের map ফিল্ডটি কোনো JSON অবজেক্ট নয়।</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>multipart অনুরোধে %field ফাইলটি নেই।</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>map ফিল্ডের প্রতিটি পাথ variables. দিয়ে শুরু হতে হবে: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>%name ফাইলটি সম্পূর্ণ পৌঁছায়নি (আপলোড ত্রুটি %error)।</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>%name ফাইলটি %max বাইটের চেয়ে বড়।</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>%name ফাইলটি যাচাই করা যায়নি।</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>এই সাইটঅ্যাক্সেসে মিউটেশন বন্ধ আছে (graphql.ini [GraphQLSettings] MutationsEnabled)।</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>মিউটেশনটি POST দিয়ে পাঠান।</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>কনটেন্ট পরিবর্তন করতে সাইন ইন করুন।</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>API কী-টির %scope স্কোপ নেই।</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>সেশনসহ একটি মিউটেশনের জন্য সেশনের ফর্ম টোকেন প্রয়োজন (হেডার X-CSRF-Token)।</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>uploadFromUrl বন্ধ আছে: graphql.ini [GraphQLSettings] UploadFromUrlHostList[]-এ কোনো হোস্টের নাম নেই।</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>ঠিকানাটি একটি https ঠিকানা হতে হবে।</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>%host হোস্টটি graphql.ini [GraphQLSettings] UploadFromUrlHostList[]-এ নেই।</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>ফাইলটি আনা যায়নি।</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload শুধু একটি ইনপুট টাইপ।</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>Upload টাইপের একটি ভেরিয়েবল একটি multipart অনুরোধের ফাইল গ্রহণ করে।</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>remote id %remoteId ইতিমধ্যে ব্যবহৃত।</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>কনটেন্টটির ইতিমধ্যে %language ভাষায় অনুবাদ আছে: updateContent ব্যবহার করুন।</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>অন্তত একটি ফিল্ড দিন।</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>কোনো নতুন সংস্করণ তৈরি করা যায়নি (কনটেন্টটির অনেক বেশি খসড়া আছে)।</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>সংস্করণ %version কোনো খসড়া নয়।</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent-এর জন্য id ও nodeId-এর ঠিক একটি প্রয়োজন।</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>একটি অবস্থান নিজের নিচে সরানো যায় না।</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>কনটেন্টটির ইতিমধ্যে %parentId-এর নিচে একটি অবস্থান আছে।</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>%field ফিল্ডের মান সংরক্ষণ করা যায়নি।</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>%language নামে কোনো কনটেন্ট ভাষা নেই।</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>স্কিমায় %class নামে কোনো কনটেন্ট ক্লাস নেই।</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>কনটেন্টটি নেই, অথবা আপনি এটি পড়তে পারবেন না।</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>আপনি এই কনটেন্টে এটি করতে পারবেন না।</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>%class ক্লাসে লেখা যায় এমন কোনো %field ফিল্ড নেই।</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>%field ফিল্ডটি দুবার দেওয়া হয়েছে।</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>%field ফিল্ডটি একটি ফাইল নেয়: এটি upload হিসেবে পাঠান (একটি multipart অনুরোধ)।</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>%field ফিল্ডটি কোনো ফাইল নেয় না।</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>%field ফিল্ডের একটি মান প্রয়োজন।</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>%format ফরম্যাটটি শুধু রিচ টেক্সট ফিল্ডের জন্য; %field তার মান যেমন আছে তেমন নেয় (RAW)।</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>%field ফিল্ডটি আবশ্যক।</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>HTML পড়া যায়নি।</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content শুধু id-এর সঙ্গে version নেয়।</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>প্রিভিউ টোকেনটি বৈধ নয় বা মেয়াদোত্তীর্ণ।</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>এটি কোনো অরিজিন নয় (https://host বা https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>এটি GraphQL API-এর কোনো স্কোপ নয়: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>সাবস্ক্রিপশন /api/graphql/subscribe-এ পাঠান (একটি ইভেন্ট স্ট্রিম বা একটি WebSocket)।</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>অনুরোধটি ডকুমেন্টের কোনো অপারেশনের নাম উল্লেখ করে না।</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>একটি সাবস্ক্রিপশন ঠিক একটি ফিল্ড চায়।</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>অত্যধিক সাবস্ক্রিপশন খোলা আছে; পরে আবার চেষ্টা করুন।</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>আপনার %max টি সাবস্ক্রিপশন খোলা আছে, যা অনুমোদিত সর্বোচ্চ।</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>আপনার ঠিকানায় %max টি সাবস্ক্রিপশন খোলা আছে, যা অনুমোদিত সর্বোচ্চ।</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>এই সাইটঅ্যাক্সেসে সাবস্ক্রিপশন বন্ধ আছে।</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>সাবস্ক্রাইব করতে সাইন ইন করুন (একটি টোকেন বা একটি ব্যক্তিগত API কী)।</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>মিউটেশন /api/graphql-এ পাঠান।</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>মাইগ্রেশন</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>অবস্থা পড়া যায়নি: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>মাইগ্রেশনের টেবিলগুলো এখনও নেই: ./console exp:upgrade --apply সেগুলো তৈরি করে।</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>%count টি মাইগ্রেশন ব্যর্থ হয়েছে</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>একটি রান চলছে, শুরু করেছেন %user</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>ইনস্টলেশনটি লক করা আছে: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>মুলতুবি</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>ব্যর্থ</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>অনাথ</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>শেষ রান</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>এখনও নেই</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>সব মাইগ্রেশন</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>সিমুলেটেড রান</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>পরীক্ষামূলক রান</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>মুলতুবি মাইগ্রেশনগুলো একটি ট্রানজ্যাকশনে চলেছিল যা পরে রোলব্যাক করা হয়েছে: কিছুই রাখা হয়নি। নিচে দেখানো হলো প্রতিটি ডাটাবেসে কী পরিবর্তন করেছে।</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>এখন একটি রান কী করত। কিছুই পরিবর্তন হয় না: প্রতিটি মুলতুবি মাইগ্রেশন তার সম্ভাব্য পরিবর্তনগুলো দেখায়, আর রান দেখায় আগে ও পরে সে কী করত।</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>সিমুলেট করুন</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>চালান</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>পরীক্ষামূলক রান ব্যর্থ হয়েছে: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>সিমুলেশনের জন্য PostgreSQL বা SQLite দরকার, যাদের স্কিমা পরিবর্তন রোলব্যাক করা যায়; এই ডাটাবেসে নিচের পরিকল্পনাটি দেখায় একটি রান কী করত।</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>মাইগ্রেশনগুলো</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>মাইগ্রেশন</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>অবস্থা</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>এটি কী করত</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>সিমুলেশন: %ms মি.সে.-এ %result</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>এখনও কোনো মাইগ্রেশন নেই।</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>রানের আগে ও পরে</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>আগের ক্যাপশন</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>নেওয়া হয়, এবং কোনো মাইগ্রেশন ব্যর্থ হলে পুনরুদ্ধার করা হয়</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>বন্ধ</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>পরের ক্যাপশন</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>রান সফল হলে নেওয়া হয়</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>%total টি মাইগ্রেশন: %pending টি মুলতুবি, %done টি সম্পন্ন, %failed টি ব্যর্থ।</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>মাইগ্রেশনের ইতিহাস</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>প্রতিটি রান তার ব্যবহারকারী, পরিবেশ, ক্যাপশন এবং কী কমিট, ট্যাগ ও পুশ করা হয়েছে তা সহ। ব্যর্থ বা বাধাপ্রাপ্ত রান আবার চালু করা যায়; যে রানের আগে ক্যাপশন নেওয়া হয়েছে তা ফিরিয়ে নেওয়া যায়।</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>রানগুলো পড়া যায়নি: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>মাইগ্রেশনের টেবিলগুলো এখনও নেই: ./console exp:upgrade --apply সেগুলো তৈরি করে।</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>দেখান</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>সব</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>রানসমূহ</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>শুরু</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>কার দ্বারা</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>ক্যাপশনসমূহ</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>রিপোজিটরি</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>কার্যক্রম</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>আগে</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>পরে</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>পুশ: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>আবার চালু করুন</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>ফিরিয়ে নিন</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>এই অবস্থায় কোনো রান নেই।</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>এখানে শুরু করা</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>এই পৃষ্ঠাগুলোতে শুরু করা রান, পুনরারম্ভ ও রোলব্যাক, প্রতিটির প্রতিবেদন সহ।</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>কী</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>ফলাফল</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>রোলব্যাক</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>%target-এর রোলব্যাক</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>রান %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>রানটি কী করেছে, তার রেকর্ড ও লগ। এখানে শুরু করা রান এই পৃষ্ঠা বন্ধ করলেও পটভূমিতে চলতে থাকে; অনুসরণ করতে পৃষ্ঠাটি আবার খুলুন।</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>এই রানটি আবার চালু করুন</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>এই রানটি ফিরিয়ে নিন</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>রেকর্ডটি পড়া যায়নি: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>অগ্রগতি</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>%user %time-এ শুরু করেছেন।</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>কোড যাচাই করা হচ্ছে এবং রানের আগে ক্যাপশন নেওয়া হচ্ছে</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>%id চলছে (%total এর মধ্যে %index)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>%total এর মধ্যে %done টি সম্পন্ন</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>মাইগ্রেশনগুলো চলেছে; কোনোটি ব্যর্থ হলে ক্যাপশন পুনরুদ্ধার করা হচ্ছে</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>রানের পরে ক্যাপশন নেওয়া, কমিট, ট্যাগ ও পুশ করা হচ্ছে</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>ক্যাপশন পুনরুদ্ধার করা হচ্ছে</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>রান শেষ হয়েছে। এর প্রতিবেদন লোড হচ্ছে।</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>অগ্রগতি অনুসরণ করা যায়নি। রান কেমন চলছে দেখতে পৃষ্ঠাটি পুনরায় লোড করুন।</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>রান চলার সময় এই পৃষ্ঠা তা অনুসরণ করে।</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>পুনরায় লোড করুন</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>প্রতিবেদন</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>সময়</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms মি.সে.</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>রান ত্রুটি হিসেবে যা দেখিয়েছে</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>রেকর্ড</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>পরিবেশ</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>কিছু নেই</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>শেষ</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>কমিট</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>ট্যাগ</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>পুশ</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>বার্তা</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>এই রানের মাইগ্রেশন</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>উৎস</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>রান লগ</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>লগের শুধু শেষ অংশ দেখানো হয়েছে।</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>চলছে</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>প্রতিবেদন ছাড়াই শেষ হয়েছে</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>সফল</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>ব্যর্থ</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>প্রত্যাখ্যাত</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>ডাটাবেসে পৌঁছানো যায়নি</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>অভ্যন্তরীণ ত্রুটি</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>একটি রান চলছে</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind শুরু করেছেন %user, %time-এ।</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>অনুসরণ করুন</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>ইনস্টলেশনটি লক করা আছে</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>অন্য একটি রান লক ধরে রেখেছে (একটি আপগ্রেড বা কনসোলের একটি রান): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>সম্পন্ন</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>মুলতুবি</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>প্রয়োজন নেই</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>অজানা</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>রোলব্যাক করা হয়েছে</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>প্রয়োগ করা হয়েছে</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>প্রয়োগ করা হতো</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>ফিরিয়ে নেওয়া হয়েছে</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>ফিরিয়ে নেওয়া হতো</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>চালানো হয়নি</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>অন্যটির জন্য অপেক্ষা করছে</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>পরিবর্তন গৃহীত</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>পরিবর্তন গৃহীত হতো</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>সিমুলেটেড</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>মাইগ্রেশন</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>স্ট্যাটাস</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>ইতিহাস</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>%target ফিরিয়ে নিন</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>একটি রান তার আগে নেওয়া ক্যাপশনে ফিরিয়ে নেওয়া হয়, একটি মাইগ্রেশন তার down() দিয়ে। আগের কোনো ক্যাপশন পুনরুদ্ধার করা বিশেষজ্ঞদের জন্য। প্রতিটি বর্তমান অবস্থার একটি ক্যাপশনের পরে আপনার নামে পটভূমিতে চলে।</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>কী ফিরিয়ে নেওয়া যায় তা পড়া যায়নি: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>একটি রান</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>একটি মাইগ্রেশন</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>আগের একটি ক্যাপশন</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>বিবরণ</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>হ্যাঁ</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>না</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>ক্যাপশন</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>লেবেল</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>নেওয়া হয়েছে</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>ধরন</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>পুনরুদ্ধারের অংশ</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>ডাটাবেস</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>স্টোরেজ ফাইল (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>সেটিংস (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>পুনরুদ্ধার ডাটাবেসকে ক্যাপশনের সময়ে ফিরিয়ে নেয়, সেশন সহ: পরে আপনাকে আবার সাইন ইন করতে বলা হতে পারে। তারপর থেকে যা কিছু পরিবর্তিত হয়েছে সব হারিয়ে যায়; প্রথমে বর্তমান অবস্থার একটি ক্যাপশন নেওয়া হয়।</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>আমি জানি এটি কী পুনরুদ্ধার করে</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>ক্যাপশনের আইডি আবার লিখুন</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>হ্যাঁ, ফিরিয়ে নিন</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>বাতিল করুন</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>যে রানগুলোর আগে ক্যাপশন নেওয়া হয়েছে।</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>বেছে নিন</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>এখনও ক্যাপশনসহ কোনো রান নেই।</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>প্রয়োগ করা যে মাইগ্রেশনগুলো নিজেদের ফিরিয়ে নিতে পারে (তাদের একটি down() আছে)।</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>প্রয়োগ করা কোনো মাইগ্রেশনের down() নেই।</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>আগের ক্যাপশন (বিশেষজ্ঞদের জন্য)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>এখনও কোনো ক্যাপশন নেই।</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>মাইগ্রেশনগুলো চালান</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>রানটি পটভূমিতে %user হিসেবে চলে, এবং এর পৃষ্ঠা চলাকালীন তা দেখায়। প্রথম মাইগ্রেশনের আগে ইনস্টলেশনের একটি ক্যাপশন নেওয়া হয়; কোনো মাইগ্রেশন ব্যর্থ হলে রান থেমে যায় এবং ক্যাপশন পুনরুদ্ধার করা হয়।</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>আগে পরীক্ষামূলক রান</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>অবস্থা পড়া যায়নি: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>মুলতুবি মাইগ্রেশন</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>এগুলো এই ক্রমে চলে। কোনোটি এবং যেগুলো এর ওপর নির্ভর করে সেগুলো পরের রানের জন্য রেখে দিতে টিক তুলে দিন।</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>চালান</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>চলার সময় রক্ষণাবেক্ষণ মোড চালু করে।</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>প্রয়োগের পরে পরিবর্তিত</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>এই ফাইলগুলো প্রয়োগ করা ফাইল নয়। কারণসহ পরিবর্তন গৃহীত না হলে রান এগুলো প্রত্যাখ্যান করে; এগুলো আবার চালানো হয় না, নতুন চেকসাম রেকর্ড করা হয় এবং কারণটি অডিট লগে রাখা হয়।</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>পরিবর্তনগুলো গ্রহণ করুন</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>কেন</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>ডিফল্টগুলোই নিরাপদ। প্রতিটি বাক্স একটি ধাপ বাদ দেয়।</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>ক্যাপশন নয়</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>রানের আগে ও পরে কোনো ক্যাপশন নয়: ব্যর্থতা স্বয়ংক্রিয়ভাবে পুনরুদ্ধার করা যাবে না।</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>পুনরুদ্ধার নয়</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>ব্যর্থতার পরে ইনস্টলেশনটি যেমন আছে তেমনই রেখে দিন।</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>কমিট না করা পরিবর্তন রাখুন</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>সেটিংস, এক্সটেনশন বা ডিজাইনে কমিট না করা পরিবর্তন থাকলেও চালান; সেগুলো ক্যাপশনে যায়।</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>কমিট নয়</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>স্ট্যাটাস ফাইল ও রান লগ কমিট করবেন না (ট্যাগ ও পুশও নয়)।</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>পুশ নয়</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>কমিট ও ট্যাগ করুন, কিন্তু পুশ করবেন না।</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>ট্যাগ নয়</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>কমিট ও পুশ করুন, কিন্তু রানটি ট্যাগ করবেন না।</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>হ্যাঁ, এই মাইগ্রেশনগুলো এখনই চালান</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>কোনো মাইগ্রেশন মুলতুবি নেই।</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>স্ট্যাটাসে ফিরে যান</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>এই ইনস্টলেশনের পরিবর্তন, একবার ফাইল হিসেবে লেখা (কনটেন্ট, ক্লাস, রোল, সেটিংস, স্কিমা) এবং সাইটের প্রতিটি ইনস্টলেশনে একই ক্রমে প্রয়োগ করা। একটি রান প্রথমে একটি ক্যাপশন নেয়, কোনো মাইগ্রেশন ব্যর্থ হলে তা পুনরুদ্ধার করে, এবং যা করেছে তা রেকর্ড, কমিট ও পুশ করে।</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>%count টি মুলতুবি চালান</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>সংক্ষিপ্ত বিবরণ</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>মুলতুবি</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>সম্পন্ন</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>ব্যর্থ</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>প্রয়োজন নেই</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>ডাটাবেস</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>ট্রানজ্যাকশন: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>সাইটের মাইগ্রেশন migrations/-এ থাকে, এক্সটেনশনের মাইগ্রেশন extension/&lt;name&gt;/migrations/-এ। এগুলো নামের ক্রম ও নির্ভরতা অনুযায়ী চলে।</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>শেষ রান</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>প্রয়োগের পরে ফাইলটি পরিবর্তিত হয়েছে।</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>এখনও কোনো মাইগ্রেশন নেই। ./console exp:migration:generate --skeleton &lt;name&gt; --apply প্রথমটি লেখে।</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>সর্বশেষ রানগুলো</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>সব রান</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>এখনও কোনো রান নেই।</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>রান সিমুলেট করতে migration/run নীতি প্রয়োজন।</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>একটি রান চলছে: শেষ হলে সিমুলেট করুন।</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>সেটআপ</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target এই ইনস্টলেশনের কোনো রান, মাইগ্রেশন বা ক্যাপশন নয়।</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>প্রথমে “হ্যাঁ, ফিরিয়ে নিন” টিক দিন।</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>আগের ক্যাপশন পুনরুদ্ধার করা বিশেষজ্ঞদের জন্য: “আমি জানি এটি কী পুনরুদ্ধার করে” টিক দিন।</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>ক্যাপশনের আইডি আবার লিখুন: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>পুনরুদ্ধারের জন্য অন্তত একটি অংশ বেছে নিন।</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>এই রানের আগে কোনো ক্যাপশন নেওয়া হয়নি: এর মাইগ্রেশনগুলো একে একে ফিরিয়ে নিন, অথবা আগের কোনো ক্যাপশন পুনরুদ্ধার করুন।</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>এই মাইগ্রেশন নিজে থেকে ফিরিয়ে নেওয়া যায় না: এটি প্রয়োগ করা হয়নি, অথবা এর down() নেই।</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>ফর্মটি পড়া যায়নি।</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>আবার চালু করার জন্য রান বেছে নিন।</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>প্রথমে “হ্যাঁ, এই মাইগ্রেশনগুলো এখনই চালান” টিক দিন।</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>অন্তত একটি মাইগ্রেশন বেছে নিন।</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>প্রয়োগের পরে একটি মাইগ্রেশন পরিবর্তিত হয়েছে: কারণসহ পরিবর্তনটি গ্রহণ করুন, অথবা ফাইলটি আগের অবস্থায় ফিরিয়ে দিন।</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>পরিবর্তিত মাইগ্রেশনগুলো কেন গ্রহণ করা হচ্ছে তার কারণ দিন।</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>কারণ সর্বোচ্চ ৫০০ অক্ষরের হতে পারে।</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>এখানে শুরু করা একটি রান এখনও চলছে (%detail)। শেষ হওয়া পর্যন্ত অপেক্ষা করুন।</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>অন্য একটি রান ইনস্টলেশনের লক ধরে রেখেছে: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>রানের জন্য বিদ্যমান একজন সাইন-ইন করা ব্যবহারকারী প্রয়োজন।</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>কোনো php কমান্ড লাইন প্রোগ্রাম পাওয়া যায়নি। migration.ini [AdminSettings] PhpCliPath-এ এর সম্পূর্ণ পাথ সেট করুন।</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open নিষ্ক্রিয়, তাই এখানে রান শুরু করা যায় না। সার্ভারে ./console exp:migration:migrate --apply চালান।</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>রানগুলোর ফোল্ডারে লেখা যায় না: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>রানটি শুরু হয়েছে কিন্তু তার প্রসেস আইডি জানায়নি। %detail পরীক্ষা করুন।</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>কী ফিরিয়ে নিতে হবে তা উল্লেখ করুন।</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>রানটি শুরু করা যায়নি।</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>পরিবর্তন রেকর্ড করা</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>রেকর্ডিং চলাকালীন আপনি প্রশাসনে বা সাইটের সাইডবারে যা পরিবর্তন করেন তা একটি মাইগ্রেশনের ধাপ হিসেবে রাখা হয়: বিষয়বস্তু, ক্লাস, ভূমিকা ও নীতি, সেকশন, ব্যবহারকারী ও গোষ্ঠী, URL উপনাম, সেটিংস। কাজ শেষ হলে এটি থামান, দেখুন এটি কী ধরেছে, এবং এটি থেকে একটি মাইগ্রেশন তৈরি করুন।</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>রেকর্ডিংগুলো পড়া যায়নি: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>রেকর্ডিংয়ের টেবিলগুলো এখনও নেই: আগে আপগ্রেড চালান (exp:upgrade --apply)।</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>migration.ini-তে রেকর্ডিং বন্ধ আছে ([RecordingSettings] Recording=disabled)।</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>আমার পরিবর্তন</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>শুধু আপনি যা পরিবর্তন করেন তা-ই রেকর্ড করে, যেখানেই করুন, যতক্ষণ না আপনি থামান।</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>রেকর্ডিং</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>%time থেকে, এখন পর্যন্ত %count পরিবর্তন।</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>লেবেল (ঐচ্ছিক)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>এটি কী ধরেছে দেখান</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>রেকর্ডিং থামান</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>আমার পরিবর্তনের রেকর্ডিং শুরু করুন</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>পুরো সাইটের জানালা</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>বন্ধ না হওয়া পর্যন্ত প্রত্যেক ব্যবহারকারী ও কনসোলের প্রতিটি পরিবর্তন রেকর্ড করে। খোলার সময় আপনাকে নিশ্চিত করতে বলা হয় যে এটি আপনি।</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>খোলা</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>জানালা বন্ধ করুন</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>পুরো সাইটের জানালা খুলুন</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>রেকর্ডিংসমূহ</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>ব্যবহারকারীর অ্যাকাউন্ট (লগইন, ই-মেইল, পাসওয়ার্ড) এবং ব্যবহারকারী অ্যাকাউন্টের ঘরগুলো কখনও রেকর্ড করা হয় না।</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>পরিবর্তনসমূহ</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>পুরো সাইট</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>%name-এর পরিবর্তন</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>থামানো</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>এখনও কোনো রেকর্ডিং নেই।</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>রেকর্ডিং %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>সব রেকর্ডিং</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>এ থেকে যে মাইগ্রেশন হবে</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>প্রতিটি পরিবর্তিত জিনিসের জন্য এক ধাপে একত্র করা পরিবর্তন: এই রেকর্ডিং থেকে তৈরি মাইগ্রেশন যা করবে।</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>এই ইনস্টলেশনে YAML ধাপের ধরন %types থাকলে এটি থেকে মাইগ্রেশন তৈরি করা যাবে।</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>ইচ্ছাকৃতভাবে বাদ: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>কিছুই রেকর্ড হয়নি।</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>এটি কী ধরেছে</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>%count পরিবর্তন, যে ক্রমে করা হয়েছে।</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>পরিবর্তন</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>ধাপ</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>বিষয়</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>আরও %count: ./console exp:migration:record:show সবগুলোর তালিকা দেয়।</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>বাতিল করুন</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>রেকর্ডিং এবং এটি যা ধরেছে তা সরিয়ে দেয়। যা পরিবর্তিত হয়েছে তা পরিবর্তিতই থাকে।</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>হ্যাঁ, এই রেকর্ডিং বাতিল করুন</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>রেকর্ড হচ্ছে…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>আপনার পরিবর্তন একটি মাইগ্রেশনের জন্য রেকর্ড হচ্ছে।</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>এই সাইটের প্রতিটি পরিবর্তন একটি মাইগ্রেশনের জন্য রেকর্ড হচ্ছে (পুরো সাইটের জানালা)।</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>পুরো সাইটের রেকর্ডিং শুরু হয়েছে: আপনি না থামানো পর্যন্ত প্রত্যেক ব্যবহারকারীর প্রতিটি পরিবর্তন রেকর্ড হবে।</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>রেকর্ডিং শুরু হয়েছে: আপনি না থামানো পর্যন্ত আপনার পরিবর্তন রেকর্ড হবে।</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>রেকর্ডিং থেমেছে। এটি যা ধরেছে তা বাতিল না করা পর্যন্ত থাকবে।</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>রেকর্ডিং ও এর ঘটনাগুলো সরানো হয়েছে।</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>কোনো রেকর্ডিং %id নেই।</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>আগে "হ্যাঁ, এই রেকর্ডিং বাতিল করুন" চিহ্নিত করুন।</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>সেশন রেকর্ডিং শুধু সেই ব্যবহারকারী থামাতে পারেন যিনি রেকর্ড করেছেন।</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>থামানোর জন্য রেকর্ডিং বেছে নিন।</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>এই ধরনের একটি রেকর্ডিং ইতিমধ্যে চলছে।</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>রেকর্ডিং পরিবর্তন করা যায়নি: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>মাইগ্রেশন তৈরি করুন</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>মাইগ্রেশনের নাম (ঐচ্ছিক)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>মাইগ্রেশন %file লেখা হয়েছে। যে পরিবর্তনগুলো কোনো ধাপ করতে পারে না, সেগুলো ফাইলের শুরুতে উল্লেখ করা আছে, হাতে করতে হবে।</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>কোনো মাইগ্রেশন লেখা হয়নি: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>অংশে অংশে একটি দীর্ঘ রান</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>খালি ক্ষেত্র migration.ini [RunSettings]-এর সেটিংস রাখে।</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>সর্বোচ্চ এতগুলো মাইগ্রেশন</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>এর পরে আর কোনো মাইগ্রেশন নয় (সেকেন্ড)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>মাইগ্রেশনের মধ্যে বিরতি (সেকেন্ড)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>কম অগ্রাধিকার (১ থেকে ১৯)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>দীর্ঘ রানের ক্ষেত্র 1 থেকে একটি পূর্ণসংখ্যা (বিরতি: 0 থেকে 60 সেকেন্ড, অগ্রাধিকার: 1 থেকে 19), অথবা খালি।</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>এটি %time-এ নিজে থেকে বন্ধ হবে।</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>এর পরে নিজে থেকে বন্ধ হবে (মিনিট, ঐচ্ছিক)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>মিনিট 1 থেকে 44640 (31 দিন) পর্যন্ত একটি পূর্ণসংখ্যা, অথবা খালি।</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>মাইগ্রেশন %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>নতুন মাইগ্রেশন</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>একটি YAML মাইগ্রেশন: এটি টেক্সট হিসেবে লিখুন বা ফর্মে এর ধাপগুলো তৈরি করুন, যাচাই করুন, তারপর একটি মাইগ্রেশন ফোল্ডারে সংরক্ষণ করুন।</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>এই মাইগ্রেশনটি ইতিমধ্যে চালানো হয়েছে, তাই এটি আবার সংরক্ষণ করা হবে না: পরিবর্তিত ফাইল চেকসাম সুরক্ষা প্রত্যাখ্যান করবে। পরিবর্তনটি একটি নতুন মাইগ্রেশনে করুন।</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>ওয়েব সার্ভার ফাইলটি লিখতে পারে না।</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>উপরের মন্তব্য লাইনগুলো হলো হেডার (description, author, requires, environments, engines)। ফর্মে কোনো ধাপ যোগ বা পরিবর্তন করা হলে মাইগ্রেশনটি নতুন করে লেখা হয়: ধাপগুলোর মাঝের মন্তব্য রাখা হয় না।</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>মাইগ্রেশনের নাম</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>এটি কোথায় যাবে</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>সাইট</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>YAML টেক্সট</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>যাচাই করুন</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>সংরক্ষণ করুন</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>ধাপসমূহ</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>কী</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>সম্পাদনা করুন</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>উপরে সরান</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>নিচে সরান</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>অপসারণ করুন</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>এখনও কোনো ধাপ নেই: ফর্ম দিয়ে একটি যোগ করুন, অথবা টেক্সটে সেগুলো লিখুন।</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>ধাপ %number পরিবর্তন করুন</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>একটি ধাপ যোগ করুন</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>একটি ধাপের ফর্ম তার ধাপের ধরন থেকে তৈরি হয়: এর কী, প্রতিটি কী গ্রহণ করে এবং এটি কোন মোডগুলোর অন্তর্ভুক্ত।</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>ধাপের ধরন</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>এর ফর্ম দেখান</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>ধাপটিতে এমন কী আছে যা এর ধরন চেনে না; ধাপটি পরিবর্তন করলে সেগুলো বাদ পড়বে: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>মোড</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>এর মধ্যে</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>শুধু %modes-এ</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>ডিফল্ট: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>শর্ত, রেফারেন্স ও মন্তব্য</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>কমা দিয়ে আলাদা করা নাম=মান জোড়া। এই ধাপের মানগুলো: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>উদাহরণ</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>ধাপ পরিবর্তন করুন</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>ধাপ যোগ করুন</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>exp:migration:check যা বলে: হেডার, ডকুমেন্ট এবং প্রতিটি ধাপ, তার ধাপের ধরন অনুযায়ী যাচাই করা।</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>মাইগ্রেশনটি যাচাইয়ে উত্তীর্ণ হয়েছে।</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>পূর্বরূপ</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>যেভাবে সংরক্ষিত হবে সেই YAML।</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>YAML দেখান</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>YAML মাইগ্রেশন</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>চালানো হয়েছে</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>এখনও কোনো YAML মাইগ্রেশন নেই।</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>সম্পাদক</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>মাইগ্রেশন ফোল্ডারগুলোতে %id নামে কোনো YAML মাইগ্রেশন নেই।</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>একটি ধাপের ধরন বেছে নিন।</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>ধাপটি যোগ করা হয়েছে। সংরক্ষণের আগে মাইগ্রেশনটি যাচাই করুন।</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>ধাপটি পরিবর্তন করা হয়েছে। সংরক্ষণের আগে মাইগ্রেশনটি যাচাই করুন।</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>একটি ধাপ বেছে নিন।</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>এই ধাপের কোনো ফর্ম নেই (একটি লুপ, বা এমন ধাপের ধরন যা এই ইনস্টলেশনে নেই): টেক্সটে এটি পরিবর্তন করুন।</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>মাইগ্রেশনটি কোথায় যাবে তা বেছে নিন: সাইট বা একটি সক্রিয় এক্সটেনশন।</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>%file সংরক্ষিত হয়েছে। মাইগ্রেশন চলার আগে একটি পরীক্ষামূলক রান চালান।</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>সংরক্ষিত হয়নি: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>রিমোটসমূহ</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>অন্য যে ইনস্টলেশনগুলোতে এটি তার মাইগ্রেশন ডিপ্লয় করে: একটি ডিপ্লয় মাইগ্রেশনগুলো বেছে নেওয়া রিমোটগুলোতে পাঠায় এবং সেখানে চালায়, সব একসাথে ও সিঙ্কে। একটি রিমোট কখনও কোনো সিক্রেট রাখে না: এর ক্রেডেনশিয়াল সেটআপ &gt; সিক্রেট-এর একটির নাম উল্লেখ করে।</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>নতুন রিমোট</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>সাহায্য</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>%id-এর সংযোগ পরীক্ষা</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>রিমোটগুলো</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>একসাথে সর্বোচ্চ %parallel রিমোটে কাজ করা হয়; প্রতিটিতে একটি ফেজে %timeout সেকেন্ড লাগতে পারে।</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>রিমোট</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>ঠিকানা</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>ক্রেডেনশিয়াল</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>গ্রুপ</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>সংশোধনযোগ্য সেটিংস</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>শুধু ফাইল (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>SSH কী</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>পাসওয়ার্ড</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>কিছু নেই (হোস্টের SSH এজেন্ট ও কী)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>সংযোগ পরীক্ষা করুন</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>একটি গ্রুপে ডিপ্লয় সেই গ্রুপের প্রতিটি রিমোটে যায়।</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>রিমোটে ডিপ্লয় করুন</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>এখনও কোনো রিমোট সেট আপ করা হয়নি।</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>রিমোট %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>এখানে কিছুই পাঠানো বা চালানো হয় না: সংরক্ষণ করুন সেটিংসগুলো settings/override/migration.ini.append.php-তে লেখে। ক্রেডেনশিয়াল একটি নাম; এর মান সেটআপ &gt; সিক্রেট-এ বা পরিবেশে থাকে।</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>এই সেটিংসগুলো যাচাই করুন</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>যেমন লেখা হয়েছে সেই সেটিংস, এখনও সংরক্ষিত হয়নি।</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>পর্যালোচনা</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>সেটিংস বৈধ। এই লাইনগুলো লেখা হবে:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>ট্রান্সপোর্ট</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>শুধু একটি নাম; মানটি সেটআপ &gt; সিক্রেট-এ থাকে</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>যে লাইনগুলো লেখা হবে</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>সংযোগ</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>হোস্ট কী</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. রিমোট</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>রিমোটটির নাম কী এবং এটি কোন পরিবেশ।</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>আইডি</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>অক্ষর, সংখ্যা, - ও _, যেমন production1। এটি প্রতিবেদনে ও কনসোলে (--remotes=production1) রিমোটের নাম হিসেবে ব্যবহৃত হয় এবং পরে বদলানো যায় না।</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... পর্যায়ক্রমিক ডিপ্লয় এই ক্রমে পরিবেশগুলোর মধ্য দিয়ে যায়।</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>ঐচ্ছিক, কমা দিয়ে আলাদা, যেমন production। একটি গ্রুপে ডিপ্লয় সেই গ্রুপের প্রতিটি রিমোটে যায়।</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. সংযোগ</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>ফাইলগুলো কীভাবে সেখানে পৌঁছায়, এবং ইনস্টলেশনটি কোথায় আছে।</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>SSH-এর মাধ্যমে, শুধু যা বদলেছে, ভেঙে যাওয়া স্থানান্তর আবার চালু হয়। যেখানে rsync ইনস্টল করা আছে সেখানে সেরা পছন্দ।</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>ফাইলের জন্য scp সহ SSH।</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>ফাইলের জন্য sftp সহ SSH।</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>শুধু ফাইল: মাইগ্রেশনগুলো পাঠানো ও আবার পড়ে দেখা হয়, কিন্তু সেখানে চালানো যায় না।</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>TLS-এর মাধ্যমে FTP; শুধু ফাইল।</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>এই সার্ভারে একটি ফোল্ডারে থাকা অন্য একটি ইনস্টলেশন।</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>হোস্ট</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>একটি হোস্ট নাম বা ঠিকানা, যেমন node1.example.com। local-এর জন্য নয়।</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>পোর্ট</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>খালি: SSH-এর জন্য 22, FTP-এর জন্য 21।</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>ব্যবহারকারী</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>পাথ</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>সেখানে ইনস্টলেশনের রুট, যেমন /var/www/site (FTP-এর জন্য: FTP অ্যাকাউন্ট যে পাথ দেখে)।</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>PHP কমান্ড লাইন</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>সেখানকার PHP CLI: php, অথবা /opt/plesk/php/8.4/bin/php-এর মতো একটি পূর্ণ পাথ।</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>কনসোল স্ক্রিপ্টগুলো সেখানে root হিসেবে চলে</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>শুধু যখন রিমোটের ব্যবহারকারী root (তখন সেগুলো --allow-root-user দিয়ে চালানো হয়)।</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. ক্রেডেনশিয়াল</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>এই ইনস্টলেশন সেখানে কীভাবে সাইন ইন করে। শুধু একটি নাম সংরক্ষণ করা হয়।</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>কোনোটিই নয়</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>যে ব্যবহারকারী হিসেবে এই ইনস্টলেশন চলে তার SSH এজেন্ট ও কী (এবং local-এর জন্য সবসময়)।</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>সিক্রেট হিসেবে রাখা একটি প্রাইভেট কী।</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>সিক্রেট হিসেবে রাখা একটি পাসওয়ার্ড (FTP এটি দিয়ে সাইন ইন করে)।</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>সিক্রেটের নাম</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>সেটআপ &gt; সিক্রেট-এর একটি সিক্রেট, যেমন deploy_production1।</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>সেটআপ &gt; সিক্রেট</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>অথবা একটি পরিবেশ ভেরিয়েবল</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>সার্ভার প্রসেসের যে ভেরিয়েবল এটি ধারণ করে, যেমন DEPLOY_KEY (env:DEPLOY_KEY হিসেবে সংরক্ষিত)। এটি সিক্রেটের নামের জায়গা নেয়।</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. হোস্ট কী</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>ঐচ্ছিক, SSH, sftp ও rsync-এর জন্য।</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>হোস্ট কী-এর ফিঙ্গারপ্রিন্ট</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... যেমন ssh-keygen -l দেখায়। এটি থাকলে হোস্টকে এই কী দেখাতে হবে; না থাকলে প্রথম সংযোগে কী শিখে নেওয়া হয়।</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. পর্যালোচনা</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>উপরের সেটিংস দিয়ে সংযোগ পরীক্ষা করুন, তারপর যে লাইনগুলো লেখা হবে সেগুলো পর্যালোচনা করুন।</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>এই রিমোটটি অপসারণ করুন</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>এর সেটিংস settings/override/migration.ini.append.php থেকে সরিয়ে ফেলা হয়। রিমোটে কিছুই বদলায় না, এবং এর ডিপ্লয়গুলো ইতিহাসে থেকে যায়।</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>হ্যাঁ, এই রিমোটটি অপসারণ করুন</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>ডিপ্লয়সমূহ</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>একটি ডিপ্লয় এই ইনস্টলেশনের মাইগ্রেশনগুলো বেছে নেওয়া রিমোটগুলোতে পাঠায় এবং সেখানে %user হিসেবে চালায়, সব একসাথে ও সিঙ্কে: প্রথমে প্রতিটি রিমোট যাচাই করা হয়, আর একটি ব্যর্থ হলে যে রিমোটগুলোতে প্রয়োগ করা হয়েছে সেগুলো ফিরিয়ে নেওয়া হয়। এটি পটভূমিতে চলতে থাকে, এবং এর পৃষ্ঠা চলার সময় প্রতিটি রিমোট দেখায়।</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. রিমোটসমূহ</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>রিমোট, একটি গ্রুপ, অথবা দুটোই টিক দিন।</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>এতে ডিপ্লয় করুন</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. কীভাবে</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>ডিপ্লয় করুন</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>পাঠান ও চালান</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>মাইগ্রেশনগুলো প্রতিটি রিমোটে পাঠানো, যাচাই করা এবং একটি সাধারণ রান আইডি দিয়ে চালানো হয়।</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>শুধু স্থানান্তর</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>ফাইলগুলো পাঠানো ও যাচাই করা হয়, কিছুই চালানো হয় না (FTP রিমোটের জন্য একমাত্র উপায়)।</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>পর্যায়ক্রমে</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>পরিবেশগুলোর ক্রমে পর্যায়ে পর্যায়ে (dev, stage, beta, production ...): প্রথম পর্যায় ডিপ্লয় করা হয়, তারপর একটি গেট অপেক্ষা করে যতক্ষণ না কেউ পরবর্তীটি অনুমোদন করে। প্রতিটি পর্যায়ের মধ্যে সব অথবা কিছুই না।</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>শুধু এই মাইগ্রেশনগুলো</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>ঐচ্ছিক: মাইগ্রেশন আইডি, কমা দিয়ে আলাদা। খালি: সাইট ও এর এক্সটেনশনগুলোর প্রতিটি মাইগ্রেশন।</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>শুধু প্রিফ্লাইট</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>হ্যাঁ, এখনই ডিপ্লয় করুন</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>যে ডিপ্লয়গুলো কিছু পাঠিয়েছে বা চালিয়েছে, সবচেয়ে নতুনটি আগে (প্রিফ্লাইট কোনো প্রতিবেদন রাখে না)।</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>শুধু স্থানান্তর</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>পর্যায়ক্রমে, %stages পর্যায়</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>সিঙ্কে নেই</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>এখনও কোনো ডিপ্লয় নেই।</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>ডিপ্লয় %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>ডিপ্লয়ের প্রতিটি রিমোট তার অবস্থাসহ। এখানে শুরু করা একটি ডিপ্লয় এই পৃষ্ঠা বন্ধ করলেও পটভূমিতে চলতে থাকে; অনুসরণ করতে পৃষ্ঠাটি আবার খুলুন।</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>সব ডিপ্লয়</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>প্রিফ্লাইট</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>পরবর্তী পর্যায়</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>সেটিংস ও ক্রেডেনশিয়াল যাচাই করা হচ্ছে</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>প্রিফ্লাইট: প্রতিটি রিমোটের অবস্থা পড়া হচ্ছে</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>মাইগ্রেশন ফাইল পাঠানো হচ্ছে</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>যা পৌঁছেছে তা যাচাই করা হচ্ছে</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>প্রতিটি রিমোটে মাইগ্রেশনগুলো চালানো হচ্ছে</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>রিমোটগুলো ফিরিয়ে নেওয়া হচ্ছে</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>ডিপ্লয় শেষ হয়েছে। এর প্রতিবেদন লোড হচ্ছে।</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>অগ্রগতি অনুসরণ করা যায়নি। ডিপ্লয় কেমন চলছে দেখতে পৃষ্ঠাটি পুনরায় লোড করুন।</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>ফেজ</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>এই পৃষ্ঠা ডিপ্লয় চলার সাথে সাথে অনুসরণ করে।</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>সিঙ্কে আছে</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>পর্যায়সমূহ</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>পর্যায় %stage তার গেটে অপেক্ষা করছে</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>গেট %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>%user কর্তৃক %time-এ অনুমোদিত</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>পর্যায়</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>পাঠানো ফাইল</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>কার্নেল সংস্করণ</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>প্রয়োগ করা হয়েছে: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>প্রয়োগ করতে হবে: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>ফেজসমূহ</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>গেট: %stages-এর মধ্যে পর্যায় %stage</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>এর আগের পর্যায়গুলো ডিপ্লয় করা হয়েছে। সেগুলো যাচাই করুন, তারপর পরবর্তী পর্যায় অনুমোদন করুন: এর রিমোটগুলো আবার যাচাই করে ডিপ্লয় করা হয়, সব অথবা কিছুই না।</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>পরবর্তী</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>হ্যাঁ, পরবর্তী পর্যায় এখনই ডিপ্লয় করুন</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>অনুমোদন করুন</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>এই ডিপ্লয়টি ফিরিয়ে নিন</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>যে প্রতিটি রিমোট এটি প্রয়োগ করেছে (%list), সেগুলো তাদের রানের আগে নেওয়া ক্যাপশনে ফিরে যায়, সব একসাথে।</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>হ্যাঁ, এই ডিপ্লয়টি এখনই ফিরিয়ে নিন</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>পরিকল্পিত</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>স্থানান্তরিত</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>ডিপ্লয় করা হয়েছে</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>একটি গেটে অপেক্ষা করছে</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>নির্বাচিত</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>প্রস্তুত করা হয়েছে</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>প্রস্তুত</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>নিজের পর্যায়ের জন্য অপেক্ষা করছে</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>ফাইল পাঠানো হয়েছে</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>যাচাইকৃত</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>ব্যর্থ, নিজেই পুনরুদ্ধার করেছে</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>অপরিবর্তিত</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>ডিপ্লয় করা হয়নি</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>পৌঁছানো যাচ্ছে না</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>রিমোট সাড়া দিয়েছে।</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>রিমোটটি এখন ব্যবহার করা যাচ্ছে না।</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done সম্পন্ন, %pending মুলতুবি, %failed ব্যর্থ</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>লক</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>সেখানে একটি রান লক ধরে রেখেছে</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>ফাঁকা</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stages-এর মধ্যে %stage</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>পরীক্ষার জন্য রিমোট বেছে নিন।</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>আগে “হ্যাঁ, এই রিমোটটি অপসারণ করুন” টিক দিন।</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>রিমোটটি অপসারণ করা যায়নি: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>রিমোটটি সংরক্ষণ করা যায়নি: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>সেটিংস ফাইল পড়া যায় না: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>অন্তত একটি রিমোট বা গ্রুপ বেছে নিন।</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>বেছে নেওয়া একটি রিমোট আর সেটিংসে নেই। পৃষ্ঠাটি পুনরায় লোড করুন।</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>আগে “হ্যাঁ, এখনই ডিপ্লয় করুন” টিক দিন।</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>একটি FTP রিমোট মাইগ্রেশন চালাতে পারে না: “শুধু স্থানান্তর” বেছে নিন, অথবা এটি বাদ দিন।</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>ডিপ্লয় করার মাইগ্রেশনগুলো হলো মাইগ্রেশন আইডি, কমা দিয়ে আলাদা।</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>ডিপ্লয় এখনও চলছে। এটি শেষ হওয়া পর্যন্ত অপেক্ষা করুন।</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>এই ডিপ্লয় কোনো গেটে অপেক্ষা করে না।</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>কোনো রিমোট এই ডিপ্লয় প্রয়োগ করেনি: ফিরিয়ে নেওয়ার কিছু নেই।</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>আগে “হ্যাঁ, পরবর্তী পর্যায় এখনই ডিপ্লয় করুন” টিক দিন।</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>আগে “হ্যাঁ, এই ডিপ্লয়টি এখনই ফিরিয়ে নিন” টিক দিন।</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>%id আইডি-সহ একটি রিমোট আগে থেকেই আছে।</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>পোর্ট হলো 1 থেকে 65535 পর্যন্ত একটি সংখ্যা।</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>পরিবেশ হলো অক্ষর, সংখ্যা, - ও _ দিয়ে গঠিত একটি শব্দ (alpha, dev, stage, beta, production ...)।</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>গ্রুপ হলো অক্ষর, সংখ্যা, - ও _ দিয়ে গঠিত একটি শব্দ (all নয়): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>ক্রেডেনশিয়ালটি এখন পড়া যাচ্ছে না: %problem। প্রথম ডিপ্লয়ের আগে এটি সেটআপ &gt; সিক্রেট-এ সংরক্ষণ করুন (অথবা ভেরিয়েবলটি সেট করুন)।</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>একটি FTP রিমোট শুধু ফাইল গ্রহণ করে: এতে ডিপ্লয় হলো “শুধু স্থানান্তর”, এবং এর মাইগ্রেশনগুলো সেখানে হাতে চালানো হয়।</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>রিমোট %id settings/override/migration.ini.append.php-তে নেই; যেখানে এটি সেট করা আছে সেখান থেকে অপসারণ করুন।</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>FTP-এর মাধ্যমে সাইন ইন করে index.php পড়া হয়েছে। একটি FTP রিমোটের মাইগ্রেশন স্ট্যাটাস পড়া যায় না।</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>পরিবর্তিত</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>তৈরি</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>নাম</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>ক্লাস</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>বিভাগ</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>নির্মাতা</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>সাম্প্রতিক কনটেন্ট</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>পুরো সাইটের সবচেয়ে সম্প্রতি তৈরি ও পরিবর্তিত কনটেন্ট, নতুনগুলো আগে: দর্শকেরা যা জমা দিয়েছেন, যা পর্যালোচনার জন্য আটকে রাখা আছে, প্রকাশের অপেক্ষায় থাকা খসড়া। আইটেম নির্বাচন করে সেগুলো ছেড়ে দিন, আটকে রাখুন, লুকান, প্রকাশ করুন, অপসারণ করুন বা অন্য বিভাগ বা অবস্থায় সরান।</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>তালিকাটি পড়া যায়নি: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>পর্যালোচনার জন্য আটকে রাখার ব্যবস্থা এখনও চালু করা হয়নি, তাই কিছুই আটকে নেই এবং আটকে রাখার কার্যক্রমগুলো দেওয়া হচ্ছে না। আপগ্রেড ধাপ 6.0.15-review-hold এটি চালু করে: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>তালিকা ফিল্টার করুন</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>থেকে</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>পর্যন্ত</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>তারিখ</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>তৈরি (প্রথম প্রকাশ)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>সব</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>স্ট্যাটাস</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>প্রকাশিত</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>খসড়া, কখনও প্রকাশিত হয়নি</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>মুলতুবি (অনুমোদন বা কোনো তারিখের অপেক্ষায়)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>ট্র্যাশে</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>পর্যালোচনার জন্য আটকে রাখা</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>আটকে রাখা</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>আটকে রাখা নয়</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>লুকানো</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>দৃশ্যমান</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>জমা দেওয়া হয়েছে</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>যেকোনো সাইটঅ্যাক্সেস</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>শুধু অডিট যা লিপিবদ্ধ করেছে।</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>এখন: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>একটি লগইন বা একটি ব্যবহারকারী আইডি।</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>ফিল্টার</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>ফিল্টার মুছুন</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>আইটেম</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%count-এর মধ্যে %from থেকে %to</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>কোনো আইটেম নেই</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(%ms মি.সে.-তে পড়া হয়েছে)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>নির্বাচিত আইটেমগুলোর উপর কার্যক্রম</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>এই পৃষ্ঠার সব নির্বাচন করুন</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>%count টি নির্বাচিত</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>কার্যক্রম</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>একটি কার্যক্রম বেছে নিন</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>আটকে রাখা তুলে নিন</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>পর্যালোচনার জন্য আটকে রাখুন</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>লুকান</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>প্রকাশ করুন</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>ট্র্যাশে সরান</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>মুছুন</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>বিভাগ নির্ধারণ করুন</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>অবস্থা নির্ধারণ করুন</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>কারণ</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>আটকে রাখতে প্রয়োজন; আটকে রাখার সাথে এবং অডিটে রাখা হয়।</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>একটি বিভাগ বেছে নিন</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>অবস্থা</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>একটি অবস্থা বেছে নিন</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>নির্বাচিতগুলোতে প্রয়োগ করুন</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>প্রতিটি আইটেম আপনার নিজের অনুমতির সাথে মিলিয়ে দেখা হয়। ট্র্যাশে সরানো ও মুছে ফেলার আগে আপনাকে নিশ্চিত করতে বলা হয়। %count টির বেশি আইটেম ব্যাকগ্রাউন্ডে চলে।</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>নির্বাচন করুন</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>প্রকাশনা</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>যেখান থেকে জমা দেওয়া হয়েছে</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>%name নির্বাচন করুন</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>এখনও নয়</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(নাম নেই)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>আইডি %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>খসড়া</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>মুলতুবি</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>এর প্যারেন্ট দ্বারা লুকানো</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>আটকে রাখা: নতুন জমা</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>সংস্করণ %version মুলতুবি</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>সংস্করণ %version চলমান</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>খসড়া, সংস্করণ %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>সংস্করণ %version প্রকাশিত</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>%date তারিখে নির্ধারিত</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>ঠিকানা নেই</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>লিপিবদ্ধ নয়</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>এই ফিল্টারগুলোর সাথে কিছুই মেলে না।</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>সব দেখান</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>এখনও কোনো কনটেন্ট নেই।</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>প্রতি পৃষ্ঠায়</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>প্রতি পৃষ্ঠায় %count টি আইটেম দেখান।</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says &quot;not recorded&quot;.</source>
+        <translation>একটি জমার ঠিকানা ও ব্রাউজার অডিট ইনডেক্স থেকে আসে, যা এখানে উপলব্ধ নয়: কলামে লেখা থাকে &quot;লিপিবদ্ধ নয়&quot;।</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>ঠিকানা ও ব্রাউজার হলো আইটেমটির জন্য অডিট যা লিপিবদ্ধ করেছে (স্বয়ংক্রিয় আটকে রাখা সবসময় এগুলো লিপিবদ্ধ করে; প্রকাশ ও তৈরি শুধু যেখানে চালু করা আছে), এর গোপনীয়তা সেটিং অনুযায়ী যেভাবে রাখা হয়।</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: %count টি আইটেম</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>মুছে ফেললে আইটেমগুলো তাদের সব সংস্করণ ও অনুবাদসহ চিরতরে সরিয়ে দেওয়া হয়। এটি পূর্বাবস্থায় ফেরানো যায় না।</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>আইটেমগুলো ট্র্যাশে যায়, যেখান থেকে সেগুলো পুনরুদ্ধার করা যায়।</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>প্রতিটি আইটেম আপনার নিজের অনুমতির সাথে মিলিয়ে দেখা হয়; উপ-আইটেম আছে এমন আইটেম যেমন আছে তেমনই রাখা হয় (কনটেন্ট কাঠামোতে এটি অপসারণ করুন)। আপনাকে যাচাই করতে বলা হবে যে এটি আপনিই।</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>এটি ব্যাকগ্রাউন্ডে চলে: এর অগ্রগতির পৃষ্ঠা খোলে, এবং শেষ হলে প্রতিটি আইটেমের ফলাফল দেখানো হয়।</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>নির্বাচিত আইটেমগুলো</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>এবং আরও %count টি</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>বাতিল করুন</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>কিছুই করা হয়নি</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>কারণ: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>কার্যক্রমটি এখনও ব্যাকগ্রাউন্ডে চলছে।</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>এর অগ্রগতি</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>ব্যাকগ্রাউন্ড কার্যক্রম ব্যর্থ হয়েছে: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>সম্পন্ন</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>প্রত্যাখ্যাত</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>ব্যর্থ হয়েছে</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>প্রতি আইটেম</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>আইটেম</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>ফলাফল</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>কেন</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>তালিকায় ফিরে যান</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>সেটআপ</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>কিছুই করা হয়নি</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>নিশ্চিত করুন</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>একটি কার্যক্রম বেছে নিন।</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>অন্তত একটি আইটেম নির্বাচন করুন।</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>একবারে সর্বোচ্চ 1000 টি আইটেম নির্বাচন করুন।</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>আইটেমগুলো কেন আটকে রাখা হচ্ছে তা লিখুন।</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>বিভাগটি বেছে নিন।</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>অবস্থাটি বেছে নিন।</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>ফর্মটি পড়া যায়নি।</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>ড্যাশবোর্ড</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>সাম্প্রতিক কনটেন্ট</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>গণনাগুলো পড়া যায়নি: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>পর্যালোচনার জন্য আটকে রাখা</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>আজ নতুন</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>পর্যালোচনার জন্য আটকে রাখার ব্যবস্থা এখনও চালু করা হয়নি (আপগ্রেড ধাপ 6.0.15-review-hold)।</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>সব সাম্প্রতিক কনটেন্ট</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>আপনি মডারেশন কার্যক্রম চালাতে পারবেন না (moderation/act)।</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>মডারেশন কার্যক্রম সম্পূর্ণ হয়নি: %errors।</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>মডারেশন: %count টি অবজেক্টে %action</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%total টির মধ্যে %done টি অবজেক্ট: %ok টি সম্পন্ন, %refused টি প্রত্যাখ্যাত, %failed টি ব্যর্থ</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok টি সম্পন্ন, %refused টি প্রত্যাখ্যাত, %failed টি ব্যর্থ</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>এটি আর বিদ্যমান নেই।</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>এর কোনো অবস্থান নেই (প্রকাশিত নয়)।</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>আপনি এটি লুকাতে পারবেন না (content/hide)।</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>আপনি এটি প্রকাশ করতে পারবেন না (content/hide)।</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>এটি ইতিমধ্যে লুকানো।</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>এটি লুকানো নয়।</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>লুকানো হয়েছে।</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>প্রকাশ করা হয়েছে।</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>এটি ট্র্যাশে আছে: সেখানে ট্র্যাশ খালি করুন বা এটি পুনরুদ্ধার করুন।</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>কখনও প্রকাশিত হয়নি এমন খসড়া ট্র্যাশে যেতে পারে না: এটি মুছুন।</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>আপনি এটি মুছতে পারবেন না (content/remove)।</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>মুছে ফেলা হয়েছে।</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>আপনি এটি অপসারণ করতে পারবেন না (content/remove)।</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>এর উপ-আইটেম আছে: কনটেন্ট কাঠামোতে এটি অপসারণ করুন, যেখানে সেগুলো তালিকাভুক্ত।</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>এটি অপসারণ করা হয়নি (কোনো ওয়ার্কফ্লো অপসারণ আটকে রাখতে পারে)।</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>ট্র্যাশে সরানো হয়েছে।</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>বিভাগটি বিদ্যমান নেই।</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>এটি ইতিমধ্যে এই বিভাগে আছে।</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>আপনি এই বিভাগ নির্ধারণ করতে পারবেন না (section/assign)।</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>বিভাগটি নির্ধারণ করা হয়নি।</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>বিভাগ নির্ধারণ করা হয়েছে।</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>অবস্থাটি বিদ্যমান নেই।</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>এটি ইতিমধ্যে এই অবস্থায় আছে।</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>আপনি এই অবস্থা নির্ধারণ করতে পারবেন না (state/assign)।</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>অবস্থাটি নির্ধারণ করা হয়নি (কোনো ওয়ার্কফ্লো পরিবর্তনটি আটকে রাখতে পারে)।</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>অবস্থা নির্ধারণ করা হয়েছে।</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>এমন কোনো কার্যক্রম নেই।</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>পর্যালোচনার জন্য আটকে রাখার ব্যবস্থা চালু করা হয়নি (আপগ্রেড ধাপ 6.0.15-review-hold)।</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>এটি কেন আটকে রাখা হচ্ছে তা লিখুন।</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>এটি ইতিমধ্যে আটকে রাখা আছে।</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>আপনি এটি আটকে রাখতে পারবেন না (state/assign)।</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>আটকে রাখা হয়নি (কোনো ওয়ার্কফ্লো পরিবর্তনটি আটকে রাখতে পারে)।</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>আটকে রাখা হয়েছে।</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>এটি আটকে রাখা নয়।</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>আপনি এটি ছেড়ে দিতে পারবেন না (state/assign)।</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>আটকে রাখা তুলে নেওয়া হয়নি (কোনো ওয়ার্কফ্লো পরিবর্তনটি আটকে রাখতে পারে)।</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>ছেড়ে দেওয়া হয়েছে; এখনও লুকানো: আপনি এটি প্রকাশ করতে পারবেন না (content/hide)।</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>ছেড়ে দেওয়া হয়েছে।</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>সব গন্তব্য</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>সর্বশেষ প্রকাশ</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>GitHub Pages-এ আপনার সাইটের একটি বিনামূল্যের স্ট্যাটিক কপি প্রকাশ করুন:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>পুরোনো পৃষ্ঠা</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>স্ট্যাটিক প্রকাশনা</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>স্ট্যাটিক প্রকাশনা বন্ধ আছে।</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>গন্তব্য</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>গন্তব্যগুলো পড়া যায়নি: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>একটি কাজ চলছে</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>যাচাইয়ের জন্য বিল্ড</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>এটি লুকান</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>একটি গন্তব্য তৈরি করুন</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>কখনো না</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>টিউটোরিয়াল পড়ুন</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>%added টি যোগ, %changed টি পরিবর্তিত, %removed টি সরানো হয়েছে</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%limit-এর মধ্যে %bytes (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>আরও %count টি তালিকায় দেখানো হয়নি।</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>%pages টি পৃষ্ঠা লেখা হয়েছে</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path-এর আকার %size, যা একটি ফাইলের জন্য হোস্টের অনুমোদিত সীমার চেয়ে বেশি।</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>সীমার %percent %</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds সে.</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag হলো সাইটের বর্তমান প্রকাশ।</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: কাজ %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>GitHub প্রজেক্ট সাইটের জন্য /রিপোজিটরি/; কাস্টম ডোমেইন বা ইউজার সাইটের জন্য খালি।</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>১. সাইট</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>২. হোস্ট</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>৩. রিপোজিটরিতে সাইন ইন</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>৪. রিপোজিটরি</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>৫. লিংক ও বেস পাথ</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>৬. আপনার নিজের ডোমেইন</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>৭. বিল্ডে কী থাকে</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>৮. কখন প্রকাশ করা হয়</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>৯. পর্যালোচনা ও সংরক্ষণ</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>একটি GitHub প্রজেক্ট সাইট /&lt;repository&gt;/-এর নিচে থাকে; আপেক্ষিক লিংক সেখানে এবং অন্য যেকোনো জায়গায় কাজ করে।</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>একটি বিল্ড %site-এর প্রতিটি পৃষ্ঠা সাইন ইন না করা দর্শক যেভাবে দেখেন সেভাবে আনে, লিংকগুলো নতুন করে লেখে, ফাইলগুলো কপি করে এবং ফলাফল গন্তব্যের ফোল্ডারে লেখে। আপনি বিল্ড যাচাই করে প্রকাশ করুন বোতাম না চাপা পর্যন্ত কিছুই প্রকাশিত হয় না।</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>একটি cron এক্সপ্রেশন, যেমন 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>ডিপ্লয় কী সিক্রেট %secret হিসেবে রাখা আছে।</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>একটি ডিপ্লয় কী এই ইনস্টলেশনকে SSH-এর মাধ্যমে শুধু একটি রিপোজিটরিতে পুশ করতে দেয়, আর কোথাও নয়। এর প্রাইভেট অংশ সেটআপ &gt; সিক্রেট-এ থাকে; শুধু পাবলিক অংশ দেখানো হয়।</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>এই গন্তব্যের জন্য তৈরি একটি ডিপ্লয় কী</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>একটি ডিপ্লয় কী SSH-এর মাধ্যমে সাইন ইন করে: git ঠিকানাটি SSH ঠিকানায় বদলান (git@github.com:owner/repo.git)।</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>একটি কাজ চলছে, শুরু করেছেন %user</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>এই গন্তব্যের একটি কাজ এখনও চলছে (%detail)। এটি শেষ হওয়া পর্যন্ত অপেক্ষা করুন।</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>এই গন্তব্যের একটি কাজ এখনও চলছে। এটি শেষ হওয়া পর্যন্ত অপেক্ষা করুন।</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>/news/ পৃষ্ঠা থেকে /about-us/team পৃষ্ঠার একটি লিংক এভাবে লেখা হবে</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>একটি নতুন ডিপ্লয় কী তৈরি হয়েছে। এখনই এর পাবলিক অংশ রিপোজিটরিতে যোগ করুন।</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>পরিষ্কারের পরেও যে পৃষ্ঠায় ডিবাগ আউটপুট, ফর্ম টোকেন বা সেশন আইডি থাকে, তা কখনো প্রকাশ করা হয় না।</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>রোলব্যাক বিশেষজ্ঞদের জন্য: &quot;আমি জানি এটি কী পরিবর্তন করে&quot; টিক দিন এবং ট্যাগের নাম আবার লিখুন।</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>একটি সাইট সর্বোচ্চ %site, একটি ফাইল সর্বোচ্চ %file হতে পারে, মাসে প্রায় 100 GB ট্রাফিকসহ। বিনামূল্যের প্ল্যানে রিপোজিটরিটি পাবলিক হতে হবে। GitHub Pages দোকান বা অন্যান্য বাণিজ্যিক লেনদেনের জন্য নয়।</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>একটি গন্তব্য হলো একটি git রিপোজিটরিতে প্রকাশিত একটি সাইট। এখানে কিছুই বিল্ড বা প্রকাশ করা হয় না: সংরক্ষণ করুন সেটিংস settings/override/staticcache.ini.append.php-এ লেখে।</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>একটি গন্তব্য হলো এক জায়গায় প্রকাশিত একটি সাইট, যেমন GitHub Pages-এ আপনার পাবলিক সাইট।</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>সেটআপ &gt; সিক্রেট থেকে একটি টোকেন</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>রিপোজিটরির একটি ওয়ার্কফ্লো এটি প্রকাশ করে।</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>এই পাবলিক কী-টি লেখার অনুমতিসহ রিপোজিটরিতে যোগ করুন। GitHub: Settings &gt; Deploy keys &gt; Add deploy key, Allow write access টিক দিন।</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>যোগ করা হয়েছে</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>অন্য একটি git হোস্ট</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>অন্য একটি প্রসেস এই গন্তব্যে কাজ করছে: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>পিছনে</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>বেস পাথ</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>আগে</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>একটি বেস পাথের নিচে</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>ব্রাঞ্চ</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>ভাঙা লিংক</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>বিল্ডে ভাঙা লিংক</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>বিল্ড</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>বিল্ড %id, %user দ্বারা</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>%name বিল্ড করুন</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>এখনই বিল্ড করুন</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>যাচাইয়ের জন্য বিল্ড</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>কার দ্বারা</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>হাতে, এখানে</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>বাতিল করুন</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>পরিবর্তন করুন</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>পরিবর্তিত</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>পরিবর্তনসমূহ</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>আগে এটি যাচাই করুন</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>এই সেটিংসগুলো যাচাই করুন</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>বিল্ডটি কী পরিবর্তন করে তা যাচাই করুন, দেখে নিন, তারপর প্রকাশ করুন বা বাদ দিন।</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>যে প্রকাশে ফিরে যেতে চান তা বেছে নিন।</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>পরবর্তী কোনো রিলিজে আসবে।</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>কমিট</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>কমিটসমূহ</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>বিল্ডটি কমিট করে, ট্যাগ দেয় এবং %remote-এ পুশ করে। পুশ কখনো জোর করে করা হয় না; পরে যেকোনো প্রকাশে ফিরে যেতে পারবেন।</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>আগের ফোল্ডারের সাথে তুলনায়: %added টি যোগ, %changed টি পরিবর্তিত, %removed টি সরানো, %unchanged টি অপরিবর্তিত।</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>সর্বশেষ প্রকাশের সাথে তুলনা করা হয়েছে।</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>ক্রেডেনশিয়াল</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>কাস্টম ডোমেইন</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>ডিবাগ আউটপুট, ফর্ম টোকেন, সেশন আইডি ও nonce সবসময় সরিয়ে ফেলা হয়।</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>ডিপ্লয় কী</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>%name-এর ডিপ্লয় কী</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>বাদ দিন</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>বিল্ডটি বাদ দিন</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>ডোমেইন</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>খালি: সাইটের ঠিকানা। অন্যথায় একই সাইটের একটি অভ্যন্তরীণ ঠিকানা।</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>শেষ</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>প্রতিটি লিংক বেস পাথ দিয়ে শুরু হয়।</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>প্রতিটি প্রকাশ static/%id/&lt;n&gt; ট্যাগসহ একটি কমিট। ফিরে যাওয়া আগের একটি প্রকাশের ফাইল নিয়ে একটি নতুন কমিট তৈরি করে: ইতিহাস থেকে যায়, কোনো ট্যাগ সরে না এবং কিছুই জোর করে করা হয় না।</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>অতিরিক্ত</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>পৃষ্ঠা আনার ঠিকানা</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>ফাইল</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>ফাইলসমূহ</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>অনুপস্থিত ফাইল</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>ফাইলের উৎস</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>যে ফাইলগুলো সংগ্রহ করা যায়নি</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>ফিঙ্গারপ্রিন্ট</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>ফোল্ডার</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>SSH ঠিকানার জন্য। সংরক্ষণের পরে কী তৈরি হয়; আপনি এর পাবলিক অংশ রিপোজিটরিতে যোগ করবেন।</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>একটি https:// ঠিকানার জন্য। GitHub: রিপোজিটরিতে Contents পড়া ও লেখার অনুমতিসহ একটি fine-grained টোকেন।</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>বিশেষজ্ঞদের জন্য। পুশ সম্পন্ন হওয়ামাত্র পাবলিক সাইট বদলে যায়।</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>ফর্ম</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>একটি GitHub রিপোজিটরি থেকে বিনামূল্যের হোস্টিং।</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>ব্রাঞ্চ থেকে</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>Git ঠিকানা</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages %site আকারের সাইট এবং %file আকারের ফাইল অনুমোদন করে।</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>GitHub Pages-এর সীমা</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages ফাইলগুলো যেমন আছে তেমনই প্রকাশ করে (_ দিয়ে শুরু হওয়া ফাইলের জন্য প্রয়োজন)।</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub ব্রাঞ্চটি যেভাবে পুশ করা হয় সেভাবেই পরিবেশন করে। ডিফল্ট।</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, আপনার নিজের সার্ভার: যেকোনো git রিপোজিটরি।</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>আগের কোনো প্রকাশে ফিরে যান</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>সহায়তা</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>উইজার্ড নিয়ে সহায়তা</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>সেগুলো লুকান</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>ইতিহাস</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>%name-এর ইতিহাস</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>হোস্ট</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>GitHub Pages কীভাবে বিল্ড গ্রহণ করে</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>আমি পরিবর্তনগুলো যাচাই করেছি</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>আমি জানি এটি কী পরিবর্তন করে</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>আইডি</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>এটি বন্ধ আছে: চালু না হওয়া পর্যন্ত কিছুই বিল্ড করা যাবে না।</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>এটি ব্যাকগ্রাউন্ডে %user হিসেবে চলে; আপনি এই পৃষ্ঠাটি বন্ধ করতে পারেন।</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>কাজ %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>সিক্রেট %secret হিসেবে রাখা আছে।</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>ধরন</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>সর্বশেষ প্রকাশ</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>এই পৃষ্ঠাগুলো বাদ দিন</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>এই বিভাগগুলো বাদ দিন</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>লিংক</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>পুনর্লিখিত লিংক</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>লাইভ সাইট</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>বিল্ডটি দেখুন</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>ছোট হাতের অক্ষর, অঙ্ক, _ এবং -, যেমন github-public। এটি ফোল্ডার ও ট্যাগগুলোর (static/&lt;id&gt;/&lt;n&gt;) নাম দেয় এবং পরে পরিবর্তন করা যায় না।</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>নতুন কী তৈরি করুন</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>গন্তব্য তৈরি করুন</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>কী তৈরি করুন</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>প্রথমে হোস্টে রিপোজিটরিটি তৈরি করুন; খালি হলেও চলবে।</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>ম্যানিফেস্ট</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>বার্তা</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>বেশিরভাগ পৃষ্ঠা</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>নাম</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>সেটআপ &gt; সিক্রেট-এ টোকেনের নাম</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>নতুন গন্তব্য</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>পরবর্তী</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>না</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>এখনও কোনো কমিট নেই।</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>কোনো কী তৈরি হয়নি: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>কোনো php কমান্ড লাইন বাইনারি পাওয়া যায়নি। migration.ini [AdminSettings] PhpCliPath-এ এর পূর্ণ পাথ সেট করুন।</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>এখনও কোনো ট্যাগ নেই।</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>এখনও কোনো গন্তব্য নেই।</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>কোনোটিই নয়</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>বিল্ডে নেই।</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>এখনও কিছু প্রকাশ করা হয়নি।</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>এখনও কিছু প্রকাশ করা হয়নি: প্রতিটি ফাইল নতুন।</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>বিজ্ঞপ্তি</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>সময়সূচি অনুযায়ী</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>কনসোলে</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>সার্ভারে: ./console exp:static:serve %id এটি একইভাবে পরিবেশন করে।</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>প্রতি লাইনে একটি পাথ, * যেকোনো অংশের সাথে মেলে: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>গন্তব্যের সাথে শুধু একটি নাম রাখা হয়; টোকেন বা কী নিজে সেটআপ &gt; সিক্রেট-এ থাকে এবং কখনো লগে দেখা যায় না।</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>শুধু পৃষ্ঠাগুলো যা উল্লেখ করে</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>শুধু টোকেনের সাথে। env:NAME এর বদলে সার্ভারের একটি এনভায়রনমেন্ট ভেরিয়েবল পড়ে।</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>পূর্বরূপ খুলুন</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>হোস্ট যেভাবে পরিবেশন করবে সেভাবে গন্তব্যের ফোল্ডার থেকে বিল্ডটি খোলে। লিংকটি আপনার জন্য এক ঘণ্টা কাজ করে।</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>ঐচ্ছিক। খালি: যা প্রকাশিত হয়েছে।</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>ঐচ্ছিক। ডোমেইন থাকলে সাইটটি তার রুটে পরিবেশিত হয়।</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>আউটপুট</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>পৃষ্ঠা</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>গন্তব্যের পৃষ্ঠা</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>প্রত্যাখ্যাত পৃষ্ঠা</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>পোস্ট-প্রসেসিং</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>পূর্বরূপ</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>পূর্বরূপ ও প্রকাশ</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>%name-এর পূর্বরূপ ও প্রকাশ</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>বিল্ডের পূর্বরূপ দেখুন</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>অগ্রগতি</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>পাবলিক ঠিকানা</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>পাবলিক কী</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>প্রকাশ করুন</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>একটি সাইটের স্ট্যাটিক কপি GitHub Pages বা যেকোনো git হোস্টে প্রকাশ করুন: বিল্ড করুন, পরিবর্তনগুলো যাচাই করুন, প্রকাশ করুন, এবং প্রয়োজনে আগের কোনো প্রকাশে ফিরে যান।</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>যে প্রকাশে ফিরে যাবেন</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>প্রকাশসমূহ</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>পুশ</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>টিউটোরিয়াল পড়ুন</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>রেকর্ড</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>প্রত্যাখ্যাত</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>আপেক্ষিক</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>পুনরায় লোড করুন</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>সরানো হয়েছে</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>কী প্রতিস্থাপন করুন: পুরোনোটি কাজ করা বন্ধ করবে</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>রিপোর্ট</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>বিল্ডের রিপোর্ট</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>রিপোজিটরি</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>পর্যালোচনা</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>পর্যালোচনা প্রতিটি সেটিং যাচাই করে এবং যে লাইনগুলো লেখা হবে তা দেখায়। এখনও কিছু সংরক্ষিত হয়নি।</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>ফিরিয়ে নিন</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>রোলব্যাক</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>সংরক্ষণ করুন</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>সময়সূচি</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>অনুসন্ধান পৃষ্ঠা</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>বিভাগের আইডি, কমা দিয়ে আলাদা।</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>সেগুলো লাইভ সাইটে পাঠান</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>সেটিং</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>সেটিংস</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>%name-এর সেটিংস</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>সেটআপ</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>সেটআপ &gt; সিক্রেট</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>তালিকায় দেখানো হয়, যেমন &quot;GitHub Pages-এ পাবলিক সাইট&quot;।</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>GitHub App দিয়ে সাইন ইন GitHub ইন্টিগ্রেশনের সাথে আসবে।</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>সাইট</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>প্রকাশের জন্য সাইট</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>আকার</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>আকার ও সীমা</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>বিল্ডের আকার</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>পুরোনো পৃষ্ঠা</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>শুরু</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>%user %time-এ শুরু করেছেন।</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>অবস্থা</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>স্ট্যাটিক প্রকাশনা</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>স্ট্যাটিক প্রকাশনা বন্ধ আছে</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>স্ট্যাটিক প্রকাশনা বন্ধ আছে।</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>স্ট্যাটিক প্রকাশনা বন্ধ আছে। প্রথমে সেটআপ &gt; স্ট্যাটিক প্রকাশনা-তে এটি চালু করুন।</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>স্ট্যাটিক প্রকাশনা চালু আছে।</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>%total-এর মধ্যে ধাপ %step</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>ধাপসমূহ</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>পরিষ্কার</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>বন্ধ করুন</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>চালু করুন</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>স্ট্যাটিক প্রকাশনা চালু করুন</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>ট্যাগ</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>ট্যাগসমূহ</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>গন্তব্য</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>গন্তব্য তৈরি ও পরিবর্তন করা যায়, কিন্তু এটি চালু না হওয়া পর্যন্ত কিছুই বিল্ড বা প্রকাশ করা হয় না।</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>সার্চ ইঞ্জিনকে জানায় কী পড়তে হবে।</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>বিল্ডটি বাদ দেওয়া যায়নি: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>বিল্ডটি সর্বশেষ প্রকাশের মতোই: প্রকাশ করার কিছু নেই।</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>বিল্ডটি বাদ দেওয়া হয়েছে: ফোল্ডারে আবার সর্বশেষ প্রকাশ রয়েছে।</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>ডিফল্ট মানগুলো বেশিরভাগ সাইটের জন্য উপযুক্ত।</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>ফোল্ডারে এমন একটি বিল্ড আছে যা এখনও প্রকাশিত হয়নি; নতুন বিল্ড এটিকে প্রতিস্থাপন করবে।</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>কাজের ফোল্ডারে লেখা যায় না: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>কাজটি প্রস্তুত করা যায়নি: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>কাজটি শুরু করা যায়নি।</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>কাজটি শেষ হয়েছে। এর রিপোর্ট লোড হচ্ছে।</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>কাজটির জন্য একজন সাইন ইন করা ব্যবহারকারী প্রয়োজন।</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>কাজটি শুরু হয়েছে কিন্তু এর প্রসেস আইডি জানায়নি। %detail যাচাই করুন।</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>কী</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>সবচেয়ে বড় ফাইল: %path, %size।</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>যে লাইনগুলো লেখা হবে</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>সার্চ ইঞ্জিনের জন্য পৃষ্ঠার তালিকা; পাবলিক ঠিকানা প্রয়োজন।</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>সাইন ইন না করা দর্শক যেভাবে দেখেন, পৃষ্ঠাগুলো সেভাবেই আনা হয়। প্রশাসন ও সম্পাদনার siteaccess কখনো দেখানো হয় না।</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>অগ্রগতি অনুসরণ করা যায়নি। কাজটি কেমন চলছে দেখতে পৃষ্ঠাটি পুনরায় লোড করুন।</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>কী-এর পাবলিক অংশ:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>ব্রাঞ্চের রুট</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>সিক্রেট স্টোর এখনও সেট আপ করা হয়নি (./console exp:upgrade --apply এর টেবিল তৈরি করে), তাই কোনো কী রাখা যায় না।</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>সার্ভার নিজেই সাইন ইন করে (নিজের SSH কী বা ক্রেডেনশিয়াল হেল্পার দিয়ে), অথবা রিপোজিটরিটি এই সার্ভারেই আছে।</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>সেটিংটি লেখা যায়নি: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>সেটিংস বৈধ। এই লাইনগুলো লেখা হবে:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>সেটিংস ফাইল পড়া যায় না: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>সাইটটি সেই প্রকাশের ফাইলে ফিরে যায়; এখনও প্রকাশিত হয়নি এমন বিল্ড আগে প্রকাশ করতে বা বাদ দিতে হবে।</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>অস্তিত্বহীন ঠিকানার জন্য সাইটের নিজস্ব পৃষ্ঠা।</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>গন্তব্যটি সংরক্ষণ করা যায়নি: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>গন্তব্যটি এখনও এই কী দিয়ে সাইন ইন করে না: এর সেটিংসে &quot;এই গন্তব্যের জন্য তৈরি একটি ডিপ্লয় কী&quot; বেছে নিন।</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>গন্তব্যগুলো পড়া যায়নি: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>যাচাই করার মতো কোনো বিল্ড এখনও নেই।</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>এই ইনস্টলেশনে কোনো ফ্রন্ট siteaccess নেই। প্রশাসন ও সম্পাদনার siteaccess কখনো প্রকাশ করা হয় না।</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>এই পৃষ্ঠা কাজটি চলার সাথে সাথে অনুসরণ করে; পৃষ্ঠা বন্ধ করলেও এটি ব্যাকগ্রাউন্ডে চলতে থাকে।</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>এই গন্তব্যের এখনও কোনো ডিপ্লয় কী নেই।</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>এই গন্তব্যটি এখানে এখনও বিল্ড করা হয়নি।</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>এই গন্তব্যের একটি আছে।</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>এই বিল্ডটি বাদ দেয়: ফোল্ডারে আবার সর্বশেষ প্রকাশ থাকে। লাইভ সাইট বদলায় না।</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>প্রথমে &quot;আমি পরিবর্তনগুলো যাচাই করেছি&quot; টিক দিন।</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>সময়</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>ট্রিগার</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>ট্যাগের নাম আবার লিখুন</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>অপরিবর্তিত</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>ওয়েবহুক</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>কী</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>কী পরিবর্তন হয়</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>প্রতিটি ফাইল কী; সবসময় লেখা হয়।</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>কাজটি কী করেছে এবং এর রেকর্ড। এখানে শুরু করা কাজ এই পৃষ্ঠা বন্ধ করলেও ব্যাকগ্রাউন্ডে চলতে থাকে।</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>কাজটি ত্রুটি হিসেবে যা প্রিন্ট করেছে</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>পৃষ্ঠাগুলো যা উল্লেখ করে, এবং প্রকাশিত কনটেন্টের প্রতিটি ছবি</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>কখন</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>যখন কোনো প্রকাশ ব্যর্থ হয়</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>যখন কোনো প্রকাশ সফল হয়</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>যখন কনটেন্ট প্রকাশিত হয়</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>কপিতে যা নেই তার লিংক কোথায় যাবে (অনুসন্ধান, লগইন)।</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>স্ট্যাটিক কপিটি কোথা থেকে পরিবেশিত হয়।</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>কোন সাইট প্রকাশিত হয়, এবং গন্তব্যের নাম কী।</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>যেকোনো পাথের নিচে কাজ করে। ডিফল্ট।</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>কাস্টম ডোমেইন সেট করা থাকলেই লেখা হয়।</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>হ্যাঁ</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>আপনি সবসময় এখানে ও কনসোলে হাতে বিল্ড ও প্রকাশ করতে পারেন।</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>শুধু একটি নাম; মানটি সেটআপ &gt; সিক্রেট-এ থাকে</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>%path-এর নিচে</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>রিপোর্ট ছাড়াই শেষ হয়েছে</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>অতিরিক্ত</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>ব্যর্থ</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>ফাইল</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages, অথবা docs ফোল্ডারসহ main।</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>git হোস্ট</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (টোকেন দিয়ে) অথবা git@github.com:owner/repo.git (ডিপ্লয় কী দিয়ে); এতে কখনো পাসওয়ার্ড বা টোকেন নয়।</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/, সাইটম্যাপ ও ক্যানোনিকাল লিংকের জন্য।</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>ছবি</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>কখনো না</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>না</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>কোনো রিমোট নেই</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>নেই: কমিটগুলো ফোল্ডারেই থাকে</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>নেই: কিছুই বদলায়নি</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>পুশ করা হয়নি</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>কিছুই বদলায়নি</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>পৃষ্ঠা</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>সফল</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>proc_open নিষ্ক্রিয়, তাই এখানে কোনো কাজ শুরু করা যায় না। সার্ভারে ./console exp:static:build ব্যবহার করুন।</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>প্রকাশ</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>প্রকাশিত</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>পুশ বাকি</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>পুশ করা হয়েছে</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>প্রত্যাখ্যাত</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>আপেক্ষিক</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>রোলব্যাক</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>ফিরিয়ে নেওয়া হয়েছে</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>চলছে</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>শুধু ফোল্ডার</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: CNAME ফাইলে লেখা হয়। হোস্টের ব্যাখ্যা অনুযায়ী ডোমেইনের DNS হোস্টের দিকে নির্দেশ করুন; HTTPS চালু হতে কিছু সময় লাগতে পারে।</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>হ্যাঁ, এখনও প্রকাশিত হয়নি</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>একটি GitHub App</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>রিপোজিটরির একটি ওয়ার্কফ্লো এটি প্রকাশ করে। বিল্ড ওয়ার্কফ্লো ফাইলটি লেখে; ফোল্ডারটি খালি রাখুন।</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>একটি GitHub রিপোজিটরি এবং একটি টোকেন বা GitHub App সহ একটি গন্তব্য সংরক্ষণ করার পর, এই ধাপটি রিপোজিটরি তৈরি করতে এবং GitHub Pages চালু করতে পারে। অন্যথায় আগে GitHub-এ রিপোজিটরি তৈরি করুন; খালি রিপোজিটরিও চলবে।</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>ব্রাঞ্চ নাকি GitHub Actions?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>DNS যাচাই করুন</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>রিপোজিটরি না থাকলে তৈরি করুন</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>GitHub-এ রিপোজিটরি তৈরি করুন এবং এর সেটিংসে GitHub Pages চালু করুন (Settings &gt; Pages)।</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>রিপোজিটরি %repo না থাকলে তৈরি করে (চাওয়া হলে), সংরক্ষিত অনুযায়ী ব্রাঞ্চ বা GitHub Actions থেকে GitHub Pages চালু করে, এবং কাস্টম ডোমেইন ও HTTPS সেট করে। এটি সংরক্ষিত সেটিংস ব্যবহার করে: আগে পরিবর্তনগুলো সংরক্ষণ করুন।</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>GitHub-এ বিস্তারিত</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>আগে কাস্টম ডোমেইন লিখুন।</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>প্রতিটি push প্রথমে এই সীমাগুলোর সাথে যাচাই করা হয়।</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>GitHub-এ একটি https:// ঠিকানার জন্য। এই ইনস্টলেশনের জন্য সেট আপ করা App সাইন ইন করে; এর জন্য ইনস্টলেশন আইডি প্রয়োজন।</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages একটি প্রাইভেট রিপোজিটরি কেবল পেইড প্ল্যানে পরিবেশন করে।</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: একটি সাবডোমেইনের (www.example.com) জন্য &lt;owner&gt;.github.io-তে একটি CNAME রেকর্ড প্রয়োজন; একটি অ্যাপেক্স ডোমেইনের (example.com) জন্য A রেকর্ড %ips।</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>GitHub App-এর ইনস্টলেশন আইডি</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>সর্বশেষ Pages বিল্ড</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>সীমা ও শর্তাবলি</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>ফ্রি প্ল্যানে GitHub Pages-এর জন্য প্রয়োজন।</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>GitHub-এ</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>কেবল GitHub App-এর সাথে: GitHub-এ App-এর ইনস্টলেশনের ঠিকানার শেষের সংখ্যা। App নিজেই staticcache.ini-তে সেট করা হয় (GitHubAppId, GitHubAppKey)।</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>প্রাইভেট</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>পাবলিক</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>আগে একটি GitHub রিপোজিটরি এবং একটি টোকেন বা GitHub App সহ গন্তব্যটি সংরক্ষণ করুন।</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>ডোমেইনের প্রদানকারীর কাছে এই রেকর্ডগুলো সেট করুন:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>GitHub-এ সেট আপ করুন</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>%domain-এর DNS এখনও GitHub Pages-এর দিকে নির্দেশ করে না।</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>%domain-এর DNS GitHub Pages-এর দিকে নির্দেশ করে।</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>GitHub ইন্টিগ্রেশন এখানে উপলভ্য নয়: %problem। ব্রাঞ্চে প্রকাশ তবুও কাজ করে; রিপোজিটরির সেটিংসে GitHub Pages চালু করুন।</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>এই গন্তব্যের জন্য GitHub ধাপগুলো উপলভ্য নয়: %problem।</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>ক্রেডেনশিয়াল হিসেবে একটি টোকেন বা GitHub App থাকলে GitHub Pages-এর অবস্থা দেখানো হয়।</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>নিজের ডোমেইন ব্যবহার করুন</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>কোনটি বেছে নেবেন: টোকেন, ডিপ্লয় কী নাকি GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>একটি GitHub রিপোজিটরি এবং একটি টোকেন বা GitHub App থাকলে উইজার্ড আপনার জন্য রিপোজিটরি তৈরি করতে, GitHub Pages চালু করতে এবং ডোমেইন সেট করতে পারে (ধাপ ৪)।</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>বিল্ড হচ্ছে</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>বিল্ড হয়েছে</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>GitHub Actions থেকে</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>ব্রাঞ্চ %branch থেকে</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>এখনও নেই</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>পাওয়া যায়নি</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>বন্ধ</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>প্রাইভেট</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>পাবলিক</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>সারিতে</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>অজানা</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%count টি, %pages টি পৃষ্ঠায়:</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>প্রতিটি টেক্সট ফাইলের পাশে একটি .gz (এবং .br) ফাইল, যেসব হোস্ট সেগুলো পরিবেশন করে তাদের জন্য।</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>পৃষ্ঠার প্রতিটি পুরনো ঠিকানা ও উপনামের জন্য একটি ছোট পৃষ্ঠা, যাতে পুরনো লিংক কাজ করতে থাকে।</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>GitHub Actions সাইট সরবরাহ করলে সবসময় লেখা হয়।</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>CC-BY-4.0 এর মতো একটি SPDX আইডি, বা পাঠ্যটি নিজেই।</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>বাস্কেট</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>সার্ভারে কল</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>মন্তব্য</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>তথ্য সংগ্রহকারী ফর্ম</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>GitHub Actions ওয়ার্কফ্লো</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>পৃষ্ঠাগুলোতে কম ফাঁকা স্থান এবং কোনো মন্তব্য নয়।</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>কনটেন্টের লাইসেন্স</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>লগইন</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>মিনিফাই</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>অন্যান্য ফর্ম</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>আগে থেকে কমপ্রেস করুন</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>রিডাইরেক্ট পৃষ্ঠা</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>রিডাইরেক্ট পৃষ্ঠা: %count।</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>অনুসন্ধান</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>অনুসন্ধান সূচক: %languages ভাষায় %pages টি পৃষ্ঠা।</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>কনটেন্টের হ্যাশ অনুযায়ী নামকরণ করা স্টাইল শিট ও স্ক্রিপ্ট, যাতে ব্রাউজার সেগুলো রাখতে পারে।</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>পরিবর্তিত পৃষ্ঠাগুলো, শেষ পরিবর্তনের কয়েক মিনিট পরে (cronjob অংশ staticpublish)।</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>কনটেন্টের লাইসেন্স, নিচের ক্ষেত্র থেকে।</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>পুরো সাইট, সময়সূচির সময়ে (cronjob অংশ staticpublish)।</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>পৃষ্ঠার এই অংশগুলোর জন্য সার্ভার প্রয়োজন; প্রতিটির একটি বিকল্প আছে। প্রকাশের আগে সেগুলো পরীক্ষা করুন।</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>যা স্ট্যাটিকভাবে কাজ করে না</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>রিপোজিটরিটি কী, হোস্টে যিনি এটি খুলবেন তাঁর জন্য।</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>বাদ দেওয়া হয়েছে</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>বিকল্প পাঠ্য</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>লাইভ সাইটের ফর্ম এন্ডপয়েন্ট</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>লাইভ সাইট</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>কপির অনুসন্ধান পৃষ্ঠা</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>ফর্মটি পাঠানো যায়নি।</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>ধন্যবাদ: ফর্মটি পাঠানো হয়েছে।</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>ফর্মটি গ্রহণ করা হয়নি: আপনি যা লিখেছেন তা পরীক্ষা করে আবার পাঠান।</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>কপিতে নেই এমন পৃষ্ঠার লিংক সরান</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>প্রশাসনের লিংক সরান</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>তাদের লেখা থেকে যায়। ছবি, ফর্ম এবং অন্য সাইটের লিংক কখনো সরানো হয় না।</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>সংস্করণ</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>প্রকাশ করার সাইটঅ্যাক্সেস</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>সাইটঅ্যাক্সেস</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>রুটে</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>রুটে কোনো সাইটঅ্যাক্সেস নেই: প্রতিটি তার ফোল্ডারে, আর রুট সেগুলোর লিংক দেয়</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>সাইটঅ্যাক্সেস</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>একটি সাইটঅ্যাক্সেস, বা URI প্রিফিক্স দিয়ে একটি হোস্ট ভাগ করে এমন কয়েকটি বেছে নিন। রুটেরটি সেখানে পরিবেশিত হয়, অন্যগুলো তাদের প্রিফিক্সের ফোল্ডারে (/ger/); তাদের মধ্যের লিংক কপিতেই থাকে। প্রশাসনের সাইটঅ্যাক্সেস কখনো দেখানো হয় না।</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>%site-এ %target-এর স্ট্যাটিক প্রকাশনা ব্যর্থ হয়েছে</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>%site-এ %target-এর স্ট্যাটিক প্রকাশনা সফল হয়েছে</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>স্ট্যাটিক প্রকাশনার লক্ষ্য %target এটি চায় বলে %site এই মেইলটি পাঠিয়েছে।</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>ডিপ্লয় %deploy %site-এ ব্যর্থ হয়েছে</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>ডিপ্লয় %deploy %site-এ একটি গেটে অপেক্ষা করছে</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>ডিপ্লয় %deploy %site-এ সফল হয়েছে</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>এই মেইলটি %site পাঠিয়েছে কারণ migration.ini [RemoteSettings] Notify[] এটি চায়।</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>ডেটা টাইপ (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>গণনা %time, আবার %minutes মিনিট পরে</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>একটি ডেটা টাইপ ক্লাসের অ্যাট্রিবিউটের এক ধরনের মান সংরক্ষণ ও সম্পাদনা করে: একটি টেক্সট লাইন, একটি ছবি, একটি সম্পর্ক। কার্নেল এদের বেশিরভাগ দেয়, এক্সটেনশন আরও যোগ করে। এখানে সবগুলো আছে, কে এগুলো দেয় এবং কতটা কনটেন্ট এগুলো ব্যবহার করে। যে ডেটা টাইপ ডেটাবেস ব্যবহার করে কিন্তু আর কিছুই নিবন্ধন করে না, তা সেই কনটেন্ট ভেঙে দেয় যেখানে এটি আছে।</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>ক্লাস গ্রুপ</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>গত কয়েক মিনিটের গণনা ব্যবহার না করে এখনই আবার গণনা করুন।</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>আবার গণনা করুন</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>ওভারভিউ</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>নিবন্ধিত</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>ব্যবহারে আছে</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>ব্যবহৃত হয়নি</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>ডেটা টাইপ সরবরাহকারী এক্সটেনশন</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>ক্লাসের অ্যাট্রিবিউট</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>অবজেক্ট অ্যাট্রিবিউট</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>নিবন্ধিত নয়</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>তালিকাভুক্ত, ফাইল নেই</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>%count টি ডেটা টাইপ ব্যবহৃত কিন্তু নিবন্ধিত নয়</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>%class_attributes টি ক্লাসের অ্যাট্রিবিউট এবং %object_attributes টি অবজেক্ট অ্যাট্রিবিউটের এমন একটি ডেটা টাইপ আছে যা কোনো এক্সটেনশন বা সেটিং নিবন্ধন করে না। এদের অবজেক্ট দেখানো, সম্পাদনা বা প্রকাশ করা যায় না। ডেটা টাইপটি সরবরাহকারী এক্সটেনশন সক্রিয় করুন, অথবা ক্লাস পরিবর্তন করুন।</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>শুধু এগুলো দেখান</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>ডেটা টাইপ খুঁজুন</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>শনাক্তকারী, নাম, PHP ক্লাস বা এক্সটেনশন।</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>দেখান</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>সব</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>সরবরাহকারী</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>সবাই</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>কার্নেল</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>এই ফিল্টারের সাথে কোনো ডেটা টাইপ মেলে না।</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>সব দেখান</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>এক্সটেনশন</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%count টি ডেটা টাইপের %shown টি, %used টি ব্যবহৃত</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>ডেটাবেসে এই ডেটা টাইপগুলোর ক্লাস বা অবজেক্ট অ্যাট্রিবিউট আছে, কিন্তু content.ini এদের কোনোটিই তালিকাভুক্ত করে না, অথবা এর ফাইল নেই।</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>%provider এর ডেটা টাইপ</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>ডেটা টাইপ</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>PHP ক্লাস ও ফাইল</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>ক্লাস</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>অবজেক্ট</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>ফ্ল্যাগ</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>কোনোটিই নয়</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>অনুসন্ধানের সাথে কোনো ডেটা টাইপ মেলে না। অনুসন্ধান মুছুন।</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>%count টি ডেটা টাইপের %shown টি দেখানো হচ্ছে</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>দেখানো ডেটা টাইপ: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>%column অনুযায়ী সাজান</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>গণনা %time</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>সব ডেটা টাইপ</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>সহায়তা পৃষ্ঠা</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>এই ডেটা টাইপ ব্যবহৃত কিন্তু নিবন্ধিত নয়</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>যতক্ষণ কোনো এক্সটেনশন ডেটা টাইপটি নিবন্ধন না করে, ততক্ষণ নিচের ক্লাসগুলোর অবজেক্ট দেখানো, সম্পাদনা বা প্রকাশ করা যায় না। এটি সরবরাহকারী এক্সটেনশন সক্রিয় করুন এবং এটি content.ini [DataTypeSettings] AvailableDataTypes[] এ যোগ করুন, অথবা ক্লাসগুলো পরিবর্তন করুন।</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini এই ডেটা টাইপ তালিকাভুক্ত করে, কিন্তু কোনো ডেটা টাইপ ডিরেক্টরিতে এর ফাইল নেই। কিছুই এটি ব্যবহার করে না; এটি AvailableDataTypes[] থেকে সরান অথবা এর এক্সটেনশন সক্রিয় করুন।</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>এই ডেটা টাইপ সম্পর্কে</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>শনাক্তকারী</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>নাম</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>এক্সটেনশন %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>কেউ না</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>PHP ক্লাস</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>ফাইল</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>AvailableDataTypes[] এ</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>হ্যাঁ</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>না</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>এর মানের কলাম</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>এর ক্লাস অ্যাট্রিবিউট সেটিংসের কলাম</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>টেবিল</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>কলাম ও টেবিল ডেটা টাইপের কোড পড়ে পাওয়া যায়: একটি নির্দেশিকা, প্রতিশ্রুতি নয়।</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>টেমপ্লেট</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>সাইটঅ্যাক্সেস</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>টেমপ্লেট</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>যেখানে পাওয়া গেছে</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>এই প্রশাসন</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>ডিফল্ট সাইট</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>ওভাররাইড ছাড়া: ক্লাস বা অ্যাট্রিবিউট অনুযায়ী মেলা ওভাররাইড টেমপ্লেট এগুলোর চেয়ে অগ্রাধিকার পায়।</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>যে ক্লাসগুলো এটি ব্যবহার করে (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>কোনো ক্লাসে এই ডেটা টাইপের অ্যাট্রিবিউট নেই।</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>ক্লাস</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>অ্যাট্রিবিউট</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>ক্লাসের অ্যাট্রিবিউট (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>অ্যাট্রিবিউট</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>সেটিংস</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>আবশ্যক</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>অনুসন্ধানযোগ্য</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>অনুবাদযোগ্য</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>তথ্য সংগ্রহ করে</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>এটি ব্যবহারকারী কিছু কনটেন্ট</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>সর্বশেষ পরিবর্তিত আগে</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>পরিবর্তিত</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>নোড %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>প্রতিটি অনুবাদের নিজস্ব মান আছে।</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>অনুসন্ধান এর মানগুলো ইনডেক্স করে।</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>এটি ভিজিটরদের কাছ থেকে তথ্য সংগ্রহ করতে পারে (ফর্ম)।</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>এটি দিয়ে তালিকা সাজানো যায়: সাজানোর কী %type।</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>সাজানো যায় এমন</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>এর মান অন্য অবজেক্ট নির্দেশ করে।</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>রিলেশন</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>এটি সাধারণ টেক্সট থেকে পূরণ করা যায় (ইমপোর্ট, REST)।</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>টেক্সট থেকে</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>এটি একটি ফাইল থেকে পূরণ করা যায়।</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>ফাইল থেকে</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>এর ক্লাস অ্যাট্রিবিউট সেটিংস প্যাকেজে যায়।</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>প্যাকেজ</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>বিষয়বস্তু (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%count-এর মধ্যে %from থেকে %to</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>তালিকা ফিল্টার করুন</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>সব কনটেন্ট ক্লাস</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>বিভাগ</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>ভাষা</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>মালিক</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>প্রকাশিত</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>ক্রম উল্টে দিন</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>কোনো আইটেম নেই</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>প্রতি পৃষ্ঠায়</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>প্রতি পৃষ্ঠায় %countটি আইটেম দেখান।</translation>
     </message>
 </context>
 </TS>

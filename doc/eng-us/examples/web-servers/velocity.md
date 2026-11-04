@@ -17,7 +17,32 @@ from its own response cache and manages its certificates. Its routing is `.htacc
 also serves the icon themes of extensions (`extension/<name>/icons/`, SVG, PNG and GIF images with exactly one
 extension); after an upgrade it takes effect with the restart that `exp:velocity deploy` does.
 
+> **Warning**
+> **`.htaccess` slows down every request.** When `.htaccess` files are enabled (`AllowOverride` anything but `None`), let alone
+> used, Apache looks for them and reads and evaluates them on every request, in every directory of the path, and
+> page loading times go up drastically ([measured](../../guides/setup-files-from-the-console.md#measured-htaccess-against-rules-in-the-virtual-host)). The only real fix is to switch the feature off for
+> the virtual host: `AllowOverride None` in the HTTPS virtual host, and the rules in the virtual host's own
+> configuration as mod_rewrite rules. That is far faster in production speed tests and well worth the time it takes
+> to optimize a production configuration. Switch over right away: copy the rules of the
+> [example HTTPS virtual host](apache-virtual-host.md) into your virtual host (with the static cache, also
+> [`staticcache_offload.conf`](../staticcache_offload.conf)), set `AllowOverride None`, run `apachectl configtest`, reload Apache and
+> test the site. The same rules for other servers: [nginx](nginx.md), [LiteSpeed](litespeed.md),
+> [Caddy](caddy.md), [IIS](iis.md), [Velocity](velocity.md) (built in); where virtual host rules go in a control
+> panel: [Plesk](../../help/hosting/panels/plesk.md), [cPanel](../../help/hosting/panels/cpanel.md), [DirectAdmin](../../help/hosting/panels/directadmin.md), [ISPConfig](../../help/hosting/panels/ispconfig.md).
+> **On LiteSpeed or OpenLiteSpeed,** the server's own page cache can also answer anonymous visitors and crawlers without PHP: [Page caching with LiteSpeed and OpenLiteSpeed](../../guides/litespeed-page-cache.md).
+
 Everything is configured in `velocity.ini`; the `/etc/vc` tree is generated from it on every start.
+
+Velocity does not read `.htaccess`. Copy it anyway (`./console exp:setup:htaccess --apply`) when Apache may serve the
+same tree, for example behind a panel or during a move. `config.php` is read by each worker once: after
+`./console exp:setup:config --apply` or `./console exp:config:set <NAME> <value> --apply`, run `./console
+exp:velocity restart`. See [Setting up .htaccess and config.php from the console](../../guides/setup-files-from-the-console.md).
+
+**WebDAV is not served by Velocity.** Its entry scripts are `index.php`, `index_rest.php` and `index_treemenu.php`;
+the WebDAV server, `index_webdav.php` since 6.0.15 (formerly `webdav.php`), is not among them, under either name. Serve
+WebDAV through Apache or nginx with PHP-FPM, best on a host of its own such as `webdav.example.com`; nothing in
+`velocity.ini` needs to change for the rename. See
+[The WebDAV entry script is now index_webdav.php](../../bc/6.0/webdav-entry-script-index-webdav.md).
 
 ## 1. The settings
 
@@ -79,15 +104,15 @@ Install it as `settings/override/velocity.ini.append.php` (merge it into an exis
 one, which writes the same file:
 
 ```bash
-php bin/php/console exp:velocity config set ServerSettings Engine qbix --allow-root-user
-php bin/php/console exp:velocity config set ServerSettings Host 0.0.0.0 --allow-root-user
-php bin/php/console exp:velocity config set ServerSettings Port 80 --allow-root-user
-php bin/php/console exp:velocity config set ServerSettings HTTPSPort 443 --allow-root-user
-php bin/php/console exp:velocity config set ServerSettings User example --allow-root-user
-php bin/php/console exp:velocity config set ServerSettings Group example --allow-root-user
-php bin/php/console exp:velocity config set HTTPSSettings Certificate /etc/ssl/example.com/fullchain.pem --allow-root-user
-php bin/php/console exp:velocity config set HTTPSSettings Key /etc/ssl/example.com/privkey.pem --allow-root-user
-php bin/php/console exp:velocity config set HTTPSSettings Enabled true --allow-root-user
+php bin/php/console exp:velocity config set --apply ServerSettings Engine qbix --allow-root-user
+php bin/php/console exp:velocity config set --apply ServerSettings Host 0.0.0.0 --allow-root-user
+php bin/php/console exp:velocity config set --apply ServerSettings Port 80 --allow-root-user
+php bin/php/console exp:velocity config set --apply ServerSettings HTTPSPort 443 --allow-root-user
+php bin/php/console exp:velocity config set --apply ServerSettings User example --allow-root-user
+php bin/php/console exp:velocity config set --apply ServerSettings Group example --allow-root-user
+php bin/php/console exp:velocity config set --apply HTTPSSettings Certificate /etc/ssl/example.com/fullchain.pem --allow-root-user
+php bin/php/console exp:velocity config set --apply HTTPSSettings Key /etc/ssl/example.com/privkey.pem --allow-root-user
+php bin/php/console exp:velocity config set --apply HTTPSSettings Enabled true --allow-root-user
 php bin/php/console exp:velocity config list --allow-root-user      # * marks what you set
 php bin/php/console exp:velocity restart --allow-root-user
 php bin/php/console exp:velocity status --allow-root-user
@@ -103,7 +128,7 @@ Notes:
   a self-signed stand-in rather than shown. A renewed certificate is picked up within a minute, without a restart. For
   Let's Encrypt run by Velocity itself, see `exp:velocity ssl` in
   [chapter 8, section 8.3.9](../../install/08-serving-the-site.md#839-https-served-by-velocity-itself).
-- **HSTS** starts at 300 seconds; raise `HSTSMaxAge` to a year only once every name is served over HTTPS for good.
+- **HSTS** is off as shipped (`HSTSMaxAge=0`); start at 300 seconds as above, and raise `HSTSMaxAge` to a year only once every name is served over HTTPS for good.
 - **Headers.** `[ServerSettings] ResponseHeaders[]` ships the kernel's default security headers for what Velocity
   answers itself, and `ResponseHeadersOnScripts` adds them to pages that lack them: nothing to configure.
 
@@ -165,15 +190,19 @@ shortened to an example installation, the static path list cut):
 }
 ```
 
+`scripts` lists every script the server runs. The SOAP server (`index_soap.php`, called `soap.php` before 6.0.15) is
+not on it, and was not before either: serve SOAP through the Apache or nginx front end of the installation (see
+[the SOAP entry script is now index_soap.php](../../bc/6.0/soap-entry-script-index-soap.md)).
+
 Do not edit a generated file: change `velocity.ini` and restart. To keep a file of your own, remove its
 `"_generated"` marker; it is then never overwritten, like a dpkg conffile. Enable and disable like `a2ensite`,
 `a2enconf` and `a2enmod`:
 
 ```bash
 php bin/php/console exp:velocity layout --allow-root-user                 # every path, what is enabled, the files in use
-php bin/php/console exp:velocity site enable example.com --allow-root-user
-php bin/php/console exp:velocity conf enable reverse-proxy --allow-root-user
-php bin/php/console exp:velocity mod disable http2 --allow-root-user
+php bin/php/console exp:velocity site enable --apply example.com --allow-root-user
+php bin/php/console exp:velocity conf enable --apply reverse-proxy --allow-root-user
+php bin/php/console exp:velocity mod disable --apply http2 --allow-root-user
 php bin/php/console exp:velocity ctl configtest --allow-root-user         # the engine's own check of the tree
 ```
 
@@ -252,6 +281,7 @@ the unit passed `systemd-analyze verify`; the site file shape is a generated fil
   [8.3.10 The configuration tree](../../install/08-serving-the-site.md#8310-the-configuration-tree-etcvc-debian-style),
   [8.3.11 Running Velocity as a service](../../install/08-serving-the-site.md#8311-running-velocity-as-a-service).
 - [Velocity engines](../../bc/6.0/velocity-engines.md) and [FrankenPHP](frankenphp.md).
+- [Setting up .htaccess and config.php from the console](../../guides/setup-files-from-the-console.md).
 - [Chapter 13, section 13.12: Velocity-specific hardening](../../install/13-security-hardening.md#1312-velocity-specific-hardening).
 - [Web server examples](README.md) and [all examples](../README.md).
 - [Free documentation](../../help/free-documentation.md): this page is free to copy, translate and improve.

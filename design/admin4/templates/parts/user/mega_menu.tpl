@@ -11,6 +11,8 @@
     'access-roles_and_policies', 'Roles and policies'|i18n( 'design/admin/parts/user/menu' ),
     'access-unactivated',        'Unactivated users'|i18n( 'design/admin/parts/user/menu' ),
     'access-user_hygiene',       'Check user accounts'|i18n( 'design/admin/parts/user/menu' ),
+    'access-user_audit',         'User audit log'|i18n( 'design/admin/parts/user/menu' ),
+    'access-session_report',     'Sign-in report'|i18n( 'design/admin/parts/user/menu' ),
     'account-my_notifications',  'My notification settings'|i18n( 'design/admin/parts/my/menu' ),
     'account-my_mail',           'My e-mail preferences'|i18n( 'design/admin/parts/my/menu' ),
     'account-change_password',   'Change password'|i18n( 'design/admin/parts/my/menu' ),

@@ -982,6 +982,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>Se caută doar în această pagină: %from - %to din %count.</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Fiecare tip de date al nucleului și al extensiilor și cum îl folosesc clasele și conținutul.</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Tipuri de date</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2314,6 +2322,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>Și paginile de sistem pot fi adăugate la marcaje: deschideți pagina (Configurare, pista de audit, o listă de utilizatori ...) și alegeți „Adăugare pagină la marcaje” deasupra ei. Aceste marcaje au o pictogramă în formă de roată dințată.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>Nu mai aveți voie să deschideți această pagină aici. Eliminați marcajul sau cereți acces unui administrator.</translation>
     </message>
 </context>
 <context>
@@ -5163,6 +5175,210 @@
         <source>Go to the first page</source>
         <translation>Salt la prima pagină</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>Altele</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>Ultimele 7 zile</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>Interval personalizat</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>Toate cuvintele</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>Oricare cuvânt</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>Expresie exactă</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>Relevanță</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>Nume A–Z</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>Nume Z–A</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>Modificat, cele mai noi primele</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>Modificat, cele mai vechi primele</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>Publicat, cele mai noi primele</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>Publicat, cele mai vechi primele</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Modificat</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>Filtre</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>Afișare filtre</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>Ascundere filtre</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Resetare</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>Aplicare</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>Cuvinte</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>Tip de conținut</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>Afișare mai multe (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>Alegeți un tip de conținut pentru a căuta într-unul dintre atributele sale.</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Secțiune</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Din</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Până la</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>Data de început nu este o dată validă.</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>Data de sfârșit nu este o dată validă.</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Proprietar</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>ID-ul utilizatorului, numele de autentificare sau adresa de e-mail.</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>Nu a fost găsit niciun utilizator pentru „%input”.</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Limbă</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>Orice limbă</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Locație</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>%count locații</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>Rezultate pe pagină</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>Rezultate pentru „%text” (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>Rezultate (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>Sortare după</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>Sortare</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>Filtre active</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>Eliminare filtru</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>Sau alegeți filtre și aplicați-le pentru a lista conținutul corespunzător.</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>Filtrele restrâng căutarea după ce ați introdus cuvinte.</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>Nu au fost găsite rezultate pentru „%text”.</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>Nu au fost găsite rezultate.</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>Eliminați un filtru de mai sus.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Traduceri</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Acțiuni</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>Editare %name</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Editare</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -8001,8 +8217,8 @@
         <translation>Notele privind drepturile de autor ale autorilor originali și ale software-ului terț inclus în Exponential sunt păstrate în fișierele sursă și în fișierul LICENSE, așa cum cere licența.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>Mai jos este o listă a contribuitorilor la Exponential care și-au licențiat munca pentru a fi utilizată de 7x în condițiile eZ Systems Contributor Licensing Agreement. Așa cum permite acest acord, 7x redistribuie fiecare contribuție sub aceeași licență ca fișierul în care este inclusă contribuția. Lista indică fiecare contribuitor, informații de contact opționale și fișierele la care a contribuit.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>Contribuitori menționați pentru munca lor la Exponential și la software-ul din care a apărut, împreună cu fișierele la care au contribuit. Aceasta este o recunoaștere, nu o notă privind drepturile de autor: contribuțiile la Exponential sunt cedate către Exponential Foundation și 7x în temeiul Contributor Licensing Agreement.</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13824,32 +14040,20 @@ Notă: pachetele nu vor fi dezinstalate.</translation>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluați Exponential Enterprise Edition&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Deveniți membru al comunității Exponential, faceți schimb de idei și contribuiți&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; și alții.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>Realizat cu &lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt;. Pentru mai multe informații, vedeți &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; și alții.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> Pentru mai multe informații, vedeți &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
     </message>
     <message>
-        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; și alții.</translation>
+        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluați Exponential (de la 7x)&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Deveniți membru al comunității Exponential, obțineți asistență și contribuiți&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; și alții.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13858,6 +14062,61 @@ Notă: pachetele nu vor fi dezinstalate.</translation>
     <message>
         <source>Help center</source>
         <translation>Centru de ajutor</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>Conținut</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>Pagini de documente</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>Utilizatori</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>Clase de conținut</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>Administrare</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>Pagina %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>Vizualizare toate rezultatele</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>Rezultate: %count</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>Un rezultat</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>%count sugestii</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>Nicio sugestie</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>Sugestiile nu au putut fi încărcate.</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>Sugestii</translation>
     </message>
 </context>
 <context>
@@ -14326,6 +14585,14 @@ Notă: pachetele nu vor fi dezinstalate.</translation>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>Această instalare este o demonstrație publică: oricine poate cunoaște parola de administrator, iar parolele de administrator nu pot fi modificate sau resetate. Nu introduceți aici nimic privat.</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Dispozitivele dumneavoastră</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Activitate de securitate</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14615,6 +14882,14 @@ Notă: pachetele nu vor fi dezinstalate.</translation>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>Ghiduri, căutare și modul de raportare a unei erori.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Conținut recent</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Cel mai nou conținut, ce este reținut pentru verificare și acțiuni asupra unei selecții.</translation>
     </message>
 </context>
 <context>
@@ -15073,6 +15348,46 @@ Notă: pachetele nu vor fi dezinstalate.</translation>
         <source>Synchronisations</source>
         <translation>Sincronizări</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>API-ul GraphQL: punctul său final, schema și un spațiu de joacă pentru a încerca interogări.</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migrări</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Modificări ale instalării păstrate ca fișiere: starea lor, rulările, rulare și anulare.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Conținut recent</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Cel mai nou conținut, ce este reținut pentru verificare și acțiuni asupra unei selecții.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Publicați o copie statică a unui site pe GitHub Pages sau pe orice gazdă git.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Publicare statică</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Tipuri de date</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Fiecare tip de date al nucleului și al extensiilor și cum îl folosesc clasele și conținutul.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15237,6 +15552,22 @@ Notă: pachetele nu vor fi dezinstalate.</translation>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>Conturi pe care nu le folosește nimeni sau care trebuie verificate; dezactivați-le, deblocați-le sau exportați-le.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Jurnal de audit al utilizatorilor</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>Cine a modificat, s-a conectat sau a fost refuzat, pe cont; filtrare și export.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Raport de conectări</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>Cine este conectat, conectări și eșecuri pe zi; deconectarea unui utilizator de pretutindeni.</translation>
     </message>
 </context>
 <context>
@@ -22053,6 +22384,22 @@ Notă: pachetele nu vor fi dezinstalate.</translation>
         <source>%n hours ago</source>
         <translation>acum %n h</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>Răspunsurile interogărilor persistente ale API-ului GraphQL și clasele de conținut ale schemei sale.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>Publicați o copie statică pe GitHub Pages sau pe orice gazdă git</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Publicare statică</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>Cache-ul static servește pagini de pe acest server. Pentru a publica o copie statică a unui site în altă parte, pe GitHub Pages sau pe orice gazdă git, folosiți publicarea statică.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25594,6 +25941,10 @@ Notă: pachetele nu vor fi dezinstalate.</translation>
     <message>
         <source>last purge</source>
         <translation>ultima golire</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>Scrierile nu au putut lua blocarea stării (ultima dată %date): fiecare a făcut învechite toate rezultatele din cache. %file trebuie să poată fi scris de fiecare utilizator sub care rulează site-ul; pe NFS are nevoie de NFSv4 sau lockd.</translation>
     </message>
 </context>
 <context>
@@ -33542,6 +33893,14 @@ Notă: pachetele nu vor fi dezinstalate.</translation>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>Sesiunile expirate ale handlerului PHP sunt eliminate chiar de PHP (session.gc_maxlifetime), nu de această pagină sau de partea session_gc a activității cron.</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>Sesiunile conectate ale tuturor utilizatorilor sunt listate, și deconectate, în raportul de conectări, care funcționează cu orice handler de sesiuni.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>Deschidere raport de conectări</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37866,6 +38225,26 @@ activa contul.</translation>
     <message>
         <source>None yet</source>
         <translation>Niciuna încă</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Activitate de securitate</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>Conectările dumneavoastră recente, încercările eșuate și modificările parolei, adresei de e-mail și conectării în doi pași.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>Conectările recente, încercările eșuate și modificările de securitate ale acestui cont.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>Verificare activitate</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>Conectări eșuate: %count</translation>
     </message>
 </context>
 <context>
@@ -44032,6 +44411,42 @@ Dacă doriți să trimiteți comentarii aprobatorului sau să vizualizați stare
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>După conectare, utilizatorul trebuie să aleagă o parolă nouă înainte de a face orice altceva. Utilizați această opțiune când dați cuiva o parolă temporară.</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>Alegeți o imagine existentă</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>Fișierul imagine al obiectului ales este copiat în acest câmp. Celălalt obiect nu se modifică.</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>Imaginea din „%name” a fost copiată în acest câmp.</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>Răsfoire imagini</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>Căutare imagini după nume</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Căutare</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>Folosiți imaginea din „%name”</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>Folosiți această imagine</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>Nicio imagine nu corespunde căutării dumneavoastră.</translation>
     </message>
 </context>
 <context>
@@ -50956,6 +51371,10 @@ Pentru mai multe informații, consultați pagina cu cerințe.</translation>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>Crontab-ul nu a fost scris (%reason). Adăugați aceste linii în crontab-ul utilizatorului sub care rulează site-ul, altfel coada, importurile, notificările și indexul de căutare nu vor rula niciodată:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>Reinstalarea se face cu kickstarterul (%file, apoi php bin/php/kickstarter.php run --apply) sau cu o instalare nouă.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54835,6 +55254,10 @@ activa contul.</translation>
         <source>eZJSCore Public Packer cache</source>
         <translation>Memorie cache eZJSCore Public Packer</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>Cache GraphQL (răspunsuri și clase ale schemei)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54921,6 +55344,14 @@ activa contul.</translation>
     <message>
         <source>Copy of %class_name</source>
         <translation>Copie a clasei %class_name</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Tipuri de date</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>Tip de date %string</translation>
     </message>
 </context>
 <context>
@@ -55747,6 +56178,26 @@ activa contul.</translation>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>Imaginea SVG nu a putut fi citită sau nimic din ea nu poate fi afișat în siguranță.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>Imaginea nu a putut fi copiată. Vă rugăm să încercați din nou sau să contactați administratorul site-ului.</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>Obiectul selectat nu există sau nu aveți permisiunea de a-l citi.</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>Obiectul selectat nu are o imagine.</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>Fișierul imagine al obiectului selectat nu a putut fi citit.</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>Imaginea obiectului selectat este mai mare decât permite acest câmp: %1 octeți.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56277,6 +56728,42 @@ activa contul.</translation>
         <source>The bookmark was renamed to "%name".</source>
         <translation>Marcajul a fost redenumit în „%name”.</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>Această pagină este dezactivată în acest acces la site (%siteaccess). Deschideți marcajul într-un acces la site care o are.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>Modulul acestei pagini nu este instalat sau nu este activat aici.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>Această pagină nu mai există: modulul ei nu are o astfel de vizualizare.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>Niciunul dintre rolurile dumneavoastră nu vă permite să deschideți această pagină.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>Nu aveți voie să folosiți acest acces la site.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>Nu aveți voie să citiți conținutul pe care îl afișează această pagină.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>Acest tip de pagină nu poate fi adăugat la marcaje: doar acționează asupra unui formular sau este o pagină de moment.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>Adresa acestei pagini lipsește.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>Această pagină nu poate fi deschisă acum.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56748,6 +57235,10 @@ Va trebui să schimbați clasa nodului folosind funcția de interschimbare.</tra
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>Transportul de e-mail a refuzat mesaje la ultima rulare: %count. Verificați serverul de e-mail și site.ini MailSettings.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Evenimente în așteptare: %count, și nu este înregistrată nicio rulare a activității cron de notificare. Adăugați partea activității cron &quot;frequent&quot; în crontab sau rulați exp:notification:run --apply.</translation>
     </message>
 </context>
 <context>
@@ -63004,6 +63495,10 @@ Va trebui să schimbați clasa nodului folosind funcția de interschimbare.</tra
         <source>Choose another site or section with the node picker</source>
         <translation>Alegere alt site sau altă secțiune cu selectorul de noduri</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>Doar administratorul de sistem poate schimba proprietarul: rulați ./console exp:content-check --fix-permissions --apply ca root.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64537,6 +65032,10 @@ Va trebui să schimbați clasa nodului folosind funcția de interschimbare.</tra
     <message>
         <source>empty</source>
         <translation>gol</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>Cheia de semnare are mai mult de un an: înlocuiți-o cu exp:audit key rotate --apply.</translation>
     </message>
 </context>
 <context>
@@ -68367,6 +68866,486 @@ Va trebui să schimbați clasa nodului folosind funcția de interschimbare.</tra
         <source>Share of page time</source>
         <translation>Ponderea în timpul paginii</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>a fost solicitată o generare completă</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>memoria cache de pagini nu avea pagina (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>memoria cache de pagini nu a răspuns</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>Generat</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>Generat de nucleu: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>Livrat din memoria cache de pagini în %ms ms. Pagina a fost salvată la %stored de o generare de %render ms, acum %age s.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>Generare acum</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>Revenire la vizualizarea din memoria cache</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>Din generarea de la %stored (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>Această solicitare: livrată din memoria cache de pagini în %ms ms.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Utilizator</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>ID utilizator</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>Profil de cache</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>Această vizualizare</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>Cache de vizualizări</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>per utilizator (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>Profilul de cache al utilizatorului: utilizatorii cu același profil partajează fișierele din cache-ul vizualizărilor</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>da</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>nu</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Nume de conectare</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>Autentificat</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>Sesiune</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>Părțile cheii de cache a vizualizărilor de conținut care depind de utilizator, exact așa cum le preia cheia, conform ViewCacheTweaks ale acestei pagini. Utilizatorii cu același profil partajează fișierele de cache ale vizualizărilor, cu excepția cazului în care diferă părțile vizualizării însăși (preferințe, chei ale listenerilor): acestea au un profil propriu, doar pentru această pagină.</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>Profil</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>Această vizualizare (nodul %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: fiecare utilizator autentificat are propriile fișiere de cache.</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>ViewCacheTweaks în vigoare: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>Parte</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>Valoare</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>Nicio parte nu depinde de utilizator (ViewCacheTweaks).</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>această vizualizare</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>Copiază ca text</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>Roluri</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>Nu s-a putut citi nicio atribuire de rol.</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>ID rol</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Rol</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>Limitare</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>Atribuit</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>utilizatorului</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>grupul %name (obiectul %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>Copiat</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>Nu s-a putut copia.</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>omisă de un listener</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>Vizitatori anonimi</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>la fel ca al dvs.</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>diferit</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>Profilul pe care îl primesc vizitatorii anonimi cu aceleași ViewCacheTweaks, cu preferințele implicite, fără părțile vizualizării: unui listener care citește sesiunea nu i se pot cere.</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>Preferințe</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>Niciun mod de vizualizare nu depinde de preferințele utilizatorului (site.ini [ContentSettings] CachedViewPreferences).</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>Preferințele de care depind vizualizările acestor moduri de vizualizare (CachedViewPreferences), cu valoarea utilizatorului sau cea implicită. Apar în profil ca userpreferences, cele ale tuturor modurilor de vizualizare împreună.</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>Mod de vizualizare</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>Preferință</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>Implicit</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>Politici</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>Afișează politicile rolurilor (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>Politicile sunt încărcate de pe server când se deschide această secțiune, câte o pagină, și pot fi filtrate după modul și funcție.</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>Funcție</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>Toate modulele</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>Toate funcțiile</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>Limitări</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>Afișează mai mult</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>Aceste roluri nu au politici.</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>Nicio politică nu corespunde filtrului.</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%shown din %matching politici (%total în total)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>Se încarcă la deschidere.</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>modul/funcție, rol, limitare</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>Caută în politici</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>Încarcă mai multe</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>Modul/funcție</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>Toate rolurile (%count politici)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>Nicio politică nu corespunde.</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%shown din %matched politici</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>Niciun răspuns</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>mascat</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>Afișare explicații</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>Ascundere explicații</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Deschidere</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>Deschidere totală</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>Închidere totală</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>Cheie sau valoare</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>Caută în sesiune</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Tip</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>încă %count</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>imbricat prea adânc pentru a fi afișat</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>trunchiat, %count caractere în total</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Pornit</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>Numele cookie-ului</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>ID-ul sesiunii</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>Gestionar</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>Cale de salvare</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>Valoarea implicită PHP</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>Durată de viață (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>Cookie</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>durată de viață %s s</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>Propria dumneavoastră sesiune PHP, așa cum era când a fost deschisă secțiunea, niciodată alta. Valorile cheilor care par secrete (tokenuri, hash-uri, parole) sunt mascate (debugbar.ini SessionMask[]); tot restul este afișat așa cum este stocat, inclusiv datele personale.</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>%count chei, %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>mare</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>Sesiunea este goală.</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>Nu a fost pornită nicio sesiune pentru această cerere.</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Extensia %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>Nucleu și altele</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>Nu sunt afișate toate intrările: sesiunea conține mai mult decât se poate lista aici.</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>%count chei nu sunt listate.</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>Cadru</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>Valorile care par un token (un JSON Web Token, datele de autentificare ale unui antet Authorization, o cheie privată, un text hexazecimal sau aleatoriu lung) sunt de asemenea mascate, indiferent cum se numește cheia lor (debugbar.ini SessionValueMask[]).</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>Cheia pare un secret (debugbar.ini SessionMask[]).</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>Valoarea pare un token.</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>Sub o cheie mascată.</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>Sesiunea ca text, mascată ca tabelul.</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>Sesiunea este mai mare de %size (debugbar.ini SessionWarnBytes): fiecare cerere a acestui utilizator citește întreaga sesiune și o scrie atunci când s-a modificat.</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP păstrează această sesiune în fișiere și blochează fișierul pe toată durata cererii: cererile aceluiași utilizator (mai multe file, apeluri AJAX) se așteaptă unele pe altele.</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>Menține deschis</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>Mai mare de %size (debugbar.ini SessionWarnBytes): fiecare cerere a acestui utilizator citește întreaga sesiune.</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%hits din %count citite din memoria cache</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>Nu a fost randat niciun șablon (o vizualizare citită din memoria cache a vizualizărilor nu randează niciunul).</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>Atribuiri de rol</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>Roluri și politici</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>diferit de cel al vizitatorilor anonimi</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>la fel ca pentru vizitatorii anonimi</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70247,6 +71226,14 @@ Va trebui să schimbați clasa nodului folosind funcția de interschimbare.</tra
     <message>
         <source>not sent</source>
         <translation>netrimis</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Activitatea cron de notificare înregistrează aici fiecare rulare a sa. Adăugați partea frequent în crontab sau rulați exp:notification:run --apply.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>Folosiți consola: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -75965,6 +76952,98 @@ Va trebui să schimbați clasa nodului folosind funcția de interschimbare.</tra
         <source>This topic is not Released; readers do not see it.</source>
         <translation>Acest subiect nu este Publicat; cititorii nu îl văd.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migrări</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Modificări ale instalării păstrate ca fișiere: starea lor, rulările, rulare și anulare.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Publicați o copie statică a unui site pe GitHub Pages sau pe orice gazdă git.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Publicare statică</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>În verificare</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>Cititorii văd această pagină.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>Ascunsă cititorilor până când cineva o publică.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>Pagina este acum în Verificare. Este ascunsă cititorilor până când este publicată.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>Pagina este Publicată: cititorii o văd acum.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>Pagina este din nou o Ciornă. Este ascunsă cititorilor până când este verificată și publicată.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>Publică acum</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>Doar un utilizator cu rolul %role care nu a scris această versiune o poate publica.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>Subiecte de ajutor care așteaptă publicarea</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>O ascunde cititorilor până când este publicată din nou.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>Urmează să o verifice un verificator. Cititorii nu o văd încă.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>Cititorii o văd imediat.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>O scoate din verificare pentru mai multă muncă. Cititorii nu o văd.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>Ascundeți această pagină de cititori?</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>Trimiteți această pagină înapoi la Ciornă?</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>Cititorii nu mai văd %title până când cineva îl publică din nou.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title revine la Ciornă pentru mai multă muncă. Cititorii tot nu îl văd și are nevoie de o nouă verificare înainte de a fi publicat.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Anulare</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>Aceste subiecte sunt în Verificare. Cititorii le văd imediat ce cineva care nu a scris versiunea curentă le publică.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76136,6 +77215,10 @@ Va trebui să schimbați clasa nodului folosind funcția de interschimbare.</tra
     <message>
         <source>Setup &gt; Cronjobs</source>
         <translation>Configurare &gt; Activități cron</translation>
+    </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>Nicio parte a activității cron nu a rulat încă: coada de activități, importurile, notificările și indexul de căutare așteaptă. Rulați php bin/php/installcrontab.php --add --apply sau adăugați liniile afișate de --show în crontab.</translation>
     </message>
 </context>
 <context>
@@ -76475,6 +77558,46 @@ Va trebui să schimbați clasa nodului folosind funcția de interschimbare.</tra
         <source>None.</source>
         <translation>Niciuna.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>cu o aplicație de autentificare</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>cu un cod prin e-mail</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>cu un cod de recuperare</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>cu o cheie de acces</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>cu un cont extern</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Activitate de securitate</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>Afișată ca rețeaua sa; adresa este păstrată conform setărilor de protecție a datelor ale site-ului.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Neînregistrat</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Loc</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>aproximativ</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76718,6 +77841,42 @@ Va trebui să schimbați clasa nodului folosind funcția de interschimbare.</tra
         <source>Manage devices</source>
         <translation>Gestionare dispozitive</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>cu o aplicație de autentificare</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>cu un cod prin e-mail</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>cu un cod de recuperare</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>cu o cheie de acces</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>cu un cont extern</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Activitate de securitate</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Neînregistrat</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Loc</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>aproximativ</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76797,6 +77956,14 @@ Va trebui să schimbați clasa nodului folosind funcția de interschimbare.</tra
         <source>View the sessions of this user</source>
         <translation>Vizualizare sesiuni ale acestui utilizator</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>Contul dumneavoastră %login de pe %site tocmai a fost folosit pentru conectare dintr-un loc din care nu s-a mai conectat în ultima vreme:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>Loc aproximativ</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76835,6 +78002,10 @@ Va trebui să schimbați clasa nodului folosind funcția de interschimbare.</tra
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%browser pe %os</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Raport de conectări</translation>
     </message>
 </context>
 <context>
@@ -77043,6 +78214,82 @@ Va trebui să schimbați clasa nodului folosind funcția de interschimbare.</tra
         <source>The passkey could not be checked. Please try again.</source>
         <translation>Cheia de acces nu a putut fi verificată. Încercați din nou.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>Conturile care se conectează doar cu chei de acces nu pot folosi o parolă aici: alegeți „Conectare cu o cheie de acces”.</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>Cheile de acces ale lui %login</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>Cheile de acces cu care se conectează acest cont. Revocați cheia aflată pe un dispozitiv pierdut sau furat: nu se mai poate conecta. Titularul adaugă singur chei noi.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>Contul dumneavoastră are nevoie de o cheie de acces</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>Adăugați o cheie de acces la cont</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>Adăugați o cheie de acces pentru a continua. Apoi vă conectați cu ea în loc de doar cu o parolă.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>Conectarea cu o cheie de acces este mai rapidă și mai sigură decât cu o parolă. Adăugați una acum sau continuați fără ea.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>Nu acum</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>Revocați cheia de acces „%name”?</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>Nu se mai poate conecta la acest cont. Dacă era ultima, titularul se conectează cu parola sau setați dumneavoastră una nouă.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>Revocare cheie de acces</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>Revocare</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>Acest cont nu are nicio cheie de acces.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>Autentificator</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Necunoscut</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>Ultima dumneavoastră cheie de acces: adăugați alta înainte de a o elimina.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>Acest cont se conectează doar cu chei de acces (politica cheilor de acces): dacă nu mai rămâne niciuna, se conectează din nou cu parola sa.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>Aceasta este ultima dumneavoastră cheie de acces, iar contul nu se poate conecta fără una. Adăugați mai întâi altă cheie de acces.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>Cheia de acces „%name” a fost revocată. Nu se mai poate conecta la acest cont.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77142,6 +78389,34 @@ Va trebui să schimbați clasa nodului folosind funcția de interschimbare.</tra
         <source>Code from your authenticator app</source>
         <translation>Cod din aplicația de autentificare</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>Urmează să ștergeți definitiv date sau să goliți un jurnal.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>Parola și o cheie de acces</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>Parola și un cod din aplicația de autentificare</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>Sau:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>Acest browser nu poate folosi chei de acces. Folosiți altă metodă sau alt browser.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>Când continuați, browserul vă cere una dintre cheile de acces.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>Continuare cu o cheie de acces</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77232,6 +78507,70 @@ Va trebui să schimbați clasa nodului folosind funcția de interschimbare.</tra
     <message>
         <source>Setup</source>
         <translation>Configurare</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>Modificarea propriei parole, a adresei de e-mail, a cheilor de acces, a conectării în doi pași, a codurilor de recuperare sau a cheilor API și deconectarea propriilor alte dispozitive.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>Crearea și editarea utilizatorilor, a parolelor și dispozitivelor lor, a setărilor contului, aprobarea sau respingerea conturilor noi de utilizator, atribuirea rolurilor și editarea politicilor.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>Ștergere date</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>Golirea coșului de reciclare, eliminarea elementelor din el și eliminarea mai multor elemente deodată.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>Eliminare, publicare și salvare conținut</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>Eliminarea conținutului (și în coșul de reciclare), publicarea și salvarea unei ciorne; se cere la trimiterea formularului. Dezactivat implicit.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>Înaintea unei acțiuni sensibile, un utilizator conectat confirmă din nou cine este: cu parola și o cheie de acces sau, fără cheie de acces, cu parola și codul din aplicația de autentificare. Doar paginile web cer acest lucru: interfața REST, SOAP, WebDAV, conectarea expservices și linia de comandă nu cer niciodată.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>Unde se aplică setările</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>Setări pentru</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Fiecare acces la site</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>Acces la site %name</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Deschidere</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>Cui i se cere: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>Bifați grupuri de utilizatori pentru a cere doar membrilor lor (de exemplu, editorilor). Niciunul bifat: fiecărui utilizator.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>Salvat în settings/override/site.ini.append.php, pentru fiecare acces la site. La salvare vi se cere să confirmați că sunteți dumneavoastră.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>Salvat în settings/siteaccess/%name/site.ini.append.php. O valoare din settings/override are prioritate. La salvare vi se cere să confirmați că sunteți dumneavoastră.</translation>
     </message>
 </context>
 <context>
@@ -77366,6 +78705,6822 @@ Va trebui să schimbați clasa nodului folosind funcția de interschimbare.</tra
     <message>
         <source>Open the page</source>
         <translation>Deschidere pagină</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from până la %to din %count</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>Un nume de autentificare sau un ID de utilizator: contul la care s-a referit evenimentul sau utilizatorul care a acționat.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Cont</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Acțiune</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>După</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>Orice rezultat</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Înainte</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Efectuat de</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Golire</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Reușit</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>Evenimentele sunt păstrate %days zile.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>Evenimentele sunt păstrate până când sunt eliminate manual.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Evenimente</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>Orice acțiune</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>Toate evenimentele acestui cont</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>Exportare listă ca CSV (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Nereușit</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>De la</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>Restrângeți lista</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>Niciun eveniment nu corespunde.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Pe pagină</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>Înregistrarea este dezactivată în audit.ini ([UserAuditSettings] UserAudit); lista arată ce a fost înregistrat anterior.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Refuzat</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Rezultat</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Afișare</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>Tabelul jurnalului de audit al utilizatorilor lipsește. Creați-l cu php update/common/scripts/6.0/createuseraudittable.php; până atunci, fișierele de audit păstrează fiecare eveniment.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>Această pagină necesită o bază de date SQL; nu este disponibilă pe MongoDB. Fișierele de audit păstrează fiecare eveniment.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Până la</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Jurnal de audit al utilizatorilor</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Utilizator</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Când</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Unde</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>Cine a modificat, creat, activat, dezactivat, mutat sau eliminat ce cont, cine s-a conectat sau a fost refuzat și ce roluri au fost atribuite: un rând pentru fiecare eveniment, cu câmpurile dinainte și de după. Parolele și secretele nu sunt niciodată înregistrate.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>grup</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>sistem</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>necunoscut</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>Securizare cont</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>Un cod de recuperare a fost folosit pentru conectarea la contul dumneavoastră %login de pe %site.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>A fost folosit un cod de recuperare</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Cont</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>Adresă aproximativă</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>Solicitați o parolă nouă pentru a vă conecta din nou sau contactați administratorii site-ului.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>Solicitare parolă nouă</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>Fiecare cod de recuperare funcționează o singură dată. Dacă v-ați pierdut telefonul, configurați din nou aplicația de autentificare și păstrați noile coduri de recuperare într-un loc sigur.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>Încercări de conectare eșuate la contul dumneavoastră</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>De acum înainte, conectarea cere un cod pe lângă parolă. Dacă dumneavoastră ați făcut această modificare, nu trebuie să faceți nimic.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>Dacă ați fost dumneavoastră și v-ați uitat parola, solicitați una nouă. Dacă nu, alegeți o parolă mai puternică și activați conectarea în doi pași.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>Dacă nu ați fost dumneavoastră, este posibil ca altcineva să vă cunoască parola: schimbați-o acum și verificați unde este conectat contul dumneavoastră.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>Coduri de recuperare rămase</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>Verificare dispozitive</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>Alertă de securitate</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>Cineva a încercat să se conecteze la contul dumneavoastră %login de pe %site cu o parolă greșită de %count ori la rând.</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>A avut loc un eveniment de securitate în contul dumneavoastră %login de pe %site.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>Aceasta este o alertă de securitate despre contul dumneavoastră. Este trimisă la fiecare modificare de acest fel și nu poate fi dezactivată.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Ora</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>Conectarea în doi pași a fost dezactivată pentru contul dumneavoastră %login de pe %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>Conectarea în doi pași a fost dezactivată</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>Conectarea în doi pași a fost activată pentru contul dumneavoastră %login de pe %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>Conectarea în doi pași a fost activată</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>Contul dumneavoastră %login de pe %site a fost blocat după prea multe conectări eșuate.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>Contul dumneavoastră este acum protejat doar de parolă. Dacă nu dumneavoastră ați făcut această modificare, activați din nou conectarea în doi pași după ce v-ați schimbat parola.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>Contul dumneavoastră a fost blocat</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>A fost adăugată o cheie de acces la contul dumneavoastră %login de pe %site.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>Oricine deține această cheie de acces se poate conecta la contul dumneavoastră fără parolă. Dacă nu ați adăugat-o dumneavoastră, eliminați-o din Chei de acces și schimbați-vă parola.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>A fost eliminată o cheie de acces din contul dumneavoastră %login de pe %site.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>Nu se mai poate conecta la contul dumneavoastră. Dacă nu ați eliminat-o dumneavoastră, verificați cheile de acces și dispozitivele.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>A fost adăugată o cheie de acces la contul dumneavoastră</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>A fost eliminată o cheie de acces din contul dumneavoastră</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>Activitate de securitate</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Activitatea de securitate a utilizatorului %name</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Conectat</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Încercare de conectare eșuată</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Deconectat</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Sesiuni deconectate</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Conectare de pe un dispozitiv nou</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Conectare dintr-un loc nou</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Identitate confirmată („Confirmați că sunteți dumneavoastră”)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Verificarea identității a eșuat</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Conectat cu o cheie de acces</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Conectarea cu cheia de acces a eșuat</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Conectare refuzată: codul conectării în doi pași lipsește sau este greșit</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Cod greșit al conectării în doi pași</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Cont blocat după conectări eșuate</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Cont deblocat</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Parolă schimbată</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Schimbarea parolei a eșuat</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Parolă resetată</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Parolă nouă solicitată</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Adresă de e-mail schimbată</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Nume de utilizator schimbat</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Conectare în doi pași activată</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Conectare în doi pași dezactivată</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Cod de recuperare folosit</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Coduri de recuperare noi</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Parolă de aplicație creată</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Parolă de aplicație revocată</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Cheie de acces adăugată</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Cheie de acces eliminată</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Cont activat</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Cont dezactivat</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Toate</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Conectări și sesiuni</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Modificări ale contului</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Necesită atenție</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>de dumneavoastră</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>de utilizator</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>de %login</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>Metodă</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>Browser web</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>Sistem</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Dispozitiv</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>Loc</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>Țară</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Sesiuni</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>Care</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>Canal</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Încercări eșuate</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>Coduri rămase</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>Handler de conectare</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Activitate de securitate</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Activitatea de securitate a utilizatorului %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Conectări și modificări ale securității contului dumneavoastră. Dacă vedeți ceva ce nu ați făcut, schimbați-vă parola și deconectați dispozitivele pe care nu le recunoașteți.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>Conectări și modificări ale securității acestui cont.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Dispozitivele dumneavoastră</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Modificare parolă</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>Înapoi la cont</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>Activitatea de securitate nu este înregistrată</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>Este citită din jurnalul de audit al utilizatorilor, al cărui tabel expuser_audit lipsește sau nu este acceptat de această bază de date. Rulați php update/common/scripts/6.0/createuseraudittable.php sau actualizarea bazei de date din versiunea 6.0.15.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Ultimele %days zile</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Conectări în ultimele %days zile</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>Activitate de securitate recentă</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Afișare</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>eșuat</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>refuzat</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Nu a fost înregistrată încă nicio activitate de securitate.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>Evenimentele de securitate sunt păstrate %days zile.</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>Evenimentele de securitate sunt păstrate până când un administrator le elimină.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Descărcare date de conectare proprii</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Sesiunile și evenimentele dumneavoastră de securitate, ca fișier JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Sesiunile nu sunt înregistrate pe acest site, așa că niciun alt dispozitiv nu a putut fi deconectat. Schimbați-vă parola acum.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>Au fost deconectate %count alte sesiuni. Acum schimbați-vă parola.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Niciun alt dispozitiv nu era conectat. Acum schimbați-vă parola.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Vă mulțumim. Evenimentul a fost marcat ca fiind al dumneavoastră.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Acest eveniment nu necesită niciun răspuns.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Pagina expirase. Nu s-a modificat nimic; încercați din nou.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Securizare cont</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Dacă ceva de aici nu a fost făcut de dumneavoastră, deconectați toate celelalte dispozitive, apoi alegeți o parolă nouă. Dispozitivele menținute conectate cu „Memorare date de conectare” sunt și ele deconectate.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Fiecare dispozitiv, cu excepția acestuia, este deconectat la următoarea sa solicitare. Apoi alegeți o parolă nouă.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Da, deconectați celelalte dispozitive</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Ați fost dumneavoastră?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Da, am fost eu</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Nu, securizați-mi contul</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Conectat</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Încercare de conectare eșuată</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Deconectat</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Sesiuni deconectate</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Conectare de pe un dispozitiv nou</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Conectare dintr-un loc nou</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Identitate confirmată („Confirmați că sunteți dumneavoastră”)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Verificarea identității a eșuat</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Conectat cu o cheie de acces</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Conectarea cu cheia de acces a eșuat</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Conectare refuzată: codul conectării în doi pași lipsește sau este greșit</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Cod greșit al conectării în doi pași</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Cont blocat după conectări eșuate</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Cont deblocat</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Parolă schimbată</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Schimbarea parolei a eșuat</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Parolă resetată</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Parolă nouă solicitată</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Adresă de e-mail schimbată</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Nume de utilizator schimbat</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Conectare în doi pași activată</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Conectare în doi pași dezactivată</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Cod de recuperare folosit</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Coduri de recuperare noi</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Parolă de aplicație creată</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Parolă de aplicație revocată</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Cheie de acces adăugată</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Cheie de acces eliminată</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Cont activat</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Cont dezactivat</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Toate</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Conectări și sesiuni</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Modificări ale contului</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Necesită atenție</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Activitate de securitate</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Activitatea de securitate a utilizatorului %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Conectări și modificări ale securității contului dumneavoastră. Dacă vedeți ceva ce nu ați făcut, schimbați-vă parola și deconectați dispozitivele pe care nu le recunoașteți.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Dispozitivele dumneavoastră</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Modificare parolă</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>Activitatea de securitate nu este încă înregistrată pe acest site.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Conectări în ultimele %days zile</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Încercări eșuate</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Nu a fost înregistrată încă nicio activitate de securitate.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Descărcare date de conectare proprii</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Sesiunile și evenimentele dumneavoastră de securitate, ca fișier JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Sesiunile nu sunt înregistrate pe acest site, așa că niciun alt dispozitiv nu a putut fi deconectat. Schimbați-vă parola acum.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>Au fost deconectate %count alte sesiuni. Acum schimbați-vă parola.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Niciun alt dispozitiv nu era conectat. Acum schimbați-vă parola.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Vă mulțumim. Evenimentul a fost marcat ca fiind al dumneavoastră.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Acest eveniment nu necesită niciun răspuns.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Pagina expirase. Nu s-a modificat nimic; încercați din nou.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Securizare cont</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Dacă ceva de aici nu a fost făcut de dumneavoastră, deconectați toate celelalte dispozitive, apoi alegeți o parolă nouă. Dispozitivele menținute conectate cu „Memorare date de conectare” sunt și ele deconectate.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Fiecare dispozitiv, cu excepția acestuia, este deconectat la următoarea sa solicitare. Apoi alegeți o parolă nouă.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Da, deconectați celelalte dispozitive</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Ați fost dumneavoastră?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Da, am fost eu</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Nu, securizați-mi contul</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>Parolă</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>Parolă și cod de conectare în doi pași</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>Interfață REST</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>Interfață SOAP</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>Autentificare unică (SSO)</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>Conectat înainte de înregistrarea sesiunilor</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Raport de conectări</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>Cine este conectat la site, cât de des se conectează conturile și cât de des eșuează, precum și deconectarea unui utilizator de pretutindeni. Funcționează cu orice handler de sesiuni.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>Sesiunea a fost deconectată. Dispozitivul trebuie să se conecteze din nou.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>%login a fost deconectat din sesiuni: %count.</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>%login nu avea nicio sesiune activă.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>Niciun cont nu are acest ID, acest nume de utilizator sau această adresă de e-mail.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>Aceasta este sesiunea pe care o folosiți. Pentru a o încheia, deconectați-vă.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>Sesiunea respectivă se încheiase deja.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Pagina expirase. Nu a fost modificat nimic; vă rugăm să încercați din nou.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>Sesiunile nu sunt înregistrate pe acest site (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>Tabelul expuser_session lipsește</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>Sesiunile sunt înregistrate după ce acesta este creat: php update/common/scripts/6.0/createusersessiontable.php sau actualizarea bazei de date din versiunea 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>Acum și astăzi</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>Sesiuni active</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>Utilizatori conectați</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>Conectări astăzi</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>Încercări eșuate astăzi</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>Deconectarea unui utilizator de pretutindeni</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>Fiecare sesiune a contului se încheie la următoarea sa cerere, inclusiv cele păstrate prin „Memorare date de conectare”. Folosiți această opțiune când un cont ar putea fi pe mâini greșite; apoi resetați-i parola.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>ID de utilizator, nume de utilizator sau adresă de e-mail</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>Deconectare de pretutindeni</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>Conectați acum</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>Sunt afișate cele mai recent folosite %limit.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Utilizator</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Dispozitiv</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adresă</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>Conectat</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>Ultima activitate</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Acțiuni</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>Acest dispozitiv</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Neînregistrat</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>Deconectare</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>Nicio sesiune nu este conectată.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Ultimele %days zile</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>Conectările și încercările eșuate sunt numărate din jurnalul de audit al utilizatorilor, care lipsește; sesiunile noi sunt numărate.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>Zi</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>Conectări</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Încercări eșuate</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>Sesiuni noi</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>Handler de sesiuni: %handler. Sesiunile sunt citite din tabelul expuser_session, astfel încât raportul funcționează cu orice handler.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>Activitate suspectă în ultimele %hours ore</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>O rețea nu a reușit să se conecteze la %accounts conturi (%count încercări)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Cont blocat după autentificări eșuate</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>%count autentificări eșuate la un cont</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>Conectat din %count țări simultan</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Activitate de securitate</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Sesiuni</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>Autentificările eșuate sunt citite din jurnalul de audit al utilizatorilor, care nu este disponibil aici.</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>Nimic suspect: niciun cont cu autentificări eșuate repetate, nicio rețea care încearcă mai multe conturi, niciun cont conectat din mai multe țări.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>Alertă de securitate pentru contul dumneavoastră</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>A avut loc un eveniment de securitate în contul dumneavoastră %login: %event. Dacă nu ați fost dumneavoastră, securizați-vă contul la %url.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Configurare</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>Cereți conținutului acestui site exact câmpurile de care are nevoie o pagină, într-o singură cerere. Schema urmează clasele de conținut; fiecare interogare rulează cu drepturile utilizatorului care o trimite.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>API-ul GraphQL este dezactivat în acest acces la site. Activați-l în graphql.ini: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>Biblioteca GraphQL (webonyx/graphql-php 15) nu este instalată.</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>Punct final</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>Bibliotecă</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>Schemă</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>%count clase de conținut, schemă %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>Interogare</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>Variabile (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Rulare</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>Răspuns</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>Se rulează…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>Răspunsul nu a putut fi citit.</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>Interogarea rulează cu drepturile dumneavoastră, autentificat cu această sesiune.</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%count în %seconds s</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>fără limită</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>Adâncime</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>Complexitate</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>Elemente pe listă</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (implicit %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>Cereri per utilizator sau cheie</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>Cereri per adresă anonimă</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>Introspecție</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>Doar interogări persistente</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>Cea mai mare interogare</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>%bytes octeți</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>Cea mai mare încărcare</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>Nu există accesul la site %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>Mutațiile sunt activate în %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>Mutațiile sunt dezactivate în %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>API-ul GraphQL este activat în %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>API-ul GraphQL este dezactivat în %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>Setările nu au putut fi scrise: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>Memoria cache a răspunsurilor a fost golită: %count răspunsuri eliminate.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>Bifați caseta de lângă interogare pentru a o elimina.</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>Interogarea nu a putut fi eliminată: o interogare livrată într-un director din PersistedQueryDirectoryList[] se elimină împreună cu fișierul ei.</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>Interogarea persistentă a fost eliminată.</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>Mutații</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>activat</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>dezactivat</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Accese la site</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>Unde răspund API-ul și mutațiile sale. Butoanele scriu graphql.ini, așa cum fac ./console exp:graphql:enable și exp:graphql:disable.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Acces la site</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>API GraphQL</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Modificare</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Dezactivare</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>Mutații dezactivate</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>Mutații activate</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Activare</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>Limite</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>graphql.ini [GraphQLSettings] al acestui acces la site.</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>Memoria cache a răspunsurilor</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>Răspunsurile interogărilor persistente, păstrate pe drepturi de utilizator și expirate ori de câte ori se publică conținut.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Stare</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>Răspunsuri păstrate</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>%count răspunsuri, %bytes octeți</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>Păstrate cel mult</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds s</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>Ultima expirare</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>Golește memoria cache a răspunsurilor</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>Interogări persistente</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>Stocate cu ./console exp:graphql:persist sau de clienți (interogări persistente automate); apelate după nume sau SHA-256.</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>Nume</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Dimensiune</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Unde</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Elimină</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>livrată</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>stocată</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>Da, elimină această interogare</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>Nicio interogare persistentă încă.</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>Chei API</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>Chei API personale cu domeniul graphql:read (interogări) sau graphql:write (mutații). Creați-le și revocați-le pe pagina Acces API sau cu ./console exp:graphql:keys.</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>Acces API</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>Toate cheile</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>Cheie</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Nume</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Proprietar</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>Domenii</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>Ultima utilizare</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>activă</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>expirată</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>revocată</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>niciodată</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>Nicio cheie API cu domeniu GraphQL încă.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>API-ul GraphQL este dezactivat în accesul la site %siteaccess, care afișează această pagină; tabelul de mai jos arată unde răspunde.</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>Pentru accesul la site %siteaccess, care afișează această pagină.</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>Webhook-uri</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>Fiecare eveniment pe care îl cere un punct final (publish, update, trash, delete, move, hide, reveal, mutation) îi este trimis, semnat, de partea de cronjob graphqlwebhooks. ./console exp:graphql:webhooks face același lucru ca această secțiune.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Evenimente</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>toate</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Fiecare acces la site</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>defect</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>fără secret</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>În așteptare</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count abandonate</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>Ultima livrare</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Trimite un test</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>Da, elimină acest webhook</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>Niciun webhook încă.</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>Adaugă un webhook</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>Adaugă</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>Livrări recente</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Ora</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Rezultat</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>Abonamente</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>Actualizări în timp real pentru clienți: un flux de evenimente la /api/graphql/subscribe și un WebSocket (graphql-transport-ws) pe Velocity. Fiecare eveniment ajunge doar la abonații care au voie să-i citească conținutul.</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>Deschise acum</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>Maximum deschise</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>%total în total, %user per utilizator, %address per adresă</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>Abonamente anonime</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>Durata fluxului</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>Webhook-ul nu a putut fi adăugat: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>Webhook-ul %name a fost modificat; secretul său de semnare rămâne.</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>Secretul de semnare nu a putut fi stocat (Configurare &gt; Secrete).</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>Webhook-ul %name a fost adăugat. Secretul său de semnare, afișat doar acum: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>Nu există webhook-ul %name.</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>Webhook-ul %name nu a răspuns: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>Webhook-ul %name a răspuns %status în %ms ms.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>Bifați caseta de lângă webhook pentru a-l elimina.</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>Webhook-ul %name a fost eliminat.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>API-ul GraphQL este dezactivat în acest acces la site.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>Biblioteca GraphQL nu este instalată.</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>Folosiți GET sau POST.</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>Corpul cererii nu este un obiect JSON.</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables nu este un obiect JSON.</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions nu este un obiect JSON.</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>Trimiteți interogarea cu POST.</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>Cererea nu conține nicio interogare.</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>Interogarea depășește %max octeți.</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>Eroare internă a serverului</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node necesită exact unul dintre id, remoteId, path și urlAlias.</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content necesită exact unul dintre id și remoteId.</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>Cursorul din after nu provine de la acest API.</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>Nu există aliasul de imagine %alias (image.ini [AliasSettings] AliasList[]).</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>Aici sunt acceptate doar interogări persistente: trimiteți id-ul unei interogări stocate pe server.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>Hash-ul interogării persistente nu este un SHA-256.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>Hash-ul interogării persistente nu corespunde interogării.</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>Prea multe cereri: cel mult %limit în %window secunde. Încercați din nou peste %reset secunde.</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>Interogarea are %depth niveluri de adâncime; sunt permise cel mult %max.</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>Interogarea are o complexitate de %complexity; este permisă cel mult %max.</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>Această cerere nu are voie să citească schema (introspection).</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search necesită un text sau un filtru (classes, subtree, sections, publishedAfter, publishedBefore).</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument nu este o dată (ISO 8601, 2026-10-30).</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag necesită exact unul dintre id, remoteId și path.</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout necesită exact unul dintre id, identifier și urlAlias.</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>Câmpul operations al cererii multipart nu este o singură cerere JSON.</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>Câmpul map al cererii multipart nu este un obiect JSON.</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>Cererea multipart nu conține fișierul %field.</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>O cale din harta câmpurilor trebuie să înceapă cu variables.: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>Fișierul %name nu a sosit complet (eroare de încărcare %error).</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>Fișierul %name depășește %max octeți.</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>Fișierul %name nu a putut fi verificat.</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>Mutațiile sunt dezactivate în acest acces la site (graphql.ini [GraphQLSettings] MutationsEnabled).</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>Trimiteți o mutație cu POST.</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>Autentificați-vă pentru a modifica conținutul.</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>Cheia API nu are domeniul %scope.</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>O mutație cu sesiune are nevoie de tokenul de formular al sesiunii (antetul X-CSRF-Token).</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>uploadFromUrl este dezactivat: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] nu numește niciun host.</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>Adresa trebuie să fie o adresă https.</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>Hostul %host nu este în graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>Fișierul nu a putut fi preluat.</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload este doar un tip de intrare.</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>O variabilă de tip Upload primește un fișier dintr-o cerere multipart.</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>ID-ul la distanță %remoteId este deja folosit.</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>Conținutul are deja o traducere în %language: folosiți updateContent.</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>Indicați cel puțin un câmp.</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>Nu s-a putut crea o versiune nouă (conținutul are prea multe ciorne).</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>Versiunea %version nu este o ciornă.</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent are nevoie de exact unul dintre id și nodeId.</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>O locație nu poate fi mutată sub ea însăși.</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>Conținutul are deja o locație sub %parentId.</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>Valoarea câmpului %field nu a putut fi stocată.</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>Nu există limba de conținut %language.</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>Nu există clasa de conținut %class în schemă.</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>Conținutul nu există sau nu aveți voie să îl citiți.</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>Nu aveți voie să faceți asta cu acest conținut.</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>Clasa %class nu are un câmp %field care poate fi scris.</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>Câmpul %field este dat de două ori.</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>Câmpul %field primește un fișier: trimiteți-l ca încărcare (o cerere multipart).</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>Câmpul %field nu primește fișier.</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>Câmpul %field are nevoie de o valoare.</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>Formatul %format este doar pentru câmpurile de text îmbogățit; %field primește valoarea așa cum este (RAW).</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>Câmpul %field este obligatoriu.</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>HTML-ul nu a putut fi citit.</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content acceptă version doar împreună cu id.</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>Tokenul de previzualizare nu este valid sau a expirat.</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>Nu este o origine (https://host sau https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>Nu este un domeniu al API-ului GraphQL: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>Trimiteți abonamentele la /api/graphql/subscribe (un flux de evenimente sau un WebSocket).</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>Cererea nu numește nicio operație a documentului.</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>Un abonament cere exact un câmp.</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>Sunt deschise prea multe abonamente; încercați din nou mai târziu.</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>Aveți %max abonamente deschise, maximul permis.</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>Adresa dvs. are %max abonamente deschise, maximul permis.</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>Abonamentele sunt dezactivate în acest acces la site.</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>Autentificați-vă pentru a vă abona (un token sau o cheie API personală).</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>Trimiteți mutațiile la /api/graphql.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>Migrări</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Starea nu a putut fi citită: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Tabelele migrărilor nu există încă: ./console exp:upgrade --apply le creează.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>%count migrări au eșuat</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>O rulare este în curs, pornită de %user</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>Instalarea este blocată: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>În așteptare</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Eșuate</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>Orfane</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Ultima rulare</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>niciuna încă</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>Toate migrările</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>Rulare simulată</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>Rulare de probă</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>Migrările în așteptare au rulat într-o tranzacție care a fost anulată ulterior: nimic nu a fost păstrat. Mai jos este ce a modificat fiecare în baza de date.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>Ce ar face o rulare acum. Nimic nu se modifică: fiecare migrare în așteptare enumeră modificările pe care le-ar face, iar rularea ce ar face înainte și după.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>Simulează</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Rulează</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>Rularea de probă a eșuat: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>O simulare necesită PostgreSQL sau SQLite, ale căror modificări de schemă pot fi anulate; pe această bază de date, planul de mai jos arată ce ar face o rulare.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>Migrările</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>Migrare</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Stare</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>Ce ar face</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>Simulare: %result în %ms ms</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>Nicio migrare încă.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>Înainte și după rulare</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>Captură înainte</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>realizată și restaurată când o migrare eșuează</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>dezactivat</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>Captură după</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>realizată când rularea a reușit</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>%total migrări: %pending în așteptare, %done finalizate, %failed eșuate.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>Istoricul migrărilor</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>Fiecare rulare cu utilizatorul, mediul, capturile ei și ce a fost comis, etichetat și trimis. O rulare eșuată sau întreruptă poate fi reluată; o rulare cu o captură realizată înainte poate fi anulată.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>Rulările nu au putut fi citite: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Tabelele migrărilor nu există încă: ./console exp:upgrade --apply le creează.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Afișează</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Toate</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>Rulări</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Pornită</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>De către</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>Capturi</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Depozit</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Acțiuni</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>înainte</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>după</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>trimitere: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>Reia</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Anulează</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>Nicio rulare în această stare.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>Pornite aici</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>Rulări, reluări și anulări pornite pe aceste pagini, cu raportul fiecăreia.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Ce</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Rezultat</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Anulare</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>Anularea lui %target</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>Rularea %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Ce a făcut rularea, înregistrarea și jurnalul ei. O rulare pornită aici continuă în fundal când această pagină este închisă; deschideți din nou pagina pentru a o urmări.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>Reia această rulare</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>Anulează această rulare</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>Înregistrarea nu a putut fi citită: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Progres</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Pornită de %user la %time.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>Se verifică codul și se realizează o captură înainte de rulare</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>Rulează %id (%index din %total)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>%done din %total finalizate</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>Migrările au rulat; se restaurează captura dacă una a eșuat</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>Se realizează o captură după rulare, se comite, se etichetează și se trimite</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>Se restaurează captura</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>Rularea s-a încheiat. Se încarcă raportul ei.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>Progresul nu a putut fi urmărit. Reîncărcați pagina pentru a vedea cum decurge rularea.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>Această pagină urmărește rularea pe măsură ce avansează.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Reîncarcă</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Raport</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Durată</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms milisecunde</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>Ce a afișat rularea ca erori</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Înregistrare</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>Mediu</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>niciunul</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Încheiată</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Comitere</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Etichetă</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Trimitere</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Mesaj</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>Migrările acestei rulări</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>Sursă</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>Jurnalul rulării</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>Se afișează doar sfârșitul jurnalului.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>rulează</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>încheiată fără raport</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>reușită</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>eșuată</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>refuzată</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>baza de date nu a fost accesibilă</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>eroare internă</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>O rulare este în curs</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind pornită de %user la %time.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>Urmăriți-o</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>Instalarea este blocată</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>O altă rulare deține blocarea (o actualizare sau o rulare în consolă): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>finalizată</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>în așteptare</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>nu este necesară</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>necunoscută</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>anulată</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>aplicată</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>ar fi aplicată</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>retrasă</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>ar fi retrasă</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>nerulată</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>așteaptă o alta</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>modificare acceptată</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>modificarea ar fi acceptată</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>simulată</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migrări</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Stare</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Istoric</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>Retrage %target</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>O rulare este retrasă la captura realizată înaintea ei, o migrare cu down() al ei. Restaurarea unei capturi anterioare este pentru experți. Fiecare rulează în fundal în numele dumneavoastră, după o captură a stării actuale.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>Ce poate fi retras nu a putut fi citit: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>O rulare</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>O migrare</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>O captură anterioară</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>Descriere</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>da</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>nu</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Captură</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Denumire</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>Realizată</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Tip</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>Părți de restaurat</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>Baza de date</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>Fișierele de stocare (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>Setările (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>Restaurarea readuce baza de date la momentul capturii, inclusiv sesiunile: este posibil să vi se ceară să vă autentificați din nou după aceea. Tot ce s-a modificat de atunci se pierde; mai întâi se realizează o captură a stării actuale.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>Știu ce restaurează aceasta</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>Introduceți din nou identificatorul capturii</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>Da, retrage</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Anulare</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>Rulările cu o captură realizată înaintea lor.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>Alege</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>Nicio rulare cu captură încă.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>Migrările aplicate care se pot retrage singure (au un down()).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>Nicio migrare aplicată nu are un down().</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>Capturi anterioare (experți)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>Nicio captură încă.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>Rulează migrările</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>Rularea continuă în fundal ca %user, iar pagina ei o arată pe măsură ce avansează. Înainte de prima migrare se realizează o captură a instalării; când o migrare eșuează, rularea se oprește și captura este restaurată.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>Mai întâi o rulare de probă</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Starea nu a putut fi citită: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>Migrări în așteptare</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>Rulează în această ordine. Debifați una pentru a o lăsa, împreună cu cele care depind de ea, pentru o rulare ulterioară.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>Rulează</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>Activează modul de întreținere cât timp rulează.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>Modificate după ce au fost aplicate</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>Aceste fișiere nu sunt cele care au fost aplicate. O rulare le refuză, cu excepția cazului în care modificarea este acceptată cu un motiv; nu sunt rulate din nou, noua sumă de control este înregistrată, iar motivul este păstrat în jurnalul de audit.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>Acceptă modificările</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>De ce</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>Valorile implicite sunt cele sigure. Fiecare casetă omite un pas.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>Fără captură</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>Nicio captură înainte și după rulare: un eșec nu poate fi restaurat automat.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>Fără restaurare</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>După un eșec, lasă instalarea așa cum a lăsat-o eșecul.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>Păstrează modificările necomise</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>Rulează chiar dacă setările, extensiile sau designurile au modificări necomise; acestea intră în captură.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>Fără comitere</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>Nu comite fișierul de stare și jurnalul rulării (nici etichetă, nici trimitere).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>Fără trimitere</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>Comite și etichetează, dar nu trimite.</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>Fără etichetă</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>Comite și trimite, dar nu eticheta rularea.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>Da, rulează acum aceste migrări</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Nicio migrare nu este în așteptare.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>Înapoi la stare</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>Modificări ale acestei instalări scrise o singură dată ca fișiere (conținut, clase, roluri, setări, schemă) și aplicate fiecărei instalări a site-ului în aceeași ordine. O rulare realizează mai întâi o captură, o restaurează când o migrare eșuează și înregistrează, comite și trimite ce a făcut.</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>Rulează %count în așteptare</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Prezentare generală</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>În așteptare</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Finalizate</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Eșuate</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>Nu sunt necesare</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>Bază de date</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>tranzacții: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>Migrările site-ului se află în migrations/, cele ale unei extensii în extension/&lt;name&gt;/migrations/. Rulează în ordinea numelor lor și a dependențelor.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Ultima rulare</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>Fișierul s-a modificat după ce a fost aplicat.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>Nicio migrare încă. ./console exp:migration:generate --skeleton &lt;name&gt; --apply o scrie pe prima.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>Cele mai recente rulări</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>Toate rulările</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>Nicio rulare încă.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>Simularea unei rulări necesită politica migration/run.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>O rulare este în curs: simulați după ce s-a încheiat.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Configurare</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target nu este nici o rulare, nici o migrare, nici o captură a acestei instalări.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>Bifați mai întâi „Da, retrage”.</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>Restaurarea unei capturi anterioare este pentru experți: bifați „Știu ce restaurează aceasta”.</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>Introduceți din nou identificatorul capturii: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>Alegeți cel puțin o parte de restaurat.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>Această rulare nu are o captură realizată înaintea ei: retrageți migrările ei una câte una sau restaurați o captură anterioară.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>Această migrare nu se poate retrage singură: nu este aplicată sau nu are down().</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Formularul nu a putut fi citit.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>Alegeți rularea de reluat.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>Bifați mai întâi „Da, rulează acum aceste migrări”.</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>Alegeți cel puțin o migrare.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>O migrare s-a modificat după ce a fost aplicată: acceptați modificarea cu un motiv sau readuceți fișierul.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>Indicați motivul pentru care migrările modificate sunt acceptate.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>Motivul are cel mult 500 de caractere.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>O rulare pornită aici este încă în curs (%detail). Așteptați să se încheie.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>O altă rulare deține blocarea instalării: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>Rularea necesită un utilizator autentificat care există.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Nu s-a găsit niciun executabil php pentru linia de comandă. Setați migration.ini [AdminSettings] PhpCliPath la calea lui completă.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open este dezactivat, așa că o rulare nu poate fi pornită aici. Rulați ./console exp:migration:migrate --apply pe server.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>Dosarul rulărilor nu poate fi scris: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>Rularea a fost pornită, dar nu și-a raportat identificatorul procesului. Verificați %detail.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>Indicați ce trebuie retras.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>Rularea nu a putut fi pornită.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>Înregistrarea modificărilor</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>Cât timp rulează o înregistrare, ce modificați în administrare sau în bara laterală a site-ului se păstrează ca pași ai unei migrări: conținut, clase, roluri și politici, secțiuni, utilizatori și grupuri, aliasuri URL, setări. Opriți-o când ați terminat, uitați-vă ce a capturat și generați din ea o migrare.</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>Înregistrările nu au putut fi citite: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>Tabelele înregistrărilor nu există încă: rulați mai întâi actualizarea (exp:upgrade --apply).</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>Înregistrarea este dezactivată în migration.ini ([RecordingSettings] Recording=disabled).</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>Modificările mele</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>Înregistrează doar ce modificați dumneavoastră, oriunde ați modifica, până o opriți.</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>Înregistrare</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>din %time, până acum %count modificare/modificări.</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>Etichetă (opțional)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>Afișează ce a capturat</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Oprește înregistrarea</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>Începe înregistrarea modificărilor mele</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>Fereastră pentru tot site-ul</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>Înregistrează fiecare modificare a fiecărui utilizator și a consolei până când este închisă. La deschidere vi se cere să confirmați că sunteți dumneavoastră.</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Deschisă</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>Închide fereastra</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>Deschide fereastra pentru tot site-ul</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>Înregistrări</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>Contul unui utilizator (nume de utilizator, e-mail, parolă) și câmpurile conturilor de utilizator nu sunt niciodată înregistrate.</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Modificări</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>Tot site-ul</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>Modificările lui %name</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Oprită</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>Încă nicio înregistrare.</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>Înregistrarea %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>Toate înregistrările</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>Migrarea care ar rezulta</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>Modificările grupate într-un pas pentru fiecare element modificat: ce ar face o migrare generată din această înregistrare.</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>Din ea se va putea genera o migrare când această instalare va avea tipurile de pași YAML %types.</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>Omis intenționat: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>Nu s-a înregistrat nimic.</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>Ce a capturat</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>%count modificare/modificări, în ordinea în care au fost făcute.</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Modificare</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>Pas</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>Privește</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>Încă %count: ./console exp:migration:record:show le listează pe toate.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Renunță</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>Elimină înregistrarea și ce a capturat. Ce a fost modificat rămâne modificat.</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>Da, renunț la această înregistrare</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>Se înregistrează…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Modificările dumneavoastră sunt înregistrate pentru o migrare.</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>Fiecare modificare de pe acest site este înregistrată pentru o migrare (fereastră pentru tot site-ul).</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>Înregistrarea pentru tot site-ul a început: fiecare modificare a fiecărui utilizator este înregistrată până o opriți.</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>Înregistrarea a început: modificările dumneavoastră sunt înregistrate până o opriți.</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>Înregistrare oprită. Ce a capturat rămâne până renunțați la ea.</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>Înregistrarea și evenimentele ei au fost eliminate.</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>Nu există înregistrarea %id.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>Bifați mai întâi „Da, renunț la această înregistrare”.</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>Doar utilizatorul care a înregistrat poate opri o înregistrare de sesiune.</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>Alegeți înregistrarea de oprit.</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>O înregistrare de acest fel rulează deja.</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>Înregistrarea nu a putut fi modificată: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>Generează migrarea</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>Numele migrării (opțional)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>Migrarea %file a fost scrisă. Modificările pe care niciun pas nu le poate face sunt numite la începutul fișierului, pentru a fi făcute manual.</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>Nu a fost scrisă nicio migrare: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>O rulare lungă în părți</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>Câmpurile goale păstrează setările din migration.ini [RunSettings].</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>Cel mult atâtea migrări</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>Nicio altă migrare după (secunde)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>Pauză între migrări (secunde)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>Prioritate mai mică (1 până la 19)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>Un câmp de rulare lungă este un număr întreg de la 1 (pauza: secunde de la 0 la 60, prioritatea: 1 până la 19) sau gol.</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>Se închide singură la %time.</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>Se închide singură după (minute, opțional)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>Minutele sunt un număr întreg de la 1 la 44640 (31 de zile) sau gol.</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>Migrarea %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>Migrare nouă</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>O migrare YAML: scrie-o ca text sau construiește-i pașii în formular, verific-o, apoi salveaz-o într-un folder de migrări.</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>Această migrare a rulat deja, deci nu este salvată din nou: un fișier modificat ar fi respins de protecția prin sumă de control. Fă modificarea într-o migrare nouă.</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>Serverul web nu poate scrie fișierul.</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>Liniile de comentariu de la început sunt antetul (description, author, requires, environments, engines). Când un pas este adăugat sau modificat în formular, migrarea este rescrisă: comentariile dintre pași nu se păstrează.</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>Numele migrării</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>Unde merge</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>Site-ul</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>Text YAML</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>Verificare</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Salvare</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Pași</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>Chei</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Editare</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>Mutare în sus</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>Mutare în jos</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Eliminare</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>Încă niciun pas: adaugă unul cu formularul sau scrie-i în text.</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>Modifică pasul %number</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>Adaugă un pas</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>Formularul unui pas este construit din tipul său de pas: cheile sale, ce acceptă fiecare și modurile cărora le aparține.</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>Tip de pas</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>Afișează formularul</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>Pasul are chei pe care tipul său nu le cunoaște; ele sunt omise când pasul este modificat: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>Mod</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>În</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>doar în %modes</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>Implicit: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>Condiții, referințe și comentariu</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>Perechi nume=valoare separate prin virgule. Valorile acestui pas: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>Exemplu</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>Modifică pasul</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>Adaugă pas</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>Ce spune exp:migration:check: antetul, documentul și fiecare pas verificat de tipul său de pas.</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>Migrarea trece verificarea.</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Previzualizare</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>YAML-ul așa cum va fi salvat.</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>Afișează YAML-ul</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>Migrări YAML</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>a rulat</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>Încă nu există migrări YAML.</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>Editare</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>Nu există nicio migrare YAML %id în folderele de migrări.</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>Alege un tip de pas.</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>Pasul a fost adăugat. Verifică migrarea înainte de a o salva.</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>Pasul a fost modificat. Verifică migrarea înainte de a o salva.</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>Alege un pas.</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>Acest pas nu are formular (o buclă sau un tip de pas pe care această instalare nu îl are): modifică-l în text.</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>Alege unde merge migrarea: site-ul sau o extensie activă.</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>%file a fost salvat. Fă o rulare de probă înainte ca migrarea să ruleze.</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>Nesalvat: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>Destinații</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>Celelalte instalări către care aceasta își implementează migrările: o implementare trimite migrările către destinațiile alese și le rulează acolo, toate deodată și sincronizat. O destinație nu păstrează niciodată un secret: credențialele ei numesc unul din Configurare &gt; Secrete.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>Destinație nouă</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Ajutor</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>Testul conexiunii pentru %id</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>Destinațiile</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>Se lucrează simultan pe până la %parallel destinații; o fază poate dura %timeout secunde pe fiecare.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>Destinație</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adresă</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Credențiale</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>Grupuri</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>setări de corectat</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>doar fișiere (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>Cheie SSH</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>Parolă</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>niciunul (agentul SSH și cheile gazdei)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>Testare conexiune</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>O implementare către un grup ajunge la fiecare destinație a acestuia.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>Implementează pe destinații</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>Nicio destinație nu este configurată încă.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>Destinația %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>Aici nu se trimite și nu se rulează nimic: Salvare scrie setările în settings/override/migration.ini.append.php. Credențialele sunt un nume; valoarea lor rămâne în Configurare &gt; Secrete sau în mediu.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Verificați aceste setări</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>Setările așa cum au fost introduse, încă nesalvate.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Verificare</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Setările sunt valide. Aceste linii vor fi scrise:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>Transport</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>doar un nume; valoarea rămâne în Configurare &gt; Secrete</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Liniile care vor fi scrise</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>Conexiune</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>Cheia gazdei</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. Destinația</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>Cum se numește destinația și ce mediu este.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>Litere, cifre, - și _, de exemplu production1. Denumește destinația în rapoarte și în consolă (--remotes=production1) și nu mai poate fi schimbat ulterior.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... O implementare pe etape parcurge mediile în această ordine.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>Opțional, separate prin virgule, de exemplu production. O implementare către un grup ajunge la fiecare destinație a acestuia.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. Conexiunea</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>Cum ajung fișierele acolo și unde se află instalarea.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>Prin SSH, doar ce s-a schimbat, un transfer întrerupt este reluat. Cea mai bună alegere acolo unde rsync este instalat.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>SSH cu scp pentru fișiere.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>SSH cu sftp pentru fișiere.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>Doar fișiere: migrările sunt trimise și citite înapoi, dar nu pot fi rulate acolo.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>FTP peste TLS; doar fișiere.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>O altă instalare pe acest server, într-un folder.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Gazdă</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>Un nume de gazdă sau o adresă, de exemplu node1.example.com. Nu pentru local.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>Port</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>Gol: 22 pentru SSH, 21 pentru FTP.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Utilizator</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>Cale</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>Rădăcina instalării de acolo, de exemplu /var/www/site (pentru FTP: calea pe care o vede contul FTP).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>Linia de comandă PHP</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>PHP CLI de acolo: php sau o cale completă, cum ar fi /opt/plesk/php/8.4/bin/php.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>Scripturile de consolă rulează acolo ca root</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>Doar când utilizatorul destinației este root (atunci sunt rulate cu --allow-root-user).</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. Credențialele</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>Cum se autentifică această instalare acolo. Se salvează doar un nume.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Niciuna</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>Agentul SSH și cheile utilizatorului sub care rulează această instalare (și întotdeauna pentru local).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>O cheie privată păstrată ca secret.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>O parolă păstrată ca secret (FTP se autentifică cu ea).</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>Numele secretului</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>Un secret din Configurare &gt; Secrete, de exemplu deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Configurare &gt; Secrete</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>Sau o variabilă de mediu</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>Variabila procesului serverului care îl conține, de exemplu DEPLOY_KEY (salvată ca env:DEPLOY_KEY). Ea ține locul numelui secretului.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. Cheia gazdei</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>Opțional, pentru SSH, sftp și rsync.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>Amprenta cheii gazdei</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... așa cum îl afișează ssh-keygen -l. Cu ea, gazda trebuie să prezinte această cheie; fără ea, cheia este învățată la primul contact.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. Verificare</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>Testați conexiunea cu setările de mai sus, apoi verificați liniile care vor fi scrise.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>Elimină această destinație</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>Setările ei sunt scoase din settings/override/migration.ini.append.php. Nu se schimbă nimic pe destinație, iar implementările ei rămân în istoric.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>Da, elimină această destinație</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>Implementări</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>O implementare trimite migrările acestei instalări către destinațiile alese și le rulează acolo ca %user, toate deodată și sincronizat: fiecare destinație este verificată mai întâi, iar dacă una eșuează, fiecare destinație care le-a aplicat este readusă înapoi. Se desfășoară în fundal, iar pagina ei arată fiecare destinație pe măsură ce avansează.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. Destinațiile</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>Bifați destinații, un grup sau ambele.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>Implementează acolo</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. Cum</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>Implementează</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>Trimite și rulează</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>Migrările sunt trimise, verificate și rulate pe fiecare destinație cu un singur ID de rulare comun.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>Doar transfer</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>Fișierele sunt trimise și verificate, nu se rulează nimic (singura cale pentru o destinație FTP).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>Pe etape</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>Etapă cu etapă, în ordinea mediilor (dev, stage, beta, production ...): prima etapă este implementată, apoi o poartă așteaptă până când cineva o aprobă pe următoarea. Totul sau nimic în cadrul fiecărei etape.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>Doar aceste migrări</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>Opțional: ID-uri de migrări, separate prin virgule. Gol: fiecare migrare a site-ului și a extensiilor sale.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>Doar verificare prealabilă</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>Da, implementează acum</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>Implementările care au trimis sau au rulat ceva, cele mai noi primele (o verificare prealabilă nu păstrează niciun raport).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>doar transfer</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>pe etape, %stages etape</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>desincronizată</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>Nicio implementare încă.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>Implementarea %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Fiecare destinație a implementării, cu starea ei. O implementare pornită aici continuă în fundal când această pagină este închisă; deschideți din nou pagina pentru a o urmări.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>Toate implementările</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>Verificare prealabilă</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>Etapa următoare</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>Se verifică setările și credențialele</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>Verificare prealabilă: se citește starea fiecărei destinații</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>Se trimit fișierele de migrare</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>Se verifică ce a sosit</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>Se rulează migrările pe fiecare destinație</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>Se readuc destinațiile înapoi</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>Implementarea s-a încheiat. Se încarcă raportul ei.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>Progresul nu a putut fi urmărit. Reîncărcați pagina pentru a vedea cum decurge implementarea.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>Fază</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>Această pagină urmărește implementarea pe măsură ce avansează.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>Sincronizat</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>Etape</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>etapa %stage așteaptă la poarta ei</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>Poarta %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>aprobată de %user la %time</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>Etapă</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>Fișiere trimise</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>Versiunea nucleului</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>aplicată: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>de aplicat: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>Faze</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>Poartă: etapa %stage din %stages</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>Etapele dinaintea ei sunt implementate. Verificați-le, apoi aprobați etapa următoare: destinațiile ei sunt verificate din nou și implementate, totul sau nimic.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Următorul</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>Da, implementează acum etapa următoare</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Aprobare</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>Anulează această implementare</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>Fiecare destinație care a aplicat-o (%list) revine la captura făcută înainte de rularea ei, toate deodată.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>Da, anulează acum această implementare</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>planificată</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>transferată</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>implementată</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>așteaptă la o poartă</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>selectate</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>pregătită</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>pregătit</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>așteaptă etapa sa</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>fișiere trimise</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>verificată</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>eșuată, s-a restaurat singură</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>neschimbată</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>neimplementată</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>inaccesibilă</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>Destinația a răspuns.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>Destinația nu poate fi folosită acum.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done finalizate, %pending în așteptare, %failed eșuate</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>Blocare</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>o rulare deține blocarea acolo</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>liber</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stage din %stages</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>Alegeți destinația de testat.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>Bifați mai întâi „Da, elimină această destinație”.</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>Destinația nu a putut fi eliminată: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>Destinația nu a putut fi salvată: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Fișierul de setări nu poate fi citit: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>Alegeți cel puțin o destinație sau un grup.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>O destinație aleasă nu mai există în setări. Reîncărcați pagina.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>Bifați mai întâi „Da, implementează acum”.</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>O destinație FTP nu poate rula migrări: alegeți „Doar transfer” sau omiteți-o.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>Migrările de implementat sunt ID-uri de migrări, separate prin virgule.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>Implementarea este încă în curs. Așteptați să se încheie.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>Această implementare nu așteaptă la o poartă.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>Nicio destinație nu a aplicat această implementare: nu este nimic de anulat.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>Bifați mai întâi „Da, implementează acum etapa următoare”.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>Bifați mai întâi „Da, anulează acum această implementare”.</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>Există deja o destinație cu ID-ul %id.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>Portul este un număr de la 1 la 65535.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>Mediul este un cuvânt din litere, cifre, - și _ (alpha, dev, stage, beta, production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>Un grup este un cuvânt din litere, cifre, - și _ (nu all): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>Credențialele nu pot fi citite acum: %problem. Salvați-le în Configurare &gt; Secrete (sau setați variabila) înainte de prima implementare.</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>O destinație FTP doar primește fișiere: o implementare către ea este „Doar transfer”, iar migrările ei se rulează acolo manual.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>Destinația %id nu este în settings/override/migration.ini.append.php; eliminați-o acolo unde este setată.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>Autentificat prin FTP și citit index.php. Starea migrărilor unei destinații FTP nu poate fi citită.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>Modificat</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>Creat</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Nume</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Clasă</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Secțiune</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>Autor</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Conținut recent</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>Conținutul creat și modificat cel mai recent din tot site-ul, de la cel mai nou: ce au trimis vizitatorii, ce este reținut pentru verificare, ciornele care își așteaptă publicarea. Selectați elemente pentru a le elibera, reține, ascunde, afișa, elimina sau muta în altă secțiune sau stare.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>Lista nu a putut fi citită: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>Reținerea pentru verificare nu este încă configurată, deci nimic nu este reținut și acțiunile de reținere nu sunt oferite. Pasul de actualizare 6.0.15-review-hold o configurează: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Filtrați lista</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>De la</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Până la</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Dată</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>Creat (prima publicare)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Toate</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Situație</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Publicat</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>Ciornă, niciodată publicată</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>În așteptare (a unei aprobări sau a unei date)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>În coșul de reciclare</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Reținut pentru verificare</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>Reținut</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>Nereținut</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>Ascuns</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>Vizibil</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>Trimis pe</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>Orice acces la site</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>Doar ce a înregistrat auditul.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>Acum: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>Un nume de autentificare sau un ID de utilizator.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Filtrare</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>Ștergeți filtrele</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>Elemente</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from – %to din %count</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Niciun element</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(citit în %ms ms)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>Acțiuni pentru elementele selectate</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>Selectați tot de pe această pagină</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>%count selectate</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Acțiune</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>Alegeți o acțiune</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>Eliberați reținerea</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Rețineți pentru verificare</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Ascundere</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>Afișare</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>Mutare în coșul de reciclare</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>Ștergere</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>Atribuire secțiune</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>Atribuire stare</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>Motiv</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>Necesar pentru reținere; păstrat împreună cu reținerea și în audit.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>Alegeți o secțiune</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Stare</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>Alegeți o stare</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>Aplicați la cele selectate</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>Fiecare element este verificat în funcție de propriile dumneavoastră permisiuni. Mutarea în coșul de reciclare și ștergerea cer confirmare. Peste %count elemente, acțiunea rulează în fundal.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>Selectare</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>Publicare</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>Trimis de la</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>Selectați %name</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>încă nu</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(fără nume)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>Ciornă</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>În așteptare</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>Ascuns de părintele său</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>Reținut: trimitere nouă</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>Versiunea %version în așteptare</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>Versiunea %version în lucru</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>Ciornă, versiunea %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>Versiunea %version publicată</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>Programat pentru %date</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>nicio adresă</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>neînregistrat</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>Nimic nu corespunde acestor filtre.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Afișați tot</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>Nu există încă niciun conținut.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Pe pagină</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Afișați %count elemente pe pagină.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says &quot;not recorded&quot;.</source>
+        <translation>Adresa și browserul unei trimiteri provin din indexul de audit, care nu este disponibil aici: coloana afișează „neînregistrat”.</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>Adresa și browserul sunt cele pe care auditul le-a înregistrat pentru element (reținerea automată le înregistrează întotdeauna; publicarea și crearea doar acolo unde este activat), așa cum le păstrează setările sale de confidențialitate.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: %count elemente</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>Ștergerea elimină elementele definitiv, cu toate versiunile și traducerile lor. Nu poate fi anulată.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>Elementele ajung în coșul de reciclare, de unde pot fi restaurate.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>Fiecare element este verificat în funcție de propriile dumneavoastră permisiuni; un element cu subelemente este lăsat așa cum este (eliminați-l din structura de conținut). Vi se va cere să confirmați că sunteți dumneavoastră.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>Aceasta rulează în fundal: se deschide pagina sa de progres, iar rezultatul pentru fiecare element este afișat la final.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>Elementele selectate</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>și încă %count</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Anulare</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>Nu s-a făcut nimic</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Motiv: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>Acțiunea încă rulează în fundal.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>Progresul său</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>Acțiunea din fundal a eșuat: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Efectuat</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Refuzat</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Eșuat</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>Pe element</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>Element</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Rezultat</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>De ce</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>Înapoi la listă</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Configurare</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>Nimic efectuat</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>Confirmare</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>Alegeți o acțiune.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>Selectați cel puțin un element.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>Selectați cel mult 1000 de elemente odată.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>Spuneți de ce sunt reținute elementele.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>Alegeți secțiunea.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>Alegeți starea.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Formularul nu a putut fi citit.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>Tablou de bord</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>Conținut recent</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>Numerele nu au putut fi citite: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Reținute pentru verificare</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>Noi astăzi</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Reținerea pentru verificare nu este încă configurată (pasul de actualizare 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>Tot conținutul recent</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>Nu aveți voie să rulați acțiuni de moderare (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>Acțiunea de moderare nu este completă: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>Moderare: %action pentru %count obiecte</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%done din %total obiecte: %ok efectuate, %refused refuzate, %failed eșuate</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok efectuate, %refused refuzate, %failed eșuate</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>Nu mai există.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>Nu are nicio locație (nepublicat).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>Nu aveți voie să îl ascundeți (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>Nu aveți voie să îl afișați (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>Este deja ascuns.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>Nu este ascuns.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>Ascuns.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>Afișat.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>Este în coșul de reciclare: goliți-l sau restaurați elementul de acolo.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>O ciornă care nu a fost niciodată publicată nu poate ajunge în coșul de reciclare: ștergeți-o.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>Nu aveți voie să îl ștergeți (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>Șters.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>Nu aveți voie să îl eliminați (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>Are subelemente: eliminați-l din structura de conținut, unde sunt listate.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>Nu a fost eliminat (un flux de lucru poate reține eliminarea).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>Mutat în coșul de reciclare.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>Secțiunea nu există.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>Este deja în această secțiune.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>Nu aveți voie să atribuiți această secțiune (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>Secțiunea nu a fost atribuită.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>Secțiune atribuită.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>Starea nu există.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>Este deja în această stare.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>Nu aveți voie să atribuiți această stare (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>Starea nu a fost atribuită (un flux de lucru poate reține modificarea).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>Stare atribuită.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>Această acțiune nu există.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Reținerea pentru verificare nu este configurată (pasul de actualizare 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>Spuneți de ce este reținut.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>Este deja reținut.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>Nu aveți voie să îl rețineți (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>Reținerea nu a fost aplicată (un flux de lucru poate reține modificarea).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>Reținut.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>Nu este reținut.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>Nu aveți voie să îl eliberați (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>Reținerea nu a fost eliberată (un flux de lucru poate reține modificarea).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>Eliberat; încă ascuns: nu aveți voie să îl afișați (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>Eliberat.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>Toate țintele</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Ultima publicare</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>Publicați gratuit o copie statică a site-ului pe GitHub Pages:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Pagini învechite</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Publicare statică</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Publicarea statică este dezactivată.</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Țintă</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Țintele nu au putut fi citite: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>o sarcină este în curs</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>build de verificat</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>ascunde</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>creează o țintă</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>niciodată</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>citiți tutorialul</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>%added adăugate, %changed modificate, %removed eliminate</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%bytes din %limit (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>Încă %count nu sunt listate.</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>%pages pagini scrise</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path are %size, mai mult decât permite gazda pentru un fișier.</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>%percent % din limită</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds s</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag este publicarea pe care o are site-ul acum.</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: sarcina %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>/depozit/ pentru un site de proiect GitHub; gol pentru un domeniu propriu sau un site de utilizator.</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. Site-ul</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. Gazda</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. Autentificarea în depozit</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. Depozitul</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. Linkuri și cale de bază</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. Domeniul dumneavoastră</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. Ce conține build-ul</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. Când este publicat</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. Verificare și salvare</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>Un site de proiect GitHub se află sub /&lt;repository&gt;/; linkurile relative funcționează acolo și oriunde altundeva.</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>Un build preia fiecare pagină a %site așa cum o vede un vizitator neautentificat, rescrie linkurile, copiază fișierele și scrie rezultatul în folderul țintei. Nimic nu este publicat până nu verificați build-ul și apăsați Publică.</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>O expresie cron, de exemplu 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>O cheie de implementare este păstrată ca secretul %secret.</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>O cheie de implementare permite acestei instalări să trimită prin SSH într-un singur depozit și nicăieri altundeva. Jumătatea sa privată rămâne în Configurare &gt; Secrete; doar jumătatea publică este afișată.</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>O cheie de implementare creată pentru această țintă</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>O cheie de implementare se autentifică prin SSH: schimbați adresa git cu cea SSH (git@github.com:owner/repo.git).</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>O sarcină este în curs, pornită de %user</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>O sarcină a acestei ținte este încă în curs (%detail). Așteptați să se termine.</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>O sarcină a acestei ținte este încă în curs. Așteptați să se termine.</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>Un link de la pagina /news/ la pagina /about-us/team va fi scris ca</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>A fost creată o nouă cheie de implementare. Adăugați acum jumătatea sa publică în depozit.</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>O pagină care după curățare încă mai conține ieșire de depanare, un token de formular sau un id de sesiune nu este publicată niciodată.</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>O anulare este pentru experți: bifați „Știu ce schimbă aceasta” și tastați din nou numele etichetei.</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>Un site poate avea până la %site, un fișier până la %file, cu aproximativ 100 GB de trafic pe lună. Într-un plan gratuit, depozitul trebuie să fie public. GitHub Pages nu este destinat magazinelor sau altor tranzacții comerciale.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>O țintă este un site publicat într-un depozit git. Aici nu se generează și nu se publică nimic: „Salvează” scrie setările în settings/override/staticcache.ini.append.php.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>O țintă este un site publicat într-un singur loc, de exemplu site-ul dumneavoastră public pe GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>Un token din Configurare &gt; Secrete</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>Un flux de lucru al depozitului îl publică.</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>Adăugați această cheie publică în depozit cu drept de scriere. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, bifați Allow write access.</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>Adăugate</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>Altă gazdă git</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>Alt proces lucrează la această țintă: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>Înapoi</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>Cale de bază</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Înainte</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>Sub o cale de bază</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>Ramură</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>Linkuri rupte</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>Linkuri rupte în build</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>Build</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>Build-ul %id de %user</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>Build pentru %name</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>Generează acum</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>Build de verificat</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>De către</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>Manual, aici</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Anulare</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Modifică</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>Modificate</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Modificări</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>Verificați-l mai întâi</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Verificați aceste setări</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>Verificați ce schimbă build-ul, examinați-l, apoi publicați-l sau aruncați-l.</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>Alegeți publicarea la care reveniți.</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>Vine într-o versiune ulterioară.</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Comitere</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>Comiteri</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>Comite build-ul, îl etichetează și îl trimite la %remote. O trimitere nu este niciodată forțată; puteți reveni mai târziu la orice publicare.</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>Comparat cu folderul de dinainte: %added adăugate, %changed modificate, %removed eliminate, %unchanged neschimbate.</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>Comparat cu ultima publicare.</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Credențiale</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>Domeniu propriu</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>Ieșirea de depanare, tokenurile de formular, id-urile de sesiune și nonce-urile sunt întotdeauna eliminate.</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>Cheie de implementare</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>Cheia de implementare a %name</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Renunță</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>Renunță la build</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>Domeniu</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>Gol: adresa site-ului. Altfel, o adresă internă a aceluiași site.</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Încheiată</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>Fiecare link începe cu calea de bază.</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>Fiecare publicare este o comitere cu o etichetă static/%id/&lt;n&gt;. Revenirea creează o nouă comitere cu fișierele unei publicări anterioare: istoricul rămâne, nicio etichetă nu se mută și nimic nu este forțat.</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>Suplimentare</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>Preia paginile de la</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Fișier</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>Fișiere</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>Fișiere lipsă</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>Fișierele din</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>Fișiere care nu au putut fi colectate</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>Amprentă</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>Folder</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>Pentru o adresă SSH. Cheia este creată după salvare; adăugați jumătatea ei publică în depozit.</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>Pentru o adresă https://. GitHub: un token cu granulație fină, cu Contents de citire și scriere pe depozit.</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>Pentru experți. Site-ul public se schimbă imediat ce trimiterea s-a încheiat.</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Formulare</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>Găzduire gratuită dintr-un depozit GitHub.</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>Din ramură</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>Adresă git</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages permite un site de %site și un fișier de %file.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>Limitele GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages publică fișierele așa cum sunt (necesar pentru fișierele care încep cu _).</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub servește ramura așa cum este trimisă. Opțiunea implicită.</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, propriul server: orice depozit git.</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>Reveniți la o publicare anterioară</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Ajutor</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>Ajutor pentru asistent</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>Ascunde-le</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Istoric</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>Istoricul %name</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Gazdă</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>Cum primește GitHub Pages build-ul</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>Am verificat modificările</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>Știu ce schimbă aceasta</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>Este dezactivată: nimic nu poate fi generat până nu este activată.</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>Rulează în fundal ca %user; puteți închide această pagină.</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>Sarcina %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>Păstrat ca secretul %secret.</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Tip</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Ultima publicare</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>Excludeți aceste pagini</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>Excludeți aceste secțiuni</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Linkuri</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>Linkuri rescrise</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>Site-ul live</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>Examinați build-ul</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>Litere mici, cifre, _ și -, de exemplu github-public. Denumește folderul și etichetele (static/&lt;id&gt;/&lt;n&gt;) și nu poate fi schimbat ulterior.</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>Creează o cheie nouă</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>Creează o țintă</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>Creează cheia</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>Creați mai întâi depozitul pe gazdă; unul gol este în regulă.</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>Manifest</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Mesaj</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>Majoritatea paginilor</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Nume</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>Numele tokenului în Configurare &gt; Secrete</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>Țintă nouă</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Următorul</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>Nu</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>Nicio comitere încă.</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>Nu a fost creată nicio cheie: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Nu a fost găsit niciun binar php de linie de comandă. Setați migration.ini [AdminSettings] PhpCliPath la calea sa completă.</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>Nicio etichetă încă.</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>Nicio țintă încă.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Niciuna</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>Nu este în build.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>Nu a fost publicat nimic încă.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>Nu a fost publicat nimic încă: fiecare fișier este nou.</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>Notificare</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>După un program</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>În consolă</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>Pe server: ./console exp:static:serve %id îl servește la fel.</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>O cale pe linie, * corespunde oricărei părți: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>Doar un nume este stocat cu ținta; tokenul sau cheia în sine rămâne în Configurare &gt; Secrete și nu apare niciodată într-un jurnal.</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>Doar ce numesc paginile</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>Doar cu un token. env:NAME citește în schimb o variabilă de mediu a serverului.</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>Deschide previzualizarea</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>Deschide build-ul așa cum îl va servi gazda, din folderul țintei. Linkul funcționează pentru dumneavoastră timp de o oră.</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>Opțional. Gol: ce a fost publicat.</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>Opțional. Cu un domeniu, site-ul este servit la rădăcina sa.</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Ieșire</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>Pagini</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>Paginile țintei</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>Pagini refuzate</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>Post-procesare</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Previzualizare</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>Previzualizare și publicare</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>Previzualizare și publicare %name</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>Previzualizați build-ul</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Progres</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>Adresă publică</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>Cheie publică</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>Publică</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>Publicați o copie statică a unui site pe GitHub Pages sau pe orice gazdă git: generați-o, verificați modificările, publicați și reveniți la o publicare anterioară când este nevoie.</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>Publicarea la care se revine</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>Publicări</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Trimitere</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>Citiți tutorialul</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Jurnal</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Refuzate</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>Relativ</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Reîncarcă</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>Eliminate</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>Înlocuiți cheia: cea veche nu mai funcționează</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Raport</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>Raportul build-ului</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Depozit</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Verificare</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>Verificarea controlează fiecare setare și arată liniile care vor fi scrise. Nimic nu este salvat încă.</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Anulează</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Anulare</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Salvează</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>Program</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>Pagina de căutare</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>ID-uri de secțiuni, separate prin virgule.</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>Trimiteți-le la site-ul live</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>Setare</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Setări</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>Setările %name</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Configurare</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Configurare &gt; Secrete</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>Afișat în liste, de exemplu „Site public pe GitHub Pages”.</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>Autentificarea cu o GitHub App vine odată cu integrarea GitHub.</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>Site</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>Site de publicat</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Dimensiune</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>Dimensiune și limite</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>Dimensiunea build-ului</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Pagini învechite</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Pornită</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Pornită de %user la %time.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Stare</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Publicare statică</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>Publicarea statică este dezactivată</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Publicarea statică este dezactivată.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>Publicarea statică este dezactivată. Activați-o mai întâi în Configurare &gt; Publicare statică.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>Publicarea statică este activată.</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>Pasul %step din %total</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Pași</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>Curățare</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Dezactivează</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Activează</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>Activați publicarea statică</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Etichetă</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>Etichete</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Țintă</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>Țintele pot fi create și modificate, dar nimic nu este generat sau publicat până nu este activată.</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>Le spune motoarelor de căutare ce să citească.</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>Build-ul nu a putut fi aruncat: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>Build-ul este identic cu ultima publicare: nu este nimic de publicat.</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>Build-ul a fost aruncat: folderul conține din nou ultima publicare.</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>Valorile implicite se potrivesc majorității site-urilor.</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>Folderul conține un build care nu este încă publicat; un build nou îl înlocuiește.</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>Folderul sarcinilor nu poate fi scris: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>Sarcina nu a putut fi pregătită: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>Sarcina nu a putut fi pornită.</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>Sarcina s-a încheiat. Se încarcă raportul ei.</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>Sarcina necesită un utilizator autentificat.</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>Sarcina a fost pornită, dar nu și-a raportat id-ul de proces. Verificați %detail.</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>Cheia</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>Cel mai mare fișier: %path, %size.</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Liniile care vor fi scrise</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>Lista de pagini pentru motoarele de căutare; necesită adresa publică.</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>Paginile sunt preluate așa cum le vede un vizitator neautentificat. Siteaccess-urile de administrare și editare nu sunt oferite niciodată.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>Progresul nu a putut fi urmărit. Reîncărcați pagina pentru a vedea cum merge sarcina.</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>Jumătatea publică a cheii:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>Rădăcina ramurii</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>Depozitul de secrete nu este încă configurat (./console exp:upgrade --apply îi creează tabelul), așa că nicio cheie nu poate fi păstrată.</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>Serverul se autentifică singur (cu propria cheie SSH sau cu un credential helper), sau depozitul se află pe acest server.</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>Setarea nu a putut fi scrisă: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Setările sunt valide. Aceste linii vor fi scrise:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Fișierul de setări nu poate fi citit: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>Site-ul revine la fișierele acelei publicări; un build încă nepublicat trebuie mai întâi publicat sau aruncat.</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>Pagina proprie a site-ului pentru adresele care nu există.</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>Ținta nu a putut fi salvată: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>Ținta nu se autentifică încă cu această cheie: alegeți „O cheie de implementare creată pentru această țintă” în setările ei.</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Țintele nu au putut fi citite: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>Nu există încă niciun build de verificat.</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>Această instalare nu are niciun siteaccess public. Siteaccess-urile de administrare și editare nu sunt publicate niciodată.</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>Această pagină urmărește sarcina pe măsură ce avansează; sarcina continuă în fundal când pagina este închisă.</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>Această țintă nu are încă o cheie de implementare.</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>Această țintă nu a fost încă generată aici.</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>Această țintă are una.</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>Aruncă acest build: folderul conține din nou ultima publicare. Site-ul live nu se schimbă.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>Bifați mai întâi „Am verificat modificările”.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Timp</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>Declanșatoare</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>Tastați din nou numele etichetei</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>Neschimbate</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>Webhook</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Ce</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>Ce se schimbă</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>Ce este fiecare fișier; scris întotdeauna.</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>Ce a făcut sarcina și jurnalul ei. O sarcină pornită aici continuă în fundal când această pagină este închisă.</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>Ce a afișat sarcina ca erori</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>Ce numesc paginile și fiecare imagine a conținutului publicat</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Când</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>Când o publicare eșuează</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>Când o publicare reușește</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>Când conținutul este publicat</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>Unde duc linkurile către ce nu conține copia (căutarea, autentificarea).</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>De unde este servită copia statică.</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>Ce site este publicat și cum se numește ținta.</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>Funcționează sub orice cale. Opțiunea implicită.</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>Scris ori de câte ori este setat un domeniu propriu.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>Da</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>Puteți oricând genera și publica manual aici și în consolă.</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>doar un nume; valoarea rămâne în Configurare &gt; Secrete</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>sub %path</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>încheiată fără raport</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>suplimentar</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>eșuată</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>fișier</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages, sau main cu folderul docs.</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>gazdă git</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (cu un token) sau git@github.com:owner/repo.git (cu o cheie de implementare); niciodată o parolă sau un token în ea.</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/, pentru harta site-ului și linkurile canonice.</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>imagine</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>niciodată</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>nu</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>fără depozit la distanță</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>niciuna: comiterile rămân în folder</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>niciuna: nimic nu s-a schimbat</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>netrimis</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>nimic nu s-a schimbat</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>pagină</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>reușită</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>proc_open este dezactivat, așa că o sarcină nu poate fi pornită aici. Folosiți ./console exp:static:build pe server.</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>publicare</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>publicat</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>trimitere în așteptare</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>trimis</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>refuzată</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>relativ</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>anulare</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>anulat</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>în curs</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>doar folderul</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: scris în fișierul CNAME. Direcționați DNS-ul domeniului către gazdă așa cum explică aceasta; HTTPS poate dura un timp până pornește.</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>da, încă nepublicat</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>O GitHub App</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>Un flux de lucru al depozitului îl publică. Build-ul scrie fișierul fluxului de lucru; lăsați dosarul gol.</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>După salvarea unei ținte cu un depozit GitHub și un token sau o GitHub App, acest pas poate crea depozitul și activa GitHub Pages. Altfel, creați mai întâi depozitul pe GitHub; unul gol este în regulă.</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>Ramură sau GitHub Actions?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>Verificați DNS-ul</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>Creează depozitul dacă nu există</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>Creați depozitul pe GitHub și activați GitHub Pages în setările lui (Settings &gt; Pages).</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>Creează depozitul %repo când lipsește (dacă se cere), activează GitHub Pages din ramură sau din GitHub Actions, așa cum a fost salvat, și setează domeniul propriu și HTTPS. Folosește setările salvate: salvați mai întâi modificările.</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>Detalii pe GitHub</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>Introduceți mai întâi domeniul propriu.</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>Fiecare push este verificat mai întâi față de aceste limite.</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>Pentru o adresă https:// pe GitHub. Se autentifică App-ul configurat pentru această instalare; are nevoie de id-ul instalării.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages servește un depozit privat doar cu un plan plătit.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: un subdomeniu (www.example.com) are nevoie de o înregistrare CNAME către &lt;owner&gt;.github.io; un domeniu apex (example.com) de înregistrările A %ips.</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>Id-ul instalării GitHub App</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>Ultimul build Pages</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>Limite și condiții</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>Necesar pentru GitHub Pages cu un plan gratuit.</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>Pe GitHub</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>Doar cu o GitHub App: numărul de la sfârșitul adresei instalării App-ului pe GitHub. App-ul însuși se setează în staticcache.ini (GitHubAppId, GitHubAppKey).</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>Privat</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>Public</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>Salvați mai întâi ținta cu un depozit GitHub și un token sau o GitHub App.</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>Setați aceste înregistrări la furnizorul domeniului:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>Configurare pe GitHub</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>DNS-ul pentru %domain nu indică încă spre GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>DNS-ul pentru %domain indică spre GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>Integrarea GitHub nu este disponibilă aici: %problem. Publicarea în ramură funcționează oricum; activați GitHub Pages în setările depozitului.</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>Pașii GitHub nu sunt disponibili pentru această țintă: %problem.</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>Starea GitHub Pages este afișată cu un token sau o GitHub App drept credențiale.</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>Folosiți propriul domeniu</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>Ce să alegeți: token, cheie de implementare sau GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>Cu un depozit GitHub și un token sau o GitHub App, asistentul poate crea depozitul, activa GitHub Pages și seta domeniul pentru dvs. (pasul 4).</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>în construire</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>construit</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>din GitHub Actions</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>din ramura %branch</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>niciunul încă</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>negăsit</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>dezactivat</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>privat</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>public</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>în coadă</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>necunoscut</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%count pe %pages pagin(i):</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>Un .gz (și .br) lângă fiecare fișier text, pentru gazdele care le servesc.</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>O pagină mică pentru fiecare adresă veche și alias al unei pagini, ca legăturile vechi să continue să funcționeze.</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>Scris întotdeauna când GitHub Actions livrează site-ul.</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>Un id SPDX precum CC-BY-4.0, sau textul însuși.</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>Coș</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>Apeluri către server</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Comentarii</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>Formulare care colectează informații</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>Workflow GitHub Actions</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>Mai puține spații goale și niciun comentariu în pagini.</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>Licența conținutului</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Autentificare</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>Minimizează</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>Alte formulare</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>Precomprimă</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>Pagini de redirecționare</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>Pagini de redirecționare: %count.</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Căutare</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>Index de căutare: %pages pagin(i) în %languages.</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>Foi de stil și scripturi denumite după hash-ul conținutului lor, ca browserele să le poată păstra.</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>Paginile modificate, la câteva minute după ultima modificare (partea cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>Licența conținutului, din câmpul de mai jos.</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>Întregul site, la orele din program (partea cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>Aceste părți ale paginilor au nevoie de un server; fiecare a primit o alternativă. Verificați-le înainte de a publica.</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>Ce nu funcționează static</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>Ce este depozitul, pentru cine îl deschide pe gazdă.</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>omis</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>textul alternativ</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>punctul final de formulare al site-ului live</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>site-ul live</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>pagina de căutare a copiei</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>Formularul nu a putut fi trimis.</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>Mulțumim: formularul a fost trimis.</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>Formularul nu a fost acceptat: verificați ce ați introdus și trimiteți-l din nou.</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>Elimină legăturile către pagini pe care copia nu le conține</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>Elimină legăturile către administrare</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>Textul lor rămâne. Imaginile, formularele și legăturile către alte site-uri nu sunt eliminate niciodată.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Versiune</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>Accese la site de publicat</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Acces la site</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>La rădăcină</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>Niciun acces la rădăcină: fiecare e în dosarul său, iar rădăcina trimite la ele</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Accesuri la site</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>Bifați un acces la site sau mai multe care împart o gazdă prin prefixul URI. Cel de la rădăcină e servit acolo, celelalte în dosarul prefixului lor (/ger/); legăturile dintre ele rămân în copie. Accesele de administrare nu sunt oferite niciodată.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>Publicarea statică a %target a eșuat pe %site</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>Publicarea statică a %target a reușit pe %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>Acest e-mail a fost trimis de %site deoarece ținta de publicare statică %target îl solicită.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>Implementarea %deploy a eșuat pe %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>Implementarea %deploy așteaptă la o poartă pe %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>Implementarea %deploy a reușit pe %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>Acest mesaj a fost trimis de %site deoarece migration.ini [RemoteSettings] Notify[] îl solicită.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>Tipuri de date (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>Numărate la %time, din nou peste %minutes minute</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>Un tip de date stochează și editează un fel de valoare a unui atribut al clasei: o linie de text, o imagine, o relație. Nucleul aduce majoritatea, extensiile adaugă altele. Aici sunt toate, cine le furnizează și cât din conținut le folosește. Un tip de date pe care baza de date îl folosește, dar pe care nimic nu-l mai înregistrează, strică conținutul care îl are.</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>Grupuri de clase</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>Numără din nou acum în loc să folosești numărătorile din ultimele minute.</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>Numără din nou</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Prezentare generală</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>Înregistrat</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>În uz</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>Neutilizat</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>Extensii care furnizează tipuri de date</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>Atributele clasei</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>Atribute obiect</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>Neînregistrat</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>Listat, fișier lipsă</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>%count tipuri de date sunt folosite, dar neînregistrate</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>%class_attributes atribute de clasă și %object_attributes atribute de obiect au un tip de date pe care nicio extensie sau setare nu îl înregistrează. Obiectele lor nu pot fi afișate, editate sau publicate. Activează extensia care furnizează tipul de date sau modifică clasa.</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>Arată doar acestea</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>Caută un tip de date</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>Identificator, nume, clasă PHP sau extensie.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Afișare</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Toate</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>Furnizat de</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>Toată lumea</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>Nucleu</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>Niciun tip de date nu corespunde acestui filtru.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Afișare toate</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>Extensie</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%shown din %count tipuri de date, %used în uz</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>Baza de date are atribute de clasă sau de obiect ale acestor tipuri de date, dar content.ini nu listează niciunul dintre ele sau fișierul lor lipsește.</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>Tipuri de date de la %provider</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>Tip de date</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>Clasă PHP și fișier</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>Clase</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>Obiecte</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>Indicatori</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>niciunul</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>Niciun tip de date nu corespunde căutării. Golește căutarea.</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>%shown din %count tipuri de date afișate</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>Tipuri de date afișate: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>Sortare după %column</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>Numărate la %time</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>Toate tipurile de date</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>Pagină de ajutor</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>Acest tip de date este folosit, dar nu este înregistrat</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>Obiectele claselor de mai jos nu pot fi afișate, editate sau publicate cât timp nicio extensie nu înregistrează tipul de date. Activează extensia care îl furnizează și adaugă-l în content.ini [DataTypeSettings] AvailableDataTypes[] sau modifică clasele.</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini listează acest tip de date, dar niciun director de tipuri de date nu are fișierul lui. Nimic nu îl folosește; elimină-l din AvailableDataTypes[] sau activează-i extensia.</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>Despre acest tip de date</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>Identificator</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Nume</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Extensia %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>nimeni</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>Clasă PHP</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Fișier</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>În AvailableDataTypes[]</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>da</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>nu</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>Coloanele valorii sale</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>Coloanele setărilor atributului său de clasă</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>Tabele</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>Coloanele și tabelele sunt găsite citind codul tipului de date: un ghid, nu o garanție.</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>Șabloane</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Acces la site</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>Șablon</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>Găsit în</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>această administrare</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>site-ul implicit</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>Fără suprascrieri: un șablon de suprascriere potrivit după clasă sau atribut are prioritate față de acestea.</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>Clase care îl folosesc (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>Nicio clasă nu are un atribut de acest tip de date.</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Clasă</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>Atribute</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>Atributele clasei (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>Atribut</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Setări</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>Obligatoriu</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>Căutabil</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>Traductibil</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>Colectează informații</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>Conținut care îl folosește</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>Cele mai recent modificate întâi</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Modificat</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>Nodul %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>Fiecare traducere are propria valoare.</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>Căutarea îi indexează valorile.</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>Poate colecta informații de la vizitatori (formulare).</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>Listele pot fi sortate după el: cheia de sortare %type.</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>Sortabil</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>Valorile sale indică alte obiecte.</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>Relații</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>Poate fi completat dintr-un șir simplu (import, REST).</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>Din text</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>Poate fi completat dintr-un fișier.</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>Din fișier</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>Setările atributului său de clasă intră în pachete.</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>Pachete</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>Conținut (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from – %to din %count</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Filtrați lista</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>Toate clasele</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Secțiune</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Limbi</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Proprietar</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Publicat</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>Inversare ordine</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Niciun element</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Pe pagină</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Afișare %count elemente pe pagină.</translation>
     </message>
 </context>
 </TS>

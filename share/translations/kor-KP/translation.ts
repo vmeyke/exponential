@@ -984,6 +984,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>이 페지만 검색합니다: %count개 중 %from-%to.</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>커널과 확장의 모든 자료형, 그리고 클라스와 내용이 그것을 어떻게 리용하는지.</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>자료형</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2316,6 +2324,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>체계 페지도 책갈피에 추가할수 있습니다. 페지(설정, 감사 내역, 사용자 목록 ...)를 열고 그 위의 《이 페지 책갈피 추가》를 선택하십시오. 이러한 책갈피에는 톱니바퀴 아이콘이 표시됩니다.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>이제 여기에서는 이 페지를 열수 없습니다. 책갈피를 제거하거나 관리자에게 접근 권한을 요청하십시오.</translation>
     </message>
 </context>
 <context>
@@ -5165,6 +5177,210 @@
         <source>Go to the first page</source>
         <translation>첫 페지로 이동</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>기타</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>최근 7일</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>지정 기간</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>모든 단어</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>임의의 단어</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>정확한 문구</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>관련도</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>이름 오름차순</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>이름 내림차순</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>수정날자, 새것부터</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>수정날자, 오랜것부터</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>발행날자, 새것부터</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>발행날자, 오랜것부터</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>수정일</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>필터</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>필터 보이기</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>필터 감추기</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>초기화</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>적용</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>단어</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>콘텐츠형태</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>더 보기 (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>속성들중 하나에서 검색하려면 콘텐츠형태를 하나 선택하십시오.</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>섹션</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>시작</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>종료</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>시작날자가 옳은 날자가 아닙니다.</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>마감날자가 옳은 날자가 아닙니다.</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>소유자</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>사용자 ID, 가입명 또는 전자우편주소.</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>《%input》에 해당한 사용자를 찾지 못하였습니다.</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>언어</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>모든 언어</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>위치</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>위치 %count개</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>페지당 결과수</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>《%text》 검색결과 (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>결과 (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>정렬 기준</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>정렬</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>활성 필터</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>이 필터 제거</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>또는 필터를 선택하고 적용하여 해당한 콘텐츠를 렬거하십시오.</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>단어를 입력하면 필터가 검색범위를 좁힙니다.</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>《%text》에 대한 결과가 없습니다.</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>결과가 없습니다.</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>우의 필터를 제거하십시오.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>번역</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>작업</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>%name 편집</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>편집</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -7514,6 +7730,10 @@
         <source>Setup &gt; Cronjobs</source>
         <translation>설정 &gt; 크론작업</translation>
     </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>아직 실행된 크론작업 부분이 없습니다. 작업대기렬, 가져오기, 알림 및 검색색인이 대기중입니다. php bin/php/installcrontab.php --add --apply 명령을 실행하거나 --show 출력의 줄을 crontab에 추가하십시오.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/dashboard/drafts</name>
@@ -8058,8 +8278,8 @@
         <translation>원저작자와 Exponential에 포함된 타사 쏘프트웨어의 저작권 고지는 라이선스에서 요구하는 대로 소스 화일과 LICENSE 화일에 보존됩니다.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>다음은 eZ Systems Contributor Licensing Agreement의 약관에 따라 7x가 사용할수 있도록 자신의 작업에 대한 사용을 허가한 Exponential 기여자 목록입니다. 이 계약에서 허용하는 대로 7x는 각 기여를 그 기여가 포함된 화일과 동일한 라이선스로 재배포합니다. 목록에는 각 기여자, 선택 사항인 련락처 정보, 그리고 기여자가 만들었거나 작업에 기여한 화일이 나와있습니다.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>Exponential과 그 바탕이 된 쏘프트웨어에 대한 작업으로 이름이 밝혀진 기여자들과 그들이 기여한 파일입니다. 이것은 감사의 표시이며 저작권 고지가 아닙니다. Exponential에 대한 기여는 Contributor Licensing Agreement에 따라 Exponential Foundation과 7x에 양도됩니다.</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13881,32 +14101,20 @@ Note: The packages will not be uninstalled.</source>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%evaluate_link"&gt;Exponential Enterprise Edition 평가하기&lt;/a&gt; - &lt;a href="%share_link"&gt;Exponential 커뮤니티의 회원이 되여 교류하고 기여하기&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; 및 기타.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class="edition-info"&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>&lt;span class="edition-info"&gt;%edition&lt;/span&gt; 기반. 자세한 내용은 &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;을 참조하십시오.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; 및 기타.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> 자세한 내용은 &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;을 참조하십시오.</translation>
     </message>
     <message>
-        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; 및 기타.</translation>
+        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href="%evaluate_link"&gt;Exponential 평가하기(7x 제공)&lt;/a&gt; - &lt;a href="%share_link"&gt;Exponential 커뮤니티의 회원이 되여 지원을 받고 기여하기&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; 및 기타.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13915,6 +14123,61 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Help center</source>
         <translation>도움말 쎈터</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>콘텐츠</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>문서페지</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>사용자</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>콘텐츠클라스</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>관리</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>%number페지</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>모든 결과 보기</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>결과 %count개</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>결과 1개</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>제안 %count개</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>제안 없음</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>제안을 불러올수 없습니다.</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>제안</translation>
     </message>
 </context>
 <context>
@@ -14383,6 +14646,14 @@ Note: The packages will not be uninstalled.</source>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>이 설치는 공개 데모입니다. 누구나 관리자 암호를 알수 있으며, 관리자 암호는 변경하거나 재설정할수 없습니다. 여기에 개인 정보를 입력하지 마십시오.</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>내 장치</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>보안 활동</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14672,6 +14943,14 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>가이드, 검색 및 오유 보고 방법입니다.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>최근 내용</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>최신 내용, 검토를 위해 보류된것, 선택 항목에 대한 조작.</translation>
     </message>
 </context>
 <context>
@@ -15130,6 +15409,46 @@ Note: The packages will not be uninstalled.</source>
         <source>Synchronisations</source>
         <translation>동기화</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>GraphQL API: 끝점, 스키마 및 질문을 시험해볼수 있는 시험마당.</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>이행</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>파일로 보관된 설치 변경들: 그 상태, 실행력사, 실행 및 되돌림.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>최근 내용</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>최신 내용, 검토를 위해 보류된것, 선택 항목에 대한 조작.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>싸이트의 정적사본을 GitHub Pages 또는 임의의 git 호스트에 게시합니다.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>정적 게시</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>자료형</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>커널과 확장의 모든 자료형, 그리고 클라스와 내용이 그것을 어떻게 리용하는지.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15294,6 +15613,22 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>아무도 사용하지 않거나 확인이 필요한 계정입니다. 사용하지 않도록 설정하거나 잠금을 해제하거나 내보낼수 있습니다.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>사용자 감사 로그</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>계정별로 누가 변경하였는지, 누가 로그인하였거나 거부되였는지 확인하고 필터링하거나 내보낼수 있습니다.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>로그인 보고서</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>로그인한 사용자, 일별 로그인 및 실패 수, 사용자를 모든 위치에서 로그아웃.</translation>
     </message>
 </context>
 <context>
@@ -22110,6 +22445,22 @@ Note: The packages will not be uninstalled.</source>
         <source>%n hours ago</source>
         <translation>%n시간 전</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>GraphQL API의 보관된 질문들의 응답과 그 스키마의 콘텐츠클라스.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>GitHub Pages 또는 임의의 git 호스트에 정적사본 게시</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>정적 게시</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>정적 캐시는 이 봉사기에서 페지를 제공합니다. 싸이트의 정적사본을 GitHub Pages나 임의의 git 호스트 등 다른 곳에 게시하려면 정적 게시를 리용하십시오.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25651,6 +26002,10 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>last purge</source>
         <translation>마지막 삭제</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>쓰기가 상태 잠금을 얻지 못했습니다(마지막 %date): 쓰기마다 캐쉬된 모든 결과를 낡게 만들었습니다. %file 파일은 싸이트가 실행되는 모든 사용자가 쓸 수 있어야 합니다. NFS에서는 NFSv4 또는 lockd가 필요합니다.</translation>
     </message>
 </context>
 <context>
@@ -33599,6 +33954,14 @@ Note: The packages will not be uninstalled.</source>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>PHP 처리기의 시간이 초과된 세션은 이 페지나 session_gc 크론작업 부분이 아니라 PHP 자체(session.gc_maxlifetime)가 제거합니다.</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>모든 사용자의 로그인된 세션은 로그인 보고서에 라렬되며 거기에서 로그아웃할수 있습니다. 이 보고서는 모든 세션 처리기에서 동작합니다.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>로그인 보고서 열기</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37923,6 +38286,26 @@ your account.</source>
     <message>
         <source>None yet</source>
         <translation>아직 없음</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>보안 활동</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>최근 로그인, 실패한 시도 및 암호, 전자우편주소, 2단계 로그인 변경내용입니다.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>이 계정의 최근 로그인, 실패한 시도 및 보안 변경내용입니다.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>활동 검토</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>로그인 실패 %count회</translation>
     </message>
 </context>
 <context>
@@ -44089,6 +44472,42 @@ If you want to send comments to the approver or view the status use the URL belo
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>로그인한 후 사용자는 다른 작업을 하기 전에 새 암호를 선택해야 합니다. 다른 사람에게 림시 암호를 제공할 때 사용합니다.</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>기존 화상 선택</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>선택한 객체의 화상 파일이 이 마당에 복사됩니다. 다른 객체는 변경되지 않습니다.</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>《%name》의 화상을 이 마당에 복사하였습니다.</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>화상 찾아보기</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>이름으로 화상 검색</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>검색</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>《%name》의 화상 사용</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>이 화상 사용</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>검색과 일치하는 화상이 없습니다.</translation>
     </message>
 </context>
 <context>
@@ -51013,6 +51432,10 @@ See the requirements page for more information.</source>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>crontab이 기록되지 않았습니다(%reason). 싸이트를 실행하는 사용자의 crontab에 다음 줄을 추가하십시오. 그렇지 않으면 대기렬, 가져오기, 알림, 검색색인이 실행되지 않습니다:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>재설치는 Kickstarter(%file 작성후 php bin/php/kickstarter.php run --apply 실행) 또는 새 설치로 수행합니다.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54892,6 +55315,10 @@ your account.</source>
         <source>eZJSCore Public Packer cache</source>
         <translation>eZJSCore 공용 Packer 캐시</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>GraphQL 캐쉬 (응답과 스키마클라스)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54978,6 +55405,14 @@ your account.</source>
     <message>
         <source>Copy of %class_name</source>
         <translation>%class_name 복사본</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>자료형</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>자료형 %string</translation>
     </message>
 </context>
 <context>
@@ -55804,6 +56239,26 @@ your account.</source>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>SVG 화상을 읽을수 없거나 그 안에 안전하게 표시할수 있는 내용이 없습니다.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>화상을 복사할수 없습니다. 다시 시도하거나 사이트 관리자에게 문의하십시오.</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>선택한 객체가 존재하지 않거나 읽을 권한이 없습니다.</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>선택한 객체에 화상이 없습니다.</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>선택한 객체의 화상 파일을 읽을수 없습니다.</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>선택한 객체의 화상이 이 마당에서 허용하는 크기보다 큽니다: %1 바이트.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56334,6 +56789,42 @@ your account.</source>
         <source>The bookmark was renamed to "%name".</source>
         <translation>책갈피 이름이 《%name》(으)로 바뀌였습니다.</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>이 페지는 이 싸이트접근(%siteaccess)에서 꺼져있습니다. 이 페지가 있는 싸이트접근에서 책갈피를 여십시오.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>이 페지의 모듈이 여기에 설치되여있지 않거나 사용하도록 설정되여있지 않습니다.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>이 페지는 더 이상 존재하지 않습니다. 해당 모듈에 이러한 보기가 없습니다.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>이 페지를 열수 있도록 허용하는 역할이 없습니다.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>이 싸이트접근을 사용할 권한이 없습니다.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>이 페지에 표시되는 콘텐츠를 읽을 권한이 없습니다.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>이 종류의 페지는 책갈피에 추가할수 없습니다. 양식에 대한 작업만 수행하거나 일시적인 페지입니다.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>이 페지의 주소가 없습니다.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>지금은 이 페지를 열수 없습니다.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56805,6 +57296,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>마지막 실행에서 메일 전송이 통보문 %count개를 거부했습니다. 메일 봉사기와 site.ini MailSettings를 확인하십시오.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>이벤트 %count개가 대기중이며 알림 크론작업의 실행기록이 없습니다. 크론작업 부분 《frequent》를 crontab에 추가하거나 exp:notification:run --apply 명령을 실행하십시오.</translation>
     </message>
 </context>
 <context>
@@ -63061,6 +63556,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Choose another site or section with the node picker</source>
         <translation>노드 선택기로 다른 싸이트 또는 섹션 선택</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>소유자는 체계관리자만 변경할수 있습니다. root로 ./console exp:content-check --fix-permissions --apply 명령을 실행하십시오.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64594,6 +65093,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>empty</source>
         <translation>비여있음</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>서명 열쇠가 1년 이상 되였습니다. exp:audit key rotate --apply 명령으로 열쇠를 교체하십시오.</translation>
     </message>
 </context>
 <context>
@@ -68424,6 +68927,486 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Share of page time</source>
         <translation>페지 시간 중 비률</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>전체 렌더링이 요청되였습니다</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>페지 캐시에 이 페지가 없었습니다 (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>페지 캐시가 응답하지 않았습니다</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>렌더링됨</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>커널에서 렌더링됨: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>페지 캐시에서 %ms ms 만에 제공되였습니다. 이 페지는 %render ms 걸린 렌더링으로 저장되였습니다(저장 시각: %stored, %age 초 전).</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>지금 렌더링</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>캐시된 보기로 돌아가기</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>%stored 시점 렌더링의 결과 (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>이 요청: 페지 캐시에서 %ms ms 만에 제공되였습니다.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>사용자</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>사용자 ID</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>캐쉬 프로필</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>이 보기</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>보기 캐시</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>리용자별 (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>리용자의 캐쉬 프로필: 프로필이 같은 리용자들은 보기 캐쉬 파일을 공유합니다</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>예</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>아니요</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>사용자이름</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>가입중</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>세션</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>이 페지의 ViewCacheTweaks 에 따라 열쇠가 취하는 그대로, 내용 보기 캐쉬 열쇠에서 리용자에 따라 달라지는 부분들입니다. 프로필이 같은 리용자들은 보기의 캐쉬 파일을 공유합니다. 다만 보기 자체의 부분(설정, 리스너의 열쇠)이 다른 경우에는 이 페지에 한하여 자체 프로필을 가집니다.</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>프로필</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>이 보기 (마디 %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: 가입한 리용자마다 자체 캐쉬 파일을 가집니다.</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>적용중인 ViewCacheTweaks: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>부분</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>값</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>리용자에 따라 달라지는 부분이 없습니다 (ViewCacheTweaks).</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>이 보기</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>본문으로 복사</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>역할</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>역할 할당을 읽을수 없었습니다.</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>역할 ID</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>역할</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>제한</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>할당 대상</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>리용자</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>그루빠 %name (객체 %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>복사됨</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>복사할수 없었습니다.</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>리스너가 제외함</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>익명 방문자</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>당신과 같음</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>다름</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>익명 방문자가 같은 ViewCacheTweaks 에서 기본 설정으로, 보기의 부분없이 받는 프로필: 세션을 읽는 리스너에게는 그것들을 요청할수 없습니다.</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>설정</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>리용자 설정에 의존하는 보기 방식이 없습니다 (site.ini [ContentSettings] CachedViewPreferences).</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>이 보기 방식들의 보기가 의존하는 설정 (CachedViewPreferences), 리용자의 값 또는 기본값. 프로필에는 userpreferences 로서 모든 보기 방식의 것이 함께 들어있습니다.</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>보기 모드</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>설정항목</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>기본값</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>정책</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>역할의 정책 보기 (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>정책은 이 부분을 열 때 봉사기에서 한 페지씩 읽어들이며 모듈과 기능별로 걸러볼수 있습니다.</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>기능</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>모든 모듈</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>모든 기능</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>제한</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>더 보기</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>이 역할들에는 정책이 없습니다.</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>려과조건에 맞는 정책이 없습니다.</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%shown / %matching 개 정책 (전체 %total)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>열 때 불러옵니다.</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>모듈/함수, 역할, 제한</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>정책 검색</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>더 불러오기</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>모듈/함수</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>모든 역할 (정책 %count개)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>일치하는 정책이 없습니다.</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>정책 %matched개 중 %shown개</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>응답 없음</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>마스킹됨</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>설명 표시</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>설명 숨기기</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>열기</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>모두 열기</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>모두 닫기</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>키 또는 값</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>세션 검색</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>류형</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>%count개 더</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>중첩이 너무 깊어 표시할 수 없음</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>잘림, 전체 %count자</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>시작 시간</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>쿠키 이름</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>세션 ID</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>핸들러</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>저장 경로</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>PHP 기본값</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>수명 (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>쿠키</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>수명 %s초</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>사용자 자신의 PHP 세션으로, 이 섹션을 열었을 때의 상태이며 다른 세션은 절대 아닙니다. 비밀처럼 보이는 키(토큰, 해시, 비밀번호)의 값은 마스킹됩니다(debugbar.ini SessionMask[]). 그 밖의 모든 것은 개인 데이터를 포함하여 저장된 그대로 표시됩니다.</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>키 %count개, %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>큼</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>세션이 비어 있습니다.</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>이 요청에 대해 시작된 세션이 없습니다.</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>%name 확장</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>커널 및 기타</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>모든 항목이 표시되지는 않습니다: 세션에 여기에 나열할 수 있는 것보다 많은 항목이 있습니다.</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>키 %count개가 나열되지 않았습니다.</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>프레임</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>토큰처럼 보이는 값(JSON Web Token, Authorization 헤더의 자격 증명, 개인 키, 긴 16진수 또는 임의 텍스트)도 키 이름과 관계없이 마스킹됩니다(debugbar.ini SessionValueMask[]).</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>키가 비밀처럼 보입니다(debugbar.ini SessionMask[]).</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>값이 토큰처럼 보입니다.</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>마스킹된 키 아래에 있습니다.</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>표와 같이 마스킹된 텍스트 형식의 세션입니다.</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>세션이 %size보다 큽니다(debugbar.ini SessionWarnBytes): 이 사용자의 모든 요청이 전체 세션을 읽고, 변경되면 기록합니다.</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP는 이 세션을 파일에 보관하고 요청 전체 동안 파일을 잠급니다: 같은 사용자의 요청(여러 탭, AJAX 호출)은 서로를 기다립니다.</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>열린 상태 유지</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>%size보다 큼(debugbar.ini SessionWarnBytes): 이 사용자의 모든 요청이 전체 세션을 읽습니다.</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%count개 중 %hits개를 캐시에서 읽음</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>렌더링된 템플릿이 없습니다(뷰 캐시에서 읽은 뷰는 아무것도 렌더링하지 않음).</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>역할 할당</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>역할 및 정책</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>익명방문자와 다름</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>익명방문자와 같음</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70304,6 +71287,14 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>not sent</source>
         <translation>전송되지 않음</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>알림 크론작업은 실행할 때마다 여기에 기록합니다. frequent 부분을 crontab에 추가하거나 exp:notification:run --apply 명령을 실행하십시오.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>조종탁 사용: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -76022,6 +77013,98 @@ You will need to change the class of the node by using the swap functionality.</
         <source>This topic is not Released; readers do not see it.</source>
         <translation>이 주제는 릴리스되지 않았으므로 독자에게 표시되지 않습니다.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>이행</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>파일로 보관된 설치 변경들: 그 상태, 실행력사, 실행 및 되돌림.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>싸이트의 정적사본을 GitHub Pages 또는 임의의 git 호스트에 게시합니다.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>정적 게시</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>검토 중</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>독자에게 이 페이지가 표시됩니다.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>누군가 릴리스할 때까지 독자에게 표시되지 않습니다.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>페이지가 이제 검토 상태입니다. 릴리스될 때까지 독자에게 표시되지 않습니다.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>페이지가 릴리스되였습니다. 이제 독자에게 표시됩니다.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>페이지가 다시 초안 상태입니다. 검토 및 릴리스될 때까지 독자에게 표시되지 않습니다.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>지금 릴리스</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>%role 역할이 있고 이 판을 작성하지 않은 사용자만 릴리스할 수 있습니다.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>릴리스 대기 중인 도움말 주제</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>다시 릴리스될 때까지 독자에게 숨깁니다.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>다음으로 검토자가 확인합니다. 아직 독자에게 표시되지 않습니다.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>즉시 독자에게 표시됩니다.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>추가 작업을 위해 검토에서 제외합니다. 독자에게 표시되지 않습니다.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>이 페이지를 독자에게 숨기시겠습니까?</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>이 페이지를 초안으로 되돌리시겠습니까?</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>누군가 다시 릴리스할 때까지 독자에게 %title이(가) 더 이상 표시되지 않습니다.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title이(가) 추가 작업을 위해 초안으로 돌아갑니다. 여전히 독자에게 표시되지 않으며, 릴리스되기 전에 새로 검토를 받아야 합니다.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>취소</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>이 주제들은 검토 상태입니다. 현재 판을 작성하지 않은 사람이 릴리스하면 독자에게 표시됩니다.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76477,6 +77560,46 @@ You will need to change the class of the node by using the swap functionality.</
         <source>None.</source>
         <translation>없음.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>인증 앱 사용</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>전자우편 코드 사용</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>복구 코드 사용</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>패스키 사용</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>외부 계정 사용</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>보안 활동</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>망 단위로 표시됩니다. 주소는 싸이트의 자료보호 설정에 따라 보관됩니다.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>기록되지 않음</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>위치</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>대략적</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76720,6 +77843,42 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Manage devices</source>
         <translation>장치 관리</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>인증 앱 사용</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>전자우편 코드 사용</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>복구 코드 사용</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>패스키 사용</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>외부 계정 사용</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>보안 활동</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>기록되지 않음</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>위치</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>대략적</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76799,6 +77958,14 @@ You will need to change the class of the node by using the swap functionality.</
         <source>View the sessions of this user</source>
         <translation>이 사용자의 세션 보기</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>%site의 %login 계정으로 최근에 로그인한 적이 없는 위치에서 방금 로그인했습니다:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>대략적인 위치</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76837,6 +78004,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%os의 %browser</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>로그인 보고서</translation>
     </message>
 </context>
 <context>
@@ -77045,6 +78216,82 @@ You will need to change the class of the node by using the swap functionality.</
         <source>The passkey could not be checked. Please try again.</source>
         <translation>패스키를 확인할수 없습니다. 다시 시도하십시오.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>패스키로만 로그인하는 계정은 여기에서 암호를 사용할수 없습니다. 《패스키로 로그인》을 선택하십시오.</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>%login의 패스키</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>이 계정이 로그인에 사용하는 패스키입니다. 분실하거나 도난당한 장치에 있는 패스키는 해지하십시오. 해지된 패스키로는 더 이상 로그인할수 없습니다. 새 패스키는 계정 소유자가 직접 추가합니다.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>계정에 패스키가 필요합니다</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>계정에 패스키 추가</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>계속하려면 패스키를 추가하십시오. 그러면 암호만이 아니라 패스키로 로그인하게 됩니다.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>패스키로 로그인하면 암호보다 빠르고 안전합니다. 지금 추가하거나 패스키 없이 계속하십시오.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>나중에</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>《%name》 패스키를 해지하시겠습니까?</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>이 패스키로 더 이상 이 계정에 로그인할수 없습니다. 마지막 패스키였다면 소유자는 암호로 로그인합니다. 또는 새 암호를 설정하십시오.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>패스키 해지</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>해지</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>이 계정에는 패스키가 없습니다.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>인증자</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>알수 없음</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>마지막 패스키입니다. 제거하기 전에 다른 패스키를 추가하십시오.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>이 계정은 패스키로만 로그인합니다(패스키 정책). 패스키가 하나도 남지 않으면 다시 암호로 로그인합니다.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>마지막 패스키이며, 계정은 패스키 없이 로그인할수 없습니다. 먼저 다른 패스키를 추가하십시오.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>《%name》 패스키가 해지되였습니다. 이 패스키로 더 이상 이 계정에 로그인할수 없습니다.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77144,6 +78391,34 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Code from your authenticator app</source>
         <translation>인증 앱의 코드</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>자료를 영구적으로 삭제하거나 기록을 지우려고 합니다.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>암호와 패스키</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>암호와 인증 앱의 코드</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>또는:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>이 열람기에서는 패스키를 사용할수 없습니다. 다른 방법이나 다른 열람기를 사용하십시오.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>계속하면 열람기가 패스키중 하나를 요청합니다.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>패스키로 계속</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77234,6 +78509,70 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Setup</source>
         <translation>설정</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>자신의 암호, 전자우편주소, 패스키, 2단계 로그인, 복구 코드 또는 API 키 변경 및 자신의 다른 장치 로그아웃.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>사용자와 사용자의 암호 및 장치, 계정 설정의 생성과 편집, 새 사용자계정의 승인 또는 거부, 역할 할당 및 정책 편집.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>자료 삭제</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>휴지통 비우기, 휴지통에서 항목 제거 및 여러 항목 한꺼번에 제거.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>콘텐츠 제거, 게시 및 저장</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>콘텐츠 제거(휴지통으로 이동 포함), 게시 및 초안 저장. 양식을 보낼 때 묻습니다. 기본값은 꺼짐입니다.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>중요한 작업 전에 로그인한 사용자는 본인임을 다시 확인합니다. 암호와 패스키로, 또는 패스키가 없으면 암호와 인증 앱의 코드로 확인합니다. 웨브페지에서만 묻습니다. REST 대면부, SOAP, WebDAV, expservices 로그인과 명령줄에서는 묻지 않습니다.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>설정 적용 범위</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>설정 대상</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>모든 싸이트접근</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>싸이트접근 %name</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>열기</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>확인 대상: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>구성원에게만 묻도록 사용자그루빠를 선택하십시오(례: 편집자). 선택하지 않으면 모든 사용자에게 묻습니다.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>모든 싸이트접근에 대해 settings/override/site.ini.append.php에 저장됩니다. 저장할 때 본인 확인을 요청합니다.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>settings/siteaccess/%name/site.ini.append.php에 저장됩니다. settings/override의 값이 이 값보다 우선합니다. 저장할 때 본인 확인을 요청합니다.</translation>
     </message>
 </context>
 <context>
@@ -77336,6 +78675,6822 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Open the page</source>
         <translation>페지 열기</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from–%to / 전체 %count</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>사용자이름 또는 사용자 ID: 이벤트의 대상이 된 계정 또는 작업을 수행한 사용자입니다.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>계정</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>작업</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>변경후</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>모든 결과</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>변경전</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>수행자</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>지우기</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>완료</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>이벤트는 %days 일동안 보관됩니다.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>이벤트는 수동으로 제거할 때까지 보관됩니다.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>이벤트</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>모든 작업</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>이 계정의 모든 이벤트</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>목록을 CSV로 내보내기 (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>실패</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>시작</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>목록범위 좁히기</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>일치하는 이벤트가 없습니다.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>페지당</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>audit.ini 화일에서 기록이 꺼져있습니다([UserAuditSettings] UserAudit). 목록에는 이전에 기록된 내용이 표시됩니다.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>거부됨</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>결과</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>표시</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>사용자 감사 로그의 표가 없습니다. php update/common/scripts/6.0/createuseraudittable.php 명령으로 만드십시오. 그때까지는 감사 화일에 모든 이벤트가 보관됩니다.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>이 페지에는 SQL 자료기지가 필요하며 MongoDB 환경에서는 리용할수 없습니다. 감사 화일에 모든 이벤트가 보관됩니다.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>종료</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>사용자 감사 로그</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>사용자</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>시간</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>위치</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>누가 어느 계정을 변경, 생성, 사용, 사용중지, 이동 또는 제거하였는지, 누가 로그인하였거나 거부되였는지, 어떤 역할이 할당되였는지 기록합니다. 이벤트당 한줄이며 변경전후 마당이 함께 표시됩니다. 암호와 비밀값은 기록되지 않습니다.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>그루빠</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>체계</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>알수 없음</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>계정 보호</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>%site의 %login 계정에 복구 코드를 사용하여 로그인했습니다.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>복구 코드가 사용되였습니다</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>계정</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>대략적인 주소</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>다시 로그인하려면 새 암호를 요청하거나 싸이트 관리자에게 문의하십시오.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>새 암호 요청</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>각 복구 코드는 한번만 사용할수 있습니다. 휴대전화를 분실한 경우 인증 앱을 다시 설정하고 새 복구 코드를 안전한 곳에 보관하십시오.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>계정에 대한 로그인 시도 실패</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>이제부터 로그인할 때 암호외에 코드를 입력해야 합니다. 직접 변경한 경우에는 아무것도 하지 않아도 됩니다.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>본인이 시도했고 암호를 잊어버린 경우 새 암호를 요청하십시오. 본인이 아니라면 더 강력한 암호를 선택하고 2단계 로그인을 켜십시오.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>본인이 한것이 아니라면 다른 사람이 암호를 알고있을수 있습니다. 지금 암호를 변경하고 계정이 어디에 로그인되여있는지 확인하십시오.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>남은 복구 코드</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>내 장치 검토</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>보안 경고</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>누군가 %site의 %login 계정에 잘못된 암호로 %count회 련속 로그인을 시도했습니다.</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>%site의 %login 계정에서 보안 이벤트가 발생했습니다.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>계정에 대한 보안 경고입니다. 이러한 변경이 있을 때마다 전송되며 끌수 없습니다.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>시간</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>%site의 %login 계정에 대한 2단계 로그인이 꺼졌습니다.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>2단계 로그인이 꺼졌습니다</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>%site의 %login 계정에 대한 2단계 로그인이 켜졌습니다.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>2단계 로그인이 켜졌습니다</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>%site의 %login 계정이 로그인 실패 회수가 너무 많아 잠겼습니다.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>이제 계정은 암호로만 보호됩니다. 직접 변경하지 않았다면 암호를 변경한 후 2단계 로그인을 다시 켜십시오.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>계정이 잠겼습니다</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>%site의 %login 계정에 패스키가 추가되였습니다.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>이 패스키를 가진 사람은 암호 없이 계정에 로그인할수 있습니다. 직접 추가하지 않았다면 패스키에서 제거하고 암호를 변경하십시오.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>%site의 %login 계정에서 패스키가 제거되였습니다.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>이 패스키로 더 이상 계정에 로그인할수 없습니다. 직접 제거하지 않았다면 패스키와 장치를 확인하십시오.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>계정에 패스키가 추가되였습니다</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>계정에서 패스키가 제거되였습니다</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>보안 활동</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>%name 사용자의 보안 활동</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>로그인함</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>로그인 시도 실패</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>로그아웃함</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>세션 로그아웃됨</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>새 장치에서 로그인</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>새 위치에서 로그인</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>본인 확인됨(《본인 확인》)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>본인 확인 실패</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>패스키로 로그인함</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>패스키 로그인 실패</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>로그인 거부: 2단계 로그인 코드가 없거나 잘못됨</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>잘못된 2단계 로그인 코드</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>로그인 실패로 계정 잠김</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>계정 잠금 해제됨</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>암호 변경됨</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>암호 변경 실패</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>암호 재설정됨</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>새 암호 요청됨</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>전자우편주소 변경됨</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>사용자이름 변경됨</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>2단계 로그인 켜짐</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>2단계 로그인 꺼짐</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>복구 코드 사용됨</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>새 복구 코드</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>응용프로그람 암호 생성됨</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>응용프로그람 암호 해지됨</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>패스키 추가됨</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>패스키 제거됨</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>계정 사용</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>계정 사용 안 함</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>모두</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>로그인 및 세션</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>계정 변경</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>주의 필요</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>본인</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>해당 사용자</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>실행한 사용자: %login</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>방법</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>열람기</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>조작체계</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>장치</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>장소</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>국가</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>세션</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>대상</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>전송 방법</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>실패한 시도</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>남은 코드</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>로그인 처리기</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>보안 활동</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>%name 사용자의 보안 활동</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>계정의 로그인 및 보안 변경내용입니다. 직접 하지 않은 항목이 있으면 암호를 변경하고 알수 없는 장치를 로그아웃하십시오.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>이 계정의 로그인 및 보안 변경내용입니다.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>내 장치</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>암호 변경</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>계정으로 돌아가기</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>보안 활동이 기록되지 않습니다</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>보안 활동은 사용자 감사 로그에서 읽어오는데, 해당 표 expuser_audit이 없거나 이 자료기지에서 지원되지 않습니다. php update/common/scripts/6.0/createuseraudittable.php 명령 또는 6.0.15의 자료기지 갱신을 실행하십시오.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>최근 %days일</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>최근 %days일 동안의 로그인</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>최근 보안 활동</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>표시</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>실패</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>거부됨</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>아직 기록된 보안 활동이 없습니다.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>보안 이벤트는 %days일 동안 보관됩니다.</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>보안 이벤트는 관리자가 제거할 때까지 보관됩니다.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>내 로그인 자료 내리적재</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>세션 및 보안 이벤트를 JSON 화일로 받습니다.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>이 싸이트에서는 세션이 기록되지 않으므로 다른 장치를 로그아웃할수 없었습니다. 지금 암호를 변경하십시오.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>다른 세션 %count개가 로그아웃되였습니다. 이제 암호를 변경하십시오.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>로그인된 다른 장치가 없었습니다. 이제 암호를 변경하십시오.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>고맙습니다. 이 사건은 본인의 활동으로 표시되였습니다.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>이 사건에는 대답이 필요없습니다.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>페지가 만료되였습니다. 변경된 내용이 없습니다. 다시 시도하십시오.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>계정 보호</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>본인이 하지 않은 활동이 있다면 다른 모든 장치를 로그아웃한 다음 새 암호를 선택하십시오. 《로그인 상태 유지》로 로그인된 장치도 로그아웃됩니다.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>이 장치를 제외한 모든 장치는 다음 요청때 로그아웃됩니다. 그 다음 새 암호를 선택합니다.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>예, 다른 장치 로그아웃</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>본인이였습니까?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>예, 본인이였습니다</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>아니요, 계정을 보호합니다</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>로그인함</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>로그인 시도 실패</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>로그아웃함</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>세션 로그아웃됨</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>새 장치에서 로그인</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>새 위치에서 로그인</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>본인 확인됨(《본인 확인》)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>본인 확인 실패</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>패스키로 로그인함</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>패스키 로그인 실패</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>로그인 거부: 2단계 로그인 코드가 없거나 잘못됨</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>잘못된 2단계 로그인 코드</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>로그인 실패로 계정 잠김</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>계정 잠금 해제됨</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>암호 변경됨</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>암호 변경 실패</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>암호 재설정됨</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>새 암호 요청됨</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>전자우편주소 변경됨</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>사용자이름 변경됨</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>2단계 로그인 켜짐</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>2단계 로그인 꺼짐</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>복구 코드 사용됨</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>새 복구 코드</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>응용프로그람 암호 생성됨</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>응용프로그람 암호 해지됨</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>패스키 추가됨</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>패스키 제거됨</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>계정 사용</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>계정 사용 안 함</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>모두</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>로그인 및 세션</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>계정 변경</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>주의 필요</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>보안 활동</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>%name 사용자의 보안 활동</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>계정의 로그인 및 보안 변경내용입니다. 직접 하지 않은 항목이 있으면 암호를 변경하고 알수 없는 장치를 로그아웃하십시오.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>내 장치</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>암호 변경</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>이 싸이트에서는 아직 보안 활동이 기록되지 않습니다.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>최근 %days일 동안의 로그인</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>실패한 시도</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>아직 기록된 보안 활동이 없습니다.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>내 로그인 자료 내리적재</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>세션 및 보안 이벤트를 JSON 화일로 받습니다.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>이 싸이트에서는 세션이 기록되지 않으므로 다른 장치를 로그아웃할수 없었습니다. 지금 암호를 변경하십시오.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>다른 세션 %count개가 로그아웃되였습니다. 이제 암호를 변경하십시오.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>로그인된 다른 장치가 없었습니다. 이제 암호를 변경하십시오.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>고맙습니다. 이 사건은 본인의 활동으로 표시되였습니다.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>이 사건에는 대답이 필요없습니다.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>페지가 만료되였습니다. 변경된 내용이 없습니다. 다시 시도하십시오.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>계정 보호</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>본인이 하지 않은 활동이 있다면 다른 모든 장치를 로그아웃한 다음 새 암호를 선택하십시오. 《로그인 상태 유지》로 로그인된 장치도 로그아웃됩니다.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>이 장치를 제외한 모든 장치는 다음 요청때 로그아웃됩니다. 그 다음 새 암호를 선택합니다.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>예, 다른 장치 로그아웃</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>본인이였습니까?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>예, 본인이였습니다</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>아니요, 계정을 보호합니다</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>암호</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>암호 및 2단계 로그인 코드</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>REST 대면부</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>SOAP 대면부</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>단일 로그인(SSO)</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>세션 기록전에 로그인함</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>로그인 보고서</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>싸이트에 로그인한 사용자, 계정의 로그인 및 실패 빈도, 사용자를 모든 위치에서 로그아웃. 모든 세션 처리기에서 동작합니다.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>세션이 로그아웃되였습니다. 해당 장치에서 다시 로그인해야 합니다.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>%login 사용자가 세션 %count개에서 로그아웃되였습니다.</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>%login 사용자에게 실행중인 세션이 없었습니다.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>해당 ID, 사용자이름 또는 전자우편주소를 가진 계정이 없습니다.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>현재 사용중인 세션입니다. 종료하려면 로그아웃하십시오.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>해당 세션은 이미 종료되였습니다.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>페지가 만료되였습니다. 변경된 내용은 없습니다. 다시 시도하십시오.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>이 싸이트에서는 세션이 기록되지 않습니다(site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>expuser_session 표가 없습니다</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>표를 만들면 세션이 기록됩니다: php update/common/scripts/6.0/createusersessiontable.php 또는 6.0.15의 자료기지 갱신.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>현재 및 오늘</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>실행중인 세션</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>로그인한 사용자</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>오늘 로그인</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>오늘 실패한 시도</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>사용자를 모든 위치에서 로그아웃</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>계정의 모든 세션은 다음 요청시 종료되며, 《로그인 상태 유지》로 유지되는 세션도 마찬가지입니다. 계정이 다른 사람의 손에 들어갔을수 있을 때 사용하고, 그런 다음 암호를 재설정하십시오.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>사용자 ID, 사용자이름 또는 전자우편주소</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>모든 위치에서 로그아웃</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>현재 로그인됨</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>최근에 사용된 %limit개가 표시됩니다.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>사용자</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>장치</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>주소</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>로그인함</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>마지막 활동</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>작업</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>이 장치</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>기록되지 않음</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>로그아웃</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>로그인된 세션이 없습니다.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>최근 %days일</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>로그인 및 실패한 시도는 사용자 감사 로그에서 집계되는데 해당 로그가 없습니다. 새 세션은 집계됩니다.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>날자</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>로그인</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>실패한 시도</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>새 세션</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>세션 처리기: %handler. 세션은 expuser_session 표에서 읽으므로 이 보고서는 모든 처리기에서 동작합니다.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>최근 %hours시간동안의 의심스러운 활동</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>한 망이 계정 %accounts개에 로그인하지 못했습니다(시도 %count회)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>로그인 실패후 계정 잠김</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>한 계정에서 로그인 실패 %count회</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>%count개 나라에서 동시에 로그인함</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>보안 활동</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>세션</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>로그인 실패는 사용자 감사 로그에서 읽어오며 이 로그는 여기에서 리용할수 없습니다.</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>의심스러운 활동 없음: 로그인 실패가 반복된 계정도, 여러 계정을 시도한 망도, 여러 나라에서 로그인한 계정도 없습니다.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>계정 보안 경고</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>%login 계정에서 보안 이벤트가 발생했습니다: %event. 본인이 아니라면 %url에서 계정을 보호하십시오.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>설정</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>이 싸이트의 콘텐츠에서 페지에 필요한 마당들만 정확히 한번의 요청으로 얻습니다. 스키마는 콘텐츠클라스를 따르며 모든 질문은 그것을 보낸 리용자의 권한으로 실행됩니다.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>이 싸이트접근에서는 GraphQL API가 꺼져있습니다. graphql.ini에서 켜십시오: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>GraphQL 서고(webonyx/graphql-php 15)가 설치되여있지 않습니다.</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>끝점</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>서고</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>스키마</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>콘텐츠클라스 %count개, 스키마 %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>질문</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>변수 (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>실행</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>응답</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>실행중…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>응답을 읽을수 없습니다.</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>질문은 이 세션으로 가입한 리용자의 권한으로 실행됩니다.</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%seconds초동안 %count</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>제한없음</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>깊이</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>복잡도</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>목록당 항목수</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (기정값 %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>리용자 또는 열쇠당 요청수</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>익명주소당 요청수</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>내부검사 (introspection)</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>보관된 질문만</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>가장 큰 질문</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>%bytes바이트</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>가장 큰 올리적재</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>싸이트접근 %siteaccess가 없습니다.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>%siteaccess에서 변경조작이 켜졌습니다.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>%siteaccess에서 변경조작이 꺼졌습니다.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>%siteaccess에서 GraphQL API가 켜졌습니다.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>%siteaccess에서 GraphQL API가 꺼졌습니다.</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>설정을 쓸수 없었습니다: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>응답캐쉬를 지웠습니다: 응답 %count개를 삭제했습니다.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>질문을 삭제하려면 옆의 칸에 표시하십시오.</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>질문을 삭제할수 없었습니다: PersistedQueryDirectoryList[]의 등록부에 들어있는 질문은 그 화일과 함께 삭제됩니다.</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>보관된 질문을 삭제했습니다.</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>변경조작</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>켜짐</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>꺼짐</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>싸이트접근</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>API와 그 변경조작이 응답하는 곳입니다. 단추들은 ./console exp:graphql:enable 및 exp:graphql:disable과 같이 graphql.ini를 씁니다.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>싸이트접근</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>GraphQL API</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>변경</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>끄기</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>변경조작 꺼짐</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>변경조작 켜짐</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>켜기</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>제한</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>이 싸이트접근의 graphql.ini [GraphQLSettings].</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>응답캐쉬</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>보관된 질문의 응답으로서 리용자권한별로 보관되며 내용이 발행될 때마다 무효로 됩니다.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>상태</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>보관된 응답</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>응답 %count개, %bytes바이트</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>최대보관기간</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds초</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>마지막 무효화</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>응답캐쉬 지우기</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>보관된 질문</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>./console exp:graphql:persist로 또는 의뢰기에 의하여 보관됩니다 (automatic persisted queries); 이름이나 SHA-256으로 호출합니다.</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>이름</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>크기</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>위치</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>삭제</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>동봉</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>보관</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>예, 이 질문을 삭제합니다</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>보관된 질문이 아직 없습니다.</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>API 열쇠</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>범위 graphql:read (질문) 또는 graphql:write (변경조작)를 가진 개인 API 열쇠. API 접근 페지에서 또는 ./console exp:graphql:keys로 만들고 취소하십시오.</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>API 접근</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>모든 열쇠</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>열쇠</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>이름</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>소유자</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>범위</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>마지막 사용</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>유효</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>기한지남</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>취소됨</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>없음</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>GraphQL 범위를 가진 API 열쇠가 아직 없습니다.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>이 페지를 보여주는 싸이트접근 %siteaccess에서는 GraphQL API가 꺼져있습니다. 아래 표는 그것이 어디에서 응답하는지 보여줍니다.</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>이 페지를 보여주는 싸이트접근 %siteaccess에 대한 것입니다.</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>웨브후크</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>끝점이 요구하는 매 사건 (publish, update, trash, delete, move, hide, reveal, mutation)은 cronjob 부분 graphqlwebhooks가 서명하여 그곳으로 보냅니다. ./console exp:graphql:webhooks는 이 부분과 같은 일을 합니다.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>사건</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>전부</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>모든 싸이트접근</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>고장</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>비밀 값 없음</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>대기중</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count 포기</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>마지막 전송</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>시험 보내기</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>예, 이 웨브후크를 삭제합니다</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>웨브후크가 아직 없습니다.</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>웨브후크 추가</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>추가</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>최근 전송</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>시간</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>결과</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>구독</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>의뢰기들을 위한 실시간 갱신: /api/graphql/subscribe의 사건흐름과 Velocity의 WebSocket (graphql-transport-ws). 매 사건은 그 내용을 읽을수 있는 구독자에게만 갑니다.</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>현재 열림</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>최대 열림</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>전체 %total, 사용자당 %user, 주소당 %address</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>익명 구독</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>흐름 길이</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>웨브후크를 추가할수 없었습니다: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>웨브후크 %name이 변경되였습니다. 서명 비밀 값은 그대로 남습니다.</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>서명 비밀 값을 보관할수 없었습니다 (설정 &gt; 비밀 값).</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>웨브후크 %name이 추가되였습니다. 서명 비밀 값 (이번 한번만 표시): %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>웨브후크 %name이 없습니다.</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>웨브후크 %name이 응답하지 않았습니다: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>웨브후크 %name이 %ms ms만에 %status로 응답하였습니다.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>웨브후크를 삭제하려면 옆의 칸에 표시하십시오.</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>웨브후크 %name이 삭제되였습니다.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>이 싸이트접근에서는 GraphQL API가 꺼져있습니다.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>GraphQL 서고가 설치되여있지 않습니다.</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>GET 또는 POST를 리용하십시오.</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>요청본문이 JSON 객체가 아닙니다.</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables가 JSON 객체가 아닙니다.</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions가 JSON 객체가 아닙니다.</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>질문을 POST로 보내십시오.</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>요청에 질문이 없습니다.</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>질문이 %max바이트보다 깁니다.</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>봉사기 내부오유</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node에는 id, remoteId, path, urlAlias중 정확히 하나가 필요합니다.</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content에는 id, remoteId중 정확히 하나가 필요합니다.</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>after의 유표는 이 API가 준것이 아닙니다.</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>화상별명 %alias가 없습니다 (image.ini [AliasSettings] AliasList[]).</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>여기서는 보관된 질문만 받습니다: 보관된 질문의 id를 보내십시오.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>보관된 질문의 하쉬가 SHA-256이 아닙니다.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>보관된 질문의 하쉬가 질문과 맞지 않습니다.</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>요청이 너무 많습니다: %window초동안 최대 %limit개. %reset초후에 다시 시도하십시오.</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>질문의 깊이는 %depth준위입니다; 최대 %max까지 허용됩니다.</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>질문의 복잡도는 %complexity입니다; 최대 %max까지 허용됩니다.</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>이 요청은 스키마를 읽을수 없습니다 (introspection).</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search에는 본문이나 려과기가 필요합니다 (classes, subtree, sections, publishedAfter, publishedBefore).</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument는 날자가 아닙니다 (ISO 8601, 2026-10-30).</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag에는 id, remoteId, path중 정확히 하나가 필요합니다.</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout에는 id, identifier, urlAlias중 정확히 하나가 필요합니다.</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>multipart 요청의 operations마당이 하나의 JSON 요청이 아닙니다.</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>multipart 요청의 map마당이 JSON 객체가 아닙니다.</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>multipart 요청에 화일 %field가 없습니다.</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>마당대응표의 경로는 variables.로 시작해야 합니다: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>화일 %name이 완전히 도착하지 않았습니다 (올리적재오류 %error).</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>화일 %name이 %max바이트보다 큽니다.</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>화일 %name을 검사할수 없었습니다.</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>이 싸이트접근에서는 변경조작이 꺼져있습니다 (graphql.ini [GraphQLSettings] MutationsEnabled).</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>변경조작은 POST로 보내십시오.</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>내용을 변경하려면 가입하십시오.</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>API 열쇠에 범위 %scope가 없습니다.</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>세션을 쓰는 변경조작에는 그 세션의 양식토큰이 필요합니다 (머리부 X-CSRF-Token).</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>uploadFromUrl이 꺼져있습니다: graphql.ini [GraphQLSettings] UploadFromUrlHostList[]에 호스트가 없습니다.</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>주소는 https주소여야 합니다.</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>호스트 %host가 graphql.ini [GraphQLSettings] UploadFromUrlHostList[]에 없습니다.</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>화일을 가져올수 없었습니다.</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload는 입력형으로만 쓰입니다.</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>Upload형의 변수는 multipart 요청의 화일을 받습니다.</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>원격 id %remoteId는 이미 쓰이고있습니다.</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>내용에 이미 %language 번역이 있습니다: updateContent를 쓰십시오.</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>적어도 하나의 마당을 주십시오.</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>새 판을 만들수 없었습니다 (내용에 초안이 너무 많습니다).</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>판 %version은 초안이 아닙니다.</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent에는 id, nodeId중 정확히 하나가 필요합니다.</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>위치는 자기자신의 아래로 옮길수 없습니다.</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>내용에 이미 %parentId 아래의 위치가 있습니다.</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>마당 %field의 값을 보관할수 없었습니다.</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>내용언어 %language가 없습니다.</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>스키마에 내용클라스 %class가 없습니다.</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>내용이 없거나 읽을 권한이 없습니다.</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>이 내용에 대하여 이 조작을 할 권한이 없습니다.</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>클라스 %class에는 쓸수 있는 마당 %field가 없습니다.</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>마당 %field가 두번 주어졌습니다.</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>마당 %field는 화일을 받습니다: 올리적재로 보내십시오 (multipart 요청).</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>마당 %field는 화일을 받지 않습니다.</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>마당 %field에는 값이 필요합니다.</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>형식 %format은 서식본문마당에만 쓰입니다; %field는 값을 그대로 받습니다 (RAW).</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>마당 %field는 필수입니다.</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>HTML을 읽을수 없었습니다.</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content는 id와 함께만 version을 받습니다.</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>미리보기토큰이 유효하지 않거나 기한이 지났습니다.</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>오리진이 아닙니다 (https://host 또는 https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>GraphQL API의 범위가 아닙니다: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>구독은 /api/graphql/subscribe로 보내십시오 (사건흐름 또는 WebSocket).</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>요청이 문서의 어떤 조작도 지정하지 않았습니다.</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>구독은 정확히 하나의 항목을 요구합니다.</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>열린 구독이 너무 많습니다. 후에 다시 시도하십시오.</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>%max개의 구독이 열려있으며 이것이 허용되는 최대입니다.</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>귀하의 주소에 %max개의 구독이 열려있으며 이것이 허용되는 최대입니다.</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>이 싸이트접근에서는 구독이 꺼져있습니다.</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>구독하려면 로그인하십시오 (토큰 또는 개인 API 열쇠).</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>변경조작은 /api/graphql로 보내십시오.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>이행</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>상태를 읽을수 없습니다: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>이행표들이 아직 없습니다: ./console exp:upgrade --apply 로 만듭니다.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>이행 %count개 실패</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>실행이 진행중입니다. 시작한 사용자: %user</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>설치가 잠겨있습니다: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>보류 중</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>실패</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>련결 없는 항목</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>마지막 실행</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>아직 없음</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>모든 이행</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>가상실행</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>모의 실행</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>보류중인 이행들은 후에 되돌려진 거래처리안에서 실행되였으므로 아무것도 남지 않았습니다. 아래는 매 이행이 자료기지에서 변경한 내용입니다.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>지금 실행하면 하게 될 작업입니다. 아무것도 변경되지 않습니다. 보류중인 매 이행은 하게 될 변경들을, 실행은 전후에 하게 될 작업을 보여줍니다.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>가상실행</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>실행</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>모의 실행이 실패하였습니다: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>가상실행에는 도식변경을 되돌릴수 있는 PostgreSQL 또는 SQLite가 필요합니다. 이 자료기지에서는 아래의 계획이 실행시 하게 될 작업입니다.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>이행목록</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>이행</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>상태</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>하게 될 작업</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>가상실행: %result (%ms밀리초)</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>아직 이행이 없습니다.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>실행 전후</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>실행전 상태사본</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>만들어지며 이행이 실패하면 복원됨</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>꺼짐</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>실행후 상태사본</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>실행이 성공하면 만들어짐</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>이행 %total개: 보류 %pending, 완료 %done, 실패 %failed.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>이행력사</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>사용자, 환경, 상태사본과 커미트·꼬리표·푸시된 내용을 포함한 모든 실행입니다. 실패하거나 중단된 실행은 재개할수 있고 실행전 상태사본이 있는 실행은 되돌릴수 있습니다.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>실행들을 읽을수 없습니다: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>이행표들이 아직 없습니다: ./console exp:upgrade --apply 로 만듭니다.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>보기</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>전부</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>실행</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>시작</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>실행자</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>상태사본</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>저장소</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>동작</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>전</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>후</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>푸시: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>재개</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>되돌리기</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>이 상태의 실행이 없습니다.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>여기서 시작됨</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>이 페지들에서 시작한 실행, 재개, 되돌림과 매개의 보고서입니다.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>내용</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>결과</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>되돌림</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>%target 되돌림</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>실행 %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>실행이 한 작업, 그 기록과 로그입니다. 여기서 시작한 실행은 이 페지를 닫아도 배경에서 계속됩니다. 따라보려면 페지를 다시 여십시오.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>이 실행 재개</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>이 실행 되돌리기</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>기록을 읽을수 없습니다: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>진행정형</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>%time에 %user가 시작하였습니다.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>코드를 검사하고 실행전 상태사본을 만드는중</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>%id 실행중 (%total개중 %index번째)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>%total개중 %done개 완료</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>이행들이 실행되였습니다. 실패한것이 있으면 상태사본을 복원하는중</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>실행후 상태사본 작성, 커미트, 꼬리표, 푸시중</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>상태사본 복원중</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>실행이 끝났습니다. 보고서를 불러오는중입니다.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>진행정형을 따라갈수 없습니다. 실행정형을 보려면 페지를 다시 읽어들이십시오.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>이 페지는 실행의 진행을 따라갑니다.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>다시 읽기</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>보고서</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>걸린 시간</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms밀리초</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>실행이 오유로 출력한 내용</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>기록</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>환경</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>없음</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>종료</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>커미트</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>꼬리표</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>푸시</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>통보문</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>이 실행의 이행들</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>원천</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>실행로그</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>로그의 끝부분만 보여줍니다.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>실행중</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>보고서없이 종료됨</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>성공</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>실패</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>거부됨</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>자료기지에 련결할수 없었음</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>내부오유</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>실행이 진행중입니다</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%time에 %user가 %kind을 시작하였습니다.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>따라가기</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>설치가 잠겨있습니다</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>다른 실행(갱신 또는 조종탁에서의 실행)이 잠금을 쥐고있습니다: %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>완료</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>보류 중</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>필요없음</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>알수 없음</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>되돌려짐</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>적용됨</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>적용될 예정</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>취소됨</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>취소될 예정</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>실행되지 않음</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>다른 이행을 기다리는중</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>변경 승인됨</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>변경이 승인될 예정</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>가상실행됨</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>이행</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>상태</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>력사</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>%target 되돌리기</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>실행은 그전에 만든 상태사본으로, 개별 이행은 down()으로 되돌립니다. 이전 상태사본의 복원은 전문가용입니다. 매 작업은 현재 상태의 상태사본을 만든 다음 당신의 권한으로 배경에서 실행됩니다.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>되돌릴수 있는 항목을 읽을수 없습니다: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>실행</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>개별 이행</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>이전 상태사본</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>설명</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>예</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>아니</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>상태사본</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>표식</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>작성시각</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>종류</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>복원할 부분</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>자료기지</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>보관파일 (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>설정 (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>자료기지를 복원하면 대화기간을 포함하여 상태사본 시점으로 되돌아갑니다. 그후 다시 가입하여야 할수 있습니다. 그 이후에 변경된 모든것이 없어지며 먼저 현재 상태의 상태사본이 만들어집니다.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>무엇이 복원되는지 알고있습니다</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>상태사본 ID를 다시 입력하십시오</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>예, 되돌립니다</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>취소</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>실행전 상태사본이 있는 실행들입니다.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>선택</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>아직 상태사본이 있는 실행이 없습니다.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>자체로 되돌릴수 있는 적용된 이행들입니다(down()이 있음).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>down()이 있는 적용된 이행이 없습니다.</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>이전 상태사본 (전문가용)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>아직 상태사본이 없습니다.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>이행 실행</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>실행은 %user의 권한으로 배경에서 진행되며 그 페지가 진행정형을 보여줍니다. 첫 이행전에 설치의 상태사본이 만들어지고 이행이 실패하면 실행이 멈추고 상태사본이 복원됩니다.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>먼저 모의 실행</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>상태를 읽을수 없습니다: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>보류중인 이행</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>이 순서로 실행됩니다. 표시를 지우면 그 이행과 그에 의존하는 이행들이 다음 실행으로 미루어집니다.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>실행</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>실행하는 동안 보수방식을 켭니다.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>적용후 변경됨</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>이 파일들은 적용된 파일들이 아닙니다. 변경이 리유와 함께 승인되지 않으면 실행은 이것들을 거부합니다. 다시 실행되지는 않으며 새 검사합이 기록되고 리유는 감사로그에 보관됩니다.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>변경 승인</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>리유</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>기정값이 안전한 설정입니다. 매 칸은 한 단계를 생략합니다.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>상태사본 없음</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>실행 전후에 상태사본을 만들지 않습니다. 실패를 자동으로 복원할수 없습니다.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>복원 안함</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>실패후 설치를 실패한 상태 그대로 둡니다.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>커미트되지 않은 변경 유지</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>설정, 확장, 도안에 커미트되지 않은 변경이 있어도 실행합니다. 그 변경들은 상태사본에 들어갑니다.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>커미트 안함</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>상태파일과 실행로그를 커미트하지 않습니다(꼬리표와 푸시도 하지 않음).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>푸시 안함</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>커미트하고 꼬리표를 달지만 푸시하지 않습니다.</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>꼬리표 안함</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>커미트하고 푸시하지만 실행에 꼬리표를 달지 않습니다.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>예, 이 이행들을 지금 실행합니다</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>보류중인 이행이 없습니다.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>상태로 돌아가기</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>이 설치에 대한 변경들(내용, 클라스, 역할, 설정, 도식)을 한번 파일로 작성하여 싸이트의 모든 설치에 같은 순서로 적용합니다. 실행은 먼저 상태사본을 만들고 이행이 실패하면 그것을 복원하며 한 작업을 기록, 커미트, 푸시합니다.</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>보류중인 %count개 실행</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>개관</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>보류 중</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>완료</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>실패</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>필요없음</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>자료기지</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>거래처리: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>싸이트의 이행은 migrations/에, 확장의 이행은 extension/&lt;name&gt;/migrations/에 있습니다. 이름순서와 의존관계에 따라 실행됩니다.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>마지막 실행</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>적용후 파일이 변경되였습니다.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>아직 이행이 없습니다. ./console exp:migration:generate --skeleton &lt;name&gt; --apply 로 첫 이행을 작성합니다.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>최근 실행</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>모든 실행</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>아직 실행이 없습니다.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>가상실행을 하려면 migration/run 정책이 필요합니다.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>실행이 진행중입니다. 끝난 다음 가상실행하십시오.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>설정</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target은 이 설치의 실행도, 이행도, 상태사본도 아닙니다.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>먼저 &quot;예, 되돌립니다&quot;에 표시하십시오.</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>이전 상태사본의 복원은 전문가용입니다. &quot;무엇이 복원되는지 알고있습니다&quot;에 표시하십시오.</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>상태사본 ID를 다시 입력하십시오: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>복원할 부분을 적어도 하나 선택하십시오.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>이 실행에는 실행전 상태사본이 없습니다. 그 이행들을 하나씩 되돌리거나 이전 상태사본을 복원하십시오.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>이 이행은 자체로 되돌릴수 없습니다. 적용되지 않았거나 down()이 없습니다.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>양식을 읽을수 없습니다.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>재개할 실행을 선택하십시오.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>먼저 &quot;예, 이 이행들을 지금 실행합니다&quot;에 표시하십시오.</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>이행을 적어도 하나 선택하십시오.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>적용후 변경된 이행이 있습니다. 리유와 함께 변경을 승인하거나 파일을 원래대로 되돌리십시오.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>변경된 이행들을 승인하는 리유를 입력하십시오.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>리유는 최대 500자입니다.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>여기서 시작한 실행이 아직 진행중입니다(%detail). 끝날 때까지 기다리십시오.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>다른 실행이 설치의 잠금을 쥐고있습니다: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>실행에는 존재하는 가입된 사용자가 필요합니다.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>php 명령행 실행파일을 찾을수 없습니다. migration.ini [AdminSettings] PhpCliPath에 완전한 경로를 설정하십시오.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open이 금지되여있으므로 여기서 실행을 시작할수 없습니다. 봉사기에서 ./console exp:migration:migrate --apply 를 실행하십시오.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>실행들의 등록부에 쓸수 없습니다: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>실행은 시작되였지만 프로쎄스 ID를 알리지 않았습니다. %detail을 검사하십시오.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>되돌릴 대상을 지정하십시오.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>실행을 시작할수 없습니다.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>변경사항 기록</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>기록이 진행되는 동안 관리화면이나 싸이트 측면띠에서 변경한 내용은 이전의 단계로 보관됩니다: 내용, 클라스, 역할과 정책, 부분, 사용자와 그루빠, URL 별칭, 설정. 작업이 끝나면 기록을 중지하고 기록된 내용을 확인한 다음 이전을 생성하십시오.</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>기록을 읽을수 없습니다: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>기록표가 아직 없습니다: 먼저 갱신을 실행하십시오 (exp:upgrade --apply).</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>migration.ini에서 기록이 꺼져있습니다 ([RecordingSettings] Recording=disabled).</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>나의 변경사항</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>중지할 때까지 당신이 변경한 내용만, 어디서 변경하든 기록합니다.</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>기록</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>%time 부터, 지금까지 변경 %count 건.</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>표식 (선택)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>기록된 내용 보기</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>기록 중지</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>나의 변경사항 기록 시작</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>싸이트 전체 창</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>닫을 때까지 모든 사용자와 조종탁의 모든 변경을 기록합니다. 열 때 본인확인을 요구합니다.</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>열림</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>창 닫기</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>싸이트 전체 창 열기</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>기록목록</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>사용자 계정 (가입명, 전자우편, 암호)과 사용자 계정의 마당은 절대로 기록되지 않습니다.</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>변경수</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>싸이트 전체</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>%name 의 변경사항</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>중지됨</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>아직 기록이 없습니다.</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>기록 %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>모든 기록</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>생성될 이전</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>변경된 항목마다 한 단계로 합친 변경사항: 이 기록에서 생성한 이전이 할 일.</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>이 설치에 YAML 단계 류형 %types 이 있으면 여기서 이전을 생성할수 있습니다.</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>의도적으로 제외됨: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>기록된것이 없습니다.</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>기록된 내용</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>변경 %count 건, 진행된 순서대로.</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>변경</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>단계</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>대상</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>%count 건 더: ./console exp:migration:record:show 로 모두 볼수 있습니다.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>페기</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>기록과 기록된 내용을 삭제합니다. 변경된것은 변경된 상태로 남습니다.</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>예, 이 기록을 페기합니다</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>기록중…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>당신의 변경사항이 이전을 위해 기록되고있습니다.</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>이 싸이트의 모든 변경이 이전을 위해 기록되고있습니다 (싸이트 전체 창).</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>싸이트 전체 기록이 시작되였습니다: 중지할 때까지 모든 사용자의 모든 변경이 기록됩니다.</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>기록이 시작되였습니다: 중지할 때까지 당신의 변경사항이 기록됩니다.</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>기록이 중지되였습니다. 기록된 내용은 페기할 때까지 남아있습니다.</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>기록과 그 사건들이 삭제되였습니다.</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>기록 %id 이 없습니다.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>먼저 《예, 이 기록을 페기합니다》를 선택하십시오.</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>세션 기록은 기록한 사용자만 중지할수 있습니다.</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>중지할 기록을 선택하십시오.</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>이 종류의 기록이 이미 진행중입니다.</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>기록을 변경할수 없습니다: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>이행 생성</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>이행의 이름 (선택)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>이행 %file을 썼습니다. 어떤 단계도 할수 없는 변경은 파일 첫머리에 적혀있으며 손으로 해야 합니다.</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>이행을 쓰지 못했습니다: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>부분으로 나누어 오래 실행</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>비워 둔 필드는 migration.ini [RunSettings]의 설정을 유지합니다.</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>최대 이 개수만큼의 마이그레이션</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>이 시간 이후에는 마이그레이션 없음(초)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>마이그레이션 사이의 일시 중지(초)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>낮은 우선순위(1~19)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>장시간 실행 필드는 1 이상의 정수입니다(일시 중지: 0~60초, 우선순위: 1~19). 비워 둘 수도 있습니다.</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>%time에 자동으로 닫힙니다.</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>이 시간 후 자동으로 닫기(분, 선택 사항)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>분은 1~44640(31일)의 정수입니다. 비워 둘 수도 있습니다.</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>이행 %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>새 이행</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>YAML 이행: 텍스트로 쓰거나 양식에서 단계들을 구성하고 확인한 다음 이행 등록부에 저장하십시오.</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>이 이행은 이미 실행되였으므로 다시 저장하지 않습니다: 변경된 화일은 검사합 보호에 의해 거부됩니다. 변경은 새 이행에서 하십시오.</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>웨브봉사기가 화일을 쓸수 없습니다.</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>맨 우의 주석행들은 머리부입니다(description, author, requires, environments, engines). 양식에서 단계를 추가하거나 변경하면 이행을 다시 씁니다: 단계들사이의 주석은 보존되지 않습니다.</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>이행 이름</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>둘 곳</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>싸이트</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>YAML 텍스트</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>확인</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>저장</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>단계</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>키</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>편집</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>위로 이동</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>아래로 이동</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>제거</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>아직 단계가 없습니다: 양식으로 하나 추가하거나 텍스트에 쓰십시오.</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>단계 %number 변경</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>단계 하나 추가</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>단계의 양식은 그 단계 류형으로 만들어집니다: 그 키들, 각 키가 받는 값, 그리고 속하는 방식들.</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>단계 류형</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>양식 보기</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>단계에 그 류형이 모르는 키가 있습니다. 단계를 변경하면 그 키들은 빠집니다: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>방식</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>위치</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>%modes 에서만</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>기정값: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>조건, 참조 및 주석</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>반점으로 구분한 이름=값 쌍. 이 단계의 값: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>례제</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>단계 변경</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>단계 추가</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>exp:migration:check 의 결과: 머리부, 문서 그리고 단계 류형에 따라 검사한 모든 단계.</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>이행이 확인을 통과합니다.</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>미리보기</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>저장될 YAML 텍스트.</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>YAML 보기</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>YAML 이행</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>실행됨</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>아직 YAML 이행이 없습니다.</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>편집자</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>이행 등록부들에 %id 라는 YAML 이행이 없습니다.</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>단계 류형을 선택하십시오.</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>단계가 추가되였습니다. 저장하기 전에 이행을 확인하십시오.</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>단계가 변경되였습니다. 저장하기 전에 이행을 확인하십시오.</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>단계를 선택하십시오.</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>이 단계에는 양식이 없습니다(순환 또는 이 설치에 없는 단계 류형): 텍스트에서 변경하십시오.</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>이행을 둘 곳을 선택하십시오: 싸이트 또는 활성 확장.</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>%file 저장됨. 이행을 실행하기 전에 모의 실행을 하십시오.</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>저장되지 않았습니다: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>원격대상들</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>이 설치가 이행들을 배포하는 다른 설치들: 배포는 이행들을 선택한 원격대상들에 보내여 거기서 실행하며, 모두 동시에 동기적으로 실행합니다. 원격대상은 절대로 비밀 값을 가지지 않습니다: 그 인증정보는 설정 &gt; 비밀 값의 비밀 값 하나를 가리킵니다.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>새 원격대상</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>도움말</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>%id 련결 테스트</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>원격대상목록</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>최대 %parallel개의 원격대상을 동시에 처리합니다. 한 국면은 각 원격대상에서 %timeout초까지 걸릴수 있습니다.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>원격대상</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>주소</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>인증정보</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>그루빠</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>수정할 설정</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>화일만 (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>SSH 키</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>암호</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>없음 (호스트의 SSH 에이전트와 키)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>련결 테스트</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>그루빠에 대한 배포는 그 그루빠의 모든 원격대상에 갑니다.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>원격대상들에 배포</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>아직 설정된 원격대상이 없습니다.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>원격대상 %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>여기서는 아무것도 보내거나 실행하지 않습니다: 저장하면 설정이 settings/override/migration.ini.append.php에 씌여집니다. 인증정보는 이름이며, 그 값은 설정 &gt; 비밀 값 또는 환경에 남습니다.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>다음 설정들을 확인하십시오</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>입력한 그대로의 설정, 아직 저장되지 않았습니다.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>검토</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>설정이 올바릅니다. 다음 행들이 기록됩니다:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>전송 방식</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>이름만, 값은 설정 &gt; 비밀 값에 남음</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>기록될 행들</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>련결</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>호스트 키</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. 원격대상</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>원격대상의 이름과 어떤 환경인지.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>문자, 수자, - 및 _, 례: production1. 보고서와 콘솔(--remotes=production1)에서 원격대상의 이름으로 쓰이며 나중에 바꿀수 없습니다.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... 계단별 배포는 이 순서로 환경들을 거칩니다.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>선택, 반점으로 구분, 례: production. 그루빠에 대한 배포는 그 그루빠의 모든 원격대상에 갑니다.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. 련결</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>화일이 그곳에 가는 방법과 설치가 있는 위치.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>SSH를 통해 변경된것만 보내며, 중단된 전송은 재개됩니다. rsync가 설치된 곳에서 가장 좋은 선택입니다.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>화일에는 scp를 쓰는 SSH.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>화일에는 sftp를 쓰는 SSH.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>화일만: 이행들을 보내고 다시 읽어보지만 거기서 실행할수는 없습니다.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>TLS를 통한 FTP; 화일만.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>이 봉사기의 등록부에 있는 다른 설치.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>호스트</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>호스트 이름 또는 주소, 례: node1.example.com. local에는 해당되지 않습니다.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>포트</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>비여두면: SSH는 22, FTP는 21.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>사용자</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>경로</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>그곳의 설치 뿌리등록부, 례: /var/www/site (FTP의 경우: FTP 계정이 보는 경로).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>PHP 명령행</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>그곳의 PHP CLI: php 또는 /opt/plesk/php/8.4/bin/php와 같은 완전한 경로.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>그곳에서 콘솔 스크립트를 root로 실행</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>원격대상의 사용자가 root일 때만(그러면 --allow-root-user로 실행됩니다).</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. 인증정보</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>이 설치가 그곳에 접속하는 방법. 이름만 저장됩니다.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>없음</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>이 설치를 실행하는 사용자의 SSH 에이전트와 키(local에는 항상).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>비밀 값으로 보관하는 비공개 키.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>비밀 값으로 보관하는 암호(FTP는 이것으로 접속합니다).</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>비밀 값 이름</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>설정 &gt; 비밀 값의 비밀 값, 례: deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>설정 &gt; 비밀 값</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>또는 환경변수</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>그것을 담고있는 봉사기 프로세스의 변수, 례: DEPLOY_KEY (env:DEPLOY_KEY로 저장됨). 비밀 값 이름 대신 쓰입니다.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. 호스트 키</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>선택, SSH, sftp 및 rsync용.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>호스트 키 지문</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>ssh-keygen -l이 출력하는 SHA256:... 형식. 이것이 있으면 호스트는 이 키를 보여야 하며, 없으면 첫 접촉때 키를 익힙니다.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. 검토</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>우의 설정으로 련결을 테스트한 다음 씌여질 행들을 검토하십시오.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>이 원격대상 제거</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>그 설정은 settings/override/migration.ini.append.php에서 제거됩니다. 원격대상에서는 아무것도 바뀌지 않으며, 그 배포들은 력사에 남습니다.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>예, 이 원격대상을 제거합니다</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>배포목록</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>배포는 이 설치의 이행들을 선택한 원격대상들에 보내여 거기서 %user 사용자로 실행하며, 모두 동시에 동기적으로 실행합니다: 먼저 모든 원격대상을 확인하며, 하나가 실패하면 이미 적용한 모든 원격대상을 되돌립니다. 배포는 배경에서 진행되며, 배포 페지는 진행되는 동안 모든 원격대상을 보여줍니다.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. 원격대상들</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>원격대상들, 그루빠 또는 둘 다에 표시하십시오.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>그곳에 배포</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. 방법</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>배포</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>보내고 실행</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>이행들을 모든 원격대상에 보내고 검증한 다음 하나의 공동 실행 ID로 실행합니다.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>전송만</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>화일을 보내고 검증하며, 아무것도 실행하지 않습니다(FTP 원격대상의 유일한 방법).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>계단별</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>환경의 순서(dev, stage, beta, production ...)에 따라 계단별로: 첫 계단을 배포한 다음 누군가 다음 계단을 승인할 때까지 관문이 기다립니다. 각 계단안에서는 전부 되거나 전혀 안됩니다.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>이 이행들만</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>선택: 반점으로 구분한 이행 ID. 비여두면: 싸이트와 그 확장의 모든 이행.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>사전검사만</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>예, 지금 배포합니다</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>무엇인가 보냈거나 실행한 배포들, 최신것부터(사전검사는 보고서를 남기지 않습니다).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>전송만</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>계단별, %stages 계단</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>동기되지 않음</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>아직 배포가 없습니다.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>배포 %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>배포의 모든 원격대상과 그 상태. 여기서 시작한 배포는 이 페지를 닫아도 배경에서 계속됩니다. 따라가려면 페지를 다시 여십시오.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>모든 배포</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>사전검사</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>다음 계단</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>설정과 인증정보 확인중</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>사전검사: 모든 원격대상의 상태를 읽는중</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>이행 화일 보내는중</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>도착한것 검증중</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>모든 원격대상에서 이행 실행중</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>원격대상들 되돌리는중</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>배포가 끝났습니다. 보고서를 읽어들이는중.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>진행정형을 따라갈수 없었습니다. 배포가 어떻게 되고있는지 보려면 페지를 다시 읽으십시오.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>국면</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>이 페지는 배포가 진행되는 동안 따라갑니다.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>동기상태</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>계단들</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>%stage 계단이 관문에서 기다림</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>관문 %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>%time에 %user 사용자가 승인함</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>계단</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>보낸 화일</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>커널 판본</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>적용됨: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>적용할것: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>국면들</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>관문: %stages 계단중 %stage 계단</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>그 앞의 계단들은 배포되였습니다. 그것들을 확인한 다음 다음 계단을 승인하십시오: 그 원격대상들을 다시 확인하고 배포하며, 전부 되거나 전혀 안됩니다.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>다음</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>예, 지금 다음 계단을 배포합니다</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>승인</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>이 배포 되돌리기</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>이것을 적용한 모든 원격대상(%list)은 실행전에 만든 상태사본으로 동시에 돌아갑니다.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>예, 지금 이 배포를 되돌립니다</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>계획됨</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>전송됨</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>배포됨</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>관문에서 기다림</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>선택됨</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>준비됨</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>준비됨</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>자기 계단을 기다림</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>화일 보냄</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>검증됨</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>실패, 스스로 복원됨</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>변경없음</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>배포되지 않음</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>도달할수 없음</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>원격대상이 응답했습니다.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>지금은 원격대상을 사용할수 없습니다.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done 완료, %pending 보류 중, %failed 실패</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>잠금</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>그곳에서 실행이 잠금을 가지고있음</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>여유 공간</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stages 계단중 %stage</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>테스트할 원격대상을 선택하십시오.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>먼저 《예, 이 원격대상을 제거합니다》에 표시하십시오.</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>원격대상을 제거할수 없었습니다: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>원격대상을 저장할수 없었습니다: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>설정화일을 읽을수 없습니다: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>원격대상이나 그루빠를 적어도 하나 선택하십시오.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>선택한 원격대상이 더는 설정에 없습니다. 페지를 다시 읽으십시오.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>먼저 《예, 지금 배포합니다》에 표시하십시오.</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>FTP 원격대상은 이행을 실행할수 없습니다: 《전송만》을 선택하거나 제외하십시오.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>배포할 이행들은 반점으로 구분한 이행 ID입니다.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>배포가 아직 진행중입니다. 끝날 때까지 기다리십시오.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>이 배포는 관문에서 기다리지 않습니다.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>이 배포를 적용한 원격대상이 없습니다: 되돌릴것이 없습니다.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>먼저 《예, 지금 다음 계단을 배포합니다》에 표시하십시오.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>먼저 《예, 지금 이 배포를 되돌립니다》에 표시하십시오.</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>ID가 %id인 원격대상이 이미 있습니다.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>포트는 1부터 65535까지의 수입니다.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>환경은 문자, 수자, - 및 _로 된 단어입니다(alpha, dev, stage, beta, production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>그루빠는 문자, 수자, - 및 _로 된 단어입니다(all은 안됨): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>지금은 인증정보를 읽을수 없습니다: %problem. 첫 배포전에 설정 &gt; 비밀 값에 저장하십시오(또는 변수를 설정하십시오).</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>FTP 원격대상은 화일만 받습니다: 그곳에 대한 배포는 《전송만》이며, 그 이행들은 거기서 손으로 실행합니다.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>원격대상 %id은(는) settings/override/migration.ini.append.php에 없습니다. 설정된 곳에서 제거하십시오.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>FTP로 접속하여 index.php를 읽었습니다. FTP 원격대상의 이행상태는 읽을수 없습니다.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>수정일</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>생성일</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>이름</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>클라스</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>섹션</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>작성자</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>최근 내용</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>싸이트 전체에서 최근에 생성되고 수정된 내용을 최신순으로 보여줍니다: 방문자가 제출한것, 검토를 위해 보류된것, 게시를 기다리는 초안. 항목을 선택하여 보류 해제, 보류, 숨기기, 표시, 제거하거나 다른 섹션이나 상태로 옮기십시오.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>목록을 읽을수 없습니다: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>검토 보류가 아직 설정되지 않아 보류된것이 없으며 보류 조작도 제공되지 않습니다. 갱신 단계 6.0.15-review-hold가 이를 설정합니다: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>목록 려과</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>시작</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>끝</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>날자</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>생성일(처음 게시)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>모두</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>상태</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>게시됨</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>초안, 게시된적 없음</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>보류 중(승인 또는 날자 대기)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>휴지통에 있음</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>검토를 위해 보류됨</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>보류됨</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>보류되지 않음</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>숨김</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>표시됨</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>제출 위치</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>모든 싸이트접근</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>감사에 기록된것만.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>현재: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>가입명 또는 사용자 ID.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>려과</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>려과 지우기</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>항목</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%count개 중 %from~%to</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>항목 없음</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(%ms ms 동안 읽음)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>선택한 항목에 대한 조작</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>이 페지 모두 선택</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>%count개 선택됨</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>조작</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>조작 선택</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>보류 해제</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>검토를 위해 보류</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>숨기기</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>표시</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>휴지통으로 이동</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>삭제</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>섹션 지정</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>상태 지정</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>사유</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>보류하려면 필요하며 보류 및 감사 기록에 함께 보관됩니다.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>섹션 선택</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>상태</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>상태 선택</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>선택한 항목에 적용</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>매 항목은 자신의 권한에 따라 확인됩니다. 휴지통으로 이동과 삭제는 확인을 요구합니다. %count개를 넘는 항목은 배경에서 실행됩니다.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>선택</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>게시</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>제출 출처</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>%name 선택</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>아직 없음</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(이름 없음)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>초안</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>보류 중</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>상위 항목에 의해 숨겨짐</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>보류됨: 새 제출</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>판본 %version 보류 중</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>판본 %version 작성 중</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>초안, 판본 %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>판본 %version 게시됨</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>%date 예정</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>주소 없음</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>기록되지 않음</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>이 려과조건과 일치하는것이 없습니다.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>모두 표시</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>아직 내용이 없습니다.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>페지당</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>페지당 %count개 항목을 표시합니다.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says "not recorded".</source>
+        <translation>제출의 주소와 열람기는 감사 색인에서 가져오는데 여기서는 사용할수 없습니다: 렬에 "기록되지 않음"이 표시됩니다.</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>주소와 열람기는 감사가 해당 항목에 대해 기록한것으로(자동 보류는 항상 기록하며 게시와 생성은 켜져있을 때만 기록) 개인정보 설정에 따라 보관됩니다.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: %count개 항목</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>삭제하면 항목이 모든 판본 및 번역과 함께 영구적으로 제거됩니다. 되돌릴수 없습니다.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>항목은 휴지통으로 이동하며 거기에서 복원할수 있습니다.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>매 항목은 자신의 권한에 따라 확인됩니다. 하위 항목이 있는 항목은 그대로 남습니다(내용 구조에서 제거하십시오). 본인 확인을 요구받게 됩니다.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>이 조작은 배경에서 실행됩니다: 진행 페지가 열리고 완료되면 항목별 결과가 표시됩니다.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>선택한 항목</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>외 %count개</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>취소</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>아무 조작도 수행되지 않았습니다</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action(%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>사유: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>조작이 아직 배경에서 실행 중입니다.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>진행 상황</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>배경 조작이 실패했습니다: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>완료</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>거부됨</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>실패</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>항목별</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>항목</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>결과</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>리유</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>목록으로 돌아가기</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>설정</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>수행된 조작 없음</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>확인</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>조작을 선택하십시오.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>항목을 하나 이상 선택하십시오.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>한번에 최대 1000개 항목까지 선택하십시오.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>항목을 보류하는 리유를 입력하십시오.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>섹션을 선택하십시오.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>상태를 선택하십시오.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>양식을 읽을수 없습니다.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>대시보드</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>최근 내용</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>개수를 읽을수 없습니다: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>검토를 위해 보류됨</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>오늘 새로 추가됨</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>검토 보류가 아직 설정되지 않았습니다(갱신 단계 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>모든 최근 내용</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>검토 조작을 실행할 권한이 없습니다(moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>검토 조작이 완료되지 않았습니다: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>검토: 객체 %count개에 %action</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>객체 %total개 중 %done개: 완료 %ok개, 거부 %refused개, 실패 %failed개</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>완료 %ok개, 거부 %refused개, 실패 %failed개</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>더는 존재하지 않습니다.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>위치가 없습니다(게시되지 않음).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>숨길 권한이 없습니다(content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>표시할 권한이 없습니다(content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>이미 숨겨져 있습니다.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>숨겨져 있지 않습니다.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>숨겼습니다.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>표시했습니다.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>휴지통에 있습니다: 거기에서 비우거나 복원하십시오.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>게시된적 없는 초안은 휴지통으로 이동할수 없습니다: 삭제하십시오.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>삭제할 권한이 없습니다(content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>삭제했습니다.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>제거할 권한이 없습니다(content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>하위 항목이 있습니다: 하위 항목이 렬거되는 내용 구조에서 제거하십시오.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>제거되지 않았습니다(작업흐름이 제거를 보류했을수 있습니다).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>휴지통으로 이동했습니다.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>섹션이 존재하지 않습니다.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>이미 이 섹션에 있습니다.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>이 섹션을 지정할 권한이 없습니다(section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>섹션이 지정되지 않았습니다.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>섹션을 지정했습니다.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>상태가 존재하지 않습니다.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>이미 이 상태입니다.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>이 상태를 지정할 권한이 없습니다(state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>상태가 지정되지 않았습니다(작업흐름이 변경을 보류했을수 있습니다).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>상태를 지정했습니다.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>그런 조작은 없습니다.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>검토 보류가 설정되지 않았습니다(갱신 단계 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>보류하는 리유를 입력하십시오.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>이미 보류되여 있습니다.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>보류할 권한이 없습니다(state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>보류되지 않았습니다(작업흐름이 변경을 보류했을수 있습니다).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>보류했습니다.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>보류되여 있지 않습니다.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>보류를 해제할 권한이 없습니다(state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>보류가 해제되지 않았습니다(작업흐름이 변경을 보류했을수 있습니다).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>보류를 해제했지만 여전히 숨겨져 있습니다: 표시할 권한이 없습니다(content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>보류를 해제했습니다.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>모든 대상</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>마지막 게시</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>GitHub Pages에 싸이트의 무료 정적사본을 게시하십시오:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>오래된 페지</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>정적 게시</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>정적 게시가 꺼져있습니다.</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>대상</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>대상들을 읽을수 없습니다: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>작업 진행중</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>확인할 빌드</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>숨기기</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>대상 만들기</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>없음</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>해설서 읽기</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>추가 %added, 변경 %changed, 삭제 %removed</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%bytes / %limit (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>그밖에 %count 개는 표시되지 않습니다.</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>%pages 페지 기록됨</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path: %size, 호스트가 화일 하나에 허용하는 크기보다 큽니다.</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>한도의 %percent %</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds 초</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag: 현재 싸이트에 적용된 게시입니다.</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: 작업 %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>GitHub 프로젝트 싸이트는 /repository/, 자체 도메인이나 사용자 싸이트는 비워둡니다.</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. 싸이트</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. 호스트</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. 저장소 로그인</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. 저장소</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. 련결과 기본경로</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. 자체 도메인</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. 빌드에 들어가는 내용</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. 게시 시점</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. 검토 및 보관</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>GitHub 프로젝트 싸이트는 /&lt;repository&gt;/ 아래에 있습니다. 상대련결은 그곳과 다른 모든 곳에서 동작합니다.</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>빌드는 로그인하지 않은 방문자가 보는 그대로 %site의 모든 페지를 가져오고 련결을 다시 쓰며 화일들을 복사한 다음 결과를 대상의 등록부에 기록합니다. 빌드를 확인하고 게시를 누를 때까지 아무것도 게시되지 않습니다.</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>cron 표현식, 실례: 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>배포열쇠는 비밀 값 %secret 이름으로 보관됩니다.</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>배포열쇠는 이 설치가 SSH를 통하여 하나의 저장소에만 푸시할수 있게 합니다. 개인 부분은 설정 &gt; 비밀 값에 남고 공개 부분만 표시됩니다.</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>이 대상을 위해 만든 배포열쇠</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>배포열쇠는 SSH로 로그인합니다. git 주소를 SSH 주소(git@github.com:owner/repo.git)로 바꾸십시오.</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>%user 사용자가 시작한 작업이 진행중입니다</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>이 대상의 작업이 아직 진행중입니다(%detail). 끝날 때까지 기다리십시오.</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>이 대상의 작업이 아직 진행중입니다. 끝날 때까지 기다리십시오.</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>/news/ 페지에서 /about-us/team 페지로 가는 련결은 다음과 같이 기록됩니다</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>새 배포열쇠가 만들어졌습니다. 지금 그 공개 부분을 저장소에 추가하십시오.</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>정리후에도 오유수정 출력, 양식 토큰 또는 세션 ID가 남아있는 페지는 절대로 게시되지 않습니다.</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>되돌림은 전문가용입니다. &quot;이것이 무엇을 바꾸는지 알고있습니다&quot;에 표시하고 꼬리표 이름을 다시 입력하십시오.</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>싸이트는 최대 %site, 화일 하나는 최대 %file 크기까지 될수 있으며 통신량은 한달에 약 100GB입니다. 무료요금제에서는 저장소가 공개되여야 합니다. GitHub Pages는 상점이나 기타 상업거래를 위한것이 아닙니다.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>대상은 하나의 git 저장소에 게시되는 하나의 싸이트입니다. 여기서는 아무것도 빌드하거나 게시하지 않습니다. 보관은 설정을 settings/override/staticcache.ini.append.php에 기록합니다.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>대상은 한곳에 게시되는 하나의 싸이트입니다. 실례로 GitHub Pages의 공개 싸이트.</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>설정 &gt; 비밀 값의 토큰</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>저장소의 작업흐름이 게시합니다.</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>이 공개열쇠를 쓰기권한과 함께 저장소에 추가하십시오. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, Allow write access에 표시.</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>추가됨</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>다른 git 호스트</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>다른 프로쎄스가 이 대상에서 작업중입니다: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>뒤로</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>기본경로</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>이전</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>기본경로 아래</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>분기</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>끊어진 련결</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>빌드의 끊어진 련결</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>빌드</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>빌드 %id (%user)</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>빌드 %name</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>지금 빌드</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>확인할 빌드</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>실행자</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>여기서 수동으로</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>취소</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>변경</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>변경됨</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>변경내용</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>먼저 확인</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>다음 설정들을 확인하십시오</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>빌드가 무엇을 바꾸는지 확인하고 살펴본 다음 게시하거나 폐기하십시오.</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>되돌아갈 게시를 선택하십시오.</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>이후의 출시판에서 제공됩니다.</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>커미트</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>커미트목록</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>빌드를 커미트하고 꼬리표를 단 다음 %remote 원격으로 푸시합니다. 강제푸시는 하지 않으며 후에 언제든지 이전 게시로 되돌아갈수 있습니다.</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>이전 등록부와 비교: 추가 %added, 변경 %changed, 삭제 %removed, 변경없음 %unchanged.</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>마지막 게시와 비교하였습니다.</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>인증정보</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>자체 도메인</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>오유수정 출력, 양식 토큰, 세션 ID와 nonce는 항상 제거됩니다.</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>배포열쇠</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>%name 배포열쇠</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>폐기</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>빌드 폐기</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>도메인</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>비워두면 싸이트의 주소입니다. 그렇지 않으면 같은 싸이트의 내부주소를 입력합니다.</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>끝남</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>모든 련결이 기본경로로 시작됩니다.</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>모든 게시는 static/%id/&lt;n&gt; 꼬리표가 달린 커미트입니다. 되돌리면 이전 게시의 화일들로 새 커미트를 만듭니다. 력사는 남고 꼬리표는 움직이지 않으며 강제로 하는것은 없습니다.</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>추가화일</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>페지를 가져올 주소</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>화일</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>화일</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>빠진 화일</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>다음의 화일</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>수집할수 없는 화일</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>지문</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>등록부</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>SSH 주소용입니다. 열쇠는 보관후에 만들어지며 그 공개 부분을 저장소에 추가합니다.</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>https:// 주소용입니다. GitHub: 저장소에 대하여 Contents 읽기 및 쓰기 권한을 가진 세분화된 토큰.</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>전문가용입니다. 푸시가 끝나는 즉시 공개 싸이트가 바뀝니다.</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>양식</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>GitHub 저장소를 리용한 무료 호스팅.</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>분기에서</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>Git 주소</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages는 싸이트 %site, 화일 %file 크기까지 허용합니다.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>GitHub Pages 제한</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages가 화일들을 있는 그대로 게시합니다(_로 시작하는 화일에 필요).</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub가 푸시된 그대로 분기를 제공합니다. 기본값.</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, 자체 봉사기: 임의의 git 저장소.</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>이전 게시로 되돌아가기</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>도움말</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>마법사 도움말</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>숨기기</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>력사</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>%name 력사</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>호스트</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>GitHub Pages가 빌드를 받는 방식</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>변경내용을 확인하였습니다</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>이것이 무엇을 바꾸는지 알고있습니다</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>꺼져있습니다. 켜기 전에는 아무것도 빌드할수 없습니다.</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>%user 사용자로 배경에서 실행됩니다. 이 페지를 닫아도 됩니다.</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>작업 %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>비밀 값 %secret 이름으로 보관됨.</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>종류</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>마지막 게시</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>다음 페지들을 제외</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>다음 구역들을 제외</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>련결</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>다시 쓴 련결</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>실제 싸이트</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>빌드 살펴보기</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>영문 소문자, 수자, _ 및 -, 실례로 github-public. 등록부와 꼬리표(static/&lt;id&gt;/&lt;n&gt;)의 이름이 되며 후에 바꿀수 없습니다.</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>새 열쇠 만들기</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>대상 만들기</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>열쇠 만들기</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>먼저 호스트에 저장소를 만드십시오. 빈 저장소도 됩니다.</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>매니페스트</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>통보문</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>대부분의 페지</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>이름</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>설정 &gt; 비밀 값에 있는 토큰의 이름</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>새 대상</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>다음</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>아니요</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>아직 커미트가 없습니다.</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>열쇠를 만들지 못하였습니다: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>php 명령행 실행화일을 찾지 못하였습니다. migration.ini [AdminSettings] PhpCliPath에 그 완전경로를 설정하십시오.</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>아직 꼬리표가 없습니다.</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>아직 대상이 없습니다.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>없음</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>빌드에 없음.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>아직 게시된것이 없습니다.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>아직 게시된것이 없습니다. 모든 화일이 새것입니다.</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>알림</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>일정에 따라</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>조종탁에서</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>봉사기에서: ./console exp:static:serve %id 도 같은 방식으로 제공합니다.</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>한행에 경로 하나, *는 임의의 부분과 일치: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>대상에는 이름만 보관됩니다. 토큰이나 열쇠 자체는 설정 &gt; 비밀 값에 남으며 기록에 나타나지 않습니다.</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>페지들이 지적하는것만</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>토큰에만 해당. env:NAME은 대신 봉사기의 환경변수를 읽습니다.</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>미리보기 열기</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>호스트가 제공할 모양 그대로 대상의 등록부에서 빌드를 엽니다. 이 련결은 한시간동안 쓸수 있습니다.</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>선택사항. 비워두면 게시된 내용입니다.</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>선택사항. 도메인이 있으면 싸이트가 그 뿌리에서 제공됩니다.</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>출력</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>페지</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>대상의 페지</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>거부된 페지</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>후처리</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>미리보기</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>미리보기 및 게시</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>%name 미리보기 및 게시</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>빌드 미리보기</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>진행률</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>공개 주소</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>공개열쇠</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>게시</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>싸이트의 정적사본을 GitHub Pages 또는 임의의 git 호스트에 게시합니다. 빌드하고 변경내용을 확인하고 게시하며 필요하면 이전 게시로 되돌아갑니다.</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>되돌아갈 게시</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>게시목록</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>푸시</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>해설서 읽기</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>작업기록</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>거부됨</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>상대</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>다시 읽기</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>삭제됨</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>열쇠 교체: 이전 열쇠는 더이상 동작하지 않습니다</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>보고서</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>빌드 보고서</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>저장소</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>검토</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>검토는 모든 설정을 확인하고 기록될 행들을 보여줍니다. 아직 아무것도 보관되지 않습니다.</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>되돌리기</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>되돌림</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>보관</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>일정</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>검색페지</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>구역 ID, 반점으로 구분.</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>실제 싸이트로 보내기</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>설정</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>설정</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>%name 설정</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>설정</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>설정 &gt; 비밀 값</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>목록에 표시됩니다. 실례로 &quot;GitHub Pages의 공개 싸이트&quot;.</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>GitHub App을 통한 로그인은 GitHub 통합과 함께 제공됩니다.</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>싸이트</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>게시할 싸이트</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>크기</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>크기와 한도</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>빌드 크기</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>오래된 페지</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>시작</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>%user 사용자가 %time 에 시작하였습니다.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>상태</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>정적 게시</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>정적 게시가 꺼져있음</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>정적 게시가 꺼져있습니다.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>정적 게시가 꺼져있습니다. 먼저 설정 &gt; 정적 게시에서 켜십시오.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>정적 게시가 켜져있습니다.</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>단계 %step / %total</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>단계</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>정리</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>끄기</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>켜기</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>정적 게시 켜기</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>꼬리표</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>꼬리표</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>대상</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>대상은 만들고 바꿀수 있지만 켜기 전에는 아무것도 빌드하거나 게시하지 않습니다.</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>검색엔진에 무엇을 읽을지 알려줍니다.</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>빌드를 폐기할수 없습니다: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>빌드가 마지막 게시와 같습니다. 게시할것이 없습니다.</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>빌드를 폐기하였습니다. 등록부에 다시 마지막 게시가 들어있습니다.</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>대부분의 싸이트에는 기본값이 맞습니다.</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>등록부에 아직 게시되지 않은 빌드가 있습니다. 새 빌드가 그것을 대신합니다.</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>작업등록부에 쓸수 없습니다: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>작업을 준비할수 없습니다: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>작업을 시작할수 없습니다.</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>작업이 끝났습니다. 보고서를 읽어들이는중입니다.</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>작업에는 로그인한 사용자가 필요합니다.</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>작업은 시작되였지만 프로쎄스 ID를 보고하지 않았습니다. 확인할 항목: %detail.</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>열쇠</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>가장 큰 화일: %path, %size.</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>기록될 행들</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>검색엔진을 위한 페지목록입니다. 공개 주소가 필요합니다.</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>페지들은 로그인하지 않은 방문자가 보는 그대로 가져옵니다. 관리 및 편집 싸이트접근은 제공되지 않습니다.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>진행상황을 따라갈수 없습니다. 페지를 다시 읽어 작업상태를 확인하십시오.</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>열쇠의 공개 부분:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>분기의 뿌리</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>비밀 값 보관소가 아직 설정되지 않았으므로(./console exp:upgrade --apply 로 그 표를 만듭니다) 열쇠를 보관할수 없습니다.</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>봉사기가 스스로 로그인하거나(자체 SSH 열쇠 또는 인증정보 도우미) 저장소가 이 봉사기에 있습니다.</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>설정을 기록할수 없습니다: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>설정이 올바릅니다. 다음 행들이 기록됩니다:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>설정화일을 읽을수 없습니다: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>싸이트가 그 게시의 화일들로 되돌아갑니다. 아직 게시되지 않은 빌드는 먼저 게시하거나 폐기하여야 합니다.</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>존재하지 않는 주소를 위한 싸이트 자체의 페지.</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>대상을 보관할수 없습니다: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>대상이 아직 이 열쇠로 로그인하지 않습니다. 대상의 설정에서 &quot;이 대상을 위해 만든 배포열쇠&quot;를 선택하십시오.</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>대상들을 읽을수 없습니다: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>아직 확인할 빌드가 없습니다.</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>이 설치에는 앞면 싸이트접근이 없습니다. 관리 및 편집 싸이트접근은 게시되지 않습니다.</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>이 페지는 작업의 진행을 따라갑니다. 페지를 닫아도 작업은 배경에서 계속됩니다.</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>이 대상에는 아직 배포열쇠가 없습니다.</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>이 대상은 아직 여기서 빌드되지 않았습니다.</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>이 대상에는 열쇠가 있습니다.</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>이 빌드를 폐기합니다. 등록부에 다시 마지막 게시가 들어갑니다. 실제 싸이트는 바뀌지 않습니다.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>먼저 &quot;변경내용을 확인하였습니다&quot;에 표시하십시오.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>시간</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>트리거</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>꼬리표 이름을 다시 입력하십시오</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>변경없음</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>웨브후크</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>내용</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>변경내용</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>매 화일이 무엇인지 나타냅니다. 항상 기록됩니다.</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>작업이 한 일과 그 기록입니다. 여기서 시작한 작업은 이 페지를 닫아도 배경에서 계속됩니다.</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>작업이 오유로 출력한 내용</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>페지들이 지적하는것과 게시된 콘텐츠의 모든 화상</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>시점</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>게시가 실패할 때</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>게시가 성공할 때</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>콘텐츠가 게시될 때</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>사본에 없는것(검색, 로그인)으로 가는 련결이 가는 곳.</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>정적사본을 제공하는 곳.</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>어느 싸이트를 게시하며 대상을 무엇이라고 부르는가.</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>임의의 경로 아래에서 동작합니다. 기본값.</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>자체 도메인이 설정되면 항상 기록됩니다.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>예</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>여기와 조종탁에서 언제든지 수동으로 빌드하고 게시할수 있습니다.</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>이름만, 값은 설정 &gt; 비밀 값에 남음</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>%path 아래</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>보고서없이 끝남</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>추가</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>실패</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>화일</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages, 또는 docs 등록부가 있는 main.</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>git 호스트</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (토큰 사용) 또는 git@github.com:owner/repo.git (배포열쇠 사용). 그안에 암호나 토큰은 절대로 넣지 마십시오.</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/ — 싸이트지도와 표준련결을 위한것.</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>화상</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>없음</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>아니요</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>원격 없음</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>없음: 커미트는 등록부에 남음</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>없음: 변경없음</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>푸시 안됨</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>변경없음</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>페지</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>통과</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>proc_open이 비활성화되여있으므로 여기서 작업을 시작할수 없습니다. 봉사기에서 ./console exp:static:build 를 리용하십시오.</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>게시</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>게시됨</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>푸시 대기중</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>푸시됨</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>거부됨</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>상대</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>되돌림</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>되돌려짐</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>실행중</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>등록부만</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: CNAME 화일에 기록됩니다. 호스트의 설명대로 도메인의 DNS가 호스트를 가리키게 하십시오. HTTPS가 시작되기까지 시간이 걸릴수 있습니다.</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>예, 아직 게시되지 않음</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>저장소의 작업흐름이 게시합니다. 작업흐름 파일은 빌드가 씁니다. 폴더는 비워두십시오.</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>GitHub 저장소와 토큰 또는 GitHub App으로 대상을 저장한 후에는 이 단계에서 저장소를 만들고 GitHub Pages를 켤수 있습니다. 그렇지 않으면 먼저 GitHub에서 저장소를 만드십시오. 빈 저장소도 됩니다.</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>분기 또는 GitHub Actions?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>DNS 확인</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>저장소가 없으면 만들기</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>GitHub에서 저장소를 만들고 그 설정에서 GitHub Pages를 켜십시오 (Settings &gt; Pages).</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>저장소 %repo가 없으면 (요청시) 만들고, 저장된대로 분기 또는 GitHub Actions에서 GitHub Pages를 켜며, 자체 도메인과 HTTPS를 설정합니다. 저장된 설정을 리용하므로 먼저 변경을 저장하십시오.</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>GitHub에서 자세히</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>먼저 자체 도메인을 입력하십시오.</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>모든 push는 먼저 이 제한에 따라 검사됩니다.</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>GitHub의 https:// 주소용입니다. 이 설치를 위해 설정된 App이 로그인합니다. 설치 id가 필요합니다.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages는 비공개 저장소를 유료 계획에서만 제공합니다.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: 하위도메인 (www.example.com)에는 &lt;owner&gt;.github.io로 가는 CNAME 레코드가, 기본도메인 (example.com)에는 A 레코드 %ips가 필요합니다.</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>GitHub App의 설치 id</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>마지막 Pages 빌드</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>제한과 조건</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>무료 계획에서 GitHub Pages에 필요합니다.</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>GitHub에서</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>GitHub App을 쓸 때만: GitHub에서 App 설치 주소 끝에 있는 번호. App 자체는 staticcache.ini에서 설정합니다 (GitHubAppId, GitHubAppKey).</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>비공개</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>공개</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>먼저 GitHub 저장소와 토큰 또는 GitHub App으로 대상을 저장하십시오.</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>도메인 제공자에서 다음 레코드를 설정하십시오:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>GitHub에서 설정</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>%domain의 DNS가 아직 GitHub Pages를 가리키지 않습니다.</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>%domain의 DNS가 GitHub Pages를 가리킵니다.</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>여기서는 GitHub 통합을 리용할수 없습니다: %problem. 분기에 게시하는것은 그대로 됩니다. 저장소 설정에서 GitHub Pages를 켜십시오.</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>이 대상에서는 GitHub 단계를 리용할수 없습니다: %problem.</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>GitHub Pages의 상태는 인증정보가 토큰 또는 GitHub App일 때 표시됩니다.</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>자체 도메인 리용</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>무엇을 선택할가: 토큰, 배포열쇠 또는 GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>GitHub 저장소와 토큰 또는 GitHub App이 있으면 마법사가 저장소를 만들고 GitHub Pages를 켜며 도메인을 설정해줄수 있습니다 (4단계).</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>빌드중</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>빌드됨</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>GitHub Actions에서</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>분기 %branch에서</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>아직 없음</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>찾을수 없음</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>꺼짐</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>비공개</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>공개</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>대기중</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>알수 없음</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%pages페지 중 %count개:</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>문서파일마다 .gz(및 .br)파일을 곁들입니다. 이를 제공하는 호스트용입니다.</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>페지의 옛 주소와 별명마다 작은 페지를 만들어 옛 링크가 계속 동작하게 합니다.</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>GitHub Actions가 싸이트를 전달할 때 언제나 작성됩니다.</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>CC-BY-4.0과 같은 SPDX 식별자 또는 본문 자체입니다.</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>장바구니</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>서버호출</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>의견</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>정보를 수집하는 양식</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>GitHub Actions 작업흐름</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>페지의 빈 공간을 줄이고 주석을 없앱니다.</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>내용의 사용허가</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>로그인</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>최소화</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>기타 양식</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>사전압축</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>방향변경 페지</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>방향변경 페지: %count개.</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>검색</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>검색색인: %languages의 %pages페지.</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>내용의 해시로 이름을 단 스타일시트와 스크립트로, 열람기가 보관할 수 있습니다.</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>변경된 페지, 마지막 변경 몇 분 후(크론작업 부분 staticpublish).</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>내용의 사용허가이며, 아래 입력칸에서 가져옵니다.</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>싸이트 전체, 일정에 정한 시각(크론작업 부분 staticpublish).</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>페지의 이 부분은 서버가 필요하며 각각 대체수단이 있습니다. 게시하기 전에 확인하십시오.</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>정적으로 동작하지 않는 것</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>저장소가 무엇인지, 호스트에서 여는 사람을 위한 설명입니다.</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>제외됨</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>대체문구</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>실제 싸이트의 양식 접속점</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>실제 싸이트</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>복사본의 검색페지</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>양식을 보내지 못했습니다.</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>감사합니다. 양식을 보냈습니다.</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>양식이 접수되지 않았습니다. 입력한 내용을 확인하고 다시 보내십시오.</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>사본에 없는 페지로 가는 련결 삭제</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>관리부분으로 가는 련결 삭제</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>련결글은 남습니다. 화상, 서식, 다른 싸이트로 가는 련결은 삭제되지 않습니다.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>판</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>공개할 싸이트접근</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>싸이트접근</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>뿌리에</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>뿌리에 싸이트접근 없음: 각각 제 등록부에 있고 뿌리가 그것들에 련결합니다</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>싸이트접근</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>싸이트접근 하나 또는 URI 앞붙이로 한 주콤퓨터를 공유하는 여러개를 선택하십시오. 뿌리에 있는것은 거기서 봉사되고 나머지는 앞붙이 등록부 (/ger/)에 있습니다. 그것들사이의 련결은 사본안에 남습니다. 관리 싸이트접근은 절대로 제공되지 않습니다.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>%site에서 %target의 정적게시가 실패하였습니다</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>%site에서 %target의 정적게시가 성공하였습니다</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>정적게시 대상 %target이 요구하므로 %site에서 이 편지를 보냈습니다.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>배포 %deploy 이(가) %site 에서 실패하였습니다</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>배포 %deploy 이(가) %site 에서 관문을 기다리고 있습니다</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>배포 %deploy 이(가) %site 에서 성공하였습니다</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>이 편지는 migration.ini [RemoteSettings] Notify[] 의 요구에 따라 %site 에서 보냈습니다.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>자료형 (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>%time에 셈, %minutes분 후에 다시</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>자료형은 클라스 속성의 한가지 값을 보관하고 편집합니다: 본문 한줄, 화상, 련관. 대부분은 커널이 주고 확장이 더 보탭니다. 여기에 모든 자료형과 그것을 주는 곳, 내용이 얼마나 리용하는지가 있습니다. 자료기지가 리용하지만 더는 아무것도 등록하지 않는 자료형은 그것을 가진 내용을 망가뜨립니다.</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>클라스그루빠</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>지난 몇분동안의 수를 쓰지 않고 지금 다시 셉니다.</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>다시 세기</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>개요</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>등록일</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>사용 중</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>사용되지 않음</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>자료형을 주는 확장</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>클라스 속성</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>객체 속성</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>등록되지 않음</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>목록에 있음, 파일 없음</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>자료형 %count개가 리용되지만 등록되지 않았습니다</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>클라스 속성 %class_attributes개와 객체 속성 %object_attributes개가 어떤 확장이나 설정도 등록하지 않은 자료형을 가지고 있습니다. 그 객체들은 보여주거나 편집하거나 발표할수 없습니다. 그 자료형을 주는 확장을 활성화하거나 클라스를 바꾸십시오.</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>이것만 보기</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>자료형 찾기</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>식별자, 이름, PHP 클라스 또는 확장.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>표시</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>모두</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>주는 곳</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>모든 사용자</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>커널</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>이 려과기에 맞는 자료형이 없습니다.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>모두 표시</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>확장</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>자료형 %count개중 %shown개, %used개 리용중</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>자료기지에 이 자료형들의 클라스 또는 객체 속성이 있지만 content.ini에는 하나도 없거나 그 파일이 없습니다.</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>%provider의 자료형</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>자료형</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>PHP 클라스와 파일</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>클라스</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>객체</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>플래그</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>없음</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>검색에 맞는 자료형이 없습니다. 검색을 지우십시오.</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>자료형 %count개중 %shown개 보임</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>보인 자료형: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>%column 기준 정렬</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>%time에 셈</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>모든 자료형</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>도움말 페지</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>이 자료형은 리용되지만 등록되지 않았습니다</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>어떤 확장도 이 자료형을 등록하지 않는 동안 아래 클라스들의 객체는 보여주거나 편집하거나 발표할수 없습니다. 그것을 주는 확장을 활성화하고 content.ini [DataTypeSettings] AvailableDataTypes[]에 추가하거나 클라스들을 바꾸십시오.</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini에 이 자료형이 있지만 어느 자료형 등록부에도 그 파일이 없습니다. 아무것도 리용하지 않으므로 AvailableDataTypes[]에서 없애거나 그 확장을 활성화하십시오.</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>이 자료형에 대하여</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>식별자</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>이름</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>%name 확장</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>없음</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>PHP 클라스</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>화일</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>AvailableDataTypes[]에 있음</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>예</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>아니요</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>값의 렬</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>클라스 속성 설정의 렬</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>표</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>렬과 표는 자료형의 코드를 읽어 찾은것입니다: 담보가 아니라 안내입니다.</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>템플릿</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>싸이트접근</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>템플릿</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>위치</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>이 관리부분</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>기본 싸이트</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>재정의 없이: 클라스나 속성에 맞는 재정의 템플릿이 이것들보다 우선합니다.</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>이것을 리용하는 클라스 (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>이 자료형의 속성을 가진 클라스가 없습니다.</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>클라스</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>속성</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>클라스 속성 (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>속성</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>설정</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>필수</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>검색 가능</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>번역 가능</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>정보 수집함</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>이것을 리용하는 일부 내용</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>마지막 수정순</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>수정일</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>노드 %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>번역마다 자기 값이 있습니다.</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>검색이 그 값들을 색인합니다.</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>방문자로부터 정보를 모을수 있습니다 (양식).</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>목록을 이것으로 정렬할수 있습니다: 정렬열쇠 %type.</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>정렬 가능</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>그 값들은 다른 객체를 가리킵니다.</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>관계</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>일반 문자렬로 채울수 있습니다 (가져오기, REST).</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>본문으로</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>파일로 채울수 있습니다.</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>파일로</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>클라스 속성 설정이 묶음에 들어갑니다.</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>패키지</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>콘텐츠(%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%count개 중 %from-%to</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>목록 려과</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>모든 클라스</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>섹션</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>언어</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>소유자</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>게시됨</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>순서 반대로</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>항목 없음</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>페지당</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>페지당 %count개 항목을 표시합니다.</translation>
     </message>
 </context>
 </TS>

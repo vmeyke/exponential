@@ -984,6 +984,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>Որոնվում է միայն այս էջը: %from - %to, ընդամենը %count։</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Միջուկի և ընդլայնումների բոլոր տվյալների տիպերը, և ինչպես են դասերն ու բովանդակությունն օգտագործում դրանք։</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Տվյալների տիպեր</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2316,6 +2324,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>Համակարգային էջերը ևս կարելի է ավելացնել էջանիշերում. բացեք էջը (Կարգաբերում, աուդիտի մատյան, օգտատերերի ցուցակ ...) և դրա վերևում ընտրեք «Ավելացնել էջը էջանիշերում»։ Այդպիսի էջանիշերն ունեն հանդերձանքի պատկերակ։</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>Դուք այլևս չեք կարող բացել այս էջն այստեղ։ Հեռացրեք էջանիշը կամ մուտք խնդրեք ադմինիստրատորից։</translation>
     </message>
 </context>
 <context>
@@ -5165,6 +5177,210 @@
         <source>Go to the first page</source>
         <translation>Անցնել առաջին էջ</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>Այլ</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>Վերջին 7 օրը</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>Հատուկ ժամանակահատված</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>Բոլոր բառերը</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>Ցանկացած բառ</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>Ճշգրիտ արտահայտություն</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>Համապատասխանություն</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>Անուն Ա–Ֆ</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>Անուն Ֆ–Ա</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>Փոփոխված, նորագույնը՝ առաջինը</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>Փոփոխված, ամենահինը՝ առաջինը</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>Հրապարակված, նորագույնը՝ առաջինը</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>Հրապարակված, ամենահինը՝ առաջինը</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Փոփոխված</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>Զտիչներ</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>Ցուցադրել զտիչները</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>Թաքցնել զտիչները</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Զրոյացնել</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>Կիրառել</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>Բառեր</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>Բովանդակության տեսակ</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>Ցույց տալ ավելին (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>Ընտրեք բովանդակության մեկ տեսակ՝ դրա ատրիբուտներից մեկում որոնելու համար։</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Բաժին</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Ումից</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Ում</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>Սկզբի ամսաթիվը վավեր ամսաթիվ չէ։</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>Ավարտի ամսաթիվը վավեր ամսաթիվ չէ։</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Սեփականատեր</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>Օգտատիրոջ ID, մուտքանուն կամ էլ. փոստի հասցե։</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>«%input»-ի համար օգտատեր չի գտնվել։</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Լեզու</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>Ցանկացած լեզու</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Տեղ</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>%count տեղ</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>Արդյունքներ մեկ էջում</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>Արդյունքներ «%text»-ի համար (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>Արդյունքներ (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>Դասավորել ըստ</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>Դասավորել</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>Ակտիվ զտիչներ</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>Հեռացնել այս զտիչը</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>Կամ ընտրեք զտիչներ և կիրառեք դրանք՝ համապատասխան բովանդակությունը ցուցակագրելու համար։</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>Բառեր մուտքագրելուց հետո զտիչները նեղացնում են որոնումը։</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>«%text»-ի համար արդյունքներ չեն գտնվել։</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>Արդյունքներ չեն գտնվել։</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>Հեռացրեք վերևում գտնվող զտիչներից մեկը։</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Թարգմանություններ</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Գործողություններ</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>Խմբագրել %name</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Խմբագրել</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -7514,6 +7730,10 @@
         <source>Setup &gt; Cronjobs</source>
         <translation>Կարգաբերում &gt; Cron առաջադրանքներ</translation>
     </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>Cron առաջադրանքի ոչ մի մաս դեռ չի գործարկվել․ առաջադրանքների հերթը, ներմուծումները, ծանուցումները և որոնման ինդեքսը սպասում են։ Գործարկեք php bin/php/installcrontab.php --add --apply կամ ավելացրեք --show-ի տողերը crontab-ում։</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/dashboard/drafts</name>
@@ -8058,8 +8278,8 @@
         <translation>Սկզբնական հեղինակների և Exponential-ի հետ ներառված երրորդ կողմի ծրագրակազմի հեղինակային իրավունքի ծանուցումները պահվում են սկզբնական ֆայլերում և LICENSE ֆայլում, ինչպես պահանջում է լիցենզիան։</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>Ստորև բերված է Exponential-ի այն մասնակիցների ցանկը, ովքեր իրենց աշխատանքը լիցենզավորել են 7x-ի կողմից օգտագործման համար eZ Systems Contributor Licensing Agreement-ի պայմաններով։ Ինչպես թույլատրված է այս համաձայնագրով, 7x-ը վերաբաշխում է յուրաքանչյուր ներդրում նույն լիցենզիայով, ինչ ֆայլը, որում ներառված է ներդրումը։ Ցանկում նշված են յուրաքանչյուր մասնակից, ըստ ցանկության կոնտակտային տվյալներ և այն ֆայլերը, որոնց նրանք ներդրում են կատարել։</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>Մասնակիցներ, որոնց երախտագիտություն է հայտնվում Exponential-ի և այն ծրագրաշարի վրա կատարած աշխատանքի համար, որից այն ծագել է, այն ֆայլերով, որոնցում նրանք ներդրում են ունեցել։ Սա երախտագիտություն է, ոչ թե հեղինակային իրավունքի ծանուցում. Exponential-ին արված ներդրումները Contributor Licensing Agreement-ի համաձայն փոխանցվում են Exponential Foundation-ին և 7x-ին։</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13881,32 +14101,20 @@ Note: The packages will not be uninstalled.</source>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%evaluate_link"&gt;Փորձարկեք Exponential Enterprise Edition-ը&lt;/a&gt; - &lt;a href="%share_link"&gt;Դարձեք Exponential համայնքի անդամ, փոխանակեք փորձ և նպաստեք&lt;/a&gt;։ &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Հեղինակային իրավունք &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; և այլոք։</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class="edition-info"&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>Աշխատում է &lt;span class="edition-info"&gt;%edition&lt;/span&gt;-ի վրա։ Լրացուցիչ տեղեկությունների համար տե՛ս &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;։</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Հեղինակային իրավունք &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; և այլոք։</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> Լրացուցիչ տեղեկությունների համար տե՛ս &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;։</translation>
     </message>
     <message>
-        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Հեղինակային իրավունք &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; և այլոք։</translation>
+        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href="%evaluate_link"&gt;Փորձարկեք Exponential-ը (7x-ից)&lt;/a&gt; - &lt;a href="%share_link"&gt;Դարձեք Exponential համայնքի անդամ, ստացեք աջակցություն և նպաստեք&lt;/a&gt;։</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Հեղինակային իրավունք &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; և այլոք։</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13915,6 +14123,61 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Help center</source>
         <translation>Օգնության կենտրոն</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>Բովանդակություն</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>Փաստաթղթի էջեր</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>Օգտատերեր</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>Բովանդակության դասեր</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>Կառավարում</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>Էջ %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>Դիտել բոլոր արդյունքները</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>%count արդյունք</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>Մեկ արդյունք</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>%count առաջարկ</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>Առաջարկներ չկան</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>Առաջարկները հնարավոր չեղավ բեռնել։</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>Առաջարկներ</translation>
     </message>
 </context>
 <context>
@@ -14383,6 +14646,14 @@ Note: The packages will not be uninstalled.</source>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>Այս տեղադրումը հանրային ցուցադրություն է. ցանկացած մարդ կարող է իմանալ նրա ադմինիստրատորի գաղտնաբառը, և ադմինիստրատորի գաղտնաբառերը հնարավոր չէ փոխել կամ վերակայել։ Այստեղ ոչ մի անձնական բան մի մուտքագրեք։</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Ձեր սարքերը</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Անվտանգության գործունեություն</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14672,6 +14943,14 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>Ուղեցույցներ, որոնում և ինչպես հաղորդել սխալի մասին։</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Նոր բովանդակություն</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Նորագույն բովանդակությունը, այն, ինչ պահվում է ստուգման համար, և գործողություններ ընտրվածի հետ։</translation>
     </message>
 </context>
 <context>
@@ -15130,6 +15409,46 @@ Note: The packages will not be uninstalled.</source>
         <source>Synchronisations</source>
         <translation>Համաժամացումներ</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>GraphQL API՝ դրա վերջնակետը, սխեման և հարցումներ փորձելու հարթակ։</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Միգրացիաներ</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Տեղադրման փոփոխություններ՝ պահված որպես ֆայլեր. դրանց վիճակը, գործարկումները, գործարկել և հետ վերադարձնել։</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Նոր բովանդակություն</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Նորագույն բովանդակությունը, այն, ինչ պահվում է ստուգման համար, և գործողություններ ընտրվածի հետ։</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Հրապարակել կայքի ստատիկ պատճենը GitHub Pages-ում կամ ցանկացած git հոսթինգում։</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Ստատիկ հրապարակում</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Տվյալների տիպեր</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Միջուկի և ընդլայնումների բոլոր տվյալների տիպերը, և ինչպես են դասերն ու բովանդակությունն օգտագործում դրանք։</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15294,6 +15613,22 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>Հաշիվներ, որոնք ոչ ոք չի օգտագործում կամ որոնց պետք է հայացք նետել. անջատեք, ապաարգելափակեք կամ արտահանեք դրանք։</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Օգտատերերի աուդիտի մատյան</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>Ով է փոփոխել, մուտք գործել կամ մերժվել՝ ըստ հաշիվների, զտման և արտահանման հնարավորությամբ։</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Մուտքերի հաշվետվություն</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>Ով է մուտք գործած, մուտքերն ու ձախողումներն ըստ օրերի, օգտատիրոջ դուրս բերում ամենուրեք։</translation>
     </message>
 </context>
 <context>
@@ -22110,6 +22445,22 @@ Note: The packages will not be uninstalled.</source>
         <source>%n hours ago</source>
         <translation>%n ժամ առաջ</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>GraphQL API-ի պահպանված հարցումների պատասխանները և դրա սխեմայի բովանդակության դասերը։</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>Հրապարակել ստատիկ պատճենը GitHub Pages-ում կամ ցանկացած git հոսթինգում</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Ստատիկ հրապարակում</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>Ստատիկ քեշը էջերը մատուցում է այս սերվերից։ Կայքի ստատիկ պատճենն այլ տեղ՝ GitHub Pages-ում կամ ցանկացած git հոսթինգում հրապարակելու համար օգտագործեք ստատիկ հրապարակումը։</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25651,6 +26002,10 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>last purge</source>
         <translation>վերջին մաքրում</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>Գրառումները չկարողացան վերցնել վիճակի կողպեքը (վերջին անգամ %date). յուրաքանչյուրը հնացած դարձրեց քեշավորված բոլոր արդյունքները։ %file-ը պետք է գրելի լինի յուրաքանչյուր օգտատիրոջ համար, որի անունից աշխատում է կայքը. NFS-ում անհրաժեշտ է NFSv4 կամ lockd։</translation>
     </message>
 </context>
 <context>
@@ -33599,6 +33954,14 @@ Note: The packages will not be uninstalled.</source>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>PHP մշակիչի ժամկետանց աշխատաշրջանները հեռացնում է հենց PHP-ն (session.gc_maxlifetime), այլ ոչ թե այս էջը կամ session_gc cron առաջադրանքի մասը։</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>Բոլոր օգտատերերի մուտք գործած աշխատաշրջանները ցուցակված են մուտքերի հաշվետվությունում, որտեղից կարելի է նաև ավարտել դրանք․ հաշվետվությունն աշխատում է աշխատաշրջանի ցանկացած մշակիչի հետ։</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>Բացել մուտքերի հաշվետվությունը</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37923,6 +38286,26 @@ your account.</source>
     <message>
         <source>None yet</source>
         <translation>Դեռևս ոչ մեկը</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Անվտանգության գործունեություն</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>Ձեր վերջին մուտքերը, ձախողված փորձերը և Ձեր գաղտնաբառի, էլփոստի հասցեի և երկքայլ մուտքի փոփոխությունները։</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>Այս հաշվի վերջին մուտքերը, ձախողված փորձերը և անվտանգության փոփոխությունները։</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>Դիտել գործունեությունը</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>Ձախողված մուտքեր: %count</translation>
     </message>
 </context>
 <context>
@@ -44089,6 +44472,42 @@ If you want to send comments to the approver or view the status use the URL belo
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>Մուտք գործելուց հետո օգտատերը պետք է նոր գաղտնաբառ ընտրի՝ նախքան որևէ այլ բան անելը։ Օգտագործեք դա, երբ ինչ-որ մեկին ժամանակավոր գաղտնաբառ եք տալիս։</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>Ընտրել առկա պատկեր</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>Ձեր ընտրած օբյեկտի պատկերի ֆայլը պատճենվում է այս դաշտ։ Մյուս օբյեկտը չի փոխվում։</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>«%name»-ի պատկերը պատճենվեց այս դաշտ։</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>Զննել պատկեր գտնելու համար</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>Որոնել պատկերներ ըստ անվան</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Որոնել</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>Օգտագործել «%name»-ի պատկերը</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>Օգտագործել այս պատկերը</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>Ձեր որոնմանը համապատասխանող պատկեր չկա։</translation>
     </message>
 </context>
 <context>
@@ -51013,6 +51432,10 @@ See the requirements page for more information.</source>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>Crontab-ը չգրվեց (%reason)։ Ավելացրեք այս տողերը այն օգտատիրոջ crontab-ում, որի անունից աշխատում է կայքը, այլապես հերթը, ներմուծումները, ծանուցումները և որոնման ինդեքսը երբեք չեն գործարկվի՝</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>Վերատեղադրումը կատարվում է Kickstarter-ով (%file, ապա php bin/php/kickstarter.php run --apply) կամ նոր տեղադրմամբ։</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54892,6 +55315,10 @@ your account.</source>
         <source>eZJSCore Public Packer cache</source>
         <translation>eZJSCore հանրային փաթեթավորիչի քեշ</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>GraphQL քեշ (պատասխաններ և սխեմայի դասեր)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54978,6 +55405,14 @@ your account.</source>
     <message>
         <source>Copy of %class_name</source>
         <translation>%class_name դասի պատճեն</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Տվյալների տիպեր</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>Տվյալների տիպ %string</translation>
     </message>
 </context>
 <context>
@@ -55804,6 +56239,26 @@ your account.</source>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>SVG պատկերը չհաջողվեց կարդալ, կամ դրանում ոչինչ չի կարող անվտանգ ցուցադրվել։</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>Պատկերը հնարավոր չեղավ պատճենել։ Խնդրում ենք կրկին փորձել կամ կապվել կայքի ադմինիստրատորի հետ։</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>Ընտրված օբյեկտը գոյություն չունի, կամ դուք իրավունք չունեք այն կարդալու։</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>Ընտրված օբյեկտը պատկեր չունի։</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>Ընտրված օբյեկտի պատկերի ֆայլը հնարավոր չեղավ կարդալ։</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>Ընտրված օբյեկտի պատկերը մեծ է այս դաշտի թույլատրելի չափից՝ %1 բայթ։</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56334,6 +56789,42 @@ your account.</source>
         <source>The bookmark was renamed to "%name".</source>
         <translation>Էջանիշի անունը փոխվել է՝ «%name»։</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>Այս էջն անջատված է կայքի այս մուտքի կետում (%siteaccess)։ Բացեք էջանիշը կայքի այնպիսի մուտքի կետում, որտեղ այս էջը կա։</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>Այս էջի մոդուլն այստեղ տեղադրված կամ միացված չէ։</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>Այս էջն այլևս գոյություն չունի, քանի որ նրա մոդուլը նման դիտում չունի։</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>Ձեր դերերից ոչ մեկը թույլ չի տալիս Ձեզ բացել այս էջը։</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>Դուք չեք կարող օգտագործել կայքի այս մուտքի կետը։</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>Դուք չեք կարող կարդալ այն բովանդակությունը, որը ցույց է տալիս այս էջը։</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>Այս տեսակի էջը հնարավոր չէ ավելացնել էջանիշերում, քանի որ այն միայն գործողություն է կատարում ձևի վրա կամ մեկ պահի էջ է։</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>Այս էջի հասցեն բացակայում է։</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>Այս էջը հիմա հնարավոր չէ բացել։</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56805,6 +57296,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>Վերջին գործարկման ընթացքում փոստային տրանսպորտը մերժել է %count նամակ։ Ստուգեք փոստային սերվերը և site.ini MailSettings-ը։</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Սպասող իրադարձություններ: %count, և ծանուցումների cron առաջադրանքի ոչ մի գործարկում գրանցված չէ։ Ավելացրեք cron առաջադրանքի «frequent» մասը crontab-ում կամ գործարկեք exp:notification:run --apply։</translation>
     </message>
 </context>
 <context>
@@ -63061,6 +63556,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Choose another site or section with the node picker</source>
         <translation>Ընտրեք այլ կայք կամ բաժին հանգույցների ընտրիչով</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>Միայն համակարգի ադմինիստրատորը կարող է փոխել սեփականատիրոջը․ գործարկեք ./console exp:content-check --fix-permissions --apply որպես root։</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64594,6 +65093,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>empty</source>
         <translation>դատարկ</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>Ստորագրման բանալին մեկ տարուց ավելի հին է․ փոխարինեք այն exp:audit key rotate --apply հրամանով։</translation>
     </message>
 </context>
 <context>
@@ -68424,6 +68927,486 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Share of page time</source>
         <translation>Էջի ժամանակի բաժինը</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>պահանջվել է ամբողջական մշակում</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>էջերի քեշում այդ էջը չկար (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>էջերի քեշը չպատասխանեց</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>Մշակված</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>Մշակվել է միջուկի կողմից: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>Մատուցվել է էջերի քեշից %ms ms ընթացքում։ Էջը պահվել է ժամը %stored %render ms տևած մշակմամբ, %age վրկ առաջ։</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>Մշակել հիմա</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>Վերադառնալ քեշից դիտմանը</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>Ժամը %stored կատարված մշակումից (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>Այս հարցումը: մատուցվել է էջերի քեշից %ms ms ընթացքում։</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Օգտատեր</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>Օգտատիրոջ ID</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>Քեշի պրոֆիլ</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>Այս դիտումը</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>Դիտման քեշ</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>ըստ օգտատիրոջ (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>Օգտատիրոջ քեշի պրոֆիլ. նույն պրոֆիլով օգտատերերը կիսում են դիտումների քեշի ֆայլերը</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>այո</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ոչ</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Մուտքանուն</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>Մուտք գործած</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>Աշխատաշրջան</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>Բովանդակության դիտումների քեշի բանալու այն մասերը, որոնք կախված են օգտատիրոջից, ճիշտ այնպես, ինչպես բանալին է դրանք վերցնում, այս էջի ViewCacheTweaks կարգավորումների ներքո։ Նույն պրոֆիլով օգտատերերը կիսում են դիտումների քեշի ֆայլերը, եթե միայն դիտման սեփական մասերը չեն տարբերվում (նախընտրություններ, լսիչների բանալիներ). դրանք ունեն իրենց սեփական պրոֆիլը՝ միայն այս էջի համար։</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>Պրոֆիլ</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>Այս դիտումը (հանգույց %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: մուտք գործած յուրաքանչյուր օգտատեր ունի իր սեփական քեշի ֆայլերը։</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>Գործող ViewCacheTweaks: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>Մաս</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>Արժեք</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>Ոչ մի մաս կախված չէ օգտատիրոջից (ViewCacheTweaks)։</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>այս դիտումը</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>Պատճենել որպես տեքստ</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>Դերեր</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>Դերերի նշանակումները հնարավոր չեղավ կարդալ։</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>Դերի ID</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Դեր</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>Սահմանափակում</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>Նշանակված է</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>օգտատիրոջը</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>խումբ %name (օբյեկտ %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>Պատճենվեց</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>Չհաջողվեց պատճենել։</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>բաց է թողնվել լսիչի կողմից</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>Անանուն այցելուներ</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>նույնն է, ինչ ձերը</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>տարբեր</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>Պրոֆիլը, որը ստանում են անանուն այցելուները նույն ViewCacheTweaks կարգավորումներով, լռելյայն նախընտրություններով, առանց դիտման մասերի. սեսիան կարդացող լսիչից դրանք հնարավոր չէ պահանջել։</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>Նախընտրություններ</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>Ոչ մի դիտման ռեժիմ կախված չէ օգտատիրոջ նախընտրություններից (site.ini [ContentSettings] CachedViewPreferences)։</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>Նախընտրությունները, որոնցից կախված են այս դիտման ռեժիմների դիտումները (CachedViewPreferences), օգտատիրոջ արժեքով կամ լռելյայնով։ Դրանք պրոֆիլում են որպես userpreferences, բոլոր դիտման ռեժիմներինը միասին։</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>Դիտման ռեժիմ</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>Նախընտրություն</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>Լռելյայն</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>Քաղաքականություններ</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>Ցուցադրել դերերի քաղաքականությունները (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>Քաղաքականությունները բեռնվում են սերվերից այս բաժինը բացելիս, մեկական էջով, և կարող են զտվել ըստ մոդուլի և ֆունկցիայի։</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>Ֆունկցիա</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>Բոլոր մոդուլները</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>Բոլոր ֆունկցիաները</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>Սահմանափակումներ</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>Ցուցադրել ավելին</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>Այս դերերը քաղաքականություններ չունեն։</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>Ոչ մի քաղաքականություն չի համապատասխանում զտիչին։</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%shown / %matching քաղաքականություն (ընդամենը %total)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>Բացելիս բեռնվում է։</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>module/function, դեր, սահմանափակում</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>Որոնել քաղաքականություններում</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>Բեռնել ավելին</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>Մոդուլ/ֆունկցիա</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>Բոլոր դերերը (%count քաղաքականություն)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>Ոչ մի քաղաքականություն չի համապատասխանում։</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%shown՝ %matched քաղաքականությունից</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>Պատասխան չկա</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>քողարկված</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>Ցույց տալ բացատրությունները</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>Թաքցնել բացատրությունները</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Բացել</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>Բացել բոլորը</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>Փակել բոլորը</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>Բանալի կամ արժեք</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>Որոնել աշխատաշրջանում</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Տեսակ</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>ևս %count</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>ցույց տալու համար չափազանց խորը ներդրված</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>կրճատված, ընդամենը %count նիշ</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Սկսվել է</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>Թխուկի անուն</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>Աշխատաշրջանի ID</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>Մշակիչ</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>Պահպանման ուղի</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>PHP-ի լռելյայն</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>Կյանքի տևողություն (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>Թխուկ</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>տևողություն %s վ</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>Ձեր սեփական PHP աշխատաշրջանը, ինչպես որ այն էր բաժինը բացելու պահին, երբեք ուրիշինը։ Գաղտնիքի նման բանալիների (թոքեններ, հեշեր, գաղտնաբառեր) արժեքները քողարկված են (debugbar.ini SessionMask[]), մնացած ամեն ինչ ցուցադրվում է այնպես, ինչպես պահված է, անձնական տվյալները նույնպես։</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>%count բանալի, %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>մեծ</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>Աշխատաշրջանը դատարկ է։</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>Այս հարցման համար աշխատաշրջան չի սկսվել։</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Ընդլայնում՝ %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>Միջուկ և այլն</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>Ոչ բոլոր գրառումներն են ցուցադրված. աշխատաշրջանն ավելին է պարունակում, քան կարելի է այստեղ թվարկել։</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>%count բանալի թվարկված չէ։</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>Շրջանակ</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>Թոքենի նման արժեքները (JSON Web Token, Authorization վերնագրի հավատարմագրեր, մասնավոր բանալի, երկար hex կամ պատահական տեքստ) նույնպես քողարկվում են՝ անկախ նրանից, թե ինչպես է կոչվում նրանց բանալին (debugbar.ini SessionValueMask[])։</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>Բանալին գաղտնիքի նման է (debugbar.ini SessionMask[])։</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>Արժեքը թոքենի նման է։</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>Քողարկված բանալու տակ։</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>Աշխատաշրջանը որպես տեքստ, քողարկված ինչպես աղյուսակը։</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>Աշխատաշրջանը %size-ից մեծ է (debugbar.ini SessionWarnBytes). այս օգտատիրոջ յուրաքանչյուր հարցում կարդում է ամբողջ աշխատաշրջանը և գրում այն, երբ այն փոխվել է։</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP-ն պահում է այս աշխատաշրջանը ֆայլերում և կողպում ֆայլը ամբողջ հարցման ընթացքում. նույն օգտատիրոջ հարցումները (մի քանի ներդիր, AJAX կանչեր) սպասում են միմյանց։</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>Պահել բաց</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>%size-ից մեծ (debugbar.ini SessionWarnBytes). այս օգտատիրոջ յուրաքանչյուր հարցում կարդում է ամբողջ աշխատաշրջանը։</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%count-ից %hits-ը կարդացվել է քեշից</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>Ոչ մի ձևանմուշ չի մատուցվել (դիտման քեշից կարդացված դիտումը ոչ մի ձևանմուշ չի մատուցում)։</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>Դերերի վերագրումներ</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>Դերեր և քաղաքականություններ</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>տարբերվում է անանուն այցելուներից</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>նույնն է, ինչ անանուն այցելուներինը</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70304,6 +71287,14 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>not sent</source>
         <translation>չի ուղարկվել</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Ծանուցումների cron առաջադրանքն այստեղ գրանցում է իր յուրաքանչյուր գործարկումը։ Ավելացրեք frequent մասը crontab-ում կամ գործարկեք exp:notification:run --apply։</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>Օգտագործեք վահանակը: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -76022,6 +77013,98 @@ You will need to change the class of the node by using the swap functionality.</
         <source>This topic is not Released; readers do not see it.</source>
         <translation>Այս թեման «Թողարկված» չէ. ընթերցողները չեն տեսնում այն։</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Միգրացիաներ</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Տեղադրման փոփոխություններ՝ պահված որպես ֆայլեր. դրանց վիճակը, գործարկումները, գործարկել և հետ վերադարձնել։</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Հրապարակել կայքի ստատիկ պատճենը GitHub Pages-ում կամ ցանկացած git հոսթինգում։</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Ստատիկ հրապարակում</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>Վերանայման մեջ</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>Ընթերցողները տեսնում են այս էջը։</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>Թաքցված է ընթերցողներից, մինչև որևէ մեկը թողարկի այն։</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>Էջն այժմ վերանայման մեջ է։ Այն թաքցված է ընթերցողներից, մինչև թողարկվի։</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>Էջը թողարկված է. ընթերցողները հիմա տեսնում են այն։</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>Էջը կրկին սևագիր է։ Այն թաքցված է ընթերցողներից, մինչև վերանայվի և թողարկվի։</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>Թողարկել հիմա</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>Միայն %role դեր ունեցող օգտատերը, որը չի գրել այս տարբերակը, կարող է թողարկել այն։</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>Թողարկման սպասող օգնության թեմաներ</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>Թաքցնում է այն ընթերցողներից, մինչև կրկին թողարկվի։</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>Հաջորդը վերանայողը կստուգի այն։ Ընթերցողները դեռ չեն տեսնում այն։</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>Ընթերցողներն անմիջապես տեսնում են այն։</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>Հանում է այն վերանայումից՝ լրացուցիչ աշխատանքի համար։ Ընթերցողները չեն տեսնում այն։</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>Թաքցնե՞լ այս էջը ընթերցողներից։</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>Վերադարձնե՞լ այս էջը սևագրի։</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>Ընթերցողներն այլևս չեն տեսնում %title-ը, մինչև որևէ մեկը կրկին թողարկի այն։</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title-ը վերադառնում է սևագրի՝ լրացուցիչ աշխատանքի համար։ Ընթերցողները դեռ չեն տեսնում այն, և թողարկումից առաջ անհրաժեշտ է նոր վերանայում։</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Չեղարկել</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>Այս թեմաները վերանայման մեջ են։ Ընթերցողները կտեսնեն դրանք, երբ ընթացիկ տարբերակը չգրած որևէ մեկը թողարկի դրանք։</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76477,6 +77560,46 @@ You will need to change the class of the node by using the swap functionality.</
         <source>None.</source>
         <translation>Ոչ մեկը։</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>նույնականացման հավելվածով</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>էլփոստով ուղարկված կոդով</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>վերականգնման կոդով</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>մուտքի բանալիով</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>արտաքին հաշվով</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Անվտանգության գործունեություն</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>Ցուցադրվում է որպես իր ցանցը․ հասցեն պահվում է այնպես, ինչպես սահմանում են կայքի տվյալների պաշտպանության կարգավորումները։</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Գրանցված չէ</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Վայր</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>մոտավոր</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76720,6 +77843,42 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Manage devices</source>
         <translation>Կառավարել սարքերը</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>նույնականացման հավելվածով</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>էլփոստով ուղարկված կոդով</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>վերականգնման կոդով</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>մուտքի բանալիով</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>արտաքին հաշվով</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Անվտանգության գործունեություն</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Գրանցված չէ</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Վայր</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>մոտավոր</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76799,6 +77958,14 @@ You will need to change the class of the node by using the swap functionality.</
         <source>View the sessions of this user</source>
         <translation>Դիտել այս օգտատիրոջ աշխատաշրջանները</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>%site կայքում Ձեր %login հաշվով հենց նոր մուտք է գործվել մի վայրից, որտեղից վերջերս մուտք չի գործվել:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>Մոտավոր վայր</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76837,6 +78004,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%browser, %os</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Մուտքերի հաշվետվություն</translation>
     </message>
 </context>
 <context>
@@ -77045,6 +78216,82 @@ You will need to change the class of the node by using the swap functionality.</
         <source>The passkey could not be checked. Please try again.</source>
         <translation>Մուտքի բանալին հնարավոր չեղավ ստուգել։ Խնդրում ենք փորձել նորից։</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>Միայն մուտքի բանալիներով մուտք գործող հաշիվներն այստեղ չեն կարող գաղտնաբառ օգտագործել․ ընտրեք «Մուտք գործել մուտքի բանալիով»։</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>%login-ի մուտքի բանալիները</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>Մուտքի բանալիները, որոնցով մուտք է գործում այս հաշիվը։ Չեղարկեք այն բանալին, որը կորած կամ գողացված սարքի վրա է․ այն այլևս չի կարող մուտք գործել։ Նորերը սեփականատերն ինքն է ավելացնում։</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>Ձեր հաշվին մուտքի բանալի է անհրաժեշտ</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>Ավելացնել մուտքի բանալի Ձեր հաշվին</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>Շարունակելու համար ավելացրեք մուտքի բանալի։ Այնուհետև մուտք կգործեք դրանով՝ միայն գաղտնաբառի փոխարեն։</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>Մուտքի բանալիով մուտք գործելն ավելի արագ և ապահով է, քան գաղտնաբառով։ Ավելացրեք մեկը հիմա կամ շարունակեք առանց դրա։</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>Ոչ հիմա</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>Չեղարկե՞լ մուտքի բանալին «%name»</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>Այն այլևս չի կարող մուտք գործել այս հաշիվ։ Եթե այն վերջինն էր, սեփականատերը մուտք է գործում գաղտնաբառով, կամ Դուք նորն եք սահմանում։</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>Չեղարկել մուտքի բանալին</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>Չեղարկել</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>Այս հաշիվը մուտքի բանալի չունի։</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>Նույնականացուցիչ</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Անհայտ</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>Ձեր վերջին մուտքի բանալին․ ավելացրեք մեկ այլը, նախքան այն հեռացնելը։</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>Այս հաշիվը մուտք է գործում միայն մուտքի բանալիներով (մուտքի բանալիների քաղաքականություն)․ եթե ոչ մեկը չմնա, այն կրկին մուտք կգործի իր գաղտնաբառով։</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>Սա Ձեր վերջին մուտքի բանալին է, և Ձեր հաշիվն առանց դրա չի կարող մուտք գործել։ Նախ ավելացրեք մեկ այլ մուտքի բանալի։</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>Մուտքի բանալին «%name» չեղարկվեց։ Այն այլևս չի կարող մուտք գործել այս հաշիվ։</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77144,6 +78391,34 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Code from your authenticator app</source>
         <translation>Ձեր նույնականացման հավելվածի կոդը</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>Դուք պատրաստվում եք տվյալներն ընդմիշտ ջնջել կամ մատյանը դատարկել։</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>Ձեր գաղտնաբառը և մուտքի բանալի</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>Ձեր գաղտնաբառը և Ձեր նույնականացման հավելվածի կոդ</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>Կամ՝</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>Այս դիտարկիչը չի կարող օգտագործել մուտքի բանալիներ։ Օգտագործեք այլ եղանակ կամ այլ դիտարկիչ։</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>Երբ շարունակեք, Ձեր դիտարկիչը կխնդրի Ձեր մուտքի բանալիներից մեկը։</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>Շարունակել մուտքի բանալիով</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77234,6 +78509,70 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Setup</source>
         <translation>Կարգաբերում</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>Սեփական գաղտնաբառի, էլ. փոստի հասցեի, մուտքի բանալիների, երկքայլ մուտքի, վերականգնման կոդերի կամ API բանալիների փոփոխում և սեփական մյուս սարքերից դուրս գալ։</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>Օգտատերերի ստեղծում և խմբագրում, նրանց գաղտնաբառերն ու սարքերը, հաշվի կարգավորումներ, նոր օգտատիրական հաշիվների հաստատում կամ մերժում, դերերի նշանակում և քաղաքականությունների խմբագրում։</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>Տվյալների ջնջում</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>Աղբարկղի դատարկում, դրանից տարրերի հեռացում և միանգամից մի քանի տարրերի հեռացում։</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>Բովանդակության հեռացում, հրապարակում և պահպանում</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>Բովանդակության հեռացում (նաև աղբարկղ), հրապարակում և սևագրի պահպանում․ հարցվում է ձևը ուղարկելիս։ Լռելյայն անջատված է։</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>Զգայուն գործողությունից առաջ մուտք գործած օգտատերը կրկին հաստատում է, թե ով է․ իր գաղտնաբառով և մուտքի բանալիով, կամ առանց մուտքի բանալու՝ իր գաղտնաբառով և իր նույնականացման հավելվածի կոդով։ Հարցնում են միայն վեբ էջերը․ REST միջերեսը, SOAP-ը, WebDAV-ը, expservices մուտքը և հրամանի տողը երբեք չեն հարցնում։</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>Որտեղ են գործում կարգավորումները</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>Կարգավորումներ՝</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Կայքի յուրաքանչյուր մուտքի կետ</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>Միայն կայքի մուտքի կետ %name</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Բացել</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>Ում է հարցվում՝ %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>Նշեք օգտատերերի խմբերը, որպեսզի հարցվեն միայն դրանց անդամները (օրինակ՝ խմբագիրները)։ Ոչինչ նշված չէ՝ յուրաքանչյուր օգտատեր։</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>Պահպանված է settings/override/site.ini.append.php-ում՝ կայքի յուրաքանչյուր մուտքի կետի համար։ Պահպանելիս Ձեզ կխնդրեն հաստատել, որ դա Դուք եք։</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>Պահպանված է settings/siteaccess/%name/site.ini.append.php-ում։ settings/override-ում արժեքը գերակայում է դրա նկատմամբ։ Պահպանելիս Ձեզ կխնդրեն հաստատել, որ դա Դուք եք։</translation>
     </message>
 </context>
 <context>
@@ -77336,6 +78675,6822 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Open the page</source>
         <translation>Բացել էջը</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from–%to, ընդամենը %count</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>Մուտքանուն կամ օգտատիրոջ ID՝ այն հաշիվը, որին վերաբերում էր իրադարձությունը, կամ գործողությունը կատարած օգտատերը։</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Հաշիվ</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Գործողություն</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>Հետո</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>Ցանկացած արդյունք</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Մինչև</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Կատարող</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Մաքրել</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Կատարված</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>Իրադարձությունները պահվում են %days օր։</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>Իրադարձությունները պահվում են, մինչև դրանք ձեռքով հեռացվեն։</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Իրադարձություններ</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>Բոլոր գործողությունները</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>Այս հաշվի բոլոր իրադարձությունները</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>Արտահանել ցանկը CSV ձևաչափով (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Ձախողված</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Սկսած</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>Նեղացնել ցանկը</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>Համապատասխան իրադարձություն չկա։</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Մեկ էջում</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>Գրանցումն անջատված է audit.ini ֆայլում ([UserAuditSettings] UserAudit), ցանկը ցույց է տալիս նախկինում գրանցվածը։</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Մերժված</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Արդյունք</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Ցուցադրել</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>Օգտատերերի աուդիտի մատյանի աղյուսակը բացակայում է։ Ստեղծեք այն php update/common/scripts/6.0/createuseraudittable.php հրամանով, մինչ այդ աուդիտի ֆայլերը պահում են յուրաքանչյուր իրադարձություն։</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>Այս էջին անհրաժեշտ է SQL տվյալների բազա, MongoDB համակարգում այն հասանելի չէ։ Աուդիտի ֆայլերը պահում են յուրաքանչյուր իրադարձություն։</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Մինչև</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Օգտատերերի աուդիտի մատյան</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Օգտատեր</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Երբ</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Որտեղ</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>Ով է փոփոխել, ստեղծել, միացրել, անջատել, տեղափոխել կամ հեռացրել որ հաշիվը, ով է մուտք գործել կամ մերժվել, և որ դերերն են նշանակվել՝ մեկ տող յուրաքանչյուր իրադարձության համար, դաշտերի նախկին և նոր արժեքներով։ Գաղտնաբառերը և գաղտնիքները երբեք չեն գրանցվում։</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>խումբ</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>համակարգ</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>անհայտ</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>Պաշտպանել Ձեր հաշիվը</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>%site կայքում Ձեր %login հաշիվ մուտք է գործվել վերականգնման կոդով։</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>Օգտագործվել է վերականգնման կոդ</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Հաշիվ</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>Մոտավոր հասցե</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>Կրկին մուտք գործելու համար պահանջեք նոր գաղտնաբառ կամ դիմեք կայքի ադմինիստրատորներին։</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>Պահանջել նոր գաղտնաբառ</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>Յուրաքանչյուր վերականգնման կոդ գործում է մեկ անգամ։ Եթե կորցրել եք Ձեր հեռախոսը, նորից կարգավորեք Ձեր նույնականացման հավելվածը և պահեք նոր վերականգնման կոդերն ապահով տեղում։</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>Ձեր հաշիվ մուտք գործելու ձախողված փորձեր</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>Այսուհետ մուտքի ժամանակ գաղտնաբառից բացի կպահանջվի նաև կոդ։ Եթե դա արել եք Դուք, ոչինչ անել պետք չէ։</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>Եթե դա Դուք էիք և մոռացել եք գաղտնաբառը, պահանջեք նորը։ Եթե ոչ, ընտրեք ավելի ուժեղ գաղտնաբառ և միացրեք երկքայլ մուտքը։</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>Եթե դա Դուք չէիք, հնարավոր է, որ ինչ-որ մեկը գիտի Ձեր գաղտնաբառը․ փոխեք այն հիմա և ստուգեք, թե որտեղ է Ձեր հաշիվը մուտք գործած։</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>Մնացած վերականգնման կոդեր</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>Ստուգել Ձեր սարքերը</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>Անվտանգության ահազանգ</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>Ինչ-որ մեկը %site կայքում փորձել է մուտք գործել Ձեր %login հաշիվ սխալ գաղտնաբառով %count անգամ անընդմեջ։</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>%site կայքում Ձեր %login հաշվում տեղի է ունեցել անվտանգության իրադարձություն։</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>Սա անվտանգության ահազանգ է Ձեր հաշվի վերաբերյալ։ Այն ուղարկվում է յուրաքանչյուր նման փոփոխության դեպքում և հնարավոր չէ անջատել։</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Ժամանակ</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>%site կայքում Ձեր %login հաշվի երկքայլ մուտքն անջատվել է։</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>Երկքայլ մուտքն անջատվել է</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>%site կայքում Ձեր %login հաշվի երկքայլ մուտքը միացվել է։</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>Երկքայլ մուտքը միացվել է</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>%site կայքում Ձեր %login հաշիվն արգելափակվել է չափազանց շատ ձախողված մուտքերից հետո։</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>Ձեր հաշիվն այժմ պաշտպանված է միայն գաղտնաբառով։ Եթե դա արել եք ոչ Դուք, գաղտնաբառը փոխելուց հետո կրկին միացրեք երկքայլ մուտքը։</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>Ձեր հաշիվն արգելափակվել է</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>%site կայքում Ձեր %login հաշվին մուտքի բանալի է ավելացվել։</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>Յուրաքանչյուր ոք, ով ունի այս մուտքի բանալին, կարող է մուտք գործել Ձեր հաշիվ առանց Ձեր գաղտնաբառի։ Եթե այն Դուք չեք ավելացրել, հեռացրեք այն «Մուտքի բանալիներ» բաժնում և փոխեք Ձեր գաղտնաբառը։</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>%site կայքում Ձեր %login հաշվից մուտքի բանալի է հեռացվել։</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>Այն այլևս չի կարող մուտք գործել Ձեր հաշիվ։ Եթե այն Դուք չեք հեռացրել, ստուգեք Ձեր մուտքի բանալիները և սարքերը։</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>Ձեր հաշվին մուտքի բանալի է ավելացվել</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>Ձեր հաշվից մուտքի բանալի է հեռացվել</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>Անվտանգության գործունեություն</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Անվտանգության գործունեություն: %name</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Մուտք է գործել</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Մուտքի ձախողված փորձ</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Դուրս է եկել</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Աշխատաշրջաններն ավարտվել են</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Մուտք նոր սարքից</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Մուտք նոր վայրից</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Ինքնությունը հաստատվել է («Հաստատեք, որ դա Դուք եք»)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Ինքնության ստուգումը ձախողվել է</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Մուտք է գործել մուտքի բանալիով</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Մուտքը մուտքի բանալիով ձախողվել է</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Մուտքը մերժվել է․ երկքայլ մուտքի կոդը բացակայում է կամ սխալ է</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Երկքայլ մուտքի սխալ կոդ</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Հաշիվն արգելափակվել է ձախողված մուտքերից հետո</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Հաշիվն ապաարգելափակվել է</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Գաղտնաբառը փոխվել է</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Գաղտնաբառի փոփոխությունը ձախողվել է</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Գաղտնաբառը վերակայվել է</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Պահանջվել է նոր գաղտնաբառ</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Էլփոստի հասցեն փոխվել է</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Օգտանունը փոխվել է</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Երկքայլ մուտքը միացվել է</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Երկքայլ մուտքն անջատվել է</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Օգտագործվել է վերականգնման կոդ</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Նոր վերականգնման կոդեր</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Հավելվածի գաղտնաբառը ստեղծվել է</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Հավելվածի գաղտնաբառը հետ է կանչվել</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Մուտքի բանալին ավելացվել է</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Մուտքի բանալին հեռացվել է</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Հաշիվը միացվել է</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Հաշիվն անջատվել է</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Բոլորը</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Մուտքեր և աշխատաշրջաններ</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Հաշվի փոփոխություններ</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Պահանջում է ուշադրություն</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>Ձեր կողմից</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>օգտատիրոջ կողմից</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>կատարող: %login</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>Եղանակ</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>Դիտարկիչ</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>Օպերացիոն համակարգ</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Սարք</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>Վայր</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>Երկիր</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Աշխատաշրջաններ</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>Որոնք</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>Ալիք</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Ձախողված փորձեր</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>Մնացած կոդեր</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>Մուտքի մշակիչ</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Անվտանգության գործունեություն</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Անվտանգության գործունեություն: %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Ձեր հաշվի մուտքերը և անվտանգության փոփոխությունները։ Եթե տեսնում եք մի բան, որը Դուք չեք արել, փոխեք Ձեր գաղտնաբառը և դուրս բերեք այն սարքերը, որոնք չեք ճանաչում։</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>Այս հաշվի մուտքերը և անվտանգության փոփոխությունները։</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Ձեր սարքերը</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Փոխել գաղտնաբառը</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>Վերադառնալ հաշվին</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>Անվտանգության գործունեությունը չի գրանցվում</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>Այն կարդացվում է օգտատերերի աուդիտի մատյանից, որի expuser_audit աղյուսակը բացակայում է կամ չի աջակցվում այս տվյալների բազայում։ Գործարկեք php update/common/scripts/6.0/createuseraudittable.php կամ 6.0.15 տարբերակի տվյալների բազայի թարմացումը։</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Վերջին %days օրը</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Մուտքեր վերջին %days օրում</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>Անվտանգության վերջին գործունեություն</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Ցուցադրել</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>ձախողված</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>մերժված</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Անվտանգության գործունեություն դեռ չի գրանցվել։</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>Անվտանգության իրադարձությունները պահվում են %days օր։</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>Անվտանգության իրադարձությունները պահվում են, մինչև ադմինիստրատորը դրանք հեռացնի։</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Ներբեռնել իմ մուտքի տվյալները</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Ձեր աշխատաշրջաններն ու անվտանգության իրադարձությունները JSON ֆայլի տեսքով։</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Այս կայքում աշխատաշրջանները չեն գրանցվում, ուստի ոչ մի այլ սարք չհաջողվեց դուրս բերել։ Փոխեք ձեր գաղտնաբառը հիմա։</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count այլ աշխատաշրջան դուրս բերվեց։ Այժմ փոխեք ձեր գաղտնաբառը։</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Ոչ մի այլ սարք մուտք գործած չէր։ Այժմ փոխեք ձեր գաղտնաբառը։</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Շնորհակալություն։ Իրադարձությունը նշվել է որպես ձերը։</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Այդ իրադարձությունը պատասխանի կարիք չունի։</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Էջի ժամկետն անցել էր։ Ոչինչ չի փոխվել, խնդրում ենք կրկին փորձել։</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Պաշտպանել ձեր հաշիվը</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Եթե այստեղ ինչ-որ բան դուք չէիք, դուրս բերեք բոլոր մյուս սարքերը, ապա ընտրեք նոր գաղտնաբառ։ Հիշել ինձ-ով մուտք գործած պահված սարքերը նույնպես դուրս են բերվում։</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Բոլոր սարքերը, բացի այս մեկից, դուրս են բերվում իրենց հաջորդ հարցման ժամանակ։ Այնուհետև դուք ընտրում եք նոր գաղտնաբառ։</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Այո, դուրս բերել մյուս սարքերը</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Սա դո՞ւք էիք</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Այո, ես էի</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Ոչ, պաշտպանել իմ հաշիվը</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Մուտք է գործել</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Մուտքի ձախողված փորձ</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Դուրս է եկել</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Աշխատաշրջաններն ավարտվել են</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Մուտք նոր սարքից</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Մուտք նոր վայրից</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Ինքնությունը հաստատվել է («Հաստատեք, որ դա Դուք եք»)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Ինքնության ստուգումը ձախողվել է</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Մուտք է գործել մուտքի բանալիով</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Մուտքը մուտքի բանալիով ձախողվել է</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Մուտքը մերժվել է․ երկքայլ մուտքի կոդը բացակայում է կամ սխալ է</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Երկքայլ մուտքի սխալ կոդ</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Հաշիվն արգելափակվել է ձախողված մուտքերից հետո</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Հաշիվն ապաարգելափակվել է</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Գաղտնաբառը փոխվել է</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Գաղտնաբառի փոփոխությունը ձախողվել է</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Գաղտնաբառը վերակայվել է</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Պահանջվել է նոր գաղտնաբառ</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Էլփոստի հասցեն փոխվել է</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Օգտանունը փոխվել է</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Երկքայլ մուտքը միացվել է</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Երկքայլ մուտքն անջատվել է</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Օգտագործվել է վերականգնման կոդ</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Նոր վերականգնման կոդեր</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Հավելվածի գաղտնաբառը ստեղծվել է</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Հավելվածի գաղտնաբառը հետ է կանչվել</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Մուտքի բանալին ավելացվել է</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Մուտքի բանալին հեռացվել է</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Հաշիվը միացվել է</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Հաշիվն անջատվել է</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Բոլորը</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Մուտքեր և աշխատաշրջաններ</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Հաշվի փոփոխություններ</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Պահանջում է ուշադրություն</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Անվտանգության գործունեություն</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Անվտանգության գործունեություն: %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Ձեր հաշվի մուտքերը և անվտանգության փոփոխությունները։ Եթե տեսնում եք մի բան, որը Դուք չեք արել, փոխեք Ձեր գաղտնաբառը և դուրս բերեք այն սարքերը, որոնք չեք ճանաչում։</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Ձեր սարքերը</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Փոխել գաղտնաբառը</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>Այս կայքում անվտանգության գործունեությունը դեռ չի գրանցվում։</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Մուտքեր վերջին %days օրում</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Ձախողված փորձեր</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Անվտանգության գործունեություն դեռ չի գրանցվել։</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Ներբեռնել իմ մուտքի տվյալները</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Ձեր աշխատաշրջաններն ու անվտանգության իրադարձությունները JSON ֆայլի տեսքով։</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Այս կայքում աշխատաշրջանները չեն գրանցվում, ուստի ոչ մի այլ սարք չհաջողվեց դուրս բերել։ Փոխեք ձեր գաղտնաբառը հիմա։</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count այլ աշխատաշրջան դուրս բերվեց։ Այժմ փոխեք ձեր գաղտնաբառը։</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Ոչ մի այլ սարք մուտք գործած չէր։ Այժմ փոխեք ձեր գաղտնաբառը։</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Շնորհակալություն։ Իրադարձությունը նշվել է որպես ձերը։</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Այդ իրադարձությունը պատասխանի կարիք չունի։</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Էջի ժամկետն անցել էր։ Ոչինչ չի փոխվել, խնդրում ենք կրկին փորձել։</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Պաշտպանել ձեր հաշիվը</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Եթե այստեղ ինչ-որ բան դուք չէիք, դուրս բերեք բոլոր մյուս սարքերը, ապա ընտրեք նոր գաղտնաբառ։ Հիշել ինձ-ով մուտք գործած պահված սարքերը նույնպես դուրս են բերվում։</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Բոլոր սարքերը, բացի այս մեկից, դուրս են բերվում իրենց հաջորդ հարցման ժամանակ։ Այնուհետև դուք ընտրում եք նոր գաղտնաբառ։</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Այո, դուրս բերել մյուս սարքերը</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Սա դո՞ւք էիք</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Այո, ես էի</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Ոչ, պաշտպանել իմ հաշիվը</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>Գաղտնաբառ</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>Գաղտնաբառ և երկքայլ մուտքի կոդ</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>REST միջերես</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>SOAP միջերես</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>Միասնական մուտք (SSO)</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>Մուտք է գործել մինչև աշխատաշրջանների գրանցումը</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Մուտքերի հաշվետվություն</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>Ով է մուտք գործած կայք, որքան հաճախ են հաշիվները մուտք գործում և ձախողում, ինչպես նաև օգտատիրոջ դուրս բերում ամենուրեք։ Աշխատում է աշխատաշրջանի ցանկացած մշակիչի հետ։</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>Աշխատաշրջանն ավարտվել է։ Սարքը պետք է նորից մուտք գործի։</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>%login օգտատերը դուրս է բերվել %count աշխատաշրջանից։</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>%login օգտատերը ընթացիկ աշխատաշրջան չուներ։</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>Այդ ID-ով, օգտանունով կամ էլփոստի հասցեով հաշիվ չկա։</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>Սա այն աշխատաշրջանն է, որը Դուք օգտագործում եք։ Այն ավարտելու համար դուրս եկեք։</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>Այդ աշխատաշրջանն արդեն ավարտված էր։</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Էջի ժամկետն անցել էր։ Ոչինչ չի փոխվել, խնդրում ենք կրկին փորձել։</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>Այս կայքում աշխատաշրջանները չեն գրանցվում (site.ini [UserSessionSettings] Tracking=disabled)։</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>expuser_session աղյուսակը բացակայում է</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>Աշխատաշրջանները կգրանցվեն, երբ այն ստեղծվի․ php update/common/scripts/6.0/createusersessiontable.php կամ 6.0.15 տարբերակի տվյալների բազայի թարմացումը։</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>Հիմա և այսօր</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>Ընթացիկ աշխատաշրջաններ</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>Մուտք գործած օգտատերեր</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>Այսօրվա մուտքեր</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>Այսօրվա ձախողված փորձեր</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>Դուրս բերել օգտատիրոջն ամենուրեք</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>Հաշվի յուրաքանչյուր աշխատաշրջան ավարտվում է իր հաջորդ հարցման ժամանակ, այդ թվում՝ «Հիշել ինձ»-ով պահպանվածները։ Օգտագործեք սա, երբ հաշիվը կարող է սխալ ձեռքերում լինել, ապա վերակայեք դրա գաղտնաբառը։</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>Օգտատիրոջ ID, օգտանուն կամ էլփոստի հասցե</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>Դուրս գալ ամենուր</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>Այժմ մուտք գործած</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>Ցուցադրված են վերջին օգտագործված %limit աշխատաշրջանները։</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Օգտատեր</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Սարք</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Հասցե</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>Մուտք է գործել</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>Վերջին ակտիվություն</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Գործողություններ</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>Այս սարքը</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Գրանցված չէ</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>Դուրս գալ</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>Մուտք գործած աշխատաշրջան չկա։</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Վերջին %days օրը</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>Մուտքերն ու ձախողված փորձերը հաշվվում են օգտատերերի աուդիտի մատյանից, որը բացակայում է․ նոր աշխատաշրջանները հաշվվում են։</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>Օր</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>Մուտքեր</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Ձախողված փորձեր</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>Նոր աշխատաշրջաններ</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>Աշխատաշրջանի մշակիչ: %handler։ Աշխատաշրջանները կարդացվում են expuser_session աղյուսակից, ուստի հաշվետվությունն աշխատում է ցանկացած մշակիչի հետ։</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>Կասկածելի գործունեություն վերջին %hours ժամում</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>Մեկ ցանց չկարողացավ մուտք գործել %accounts հաշիվ (%count փորձ)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Հաշիվը կողպվել է ձախողված մուտքերից հետո</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>%count ձախողված մուտք մեկ հաշվում</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>Մուտք գործած է %count երկրից միաժամանակ</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Անվտանգության գործունեություն</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Աշխատաշրջաններ</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>Ձախողված մուտքերը կարդացվում են օգտատերերի աուդիտի մատյանից, որը այստեղ հասանելի չէ։</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>Կասկածելի ոչինչ չկա. չկա կրկնվող ձախողված մուտքերով հաշիվ, չկա մի քանի հաշիվ փորձող ցանց, չկա մի քանի երկրից մուտք գործած հաշիվ։</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>Անվտանգության ահազանգ Ձեր հաշվի վերաբերյալ</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>Ձեր %login հաշվում տեղի է ունեցել անվտանգության իրադարձություն: %event։ Եթե դա Դուք չէիք, պաշտպանեք Ձեր հաշիվը հետևյալ հասցեով՝ %url։</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Կարգաբերում</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>Մեկ հարցումով խնդրեք այս կայքի բովանդակությունից հենց այն դաշտերը, որոնք պետք են էջին։ Սխեման հետևում է բովանդակության դասերին. յուրաքանչյուր հարցում կատարվում է այն ուղարկած օգտատիրոջ իրավունքներով։</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>GraphQL API-ն անջատված է կայքի այս մուտքի կետում։ Միացրեք այն graphql.ini-ում՝ [GraphQLSettings] Enabled=enabled։</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>GraphQL գրադարանը (webonyx/graphql-php 15) տեղադրված չէ։</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>Վերջնակետ</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>Գրադարան</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>Սխեմա</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>Բովանդակության դասեր՝ %count, սխեմա %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>Հարցում</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>Փոփոխականներ (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Գործարկել</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>Պատասխան</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>Կատարվում է…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>Պատասխանը հնարավոր չեղավ կարդալ։</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>Հարցումը կատարվում է ձեր իրավունքներով՝ այս սեսիայով մուտք գործած։</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%count %seconds վրկ-ում</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>առանց սահմանի</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>Խորություն</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>Բարդություն</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>Տարրեր ցանկում</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (լռելյայն %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>Դիմումներ ըստ օգտատիրոջ կամ բանալու</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>Դիմումներ ըստ անանուն հասցեի</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>Ինտրոսպեկցիա</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>Միայն պահպանված հարցումներ</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>Ամենամեծ հարցումը</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>%bytes բայթ</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>Ամենամեծ վերբեռնումը</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>%siteaccess կայքի մուտքի կետ չկա։</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>Մուտացիաները միացված են %siteaccess-ում։</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>Մուտացիաներն անջատված են %siteaccess-ում։</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>GraphQL API-ն միացված է %siteaccess-ում։</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>GraphQL API-ն անջատված է %siteaccess-ում։</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>Կարգավորումները հնարավոր չեղավ գրել՝ %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>Պատասխանների քեշը մաքրվեց՝ հեռացվեց %count պատասխան։</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>Նշեք հարցման կողքի վանդակը՝ այն հեռացնելու համար։</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>Հարցումը հնարավոր չեղավ հեռացնել՝ PersistedQueryDirectoryList[]-ի պանակում մատակարարված հարցումը հեռացվում է իր ֆայլի հետ։</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>Պահպանված հարցումը հեռացվեց։</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>Մուտացիաներ</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>միացված</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>անջատված</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Կայքի մուտքի կետեր</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>Որտեղ են պատասխանում API-ն և նրա մուտացիաները։ Կոճակները գրում են graphql.ini, ինչպես ./console exp:graphql:enable և exp:graphql:disable։</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Կայքի մուտքի կետ</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>GraphQL API</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Փոխել</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Անջատել</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>Մուտացիաներն անջատված են</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>Մուտացիաները միացված են</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Միացնել</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>Սահմանաչափեր</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>Կայքի այս մուտքի կետի graphql.ini [GraphQLSettings]։</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>Պատասխանների քեշ</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>Պահպանված հարցումների պատասխանները՝ պահվում են ըստ օգտատիրոջ իրավունքների և ժամկետանց են դառնում ամեն անգամ, երբ բովանդակություն է հրապարակվում։</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Վիճակ</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>Պահված պատասխաններ</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>%count պատասխան, %bytes բայթ</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>Պահվում է առավելագույնը</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds վրկ</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>Վերջին ժամկետանցում</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>Մաքրել պատասխանների քեշը</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>Պահպանված հարցումներ</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>Պահպանվում են ./console exp:graphql:persist-ով կամ հաճախորդների կողմից (automatic persisted queries)։ Կանչվում են անունով կամ SHA-256-ով։</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>Անուններ</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Չափ</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Որտեղ</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Հեռացնել</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>մատակարարված</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>պահպանված</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>Այո, հեռացնել այս հարցումը</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>Պահպանված հարցում դեռ չկա։</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>API բանալիներ</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>Անձնական API բանալիներ graphql:read (հարցումներ) կամ graphql:write (մուտացիաներ) շրջանակով։ Ստեղծեք և չեղարկեք դրանք API հասանելիություն էջում կամ ./console exp:graphql:keys-ով։</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>API հասանելիություն</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>Բոլոր բանալիները</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>Բանալի</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Անուն</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Սեփականատեր</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>Շրջանակներ</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>Վերջին օգտագործում</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>ակտիվ</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>ժամկետանց</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>չեղարկված</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>երբեք</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>GraphQL շրջանակով API բանալի դեռ չկա։</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>GraphQL API-ն անջատված է կայքի %siteaccess մուտքի կետում, որը ցույց է տալիս այս էջը, իսկ ստորև բերված աղյուսակը ցույց է տալիս, թե որտեղ է այն պատասխանում։</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>Կայքի %siteaccess մուտքի կետի համար, որը ցույց է տալիս այս էջը։</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>Վեբհուքեր</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>Յուրաքանչյուր իրադարձություն, որ վերջնակետը խնդրում է (publish, update, trash, delete, move, hide, reveal, mutation), ստորագրված ուղարկվում է նրան cronjob-ի graphqlwebhooks մասի կողմից։ Հրամանը ./console exp:graphql:webhooks անում է նույնը, ինչ այս բաժինը։</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Իրադարձություններ</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>բոլորը</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Կայքի յուրաքանչյուր մուտքի կետ</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>խափանված</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>առանց գաղտնիքի</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>Սպասող</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count հրաժարված</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>Վերջին առաքում</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Ուղարկել փորձնական</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>Այո, հեռացնել այս վեբհուքը</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>Վեբհուք դեռ չկա։</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>Ավելացնել վեբհուք</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>Ավելացնել</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>Վերջին առաքումներ</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Ժամ</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Արդյունք</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>Բաժանորդագրություններ</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>Կենդանի թարմացումներ հաճախորդների համար՝ իրադարձությունների հոսք /api/graphql/subscribe հասցեում և WebSocket (graphql-transport-ws) Velocity-ում։ Յուրաքանչյուր իրադարձություն գնում է միայն այն բաժանորդներին, որոնք կարող են կարդալ դրա բովանդակությունը։</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>Այժմ բաց</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>Առավելագույնը բաց</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>ընդամենը %total, %user մեկ օգտատիրոջ համար, %address մեկ հասցեի համար</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>Անանուն բաժանորդագրություններ</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>Հոսքի տևողություն</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>Վեբհուքը հնարավոր չեղավ ավելացնել՝ %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>%name վեբհուքը փոխվեց, դրա ստորագրման գաղտնիքը մնում է։</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>Ստորագրման գաղտնիքը հնարավոր չեղավ պահել (Կարգաբերում &gt; Գաղտնիքներ)։</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>%name վեբհուքն ավելացվեց։ Դրա ստորագրման գաղտնիքը, որ ցուցադրվում է միայն այս անգամ՝ %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>%name վեբհուք չկա։</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>%name վեբհուքը չպատասխանեց՝ %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>%name վեբհուքը պատասխանեց %status %ms ms ընթացքում։</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>Նշեք վեբհուքի կողքի վանդակը՝ այն հեռացնելու համար։</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>%name վեբհուքը հեռացվեց։</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>GraphQL API-ն անջատված է կայքի այս մուտքի կետում։</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>GraphQL գրադարանը տեղադրված չէ։</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>Օգտագործեք GET կամ POST։</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>Մարմինը JSON օբյեկտ չէ։</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables-ը JSON օբյեկտ չէ։</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions-ը JSON օբյեկտ չէ։</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>Ուղարկեք հարցումը POST-ով։</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>Դիմումը հարցում չի պարունակում։</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>Հարցումը %max բայթից երկար է։</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>Սերվերի ներքին սխալ</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node-ին անհրաժեշտ է ճիշտ մեկը id, remoteId, path և urlAlias արժեքներից։</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content-ին անհրաժեշտ է ճիշտ մեկը id և remoteId արժեքներից։</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>after-ի կուրսորը այս API-ից չէ։</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>%alias պատկերի այլանուն չկա (image.ini [AliasSettings] AliasList[])։</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>Այստեղ ընդունվում են միայն պահպանված հարցումներ՝ ուղարկեք պահպանված հարցման id-ն։</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>Պահպանված հարցման հեշը SHA-256 չէ։</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>Պահպանված հարցման հեշը չի համապատասխանում հարցմանը։</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>Չափազանց շատ դիմումներ՝ առավելագույնը %limit %window վայրկյանում։ Կրկին փորձեք %reset վայրկյանից։</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>Հարցման խորությունը %depth մակարդակ է. թույլատրվում է առավելագույնը %max։</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>Հարցման բարդությունը %complexity է. թույլատրվում է առավելագույնը %max։</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>Այս դիմումը չի կարող կարդալ սխեման (introspection)։</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search-ին անհրաժեշտ է տեքստ կամ զտիչ (classes, subtree, sections, publishedAfter, publishedBefore)։</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument-ը ամսաթիվ չէ (ISO 8601, 2026-10-30)։</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag-ին անհրաժեշտ է ճիշտ մեկը id, remoteId և path արժեքներից։</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout-ին անհրաժեշտ է ճիշտ մեկը id, identifier և urlAlias արժեքներից։</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>multipart դիմումի operations դաշտը մեկ JSON դիմում չէ։</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>multipart դիմումի map դաշտը JSON օբյեկտ չէ։</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>multipart դիմումում %field ֆայլ չկա։</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>Դաշտերի քարտեզի ուղին պետք է սկսվի variables.-ով՝ %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>%name ֆայլն ամբողջությամբ չի հասել (վերբեռնման սխալ %error)։</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>%name ֆայլը %max բայթից մեծ է։</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>%name ֆայլը հնարավոր չեղավ ստուգել։</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>Մուտացիաներն անջատված են կայքի այս մուտքի կետում (graphql.ini [GraphQLSettings] MutationsEnabled)։</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>Ուղարկեք մուտացիան POST-ով։</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>Մուտք գործեք՝ բովանդակությունը փոխելու համար։</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>API բանալին %scope շրջանակ չունի։</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>Սեսիայով մուտացիային անհրաժեշտ է սեսիայի ձևի թոքենը (X-CSRF-Token վերնագիր)։</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>uploadFromUrl-ն անջատված է՝ graphql.ini [GraphQLSettings] UploadFromUrlHostList[]-ում ոչ մի հոսթ նշված չէ։</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>Հասցեն պետք է լինի https հասցե։</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>%host հոսթը graphql.ini [GraphQLSettings] UploadFromUrlHostList[]-ում չէ։</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>Ֆայլը հնարավոր չեղավ ստանալ։</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload-ը միայն մուտքային տիպ է։</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>Upload տիպի փոփոխականն ընդունում է multipart դիմումի ֆայլ։</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>%remoteId հեռավոր id-ն արդեն զբաղված է։</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>Բովանդակությունն արդեն ունի %language թարգմանություն՝ օգտագործեք updateContent։</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>Տվեք առնվազն մեկ դաշտ։</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>Նոր տարբերակ հնարավոր չեղավ ստեղծել (բովանդակությունը չափազանց շատ սևագրեր ունի)։</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>%version տարբերակը սևագիր չէ։</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent-ին անհրաժեշտ է ճիշտ մեկը id և nodeId արժեքներից։</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>Տեղադրությունը չի կարող տեղափոխվել իր իսկ տակ։</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>Բովանդակությունն արդեն ունի տեղադրություն %parentId-ի տակ։</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>%field դաշտի արժեքը հնարավոր չեղավ պահպանել։</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>%language բովանդակության լեզու չկա։</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>Սխեմայում %class բովանդակության դաս չկա։</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>Բովանդակությունը չկա, կամ դուք չեք կարող այն կարդալ։</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>Դուք չեք կարող դա անել այս բովանդակության հետ։</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>%class դասը չունի %field դաշտ, որը կարելի է գրել։</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>%field դաշտը տրված է երկու անգամ։</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>%field դաշտն ընդունում է ֆայլ՝ ուղարկեք այն որպես վերբեռնում (multipart դիմում)։</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>%field դաշտը ֆայլ չի ընդունում։</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>%field դաշտին արժեք է անհրաժեշտ։</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>%format ձևաչափը միայն ձևաչափված տեքստի դաշտերի համար է, %field-ն ընդունում է արժեքն այնպես, ինչպես կա (RAW)։</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>%field դաշտը պարտադիր է։</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>HTML-ը հնարավոր չեղավ կարդալ։</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content-ն ընդունում է version միայն id-ի հետ։</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>Նախադիտման թոքենն անվավեր է կամ ժամկետանց։</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>Ծագում չէ (https://host կամ https://host:port)՝ %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>GraphQL API-ի շրջանակ չէ՝ %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>Ուղարկեք բաժանորդագրությունները /api/graphql/subscribe հասցեով (իրադարձությունների հոսք կամ WebSocket)։</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>Հայտը չի անվանում փաստաթղթի որևէ գործողություն։</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>Բաժանորդագրությունը խնդրում է ճիշտ մեկ դաշտ։</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>Չափազանց շատ բաժանորդագրություններ են բաց, փորձեք ավելի ուշ։</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>Դուք ունեք %max բաց բաժանորդագրություն՝ թույլատրված առավելագույնը։</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>Ձեր հասցեն ունի %max բաց բաժանորդագրություն՝ թույլատրված առավելագույնը։</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>Բաժանորդագրություններն անջատված են կայքի այս մուտքի կետում։</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>Մուտք գործեք՝ բաժանորդագրվելու համար (թոքեն կամ անձնական API բանալի)։</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>Ուղարկեք մուտացիաները /api/graphql հասցեով։</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>Միգրացիաներ</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Չհաջողվեց կարդալ կարգավիճակը՝ %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Միգրացիաների աղյուսակները դեռ գոյություն չունեն. ./console exp:upgrade --apply-ը ստեղծում է դրանք։</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>%count միգրացիա ձախողվեց</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>Ընթանում է գործարկում, որը սկսել է %user-ը</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>Տեղադրումը կողպված է՝ %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Սպասման մեջ</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Ձախողված</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>Որբ</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Վերջին գործարկումը</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>դեռ չկա</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>Բոլոր միգրացիաները</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>Մոդելավորված գործարկում</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>Փորձնական գործարկում</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>Սպասման մեջ գտնվող միգրացիաները կատարվեցին տրանզակցիայում, որը հետո հետ շրջվեց. ոչինչ չպահպանվեց։ Ստորև նշված է, թե յուրաքանչյուրն ինչ փոխեց տվյալների բազայում։</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>Ինչ կաներ գործարկումը հիմա։ Ոչինչ չի փոխվում. սպասման մեջ գտնվող յուրաքանչյուր միգրացիա թվարկում է իր կատարելիք փոփոխությունները, իսկ գործարկումը՝ ինչ կաներ նախքան և հետո։</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>Մոդելավորել</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Գործարկել</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>Փորձնական գործարկումը ձախողվեց՝ %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>Մոդելավորման համար անհրաժեշտ է PostgreSQL կամ SQLite, որոնց սխեմայի փոփոխությունները կարելի է հետ շրջել. այս տվյալների բազայում ստորև ներկայացված պլանը ցույց է տալիս, թե ինչ կաներ գործարկումը։</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>Միգրացիաները</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>Միգրացիա</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Վիճակ</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>Ինչ կաներ</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>Մոդելավորում՝ %result, %ms մվ</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>Դեռ միգրացիա չկա։</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>Գործարկումից առաջ և հետո</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>Ակնթարթային պատկեր առաջ</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>արվում է և վերականգնվում, եթե միգրացիան ձախողվում է</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>անջատված</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>Ակնթարթային պատկեր հետո</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>արվում է, երբ գործարկումը հաջողվել է</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>%total միգրացիա՝ %pending սպասման մեջ, %done կատարված, %failed ձախողված։</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>Միգրացիաների պատմություն</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>Յուրաքանչյուր գործարկում՝ իր օգտատիրոջով, միջավայրով, ակնթարթային պատկերներով և այն ամենով, ինչ commit, tag և push է արվել։ Ձախողված կամ ընդհատված գործարկումը կարելի է վերսկսել. գործարկումը, որից առաջ ակնթարթային պատկեր է արվել, կարելի է հետ վերադարձնել։</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>Չհաջողվեց կարդալ գործարկումները՝ %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Միգրացիաների աղյուսակները դեռ գոյություն չունեն. ./console exp:upgrade --apply-ը ստեղծում է դրանք։</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Ցուցադրել</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Բոլորը</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>Գործարկումներ</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Սկսված</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Ում կողմից</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>Ակնթարթային պատկերներ</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Պահոց</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Գործողություններ</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>առաջ</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>հետո</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>ուղարկում՝ %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>Վերսկսել</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Հետ վերադարձնել</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>Այս վիճակում գործարկում չկա։</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>Սկսված այստեղ</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>Այս էջերում սկսված գործարկումներ, վերսկսումներ և հետ վերադարձներ՝ յուրաքանչյուրի հաշվետվությամբ։</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Ինչ</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Արդյունք</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Հետ վերադարձ</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>%target-ի հետ վերադարձ</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>Գործարկում %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Ինչ արեց գործարկումը, դրա գրառումը և մատյանը։ Այստեղ սկսված գործարկումը շարունակվում է հետին պլանում, երբ այս էջը փակվում է. կրկին բացեք էջը՝ այն հետևելու համար։</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>Վերսկսել այս գործարկումը</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>Հետ վերադարձնել այս գործարկումը</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>Չհաջողվեց կարդալ գրառումը՝ %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Ընթացք</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Սկսել է %user-ը՝ %time-ին։</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>Կոդի ստուգում և ակնթարթային պատկերի ստեղծում գործարկումից առաջ</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>Կատարվում է %id-ը (%index՝ %total-ից)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>%done՝ %total-ից կատարված է</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>Միգրացիաները կատարվել են. ակնթարթային պատկերը վերականգնվում է, եթե որևէ մեկը ձախողվել է</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>Ակնթարթային պատկեր գործարկումից հետո, commit, tag և push</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>Ակնթարթային պատկերի վերականգնում</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>Գործարկումն ավարտվել է։ Հաշվետվությունը բեռնվում է։</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>Չհաջողվեց հետևել ընթացքին։ Վերաբեռնեք էջը՝ տեսնելու, թե ինչպես է ընթանում գործարկումը։</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>Այս էջը հետևում է գործարկմանը դրա ընթացքում։</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Վերաբեռնել</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Հաշվետվություն</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Տևողություն</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms մվ</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>Ինչ է գործարկումը տպել որպես սխալներ</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Գրառում</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>Միջավայր</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>չկա</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Ավարտված</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Կոմիտ</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Պիտակ</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Ուղարկում</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Հաղորդագրություն</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>Այս գործարկման միգրացիաները</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>Աղբյուր</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>Գործարկման մատյան</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>Ցուցադրվում է միայն մատյանի վերջը։</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>ընթացքում</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>ավարտվել է առանց հաշվետվության</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>հաջողված</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>ձախողված</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>մերժված</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>տվյալների բազան հասանելի չէր</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>ներքին սխալ</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>Ընթանում է գործարկում</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind, սկսել է %user-ը՝ %time-ին։</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>Հետևել</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>Տեղադրումը կողպված է</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>Մեկ այլ գործարկում է պահում կողպեքը (թարմացում կամ գործարկում կոնսոլում)՝ %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>կատարված</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>սպասման մեջ</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>անհրաժեշտ չէ</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>անհայտ</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>հետ շրջված</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>կիրառված</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>կկիրառվեր</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>հետ վերադարձված</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>հետ կվերադարձվեր</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>չի կատարվել</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>սպասում է մեկ ուրիշին</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>փոփոխությունն ընդունված է</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>փոփոխությունը կընդունվեր</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>մոդելավորված</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Միգրացիաներ</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Կարգավիճակ</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Պատմություն</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>Հետ վերադարձնել %target-ը</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>Գործարկումը հետ է վերադարձվում իրենից առաջ արված ակնթարթային պատկերին, առանձին միգրացիան՝ իր down()-ով։ Ավելի վաղ ակնթարթային պատկերի վերականգնումը փորձագետների համար է։ Յուրաքանչյուրը կատարվում է հետին պլանում՝ ձեր անունից, ներկա վիճակի ակնթարթային պատկերից հետո։</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>Չհաջողվեց կարդալ, թե ինչ կարելի է հետ վերադարձնել՝ %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>Գործարկում</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>Մեկ միգրացիա</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>Ավելի վաղ ակնթարթային պատկեր</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>Նկարագրություն</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>այո</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ոչ</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Ակնթարթային պատկեր</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Անվանում</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>Արված</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Տեսակ</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>Վերականգնվող մասեր</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>Տվյալների բազան</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>Պահված ֆայլերը (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>Կարգավորումները (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>Վերականգնումը տվյալների բազան վերադարձնում է ակնթարթային պատկերի պահին, ներառյալ սեանսները. դրանից հետո հնարավոր է՝ ստիպված լինեք նորից մուտք գործել։ Այդ պահից ի վեր փոխված ամեն ինչ կորչում է. նախ արվում է ներկա վիճակի ակնթարթային պատկերը։</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>Ես գիտեմ, թե սա ինչ է վերականգնում</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>Կրկին մուտքագրեք ակնթարթային պատկերի նույնացուցիչը</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>Այո, հետ վերադարձնել</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Չեղարկել</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>Գործարկումները, որոնցից առաջ ակնթարթային պատկեր է արվել։</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>Ընտրել</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>Ակնթարթային պատկերով գործարկում դեռ չկա։</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>Կիրառված միգրացիաները, որոնք կարող են ինքնուրույն հետ վերադառնալ (ունեն down())։</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>Ոչ մի կիրառված միգրացիա down() չունի։</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>Ավելի վաղ ակնթարթային պատկերներ (փորձագետների համար)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>Ակնթարթային պատկեր դեռ չկա։</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>Գործարկել միգրացիաները</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>Գործարկումն ընթանում է հետին պլանում՝ որպես %user, և դրա էջը ցույց է տալիս ընթացքը։ Առաջին միգրացիայից առաջ արվում է տեղադրման ակնթարթային պատկերը. երբ միգրացիան ձախողվում է, գործարկումը կանգ է առնում, և ակնթարթային պատկերը վերականգնվում է։</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>Նախ փորձնական գործարկում</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Չհաջողվեց կարդալ կարգավիճակը՝ %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>Սպասման մեջ գտնվող միգրացիաներ</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>Դրանք կատարվում են այս հերթականությամբ։ Հանեք նշումը որևէ մեկից՝ այն և դրանից կախված միգրացիաները հետագա գործարկման թողնելու համար։</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>Գործարկել այն</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>Գործարկման ընթացքում միացնում է սպասարկման ռեժիմը։</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>Փոխված կիրառումից հետո</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>Այս ֆայլերը կիրառվածները չեն։ Գործարկումը մերժում է դրանք, եթե փոփոխությունը չի ընդունվում պատճառաբանությամբ. դրանք կրկին չեն կատարվում, նոր ստուգիչ գումարը գրանցվում է, իսկ պատճառը պահվում է աուդիտի մատյանում։</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>Ընդունել փոփոխությունները</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Պատճառ</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>Լռելյայն արժեքներն անվտանգն են։ Յուրաքանչյուր վանդակ բաց է թողնում մեկ քայլ։</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>Առանց ակնթարթային պատկերի</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>Առանց ակնթարթային պատկերի գործարկումից առաջ և հետո. ձախողումից հետո ավտոմատ վերականգնում հնարավոր չէ։</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>Առանց վերականգնման</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>Ձախողումից հետո թողնել տեղադրումն այնպես, ինչպես այն թողել է ձախողումը։</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>Պահել commit չարված փոփոխությունները</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>Գործարկել, թեև կարգավորումները, ընդլայնումները կամ դիզայնները commit չարված փոփոխություններ ունեն. դրանք ներառվում են ակնթարթային պատկերում։</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>Առանց commit-ի</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>Commit չանել կարգավիճակի ֆայլը և գործարկման մատյանը (նաև առանց tag-ի և push-ի)։</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>Առանց push-ի</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>Commit և tag անել, բայց push չանել։</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>Առանց tag-ի</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>Commit և push անել, բայց գործարկմանը tag չդնել։</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>Այո, գործարկել այս միգրացիաները հիմա</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Սպասման մեջ միգրացիա չկա։</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>Վերադառնալ կարգավիճակին</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>Այս տեղադրման փոփոխություններ՝ մեկ անգամ գրված որպես ֆայլեր (բովանդակություն, դասեր, դերեր, կարգավորումներ, սխեմա) և կիրառվող կայքի յուրաքանչյուր տեղադրման վրա նույն հերթականությամբ։ Գործարկումը նախ անում է ակնթարթային պատկեր, վերականգնում է այն, եթե միգրացիան ձախողվում է, և գրանցում, commit ու push է անում իր արածը։</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>Գործարկել սպասման մեջ գտնվող %count-ը</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Ընդհանուր տեսք</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Սպասման մեջ</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Կատարված</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Ձախողված</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>Անհրաժեշտ չէ</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>Տվյալների բազա</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>տրանզակցիաներ՝ %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>Կայքի միգրացիաները գտնվում են migrations/-ում, ընդլայնման միգրացիաները՝ extension/&lt;name&gt;/migrations/-ում։ Դրանք կատարվում են ըստ իրենց անունների և կախվածությունների հերթականության։</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Վերջին գործարկումը</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>Ֆայլը փոխվել է կիրառումից հետո։</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>Դեռ միգրացիա չկա։ ./console exp:migration:generate --skeleton &lt;name&gt; --apply-ը գրում է առաջինը։</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>Վերջին գործարկումները</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>Բոլոր գործարկումները</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>Դեռ գործարկում չկա։</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>Գործարկման մոդելավորման համար անհրաժեշտ է migration/run քաղաքականությունը։</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>Ընթանում է գործարկում. մոդելավորեք, երբ այն ավարտվի։</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Կարգաբերում</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target-ը այս տեղադրման ո՛չ գործարկում է, ո՛չ միգրացիա, ո՛չ էլ ակնթարթային պատկեր։</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>Նախ նշեք «Այո, հետ վերադարձնել»։</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>Ավելի վաղ ակնթարթային պատկերի վերականգնումը փորձագետների համար է. նշեք «Ես գիտեմ, թե սա ինչ է վերականգնում»։</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>Կրկին մուտքագրեք ակնթարթային պատկերի նույնացուցիչը՝ %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>Ընտրեք վերականգնման առնվազն մեկ մաս։</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>Այս գործարկումից առաջ ակնթարթային պատկեր չի արվել. հետ վերադարձրեք դրա միգրացիաները մեկ առ մեկ կամ վերականգնեք ավելի վաղ ակնթարթային պատկեր։</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>Այս միգրացիան չի կարող ինքնուրույն հետ վերադառնալ. այն կիրառված չէ կամ down() չունի։</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Չհաջողվեց կարդալ ձևը։</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>Ընտրեք վերսկսվող գործարկումը։</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>Նախ նշեք «Այո, գործարկել այս միգրացիաները հիմա»։</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>Ընտրեք առնվազն մեկ միգրացիա։</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>Միգրացիան փոխվել է կիրառումից հետո. ընդունեք փոփոխությունը պատճառաբանությամբ կամ վերադարձրեք ֆայլը։</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>Նշեք պատճառը, թե ինչու են փոխված միգրացիաներն ընդունվում։</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>Պատճառը կարող է լինել առավելագույնը 500 նիշ։</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>Այստեղ սկսված գործարկումը դեռ ընթանում է (%detail)։ Սպասեք, մինչև այն ավարտվի։</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>Մեկ այլ գործարկում է պահում տեղադրման կողպեքը՝ %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>Գործարկման համար անհրաժեշտ է գոյություն ունեցող, մուտք գործած օգտատեր։</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>php հրամանային տողի ծրագիր չի գտնվել։ Սահմանեք migration.ini [AdminSettings] PhpCliPath-ը դրա ամբողջական ուղով։</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open-ն անջատված է, ուստի այստեղ գործարկում սկսել հնարավոր չէ։ Սերվերում կատարեք ./console exp:migration:migrate --apply։</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>Գործարկումների թղթապանակում հնարավոր չէ գրել՝ %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>Գործարկումը սկսվել է, բայց չի հաղորդել իր պրոցեսի նույնացուցիչը։ Ստուգեք %detail-ը։</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>Նշեք, թե ինչ պետք է հետ վերադարձնել։</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>Չհաջողվեց սկսել գործարկումը։</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>Փոփոխությունների ձայնագրում</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>Քանի դեռ ձայնագրումն ընթանում է, այն, ինչ փոխում եք կառավարման մեջ կամ կայքի կողային վահանակում, պահվում է որպես միգրացիայի քայլեր՝ բովանդակություն, դասեր, դերեր և քաղաքականություններ, բաժիններ, օգտատերեր և խմբեր, URL կեղծանուններ, կարգավորումներ։ Ավարտելուց հետո կանգնեցրեք այն, նայեք՝ ինչ է այն ֆիքսել, և դրանից ստեղծեք միգրացիա։</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>Ձայնագրումները հնարավոր չեղավ կարդալ. %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>Ձայնագրումների աղյուսակները դեռ գոյություն չունեն. նախ գործարկեք թարմացումը (exp:upgrade --apply)։</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>Ձայնագրումն անջատված է migration.ini-ում ([RecordingSettings] Recording=disabled)։</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>Իմ փոփոխությունները</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>Ձայնագրում է միայն այն, ինչ դուք եք փոխում, որտեղ էլ փոխեք, մինչև կանգնեցնեք այն։</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>Ձայնագրում</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>%time-ից ի վեր, մինչ այժմ %count փոփոխություն։</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>Պիտակ (ըստ ցանկության)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>Ցույց տալ, ինչ է ֆիքսել</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Կանգնեցնել ձայնագրումը</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>Սկսել իմ փոփոխությունների ձայնագրումը</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>Ամբողջ կայքի պատուհան</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>Ձայնագրում է յուրաքանչյուր օգտատիրոջ և վահանակի յուրաքանչյուր փոփոխություն, մինչև այն փակվի։ Բացելիս ձեզնից կպահանջվի հաստատել, որ դա դուք եք։</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Բաց</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>Փակել պատուհանը</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>Բացել ամբողջ կայքի պատուհանը</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>Ձայնագրումներ</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>Օգտատիրոջ հաշիվը (մուտքանուն, էլ. փոստ, գաղտնաբառ) և օգտատիրական հաշիվների դաշտերը երբեք չեն ձայնագրվում։</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Փոփոխություններ</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>Ամբողջ կայքը</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>%name-ի փոփոխությունները</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Կանգնեցված</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>Դեռ ձայնագրում չկա։</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>Ձայնագրում %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>Բոլոր ձայնագրումները</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>Միգրացիան, որը կստացվեր</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>Փոփոխությունները՝ միավորված մեկ քայլի մեջ յուրաքանչյուր փոխված առարկայի համար. ինչ կաներ այս ձայնագրումից ստեղծված միգրացիան։</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>Դրանից կարելի կլինի միգրացիա ստեղծել, երբ այս տեղադրումն ունենա YAML քայլերի %types տեսակները։</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>Դիտմամբ բաց թողնված. %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>Ոչինչ չի ձայնագրվել։</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>Ինչ է ֆիքսել</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>%count փոփոխություն՝ կատարման հերթականությամբ։</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Փոփոխություն</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>Քայլ</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>Վերաբերում է</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>Եվս %count. ./console exp:migration:record:show-ը ցուցակում է բոլորը։</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Մերժել</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>Հեռացնում է ձայնագրումը և այն, ինչ այն ֆիքսել է։ Փոխվածը մնում է փոխված։</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>Այո, մերժել այս ձայնագրումը</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>Ձայնագրվում է…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Ձեր փոփոխությունները ձայնագրվում են միգրացիայի համար։</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>Այս կայքի յուրաքանչյուր փոփոխություն ձայնագրվում է միգրացիայի համար (ամբողջ կայքի պատուհան)։</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>Ամբողջ կայքի ձայնագրումը սկսվել է. յուրաքանչյուր օգտատիրոջ յուրաքանչյուր փոփոխություն կձայնագրվի, մինչև կանգնեցնեք այն։</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>Ձայնագրումը սկսվել է. ձեր փոփոխությունները կձայնագրվեն, մինչև կանգնեցնեք այն։</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>Ձայնագրումը կանգնեցվեց։ Ֆիքսվածը կմնա, մինչև մերժեք այն։</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>Ձայնագրումը և դրա իրադարձությունները հեռացվել են։</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>%id ձայնագրում չկա։</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>Նախ նշեք «Այո, մերժել այս ձայնագրումը»։</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>Սեսիայի ձայնագրումը կարող է կանգնեցնել միայն այն օգտատերը, ով ձայնագրել է։</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>Ընտրեք կանգնեցվող ձայնագրումը։</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>Այս տեսակի ձայնագրում արդեն ընթանում է։</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>Ձայնագրումը հնարավոր չեղավ փոխել. %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>Ստեղծել միգրացիա</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>Միգրացիայի անունը (ըստ ցանկության)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>Միգրացիան %file գրված է։ Այն փոփոխությունները, որոնք ոչ մի քայլ չի կարող անել, նշված են ֆայլի սկզբում՝ ձեռքով անելու համար։</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>Ոչ մի միգրացիա չի գրվել՝ %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>Երկար գործարկում մասերով</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>Դատարկ դաշտերը պահում են migration.ini [RunSettings] կարգավորումները։</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>Առավելագույնը այսքան միգրացիա</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>Այլևս միգրացիա չկա (վայրկյան) հետո</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>Դադար միգրացիաների միջև (վայրկյան)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>Ավելի ցածր առաջնահերթություն (1-ից 19)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>Երկար գործարկման դաշտը 1-ից սկսվող ամբողջ թիվ է (դադար՝ 0-ից 60 վայրկյան, առաջնահերթություն՝ 1-ից 19) կամ դատարկ։</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>Այն ինքնուրույն փակվում է %time-ին։</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>Ինքնուրույն փակել (րոպե, ըստ ցանկության) հետո</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>Րոպեները 1-ից 44640 (31 օր) ամբողջ թիվ են կամ դատարկ։</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>Միգրացիա %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>Նոր միգրացիա</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>YAML միգրացիա․ գրեք այն որպես տեքստ կամ կառուցեք դրա քայլերը ձևում, ստուգեք այն, ապա պահպանեք միգրացիաների պանակում։</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>Այս միգրացիան արդեն գործարկվել է, ուստի այն նորից չի պահպանվում․ փոխված ֆայլը կմերժվեր ստուգիչ գումարի պաշտպանության կողմից։ Կատարեք փոփոխությունը նոր միգրացիայում։</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>Վեբ սերվերը չի կարող գրել ֆայլը։</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>Վերևի մեկնաբանության տողերը վերնագիրն են (description, author, requires, environments, engines)։ Երբ ձևում քայլ է ավելացվում կամ փոխվում, միգրացիան նորից է գրվում․ քայլերի միջև եղած մեկնաբանությունները չեն պահպանվում։</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>Միգրացիայի անունը</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>Ուր է այն գնում</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>Կայքը</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>YAML տեքստ</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>Ստուգում</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Պահպանել</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Քայլեր</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>Բանալիներ</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Խմբագրել</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>Տեղափոխել վերև</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>Տեղափոխել ներքև</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Հեռացնել</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>Դեռ քայլեր չկան․ ավելացրեք մեկը ձևով կամ գրեք դրանք տեքստում։</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>Փոխել քայլ %number</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>Ավելացնել մեկ քայլ</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>Քայլի ձևը կազմվում է նրա քայլի տեսակից՝ նրա բանալիները, թե ինչ է ընդունում յուրաքանչյուրը, և այն ռեժիմները, որոնց պատկանում է։</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>Քայլի տեսակ</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>Ցուցադրել դրա ձևը</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>Քայլն ունի բանալիներ, որոնք նրա տեսակը չգիտի․ դրանք դուրս են մնում, երբ քայլը փոխվում է՝ %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>Ռեժիմ</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>Որտեղ</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>միայն՝ %modes</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>Լռելյայն՝ %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>Պայմաններ, հղումներ և մեկնաբանություն</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>Անուն=արժեք զույգեր՝ ստորակետերով բաժանված։ Այս քայլի արժեքները՝ %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>Օրինակ</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>Փոխել քայլը</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>Ավելացնել քայլ</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>Ինչ է ասում exp:migration:check հրամանը՝ վերնագիրը, փաստաթուղթը և յուրաքանչյուր քայլ՝ ստուգված իր քայլի տեսակով։</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>Միգրացիան անցնում է ստուգումը։</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Նախադիտում</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>YAML-ը այնպես, ինչպես այն կպահպանվի։</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>Ցուցադրել YAML-ը</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>YAML միգրացիաներ</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>գործարկվել է</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>Դեռ YAML միգրացիաներ չկան։</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>Խմբագրիչ</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>Միգրացիաների պանակներում %id YAML միգրացիա չկա։</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>Ընտրեք քայլի տեսակ։</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>Քայլն ավելացված է։ Ստուգեք միգրացիան, նախքան այն պահպանելը։</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>Քայլը փոխված է։ Ստուգեք միգրացիան, նախքան այն պահպանելը։</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>Ընտրեք քայլ։</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>Այս քայլը ձև չունի (ցիկլ կամ քայլի տեսակ, որը այս տեղադրումը չունի)․ փոխեք այն տեքստում։</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>Ընտրեք, թե ուր է գնում միգրացիան՝ կայք կամ ակտիվ ընդլայնում։</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>Պահպանված է՝ %file։ Կատարեք փորձնական գործարկում, նախքան միգրացիան կգործարկվի։</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>Չի պահպանվել՝ %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>Հեռակա հանգույցներ</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>Այլ տեղադրումները, որոնց այս տեղադրումը տեղակայում է իր միգրացիաները — տեղակայումն ուղարկում է միգրացիաները ընտրված հեռակա հանգույցներին և գործարկում դրանք այնտեղ, բոլորը միաժամանակ և համաժամեցված։ Հեռակա հանգույցը երբեք գաղտնիք չի պահում — դրա մուտքի տվյալները նշում են մեկը Կարգաբերում &gt; Գաղտնիքներ բաժնից։</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>Նոր հեռակա հանգույց</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Օգնություն</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>Կապի փորձարկում՝ %id</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>Հեռակա հանգույցները</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>Միաժամանակ մշակվում են մինչև %parallel հեռակա հանգույց, մեկ փուլը յուրաքանչյուրում կարող է տևել %timeout վայրկյան։</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>Հեռակա հանգույց</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Հասցե</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Մուտքի տվյալներ</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>Խմբեր</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>կարգավորումները պետք է ուղղել</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>միայն ֆայլեր (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>SSH բանալի</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>Գաղտնաբառ</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>ոչ մեկը (հոսթի SSH գործակալը և բանալիները)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>Փորձարկել կապը</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>Խմբին տեղակայումն ուղարկվում է նրա յուրաքանչյուր հեռակա հանգույցին։</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>Տեղակայել հեռակա հանգույցներին</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>Դեռ ոչ մի հեռակա հանգույց կարգավորված չէ։</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>Հեռակա հանգույց %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>Այստեղ ոչինչ չի ուղարկվում կամ գործարկվում — «Պահպանել»-ը գրում է կարգավորումները settings/override/migration.ini.append.php ֆայլում։ Մուտքի տվյալները անուն են, դրա արժեքը մնում է Կարգաբերում &gt; Գաղտնիքներ բաժնում կամ միջավայրում։</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Ստուգեք այս կարգավորումները</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>Կարգավորումները՝ ինչպես մուտքագրված են, դեռ չպահպանված։</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Վերանայում</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Կարգավորումները վավեր են։ Կգրվեն հետևյալ տողերը՝</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>Տրանսպորտ</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>միայն անուն. արժեքը մնում է Կարգաբերում &gt; Գաղտնիքներ բաժնում</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Տողերը, որոնք կգրվեն</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>Կապ</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>Հոսթի բանալի</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. Հեռակա հանգույցը</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>Ինչպես է կոչվում հեռակա հանգույցը, և որ միջավայրն է այն։</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>Նույնացուցիչ</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>Տառեր, թվանշաններ, - և _, օրինակ՝ production1։ Այն անվանում է հեռակա հանգույցը հաշվետվություններում և կոնսոլում (--remotes=production1) և հետագայում չի կարող փոխվել։</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... Աստիճաններով տեղակայումն անցնում է միջավայրերով այս հերթականությամբ։</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>Ըստ ցանկության, ստորակետերով բաժանված, օրինակ՝ production։ Խմբին տեղակայումն ուղարկվում է նրա յուրաքանչյուր հեռակա հանգույցին։</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. Կապը</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>Ինչպես են ֆայլերը հասնում այնտեղ, և որտեղ է տեղադրումը։</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>SSH-ով, միայն փոփոխվածը, ընդհատված փոխանցումը շարունակվում է։ Լավագույն ընտրությունը, որտեղ rsync-ը տեղադրված է։</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>SSH՝ scp-ով ֆայլերի համար։</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>SSH՝ sftp-ով ֆայլերի համար։</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>Միայն ֆայլեր — միգրացիաներն ուղարկվում և հետ են կարդացվում, բայց այնտեղ չեն կարող գործարկվել։</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>FTP TLS-ի միջոցով, միայն ֆայլեր։</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>Մեկ այլ տեղադրում այս սերվերում, պանակում։</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Հոսթ</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>Հոսթի անուն կամ հասցե, օրինակ՝ node1.example.com։ Ոչ local-ի համար։</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>Պորտ</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>Դատարկ՝ 22 SSH-ի համար, 21 FTP-ի համար։</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Օգտատեր</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>Ուղի</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>Տեղադրման արմատն այնտեղ, օրինակ՝ /var/www/site (FTP-ի համար՝ ուղին, որը տեսնում է FTP հաշիվը)։</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>PHP հրամանի տող</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>Այնտեղի PHP CLI-ն՝ php կամ ամբողջական ուղի, օրինակ՝ /opt/plesk/php/8.4/bin/php։</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>Կոնսոլային սկրիպտներն այնտեղ աշխատում են որպես root</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>Միայն եթե հեռակա հանգույցի օգտատերը root է (այդ դեպքում դրանք գործարկվում են --allow-root-user դրոշով)։</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. Մուտքի տվյալները</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>Ինչպես է այս տեղադրումը մուտք գործում այնտեղ։ Պահպանվում է միայն անուն։</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Ոչ մեկը</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>Այն օգտատիրոջ SSH գործակալը և բանալիները, որի անունից աշխատում է այս տեղադրումը (և միշտ local-ի համար)։</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>Որպես գաղտնիք պահված մասնավոր բանալի։</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>Որպես գաղտնիք պահված գաղտնաբառ (FTP-ն մուտք է գործում դրանով)։</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>Գաղտնիքի անուն</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>Գաղտնիք Կարգաբերում &gt; Գաղտնիքներ բաժնից, օրինակ՝ deploy_production1։</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Կարգաբերում &gt; Գաղտնիքներ</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>Կամ միջավայրի փոփոխական</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>Սերվերի պրոցեսի փոփոխականը, որը պահում է այն, օրինակ՝ DEPLOY_KEY (պահպանվում է որպես env:DEPLOY_KEY)։ Այն փոխարինում է գաղտնիքի անունը։</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. Հոսթի բանալին</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>Ըստ ցանկության, SSH-ի, sftp-ի և rsync-ի համար։</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>Հոսթի բանալու մատնահետք</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:..., ինչպես այն տպում է ssh-keygen -l հրամանը։ Դրա առկայությամբ հոսթը պետք է ցույց տա այս բանալին, առանց դրա՝ բանալին սովորվում է առաջին կապի ժամանակ։</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. Վերանայում</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>Փորձարկեք կապը վերևի կարգավորումներով, ապա վերանայեք այն տողերը, որոնք կգրվեն։</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>Հեռացնել այս հեռակա հանգույցը</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>Դրա կարգավորումները հանվում են settings/override/migration.ini.append.php ֆայլից։ Հեռակա հանգույցում ոչինչ չի փոխվում, և դրա տեղակայումները մնում են պատմության մեջ։</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>Այո, հեռացնել այս հեռակա հանգույցը</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>Տեղակայումներ</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>Տեղակայումն ուղարկում է այս տեղադրման միգրացիաները ընտրված հեռակա հանգույցներին և գործարկում դրանք այնտեղ որպես %user, բոլորը միաժամանակ և համաժամեցված — նախ ստուգվում է յուրաքանչյուր հեռակա հանգույց, և եթե մեկը ձախողվում է, յուրաքանչյուր հանգույց, որը կիրառել է, հետ է վերադարձվում։ Այն ընթանում է հետին պլանում, և դրա էջը ցույց է տալիս յուրաքանչյուր հեռակա հանգույց ընթացքում։</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. Հեռակա հանգույցները</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>Նշեք հեռակա հանգույցներ, խումբ կամ երկուսը։</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>Տեղակայել դրան</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. Ինչպես</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>Տեղակայել</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>Ուղարկել և գործարկել</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>Միգրացիաներն ուղարկվում, ստուգվում և գործարկվում են յուրաքանչյուր հեռակա հանգույցում մեկ ընդհանուր գործարկման նույնացուցիչով։</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>Միայն փոխանցում</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>Ֆայլերն ուղարկվում և ստուգվում են, ոչինչ չի գործարկվում (FTP հեռակա հանգույցի միակ տարբերակը)։</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>Աստիճաններով</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>Աստիճան առ աստիճան՝ միջավայրերի հերթականությամբ (dev, stage, beta, production ...) — տեղակայվում է առաջին աստիճանը, հետո դարպասը սպասում է, մինչև ինչ-որ մեկը հաստատի հաջորդը։ Յուրաքանչյուր աստիճանի ներսում՝ ամեն ինչ կամ ոչինչ։</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>Միայն այս միգրացիաները</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>Ըստ ցանկության՝ միգրացիաների նույնացուցիչներ, ստորակետերով բաժանված։ Դատարկ՝ կայքի և դրա ընդլայնումների բոլոր միգրացիաները։</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>Միայն նախնական ստուգում</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>Այո, տեղակայել հիմա</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>Տեղակայումները, որոնք ինչ-որ բան ուղարկել կամ գործարկել են, նորագույնը՝ առաջինը (նախնական ստուգումը հաշվետվություն չի պահում)։</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>միայն փոխանցում</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>աստիճաններով, %stages աստիճան</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>համաժամեցված չէ</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>Դեռ տեղակայում չկա։</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>Տեղակայում %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Տեղակայման յուրաքանչյուր հեռակա հանգույց՝ իր վիճակով։ Այստեղ սկսված տեղակայումը շարունակվում է հետին պլանում, երբ այս էջը փակվում է, բացեք էջը կրկին՝ այն հետևելու համար։</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>Բոլոր տեղակայումները</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>Նախնական ստուգում</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>Հաջորդ աստիճան</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>Կարգավորումների և մուտքի տվյալների ստուգում</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>Նախնական ստուգում՝ յուրաքանչյուր հեռակա հանգույցի վիճակի ընթերցում</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>Միգրացիայի ֆայլերի ուղարկում</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>Ժամանածի ստուգում</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>Միգրացիաների գործարկում յուրաքանչյուր հեռակա հանգույցում</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>Հեռակա հանգույցների հետ վերադարձ</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>Տեղակայումն ավարտվել է։ Դրա հաշվետվությունը բեռնվում է։</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>Չհաջողվեց հետևել ընթացքին։ Վերաբեռնեք էջը՝ տեսնելու, թե ինչպես է ընթանում տեղակայումը։</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>Փուլ</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>Այս էջը հետևում է տեղակայմանը ընթացքում։</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>Համաժամեցված</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>Աստիճաններ</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>%stage աստիճանը սպասում է իր դարպասի մոտ</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>Դարպաս %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>հաստատել է %user, %time</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>Աստիճան</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>Ուղարկված ֆայլեր</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>Միջուկի տարբերակ</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>կիրառված՝ %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>կիրառելու՝ %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>Փուլեր</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>Դարպաս — աստիճան %stage՝ %stages-ից</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>Դրանից առաջ աստիճանները տեղակայված են։ Ստուգեք դրանք, ապա հաստատեք հաջորդ աստիճանը — դրա հեռակա հանգույցները կրկին ստուգվում և տեղակայվում են, ամեն ինչ կամ ոչինչ։</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Հաջորդ</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>Այո, տեղակայել հաջորդ աստիճանը հիմա</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Հաստատել</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>Հետ վերադարձնել այս տեղակայումը</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>Յուրաքանչյուր հեռակա հանգույց, որը կիրառել է այն (%list), վերադառնում է իր գործարկումից առաջ արված ակնթարթային պատկերին, բոլորը միաժամանակ։</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>Այո, հետ վերադարձնել այս տեղակայումը հիմա</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>պլանավորված</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>փոխանցված</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>տեղակայված</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>սպասում է դարպասի մոտ</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>ընտրված</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>նախապատրաստված</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>պատրաստ</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>սպասում է իր աստիճանին</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>ֆայլերն ուղարկված են</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>ստուգված</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>ձախողվել է, ինքն իրեն վերականգնել է</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>անփոփոխ</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>տեղակայված չէ</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>անհասանելի</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>Հեռակա հանգույցը պատասխանեց։</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>Հեռակա հանգույցը հիմա չի կարող օգտագործվել։</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done կատարված, %pending սպասման մեջ, %failed ձախողված</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>Կողպեք</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>գործարկումն այնտեղ պահում է կողպեքը</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>ազատ</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stage՝ %stages-ից</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>Ընտրեք փորձարկվող հեռակա հանգույցը։</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>Նախ նշեք «Այո, հեռացնել այս հեռակա հանգույցը»։</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>Չհաջողվեց հեռացնել հեռակա հանգույցը՝ %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>Չհաջողվեց պահպանել հեռակա հանգույցը՝ %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Հնարավոր չէ կարդալ կարգավորումների ֆայլը՝ %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>Ընտրեք առնվազն մեկ հեռակա հանգույց կամ խումբ։</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>Ընտրված հեռակա հանգույցներից մեկն այլևս կարգավորումներում չէ։ Վերաբեռնեք էջը։</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>Նախ նշեք «Այո, տեղակայել հիմա»։</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>FTP հեռակա հանգույցը չի կարող միգրացիաներ գործարկել — ընտրեք «Միայն փոխանցում» կամ բաց թողեք այն։</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>Տեղակայվող միգրացիաները միգրացիաների նույնացուցիչներ են՝ ստորակետերով բաժանված։</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>Տեղակայումը դեռ ընթանում է։ Սպասեք, մինչև այն ավարտվի։</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>Այս տեղակայումը դարպասի մոտ չի սպասում։</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>Ոչ մի հեռակա հանգույց չի կիրառել այս տեղակայումը — հետ վերադարձնելու բան չկա։</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>Նախ նշեք «Այո, տեղակայել հաջորդ աստիճանը հիմա»։</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>Նախ նշեք «Այո, հետ վերադարձնել այս տեղակայումը հիմա»։</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>%id նույնացուցիչով հեռակա հանգույց արդեն կա։</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>Պորտը 1-ից 65535 թիվ է։</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>Միջավայրը տառերից, թվանշաններից, - և _ նշաններից կազմված բառ է (alpha, dev, stage, beta, production ...)։</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>Խումբը տառերից, թվանշաններից, - և _ նշաններից կազմված բառ է (ոչ all)՝ %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>Մուտքի տվյալները հիմա հնարավոր չէ կարդալ՝ %problem։ Պահպանեք դրանք Կարգաբերում &gt; Գաղտնիքներ բաժնում (կամ սահմանեք փոփոխականը) մինչև առաջին տեղակայումը։</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>FTP հեռակա հանգույցը միայն ֆայլեր է ստանում — դրան տեղակայումը «Միայն փոխանցում» է, և դրա միգրացիաներն այնտեղ գործարկվում են ձեռքով։</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>%id հեռակա հանգույցը settings/override/migration.ini.append.php ֆայլում չէ — հեռացրեք այն այնտեղ, որտեղ այն սահմանված է։</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>Մուտք է գործվել FTP-ով, և կարդացվել է index.php ֆայլը։ FTP հեռակա հանգույցի միգրացիաների կարգավիճակը հնարավոր չէ կարդալ։</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>Փոփոխված</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>Ստեղծված</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Անուն</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Դաս</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Բաժին</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>Ստեղծող</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Նոր բովանդակություն</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>Ամբողջ կայքի ամենավերջին ստեղծված և փոփոխված բովանդակությունը, նորագույնը՝ առաջինը. այն, ինչ ուղարկել են այցելուները, այն, ինչ պահվում է ստուգման համար, սևագրեր, որոնք սպասում են իրենց հրապարակմանը։ Ընտրեք տարրերը՝ դրանք ազատելու, պահելու, թաքցնելու, ցուցադրելու, հեռացնելու կամ այլ բաժին կամ վիճակ տեղափոխելու համար։</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>Ցանկը հնարավոր չեղավ կարդալ. %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>Ստուգման պահումը դեռ կարգաբերված չէ, ուստի ոչինչ չի պահվում, և պահման գործողություններ չեն առաջարկվում։ Այն կարգաբերում է 6.0.15-review-hold թարմացման քայլը. ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Զտել ցանկը</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Սկսած</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Մինչև</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Ամսաթիվ</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>Ստեղծված (առաջին հրապարակում)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Բոլորը</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Հրապարակման կարգավիճակ</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Հրապարակված</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>Սևագիր, երբեք չհրապարակված</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>Սպասման մեջ (սպասում է հաստատման կամ ամսաթվի)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>Աղբարկղում</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Պահված ստուգման համար</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>Պահված</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>Չպահված</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>Թաքնված</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>Տեսանելի</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>Ուղարկման մուտքի կետ</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>Կայքի ցանկացած մուտքի կետ</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>Միայն այն, ինչ գրանցել է աուդիտը։</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>Հիմա՝ %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>Մուտքանուն կամ օգտատիրոջ նույնացուցիչ։</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Զտել</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>Մաքրել զտիչները</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>Տարրեր</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from–%to՝ %count-ից</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Տարր չկա</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(կարդացվել է %ms մվ-ում)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>Գործողություններ ընտրված տարրերի հետ</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>Ընտրել այս էջի բոլորը</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>Ընտրված է՝ %count</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Գործողություն</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>Ընտրեք գործողություն</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>Ազատել պահումից</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Պահել ստուգման համար</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Թաքցնել</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>Ցուցադրել</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>Տեղափոխել աղբարկղ</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>Ջնջել</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>Նշանակել բաժին</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>Նշանակել վիճակ</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>Պատճառ</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>Անհրաժեշտ է պահելու համար. պահվում է պահման հետ և աուդիտում։</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>Ընտրեք բաժին</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Վիճակ</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>Ընտրեք վիճակ</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>Կիրառել ընտրվածներին</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>Յուրաքանչյուր տարր ստուգվում է ձեր սեփական թույլտվություններով։ Աղբարկղ տեղափոխելը և ջնջելը պահանջում են հաստատում։ %count-ից ավելի տարրերը կատարվում են ֆոնային ռեժիմում։</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>Ընտրել</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>Հրապարակում</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>Որտեղից է ուղարկվել</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>Ընտրել %name</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>դեռ ոչ</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(անանուն)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>Նույնացուցիչ %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>Սևագիր</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Սպասման մեջ</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>Թաքցված է ծնողի կողմից</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>Պահված. նոր ուղարկում</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>%version տարբերակը սպասման մեջ է</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>%version տարբերակը մշակման մեջ է</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>Սևագիր, %version տարբերակ</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>%version տարբերակը հրապարակված է</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>Պլանավորված է %date-ի համար</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>հասցե չկա</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>չի գրանցվել</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>Այս զտիչներին ոչինչ չի համապատասխանում։</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Ցուցադրել բոլորը</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>Բովանդակություն դեռ չկա։</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Մեկ էջում</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Ցուցադրել %count տարր մեկ էջում։</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says "not recorded".</source>
+        <translation>Ուղարկման հասցեն և դիտարկիչը գալիս են աուդիտի ինդեքսից, որն այստեղ հասանելի չէ. սյունակում գրված է «չի գրանցվել»։</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>Հասցեն և դիտարկիչը այն են, ինչ աուդիտը գրանցել է տարրի համար (ավտոմատ պահումը դրանք միշտ գրանցում է, հրապարակումն ու ստեղծումը՝ միայն որտեղ միացված է), այնպես, ինչպես պահում են գաղտնիության կարգավորումները։</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action. %count տարր</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>Ջնջումը տարրերը վերջնականապես հեռացնում է՝ իրենց բոլոր տարբերակներով և թարգմանություններով։ Այն հնարավոր չէ հետարկել։</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>Տարրերը տեղափոխվում են աղբարկղ, որտեղից կարող են վերականգնվել։</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>Յուրաքանչյուր տարր ստուգվում է ձեր սեփական թույլտվություններով. ենթատարրեր ունեցող տարրը մնում է ինչպես կա (հեռացրեք այն բովանդակության կառուցվածքում)։ Ձեզ կխնդրեն հաստատել, որ դա դուք եք։</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>Սա կատարվում է ֆոնային ռեժիմում. բացվում է դրա ընթացքի էջը, և ավարտից հետո ցուցադրվում է արդյունքը ըստ տարրի։</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>Ընտրված տարրերը</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>և ևս %count</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Չեղարկել</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>Ոչինչ չի արվել</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Պատճառ՝ %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>Գործողությունը դեռ կատարվում է ֆոնային ռեժիմում։</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>Դրա ընթացքը</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>Ֆոնային գործողությունը ձախողվեց. %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Ավարտված է</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Մերժված</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Ձախողված</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>Ըստ տարրի</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>Տարր</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Արդյունք</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Ինչու</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>Վերադառնալ ցանկին</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Կարգաբերում</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>Ոչինչ չի արվել</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>Հաստատել</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>Ընտրեք գործողություն։</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>Ընտրեք առնվազն մեկ տարր։</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>Միանգամից ընտրեք առավելագույնը 1000 տարր։</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>Նշեք, թե ինչու են տարրերը պահվում։</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>Ընտրեք բաժինը։</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>Ընտրեք վիճակը։</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Ձևը հնարավոր չեղավ կարդալ։</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>Վահանակ</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>Նոր բովանդակություն</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>Քանակները հնարավոր չեղավ կարդալ. %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Պահված ստուգման համար</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>Նոր այսօր</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Ստուգման պահումը դեռ կարգաբերված չէ (6.0.15-review-hold թարմացման քայլը)։</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>Ամբողջ նոր բովանդակությունը</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>Դուք չեք կարող կատարել մոդերացիայի գործողություններ (moderation/act)։</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>Մոդերացիայի գործողությունն ավարտված չէ. %errors։</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>Մոդերացիա. %action %count օբյեկտի վրա</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%done՝ %total օբյեկտից. %ok ավարտված, %refused մերժված, %failed ձախողված</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok ավարտված, %refused մերժված, %failed ձախողված</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>Այն այլևս գոյություն չունի։</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>Այն տեղադրություն չունի (հրապարակված չէ)։</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>Դուք չեք կարող այն թաքցնել (content/hide)։</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>Դուք չեք կարող այն ցուցադրել (content/hide)։</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>Այն արդեն թաքնված է։</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>Այն թաքնված չէ։</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>Թաքցված է։</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>Ցուցադրված է։</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>Այն աղբարկղում է. այնտեղ դատարկեք կամ վերականգնեք այն։</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>Երբեք չհրապարակված սևագիրը չի կարող տեղափոխվել աղբարկղ. ջնջեք այն։</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>Դուք չեք կարող այն ջնջել (content/remove)։</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>Ջնջված է։</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>Դուք չեք կարող այն հեռացնել (content/remove)։</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>Այն ունի ենթատարրեր. հեռացրեք այն բովանդակության կառուցվածքում, որտեղ դրանք նշված են։</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>Այն չհեռացվեց (աշխատահոսքը կարող է պահել հեռացումը)։</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>Տեղափոխված է աղբարկղ։</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>Բաժինը գոյություն չունի։</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>Այն արդեն այս բաժնում է։</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>Դուք չեք կարող նշանակել այս բաժինը (section/assign)։</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>Բաժինը չնշանակվեց։</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>Բաժինը նշանակված է։</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>Վիճակը գոյություն չունի։</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>Այն արդեն այս վիճակում է։</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>Դուք չեք կարող նշանակել այս վիճակը (state/assign)։</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>Վիճակը չնշանակվեց (աշխատահոսքը կարող է պահել փոփոխությունը)։</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>Վիճակը նշանակված է։</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>Նման գործողություն չկա։</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Ստուգման պահումը կարգաբերված չէ (6.0.15-review-hold թարմացման քայլը)։</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>Նշեք, թե ինչու է այն պահվում։</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>Այն արդեն պահված է։</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>Դուք չեք կարող այն պահել (state/assign)։</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>Պահումը չսահմանվեց (աշխատահոսքը կարող է պահել փոփոխությունը)։</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>Պահված է։</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>Այն պահված չէ։</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>Դուք չեք կարող այն ազատել (state/assign)։</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>Պահումը չհանվեց (աշխատահոսքը կարող է պահել փոփոխությունը)։</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>Ազատված է, բայց դեռ թաքնված. դուք չեք կարող այն ցուցադրել (content/hide)։</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>Ազատված է։</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>Բոլոր թիրախները</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Վերջին հրապարակումը</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>Հրապարակեք Ձեր կայքի անվճար ստատիկ պատճենը GitHub Pages-ում՝</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Հնացած էջեր</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Ստատիկ հրապարակում</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Ստատիկ հրապարակումն անջատված է։</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Թիրախ</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Չհաջողվեց կարդալ թիրախները՝ %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>առաջադրանք է կատարվում</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>ստուգման սպասող կառուցում</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>թաքցնել սա</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>ստեղծել թիրախ</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>երբեք</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>կարդալ ուղեցույցը</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>%added ավելացված, %changed փոփոխված, %removed հեռացված</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%bytes՝ %limit-ից (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>Եվս %count-ը ցուցակված չեն։</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>%pages էջ գրված է</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path-ի չափը %size է, ավելին, քան հոսթինգը թույլ է տալիս մեկ ֆայլի համար։</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>սահմանի %percent %-ը</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds վ</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag-ը կայքի ներկայիս հրապարակումն է։</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target՝ առաջադրանք %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>/պահոց/՝ GitHub նախագծի կայքի համար. դատարկ՝ սեփական դոմենի կամ օգտատիրոջ կայքի համար։</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. Կայքը</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. Հոսթինգը</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. Մուտք պահոց</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. Պահոցը</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. Հղումներ և հիմնական ուղի</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. Ձեր սեփական դոմենը</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. Ինչ է պարունակում կառուցումը</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. Երբ է այն հրապարակվում</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. Ստուգում և պահպանում</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>GitHub նախագծի կայքը գտնվում է /&lt;repository&gt;/-ի տակ. հարաբերական հղումներն աշխատում են այնտեղ և ցանկացած այլ տեղ։</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>Կառուցումը բեռնում է %site-ի յուրաքանչյուր էջ այնպես, ինչպես այն տեսնում է մուտք չգործած այցելուն, վերագրում է հղումները, պատճենում է ֆայլերը և արդյունքը գրում է թիրախի պանակում։ Ոչինչ չի հրապարակվում, քանի դեռ չեք ստուգել կառուցումը և սեղմել Հրապարակել։</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>Cron արտահայտություն, օրինակ՝ 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>Տեղակայման բանալին պահվում է որպես %secret գաղտնիք։</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>Տեղակայման բանալին թույլ է տալիս այս տեղադրմանը SSH-ով push անել միայն մեկ պահոց և ոչ մի այլ տեղ։ Դրա փակ մասը մնում է Կարգաբերում &gt; Գաղտնիքներ բաժնում. ցուցադրվում է միայն բաց մասը։</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>Այս թիրախի համար ստեղծված տեղակայման բանալի</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>Տեղակայման բանալին մուտք է գործում SSH-ով. փոխեք git հասցեն SSH հասցեով (git@github.com:owner/repo.git)։</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>Առաջադրանք է կատարվում, սկսել է %user-ը</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>Այս թիրախի առաջադրանքը դեռ կատարվում է (%detail)։ Սպասեք, մինչև այն ավարտվի։</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>Այս թիրախի առաջադրանքը դեռ կատարվում է։ Սպասեք, մինչև այն ավարտվի։</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>/news/ էջից /about-us/team էջ տանող հղումը կգրվի այսպես՝</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>Ստեղծվեց նոր տեղակայման բանալի։ Հիմա ավելացրեք դրա բաց մասը պահոցին։</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>Էջը, որը մաքրումից հետո դեռ պարունակում է վրիպազերծման ելք, ձևի թոքեն կամ սեսիայի id, երբեք չի հրապարակվում։</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>Հետ վերադարձը փորձագետների համար է. նշեք «Ես գիտեմ, թե ինչ է սա փոխում» և կրկին մուտքագրեք պիտակի անունը։</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>Կայքը կարող է լինել մինչև %site, մեկ ֆայլը՝ մինչև %file, ամսական մոտ 100 GB երթևեկությամբ։ Անվճար պլանում պահոցը պետք է հանրային լինի։ GitHub Pages-ը նախատեսված չէ խանութների կամ այլ առևտրային գործարքների համար։</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>Թիրախը մեկ կայք է, որը հրապարակվում է մեկ git պահոցում։ Այստեղ ոչինչ չի կառուցվում կամ հրապարակվում. Պահպանելը կարգավորումները գրում է settings/override/staticcache.ini.append.php ֆայլում։</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>Թիրախը մեկ կայք է, որը հրապարակվում է մեկ տեղում, օրինակ՝ Ձեր հանրային կայքը GitHub Pages-ում։</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>Թոքեն Կարգաբերում &gt; Գաղտնիքներ բաժնից</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>Պահոցի աշխատահոսքն է այն հրապարակում։</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>Ավելացրեք այս բաց բանալին պահոցին՝ գրելու թույլտվությամբ։ GitHub՝ Settings &gt; Deploy keys &gt; Add deploy key, նշեք Allow write access։</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>Ավելացված</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>Այլ git հոսթինգ</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>Այս թիրախի վրա աշխատում է այլ գործընթաց՝ %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>Հետ</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>Հիմնական ուղի</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Նախկինում</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>Հիմնական ուղու տակ</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>Ճյուղ</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>Կոտրված հղումներ</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>Կոտրված հղումներ կառուցման մեջ</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>Կառուցում</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>Կառուցում %id, %user</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>Կառուցել %name-ը</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>Կառուցել հիմա</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>Ստուգման սպասող կառուցում</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Ում կողմից</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>Ձեռքով, այստեղ</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Չեղարկել</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Փոխել</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>Փոփոխված</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Փոփոխություններ</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>Նախ ստուգեք</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Ստուգեք այս կարգավորումները</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>Ստուգեք, թե ինչ է փոխում կառուցումը, դիտեք այն, ապա հրապարակեք կամ դեն նետեք։</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>Ընտրեք այն հրապարակումը, որին պետք է վերադառնալ։</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>Հասանելի կլինի ավելի ուշ թողարկումում։</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Կոմիտ</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>Կոմիտներ</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>Կոմիտ է անում կառուցումը, պիտակավորում է այն և ուղարկում %remote։ Ուղարկումը երբեք պարտադրված չէ. հետագայում կարող եք վերադառնալ ցանկացած հրապարակման։</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>Նախկին պանակի համեմատ՝ %added ավելացված, %changed փոփոխված, %removed հեռացված, %unchanged անփոփոխ։</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>Վերջին հրապարակման համեմատ։</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Մուտքի տվյալներ</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>Սեփական դոմեն</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>Վրիպազերծման ելքը, ձևերի թոքենները, սեսիաների id-ները և nonce-երը միշտ հեռացվում են։</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>Տեղակայման բանալի</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>%name-ի տեղակայման բանալին</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Դեն նետել</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>Դեն նետել կառուցումը</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>Դոմեն</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>Դատարկ՝ կայքի հասցեն։ Հակառակ դեպքում՝ նույն կայքի ներքին հասցեն։</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Ավարտված</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>Յուրաքանչյուր հղում սկսվում է հիմնական ուղով։</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>Յուրաքանչյուր հրապարակում կոմիտ է static/%id/&lt;n&gt; պիտակով։ Վերադարձը ստեղծում է նոր կոմիտ ավելի վաղ հրապարակման ֆայլերով. պատմությունը պահպանվում է, ոչ մի պիտակ չի տեղաշարժվում և ոչինչ չի պարտադրվում։</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>Լրացուցիչ ֆայլեր</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>Բեռնել էջերը հետևյալ հասցեից</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Ֆայլ</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>Ֆայլեր</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>Բացակայող ֆայլեր</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>Ֆայլերը՝</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>Ֆայլեր, որոնք չհաջողվեց հավաքել</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>Մատնահետք</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>Պանակ</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>SSH հասցեի համար։ Բանալին ստեղծվում է պահպանելուց հետո. դրա բաց մասը Դուք եք ավելացնում պահոցին։</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>https:// հասցեի համար։ GitHub՝ fine-grained թոքեն՝ պահոցի Contents-ի կարդալու և գրելու թույլտվությամբ։</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>Փորձագետների համար։ Հանրային կայքը փոխվում է, հենց ուղարկումն ավարտվում է։</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Ձևեր</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>Անվճար հոսթինգ GitHub պահոցից։</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>Ճյուղից</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>Git հասցե</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages-ը թույլ է տալիս մինչև %site կայք և մինչև %file ֆայլ։</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>GitHub Pages-ի սահմանափակումներ</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages-ը հրապարակում է ֆայլերն այնպես, ինչպես կան (անհրաժեշտ է _-ով սկսվող ֆայլերի համար)։</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub-ը մատուցում է ճյուղն այնպես, ինչպես այն ուղարկվել է։ Լռելյայն։</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, Ձեր սեփական սերվերը՝ ցանկացած git պահոց։</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>Վերադառնալ ավելի վաղ հրապարակման</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Օգնություն</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>Օգնություն վիզարդի համար</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>Թաքցնել դրանք</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Պատմություն</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>%name-ի պատմությունը</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Հոսթինգ</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>Ինչպես է GitHub Pages-ը ստանում կառուցումը</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>Ես ստուգել եմ փոփոխությունները</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>Ես գիտեմ, թե ինչ է սա փոխում</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>Նույնացուցիչ</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>Այն անջատված է. ոչինչ չի կարող կառուցվել, քանի դեռ այն միացված չէ։</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>Այն աշխատում է հետին պլանում՝ որպես %user. կարող եք փակել այս էջը։</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>Առաջադրանք %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>Պահվում է որպես %secret գաղտնիք։</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Տեսակ</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Վերջին հրապարակումը</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>Բաց թողնել այս էջերը</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>Բաց թողնել այս բաժինները</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Հղումներ</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>Վերագրված հղումներ</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>Գործող կայք</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>Դիտել կառուցումը</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>Փոքրատառեր, թվանշաններ, _ և -, օրինակ՝ github-public։ Այն անվանում է պանակը և պիտակները (static/&lt;id&gt;/&lt;n&gt;) և հետագայում չի կարող փոխվել։</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>Ստեղծել նոր բանալի</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>Ստեղծել թիրախ</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>Ստեղծել բանալին</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>Նախ ստեղծեք պահոցը հոսթինգում. դատարկը նույնպես հարմար է։</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>Մանիֆեստ</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Հաղորդագրություն</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>Էջերի մեծ մասը</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Անուն</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>Թոքենի անունը Կարգաբերում &gt; Գաղտնիքներ բաժնում</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>Նոր թիրախ</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Հաջորդ</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>Ոչ</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>Կոմիտ դեռ չկա։</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>Բանալի չստեղծվեց՝ %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>php հրամանային տողի ծրագիր չգտնվեց։ Սահմանեք migration.ini [AdminSettings] PhpCliPath-ը դրա ամբողջական ուղով։</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>Պիտակ դեռ չկա։</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>Թիրախ դեռ չկա։</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Չկա</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>Կառուցման մեջ չէ։</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>Դեռ ոչինչ չի հրապարակվել։</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>Դեռ ոչինչ չի հրապարակվել. յուրաքանչյուր ֆայլ նոր է։</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>Ծանուցել</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>Ժամանակացույցով</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>Վահանակում</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>Սերվերում՝ ./console exp:static:serve %id-ը մատուցում է այն նույն կերպ։</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>Մեկ ուղի յուրաքանչյուր տողում, *-ը համապատասխանում է ցանկացած մասի՝ /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>Թիրախի հետ պահվում է միայն անունը. թոքենը կամ բանալին ինքնին մնում է Կարգաբերում &gt; Գաղտնիքներ բաժնում և երբեք չի հայտնվում մատյանում։</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>Միայն այն, ինչ նշում են էջերը</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>Միայն թոքենով։ env:NAME-ը փոխարենը կարդում է սերվերի միջավայրի փոփոխականը։</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>Բացել նախադիտումը</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>Բացում է կառուցումը թիրախի պանակից այնպես, ինչպես այն կմատուցի հոսթինգը։ Հղումը Ձեզ համար աշխատում է մեկ ժամ։</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>Ոչ պարտադիր։ Դատարկ՝ այն, ինչ հրապարակվել է։</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>Ոչ պարտադիր։ Դոմենի դեպքում կայքը մատուցվում է դրա արմատից։</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Ելք</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>Էջեր</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>Թիրախի էջերը</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>Մերժված էջեր</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>Հետմշակում</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Նախադիտում</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>Նախադիտում և հրապարակում</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>%name-ի նախադիտում և հրապարակում</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>Նախադիտել կառուցումը</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Ընթացք</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>Հանրային հասցե</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>Բաց բանալի</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>Հրապարակել</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>Հրապարակել կայքի ստատիկ պատճենը GitHub Pages-ում կամ ցանկացած git հոսթինգում. կառուցեք այն, ստուգեք փոփոխությունները, հրապարակեք և անհրաժեշտության դեպքում վերադարձեք ավելի վաղ հրապարակման։</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>Վերադարձի հրապարակում</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>Հրապարակումներ</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Ուղարկում</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>Կարդալ ուղեցույցը</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Գրառում</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Մերժված</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>Հարաբերական</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Վերաբեռնել</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>Հեռացված</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>Փոխարինել բանալին. հինն այլևս չի աշխատի</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Հաշվետվություն</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>Կառուցման հաշվետվությունը</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Պահոց</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Ստուգում</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>Ստուգումը ստուգում է յուրաքանչյուր կարգավորում և ցույց է տալիս այն տողերը, որոնք կգրվեն։ Դեռ ոչինչ պահպանված չէ։</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Հետ վերադարձնել</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Հետ վերադարձ</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Պահպանել</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>Ժամանակացույց</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>Որոնման էջ</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>Բաժինների id-ներ՝ ստորակետերով բաժանված։</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>Ուղարկել դրանք գործող կայք</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>Կարգավորում</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Կարգավորումներ</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>%name-ի կարգավորումները</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Կարգաբերում</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Կարգաբերում &gt; Գաղտնիքներ</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>Ցուցադրվում է ցուցակներում, օրինակ՝ «Հանրային կայք GitHub Pages-ում»։</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>GitHub App-ով մուտքը հասանելի կլինի GitHub ինտեգրման հետ։</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>Կայք</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>Հրապարակվող կայք</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Չափ</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>Չափ և սահմանափակումներ</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>Կառուցման չափը</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Հնացած էջեր</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Սկսված</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Սկսել է %user-ը՝ %time-ին։</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Վիճակ</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Ստատիկ հրապարակում</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>Ստատիկ հրապարակումն անջատված է</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Ստատիկ հրապարակումն անջատված է։</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>Ստատիկ հրապարակումն անջատված է։ Նախ միացրեք այն Կարգաբերում &gt; Ստատիկ հրապարակում բաժնում։</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>Ստատիկ հրապարակումը միացված է։</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>Քայլ %step՝ %total-ից</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Քայլեր</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>Մաքրում</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Անջատել</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Միացնել</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>Միացնել ստատիկ հրապարակումը</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Պիտակ</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>Պիտակներ</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Թիրախ</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>Թիրախները կարելի է ստեղծել և փոխել, բայց ոչինչ չի կառուցվում կամ հրապարակվում, քանի դեռ այն միացված չէ։</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>Որոնողական համակարգերին ասում է, թե ինչ կարդալ։</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>Չհաջողվեց դեն նետել կառուցումը՝ %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>Կառուցումը նույնն է, ինչ վերջին հրապարակումը. հրապարակելու բան չկա։</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>Կառուցումը դեն է նետվել. պանակը կրկին պարունակում է վերջին հրապարակումը։</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>Լռելյայն արժեքները հարմար են կայքերի մեծ մասի համար։</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>Պանակը պարունակում է դեռ չհրապարակված կառուցում. նոր կառուցումը կփոխարինի այն։</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>Հնարավոր չէ գրել առաջադրանքների պանակում՝ %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>Չհաջողվեց նախապատրաստել առաջադրանքը՝ %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>Չհաջողվեց սկսել առաջադրանքը։</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>Առաջադրանքն ավարտվել է։ Բեռնվում է դրա հաշվետվությունը։</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>Առաջադրանքին անհրաժեշտ է մուտք գործած օգտատեր։</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>Առաջադրանքը սկսվեց, բայց չհայտնեց իր գործընթացի id-ն։ Ստուգեք %detail-ը։</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>Բանալին</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>Ամենամեծ ֆայլը՝ %path, %size։</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Տողերը, որոնք կգրվեն</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>Էջերի ցուցակը որոնողական համակարգերի համար. անհրաժեշտ է հանրային հասցեն։</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>Էջերը բեռնվում են այնպես, ինչպես դրանք տեսնում է մուտք չգործած այցելուն։ Ադմինիստրավորման և խմբագրման siteaccess-ները երբեք չեն առաջարկվում։</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>Չհաջողվեց հետևել ընթացքին։ Վերաբեռնեք էջը՝ տեսնելու, թե ինչպես է ընթանում առաջադրանքը։</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>Բանալու բաց մասը՝</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>Ճյուղի արմատը</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>Գաղտնիքների պահոցը դեռ կարգավորված չէ (./console exp:upgrade --apply-ը ստեղծում է դրա աղյուսակը), ուստի ոչ մի բանալի հնարավոր չէ պահել։</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>Սերվերը մուտք է գործում ինքնուրույն (իր սեփական SSH բանալիով կամ մուտքի տվյալների օգնականով), կամ պահոցը գտնվում է այս սերվերում։</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>Չհաջողվեց գրել կարգավորումը՝ %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Կարգավորումները վավեր են։ Կգրվեն հետևյալ տողերը՝</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Հնարավոր չէ կարդալ կարգավորումների ֆայլը՝ %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>Կայքը վերադառնում է այդ հրապարակման ֆայլերին. դեռ չհրապարակված կառուցումը նախ պետք է հրապարակվի կամ դեն նետվի։</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>Կայքի սեփական էջը գոյություն չունեցող հասցեների համար։</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>Չհաջողվեց պահպանել թիրախը՝ %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>Թիրախը դեռ մուտք չի գործում այս բանալիով. ընտրեք «Այս թիրախի համար ստեղծված տեղակայման բանալի» դրա կարգավորումներում։</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Չհաջողվեց կարդալ թիրախները՝ %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>Ստուգման սպասող կառուցում դեռ չկա։</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>Այս տեղադրումը չունի հանրային siteaccess։ Ադմինիստրավորման և խմբագրման siteaccess-ները երբեք չեն հրապարակվում։</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>Այս էջը հետևում է առաջադրանքի ընթացքին. էջը փակելիս այն շարունակվում է հետին պլանում։</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>Այս թիրախը դեռ չունի տեղակայման բանալի։</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>Այս թիրախը դեռ այստեղ չի կառուցվել։</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>Այս թիրախն ունի այն։</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>Դեն է նետում այս կառուցումը. պանակը կրկին պարունակում է վերջին հրապարակումը։ Գործող կայքը չի փոխվում։</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>Նախ նշեք «Ես ստուգել եմ փոփոխությունները»։</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Տևողություն</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>Գործարկիչներ</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>Կրկին մուտքագրեք պիտակի անունը</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>Անփոփոխ</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>Վեբհուկ</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Ինչ</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>Ինչ է փոխվում</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>Ինչ է յուրաքանչյուր ֆայլը. միշտ գրվում է։</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>Ինչ արեց առաջադրանքը և դրա գրառումը։ Այստեղ սկսված առաջադրանքը շարունակվում է հետին պլանում, երբ այս էջը փակվում է։</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>Ինչ է առաջադրանքը տպել որպես սխալներ</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>Այն, ինչ նշում են էջերը, և հրապարակված բովանդակության յուրաքանչյուր պատկեր</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Երբ</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>Երբ հրապարակումը ձախողվում է</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>Երբ հրապարակումը հաջողվում է</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>Երբ բովանդակություն է հրապարակվում</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>Ուր են տանում այն հղումները, որոնք պատճենում չկան (որոնում, մուտք)։</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>Որտեղից է մատուցվում ստատիկ պատճենը։</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>Որ կայքն է հրապարակվում, և ինչպես է կոչվում թիրախը։</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>Աշխատում է ցանկացած ուղու տակ։ Լռելյայն։</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>Գրվում է, երբ սեփական դոմեն է սահմանված։</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>Այո</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>Դուք միշտ կարող եք ձեռքով կառուցել և հրապարակել այստեղ և վահանակում։</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>միայն անուն. արժեքը մնում է Կարգաբերում &gt; Գաղտնիքներ բաժնում</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>%path-ի տակ</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>ավարտվել է առանց հաշվետվության</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>լրացուցիչ</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>ձախողված</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>ֆայլ</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages կամ main՝ docs պանակով։</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>git հոսթինգ</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (թոքենով) կամ git@github.com:owner/repo.git (տեղակայման բանալիով). դրանում երբեք գաղտնաբառ կամ թոքեն։</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/՝ կայքի քարտեզի և կանոնիկ հղումների համար։</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>պատկեր</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>երբեք</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ոչ</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>հեռակա պահոց չկա</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>չկա. կոմիտները մնում են պանակում</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>չկա. ոչինչ չի փոխվել</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>ուղարկված չէ</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>ոչինչ չի փոխվել</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>էջ</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>հաջողված</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>proc_open-ն անջատված է, ուստի այստեղ առաջադրանք հնարավոր չէ սկսել։ Օգտագործեք ./console exp:static:build սերվերում։</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>հրապարակում</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>հրապարակված</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>սպասում է ուղարկման</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>ուղարկված</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>մերժված</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>հարաբերական</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>հետ վերադարձ</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>հետ շրջված</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>ընթացքում</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>միայն պանակը</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com՝ գրվում է CNAME ֆայլում։ Ուղղեք դոմենի DNS-ը դեպի հոսթինգ՝ նրա բացատրության համաձայն. HTTPS-ի գործարկումը կարող է որոշ ժամանակ տևել։</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>այո, դեռ չհրապարակված</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>GitHub App հավելված</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>Այն հրապարակում է պահոցի workflow-ը։ Կառուցումը գրում է workflow ֆայլը. թողեք պանակը դատարկ։</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>GitHub պահոցով և թոքենով կամ GitHub App-ով թիրախը պահելուց հետո այս քայլը կարող է ստեղծել պահոցը և միացնել GitHub Pages-ը։ Հակառակ դեպքում նախ ստեղծեք պահոցը GitHub-ում. դատարկն էլ է հարմար։</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>Ճյո՞ւղ, թե GitHub Actions</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>Ստուգել DNS-ը</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>Ստեղծել պահոցը, եթե այն գոյություն չունի</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>Ստեղծեք պահոցը GitHub-ում և միացրեք GitHub Pages-ը դրա կարգավորումներում (Settings &gt; Pages)։</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>Ստեղծում է %repo պահոցը, եթե այն չկա (եթե պահանջված է), միացնում է GitHub Pages-ը ճյուղից կամ GitHub Actions-ից՝ ըստ պահվածի, և սահմանում է սեփական դոմենը և HTTPS-ը։ Օգտագործում է պահված կարգավորումները. նախ պահեք փոփոխությունները։</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>Մանրամասներ GitHub-ում</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>Նախ մուտքագրեք սեփական դոմենը։</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>Յուրաքանչյուր push նախ ստուգվում է այս սահմանափակումներով։</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>GitHub-ում https:// հասցեի համար։ Մուտք է գործում այս տեղադրման համար կարգավորված App-ը. նրան անհրաժեշտ է տեղադրման id-ն։</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages-ը մասնավոր պահոց սպասարկում է միայն վճարովի պլանով։</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages. ենթադոմենին (www.example.com) անհրաժեշտ է CNAME գրառում դեպի &lt;owner&gt;.github.io, իսկ հիմնական դոմենին (example.com)՝ A գրառումներ %ips։</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>GitHub App-ի տեղադրման id</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>Pages-ի վերջին կառուցումը</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>Սահմանափակումներ և պայմաններ</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>Անհրաժեշտ է GitHub Pages-ի համար անվճար պլանով։</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>GitHub-ում</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>Միայն GitHub App-ով. GitHub-ում App-ի տեղադրման հասցեի վերջում գտնվող թիվը։ App-ն ինքը սահմանվում է staticcache.ini-ում (GitHubAppId, GitHubAppKey)։</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>Մասնավոր</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>Հանրային</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>Նախ պահեք թիրախը GitHub պահոցով և թոքենով կամ GitHub App-ով։</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>Սահմանեք այս գրառումները դոմենի մատակարարի մոտ.</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>Կարգավորել GitHub-ում</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>%domain-ի DNS-ը դեռ չի ուղղված GitHub Pages-ին։</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>%domain-ի DNS-ն ուղղված է GitHub Pages-ին։</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>GitHub-ի ինտեգրումն այստեղ հասանելի չէ. %problem։ Ճյուղում հրապարակումը, միևնույն է, աշխատում է. միացրեք GitHub Pages-ը պահոցի կարգավորումներում։</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>GitHub-ի քայլերը հասանելի չեն այս թիրախի համար. %problem։</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>GitHub Pages-ի վիճակը ցուցադրվում է, երբ մուտքի տվյալները թոքեն կամ GitHub App են։</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>Օգտագործել սեփական դոմենը</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>Ինչն ընտրել. թոքեն, տեղակայման բանալի, թե GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>GitHub պահոցով և թոքենով կամ GitHub App-ով վիզարդը կարող է ձեր փոխարեն ստեղծել պահոցը, միացնել GitHub Pages-ը և սահմանել դոմենը (քայլ 4)։</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>կառուցվում է</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>կառուցված է</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>GitHub Actions-ից</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>%branch ճյուղից</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>դեռ չկա</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>չի գտնվել</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>անջատված</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>մասնավոր</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>հանրային</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>հերթում</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>անհայտ</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%pages էջից %count՝</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>.gz (և .br) յուրաքանչյուր տեքստային ֆայլի կողքին՝ դրանք սպասարկող հոսթերի համար։</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>Փոքր էջ էջի յուրաքանչյուր հին հասցեի և կեղծանվան համար, որպեսզի հին հղումները շարունակեն աշխատել։</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>Միշտ գրվում է, երբ GitHub Actions-ը տրամադրում է կայքը։</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>SPDX id, օրինակ՝ CC-BY-4.0, կամ հենց տեքստը։</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>Զամբյուղ</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>Կանչեր սերվերին</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Մեկնաբանություններ</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>Տեղեկատվություն հավաքող ձևեր</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>GitHub Actions workflow</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>Ավելի քիչ բացատներ և առանց մեկնաբանությունների էջերում։</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>Բովանդակության արտոնագիր</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Մուտք</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>Փոքրացնել</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>Այլ ձևեր</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>Նախապես սեղմել</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>Վերահղման էջեր</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>Վերահղման էջեր՝ %count։</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Որոնում</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>Որոնման ինդեքս՝ %pages էջ %languages լեզուներով։</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>Ոճաթերթեր և սկրիպտներ, անվանված իրենց բովանդակության հեշով, որպեսզի զննիչները կարողանան պահել դրանք։</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>Փոփոխված էջերը՝ վերջին փոփոխությունից մի քանի րոպե անց (cronjob-ի staticpublish մասը)։</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>Բովանդակության արտոնագիրը՝ ստորև դաշտից։</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>Ամբողջ կայքը՝ ժամանակացույցի ժամերին (cronjob-ի staticpublish մասը)։</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>Էջերի այս մասերին սերվեր է պետք. յուրաքանչյուրը ստացել է պահուստային տարբերակ։ Ստուգեք դրանք հրապարակելուց առաջ։</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>Ինչը չի աշխատում ստատիկ կերպով</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>Ինչ է պահոցը՝ նրա համար, ով բացում է այն հոսթի վրա։</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>բաց թողնված</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>պահուստային տեքստը</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>գործող կայքի ձևի վերջնակետը</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>գործող կայքը</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>պատճենի որոնման էջը</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>Ձևը չհաջողվեց ուղարկել։</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>Շնորհակալություն՝ ձևն ուղարկվեց։</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>Ձևը չընդունվեց՝ ստուգեք մուտքագրածը և նորից ուղարկեք։</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>Հեռացնել պատճենում չեղած էջերի հղումները</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>Հեռացնել կառավարման հղումները</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>Դրանց տեքստը մնում է։ Պատկերները, ձևերը և այլ կայքերի հղումները երբեք չեն հեռացվում։</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Տարբերակ</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>Հրապարակվող կայքի մուտքի կետեր</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Կայքի մուտքի կետ</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>Արմատում</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>Արմատում կայքի մուտքի կետ չկա. յուրաքանչյուրը իր թղթապանակում է, իսկ արմատը հղում է դրանց</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Կայքի մուտքի կետեր</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>Նշեք կայքի մեկ մուտքի կետ կամ մի քանիսը, որոնք իրենց URI նախածանցով կիսում են մեկ հոսթ։ Արմատում գտնվողը մատուցվում է այնտեղ, մյուսները՝ իրենց նախածանցի թղթապանակում (/ger/). դրանց միջև հղումները մնում են պատճենում։ Կառավարման մուտքի կետերը երբեք չեն առաջարկվում։</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>%target-ի ստատիկ հրապարակումը ձախողվեց %site-ում</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>%target-ի ստատիկ հրապարակումը հաջողվեց %site-ում</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>Այս նամակն ուղարկել է %site-ը, քանի որ ստատիկ հրապարակման թիրախ %target-ը դա է խնդրում։</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>Տեղակայումը %deploy ձախողվեց %site-ում</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>Տեղակայումը %deploy սպասում է դարպասի մոտ %site-ում</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>Տեղակայումը %deploy հաջողվեց %site-ում</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>Այս նամակն ուղարկել է %site-ը, որովհետև դա պահանջում է migration.ini [RemoteSettings] Notify[]։</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>Տվյալների տիպեր (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>Հաշվված է %time, կրկին %minutes րոպե հետո</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>Տվյալների տիպը պահում և խմբագրում է դասի ատրիբուտի մեկ տեսակի արժեք՝ տեքստի տող, պատկեր, կապ։ Դրանց մեծ մասը տրամադրում է միջուկը, ընդլայնումներն ավելացնում են մյուսները։ Այստեղ բոլորն են, թե ով է դրանք տրամադրում և բովանդակության որքան մասն է դրանք օգտագործում։ Տվյալների տիպը, որը տվյալների բազան օգտագործում է, բայց այլևս ոչինչ չի գրանցում, վնասում է այն պարունակող բովանդակությունը։</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>Դասերի խմբեր</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>Կրկին հաշվել հիմա՝ վերջին րոպեների թվերի փոխարեն։</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>Կրկին հաշվել</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Ընդհանուր տեսք</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>Գրանցվել է</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>Օգտագործվում է</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>Չի օգտագործվել</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>Տվյալների տիպեր տրամադրող ընդլայնումներ</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>Դասի ատրիբուտներ</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>Օբյեկտի ատրիբուտներ</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>Գրանցված չէ</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>Նշված է, ֆայլը բացակայում է</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>%count տվյալների տիպ օգտագործվում է, բայց գրանցված չէ</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>%class_attributes դասի ատրիբուտ և %object_attributes օբյեկտի ատրիբուտ ունեն տվյալների տիպ, որը ոչ մի ընդլայնում կամ կարգավորում չի գրանցում։ Դրանց օբյեկտները չեն կարող ցուցադրվել, խմբագրվել կամ հրապարակվել։ Ակտիվացրեք տվյալների տիպը տրամադրող ընդլայնումը կամ փոխեք դասը։</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>Ցույց տալ միայն սրանք</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>Գտնել տվյալների տիպ</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>Նույնացուցիչ, անուն, PHP դաս կամ ընդլայնում։</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Ցուցադրել</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Բոլորը</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>Տրամադրող</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>Բոլորը</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>Միջուկ</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>Ոչ մի տվյալների տիպ չի համապատասխանում այս զտիչին։</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Ցուցադրել բոլորը</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>Ընդլայնում</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%shown՝ %count տվյալների տիպից, %used՝ օգտագործվում են</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>Տվյալների բազայում կան այս տվյալների տիպերի դասի կամ օբյեկտի ատրիբուտներ, բայց content.ini-ն դրանցից ոչ մեկը չի նշում, կամ դրա ֆայլը բացակայում է։</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>%provider-ի տվյալների տիպերը</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>Տվյալների տիպ</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>PHP դաս և ֆայլ</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>Դասեր</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>Օբյեկտներ</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>Դրոշակներ</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>ոչ մեկը</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>Ոչ մի տվյալների տիպ չի համապատասխանում որոնմանը։ Մաքրեք որոնումը։</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>Ցուցադրված է %shown՝ %count տվյալների տիպից</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>Ցուցադրված տվյալների տիպեր՝ %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>Դասավորել ըստ %column</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>Հաշվված է %time</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>Բոլոր տվյալների տիպերը</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>Օգնության էջ</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>Այս տվյալների տիպը օգտագործվում է, բայց գրանցված չէ</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>Ստորև նշված դասերի օբյեկտները չեն կարող ցուցադրվել, խմբագրվել կամ հրապարակվել, քանի դեռ ոչ մի ընդլայնում չի գրանցում տվյալների տիպը։ Ակտիվացրեք այն տրամադրող ընդլայնումը և ավելացրեք այն content.ini [DataTypeSettings] AvailableDataTypes[]-ում, կամ փոխեք դասերը։</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini-ն նշում է այս տվյալների տիպը, բայց ոչ մի տվյալների տիպի պանակում դրա ֆայլը չկա։ Ոչինչ այն չի օգտագործում․ հեռացրեք այն AvailableDataTypes[]-ից կամ ակտիվացրեք դրա ընդլայնումը։</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>Այս տվյալների տիպի մասին</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>Նույնացուցիչ</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Անուն</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Ընդլայնում՝ %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>ոչ ոք</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>PHP դաս</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Ֆայլ</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>AvailableDataTypes[]-ում</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>այո</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ոչ</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>Դրա արժեքի սյունակները</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>Դրա դասի ատրիբուտի կարգավորումների սյունակները</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>Աղյուսակներ</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>Սյունակներն ու աղյուսակները գտնվում են տվյալների տիպի կոդը կարդալով՝ ուղեցույց է, ոչ թե երաշխիք։</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>Ձևանմուշներ</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Կայքի մուտքի կետ</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>Ձևանմուշ</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>Գտնվում է</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>այս կառավարումը</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>լռելյայն կայք</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>Առանց վերասահմանումների․ դասով կամ ատրիբուտով համընկնող վերասահմանման ձևանմուշը գերակայում է սրանց նկատմամբ։</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>Այն օգտագործող դասեր (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>Ոչ մի դաս չունի այս տվյալների տիպի ատրիբուտ։</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Դաս</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>Ատրիբուտներ</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>Դասի ատրիբուտներ (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>Ատրիբուտ</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Կարգավորումներ</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>Պարտադիր</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>Որոնելի</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>Թարգմանվող</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>Հավաքում է տեղեկություններ</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>Այն օգտագործող որոշ բովանդակություն</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>Վերջին փոփոխվածը՝ առաջինը</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Փոփոխված</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>Հանգույց %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>Յուրաքանչյուր թարգմանություն ունի իր արժեքը։</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>Որոնումը ինդեքսավորում է դրա արժեքները։</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>Կարող է տեղեկություններ հավաքել այցելուներից (ձևեր)։</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>Ցուցակները կարելի է դասավորել ըստ դրա՝ դասավորման բանալի %type։</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>Դասավորվող</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>Դրա արժեքները հղում են այլ օբյեկտների։</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>Կապեր</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>Կարող է լրացվել պարզ տողից (ներմուծում, REST)։</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>Տեքստից</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>Կարող է լրացվել ֆայլից։</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>Ֆայլից</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>Դրա դասի ատրիբուտի կարգավորումները ներառվում են փաթեթներում։</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>Փաթեթներ</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>Բովանդակություն (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from - %to, ընդամենը %count</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Զտել ցանկը</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>Բոլոր դասերը</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Բաժին</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Լեզուներ</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Սեփականատեր</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Հրապարակված</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>Շրջել կարգը</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Տարր չկա</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Մեկ էջում</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Ցուցադրել %count տարր մեկ էջում։</translation>
     </message>
 </context>
 </TS>

@@ -6,6 +6,21 @@ sind an der Administrationsoberfläche angemeldet, haben einen ersten Inhalt ver
 und die Änderung auf der Site gesehen. Rechnen Sie mit zehn bis fünfzehn Minuten. Die Installation selbst dauert mit
 SQLite etwa eine Minute.
 
+> **Warnung**
+> **`.htaccess` bremst jede Anfrage.** Sind `.htaccess`-Dateien erlaubt (`AllowOverride` alles außer `None`), geschweige
+> denn genutzt, sucht Apache sie bei jeder Anfrage in jedem Verzeichnis des Pfads und liest und wertet sie aus, und
+> die Ladezeiten der Seiten steigen drastisch ([gemessen](setup-dateien-von-der-konsole.md#gemessen-htaccess-gegen-regeln-im-virtuellen-host)). Die einzige wirkliche Abhilfe ist, die
+> Funktion für den virtuellen Host abzuschalten: `AllowOverride None` im virtuellen HTTPS-Host, und die Regeln in
+> der Konfiguration des virtuellen Hosts selbst als mod_rewrite-Regeln. Das ist in Geschwindigkeitstests im
+> Produktivbetrieb weit schneller und die Zeit für die Optimierung einer Produktivkonfiguration unbedingt wert.
+> Stellen Sie sofort um: Übernehmen Sie die Regeln des [Beispiels für einen virtuellen HTTPS-Host](../beispiele/webserver/apache-virtueller-host.md) in
+> Ihren virtuellen Host (mit dem statischen Cache auch [`staticcache_offload.conf`](../../eng-us/examples/staticcache_offload.conf)), setzen Sie
+> `AllowOverride None`, führen Sie `apachectl configtest` aus, laden Sie Apache neu und testen Sie die Website.
+> Dieselben Regeln für andere Server: [nginx](../beispiele/webserver/nginx.md), [LiteSpeed](../beispiele/webserver/litespeed.md), [Caddy](../beispiele/webserver/caddy.md), [IIS](../beispiele/webserver/iis.md),
+> [Velocity](../beispiele/webserver/velocity.md) (eingebaut); wohin Regeln für virtuelle Hosts in einem Control Panel gehören:
+> [Plesk](../hilfe/hosting/control-panels/plesk.md), [cPanel](../hilfe/hosting/control-panels/cpanel.md), [DirectAdmin](../hilfe/hosting/control-panels/directadmin.md), [ISPConfig](../hilfe/hosting/control-panels/ispconfig.md).
+> **Unter LiteSpeed oder OpenLiteSpeed** kann zusätzlich der Seiten-Cache des Servers anonyme Besucher und Crawler ohne PHP bedienen: [Seiten-Caching mit LiteSpeed und OpenLiteSpeed](seiten-cache-mit-litespeed.md).
+
 Jeder Befehl wird im Wurzelverzeichnis der Installation ausgeführt (dem Verzeichnis, das `console`, `index.php` und
 `settings/` enthält). Befehle, die mit `./console` beginnen, sind dieselben Programme wie `php bin/php/<name>.php`.
 
@@ -64,7 +79,7 @@ Prüfen Sie, ob die Konsole läuft:
 ```
 
 Erwartet: Die erste Zeile lautet `console (Exponential) 6.0.15stable` (oder die Version, die Sie installiert haben), und der Text endet
-mit `Written by 7x (se7enx.com) and the Exponential contributors.`
+mit `Written by the Exponential Foundation and 7x (se7enx.com).`
 Wenn Sie als `root` arbeiten, ergänzen Sie `--allow-root-user` bei den Skripten, die danach verlangen. Die Meldung des Skripts sagt es Ihnen.
 
 ## 3. Installieren
@@ -72,7 +87,7 @@ Wenn Sie als `root` arbeiten, ergänzen Sie `--allow-root-user` bei den Skripten
 ### 3.1 Der eine Befehl
 
 ```bash
-./console exp:install --random-password --url=http://localhost:8087
+./console exp:install --apply --random-password --url=http://localhost:8087
 ```
 
 Dieser Befehl installiert das Multisite-Site-Paket auf SQLite, in `eng-US`, mit den Siteaccesses `site` (der öffentlichen Site) und
@@ -103,7 +118,7 @@ Kopieren Sie jetzt die Zeilen Admin, Username und Password. Eine Kopie der verwe
 ### 3.2 Andere Datenbanken
 
 ```bash
-EXP_INSTALL_DB_PASSWORD='YOUR_PASSWORD' ./console exp:install --db=mysql --db-host=127.0.0.1 \
+EXP_INSTALL_DB_PASSWORD='YOUR_PASSWORD' ./console exp:install --apply --db=mysql --db-host=127.0.0.1 \
     --db-name=mysite --db-user=root --db-action=remove --random-password --url=http://localhost:8087
 ```
 
@@ -117,7 +132,7 @@ Für dieselbe Installation auf mehreren Servern schreiben Sie die Antworten einm
 ```bash
 php bin/php/console exp:kickstarter ini        # writes kickstart.ini after a few questions
 php bin/php/console exp:kickstarter run --dry-run
-php bin/php/console exp:kickstarter run --force
+php bin/php/console exp:kickstarter run --apply --force
 ```
 
 `--dry-run` prüft die Antworten und die Pakete und schreibt nichts. Siehe
@@ -146,6 +161,9 @@ der installierten Site. Halten Sie den Server mit `./console exp:velocity stop -
 Wenn Sie Schritt 3 mit einer anderen `--url` ausgeführt haben, verwenden Sie die Site-Adresse, die das Installationsprogramm ausgegeben hat.
 
 Für den Produktivbetrieb verwenden Sie Apache mit PHP-FPM oder die eigenen Engines `qbix` oder `frankenphp` von Velocity: [Velocity-Engines](../bc/6.0/velocity-engines.md).
+Apache braucht die mitgelieferten Rewrite-Regeln als `.htaccess`: `./console exp:setup:htaccess --apply` kopiert sie,
+und `./console exp:setup:status` zeigt, wie es um `.htaccess` und `config.php` steht
+([.htaccess und config.php von der Konsole aus einrichten](setup-dateien-von-der-konsole.md)).
 Wenn eine Seite einen Fehler zeigt, verbirgt der Cache noch nichts; lesen Sie `var/log/error.log` und siehe
 [Eine Installation reparieren](../bc/6.0/reparatur.md).
 
@@ -233,6 +251,7 @@ und [Ladereihenfolge der Extensions](../funktionen/6.0/ladereihenfolge-der-exten
 | Die Site gesund halten | [Betrieb einer Site](betrieb-einer-website.md), [Sicherheit und Audit](sicherheit-und-audit.md) |
 | Auf eine neuere Release wechseln | [Upgrade](aktualisieren.md) |
 | Einstellungen auf der Kommandozeile ändern | [exp:ini](../funktionen/6.0/exp-ini-befehl.md) |
+| `.htaccess` und `config.php` anlegen, eine Einstellung in `config.php` ändern | [.htaccess und config.php von der Konsole aus einrichten](setup-dateien-von-der-konsole.md) |
 | Änderungen in der Administration im Blick behalten | [Audit-Protokoll](../funktionen/6.0/pruefprotokoll.md) |
 | Wiederkehrende Aufgaben ausführen | [Cronjob-Konsole](../funktionen/6.0/cronjobs-in-der-konsole.md) |
 | Sehen, was sich wann geändert hat | [Chronik nach Monaten](../geschichte/README.md), [Changelog 6.0.15](../../changelogs/6.0/6.0.15.md) |

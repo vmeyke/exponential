@@ -984,6 +984,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>बे फोथाखौसे नायनाय जायो: %count निफ्राय %from निफ्राय %to फिन.</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>कर्नेल आरो एक्सटेनसनफोरनि गासै डेटा रोखोम, आरो क्लास आरो आयदाफोरा बेखौ माबोरै बाहायो।</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>डेटा रोखोम</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2316,6 +2324,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>सिस्टेम फोथाफोरखौबो बुकमार्क खालानो हायो: फोथाखौ खोल (सेटआप, अडिट ट्रेल, बेबहार खालामग्रानि तालिका ...) आरो बेनि उफ्राव "बे फोथाखौ बुकमार्क खालाम" सायख्रा. बे बुकमार्कआव गियार आइकन दं.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>नोंथाङै दिनैनिफ्राय बे फोथाखौ बेयाव खोलनो हायाखै. बुकमार्कखौ आगाय, एवा अडमिनिस्ट्रेटरनिफ्राय प्रबेश होनो.</translation>
     </message>
 </context>
 <context>
@@ -5165,6 +5177,210 @@
         <source>Go to the first page</source>
         <translation>आगान फोथाआव थां</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>उनाव</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>उननि 7 सान</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>गावनि सायखनाय सम</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>गासै सोदोब</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>जायखिजाया सोदोब</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>थार फ्रेज</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>सोमोन्दो</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>मुं A–Z</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>मुं Z–A</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>सोलोंथायनाय, गोदानफोरखौ गिबियाव</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>सोलोंथायनाय, गोजामफोरखौ गिबियाव</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>सिफायनाय, गोदानफोरखौ गिबियाव</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>सिफायनाय, गोजामफोरखौ गिबियाव</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>सोलोंथायनाय</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>फिल्टारफोर</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>फिल्टारफोर दिन्थि</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>फिल्टारफोर दोनथुं</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>फिन्से सुरु</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>लागाव</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>सोदोबफोर</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>बिषयबस्तुनि रोखोम</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>बांसिन दिन्थि (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>बेनि मोनसे गुणआव नागिरनो मोनसे बिषयबस्तुनि रोखोम सायख।</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>सेक्सन</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>निफ्राय</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>सिम</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>जागायनाय तारिखआ थार तारिख नङा।</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>जोबनाय तारिखआ थार तारिख नङा।</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>मालिक</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>बेबहार खालामग्रा ID, लगइन एबा ई-मेइल ठिकाना।</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>“%input” नि थाखाय बेबहार खालामग्रा मोनाखै।</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>राव</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>जायखिजाया राव</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>थान</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>%count थान</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>बिलाइ गोनसेयाव फलाफल</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>“%text” नि फलाफल (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>फलाफल (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>बेनि बादि क्रम खालाम</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>क्रम खालाम</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>सक्रिय फिल्टारफोर</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>बे फिल्टारखौ आगाय</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>एबा फिल्टारफोर सायख आरो बेखौ लागाव, जाहाथे गोरोबनाय बिषयबस्तुनि फारिलाइ नुनो।</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>सोदोब लिरनायनि उनाव फिल्टारफोरा नागिरनायखौ खुथिया खालामो।</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>“%text” नि थाखाय जेबो फलाफल मोनाखै।</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>जेबो फलाफल मोनाखै।</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>सायाव थानाय मोनसे फिल्टार हुखुमोर।</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>अनुबादफोर</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>खामानि</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>%name सोलोंथाय</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>सोलोंथाय</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -7514,6 +7730,10 @@
         <source>Setup &gt; Cronjobs</source>
         <translation>सेटआप &gt; Cronjobs</translation>
     </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>दासिम मोनसेबो क्रनजब बाहागो चलावजायाखै: खामानि लाइन, इम्पोर्टफोर, खौसिनायफोर आरो नायनाय इन्डेक्स नेथ्रोमदों. php bin/php/installcrontab.php --add --apply चलाव, नङाब्ला --show नि सारिफोरखौ crontab आव जोराव.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/dashboard/drafts</name>
@@ -8058,8 +8278,8 @@
         <translation>गेजेरनि लिरगिरि आरो Exponentialजों दैनाय गुबै फारिनि सफ्टओयारनि कपिराइट खौसिनायआ, लाइसेन्सआ गोनांनायनि बायदि, सोर्स फाइल आरो LICENSE फाइलआव रैखानाय.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>बेनि उननि Exponentialआव जोराव खालामनाय गोदो लिरगिरिनि तालिका, जेरायाव eZ Systems Contributor Licensing Agreementनि सर्त आरो नियमनि बादि गासैनि खामानिखौ 7xनि बेबहारनि थाखाय लाइसेन्स होदों. बे सोमजिआ गोहोदनायनि बादि, 7xआ जोबोद जोराव खालामनायखौ बे जोरावनाय फाइलनि लाइसेन्सजों बांसिन दिदो. तालिकाव जोबोद जोराव खालामग्रानि मुं, इच्छा जायुगोन सोमोन्धोनि बुंनाय, आरो जेरायाव जोराव खालामनाय फाइलखौ दिदोंमोन.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>Exponential आरो बेनि सोमखौ जाखांनाय सफ्टवेरआव खामानिनि थाखाय मान होनाय हानाय होग्रासोफोर, बिसोरो होनाय फाइलफोरजों लोगोसे। बेयो मान होनाय, कपिराइट फोरमायनाय नङा: Exponential आव होनाय होग्रा Contributor Licensing Agreement सिमांनिफ्राय Exponential Foundation आरो 7x आव होनो जायो।</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13881,32 +14101,20 @@ Note: The packages will not be uninstalled.</source>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%evaluate_link"&gt;Exponential Enterprise Edition नायगिन&lt;/a&gt; - &lt;a href="%share_link"&gt;Exponential समुदायनि सदस्य जा, खोनाय आरो हाबनाय खालाम&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; कपिराइट &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; आरो नेवसेफोर.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class="edition-info"&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>&lt;span class="edition-info"&gt;%edition&lt;/span&gt; जों चलाबाय. बांसिन बिबरणनि थाखाय &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt; नाय.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; कपिराइट &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; आरो नेवसेफोर.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> बांसिन बिबरणनि थाखाय &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt; नाय.</translation>
     </message>
     <message>
-        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; कपिराइट &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; आरो नेवसेफोर.</translation>
+        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href="%evaluate_link"&gt;Exponential नायगिन (7x निफ्राय)&lt;/a&gt; - &lt;a href="%share_link"&gt;Exponential समुदायनि सदस्य जा, मदद हो आरो हाबनाय खालाम&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; कपिराइट &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; आरो नेवसेफोर.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13915,6 +14123,61 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Help center</source>
         <translation>मदद सेन्टार</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>बिषयबस्तु</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>फोरमान बिलाइनि बिलाइफोर</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>बेबहार खालामग्रा</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>बिषयबस्तु क्लासफोर</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>प्रशासन</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>बिलाइ %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>गासै फलाफल नाय</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>%count फल</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>मोनसे फलाफल</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>%count बाथ्रा होनाय</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>जेबो बाथ्रा होनाय गैया</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>बाथ्रा होनायफोरखौ लड खालामनो हायाखै।</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>बाथ्रा होनायफोर</translation>
     </message>
 </context>
 <context>
@@ -14383,6 +14646,14 @@ Note: The packages will not be uninstalled.</source>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>बे इन्स्टलेसनआ गासैयारि डेमोसे: जाहोन्बो बेनि अडमिनिस्ट्रेटर पासओयार्डखौ बुझो, आरो अडमिनिस्ट्रेटर पासओयार्ड सोलोंथाय नाया फिन सेट खालामनो हायाखै. बेयाव गोबां गाबनाय खालामनाय ग्रा.</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>नोंथांनि यन्त्रफोर</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>सुरखा खामानि</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14672,6 +14943,14 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>बिबरणफोर, नायनाय आरो गोलाव माबोरै रिपोर्ट खालामनो.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>गुदुनि बिषयबस्तु</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>गोदान बिषयबस्तु, आनजाद खालामनो मा थिसना दोनबाय, आरो सायख्रानायआव खामानिफोर.</translation>
     </message>
 </context>
 <context>
@@ -15130,6 +15409,46 @@ Note: The packages will not be uninstalled.</source>
         <source>Synchronisations</source>
         <translation>सिंक्रनाइजेसनफोर</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>GraphQL API: बेनि एन्ड पइन्ट, स्कीमा आरो क्वेरि नाजानो थाखाय मोनसे गेलेनाय जायगा।</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>माइग्रेशनफोर</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>फाइल महरै थिनाय इनस्टलेशननि सोलायनायफोर: बिसोरनि स्थिति, रानफोर, रान खालामनाय आरो फिन लाबोनाय।</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>गुदुनि बिषयबस्तु</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>गोदान बिषयबस्तु, आनजाद खालामनो मा थिसना दोनबाय, आरो सायख्रानायआव खामानिफोर.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>मोनसे साइटनि स्टेटिक कपिखौ GitHub Pages एबा जायखिजाया git होस्टआव फोरमाय।</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>स्टेटिक फोरमायनाय</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>डेटा रोखोम</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>कर्नेल आरो एक्सटेनसनफोरनि गासै डेटा रोखोम, आरो क्लास आरो आयदाफोरा बेखौ माबोरै बाहायो।</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15294,6 +15613,22 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>जाहोन्बो बेबहार खालामाया नाया नायनो गोनां एकाउन्टफोर; बेफोरखौ बन्द खालाम, खुल नाया एक्सपोर्ट खालाम.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>बेबहार खालामग्रानि अडिट लग</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>एकाउन्ट फ्रामबोआव सोर सोलायदों, लगइन खालामदों एबा नेवसिजादों; फिल्टार आरो एक्सपोर्ट खालाम।</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>लगइन रिपर्ट</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>सोर लगइन जादों, सान गोनांथि लगइन आरो फेलफोर; मोनसे बेबहार खालामग्राखौ जायगा जायगानिफ्राय लगआउट खालाम.</translation>
     </message>
 </context>
 <context>
@@ -22110,6 +22445,22 @@ Note: The packages will not be uninstalled.</source>
         <source>%n hours ago</source>
         <translation>%n घन्टा सिगां</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>GraphQL API नि जाखोनाय क्वेरिफोरनि फिननायफोर, आरो बेनि स्कीमानि आयदा थाखोफोर।</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>मोनसे स्टेटिक कपिखौ GitHub Pages एबा जायखिजाया git होस्टआव फोरमाय</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>स्टेटिक फोरमायनाय</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>स्टेटिक क्यासआ बे सार्भारनिफ्राय बिलाइफोर होयो। मोनसे साइटनि स्टेटिक कपिखौ गुबुन जायगायाव, GitHub Pages एबा जायखिजाया git होस्टआव फोरमायनो थाखाय, स्टेटिक फोरमायनाय बाहाय।</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25651,6 +26002,10 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>last purge</source>
         <translation>आखुनि सिन्द्रायनाय</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>लिरनायफोरा थासारि लक लानो हाया (जोबनाय %date): मोनफ्रोमबो क्याश खालामनाय गासै फलाफोरखौ गोजाम खालामबाय। साइटआ जाय गासै बाहायगिरिनि मुङाव खामानि मावो, बेसोरनि थाखाय %file लिरनो हानाय जाथारनांगौ; NFS आव NFSv4 एबा lockd नांगौ।</translation>
     </message>
 </context>
 <context>
@@ -33599,6 +33954,14 @@ Note: The packages will not be uninstalled.</source>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>PHP हैन्डलारनि सोमोय खुनायनाय सेसनफोरखौ PHP गावनै आगाय खालामो (session.gc_maxlifetime), बे फोथा नैबा session_gc cronjob गोबामआ मा।</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>बेबहार खालामग्रा गासैनि लगइन जानाय सेसनफोरखौ लगइन रिपर्टआव दिन्थियो आरो बेनिफ्रायनो लगआउट खालामो; बे रिपर्टआ गासै सेसन हैन्डलारनैलाय खामानि मावो.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>लगइन रिपर्ट खेव</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37923,6 +38286,26 @@ your account.</source>
     <message>
         <source>None yet</source>
         <translation>दिनै मुं</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>सुरखा खामानि</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>नोंथांनि गोदान लगइनफोर, फेल जानाय नाजानायफोर आरो नोंथांनि पासओयार्ड, इ-मेइल ठिकाना आरो बाहागो निफ्राय लगइनआव जानाय सोलायनायफोर.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>बे एकाउन्टनि गोदान लगइनफोर, फेल जानाय नाजानायफोर आरो सुरखा सोलायनायफोर.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>खामानिखौ नायफिन</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>फेल जानाय लगइन: %count</translation>
     </message>
 </context>
 <context>
@@ -44089,6 +44472,42 @@ If you want to send comments to the approver or view the status use the URL belo
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>साइन-इन खालामनायनि उनाव बेबहार खालामग्रा आ आखुं मावबो खालामनोनि सिगां गोदान पासओयार्ड मोनसे सायख्रानो गोनां. नों आथोनै पासओयार्ड मोनसे होनाय सोमोयाव बेखौ बेबहार खालाम.</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>दङ्गासिनो मुहुर सायख</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>नोंथाङा सायखनाय बस्तुनि मुहुर फाइलखौ बे फिल्डआव कपि खालामनाय जायो। गुबुन बस्तुआ सोलायाखै।</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>“%name”नि मुहुरखौ बे फिल्डआव कपि खालामनाय जाबाय।</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>मुहुरनि थाखाय ब्राउज खालाम</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>मुंजों मुहुर नागिर</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>नायनाय</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>“%name”नि मुहुरखौ बाहाय</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>बे मुहुरखौ बाहाय</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>नोंथांनि नागिरनायजों मोनसेबो मुहुर गोरोबाखै।</translation>
     </message>
 </context>
 <context>
@@ -51013,6 +51432,10 @@ See the requirements page for more information.</source>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>क्रनटेब लिरनाय जाया (%reason). साइट चलानाय बेबहार खालामग्रानि क्रनटेबआव बे लाइनफोरखौ जोराव, नाथाय लाइन, इम्पोर्ट, खौसिनाय आरो नायनाय इन्डेक्स गासैबो चलाया:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>फिन इन्स्टल खालामनायखौ किकस्टार्टारजों (%file, उनाव php bin/php/kickstarter.php run --apply) नङाब्ला गोदान इन्स्टलजों खालामो.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54892,6 +55315,10 @@ your account.</source>
         <source>eZJSCore Public Packer cache</source>
         <translation>eZJSCore पब्लिक प्याकार क्यास</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>GraphQL कैश (फिननायफोर आरो स्कीमा थाखोफोर)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54978,6 +55405,14 @@ your account.</source>
     <message>
         <source>Copy of %class_name</source>
         <translation>%class_name नि कपि</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>डेटा रोखोम</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>डेटा रोखोम %string</translation>
     </message>
 </context>
 <context>
@@ -55804,6 +56239,26 @@ your account.</source>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>SVG मुहुरखौ फरायनो हायाखै, नाबा बेआव निरापदै नुजाबाय मावबो दैया.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>मुहुरखौ कपि खालामनो हायाखै। नाजा फिन्से हुद, एबा साइट अडमिनिस्ट्रेटरआव सोमोन्धो खालाम।</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>सायखनाय बस्तुआ गैया एबा नोंथाङा बेखौ फरायनो हाया।</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>सायखनाय बस्तुआव मोनसेबो मुहुर गैया।</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>सायखनाय बस्तुनि मुहुर फाइलखौ फरायनो हायाखै।</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>सायखनाय बस्तुनि मुहुरा बे फिल्डआ गनायथि होनायनिख्रुइ गेदेर: %1 बाइट।</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56334,6 +56789,42 @@ your account.</source>
         <source>The bookmark was renamed to "%name".</source>
         <translation>बुकमार्कनि मुं "%name" नो सोलायनाय जादों.</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>बे साइट-प्रबेशआव (%siteaccess) बे फोथाखौ बन्द खालामनाय जादों. बुकमार्कखौ बे फोथा दंनाय साइट-प्रबेश मोनसेयाव खोल.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>बे फोथानि मडुलखौ बेयाव इन्स्टल खालामनाय जाया एवा चालु खालामनाय जाया.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>बे फोथा दिनैनिफ्राय गैया: बेनि मडुलआव बेबादि भिउ गैया.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>नोंथांनि बाहागोफोरनि मोनसेबो नोंथांखौ बे फोथाखौ खोलनो गनायथि होआ.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>नोंथाङै बे साइट-प्रबेशखौ बाहायनो हायाखै.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>बे फोथाया दिन्थिनाय बिषयबस्तुखौ नोंथाङै फरायनो हायाखै.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>बेबादि फोथाखौ बुकमार्क खालामनो हाया: बेयो फर्म मोनसेनि सायाव थाखोन हाबा मावो, एवा बेयो मोनसे मुहुर्तनि फोथा.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>बे फोथानि ठिकाना दैया.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>बे फोथाखौ दानो खोलनो हाया.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56805,6 +57296,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>जेबेसेनि चलानायआव इ-मेइल ट्रान्सपोर्टआ %count बिबान नाजा. इ-मेइल सार्भार आरो site.ini MailSettings नायो.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>%count घटना नेथ्रोमदों आरो खौसिनाय क्रनजबनि मोनसेबो चलावनाय रैखाजायाखै. क्रनजब बाहागो &quot;frequent&quot; खौ crontab आव जोराव, नङाब्ला exp:notification:run --apply चलाव.</translation>
     </message>
 </context>
 <context>
@@ -63061,6 +63556,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Choose another site or section with the node picker</source>
         <translation>नोड सायख्राग्राजों मेया साइट नङा सेक्सन सायख्रा</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>सिस्टेम अडमिनिस्ट्रेटरसोल गाहाम मानसिखौ सोलायनो हायो: root बादि ./console exp:content-check --fix-permissions --apply चलाव.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64594,6 +65093,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>empty</source>
         <translation>खालि</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>सही कीआ मोनसे बोसोरनिख्रुइ बांसिन गोजाम जाबाय: exp:audit key rotate --apply जों बेखौ सोलाय.</translation>
     </message>
 </context>
 <context>
@@ -68424,6 +68927,486 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Share of page time</source>
         <translation>फोथानि सोमोयनि भाग</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>जोबोद रेन्डारनि अनुरोध खालामनाय जादोंमोन</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>फोथा क्यासआव बे फोथाआ गैयामोन (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>फोथा क्यासआ जोबाब होयाखै</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>रेन्डार खालामनाय</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>कर्नेलजों रेन्डार खालामनाय: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>फोथा क्यासनिफ्राय %ms ms आव होनाय. बे फोथाखौ %stored आव %render ms नि रेन्डारजों रैखा खालामनाय जादोंमोन, %age s सिगांनि.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>दानो रेन्डार खालाम</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>क्यास खालामनाय भिउआव खेबसे</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>%stored नि रेन्डारनिफ्राय (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>बे अनुरोधआ: फोथा क्यासनिफ्राय %ms ms आव होनाय.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>बेबहार खालामग्रा</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>बेबहार खालामग्रा ID</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>केस प्रफाइल</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>बे नुथाय</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>भिउ क्यास</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>बायदि बाहायगिरि (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>बाहायगिरिनि केस प्रफाइल: रोखोम प्रफाइल थानाय बाहायगिरिफोरा नुथाय केस फाइलफोरखौ रानसायो</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>होय</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>नङा</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>लगइन मुं</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>लगइन खालामनाय</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>सेसन</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>बाहायगिरिनि सायाव थाखानाय आयदा नुथाय केस कि-नि बाहागोफोर, कि-आ लानाय बादिनो, बे बिलाइनि ViewCacheTweaks नि सिङाव। रोखोम प्रफाइल थानाय बाहायगिरिफोरा नुथायफोरनि केस फाइलफोरखौ रानसायो, नुथाय गावनि बाहागोफोरा गुबुन जायोब्ला (गोसोजाथाय, लिसनारफोरनि कि): बेफोरनि गावनि प्रफाइल थायो, बे बिलाइनि थाखाय थारथि।</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>प्रोफाइल</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>बे नुथाय (नड %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: लगइन खालामनाय बायदि बाहायगिरियावनो गावनि केस फाइल दं।</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>थाखानाय ViewCacheTweaks: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>फाला</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>मान</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>जेबो बाहागोआ बाहायगिरिनि सायाव थाखाया (ViewCacheTweaks)।</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>बे नुथाय</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>लिरनाय बादि कपि खालाम</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>बाहागो</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>जेबो बाहागो होनायखौ फरायनो हाया।</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>बाहागो ID</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>बाहागो</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>सिमा</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>होनाय</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>बाहायगिरि</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>दल %name (मुवा %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>कपि खालामनाय जादों</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>कपि खालामनो हाया।</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>लिसनारजों बाद होनाय</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>मुं मावग्रा नायग्राफोर</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>नोंथांनि बादिनो</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>गुबुन</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>मुं गैयि सावरायग्राफोरा रोखोम ViewCacheTweaks नि सिङाव मोननाय प्रफाइल, गाहाय गोसोजाथायजों, नुथायनि बाहागोफोर गैयि: सेसन फरायग्रा लिसनारखौ बेफोरनि बागै सुंनो हाया।</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>गोसोजाथायफोर</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>जेबो नुथाय मोडआ बाहायगिरिनि गोसोजाथायनि सायाव थाखाया (site.ini [ContentSettings] CachedViewPreferences)।</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>बे नुथाय मोडफोरनि नुथायफोरा जाय गोसोजाथायफोरनि सायाव थाखायो (CachedViewPreferences), बाहायगिरिनि बेसेनजों एबा गाहाय बेसेनजों। बेफोरा प्रफाइलाव userpreferences बादि दं, गासै नुथाय मोडफोरनि लोगोसे।</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>भिउ मोड</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>गोसोजाथाय</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>डिफल्ट</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>निति</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>बाहागोफोरनि नितिफोर दिन्थि (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>बे खोन्दोखौ खेवब्ला नितिफोरखौ सार्भारनिफ्राय लड खालामो, सानैथिङाव मोनसे बिलाइ, आरो मडिउल आरो फङ्सन फारियै फिल्टार खालामनो हायो।</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>फङ्सन</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>जोबोद मडुल</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>गासै फङ्सन</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>सिमाफोर</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>बांसिन दिन्थि</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>बे बाहागोफोरनि जेबो निति गैया।</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>जेबो नितिआ फिल्टारजों मिलाया।</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%matching निति निफ्राय %shown (गासै %total)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>खेवनाय बेलाय लोड जायो।</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>module/function, फोजोब, सिमा</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>नीतिफोरखौ दां</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>आरो लोड खालाम</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>मडुल/फङ्सन</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>गासैबो फोजोबफोर (%count नीति)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>नीति मिलनाय गैया।</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%matched नीतिफोरनिफ्राय %shown</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>जायो गैया</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>गुपुत खालामनाय</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>बेखेवनायफोरखौ दिन्थि</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>बेखेवनायफोरखौ गुपुत खालाम</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>खोल</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>जोबोद गोख्रों</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>जोबोद बन्द</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>चाबि एबा मान</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>सेसनआव दां</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>रोखोम</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>बांसिन %count</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>दिन्थिनो जाथाव गोथौ नेस्टेड</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>दानस्लायनाय, गासैयाव %count हांखो</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>सुरु जादों</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>कुकिनि मुं</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>सेसन आइडि</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>हेन्डलार</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>थिना दोननाय लामा</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>PHP डिफल्ट</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>जिउनि सम (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>कुकि</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>जिउनि सम %s सेकेन्ड</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>नोंथांनि गावनि PHP सेसन, सेक्सनखौ खेवनाय समाव जेरै दंमोन, जेबो गुबुन सेसन नङा। गुपुत बादि नुनाय चाबिफोरनि (टकेन, हेस, पासवर्ड) मानफोरखौ गुपुत खालामनाय जायो (debugbar.ini SessionMask[]); गुबुन गासैबो जेरै थिना दोननाय जादों बेबादिनो दिन्थिनाय जायो, सायखोमानि डेटाबो।</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>%count चाबि, %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>गेदेर</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>सेसनआ लांदां।</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>बे आरज'नि थाखाय जेबो सेसन जागायनाय जाया।</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>एक्सटेनसन %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>कार्नेल आरो गुबुनफोर</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>गासै बिलाइफोरखौ दिन्थिनाय जाया: सेसनआव बेयाव फारिलाइनो हानायनिख्रुइ बांसिन दं।</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>%count चाबिखौ फारिलाइयाव होनाय जाया।</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>फ्रेम</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>टकेन बादि नुनाय मानफोरखौबो (JSON Web Token, Authorization हेडारनि क्रेडेन्सियाल, सायखोमानि चाबि, गोलाव हेक्स एबा जायखिजायै लिरनाय) गुपुत खालामनाय जायो, बिसोरनि चाबिनि मुंआ जायखिजाया जाब्लाबो (debugbar.ini SessionValueMask[])।</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>चाबिआ गुपुत बादि नुयो (debugbar.ini SessionMask[])।</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>मानआ टकेन बादि नुयो।</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>गुपुत खालामनाय चाबिनि सिंआव।</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>लिरनाय महरै सेसन, फारिलाइ बादि गुपुत खालामनाय।</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>सेसनआ %size निख्रुइ गेदेर (debugbar.ini SessionWarnBytes): बे बाहायगिरिनि गासै आरज'आ आबुं सेसनखौ फरायो, आरो सोलायब्ला बेखौ लिरो।</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP आ बे सेसनखौ फाइलफोराव थिना दोनो आरो आबुं आरज'नि समाव फाइलखौ लक खालामो: रोखोम बाहायगिरिनि आरज'फोरा (बांसिन टेब, AJAX कल) गावजों गाव नेथासिनो।</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>खेवनै रैखा</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>%size निख्रुइ गेदेर (debugbar.ini SessionWarnBytes): बे बाहायगिरिनि गासै आरज'आ आबुं सेसनखौ फरायो।</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%count निफ्राय %hits क्यासनिफ्राय फरायनाय जादों</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>जेबो टेम्पलेट रेन्डार खालामनाय जाया (भिउ क्यासनिफ्राय फरायनाय भिउआ जेबो टेम्पलेटखौ रेन्डार खालामा)।</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>बाहागो असाइनफोर</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>बाहागोफोर आरो निति</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>मुं गैयि नायगिरिफ्राय आलादा</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>मुं गैयि नायगिरिफ्रायबादि</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70304,6 +71287,14 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>not sent</source>
         <translation>बाहायाखै</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>खौसिनाय क्रनजबआ बेनि गासै चलावनायखौ बेयाव रैखायो. बाहागो frequent खौ crontab आव जोराव, नङाब्ला exp:notification:run --apply चलाव.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>कनसोल बाहाय: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -76022,6 +77013,98 @@ You will need to change the class of the node by using the swap functionality.</
         <source>This topic is not Released; readers do not see it.</source>
         <translation>बे बिषयखौ फोरमायनाय जायाखै; फरायग्राफोरा बेखौ नायाखै.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>माइग्रेशनफोर</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>फाइल महरै थिनाय इनस्टलेशननि सोलायनायफोर: बिसोरनि स्थिति, रानफोर, रान खालामनाय आरो फिन लाबोनाय।</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>मोनसे साइटनि स्टेटिक कपिखौ GitHub Pages एबा जायखिजाया git होस्टआव फोरमाय।</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>स्टेटिक फोरमायनाय</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>नायजानाव</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>फरायग्राफोरा बे बिलाइखौ नायो.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>सासे फोरमायाखै समाव फरायग्राफोरनिफ्राय दोनथुमनाय.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>बिलाइआ आबुं नायजानाव दं. फोरमायाखै समाव बेयो फरायग्राफोरनिफ्राय दोनथुमनाय.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>बिलाइखौ फोरमायनाय जादों: फरायग्राफोरा आबुं बेखौ नायो.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>बिलाइआ फिन खस्रा जादों. नायजानाय आरो फोरमायाखै समाव बेयो फरायग्राफोरनिफ्राय दोनथुमनाय.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>दानोइ फोरमाय</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>%role बाहागो गोनांनाय आरो बे भार्सनखौ लिराखै बाहायग्रानोसो बेखौ फोरमायनो हायो.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>फोरमायनायनि थाखाय नेथायनाय मदद बिषयफोर</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>फिन फोरमायाखै समाव बेखौ फरायग्राफोरनिफ्राय दोनथुमो.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>उननाव सासे नायग्राया बेखौ आनजाद खालामगोन. फरायग्राफोरा दासिमबो बेखौ नायाखै.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>फरायग्राफोरा बेखौ दानोइ नायो.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>गोबां हाबानि थाखाय बेखौ नायजानायनिफ्राय दिहुनो. फरायग्राफोरा बेखौ नाया.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>बे बिलाइखौ फरायग्राफोरनिफ्राय दोनथुमनो?</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>बे बिलाइखौ खस्रानो फिन दैथि हरनो?</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>सासे फिन फोरमायाखै समाव फरायग्राफोरा %title खौ नाया.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title गोबां हाबानि थाखाय खस्रानो फिन थांगासिनो. फरायग्राफोरा दासिमबो बेखौ नाया, आरो फोरमायनायनि सिगाङाव गोदान नायजानाय गोनां.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>बन्द</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>बे बिषयफोरा नायजानाव दं. आखुनि भार्सनखौ लिराखै सासे बेफोरखौ फोरमायोब्ला फरायग्राफोरा बेफोरखौ नायो.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76477,6 +77560,46 @@ You will need to change the class of the node by using the swap functionality.</
         <source>None.</source>
         <translation>मुं.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>सिनायथि एपजों</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>इ-मेइलजों मोननाय कडजों</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>फिन मोननाय कडजों</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>पासकीजों</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>बाहेरनि एकाउन्टजों</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>सुरखा खामानि</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>बेनि नेटवर्क बादि दिन्थिनाय; ठिकानाखौ साइटनि डेटा रैखाथि सेटिंआव बुंनाय बादि दोनो.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>रैखाजायाखै</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>थान</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>खम खम</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76720,6 +77843,42 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Manage devices</source>
         <translation>यन्त्रफोर बेसेद खालाम</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>सिनायथि एपजों</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>इ-मेइलजों मोननाय कडजों</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>फिन मोननाय कडजों</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>पासकीजों</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>बाहेरनि एकाउन्टजों</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>सुरखा खामानि</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>रैखाजायाखै</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>थान</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>खम खम</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76799,6 +77958,14 @@ You will need to change the class of the node by using the swap functionality.</
         <source>View the sessions of this user</source>
         <translation>बे बेबहारग्रानि सेसन नाय</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>%site आव नोंथांनि एकाउन्ट %login जों दानो मोनसे थाननिफ्राय लगइन खालामनाय जादों, जेराव गोदान सोमोयाव लगइन जायाखैमोन:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>खम खम थान</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76837,6 +78004,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%os आव %browser</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>लगइन रिपर्ट</translation>
     </message>
 </context>
 <context>
@@ -77045,6 +78216,82 @@ You will need to change the class of the node by using the swap functionality.</
         <source>The passkey could not be checked. Please try again.</source>
         <translation>पासकिखौ नायजानो जायाखै. नाजा फिन नाय.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>जाय एकाउन्टफोरा खालि पासकिफोरजों लगइन खालामो, बेफोरा बेयाव पासओयार्ड बाहायनो हाया: &quot;पासकिजों लगइन&quot; सायख.</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>%login नि पासकिफोर</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>बे एकाउन्टआ लगइन खालामनाय पासकिफोर. गोमानाय एबा सिखावनाय डिभाइसआव दङ्गौ पासकिखौ नाजा खालाम: बेयो आरो लगइन खालामनो हायाखै. मालिकआ गोदानफोरखौ गावनो जोराव खालामो.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>नोंनि एकाउन्टआव मोनसे पासकि गोनां</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>नोंनि एकाउन्टआव मोनसे पासकि जोराव खालाम</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>बायदि थानो मोनसे पासकि जोराव खालाम. बेनि उनाव नों खालि पासओयार्डनि सलाइयाव बेजों लगइन खालामगोन.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>पासकिजों लगइन खालामनाया पासओयार्डनिख्रुइ गोख्रों आरो रैखाथि. दिनैनो मोनसे जोराव खालाम, एबा बेनि गैयै बायदि थाव.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>दिनै नङा</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>पासकि &quot;%name&quot;खौ नाजा खालामनो?</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>बे उननि बे एकाउन्टआव लगइन खालामनो हायाखै. बेयो जोबथा जाखांब्ला, मालिकआ पासओयार्डजों लगइन खालामो, एबा नोंआ गोदान मोनसे फोसंनो हायो.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>पासकिखौ नाजा खालाम</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>नाजा खालाम</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>बे एकाउन्टआव पासकि गैया.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>अथेन्टिकेटर</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>सिन्हाखै</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>नोंनि जोबथा पासकि: बेखौ आगाय खालामनायनि सिगाङाव गुबुन मोनसे जोराव खालाम.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>बे एकाउन्टआ खालि पासकिफोरजों लगइन खालामो (पासकि निति): मोनसेबो थाखिया जाब्ला, बेयो फिन गावनि पासओयार्डजों लगइन खालामो.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>बेयो नोंनि जोबथा पासकि आरो नोंनि एकाउन्टआ पासकि गैयै लगइन खालामनो हाया. गिबियाव गुबुन मोनसे पासकि जोराव खालाम.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>पासकि &quot;%name&quot;खौ नाजा खालामनाय जादों. बेयो आरो बे एकाउन्टआव लगइन खालामनो हाया.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77144,6 +78391,34 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Code from your authenticator app</source>
         <translation>नोंनि अथेन्टिकेटर एपनि कोड</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>नों डेटाखौ सबसिनो मेटानो एबा मोनसे लगखौ सिन्द्रायनो थांदों.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>नोंनि पासओयार्ड आरो मोनसे पासकि</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>नोंनि पासओयार्ड आरो नोंनि अथेन्टिकेटर एपनि मोनसे कोड</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>एबा:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>बे ब्राउजारआ पासकिफोर बाहायनो हायाखै. गुबुन राहा, एबा गुबुन ब्राउजार बाहाय.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>नों बायदि थाब्ला, नोंनि ब्राउजारआ नोंनि पासकिफोरनि मोनसेखौ बिगोयो.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>पासकिजों बायदि थाव</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77234,6 +78509,70 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Setup</source>
         <translation>सेटआप</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>नोंथिनि पासओयार्ड, इ-मेइल ठिकाना, पासकी, 2-स्टेप लगइन, फिन मोननाय कडफोर एबा API कीफोरखौ सोलोंथायनाय, आरो नोंथिनि गुबुन डिभाइसफोरनिफ्राय लगआउट खालामनाय.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>बेबहार खालामग्रा, बिसोरनि पासओयार्ड आरो डिभाइसफोर सर्जि आरो सोलोंथाय खालामनाय, एकाउन्ट सेटिं, गोदान बेबहार खालामग्रानि एकाउन्ट अनुमोदन एबा नाजा खालामनाय, बाहागो होनाय आरो निति सोलोंथायनाय.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>डेटा मेटानाय</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>जाथाइ गाङ सिन्द्रायनाय, बेनिफ्राय मुवाफोर आगायनाय आरो गोबां मुवा मोनसेथिं आगायनाय.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>बिषयबस्तु आगायनाय, फोरमायनाय आरो रैखानाय</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>बिषयबस्तु आगायनाय (जाथाइ गाङाव थांनायबो), फोरमायनाय आरो खस्रा रैखानाय; फर्म दैथायनाय सोमोयाव सोंनाय जायो. डिफल्टैये बन्द.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>गोनांथि खामानिनि सिगाङावनो, लगइन खालामनाय बेबहार खालामग्राआ नोंथिखौ फिन्से सिनायथि खालामो: गावनि पासओयार्ड आरो मोनसे पासकिजों, एबा पासकि गैयाब्ला गावनि पासओयार्ड आरो अथेन्टिकेटर एपनि कोडजों. ओयेब फोथाफोरै जेरै सोदोबो: REST इन्टारफेस, SOAP, WebDAV, expservices लगइन आरो कमान्ड लाइनआ गासैबो सोदोब्लाय.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>सेटिंफोरा मोनाव लागि</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>बेनि थाखाय सेटिं</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>गासै साइट-प्रबेश</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>साइट-प्रबेश %name</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>खोल</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>सोंनाय जायो: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>खालि बिसोरनि सदस्यफोरखौ सोंनो बेबहार खालामग्रा हानजाफोरखौ सिन हो (जेरै, सुजुगिरिफोर). जेबो सिन होनाय गैया: गासै बेबहार खालामग्रा.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>settings/override/site.ini.append.php आव रैखानाय जादों, गासै साइट-प्रबेशनि थाखाय. रैखानाय सोमोयाव नोंआ नोंथि जायोला सिनायथिनो नोंखौ सोदोब.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>settings/siteaccess/%name/site.ini.append.php आव रैखानाय जादों. settings/override आव थानाय मानआ बेनि सायाव गोनां. रैखानाय सोमोयाव नोंआ नोंथि जायोला सिनायथिनो नोंखौ सोदोब.</translation>
     </message>
 </context>
 <context>
@@ -77336,6 +78675,6822 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Open the page</source>
         <translation>फोथाखौ खुल</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from निफ्राय %to सिम, गासै %count</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>लगइन मुं एबा बेबहार खालामग्रा ID: घटनाया जाय एकाउन्टनि बागै जादोंमोन, एबा जाय बेबहार खालामग्राया खामानि मावदोंमोन।</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>एकाउन्ट</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>खामानि</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>उनि</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>जायखिजाया फलाफल</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>आगा</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>मावग्रा</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>सिन्द्राय</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>जोबोद</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>घटनाफोरखौ %days सान रैखाथि होयो।</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>घटनाफोरखौ आखायजों मेटानो सिम रैखाथि होयो।</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>घटनाफोर</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>गासै खामानि</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>बे एकाउन्टनि गासै घटना</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>फारिखौ CSV महरै एक्सपोर्ट (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>फेल जादों</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>निफ्राय</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>फारिखौ गुसुं खालाम</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>मोनसेबो घटना गोरोबाखै।</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>फोथा फोथा</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>audit.ini आव रेकर्डिं बन्द खालामनाय जादों ([UserAuditSettings] UserAudit); फारिआ आगाव रेकर्ड खालामनायखौ दिन्थियो।</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>नेवसिजादों</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>फलाफल</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>नायनो हो</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>बेबहार खालामग्रानि अडिट लगनि टेबुलखौ मोनाखै। बेखौ php update/common/scripts/6.0/createuseraudittable.php जों सोरजि; बे समाव सिम अडिट फाइलफोरा गासै घटनाखौ रैखायो।</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>बे फोथाया SQL डेटाबेस नांगौ; MongoDB आव बेयो मोनाखै। अडिट फाइलफोरा गासै घटनाखौ रैखायो।</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>सिम</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>बेबहार खालामग्रानि अडिट लग</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>बेबहार खालामग्रा</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>समाव</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>जायगा</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>सोर बबे एकाउन्टखौ सोलायदों, सोरजिदों, सक्रिय खालामदों, निष्क्रिय खालामदों, लोरिहोदों एबा मेटादों, सोर लगइन खालामदों एबा नेवसिजादों, आरो बबे बाहागोफोर होनाय जादों: घटना फ्रामबोनि थाखाय सारि मोनसे, आगा आरो उनिनि फिल्डफोरजों। पासओयार्ड आरो गुप्त खौरांफोरखौ जेबो समाव रेकर्ड खालामजाया।</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>हुदा</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>सिस्टेम</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>सिन्हाखै</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>नोंथांनि एकाउन्टखौ रैखा</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>%site आव नोंथांनि एकाउन्ट %login आव लगइन खालामनो मोनसे फिन मोननाय कड बाहायनाय जादों.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>मोनसे फिन मोननाय कड बाहायनाय जादों</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>एकाउन्ट</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>खम खम ठिकाना</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>फिन लगइन खालामनो गोदान पासओयार्ड नाग, नङाब्ला साइटनि अडमिनिस्ट्रेटरफोरजों सोमोन्दो खालाम.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>गोदान पासओयार्ड नाग</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>गासै फिन मोननाय कडआ मोनथेवल&apos; खामानि मावो. नोंथांनि फोनआ गोमाब्ला, नोंथांनि सिनायथि एपखौ फिन सेट खालाम आरो गोदान फिन मोननाय कडफोरखौ मोनसे रैखाथि थानाव दोन.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>नोंथांनि एकाउन्टआव फेल जानाय लगइन नाजानायफोर</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>दिनिनिफ्राय लगइन खालामनाय सोमोयाव नोंथांनि पासओयार्डनि अनगायै मोनसे कडबो नागोन. बेखौ नोंथाङो खालामनायब्ला, नोंथाङा जेबो खालामनांगौ.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>बेयो नोंथाङोसो जायोब्ला आरो नोंथाङा नोंथांनि पासओयार्ड बावगारनायब्ला, गोदान पासओयार्ड नाग. नङाब्ला, गेलेमसिन पासओयार्ड सायख्रा आरो बाहागो निफ्राय लगइनखौ चालु खालाम.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>बेखौ नोंथाङा खालामाखैब्ला, सोरबा नोंथांनि पासओयार्डखौ मिथिनो हाया: बेखौ दानो सोलाय आरो नोंथांनि एकाउन्टआ बबेयाव लगइन जादों बेखौ नाय.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>गोनां फिन मोननाय कडफोर</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>नोंथांनि यन्त्रफोरखौ नायफिन</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>सुरखा सांग्रांथि</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>सोरबा %site आव नोंथांनि एकाउन्ट %login आव गाज्रि पासओयार्डजों गोरोबै %count खेप लगइन खालामनो नाजाखो.</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>%site आव नोंथांनि एकाउन्ट %login आव मोनसे सुरखा घटना जाखो.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>बेयो नोंथांनि एकाउन्टनि सायाव मोनसे सुरखा सांग्रांथि. बेखौ बेबादि गासै सोलायनायआव दैथायो आरो बेखौ बन्द खालामनो हाया.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>सोमोय</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>%site आव नोंथांनि एकाउन्ट %login नि थाखाय बाहागो निफ्राय लगइनखौ बन्द खालामनाय जादों.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>बाहागो निफ्राय लगइनखौ बन्द खालामनाय जादों</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>%site आव नोंथांनि एकाउन्ट %login नि थाखाय बाहागो निफ्राय लगइनखौ चालु खालामनाय जादों.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>बाहागो निफ्राय लगइनखौ चालु खालामनाय जादों</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>%site आव नोंथांनि एकाउन्ट %login आ गोबाव फेल जानाय लगइननि उनाव लक जादों.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>नोंथांनि एकाउन्टआ दा नोंथांनि पासओयार्डजोंसोल रैखाथि. बेखौ नोंथाङा खालामाखैब्ला, नोंथांनि पासओयार्ड सोलायनायनि उनाव बाहागो निफ्राय लगइनखौ फिन चालु खालाम.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>नोंथांनि एकाउन्टआ लक जादों</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>%site आव नोंथांनि एकाउन्ट %login आव मोनसे पासकि जोराव खालामनाय जादों.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>बे पासकि जाहाथाङाव दं, बियो नोंनि पासओयार्ड गैयै नोंनि एकाउन्टआव लगइन खालामनो हायो. नोंआ बेखौ जोराव खालामाखैब्ला, पासकीफोरआव बेखौ आगाय खालाम आरो नोंनि पासओयार्ड सोलाय.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>%site आव नोंथांनि एकाउन्ट %login निफ्राय मोनसे पासकि आगाय खालामनाय जादों.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>बेयो आरो नोंनि एकाउन्टआव लगइन खालामनो हाया. नोंआ बेखौ आगाय खालामाखैब्ला, नोंनि पासकिफोर आरो डिभाइसफोरखौ नायसो.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>नोंथांनि एकाउन्टआव मोनसे पासकि जोराव खालामनाय जादों</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>नोंथांनि एकाउन्टनिफ्राय मोनसे पासकि आगाय खालामनाय जादों</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>सुरखा खामानि</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>सुरखा खामानि: %name</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>लगइन जादों</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>फेल जानाय लगइन नाजानाय</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>लगआउट जादों</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>सेसनफोर लगआउट जादों</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>गोदान डिभाइसनिफ्राय लगइन</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>गोदान थाननिफ्राय लगइन</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>सिनायथि थार खालामनाय जादों (&quot;नों जानाय निश्चित खालाम&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>सिनायथि नायनाय फेल जादों</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>पासकीजों लगइन जादों</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>पासकीजों लगइन फेल जादों</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>लगइन नाजा खालामनाय: बाहागो निफ्राय लगइननि कडआ गैया नङाब्ला गाज्रि</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>बाहागो निफ्राय लगइननि गाज्रि कड</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>फेल जानाय लगइननि उनाव एकाउन्ट लक जादों</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>एकाउन्ट आनलक जादों</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>पासओयार्ड सोलायनाय जादों</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>पासओयार्ड सोलायनाय फेल जादों</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>पासओयार्ड रिसेट जादों</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>गोदान पासओयार्ड नागनाय जादों</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>इ-मेइल ठिकाना सोलायनाय जादों</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>बेबहारग्रानि मुं सोलायनाय जादों</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>बाहागो निफ्राय लगइन चालु जादों</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>बाहागो निफ्राय लगइन बन्द जादों</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>फिन मोननाय कड बाहायनाय जादों</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>गोदान फिन मोननाय कडफोर</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>एप पासओयार्ड सर्जि</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>एप पासओयार्ड नाजा खालाम</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>पासकी जोरावनाय जादों</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>पासकी आगायनाय जादों</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>एकाउन्ट चालु जानाय</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>एकाउन्ट बन्द जानाय</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>जोबोद</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>लगइन आरो सेसनफोर</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>एकाउन्ट सोलायनायफोर</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>मोन गोसो होनांगौ</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>नोंथाङो खालामनाय</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>बेबहार खालामग्राया खालामनाय</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>खालामग्रा: %login</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>आदब</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>ब्राउजार</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>सिस्टेम</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>डिभाइस</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>जायगा</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>देश</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>सेसनफोर</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>बबे</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>लामा</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>फेल जानाय नाजानायफोर</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>गोनां कडफोर</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>लगइन हैन्डलार</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>सुरखा खामानि</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>सुरखा खामानि: %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>नोंथांनि एकाउन्टनि सुरखाजों सोमोन्दो थानाय लगइन आरो सोलायनायफोर. नोंथाङा खालामाखै जेबो मुवा नुयोब्ला, नोंथांनि पासओयार्ड सोलाय आरो नोंथाङा सिनायै डिभाइसफोरखौ लगआउट खालाम.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>बे एकाउन्टनि सुरखाजों सोमोन्दो थानाय लगइन आरो सोलायनायफोर.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>नोंथांनि यन्त्रफोर</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>पासओयार्ड सोलोंथाय</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>एकाउन्टआव खेबसे</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>सुरखा खामानि रैखाजाया</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>बेखौ बेबहार खालामग्रानि अडिट लगनिफ्राय फरायो, जेनि expuser_audit टेबुलआ गैया नङाब्ला बे डेटाबेसआव थाखो होनाय गैया. php update/common/scripts/6.0/createuseraudittable.php चलाव, नङाब्ला 6.0.15 नि डेटाबेस आपडेट चलाव.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>उननि %days सान</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>उननि %days सानाव लगइनफोर</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>गोदान सुरखा खामानि</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>नायनो हो</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>फेल जादों</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>नाजा खालामनाय</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>दासिम जेबो सुरखा खामानि रैखाजायाखै.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>सुरखा घटनाफोरखौ %days सान सिम दोनो.</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>मोनसे अडमिनिस्ट्रेटरआ आगायै सिम सुरखा घटनाफोरखौ दोनो.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>आंनि लगइन डेटा डाउनल&apos;ड खालाम</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>नोंथांनि सेसनफोर आरो सुरखा घटनाफोर मोनसे JSON फाइल बादि.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>बे साइटआव सेसनफोरखौ लिरथुम खालामनाय जाया, बेनिखाय गुबुन जेबो यन्त्रखौ लगआउट खालामनो हायाखै। दानोदि नोंथांनि पासओयार्डखौ सोलाय।</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>गुबुन %count सेसन लगआउट जादों। दानो नोंथांनि पासओयार्डखौ सोलाय।</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>गुबुन जेबो यन्त्र लगइन जानाय नङा। दानो नोंथांनि पासओयार्डखौ सोलाय।</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>सबाय। जाथायखौ नोंथांनि महरै चिनथि होनाय जादों।</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>बै जाथायआ जेबो फिननाय नांथाया।</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>फोथानि सोमोय जोबोद जादोंमोन. माबोरबो सोलायनाया जाया; नाजा फिन नाय.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>नोंथांनि एकाउन्टखौ रैखा</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>जुदि बेयाव माबा नोंथाङा नङा, गुबुन जोबोद यन्त्रखौ लगआउट खालाम, उनाव मोनसे गोदान पासओयार्ड सायख। आंखौ मोन थाङो जों लगइन जानानै थानाय यन्त्रफोरबो लगआउट जायो।</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>बेखौ बाहेर खालामनानै गासै यन्त्रआ बेनि उननि बिनायाव लगआउट जायो। उनाव नोंथाङा मोनसे गोदान पासओयार्ड सायखगोन।</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>नंगौ, गुबुन यन्त्रफोरखौ लगआउट खालाम</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>बेयो नोंथाङा मोन?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>नंगौ, बेयो आंनो</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>नङा, आंनि एकाउन्टखौ रैखा</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>लगइन जादों</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>फेल जानाय लगइन नाजानाय</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>लगआउट जादों</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>सेसनफोर लगआउट जादों</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>गोदान डिभाइसनिफ्राय लगइन</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>गोदान थाननिफ्राय लगइन</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>सिनायथि थार खालामनाय जादों (&quot;नों जानाय निश्चित खालाम&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>सिनायथि नायनाय फेल जादों</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>पासकीजों लगइन जादों</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>पासकीजों लगइन फेल जादों</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>लगइन नाजा खालामनाय: बाहागो निफ्राय लगइननि कडआ गैया नङाब्ला गाज्रि</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>बाहागो निफ्राय लगइननि गाज्रि कड</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>फेल जानाय लगइननि उनाव एकाउन्ट लक जादों</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>एकाउन्ट आनलक जादों</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>पासओयार्ड सोलायनाय जादों</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>पासओयार्ड सोलायनाय फेल जादों</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>पासओयार्ड रिसेट जादों</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>गोदान पासओयार्ड नागनाय जादों</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>इ-मेइल ठिकाना सोलायनाय जादों</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>बेबहारग्रानि मुं सोलायनाय जादों</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>बाहागो निफ्राय लगइन चालु जादों</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>बाहागो निफ्राय लगइन बन्द जादों</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>फिन मोननाय कड बाहायनाय जादों</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>गोदान फिन मोननाय कडफोर</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>एप पासओयार्ड सर्जि</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>एप पासओयार्ड नाजा खालाम</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>पासकी जोरावनाय जादों</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>पासकी आगायनाय जादों</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>एकाउन्ट चालु जानाय</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>एकाउन्ट बन्द जानाय</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>जोबोद</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>लगइन आरो सेसनफोर</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>एकाउन्ट सोलायनायफोर</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>मोन गोसो होनांगौ</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>सुरखा खामानि</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>सुरखा खामानि: %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>नोंथांनि एकाउन्टनि सुरखाजों सोमोन्दो थानाय लगइन आरो सोलायनायफोर. नोंथाङा खालामाखै जेबो मुवा नुयोब्ला, नोंथांनि पासओयार्ड सोलाय आरो नोंथाङा सिनायै डिभाइसफोरखौ लगआउट खालाम.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>नोंथांनि यन्त्रफोर</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>पासओयार्ड सोलोंथाय</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>बे साइटआव सुरखा खामानि दासिम रैखाजाया.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>उननि %days सानाव लगइनफोर</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>फेल जानाय नाजानायफोर</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>दासिम जेबो सुरखा खामानि रैखाजायाखै.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>आंनि लगइन डेटा डाउनल&apos;ड खालाम</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>नोंथांनि सेसनफोर आरो सुरखा घटनाफोर मोनसे JSON फाइल बादि.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>बे साइटआव सेसनफोरखौ लिरथुम खालामनाय जाया, बेनिखाय गुबुन जेबो यन्त्रखौ लगआउट खालामनो हायाखै। दानोदि नोंथांनि पासओयार्डखौ सोलाय।</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>गुबुन %count सेसन लगआउट जादों। दानो नोंथांनि पासओयार्डखौ सोलाय।</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>गुबुन जेबो यन्त्र लगइन जानाय नङा। दानो नोंथांनि पासओयार्डखौ सोलाय।</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>सबाय। जाथायखौ नोंथांनि महरै चिनथि होनाय जादों।</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>बै जाथायआ जेबो फिननाय नांथाया।</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>फोथानि सोमोय जोबोद जादोंमोन. माबोरबो सोलायनाया जाया; नाजा फिन नाय.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>नोंथांनि एकाउन्टखौ रैखा</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>जुदि बेयाव माबा नोंथाङा नङा, गुबुन जोबोद यन्त्रखौ लगआउट खालाम, उनाव मोनसे गोदान पासओयार्ड सायख। आंखौ मोन थाङो जों लगइन जानानै थानाय यन्त्रफोरबो लगआउट जायो।</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>बेखौ बाहेर खालामनानै गासै यन्त्रआ बेनि उननि बिनायाव लगआउट जायो। उनाव नोंथाङा मोनसे गोदान पासओयार्ड सायखगोन।</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>नंगौ, गुबुन यन्त्रफोरखौ लगआउट खालाम</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>बेयो नोंथाङा मोन?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>नंगौ, बेयो आंनो</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>नङा, आंनि एकाउन्टखौ रैखा</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>पासओयार्ड</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>पासओयार्ड आरो बाहागो निफ्राय लगइननि कड</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>REST इन्टारफेस</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>SOAP इन्टारफेस</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>सिंगल साइन-अन</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>सेसनफोर रैखानायनि सिगां लगइन जादों</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>लगइन रिपर्ट</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>साइटआव सोर लगइन जादों, एकाउन्टफोरा बेसेबा खेप लगइन खालामो आरो बेसेबा खेप फेल जायो, आरो मोनसे बेबहार खालामग्राखौ जायगा जायगानिफ्राय लगआउट खालामनाय. बेयो गासै सेसन हैन्डलारनैलाय खामानि मावो.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>सेसनआ लगआउट जादों. डिभाइसआ फिन लगइन खालामनांगोन.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>%login खौ %count सेसननिफ्राय लगआउट खालामनाय जादों.</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>%login नि मोनसेबो चलावगासिनो थानाय सेसन गोनां नङाखैमोन.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>बे ID, बेबहारग्रानि मुं नङाब्ला इ-मेइल ठिकाना गोनां मोनसेबो एकाउन्ट गैया.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>बेयो नोंथाङा बाहायगासिनो थानाय सेसन. बेखौ जोबनो लगआउट खालाम.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>बै सेसनआ सिगांनोसो जोबबाय.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>बिखंथाइनि सोमोयआ जोबबाय. जेबो सोलायाखै; नाजा फिन नाजा.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>बे साइटआव सेसनफोर रैखाजाया (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>expuser_session टेबुलआ गैया</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>बेखौ सोरजिनायनि उनावनो सेसनफोर रैखाजागोन: php update/common/scripts/6.0/createusersessiontable.php, नङाब्ला 6.0.15 नि डेटाबेस आपडेट.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>दा आरो दिनै</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>चलावगासिनो थानाय सेसनफोर</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>लगइन जानाय बेबहार खालामग्राफोर</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>दिनैनि लगइनफोर</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>दिनैनि फेल जानाय नाजानायफोर</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>मोनसे बेबहार खालामग्राखौ जायगा जायगानिफ्राय लगआउट खालाम</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>एकाउन्टनि गासै सेसनआ बेनि उननि बिनायाव जोबो, &quot;आंखौ मोन थाङो&quot; जों दोनाय सेसनफोरबो. मोनसे एकाउन्टआ गाज्रि आखायाव थानो हायोब्ला बेखौ बाहाय; उनाव बेनि पासओयार्डखौ रिसेट खालाम.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>बेबहार खालामग्रानि ID, बेबहारग्रानि मुं नङाब्ला इ-मेइल ठिकाना</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>जायगा जायगानिफ्राय लगआउट खालाम</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>दा लगइन जादों</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>गोदान सोमोयाव बाहायनाय %limit खौ दिन्थिनाय जादों.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>बेबहार खालामग्रा</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>डिभाइस</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>ठिकाना</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>लगइन जादों</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>आखुनि सक्रिय</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>खामानि</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>बे डिभाइस</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>रैखाजायाखै</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>लगआउट</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>मोनसेबो सेसन लगइन जायाखै.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>उननि %days सान</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>लगइन आरो फेल जानाय नाजानायफोरखौ बेबहार खालामग्रानि अडिट लगनिफ्राय सानो, जेया गैया; गोदान सेसनफोरखौ सानो.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>सान</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>लगइनफोर</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>फेल जानाय नाजानायफोर</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>गोदान सेसनफोर</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>सेसन हैन्डलार: %handler. सेसनफोरखौ expuser_session टेबुलनिफ्राय फरायो, बेनिखाय रिपर्टआ गासै हैन्डलारनैलाय खामानि मावो.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>जोबनाय %hours घन्टाव सन्देहजों खामानि</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>मोनसे नेटवर्कआ %accounts एकाउन्टाव लगइन खालामनो फेल जादों (%count नाजानाय)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>फेल लगइननि उनाव एकाउन्ट लक खालामनाय जादों</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>मोनसे एकाउन्टाव %count फेल लगइन</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>मोनफ्रोमबायनो %count हादरनिफ्राय लगइन जादों</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>सुरखा खामानि</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>सेसनफोर</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>फेल लगइनफोरखौ बाहायग्रा अडिट लगनिफ्राय फरायनाय जायो, जेयो बेयाव मोनाखै।</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>जेबो सन्देहजों नङा: फिन फिन फेल लगइन थानाय जेबो एकाउन्ट गैया, बांसिन एकाउन्ट नाजानाय जेबो नेटवर्क गैया, बांसिन हादरनिफ्राय लगइन जानाय जेबो एकाउन्ट गैया।</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>नोंथांनि एकाउन्टनि थाखाय सुरखा सांग्रांथि</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>नोंथांनि एकाउन्ट %login आव मोनसे सुरखा घटना जाखो: %event. बेयो नोंथाङा नङाब्ला, %url आव नोंथांनि एकाउन्टखौ रैखा.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>सेटआप</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>बे साइटनि आयदानिफ्राय मोनसे बिलाइनि थार गोनां फिल्डफोरखौ मोनसे अनुरोधआव सोंदो। स्कीमाया आयदा थाखोफोरखौ फालिगो लायो; गासै क्वेरिया बेखौ दैथायग्रा बाहायग्रानि मोनथायजों चलायो।</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>बे साइट-प्रबेशआव GraphQL API बन्द जादों। बेखौ graphql.ini आव खेव: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>GraphQL लाइब्रेरिया (webonyx/graphql-php 15) इनस्टल खालामनाय जाया।</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>एन्ड पइन्ट</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>लाइब्रेरि</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>स्कीमा</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>%count आयदा थाखो, स्कीमा %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>क्वेरि</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>भेरियेबल (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>चलाव</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>फिननाय</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>चलायगासिनो दं…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>फिननायखौ फरायनो हायाखै।</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>क्वेरिया नोंनि मोनथायजों, बे सेसनजों साइन इन खालामनानै चलायो।</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%seconds से. आव %count</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>सीमा गैया</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>गोथौथि</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>जटिलता</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>फारिलाइ मोनफ्रोमबो मुवा</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (डिफल्ट %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>बाहायग्रा एबा साबि मोनफ्रोमबो अनुरोध</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>मुं गैयि थं-फारि मोनफ्रोमबो अनुरोध</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>इनट्रस्पेक्सन</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>जाखोनाय क्वेरिल</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>जोबोद गेदेर क्वेरि</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>%bytes बाइट</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>जोबोद गेदेर आपलड</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>%siteaccess साइट-प्रबेश गैया।</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>%siteaccess आव म्युटेसनफोर खेवनाय जादों।</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>%siteaccess आव म्युटेसनफोर बन्द जादों।</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>%siteaccess आव GraphQL API खेवनाय जादों।</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>%siteaccess आव GraphQL API बन्द जादों।</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>सेटिंफोरखौ लिरनो हायाखै: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>फिननाय केसखौ साफा खालामनाय जादों: %count फिननाय बोखावनाय जादों।</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>क्वेरिखौ बोखावनो बेनि आगाननि बाक्सआव टिक हो।</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>क्वेरिखौ बोखावनो हायाखै: PersistedQueryDirectoryList[] नि मोनसे डाइरेक्टरिआव होनाय क्वेरिया बेनि फाइलजों लोगोसेनो बोखावनाय जायो।</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>जाखोनाय क्वेरिखौ बोखावनाय जादों।</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>म्युटेसन</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>खेवनाय</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>बन्द</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>साइट-प्रबेशफोर</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>API आरो बेनि म्युटेसनफोरा बेयाव फिननाय होयो। बुथामफोरा graphql.ini लिरो, ./console exp:graphql:enable आरो exp:graphql:disable आ खालामनाय बादि।</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>साइट-प्रबेश</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>GraphQL API</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>सोलाय</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>बन्द खालाम</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>म्युटेसन बन्द खालाम</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>म्युटेसन खेव</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>खेव</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>सीमाफोर</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>बे साइट-प्रबेशनि graphql.ini [GraphQLSettings]।</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>फिननाय केस</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>जाखोनाय क्वेरिफोरनि फिननायफोर, बाहायग्रानि मोनथाय बादि जाखोनाय आरो आयदा फोसावनाय जेबो समाव सम जोबनाय।</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>थासारि</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>जाखोनाय फिननाय</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>%count फिननाय, %bytes बाइट</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>गोबां बांनाय जाखोनाय सम</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds से.</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>जोबथा सम जोबनाय</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>फिननाय केसखौ साफा खालाम</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>जाखोनाय क्वेरिफोर</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>./console exp:graphql:persist जों, एबा क्लाइन्टफोरजों जाखोनाय (गावआरिमु जाखोनाय क्वेरि); मुं एबा SHA-256 जों लिंनाय जायो।</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>मुंफोर</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>महर</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>बबेयाव</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>बोखाव</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>होनाय</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>जाखोनाय</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>नंगौ, बे क्वेरिखौ बोखाव</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>दासिमबो जाखोनाय क्वेरि गैया।</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>API साबिफोर</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>graphql:read (क्वेरिफोर) एबा graphql:write (म्युटेसनफोर) सारि गोनां गावारि API साबिफोर। बेफोरखौ API प्रबेश बिलाइआव, एबा ./console exp:graphql:keys जों सोरजि आरो नाखाम।</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>API प्रबेश</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>गासैबो साबि</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>साबि</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>मुं</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>गिरि</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>सारिफोर</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>जोबथा बाहायनाय</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>सावस्रि</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>सम जोबबाय</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>नाखामनाय</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>माब्लाबो नङा</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>दासिमबो GraphQL सारि गोनां API साबि गैया।</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>बे फोथाखौ दिन्थिनाय साइट-प्रबेश %siteaccess आव GraphQL API बन्द जादों; गाहायनि फारिलाइआ बेयाव फिननाय होयो दिन्थियो।</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>बे फोथाखौ दिन्थिनाय साइट-प्रबेश %siteaccess नि थाखाय।</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>वेबहुकफोर</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>मोनसे एन्ड पइन्टआ बिनाय जाथाय गासैखौबो (publish, update, trash, delete, move, hide, reveal, mutation) cronjob बाहागो graphqlwebhooks आ सही होनानै बेनि सिम दैथायो। ./console exp:graphql:webhooks आ बे बाहागोनि बादियैनो खामानि मावो।</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>जाथायफोर</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>गासै</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>गासै साइट-प्रबेश</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>गाज्रि जानाय</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>गुप्त गैया</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>नेथ'खायो</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count नागारनाय</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>जोबथा दैथायनाय</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>आनजाद दैथाय</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>नंगौ, बे वेबहुकखौ बोखाव</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>दासिमबो वेबहुक गैया।</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>वेबहुक दाजाब</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>दाजाब</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>गुदुनि दैथायनायफोर</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>सम</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>फलाफल</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>सबस्क्रिप्सन</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>क्लाइन्टफोरनि थाखाय लाइभ आपडेट: /api/graphql/subscribe आव जाथाय सोंथि, आरो Velocity आव WebSocket (graphql-transport-ws)। मोनसे जाथायआ बेनि आयदा फरायनो हानाय सबस्क्राइबारफोरनि सिमसो थांगोन।</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>दानो खेवनाय</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>गोबां बांनाय खेवनाय</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>गासैयाव %total, मोनसे बाहायग्रा फ्रोमबो %user, मोनसे थं फ्रोमबो %address</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>मुं गैयि सबस्क्रिप्सन</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>सोंथिनि गोलाव</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>वेबहुकखौ दाजाबनो हायाखै: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>वेबहुक %name सोलायनाय जादों; बेनि सही गुप्तआ थायो।</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>सही गुप्तखौ जाखोनो हायाखै (सेटआप &gt; गुप्तफोर)।</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>वेबहुक %name दाजाबनाय जादों। बेनि सही गुप्त, बेबेखालिसो दिन्थिनाय: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>वेबहुक %name गैया।</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>वेबहुक %name आ फिननाय होआखै: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>वेबहुक %name आ %ms ms आव %status फिननाय होदों।</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>वेबहुकखौ बोखावनो बेनि आगाननि बाक्सआव टिक हो।</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>वेबहुक %name बोखावनाय जादों।</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>बे साइट-प्रबेशआव GraphQL API बन्द जादों।</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>GraphQL लाइब्रेरिया इनस्टल खालामनाय जाया।</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>GET एबा POST बाहाय।</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>अनुरोधनि बडिया JSON मुवा नङा।</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables आ JSON मुवा नङा।</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions आ JSON मुवा नङा।</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>क्वेरिखौ POST जों दैथाय।</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>अनुरोधआव जेबो क्वेरि गैया।</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>क्वेरिया %max बाइटनिख्रुइ गोलाव।</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>सिङारि सार्भार गोरोन्थि</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node आ id, remoteId, path आरो urlAlias निफ्राय थारैनो मोनसेखौ नांगौ।</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content आ id आरो remoteId निफ्राय थारैनो मोनसेखौ नांगौ।</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>after नि कार्सरा बे API आ होनाय नङा।</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>%alias मुंनि सावगारि एलियास गैया (image.ini [AliasSettings] AliasList[])।</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>बेयाव सार्भारआव जाखोनाय क्वेरिफोरखौल लायो: जाखोनाय क्वेरि मोनसेनि id दैथाय।</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>जाखोनाय क्वेरिनि hash आ SHA-256 नङा।</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>जाखोनाय क्वेरिनि hash आ क्वेरिजों गोरोबाया।</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>जोबोद बांसिन अनुरोध: %window सेकेन्डआव गोबां बांनाय %limit। %reset सेकेन्ड उनाव फिन नाजा।</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>क्वेरिया %depth थाखो गोथौ; गोबां बांनाय %max नि गनायथि दं।</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>क्वेरिनि जटिलताया %complexity; गोबां बांनाय %max नि गनायथि दं।</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>बे अनुरोधा स्कीमाखौ फरायनो हाया (introspection)।</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search आ मोनसे टेक्स्ट एबा मोनसे फिल्टार नांगौ (classes, subtree, sections, publishedAfter, publishedBefore)।</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument आ मोनसे तारिख नङा (ISO 8601, 2026-10-30)।</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag आ id, remoteId आरो path निफ्राय थारैनो मोनसेखौ नांगौ।</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout आ id, identifier आरो urlAlias निफ्राय थारैनो मोनसेखौ नांगौ।</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>multipart अनुरोधनि operations फिल्डआ मोनसे JSON अनुरोध नङा।</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>multipart अनुरोधनि map फिल्डआ JSON मुवा नङा।</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>multipart अनुरोधआव %field फाइल गैया।</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>map फिल्डनि लामाया variables. जों जागायनांगोन: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>%name फाइलआ आबुङै फैयाखै (आपलड गोरोन्थि %error)।</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>%name फाइलआ %max बाइटनिख्रुइ गेदेर।</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>%name फाइलखौ नायसंनो हायाखै।</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>बे साइट-प्रबेशआव म्युटेसनफोर बन्द जादों (graphql.ini [GraphQLSettings] MutationsEnabled)।</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>म्युटेसनखौ POST जों दैथाय।</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>आयदा सोलायनो साइन इन खालाम।</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>API साबियाव %scope सारि गैया।</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>सेसन गोनां म्युटेसनआ सेसननि फर्म टकेन नांगौ (हेडार X-CSRF-Token)।</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>uploadFromUrl बन्द जादों: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] आव जेबो हस्ट गैया।</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>थं-फारिया मोनसे https थं-फारि जानांगोन।</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>%host हस्टआ graphql.ini [GraphQLSettings] UploadFromUrlHostList[] आव गैया।</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>फाइलखौ लाबोनो हायाखै।</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload आ मोनसे इनपुट रोखोमसो।</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>Upload रोखोमनि भेरियेबलआ multipart अनुरोधनि मोनसे फाइल लायो।</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>remote id %remoteId आ बाहायनाय जाबाय।</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>आयदाआव %language आव राव सोलायनाय दंखायोंबाय: updateContent बाहाय।</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>खमसेयावबो मोनसे फिल्ड हो।</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>गोदान भार्सन मोनसे सोरजिनो हायाखै (आयदाआव जोबोद बांसिन ड्राफ्ट दं)।</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>भार्सन %version आ ड्राफ्ट नङा।</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent आ id आरो nodeId निफ्राय थारैनो मोनसेखौ नांगौ।</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>मोनसे थावनिखौ गावनि सिङाव लोरिहोनो हाया।</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>आयदाआव %parentId नि सिङाव थावनि दंखायोंबाय।</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>%field फिल्डनि बेसेनखौ जाखोनो हायाखै।</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>%language आयदा राव गैया।</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>स्कीमाआव %class आयदा थाखो गैया।</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>आयदाया गैया, एबा नोंथाङा बेखौ फरायनो हाया।</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>नोंथाङा बे आयदाजों बेखौ खालामनो हाया।</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>%class थाखोआव लिरनो हानाय %field फिल्ड गैया।</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>%field फिल्डखौ नैजों होनाय जादों।</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>%field फिल्डआ मोनसे फाइल लायो: बेखौ upload बादि दैथाय (multipart अनुरोध)।</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>%field फिल्डआ जेबो फाइल लाया।</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>%field फिल्डआ मोनसे बेसेन नांगौ।</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>%format फरमेटआ रिच टेक्स्ट फिल्डनि थाखायल; %field आ बेनि बेसेनखौ जेरै दं बेबादिनो लायो (RAW)।</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>%field फिल्डआ गोनांथार।</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>HTMLखौ फरायनो हायाखै।</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content आ version खौ id जोंल लायो।</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>गिबि नुथाय टकेनआ थार नङा एबा सम जोबबाय।</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>मोनसे फुंखा नङा (https://host एबा https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>GraphQL API नि सारि नङा: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>सबस्क्रिप्सनखौ /api/graphql/subscribe आव दैथाय (जाथाय सोंथि एबा WebSocket)।</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>अनुरोधआ डकुमेन्टनि जायखिजाया खामानिनि मुं लाखा।</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>मोनसे सबस्क्रिप्सनआ थारैनो मोनसे फिल्ड बिनायो।</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>जोबोद बांसिन सबस्क्रिप्सन खेवनाय दं; उनाव फिन नाजा।</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>नोंथाङाव %max सबस्क्रिप्सन खेवनाय दं, जेबो गोबां बांनाय गनायथि होनाय।</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>नोंथाङनि थंआव %max सबस्क्रिप्सन खेवनाय दं, जेबो गोबां बांनाय गनायथि होनाय।</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>बे साइट-प्रबेशआव सबस्क्रिप्सन बन्द जादों।</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>सबस्क्राइब खालामनो साइन इन खालाम (मोनसे टकेन एबा मोनसे गावनि API साबि)।</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>म्युटेसनखौ /api/graphql आव दैथाय।</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>माइग्रेशनफोर</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>स्थितिखौ फरायनो हायाखै: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>माइग्रेशनफोरनि टेबलफोरा दासिमबो गैया: ./console exp:upgrade --apply बेखौ सोरजिगोन।</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>%count माइग्रेशन फेल जाबाय</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>मोनसे रान सोलिगासिनो दं, %user आगाय जाहोबाय</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>इनस्टलेशनखौ लक खालामनाय जाबाय: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>थाङै</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>फेल जाबाय</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>गैया मानसि</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>जोबथा रान</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>दासिमबो गैया</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>गासै माइग्रेशनफोर</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>सिमुलेट खालामनाय रान</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>आनजाद रान</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>थाङै माइग्रेशनफोरा मोनसे ट्रान्जेक्शननि सिङाव रान जाबाय, जेखौ उनाव फिन लाबोनाय जाबाय: जेबो थिनाय जायाखै। गाहायाव मोनफ्रोमबोयाव डेटाबेसआव मा सोलायबाय बेखौ दिन्थिनाय जादों।</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>दानो मोनसे रान मा मावगोन। जेबो सोलायनाय जाया: मोनफ्रोमबो थाङै माइग्रेशना बे मावगोन सोलायनायफोरखौ लिस्ट खालामो, आरो रानआ सिगां आरो उनाव मा मावगोन।</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>सिमुलेट खालाम</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>रान खालाम</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>आनजाद रानआ फेल जाबाय: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>सिमुलेशननि थाखाय PostgreSQL एबा SQLite नांगौ, जायनि स्किमा सोलायनायखौ फिन लाबोनो हायो; बे डेटाबेसआव गाहायनि प्लेनआ मोनसे रानआ मा मावगोन बेखौ दिन्थियो।</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>माइग्रेशनफोर</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>माइग्रेशन</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>स्थिति</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>बेयो मा मावगोन</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>सिमुलेशन: %ms मि.से. आव %result</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>दासिमबो माइग्रेशन गैया।</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>राननि सिगां आरो उनाव</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>सिगांनि स्नेपशट</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>लानाय जायो, आरो माइग्रेशन फेल जायोब्ला फिन होनाय जायो</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>बन्द</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>उनावनि स्नेपशट</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>रानआ जाफुंबाय जेब्ला लानाय जायो</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>%total माइग्रेशन: %pending थाङै, %done जाखांबाय, %failed फेल जाबाय।</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>माइग्रेशननि इतिहास</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>मोनफ्रोमबो रान बिनि बाहायगिरि, एन्भाइरनमेन्ट, स्नेपशटफोर आरो मा कमिट, टेग आरो पुस खालामनाय जाबाय बेनि लोगोसे। फेल जानाय एबा थाबायनाय रानखौ फिन जागायनो हायो; सिगां स्नेपशट लानाय रानखौ फिन लाबोनो हायो।</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>रानफोरखौ फरायनो हायाखै: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>माइग्रेशनफोरनि टेबलफोरा दासिमबो गैया: ./console exp:upgrade --apply बेखौ सोरजिगोन।</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>दिन्थि</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>गासैबो</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>रानफोर</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>जागायबाय</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>जायनि</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>स्नेपशटफोर</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>रिपजिटरि</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>खामानि</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>सिगां</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>उनाव</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>पुस: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>फिन जागाय</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>फिन लाबो</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>बे स्थितिआव जेबो रान गैया।</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>बेयाव जागायनाय</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>बे बिलाइफोराव जागायनाय रान, फिन जागायनाय आरो फिन लाबोनायफोर, मोनफ्रोमबोनि रिपर्टनि लोगोसे।</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>मा</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>फलाफल</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>फिन लाबोनाय</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>%target नि फिन लाबोनाय</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>रान %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>रानआ मा मावबाय, बिनि रेकर्ड आरो बिनि लग। बेयाव जागायनाय रानआ बे बिलाइखौ बन्द खालामोब्लाबो उननि थाखोआव सोलिनो थायो; बेखौ नायनो बिलाइखौ फिन खेव।</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>बे रानखौ फिन जागाय</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>बे रानखौ फिन लाबो</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>रेकर्डखौ फरायनो हायाखै: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>जौगानाय</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>%user आ %time आव जागायबाय।</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>कोडखौ नायसंनाय आरो राननि सिगां स्नेपशट लानाय</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>%id रान जागासिनो दं (%total नि %index)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>%total नि %done जाखांबाय</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>माइग्रेशनफोरा रान जाबाय; मोनसे फेल जायोब्ला स्नेपशटखौ फिन होनाय जागासिनो दं</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>राननि उनाव स्नेपशट लानाय, कमिट, टेग आरो पुस खालामनाय</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>स्नेपशटखौ फिन होनाय</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>रानआ जोबबाय। बिनि रिपर्टखौ लोड खालामनाय जागासिनो दं।</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>जौगानायखौ नायनो हायाखै। रानआ माबोरै सोलिगासिनो दं नायनो बिलाइखौ फिन लोड खालाम।</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>बे बिलाइआ रानआ सोलिनाय समाव बेखौ नाया।</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>फिन लोड खालाम</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>रिपर्ट</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>सोमोय</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms मि.से.</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>रानआ गोलाव महरै मा दिन्थिबाय</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>रेकर्ड</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>एन्भाइरनमेन्ट</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>गैया</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>जोबबाय</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>कमिट</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>टेग</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>पुस</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>खौसिनाय</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>बे राननि माइग्रेशनफोर</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>मुल</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>राननि लग</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>लगनि जोबथा बाहागोलासिखौ दिन्थिनाय जादों।</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>सोलिगासिनो दं</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>रिपर्ट गैयालासे जोबबाय</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>जाफुंबाय</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>फेल जाबाय</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>नेवसिबाय</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>डेटाबेसआव सौनो हायाखै</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>सिङनि गोलाव</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>मोनसे रान सोलिगासिनो दं</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind खौ %user आ %time आव जागायबाय।</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>बेखौ नाय</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>इनस्टलेशनखौ लक खालामनाय जाबाय</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>गुबुन मोनसे रानआ लकखौ हमनानै दं (मोनसे आपग्रेड एबा कनसलआव मोनसे रान): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>जाखांबाय</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>थाङै</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>नांगौ नङा</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>सिन्हाखै</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>फिन लाबोबाय</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>बाहायबाय</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>बाहायनाय जागोन</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>फिन लाबाय</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>फिन लानाय जागोन</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>रान जायाखै</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>गुबुन मोनसेनि थाखाय नेथ&apos;</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>सोलायनायखौ लाबाय</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>सोलायनायखौ लानाय जागोन</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>सिमुलेट खालामबाय</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>माइग्रेशनफोर</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>स्थिति</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>इतिहास</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>%target खौ फिन ला</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>मोनसे रानखौ बिनि सिगां लानाय स्नेपशटआव फिन लानाय जायो, मोनसे माइग्रेशनखौ बिनि down() जों। सिगांनि स्नेपशटखौ फिन होनाया गियानगिरिफोरनि थाखाय। मोनफ्रोमबोआ दानि स्थितिनि स्नेपशट लानाय उनाव नोंनि मुङाव उननि थाखोआव सोलियो।</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>मा फिन लानो हायो बेखौ फरायनो हायाखै: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>मोनसे रान</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>मोनसे माइग्रेशन</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>सिगांनि मोनसे स्नेपशट</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>बिबरण</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>होय</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>नङा</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>स्नेपशट</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>लेबेल</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>लानाय</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>रोखोम</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>फिन होनो नांगौ बाहागोफोर</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>डेटाबेस</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>जमा खालामनाय फाइलफोर (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>सेटिंफोर (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>डेटाबेसखौ फिन होनाया बेखौ सेसनफोर लोगोसे स्नेपशटनि सोमोयाव फिन लाबोयो: उनाव नोंखौ फिन साइन इन खालामनो बुंनो हायो। बेनि उनाव सोलायनाय गासैबो गोमायगोन; गिबियाव दानि स्थितिनि स्नेपशट लानाय जायो।</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>बेयो मा फिन होयो, आं मिथिगौ</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>स्नेपशटनि आइडिखौ फिन लिर</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>होय, फिन ला</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>बन्द</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>सिगां स्नेपशट लानाय रानफोर।</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>सायख</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>दासिमबो स्नेपशट थानाय रान गैया।</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>बाहायनाय माइग्रेशनफोर जायफोरा गावखौ गावनो फिन लानो हायो (बिसोरनि down() दं)।</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>जेबो बाहायनाय माइग्रेशननि down() गैया।</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>सिगांनि स्नेपशटफोर (गियानगिरि)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>दासिमबो स्नेपशट गैया।</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>माइग्रेशनफोरखौ रान खालाम</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>रानआ %user महरै उननि थाखोआव सोलियो, आरो बिनि बिलाइआ बेखौ सोलिनाय समाव दिन्थियो। गिबि माइग्रेशननि सिगां इनस्टलेशननि स्नेपशट लानाय जायो; माइग्रेशन फेल जायोब्ला रानआ थायो आरो स्नेपशटखौ फिन होनाय जायो।</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>गिबियाव आनजाद रान</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>स्थितिखौ फरायनो हायाखै: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>थाङै माइग्रेशनफोर</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>बिसोरा बे थाखोआव रान जायो। मोनसेखौ आरो बेखौ नांनाय गुबुनफोरखौ उनावनि राननि थाखाय नागारनो बिनि टिकखौ गार।</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>रान खालाम</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>रान जानाय समाव मेन्टेनेन्स मोडखौ आगाय खालामो।</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>बाहायनाय उनाव सोलायबाय</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>बे फाइलफोरा बाहायनाय फाइलफोर नङा। सोलायनायखौ मोनसे जाहोनजों लानाया नाङाब्ला रानआ बिसोरखौ नेवसियो; बिसोरखौ फिन रान खालामनाय जाया, गोदान चेकसामखौ रेकर्ड खालामनाय जायो आरो जाहोनखौ अडिट लगआव थिनाय जायो।</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>सोलायनायफोरखौ ला</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>मानो</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>डिफल्टफोरा रैखाथि गोनां। मोनफ्रोमबो बाक्सआ मोनसे खामखौ नागारो।</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>स्नेपशट गैया</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>राननि सिगां आरो उनाव स्नेपशट गैया: फेल जानायखौ गावनो फिन होनो हाया।</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>फिन होनाय गैया</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>फेल जानायनि उनाव इनस्टलेशनखौ फेल जानाया नागारनाय बादिनो नागार।</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>कमिट खालामाखै सोलायनायफोरखौ थिना दो</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>सेटिं, एक्सटेन्सन एबा डिजाइनफोराव कमिट खालामाखै सोलायनाय थाबाबो रान खालाम; बिसोरा स्नेपशटआव हाबगोन।</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>कमिट गैया</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>स्थिति फाइल आरो राननि लगखौ कमिट खालामनो नङा (टेग आरो पुसबो गैया)।</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>पुस गैया</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>कमिट आरो टेग खालाम, नाथाय पुस खालामनो नङा।</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>टेग गैया</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>कमिट आरो पुस खालाम, नाथाय रानखौ टेग खालामनो नङा।</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>होय, बे माइग्रेशनफोरखौ दानो रान खालाम</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>जेबो माइग्रेशन थाङै गैया।</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>स्थितिआव फिन था</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>बे इनस्टलेशननि सोलायनायफोर, फाइल महरै खेबसे लिरनाय (बिबुं, क्लासफोर, रोलफोर, सेटिंफोर, स्किमा) आरो साइटनि मोनफ्रोमबो इनस्टलेशनआव रोखोमसे थाखोआव बाहायनाय। मोनसे रानआ गिबियाव स्नेपशट लायो, माइग्रेशन फेल जायोब्ला बेखौ फिन होयो, आरो बे मा मावबाय बेखौ रेकर्ड, कमिट आरो पुस खालामो।</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>%count थाङैखौ रान खालाम</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>सारसिनाय</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>थाङै</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>जाखांबाय</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>फेल जाबाय</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>नांगौ नङा</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>डेटाबेस</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>ट्रान्जेक्शनफोर: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>साइटनि माइग्रेशनफोरा migrations/ आव दं, एक्सटेन्सननि माइग्रेशनफोरा extension/&lt;name&gt;/migrations/ आव। बिसोरा बिसोरनि मुं आरो बिसोरनि नांनायनि थाखो बादि रान जायो।</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>जोबथा रान</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>बाहायनाय उनाव फाइलआ सोलायबाय।</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>दासिमबो माइग्रेशन गैया। ./console exp:migration:generate --skeleton &lt;name&gt; --apply गिबि माइग्रेशनखौ लिरगोन।</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>जोबथा रानफोर</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>गासै रानफोर</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>दासिमबो रान गैया।</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>मोनसे रानखौ सिमुलेट खालामनो migration/run पलिसि नांगौ।</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>मोनसे रान सोलिगासिनो दं: बेयो जोबनाय उनाव सिमुलेट खालाम।</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>सेटआप</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target आ बे इनस्टलेशननि रान नङा, माइग्रेशन नङा आरो स्नेपशटबो नङा।</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>गिबियाव &quot;होय, फिन ला&quot; आव टिक खालाम।</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>सिगांनि स्नेपशटखौ फिन होनाया गियानगिरिफोरनि थाखाय: &quot;बेयो मा फिन होयो, आं मिथिगौ&quot; आव टिक खालाम।</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>स्नेपशटनि आइडिखौ फिन लिर: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>फिन होनो खमसेयावबो मोनसे बाहागो सायख।</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>बे राननि सिगां लानाय स्नेपशट गैया: बिनि माइग्रेशनफोरखौ मोनसे मोनसे फिन ला, एबा सिगांनि मोनसे स्नेपशटखौ फिन हो।</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>बे माइग्रेशनखौ गावनो फिन लानो हाया: बेखौ बाहायाखै, एबा बिनि down() गैया।</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>फर्मखौ फरायनो हायाखै।</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>फिन जागायनो रानखौ सायख।</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>गिबियाव &quot;होय, बे माइग्रेशनफोरखौ दानो रान खालाम&quot; आव टिक खालाम।</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>खमसेयावबो मोनसे माइग्रेशन सायख।</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>मोनसे माइग्रेशनआ बाहायनाय उनाव सोलायबाय: सोलायनायखौ मोनसे जाहोनजों ला, एबा फाइलखौ फिन थिना हो।</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>सोलायनाय माइग्रेशनफोरखौ मानो लानाय जायो बेनि जाहोनखौ हो।</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>जाहोनआ बांसिनस्रा 500 हांखो।</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>बेयाव जागायनाय मोनसे रान दासिमबो सोलिगासिनो दं (%detail)। बेयो जोबनायनि थाखाय नेथ&apos;।</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>गुबुन मोनसे रानआ इनस्टलेशननि लकखौ हमनानै दं: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>राननि थाखाय थानाय साइन इन खालामनाय बाहायगिरि मोनसे नांगौ।</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>php कमान्ड लाइन बाइनारि मोनाखै। migration.ini [AdminSettings] PhpCliPath खौ बिनि आबुं लामाआव सेट खालाम।</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open आ बन्द, बेनिखाय बेयाव रान जागायनो हाया। सार्भारआव ./console exp:migration:migrate --apply रान खालाम।</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>रानफोरनि फल्डारआव लिरनो हाया: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>रानखौ जागायबाय नाथाय बिनि प्रसेस आइडिखौ खौसियाखै। %detail खौ नायसं।</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>मा फिन लानो नांगौ बेखौ बुं।</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>रानखौ जागायनो हायाखै।</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>सोलायनायफोरनि रेकर्डिं</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>रेकर्डिं जाबाय थानाय समाव नोंथाङा प्रशासनाव एबा साइटनि साइडबारआव जेसे सोलायो बेखौ मोनसे माइग्रेसननि खान्थि महरै दोनना दोनो: बिथोन, क्लास, बिहुं आरो नेम, सेक्सन, बाहायग्रा आरो दल, URL मुंजोख्रा, सेटिं। खामानि जोबलाब्ला बेखौ थाद्लां, बेयो मा हमदोंमोन नाय, आरो बेनिफ्राय मोनसे माइग्रेसन सोरजि।</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>रेकर्डिंफोरखौ फरायनो हायाखिसै: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>रेकर्डिंनि टेबुलफोर दासिमबो गैया: गिबियावनो आपग्रेड जाबाय (exp:upgrade --apply)।</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>migration.ini आव रेकर्डिं बन्द ([RecordingSettings] Recording=disabled)।</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>आंनि सोलायनायफोर</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>नोंथाङा थाद्लांनाय समाव सिम नोंथाङा जेसे सोलायो, जेरावनो सोलायो, बेखौल' रेकर्ड खालामो।</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>रेकर्डिं</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>%time निफ्राय, दासिम %count सोलायनाय।</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>लेबेल (गोनांथि नङा)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>बेयो मा हमदोंमोन दिन्थि</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>रेकर्डिं थाद्लां</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>आंनि सोलायनायफोरनि रेकर्डिं जागायहो</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>गासै साइटनि खिरकि</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>बन्द जानाय सिम गासै बाहायग्रा आरो कन्सलनि गासै सोलायनायखौ रेकर्ड खालामो। खेवनाय समाव नोंनो जाखौ थारैथि खालामनो बुङो।</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>खेवनाय</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>खिरकि बन्द खालाम</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>गासै साइटनि खिरकि खेव</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>रेकर्डिंफोर</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>बाहायग्रानि एकाउन्ट (लगइन, इ-मेल, पासवार्ड) आरो बाहायग्रा एकाउन्टनि फिल्डफोरखौ जेबि समावबो रेकर्ड खालामा।</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>सोलायनायफोर</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>गासै साइट</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>%name नि सोलायनायफोर</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>थाद्लांबाय</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>दासिमबो रेकर्डिं गैया।</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>रेकर्डिं %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>गासै रेकर्डिंफोर</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>बेनिफ्राय जानो थाखाय माइग्रेसन</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>सोलायनाय मोनसे मोनसे जिनिसनि थाखाय मोनसे खान्थियाव फोलोमनाय सोलायनायफोर: बे रेकर्डिंनिफ्राय सोरजिनाय माइग्रेसनआ मा खालामगोन।</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>बे इनस्टलेसनाव YAML खान्थि रोखोमफोर %types थायोब्ला बेनिफ्राय माइग्रेसन सोरजिनो हागोन।</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>मिथिनानै बोखावनाय: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>जेसेबो रेकर्ड जायाखै।</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>बेयो मा हमदोंमोन</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>%count सोलायनाय, खालामनाय बिथाङाव।</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>सोलायनाय</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>खान्थि</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>सोमोन्दो</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>आरो %count: ./console exp:migration:record:show गासैखौ लिस्ट खालामो।</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>नागार</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>रेकर्डिं आरो बेयो जेसे हमदोंमोन बेखौ बोखावो। जेसे सोलायबाय बेयो सोलायनायलानो थायो।</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>नंगौ, बे रेकर्डिंखौ नागार</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>रेकर्ड जागासिनो दं…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>नोंनि सोलायनायफोरा मोनसे माइग्रेसननि थाखाय रेकर्ड जागासिनो दं।</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>बे साइटनि गासै सोलायनायखौ मोनसे माइग्रेसननि थाखाय रेकर्ड खालामगासिनो दं (गासै साइटनि खिरकि)।</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>गासै साइटनि रेकर्डिं जागायबाय: नोंथाङा थाद्लांनाय सिम गासै बाहायग्रानि गासै सोलायनाय रेकर्ड जागोन।</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>रेकर्डिं जागायबाय: नोंथाङा थाद्लांनाय सिम नोंनि सोलायनायफोर रेकर्ड जागोन।</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>रेकर्डिं थाद्लांबाय। बेयो जेसे हमदोंमोन बेयो नागारनाय सिम थागोन।</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>रेकर्डिं आरो बेनि जाथायफोरखौ बोखावबाय।</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>रेकर्डिं %id गैया।</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>गिबियावनो "नंगौ, बे रेकर्डिंखौ नागार" आव सिन हो।</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>सेसन रेकर्डिंखौ रेकर्ड खालामग्रा बाहायग्रानोल' थाद्लांनो हायो।</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>थाद्लांनो थाखाय रेकर्डिं सायख।</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>बे रोखोमनि रेकर्डिं सिगांनिफ्रायनो जाबाय थादों।</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>रेकर्डिं सोलायनो हायाखिसै: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>माइग्रेसन सोरजि</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>माइग्रेसननि मुं (गावनि सिमा)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>माइग्रेसन %file लिरनाय जादों। जाय सोलायफोरखौ जेबो खामानिआ खालामनो हायाखै, बेफोरखौ फाइलनि सिङाव मुं होनाय जादों, आखायजों खालामनो गोनां।</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>जेबो माइग्रेसन लिरनाय जायाखै: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>गोजाम-गोजामजों दावनो रन</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>गोजोम फिल्डफोरखौ migration.ini [RunSettings] आरो सेटिं जिउगासिनो।</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>बांसिन मेकानिजों माइग्रेसनफोर</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>बेनिफ्राय आर माइग्रेसन गैयि (सेकेन्ड)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>माइग्रेसनफोरनि गेजेर नाजा (सेकेन्ड)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>गोजोन अग्रधिकार (1 निफ्राय 19)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>दावनो रननि फिल्ड 1 निफ्राय गासै जोनोम संख्या (नाजा: 0 निफ्राय 60 सेकेन्ड, अग्रधिकार: 1 निफ्राय 19), नाथाय खालि।</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>बे %time-आ नौजेबो बन्द जायो।</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>बेनिफ्राय नौजेबो बन्द खालाम (मिनिट, फारसेबो)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>मिनिटफोर 1 निफ्राय 44640 (31 सान) सोमोन्दै जोनोम संख्या, नाथाय खालि।</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>माइग्रेशन %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>गोदान माइग्रेशन</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>मोनसे YAML माइग्रेशन: बेखौ लिरनाय महरै लिर एबा फर्मआव बेनि खान्थिफोरखौ बानाय, बेखौ नायथि, उनाव बेखौ माइग्रेशन फोल्डारआव रैखा।</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>बे माइग्रेशनआ सिगांनोनो रान जाबाय, बेनिखायनो बेखौ फिन रैखा खालामनाय जाया: सोलायनाय फाइलखौ चेकसाम रैखागिरिआ नेवसिगोन। सोलायनायखौ मोनसे गोदान माइग्रेशनआव खालाम।</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>वेब सार्भारा फाइलखौ लिरनो हाया।</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>गोजौआव थानाय मन्तब्य सारिफोरा हेडार (description, author, requires, environments, engines)। फर्मआव मोनसे खान्थि दाजाबनाय एबा सोलायनाय जायोब्ला, माइग्रेशनखौ फिन लिरनाय जायो: खान्थिफोरनि गेजेरनि मन्तब्यफोरखौ रैखा खालामनाय जाया।</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>माइग्रेशननि मुं</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>बबेहाव थांगोन</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>साइट</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>YAML लिरनाय</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>नायथि</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>रैखा</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>खापफोर</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>साबि</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>सोलोंथाय</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>उफ्राव थां</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>गोजौव थां</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>आगाय</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>दासिमबो खान्थि गैया: फर्मजों मोनसे दाजाब, एबा बेफोरखौ लिरनायआव लिर।</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>खान्थि %number सोलाय</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>मोनसे खान्थि दाजाब</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>मोनसे खान्थिनि फर्मा बेनि खान्थिनि रोखोमनिफ्राय बानायनाय जायो: बेनि साबिफोर, मोनफ्रोमबो मा लायो आरो बे बबे मडफोरनि बाहागो।</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>खान्थिनि रोखोम</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>बेनि फर्म दिन्थि</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>खान्थिआव बादि साबि दं जायखौ बेनि रोखोमआ मिथिया; खान्थिखौ सोलायोब्ला बेफोरखौ बाद होनाय जायो: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>मड</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>आव</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>%modes आवल'</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>डिफल्ट: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>सर्तफोर, रेफारेन्सफोर आरो मन्तब्य</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>कमाजों आलादा खालामनाय मुं=मान जराफोर। बे खान्थिनि मानफोर: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>बिदिन्था</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>खान्थि सोलाय</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>खान्थि दाजाब</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>exp:migration:check आ मा बुङो: हेडार, डकुमेन्ट आरो बेनि खान्थिनि रोखोमजों नायथि खालामनाय गासै खान्थि।</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>माइग्रेशनआ नायथियाव जाफुंबाय।</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>सोलोंथाइ</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>रैखा जागोन बादि YAML।</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>YAML दिन्थि</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>YAML माइग्रेशनफोर</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>रान जाबाय</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>दासिमबो जेबो YAML माइग्रेशन गैया।</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>सोलोंथायग्रा</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>माइग्रेशन फोल्डारफोराव जेबो YAML माइग्रेशन %id गैया।</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>खान्थिनि रोखोम सायख।</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>खान्थिखौ दाजाबनाय जाबाय। माइग्रेशनखौ रैखा खालामनायनि सिगां नायथि।</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>खान्थिखौ सोलायनाय जाबाय। माइग्रेशनखौ रैखा खालामनायनि सिगां नायथि।</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>मोनसे खान्थि सायख।</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>बे खान्थिनि जेबो फर्म गैया (मोनसे लुप, एबा बे इनस्टलेशनआव गैयि खान्थिनि रोखोम): बेखौ लिरनायआव सोलाय।</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>माइग्रेशनआ बबेहाव थांगोन सायख: साइट एबा मोनसे सक्रिय एक्सटेनशन।</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>%file रैखा जाबाय। माइग्रेशन रान जानायनि सिगां मोनसे आनजाद रान खालाम।</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>रैखा जायाखै: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>रिमटफोर</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>गुबुन इनस्टलेशनफोर जेराव बेयो बेनि माइग्रेशनफोरखौ डिप्लय खालामो: मोनसे डिप्लयआ माइग्रेशनफोरखौ सायखनाय रिमटफोराव दैथायो आरो बेयाव रान खालामो, गासैबो मोनसेथिं आरो सिंक आव। मोनसे रिमटआ जेब्लाबो गुबुन मान दोनथुमा: बेनि क्रेडेन्सियलआ सेटआप &gt; गुबुन मानफोर आव मोनसेनि मुं होयो।</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>गोदान रिमट</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>मदद</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>%id नि कनेक्सन नायगिरनाय</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>रिमटफोर</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>%parallel सिम रिमटफोरखौ मोनफ्रोम सोमोयाव खामानि मावनाय जायो; मोनसे फेजआ गोबो रिमटआव %timeout सेकेन्ड लानो हायो।</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>रिमट</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>ठिकाना</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>क्रेडेन्सियल</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>हुदाफोर</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>गेबें खालामनो नांगौ सेटिंफोर</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>सिर्फ फाइलफोर (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>SSH साबि</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>पासओयार्ड</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>गैया (होस्टनि SSH एजेन्ट आरो साबिफोर)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>कनेक्सनखौ नायगिरि</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>मोनसे हुदायाव डिप्लयआ बेनि गासै रिमटआव थांयो।</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>रिमटफोराव डिप्लय खालाम</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>दासिमबो जेबो रिमट सेटआप खालामाखै।</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>रिमट %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>बेयाव जेबो दैथायनाय एबा रान खालामनाय जाया: रैखा आ सेटिंफोरखौ settings/override/migration.ini.append.php आव लिरो। क्रेडेन्सियलआ मोनसे मुं; बेनि बेसेनआ सेटआप &gt; गुबुन मानफोर आव एबा एन्भाइरनमेन्टआव थायो।</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>बे सेटिंफोरखौ नायसि</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>हांनाय बादि सेटिंफोर, दासिमबो रैखा खालामाखै।</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>नायगिनाय</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>सेटिंफोरा गेबें। बे सारिफोरखौ लिरनाय जागोन:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>ट्रान्सपोर्ट</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>मुं ल'नो; मानआ सेटआप &gt; गुबुन मानफोर आव थायो</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>लिरनाय जागोन सारिफोर</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>कनेक्सन</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>होस्ट साबि</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. रिमट</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>रिमटनि मुं मा आरो बेयो बबे एन्भाइरनमेन्ट।</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>आइडि</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>हांखो, अनजिमा, - आरो _, बिदिन्था production1। बेयो रिपर्टफोर आरो कन्सलआव (--remotes=production1) रिमटनि मुं होयो आरो उनाव सोलायनो हाया।</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... स्टेजफोराव मोनसे डिप्लयआ एन्भाइरनमेन्टफोरनि गेजेरजों बे थाखो बादि थांयो।</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>गोनांथि नङा, कमाजों आलादा खालामनाय, बिदिन्था production। मोनसे हुदायाव डिप्लयआ बेनि गासै रिमटआव थांयो।</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. कनेक्सन</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>फाइलफोरा माबोरै बेयाव सौयो, आरो इनस्टलेशनआ बबेयाव दं।</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>SSH नि सायाव, सिर्फ मा सोलायबाय, सिफायनाय ट्रान्सफारखौ फिन जागायनाय जायो। rsync इनस्टल खालामनाय थानाय जायगायाव जोबोद मोजां सायखनाय।</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>फाइलफोरनि थाखाय scp जों SSH।</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>फाइलफोरनि थाखाय sftp जों SSH।</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>सिर्फ फाइलफोर: माइग्रेशनफोरखौ दैथायो आरो फिन फरायो, नाथाय बेयाव रान खालामनो हाया।</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>TLS नि सायाव FTP; सिर्फ फाइलफोर।</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>बे सार्भारआव गुबुन मोनसे इनस्टलेशन, मोनसे फोल्डारआव।</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>होस्ट</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>मोनसे होस्टनि मुं एबा ठिकाना, बिदिन्था node1.example.com। local नि थाखाय नङा।</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>पोर्ट</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>लांदां: SSH नि थाखाय 22, FTP नि थाखाय 21।</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>बेबहार खालामग्रा</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>फथ</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>बेयाव इनस्टलेशननि रुट, बिदिन्था /var/www/site (FTP नि थाखाय: FTP एकाउन्टआ नुनाय फथ)।</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>PHP कमान्ड लाइन</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>बेयाव PHP CLI: php, एबा /opt/plesk/php/8.4/bin/php बादि आबुं फथ।</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>कन्सल स्क्रिप्टफोरा बेयाव root बादि रान जायो</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>जेब्लासिम रिमटनि बेबहार खालामग्राआ root (बेनि उनाव बेफोरखौ --allow-root-user जों रान खालामनाय जायो)।</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. क्रेडेन्सियल</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>बे इनस्टलेशनआ बेयाव माबोरै साइन इन खालामो। सिर्फ मोनसे मुं रैखा खालामनाय जायो।</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>मुं</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>बे इनस्टलेशनआ जाय बेबहार खालामग्रा बादि रान जायो, बेनि SSH एजेन्ट आरो साबिफोर (आरो local नि थाखाय सबसिन)।</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>गुबुन मान बादि दोनथुमनाय मोनसे प्राइभेट साबि।</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>गुबुन मान बादि दोनथुमनाय मोनसे पासओयार्ड (FTP आ बेजों साइन इन खालामो)।</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>गुबुन माननि मुं</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>सेटआप &gt; गुबुन मानफोर नि मोनसे गुबुन मान, बिदिन्था deploy_production1।</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>सेटआप &gt; गुबुन मानफोर</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>एबा मोनसे एन्भाइरनमेन्ट भेरिएबल</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>बेखौ दोनथुमग्रा सार्भार प्रसेसनि भेरिएबल, बिदिन्था DEPLOY_KEY (env:DEPLOY_KEY बादि रैखा खालामनाय)। बेयो गुबुन माननि मुंनि जायगा लायो।</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. होस्ट साबि</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>गोनांथि नङा, SSH, sftp आरो rsync नि थाखाय।</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>होस्ट साबिनि आसिं चिन</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... ssh-keygen -l आ बेखौ छापायनाय बादि। बेजों, होस्टआ बे साबिखौ दिन्थिनांगोन; बेनि गैयाब्ला, गिबि सोमोन्दोआव साबिखौ सोलोंनाय जायो।</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. नायगिनाय</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>गोजौनि सेटिंफोरजों कनेक्सनखौ नायगिरि, बेनि उनाव लिरनाय जागोन सारिफोरखौ नायगिनाय खालाम।</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>बे रिमटखौ आगाय</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>बेनि सेटिंफोरखौ settings/override/migration.ini.append.php निफ्राय बोखारनाय जायो। रिमटआव जेबो सोलाया, आरो बेनि डिप्लयफोरा इतिहासआव थायो।</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>होय, बे रिमटखौ आगाय</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>डिप्लयफोर</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>मोनसे डिप्लयआ बे इनस्टलेशननि माइग्रेशनफोरखौ सायखनाय रिमटफोराव दैथायो आरो बेयाव %user बादि रान खालामो, गासैबो मोनसेथिं आरो सिंक आव: गिबियाव गासै रिमटखौ नायथि खालामो, आरो मोनसेआ फेल जायोब्ला, बाहायनाय गासै रिमटखौ फिन लाबोयो। बेयो उनथिङाव सोलिगासिनो थायो, आरो बेनि बिलाइआ गासै रिमटखौ सोलिनायजों दिन्थियो।</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. रिमटफोर</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>रिमटफोर, मोनसे हुदा, एबा नैबोखौ टिक खालाम।</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>बेयाव डिप्लय खालाम</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. माबोरै</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>डिप्लय</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>दैथाय आरो रान खालाम</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>माइग्रेशनफोरखौ गासै रिमटआव मोनसे सेरनाय रान आइडिजों दैथायो, नायथि खालामो आरो रान खालामो।</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>सिर्फ ट्रान्सफार</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>फाइलफोरखौ दैथायो आरो नायथि खालामो, जेबो रान खालामनाय जाया (मोनसे FTP रिमटनि थाखाय गोसोसे लामा)।</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>स्टेजफोराव</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>एन्भाइरनमेन्टफोरनि थाखो बादि स्टेज उनाव स्टेज (dev, stage, beta, production ...): गिबि स्टेजखौ डिप्लय खालामनाय जायो, बेनि उनाव मोनसे गेटआ सासेबा उननिखौ अनुमोदन खालामनो सिम नेथ'यो। गोबो स्टेजआव गासैबो एबा जेबो नङा।</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>सिर्फ बे माइग्रेशनफोर</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>गोनांथि नङा: माइग्रेशनफोरनि आइडि, कमाजों आलादा खालामनाय। लांदां: साइट आरो बेनि एक्सटेन्सनफोरनि गासै माइग्रेशन।</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>सिर्फ सिगांनि नायथि</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>होय, दा डिप्लय खालाम</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>मोनसे मोनसे जिनिस दैथायनाय एबा रान खालामनाय डिप्लयफोर, गोदाननिफ्राय गिबियाव (सिगांनि नायथिआ जेबो रिपर्ट दोनथुमा)।</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>सिर्फ ट्रान्सफार</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>स्टेजफोराव, %stages स्टेज</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>सिंक आव नङा</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>दासिमबो डिप्लय गैया।</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>डिप्लय %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>डिप्लयनि गासै रिमट बेनि स्थितिजों। बेयाव जागायनाय डिप्लयआ बे बिलाइखौ बन्द खालामब्लाबो उनथिङाव सोलिगासिनो थायो; बेखौ नायनो बिलाइखौ फिन खेव।</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>गासै डिप्लयफोर</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>सिगांनि नायथि</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>उननि स्टेज</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>सेटिंफोर आरो क्रेडेन्सियलफोरखौ नायथि खालामगासिनो दं</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>सिगांनि नायथि: गासै रिमटनि स्थितिखौ फरायगासिनो दं</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>माइग्रेशन फाइलफोरखौ दैथायगासिनो दं</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>मा सौबाय बेखौ नायथि खालामगासिनो दं</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>गासै रिमटआव माइग्रेशनफोरखौ रान खालामगासिनो दं</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>रिमटफोरखौ फिन लाबोगासिनो दं</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>डिप्लयआ जोबबाय। बेनि रिपर्टखौ लोड खालामगासिनो दं।</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>जौगानायखौ नायनो हायाखै। डिप्लयआ माबोरै सोलिगासिनो दं नुनो बिलाइखौ फिन लोड खालाम।</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>फेज</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>बे बिलाइआ डिप्लयखौ सोलिनायजों नायो।</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>सिंक आव</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>स्टेजफोर</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>स्टेज %stage आ बेनि गेटआव नेथ'गासिनो दं</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>गेट %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>%user आ %time आव अनुमोदन खालामबाय</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>स्टेज</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>दैथायनाय फाइलफोर</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>कर्नेलनि भार्सन</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>बाहायबाय: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>बाहायनो: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>फेजफोर</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>गेट: %stages निफ्राय स्टेज %stage</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>बेनि सिगांनि स्टेजफोरखौ डिप्लय खालामबाय। बेफोरखौ नायथि खालाम, बेनि उनाव उननि स्टेजखौ अनुमोदन खालाम: बेनि रिमटफोरखौ फिन नायथि खालामनाय आरो डिप्लय खालामनाय जायो, गासैबो एबा जेबो नङा।</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>उननि</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>होय, उननि स्टेजखौ दा डिप्लय खालाम</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>अनुमोदन खालाम</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>बे डिप्लयखौ फिन लाबो</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>बेखौ बाहायनाय गासै रिमटआ (%list) बेनि राननि सिगां लानाय स्नेपशटआव फिन थांयो, गासैबो मोनसेथिं।</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>होय, बे डिप्लयखौ दा फिन लाबो</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>प्लान खालामनाय</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>ट्रान्सफार खालामबाय</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>डिप्लय खालामबाय</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>मोनसे गेटआव नेथ'गासिनो दं</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>सायख्रानाय</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>थियारि खालामनाय</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>जामाय</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>बेनि स्टेजनि थाखाय नेथ'गासिनो दं</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>फाइलफोर दैथायबाय</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>नायथि खालामबाय</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>फेल जाबाय, गावखौ गाव फिन होबाय</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>सोलायाखै</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>डिप्लय खालामाखै</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>सौनो हाया</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>रिमटआ फिन्नायबाय।</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>रिमटखौ दा बाहायनो हाया।</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done जाखांबाय, %pending थाङै, %failed फेल जाबाय</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>लक</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>मोनसे रानआ बेयाव लकखौ दोनथुमदों</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>गोजो</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stages निफ्राय %stage</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>नायगिरिनो रिमटखौ सायख।</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>गिबियाव “होय, बे रिमटखौ आगाय” खौ टिक खालाम।</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>रिमटखौ आगायनो हायाखै: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>रिमटखौ रैखा खालामनो हायाखै: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>सेटिं फाइलखौ फरायनो हाया: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>खमसेयाबो मोनसे रिमट एबा हुदा सायख।</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>सायखनाय मोनसे रिमट सेटिंफोराव दा गैया। बिलाइखौ फिन लोड खालाम।</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>गिबियाव “होय, दा डिप्लय खालाम” खौ टिक खालाम।</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>मोनसे FTP रिमटआ माइग्रेशनफोर रान खालामनो हाया: “सिर्फ ट्रान्सफार” सायख, एबा बेखौ नागार।</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>डिप्लय खालामनो माइग्रेशनफोरा जायो माइग्रेशन आइडिफोर, कमाजों आलादा खालामनाय।</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>डिप्लयआ दासिमबो सोलिगासिनो दं। बेयो जोबनो सिम नेथ'।</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>बे डिप्लयआ जेबो गेटआव नेथ'आ।</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>जेबो रिमटआ बे डिप्लयखौ बाहायाखै: फिन लाबोनो जेबो गैया।</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>गिबियाव “होय, उननि स्टेजखौ दा डिप्लय खालाम” खौ टिक खालाम।</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>गिबियाव “होय, बे डिप्लयखौ दा फिन लाबो” खौ टिक खालाम।</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>आइडि %id जों मोनसे रिमट थाबायखालि।</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>पोर्टआ जायो 1 निफ्राय 65535 सिम मोनसे नम्बर।</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>एन्भाइरनमेन्टआ जायो हांखो, अनजिमा, - आरो _ नि मोनसे सोदोब (alpha, dev, stage, beta, production ...)।</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>मोनसे हुदा जायो हांखो, अनजिमा, - आरो _ नि मोनसे सोदोब (all नङा): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>क्रेडेन्सियलखौ दा फरायनो हाया: %problem। गिबि डिप्लयनि सिगां बेखौ सेटआप &gt; गुबुन मानफोर आव रैखा खालाम (एबा भेरिएबलखौ सेट खालाम)।</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>मोनसे FTP रिमटआ सिर्फ फाइलफोर मोनो: बेयाव डिप्लयआ “सिर्फ ट्रान्सफार”, आरो बेनि माइग्रेशनफोरखौ बेयाव आखाइजों रान खालामनाय जायो।</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>रिमट %id आ settings/override/migration.ini.append.php आव गैया; बेखौ जेराव सेट खालामनाय जाबाय बेयाव आगाय।</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>FTP नि सायाव साइन इन खालामबाय आरो index.php फरायबाय। मोनसे FTP रिमटनि माइग्रेशन स्थितिखौ फरायनो हाया।</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>सोलोंथायनाय</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>सोरजिनाय</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>मुं</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>क्लास</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>सेक्सन</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>सर्जिग्रा</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>गुदुनि बिषयबस्तु</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>गोटै साइटनि गुदुयाव सोरजिनाय आरो सोलोंथायनाय बिषयबस्तु, गोदानखौ गिबियाव: सिनायथिग्राफोरा मा दैथायखो, आनजाद खालामनो मा थिसना दोनबाय, मोनसे खस्राफोरा फोरमायनायनि थाङै नेथाय दङ. आइटेमफोरखौ सायख्रानानै बेफोरखौ थिसनायनिफ्राय उदांहो, थिसना दोन, गुबुन खालाम, गोख्रों, आगाय एवा गुबुन सेक्सन एवा अबस्थाआव लाबो.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>लिस्टखौ फोरानो हायाखै: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>आनजाद थिसनायखौ दासिम सेट खालामाखै, बेनिखाय जेबो थिसना दोनाय जाया आरो थिसनायनि खामानिफोर होनाय जाया. अपग्रेड खामि 6.0.15-review-hold आ बेखौ सेट खालामो: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>लिस्टखौ फिल्टार खालाम</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>निफ्राय</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>सिम</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>तारिख</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>सोरजिनाय (गिबि सोलाव फोरमायनाय)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>जोबोद</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>स्थिति</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>फोरमायनाय जादों</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>खस्रा, जेबो फोरमायाखै</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>थाङै (गनायथिनाय एवा तारिखनि थाङै नेथाय)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>जाथाइ गाङआव</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>आनजाद खालामनो थिसना दोनाय</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>थिसना दोनाय</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>थिसना दोनाय नङा</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>गुबुन</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>नायनो हायो</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>दैथायनाय सान</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>जायखिजाया साइट-प्रबेश</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>ओडिटआ लिरथिनायखौल.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>दानो: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>मोनसे लगइन एवा बाहायग्रा आइडि.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>फिल्टार खालाम</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>फिल्टारफोरखौ आगाय</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>आइटेमफोर</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%count निफ्राय %from निफ्राय %to सिम</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>आइटेम गैया</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(%ms ms आव फोरायनाय)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>सायख्रानाय आइटेमफोरआव खामानि</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>बे फोथायाव जोबोदखौ सायख्रा</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>%count सायख्रानाय</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>खामानि</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>मोनसे खामानि सायख्रा</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>थिसनायखौ उदांहो</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>आनजाद खालामनो थिसना दोन</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>गुबुन खालाम</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>गोख्रों</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>जाथाइ गाङआव लाबो</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>मेटा</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>सेक्सन होलांगो</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>अबस्था होलांगो</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>मानो</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>थिसना दोननो गोनां; थिसनायजों आरो ओडिटआव दोनथायो.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>मोनसे सेक्सन सायख्रा</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>अबस्था</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>मोनसे अबस्था सायख्रा</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>सायख्रानायफोरआव लागाव</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>मोनफ्रोम आइटेमखौ नोंनि गावनि गनायथिनायफोरजों नायसंनाय जायो. जाथाइ गाङआव लाबोनाय आरो मेटानायनि सिगाङाव थारथि खालामनो सोंनाय जायो. %count नि सिगाङाव बांसिन आइटेमफोरा उनथिं खामानि मावो.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>सायख्रा</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>फोरमायनाय</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>बेनिफ्राय दैथायनाय</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>%name सायख्रा</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>दासिम नङा</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(मुं गैया)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>आइडि %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>खस्रा</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>थाङै</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>बिफाआ गुबुन खालानाय</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>थिसना दोनाय: गोदान दैथायनाय</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>भार्सन %version थाङै</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>भार्सन %version खामानि मावनाय सोलाव</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>खस्रा, भार्सन %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>भार्सन %version फोरमायनाय जादों</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>%date नि थाखाय थिना दोनाय</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>ठिकाना गैया</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>लिरथियाखै</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>बे फिल्टारफोरजों जेबो गोरोबाया.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>जोबोदखौ दिन्थि</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>दासिम जेबो बिषयबस्तु गैया.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>फोथा फोथा</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>फोथा फोथायाव %count आइटेम दिन्थि.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says "not recorded".</source>
+        <translation>दैथायनायनि ठिकाना आरो ब्राउजारआ ओडिट इन्डेक्सनिफ्राय फैयो, जाय बेयाव मोननो हाया: कलामआव "लिरथियाखै" लिरनाय थायो.</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>ठिकाना आरो ब्राउजारआ ओडिटआ आइटेमनि थाखाय लिरथिनायसोर (गावआव थिसनायआ बेखौ सबसमनो लिरथियो; फोरमायनाय आरो सोरजिनाया जेराव खेवनाय दङ बेयावल), बेनि गुप्थो सेटिंफोरआ बेखौ दोनथाय बादि.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: %count आइटेम</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>मेटानायाव आइटेमफोरा बेफोरनि जोबोद भार्सन आरो अनुबादफोरजों गासै समनि थाखाय आगाय जायो. बेखौ फिन्हुं खालानो हायाखै.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>आइटेमफोरा जाथाइ गाङआव थांगौ, जेनिफ्राय बेफोरखौ फिन्हुं लाबोनो हायो.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>मोनफ्रोम आइटेमखौ नोंनि गावनि गनायथिनायफोरजों नायसंनाय जायो; गेजेर-आइटेम दङ आइटेमखौ बायदिनै थाङो (बेखौ बिषयबस्तु बाहागोआव आगाय). बेयो नोंसोर नामा बेखौ थारथि खालामनो सोंगोन.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>बेयो उनथिं खामानि मावो: बेनि गोख्रोनाय फोथाआ खेवो, आरो जोबनायाव मोनफ्रोम आइटेमनि फलाफलखौ दिन्थिनाय जायो.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>सायख्रानाय आइटेमफोर</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>आरो गुबुन %count</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>बन्द</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>जेबो मावाखै</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>मानो: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>खामानिया दासिमबो उनथिं मावगासिनो दङ.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>बेनि गोख्रोनाय</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>उनथिंनि खामानिया फेल जादों: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>जोबनाय</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>नेवसिनाय</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>फेल जादों</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>मोनफ्रोम आइटेम</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>आइटेम</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>फलाफल</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>मानो</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>लिस्टआव फिन</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>सेटआप</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>जेबो मावाखै</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>निश्चित खालाम</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>मोनसे खामानि सायख्रा.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>खमसेयाव मोनसे आइटेम सायख्रा.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>मोनसे सोलाव बांसिनसिम 1000 आइटेम सायख्रा.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>आइटेमफोरखौ मानो थिसना दोनबाय बेखौ बुङो.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>सेक्सनखौ सायख्रा.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>अबस्थाखौ सायख्रा.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>फरमखौ फोरानो हायाखै.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>डेसबोर्ड</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>गुदुनि बिषयबस्तु</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>अनजिमाफोरखौ फोरानो हायाखै: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>आनजाद खालामनो थिसना दोनाय</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>दिनै गोदान</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>आनजाद थिसनायखौ दासिम सेट खालामाखै (अपग्रेड खामि 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>जोबोद गुदुनि बिषयबस्तु</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>नोंथाङै मडारेसन खामानिफोर मावनो हायाखै (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>मडारेसन खामानिया जोबाखै: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>मडारेसन: %count बस्तुआव %action</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%total निफ्राय %done बस्तु: %ok जोबनाय, %refused नेवसिनाय, %failed फेल जादों</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok जोबनाय, %refused नेवसिनाय, %failed फेल जादों</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>बेयो दानो थायाखिसै.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>बेनि जायगा गैया (फोरमायाखै).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>नोंथाङै बेखौ गुबुन खालामनो हायाखै (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>नोंथाङै बेखौ गोख्रोंनो हायाखै (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>बेयो सिगाङावनो गुबुन खालानाय.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>बेयो गुबुन खालानाय नङा.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>गुबुन खालानाय.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>गोख्रोंनाय.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>बेयो जाथाइ गाङआव दङ: बेयावनो बेखौ लांदां खालाम एवा फिन्हुं लाबो.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>जेबो फोरमायाखै खस्राया जाथाइ गाङआव थांनो हाया: बेखौ मेटा.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>नोंथाङै बेखौ मेटानो हायाखै (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>मेटानाय.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>नोंथाङै बेखौ आगायनो हायाखै (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>बेनि गेजेर-आइटेमफोर दङ: बेखौ बिषयबस्तु बाहागोआव आगाय, जेराव बेफोरखौ लिस्ट खालामनाय दङ.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>बेखौ आगायाखै (मोनसे कामनि रोखोमआ आगायनायखौ थिसना दोननो हायो).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>जाथाइ गाङआव लाबोनाय.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>सेक्सनआ थायाखै.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>बेयो सिगाङावनो बे सेक्सनआव दङ.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>नोंथाङै बे सेक्सनखौ होलांगोनो हायाखै (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>सेक्सनखौ होलांगोआखै.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>सेक्सन होलांगोनाय.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>अबस्थाआ थायाखै.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>बेयो सिगाङावनो बे अबस्थाआव दङ.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>नोंथाङै बे अबस्थाखौ होलांगोनो हायाखै (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>अबस्थाखौ होलांगोआखै (मोनसे कामनि रोखोमआ सोलायनायखौ थिसना दोननो हायो).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>अबस्था होलांगोनाय.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>बे बादि खामानि गैया.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>आनजाद थिसनायखौ सेट खालामाखै (अपग्रेड खामि 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>बेखौ मानो थिसना दोनबाय बेखौ बुङो.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>बेयो सिगाङावनो थिसना दोनाय.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>नोंथाङै बेखौ थिसना दोननो हायाखै (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>थिसनायखौ दोनाखै (मोनसे कामनि रोखोमआ सोलायनायखौ थिसना दोननो हायो).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>थिसना दोनाय.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>बेयो थिसना दोनाय नङा.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>नोंथाङै बेखौ उदांहोनो हायाखै (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>थिसनायखौ उदांहोआखै (मोनसे कामनि रोखोमआ सोलायनायखौ थिसना दोननो हायो).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>उदांहोनाय; दासिमबो गुबुन: नोंथाङै बेखौ गोख्रोंनो हायाखै (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>उदांहोनाय.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>गासै लक्ष्यफोर</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>जोबथा फोरमायनाय</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>नोंथांनि साइटनि मोनसे मावखान्थि स्टेटिक कपिखौ GitHub Pages आव फोरमाय:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>गोजाम जानाय बिलाइफोर</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>स्टेटिक फोरमायनाय</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>स्टेटिक फोरमायनाया बन्द दं।</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>लक्ष्य</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>लक्ष्यफोरखौ फरायनो हायाखै: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>मोनसे खामानि थाबाय</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>नायसिनो थानाय बिल्ड</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>बेखौ गुबुन खालाम</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>मोनसे लक्ष्य सोरजि</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>मावबो नङा</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>टिउटरियेलखौ फराय</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>%added बिहोनाय, %changed सोलायनाय, %removed बोखारनाय</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%limit नि %bytes (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>आरो %count लिस्टआव गैया।</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>%pages बिलाइ लिरनाय जाबाय</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path आ %size, होस्टआ मोनसे फाइलनि थाखाय गनायनायनिख्रुइ बांसिन।</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>सिमानि %percent %</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds से.</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag आ दानो साइटआव थानाय फोरमायनाय।</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: खामानि %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>/रिपजिटरि/ GitHub नि प्रजेक्ट साइटनि थाखाय; गाहाय डमेन एबा बाहायगिरि साइटनि थाखाय लाँदां।</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. साइटआ</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. होस्टआ</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. रिपजिटरिआव साइन इन</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. रिपजिटरिआ</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. लिंकफोर आरो बेस पाथ</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. नोंथांनि गाहाय डमेन</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. बिल्डआव मा थायो</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. माब्ला फोरमायनाय जायो</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. नायफिन आरो रैखा</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>GitHub नि प्रजेक्ट साइटआ /&lt;repository&gt;/ नि सिङाव थायो; रिलेटिभ लिंकफोरा बेयाव आरो गुबुन जायगायावबो हाबायो।</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>मोनसे बिल्डआ %site नि मोनफ्रोमबो बिलाइखौ साइन इन खालामाखै सुबुं नुनाय बादि लायो, लिंकफोरखौ गोदान महराव लिरो, फाइलफोरखौ कपि खालामो आरो फलाफलखौ लक्ष्यनि फोल्डारआव लिरो। नोंथाङा बिल्डखौ नायसिनो आरो &quot;फोरमाय&quot; नेबखांनो सिम जेबो फोरमायनाय जाया।</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>मोनसे cron एक्सप्रेसन, बिदिन्थियाव 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>डिप्लय कीखौ गुबुन मान %secret बादि रैखानाय जायो।</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>मोनसे डिप्लय कीआ बे इनस्टलेसनखौ SSH जों मोनसे रिपजिटरिआव पुस खालामनो होयो, गुबुन जायगायाव नङा। बेनि प्राइभेट बाहागोआ सेटआप &gt; गुबुन मानफोर आव थायो; पाब्लिक बाहागोल&apos;नो दिन्थिनाय जायो।</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>बे लक्ष्यनि थाखाय सोरजिनाय मोनसे डिप्लय की</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>मोनसे डिप्लय कीआ SSH जों साइन इन खालामो: git ठिकानाखौ SSH ठिकाना (git@github.com:owner/repo.git) आव सोलाय।</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>%user जों जागायनाय मोनसे खामानि थाबाय</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>बे लक्ष्यनि मोनसे खामानि दासिमबो थाबाय (%detail)। बे जोबनो सिम नेथ&apos;।</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>बे लक्ष्यनि मोनसे खामानि दासिमबो थाबाय। बे जोबनो सिम नेथ&apos;।</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>/news/ बिलाइनिफ्राय /about-us/team बिलाइआव थानाय लिंकखौ बे बादि लिरनाय जागोन</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>मोनसे गोदान डिप्लय की सोरजिनाय जाबाय। बेनि पाब्लिक बाहागोखौ दानो रिपजिटरिआव बिहो।</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>सापखांनायनि उनावबो डिबाग आउटपुट, फर्म टोकेन एबा सेसन आइडि थानाय बिलाइखौ मावबो फोरमायनाय जाया।</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>फिन लाबोनाया एक्सपार्टफोरनि थाखाय: &quot;बेयो मा सोलायो बेखौ आं मिथिगौ&quot; खौ टिक खालाम आरो टेगनि मुंखौ फिन लिर।</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>मोनसे साइटआ %site सिम, मोनसे फाइला %file सिम जानो हायो, दानफ्रोमबो जोबोद 100 GB ट्राफिक। मावखान्थि प्लेनआव रिपजिटरिआ पाब्लिक जानांगोन। GitHub Pages आ दुखान एबा गुबुन बेपार लेनदेननि थाखाय नङा।</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>मोनसे लक्ष्य जादों मोनसे git रिपजिटरिआव फोरमायनाय मोनसे साइट। बेयाव जेबो बिल्ड एबा फोरमायनाय जाया: रैखाया सेटिंफोरखौ settings/override/staticcache.ini.append.php आव लिरो।</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>मोनसे लक्ष्य जादों मोनसे जायगायाव फोरमायनाय मोनसे साइट, बिदिन्थियाव GitHub Pages आव नोंथांनि पाब्लिक साइट।</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>सेटआप &gt; गुबुन मानफोर निफ्राय मोनसे टोकेन</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>रिपजिटरिनि मोनसे वर्कफ्लोआ बेखौ फोरमायो।</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>बे पाब्लिक कीखौ लिरनाय मोनथाइजों रिपजिटरिआव बिहो। GitHub: Settings &gt; Deploy keys &gt; Add deploy key, Allow write access खौ टिक खालाम।</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>बिहोनाय</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>गुबुन git होस्ट</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>गुबुन मोनसे प्रसेसआ बे लक्ष्यआव खामानि मावदों: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>खेबसे</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>बेस पाथ</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>सिगां</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>मोनसे बेस पाथनि सिङाव</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>ब्रान्स</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>सिगाबनाय लिंकफोर</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>बिल्डआव सिगाबनाय लिंकफोर</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>बिल्ड</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>%user नि बिल्ड %id</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>%name खौ बिल्ड खालाम</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>दानो बिल्ड खालाम</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>नायसिनो थानाय बिल्ड</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>जायनि</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>आखाइजों, बेयाव</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>बन्द</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>सोलाय</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>सोलायनाय</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>सोलायनायफोर</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>सिगां बेखौ नायसि</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>बे सेटिंफोरखौ नायसि</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>बिल्डआ मा सोलायो बेखौ नायसि, बेखौ नाय, बेनि उनाव बेखौ फोरमाय एबा हुखुमोर।</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>फिन लाबोनो थाखाय फोरमायनायखौ सायख।</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>उनाव रिलिजआव फैगोन।</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>कमिट</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>कमिटफोर</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>बिल्डखौ कमिट खालामो, बेखौ टेग होयो आरो %remote आव पुस खालामो। मोनसे पुसखौ मावबो फोरसे खालामनाय जाया; नोंथाङा उनाव जायखिजाया फोरमायनायआव फिन थांनो हायो।</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>सिगांनि फोल्डारजों रुजुनाय: %added बिहोनाय, %changed सोलायनाय, %removed बोखारनाय, %unchanged सोलायाखै।</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>जोबथा फोरमायनायजों रुजुनाय।</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>क्रेडेन्सियल</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>गाहाय डमेन</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>डिबाग आउटपुट, फर्म टोकेन, सेसन आइडि आरो नन्सफोरखौ सायाव बोखारनाय जायो।</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>डिप्लय की</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>%name नि डिप्लय की</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>हुखुमोर</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>बिल्डखौ हुखुमोर</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>डमेन</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>लाँदां: साइटनि ठिकाना। नङाब्ला रोखोमसे साइटनि मोनसे सिङाव ठिकाना।</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>जोबबाय</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>मोनफ्रोमबो लिंकआ बेस पाथजों जागायो।</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>मोनफ्रोमबो फोरमायनाया static/%id/&lt;n&gt; टेग थानाय मोनसे कमिट। फिन थांनाया सिगांनि फोरमायनायनि फाइलफोरजों मोनसे गोदान कमिट सोरजियो: इतिहासआ थायो, जेबो टेग आगान सोनाया आरो जेबो फोरसे खालामनाय जाया।</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>गोबां फाइलफोर</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>बिलाइफोरखौ बेनिफ्राय ला</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>फाइल</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>फाइलफोर</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>फाइल गोमाबाय</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>बेनि फाइलफोर</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>बुथुमनो हायि फाइलफोर</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>फिङगारप्रिन्ट</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>फोल्डार</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>मोनसे SSH ठिकानानि थाखाय। रैखानायनि उनाव कीआ सोरजिनाय जायो; नोंथाङा बेनि पाब्लिक बाहागोखौ रिपजिटरिआव बिहो।</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>मोनसे https:// ठिकानानि थाखाय। GitHub: रिपजिटरिआव Contents फरायनाय आरो लिरनाय थानाय मोनसे fine-grained टोकेन।</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>एक्सपार्टफोरनि थाखाय। पुसआ जोबनायजों पाब्लिक साइटआ सोलायो।</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>फर्मफोर</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>मोनसे GitHub रिपजिटरिनिफ्राय मावखान्थि होस्टिं।</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>ब्रान्सनिफ्राय</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>git ठिकाना</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages आ %site नि मोनसे साइट आरो %file नि मोनसे फाइल गनायो।</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>GitHub Pages नि सिमाफोर</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages आ फाइलफोरखौ बेफोर थानाय बादि फोरमायो (_ जों जागायनाय फाइलफोरनि थाखाय नांगौ)।</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub आ ब्रान्सखौ पुस खालामनाय बादि होयो। डिफल्ट।</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, नोंथांनि गाहाय सार्भार: जायखिजाया git रिपजिटरि।</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>सिगांनि मोनसे फोरमायनायआव फिन थां</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>मदद</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>विजार्डजों मदद</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>बेफोरखौ गुबुन खालाम</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>इतिहास</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>%name नि इतिहास</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>होस्ट</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>GitHub Pages आ बिल्डखौ माबोरै मोनो</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>आं सोलायनायफोरखौ नायसिबाय</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>बेयो मा सोलायो बेखौ आं मिथिगौ</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>आइडि</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>बेयो बन्द दं: बे चालु जानो सिम जेबो बिल्ड खालामनो हाया।</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>बेयो %user बादि बिखुंआव थायो; नोंथाङा बे बिलाइखौ बन्द खालामनो हायो।</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>खामानि %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>गुबुन मान %secret बादि रैखानाय जायो।</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>रोखोम</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>जोबथा फोरमायनाय</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>बे बिलाइफोरखौ बाद हो</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>बे सेक्सनफोरखौ बाद हो</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>लिंकफोर</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>गोदान महराव लिरनाय लिंकफोर</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>लाइभ साइट</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>बिल्डखौ नाय</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>फिसा हांखोफोर, अनजिमा, _ आरो -, बिदिन्थियाव github-public। बेयो फोल्डार आरो टेगफोर (static/&lt;id&gt;/&lt;n&gt;) नि मुं होयो आरो उनाव सोलायनो हाया।</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>मोनसे गोदान की सोरजि</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>मोनसे लक्ष्य सोरजि</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>कीखौ सोरजि</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>सिगां होस्टआव रिपजिटरिखौ सोरजि; लाँदां रिपजिटरिबो जागोन।</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>मेनिफेस्ट</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>खौरां</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>गोबां बिलाइफोर</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>मुं</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>सेटआप &gt; गुबुन मानफोर आव टोकेननि मुं</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>गोदान लक्ष्य</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>उननि</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>नङा</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>दासिमबो कमिट गैया।</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>जेबो की सोरजिनाय जायाखै: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>जेबो php कमान्ड लाइन बाइनारि मोनाखै। migration.ini [AdminSettings] PhpCliPath खौ बेनि आबुं पाथआव सेट खालाम।</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>दासिमबो टेग गैया।</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>दासिमबो लक्ष्य गैया।</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>गैया</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>बिल्डआव गैया।</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>दासिमबो जेबो फोरमायनाय जायाखै।</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>दासिमबो जेबो फोरमायनाय जायाखै: मोनफ्रोमबो फाइला गोदान।</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>मिथिहो</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>सोमोय तालिका बादि</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>कनसलआव</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>सार्भारआव: ./console exp:static:serve %id बेखौ रोखोमसे महराव होयो।</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>मोनफ्रोमबो सारिआव मोनसे पाथ, * आ जायखिजाया बाहागोजों मिलियो: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>लक्ष्यजों मुं ल&apos;नो रैखानाय जायो; टोकेन एबा की गाव सेटआप &gt; गुबुन मानफोर आव थायो आरो मावबो लगआव दिन्थिफुंआ।</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>बिलाइफोरा मा मुं लायो बेल&apos;</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>टोकेनजों ल&apos;नो। env:NAME आ बेनि सोलाय सार्भारनि मोनसे एन्भाइरनमेन्ट भेरियेबलखौ फरायो।</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>सोलोंथाइखौ खेव</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>होस्टआ होनाय बादि बिल्डखौ लक्ष्यनि फोल्डारनिफ्राय खेवो। लिंकआ नोंथांनि थाखाय मोनसे घन्टा हाबायो।</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>गोनांथार नङा। लाँदां: मा फोरमायनाय जाबाय।</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>गोनांथार नङा। मोनसे डमेनजों साइटआ बेनि रुटआव होनाय जायो।</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>आउटपुट</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>बिलाइफोर</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>लक्ष्यनि बिलाइफोर</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>नेवसिनाय बिलाइफोर</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>उनावनि प्रसेसिं</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>सोलोंथाइ</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>सोलोंथाइ आरो फोरमाय</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>%name नि सोलोंथाइ आरो फोरमाय</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>बिल्डनि सोलोंथाइ</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>जौगानाय</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>पाब्लिक ठिकाना</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>पाब्लिक की</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>फोरमाय</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>मोनसे साइटनि स्टेटिक कपिखौ GitHub Pages एबा जायखिजाया git होस्टआव फोरमाय: बेखौ बिल्ड खालाम, सोलायनायफोरखौ नायसि, फोरमाय, आरो गोनांब्ला सिगांनि फोरमायनायआव फिन थां।</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>फिन थांनो थाखाय फोरमायनाय</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>फोरमायनायफोर</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>पुस</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>टिउटरियेलखौ फराय</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>रेकर्ड</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>नेवसिनाय</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>रिलेटिभ</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>फिन लोड खालाम</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>बोखारनाय</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>कीखौ सोलाय: गोजाम कीआ हाबायाखिसो</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>रिपर्ट</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>बिल्डनि रिपर्ट</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>रिपजिटरि</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>नायफिन</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>नायफिनआ मोनफ्रोमबो सेटिंखौ नायसियो आरो लिरनाय जागोन सारिफोरखौ दिन्थियो। दासिमबो जेबो रैखानाय जायाखै।</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>फिन लाबो</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>फिन लाबोनाय</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>रैखा</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>सोमोय तालिका</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>नागिरनाय बिलाइ</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>सेक्सन आइडिफोर, कमाजों आलादा खालामनाय।</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>बेफोरखौ लाइभ साइटआव दैथाय</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>सेटिं</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>सेटिंफोर</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>%name नि सेटिंफोर</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>सेटआप</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>सेटआप &gt; गुबुन मानफोर</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>लिस्टफोराव दिन्थिनाय जायो, बिदिन्थियाव &quot;GitHub Pages आव पाब्लिक साइट&quot;।</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>GitHub App जों साइन इन खालामनाया GitHub इन्टिग्रेसनजों फैगोन।</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>साइट</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>फोरमायनो थाखाय साइट</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>महर</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>महर आरो सिमाफोर</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>बिल्डनि महर</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>गोजाम जानाय बिलाइफोर</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>जागायबाय</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>%user जों %time आव जागायनाय।</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>स्थिति</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>स्टेटिक फोरमायनाय</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>स्टेटिक फोरमायनाया बन्द दं</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>स्टेटिक फोरमायनाया बन्द दं।</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>स्टेटिक फोरमायनाया बन्द दं। सिगां बेखौ सेटआप &gt; स्टेटिक फोरमायनाय आव चालु खालाम।</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>स्टेटिक फोरमायनाया चालु दं।</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>%total नि थाखो %step</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>थाखोफोर</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>सापखांनाय</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>बन्द खालाम</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>चालु खालाम</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>स्टेटिक फोरमायनायखौ चालु खालाम</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>टेग</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>टेगफोर</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>लक्ष्य</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>लक्ष्यफोरखौ सोरजिनो आरो सोलायनो हायो, नाथाय बे चालु जानो सिम जेबो बिल्ड एबा फोरमायनाय जाया।</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>नागिरनाय इन्जिनफोरखौ मा फरायनांगौ बेखौ बुङो।</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>बिल्डखौ हुखुमोरनो हायाखै: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>बिल्डआ जोबथा फोरमायनायनि बादिनो: फोरमायनो जेबो गैया।</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>बिल्डखौ हुखुमोरनाय जाबाय: फोल्डारआव फिन जोबथा फोरमायनाया थादों।</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>डिफल्टफोरा गोबां साइटनि थाखाय मोजां।</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>फोल्डारआव दासिमबो फोरमायाखै मोनसे बिल्ड थादों; मोनसे गोदान बिल्डआ बेखौ सोलायगोन।</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>खामानिफोरनि फोल्डारआव लिरनो हाया: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>खामानिखौ थियार खालामनो हायाखै: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>खामानिखौ जागायनो हायाखै।</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>खामानिआ जोबबाय। बेनि रिपर्टखौ लोड खालामगासिनो दं।</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>खामानिआव साइन इन खालामनाय मोनसे बाहायगिरि नांगौ।</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>खामानिआ जागायबाय नाथाय बेनि प्रसेस आइडि बुङाखै। %detail खौ नायसि।</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>कीआ</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>साबसिन गेदेर फाइल: %path, %size।</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>लिरनाय जागोन सारिफोर</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>नागिरनाय इन्जिननि थाखाय बिलाइफोरनि लिस्ट; पाब्लिक ठिकाना नांगौ।</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>साइन इन खालामाखै सुबुं नुनाय बादि बिलाइफोरखौ लानाय जायो। एडमिनिस्ट्रेसन आरो एडिट खालामनाय siteaccess फोरखौ मावबो होनाय जाया।</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>जौगानायखौ फालाङो हायाखै। खामानिआ माबोरै थादों बेखौ नायनो थाखाय बिलाइखौ फिन लोड खालाम।</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>कीनि पाब्लिक बाहागो:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>ब्रान्सनि रुट</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>गुबुन मान रैखाग्रा दासिमबो सेट खालामनाय जायाखै (./console exp:upgrade --apply बेनि टेबलखौ सोरजियो), बेनिखायनो जेबो की रैखानो हाया।</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>सार्भारआ गावनो साइन इन खालामो (गावनि SSH की एबा क्रेडेन्सियल हेल्पारजों), एबा रिपजिटरिआ बे सार्भारआव दं।</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>सेटिंखौ लिरनो हायाखै: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>सेटिंफोरा गेबें। बे सारिफोरखौ लिरनाय जागोन:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>सेटिं फाइलखौ फरायनो हाया: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>साइटआ बे फोरमायनायनि फाइलफोराव फिन थांगोन; दासिमबो फोरमायाखै मोनसे बिल्डखौ सिगां फोरमायनांगोन एबा हुखुमोरनांगोन।</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>गैयि ठिकानाफोरनि थाखाय साइटनि गावनि बिलाइ।</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>लक्ष्यखौ रैखानो हायाखै: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>लक्ष्यआ दासिमबो बे कीजों साइन इन खालामा: बेनि सेटिंफोराव &quot;बे लक्ष्यनि थाखाय सोरजिनाय मोनसे डिप्लय की&quot; खौ सायख।</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>लक्ष्यफोरखौ फरायनो हायाखै: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>दासिमबो नायसिनो बिल्ड गैया।</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>बे इनस्टलेसनआव जेबो फ्रन्ट siteaccess गैया। एडमिनिस्ट्रेसन आरो एडिट खालामनाय siteaccess फोरखौ मावबो फोरमायनाय जाया।</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>बे बिलाइआ खामानिखौ बे थांनाय समाव फालाङो; बिलाइखौ बन्द खालामोब्ला बेयो बिखुंआव थाबायगोन।</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>बे लक्ष्यआव दासिमबो डिप्लय की गैया।</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>बे लक्ष्यखौ दासिमबो बेयाव बिल्ड खालामनाय जायाखै।</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>बे लक्ष्यआव मोनसे दं।</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>बे बिल्डखौ हुखुमोरो: फोल्डारआव फिन जोबथा फोरमायनाया थायो। लाइभ साइटआ सोलाया।</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>सिगां &quot;आं सोलायनायफोरखौ नायसिबाय&quot; खौ टिक खालाम।</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>सोमोय</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>ट्रिगारफोर</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>टेगनि मुंखौ फिन लिर</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>सोलायाखै</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>वेबहुक</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>मा</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>मा सोलायो</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>मोनफ्रोमबो फाइला मा; सायाव लिरनाय जायो।</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>खामानिआ मा मावबाय आरो बेनि रेकर्ड। बेयाव जागायनाय मोनसे खामानिआ बे बिलाइखौ बन्द खालामोब्ला बिखुंआव थाबायगोन।</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>खामानिआ भुल बादि मा दिन्थिबाय</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>बिलाइफोरा मा मुं लायो, आरो फोरमायनाय बिबुंथिनि मोनफ्रोमबो मुहुर</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>माब्ला</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>मोनसे फोरमायनाया फेल जायोब्ला</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>मोनसे फोरमायनाया जाफुंब्ला</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>बिबुंथि फोरमायनाय जायोब्ला</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>कपिआव गैयि जिनिसनि लिंकफोरा बबेआव थांगोन (नागिरनाय, लगइन)।</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>स्टेटिक कपिखौ बबेनिफ्राय होनाय जायो।</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>बबे साइटखौ फोरमायनाय जायो, आरो लक्ष्यनि मुंआ मा।</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>जायखिजाया पाथनि सिङाव हाबायो। डिफल्ट।</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>गाहाय डमेन सेट खालामनाय जायोब्लानो लिरनाय जायो।</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>होय</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>नोंथाङा सायाव बेयाव आरो कनसलआव आखाइजों बिल्ड आरो फोरमायनो हायो।</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>मुं ल&apos;नो; मानआ सेटआप &gt; गुबुन मानफोर आव थायो</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>%path नि सिङाव</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>रिपर्ट गैयाबालाबो जोबबाय</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>गोबां</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>फेल जाबाय</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>फाइल</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages, एबा docs फोल्डारजों main।</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>git होस्ट</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (टोकेनजों) एबा git@github.com:owner/repo.git (डिप्लय कीजों); बेयाव मावबो पासवर्ड एबा टोकेन नङा।</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/, साइटमेप आरो केननिकेल लिंकफोरनि थाखाय।</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>मुहुर</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>मावबो नङा</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>नङा</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>रिमट गैया</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>गैया: कमिटफोरा फोल्डारआव थायो</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>गैया: जेबो सोलायाखै</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>पुस खालामाखै</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>जेबो सोलायाखै</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>बिलाइ</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>जाफुंबाय</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>proc_open बन्द दं, बेनिखायनो बेयाव खामानि जागायनो हाया। सार्भारआव ./console exp:static:build बाहाय।</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>फोरमायनाय</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>फोरमायबाय</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>पुस नेथ&apos;दों</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>पुस खालामबाय</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>नेवसिबाय</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>रिलेटिभ</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>फिन लाबोनाय</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>फिन लाबोबाय</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>थाबाय</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>फोल्डार ल&apos;नो</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: CNAME फाइलआव लिरनाय जायो। डमेननि DNS खौ होस्टआ बुङा बादि होस्टआव दिन्थि; HTTPS जागायनो माखासे सोमोय लानो हायो।</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>होय, दासिमबो फोरमायाखै</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>मोनसे GitHub App</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>रिपजिटरिनि मोनसे वर्कफ्लोआ बेखौ फोरमायो। बिल्डआ वर्कफ्लो फाइलखौ लिरो; फल्डारखौ लाँदां नागार।</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>मोनसे GitHub रिपजिटरि आरो मोनसे टोकेन एबा GitHub App जों लक्ष्यखौ रैखा खालामनायनि उनाव, बे थाखोआ रिपजिटरिखौ सोरजिनो आरो GitHub Pages खौ चालु खालामनो हायो। नङाब्ला सिगां GitHub आव रिपजिटरिखौ सोरजि; लाँदां रिपजिटरिबो जागोन।</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>ब्रान्स नामा GitHub Actions?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>DNS खौ नायसि</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>रिपजिटरिआ गैयाब्ला सोरजि</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>GitHub आव रिपजिटरिखौ सोरजि आरो बेनि सेटिंफोराव GitHub Pages खौ चालु खालाम (Settings &gt; Pages)।</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>रिपजिटरि %repo आ गैयाब्ला (सोंनायाव) सोरजियो, रैखा खालामनाय बादि ब्रान्सनिफ्राय एबा GitHub Actions निफ्राय GitHub Pages खौ चालु खालामो, आरो गाहाय डमेन आरो HTTPS सेट खालामो। बेयो रैखा खालामनाय सेटिंफोरखौ बाहायो: सिगां सोलायनायफोरखौ रैखा खालाम।</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>GitHub आव गुवारै</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>सिगां गाहाय डमेनखौ हाबहो।</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>गासै push खौ सिगां बे सिमाफोरजों नायसिनाय जायो।</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>GitHub आव मोनसे https:// ठिकानानि थाखाय। बे इनस्टलेसननि थाखाय सेट खालामनाय App आ साइन इन खालामो; बेनि इनस्टलेसन id नांगौ।</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages आ प्राइभेट रिपजिटरिखौ बेसेन होनाय प्लेनआव ला होयो।</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: मोनसे सबडमेन (www.example.com) नि थाखाय &lt;owner&gt;.github.io आव मोनसे CNAME रेकर्ड नांगौ; मोनसे apex डमेन (example.com) नि थाखाय A रेकर्डफोर %ips।</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>GitHub App नि इनस्टलेसन id</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>जोबथा Pages बिल्ड</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>सिमा आरो नियमफोर</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>मावखान्थि प्लेनआव GitHub Pages नि थाखाय नांगौ।</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>GitHub आव</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>GitHub App जों ला: GitHub आव App नि इनस्टलेसन ठिकानानि जोबनायाव थानाय नम्बरा। App गावनो staticcache.ini आव सेट खालामनाय जायो (GitHubAppId, GitHubAppKey)।</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>प्राइभेट</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>पाब्लिक</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>सिगां मोनसे GitHub रिपजिटरि आरो मोनसे टोकेन एबा GitHub App जों लक्ष्यखौ रैखा खालाम।</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>बे रेकर्डफोरखौ डमेननि प्रभाइडारआव सेट खालाम:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>GitHub आव सेटआप खालाम</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>%domain नि DNS आ दासिमबो GitHub Pages आव दिन्थियाखै।</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>%domain नि DNS आ GitHub Pages आव दिन्थियो।</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>GitHub इन्टिग्रेसनआ बेयाव मोनाखै: %problem। ब्रान्सआव फोरमायनाया अब्लाबो मावो; रिपजिटरिनि सेटिंफोराव GitHub Pages खौ चालु खालाम।</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>बे लक्ष्यनि थाखाय GitHub थाखोफोर मोनाखै: %problem।</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>क्रेडेन्सियल महरै मोनसे टोकेन एबा GitHub App थाब्ला GitHub Pages नि थासारिखौ दिन्थिनाय जायो।</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>नोंथांनि गाहाय डमेन बाहाय</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>जायखौ सायख: टोकेन, डिप्लय की एबा GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>मोनसे GitHub रिपजिटरि आरो मोनसे टोकेन एबा GitHub App जों, उइजार्डआ नोंथांनि थाखाय रिपजिटरिखौ सोरजिनो, GitHub Pages खौ चालु खालामनो आरो डमेनखौ सेट खालामनो हायो (थाखो 4)।</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>बिल्ड जाबोदों</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>बिल्ड जाबाय</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>GitHub Actions निफ्राय</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>ब्रान्स %branch निफ्राय</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>दासिमबो गैया</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>मोनाखै</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>बन्द</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>प्राइभेट</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>पाब्लिक</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>सारियाव</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>मिथिजाया</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%count %pages बिलाइआव:</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>सोलोंथाय फाइल सोबनां खेबसे .gz (आरो .br) फाइल, बेफोरखौ हाबाय होस्टनि थाखाय।</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>बिलाइनि सोबथा गोदान ठिकाना आरो मुलुगा मुंखौनि थाखाय गोजोन बिलाइ, गोदान लिंकफोरा खामानिजों गोजौ।</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>GitHub Actions-आ साइटखौ हाबायनि सिगाङा गासैखौ फोसावो।</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>CC-BY-4.0 बादि SPDX आइडि, एबा सोलोंथाय बेयो।</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>टोकरी</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>सार्भारआव फोन</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>गोहो मोनथाय</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>खौसे बाहायजों गोसोखौ सेबगोन्था फर्मफोर</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>GitHub Actions workflow</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>बिलाइफोरआव आखुं बाहागो आरो गोहो मोनथाय नङा।</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>बेसेबनि लाइसेन्स</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>लग-इन</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>सायाव</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>गुबुन फर्मफोर</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>सिगां नांखानाय</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>फोरसावनाय बिलाइफोर</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>फोरसावनाय बिलाइफोर: %count।</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>नागिरना</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>नागिरनाय इन्डेक्स: %languages-आव %pages बिलाइ।</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>बेसेबनि हास जोबोद मुंखौ थानाय स्टाइल सिट आरो स्क्रिप्टफोर, ब्राउजारफोरा बेफोरखौ रैखाथिनो हागोन।</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>सुजुनाय बिलाइफोर, आखुं सुजुनायनि बाहागो मिनिट उनाव (cronjob खान्थि staticpublish)।</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>बेसेबनि लाइसेन्स, गिजिङाव खेत्रआ।</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>साइट गासैखौ, समयनि सोदोब सिगां (cronjob खान्थि staticpublish)।</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>बिलाइनि बे खान्थिफोरनि थाखाय सार्भार नांगौ; गोसोखौ गोसोखौ सावरायनाय मोनबाय। फोरमायनायनि सिगां नेवसे।</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>जेबो स्थिरआ खामानि नङा</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>रिपोजिटरिआ मा, बेखौ होस्टआव खोलोगौबोनि थाखाय।</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>सायाखांनाय</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>सावरायनाय सोलोंथाय</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>लाइभ साइटनि फर्म एन्डपोइन्ट</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>लाइभ साइट</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>कपिनि नागिरनाय बिलाइ</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>फर्मखौ दैथाय हायाखै।</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>आबुं: फर्मखौ दैथायहोनाय।</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>फर्मखौ सानाय हायाखै: नाङै नायखौ नायखौ आरो दैथाय।</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>कपियाव गैया बिलाइफोरनि लिंकफोरखौ होखार</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>बेबहारनायाव थांनाय लिंकफोरखौ होखार</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>बेफोरनि लिरनायआ थायो। सावगारि, फर्म आरो गुबुन साइटनि लिंकफोरखौ माबेसेबां होखारा।</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>भार्सन</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>फोसावनो साइट-प्रबेशफोर</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>साइट-प्रबेश</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>रुटआव</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>रुटआव जेबो साइट-प्रबेश गैया: मोनफ्रोमबो बेसोरनि फल्डाराव, आरो रुटा बेफोरखौ लिंक होयो</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>साइट-प्रबेशफोर</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>मोनसे साइट-प्रबेश, एबा URI उपसर्गजों मोनसे होस्ट रानना लानाय गोबां सायख। रुटआव थानायखौ बेयाव होनाय जायो, गुबुनफोरखौ बेसोरनि उपसर्गनि फल्डाराव (/ger/); बेसोरनि गेजेरनि लिंकफोरा कपियाव थायो। प्रशासननि साइट-प्रबेश जेब्लाबो दिन्थिनाय जाया।</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>%site आव %target नि स्टेटिक फोसावनाय फेलें जादों</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>%site आव %target नि स्टेटिक फोसावनाय जाफुंसारनाय मोनदों</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>स्टेटिक फोसावनाय थांखि %target आ बिनो बिनायनो %site आ बे मेलखौ दैथाय होदों।</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>%site आव डिप्लय %deploy आ फेल जाबाय</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>%site आव डिप्लय %deploy आ मोनसे गेट आव नेथोनानै दङ</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>%site आव डिप्लय %deploy आ जाफुंबाय</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>बे मेलखौ %site आ दैथायनाय, मानोना migration.ini [RemoteSettings] Notify[] आ बेखौ बिनायो।</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>डेटा रोखोमफोर (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>%time आव हिसाब खालामनाय, %minutes मिनिट उनाव फिन</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>मोनसे डेटा रोखोमआ क्लास गुनफोरनि मोनसे रोखोमनि बेसेनखौ थिना दोनो आरो सुदेरो: टेक्स्टनि मोनसे सारि, मोनसे सावगारि, मोनसे सोमोन्दो। कर्नेलआ बेफोरनि गोबांसिनखौ लाबोयो, एक्सटेनसनफोरा गोबां बाहायो। बेयाव बेफोर गासैबो दं, बेफोरखौ सोर होयो आरो आयदानि बेसेबां बेफोरखौ बाहायो। डाटाबेसआ बाहायो नाथाय जेबो रेजिस्टार खालामा, अब्ला बे डेटा रोखोमआ गोनां आयदाखौ सिफायो।</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>क्लास हुदाफोर</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>जोबनाय मिनिटफोरनि हिसाबखौ बाहायनाय नङाब्ला दानोसो फिन हिसाब खालाम।</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>फिन हिसाब खालाम</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>जोबोद नायनाय</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>रजिस्टार जादों</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>बेहेनाय दंमोन</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>बेबहार खालामयाखै</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>डेटा रोखोम होग्रा एक्सटेनसनफोर</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>क्लास गुनफोर</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>बस्तुनि गुनफोर</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>रेजिस्टार खालामनाय नङा</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>फारिआव दं, फाइल गैया</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>%count डेटा रोखोम बाहायनाय जादों नाथाय रेजिस्टार खालामनाय नङा</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>%class_attributes क्लास गुनफोर आरो %object_attributes बस्तु गुनफोरनि मोनसे डेटा रोखोम दं जायखौ जेबो एक्सटेनसन एबा सेटिंआ रेजिस्टार खालामा। बेफोरनि बस्तुखौ दिन्थिनो, सुदेरनो एबा फोसावनो हाया। डेटा रोखोमखौ होग्रा एक्सटेनसनखौ सावरि, एबा क्लासखौ सोलाय।</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>बेफोरखौल' दिन्थि</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>मोनसे डेटा रोखोम नागिर</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>सिनायथि, मुं, PHP क्लास एबा एक्सटेनसन।</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>नायनो हो</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>जोबोद</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>होग्रा</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>जोबोदजों</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>कर्नेल</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>बे फिल्टारजों जेबो डेटा रोखोम गोरोबा।</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>जोबोद नायनो हो</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>एक्सटेनसन</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%count डेटा रोखोमनि %shown, %used बाहायनायाव</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>डाटाबेसआव बे डेटा रोखोमफोरनि क्लास एबा बस्तु गुनफोर दं, नाथाय content.ini आव बेफोरनि जेबो गैया, एबा बेनि फाइल गैया।</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>%provider नि डेटा रोखोमफोर</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>डेटा रोखोम</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>PHP क्लास आरो फाइल</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>क्लासफोर</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>बस्तु</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>फ्लेग</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>मुं</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>नागिरनायजों जेबो डेटा रोखोम गोरोबा। नागिरनायखौ सिमा।</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>%count डेटा रोखोमनि %shown दिन्थिनाय जादों</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>दिन्थिनाय डेटा रोखोम: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>%column जों क्रम खालाम</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>%time आव हिसाब खालामनाय</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>गासै डेटा रोखोमफोर</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>मदद बिलाइ</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>बे डेटा रोखोमआ बाहायनाय जादों नाथाय रेजिस्टार खालामनाय नङा</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>जेबो एक्सटेनसनआ डेटा रोखोमखौ रेजिस्टार खालामा सिम, गाहायनि क्लासफोरनि बस्तुखौ दिन्थिनो, सुदेरनो एबा फोसावनो हाया। बेखौ होग्रा एक्सटेनसनखौ सावरि आरो बेखौ content.ini [DataTypeSettings] AvailableDataTypes[] आव दाजाब, एबा क्लासफोरखौ सोलाय।</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini आव बे डेटा रोखोमआ दं, नाथाय जेबो डेटा रोखोम डाइरेक्टरिआव बेनि फाइल गैया। जेबो बेखौ बाहाया; बेखौ AvailableDataTypes[] निफ्राय बोखार एबा बेनि एक्सटेनसनखौ सावरि।</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>बे डेटा रोखोमनि सोमोन्दै</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>चिन्हा</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>मुं</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>एक्सटेनसन %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>जेबो गैया</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>PHP क्लास</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>फाइल</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>AvailableDataTypes[] आव</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>होय</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>नङा</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>बेनि बेसेननि खाम्फाफोर</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>बेनि क्लास गुनफोर सेटिंनि खाम्फाफोर</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>तालिकाफोर</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>खाम्फा आरो टेबुलफोरखौ डेटा रोखोमनि कड फरायनानै मोनदों: मोनसे लामा दिन्थिग्रा, राव होनाय नङा।</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>टेम्पलेटफोर</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>साइट-प्रबेश</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>टेम्पलेट</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>बेआव लाबोनाय</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>बे सासनथि</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>डिफल्ट साइट</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>ओभाराइड गैयाब्ला: क्लास एबा गुनफोरजों गोरोबनाय ओभाराइड टेम्पलेटआ बेफोरनिख्राय गिबि जायो।</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>बेखौ बाहायग्रा क्लासफोर (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>जेबो क्लासआव बे डेटा रोखोमनि गुनफोर गैया।</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>क्लास</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>गुनफोर</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>क्लास गुनफोर (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>गुन</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>सेटिं</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>गोनांनो</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>नायनो हायो</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>अनुबाद खालामनो हायो</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>खौसिनाय मोन</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>बेखौ बाहायग्रा खायसे आयदा</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>जोबथा सोलायनायखौ गिबियाव</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>सोलोंथायनाय</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>नोड %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>मोनफ्रोम राव सोलायनायनि गावनि बेसेन दं।</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>नागिरनायआ बेनि बेसेनफोरखौ इन्डेक्स खालामो।</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>बेयो नुथाङारिफोरनिफ्राय खौरां बुथुम हायो (फर्म)।</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>बेजों फारिफोरखौ थाखो खालामनो हायो: थाखो सावि %type।</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>क्रम खालामनो हायो</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>बेनि बेसेनफोरा गुबुन बस्तुफोरखौ दिन्थियो।</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>सोमोन्धो</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>बेखौ सरासरि टेक्स्टनिफ्राय आबुं खालामनो हायो (इम्पर्ट, REST)।</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>टेक्स्टनिफ्राय</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>बेखौ मोनसे फाइलनिफ्राय आबुं खालामनो हायो।</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>फाइलनिफ्राय</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>बेनि क्लास गुनफोर सेटिंफोरा पेकेजफोराव थाङो।</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>प्याकेजफोर</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>बिषयबस्तु (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%count निफ्राय %from निफ्राय %to फिन</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>लिस्टखौ फिल्टार खालाम</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>जोबोद क्लास</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>सेक्सन</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>रावफोर</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>मालिक</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>फोरमायनाय जादों</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>क्रमखौ सोलाय</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>आइटेम गैया</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>फोथा फोथा</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>फोथा फोथाआव %count आइटेम नुजाफिन.</translation>
     </message>
 </context>
 </TS>

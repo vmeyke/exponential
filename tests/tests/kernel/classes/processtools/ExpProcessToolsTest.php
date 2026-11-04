@@ -7,13 +7,14 @@
  *  PT-03 the PHP command line found is the running major.minor when there is one
  *  PT-04 error() is empty when both are found
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package tests
  * @group processtools
  */
 use PHPUnit\Framework\TestCase;
 
+#[\PHPUnit\Framework\Attributes\Group('processtools')]
 class ExpProcessToolsTest extends TestCase
 {
     private static function root()
@@ -23,7 +24,7 @@ class ExpProcessToolsTest extends TestCase
 
     private static function child( $basedir )
     {
-        $cmd = array( PHP_BINARY, '-n' );
+        $cmd = expTestBarePhpCommand();
         if ( $basedir !== '' )
             array_push( $cmd, '-d', 'open_basedir=' . $basedir );
         $code = 'require ' . var_export( self::root() . '/kernel/classes/expprocesstools.php', true ) . ';'

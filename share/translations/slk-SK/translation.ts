@@ -982,6 +982,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>Vyhľadáva sa iba na tejto stránke: %from až %to z %count.</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Každý typ údajov jadra systému a rozšírení a ako ho používajú triedy a obsah.</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Typy údajov</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2314,6 +2322,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>Do záložiek môžete pridať aj systémové stránky: otvorte stránku (Nastavenie, záznam auditu, zoznam používateľov …) a nad ňou vyberte „Pridať stránku do záložiek“. Takéto záložky majú ikonu ozubeného kolieska.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>Túto stránku tu už nemôžete otvoriť. Odstráňte záložku alebo požiadajte správcu o prístup.</translation>
     </message>
 </context>
 <context>
@@ -5163,6 +5175,210 @@
         <source>Go to the first page</source>
         <translation>Prejsť na prvú stránku</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>Iné</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>Posledných 7 dní</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>Vlastné obdobie</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>Všetky slová</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>Ktorékoľvek slovo</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>Presná fráza</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>Relevancia</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>Názov A–Z</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>Názov Z–A</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>Zmenené, najnovšie prvé</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>Zmenené, najstaršie prvé</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>Publikované, najnovšie prvé</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>Publikované, najstaršie prvé</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Zmenené</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>Filtre</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>Zobraziť filtre</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>Skryť filtre</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Vynulovať</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>Použiť</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>Slová</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>Typ obsahu</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>Zobraziť viac (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>Vyberte jeden typ obsahu, ak chcete hľadať v niektorom z jeho atribútov.</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Sekcia</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Z</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Do</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>Dátum od nie je platný dátum.</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>Dátum do nie je platný dátum.</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Vlastník</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>ID používateľa, prihlasovacie meno alebo e-mailová adresa.</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>Pre „%input“ sa nenašiel žiadny používateľ.</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Jazyk</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>Ľubovoľný jazyk</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Umiestnenie</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>Umiestnenia: %count</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>Výsledkov na stránku</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>Výsledky pre „%text“ (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>Výsledky (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>Zoradiť podľa</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>Zoradenie</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>Aktívne filtre</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>Odstrániť tento filter</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>Alebo vyberte filtre a použite ich na zobrazenie obsahu, ktorý im zodpovedá.</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>Filtre zúžia vyhľadávanie, keď zadáte slová.</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>Pre „%text“ sa nenašli žiadne výsledky.</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>Nenašli sa žiadne výsledky.</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>Odstráňte niektorý filter vyššie.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Preklady</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Akcie</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>Upraviť %name</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Upraviť</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -8001,8 +8217,8 @@
         <translation>Upozornenia na autorské práva pôvodných autorov a softvéru tretích strán dodaného so systémom Exponential sú zachované v zdrojových súboroch a v súbore LICENSE, ako to vyžaduje licencia.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>Nasleduje zoznam prispievateľov do systému Exponential, ktorí licencovali svoju prácu na použitie spoločnosťou 7x podľa podmienok zmluvy eZ Systems Contributor Licensing Agreement. Ako to táto zmluva umožňuje, spoločnosť 7x ďalej šíri každý príspevok pod rovnakou licenciou ako súbor, v ktorom je príspevok zahrnutý. Zoznam uvádza každého prispievateľa, voliteľné kontaktné údaje a súbory, do ktorých prispel alebo na ktorých sa podieľal.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>Prispievatelia uvedení za svoju prácu na Exponential a na softvéri, z ktorého vzišiel, so súbormi, ku ktorým prispeli. Ide o poďakovanie, nie o oznámenie autorských práv: príspevky do Exponential sa podľa Contributor Licensing Agreement prevádzajú na Exponential Foundation a 7x.</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13824,32 +14040,20 @@ Poznámka: Balíky sa neodinštalujú.</translation>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;Vyskúšajte Exponential Enterprise Edition&lt;/a&gt; – &lt;a href=&quot;%share_link&quot;&gt;Staňte sa členom komunity Exponential, vymieňajte si skúsenosti a prispievajte&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; a ďalší.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>Využíva &lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt;. Ďalšie informácie nájdete na stránke &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; a ďalší.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> Ďalšie informácie nájdete na stránke &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
     </message>
     <message>
-        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; a ďalší.</translation>
+        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;Vyskúšajte Exponential (od 7x)&lt;/a&gt; – &lt;a href=&quot;%share_link&quot;&gt;Staňte sa členom komunity Exponential, získajte podporu a prispievajte&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; a ďalší.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13858,6 +14062,61 @@ Poznámka: Balíky sa neodinštalujú.</translation>
     <message>
         <source>Help center</source>
         <translation>Centrum pomoci</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>Obsah</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>Strany dokumentov</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>Používatelia</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>Triedy obsahu</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>Správa</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>Strana %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>Zobraziť všetky výsledky</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>Výsledky: %count</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>Jeden výsledok</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>Návrhy: %count</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>Žiadne návrhy</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>Návrhy sa nepodarilo načítať.</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>Návrhy</translation>
     </message>
 </context>
 <context>
@@ -14326,6 +14585,14 @@ Poznámka: Balíky sa neodinštalujú.</translation>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>Táto inštalácia je verejná ukážka: heslo správcu môže poznať ktokoľvek a heslá správcov nemožno zmeniť ani obnoviť. Nezadávajte sem nič súkromné.</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Vaše zariadenia</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Aktivita zabezpečenia</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14615,6 +14882,14 @@ Poznámka: Balíky sa neodinštalujú.</translation>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>Príručky, vyhľadávanie a ako nahlásiť chybu.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Nový obsah</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Najnovší obsah, čo je zadržané na kontrolu, a akcie s výberom.</translation>
     </message>
 </context>
 <context>
@@ -15073,6 +15348,46 @@ Poznámka: Balíky sa neodinštalujú.</translation>
         <source>Synchronisations</source>
         <translation>Synchronizácie</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>GraphQL API: koncový bod, schéma a ihrisko na skúšanie dopytov.</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migrácie</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Zmeny inštalácie uložené ako súbory: ich stav, behy, spustenie a vrátenie.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Nový obsah</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Najnovší obsah, čo je zadržané na kontrolu, a akcie s výberom.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Publikujte statickú kópiu stránky na GitHub Pages alebo na ľubovoľný git hosting.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Statické publikovanie</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Typy údajov</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Každý typ údajov jadra systému a rozšírení a ako ho používajú triedy a obsah.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15237,6 +15552,22 @@ Poznámka: Balíky sa neodinštalujú.</translation>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>Kontá, ktoré nikto nepoužíva alebo ktoré treba skontrolovať; môžete ich zakázať, odomknúť alebo exportovať.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Auditný záznam používateľov</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>Kto zmenil, prihlásil sa alebo bol odmietnutý, podľa konta; filtrovanie a export.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Prehľad prihlásení</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>Kto je prihlásený, prihlásenia a neúspechy za deň; odhlásenie používateľa všade.</translation>
     </message>
 </context>
 <context>
@@ -22053,6 +22384,22 @@ Poznámka: Balíky sa neodinštalujú.</translation>
         <source>%n hours ago</source>
         <translation>pred %n h</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>Odpovede uložených dopytov GraphQL API a triedy obsahu jeho schémy.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>Publikujte statickú kópiu na GitHub Pages alebo na ľubovoľný git hosting</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Statické publikovanie</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>Statická vyrovnávacia pamäť poskytuje stránky z tohto servera. Ak chcete publikovať statickú kópiu stránky inde, na GitHub Pages alebo na ľubovoľnom git hostingu, použite statické publikovanie.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25594,6 +25941,10 @@ Poznámka: Balíky sa neodinštalujú.</translation>
     <message>
         <source>last purge</source>
         <translation>posledné vyprázdnenie</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>Zápisy nemohli získať zámok stavu (naposledy %date): každý z nich zneplatnil všetky výsledky vo vyrovnávacej pamäti. %file musí byť zapisovateľný pre každého používateľa, pod ktorým lokalita beží; na NFS vyžaduje NFSv4 alebo lockd.</translation>
     </message>
 </context>
 <context>
@@ -33542,6 +33893,14 @@ Poznámka: Balíky sa neodinštalujú.</translation>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>Vypršané relácie obslužného programu PHP odstraňuje samotné PHP (session.gc_maxlifetime), nie táto stránka ani časť úlohy cron session_gc.</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>Prihlásené relácie všetkých používateľov zobrazuje a odhlasuje prehľad prihlásení, ktorý funguje s každým obslužným programom relácií.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>Otvoriť prehľad prihlásení</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37866,6 +38225,26 @@ svoje konto.</translation>
     <message>
         <source>None yet</source>
         <translation>Zatiaľ žiadne</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Aktivita zabezpečenia</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>Vaše nedávne prihlásenia, neúspešné pokusy a zmeny hesla, e-mailovej adresy a dvojstupňového prihlásenia.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>Nedávne prihlásenia, neúspešné pokusy a zmeny zabezpečenia tohto konta.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>Skontrolovať aktivitu</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>Neúspešné prihlásenia: %count</translation>
     </message>
 </context>
 <context>
@@ -44032,6 +44411,42 @@ Ak chcete schvaľovateľovi poslať komentáre alebo zobraziť stav, použite ad
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>Po prihlásení musí používateľ pred čímkoľvek iným zvoliť nové heslo. Použite to, keď niekomu dávate dočasné heslo.</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>Vybrať existujúci obrázok</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>Súbor obrázka objektu, ktorý vyberiete, sa skopíruje do tohto poľa. Druhý objekt sa nezmení.</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>Obrázok objektu „%name“ bol skopírovaný do tohto poľa.</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>Prehľadávať obrázky</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>Hľadať obrázky podľa názvu</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Hľadať</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>Použiť obrázok objektu „%name“</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>Použiť tento obrázok</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>Vášmu hľadaniu nezodpovedá žiadny obrázok.</translation>
     </message>
 </context>
 <context>
@@ -50956,6 +51371,10 @@ See the requirements page for more information.</source>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>Crontab sa nezapísal (%reason). Pridajte tieto riadky do crontab používateľa, pod ktorým lokalita beží, inak sa front, importy, oznámenia a index vyhľadávania nikdy nespustia:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>Preinštalovanie sa vykonáva pomocou inštalačného programu kickstarter (%file, potom php bin/php/kickstarter.php run --apply) alebo novou inštaláciou.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54835,6 +55254,10 @@ svoje konto.</translation>
         <source>eZJSCore Public Packer cache</source>
         <translation>Vyrovnávacia pamäť verejného balenia eZJSCore</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>Vyrovnávacia pamäť GraphQL (odpovede a triedy schémy)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54921,6 +55344,14 @@ svoje konto.</translation>
     <message>
         <source>Copy of %class_name</source>
         <translation>Kópia triedy %class_name</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Typy údajov</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>Typ údajov %string</translation>
     </message>
 </context>
 <context>
@@ -55747,6 +56178,26 @@ svoje konto.</translation>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>Obrázok SVG sa nepodarilo prečítať alebo z neho nemožno nič bezpečne zobraziť.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>Obrázok sa nepodarilo skopírovať. Skúste to znova alebo sa obráťte na správcu lokality.</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>Vybraný objekt neexistuje alebo nemáte oprávnenie ho čítať.</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>Vybraný objekt nemá obrázok.</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>Súbor obrázka vybraného objektu sa nepodarilo prečítať.</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>Obrázok vybraného objektu je väčší, ako toto pole povoľuje: %1 bajtov.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56277,6 +56728,42 @@ svoje konto.</translation>
         <source>The bookmark was renamed to "%name".</source>
         <translation>Záložka bola premenovaná na „%name“.</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>Táto stránka je v tomto prístupe k lokalite (%siteaccess) vypnutá. Otvorte záložku v prístupe k lokalite, ktorý ju má.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>Modul tejto stránky tu nie je nainštalovaný alebo povolený.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>Táto stránka už neexistuje: jej modul nemá takéto zobrazenie.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>Žiadna z vašich rolí vám neumožňuje otvoriť túto stránku.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>Tento prístup k lokalite nemôžete používať.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>Obsah, ktorý táto stránka zobrazuje, nemôžete čítať.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>Tento druh stránky nemožno pridať medzi záložky: iba spracúva formulár alebo platí len na jeden okamih.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>Adresa tejto stránky chýba.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>Túto stránku teraz nemožno otvoriť.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56748,6 +57235,10 @@ Triedu uzla budete musieť zmeniť pomocou funkcie výmeny.</translation>
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>Prenos pošty pri poslednom behu odmietol správy: %count. Skontrolujte poštový server a site.ini MailSettings.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Čakajúce udalosti: %count, a nie je zaznamenaný žiadny beh úlohy cron pre oznámenia. Pridajte časť úloh cron &quot;frequent&quot; do súboru crontab alebo spustite exp:notification:run --apply.</translation>
     </message>
 </context>
 <context>
@@ -63004,6 +63495,10 @@ Triedu uzla budete musieť zmeniť pomocou funkcie výmeny.</translation>
         <source>Choose another site or section with the node picker</source>
         <translation>Vybrať inú lokalitu alebo sekciu pomocou výberu uzlov</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>Vlastníka môže zmeniť iba správca systému: spustite ./console exp:content-check --fix-permissions --apply ako root.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64537,6 +65032,10 @@ Triedu uzla budete musieť zmeniť pomocou funkcie výmeny.</translation>
     <message>
         <source>empty</source>
         <translation>prázdne</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>Podpisový kľúč je starší ako jeden rok: vymeňte ho pomocou exp:audit key rotate --apply.</translation>
     </message>
 </context>
 <context>
@@ -68367,6 +68866,486 @@ Triedu uzla budete musieť zmeniť pomocou funkcie výmeny.</translation>
         <source>Share of page time</source>
         <translation>Podiel na čase stránky</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>bolo vyžiadané úplné vykreslenie</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>vyrovnávacia pamäť stránok stránku nemala (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>vyrovnávacia pamäť stránok neodpovedala</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>Vykreslené</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>Vykreslené jadrom systému: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>Obslúžené z vyrovnávacej pamäte stránok za %ms ms. Stránka bola uložená o %stored vykreslením trvajúcim %render ms, pred %age s.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>Vykresliť teraz</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>Vrátiť sa na zobrazenie z vyrovnávacej pamäte</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>Z vykreslenia o %stored (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>Táto požiadavka: obslúžené z vyrovnávacej pamäte stránok za %ms ms.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Používateľ</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>ID používateľa</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>Profil vyrovnávacej pamäte</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>Toto zobrazenie</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>Vyrovnávacia pamäť zobrazení</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>pre každého používateľa (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>Profil vyrovnávacej pamäte používateľa: používatelia s rovnakým profilom zdieľajú súbory vyrovnávacej pamäte zobrazení</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>áno</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>nie</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Prihlasovacie meno</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>Prihlásený</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>Relácia</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>Časti kľúča vyrovnávacej pamäte zobrazení obsahu, ktoré závisia od používateľa, presne tak, ako ich kľúč preberá, podľa ViewCacheTweaks tejto stránky. Používatelia s rovnakým profilom zdieľajú súbory vyrovnávacej pamäte zobrazení, pokiaľ sa nelíšia časti samotného zobrazenia (predvoľby, kľúče poslucháčov): tie majú vlastný profil, len pre túto stránku.</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>Profil</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>Toto zobrazenie (uzol %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: každý prihlásený používateľ má vlastné súbory vyrovnávacej pamäte.</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>Platné ViewCacheTweaks: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>Časť</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>Hodnota</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>Žiadna časť nezávisí od používateľa (ViewCacheTweaks).</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>toto zobrazenie</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>Kopírovať ako text</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>Roly</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>Priradenia rolí sa nepodarilo načítať.</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>ID roly</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Rola</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>Obmedzenie</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>Priradené</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>používateľovi</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>skupina %name (objekt %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>Skopírované</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>Kopírovanie zlyhalo.</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>vynechané poslucháčom</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>Anonymní návštevníci</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>rovnaký ako váš</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>odlišný</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>Profil, ktorý dostanú anonymní návštevníci pri rovnakých ViewCacheTweaks, s predvolenými predvoľbami, bez častí zobrazenia: poslucháča, ktorý číta reláciu, sa na ne nemožno opýtať.</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>Predvoľby</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>Žiadny režim zobrazenia nezávisí od predvolieb používateľa (site.ini [ContentSettings] CachedViewPreferences).</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>Predvoľby, od ktorých závisia zobrazenia týchto režimov zobrazenia (CachedViewPreferences), s hodnotou používateľa alebo predvolenou. V profile sú ako userpreferences, spolu pre všetky režimy zobrazenia.</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>Režim zobrazenia</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>Predvoľba</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>Predvolené</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>Politiky</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>Zobraziť politiky rolí (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>Politiky sa načítajú zo servera pri otvorení tejto sekcie, po stránkach, a možno ich filtrovať podľa modulu a funkcie.</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>Funkcia</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>Všetky moduly</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>Všetky funkcie</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>Obmedzenia</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>Zobraziť viac</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>Tieto roly nemajú žiadne politiky.</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>Filtru nezodpovedá žiadna politika.</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%shown z %matching politík (spolu %total)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>Načíta sa po otvorení.</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>module/function, rola, obmedzenie</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>Hľadať v politikách</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>Načítať viac</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>Modul/funkcia</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>Všetky roly (%count politík)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>Žiadna politika nezodpovedá.</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%shown z %matched politík</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>Žiadna odpoveď</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>maskované</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>Zobraziť vysvetlenia</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>Skryť vysvetlenia</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Otvoriť</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>Otvoriť všetko</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>Zavrieť všetko</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>Kľúč alebo hodnota</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>Hľadať v relácii</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Typ</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>ďalších %count</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>vnorené príliš hlboko na zobrazenie</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>skrátené, spolu %count znakov</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Začaté</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>Názov súboru cookie</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>ID relácie</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>Obslužný program</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>Cesta ukladania</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>Predvolené v PHP</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>Životnosť (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>Súbor cookie</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>životnosť %s s</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>Vaša vlastná relácia PHP, taká, aká bola pri otvorení sekcie, nikdy iná. Hodnoty kľúčov, ktoré vyzerajú ako tajomstvá (tokeny, hashe, heslá), sú maskované (debugbar.ini SessionMask[]); všetko ostatné sa zobrazuje tak, ako je uložené, aj osobné údaje.</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>%count kľúčov, %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>veľká</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>Relácia je prázdna.</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>Pre túto požiadavku nebola spustená žiadna relácia.</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Rozšírenie %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>Jadro a ostatné</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>Nie sú zobrazené všetky položky: relácia obsahuje viac, než sa dá tu vypísať.</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>%count kľúčov nie je uvedených.</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>Rámec</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>Hodnoty, ktoré vyzerajú ako token (JSON Web Token, prihlasovacie údaje hlavičky Authorization, súkromný kľúč, dlhý hexadecimálny alebo náhodný text), sú tiež maskované bez ohľadu na to, ako sa ich kľúč volá (debugbar.ini SessionValueMask[]).</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>Kľúč vyzerá ako tajomstvo (debugbar.ini SessionMask[]).</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>Hodnota vyzerá ako token.</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>Pod maskovaným kľúčom.</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>Relácia ako text, maskovaná ako tabuľka.</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>Relácia je väčšia ako %size (debugbar.ini SessionWarnBytes): každá požiadavka tohto používateľa načíta celú reláciu a zapíše ju, keď sa zmenila.</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP uchováva túto reláciu v súboroch a uzamyká súbor počas celej požiadavky: požiadavky toho istého používateľa (viacero kariet, volania AJAX) na seba čakajú.</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>Ponechať otvorené</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>Väčšia ako %size (debugbar.ini SessionWarnBytes): každá požiadavka tohto používateľa načíta celú reláciu.</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%hits z %count načítaných z vyrovnávacej pamäte</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>Nebola vykreslená žiadna šablóna (zobrazenie načítané z vyrovnávacej pamäte zobrazení žiadnu nevykresľuje).</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>Priradenia rolí</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>Roly a politiky</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>líši sa od anonymných návštevníkov</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>rovnaké ako u anonymných návštevníkov</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70247,6 +71226,14 @@ Triedu uzla budete musieť zmeniť pomocou funkcie výmeny.</translation>
     <message>
         <source>not sent</source>
         <translation>neodoslané</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Úloha cron pre oznámenia tu zaznamenáva každý svoj beh. Pridajte časť frequent do súboru crontab alebo spustite exp:notification:run --apply.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>Použite konzolu: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -75965,6 +76952,98 @@ Triedu uzla budete musieť zmeniť pomocou funkcie výmeny.</translation>
         <source>This topic is not Released; readers do not see it.</source>
         <translation>Táto téma nie je vydaná; čitatelia ju nevidia.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migrácie</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Zmeny inštalácie uložené ako súbory: ich stav, behy, spustenie a vrátenie.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Publikujte statickú kópiu stránky na GitHub Pages alebo na ľubovoľný git hosting.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Statické publikovanie</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>V kontrole</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>Čitatelia vidia túto stránku.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>Skrytá pred čitateľmi, kým ju niekto nevydá.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>Stránka je teraz v stave Kontrola. Pred čitateľmi je skrytá, kým nebude vydaná.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>Stránka je vydaná: čitatelia ju teraz vidia.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>Stránka je opäť konceptom. Pred čitateľmi je skrytá, kým nebude skontrolovaná a vydaná.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>Vydať teraz</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>Túto verziu môže vydať iba používateľ s rolou %role, ktorý ju nenapísal.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>Témy pomocníka čakajúce na vydanie</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>Skryje ju pred čitateľmi, kým nebude znova vydaná.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>Ďalej ju skontroluje kontrolór. Čitatelia ju zatiaľ nevidia.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>Čitatelia ju uvidia okamžite.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>Vyberie ju z kontroly na ďalšiu prácu. Čitatelia ju nevidia.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>Skryť túto stránku pred čitateľmi?</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>Vrátiť túto stránku do konceptu?</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>Čitatelia už nevidia %title, kým stránku niekto znova nevydá.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title sa vracia do konceptu na ďalšiu prácu. Čitatelia stránku stále nevidia a pred vydaním potrebuje novú kontrolu.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Zrušiť</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>Tieto témy sú v kontrole. Čitatelia ich uvidia, keď ich vydá niekto, kto nenapísal aktuálnu verziu.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76136,6 +77215,10 @@ Triedu uzla budete musieť zmeniť pomocou funkcie výmeny.</translation>
     <message>
         <source>Setup &gt; Cronjobs</source>
         <translation>Nastavenie &gt; Úlohy cron</translation>
+    </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>Zatiaľ sa nespustila žiadna časť úloh cron: front úloh, importy, oznámenia a index vyhľadávania čakajú. Spustite php bin/php/installcrontab.php --add --apply alebo pridajte riadky z --show do súboru crontab.</translation>
     </message>
 </context>
 <context>
@@ -76475,6 +77558,46 @@ Triedu uzla budete musieť zmeniť pomocou funkcie výmeny.</translation>
         <source>None.</source>
         <translation>Žiadne.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>pomocou overovacej aplikácie</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>pomocou kódu zaslaného e-mailom</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>pomocou kódu na obnovenie</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>pomocou prístupového kľúča</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>pomocou externého konta</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Aktivita zabezpečenia</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>Zobrazené ako sieť; adresa sa uchováva podľa nastavení ochrany údajov lokality.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Nezaznamenané</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Poloha</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>približne</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76718,6 +77841,42 @@ Triedu uzla budete musieť zmeniť pomocou funkcie výmeny.</translation>
         <source>Manage devices</source>
         <translation>Spravovať zariadenia</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>pomocou overovacej aplikácie</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>pomocou kódu zaslaného e-mailom</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>pomocou kódu na obnovenie</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>pomocou prístupového kľúča</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>pomocou externého konta</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Aktivita zabezpečenia</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Nezaznamenané</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Poloha</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>približne</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76797,6 +77956,14 @@ Triedu uzla budete musieť zmeniť pomocou funkcie výmeny.</translation>
         <source>View the sessions of this user</source>
         <translation>Zobraziť relácie tohto používateľa</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>Vaše konto %login na lokalite %site sa práve použilo na prihlásenie z miesta, z ktorého sa v poslednom čase neprihlasovalo:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>Približná poloha</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76835,6 +78002,10 @@ Triedu uzla budete musieť zmeniť pomocou funkcie výmeny.</translation>
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%browser v systéme %os</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Prehľad prihlásení</translation>
     </message>
 </context>
 <context>
@@ -77043,6 +78214,82 @@ Triedu uzla budete musieť zmeniť pomocou funkcie výmeny.</translation>
         <source>The passkey could not be checked. Please try again.</source>
         <translation>Prístupový kľúč sa nepodarilo overiť. Skúste to znova.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>Kontá, ktoré sa prihlasujú iba prístupovými kľúčmi, tu nemôžu použiť heslo: vyberte „Prihlásiť sa prístupovým kľúčom“.</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>Prístupové kľúče používateľa %login</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>Prístupové kľúče, ktorými sa toto konto prihlasuje. Odvolajte kľúč, ktorý je na stratenom alebo ukradnutom zariadení: už sa ním nebude dať prihlásiť. Nové kľúče pridáva vlastník sám.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>Vaše konto potrebuje prístupový kľúč</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>Pridajte si do konta prístupový kľúč</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>Pridajte prístupový kľúč, aby ste mohli pokračovať. Potom sa ním budete prihlasovať namiesto samotného hesla.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>Prihlásenie prístupovým kľúčom je rýchlejšie a bezpečnejšie ako heslo. Pridajte si ho teraz alebo pokračujte bez neho.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>Teraz nie</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>Odvolať prístupový kľúč „%name“?</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>Už sa ním nebude dať prihlásiť do tohto konta. Ak bol posledný, vlastník sa prihlási heslom, alebo nastavíte nové.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>Odvolať prístupový kľúč</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>Odvolať</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>Toto konto nemá žiadny prístupový kľúč.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>Overovač</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Neznáme</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>Váš posledný prístupový kľúč: pred jeho odstránením pridajte ďalší.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>Toto konto sa prihlasuje iba prístupovými kľúčmi (politika prístupových kľúčov): keď žiadny nezostane, prihlasuje sa opäť svojím heslom.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>Toto je váš posledný prístupový kľúč a vaše konto sa bez neho nemôže prihlásiť. Najprv pridajte ďalší prístupový kľúč.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>Prístupový kľúč „%name“ je odvolaný. Už sa ním nedá prihlásiť do tohto konta.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77142,6 +78389,34 @@ Triedu uzla budete musieť zmeniť pomocou funkcie výmeny.</translation>
         <source>Code from your authenticator app</source>
         <translation>Kód z overovacej aplikácie</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>Chystáte sa natrvalo odstrániť údaje alebo vyprázdniť protokol.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>Vaše heslo a prístupový kľúč</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>Vaše heslo a kód z overovacej aplikácie</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>Alebo:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>Tento prehliadač nemôže používať prístupové kľúče. Zvoľte iný spôsob alebo iný prehliadač.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>Keď budete pokračovať, prehliadač si vyžiada jeden z vašich prístupových kľúčov.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>Pokračovať prístupovým kľúčom</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77232,6 +78507,70 @@ Triedu uzla budete musieť zmeniť pomocou funkcie výmeny.</translation>
     <message>
         <source>Setup</source>
         <translation>Nastavenie</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>Zmena vlastného hesla, e-mailovej adresy, prístupových kľúčov, dvojstupňového prihlásenia, kódov na obnovenie alebo kľúčov API a odhlásenie vlastných ostatných zariadení.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>Vytváranie a úprava používateľov, ich hesiel a zariadení, nastavení kont, schvaľovanie alebo zamietanie nových používateľských kont, priraďovanie rolí a úprava politík.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>Odstraňovanie údajov</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>Vyprázdnenie koša, odstraňovanie položiek z neho a odstraňovanie viacerých položiek naraz.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>Odstraňovanie, publikovanie a ukladanie obsahu</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>Odstraňovanie obsahu (aj do koša), publikovanie a ukladanie konceptu, overuje sa pri odoslaní formulára. Predvolene vypnuté.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>Pred citlivou akciou prihlásený používateľ znova potvrdí, kto je: heslom a prístupovým kľúčom, alebo bez prístupového kľúča heslom a kódom z overovacej aplikácie. Pýtajú sa iba webové stránky: rozhranie REST, SOAP, WebDAV, prihlásenie expservices a príkazový riadok nikdy.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>Kde platia nastavenia</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>Nastavenia pre</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Každý prístup k lokalite</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>Prístup k lokalite %name</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Otvoriť</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>Koho sa pýtať: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>Označte skupiny používateľov, aby sa pýtali iba ich členovia (napríklad redaktori). Nič neoznačené: každý používateľ.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>Uloží sa do settings/override/site.ini.append.php, pre každý prístup k lokalite. Pri uložení potvrdíte, že ste to vy.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>Uloží sa do settings/siteaccess/%name/site.ini.append.php. Hodnota v settings/override má prednosť. Pri uložení potvrdíte, že ste to vy.</translation>
     </message>
 </context>
 <context>
@@ -77366,6 +78705,6822 @@ Triedu uzla budete musieť zmeniť pomocou funkcie výmeny.</translation>
     <message>
         <source>Open the page</source>
         <translation>Otvoriť stránku</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from až %to z %count</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>Prihlasovacie meno alebo ID používateľa: konto, ktorého sa udalosť týkala, alebo používateľ, ktorý konal.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Konto</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Akcia</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>Po zmene</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>Akýkoľvek výsledok</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Pred zmenou</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Vykonal</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Vymazať</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Vykonané</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>Udalosti sa uchovávajú %days dní.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>Udalosti sa uchovávajú, kým sa ručne neodstránia.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Udalosti</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>Akákoľvek akcia</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>Všetky udalosti tohto konta</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>Exportovať zoznam ako CSV (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Zlyhané</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Od</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>Zúžiť zoznam</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>Žiadna udalosť nevyhovuje.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Na stránku</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>Zaznamenávanie je v audit.ini vypnuté ([UserAuditSettings] UserAudit); zoznam zobrazuje, čo sa zaznamenalo predtým.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Odmietnuté</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Výsledok</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Zobraziť</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>Tabuľka auditného záznamu používateľov chýba. Vytvorte ju pomocou php update/common/scripts/6.0/createuseraudittable.php; dovtedy auditné súbory uchovávajú každú udalosť.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>Táto stránka potrebuje databázu SQL; v MongoDB nie je dostupná. Auditné súbory uchovávajú každú udalosť.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Do</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Auditný záznam používateľov</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Používateľ</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Kedy</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Kde</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>Kto zmenil, vytvoril, povolil, zakázal, presunul alebo odstránil ktoré konto, kto sa prihlásil alebo bol odmietnutý a ktoré roly boli priradené: jeden riadok na udalosť, s poliami pred zmenou a po nej. Heslá a tajné údaje sa nikdy nezaznamenávajú.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>skupina</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>systém</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>neznáme</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>Zabezpečiť konto</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>Na prihlásenie do vášho konta %login na lokalite %site sa použil kód na obnovenie.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>Použil sa kód na obnovenie</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Konto</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>Približná adresa</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>Ak sa chcete znova prihlásiť, požiadajte o nové heslo alebo sa obráťte na správcov lokality.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>Požiadať o nové heslo</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>Každý kód na obnovenie funguje iba raz. Ak ste stratili telefón, znova nastavte overovaciu aplikáciu a nové kódy na obnovenie uschovajte na bezpečnom mieste.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>Neúspešné pokusy o prihlásenie do vášho konta</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>Odteraz si prihlásenie okrem hesla vyžaduje aj kód. Ak ste to urobili vy, nemusíte nič robiť.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>Ak ste to boli vy a zabudli ste heslo, požiadajte o nové. Ak nie, zvoľte silnejšie heslo a zapnite dvojstupňové prihlásenie.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>Ak ste to neboli vy, niekto možno pozná vaše heslo: ihneď ho zmeňte a skontrolujte, kde je vaše konto prihlásené.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>Zostávajúce kódy na obnovenie</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>Skontrolovať zariadenia</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>Upozornenie zabezpečenia</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>Niekto sa pokúsil prihlásiť do vášho konta %login na lokalite %site s nesprávnym heslom. Počet pokusov za sebou: %count.</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>Vo vašom konte %login na lokalite %site nastala udalosť zabezpečenia.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>Toto je upozornenie zabezpečenia týkajúce sa vášho konta. Odosiela sa pri každej takejto zmene a nedá sa vypnúť.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Čas</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>Dvojstupňové prihlásenie bolo pre vaše konto %login na lokalite %site vypnuté.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>Dvojstupňové prihlásenie bolo vypnuté</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>Dvojstupňové prihlásenie bolo pre vaše konto %login na lokalite %site zapnuté.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>Dvojstupňové prihlásenie bolo zapnuté</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>Vaše konto %login na lokalite %site bolo po príliš mnohých neúspešných prihláseniach zablokované.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>Vaše konto je teraz chránené iba heslom. Ak ste to neurobili vy, zmeňte heslo a potom znova zapnite dvojstupňové prihlásenie.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>Vaše konto bolo zablokované</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>K vášmu kontu %login na %site bol pridaný prístupový kľúč.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>Ktokoľvek má tento prístupový kľúč, sa môže prihlásiť do vášho konta bez vášho hesla. Ak ste ho nepridali vy, odstráňte ho v časti Prístupové kľúče a zmeňte si heslo.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>Z vášho konta %login na %site bol odstránený prístupový kľúč.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>Už sa ním nedá prihlásiť do vášho konta. Ak ste ho neodstránili vy, skontrolujte svoje prístupové kľúče a zariadenia.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>K vášmu kontu bol pridaný prístupový kľúč</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>Z vášho konta bol odstránený prístupový kľúč</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>Aktivita zabezpečenia</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Aktivita zabezpečenia: %name</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Prihlásené</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Neúspešný pokus o prihlásenie</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Odhlásené</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Relácie odhlásené</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Prihlásenie z nového zariadenia</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Prihlásenie z nového miesta</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Totožnosť potvrdená („Overte, že ste to vy“)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Overenie totožnosti zlyhalo</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Prihlásené prístupovým kľúčom</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Prihlásenie prístupovým kľúčom zlyhalo</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Prihlásenie odmietnuté: kód dvojstupňového prihlásenia chýba alebo je nesprávny</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Nesprávny kód dvojstupňového prihlásenia</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Konto zablokované po neúspešných prihláseniach</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Konto odblokované</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Heslo zmenené</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Zmena hesla zlyhala</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Heslo obnovené</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Vyžiadané nové heslo</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>E-mailová adresa zmenená</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Používateľské meno zmenené</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Dvojstupňové prihlásenie zapnuté</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Dvojstupňové prihlásenie vypnuté</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Použitý kód na obnovenie</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Nové kódy na obnovenie</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Heslo aplikácie vytvorené</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Heslo aplikácie odvolané</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Prístupový kľúč pridaný</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Prístupový kľúč odstránený</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Konto povolené</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Konto zakázané</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Všetko</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Prihlásenia a relácie</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Zmeny konta</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Vyžaduje pozornosť</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>vami</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>používateľom</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>používateľom %login</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>Metóda</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>Prehliadač</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>Operačný systém</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Zariadenie</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>Miesto</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>Krajina</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Relácie</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>Ktoré</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>Kanál</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Neúspešné pokusy</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>Zostávajúce kódy</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>Obslužný program prihlásenia</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Aktivita zabezpečenia</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Aktivita zabezpečenia: %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Prihlásenia a zmeny zabezpečenia vášho konta. Ak vidíte niečo, čo ste neurobili, zmeňte heslo a odhláste zariadenia, ktoré nepoznáte.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>Prihlásenia a zmeny zabezpečenia tohto konta.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Vaše zariadenia</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Zmeniť heslo</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>Späť na konto</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>Aktivita zabezpečenia sa nezaznamenáva</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>Načítava sa z auditného záznamu používateľov, ktorého tabuľka expuser_audit chýba alebo nie je v tejto databáze podporovaná. Spustite php update/common/scripts/6.0/createuseraudittable.php alebo aktualizáciu databázy na verziu 6.0.15.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Posledné dni: %days</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Prihlásenia za posledné dni: %days</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>Nedávna aktivita zabezpečenia</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Zobraziť</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>neúspešné</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>odmietnuté</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Zatiaľ sa nezaznamenala žiadna aktivita zabezpečenia.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>Udalosti zabezpečenia sa uchovávajú počet dní: %days.</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>Udalosti zabezpečenia sa uchovávajú, kým ich správca neodstráni.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Stiahnuť moje údaje o prihláseniach</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Vaše relácie a udalosti zabezpečenia ako súbor JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Relácie sa na tejto lokalite nezaznamenávajú, preto nebolo možné odhlásiť žiadne iné zariadenie. Hneď si zmeňte heslo.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>Odhlásené ďalšie relácie: %count. Teraz si zmeňte heslo.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Žiadne iné zariadenie nebolo prihlásené. Teraz si zmeňte heslo.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Ďakujeme. Udalosť je označená ako vaša.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Táto udalosť nevyžaduje odpoveď.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Platnosť stránky vypršala. Nič sa nezmenilo; skúste to znova.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Zabezpečiť konto</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Ak tu niečo neurobili vy, odhláste všetky ostatné zariadenia a potom si zvoľte nové heslo. Odhlásia sa aj zariadenia, ktoré zostali prihlásené cez Zapamätať si ma.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Všetky zariadenia okrem tohto sa odhlásia pri ďalšej požiadavke. Potom si zvolíte nové heslo.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Áno, odhlásiť ostatné zariadenia</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Boli ste to vy?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Áno, bol som to ja</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Nie, zabezpečiť moje konto</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Prihlásené</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Neúspešný pokus o prihlásenie</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Odhlásené</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Relácie odhlásené</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Prihlásenie z nového zariadenia</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Prihlásenie z nového miesta</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Totožnosť potvrdená („Overte, že ste to vy“)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Overenie totožnosti zlyhalo</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Prihlásené prístupovým kľúčom</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Prihlásenie prístupovým kľúčom zlyhalo</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Prihlásenie odmietnuté: kód dvojstupňového prihlásenia chýba alebo je nesprávny</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Nesprávny kód dvojstupňového prihlásenia</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Konto zablokované po neúspešných prihláseniach</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Konto odblokované</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Heslo zmenené</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Zmena hesla zlyhala</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Heslo obnovené</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Vyžiadané nové heslo</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>E-mailová adresa zmenená</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Používateľské meno zmenené</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Dvojstupňové prihlásenie zapnuté</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Dvojstupňové prihlásenie vypnuté</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Použitý kód na obnovenie</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Nové kódy na obnovenie</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Heslo aplikácie vytvorené</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Heslo aplikácie odvolané</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Prístupový kľúč pridaný</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Prístupový kľúč odstránený</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Konto povolené</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Konto zakázané</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Všetko</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Prihlásenia a relácie</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Zmeny konta</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Vyžaduje pozornosť</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Aktivita zabezpečenia</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Aktivita zabezpečenia: %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Prihlásenia a zmeny zabezpečenia vášho konta. Ak vidíte niečo, čo ste neurobili, zmeňte heslo a odhláste zariadenia, ktoré nepoznáte.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Vaše zariadenia</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Zmeniť heslo</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>Aktivita zabezpečenia sa na tejto lokalite zatiaľ nezaznamenáva.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Prihlásenia za posledné dni: %days</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Neúspešné pokusy</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Zatiaľ sa nezaznamenala žiadna aktivita zabezpečenia.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Stiahnuť moje údaje o prihláseniach</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Vaše relácie a udalosti zabezpečenia ako súbor JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Relácie sa na tejto lokalite nezaznamenávajú, preto nebolo možné odhlásiť žiadne iné zariadenie. Hneď si zmeňte heslo.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>Odhlásené ďalšie relácie: %count. Teraz si zmeňte heslo.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Žiadne iné zariadenie nebolo prihlásené. Teraz si zmeňte heslo.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Ďakujeme. Udalosť je označená ako vaša.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Táto udalosť nevyžaduje odpoveď.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Platnosť stránky vypršala. Nič sa nezmenilo; skúste to znova.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Zabezpečiť konto</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Ak tu niečo neurobili vy, odhláste všetky ostatné zariadenia a potom si zvoľte nové heslo. Odhlásia sa aj zariadenia, ktoré zostali prihlásené cez Zapamätať si ma.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Všetky zariadenia okrem tohto sa odhlásia pri ďalšej požiadavke. Potom si zvolíte nové heslo.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Áno, odhlásiť ostatné zariadenia</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Boli ste to vy?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Áno, bol som to ja</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Nie, zabezpečiť moje konto</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>Heslo</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>Heslo a kód dvojstupňového prihlásenia</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>Rozhranie REST</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>Rozhranie SOAP</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>Jednotné prihlásenie (SSO)</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>Prihlásené pred začatím zaznamenávania relácií</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Prehľad prihlásení</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>Kto je prihlásený na lokalite, ako často sa kontá prihlasujú a ako často neúspešne, a odhlásenie používateľa všade. Funguje s každým obslužným programom relácií.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>Relácia bola odhlásená. Zariadenie sa musí znova prihlásiť.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>Používateľ %login bol odhlásený z relácií. Počet relácií: %count.</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>Používateľ %login nemal žiadnu spustenú reláciu.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>Žiadne konto nemá toto ID, používateľské meno ani e-mailovú adresu.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>Toto je relácia, ktorú používate. Ak ju chcete ukončiť, odhláste sa.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>Táto relácia už bola ukončená.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Platnosť stránky vypršala. Nič sa nezmenilo; skúste to znova.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>Relácie sa na tejto lokalite nezaznamenávajú (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>Chýba tabuľka expuser_session</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>Relácie sa začnú zaznamenávať po jej vytvorení: php update/common/scripts/6.0/createusersessiontable.php alebo aktualizácia databázy na verziu 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>Teraz a dnes</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>Spustené relácie</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>Prihlásení používatelia</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>Prihlásenia dnes</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>Neúspešné pokusy dnes</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>Odhlásenie používateľa všade</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>Každá relácia konta sa skončí pri svojej ďalšej požiadavke, aj tie udržiavané funkciou „Zapamätať si ma“. Použite to, ak sa konto mohlo dostať do nesprávnych rúk; potom obnovte jeho heslo.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>ID používateľa, používateľské meno alebo e-mailová adresa</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>Odhlásiť všade</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>Teraz prihlásené</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>Zobrazujú sa naposledy použité (najviac %limit).</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Používateľ</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Zariadenie</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adresa</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>Prihlásené</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>Naposledy aktívne</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Akcie</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>Toto zariadenie</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Nezaznamenané</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>Odhlásiť</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>Nie je prihlásená žiadna relácia.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Posledné dni: %days</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>Prihlásenia a neúspešné pokusy sa počítajú z auditného záznamu používateľov, ktorý chýba; nové relácie sa počítajú.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>Deň</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>Prihlásenia</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Neúspešné pokusy</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>Nové relácie</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>Obslužný program relácií: %handler. Relácie sa načítavajú z tabuľky expuser_session, preto prehľad funguje s každým obslužným programom.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>Podozrivá aktivita za posledných %hours hodín</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>Jedna sieť sa neúspešne pokúsila prihlásiť do kont (%accounts) (pokusy: %count)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Konto zamknuté po neúspešných prihláseniach</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>Neúspešné prihlásenia do jedného konta: %count</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>Prihlásenie z viacerých krajín naraz: %count</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Aktivita zabezpečenia</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Relácie</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>Neúspešné prihlásenia sa čítajú z denníka auditu používateľov, ktorý tu nie je k dispozícii.</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>Nič podozrivé: žiadne konto s opakovanými neúspešnými prihláseniami, žiadna sieť skúšajúca viacero kont, žiadne konto prihlásené z viacerých krajín.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>Upozornenie zabezpečenia pre vaše konto</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>Vo vašom konte %login nastala udalosť zabezpečenia: %event. Ak ste to neboli vy, zabezpečte svoje konto na adrese %url.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Nastavenie</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>Vyžiadajte si od obsahu tejto lokality presne tie polia, ktoré stránka potrebuje, jednou požiadavkou. Schéma zodpovedá triedam obsahu; každý dopyt beží s oprávneniami používateľa, ktorý ho odosiela.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>GraphQL API je v tomto prístupe k lokalite vypnuté. Zapnite ho v graphql.ini: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>Knižnica GraphQL (webonyx/graphql-php 15) nie je nainštalovaná.</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>Koncový bod</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>Knižnica</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>Schéma</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>Triedy obsahu: %count, schéma %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>Dopyt</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>Premenné (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Spustiť</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>Odpoveď</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>Prebieha…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>Odpoveď sa nepodarilo prečítať.</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>Dopyt beží s vašimi oprávneniami, prihlásení v tejto relácii.</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%count za %seconds s</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>bez limitu</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>Hĺbka</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>Zložitosť</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>Položky na zoznam</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (predvolené %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>Požiadavky na používateľa alebo kľúč</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>Požiadavky na anonymnú adresu</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>Introspekcia</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>Iba uložené dopyty</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>Najväčší dopyt</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>%bytes bajtov</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>Najväčšie nahrávanie</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>Prístup k lokalite %siteaccess neexistuje.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>Mutácie sú v %siteaccess zapnuté.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>Mutácie sú v %siteaccess vypnuté.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>GraphQL API je v %siteaccess zapnuté.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>GraphQL API je v %siteaccess vypnuté.</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>Nastavenia sa nepodarilo zapísať: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>Vyrovnávacia pamäť odpovedí bola vymazaná: odstránených odpovedí: %count.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>Ak chcete dopyt odstrániť, začiarknite políčko vedľa neho.</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>Dopyt sa nepodarilo odstrániť: dopyt dodaný v adresári z PersistedQueryDirectoryList[] sa odstraňuje spolu so svojím súborom.</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>Uložený dopyt bol odstránený.</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>Mutácie</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>zapnuté</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>vypnuté</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Prístupy k lokalite</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>Kde API a jeho mutácie odpovedajú. Tlačidlá zapisujú graphql.ini, rovnako ako ./console exp:graphql:enable a exp:graphql:disable.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Prístup k lokalite</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>GraphQL API</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Zmeniť</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Vypnúť</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>Vypnúť mutácie</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>Zapnúť mutácie</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Zapnúť</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>Limity</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>graphql.ini [GraphQLSettings] tohto prístupu k lokalite.</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>Vyrovnávacia pamäť odpovedí</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>Odpovede uložených dopytov, uchovávané podľa práv používateľa a zneplatnené pri každom zverejnení obsahu.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Stav</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>Uchované odpovede</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>%count odpovedí, %bytes bajtov</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>Uchovávané najviac</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds s</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>Naposledy zneplatnené</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>Vymazať vyrovnávaciu pamäť odpovedí</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>Uložené dopyty</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>Uložené pomocou ./console exp:graphql:persist alebo klientmi (automatické uložené dopyty); volajú sa názvom alebo SHA-256.</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>Názvy</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Veľkosť</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Kde</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Odstrániť</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>dodaný</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>uložený</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>Áno, odstrániť tento dopyt</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>Zatiaľ žiadny uložený dopyt.</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>Kľúče API</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>Osobné kľúče API s rozsahom graphql:read (dopyty) alebo graphql:write (mutácie). Vytvárajte a odvolávajte ich na stránke Prístup k API alebo pomocou ./console exp:graphql:keys.</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>Prístup k API</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>Všetky kľúče</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>Kľúč</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Názov</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Vlastník</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>Rozsahy</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>Naposledy použitý</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>aktívny</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>vypršaný</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>odvolaný</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>nikdy</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>Zatiaľ žiadny kľúč API s rozsahom GraphQL.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>GraphQL API je vypnuté v prístupe k lokalite %siteaccess, ktorý zobrazuje túto stránku; tabuľka nižšie ukazuje, kde odpovedá.</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>Pre prístup k lokalite %siteaccess, ktorý zobrazuje túto stránku.</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>Webhooky</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>Každú udalosť, o ktorú koncový bod žiada (publish, update, trash, delete, move, hide, reveal, mutation), mu podpísanú odošle časť cronjobu graphqlwebhooks. ./console exp:graphql:webhooks robí to isté ako táto sekcia.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Udalosti</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>všetky</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Každý prístup k lokalite</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>chybný</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>bez tajomstva</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>Čakajúce</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>Vzdané: %count</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>Posledné doručenie</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Odoslať test</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>Áno, odstrániť tento webhook</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>Zatiaľ žiadny webhook.</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>Pridať webhook</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>Pridať</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>Nedávne doručenia</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Čas</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Výsledok</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>Odbery</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>Živé aktualizácie pre klientov: prúd udalostí na /api/graphql/subscribe a WebSocket (graphql-transport-ws) vo Velocity. Každá udalosť ide len odberateľom, ktorí smú čítať jej obsah.</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>Otvorené teraz</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>Najviac otvorených</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>%total celkovo, %user na používateľa, %address na adresu</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>Anonymné odbery</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>Dĺžka prúdu</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>Webhook sa nepodarilo pridať: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>Webhook %name bol zmenený; jeho podpisové tajomstvo zostáva.</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>Podpisové tajomstvo sa nepodarilo uložiť (Nastavenie &gt; Tajné údaje).</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>Webhook %name bol pridaný. Jeho podpisové tajomstvo, zobrazené iba tento raz: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>Webhook %name neexistuje.</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>Webhook %name neodpovedal: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>Webhook %name odpovedal %status za %ms ms.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>Ak chcete webhook odstrániť, začiarknite políčko vedľa neho.</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>Webhook %name bol odstránený.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>GraphQL API je v tomto prístupe k lokalite vypnuté.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>Knižnica GraphQL nie je nainštalovaná.</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>Použite GET alebo POST.</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>Telo požiadavky nie je objekt JSON.</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables nie je objekt JSON.</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions nie je objekt JSON.</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>Odošlite dopyt metódou POST.</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>Požiadavka neobsahuje dopyt.</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>Dopyt je dlhší ako %max bajtov.</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>Interná chyba servera</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node vyžaduje práve jedno z: id, remoteId, path a urlAlias.</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content vyžaduje práve jedno z: id a remoteId.</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>Kurzor v after nepochádza z tohto API.</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>Alias obrázka %alias neexistuje (image.ini [AliasSettings] AliasList[]).</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>Tu sa prijímajú iba uložené dopyty: odošlite id dopytu uloženého na serveri.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>Hash uloženého dopytu nie je SHA-256.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>Hash uloženého dopytu nezodpovedá dopytu.</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>Príliš veľa požiadaviek: najviac %limit za %window sekúnd. Skúste to znova o %reset sekúnd.</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>Dopyt má hĺbku %depth úrovní; povolených je najviac %max.</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>Dopyt má zložitosť %complexity; povolená je najviac %max.</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>Táto požiadavka nesmie čítať schému (introspection).</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search vyžaduje text alebo filter (classes, subtree, sections, publishedAfter, publishedBefore).</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument nie je dátum (ISO 8601, 2026-10-30).</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag vyžaduje práve jedno z: id, remoteId a path.</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout vyžaduje práve jedno z: id, identifier a urlAlias.</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>Pole operations požiadavky multipart nie je jedna požiadavka JSON.</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>Pole map požiadavky multipart nie je objekt JSON.</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>Požiadavka multipart neobsahuje súbor %field.</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>Cesta v poli map musí začínať na variables.: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>Súbor %name neprišiel celý (chyba nahrávania %error).</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>Súbor %name je väčší ako %max bajtov.</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>Súbor %name sa nepodarilo skontrolovať.</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>Mutácie sú v tomto prístupe k lokalite vypnuté (graphql.ini [GraphQLSettings] MutationsEnabled).</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>Mutáciu odošlite metódou POST.</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>Ak chcete meniť obsah, prihláste sa.</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>Kľúč API nemá rozsah %scope.</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>Mutácia so session potrebuje formulárový token tejto session (hlavička X-CSRF-Token).</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>uploadFromUrl je vypnuté: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] neuvádza žiadny hostiteľ.</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>Adresa musí byť adresa https.</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>Hostiteľ %host nie je v graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>Súbor sa nepodarilo načítať.</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload je iba vstupný typ.</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>Premenná typu Upload preberá súbor z požiadavky multipart.</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>Vzdialené id %remoteId je už obsadené.</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>Obsah už má preklad v jazyku %language: použite updateContent.</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>Zadajte aspoň jedno pole.</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>Novú verziu sa nepodarilo vytvoriť (obsah má príliš veľa konceptov).</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>Verzia %version nie je koncept.</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent potrebuje práve jedno z id a nodeId.</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>Umiestnenie nemožno presunúť pod seba samé.</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>Obsah už má umiestnenie pod %parentId.</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>Hodnotu poľa %field sa nepodarilo uložiť.</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>Jazyk obsahu %language neexistuje.</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>Trieda obsahu %class v schéme neexistuje.</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>Obsah neexistuje alebo ho nesmiete čítať.</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>S týmto obsahom to nesmiete urobiť.</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>Trieda %class nemá zapisovateľné pole %field.</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>Pole %field je zadané dvakrát.</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>Pole %field preberá súbor: odošlite ho ako upload (požiadavka multipart).</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>Pole %field nepreberá súbor.</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>Pole %field potrebuje hodnotu.</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>Formát %format je iba pre polia s formátovaným textom; %field preberá hodnotu tak, ako je (RAW).</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>Pole %field je povinné.</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>HTML sa nepodarilo prečítať.</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content preberá version iba s id.</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>Token náhľadu je neplatný alebo vypršal.</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>Nie je pôvod (https://host alebo https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>Nie je rozsah GraphQL API: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>Odbery posielajte na /api/graphql/subscribe (prúd udalostí alebo WebSocket).</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>Požiadavka neuvádza žiadnu operáciu dokumentu.</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>Odber žiada presne jedno pole.</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>Otvorených je príliš veľa odberov; skúste to neskôr.</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>Máte otvorených %max odberov, čo je najviac povolených.</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>Vaša adresa má otvorených %max odberov, čo je najviac povolených.</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>Odbery sú v tomto prístupe k lokalite vypnuté.</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>Ak chcete odoberať, prihláste sa (token alebo osobný kľúč API).</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>Mutácie posielajte na /api/graphql.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>Migrácie</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Stav sa nepodarilo prečítať: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Tabuľky migrácií ešte neexistujú: vytvorí ich ./console exp:upgrade --apply.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>Zlyhané migrácie: %count</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>Prebieha beh, ktorý spustil %user</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>Inštalácia je zamknutá: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Čaká na vybavenie</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Zlyhalo</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>Osirotené</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Posledný beh</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>zatiaľ žiadny</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>Všetky migrácie</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>Simulovaný beh</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>Skúšobný beh</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>Čakajúce migrácie bežali v transakcii, ktorá bola potom vrátená: nič sa neponechalo. Nižšie je, čo každá z nich zmenila v databáze.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>Čo by beh urobil teraz. Nič sa nezmení: každá čakajúca migrácia uvádza zmeny, ktoré by urobila, a beh to, čo by urobil pred a po.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>Simulovať</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Spustiť</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>Skúšobný beh zlyhal: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>Simulácia vyžaduje PostgreSQL alebo SQLite, ktorých zmeny schémy sa dajú vrátiť; na tejto databáze je plán nižšie tým, čo by beh urobil.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>Migrácie</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>Migrácia</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Stav</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>Čo by urobila</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>Simulácia: %result za %ms ms</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>Zatiaľ žiadna migrácia.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>Pred behom a po ňom</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>Snímka pred</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>vytvorená a obnovená, keď migrácia zlyhá</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>vypnuté</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>Snímka po</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>vytvorená, keď beh prešiel</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>Migrácie spolu: %total; čaká: %pending, hotové: %done, zlyhané: %failed.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>História migrácií</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>Každý beh s používateľom, prostredím, snímkami a tým, čo bolo commitnuté, označené tagom a odoslané. Zlyhaný alebo prerušený beh sa dá obnoviť; beh so snímkou vytvorenou pred ním sa dá vrátiť.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>Behy sa nepodarilo prečítať: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Tabuľky migrácií ešte neexistujú: vytvorí ich ./console exp:upgrade --apply.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Zobraziť</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Všetko</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>Behy</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Spustené</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Kto</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>Snímky</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Repozitár</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Akcie</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>pred</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>po</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>odoslanie: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>Pokračovať</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Vrátiť</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>Žiadny beh v tomto stave.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>Spustené tu</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>Behy, pokračovania a vrátenia spustené na týchto stránkach, s hlásením každého z nich.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Čo</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Výsledok</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Vrátenie</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>Vrátenie %target</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>Beh %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Čo beh urobil, jeho záznam a jeho protokol. Beh spustený tu pokračuje na pozadí aj po zatvorení tejto stránky; otvorte stránku znova a sledujte ho.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>Pokračovať v tomto behu</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>Vrátiť tento beh</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>Záznam sa nepodarilo prečítať: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Priebeh</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Spustil %user o %time.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>Kontroluje sa kód a pred behom sa vytvára snímka</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>Beží %id (%index z %total)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>Hotové: %done z %total</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>Migrácie prebehli; ak niektorá zlyhala, obnovuje sa snímka</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>Vytvára sa snímka po behu, commit, tag a odoslanie</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>Obnovuje sa snímka</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>Beh sa skončil. Načítava sa jeho hlásenie.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>Priebeh sa nepodarilo sledovať. Znova načítajte stránku a uvidíte, ako beh pokračuje.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>Táto stránka sleduje beh počas jeho priebehu.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Znova načítať</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Hlásenie</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Trvanie</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms milisekúnd</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>Čo beh vypísal ako chyby</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Záznam</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>Prostredie</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>žiadne</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Skončené</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Potvrdenie (commit)</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Značka</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Odoslanie</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Správa</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>Migrácie tohto behu</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>Zdroj</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>Protokol behu</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>Zobrazuje sa iba koniec protokolu.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>beží</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>skončené bez hlásenia</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>úspešné</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>zlyhalo</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>odmietnuté</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>databáza nebola dostupná</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>interná chyba</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>Prebieha beh</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind spustil %user o %time.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>Sledovať</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>Inštalácia je zamknutá</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>Zámok drží iný beh (aktualizácia alebo beh v konzole): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>hotové</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>čaká</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>nepotrebné</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>neznáme</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>vrátené</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>použité</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>bolo by použité</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>vzaté späť</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>bolo by vzaté späť</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>nespustené</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>čaká na inú</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>zmena prijatá</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>zmena by bola prijatá</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>simulované</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migrácie</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Stav</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>História</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>Vziať späť %target</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>Beh sa vráti na snímku vytvorenú pred ním, jedna migrácia pomocou svojej down(). Obnovenie staršej snímky je pre odborníkov. Každé beží na pozadí pod vaším menom, po vytvorení snímky aktuálneho stavu.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>Nepodarilo sa prečítať, čo sa dá vziať späť: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>Beh</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>Jedna migrácia</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>Staršia snímka</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>Popis</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>áno</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>nie</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Snímka</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Označenie</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>Vytvorené</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Druh</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>Časti na obnovenie</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>Databáza</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>Súbory úložiska (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>Nastavenia (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>Obnovenie databázy ju vráti do času snímky vrátane relácií: potom vás môže systém požiadať o opätovné prihlásenie. Všetko, čo sa odvtedy zmenilo, sa stratí; najprv sa vytvorí snímka aktuálneho stavu.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>Viem, čo sa tým obnoví</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>Zadajte znova id snímky</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>Áno, vziať späť</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Zrušiť</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>Behy so snímkou vytvorenou pred nimi.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>Vybrať</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>Zatiaľ žiadny beh so snímkou.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>Použité migrácie, ktoré sa dokážu samy vziať späť (majú down()).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>Žiadna použitá migrácia nemá down().</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>Staršie snímky (odborníci)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>Zatiaľ žiadna snímka.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>Spustiť migrácie</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>Beh prebieha na pozadí ako %user a jeho stránka ho zobrazuje počas priebehu. Pred prvou migráciou sa vytvorí snímka inštalácie; keď migrácia zlyhá, beh sa zastaví a snímka sa obnoví.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>Najprv skúšobný beh</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Stav sa nepodarilo prečítať: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>Čakajúce migrácie</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>Bežia v tomto poradí. Zrušte začiarknutie migrácie, ak ju a tie, ktoré ju vyžadujú, chcete nechať na neskorší beh.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>Spustiť</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>Počas behu zapne režim údržby.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>Zmenené po použití</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>Tieto súbory nie sú tie, ktoré boli použité. Beh ich odmietne, pokiaľ zmena nie je prijatá s odôvodnením; znova sa nespustia, zaznamená sa nový kontrolný súčet a dôvod sa uchová v protokole auditu.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>Prijať zmeny</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Prečo</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>Predvolené hodnoty sú bezpečné. Každé políčko vynechá jeden krok.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>Bez snímky</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>Žiadna snímka pred behom a po ňom: zlyhanie sa nedá automaticky obnoviť.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>Bez obnovenia</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>Po zlyhaní nechať inštaláciu v stave, v akom ju zlyhanie zanechalo.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>Ponechať necommitnuté zmeny</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>Spustiť, aj keď nastavenia, rozšírenia alebo dizajny majú necommitnuté zmeny; tie sa dostanú do snímky.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>Bez commitu</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>Necommitovať súbor stavu a protokol behu (ani tag, ani odoslanie).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>Bez odoslania</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>Commit a tag, ale neodosielať.</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>Bez tagu</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>Commit a odoslanie, ale beh neoznačiť tagom.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>Áno, spustiť tieto migrácie teraz</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Žiadna migrácia nečaká.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>Späť na stav</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>Zmeny tejto inštalácie zapísané raz ako súbory (obsah, triedy, roly, nastavenia, schéma) a použité na každej inštalácii webu v rovnakom poradí. Beh najprv vytvorí snímku, obnoví ju, keď migrácia zlyhá, a zaznamená, commitne a odošle, čo urobil.</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>Spustiť čakajúce (%count)</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Prehľad</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Čaká na vybavenie</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Hotové</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Zlyhalo</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>Nepotrebné</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>Databáza</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>transakcie: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>Migrácie webu sú v migrations/, migrácie rozšírenia v extension/&lt;name&gt;/migrations/. Bežia v poradí podľa názvov a toho, čo vyžadujú.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Posledný beh</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>Súbor sa zmenil po použití.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>Zatiaľ žiadna migrácia. Prvú zapíše ./console exp:migration:generate --skeleton &lt;name&gt; --apply.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>Najnovšie behy</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>Všetky behy</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>Zatiaľ žiadny beh.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>Simulácia behu vyžaduje oprávnenie migration/run.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>Prebieha beh: simulujte, keď sa skončí.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Nastavenie</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target nie je beh, migrácia ani snímka tejto inštalácie.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>Najprv začiarknite „Áno, vziať späť“.</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>Obnovenie staršej snímky je pre odborníkov: začiarknite „Viem, čo sa tým obnoví“.</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>Zadajte znova id snímky: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>Vyberte aspoň jednu časť na obnovenie.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>Tento beh nemá snímku vytvorenú pred ním: vezmite jeho migrácie späť jednu po druhej alebo obnovte staršiu snímku.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>Túto migráciu nemožno vziať späť samostatne: nie je použitá alebo nemá down().</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Formulár sa nepodarilo prečítať.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>Vyberte beh, v ktorom sa má pokračovať.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>Najprv začiarknite „Áno, spustiť tieto migrácie teraz“.</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>Vyberte aspoň jednu migráciu.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>Migrácia sa zmenila po použití: prijmite zmenu s odôvodnením alebo vráťte súbor späť.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>Uveďte dôvod, prečo sa zmenené migrácie prijímajú.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>Dôvod môže mať najviac 500 znakov.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>Beh spustený tu stále prebieha (%detail). Počkajte, kým sa skončí.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>Zámok inštalácie drží iný beh: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>Beh vyžaduje prihláseného existujúceho používateľa.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Nenašiel sa žiadny program php pre príkazový riadok. Nastavte migration.ini [AdminSettings] PhpCliPath na jeho úplnú cestu.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open je vypnuté, preto tu nemožno spustiť beh. Spustite ./console exp:migration:migrate --apply na serveri.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>Do priečinka behov nemožno zapisovať: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>Beh sa spustil, ale neohlásil id svojho procesu. Skontrolujte %detail.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>Uveďte, čo sa má vziať späť.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>Beh sa nepodarilo spustiť.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>Nahrávanie zmien</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>Počas nahrávania sa to, čo meníte v administrácii alebo v bočnom paneli webu, ukladá ako kroky migrácie: obsah, triedy, roly a pravidlá, sekcie, používatelia a skupiny, aliasy URL, nastavenia. Keď skončíte, nahrávanie zastavte, pozrite sa, čo zachytilo, a vygenerujte z neho migráciu.</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>Nahrávky sa nepodarilo prečítať: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>Tabuľky nahrávok zatiaľ neexistujú: najprv spustite aktualizáciu (exp:upgrade --apply).</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>Nahrávanie je v migration.ini vypnuté ([RecordingSettings] Recording=disabled).</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>Moje zmeny</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>Nahráva len to, čo meníte vy, kdekoľvek to meníte, kým ho nezastavíte.</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>Nahrávanie</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>od %time, zatiaľ zmien: %count.</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>Označenie (voliteľné)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>Zobraziť, čo zachytilo</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Zastaviť nahrávanie</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>Začať nahrávať moje zmeny</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>Okno pre celý web</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>Nahráva každú zmenu každého používateľa aj konzoly, kým sa nezatvorí. Pri otvorení vás požiada o overenie, že ste to vy.</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Otvorené</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>Zatvoriť okno</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>Otvoriť okno pre celý web</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>Nahrávky</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>Účet používateľa (prihlasovacie meno, e-mail, heslo) a polia používateľských účtov sa nikdy nenahrávajú.</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Zmeny</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>Celý web</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>Zmeny používateľa %name</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Zastavené</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>Zatiaľ žiadna nahrávka.</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>Nahrávka %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>Všetky nahrávky</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>Migrácia, ktorá by z nej vznikla</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>Zmeny zlúčené do jedného kroku na každú zmenenú vec: čo by urobila migrácia vygenerovaná z tejto nahrávky.</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>Migráciu z nej bude možné vygenerovať, keď táto inštalácia bude mať typy krokov YAML %types.</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>Zámerne vynechané: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>Nič sa nenahralo.</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>Čo zachytilo</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>Zmien: %count, v poradí, v akom boli urobené.</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Zmena</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>Krok</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>Týka sa</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>Ďalších %count: ./console exp:migration:record:show vypíše všetky.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Zahodiť</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>Odstráni nahrávku a to, čo zachytila. Čo sa zmenilo, zostane zmenené.</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>Áno, zahodiť túto nahrávku</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>Nahráva sa…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Vaše zmeny sa nahrávajú pre migráciu.</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>Každá zmena na tomto webe sa nahráva pre migráciu (okno pre celý web).</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>Nahrávanie celého webu sa začalo: každá zmena každého používateľa sa nahráva, kým ho nezastavíte.</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>Nahrávanie sa začalo: vaše zmeny sa nahrávajú, kým ho nezastavíte.</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>Nahrávanie zastavené. Čo zachytilo, zostane, kým ho nezahodíte.</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>Nahrávka a jej udalosti boli odstránené.</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>Nahrávka %id neexistuje.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>Najprv začiarknite „Áno, zahodiť túto nahrávku“.</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>Nahrávanie relácie môže zastaviť len používateľ, ktorý nahrával.</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>Vyberte nahrávku, ktorú chcete zastaviť.</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>Nahrávanie tohto druhu už prebieha.</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>Nahrávku sa nepodarilo zmeniť: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>Vygenerovať migráciu</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>Názov migrácie (nepovinné)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>Migrácia %file bola zapísaná. Zmeny, ktoré žiadny krok nedokáže urobiť, sú uvedené na začiatku súboru a treba ich urobiť ručne.</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>Žiadna migrácia nebola zapísaná: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>Dlhé spustenie po častiach</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>Prázdne polia ponechajú nastavenia z migration.ini [RunSettings].</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>Najviac toľko migrácií</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>Žiadna ďalšia migrácia po (sekundách)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>Pauza medzi migráciami (sekundy)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>Nižšia priorita (1 až 19)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>Pole dlhého spustenia je celé číslo od 1 (pauza: sekundy od 0 do 60, priorita: 1 až 19) alebo prázdne.</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>Zatvorí sa samo o %time.</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>Zatvoriť samo po (minútach, voliteľné)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>Minúty sú celé číslo od 1 do 44640 (31 dní) alebo prázdne.</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>Migrácia %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>Nová migrácia</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>YAML migrácia: napíšte ju ako text alebo zostavte jej kroky vo formulári, skontrolujte ju a potom ju uložte do priečinka migrácií.</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>Táto migrácia už bola spustená, preto sa znova neukladá: zmenený súbor by ochrana kontrolným súčtom odmietla. Zmenu urobte v novej migrácii.</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>Webový server nemôže zapísať súbor.</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>Riadky komentárov na začiatku tvoria hlavičku (description, author, requires, environments, engines). Keď sa vo formulári pridá alebo zmení krok, migrácia sa zapíše nanovo: komentáre medzi krokmi sa nezachovajú.</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>Názov migrácie</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>Kam patrí</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>Web</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>Text YAML</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>Kontrola</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Uložiť</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Kroky</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>Kľúče</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Upraviť</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>Posunúť nahor</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>Posunúť nadol</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Odstrániť</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>Zatiaľ žiadne kroky: pridajte jeden pomocou formulára alebo ich napíšte do textu.</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>Zmeniť krok %number</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>Pridať jeden krok</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>Formulár kroku vychádza z jeho typu kroku: jeho kľúče, čo každý prijíma a do ktorých režimov patrí.</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>Typ kroku</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>Zobraziť jeho formulár</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>Krok má kľúče, ktoré jeho typ nepozná; pri zmene kroku sa vynechajú: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>Režim</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>V</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>len v %modes</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>Predvolené: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>Podmienky, referencie a komentár</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>Dvojice názov=hodnota oddelené čiarkami. Hodnoty tohto kroku: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>Príklad</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>Zmeniť krok</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>Pridať krok</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>Čo hovorí exp:migration:check: hlavička, dokument a každý krok skontrolovaný svojím typom kroku.</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>Migrácia prechádza kontrolou.</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Ukážka</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>YAML tak, ako bude uložený.</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>Zobraziť YAML</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>YAML migrácie</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>spustená</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>Zatiaľ nie sú žiadne YAML migrácie.</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>Redakčné rozhranie</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>V priečinkoch migrácií nie je žiadna YAML migrácia %id.</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>Vyberte typ kroku.</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>Krok je pridaný. Pred uložením migráciu skontrolujte.</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>Krok je zmenený. Pred uložením migráciu skontrolujte.</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>Vyberte krok.</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>Tento krok nemá formulár (slučka alebo typ kroku, ktorý táto inštalácia nemá): zmeňte ho v texte.</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>Vyberte, kam migrácia patrí: web alebo aktívne rozšírenie.</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>Súbor %file je uložený. Pred spustením migrácie spustite skúšobný beh.</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>Neuložené: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>Vzdialené ciele</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>Ostatné inštalácie, na ktoré táto nasadzuje svoje migrácie: nasadenie odošle migrácie na zvolené vzdialené ciele a spustí ich tam, na všetkých naraz a synchrónne. Vzdialený cieľ nikdy neobsahuje tajný údaj: jeho prihlasovacie údaje odkazujú na jeden v Nastavenie &gt; Tajné údaje.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>Nový vzdialený cieľ</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Pomocník</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>Test pripojenia k %id</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>Vzdialené ciele</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>Naraz sa spracúva až %parallel vzdialených cieľov; jedna fáza môže na každom trvať %timeout sekúnd.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>Vzdialený cieľ</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adresa</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Prihlasovacie údaje</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>Skupiny</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>nastavenia na opravu</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>iba súbory (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>Kľúč SSH</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>Heslo</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>žiadne (agent SSH a kľúče hostiteľa)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>Otestovať pripojenie</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>Nasadenie do skupiny ide na každý jej vzdialený cieľ.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>Nasadiť na vzdialené ciele</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>Zatiaľ nie je nastavený žiadny vzdialený cieľ.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>Vzdialený cieľ %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>Tu sa nič neodosiela ani nespúšťa: Uložiť zapíše nastavenia do settings/override/migration.ini.append.php. Prihlasovacie údaje sú názov; ich hodnota zostáva v Nastavenie &gt; Tajné údaje alebo v prostredí.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Skontrolujte tieto nastavenia</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>Nastavenia tak, ako boli zadané, zatiaľ neuložené.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Kontrola</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Nastavenia sú platné. Zapíšu sa tieto riadky:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>Prenos</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>iba názov; hodnota zostáva v Nastavenie &gt; Tajné údaje</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Riadky, ktoré sa zapíšu</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>Pripojenie</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>Kľúč hostiteľa</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. Vzdialený cieľ</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>Ako sa vzdialený cieľ volá a o aké prostredie ide.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>Písmená, číslice, - a _, napríklad production1. Označuje vzdialený cieľ v hláseniach a v konzole (--remotes=production1) a neskôr sa nedá zmeniť.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... Nasadenie po etapách prechádza prostrediami v tomto poradí.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>Voliteľné, oddelené čiarkami, napríklad production. Nasadenie do skupiny ide na každý jej vzdialený cieľ.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. Pripojenie</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>Ako sa súbory dostanú tam a kde je inštalácia.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>Cez SSH, iba to, čo sa zmenilo, prerušený prenos sa obnoví. Najlepšia voľba tam, kde je nainštalovaný rsync.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>SSH so scp pre súbory.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>SSH so sftp pre súbory.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>Iba súbory: migrácie sa odošlú a spätne prečítajú, ale nedajú sa tam spustiť.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>FTP cez TLS; iba súbory.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>Iná inštalácia na tomto serveri, v priečinku.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Hostiteľ</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>Názov hostiteľa alebo adresa, napríklad node1.example.com. Nie pre local.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>Port</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>Prázdne: 22 pre SSH, 21 pre FTP.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Používateľ</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>Cesta</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>Koreňový adresár inštalácie tam, napríklad /var/www/site (pre FTP: cesta, ktorú vidí účet FTP).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>Príkazový riadok PHP</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>PHP CLI tam: php alebo úplná cesta, napríklad /opt/plesk/php/8.4/bin/php.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>Skripty konzoly tam bežia ako root</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>Iba ak je používateľ vzdialeného cieľa root (potom sa spúšťajú s --allow-root-user).</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. Prihlasovacie údaje</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>Ako sa táto inštalácia tam prihlasuje. Uloží sa iba názov.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Žiadny</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>Agent SSH a kľúče používateľa, pod ktorým táto inštalácia beží (a vždy pre local).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>Súkromný kľúč uložený ako tajný údaj.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>Heslo uložené ako tajný údaj (FTP sa ním prihlasuje).</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>Názov tajného údaja</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>Tajný údaj z Nastavenie &gt; Tajné údaje, napríklad deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Nastavenie &gt; Tajné údaje</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>Alebo premenná prostredia</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>Premenná serverového procesu, ktorá ho obsahuje, napríklad DEPLOY_KEY (uložené ako env:DEPLOY_KEY). Nahrádza názov tajného údaja.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. Kľúč hostiteľa</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>Voliteľné, pre SSH, sftp a rsync.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>Odtlačok kľúča hostiteľa</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... tak, ako ho vypíše ssh-keygen -l. S ním musí hostiteľ ukázať tento kľúč; bez neho sa kľúč naučí pri prvom kontakte.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. Kontrola</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>Otestujte pripojenie s nastaveniami vyššie a potom skontrolujte riadky, ktoré sa zapíšu.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>Odstrániť tento vzdialený cieľ</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>Jeho nastavenia sa odstránia zo settings/override/migration.ini.append.php. Na vzdialenom cieli sa nič nezmení a jeho nasadenia zostanú v histórii.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>Áno, odstrániť tento vzdialený cieľ</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>Nasadenia</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>Nasadenie odošle migrácie tejto inštalácie na zvolené vzdialené ciele a spustí ich tam ako %user, na všetkých naraz a synchrónne: každý vzdialený cieľ sa najprv skontroluje, a keď jeden zlyhá, na každom vzdialenom cieli, ktorý ich použil, sa zmeny vezmú späť. Beží na pozadí a jeho stránka priebežne zobrazuje každý vzdialený cieľ.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. Vzdialené ciele</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>Označte vzdialené ciele, skupinu alebo oboje.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>Nasadiť tam</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. Spôsob</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>Nasadiť</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>Odoslať a spustiť</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>Migrácie sa odošlú, overia a spustia na každom vzdialenom cieli s jedným spoločným ID behu.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>Iba preniesť</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>Súbory sa odošlú a overia, nič sa nespustí (jediný spôsob pre vzdialený cieľ FTP).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>Po etapách</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>Etapu po etape v poradí prostredí (dev, stage, beta, production ...): prvá etapa sa nasadí, potom brána čaká, kým niekto schváli ďalšiu. Všetko alebo nič v rámci každej etapy.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>Iba tieto migrácie</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>Voliteľné: ID migrácií oddelené čiarkami. Prázdne: každá migrácia stránky a jej rozšírení.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>Iba predbežná kontrola</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>Áno, nasadiť teraz</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>Nasadenia, ktoré niečo odoslali alebo spustili, najnovšie ako prvé (predbežná kontrola si hlásenie neuchováva).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>iba preniesť</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>po etapách, počet etáp: %stages</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>nesynchrónne</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>Zatiaľ žiadne nasadenie.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>Nasadenie %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Každý vzdialený cieľ nasadenia s jeho stavom. Nasadenie spustené tu pokračuje na pozadí, keď sa táto stránka zatvorí; ak ho chcete sledovať, otvorte stránku znova.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>Všetky nasadenia</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>Predbežná kontrola</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>Ďalšia etapa</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>Kontrolujú sa nastavenia a prihlasovacie údaje</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>Predbežná kontrola: číta sa stav každého vzdialeného cieľa</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>Odosielajú sa súbory migrácií</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>Overuje sa, čo prišlo</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>Migrácie sa spúšťajú na každom vzdialenom cieli</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>Zmeny na vzdialených cieľoch sa berú späť</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>Nasadenie skončilo. Načítava sa jeho hlásenie.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>Priebeh sa nepodarilo sledovať. Znova načítajte stránku a uvidíte, ako nasadenie pokračuje.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>Fáza</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>Táto stránka sleduje nasadenie počas jeho priebehu.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>Synchrónne</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>Etapy</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>etapa %stage čaká pri svojej bráne</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>Brána %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>schválil %user o %time</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>Etapa</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>Odoslané súbory</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>Verzia jadra</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>použité: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>na použitie: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>Fázy</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>Brána: etapa %stage z %stages</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>Etapy pred ňou sú nasadené. Skontrolujte ich a potom schváľte ďalšiu etapu: jej vzdialené ciele sa znova skontrolujú a nasadia, všetko alebo nič.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Ďalej</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>Áno, nasadiť ďalšiu etapu teraz</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Schváliť</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>Vrátiť toto nasadenie</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>Každý vzdialený cieľ, ktorý ho použil (%list), sa vráti k snímke vytvorenej pred jeho behom, všetky naraz.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>Áno, vrátiť toto nasadenie teraz</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>naplánované</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>prenesené</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>nasadené</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>čaká pri bráne</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>vybraté</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>pripravené</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>pripravené</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>čaká na svoju etapu</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>súbory odoslané</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>overené</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>zlyhalo, obnovilo sa samo</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>nezmenené</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>nenasadené</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>nedostupné</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>Vzdialený cieľ odpovedal.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>Vzdialený cieľ sa teraz nedá použiť.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done hotové, %pending čaká, %failed zlyhalo</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>Zámok</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>beh tam drží zámok</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>voľné</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stage z %stages</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>Vyberte vzdialený cieľ, ktorý sa má otestovať.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>Najprv označte „Áno, odstrániť tento vzdialený cieľ“.</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>Vzdialený cieľ sa nepodarilo odstrániť: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>Vzdialený cieľ sa nepodarilo uložiť: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Súbor nastavení nie je možné prečítať: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>Vyberte aspoň jeden vzdialený cieľ alebo skupinu.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>Zvolený vzdialený cieľ už nie je v nastaveniach. Znova načítajte stránku.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>Najprv označte „Áno, nasadiť teraz“.</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>Vzdialený cieľ FTP nemôže spúšťať migrácie: zvoľte „Iba preniesť“ alebo ho vynechajte.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>Migrácie na nasadenie sú ID migrácií oddelené čiarkami.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>Nasadenie ešte prebieha. Počkajte, kým skončí.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>Toto nasadenie nečaká pri bráne.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>Žiadny vzdialený cieľ toto nasadenie nepoužil: nie je čo vrátiť.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>Najprv označte „Áno, nasadiť ďalšiu etapu teraz“.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>Najprv označte „Áno, vrátiť toto nasadenie teraz“.</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>Vzdialený cieľ s ID %id už existuje.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>Port je číslo od 1 do 65535.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>Prostredie je slovo z písmen, číslic, - a _ (alpha, dev, stage, beta, production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>Skupina je slovo z písmen, číslic, - a _ (nie all): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>Prihlasovacie údaje sa teraz nedajú prečítať: %problem. Pred prvým nasadením ich uložte v Nastavenie &gt; Tajné údaje (alebo nastavte premennú).</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>Vzdialený cieľ FTP iba prijíma súbory: nasadenie naň je „Iba preniesť“ a jeho migrácie sa tam spúšťajú ručne.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>Vzdialený cieľ %id nie je v settings/override/migration.ini.append.php; odstráňte ho tam, kde je nastavený.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>Prihlásené cez FTP a prečítaný index.php. Stav migrácií vzdialeného cieľa FTP sa nedá prečítať.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>Zmenené</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>Vytvorené</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Názov</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Trieda</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Sekcia</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>Autor</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Nový obsah</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>Naposledy vytvorený a zmenený obsah celej lokality, od najnovšieho: čo odoslali návštevníci, čo je zadržané na kontrolu, koncepty čakajúce na publikovanie. Vyberte položky, ak ich chcete uvoľniť, zadržať, skryť, zobraziť, odstrániť alebo presunúť do inej sekcie či stavu.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>Zoznam sa nepodarilo načítať: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>Zadržanie na kontrolu ešte nie je nastavené, takže nič nie je zadržané a akcie zadržania sa neponúkajú. Nastaví ho krok aktualizácie 6.0.15-review-hold: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Filtrovať zoznam</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Od</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Do</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Dátum</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>Vytvorené (prvé publikovanie)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Všetko</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Stav publikovania</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Publikované</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>Koncept, nikdy nepublikovaný</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>Čaká na vybavenie (čaká na schválenie alebo na dátum)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>V koši</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Zadržané na kontrolu</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>Zadržané</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>Nezadržané</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>Skryté</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>Viditeľné</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>Odoslané dňa</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>Akýkoľvek prístup k lokalite</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>Iba to, čo zaznamenal audit.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>Teraz: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>Prihlasovacie meno alebo ID používateľa.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Filtrovať</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>Vymazať filtre</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>Položky</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from až %to z %count</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Žiadna položka</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(načítané za %ms ms)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>Akcie s vybranými položkami</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>Vybrať všetko na tejto stránke</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>Vybrané: %count</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Akcia</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>Zvoľte akciu</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>Uvoľniť zadržanie</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Zadržať na kontrolu</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Skryť</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>Zobraziť</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>Premiestniť do koša</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>Odstrániť</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>Priradiť sekciu</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>Priradiť stav</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>Dôvod</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>Potrebný na zadržanie; uchová sa so zadržaním a v audite.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>Zvoľte sekciu</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Stav</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>Zvoľte stav</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>Použiť na vybrané</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>Každá položka sa overí podľa vašich vlastných oprávnení. Premiestnenie do koša a odstránenie vyžadujú potvrdenie. Viac ako %count položiek sa spracuje na pozadí.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>Vybrať</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>Publikovanie</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>Odoslané z</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>Vybrať %name</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>zatiaľ nie</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(bez názvu)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>Koncept</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Čaká na vybavenie</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>Skryté nadradenou položkou</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>Zadržané: nové odoslanie</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>Verzia %version čaká</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>Verzia %version sa upravuje</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>Koncept, verzia %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>Verzia %version publikovaná</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>Naplánované na %date</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>bez adresy</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>nezaznamenané</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>Týmto filtrom nič nezodpovedá.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Zobraziť všetko</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>Zatiaľ tu nie je žiadny obsah.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Na stránku</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Zobraziť %count položiek na stránku.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says &quot;not recorded&quot;.</source>
+        <translation>Adresa a prehliadač odoslania pochádzajú z indexu auditu, ktorý tu nie je k dispozícii: stĺpec uvádza „nezaznamenané“.</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>Adresa a prehliadač sú tie, ktoré audit pri položke zaznamenal (automatické zadržanie ich zaznamenáva vždy; publikovanie a vytváranie iba tam, kde je to zapnuté), v rozsahu, v akom ich uchovávajú jeho nastavenia ochrany súkromia.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: %count položiek</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>Odstránenie vymaže položky natrvalo, so všetkými ich verziami a prekladmi. Nedá sa to vrátiť späť.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>Položky sa presunú do koša, odkiaľ ich možno obnoviť.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>Každá položka sa overí podľa vašich vlastných oprávnení; položka s podriadenými položkami zostane bez zmeny (odstráňte ju v štruktúre obsahu). Budete požiadaní o overenie, že ste to vy.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>Toto beží na pozadí: otvorí sa stránka s priebehom a výsledok pre každú položku sa zobrazí po dokončení.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>Vybrané položky</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>a %count ďalších</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Zrušiť</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>Nič sa nevykonalo</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Dôvod: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>Akcia stále beží na pozadí.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>Jej priebeh</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>Akcia na pozadí zlyhala: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Hotovo</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Odmietnuté</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Zlyhané</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>Podľa položiek</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>Položka</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Výsledok</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Prečo</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>Späť na zoznam</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Nastavenie</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>Nič nevykonané</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>Potvrdiť</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>Zvoľte akciu.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>Vyberte aspoň jednu položku.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>Vyberte naraz najviac 1000 položiek.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>Uveďte, prečo sú položky zadržané.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>Zvoľte sekciu.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>Zvoľte stav.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Formulár sa nepodarilo načítať.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>Nástenka</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>Nový obsah</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>Počty sa nepodarilo načítať: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Zadržané na kontrolu</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>Dnes nové</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Zadržanie na kontrolu ešte nie je nastavené (krok aktualizácie 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>Všetok nový obsah</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>Nemáte oprávnenie spúšťať akcie moderovania (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>Akcia moderovania nie je dokončená: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>Moderovanie: %action pri %count objektoch</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%done z %total objektov: %ok vykonané, %refused odmietnuté, %failed zlyhané</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok vykonané, %refused odmietnuté, %failed zlyhané</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>Už neexistuje.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>Nemá žiadne umiestnenie (nie je publikované).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>Nemáte oprávnenie to skryť (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>Nemáte oprávnenie to zobraziť (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>Už je skryté.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>Nie je skryté.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>Skryté.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>Zobrazené.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>Je v koši: vyprázdnite kôš alebo to tam obnovte.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>Koncept, ktorý nebol nikdy publikovaný, nemôže ísť do koša: odstráňte ho.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>Nemáte oprávnenie to odstrániť (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>Odstránené.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>Nemáte oprávnenie to premiestniť do koša (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>Má podriadené položky: odstráňte to v štruktúre obsahu, kde sú uvedené.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>Nebolo odstránené (odstránenie môže zadržiavať pracovný postup).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>Premiestnené do koša.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>Sekcia neexistuje.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>Už je v tejto sekcii.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>Nemáte oprávnenie priradiť túto sekciu (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>Sekcia nebola priradená.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>Sekcia priradená.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>Stav neexistuje.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>Už je v tomto stave.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>Nemáte oprávnenie priradiť tento stav (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>Stav nebol priradený (zmenu môže zadržiavať pracovný postup).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>Stav priradený.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>Taká akcia neexistuje.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Zadržanie na kontrolu nie je nastavené (krok aktualizácie 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>Uveďte, prečo je zadržané.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>Už je zadržané.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>Nemáte oprávnenie to zadržať (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>Zadržanie nebolo nastavené (zmenu môže zadržiavať pracovný postup).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>Zadržané.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>Nie je zadržané.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>Nemáte oprávnenie to uvoľniť (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>Zadržanie nebolo uvoľnené (zmenu môže zadržiavať pracovný postup).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>Uvoľnené; stále skryté: nemáte oprávnenie to zobraziť (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>Uvoľnené.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>Všetky ciele</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Posledné publikovanie</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>Publikujte bezplatnú statickú kópiu svojej stránky na GitHub Pages:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Neaktuálne stránky</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Statické publikovanie</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Statické publikovanie je vypnuté.</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Cieľ</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Ciele sa nepodarilo prečítať: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>prebieha úloha</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>zostavenie na kontrolu</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>skryť toto</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>vytvoriť cieľ</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>nikdy</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>prečítať návod</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>%added pridaných, %changed zmenených, %removed odstránených</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%bytes z %limit (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>Ďalších %count nie je uvedených.</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>Zapísané stránky: %pages</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path má %size, viac, než hosting povoľuje pre jeden súbor.</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>%percent % limitu</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds s</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag je publikovanie, ktoré má stránka teraz.</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: úloha %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>/repozitar/ pre projektovú stránku GitHub; prázdne pre vlastnú doménu alebo stránku používateľa.</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. Stránka</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. Hosting</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. Prihlásenie do repozitára</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. Repozitár</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. Odkazy a základná cesta</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. Vaša vlastná doména</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. Čo obsahuje zostavenie</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. Kedy sa publikuje</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. Kontrola a uloženie</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>Projektová stránka GitHub sa nachádza pod /&lt;repository&gt;/; relatívne odkazy fungujú tam aj kdekoľvek inde.</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>Zostavenie načíta každú stránku %site tak, ako ju vidí neprihlásený návštevník, prepíše odkazy, skopíruje súbory a zapíše výsledok do priečinka cieľa. Nič sa nepublikuje, kým zostavenie neskontrolujete a nestlačíte Publikovať.</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>Výraz cron, napríklad 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>Kľúč nasadenia je uložený ako tajný údaj %secret.</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>Kľúč nasadenia umožňuje tejto inštalácii odosielať (push) cez SSH do jedného repozitára a nikam inam. Jeho súkromná časť zostáva v Nastavenie &gt; Tajné údaje; zobrazuje sa iba verejná časť.</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>Kľúč nasadenia vytvorený pre tento cieľ</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>Kľúč nasadenia sa prihlasuje cez SSH: zmeňte git adresu na adresu SSH (git@github.com:owner/repo.git).</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>Prebieha úloha, ktorú spustil(a) %user</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>Úloha tohto cieľa stále prebieha (%detail). Počkajte, kým skončí.</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>Úloha tohto cieľa stále prebieha. Počkajte, kým skončí.</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>Odkaz zo stránky /news/ na stránku /about-us/team sa zapíše ako</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>Bol vytvorený nový kľúč nasadenia. Pridajte teraz jeho verejnú časť do repozitára.</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>Stránka, ktorá po vyčistení stále obsahuje ladiaci výstup, token formulára alebo ID relácie, sa nikdy nepublikuje.</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>Vrátenie je pre expertov: zaškrtnite „Viem, čo to zmení“ a znova zadajte názov značky.</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>Stránka môže mať až %site, jeden súbor až %file, s približne 100 GB prenosu za mesiac. V bezplatnom pláne musí byť repozitár verejný. GitHub Pages nie je určené pre obchody ani iné komerčné transakcie.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>Cieľ je jedna stránka publikovaná do jedného git repozitára. Nič sa tu nezostavuje ani nepublikuje: Uložiť zapíše nastavenia do settings/override/staticcache.ini.append.php.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>Cieľ je jedna stránka publikovaná na jedno miesto, napríklad vaša verejná stránka na GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>Token z Nastavenie &gt; Tajné údaje</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>Publikuje ho pracovný postup (workflow) repozitára.</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>Pridajte tento verejný kľúč do repozitára s právom zápisu. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, zaškrtnite Allow write access.</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>Pridané</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>Iný git hosting</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>Na tomto cieli pracuje iný proces: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>Späť</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>Základná cesta</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Predtým</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>Pod základnou cestou</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>Vetva</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>Nefunkčné odkazy</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>Nefunkčné odkazy v zostavení</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>Zostavenie</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>Zostavenie %id od %user</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>Zostavenie %name</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>Zostaviť teraz</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>Zostavenie na kontrolu</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Kto</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>Ručne, tu</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Zrušiť</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Zmeniť</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>Zmenené</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Zmeny</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>Najprv to skontrolujte</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Skontrolujte tieto nastavenia</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>Skontrolujte, čo zostavenie mení, pozrite si ho a potom ho publikujte alebo zahoďte.</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>Vyberte publikovanie, ku ktorému sa chcete vrátiť.</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>Príde v neskoršom vydaní.</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Potvrdenie (commit)</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>Potvrdenia (commity)</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>Vytvorí commit zostavenia, označí ho značkou a odošle ho do %remote. Odoslanie sa nikdy nevynucuje; neskôr sa môžete vrátiť k ľubovoľnému publikovaniu.</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>V porovnaní s predchádzajúcim priečinkom: %added pridaných, %changed zmenených, %removed odstránených, %unchanged nezmenených.</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>V porovnaní s posledným publikovaním.</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Prihlasovacie údaje</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>Vlastná doména</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>Ladiaci výstup, tokeny formulárov, ID relácií a jednorazové hodnoty (nonce) sa vždy odstránia.</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>Kľúč nasadenia</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>Kľúč nasadenia %name</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Zahodiť</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>Zahodiť zostavenie</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>Doména</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>Prázdne: adresa stránky. Inak interná adresa tej istej stránky.</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Skončené</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>Každý odkaz začína základnou cestou.</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>Každé publikovanie je commit so značkou static/%id/&lt;n&gt;. Návrat vytvorí nový commit so súbormi skoršieho publikovania: história zostáva, žiadna značka sa nepresúva a nič sa nevynucuje.</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>Doplnky</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>Načítať stránky z</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Súbor</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>Súbory</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>Chýbajúce súbory</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>Súbory z</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>Súbory, ktoré sa nepodarilo zhromaždiť</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>Odtlačok</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>Priečinok</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>Pre adresu SSH. Kľúč sa vytvorí po uložení; jeho verejnú časť pridáte do repozitára.</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>Pre adresu https://. GitHub: jemne odstupňovaný token (fine-grained) s oprávnením Contents na čítanie a zápis v repozitári.</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>Pre expertov. Verejná stránka sa zmení hneď, ako odoslanie prebehne.</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Formuláre</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>Bezplatný hosting z repozitára GitHub.</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>Z vetvy</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>Git adresa</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>Aplikácia GitHub</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages povoľuje stránku s veľkosťou %site a súbor s veľkosťou %file.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>Limity GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages publikuje súbory tak, ako sú (potrebné pre súbory začínajúce na _).</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub poskytuje vetvu tak, ako bola odoslaná. Predvolené.</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, váš vlastný server: ľubovoľný git repozitár.</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>Vrátiť sa k skoršiemu publikovaniu</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Pomocník</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>Pomoc so sprievodcom</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>Skryť ich</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>História</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>História %name</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Hosting</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>Ako GitHub Pages prijíma zostavenie</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>Zmeny som skontroloval(a)</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>Viem, čo to zmení</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>Je vypnuté: kým sa nezapne, nič sa nedá zostaviť.</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>Beží na pozadí ako %user; túto stránku môžete zavrieť.</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>Úloha %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>Uložené ako tajný údaj %secret.</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Druh</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Posledné publikovanie</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>Vynechať tieto stránky</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>Vynechať tieto sekcie</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Odkazy</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>Prepísané odkazy</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>Živá stránka</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>Pozrieť si zostavenie</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>Malé písmená, číslice, _ a -, napríklad github-public. Pomenúva priečinok a značky (static/&lt;id&gt;/&lt;n&gt;) a neskôr sa nedá zmeniť.</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>Vytvoriť nový kľúč</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>Vytvoriť cieľ</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>Vytvoriť kľúč</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>Najprv vytvorte repozitár na hostingu; prázdny stačí.</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>Zoznam súborov (manifest)</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Správa</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>Väčšina stránok</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Názov</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>Názov tokenu v Nastavenie &gt; Tajné údaje</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>Nový cieľ</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Ďalej</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>Nie</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>Zatiaľ žiadny commit.</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>Nebol vytvorený žiadny kľúč: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Nenašiel sa žiadny binárny súbor php pre príkazový riadok. Nastavte migration.ini [AdminSettings] PhpCliPath na jeho úplnú cestu.</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>Zatiaľ žiadna značka.</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>Zatiaľ žiadny cieľ.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Žiadne</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>Nie je v zostavení.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>Zatiaľ nebolo nič publikované.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>Zatiaľ nebolo nič publikované: každý súbor je nový.</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>Upozornenia</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>Podľa plánu</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>V konzole</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>Na serveri: ./console exp:static:serve %id ho poskytuje rovnakým spôsobom.</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>Jedna cesta na riadok, * zodpovedá ľubovoľnej časti: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>S cieľom sa ukladá iba názov; samotný token alebo kľúč zostáva v Nastavenie &gt; Tajné údaje a nikdy sa neobjaví v protokole.</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>Iba to, čo stránky uvádzajú</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>Iba s tokenom. env:NAME namiesto toho číta premennú prostredia servera.</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>Otvoriť náhľad</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>Otvorí zostavenie tak, ako ho bude poskytovať hosting, z priečinka cieľa. Odkaz vám funguje hodinu.</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>Voliteľné. Prázdne: to, čo bolo publikované.</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>Voliteľné. S doménou sa stránka poskytuje v jej koreni.</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Výstup</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>Stránky</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>Stránky cieľa</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>Odmietnuté stránky</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>Následné spracovanie</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Náhľad</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>Náhľad a publikovanie</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>Náhľad a publikovanie %name</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>Náhľad zostavenia</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Priebeh</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>Verejná adresa</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>Verejný kľúč</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>Publikovať</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>Publikujte statickú kópiu stránky na GitHub Pages alebo na ľubovoľný git hosting: zostavte ju, skontrolujte zmeny, publikujte a v prípade potreby sa vráťte k skoršiemu publikovaniu.</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>Publikovanie, ku ktorému sa vrátiť</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>Publikovania</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Odoslanie</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>Prečítať návod</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Záznam</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Odmietnuté</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>Relatívne</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Znova načítať</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>Odstránené</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>Nahradiť kľúč: starý prestane fungovať</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Hlásenie</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>Hlásenie zostavenia</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Repozitár</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Kontrola</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>Kontrola overí každé nastavenie a ukáže riadky, ktoré sa zapíšu. Zatiaľ sa nič neuloží.</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Vrátiť</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Vrátenie</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Uložiť</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>Plán</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>Stránka vyhľadávania</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>ID sekcií oddelené čiarkami.</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>Poslať ich na živú stránku</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>Nastavenie</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Nastavenia</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>Nastavenia %name</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Nastavenie</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Nastavenie &gt; Tajné údaje</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>Zobrazuje sa v zoznamoch, napríklad „Verejná stránka na GitHub Pages“.</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>Prihlasovanie pomocou aplikácie GitHub príde s integráciou GitHub.</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>Stránka</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>Stránka na publikovanie</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Veľkosť</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>Veľkosť a limity</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>Veľkosť zostavenia</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Neaktuálne stránky</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Spustené</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Spustil(a) %user o %time.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Stav</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Statické publikovanie</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>Statické publikovanie je vypnuté</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Statické publikovanie je vypnuté.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>Statické publikovanie je vypnuté. Najprv ho zapnite v Nastavenie &gt; Statické publikovanie.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>Statické publikovanie je zapnuté.</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>Krok %step z %total</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Kroky</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>Čistenie</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Vypnúť</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Zapnúť</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>Zapnúť statické publikovanie</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Značka</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>Značky</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Cieľ</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>Ciele je možné vytvárať a meniť, ale kým sa nezapne, nič sa nezostaví ani nepublikuje.</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>Hovorí vyhľadávačom, čo majú čítať.</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>Zostavenie sa nepodarilo zahodiť: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>Zostavenie je rovnaké ako posledné publikovanie: nie je čo publikovať.</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>Zostavenie bolo zahodené: priečinok opäť obsahuje posledné publikovanie.</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>Predvolené hodnoty vyhovujú väčšine stránok.</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>Priečinok obsahuje zostavenie, ktoré ešte nie je publikované; nové zostavenie ho nahradí.</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>Do priečinka úloh nie je možné zapisovať: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>Úlohu sa nepodarilo pripraviť: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>Úlohu sa nepodarilo spustiť.</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>Úloha skončila. Načítava sa jej hlásenie.</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>Úloha vyžaduje prihláseného používateľa.</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>Úloha bola spustená, ale neoznámila ID svojho procesu. Skontrolujte %detail.</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>Kľúč</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>Najväčší súbor: %path, %size.</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Riadky, ktoré sa zapíšu</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>Zoznam stránok pre vyhľadávače; vyžaduje verejnú adresu.</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>Stránky sa načítajú tak, ako ich vidí neprihlásený návštevník. Prístupy na administráciu a úpravy sa nikdy neponúkajú.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>Priebeh sa nepodarilo sledovať. Znova načítajte stránku a uvidíte, ako úloha pokračuje.</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>Verejná časť kľúča:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>Koreň vetvy</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>Úložisko tajných údajov ešte nie je nastavené (./console exp:upgrade --apply vytvorí jeho tabuľku), takže nemožno uložiť žiadny kľúč.</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>Server sa prihlasuje sám (vlastným kľúčom SSH alebo pomocníkom pre prihlasovacie údaje), alebo je repozitár na tomto serveri.</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>Nastavenie sa nepodarilo zapísať: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Nastavenia sú platné. Zapíšu sa tieto riadky:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Súbor nastavení nie je možné prečítať: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>Stránka sa vráti k súborom daného publikovania; zostavenie, ktoré ešte nie je publikované, treba najprv publikovať alebo zahodiť.</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>Vlastná stránka webu pre adresy, ktoré neexistujú.</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>Cieľ sa nepodarilo uložiť: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>Cieľ sa s týmto kľúčom ešte neprihlasuje: v jeho nastaveniach vyberte „Kľúč nasadenia vytvorený pre tento cieľ“.</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Ciele sa nepodarilo prečítať: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>Zatiaľ nie je žiadne zostavenie na kontrolu.</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>Táto inštalácia nemá žiadny verejný prístup k stránke (siteaccess). Prístupy na administráciu a úpravy sa nikdy nepublikujú.</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>Táto stránka sleduje úlohu počas jej priebehu; keď sa stránka zatvorí, pokračuje na pozadí.</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>Tento cieľ zatiaľ nemá kľúč nasadenia.</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>Tento cieľ tu ešte nebol zostavený.</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>Tento cieľ ho má.</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>Zahodí toto zostavenie: priečinok opäť obsahuje posledné publikovanie. Živá stránka sa nezmení.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>Najprv zaškrtnite „Zmeny som skontroloval(a)“.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Čas</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>Spúšťače</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>Znova zadajte názov značky</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>Nezmenené</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>Webhook</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Čo</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>Čo sa mení</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>Čo je každý súbor; zapisuje sa vždy.</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>Čo úloha urobila a jej záznam. Úloha spustená tu pokračuje na pozadí, keď sa táto stránka zatvorí.</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>Čo úloha vypísala ako chyby</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>To, čo stránky uvádzajú, a každý obrázok publikovaného obsahu</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Kedy</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>Keď publikovanie zlyhá</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>Keď publikovanie uspeje</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>Keď sa publikuje obsah</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>Kam vedú odkazy na to, čo kópia neobsahuje (vyhľadávanie, prihlásenie).</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>Odkiaľ sa statická kópia poskytuje.</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>Ktorá stránka sa publikuje a ako sa cieľ volá.</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>Funguje pod ľubovoľnou cestou. Predvolené.</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>Zapisuje sa vždy, keď je nastavená vlastná doména.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>Áno</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>Zostavovať a publikovať môžete vždy aj ručne, tu aj v konzole.</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>iba názov; hodnota zostáva v Nastavenie &gt; Tajné údaje</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>pod %path</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>skončilo bez hlásenia</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>doplnok</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>zlyhalo</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>súbor</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages alebo main s priečinkom docs.</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>git hosting</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (s tokenom) alebo git@github.com:owner/repo.git (s kľúčom nasadenia); nikdy v nej nie je heslo ani token.</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/, pre mapu stránok a kanonické odkazy.</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>obrázok</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>nikdy</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>nie</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>bez vzdialeného repozitára</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>žiadne: commity zostávajú v priečinku</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>žiadne: nič sa nezmenilo</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>neodoslané</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>nič sa nezmenilo</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>stránka</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>prešlo</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>proc_open je vypnuté, takže úlohu tu nemožno spustiť. Na serveri použite ./console exp:static:build.</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>publikovanie</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>publikované</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>čaká na odoslanie</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>odoslané</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>odmietnuté</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>relatívne</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>vrátenie</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>vrátené</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>beží</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>iba priečinok</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: zapíše sa do súboru CNAME. Nasmerujte DNS domény na hosting podľa jeho pokynov; spustenie HTTPS môže chvíľu trvať.</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>áno, zatiaľ nepublikované</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>Publikuje ho pracovný postup (workflow) repozitára. Zostavenie zapíše súbor pracovného postupu; priečinok nechajte prázdny.</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>Po uložení cieľa s repozitárom GitHub a tokenom alebo GitHub App môže tento krok vytvoriť repozitár a zapnúť GitHub Pages. Inak najprv vytvorte repozitár na GitHube; stačí aj prázdny.</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>Vetva alebo GitHub Actions?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>Skontrolovať DNS</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>Vytvoriť repozitár, ak neexistuje</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>Vytvorte repozitár na GitHube a zapnite GitHub Pages v jeho nastaveniach (Settings &gt; Pages).</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>Vytvorí repozitár %repo, ak chýba (ak je to požadované), zapne GitHub Pages z vetvy alebo z GitHub Actions podľa uloženého nastavenia a nastaví vlastnú doménu a HTTPS. Používa uložené nastavenia: najprv uložte zmeny.</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>Podrobnosti na GitHube</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>Najprv zadajte vlastnú doménu.</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>Každý push sa najprv skontroluje voči týmto limitom.</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>Pre adresu https:// na GitHube. Prihlási sa App nastavená pre túto inštaláciu; potrebuje ID inštalácie.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages poskytuje súkromný repozitár iba v platenom pláne.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: subdoména (www.example.com) potrebuje záznam CNAME na &lt;owner&gt;.github.io; vrcholová doména (example.com) záznamy A %ips.</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>ID inštalácie GitHub App</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>Posledné zostavenie Pages</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>Limity a podmienky</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>Potrebné pre GitHub Pages v bezplatnom pláne.</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>Na GitHube</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>Iba s GitHub App: číslo na konci adresy inštalácie App na GitHube. Samotná App sa nastavuje v staticcache.ini (GitHubAppId, GitHubAppKey).</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>Súkromný</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>Verejný</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>Najprv uložte cieľ s repozitárom GitHub a tokenom alebo GitHub App.</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>Nastavte tieto záznamy u poskytovateľa domény:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>Nastaviť na GitHube</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>DNS domény %domain zatiaľ nesmeruje na GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>DNS domény %domain smeruje na GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>Integrácia s GitHubom tu nie je dostupná: %problem. Publikovanie do vetvy aj tak funguje; zapnite GitHub Pages v nastaveniach repozitára.</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>Kroky GitHubu nie sú pre tento cieľ dostupné: %problem.</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>Stav GitHub Pages sa zobrazuje s tokenom alebo GitHub App ako prihlasovacími údajmi.</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>Použiť vlastnú doménu</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>Čo zvoliť: token, kľúč nasadenia alebo GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>S repozitárom GitHub a tokenom alebo GitHub App môže sprievodca za vás vytvoriť repozitár, zapnúť GitHub Pages a nastaviť doménu (krok 4).</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>zostavuje sa</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>zostavené</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>z GitHub Actions</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>z vetvy %branch</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>zatiaľ žiadne</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>nenájdené</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>vypnuté</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>súkromný</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>verejný</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>v poradí</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>neznáme</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%count na %pages stránkach:</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>Súbor .gz (a .br) vedľa každého textového súboru, pre hostiteľov, ktorí ich poskytujú.</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>Malá stránka pre každú starú adresu a alias stránky, aby staré odkazy fungovali ďalej.</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>Zapisuje sa vždy, keď web doručuje GitHub Actions.</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>Identifikátor SPDX, napríklad CC-BY-4.0, alebo samotný text.</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>Košík</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>Volania servera</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Komentáre</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>Formuláre, ktoré zbierajú informácie</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>Pracovný postup GitHub Actions</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>Menej medzier a žiadne komentáre na stránkach.</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>Licencia obsahu</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Prihlásenie</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>Minifikovať</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>Ostatné formuláre</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>Predkomprimovať</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>Presmerovacie stránky</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>Presmerovacie stránky: %count.</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Vyhľadávanie</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>Index vyhľadávania: %pages strán v jazykoch: %languages.</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>Štýly a skripty pomenované podľa hašu ich obsahu, aby ich prehliadače mohli uchovávať.</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>Zmenené stránky, niekoľko minút po poslednej zmene (časť cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>Licencia obsahu, z poľa nižšie.</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>Celý web, v časoch plánu (časť cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>Tieto časti stránok potrebujú server; každá dostala náhradné riešenie. Skontrolujte ich pred publikovaním.</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>Čo staticky nefunguje</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>Čo repozitár je, pre toho, kto ho otvorí na hostiteľovi.</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>vynechané</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>náhradný text</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>koncový bod formulárov živej stránky</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>živá stránka</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>stránka vyhľadávania kópie</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>Formulár sa nepodarilo odoslať.</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>Ďakujeme: formulár bol odoslaný.</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>Formulár nebol prijatý: skontrolujte, čo ste zadali, a odošlite ho znova.</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>Odstrániť odkazy na stránky, ktoré kópia neobsahuje</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>Odstrániť odkazy do administrácie</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>Ich text zostane. Obrázky, formuláre a odkazy na iné weby sa nikdy neodstraňujú.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Verzia</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>Prístupy k lokalite na publikovanie</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Prístup k lokalite</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>V koreni</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>Žiadny prístup v koreni: každý je vo svojom priečinku a koreň na ne odkazuje</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Prístupy k lokalite</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>Označte jeden prístup k lokalite alebo viacero, ktoré zdieľajú jedného hostiteľa podľa prefixu URI. Ten v koreni sa obsluhuje tam, ostatné v priečinku svojho prefixu (/ger/); odkazy medzi nimi zostávajú v kópii. Administračné prístupy sa nikdy neponúkajú.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>Statické publikovanie cieľa %target na %site zlyhalo</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>Statické publikovanie cieľa %target na %site prebehlo úspešne</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>Tento e-mail odoslal web %site, pretože oň žiada cieľ statického publikovania %target.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>Nasadenie %deploy na %site zlyhalo</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>Nasadenie %deploy na %site čaká pri bráne</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>Nasadenie %deploy na %site prebehlo úspešne</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>Tento e-mail odoslal %site, pretože to vyžaduje migration.ini [RemoteSettings] Notify[].</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>Typy údajov (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>Spočítané %time, znova o %minutes min</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>Typ údajov ukladá a upravuje jeden druh hodnoty atribútu triedy: riadok textu, obrázok, reláciu. Väčšinu prináša jadro systému, rozšírenia pridávajú ďalšie. Tu sú všetky, kto ich poskytuje a koľko obsahu ich používa. Typ údajov, ktorý databáza používa, ale už ho nič neregistruje, poškodí obsah, ktorý ho má.</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>Skupiny tried</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>Spočítať znova teraz namiesto použitia počtov z posledných minút.</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>Spočítať znova</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Prehľad</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>Zaregistrované</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>Používané</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>Nepoužité</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>Rozšírenia poskytujúce typy údajov</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>Atribúty triedy</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>Atribúty objektu</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>Neregistrovaný</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>V zozname, chýba súbor</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>Používané, ale neregistrované typy údajov: %count</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>Atribúty tried (%class_attributes) a atribúty objektov (%object_attributes) majú typ údajov, ktorý neregistruje žiadne rozšírenie ani nastavenie. Ich objekty nemožno zobraziť, upraviť ani publikovať. Aktivujte rozšírenie, ktoré typ údajov poskytuje, alebo zmeňte triedu.</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>Zobraziť len tieto</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>Nájsť typ údajov</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>Identifikátor, názov, trieda PHP alebo rozšírenie.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Zobraziť</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Všetko</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>Poskytuje</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>Všetci</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>Jadro systému</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>Tomuto filtru nezodpovedá žiadny typ údajov.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Zobraziť všetko</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>Rozšírenie</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%shown z %count typov údajov, používaných: %used</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>Databáza obsahuje atribúty tried alebo objektov týchto typov údajov, ale content.ini neuvádza žiadny z nich alebo chýba ich súbor.</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>Typy údajov: %provider</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>Typ údajov</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>Trieda PHP a súbor</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>Triedy</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>Objekty</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>Príznaky</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>žiadne</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>Vyhľadávaniu nezodpovedá žiadny typ údajov. Vymažte vyhľadávanie.</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>Zobrazené %shown z %count typov údajov</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>Zobrazené typy údajov: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>Zoradiť podľa stĺpca %column</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>Spočítané %time</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>Všetky typy údajov</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>Stránka pomocníka</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>Tento typ údajov sa používa, ale nie je registrovaný</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>Objekty tried nižšie nemožno zobraziť, upraviť ani publikovať, kým žiadne rozšírenie neregistruje tento typ údajov. Aktivujte rozšírenie, ktoré ho poskytuje, a pridajte ho do content.ini [DataTypeSettings] AvailableDataTypes[], alebo zmeňte triedy.</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini uvádza tento typ údajov, ale žiadny adresár typov údajov nemá jeho súbor. Nič ho nepoužíva; odstráňte ho z AvailableDataTypes[] alebo aktivujte jeho rozšírenie.</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>O tomto type údajov</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>Identifikátor</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Názov</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Rozšírenie %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>nikto</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>Trieda PHP</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Súbor</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>V AvailableDataTypes[]</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>áno</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>nie</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>Stĺpce jeho hodnoty</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>Stĺpce nastavení jeho atribútu triedy</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>Tabuľky</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>Stĺpce a tabuľky sa zisťujú čítaním kódu typu údajov: orientácia, nie záruka.</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>Šablóny</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Prístup k lokalite</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>Šablóna</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>Nájdené v</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>táto administrácia</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>predvolená lokalita</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>Bez prepisov: prepisujúca šablóna vybraná podľa triedy alebo atribútu má prednosť pred týmito.</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>Triedy, ktoré ho používajú (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>Žiadna trieda nemá atribút tohto typu údajov.</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Trieda</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>Atribúty</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>Atribúty triedy (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>Atribút</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Nastavenia</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>Povinné</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>Vyhľadávateľné</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>Preložiteľné</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>Zbiera informácie</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>Časť obsahu, ktorý ho používa</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>Najprv naposledy zmenené</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Zmenené</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>Uzol %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>Každý preklad má vlastnú hodnotu.</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>Vyhľadávanie indexuje jeho hodnoty.</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>Môže zbierať informácie od návštevníkov (formuláre).</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>Zoznamy sa podľa neho dajú triediť: kľúč triedenia %type.</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>Zoraditeľné</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>Jeho hodnoty odkazujú na iné objekty.</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>Väzby</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>Dá sa vyplniť z obyčajného textu (import, REST).</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>Z textu</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>Dá sa vyplniť zo súboru.</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>Zo súboru</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>Nastavenia jeho atribútu triedy sa ukladajú do balíkov.</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>Balíky</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>Obsah (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from až %to z %count</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Filtrovať zoznam</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>Všetky triedy</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Sekcia</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Jazyky</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Vlastník</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Publikované</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>Obrátiť poradie</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Žiadna položka</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Na stránku</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Zobraziť na stránke tento počet položiek: %count.</translation>
     </message>
 </context>
 </TS>

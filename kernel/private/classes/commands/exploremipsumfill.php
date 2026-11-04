@@ -1,6 +1,6 @@
 <?php
 /**
- * @description Fill a translation of objects in a test language (Lorem Ipsum, qlo-ZZ) with lorem ipsum text
+ * @description Fill a translation of objects in a test language (Lorem Ipsum, qlo-ZZ) with lorem ipsum text (dry run unless --apply)
  * @alias exp:loremipsum
  *
  * The command bin/php/exploremipsumfill.php: adds or fills the translation of an object, or of every object of a
@@ -9,7 +9,7 @@
  * text and keywords. Every other attribute keeps what the translation was copied from. Publishes one new version
  * per object. Refuses a language that is not a test language or not installed: it never adds a language.
  *
- * @copyright Copyright (C) 1998 - 2026 7x and the Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package kernel
  */
@@ -26,28 +26,38 @@ class Exploremipsumfill extends \Exponential\Runnable\Command
                                                "Text lines, text blocks, rich text and keywords get lorem ipsum; every other attribute keeps\n" .
                                                "the value of the language it is copied from. One published version per object. The language\n" .
                                                "must be a test language (TestLanguage=true in its share/locale file) and already added on\n" .
-                                               "Setup > Languages; the command never adds one.\n\n" .
-                                               "  php bin/php/exploremipsumfill.php <object id>[,...] [--dry-run]\n" .
-                                               "  php bin/php/exploremipsumfill.php --subtree=<node id> [--limit=50] [--dry-run]\n" .
-                                               "  ./console exp:loremipsum <object id> --language=qlo-ZZ --from=eng-GB\n\n" .
+                                               "Setup > Languages; the command never adds one.\n" .
+                                               "Without --apply nothing is written: the command prints what it would write. --dry-run means\n" .
+                                               "the same as no flag; --apply together with --dry-run is a usage error (exit 2).\n\n" .
+                                               "  php bin/php/exploremipsumfill.php <object id>[,...] [--apply]\n" .
+                                               "  php bin/php/exploremipsumfill.php --subtree=<node id> [--limit=50] [--apply]\n" .
+                                               "  ./console exp:loremipsum <object id> --language=qlo-ZZ --from=eng-GB --apply\n\n" .
                                                "Exit code: 0 done (or a dry run), 1 refused or failed, 2 usage error.\n" .
                                                "Guide: doc/eng-us/guides/test-language-lorem-ipsum.md",
                               'use-session' => false,
                               'use-modules' => true,
                               'use-extensions' => true,
                               'user' => true ) );
-        $options = $this->startup( '[language:][from:][subtree:][limit:][dry-run]', '[OBJECTS]',
+        $options = $this->startup( '[apply][dry-run][language:][from:][subtree:][limit:]', '[OBJECTS]',
                                    array( 'language' => 'the test language to fill (default: ' . \expTestLanguage::LOREM_IPSUM . ')',
                                           'from' => 'the language to copy the other attributes from (default: the object\'s main language)',
                                           'subtree' => 'every object below this node, the node\'s own object included',
                                           'limit' => 'with --subtree: at most this many objects (default 50)',
-                                          'dry-run' => 'print what would be written, change nothing' ),
+                                          'apply' => 'write and publish the translations (the default is a dry run that prints them)',
+                                          'dry-run' => 'the default: print what would be written, change nothing' ),
                                    false, array( 'user' => true ) );
+        $apply = self::applyRequested( $options );
+        if ( $apply === null )
+        {
+            $cli->error( 'FAIL: --apply and --dry-run exclude each other; without --apply the script changes nothing' );
+            $this->shutdown( 2 );
+            return;
+        }
+        $dryRun = !$apply;
         \eZContentLanguage::setCronjobMode( true );
 
         $language = isset( $options['language'] ) && $options['language'] !== null ? trim( (string)$options['language'] ) : \expTestLanguage::LOREM_IPSUM;
         $from = isset( $options['from'] ) && $options['from'] !== null ? trim( (string)$options['from'] ) : '';
-        $dryRun = !empty( $options['dry-run'] );
 
         if ( !\expTestLanguage::isTestLocale( $language ) )
         {
@@ -95,7 +105,8 @@ class Exploremipsumfill extends \Exponential\Runnable\Command
             if ( !$this->fill( $object, $language, $from, $dryRun ) )
                 $failed++;
         }
-        $cli->output( sprintf( '%s: %d object(s)%s, %d failed', $failed ? 'FAIL' : 'PASS', count( $objects ), $dryRun ? ' (dry run, nothing written)' : ' filled', $failed ) );
+        $cli->output( sprintf( '%s: %d object(s)%s, %d failed%s', $failed ? 'FAIL' : 'PASS', count( $objects ), $dryRun ? ' would be filled' : ' filled', $failed,
+                               $dryRun ? ' (dry run, nothing changed; --apply writes)' : '' ) );
         $this->shutdown( $failed ? 1 : 0 );
     }
 
@@ -198,13 +209,23 @@ class Exploremipsumfill extends \Exponential\Runnable\Command
         }
         $db = \eZDB::instance();
         $db->begin();
-        foreach ( (array)$version->contentObjectAttributes( $language ) as $attribute )
+        try
         {
-            $identifier = (string)$attribute->attribute( 'contentclass_attribute_identifier' );
-            if ( !isset( $plan[$identifier] ) )
-                continue;
-            $attribute->fromString( $plan[$identifier][1] );
-            $attribute->store();
+            foreach ( (array)$version->contentObjectAttributes( $language ) as $attribute )
+            {
+                $identifier = (string)$attribute->attribute( 'contentclass_attribute_identifier' );
+                if ( !isset( $plan[$identifier] ) )
+                    continue;
+                $attribute->fromString( $plan[$identifier][1] );
+                $attribute->store();
+            }
+        }
+        catch ( \Throwable $e )
+        {
+            // nothing of a transaction that failed half way is committed by a later commit()
+            if ( $db->transactionCounter() > 0 )
+                $db->rollback();
+            throw $e;
         }
         $db->commit();
         $result = \eZOperationHandler::execute( 'content', 'publish', array( 'object_id' => $id, 'version' => (int)$version->attribute( 'version' ) ) );

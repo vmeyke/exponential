@@ -10,7 +10,7 @@
  * File containing the velocity control script.
  *
  * @alias vc
- * @copyright Copyright (C) 7x. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
  * @package kernel
@@ -234,6 +234,32 @@ function velocityPrintOverview( eZCLI $cli, array $engines )
 /**
  * Print a settings listing for a person to read.
  */
+/**
+ * Report the result of a command that writes: as JSON, or one line; a dry run ends with
+ * "PASS: ... (dry run, nothing changed; --apply writes)".
+ *
+ * @param eZCLI $cli
+ * @param array $result ok, message
+ * @param bool $asJson
+ * @param bool $dryRun
+ * @param bool $jsonDone the JSON was printed already
+ */
+function velocityReportWrite( eZCLI $cli, array $result, $asJson, $dryRun, $jsonDone = false )
+{
+    if ( $asJson )
+    {
+        if ( !$jsonDone )
+            $cli->output( json_encode( $result + array( 'dry_run' => (bool)$dryRun ), JSON_UNESCAPED_SLASHES ) );
+        return;
+    }
+    if ( empty( $result['ok'] ) )
+        $cli->error( 'velocity: ' . $result['message'] );
+    else if ( $dryRun )
+        $cli->output( 'PASS: velocity: ' . $result['message'] . ' (dry run, nothing changed; --apply writes)' );
+    else
+        $cli->output( $cli->stylize( 'emphasize', 'velocity: ' . $result['message'] ) );
+}
+
 function velocityPrintConfig( eZCLI $cli, array $rows )
 {
     $block = null;
@@ -264,7 +290,7 @@ class Velocity extends \Exponential\Runnable\Command
     public function run()
     {
         // the script's variables were globals; functions of the script read them with "global"
-        foreach ( array( 'a', 'action', 'actions', 'allOk', 'args', 'asJson', 'assets', 'block', 'cli', 'config', 'deploy', 'deployOnly', 'e', 'engine', 'engineList', 'engineName', 'info', 'installOptions', 'keep', 'line', 'lists', 'name', 'options', 'overview', 'ownFlags', 'pair', 'path', 'paths', 'printer', 'report', 'result', 'rows', 'script', 'shown', 'status', 'value', 'variable', 'velocity', 'velocityArgs', 'velocityArgv', 'velocityExtArgs', 'velocityExtAt', 'velocityTail', 'verb', 'verbs', 'what', 'where' ) as $__name )
+        foreach ( array( 'a', 'action', 'actions', 'allOk', 'apply', 'args', 'dryRun', 'writers', 'asJson', 'assets', 'block', 'cli', 'config', 'deploy', 'deployOnly', 'e', 'engine', 'engineList', 'engineName', 'info', 'installOptions', 'keep', 'line', 'lists', 'name', 'options', 'overview', 'ownFlags', 'pair', 'path', 'paths', 'printer', 'report', 'result', 'rows', 'script', 'shown', 'status', 'value', 'variable', 'velocity', 'velocityArgs', 'velocityArgv', 'velocityExtArgs', 'velocityExtAt', 'velocityTail', 'verb', 'verbs', 'what', 'where' ) as $__name )
             ${$__name} = &$GLOBALS[$__name];
         unset( $__name );
 
@@ -292,15 +318,24 @@ class Velocity extends \Exponential\Runnable\Command
             "             exphttpcache, template-block and response caches, the help content cache of each\n" .
             "             siteaccess that shows the help (exp:help:content cache), then warm-up requests\n" .
             "             ([DeploySettings] WarmUpURL[]). Stops at the first step that fails.\n" .
+            "             A cache is cleared only when what it holds can have changed since the last deploy\n" .
+            "             that passed (files below design/, settings/, translations and the template engines'\n" .
+            "             code, by modification time): a deploy of PHP classes keeps the INI caches and the\n" .
+            "             caches of rendered output (content, exphttpcache, template-block, response cache).\n" .
+            "             --dry-run says for each cache why it is cleared or kept.\n" .
             "             --kernel (kernel autoloads too)  --no-autoload  --no-fpm  --fpm-reload  --no-velocity\n" .
             "             --rebuild-phar  --packer (packed scripts + styles, with template-block)\n" .
+            "             --clear-content (the caches of rendered output anyway)  --all-caches (every cache)\n" .
+            "             --caches=content,template-block (these caches too: the list of a migration run)\n" .
+            "             --migrate (run the pending migrations after the caches of settings and templates,\n" .
+            "              before PHP-FPM and Velocity: [DeploySettings] Migrate)  --no-migrate\n" .
             "             --dry-run (print the steps, do nothing)  --json\n" .
             "  kill       stop without asking, for a wedged worker\n" .
             "  command    print the command line it would run, and exit\n" .
             "             (--keep-global=Name[,Name] appends globals to keep between\n" .
             "              requests, after the built-in defaults; also on start/restart)\n" .
-            "  config     read and write the settings it runs on\n" .
-            "  cache      cache clear: re-render every cached page on its next request\n" .
+            "  config     read and write the settings it runs on (set, unset: --apply)\n" .
+            "  cache      cache clear --apply: re-render every cached page on its next request\n" .
             "             (after a template or stylesheet change; no restart needed)\n" .
             "             cache stats: where it is, how much it holds, when it was cleared\n" .
             "             (every other cache of the installation: exp:cache --help)\n" .
@@ -329,10 +364,15 @@ class Velocity extends \Exponential\Runnable\Command
             "Configuration tree (Debian Apache style, /etc/vc or /etc/qbix):\n" .
             "  layout                               show it: vc.conf, ports.conf, envvars,\n" .
             "                                       sites/conf/mods-available and -enabled\n" .
-            "  layout migrate                       write it from these settings now\n" .
-            "  site enable|disable <name>           link or unlink sites-enabled/<name>.conf\n" .
-            "  conf enable|disable <name>           link or unlink conf-enabled/<name>.conf\n" .
-            "  mod enable|disable <name>            link or unlink mods-enabled/<name>.conf\n\n" .
+            "  layout migrate --apply               write it from these settings now\n" .
+            "  site enable|disable <name> --apply   link or unlink sites-enabled/<name>.conf\n" .
+            "  conf enable|disable <name> --apply   link or unlink conf-enabled/<name>.conf\n" .
+            "  mod enable|disable <name> --apply    link or unlink mods-enabled/<name>.conf\n\n" .
+            "What writes (config set|unset, cache clear, layout migrate, site|conf|mod enable|disable,\n" .
+            "ssl renew, watchdog install|remove, install) is a dry run unless --apply is given: it says\n" .
+            "what it would change and changes nothing. --dry-run means the same; both together are a\n" .
+            "usage error (exit 2). start, stop, graceful, restart, kill, status, watchdog run and deploy\n" .
+            "run as before (deploy --dry-run prints its steps).\n\n" .
             "PHP extensions (the standard set this server provides):\n" .
             "  ext check [--variant=standard]        what this PHP is missing, with the fix\n" .
             "  ext list|plan [--variant --php --platform --format]  what a build carries\n" .
@@ -341,14 +381,16 @@ class Velocity extends \Exponential\Runnable\Command
             "Configuration:\n" .
             "  config list [Block]                  every setting, and which are overridden\n" .
             "  config get <Block> <Variable>        one value\n" .
-            "  config set <Block> <Variable> <v>    write it to this installation\n" .
-            "  config unset <Block> <Variable>      return it to the packaged value\n" .
+            "  config set <Block> <Variable> <v>    write it to this installation (with --apply)\n" .
+            "  config unset <Block> <Variable>      return it to the packaged value (with --apply)\n" .
             "  config paths                         which file is which\n\n" .
             "Through the console:\n" .
             "  ./bin/php/console exp:velocity status --allow-root-user\n" .
             "  ./bin/php/console exp:velocity restart --allow-root-user\n" .
             "  ./bin/php/console exp:velocity deploy --allow-root-user   (after a PHP change)\n" .
             "  ./bin/php/console exp:velocity deploy --dry-run --allow-root-user\n" .
+            "  ./bin/php/console exp:velocity cache clear --allow-root-user           (dry run)\n" .
+            "  ./bin/php/console exp:velocity cache clear --apply --allow-root-user   (clears it)\n" .
             "  ./bin/php/console exp:vc status --allow-root-user   (exp:vc is shorthand for exp:velocity)\n\n" .
             "Directly:\n" .
             "  php bin/php/velocity.php start --allow-root-user\n" .
@@ -389,9 +431,9 @@ class Velocity extends \Exponential\Runnable\Command
             array( 'keep-global', 'siteaccess', 'login', 'password', 'engine', 'from' ),
             array( 'json', 'help', 'quiet', 'verbose', 'colors', 'no-colors', 'logfiles', 'no-logfiles',
                    'allow-root-user', 'debug', 'force', 'check', 'trust-github-digest', 'all',
-                   'rebuild-phar', 'kernel', 'dry-run', 'no-fpm', 'fpm-reload', 'no-velocity', 'no-autoload', 'packer' ) );
+                   'rebuild-phar', 'kernel', 'apply', 'dry-run', 'no-fpm', 'fpm-reload', 'no-velocity', 'no-autoload', 'packer' ) );
 
-        $options = $this->options( '[json][keep-global:][engine:][from:][force][check][trust-github-digest][all][https][no-https][rebuild-phar][kernel][dry-run][no-fpm][fpm-reload][no-velocity][no-autoload][packer]', '[command]',
+        $options = $this->options( '[json][keep-global:][engine:][from:][force][check][trust-github-digest][all][https][no-https][rebuild-phar][kernel][apply][dry-run][no-fpm][fpm-reload][no-velocity][no-autoload][packer][clear-content][all-caches][caches:][migrate][no-migrate]', '[command]',
             array( 'json' => 'Report as JSON, for a caller that is not a person',
                    'keep-global' => 'More globals to keep between requests (comma-separated), appended to the '
                                   . 'built-in defaults and velocity.ini KeepGlobals[]; for start, restart and command',
@@ -405,15 +447,33 @@ class Velocity extends \Exponential\Runnable\Command
                                           . 'GitHub publishes for the release',
                    'rebuild-phar' => 'start, restart, graceful, deploy: rebuild the engine archive even when it is current',
                    'kernel' => 'deploy: regenerate the kernel autoload array too (kernel/ and lib/ only)',
-                   'dry-run' => 'deploy: print the steps and what each would do, and do nothing',
+                   'apply' => 'config set|unset, cache clear, layout migrate, site|conf|mod, ssl renew, watchdog install|remove, '
+                            . 'install: make the change (without it they are a dry run that changes nothing)',
+                   'dry-run' => 'the default of the commands that write (kept for scripts that pass it); deploy: print the '
+                              . 'steps and what each would do, and do nothing',
                    'no-fpm' => 'deploy: leave PHP-FPM alone (no reload, no wait)',
                    'fpm-reload' => 'deploy: reload PHP-FPM even when its OPcache revalidates the files (php.ini or pool changed, files renamed)',
                    'no-velocity' => 'deploy: do not restart Velocity',
                    'no-autoload' => 'deploy: do not regenerate autoload arrays',
-                   'packer' => 'deploy: clear the packed scripts and styles too (ezjscore-packer, right before template-block)' ),
+                   'packer' => 'deploy: clear the packed scripts and styles too (ezjscore-packer, right before template-block)',
+                   'clear-content' => 'deploy: clear the content, exphttpcache, template-block and response caches even when no template, design file, setting or translation changed',
+                   'all-caches' => 'deploy: clear every cache, whatever changed since the last deploy',
+                   'caches' => 'deploy: clear these caches too, whatever changed (ids or tags of ezcache, comma-separated: the list a migration run reports)',
+                   'migrate' => 'deploy: run the pending migrations (exp:migration:migrate --apply) before PHP-FPM and Velocity run the new code, whatever [DeploySettings] Migrate says',
+                   'no-migrate' => 'deploy: do not run the pending migrations, whatever [DeploySettings] Migrate says' ),
             $velocityArgs );
         // After "--": plain arguments, never read as options here.
         $options['arguments'] = array_merge( $options['arguments'], $velocityTail );
+
+        // The commands that write are a dry run unless --apply; both flags are a usage error, before anything is read
+        // or written.
+        $apply = self::applyRequested( $options );
+        if ( $apply === null )
+        {
+            $cli->error( 'FAIL: --apply and --dry-run exclude each other; without --apply the script changes nothing' );
+            $script->shutdown( 2 );
+        }
+        $dryRun = !$apply;
         $script->initialize();
 
         $verbs = array( 'start', 'stop', 'graceful', 'restart', 'kill', 'status', 'deploy',
@@ -491,7 +551,13 @@ class Velocity extends \Exponential\Runnable\Command
             }
             $velocity->forceEngineRebuild();
         }
-        foreach ( array( 'kernel', 'dry-run', 'no-fpm', 'fpm-reload', 'no-velocity', 'no-autoload' ) as $deployOnly )
+        $writers = array( 'config', 'cache', 'layout', 'site', 'conf', 'mod', 'ssl', 'watchdog', 'install', 'deploy' );
+        if ( !empty( $options['dry-run'] ) && !in_array( $verb, $writers, true ) )
+        {
+            $cli->error( 'velocity: --dry-run goes with deploy and the commands that write (' . implode( ', ', $writers ) . ')' );
+            $script->shutdown( 1 );
+        }
+        foreach ( array( 'kernel', 'no-fpm', 'fpm-reload', 'no-velocity', 'no-autoload', 'clear-content', 'all-caches', 'caches', 'migrate', 'no-migrate' ) as $deployOnly )
         {
             if ( !empty( $options[$deployOnly] ) && $verb !== 'deploy' )
             {
@@ -681,11 +747,15 @@ class Velocity extends \Exponential\Runnable\Command
                             . 'for example: config set ServerSettings Port 8088' );
                         $script->shutdown( 1 );
                     }
-                    $result = $config->set( $block, $variable, $value );
+                    $result = $config->planSet( $block, $variable, $value );
+                    if ( !$dryRun && !empty( $result['ok'] ) )
+                        $result = $config->set( $block, $variable, $value );
                 }
                 else if ( $action === 'unset' )
                 {
-                    $result = $config->unsetVariable( $block, $variable );
+                    $result = $config->planUnset( $block, $variable );
+                    if ( !$dryRun && !empty( $result['ok'] ) )
+                        $result = $config->unsetVariable( $block, $variable );
                 }
                 else
                 {
@@ -694,12 +764,16 @@ class Velocity extends \Exponential\Runnable\Command
                     $script->shutdown( 1 );
                 }
 
-                if ( $asJson )
-                    $cli->output( json_encode( $result ) );
-                else if ( empty( $result['ok'] ) )
-                    $cli->error( 'velocity: ' . $result['message'] );
-                else
-                    $cli->output( $cli->stylize( 'emphasize', 'velocity: ' . $result['message'] ) );
+                if ( !$dryRun && !empty( $result['ok'] ) )
+                {
+                    // Check what was stored
+                    $now = $config->get( $block, $variable );
+                    if ( $action === 'set' && ( empty( $now['ok'] ) || (string)$now['value'] !== (string)$value ) )
+                        $result = array( 'ok' => false, 'message' => "[$block] $variable does not read '$value' after writing it" );
+                    if ( $action === 'unset' && !empty( $now['overridden'] ) )
+                        $result = array( 'ok' => false, 'message' => "[$block] $variable is still overridden after removing it" );
+                }
+                velocityReportWrite( $cli, $result, $asJson, $dryRun );
                 $script->shutdown( empty( $result['ok'] ) ? 1 : 0 );
             }
             break;
@@ -732,7 +806,19 @@ class Velocity extends \Exponential\Runnable\Command
                 $args = array_merge( array( 'ssl:' . $action ), array_slice( $options['arguments'], 2 ) );
                 if ( $asJson && $action === 'show' )
                     $args[] = '--json';
-                $script->shutdown( $velocity->ctl( $args ) );
+                if ( $action === 'renew' && $dryRun )
+                {
+                    // What a renewal would replace: the certificates as they are now (ssl:show only reads)
+                    $cli->output( 'velocity: ssl renew would renew the certificates of '
+                                  . ( count( $options['arguments'] ) > 2 ? implode( ', ', array_slice( $options['arguments'], 2 ) ) : 'every host' )
+                                  . '; they are now:' );
+                    $code = $velocity->ctl( array_merge( array( 'ssl:show' ), array_slice( $options['arguments'], 2 ) ) );
+                    if ( $code === 0 )
+                        $cli->output( 'PASS: ssl renew (dry run, nothing changed; --apply writes)' );
+                    $script->shutdown( $code );
+                }
+                if ( !$dryRun || $action === 'show' )
+                    $script->shutdown( $velocity->ctl( $args ) );
                 break;
             }
 
@@ -769,14 +855,22 @@ class Velocity extends \Exponential\Runnable\Command
                     require_once 'kernel/classes/expcachemanager.php';
                     $result = \expCacheManager::velocityCacheStatus();
                 }
+                else if ( $dryRun )
+                {
+                    // What clearCache() of this engine would do: the qbix engine touches its generation marker (with
+                    // the HTTP cache on, a new HTTP cache generation); the others have no response cache.
+                    if ( $velocity->engineName() === 'qbix' )
+                        $result = array( 'ok' => true, 'message' => 'cache clear would touch ' . $velocity->cacheDirectory() . '/.generation'
+                                         . ( \eZINI::instance( 'httpcache.ini' )->variable( 'HttpCacheSettings', 'Enabled' ) === 'enabled'
+                                             ? ' and start a new HTTP cache generation' : '' )
+                                         . ': every page stored before now is rendered again on its next request' );
+                    else
+                        $result = array( 'ok' => true, 'message' => 'cache clear would do nothing: the ' . $velocity->engineName()
+                                         . ' engine runs without a response cache' );
+                }
                 else
                     $result = $velocity->clearCache();
-                if ( $asJson )
-                    $cli->output( json_encode( $result ) );
-                elseif ( $result['ok'] )
-                    $cli->output( $cli->stylize( 'emphasize', 'velocity: ' . $result['message'] ) );
-                else
-                    $cli->error( 'velocity: ' . $result['message'] );
+                velocityReportWrite( $cli, $result, $asJson, $dryRun && $action === 'clear' );
                 $script->shutdown( $result['ok'] ? 0 : 1 );
             }
             break;
@@ -800,9 +894,25 @@ class Velocity extends \Exponential\Runnable\Command
                         $cli->output( sprintf( '    %-16s %s', $name, $path === null ? '-' : $path ) );
                     $script->shutdown( 0 );
                 }
+                if ( $action === 'migrate' && $dryRun )
+                {
+                    if ( !$velocity->supports( 'layout' ) )
+                        $result = array( 'ok' => false, 'message' => 'the ' . $velocity->engineName() . ' engine has no configuration tree to migrate' );
+                    else
+                    {
+                        $info = $velocity->layout()->describe();
+                        $result = array( 'ok' => true, 'message' => 'layout migrate would write var/tmp/velocity-server.json and bring '
+                                         . ( $info['confDir'] ?? '(the configuration tree)' ) . ' up to date for the site ' . $info['site']
+                                         . ' (vc.conf, ports.conf, envvars, sites/conf/mods-available and -enabled), as start does',
+                                         'data' => array( 'actions' => array() ) );
+                    }
+                    velocityReportWrite( $cli, $result, $asJson, true );
+                    $script->shutdown( $result['ok'] ? 0 : 1 );
+                }
                 if ( $action === 'migrate' )
                 {
-                    $result = $velocity->migrateLayout();
+                    if ( !$dryRun )
+                        $result = $velocity->migrateLayout();
                     if ( $asJson )
                         $cli->output( json_encode( $result ) );
                     else
@@ -856,13 +966,10 @@ class Velocity extends \Exponential\Runnable\Command
                         . $velocity->engineName() . ' engine takes own directives from [FrankenPHPSettings] SiteInclude' );
                     $script->shutdown( 1 );
                 }
-                $result = $velocity->layout()->toggle( $verb, $name, $action === 'enable' );
-                if ( $asJson )
-                    $cli->output( json_encode( $result ) );
-                elseif ( $result['ok'] )
-                    $cli->output( $cli->stylize( 'emphasize', 'velocity: ' . $result['message'] ) );
-                else
-                    $cli->error( 'velocity: ' . $result['message'] );
+                $result = $velocity->layout()->planToggle( $verb, $name, $action === 'enable' );
+                if ( !$dryRun && $result['ok'] )
+                    $result = $velocity->layout()->toggle( $verb, $name, $action === 'enable' );
+                velocityReportWrite( $cli, $result, $asJson, $dryRun );
                 $script->shutdown( $result['ok'] ? 0 : 1 );
             }
             break;
@@ -878,7 +985,22 @@ class Velocity extends \Exponential\Runnable\Command
                     $script->shutdown( 1 );
                 }
                 $watchdog = new \expVelocityWatchdog( $velocity );
-                $result = $watchdog->$action();
+                $writes = in_array( $action, array( 'install', 'remove' ), true );
+                if ( $writes && $dryRun )
+                {
+                    $result = $watchdog->plan( $action );
+                    if ( $asJson )
+                        $cli->output( json_encode( $result, JSON_UNESCAPED_SLASHES ) );
+                    else
+                    {
+                        foreach ( $result['actions'] as $line )
+                            $cli->output( '  ' . velocityShortPaths( $line ) );
+                    }
+                    velocityReportWrite( $cli, $result, $asJson, true, true );
+                    $script->shutdown( $result['ok'] ? 0 : 1 );
+                }
+                if ( !$dryRun || !$writes )
+                    $result = $watchdog->$action();
                 if ( $action === 'run' )
                 {
                     // Audit only on action (doc/eng-us/bc/6.0/audit.md): the timer runs this every 45 s, so instead of
@@ -921,13 +1043,14 @@ class Velocity extends \Exponential\Runnable\Command
                 );
                 if ( !$asJson )
                     $installOptions['progress'] = function ( $line ) use ( $cli ) { $cli->output( '  ' . $line ); };
-                $result = $velocity->install( $installOptions );
-                if ( $asJson )
-                    $cli->output( json_encode( $result ) );
-                elseif ( $result['ok'] )
-                    $cli->output( $cli->stylize( 'emphasize', 'velocity: ' . $result['message'] ) );
-                else
-                    $cli->error( 'velocity: ' . $result['message'] );
+                // Only the frankenphp engine downloads and writes a binary; --check only hashes it, and the php and
+                // qbix engines have nothing to install. Their install() runs as before.
+                $installWrites = method_exists( $velocity, 'installer' ) && empty( $installOptions['check'] );
+                if ( $installWrites && $dryRun )
+                    $result = $velocity->installer()->plan( $installOptions );
+                if ( !$dryRun || !$installWrites )
+                    $result = $velocity->install( $installOptions );
+                velocityReportWrite( $cli, $result, $asJson, $installWrites && $dryRun );
                 $script->shutdown( $result['ok'] ? 0 : 1 );
             }
             break;
@@ -957,6 +1080,10 @@ class Velocity extends \Exponential\Runnable\Command
                     'rebuild-phar' => !empty( $options['rebuild-phar'] ),
                     'packer'       => !empty( $options['packer'] ),
                     'fpm-reload'   => !empty( $options['fpm-reload'] ),
+                    'clear-content' => !empty( $options['clear-content'] ),
+                    'all-caches'   => !empty( $options['all-caches'] ),
+                    'caches'       => isset( $options['caches'] ) ? (string)$options['caches'] : '',
+                    'migrate'      => !empty( $options['migrate'] ) ? true : ( !empty( $options['no-migrate'] ) ? false : null ),
                     'engine'       => count( $engineList ) === 1 ? $engineList[0] : '',
                 ), $printer );
                 if ( !$asJson )

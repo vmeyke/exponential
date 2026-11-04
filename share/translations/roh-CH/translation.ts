@@ -984,6 +984,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>Tschertgà vegn mo sin questa pagina: %from fin %to da %count.</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Mintga tip da datas dal nucleus e da las extensiuns, e co che las classas ed il cuntegn al dovran.</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Tips da datas</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2316,6 +2324,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>Er paginas dal sistem pon vegnir mess en ils segnapaginas: avrai la pagina (Configuraziun, il protocol d'audit, ina glista d'utilisaders ...) e tscherni survart Metter questa pagina en ils segnapaginas. Talas segnapaginas han ina icona d'in rodel dentau.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>Vus na dastgais betg pli avrir questa pagina qua. Allontanai il segnapagina u dumandai in administratur per access.</translation>
     </message>
 </context>
 <context>
@@ -5165,6 +5177,210 @@
         <source>Go to the first page</source>
         <translation>Ir a l'emprima pagina</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>Auter</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>Ultims 7 dis</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>Perioda definida</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>Tut ils pleds</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>In pled qualunque</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>Expressiun exacta</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>Relevanza</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>Num A–Z</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>Num Z–A</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>Modifitgà, ils pli novs l'emprim</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>Modifitgà, ils pli vegls l'emprim</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>Publitgà, ils pli novs l'emprim</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>Publitgà, ils pli vegls l'emprim</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Modifitgà</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>Filters</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>Mussar ils filters</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>Zuppentar ils filters</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Returnar</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>Applitgar</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>Pleds</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>Tip da cuntegn</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>Mussar dapli (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>Tschernai in tip da cuntegn per tschertgar en in da ses attributs.</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Secziun</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Da</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Fin</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>La data da cumenzament n'è betg ina data valaivla.</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>La data da la fin n'è betg ina data valaivla.</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Possessur</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>ID da l'utilisader, num d'annunzia u adressa dad e-mail.</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>Nagin utilisader chattà per «%input».</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Lingua</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>Ina lingua qualunque</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Lieu</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>%count lieus</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>Resultats per pagina</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>Resultats per «%text» (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>Resultats (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>Zavrar tenor</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>Zavrar</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>Filters activs</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>Allontanar quest filter</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>U tschernai filters ed applitgai quels per enumerar il cuntegn correspundent.</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>Ils filters restrenschan la tschertga, uschespert che Vus avais endatà pleds.</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>Nagins resultats chattads per «%text».</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>Nagins resultats chattads.</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>Allontanai in filter survart.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Translaziuns</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Acziuns</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>Modifitgar %name</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Modifitgar</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -7514,6 +7730,10 @@
         <source>Setup &gt; Cronjobs</source>
         <translation>Configuraziun &gt; Incumbensas cron</translation>
     </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>Anc nagina part da las incumbensas cron n&apos;è vegnida exequida: la fila da spetga da las incumbensas, ils imports, ils avis e l&apos;index da tschertga spetgan. Exequi php bin/php/installcrontab.php --add --apply u agiuntai las lingias da --show a la crontab.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/dashboard/drafts</name>
@@ -8058,8 +8278,8 @@
         <translation>Ils avis da copyright dals auturs originals e dal software da terzas parts furnì cun Exponential restan, uschia sco la licenza pretenda, en las datotecas da la funtauna e en la datoteca LICENSE.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>Qua suonda ina glista dals collavuraturs d'Exponential che han mess a disposiziun lur lavur a 7x tenor las cundiziuns da l'eZ Systems Contributor Licensing Agreement. Uschia sco quest cuntract permetta, repartescha 7x mintga contribuziun ulteriuramain sut la medema licenza sco la datoteca en la quala la contribuziun è cuntegnida. La glista numnescha mintga collavuratur, sche pussaivel datas da contact e las datotecas a las qualas el ha contribuì.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>Collavuraturs ch'èn menziunads per lur lavur vi dad Exponential e vi da la software, da la quala el è naschì, cun las datotecas, tar las qualas els han contribuì. Quai è ina renconuschientscha, betg in avis da copyright: contribuziuns ad Exponential vegnan cedidas a l'Exponential Foundation ed a 7x tenor il Contributor Licensing Agreement.</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13881,32 +14101,20 @@ Avertiment: Ils pachets na vegnan betg deinstallads.</translation>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%evaluate_link"&gt;Evaluar Exponential Enterprise Edition&lt;/a&gt; - &lt;a href="%share_link"&gt;Daventai commember da la Community Exponential, barattai e contribuii&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; ed auters.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class="edition-info"&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>Cun la forza da &lt;span class="edition-info"&gt;%edition&lt;/span&gt;. Per ulteriuras infurmaziuns vesai &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; ed auters.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> Per ulteriuras infurmaziuns vesai &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
     </message>
     <message>
-        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; ed auters.</translation>
+        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href="%evaluate_link"&gt;Evaluar Exponential (da 7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;Daventai commember da la Community Exponential, retschavai agid e contribuii&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; ed auters.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13915,6 +14123,61 @@ Avertiment: Ils pachets na vegnan betg deinstallads.</translation>
     <message>
         <source>Help center</source>
         <translation>Center d'agid</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>Cuntegn</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>Paginas da documents</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>Utilisaders</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>Classas da cuntegn</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>Administraziun</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>Pagina %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>Mussar tut ils resultats</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>%count resultats</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>In resultat</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>%count propostas</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>Naginas propostas</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>Las propostas n'han betg pudì vegnir chargiadas.</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>Propostas</translation>
     </message>
 </context>
 <context>
@@ -14383,6 +14646,14 @@ Avertiment: Ils pachets na vegnan betg deinstallads.</translation>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>Questa installaziun è ina demo publica: mintgin po savair il pled-clav da l'administratur, e ils pleds-clav d'administraturs na pon betg vegnir midads u reinizialisads. Na endatai qua nagut privat.</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Voss apparats</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Activitad da segirezza</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14672,6 +14943,14 @@ Avertiment: Ils pachets na vegnan betg deinstallads.</translation>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>Instrucziuns, tschertga e co annunziar in errur.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Cuntegn recent</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Il cuntegn il pli nov, quai che vegn retegnì per la verificaziun, ed acziuns per ina selecziun.</translation>
     </message>
 </context>
 <context>
@@ -15130,6 +15409,46 @@ Avertiment: Ils pachets na vegnan betg deinstallads.</translation>
         <source>Synchronisations</source>
         <translation>Sincronisaziuns</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>L'API GraphQL: ses punct final, il schema ed in plazzal da gieu per empruvar dumondas.</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migraziuns</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Midadas da l&apos;installaziun tegnidas sco datotecas: lur stadi, las execuziuns, exequir e revocar.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Cuntegn recent</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Il cuntegn il pli nov, quai che vegn retegnì per la verificaziun, ed acziuns per ina selecziun.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Publitgar ina copia statica d&apos;ina website sin GitHub Pages u sin in auter purschider git.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Publicaziun statica</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Tips da datas</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Mintga tip da datas dal nucleus e da las extensiuns, e co che las classas ed il cuntegn al dovran.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15294,6 +15613,22 @@ Avertiment: Ils pachets na vegnan betg deinstallads.</translation>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>Contos che nagin n'utilisescha u che dovran in sguard; deactivar, debloccar u exportar els.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Protocol d&apos;audit dals utilisaders</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>Tgi che ha midà, s&apos;ha annunzià u è vegnì refusà, per conto; filtrar ed exportar.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Rapport da las annunzias</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>Tgi ch&apos;è annunzià, annunzias e sbagls per di; deconnectar in utilisader dapertut.</translation>
     </message>
 </context>
 <context>
@@ -22110,6 +22445,22 @@ Avertiment: Ils pachets na vegnan betg deinstallads.</translation>
         <source>%n hours ago</source>
         <translation>avant %n uras</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>Respostas da las dumondas memorisadas da l&apos;API GraphQL e las classas da cuntegn da ses schema.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>Publitgar ina copia statica sin GitHub Pages u sin in auter purschider git</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Publicaziun statica</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>La memoria intermediara statica furnescha paginas da quest server. Per publitgar ina copia statica d&apos;ina website en in auter lieu, sin GitHub Pages u sin in auter purschider git, utilisai la publicaziun statica.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25651,6 +26002,10 @@ Avertiment: Ils pachets na vegnan betg deinstallads.</translation>
     <message>
         <source>last purge</source>
         <translation>ultima stizzada</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>Las scrittiras n&apos;han betg pudì prender la serrada dal stadi (l&apos;ultima giada %date): mintgina ha fatg veglias tut ils resultats en il cache. %file sto esser scrivibel per mintga utilisader sut il qual la website funcziuna; sin NFS dovra quai NFSv4 u lockd.</translation>
     </message>
 </context>
 <context>
@@ -33599,6 +33954,14 @@ Avertiment: Ils pachets na vegnan betg deinstallads.</translation>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>Sesidas scadidas dal manader PHP vegnan allontanadas da PHP sez (session.gc_maxlifetime), betg da questa pagina u da la part da l'incumbensa cron session_gc.</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>Las sesidas annunziadas da tut ils utilisaders vegnan enumeradas, e deconnectadas, en il rapport da las annunzias che funcziuna cun mintga tractader da sesidas.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>Avrir il rapport da las annunzias</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37923,6 +38286,26 @@ Voss conto.</translation>
     <message>
         <source>None yet</source>
         <translation>Anc nagin</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Activitad da segirezza</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>Vossas ultimas annunzias, las emprovas betg reussidas e las midadas da Voss pled-clav, da Vossa adressa d&apos;e-mail e da l&apos;annunzia en duas stgalas.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>Las ultimas annunzias, las emprovas betg reussidas e las midadas da segirezza da quest conto.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>Controllar l&apos;activitad</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>Annunzias betg reussidas: %count</translation>
     </message>
 </context>
 <context>
@@ -44089,6 +44472,42 @@ Sche Vus vulais trametter commentaris a l'approvader u guardar il status, duvrai
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>Suenter s'annunziar sto l'utilisader tscherner in nov pled-clav, avant ch'el po far insatge auter. Duvrai quai, cura che Vus dais in pled-clav temporar a insatgi.</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>Tscherner in maletg existent</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>La datoteca dal maletg da l'object che Vus tschernis vegn copiada en quest champ. L'auter object na vegn betg midà.</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>Il maletg da «%name» è vegnì copià en quest champ.</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>Sfegliar ils maletgs</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>Tschertgar maletgs tenor num</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Tschertgar</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>Utilisar il maletg da «%name»</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>Utilisar quest maletg</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>Nagin maletg na correspunda a Vossa tschertga.</translation>
     </message>
 </context>
 <context>
@@ -51013,6 +51432,10 @@ Pli bler infurmaziuns chattais Vus sin la pagina dals requisits.</translation>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>La crontab n'è betg vegnida scritta (%reason). Agiuntai questas lingias a la crontab da l'utilisader sut il qual la website exequescha, uschiglio na vegnan la fila da spetga, las importaziuns, ils avis e l'index da tschertga mai exequids:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>La reinstallaziun vegn fatga cun il kickstarter (%file, lura php bin/php/kickstarter.php run --apply) u cun ina nova installaziun.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54892,6 +55315,10 @@ Voss conto.</translation>
         <source>eZJSCore Public Packer cache</source>
         <translation>Memoria intermediara dal Public Packer da eZJSCore</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>Cache GraphQL (respostas e classas dal schema)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54978,6 +55405,14 @@ Voss conto.</translation>
     <message>
         <source>Copy of %class_name</source>
         <translation>Copia da %class_name</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Tips da datas</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>Tip da datas %string</translation>
     </message>
 </context>
 <context>
@@ -55804,6 +56239,26 @@ quest sbagl. Na empruvai betg da trametter danovamain il pajament.</translation>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>Il maletg SVG n'ha betg pudì vegnir legì, u nagut en el na po vegnir mussà a moda segira.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>Il maletg n'ha betg pudì vegnir copià. Empruvai danovamain u contactai l'administratur da la website.</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>L'object tschernì n'exista betg u Vus na dastgais betg al leger.</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>L'object tschernì n'ha nagin maletg.</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>La datoteca dal maletg da l'object tschernì n'ha betg pudì vegnir legida.</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>Il maletg da l'object tschernì è pli grond che quai che quest champ permetta: %1 bytes.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56334,6 +56789,42 @@ quest sbagl. Na empruvai betg da trametter danovamain il pajament.</translation>
         <source>The bookmark was renamed to "%name".</source>
         <translation>Il segnapagina è vegnì renominà en "%name".</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>Questa pagina è deactivada en quest access a la website (%siteaccess). Avri il segnapagina en in access a la website che la cuntegna.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>Il modul da questa pagina n'è betg installà u betg activà qua.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>Questa pagina n'exista betg pli: ses modul n'ha nagina tala vista.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>Nagina da Vossas rollas na Vus permetta d'avrir questa pagina.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>Vus na dastgais betg utilisar quest access a la website.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>Vus na dastgais betg leger il cuntegn che questa pagina mussa.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>Quest tip da pagina na po betg vegnir agiuntà als segnapaginas: ella agescha mo sin in formular u è ina pagina d'in mument.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>L'adressa da questa pagina manca.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>Questa pagina na po ussa betg vegnir averta.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56805,6 +57296,10 @@ Vus stuais midar la classa dal nod cun la funcziun da barat.</translation>
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>Il transport d'e-mail ha refusà %count messadis en l'ultima execuziun. Controllai il server d'e-mail e site.ini MailSettings.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Eveniments che spetgan: %count, e nagina execuziun da l&apos;incumbensa cron dals avis n&apos;è registrada. Agiuntai la part da l&apos;incumbensa cron &quot;frequent&quot; a la crontab u exequi exp:notification:run --apply.</translation>
     </message>
 </context>
 <context>
@@ -63061,6 +63556,10 @@ Vus stuais midar la classa dal nod cun la funcziun da barat.</translation>
         <source>Choose another site or section with the node picker</source>
         <translation>Tscherner in'autra website u in'autra secziun cun la tscherna da nods</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>Mo l&apos;administratur dal sistem po midar il proprietari: exequi ./console exp:content-check --fix-permissions --apply sco root.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64594,6 +65093,10 @@ Vus stuais midar la classa dal nod cun la funcziun da barat.</translation>
     <message>
         <source>empty</source>
         <translation>vid</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>La clav da signatura è pli veglia ch&apos;in onn: remplazzai ella cun exp:audit key rotate --apply.</translation>
     </message>
 </context>
 <context>
@@ -68424,6 +68927,486 @@ Vus stuais midar la classa dal nod cun la funcziun da barat.</translation>
         <source>Share of page time</source>
         <translation>Part dal temp da la pagina</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>ina generaziun cumpletta è vegnida dumandada</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>la memoria intermediara da paginas n'aveva betg la pagina (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>la memoria intermediara da paginas n'ha betg respundì</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>Generà</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>Generà dal nucleus: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>Furnì da la memoria intermediara da paginas en %ms ms. La pagina è vegnida memorisada a las %stored d'ina generaziun da %render ms, avant %age s.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>Generar ussa</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>Enavos a la vista da la memoria intermediara</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>Da la generaziun da las %stored (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>Questa dumonda: furnida da la memoria intermediara da paginas en %ms ms.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Utilisader</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>ID da l'utilisader</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>Profil da cache</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>Questa vista</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>Memoria intermediara da las vistas</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>per utilisader (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>Profil da cache da l'utilisader: utilisaders cun il medem profil partan las datotecas da cache da las vistas</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>gea</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>na</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Num d'utilisader</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>Annunzià</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>Sesida</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>Las parts da la clav da cache da la vista da cuntegn che dependan da l'utilisader, exactamain sco che la clav las prenda, tenor las ViewCacheTweaks da questa pagina. Utilisaders cun il medem profil partan las datotecas da cache da las vistas, nun che las parts d'ina vista sezza differeschian (preferenzas, clavs da listeners): quellas han in agen profil, mo per questa pagina.</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>Profil</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>Questa vista (nod %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: mintga utilisader annunzià ha atgnas datotecas da cache.</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>ViewCacheTweaks activas: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>Part</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>Valur</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>Nagina part na dependa da l'utilisader (ViewCacheTweaks).</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>questa vista</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>Copiar sco text</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>Rollas</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>Impussibel da leger attribuziuns da rollas.</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>ID da la rolla</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Rolla</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>Restricziun</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>Attribuì a</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>l'utilisader</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>gruppa %name (object %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>Copià</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>Impussibel da copiar.</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>laschà davent d'in listener</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>Visitaders anonims</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>il medem sco il voss</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>auter</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>Il profil che visitaders anonims survegnan sut las medemas ViewCacheTweaks, cun las preferenzas da standard, senza las parts da la vista: in listener che legia la sessiun na po betg vegnir dumandà per quellas.</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>Preferenzas</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>Nagin modus da vista na dependa da preferenzas da l'utilisader (site.ini [ContentSettings] CachedViewPreferences).</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>Las preferenzas da las qualas dependan las vistas da quests modus da vista (CachedViewPreferences), cun la valur da l'utilisader u cun la valur da standard. Ellas èn en il profil sco userpreferences, quellas da tut ils modus da vista ensemen.</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>Modus da vista</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>Preferenza</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>Standard</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>Directivas</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>Mussar las directivas da las rollas (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>Las directivas vegnan chargiadas dal server cura che questa secziun vegn averta, ina pagina a la giada, e pon vegnir filtradas tenor modul e funcziun.</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>Funcziun</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>Tut ils moduls</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>Tut las funcziuns</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>Restricziuns</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>Mussar dapli</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>Questas rollas n'han naginas directivas.</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>Nagina directiva na correspunda al filter.</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%shown da %matching directivas (%total en total)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>Vegn chargià cura che ei vegn avert.</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>module/function, rolla, restricziun</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>Tschertgar las directivas</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>Chargiar dapli</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>Modul/funcziun</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>Tut las rollas (%count directivas)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>Nagina directiva correspunda.</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%shown da %matched directivas</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>Nagina resposta</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>mascà</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>Mussar explicaziuns</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>Zuppentar explicaziuns</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Avrir</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>Avrir tut</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>Serrar tut</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>Clav u valur</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>Tschertgar en la sesida</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Tip</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>%count ulteriurs</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>inserì memia profund per vegnir mussà</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>scursanì, %count caracters en tut</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Cumenzà</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>Num dal cookie</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>ID da la sesida</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>Manipulader</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>Percurs da memorisar</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>Standard da PHP</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>Durada da vita (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>Cookie</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>durada da vita %s s</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>Vossa atgna sesida PHP, sco ch'ella era cura che la secziun è vegnida averta, mai in'autra. Las valurs da clavs che paran secrets (tokens, hashes, pleds-clav) vegnan mascadas (debugbar.ini SessionMask[]); tut il rest vegn mussà sco memorisà, era datas persunalas.</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>%count clavs, %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>grond</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>La sesida è vida.</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>Per questa dumonda n'è vegnida startada nagina sesida.</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Extensiun %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>Nucleus ed auters</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>Betg tut las endataziuns vegnan mussadas: la sesida cuntegna dapli che quai che po vegnir enumerà qua.</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>%count clavs n'èn betg enumeradas.</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>Rom</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>Valurs che paran in token (in JSON Web Token, las credenzialas d'in chau Authorization, ina clav privata, in lung text hex u casual) vegnan era mascadas, indifferent co che lur clav sa numna (debugbar.ini SessionValueMask[]).</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>La clav para in secret (debugbar.ini SessionMask[]).</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>La valur para in token.</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>Sut ina clav mascada.</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>La sesida sco text, mascada sco la tabella.</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>La sesida è pli gronda che %size (debugbar.ini SessionWarnBytes): mintga dumonda da quest utilisader legia l'entira sesida e la scriva, sch'ella è sa midada.</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP tegna questa sesida en datotecas e bloccha la datoteca durant l'entira dumonda: las dumondas dal medem utilisader (plirs tabs, clamadas AJAX) spetgan l'ina sin l'autra.</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>Laschar avert</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>Pli grond che %size (debugbar.ini SessionWarnBytes): mintga dumonda da quest utilisader legia l'entira sesida.</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%hits da %count legids da la memoria intermediara</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>Nagin model n'è vegnì reproducì (ina vista legida da la memoria intermediara da vistas na reproducescha nagin).</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>Attribuziuns da rolla</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>Rollas e directivas</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>auter che tar visitaders anonims</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>sco tar visitaders anonims</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70304,6 +71287,14 @@ Vus stuais midar la classa dal nod cun la funcziun da barat.</translation>
     <message>
         <source>not sent</source>
         <translation>betg trames</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>L&apos;incumbensa cron dals avis registrescha qua mintga execuziun. Agiuntai la part frequent a la crontab u exequi exp:notification:run --apply.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>Utilisai la consola: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -76022,6 +77013,98 @@ Vus stuais midar la classa dal nod cun la funcziun da barat.</translation>
         <source>This topic is not Released; readers do not see it.</source>
         <translation>Quest tema n'è betg publitgà; ils lecturs na al vesan betg.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migraziuns</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Midadas da l&apos;installaziun tegnidas sco datotecas: lur stadi, las execuziuns, exequir e revocar.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Publitgar ina copia statica d&apos;ina website sin GitHub Pages u sin in auter purschider git.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Publicaziun statica</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>En controlla</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>Ils lecturs vesan questa pagina.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>Zuppada als lecturs, fin che insatgi la publitgescha.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>La pagina è ussa en controlla. Ella è zuppada als lecturs, fin ch'ella vegn publitgada.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>La pagina è publitgada: ils lecturs la vesan ussa.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>La pagina è puspè in sboz. Ella è zuppada als lecturs, fin ch'ella vegn controllada e publitgada.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>Publitgar ussa</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>Mo in utilisader cun la rolla %role che n'ha betg scrit questa versiun la po publitgar.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>Temas d'agid che spetgan sin la publicaziun</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>La zuppa als lecturs, fin ch'ella vegn publitgada danovamain.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>Sco proxim la controllescha in controllader. Ils lecturs na la vesan anc betg.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>Ils lecturs la vesan immediat.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>La prenda ord la controlla per ulteriuras lavurs. Ils lecturs na la vesan betg.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>Zuppentar questa pagina als lecturs?</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>Trametter questa pagina enavos al sboz?</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>Ils lecturs na vesan betg pli %title, fin che insatgi al publitgescha danovamain.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title va enavos al sboz per ulteriuras lavurs. Ils lecturs na al vesan anc adina betg, ed el dovra ina nova controlla avant ch'el vegn publitgà.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Interrumper</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>Quests temas èn en controlla. Ils lecturs als vesan uschespert che insatgi che n'ha betg scrit la versiun actuala als publitgescha.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76477,6 +77560,46 @@ Vus stuais midar la classa dal nod cun la funcziun da barat.</translation>
         <source>None.</source>
         <translation>Nagina.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>cun ina app d&apos;autentificaziun</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>cun in code per e-mail</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>cun in code da recuperaziun</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>cun ina clav d&apos;access</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>cun in conto extern</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Activitad da segirezza</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>Mussà sco sia rait; l&apos;adressa vegn memorisada sco che la protecziun da datas da la website prevesa.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Betg registrà</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Lieu</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>approximativ</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76720,6 +77843,42 @@ Vus stuais midar la classa dal nod cun la funcziun da barat.</translation>
         <source>Manage devices</source>
         <translation>Administrar ils apparats</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>cun ina app d&apos;autentificaziun</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>cun in code per e-mail</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>cun in code da recuperaziun</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>cun ina clav d&apos;access</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>cun in conto extern</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Activitad da segirezza</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Betg registrà</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Lieu</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>approximativ</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76799,6 +77958,14 @@ Vus stuais midar la classa dal nod cun la funcziun da barat.</translation>
         <source>View the sessions of this user</source>
         <translation>Mussar las sesidas da quest utilisader</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>Cun Voss conto %login sin %site è gist vegnida fatga in&apos;annunzia d&apos;in lieu, dal qual el n&apos;è betg s&apos;annunzià ils ultims temps:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>Lieu approximativ</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76837,6 +78004,10 @@ Vus stuais midar la classa dal nod cun la funcziun da barat.</translation>
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%browser sin %os</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Rapport da las annunzias</translation>
     </message>
 </context>
 <context>
@@ -77045,6 +78216,82 @@ Vus stuais midar la classa dal nod cun la funcziun da barat.</translation>
         <source>The passkey could not be checked. Please try again.</source>
         <translation>La clav d'access n'ha betg pudì vegnir controlada. Empruvai danovamain.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>Contos che s&apos;annunzian mo cun clavs d&apos;access na pon betg utilisar in pled-clav qua: tschernai &quot;S&apos;annunziar cun ina clav d&apos;access&quot;.</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>Clavs d&apos;access da %login</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>Las clavs d&apos;access cun las qualas quest conto s&apos;annunzia. Revocai quella che sa chatta sin in apparat pers u engulà: ella na po lura betg pli s&apos;annunziar. Novas agiunta il possessur sez.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>Voss conto dovra ina clav d&apos;access</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>Agiuntai ina clav d&apos;access a Voss conto</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>Agiuntai ina clav d&apos;access per cuntinuar. Lura As annunziais Vus cun quella empè mo cun in pled-clav.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>S&apos;annunziar cun ina clav d&apos;access è pli svelt e pli segir che cun in pled-clav. Agiuntai ussa ina u cuntinuai senza.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>Betg ussa</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>Revocar la clav d&apos;access &quot;%name&quot;?</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>Ella na po betg pli s&apos;annunziar en quest conto. Sch&apos;ella era l&apos;ultima, s&apos;annunzia il possessur cun il pled-clav, u Vus definis in nov.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>Revocar la clav d&apos;access</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>Revocar</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>Quest conto n&apos;ha nagina clav d&apos;access.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>Autentificatur</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Nunenconuschent</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>Vossa ultima clav d&apos;access: agiuntai in&apos;autra avant che l&apos;allontanar.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>Quest conto s&apos;annunzia mo cun clavs d&apos;access (directiva da clavs d&apos;access): sch&apos;i na resta nagina, s&apos;annunzia el puspè cun ses pled-clav.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>Quai è Vossa ultima clav d&apos;access e Voss conto na po betg s&apos;annunziar senza. Agiuntai l&apos;emprim in&apos;autra clav d&apos;access.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>La clav d&apos;access &quot;%name&quot; è vegnida revocada. Ella na po betg pli s&apos;annunziar en quest conto.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77144,6 +78391,34 @@ Vus stuais midar la classa dal nod cun la funcziun da barat.</translation>
         <source>Code from your authenticator app</source>
         <translation>Code da Vossa app d'autentificaziun</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>Vus essas sin il punct da stizzar datas definitivamain u da svidar in protocol.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>Voss pled-clav ed ina clav d&apos;access</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>Voss pled-clav ed in code da Vossa app d&apos;autentificaziun</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>U:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>Quest navigatur na po betg utilisar clavs d&apos;access. Utilisai in auter mod u in auter navigatur.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>Cura che Vus cuntinuais, dumonda Voss navigatur ina da Vossas clavs d&apos;access.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>Cuntinuar cun ina clav d&apos;access</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77234,6 +78509,70 @@ Vus stuais midar la classa dal nod cun la funcziun da barat.</translation>
     <message>
         <source>Setup</source>
         <translation>Configuraziun</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>Midar l&apos;agen pled-clav, l&apos;adressa d&apos;e-mail, las clavs d&apos;access, l&apos;annunzia en duas stgalims, ils codes da recuperaziun u las clavs API e deconnectar ils agens auters apparats.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>Crear e modifitgar utilisaders, lur pleds-clav ed apparats, parameters dal conto, approvar u refusar novs contos d&apos;utilisaders, attribuir rollas e modifitgar directivas.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>Stizzar datas</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>Svidar il chanaster da ruments, allontanar elements da quel ed allontanar plirs elements a la giada.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>Allontanar, publitgar e memorisar cuntegn</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>Allontanar cuntegn (er en il chanaster da ruments), publitgar e memorisar in sboz; dumandà cura ch&apos;il formular vegn tramess. Deactivà sco standard.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>Avant ina acziun sensibla conferma in utilisader annunzià danovamain tgi ch&apos;el è: cun ses pled-clav ed ina clav d&apos;access, u senza clav d&apos;access cun ses pled-clav ed il code da sia app d&apos;autentificaziun. Mo las paginas web dumondan: l&apos;interfatscha REST, SOAP, WebDAV, l&apos;annunzia expservices e la lingia da cumonds na dumondan mai.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>Nua ch&apos;ils parameters valan</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>Parameters per</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Mintga access a la website</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>Access a la website %name</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Avrir</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>Tgi vegn dumandà: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>Marcai gruppas d&apos;utilisaders per dumandar mo lur commembers (per exempel redacturs). Nagina marcada: mintga utilisader.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>Memorisà en settings/override/site.ini.append.php, per mintga access a la website. Cun memorisar vegnis Vus dumandà da confermar ch&apos;i saja Vus.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>Memorisà en settings/siteaccess/%name/site.ini.append.php. Ina valur en settings/override ha la precedenza. Cun memorisar vegnis Vus dumandà da confermar ch&apos;i saja Vus.</translation>
     </message>
 </context>
 <context>
@@ -77336,6 +78675,6822 @@ Vus stuais midar la classa dal nod cun la funcziun da barat.</translation>
     <message>
         <source>Open the page</source>
         <translation>Avrir la pagina</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from fin %to da %count</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>In num d&apos;annunzia u in ID d&apos;utilisader: il conto che l&apos;eveniment pertutgava u l&apos;utilisader che ha agì.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Conto</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Acziun</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>Suenter</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>Mintga resultat</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Avant</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Exequì da</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Svidar</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Fatg</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>Ils eveniments vegnan conservads %days dis.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>Ils eveniments vegnan conservads fin ch&apos;els vegnan allontanads a maun.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Eveniments</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>Mintga acziun</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>Tut ils eveniments da quest conto</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>Exportar la glista sco CSV (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Betg reussì</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Da</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>Restrenscher la glista</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>Nagin eveniment na correspunda.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Per pagina</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>La registraziun è deactivada en audit.ini ([UserAuditSettings] UserAudit); la glista mussa quai che è vegnì registrà avant.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Refusà</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Resultat</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Mussar</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>La tabella dal protocol d&apos;audit dals utilisaders manca. Creai-la cun php update/common/scripts/6.0/createuseraudittable.php; fin lura tegnan las datotecas d&apos;audit mintga eveniment.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>Questa pagina dovra ina banca da datas SQL; ella n&apos;è betg disponibla cun MongoDB. Las datotecas d&apos;audit tegnan mintga eveniment.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Fin</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Protocol d&apos;audit dals utilisaders</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Utilisader</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Cura</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Nua</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>Tgi che ha midà, creà, activà, deactivà, spustà u allontanà tge conto, tgi che s&apos;ha annunzià u è vegnì refusà e tge rollas ch&apos;èn vegnidas attribuidas: ina lingia per eveniment, cun ils champs avant e suenter. Pleds-clav e secrets na vegnan mai registrads.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>gruppa</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>sistem</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>nunenconuschent</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>Proteger Voss conto</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>In code da recuperaziun è vegnì duvrà per s&apos;annunziar en Voss conto %login sin %site.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>In code da recuperaziun è vegnì duvrà</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Conto</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>Adressa approximativa</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>Dumandai in nov pled-clav per s&apos;annunziar danovamain u contactai ils administraturs da la website.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>Dumandar in nov pled-clav</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>Mintga code da recuperaziun funcziuna mo ina giada. Sche Vus avais pers Voss telefon, configurai danovamain Vossa app d&apos;autentificaziun e conservai ils novs codes da recuperaziun en in lieu segir.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>Emprovas d&apos;annunzia betg reussidas en Voss conto</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>Da qua davent dumonda l&apos;annunzia in code ultra da Voss pled-clav. Sche Vus avais fatg quai, na stuais Vus far nagut.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>Sche Vus eras quai ed avais emblidà Voss pled-clav, dumandai in nov. Uschiglio tscherni in pled-clav pli ferm ed activai l&apos;annunzia en duas stgalas.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>Sche Vus n&apos;eras betg quai, enconuscha forsa insatgi Voss pled-clav: midai el ussa e controllai nua che Voss conto è annunzià.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>Codes da recuperaziun restants</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>Controllar Voss apparats</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>Avertiment da segirezza</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>Insatgi ha empruvà da s&apos;annunziar en Voss conto %login sin %site cun in pled-clav fallì, %count giadas in suenter l&apos;auter.</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>I ha dà in eveniment da segirezza en Voss conto %login sin %site.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>Quai è in avertiment da segirezza davart Voss conto. El vegn tramess per mintga midada da quest gener e na po betg vegnir deactivà.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Ura</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>L&apos;annunzia en duas stgalas è vegnida deactivada per Voss conto %login sin %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>L&apos;annunzia en duas stgalas è vegnida deactivada</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>L&apos;annunzia en duas stgalas è vegnida activada per Voss conto %login sin %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>L&apos;annunzia en duas stgalas è vegnida activada</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>Voss conto %login sin %site è vegnì bloccà suenter memia bleras annunzias betg reussidas.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>Voss conto è ussa protegì mo pli da Voss pled-clav. Sche Vus n&apos;avais betg fatg quai, activai danovamain l&apos;annunzia en duas stgalas suenter avair midà Voss pled-clav.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>Voss conto è vegnì bloccà</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>A Voss conto %login sin %site è vegnida agiuntada ina clav d&apos;access.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>Tgi che ha questa clav d&apos;access po s&apos;annunziar en Voss conto senza Voss pled-clav. Sche Vus n&apos;avais betg agiuntà ella, allontanai ella sut Clavs d&apos;access e midai Voss pled-clav.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>Da Voss conto %login sin %site è vegnida allontanada ina clav d&apos;access.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>Ella na po betg pli s&apos;annunziar en Voss conto. Sche Vus n&apos;avais betg allontanà ella, controllai Vossas clavs d&apos;access ed apparats.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>A Voss conto è vegnida agiuntada ina clav d&apos;access</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>Da Voss conto è vegnida allontanada ina clav d&apos;access</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>Activitad da segirezza</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Activitad da segirezza da %name</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Annunzià</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Emprova d&apos;annunzia betg reussida</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Deconnectà</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Sesidas deconnectadas</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Annunzia d&apos;in nov apparat</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Annunzia d&apos;in nov lieu</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Identitad confermada (&quot;Confermai ch&apos;i saja Vus&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Verificaziun da l&apos;identitad betg reussida</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Annunzià cun ina clav d&apos;access</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Annunzia cun clav d&apos;access betg reussida</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Annunzia refusada: il code da l&apos;annunzia en duas stgalas manca u è fallì</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Code fallì da l&apos;annunzia en duas stgalas</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Conto bloccà suenter annunzias betg reussidas</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Conto debloccà</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Pled-clav midà</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Midada dal pled-clav betg reussida</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Pled-clav reinizialisà</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Nov pled-clav dumandà</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Adressa d&apos;e-mail midada</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Num d&apos;utilisader midà</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Annunzia en duas stgalas activada</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Annunzia en duas stgalas deactivada</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Code da recuperaziun duvrà</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Novs codes da recuperaziun</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Pled-clav d&apos;app creà</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Pled-clav d&apos;app revocà</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Clav d&apos;access agiuntada</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Clav d&apos;access allontanada</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Conto activà</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Conto deactivà</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Tut</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Annunzias e sesidas</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Midadas dal conto</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Dovra attenziun</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>da Vus</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>da l&apos;utilisader</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>da %login</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>Metoda</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>Navigatur</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>Sistem</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Apparat</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>Lieu</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>Pajais</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Sesidas</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>Tgeninas</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>Chanal</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Emprovas betg reussidas</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>Codes restants</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>Tractader d&apos;annunzia</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Activitad da segirezza</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Activitad da segirezza da %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Annunzias e midadas da la segirezza da Voss conto. Sche Vus vesais insatge che Vus n&apos;avais betg fatg, midai Voss pled-clav e deconnectai ils apparats che Vus na renconuschais betg.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>Annunzias e midadas da la segirezza da quest conto.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Voss apparats</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Midar il pled-clav</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>Enavos al conto</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>L&apos;activitad da segirezza na vegn betg registrada</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>Ella vegn legida dal protocol d&apos;audit dals utilisaders, sia tabella expuser_audit manca u na vegn betg sustegnida da questa banca da datas. Exequi php update/common/scripts/6.0/createuseraudittable.php u l&apos;actualisaziun da la banca da datas da la versiun 6.0.15.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Ils ultims %days dis</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Annunzias dals ultims %days dis</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>Activitad da segirezza recenta</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Mussar</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>betg reussì</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>refusà</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Anc nagina activitad da segirezza registrada.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>Ils eveniments da segirezza vegnan conservads %days dis.</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>Ils eveniments da segirezza vegnan conservads fin ch&apos;in administratur als allontanescha.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Telechargiar mias datas d&apos;annunzia</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Vossas sesidas e Voss eveniments da segirezza sco datoteca JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Sin questa website na vegnan las sesidas betg registradas, perquai n'ha nagin auter apparat pudì vegnir deconnectà. Midai ussa Voss pled-clav.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count autras sesidas èn vegnidas deconnectadas. Midai ussa Voss pled-clav.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Nagin auter apparat n'era connectà. Midai ussa Voss pled-clav.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Grazia fitg. L'eveniment è vegnì marcà sco Voss.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Quest eveniment na dovra nagina resposta.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>La pagina era scadida. Nagut n'è vegnì midà; empruvai danovamain.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Proteger Voss conto</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Sche insatge qua n'è betg stà Vus, deconnectai tut ils auters apparats e tschernai lura in nov pled-clav. Er ils apparats che restan connectads cun «Ma regurdar» vegnan deconnectads.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Mintga apparat, cun excepziun da quest, vegn deconnectà tar sia proxima dumonda. Lura tschernis Vus in nov pled-clav.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Gea, deconnectar ils auters apparats</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Èsas quai stads Vus?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Gea, quai sun jau stà</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Na, proteger mes conto</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Annunzià</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Emprova d&apos;annunzia betg reussida</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Deconnectà</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Sesidas deconnectadas</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Annunzia d&apos;in nov apparat</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Annunzia d&apos;in nov lieu</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Identitad confermada (&quot;Confermai ch&apos;i saja Vus&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Verificaziun da l&apos;identitad betg reussida</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Annunzià cun ina clav d&apos;access</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Annunzia cun clav d&apos;access betg reussida</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Annunzia refusada: il code da l&apos;annunzia en duas stgalas manca u è fallì</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Code fallì da l&apos;annunzia en duas stgalas</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Conto bloccà suenter annunzias betg reussidas</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Conto debloccà</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Pled-clav midà</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Midada dal pled-clav betg reussida</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Pled-clav reinizialisà</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Nov pled-clav dumandà</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Adressa d&apos;e-mail midada</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Num d&apos;utilisader midà</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Annunzia en duas stgalas activada</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Annunzia en duas stgalas deactivada</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Code da recuperaziun duvrà</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Novs codes da recuperaziun</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Pled-clav d&apos;app creà</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Pled-clav d&apos;app revocà</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Clav d&apos;access agiuntada</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Clav d&apos;access allontanada</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Conto activà</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Conto deactivà</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Tut</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Annunzias e sesidas</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Midadas dal conto</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Dovra attenziun</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Activitad da segirezza</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Activitad da segirezza da %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Annunzias e midadas da la segirezza da Voss conto. Sche Vus vesais insatge che Vus n&apos;avais betg fatg, midai Voss pled-clav e deconnectai ils apparats che Vus na renconuschais betg.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Voss apparats</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Midar il pled-clav</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>L&apos;activitad da segirezza na vegn anc betg registrada sin questa website.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Annunzias dals ultims %days dis</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Emprovas betg reussidas</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Anc nagina activitad da segirezza registrada.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Telechargiar mias datas d&apos;annunzia</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Vossas sesidas e Voss eveniments da segirezza sco datoteca JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Sin questa website na vegnan las sesidas betg registradas, perquai n'ha nagin auter apparat pudì vegnir deconnectà. Midai ussa Voss pled-clav.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count autras sesidas èn vegnidas deconnectadas. Midai ussa Voss pled-clav.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Nagin auter apparat n'era connectà. Midai ussa Voss pled-clav.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Grazia fitg. L'eveniment è vegnì marcà sco Voss.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Quest eveniment na dovra nagina resposta.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>La pagina era scadida. Nagut n'è vegnì midà; empruvai danovamain.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Proteger Voss conto</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Sche insatge qua n'è betg stà Vus, deconnectai tut ils auters apparats e tschernai lura in nov pled-clav. Er ils apparats che restan connectads cun «Ma regurdar» vegnan deconnectads.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Mintga apparat, cun excepziun da quest, vegn deconnectà tar sia proxima dumonda. Lura tschernis Vus in nov pled-clav.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Gea, deconnectar ils auters apparats</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Èsas quai stads Vus?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Gea, quai sun jau stà</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Na, proteger mes conto</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>Pled-clav</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>Pled-clav e code da l&apos;annunzia en duas stgalas</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>Interfatscha REST</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>Interfatscha SOAP</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>Annunzia unica (SSO)</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>Annunzià avant che las sesidas vegnivan registradas</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Rapport da las annunzias</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>Tgi ch&apos;è annunzià sin la website, quant savens ch&apos;ils contos s&apos;annunzian u na reussan betg da far quai, e deconnectar in utilisader dapertut. Funcziuna cun mintga tractader da sesidas.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>La sesida è vegnida deconnectada. L&apos;apparat sto s&apos;annunziar danovamain.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>%login è vegnì deconnectà da sesidas: %count.</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>%login n&apos;aveva nagina sesida activa.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>Nagin conto n&apos;ha quest ID, quest num d&apos;utilisader u questa adressa d&apos;e-mail.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>Quai è la sesida che Vus utilisais. Per la terminar, utilisai &quot;S&apos;deconnectar&quot;.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>Questa sesida era gia terminada.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>La pagina era scadida. Nagut n&apos;è vegnì midà; empruvai anc ina giada.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>Las sesidas na vegnan betg registradas sin questa website (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>La tabella expuser_session manca</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>Las sesidas vegnan registradas uschespert ch&apos;ella è creada: php update/common/scripts/6.0/createusersessiontable.php u l&apos;actualisaziun da la banca da datas da la versiun 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>Ussa ed oz</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>Sesidas activas</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>Utilisaders annunziads</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>Annunzias dad oz</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>Emprovas betg reussidas dad oz</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>Deconnectar in utilisader dapertut</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>Mintga sesida dal conto finescha tar sia proxima dumonda, er quellas mantegnidas cun &quot;Ma regurdar&quot;. Utilisai quai sch&apos;in conto pudess esser en mauns fallids; reinizialisai lura ses pled-clav.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>ID d&apos;utilisader, num d&apos;utilisader u adressa d&apos;e-mail</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>Deconnectar dapertut</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>Annunziads ussa</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>Las %limit utilisadas il pli recentamain vegnan mussadas.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Utilisader</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Apparat</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adressa</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>Annunzià</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>Ultima activitad</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Acziuns</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>Quest apparat</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Betg registrà</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>S&apos;deconnectar</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>Nagina sesida n&apos;è annunziada.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Ils ultims %days dis</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>Las annunzias e las emprovas betg reussidas vegnan dumbradas a basa dal protocol d&apos;audit dals utilisaders che manca; las novas sesidas vegnan dumbradas.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>Di</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>Annunzias</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Emprovas betg reussidas</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>Novas sesidas</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>Tractader da sesidas: %handler. Las sesidas vegnan legidas da la tabella expuser_session, perquai funcziuna il rapport cun mintga tractader.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>Activitad suspectusa durant las ultimas %hours uras</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>Ina rait n'ha betg pudì s'annunziar tar %accounts contos (%count emprovas)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Conto bloccà suenter annunzias betg reussidas</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>%count annunzias betg reussidas sin in conto</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>Annunzià da %count pajais il medem mument</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Activitad da segirezza</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Sesidas</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>Las annunzias betg reussidas vegnan legidas dal protocol da revisiun dals utilisaders che n'è betg disponibel qua.</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>Nagut suspectus: nagin conto cun annunzias betg reussidas repetidas, nagina rait che emprova plirs contos, nagin conto annunzià da plirs pajais.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>Avertiment da segirezza per Voss conto</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>I ha dà in eveniment da segirezza en Voss conto %login: %event. Sche Vus n&apos;eras betg quai, protegi Voss conto sut %url.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Configuraziun</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>Dumandai il cuntegn da questa website exactamain ils champs ch'ina pagina dovra, en ina suletta dumonda. Il schema suonda las classas da cuntegn; mintga dumonda vegn exequida cun ils dretgs da l'utilisader che la trametta.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>L'API GraphQL è deactivada en quest access a la website. Activai l'API en graphql.ini: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>La biblioteca GraphQL (webonyx/graphql-php 15) n'è betg installada.</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>Punct final</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>Biblioteca</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>Schema</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>%count classas da cuntegn, schema %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>Dumonda</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>Variablas (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Exequir</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>Resposta</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>Vegn exequì…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>La resposta n'ha betg pudì vegnir legida.</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>La dumonda vegn exequida cun voss dretgs, annunzià cun questa sessiun.</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%count en %seconds s</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>nagin limit</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>Profunditad</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>Cumplexitad</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>Elements per glista</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (standard %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>Dumondas per utilisader u clav</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>Dumondas per adressa anonima</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>Introspecziun</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>Mo dumondas memorisadas</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>La pli gronda dumonda</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>%bytes bytes</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>Il pli grond upload</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>I na dat nagin access a la website %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>Las mutaziuns èn activadas en %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>Las mutaziuns èn deactivadas en %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>L'API GraphQL è activada en %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>L'API GraphQL è deactivada en %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>Ils parameters n'han betg pudì vegnir scrits: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>Il cache da las respostas è vegnì svidà: %count respostas allontanadas.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>Marca la chascha sper la dumonda per l'allontanar.</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>La dumonda n'ha betg pudì vegnir allontanada: ina dumonda furnida en in ordinatur da PersistedQueryDirectoryList[] vegn allontanada cun sia datoteca.</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>La dumonda memorisada è vegnida allontanada.</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>Mutaziuns</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>activ</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>deactivà</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Accesses a la website</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>Nua che l'API e sias mutaziuns respundan. Ils buttuns scrivan graphql.ini, sco ./console exp:graphql:enable ed exp:graphql:disable.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Access a la website</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>API GraphQL</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Midar</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Deactivar</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>Mutaziuns deactivadas</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>Mutaziuns activadas</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Activar</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>Limits</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>graphql.ini [GraphQLSettings] da quest access a la website.</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>Cache da las respostas</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>Las respostas da las dumondas memorisadas, tegnidas per dretgs d'utilisader e scadidas mintga giada che cuntegn vegn publitgà.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Stadi</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>Respostas tegnidas</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>%count respostas, %bytes bytes</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>Tegnidas maximalmain</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds s</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>Ultima scadenza</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>Svidar il cache da las respostas</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>Dumondas memorisadas</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>Memorisadas cun ./console exp:graphql:persist, u da clients (dumondas memorisadas automaticas); clamadas per num u SHA-256.</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>Nums</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Grondezza</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Nua</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Allontanar</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>furnida</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>memorisada</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>Gea, allontanar questa dumonda</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>Anc nagina dumonda memorisada.</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>Clavs d'API</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>Clavs d'API persunalas cun la sfera graphql:read (dumondas) u graphql:write (mutaziuns). Creescha e revochescha ellas sin la pagina Access a l'API, u cun ./console exp:graphql:keys.</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>Access a l'API</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>Tut las clavs</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>Clav</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Num</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Proprietari</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>Sferas</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>Ultima utilisaziun</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>activa</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>scadida</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>revocada</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>mai</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>Anc nagina clav d'API cun ina sfera GraphQL.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>L'API GraphQL è deactivada en l'access a la website %siteaccess, che mussa questa pagina; la tabella sutvart mussa nua ch'ella respunda.</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>Per l'access a la website %siteaccess, che mussa questa pagina.</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>Webhooks</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>Mintga eveniment ch'in punct final dumonda (publish, update, trash, delete, move, hide, reveal, mutation) al vegn tramess, suttascrit, da la part dal cronjob graphqlwebhooks. ./console exp:graphql:webhooks fa il medem sco questa secziun.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Eveniments</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>tuts</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Mintga access a la website</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>defect</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>nagin secret</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>En spetga</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count abandunadas</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>Ultima furniziun</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Trametter in test</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>Gea, allontanar quest webhook</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>Anc nagin webhook.</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>Agiuntar in webhook</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>Agiuntar</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>Furniziuns recentas</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Temp</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Resultat</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>Abunaments</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>Actualisaziuns live per clients: in flux d'eveniments sin /api/graphql/subscribe ed in WebSocket (graphql-transport-ws) sin Velocity. Mintga eveniment va mo als abunents che dastgan leger ses cuntegn.</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>Avert ussa</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>Il pli avert</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>%total en total, %user per utilisader, %address per adressa</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>Abunaments anonims</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>Durada dal flux</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>Il webhook n'ha betg pudì vegnir agiuntà: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>Il webhook %name è vegnì midà; ses secret da suttascripziun resta.</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>Il secret da suttascripziun n'ha betg pudì vegnir memorisà (Configuraziun &gt; Secrets).</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>Il webhook %name è vegnì agiuntà. Ses secret da suttascripziun, mussà mo questa giada: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>I na dat nagin webhook %name.</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>Il webhook %name n'ha betg respundì: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>Il webhook %name ha respundì %status en %ms ms.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>Marca la chascha sper il webhook per l'allontanar.</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>Il webhook %name è vegnì allontanà.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>L&apos;API GraphQL è deactivada en quest access a la website.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>La biblioteca GraphQL n&apos;è betg installada.</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>Duvrai GET u POST.</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>Il corp da la petiziun n&apos;è betg in object JSON.</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables n&apos;è betg in object JSON.</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions n&apos;è betg in object JSON.</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>Tramettai la dumonda cun POST.</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>La petiziun na cuntegna nagina dumonda.</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>La dumonda è pli lunga che %max bytes.</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>Errur interna dal server</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node dovra exactamain in da id, remoteId, path ed urlAlias.</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content dovra exactamain in da id e remoteId.</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>Il cursur da after na deriva betg da quest&apos;API.</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>I na dat nagin alias da maletg %alias (image.ini [AliasSettings] AliasList[]).</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>Qua vegnan acceptadas mo dumondas memorisadas: tramettai l&apos;id d&apos;ina dumonda memorisada sin il server.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>Il hash da la dumonda memorisada n&apos;è betg in SHA-256.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>Il hash da la dumonda memorisada na correspunda betg a la dumonda.</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>Memia bleras petiziuns: maximalmain %limit en %window secundas. Empruvai danovamain en %reset secundas.</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>La dumonda ha %depth nivels da profunditad; permess èn maximalmain %max.</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>La dumonda ha ina cumplexitad da %complexity; permess è maximalmain %max.</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>Questa petiziun na dastga betg leger il schema (introspection).</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search dovra in text u in filter (classes, subtree, sections, publishedAfter, publishedBefore).</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument n&apos;è betg ina data (ISO 8601, 2026-10-30).</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag dovra exactamain in da id, remoteId e path.</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout dovra exactamain in da id, identifier ed urlAlias.</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>Il champ operations da la dumonda multipart n'è betg ina suletta dumonda JSON.</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>Il champ map da la dumonda multipart n'è betg in object JSON.</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>La dumonda multipart n'ha nagina datoteca %field.</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>In percurs da la charta dals champs sto cumenzar cun variables.: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>La datoteca %name n'è betg arrivada cumplettamain (errur da chargiar si %error).</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>La datoteca %name è pli gronda che %max bytes.</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>La datoteca %name n'ha betg pudì vegnir controllada.</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>Las mutaziuns èn deactivadas en quest access a la website (graphql.ini [GraphQLSettings] MutationsEnabled).</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>Trametta ina mutaziun cun POST.</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>S'annunzia per midar il cuntegn.</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>La clav d'API n'ha betg la sfera %scope.</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>Ina mutaziun cun ina sessiun basegna il token dal formular da la sessiun (header X-CSRF-Token).</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>uploadFromUrl è deactivà: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] na numna nagin host.</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>L'adressa sto esser in'adressa https.</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>Il host %host n'è betg en graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>La datoteca n'ha betg pudì vegnir prendida.</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload è mo in tip d'endataziun.</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>Ina variabla dal tip Upload prenda ina datoteca d'ina dumonda multipart.</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>L'ID distanta %remoteId è gia occupada.</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>Il cuntegn ha gia ina translaziun en %language: utilisescha updateContent.</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>Inditgescha almain in champ.</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>I n'ha betg pudì vegnir creà ina nova versiun (il cuntegn ha memia blers sbozs).</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>La versiun %version n'è betg in sboz.</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent basegna exactamain in da id e nodeId.</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>In lieu na po betg vegnir spustà sut sasez.</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>Il cuntegn ha gia in lieu sut %parentId.</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>La valur dal champ %field n'ha betg pudì vegnir memorisada.</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>I na dat nagina lingua da cuntegn %language.</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>I na dat nagina classa da cuntegn %class en la schema.</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>Il cuntegn n'exista betg, u ti na das betg al leger.</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>Ti na das betg far quai cun quest cuntegn.</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>La classa %class n'ha nagin champ %field che po vegnir scrit.</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>Il champ %field è indicà duas giadas.</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>Il champ %field prenda ina datoteca: trametta la sco upload (ina dumonda multipart).</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>Il champ %field na prenda nagina datoteca.</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>Il champ %field basegna ina valur.</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>Il format %format è mo per champs da text formatà; %field prenda sia valur sco ch'ella è (RAW).</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>Il champ %field è obligatoric.</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>Il HTML n'ha betg pudì vegnir legì.</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content prenda version mo cun id.</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>Il token da prevista n'è betg valid u è scadì.</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>Betg in origin (https://host u https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>Betg ina sfera da l'API GraphQL: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>Trametta ils abunaments a /api/graphql/subscribe (in flux d'eveniments u in WebSocket).</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>La dumonda na numna nagina operaziun dal document.</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>In abunament dumonda exactamain in champ.</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>Memia blers abunaments èn averts; emprova pli tard anc ina giada.</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>Ti has %max abunaments averts, il maximum permess.</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>Tia adressa ha %max abunaments averts, il maximum permess.</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>Ils abunaments èn deactivads en quest access a la website.</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>S'annunzia per abunar (in token u ina clav d'API persunala).</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>Trametta las mutaziuns a /api/graphql.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>Migraziuns</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Il stadi n&apos;ha betg pudì vegnir legì: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Las tabellas da las migraziuns n&apos;existan anc betg: ./console exp:upgrade --apply las crea.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>%count migraziuns n&apos;èn betg reussidas</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>Ina execuziun è en curs, aviada da %user</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>L&apos;installaziun è bloccada: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Pendentas</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Betg reussidas</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>Orfnas</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Ultima execuziun</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>anc nagina</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>Tut las migraziuns</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>Execuziun simulada</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>Execuziun da test</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>Las migraziuns pendentas èn vegnidas exequidas en ina transacziun ch&apos;è suenter vegnida revocada: nagut n&apos;è vegnì tegnì. Sutvart stat tge che mintgina ha midà en la banca da datas.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>Tge ch&apos;ina execuziun fiss ussa. Nagut na vegn midà: mintga migraziun pendenta enumerescha las midadas ch&apos;ella fiss, e l&apos;execuziun tge ch&apos;ella fiss avant e suenter.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>Simular</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Exequir</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>L&apos;execuziun da test n&apos;è betg reussida: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>Ina simulaziun basegna PostgreSQL u SQLite, nua che midadas da la schema pon vegnir revocadas; sin questa banca da datas mussa il plan sutvart tge ch&apos;ina execuziun fiss.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>Las migraziuns</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>Migraziun</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Stadi</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>Tge ch&apos;ella fiss</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>Simulaziun: %result en %ms ms</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>Anc nagina migraziun.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>Avant e suenter l&apos;execuziun</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>Instantanea avant</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>vegn prendida e restaurada, sch&apos;ina migraziun na reussescha betg</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>deactivà</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>Instantanea suenter</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>vegn prendida, sche l&apos;execuziun è reussida</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>%total migraziuns: %pending pendentas, %done terminadas, %failed betg reussidas.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>Istorgia da las migraziuns</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>Mintga execuziun cun ses utilisader, ambient, instantaneas e quai ch&apos;è vegnì confermà, marcà e tramess. Ina execuziun betg reussida u interrutta po vegnir cuntinuada; ina execuziun cun ina instantanea prendida avant po vegnir revocada.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>Las execuziuns n&apos;han betg pudì vegnir legidas: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Las tabellas da las migraziuns n&apos;existan anc betg: ./console exp:upgrade --apply las crea.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Mussar</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Tuttas</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>Execuziuns</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Aviada</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Da</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>Instantaneas</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Deposit</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Acziuns</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>avant</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>suenter</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>trametter: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>Cuntinuar</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Revocar</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>Nagina execuziun en quest stadi.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>Aviadas qua</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>Execuziuns, cuntinuaziuns e revocaziuns aviadas sin questas paginas, cun il rapport da mintgina.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Tge</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Resultat</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Revocaziun</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>Revocaziun da %target</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>Execuziun %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Tge che l&apos;execuziun ha fatg, ses register e ses protocol. Ina execuziun aviada qua cuntinuescha en il fund, sche questa pagina vegn serrada; avri danovamain la pagina per la persequitar.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>Cuntinuar questa execuziun</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>Revocar questa execuziun</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>Il register n&apos;ha betg pudì vegnir legì: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Avanzament</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Aviada da %user a las %time.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>Il code vegn controllà ed ina instantanea vegn prendida avant l&apos;execuziun</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>%id vegn exequida (%index da %total)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>%done da %total terminadas</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>Las migraziuns èn vegnidas exequidas; l&apos;instantanea vegn restaurada, sch&apos;ina n&apos;è betg reussida</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>Instantanea suenter l&apos;execuziun, confermar, marcar e trametter</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>L&apos;instantanea vegn restaurada</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>L&apos;execuziun è terminada. Ses rapport vegn chargià.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>Il progress n&apos;ha betg pudì vegnir persequità. Chargiai danovamain la pagina per vesair co che l&apos;execuziun va.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>Questa pagina persequitescha l&apos;execuziun durant ch&apos;ella va.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Chargiar danovamain</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Rapport</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Durada</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms ms</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>Quai che l&apos;execuziun ha emess sco sbagls</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Register</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>Ambient</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>nagin</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Terminada</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Conferma</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Marca</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Trametter</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Messadi</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>Migraziuns da questa execuziun</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>Funtauna</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>Protocol da l&apos;execuziun</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>I vegn mussà mo la fin dal protocol.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>en curs</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>terminada senza rapport</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>reussida</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>betg reussida</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>refusada</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>la banca da datas n&apos;era betg cuntanschibla</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>sbagl intern</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>Ina execuziun è en curs</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind aviada da %user a las %time.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>Persequitar</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>L&apos;installaziun è bloccada</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>In&apos;autra execuziun tegna il bloc (in upgrade u ina execuziun en la consola): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>terminada</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>pendenta</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>betg necessaria</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>nunenconuschent</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>revocada</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>applitgada</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>vegniss applitgada</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>retratga</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>vegniss retratga</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>betg exequida</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>spetga sin in&apos;autra</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>midada acceptada</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>la midada vegniss acceptada</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>simulada</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migraziuns</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Stadi</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Istorgia</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>Retrair %target</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>Ina execuziun vegn retratga a l&apos;instantanea prendida avant ella, ina singula migraziun cun ses down(). Restaurar ina instantanea pli veglia è per expertas ed experts. Mintgina vegn exequida en il fund sco Vus, suenter ina instantanea dal stadi actual.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>Quai che po vegnir retratg n&apos;ha betg pudì vegnir legì: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>Ina execuziun</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>Ina migraziun</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>Ina instantanea pli veglia</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>Descripziun</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>gea</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>na</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Instantanea</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Etichetta</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>Prendida</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Gener</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>Parts da restaurar</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>La banca da datas</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>Las datotecas memorisadas (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>Las configuraziuns (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>Restaurar la banca da datas la metta enavos al temp da l&apos;instantanea, inclus las sessiuns: suenter stuais Vus eventualmain s&apos;annunziar danovamain. Tut quai ch&apos;è vegnì midà dapi lura va a perder; l&apos;emprim vegn prendida ina instantanea dal stadi actual.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>Jau sai tge che quai restaurescha</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>Endatai anc ina giada l&apos;identificaziun da l&apos;instantanea</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>Gea, retrair</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Interrumper</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>Las execuziuns cun ina instantanea prendida avant ellas.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>Tscherner</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>Anc nagina execuziun cun instantanea.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>Las migraziuns applitgadas che pon sa retrair sezzas (ellas han in down()).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>Nagina migraziun applitgada n&apos;ha in down().</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>Instantaneas pli veglias (experts)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>Anc nagina instantanea.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>Exequir las migraziuns</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>L&apos;execuziun va en il fund sco %user, e sia pagina la mussa durant ch&apos;ella va. Avant l&apos;emprima migraziun vegn prendida ina instantanea da l&apos;installaziun; sch&apos;ina migraziun na reussescha betg, sa ferma l&apos;execuziun e l&apos;instantanea vegn restaurada.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>L&apos;emprim ina execuziun da test</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Il stadi n&apos;ha betg pudì vegnir legì: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>Migraziuns pendentas</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>Ellas vegnan exequidas en quest urden. Allontanai il crutsch tar ina per la laschar, ensemen cun quellas che dependan dad ella, per ina execuziun pli tard.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>Exequir</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>Activescha il modus da mantegniment durant l&apos;execuziun.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>Midadas suenter l&apos;applicaziun</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>Questas datotecas n&apos;èn betg quellas ch&apos;èn vegnidas applitgadas. Ina execuziun las refusa, auter che la midada vegnia acceptada cun ina motivaziun; ellas na vegnan betg exequidas danovamain, la nova summa da controlla vegn registrada e la motivaziun tegnida en il protocol da revisiun.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>Acceptar las midadas</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Pertge</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>Las valurs predefinidas èn las segiras. Mintga chaschetta lascha davent in pass.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>Nagina instantanea</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>Nagina instantanea avant e suenter l&apos;execuziun: in insuccess na po betg vegnir restaurà automaticamain.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>Nagina restauraziun</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>Suenter in insuccess laschar l&apos;installaziun sco che l&apos;insuccess l&apos;ha laschada.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>Tegnair midadas betg confermadas</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>Exequir era sche configuraziuns, extensiuns u designs han midadas betg confermadas; ellas van en l&apos;instantanea.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>Nagina conferma</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>Betg confermar la datoteca da stadi ed il protocol da l&apos;execuziun (er nagina marca e betg trametter).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>Betg trametter</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>Confermar e marcar, ma betg trametter.</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>Nagina marca</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>Confermar e trametter, ma betg marcar l&apos;execuziun.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>Gea, exequir ussa questas migraziuns</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Nagina migraziun n&apos;è pendenta.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>Enavos al stadi</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>Midadas da questa installaziun, scrittas ina giada sco datotecas (cuntegns, classas, rollas, configuraziuns, schema) ed applitgadas en il medem urden a mintga installaziun da la site. Ina execuziun prenda l&apos;emprim ina instantanea, la restaurescha sch&apos;ina migraziun na reussescha betg, e registrescha, conferma e tramet quai ch&apos;ella ha fatg.</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>Exequir %count pendentas</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Survista</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Pendentas</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Terminadas</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Betg reussidas</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>Betg necessarias</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>Banca da datas</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>transacziuns: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>Las migraziuns da la site èn en migrations/, quellas d&apos;ina extensiun en extension/&lt;name&gt;/migrations/. Ellas vegnan exequidas en l&apos;urden da lur nums e da lur dependenzas.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Ultima execuziun</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>La datoteca è sa midada suenter l&apos;applicaziun.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>Anc nagina migraziun. ./console exp:migration:generate --skeleton &lt;name&gt; --apply scriva l&apos;emprima.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>Las ultimas execuziuns</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>Tut las execuziuns</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>Anc nagina execuziun.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>Per simular ina execuziun dovri la directiva migration/run.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>Ina execuziun è en curs: simulai cur ch&apos;ella è terminada.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Configuraziun</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target n&apos;è ni ina execuziun, ni ina migraziun ni ina instantanea da questa installaziun.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>Marcai l&apos;emprim «Gea, retrair».</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>Restaurar ina instantanea pli veglia è per experts: marcai «Jau sai tge che quai restaurescha».</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>Endatai anc ina giada l&apos;identificaziun da l&apos;instantanea: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>Tschernai almain ina part da restaurar.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>Questa execuziun n&apos;ha nagina instantanea prendida avant ella: retragai sias migraziuns ina suenter l&apos;autra u restaurai ina instantanea pli veglia.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>Questa migraziun na po betg sa retrair sezza: ella n&apos;è betg applitgada u n&apos;ha nagin down().</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Il formular n&apos;ha betg pudì vegnir legì.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>Tschernai l&apos;execuziun che duai vegnir cuntinuada.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>Marcai l&apos;emprim «Gea, exequir ussa questas migraziuns».</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>Tschernai almain ina migraziun.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>Ina migraziun è sa midada suenter l&apos;applicaziun: acceptai la midada cun ina motivaziun u restaurai la datoteca.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>Inditgai pertge che las migraziuns midadas vegnan acceptadas.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>La motivaziun ha maximalmain 500 caracters.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>Ina execuziun aviada qua è anc en curs (%detail). Spetgai fin ch&apos;ella è terminada.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>In&apos;autra execuziun tegna il bloc da l&apos;installaziun: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>L&apos;execuziun basegna in utilisader annunzià ch&apos;exista.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>I n&apos;è vegnì chattà nagin program php da la lingia da cumonds. Definì en migration.ini [AdminSettings] PhpCliPath sia via cumpletta.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open è deactivà, perquai na po nagina execuziun vegnir aviada qua. Exequi ./console exp:migration:migrate --apply sin il server.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>I na po betg vegnir scrit en l&apos;ordinatur da las execuziuns: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>L&apos;execuziun è vegnida aviada, ma n&apos;ha betg annunzià l&apos;identificaziun da ses process. Controllai %detail.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>Inditgai tge che duai vegnir retratg.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>L&apos;execuziun n&apos;ha betg pudì vegnir aviada.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>Registrar midadas</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>Durant che ina registraziun è en funcziun, vegn quai che Vus midais en l'administraziun u en la trav laterala da la website conservà sco pass d'ina migraziun: cuntegn, classas, rollas e directivas, secziuns, utilisaders e gruppas, alias URL, parameters. Fermai la registraziun cura che Vus essas a fin, guardai tge ch'ella ha tschiffà e generai ina migraziun ord ella.</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>Las registraziuns n'han betg pudì vegnir legidas: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>Las tabellas da las registraziuns n'existan anc betg: exequi l'emprim l'actualisaziun (exp:upgrade --apply).</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>La registraziun è deactivada en migration.ini ([RecordingSettings] Recording=disabled).</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>Mias midadas</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>Registrescha mo quai che Vus midais, nua che Vus midais, fin che Vus la fermais.</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>Registraziun</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>dapi %time, fin uss %count midada(s).</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>Etichetta (facultativa)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>Mussar tge ch'ella ha tschiffà</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Fermar la registraziun</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>Cumenzar a registrar mias midadas</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>Fanestra per l'entira website</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>Registrescha mintga midada da mintga utilisader e da la consola fin ch'ella vegn serrada. Cun l'avrir stuais Vus confermar che Vus essas Vus.</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Averta</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>Serrar la fanestra</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>Avrir la fanestra per l'entira website</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>Registraziuns</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>Il conto d'in utilisader (num d'annunzia, e-mail, pled-clav) ed ils champs dals contos d'utilisaders na vegnan mai registrads.</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Midadas</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>Entira website</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>Midadas da %name</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Fermada</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>Anc nagina registraziun.</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>Registraziun %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>Tut las registraziuns</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>La migraziun che resultass</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>Las midadas resumadas en in pass per mintga chaussa midada: quai che fiss ina migraziun generada ord questa registraziun.</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>Ina migraziun po vegnir generada ord ella uschespert che questa installaziun ha ils tips da pass YAML %types.</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>Laschà davent apposta: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>Nagut n'è vegnì registrà.</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>Tge ch'ella ha tschiffà</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>%count midada(s), en l'urden ch'ellas èn vegnidas fatgas.</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Midada</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>Pass</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>Pertutga</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>Anc %count: ./console exp:migration:record:show las enumerescha tuttas.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Bittar davent</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>Allontanescha la registraziun e quai ch'ella ha tschiffà. Quai ch'è vegnì midà resta midà.</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>Gea, bittar davent questa registraziun</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>Registrescha…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Vossas midadas vegnan registradas per ina migraziun.</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>Mintga midada sin questa website vegn registrada per ina migraziun (fanestra per l'entira website).</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>La registraziun per l'entira website ha cumenzà: mintga midada da mintga utilisader vegn registrada fin che Vus la fermais.</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>La registraziun ha cumenzà: Vossas midadas vegnan registradas fin che Vus la fermais.</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>Registraziun fermada. Quai ch'ella ha tschiffà resta fin che Vus la bittais davent.</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>La registraziun e ses eveniments èn vegnids allontanads.</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>I na dat nagina registraziun %id.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>Marcai l'emprim «Gea, bittar davent questa registraziun».</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>Mo l'utilisader che ha registrà dastga fermar ina registraziun da sessiun.</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>Tschernì la registraziun che duai vegnir fermada.</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>Ina registraziun da quest tip è gia en funcziun.</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>La registraziun n'ha betg pudì vegnir midada: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>Generar la migraziun</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>Num da la migraziun (facultativ)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>La migraziun %file è vegnida scritta. Las midadas che nagin pass na po far èn numnadas en il chau da la datoteca, da far a maun.</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>Nagina migraziun n'è vegnida scritta: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>In lung barat per parts</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>Ils champs vids mantegnan las configuraziuns da migration.ini [RunSettings].</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>Il pli bler uschè blers migraziuns</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>Nagina ulteriura migraziun suenter (secundas)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>Pausa tranter las migraziuns (secundas)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>Prioritad pli bassa (1 fin 19)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>In champ dal barat lung è in numer entir a partir da 1 (la pausa: secundas da 0 fin 60, la prioritad: 1 fin 19), u vid.</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>El sa serra sez a las %time.</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>Serrar sez suenter (minutas, opziunal)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>Las minutas èn in numer entir da 1 fin 44640 (31 dis), u vid.</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>Migraziun %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>Nova migraziun</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>Ina migraziun YAML: scrivai la sco text u construi ses pass en il formular, controllai la e memorisai la lura en in ordinatur da migraziuns.</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>Questa migraziun è gia vegnida exequida, perquai na vegn ella betg memorisada anc ina giada: ina datoteca midada vegniss refusada da la protecziun da la summa da controlla. Faschai la midada en ina nova migraziun.</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>Il server web na po betg scriver la datoteca.</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>Las lingias da commentari a l'entschatta èn il chau (description, author, requires, environments, engines). Sch'in pass vegn agiuntà u midà en il formular, vegn la migraziun scritta da nov: commentaris tranter ils pass na vegnan betg mantegnids.</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>Num da la migraziun</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>Nua ch'ella va</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>La website</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>Text YAML</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>Controllar</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Memorisar</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Pass</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>Clavs</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Modifitgar</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>Spustar ensi</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>Spustar engiu</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Allontanar</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>Anc nagins pass: agiuntai in cun il formular u scrivai als en il text.</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>Midar il pass %number</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>Agiuntar in pass</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>Il formular d'in pass vegn fatg da ses tip da pass: sias clavs, tge che mintgina accepta e ils modus als quals el appartegna.</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>Tip da pass</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>Mussar ses formular</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>Il pass ha clavs che ses tip n'enconuscha betg; ellas vegnan laschadas davent cura ch'il pass vegn midà: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>Modus</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>En</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>mo en %modes</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>Predefinì: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>Cundiziuns, referenzas e commentari</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>Pèrs Num=valur, separads cun commas. Las valurs da quest pass: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>Exempel</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>Midar il pass</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>Agiuntar pass</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>Tge che exp:migration:check di: il chau, il document e mintga pass controllà da ses tip da pass.</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>La migraziun passa la controlla.</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Prevista</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>Il YAML sco ch'el vegn memorisà.</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>Mussar il YAML</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>Migraziuns YAML</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>exequida</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>I na dat anc naginas migraziuns YAML.</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>Editur</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>I na dat nagina migraziun YAML %id en ils ordinaturs da migraziun.</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>Tschernai in tip da pass.</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>Il pass è agiuntà. Controllai la migraziun avant che la memorisar.</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>Il pass è midà. Controllai la migraziun avant che la memorisar.</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>Tschernai in pass.</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>Quest pass n'ha nagin formular (ina loop u in tip da pass che questa installaziun n'ha betg): midai al en il text.</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>Tschernai nua che la migraziun va: la website u ina extensiun activa.</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>%file memorisà. Faschai ina execuziun da test avant che la migraziun vegn exequida.</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>Betg memorisà: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>Destinaziuns</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>Las autras installaziuns a las qualas questa distribuescha sias migraziuns: ina distribuziun trametta las migraziuns a las destinaziuns tschernidas e las exequescha là, tut a la giada e sincron. Ina destinaziun na cuntegna mai in secret: sias datas d'annunzia numnan in en Configuraziun &gt; Secrets.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>Nova destinaziun</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Agid</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>Testar la colliaziun da %id</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>Las destinaziuns</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>Fin %parallel destinaziuns vegnan elavuradas a medem temp; ina fasa po durar %timeout secundas sin mintgina.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>Destinaziun</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adressa</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Datas d'annunzia</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>Gruppas</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>parameters da curreger</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>mo datotecas (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>Clav SSH</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>Pled-clav</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>nagin (l'agent SSH e las clavs dal host)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>Testar la colliaziun</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>Ina distribuziun ad ina gruppa va a mintga destinaziun da quella.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>Distribuir a destinaziuns</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>Anc nagina destinaziun n'è configurada.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>Destinaziun %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>Qua na vegn nagut tramess u exequì: Memorisar scriva ils parameters en settings/override/migration.ini.append.php. Las datas d'annunzia èn in num; lur valur resta en Configuraziun &gt; Secrets u en l'ambient.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Controllai quests parameters</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>Ils parameters sco endatads, anc betg memorisads.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Survista</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Ils parameters èn valids. Questas lingias vegnan scrittas:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>Transport</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>mo in num; la valur resta en Configuraziun &gt; Secrets</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Las lingias che vegnan scrittas</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>Colliaziun</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>Clav dal host</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. La destinaziun</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>Co che la destinaziun sa numna e tge ambient ch'ella è.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>Letras, cifras, - e _, per exempel production1. Igl è il num da la destinaziun en ils rapports ed en la consola (--remotes=production1) e na po betg vegnir midà pli tard.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... Ina distribuziun per etappas passa tras ils ambients en quest urden.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>Facultativ, separà cun commas, per exempel production. Ina distribuziun ad ina gruppa va a mintga destinaziun da quella.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. La colliaziun</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>Co che las datotecas arrivan là, e nua che l'installaziun è.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>Sur SSH, mo quai ch'è sa midà, in transfer interrut vegn cuntinuà. La meglra tscherna, nua che rsync è installà.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>SSH cun scp per las datotecas.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>SSH cun sftp per las datotecas.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>Mo datotecas: las migraziuns vegnan tramessas e legidas enavos, ma na pon betg vegnir exequidas là.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>FTP sur TLS; mo datotecas.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>In'autra installaziun sin quest server, en in ordinatur.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Host</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>In num da host u ina adressa, per exempel node1.example.com. Betg per local.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>Port</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>Vid: 22 per SSH, 21 per FTP.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Utilisader</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>Percurs</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>La ragisch da l'installaziun là, per exempel /var/www/site (per FTP: il percurs ch'il conto FTP vesa).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>Lingia da cumond PHP</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>Il CLI da PHP là: php, u in percurs cumplet sco /opt/plesk/php/8.4/bin/php.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>Ils scripts da consola vegnan exequids là sco root</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>Mo sche l'utilisader da la destinaziun è root (ellas vegnan lura exequidas cun --allow-root-user).</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. Las datas d'annunzia</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>Co che questa installaziun s'annunzia là. Mo in num vegn memorisà.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Nagina</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>L'agent SSH e las clavs da l'utilisader sut il qual questa installaziun funcziuna (e adina per local).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>Ina clav privata memorisada sco secret.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>In pled-clav memorisà sco secret (FTP s'annunzia cun in tal).</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>Num dal secret</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>In secret da Configuraziun &gt; Secrets, per exempel deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Configuraziun &gt; Secrets</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>U ina variabla d'ambient</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>La variabla dal process dal server che la cuntegna, per exempel DEPLOY_KEY (memorisada sco env:DEPLOY_KEY). Ella remplazza il num dal secret.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. La clav dal host</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>Facultativ, per SSH, sftp e rsync.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>Impronta da la clav dal host</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... uschia sco che ssh-keygen -l la mussa. Cun ella sto il host mussar questa clav; senza ella vegn la clav emprendida al emprim contact.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. Survista</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>Testai la colliaziun cun ils parameters survart, controllai lura las lingias che vegnan scrittas.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>Allontanar questa destinaziun</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>Ses parameters vegnan allontanads da settings/override/migration.ini.append.php. Nagut na sa mida sin la destinaziun, e sias distribuziuns restan en l'istorgia.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>Gea, allontanar questa destinaziun</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>Distribuziuns</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>Ina distribuziun trametta las migraziuns da questa installaziun a las destinaziuns tschernidas e las exequescha là sco %user, tut a la giada e sincron: mintga destinaziun vegn l'emprim controllada, e sch'ina na reussescha betg, vegnan tut las destinaziuns che las han applitgadas retratgas. Ella cuntinuescha en il fund, e sia pagina mussa mintga destinaziun durant ch'ella avanza.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. Las destinaziuns</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>Marcai destinaziuns, ina gruppa u omadus.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>Distribuir ad ella</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. Co</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>Distribuir</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>Trametter ed exequir</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>Las migraziuns vegnan tramessas, verifitgadas ed exequidas sin mintga destinaziun cun ina suletta ID d'execuziun cuminaivla.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>Mo transferir</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>Las datotecas vegnan tramessas e verifitgadas, nagut na vegn exequì (l'unica via per ina destinaziun FTP).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>Per etappas</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>Etappa per etappa en l'urden dals ambients (dev, stage, beta, production ...): l'emprima etappa vegn distribuida, lura spetga ina barriera fin che insatgi approvescha la proxima. Tut u nagut entaifer mintga etappa.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>Mo questas migraziuns</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>Facultativ: IDs da migraziuns, separadas cun commas. Vid: mintga migraziun da la website e da sias extensiuns.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>Mo precontroll</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>Gea, distribuir ussa</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>Las distribuziuns che han tramess u exequì insatge, las pli novas l'emprim (in precontroll na conserva nagin rapport).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>mo transferir</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>per etappas, %stages etappas</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>betg sincron</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>Anc nagina distribuziun.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>Distribuziun %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Mintga destinaziun da la distribuziun cun ses stadi. Ina distribuziun aviada qua cuntinuescha en il fund, sche questa pagina vegn serrada; avri la pagina danovamain per la persequitar.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>Tut las distribuziuns</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>Precontroll</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>Proxima etappa</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>Ils parameters e las datas d'annunzia vegnan controllads</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>Precontroll: il stadi da mintga destinaziun vegn legì</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>Las datotecas da migraziun vegnan tramessas</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>Quai ch'è arrivà vegn verifitgà</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>Las migraziuns vegnan exequidas sin mintga destinaziun</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>Las destinaziuns vegnan retratgas</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>La distribuziun è terminada. Ses rapport vegn chargià.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>L'avanzament n'ha betg pudì vegnir persequità. Chargiai danovamain la pagina per vesair co che la distribuziun avanza.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>Fasa</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>Questa pagina persequitescha la distribuziun durant ch'ella avanza.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>Sincron</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>Etappas</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>l'etappa %stage spetga tar sia barriera</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>Barriera %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>approvà da %user a las %time</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>Etappa</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>Datotecas tramessas</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>Versiun dal kernel</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>applitgadas: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>d'applitgar: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>Fasas</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>Barriera: etappa %stage da %stages</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>Las etappas avant quella èn distribuidas. Controllai ellas, approvai lura la proxima etappa: sias destinaziuns vegnan controlladas danovamain e distribuidas, tut u nagut.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Proxim</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>Gea, distribuir ussa la proxima etappa</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Approvar</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>Revocar questa distribuziun</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>Mintga destinaziun che l'ha applitgada (%list) turna a l'instantanea prendida avant sia execuziun, tut a la giada.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>Gea, revocar ussa questa distribuziun</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>planisada</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>transferida</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>distribuida</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>spetga tar ina barriera</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>tschernidas</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>preparada</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>pront</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>spetga sia etappa</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>datotecas tramessas</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>verifitgada</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>betg reussida, è sa restaurada sezza</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>nunmidada</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>betg distribuida</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>betg cuntanschibla</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>La destinaziun ha respundì.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>La destinaziun na po betg vegnir utilisada ussa.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done terminadas, %pending pendentas, %failed betg reussidas</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>Bloccaziun</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>in'execuziun tegna là la bloccaziun</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>libra</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stage da %stages</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>Tschernai la destinaziun che duai vegnir testada.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>Marcai l'emprim «Gea, allontanar questa destinaziun».</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>La destinaziun n'ha betg pudì vegnir allontanada: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>La destinaziun n'ha betg pudì vegnir memorisada: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>La datoteca da parameters na po betg vegnir legida: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>Tschernai almain ina destinaziun u ina gruppa.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>Ina destinaziun tschernida n'è betg pli en ils parameters. Chargiai danovamain la pagina.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>Marcai l'emprim «Gea, distribuir ussa».</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>Ina destinaziun FTP na po betg exequir migraziuns: tschernai «Mo transferir» u laschai ella davent.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>Las migraziuns da distribuir èn IDs da migraziuns, separadas cun commas.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>La distribuziun è anc en curs. Spetgai fin ch'ella è terminada.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>Questa distribuziun na spetga betg tar ina barriera.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>Nagina destinaziun n'ha applitgà questa distribuziun: i n'ha nagut da revocar.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>Marcai l'emprim «Gea, distribuir ussa la proxima etappa».</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>Marcai l'emprim «Gea, revocar ussa questa distribuziun».</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>Ina destinaziun cun l'ID %id exista gia.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>Il port è in dumber da 1 fin 65535.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>L'ambient è in pled da letras, cifras, - e _ (alpha, dev, stage, beta, production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>Ina gruppa è in pled da letras, cifras, - e _ (betg mo - e _): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>Las datas d'annunzia na pon betg vegnir legidas ussa: %problem. Memorisai ellas en Configuraziun &gt; Secrets (u definai la variabla) avant l'emprima distribuziun.</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>Ina destinaziun FTP retschaiva mo datotecas: ina distribuziun ad ella è «Mo transferir», e sias migraziuns vegnan exequidas là a maun.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>La destinaziun %id n'è betg en settings/override/migration.ini.append.php; allontanai ella là nua ch'ella è definida.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>Annunzià sur FTP e legì index.php. Il stadi da migraziun d'ina destinaziun FTP na po betg vegnir legì.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>Modifitgà</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>Creà</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Num</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Classa</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Secziun</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>Autur</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Cuntegn recent</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>Il cuntegn creà e modifitgà il pli recentamain da l'entira website, il pli nov l'emprim: quai che visitaders han tramess, quai che vegn retegnì per la verificaziun, sbozs che spetgan sin lur publicaziun. Tscherni elements per als liberar, retegnair, zuppentar, mussar, allontanar u spustar en in'autra secziun u in auter stadi.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>La glista n'ha betg pudì vegnir legida: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>La retegnida per la verificaziun n'è anc betg installada, perquai na vegn nagut retegnì e las acziuns da retegnair na vegnan betg purschidas. Il pass d'actualisaziun 6.0.15-review-hold l'installescha: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Filtrar la glista</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Da</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Fin</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Data</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>Creà (publitgà l'emprima giada)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Tuts</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Status da publicaziun</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Publitgà</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>Sboz, mai publitgà</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>Pendent (spetga sin approvaziun u sin ina data)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>En il chanaster da ruments</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Retegnì per la verificaziun</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>Retegnì</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>Betg retegnì</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>Zuppentà</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>Visibel</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>Tramess via</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>Mintga access a la website</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>Mo quai che l'audit ha registrà.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>Ussa: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>In num d'utilisader u in ID d'utilisader.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Filtrar</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>Stizzar ils filters</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>Elements</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from fin %to da %count</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Nagin element</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(legì en %ms ms)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>Acziuns per ils elements tschernids</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>Tscherner tut sin questa pagina</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>%count tschernids</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Acziun</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>Tscherner in'acziun</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>Abolir la retegnida</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Retegnair per la verificaziun</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Zuppentar</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>Mussar</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>Spustar en il chanaster da ruments</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>Stizzar</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>Attribuir ina secziun</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>Attribuir in stadi</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>Motiv</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>Necessari per retegnair; vegn memorisà cun la retegnida ed en l'audit.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>Tscherner ina secziun</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Stadi</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>Tscherner in stadi</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>Applitgar als tschernids</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>Mintga element vegn controllà tenor Voss agens dretgs. Per spustar en il chanaster da ruments e per stizzar stuais Vus confermar. Dapli che %count elements vegnan exequids en il fund.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>Tscherner</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>Publicaziun</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>Tramess da</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>Tscherner %name</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>anc betg</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(nagin num)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>Sboz</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Pendent</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>Zuppentà tras ses element superiur</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>Retegnì: nova tramessa</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>Versiun %version pendenta</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>Versiun %version en elavuraziun</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>Sboz, versiun %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>Versiun %version publitgada</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>Planisà per %date</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>nagina adressa</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>betg registrà</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>Nagut na correspunda a quests filters.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Mussar tut</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>I na dat anc nagin cuntegn.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Per pagina</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Mussar %count elements per pagina.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says "not recorded".</source>
+        <translation>L'adressa ed il navigatur d'ina tramessa derivan da l'index da l'audit, che n'è betg disponibel qua: la colonna mussa «betg registrà».</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>L'adressa ed il navigatur èn quels che l'audit ha registrà per l'element (la retegnida automatica als registrescha adina; publitgar e crear mo nua che quai è activà), uschia sco ch'ils parameters da protecziun da datas als conservan.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: %count elements</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>Stizzar allontanescha ils elements definitivamain, cun tut lur versiuns e translaziuns. Quai na po betg vegnir revocà.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>Ils elements van en il chanaster da ruments, nua ch'els pon vegnir restaurads.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>Mintga element vegn controllà tenor Voss agens dretgs; in element cun sutelements resta sco ch'el è (allontanai el en la structura dal cuntegn). Vus vegnis dumandà da confermar che Vus essas quai.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>Quai vegn exequì en il fund: la pagina da progress s'avra, ed il resultat per mintga element vegn mussà cur ch'el è terminà.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>Ils elements tschernids</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>e %count ulteriurs</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Interrumper</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>Nagut n'è vegnì fatg</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Motiv: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>L'acziun vegn anc exequida en il fund.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>Ses progress</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>L'acziun en il fund n'è betg reussida: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Fatg</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Refusà</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Betg reussì</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>Per element</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>Element</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Resultat</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Pertge</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>Enavos a la glista</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Configuraziun</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>Nagut fatg</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>Confermar</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>Tscherni in'acziun.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>Tscherni almain in element.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>Tscherni maximalmain 1000 elements a la giada.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>Inditgai pertge ch'ils elements vegnan retegnids.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>Tscherni la secziun.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>Tscherni il stadi.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Il formular n'ha betg pudì vegnir legì.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>Survista</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>Cuntegn recent</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>Ils dumbers n'han betg pudì vegnir legids: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Retegnì per la verificaziun</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>Nov oz</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>La retegnida per la verificaziun n'è anc betg installada (il pass d'actualisaziun 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>Tut il cuntegn recent</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>Vus na dastgais betg exequir acziuns da moderaziun (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>L'acziun da moderaziun n'è betg cumpletta: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>Moderaziun: %action per %count objects</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%done da %total objects: %ok fatg, %refused refusà, %failed betg reussì</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok fatg, %refused refusà, %failed betg reussì</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>Quai n'exista betg pli.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>Quai n'ha nagin lieu (betg publitgà).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>Vus na dastgais betg al zuppentar (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>Vus na dastgais betg al mussar (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>Quai è gia zuppentà.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>Quai n'è betg zuppentà.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>Zuppentà.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>Mussà.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>Quai è en il chanaster da ruments: svidai el u restaurai quai là.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>In sboz che n'è mai vegnì publitgà na po betg ir en il chanaster da ruments: stizzai el.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>Vus na dastgais betg al stizzar (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>Stizzà.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>Vus na dastgais betg l'allontanar (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>Quai ha sutelements: allontanai el en la structura dal cuntegn, nua ch'els vegnan enumerads.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>Quai n'è betg vegnì allontanà (forsa retegna in decurs da lavur l'allontanament).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>Spustà en il chanaster da ruments.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>La secziun n'exista betg.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>Quai è gia en questa secziun.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>Vus na dastgais betg attribuir questa secziun (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>La secziun n'è betg vegnida attribuida.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>Secziun attribuida.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>Il stadi n'exista betg.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>Quai è gia en quest stadi.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>Vus na dastgais betg attribuir quest stadi (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>Il stadi n'è betg vegnì attribuì (forsa retegna in decurs da lavur la midada).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>Stadi attribuì.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>I na dat nagina tala acziun.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>La retegnida per la verificaziun n'è betg installada (il pass d'actualisaziun 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>Inditgai pertge che quai vegn retegnì.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>Quai vegn gia retegnì.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>Vus na dastgais betg al retegnair (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>La retegnida n'è betg vegnida fixada (forsa retegna in decurs da lavur la midada).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>Retegnì.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>Quai na vegn betg retegnì.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>Vus na dastgais betg al liberar (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>La retegnida n'è betg vegnida abolida (forsa retegna in decurs da lavur la midada).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>Liberà; anc adina zuppentà: Vus na dastgais betg al mussar (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>Liberà.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>Tut las destinaziuns</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Ultima publicaziun</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>Publitgai gratuitamain ina copia statica da Vossa website sin GitHub Pages:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Paginas antiquadas</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Publicaziun statica</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>La publicaziun statica è deactivada.</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Destinaziun</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Las destinaziuns n&apos;han betg pudì vegnir legidas: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>ina incumbensa è en lavur</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>construcziun da controllar</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>zuppentar quai</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>crear ina destinaziun</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>mai</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>leger l&apos;instrucziun</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>%added agiuntadas, %changed midadas, %removed allontanadas</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%bytes da %limit (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>Ulteriuras %count n&apos;èn betg enumeradas.</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>%pages paginas scrittas</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path ha %size, dapli che quai ch&apos;il purschider permetta per ina datoteca.</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>%percent % dal limit</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds s</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag è la publicaziun che la website ha ussa.</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: incumbensa %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>/deposit/ per ina website da project GitHub; vid per ina atgna domena u per ina website d&apos;utilisader.</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. La website</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. Il purschider</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. S&apos;annunziar tar il deposit</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. Il deposit</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. Colliaziuns e percurs da basa</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. Vossa atgna domena</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. Tge che la construcziun cuntegna</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. Cura ch&apos;ella vegn publitgada</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. Controllar e memorisar</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>Ina website da project GitHub sa chatta sut /&lt;repository&gt;/; colliaziuns relativas funcziunan là e dapertut auter.</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>Ina construcziun chargia mintga pagina da %site uschia sco ch&apos;in visitader betg annunzià la vesa, scriva da nov las colliaziuns, copiescha las datotecas e scriva il resultat en l&apos;ordinatur da la destinaziun. Nagut na vegn publitgà avant che Vus controllais la construcziun e smatgais Publitgar.</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>Ina expressiun cron, per exempel 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>Ina clav da distribuziun vegn tegnida sco secret %secret.</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>Ina clav da distribuziun permetta a questa installaziun da trametter via SSH en in sulet deposit e nagliur auter. Sia mesadad privata resta en Configuraziun &gt; Secrets; mo la mesadad publica vegn mussada.</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>Ina clav da distribuziun creada per questa destinaziun</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>Ina clav da distribuziun s&apos;annunzia via SSH: midai l&apos;adressa git en l&apos;adressa SSH (git@github.com:owner/repo.git).</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>Ina incumbensa è en lavur, aviada da %user</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>Ina incumbensa da questa destinaziun è anc en lavur (%detail). Spetgai fin ch&apos;ella è terminada.</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>Ina incumbensa da questa destinaziun è anc en lavur. Spetgai fin ch&apos;ella è terminada.</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>Ina colliaziun da la pagina /news/ a la pagina /about-us/team vegn scritta sco</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>Ina nova clav da distribuziun è vegnida creada. Agiuntai ussa sia mesadad publica al deposit.</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>Ina pagina che cuntegna suenter la nettegiada anc output da debug, in token da formular u in id da sessiun na vegn mai publitgada.</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>Ina revocaziun è per experts: marcai «Jau sai tge che quai mida» ed endatai anc ina giada il num da la marca.</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>Ina website po cuntegnair fin %site, ina datoteca fin %file, cun var 100 GB traffic per mais. Cun in plan gratuit sto il deposit esser public. GitHub Pages n&apos;è betg previs per butias u autras transacziuns commerzialas.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>Ina destinaziun è ina website publitgada en in deposit git. Qua na vegn nagut construì u publitgà: Memorisar scriva ils parameters en settings/override/staticcache.ini.append.php.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>Ina destinaziun è ina website publitgada en in lieu, per exempel Vossa website publica sin GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>In token da Configuraziun &gt; Secrets</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>In decurs da lavur dal deposit la publitgescha.</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>Agiuntai questa clav publica al deposit cun il dretg da scriver. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, marcai Allow write access.</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>Agiuntà</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>In auter purschider git</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>In auter process lavura vi da questa destinaziun: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>Enavos</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>Percurs da basa</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Avant</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>Sut in percurs da basa</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>Rom</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>Colliaziuns ruttas</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>Colliaziuns ruttas en la construcziun</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>Construcziun</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>Construcziun %id da %user</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>Construir %name</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>Construir ussa</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>Construcziun da controllar</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Da</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>A maun, qua</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Interrumper</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Midar</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>Midà</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Midadas</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>L&apos;emprim controllar</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Controllai quests parameters</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>Controllai tge che la construcziun mida, guardai ella, lura publitgai u bittai ella davent.</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>Tschernai la publicaziun a la quala Vus vulais turnar.</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>Vegn cun ina versiun posteriura.</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Conferma</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>Confermas</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>Conferma la construcziun, la marca e la trametta a %remote. Ina transmissiun na vegn mai sfurzada; Vus pudais pli tard turnar a mintga publicaziun.</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>Cumpareglià cun l&apos;ordinatur da pli baud: %added agiuntadas, %changed midadas, %removed allontanadas, %unchanged betg midadas.</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>Cumpareglià cun l&apos;ultima publicaziun.</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Datas d&apos;annunzia</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>Atgna domena</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>Output da debug, tokens da formular, ids da sessiun e nonces vegnan adina allontanads.</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>Clav da distribuziun</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>Clav da distribuziun da %name</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Bittar davent</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>Bittar davent la construcziun</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>Domena</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>Vid: l&apos;adressa da la website. Uschiglio ina adressa interna da la medema website.</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Terminà</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>Mintga colliaziun cumenza cun il percurs da basa.</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>Mintga publicaziun è ina conferma cun ina marca static/%id/&lt;n&gt;. Turnar enavos fa ina nova conferma cun las datotecas d&apos;ina publicaziun pli veglia: l&apos;istorgia resta, nagina marca na sa mova e nagut na vegn sfurzà.</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>Supplements</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>Chargiar las paginas da</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Datoteca</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>Datotecas</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>Datotecas mancantas</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>Datotecas da</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>Datotecas che n&apos;han betg pudì vegnir rimnadas</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>Impronta</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>Ordinatur</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>Per ina adressa SSH. La clav vegn creada suenter la memorisaziun; Vus agiuntais sia mesadad publica al deposit.</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>Per ina adressa https://. GitHub: in token fine-grained cun Contents per leger e scriver sin il deposit.</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>Per experts. La website publica sa mida uschespert che la transmissiun è terminada.</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Formulars</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>Albiert gratuit ord in deposit GitHub.</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>Dal rom</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>Adressa git</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages permetta ina website da %site ed ina datoteca da %file.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>Limits da GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages publitgescha las datotecas uschia sco ch&apos;ellas èn (necessari per datotecas che cumenzan cun _).</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub furnescha il rom uschia sco ch&apos;el è vegnì tramess. La valur predefinida.</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, Voss agen server: mintga deposit git.</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>Turnar ad ina publicaziun pli veglia</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Agid</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>Agid per l&apos;assistent</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>Zuppentar ellas</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Istorgia</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>Istorgia da %name</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Purschider</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>Co che GitHub Pages retschaiva la construcziun</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>Jau hai controllà las midadas</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>Jau sai tge che quai mida</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>Ella è deactivada: nagut na po vegnir construì avant ch&apos;ella è activada.</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>Ella lavura en il fund sco %user; Vus pudais serrar questa pagina.</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>Incumbensa %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>Tegnì sco secret %secret.</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Gener</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Ultima publicaziun</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>Laschar ora questas paginas</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>Laschar ora questas secziuns</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Colliaziuns</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>Colliaziuns scrittas da nov</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>Website activa</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>Guardar la construcziun</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>Bustabs pitschens, cifras, _ e -, per exempel github-public. Quai dat il num a l&apos;ordinatur ed a las marcas (static/&lt;id&gt;/&lt;n&gt;) e na po pli tard betg pli vegnir midà.</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>Crear ina nova clav</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>Crear ina destinaziun</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>Crear la clav</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>Creai l&apos;emprim il deposit tar il purschider; in deposit vid va bain.</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>Glista da datotecas</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Messadi</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>La gronda part da las paginas</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Num</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>Num dal token en Configuraziun &gt; Secrets</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>Nova destinaziun</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Proxim</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>Na</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>Anc nagina conferma.</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>Nagina clav n&apos;è vegnida creada: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Nagin binari php da lingia da cumonds n&apos;è vegnì chattà. Definì migration.ini [AdminSettings] PhpCliPath cun ses percurs cumplet.</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>Anc nagina marca.</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>Anc nagina destinaziun.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Nagina</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>Betg en la construcziun.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>Anc nagut n&apos;è vegnì publitgà.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>Anc nagut n&apos;è vegnì publitgà: mintga datoteca è nova.</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>Avisar</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>Tenor plan</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>En la consola</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>Sin il server: ./console exp:static:serve %id la furnescha en il medem moda.</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>In percurs per lingia, * correspunda a mintga part: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>Cun la destinaziun vegn memorisà mo in num; il token u la clav sezza resta en Configuraziun &gt; Secrets e na cumpara mai en in protocol.</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>Mo quai che las paginas numnan</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>Mo cun in token. env:NAME legia empè ina variabla d&apos;ambient dal server.</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>Avrir la prevista</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>Avra la construcziun uschia sco ch&apos;il purschider vegn a la furnir, da l&apos;ordinatur da la destinaziun. La colliaziun funcziuna per Vus durant in&apos;ura.</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>Facultativ. Vid: quai ch&apos;è vegnì publitgà.</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>Facultativ. Cun ina domena vegn la website furnida en sia ragisch.</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Sortida</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>Paginas</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>Paginas da la destinaziun</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>Paginas refusadas</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>Elavuraziun posteriura</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Prevista</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>Prevista e publicaziun</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>Prevista e publicaziun da %name</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>Prevista da la construcziun</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Avanzament</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>Adressa publica</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>Clav publica</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>Publitgar</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>Publitgar ina copia statica d&apos;ina website sin GitHub Pages u sin in auter purschider git: la construir, controllar las midadas, publitgar e turnar ad ina publicaziun pli veglia, sch&apos;i dovra.</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>Publicaziun a la quala turnar</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>Publicaziuns</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Trametter</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>Leger l&apos;instrucziun</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Protocol</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Refusà</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>Relativ</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Chargiar da nov</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>Allontanà</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>Remplazzar la clav: la veglia na funcziuna pli</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Rapport</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>Rapport da la construcziun</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Deposit</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Controlla</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>La controlla verifitgescha mintga parameter e mussa las lingias che vegnan scrittas. Anc nagut n&apos;è memorisà.</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Revocar</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Revocaziun</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Memorisar</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>Plan</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>Pagina da tschertga</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>IDs da secziuns, separads cun commas.</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>Als trametter a la website activa</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>Parameter</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Parameters</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>Parameters da %name</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Configuraziun</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Configuraziun &gt; Secrets</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>Mussà en glistas, per exempel «Website publica sin GitHub Pages».</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>L&apos;annunzia cun ina GitHub App vegn cun l&apos;integraziun da GitHub.</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>Website</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>Website da publitgar</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Grondezza</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>Grondezza e limits</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>Grondezza da la construcziun</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Paginas antiquadas</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Aviada</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Aviada da %user a las %time.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Stadi</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Publicaziun statica</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>La publicaziun statica è deactivada</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>La publicaziun statica è deactivada.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>La publicaziun statica è deactivada. Activai l&apos;emprim ella en Configuraziun &gt; Publicaziun statica.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>La publicaziun statica è activada.</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>Pass %step da %total</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Pass</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>Nettegiar</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Deactivar</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Activar</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>Activar la publicaziun statica</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Marca</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>Marcas</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Destinaziun</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>Destinaziuns pon vegnir creadas e midadas, ma nagut na vegn construì u publitgà avant ch&apos;ella è activada.</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>Di a las maschinas da tschertga tge leger.</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>La construcziun n&apos;ha betg pudì vegnir bittada davent: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>La construcziun è la medema sco l&apos;ultima publicaziun: i na dat nagut da publitgar.</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>La construcziun è vegnida bittada davent: l&apos;ordinatur cuntegna puspè l&apos;ultima publicaziun.</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>Las valurs predefinidas cunvegnan a la gronda part da las websites.</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>L&apos;ordinatur cuntegna ina construcziun che n&apos;è anc betg publitgada; ina nova construcziun la remplazza.</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>L&apos;ordinatur da las incumbensas na po betg vegnir scrit: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>L&apos;incumbensa n&apos;ha betg pudì vegnir preparada: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>L&apos;incumbensa n&apos;ha betg pudì vegnir aviada.</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>L&apos;incumbensa è terminada. Ses rapport vegn chargià.</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>L&apos;incumbensa basegna in utilisader annunzià.</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>L&apos;incumbensa è vegnida aviada, ma n&apos;ha betg rapportà ses id da process. Controllai %detail.</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>La clav</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>La pli gronda datoteca: %path, %size.</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Las lingias che vegnan scrittas</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>La glista da paginas per maschinas da tschertga; basegna l&apos;adressa publica.</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>Las paginas vegnan chargiadas uschia sco ch&apos;in visitader betg annunzià las vesa. Siteaccesses d&apos;administraziun e d&apos;elavuraziun na vegnan mai purschids.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>L&apos;avanzament n&apos;ha betg pudì vegnir suandà. Chargiai da nov la pagina per vesair co che l&apos;incumbensa avanza.</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>La mesadad publica da la clav:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>La ragisch dal rom</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>Il deposit da secrets n&apos;è anc betg configurà (./console exp:upgrade --apply crea sia tabella), uschia na po nagina clav vegnir tegnida.</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>Il server s&apos;annunzia sez (cun sia atgna clav SSH u cun in credential helper), u il deposit è sin quest server.</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>Il parameter n&apos;ha betg pudì vegnir scrit: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Ils parameters èn valids. Questas lingias vegnan scrittas:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>La datoteca da parameters na po betg vegnir legida: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>La website turna a las datotecas da quella publicaziun; ina construcziun anc betg publitgada sto l&apos;emprim vegnir publitgada u bittada davent.</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>L&apos;atgna pagina da la website per adressas che n&apos;existan betg.</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>La destinaziun n&apos;ha betg pudì vegnir memorisada: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>La destinaziun na s&apos;annunzia anc betg cun questa clav: tschernai «Ina clav da distribuziun creada per questa destinaziun» en ses parameters.</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Las destinaziuns n&apos;han betg pudì vegnir legidas: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>I na dat anc nagina construcziun da controllar.</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>Questa installaziun n&apos;ha nagin siteaccess public. Siteaccesses d&apos;administraziun e d&apos;elavuraziun na vegnan mai publitgads.</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>Questa pagina suonda l&apos;incumbensa durant ch&apos;ella avanza; l&apos;incumbensa cuntinuescha en il fund, sche la pagina vegn serrada.</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>Questa destinaziun n&apos;ha anc nagina clav da distribuziun.</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>Questa destinaziun n&apos;è anc betg vegnida construida qua.</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>Questa destinaziun ha ina.</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>Bitta davent questa construcziun: l&apos;ordinatur cuntegna puspè l&apos;ultima publicaziun. La website activa na sa mida betg.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>Marcai l&apos;emprim «Jau hai controllà las midadas».</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Temp</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>Activaders</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>Endatai anc ina giada il num da la marca</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>Betg midà</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>Webhook</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Tge</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>Tge che sa mida</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>Tge che mintga datoteca è; adina scritta.</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>Tge che l&apos;incumbensa ha fatg e ses protocol. Ina incumbensa aviada qua cuntinuescha en il fund, sche questa pagina vegn serrada.</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>Tge che l&apos;incumbensa ha emess sco errurs</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>Quai che las paginas numnan e mintga maletg da cuntegn publitgà</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Cura</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>Sch&apos;ina publicaziun na reussescha betg</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>Sch&apos;ina publicaziun reussescha</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>Sch&apos;il cuntegn vegn publitgà</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>Nua che colliaziuns a quai che la copia na cuntegna betg mainan (la tschertga, l&apos;annunzia).</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>Danunder che la copia statica vegn furnida.</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>Tge website che vegn publitgada e co che la destinaziun sa numna.</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>Funcziuna sut mintga percurs. La valur predefinida.</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>Scrit mintga giada ch&apos;ina atgna domena è definida.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>Gea</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>Vus pudais adina construir e publitgar a maun qua ed en la consola.</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>mo in num; la valur resta en Configuraziun &gt; Secrets</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>sut %path</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>terminà senza rapport</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>supplement</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>betg reussì</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>datoteca</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages, u main cun l&apos;ordinatur docs.</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>purschider git</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (cun in token) u git@github.com:owner/repo.git (cun ina clav da distribuziun); mai in pled-clav u in token en quella.</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/, per la charta da la website e las colliaziuns canonicas.</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>maletg</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>mai</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>na</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>nagin deposit a distanza</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>nagina: las confermas restan en l&apos;ordinatur</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>nagina: nagut n&apos;è midà</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>betg tramess</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>nagut n&apos;è midà</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>pagina</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>reussì</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>proc_open è deactivà, uschia na po nagina incumbensa vegnir aviada qua. Utilisai ./console exp:static:build sin il server.</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>publicaziun</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>publitgà</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>transmissiun pendenta</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>tramess</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>refusà</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>relativ</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>revocaziun</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>revocà</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>en lavur</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>mo l&apos;ordinatur</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: scrit en la datoteca CNAME. Drizzai il DNS da la domena sin il purschider sco ch&apos;el explitga; HTTPS po durar in mument fin ch&apos;el cumenza.</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>gea, anc betg publitgà</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>Ina GitHub App</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>In decurs da lavur dal deposit la publitgescha. La construcziun scriva la datoteca dal decurs da lavur; laschai il ordinatur vid.</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>Suenter avair memorisà ina destinaziun cun in deposit GitHub ed in token u ina GitHub App, po quest pass crear il deposit ed activar GitHub Pages. Uschiglio creai l'emprim il deposit sin GitHub; in deposit vid basta.</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>Rom u GitHub Actions?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>Controllar il DNS</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>Crear il deposit, sch'el n'exista betg</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>Creai il deposit sin GitHub ed activai GitHub Pages en ses parameters (Settings &gt; Pages).</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>Creescha il deposit %repo, sch'el manca (sin dumonda), activescha GitHub Pages dal rom u da GitHub Actions sco memorisà e definescha l'atgna domena e HTTPS. Utilisescha ils parameters memorisads: memorisai l'emprim las midadas.</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>Detagls sin GitHub</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>Endatai l'emprim l'atgna domena.</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>Mintga push vegn l'emprim controllà tenor quests limits.</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>Per ina adressa https:// sin GitHub. L'App configurada per questa installaziun s'annunzia; ella dovra l'id da l'installaziun.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages porscha in deposit privat mo cun in plan da pajament.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: ina subdomena (www.example.com) dovra ina endataziun CNAME vers &lt;owner&gt;.github.io; ina domena apex (example.com) las endataziuns A %ips.</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>Id da l'installaziun da la GitHub App</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>Ultima construcziun da Pages</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>Limits e cundiziuns</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>Necessari per GitHub Pages cun in plan gratuit.</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>Sin GitHub</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>Mo cun ina GitHub App: il dumber a la fin da l'adressa da l'installaziun da l'App sin GitHub. L'App sezza vegn definida en staticcache.ini (GitHubAppId, GitHubAppKey).</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>Privat</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>Public</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>Memorisai l'emprim la destinaziun cun in deposit GitHub ed in token u ina GitHub App.</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>Definai questas endataziuns tar il purschider da la domena:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>Configurar sin GitHub</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>Il DNS da %domain na mussa anc betg sin GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>Il DNS da %domain mussa sin GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>L'integraziun da GitHub n'è betg disponibla qua: %problem. La publicaziun en il rom funcziuna tuttina; activai GitHub Pages en ils parameters dal deposit.</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>Ils pass da GitHub n'èn betg disponibels per questa destinaziun: %problem.</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>Il stadi da GitHub Pages vegn mussà cun in token u ina GitHub App sco datas d'annunzia.</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>Utilisar Vossa atgna domena</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>Tge tscherner: token, clav da distribuziun u GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>Cun in deposit GitHub ed in token u ina GitHub App po l'assistent crear il deposit, activar GitHub Pages e definir la domena per Vus (pass 4).</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>vegn construì</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>construì</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>da GitHub Actions</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>dal rom %branch</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>anc nagin</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>betg chattà</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>deactivà</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>privat</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>public</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>en la colonna d'spetga</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>nunenconuschent</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%count sin %pages pagina(s):</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>In .gz (ed .br) sper mintga datoteca da text, per ils hosts che als servan.</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>Ina pitschna pagina per mintga adressa veglia ed alias d'ina pagina, uschè ch'ils colliaments vegls funcziunan vinavant.</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>Vegn adina scrit cura che GitHub Actions furnescha la website.</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>In id SPDX sco CC-BY-4.0, u il text sez.</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>Chaussa</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>Clomadas al server</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Commentaris</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>Formulars che rimnan infurmaziuns</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>Workflow da GitHub Actions</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>Main spazi vid e nagins commentaris en las paginas.</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>Licenza dal cuntegn</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Login</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>Minimar</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>Auters formulars</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>Cumprimer ordavant</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>Paginas da transferiment</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>Paginas da transferiment: %count.</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Tschertga</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>Index da tschertga: %pages pagina(s) en %languages.</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>Fegls da stil e scripts numnads suenter il hash da lur cuntegn, uschè che ils navigaturs als pon tegnair.</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>Las paginas midadas, in pèr minutas suenter l'ultima midada (la part cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>La licenza dal cuntegn, our dal champ sutvart.</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>L'entira website, a las uras dal plan (la part cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>Questas parts da las paginas dovran in server; mintgina ha survegnì ina alternativa. Controllai las avant che publitgar.</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>Tge che na funcziuna betg static</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>Tge ch'il repository è, per quel che l'avra sin il host.</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>bandunà</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>il text da remplazzament</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>il punct final dals formulars da la website activa</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>la website activa</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>la pagina da tschertga da la copia</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>Il formular n'ha betg pudì vegnir trametti.</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>Grazia: il formular è vegnì trametti.</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>Il formular n'è betg vegnì acceptà: controllai tge che vus avais endatà e trametteit il danovamain.</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>Allontanar colliaziuns a paginas che la copia na cuntegna betg</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>Allontanar colliaziuns en l'administraziun</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>Lur text resta. Maletgs, formulars e colliaziuns ad autras websites na vegnan mai allontanads.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Versiun</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>Access a la website da publitgar</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Access a la website</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>En la ragisch</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>Nagin access en la ragisch: mintgin è en ses ordinatur, e la ragisch colliescha cun els</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Access a la website</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>Marcai in access a la website, u plirs che parteglian in host tras lur prefix URI. Quel en la ragisch vegn servì là, ils auters en l'ordinatur da lur prefix (/ger/); colliaziuns tranter els restan en la copia. Access d'administraziun na vegnan mai purschids.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>La publicaziun statica da %target n'è betg reussida sin %site</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>La publicaziun statica da %target è reussida sin %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>Quest e-mail è vegnì tramess da %site perquai che la destinaziun da publicaziun statica %target al dumonda.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>La distribuziun %deploy n'è betg reussida sin %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>La distribuziun %deploy spetga tar ina porta sin %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>La distribuziun %deploy è reussida sin %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>Quest e-mail è vegnì tramess da %site perquai che migration.ini [RemoteSettings] Notify[] al pretenda.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>Tips da datas (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>Dumbrà %time, danovamain suenter %minutes minutas</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>In tip da datas memorisescha e modifitgescha in gener da valur d'in attribut da la classa: ina lingia da text, in maletg, ina relaziun. Il nucleus porta la gronda part, las extensiuns agiuntan ulteriurs. Qua èn els tuts, tgi ch'als metta a disposiziun e quant cuntegn als dovra. In tip da datas che la banca da datas dovra, ma che nagin na registrescha pli, donnegia il cuntegn che l'ha.</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>Gruppas da classas</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>Dumbrar danovamain ussa empè da duvrar ils dumbers da las ultimas minutas.</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>Dumbrar danovamain</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Survista</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>Registrà</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>En diever</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>Betg duvrà</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>Extensiuns che mettan a disposiziun tips da datas</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>Attributs da la classa</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>Attributs da l'object</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>Betg registrà</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>En la glista, datoteca manca</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>%count tips da datas vegnan duvrads, ma n'èn betg registrads</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>%class_attributes attributs da classa e %object_attributes attributs d'object han in tip da datas che nagina extensiun u parameter na registrescha. Lur objects na pon betg vegnir mussads, modifitgads u publitgads. Activai l'extensiun che metta a disposiziun il tip da datas u midai la classa.</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>Mussar mo quests</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>Tschertgar in tip da datas</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>Identificatur, num, classa PHP u extensiun.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Mussar</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Tut</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>Mess a disposiziun da</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>Tuts</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>Nucleus</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>Nagin tip da datas na correspunda a quest filter.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Mussar tut</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>Extensiun</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%shown da %count tips da datas, %used en diever</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>La banca da datas ha attributs da classa u d'object da quests tips da datas, ma content.ini na cuntegna nagin dad els, u lur datoteca manca.</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>Tips da datas da %provider</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>Tip da datas</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>Classa PHP e datoteca</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>Classas</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>Objects</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>Segnals</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>nagin</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>Nagin tip da datas na correspunda a la tschertga. Stizzai la tschertga.</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>%shown da %count tips da datas mussads</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>Tips da datas mussads: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>Zavrar tenor %column</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>Dumbrà %time</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>Tut ils tips da datas</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>Pagina d'agid</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>Quest tip da datas vegn duvrà, ma n'è betg registrà</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>Ils objects da las classas sutvart na pon betg vegnir mussads, modifitgads u publitgads uschè ditg che nagina extensiun na registrescha il tip da datas. Activai l'extensiun che al metta a disposiziun ed agiuntai el a content.ini [DataTypeSettings] AvailableDataTypes[], u midai las classas.</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini cuntegna quest tip da datas, ma nagin ordinatur da tips da datas n'ha sia datoteca. Nagut nu al dovra; allontanai el dad AvailableDataTypes[] u activai sia extensiun.</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>Davart quest tip da datas</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>Identificatur</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Num</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Extensiun %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>nagin</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>Classa PHP</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Datoteca</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>En AvailableDataTypes[]</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>gea</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>na</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>Colonnas da sia valur</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>Colonnas dals parameters da ses attribut da classa</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>Tabellas</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>Las colonnas e tabellas vegnan chattadas cun leger il code dal tip da datas: in'orientaziun, betg ina garanzia.</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>Models</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Access a la website</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>Model</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>Chattà en</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>questa administraziun</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>website da standard</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>Senza overrides: in model d'override che correspunda tenor classa u attribut ha la precedenza envers quests.</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>Classas che al dovran (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>Nagina classa n'ha in attribut da quest tip da datas.</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Classa</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>Attributs</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>Attributs da la classa (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>Attribut</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Parameters</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>Obligatoric</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>Pussaivel da tschertgar</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>Translatabel</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>Collectescha infurmaziuns</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>Insaquant cuntegn che al dovra</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>L'ultim modifitgà l'emprim</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Modifitgà</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>Nod %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>Mintga translaziun ha sia atgna valur.</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>La tschertga indexescha sias valurs.</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>El po rimnar infurmaziuns da visitaders (formulars).</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>Glistas pon vegnir zavradas tenor el: clav da zavrar %type.</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>Zavrabel</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>Sias valurs mussan sin auters objects.</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>Relaziuns</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>El po vegnir emplenì cun ina simpla string (import, REST).</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>Da text</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>El po vegnir emplenì or d'ina datoteca.</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>Da datoteca</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>Ils parameters da ses attribut da classa van en ils pachets.</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>Pachets</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>Cuntegn (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from fin %to da %count</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Filtrar la glista</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>Tut las classas</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Secziun</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Linguas</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Possessur</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Publitgà</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>Inversar l'urden</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Nagin element</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Per pagina</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Mussar %count elements per pagina.</translation>
     </message>
 </context>
 </TS>

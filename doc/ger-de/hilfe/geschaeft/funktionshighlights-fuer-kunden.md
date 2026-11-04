@@ -16,6 +16,21 @@ können, die Seite dieser Hilfe, die sie belegt, und die Grenze, die Sie erwähn
 findet. Nichts hier ist ein Versprechen, das über die verlinkten Seiten hinausgeht: Wenn ein Kunde mehr verlangt, als
 eine Seite sagt, lautet die ehrliche Antwort „Die Dokumentation macht dazu keine Angabe; wir prüfen das“.
 
+> **Warnung**
+> **`.htaccess` bremst jede Anfrage.** Sind `.htaccess`-Dateien erlaubt (`AllowOverride` alles außer `None`), geschweige
+> denn genutzt, sucht Apache sie bei jeder Anfrage in jedem Verzeichnis des Pfads und liest und wertet sie aus, und
+> die Ladezeiten der Seiten steigen drastisch ([gemessen](../../anleitungen/setup-dateien-von-der-konsole.md#gemessen-htaccess-gegen-regeln-im-virtuellen-host)). Die einzige wirkliche Abhilfe ist, die
+> Funktion für den virtuellen Host abzuschalten: `AllowOverride None` im virtuellen HTTPS-Host, und die Regeln in
+> der Konfiguration des virtuellen Hosts selbst als mod_rewrite-Regeln. Das ist in Geschwindigkeitstests im
+> Produktivbetrieb weit schneller und die Zeit für die Optimierung einer Produktivkonfiguration unbedingt wert.
+> Stellen Sie sofort um: Übernehmen Sie die Regeln des [Beispiels für einen virtuellen HTTPS-Host](../../beispiele/webserver/apache-virtueller-host.md) in
+> Ihren virtuellen Host (mit dem statischen Cache auch [`staticcache_offload.conf`](../../../eng-us/examples/staticcache_offload.conf)), setzen Sie
+> `AllowOverride None`, führen Sie `apachectl configtest` aus, laden Sie Apache neu und testen Sie die Website.
+> Dieselben Regeln für andere Server: [nginx](../../beispiele/webserver/nginx.md), [LiteSpeed](../../beispiele/webserver/litespeed.md), [Caddy](../../beispiele/webserver/caddy.md), [IIS](../../beispiele/webserver/iis.md),
+> [Velocity](../../beispiele/webserver/velocity.md) (eingebaut); wohin Regeln für virtuelle Hosts in einem Control Panel gehören:
+> [Plesk](../hosting/control-panels/plesk.md), [cPanel](../hosting/control-panels/cpanel.md), [DirectAdmin](../hosting/control-panels/directadmin.md), [ISPConfig](../hosting/control-panels/ispconfig.md).
+> **Unter LiteSpeed oder OpenLiteSpeed** kann zusätzlich der Seiten-Cache des Servers anonyme Besucher und Crawler ohne PHP bedienen: [Seiten-Caching mit LiteSpeed und OpenLiteSpeed](../../anleitungen/seiten-cache-mit-litespeed.md).
+
 ## Inhalt
 
 1. [Wie Sie diese Seite verwenden](#wie-sie-diese-seite-verwenden)
@@ -51,7 +66,7 @@ eine Seite sagt, lautet die ehrliche Antwort „Die Dokumentation macht dazu kei
    Kunden wichtig waren. Jede Hilfeseite lässt sich drucken oder als PDF herunterladen (siehe [PDF und E-Books](#pdf-und-e-books)).
 
 > **Hinweis**
-> Die folgenden Funktionen sind die der 6.0.15-Linie, die sich in Entwicklung befindet; der neueste Tag ist 6.0.14
+> Die folgenden Funktionen sind die der 6.0.15-Linie, der aktuellen Linie, die auf 6.0.14 folgt
 > ([Wer ist 7x?, Die 6.0.x-Releases](../wer-ist-7x.md#die-releases-60x)). Wenn ein Kunde eine veröffentlichte Version
 > betreiben wird, prüfen Sie im [Changelog zu 6.0.15](../../../changelogs/6.0/6.0.15.md), was in welcher Version
 > enthalten ist, bevor Sie einen Termin zusagen.
@@ -62,7 +77,7 @@ eine Seite sagt, lautet die ehrliche Antwort „Die Dokumentation macht dazu kei
 |---|---|---|---|
 | Redakteure, die Seiten ohne Entwickler anordnen | Exponential Layouts: Layouts, Zonen, Blöcke und Regeln | Tab **Layouts**, ein Layout **öffnen** | [Der Layout-Editor](../layout-editor.md) |
 | Mehrere Sites, Marken oder Länder aus einer Installation | Siteaccesses (einer je Site, Sprache oder für die Administration), Einstellungen je Site, Links zwischen Sites | Die Globus-Schaltfläche in der Kopfzeile, **Website oder einen anderen Siteaccess öffnen** | [Siteaccess-Zuordnung nach Host und Sprache](../../funktionen/6.0/siteaccess-zuordnung-nach-host-und-sprache.md), [Einstellungen je Site](../../funktionen/6.0/ini-ueberschreibungen-fuer-mehrere-websites.md), [Links zwischen Sites](../../funktionen/6.0/websiteuebergreifende-links-im-multisite.md) |
-| Inhalte in vielen Sprachen | 268 Locale-Dateien (261 Sprachen und Länder) als Inhaltssprachen; Übersetzungen je Objekt | Die Sprachabzeichen eines Objekts und der Tab **Übersetzungen** | [Sprachen in Exponential](../../sprachen.md), [Sprachen](../sprachen.md) |
+| Inhalte in vielen Sprachen | 368 Locale-Dateien (361 Sprachen und Länder) als Inhaltssprachen; Übersetzungen je Objekt | Die Sprachabzeichen eines Objekts und der Tab **Übersetzungen** | [Sprachen in Exponential](../../sprachen.md), [Sprachen](../sprachen.md) |
 | Eine Administration in der eigenen Sprache der Redakteure | Übersetzungen der Administration (die aktuellen Gesamtzahlen stehen am Anfang der Seite [Sprachen in Exponential](../../sprachen.md)) | Rechte Spalte, Kasten **Oberfläche**, **Sprache der Oberfläche** | [Sprachen in Exponential, Unterstützungsstufen](../../sprachen.md#2-unterstützungsstufen) |
 | Hebräisch, Arabisch, Persisch oder Urdu | Schreibrichtung von rechts nach links in Inhalten und Administration (`dir="rtl"`) | Eine Sprache der Oberfläche mit Schreibrichtung von rechts nach links wählen | [Von rechts nach links](../../funktionen/6.0/rechts-nach-links.md) |
 | Schneller schreiben, mit einem Menschen am Steuer | Exponential Intelligence (`expai`): schreibt nur Entwürfe | Der Tab **Intelligence** eines Objekts; das Bearbeitungsformular | [Exponential Intelligence](../../funktionen/6.0/erweiterungen/expai.md) |
@@ -80,14 +95,14 @@ eine Seite sagt, lautet die ehrliche Antwort „Die Dokumentation macht dazu kei
 | Ein Onlineshop | Der eingebaute Shop mit Dashboard und Bestellstatus | Tab **Shop** | [Shop-Dashboard](../../funktionen/6.0/shop-dashboard.md) |
 | Inhalte für Apps und andere Systeme | REST-API v1 und v2 | (eine Anfrage im Terminal zeigen) | [REST-API v1 und v2](../../anleitungen/rest-api-v1-und-v2.md) |
 | Die bevorzugte Datenbank | SQLite 3, PostgreSQL, MongoDB, MariaDB, Oracle, MySQL | **Setup > Systeminformationen**, Karte „Datenbank“ | [Unterstützte Datenbanken](../datenbankunterstuetzung.md) |
-| Das bevorzugte Hosting | Fast jedes Betriebssystem mit PHP 8.0 oder später; viele Webserver | (ein Dokument) | [Unterstützte Betriebssysteme](../betriebssystemunterstuetzung.md) |
+| Das bevorzugte Hosting | Fast jedes Betriebssystem mit PHP 8.0 oder später (PHP 7.4 ohne Support nutzbar); viele Webserver | (ein Dokument) | [Unterstützte Betriebssysteme](../betriebssystemunterstuetzung.md) |
 | Weniger Überraschungen im Betrieb | Log-Viewer, Fehlerreferenzen, Inhaltsprüfungen, Upgrade-Prüfung | **Setup > Logdateien**, **Setup > Upgrade-Prüfung** | [Log-Viewer](../../funktionen/6.0/log-betrachter.md), [Inhaltsprüfungen](../../funktionen/6.0/inhaltspruefungen.md), [Upgrade-Prüfung](../../anleitungen/upgrade-pruefung.md) |
 | Große Änderungen ohne Zeitüberschreitung | Inhaltsaufträge im Hintergrund | Einen großen Teilbaum entfernen oder verschieben | [Inhaltsaufträge](../../funktionen/6.0/inhaltsauftraege.md) |
 
 ## Redakteure bauen Seiten selbst
 
-**Was Sie sagen.** Exponential Layouts ist „ein visueller Seitenbaukasten für Exponential. Er bringt das Konzept von
-Netgen Layouts in den Kernel von Exponential: Ein Layout ist eine gespeicherte Anordnung von Blöcken in Zonen, und eine
+**Was Sie sagen.** Exponential Layouts ist „ein visueller Seitenbaukasten für Exponential. Er bringt das Konzept der
+Upstream-Layouts-Pakete in den Kernel von Exponential: Ein Layout ist eine gespeicherte Anordnung von Blöcken in Zonen, und eine
 Regel entscheidet, welche Seiten es erhalten“ (`README.md`, „Exponential Layouts“). Redakteure ziehen Blöcke in Zonen,
 ändern sie in einem Tab **Content** und einem Tab **Design** und arbeiten an einem Entwurf, den die Site erst zeigt,
 wenn sie veröffentlichen ([Der Layout-Editor](../layout-editor.md)).
@@ -124,7 +139,7 @@ zwischen Sites eines Inhaltsbaums führen mit der Erweiterung `ezurlmultisite` z
 ([Links zwischen Sites](../../funktionen/6.0/websiteuebergreifende-links-im-multisite.md)).
 
 **Was Sie zeigen.** Die Globus-Schaltfläche in der Kopfzeile (**Website oder einen anderen Siteaccess öffnen**) und, auf
-einer mit `./console exp:install` angelegten Installation, die Sites des Multisite-Pakets
+einer mit `./console exp:install --apply` angelegten Installation, die Sites des Multisite-Pakets
 ([Exponential mit einem Befehl installieren](../../funktionen/6.0/installation-mit-einem-befehl.md)).
 
 **Grenzen, die Sie nennen sollten.**
@@ -137,7 +152,7 @@ einer mit `./console exp:install` angelegten Installation, die Sites des Multisi
 
 ## Viele Sprachen, einschließlich Schreibrichtung von rechts nach links
 
-**Was Sie sagen.** „268 Locale-Dateien (261 Sprachen und Länder ...) können als Inhaltssprachen und als Locales von
+**Was Sie sagen.** „368 Locale-Dateien (361 Sprachen und Länder ...) können als Inhaltssprachen und als Locales von
 Siteaccesses gewählt werden; es gibt Übersetzungen der Administration (die aktuellen Gesamtzahlen stehen am Anfang der Seite Sprachen)“ ([Sprachen in Exponential](../../sprachen.md)).
 Jede Übersetzung eines Objekts wird für sich veröffentlicht ([Sprachen](../sprachen.md#ein-objekt-übersetzen)). Wenn die
 Sprache der Oberfläche von rechts nach links geschrieben wird, „dreht sich die Administration um“, und Inhalte in einer
@@ -284,7 +299,7 @@ Projektumfang ([Aufwand schätzen und Umfang festlegen mit Erweiterungen](../fue
 
 **Was Sie sagen.** Sechs Datenbanken werden unterstützt, „in der Reihenfolge der Präferenz: 1. SQLite 3 (Standard) ·
 2. PostgreSQL · 3. MongoDB · 4. MariaDB · 5. Oracle · 6. MySQL“ ([Unterstützte Datenbanken](../datenbankunterstuetzung.md)).
-Das Betriebssystem kann „fast jedes sein, auf dem PHP 8.0 oder später läuft“, eingeteilt in vier ehrliche Stufen
+Das Betriebssystem kann „fast jedes sein, auf dem PHP 8.0 oder später (PHP 7.4 ohne Support nutzbar) läuft“, eingeteilt in vier ehrliche Stufen
 ([Unterstützte Betriebssysteme](../betriebssystemunterstuetzung.md)). Eine Site kann mit dokumentierten Werkzeugen in eine andere
 Datenbank umziehen ([Eine Site in eine andere Datenbank verschieben](../datenbankunterstuetzung.md#eine-site-auf-eine-andere-datenbank-umziehen)).
 

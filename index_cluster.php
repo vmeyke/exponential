@@ -1,6 +1,6 @@
 <?php
 /**
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -21,7 +21,8 @@ if ( file_exists( 'config.cluster.php' ) )
 
 if ( !defined( 'CLUSTER_STORAGE_BACKEND' ) || CLUSTER_STORAGE_BACKEND === null )
 {
-    if ( CLUSTER_ENABLE_DEBUG )
+    // CLUSTER_ENABLE_DEBUG gets its default further down: an undefined constant is an Error in PHP 8
+    if ( defined( 'CLUSTER_ENABLE_DEBUG' ) && CLUSTER_ENABLE_DEBUG )
     {
         $message = "Clustering is disabled";
     }

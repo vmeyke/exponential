@@ -35,12 +35,12 @@ LEITUNG        7x, ein nordamerikanisches Unternehmen für Webdesign, Entwicklun
                Brookins Consulting); hat 2023 die Leitung des Projekts übernommen.
 BETRIEB        Die Exponential Foundation, eine gemeinnützige Organisation nach 501(c)(3), gegründet am
                19. März 2026 in Seattle, Washington, USA.
-URHEBERRECHT   "7x & Exponential Foundation" (1998 - 2026); "eZ Systems AS" (1999 - 2014) bleibt im Code.
+URHEBERRECHT   "Exponential Foundation and 7x" (1998 - 2026); "eZ Systems AS" (1999 - 2014) bleibt im Code.
 GESCHICHTE     Codebasis seit 1999 entwickelt, zuerst als eZ Publish, ein Produkt, das sein Hersteller nach fast
                18 Jahren einstellte. 7x: Idee 2014 (se7enx.com registriert), Projektbeginn 2022, Start Dezember
                2023. Am 11./12. August 2025 in Exponential umbenannt.
-RELEASES *     6.0.0 am 1. Januar 2024 ... 6.0.14 am 7. Juni 2026 (15 Releases). Aktuelle Linie: 6.0.15,
-               in Entwicklung (lib/version.php), kein Release-Tag am 19. Oktober 2026.
+RELEASES *     6.0.0 am 1. Januar 2024 ... 6.0.14 am 7. Juni 2026 (15 Releases). Aktuelle Linie: 6.0.15
+               (lib/version.php); Tag v6.0.15 mit git tag prüfen (am 19. Oktober 2026 noch keiner).
 LIZENZ         Software: GNU GPL v2 oder später, kostenlos. Dokumentation: GNU FDL 1.3 oder später.
                Exponential Velocity: MIT.
 LÄUFT AUF *    PHP 8.0 - 8.5. SQLite 3 (Standard), PostgreSQL, MongoDB, MariaDB, Oracle, MySQL.
@@ -49,7 +49,7 @@ NEU IN 6.0.15* Exponential Velocity (PHP-Webserver), Exponential Layouts (Seiten
                Intelligence (schreibt nur Entwürfe), Design admin4, Prüfprotokoll, Hilfesystem.
 SICHERHEIT     Vertrauliche Meldungen an security@se7enx.com; "a first answer within one business day";
                Korrekturen erscheinen im nächsten 6.0.x-Release; veröffentlichte Versionen werden nie geändert.
-SPRACHEN *     268 Locale-Dateien (40 von rechts nach links); Übersetzungen der Administration (die aktuellen Gesamtzahlen stehen am Anfang der Seite [Sprachen in Exponential](../../sprachen.md))
+SPRACHEN *     368 Locale-Dateien (43 von rechts nach links); Übersetzungen der Administration (die aktuellen Gesamtzahlen stehen am Anfang der Seite [Sprachen in Exponential](../../sprachen.md))
                (26. Okt.).
 NICHT          Nicht mit eZ Systems oder Ibexa verbunden.
 CODE           github.com/se7enxweb/exponential        Pakete: Composer / Packagist, Vendor se7enxweb
@@ -81,7 +81,7 @@ PRESSE         info@se7enx.com   Pressekit: exponential.earth/about/press-kit
 |---|---|
 | Releases | [Die 6.0.x-Releases auf einen Blick](die-6-0-x-releases-auf-einen-blick.md) oder den Tags auf GitHub |
 | Läuft auf | Dem README-Abschnitt „Requirements“ |
-| Neu in 6.0.15 | Dem Changelog; sobald 6.0.15 getaggt ist, ist es nicht mehr „in Entwicklung“ |
+| Neu in 6.0.15 | Dem Changelog und `git tag -l 'v6.0.*'`: Mit dem Tag `v6.0.15` nennen Sie dessen Datum |
 | Sprachen | [Sprachen in Exponential](../../sprachen.md) |
 
 ## Das Faktenblatt verwenden
@@ -108,3 +108,11 @@ und entwickeln die Produkte mit uns, und so wächst Exponential. Eine Partner-We
 Sie mit [Partner: hier beginnen](../partner/partner-hier-beginnen.md) und
 [Wie Sie sich bewerben](../partner/wie-sie-sich-bewerben.md).
 <!-- exp-partner-block:end -->
+
+## Urheberrecht und Copyleft
+
+Seit dem 29. Oktober 2026 halten die Exponential Foundation und 7x das Copyright an Exponential gemeinsam, die
+Foundation zuerst genannt: „Exponential Copyright © 1998-2026 Exponential Foundation and 7x“, in Dateien
+„Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.“ Wer es hält und warum, was die
+GPL Ihnen erlaubt, welche Hinweise Dritter bleiben und wie der Hinweis in neue Dateien und Erweiterungen kommt:
+[Urheberrecht und Copyleft](../urheberrecht-und-copyleft.md).

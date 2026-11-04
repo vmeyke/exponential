@@ -19,7 +19,7 @@ der Seite, die sie belegt. Prüfen Sie die Quelle, bevor Sie antworten: Fakten �
 | Was ist Exponential? | Ein PHP-Anwendungsframework mit fortgeschrittener CMS-Funktionalität; seine beste Eigenschaft ist ein vollständig anpassbares Inhaltsmodell | [Exponential 6](../wer-ist-die-exponential-foundation.md#exponential-6-der-kernel) |
 | Ist es kostenlos? | Ja: Der Code steht unter der GNU GPL v2 oder später, die Dokumentation unter der GNU FDL | [Gesprächspunkte: Open Source](gespraechspunkte-open-source-und-lizenzierung.md) |
 | Wer macht es? | 7x leitet die Entwicklung; die Exponential Foundation, eine gemeinnützige Organisation, betreibt das Projekt | [7x und die Foundation](7x-und-die-foundation.md) |
-| Wird es gepflegt? | Fünfzehn Releases 6.0.x seit dem 1. Januar 2024; 6.0.15 ist in Entwicklung | [Lebt es noch?](einwand-lebt-es-noch.md) |
+| Wird es gepflegt? | Fünfzehn Releases 6.0.x (6.0.0 bis 6.0.14) seit dem 1. Januar 2024; 6.0.15 ist die aktuelle Linie | [Lebt es noch?](einwand-lebt-es-noch.md) |
 | Ist das nicht eZ Publish? | Es führt diese Codebasis fort; eZ Publish wurde von seinem Hersteller eingestellt; Exponential steht in keiner Verbindung zu eZ Systems oder Ibexa | [Richtig über die Geschichte schreiben](richtig-ueber-die-geschichte-schreiben.md) |
 | Welches Exponential brauche ich? | Kommt darauf an: nur PHP oder Symfony, Framework oder fertige Website | [Die Produktfamilie kennen](die-produktfamilie-kennen.md) |
 
@@ -27,11 +27,11 @@ der Seite, die sie belegt. Prüfen Sie die Quelle, bevor Sie antworten: Fakten �
 
 | Frage | Antwort | Seite |
 |---|---|---|
-| Wie probiere ich es aus? | `./console exp:install`: eine vollständige Website auf SQLite mit einem Befehl | [Installation mit einem Befehl](../../funktionen/6.0/installation-mit-einem-befehl.md) |
-| Was braucht es? | PHP 8.0 oder später; eine Datenbank (SQLite braucht keinen Server) | [Betriebssystemunterstützung](../betriebssystemunterstuetzung.md), [Datenbankunterstützung](../datenbankunterstuetzung.md) |
+| Wie probiere ich es aus? | `./console exp:install --apply`: eine vollständige Website auf SQLite mit einem Befehl | [Installation mit einem Befehl](../../funktionen/6.0/installation-mit-einem-befehl.md) |
+| Was braucht es? | PHP 8.0 oder später (PHP 7.4 ohne Support nutzbar); eine Datenbank (SQLite braucht keinen Server) | [Betriebssystemunterstützung](../betriebssystemunterstuetzung.md), [Datenbankunterstützung](../datenbankunterstuetzung.md) |
 | Welcher Webserver? | Velocity wird empfohlen; FrankenPHP oder Apache/nginx mit PHP-FPM funktionieren auch | [Velocity](../../funktionen/6.0/velocity-server-mit-dauerhaften-workern.md) |
 | Shared Hosting? | Möglich mit Apache oder LiteSpeed; Velocity meist nicht | [Container, Cloud und Hosting-Panels](../betriebssystemunterstuetzung.md#container-cloud-und-hosting-panels) |
-| Wird meine Sprache unterstützt? | 268 Locale-Dateien für Inhalte; Übersetzungen der Administration (die aktuellen Gesamtzahlen stehen am Anfang der Seite [Sprachen in Exponential](../../sprachen.md)) | [Gesprächspunkte: Sprachen](gespraechspunkte-sprachen-und-rtl.md) |
+| Wird meine Sprache unterstützt? | 368 Locale-Dateien für Inhalte; Übersetzungen der Administration (die aktuellen Gesamtzahlen stehen am Anfang der Seite [Sprachen in Exponential](../../sprachen.md)) | [Gesprächspunkte: Sprachen](gespraechspunkte-sprachen-und-rtl.md) |
 
 ## Hilfe bekommen und helfen
 

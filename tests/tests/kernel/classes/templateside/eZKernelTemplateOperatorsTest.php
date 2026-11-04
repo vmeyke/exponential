@@ -12,7 +12,7 @@
  *
  * Template files and compiled templates go to a private directory under var/tmp, removed after the class.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @package tests
  * @group kernel
@@ -21,6 +21,8 @@
 
 require_once dirname( __DIR__ ) . '/datatypes/eZDatatypeTestFixtures.php';
 
+#[\PHPUnit\Framework\Attributes\Group('kernel')]
+#[\PHPUnit\Framework\Attributes\Group('eztemplate')]
 class eZKernelTemplateOperatorsTest extends eZDatatypeTestCase
 {
     private static $dir;

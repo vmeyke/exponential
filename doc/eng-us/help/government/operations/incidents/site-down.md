@@ -14,6 +14,20 @@ This runbook is for the on-call administrator when a public website does not ser
 [chapter 12.9](../../../../install/12-troubleshooting.md#129-pages-and-errors-at-run-time), adding the public-sector
 steps: incident roles, communication, record. Start with [Incident response basics](incident-response-basics.md).
 
+> **Warning**
+> **`.htaccess` slows down every request.** When `.htaccess` files are enabled (`AllowOverride` anything but `None`), let alone
+> used, Apache looks for them and reads and evaluates them on every request, in every directory of the path, and
+> page loading times go up drastically ([measured](../../../../guides/setup-files-from-the-console.md#measured-htaccess-against-rules-in-the-virtual-host)). The only real fix is to switch the feature off for
+> the virtual host: `AllowOverride None` in the HTTPS virtual host, and the rules in the virtual host's own
+> configuration as mod_rewrite rules. That is far faster in production speed tests and well worth the time it takes
+> to optimize a production configuration. Switch over right away: copy the rules of the
+> [example HTTPS virtual host](../../../../examples/web-servers/apache-virtual-host.md) into your virtual host (with the static cache, also
+> [`staticcache_offload.conf`](../../../../examples/staticcache_offload.conf)), set `AllowOverride None`, run `apachectl configtest`, reload Apache and
+> test the site. The same rules for other servers: [nginx](../../../../examples/web-servers/nginx.md), [LiteSpeed](../../../../examples/web-servers/litespeed.md),
+> [Caddy](../../../../examples/web-servers/caddy.md), [IIS](../../../../examples/web-servers/iis.md), [Velocity](../../../../examples/web-servers/velocity.md) (built in); where virtual host rules go in a control
+> panel: [Plesk](../../../hosting/panels/plesk.md), [cPanel](../../../hosting/panels/cpanel.md), [DirectAdmin](../../../hosting/panels/directadmin.md), [ISPConfig](../../../hosting/panels/ispconfig.md).
+> **On LiteSpeed or OpenLiteSpeed,** the server's own page cache can also answer anonymous visitors and crawlers without PHP: [Page caching with LiteSpeed and OpenLiteSpeed](../../../../guides/litespeed-page-cache.md).
+
 ## Contents
 1. [Confirm](#confirm)
 2. [Which page does the visitor see?](#which-page-does-the-visitor-see)
@@ -63,7 +77,7 @@ an error page.
 ## After the fix
 
 1. Clear the caches the fix needs; under Velocity its response cache **after** any restart:
-   `./console exp:velocity cache clear --allow-root-user`.
+   `./console exp:velocity cache clear --apply --allow-root-user`.
 2. Confirm from outside; check the error digest for an hour.
 3. Record cause, timeline and fix; hold a [post-incident review](post-incident-review.md) for severity 1.
 

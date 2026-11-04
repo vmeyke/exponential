@@ -7,7 +7,7 @@
  * quoted into the Caddyfile, which release asset a machine gets, and that the
  * generated routing never serves an internal file.
  *
- * @copyright Copyright (C) 7x. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
  * @package tests
@@ -653,7 +653,8 @@ class expVelocityEnginesTest extends ezpTestCase
     /**
      * [ServerSettings] ResponseHeaders[] and ResponseHeadersOnScripts, and
      * [HTTPSSettings] HSTSMaxAge: by default the four headers the front ends
-     * send and HSTS max-age=300 reach Q.webserver of the site configuration.
+     * send reach Q.webserver of the site configuration; HSTS is off as shipped
+     * (HSTSMaxAge=0), because a browser keeps it after it is lowered.
      */
     public function testTheDefaultResponseHeadersAndHstsReachTheServer()
     {
@@ -665,7 +666,7 @@ class expVelocityEnginesTest extends ezpTestCase
             'Permissions-Policy' => 'camera=(), microphone=(), payment=(), usb=()',
         ), $webserver['headers'] ?? null );
         $this->assertTrue( $webserver['headersOnScripts'] ?? null );
-        $this->assertSame( array( 'maxAge' => 300 ), $webserver['hsts'] ?? null );
+        $this->assertArrayNotHasKey( 'hsts', $webserver );
     }
 
     public function testResponseHeadersLeaveOutWhatCannotBeAHeader()

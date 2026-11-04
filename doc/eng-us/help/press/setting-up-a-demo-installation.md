@@ -32,12 +32,12 @@ you record; do not type them for the first time on camera.
 
 | You want to show | What you need | Say on camera |
 |---|---|---|
-| The newest release | The tag `v6.0.14` (7 June 2026) | "Exponential 6.0.14" |
-| What this help describes: the admin4 design, `exp:install`, Velocity, Exponential Intelligence in the distribution, the current layouts editor | The development line, branch `main` | "The 6.0.15 development line, not a release, as of <date>" |
+| A release | A tag, for example `v6.0.14` (7 June 2026); the newest one shows `git tag -l 'v6.0.*' --sort=version:refname` | "Exponential <version>" |
+| What this help describes: the admin4 design, `exp:install`, Velocity, Exponential Intelligence in the distribution, the current layouts editor | The 6.0.15 line: the tag `v6.0.15` once it is published, or branch `main` | "Exponential 6.0.15", or "the `main` branch, as of <date>" |
 
-Most screens in the help belong to the 6.0.15 line, which "Not released yet" opens in its changelog
+Most screens in the help belong to the 6.0.15 line
 ([6.0.15 changelog](../../../changelogs/6.0/6.0.15.md)). `exp:install`, Velocity and the admin4 design are listed there
-as added in that line. Never give 6.0.15 a release date.
+as added in that line. Take a release date for 6.0.15 only from its tag.
 
 ## Get the code
 
@@ -55,15 +55,15 @@ composer install
 
 ## Install in one command
 
-On the development line, one command installs the multisite package on SQLite in `eng-US`, with no database server
+From the 6.0.15 line on, one command installs the multisite package on SQLite in `eng-US`, with no database server
 ([Installing Exponential in one command](../../features/6.0/install-in-one-command.md)):
 
 ```bash
 php bin/php/console exp:install --dry-run    # checks the configuration, installs nothing
-php bin/php/console exp:install              # installs
+php bin/php/console exp:install --apply              # installs
 ```
 
-- Many installations add the shortcut `ln -s bin/php/console console`, after which `./console exp:install` is the
+- Many installations add the shortcut `ln -s bin/php/console console`, after which `./console exp:install --apply` is the
   same command; the shortcut is not shipped ([The console install](../../install/07-console-install.md)).
 - Without options the administrator is `admin` with a generated 24-character password, printed in the summary and
   written to `var/log/initial-admin-password`. **Do not record this summary**: it shows the password.
@@ -74,7 +74,7 @@ php bin/php/console exp:install              # installs
 ## Serve the site
 
 `exp:install` does not start a web server. Serve the installation root with your usual web server
-([Serving the site](../../install/08-serving-the-site.md)), or, on the development line, with Velocity:
+([Serving the site](../../install/08-serving-the-site.md)), or, from the 6.0.15 line on, with Velocity:
 
 ```bash
 php bin/php/console exp:velocity start
@@ -132,7 +132,7 @@ A recording on your own machine needs nothing more. A demo on the internet whose
   `publish` included; an empty one is refused):
 
   ```bash
-  EXP_DEMO_MODE=1 php bin/php/console exp:install --password='<the password you publish>'
+  EXP_DEMO_MODE=1 php bin/php/console exp:install --apply --password='<the password you publish>'
   ```
 
 - Keep the variable for the site's PHP, cron jobs and console afterwards. While it is set, nobody can change or reset

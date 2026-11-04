@@ -984,6 +984,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>खाली ई पन्ना खोजल जाला: %count में से %from से %to तक।</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>कर्नेल आ एक्सटेंशन के हर डेटा प्रकार, आ वर्ग आ सामग्री एकरा के कइसे इस्तेमाल करेला।</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>डेटा प्रकार</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2316,6 +2324,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>सिस्टम पन्ना के भी बुकमार्क कइल जा सकेला: पन्ना खोलीं (सेटअप, ऑडिट ट्रेल, उपयोगकर्ता के सूची ...) आ ओकरा ऊपर "एह पन्ना के बुकमार्क करीं" चुनीं। अइसन बुकमार्क पर गियर आइकन रहेला।</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>अब रउआ एह पन्ना के इहाँ ना खोल सकत बानी। बुकमार्क हटाईं, भा कवनो प्रशासक से पहुँच माँगीं।</translation>
     </message>
 </context>
 <context>
@@ -5165,6 +5177,210 @@
         <source>Go to the first page</source>
         <translation>पहिला पन्ना पर जाईं</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>दोसर</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>पिछिला 7 दिन</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>आपन चुनल समय-सीमा</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>सब शब्द</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>कवनो शब्द</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>ठीक-ठीक वाक्यांश</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>प्रासंगिकता</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>नाम A–Z</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>नाम Z–A</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>बदलल, नयका पहिले</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>बदलल, पुरनका पहिले</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>प्रकाशित, नयका पहिले</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>प्रकाशित, पुरनका पहिले</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>बदलल</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>फ़िल्टर</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>फ़िल्टर देखाईं</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>फ़िल्टर छिपाईं</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>रीसेट करीं</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>लागू करीं</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>शब्द</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>सामग्री के प्रकार</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>अउरी देखाईं (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>एकर कवनो एगो गुण में खोजे खातिर एगो सामग्री प्रकार चुनीं।</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>खंड</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>स्रोत</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>तक</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>शुरू के तारीख सही तारीख नइखे।</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>अंत के तारीख सही तारीख नइखे।</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>मालिक</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>उपयोगकर्ता ID, लॉगिन भा ई-मेल पता।</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>“%input” खातिर कवनो उपयोगकर्ता ना मिलल।</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>भाषा</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>कवनो भाषा</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>जगह</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>%count जगह</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>हर पन्ना पर नतीजा</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>“%text” खातिर नतीजा (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>नतीजा (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>एकरा हिसाब से क्रम से लगाईं</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>क्रम</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>सक्रिय फ़िल्टर</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>ई फ़िल्टर हटाईं</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>भा फ़िल्टर चुनीं आ ओकरा के लागू करीं ताकि मेल खाए वाला सामग्री के सूची देखाई दे।</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>शब्द टाइप कइला के बाद फ़िल्टर खोज के छोट कर देला।</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>“%text” खातिर कवनो नतीजा ना मिलल।</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>कवनो नतीजा ना मिलल।</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>ऊपर से एगो फ़िल्टर हटाईं।</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>अनुवाद</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>क्रिया</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>%name बदलीं</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>बदलीं</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -7514,6 +7730,10 @@
         <source>Setup &gt; Cronjobs</source>
         <translation>सेटअप &gt; क्रॉन जॉब</translation>
     </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>अबले कवनो क्रॉन जॉब भाग नइखे चलल: जॉब कतार, आयात, सूचना आ खोज इंडेक्स इंतजार करत बा। php bin/php/installcrontab.php --add --apply चलाईं, भा --show के लाइन crontab में जोड़ीं।</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/dashboard/drafts</name>
@@ -8058,8 +8278,8 @@
         <translation>मूल लेखक के आ Exponential के साथे शामिल तीसरा पक्ष के सॉफ़्टवेयर के कॉपीराइट सूचना, लाइसेंस के माँग के हिसाब से, सोर्स फ़ाइल आ LICENSE फ़ाइल में रखल गइल बा।</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>नीचे Exponential के ऊ योगदानकर्ता लोग के सूची बा जे eZ Systems Contributor Licensing Agreement के शर्त के तहत आपन काम 7x के इस्तेमाल खातिर लाइसेंस पर देले बा लोग। एह समझौता के अनुमति के हिसाब से, 7x हर योगदान के ओही लाइसेंस के तहत फेर से बाँटेला जवन ओह फ़ाइल के बा जेकरा में ऊ योगदान शामिल बा। सूची में हर योगदानकर्ता के नाँव, वैकल्पिक संपर्क जानकारी आ ऊ फ़ाइल दिहल बा जेकरा में ओह लोग योगदान कइले बा भा जेकर काम में योगदान कइले बा।</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>Exponential आ ओह सॉफ्टवेयर पर काम खातिर श्रेय पावे वाला योगदानकर्ता लोग जवना से ई बनल, ओह फाइलन के साथे जवना में ऊ लोग योगदान दिहल। ई श्रेय ह, कॉपीराइट सूचना ना: Exponential में योगदान Contributor Licensing Agreement के तहत Exponential Foundation आ 7x के सौंपल जाला।</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13881,32 +14101,20 @@ Note: The packages will not be uninstalled.</source>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%evaluate_link"&gt;Exponential Enterprise Edition के परख करीं&lt;/a&gt; - &lt;a href="%share_link"&gt;Exponential समुदाय के सदस्य बनीं, विचार के आदान-प्रदान करीं आ योगदान दीं&lt;/a&gt;। &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; कॉपीराइट &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; आ दोसर लोग।</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class="edition-info"&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>&lt;span class="edition-info"&gt;%edition&lt;/span&gt; से चलत बा। बेसी जानकारी खातिर &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt; देखीं।</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; कॉपीराइट &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; आ दोसर लोग।</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> बेसी जानकारी खातिर &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt; देखीं।</translation>
     </message>
     <message>
-        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; कॉपीराइट &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; आ दोसर लोग।</translation>
+        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href="%evaluate_link"&gt;Exponential के परख करीं (7x से)&lt;/a&gt; - &lt;a href="%share_link"&gt;Exponential समुदाय के सदस्य बनीं, मदद पाईं आ योगदान दीं&lt;/a&gt;।</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; कॉपीराइट &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; आ दोसर लोग।</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13915,6 +14123,61 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Help center</source>
         <translation>मदद केंद्र</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>सामग्री</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>दस्तावेज़ के पन्ना</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>उपयोगकर्ता</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>सामग्री वर्ग</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>प्रशासन</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>पन्ना %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>सब नतीजा देखीं</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>परिणाम: %count</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>एगो नतीजा</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>%count सुझाव</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>कवनो सुझाव नइखे</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>सुझाव लोड ना हो सकल।</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>सुझाव</translation>
     </message>
 </context>
 <context>
@@ -14383,6 +14646,14 @@ Note: The packages will not be uninstalled.</source>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>ई इंस्टॉलेशन एगो सार्वजनिक डेमो ह: केहू भी एकर प्रशासक पासवर्ड जान सकेला, आ प्रशासक पासवर्ड ना बदलल जा सकेला ना रीसेट कइल जा सकेला। इहाँ कुछुओ निजी मत डालीं।</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>रउआ डिवाइस</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>सुरक्षा गतिविधि</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14672,6 +14943,14 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>मार्गदर्शिका, खोज आ गड़बड़ी के रिपोर्ट कइसे करीं।</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>हाल के सामग्री</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>सबसे नया सामग्री, समीक्षा खातिर का रोकल गइल बा, आ चुनल पर कार्रवाई।</translation>
     </message>
 </context>
 <context>
@@ -15130,6 +15409,46 @@ Note: The packages will not be uninstalled.</source>
         <source>Synchronisations</source>
         <translation>सिंक्रनाइज़ेशन</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>GraphQL API: एकर एंड पॉइंट, स्कीमा आ क्वेरी आजमावे खातिर एगो प्लेग्राउंड।</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>माइग्रेशन</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>फाइल के रूप में रखल इंस्टॉलेशन के बदलाव: ओकर स्थिति, रन, चलावल आ वापस लिहल।</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>हाल के सामग्री</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>सबसे नया सामग्री, समीक्षा खातिर का रोकल गइल बा, आ चुनल पर कार्रवाई।</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>कवनो साइट के स्टैटिक कॉपी GitHub Pages भा कवनो git होस्ट पर प्रकाशित करीं।</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>स्टैटिक प्रकाशन</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>डेटा प्रकार</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>कर्नेल आ एक्सटेंशन के हर डेटा प्रकार, आ वर्ग आ सामग्री एकरा के कइसे इस्तेमाल करेला।</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15294,6 +15613,22 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>ऊ खाता जेकर केहू इस्तेमाल नइखे करत भा जेकरा पर ध्यान देवे के जरूरत बा; ओकनी के बंद करीं, अनलॉक करीं भा निर्यात करीं।</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>उपयोगकर्ता ऑडिट लॉग</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>हर खाता खातिर के बदलल, साइन इन कइल भा मना कइल गइल; फ़िल्टर आ निर्यात करीं।</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>लॉग इन रिपोर्ट</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>के लॉग इन बा, रोज के लॉग इन आ असफलता; कवनो उपयोगकर्ता के हर जगह से लॉग आउट करीं।</translation>
     </message>
 </context>
 <context>
@@ -22110,6 +22445,22 @@ Note: The packages will not be uninstalled.</source>
         <source>%n hours ago</source>
         <translation>%n घंटा पहिले</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>GraphQL API के सहेजल क्वेरी के जवाब, आ ओकरा स्कीमा के सामग्री वर्ग।</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>GitHub Pages भा कवनो git होस्ट पर एगो स्टैटिक कॉपी प्रकाशित करीं</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>स्टैटिक प्रकाशन</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>स्टैटिक कैश एह सर्वर से पन्ना परोसेला। कवनो साइट के स्टैटिक कॉपी कहीं अउर, GitHub Pages भा कवनो git होस्ट पर, प्रकाशित करे खातिर स्टैटिक प्रकाशन के इस्तेमाल करीं।</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25651,6 +26002,10 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>last purge</source>
         <translation>अंतिम बेर साफ़ कइल गइल</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>लिखाई स्थिति के लॉक ना ले पवलस (आखिरी बेर %date): हर एक कैश कइल सगरी नतीजा के पुरान बना दिहलस। %file के हर ओह उपयोगकर्ता खातिर लिखे लायक होखे के चाहीं जेकरा नाँव से साइट चलेला; NFS पर एकरा NFSv4 भा lockd चाहीं।</translation>
     </message>
 </context>
 <context>
@@ -33599,6 +33954,14 @@ Note: The packages will not be uninstalled.</source>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>PHP हैंडलर के समय-सीमा खतम सत्र खुद PHP हटावेला (session.gc_maxlifetime), एह पन्ना भा session_gc क्रॉन जॉब के हिस्सा ना।</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>हर उपयोगकर्ता के लॉग इन वाला सत्र लॉग इन रिपोर्ट में देखावल जाला आ उहँवे से लॉग आउट कइल जाला; ई रिपोर्ट हर सत्र हैंडलर के साथे काम करेला।</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>लॉग इन रिपोर्ट खोलीं</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37923,6 +38286,26 @@ your account.</source>
     <message>
         <source>None yet</source>
         <translation>अबहीं कवनो ना</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>सुरक्षा गतिविधि</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>रउआ हाल के लॉग इन, असफल कोसिस आ रउआ पासवर्ड, ईमेल पता आ दू-चरण वाला लॉग इन में भइल बदलाव।</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>एह खाता के हाल के लॉग इन, असफल कोसिस आ सुरक्षा बदलाव।</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>गतिविधि के समीक्षा करीं</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>असफल लॉग इन: %count</translation>
     </message>
 </context>
 <context>
@@ -44089,6 +44472,42 @@ If you want to send comments to the approver or view the status use the URL belo
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>लॉग इन कइला के बाद उपयोगकर्ता के कुछ आउर करे से पहिले नया पासवर्ड चुने के होखी। जब रउआ केहू के अस्थायी पासवर्ड देत बानी तब एकर इस्तेमाल करीं।</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>पहिले से मौजूद फोटो चुनीं</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>रउआ जवन ऑब्जेक्ट चुनब ओकर फोटो फाइल एह फील्ड में कॉपी हो जाला। दोसर ऑब्जेक्ट ना बदलेला।</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>“%name” के फोटो एह फील्ड में कॉपी हो गइल।</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>फोटो खातिर ब्राउज़ करीं</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>नाम से फोटो खोजीं</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>खोजीं</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>“%name” के फोटो इस्तेमाल करीं</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>ई फोटो इस्तेमाल करीं</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>राउर खोज से कवनो फोटो मेल ना खाइल।</translation>
     </message>
 </context>
 <context>
@@ -51013,6 +51432,10 @@ See the requirements page for more information.</source>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>crontab ना लिखल गइल (%reason)। ई लाइन ओह उपयोगकर्ता के crontab में जोड़ीं जेकरा रूप में साइट चलेला, ना त कतार, आयात, सूचना आ खोज इंडेक्स कबो ना चलिहें:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>दोबारा इंस्टॉल किकस्टार्टर से (%file, फेर php bin/php/kickstarter.php run --apply) भा नया इंस्टॉलेशन से होला।</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54892,6 +55315,10 @@ your account.</source>
         <source>eZJSCore Public Packer cache</source>
         <translation>eZJSCore पब्लिक पैकर कैश</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>GraphQL कैश (जवाब आ स्कीमा के वर्ग)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54978,6 +55405,14 @@ your account.</source>
     <message>
         <source>Copy of %class_name</source>
         <translation>%class_name के प्रति</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>डेटा प्रकार</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>डेटा प्रकार %string</translation>
     </message>
 </context>
 <context>
@@ -55804,6 +56239,26 @@ your account.</source>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>SVG फोटो पढ़ल ना जा सकल, भा ओह में अइसन कुछ नइखे जेकरा के सुरक्षित रूप से देखावल जा सके।</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>फोटो कॉपी ना हो पाइल। किरिपा क के फेर से कोशिश करीं भा साइट प्रशासक से संपर्क करीं।</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>चुनल ऑब्जेक्ट मौजूद नइखे भा रउआ के ओकरा के पढ़े के अनुमति नइखे।</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>चुनल ऑब्जेक्ट में कवनो फोटो नइखे।</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>चुनल ऑब्जेक्ट के फोटो फाइल पढ़ल ना जा सकल।</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>चुनल ऑब्जेक्ट के फोटो एह फील्ड के अनुमति से बड़ बा: %1 बाइट।</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56334,6 +56789,42 @@ your account.</source>
         <source>The bookmark was renamed to "%name".</source>
         <translation>बुकमार्क के नाँव बदल के "%name" कर दिहल गइल।</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>एह साइट एक्सेस (%siteaccess) में ई पन्ना बंद बा। बुकमार्क के ओह साइट एक्सेस में खोलीं जवना में ई पन्ना होखे।</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>एह पन्ना के मॉड्यूल इहाँ इंस्टॉल नइखे भा चालू नइखे।</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>ई पन्ना अब नइखे: एकरा मॉड्यूल में अइसन कवनो दृश्य नइखे।</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>रउआ कवनो भूमिका रउआ के एह पन्ना के खोले के अनुमति ना देला।</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>रउआ एह साइट एक्सेस के इस्तेमाल ना कर सकत बानी।</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>एह पन्ना पर देखावल सामग्री रउआ ना पढ़ सकत बानी।</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>अइसन पन्ना के बुकमार्क ना कइल जा सकेला: ई खाली कवनो फॉर्म पर काम करेला, भा ई एक पल के पन्ना हवे।</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>एह पन्ना के पता नइखे।</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>ई पन्ना अबहीं ना खोलल जा सकेला।</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56805,6 +57296,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>पिछिला रन में मेल ट्रांसपोर्ट %count संदेश नामंजूर कर दिहलस। मेल सर्वर आ site.ini MailSettings जाँचीं।</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>%count घटना इंतजार में बा आ सूचना क्रॉन जॉब के कवनो रन दर्ज नइखे। क्रॉन जॉब भाग &quot;frequent&quot; crontab में जोड़ीं, भा exp:notification:run --apply चलाईं।</translation>
     </message>
 </context>
 <context>
@@ -63069,6 +63564,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Choose another site or section with the node picker</source>
         <translation>नोड चयनकर्ता से कवनो दोसर साइट भा खंड चुनीं</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>खाली सिस्टम प्रशासक मालिक बदल सकेला: root के रूप में ./console exp:content-check --fix-permissions --apply चलाईं।</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64602,6 +65101,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>empty</source>
         <translation>खाली</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>हस्ताक्षर कुंजी एक साल से जादे पुरान बा: exp:audit key rotate --apply से एकरा के बदलीं।</translation>
     </message>
 </context>
 <context>
@@ -68432,6 +68935,486 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Share of page time</source>
         <translation>पन्ना समय में हिस्सा</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>पूरा रेंडर के अनुरोध कइल गइल रहे</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>पन्ना कैश में ई पन्ना ना रहे (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>पन्ना कैश जवाब ना दिहलस</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>रेंडर कइल गइल</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>कर्नेल से रेंडर कइल गइल: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>पन्ना कैश से %ms ms में परोसल गइल। ई पन्ना %stored पर %render ms के एगो रेंडर से सहेजल गइल रहे, %age s पहिले।</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>अबहीं रेंडर करीं</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>कैश कइल दृश्य पर पाछे</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>%stored के रेंडर से (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>ई अनुरोध: पन्ना कैश से %ms ms में परोसल गइल।</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>उपयोगकर्ता</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>उपयोगकर्ता ID</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>कैश प्रोफ़ाइल</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>ई व्यू</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>दृश्य कैश</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>हर यूजर खातिर (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>यूजर के कैश प्रोफ़ाइल: एके प्रोफ़ाइल वाला यूजर व्यू कैश फाइल साझा करेलें</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>हँ</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ना</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>लॉगिन नाँव</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>लॉग इन बा</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>सत्र</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>कंटेंट व्यू कैश की के ऊ हिस्सा जे यूजर पर निर्भर बा, ठीक ओइसहीं जइसे की ओकरा के लेले, एह पेज के ViewCacheTweaks के तहत। एके प्रोफ़ाइल वाला यूजर व्यू के कैश फाइल साझा करेलें, जबले कवनो व्यू के आपन हिस्सा (पसंद, लिसनर के की) अलग ना होखे: ओकनी के आपन प्रोफ़ाइल होला, खाली एह पेज खातिर।</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>प्रोफ़ाइल</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>ई व्यू (नोड %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: हर लॉग-इन यूजर के आपन कैश फाइल होला।</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>लागू ViewCacheTweaks: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>हिस्सा</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>मान</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>कवनो हिस्सा यूजर पर निर्भर नइखे (ViewCacheTweaks)।</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>ई व्यू</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>टेक्स्ट के रूप में कॉपी करीं</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>भूमिका</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>कवनो रोल असाइनमेंट पढ़ल ना जा सकल।</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>रोल ID</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>भूमिका</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>सीमा</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>केकरा के सौंपल गइल</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>यूजर</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>ग्रुप %name (ऑब्जेक्ट %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>कॉपी हो गइल</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>कॉपी ना हो सकल।</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>एगो लिसनर द्वारा छोड़ल गइल</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>अनाम आगंतुक</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>रउरा जइसन</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>अलग</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>एके ViewCacheTweaks में गुमनाम आगंतुक के मिले वाला प्रोफ़ाइल, डिफ़ॉल्ट पसंद के साथे, व्यू के हिस्सा के बिना: सेशन पढ़े वाला लिसनर से ओकरा बारे में पूछल ना जा सके।</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>पसंद सब</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>कवनो व्यू मोड यूजर के पसंद पर निर्भर नइखे (site.ini [ContentSettings] CachedViewPreferences)।</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>ऊ पसंद जेकरा पर एह व्यू मोड के व्यू निर्भर बा (CachedViewPreferences), यूजर के मान भा डिफ़ॉल्ट के साथे। प्रोफ़ाइल में ई userpreferences के रूप में बा, सब व्यू मोड के एक साथे।</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>दृश्य मोड</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>पसंद</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>डिफ़ॉल्ट</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>नीति</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>रोल के पॉलिसी देखाईं (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>ई सेक्शन खोले पर पॉलिसी सर्वर से एक बेर में एक पेज लोड होला, आ मॉड्यूल आ फंक्शन से फ़िल्टर कइल जा सकेला।</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>फ़ंक्शन</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>सभ मॉड्यूल</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>सब फंक्शन</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>सीमा</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>अउरी देखाईं</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>एह रोल सब के कवनो पॉलिसी नइखे।</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>कवनो पॉलिसी फ़िल्टर से मेल ना खाला।</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%matching में से %shown पॉलिसी (कुल %total)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>खोलला पर लोड होला।</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>module/function, भूमिका, सीमा</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>नीति सभ में खोजीं</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>अउर लोड करीं</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>मॉड्यूल/फ़ंक्शन</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>सब भूमिका (%count नीति)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>कवनो नीति मेल ना खात बा।</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%matched नीति में से %shown</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>कवनो जवाब नइखे</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>छिपावल</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>व्याख्या देखाईं</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>व्याख्या छिपाईं</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>खोलीं</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>सभ खोलीं</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>सभ बंद करीं</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>कुंजी भा मान</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>सत्र में खोजीं</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>प्रकार</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>%count अउरी</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>देखावे खातिर बहुत गहिराई ले नेस्टेड</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>काटल गइल, कुल %count अक्षर</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>सुरू भइल</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>कुकी के नाम</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>सत्र आईडी</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>हैंडलर</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>सहेजे के पथ</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>PHP डिफ़ॉल्ट</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>जीवनकाल (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>कुकी</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>जीवनकाल %s सेकंड</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>रउआ आपन PHP सत्र, जइसन ऊ सेक्शन खोले के बेरा रहे, कबो दोसर ना। जवन कुंजी राज जइसन लागेला (टोकन, हैश, पासवर्ड) ओकर मान छिपावल जाला (debugbar.ini SessionMask[]); बाकी सब कुछ जइसन सहेजल बा ओइसहीं देखावल जाला, निजी डेटा भी।</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>%count कुंजी, %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>बड़</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>सत्र खाली बा।</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>एह अनुरोध खातिर कवनो सत्र शुरू ना भइल।</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>एक्सटेंशन %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>कर्नेल आ अउरी</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>हर प्रविष्टि ना देखावल गइल बा: सत्र में ओसे अधिका बा जेतना इहाँ सूची में देखावल जा सकेला।</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>%count कुंजी सूची में नइखे।</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>फ्रेम</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>जवन मान टोकन जइसन लागेला (JSON Web Token, Authorization हेडर के क्रेडेंशियल, निजी कुंजी, लंबा हेक्स भा बेतरतीब पाठ) ऊहो छिपावल जाला, ओकर कुंजी के नाम चाहे जवन होखे (debugbar.ini SessionValueMask[])।</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>कुंजी राज जइसन लागत बा (debugbar.ini SessionMask[])।</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>मान टोकन जइसन लागत बा।</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>छिपावल कुंजी के नीचे।</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>सत्र पाठ के रूप में, तालिका नियर छिपावल।</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>सत्र %size से बड़ बा (debugbar.ini SessionWarnBytes): एह उपयोगकर्ता के हर अनुरोध पूरा सत्र पढ़ेला, आ बदलला पर ओकरा के लिखेला।</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP एह सत्र के फाइलन में रखेला आ पूरा अनुरोध भर फाइल के लॉक रखेला: एके उपयोगकर्ता के अनुरोध (कई टैब, AJAX कॉल) एक दोसरा के इंतजार करेलें।</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>खुलल राखीं</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>%size से बड़ (debugbar.ini SessionWarnBytes): एह उपयोगकर्ता के हर अनुरोध पूरा सत्र पढ़ेला।</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%count में से %hits कैश से पढ़ल गइल</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>कवनो टेम्पलेट रेंडर ना भइल (व्यू कैश से पढ़ल व्यू कवनो टेम्पलेट रेंडर ना करेला)।</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>भूमिका सौंपल</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>भूमिका आ नीति</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>गुमनाम आगंतुकन से अलग</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>गुमनाम आगंतुकन जइसन</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70312,6 +71295,14 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>not sent</source>
         <translation>ना भेजल गइल</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>सूचना क्रॉन जॉब आपन हर रन इहाँ दर्ज करेला। भाग frequent crontab में जोड़ीं, भा exp:notification:run --apply चलाईं।</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>कंसोल के इस्तेमाल करीं: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -76030,6 +77021,98 @@ You will need to change the class of the node by using the swap functionality.</
         <source>This topic is not Released; readers do not see it.</source>
         <translation>ई विषय जारी नइखे भइल; पाठक एकरा के ना देखेलें।</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>माइग्रेशन</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>फाइल के रूप में रखल इंस्टॉलेशन के बदलाव: ओकर स्थिति, रन, चलावल आ वापस लिहल।</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>कवनो साइट के स्टैटिक कॉपी GitHub Pages भा कवनो git होस्ट पर प्रकाशित करीं।</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>स्टैटिक प्रकाशन</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>समीक्षा में</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>पाठक ई पन्ना देखत बाड़ें।</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>जब ले केहू जारी ना करी, पाठक से छिपावल बा।</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>पन्ना अब समीक्षा में बा। जब ले ई जारी ना होई, पाठक से छिपावल बा।</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>पन्ना जारी हो गइल बा: पाठक अब एकरा के देखत बाड़ें।</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>पन्ना फेर से ड्राफ़्ट बा। जब ले एकर समीक्षा होके ई जारी ना होई, पाठक से छिपावल बा।</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>अबहीं जारी करीं</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>खाली %role भूमिका वाला उहे उपयोगकर्ता एकरा के जारी कर सकेला जे ई संस्करण ना लिखले होखे।</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>जारी होखे के इंतजार में मदद विषय</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>फेर से जारी होखे तक एकरा के पाठक से छिपा देला।</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>एकरा बाद एगो समीक्षक एकर जाँच करी। पाठक अबहीं एकरा के ना देखस।</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>पाठक एकरा के तुरंते देखेलें।</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>आउर काम खातिर एकरा के समीक्षा से निकाल लेला। पाठक एकरा के ना देखस।</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>ई पन्ना पाठक से छिपाईं?</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>ई पन्ना वापस ड्राफ़्ट में भेजीं?</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>जब ले केहू फेर से जारी ना करी, पाठक अब %title ना देखिहें।</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title आउर काम खातिर वापस ड्राफ़्ट में जाता। पाठक अबहूँ एकरा के ना देखस, आ जारी होखे से पहिले एकर नया समीक्षा जरूरी बा।</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>रद्द करीं</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>ई विषय समीक्षा में बाड़ें। मौजूदा संस्करण ना लिखे वाला केहू जइसहीं एकनी के जारी करी, पाठक एकनी के देखिहें।</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76485,6 +77568,46 @@ You will need to change the class of the node by using the swap functionality.</
         <source>None.</source>
         <translation>कवनो ना।</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>प्रमाणक ऐप से</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>ईमेल से आइल कोड से</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>रिकवरी कोड से</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>पासकी से</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>बाहरी खाता से</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>सुरक्षा गतिविधि</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>एकरा नेटवर्क के रूप में देखावल गइल; पता साइट के डेटा सुरक्षा सेटिंग के मोताबिक राखल जाला।</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>दर्ज नइखे</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>जगह</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>अंदाजन</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76728,6 +77851,42 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Manage devices</source>
         <translation>डिवाइस सँभालीं</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>प्रमाणक ऐप से</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>ईमेल से आइल कोड से</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>रिकवरी कोड से</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>पासकी से</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>बाहरी खाता से</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>सुरक्षा गतिविधि</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>दर्ज नइखे</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>जगह</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>अंदाजन</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76807,6 +77966,14 @@ You will need to change the class of the node by using the swap functionality.</
         <source>View the sessions of this user</source>
         <translation>एह उपयोगकर्ता के सत्र देखीं</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>%site पर रउआ खाता %login से अबहीं अइसन जगह से लॉग इन भइल बा जहाँ से हाल में लॉग इन ना भइल रहे:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>अंदाजन जगह</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76845,6 +78012,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%os पर %browser</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>लॉग इन रिपोर्ट</translation>
     </message>
 </context>
 <context>
@@ -77053,6 +78224,82 @@ You will need to change the class of the node by using the swap functionality.</
         <source>The passkey could not be checked. Please try again.</source>
         <translation>पासकी के जाँच ना हो सकल। किरिपा क के फेर से कोसिस करीं।</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>जवन खाता खाली पासकी से लॉग इन करेला, ऊ इहाँ पासवर्ड इस्तेमाल ना कर सकेला: &quot;पासकी से लॉग इन करीं&quot; चुनीं।</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>%login के पासकी</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>ऊ पासकी जेकरा से ई खाता लॉग इन करेला। जवन पासकी कवनो हेराइल भा चोरी भइल डिवाइस पर बा, ओकरा के निरस्त करीं: ऊ फेर लॉग इन ना कर सकी। नया पासकी मालिक खुदे जोड़ेला।</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>रउआ खाता के एगो पासकी चाहीं</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>आपन खाता में एगो पासकी जोड़ीं</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>आगे बढ़े खातिर एगो पासकी जोड़ीं। एकरा बाद रउआ खाली पासवर्ड के बदले एकरा से लॉग इन करब।</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>पासकी से लॉग इन कइल पासवर्ड से तेज आ सुरक्षित बा। अभी एगो जोड़ीं, भा एकरा बिना आगे बढ़ीं।</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>अभी ना</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>पासकी &quot;%name&quot; निरस्त करीं?</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>ओकरा बाद ई एह खाता में लॉग इन ना कर सकी। अगर ई आखिरी रहे, त मालिक पासवर्ड से लॉग इन करेला, भा रउआ नया पासवर्ड सेट करीं।</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>पासकी निरस्त करीं</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>निरस्त करीं</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>एह खाता में कवनो पासकी नइखे।</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>प्रमाणक</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>अनजान</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>रउआ के आखिरी पासकी: एकरा के हटावे से पहिले दोसर जोड़ीं।</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>ई खाता खाली पासकी से लॉग इन करेला (पासकी नीति): जब कवनो ना बची, त ई फेर से आपन पासवर्ड से लॉग इन करी।</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>ई रउआ के आखिरी पासकी ह आ रउआ के खाता बिना पासकी के लॉग इन ना कर सकेला। पहिले दोसर पासकी जोड़ीं।</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>पासकी &quot;%name&quot; निरस्त हो गइल। अब ई एह खाता में लॉग इन ना कर सकेला।</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77152,6 +78399,34 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Code from your authenticator app</source>
         <translation>रउआ के प्रमाणक ऐप के कोड</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>रउआ डेटा हमेशा खातिर मेटावे भा कवनो लॉग खाली करे वाला बानी।</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>रउआ के पासवर्ड आ एगो पासकी</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>रउआ के पासवर्ड आ रउआ के प्रमाणक ऐप के एगो कोड</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>भा:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>ई ब्राउज़र पासकी इस्तेमाल ना कर सकेला। कवनो दोसर तरीका, भा दोसर ब्राउज़र इस्तेमाल करीं।</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>जब रउआ आगे बढ़ब, तब रउआ के ब्राउज़र रउआ के कवनो एगो पासकी माँगी।</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>पासकी से आगे बढ़ीं</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77242,6 +78517,70 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Setup</source>
         <translation>सेटअप</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>आपन पासवर्ड, ईमेल पता, पासकी, दू-चरण वाला लॉग इन, रिकवरी कोड भा API कुंजी बदलल, आ आपन दोसर डिवाइस से लॉग आउट कइल।</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>उपयोगकर्ता, उनकर पासवर्ड आ डिवाइस बनावल आ बदलल, खाता सेटिंग, नया उपयोगकर्ता खाता मंजूर भा नामंजूर करल, भूमिका सौंपल आ नीति बदलल।</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>डेटा मेटावल</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>कूड़ादान खाली करल, ओमें से चीज हटावल आ एके बेर कई गो चीज हटावल।</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>सामग्री हटावल, प्रकाशित करल आ सहेजल</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>सामग्री हटावल (कूड़ादान में डालल भी), प्रकाशित करल आ ड्राफ़्ट सहेजल; फ़ॉर्म भेजत घड़ी पूछल जाला। डिफ़ॉल्ट रूप से बंद।</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>कवनो संवेदनशील क्रिया से पहिले, लॉग इन कइल उपयोगकर्ता फेर से पुष्टि करेला कि ऊ के ह: आपन पासवर्ड आ एगो पासकी से, भा पासकी ना होखे त आपन पासवर्ड आ आपन प्रमाणक ऐप के कोड से। खाली वेब पन्ना पूछेलें: REST इंटरफ़ेस, SOAP, WebDAV, expservices लॉगिन आ कमांड लाइन कबो ना पूछेलें।</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>सेटिंग कहाँ लागू होला</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>एकरा खातिर सेटिंग</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>हर साइट एक्सेस</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>साइट एक्सेस %name</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>खोलीं</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>केकरा से पूछल जाला: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>खाली ओकर सदस्य से पूछे खातिर उपयोगकर्ता समूह पर निशान लगाईं (जइसे संपादक)। कवनो पर निशान ना: हर उपयोगकर्ता।</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>settings/override/site.ini.append.php में सहेजल जाला, हर साइट एक्सेस खातिर। सहेजत घड़ी रउआ से पुष्टि करे के कहल जाला कि ई रउआ हईं।</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>settings/siteaccess/%name/site.ini.append.php में सहेजल जाला। settings/override में कवनो मान एकरा से ऊपर मानल जाला। सहेजत घड़ी रउआ से पुष्टि करे के कहल जाला कि ई रउआ हईं।</translation>
     </message>
 </context>
 <context>
@@ -77344,6 +78683,6822 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Open the page</source>
         <translation>पन्ना खोलीं</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from से %to, कुल %count</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>लॉगिन नाँव भा उपयोगकर्ता ID: जवना खाता के बारे में घटना रहे, भा ऊ उपयोगकर्ता जे कार्रवाई कइलस।</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>खाता</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>कार्रवाई</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>बाद में</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>कवनो नतीजा</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>पहिले</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>करे वाला</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>साफ़ करीं</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>पूरा भइल</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>घटना %days दिन ले राखल जाला।</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>घटना तब ले राखल जाला जब ले ओकरा के हाथ से हटावल ना जाव।</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>घटना</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>हर कार्रवाई</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>एह खाता के सब घटना</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>सूची के CSV के रूप में निर्यात करीं (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>असफल</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>से</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>सूची छोट करीं</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>कवनो घटना मेल ना खाइल।</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>हर पन्ना पर</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>audit.ini में रिकॉर्डिंग बंद बा ([UserAuditSettings] UserAudit); सूची में ऊहे देखावल जाला जे पहिले रिकॉर्ड भइल रहे।</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>मना कइल गइल</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>नतीजा</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>देखाईं</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>उपयोगकर्ता ऑडिट लॉग के टेबल नइखे। एकरा के php update/common/scripts/6.0/createuseraudittable.php से बनाईं; तब ले ऑडिट फ़ाइल हर घटना के राखेला।</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>एह पन्ना खातिर SQL डेटाबेस चाहीं; MongoDB पर ई उपलब्ध नइखे। ऑडिट फ़ाइल हर घटना के राखेला।</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>तक</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>उपयोगकर्ता ऑडिट लॉग</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>उपयोगकर्ता</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>कब</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>कहाँ</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>के कवन खाता बदलल, बनावल, चालू कइल, बंद कइल, खिसकावल भा हटावल, के साइन इन कइल भा मना कइल गइल, आ कवन भूमिका दिहल गइल: हर घटना खातिर एगो पंक्ति, पहिले आ बाद के फ़ील्ड के साथे। पासवर्ड आ गोपनीय जानकारी कबो रिकॉर्ड ना होला।</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>समूह</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>सिस्टम</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>अनजान</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>आपन खाता सुरक्षित करीं</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>%site पर रउआ खाता %login में लॉग इन करे खातिर एगो रिकवरी कोड इस्तेमाल भइल।</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>एगो रिकवरी कोड इस्तेमाल भइल</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>खाता</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>अंदाजन पता</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>फेर से लॉग इन करे खातिर नया पासवर्ड माँगीं, भा साइट के प्रशासक लोग से संपर्क करीं।</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>नया पासवर्ड माँगीं</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>हर रिकवरी कोड खाली एक बेर काम करेला। अगर रउआ फोन हेरा गइल बा, त आपन प्रमाणक ऐप फेर से सेट करीं आ नया रिकवरी कोड कवनो सुरक्षित जगह पर राखीं।</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>रउआ खाता पर असफल लॉग इन कोसिस</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>अब से लॉग इन करत घरी रउआ पासवर्ड के अलावा एगो कोड भी माँगल जाई। अगर ई रउआ कइले बानी, त रउआ के कुछुओ करे के जरूरत नइखे।</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>अगर ई रउए रहीं आ रउआ आपन पासवर्ड भुला गइल बानी, त नया पासवर्ड माँगीं। ना त, एगो अउरी मजबूत पासवर्ड चुनीं आ दू-चरण वाला लॉग इन चालू करीं।</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>अगर ई रउआ ना कइले बानी, त हो सकेला कि केहू के रउआ पासवर्ड पता होखे: एकरा के अबहीं बदलीं आ जाँचीं कि रउआ खाता कहाँ-कहाँ लॉग इन बा।</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>बाकी रिकवरी कोड</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>आपन डिवाइस के समीक्षा करीं</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>सुरक्षा चेतावनी</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>केहू %site पर रउआ खाता %login में गलत पासवर्ड से लगातार %count बेर लॉग इन करे के कोसिस कइलस।</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>%site पर रउआ खाता %login में एगो सुरक्षा घटना भइल।</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>ई रउआ खाता के बारे में एगो सुरक्षा चेतावनी बा। ई अइसन हर बदलाव पर भेजल जाला आ एकरा के बंद ना कइल जा सकेला।</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>समय</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>%site पर रउआ खाता %login खातिर दू-चरण वाला लॉग इन बंद कइल गइल।</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>दू-चरण वाला लॉग इन बंद कइल गइल</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>%site पर रउआ खाता %login खातिर दू-चरण वाला लॉग इन चालू कइल गइल।</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>दू-चरण वाला लॉग इन चालू कइल गइल</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>%site पर रउआ खाता %login ढेर असफल लॉग इन के बाद लॉक कइल गइल।</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>रउआ खाता अब खाली रउआ पासवर्ड से सुरक्षित बा। अगर ई रउआ ना कइले बानी, त आपन पासवर्ड बदलला के बाद दू-चरण वाला लॉग इन फेर से चालू करीं।</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>रउआ खाता लॉक कइल गइल</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>%site पर रउआ खाता %login में एगो पासकी जोड़ल गइल।</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>जेकरा लगे ई पासकी बा, ऊ रउआ पासवर्ड के बिना रउआ खाता में लॉग इन कर सकेला। अगर ई रउआ ना जोड़नी, त पासकी में जाके एकरा के हटाईं आ आपन पासवर्ड बदलीं।</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>%site पर रउआ खाता %login से एगो पासकी हटावल गइल।</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>अब ई रउआ खाता में लॉग इन ना कर सकेला। अगर ई रउआ ना हटवनी, त आपन पासकी आ डिवाइस जाँचीं।</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>रउआ खाता में एगो पासकी जोड़ल गइल</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>रउआ खाता से एगो पासकी हटावल गइल</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>सुरक्षा गतिविधि</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>%name के सुरक्षा गतिविधि</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>लॉग इन कइल गइल</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>असफल लॉग इन कोसिस</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>लॉग आउट कइल गइल</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>सत्र लॉग आउट कइल गइल</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>नया डिवाइस से लॉग इन</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>नया जगह से लॉग इन</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>पहचान के पुष्टि भइल (&quot;पुष्टि करीं कि ई रउआ हईं&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>पहचान के जाँच असफल</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>पासकी से लॉग इन कइल गइल</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>पासकी से लॉग इन असफल</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>लॉग इन नामंजूर: दू-चरण वाला लॉग इन के कोड नइखे भा गलत बा</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>दू-चरण वाला लॉग इन के गलत कोड</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>असफल लॉग इन के बाद खाता लॉक कइल गइल</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>खाता अनलॉक कइल गइल</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>पासवर्ड बदलल गइल</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>पासवर्ड बदलल असफल</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>पासवर्ड रीसेट कइल गइल</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>नया पासवर्ड माँगल गइल</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>ईमेल पता बदलल गइल</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>उपयोगकर्ता नाँव बदलल गइल</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>दू-चरण वाला लॉग इन चालू कइल गइल</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>दू-चरण वाला लॉग इन बंद कइल गइल</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>रिकवरी कोड इस्तेमाल कइल गइल</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>नया रिकवरी कोड</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>ऐप पासवर्ड बनावल गइल</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>ऐप पासवर्ड निरस्त कइल गइल</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>पासकी जोड़ल गइल</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>पासकी हटावल गइल</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>खाता चालू कइल गइल</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>खाता बंद कइल गइल</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>सभ</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>लॉग इन आ सत्र</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>खाता में बदलाव</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>ध्यान देवे के जरूरत</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>रउआ द्वारा</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>उपयोगकर्ता द्वारा</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>%login द्वारा</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>तरीका</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>ब्राउज़र</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>सिस्टम</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>डिवाइस</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>जगह</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>देश</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>सत्र</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>कवन</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>माध्यम</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>असफल कोसिस</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>बाकी कोड</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>लॉग इन हैंडलर</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>सुरक्षा गतिविधि</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>%name के सुरक्षा गतिविधि</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>रउआ खाता के सुरक्षा से जुड़ल लॉग इन आ बदलाव। अगर रउआ कुछ अइसन देखीं जवन रउआ ना कइले बानी, त आपन पासवर्ड बदलीं आ ऊ डिवाइस लॉग आउट करीं जेकरा के रउआ ना चिन्हत बानी।</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>एह खाता के सुरक्षा से जुड़ल लॉग इन आ बदलाव।</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>रउआ डिवाइस</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>पासवर्ड बदलीं</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>खाता पर वापस</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>सुरक्षा गतिविधि दर्ज ना होला</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>एकरा के उपयोगकर्ता ऑडिट लॉग से पढ़ल जाला, जेकर तालिका expuser_audit नइखे भा एह डेटाबेस पर समर्थित नइखे। php update/common/scripts/6.0/createuseraudittable.php चलाईं, भा 6.0.15 के डेटाबेस अपडेट चलाईं।</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>पिछला %days दिन</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>पिछला %days दिन में लॉग इन</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>हाल के सुरक्षा गतिविधि</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>देखाईं</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>असफल</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>नामंजूर</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>अबले कवनो सुरक्षा गतिविधि दर्ज नइखे।</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>सुरक्षा घटना %days दिन ले राखल जाला।</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>सुरक्षा घटना तबले राखल जाला जबले कवनो प्रशासक ओकरा के ना हटावे।</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>हमार लॉग इन डेटा डाउनलोड करीं</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>रउआ सत्र आ सुरक्षा घटना एगो JSON फ़ाइल के रूप में।</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>एह साइट पर सत्र दर्ज ना होला, एही से कवनो दोसर डिवाइस लॉग आउट ना हो सकल। अबहीं आपन पासवर्ड बदलीं।</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count गो दोसर सत्र लॉग आउट हो गइल। अब आपन पासवर्ड बदलीं।</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>कवनो दोसर डिवाइस लॉग इन ना रहे। अब आपन पासवर्ड बदलीं।</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>धन्यवाद। एह घटना के राउर मान के चिन्हित कइल गइल बा।</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>ओह घटना के कवनो जवाब के जरूरत नइखे।</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>पन्ना के समय खतम हो गइल रहे। कुछ ना बदलल गइल; किरिपा क के फेर से कोसिस करीं।</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>आपन खाता सुरक्षित करीं</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>अगर इहाँ कुछ रउआ ना कइले रहीं, त सभ दोसर डिवाइस लॉग आउट करीं, फेर नया पासवर्ड चुनीं। हमरा के याद राखीं से लॉग इन रहल डिवाइस भी लॉग आउट हो जाले।</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>एकरा छोड़ के हर डिवाइस अपना अगिला अनुरोध पर लॉग आउट हो जाला। फेर रउआ नया पासवर्ड चुनब।</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>हँ, दोसर डिवाइस लॉग आउट करीं</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>का ई रउआ रहीं?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>हँ, ई हम रहनी</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>ना, हमार खाता सुरक्षित करीं</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>लॉग इन कइल गइल</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>असफल लॉग इन कोसिस</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>लॉग आउट कइल गइल</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>सत्र लॉग आउट कइल गइल</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>नया डिवाइस से लॉग इन</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>नया जगह से लॉग इन</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>पहचान के पुष्टि भइल (&quot;पुष्टि करीं कि ई रउआ हईं&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>पहचान के जाँच असफल</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>पासकी से लॉग इन कइल गइल</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>पासकी से लॉग इन असफल</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>लॉग इन नामंजूर: दू-चरण वाला लॉग इन के कोड नइखे भा गलत बा</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>दू-चरण वाला लॉग इन के गलत कोड</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>असफल लॉग इन के बाद खाता लॉक कइल गइल</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>खाता अनलॉक कइल गइल</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>पासवर्ड बदलल गइल</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>पासवर्ड बदलल असफल</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>पासवर्ड रीसेट कइल गइल</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>नया पासवर्ड माँगल गइल</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>ईमेल पता बदलल गइल</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>उपयोगकर्ता नाँव बदलल गइल</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>दू-चरण वाला लॉग इन चालू कइल गइल</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>दू-चरण वाला लॉग इन बंद कइल गइल</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>रिकवरी कोड इस्तेमाल कइल गइल</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>नया रिकवरी कोड</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>ऐप पासवर्ड बनावल गइल</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>ऐप पासवर्ड निरस्त कइल गइल</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>पासकी जोड़ल गइल</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>पासकी हटावल गइल</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>खाता चालू कइल गइल</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>खाता बंद कइल गइल</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>सभ</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>लॉग इन आ सत्र</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>खाता में बदलाव</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>ध्यान देवे के जरूरत</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>सुरक्षा गतिविधि</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>%name के सुरक्षा गतिविधि</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>रउआ खाता के सुरक्षा से जुड़ल लॉग इन आ बदलाव। अगर रउआ कुछ अइसन देखीं जवन रउआ ना कइले बानी, त आपन पासवर्ड बदलीं आ ऊ डिवाइस लॉग आउट करीं जेकरा के रउआ ना चिन्हत बानी।</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>रउआ डिवाइस</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>पासवर्ड बदलीं</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>एह साइट पर सुरक्षा गतिविधि अबहीं दर्ज ना होला।</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>पिछला %days दिन में लॉग इन</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>असफल कोसिस</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>अबले कवनो सुरक्षा गतिविधि दर्ज नइखे।</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>हमार लॉग इन डेटा डाउनलोड करीं</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>रउआ सत्र आ सुरक्षा घटना एगो JSON फ़ाइल के रूप में।</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>एह साइट पर सत्र दर्ज ना होला, एही से कवनो दोसर डिवाइस लॉग आउट ना हो सकल। अबहीं आपन पासवर्ड बदलीं।</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count गो दोसर सत्र लॉग आउट हो गइल। अब आपन पासवर्ड बदलीं।</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>कवनो दोसर डिवाइस लॉग इन ना रहे। अब आपन पासवर्ड बदलीं।</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>धन्यवाद। एह घटना के राउर मान के चिन्हित कइल गइल बा।</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>ओह घटना के कवनो जवाब के जरूरत नइखे।</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>पन्ना के समय खतम हो गइल रहे। कुछ ना बदलल गइल; किरिपा क के फेर से कोसिस करीं।</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>आपन खाता सुरक्षित करीं</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>अगर इहाँ कुछ रउआ ना कइले रहीं, त सभ दोसर डिवाइस लॉग आउट करीं, फेर नया पासवर्ड चुनीं। हमरा के याद राखीं से लॉग इन रहल डिवाइस भी लॉग आउट हो जाले।</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>एकरा छोड़ के हर डिवाइस अपना अगिला अनुरोध पर लॉग आउट हो जाला। फेर रउआ नया पासवर्ड चुनब।</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>हँ, दोसर डिवाइस लॉग आउट करीं</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>का ई रउआ रहीं?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>हँ, ई हम रहनी</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>ना, हमार खाता सुरक्षित करीं</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>पासवर्ड</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>पासवर्ड आ दू-चरण वाला लॉग इन के कोड</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>REST इंटरफ़ेस</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>SOAP इंटरफ़ेस</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>सिंगल साइन-ऑन</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>सत्र दर्ज होखे से पहिले लॉग इन कइल गइल</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>लॉग इन रिपोर्ट</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>साइट पर के लॉग इन बा, खाता केतना बेर लॉग इन करेला आ केतना बेर असफल होला, आ कवनो उपयोगकर्ता के हर जगह से लॉग आउट कइल। ई हर सत्र हैंडलर के साथे काम करेला।</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>सत्र लॉग आउट कइल गइल। डिवाइस के फेर से लॉग इन करे के पड़ी।</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>%login के %count सत्र से लॉग आउट कइल गइल।</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>%login के कवनो सत्र चालू ना रहे।</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>एह ID, उपयोगकर्ता नाँव भा ईमेल पता वाला कवनो खाता नइखे।</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>ई ऊ सत्र ह जवना के रउआ इस्तेमाल करत बानी। एकरा के खतम करे खातिर लॉग आउट करीं।</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>ऊ सत्र पहिलहीं खतम हो चुकल रहे।</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>पन्ना के समय खतम हो गइल रहे। कुछुओ ना बदलल गइल; किरिपा क के फेर से कोसिस करीं।</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>एह साइट पर सत्र दर्ज ना होला (site.ini [UserSessionSettings] Tracking=disabled)।</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>तालिका expuser_session नइखे</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>एकरा बनते सत्र दर्ज होखे लागी: php update/common/scripts/6.0/createusersessiontable.php, भा 6.0.15 के डेटाबेस अपडेट।</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>अबहीं आ आज</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>चालू सत्र</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>लॉग इन वाला उपयोगकर्ता</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>आज के लॉग इन</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>आज के असफल कोसिस</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>कवनो उपयोगकर्ता के हर जगह से लॉग आउट करीं</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>खाता के हर सत्र ओकरा अगिला अनुरोध पर खतम हो जाला, &quot;हमरा के याद राखीं&quot; से राखल सत्र भी। एकर इस्तेमाल तब करीं जब कवनो खाता गलत हाथ में होखे के अंदेसा होखे; फेर ओकर पासवर्ड रीसेट करीं।</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>उपयोगकर्ता ID, उपयोगकर्ता नाँव भा ईमेल पता</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>हर जगह से लॉग आउट करीं</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>अबहीं लॉग इन</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>हाल में इस्तेमाल भइल %limit देखावल गइल बा।</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>उपयोगकर्ता</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>डिवाइस</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>पता</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>लॉग इन कइल गइल</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>आखिरी बेर सक्रिय</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>क्रिया</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>ई डिवाइस</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>दर्ज नइखे</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>लॉग आउट करीं</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>कवनो सत्र लॉग इन नइखे।</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>पिछला %days दिन</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>लॉग इन आ असफल कोसिस उपयोगकर्ता ऑडिट लॉग से गिनल जाला, जवन मौजूद नइखे; नया सत्र गिनल जाला।</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>दिन</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>लॉग इन</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>असफल कोसिस</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>नया सत्र</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>सत्र हैंडलर: %handler। सत्र तालिका expuser_session से पढ़ल जाला, एही से रिपोर्ट हर हैंडलर के साथे काम करेला।</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>पिछला %hours घंटा में संदिग्ध गतिविधि</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>एगो नेटवर्क %accounts खाता में लॉग इन करे में असफल रहल (%count कोसिस)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>असफल लॉग इन के बाद खाता लॉक हो गइल</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>एगो खाता पर %count असफल लॉग इन</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>एके संगे %count देस से लॉग इन</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>सुरक्षा गतिविधि</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>सत्र</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>असफल लॉग इन उपयोगकर्ता ऑडिट लॉग से पढ़ल जाला, जवन इहाँ उपलब्ध नइखे।</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>कुछुओ संदिग्ध नइखे: बार-बार असफल लॉग इन वाला कवनो खाता नइखे, कई खाता आजमावे वाला कवनो नेटवर्क नइखे, कई देस से लॉग इन कवनो खाता नइखे।</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>रउआ खाता खातिर सुरक्षा चेतावनी</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>रउआ खाता %login में एगो सुरक्षा घटना भइल: %event। अगर ई रउआ ना रहीं, त %url पर आपन खाता सुरक्षित करीं।</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>सेटअप</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>एह साइट के सामग्री से एके अनुरोध में ठीक ओही फ़ील्ड माँगीं जेकर कवनो पेज के जरूरत बा। स्कीमा सामग्री वर्ग के पालन करेला; हर क्वेरी ओकरा भेजे वाला उपयोगकर्ता के अधिकार से चलेला।</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>एह साइट एक्सेस में GraphQL API बंद बा। एकरा के graphql.ini में चालू करीं: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>GraphQL लाइब्रेरी (webonyx/graphql-php 15) इंस्टॉल नइखे।</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>एंड पॉइंट</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>लाइब्रेरी</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>स्कीमा</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>%count सामग्री वर्ग, स्कीमा %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>क्वेरी</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>वेरिएबल (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>चलाईं</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>जवाब</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>चल रहल बा…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>जवाब पढ़ल ना जा सकल।</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>क्वेरी रउआ अधिकार से चलेला, एह सत्र से साइन इन करके।</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%seconds से. में %count</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>कवनो सीमा ना</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>गहराई</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>जटिलता</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>हर सूची में आइटम</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (डिफ़ॉल्ट %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>हर उपयोगकर्ता भा कुंजी पर अनुरोध</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>हर गुमनाम पता पर अनुरोध</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>इंट्रोस्पेक्शन</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>खाली सहेजल क्वेरी</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>सबसे बड़ क्वेरी</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>%bytes बाइट</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>सबसे बड़ अपलोड</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>%siteaccess नाम के कवनो साइट एक्सेस नइखे।</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>%siteaccess में म्यूटेशन चालू हो गइल।</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>%siteaccess में म्यूटेशन बंद हो गइल।</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>%siteaccess में GraphQL API चालू हो गइल।</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>%siteaccess में GraphQL API बंद हो गइल।</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>सेटिंग लिखल ना जा सकल: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>जवाब कैश साफ़ हो गइल: %count जवाब हटावल गइल।</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>क्वेरी हटावे खातिर ओकरा बगल के बॉक्स पर टिक करीं।</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>क्वेरी ना हटावल जा सकल: PersistedQueryDirectoryList[] के कवनो डायरेक्टरी में आइल क्वेरी अपना फ़ाइल के साथे हटावल जाला।</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>सहेजल क्वेरी हटा दिहल गइल।</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>म्यूटेशन</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>चालू</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>बंद</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>साइट एक्सेस</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>API आ ओकर म्यूटेशन कहाँ जवाब देला। बटन graphql.ini लिखेला, जइसे ./console exp:graphql:enable आ exp:graphql:disable करेला।</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>साइट एक्सेस</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>GraphQL API</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>बदलीं</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>बंद करीं</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>म्यूटेशन बंद</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>म्यूटेशन चालू</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>चालू करीं</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>सीमा</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>एह साइट एक्सेस के graphql.ini [GraphQLSettings]।</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>जवाब कैश</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>सहेजल क्वेरी के जवाब, उपयोगकर्ता के अधिकार के हिसाब से रखल जाला आ जब भी सामग्री प्रकाशित होला तब खतम हो जाला।</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>स्थिति</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>रखल जवाब</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>%count जवाब, %bytes बाइट</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>अधिक से अधिक रखल जाला</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds से.</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>पिछिला बेर खतम</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>जवाब कैश साफ़ करीं</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>सहेजल क्वेरी</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>./console exp:graphql:persist से भा क्लाइंट द्वारा सहेजल (स्वचालित सहेजल क्वेरी); नाम भा SHA-256 से बोलावल जाला।</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>नाम</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>आकार</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>कहाँ</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>हटाईं</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>साथे आइल</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>सहेजल</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>हँ, ई क्वेरी हटाईं</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>अबहीं ले कवनो सहेजल क्वेरी नइखे।</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>API कुंजी</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>graphql:read (क्वेरी) भा graphql:write (म्यूटेशन) स्कोप वाला निजी API कुंजी। इनका के API एक्सेस पेज पर भा ./console exp:graphql:keys से बनाईं आ रद्द करीं।</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>API एक्सेस</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>सब कुंजी</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>कुंजी</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>नाम</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>मालिक</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>स्कोप</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>पिछिला इस्तेमाल</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>सक्रिय</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>समय खतम</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>रद्द</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>कबो ना</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>अबहीं ले GraphQL स्कोप वाला कवनो API कुंजी नइखे।</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>ई पन्ना देखावे वाला साइट एक्सेस %siteaccess में GraphQL API बंद बा; नीचे के तालिका देखावेला कि ई कहाँ जवाब देला।</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>ई पन्ना देखावे वाला साइट एक्सेस %siteaccess खातिर।</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>वेबहुक</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>कवनो एंड पॉइंट जवन इवेंट माँगेला (publish, update, trash, delete, move, hide, reveal, mutation), ओह में से हर एक के cronjob हिस्सा graphqlwebhooks हस्ताक्षर क के ओकरा के भेजेला। ./console exp:graphql:webhooks उहे करेला जवन ई खंड करेला।</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>इवेंट</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>सब</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>हर साइट एक्सेस</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>खराब</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>कवनो सीक्रेट ना</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>इंतजार में</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count छोड़ दिहल गइल</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>आखिरी डिलीवरी</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>टेस्ट भेजीं</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>हँ, ई वेबहुक हटाईं</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>अबहीं ले कवनो वेबहुक नइखे।</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>वेबहुक जोड़ीं</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>जोड़ीं</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>हाल के डिलीवरी</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>समय</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>नतीजा</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>सब्सक्रिप्शन</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>क्लाइंट खातिर लाइव अपडेट: /api/graphql/subscribe पर एगो इवेंट स्ट्रीम, आ Velocity पर एगो WebSocket (graphql-transport-ws)। हर इवेंट खाली ओह सब्सक्राइबर लोग के जाला जे ओकर सामग्री पढ़ सकेला।</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>अबहीं खुलल</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>सबसे ढेर खुलल</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>कुल %total, हर उपयोगकर्ता पर %user, हर पता पर %address</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>गुमनाम सब्सक्रिप्शन</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>स्ट्रीम के अवधि</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>वेबहुक जोड़ल ना जा सकल: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>वेबहुक %name बदलल गइल; ओकर साइनिंग सीक्रेट ओइसहीं रहेला।</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>साइनिंग सीक्रेट सहेजल ना जा सकल (सेटअप &gt; सीक्रेट)।</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>वेबहुक %name जोड़ल गइल। ओकर साइनिंग सीक्रेट, जवन खाली एही बेर देखावल जा रहल बा: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>%name नाम के कवनो वेबहुक नइखे।</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>वेबहुक %name जवाब ना दिहलस: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>वेबहुक %name %ms ms में %status जवाब दिहलस।</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>वेबहुक हटावे खातिर ओकरा बगल के बॉक्स पर टिक करीं।</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>वेबहुक %name हटा दिहल गइल।</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>एह साइट एक्सेस में GraphQL API बंद बा।</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>GraphQL लाइब्रेरी इंस्टॉल नइखे।</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>GET भा POST के इस्तेमाल करीं।</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>बॉडी JSON ऑब्जेक्ट ना हवे।</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables JSON ऑब्जेक्ट ना हवे।</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions JSON ऑब्जेक्ट ना हवे।</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>क्वेरी POST से भेजीं।</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>अनुरोध में कवनो क्वेरी नइखे।</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>क्वेरी %max बाइट से लंबा बा।</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>आंतरिक सर्वर त्रुटि</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node के id, remoteId, path आ urlAlias में से ठीक एगो चाहीं।</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content के id आ remoteId में से ठीक एगो चाहीं।</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>after के कर्सर एह API के दिहल ना हवे।</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>%alias नाम के कवनो इमेज एलियास नइखे (image.ini [AliasSettings] AliasList[])।</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>इहाँ खाली सर्वर पर सहेजल क्वेरी स्वीकार होला: कवनो सहेजल क्वेरी के id भेजीं।</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>सहेजल क्वेरी के hash SHA-256 ना हवे।</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>सहेजल क्वेरी के hash क्वेरी से मेल ना खाला।</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>बहुत ढेर अनुरोध: %window सेकंड में अधिक से अधिक %limit। %reset सेकंड बाद फेर कोसिस करीं।</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>क्वेरी %depth स्तर गहिर बा; अधिक से अधिक %max के अनुमति बा।</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>क्वेरी के जटिलता %complexity बा; अधिक से अधिक %max के अनुमति बा।</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>ई अनुरोध स्कीमा ना पढ़ सकेला (introspection)।</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search के कवनो टेक्स्ट भा फ़िल्टर चाहीं (classes, subtree, sections, publishedAfter, publishedBefore)।</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument कवनो तारीख ना हवे (ISO 8601, 2026-10-30)।</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag के id, remoteId आ path में से ठीक एगो चाहीं।</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout के id, identifier आ urlAlias में से ठीक एगो चाहीं।</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>multipart अनुरोध के operations फ़ील्ड एगो JSON अनुरोध ना हवे।</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>multipart अनुरोध के map फ़ील्ड JSON ऑब्जेक्ट ना हवे।</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>multipart अनुरोध में %field फ़ाइल नइखे।</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>map फ़ील्ड के हर पाथ variables. से शुरू होखे के चाहीं: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>%name फ़ाइल पूरा ना पहुँचल (अपलोड त्रुटि %error)।</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>%name फ़ाइल %max बाइट से बड़ बा।</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>%name फ़ाइल के जाँच ना हो सकल।</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>एह साइट एक्सेस में म्यूटेशन बंद बा (graphql.ini [GraphQLSettings] MutationsEnabled)।</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>म्यूटेशन POST से भेजीं।</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>सामग्री बदले खातिर साइन इन करीं।</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>API कुंजी में %scope स्कोप नइखे।</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>सत्र वाला म्यूटेशन के सत्र के फ़ॉर्म टोकन चाहीं (हेडर X-CSRF-Token)।</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>uploadFromUrl बंद बा: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] में कवनो होस्ट के नाम नइखे।</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>पता https वाला पता होखे के चाहीं।</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>होस्ट %host graphql.ini [GraphQLSettings] UploadFromUrlHostList[] में नइखे।</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>फ़ाइल ना लावल जा सकल।</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload खाली एगो इनपुट टाइप हवे।</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>Upload टाइप के वेरिएबल multipart अनुरोध के एगो फ़ाइल लेला।</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>remote id %remoteId पहिलहीं से इस्तेमाल में बा।</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>सामग्री के %language में अनुवाद पहिलहीं से बा: updateContent के इस्तेमाल करीं।</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>कम से कम एगो फ़ील्ड दीं।</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>नया संस्करण ना बन सकल (सामग्री के बहुत ढेर ड्राफ़्ट बा)।</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>संस्करण %version ड्राफ़्ट ना हवे।</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent के id आ nodeId में से ठीक एगो चाहीं।</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>कवनो लोकेशन के ओकरे नीचे ना ले जाइल जा सकेला।</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>सामग्री के %parentId के नीचे पहिलहीं से एगो लोकेशन बा।</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>%field फ़ील्ड के मान सहेजल ना जा सकल।</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>%language नाम के कवनो सामग्री भाषा नइखे।</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>स्कीमा में %class नाम के कवनो सामग्री वर्ग नइखे।</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>सामग्री नइखे, भा रउआ ओकरा के ना पढ़ सकीले।</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>रउआ एह सामग्री के साथे ई ना कर सकीले।</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>%class वर्ग में %field नाम के कवनो लिखे लायक फ़ील्ड नइखे।</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>%field फ़ील्ड दू बेर दिहल गइल बा।</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>%field फ़ील्ड फ़ाइल लेला: एकरा के upload के रूप में भेजीं (multipart अनुरोध)।</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>%field फ़ील्ड कवनो फ़ाइल ना लेला।</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>%field फ़ील्ड के मान चाहीं।</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>%format फ़ॉर्मेट खाली रिच टेक्स्ट फ़ील्ड खातिर बा; %field आपन मान जइसन बा ओइसहीं लेला (RAW)।</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>%field फ़ील्ड जरूरी बा।</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>HTML पढ़ल ना जा सकल।</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content खाली id के साथे version लेला।</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>प्रीव्यू टोकन मान्य नइखे भा ओकर समय खतम हो गइल बा।</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>ई ऑरिजिन ना हवे (https://host भा https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>ई GraphQL API के स्कोप ना हवे: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>सब्सक्रिप्शन /api/graphql/subscribe पर भेजीं (एगो इवेंट स्ट्रीम भा एगो WebSocket)।</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>अनुरोध में डॉक्यूमेंट के कवनो ऑपरेशन के नाम नइखे।</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>एगो सब्सक्रिप्शन ठीक एगो फील्ड माँगेला।</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>बहुत ढेर सब्सक्रिप्शन खुलल बा; बाद में फेर कोसिस करीं।</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>रउआ लगे %max सब्सक्रिप्शन खुलल बा, जवन अनुमति के सबसे ढेर बा।</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>रउआ पता पर %max सब्सक्रिप्शन खुलल बा, जवन अनुमति के सबसे ढेर बा।</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>एह साइट एक्सेस में सब्सक्रिप्शन बंद बा।</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>सब्सक्राइब करे खातिर साइन इन करीं (एगो टोकन भा एगो निजी API कुंजी)।</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>म्यूटेशन /api/graphql पर भेजीं।</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>माइग्रेशन</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>स्थिति ना पढ़ाइल: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>माइग्रेशन के टेबल अबहीं नइखे: ./console exp:upgrade --apply ओकरा के बनावेला।</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>%count माइग्रेशन फेल भइल</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>एगो रन चल रहल बा, %user शुरू कइले बाड़ें</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>इंस्टॉलेशन लॉक बा: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>बाकी</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>फेल</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>अनाथ</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>पिछला रन</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>अबहीं कवनो ना</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>सब माइग्रेशन</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>सिमुलेटेड रन</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>आजमाइशी रन</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>बाकी माइग्रेशन एगो ट्रांजैक्शन में चलल जवना के बाद में रोलबैक कइल गइल: कुछुओ ना रखाइल। नीचे देखावल बा कि हर एक डेटाबेस में का बदलल।</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>अबहीं एगो रन का करी। कुछुओ ना बदलेला: हर बाकी माइग्रेशन ऊ बदलाव देखावेला जवन ऊ करी, आ रन देखावेला कि पहिले आ बाद में ऊ का करी।</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>सिमुलेट करीं</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>चलाईं</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>आजमाइशी रन फेल भइल: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>सिमुलेशन खातिर PostgreSQL भा SQLite चाहीं, जेकर स्कीमा बदलाव रोलबैक हो सकेला; एह डेटाबेस पर नीचे के योजना देखावेला कि रन का करी।</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>माइग्रेशन सभ</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>माइग्रेशन</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>स्थिति</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>ई का करी</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>सिमुलेशन: %ms मि.से. में %result</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>अबहीं कवनो माइग्रेशन नइखे।</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>रन के पहिले आ बाद</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>पहिले के कैप्शन</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>लिहल जाला, आ कवनो माइग्रेशन फेल भइला पर बहाल कइल जाला</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>बंद</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>बाद के कैप्शन</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>रन सफल भइला पर लिहल जाला</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>%total माइग्रेशन: %pending बाकी, %done पूरा, %failed फेल।</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>माइग्रेशन के इतिहास</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>हर रन, ओकर यूजर, माहौल, कैप्शन आ जवन कमिट, टैग आ पुश भइल ओकरा साथे। फेल भा रुकल रन फेर से चालू हो सकेला; जवना रन से पहिले कैप्शन लिहल गइल ऊ वापस लिहल जा सकेला।</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>रन ना पढ़ाइल: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>माइग्रेशन के टेबल अबहीं नइखे: ./console exp:upgrade --apply ओकरा के बनावेला।</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>देखाईं</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>सब</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>रन सभ</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>शुरू भइल</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>के द्वारा</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>कैप्शन सभ</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>रिपॉजिटरी</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>कार्रवाई</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>पहिले</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>बाद</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>पुश: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>फेर से चालू करीं</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>वापस लीं</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>एह स्थिति में कवनो रन नइखे।</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>इहाँ शुरू भइल</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>एह पन्ना सभ पर शुरू भइल रन, फेर से चालू आ रोलबैक, हर एक के रिपोर्ट के साथे।</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>का</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>नतीजा</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>रोलबैक</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>%target के रोलबैक</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>रन %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>रन का कइलस, ओकर रिकॉर्ड आ लॉग। इहाँ शुरू भइल रन ई पन्ना बंद कइला पर भी पीछे चलत रहेला; ओकरा के देखे खातिर पन्ना फेर से खोलीं।</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>एह रन के फेर से चालू करीं</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>एह रन के वापस लीं</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>रिकॉर्ड ना पढ़ाइल: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>प्रगति</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>%user %time पर शुरू कइलें।</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>कोड जाँचल जा रहल बा आ रन से पहिले कैप्शन लिहल जा रहल बा</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>%id चल रहल बा (%total में से %index)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>%total में से %done पूरा</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>माइग्रेशन चल गइल; कवनो फेल भइला पर कैप्शन बहाल हो रहल बा</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>रन के बाद कैप्शन, कमिट, टैग आ पुश हो रहल बा</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>कैप्शन बहाल हो रहल बा</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>रन खतम भइल। ओकर रिपोर्ट लोड हो रहल बा।</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>प्रगति ना देखल जा सकल। रन कइसन चल रहल बा देखे खातिर पन्ना फेर से लोड करीं।</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>ई पन्ना रन के चलत-चलत देखावेला।</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>फेर से लोड करीं</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>रिपोर्ट</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>समय</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms मि.से.</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>रन गलती के रूप में का छपलस</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>रिकॉर्ड</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>माहौल</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>कुछ ना</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>खतम भइल</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>कमिट</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>टैग</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>पुश</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>संदेश</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>एह रन के माइग्रेशन</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>स्रोत</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>रन लॉग</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>लॉग के खाली आखिरी हिस्सा देखावल गइल बा।</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>चल रहल बा</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>बिना रिपोर्ट के खतम भइल</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>सफल</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>फेल</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>नामंजूर</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>डेटाबेस तक ना पहुँचल जा सकल</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>भीतरी गलती</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>एगो रन चल रहल बा</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind %user %time पर शुरू कइलें।</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>देखत रहीं</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>इंस्टॉलेशन लॉक बा</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>दोसर रन लॉक पकड़ले बा (एगो अपग्रेड भा कंसोल पर एगो रन): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>पूरा</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>बाकी</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>जरूरत नइखे</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>अनजान</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>रोलबैक भइल</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>लागू भइल</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>लागू होई</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>वापस लिहल गइल</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>वापस लिहल जाई</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>ना चलल</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>दोसरा के इंतजार में</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>बदलाव मंजूर</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>बदलाव मंजूर होई</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>सिमुलेटेड</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>माइग्रेशन</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>स्थिति</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>इतिहास</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>%target वापस लीं</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>एगो रन ओकरा से पहिले लिहल कैप्शन तक वापस लिहल जाला, एगो माइग्रेशन ओकरा down() से। पहिले के कैप्शन बहाल कइल जानकार लोग खातिर बा। हर एक, अबहीं के स्थिति के कैप्शन के बाद, रउरा नाम से पीछे चलेला।</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>का वापस लिहल जा सकेला, ई ना पढ़ाइल: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>एगो रन</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>एगो माइग्रेशन</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>पहिले के एगो कैप्शन</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>विवरण</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>हँ</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ना</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>कैप्शन</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>लेबल</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>लिहल गइल</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>किसिम</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>बहाल करे वाला हिस्सा</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>डेटाबेस</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>स्टोरेज फाइल (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>सेटिंग (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>बहाल कइला से डेटाबेस कैप्शन के समय पर लवट जाला, सेशन समेत: बाद में रउरा से फेर से साइन इन करे के कहल जा सकेला। तब से जवन कुछ बदलल ऊ सब खो जाई; पहिले अबहीं के स्थिति के एगो कैप्शन लिहल जाला।</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>हमरा पता बा कि ई का बहाल करी</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>कैप्शन के आईडी फेर से लिखीं</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>हँ, वापस लीं</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>रद्द करीं</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>ऊ रन जिनका से पहिले कैप्शन लिहल गइल।</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>चुनीं</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>अबहीं कैप्शन वाला कवनो रन नइखे।</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>लागू भइल माइग्रेशन जवन खुद के वापस ले सकेला (ओकरा में down() बा)।</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>लागू भइल कवनो माइग्रेशन में down() नइखे।</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>पहिले के कैप्शन (जानकार लोग खातिर)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>अबहीं कवनो कैप्शन नइखे।</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>माइग्रेशन चलाईं</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>रन पीछे %user के रूप में चलेला, आ ओकर पन्ना ओकरा के चलत-चलत देखावेला। पहिला माइग्रेशन से पहिले इंस्टॉलेशन के एगो कैप्शन लिहल जाला; कवनो माइग्रेशन फेल भइला पर रन रुक जाला आ कैप्शन बहाल हो जाला।</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>पहिले आजमाइशी रन</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>स्थिति ना पढ़ाइल: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>बाकी माइग्रेशन</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>ई एही क्रम में चलेला। कवनो के, आ जवन ओकरा पर टिकल बा ओकरो के, बाद के रन खातिर छोड़े खातिर टिक हटाईं।</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>चलाईं</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>चलत घरी मेंटेनेंस मोड चालू कर देला।</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>लागू भइला के बाद बदलल</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>ई फाइल ऊ ना हवे जवन लागू भइल रहे। जबले बदलाव कारण के साथे मंजूर ना होई, रन एकरा के नामंजूर करेला; ई फेर से ना चलेला, नया चेकसम दर्ज होला आ कारण ऑडिट लॉग में रखल जाला।</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>बदलाव मंजूर करीं</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>काहे</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>डिफॉल्ट वाला सुरक्षित बा। हर बक्सा एगो कदम छोड़ देला।</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>कैप्शन ना</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>रन के पहिले आ बाद कवनो कैप्शन ना: फेल भइला पर अपने आप बहाल ना हो सकी।</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>बहाली ना</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>फेल भइला के बाद इंस्टॉलेशन के ओइसहीं छोड़ दीं जइसन फेल होखे के बाद रहे।</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>बिना कमिट के बदलाव रखीं</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>सेटिंग, एक्सटेंशन भा डिजाइन में बिना कमिट के बदलाव होखला पर भी चलाईं; ऊ कैप्शन में चल जाला।</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>कमिट ना</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>स्थिति फाइल आ रन लॉग कमिट मत करीं (टैग आ पुश भी ना)।</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>पुश ना</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>कमिट आ टैग करीं, बाकिर पुश मत करीं।</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>टैग ना</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>कमिट आ पुश करीं, बाकिर रन के टैग मत करीं।</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>हँ, ई माइग्रेशन अबहीं चलाईं</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>कवनो माइग्रेशन बाकी नइखे।</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>स्थिति पर वापस</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>एह इंस्टॉलेशन के बदलाव, एक बेर फाइल के रूप में लिखल (कंटेंट, क्लास, रोल, सेटिंग, स्कीमा) आ साइट के हर इंस्टॉलेशन पर एके क्रम में लागू कइल। एगो रन पहिले कैप्शन लेला, कवनो माइग्रेशन फेल भइला पर ओकरा के बहाल करेला, आ जवन कइलस ओकरा के दर्ज, कमिट आ पुश करेला।</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>%count बाकी चलाईं</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>सरसरी नजर</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>बाकी</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>पूरा</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>फेल</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>जरूरत नइखे</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>डेटाबेस</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>ट्रांजैक्शन: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>साइट के माइग्रेशन migrations/ में बा, एक्सटेंशन के extension/&lt;name&gt;/migrations/ में। ई अपना नाम के क्रम आ जरूरत के हिसाब से चलेला।</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>पिछला रन</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>लागू भइला के बाद फाइल बदल गइल।</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>अबहीं कवनो माइग्रेशन नइखे। ./console exp:migration:generate --skeleton &lt;name&gt; --apply पहिला वाला लिखेला।</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>नयका रन</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>हर रन</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>अबहीं कवनो रन नइखे।</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>रन सिमुलेट करे खातिर migration/run नीति चाहीं।</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>एगो रन चल रहल बा: खतम भइला पर सिमुलेट करीं।</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>सेटअप</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target एह इंस्टॉलेशन के ना त रन ह, ना माइग्रेशन, ना कैप्शन।</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>पहिले “हँ, वापस लीं” पर टिक करीं।</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>पहिले के कैप्शन बहाल कइल जानकार लोग खातिर बा: “हमरा पता बा कि ई का बहाल करी” पर टिक करीं।</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>कैप्शन के आईडी फेर से लिखीं: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>बहाल करे खातिर कम से कम एगो हिस्सा चुनीं।</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>एह रन से पहिले कवनो कैप्शन ना लिहल गइल: एकर माइग्रेशन एक-एक कर के वापस लीं, भा पहिले के कवनो कैप्शन बहाल करीं।</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>ई माइग्रेशन अपने से वापस ना लिहल जा सकेला: ई लागू नइखे, भा एकरा में down() नइखे।</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>फॉर्म ना पढ़ाइल।</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>फेर से चालू करे खातिर रन चुनीं।</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>पहिले “हँ, ई माइग्रेशन अबहीं चलाईं” पर टिक करीं।</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>कम से कम एगो माइग्रेशन चुनीं।</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>एगो माइग्रेशन लागू भइला के बाद बदल गइल: कारण के साथे बदलाव मंजूर करीं, भा फाइल पहिले जइसन कर दीं।</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>बदलल माइग्रेशन काहे मंजूर होत बा, एकर कारण बताईं।</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>कारण ज्यादा से ज्यादा 500 अक्षर के हो सकेला।</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>इहाँ शुरू भइल एगो रन अबहीं चल रहल बा (%detail)। ओकरा खतम होखे के इंतजार करीं।</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>दोसर रन इंस्टॉलेशन के लॉक पकड़ले बा: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>रन खातिर एगो मौजूद, साइन इन कइल यूजर चाहीं।</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>php के कमांड लाइन प्रोग्राम ना मिलल। migration.ini [AdminSettings] PhpCliPath में ओकर पूरा पाथ सेट करीं।</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open बंद बा, एह से इहाँ रन शुरू ना हो सकेला। सर्वर पर ./console exp:migration:migrate --apply चलाईं।</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>रन वाला फोल्डर में लिखल ना जा सकेला: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>रन शुरू भइल बाकिर आपन प्रोसेस आईडी ना बतवलस। %detail जाँचीं।</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>बताईं कि का वापस लेवे के बा।</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>रन शुरू ना हो सकल।</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>बदलाव के रिकॉर्डिंग</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>जब ले रिकॉर्डिंग चलत बा, रउआ प्रशासन में भा साइट के साइडबार में जवन बदलीं ऊ एगो माइग्रेशन के चरण के रूप में राखल जाला: सामग्री, क्लास, भूमिका आ नीति, सेक्शन, उपयोगकर्ता आ समूह, URL उपनाम, सेटिंग। काम पूरा भइला पर एकरा के रोकीं, देखीं एकरा का पकड़ाइल, आ एकरा से एगो माइग्रेशन बनाईं।</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>रिकॉर्डिंग पढ़ल ना जा सकल: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>रिकॉर्डिंग के तालिका अबहीं नइखे: पहिले अपग्रेड चलाईं (exp:upgrade --apply)।</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>migration.ini में रिकॉर्डिंग बंद बा ([RecordingSettings] Recording=disabled)।</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>हमार बदलाव</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>रउआ रोके ले खाली उहे रिकॉर्ड करेला जवन रउआ बदलीं, जहाँ भी बदलीं।</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>रिकॉर्डिंग</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>%time से, अबले %count बदलाव।</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>लेबल (मरजी से)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>देखाईं एकरा का पकड़ाइल</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>रिकॉर्डिंग रोकीं</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>हमार बदलाव के रिकॉर्डिंग शुरू करीं</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>पूरा साइट के खिड़की</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>बंद होखे ले हर उपयोगकर्ता आ कंसोल के हर बदलाव रिकॉर्ड करेला। खोले घरी रउआ से पुष्टि माँगल जाला कि ई रउए बानी।</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>खुलल</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>खिड़की बंद करीं</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>पूरा साइट के खिड़की खोलीं</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>रिकॉर्डिंग सब</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>उपयोगकर्ता के खाता (लॉगिन, ई-मेल, पासवर्ड) आ उपयोगकर्ता खाता के फील्ड कबो रिकॉर्ड ना होखे।</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>बदलाव सब</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>पूरा साइट</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>%name के बदलाव</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>रुकल</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>अबहीं कवनो रिकॉर्डिंग नइखे।</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>रिकॉर्डिंग %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>सगरी रिकॉर्डिंग</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>एकरा से बने वाला माइग्रेशन</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>हर बदलल चीज खातिर एगो चरण में समेटल बदलाव: एह रिकॉर्डिंग से बनल माइग्रेशन का करी।</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>जब एह इंस्टॉलेशन में YAML चरण प्रकार %types होई तब एकरा से माइग्रेशन बनावल जा सकी।</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>जान-बूझ के छोड़ल: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>कुछुओ रिकॉर्ड ना भइल।</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>एकरा का पकड़ाइल</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>%count बदलाव, ओही क्रम में जवना में भइल।</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>बदलाव</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>चरण</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>संबंधित</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>अउरी %count: ./console exp:migration:record:show सब के सूची देला।</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>छोड़ दीं</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>रिकॉर्डिंग आ जवन पकड़ाइल ओकरा के हटा देला। जवन बदलल ऊ बदलले रहेला।</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>हँ, ई रिकॉर्डिंग छोड़ दीं</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>रिकॉर्डिंग चलत बा…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>रउआ बदलाव एगो माइग्रेशन खातिर रिकॉर्ड हो रहल बा।</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>एह साइट के हर बदलाव एगो माइग्रेशन खातिर रिकॉर्ड हो रहल बा (पूरा साइट के खिड़की)।</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>पूरा साइट के रिकॉर्डिंग शुरू भइल: रउआ रोके ले हर उपयोगकर्ता के हर बदलाव रिकॉर्ड होई।</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>रिकॉर्डिंग शुरू भइल: रउआ रोके ले रउआ बदलाव रिकॉर्ड होई।</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>रिकॉर्डिंग रुकल। जवन पकड़ाइल ऊ छोड़े ले रही।</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>रिकॉर्डिंग आ ओकर घटना हटा दिहल गइल।</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>कवनो रिकॉर्डिंग %id नइखे।</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>पहिले "हँ, ई रिकॉर्डिंग छोड़ दीं" पर निशान लगाईं।</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>सत्र रिकॉर्डिंग खाली उहे उपयोगकर्ता रोक सकेला जे रिकॉर्ड कइले बा।</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>रोके खातिर रिकॉर्डिंग चुनीं।</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>एह तरह के रिकॉर्डिंग पहिले से चलत बा।</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>रिकॉर्डिंग बदलल ना जा सकल: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>माइग्रेशन बनाईं</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>माइग्रेशन के नाम (वैकल्पिक)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>माइग्रेशन %file लिखा गइल। जवन बदलाव कवनो चरण ना कर सके, ओकनी के नाम फाइल के ऊपर बा, हाथ से करे के बा।</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>कवनो माइग्रेशन ना लिखाइल: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>हिस्सा-हिस्सा में एगो लमहर रन</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>खाली फील्ड migration.ini [RunSettings] के सेटिंग रखेला।</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>अधिकतम एतना माइग्रेशन</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>एकरा बाद अउरी माइग्रेशन ना (सेकंड)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>माइग्रेशन के बीच ठहराव (सेकंड)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>कम प्राथमिकता (1 से 19)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>लमहर रन के फील्ड 1 से शुरू पूर्ण संख्या हवे (ठहराव: 0 से 60 सेकंड, प्राथमिकता: 1 से 19), भा खाली।</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>ई %time पर अपने आप बंद हो जाला।</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>एतना के बाद अपने आप बंद करीं (मिनट, वैकल्पिक)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>मिनट 1 से 44640 (31 दिन) तक के पूर्ण संख्या हवे, भा खाली।</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>माइग्रेशन %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>नया माइग्रेशन</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>एगो YAML माइग्रेशन: एकरा टेक्स्ट के रूप में लिखीं भा फॉर्म में एकर चरण बनाईं, जाँचीं, फेर कवनो माइग्रेशन फ़ोल्डर में सहेजीं।</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>ई माइग्रेशन पहिलहीं चल चुकल बा, एह से फेर से ना सहेजाई: बदलल फ़ाइल के चेकसम सुरक्षा नामंजूर कर दी। बदलाव कवनो नया माइग्रेशन में करीं।</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>वेब सर्वर फ़ाइल ना लिख सके।</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>ऊपर के टिप्पणी वाला लाइन हेडर हवे (description, author, requires, environments, engines)। जब फॉर्म में कवनो चरण जोड़ल भा बदलल जाला, त माइग्रेशन फेर से लिखल जाला: चरणन के बीच के टिप्पणी ना बचे।</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>माइग्रेशन के नाँव</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>कहाँ जाई</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>साइट</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>YAML टेक्स्ट</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>जाँचीं</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>सहेजीं</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>चरण</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>कुंजी</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>बदलीं</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>ऊपर ले जाईं</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>नीचे ले जाईं</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>हटाईं</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>अबहीं कवनो चरण नइखे: फॉर्म से एगो जोड़ीं, भा टेक्स्ट में लिखीं।</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>चरण %number बदलीं</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>एगो चरण जोड़ीं</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>कवनो चरण के फॉर्म ओकरा चरण के प्रकार से बनेला: ओकर कुंजी, हर कुंजी का लेला आ ऊ कवना मोड के हवे।</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>चरण के प्रकार</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>एकर फॉर्म देखाईं</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>चरण में अइसन कुंजी बा जेकरा के ओकर प्रकार ना जाने; चरण बदलला पर ऊ छूट जाई: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>मोड</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>में</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>खाली %modes में</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>डिफ़ॉल्ट: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>शर्त, संदर्भ आ टिप्पणी</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>नाँव=मान जोड़ी, कॉमा से अलग। एह चरण के मान: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>उदाहरण</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>चरण बदलीं</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>चरण जोड़ीं</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>exp:migration:check का कहेला: हेडर, दस्तावेज आ हर चरण, ओकरा चरण के प्रकार से जाँचल।</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>माइग्रेशन जाँच में पास बा।</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>पूर्वावलोकन</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>YAML, जइसे ई सहेजाई।</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>YAML देखाईं</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>YAML माइग्रेशन</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>चल चुकल बा</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>अबहीं कवनो YAML माइग्रेशन नइखे।</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>संपादक</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>माइग्रेशन फ़ोल्डरन में कवनो YAML माइग्रेशन %id नइखे।</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>चरण के प्रकार चुनीं।</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>चरण जोड़ दिहल गइल। सहेजे से पहिले माइग्रेशन जाँचीं।</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>चरण बदल दिहल गइल। सहेजे से पहिले माइग्रेशन जाँचीं।</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>एगो चरण चुनीं।</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>एह चरण के कवनो फॉर्म नइखे (एगो लूप, भा अइसन चरण प्रकार जे एह इंस्टॉलेशन में नइखे): एकरा के टेक्स्ट में बदलीं।</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>चुनीं कि माइग्रेशन कहाँ जाई: साइट भा कवनो सक्रिय एक्सटेंशन।</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>%file सहेजाइल। माइग्रेशन चले से पहिले आजमाइशी रन चलाईं।</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>ना सहेजाइल: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>रिमोट सभ</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>ऊ दोसर इंस्टॉलेशन, जिनका पर ई इंस्टॉलेशन आपन माइग्रेशन डिप्लॉय करेला: एगो डिप्लॉय माइग्रेशन चुनल रिमोट सभ पर भेजेला आ उहाँ चलावेला, सब एके बेर आ एक साथ। रिमोट में कबो कवनो गोपनीय मान ना रहे: ओकर क्रेडेंशियल सेटअप &gt; गोपनीय मान में से एगो के नाँव बतावेला।</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>नया रिमोट</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>मदद</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>%id के कनेक्शन परीक्षण</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>रिमोट सभ</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>एके बेर में %parallel रिमोट ले पर काम होला; हर एक पर एगो दौर %timeout सेकंड ले ले सकेला।</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>रिमोट</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>पता</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>क्रेडेंशियल</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>समूह</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>सुधारे वाला सेटिंग</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>खाली फाइल (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>SSH कुंजी</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>पासवर्ड</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>कुछ ना (होस्ट के SSH एजेंट आ कुंजी)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>कनेक्शन के परीक्षण करीं</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>कवनो समूह पर डिप्लॉय ओकरा हर रिमोट पर जाला।</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>रिमोट सभ पर डिप्लॉय करीं</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>अबहीं कवनो रिमोट सेट नइखे।</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>रिमोट %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>इहाँ कुछुओ भेजल भा चलावल ना जाला: “सहेजीं” सेटिंग के settings/override/migration.ini.append.php में लिखेला। क्रेडेंशियल एगो नाँव ह; ओकर मान सेटअप &gt; गोपनीय मान में भा माहौल में रहेला।</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>ई सेटिंग जाँचीं</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>सेटिंग जइसे भरल गइल, अबहीं सहेजल नइखे।</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>समीक्षा</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>सेटिंग सही बा। ई लाइन लिखल जाई:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>ट्रांसपोर्ट</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>बस एगो नाँव; मान सेटअप &gt; गोपनीय मान में रहेला</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>ऊ लाइन जवन लिखल जाई</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>कनेक्शन</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>होस्ट कुंजी</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. रिमोट</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>रिमोट के नाँव का बा आ ऊ कवन माहौल ह।</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>आईडी</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>अक्षर, अंक, - आ _, जइसे production1। ई रिपोर्ट में आ कंसोल पर (--remotes=production1) रिमोट के नाँव होला आ बाद में बदलल ना जा सके।</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... पड़ाव वाला डिप्लॉय एही क्रम में माहौल से होके गुजरेला।</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>मरजी से, कॉमा से अलग, जइसे production। कवनो समूह पर डिप्लॉय ओकरा हर रिमोट पर जाला।</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. कनेक्शन</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>फाइल उहाँ कइसे पहुँचेला, आ इंस्टॉलेशन कहाँ बा।</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>SSH पर, खाली जवन बदलल, टूटल ट्रांसफर फेर से चालू। जहाँ rsync इंस्टॉल बा, उहाँ सबसे बढ़िया चुनाव।</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>फाइल खातिर scp के साथे SSH।</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>फाइल खातिर sftp के साथे SSH।</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>खाली फाइल: माइग्रेशन भेजल आ फेर से पढ़ल जाला, बाकिर उहाँ चलावल ना जा सके।</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>TLS पर FTP; खाली फाइल।</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>एही सर्वर पर, कवनो फ़ोल्डर में, दोसर इंस्टॉलेशन।</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>होस्ट</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>होस्ट के नाँव भा पता, जइसे node1.example.com। local खातिर ना।</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>पोर्ट</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>कुछ ना भरला पर: SSH खातिर 22, FTP खातिर 21।</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>उपयोगकर्ता</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>पथ</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>उहाँ इंस्टॉलेशन के रूट, जइसे /var/www/site (FTP खातिर: ऊ पथ जवन FTP खाता देखेला)।</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>PHP कमांड लाइन</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>उहाँ के PHP CLI: php, भा पूरा पथ जइसे /opt/plesk/php/8.4/bin/php।</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>उहाँ कंसोल स्क्रिप्ट root के रूप में चलेला</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>खाली तब, जब रिमोट के उपयोगकर्ता root होखे (तब ऊ --allow-root-user के साथे चलेला)।</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. क्रेडेंशियल</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>ई इंस्टॉलेशन उहाँ कइसे साइन इन करेला। खाली एगो नाँव सहेजल जाला।</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>कवनो ना</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>ओह उपयोगकर्ता के SSH एजेंट आ कुंजी, जेकरा रूप में ई इंस्टॉलेशन चलेला (आ local खातिर हरदम)।</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>गोपनीय मान के रूप में रखल निजी कुंजी।</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>गोपनीय मान के रूप में रखल पासवर्ड (FTP एकरे से साइन इन करेला)।</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>गोपनीय मान के नाँव</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>सेटअप &gt; गोपनीय मान में से एगो गोपनीय मान, जइसे deploy_production1।</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>सेटअप &gt; गोपनीय मान</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>भा माहौल के एगो वेरिएबल</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>सर्वर प्रोसेस के ऊ वेरिएबल जवना में ई रहेला, जइसे DEPLOY_KEY (env:DEPLOY_KEY के रूप में सहेजल)। ई गोपनीय मान के नाँव के जगह लेवेला।</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. होस्ट कुंजी</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>मरजी से, SSH, sftp आ rsync खातिर।</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>होस्ट कुंजी के फिंगरप्रिंट</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... जइसे ssh-keygen -l देखावेला। एकरा साथे, होस्ट के इहे कुंजी देखावे के पड़ी; एकरा बिना, पहिला संपर्क पर कुंजी सीख लिहल जाला।</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. समीक्षा</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>ऊपर के सेटिंग से कनेक्शन के परीक्षण करीं, फेर ऊ लाइन सभ के समीक्षा करीं जवन लिखल जाई।</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>ई रिमोट हटाईं</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>एकर सेटिंग settings/override/migration.ini.append.php से हटा दिहल जाला। रिमोट पर कुछुओ ना बदले, आ एकर डिप्लॉय इतिहास में रहेला।</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>हँ, ई रिमोट हटाईं</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>डिप्लॉय सभ</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>एगो डिप्लॉय एह इंस्टॉलेशन के माइग्रेशन चुनल रिमोट सभ पर भेजेला आ उहाँ %user के रूप में चलावेला, सब एके बेर आ एक साथ: पहिले हर रिमोट के जाँच होला, आ जब एगो फेल होला, त जवना-जवना रिमोट पर लागू भइल रहे, सब वापस लिहल जाला। ई बैकग्राउंड में चलत रहेला, आ एकर पेज चलत-चलत हर रिमोट देखावेला।</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. रिमोट सभ</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>रिमोट, एगो समूह, भा दूनो पर टिक करीं।</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>एह पर डिप्लॉय करीं</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. कइसे</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>डिप्लॉय करीं</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>भेजीं आ चलाईं</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>माइग्रेशन हर रिमोट पर एगो साझा रन आईडी के साथे भेजल, जाँचल आ चलावल जाला।</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>खाली ट्रांसफर</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>फाइल भेजल आ जाँचल जाला, कुछुओ चलावल ना जाला (FTP रिमोट खातिर एके गो तरीका)।</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>पड़ाव में</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>माहौल के क्रम में पड़ाव-दर-पड़ाव (dev, stage, beta, production ...): पहिला पड़ाव डिप्लॉय होला, फेर एगो गेट तब ले इंतजार करेला जब ले केहू अगिला के मंजूर ना करे। हर पड़ाव के भीतर सब कुछ भा कुछुओ ना।</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>खाली ई माइग्रेशन</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>मरजी से: माइग्रेशन आईडी, कॉमा से अलग। कुछ ना भरला पर: साइट आ ओकर एक्सटेंशन के हर माइग्रेशन।</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>खाली पहिले के जाँच</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>हँ, अबहीं डिप्लॉय करीं</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>ऊ डिप्लॉय जवन कुछ भेजलस भा चलवलस, सबसे नया पहिले (पहिले के जाँच कवनो रिपोर्ट ना रखे)।</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>खाली ट्रांसफर</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>पड़ाव में, %stages पड़ाव</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>सिंक से बाहर</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>अबहीं कवनो डिप्लॉय नइखे।</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>डिप्लॉय %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>डिप्लॉय के हर रिमोट, ओकर स्थिति के साथे। इहाँ शुरू भइल डिप्लॉय ई पेज बंद भइला पर भी बैकग्राउंड में चलत रहेला; ओकरा के देखत रहे खातिर पेज फेर से खोलीं।</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>सगरी डिप्लॉय</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>पहिले के जाँच</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>अगिला पड़ाव</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>सेटिंग आ क्रेडेंशियल के जाँच हो रहल बा</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>पहिले के जाँच: हर रिमोट के स्थिति पढ़ल जा रहल बा</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>माइग्रेशन फाइल भेजल जा रहल बा</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>जवन पहुँचल ओकर जाँच हो रहल बा</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>हर रिमोट पर माइग्रेशन चल रहल बा</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>रिमोट सभ वापस लिहल जा रहल बा</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>डिप्लॉय खतम हो गइल। एकर रिपोर्ट लोड हो रहल बा।</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>प्रगति ना देखल जा सकल। डिप्लॉय के हाल देखे खातिर पेज फेर से लोड करीं।</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>दौर</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>ई पेज डिप्लॉय के चलत-चलत देखत रहेला।</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>सिंक में</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>पड़ाव सभ</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>पड़ाव %stage अपना गेट पर इंतजार करत बा</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>गेट %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>%user द्वारा %time पर मंजूर</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>पड़ाव</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>भेजल फाइल</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>कर्नेल संस्करण</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>लागू भइल: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>लागू करे के बा: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>दौर सभ</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>गेट: %stages में से पड़ाव %stage</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>एकरा से पहिले के पड़ाव डिप्लॉय हो गइल बा। ओकनी के जाँचीं, फेर अगिला पड़ाव मंजूर करीं: ओकर रिमोट सभ फेर से जाँचल आ डिप्लॉय कइल जाला, सब कुछ भा कुछुओ ना।</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>अगिला</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>हँ, अगिला पड़ाव अबहीं डिप्लॉय करीं</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>मंजूर करीं</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>ई डिप्लॉय वापस लीं</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>जवना-जवना रिमोट पर ई लागू भइल (%list), ऊ सब अपना रन से पहिले लिहल कैप्शन पर लवट जाला, सब एके बेर।</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>हँ, ई डिप्लॉय अबहीं वापस लीं</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>योजना में</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>ट्रांसफर भइल</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>डिप्लॉय भइल</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>एगो गेट पर इंतजार करत बा</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>चुनल</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>तइयार</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>तइयार</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>अपना पड़ाव के इंतजार करत बा</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>फाइल भेजाइल</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>जाँचल गइल</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>फेल भइल, अपने आप बहाल भइल</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>बिना बदलाव</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>डिप्लॉय ना भइल</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>पहुँच से बाहर</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>रिमोट जवाब दिहलस।</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>रिमोट अबहीं इस्तेमाल ना हो सके।</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done पूरा, %pending बाकी, %failed फेल</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>लॉक</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>उहाँ एगो रन लॉक पकड़ले बा</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>खाली</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stages में से %stage</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>जाँचे खातिर रिमोट चुनीं।</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>पहिले “हँ, ई रिमोट हटाईं” पर टिक करीं।</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>रिमोट ना हटावल जा सकल: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>रिमोट ना सहेजल जा सकल: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>सेटिंग फाइल पढ़ल ना जा सकेला: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>कम से कम एगो रिमोट भा समूह चुनीं।</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>चुनल एगो रिमोट अब सेटिंग में नइखे। पेज फेर से लोड करीं।</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>पहिले “हँ, अबहीं डिप्लॉय करीं” पर टिक करीं।</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>FTP रिमोट माइग्रेशन ना चला सके: “खाली ट्रांसफर” चुनीं, भा एकरा के छोड़ दीं।</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>डिप्लॉय करे वाला माइग्रेशन माइग्रेशन आईडी होला, कॉमा से अलग।</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>डिप्लॉय अबहीं चल रहल बा। एकरा खतम होखे के इंतजार करीं।</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>ई डिप्लॉय कवनो गेट पर इंतजार ना करे।</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>कवनो रिमोट पर ई डिप्लॉय लागू ना भइल: वापस लेवे खातिर कुछ नइखे।</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>पहिले “हँ, अगिला पड़ाव अबहीं डिप्लॉय करीं” पर टिक करीं।</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>पहिले “हँ, ई डिप्लॉय अबहीं वापस लीं” पर टिक करीं।</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>%id आईडी वाला रिमोट पहिले से बा।</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>पोर्ट 1 से 65535 तक के एगो संख्या होला।</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>माहौल अक्षर, अंक, - आ _ से बनल एगो शब्द होला (alpha, dev, stage, beta, production ...)।</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>समूह अक्षर, अंक, - आ _ से बनल एगो शब्द होला (all ना): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>क्रेडेंशियल अबहीं ना पढ़ाइल: %problem। पहिला डिप्लॉय से पहिले एकरा के सेटअप &gt; गोपनीय मान में सहेजीं (भा वेरिएबल सेट करीं)।</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>FTP रिमोट खाली फाइल लेवेला: ओकरा पर डिप्लॉय “खाली ट्रांसफर” होला, आ ओकर माइग्रेशन उहाँ हाथ से चलावल जाला।</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>रिमोट %id settings/override/migration.ini.append.php में नइखे; जहाँ ई सेट बा, उहाँ से हटाईं।</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>FTP पर साइन इन भइल आ index.php पढ़ल गइल। FTP रिमोट के माइग्रेशन स्थिति ना पढ़ल जा सके।</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>बदलल</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>बनावल गइल</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>नाँव</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>वर्ग</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>खंड</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>बनावे वाला</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>हाल के सामग्री</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>पूरा साइट के सबसे हाल में बनावल आ बदलल सामग्री, नयका पहिले: आवे वाला लोग का भेजल, समीक्षा खातिर का रोकल गइल बा, कवन ड्राफ़्ट छपे के इंतजार में बा। आइटम चुन के ओकरा के रोक से छोड़ीं, रोकीं, लुकाईं, देखाईं, हटाईं भा दोसरा खंड भा स्थिति में ले जाईं।</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>सूची ना पढ़ल जा सकल: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>समीक्षा रोक अबहीं सेट अप नइखे, एह से कुछुओ ना रोकल जाला आ रोके वाला कार्रवाई ना मिलेला। अपग्रेड चरण 6.0.15-review-hold एकरा के सेट अप करेला: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>सूची फ़िल्टर करीं</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>से</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>ले</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>तारीख</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>बनावल गइल (पहिला बेर छपल)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>सब</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>स्थिति</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>प्रकाशित</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>ड्राफ़्ट, कबो ना छपल</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>बाकी (मंजूरी भा कवनो तारीख के इंतजार में)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>कूड़ादान में</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>समीक्षा खातिर रोकल</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>रोकल</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>ना रोकल</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>लुकावल</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>देखाई देवे वाला</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>भेजे के तारीख</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>कवनो साइट एक्सेस</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>खाली उहे जवन ऑडिट दर्ज कइलस।</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>अबहीं: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>एगो लॉगिन भा यूजर आईडी।</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>फ़िल्टर करीं</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>फ़िल्टर हटाईं</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>आइटम सब</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%count में से %from से %to</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>कवनो आइटम ना</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(%ms ms में पढ़ल गइल)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>चुनल आइटम पर कार्रवाई</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>एह पन्ना पर सब चुनीं</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>%count चुनल गइल</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>कार्रवाई</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>एगो कार्रवाई चुनीं</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>रोक हटाईं</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>समीक्षा खातिर रोकीं</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>लुकाईं</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>देखाईं</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>कूड़ादान में ले जाईं</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>मेटाईं</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>खंड सौंपीं</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>स्थिति सौंपीं</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>कारण</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>रोके खातिर जरूरी; रोक के साथे आ ऑडिट में राखल जाला।</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>एगो खंड चुनीं</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>स्थिति</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>एगो स्थिति चुनीं</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>चुनल पर लागू करीं</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>हर आइटम के जाँच रउआ आपन अनुमति से कइल जाला। कूड़ादान में ले जाए आ मेटावे से पहिले पुष्टि माँगल जाला। %count से बेसी आइटम पीछे (बैकग्राउंड में) चलेला।</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>चुनीं</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>प्रकाशन</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>इहाँ से भेजल गइल</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>%name चुनीं</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>अबहीं ना</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(कवनो नाँव ना)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>आईडी %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>ड्राफ़्ट</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>बाकी</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>आपन पैरेंट से लुकावल</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>रोकल: नया भेजल</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>संस्करण %version बाकी</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>संस्करण %version पर काम चल रहल बा</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>ड्राफ़्ट, संस्करण %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>संस्करण %version प्रकाशित</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>%date खातिर तय</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>कवनो पता ना</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>दर्ज ना</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>एह फ़िल्टर से कुछुओ मेल ना खाला।</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>सब देखाईं</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>अबहीं ले कवनो सामग्री नइखे।</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>हर पन्ना पर</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>हर पन्ना पर %count आइटम देखाईं।</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says "not recorded".</source>
+        <translation>भेजल चीज के पता आ ब्राउज़र ऑडिट इंडेक्स से आवेला, जवन इहाँ नइखे: कॉलम में "दर्ज ना" लिखल रहेला।</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>पता आ ब्राउज़र उहे बा जवन ऑडिट आइटम खातिर दर्ज कइलस (अपने से लागे वाला रोक एकरा के हमेशा दर्ज करेला; छापल आ बनावल खाली जहाँ चालू होखे), जइसे ओकर गोपनीयता सेटिंग ओकरा के राखेला।</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: %count आइटम</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>मेटवला से आइटम आपन सब संस्करण आ अनुवाद के साथे हमेशा खातिर हट जाला। एकरा के वापस ना कइल जा सके।</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>आइटम कूड़ादान में जाला, जहाँ से ओकरा के फेर से बहाल कइल जा सकेला।</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>हर आइटम के जाँच रउआ आपन अनुमति से कइल जाला; जवना आइटम में उप-आइटम बा ओकरा के ओइसहीं छोड़ दिहल जाला (ओकरा के सामग्री संरचना में हटाईं)। रउआ से पुष्टि करे के कहल जाई कि ई रउए बानी।</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>ई पीछे (बैकग्राउंड में) चलेला: एकर प्रगति पन्ना खुलेला, आ पूरा भइला पर हर आइटम के नतीजा देखावल जाला।</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>चुनल आइटम</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>आ %count अउरी</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>रद्द करीं</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>कुछुओ ना कइल गइल</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>कारण: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>कार्रवाई अबहिंयो पीछे चल रहल बा।</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>एकर प्रगति</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>पीछे चले वाला कार्रवाई फेल हो गइल: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>पूरा भइल</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>नामंजूर</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>फेल</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>हर आइटम</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>आइटम</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>नतीजा</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>काहे</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>सूची पर वापस</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>सेटअप</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>कुछुओ ना कइल गइल</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>पुष्टि करीं</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>एगो कार्रवाई चुनीं।</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>कम से कम एगो आइटम चुनीं।</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>एक बेर में ढेर से ढेर 1000 आइटम चुनीं।</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>बताईं कि आइटम काहे रोकल गइल बा।</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>खंड चुनीं।</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>स्थिति चुनीं।</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>फ़ॉर्म ना पढ़ल जा सकल।</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>डैशबोर्ड</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>हाल के सामग्री</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>गिनती ना पढ़ल जा सकल: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>समीक्षा खातिर रोकल</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>आज नया</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>समीक्षा रोक अबहीं सेट अप नइखे (अपग्रेड चरण 6.0.15-review-hold)।</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>हाल के सगरी सामग्री</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>रउआ मॉडरेशन कार्रवाई ना चला सकीं (moderation/act)।</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>मॉडरेशन कार्रवाई पूरा ना भइल: %errors।</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>मॉडरेशन: %count ऑब्जेक्ट पर %action</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%total में से %done ऑब्जेक्ट: %ok पूरा, %refused नामंजूर, %failed फेल</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok पूरा, %refused नामंजूर, %failed फेल</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>ई अब मौजूद नइखे।</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>एकर कवनो जगह नइखे (छपल नइखे)।</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>रउआ एकरा के लुका ना सकीं (content/hide)।</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>रउआ एकरा के देखा ना सकीं (content/hide)।</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>ई पहिलहीं से लुकावल बा।</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>ई लुकावल नइखे।</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>लुका दिहल गइल।</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>देखा दिहल गइल।</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>ई कूड़ादान में बा: उहँवे एकरा के खाली करीं भा फेर से बहाल करीं।</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>जवन ड्राफ़्ट कबो ना छपल ऊ कूड़ादान में ना जा सके: ओकरा के मेटाईं।</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>रउआ एकरा के मेटा ना सकीं (content/remove)।</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>मेटा दिहल गइल।</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>रउआ एकरा के हटा ना सकीं (content/remove)।</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>एकरा में उप-आइटम बा: एकरा के सामग्री संरचना में हटाईं, जहाँ ऊ सूची में बा।</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>ई ना हटावल गइल (कवनो वर्कफ़्लो हटावे के रोक सकेला)।</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>कूड़ादान में ले जाइल गइल।</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>खंड मौजूद नइखे।</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>ई पहिलहीं से एह खंड में बा।</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>रउआ ई खंड ना सौंप सकीं (section/assign)।</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>खंड ना सौंपल गइल।</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>खंड सौंपल गइल।</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>स्थिति मौजूद नइखे।</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>ई पहिलहीं से एह स्थिति में बा।</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>रउआ ई स्थिति ना सौंप सकीं (state/assign)।</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>स्थिति ना सौंपल गइल (कवनो वर्कफ़्लो बदलाव के रोक सकेला)।</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>स्थिति सौंपल गइल।</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>अइसन कवनो कार्रवाई नइखे।</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>समीक्षा रोक सेट अप नइखे (अपग्रेड चरण 6.0.15-review-hold)।</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>बताईं कि ई काहे रोकल गइल बा।</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>ई पहिलहीं से रोकल बा।</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>रउआ एकरा के रोक ना सकीं (state/assign)।</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>रोक ना लगावल गइल (कवनो वर्कफ़्लो बदलाव के रोक सकेला)।</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>रोक दिहल गइल।</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>ई रोकल नइखे।</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>रउआ एकरा के छोड़ ना सकीं (state/assign)।</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>रोक ना हटावल गइल (कवनो वर्कफ़्लो बदलाव के रोक सकेला)।</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>छोड़ दिहल गइल; अबहिंयो लुकावल बा: रउआ एकरा के देखा ना सकीं (content/hide)।</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>छोड़ दिहल गइल।</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>सब गंतव्य</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>आखिरी प्रकाशन</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>GitHub Pages पर अपना साइट के एगो मुफ्त स्टैटिक कॉपी प्रकाशित करीं:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>पुरान पन्ना</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>स्टैटिक प्रकाशन</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>स्टैटिक प्रकाशन बंद बा।</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>गंतव्य</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>गंतव्य ना पढ़ाइल: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>एगो काम चल रहल बा</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>जाँच खातिर बिल्ड</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>एकरा के लुकाईं</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>एगो गंतव्य बनाईं</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>कबो ना</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>ट्यूटोरियल पढ़ीं</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>%added जोड़ाइल, %changed बदलल, %removed हटावल गइल</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%limit में से %bytes (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>%count अउर सूची में नइखे।</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>%pages पन्ना लिखाइल</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path के आकार %size बा, जवन होस्ट एगो फाइल खातिर जेतना अनुमति देला ओकरा से जादा बा।</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>सीमा के %percent %</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds से.</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag ऊ प्रकाशन ह जवन साइट पर अबहीं बा।</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: काम %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>GitHub प्रोजेक्ट साइट खातिर /रिपॉजिटरी/; कस्टम डोमेन भा यूजर साइट खातिर खाली।</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. साइट</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. होस्ट</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. रिपॉजिटरी में साइन इन</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. रिपॉजिटरी</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. लिंक आ बेस पाथ</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. रउआ आपन डोमेन</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. बिल्ड में का रहेला</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. कब प्रकाशित होला</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. समीक्षा आ सहेजल</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>GitHub प्रोजेक्ट साइट /&lt;repository&gt;/ के नीचे रहेला; रिलेटिव लिंक उहाँ आ कहीं अउर काम करेला।</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>एगो बिल्ड %site के हर पन्ना ओइसहीं ले आवेला जइसे साइन इन ना कइल आगंतुक देखेला, लिंक दोबारा लिखेला, फाइल कॉपी करेला आ नतीजा गंतव्य के फ़ोल्डर में लिखेला। जबले रउआ बिल्ड जाँच के प्रकाशित करीं ना दबाइब, तबले कुछुओ प्रकाशित ना होला।</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>एगो cron एक्सप्रेशन, जइसे 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>डिप्लॉय की गोपनीय मान %secret के रूप में रखल बा।</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>डिप्लॉय की एह इंस्टॉलेशन के SSH से बस एगो रिपॉजिटरी में पुश करे देला, अउर कहीं ना। एकर निजी हिस्सा सेटअप &gt; गोपनीय मान में रहेला; बस सार्वजनिक हिस्सा देखावल जाला।</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>एह गंतव्य खातिर बनावल डिप्लॉय की</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>डिप्लॉय की SSH से साइन इन करेला: git पता के SSH वाला पता में बदलीं (git@github.com:owner/repo.git)।</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>एगो काम चल रहल बा, %user शुरू कइले बाड़न</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>एह गंतव्य के एगो काम अबहीं चल रहल बा (%detail)। ओकरा खतम होखे तक इंतजार करीं।</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>एह गंतव्य के एगो काम अबहीं चल रहल बा। ओकरा खतम होखे तक इंतजार करीं।</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>/news/ पन्ना से /about-us/team पन्ना तक के लिंक अइसे लिखल जाई</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>एगो नया डिप्लॉय की बनल। ओकर सार्वजनिक हिस्सा अबहीं रिपॉजिटरी में जोड़ीं।</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>साफ कइला के बाद भी जवना पन्ना पर डीबग आउटपुट, फॉर्म टोकन भा सेशन आईडी रहेला, ऊ कबो प्रकाशित ना होला।</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>रोलबैक जानकार लोग खातिर बा: &quot;हमरा पता बा कि एकरा से का बदली&quot; पर टिक करीं आ टैग के नाँव फेर से लिखीं।</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>एगो साइट %site तक, एगो फाइल %file तक हो सकेला, महीना में लगभग 100 GB ट्रैफिक के साथे। मुफ्त प्लान पर रिपॉजिटरी सार्वजनिक होखे के चाहीं। GitHub Pages दोकान भा दोसर व्यापारिक लेन-देन खातिर नइखे।</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>गंतव्य एगो git रिपॉजिटरी में प्रकाशित एगो साइट ह। एहिजा कुछुओ बिल्ड भा प्रकाशित ना होला: सहेजीं सेटिंग के settings/override/staticcache.ini.append.php में लिखेला।</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>गंतव्य एगो जगह प्रकाशित एगो साइट ह, जइसे GitHub Pages पर रउआ सार्वजनिक साइट।</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>सेटअप &gt; गोपनीय मान से एगो टोकन</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>रिपॉजिटरी के एगो वर्कफ्लो एकरा के प्रकाशित करेला।</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>एह सार्वजनिक की के लिखे के अनुमति के साथे रिपॉजिटरी में जोड़ीं। GitHub: Settings &gt; Deploy keys &gt; Add deploy key, Allow write access पर टिक करीं।</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>जोड़ल गइल</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>कवनो दोसर git होस्ट</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>एह गंतव्य पर कवनो दोसर प्रोसेस काम कर रहल बा: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>पाछे</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>बेस पाथ</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>पहिले</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>बेस पाथ के नीचे</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>ब्रांच</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>टूटल लिंक</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>बिल्ड में टूटल लिंक</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>बिल्ड</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>बिल्ड %id, %user द्वारा</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>%name बिल्ड करीं</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>अबहीं बिल्ड करीं</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>जाँच खातिर बिल्ड</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>के द्वारा</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>हाथ से, एहिजा</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>रद्द करीं</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>बदलीं</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>बदलल</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>बदलाव</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>पहिले एकरा के जाँचीं</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>ई सेटिंग जाँचीं</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>जाँचीं कि बिल्ड का बदलेला, ओकरा के देखीं, फेर प्रकाशित करीं भा फेंक दीं।</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>जवना प्रकाशन पर वापस जाए के बा, ऊ चुनीं।</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>बाद के कवनो रिलीज में आई।</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>कमिट</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>कमिट सभ</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>बिल्ड के कमिट करेला, टैग लगावेला आ %remote पर पुश करेला। पुश कबो जबरदस्ती ना होला; बाद में रउआ कवनो प्रकाशन पर वापस जा सकीले।</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>पहिले के फ़ोल्डर से तुलना: %added जोड़ाइल, %changed बदलल, %removed हटावल, %unchanged बिना बदलाव।</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>आखिरी प्रकाशन से तुलना कइल गइल।</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>क्रेडेंशियल</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>कस्टम डोमेन</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>डीबग आउटपुट, फॉर्म टोकन, सेशन आईडी आ nonce हमेशा हटा दिहल जाला।</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>डिप्लॉय की</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>%name के डिप्लॉय की</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>फेंक दीं</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>बिल्ड फेंक दीं</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>डोमेन</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>खाली: साइट के पता। ना त ओही साइट के एगो भीतरी पता।</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>खतम भइल</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>हर लिंक बेस पाथ से शुरू होला।</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>हर प्रकाशन static/%id/&lt;n&gt; टैग वाला एगो कमिट ह। वापस गइला से पहिले के प्रकाशन के फाइल के साथे एगो नया कमिट बनेला: इतिहास बनल रहेला, कवनो टैग ना खिसकेला आ कुछुओ जबरदस्ती ना होला।</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>अतिरिक्त</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>पन्ना ले आवे के पता</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>फाइल</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>फाइल सभ</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>गायब फाइल</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>फाइल के स्रोत</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>जवन फाइल जुटावल ना जा सकल</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>फिंगरप्रिंट</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>फ़ोल्डर</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>SSH पता खातिर। की सहेजला के बाद बनेला; रउआ ओकर सार्वजनिक हिस्सा रिपॉजिटरी में जोड़ीं।</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>https:// पता खातिर। GitHub: रिपॉजिटरी पर Contents पढ़े आ लिखे वाला एगो fine-grained टोकन।</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>जानकार लोग खातिर। पुश पूरा होते सार्वजनिक साइट बदल जाला।</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>फॉर्म</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>GitHub रिपॉजिटरी से मुफ्त होस्टिंग।</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>ब्रांच से</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>Git पता</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages %site के साइट आ %file के फाइल के अनुमति देला।</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>GitHub Pages के सीमा</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages फाइल के जस के तस प्रकाशित करेला (_ से शुरू होखे वाला फाइल खातिर जरूरी)।</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub ब्रांच के ओइसहीं परोसेला जइसे ऊ पुश भइल। डिफ़ॉल्ट।</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, रउआ आपन सर्वर: कवनो git रिपॉजिटरी।</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>पहिले के कवनो प्रकाशन पर वापस जाईं</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>मदद</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>विज़ार्ड में मदद</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>ओह सभ के लुकाईं</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>इतिहास</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>%name के इतिहास</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>होस्ट</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>GitHub Pages बिल्ड के कइसे पावेला</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>हम बदलाव जाँच लेले बानी</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>हमरा पता बा कि एकरा से का बदली</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>आईडी</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>ई बंद बा: चालू होखे तक कुछुओ बिल्ड ना हो सकेला।</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>ई बैकग्राउंड में %user के रूप में चलेला; रउआ ई पन्ना बंद कर सकीले।</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>काम %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>गोपनीय मान %secret के रूप में रखल बा।</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>प्रकार</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>आखिरी प्रकाशन</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>ई पन्ना छोड़ दीं</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>ई सेक्शन छोड़ दीं</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>लिंक</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>दोबारा लिखल लिंक</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>लाइव साइट</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>बिल्ड देखीं</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>छोट अक्षर, अंक, _ आ -, जइसे github-public। ई फ़ोल्डर आ टैग (static/&lt;id&gt;/&lt;n&gt;) के नाँव देला आ बाद में बदलल ना जा सकेला।</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>नया की बनाईं</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>गंतव्य बनाईं</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>की बनाईं</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>पहिले होस्ट पर रिपॉजिटरी बनाईं; खाली रिपॉजिटरी चल जाई।</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>मैनिफेस्ट</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>संदेश</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>जादातर पन्ना</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>नाँव</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>सेटअप &gt; गोपनीय मान में टोकन के नाँव</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>नया गंतव्य</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>अगिला</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>ना</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>अबहीं कवनो कमिट नइखे।</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>कवनो की ना बनल: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>कवनो php कमांड लाइन बाइनरी ना मिलल। migration.ini [AdminSettings] PhpCliPath में ओकर पूरा पाथ सेट करीं।</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>अबहीं कवनो टैग नइखे।</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>अबहीं कवनो गंतव्य नइखे।</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>कवनो ना</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>बिल्ड में नइखे।</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>अबहीं कुछुओ प्रकाशित ना भइल।</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>अबहीं कुछुओ प्रकाशित ना भइल: हर फाइल नया बा।</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>सूचना</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>समय-सारणी से</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>कंसोल पर</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>सर्वर पर: ./console exp:static:serve %id एकरा के ओही तरह परोसेला।</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>हर लाइन में एगो पाथ, * कवनो हिस्सा से मेल खाला: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>गंतव्य के साथे बस एगो नाँव रखल जाला; टोकन भा की खुद सेटअप &gt; गोपनीय मान में रहेला आ कबो लॉग में ना देखाई देला।</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>बस उहे जवना के पन्ना नाँव लेला</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>बस टोकन के साथे। env:NAME एकरा बदले सर्वर के एगो एनवायरनमेंट वेरिएबल पढ़ेला।</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>पूर्वावलोकन खोलीं</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>बिल्ड के ओइसहीं खोलेला जइसे होस्ट परोसी, गंतव्य के फ़ोल्डर से। लिंक रउआ खातिर एक घंटा काम करेला।</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>वैकल्पिक। खाली: जवन प्रकाशित भइल।</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>वैकल्पिक। डोमेन के साथे साइट ओकर रूट पर परोसल जाला।</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>आउटपुट</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>पन्ना</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>गंतव्य के पन्ना</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>नामंजूर पन्ना</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>पोस्ट-प्रोसेसिंग</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>पूर्वावलोकन</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>पूर्वावलोकन आ प्रकाशन</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>%name के पूर्वावलोकन आ प्रकाशन</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>बिल्ड के पूर्वावलोकन</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>प्रगति</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>सार्वजनिक पता</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>सार्वजनिक की</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>प्रकाशित करीं</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>कवनो साइट के स्टैटिक कॉपी GitHub Pages भा कवनो git होस्ट पर प्रकाशित करीं: बिल्ड करीं, बदलाव जाँचीं, प्रकाशित करीं, आ जरूरत पड़े त पहिले के प्रकाशन पर वापस जाईं।</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>वापस जाए खातिर प्रकाशन</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>प्रकाशन सभ</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>पुश</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>ट्यूटोरियल पढ़ीं</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>रिकॉर्ड</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>नामंजूर</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>रिलेटिव</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>फेर से लोड करीं</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>हटावल गइल</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>की बदलीं: पुरान वाला काम कइल बंद कर दी</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>रिपोर्ट</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>बिल्ड के रिपोर्ट</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>रिपॉजिटरी</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>समीक्षा</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>समीक्षा हर सेटिंग जाँचेला आ ऊ लाइन देखावेला जवन लिखल जाई। अबहीं कुछुओ सहेजल नइखे।</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>वापस लीं</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>रोलबैक</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>सहेजीं</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>समय-सारणी</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>खोज पन्ना</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>सेक्शन आईडी, कॉमा से अलग।</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>ओह सभ के लाइव साइट पर भेजीं</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>सेटिंग</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>सेटिंग सभ</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>%name के सेटिंग</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>सेटअप</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>सेटअप &gt; गोपनीय मान</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>सूची में देखावल जाला, जइसे &quot;GitHub Pages पर सार्वजनिक साइट&quot;।</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>GitHub App से साइन इन GitHub इंटीग्रेशन के साथे आई।</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>साइट</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>प्रकाशित करे खातिर साइट</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>आकार</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>आकार आ सीमा</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>बिल्ड के आकार</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>पुरान पन्ना</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>शुरू भइल</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>%user %time पर शुरू कइलें।</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>स्थिति</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>स्टैटिक प्रकाशन</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>स्टैटिक प्रकाशन बंद बा</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>स्टैटिक प्रकाशन बंद बा।</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>स्टैटिक प्रकाशन बंद बा। पहिले सेटअप &gt; स्टैटिक प्रकाशन में एकरा के चालू करीं।</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>स्टैटिक प्रकाशन चालू बा।</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>%total में से चरण %step</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>चरण</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>सफाई</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>बंद करीं</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>चालू करीं</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>स्टैटिक प्रकाशन चालू करीं</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>टैग</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>टैग सभ</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>गंतव्य</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>गंतव्य बनावल आ बदलल जा सकेला, बाकिर चालू होखे तक कुछुओ बिल्ड भा प्रकाशित ना होला।</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>सर्च इंजन के बतावेला कि का पढ़े के बा।</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>बिल्ड फेंकल ना जा सकल: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>बिल्ड आखिरी प्रकाशन जइसन बा: प्रकाशित करे खातिर कुछुओ नइखे।</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>बिल्ड फेंक दिहल गइल: फ़ोल्डर में फेर से आखिरी प्रकाशन बा।</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>डिफ़ॉल्ट मान जादातर साइट खातिर ठीक बा।</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>फ़ोल्डर में एगो बिल्ड बा जवन अबहीं प्रकाशित नइखे; नया बिल्ड ओकर जगह ले ली।</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>काम सभ के फ़ोल्डर में लिखल ना जा सकेला: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>काम तइयार ना हो सकल: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>काम शुरू ना हो सकल।</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>काम खतम हो गइल। ओकर रिपोर्ट लोड हो रहल बा।</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>काम खातिर साइन इन कइल यूजर चाहीं।</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>काम शुरू भइल बाकिर ओकर प्रोसेस आईडी ना बतवलस। %detail जाँचीं।</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>की</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>सबसे बड़ फाइल: %path, %size।</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>ऊ लाइन जवन लिखल जाई</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>सर्च इंजन खातिर पन्ना के सूची; सार्वजनिक पता चाहीं।</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>पन्ना ओइसहीं ले आवल जाला जइसे साइन इन ना कइल आगंतुक देखेला। प्रशासन आ संपादन वाला siteaccess कबो ना देखावल जाला।</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>प्रगति के पीछा ना हो सकल। काम कइसन चल रहल बा देखे खातिर पन्ना फेर से लोड करीं।</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>की के सार्वजनिक हिस्सा:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>ब्रांच के रूट</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>गोपनीय भंडार अबहीं सेट नइखे (./console exp:upgrade --apply ओकर टेबल बनावेला), एह से कवनो की रखल ना जा सकेला।</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>सर्वर अपने से साइन इन करेला (अपना SSH की भा क्रेडेंशियल हेल्पर से), भा रिपॉजिटरी एही सर्वर पर बा।</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>सेटिंग लिखल ना जा सकल: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>सेटिंग सही बा। ई लाइन लिखल जाई:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>सेटिंग फाइल पढ़ल ना जा सकेला: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>साइट ओह प्रकाशन के फाइल पर वापस चल जाला; जवन बिल्ड अबहीं प्रकाशित नइखे, ओकरा के पहिले प्रकाशित करे के भा फेंके के होई।</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>जवन पता मौजूद नइखे, ओह खातिर साइट के आपन पन्ना।</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>गंतव्य सहेजल ना जा सकल: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>गंतव्य अबहीं एह की से साइन इन ना करेला: ओकर सेटिंग में &quot;एह गंतव्य खातिर बनावल डिप्लॉय की&quot; चुनीं।</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>गंतव्य ना पढ़ाइल: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>अबहीं जाँच खातिर कवनो बिल्ड नइखे।</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>एह इंस्टॉलेशन में कवनो फ्रंट siteaccess नइखे। प्रशासन आ संपादन वाला siteaccess कबो प्रकाशित ना होला।</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>ई पन्ना काम के चलत-चलत पीछा करेला; पन्ना बंद भइला पर ऊ बैकग्राउंड में चलत रहेला।</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>एह गंतव्य लगे अबहीं कवनो डिप्लॉय की नइखे।</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>ई गंतव्य एहिजा अबहीं बिल्ड नइखे भइल।</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>एह गंतव्य लगे एगो बा।</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>एह बिल्ड के फेंक देला: फ़ोल्डर में फेर से आखिरी प्रकाशन रहेला। लाइव साइट ना बदलेला।</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>पहिले &quot;हम बदलाव जाँच लेले बानी&quot; पर टिक करीं।</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>समय</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>ट्रिगर</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>टैग के नाँव फेर से लिखीं</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>बिना बदलाव</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>वेबहुक</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>का</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>का बदलेला</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>हर फाइल का ह; हमेशा लिखल जाला।</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>काम का कइलस आ ओकर रिकॉर्ड। एहिजा शुरू भइल काम ई पन्ना बंद भइला पर बैकग्राउंड में चलत रहेला।</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>काम गलती के रूप में का छपलस</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>जवना के पन्ना नाँव लेला, आ प्रकाशित सामग्री के हर छवि</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>कब</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>जब कवनो प्रकाशन फेल होला</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>जब कवनो प्रकाशन सफल होला</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>जब सामग्री प्रकाशित होला</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>जवन चीज कॉपी में नइखे, ओकर लिंक कहाँ जाला (खोज, लॉगिन)।</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>स्टैटिक कॉपी कहाँ से परोसल जाला।</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>कवन साइट प्रकाशित होला, आ गंतव्य के का नाँव बा।</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>कवनो पाथ के नीचे काम करेला। डिफ़ॉल्ट।</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>जब भी कस्टम डोमेन सेट होला, लिखल जाला।</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>हँ</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>रउआ हमेशा एहिजा आ कंसोल पर हाथ से बिल्ड आ प्रकाशित कर सकीले।</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>बस एगो नाँव; मान सेटअप &gt; गोपनीय मान में रहेला</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>%path के नीचे</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>बिना रिपोर्ट के खतम भइल</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>अतिरिक्त</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>फेल</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>फाइल</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages, भा docs फ़ोल्डर के साथे main।</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>git होस्ट</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (टोकन के साथे) भा git@github.com:owner/repo.git (डिप्लॉय की के साथे); एह में कबो पासवर्ड भा टोकन ना।</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/, साइटमैप आ कैनोनिकल लिंक खातिर।</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>छवि</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>कबो ना</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ना</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>कवनो रिमोट ना</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>कुछ ना: कमिट फ़ोल्डर में रहेला</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>कुछ ना: कुछुओ ना बदलल</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>पुश ना भइल</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>कुछुओ ना बदलल</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>पन्ना</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>सफल</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>proc_open बंद बा, एह से एहिजा कवनो काम शुरू ना हो सकेला। सर्वर पर ./console exp:static:build चलाईं।</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>प्रकाशन</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>प्रकाशित</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>पुश बाकी</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>पुश भइल</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>नामंजूर</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>रिलेटिव</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>रोलबैक</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>वापस लिहल गइल</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>चल रहल बा</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>बस फ़ोल्डर</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: CNAME फाइल में लिखल जाला। डोमेन के DNS के होस्ट के ओर ओइसहीं मोड़ीं जइसे होस्ट बतावेला; HTTPS चालू होखे में कुछ समय लाग सकेला।</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>हँ, अबहीं प्रकाशित नइखे</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>एगो GitHub App</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>रिपॉजिटरी के एगो वर्कफ्लो एकरा के प्रकाशित करेला। बिल्ड वर्कफ्लो फाइल लिखेला; फोल्डर खाली छोड़ दीं।</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>GitHub रिपॉजिटरी आ टोकन भा GitHub App के साथे गंतव्य सहेजला के बाद, ई चरण रिपॉजिटरी बना सकेला आ GitHub Pages चालू कर सकेला। ना त पहिले GitHub पर रिपॉजिटरी बनाईं; खाली रिपॉजिटरी चल जाई।</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>ब्रांच कि GitHub Actions?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>DNS जाँचीं</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>रिपॉजिटरी ना होखे त बनाईं</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>GitHub पर रिपॉजिटरी बनाईं आ ओकर सेटिंग में GitHub Pages चालू करीं (Settings &gt; Pages)।</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>रिपॉजिटरी %repo ना होखे त (कहला पर) बनावेला, सहेजल मुताबिक ब्रांच से भा GitHub Actions से GitHub Pages चालू करेला, आ कस्टम डोमेन आ HTTPS सेट करेला। ई सहेजल सेटिंग के इस्तेमाल करेला: पहिले बदलाव सहेजीं।</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>GitHub पर विवरण</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>पहिले कस्टम डोमेन डालीं।</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>हर push के पहिले एह सीमा से जाँचल जाला।</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>GitHub पर https:// पता खातिर। एह इंस्टॉलेशन खातिर सेट कइल App साइन इन करेला; ओकरा इंस्टॉलेशन id चाहीं।</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages निजी रिपॉजिटरी के खाली पेड प्लान पर परोसेला।</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: सबडोमेन (www.example.com) के &lt;owner&gt;.github.io खातिर CNAME रिकॉर्ड चाहीं; एपेक्स डोमेन (example.com) के A रिकॉर्ड %ips।</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>GitHub App के इंस्टॉलेशन id</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>Pages के आखिरी बिल्ड</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>सीमा आ शर्त</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>मुफ्त प्लान पर GitHub Pages खातिर जरूरी।</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>GitHub पर</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>खाली GitHub App के साथे: GitHub पर App के इंस्टॉलेशन के पता के आखिर में लिखल नंबर। App खुद staticcache.ini में सेट होला (GitHubAppId, GitHubAppKey)।</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>निजी</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>सार्वजनिक</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>पहिले GitHub रिपॉजिटरी आ टोकन भा GitHub App के साथे गंतव्य सहेजीं।</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>ई रिकॉर्ड डोमेन के प्रदाता के इहाँ सेट करीं:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>GitHub पर सेटअप करीं</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>%domain के DNS अबहीं GitHub Pages ओर इशारा ना करेला।</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>%domain के DNS GitHub Pages ओर इशारा करेला।</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>GitHub इंटीग्रेशन इहाँ उपलब्ध नइखे: %problem। ब्रांच पर प्रकाशन तबो काम करेला; रिपॉजिटरी के सेटिंग में GitHub Pages चालू करीं।</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>एह गंतव्य खातिर GitHub चरण उपलब्ध नइखे: %problem।</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>GitHub Pages के स्थिति तब देखावल जाला जब क्रेडेंशियल टोकन भा GitHub App होखे।</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>आपन डोमेन इस्तेमाल करीं</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>का चुनीं: टोकन, डिप्लॉय की भा GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>GitHub रिपॉजिटरी आ टोकन भा GitHub App के साथे, विजार्ड रउआ खातिर रिपॉजिटरी बना सकेला, GitHub Pages चालू कर सकेला आ डोमेन सेट कर सकेला (चरण 4)।</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>बिल्ड हो रहल बा</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>बिल्ड हो गइल</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>GitHub Actions से</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>ब्रांच %branch से</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>अबहीं कवनो ना</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>ना मिलल</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>बंद</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>निजी</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>सार्वजनिक</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>कतार में</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>अनजान</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%count, %pages पन्ना में:</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>हर टेक्स्ट फाइल के बगल में एगो .gz (आ .br) फाइल, ओह होस्ट खातिर जे ओकरा के परोसेला।</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>पन्ना के हर पुरान पता आ उपनाम खातिर एगो छोट पन्ना, ताकि पुरान लिंक चलत रहे।</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>जब GitHub Actions साइट पहुँचावेला त हमेशा लिखल जाला।</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>CC-BY-4.0 जइसन एगो SPDX आईडी, भा खुद पाठ।</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>टोकरी</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>सर्वर पर कॉल</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>टिप्पणी</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>जानकारी जुटावे वाला फॉर्म</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>GitHub Actions वर्कफ़्लो</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>पन्ना में कम खाली जगह आ कवनो टिप्पणी ना।</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>सामग्री के लाइसेंस</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>लॉगिन</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>छोट करीं</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>दोसर फॉर्म</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>पहिले संपीड़ित करीं</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>रीडायरेक्ट पन्ना</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>रीडायरेक्ट पन्ना: %count।</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>खोज</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>खोज सूची: %languages में %pages पन्ना।</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>स्टाइल शीट आ स्क्रिप्ट जेकर नाँव ओकर सामग्री के हैश से धइल बा, ताकि ब्राउज़र ओकरा के राख सकसु।</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>बदलल पन्ना, आखिरी बदलाव के कुछ मिनट बाद (cronjob हिस्सा staticpublish)।</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>सामग्री के लाइसेंस, नीचे के फील्ड से।</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>पूरा साइट, समय-सारणी के समय पर (cronjob हिस्सा staticpublish)।</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>पन्ना के ई हिस्सा के सर्वर चाही; हर एक के विकल्प मिलल बा। प्रकाशित करे से पहिले ओकरा के जाँच लीं।</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>जे स्थिर रूप से काम ना करेला</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>रिपॉजिटरी का हवे, ओकरा के होस्ट पर खोले वाला खातिर।</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>छोड़ल गइल</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>विकल्प पाठ</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>लाइव साइट के फॉर्म एंडपॉइंट</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>लाइव साइट</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>प्रति के खोज पन्ना</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>फॉर्म भेजल ना जा सकल।</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>धन्यवाद: फॉर्म भेजल गइल।</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>फॉर्म स्वीकार ना भइल: जवन भरनी ओकरा के जाँच के फेर से भेजीं।</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>कॉपी में ना रहे वाला पन्ना के लिंक हटाईं</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>प्रशासन में जाए वाला लिंक हटाईं</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>ओकर पाठ रह जाला। फोटो, फॉर्म आ दोसर साइट के लिंक कबो ना हटावल जाला।</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>संस्करण</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>प्रकाशित करे खातिर साइट एक्सेस</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>साइट एक्सेस</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>रूट पर</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>रूट पर कवनो साइट एक्सेस नइखे: हर एक आपन फोल्डर में बा, आ रूट ओह सब के लिंक देला</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>साइट एक्सेस</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>एगो साइट एक्सेस चुनीं, भा कई गो जे अपना URI उपसर्ग से एगो होस्ट बाँटेला। रूट वाला ओहिजे परोसल जाला, बाकी अपना उपसर्ग के फोल्डर में (/ger/); ओह सब के बीच के लिंक कॉपी में रहेला। प्रशासन के साइट एक्सेस कबो ना देखावल जाला।</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>%site पर %target के स्टैटिक प्रकाशन फेल हो गइल</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>%site पर %target के स्टैटिक प्रकाशन सफल हो गइल</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>ई मेल %site भेजले बा काहे कि स्टैटिक प्रकाशन लक्ष्य %target एकरा के माँगेला।</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>%site पर डिप्लॉय %deploy फेल हो गइल</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>%site पर डिप्लॉय %deploy एगो गेट पर इंतजार करत बा</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>%site पर डिप्लॉय %deploy सफल हो गइल</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>ई मेल %site भेजले बा, काहे कि migration.ini [RemoteSettings] Notify[] एकर माँग करेला।</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>डेटा प्रकार (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>%time पर गिनल गइल, %minutes मिनट बाद फेर से</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>एगो डेटा प्रकार वर्ग विशेषता के एक तरह के मान के रखेला आ संपादित करेला: टेक्स्ट के एगो लाइन, एगो फोटो, एगो संबंध। कर्नेल ढेर सारा देला, एक्सटेंशन अउरी जोड़ेला। इहाँ सभे बा, के एकनी के देला आ केतना सामग्री एकनी के इस्तेमाल करेला। जवन डेटा प्रकार डेटाबेस इस्तेमाल करेला बाकिर अब कुछुओ ओकरा के पंजीकृत ना करेला, ऊ ओह सामग्री के तोड़ देला जवना में ऊ बा।</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>वर्ग समूह</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>पिछला कुछ मिनट के गिनती के बजाय अबहीं फेर से गिनीं।</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>फेर से गिनीं</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>झलक</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>पंजीकृत</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>इस्तेमाल में</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>इस्तेमाल ना भइल</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>डेटा प्रकार देवे वाला एक्सटेंशन</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>वर्ग विशेषता</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>ऑब्जेक्ट विशेषता</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>पंजीकृत नइखे</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>सूची में बा, फाइल नइखे</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>%count डेटा प्रकार इस्तेमाल में बा बाकिर पंजीकृत नइखे</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>%class_attributes वर्ग विशेषता आ %object_attributes ऑब्जेक्ट विशेषता के अइसन डेटा प्रकार बा जेकरा के कवनो एक्सटेंशन भा सेटिंग पंजीकृत ना करेला। एकनी के ऑब्जेक्ट देखावल, संपादित भा प्रकाशित ना कइल जा सकेला। डेटा प्रकार देवे वाला एक्सटेंशन चालू करीं, भा वर्ग बदलीं।</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>खाली इहे देखाईं</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>डेटा प्रकार खोजीं</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>पहचानकर्ता, नाम, PHP वर्ग भा एक्सटेंशन।</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>देखाईं</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>सभ</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>देवे वाला</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>सभ</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>कर्नेल</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>एह फिल्टर से कवनो डेटा प्रकार मेल ना खाला।</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>सभ देखाईं</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>एक्सटेंशन</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%count डेटा प्रकार में से %shown, %used इस्तेमाल में</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>डेटाबेस में एह डेटा प्रकार सभ के वर्ग भा ऑब्जेक्ट विशेषता बा, बाकिर content.ini में एकनी में से कवनो नइखे, भा ओकर फाइल नइखे।</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>%provider के डेटा प्रकार</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>डेटा प्रकार</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>PHP वर्ग आ फाइल</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>वर्ग</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>ऑब्जेक्ट</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>फ़्लैग</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>कवनो ना</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>खोज से कवनो डेटा प्रकार मेल ना खाला। खोज साफ करीं।</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>%count डेटा प्रकार में से %shown देखावल गइल</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>देखावल डेटा प्रकार: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>%column के हिसाब से क्रम से लगाईं</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>%time पर गिनल गइल</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>सभ डेटा प्रकार</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>मदद पन्ना</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>ई डेटा प्रकार इस्तेमाल में बा बाकिर पंजीकृत नइखे</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>जबले कवनो एक्सटेंशन डेटा प्रकार के पंजीकृत ना करी, तबले नीचे के वर्ग सभ के ऑब्जेक्ट देखावल, संपादित भा प्रकाशित ना कइल जा सकेला। एकरा के देवे वाला एक्सटेंशन चालू करीं आ एकरा के content.ini [DataTypeSettings] AvailableDataTypes[] में जोड़ीं, भा वर्ग बदलीं।</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini में ई डेटा प्रकार बा, बाकिर कवनो डेटा प्रकार डायरेक्टरी में एकर फाइल नइखे। कुछुओ एकरा के इस्तेमाल ना करेला; एकरा के AvailableDataTypes[] से हटाईं भा एकर एक्सटेंशन चालू करीं।</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>एह डेटा प्रकार के बारे में</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>पहचानकर्ता</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>नाँव</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>एक्सटेंशन %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>केहू ना</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>PHP क्लास</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>फ़ाइल</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>AvailableDataTypes[] में</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>हँ</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ना</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>एकरा मान के कॉलम</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>एकरा वर्ग विशेषता सेटिंग के कॉलम</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>तालिका</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>कॉलम आ टेबल डेटा प्रकार के कोड पढ़ के मिलल बा: ई एगो गाइड बा, वादा ना।</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>टेम्पलेट</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>साइट एक्सेस</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>टेम्पलेट</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>एजा मिलल</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>ई प्रशासन</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>डिफ़ॉल्ट साइट</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>ओवरराइड के बिना: वर्ग भा विशेषता से मेल खाए वाला ओवरराइड टेम्पलेट एकनी पर भारी पड़ेला।</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>एकरा के इस्तेमाल करे वाला वर्ग (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>कवनो वर्ग में एह डेटा प्रकार के विशेषता नइखे।</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>वर्ग</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>विशेषता</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>वर्ग विशेषता (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>विशेषता</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>सेटिंग</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>जरूरी</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>खोजे जोग</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>अनुवाद लायक</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>जानकारी जुटावेला</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>एकरा के इस्तेमाल करे वाला कुछ सामग्री</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>आखिरी बदलल पहिले</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>बदलल</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>नोड %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>हर अनुवाद के आपन मान होला।</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>खोज एकरा मान सभ के इंडेक्स करेला।</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>ई आगंतुक लोग से जानकारी जुटा सकेला (फॉर्म)।</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>एकरा से सूची क्रम में लगावल जा सकेला: क्रम कुंजी %type।</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>क्रम से लगावे जोग</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>एकर मान दोसर ऑब्जेक्ट के ओर इशारा करेला।</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>संबंध</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>एकरा के सादा टेक्स्ट से भरल जा सकेला (आयात, REST)।</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>टेक्स्ट से</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>एकरा के फाइल से भरल जा सकेला।</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>फाइल से</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>एकर वर्ग विशेषता सेटिंग पैकेज में जाला।</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>पैकेज</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>सामग्री (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%count में से %from से %to तक</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>सूची फ़िल्टर करीं</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>सभ वर्ग</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>खंड</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>भाषा</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>मालिक</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>प्रकाशित</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>क्रम उलट दीं</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>कवनो आइटम ना</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>हर पन्ना पर</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>हर पन्ना पर %count आइटम देखाईं।</translation>
     </message>
 </context>
 </TS>

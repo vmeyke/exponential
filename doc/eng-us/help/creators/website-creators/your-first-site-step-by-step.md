@@ -27,7 +27,7 @@ real site, read [Choosing an install method](choosing-an-install-method.md) afte
 
 ## Before you start
 
-You need PHP 8.1 or newer on the command line, Composer 2 and Git
+You need PHP 8.0 or newer (PHP 7.4 usable without support) on the command line, Composer 2 and Git
 ([Requirements](../../../install/02-requirements.md)). Run every command from the installation root, the directory
 that holds `index.php`, as your own user (not `root`).
 
@@ -47,7 +47,7 @@ Check: `ls index.php kernel settings` lists all three.
 administrator `admin` and a generated password ([The console install](../../../install/07-console-install.md)):
 
 ```bash
-php bin/php/console exp:install --url=http://127.0.0.1:8088
+php bin/php/console exp:install --apply --url=http://127.0.0.1:8088
 ```
 
 Check: the summary at the end says "Exponential is installed" and shows the password once. Write it down; it is also
@@ -58,7 +58,7 @@ in `var/log/initial-admin-password` (readable only by you) until you delete that
 
 ```bash
 composer require se7enxweb/exponential-velocity
-php bin/php/console exp:velocity config set ServerSettings Engine qbix
+php bin/php/console exp:velocity config set --apply ServerSettings Engine qbix
 php bin/php/console exp:velocity start
 php bin/php/console exp:velocity status
 ```
@@ -110,7 +110,7 @@ when you are done.
 
 | You see | Do |
 |---|---|
-| `composer install` refuses your PHP | install PHP 8.1 or newer ([2.2 PHP](../../../install/02-requirements.md#22-php)) |
+| `composer install` refuses your PHP | install PHP 8.0 or newer (PHP 7.4 usable without support) ([2.2 PHP](../../../install/02-requirements.md#22-php)) |
 | The install stops in `SystemCheck` | read the printed fix; usually a missing PHP extension or permission |
 | A maintenance page instead of the site | `php bin/php/maintenance.php status`, then `off` |
 | Errors about files that cannot be written | you ran a command as `root`; see [12. Troubleshooting](../../../install/12-troubleshooting.md) |

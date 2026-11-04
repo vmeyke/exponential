@@ -984,6 +984,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>Xët wii rekk lañuy seet: %from ba %to ci %count.</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Xeetu done bu nekk ci xol bi ak yokkute yi, ak naka la klaas yi ak ëmbit li koy jëfandikoo.</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Xeetu done yi</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2316,6 +2324,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>Mën nga denc xëti sistem it ci màndarga: ubbil xët bi (Defar, téereb saytu bi, limu jëfandikukat yi ...) te tànn Denc xët wii ci màndarga ci kawam. Màndarga yooyu am nañu nataalu jumtukaay.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>Amatoo sañ-sañ ubbi xët wii fii. Dindil màndarga ji, walla laajal saytukat sañ-sañu dugg.</translation>
     </message>
 </context>
 <context>
@@ -5165,6 +5177,210 @@
         <source>Go to the first page</source>
         <translation>Dem ci xët bu njëkk bi</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>Yeneen</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>Ñetti fan ak ñaar yu mujj</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>Diir bu nga tànn</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>Baat yépp</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>Benn baat</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>Kàddu gu wóor</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>Jokkoo</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>Tur A–Y</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>Tur Y–A</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>Soppi nañu ko, yu bees yi jëkk</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>Soppi nañu ko, yu yàgg yi jëkk</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>Siiwal nañu ko, yu bees yi jëkk</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>Siiwal nañu ko, yu yàgg yi jëkk</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Soppi nañu ko</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>Sef yi</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>Wone sef yi</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>Nëbb sef yi</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Defaraat</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>Jëfandikoo</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>Baat yi</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>Xeetu li ci biir</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>Wone yeneen (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>Tànnal benn xeetu li ci biir ngir seet ci benn ci jikkoom yi.</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Xaaj</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Ci</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Ba</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>Bésu tàmbali bi du bés bu baax.</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>Bésu jeexital bi du bés bu baax.</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Boroom</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>ID jëfandikukat, turu dugg walla adresu e-mail.</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>Gisuñu benn jëfandikukat ngir “%input”.</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Làkk</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>Benn làkk</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Bérab</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>%count bérab</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>Njureef ci xët wu nekk</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>Njureef yu “%text” (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>Njureef yi (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>Toftale ci</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>Toftale</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>Sef yu dox</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>Dindi sef bii</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>Walla tànnal ay sef te jëfandikoo leen ngir wone li ci biir bu ci dëppoo.</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>Sef yi dañuy wàññi seet gi bu nga bindee ay baat.</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>Amul benn njureef ngir “%text”.</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>Amul benn njureef.</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>Dindil benn sef ci kaw.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Tekki yi</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Jëf yi</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>Soppi %name</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Soppi</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -7514,6 +7730,10 @@
         <source>Setup &gt; Cronjobs</source>
         <translation>Setup &gt; Liggéeyu cron yi</translation>
     </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>Benn pàcc liggéeyu cron dawagul ba tey: toflanteb liggéey yi, li ñu indi yi, yégle yi ak indeksu seet bi ñungi xaar. Doxal php bin/php/installcrontab.php --add --apply, walla yokk rëdd yi --show di wone ci crontab bi.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/dashboard/drafts</name>
@@ -8058,8 +8278,8 @@
         <translation>Yégle yi ci sañ-sañu bind bu ñi ko jëkk a bind ak bu prograam yu ñeneen yi nekk ak Exponential, mu ngi ci fisie yi ak ci fisie LICENSE bi, ni ko lisàns bi laajee.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>Lii mooy lim bu ñi bokk ci Exponential te joxal nañu 7x seen liggéey ci dayoy eZ Systems Contributor Licensing Agreement. Ni ko diggante bi nangoo, 7x dafay law benn-benn ci seen yooni liggéey ci lisàns bi fisie bi ñu ko duggal nekk. Lim bi mu ngi tudd kenn-kenn, yëfi jokkoo yu mu bëgg, ak fisie yi mu jàppale.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>Ñi ci jàppale te ñu sargal seen liggéey ci Exponential ak ci prograam bi mu jóge, ak fisye yi ñu ci jàppale. Lii sargal la, du yégle copyright: jàppale yi ñuy def ci Exponential ñu ngi leen jox Exponential Foundation ak 7x ci Contributor Licensing Agreement.</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13881,32 +14101,20 @@ Xamal ne: paket yi dootuñu ñu dindi samp.</translation>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%evaluate_link"&gt;Nattu Exponential Enterprise Edition&lt;/a&gt; - &lt;a href="%share_link"&gt;Nekkal ab cëslaayu mbootaayu Exponential, jëflante te def ay saabal&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; ak yeneen.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class="edition-info"&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>Doxal na ak &lt;span class="edition-info"&gt;%edition&lt;/span&gt;. Ngir yeneen xibaar xoolal &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; ak yeneen.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> Ngir yeneen xibaar xoolal &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
     </message>
     <message>
-        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; ak yeneen.</translation>
+        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href="%evaluate_link"&gt;Nattu Exponential (bu 7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;Nekkal ab cëslaayu mbootaayu Exponential, am ndimbal te def ay saabal&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; ak yeneen.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13915,6 +14123,61 @@ Xamal ne: paket yi dootuñu ñu dindi samp.</translation>
     <message>
         <source>Help center</source>
         <translation>Bérabu ndimbal</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>Li ci biir</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>Xëti dokimaa yi</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>Jëfandikukat yi</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>Klaasu li ci biir yi</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>Wàllu saytu</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>Xët %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>Xool njureef yépp</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>%count njureef</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>Benn njureef</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>%count ndigal</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>Amul ndigal</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>Mënuñu yeb ndigal yi.</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>Ndigal yi</translation>
     </message>
 </context>
 <context>
@@ -14383,6 +14646,14 @@ Xamal ne: paket yi dootuñu ñu dindi samp.</translation>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>Samp bii demo bu mbooloo la: kenn ku nekk mën na xam baatu jàllu saytukat bi, te baatu jàllu saytukat yi mënuñu ñu soppi walla dellu leen. Bul fi dugal dara ju sa bopp.</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Say jumtukaay</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Jëfi kaaraange</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14672,6 +14943,14 @@ Xamal ne: paket yi dootuñu ñu dindi samp.</translation>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>Ndigal yi, seet ak naka nga di yëgle njuumte.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Ëmbit yu bees</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Ëmbit yi gëna bees, li ñu téye ngir saytu, ak jëf yi ci yi ñu tànn.</translation>
     </message>
 </context>
 <context>
@@ -15130,6 +15409,46 @@ Xamal ne: paket yi dootuñu ñu dindi samp.</translation>
         <source>Synchronisations</source>
         <translation>Yemale yi</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>GraphQL API bi: bërëbam bu mujj, tekki bi ak bërëb bu ñuy natte laaj yi.</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Tukkiteef yi</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Coppite yu samp gi yu ñu denc ni dosiye: seen sitiwaasiyoŋ, doxal yi, doxal ak dellu ginnaaw.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Ëmbit yu bees</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Ëmbit yi gëna bees, li ñu téye ngir saytu, ak jëf yi ci yi ñu tànn.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Siiwal benn kopi bu taxaw bu sit ci GitHub Pages walla ci bépp host git.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Siiwal bu taxaw</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Xeetu done yi</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Xeetu done bu nekk ci xol bi ak yokkute yi, ak naka la klaas yi ak ëmbit li koy jëfandikoo.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15294,6 +15613,22 @@ Xamal ne: paket yi dootuñu ñu dindi samp.</translation>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>Kont yu kenn jëfandikoowul walla yu soxla ñu xool leen; fey leen, ubbi leen walla génne leen.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Téereb saytu jëfandikukat yi</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>Ku soppi, ku dugg walla ku ñu gàntal, ci kont bu nekk; sef ak génne.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Rapooru dugg</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>Ñi dugg, dugg yi ak lu antuwul bés bu nekk; génnal jëfandikukat fépp.</translation>
     </message>
 </context>
 <context>
@@ -22110,6 +22445,22 @@ Xamal ne: paket yi dootuñu ñu dindi samp.</translation>
         <source>%n hours ago</source>
         <translation>%n waxtu ba tay</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>Tontu yi laaj yu ñu denc yu GraphQL API, ak xeeti li ci biir yu tekki bi.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>Siiwal benn kopi bu taxaw ci GitHub Pages walla ci bépp host git</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Siiwal bu taxaw</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>Kaas bu taxaw bi dafay joxe xët yi ci serwëer bii. Ngir siiwal benn kopi bu taxaw bu sit feneen, ci GitHub Pages walla ci bépp host git, jëfandikool siiwal bu taxaw.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25651,6 +26002,10 @@ Xamal ne: paket yi dootuñu ñu dindi samp.</translation>
     <message>
         <source>last purge</source>
         <translation>far bu mujj</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>Bind yi mënuñu jël caabiy anam bi (mujj %date): ku nekk def na ba njureef yépp yu ñu denc màggat. %file war na mën a bindu ci jëfandikukat bu nekk bu dal bi di dox ci turam; ci NFS dafa soxla NFSv4 walla lockd.</translation>
     </message>
 </context>
 <context>
@@ -33599,6 +33954,14 @@ Xamal ne: paket yi dootuñu ñu dindi samp.</translation>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>Sesiyoŋ yu jeex yu jëfekatu PHP, PHP boppam mooy dindi leen (session.gc_maxlifetime), du xët bii mbaa pàrtu cronjob session_gc.</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>Rapooru dugg bi dafay lim sesiyoŋ yi dugg yu jëfandikukat bu nekk, te di leen génne; mu ngi liggéey ak bépp jëfekatu sesiyoŋ.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>Ubbi rapooru dugg bi</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37923,6 +38286,26 @@ sa kont.</translation>
     <message>
         <source>None yet</source>
         <translation>Amul ba léegi</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Jëfi kaaraange</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>Sa dugg yu mujj yi, jéem yu antuwul ak coppite yi ci sa baatu jàll, sa adreesu imeel ak sa dugg ci ñaari tappal.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>Dugg yu mujj yi, jéem yu antuwul ak coppitey kaaraange yu kont bii.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>Seetaat jëf yi</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>Dugg yu antuwul: %count</translation>
     </message>
 </context>
 <context>
@@ -44089,6 +44472,42 @@ Su nga bëggee yónni xalaat ci ki koy nangu walla xool xaalaatam, jëfandikoo U
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>Ginnaaw bi mu duggee, jëfandikukat bi war na tànn baatu jàll bu bees balaa mu def beneen lu mu mën. Jëfandikool ko bu nga jox kenn baatu jàll bu yàggul.</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>Tànnal nataal bu fi nekk</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>Fisie nataalu objee bi nga tànn dañu koy sotti ci tool bii. Objee bi ci des du soppiku.</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>Nataalu “%name” sotti nañu ko ci tool bii.</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>Wëndeelu ngir am nataal</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>Seetal ay nataal ci tur</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Seet</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>Jëfandikool nataalu “%name”</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>Jëfandikool nataal bii</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>Amul benn nataal bu dëppoo ak sa seet.</translation>
     </message>
 </context>
 <context>
@@ -51013,6 +51432,10 @@ Xoolal xëtu lu ñu laaj yi ngir yeneen xibaar.</translation>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>Crontab bi bindu ñu ko (%reason). Yokkal rëti yii ci crontab bu jëfandikukat bi sit bi di dox ci moom, lu ko moy toog-toog bi, dugal yi, yégle yi ak tabalu seet bi duñu doon dox mukk:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>Dañuy defaraat ko ak Kickstarter (%file, ginnaaw ga php bin/php/kickstarter.php run --apply) walla ak samp bu bees.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54892,6 +55315,10 @@ sa kont.</translation>
         <source>eZJSCore Public Packer cache</source>
         <translation>Kaasu packer eZJSCore (pùblik)</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>Cache GraphQL (tontu yi ak xeeti tekki bi)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54978,6 +55405,14 @@ sa kont.</translation>
     <message>
         <source>Copy of %class_name</source>
         <translation>Sotti %class_name</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Xeetu done yi</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>Xeetu done %string</translation>
     </message>
 </context>
 <context>
@@ -55804,6 +56239,26 @@ juumte bii. Bu jéemaat yónnee fey bi.</translation>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>Manul a jàng nataal SVG bi, mbaa dara ci biir manul a feeñ ci kaaraange.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>Mënuñu woon a sotti nataal bi. Jéemaatal walla jokkoo ak njiitu sit bi.</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>Objee bi ñu tànn amul walla sañoo koo jàng.</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>Objee bi ñu tànn amul nataal.</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>Mënuñu woon a jàng fisie nataalu objee bi ñu tànn.</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>Nataalu objee bi ñu tànn moo ëpp li tool bii may: %1 bayt.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56334,6 +56789,42 @@ juumte bii. Bu jéemaat yónnee fey bi.</translation>
         <source>The bookmark was renamed to "%name".</source>
         <translation>Soppi nañu turu màndarga bi, mu di «%name».</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>Xët wii dañu koo fey ci buntu sit bii (%siteaccess). Ubbil màndarga ji ci buntu sit bu am xët wii.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>Modilu xët wii sampuñu ko walla taaluñu ko fii.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>Xët wii nekkatul: modil bi amul wone bu ni mel.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>Benn ci say wàll mayu la nga ubbi xët wii.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>Amuloo sañ-sañ jëfandikoo buntu sit bii.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>Amuloo sañ-sañ jàng li ci biir bi xët wii di wone.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>Xët wu mel nii mënul am màndarga: dafay liggéey rekk ci benn formileer, walla xët la wu benn saa rekk.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>Adreesu xët wii amul.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>Xët wii mënul ubbiku léegi.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56805,6 +57296,10 @@ War nga soppi klaasu noo bi ak fonksiyoŋu wuutu bi.</translation>
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>Transporu imeel bi gàntu na %count bataaxal ci dox bu mujj bi. Seetal serwëeru imeel bi ak site.ini MailSettings.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>%count xew-xew ñungi xaar te bindeesul benn dox bu liggéeyu cron bu yégle yi. Yokk pàccu liggéeyu cron «frequent» ci crontab bi, walla doxal exp:notification:run --apply.</translation>
     </message>
 </context>
 <context>
@@ -63061,6 +63556,10 @@ War nga soppi klaasu noo bi ak fonksiyoŋu wuutu bi.</translation>
         <source>Choose another site or section with the node picker</source>
         <translation>Tànn beneen sit walla xaaj ak tànnukaayu noo</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>Saytukatu sistem bi rekk mën a soppi boroom bi: doxal ./console exp:content-check --fix-permissions --apply ni root.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64594,6 +65093,10 @@ War nga soppi klaasu noo bi ak fonksiyoŋu wuutu bi.</translation>
     <message>
         <source>empty</source>
         <translation>amul dara</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>Caabiy xaatimu bi weesu na benn at: soppi ko ak exp:audit key rotate --apply.</translation>
     </message>
 </context>
 <context>
@@ -68424,6 +68927,486 @@ War nga soppi klaasu noo bi ak fonksiyoŋu wuutu bi.</translation>
         <source>Share of page time</source>
         <translation>Wàll bu waxtu xët bi</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>laaj nañu def gu mat</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>kaasu xët bi amul xët bi (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>kaasu xët bi tontuwul</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>Def nañu ko</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>Xol bi moo ko def: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>Kaasu xët bi moo ko jëlal ci %ms ms. Denc nañu xët bi ci %stored, ci def gu yàgg %render ms, %age s ci ginnaaw.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>Def ko léegi</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>Dellu ci wone bu kaas bi</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>Jóge ci def bi ci %stored (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>Laaj bii: kaasu xët bi moo ko jëlal ci %ms ms.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Jëfandikukat</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>ID bu jëfandikukat</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>Profilu kaasu</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>Xool bii</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>Kaasu xool</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>ci jëfandikukat bu nekk (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>Profilu kaasu jëfandikukat bi: jëfandikukat yi am benn profil dañuy bokk ci fiseu kaasu xool yi</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>waaw</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>déedéet</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Turu jëfandikukat</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>Dugg na</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>Sesiyoŋ</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>Pàcc yi ci caabiy kaasu xoolu ëmbit yi aju ci jëfandikukat bi, ni caabi bi leen jële, ci suufu ViewCacheTweaks yu xët wii. Jëfandikukat yi am benn profil dañuy bokk ci fiseu kaasu xool yi, ndare pàcc yu xool bi ci boppam wuute (tànneef yi, caabiy déglukat yi): yooyu am nañu seen profil, ngir xët wii rekk.</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>Profil</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>Xool bii (nodd %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: jëfandikukat bu nekk bu dugg am na fiseu kaasu yu boppam.</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>ViewCacheTweaks yiy dox: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>Pàcc</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>Njëg</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>Amul benn pàcc bu aju ci jëfandikukat bi (ViewCacheTweaks).</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>xool bii</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>Duppi ni mbind</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>Wàll yi</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>Mënuñu a jàng benn joxeefu sas.</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>ID bu sas</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Wàll</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>Dig</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>Joxe nañu ko</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>jëfandikukat bi</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>mbooloo %name (lëf %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>Sotti nañu ko</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>Mënul a duppi.</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>benn déglukat moo ko bàyyi</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>Ñéeg yu ñu xamul</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>niki sa bos</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>wuute na</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>Profil bi gan yu amul tur di am ci suufu ViewCacheTweaks yu mel noonu, ak tànneef yu ñu taxawal, te amul pàcci xool bi: déglukat buy jàng sesiyoŋ bi mënuñu ko laaj ci seen mbir.</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>Tànneef yi</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>Amul benn anamu xool bu aju ci tànneefu jëfandikukat (site.ini [ContentSettings] CachedViewPreferences).</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>Tànneef yi xooli anam yii aju ci (CachedViewPreferences), ak njëgu jëfandikukat bi walla bi ñu taxawal. Ñu ngi ci profil bi ni userpreferences, yu anami xool yépp ñoo bokk.</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>Anamu wone</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>Tànneef</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>Li nekk ci suuf</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>Politig yi</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>Wone politig yu sas yi (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>Politig yi dañu leen di yeb ci serwëer bi bu ñu ubbee xaaj bii, benn xët ci benn yoon, te mën nañu leen tànn ci modil ak fonksiyoŋ.</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>Fonksiyoŋ</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>Modil yépp</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>Fonksiyoŋ yépp</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>Dig yi</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>Wone yeneen</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>Sas yii amuñu benn politig.</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>Amul benn politig bu dëppoo ak seetukaay bi.</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%shown ci %matching politig (%total lépp)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>Dafay yeb bu ñu ko ubbee.</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>module/function, kër, tëralin</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>Wër ci yoon yi</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>Yeb yeneen</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>Modil/fonksiyoŋ</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>Kër yépp (yoon %count)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>Amul yoon wu jëkkoon.</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%shown ci yoon yi %matched</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>Amul tontu</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>nëbbu</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>Wone leeral yi</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>Nëbb leeral yi</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Ubbi</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>Ubbi yépp</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>Tëj yépp</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>Caabi walla njëg</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>Wër ci sesiyoŋ bi</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Xeet</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>%count yeneen</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>dafa xóot lool ngir wone ko</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>dagg nañu ko, %count araf yépp</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Tambali nañu ko</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>Turu kuki bi</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>ID sesiyoŋ</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>Doxalkat</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>Yoonu denc</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>Li PHP tann</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>Diirub dund (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>Kuki</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>diir %s s</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>Sa sesiyoŋ PHP bopp, ni mu meloon bi ñu ubbee xaaj bi, du sesiyoŋu keneen mukk. Njëgi caabi yi niru ay kumpa (token yi, hash yi, baatu jàll yi) dañuy nëbbu (debugbar.ini SessionMask[]); yeneen yépp dañuy wone ni ñu leen dence, ba ci xibaar yu kenn ki.</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>%count caabi, %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>mag</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>Sesiyoŋ bi dafa neen.</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>Amul benn sesiyoŋ bu ñu tàmbali ngir laaj bii.</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Yokkute %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>Kernel ak yeneen</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>Wonewuñu bind yépp: sesiyoŋ bi am na lu ëpp li ñu mana lim fii.</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>%count caabi limuñu leen.</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>Kaadar</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>Njëg yi niru token (JSON Web Token, xibaari xàmmee ci bopp Authorization, caabi bu kenn, mbind hex bu gudd walla bu ñu jaxase) ñoom itam dañuy nëbbu, lu mu mana doon turu seen caabi (debugbar.ini SessionValueMask[]).</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>Caabi bi niru kumpa (debugbar.ini SessionMask[]).</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>Njëg li niru token.</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>Ci suufu benn caabi bu ñu nëbb.</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>Sesiyoŋ bi ni mbind, nëbbu ni tablo bi.</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>Sesiyoŋ bi ëpp na %size (debugbar.ini SessionWarnBytes): laaj bu nekk bu jëfandikukat bii dafay jàng sesiyoŋ bi yépp, te bind ko bu soppikoo.</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP dafay denc sesiyoŋ bii ci ay dosye te tëj dosye bi ci laaj bi yépp: laaj yu benn jëfandikukat (ay tab yu bare, wooteb AJAX) dañuy xaaraante.</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>Bàyyi ko ubbeeku</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>Ëpp na %size (debugbar.ini SessionWarnBytes): laaj bu nekk bu jëfandikukat bii dafay jàng sesiyoŋ bi yépp.</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%hits ci %count lañu jàng ci kaas bi</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>Amul benn tampale bu ñu wone (gis-gis bu ñu jàng ci kaasu gis-gis yi du wone benn).</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>Jox wàll yi</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>Wàll yi ak politig yi</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>wute na ak gan yi ñu xamul seen tur</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>benn la ak gan yi ñu xamul seen tur</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70304,6 +71287,14 @@ War nga soppi klaasu noo bi ak fonksiyoŋu wuutu bi.</translation>
     <message>
         <source>not sent</source>
         <translation>yónnee ñu ko</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Liggéeyu cron bu yégle yi day bind fii dox yépp. Yokk pàcc frequent ci crontab bi, walla doxal exp:notification:run --apply.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>Jëfandikool konsool bi: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -76022,6 +77013,98 @@ War nga soppi klaasu noo bi ak fonksiyoŋu wuutu bi.</translation>
         <source>This topic is not Released; readers do not see it.</source>
         <translation>Mbir bii siiwaleesul; jàngkat yi gisuñu ko.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Tukkiteef yi</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Coppite yu samp gi yu ñu denc ni dosiye: seen sitiwaasiyoŋ, doxal yi, doxal ak dellu ginnaaw.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Siiwal benn kopi bu taxaw bu sit ci GitHub Pages walla ci bépp host git.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Siiwal bu taxaw</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>Ci seetlu</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>Jàngkat yi gis nañu xët wii.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>Dañu ko nëbb jàngkat yi ba keneen siiwal ko.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>Xët wi nekk na ci seetlu léegi. Dañu ko nëbb jàngkat yi ba ñu siiwal ko.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>Xët wi siiwalees na: jàngkat yi ñuy gis léegi.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>Xët wi dellu na brouyoŋ. Dañu ko nëbb jàngkat yi ba ñu seetlu ko te siiwal ko.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>Siiwal léegi</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>Jëfandikukat bu am wàll %role te bindul sumb bii rekk moo man koo siiwal.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>Mbir yu ndimbal yuy xaar ñu siiwal leen</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>Dafay ko nëbb jàngkat yi ba ñu siiwaalaat ko.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>Ab seetkat dina ko seet ci topp. Jàngkat yi gisaguñu ko.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>Jàngkat yi dinañu ko gis ci saa si.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>Dafay génne ko ci seetlu ngir liggéey ko ba gën. Jàngkat yi gisuñu ko.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>Nëbb xët wii jàngkat yi?</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>Delloo xët wii ci brouyoŋ?</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>Jàngkat yi gisatuñu %title ba keneen siiwaalaat ko.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title dellu na ci brouyoŋ ngir liggéey ko ba gën. Jàngkat yi gisaguñu ko, te dafa soxla seetlu bu bees laata ñu koy siiwal.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Neenal</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>Mbir yii nekk nañu ci seetlu. Jàngkat yi dinañu leen gis bu keneen ku bindul sumb bii siiwalee leen.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76477,6 +77560,46 @@ War nga soppi klaasu noo bi ak fonksiyoŋu wuutu bi.</translation>
         <source>None.</source>
         <translation>Dara.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>ak app bu seede</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>ak kood bu ñu yónnee ci imeel</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>ak koodu delluwaay</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>ak caabiy dugg</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>ak kont bu bitti</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Jëfi kaaraange</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>Ñu ngi koy wone ni resoom; adrees bi dañu koy denc ni tànneefi kaaraange done yu sit bi waxe.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Bindeesu ko</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Bérab</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>lu jege</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76720,6 +77843,42 @@ War nga soppi klaasu noo bi ak fonksiyoŋu wuutu bi.</translation>
         <source>Manage devices</source>
         <translation>Saytu jumtukaay yi</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>ak app bu seede</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>ak kood bu ñu yónnee ci imeel</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>ak koodu delluwaay</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>ak caabiy dugg</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>ak kont bu bitti</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Jëfi kaaraange</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Bindeesu ko</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Bérab</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>lu jege</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76799,6 +77958,14 @@ War nga soppi klaasu noo bi ak fonksiyoŋu wuutu bi.</translation>
         <source>View the sessions of this user</source>
         <translation>Wone sesiyoŋ yu jëfandikukat bii</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>Sa kont %login ci %site leegi lañu ko jëfandikoo ngir dugg jóge ci bérab bu mu dugguwul ca jamono yii:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>Bérab bu jege</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76837,6 +78004,10 @@ War nga soppi klaasu noo bi ak fonksiyoŋu wuutu bi.</translation>
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%browser ci %os</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Rapooru dugg</translation>
     </message>
 </context>
 <context>
@@ -77045,6 +78216,82 @@ War nga soppi klaasu noo bi ak fonksiyoŋu wuutu bi.</translation>
         <source>The passkey could not be checked. Please try again.</source>
         <translation>Mënuñu seetlu caabiy dugg bi. Jéemaatal.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>Kontu yi di dugg ak caabiy dugg rekk mënuñu fii jëfandikoo baatu jàll: tànnal «Dugg ak caabiy dugg».</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>Caabiy dugg yu %login</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>Caabiy dugg yi kontu bii di dugg ak ñoom. Dindil sañ-sañu bi nekk ci jumtukaay bu réer walla ñu sàcc ko: dootul mën a dugg. Boroom bi moo koy yokk yu bees ci boppam.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>Sa kontu soxla na benn caabiy dugg</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>Yokkal benn caabiy dugg ci sa kontu</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>Yokkal benn caabiy dugg ngir wéy. Ginnaaw loolu, dangay dugg ak moom te du baatu jàll rekk.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>Dugg ak caabiy dugg gaawe na te wóor na lu ëpp baatu jàll. Yokkal benn léegi, walla wéyal te amul.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>Léegi déet</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>Dindi sañ-sañu caabiy dugg «%name»?</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>Dootul mën a dugg ci kontu bii. Su doonoon bu mujj bi, boroom bi dina dugg ak baatu jàll bi, walla yaw nga teg bu bees.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>Dindi sañ-sañu caabiy dugg bi</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>Dindi sañ-sañ</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>Kontu bii amul benn caabiy dugg.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>Seetluwaay</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Xamuñu ko</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>Sa caabiy dugg bu mujj: yokkal beneen balaa ngay dindi bii.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>Kontu bii day dugg ak caabiy dugg rekk (politigu caabiy dugg): bu benn desul, dina waat dugg ak baatu jàllam.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>Lii mooy sa caabiy dugg bu mujj, te sa kontu mënul a dugg bu amul benn. Yokkal beneen caabiy dugg ba pare.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>Sañ-sañu caabiy dugg «%name» dindi nañu ko. Dootul mën a dugg ci kontu bii.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77144,6 +78391,34 @@ War nga soppi klaasu noo bi ak fonksiyoŋu wuutu bi.</translation>
         <source>Code from your authenticator app</source>
         <translation>Kood bu jóge ci sa app bu seetlu</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>Yaa ngi waaj a far ay done ba fàww walla nga setal ab tëralinu jëf.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>Sa baatu jàll ak benn caabiy dugg</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>Sa baatu jàll ak kood bu jóge ci sa aplikaasiyoŋu seetlu</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>Walla:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>Bii wërlukaay mënul a jëfandikoo caabiy dugg. Jëfandikool beneen yoon, walla beneen wërlukaay.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>Bu nga wéyee, sa wërlukaay dina laaj benn ci say caabiy dugg.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>Wéy ak caabiy dugg</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77234,6 +78509,70 @@ War nga soppi klaasu noo bi ak fonksiyoŋu wuutu bi.</translation>
     <message>
         <source>Setup</source>
         <translation>Defar</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>Soppi sa baatu jàll, sa adrees imeel, say caabiy dugg, dugg ci ñaari tappal, kood yu delloo walla caabiy API, ak génn ci sa yeneen jumtukaay.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>Sos ak soppi jëfandikukat yi, seeni baatu jàll ak seeni jumtukaay, tànneefi kontu, nangu walla bañ kontu yu bees, jox ay wàll ak soppi politig yi.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>Far ay done</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>Setal mbalit mi, dindi ci yëf yi ak dindi ay yëf yu bari benn yoon.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>Dindi, siiwal ak denc ay li ci biir</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>Dindi li ci biir (ba ci mbalit mi), siiwal ak denc ab tëral, ñu koy laaj bu formileer bi yónnee. Dafa fey ci njàlbéen.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>Balaa jëf ju am solo, jëfandikukat bu dugg dina waat a dëggal kan la: ak baatu jàllam ak caabiy dugg, walla bu amul caabiy dugg ak baatu jàllam ak koodu aplikaasiyoŋu seetluwaayam. Xëti web yi rekk ñoo laaj: interfaasu REST, SOAP, WebDAV, duggu expservices ak rëdd ndigal du laaj mukk.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>Fu tànneef yi di dox</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>Tànneef yu</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Buntu sit bu nekk</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>Buntu sit %name</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Ubbi</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>Ñan lañuy laaj: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>Tegal màndarga ci mbooloou jëfandikukat yi ngir laaj seeni waa rekk (ci misaal ñiy defar). Benn amul màndarga: jëfandikukat bu nekk.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>Denc nañu ko ci settings/override/site.ini.append.php, ngir buntu sit bu nekk. Denc gi dina la laaj nga dëggal ne yaw la.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>Denc nañu ko ci settings/siteaccess/%name/site.ini.append.php. Njëg ji nekk ci settings/override moo ko jiitu. Denc gi dina la laaj nga dëggal ne yaw la.</translation>
     </message>
 </context>
 <context>
@@ -77336,6 +78675,6822 @@ War nga soppi klaasu noo bi ak fonksiyoŋu wuutu bi.</translation>
     <message>
         <source>Open the page</source>
         <translation>Ubbil xët wi</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from ba %to ci %count</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>Turu duggu walla ID jëfandikukat: kont bi xew-xew bi jëm walla jëfandikukat bi def jëf ji.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Kont</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Jëf</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>Gannaaw</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>Njureel bu nekk</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Balaa</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Ki ko def</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Setal</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Antu na</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>Xew-xew yi dañu leen di denc %days fan.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>Xew-xew yi dañu leen di denc ba kenn far leen ak loxo.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Xew-xew yi</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>Jëf bu nekk</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>Xew-xew yépp yu kont bii</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>Génne lim bi ni CSV (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Fakkastalu na</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Dale</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>Wàññi lim bi</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>Amul benn xew-xew bu dëppoo.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Ci xët</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>Bind gi dañu ko fey ci audit.ini ([UserAuditSettings] UserAudit); lim bi dafay wone li ñu bindoon balaa.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Dañu ko gàntal</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Njureel</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Wone</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>Tablo téereb saytu jëfandikukat yi amul. Sosal ko ak php update/common/scripts/6.0/createuseraudittable.php; ba ci kanam, fisie saytu yi dañuy denc xew-xew bu nekk.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>Xët wii dafa soxla dénkukaayu done SQL; amul ci MongoDB. Fisie saytu yi dañuy denc xew-xew bu nekk.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Ba</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Téereb saytu jëfandikukat yi</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Jëfandikukat</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Kañ</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Fan</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>Ku soppi, sos, taal, fey, toxal walla far ban kont, ku dugg walla ku ñu gàntal, ak ban wàll lañu jox: benn rëdd ci xew-xew bu nekk, ak tool yi balaa ak gannaaw. Baatu jàll yi ak kumpa yi duñu leen mukk bind.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>mbooloo</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>sistem</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>xamuñu ko</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>Aar sa kont</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>Ñu jëfandikoo koodu delluwaay ngir dugg ci sa kont %login ci %site.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>Ñu jëfandikoo koodu delluwaay</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Kont</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>Adrees bu jege</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>Laajal baatu jàll bu bees ngir dugg ati, walla jokkool ak saytukati sit bi.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>Laaj baatu jàll bu bees</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>Koodu delluwaay bu nekk benn yoon rekk lay liggéey. Su sa telefon réeree, defaraatal sa app bu seede te denc koodu delluwaay yu bees yi ci bérab bu wóor.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>Jéemi dugg yu antuwul ci sa kont</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>Li dale leegi, dugg dina laaj ab kood ak sa baatu jàll. Su dee yow moo ko def, soxlaa nga def dara.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>Su dee yow la te fàtte nga sa baatu jàll, laajal bu bees. Su dee du yow, tànnal baatu jàll bu gën a dëgër te taal dugg ci ñaari tappal.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>Su dee du yow moo ko def, kenn mën na xam sa baatu jàll: soppi ko leegi te seet fan la sa kont dugg.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>Koodu delluwaay yi des</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>Seetaat say jumtukaay</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>Artu kaaraange</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>Kenn jéem na dugg ci sa kont %login ci %site ak baatu jàll bu baaxul %count yoon topp.</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>Am na xew-xewu kaaraange ci sa kont %login ci %site.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>Lii artu kaaraange la ci sa kont. Dañu koy yónnee ci bépp coppite bu ni mel te mënu ñu koo fey.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Waxtu</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>Dugg ci ñaari tappal fey nañu ko ci sa kont %login ci %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>Dugg ci ñaari tappal fey nañu ko</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>Dugg ci ñaari tappal taal nañu ko ci sa kont %login ci %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>Dugg ci ñaari tappal taal nañu ko</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>Sa kont %login ci %site tëj nañu ko ginnaaw dugg yu bari yu antuwul.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>Leegi sa baatu jàll rekk moo aar sa kont. Su dee du yow moo ko def, taalaat dugg ci ñaari tappal ginnaaw bi nga soppee sa baatu jàll.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>Sa kont tëj nañu ko</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>Yokk nañu benn caabiy dugg ci sa kontu %login ci %site.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>Ku am caabiy dugg bii mën na dugg ci sa kontu te soxlawul sa baatu jàll. Su dul yaw yokk ko, dindil ko ci Caabiy dugg te soppi sa baatu jàll.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>Dindi nañu benn caabiy dugg ci sa kontu %login ci %site.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>Dootul mën a dugg ci sa kontu. Su dul yaw dindi ko, seetal say caabiy dugg ak say jumtukaay.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>Yokk nañu benn caabiy dugg ci sa kontu</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>Dindi nañu benn caabiy dugg ci sa kontu</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>Jëfi kaaraange</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Jëfi kaaraange yu %name</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Dugg na</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Jéemu dugg bu antuwul</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Génn na</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Sesiyoŋ yi génne nañu leen</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Dugg jóge ci jumtukaay bu bees</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Dugg jóge ci bérab bu bees</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Wóorlu nañu kiy kan («Wóorlul ne yaa nekk»)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Seetu kiy kan antuwul</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Dugg na ak caabiy dugg</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Dugg ak caabiy dugg antuwul</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Dugg bi ñu bañ ko: koodu ñaari tappal bi amul walla baaxul</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Koodu ñaari tappal bu baaxul</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Kont bi tëj nañu ko ginnaaw dugg yu antuwul</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Kont bi ubbi nañu ko</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Baatu jàll bi soppi nañu ko</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Soppi baatu jàll bi antuwul</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Baatu jàll bi defaraat nañu ko</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Laaj nañu baatu jàll bu bees</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Adreesu imeel bi soppi nañu ko</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Turu jëfandikukat bi soppi nañu ko</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Dugg ci ñaari tappal taal na</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Dugg ci ñaari tappal fey na</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Jëfandikoo nañu koodu delluwaay</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Koodu delluwaay yu bees</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Baatu jàllu app bi sos nañu ko</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Baatu jàllu app bi dindi nañu sañ-sañam</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Yokk nañu caabiy dugg</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Dindi nañu caabiy dugg</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Kont bi dox na</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Kont bi taxaw na</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Yépp</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Dugg yi ak sesiyoŋ yi</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Coppitey kont</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Soxla na ñu ko teewlu</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>yow moo ko def</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>jëfandikukat bi moo ko def</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>%login moo ko def</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>Pexe</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>Nawigatëer</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>Sistem</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Jumtukaay</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>Bérab</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>Réew</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Sesiyoŋ yi</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>Ban</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>Yoonu yónnee</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Jéem yu antuwul</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>Kood yi des</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>Jëfekatu dugg</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Jëfi kaaraange</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Jëfi kaaraange yu %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Dugg yi ak coppite yi ci kaaraange sa kont. Su nga gisee lu nga deful, soppil sa baatu jàll te génne jumtukaay yi nga xamul.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>Dugg yi ak coppite yi ci kaaraange kont bii.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Say jumtukaay</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Soppi baatu jàll</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>Dellu ci kont bi</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>Jëfi kaaraange yi bindeesu leen</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>Dañu koy jàng ci téereb saytu jëfandikukat yi, te taabal bi expuser_audit amul walla nangoowul ci dàttub done bii. Doxal php update/common/scripts/6.0/createuseraudittable.php, walla yeesalu dàttub done bu 6.0.15.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>%days bés yu mujj yi</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Dugg yi ci %days bés yu mujj yi</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>Jëfi kaaraange yu mujj yi</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Wone</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>antuwul</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>bañ nañu ko</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Benn jëfu kaaraange bindeesu ko ba tey.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>Xew-xewi kaaraange yi dañu leen di denc %days bés.</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>Xew-xewi kaaraange yi dañu leen di denc ba benn saytukat dindi leen.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Yebbi samay done yu dugg</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Say sesiyoŋ ak say xew-xewi kaaraange ni fisie JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Sesiyoŋ yi duñu leen bind ci sit bii, moo tax menuñu génne beneen jumtukaay. Soppil sa baatu jàll léegi.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count sesiyoŋ yeneen génne nañu leen. Léegi soppil sa baatu jàll.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Amul beneen jumtukaay bu dugg. Léegi soppil sa baatu jàll.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Jërëjëf. Xew-xew bi ñu ngi ko màndargaal ni sa bos.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Xew-xew boobu soxlawul tontu.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Xët bi jeex na. Soppiwuñu dara; jéemaatal.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Aar sa kont</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Su fi dara nekkul yow, génnal jumtukaay yeneen yépp, te nga tànn baatu jàll bu bees. Jumtukaay yi des ci biir ak Fattaliku ma ñoo it dinañu génn.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Jumtukaay yépp lu dul bii dinañu génn ci seen laaj bu topp. Ginnaaw loolu nga tànn baatu jàll bu bees.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Waaw, génnal jumtukaay yeneen yi</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Yow la woon?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Waaw, man la woon</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Déedéet, aar sama kont</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Dugg na</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Jéemu dugg bu antuwul</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Génn na</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Sesiyoŋ yi génne nañu leen</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Dugg jóge ci jumtukaay bu bees</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Dugg jóge ci bérab bu bees</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Wóorlu nañu kiy kan («Wóorlul ne yaa nekk»)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Seetu kiy kan antuwul</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Dugg na ak caabiy dugg</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Dugg ak caabiy dugg antuwul</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Dugg bi ñu bañ ko: koodu ñaari tappal bi amul walla baaxul</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Koodu ñaari tappal bu baaxul</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Kont bi tëj nañu ko ginnaaw dugg yu antuwul</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Kont bi ubbi nañu ko</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Baatu jàll bi soppi nañu ko</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Soppi baatu jàll bi antuwul</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Baatu jàll bi defaraat nañu ko</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Laaj nañu baatu jàll bu bees</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Adreesu imeel bi soppi nañu ko</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Turu jëfandikukat bi soppi nañu ko</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Dugg ci ñaari tappal taal na</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Dugg ci ñaari tappal fey na</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Jëfandikoo nañu koodu delluwaay</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Koodu delluwaay yu bees</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Baatu jàllu app bi sos nañu ko</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Baatu jàllu app bi dindi nañu sañ-sañam</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Yokk nañu caabiy dugg</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Dindi nañu caabiy dugg</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Kont bi dox na</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Kont bi taxaw na</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Yépp</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Dugg yi ak sesiyoŋ yi</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Coppitey kont</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Soxla na ñu ko teewlu</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Jëfi kaaraange</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Jëfi kaaraange yu %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Dugg yi ak coppite yi ci kaaraange sa kont. Su nga gisee lu nga deful, soppil sa baatu jàll te génne jumtukaay yi nga xamul.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Say jumtukaay</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Soppi baatu jàll</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>Jëfi kaaraange yi bindeesu leen ci sit bii ba tey.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Dugg yi ci %days bés yu mujj yi</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Jéem yu antuwul</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Benn jëfu kaaraange bindeesu ko ba tey.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Yebbi samay done yu dugg</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Say sesiyoŋ ak say xew-xewi kaaraange ni fisie JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Sesiyoŋ yi duñu leen bind ci sit bii, moo tax menuñu génne beneen jumtukaay. Soppil sa baatu jàll léegi.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count sesiyoŋ yeneen génne nañu leen. Léegi soppil sa baatu jàll.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Amul beneen jumtukaay bu dugg. Léegi soppil sa baatu jàll.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Jërëjëf. Xew-xew bi ñu ngi ko màndargaal ni sa bos.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Xew-xew boobu soxlawul tontu.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Xët bi jeex na. Soppiwuñu dara; jéemaatal.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Aar sa kont</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Su fi dara nekkul yow, génnal jumtukaay yeneen yépp, te nga tànn baatu jàll bu bees. Jumtukaay yi des ci biir ak Fattaliku ma ñoo it dinañu génn.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Jumtukaay yépp lu dul bii dinañu génn ci seen laaj bu topp. Ginnaaw loolu nga tànn baatu jàll bu bees.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Waaw, génnal jumtukaay yeneen yi</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Yow la woon?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Waaw, man la woon</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Déedéet, aar sama kont</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>Baatu jàll</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>Baatu jàll ak koodu ñaari tappal</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>Jokkalekaay REST</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>Jokkalekaay SOAP</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>Dugg benn yoon (single sign-on)</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>Dugg na laata ñuy tàmbali bind sesiyoŋ yi</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Rapooru dugg</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>Ñi dugg ci sit bi, ñaata yoon la kont yi di dugg ak di dugg te antuwul, ak génne jëfandikukat fépp. Mu ngi liggéey ak bépp jëfekatu sesiyoŋ.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>Sesiyoŋ bi génne nañu ko. Jumtukaay bi war na dugg ati.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>%login génne nañu ko ci %count sesiyoŋ.</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>%login amul benn sesiyoŋ buy dox.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>Amul benn kont bu am ID boobu, turu jëfandikukat boobu walla adreesu imeel boobu.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>Lii mooy sesiyoŋ bi ngay jëfandikoo. Ngir jeexal ko, génnal.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>Sesiyoŋ boobu jeex na ba noppi.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Xët bi jeex na waxtoom. Dara soppiku wul; su la neexee, jéemaatal.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>Sesiyoŋ yi bindeesu leen ci sit bii (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>Taabal bi expuser_session amul</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>Sesiyoŋ yi dinañu leen bind bu ñu ko sosee: php update/common/scripts/6.0/createusersessiontable.php, walla yeesalu dàttub done bu 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>Leegi ak tey</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>Sesiyoŋ yiy dox</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>Jëfandikukat yi dugg</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>Dugg yu tey</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>Jéem yu antuwul tey</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>Génne jëfandikukat fépp</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>Bépp sesiyoŋ bu kont bi dina jeex ci laaj bi ci topp, ba ci yi «Fattaliku ma» di denc. Jëfandikool ko su kont mën a nekk ci loxo yu baaxul; ginnaaw ga defaraatal baatu jàllam.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>ID jëfandikukat, turu jëfandikukat walla adreesu imeel</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>Génn fépp</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>Dugg na leegi</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>%limit yi ñu mujj a jëfandikoo lañuy wone.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Jëfandikukat</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Jumtukaay</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adrees</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>Dugg na</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>Liggéey bu mujj</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Jëf yi</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>Jumtukaay bii</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Bindeesu ko</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>Génn</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>Amul benn sesiyoŋ bu dugg.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>%days bés yu mujj yi</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>Dugg yi ak jéem yu antuwul dañu leen di lim ci téereb saytu jëfandikukat yi, te amul; sesiyoŋ yu bees yi ñoo ñuy lim.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>Bés</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>Dugg yi</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Jéem yu antuwul</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>Sesiyoŋ yu bees</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>Jëfekatu sesiyoŋ: %handler. Sesiyoŋ yi dañu leen di jàng ci taabal bi expuser_session, moo tax rapoor bi di liggéey ak bépp jëfekat.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>Jëf yu ñu sikk ci %hours waxtu yu weesu</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>Benn caabal antuwul ci dugg ci %accounts kont (%count jéem)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Kont bi tëj nañu ko ginnaaw dugg yu antuwul</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>%count dugg yu antuwul ci benn kont</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>Dugg na ci %count réew ci benn yoon</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Jëfi kaaraange</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Sesiyoŋ yi</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>Dugg yu antuwul ñu ngi leen jàng ci téereb saytu jëfandikukat yi, te amul fi.</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>Amul dara lu ñu sikk: amul kont bu am dugg yu antuwul yu baamtu, amul caabal buy jéem ay kont yu bare, amul kont bu dugg ci ay réew yu bare.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>Artu kaaraange ci sa kont</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>Am na xew-xewu kaaraange ci sa kont %login: %event. Su dee du yow, aaral sa kont ci %url.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Defar</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>Laajal li nekk ci sit bii waaw yi xët bi soxla rekk, ci benn laaj. Tekki bi dafay topp xeeti li ci biir; laaj bu nekk dafay dox ak sañ-sañi jëfandikukat bi ko yónne.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>GraphQL API bi dañu ko fay ci buntu sit bii. Taal ko ci graphql.ini: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>Bibliyotek GraphQL bi (webonyx/graphql-php 15) sampuñu ko.</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>Bërëb bu mujj</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>Bibliyotek</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>Tekki</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>%count xeeti li ci biir, tekki %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>Laaj</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>Yu soppiku (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Doxal</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>Tontu</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>Mi ngi dox…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>Tontu bi mënuñu ko jàng.</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>Laaj bi dafay dox ak sa sañ-sañ, yaw mi dugg ci jamono jii.</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%count ci %seconds segond</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>amul dig</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>Xóot</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>Jafe-jafe</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>Lëf ci limu bu nekk</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (bu ñu tànn %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>Ñaan ci jëfandikukat walla caabi bu nekk</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>Ñaan ci adrees bu amul tur bu nekk</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>Seetlu tekki bi (introspection)</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>Laaj yu ñu denc rekk</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>Laaj bi gën a rëy</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>%bytes byte</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>Yebal bi gën a rëy</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>Amul buntu sit %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>Soppi yi dañu leen taal ci %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>Soppi yi dañu leen fay ci %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>GraphQL API bi dañu ko taal ci %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>GraphQL API bi dañu ko fay ci %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>Mënuñu woon a bind tànneef yi: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>Kaasu tontu yi dañu ko setal: %count tontu lañu dindi.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>Màndargal kees bi ci wetu laaj bi ngir dindi ko.</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>Mënuñu woon a dindi laaj bi: laaj bu ñëw ci kàggu PersistedQueryDirectoryList[] dañu koy dindi ak dencukaayam.</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>Laaj bu ñu denc bi dindi nañu ko.</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>Soppi yi</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>taal</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>fay</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Buntu sit yi</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>Fi API bi ak ay soppiam di tontu. Bitoŋ yi dañuy bind graphql.ini, ni ./console exp:graphql:enable ak exp:graphql:disable di def.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Buntu sit</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>GraphQL API</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Soppi</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Fay</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>Fay soppi yi</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>Taal soppi yi</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Taal</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>Dig yi</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>graphql.ini [GraphQLSettings] bu buntu sit bii.</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>Kaasu tontu yi</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>Tontuy laaj yu ñu denc, ñu denc leen ci sañ-sañu jëfandikukat bu nekk te ñu jeex saa bu ñu siiwalee lu bees.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Mbir</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>Tontu yu ñu denc</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>%count tontu, %bytes byte</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>Dencu bu gën a yàgg</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds s</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>Jeex bu mujj</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>Setal kaasu tontu yi</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>Laaj yu ñu denc</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>Ñu denc leen ak ./console exp:graphql:persist, walla kiliyaan yi (laaj yu ñu denc ci seen bopp); ñu leen di woo ci tur walla SHA-256.</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>Tur yi</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Dayo</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Fan</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Dindi</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>ñëwaale</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>dencu</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>Waaw, dindil laaj bii</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>Amagul laaj bu ñu denc.</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>Caabi API</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>Caabi API yu boppu nit yu am wàll graphql:read (laaj) walla graphql:write (soppi). Defal leen te dindi leen ci xëtu Dugg API, walla ak ./console exp:graphql:keys.</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>Dugg API</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>Caabi yépp</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>Caabi</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Tur</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Boroom</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>Wàll yi</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>Jëfandikoo bu mujj</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>dox na</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>jeex na</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>dindi nañu ko</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>mukk</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>Amagul caabi API bu am wàllu GraphQL.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>GraphQL API bi dañu ko fay ci buntu sit %siteaccess, biy wone xët wii; tablo bi ci suuf day wone fi mu di tontu.</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>Ngir buntu sit %siteaccess, biy wone xët wii.</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>Webhook yi</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>Bépp xew-xew bu benn bërëb bu mujj laaj (publish, update, trash, delete, move, hide, reveal, mutation) dañu koko yónnee, ak xaatim, jaare ci pàcc cronjob graphqlwebhooks. ./console exp:graphql:webhooks def na li pàcc bii di def.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Xew-xew yi</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>lépp</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Bépp buntu sit</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>yàqu na</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>amul kumpa</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>Ñu ngi xaar</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count bàyyi nañu leen</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>Yónnee bu mujj</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Yónnee ab test</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>Waaw, dindil webhook bii</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>Amagul webhook.</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>Yokk ab webhook</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>Yokk</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>Yónnee yu mujj yi</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Waxtu</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Ngérte</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>Abonmaa yi</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>Yeesal yu dund ngir kiliyaan yi: ab xelli xew-xew ci /api/graphql/subscribe, ak ab WebSocket (graphql-transport-ws) ci Velocity. Bépp xew-xew dafay dem rekk ci abone yi am sañ-sañu jàng li ci biir.</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>Ubbeeku leegi</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>Ubbeeku gi ëpp</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>%total yépp, %user ci jëfandikukat bu nekk, %address ci adrees bu nekk</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>Abonmaa yu amul tur</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>Diirub xelli bi</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>Mënuñu woon a yokk webhook bi: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>Webhook %name soppi nañu ko; kumpa xaatimam dafay des.</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>Mënuñu woon a denc kumpa xaatim bi (Defar &gt; Kumpa yi).</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>Webhook %name yokk nañu ko. Kumpa xaatimam, ñu wone ko benn yoon rekk: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>Amul webhook %name.</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>Webhook %name tontuwul: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>Webhook %name tontu na %status ci %ms ms.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>Màndargal kees bi ci wetu webhook bi ngir dindi ko.</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>Webhook %name dindi nañu ko.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>GraphQL API bi dañu ko fay ci buntu sit bii.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>Bibliyotek GraphQL bi sampuñu ko.</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>Jëfandikool GET walla POST.</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>Yaramu ñaan bi du ab objet JSON.</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables du ab objet JSON.</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions du ab objet JSON.</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>Yónnee laaj bi ak POST.</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>Ñaan bi amul benn laaj.</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>Laaj bi gën na guddu %max byte.</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>Njuumte ci biir serwëer bi</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node soxla na benn rekk ci id, remoteId, path ak urlAlias.</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content soxla na benn rekk ci id ak remoteId.</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>Kursëru after du API bii moo ko joxe.</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>Amul benn alias nataal %alias (image.ini [AliasSettings] AliasList[]).</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>Fii laaj yu ñu denc rekk lañuy nangu: yónneel id bu laaj bu ñu denc.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>Hash bu laaj bu ñu denc bi du SHA-256.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>Hash bu laaj bu ñu denc bi dëppoowul ak laaj bi.</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>Ñaan yi dañoo bari: %limit rekk ci %window segond. Jéemaatal ci %reset segond.</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>Laaj bi xóotee na %depth tolluwaay; %max rekk lañu may.</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>Laaj bi am na jafe-jafe bu %complexity; %max rekk lañu may.</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>Ñaan bii mënul jàng tekki bi (introspection).</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search soxla na ab mbind walla ab seetukaay (classes, subtree, sections, publishedAfter, publishedBefore).</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument du ab bés (ISO 8601, 2026-10-30).</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag soxla na benn rekk ci id, remoteId ak path.</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout soxla na benn rekk ci id, identifier ak urlAlias.</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>Toolu operations bu ñaan bu am ay pàcc du benn ñaan JSON.</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>Toolu map bu ñaan bu am ay pàcc du ab objet JSON.</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>Ñaan bu am ay pàcc bi amul dencukaay %field.</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>Yoonu toolu map war na tàmbalee ak variables.: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>Dencukaay %name agsiwul mu mat (njuumtey yebal %error).</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>Dencukaay %name gën na rëy %max byte.</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>Mënuñu woon a saytu dencukaay %name.</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>Soppi yi (mutation) dañu leen fay ci buntu sit bii (graphql.ini [GraphQLSettings] MutationsEnabled).</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>Yónneel soppi bi ak POST.</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>Duggal ngir soppi li ci biir.</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>Caabi API bi amul wàll %scope.</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>Soppi bu am jamono soxla na token bu formulaire bu jamono ji (bopp X-CSRF-Token).</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>uploadFromUrl dañu ko fay: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] tuddul benn host.</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>Adrees bi war na doon adrees https.</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>Host %host nekkul ci graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>Mënuñu woon a jël dencukaay bi.</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload xeetu dugal rekk la.</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>Soppiku bu xeetu Upload dafay jël dencukaay bu ñaan bu am ay pàcc.</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>Remote id %remoteId jël nañu ko ba noppi.</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>Li ci biir am na ba noppi ab tekki ci %language: jëfandikool updateContent.</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>Joxal benn tool lu mu néew-néew.</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>Mënuñu woon a def sumb bu bees (li ci biir am na ay brouillon yu bari lool).</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>Sumb %version du brouillon.</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent soxla na benn rekk ci id ak nodeId.</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>Mënuñu dem ak ab bérëb ci suufam ci boppam.</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>Li ci biir am na ba noppi ab bérëb ci suufu %parentId.</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>Mënuñu woon a denc njëgu toolu %field.</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>Amul làkku biir %language.</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>Amul xeetu biir %class ci tekki bi.</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>Li ci biir nekkul fi, walla sañuloo ko jàng.</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>Sañuloo def lii ci li ci biir.</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>Xeet %class amul toolu %field bu ñu mën a bind.</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>Tool %field dañu ko jox ñaari yoon.</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>Tool %field dafay jël dencukaay: yónneel ko niki upload (ñaan bu am ay pàcc).</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>Tool %field du jël dencukaay.</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>Tool %field soxla na ab njëg.</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>Formaa %format mu ngi jëm ci tooli mbind mu taaru rekk; %field dafay jël njëgam ni mu mel (RAW).</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>Tool %field war na am.</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>Mënuñu woon a jàng HTML bi.</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content dafay jël version ak id rekk.</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>Token bu seetlu bi baaxul walla jeex na.</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>Du ab origin (https://host walla https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>Du wàllu GraphQL API: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>Yónneel abonmaa yi ci /api/graphql/subscribe (ab xelli xew-xew walla ab WebSocket).</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>Laaj bi tuddul benn jëf ci dokimaa bi.</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>Abonmaa dafay laaj benn tool rekk.</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>Abonmaa yu bari lool ñoo ubbeeku; jéemaatal ci kanam.</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>Am nga %max abonmaa yu ubbeeku, li ëpp li ñu may.</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>Sa adrees am na %max abonmaa yu ubbeeku, li ëpp li ñu may.</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>Abonmaa yi dañu leen fay ci buntu sit bii.</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>Duggal ngir abone (ab token walla ab caabi API bu sa bopp).</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>Yónneel soppi yi (mutation) ci /api/graphql.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>Tukkiteef yi</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Mënuñu woon a jàng sitiwaasiyoŋ bi: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Taabal yu tukkiteef yi amagul: ./console exp:upgrade --apply moo leen di sos.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>%count tukkiteef fakkastalu nañu</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>Am doxal bu ngi dox, %user moo ko tàmbali</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>Samp gi dañu ko tëj: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Mu ngi xaar</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Fakkastalu na</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>Jirim yi</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Doxal bu mujj</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>amagul dara</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>Tukkiteef yépp</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>Doxal bu ñu roy</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>Doxal bu jéemantu</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>Tukkiteef yi ngi xaar dox nañu ci benn transaksiyoŋ bu ñu delloo ginnaaw ga: dara desul. Ci suuf, li bu nekk soppi ci dénkukaayu done bi.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>Li doxal di def léegi. Dara du soppiku: tukkiteef bu nekk bu ngi xaar dafay lim coppite yi mu di def, doxal bi itam li mu di def balaa ak ginnaaw.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>Roy</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Doxal</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>Doxal bu jéemantu bi fakkastalu na: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>Royal bi soxla na PostgreSQL walla SQLite, yu ñu mënti delloo seen coppitey skema; ci dénkukaayu done bii, plan bi ci suuf mooy li doxal di def.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>Tukkiteef yi</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>Tukkiteef</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Nekin</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>Li mu di def</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>Royal: %result ci %ms ms</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>Amagul benn tukkiteef.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>Balaa doxal bi ak ginnaaw</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>Bérab delloo bu jiitu</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>dañu koy sos, te delloo ko bu tukkiteef fakkastaloo</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>fey</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>Bérab delloo bu topp</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>dañu koy sos bu doxal bi sotti</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>%total tukkiteef: %pending ngi xaar, %done jeex nañu, %failed fakkastalu nañu.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>Jaar-jaaru tukkiteef yi</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>Doxal bu nekk ak jëfandikukat bi, wërwërlu bi, bérab delloo yi ak li ñu bind (commit), màndarga ak yónnee (push). Doxal bu fakkastaloo walla bu taxaw mën nañu ko jàppaat; doxal bu am bérab delloo balaa moom mën nañu ko delloo.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>Mënuñu woon a jàng doxal yi: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Taabal yu tukkiteef yi amagul: ./console exp:upgrade --apply moo leen di sos.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Wone</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Yépp</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>Doxal yi</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Tàmbali na</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Ki ko def</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>Bérab delloo yi</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Dénkukaay</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Jëf yi</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>balaa</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>ginnaaw</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>yónnee: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>Jàppaat</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Dellu ginnaaw</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>Amul doxal ci nekin bii.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>Tàmbali fii</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>Doxal, jàppaat ak dellu ginnaaw yu ñu tàmbali ci xët yii, ak rapóoru bu nekk.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Lan</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Njureel</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Dellu ginnaaw</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>Dellu ginnaawu %target</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>Doxal %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Li doxal bi def, mbindam ak jaar-jaaram. Doxal bu ñu tàmbali fii dafay wéy ci ginnaaw bu ñu tëjee xët wii; ubbiwaatal xët wi ngir topp ko.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>Jàppaat doxal bii</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>Dellu ginnaaw doxal bii</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>Mënuñu woon a jàng mbind mi: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Ni mu jëm</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>%user moo ko tàmbali ci %time.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>Ñu ngi seet kood bi te sos bérab delloo balaa doxal bi</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>%id mu ngi dox (%index ci %total)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>%done ci %total jeex nañu</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>Tukkiteef yi dox nañu; ñu ngi delloo bérab delloo bi su fekkee benn fakkastalu na</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>Sos bérab delloo ginnaaw doxal bi, bind (commit), màndarga ak yónnee</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>Ñu ngi delloo bérab delloo bi</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>Doxal bi jeex na. Ñu ngi yeb rapóoram.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>Mënuñu woon a topp ni mu jëm. Yebaatal xët wi ngir gis ni doxal bi di demee.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>Xët wii dafay topp doxal bi ci diirub doxam.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Yebaat</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Rapóor</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Diir</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms milisegond</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>Li doxal bi bind ni njuumte</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Mbind</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>Wërwërlu</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>dara</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Jeex na</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Bind (commit)</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Màndarga</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Yónnee (push)</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Bataaxal</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>Tukkiteefu doxal bii</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>Cosaan</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>Jaar-jaaru doxal bi</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>Mujjug jaar-jaar bi rekk lañu wone.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>mu ngi dox</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>jeex na te amul rapóor</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>sotti na</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>fakkastalu na</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>bañ nañu ko</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>mënuñu woon a jot dénkukaayu done bi</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>njuumte bu biir</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>Am doxal bu ngi dox</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind, %user moo ko tàmbali ci %time.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>Topp ko</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>Samp gi dañu ko tëj</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>Beneen doxal moo jàpp caabi ji (yeesal walla doxal ci konsol bi): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>jeex na</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>mu ngi xaar</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>soxlawul</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>xamuñu ko</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>dellu na ginnaaw</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>jëfandikoo nañu ko</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>dinañu ko jëfandikoo</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>delloo nañu ko</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>dinañu ko delloo</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>doxul</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>mu ngi xaar beneen</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>coppite gi nangu nañu ko</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>coppite gi dinañu ko nangu</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>roy nañu ko</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Tukkiteef yi</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Sitiwaasiyoŋ</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Jaar-jaar</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>Delloo %target</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>Doxal dañu koy delloo ci bérab delloo bu ñu sos balaa moom, benn tukkiteef ak down() bi ko moom. Delloo bérab delloo bu yàgg, ñi xam-xam rekk ñoo ko war. Bu nekk dafay dox ci ginnaaw ci sa tur, ginnaaw ñu sos bérab delloo bu nekin bu léegi.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>Mënuñu woon a jàng li ñu mën a delloo: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>Benn doxal</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>Benn tukkiteef</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>Bérab delloo bu yàgg</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>Melokaan</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>waaw</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>déedéet</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Bérab delloo</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Tur bu ñu tënku</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>Sos nañu ko</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Xeet</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>Pàcc yi ñuy delloo</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>Dénkukaayu done bi</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>Dosiyey dénkukaay yi (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>Tànneef yi (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>Delloo dénkukaayu done bi dafay delloo ko ci waxtuwu bérab delloo bi, ak sesiyoŋ yi itam: mën nañu la laaj nga duggaat ginnaaw ga. Lépp lu soppiku li dale ci jamono jooju dina réer; dañuy jëkk a sos bérab delloo bu nekin bu léegi.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>Xam naa li lii di delloo</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>Bindaatal limu bérab delloo bi</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>Waaw, delloo ko</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Neenal</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>Doxal yi am bérab delloo bu ñu sos balaa ñoom.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>Tànn</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>Amagul doxal bu am bérab delloo.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>Tukkiteef yi ñu jëfandikoo yu mën a delloo seen bopp (am nañu down()).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>Amul benn tukkiteef bu ñu jëfandikoo bu am down().</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>Bérab delloo yu yàgg (ñi xam-xam)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>Amagul bérab delloo.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>Doxal tukkiteef yi</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>Doxal bi dafay dox ci ginnaaw ci turu %user, te xëtam dafay wone ni mu jëm. Balaa tukkiteef bu jëkk bi, dañuy sos bérab delloo bu samp gi; bu tukkiteef fakkastaloo, doxal bi dafay taxaw te ñu delloo bérab delloo bi.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>Jëkkal doxal bu jéemantu</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Mënuñu woon a jàng sitiwaasiyoŋ bi: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>Tukkiteef yi ngi xaar</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>Ci toftal gii lañuy dox. Dindil màndarga ci benn ngir bàyyi ko, moom ak yi ko soxla, ngir doxal bu topp.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>Doxal ko</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>Dafay taal anamu defar ci diirub doxam.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>Soppiku nañu ginnaaw bi ñu leen jëfandikoo</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>Dosiye yii du yi ñu jëfandikoo. Doxal dina leen bañ su fekkee nangoowuñu coppite gi ak benn lu waral; duñu dox ci kanam, dañuy bind checksum bu bees bi te denc lu waral ci jaar-jaaru kontorol bi.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>Nangu coppite yi</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Lu tax</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>Tànneef yu ñu tàmbalee ñoo wóor. Kees bu nekk dafay bàyyi benn tappal.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>Amul bérab delloo</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>Amul bérab delloo balaa doxal bi ak ginnaaw: fakkastal mënul a delloo boppam.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>Amul delloo</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>Ginnaaw fakkastal, bàyyil samp gi ni fakkastal gi ko bàyyee.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>Denc coppite yi ñu bindagul (commit)</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>Doxal te bu fekkee tànneef yi, yokkute yi walla dizayn yi am nañu coppite yu ñu bindagul; dinañu dugg ci bérab delloo bi.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>Amul bind (commit)</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>Bul bind (commit) dosiyeb sitiwaasiyoŋ bi ak jaar-jaaru doxal bi (amul màndarga, amul yónnee itam).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>Amul yónnee</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>Bind (commit) te màndarga, waaye bul yónnee.</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>Amul màndarga</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>Bind (commit) te yónnee, waaye bul màndarga doxal bi.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>Waaw, doxal tukkiteef yii léegi</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Amul benn tukkiteef buy xaar.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>Dellu ci sitiwaasiyoŋ bi</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>Coppite yu samp gii yu ñu bind benn yoon ni dosiye (ëmb, klaas, wareef, tànneef, skema) te jëfandikoo leen ci samp gu nekk gu sit bi ci benn toftal. Doxal dafay jëkk a sos bérab delloo, delloo ko bu tukkiteef fakkastaloo, te bind, bind (commit) ak yónnee li mu def.</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>Doxal %count yu ngi xaar</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Gisaat gu mat</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Mu ngi xaar</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Jeex na</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Fakkastalu na</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>Soxlawul</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>Dénkukaayu done</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>transaksiyoŋ yi: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>Tukkiteefu sit bi nekk nañu ci migrations/, yu benn yokkute ci extension/&lt;name&gt;/migrations/. Dañuy dox ci toftalu seeni tur ak li ñu soxla.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Doxal bu mujj</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>Dosiye bi soppiku na ginnaaw bi ñu ko jëfandikoo.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>Amagul benn tukkiteef. ./console exp:migration:generate --skeleton &lt;name&gt; --apply moo di bind bu jëkk bi.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>Doxal yu mujj yi</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>Doxal yépp</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>Amagul benn doxal.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>Roy benn doxal soxla na sàrt bi migration/run.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>Am doxal bu ngi dox: royal bu mu jeexee.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Defar</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target du doxal, du tukkiteef te du bérab delloo bu samp gii.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>Jëkkal màndarga “Waaw, delloo ko”.</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>Delloo bérab delloo bu yàgg, ñi xam-xam rekk ñoo ko war: màndargaal “Xam naa li lii di delloo”.</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>Bindaatal limu bérab delloo bi: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>Tànnal lu mu néew-néew benn pàcc ngir delloo.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>Doxal bii amul bérab delloo bu ñu sos balaa moom: delloo tukkiteef yi ko moom benn-benn, walla delloo bérab delloo bu yàgg.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>Tukkiteef bii mënul a delloo boppam: jëfandikoowuñu ko, walla amul down().</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Mënuñu woon a jàng formileer bi.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>Tànnal doxal bi ñuy jàppaat.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>Jëkkal màndarga “Waaw, doxal tukkiteef yii léegi”.</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>Tànnal lu mu néew-néew benn tukkiteef.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>Benn tukkiteef soppiku na ginnaaw bi ñu ko jëfandikoo: nangul coppite gi ak lu waral, walla delloo dosiye bi.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>Waxal lu tax ñu nangu tukkiteef yi soppiku.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>Lu waral gi warul a weesu 500 araf.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>Doxal bu ñu tàmbali fii mu ngi dox ba léegi (%detail). Xaaral ba mu jeex.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>Beneen doxal moo jàpp caabiy samp gi: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>Doxal bi soxla na jëfandikukat bu am te dugg.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Gisuñu prograam php bu rëddu ndigal. Defal ci migration.ini [AdminSettings] PhpCliPath yoonam bu mat.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open dañu ko fey, kon mënuñu tàmbali doxal fii. Doxal ./console exp:migration:migrate --apply ci serwëer bi.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>Mënuñu bind ci kaartaabu doxal yi: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>Doxal bi tàmbali na waaye waxul limu porses bi. Seetal %detail.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>Waxal li ñuy delloo.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>Mënuñu woon a tàmbali doxal bi.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>Bind coppite yi</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>Bi bind bi di dox, li ngay soppi ci yorkat bi walla ci barr bu wet bu site bi dañuy denc ko niki tànki toxu: li ci biir, klaas yi, liggéey yi ak sàrt yi, xaaj yi, jëfandikukat yi ak mbooloo yi, turu weneen yu URL, tànneef yi. Taxawal ko soo noppee, xool li mu jàpp, te defar toxu ci li.</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>Mënuñu a jàng bind yi: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>Taabal yu bind yi amaguñu: njëkk dëbbal yeesal bi (exp:upgrade --apply).</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>Bind bi fey nañu ko ci migration.ini ([RecordingSettings] Recording=disabled).</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>Samay coppite</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>Day bind rekk li ngay soppi, fépp fu nga ko soppi, ba nga taxawal ko.</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>Bind</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>li dale ci %time, coppite %count ba leegi.</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>Màndarga (bu dul war)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>Wone li mu jàpp</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Taxawal bind bi</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>Tàmbali bind samay coppite</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>Palanteeru site bi yépp</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>Day bind coppite bu nekk ci jëfandikukat bu nekk ak konsol bi ba ñu tëj ko. Soo ko ubbee, dañuy laaj nga wóorlu ne yaw la.</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Ubbeeku na</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>Tëj palanteer bi</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>Ubbi palanteeru site bi yépp</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>Bind yi</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>Kontu jëfandikukat (turu dugg, imeel, baatu jàll) ak barab yu kontu jëfandikukat yi duñu leen mukk bind.</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Coppite yi</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>Site bi yépp</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>Coppitey %name</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Taxaw na</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>Amagul benn bind.</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>Bind %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>Bind yépp</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>Toxu bi mu ciy génne</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>Coppite yi ñu boole ci benn tànk ngir lu nekk lu ñu soppi: li toxu bu ñu defar ci bind bii di def.</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>Mën nañu defar toxu ci moom bu instalaasioŋ bii amee xeeti tànki YAML %types.</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>Bàyyi nañu ko ci coobare: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>Dara bindu.</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>Li mu jàpp</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>Coppite %count, ci toftal gi ñu ko defe.</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Coppite</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>Tànk</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>Jëm ci</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>Yeneen %count: ./console exp:migration:record:show day lim yépp.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Sànni</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>Day far bind bi ak li mu jàpp. Li ñu soppi day des ni ñu ko soppee.</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>Waaw, sànni bind bii</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>Mi ngi bind…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Say coppite dañuy bind ngir toxu.</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>Coppite bu nekk ci site bii dañuy bind ngir toxu (palanteeru site bi yépp).</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>Bindu site bi yépp tàmbali na: coppite bu nekk ci jëfandikukat bu nekk dañu koy bind ba nga taxawal ko.</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>Bind bi tàmbali na: say coppite dañuy bind ba nga taxawal ko.</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>Bind bi taxaw na. Li mu jàpp day des ba nga sànni ko.</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>Far nañu bind bi ak xew-xewam yi.</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>Amul benn bind %id.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>Njëkk tànn "Waaw, sànni bind bii".</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>Jëfandikukat bi bind rekk moo mën a taxawal bindu ndaje.</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>Tànnal bind bi ñuy taxawal.</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>Bind bu xeet wii mi ngi dox ba noppi.</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>Mënuñu a soppi bind bi: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>Sos migration</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>Turu migration bi (bu la neexee)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>Migration %file bind nañu ko. Coppite yi benn jéego mënul def, ñu tudd leen ci kaw dosiye bi, ngir def leen ak loxo.</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>Benn migration bindeesu ko: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>Dem bu gudd ci xaaj yi</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>Palanteer yu mbooleem yi day denc tànnéef yu migration.ini [RunSettings].</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>Ba tuuti lii migrasiyoŋ</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>Amul migrasiyoŋ bu ci des gannaaw (sekond)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>Noppalu diggante migrasiyoŋ yi (sekond)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>Njëkk gu suufe (1 ba 19)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>Palanteeru dem bu gudd mooy lim bu mat dale ko 1 (noppalu: sekond 0 ba 60, njëkk: 1 ba 19), walla mbooleem.</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>Day tëj boppam ci %time.</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>Tëj boppam gannaaw (simili, soxla na)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>Simili yi lim bu mat la dale ci 1 ba 44640 (fan 31), walla mbooleem.</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>Tukkiteef %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>Tukkiteef bu bees</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>Tukkiteef YAML: bindal ko ni bind walla tabaxal tànk yi ci formileer bi, seetal ko, te nga denc ko ci dosie tukkiteef.</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>Tukkiteef bii dox na ba noppi, kon duñu ko dencaat: aar checksum bi dina bañ fisie bu ñu soppi. Defal coppite bi ci tukkiteef bu bees.</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>Serwëru web bi mënul a bind fisie bi.</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>Rëdd yu kàddu yi ci kaw ñoo di bopp bi (description, author, requires, environments, engines). Bu ñu yokkee walla soppi benn tànk ci formileer bi, tukkiteef bi dañu koy bindaat: kàddu yi nekk ci diggante tànk yi duñu leen denc.</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>Turu tukkiteef bi</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>Fu mu di dem</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>Site bi</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>Bindu YAML</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>Seet</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Denc</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Ndëgërte yi</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>Caabiy yi</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Soppi</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>Yéeg</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>Wàcce</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Dindi</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>Amagul benn tànk: yokkal benn ak formileer bi, walla bind leen ci bind bi.</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>Soppi tànk %number</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>Yokk benn tànk</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>Formileeru benn tànk ci xeetu tànk bi lañu koy defare: caabiy yi, li bu nekk di jël ak anam yi mu bokk.</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>Xeetu tànk</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>Wone formileer bi</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>Tànk bi am na ay caabi yu xeetam xamul; dañu leen di bàyyi bu ñu soppee tànk bi: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>Anam</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>Ci</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>ci %modes rekk</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>Bu ñu tànnul dara: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>Sart yi, référence yi ak kàddu</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>Ñaari Tur=njëg yu ñu xàjjale ak koma. Njëgi tànk bii: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>Misaal</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>Soppi tànk</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>Yokk tànk</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>Li exp:migration:check wax: bopp bi, dokimaa bi ak bépp tànk bu xeetu tànkam seet.</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>Tukkiteef bi jàll na ci seet bi.</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Xool lu jiitu</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>Bindu YAML bi ni ñu koy dence.</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>Wone YAML bi</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>Tukkiteef YAML yi</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>dox na</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>Amagul benn tukkiteef YAML.</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>Soppikat</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>Amul tukkiteef YAML %id ci dosie tukkiteef yi.</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>Tànnal xeetu tànk.</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>Yokk nañu tànk bi. Seetal tukkiteef bi balaa ngay denc.</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>Soppi nañu tànk bi. Seetal tukkiteef bi balaa ngay denc.</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>Tànnal benn tànk.</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>Tànk bii amul formileer (benn wërndéel, walla xeetu tànk bu instalaasiyoŋ bii amul): soppil ko ci bind bi.</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>Tànnal fu tukkiteef bi di dem: site bi walla benn extension bu dox.</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>%file denc nañu ko. Defal doxal bu jéemantu balaa tukkiteef bi di dox.</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>Dencuñu ko: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>Bérab yu sore</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>Yeneen samp yi samp gii di yóbbu tukkiteefam yi: yóbbu dafay yónnee tukkiteef yi ci bérab yu sore yi ñu tànn te doxal leen fa, ñoom ñépp ci benn yoon te dëppoo. Bérab bu sore du am benn mbóot mukk: firndeelu duggam dafay tudd benn ci Defar &gt; Mbóot yi.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>Bérab bu sore bu bees</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Ndimbal</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>Seetlu lëkkaloo bu %id</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>Bérab yu sore yi</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>Ba %parallel bérab yu sore lañuy liggéeyal ci benn jamono; benn xaaj mën na yàgg %timeout segond ci bu nekk.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>Bérab bu sore</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adrees</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Firndeelu duggu</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>Mbooloo yi</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>tànneef yu ñuy jubbanti</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>fisie yi rekk (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>Caabiy SSH</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>Baatu jàll</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>dara (agent SSH bi ak caabiy host bi)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>Seetlu lëkkaloo bi</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>Yóbbu ci benn mbooloo dafay dem ci bérab bu sore bu nekk ci moom.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>Yóbbu ci bérab yu sore</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>Amagul benn bérab bu sore bu ñu defar.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>Bérab bu sore %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>Dara yónneeyuñu ko te doxaluñu ko fii: Denc dafay bind tànneef yi ci settings/override/migration.ini.append.php. Firndeelu duggu bi tur la; li mu yor dafay des ci Defar &gt; Mbóot yi walla ci wërwërlu bi.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Saytul tànneef yii</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>Tànneef yi ni ñu leen bind, dencagu ñu leen.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Seetaat</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Tànneef yi baax nañu. Rëdd yii lañuy bind:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>Yóbbaale</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>tur rekk; li mu ëmb dafay des ci Defar &gt; Mbóot yi</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Rëdd yi ñuy bind</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>Lëkkaloo</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>Caabiy host</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. Bérab bu sore bi</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>Naka lañuy wooye bérab bu sore bi ak ban wërwërlu la.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>Araf, siifar, - ak _, misaal production1. Mooy tudd bérab bu sore bi ci rapóor yi ak ci konsol bi (--remotes=production1) te mënuñu koo soppi ginnaaw.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... Yóbbu ci tolluwaay yi dafay jaar ci wërwërlu yi ci toppantoo bii.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>Bu dul war, ñu xàjjale leen ak wirgil, misaal production. Yóbbu ci benn mbooloo dafay dem ci bérab bu sore bu nekk ci moom.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. Lëkkaloo bi</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>Ni fisie yi di àgge fa, ak fu samp gi nekk.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>Ci SSH, li soppiku rekk, te yóbbaale bu dog dañu koy jàppaat. Tànn bu gën ci fu rsync nekk.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>SSH ak scp ngir fisie yi.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>SSH ak sftp ngir fisie yi.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>Fisie yi rekk: dañuy yónnee tukkiteef yi te jàngaat leen, waaye mënuñu leen doxal fa.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>FTP ci TLS; fisie yi rekk.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>Beneen samp ci serwëer bii, ci benn dosie.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Host</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>Turu host walla adrees, misaal node1.example.com. Du ngir local.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>Port</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>Amul dara: 22 ngir SSH, 21 ngir FTP.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Jëfandikukat</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>Yoon</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>Reenu samp gi fa, misaal /var/www/site (ngir FTP: yoon wi kontu FTP bi di gis).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>Rëddu ndigalu PHP</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>PHP CLI bu fa nekk: php, walla yoon bu mat niki /opt/plesk/php/8.4/bin/php.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>Skriptu konsol yi dañuy dox fa ni root</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>Su jëfandikukatu bérab bu sore bi root la rekk (kon dañuy dox ak --allow-root-user).</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. Firndeelu duggu bi</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>Ni samp gii di dugge fa. Tur rekk lañuy denc.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Dara</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>Agent SSH bi ak caabiy jëfandikukat bi samp gii di doxe (te saa yu nekk ngir local).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>Caabi bu sutura bu ñu denc ni mbóot.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>Baatu jàll bu ñu denc ni mbóot (FTP dafay dugge ko).</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>Turu mbóot</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>Benn mbóot ci Defar &gt; Mbóot yi, misaal deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Defar &gt; Mbóot yi</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>Walla benn soppeekub wërwërlu</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>Soppeekub jëfinu serwëer bi bu ko yor, misaal DEPLOY_KEY (ñu denc ko ni env:DEPLOY_KEY). Dafay wuutu turu mbóot bi.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. Caabiy host bi</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>Bu dul war, ngir SSH, sftp ak rsync.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>Màndargay caabiy host bi</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... ni ko ssh-keygen -l di wone. Ak moom, host bi war na wone caabi bii; su ko amul, dañuy jàng caabi bi ci jokkoo bu jëkk bi.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. Seetaat</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>Seetlul lëkkaloo bi ak tànneef yi ci kaw, te seetaat rëdd yi ñuy bind.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>Dindi bérab bu sore bii</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>Dañuy génne tànneefam yi ci settings/override/migration.ini.append.php. Dara du soppiku ci bérab bu sore bi, te yóbbuam yi dañuy des ci jaar-jaar bi.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>Waaw, dindi bérab bu sore bii</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>Yóbbu yi</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>Yóbbu dafay yónnee tukkiteefi samp gii ci bérab yu sore yi ñu tànn, te doxal leen fa ni %user, ñoom ñépp ci benn yoon te dëppoo: dañuy jëkk a seet bérab bu sore bu nekk, te su benn fakkastalu, bérab bu sore bu leen jëfandikoo dañu koy delloo. Dafay dox ci ginnaaw, te xëtam dafay wone bérab bu sore bu nekk ni muy jëm.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. Bérab yu sore yi</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>Tànnal bérab yu sore, benn mbooloo, walla ñoom ñaar.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>Yóbbu ci moom</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. Naka</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>Yóbbu</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>Yónnee te doxal</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>Dañuy yónnee tukkiteef yi, seetlu leen te doxal leen ci bérab bu sore bu nekk ak benn ID-u doxal bu ñu bokk.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>Yóbbaale rekk</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>Dañuy yónnee fisie yi te seetlu leen, dara du dox (yoon wi rekk ngir bérab bu sore bu FTP).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>Ci tolluwaay yi</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>Tolluwaay ak tolluwaay ci toppantoo wërwërlu yi (dev, stage, beta, production ...): dañuy yóbbu tolluwaay bu jëkk bi, te ginnaaw ga bunt dafay xaar ba kenn nangu bi ci topp. Lépp walla dara ci biir tolluwaay bu nekk.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>Tukkiteef yii rekk</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>Bu dul war: ID-u tukkiteef yi, ñu xàjjale leen ak wirgil. Amul dara: tukkiteef bu nekk ci site bi ak ci yokkuteem yi.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>Seet bu jiitu rekk</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>Waaw, yóbbu léegi</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>Yóbbu yi yónnee walla doxal dara, bu gën a bees bi jiitu (seet bu jiitu du denc rapóor).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>yóbbaale rekk</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>ci tolluwaay yi, %stages tolluwaay</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>dëppoowul</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>Amagul benn yóbbu.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>Yóbbu %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Bérab bu sore bu nekk ci yóbbu bi ak nekinam. Yóbbu bu ñu tàmbali fii dafay wéy ci ginnaaw bu ñu tëjee xët wii; ubbiwaatal xët wi ngir topp ko.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>Yóbbu yépp</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>Seet bu jiitu</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>Tolluwaay bi ci topp</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>Ñu ngi seet tànneef yi ak firndeelu duggu yi</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>Seet bu jiitu: ñu ngi jàng nekinu bérab bu sore bu nekk</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>Ñu ngi yónnee fisiey tukkiteef yi</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>Ñu ngi seetlu li àgg</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>Ñu ngi doxal tukkiteef yi ci bérab bu sore bu nekk</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>Ñu ngi delloo bérab yu sore yi</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>Yóbbu bi jeex na. Ñu ngi yeb rapóoram.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>Mënuñu woon a topp ni mu jëm. Yebaatal xët wi ngir gis ni yóbbu bi di doxe.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>Xaaj</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>Xët wii dafay topp yóbbu bi ni muy jëm.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>Dëppoo na</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>Tolluwaay yi</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>tolluwaay %stage mu ngi xaar ci buntam</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>Bunt %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>%user moo ko nangu ci %time</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>Tolluwaay</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>Fisie yi ñu yónnee</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>Wersiyoŋu kernel</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>jëfandikoo nañu: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>ñuy jëfandikoo: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>Xaaj yi</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>Bunt: tolluwaay %stage ci %stages</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>Tolluwaay yi ko jiitu yóbbu nañu leen. Seetal leen, te nangu tolluwaay bi ci topp: bérab yu sore yi ci moom dañuy seetaat leen te yóbbu leen, lépp walla dara.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Ci topp</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>Waaw, yóbbu tolluwaay bi ci topp léegi</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Nangu</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>Dellu ginnaaw yóbbu bii</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>Bérab bu sore bu ko jëfandikoo (%list) dafay dellu ci bérab delloo bi ñu sos balaa doxalam, ñoom ñépp ci benn yoon.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>Waaw, dellu ginnaaw yóbbu bii léegi</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>nas nañu ko</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>yóbbaale nañu ko</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>yóbbu nañu ko</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>mu ngi xaar ci bunt</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>ñu tànn nañu leen</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>waajal nañu ko</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>jàmbu</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>mu ngi xaar tolluwaayam</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>yónnee nañu fisie yi</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>seetlu nañu ko</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>fakkastalu na, delloo na boppam</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>soppikuwul</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>yóbbuñu ko</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>mënuñu ko jot</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>Bérab bu sore bi tontu na.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>Mënuñu jëfandikoo bérab bu sore bi léegi.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done jeex na, %pending ngi xaar, %failed fakkastalu na</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>Tëjukaay</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>benn doxal moo yor tëjukaay bi fa</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>wéet</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stage ci %stages</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>Tànnal bérab bu sore bi ñuy seetlu.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>Jëkkal tànn «Waaw, dindi bérab bu sore bii».</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>Mënuñu woon a dindi bérab bu sore bi: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>Mënuñu woon a denc bérab bu sore bi: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Mënuñu jàng fisieu tànneef yi: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>Tànnal lu mu néew-néew benn bérab bu sore walla benn mbooloo.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>Benn bérab bu sore bu ñu tànn nekkatul ci tànneef yi. Yebaatal xët wi.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>Jëkkal tànn «Waaw, yóbbu léegi».</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>Bérab bu sore bu FTP mënul doxal tukkiteef: tànnal «Yóbbaale rekk», walla bàyyi ko.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>Tukkiteef yi ñuy yóbbu ID-u tukkiteef lañu, ñu xàjjale leen ak wirgil.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>Yóbbu bi ngi dox ba léegi. Xaaral ba mu jeex.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>Yóbbu bii du xaar ci bunt.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>Benn bérab bu sore jëfandikoowul yóbbu bii: amul dara lu ñuy dellu ginnaaw.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>Jëkkal tànn «Waaw, yóbbu tolluwaay bi ci topp léegi».</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>Jëkkal tànn «Waaw, dellu ginnaaw yóbbu bii léegi».</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>Bérab bu sore bu am ID %id am na ba noppi.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>Port bi benn lim la ci diggante 1 ak 65535.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>Wërwërlu bi baat la bu ñu defare ak araf, siifar, - ak _ (alpha, dev, stage, beta, production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>Mbooloo mooy baat bu ñu defare ak araf, siifar, - ak _ (du all): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>Mënuñu jàng firndeelu duggu bi léegi: %problem. Dencal ko ci Defar &gt; Mbóot yi (walla taxawal soppeeku bi) balaa yóbbu bu jëkk bi.</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>Bérab bu sore bu FTP dafay jot fisie yi rekk: yóbbu ci moom «Yóbbaale rekk» la, te tukkiteefam yi dañuy doxal leen fa ak loxo.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>Bérab bu sore bu %id nekkul ci settings/override/migration.ini.append.php; dindi ko fa ñu ko taxawale.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>Dugg nañu ci FTP te jàng index.php. Mënuñu jàng nekinu tukkiteefu bérab bu sore bu FTP.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>Soppi nañu ko</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>Sos nañu ko</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Tur</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Klaas</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Xaaj</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>Sooskat</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Ëmbit yu bees</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>Ëmbit yi ñu mujj a sos ak a soppi ci sit bi yépp, yu gëna bees yi jiitu: li gan yi yónne, li ñu téye ngir saytu ko, brouyoŋ yi di xaar ñu siiwal leen. Tànnal ay elemaa ngir bàyyi leen, téye leen, nëbb leen, wone leen, dindi leen walla yóbbu leen ci beneen xaaj walla beneen xaalaat.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>Mënuñu woon a jàng limu bi: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>Téyeg saytu gi defaruñu ko ba tey, kon dara téyewul te jëfi téye yi joxeesu leen. Tappu yeesal gi 6.0.15-review-hold moo koy defar: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Sef limu bi</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Dale</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Ba</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Bés</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>Sos nañu ko (siiwal gu jëkk)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Yépp</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Sitiwaasiyoŋ</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Siiwalees na</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>Brouyoŋ, siiwaluñu ko mukk</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>Mu ngi xaar (mu ngi xaar ndigal walla benn bés)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>Mu ngi ci mbalit</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Téye nañu ko ngir saytu</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>Téye nañu ko</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>Téyeuñu ko</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>Nëbbu</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>Feeñ</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>Yónne nañu ko ci</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>Buntu sit bu mu mën a doon</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>Li saytu gi bind rekk.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>Leegi: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>Turu dugg walla ID jëfandikukat.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Sef</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>Far sef yi</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>Elemaa yi</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from ba %to ci %count</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Amul benn elemaa</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(jàng nañu ko ci %ms ms)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>Jëf yi ci elemaa yi ñu tànn</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>Tànn yépp ci xët wii</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>%count lañu tànn</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Jëf</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>Tànnal benn jëf</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>Bàyyi téye gi</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Téye ngir saytu</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Nëbb</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>Wone</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>Yóbbu ci mbalit</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>Far</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>Jox xaaj</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>Jox xaalaat</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>Lu tax</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>Soxla na ngir téye; dañu koy denc ak téye gi ak ci saytu gi.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>Tànnal benn xaaj</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Xaalaat</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>Tànnal benn xaalaat</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>Def ko ci yi ñu tànn</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>Elemaa bu nekk dañu koy saytu ci say sañ-sañ. Yóbbu ci mbalit ak far dañuy laaj nga dëggal. Lu ëpp %count elemaa dafay dox ci ginaaw.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>Tànn</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>Siiwal</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>Yónne nañu ko dale</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>Tànn %name</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>ba tey dara</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(amul tur)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID bi %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>Brouyoŋ</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Mu ngi xaar</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>Way-juram moo ko nëbb</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>Téye nañu ko: yónnent bu bees</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>Wersiyoŋ %version mu ngi xaar</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>Wersiyoŋ %version mu ngi dox</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>Brouyoŋ, wersiyoŋ %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>Wersiyoŋ %version siiwalees na</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>Yéene nañu ko ci %date</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>amul adrees</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>binduñu ko</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>Dara dëppóowul ak sef yii.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Wone yépp</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>Amagul benn ëmbit.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Ci xët</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Wone %count elemaa ci xët wu nekk.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says "not recorded".</source>
+        <translation>Adrees ak navigatëer bu yónnent dañuy jóge ci indeksu saytu gi, te nekkul fii: kolon bi dafay wax "binduñu ko".</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>Adrees ak navigatëer yi ñooy yi saytu gi bind ngir elemaa bi (téye gu boppam dafay bind leen saa su nekk; siiwal ak sos fu ñu ko tàkk rekk), ni ay tànnéefu sutura denc leen.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: %count elemaa</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>Far dafay dindi elemaa yi ba fàww, ak seeni wersiyoŋ ak seeni tekki yépp. Mënuñu ko dellu.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>Elemaa yi dañuy dem ci mbalit, fu ñu leen mën a delloo.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>Elemaa bu nekk dañu koy saytu ci say sañ-sañ; elemaa bu am ay elemaa ci suufam dañu koy bàyyi ni mu mel (dindi ko ci tabaxu ëmbit bi). Dinañu la laaj nga dëggal ne yaa ko.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>Lii dafay dox ci ginaaw: xëtu yokkute bi dafay ubbiku, te njureelu elemaa bu nekk dinañu ko wone bu jeexee.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>Elemaa yi ñu tànn</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>ak %count yeneen</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Neenal</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>Dara deful</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Lu tax: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>Jëf ji mu ngi dox ba tey ci ginaaw.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>Yokkuteem</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>Jëf ji ci ginaaw fakkastalu na: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Jeex na</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Bañ nañu ko</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Fakkastalu na</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>Elemaa bu nekk</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>Elemaa</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Njureel</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Lu tax</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>Dellu ci limu bi</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Defar</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>Dara defuñu</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>Dëggal</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>Tànnal benn jëf.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>Tànnal lu mu néew néew benn elemaa.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>Bul tànn lu ëpp 1000 elemaa ci benn yoon.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>Waxal lu tax ñu téye elemaa yi.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>Tànnal xaaj bi.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>Tànnal xaalaat bi.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Mënuñu woon a jàng formileer bi.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>Tabalu saytu</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>Ëmbit yu bees</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>Mënuñu woon a jàng lim yi: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Téye nañu ko ngir saytu</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>Yu bees tey</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Téyeg saytu gi defaruñu ko ba tey (tappu yeesal gi 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>Ëmbit yu bees yépp</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>Amuloo sañ-sañ def jëfi saytu ëmbit (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>Jëfu saytu ëmbit bi matul: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>Saytu ëmbit: %action ci %count objee</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%done ci %total objee: %ok jeex na, %refused bañ nañu leen, %failed fakkastalu nañu</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok jeex na, %refused bañ nañu leen, %failed fakkastalu nañu</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>Amatul.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>Amul béréb (siiwaluñu ko).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>Amuloo sañ-sañ nëbb ko (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>Amuloo sañ-sañ wone ko (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>Nëbbu na ba noppi.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>Nëbbuwul.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>Nëbb nañu ko.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>Wone nañu ko.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>Mu ngi ci mbalit: sotti ko walla delloo ko fa.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>Brouyoŋ bu ñu siiwalul mukk mënul dem ci mbalit: far ko.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>Amuloo sañ-sañ far ko (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>Far nañu ko.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>Amuloo sañ-sañ dindi ko (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>Am na ay elemaa ci suufam: dindi ko ci tabaxu ëmbit bi, fu ñu leen limaale.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>Dindiwuñu ko (benn doxinu liggéey mën na téye dindi gi).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>Yóbbu nañu ko ci mbalit.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>Xaaj bi amul.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>Mu ngi ci xaaj bii ba noppi.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>Amuloo sañ-sañ jox xaaj bii (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>Joxuñu xaaj bi.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>Jox nañu xaaj bi.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>Xaalaat bi amul.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>Mu ngi ci xaalaat bii ba noppi.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>Amuloo sañ-sañ jox xaalaat bii (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>Joxuñu xaalaat bi (benn doxinu liggéey mën na téye soppi gi).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>Jox nañu xaalaat bi.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>Jëf ju mel noonu amul.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Téyeg saytu gi defaruñu ko (tappu yeesal gi 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>Waxal lu tax ñu téye ko.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>Téye nañu ko ba noppi.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>Amuloo sañ-sañ téye ko (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>Teguñu téye gi (benn doxinu liggéey mën na téye soppi gi).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>Téye nañu ko.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>Téyeuñu ko.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>Amuloo sañ-sañ bàyyi ko (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>Bàyyiwuñu téye gi (benn doxinu liggéey mën na téye soppi gi).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>Bàyyi nañu ko; mu ngi nëbbu ba tey: amuloo sañ-sañ wone ko (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>Bàyyi nañu ko.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>Jëmuwaay yépp</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Siiwal bu mujj</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>Siiwalal ci neen benn kopi bu taxaw bu sa sit ci GitHub Pages:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Xët yu màggat</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Siiwal bu taxaw</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Siiwal bu taxaw bi dafa fey.</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Jëmuwaay</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Mënuñu woon a jàng jëmuwaay yi: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>benn liggéey ngi dox</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>tabax bu ñuy saytu</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>nëbb lii</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>sos benn jëmuwaay</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>mukk</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>jàng njàngale mi</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>%added yu ñu yokk, %changed yu ñu soppi, %removed yu ñu dindi</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%bytes ci %limit (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>Lim-uñu %count yeneen.</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>Bind nañu %pages xët</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path dafa am %size, ëpp na li host bi may ci benn fisie.</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>%percent % ci dig bi</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds segond</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag mooy siiwal bi sit bi am léegi.</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: liggéey %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>/dénkukaay/ ngir situ projet GitHub; bàyyi ko neen ngir domen bu sa bopp walla situ jëfandikukat.</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. Sit bi</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. Host bi</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. Duggu ci dénkukaay bi</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. Dénkukaay bi</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. Lëkkalekaay yi ak yoon wu njëkk</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. Sa domen bu sa bopp</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. Li tabax bi ëmb</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. Kañ lañu koy siiwal</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. Saytu te denc</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>Situ projet GitHub dafa nekk ci suufu /&lt;repository&gt;/; lëkkalekaay yu relatif yi dañuy dox fa ak fépp feneen.</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>Tabax dafay yóbbu xët bu nekk bu %site ni ko ganaa bu duggul di gise, di bindaat lëkkalekaay yi, di duppi fisie yi te di bind njureel gi ci dosieu jëmuwaay bi. Dara du siiwalu ba nga saytu tabax bi te bës ci Siiwal.</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>Benn bind cron, misaal 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>Caabi yónnee bi dañu koy denc ni mbóot %secret.</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>Caabi yónnee dafay may installation bii mu yónnee (push) ci benn dénkukaay rekk jaare ko ci SSH, te du feneen. Genn-wàllam gu kumpa dafay des ci Defar &gt; Mbóot yi; genn-wàll gu siiwu gi rekk lañuy wone.</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>Caabi yónnee bu ñu defar ngir jëmuwaay bii</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>Caabi yónnee dafay duggu jaare ko ci SSH: soppil adreesu git bi mu nekk adreesu SSH bi (git@github.com:owner/repo.git).</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>Benn liggéey ngi dox, %user moo ko tàmbali</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>Benn liggéeyu jëmuwaay bii ngi dox ba léegi (%detail). Xaaral ba mu jeex.</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>Benn liggéeyu jëmuwaay bii ngi dox ba léegi. Xaaral ba mu jeex.</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>Lëkkalekaay bu jóge ci xët /news/ jëm ci xët /about-us/team dañu koy bind nii</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>Defar nañu caabi yónnee bu bees. Yokkal genn-wàllam gu siiwu ci dénkukaay bi léegi.</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>Xët bu ci des ba léegi génnu debug, token bu formulaar walla id bu sesiyoŋ ginnaaw ba ñu ko setal, duñu ko siiwal mukk.</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>Dellu ginnaaw ngir boroom xam-xam la: tànnal &quot;Xam naa li lii di soppi&quot; te bindaat turu màndarga mi.</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>Sit mën na tollu ba %site, benn fisie ba %file, ak lu tollu ci 100 GB ci weer. Ci plan bu neen dénkukaay bi war na nekk bu siiwu. GitHub Pages defaruñu ko ngir bitig walla yeneen jaay-jënd.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>Jëmuwaay mooy benn sit bu ñuy siiwal ci benn dénkukaay git. Dara du tabaxu walla siiwalu fii: Denc dafay bind tànneef yi ci settings/override/staticcache.ini.append.php.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>Jëmuwaay mooy benn sit bu ñuy siiwal ci benn bérab, misaal sa sit bu siiwu ci GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>Benn token bu jóge ci Defar &gt; Mbóot yi</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>Benn workflow bu dénkukaay bi moo koy siiwal.</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>Yokkal caabi bu siiwu bii ci dénkukaay bi ak sañ-sañu bind. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tànnal Allow write access.</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>Yokk nañu ko</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>Beneen host git</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>Beneen jëf ngi liggéey ci jëmuwaay bii: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>Dellu</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>Yoon wu njëkk</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Balaa</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>Ci suufu benn yoon wu njëkk</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>Car</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>Lëkkalekaay yu dagg</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>Lëkkalekaay yu dagg ci tabax bi</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>Tabax</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>Tabax %id, %user moo ko def</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>Tabax %name</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>Tabax léegi</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>Tabax bu ñuy saytu</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Ki ko def</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>Ak loxo, fii</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Neenal</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Soppi</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>Soppi nañu ko</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Coppite yi</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>Saytul ko njëkk</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Saytul tànneef yii</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>Saytul li tabax bi di soppi, xoolal ko, te nga siiwal ko walla nga sànni ko.</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>Tànnal siiwal bi nga bëgg a dellu.</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>Dina ñëw ci beneen sumb bu topp.</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Bind (commit)</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>Commit yi</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>Dafay bind (commit) tabax bi, def ko màndarga te yónnee ko ci %remote. Yónnee bi duñu ko forse mukk; mën nga dellu ci bépp siiwal ginnaaw.</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>Bu ñu ko méngale ak dosie bi jiitu: %added yu ñu yokk, %changed yu ñu soppi, %removed yu ñu dindi, %unchanged yu soppikuwul.</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>Méngale nañu ko ak siiwal bu mujj bi.</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Firndeelu duggu</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>Domen bu sa bopp</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>Génnu debug, token yu formulaar, id yu sesiyoŋ ak nonce yi dañu leen di dindi saa su nekk.</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>Caabi yónnee</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>Caabi yónnee bu %name</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Sànni</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>Sànni tabax bi</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>Domen</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>Neen: adreesu sit bi. Lu dul loolu, benn adrees bu biir bu sit boobu.</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Jeex na</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>Lëkkalekaay bu nekk dafay tàmbalee ak yoon wu njëkk wi.</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>Siiwal bu nekk ab commit la ak màndarga static/%id/&lt;n&gt;. Dellu ginnaaw dafay def commit bu bees ak fisie yu benn siiwal bu jiitu: jaar-jaar bi dafay des, benn màndarga du toxu te dara du forse.</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>Yokkute yi</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>Yóbbu xët yi ci</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Fisie</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>Fisie yi</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>Fisie yu ñàkk</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>Fisie yu</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>Fisie yu ñu mënul woon a dajale</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>Màndargaay baaraam</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>Dosie</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>Ngir adreesu SSH. Caabi bi dañu koy defar ginnaaw ba ñu denc; yaw nga koy yokk genn-wàllam gu siiwu ci dénkukaay bi.</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>Ngir adreesu https://. GitHub: token fine-grained bu am Contents jàng ak bind ci dénkukaay bi.</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>Ngir boroom xam-xam. Sit bu siiwu bi dafay soppiku bu yónnee bi jeexee.</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Formulaar yi</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>Host ci neen ci benn dénkukaay GitHub.</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>Ci car bi</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>Adreesu git</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages dafay may sit bu %site ak fisie bu %file.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>Digi GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages dafay siiwal fisie yi ni ñu mel (soxla na ngir fisie yiy tàmbalee ak _).</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub dafay joxe car bi ni ñu ko yónneewe. Li ñu tànn bu njëkk.</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, sa serwëer bu sa bopp: bépp dénkukaay git.</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>Dellu ci benn siiwal bu jiitu</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Ndimbal</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>Ndimbal ci ndëgërte yi</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>Nëbb leen</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Jaar-jaar</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>Jaar-jaaru %name</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Host bi</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>Naka la GitHub Pages di jote tabax bi</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>Saytu naa coppite yi</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>Xam naa li lii di soppi</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>Dafa fey: dara mënul tabaxu ba mu taal.</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>Mu ngi dox ci ginnaaw ni %user; mën nga tëj xët wii.</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>Liggéey %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>Denc nañu ko ni mbóot %secret.</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Xeet</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Siiwal bu mujj</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>Bàyyi xët yii</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>Bàyyi xaaj yii</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Lëkkalekaay yi</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>Lëkkalekaay yu ñu bindaat</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>Sit bu dund</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>Xool tabax bi</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>Araf yu ndaw, nimero, _ ak -, misaal github-public. Mooy tudd dosie bi ak màndarga yi (static/&lt;id&gt;/&lt;n&gt;) te mënuñu koo soppi ginnaaw.</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>Defar caabi bu bees</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>Sos benn jëmuwaay</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>Defar caabi bi</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>Sosal dénkukaay bi ci host bi njëkk; bu neen bi baax na.</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>Limu fisie yi (manifest)</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Bataaxal</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>Li ëpp ci xët yi</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Tur</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>Turu token bi ci Defar &gt; Mbóot yi</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>Jëmuwaay bu bees</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Ci topp</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>Déedéet</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>Amagul benn commit.</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>Defaruñu benn caabi: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Gisuñu benn prograam bu php ci rëdd ndigal. Tëralal migration.ini [AdminSettings] PhpCliPath ci yoonam wu mat.</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>Amagul benn màndarga.</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>Amagul benn jëmuwaay.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Dara</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>Nekkul ci tabax bi.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>Siiwaluñu dara ba léegi.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>Siiwaluñu dara ba léegi: fisie bu nekk bu bees la.</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>Yégle</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>Ci tëralin waxtu</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>Ci konsol bi</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>Ci serwëer bi: ./console exp:static:serve %id dafay joxe ko ni noonu.</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>Benn yoon ci rëdd bu nekk, * dafay méngoo ak bépp pàcc: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>Tur rekk lañuy denc ak jëmuwaay bi; token bi walla caabi bi ci boppam dafay des ci Defar &gt; Mbóot yi te du feeñ mukk ci benn log.</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>Li xët yi tudd rekk</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>Ak token rekk. env:NAME dafay jàng ci barab bi benn soppikuwaayu wërwërlu serwëer bi.</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>Ubbi xool lu jiitu</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>Dafay ubbi tabax bi ni host bi koy joxe, ci dosieu jëmuwaay bi. Lëkkalekaay bi dafay dox ci yaw benn waxtu.</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>Du lu war. Neen: li ñu siiwal.</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>Du lu war. Ak domen, sit bi dañu koy joxe ci reenam.</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Génn</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>Xët yi</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>Xëti jëmuwaay bi</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>Xët yu ñu bañ</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>Liggéey ginnaaw</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Xool lu jiitu</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>Xool lu jiitu te siiwal</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>Xool lu jiitu te siiwal %name</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>Xool tabax bi lu jiitu</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Jëm kanam</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>Adrees bu siiwu</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>Caabi bu siiwu</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>Siiwal</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>Siiwal benn kopi bu taxaw bu sit ci GitHub Pages walla ci bépp host git: tabax ko, saytu coppite yi, siiwal, te dellu ci benn siiwal bu jiitu bu soxlaa.</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>Siiwal bi ñuy dellu</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>Siiwal yi</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Yónnee (push)</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>Jàngal njàngale mi</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Bind-bind</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Bañ nañu ko</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>Relatif</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Yeesal</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>Dindi nañu ko</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>Wecci caabi bi: bu màggat bi dafay taxaw</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Rapóor</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>Rapóoru tabax bi</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Dénkukaay</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Saytu</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>Saytu dafay seet tànneef bu nekk te wone rëdd yi ñuy bind. Dencagul dara.</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Dellu ginnaaw</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Dellu ginnaaw</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Denc</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>Tëralin waxtu</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>Xëtu seet</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>Id yu xaaj yi, ñu xaajale leen ak wirgul.</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>Yónnee leen ci sit bu dund bi</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>Tànneef</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Tànneef yi</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>Tànneefi %name</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Defar</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Defar &gt; Mbóot yi</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>Dañu koy wone ci lim yi, misaal &quot;Sit bu siiwu ci GitHub Pages&quot;.</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>Duggu ak GitHub App dina ñëw ak boole GitHub.</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>Sit</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>Sit bi ñuy siiwal</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Dayo</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>Dayo ak dig</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>Dayob tabax bi</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Xët yu màggat</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Tàmbali na</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>%user moo ko tàmbali ci %time.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Nekin</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Siiwal bu taxaw</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>Siiwal bu taxaw bi dafa fey</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Siiwal bu taxaw bi dafa fey.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>Siiwal bu taxaw bi dafa fey. Taalal ko njëkk ci Defar &gt; Siiwal bu taxaw.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>Siiwal bu taxaw bi dafa taal.</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>Ndëgërte %step ci %total</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Ndëgërte yi</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>Setal</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Fey</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Taal</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>Taal siiwal bu taxaw</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Màndarga</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>Màndarga yi</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Jëmuwaay</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>Mën nañu sos jëmuwaay yi te soppi leen, waaye dara du tabaxu walla siiwalu ba mu taal.</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>Dafay wax motoor yu seet yi li ñu war a jàng.</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>Mënuñu woon a sànni tabax bi: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>Tabax bi ak siiwal bu mujj bi benn lañu: amul dara lu ñuy siiwal.</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>Sànni nañu tabax bi: dosie bi dafa ëmbaat siiwal bu mujj bi.</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>Li ñu tànn bu njëkk dafa baax ci li ëpp ci sit yi.</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>Dosie bi dafa ëmb tabax bu ñu siiwalagul; tabax bu bees dina ko wecci.</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>Mënuñu bind ci dosieu liggéey yi: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>Mënuñu woon a waajal liggéey bi: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>Mënuñu woon a tàmbali liggéey bi.</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>Liggéey bi jeex na. Ñu ngi yeb rapóoram.</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>Liggéey bi soxla na jëfandikukat bu dugg.</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>Tàmbali nañu liggéey bi waaye waxul id bu jëfam. Saytul %detail.</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>Caabi bi</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>Fisie bi gën a mag: %path, %size.</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Rëdd yi ñuy bind</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>Limu xët yi ngir motoor yu seet yi; soxla na adrees bu siiwu bi.</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>Xët yi dañu leen di yóbbu ni leen ganaa bu duggul di gise. Siteaccess yu yorin ak yu soppi duñu leen joxe mukk.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>Mënuñu woon a topp jëm kanam bi. Yeesalal xët wi ngir gis naka la liggéey biy doxe.</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>Genn-wàll gu siiwu gu caabi bi:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>Reenu car bi</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>Dencukaayu mbóot yi defaruñu ko ba léegi (./console exp:upgrade --apply moo koy sos taabalam), kon mënuñu denc benn caabi.</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>Serwëer bi dafay duggu ci boppam (ak caabi SSH bu moom walla ndimbalu firndeel), walla dénkukaay bi ci serwëer bii la nekk.</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>Mënuñu woon a bind tànneef bi: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Tànneef yi baax nañu. Rëdd yii lañuy bind:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Mënuñu jàng fisieu tànneef yi: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>Sit bi dafay dellu ci fisie yu siiwal boobu; tabax bu ñu siiwalagul war nañu ko siiwal walla sànni ko njëkk.</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>Xët bu sit bi ci boppam ngir adrees yu amul.</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>Mënuñu woon a denc jëmuwaay bi: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>Jëmuwaay bi duggagul ak caabi bii: tànnal &quot;Caabi yónnee bu ñu defar ngir jëmuwaay bii&quot; ci tànneefam.</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Mënuñu woon a jàng jëmuwaay yi: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>Amagul tabax bu ñuy saytu.</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>Installation bii amul siteaccess bu kanam. Siteaccess yu yorin ak yu soppi duñu leen siiwal mukk.</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>Xët wii dafay topp liggéey bi ni muy doxe; dafay wéy ci ginnaaw bu ñu tëjee xët wi.</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>Jëmuwaay bii amagul caabi yónnee.</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>Tabaxaguñu jëmuwaay bii fii.</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>Jëmuwaay bii am na benn.</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>Dafay sànni tabax bii: dosie bi dafa ëmbaat siiwal bu mujj bi. Sit bu dund bi du soppiku.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>Tànnal &quot;Saytu naa coppite yi&quot; njëkk.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Waxtu</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>Li koy tàmbali</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>Bindaatal turu màndarga mi</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>Soppikuwul</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>Webhook</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Lan</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>Li soppiku</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>Li fisie bu nekk di; saa su nekk lañu koy bind.</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>Li liggéey bi def ak bind-bindam. Liggéey bu ñu tàmbali fii dafay wéy ci ginnaaw bu ñu tëjee xët wii.</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>Li liggéey bi génne ni njuumte</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>Li xët yi tudd, ak nataal bu nekk bu ëmbit bu ñu siiwal</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Kañ</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>Bu siiwal bi fakkastaloo</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>Bu siiwal bi sottee</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>Bu ñu siiwalee ëmbit</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>Fan la lëkkalekaay yiy jëm ci li kopi bi ëmbul (seet, duggu).</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>Fan lañuy joxe kopi bu taxaw bi.</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>Ban sit lañuy siiwal, ak naka lañuy woowe jëmuwaay bi.</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>Dafay dox ci suufu bépp yoon. Li ñu tànn bu njëkk.</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>Dañu koy bind saa su ñu tëralee domen bu sa bopp.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>Waaw</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>Mën nga saa su nekk tabax te siiwal ak loxo fii ak ci konsol bi.</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>tur rekk; li mu ëmb dafay des ci Defar &gt; Mbóot yi</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>ci suufu %path</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>jeex na te amul rapóor</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>yokkute</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>fakkastalu na</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>fisie</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages, walla main ak dosie docs.</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>host git</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (ak token) walla git@github.com:owner/repo.git (ak caabi yónnee); baatu jàll walla token bu ci nekk mukk.</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/, ngir kàrtu sit bi ak lëkkalekaay yu canonique yi.</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>nataal</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>mukk</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>déedéet</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>amul dénkukaay bu sore</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>dara: commit yi dañuy des ci dosie bi</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>dara: dara soppikuwul</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>yónneeguñu ko</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>dara soppikuwul</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>xët</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>sotti na</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>proc_open dañu ko fey, kon mënuñu tàmbali liggéey fii. Jëfandikool ./console exp:static:build ci serwëer bi.</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>siiwal</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>siiwal nañu ko</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>yónnee bi ngi xaar</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>yónnee nañu ko</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>bañ nañu ko</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>relatif</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>dellu ginnaaw</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>delloo nañu ko ginnaaw</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>mu ngi dox</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>dosie bi rekk</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: dañu koy bind ci fisie CNAME. Jubbalal DNS bu domen bi ci host bi ni mu ko leeralee; HTTPS mën na yàgg ba muy tàmbali.</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>waaw, siiwaluñu ko ba léegi</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>Benn GitHub App</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>Benn workflow bu dénkukaay bi moo koy siiwal. Tabax bi dina bind fichier workflow bi; bàyyil dossier bi mu des neen.</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>Su nga dencee benn jëmuwaay ak benn dénkukaay GitHub ak benn token walla GitHub App, ndëgërte bii mën na sos dénkukaay bi te taal GitHub Pages. Su dul loolu, nga njëkk sos dénkukaay bi ci GitHub; bu neen baax na.</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>Car walla GitHub Actions?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>Saytul DNS bi</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>Sos dénkukaay bi bu amul</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>Sosal dénkukaay bi ci GitHub te taal GitHub Pages ci tànneefam yi (Settings &gt; Pages).</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>Dina sos dénkukaay bi %repo bu amul (bu ñu ko laajee), taal GitHub Pages ci car bi walla ci GitHub Actions ni ko ñu dencee, te taxawal domen bu sa bopp bi ak HTTPS. Dafay jëfandikoo tànneef yi ñu denc: njëkkal denc coppite yi.</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>Leeral yi ci GitHub</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>Njëkkal bind domen bu sa bopp bi.</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>Push bu nekk ñu ngi koy njëkk saytu ci dig yii.</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>Ngir benn adrees https:// ci GitHub. App bi ñu taxawal ngir istalaasioŋ bii moo koy dugg; dafa soxla id bu istalaasioŋ bi.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages du jox dénkukaay bu sutura ndax ci benn plan bu ñuy fey rekk.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: benn sous-domen (www.example.com) dafa soxla benn bind CNAME bu jëm &lt;owner&gt;.github.io; benn domen bu njëkk (example.com), bind A yi %ips.</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>Id bu istalaasioŋ bu GitHub App bi</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>Tabax bu mujj bu Pages</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>Dig yi ak sàrt yi</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>Laaj nañu ko ngir GitHub Pages ci benn plan bu ñu dul fey.</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>Ci GitHub</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>Ak benn GitHub App rekk: nimero bi nekk ci mujjug adrees bu istalaasioŋ bu App bi ci GitHub. App bi ci boppam ñu ngi koy taxawal ci staticcache.ini (GitHubAppId, GitHubAppKey).</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>Sutura</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>Siiwu</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>Njëkkal denc jëmuwaay bi ak benn dénkukaay GitHub ak benn token walla GitHub App.</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>Taxawalal bind yii ci ki jox domen bi:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>Taxawal ci GitHub</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>DNS bu %domain jëmagul ci GitHub Pages ba léegi.</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>DNS bu %domain jëm na ci GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>Ëmbaale GitHub amul fii: %problem. Siiwal ci car bi dafay dox rekk; taalal GitHub Pages ci tànneef yu dénkukaay bi.</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>Ndëgërte yu GitHub amuñu ngir jëmuwaay bii: %problem.</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>Nekinu GitHub Pages dañu koy wone bu firndeelu duggu bi di benn token walla GitHub App.</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>Jëfandikool sa domen bu sa bopp</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>Lan lañuy tànn: token, caabi yónnee walla GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>Ak benn dénkukaay GitHub ak benn token walla GitHub App, ndëgërte yi mën nañu la sos dénkukaay bi, taal GitHub Pages te taxawal domen bi (ndëgërte 4).</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>mungiy tabax</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>tabax nañu ko</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>ci GitHub Actions</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>ci car bi %branch</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>dara ba léegi</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>gisuñu ko</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>fey na</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>sutura</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>siiwu</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>ci rëdd bi</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>xamuñu ko</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%count ci %pages xët:</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>Benn .gz (ak .br) ci wetu fiise bu nekk bu mbind, ngir host yi koy jox.</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>Benn xët bu ndaw ngir adrees bu mag bu nekk ak tur bu wuute bu xët, ngir lëkkalekaay yu yàgg yi di dem.</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>Dañu koy bindal saa su nekk bu GitHub Actions di yónnee sit bi.</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>Benn id SPDX niki CC-BY-4.0, walla mbind mi boppam.</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>Pañe</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>Woote ci serwëer bi</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Tontu yi</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>Formulaar yi di dajale xibaar</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>Workflow GitHub Actions</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>Barab bu neen bu tuuti te amul tontu ci xët yi.</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>Lisaas bu ëmbit bi</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Dugg</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>Minify</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>Yeneen formulaar</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>Precompress</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>Xët yu jëme</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>Xët yu jëme: %count.</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Seet</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>Index bu seet: %pages xët ci %languages.</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>Xët yu melo ak script yi tur bi dafa jóge ci hash ëmbit bi, ngir browser yi mën leen fay denc.</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>Xët yi soppeeku, ay simili ginaaw soppi gu mujj (pàrtu cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>Lisaas bu ëmbit bi, ci wàll bi ci suuf.</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>Sit bi yépp, ci waxtu yu pexe mi (pàrtu cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>Xët yi am nañu ay pàrt yu soxla serwëer; ku nekk am na ku koy wuutu. Seetlul leen balaa ngeen siiwal.</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>Li du dox ci anam bu taxaw</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>Li repozitoor bi di, ngir ku ko ubbi ci host bi.</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>bayyi nañu ko</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>mbind mu wuutu</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>adreesu formulaar yu sit bu dund bi</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>sit bu dund bi</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>xëtu seet bu kopi bi</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>Formulaar bi mënul a yónnee.</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>Jërëjëf: formulaar bi yónnee nañu ko.</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>Formulaar bi nangu nañu ko: seetal li nga dugal te yónnee ko beneen yoon.</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>Far lëkkalekaay yi jëm ci xët yi kopi bi amul</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>Far lëkkalekaay yi jëm ci saytukaay bi</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>Seen mbind dina des. Nataal yi, formileer yi ak lëkkalekaay yi jëm ci yeneen dalu web duñu leen mukk far.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Wersiyoŋ</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>Buntu sit yi ñuy siiwal</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Buntu sit</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>Ci reen bi</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>Amul buntu sit ci reen bi: bu nekk mu ngi ci kàrtaabam, reen bi di leen jokkoo</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Buntu sit yi</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>Tànnal benn buntu sit, walla yu bare yu bokk benn yakkukaay ci seen tàmbalit URI. Bi nekk ci reen bi dañu koy jox foofa, yeneen yi ci kàrtaabu seen tàmbalit (/ger/); lëkkalekaay yi ci seen diggante dinañu des ci duppi bi. Buntu yorkat yi duñu leen mukk joxe.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>Siiwal bu dëgër bu %target antuwul ci %site</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>Siiwal bu dëgër bu %target antu na ci %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>%site moo yónne bataaxal bii ndax jublu siiwal bu dëgër %target da koy laaj.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>Yóbbu %deploy fakkastalu na ci %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>Yóbbu %deploy mi ngi xaar ci benn bunt ci %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>Yóbbu %deploy antu na ci %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>Bataaxal bii %site moo ko yónni ndax migration.ini [RemoteSettings] Notify[] moo ko laaj.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>Xeeti done (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>Lim nañu ko %time, dinañu ko waat ginnaaw %minutes simili</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>Xeetu done dafay denc ak soppi benn xeetu njëgu atribi yu klaas: benn rëddu mbind, benn nataal, benn jokkoo. Xol bi moo leen di indi lu ëpp, yokkute yi di yokk yeneen. Fii la ñépp nekk, ku leen di joxe ak naka la ci ëmbit li di leen jëfandikoo. Xeetu done bu dàttub done bi di jëfandikoo waaye dara bindatu ko, day yàq ëmbit li ko am.</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>Mbooloou klaas yi</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>Waatal limu léegi te bañ a jëfandikoo limi simili yi weesu.</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>Waatal limu</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Gisaat gu mat</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>Bind nañu seen tur</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>Ñu ngi koy jëfandikoo</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>Jëfandikoowuñu ko</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>Yokkute yi di joxe xeeti done</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>Atribi yu klaas bi</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>Atribi yu objee bi</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>Bindu ñu ko</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>Bind nañu ko, fiise bi amul</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>%count xeetu done ñoo ngi jëfandikoo waaye bindu ñu leen</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>%class_attributes atribi yu klaas ak %object_attributes atribi yu objee am nañu xeetu done bu benn yokkute walla benn tànnéef bindul. Objee yi mënuñu leen wone, soppi walla siiwal. Doxal yokkute bi joxe xeetu done bi, walla soppil klaas bi.</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>Wone yii rekk</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>Seet benn xeetu done</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>Màndarga, tur, klaas PHP walla yokkute.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Wone</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Yépp</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>Ki koy joxe</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>Ñépp</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>Xol</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>Amul benn xeetu done bu dëppoo ak segg bii.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Wone yépp</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>Yokkute</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%shown ci %count xeetu done, %used ñoo ngi jëfandikoo</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>Dàttub done bi am na atribi yu klaas walla yu objee yu xeeti done yii, waaye content.ini binduñu benn ci ñoom, walla fiiseem amul.</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>Xeeti done yu %provider</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>Xeetu done</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>Klaas PHP ak fiise</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>Klaas yi</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>Objee yi</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>Màndarga yi</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>dara</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>Amul benn xeetu done bu dëppoo ak seet bi. Far seet bi.</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>%shown ci %count xeetu done lañu wone</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>Xeeti done yi ñu wone: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>Toftale ci %column</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>Lim nañu ko %time</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>Xeeti done yépp</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>Xëtu ndimbal</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>Xeetu done bii ñoo ngi koy jëfandikoo waaye bindu ñu ko</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>Objee yu klaas yi ci suuf mënuñu leen wone, soppi walla siiwal li feek benn yokkute bindul xeetu done bi. Doxal yokkute bi koy joxe te yokk ko ci content.ini [DataTypeSettings] AvailableDataTypes[], walla soppil klaas yi.</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini bind na xeetu done bii, waaye amul benn kaa-u xeeti done bu am fiiseem. Dara jëfandikoowul ko; far ko ci AvailableDataTypes[] walla doxal yokkuteem.</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>Ci mbirum xeetu done bii</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>Màndarga xammee</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Tur</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Yokkute %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>kenn</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>Klaas PHP</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Fisie</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>Ci AvailableDataTypes[]</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>waaw</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>déedéet</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>Kolon yu njëg li</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>Kolon yu tànnéefi atribi yu klaas bi</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>Taabal yi</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>Kolon yi ak taabal yi dañu leen gis ci jàng kodu xeetu done bi: gindi la, du digé.</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>Tampale yi</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Buntu sit</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>Tampale</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>Ñu ko gis ci</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>saytu bii</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>sit bu jëkk</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>Bañ a boole wecciku yi: tampale wecciku bu dëppoo ak klaas walla atribi moo gën yii.</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>Klaas yi koy jëfandikoo (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>Amul benn klaas bu am atribi bu xeetu done bii.</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Klaas</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>Atribi yi</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>Atribi yu klaas bi (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>Atribi</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Tànneef yi</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>War na</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>Mën nañu ko seet</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>Mën na ñu ko tekki</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>Dafay dajale xibaar</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>Lenn ci ëmbit li koy jëfandikoo</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>Bi ñu mujje soppi jëkk</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Soppi nañu ko</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>Noo %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>Benn-benn ci tekki yi am na njëgam.</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>Seet bi dafay bind njëg yi ci endeks.</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>Mën na dajale xibaar ci ganaayi yi (formuleer).</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>Mën nañu ko jëfandikoo ngir toppatoo lim yi: caabiy toppatoo %type.</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>Mën na ñu ko toftale</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>Njëg yi dañuy jublu ci yeneen objee.</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>Lëkkalook yi</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>Mën nañu ko feesal ci mbind mu yomb (indi, REST).</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>Ci mbind</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>Mën nañu ko feesal ci benn fiise.</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>Ci fiise</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>Tànnéefi atribi yu klaas bi dañuy dugg ci pakk yi.</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>Paket yi</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>Li ci biir (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from ba %to ci %count</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Sef limu bi</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>Klaas yépp</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Xaaj</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Làkk yi</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Boroom</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Siiwalees na</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>Wëlbatiku toftaleef bi</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Amul benn elemaa</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Ci xët</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Wone %count elemaa ci benn xët.</translation>
     </message>
 </context>
 </TS>

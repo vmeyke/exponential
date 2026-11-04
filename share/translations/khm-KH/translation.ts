@@ -984,6 +984,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>ស្វែងរកតែទំព័រនេះប៉ុណ្ណោះ: %from ដល់ %to ក្នុងចំណោម %count។</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>ប្រភេទទិន្នន័យទាំងអស់នៃស្នូល និងផ្នែកបន្ថែម និងរបៀបដែលថ្នាក់ និងមាតិកាប្រើវា។</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>ប្រភេទទិន្នន័យ</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2316,6 +2324,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>ទំព័រប្រព័ន្ធក៏អាចចំណាំបានដែរ: សូមបើកទំព័រ (ការរៀបចំ ប្រវត្តិសវនកម្ម បញ្ជីអ្នកប្រើ ...) ហើយជ្រើសរើស "ចំណាំទំព័រនេះ" នៅខាងលើវា។ ចំណាំបែបនេះមានរូបតំណាងស្ពឺរ។</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>អ្នកលែងអាចបើកទំព័រនេះនៅទីនេះបានទៀតហើយ។ សូមដកចំណាំចេញ ឬសុំការចូលប្រើពីអ្នកគ្រប់គ្រង។</translation>
     </message>
 </context>
 <context>
@@ -5165,6 +5177,210 @@
         <source>Go to the first page</source>
         <translation>ទៅកាន់ទំព័រទីមួយ</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>ផ្សេងៗ</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>7 ថ្ងៃចុងក្រោយ</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>ចន្លោះកំណត់ផ្ទាល់ខ្លួន</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>ពាក្យទាំងអស់</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>ពាក្យណាមួយ</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>ឃ្លាពិតប្រាកដ</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>ភាពពាក់ព័ន្ធ</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>ឈ្មោះ ក–អ</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>ឈ្មោះ អ–ក</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>បានកែប្រែ ថ្មីបំផុតមុន</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>បានកែប្រែ ចាស់បំផុតមុន</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>បានផ្សាយ ថ្មីបំផុតមុន</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>បានផ្សាយ ចាស់បំផុតមុន</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>បានកែប្រែ</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>តម្រង</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>បង្ហាញតម្រង</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>លាក់តម្រង</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>កំណត់ឡើងវិញ</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>អនុវត្ត</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>ពាក្យ</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>ប្រភេទមាតិកា</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>បង្ហាញបន្ថែម (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>ជ្រើសរើសប្រភេទមាតិកាមួយ ដើម្បីស្វែងរកក្នុងលក្ខណៈមួយរបស់វា។</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>ផ្នែក</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>ពី</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>ទៅ</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>កាលបរិច្ឆេទចាប់ផ្ដើមមិនមែនជាកាលបរិច្ឆេទត្រឹមត្រូវទេ។</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>កាលបរិច្ឆេទបញ្ចប់មិនមែនជាកាលបរិច្ឆេទត្រឹមត្រូវទេ។</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>ម្ចាស់</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>ID អ្នកប្រើ ឈ្មោះចូល ឬអាសយដ្ឋានអ៊ីមែល។</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>រកមិនឃើញអ្នកប្រើសម្រាប់ “%input” ទេ។</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>ភាសា</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>ភាសាណាមួយ</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>ទីតាំង</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>ទីតាំង %count</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>លទ្ធផលក្នុងមួយទំព័រ</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>លទ្ធផលសម្រាប់ “%text” (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>លទ្ធផល (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>តម្រៀបតាម</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>តម្រៀប</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>តម្រងដែលកំពុងប្រើ</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>ដកតម្រងនេះចេញ</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>ឬជ្រើសរើសតម្រង ហើយអនុវត្តវា ដើម្បីរាយមាតិកាដែលត្រូវគ្នា។</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>តម្រងបង្រួមការស្វែងរក នៅពេលអ្នកបានវាយពាក្យរួច។</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>រកមិនឃើញលទ្ធផលសម្រាប់ “%text” ទេ។</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>រកមិនឃើញលទ្ធផលទេ។</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>ដកតម្រងមួយនៅខាងលើចេញ។</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>ការបកប្រែ</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>សកម្មភាព</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>កែសម្រួល %name</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>កែសម្រួល</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -7514,6 +7730,10 @@
         <source>Setup &gt; Cronjobs</source>
         <translation>ការរៀបចំ &gt; Cronjobs</translation>
     </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>មិនទាន់មានផ្នែកការងារ cron ណាមួយដំណើរការនៅឡើយទេ: ជួរការងារ ការនាំចូល ការជូនដំណឹង និងលិបិក្រមស្វែងរកកំពុងរង់ចាំ។ សូមដំណើរការ php bin/php/installcrontab.php --add --apply ឬបន្ថែមបន្ទាត់របស់ --show ទៅក្នុង crontab ។</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/dashboard/drafts</name>
@@ -8058,8 +8278,8 @@
         <translation>សេចក្តីជូនដំណឹងអំពីសិទ្ធិអ្នកនិពន្ធរបស់អ្នកនិពន្ធដើម និងរបស់កម្មវិធីភាគីទីបីដែលរួមបញ្ចូលជាមួយ Exponential ត្រូវបានរក្សាទុកក្នុងឯកសារប្រភព និងក្នុងឯកសារ LICENSE ដូចដែលអាជ្ញាប័ណ្ណតម្រូវ។</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>ខាងក្រោមនេះជាបញ្ជីអ្នកចូលរួមចំណែកដល់ Exponential ដែលបានផ្តល់អាជ្ញាប័ណ្ណលើស្នាដៃរបស់ពួកគេសម្រាប់ឱ្យ 7x ប្រើប្រាស់ តាមលក្ខខណ្ឌនៃ eZ Systems Contributor Licensing Agreement។ តាមដែលកិច្ចព្រមព្រៀងនេះអនុញ្ញាត 7x ចែកចាយបន្តការចូលរួមចំណែកនីមួយៗក្រោមអាជ្ញាប័ណ្ណដូចគ្នានឹងឯកសារដែលការចូលរួមចំណែកនោះស្ថិតនៅក្នុង។ បញ្ជីនេះរាយឈ្មោះអ្នកចូលរួមចំណែកម្នាក់ៗ ព័ត៌មានទំនាក់ទំនង (ស្រេចចិត្ត) និងឯកសារដែលពួកគេបានចូលរួមចំណែក។</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>អ្នករួមចំណែកដែលទទួលបានការទទួលស្គាល់ចំពោះការងាររបស់ពួកគេលើ Exponential និងលើកម្មវិធីដែលវាកើតចេញមក រួមជាមួយឯកសារដែលពួកគេបានរួមចំណែក។ នេះគឺជាការទទួលស្គាល់ មិនមែនជាសេចក្ដីជូនដំណឹងអំពីសិទ្ធិអ្នកនិពន្ធទេ៖ ការរួមចំណែកដល់ Exponential ត្រូវបានផ្ទេរទៅ Exponential Foundation និង 7x ក្រោម Contributor Licensing Agreement។</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13881,32 +14101,20 @@ Note: The packages will not be uninstalled.</source>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%evaluate_link"&gt;វាយតម្លៃ Exponential Enterprise Edition&lt;/a&gt; - &lt;a href="%share_link"&gt;ក្លាយជាសមាជិកនៃសហគមន៍ Exponential ផ្លាស់ប្តូរ និងចូលរួមចំណែក&lt;/a&gt;។ &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; រក្សាសិទ្ធិ &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; និងអ្នកដទៃ។</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class="edition-info"&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>ដំណើរការដោយ &lt;span class="edition-info"&gt;%edition&lt;/span&gt;។ សម្រាប់ព័ត៌មានបន្ថែម សូមមើល &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;។</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; រក្សាសិទ្ធិ &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; និងអ្នកដទៃ។</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> សម្រាប់ព័ត៌មានបន្ថែម សូមមើល &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;។</translation>
     </message>
     <message>
-        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; រក្សាសិទ្ធិ &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; និងអ្នកដទៃ។</translation>
+        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href="%evaluate_link"&gt;វាយតម្លៃ Exponential (ពី 7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;ក្លាយជាសមាជិកនៃសហគមន៍ Exponential ទទួលការគាំទ្រ និងចូលរួមចំណែក&lt;/a&gt;។</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; រក្សាសិទ្ធិ &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; និងអ្នកដទៃ។</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13915,6 +14123,61 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Help center</source>
         <translation>មជ្ឈមណ្ឌលជំនួយ</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>មាតិកា</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>ទំព័រឯកសារ</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>អ្នកប្រើ</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>ថ្នាក់មាតិកា</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>ការគ្រប់គ្រង</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>ទំព័រ %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>មើលលទ្ធផលទាំងអស់</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>លទ្ធផល %count</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>លទ្ធផលមួយ</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>សំណើ %count</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>គ្មានសំណើ</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>មិនអាចផ្ទុកសំណើបានទេ។</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>សំណើ</translation>
     </message>
 </context>
 <context>
@@ -14383,6 +14646,14 @@ Note: The packages will not be uninstalled.</source>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>ការដំឡើងនេះជាការបង្ហាញសាធារណៈ: អ្នកណាក៏អាចដឹងពាក្យសម្ងាត់អ្នកគ្រប់គ្រងរបស់វា ហើយពាក្យសម្ងាត់អ្នកគ្រប់គ្រងមិនអាចផ្លាស់ប្តូរ ឬកំណត់ឡើងវិញបានទេ។ សូមកុំបញ្ចូលអ្វីដែលជាឯកជននៅទីនេះ។</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>ឧបករណ៍របស់អ្នក</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>សកម្មភាពសុវត្ថិភាព</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14672,6 +14943,14 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>ការណែនាំ ការស្វែងរក និងរបៀបរាយការណ៍កំហុស។</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>មាតិកាថ្មីៗ</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>មាតិកាថ្មីបំផុត អ្វីដែលត្រូវបានឃាត់ទុកសម្រាប់ពិនិត្យ និងសកម្មភាពលើធាតុដែលបានជ្រើសរើស។</translation>
     </message>
 </context>
 <context>
@@ -15130,6 +15409,46 @@ Note: The packages will not be uninstalled.</source>
         <source>Synchronisations</source>
         <translation>ការធ្វើសមកាលកម្ម</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>GraphQL API៖ ចំណុចបញ្ចប់របស់វា គ្រោងការណ៍ និងកន្លែងសាកល្បងសំណួរ។</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>ការផ្ទេរ</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>ការផ្លាស់ប្ដូរលើការដំឡើងដែលរក្សាទុកជាឯកសារ៖ ស្ថានភាពរបស់វា ការដំណើរការ ដំណើរការ និងត្រឡប់វិញ។</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>មាតិកាថ្មីៗ</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>មាតិកាថ្មីបំផុត អ្វីដែលត្រូវបានឃាត់ទុកសម្រាប់ពិនិត្យ និងសកម្មភាពលើធាតុដែលបានជ្រើសរើស។</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>បោះពុម្ពផ្សាយច្បាប់ចម្លងឋិតិវន្តនៃគេហទំព័រទៅ GitHub Pages ឬម៉ាស៊ីន git ណាមួយ។</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>ការបោះពុម្ពផ្សាយឋិតិវន្ត</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>ប្រភេទទិន្នន័យ</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>ប្រភេទទិន្នន័យទាំងអស់នៃស្នូល និងផ្នែកបន្ថែម និងរបៀបដែលថ្នាក់ និងមាតិកាប្រើវា។</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15294,6 +15613,22 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>គណនីដែលគ្មានអ្នកប្រើ ឬត្រូវការពិនិត្យ បិទ ដោះសោ ឬនាំចេញពួកវា។</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>កំណត់ហេតុសវនកម្មអ្នកប្រើ</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>អ្នកណាបានកែប្រែ ចូល ឬត្រូវបានបដិសេធ តាមគណនីនីមួយៗ ព្រមទាំងត្រង និងនាំចេញ។</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>របាយការណ៍ការចូល</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>អ្នកណាកំពុងចូល ការចូល និងការបរាជ័យក្នុងមួយថ្ងៃ ហើយចាកចេញអ្នកប្រើម្នាក់ពីគ្រប់ទីកន្លែង។</translation>
     </message>
 </context>
 <context>
@@ -22110,6 +22445,22 @@ Note: The packages will not be uninstalled.</source>
         <source>%n hours ago</source>
         <translation>%n ម៉ោងមុន</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>ចម្លើយនៃសំណួរដែលបានរក្សាទុករបស់ GraphQL API និងថ្នាក់មាតិកានៃគ្រោងការណ៍របស់វា។</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>បោះពុម្ពផ្សាយច្បាប់ចម្លងឋិតិវន្តទៅ GitHub Pages ឬម៉ាស៊ីន git ណាមួយ</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>ការបោះពុម្ពផ្សាយឋិតិវន្ត</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>ឃ្លាំងសម្ងាត់ឋិតិវន្តបម្រើទំព័រពីម៉ាស៊ីនមេនេះ។ ដើម្បីបោះពុម្ពផ្សាយច្បាប់ចម្លងឋិតិវន្តនៃគេហទំព័រនៅកន្លែងផ្សេង លើ GitHub Pages ឬម៉ាស៊ីន git ណាមួយ សូមប្រើការបោះពុម្ពផ្សាយឋិតិវន្ត។</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25651,6 +26002,10 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>last purge</source>
         <translation>ការសម្អាតចុងក្រោយ</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>ការសរសេរមិនអាចយកសោស្ថានភាពបានទេ (ចុងក្រោយ %date)៖ ការសរសេរនីមួយៗបានធ្វើឲ្យលទ្ធផលក្នុងឃ្លាំងសម្ងាត់ទាំងអស់ហួសសម័យ។ %file ត្រូវតែអាចសរសេរបានដោយអ្នកប្រើគ្រប់រូបដែលគេហទំព័រដំណើរការជា; នៅលើ NFS វាត្រូវការ NFSv4 ឬ lockd។</translation>
     </message>
 </context>
 <context>
@@ -33599,6 +33954,14 @@ Note: The packages will not be uninstalled.</source>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>វគ្គដែលផុតកំណត់របស់កម្មវិធីគ្រប់គ្រង PHP ត្រូវបានដកចេញដោយ PHP ខ្លួនវាផ្ទាល់ (session.gc_maxlifetime) មិនមែនដោយទំព័រនេះ ឬផ្នែកការងារ cron session_gc ទេ។</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>វគ្គដែលបានចូលរបស់អ្នកប្រើគ្រប់រូបត្រូវបានរាយ និងអាចចាកចេញបាន នៅលើរបាយការណ៍ការចូល ដែលដំណើរការជាមួយឧបករណ៍គ្រប់គ្រងវគ្គគ្រប់ប្រភេទ។</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>បើករបាយការណ៍ការចូល</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37923,6 +38286,26 @@ your account.</source>
     <message>
         <source>None yet</source>
         <translation>មិនទាន់មាន</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>សកម្មភាពសុវត្ថិភាព</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>ការចូលថ្មីៗ ការប៉ុនប៉ងដែលបរាជ័យ និងការផ្លាស់ប្តូរពាក្យសម្ងាត់ អាសយដ្ឋានអ៊ីមែល និងការចូលពីរជំហានរបស់អ្នក។</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>ការចូលថ្មីៗ ការប៉ុនប៉ងដែលបរាជ័យ និងការផ្លាស់ប្តូរសុវត្ថិភាពរបស់គណនីនេះ។</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>ពិនិត្យសកម្មភាព</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>ការចូលបរាជ័យ %count ដង</translation>
     </message>
 </context>
 <context>
@@ -44089,6 +44472,42 @@ If you want to send comments to the approver or view the status use the URL belo
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>បន្ទាប់ពីចូល អ្នកប្រើត្រូវតែជ្រើសរើសពាក្យសម្ងាត់ថ្មី មុនពេលធ្វើអ្វីផ្សេងទៀត។ ប្រើវានៅពេលអ្នកផ្តល់ពាក្យសម្ងាត់បណ្តោះអាសន្នដល់នរណាម្នាក់។</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>ជ្រើសរើសរូបភាពដែលមានស្រាប់</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>ឯកសាររូបភាពនៃវត្ថុដែលអ្នកជ្រើសរើស ត្រូវបានចម្លងចូលក្នុងវាលនេះ។ វត្ថុផ្សេងទៀតមិនផ្លាស់ប្តូរទេ។</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>រូបភាពរបស់ "%name" ត្រូវបានចម្លងចូលក្នុងវាលនេះ។</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>រុករករូបភាព</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>ស្វែងរករូបភាពតាមឈ្មោះ</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>ស្វែងរក</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>ប្រើរូបភាពរបស់ "%name"</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>ប្រើរូបភាពនេះ</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>គ្មានរូបភាពណាត្រូវនឹងការស្វែងរករបស់អ្នកទេ។</translation>
     </message>
 </context>
 <context>
@@ -51013,6 +51432,10 @@ See the requirements page for more information.</source>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>crontab មិនត្រូវបានសរសេរទេ (%reason)។ សូមបន្ថែមបន្ទាត់ទាំងនេះទៅក្នុង crontab របស់អ្នកប្រើដែលគេហទំព័រដំណើរការជា បើមិនដូច្នោះទេ ជួរ ការនាំចូល ការជូនដំណឹង និងលិបិក្រមស្វែងរកនឹងមិនដំណើរការឡើយ:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>ការដំឡើងឡើងវិញធ្វើឡើងដោយ Kickstarter (%file បន្ទាប់មក php bin/php/kickstarter.php run --apply) ឬដោយការដំឡើងថ្មីទាំងស្រុង។</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54892,6 +55315,10 @@ your account.</source>
         <source>eZJSCore Public Packer cache</source>
         <translation>ឃ្លាំងសម្ងាត់កម្មវិធីបង្រួមសាធារណៈរបស់ eZJSCore</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>ឃ្លាំងសម្ងាត់ GraphQL (ចម្លើយ និងថ្នាក់គ្រោងការណ៍)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54978,6 +55405,14 @@ your account.</source>
     <message>
         <source>Copy of %class_name</source>
         <translation>ច្បាប់ចម្លងនៃ %class_name</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>ប្រភេទទិន្នន័យ</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>ប្រភេទទិន្នន័យ %string</translation>
     </message>
 </context>
 <context>
@@ -55804,6 +56239,26 @@ your account.</source>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>មិនអាចអានរូបភាព SVG បានទេ ឬគ្មានអ្វីក្នុងវាដែលអាចបង្ហាញបានដោយសុវត្ថិភាពទេ។</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>មិនអាចចម្លងរូបភាពបានទេ។ សូមព្យាយាមម្តងទៀត ឬទាក់ទងអ្នកគ្រប់គ្រងគេហទំព័រ។</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>វត្ថុដែលបានជ្រើសរើសមិនមានទេ ឬអ្នកមិនមានសិទ្ធិអានវា។</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>វត្ថុដែលបានជ្រើសរើសមិនមានរូបភាពទេ។</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>មិនអាចអានឯកសាររូបភាពនៃវត្ថុដែលបានជ្រើសរើសបានទេ។</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>រូបភាពនៃវត្ថុដែលបានជ្រើសរើសធំជាងទំហំដែលវាលនេះអនុញ្ញាត៖ %1 បៃ។</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56334,6 +56789,42 @@ your account.</source>
         <source>The bookmark was renamed to "%name".</source>
         <translation>ចំណាំត្រូវបានប្តូរឈ្មោះទៅជា "%name"។</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>ទំព័រនេះត្រូវបានបិទនៅក្នុងការចូលគេហទំព័រនេះ (%siteaccess)។ សូមបើកចំណាំនៅក្នុងការចូលគេហទំព័រដែលមានទំព័រនេះ។</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>ម៉ូឌុលនៃទំព័រនេះមិនត្រូវបានដំឡើង ឬមិនត្រូវបានបើកនៅទីនេះទេ។</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>ទំព័រនេះលែងមានទៀតហើយ៖ ម៉ូឌុលរបស់វាគ្មានទិដ្ឋភាពបែបនេះទេ។</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>គ្មានតួនាទីណាមួយរបស់អ្នកអនុញ្ញាតឱ្យអ្នកបើកទំព័រនេះទេ។</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>អ្នកមិនអាចប្រើការចូលគេហទំព័រនេះបានទេ។</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>អ្នកមិនអាចអានមាតិកាដែលទំព័រនេះបង្ហាញបានទេ។</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>ប្រភេទទំព័រនេះមិនអាចចំណាំបានទេ៖ វាគ្រាន់តែធ្វើសកម្មភាពលើទម្រង់មួយ ឬជាទំព័រសម្រាប់តែមួយភ្លែតប៉ុណ្ណោះ។</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>អាសយដ្ឋាននៃទំព័រនេះបាត់។</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>ឥឡូវនេះមិនអាចបើកទំព័រនេះបានទេ។</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56805,6 +57296,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>ប្រព័ន្ធដឹកជញ្ជូនអ៊ីមែលបានបដិសេធសារ %count ក្នុងការដំណើរការចុងក្រោយ។ សូមពិនិត្យម៉ាស៊ីនមេអ៊ីមែល និង site.ini MailSettings។</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>មានព្រឹត្តិការណ៍ %count កំពុងរង់ចាំ ហើយគ្មានការដំណើរការណាមួយនៃការងារ cron ការជូនដំណឹងត្រូវបានកត់ត្រាទេ។ សូមបន្ថែមផ្នែកការងារ cron &quot;frequent&quot; ទៅក្នុង crontab ឬដំណើរការ exp:notification:run --apply ។</translation>
     </message>
 </context>
 <context>
@@ -63061,6 +63556,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Choose another site or section with the node picker</source>
         <translation>ជ្រើសរើសគេហទំព័រ ឬផ្នែកផ្សេងដោយប្រើកម្មវិធីជ្រើសរើសថ្នាំង</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>មានតែអ្នកគ្រប់គ្រងប្រព័ន្ធប៉ុណ្ណោះដែលអាចប្តូរម្ចាស់បាន: សូមដំណើរការ ./console exp:content-check --fix-permissions --apply ជា root ។</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64594,6 +65093,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>empty</source>
         <translation>ទទេ</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>សោចុះហត្ថលេខាមានអាយុលើសពីមួយឆ្នាំហើយ: សូមបង្វិលវាដោយប្រើ exp:audit key rotate --apply ។</translation>
     </message>
 </context>
 <context>
@@ -68424,6 +68927,486 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Share of page time</source>
         <translation>ចំណែកនៃពេលវេលាទំព័រ</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>បានស្នើសុំការបង្ហាញពេញលេញ</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>ឃ្លាំងសម្ងាត់ទំព័រមិនមានទំព័រនេះទេ (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>ឃ្លាំងសម្ងាត់ទំព័រមិនបានឆ្លើយតបទេ</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>បានបង្ហាញ</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>បង្ហាញដោយស្នូល: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>បានបម្រើពីឃ្លាំងសម្ងាត់ទំព័រក្នុងរយៈពេល %ms ms។ ទំព័រត្រូវបានរក្សាទុកនៅ %stored ដោយការបង្ហាញដែលចំណាយ %render ms កាលពី %age វិនាទីមុន។</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>បង្ហាញឥឡូវ</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>ត្រឡប់ក្រោយទៅទិដ្ឋភាពពីឃ្លាំងសម្ងាត់</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>ពីការបង្ហាញនៅ %stored (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>សំណើនេះ: បានបម្រើពីឃ្លាំងសម្ងាត់ទំព័រក្នុងរយៈពេល %ms ms។</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>អ្នកប្រើ</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>ID អ្នកប្រើ</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>ប្រវត្តិរូបឃ្លាំងសម្ងាត់</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>ទិដ្ឋភាពនេះ</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>ឃ្លាំងសម្ងាត់ទិដ្ឋភាព</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>តាមអ្នកប្រើនីមួយៗ (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>ប្រវត្តិរូបឃ្លាំងសម្ងាត់របស់អ្នកប្រើ៖ អ្នកប្រើដែលមានប្រវត្តិរូបដូចគ្នាចែករំលែកឯកសារឃ្លាំងសម្ងាត់ទិដ្ឋភាព</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>បាទ/ចាស</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ទេ</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>ឈ្មោះចូល</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>បានចូល</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>វគ្គ</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>ផ្នែកនៃកូនសោឃ្លាំងសម្ងាត់ទិដ្ឋភាពមាតិកាដែលអាស្រ័យលើអ្នកប្រើ ដូចដែលកូនសោយកវាពិតប្រាកដ ក្រោម ViewCacheTweaks នៃទំព័រនេះ។ អ្នកប្រើដែលមានប្រវត្តិរូបដូចគ្នាចែករំលែកឯកសារឃ្លាំងសម្ងាត់នៃទិដ្ឋភាព លុះត្រាតែផ្នែកនៃទិដ្ឋភាពខ្លួនឯងខុសគ្នា (ចំណូលចិត្ត កូនសោរបស់អ្នកស្ដាប់)៖ ផ្នែកទាំងនោះមានប្រវត្តិរូបផ្ទាល់ខ្លួន សម្រាប់តែទំព័រនេះ។</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>ប្រវត្តិរូប</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>ទិដ្ឋភាពនេះ (ថ្នាំង %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: អ្នកប្រើដែលបានចូលម្នាក់ៗមានឯកសារឃ្លាំងសម្ងាត់ផ្ទាល់ខ្លួន។</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>ViewCacheTweaks ដែលកំពុងអនុវត្ត: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>ផ្នែក</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>តម្លៃ</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>គ្មានផ្នែកណាអាស្រ័យលើអ្នកប្រើទេ (ViewCacheTweaks)។</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>ទិដ្ឋភាពនេះ</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>ចម្លងជាអត្ថបទ</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>តួនាទី</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>មិនអាចអានការចាត់តួនាទីបានទេ។</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>លេខសម្គាល់តួនាទី</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>តួនាទី</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>ការកំណត់ព្រំដែន</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>បានចាត់ឱ្យ</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>អ្នកប្រើ</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>ក្រុម %name (វត្ថុ %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>បានចម្លង</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>មិនអាចចម្លងបានទេ។</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>ត្រូវបានលុបចោលដោយអ្នកស្ដាប់</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>អ្នកទស្សនាអនាមិក</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>ដូចរបស់អ្នក</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>ខុសគ្នា</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>ប្រវត្តិរូបដែលអ្នកទស្សនាអនាមិកទទួលបានក្រោម ViewCacheTweaks ដូចគ្នា ជាមួយចំណូលចិត្តលំនាំដើម ដោយគ្មានផ្នែកនៃទិដ្ឋភាព៖ មិនអាចសួរអ្នកស្ដាប់ដែលអានសម័យសម្រាប់ពួកវាបានទេ។</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>ចំណូលចិត្តទាំងឡាយ</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>គ្មានរបៀបទិដ្ឋភាពណាអាស្រ័យលើចំណូលចិត្តអ្នកប្រើទេ (site.ini [ContentSettings] CachedViewPreferences)។</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>ចំណូលចិត្តដែលទិដ្ឋភាពនៃរបៀបទិដ្ឋភាពទាំងនេះអាស្រ័យលើ (CachedViewPreferences) ជាមួយតម្លៃរបស់អ្នកប្រើ ឬលំនាំដើម។ ពួកវាស្ថិតក្នុងប្រវត្តិរូបជា userpreferences របស់របៀបទិដ្ឋភាពទាំងអស់រួមគ្នា។</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>របៀបមើល</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>ចំណូលចិត្ត</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>លំនាំដើម</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>គោលការណ៍</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>បង្ហាញគោលការណ៍នៃតួនាទី (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>គោលការណ៍ត្រូវបានផ្ទុកពីម៉ាស៊ីនមេនៅពេលបើកផ្នែកនេះ ម្ដងមួយទំព័រ ហើយអាចត្រងតាមម៉ូឌុល និងមុខងារ។</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>មុខងារ</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>គ្រប់ម៉ូឌុល</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>មុខងារទាំងអស់</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>ការកំណត់ព្រំដែន</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>បង្ហាញបន្ថែម</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>តួនាទីទាំងនេះគ្មានគោលការណ៍ទេ។</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>គ្មានគោលការណ៍ណាត្រូវនឹងតម្រងទេ។</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%shown ក្នុងចំណោម %matching គោលការណ៍ (សរុប %total)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>ផ្ទុកនៅពេលបើក។</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>module/function, តួនាទី, ការកំណត់</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>ស្វែងរកគោលការណ៍</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>ផ្ទុកបន្ថែម</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>ម៉ូឌុល/មុខងារ</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>តួនាទីទាំងអស់ (គោលការណ៍ %count)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>គ្មានគោលការណ៍ត្រូវគ្នាទេ។</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%shown ក្នុងចំណោមគោលការណ៍ %matched</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>គ្មានចម្លើយ</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>បានបិទបាំង</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>បង្ហាញការពន្យល់</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>លាក់ការពន្យល់</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>បើក</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>បើកទាំងអស់</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>បិទទាំងអស់</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>សោ ឬតម្លៃ</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>ស្វែងរកក្នុងវគ្គ</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>ប្រភេទ</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>%count ទៀត</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>ដាក់ក្នុងគ្នាជ្រៅពេកដើម្បីបង្ហាញ</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>បានកាត់ សរុប %count តួអក្សរ</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>បានចាប់ផ្តើម</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>ឈ្មោះខុកឃី</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>លេខសម្គាល់វគ្គ</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>កម្មវិធីគ្រប់គ្រង</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>ផ្លូវរក្សាទុក</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>លំនាំដើម PHP</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>អាយុកាល (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>ខុកឃី</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>អាយុកាល %s វិនាទី</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>វគ្គ PHP ផ្ទាល់ខ្លួនរបស់អ្នក ដូចដែលវាមាននៅពេលផ្នែកនេះត្រូវបានបើក មិនដែលជាវគ្គផ្សេងទេ។ តម្លៃនៃសោដែលមើលទៅដូចជាអាថ៌កំបាំង (ថូខឹន ហាស ពាក្យសម្ងាត់) ត្រូវបានបិទបាំង (debugbar.ini SessionMask[]); អ្វីៗផ្សេងទៀតត្រូវបានបង្ហាញដូចដែលបានរក្សាទុក រួមទាំងទិន្នន័យផ្ទាល់ខ្លួនផងដែរ។</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>សោ %count, %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>ធំ</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>វគ្គទទេ។</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>គ្មានវគ្គណាមួយត្រូវបានចាប់ផ្តើមសម្រាប់សំណើនេះទេ។</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>ផ្នែកបន្ថែម %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>ខឺណែល និងផ្សេងទៀត</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>មិនមែនធាតុទាំងអស់ត្រូវបានបង្ហាញទេ៖ វគ្គមានច្រើនជាងអ្វីដែលអាចរាយនៅទីនេះ។</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>សោ %count មិនត្រូវបានរាយទេ។</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>ស៊ុម</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>តម្លៃដែលមើលទៅដូចជាថូខឹន (JSON Web Token, អត្តសញ្ញាណនៃក្បាល Authorization, សោឯកជន, អត្ថបទ hex ឬចៃដន្យដ៏វែង) ក៏ត្រូវបានបិទបាំងដែរ មិនថាសោរបស់វាមានឈ្មោះអ្វីទេ (debugbar.ini SessionValueMask[])។</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>សោមើលទៅដូចជាអាថ៌កំបាំង (debugbar.ini SessionMask[])។</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>តម្លៃមើលទៅដូចជាថូខឹន។</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>នៅក្រោមសោដែលបានបិទបាំង។</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>វគ្គជាអត្ថបទ បិទបាំងដូចតារាង។</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>វគ្គធំជាង %size (debugbar.ini SessionWarnBytes)៖ រាល់សំណើរបស់អ្នកប្រើនេះអានវគ្គទាំងមូល ហើយសរសេរវានៅពេលវាបានផ្លាស់ប្តូរ។</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP រក្សាទុកវគ្គនេះក្នុងឯកសារ ហើយចាក់សោឯកសារពេញមួយសំណើ៖ សំណើរបស់អ្នកប្រើដដែល (ផ្ទាំងច្រើន ការហៅ AJAX) រង់ចាំគ្នាទៅវិញទៅមក។</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>រក្សាបើក</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>ធំជាង %size (debugbar.ini SessionWarnBytes)៖ រាល់សំណើរបស់អ្នកប្រើនេះអានវគ្គទាំងមូល។</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%hits ក្នុងចំណោម %count បានអានពីឃ្លាំងសម្ងាត់</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>គ្មានគំរូណាមួយត្រូវបានបង្ហាញទេ (ទិដ្ឋភាពដែលបានអានពីឃ្លាំងសម្ងាត់ទិដ្ឋភាពមិនបង្ហាញគំរូណាមួយទេ)។</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>ការកំណត់តួនាទី</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>តួនាទី និងគោលការណ៍</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>ខុសពីអ្នកទស្សនាអនាមិក</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>ដូចអ្នកទស្សនាអនាមិក</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70304,6 +71287,14 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>not sent</source>
         <translation>មិនបានផ្ញើ</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>ការងារ cron ការជូនដំណឹងកត់ត្រាការដំណើរការនីមួយៗរបស់វានៅទីនេះ។ សូមបន្ថែមផ្នែក frequent ទៅក្នុង crontab ឬដំណើរការ exp:notification:run --apply ។</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>ប្រើកុងសូល: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -76022,6 +77013,98 @@ You will need to change the class of the node by using the swap functionality.</
         <source>This topic is not Released; readers do not see it.</source>
         <translation>ប្រធានបទនេះមិនត្រូវបានចេញផ្សាយទេ; អ្នកអានមើលមិនឃើញវាទេ។</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>ការផ្ទេរ</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>ការផ្លាស់ប្ដូរលើការដំឡើងដែលរក្សាទុកជាឯកសារ៖ ស្ថានភាពរបស់វា ការដំណើរការ ដំណើរការ និងត្រឡប់វិញ។</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>បោះពុម្ពផ្សាយច្បាប់ចម្លងឋិតិវន្តនៃគេហទំព័រទៅ GitHub Pages ឬម៉ាស៊ីន git ណាមួយ។</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>ការបោះពុម្ពផ្សាយឋិតិវន្ត</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>កំពុងត្រួតពិនិត្យ</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>អ្នកអានឃើញទំព័រនេះ។</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>លាក់ពីអ្នកអាន រហូតដល់មាននរណាម្នាក់ចេញផ្សាយវា។</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>ទំព័រនេះស្ថិតក្នុងការត្រួតពិនិត្យឥឡូវនេះ។ វាត្រូវបានលាក់ពីអ្នកអាន រហូតដល់វាត្រូវបានចេញផ្សាយ។</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>ទំព័រនេះត្រូវបានចេញផ្សាយ: អ្នកអានឃើញវាឥឡូវនេះ។</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>ទំព័រនេះជាសេចក្តីព្រាងម្តងទៀត។ វាត្រូវបានលាក់ពីអ្នកអាន រហូតដល់វាត្រូវបានត្រួតពិនិត្យ និងចេញផ្សាយ។</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>ចេញផ្សាយឥឡូវនេះ</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>មានតែអ្នកប្រើដែលមានតួនាទី %role ហើយមិនបានសរសេរកំណែនេះទេ ទើបអាចចេញផ្សាយវាបាន។</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>ប្រធានបទជំនួយដែលកំពុងរង់ចាំការចេញផ្សាយ</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>លាក់វាពីអ្នកអាន រហូតដល់វាត្រូវបានចេញផ្សាយម្តងទៀត។</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>បន្ទាប់មក អ្នកត្រួតពិនិត្យនឹងពិនិត្យវា។ អ្នកអានមិនទាន់ឃើញវានៅឡើយទេ។</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>អ្នកអានឃើញវាភ្លាមៗ។</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>ដកវាចេញពីការត្រួតពិនិត្យ ដើម្បីធ្វើការបន្ថែម។ អ្នកអានមិនឃើញវាទេ។</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>លាក់ទំព័រនេះពីអ្នកអានឬ?</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>ផ្ញើទំព័រនេះត្រឡប់ទៅសេចក្តីព្រាងវិញឬ?</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>អ្នកអានលែងឃើញ %title ទៀតហើយ រហូតដល់មាននរណាម្នាក់ចេញផ្សាយវាម្តងទៀត។</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title ត្រឡប់ទៅសេចក្តីព្រាងវិញ ដើម្បីធ្វើការបន្ថែម។ អ្នកអាននៅតែមិនឃើញវា ហើយវាត្រូវការការត្រួតពិនិត្យថ្មី មុនពេលចេញផ្សាយ។</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>បោះបង់</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>ប្រធានបទទាំងនេះស្ថិតក្នុងការត្រួតពិនិត្យ។ អ្នកអាននឹងឃើញវា នៅពេលមាននរណាម្នាក់ដែលមិនបានសរសេរកំណែបច្ចុប្បន្ន ចេញផ្សាយវា។</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76477,6 +77560,46 @@ You will need to change the class of the node by using the swap functionality.</
         <source>None.</source>
         <translation>គ្មាន។</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>ដោយកម្មវិធីផ្ទៀងផ្ទាត់</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>ដោយកូដតាមអ៊ីមែល</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>ដោយកូដស្តារ</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>ដោយកូនសោសម្ងាត់</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>ដោយគណនីខាងក្រៅ</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>សកម្មភាពសុវត្ថិភាព</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>បង្ហាញជាបណ្តាញរបស់វា អាសយដ្ឋានត្រូវបានរក្សាទុកតាមការកំណត់ការពារទិន្នន័យរបស់គេហទំព័រ។</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>មិនបានកត់ត្រា</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>ទីកន្លែង</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>ប្រហាក់ប្រហែល</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76720,6 +77843,42 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Manage devices</source>
         <translation>គ្រប់គ្រងឧបករណ៍</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>ដោយកម្មវិធីផ្ទៀងផ្ទាត់</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>ដោយកូដតាមអ៊ីមែល</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>ដោយកូដស្តារ</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>ដោយកូនសោសម្ងាត់</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>ដោយគណនីខាងក្រៅ</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>សកម្មភាពសុវត្ថិភាព</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>មិនបានកត់ត្រា</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>ទីកន្លែង</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>ប្រហាក់ប្រហែល</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76799,6 +77958,14 @@ You will need to change the class of the node by using the swap functionality.</
         <source>View the sessions of this user</source>
         <translation>មើលវគ្គរបស់អ្នកប្រើនេះ</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>គណនី %login របស់អ្នកនៅលើ %site ទើបតែត្រូវបានប្រើដើម្បីចូលពីទីកន្លែងដែលវាមិនបានចូលពីទីនោះថ្មីៗនេះ:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>ទីកន្លែងប្រហាក់ប្រហែល</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76837,6 +78004,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%browser លើ %os</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>របាយការណ៍ការចូល</translation>
     </message>
 </context>
 <context>
@@ -77045,6 +78216,82 @@ You will need to change the class of the node by using the swap functionality.</
         <source>The passkey could not be checked. Please try again.</source>
         <translation>មិនអាចពិនិត្យផាសគីបានទេ។ សូមព្យាយាមម្តងទៀត។</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>គណនីដែលចូលដោយប្រើផាសគីតែប៉ុណ្ណោះ មិនអាចប្រើពាក្យសម្ងាត់នៅទីនេះបានទេ៖ សូមជ្រើស &quot;ចូលដោយប្រើផាសគី&quot;។</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>ផាសគីរបស់ %login</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>ផាសគីដែលគណនីនេះប្រើដើម្បីចូល។ សូមដកហូតផាសគីដែលនៅលើឧបករណ៍បាត់ ឬត្រូវគេលួច៖ វានឹងមិនអាចចូលបានទៀតទេ។ ម្ចាស់គណនីបន្ថែមផាសគីថ្មីដោយខ្លួនឯង។</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>គណនីរបស់អ្នកត្រូវការផាសគី</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>បន្ថែមផាសគីទៅគណនីរបស់អ្នក</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>បន្ថែមផាសគីដើម្បីបន្ត។ បន្ទាប់មក អ្នកនឹងចូលដោយប្រើវា ជំនួសឱ្យពាក្យសម្ងាត់តែមួយ។</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>ការចូលដោយប្រើផាសគីលឿនជាង និងមានសុវត្ថិភាពជាងពាក្យសម្ងាត់។ បន្ថែមមួយឥឡូវនេះ ឬបន្តដោយគ្មានវា។</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>មិនមែនឥឡូវទេ</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>ដកហូតផាសគី &quot;%name&quot; ឬ?</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>វាមិនអាចចូលគណនីនេះបានទៀតទេ។ ប្រសិនបើវាជាផាសគីចុងក្រោយ ម្ចាស់គណនីនឹងចូលដោយប្រើពាក្យសម្ងាត់ ឬអ្នកកំណត់ពាក្យសម្ងាត់ថ្មី។</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>ដកហូតផាសគី</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>ដកហូត</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>គណនីនេះគ្មានផាសគីទេ។</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>កម្មវិធីផ្ទៀងផ្ទាត់</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>មិនស្គាល់</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>ផាសគីចុងក្រោយរបស់អ្នក៖ សូមបន្ថែមមួយទៀតមុនពេលដកវាចេញ។</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>គណនីនេះចូលដោយប្រើផាសគីតែប៉ុណ្ណោះ (គោលការណ៍ផាសគី)៖ ប្រសិនបើគ្មានផាសគីនៅសល់ វានឹងចូលដោយប្រើពាក្យសម្ងាត់របស់វាវិញ។</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>នេះជាផាសគីចុងក្រោយរបស់អ្នក ហើយគណនីរបស់អ្នកមិនអាចចូលបានដោយគ្មានវាទេ។ សូមបន្ថែមផាសគីមួយទៀតជាមុនសិន។</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>ផាសគី &quot;%name&quot; ត្រូវបានដកហូត។ វាមិនអាចចូលគណនីនេះបានទៀតទេ។</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77144,6 +78391,34 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Code from your authenticator app</source>
         <translation>កូដពីកម្មវិធីផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវរបស់អ្នក</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>អ្នកហៀបនឹងលុបទិន្នន័យជាអចិន្ត្រៃយ៍ ឬសម្អាតកំណត់ហេតុ។</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>ពាក្យសម្ងាត់របស់អ្នក និងផាសគី</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>ពាក្យសម្ងាត់របស់អ្នក និងកូដពីកម្មវិធីផ្ទៀងផ្ទាត់របស់អ្នក</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>ឬ៖</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>កម្មវិធីរុករកនេះមិនអាចប្រើផាសគីបានទេ។ សូមប្រើវិធីផ្សេង ឬកម្មវិធីរុករកផ្សេង។</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>នៅពេលអ្នកបន្ត កម្មវិធីរុករករបស់អ្នកនឹងស្នើសុំផាសគីមួយរបស់អ្នក។</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>បន្តដោយប្រើផាសគី</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77234,6 +78509,70 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Setup</source>
         <translation>ការរៀបចំ</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>ការប្ដូរពាក្យសម្ងាត់ អាសយដ្ឋានអ៊ីមែល ផាសគី ការចូលពីរជំហាន កូដសង្គ្រោះ ឬកូនសោ API ផ្ទាល់ខ្លួន និងការចាកចេញពីឧបករណ៍ផ្សេងទៀតរបស់ខ្លួន។</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>ការបង្កើត និងកែសម្រួលអ្នកប្រើ ពាក្យសម្ងាត់ និងឧបករណ៍របស់ពួកគេ ការកំណត់គណនី ការអនុម័ត ឬបដិសេធគណនីអ្នកប្រើថ្មី ការចាត់តាំងតួនាទី និងការកែសម្រួលគោលការណ៍។</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>ការលុបទិន្នន័យ</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>ការសម្អាតធុងសំរាម ការដកធាតុចេញពីវា និងការដកធាតុជាច្រើនចេញក្នុងពេលតែមួយ។</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>ការដកចេញ ការបោះពុម្ពផ្សាយ និងការរក្សាទុកមាតិកា</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>ការដកមាតិកាចេញ (រួមទាំងទៅធុងសំរាម) ការបោះពុម្ពផ្សាយ និងការរក្សាទុកសេចក្តីព្រាង ដែលត្រូវសួរនៅពេលបញ្ជូនទម្រង់។ បិទតាមលំនាំដើម។</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>មុនសកម្មភាពរសើប អ្នកប្រើដែលបានចូលបញ្ជាក់ម្ដងទៀតថាគេជានរណា៖ ដោយប្រើពាក្យសម្ងាត់ និងផាសគី ឬបើគ្មានផាសគី ដោយប្រើពាក្យសម្ងាត់ និងកូដពីកម្មវិធីផ្ទៀងផ្ទាត់របស់គេ។ មានតែទំព័រវេបប៉ុណ្ណោះដែលសួរ៖ ចំណុចប្រទាក់ REST, SOAP, WebDAV, ការចូល expservices និងបន្ទាត់ពាក្យបញ្ជាមិនដែលសួរទេ។</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>កន្លែងដែលការកំណត់អនុវត្ត</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>ការកំណត់សម្រាប់</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>ការចូលគេហទំព័រនីមួយៗ</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>តែការចូលគេហទំព័រ %name ប៉ុណ្ណោះ</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>បើក</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>អ្នកដែលត្រូវសួរ៖ %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>ធីកក្រុមអ្នកប្រើ ដើម្បីសួរតែសមាជិករបស់ក្រុមទាំងនោះ (ឧទាហរណ៍ អ្នកកែសម្រួល)។ មិនធីកអ្វីទេ៖ អ្នកប្រើគ្រប់រូប។</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>បានរក្សាទុកក្នុង settings/override/site.ini.append.php សម្រាប់ការចូលគេហទំព័រនីមួយៗ។ ការរក្សាទុកនឹងស្នើឱ្យអ្នកបញ្ជាក់ថាជាអ្នក។</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>បានរក្សាទុកក្នុង settings/siteaccess/%name/site.ini.append.php។ តម្លៃក្នុង settings/override មានអាទិភាពជាង។ ការរក្សាទុកនឹងស្នើឱ្យអ្នកបញ្ជាក់ថាជាអ្នក។</translation>
     </message>
 </context>
 <context>
@@ -77336,6 +78675,6822 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Open the page</source>
         <translation>បើកទំព័រ</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from–%to នៃ %count</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>ឈ្មោះចូល ឬ ID អ្នកប្រើ៖ គណនីដែលព្រឹត្តិការណ៍ពាក់ព័ន្ធ ឬអ្នកប្រើដែលបានធ្វើសកម្មភាព។</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>គណនី</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>សកម្មភាព</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>ក្រោយ</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>លទ្ធផលទាំងអស់</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>មុន</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>ធ្វើដោយ</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>សម្អាត</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>រួចរាល់</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>ព្រឹត្តិការណ៍ត្រូវបានរក្សាទុករយៈពេល %days ថ្ងៃ។</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>ព្រឹត្តិការណ៍ត្រូវបានរក្សាទុករហូតដល់ត្រូវបានលុបដោយដៃ។</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>ព្រឹត្តិការណ៍</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>សកម្មភាពទាំងអស់</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>ព្រឹត្តិការណ៍ទាំងអស់របស់គណនីនេះ</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>នាំចេញបញ្ជីជា CSV (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>បរាជ័យ</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>ពី</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>បង្រួមបញ្ជី</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>គ្មានព្រឹត្តិការណ៍ដែលត្រូវគ្នាទេ។</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>ក្នុងមួយទំព័រ</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>ការកត់ត្រាត្រូវបានបិទនៅក្នុង audit.ini ([UserAuditSettings] UserAudit) ហើយបញ្ជីបង្ហាញអ្វីដែលបានកត់ត្រាពីមុន។</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>បានបដិសេធ</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>លទ្ធផល</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>បង្ហាញ</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>តារាងនៃកំណត់ហេតុសវនកម្មអ្នកប្រើមិនមានទេ។ សូមបង្កើតវាដោយប្រើ php update/common/scripts/6.0/createuseraudittable.php ។ រហូតដល់ពេលនោះ ឯកសារសវនកម្មរក្សាទុកព្រឹត្តិការណ៍នីមួយៗ។</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>ទំព័រនេះត្រូវការមូលដ្ឋានទិន្នន័យ SQL ហើយមិនអាចប្រើបាននៅលើ MongoDB ទេ។ ឯកសារសវនកម្មរក្សាទុកព្រឹត្តិការណ៍នីមួយៗ។</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>ដល់</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>កំណត់ហេតុសវនកម្មអ្នកប្រើ</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>អ្នកប្រើ</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>ពេលវេលា</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>ទីតាំង</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>អ្នកណាបានកែប្រែ បង្កើត បើក បិទ ផ្លាស់ទី ឬដកចេញគណនីណា អ្នកណាបានចូល ឬត្រូវបានបដិសេធ និងតួនាទីណាខ្លះត្រូវបានផ្តល់៖ មួយជួរសម្រាប់ព្រឹត្តិការណ៍នីមួយៗ ជាមួយវាលមុន និងក្រោយ។ ពាក្យសម្ងាត់ និងព័ត៌មានសម្ងាត់មិនដែលត្រូវបានកត់ត្រាឡើយ។</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>ក្រុម</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>ប្រព័ន្ធ</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>មិនស្គាល់</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>ការពារគណនីរបស់អ្នក</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>កូដស្តារមួយត្រូវបានប្រើដើម្បីចូលគណនី %login របស់អ្នកនៅលើ %site ។</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>កូដស្តារមួយត្រូវបានប្រើ</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>គណនី</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>អាសយដ្ឋានប្រហាក់ប្រហែល</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>សូមស្នើសុំពាក្យសម្ងាត់ថ្មីដើម្បីចូលម្តងទៀត ឬទាក់ទងអ្នកគ្រប់គ្រងគេហទំព័រ។</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>ស្នើសុំពាក្យសម្ងាត់ថ្មី</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>កូដស្តារនីមួយៗប្រើបានតែម្តងប៉ុណ្ណោះ។ ប្រសិនបើអ្នកបាត់ទូរសព្ទ សូមរៀបចំកម្មវិធីផ្ទៀងផ្ទាត់របស់អ្នកឡើងវិញ ហើយរក្សាទុកកូដស្តារថ្មីនៅកន្លែងសុវត្ថិភាព។</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>ការប៉ុនប៉ងចូលគណនីរបស់អ្នកដែលបរាជ័យ</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>ចាប់ពីពេលនេះតទៅ ការចូលនឹងសុំកូដមួយបន្ថែមលើពាក្យសម្ងាត់របស់អ្នក។ ប្រសិនបើអ្នកបានធ្វើវា អ្នកមិនចាំបាច់ធ្វើអ្វីទេ។</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>ប្រសិនបើជាអ្នក ហើយអ្នកភ្លេចពាក្យសម្ងាត់ សូមស្នើសុំពាក្យសម្ងាត់ថ្មី។ ប្រសិនបើមិនមែន សូមជ្រើសរើសពាក្យសម្ងាត់ដែលរឹងមាំជាងនេះ ហើយបើកការចូលពីរជំហាន។</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>ប្រសិនបើមិនមែនជាអ្នក អាចមានអ្នកផ្សេងដឹងពាក្យសម្ងាត់របស់អ្នក: សូមប្តូរវាឥឡូវនេះ ហើយពិនិត្យមើលថាគណនីរបស់អ្នកបានចូលនៅកន្លែងណាខ្លះ។</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>កូដស្តារដែលនៅសល់</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>ពិនិត្យឧបករណ៍របស់អ្នក</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>ការព្រមានសុវត្ថិភាព</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>មាននរណាម្នាក់បានព្យាយាមចូលគណនី %login របស់អ្នកនៅលើ %site ដោយប្រើពាក្យសម្ងាត់ខុស %count ដងជាប់ៗគ្នា។</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>មានព្រឹត្តិការណ៍សុវត្ថិភាពមួយនៅលើគណនី %login របស់អ្នកនៅលើ %site ។</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>នេះជាការព្រមានសុវត្ថិភាពអំពីគណនីរបស់អ្នក។ វាត្រូវបានផ្ញើសម្រាប់រាល់ការផ្លាស់ប្តូរបែបនេះ ហើយមិនអាចបិទបានទេ។</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>ពេលវេលា</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>ការចូលពីរជំហានត្រូវបានបិទសម្រាប់គណនី %login របស់អ្នកនៅលើ %site ។</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>ការចូលពីរជំហានត្រូវបានបិទ</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>ការចូលពីរជំហានត្រូវបានបើកសម្រាប់គណនី %login របស់អ្នកនៅលើ %site ។</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>ការចូលពីរជំហានត្រូវបានបើក</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>គណនី %login របស់អ្នកនៅលើ %site ត្រូវបានចាក់សោ បន្ទាប់ពីការចូលបរាជ័យច្រើនដងពេក។</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>ឥឡូវនេះគណនីរបស់អ្នកត្រូវបានការពារដោយពាក្យសម្ងាត់តែប៉ុណ្ណោះ។ ប្រសិនបើអ្នកមិនបានធ្វើវាទេ សូមបើកការចូលពីរជំហានម្តងទៀត បន្ទាប់ពីអ្នកបានប្តូរពាក្យសម្ងាត់។</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>គណនីរបស់អ្នកត្រូវបានចាក់សោ</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>ផាសគីមួយត្រូវបានបន្ថែមទៅគណនី %login របស់អ្នកនៅលើ %site ។</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>អ្នកណាដែលមានផាសគីនេះ អាចចូលគណនីរបស់អ្នកដោយគ្មានពាក្យសម្ងាត់របស់អ្នក។ ប្រសិនបើអ្នកមិនបានបន្ថែមវាទេ សូមដកវាចេញនៅក្រោម កូនសោសម្ងាត់ ហើយប្ដូរពាក្យសម្ងាត់របស់អ្នក។</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>ផាសគីមួយត្រូវបានដកចេញពីគណនី %login របស់អ្នកនៅលើ %site ។</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>វាមិនអាចចូលគណនីរបស់អ្នកបានទៀតទេ។ ប្រសិនបើអ្នកមិនបានដកវាចេញទេ សូមពិនិត្យផាសគី និងឧបករណ៍របស់អ្នក។</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>ផាសគីមួយត្រូវបានបន្ថែមទៅគណនីរបស់អ្នក</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>ផាសគីមួយត្រូវបានដកចេញពីគណនីរបស់អ្នក</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>សកម្មភាពសុវត្ថិភាព</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>សកម្មភាពសុវត្ថិភាពរបស់ %name</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>បានចូល</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>ការប៉ុនប៉ងចូលដែលបរាជ័យ</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>បានចាកចេញ</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>វគ្គត្រូវបានចាកចេញ</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>ការចូលពីឧបករណ៍ថ្មី</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>ការចូលពីទីកន្លែងថ្មី</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>អត្តសញ្ញាណត្រូវបានបញ្ជាក់ (&quot;ផ្ទៀងផ្ទាត់ថាជាអ្នក&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>ការពិនិត្យអត្តសញ្ញាណបរាជ័យ</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>បានចូលដោយកូនសោសម្ងាត់</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>ការចូលដោយកូនសោសម្ងាត់បរាជ័យ</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>ការចូលត្រូវបានបដិសេធ: កូដពីរជំហានបាត់ ឬខុស</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>កូដពីរជំហានខុស</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>គណនីត្រូវបានចាក់សោបន្ទាប់ពីការចូលបរាជ័យ</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>គណនីត្រូវបានដោះសោ</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>ពាក្យសម្ងាត់ត្រូវបានប្តូរ</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>ការប្តូរពាក្យសម្ងាត់បរាជ័យ</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>ពាក្យសម្ងាត់ត្រូវបានកំណត់ឡើងវិញ</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>បានស្នើសុំពាក្យសម្ងាត់ថ្មី</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>អាសយដ្ឋានអ៊ីមែលត្រូវបានប្តូរ</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>ឈ្មោះអ្នកប្រើត្រូវបានប្តូរ</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>ការចូលពីរជំហានត្រូវបានបើក</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>ការចូលពីរជំហានត្រូវបានបិទ</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>កូដស្តារត្រូវបានប្រើ</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>កូដស្តារថ្មី</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>ពាក្យសម្ងាត់កម្មវិធីត្រូវបានបង្កើត</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>ពាក្យសម្ងាត់កម្មវិធីត្រូវបានដកហូត</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>កូនសោសម្ងាត់ត្រូវបានបន្ថែម</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>កូនសោសម្ងាត់ត្រូវបានដកចេញ</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>គណនីត្រូវបានបើក</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>គណនីត្រូវបានបិទ</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>ទាំងអស់</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>ការចូល និងវគ្គ</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>ការផ្លាស់ប្តូរគណនី</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>ត្រូវការការយកចិត្តទុកដាក់</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>ដោយអ្នក</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>ដោយអ្នកប្រើ</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>ដោយ %login</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>វិធីសាស្ត្រ</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>កម្មវិធីរុករក</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>ប្រព័ន្ធប្រតិបត្តិការ</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>ឧបករណ៍</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>ទីកន្លែង</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>ប្រទេស</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>វគ្គ</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>មួយណា</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>ឆានែល</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>ការប៉ុនប៉ងដែលបរាជ័យ</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>កូដដែលនៅសល់</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>ឧបករណ៍គ្រប់គ្រងការចូល</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>សកម្មភាពសុវត្ថិភាព</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>សកម្មភាពសុវត្ថិភាពរបស់ %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>ការចូល និងការផ្លាស់ប្តូរសុវត្ថិភាពនៃគណនីរបស់អ្នក។ ប្រសិនបើអ្នកឃើញអ្វីដែលអ្នកមិនបានធ្វើ សូមប្តូរពាក្យសម្ងាត់របស់អ្នក ហើយចាកចេញពីឧបករណ៍ដែលអ្នកមិនស្គាល់។</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>ការចូល និងការផ្លាស់ប្តូរសុវត្ថិភាពនៃគណនីនេះ។</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>ឧបករណ៍របស់អ្នក</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>ប្តូរពាក្យសម្ងាត់</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>ត្រឡប់ទៅគណនី</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>សកម្មភាពសុវត្ថិភាពមិនត្រូវបានកត់ត្រាទេ</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>វាត្រូវបានអានពីកំណត់ហេតុសវនកម្មអ្នកប្រើ ដែលតារាង expuser_audit របស់វាមិនមាន ឬមិនត្រូវបានគាំទ្រនៅលើមូលដ្ឋានទិន្នន័យនេះ។ សូមដំណើរការ php update/common/scripts/6.0/createuseraudittable.php ឬការធ្វើបច្ចុប្បន្នភាពមូលដ្ឋានទិន្នន័យនៃ 6.0.15 ។</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>%days ថ្ងៃចុងក្រោយ</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>ការចូលក្នុង %days ថ្ងៃចុងក្រោយ</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>សកម្មភាពសុវត្ថិភាពថ្មីៗ</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>បង្ហាញ</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>បរាជ័យ</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>ត្រូវបានបដិសេធ</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>មិនទាន់មានសកម្មភាពសុវត្ថិភាពត្រូវបានកត់ត្រានៅឡើយទេ។</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>ព្រឹត្តិការណ៍សុវត្ថិភាពត្រូវបានរក្សាទុករយៈពេល %days ថ្ងៃ។</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>ព្រឹត្តិការណ៍សុវត្ថិភាពត្រូវបានរក្សាទុករហូតដល់អ្នកគ្រប់គ្រងដកវាចេញ។</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>ទាញយកទិន្នន័យការចូលរបស់ខ្ញុំ</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>វគ្គ និងព្រឹត្តិការណ៍សុវត្ថិភាពរបស់អ្នកជាឯកសារ JSON ។</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>វគ្គមិនត្រូវបានកត់ត្រានៅលើគេហទំព័រនេះទេ ដូច្នេះមិនអាចចាកចេញពីឧបករណ៍ផ្សេងទៀតបានទេ។ សូមប្តូរពាក្យសម្ងាត់របស់អ្នកឥឡូវនេះ។</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>វគ្គផ្សេងទៀតចំនួន %count ត្រូវបានចាកចេញ។ ឥឡូវនេះសូមប្តូរពាក្យសម្ងាត់របស់អ្នក។</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>គ្មានឧបករណ៍ផ្សេងទៀតបានចូលទេ។ ឥឡូវនេះសូមប្តូរពាក្យសម្ងាត់របស់អ្នក។</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>សូមអរគុណ។ ព្រឹត្តិការណ៍នេះត្រូវបានសម្គាល់ថាជារបស់អ្នក។</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>ព្រឹត្តិការណ៍នោះមិនត្រូវការចម្លើយទេ។</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>ទំព័របានផុតកំណត់។ គ្មានអ្វីត្រូវបានផ្លាស់ប្តូរទេ សូមព្យាយាមម្តងទៀត។</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>ការពារគណនីរបស់អ្នក</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>ប្រសិនបើមានអ្វីមួយនៅទីនេះមិនមែនជាអ្នក សូមចាកចេញពីឧបករណ៍ផ្សេងទៀតទាំងអស់ បន្ទាប់មកជ្រើសរើសពាក្យសម្ងាត់ថ្មី។ ឧបករណ៍ដែលនៅតែចូលដោយចងចាំខ្ញុំក៏ត្រូវបានចាកចេញដែរ។</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>ឧបករណ៍នីមួយៗលើកលែងតែឧបករណ៍នេះត្រូវបានចាកចេញនៅសំណើបន្ទាប់របស់វា។ បន្ទាប់មកអ្នកជ្រើសរើសពាក្យសម្ងាត់ថ្មី។</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>បាទ/ចាស ចាកចេញពីឧបករណ៍ផ្សេងទៀត</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>តើនេះជាអ្នកឬ?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>បាទ/ចាស គឺខ្ញុំ</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>ទេ ការពារគណនីរបស់ខ្ញុំ</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>បានចូល</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>ការប៉ុនប៉ងចូលដែលបរាជ័យ</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>បានចាកចេញ</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>វគ្គត្រូវបានចាកចេញ</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>ការចូលពីឧបករណ៍ថ្មី</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>ការចូលពីទីកន្លែងថ្មី</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>អត្តសញ្ញាណត្រូវបានបញ្ជាក់ (&quot;ផ្ទៀងផ្ទាត់ថាជាអ្នក&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>ការពិនិត្យអត្តសញ្ញាណបរាជ័យ</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>បានចូលដោយកូនសោសម្ងាត់</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>ការចូលដោយកូនសោសម្ងាត់បរាជ័យ</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>ការចូលត្រូវបានបដិសេធ: កូដពីរជំហានបាត់ ឬខុស</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>កូដពីរជំហានខុស</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>គណនីត្រូវបានចាក់សោបន្ទាប់ពីការចូលបរាជ័យ</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>គណនីត្រូវបានដោះសោ</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>ពាក្យសម្ងាត់ត្រូវបានប្តូរ</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>ការប្តូរពាក្យសម្ងាត់បរាជ័យ</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>ពាក្យសម្ងាត់ត្រូវបានកំណត់ឡើងវិញ</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>បានស្នើសុំពាក្យសម្ងាត់ថ្មី</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>អាសយដ្ឋានអ៊ីមែលត្រូវបានប្តូរ</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>ឈ្មោះអ្នកប្រើត្រូវបានប្តូរ</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>ការចូលពីរជំហានត្រូវបានបើក</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>ការចូលពីរជំហានត្រូវបានបិទ</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>កូដស្តារត្រូវបានប្រើ</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>កូដស្តារថ្មី</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>ពាក្យសម្ងាត់កម្មវិធីត្រូវបានបង្កើត</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>ពាក្យសម្ងាត់កម្មវិធីត្រូវបានដកហូត</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>កូនសោសម្ងាត់ត្រូវបានបន្ថែម</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>កូនសោសម្ងាត់ត្រូវបានដកចេញ</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>គណនីត្រូវបានបើក</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>គណនីត្រូវបានបិទ</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>ទាំងអស់</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>ការចូល និងវគ្គ</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>ការផ្លាស់ប្តូរគណនី</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>ត្រូវការការយកចិត្តទុកដាក់</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>សកម្មភាពសុវត្ថិភាព</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>សកម្មភាពសុវត្ថិភាពរបស់ %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>ការចូល និងការផ្លាស់ប្តូរសុវត្ថិភាពនៃគណនីរបស់អ្នក។ ប្រសិនបើអ្នកឃើញអ្វីដែលអ្នកមិនបានធ្វើ សូមប្តូរពាក្យសម្ងាត់របស់អ្នក ហើយចាកចេញពីឧបករណ៍ដែលអ្នកមិនស្គាល់។</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>ឧបករណ៍របស់អ្នក</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>ប្តូរពាក្យសម្ងាត់</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>សកម្មភាពសុវត្ថិភាពមិនទាន់ត្រូវបានកត់ត្រានៅលើគេហទំព័រនេះនៅឡើយទេ។</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>ការចូលក្នុង %days ថ្ងៃចុងក្រោយ</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>ការប៉ុនប៉ងដែលបរាជ័យ</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>មិនទាន់មានសកម្មភាពសុវត្ថិភាពត្រូវបានកត់ត្រានៅឡើយទេ។</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>ទាញយកទិន្នន័យការចូលរបស់ខ្ញុំ</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>វគ្គ និងព្រឹត្តិការណ៍សុវត្ថិភាពរបស់អ្នកជាឯកសារ JSON ។</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>វគ្គមិនត្រូវបានកត់ត្រានៅលើគេហទំព័រនេះទេ ដូច្នេះមិនអាចចាកចេញពីឧបករណ៍ផ្សេងទៀតបានទេ។ សូមប្តូរពាក្យសម្ងាត់របស់អ្នកឥឡូវនេះ។</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>វគ្គផ្សេងទៀតចំនួន %count ត្រូវបានចាកចេញ។ ឥឡូវនេះសូមប្តូរពាក្យសម្ងាត់របស់អ្នក។</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>គ្មានឧបករណ៍ផ្សេងទៀតបានចូលទេ។ ឥឡូវនេះសូមប្តូរពាក្យសម្ងាត់របស់អ្នក។</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>សូមអរគុណ។ ព្រឹត្តិការណ៍នេះត្រូវបានសម្គាល់ថាជារបស់អ្នក។</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>ព្រឹត្តិការណ៍នោះមិនត្រូវការចម្លើយទេ។</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>ទំព័របានផុតកំណត់។ គ្មានអ្វីត្រូវបានផ្លាស់ប្តូរទេ សូមព្យាយាមម្តងទៀត។</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>ការពារគណនីរបស់អ្នក</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>ប្រសិនបើមានអ្វីមួយនៅទីនេះមិនមែនជាអ្នក សូមចាកចេញពីឧបករណ៍ផ្សេងទៀតទាំងអស់ បន្ទាប់មកជ្រើសរើសពាក្យសម្ងាត់ថ្មី។ ឧបករណ៍ដែលនៅតែចូលដោយចងចាំខ្ញុំក៏ត្រូវបានចាកចេញដែរ។</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>ឧបករណ៍នីមួយៗលើកលែងតែឧបករណ៍នេះត្រូវបានចាកចេញនៅសំណើបន្ទាប់របស់វា។ បន្ទាប់មកអ្នកជ្រើសរើសពាក្យសម្ងាត់ថ្មី។</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>បាទ/ចាស ចាកចេញពីឧបករណ៍ផ្សេងទៀត</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>តើនេះជាអ្នកឬ?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>បាទ/ចាស គឺខ្ញុំ</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>ទេ ការពារគណនីរបស់ខ្ញុំ</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>ពាក្យសម្ងាត់</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>ពាក្យសម្ងាត់ និងកូដពីរជំហាន</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>ចំណុចប្រទាក់ REST</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>ចំណុចប្រទាក់ SOAP</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>ការចូលតែម្តង (SSO)</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>បានចូលមុនពេលវគ្គត្រូវបានកត់ត្រា</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>របាយការណ៍ការចូល</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>អ្នកណាកំពុងចូលគេហទំព័រ គណនីចូល និងបរាជ័យញឹកញាប់ប៉ុណ្ណា ហើយចាកចេញអ្នកប្រើម្នាក់ពីគ្រប់ទីកន្លែង។ វាដំណើរការជាមួយឧបករណ៍គ្រប់គ្រងវគ្គគ្រប់ប្រភេទ។</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>វគ្គត្រូវបានចាកចេញ។ ឧបករណ៍ត្រូវចូលម្តងទៀត។</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>%login ត្រូវបានចាកចេញពីវគ្គ %count ។</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>%login មិនមានវគ្គកំពុងដំណើរការទេ។</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>គ្មានគណនីណាមាន ID ឈ្មោះអ្នកប្រើ ឬអាសយដ្ឋានអ៊ីមែលនោះទេ។</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>នេះគឺជាវគ្គដែលអ្នកកំពុងប្រើ។ ដើម្បីបញ្ចប់វា សូមចាកចេញ។</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>វគ្គនោះបានបញ្ចប់រួចហើយ។</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>ទំព័របានផុតកំណត់។ គ្មានអ្វីត្រូវបានផ្លាស់ប្តូរទេ សូមព្យាយាមម្តងទៀត។</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>វគ្គមិនត្រូវបានកត់ត្រានៅលើគេហទំព័រនេះទេ (site.ini [UserSessionSettings] Tracking=disabled)។</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>តារាង expuser_session មិនមាន</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>វគ្គនឹងត្រូវបានកត់ត្រានៅពេលតារាងត្រូវបានបង្កើត: php update/common/scripts/6.0/createusersessiontable.php ឬការធ្វើបច្ចុប្បន្នភាពមូលដ្ឋានទិន្នន័យនៃ 6.0.15 ។</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>ឥឡូវនេះ និងថ្ងៃនេះ</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>វគ្គកំពុងដំណើរការ</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>អ្នកប្រើដែលបានចូល</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>ការចូលថ្ងៃនេះ</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>ការប៉ុនប៉ងបរាជ័យថ្ងៃនេះ</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>ចាកចេញអ្នកប្រើម្នាក់ពីគ្រប់ទីកន្លែង</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>រាល់វគ្គនៃគណនីនឹងបញ្ចប់នៅសំណើបន្ទាប់របស់វា រួមទាំងវគ្គដែលរក្សាដោយ &quot;ចងចាំខ្ញុំ&quot; ផងដែរ។ សូមប្រើវានៅពេលគណនីមួយអាចស្ថិតនៅក្នុងដៃខុស បន្ទាប់មកកំណត់ពាក្យសម្ងាត់របស់វាឡើងវិញ។</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>ID អ្នកប្រើ ឈ្មោះអ្នកប្រើ ឬអាសយដ្ឋានអ៊ីមែល</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>ចាកចេញគ្រប់ទីកន្លែង</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>បានចូលឥឡូវនេះ</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>វគ្គ %limit ដែលបានប្រើថ្មីៗបំផុតត្រូវបានបង្ហាញ។</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>អ្នកប្រើ</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>ឧបករណ៍</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>អាសយដ្ឋាន</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>បានចូល</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>សកម្មចុងក្រោយ</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>សកម្មភាព</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>ឧបករណ៍នេះ</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>មិនបានកត់ត្រា</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>ចាកចេញ</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>គ្មានវគ្គណាបានចូលទេ។</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>%days ថ្ងៃចុងក្រោយ</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>ការចូល និងការប៉ុនប៉ងបរាជ័យត្រូវបានរាប់ពីកំណត់ហេតុសវនកម្មអ្នកប្រើ ដែលមិនមាន ចំណែកវគ្គថ្មីនៅតែត្រូវបានរាប់។</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>ថ្ងៃ</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>ការចូល</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>ការប៉ុនប៉ងដែលបរាជ័យ</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>វគ្គថ្មី</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>ឧបករណ៍គ្រប់គ្រងវគ្គ: %handler ។ វគ្គត្រូវបានអានពីតារាង expuser_session ដូច្នេះរបាយការណ៍ដំណើរការជាមួយឧបករណ៍គ្រប់គ្រងគ្រប់ប្រភេទ។</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>សកម្មភាពគួរឱ្យសង្ស័យក្នុងរយៈពេល %hours ម៉ោងចុងក្រោយ</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>បណ្តាញមួយបានបរាជ័យក្នុងការចូលគណនីចំនួន %accounts (ការប៉ុនប៉ង %count)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>គណនីត្រូវបានចាក់សោបន្ទាប់ពីការចូលបរាជ័យ</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>ការចូលបរាជ័យ %count ដងលើគណនីមួយ</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>បានចូលពី %count ប្រទេសក្នុងពេលតែមួយ</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>សកម្មភាពសុវត្ថិភាព</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>វគ្គ</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>ការចូលដែលបរាជ័យត្រូវបានអានពីកំណត់ហេតុសវនកម្មអ្នកប្រើ ដែលមិនមាននៅទីនេះទេ។</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>គ្មានអ្វីគួរឱ្យសង្ស័យទេ៖ គ្មានគណនីដែលមានការចូលបរាជ័យដដែលៗ គ្មានបណ្តាញដែលសាកល្បងគណនីច្រើន គ្មានគណនីដែលបានចូលពីប្រទេសច្រើន។</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>ការព្រមានសុវត្ថិភាពសម្រាប់គណនីរបស់អ្នក</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>មានព្រឹត្តិការណ៍សុវត្ថិភាពមួយនៅលើគណនី %login របស់អ្នក: %event ។ ប្រសិនបើមិនមែនជាអ្នក សូមការពារគណនីរបស់អ្នកនៅ %url ។</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>ការរៀបចំ</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>ស្នើសុំពីមាតិកានៃគេហទំព័រនេះ នូវវាលដែលទំព័រមួយត្រូវការយ៉ាងពិតប្រាកដ ក្នុងសំណើតែមួយ។ គ្រោងការណ៍ធ្វើតាមថ្នាក់មាតិកា ហើយសំណួរនីមួយៗដំណើរការជាមួយសិទ្ធិរបស់អ្នកប្រើដែលផ្ញើវា។</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>GraphQL API ត្រូវបានបិទនៅក្នុងការចូលគេហទំព័រនេះ។ បើកវានៅក្នុង graphql.ini៖ [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>បណ្ណាល័យ GraphQL (webonyx/graphql-php 15) មិនទាន់បានដំឡើងទេ។</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>ចំណុចបញ្ចប់</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>បណ្ណាល័យ</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>គ្រោងការណ៍</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>ថ្នាក់មាតិកា %count គ្រោងការណ៍ %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>សំណួរ</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>អថេរ (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>ដំណើរការ</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>ចម្លើយ</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>កំពុងដំណើរការ…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>មិនអាចអានចម្លើយបានទេ។</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>សំណួរដំណើរការជាមួយសិទ្ធិរបស់អ្នក ដោយចូលតាមវគ្គនេះ។</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%count ក្នុងរយៈពេល %seconds វិ</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>គ្មានដែនកំណត់</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>ជម្រៅ</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>ភាពស្មុគស្មាញ</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>ធាតុក្នុងមួយបញ្ជី</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (លំនាំដើម %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>សំណើក្នុងមួយអ្នកប្រើ ឬកូនសោ</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>សំណើក្នុងមួយអាសយដ្ឋានអនាមិក</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>Introspection</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>តែសំណួរដែលបានរក្សាទុក</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>សំណួរធំបំផុត</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>%bytes បៃ</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>ការផ្ទុកឡើងធំបំផុត</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>គ្មានការចូលគេហទំព័រ %siteaccess ទេ។</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>ម្យូតេសិនត្រូវបានបើកនៅក្នុង %siteaccess។</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>ម្យូតេសិនត្រូវបានបិទនៅក្នុង %siteaccess។</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>GraphQL API ត្រូវបានបើកនៅក្នុង %siteaccess។</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>GraphQL API ត្រូវបានបិទនៅក្នុង %siteaccess។</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>មិនអាចសរសេរការកំណត់បានទេ៖ %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>ឃ្លាំងសម្ងាត់ចម្លើយត្រូវបានសម្អាត៖ ចម្លើយ %count ត្រូវបានលុប។</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>សូមធីកប្រអប់នៅក្បែរសំណួរ ដើម្បីលុបវា។</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>មិនអាចលុបសំណួរបានទេ៖ សំណួរដែលភ្ជាប់មកក្នុងថតនៃ PersistedQueryDirectoryList[] ត្រូវបានលុបជាមួយឯកសាររបស់វា។</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>សំណួរដែលបានរក្សាទុកត្រូវបានលុប។</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>ម្យូតេសិន</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>បើក</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>បិទ</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>ការចូលគេហទំព័រ</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>កន្លែងដែល API និងម្យូតេសិនរបស់វាឆ្លើយតប។ ប៊ូតុងសរសេរ graphql.ini ដូចដែល ./console exp:graphql:enable និង exp:graphql:disable ធ្វើ។</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>ការចូលគេហទំព័រ</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>GraphQL API</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>ផ្លាស់ប្ដូរ</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>បិទ</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>ម្យូតេសិនបិទ</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>ម្យូតេសិនបើក</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>បើក</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>ដែនកំណត់</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>graphql.ini [GraphQLSettings] នៃការចូលគេហទំព័រនេះ។</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>ឃ្លាំងសម្ងាត់ចម្លើយ</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>ចម្លើយនៃសំណួរដែលបានរក្សាទុក រក្សាទុកតាមសិទ្ធិអ្នកប្រើ ហើយផុតកំណត់រាល់ពេលមាតិកាត្រូវបានផ្សាយ។</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>ស្ថានភាព</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>ចម្លើយដែលបានរក្សាទុក</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>ចម្លើយ %count, %bytes បៃ</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>រក្សាទុកយូរបំផុត</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds វិ</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>ផុតកំណត់ចុងក្រោយ</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>សម្អាតឃ្លាំងសម្ងាត់ចម្លើយ</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>សំណួរដែលបានរក្សាទុក</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>រក្សាទុកដោយ ./console exp:graphql:persist ឬដោយម៉ាស៊ីនភ្ញៀវ (automatic persisted queries); ហៅតាមឈ្មោះ ឬ SHA-256។</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>ឈ្មោះ</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>ទំហំ</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>ទីតាំង</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>លុប</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>ភ្ជាប់មក</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>បានរក្សាទុក</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>បាទ/ចាស លុបសំណួរនេះ</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>មិនទាន់មានសំណួរដែលបានរក្សាទុកនៅឡើយទេ។</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>កូនសោ API</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>កូនសោ API ផ្ទាល់ខ្លួនដែលមានវិសាលភាព graphql:read (សំណួរ) ឬ graphql:write (ម្យូតេសិន)។ បង្កើត និងដកហូតពួកវានៅលើទំព័រ ការចូលប្រើ API ឬដោយ ./console exp:graphql:keys។</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>ការចូលប្រើ API</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>កូនសោទាំងអស់</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>កូនសោ</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>ឈ្មោះ</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>ម្ចាស់</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>វិសាលភាព</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>ប្រើចុងក្រោយ</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>សកម្ម</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>ផុតកំណត់</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>បានដកហូត</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>មិនដែល</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>មិនទាន់មានកូនសោ API ដែលមានវិសាលភាព GraphQL នៅឡើយទេ។</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>GraphQL API ត្រូវបានបិទនៅក្នុងការចូលគេហទំព័រ %siteaccess ដែលបង្ហាញទំព័រនេះ។ តារាងខាងក្រោមបង្ហាញកន្លែងដែលវាឆ្លើយតប។</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>សម្រាប់ការចូលគេហទំព័រ %siteaccess ដែលបង្ហាញទំព័រនេះ។</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>Webhook</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>ព្រឹត្តិការណ៍នីមួយៗដែលចំណុចបញ្ចប់ស្នើ (publish, update, trash, delete, move, hide, reveal, mutation) ត្រូវបានផ្ញើទៅវា ដោយមានហត្ថលេខា ដោយផ្នែក cronjob graphqlwebhooks។ ./console exp:graphql:webhooks ធ្វើដូចគ្នានឹងផ្នែកនេះ។</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>ព្រឹត្តិការណ៍</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>ទាំងអស់</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>ការចូលគេហទំព័រទាំងអស់</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>ខូច</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>គ្មានការសម្ងាត់</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>កំពុងរង់ចាំ</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>បោះបង់ %count</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>ការបញ្ជូនចុងក្រោយ</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>ផ្ញើការសាកល្បង</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>បាទ/ចាស លុប Webhook នេះ</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>មិនទាន់មាន Webhook នៅឡើយទេ។</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>បន្ថែម Webhook</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>បន្ថែម</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>ការបញ្ជូនថ្មីៗ</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>ពេលវេលា</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>លទ្ធផល</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>ការជាវ</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>ការធ្វើបច្ចុប្បន្នភាពផ្ទាល់សម្រាប់ម៉ាស៊ីនភ្ញៀវ៖ ស្ទ្រីមព្រឹត្តិការណ៍នៅ /api/graphql/subscribe និង WebSocket (graphql-transport-ws) នៅលើ Velocity។ ព្រឹត្តិការណ៍នីមួយៗទៅដល់តែអ្នកជាវដែលអាចអានខ្លឹមសាររបស់វាប៉ុណ្ណោះ។</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>កំពុងបើកឥឡូវ</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>បើកច្រើនបំផុត</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>សរុប %total, %user ក្នុងមួយអ្នកប្រើ, %address ក្នុងមួយអាសយដ្ឋាន</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>ការជាវអនាមិក</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>រយៈពេលស្ទ្រីម</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>មិនអាចបន្ថែម Webhook បានទេ៖ %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>Webhook %name ត្រូវបានផ្លាស់ប្ដូរ។ ការសម្ងាត់ហត្ថលេខារបស់វានៅដដែល។</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>មិនអាចរក្សាទុកការសម្ងាត់ហត្ថលេខាបានទេ (ការរៀបចំ &gt; ការសម្ងាត់)។</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>Webhook %name ត្រូវបានបន្ថែម។ ការសម្ងាត់ហត្ថលេខារបស់វា បង្ហាញតែម្ដងនេះប៉ុណ្ណោះ៖ %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>គ្មាន Webhook %name ទេ។</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>Webhook %name មិនបានឆ្លើយតបទេ៖ %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>Webhook %name បានឆ្លើយតប %status ក្នុងរយៈពេល %ms ms។</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>សូមធីកប្រអប់នៅក្បែរ Webhook ដើម្បីលុបវា។</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>Webhook %name ត្រូវបានលុប។</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>GraphQL API ត្រូវបានបិទនៅក្នុងការចូលគេហទំព័រនេះ។</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>បណ្ណាល័យ GraphQL មិនទាន់បានដំឡើងទេ។</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>ប្រើ GET ឬ POST។</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>តួសំណើមិនមែនជាវត្ថុ JSON ទេ។</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables មិនមែនជាវត្ថុ JSON ទេ។</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions មិនមែនជាវត្ថុ JSON ទេ។</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>ផ្ញើសំណួរដោយប្រើ POST។</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>សំណើមិនមានសំណួរទេ។</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>សំណួរវែងជាង %max បៃ។</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>កំហុសម៉ាស៊ីនមេខាងក្នុង</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node ត្រូវការតែមួយគត់ក្នុងចំណោម id, remoteId, path និង urlAlias។</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content ត្រូវការតែមួយគត់ក្នុងចំណោម id និង remoteId។</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>ទស្សន៍ទ្រនិចរបស់ after មិនមែនជាអ្វីដែល API នេះបានផ្ដល់ទេ។</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>មិនមានឈ្មោះក្លែងរូបភាព %alias ទេ (image.ini [AliasSettings] AliasList[])។</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>នៅទីនេះទទួលតែសំណួរដែលបានរក្សាទុកប៉ុណ្ណោះ៖ សូមផ្ញើ id នៃសំណួរដែលបានរក្សាទុក។</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>ហាសរបស់សំណួរដែលបានរក្សាទុកមិនមែនជា SHA-256 ទេ។</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>ហាសរបស់សំណួរដែលបានរក្សាទុកមិនត្រូវគ្នានឹងសំណួរទេ។</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>សំណើច្រើនពេក៖ យ៉ាងច្រើន %limit ក្នុងរយៈពេល %window វិនាទី។ សូមព្យាយាមម្ដងទៀតក្នុងរយៈពេល %reset វិនាទី។</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>សំណួរមានជម្រៅ %depth កម្រិត; អនុញ្ញាតយ៉ាងច្រើន %max។</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>សំណួរមានភាពស្មុគស្មាញ %complexity; អនុញ្ញាតយ៉ាងច្រើន %max។</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>សំណើនេះមិនអាចអានគ្រោងការណ៍បានទេ (introspection)។</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search ត្រូវការអត្ថបទ ឬតម្រង (classes, subtree, sections, publishedAfter, publishedBefore)។</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument មិនមែនជាកាលបរិច្ឆេទទេ (ISO 8601, 2026-10-30)។</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag ត្រូវការតែមួយគត់ក្នុងចំណោម id, remoteId និង path។</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout ត្រូវការតែមួយគត់ក្នុងចំណោម id, identifier និង urlAlias។</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>វាល operations នៃសំណើ multipart មិនមែនជាសំណើ JSON តែមួយទេ។</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>វាល map នៃសំណើ multipart មិនមែនជាវត្ថុ JSON ទេ។</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>សំណើ multipart មិនមានឯកសារ %field ទេ។</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>ផ្លូវមួយនៃផែនទីវាលត្រូវតែចាប់ផ្ដើមដោយ variables.: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>ឯកសារ %name មកមិនពេញលេញទេ (កំហុសផ្ទុកឡើង %error)។</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>ឯកសារ %name ធំជាង %max បៃ។</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>មិនអាចពិនិត្យឯកសារ %name បានទេ។</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>ម្យូតេសិនត្រូវបានបិទនៅក្នុងការចូលគេហទំព័រនេះ (graphql.ini [GraphQLSettings] MutationsEnabled)។</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>សូមផ្ញើម្យូតេសិនដោយ POST។</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>សូមចូលដើម្បីផ្លាស់ប្ដូរមាតិកា។</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>កូនសោ API មិនមានវិសាលភាព %scope ទេ។</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>ម្យូតេសិនដែលមានវគ្គ ត្រូវការតូខឹនទម្រង់របស់វគ្គនោះ (header X-CSRF-Token)។</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>uploadFromUrl ត្រូវបានបិទ៖ graphql.ini [GraphQLSettings] UploadFromUrlHostList[] មិនបានដាក់ឈ្មោះម៉ាស៊ីនណាមួយទេ។</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>អាសយដ្ឋានត្រូវតែជាអាសយដ្ឋាន https។</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>ម៉ាស៊ីន %host មិនមាននៅក្នុង graphql.ini [GraphQLSettings] UploadFromUrlHostList[] ទេ។</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>មិនអាចទាញយកឯកសារបានទេ។</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload គឺជាប្រភេទបញ្ចូលតែប៉ុណ្ណោះ។</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>អថេរប្រភេទ Upload ទទួលឯកសារនៃសំណើ multipart។</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>remote id %remoteId ត្រូវបានប្រើរួចហើយ។</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>មាតិកាមានការបកប្រែជា %language រួចហើយ៖ សូមប្រើ updateContent។</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>សូមផ្ដល់វាលយ៉ាងហោចណាស់មួយ។</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>មិនអាចបង្កើតកំណែថ្មីបានទេ (មាតិកាមានសេចក្ដីព្រាងច្រើនពេក)។</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>កំណែ %version មិនមែនជាសេចក្ដីព្រាងទេ។</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent ត្រូវការតែមួយគត់ក្នុងចំណោម id និង nodeId។</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>ទីតាំងមិនអាចផ្លាស់ទីទៅក្រោមខ្លួនឯងបានទេ។</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>មាតិកាមានទីតាំងនៅក្រោម %parentId រួចហើយ។</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>មិនអាចរក្សាទុកតម្លៃនៃវាល %field បានទេ។</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>គ្មានភាសាមាតិកា %language ទេ។</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>គ្មានថ្នាក់មាតិកា %class នៅក្នុងគ្រោងការណ៍ទេ។</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>មាតិកាមិនមានទេ ឬអ្នកមិនអាចអានវាបានទេ។</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>អ្នកមិនអាចធ្វើការនេះលើមាតិកានេះបានទេ។</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>ថ្នាក់ %class មិនមានវាល %field ដែលអាចសរសេរបានទេ។</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>វាល %field ត្រូវបានផ្ដល់ពីរដង។</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>វាល %field ទទួលឯកសារ៖ សូមផ្ញើវាជាការផ្ទុកឡើង (សំណើ multipart)។</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>វាល %field មិនទទួលឯកសារទេ។</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>វាល %field ត្រូវការតម្លៃ។</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>ទម្រង់ %format សម្រាប់តែវាលអត្ថបទសម្បូរបែបប៉ុណ្ណោះ; %field ទទួលតម្លៃរបស់វាដដែល (RAW)។</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>វាល %field ត្រូវតែមាន។</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>មិនអាចអាន HTML បានទេ។</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content ទទួល version តែជាមួយ id ប៉ុណ្ណោះ។</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>តូខឹនមើលជាមុនមិនត្រឹមត្រូវ ឬផុតកំណត់ហើយ។</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>មិនមែនជា origin ទេ (https://host ឬ https://host:port)៖ %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>មិនមែនជាវិសាលភាពនៃ GraphQL API ទេ៖ %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>សូមផ្ញើការជាវទៅ /api/graphql/subscribe (ស្ទ្រីមព្រឹត្តិការណ៍ ឬ WebSocket)។</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>សំណើមិនបានដាក់ឈ្មោះប្រតិបត្តិការណាមួយនៃឯកសារទេ។</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>ការជាវមួយស្នើសុំវាលតែមួយគត់។</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>មានការជាវបើកច្រើនពេក។ សូមព្យាយាមម្ដងទៀតពេលក្រោយ។</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>អ្នកមានការជាវបើក %max ដែលជាចំនួនអតិបរមាដែលអនុញ្ញាត។</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>អាសយដ្ឋានរបស់អ្នកមានការជាវបើក %max ដែលជាចំនួនអតិបរមាដែលអនុញ្ញាត។</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>ការជាវត្រូវបានបិទនៅក្នុងការចូលគេហទំព័រនេះ។</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>សូមចូលដើម្បីជាវ (តូខឹន ឬកូនសោ API ផ្ទាល់ខ្លួន)។</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>សូមផ្ញើម្យូតេសិនទៅ /api/graphql។</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>ការផ្ទេរ</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>មិនអាចអានស្ថានភាពបានទេ៖ %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>តារាងនៃការផ្ទេរមិនទាន់មាននៅឡើយទេ៖ ./console exp:upgrade --apply នឹងបង្កើតពួកវា។</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>ការផ្ទេរ %count បានបរាជ័យ</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>ការដំណើរការមួយកំពុងដំណើរការ ចាប់ផ្ដើមដោយ %user</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>ការដំឡើងត្រូវបានចាក់សោ៖ %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>កំពុងរង់ចាំ</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>បរាជ័យ</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>គ្មានម្ចាស់</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>ការដំណើរការចុងក្រោយ</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>មិនទាន់មាននៅឡើយ</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>ការផ្ទេរទាំងអស់</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>ការដំណើរការក្លែងធ្វើ</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>ការដំណើរការសាកល្បង</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>ការផ្ទេរដែលកំពុងរង់ចាំបានដំណើរការក្នុងប្រតិបត្តិការមួយដែលត្រូវបានត្រឡប់វិញនៅពេលក្រោយ៖ គ្មានអ្វីត្រូវបានរក្សាទុកទេ។ ខាងក្រោមនេះជាអ្វីដែលនីមួយៗបានផ្លាស់ប្ដូរក្នុងមូលដ្ឋានទិន្នន័យ។</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>អ្វីដែលការដំណើរការនឹងធ្វើឥឡូវនេះ។ គ្មានអ្វីត្រូវបានផ្លាស់ប្ដូរទេ៖ ការផ្ទេរដែលកំពុងរង់ចាំនីមួយៗរាយការផ្លាស់ប្ដូរដែលវានឹងធ្វើ ហើយការដំណើរការរាយអ្វីដែលវានឹងធ្វើមុន និងក្រោយ។</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>ក្លែងធ្វើ</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>ដំណើរការ</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>ការដំណើរការសាកល្បងបានបរាជ័យ៖ %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>ការក្លែងធ្វើត្រូវការ PostgreSQL ឬ SQLite ដែលការផ្លាស់ប្ដូររចនាសម្ព័ន្ធអាចត្រឡប់វិញបាន។ នៅលើមូលដ្ឋានទិន្នន័យនេះ ផែនការខាងក្រោមគឺជាអ្វីដែលការដំណើរការនឹងធ្វើ។</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>ការផ្ទេរ</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>ការផ្ទេរ</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>ស្ថានភាព</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>អ្វីដែលវានឹងធ្វើ</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>ការក្លែងធ្វើ៖ %result ក្នុងរយៈពេល %ms មិល្លីវិនាទី</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>មិនទាន់មានការផ្ទេរនៅឡើយទេ។</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>មុន និងក្រោយការដំណើរការ</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>រូបថតមុន</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>ត្រូវបានថត ហើយស្ដារវិញនៅពេលការផ្ទេរបរាជ័យ</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>បិទ</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>រូបថតក្រោយ</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>ត្រូវបានថតនៅពេលការដំណើរការបានជោគជ័យ</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>ការផ្ទេរ %total៖ %pending កំពុងរង់ចាំ, %done បានធ្វើរួច, %failed បរាជ័យ។</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>ប្រវត្តិនៃការផ្ទេរ</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>ការដំណើរការនីមួយៗ ជាមួយអ្នកប្រើ បរិស្ថាន រូបថត និងអ្វីដែលត្រូវបាន commit ដាក់ស្លាក និងរុញ។ ការដំណើរការដែលបរាជ័យ ឬត្រូវបានរំខាន អាចបន្តបាន។ ការដំណើរការដែលមានរូបថតថតមុនវា អាចដកវិញបាន។</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>មិនអាចអានការដំណើរការបានទេ៖ %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>តារាងនៃការផ្ទេរមិនទាន់មាននៅឡើយទេ៖ ./console exp:upgrade --apply នឹងបង្កើតពួកវា។</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>បង្ហាញ</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>ទាំងអស់</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>ការដំណើរការ</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>បានចាប់ផ្ដើម</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>ដោយ</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>រូបថត</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>ឃ្លាំងកូដ</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>សកម្មភាព</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>មុន</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>ក្រោយ</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>ការរុញ៖ %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>បន្ត</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>ត្រឡប់វិញ</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>គ្មានការដំណើរការក្នុងស្ថានភាពនេះទេ។</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>បានចាប់ផ្ដើមនៅទីនេះ</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>ការដំណើរការ ការបន្ត និងការត្រឡប់វិញ ដែលបានចាប់ផ្ដើមនៅលើទំព័រទាំងនេះ ជាមួយរបាយការណ៍នៃនីមួយៗ។</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>អ្វី</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>លទ្ធផល</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>ការត្រឡប់វិញ</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>ការត្រឡប់វិញនៃ %target</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>ការដំណើរការ %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>អ្វីដែលការដំណើរការបានធ្វើ កំណត់ត្រា និងកំណត់ហេតុរបស់វា។ ការដំណើរការដែលចាប់ផ្ដើមនៅទីនេះបន្តនៅផ្ទៃខាងក្រោយ នៅពេលទំព័រនេះត្រូវបានបិទ។ សូមបើកទំព័រម្ដងទៀតដើម្បីតាមដានវា។</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>បន្តការដំណើរការនេះ</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>ត្រឡប់ការដំណើរការនេះវិញ</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>មិនអាចអានកំណត់ត្រាបានទេ៖ %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>វឌ្ឍនភាព</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>ចាប់ផ្ដើមដោយ %user នៅ %time។</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>កំពុងពិនិត្យកូដ និងថតរូបមុនការដំណើរការ</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>កំពុងដំណើរការ %id (%index នៃ %total)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>បានធ្វើរួច %done នៃ %total</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>ការផ្ទេរបានដំណើរការហើយ កំពុងស្ដាររូបថតវិញ ប្រសិនបើមួយបានបរាជ័យ</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>កំពុងថតរូបក្រោយការដំណើរការ commit ដាក់ស្លាក និងរុញ</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>កំពុងស្ដាររូបថតវិញ</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>ការដំណើរការបានបញ្ចប់។ កំពុងផ្ទុករបាយការណ៍របស់វា។</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>មិនអាចតាមដានវឌ្ឍនភាពបានទេ។ សូមផ្ទុកទំព័រឡើងវិញ ដើម្បីមើលថាការដំណើរការទៅដល់ណាហើយ។</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>ទំព័រនេះតាមដានការដំណើរការនៅពេលវាកំពុងដំណើរការ។</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>ផ្ទុកឡើងវិញ</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>របាយការណ៍</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>រយៈពេល</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms មិល្លីវិនាទី</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>អ្វីដែលការដំណើរការបានបង្ហាញជាកំហុស</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>កំណត់ត្រា</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>បរិស្ថាន</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>គ្មាន</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>បានបញ្ចប់</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>ខមមីត</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>ស្លាក</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>ការរុញ</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>សារ</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>ការផ្ទេរនៃការដំណើរការនេះ</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>ប្រភព</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>កំណត់ហេតុនៃការដំណើរការ</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>មានតែចុងបញ្ចប់នៃកំណត់ហេតុប៉ុណ្ណោះដែលត្រូវបានបង្ហាញ។</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>កំពុងដំណើរការ</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>បានបញ្ចប់ដោយគ្មានរបាយការណ៍</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>ជោគជ័យ</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>បរាជ័យ</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>ត្រូវបានបដិសេធ</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>មិនអាចភ្ជាប់ទៅមូលដ្ឋានទិន្នន័យបានទេ</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>កំហុសខាងក្នុង</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>ការដំណើរការមួយកំពុងដំណើរការ</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind ចាប់ផ្ដើមដោយ %user នៅ %time។</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>តាមដាន</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>ការដំឡើងត្រូវបានចាក់សោ</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>ការដំណើរការមួយផ្សេងទៀតកំពុងកាន់សោ (ការធ្វើឱ្យប្រសើរ ឬការដំណើរការលើកុងសូល)៖ %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>បានធ្វើរួច</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>កំពុងរង់ចាំ</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>មិនចាំបាច់</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>មិនស្គាល់</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>បានត្រឡប់វិញ</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>បានអនុវត្ត</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>នឹងត្រូវបានអនុវត្ត</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>បានដកវិញ</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>នឹងត្រូវបានដកវិញ</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>មិនបានដំណើរការ</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>រង់ចាំមួយផ្សេងទៀត</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>ការផ្លាស់ប្ដូរត្រូវបានទទួលយក</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>ការផ្លាស់ប្ដូរនឹងត្រូវបានទទួលយក</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>បានក្លែងធ្វើ</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>ការផ្ទេរ</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>ស្ថានភាព</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>ប្រវត្តិ</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>ដក %target វិញ</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>ការដំណើរការមួយត្រូវបានដកវិញទៅរូបថតដែលបានថតមុនវា ការផ្ទេរមួយត្រូវបានដកវិញដោយ down() របស់វា។ ការស្ដាររូបថតមុនៗគឺសម្រាប់អ្នកជំនាញ។ នីមួយៗដំណើរការនៅផ្ទៃខាងក្រោយក្នុងនាមអ្នក បន្ទាប់ពីថតរូបស្ថានភាពបច្ចុប្បន្ន។</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>មិនអាចអានអ្វីដែលអាចដកវិញបានទេ៖ %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>ការដំណើរការមួយ</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>ការផ្ទេរមួយ</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>រូបថតមុនៗ</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>ការពិពណ៌នា</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>បាទ/ចាស</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ទេ</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>រូបថត</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>ស្លាកឈ្មោះ</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>បានថត</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>ប្រភេទ</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>ផ្នែកដែលត្រូវស្ដារ</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>មូលដ្ឋានទិន្នន័យ</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>ឯកសារផ្ទុក (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>ការកំណត់ (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>ការស្ដារមូលដ្ឋានទិន្នន័យនាំវាត្រឡប់ទៅពេលវេលានៃរូបថត រួមទាំងវគ្គផងដែរ៖ អ្នកប្រហែលជាត្រូវចូលម្ដងទៀតបន្ទាប់ពីនោះ។ អ្វីៗទាំងអស់ដែលបានផ្លាស់ប្ដូរចាប់តាំងពីពេលនោះនឹងបាត់បង់។ រូបថតនៃស្ថានភាពបច្ចុប្បន្នត្រូវបានថតមុនសិន។</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>ខ្ញុំដឹងថាវានឹងស្ដារអ្វីខ្លះ</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>វាយលេខសម្គាល់នៃរូបថតម្ដងទៀត</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>បាទ/ចាស ដកវិញ</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>បោះបង់</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>ការដំណើរការដែលមានរូបថតថតមុនពួកវា។</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>ជ្រើសរើស</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>មិនទាន់មានការដំណើរការដែលមានរូបថតនៅឡើយទេ។</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>ការផ្ទេរដែលបានអនុវត្ត ដែលអាចដកខ្លួនឯងវិញបាន (ពួកវាមាន down())។</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>គ្មានការផ្ទេរដែលបានអនុវត្តណាមួយមាន down() ទេ។</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>រូបថតមុនៗ (អ្នកជំនាញ)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>មិនទាន់មានរូបថតនៅឡើយទេ។</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>ដំណើរការការផ្ទេរ</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>ការដំណើរការបន្តនៅផ្ទៃខាងក្រោយក្នុងនាម %user ហើយទំព័ររបស់វាបង្ហាញវានៅពេលវាកំពុងដំណើរការ។ មុនការផ្ទេរដំបូង រូបថតនៃការដំឡើងត្រូវបានថត។ នៅពេលការផ្ទេរមួយបរាជ័យ ការដំណើរការឈប់ ហើយរូបថតត្រូវបានស្ដារវិញ។</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>ដំណើរការសាកល្បងជាមុន</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>មិនអាចអានស្ថានភាពបានទេ៖ %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>ការផ្ទេរដែលកំពុងរង់ចាំ</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>ពួកវាដំណើរការតាមលំដាប់នេះ។ ដោះធីកមួយ ដើម្បីទុកវា និងការផ្ទេរដែលត្រូវការវា សម្រាប់ការដំណើរការពេលក្រោយ។</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>ដំណើរការវា</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>បើករបៀបថែទាំ ខណៈពេលវាកំពុងដំណើរការ។</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>បានផ្លាស់ប្ដូរបន្ទាប់ពីត្រូវបានអនុវត្ត</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>ឯកសារទាំងនេះមិនមែនជាឯកសារដែលត្រូវបានអនុវត្តទេ។ ការដំណើរការបដិសេធពួកវា លុះត្រាតែការផ្លាស់ប្ដូរត្រូវបានទទួលយកជាមួយហេតុផល។ ពួកវាមិនត្រូវបានដំណើរការម្ដងទៀតទេ checksum ថ្មីត្រូវបានកត់ត្រា ហើយហេតុផលត្រូវបានរក្សាទុកក្នុងកំណត់ហេតុសវនកម្ម។</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>ទទួលយកការផ្លាស់ប្ដូរ</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>ហេតុអ្វី</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>តម្លៃលំនាំដើមគឺជាតម្លៃសុវត្ថិភាព។ ប្រអប់នីមួយៗរំលងជំហានមួយ។</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>គ្មានរូបថត</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>គ្មានរូបថតមុន និងក្រោយការដំណើរការ៖ ការបរាជ័យមិនអាចស្ដារវិញដោយស្វ័យប្រវត្តិបានទេ។</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>គ្មានការស្ដារ</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>បន្ទាប់ពីការបរាជ័យ ទុកការដំឡើងដូចដែលការបរាជ័យបានទុកវា។</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>រក្សាការផ្លាស់ប្ដូរដែលមិនទាន់ commit</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>ដំណើរការ ទោះបីការកំណត់ ផ្នែកបន្ថែម ឬការរចនាមានការផ្លាស់ប្ដូរដែលមិនទាន់ commit ក៏ដោយ៖ ពួកវានឹងចូលក្នុងរូបថត។</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>គ្មានការ commit</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>កុំ commit ឯកសារស្ថានភាព និងកំណត់ហេតុនៃការដំណើរការ (គ្មានស្លាក និងគ្មានការរុញផងដែរ)។</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>គ្មានការរុញ</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>Commit និងដាក់ស្លាក ប៉ុន្តែកុំរុញ។</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>គ្មានស្លាក</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>Commit និងរុញ ប៉ុន្តែកុំដាក់ស្លាកលើការដំណើរការ។</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>បាទ/ចាស ដំណើរការការផ្ទេរទាំងនេះឥឡូវនេះ</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>គ្មានការផ្ទេរណាកំពុងរង់ចាំទេ។</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>ត្រឡប់ទៅស្ថានភាព</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>ការផ្លាស់ប្ដូរលើការដំឡើងនេះ ដែលសរសេរម្ដងជាឯកសារ (មាតិកា ថ្នាក់ តួនាទី ការកំណត់ រចនាសម្ព័ន្ធ) ហើយអនុវត្តលើការដំឡើងនីមួយៗនៃគេហទំព័រតាមលំដាប់ដូចគ្នា។ ការដំណើរការថតរូបមុនសិន ស្ដារវាវិញនៅពេលការផ្ទេរបរាជ័យ ហើយកត់ត្រា commit និងរុញអ្វីដែលវាបានធ្វើ។</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>ដំណើរការ %count ដែលកំពុងរង់ចាំ</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>ទិដ្ឋភាពទូទៅ</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>កំពុងរង់ចាំ</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>បានធ្វើរួច</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>បរាជ័យ</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>មិនចាំបាច់</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>មូលដ្ឋានទិន្នន័យ</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>ប្រតិបត្តិការ៖ %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>ការផ្ទេររបស់គេហទំព័រស្ថិតនៅក្នុង migrations/ ហើយរបស់ផ្នែកបន្ថែមស្ថិតនៅក្នុង extension/&lt;name&gt;/migrations/។ ពួកវាដំណើរការតាមលំដាប់ឈ្មោះ និងអ្វីដែលពួកវាត្រូវការ។</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>ការដំណើរការចុងក្រោយ</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>ឯកសារបានផ្លាស់ប្ដូរបន្ទាប់ពីត្រូវបានអនុវត្ត។</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>មិនទាន់មានការផ្ទេរនៅឡើយទេ។ ./console exp:migration:generate --skeleton &lt;name&gt; --apply សរសេរការផ្ទេរដំបូង។</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>ការដំណើរការចុងក្រោយបំផុត</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>ការដំណើរការទាំងអស់</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>មិនទាន់មានការដំណើរការនៅឡើយទេ។</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>ការក្លែងធ្វើការដំណើរការត្រូវការគោលការណ៍ migration/run។</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>ការដំណើរការមួយកំពុងដំណើរការ៖ សូមក្លែងធ្វើនៅពេលវាបានបញ្ចប់។</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>ការរៀបចំ</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target មិនមែនជាការដំណើរការ ការផ្ទេរ ឬរូបថតនៃការដំឡើងនេះទេ។</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>សូមធីក “បាទ/ចាស ដកវិញ” ជាមុនសិន។</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>ការស្ដាររូបថតមុនៗគឺសម្រាប់អ្នកជំនាញ៖ សូមធីក “ខ្ញុំដឹងថាវានឹងស្ដារអ្វីខ្លះ”។</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>វាយលេខសម្គាល់នៃរូបថតម្ដងទៀត៖ %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>ជ្រើសរើសយ៉ាងហោចណាស់ផ្នែកមួយដើម្បីស្ដារ។</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>ការដំណើរការនេះគ្មានរូបថតថតមុនវាទេ៖ សូមដកការផ្ទេររបស់វាវិញម្ដងមួយៗ ឬស្ដាររូបថតមុនៗ។</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>ការផ្ទេរនេះមិនអាចដកខ្លួនឯងវិញបានទេ៖ វាមិនត្រូវបានអនុវត្ត ឬវាគ្មាន down()។</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>មិនអាចអានទម្រង់បានទេ។</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>ជ្រើសរើសការដំណើរការដែលត្រូវបន្ត។</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>សូមធីក “បាទ/ចាស ដំណើរការការផ្ទេរទាំងនេះឥឡូវនេះ” ជាមុនសិន។</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>ជ្រើសរើសការផ្ទេរយ៉ាងហោចណាស់មួយ។</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>ការផ្ទេរមួយបានផ្លាស់ប្ដូរបន្ទាប់ពីត្រូវបានអនុវត្ត៖ សូមទទួលយកការផ្លាស់ប្ដូរជាមួយហេតុផល ឬដាក់ឯកសារត្រឡប់វិញ។</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>សូមផ្ដល់ហេតុផលដែលការផ្ទេរដែលបានផ្លាស់ប្ដូរត្រូវបានទទួលយក។</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>ហេតុផលមានយ៉ាងច្រើនបំផុត 500 តួអក្សរ។</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>ការដំណើរការដែលចាប់ផ្ដើមនៅទីនេះនៅតែកំពុងដំណើរការ (%detail)។ សូមរង់ចាំរហូតដល់វាបញ្ចប់។</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>ការដំណើរការមួយផ្សេងទៀតកំពុងកាន់សោនៃការដំឡើង៖ %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>ការដំណើរការត្រូវការអ្នកប្រើដែលមានពិត និងបានចូល។</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>រកមិនឃើញកម្មវិធីបន្ទាត់ពាក្យបញ្ជា php ទេ។ សូមកំណត់ migration.ini [AdminSettings] PhpCliPath ទៅផ្លូវពេញរបស់វា។</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open ត្រូវបានបិទ ដូច្នេះមិនអាចចាប់ផ្ដើមការដំណើរការនៅទីនេះបានទេ។ សូមដំណើរការ ./console exp:migration:migrate --apply នៅលើម៉ាស៊ីនមេ។</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>មិនអាចសរសេរថតនៃការដំណើរការបានទេ៖ %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>ការដំណើរការបានចាប់ផ្ដើម ប៉ុន្តែមិនបានរាយការណ៍លេខសម្គាល់ដំណើរការរបស់វាទេ។ សូមពិនិត្យ %detail។</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>សូមបញ្ជាក់អ្វីដែលត្រូវដកវិញ។</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>មិនអាចចាប់ផ្ដើមការដំណើរការបានទេ។</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>ការថតការផ្លាស់ប្ដូរ</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>ខណៈពេលការថតកំពុងដំណើរការ អ្វីដែលអ្នកផ្លាស់ប្ដូរក្នុងការគ្រប់គ្រង ឬក្នុងរបារចំហៀងនៃគេហទំព័រ ត្រូវបានរក្សាទុកជាជំហាននៃការផ្ទេរ៖ មាតិកា ថ្នាក់ តួនាទី និងគោលការណ៍ ផ្នែក អ្នកប្រើ និងក្រុម ឈ្មោះក្លែងនៃ URL ការកំណត់។ បញ្ឈប់វានៅពេលអ្នករួចរាល់ មើលអ្វីដែលវាចាប់បាន ហើយបង្កើតការផ្ទេរពីវា។</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>មិនអាចអានការថតបានទេ៖ %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>តារាងនៃការថតមិនទាន់មាននៅឡើយទេ៖ ដំណើរការការធ្វើឱ្យប្រសើរជាមុនសិន (exp:upgrade --apply)។</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>ការថតត្រូវបានបិទក្នុង migration.ini ([RecordingSettings] Recording=disabled)។</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>ការផ្លាស់ប្ដូររបស់ខ្ញុំ</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>ថតតែអ្វីដែលអ្នកផ្លាស់ប្ដូរប៉ុណ្ណោះ ទោះអ្នកផ្លាស់ប្ដូរនៅទីណាក៏ដោយ រហូតដល់អ្នកបញ្ឈប់វា។</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>ការថត</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>តាំងពី %time មកដល់ពេលនេះ មានការផ្លាស់ប្ដូរ %count។</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>ស្លាក (ស្រេចចិត្ត)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>បង្ហាញអ្វីដែលវាចាប់បាន</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>បញ្ឈប់ការថត</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>ចាប់ផ្ដើមថតការផ្លាស់ប្ដូររបស់ខ្ញុំ</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>បង្អួចសម្រាប់គេហទំព័រទាំងមូល</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>ថតរាល់ការផ្លាស់ប្ដូររបស់អ្នកប្រើគ្រប់រូប និងរបស់កុងសូល រហូតដល់វាត្រូវបានបិទ។ ពេលបើកវា អ្នកនឹងត្រូវបានស្នើឱ្យផ្ទៀងផ្ទាត់ថាជាអ្នក។</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>បើក</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>បិទបង្អួច</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>បើកបង្អួចសម្រាប់គេហទំព័រទាំងមូល</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>ការថតទាំងឡាយ</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>គណនីរបស់អ្នកប្រើ (ឈ្មោះចូល អ៊ីមែល ពាក្យសម្ងាត់) និងវាលនៃគណនីអ្នកប្រើ មិនដែលត្រូវបានថតទេ។</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>ការផ្លាស់ប្ដូរ</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>គេហទំព័រទាំងមូល</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>ការផ្លាស់ប្ដូររបស់ %name</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>បានបញ្ឈប់</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>មិនទាន់មានការថតនៅឡើយទេ។</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>ការថត %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>ការថតទាំងអស់</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>ការផ្ទេរដែលវានឹងបង្កើត</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>ការផ្លាស់ប្ដូរដែលបានបង្រួមជាជំហានមួយសម្រាប់របស់នីមួយៗដែលបានផ្លាស់ប្ដូរ៖ អ្វីដែលការផ្ទេរដែលបង្កើតពីការថតនេះនឹងធ្វើ។</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>អាចបង្កើតការផ្ទេរពីវាបាន នៅពេលការដំឡើងនេះមានប្រភេទជំហាន YAML %types។</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>ទុកចោលដោយចេតនា៖ %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>គ្មានអ្វីត្រូវបានថតទេ។</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>អ្វីដែលវាចាប់បាន</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>ការផ្លាស់ប្ដូរ %count តាមលំដាប់ដែលបានធ្វើ។</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>ការផ្លាស់ប្ដូរមួយ</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>ជំហាន</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>អំពី</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>%count ទៀត៖ ./console exp:migration:record:show រាយទាំងអស់។</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>បោះបង់</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>លុបការថត និងអ្វីដែលវាចាប់បាន។ អ្វីដែលបានផ្លាស់ប្ដូរនៅតែផ្លាស់ប្ដូរ។</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>បាទ/ចាស បោះបង់ការថតនេះ</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>កំពុងថត…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>ការផ្លាស់ប្ដូររបស់អ្នកកំពុងត្រូវបានថតសម្រាប់ការផ្ទេរ។</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>រាល់ការផ្លាស់ប្ដូរនៅលើគេហទំព័រនេះកំពុងត្រូវបានថតសម្រាប់ការផ្ទេរ (បង្អួចសម្រាប់គេហទំព័រទាំងមូល)។</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>ការថតគេហទំព័រទាំងមូលបានចាប់ផ្ដើម៖ រាល់ការផ្លាស់ប្ដូររបស់អ្នកប្រើគ្រប់រូបត្រូវបានថត រហូតដល់អ្នកបញ្ឈប់វា។</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>ការថតបានចាប់ផ្ដើម៖ ការផ្លាស់ប្ដូររបស់អ្នកត្រូវបានថត រហូតដល់អ្នកបញ្ឈប់វា។</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>ការថតត្រូវបានបញ្ឈប់។ អ្វីដែលវាចាប់បាននៅដដែល រហូតដល់អ្នកបោះបង់វា។</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>ការថត និងព្រឹត្តិការណ៍របស់វាត្រូវបានលុប។</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>គ្មានការថត %id ទេ។</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>ធីក "បាទ/ចាស បោះបង់ការថតនេះ" ជាមុនសិន។</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>មានតែអ្នកប្រើដែលបានថតប៉ុណ្ណោះ ដែលអាចបញ្ឈប់ការថតវគ្គបាន។</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>ជ្រើសរើសការថតដែលត្រូវបញ្ឈប់។</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>ការថតប្រភេទនេះកំពុងដំណើរការរួចហើយ។</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>មិនអាចផ្លាស់ប្ដូរការថតបានទេ៖ %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>បង្កើតការផ្ទេរ</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>ឈ្មោះការផ្ទេរ (ស្រេចចិត្ត)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>បានសរសេរការផ្ទេរ %file ។ ការផ្លាស់ប្ដូរដែលគ្មានជំហានណាអាចធ្វើបាន ត្រូវបានរាយនៅខាងលើឯកសារ ដើម្បីធ្វើដោយដៃ។</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>មិនបានសរសេរការផ្ទេរទេ៖ %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>ការដំណើរការវែងជាផ្នែកៗ</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>វាលទទេរក្សាការកំណត់របស់ migration.ini [RunSettings]។</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>ការធ្វើចំណាកស្រុកច្រើនបំផុតប៉ុណ្ណេះ</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>គ្មានការធ្វើចំណាកស្រុកទៀតបន្ទាប់ពី (វិនាទី)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>ការផ្អាករវាងការធ្វើចំណាកស្រុក (វិនាទី)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>អាទិភាពទាបជាង (1 ដល់ 19)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>វាលដំណើរការវែងជាចំនួនគត់ចាប់ពី 1 (ការផ្អាក៖ វិនាទីពី 0 ដល់ 60, អាទិភាព៖ 1 ដល់ 19) ឬទទេ។</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>វាបិទដោយខ្លួនឯងនៅម៉ោង %time។</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>បិទដោយខ្លួនឯងបន្ទាប់ពី (នាទី, ស្រេចចិត្ត)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>នាទីជាចំនួនគត់ពី 1 ដល់ 44640 (31 ថ្ងៃ) ឬទទេ។</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>ការផ្ទេរ %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>ការផ្ទេរថ្មី</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>ការផ្ទេរ YAML៖ សរសេរវាជាអត្ថបទ ឬបង្កើតជំហានរបស់វានៅក្នុងទម្រង់ ពិនិត្យវា រួចរក្សាទុកវាក្នុងថតការផ្ទេរមួយ។</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>ការផ្ទេរនេះបានដំណើរការរួចហើយ ដូច្នេះវាមិនត្រូវបានរក្សាទុកម្ដងទៀតទេ៖ ឯកសារដែលបានផ្លាស់ប្ដូរនឹងត្រូវបានបដិសេធដោយការការពារ checksum។ សូមធ្វើការផ្លាស់ប្ដូរក្នុងការផ្ទេរថ្មីមួយ។</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>ម៉ាស៊ីនមេគេហទំព័រមិនអាចសរសេរឯកសារនេះបានទេ។</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>បន្ទាត់មតិយោបល់នៅខាងលើគឺជាក្បាល (description, author, requires, environments, engines)។ នៅពេលជំហានមួយត្រូវបានបន្ថែម ឬផ្លាស់ប្ដូរក្នុងទម្រង់ ការផ្ទេរត្រូវបានសរសេរឡើងវិញ៖ មតិយោបល់រវាងជំហានទាំងនោះមិនត្រូវបានរក្សាទុកទេ។</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>ឈ្មោះការផ្ទេរ</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>កន្លែងដែលវាទៅ</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>គេហទំព័រ</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>អត្ថបទ YAML</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>ពិនិត្យ</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>រក្សាទុក</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>ជំហាន</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>សោ</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>កែសម្រួល</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>ផ្លាស់ទីឡើងលើ</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>ផ្លាស់ទីចុះក្រោម</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>ដកចេញ</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>មិនទាន់មានជំហាននៅឡើយ៖ បន្ថែមមួយដោយប្រើទម្រង់ ឬសរសេរវានៅក្នុងអត្ថបទ។</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>ផ្លាស់ប្ដូរជំហាន %number</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>បន្ថែមជំហានមួយ</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>ទម្រង់នៃជំហានមួយត្រូវបានបង្កើតពីប្រភេទជំហានរបស់វា៖ សោរបស់វា អ្វីដែលសោនីមួយៗទទួល និងរបៀបដែលវាស្ថិតនៅ។</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>ប្រភេទជំហាន</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>បង្ហាញទម្រង់របស់វា</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>ជំហាននេះមានសោដែលប្រភេទរបស់វាមិនស្គាល់ ពួកវាត្រូវបានទុកចោលនៅពេលជំហានត្រូវបានផ្លាស់ប្ដូរ៖ %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>របៀប</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>ក្នុង</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>តែក្នុង %modes</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>លំនាំដើម៖ %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>លក្ខខណ្ឌ ឯកសារយោង និងមតិយោបល់</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>គូ ឈ្មោះ=តម្លៃ បំបែកដោយសញ្ញាក្បៀស។ តម្លៃនៃជំហាននេះ៖ %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>ឧទាហរណ៍</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>ផ្លាស់ប្ដូរជំហាន</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>បន្ថែមជំហាន</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>អ្វីដែល exp:migration:check និយាយ៖ ក្បាល ឯកសារ និងជំហាននីមួយៗដែលបានពិនិត្យដោយប្រភេទជំហានរបស់វា។</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>ការផ្ទេរឆ្លងកាត់ការពិនិត្យ។</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>មើលជាមុន</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>YAML ដូចដែលវានឹងត្រូវរក្សាទុក។</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>បង្ហាញ YAML</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>ការផ្ទេរ YAML</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>បានដំណើរការ</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>មិនទាន់មានការផ្ទេរ YAML នៅឡើយទេ។</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>អ្នកកែសម្រួល</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>គ្មានការផ្ទេរ YAML %id នៅក្នុងថតការផ្ទេរទេ។</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>ជ្រើសរើសប្រភេទជំហាន។</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>ជំហានត្រូវបានបន្ថែម។ ពិនិត្យការផ្ទេរមុនពេលអ្នករក្សាទុកវា។</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>ជំហានត្រូវបានផ្លាស់ប្ដូរ។ ពិនិត្យការផ្ទេរមុនពេលអ្នករក្សាទុកវា។</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>ជ្រើសរើសជំហានមួយ។</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>ជំហាននេះគ្មានទម្រង់ទេ (រង្វិលជុំមួយ ឬប្រភេទជំហានដែលការដំឡើងនេះមិនមាន)៖ សូមផ្លាស់ប្ដូរវានៅក្នុងអត្ថបទ។</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>ជ្រើសរើសកន្លែងដែលការផ្ទេរនឹងទៅ៖ គេហទំព័រ ឬផ្នែកបន្ថែមសកម្មមួយ។</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>បានរក្សាទុក %file។ ធ្វើការដំណើរការសាកល្បងមុនពេលការផ្ទេរដំណើរការ។</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>មិនបានរក្សាទុក៖ %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>ម៉ាស៊ីនពីចម្ងាយទាំងឡាយ</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>ការដំឡើងផ្សេងទៀតដែលការដំឡើងនេះដាក់ពង្រាយការផ្ទេររបស់វាទៅ៖ ការដាក់ពង្រាយផ្ញើការផ្ទេរទៅកាន់ម៉ាស៊ីនពីចម្ងាយដែលបានជ្រើសរើស ហើយដំណើរការវានៅទីនោះ ទាំងអស់ក្នុងពេលតែមួយ និងស្របគ្នា។ ម៉ាស៊ីនពីចម្ងាយមិនដែលផ្ទុកការសម្ងាត់ទេ៖ ព័ត៌មានសម្គាល់ការចូលរបស់វាដាក់ឈ្មោះការសម្ងាត់មួយនៅក្នុង ការរៀបចំ &gt; ការសម្ងាត់។</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>ម៉ាស៊ីនពីចម្ងាយថ្មី</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>ជំនួយ</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>ការសាកល្បងការតភ្ជាប់នៃ %id</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>ម៉ាស៊ីនពីចម្ងាយទាំងនោះ</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>ម៉ាស៊ីនពីចម្ងាយរហូតដល់ %parallel ត្រូវបានដំណើរការក្នុងពេលតែមួយ វគ្គមួយអាចចំណាយពេល %timeout វិនាទីលើម៉ាស៊ីននីមួយៗ។</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>ម៉ាស៊ីនពីចម្ងាយ</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>អាសយដ្ឋាន</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>ព័ត៌មានសម្គាល់ការចូល</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>ក្រុម</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>ការកំណត់ដែលត្រូវកែ</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>តែឯកសារប៉ុណ្ណោះ (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>សោ SSH</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>ពាក្យសម្ងាត់</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>គ្មាន (ភ្នាក់ងារ SSH និងសោរបស់ម៉ាស៊ីនម្ចាស់ផ្ទះ)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>សាកល្បងការតភ្ជាប់</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>ការដាក់ពង្រាយទៅកាន់ក្រុមមួយ ទៅដល់ម៉ាស៊ីនពីចម្ងាយនីមួយៗរបស់ក្រុមនោះ។</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>ដាក់ពង្រាយទៅកាន់ម៉ាស៊ីនពីចម្ងាយ</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>មិនទាន់មានម៉ាស៊ីនពីចម្ងាយណាត្រូវបានរៀបចំនៅឡើយទេ។</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>ម៉ាស៊ីនពីចម្ងាយ %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>គ្មានអ្វីត្រូវបានផ្ញើ ឬដំណើរការនៅទីនេះទេ៖ រក្សាទុក សរសេរការកំណត់ទៅ settings/override/migration.ini.append.php។ ព័ត៌មានសម្គាល់ការចូលគឺជាឈ្មោះមួយ តម្លៃរបស់វានៅតែស្ថិតក្នុង ការរៀបចំ &gt; ការសម្ងាត់ ឬក្នុងបរិស្ថាន។</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>ពិនិត្យការកំណត់ទាំងនេះ</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>ការកំណត់ដូចដែលបានបញ្ចូល មិនទាន់បានរក្សាទុកនៅឡើយទេ។</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>ពិនិត្យឡើងវិញ</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>ការកំណត់ត្រឹមត្រូវ។ បន្ទាត់ទាំងនេះនឹងត្រូវសរសេរ៖</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>ការដឹកជញ្ជូន</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>តែឈ្មោះប៉ុណ្ណោះ; តម្លៃនៅតែក្នុង ការរៀបចំ &gt; ការសម្ងាត់</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>បន្ទាត់ដែលនឹងត្រូវសរសេរ</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>ការតភ្ជាប់</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>សោម៉ាស៊ីនម្ចាស់ផ្ទះ</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. ម៉ាស៊ីនពីចម្ងាយ</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>ឈ្មោះរបស់ម៉ាស៊ីនពីចម្ងាយ និងបរិស្ថានណាដែលវាជា។</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>លេខសម្គាល់</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>អក្សរ លេខ - និង _ ឧទាហរណ៍ production1។ វាដាក់ឈ្មោះម៉ាស៊ីនពីចម្ងាយនៅក្នុងរបាយការណ៍ និងនៅលើកុងសូល (--remotes=production1) ហើយមិនអាចផ្លាស់ប្ដូរនៅពេលក្រោយបានទេ។</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... ការដាក់ពង្រាយជាដំណាក់កាល ឆ្លងកាត់បរិស្ថានតាមលំដាប់នេះ។</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>ស្រេចចិត្ត បំបែកដោយសញ្ញាក្បៀស ឧទាហរណ៍ production។ ការដាក់ពង្រាយទៅកាន់ក្រុមមួយ ទៅដល់ម៉ាស៊ីនពីចម្ងាយនីមួយៗរបស់ក្រុមនោះ។</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. ការតភ្ជាប់</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>របៀបដែលឯកសារទៅដល់ទីនោះ និងកន្លែងដែលការដំឡើងស្ថិតនៅ។</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>តាម SSH តែអ្វីដែលបានផ្លាស់ប្ដូរ ការបញ្ជូនដែលដាច់ត្រូវបានបន្ត។ ជម្រើសល្អបំផុតនៅកន្លែងដែល rsync ត្រូវបានដំឡើង។</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>SSH ជាមួយ scp សម្រាប់ឯកសារ។</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>SSH ជាមួយ sftp សម្រាប់ឯកសារ។</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>តែឯកសារប៉ុណ្ណោះ៖ ការផ្ទេរត្រូវបានផ្ញើ និងអានត្រឡប់មកវិញ ប៉ុន្តែមិនអាចដំណើរការនៅទីនោះបានទេ។</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>FTP តាម TLS; តែឯកសារប៉ុណ្ណោះ។</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>ការដំឡើងមួយផ្សេងទៀតនៅលើម៉ាស៊ីនមេនេះ ក្នុងថតមួយ។</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>ម៉ាស៊ីនម្ចាស់ផ្ទះ</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>ឈ្មោះម៉ាស៊ីនម្ចាស់ផ្ទះ ឬអាសយដ្ឋាន ឧទាហរណ៍ node1.example.com។ មិនសម្រាប់ local ទេ។</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>ច្រក</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>ទទេ៖ 22 សម្រាប់ SSH, 21 សម្រាប់ FTP។</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>អ្នកប្រើ</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>ផ្លូវ</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>ឫសនៃការដំឡើងនៅទីនោះ ឧទាហរណ៍ /var/www/site (សម្រាប់ FTP៖ ផ្លូវដែលគណនី FTP មើលឃើញ)។</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>បន្ទាត់ពាក្យបញ្ជា PHP</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>PHP CLI នៅទីនោះ៖ php ឬផ្លូវពេញមួយ ដូចជា /opt/plesk/php/8.4/bin/php។</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>ស្គ្រីបកុងសូលដំណើរការជា root នៅទីនោះ</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>តែនៅពេលអ្នកប្រើនៃម៉ាស៊ីនពីចម្ងាយគឺ root ប៉ុណ្ណោះ (ពេលនោះវាត្រូវបានដំណើរការជាមួយ --allow-root-user)។</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. ព័ត៌មានសម្គាល់ការចូល</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>របៀបដែលការដំឡើងនេះចូលនៅទីនោះ។ មានតែឈ្មោះមួយប៉ុណ្ណោះដែលត្រូវបានរក្សាទុក។</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>គ្មាន</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>ភ្នាក់ងារ SSH និងសោរបស់អ្នកប្រើ ដែលការដំឡើងនេះដំណើរការក្រោមឈ្មោះ (ហើយជានិច្ចសម្រាប់ local)។</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>សោឯកជនដែលរក្សាទុកជាការសម្ងាត់។</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>ពាក្យសម្ងាត់ដែលរក្សាទុកជាការសម្ងាត់ (FTP ចូលដោយប្រើវា)។</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>ឈ្មោះការសម្ងាត់</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>ការសម្ងាត់មួយនៃ ការរៀបចំ &gt; ការសម្ងាត់ ឧទាហរណ៍ deploy_production1។</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>ការរៀបចំ &gt; ការសម្ងាត់</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>ឬអថេរបរិស្ថានមួយ</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>អថេររបស់ដំណើរការម៉ាស៊ីនមេដែលផ្ទុកវា ឧទាហរណ៍ DEPLOY_KEY (រក្សាទុកជា env:DEPLOY_KEY)។ វាជំនួសឈ្មោះការសម្ងាត់។</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. សោម៉ាស៊ីនម្ចាស់ផ្ទះ</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>ស្រេចចិត្ត សម្រាប់ SSH, sftp និង rsync។</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>ស្នាមម្រាមដៃនៃសោម៉ាស៊ីនម្ចាស់ផ្ទះ</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... ដូចដែល ssh-keygen -l បង្ហាញ។ ប្រសិនបើមាន ម៉ាស៊ីនម្ចាស់ផ្ទះត្រូវតែបង្ហាញសោនេះ ប្រសិនបើគ្មាន សោត្រូវបានរៀននៅពេលទាក់ទងលើកដំបូង។</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. ពិនិត្យឡើងវិញ</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>សូមសាកល្បងការតភ្ជាប់ជាមួយការកំណត់ខាងលើ បន្ទាប់មកពិនិត្យឡើងវិញនូវបន្ទាត់ដែលនឹងត្រូវសរសេរ។</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>ដកម៉ាស៊ីនពីចម្ងាយនេះចេញ</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>ការកំណត់របស់វាត្រូវបានដកចេញពី settings/override/migration.ini.append.php។ គ្មានអ្វីផ្លាស់ប្ដូរនៅលើម៉ាស៊ីនពីចម្ងាយទេ ហើយការដាក់ពង្រាយរបស់វានៅតែស្ថិតក្នុងប្រវត្តិ។</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>បាទ/ចាស ដកម៉ាស៊ីនពីចម្ងាយនេះចេញ</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>ការដាក់ពង្រាយទាំងឡាយ</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>ការដាក់ពង្រាយផ្ញើការផ្ទេររបស់ការដំឡើងនេះទៅកាន់ម៉ាស៊ីនពីចម្ងាយដែលបានជ្រើសរើស ហើយដំណើរការវានៅទីនោះជា %user ទាំងអស់ក្នុងពេលតែមួយ និងស្របគ្នា៖ ម៉ាស៊ីនពីចម្ងាយនីមួយៗត្រូវបានពិនិត្យជាមុន ហើយនៅពេលមួយបរាជ័យ ម៉ាស៊ីនពីចម្ងាយនីមួយៗដែលបានអនុវត្តត្រូវបានដកវិញ។ វាបន្តនៅផ្ទៃខាងក្រោយ ហើយទំព័ររបស់វាបង្ហាញម៉ាស៊ីនពីចម្ងាយនីមួយៗ ខណៈពេលវាកំពុងដំណើរការ។</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. ម៉ាស៊ីនពីចម្ងាយទាំងឡាយ</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>សូមធីកម៉ាស៊ីនពីចម្ងាយ ក្រុមមួយ ឬទាំងពីរ។</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>ដាក់ពង្រាយទៅកាន់វា</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. របៀប</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>ដាក់ពង្រាយ</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>ផ្ញើ និងដំណើរការ</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>ការផ្ទេរត្រូវបានផ្ញើ ផ្ទៀងផ្ទាត់ និងដំណើរការនៅលើម៉ាស៊ីនពីចម្ងាយនីមួយៗ ជាមួយលេខសម្គាល់ការដំណើរការរួមមួយ។</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>បញ្ជូនតែប៉ុណ្ណោះ</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>ឯកសារត្រូវបានផ្ញើ និងផ្ទៀងផ្ទាត់ គ្មានអ្វីត្រូវបានដំណើរការទេ (មធ្យោបាយតែមួយគត់សម្រាប់ម៉ាស៊ីនពីចម្ងាយ FTP)។</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>ជាដំណាក់កាល</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>ដំណាក់កាលម្ដងមួយៗ តាមលំដាប់នៃបរិស្ថាន (dev, stage, beta, production ...)៖ ដំណាក់កាលទីមួយត្រូវបានដាក់ពង្រាយ បន្ទាប់មកទ្វារមួយរង់ចាំរហូតដល់មាននរណាម្នាក់អនុម័តដំណាក់កាលបន្ទាប់។ ទាំងអស់ ឬគ្មានអ្វីសោះ ក្នុងដំណាក់កាលនីមួយៗ។</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>តែការផ្ទេរទាំងនេះប៉ុណ្ណោះ</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>ស្រេចចិត្ត៖ លេខសម្គាល់ការផ្ទេរ បំបែកដោយសញ្ញាក្បៀស។ ទទេ៖ ការផ្ទេរទាំងអស់នៃគេហទំព័រ និងផ្នែកបន្ថែមរបស់វា។</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>តែការពិនិត្យជាមុនប៉ុណ្ណោះ</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>បាទ/ចាស ដាក់ពង្រាយឥឡូវនេះ</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>ការដាក់ពង្រាយដែលបានផ្ញើ ឬដំណើរការអ្វីមួយ ថ្មីបំផុតមុនគេ (ការពិនិត្យជាមុនមិនរក្សាទុករបាយការណ៍ទេ)។</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>បញ្ជូនតែប៉ុណ្ណោះ</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>ជាដំណាក់កាល, %stages ដំណាក់កាល</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>មិនស្របគ្នា</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>មិនទាន់មានការដាក់ពង្រាយនៅឡើយទេ។</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>ការដាក់ពង្រាយ %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>ម៉ាស៊ីនពីចម្ងាយនីមួយៗនៃការដាក់ពង្រាយ ជាមួយស្ថានភាពរបស់វា។ ការដាក់ពង្រាយដែលបានចាប់ផ្ដើមនៅទីនេះ បន្តនៅផ្ទៃខាងក្រោយ នៅពេលទំព័រនេះត្រូវបានបិទ។ សូមបើកទំព័រម្ដងទៀតដើម្បីតាមដានវា។</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>ការដាក់ពង្រាយទាំងអស់</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>ការពិនិត្យជាមុន</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>ដំណាក់កាលបន្ទាប់</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>កំពុងពិនិត្យការកំណត់ និងព័ត៌មានសម្គាល់ការចូល</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>ការពិនិត្យជាមុន៖ កំពុងអានស្ថានភាពនៃម៉ាស៊ីនពីចម្ងាយនីមួយៗ</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>កំពុងផ្ញើឯកសារការផ្ទេរ</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>កំពុងផ្ទៀងផ្ទាត់អ្វីដែលបានមកដល់</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>កំពុងដំណើរការការផ្ទេរនៅលើម៉ាស៊ីនពីចម្ងាយនីមួយៗ</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>កំពុងដកម៉ាស៊ីនពីចម្ងាយវិញ</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>ការដាក់ពង្រាយបានបញ្ចប់។ កំពុងផ្ទុករបាយការណ៍របស់វា។</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>មិនអាចតាមដានវឌ្ឍនភាពបានទេ។ សូមផ្ទុកទំព័រឡើងវិញ ដើម្បីមើលថាការដាក់ពង្រាយដំណើរការយ៉ាងដូចម្ដេច។</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>វគ្គ</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>ទំព័រនេះតាមដានការដាក់ពង្រាយ ខណៈពេលវាកំពុងដំណើរការ។</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>ស្របគ្នា</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>ដំណាក់កាលទាំងឡាយ</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>ដំណាក់កាល %stage រង់ចាំនៅទ្វាររបស់វា</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>ទ្វារ %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>បានអនុម័តដោយ %user នៅម៉ោង %time</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>ដំណាក់កាល</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>ឯកសារដែលបានផ្ញើ</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>កំណែខឺណែល</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>បានអនុវត្ត៖ %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>ត្រូវអនុវត្ត៖ %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>វគ្គទាំងឡាយ</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>ទ្វារ៖ ដំណាក់កាល %stage នៃ %stages</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>ដំណាក់កាលមុនវាត្រូវបានដាក់ពង្រាយរួចហើយ។ សូមពិនិត្យវា បន្ទាប់មកអនុម័តដំណាក់កាលបន្ទាប់៖ ម៉ាស៊ីនពីចម្ងាយរបស់វាត្រូវបានពិនិត្យម្ដងទៀត និងដាក់ពង្រាយ ទាំងអស់ ឬគ្មានអ្វីសោះ។</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>បន្ទាប់</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>បាទ/ចាស ដាក់ពង្រាយដំណាក់កាលបន្ទាប់ឥឡូវនេះ</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>អនុម័ត</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>ត្រឡប់ការដាក់ពង្រាយនេះវិញ</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>ម៉ាស៊ីនពីចម្ងាយនីមួយៗដែលបានអនុវត្តវា (%list) ត្រឡប់ទៅរូបថតដែលបានថតមុនការដំណើរការរបស់វា ទាំងអស់ក្នុងពេលតែមួយ។</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>បាទ/ចាស ត្រឡប់ការដាក់ពង្រាយនេះវិញឥឡូវនេះ</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>បានគ្រោងទុក</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>បានបញ្ជូន</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>បានដាក់ពង្រាយ</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>រង់ចាំនៅទ្វារ</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>បានជ្រើសរើស</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>បានរៀបចំ</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>រួចរាល់</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>រង់ចាំដំណាក់កាលរបស់វា</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>ឯកសារបានផ្ញើ</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>បានផ្ទៀងផ្ទាត់</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>បរាជ័យ បានស្ដារខ្លួនឯងវិញ</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>មិនផ្លាស់ប្ដូរ</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>មិនបានដាក់ពង្រាយ</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>មិនអាចទៅដល់បាន</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>ម៉ាស៊ីនពីចម្ងាយបានឆ្លើយតប។</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>មិនអាចប្រើម៉ាស៊ីនពីចម្ងាយឥឡូវនេះបានទេ។</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done បានធ្វើរួច, %pending កំពុងរង់ចាំ, %failed បរាជ័យ</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>ការចាក់សោ</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>ការដំណើរការមួយកំពុងកាន់ការចាក់សោនៅទីនោះ</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>ទំនេរ</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stage នៃ %stages</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>សូមជ្រើសរើសម៉ាស៊ីនពីចម្ងាយដែលត្រូវសាកល្បង។</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>សូមធីក «បាទ/ចាស ដកម៉ាស៊ីនពីចម្ងាយនេះចេញ» ជាមុនសិន។</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>មិនអាចដកម៉ាស៊ីនពីចម្ងាយចេញបានទេ៖ %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>មិនអាចរក្សាទុកម៉ាស៊ីនពីចម្ងាយបានទេ៖ %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>មិនអាចអានឯកសារការកំណត់បានទេ៖ %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>សូមជ្រើសរើសម៉ាស៊ីនពីចម្ងាយ ឬក្រុមយ៉ាងហោចណាស់មួយ។</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>ម៉ាស៊ីនពីចម្ងាយដែលបានជ្រើសរើសមួយ លែងមាននៅក្នុងការកំណត់ទៀតហើយ។ សូមផ្ទុកទំព័រឡើងវិញ។</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>សូមធីក «បាទ/ចាស ដាក់ពង្រាយឥឡូវនេះ» ជាមុនសិន។</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>ម៉ាស៊ីនពីចម្ងាយ FTP មិនអាចដំណើរការការផ្ទេរបានទេ៖ សូមជ្រើសរើស «បញ្ជូនតែប៉ុណ្ណោះ» ឬទុកវាចោល។</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>ការផ្ទេរដែលត្រូវដាក់ពង្រាយ គឺជាលេខសម្គាល់ការផ្ទេរ បំបែកដោយសញ្ញាក្បៀស។</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>ការដាក់ពង្រាយនៅតែកំពុងដំណើរការ។ សូមរង់ចាំរហូតដល់វាបញ្ចប់។</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>ការដាក់ពង្រាយនេះមិនរង់ចាំនៅទ្វារទេ។</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>គ្មានម៉ាស៊ីនពីចម្ងាយណាបានអនុវត្តការដាក់ពង្រាយនេះទេ៖ គ្មានអ្វីត្រូវត្រឡប់វិញទេ។</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>សូមធីក «បាទ/ចាស ដាក់ពង្រាយដំណាក់កាលបន្ទាប់ឥឡូវនេះ» ជាមុនសិន។</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>សូមធីក «បាទ/ចាស ត្រឡប់ការដាក់ពង្រាយនេះវិញឥឡូវនេះ» ជាមុនសិន។</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>ម៉ាស៊ីនពីចម្ងាយដែលមានលេខសម្គាល់ %id មានរួចហើយ។</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>ច្រកគឺជាលេខពី 1 ដល់ 65535។</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>បរិស្ថានគឺជាពាក្យមួយដែលមានអក្សរ លេខ - និង _ (alpha, dev, stage, beta, production ...)។</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>ក្រុមគឺជាពាក្យមួយដែលមានអក្សរ លេខ - និង _ (មិនមែន all)៖ %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>មិនអាចអានព័ត៌មានសម្គាល់ការចូលឥឡូវនេះបានទេ៖ %problem។ សូមរក្សាទុកវានៅក្នុង ការរៀបចំ &gt; ការសម្ងាត់ (ឬកំណត់អថេរ) មុនការដាក់ពង្រាយលើកដំបូង។</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>ម៉ាស៊ីនពីចម្ងាយ FTP ទទួលតែឯកសារប៉ុណ្ណោះ៖ ការដាក់ពង្រាយទៅកាន់វាគឺ «បញ្ជូនតែប៉ុណ្ណោះ» ហើយការផ្ទេររបស់វាត្រូវបានដំណើរការនៅទីនោះដោយដៃ។</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>ម៉ាស៊ីនពីចម្ងាយ %id មិនស្ថិតនៅក្នុង settings/override/migration.ini.append.php ទេ សូមដកវាចេញនៅកន្លែងដែលវាត្រូវបានកំណត់។</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>បានចូលតាម FTP ហើយបានអាន index.php។ ស្ថានភាពការផ្ទេរនៃម៉ាស៊ីនពីចម្ងាយ FTP មិនអាចអានបានទេ។</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>បានកែប្រែ</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>បានបង្កើត</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>ឈ្មោះ</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>ថ្នាក់</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>ផ្នែក</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>អ្នកបង្កើត</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>មាតិកាថ្មីៗ</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>មាតិកាដែលបានបង្កើត និងកែប្រែថ្មីបំផុតនៃគេហទំព័រទាំងមូល ថ្មីបំផុតមុន៖ អ្វីដែលអ្នកទស្សនាបានដាក់ស្នើ អ្វីដែលត្រូវបានឃាត់ទុកសម្រាប់ពិនិត្យ សេចក្តីព្រាងដែលកំពុងរង់ចាំការបោះពុម្ពផ្សាយ។ ជ្រើសរើសធាតុដើម្បីដោះលែងការឃាត់ ឃាត់ទុក លាក់ បង្ហាញ ដកចេញ ឬផ្លាស់ទីវាទៅផ្នែក ឬស្ថានភាពផ្សេងទៀត។</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>មិនអាចអានបញ្ជីបានទេ៖ %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>ការឃាត់ទុកសម្រាប់ពិនិត្យមិនទាន់បានរៀបចំនៅឡើយទេ ដូច្នេះគ្មានអ្វីត្រូវបានឃាត់ទុក ហើយសកម្មភាពឃាត់ទុកមិនត្រូវបានផ្ដល់ជូនទេ។ ជំហានធ្វើបច្ចុប្បន្នភាព 6.0.15-review-hold រៀបចំវា៖ ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>ត្រងបញ្ជី</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>ពី</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>ដល់</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>កាលបរិច្ឆេទ</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>បានបង្កើត (បោះពុម្ពផ្សាយលើកដំបូង)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>ទាំងអស់</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>ស្ថានភាពបោះពុម្ពផ្សាយ</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>បានបោះពុម្ពផ្សាយ</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>សេចក្តីព្រាង មិនដែលបោះពុម្ពផ្សាយ</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>កំពុងរង់ចាំ (រង់ចាំការអនុម័ត ឬកាលបរិច្ឆេទ)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>នៅក្នុងធុងសំរាម</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>ត្រូវបានឃាត់ទុកសម្រាប់ពិនិត្យ</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>ត្រូវបានឃាត់ទុក</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>មិនត្រូវបានឃាត់ទុក</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>ត្រូវបានលាក់</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>មើលឃើញ</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>ដាក់ស្នើនៅ</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>ការចូលគេហទំព័រណាមួយ</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>មានតែអ្វីដែលសវនកម្មបានកត់ត្រា។</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>ឥឡូវ៖ %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>ឈ្មោះចូល ឬ ID អ្នកប្រើ។</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>ត្រង</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>សម្អាតតម្រង</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>ធាតុ</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from ដល់ %to នៃ %count</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>គ្មានធាតុ</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(អានក្នុង %ms មិល្លីវិនាទី)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>សកម្មភាពលើធាតុដែលបានជ្រើសរើស</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>ជ្រើសរើសទាំងអស់នៅលើទំព័រនេះ</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>បានជ្រើសរើស %count</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>សកម្មភាព</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>ជ្រើសរើសសកម្មភាព</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>ដោះលែងការឃាត់</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>ឃាត់ទុកសម្រាប់ពិនិត្យ</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>លាក់</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>បង្ហាញ</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>ផ្លាស់ទីទៅធុងសំរាម</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>លុប</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>ចាត់ផ្នែក</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>ចាត់ស្ថានភាព</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>មូលហេតុ</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>ចាំបាច់សម្រាប់ការឃាត់ទុក រក្សាទុកជាមួយការឃាត់ និងក្នុងសវនកម្ម។</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>ជ្រើសរើសផ្នែក</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>ស្ថានភាព</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>ជ្រើសរើសស្ថានភាព</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>អនុវត្តលើធាតុដែលបានជ្រើសរើស</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>ធាតុនីមួយៗត្រូវបានពិនិត្យតាមសិទ្ធិផ្ទាល់ខ្លួនរបស់អ្នក។ ការផ្លាស់ទីទៅធុងសំរាម និងការលុប ស្នើឱ្យអ្នកបញ្ជាក់។ ធាតុលើសពី %count ដំណើរការនៅផ្ទៃខាងក្រោយ។</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>ជ្រើសរើស</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>ការបោះពុម្ពផ្សាយ</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>ដាក់ស្នើពី</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>ជ្រើសរើស %name</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>មិនទាន់</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(គ្មានឈ្មោះ)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>សេចក្តីព្រាង</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>កំពុងរង់ចាំ</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>ត្រូវបានលាក់ដោយមេរបស់វា</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>ត្រូវបានឃាត់ទុក៖ ការដាក់ស្នើថ្មី</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>កំណែ %version កំពុងរង់ចាំ</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>កំណែ %version កំពុងកែសម្រួល</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>សេចក្តីព្រាង កំណែ %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>កំណែ %version បានបោះពុម្ពផ្សាយ</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>បានកំណត់ពេលសម្រាប់ %date</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>គ្មានអាសយដ្ឋាន</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>មិនបានកត់ត្រា</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>គ្មានអ្វីត្រូវនឹងតម្រងទាំងនេះទេ។</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>បង្ហាញទាំងអស់</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>មិនទាន់មានមាតិកានៅឡើយទេ។</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>ក្នុងមួយទំព័រ</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>បង្ហាញ %count ធាតុក្នុងមួយទំព័រ។</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says "not recorded".</source>
+        <translation>អាសយដ្ឋាន និងកម្មវិធីរុករកនៃការដាក់ស្នើ មកពីលិបិក្រមសវនកម្ម ដែលមិនមាននៅទីនេះទេ៖ ជួរឈរបង្ហាញថា "មិនបានកត់ត្រា"។</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>អាសយដ្ឋាន និងកម្មវិធីរុករក គឺជាអ្វីដែលសវនកម្មបានកត់ត្រាសម្រាប់ធាតុនោះ (ការឃាត់ទុកស្វ័យប្រវត្តិតែងតែកត់ត្រាវា ការបោះពុម្ពផ្សាយ និងការបង្កើតតែនៅពេលបើកប៉ុណ្ណោះ) តាមដែលការកំណត់ឯកជនភាពរបស់វារក្សាទុក។</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action៖ %count ធាតុ</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>ការលុបដកធាតុចេញជាអចិន្ត្រៃយ៍ ជាមួយកំណែ និងការបកប្រែទាំងអស់របស់វា។ មិនអាចត្រឡប់វិញបានទេ។</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>ធាតុទៅធុងសំរាម ដែលពីទីនោះអាចស្ដារវាឡើងវិញបាន។</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>ធាតុនីមួយៗត្រូវបានពិនិត្យតាមសិទ្ធិផ្ទាល់ខ្លួនរបស់អ្នក ធាតុដែលមានធាតុរងត្រូវបានទុកដដែល (ដកវាចេញក្នុងរចនាសម្ព័ន្ធមាតិកា)។ អ្នកនឹងត្រូវបានស្នើឱ្យផ្ទៀងផ្ទាត់ថាជាអ្នកពិតប្រាកដ។</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>វាដំណើរការនៅផ្ទៃខាងក្រោយ៖ ទំព័រវឌ្ឍនភាពរបស់វាបើកឡើង ហើយលទ្ធផលសម្រាប់ធាតុនីមួយៗត្រូវបានបង្ហាញនៅពេលវារួចរាល់។</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>ធាតុដែលបានជ្រើសរើស</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>និង %count ទៀត</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>បោះបង់</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>គ្មានអ្វីត្រូវបានធ្វើទេ</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>មូលហេតុ៖ %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>សកម្មភាពនៅតែដំណើរការនៅផ្ទៃខាងក្រោយ។</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>វឌ្ឍនភាពរបស់វា</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>សកម្មភាពផ្ទៃខាងក្រោយបានបរាជ័យ៖ %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>រួចរាល់</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>ត្រូវបានបដិសេធ</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>បរាជ័យ</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>តាមធាតុនីមួយៗ</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>ធាតុ</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>លទ្ធផល</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>ហេតុអ្វី</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>ត្រឡប់ទៅបញ្ជី</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>ការរៀបចំ</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>មិនបានធ្វើអ្វីទេ</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>បញ្ជាក់</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>ជ្រើសរើសសកម្មភាព។</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>ជ្រើសរើសយ៉ាងហោចណាស់ធាតុមួយ។</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>ជ្រើសរើសច្រើនបំផុត 1000 ធាតុក្នុងមួយលើក។</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>ប្រាប់មូលហេតុដែលធាតុត្រូវបានឃាត់ទុក។</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>ជ្រើសរើសផ្នែក។</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>ជ្រើសរើសស្ថានភាព។</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>មិនអាចអានទម្រង់បានទេ។</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>ផ្ទាំងគ្រប់គ្រង</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>មាតិកាថ្មីៗ</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>មិនអាចអានចំនួនបានទេ៖ %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>ត្រូវបានឃាត់ទុកសម្រាប់ពិនិត្យ</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>ថ្មីថ្ងៃនេះ</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>ការឃាត់ទុកសម្រាប់ពិនិត្យមិនទាន់បានរៀបចំនៅឡើយទេ (ជំហានធ្វើបច្ចុប្បន្នភាព 6.0.15-review-hold)។</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>មាតិកាថ្មីៗទាំងអស់</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>អ្នកមិនអាចដំណើរការសកម្មភាពសម្របសម្រួលបានទេ (moderation/act)។</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>សកម្មភាពសម្របសម្រួលមិនទាន់ពេញលេញ៖ %errors។</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>ការសម្របសម្រួល៖ %action លើវត្ថុ %count</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%done នៃវត្ថុ %total៖ រួចរាល់ %ok បានបដិសេធ %refused បរាជ័យ %failed</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>រួចរាល់ %ok បានបដិសេធ %refused បរាជ័យ %failed</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>វាមិនមានទៀតទេ។</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>វាគ្មានទីតាំងទេ (មិនបានបោះពុម្ពផ្សាយ)។</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>អ្នកមិនអាចលាក់វាបានទេ (content/hide)។</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>អ្នកមិនអាចបង្ហាញវាបានទេ (content/hide)។</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>វាត្រូវបានលាក់រួចហើយ។</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>វាមិនត្រូវបានលាក់ទេ។</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>បានលាក់។</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>បានបង្ហាញ។</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>វានៅក្នុងធុងសំរាម៖ សម្អាត ឬស្ដារវានៅទីនោះ។</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>សេចក្តីព្រាងដែលមិនដែលបោះពុម្ពផ្សាយមិនអាចទៅធុងសំរាមបានទេ៖ លុបវាចោល។</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>អ្នកមិនអាចលុបវាបានទេ (content/remove)។</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>បានលុប។</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>អ្នកមិនអាចដកវាចេញបានទេ (content/remove)។</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>វាមានធាតុរង៖ ដកវាចេញក្នុងរចនាសម្ព័ន្ធមាតិកា ដែលធាតុរងទាំងនោះត្រូវបានរាយ។</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>វាមិនត្រូវបានដកចេញទេ (លំហូរការងារអាចកំពុងឃាត់ការដកចេញ)។</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>បានផ្លាស់ទីទៅធុងសំរាម។</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>ផ្នែកមិនមានទេ។</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>វានៅក្នុងផ្នែកនេះរួចហើយ។</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>អ្នកមិនអាចចាត់ផ្នែកនេះបានទេ (section/assign)។</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>ផ្នែកមិនត្រូវបានចាត់ទេ។</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>បានចាត់ផ្នែក។</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>ស្ថានភាពមិនមានទេ។</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>វានៅក្នុងស្ថានភាពនេះរួចហើយ។</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>អ្នកមិនអាចចាត់ស្ថានភាពនេះបានទេ (state/assign)។</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>ស្ថានភាពមិនត្រូវបានចាត់ទេ (លំហូរការងារអាចកំពុងឃាត់ការផ្លាស់ប្ដូរ)។</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>បានចាត់ស្ថានភាព។</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>គ្មានសកម្មភាពបែបនេះទេ។</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>ការឃាត់ទុកសម្រាប់ពិនិត្យមិនបានរៀបចំទេ (ជំហានធ្វើបច្ចុប្បន្នភាព 6.0.15-review-hold)។</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>ប្រាប់មូលហេតុដែលវាត្រូវបានឃាត់ទុក។</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>វាត្រូវបានឃាត់ទុករួចហើយ។</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>អ្នកមិនអាចឃាត់វាទុកបានទេ (state/assign)។</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>ការឃាត់មិនត្រូវបានដាក់ទេ (លំហូរការងារអាចកំពុងឃាត់ការផ្លាស់ប្ដូរ)។</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>បានឃាត់ទុក។</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>វាមិនត្រូវបានឃាត់ទុកទេ។</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>អ្នកមិនអាចដោះលែងវាបានទេ (state/assign)។</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>ការឃាត់មិនត្រូវបានដោះលែងទេ (លំហូរការងារអាចកំពុងឃាត់ការផ្លាស់ប្ដូរ)។</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>បានដោះលែង ប៉ុន្តែនៅតែលាក់៖ អ្នកមិនអាចបង្ហាញវាបានទេ (content/hide)។</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>បានដោះលែង។</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>គោលដៅទាំងអស់</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>ការបោះពុម្ពផ្សាយចុងក្រោយ</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>បោះពុម្ពផ្សាយច្បាប់ចម្លងឋិតិវន្តឥតគិតថ្លៃនៃគេហទំព័ររបស់អ្នកនៅលើ GitHub Pages៖</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>ទំព័រហួសសម័យ</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>ការបោះពុម្ពផ្សាយឋិតិវន្ត</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>ការបោះពុម្ពផ្សាយឋិតិវន្តត្រូវបានបិទ។</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>គោលដៅ</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>មិនអាចអានគោលដៅបានទេ៖ %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>ការងារមួយកំពុងដំណើរការ</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>ការស្ថាបនាដែលត្រូវពិនិត្យ</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>លាក់វា</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>បង្កើតគោលដៅ</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>មិនដែល</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>អានមេរៀន</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>បានបន្ថែម %added, បានផ្លាស់ប្ដូរ %changed, បានលុប %removed</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%bytes នៃ %limit (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>មាន %count ទៀតដែលមិនបានរាយបញ្ជី។</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>បានសរសេរ %pages ទំព័រ</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path មានទំហំ %size ដែលលើសពីអ្វីដែលម៉ាស៊ីនអនុញ្ញាតសម្រាប់ឯកសារមួយ។</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>%percent % នៃដែនកំណត់</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds វិនាទី</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag គឺជាការបោះពុម្ពផ្សាយដែលគេហទំព័រមានឥឡូវនេះ។</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target៖ ការងារ %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>/ឃ្លាំងកូដ/ សម្រាប់គេហទំព័រគម្រោង GitHub; ទុកទទេសម្រាប់ដែនផ្ទាល់ខ្លួន ឬគេហទំព័រអ្នកប្រើ។</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. គេហទំព័រ</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. ម៉ាស៊ីន</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. ការចូលទៅឃ្លាំងកូដ</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. ឃ្លាំងកូដ</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. តំណ និងផ្លូវមូលដ្ឋាន</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. ដែនផ្ទាល់ខ្លួនរបស់អ្នក</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. អ្វីដែលការស្ថាបនាមាន</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. ពេលណាវាត្រូវបានបោះពុម្ពផ្សាយ</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. ពិនិត្យ និងរក្សាទុក</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>គេហទំព័រគម្រោង GitHub ស្ថិតនៅក្រោម /&lt;repository&gt;/; តំណដែលទាក់ទងដំណើរការទាំងនៅទីនោះ និងនៅកន្លែងផ្សេងទៀត។</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>ការស្ថាបនាទាញយកទំព័រនីមួយៗនៃ %site ដូចដែលអ្នកទស្សនាដែលមិនបានចូលមើលឃើញ សរសេរតំណឡើងវិញ ចម្លងឯកសារ ហើយសរសេរលទ្ធផលទៅថតរបស់គោលដៅ។ គ្មានអ្វីត្រូវបានបោះពុម្ពផ្សាយទេ រហូតដល់អ្នកពិនិត្យការស្ថាបនា ហើយចុច បោះពុម្ពផ្សាយ។</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>កន្សោម cron ឧទាហរណ៍ 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>សោដាក់ពង្រាយត្រូវបានរក្សាទុកជាការសម្ងាត់ %secret។</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>សោដាក់ពង្រាយអនុញ្ញាតឱ្យការដំឡើងនេះរុញទៅឃ្លាំងកូដតែមួយតាម SSH ហើយមិនទៅកន្លែងផ្សេងទៀតទេ។ ផ្នែកឯកជនរបស់វានៅតែក្នុង ការរៀបចំ &gt; ការសម្ងាត់; មានតែផ្នែកសាធារណៈប៉ុណ្ណោះដែលត្រូវបានបង្ហាញ។</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>សោដាក់ពង្រាយដែលបានបង្កើតសម្រាប់គោលដៅនេះ</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>សោដាក់ពង្រាយចូលតាម SSH៖ ប្ដូរអាសយដ្ឋាន git ទៅជាអាសយដ្ឋាន SSH (git@github.com:owner/repo.git)។</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>ការងារមួយកំពុងដំណើរការ ដែលចាប់ផ្ដើមដោយ %user</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>ការងារមួយនៃគោលដៅនេះនៅតែកំពុងដំណើរការ (%detail)។ សូមរង់ចាំឱ្យវាបញ្ចប់។</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>ការងារមួយនៃគោលដៅនេះនៅតែកំពុងដំណើរការ។ សូមរង់ចាំឱ្យវាបញ្ចប់។</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>តំណពីទំព័រ /news/ ទៅទំព័រ /about-us/team នឹងត្រូវសរសេរជា</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>សោដាក់ពង្រាយថ្មីត្រូវបានបង្កើត។ សូមបន្ថែមផ្នែកសាធារណៈរបស់វាទៅឃ្លាំងកូដឥឡូវនេះ។</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>ទំព័រដែលនៅតែមានលទ្ធផលបំបាត់កំហុស ថូខឹនទម្រង់ ឬលេខសម្គាល់សម័យ បន្ទាប់ពីការសម្អាត មិនដែលត្រូវបានបោះពុម្ពផ្សាយទេ។</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>ការត្រឡប់វិញគឺសម្រាប់អ្នកជំនាញ៖ ធីក &quot;ខ្ញុំដឹងថាវាផ្លាស់ប្ដូរអ្វី&quot; ហើយវាយឈ្មោះស្លាកម្ដងទៀត។</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>គេហទំព័រអាចមានទំហំរហូតដល់ %site ឯកសារមួយរហូតដល់ %file ជាមួយចរាចរប្រហែល 100 GB ក្នុងមួយខែ។ នៅលើគម្រោងឥតគិតថ្លៃ ឃ្លាំងកូដត្រូវតែជាសាធារណៈ។ GitHub Pages មិនមែនសម្រាប់ហាង ឬប្រតិបត្តិការពាណិជ្ជកម្មផ្សេងទៀតទេ។</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>គោលដៅគឺជាគេហទំព័រមួយដែលបោះពុម្ពផ្សាយទៅឃ្លាំងកូដ git មួយ។ គ្មានអ្វីត្រូវបានស្ថាបនា ឬបោះពុម្ពផ្សាយនៅទីនេះទេ៖ រក្សាទុក សរសេរការកំណត់ទៅ settings/override/staticcache.ini.append.php។</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>គោលដៅគឺជាគេហទំព័រមួយដែលបោះពុម្ពផ្សាយទៅកន្លែងមួយ ឧទាហរណ៍គេហទំព័រសាធារណៈរបស់អ្នកនៅលើ GitHub Pages។</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>ថូខឹនពី ការរៀបចំ &gt; ការសម្ងាត់</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>លំហូរការងារ (workflow) នៃឃ្លាំងកូដបោះពុម្ពផ្សាយវា។</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>បន្ថែមសោសាធារណៈនេះទៅឃ្លាំងកូដជាមួយសិទ្ធិសរសេរ។ GitHub៖ Settings &gt; Deploy keys &gt; Add deploy key ហើយធីក Allow write access។</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>បានបន្ថែម</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>ម៉ាស៊ីន git ផ្សេងទៀត</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>ដំណើរការមួយផ្សេងទៀតកំពុងធ្វើការលើគោលដៅនេះ៖ %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>ថយក្រោយ</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>ផ្លូវមូលដ្ឋាន</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>មុន</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>ក្រោមផ្លូវមូលដ្ឋាន</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>សាខា</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>តំណខូច</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>តំណខូចក្នុងការស្ថាបនា</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>ការស្ថាបនា</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>ការស្ថាបនា %id ដោយ %user</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>ស្ថាបនា %name</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>ស្ថាបនាឥឡូវនេះ</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>ការស្ថាបនាដែលត្រូវពិនិត្យ</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>ដោយ</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>ដោយដៃ នៅទីនេះ</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>បោះបង់</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>ផ្លាស់ប្ដូរ</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>បានផ្លាស់ប្ដូរ</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>ការផ្លាស់ប្ដូរ</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>ពិនិត្យវាជាមុនសិន</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>ពិនិត្យការកំណត់ទាំងនេះ</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>ពិនិត្យអ្វីដែលការស្ថាបនាផ្លាស់ប្ដូរ មើលវា បន្ទាប់មកបោះពុម្ពផ្សាយ ឬបោះចោលវា។</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>ជ្រើសរើសការបោះពុម្ពផ្សាយដែលត្រូវត្រឡប់ទៅ។</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>នឹងមកជាមួយការចេញផ្សាយនាពេលក្រោយ។</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>ខមមីត</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>ខមមីត</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>ខមមីតការស្ថាបនា ដាក់ស្លាកវា ហើយរុញវាទៅ %remote។ ការរុញមិនដែលត្រូវបានបង្ខំទេ; អ្នកអាចត្រឡប់ទៅការបោះពុម្ពផ្សាយណាមួយនៅពេលក្រោយ។</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>ធៀបនឹងថតពីមុន៖ បានបន្ថែម %added, បានផ្លាស់ប្ដូរ %changed, បានលុប %removed, មិនផ្លាស់ប្ដូរ %unchanged។</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>ធៀបនឹងការបោះពុម្ពផ្សាយចុងក្រោយ។</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>ព័ត៌មានសម្គាល់ការចូល</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>ដែនផ្ទាល់ខ្លួន</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>លទ្ធផលបំបាត់កំហុស ថូខឹនទម្រង់ លេខសម្គាល់សម័យ និង nonce តែងតែត្រូវបានដកចេញ។</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>សោដាក់ពង្រាយ</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>សោដាក់ពង្រាយនៃ %name</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>បោះចោល</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>បោះចោលការស្ថាបនា</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>ដែន</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>ទទេ៖ អាសយដ្ឋាននៃគេហទំព័រ។ បើមិនដូច្នេះទេ អាសយដ្ឋានខាងក្នុងនៃគេហទំព័រដដែល។</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>បានបញ្ចប់</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>តំណនីមួយៗចាប់ផ្ដើមដោយផ្លូវមូលដ្ឋាន។</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>ការបោះពុម្ពផ្សាយនីមួយៗគឺជាខមមីតមួយដែលមានស្លាក static/%id/&lt;n&gt;។ ការត្រឡប់វិញបង្កើតខមមីតថ្មីជាមួយឯកសារនៃការបោះពុម្ពផ្សាយមុន៖ ប្រវត្តិនៅដដែល គ្មានស្លាកណាផ្លាស់ទី ហើយគ្មានអ្វីត្រូវបានបង្ខំទេ។</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>ឯកសារបន្ថែម</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>ទាញយកទំព័រពី</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>ឯកសារ</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>ឯកសារ</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>ឯកសារបាត់</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>ឯកសារនៃ</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>ឯកសារដែលមិនអាចប្រមូលបាន</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>ស្នាមម្រាមដៃ</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>ថត</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>សម្រាប់អាសយដ្ឋាន SSH។ សោត្រូវបានបង្កើតបន្ទាប់ពីរក្សាទុក; អ្នកបន្ថែមផ្នែកសាធារណៈរបស់វាទៅឃ្លាំងកូដ។</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>សម្រាប់អាសយដ្ឋាន https://។ GitHub៖ ថូខឹន fine-grained ដែលមានសិទ្ធិអាន និងសរសេរ Contents លើឃ្លាំងកូដ។</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>សម្រាប់អ្នកជំនាញ។ គេហទំព័រសាធារណៈផ្លាស់ប្ដូរភ្លាមៗនៅពេលការរុញបានបញ្ចប់។</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>ទម្រង់</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>ការបង្ហោះឥតគិតថ្លៃពីឃ្លាំងកូដ GitHub។</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>ពីសាខា</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>អាសយដ្ឋាន Git</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages អនុញ្ញាតគេហទំព័រទំហំ %site និងឯកសារទំហំ %file។</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>ដែនកំណត់របស់ GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages បោះពុម្ពផ្សាយឯកសារដូចដែលវាមាន (ចាំបាច់សម្រាប់ឯកសារដែលចាប់ផ្ដើមដោយ _)។</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub បម្រើសាខាដូចដែលវាត្រូវបានរុញ។ លំនាំដើម។</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, ម៉ាស៊ីនមេផ្ទាល់ខ្លួនរបស់អ្នក៖ ឃ្លាំងកូដ git ណាមួយ។</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>ត្រឡប់ទៅការបោះពុម្ពផ្សាយមុន</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>ជំនួយ</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>ជំនួយអំពីអ្នកជំនួយការ</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>លាក់ពួកវា</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>ប្រវត្តិ</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>ប្រវត្តិនៃ %name</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>ម៉ាស៊ីន</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>របៀបដែល GitHub Pages ទទួលការស្ថាបនា</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>ខ្ញុំបានពិនិត្យការផ្លាស់ប្ដូរហើយ</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>ខ្ញុំដឹងថាវាផ្លាស់ប្ដូរអ្វី</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>លេខសម្គាល់</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>វាត្រូវបានបិទ៖ គ្មានអ្វីអាចស្ថាបនាបានទេ រហូតដល់វាត្រូវបានបើក។</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>វាដំណើរការនៅផ្ទៃខាងក្រោយជា %user; អ្នកអាចបិទទំព័រនេះបាន។</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>ការងារ %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>រក្សាទុកជាការសម្ងាត់ %secret។</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>ប្រភេទ</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>ការបោះពុម្ពផ្សាយចុងក្រោយ</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>ទុកទំព័រទាំងនេះចោល</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>ទុកផ្នែកទាំងនេះចោល</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>តំណ</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>តំណដែលបានសរសេរឡើងវិញ</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>គេហទំព័រផ្ទាល់</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>មើលការស្ថាបនា</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>អក្សរតូច លេខ _ និង - ឧទាហរណ៍ github-public។ វាដាក់ឈ្មោះថត និងស្លាក (static/&lt;id&gt;/&lt;n&gt;) ហើយមិនអាចផ្លាស់ប្ដូរនៅពេលក្រោយបានទេ។</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>បង្កើតសោថ្មី</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>បង្កើតគោលដៅ</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>បង្កើតសោ</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>បង្កើតឃ្លាំងកូដនៅលើម៉ាស៊ីនជាមុនសិន; ឃ្លាំងទទេក៏បាន។</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>បញ្ជីឯកសារ</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>សារ</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>ទំព័រភាគច្រើន</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>ឈ្មោះ</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>ឈ្មោះថូខឹនក្នុង ការរៀបចំ &gt; ការសម្ងាត់</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>គោលដៅថ្មី</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>បន្ទាប់</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>ទេ</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>មិនទាន់មានខមមីតនៅឡើយទេ។</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>មិនបានបង្កើតសោទេ៖ %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>រកមិនឃើញកម្មវិធីបន្ទាត់ពាក្យបញ្ជា php ទេ។ កំណត់ migration.ini [AdminSettings] PhpCliPath ទៅផ្លូវពេញរបស់វា។</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>មិនទាន់មានស្លាកនៅឡើយទេ។</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>មិនទាន់មានគោលដៅនៅឡើយទេ។</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>គ្មាន</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>មិនមានក្នុងការស្ថាបនាទេ។</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>មិនទាន់មានអ្វីត្រូវបានបោះពុម្ពផ្សាយនៅឡើយទេ។</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>មិនទាន់មានអ្វីត្រូវបានបោះពុម្ពផ្សាយនៅឡើយទេ៖ ឯកសារទាំងអស់ថ្មី។</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>ជូនដំណឹង</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>តាមកាលវិភាគ</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>នៅលើកុងសូល</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>នៅលើម៉ាស៊ីនមេ៖ ./console exp:static:serve %id បម្រើវាតាមរបៀបដដែល។</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>ផ្លូវមួយក្នុងមួយបន្ទាត់ * ផ្គូផ្គងផ្នែកណាមួយ៖ /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>មានតែឈ្មោះប៉ុណ្ណោះដែលត្រូវបានរក្សាទុកជាមួយគោលដៅ; ថូខឹន ឬសោខ្លួនឯងនៅតែក្នុង ការរៀបចំ &gt; ការសម្ងាត់ ហើយមិនដែលបង្ហាញក្នុងកំណត់ហេតុទេ។</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>មានតែអ្វីដែលទំព័រដាក់ឈ្មោះ</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>តែជាមួយថូខឹនប៉ុណ្ណោះ។ env:NAME អានអថេរបរិស្ថាននៃម៉ាស៊ីនមេជំនួសវិញ។</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>បើកការមើលជាមុន</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>បើកការស្ថាបនាដូចដែលម៉ាស៊ីននឹងបម្រើវា ពីថតរបស់គោលដៅ។ តំណដំណើរការសម្រាប់អ្នករយៈពេលមួយម៉ោង។</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>ស្រេចចិត្ត។ ទទេ៖ អ្វីដែលបានបោះពុម្ពផ្សាយ។</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>ស្រេចចិត្ត។ ជាមួយដែន គេហទំព័រត្រូវបានបម្រើនៅឫសរបស់វា។</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>លទ្ធផល</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>ទំព័រ</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>ទំព័រនៃគោលដៅ</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>ទំព័រដែលត្រូវបានបដិសេធ</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>ការដំណើរការក្រោយ</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>មើលជាមុន</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>មើលជាមុន និងបោះពុម្ពផ្សាយ</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>មើលជាមុន និងបោះពុម្ពផ្សាយ %name</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>មើលការស្ថាបនាជាមុន</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>វឌ្ឍនភាព</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>អាសយដ្ឋានសាធារណៈ</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>សោសាធារណៈ</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>បោះពុម្ពផ្សាយ</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>បោះពុម្ពផ្សាយច្បាប់ចម្លងឋិតិវន្តនៃគេហទំព័រទៅ GitHub Pages ឬម៉ាស៊ីន git ណាមួយ៖ ស្ថាបនាវា ពិនិត្យការផ្លាស់ប្ដូរ បោះពុម្ពផ្សាយ ហើយត្រឡប់ទៅការបោះពុម្ពផ្សាយមុននៅពេលអ្នកត្រូវការ។</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>ការបោះពុម្ពផ្សាយដែលត្រូវត្រឡប់ទៅ</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>ការបោះពុម្ពផ្សាយ</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>រុញ</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>អានមេរៀន</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>កំណត់ត្រា</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>ត្រូវបានបដិសេធ</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>ទាក់ទង</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>ផ្ទុកឡើងវិញ</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>បានលុប</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>ជំនួសសោ៖ សោចាស់ឈប់ដំណើរការ</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>របាយការណ៍</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>របាយការណ៍នៃការស្ថាបនា</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>ឃ្លាំងកូដ</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>ពិនិត្យ</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>ការពិនិត្យត្រួតពិនិត្យការកំណត់នីមួយៗ ហើយបង្ហាញបន្ទាត់ដែលនឹងត្រូវសរសេរ។ មិនទាន់មានអ្វីត្រូវបានរក្សាទុកទេ។</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>ត្រឡប់វិញ</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>ការត្រឡប់វិញ</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>រក្សាទុក</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>កាលវិភាគ</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>ទំព័រស្វែងរក</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>លេខសម្គាល់ផ្នែក បំបែកដោយសញ្ញាក្បៀស។</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>បញ្ជូនពួកវាទៅគេហទំព័រផ្ទាល់</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>ការកំណត់</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>ការកំណត់ទាំងអស់</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>ការកំណត់នៃ %name</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>ការរៀបចំ</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>ការរៀបចំ &gt; ការសម្ងាត់</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>បង្ហាញក្នុងបញ្ជី ឧទាហរណ៍ &quot;គេហទំព័រសាធារណៈនៅលើ GitHub Pages&quot;។</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>ការចូលជាមួយ GitHub App នឹងមកជាមួយការរួមបញ្ចូល GitHub។</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>គេហទំព័រ</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>គេហទំព័រដែលត្រូវបោះពុម្ពផ្សាយ</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>ទំហំ</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>ទំហំ និងដែនកំណត់</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>ទំហំនៃការស្ថាបនា</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>ទំព័រហួសសម័យ</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>បានចាប់ផ្ដើម</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>ចាប់ផ្ដើមដោយ %user នៅ %time។</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>ស្ថានភាព</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>ការបោះពុម្ពផ្សាយឋិតិវន្ត</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>ការបោះពុម្ពផ្សាយឋិតិវន្តត្រូវបានបិទ</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>ការបោះពុម្ពផ្សាយឋិតិវន្តត្រូវបានបិទ។</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>ការបោះពុម្ពផ្សាយឋិតិវន្តត្រូវបានបិទ។ សូមបើកវានៅក្នុង ការរៀបចំ &gt; ការបោះពុម្ពផ្សាយឋិតិវន្ត ជាមុនសិន។</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>ការបោះពុម្ពផ្សាយឋិតិវន្តត្រូវបានបើក។</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>ជំហាន %step នៃ %total</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>ជំហាន</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>សម្អាត</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>បិទ</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>បើក</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>បើកការបោះពុម្ពផ្សាយឋិតិវន្ត</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>ស្លាក</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>ស្លាក</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>គោលដៅ</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>អាចបង្កើត និងផ្លាស់ប្ដូរគោលដៅបាន ប៉ុន្តែគ្មានអ្វីត្រូវបានស្ថាបនា ឬបោះពុម្ពផ្សាយទេ រហូតដល់វាត្រូវបានបើក។</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>ប្រាប់ម៉ាស៊ីនស្វែងរកថាត្រូវអានអ្វី។</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>មិនអាចបោះចោលការស្ថាបនាបានទេ៖ %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>ការស្ថាបនាដូចគ្នានឹងការបោះពុម្ពផ្សាយចុងក្រោយ៖ គ្មានអ្វីត្រូវបោះពុម្ពផ្សាយទេ។</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>ការស្ថាបនាត្រូវបានបោះចោល៖ ថតមានការបោះពុម្ពផ្សាយចុងក្រោយម្ដងទៀត។</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>តម្លៃលំនាំដើមសមស្របនឹងគេហទំព័រភាគច្រើន។</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>ថតមានការស្ថាបនាដែលមិនទាន់បោះពុម្ពផ្សាយ; ការស្ថាបនាថ្មីនឹងជំនួសវា។</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>មិនអាចសរសេរថតនៃការងារបានទេ៖ %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>មិនអាចរៀបចំការងារបានទេ៖ %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>មិនអាចចាប់ផ្ដើមការងារបានទេ។</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>ការងារបានបញ្ចប់។ កំពុងផ្ទុករបាយការណ៍របស់វា។</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>ការងារត្រូវការអ្នកប្រើដែលបានចូល។</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>ការងារបានចាប់ផ្ដើម ប៉ុន្តែមិនបានរាយការណ៍លេខសម្គាល់ដំណើរការរបស់វាទេ។ សូមពិនិត្យ %detail។</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>សោ</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>ឯកសារធំបំផុត៖ %path, %size។</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>បន្ទាត់ដែលនឹងត្រូវសរសេរ</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>បញ្ជីទំព័រសម្រាប់ម៉ាស៊ីនស្វែងរក; ត្រូវការអាសយដ្ឋានសាធារណៈ។</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>ទំព័រត្រូវបានទាញយកដូចដែលអ្នកទស្សនាដែលមិនបានចូលមើលឃើញ។ siteaccess រដ្ឋបាល និងកែសម្រួល មិនដែលត្រូវបានផ្ដល់ជូនទេ។</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>មិនអាចតាមដានវឌ្ឍនភាពបានទេ។ សូមផ្ទុកទំព័រឡើងវិញ ដើម្បីមើលថាការងារដំណើរការយ៉ាងដូចម្ដេច។</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>ផ្នែកសាធារណៈនៃសោ៖</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>ឫសនៃសាខា</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>ឃ្លាំងការសម្ងាត់មិនទាន់ត្រូវបានរៀបចំនៅឡើយទេ (./console exp:upgrade --apply បង្កើតតារាងរបស់វា) ដូច្នេះមិនអាចរក្សាទុកសោបានទេ។</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>ម៉ាស៊ីនមេចូលដោយខ្លួនឯង (សោ SSH ផ្ទាល់ខ្លួន ឬ credential helper) ឬឃ្លាំងកូដស្ថិតនៅលើម៉ាស៊ីនមេនេះ។</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>មិនអាចសរសេរការកំណត់បានទេ៖ %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>ការកំណត់ត្រឹមត្រូវ។ បន្ទាត់ទាំងនេះនឹងត្រូវសរសេរ៖</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>មិនអាចអានឯកសារការកំណត់បានទេ៖ %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>គេហទំព័រត្រឡប់ទៅឯកសារនៃការបោះពុម្ពផ្សាយនោះ; ការស្ថាបនាដែលមិនទាន់បោះពុម្ពផ្សាយត្រូវតែបោះពុម្ពផ្សាយ ឬបោះចោលជាមុនសិន។</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>ទំព័រផ្ទាល់របស់គេហទំព័រសម្រាប់អាសយដ្ឋានដែលមិនមាន។</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>មិនអាចរក្សាទុកគោលដៅបានទេ៖ %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>គោលដៅមិនទាន់ចូលជាមួយសោនេះនៅឡើយទេ៖ ជ្រើសរើស &quot;សោដាក់ពង្រាយដែលបានបង្កើតសម្រាប់គោលដៅនេះ&quot; ក្នុងការកំណត់របស់វា។</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>មិនអាចអានគោលដៅបានទេ៖ %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>មិនទាន់មានការស្ថាបនាដែលត្រូវពិនិត្យនៅឡើយទេ។</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>ការដំឡើងនេះគ្មាន siteaccess ខាងមុខទេ។ siteaccess រដ្ឋបាល និងកែសម្រួល មិនដែលត្រូវបានបោះពុម្ពផ្សាយទេ។</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>ទំព័រនេះតាមដានការងារនៅពេលវាដំណើរការ; វាបន្តនៅផ្ទៃខាងក្រោយនៅពេលទំព័រត្រូវបានបិទ។</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>គោលដៅនេះមិនទាន់មានសោដាក់ពង្រាយនៅឡើយទេ។</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>គោលដៅនេះមិនទាន់ត្រូវបានស្ថាបនានៅទីនេះនៅឡើយទេ។</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>គោលដៅនេះមានមួយហើយ។</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>បោះចោលការស្ថាបនានេះ៖ ថតមានការបោះពុម្ពផ្សាយចុងក្រោយម្ដងទៀត។ គេហទំព័រផ្ទាល់មិនផ្លាស់ប្ដូរទេ។</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>ធីក &quot;ខ្ញុំបានពិនិត្យការផ្លាស់ប្ដូរហើយ&quot; ជាមុនសិន។</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>ពេលវេលា</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>កត្តាចាប់ផ្ដើម</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>វាយឈ្មោះស្លាកម្ដងទៀត</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>មិនផ្លាស់ប្ដូរ</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>Webhook</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>អ្វី</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>អ្វីដែលផ្លាស់ប្ដូរ</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>ឯកសារនីមួយៗជាអ្វី; តែងតែត្រូវបានសរសេរ។</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>អ្វីដែលការងារបានធ្វើ និងកំណត់ត្រារបស់វា។ ការងារដែលចាប់ផ្ដើមនៅទីនេះបន្តនៅផ្ទៃខាងក្រោយនៅពេលទំព័រនេះត្រូវបានបិទ។</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>អ្វីដែលការងារបានបោះពុម្ពជាកំហុស</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>អ្វីដែលទំព័រដាក់ឈ្មោះ និងរូបភាពនីមួយៗនៃមាតិកាដែលបានបោះពុម្ពផ្សាយ</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>ពេលណា</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>នៅពេលការបោះពុម្ពផ្សាយបរាជ័យ</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>នៅពេលការបោះពុម្ពផ្សាយជោគជ័យ</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>នៅពេលមាតិកាត្រូវបានបោះពុម្ពផ្សាយ</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>កន្លែងដែលតំណទៅកាន់អ្វីដែលច្បាប់ចម្លងមិនមាន (ការស្វែងរក ការចូល) ត្រូវទៅ។</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>កន្លែងដែលច្បាប់ចម្លងឋិតិវន្តត្រូវបានបម្រើពី។</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>គេហទំព័រណាដែលត្រូវបានបោះពុម្ពផ្សាយ និងឈ្មោះរបស់គោលដៅ។</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>ដំណើរការក្រោមផ្លូវណាមួយ។ លំនាំដើម។</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>ត្រូវបានសរសេរនៅពេលណាដែលដែនផ្ទាល់ខ្លួនត្រូវបានកំណត់។</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>បាទ/ចាស</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>អ្នកតែងតែអាចស្ថាបនា និងបោះពុម្ពផ្សាយដោយដៃនៅទីនេះ និងនៅលើកុងសូល។</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>តែឈ្មោះប៉ុណ្ណោះ; តម្លៃនៅតែក្នុង ការរៀបចំ &gt; ការសម្ងាត់</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>ក្រោម %path</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>បានបញ្ចប់ដោយគ្មានរបាយការណ៍</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>បន្ថែម</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>បានបរាជ័យ</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>ឯកសារ</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages ឬ main ជាមួយថត docs។</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>ម៉ាស៊ីន git</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (ជាមួយថូខឹន) ឬ git@github.com:owner/repo.git (ជាមួយសោដាក់ពង្រាយ); មិនដែលមានពាក្យសម្ងាត់ ឬថូខឹននៅក្នុងវាទេ។</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/ សម្រាប់ផែនទីគេហទំព័រ និងតំណ canonical។</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>រូបភាព</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>មិនដែល</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ទេ</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>គ្មានឃ្លាំងពីចម្ងាយ</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>គ្មាន៖ ខមមីតនៅតែក្នុងថត</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>គ្មាន៖ គ្មានអ្វីផ្លាស់ប្ដូរ</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>មិនបានរុញ</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>គ្មានអ្វីផ្លាស់ប្ដូរ</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>ទំព័រ</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>បានជោគជ័យ</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>proc_open ត្រូវបានបិទ ដូច្នេះមិនអាចចាប់ផ្ដើមការងារនៅទីនេះបានទេ។ សូមប្រើ ./console exp:static:build នៅលើម៉ាស៊ីនមេ។</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>ការបោះពុម្ពផ្សាយ</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>បានបោះពុម្ពផ្សាយ</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>ការរុញកំពុងរង់ចាំ</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>បានរុញ</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>ត្រូវបានបដិសេធ</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>ទាក់ទង</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>ការត្រឡប់វិញ</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>បានត្រឡប់វិញ</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>កំពុងដំណើរការ</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>តែថតប៉ុណ្ណោះ</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com៖ សរសេរទៅឯកសារ CNAME។ ចង្អុល DNS នៃដែនទៅម៉ាស៊ីនតាមការពន្យល់របស់វា; HTTPS អាចចំណាយពេលបន្តិចដើម្បីចាប់ផ្ដើម។</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>បាទ/ចាស មិនទាន់បោះពុម្ពផ្សាយ</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>GitHub App មួយ</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>លំហូរការងារ (workflow) នៃឃ្លាំងកូដបោះពុម្ពផ្សាយវា។ ការស្ថាបនាសរសេរឯកសារលំហូរការងារ ទុកថតឱ្យទទេ។</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>បន្ទាប់ពីរក្សាទុកគោលដៅជាមួយឃ្លាំងកូដ GitHub និងថូខឹន ឬ GitHub App ជំហាននេះអាចបង្កើតឃ្លាំងកូដ និងបើក GitHub Pages។ បើមិនដូច្នោះទេ សូមបង្កើតឃ្លាំងកូដនៅលើ GitHub ជាមុនសិន ឃ្លាំងទទេក៏បាន។</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>សាខា ឬ GitHub Actions?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>ពិនិត្យ DNS</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>បង្កើតឃ្លាំងកូដ ប្រសិនបើវាមិនទាន់មាន</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>បង្កើតឃ្លាំងកូដនៅលើ GitHub ហើយបើក GitHub Pages នៅក្នុងការកំណត់របស់វា (Settings &gt; Pages)។</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>បង្កើតឃ្លាំងកូដ %repo នៅពេលវាខ្វះ (ប្រសិនបើបានស្នើ) បើក GitHub Pages ពីសាខា ឬពី GitHub Actions តាមដែលបានរក្សាទុក ហើយកំណត់ដែនផ្ទាល់ខ្លួន និង HTTPS។ វាប្រើការកំណត់ដែលបានរក្សាទុក៖ សូមរក្សាទុកការផ្លាស់ប្ដូរជាមុនសិន។</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>ព័ត៌មានលម្អិតនៅលើ GitHub</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>សូមបញ្ចូលដែនផ្ទាល់ខ្លួនជាមុនសិន។</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>push នីមួយៗត្រូវបានពិនិត្យជាមួយដែនកំណត់ទាំងនេះជាមុន។</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>សម្រាប់អាសយដ្ឋាន https:// នៅលើ GitHub។ App ដែលបានរៀបចំសម្រាប់ការដំឡើងនេះចូលគណនី វាត្រូវការ id នៃការដំឡើង។</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages បម្រើឃ្លាំងកូដឯកជនតែលើគម្រោងបង់ប្រាក់ប៉ុណ្ណោះ។</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages៖ ដែនរង (www.example.com) ត្រូវការកំណត់ត្រា CNAME ទៅ &lt;owner&gt;.github.io ដែនមេ (example.com) ត្រូវការកំណត់ត្រា A %ips។</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>id នៃការដំឡើង GitHub App</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>ការស្ថាបនា Pages ចុងក្រោយ</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>ដែនកំណត់ និងលក្ខខណ្ឌ</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>ត្រូវការសម្រាប់ GitHub Pages លើគម្រោងឥតគិតថ្លៃ។</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>នៅលើ GitHub</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>តែជាមួយ GitHub App ប៉ុណ្ណោះ៖ លេខនៅចុងអាសយដ្ឋាននៃការដំឡើង App នៅលើ GitHub។ App ខ្លួនឯងត្រូវបានកំណត់ក្នុង staticcache.ini (GitHubAppId, GitHubAppKey)។</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>ឯកជន</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>សាធារណៈ</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>សូមរក្សាទុកគោលដៅជាមួយឃ្លាំងកូដ GitHub និងថូខឹន ឬ GitHub App ជាមុនសិន។</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>កំណត់កំណត់ត្រាទាំងនេះនៅអ្នកផ្ដល់ដែន៖</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>រៀបចំនៅលើ GitHub</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>DNS របស់ %domain មិនទាន់ចង្អុលទៅ GitHub Pages នៅឡើយទេ។</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>DNS របស់ %domain ចង្អុលទៅ GitHub Pages។</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>ការរួមបញ្ចូល GitHub មិនមាននៅទីនេះទេ៖ %problem។ ការបោះពុម្ពផ្សាយទៅសាខានៅតែដំណើរការ សូមបើក GitHub Pages នៅក្នុងការកំណត់របស់ឃ្លាំងកូដ។</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>ជំហាន GitHub មិនមានសម្រាប់គោលដៅនេះទេ៖ %problem។</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>ស្ថានភាពរបស់ GitHub Pages ត្រូវបានបង្ហាញ នៅពេលព័ត៌មានសម្គាល់ការចូលជាថូខឹន ឬ GitHub App។</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>ប្រើដែនផ្ទាល់ខ្លួនរបស់អ្នក</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>គួរជ្រើសមួយណា៖ ថូខឹន សោដាក់ពង្រាយ ឬ GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>ជាមួយឃ្លាំងកូដ GitHub និងថូខឹន ឬ GitHub App អ្នកជំនួយការអាចបង្កើតឃ្លាំងកូដ បើក GitHub Pages និងកំណត់ដែនជូនអ្នក (ជំហានទី 4)។</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>កំពុងស្ថាបនា</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>បានស្ថាបនា</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>ពី GitHub Actions</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>ពីសាខា %branch</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>មិនទាន់មាន</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>រកមិនឃើញ</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>បិទ</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>ឯកជន</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>សាធារណៈ</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>កំពុងរង់ចាំក្នុងជួរ</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>មិនស្គាល់</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%count ក្នុង %pages ទំព័រ៖</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>.gz (និង .br) នៅជាប់ឯកសារអត្ថបទនីមួយៗ សម្រាប់ម៉ាស៊ីនដែលបម្រើវា។</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>ទំព័រតូចមួយសម្រាប់អាសយដ្ឋានចាស់ និងឈ្មោះក្លែងក្លាយនីមួយៗនៃទំព័រ ដើម្បីឱ្យតំណចាស់បន្តដំណើរការ។</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>ត្រូវបានសរសេរជានិច្ច នៅពេល GitHub Actions ដឹកជញ្ជូនគេហទំព័រ។</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>SPDX id ដូចជា CC-BY-4.0 ឬអត្ថបទខ្លួនឯង។</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>កន្ត្រក</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>ការហៅទៅម៉ាស៊ីនមេ</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>មតិយោបល់</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>ទម្រង់ដែលប្រមូលព័ត៌មាន</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>GitHub Actions workflow</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>ចន្លោះទទេតិចជាង និងគ្មានមតិយោបល់ក្នុងទំព័រ។</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>អាជ្ញាប័ណ្ណនៃមាតិកា</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>ចូល</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>បង្រួម</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>ទម្រង់ផ្សេងទៀត</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>បង្ហាប់ជាមុន</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>ទំព័របញ្ជូនបន្ត</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>ទំព័របញ្ជូនបន្ត៖ %count។</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>ស្វែងរក</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>លិបិក្រមស្វែងរក៖ %pages ទំព័រក្នុង %languages។</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>សន្លឹករចនាបថ និងស្គ្រីប ដែលដាក់ឈ្មោះតាមតម្លៃហាសនៃមាតិការបស់វា ដើម្បីឱ្យកម្មវិធីរុករកអាចរក្សាទុកបាន។</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>ទំព័រដែលបានផ្លាស់ប្ដូរ ប៉ុន្មាននាទីបន្ទាប់ពីការផ្លាស់ប្ដូរចុងក្រោយ (ផ្នែក cronjob staticpublish)។</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>អាជ្ញាប័ណ្ណនៃមាតិកា ពីវាលខាងក្រោម។</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>គេហទំព័រទាំងមូល តាមពេលវេលានៃកាលវិភាគ (ផ្នែក cronjob staticpublish)។</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>ផ្នែកទាំងនេះនៃទំព័រត្រូវការម៉ាស៊ីនមេ; នីមួយៗមានជម្រើសបម្រុង។ សូមពិនិត្យវាមុនពេលបោះពុម្ពផ្សាយ។</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>អ្វីដែលមិនដំណើរការជាឋិតិវន្ត</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>ឃ្លាំងគឺជាអ្វី សម្រាប់អ្នកដែលបើកវានៅលើម៉ាស៊ីនបម្រើ។</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>ដកចេញ</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>អត្ថបទបម្រុង</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>ចំណុចបញ្ចប់ទម្រង់នៃគេហទំព័រផ្ទាល់</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>គេហទំព័រផ្ទាល់</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>ទំព័រស្វែងរកនៃច្បាប់ចម្លង</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>មិនអាចផ្ញើទម្រង់បានទេ។</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>សូមអរគុណ៖ ទម្រង់ត្រូវបានផ្ញើ។</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>ទម្រង់មិនត្រូវបានទទួលយកទេ៖ សូមពិនិត្យអ្វីដែលអ្នកបានបញ្ចូល ហើយផ្ញើម្ដងទៀត។</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>លុបតំណទៅទំព័រដែលច្បាប់ចម្លងមិនមាន</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>លុបតំណទៅផ្នែករដ្ឋបាល</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>អត្ថបទរបស់វានៅដដែល។ រូបភាព ទម្រង់ និងតំណទៅគេហទំព័រផ្សេងទៀត មិនដែលត្រូវលុបទេ។</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>កំណែ</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>ការចូលគេហទំព័រដែលត្រូវបោះពុម្ព</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>ការចូលគេហទំព័រ</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>នៅឫស</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>គ្មានការចូលគេហទំព័រនៅឫសទេ៖ នីមួយៗនៅក្នុងថតរបស់វា ហើយឫសភ្ជាប់ទៅពួកវា</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>ការចូលគេហទំព័រ</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>គូសការចូលគេហទំព័រមួយ ឬច្រើនដែលចែករំលែកម៉ាស៊ីនមេមួយតាមបុព្វបទ URI របស់វា។ មួយនៅឫសត្រូវបានផ្តល់នៅទីនោះ ផ្សេងទៀតនៅក្នុងថតនៃបុព្វបទរបស់វា (/ger/); តំណរវាងពួកវានៅក្នុងច្បាប់ចម្លង។ ការចូលគ្រប់គ្រងមិនដែលត្រូវបានផ្តល់ទេ។</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>ការបោះពុម្ពផ្សាយឋិតិវន្តនៃ %target បានបរាជ័យនៅលើ %site</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>ការបោះពុម្ពផ្សាយឋិតិវន្តនៃ %target បានជោគជ័យនៅលើ %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>អ៊ីមែលនេះត្រូវបានផ្ញើដោយ %site ព្រោះគោលដៅបោះពុម្ពផ្សាយឋិតិវន្ត %target ស្នើសុំ។</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>ការដាក់ពង្រាយ %deploy បានបរាជ័យនៅលើ %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>ការដាក់ពង្រាយ %deploy កំពុងរង់ចាំនៅច្រកទ្វារមួយនៅលើ %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>ការដាក់ពង្រាយ %deploy បានជោគជ័យនៅលើ %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>សំបុត្រនេះត្រូវបានផ្ញើដោយ %site ពីព្រោះ migration.ini [RemoteSettings] Notify[] ស្នើសុំវា។</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>ប្រភេទទិន្នន័យ (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>បានរាប់នៅ %time រាប់ម្តងទៀតក្រោយ %minutes នាទី</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>ប្រភេទទិន្នន័យរក្សាទុក និងកែសម្រួលតម្លៃមួយប្រភេទនៃលក្ខណៈរបស់ថ្នាក់៖ បន្ទាត់អត្ថបទ រូបភាព ទំនាក់ទំនង។ ស្នូលផ្តល់ភាគច្រើន ផ្នែកបន្ថែមបន្ថែមទៀត។ នេះគឺទាំងអស់ អ្នកផ្តល់ និងចំនួនមាតិកាដែលប្រើវា។ ប្រភេទទិន្នន័យដែលមូលដ្ឋានទិន្នន័យប្រើ ប៉ុន្តែគ្មានអ្វីចុះឈ្មោះវាទៀត នឹងធ្វើឱ្យមាតិកាដែលមានវាខូច។</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>ក្រុមថ្នាក់</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>រាប់ម្តងទៀតឥឡូវនេះ ជំនួសឱ្យការប្រើចំនួនពីប៉ុន្មាននាទីមុន។</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>រាប់ម្តងទៀត</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>ទិដ្ឋភាពទូទៅ</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>បានចុះឈ្មោះ</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>កំពុងប្រើ</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>មិនបានប្រើ</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>ផ្នែកបន្ថែមដែលផ្តល់ប្រភេទទិន្នន័យ</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>លក្ខណៈរបស់ថ្នាក់</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>លក្ខណៈរបស់វត្ថុ</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>មិនបានចុះឈ្មោះ</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>មានក្នុងបញ្ជី បាត់ឯកសារ</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>ប្រភេទទិន្នន័យ %count ត្រូវបានប្រើ ប៉ុន្តែមិនបានចុះឈ្មោះ</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>លក្ខណៈរបស់ថ្នាក់ %class_attributes និងលក្ខណៈវត្ថុ %object_attributes មានប្រភេទទិន្នន័យដែលគ្មានផ្នែកបន្ថែម ឬការកំណត់ណាចុះឈ្មោះ។ វត្ថុរបស់វាមិនអាចបង្ហាញ កែសម្រួល ឬផ្សព្វផ្សាយបានទេ។ សូមបើកផ្នែកបន្ថែមដែលផ្តល់ប្រភេទទិន្នន័យនេះ ឬប្តូរថ្នាក់។</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>បង្ហាញតែទាំងនេះ</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>ស្វែងរកប្រភេទទិន្នន័យ</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>អត្តសញ្ញាណ ឈ្មោះ ថ្នាក់ PHP ឬផ្នែកបន្ថែម។</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>បង្ហាញ</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>ទាំងអស់</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>ផ្តល់ដោយ</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>មនុស្សគ្រប់គ្នា</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>ស្នូល</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>គ្មានប្រភេទទិន្នន័យត្រូវនឹងតម្រងនេះទេ។</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>បង្ហាញទាំងអស់</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>ផ្នែកបន្ថែម</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%shown នៃប្រភេទទិន្នន័យ %count, %used កំពុងប្រើ</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>មូលដ្ឋានទិន្នន័យមានលក្ខណៈថ្នាក់ ឬលក្ខណៈវត្ថុនៃប្រភេទទិន្នន័យទាំងនេះ ប៉ុន្តែ content.ini មិនរាយវាទេ ឬឯកសាររបស់វាបាត់។</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>ប្រភេទទិន្នន័យរបស់ %provider</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>ប្រភេទទិន្នន័យ</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>ថ្នាក់ PHP និងឯកសារ</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>ថ្នាក់</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>វត្ថុ</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>ទង់</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>គ្មាន</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>គ្មានប្រភេទទិន្នន័យត្រូវនឹងការស្វែងរកទេ។ សម្អាតការស្វែងរក។</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>បានបង្ហាញ %shown នៃប្រភេទទិន្នន័យ %count</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>ប្រភេទទិន្នន័យដែលបានបង្ហាញ៖ %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>តម្រៀបតាម %column</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>បានរាប់នៅ %time</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>ប្រភេទទិន្នន័យទាំងអស់</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>ទំព័រជំនួយ</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>ប្រភេទទិន្នន័យនេះត្រូវបានប្រើ ប៉ុន្តែមិនបានចុះឈ្មោះ</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>វត្ថុនៃថ្នាក់ខាងក្រោមមិនអាចបង្ហាញ កែសម្រួល ឬផ្សព្វផ្សាយបានទេ ដរាបណាគ្មានផ្នែកបន្ថែមណាចុះឈ្មោះប្រភេទទិន្នន័យនេះ។ សូមបើកផ្នែកបន្ថែមដែលផ្តល់វា ហើយបន្ថែមវាទៅ content.ini [DataTypeSettings] AvailableDataTypes[] ឬប្តូរថ្នាក់។</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini រាយប្រភេទទិន្នន័យនេះ ប៉ុន្តែគ្មានថតប្រភេទទិន្នន័យណាមានឯកសាររបស់វាទេ។ គ្មានអ្វីប្រើវាទេ សូមដកវាចេញពី AvailableDataTypes[] ឬបើកផ្នែកបន្ថែមរបស់វា។</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>អំពីប្រភេទទិន្នន័យនេះ</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>អត្តសញ្ញាណ</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>ឈ្មោះ</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>ផ្នែកបន្ថែម %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>គ្មាន</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>ថ្នាក់ PHP</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>ឯកសារ</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>នៅក្នុង AvailableDataTypes[]</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>បាទ/ចាស</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ទេ</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>ជួរឈរនៃតម្លៃរបស់វា</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>ជួរឈរនៃការកំណត់លក្ខណៈថ្នាក់របស់វា</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>តារាង</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>ជួរឈរ និងតារាងត្រូវបានរកឃើញដោយអានកូដរបស់ប្រភេទទិន្នន័យ៖ ជាការណែនាំ មិនមែនជាការធានាទេ។</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>គំរូ</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>ការចូលគេហទំព័រ</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>គំរូ</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>រកឃើញនៅក្នុង</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>ផ្នែករដ្ឋបាលនេះ</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>គេហទំព័រលំនាំដើម</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>ដោយគ្មានការជំនួស៖ គំរូជំនួសដែលត្រូវនឹងថ្នាក់ ឬលក្ខណៈ មានអាទិភាពលើទាំងនេះ។</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>ថ្នាក់ដែលប្រើវា (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>គ្មានថ្នាក់ណាមានលក្ខណៈនៃប្រភេទទិន្នន័យនេះទេ។</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>ថ្នាក់</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>លក្ខណៈ</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>លក្ខណៈរបស់ថ្នាក់ (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>លក្ខណៈ</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>ការកំណត់</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>ចាំបាច់</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>អាចស្វែងរកបាន</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>អាចបកប្រែបាន</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>ប្រមូលព័ត៌មាន</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>មាតិកាខ្លះដែលប្រើវា</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>កែប្រែចុងក្រោយមុនគេ</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>បានកែប្រែ</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>ថ្នាំង %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>ការបកប្រែនីមួយៗមានតម្លៃផ្ទាល់ខ្លួន។</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>ការស្វែងរកធ្វើលិបិក្រមតម្លៃរបស់វា។</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>វាអាចប្រមូលព័ត៌មានពីអ្នកទស្សនា (ទម្រង់)។</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>បញ្ជីអាចតម្រៀបតាមវា៖ សោតម្រៀប %type។</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>អាចតម្រៀបបាន</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>តម្លៃរបស់វាចង្អុលទៅវត្ថុផ្សេងទៀត។</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>ទំនាក់ទំនង</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>វាអាចបំពេញពីខ្សែអក្សរធម្មតា (នាំចូល REST)។</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>ពីអត្ថបទ</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>វាអាចបំពេញពីឯកសារ។</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>ពីឯកសារ</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>ការកំណត់លក្ខណៈថ្នាក់របស់វាត្រូវបានដាក់ក្នុងកញ្ចប់។</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>កញ្ចប់</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>មាតិកា (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from ដល់ %to ក្នុងចំណោម %count</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>ត្រងបញ្ជី</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>ថ្នាក់ទាំងអស់</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>ផ្នែក</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>ភាសា</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>ម្ចាស់</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>បានបោះពុម្ពផ្សាយ</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>ប្តូរលំដាប់ត្រឡប់</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>គ្មានធាតុ</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>ក្នុងមួយទំព័រ</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>បង្ហាញ %count ធាតុក្នុងមួយទំព័រ។</translation>
     </message>
 </context>
 </TS>

@@ -2,7 +2,7 @@
 /**
  * File containing the eZURLAliasMLRegression class
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -15,6 +15,9 @@
  * @group urlaliasml
  * @group database
  */
+#[\PHPUnit\Framework\Attributes\Group('urlaliasml')]
+#[\PHPUnit\Framework\Attributes\Group('database')]
+#[\PHPUnit\Framework\Attributes\CoversClass(eZURLAliasML::class)]
 class eZURLAliasMLRegression extends ezpDatabaseTestCase
 {
     protected $backupGlobals = FALSE;
@@ -1403,6 +1406,7 @@ class eZURLAliasMLRegression extends ezpDatabaseTestCase
      * @group issue19055
      * @covers eZURLAliasML::fetchPathByActionList
      */
+    #[\PHPUnit\Framework\Attributes\Group('issue19055')]
     public function testFetchPathByActionListWithFallback()
     {
         $frenchLocale = $this->frenchLanguage->attribute( 'locale' );
@@ -1445,6 +1449,7 @@ class eZURLAliasMLRegression extends ezpDatabaseTestCase
      * @group issue19062
      * @covers eZURLAliasML::translate
      */
+    #[\PHPUnit\Framework\Attributes\Group('issue19062')]
     public function testTranslateWildcardNopUri()
     {
         $folder = new ezpObject( 'folder' , 2 );

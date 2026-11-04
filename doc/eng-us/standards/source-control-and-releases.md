@@ -49,7 +49,7 @@ published. If you are new to Git, start with [Develop with Git](../help/develop-
 - **A kernel contribution is merged once its author's CLA is on file.** 7x and the Exponential Foundation require a
   signed Contributor Licensing Agreement for every code contribution to the core kernel, whether it arrives as a
   pull request, a patch, an issue or by mail ([Copyright assignment (CLA)](../../../CONTRIBUTING.md#copyright-assignment-cla)).
-  By signing and submitting, the contributor assigns the copyright in the contribution to 7x, which becomes its owner, and gives up control over it: 7x may use, change, relicense and distribute it in any way, and the contributor cannot withdraw it or set conditions on it. The pull request template has a checkbox for it. Users' own custom extensions
+  By signing and submitting, the contributor assigns the copyright in the contribution to the Exponential Foundation and 7x, which become its owners, and gives up control over it: the Exponential Foundation and 7x may use, change, relicense and distribute it in any way, and the contributor cannot withdraw it or set conditions on it. The pull request template has a checkbox for it. Users' own custom extensions
   are not affected.
 - **No force push and no rewriting of published history.** A commit on `main` is public; a rewrite would move every
   later commit and strand any tag that points into the range. The one exception is a contributor's own pull request
@@ -97,7 +97,7 @@ Further rules of the project, not checked by any tool:
 ## Changelogs
 
 - Kernel changelogs: `doc/changelogs/<series>/<version>.md`, for example
-  [6.0.15](../../changelogs/6.0/6.0.15.md) (in development; "Not released yet" on its first line). Older series back to
+  [6.0.15](../../changelogs/6.0/6.0.15.md) (the current line; its first line says whether it is released). Older series back to
   2.9 are kept in `doc/changelogs/`.
 - Extension changelogs: `doc/changelogs/extensions/<name>.md`, for example
   [exponential-velocity.md](../../changelogs/extensions/exponential-velocity.md).

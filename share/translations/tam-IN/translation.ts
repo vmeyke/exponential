@@ -982,6 +982,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>இந்தப் பக்கம் மட்டுமே தேடப்படுகிறது: %count இல் %from முதல் %to வரை.</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Kernel மற்றும் நீட்சிகளின் ஒவ்வொரு தரவு வகையும், வகுப்புகளும் உள்ளடக்கமும் அதை எவ்வாறு பயன்படுத்துகின்றன என்பதும்.</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>தரவு வகைகள்</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2314,6 +2322,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>கணினிப் பக்கங்களையும் புத்தகக்குறியிடலாம்: பக்கத்தைத் திறந்து (அமைவு, தணிக்கைப் பதிவு, பயனர்களின் பட்டியல் ...) அதன் மேலே உள்ள “இந்தப் பக்கத்தைப் புத்தகக்குறியிடு” என்பதைத் தேர்ந்தெடுங்கள். அத்தகைய புத்தகக்குறிகளுக்கு ஒரு பல்சக்கரச் சின்னம் இருக்கும்.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>இந்தப் பக்கத்தை இங்கே திறக்க இனி உங்களுக்கு அனுமதி இல்லை. புத்தகக்குறியை நீக்குங்கள், அல்லது அணுகலுக்காக ஒரு நிர்வாகியிடம் கேளுங்கள்.</translation>
     </message>
 </context>
 <context>
@@ -5163,6 +5175,210 @@
         <source>Go to the first page</source>
         <translation>முதல் பக்கத்திற்குச் செல்லுங்கள்</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>மற்றவை</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>கடந்த 7 நாட்கள்</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>தனிப்பயன் வரம்பு</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>அனைத்து சொற்களும்</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>ஏதேனும் ஒரு சொல்</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>சரியான சொற்றொடர்</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>பொருத்தம்</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>பெயர் A–Z</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>பெயர் Z–A</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>மாற்றப்பட்டது, புதியவை முதலில்</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>மாற்றப்பட்டது, பழையவை முதலில்</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>வெளியிடப்பட்டது, புதியவை முதலில்</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>வெளியிடப்பட்டது, பழையவை முதலில்</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>மாற்றப்பட்டது</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>வடிகட்டிகள்</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>வடிகட்டிகளைக் காட்டு</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>வடிகட்டிகளை மறை</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>மீட்டமை</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>பயன்படுத்து</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>சொற்கள்</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>உள்ளடக்க வகை</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>மேலும் காட்டு (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>அதன் பண்புகளில் ஒன்றில் தேட ஒரு உள்ளடக்க வகையைத் தேர்ந்தெடுக்கவும்.</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>பிரிவு</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>அனுப்புநர்</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>பெறுநர்</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>தொடக்கத் தேதி சரியான தேதி அல்ல.</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>முடிவுத் தேதி சரியான தேதி அல்ல.</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>உரிமையாளர்</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>பயனர் ID, உள்நுழைவுப் பெயர் அல்லது மின்னஞ்சல் முகவரி.</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>“%input” க்கு பயனர் எவரும் கிடைக்கவில்லை.</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>மொழி</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>எந்த மொழியும்</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>இடம்</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>%count இடங்கள்</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>பக்கத்திற்கு முடிவுகள்</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>“%text” க்கான முடிவுகள் (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>முடிவுகள் (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>வரிசைப்படுத்து</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>வரிசைப்படுத்து</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>செயலில் உள்ள வடிகட்டிகள்</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>இந்த வடிகட்டியை அகற்று</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>அல்லது வடிகட்டிகளைத் தேர்ந்தெடுத்து, அவற்றுடன் பொருந்தும் உள்ளடக்கத்தைப் பட்டியலிட அவற்றைப் பயன்படுத்தவும்.</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>நீங்கள் சொற்களைத் தட்டச்சு செய்ததும் வடிகட்டிகள் தேடலைக் குறுக்குகின்றன.</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>“%text” க்கு முடிவுகள் எதுவும் கிடைக்கவில்லை.</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>முடிவுகள் எதுவும் கிடைக்கவில்லை.</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>மேலே உள்ள ஒரு வடிகட்டியை அகற்றவும்.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>மொழிபெயர்ப்புகள்</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>செயல்கள்</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>%name ஐத் திருத்து</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>திருத்து</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -7512,6 +7728,10 @@
         <source>Setup &gt; Cronjobs</source>
         <translation>அமைவு &gt; க்ரான் பணிகள்</translation>
     </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>இதுவரை எந்த க்ரான் பணிப் பகுதியும் இயங்கவில்லை: பணி வரிசை, இறக்குமதிகள், அறிவிப்புகள் மற்றும் தேடல் அட்டவணை காத்திருக்கின்றன. php bin/php/installcrontab.php --add --apply ஐ இயக்குங்கள், அல்லது --show காட்டும் வரிகளை crontab கோப்பில் சேருங்கள்.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/dashboard/drafts</name>
@@ -8056,8 +8276,8 @@
         <translation>உரிமத்தின் தேவைப்படி, மூல ஆசிரியர்களின் பதிப்புரிமை அறிவிப்புகளும் Exponential உடன் சேர்க்கப்பட்டுள்ள மூன்றாம் தரப்பு மென்பொருளின் அறிவிப்புகளும் மூலக் கோப்புகளிலும் LICENSE கோப்பிலும் பாதுகாக்கப்படுகின்றன.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>eZ Systems பங்களிப்பாளர் உரிம ஒப்பந்தத்தின் விதிமுறைகள் மற்றும் நிபந்தனைகளின்படி 7x பயன்படுத்துவதற்காகத் தங்கள் பணிக்கு உரிமம் வழங்கிய Exponential பங்களிப்பாளர்களின் பட்டியல் கீழே உள்ளது. இந்த ஒப்பந்தம் அனுமதிப்பதன்படி, ஒவ்வொரு பங்களிப்பும் அது சேர்க்கப்பட்டுள்ள கோப்பின் உரிமத்தின் கீழேயே 7x ஆல் மறுவிநியோகம் செய்யப்படுகிறது. இந்தப் பட்டியல் ஒவ்வொரு பங்களிப்பாளரின் பெயர், விருப்பத் தொடர்புத் தகவல் மற்றும் அவர்கள் பங்களித்த அல்லது பணியாற்றிய கோப்புகளைக் குறிப்பிடுகிறது.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>Exponential மற்றும் அது தோன்றிய மென்பொருளில் செய்த பணிக்காகப் பாராட்டப்படும் பங்களிப்பாளர்கள், அவர்கள் பங்களித்த கோப்புகளுடன். இது பாராட்டு, பதிப்புரிமை அறிவிப்பு அல்ல: Exponential-க்கான பங்களிப்புகள் Contributor Licensing Agreement-இன் கீழ் Exponential Foundation மற்றும் 7x-க்கு ஒப்படைக்கப்படுகின்றன.</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13879,32 +14099,20 @@ Note: The packages will not be uninstalled.</source>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;Exponential Enterprise Edition ஐ மதிப்பிடுங்கள்&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Exponential சமூகத்தில் உறுப்பினராகுங்கள், பகிர்ந்துகொள்ளுங்கள், பங்களியுங்கள்&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; பதிப்புரிமை &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; மற்றும் பிறர்.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>&lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt; மூலம் இயக்கப்படுகிறது. மேலும் தகவலுக்கு &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt; ஐப் பாருங்கள்.</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; பதிப்புரிமை &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; மற்றும் பிறர்.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> மேலும் தகவலுக்கு &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt; ஐப் பாருங்கள்.</translation>
     </message>
     <message>
-        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; பதிப்புரிமை &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; மற்றும் பிறர்.</translation>
+        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;Exponential (7x இலிருந்து) ஐ மதிப்பிடுங்கள்&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Exponential சமூகத்தில் உறுப்பினராகுங்கள், ஆதரவு பெறுங்கள், பங்களியுங்கள்&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; பதிப்புரிமை &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; மற்றும் பிறர்.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13913,6 +14121,61 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Help center</source>
         <translation>உதவி மையம்</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>உள்ளடக்கம்</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>ஆவணப் பக்கங்கள்</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>பயனர்கள்</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>உள்ளடக்க வகுப்புகள்</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>நிர்வாகம்</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>பக்கம் %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>அனைத்து முடிவுகளையும் காண்க</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>%count முடிவுகள்</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>ஒரு முடிவு</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>%count பரிந்துரைகள்</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>பரிந்துரைகள் இல்லை</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>பரிந்துரைகளை ஏற்ற முடியவில்லை.</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>பரிந்துரைகள்</translation>
     </message>
 </context>
 <context>
@@ -14381,6 +14644,14 @@ Note: The packages will not be uninstalled.</source>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>இந்த நிறுவல் ஒரு பொது டெமோ ஆகும்: நிர்வாகியின் கடவுச்சொல் யாருக்கும் தெரிந்திருக்கலாம், மேலும் நிர்வாகி கடவுச்சொற்களை மாற்றவோ மீட்டமைக்கவோ முடியாது. தனிப்பட்ட எதையும் இங்கே உள்ளிட வேண்டாம்.</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>உங்கள் சாதனங்கள்</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>பாதுகாப்புச் செயல்பாடு</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14670,6 +14941,14 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>வழிகாட்டிகள், தேடல் மற்றும் பிழையை அறிவிப்பது எப்படி.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>சமீபத்திய உள்ளடக்கம்</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>புதிய உள்ளடக்கம், மதிப்பாய்வுக்காக நிறுத்திவைக்கப்பட்டவை, ஒரு தேர்வின் மீதான செயல்கள்.</translation>
     </message>
 </context>
 <context>
@@ -15128,6 +15407,46 @@ Note: The packages will not be uninstalled.</source>
         <source>Synchronisations</source>
         <translation>ஒத்திசைவுகள்</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>GraphQL API: அதன் முனைப்புள்ளி, ஸ்கீமா மற்றும் வினவல்களை முயற்சிக்க ஒரு சோதனைக்களம்.</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>நிறுவல் இடம்பெயர்வுகள்</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>கோப்புகளாக வைக்கப்பட்ட நிறுவல் மாற்றங்கள்: அவற்றின் நிலை, இயக்கங்கள், இயக்குதல் மற்றும் திரும்பப்பெறுதல்.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>சமீபத்திய உள்ளடக்கம்</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>புதிய உள்ளடக்கம், மதிப்பாய்வுக்காக நிறுத்திவைக்கப்பட்டவை, ஒரு தேர்வின் மீதான செயல்கள்.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>ஒரு தளத்தின் நிலையான நகலை GitHub Pages அல்லது எந்த git வழங்கியிலும் வெளியிடுங்கள்.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>நிலையான வெளியீடு</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>தரவு வகைகள்</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Kernel மற்றும் நீட்சிகளின் ஒவ்வொரு தரவு வகையும், வகுப்புகளும் உள்ளடக்கமும் அதை எவ்வாறு பயன்படுத்துகின்றன என்பதும்.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15292,6 +15611,22 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>யாரும் பயன்படுத்தாத அல்லது கவனிக்க வேண்டிய கணக்குகள்; அவற்றை முடக்கலாம், திறக்கலாம் அல்லது ஏற்றுமதிசெய்யலாம்.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>பயனர் தணிக்கைப் பதிவு</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>கணக்கு வாரியாக யார் மாற்றினார், யார் உள்நுழைந்தார் அல்லது மறுக்கப்பட்டார்; வடிகட்டி ஏற்றுமதி செய்யுங்கள்.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>உள்நுழைவு அறிக்கை</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>யார் உள்நுழைந்துள்ளனர், நாள்தோறும் உள்நுழைவுகளும் தோல்விகளும்; ஒரு பயனரை எல்லா இடங்களிலிருந்தும் வெளியேற்று.</translation>
     </message>
 </context>
 <context>
@@ -22108,6 +22443,22 @@ Note: The packages will not be uninstalled.</source>
         <source>%n hours ago</source>
         <translation>%n மணிநேரத்துக்கு முன்பு</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>GraphQL API இன் சேமிக்கப்பட்ட வினவல்களின் பதில்களும் அதன் ஸ்கீமாவின் உள்ளடக்க வகுப்புகளும்.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>நிலையான நகலை GitHub Pages அல்லது எந்த git வழங்கியிலும் வெளியிடுங்கள்</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>நிலையான வெளியீடு</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>நிலையான தற்காலிகச் சேமிப்பு இந்தச் சேவையகத்திலிருந்து பக்கங்களை வழங்குகிறது. ஒரு தளத்தின் நிலையான நகலை வேறிடத்தில், GitHub Pages அல்லது எந்த git வழங்கியிலும் வெளியிட, நிலையான வெளியீட்டைப் பயன்படுத்துங்கள்.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25649,6 +26000,10 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>last purge</source>
         <translation>கடைசி அகற்றல்</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>எழுதுதல்களால் நிலை பூட்டைப் பெற முடியவில்லை (கடைசியாக %date): ஒவ்வொன்றும் தற்காலிகமாகச் சேமித்த அனைத்து முடிவுகளையும் பழையதாக்கியது. தளம் இயங்கும் ஒவ்வொரு பயனருக்கும் %file எழுதக்கூடியதாக இருக்க வேண்டும்; NFS இல் இதற்கு NFSv4 அல்லது lockd தேவை.</translation>
     </message>
 </context>
 <context>
@@ -33597,6 +33952,14 @@ Note: The packages will not be uninstalled.</source>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>PHP கையாளுநரின் காலாவதியான அமர்வுகளை PHP தானே (session.gc_maxlifetime) நீக்கும்; இந்தப் பக்கமோ session_gc cronjob பகுதியோ நீக்காது.</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>எல்லாப் பயனர்களின் உள்நுழைந்த அமர்வுகளும் உள்நுழைவு அறிக்கையில் பட்டியலிடப்படுகின்றன, அங்கிருந்தே வெளியேற்றப்படுகின்றன; அது எந்த அமர்வு கையாளியுடனும் வேலை செய்யும்.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>உள்நுழைவு அறிக்கையைத் திற</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37921,6 +38284,26 @@ your account.</source>
     <message>
         <source>None yet</source>
         <translation>இன்னும் எதுவுமில்லை</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>பாதுகாப்புச் செயல்பாடு</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>உங்கள் சமீபத்திய உள்நுழைவுகள், தோல்வியடைந்த முயற்சிகள், உங்கள் கடவுச்சொல், மின்னஞ்சல் முகவரி மற்றும் இரு-படி உள்நுழைவில் செய்யப்பட்ட மாற்றங்கள்.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>இந்தக் கணக்கின் சமீபத்திய உள்நுழைவுகள், தோல்வியடைந்த முயற்சிகள் மற்றும் பாதுகாப்பு மாற்றங்கள்.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>செயல்பாட்டை மதிப்பாய்வு செய்</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>தோல்வியடைந்த உள்நுழைவுகள்: %count</translation>
     </message>
 </context>
 <context>
@@ -44087,6 +44470,42 @@ If you want to send comments to the approver or view the status use the URL belo
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>உள்நுழைந்த பிறகு, வேறு எதையும் செய்வதற்கு முன் பயனர் புதிய கடவுச்சொல்லைத் தேர்ந்தெடுக்க வேண்டும். ஒருவருக்குத் தற்காலிக கடவுச்சொல்லை வழங்கும்போது இதைப் பயன்படுத்துங்கள்.</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>ஏற்கனவே உள்ள படத்தைத் தேர்ந்தெடுக்கவும்</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>நீங்கள் தேர்ந்தெடுக்கும் பொருளின் படக் கோப்பு இந்தப் புலத்தில் நகலெடுக்கப்படும். மற்ற பொருள் மாறாது.</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>“%name” இன் படம் இந்தப் புலத்தில் நகலெடுக்கப்பட்டது.</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>படத்திற்காக உலாவு</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>பெயரால் படங்களைத் தேடு</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>தேடு</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>“%name” இன் படத்தைப் பயன்படுத்து</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>இந்தப் படத்தைப் பயன்படுத்து</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>உங்கள் தேடலுடன் பொருந்தும் படம் எதுவும் இல்லை.</translation>
     </message>
 </context>
 <context>
@@ -51011,6 +51430,10 @@ See the requirements page for more information.</source>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>crontab எழுதப்படவில்லை (%reason). தளம் எந்தப் பயனராக இயங்குகிறதோ அந்தப் பயனரின் crontab இல் இந்த வரிகளைச் சேருங்கள், இல்லையெனில் வரிசை, இறக்குமதிகள், அறிவிப்புகள் மற்றும் தேடல் அட்டவணை ஒருபோதும் இயங்காது:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>மீண்டும் நிறுவுதல் கிக்ஸ்டார்ட்டர் மூலம் (%file, பின்னர் php bin/php/kickstarter.php run --apply) அல்லது புதிய நிறுவல் மூலம் செய்யப்படுகிறது.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54890,6 +55313,10 @@ your account.</source>
         <source>eZJSCore Public Packer cache</source>
         <translation>eZJSCore Public Packer தற்காலிகச் சேமிப்பு</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>GraphQL தற்காலிக நினைவகம் (பதில்கள் மற்றும் ஸ்கீமா வகுப்புகள்)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54976,6 +55403,14 @@ your account.</source>
     <message>
         <source>Copy of %class_name</source>
         <translation>%class_name இன் நகல்</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>தரவு வகைகள்</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>தரவு வகை %string</translation>
     </message>
 </context>
 <context>
@@ -55802,6 +56237,26 @@ your account.</source>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>SVG படத்தைப் படிக்க முடியவில்லை, அல்லது அதில் பாதுகாப்பாகக் காட்டக்கூடியது எதுவுமில்லை.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>படத்தை நகலெடுக்க முடியவில்லை. மீண்டும் முயற்சிக்கவும் அல்லது தள நிர்வாகியைத் தொடர்பு கொள்ளவும்.</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>தேர்ந்தெடுக்கப்பட்ட பொருள் இல்லை அல்லது அதைப் படிக்க உங்களுக்கு அனுமதி இல்லை.</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>தேர்ந்தெடுக்கப்பட்ட பொருளில் படம் இல்லை.</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>தேர்ந்தெடுக்கப்பட்ட பொருளின் படக் கோப்பைப் படிக்க முடியவில்லை.</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>தேர்ந்தெடுக்கப்பட்ட பொருளின் படம் இந்தப் புலம் அனுமதிப்பதை விடப் பெரியது: %1 பைட்டுகள்.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56332,6 +56787,42 @@ your account.</source>
         <source>The bookmark was renamed to &quot;%name&quot;.</source>
         <translation>புத்தகக்குறியின் பெயர் “%name” என மாற்றப்பட்டது.</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>இந்த தள அணுகலில் (%siteaccess) இந்தப் பக்கம் முடக்கப்பட்டுள்ளது. இந்தப் பக்கம் உள்ள ஒரு தள அணுகலில் புத்தகக்குறியைத் திறங்கள்.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>இந்தப் பக்கத்தின் தொகுதிக்கூறு இங்கே நிறுவப்படவில்லை அல்லது இயக்கப்படவில்லை.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>இந்தப் பக்கம் இனி இல்லை: இதன் தொகுதிக்கூறில் அத்தகைய காட்சி இல்லை.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>உங்கள் பங்குகளில் எதுவும் இந்தப் பக்கத்தைத் திறக்க உங்களை அனுமதிக்கவில்லை.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>இந்த தள அணுகலைப் பயன்படுத்த உங்களுக்கு அனுமதி இல்லை.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>இந்தப் பக்கம் காட்டும் உள்ளடக்கத்தைப் படிக்க உங்களுக்கு அனுமதி இல்லை.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>இந்த வகைப் பக்கத்தைப் புத்தகக்குறியிட முடியாது: இது ஒரு படிவத்தில் மட்டுமே செயல்படுகிறது, அல்லது ஒரு கணத்திற்கு மட்டுமே உரிய பக்கம்.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>இந்தப் பக்கத்தின் முகவரி இல்லை.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>இந்தப் பக்கத்தை இப்போது திறக்க முடியாது.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56803,6 +57294,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>கடைசி இயக்கத்தில் அஞ்சல் போக்குவரத்து %count செய்திகளை ஏற்க மறுத்தது. அஞ்சல் சேவையகத்தையும் site.ini MailSettings ஐயும் சரிபார்க்கவும்.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>%count நிகழ்வுகள் காத்திருக்கின்றன, அறிவிப்பு க்ரான் பணியின் எந்த இயக்கமும் பதிவு செய்யப்படவில்லை. &quot;frequent&quot; என்ற க்ரான் பணிப் பகுதியை crontab கோப்பில் சேருங்கள், அல்லது exp:notification:run --apply ஐ இயக்குங்கள்.</translation>
     </message>
 </context>
 <context>
@@ -63059,6 +63554,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Choose another site or section with the node picker</source>
         <translation>முனைத் தேர்வியைப் பயன்படுத்தி வேறொரு தளத்தை அல்லது பிரிவைத் தேர்ந்தெடுக்கவும்</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>கணினி நிர்வாகி மட்டுமே உரிமையாளரை மாற்ற முடியும்: root ஆக ./console exp:content-check --fix-permissions --apply ஐ இயக்குங்கள்.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64592,6 +65091,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>empty</source>
         <translation>காலி</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>கையொப்ப விசை ஓராண்டுக்கும் மேல் பழையது: exp:audit key rotate --apply மூலம் அதை மாற்றுங்கள்.</translation>
     </message>
 </context>
 <context>
@@ -68422,6 +68925,486 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Share of page time</source>
         <translation>பக்க நேரத்தில் பங்கு</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>முழு வரைதல் கோரப்பட்டது</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>பக்கத் தற்காலிகச் சேமிப்பில் இந்தப் பக்கம் இல்லை (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>பக்கத் தற்காலிகச் சேமிப்பு பதிலளிக்கவில்லை</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>வரையப்பட்டது</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>கெர்னலால் வரையப்பட்டது: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>பக்கத் தற்காலிகச் சேமிப்பிலிருந்து %ms ms இல் வழங்கப்பட்டது. இந்தப் பக்கம் %stored நேரத்தில் %render ms எடுத்த ஒரு வரைதலால் சேமிக்கப்பட்டது, %age s முன்பு.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>புதிதாக வரை</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>தற்காலிகச் சேமிப்புக் காட்சிக்குத் திரும்பு</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>%stored நேர வரைதலிலிருந்து (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>இந்தக் கோரிக்கை: பக்கத் தற்காலிகச் சேமிப்பிலிருந்து %ms ms இல் வழங்கப்பட்டது.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>பயனர்</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>பயனர் ஐடி</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>தற்காலிக சேமிப்பு சுயவிவரம்</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>இந்தக் காட்சி</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>காட்சி தற்காலிகச் சேமிப்பு</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>பயனர் வாரியாக (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>பயனரின் தற்காலிக சேமிப்பு சுயவிவரம்: ஒரே சுயவிவரம் உள்ள பயனர்கள் காட்சி தற்காலிக சேமிப்புக் கோப்புகளைப் பகிர்கின்றனர்</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ஆம்</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>இல்லை</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>உள்நுழைவு</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>உள்நுழைந்துள்ளார்</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>அமர்வு</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>பயனரைச் சார்ந்த உள்ளடக்கக் காட்சி தற்காலிக சேமிப்பு விசையின் பகுதிகள், விசை எடுத்துக்கொள்ளும் அதே வடிவில், இந்தப் பக்கத்தின் ViewCacheTweaks படி. ஒரே சுயவிவரம் உள்ள பயனர்கள் காட்சிகளின் தற்காலிக சேமிப்புக் கோப்புகளைப் பகிர்கின்றனர், ஒரு காட்சியின் சொந்தப் பகுதிகள் (விருப்பங்கள், கேட்பான்களின் விசைகள்) வேறுபட்டால் தவிர: அவற்றுக்கு இந்தப் பக்கத்துக்கு மட்டும் தனிச் சுயவிவரம் உண்டு.</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>சுயவிவரம்</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>இந்தக் காட்சி (கணு %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: உள்நுழைந்த ஒவ்வொரு பயனருக்கும் சொந்தத் தற்காலிக சேமிப்புக் கோப்புகள் உள்ளன.</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>நடைமுறையில் உள்ள ViewCacheTweaks: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>பகுதி</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>மதிப்பு</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>எந்தப் பகுதியும் பயனரைச் சார்ந்திருக்கவில்லை (ViewCacheTweaks).</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>இந்தக் காட்சி</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>உரையாக நகலெடு</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>பங்குகள்</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>பங்கு ஒதுக்கீடுகள் எதையும் படிக்க முடியவில்லை.</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>பங்கு ID</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>பங்கு</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>வரம்பு</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>ஒதுக்கப்பட்டது</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>பயனர்</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>குழு %name (பொருள் %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>நகலெடுக்கப்பட்டது</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>நகலெடுக்க முடியவில்லை.</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>ஒரு கேட்பானால் விடப்பட்டது</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>அநாமதேய பார்வையாளர்கள்</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>உங்களுடையதைப் போன்றது</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>வேறுபட்டது</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>அதே ViewCacheTweaks கீழ் அநாமதேய பார்வையாளர்கள் பெறும் சுயவிவரம், இயல்புநிலை விருப்பங்களுடன், காட்சியின் பகுதிகள் இல்லாமல்: அமர்வைப் படிக்கும் கேட்பானிடம் அவற்றைக் கேட்க முடியாது.</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>விருப்பங்கள்</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>எந்தக் காட்சி முறையும் பயனர் விருப்பங்களைச் சார்ந்திருக்கவில்லை (site.ini [ContentSettings] CachedViewPreferences).</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>இந்தக் காட்சி முறைகளின் காட்சிகள் சார்ந்திருக்கும் விருப்பங்கள் (CachedViewPreferences), பயனரின் மதிப்பு அல்லது இயல்புநிலையுடன். அவை சுயவிவரத்தில் userpreferences ஆக உள்ளன, எல்லாக் காட்சி முறைகளுடையதும் ஒன்றாக.</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>பார்வை பயன்முறை</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>விருப்பம்</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>இயல்புநிலை</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>கொள்கைகள்</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>பங்குகளின் கொள்கைகளைக் காட்டு (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>இந்தப் பகுதி திறக்கப்படும்போது கொள்கைகள் சேவையகத்திலிருந்து ஒரு நேரத்தில் ஒரு பக்கமாக ஏற்றப்படும், மேலும் தொகுதி மற்றும் செயல்பாடு வாரியாக வடிகட்டலாம்.</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>செயல்கூறு</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>அனைத்து தொகுதிக்கூறுகளும்</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>எல்லாச் செயல்பாடுகளும்</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>கட்டுப்பாடுகள்</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>மேலும் காட்டு</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>இந்தப் பங்குகளுக்குக் கொள்கைகள் இல்லை.</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>வடிகட்டியுடன் எந்தக் கொள்கையும் பொருந்தவில்லை.</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%matching கொள்கைகளில் %shown (மொத்தம் %total)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>திறக்கும்போது ஏற்றப்படும்.</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>module/function, பங்கு, வரம்பு</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>கொள்கைகளைத் தேடு</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>மேலும் ஏற்று</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>தொகுதிக்கூறு/செயல்கூறு</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>அனைத்துப் பங்குகளும் (%count கொள்கைகள்)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>பொருந்தும் கொள்கை எதுவும் இல்லை.</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%matched கொள்கைகளில் %shown</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>பதில் இல்லை</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>மறைக்கப்பட்டது</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>விளக்கங்களைக் காட்டு</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>விளக்கங்களை மறை</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>திற</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>அனைத்தையும் திற</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>அனைத்தையும் மூடு</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>விசை அல்லது மதிப்பு</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>அமர்வில் தேடு</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>வகை</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>மேலும் %count</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>காட்ட முடியாத அளவு ஆழமாக உள்ளமைக்கப்பட்டது</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>வெட்டப்பட்டது, மொத்தம் %count எழுத்துகள்</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>தொடங்கியது</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>குக்கீ பெயர்</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>அமர்வு ID</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>கையாளி</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>சேமிப்புப் பாதை</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>PHP இயல்புநிலை</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>ஆயுட்காலம் (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>குக்கீ</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>ஆயுட்காலம் %s வி</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>உங்களுடைய சொந்த PHP அமர்வு, பகுதி திறக்கப்பட்டபோது இருந்தபடியே, ஒருபோதும் வேறொன்று அல்ல. ரகசியங்கள் போலத் தோன்றும் விசைகளின் (டோக்கன்கள், ஹாஷ்கள், கடவுச்சொற்கள்) மதிப்புகள் மறைக்கப்படுகின்றன (debugbar.ini SessionMask[]); மற்ற அனைத்தும், தனிப்பட்ட தரவும்கூட, சேமிக்கப்பட்டபடியே காட்டப்படுகின்றன.</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>%count விசைகள், %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>பெரியது</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>அமர்வு காலியாக உள்ளது.</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>இந்தக் கோரிக்கைக்கு எந்த அமர்வும் தொடங்கப்படவில்லை.</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>நீட்சி %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>கெர்னலும் பிறவும்</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>எல்லா உள்ளீடுகளும் காட்டப்படவில்லை: இங்கே பட்டியலிடக்கூடியதை விட அதிகமாக அமர்வில் உள்ளது.</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>%count விசைகள் பட்டியலிடப்படவில்லை.</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>சட்டகம்</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>டோக்கன் போலத் தோன்றும் மதிப்புகளும் (JSON Web Token, Authorization தலைப்பின் சான்றுகள், தனிப்பட்ட விசை, நீண்ட ஹெக்ஸ் அல்லது சீரற்ற உரை) அவற்றின் விசையின் பெயர் எதுவாக இருந்தாலும் மறைக்கப்படுகின்றன (debugbar.ini SessionValueMask[]).</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>விசை ஒரு ரகசியம் போலத் தோன்றுகிறது (debugbar.ini SessionMask[]).</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>மதிப்பு ஒரு டோக்கன் போலத் தோன்றுகிறது.</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>மறைக்கப்பட்ட விசையின் கீழ்.</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>உரையாக அமர்வு, அட்டவணையைப் போலவே மறைக்கப்பட்டது.</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>அமர்வு %size-ஐ விடப் பெரியது (debugbar.ini SessionWarnBytes): இந்தப் பயனரின் ஒவ்வொரு கோரிக்கையும் முழு அமர்வையும் படிக்கிறது, அது மாறியபோது அதை எழுதுகிறது.</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP இந்த அமர்வைக் கோப்புகளில் வைத்து, முழுக் கோரிக்கைக்கும் கோப்பைப் பூட்டுகிறது: ஒரே பயனரின் கோரிக்கைகள் (பல தாவல்கள், AJAX அழைப்புகள்) ஒன்றுக்கொன்று காத்திருக்கின்றன.</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>திறந்தே வை</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>%size-ஐ விடப் பெரியது (debugbar.ini SessionWarnBytes): இந்தப் பயனரின் ஒவ்வொரு கோரிக்கையும் முழு அமர்வையும் படிக்கிறது.</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%count-இல் %hits தற்காலிகச் சேமிப்பிலிருந்து படிக்கப்பட்டன</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>எந்த வார்ப்புருவும் வழங்கப்படவில்லை (காட்சித் தற்காலிகச் சேமிப்பிலிருந்து படிக்கப்பட்ட காட்சி எந்த வார்ப்புருவையும் வழங்காது).</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>பங்கு ஒதுக்கீடுகள்</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>பங்குகளும் கொள்கைகளும்</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>அநாமதேய பார்வையாளர்களிடமிருந்து வேறுபட்டது</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>அநாமதேய பார்வையாளர்களைப் போன்றதே</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70302,6 +71285,14 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>not sent</source>
         <translation>அனுப்பப்படவில்லை</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>அறிவிப்பு க்ரான் பணி தனது ஒவ்வொரு இயக்கத்தையும் இங்கே பதிவு செய்கிறது. frequent பகுதியை crontab கோப்பில் சேருங்கள், அல்லது exp:notification:run --apply ஐ இயக்குங்கள்.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>கன்சோலைப் பயன்படுத்துங்கள்: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -76020,6 +77011,98 @@ You will need to change the class of the node by using the swap functionality.</
         <source>This topic is not Released; readers do not see it.</source>
         <translation>இந்தத் தலைப்பு வெளியிடப்படவில்லை; வாசகர்கள் இதைப் பார்க்க மாட்டார்கள்.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>நிறுவல் இடம்பெயர்வுகள்</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>கோப்புகளாக வைக்கப்பட்ட நிறுவல் மாற்றங்கள்: அவற்றின் நிலை, இயக்கங்கள், இயக்குதல் மற்றும் திரும்பப்பெறுதல்.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>ஒரு தளத்தின் நிலையான நகலை GitHub Pages அல்லது எந்த git வழங்கியிலும் வெளியிடுங்கள்.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>நிலையான வெளியீடு</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>மதிப்பாய்வில்</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>வாசகர்கள் இந்தப் பக்கத்தைப் பார்க்கிறார்கள்.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>யாராவது வெளியிடும் வரை வாசகர்களிடமிருந்து மறைக்கப்பட்டுள்ளது.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>பக்கம் இப்போது மதிப்பாய்வில் உள்ளது. வெளியிடப்படும் வரை வாசகர்களிடமிருந்து மறைக்கப்பட்டுள்ளது.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>பக்கம் வெளியிடப்பட்டது: வாசகர்கள் இப்போது அதைப் பார்க்கிறார்கள்.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>பக்கம் மீண்டும் வரைவாக உள்ளது. மதிப்பாய்வு செய்யப்பட்டு வெளியிடப்படும் வரை வாசகர்களிடமிருந்து மறைக்கப்பட்டுள்ளது.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>இப்போது வெளியிடு</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>%role பங்கு உள்ள, இந்தப் பதிப்பை எழுதாத பயனர் மட்டுமே அதை வெளியிட முடியும்.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>வெளியீட்டுக்காகக் காத்திருக்கும் உதவி தலைப்புகள்</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>மீண்டும் வெளியிடப்படும் வரை வாசகர்களிடமிருந்து மறைக்கிறது.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>அடுத்து ஒரு மதிப்பாய்வாளர் அதைச் சரிபார்ப்பார். வாசகர்கள் இன்னும் அதைப் பார்க்கவில்லை.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>வாசகர்கள் உடனே அதைப் பார்க்கிறார்கள்.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>மேலும் பணிக்காக மதிப்பாய்விலிருந்து எடுக்கிறது. வாசகர்கள் அதைப் பார்ப்பதில்லை.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>இந்தப் பக்கத்தை வாசகர்களிடமிருந்து மறைக்கவா?</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>இந்தப் பக்கத்தை வரைவுக்குத் திருப்பி அனுப்பவா?</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>யாராவது மீண்டும் வெளியிடும் வரை வாசகர்கள் %title ஐ இனி பார்க்க மாட்டார்கள்.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title மேலும் பணிக்காக வரைவுக்குத் திரும்புகிறது. வாசகர்கள் இன்னும் அதைப் பார்க்கவில்லை, வெளியிடப்படும் முன் புதிய மதிப்பாய்வு தேவை.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>ரத்துசெய்</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>இந்தத் தலைப்புகள் மதிப்பாய்வில் உள்ளன. தற்போதைய பதிப்பை எழுதாத ஒருவர் வெளியிட்டதும் வாசகர்கள் அவற்றைப் பார்ப்பார்கள்.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76475,6 +77558,46 @@ You will need to change the class of the node by using the swap functionality.</
         <source>None.</source>
         <translation>எதுவுமில்லை.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>அங்கீகரிப்புப் பயன்பாட்டுடன்</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>மின்னஞ்சல் வழியான குறியீட்டுடன்</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>மீட்புக் குறியீட்டுடன்</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>கடவுச்சாவியுடன்</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>வெளிப்புறக் கணக்குடன்</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>பாதுகாப்புச் செயல்பாடு</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>அதன் வலையமைப்பாகக் காட்டப்படுகிறது; தளத்தின் தரவுப் பாதுகாப்பு அமைப்புகள் கூறுவதன்படி முகவரி சேமிக்கப்படுகிறது.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>பதிவு செய்யப்படவில்லை</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>இடம்</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>தோராயமாக</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76718,6 +77841,42 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Manage devices</source>
         <translation>சாதனங்களை நிர்வகி</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>அங்கீகரிப்புப் பயன்பாட்டுடன்</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>மின்னஞ்சல் வழியான குறியீட்டுடன்</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>மீட்புக் குறியீட்டுடன்</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>கடவுச்சாவியுடன்</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>வெளிப்புறக் கணக்குடன்</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>பாதுகாப்புச் செயல்பாடு</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>பதிவு செய்யப்படவில்லை</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>இடம்</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>தோராயமாக</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76797,6 +77956,14 @@ You will need to change the class of the node by using the swap functionality.</
         <source>View the sessions of this user</source>
         <translation>இந்தப் பயனரின் அமர்வுகளைக் காண்</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>%site தளத்தில் உள்ள உங்கள் கணக்கு %login மூலம், சமீபத்தில் உள்நுழையாத ஓர் இடத்திலிருந்து இப்போதுதான் உள்நுழைவு நடந்துள்ளது:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>தோராயமான இடம்</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76835,6 +78002,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%os இல் %browser</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>உள்நுழைவு அறிக்கை</translation>
     </message>
 </context>
 <context>
@@ -77043,6 +78214,82 @@ You will need to change the class of the node by using the swap functionality.</
         <source>The passkey could not be checked. Please try again.</source>
         <translation>கடவுச்சாவியைச் சரிபார்க்க முடியவில்லை. மீண்டும் முயற்சிக்கவும்.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>கடவுச்சாவிகள் மூலம் மட்டுமே உள்நுழையும் கணக்குகள் இங்கே கடவுச்சொல்லைப் பயன்படுத்த முடியாது: “கடவுச்சாவி மூலம் உள்நுழை” என்பதைத் தேர்ந்தெடுங்கள்.</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>%login இன் கடவுச்சாவிகள்</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>இந்தக் கணக்கு உள்நுழையும் கடவுச்சாவிகள். தொலைந்த அல்லது திருடப்பட்ட சாதனத்தில் உள்ளதைத் திரும்பப்பெறுங்கள்: அதனால் இனி உள்நுழைய முடியாது. புதியவற்றை உரிமையாளரே சேர்க்கிறார்.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>உங்கள் கணக்குக்கு ஒரு கடவுச்சாவி தேவை</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>உங்கள் கணக்கில் ஒரு கடவுச்சாவியைச் சேருங்கள்</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>தொடர ஒரு கடவுச்சாவியைச் சேருங்கள். பிறகு கடவுச்சொல் மட்டுமின்றி அதன் மூலம் உள்நுழைவீர்கள்.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>கடவுச்சாவி மூலம் உள்நுழைவது கடவுச்சொல்லை விட வேகமானது, பாதுகாப்பானது. இப்போதே ஒன்றைச் சேருங்கள், அல்லது அது இல்லாமல் தொடருங்கள்.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>இப்போது வேண்டாம்</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>“%name” என்ற கடவுச்சாவியைத் திரும்பப்பெறவா?</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>அதனால் இனி இந்தக் கணக்கில் உள்நுழைய முடியாது. அது கடைசியானதாக இருந்தால், உரிமையாளர் கடவுச்சொல் மூலம் உள்நுழைவார், அல்லது நீங்கள் புதியதை அமைப்பீர்கள்.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>கடவுச்சாவியைத் திரும்பப்பெறு</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>திரும்பப்பெறு</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>இந்தக் கணக்கில் கடவுச்சாவி இல்லை.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>அங்கீகரிப்பான்</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>தெரியாதது</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>உங்கள் கடைசி கடவுச்சாவி: அதை அகற்றும் முன் இன்னொன்றைச் சேருங்கள்.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>இந்தக் கணக்கு கடவுச்சாவிகள் மூலம் மட்டுமே உள்நுழைகிறது (கடவுச்சாவிக் கொள்கை): ஒன்றும் மிஞ்சவில்லை என்றால், மீண்டும் அதன் கடவுச்சொல் மூலம் உள்நுழையும்.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>இது உங்கள் கடைசி கடவுச்சாவி, அது இல்லாமல் உங்கள் கணக்கு உள்நுழைய முடியாது. முதலில் இன்னொரு கடவுச்சாவியைச் சேருங்கள்.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>“%name” என்ற கடவுச்சாவி திரும்பப்பெறப்பட்டது. அதனால் இனி இந்தக் கணக்கில் உள்நுழைய முடியாது.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77142,6 +78389,34 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Code from your authenticator app</source>
         <translation>உங்கள் அங்கீகரிப்புச் செயலியின் குறியீடு</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>நீங்கள் தரவை நிரந்தரமாக நீக்கவோ ஒரு பதிவேட்டை அழிக்கவோ போகிறீர்கள்.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>உங்கள் கடவுச்சொல்லும் ஒரு கடவுச்சாவியும்</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>உங்கள் கடவுச்சொல்லும் உங்கள் அங்கீகரிப்புச் செயலியின் குறியீடும்</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>அல்லது:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>இந்த உலாவியால் கடவுச்சாவிகளைப் பயன்படுத்த முடியாது. வேறு வழியையோ வேறு உலாவியையோ பயன்படுத்துங்கள்.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>நீங்கள் தொடரும்போது, உங்கள் உலாவி உங்கள் கடவுச்சாவிகளில் ஒன்றைக் கேட்கும்.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>கடவுச்சாவி மூலம் தொடர்</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77232,6 +78507,70 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Setup</source>
         <translation>அமைவு</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>தனது சொந்தக் கடவுச்சொல், மின்னஞ்சல் முகவரி, கடவுச்சாவிகள், இரு-படி உள்நுழைவு, மீட்புக் குறியீடுகள் அல்லது API சாவிகளை மாற்றுதல், தனது பிற சாதனங்களிலிருந்து வெளியேறுதல்.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>பயனர்கள், அவர்களின் கடவுச்சொற்கள், சாதனங்கள், கணக்கு அமைப்புகளை உருவாக்குதல், திருத்துதல், புதிய பயனர் கணக்குகளை ஏற்றல் அல்லது மறுத்தல், பங்குகளை ஒதுக்குதல், கொள்கைகளைத் திருத்துதல்.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>தரவை நீக்குதல்</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>குப்பையைக் காலியாக்குதல், அதிலிருந்து உருப்படிகளை அகற்றுதல், பல உருப்படிகளை ஒரே நேரத்தில் அகற்றுதல்.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>உள்ளடக்கத்தை அகற்றுதல், வெளியிடுதல், சேமித்தல்</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>உள்ளடக்கத்தை அகற்றுதல் (குப்பைக்கும்), வெளியிடுதல், வரைவைச் சேமித்தல்; படிவம் அனுப்பப்படும்போது கேட்கப்படும். இயல்பாக முடக்கப்பட்டுள்ளது.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>ஒரு முக்கியச் செயலுக்கு முன், உள்நுழைந்த பயனர் தாம் யார் என மீண்டும் உறுதிசெய்கிறார்: தமது கடவுச்சொல், ஒரு கடவுச்சாவி மூலம், அல்லது கடவுச்சாவி இல்லையெனில் தமது கடவுச்சொல், அங்கீகரிப்புச் செயலியின் குறியீடு மூலம். வலைப்பக்கங்கள் மட்டுமே கேட்கும்: REST இடைமுகம், SOAP, WebDAV, expservices உள்நுழைவு, கட்டளை வரி ஒருபோதும் கேட்காது.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>அமைப்புகள் எங்கே பொருந்தும்</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>இதற்கான அமைப்புகள்</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>ஒவ்வொரு தள அணுகலும்</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>தள அணுகல் %name</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>திற</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>யாரிடம் கேட்கப்படும்: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>அவற்றின் உறுப்பினர்களிடம் மட்டும் கேட்க பயனர் குழுக்களைக் குறியிடுங்கள் (எடுத்துக்காட்டாக, ஆசிரியர்கள்). எதுவும் குறியிடப்படவில்லை: ஒவ்வொரு பயனரும்.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>settings/override/site.ini.append.php இல், ஒவ்வொரு தள அணுகலுக்கும் சேமிக்கப்படும். சேமிக்கும்போது இது நீங்கள்தான் என உறுதிசெய்யக் கேட்கும்.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>settings/siteaccess/%name/site.ini.append.php இல் சேமிக்கப்படும். settings/override இல் உள்ள மதிப்புக்கு முன்னுரிமை உண்டு. சேமிக்கும்போது இது நீங்கள்தான் என உறுதிசெய்யக் கேட்கும்.</translation>
     </message>
 </context>
 <context>
@@ -77334,6 +78673,6822 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Open the page</source>
         <translation>பக்கத்தைத் திற</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%count இல் %from முதல் %to வரை</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>உள்நுழைவுப் பெயர் அல்லது பயனர் ஐடி: நிகழ்வு தொடர்புடைய கணக்கு அல்லது செயல்பட்ட பயனர்.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>கணக்கு</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>செயல்</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>பின்</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>எந்த முடிவும்</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>முன்</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>செய்தவர்</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>அழி</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>முடிந்தது</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>நிகழ்வுகள் %days நாட்களுக்கு வைக்கப்படும்.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>நிகழ்வுகள் கைமுறையாக அகற்றப்படும் வரை வைக்கப்படும்.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>நிகழ்வுகள்</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>எல்லாச் செயல்களும்</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>இந்தக் கணக்கின் எல்லா நிகழ்வுகளும்</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>பட்டியலை CSV ஆக ஏற்றுமதிசெய் (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>தோல்வியடைந்தது</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>முதல்</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>பட்டியலைச் சுருக்கு</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>எந்த நிகழ்வும் பொருந்தவில்லை.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>ஒரு பக்கத்துக்கு</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>audit.ini இல் ([UserAuditSettings] UserAudit) பதிவுசெய்தல் முடக்கப்பட்டுள்ளது; முன்பு பதிவுசெய்யப்பட்டவற்றைப் பட்டியல் காட்டுகிறது.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>மறுக்கப்பட்டது</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>முடிவு</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>காட்டு</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>பயனர் தணிக்கைப் பதிவின் அட்டவணை இல்லை. php update/common/scripts/6.0/createuseraudittable.php மூலம் அதை உருவாக்குங்கள்; அதுவரை தணிக்கைக் கோப்புகள் ஒவ்வொரு நிகழ்வையும் வைத்திருக்கும்.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>இந்தப் பக்கத்துக்கு SQL தரவுத்தளம் தேவை; இது MongoDB இல் கிடைக்காது. தணிக்கைக் கோப்புகள் ஒவ்வொரு நிகழ்வையும் வைத்திருக்கும்.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>வரை</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>பயனர் தணிக்கைப் பதிவு</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>பயனர்</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>எப்போது</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>எங்கே</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>எந்தக் கணக்கை யார் மாற்றினார், உருவாக்கினார், இயக்கினார், முடக்கினார், நகர்த்தினார் அல்லது அகற்றினார், யார் உள்நுழைந்தார் அல்லது மறுக்கப்பட்டார், எந்தப் பங்குகள் ஒதுக்கப்பட்டன: ஒரு நிகழ்வுக்கு ஒரு வரி, முன் மற்றும் பின் புலங்களுடன். கடவுச்சொற்களும் ரகசியங்களும் ஒருபோதும் பதிவுசெய்யப்படுவதில்லை.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>குழு</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>கணினி</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>தெரியாதது</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>உங்கள் கணக்கைப் பாதுகாக்கவும்</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>%site தளத்தில் உள்ள உங்கள் கணக்கு %login இல் உள்நுழைய ஒரு மீட்புக் குறியீடு பயன்படுத்தப்பட்டது.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>ஒரு மீட்புக் குறியீடு பயன்படுத்தப்பட்டது</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>கணக்கு</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>தோராயமான முகவரி</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>மீண்டும் உள்நுழையப் புதிய கடவுச்சொல்லைக் கோருங்கள், அல்லது தளத்தின் நிர்வாகிகளைத் தொடர்பு கொள்ளுங்கள்.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>புதிய கடவுச்சொல்லைக் கோரு</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>ஒவ்வொரு மீட்புக் குறியீடும் ஒருமுறை மட்டுமே வேலை செய்யும். உங்கள் தொலைபேசியை இழந்திருந்தால், உங்கள் அங்கீகரிப்புப் பயன்பாட்டை மீண்டும் அமைத்து, புதிய மீட்புக் குறியீடுகளைப் பாதுகாப்பான இடத்தில் வையுங்கள்.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>உங்கள் கணக்கில் தோல்வியடைந்த உள்நுழைவு முயற்சிகள்</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>இனிமேல் உள்நுழையும்போது உங்கள் கடவுச்சொல்லுடன் ஒரு குறியீடும் கேட்கப்படும். இதைச் செய்தது நீங்கள் என்றால், நீங்கள் எதுவும் செய்ய வேண்டியதில்லை.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>அது நீங்கள்தான், உங்கள் கடவுச்சொல்லை மறந்துவிட்டீர்கள் என்றால், புதியதைக் கோருங்கள். இல்லையெனில், வலுவான கடவுச்சொல்லைத் தேர்ந்தெடுத்து இரு-படி உள்நுழைவை இயக்குங்கள்.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>இது நீங்கள் இல்லையெனில், உங்கள் கடவுச்சொல் யாருக்கோ தெரிந்திருக்கலாம்: அதை இப்போதே மாற்றி, உங்கள் கணக்கு எங்கெல்லாம் உள்நுழைந்துள்ளது எனச் சரிபாருங்கள்.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>மீதமுள்ள மீட்புக் குறியீடுகள்</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>உங்கள் சாதனங்களை மதிப்பாய்வு செய்</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>பாதுகாப்பு எச்சரிக்கை</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>%site தளத்தில் உள்ள உங்கள் கணக்கு %login இல் யாரோ தவறான கடவுச்சொல்லுடன் தொடர்ச்சியாக %count முறை உள்நுழைய முயன்றனர்.</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>%site தளத்தில் உள்ள உங்கள் கணக்கு %login இல் ஒரு பாதுகாப்பு நிகழ்வு நடந்தது.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>இது உங்கள் கணக்கு பற்றிய பாதுகாப்பு எச்சரிக்கை. இதுபோன்ற ஒவ்வொரு மாற்றத்துக்கும் இது அனுப்பப்படும், இதை முடக்க முடியாது.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>நேரம்</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>%site தளத்தில் உள்ள உங்கள் கணக்கு %login க்கு இரு-படி உள்நுழைவு முடக்கப்பட்டது.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>இரு-படி உள்நுழைவு முடக்கப்பட்டது</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>%site தளத்தில் உள்ள உங்கள் கணக்கு %login க்கு இரு-படி உள்நுழைவு இயக்கப்பட்டது.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>இரு-படி உள்நுழைவு இயக்கப்பட்டது</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>பல உள்நுழைவுகள் தோல்வியடைந்ததால் %site தளத்தில் உள்ள உங்கள் கணக்கு %login பூட்டப்பட்டது.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>உங்கள் கணக்கு இப்போது உங்கள் கடவுச்சொல்லால் மட்டுமே பாதுகாக்கப்படுகிறது. இதைச் செய்தது நீங்கள் இல்லையெனில், உங்கள் கடவுச்சொல்லை மாற்றிய பின் இரு-படி உள்நுழைவை மீண்டும் இயக்குங்கள்.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>உங்கள் கணக்கு பூட்டப்பட்டது</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>%site இல் உள்ள உங்கள் %login கணக்கில் ஒரு கடவுச்சாவி சேர்க்கப்பட்டது.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>இந்தக் கடவுச்சாவியை வைத்திருக்கும் எவரும் உங்கள் கடவுச்சொல் இல்லாமல் உங்கள் கணக்கில் உள்நுழையலாம். நீங்கள் இதைச் சேர்க்கவில்லை என்றால், கடவுச்சாவிகள் பகுதியில் அதை அகற்றி உங்கள் கடவுச்சொல்லை மாற்றுங்கள்.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>%site இல் உள்ள உங்கள் %login கணக்கிலிருந்து ஒரு கடவுச்சாவி அகற்றப்பட்டது.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>அதனால் இனி உங்கள் கணக்கில் உள்நுழைய முடியாது. நீங்கள் அதை அகற்றவில்லை என்றால், உங்கள் கடவுச்சாவிகளையும் சாதனங்களையும் சரிபாருங்கள்.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>உங்கள் கணக்கில் ஒரு கடவுச்சாவி சேர்க்கப்பட்டது</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>உங்கள் கணக்கிலிருந்து ஒரு கடவுச்சாவி அகற்றப்பட்டது</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>பாதுகாப்புச் செயல்பாடு</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>%name இன் பாதுகாப்புச் செயல்பாடு</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>உள்நுழைந்தது</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>தோல்வியடைந்த உள்நுழைவு முயற்சி</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>வெளியேறியது</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>அமர்வுகள் வெளியேற்றப்பட்டன</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>புதிய சாதனத்திலிருந்து உள்நுழைவு</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>புதிய இடத்திலிருந்து உள்நுழைவு</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>அடையாளம் உறுதிசெய்யப்பட்டது (“இது நீங்கள்தான் எனச் சரிபாருங்கள்”)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>அடையாளச் சரிபார்ப்பு தோல்வியடைந்தது</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>கடவுச்சாவியுடன் உள்நுழைந்தது</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>கடவுச்சாவி உள்நுழைவு தோல்வியடைந்தது</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>உள்நுழைவு மறுக்கப்பட்டது: இரு-படிக் குறியீடு இல்லை அல்லது தவறானது</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>தவறான இரு-படிக் குறியீடு</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>தோல்வியடைந்த உள்நுழைவுகளுக்குப் பின் கணக்கு பூட்டப்பட்டது</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>கணக்கு திறக்கப்பட்டது</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>கடவுச்சொல் மாற்றப்பட்டது</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>கடவுச்சொல் மாற்றம் தோல்வியடைந்தது</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>கடவுச்சொல் மீட்டமைக்கப்பட்டது</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>புதிய கடவுச்சொல் கோரப்பட்டது</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>மின்னஞ்சல் முகவரி மாற்றப்பட்டது</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>பயனர்பெயர் மாற்றப்பட்டது</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>இரு-படி உள்நுழைவு இயக்கப்பட்டது</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>இரு-படி உள்நுழைவு முடக்கப்பட்டது</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>மீட்புக் குறியீடு பயன்படுத்தப்பட்டது</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>புதிய மீட்புக் குறியீடுகள்</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>ஆப் கடவுச்சொல் உருவாக்கப்பட்டது</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>ஆப் கடவுச்சொல் திரும்பப்பெறப்பட்டது</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>கடவுச்சாவி சேர்க்கப்பட்டது</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>கடவுச்சாவி அகற்றப்பட்டது</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>கணக்கு இயக்கப்பட்டது</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>கணக்கு முடக்கப்பட்டது</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>அனைத்தும்</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>உள்நுழைவுகளும் அமர்வுகளும்</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>கணக்கு மாற்றங்கள்</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>கவனம் தேவை</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>உங்களால்</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>பயனரால்</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>செய்தவர்: %login</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>முறை</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>உலாவி</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>இயக்க முறைமை</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>சாதனம்</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>இடம்</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>நாடு</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>அமர்வுகள்</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>எவை</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>அனுப்பிய வழி</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>தோல்வியடைந்த முயற்சிகள்</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>மீதமுள்ள குறியீடுகள்</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>உள்நுழைவு கையாளி</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>பாதுகாப்புச் செயல்பாடு</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>%name இன் பாதுகாப்புச் செயல்பாடு</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>உங்கள் கணக்கின் உள்நுழைவுகளும் பாதுகாப்பில் செய்யப்பட்ட மாற்றங்களும். நீங்கள் செய்யாத ஏதேனும் ஒன்றைக் கண்டால், உங்கள் கடவுச்சொல்லை மாற்றி, நீங்கள் அடையாளம் காணாத சாதனங்களை வெளியேற்றுங்கள்.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>இந்தக் கணக்கின் உள்நுழைவுகளும் பாதுகாப்பில் செய்யப்பட்ட மாற்றங்களும்.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>உங்கள் சாதனங்கள்</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>கடவுச்சொல்லை மாற்று</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>கணக்குக்குத் திரும்பு</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>பாதுகாப்புச் செயல்பாடு பதிவு செய்யப்படவில்லை</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>இது பயனர் தணிக்கைப் பதிவிலிருந்து படிக்கப்படுகிறது; அதன் அட்டவணை expuser_audit இல்லை அல்லது இந்தத் தரவுத்தளத்தில் ஆதரிக்கப்படவில்லை. php update/common/scripts/6.0/createuseraudittable.php ஐ இயக்குங்கள், அல்லது 6.0.15 இன் தரவுத்தளப் புதுப்பிப்பை இயக்குங்கள்.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>கடந்த %days நாட்கள்</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>கடந்த %days நாட்களில் உள்நுழைவுகள்</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>சமீபத்திய பாதுகாப்புச் செயல்பாடு</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>காட்டு</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>தோல்வியடைந்தது</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>மறுக்கப்பட்டது</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>இதுவரை எந்தப் பாதுகாப்புச் செயல்பாடும் பதிவு செய்யப்படவில்லை.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>பாதுகாப்பு நிகழ்வுகள் %days நாட்கள் வைக்கப்படுகின்றன.</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>ஒரு நிர்வாகி அகற்றும் வரை பாதுகாப்பு நிகழ்வுகள் வைக்கப்படுகின்றன.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>எனது உள்நுழைவுத் தரவைப் பதிவிறக்கு</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>உங்கள் அமர்வுகளும் பாதுகாப்பு நிகழ்வுகளும் JSON கோப்பாக.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>இந்தத் தளத்தில் அமர்வுகள் பதிவு செய்யப்படுவதில்லை, எனவே வேறு எந்தச் சாதனத்தையும் வெளியேற்ற முடியவில்லை. உடனே உங்கள் கடவுச்சொல்லை மாற்றவும்.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>பிற %count அமர்வுகள் வெளியேற்றப்பட்டன. இப்போது உங்கள் கடவுச்சொல்லை மாற்றவும்.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>வேறு எந்தச் சாதனமும் உள்நுழைந்திருக்கவில்லை. இப்போது உங்கள் கடவுச்சொல்லை மாற்றவும்.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>நன்றி. இந்த நிகழ்வு உங்களுடையது எனக் குறிக்கப்பட்டது.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>அந்த நிகழ்வுக்குப் பதில் தேவையில்லை.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>பக்கம் காலாவதியானது. எதுவும் மாற்றப்படவில்லை; மீண்டும் முயற்சிக்கவும்.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>உங்கள் கணக்கைப் பாதுகாக்கவும்</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>இங்குள்ள ஏதாவது நீங்கள் செய்யவில்லை என்றால், பிற எல்லாச் சாதனங்களையும் வெளியேற்றி, பிறகு புதிய கடவுச்சொல்லைத் தேர்ந்தெடுக்கவும். என்னை நினைவில் வைத்துக்கொள் மூலம் உள்நுழைந்தே இருக்கும் சாதனங்களும் வெளியேற்றப்படும்.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>இதைத் தவிர ஒவ்வொரு சாதனமும் அதன் அடுத்த கோரிக்கையில் வெளியேற்றப்படும். பிறகு நீங்கள் புதிய கடவுச்சொல்லைத் தேர்ந்தெடுக்கிறீர்கள்.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>ஆம், பிற சாதனங்களை வெளியேற்று</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>இது நீங்களா?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>ஆம், அது நான்தான்</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>இல்லை, என் கணக்கைப் பாதுகாக்கவும்</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>உள்நுழைந்தது</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>தோல்வியடைந்த உள்நுழைவு முயற்சி</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>வெளியேறியது</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>அமர்வுகள் வெளியேற்றப்பட்டன</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>புதிய சாதனத்திலிருந்து உள்நுழைவு</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>புதிய இடத்திலிருந்து உள்நுழைவு</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>அடையாளம் உறுதிசெய்யப்பட்டது (“இது நீங்கள்தான் எனச் சரிபாருங்கள்”)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>அடையாளச் சரிபார்ப்பு தோல்வியடைந்தது</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>கடவுச்சாவியுடன் உள்நுழைந்தது</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>கடவுச்சாவி உள்நுழைவு தோல்வியடைந்தது</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>உள்நுழைவு மறுக்கப்பட்டது: இரு-படிக் குறியீடு இல்லை அல்லது தவறானது</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>தவறான இரு-படிக் குறியீடு</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>தோல்வியடைந்த உள்நுழைவுகளுக்குப் பின் கணக்கு பூட்டப்பட்டது</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>கணக்கு திறக்கப்பட்டது</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>கடவுச்சொல் மாற்றப்பட்டது</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>கடவுச்சொல் மாற்றம் தோல்வியடைந்தது</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>கடவுச்சொல் மீட்டமைக்கப்பட்டது</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>புதிய கடவுச்சொல் கோரப்பட்டது</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>மின்னஞ்சல் முகவரி மாற்றப்பட்டது</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>பயனர்பெயர் மாற்றப்பட்டது</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>இரு-படி உள்நுழைவு இயக்கப்பட்டது</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>இரு-படி உள்நுழைவு முடக்கப்பட்டது</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>மீட்புக் குறியீடு பயன்படுத்தப்பட்டது</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>புதிய மீட்புக் குறியீடுகள்</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>ஆப் கடவுச்சொல் உருவாக்கப்பட்டது</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>ஆப் கடவுச்சொல் திரும்பப்பெறப்பட்டது</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>கடவுச்சாவி சேர்க்கப்பட்டது</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>கடவுச்சாவி அகற்றப்பட்டது</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>கணக்கு இயக்கப்பட்டது</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>கணக்கு முடக்கப்பட்டது</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>அனைத்தும்</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>உள்நுழைவுகளும் அமர்வுகளும்</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>கணக்கு மாற்றங்கள்</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>கவனம் தேவை</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>பாதுகாப்புச் செயல்பாடு</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>%name இன் பாதுகாப்புச் செயல்பாடு</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>உங்கள் கணக்கின் உள்நுழைவுகளும் பாதுகாப்பில் செய்யப்பட்ட மாற்றங்களும். நீங்கள் செய்யாத ஏதேனும் ஒன்றைக் கண்டால், உங்கள் கடவுச்சொல்லை மாற்றி, நீங்கள் அடையாளம் காணாத சாதனங்களை வெளியேற்றுங்கள்.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>உங்கள் சாதனங்கள்</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>கடவுச்சொல்லை மாற்று</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>இந்தத் தளத்தில் பாதுகாப்புச் செயல்பாடு இன்னும் பதிவு செய்யப்படவில்லை.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>கடந்த %days நாட்களில் உள்நுழைவுகள்</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>தோல்வியடைந்த முயற்சிகள்</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>இதுவரை எந்தப் பாதுகாப்புச் செயல்பாடும் பதிவு செய்யப்படவில்லை.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>எனது உள்நுழைவுத் தரவைப் பதிவிறக்கு</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>உங்கள் அமர்வுகளும் பாதுகாப்பு நிகழ்வுகளும் JSON கோப்பாக.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>இந்தத் தளத்தில் அமர்வுகள் பதிவு செய்யப்படுவதில்லை, எனவே வேறு எந்தச் சாதனத்தையும் வெளியேற்ற முடியவில்லை. உடனே உங்கள் கடவுச்சொல்லை மாற்றவும்.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>பிற %count அமர்வுகள் வெளியேற்றப்பட்டன. இப்போது உங்கள் கடவுச்சொல்லை மாற்றவும்.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>வேறு எந்தச் சாதனமும் உள்நுழைந்திருக்கவில்லை. இப்போது உங்கள் கடவுச்சொல்லை மாற்றவும்.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>நன்றி. இந்த நிகழ்வு உங்களுடையது எனக் குறிக்கப்பட்டது.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>அந்த நிகழ்வுக்குப் பதில் தேவையில்லை.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>பக்கம் காலாவதியானது. எதுவும் மாற்றப்படவில்லை; மீண்டும் முயற்சிக்கவும்.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>உங்கள் கணக்கைப் பாதுகாக்கவும்</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>இங்குள்ள ஏதாவது நீங்கள் செய்யவில்லை என்றால், பிற எல்லாச் சாதனங்களையும் வெளியேற்றி, பிறகு புதிய கடவுச்சொல்லைத் தேர்ந்தெடுக்கவும். என்னை நினைவில் வைத்துக்கொள் மூலம் உள்நுழைந்தே இருக்கும் சாதனங்களும் வெளியேற்றப்படும்.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>இதைத் தவிர ஒவ்வொரு சாதனமும் அதன் அடுத்த கோரிக்கையில் வெளியேற்றப்படும். பிறகு நீங்கள் புதிய கடவுச்சொல்லைத் தேர்ந்தெடுக்கிறீர்கள்.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>ஆம், பிற சாதனங்களை வெளியேற்று</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>இது நீங்களா?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>ஆம், அது நான்தான்</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>இல்லை, என் கணக்கைப் பாதுகாக்கவும்</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>கடவுச்சொல்</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>கடவுச்சொல்லும் இரு-படிக் குறியீடும்</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>REST இடைமுகம்</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>SOAP இடைமுகம்</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>ஒற்றை உள்நுழைவு</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>அமர்வுகள் பதிவு செய்யப்படுவதற்கு முன் உள்நுழைந்தது</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>உள்நுழைவு அறிக்கை</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>தளத்தில் யார் உள்நுழைந்துள்ளனர், கணக்குகள் எத்தனை முறை உள்நுழைகின்றன, தோல்வியடைகின்றன, மேலும் ஒரு பயனரை எல்லா இடங்களிலிருந்தும் வெளியேற்றுதல். இது எந்த அமர்வு கையாளியுடனும் வேலை செய்யும்.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>அமர்வு வெளியேற்றப்பட்டது. சாதனம் மீண்டும் உள்நுழைய வேண்டும்.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>%login, %count அமர்வுகளிலிருந்து வெளியேற்றப்பட்டார்.</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>%login க்கு இயங்கும் அமர்வு எதுவும் இல்லை.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>இந்த ID, பயனர்பெயர் அல்லது மின்னஞ்சல் முகவரி கொண்ட கணக்கு எதுவும் இல்லை.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>இது நீங்கள் பயன்படுத்தும் அமர்வு. அதை முடிக்க, வெளியேறுங்கள்.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>அந்த அமர்வு ஏற்கெனவே முடிந்துவிட்டது.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>பக்கம் காலாவதியாகிவிட்டது. எதுவும் மாற்றப்படவில்லை; தயவுசெய்து மீண்டும் முயலுங்கள்.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>இந்தத் தளத்தில் அமர்வுகள் பதிவு செய்யப்படுவதில்லை (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>expuser_session அட்டவணை இல்லை</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>அது உருவாக்கப்பட்டதும் அமர்வுகள் பதிவு செய்யப்படும்: php update/common/scripts/6.0/createusersessiontable.php, அல்லது 6.0.15 இன் தரவுத்தளப் புதுப்பிப்பு.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>இப்போதும் இன்றும்</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>இயங்கும் அமர்வுகள்</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>உள்நுழைந்துள்ள பயனர்கள்</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>இன்றைய உள்நுழைவுகள்</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>இன்றைய தோல்வியடைந்த முயற்சிகள்</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>ஒரு பயனரை எல்லா இடங்களிலிருந்தும் வெளியேற்று</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>கணக்கின் ஒவ்வொரு அமர்வும் அதன் அடுத்த கோரிக்கையில் முடிவடையும், “என்னை நினைவில் வைத்துக்கொள்” மூலம் வைக்கப்பட்டவையும் உட்பட. ஒரு கணக்கு தவறான கைகளில் இருக்கக்கூடும் என்றால் இதைப் பயன்படுத்துங்கள்; பின்னர் அதன் கடவுச்சொல்லை மீட்டமையுங்கள்.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>பயனர் ID, பயனர்பெயர் அல்லது மின்னஞ்சல் முகவரி</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>எல்லா இடங்களிலிருந்தும் வெளியேற்று</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>இப்போது உள்நுழைந்துள்ளவை</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>மிகச் சமீபத்தில் பயன்படுத்தப்பட்ட %limit காட்டப்படுகின்றன.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>பயனர்</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>சாதனம்</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>முகவரி</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>உள்நுழைந்தது</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>கடைசியாகச் செயலில்</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>செயல்கள்</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>இந்தச் சாதனம்</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>பதிவு செய்யப்படவில்லை</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>வெளியேற்று</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>எந்த அமர்வும் உள்நுழைந்திருக்கவில்லை.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>கடந்த %days நாட்கள்</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>உள்நுழைவுகளும் தோல்வியடைந்த முயற்சிகளும் பயனர் தணிக்கைப் பதிவிலிருந்து எண்ணப்படுகின்றன, அது இல்லை; புதிய அமர்வுகள் எண்ணப்படுகின்றன.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>நாள்</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>உள்நுழைவுகள்</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>தோல்வியடைந்த முயற்சிகள்</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>புதிய அமர்வுகள்</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>அமர்வு கையாளி: %handler. அமர்வுகள் expuser_session அட்டவணையிலிருந்து படிக்கப்படுகின்றன, எனவே அறிக்கை எந்தக் கையாளியுடனும் வேலை செய்யும்.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>கடந்த %hours மணிநேரத்தில் சந்தேகத்திற்குரிய செயல்பாடு</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>ஒரு பிணையம் %accounts கணக்குகளில் உள்நுழையத் தவறியது (%count முயற்சிகள்)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>தோல்வியடைந்த உள்நுழைவுகளுக்குப் பிறகு கணக்கு பூட்டப்பட்டது</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>ஒரு கணக்கில் %count தோல்வியடைந்த உள்நுழைவுகள்</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>ஒரே நேரத்தில் %count நாடுகளிலிருந்து உள்நுழைந்தது</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>பாதுகாப்புச் செயல்பாடு</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>அமர்வுகள்</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>தோல்வியடைந்த உள்நுழைவுகள் பயனர் தணிக்கைப் பதிவிலிருந்து படிக்கப்படுகின்றன, அது இங்கு கிடைக்கவில்லை.</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>சந்தேகத்திற்குரியது எதுவும் இல்லை: மீண்டும் மீண்டும் தோல்வியடைந்த உள்நுழைவுகள் கொண்ட கணக்கு இல்லை, பல கணக்குகளை முயற்சிக்கும் பிணையம் இல்லை, பல நாடுகளிலிருந்து உள்நுழைந்த கணக்கு இல்லை.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>உங்கள் கணக்குக்கான பாதுகாப்பு எச்சரிக்கை</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>உங்கள் கணக்கு %login இல் ஒரு பாதுகாப்பு நிகழ்வு நடந்தது: %event. இது நீங்கள் இல்லையெனில், %url என்ற முகவரியில் உங்கள் கணக்கைப் பாதுகாக்கவும்.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>அமைவு</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>இந்தத் தளத்தின் உள்ளடக்கத்திடம் ஒரு பக்கத்திற்குத் தேவையான புலங்களை மட்டும் சரியாக, ஒரே கோரிக்கையில் கேளுங்கள். ஸ்கீமா உள்ளடக்க வகுப்புகளைப் பின்பற்றுகிறது; ஒவ்வொரு வினவலும் அதை அனுப்பும் பயனரின் உரிமைகளுடன் இயங்குகிறது.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>இந்தத் தள அணுகலில் GraphQL API முடக்கப்பட்டுள்ளது. graphql.ini இல் இதை இயக்கவும்: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>GraphQL நூலகம் (webonyx/graphql-php 15) நிறுவப்படவில்லை.</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>முனைப்புள்ளி</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>நூலகம்</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>ஸ்கீமா</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>%count உள்ளடக்க வகுப்புகள், ஸ்கீமா %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>வினவல்</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>மாறிகள் (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>இயக்கு</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>பதில்</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>இயங்குகிறது…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>பதிலைப் படிக்க முடியவில்லை.</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>இந்த அமர்வில் உள்நுழைந்து, உங்கள் உரிமைகளுடன் வினவல் இயங்குகிறது.</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%seconds வி. இல் %count</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>வரம்பு இல்லை</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>ஆழம்</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>சிக்கலான தன்மை</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>பட்டியலுக்கான உருப்படிகள்</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (இயல்புநிலை %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>பயனர் அல்லது விசைக்கான கோரிக்கைகள்</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>அநாமதேய முகவரிக்கான கோரிக்கைகள்</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>சுயஆய்வு (introspection)</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>சேமிக்கப்பட்ட வினவல்கள் மட்டும்</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>மிகப்பெரிய வினவல்</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>%bytes பைட்டுகள்</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>மிகப்பெரிய பதிவேற்றம்</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>%siteaccess என்ற தள அணுகல் இல்லை.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>%siteaccess இல் மாற்றங்கள் இயக்கப்பட்டுள்ளன.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>%siteaccess இல் மாற்றங்கள் முடக்கப்பட்டுள்ளன.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>%siteaccess இல் GraphQL API இயக்கப்பட்டுள்ளது.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>%siteaccess இல் GraphQL API முடக்கப்பட்டுள்ளது.</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>அமைப்புகளை எழுத முடியவில்லை: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>பதில் தற்காலிகச் சேமிப்பு அழிக்கப்பட்டது: %count பதில்கள் நீக்கப்பட்டன.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>வினவலை நீக்க அதன் அருகிலுள்ள பெட்டியைத் தேர்வு செய்யவும்.</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>வினவலை நீக்க முடியவில்லை: PersistedQueryDirectoryList[] இன் ஒரு கோப்பகத்தில் வழங்கப்பட்ட வினவல் அதன் கோப்புடன் நீக்கப்படுகிறது.</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>சேமிக்கப்பட்ட வினவல் நீக்கப்பட்டது.</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>மாற்றங்கள்</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>இயக்கம்</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>முடக்கம்</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>தள அணுகல்கள்</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>API மற்றும் அதன் மாற்றங்கள் பதிலளிக்கும் இடங்கள். ./console exp:graphql:enable மற்றும் exp:graphql:disable செய்வது போலவே பொத்தான்கள் graphql.ini ஐ எழுதுகின்றன.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>தள அணுகல்</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>GraphQL API</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>மாற்று</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>முடக்கு</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>மாற்றங்களை முடக்கு</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>மாற்றங்களை இயக்கு</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>இயக்கு</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>வரம்புகள்</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>இந்தத் தள அணுகலின் graphql.ini [GraphQLSettings].</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>பதில் தற்காலிகச் சேமிப்பு</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>சேமிக்கப்பட்ட வினவல்களின் பதில்கள், பயனர் உரிமைகளின்படி வைக்கப்பட்டு, உள்ளடக்கம் வெளியிடப்படும் ஒவ்வொரு முறையும் காலாவதியாக்கப்படுகின்றன.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>நிலை</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>வைக்கப்பட்ட பதில்கள்</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>%count பதில்கள், %bytes பைட்டுகள்</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>அதிகபட்சம் வைக்கப்படும் காலம்</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds வி.</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>கடைசியாகக் காலாவதியானது</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>பதில் தற்காலிகச் சேமிப்பை அழி</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>சேமிக்கப்பட்ட வினவல்கள்</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>./console exp:graphql:persist மூலம் அல்லது கிளையண்டுகளால் (தானியங்கு சேமிக்கப்பட்ட வினவல்கள்) சேமிக்கப்படுகின்றன; பெயர் அல்லது SHA-256 மூலம் அழைக்கப்படுகின்றன.</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>பெயர்கள்</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>அளவு</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>இடம்</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>நீக்கு</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>வழங்கப்பட்டது</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>சேமிக்கப்பட்டது</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>ஆம், இந்த வினவலை நீக்கு</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>இன்னும் சேமிக்கப்பட்ட வினவல் இல்லை.</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>API விசைகள்</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>graphql:read (வினவல்கள்) அல்லது graphql:write (மாற்றங்கள்) வரம்புடைய தனிப்பட்ட API விசைகள். அவற்றை API அணுகல் பக்கத்தில் அல்லது ./console exp:graphql:keys மூலம் உருவாக்கவும் திரும்பப் பெறவும்.</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>API அணுகல்</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>அனைத்து விசைகள்</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>விசை</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>பெயர்</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>உரிமையாளர்</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>வரம்புகள்</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>கடைசியாகப் பயன்படுத்தியது</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>செயலில்</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>காலாவதி</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>திரும்பப் பெறப்பட்டது</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>ஒருபோதும் இல்லை</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>GraphQL வரம்புடைய API விசை இன்னும் இல்லை.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>இந்தப் பக்கத்தைக் காட்டும் தள அணுகல் %siteaccess இல் GraphQL API முடக்கப்பட்டுள்ளது; அது எங்கே பதிலளிக்கிறது என்பதைக் கீழே உள்ள அட்டவணை காட்டுகிறது.</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>இந்தப் பக்கத்தைக் காட்டும் தள அணுகல் %siteaccess க்கானது.</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>வெப்ஹூக்குகள்</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>ஒரு முனைப்புள்ளி கேட்கும் ஒவ்வொரு நிகழ்வும் (publish, update, trash, delete, move, hide, reveal, mutation) cronjob பகுதி graphqlwebhooks மூலம் கையொப்பமிடப்பட்டு அதற்கு அனுப்பப்படுகிறது. ./console exp:graphql:webhooks இந்தப் பிரிவு செய்வதையே செய்கிறது.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>நிகழ்வுகள்</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>அனைத்தும்</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>ஒவ்வொரு தள அணுகலும்</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>பழுதானது</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>ரகசியம் இல்லை</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>காத்திருப்பவை</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count கைவிடப்பட்டன</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>கடைசி அனுப்புகை</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>சோதனை அனுப்பு</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>ஆம், இந்த வெப்ஹூக்கை நீக்கு</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>இன்னும் வெப்ஹூக் இல்லை.</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>வெப்ஹூக்கைச் சேர்</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>சேர்</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>சமீபத்திய அனுப்புகைகள்</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>நேரம்</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>முடிவு</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>சந்தாக்கள்</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>கிளையண்டுகளுக்கான நேரலை புதுப்பிப்புகள்: /api/graphql/subscribe இல் ஒரு நிகழ்வு ஓட்டம், மற்றும் Velocity இல் ஒரு WebSocket (graphql-transport-ws). ஒவ்வொரு நிகழ்வும் அதன் உள்ளடக்கத்தைப் படிக்க அனுமதி உள்ள சந்தாதாரர்களுக்கு மட்டுமே செல்லும்.</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>இப்போது திறந்தவை</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>அதிகபட்சம் திறந்தவை</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>மொத்தம் %total, பயனருக்கு %user, முகவரிக்கு %address</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>அநாமதேய சந்தாக்கள்</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>ஓட்டத்தின் நீளம்</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>வெப்ஹூக்கைச் சேர்க்க முடியவில்லை: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>வெப்ஹூக் %name மாற்றப்பட்டது; அதன் கையொப்ப ரகசியம் மாறாது.</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>கையொப்ப ரகசியத்தைச் சேமிக்க முடியவில்லை (அமைவு &gt; ரகசியங்கள்).</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>வெப்ஹூக் %name சேர்க்கப்பட்டது. அதன் கையொப்ப ரகசியம், இந்த ஒரு முறை மட்டும் காட்டப்படுகிறது: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>%name என்ற வெப்ஹூக் இல்லை.</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>வெப்ஹூக் %name பதிலளிக்கவில்லை: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>வெப்ஹூக் %name %ms ms இல் %status எனப் பதிலளித்தது.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>வெப்ஹூக்கை நீக்க அதன் அருகிலுள்ள பெட்டியைத் தேர்வு செய்யவும்.</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>வெப்ஹூக் %name நீக்கப்பட்டது.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>இந்தத் தள அணுகலில் GraphQL API முடக்கப்பட்டுள்ளது.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>GraphQL நூலகம் நிறுவப்படவில்லை.</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>GET அல்லது POST ஐப் பயன்படுத்தவும்.</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>கோரிக்கையின் உள்ளடக்கம் ஒரு JSON பொருள் அல்ல.</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables ஒரு JSON பொருள் அல்ல.</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions ஒரு JSON பொருள் அல்ல.</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>வினவலை POST மூலம் அனுப்பவும்.</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>கோரிக்கையில் வினவல் இல்லை.</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>வினவல் %max பைட்டுகளை விட நீளமானது.</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>உள் சேவையகப் பிழை</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node க்கு id, remoteId, path, urlAlias ஆகியவற்றில் சரியாக ஒன்று தேவை.</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content க்கு id, remoteId ஆகியவற்றில் சரியாக ஒன்று தேவை.</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>after இன் கர்சர் இந்த API வழங்கியது அல்ல.</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>%alias என்ற பட மாற்றுப்பெயர் இல்லை (image.ini [AliasSettings] AliasList[]).</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>இங்கு சேமிக்கப்பட்ட வினவல்கள் மட்டுமே ஏற்கப்படும்: சேமிக்கப்பட்ட வினவலின் id ஐ அனுப்பவும்.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>சேமிக்கப்பட்ட வினவலின் ஹாஷ் ஒரு SHA-256 அல்ல.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>சேமிக்கப்பட்ட வினவலின் ஹாஷ் வினவலுடன் பொருந்தவில்லை.</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>அதிகமான கோரிக்கைகள்: %window விநாடிகளில் அதிகபட்சம் %limit. %reset விநாடிகளில் மீண்டும் முயலவும்.</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>வினவல் %depth நிலைகள் ஆழமானது; அதிகபட்சம் %max அனுமதிக்கப்படும்.</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>வினவலின் சிக்கலான தன்மை %complexity; அதிகபட்சம் %max அனுமதிக்கப்படும்.</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>இந்தக் கோரிக்கை ஸ்கீமாவைப் படிக்க முடியாது (introspection).</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search க்கு ஒரு உரை அல்லது ஒரு வடிகட்டி தேவை (classes, subtree, sections, publishedAfter, publishedBefore).</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument ஒரு தேதி அல்ல (ISO 8601, 2026-10-30).</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag க்கு id, remoteId, path ஆகியவற்றில் சரியாக ஒன்று தேவை.</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout க்கு id, identifier, urlAlias ஆகியவற்றில் சரியாக ஒன்று தேவை.</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>multipart கோரிக்கையின் operations புலம் ஒரு JSON கோரிக்கை அல்ல.</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>multipart கோரிக்கையின் map புலம் ஒரு JSON பொருள் அல்ல.</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>multipart கோரிக்கையில் %field கோப்பு இல்லை.</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>map புலத்தின் பாதை variables. உடன் தொடங்க வேண்டும்: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>%name கோப்பு முழுமையாக வந்து சேரவில்லை (பதிவேற்றப் பிழை %error).</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>%name கோப்பு %max பைட்டுகளை விடப் பெரியது.</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>%name கோப்பைச் சரிபார்க்க முடியவில்லை.</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>இந்தத் தள அணுகலில் மாற்றங்கள் (mutations) முடக்கப்பட்டுள்ளன (graphql.ini [GraphQLSettings] MutationsEnabled).</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>மாற்றத்தை POST மூலம் அனுப்பவும்.</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>உள்ளடக்கத்தை மாற்ற உள்நுழையவும்.</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>API விசைக்கு %scope வரம்பு இல்லை.</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>அமர்வுடன் கூடிய மாற்றத்திற்கு அமர்வின் படிவ டோக்கன் தேவை (தலைப்பு X-CSRF-Token).</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>uploadFromUrl முடக்கப்பட்டுள்ளது: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] எந்த ஹோஸ்ட்டையும் குறிப்பிடவில்லை.</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>முகவரி ஒரு https முகவரியாக இருக்க வேண்டும்.</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>%host ஹோஸ்ட் graphql.ini [GraphQLSettings] UploadFromUrlHostList[] இல் இல்லை.</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>கோப்பைப் பெற முடியவில்லை.</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload ஒரு உள்ளீட்டு வகை மட்டுமே.</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>Upload வகை மாறி ஒரு multipart கோரிக்கையின் கோப்பை ஏற்கிறது.</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>%remoteId என்ற remote id ஏற்கனவே பயன்பாட்டில் உள்ளது.</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>உள்ளடக்கத்திற்கு ஏற்கனவே %language மொழிபெயர்ப்பு உள்ளது: updateContent ஐப் பயன்படுத்தவும்.</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>குறைந்தது ஒரு புலத்தைக் கொடுக்கவும்.</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>புதிய பதிப்பை உருவாக்க முடியவில்லை (உள்ளடக்கத்திற்கு அதிகமான வரைவுகள் உள்ளன).</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>பதிப்பு %version ஒரு வரைவு அல்ல.</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent க்கு id மற்றும் nodeId இல் சரியாக ஒன்று தேவை.</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>ஒரு இருப்பிடத்தை அதற்குக் கீழேயே நகர்த்த முடியாது.</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>உள்ளடக்கத்திற்கு ஏற்கனவே %parentId இன் கீழ் ஒரு இருப்பிடம் உள்ளது.</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>%field புலத்தின் மதிப்பைச் சேமிக்க முடியவில்லை.</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>%language என்ற உள்ளடக்க மொழி இல்லை.</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>ஸ்கீமாவில் %class என்ற உள்ளடக்க வகுப்பு இல்லை.</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>உள்ளடக்கம் இல்லை, அல்லது அதைப் படிக்க உங்களுக்கு அனுமதி இல்லை.</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>இந்த உள்ளடக்கத்தில் இதைச் செய்ய உங்களுக்கு அனுமதி இல்லை.</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>%class வகுப்பில் எழுதக்கூடிய %field புலம் இல்லை.</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>%field புலம் இரண்டு முறை கொடுக்கப்பட்டுள்ளது.</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>%field புலம் ஒரு கோப்பை ஏற்கிறது: அதைப் பதிவேற்றமாக அனுப்பவும் (multipart கோரிக்கை).</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>%field புலம் கோப்பை ஏற்காது.</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>%field புலத்திற்கு ஒரு மதிப்பு தேவை.</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>%format வடிவம் செறிவான உரைப் புலங்களுக்கு மட்டுமே; %field தன் மதிப்பை உள்ளபடியே ஏற்கிறது (RAW).</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>%field புலம் கட்டாயம்.</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>HTML ஐப் படிக்க முடியவில்லை.</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content, version ஐ id உடன் மட்டுமே ஏற்கிறது.</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>முன்னோட்ட டோக்கன் செல்லாது அல்லது காலாவதியாகிவிட்டது.</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>இது ஒரு origin அல்ல (https://host அல்லது https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>GraphQL API இன் வரம்பு அல்ல: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>சந்தாக்களை /api/graphql/subscribe க்கு அனுப்பவும் (ஒரு நிகழ்வு ஓட்டம் அல்லது ஒரு WebSocket).</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>கோரிக்கை ஆவணத்தின் எந்தச் செயல்பாட்டையும் பெயரிடவில்லை.</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>ஒரு சந்தா சரியாக ஒரு புலத்தை மட்டுமே கேட்கும்.</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>அதிகமான சந்தாக்கள் திறந்துள்ளன; பின்னர் மீண்டும் முயலவும்.</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>உங்களிடம் %max சந்தாக்கள் திறந்துள்ளன, இதுவே அனுமதிக்கப்பட்ட அதிகபட்சம்.</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>உங்கள் முகவரியில் %max சந்தாக்கள் திறந்துள்ளன, இதுவே அனுமதிக்கப்பட்ட அதிகபட்சம்.</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>இந்தத் தள அணுகலில் சந்தாக்கள் முடக்கப்பட்டுள்ளன.</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>சந்தா செய்ய உள்நுழையவும் (ஒரு டோக்கன் அல்லது ஒரு தனிப்பட்ட API விசை).</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>மாற்றங்களை (mutations) /api/graphql க்கு அனுப்பவும்.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>நிறுவல் இடம்பெயர்வுகள்</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>நிலையைப் படிக்க முடியவில்லை: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>இடம்பெயர்வுகளின் அட்டவணைகள் இன்னும் இல்லை: ./console exp:upgrade --apply அவற்றை உருவாக்கும்.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>%count இடம்பெயர்வுகள் தோல்வியடைந்தன</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>ஓர் இயக்கம் நடைபெறுகிறது, %user தொடங்கியது</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>நிறுவல் பூட்டப்பட்டுள்ளது: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>நிலுவையில்</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>தோல்வியடைந்தவை</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>அனாதைகள்</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>கடைசி இயக்கம்</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>இன்னும் இல்லை</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>அனைத்து இடம்பெயர்வுகள்</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>உருவகப்படுத்தப்பட்ட இயக்கம்</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>சோதனை இயக்கம்</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>நிலுவையிலுள்ள இடம்பெயர்வுகள் பின்னர் திரும்பப்பெறப்பட்ட ஒரு பரிவர்த்தனையில் இயங்கின: எதுவும் வைக்கப்படவில்லை. ஒவ்வொன்றும் தரவுத்தளத்தில் என்ன மாற்றியது என்பது கீழே உள்ளது.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>இப்போது ஓர் இயக்கம் என்ன செய்யும் என்பது. எதுவும் மாற்றப்படாது: ஒவ்வொரு நிலுவை இடம்பெயர்வும் தான் செய்யும் மாற்றங்களைப் பட்டியலிடுகிறது, இயக்கம் முன்னும் பின்னும் என்ன செய்யும் என்பதையும் காட்டுகிறது.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>உருவகப்படுத்து</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>இயக்கு</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>சோதனை இயக்கம் தோல்வியடைந்தது: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>உருவகப்படுத்தலுக்கு PostgreSQL அல்லது SQLite தேவை, அவற்றின் அமைப்புமுறை மாற்றங்களைத் திரும்பப்பெற முடியும்; இந்தத் தரவுத்தளத்தில் கீழே உள்ள திட்டமே ஓர் இயக்கம் செய்வதாகும்.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>இடம்பெயர்வுகள்</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>இடம்பெயர்வின் பெயர்</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>நிலை</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>அது என்ன செய்யும்</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>உருவகப்படுத்தல்: %result, %ms மி.வி.யில்</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>இன்னும் இடம்பெயர்வு இல்லை.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>இயக்கத்திற்கு முன்னும் பின்னும்</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>முன் மீட்புப் புள்ளி</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>எடுக்கப்படும், ஓர் இடம்பெயர்வு தோல்வியடைந்தால் மீட்டமைக்கப்படும்</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>அணைக்கப்பட்டது</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>பின் மீட்புப் புள்ளி</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>இயக்கம் வெற்றிபெற்றால் எடுக்கப்படும்</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>%total இடம்பெயர்வுகள்: %pending நிலுவையில், %done முடிந்தவை, %failed தோல்வியடைந்தவை.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>இடம்பெயர்வு வரலாறு</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>ஒவ்வொரு இயக்கமும் அதன் பயனர், சூழல், மீட்புப் புள்ளிகள் மற்றும் கமிட், குறிச்சொல், அனுப்புதல் செய்யப்பட்டவற்றுடன். தோல்வியடைந்த அல்லது இடைநின்ற இயக்கத்தைத் தொடரலாம்; முன்பு மீட்புப் புள்ளி எடுக்கப்பட்ட இயக்கத்தைத் திரும்பப்பெறலாம்.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>இயக்கங்களைப் படிக்க முடியவில்லை: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>இடம்பெயர்வுகளின் அட்டவணைகள் இன்னும் இல்லை: ./console exp:upgrade --apply அவற்றை உருவாக்கும்.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>காட்டு</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>அனைத்தும்</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>இயக்கங்கள்</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>தொடங்கியது</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>செய்தவர்</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>மீட்புப் புள்ளிகள்</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>களஞ்சியம்</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>செயல்கள்</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>முன்</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>பின்</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>அனுப்புதல்: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>தொடர்</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>திரும்பப்பெறு</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>இந்த நிலையில் இயக்கம் இல்லை.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>இங்கே தொடங்கியவை</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>இந்தப் பக்கங்களில் தொடங்கப்பட்ட இயக்கங்கள், தொடர்தல்கள் மற்றும் திரும்பப்பெறுதல்கள், ஒவ்வொன்றின் அறிக்கையுடன்.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>என்ன</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>முடிவு</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>திரும்பப்பெறுதல்</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>%target ஐத் திரும்பப்பெறுதல்</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>இயக்கம் %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>இயக்கம் என்ன செய்தது, அதன் பதிவு மற்றும் அதன் பதிவேடு. இங்கே தொடங்கிய இயக்கம் இந்தப் பக்கம் மூடப்பட்டாலும் பின்னணியில் தொடரும்; அதைப் பின்தொடர பக்கத்தை மீண்டும் திறக்கவும்.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>இந்த இயக்கத்தைத் தொடர்</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>இந்த இயக்கத்தைத் திரும்பப்பெறு</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>பதிவைப் படிக்க முடியவில்லை: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>முன்னேற்றம்</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>%time அன்று %user தொடங்கியது.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>குறியீட்டைச் சரிபார்த்து இயக்கத்திற்கு முன் மீட்புப் புள்ளி எடுக்கப்படுகிறது</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>%id இயங்குகிறது (%total இல் %index)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>%total இல் %done முடிந்தன</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>இடம்பெயர்வுகள் இயங்கிவிட்டன; ஒன்று தோல்வியடைந்தால் மீட்புப் புள்ளி மீட்டமைக்கப்படுகிறது</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>இயக்கத்திற்குப் பின் மீட்புப் புள்ளி எடுத்தல், கமிட் செய்தல், குறிச்சொல் இடுதல் மற்றும் அனுப்புதல்</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>மீட்புப் புள்ளி மீட்டமைக்கப்படுகிறது</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>இயக்கம் முடிந்தது. அதன் அறிக்கை ஏற்றப்படுகிறது.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>முன்னேற்றத்தைப் பின்தொடர முடியவில்லை. இயக்கத்தின் நிலையைக் காண பக்கத்தை மீண்டும் ஏற்றவும்.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>இந்தப் பக்கம் இயக்கத்தை நடக்கும்போதே பின்தொடர்கிறது.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>மீண்டும் ஏற்று</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>அறிக்கை</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>நேரம்</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms மி.வி.</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>இயக்கம் பிழைகளாக அச்சிட்டவை</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>பதிவு</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>சூழல்</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>இல்லை</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>முடிந்தது</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>கமிட்</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>குறிச்சொல்</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>அனுப்புதல்</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>செய்தி</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>இந்த இயக்கத்தின் இடம்பெயர்வுகள்</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>மூலம்</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>இயக்கப் பதிவேடு</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>பதிவேட்டின் இறுதிப் பகுதி மட்டுமே காட்டப்படுகிறது.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>இயங்குகிறது</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>அறிக்கையின்றி முடிந்தது</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>வெற்றி</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>தோல்வி</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>மறுக்கப்பட்டது</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>தரவுத்தளத்தை அணுக முடியவில்லை</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>உள் பிழை</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>ஓர் இயக்கம் நடைபெறுகிறது</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind, %time அன்று %user தொடங்கியது.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>பின்தொடர்</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>நிறுவல் பூட்டப்பட்டுள்ளது</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>மற்றொரு இயக்கம் பூட்டை வைத்துள்ளது (ஒரு மேம்படுத்தல் அல்லது கன்சோலில் ஓர் இயக்கம்): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>முடிந்தது</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>நிலுவையில்</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>தேவையில்லை</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>தெரியாதது</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>திரும்பப்பெறப்பட்டது</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>பயன்படுத்தப்பட்டது</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>பயன்படுத்தப்படும்</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>திரும்ப எடுக்கப்பட்டது</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>திரும்ப எடுக்கப்படும்</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>இயக்கப்படவில்லை</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>மற்றொன்றுக்காகக் காத்திருக்கிறது</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>மாற்றம் ஏற்கப்பட்டது</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>மாற்றம் ஏற்கப்படும்</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>உருவகப்படுத்தப்பட்டது</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>நிறுவல் இடம்பெயர்வுகள்</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>நிலைமை</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>வரலாறு</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>%target ஐத் திரும்ப எடு</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>ஓர் இயக்கம் அதற்கு முன் எடுக்கப்பட்ட மீட்புப் புள்ளிக்குத் திரும்பப்பெறப்படுகிறது, ஓர் இடம்பெயர்வு அதன் down() மூலம். முந்தைய மீட்புப் புள்ளியை மீட்டமைப்பது வல்லுநர்களுக்கானது. ஒவ்வொன்றும் தற்போதைய நிலையின் மீட்புப் புள்ளிக்குப் பிறகு, உங்கள் பெயரில் பின்னணியில் இயங்கும்.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>எதைத் திரும்ப எடுக்கலாம் என்பதைப் படிக்க முடியவில்லை: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>ஓர் இயக்கம்</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>ஓர் இடம்பெயர்வு</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>முந்தைய மீட்புப் புள்ளி</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>விவரம்</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ஆம்</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>இல்லை</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>மீட்புப் புள்ளி</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>லேபிள்</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>எடுக்கப்பட்டது</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>வகை</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>மீட்டமைக்க வேண்டிய பகுதிகள்</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>தரவுத்தளம்</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>சேமிப்புக் கோப்புகள் (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>அமைப்புகள் (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>தரவுத்தளத்தை மீட்டமைப்பது அதை மீட்புப் புள்ளியின் நேரத்திற்குத் திருப்புகிறது, அமர்வுகள் உட்பட: பின்னர் மீண்டும் உள்நுழையக் கேட்கப்படலாம். அதன்பின் மாறிய அனைத்தும் இழக்கப்படும்; முதலில் தற்போதைய நிலையின் மீட்புப் புள்ளி எடுக்கப்படும்.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>இது எதை மீட்டமைக்கும் என எனக்குத் தெரியும்</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>மீட்புப் புள்ளியின் அடையாளத்தை மீண்டும் தட்டச்சு செய்யவும்</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>ஆம், திரும்ப எடு</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>ரத்துசெய்</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>முன்பு மீட்புப் புள்ளி எடுக்கப்பட்ட இயக்கங்கள்.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>தேர்ந்தெடு</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>மீட்புப் புள்ளியுடன் இன்னும் இயக்கம் இல்லை.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>தங்களைத் தாமே திரும்ப எடுக்கக்கூடிய பயன்படுத்தப்பட்ட இடம்பெயர்வுகள் (அவற்றுக்கு down() உள்ளது).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>பயன்படுத்தப்பட்ட எந்த இடம்பெயர்வுக்கும் down() இல்லை.</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>முந்தைய மீட்புப் புள்ளிகள் (வல்லுநர்கள்)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>இன்னும் மீட்புப் புள்ளி இல்லை.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>இடம்பெயர்வுகளை இயக்கு</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>இயக்கம் %user ஆகப் பின்னணியில் தொடர்கிறது, அதன் பக்கம் அதை நடக்கும்போதே காட்டுகிறது. முதல் இடம்பெயர்வுக்கு முன் நிறுவலின் மீட்புப் புள்ளி எடுக்கப்படும்; ஓர் இடம்பெயர்வு தோல்வியடைந்தால் இயக்கம் நின்று மீட்புப் புள்ளி மீட்டமைக்கப்படும்.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>முதலில் சோதனை இயக்கம்</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>நிலையைப் படிக்க முடியவில்லை: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>நிலுவையிலுள்ள இடம்பெயர்வுகள்</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>அவை இந்த வரிசையில் இயங்கும். ஒன்றையும் அதைச் சார்ந்தவற்றையும் பிந்தைய இயக்கத்திற்கு விட, அதன் தேர்வை நீக்கவும்.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>அதை இயக்கு</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>இயங்கும்போது பராமரிப்பு பயன்முறையை இயக்குகிறது.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>பயன்படுத்தப்பட்ட பின் மாற்றப்பட்டவை</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>இந்தக் கோப்புகள் பயன்படுத்தப்பட்டவை அல்ல. மாற்றம் ஒரு காரணத்துடன் ஏற்கப்படாவிட்டால் இயக்கம் அவற்றை மறுக்கும்; அவை மீண்டும் இயக்கப்படாது, புதிய சரிபார்ப்புத்தொகை பதிவுசெய்யப்பட்டு காரணம் தணிக்கைப் பதிவேட்டில் வைக்கப்படும்.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>மாற்றங்களை ஏற்றுக்கொள்</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>காரணம்</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>இயல்புநிலைகளே பாதுகாப்பானவை. ஒவ்வொரு பெட்டியும் ஒரு படியை விடுகிறது.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>மீட்புப் புள்ளி இல்லை</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>இயக்கத்திற்கு முன்னும் பின்னும் மீட்புப் புள்ளி இல்லை: தோல்வியைத் தானாக மீட்டமைக்க முடியாது.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>மீட்டமைப்பு இல்லை</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>தோல்விக்குப் பின், நிறுவலைத் தோல்வி விட்ட நிலையிலேயே விடு.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>கமிட் செய்யப்படாத மாற்றங்களை வை</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>அமைப்புகள், நீட்டிப்புகள் அல்லது வடிவமைப்புகளில் கமிட் செய்யப்படாத மாற்றங்கள் இருந்தாலும் இயக்கு; அவை மீட்புப் புள்ளியில் சேரும்.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>கமிட் இல்லை</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>நிலைக் கோப்பையும் இயக்கப் பதிவேட்டையும் கமிட் செய்ய வேண்டாம் (குறிச்சொல்லும் அனுப்புதலும் இல்லை).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>அனுப்புதல் இல்லை</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>கமிட் செய்து குறிச்சொல் இடு, ஆனால் அனுப்ப வேண்டாம்.</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>குறிச்சொல் இல்லை</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>கமிட் செய்து அனுப்பு, ஆனால் இயக்கத்திற்குக் குறிச்சொல் இட வேண்டாம்.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>ஆம், இந்த இடம்பெயர்வுகளை இப்போது இயக்கு</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>எந்த இடம்பெயர்வும் நிலுவையில் இல்லை.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>நிலைக்குத் திரும்பு</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>இந்த நிறுவலுக்கான மாற்றங்கள் ஒருமுறை கோப்புகளாக எழுதப்பட்டு (உள்ளடக்கம், வகுப்புகள், பாத்திரங்கள், அமைப்புகள், அமைப்புமுறை) தளத்தின் ஒவ்வொரு நிறுவலிலும் அதே வரிசையில் பயன்படுத்தப்படுகின்றன. ஓர் இயக்கம் முதலில் மீட்புப் புள்ளி எடுக்கிறது, ஓர் இடம்பெயர்வு தோல்வியடைந்தால் அதை மீட்டமைக்கிறது, செய்ததைப் பதிவுசெய்து, கமிட் செய்து அனுப்புகிறது.</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>நிலுவையிலுள்ள %count ஐ இயக்கு</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>மேலோட்டம்</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>நிலுவையில்</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>முடிந்தவை</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>தோல்வியடைந்தவை</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>தேவையில்லாதவை</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>தரவுத்தளம்</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>பரிவர்த்தனைகள்: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>தள இடம்பெயர்வுகள் migrations/ இல் உள்ளன, ஒரு நீட்டிப்பின் இடம்பெயர்வுகள் extension/&lt;name&gt;/migrations/ இல். அவை அவற்றின் பெயர்களின் வரிசையிலும் அவற்றுக்குத் தேவையானவற்றின்படியும் இயங்கும்.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>கடைசி இயக்கம்</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>பயன்படுத்தப்பட்ட பின் கோப்பு மாற்றப்பட்டது.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>இன்னும் இடம்பெயர்வு இல்லை. ./console exp:migration:generate --skeleton &lt;name&gt; --apply முதலாவதை எழுதும்.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>சமீபத்திய இயக்கங்கள்</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>அனைத்து இயக்கங்கள்</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>இன்னும் இயக்கம் இல்லை.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>இயக்கத்தை உருவகப்படுத்த migration/run கொள்கை தேவை.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>ஓர் இயக்கம் நடைபெறுகிறது: அது முடிந்ததும் உருவகப்படுத்தவும்.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>அமைவு</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target இந்த நிறுவலின் இயக்கமோ, இடம்பெயர்வோ, மீட்புப் புள்ளியோ அல்ல.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>முதலில் “ஆம், திரும்ப எடு” என்பதைத் தேர்வுசெய்யவும்.</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>முந்தைய மீட்புப் புள்ளியை மீட்டமைப்பது வல்லுநர்களுக்கானது: “இது எதை மீட்டமைக்கும் என எனக்குத் தெரியும்” என்பதைத் தேர்வுசெய்யவும்.</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>மீட்புப் புள்ளியின் அடையாளத்தை மீண்டும் தட்டச்சு செய்யவும்: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>மீட்டமைக்கக் குறைந்தது ஒரு பகுதியைத் தேர்ந்தெடுக்கவும்.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>இந்த இயக்கத்திற்கு முன் மீட்புப் புள்ளி எடுக்கப்படவில்லை: அதன் இடம்பெயர்வுகளை ஒவ்வொன்றாகத் திரும்ப எடுக்கவும், அல்லது முந்தைய மீட்புப் புள்ளியை மீட்டமைக்கவும்.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>இந்த இடம்பெயர்வைத் தனியாகத் திரும்ப எடுக்க முடியாது: அது பயன்படுத்தப்படவில்லை, அல்லது அதற்கு down() இல்லை.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>படிவத்தைப் படிக்க முடியவில்லை.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>தொடர வேண்டிய இயக்கத்தைத் தேர்ந்தெடுக்கவும்.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>முதலில் “ஆம், இந்த இடம்பெயர்வுகளை இப்போது இயக்கு” என்பதைத் தேர்வுசெய்யவும்.</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>குறைந்தது ஓர் இடம்பெயர்வைத் தேர்ந்தெடுக்கவும்.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>ஓர் இடம்பெயர்வு பயன்படுத்தப்பட்ட பின் மாறியது: மாற்றத்தை ஒரு காரணத்துடன் ஏற்கவும், அல்லது கோப்பைப் பழையபடி வைக்கவும்.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>மாற்றப்பட்ட இடம்பெயர்வுகள் ஏன் ஏற்கப்படுகின்றன என்பதற்கான காரணத்தைத் தரவும்.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>காரணம் அதிகபட்சம் 500 எழுத்துகள்.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>இங்கே தொடங்கிய ஓர் இயக்கம் இன்னும் நடைபெறுகிறது (%detail). அது முடியும் வரை காத்திருக்கவும்.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>மற்றொரு இயக்கம் நிறுவலின் பூட்டை வைத்துள்ளது: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>இயக்கத்திற்கு உள்நுழைந்த, இருக்கும் ஒரு பயனர் தேவை.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>php கட்டளை வரி நிரல் எதுவும் கிடைக்கவில்லை. migration.ini [AdminSettings] PhpCliPath இல் அதன் முழுப் பாதையை அமைக்கவும்.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open முடக்கப்பட்டுள்ளது, எனவே இங்கே இயக்கத்தைத் தொடங்க முடியாது. சேவையகத்தில் ./console exp:migration:migrate --apply ஐ இயக்கவும்.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>இயக்கங்களின் கோப்புறையில் எழுத முடியாது: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>இயக்கம் தொடங்கப்பட்டது, ஆனால் அதன் செயல்முறை அடையாளத்தைத் தெரிவிக்கவில்லை. %detail ஐச் சரிபார்க்கவும்.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>எதைத் திரும்ப எடுக்க வேண்டும் எனக் குறிப்பிடவும்.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>இயக்கத்தைத் தொடங்க முடியவில்லை.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>மாற்றங்களைப் பதிவுசெய்தல்</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>பதிவு நடக்கும்போது நிர்வாகத்திலோ தளத்தின் பக்கப்பட்டியிலோ நீங்கள் மாற்றுவது ஒரு இடம்பெயர்வின் படிகளாக வைக்கப்படும்: உள்ளடக்கம், வகுப்புகள், பாத்திரங்களும் கொள்கைகளும், பிரிவுகள், பயனர்களும் குழுக்களும், URL மாற்றுப்பெயர்கள், அமைப்புகள். முடிந்ததும் நிறுத்தி, அது என்ன பிடித்தது எனப் பார்த்து, அதிலிருந்து ஒரு இடம்பெயர்வை உருவாக்குங்கள்.</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>பதிவுகளைப் படிக்க முடியவில்லை: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>பதிவுகளின் அட்டவணைகள் இன்னும் இல்லை: முதலில் மேம்படுத்தலை இயக்குங்கள் (exp:upgrade --apply).</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>migration.ini இல் பதிவு அணைக்கப்பட்டுள்ளது ([RecordingSettings] Recording=disabled).</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>என் மாற்றங்கள்</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>நீங்கள் நிறுத்தும் வரை, நீங்கள் மாற்றுவதை மட்டும், எங்கு மாற்றினாலும், பதிவுசெய்கிறது.</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>பதிவு</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>%time முதல், இதுவரை %count மாற்றங்கள்.</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>லேபிள் (விருப்பம்)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>அது என்ன பிடித்தது எனக் காட்டு</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>பதிவை நிறுத்து</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>என் மாற்றங்களைப் பதிவுசெய்யத் தொடங்கு</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>முழுத் தளத்துக்கான சாளரம்</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>மூடப்படும் வரை ஒவ்வொரு பயனரின் மற்றும் கன்சோலின் ஒவ்வொரு மாற்றத்தையும் பதிவுசெய்கிறது. திறக்கும்போது நீங்கள்தான் என உறுதிசெய்யக் கேட்கப்படும்.</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>திறந்துள்ளது</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>சாளரத்தை மூடு</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>முழுத் தளத்துக்கான சாளரத்தைத் திற</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>பதிவுகள்</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>பயனரின் கணக்கு (உள்நுழைவுப் பெயர், மின்னஞ்சல், கடவுச்சொல்) மற்றும் பயனர் கணக்குகளின் புலங்கள் ஒருபோதும் பதிவுசெய்யப்படுவதில்லை.</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>மாற்றங்கள்</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>முழுத் தளம்</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>%name இன் மாற்றங்கள்</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>நிறுத்தப்பட்டது</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>இன்னும் பதிவு இல்லை.</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>பதிவு %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>எல்லாப் பதிவுகளும்</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>இதிலிருந்து உருவாகும் இடம்பெயர்வு</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>மாற்றப்பட்ட ஒவ்வொன்றுக்கும் ஒரு படியாகத் தொகுக்கப்பட்ட மாற்றங்கள்: இந்தப் பதிவிலிருந்து உருவாக்கப்படும் இடம்பெயர்வு செய்வது.</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>இந்த நிறுவலில் YAML படி வகைகள் %types இருக்கும்போது இதிலிருந்து இடம்பெயர்வை உருவாக்கலாம்.</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>வேண்டுமென்றே விடப்பட்டது: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>எதுவும் பதிவுசெய்யப்படவில்லை.</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>அது என்ன பிடித்தது</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>%count மாற்றங்கள், செய்யப்பட்ட வரிசையில்.</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>மாற்றம்</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>படி</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>தொடர்புடையது</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>மேலும் %count: ./console exp:migration:record:show அனைத்தையும் பட்டியலிடும்.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>நிராகரி</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>பதிவையும் அது பிடித்ததையும் நீக்குகிறது. மாற்றப்பட்டது மாற்றப்பட்டதாகவே இருக்கும்.</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>ஆம், இந்தப் பதிவை நிராகரி</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>பதிவுசெய்கிறது…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>உங்கள் மாற்றங்கள் ஒரு இடம்பெயர்வுக்காகப் பதிவுசெய்யப்படுகின்றன.</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>இந்தத் தளத்தின் ஒவ்வொரு மாற்றமும் ஒரு இடம்பெயர்வுக்காகப் பதிவுசெய்யப்படுகிறது (முழுத் தளத்துக்கான சாளரம்).</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>முழுத் தளப் பதிவு தொடங்கியது: நீங்கள் நிறுத்தும் வரை ஒவ்வொரு பயனரின் ஒவ்வொரு மாற்றமும் பதிவுசெய்யப்படும்.</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>பதிவு தொடங்கியது: நீங்கள் நிறுத்தும் வரை உங்கள் மாற்றங்கள் பதிவுசெய்யப்படும்.</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>பதிவு நிறுத்தப்பட்டது. அது பிடித்தது நீங்கள் நிராகரிக்கும் வரை இருக்கும்.</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>பதிவும் அதன் நிகழ்வுகளும் நீக்கப்பட்டன.</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>பதிவு %id இல்லை.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>முதலில் "ஆம், இந்தப் பதிவை நிராகரி" என்பதைத் தேர்வுசெய்யுங்கள்.</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>அமர்வுப் பதிவைப் பதிவுசெய்த பயனர் மட்டுமே நிறுத்தலாம்.</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>நிறுத்த வேண்டிய பதிவைத் தேர்ந்தெடுங்கள்.</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>இந்த வகைப் பதிவு ஏற்கனவே நடக்கிறது.</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>பதிவை மாற்ற முடியவில்லை: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>இடம்பெயர்வை உருவாக்கு</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>இடம்பெயர்வின் பெயர் (விருப்பத்தேர்வு)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>இடம்பெயர்வு %file எழுதப்பட்டது. எந்தப் படியாலும் செய்ய முடியாத மாற்றங்கள் கோப்பின் மேலே குறிப்பிடப்பட்டுள்ளன, கையால் செய்ய வேண்டும்.</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>எந்த இடம்பெயர்வும் எழுதப்படவில்லை: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>பகுதிகளாக ஒரு நீண்ட இயக்கம்</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>காலியான புலங்கள் migration.ini [RunSettings] இன் அமைப்புகளை வைத்திருக்கும்.</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>அதிகபட்சம் இத்தனை இடம்பெயர்வுகள்</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>இதற்குப் பிறகு மேலும் இடம்பெயர்வு இல்லை (விநாடிகள்)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>இடம்பெயர்வுகளுக்கு இடையே இடைநிறுத்தம் (விநாடிகள்)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>குறைந்த முன்னுரிமை (1 முதல் 19 வரை)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>நீண்ட இயக்கப் புலம் 1 இலிருந்து தொடங்கும் முழு எண் (இடைநிறுத்தம்: 0 முதல் 60 விநாடிகள், முன்னுரிமை: 1 முதல் 19), அல்லது காலி.</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>இது %time அன்று தானாக மூடப்படும்.</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>இதற்குப் பிறகு தானாக மூடு (நிமிடங்கள், விருப்பத்தேர்வு)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>நிமிடங்கள் 1 முதல் 44640 (31 நாட்கள்) வரையிலான முழு எண், அல்லது காலி.</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>இடம்பெயர்வு %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>புதிய இடம்பெயர்வு</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>ஒரு YAML இடம்பெயர்வு: அதை உரையாக எழுதவும் அல்லது படிவத்தில் அதன் படிகளை உருவாக்கவும், சரிபார்க்கவும், பின்னர் ஒரு இடம்பெயர்வுக் கோப்புறையில் சேமிக்கவும்.</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>இந்த இடம்பெயர்வு ஏற்கனவே இயங்கிவிட்டது, எனவே மீண்டும் சேமிக்கப்படாது: மாற்றப்பட்ட கோப்பைச் சரிபார்ப்புத்தொகைக் காவல் நிராகரிக்கும். மாற்றத்தை ஒரு புதிய இடம்பெயர்வில் செய்யவும்.</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>வலை சேவையகத்தால் கோப்பை எழுத முடியாது.</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>மேலே உள்ள கருத்து வரிகள் தலைப்பகுதி (description, author, requires, environments, engines). படிவத்தில் ஒரு படி சேர்க்கப்படும்போது அல்லது மாற்றப்படும்போது, இடம்பெயர்வு மீண்டும் எழுதப்படும்: படிகளுக்கு இடையிலான கருத்துகள் வைக்கப்படாது.</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>இடம்பெயர்வின் பெயர்</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>அது எங்கு செல்லும்</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>தளம்</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>YAML உரை</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>சரிபார்</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>சேமி</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>படிகள்</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>விசைகள்</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>திருத்து</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>மேலே நகர்த்து</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>கீழே நகர்த்து</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>அகற்று</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>இன்னும் படிகள் இல்லை: படிவத்தின் மூலம் ஒன்றைச் சேர்க்கவும், அல்லது உரையில் அவற்றை எழுதவும்.</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>படி %number ஐ மாற்று</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>ஒரு படியைச் சேர்</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>ஒரு படியின் படிவம் அதன் படி வகையிலிருந்து உருவாக்கப்படுகிறது: அதன் விசைகள், ஒவ்வொன்றும் ஏற்பவை மற்றும் அது சேரும் பயன்முறைகள்.</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>படி வகை</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>அதன் படிவத்தைக் காட்டு</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>இந்தப் படியில் அதன் வகை அறியாத விசைகள் உள்ளன; படி மாற்றப்படும்போது அவை விடுபடும்: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>பயன்முறை</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>இதில்</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>%modes இல் மட்டும்</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>இயல்புநிலை: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>நிபந்தனைகள், குறிப்புகள் மற்றும் கருத்து</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>காற்புள்ளிகளால் பிரிக்கப்பட்ட பெயர்=மதிப்பு இணைகள். இந்தப் படியின் மதிப்புகள்: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>எடுத்துக்காட்டு</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>படியை மாற்று</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>படியைச் சேர்</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>exp:migration:check கூறுவது: தலைப்பகுதி, ஆவணம் மற்றும் அதன் படி வகையால் சரிபார்க்கப்பட்ட ஒவ்வொரு படியும்.</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>இடம்பெயர்வு சரிபார்ப்பில் தேர்ச்சி பெற்றது.</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>முன்னோட்டம்</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>சேமிக்கப்படும் வடிவில் YAML.</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>YAML ஐக் காட்டு</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>YAML இடம்பெயர்வுகள்</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>இயங்கிவிட்டது</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>இன்னும் YAML இடம்பெயர்வுகள் இல்லை.</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>திருத்தி</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>இடம்பெயர்வுக் கோப்புறைகளில் YAML இடம்பெயர்வு %id இல்லை.</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>ஒரு படி வகையைத் தேர்ந்தெடுக்கவும்.</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>படி சேர்க்கப்பட்டது. சேமிக்கும் முன் இடம்பெயர்வைச் சரிபார்க்கவும்.</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>படி மாற்றப்பட்டது. சேமிக்கும் முன் இடம்பெயர்வைச் சரிபார்க்கவும்.</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>ஒரு படியைத் தேர்ந்தெடுக்கவும்.</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>இந்தப் படிக்குப் படிவம் இல்லை (ஒரு சுழற்சி, அல்லது இந்த நிறுவலில் இல்லாத ஒரு படி வகை): அதை உரையில் மாற்றவும்.</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>இடம்பெயர்வு எங்கு செல்லும் எனத் தேர்ந்தெடுக்கவும்: தளம் அல்லது செயலில் உள்ள ஒரு நீட்டிப்பு.</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>%file சேமிக்கப்பட்டது. இடம்பெயர்வு இயங்கும் முன் ஒரு சோதனை இயக்கத்தை இயக்கவும்.</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>சேமிக்கப்படவில்லை: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>தொலைநிலைகள்</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>இந்த நிறுவல் தன் இடம்பெயர்வுகளை வரிசைப்படுத்தும் மற்ற நிறுவல்கள்: ஒரு வரிசைப்படுத்தல் இடம்பெயர்வுகளைத் தேர்ந்தெடுத்த தொலைநிலைகளுக்கு அனுப்பி, அங்கே அனைத்தையும் ஒரே நேரத்தில் ஒத்திசைவுடன் இயக்குகிறது. ஒரு தொலைநிலை ஒருபோதும் ரகசியத்தை வைத்திருப்பதில்லை: அதன் நற்சான்று அமைவு &gt; ரகசியங்கள் இல் உள்ள ஒன்றைக் குறிப்பிடுகிறது.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>புதிய தொலைநிலை</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>உதவி</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>%id இன் இணைப்புச் சோதனை</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>அனைத்துத் தொலைநிலைகளும்</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>ஒரே நேரத்தில் %parallel தொலைநிலைகள் வரை கையாளப்படுகின்றன; ஒவ்வொன்றிலும் ஒரு படிநிலை %timeout வினாடிகள் வரை ஆகலாம்.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>தொலைநிலை</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>முகவரி</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>நற்சான்று</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>குழுக்கள்</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>சரிசெய்ய வேண்டிய அமைப்புகள்</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>கோப்புகள் மட்டும் (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>SSH விசை</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>கடவுச்சொல்</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>எதுவுமில்லை (ஹோஸ்டின் SSH முகவரும் விசைகளும்)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>இணைப்பைச் சோதி</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>ஒரு குழுவுக்கான வரிசைப்படுத்தல் அதன் ஒவ்வொரு தொலைநிலைக்கும் செல்கிறது.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>தொலைநிலைகளுக்கு வரிசைப்படுத்து</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>இன்னும் எந்தத் தொலைநிலையும் அமைக்கப்படவில்லை.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>தொலைநிலை %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>இங்கே எதுவும் அனுப்பப்படுவதோ இயக்கப்படுவதோ இல்லை: சேமி அமைப்புகளை settings/override/migration.ini.append.php இல் எழுதுகிறது. நற்சான்று ஒரு பெயர்; அதன் மதிப்பு அமைவு &gt; ரகசியங்கள் இல் அல்லது சூழலில் இருக்கும்.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>இந்த அமைப்புகளைச் சரிபாருங்கள்</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>உள்ளிட்டபடியே அமைப்புகள், இன்னும் சேமிக்கப்படவில்லை.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>மதிப்பாய்வு</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>அமைப்புகள் செல்லுபடியானவை. இந்த வரிகள் எழுதப்படும்:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>பரிமாற்றம்</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>ஒரு பெயர் மட்டும்; மதிப்பு அமைவு &gt; ரகசியங்கள் இல் இருக்கும்</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>எழுதப்படும் வரிகள்</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>இணைப்பு</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>ஹோஸ்ட் விசை</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. தொலைநிலை</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>தொலைநிலையின் பெயர் என்ன, அது எந்தச் சூழல்.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>அடையாளம்</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>எழுத்துகள், இலக்கங்கள், - மற்றும் _, எடுத்துக்காட்டாக production1. இது அறிக்கைகளிலும் கன்சோலிலும் (--remotes=production1) தொலைநிலையைக் குறிக்கிறது, பின்னர் மாற்ற முடியாது.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... கட்டங்களாக நடக்கும் வரிசைப்படுத்தல் சூழல்களை இந்த வரிசையில் கடந்து செல்கிறது.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>விருப்பத்தேர்வு, காற்புள்ளிகளால் பிரிக்கப்பட்டவை, எடுத்துக்காட்டாக production. ஒரு குழுவுக்கான வரிசைப்படுத்தல் அதன் ஒவ்வொரு தொலைநிலைக்கும் செல்கிறது.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. இணைப்பு</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>கோப்புகள் அங்கே எப்படிச் சேர்கின்றன, நிறுவல் எங்கே உள்ளது.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>SSH வழியாக, மாறியவை மட்டும், தடைபட்ட பரிமாற்றம் தொடரப்படும். rsync நிறுவப்பட்ட இடங்களில் சிறந்த தேர்வு.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>கோப்புகளுக்கு scp உடன் SSH.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>கோப்புகளுக்கு sftp உடன் SSH.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>கோப்புகள் மட்டும்: இடம்பெயர்வுகள் அனுப்பப்பட்டு மீண்டும் படிக்கப்படுகின்றன, ஆனால் அங்கே இயக்க முடியாது.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>TLS மீது FTP; கோப்புகள் மட்டும்.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>இந்தச் சேவையகத்தில், ஒரு கோப்புறையில் உள்ள மற்றொரு நிறுவல்.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>ஹோஸ்ட்</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>ஒரு ஹோஸ்ட் பெயர் அல்லது முகவரி, எடுத்துக்காட்டாக node1.example.com. local க்கு அல்ல.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>போர்ட்</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>காலியாக: SSH க்கு 22, FTP க்கு 21.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>பயனர்</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>பாதை</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>அங்குள்ள நிறுவலின் மூலக் கோப்புறை, எடுத்துக்காட்டாக /var/www/site (FTP க்கு: FTP கணக்கு பார்க்கும் பாதை).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>PHP கட்டளை வரி</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>அங்குள்ள PHP CLI: php, அல்லது /opt/plesk/php/8.4/bin/php போன்ற முழுப் பாதை.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>கன்சோல் ஸ்கிரிப்ட்கள் அங்கே root ஆக இயங்குகின்றன</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>தொலைநிலையின் பயனர் root ஆக இருக்கும்போது மட்டும் (அப்போது அவை --allow-root-user உடன் இயக்கப்படும்).</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. நற்சான்று</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>இந்த நிறுவல் அங்கே எப்படி உள்நுழைகிறது. ஒரு பெயர் மட்டுமே சேமிக்கப்படுகிறது.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>எதுவுமில்லை</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>இந்த நிறுவல் இயங்கும் பயனரின் SSH முகவரும் விசைகளும் (local க்கு எப்போதும்).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>ரகசியமாக வைக்கப்பட்ட தனிப்பட்ட விசை.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>ரகசியமாக வைக்கப்பட்ட கடவுச்சொல் (FTP அதைக் கொண்டு உள்நுழைகிறது).</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>ரகசியத்தின் பெயர்</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>அமைவு &gt; ரகசியங்கள் இல் உள்ள ஒரு ரகசியம், எடுத்துக்காட்டாக deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>அமைவு &gt; ரகசியங்கள்</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>அல்லது ஒரு சூழல் மாறி</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>அதை வைத்திருக்கும் சேவையகச் செயல்முறையின் மாறி, எடுத்துக்காட்டாக DEPLOY_KEY (env:DEPLOY_KEY எனச் சேமிக்கப்படும்). இது ரகசியப் பெயருக்குப் பதிலாக வருகிறது.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. ஹோஸ்ட் விசை</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>விருப்பத்தேர்வு, SSH, sftp மற்றும் rsync க்கு.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>ஹோஸ்ட் விசையின் கைரேகை</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... வடிவில், ssh-keygen -l அச்சிடுவது போல. இது இருந்தால், ஹோஸ்ட் இந்த விசையைக் காட்ட வேண்டும்; இல்லையெனில், முதல் தொடர்பில் விசை கற்றுக்கொள்ளப்படும்.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. மதிப்பாய்வு</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>மேலே உள்ள அமைப்புகளுடன் இணைப்பைச் சோதியுங்கள், பின்னர் எழுதப்படும் வரிகளை மதிப்பாய்வு செய்யுங்கள்.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>இந்தத் தொலைநிலையை அகற்று</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>அதன் அமைப்புகள் settings/override/migration.ini.append.php இலிருந்து நீக்கப்படுகின்றன. தொலைநிலையில் எதுவும் மாறாது, அதன் வரிசைப்படுத்தல்கள் வரலாற்றில் இருக்கும்.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>ஆம், இந்தத் தொலைநிலையை அகற்று</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>வரிசைப்படுத்தல்கள்</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>ஒரு வரிசைப்படுத்தல் இந்த நிறுவலின் இடம்பெயர்வுகளைத் தேர்ந்தெடுத்த தொலைநிலைகளுக்கு அனுப்பி, அங்கே %user ஆக அனைத்தையும் ஒரே நேரத்தில் ஒத்திசைவுடன் இயக்குகிறது: முதலில் ஒவ்வொரு தொலைநிலையும் சரிபார்க்கப்படுகிறது, ஒன்று தோல்வியுற்றால் பயன்படுத்திய ஒவ்வொரு தொலைநிலையும் திரும்பப்பெறப்படுகிறது. இது பின்னணியில் நடைபெறுகிறது, அதன் பக்கம் ஒவ்வொரு தொலைநிலையையும் நடக்கும்போதே காட்டுகிறது.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. தொலைநிலைகள்</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>தொலைநிலைகள், ஒரு குழு அல்லது இரண்டையும் தேர்வுசெய்யுங்கள்.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>அதற்கு வரிசைப்படுத்து</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. எப்படி</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>வரிசைப்படுத்து</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>அனுப்பி இயக்கு</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>இடம்பெயர்வுகள் ஒவ்வொரு தொலைநிலைக்கும் அனுப்பப்பட்டு, சரிபார்க்கப்பட்டு, ஒரே பகிர்ந்த இயக்க அடையாளத்துடன் இயக்கப்படுகின்றன.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>பரிமாற்றம் மட்டும்</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>கோப்புகள் அனுப்பப்பட்டுச் சரிபார்க்கப்படுகின்றன, எதுவும் இயக்கப்படுவதில்லை (FTP தொலைநிலைக்கு ஒரே வழி).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>கட்டங்களாக</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>சூழல்களின் வரிசையில் (dev, stage, beta, production ...) கட்டம் கட்டமாக: முதல் கட்டம் வரிசைப்படுத்தப்படுகிறது, பின்னர் யாராவது அடுத்ததை அங்கீகரிக்கும் வரை ஒரு வாயில் காத்திருக்கிறது. ஒவ்வொரு கட்டத்துக்குள்ளும் அனைத்தும் அல்லது எதுவுமில்லை.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>இந்த இடம்பெயர்வுகள் மட்டும்</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>விருப்பத்தேர்வு: இடம்பெயர்வு அடையாளங்கள், காற்புள்ளிகளால் பிரிக்கப்பட்டவை. காலியாக: தளம் மற்றும் அதன் நீட்டிப்புகளின் ஒவ்வொரு இடம்பெயர்வும்.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>முன்சோதனை மட்டும்</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>ஆம், இப்போது வரிசைப்படுத்து</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>எதையாவது அனுப்பிய அல்லது இயக்கிய வரிசைப்படுத்தல்கள், புதியது முதலில் (முன்சோதனை அறிக்கை எதையும் வைத்திருப்பதில்லை).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>பரிமாற்றம் மட்டும்</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>கட்டங்களாக, %stages கட்டங்கள்</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>ஒத்திசைவில் இல்லை</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>இன்னும் வரிசைப்படுத்தல் இல்லை.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>வரிசைப்படுத்தல் %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>வரிசைப்படுத்தலின் ஒவ்வொரு தொலைநிலையும் அதன் நிலையுடன். இங்கே தொடங்கிய வரிசைப்படுத்தல் இந்தப் பக்கம் மூடப்பட்டாலும் பின்னணியில் தொடர்கிறது; அதைப் பின்தொடர பக்கத்தை மீண்டும் திறங்கள்.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>அனைத்து வரிசைப்படுத்தல்களும்</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>முன்சோதனை</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>அடுத்த கட்டம்</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>அமைப்புகளும் நற்சான்றுகளும் சரிபார்க்கப்படுகின்றன</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>முன்சோதனை: ஒவ்வொரு தொலைநிலையின் நிலையும் படிக்கப்படுகிறது</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>இடம்பெயர்வுக் கோப்புகள் அனுப்பப்படுகின்றன</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>வந்தவை சரிபார்க்கப்படுகின்றன</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>ஒவ்வொரு தொலைநிலையிலும் இடம்பெயர்வுகள் இயக்கப்படுகின்றன</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>தொலைநிலைகள் திரும்பப்பெறப்படுகின்றன</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>வரிசைப்படுத்தல் முடிந்தது. அதன் அறிக்கை ஏற்றப்படுகிறது.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>முன்னேற்றத்தைப் பின்தொடர முடியவில்லை. வரிசைப்படுத்தல் எப்படிப் போகிறது என்று பார்க்கப் பக்கத்தை மீண்டும் ஏற்றுங்கள்.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>படிநிலை</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>இந்தப் பக்கம் வரிசைப்படுத்தலை அது நடக்கும்போதே பின்தொடர்கிறது.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>ஒத்திசைவில்</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>கட்டங்கள்</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>கட்டம் %stage தன் வாயிலில் காத்திருக்கிறது</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>வாயில் %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>%time இல் %user அங்கீகரித்தார்</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>கட்டம்</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>அனுப்பிய கோப்புகள்</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>கர்னல் பதிப்பு</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>பயன்படுத்தப்பட்டவை: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>பயன்படுத்த வேண்டியவை: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>படிநிலைகள்</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>வாயில்: %stages இல் கட்டம் %stage</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>அதற்கு முந்தைய கட்டங்கள் வரிசைப்படுத்தப்பட்டுள்ளன. அவற்றைச் சரிபார்த்து, பின்னர் அடுத்த கட்டத்தை அங்கீகரியுங்கள்: அதன் தொலைநிலைகள் மீண்டும் சரிபார்க்கப்பட்டு வரிசைப்படுத்தப்படும், அனைத்தும் அல்லது எதுவுமில்லை.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>அடுத்து</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>ஆம், அடுத்த கட்டத்தை இப்போது வரிசைப்படுத்து</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>அங்கீகரி</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>இந்த வரிசைப்படுத்தலைத் திரும்பப்பெறு</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>அதைப் பயன்படுத்திய ஒவ்வொரு தொலைநிலையும் (%list) தன் இயக்கத்துக்கு முன் எடுத்த மீட்புப் புள்ளிக்கு, அனைத்தும் ஒரே நேரத்தில், திரும்புகிறது.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>ஆம், இந்த வரிசைப்படுத்தலை இப்போது திரும்பப்பெறு</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>திட்டமிடப்பட்டது</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>பரிமாற்றப்பட்டது</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>வரிசைப்படுத்தப்பட்டது</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>ஒரு வாயிலில் காத்திருக்கிறது</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>தேர்ந்தெடுக்கப்பட்டவை</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>தயாரிக்கப்பட்டது</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>தயார்</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>தன் கட்டத்துக்காகக் காத்திருக்கிறது</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>கோப்புகள் அனுப்பப்பட்டன</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>சரிபார்க்கப்பட்டது</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>தோல்வி, தானாக மீட்டமைந்தது</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>மாற்றமில்லை</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>வரிசைப்படுத்தப்படவில்லை</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>அணுக முடியவில்லை</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>தொலைநிலை பதிலளித்தது.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>தொலைநிலையை இப்போது பயன்படுத்த முடியாது.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done முடிந்தது, %pending நிலுவையில், %failed தோல்வி</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>பூட்டு</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>ஓர் இயக்கம் அங்கே பூட்டை வைத்துள்ளது</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>காலி</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stages இல் %stage</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>சோதிக்க வேண்டிய தொலைநிலையைத் தேர்ந்தெடுங்கள்.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>முதலில் “ஆம், இந்தத் தொலைநிலையை அகற்று” என்பதைத் தேர்வுசெய்யுங்கள்.</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>தொலைநிலையை அகற்ற முடியவில்லை: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>தொலைநிலையைச் சேமிக்க முடியவில்லை: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>அமைப்புக் கோப்பைப் படிக்க முடியாது: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>குறைந்தது ஒரு தொலைநிலை அல்லது குழுவைத் தேர்ந்தெடுங்கள்.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>தேர்ந்தெடுத்த ஒரு தொலைநிலை இனி அமைப்புகளில் இல்லை. பக்கத்தை மீண்டும் ஏற்றுங்கள்.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>முதலில் “ஆம், இப்போது வரிசைப்படுத்து” என்பதைத் தேர்வுசெய்யுங்கள்.</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>FTP தொலைநிலை இடம்பெயர்வுகளை இயக்க முடியாது: “பரிமாற்றம் மட்டும்” என்பதைத் தேர்ந்தெடுங்கள், அல்லது அதை விட்டுவிடுங்கள்.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>வரிசைப்படுத்த வேண்டிய இடம்பெயர்வுகள் காற்புள்ளிகளால் பிரிக்கப்பட்ட இடம்பெயர்வு அடையாளங்கள்.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>வரிசைப்படுத்தல் இன்னும் நடைபெறுகிறது. அது முடியும் வரை காத்திருங்கள்.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>இந்த வரிசைப்படுத்தல் எந்த வாயிலிலும் காத்திருக்கவில்லை.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>எந்தத் தொலைநிலையும் இந்த வரிசைப்படுத்தலைப் பயன்படுத்தவில்லை: திரும்பப்பெற எதுவும் இல்லை.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>முதலில் “ஆம், அடுத்த கட்டத்தை இப்போது வரிசைப்படுத்து” என்பதைத் தேர்வுசெய்யுங்கள்.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>முதலில் “ஆம், இந்த வரிசைப்படுத்தலை இப்போது திரும்பப்பெறு” என்பதைத் தேர்வுசெய்யுங்கள்.</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>%id என்ற அடையாளத்துடன் ஒரு தொலைநிலை ஏற்கெனவே உள்ளது.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>போர்ட் என்பது 1 முதல் 65535 வரையிலான எண்.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>சூழல் என்பது எழுத்துகள், இலக்கங்கள், - மற்றும் _ கொண்ட ஒரு சொல் (alpha, dev, stage, beta, production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>குழு என்பது எழுத்துகள், இலக்கங்கள், - மற்றும் _ கொண்ட ஒரு சொல் (all அல்ல): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>நற்சான்றை இப்போது படிக்க முடியாது: %problem. முதல் வரிசைப்படுத்தலுக்கு முன் அதை அமைவு &gt; ரகசியங்கள் இல் சேமியுங்கள் (அல்லது மாறியை அமையுங்கள்).</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>FTP தொலைநிலை கோப்புகளை மட்டுமே பெறுகிறது: அதற்கான வரிசைப்படுத்தல் “பரிமாற்றம் மட்டும்” ஆகும், அதன் இடம்பெயர்வுகள் அங்கே கைமுறையாக இயக்கப்படுகின்றன.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>%id என்ற தொலைநிலை settings/override/migration.ini.append.php இல் இல்லை; அது அமைக்கப்பட்ட இடத்தில் அதை அகற்றுங்கள்.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>FTP வழியாக உள்நுழைந்து index.php படிக்கப்பட்டது. FTP தொலைநிலையின் இடம்பெயர்வு நிலையைப் படிக்க முடியாது.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>மாற்றப்பட்டது</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>உருவாக்கப்பட்டது</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>பெயர்</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>வகுப்பு</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>பிரிவு</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>உருவாக்கியவர்</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>சமீபத்திய உள்ளடக்கம்</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>முழு தளத்தின் மிகச் சமீபத்தில் உருவாக்கப்பட்ட மற்றும் மாற்றப்பட்ட உள்ளடக்கம், புதியவை முதலில்: பார்வையாளர்கள் சமர்ப்பித்தவை, மதிப்பாய்வுக்காக நிறுத்திவைக்கப்பட்டவை, வெளியீட்டுக்காகக் காத்திருக்கும் வரைவுகள். உருப்படிகளைத் தேர்ந்தெடுத்து அவற்றை விடுவிக்கவும், நிறுத்திவைக்கவும், மறைக்கவும், வெளிப்படுத்தவும், அகற்றவும் அல்லது வேறு பிரிவுக்கோ நிலைக்கோ நகர்த்தவும்.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>பட்டியலைப் படிக்க முடியவில்லை: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>மதிப்பாய்வுக்கான நிறுத்திவைப்பு இன்னும் அமைக்கப்படவில்லை, எனவே எதுவும் நிறுத்திவைக்கப்படவில்லை, நிறுத்திவைப்புச் செயல்களும் வழங்கப்படவில்லை. மேம்படுத்தல் படி 6.0.15-review-hold இதை அமைக்கிறது: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>பட்டியலை வடிகட்டு</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>இருந்து</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>வரை</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>தேதி</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>உருவாக்கப்பட்டது (முதல் வெளியீடு)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>அனைத்தும்</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>நிலை</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>வெளியிடப்பட்டது</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>வரைவு, ஒருபோதும் வெளியிடப்படவில்லை</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>நிலுவையில் (ஒப்புதல் அல்லது ஒரு தேதிக்காகக் காத்திருக்கிறது)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>குப்பையில்</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>மதிப்பாய்வுக்காக நிறுத்திவைக்கப்பட்டது</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>நிறுத்திவைக்கப்பட்டது</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>நிறுத்திவைக்கப்படவில்லை</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>மறைக்கப்பட்டது</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>தெரிவது</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>சமர்ப்பித்த தேதி</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>எந்தத் தள அணுகலும்</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>தணிக்கை பதிவுசெய்தவை மட்டும்.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>இப்போது: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>ஒரு உள்நுழைவுப் பெயர் அல்லது ஒரு பயனர் அடையாள எண்.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>வடிகட்டி</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>வடிகட்டிகளை அழி</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>உருப்படிகள்</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%count இல் %from முதல் %to வரை</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>உருப்படி இல்லை</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(%ms மி.வி.யில் படிக்கப்பட்டது)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>தேர்ந்தெடுத்த உருப்படிகளின் மீதான செயல்கள்</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>இந்தப் பக்கத்தில் அனைத்தையும் தேர்ந்தெடு</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>%count தேர்ந்தெடுக்கப்பட்டன</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>செயல்</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>ஒரு செயலைத் தேர்ந்தெடு</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>நிறுத்திவைப்பை விடுவி</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>மதிப்பாய்வுக்காக நிறுத்திவை</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>மறை</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>வெளிப்படுத்து</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>குப்பைக்கு நகர்த்து</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>நீக்கு</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>பிரிவை ஒதுக்கு</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>நிலையை ஒதுக்கு</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>காரணம்</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>நிறுத்திவைக்கத் தேவை; நிறுத்திவைப்புடனும் தணிக்கையிலும் வைக்கப்படும்.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>ஒரு பிரிவைத் தேர்ந்தெடு</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>நிலை</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>ஒரு நிலையைத் தேர்ந்தெடு</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>தேர்ந்தெடுத்தவற்றுக்குப் பயன்படுத்து</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>ஒவ்வொரு உருப்படியும் உங்கள் சொந்த அனுமதிகளுடன் சரிபார்க்கப்படுகிறது. குப்பைக்கு நகர்த்துவதும் நீக்குவதும் உங்களிடம் உறுதிப்படுத்தல் கேட்கின்றன. %count க்கும் மேற்பட்ட உருப்படிகள் பின்னணியில் இயங்குகின்றன.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>தேர்ந்தெடு</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>வெளியீடு</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>சமர்ப்பித்த இடம்</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>%name ஐத் தேர்ந்தெடு</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>இன்னும் இல்லை</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(பெயர் இல்லை)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>அடையாள எண் %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>வரைவு</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>நிலுவையில்</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>அதன் பெற்றோரால் மறைக்கப்பட்டது</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>நிறுத்திவைக்கப்பட்டது: புதிய சமர்ப்பிப்பு</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>பதிப்பு %version நிலுவையில்</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>பதிப்பு %version செயலில் உள்ளது</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>வரைவு, பதிப்பு %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>பதிப்பு %version வெளியிடப்பட்டது</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>%date க்குத் திட்டமிடப்பட்டது</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>முகவரி இல்லை</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>பதிவுசெய்யப்படவில்லை</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>இந்த வடிகட்டிகளுடன் எதுவும் பொருந்தவில்லை.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>அனைத்தையும் காட்டு</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>இன்னும் உள்ளடக்கம் இல்லை.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>ஒரு பக்கத்திற்கு</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>ஒரு பக்கத்திற்கு %count உருப்படிகளைக் காட்டு.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says &quot;not recorded&quot;.</source>
+        <translation>ஒரு சமர்ப்பிப்பின் முகவரியும் உலாவியும் தணிக்கை அட்டவணையிலிருந்து வருகின்றன, அது இங்கே கிடைக்கவில்லை: நெடுவரிசையில் &quot;பதிவுசெய்யப்படவில்லை&quot; எனக் காட்டப்படும்.</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>முகவரியும் உலாவியும் உருப்படிக்காகத் தணிக்கை பதிவுசெய்தவை (தானியங்கு நிறுத்திவைப்பு அவற்றை எப்போதும் பதிவுசெய்கிறது; வெளியிடுதலும் உருவாக்குதலும் இயக்கப்பட்ட இடங்களில் மட்டும்), அதன் தனியுரிமை அமைப்புகள் அவற்றை வைத்திருக்கும் விதத்தில்.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: %count உருப்படிகள்</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>நீக்குவது உருப்படிகளை அவற்றின் அனைத்துப் பதிப்புகள் மற்றும் மொழிபெயர்ப்புகளுடன் நிரந்தரமாக அகற்றும். இதைச் செயல்தவிர்க்க முடியாது.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>உருப்படிகள் குப்பைக்குச் செல்கின்றன, அங்கிருந்து அவற்றை மீட்டெடுக்கலாம்.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>ஒவ்வொரு உருப்படியும் உங்கள் சொந்த அனுமதிகளுடன் சரிபார்க்கப்படுகிறது; துணை உருப்படிகள் உள்ள உருப்படி அப்படியே விடப்படும் (அதை உள்ளடக்க அமைப்பில் அகற்றவும்). அது நீங்கள்தான் என்பதைச் சரிபார்க்கக் கேட்கப்படுவீர்கள்.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>இது பின்னணியில் இயங்குகிறது: அதன் முன்னேற்றப் பக்கம் திறக்கும், முடிந்ததும் ஒவ்வொரு உருப்படியின் முடிவும் காட்டப்படும்.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>தேர்ந்தெடுத்த உருப்படிகள்</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>மேலும் %count</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>ரத்துசெய்</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>எதுவும் செய்யப்படவில்லை</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>காரணம்: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>செயல் இன்னும் பின்னணியில் இயங்குகிறது.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>அதன் முன்னேற்றம்</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>பின்னணிச் செயல் தோல்வியடைந்தது: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>முடிந்தது</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>மறுக்கப்பட்டது</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>தோல்வியடைந்தது</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>ஒவ்வொரு உருப்படிக்கும்</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>உருப்படி</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>முடிவு</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>ஏன்</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>பட்டியலுக்குத் திரும்பு</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>அமைவு</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>எதுவும் செய்யப்படவில்லை</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>உறுதிசெய்</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>ஒரு செயலைத் தேர்ந்தெடுக்கவும்.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>குறைந்தது ஒரு உருப்படியைத் தேர்ந்தெடுக்கவும்.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>ஒரே நேரத்தில் அதிகபட்சம் 1000 உருப்படிகளைத் தேர்ந்தெடுக்கவும்.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>உருப்படிகள் ஏன் நிறுத்திவைக்கப்படுகின்றன என்று கூறவும்.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>பிரிவைத் தேர்ந்தெடுக்கவும்.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>நிலையைத் தேர்ந்தெடுக்கவும்.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>படிவத்தைப் படிக்க முடியவில்லை.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>டாஷ்போர்டு</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>சமீபத்திய உள்ளடக்கம்</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>எண்ணிக்கைகளைப் படிக்க முடியவில்லை: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>மதிப்பாய்வுக்காக நிறுத்திவைக்கப்பட்டது</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>இன்று புதியவை</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>மதிப்பாய்வுக்கான நிறுத்திவைப்பு இன்னும் அமைக்கப்படவில்லை (மேம்படுத்தல் படி 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>அனைத்துச் சமீபத்திய உள்ளடக்கமும்</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>நீங்கள் நெறிப்படுத்தல் செயல்களை இயக்க முடியாது (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>நெறிப்படுத்தல் செயல் முழுமையடையவில்லை: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>நெறிப்படுத்தல்: %count பொருள்களில் %action</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%total இல் %done பொருள்கள்: %ok முடிந்தன, %refused மறுக்கப்பட்டன, %failed தோல்வியடைந்தன</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok முடிந்தன, %refused மறுக்கப்பட்டன, %failed தோல்வியடைந்தன</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>இது இனி இல்லை.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>இதற்கு இருப்பிடம் இல்லை (வெளியிடப்படவில்லை).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>நீங்கள் இதை மறைக்க முடியாது (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>நீங்கள் இதை வெளிப்படுத்த முடியாது (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>இது ஏற்கனவே மறைக்கப்பட்டுள்ளது.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>இது மறைக்கப்படவில்லை.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>மறைக்கப்பட்டது.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>வெளிப்படுத்தப்பட்டது.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>இது குப்பையில் உள்ளது: அங்கே குப்பையைக் காலிசெய்யவும் அல்லது இதை மீட்டெடுக்கவும்.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>ஒருபோதும் வெளியிடப்படாத வரைவு குப்பைக்குச் செல்ல முடியாது: அதை நீக்கவும்.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>நீங்கள் இதை நீக்க முடியாது (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>நீக்கப்பட்டது.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>நீங்கள் இதை அகற்ற முடியாது (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>இதற்குத் துணை உருப்படிகள் உள்ளன: அவை பட்டியலிடப்பட்டுள்ள உள்ளடக்க அமைப்பில் இதை அகற்றவும்.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>இது அகற்றப்படவில்லை (ஒரு பணிப்பாய்வு அகற்றலை நிறுத்திவைக்கலாம்).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>குப்பைக்கு நகர்த்தப்பட்டது.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>பிரிவு இல்லை.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>இது ஏற்கனவே இந்தப் பிரிவில் உள்ளது.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>நீங்கள் இந்தப் பிரிவை ஒதுக்க முடியாது (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>பிரிவு ஒதுக்கப்படவில்லை.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>பிரிவு ஒதுக்கப்பட்டது.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>நிலை இல்லை.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>இது ஏற்கனவே இந்த நிலையில் உள்ளது.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>நீங்கள் இந்த நிலையை ஒதுக்க முடியாது (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>நிலை ஒதுக்கப்படவில்லை (ஒரு பணிப்பாய்வு மாற்றத்தை நிறுத்திவைக்கலாம்).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>நிலை ஒதுக்கப்பட்டது.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>அப்படி ஒரு செயல் இல்லை.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>மதிப்பாய்வுக்கான நிறுத்திவைப்பு அமைக்கப்படவில்லை (மேம்படுத்தல் படி 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>இது ஏன் நிறுத்திவைக்கப்படுகிறது என்று கூறவும்.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>இது ஏற்கனவே நிறுத்திவைக்கப்பட்டுள்ளது.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>நீங்கள் இதை நிறுத்திவைக்க முடியாது (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>நிறுத்திவைப்பு இடப்படவில்லை (ஒரு பணிப்பாய்வு மாற்றத்தை நிறுத்திவைக்கலாம்).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>நிறுத்திவைக்கப்பட்டது.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>இது நிறுத்திவைக்கப்படவில்லை.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>நீங்கள் இதை விடுவிக்க முடியாது (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>நிறுத்திவைப்பு விடுவிக்கப்படவில்லை (ஒரு பணிப்பாய்வு மாற்றத்தை நிறுத்திவைக்கலாம்).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>விடுவிக்கப்பட்டது; இன்னும் மறைக்கப்பட்டுள்ளது: நீங்கள் இதை வெளிப்படுத்த முடியாது (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>விடுவிக்கப்பட்டது.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>அனைத்து இலக்குகளும்</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>கடைசி வெளியீடு</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>உங்கள் தளத்தின் இலவச நிலையான நகலை GitHub Pages இல் வெளியிடுங்கள்:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>காலாவதியான பக்கங்கள்</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>நிலையான வெளியீடு</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>நிலையான வெளியீடு அணைக்கப்பட்டுள்ளது.</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>இலக்கு</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>இலக்குகளைப் படிக்க முடியவில்லை: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>ஒரு பணி நடந்துகொண்டிருக்கிறது</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>சரிபார்க்க வேண்டிய உருவாக்கம்</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>இதை மறை</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>ஓர் இலக்கை உருவாக்கு</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>ஒருபோதும் இல்லை</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>பயிற்சி வழிகாட்டியைப் படி</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>%added சேர்க்கப்பட்டன, %changed மாற்றப்பட்டன, %removed நீக்கப்பட்டன</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%limit இல் %bytes (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>மேலும் %count பட்டியலிடப்படவில்லை.</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>%pages பக்கங்கள் எழுதப்பட்டன</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path இன் அளவு %size, இது ஒரு கோப்புக்கு வழங்கி அனுமதிப்பதை விட அதிகம்.</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>வரம்பின் %percent %</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds வி</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag என்பது தளத்தில் இப்போது உள்ள வெளியீடு.</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: பணி %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>/களஞ்சியம்/ GitHub திட்டத் தளத்துக்கு; சொந்த டொமைன் அல்லது பயனர் தளத்துக்குக் காலியாக விடுங்கள்.</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. தளம்</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. வழங்கி</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. களஞ்சியத்தில் உள்நுழைதல்</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. களஞ்சியம்</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. இணைப்புகளும் அடிப்படைப் பாதையும்</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. உங்கள் சொந்த டொமைன்</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. உருவாக்கத்தில் என்ன உள்ளது</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. எப்போது வெளியிடப்படுகிறது</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. மதிப்பாய்வு செய்து சேமி</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>GitHub திட்டத் தளம் /&lt;repository&gt;/ இன் கீழ் இருக்கும்; சார்பு இணைப்புகள் அங்கும் வேறு எங்கும் வேலை செய்யும்.</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>ஓர் உருவாக்கம் %site இன் ஒவ்வொரு பக்கத்தையும் உள்நுழையாத பார்வையாளர் பார்ப்பது போலவே பெற்று, இணைப்புகளை மாற்றி எழுதி, கோப்புகளை நகலெடுத்து, முடிவை இலக்கின் கோப்புறையில் எழுதுகிறது. நீங்கள் உருவாக்கத்தைச் சரிபார்த்து வெளியிடு என்பதை அழுத்தும் வரை எதுவும் வெளியிடப்படாது.</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>ஒரு cron கோவை, எடுத்துக்காட்டாக 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>வரிசைப்படுத்தல் விசை %secret என்ற ரகசியமாக வைக்கப்படுகிறது.</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>வரிசைப்படுத்தல் விசை இந்த நிறுவலை SSH வழியாக ஒரே ஒரு களஞ்சியத்துக்கு மட்டும் அனுப்ப அனுமதிக்கிறது, வேறெங்கும் இல்லை. அதன் தனிப்பட்ட பாதி அமைவு &gt; ரகசியங்கள் இல் இருக்கும்; பொதுப் பாதி மட்டுமே காட்டப்படும்.</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>இந்த இலக்குக்காக உருவாக்கப்பட்ட வரிசைப்படுத்தல் விசை</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>வரிசைப்படுத்தல் விசை SSH வழியாக உள்நுழைகிறது: git முகவரியை SSH முகவரியாக மாற்றுங்கள் (git@github.com:owner/repo.git).</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>%user தொடங்கிய ஒரு பணி நடந்துகொண்டிருக்கிறது</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>இந்த இலக்கின் ஒரு பணி இன்னும் நடந்துகொண்டிருக்கிறது (%detail). அது முடியும் வரை காத்திருங்கள்.</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>இந்த இலக்கின் ஒரு பணி இன்னும் நடந்துகொண்டிருக்கிறது. அது முடியும் வரை காத்திருங்கள்.</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>/news/ பக்கத்திலிருந்து /about-us/team பக்கத்துக்கான இணைப்பு இவ்வாறு எழுதப்படும்</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>புதிய வரிசைப்படுத்தல் விசை உருவாக்கப்பட்டது. அதன் பொதுப் பாதியை இப்போதே களஞ்சியத்தில் சேருங்கள்.</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>அகற்றுதலுக்குப் பிறகும் பிழைத்திருத்த வெளியீடு, படிவ டோக்கன் அல்லது அமர்வு அடையாளம் கொண்ட பக்கம் ஒருபோதும் வெளியிடப்படாது.</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>திரும்பப்பெறுதல் நிபுணர்களுக்கானது: &quot;இது என்ன மாற்றும் என்று எனக்குத் தெரியும்&quot; என்பதைத் தேர்வுசெய்து குறிச்சொல்லின் பெயரை மீண்டும் தட்டச்சு செய்யுங்கள்.</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>ஒரு தளம் %site வரையும், ஒரு கோப்பு %file வரையும் இருக்கலாம், மாதத்துக்கு சுமார் 100 GB போக்குவரத்துடன். இலவசத் திட்டத்தில் களஞ்சியம் பொதுவாக இருக்க வேண்டும். GitHub Pages கடைகளுக்கோ பிற வணிகப் பரிவர்த்தனைகளுக்கோ உரியதல்ல.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>ஓர் இலக்கு என்பது ஒரு git களஞ்சியத்தில் வெளியிடப்படும் ஒரு தளம். இங்கே எதுவும் உருவாக்கப்படவோ வெளியிடப்படவோ இல்லை: சேமி அமைப்புகளை settings/override/staticcache.ini.append.php இல் எழுதுகிறது.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>ஓர் இலக்கு என்பது ஓர் இடத்தில் வெளியிடப்படும் ஒரு தளம், எடுத்துக்காட்டாக GitHub Pages இல் உள்ள உங்கள் பொதுத் தளம்.</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>அமைவு &gt; ரகசியங்கள் இலிருந்து ஒரு டோக்கன்</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>களஞ்சியத்தின் ஒரு பணிப்பாய்வு அதை வெளியிடுகிறது.</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>இந்தப் பொது விசையை எழுதும் அனுமதியுடன் களஞ்சியத்தில் சேருங்கள். GitHub: Settings &gt; Deploy keys &gt; Add deploy key, Allow write access ஐத் தேர்வுசெய்யுங்கள்.</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>சேர்க்கப்பட்டது</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>வேறொரு git வழங்கி</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>வேறொரு செயல்முறை இந்த இலக்கில் வேலை செய்கிறது: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>பின்செல்</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>அடிப்படைப் பாதை</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>முன்பு</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>ஓர் அடிப்படைப் பாதையின் கீழ்</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>கிளை</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>உடைந்த இணைப்புகள்</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>உருவாக்கத்தில் உடைந்த இணைப்புகள்</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>உருவாக்கம்</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>%user செய்த உருவாக்கம் %id</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>%name ஐ உருவாக்கு</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>இப்போதே உருவாக்கு</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>சரிபார்க்க வேண்டிய உருவாக்கம்</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>செய்தவர்</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>கைமுறையாக, இங்கே</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>ரத்துசெய்</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>மாற்று</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>மாற்றப்பட்டது</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>மாற்றங்கள்</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>முதலில் அதைச் சரிபாருங்கள்</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>இந்த அமைப்புகளைச் சரிபாருங்கள்</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>உருவாக்கம் என்ன மாற்றுகிறது என்று சரிபார்த்து, அதைப் பார்த்து, பின்னர் வெளியிடுங்கள் அல்லது நிராகரியுங்கள்.</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>திரும்பச் செல்ல வேண்டிய வெளியீட்டைத் தேர்ந்தெடுங்கள்.</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>பிந்தைய வெளியீட்டில் வரும்.</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>கமிட்</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>கமிட்கள்</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>உருவாக்கத்தை கமிட் செய்து, குறிச்சொல் இட்டு, %remote க்கு அனுப்புகிறது. அனுப்புதல் ஒருபோதும் கட்டாயப்படுத்தப்படாது; பின்னர் எந்த வெளியீட்டுக்கும் திரும்பச் செல்லலாம்.</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>முந்தைய கோப்புறையுடன் ஒப்பிடுகையில்: %added சேர்க்கப்பட்டன, %changed மாற்றப்பட்டன, %removed நீக்கப்பட்டன, %unchanged மாறவில்லை.</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>கடைசி வெளியீட்டுடன் ஒப்பிடப்பட்டது.</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>நற்சான்று</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>சொந்த டொமைன்</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>பிழைத்திருத்த வெளியீடு, படிவ டோக்கன்கள், அமர்வு அடையாளங்கள் மற்றும் nonce-கள் எப்போதும் அகற்றப்படும்.</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>வரிசைப்படுத்தல் விசை</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>%name இன் வரிசைப்படுத்தல் விசை</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>நிராகரி</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>உருவாக்கத்தை நிராகரி</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>டொமைன்</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>காலியாக: தளத்தின் முகவரி. இல்லையெனில் அதே தளத்தின் உள் முகவரி.</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>முடிந்தது</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>ஒவ்வொரு இணைப்பும் அடிப்படைப் பாதையுடன் தொடங்கும்.</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>ஒவ்வொரு வெளியீடும் static/%id/&lt;n&gt; குறிச்சொல்லுடன் கூடிய ஒரு கமிட். திரும்பச் செல்வது முந்தைய வெளியீட்டின் கோப்புகளுடன் புதிய கமிட்டை உருவாக்கும்: வரலாறு அப்படியே இருக்கும், எந்தக் குறிச்சொல்லும் நகராது, எதுவும் கட்டாயப்படுத்தப்படாது.</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>கூடுதல் கோப்புகள்</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>பக்கங்களைப் பெறும் இடம்</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>கோப்பு</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>கோப்புகள்</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>கோப்புகள் இல்லை</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>இதன் கோப்புகள்</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>சேகரிக்க முடியாத கோப்புகள்</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>கைரேகை</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>கோப்புறை</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>SSH முகவரிக்கு. சேமித்த பிறகு விசை உருவாக்கப்படும்; அதன் பொதுப் பாதியை நீங்கள் களஞ்சியத்தில் சேர்க்க வேண்டும்.</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>https:// முகவரிக்கு. GitHub: களஞ்சியத்தில் Contents படிக்கவும் எழுதவும் அனுமதி கொண்ட fine-grained டோக்கன்.</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>நிபுணர்களுக்கு. அனுப்புதல் முடிந்தவுடனே பொதுத் தளம் மாறும்.</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>படிவங்கள்</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>GitHub களஞ்சியத்திலிருந்து இலவச வழங்கல்.</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>கிளையிலிருந்து</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>Git முகவரி</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages %site அளவுள்ள தளத்தையும் %file அளவுள்ள கோப்பையும் அனுமதிக்கிறது.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>GitHub Pages வரம்புகள்</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages கோப்புகளை அப்படியே வெளியிடுகிறது (_ இல் தொடங்கும் கோப்புகளுக்குத் தேவை).</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub கிளையை அனுப்பியபடியே வழங்குகிறது. இயல்புநிலை.</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, உங்கள் சொந்தச் சேவையகம்: எந்த git களஞ்சியமும்.</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>முந்தைய வெளியீட்டுக்குத் திரும்பு</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>உதவி</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>வழிகாட்டிக்கான உதவி</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>அவற்றை மறை</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>வரலாறு</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>%name இன் வரலாறு</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>வழங்கி</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>GitHub Pages உருவாக்கத்தை எவ்வாறு பெறுகிறது</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>மாற்றங்களைச் சரிபார்த்துவிட்டேன்</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>இது என்ன மாற்றும் என்று எனக்குத் தெரியும்</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>அடையாளம்</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>இது அணைக்கப்பட்டுள்ளது: இயக்கப்படும் வரை எதையும் உருவாக்க முடியாது.</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>இது %user ஆகப் பின்னணியில் இயங்குகிறது; இந்தப் பக்கத்தை மூடலாம்.</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>பணி %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>%secret என்ற ரகசியமாக வைக்கப்பட்டுள்ளது.</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>வகை</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>கடைசி வெளியீடு</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>இந்தப் பக்கங்களைத் தவிர்</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>இந்தப் பிரிவுகளைத் தவிர்</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>இணைப்புகள்</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>மாற்றி எழுதப்பட்ட இணைப்புகள்</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>நேரடித் தளம்</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>உருவாக்கத்தைப் பார்</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>சிறிய எழுத்துகள், இலக்கங்கள், _ மற்றும் -, எடுத்துக்காட்டாக github-public. இது கோப்புறைக்கும் குறிச்சொற்களுக்கும் (static/&lt;id&gt;/&lt;n&gt;) பெயரிடுகிறது, பின்னர் மாற்ற முடியாது.</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>புதிய விசையை உருவாக்கு</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>ஓர் இலக்கை உருவாக்கு</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>விசையை உருவாக்கு</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>முதலில் வழங்கியில் களஞ்சியத்தை உருவாக்குங்கள்; காலியானதும் சரி.</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>கோப்புப் பட்டியல்</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>செய்தி</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>பெரும்பாலான பக்கங்கள்</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>பெயர்</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>அமைவு &gt; ரகசியங்கள் இல் உள்ள டோக்கனின் பெயர்</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>புதிய இலக்கு</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>அடுத்து</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>இல்லை</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>இன்னும் கமிட் இல்லை.</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>எந்த விசையும் உருவாக்கப்படவில்லை: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>php கட்டளை வரி நிரல் எதுவும் கண்டறியப்படவில்லை. migration.ini [AdminSettings] PhpCliPath இல் அதன் முழுப் பாதையை அமையுங்கள்.</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>இன்னும் குறிச்சொல் இல்லை.</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>இன்னும் இலக்கு இல்லை.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>எதுவுமில்லை</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>உருவாக்கத்தில் இல்லை.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>இதுவரை எதுவும் வெளியிடப்படவில்லை.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>இதுவரை எதுவும் வெளியிடப்படவில்லை: ஒவ்வொரு கோப்பும் புதியது.</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>அறிவி</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>அட்டவணைப்படி</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>கன்சோலில்</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>சேவையகத்தில்: ./console exp:static:serve %id அதையே அதே வழியில் வழங்குகிறது.</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>ஒரு வரிக்கு ஒரு பாதை, * எந்தப் பகுதியுடனும் பொருந்தும்: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>இலக்குடன் ஒரு பெயர் மட்டுமே சேமிக்கப்படும்; டோக்கன் அல்லது விசை அமைவு &gt; ரகசியங்கள் இல் இருக்கும், எந்தப் பதிவிலும் தோன்றாது.</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>பக்கங்கள் குறிப்பிடுபவை மட்டும்</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>டோக்கனுடன் மட்டும். env:NAME அதற்குப் பதிலாகச் சேவையகத்தின் சூழல் மாறியைப் படிக்கும்.</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>முன்னோட்டத்தைத் திற</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>இலக்கின் கோப்புறையிலிருந்து, வழங்கி வழங்குவது போலவே உருவாக்கத்தைத் திறக்கிறது. இணைப்பு உங்களுக்கு ஒரு மணி நேரம் வேலை செய்யும்.</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>விருப்பத்தேர்வு. காலியாக: வெளியிடப்பட்டது.</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>விருப்பத்தேர்வு. டொமைனுடன் தளம் அதன் மூலத்தில் வழங்கப்படும்.</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>வெளியீட்டு உரை</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>பக்கங்கள்</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>இலக்கின் பக்கங்கள்</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>மறுக்கப்பட்ட பக்கங்கள்</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>பின்செயலாக்கம்</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>முன்னோட்டம்</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>முன்னோட்டமிட்டு வெளியிடு</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>%name ஐ முன்னோட்டமிட்டு வெளியிடு</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>உருவாக்கத்தை முன்னோட்டமிடு</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>முன்னேற்றம்</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>பொது முகவரி</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>பொது விசை</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>வெளியிடு</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>ஒரு தளத்தின் நிலையான நகலை GitHub Pages அல்லது எந்த git வழங்கியிலும் வெளியிடுங்கள்: அதை உருவாக்கி, மாற்றங்களைச் சரிபார்த்து, வெளியிட்டு, தேவைப்படும்போது முந்தைய வெளியீட்டுக்குத் திரும்புங்கள்.</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>திரும்பச் செல்ல வேண்டிய வெளியீடு</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>வெளியீடுகள்</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>அனுப்புதல்</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>பயிற்சி வழிகாட்டியைப் படி</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>பதிவு</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>மறுக்கப்பட்டது</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>சார்பு</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>மீண்டும் ஏற்று</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>நீக்கப்பட்டது</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>விசையை மாற்று: பழையது வேலை செய்வது நின்றுவிடும்</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>அறிக்கை</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>உருவாக்கத்தின் அறிக்கை</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>களஞ்சியம்</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>மதிப்பாய்வு</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>மதிப்பாய்வு ஒவ்வொரு அமைப்பையும் சரிபார்த்து எழுதப்படும் வரிகளைக் காட்டுகிறது. இன்னும் எதுவும் சேமிக்கப்படவில்லை.</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>திரும்பப்பெறு</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>திரும்பப்பெறுதல்</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>சேமி</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>அட்டவணை</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>தேடல் பக்கம்</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>பிரிவு அடையாளங்கள், காற்புள்ளிகளால் பிரிக்கப்பட்டவை.</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>அவற்றை நேரடித் தளத்துக்கு அனுப்பு</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>அமைப்பு</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>அமைப்புகள்</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>%name இன் அமைப்புகள்</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>அமைவு</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>அமைவு &gt; ரகசியங்கள்</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>பட்டியல்களில் காட்டப்படும், எடுத்துக்காட்டாக &quot;GitHub Pages இல் உள்ள பொதுத் தளம்&quot;.</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>GitHub App மூலம் உள்நுழைதல் GitHub ஒருங்கிணைப்புடன் வரும்.</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>தளம்</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>வெளியிட வேண்டிய தளம்</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>அளவு</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>அளவும் வரம்புகளும்</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>உருவாக்கத்தின் அளவு</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>காலாவதியான பக்கங்கள்</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>தொடங்கியது</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>%time இல் %user தொடங்கினார்.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>நிலை</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>நிலையான வெளியீடு</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>நிலையான வெளியீடு அணைக்கப்பட்டுள்ளது</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>நிலையான வெளியீடு அணைக்கப்பட்டுள்ளது.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>நிலையான வெளியீடு அணைக்கப்பட்டுள்ளது. முதலில் அமைவு &gt; நிலையான வெளியீடு இல் அதை இயக்குங்கள்.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>நிலையான வெளியீடு இயக்கப்பட்டுள்ளது.</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>படி %step / %total</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>படிகள்</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>அகற்றுதல்</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>அணை</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>இயக்கு</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>நிலையான வெளியீட்டை இயக்கு</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>குறிச்சொல்</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>குறிச்சொற்கள்</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>இலக்கு</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>இலக்குகளை உருவாக்கவும் மாற்றவும் முடியும், ஆனால் இது இயக்கப்படும் வரை எதுவும் உருவாக்கப்படவோ வெளியிடப்படவோ மாட்டாது.</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>தேடுபொறிகளுக்கு எதைப் படிக்க வேண்டும் என்று சொல்கிறது.</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>உருவாக்கத்தை நிராகரிக்க முடியவில்லை: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>உருவாக்கம் கடைசி வெளியீட்டைப் போன்றதே: வெளியிட எதுவும் இல்லை.</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>உருவாக்கம் நிராகரிக்கப்பட்டது: கோப்புறையில் மீண்டும் கடைசி வெளியீடு உள்ளது.</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>இயல்புநிலைகள் பெரும்பாலான தளங்களுக்குப் பொருந்தும்.</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>கோப்புறையில் இன்னும் வெளியிடப்படாத உருவாக்கம் உள்ளது; புதிய உருவாக்கம் அதை மாற்றிவிடும்.</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>பணிகளின் கோப்புறையில் எழுத முடியாது: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>பணியைத் தயாரிக்க முடியவில்லை: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>பணியைத் தொடங்க முடியவில்லை.</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>பணி முடிந்தது. அதன் அறிக்கை ஏற்றப்படுகிறது.</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>பணிக்கு உள்நுழைந்த பயனர் தேவை.</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>பணி தொடங்கியது, ஆனால் அதன் செயல்முறை அடையாளத்தைத் தெரிவிக்கவில்லை. %detail ஐச் சரிபாருங்கள்.</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>விசை</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>மிகப்பெரிய கோப்பு: %path, %size.</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>எழுதப்படும் வரிகள்</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>தேடுபொறிகளுக்கான பக்கங்களின் பட்டியல்; பொது முகவரி தேவை.</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>உள்நுழையாத பார்வையாளர் பார்ப்பது போலவே பக்கங்கள் பெறப்படுகின்றன. நிர்வாக மற்றும் திருத்த siteaccess-கள் ஒருபோதும் வழங்கப்படாது.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>முன்னேற்றத்தைப் பின்தொடர முடியவில்லை. பணி எப்படிச் செல்கிறது என்று பார்க்கப் பக்கத்தை மீண்டும் ஏற்றுங்கள்.</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>விசையின் பொதுப் பாதி:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>கிளையின் மூலம்</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>ரகசியக் களஞ்சியம் இன்னும் அமைக்கப்படவில்லை (./console exp:upgrade --apply அதன் அட்டவணையை உருவாக்கும்), எனவே எந்த விசையையும் வைக்க முடியாது.</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>சேவையகம் தானாகவே உள்நுழைகிறது (அதன் சொந்த SSH விசை அல்லது நற்சான்று உதவியாளர் மூலம்), அல்லது களஞ்சியம் இந்தச் சேவையகத்திலேயே உள்ளது.</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>அமைப்பை எழுத முடியவில்லை: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>அமைப்புகள் செல்லுபடியானவை. இந்த வரிகள் எழுதப்படும்:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>அமைப்புக் கோப்பைப் படிக்க முடியாது: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>தளம் அந்த வெளியீட்டின் கோப்புகளுக்குத் திரும்பும்; இன்னும் வெளியிடப்படாத உருவாக்கத்தை முதலில் வெளியிட வேண்டும் அல்லது நிராகரிக்க வேண்டும்.</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>இல்லாத முகவரிகளுக்கான தளத்தின் சொந்தப் பக்கம்.</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>இலக்கைச் சேமிக்க முடியவில்லை: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>இலக்கு இன்னும் இந்த விசையுடன் உள்நுழையவில்லை: அதன் அமைப்புகளில் &quot;இந்த இலக்குக்காக உருவாக்கப்பட்ட வரிசைப்படுத்தல் விசை&quot; என்பதைத் தேர்ந்தெடுங்கள்.</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>இலக்குகளைப் படிக்க முடியவில்லை: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>சரிபார்க்க இன்னும் எந்த உருவாக்கமும் இல்லை.</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>இந்த நிறுவலில் முன்பக்க siteaccess இல்லை. நிர்வாக மற்றும் திருத்த siteaccess-கள் ஒருபோதும் வெளியிடப்படாது.</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>இந்தப் பக்கம் பணி நடக்கும்போது அதைப் பின்தொடர்கிறது; பக்கம் மூடப்பட்டாலும் அது பின்னணியில் தொடரும்.</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>இந்த இலக்குக்கு இன்னும் வரிசைப்படுத்தல் விசை இல்லை.</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>இந்த இலக்கு இங்கே இன்னும் உருவாக்கப்படவில்லை.</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>இந்த இலக்குக்கு ஒன்று உள்ளது.</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>இந்த உருவாக்கத்தை நிராகரிக்கிறது: கோப்புறையில் மீண்டும் கடைசி வெளியீடு இருக்கும். நேரடித் தளம் மாறாது.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>முதலில் &quot;மாற்றங்களைச் சரிபார்த்துவிட்டேன்&quot; என்பதைத் தேர்வுசெய்யுங்கள்.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>நேரம்</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>தூண்டிகள்</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>குறிச்சொல்லின் பெயரை மீண்டும் தட்டச்சு செய்யுங்கள்</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>மாறவில்லை</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>வெப்ஹூக்</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>என்ன</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>என்ன மாறுகிறது</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>ஒவ்வொரு கோப்பும் என்ன; எப்போதும் எழுதப்படும்.</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>பணி என்ன செய்தது மற்றும் அதன் பதிவு. இங்கே தொடங்கிய பணி இந்தப் பக்கம் மூடப்பட்டாலும் பின்னணியில் தொடரும்.</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>பணி பிழைகளாக அச்சிட்டவை</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>பக்கங்கள் குறிப்பிடுபவை, மற்றும் வெளியிடப்பட்ட உள்ளடக்கத்தின் ஒவ்வொரு படமும்</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>எப்போது</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>வெளியீடு தோல்வியடையும்போது</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>வெளியீடு வெற்றிபெறும்போது</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>உள்ளடக்கம் வெளியிடப்படும்போது</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>நகலில் இல்லாதவற்றுக்கான இணைப்புகள் எங்கே செல்லும் (தேடல், உள்நுழைவு).</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>நிலையான நகல் எங்கிருந்து வழங்கப்படுகிறது.</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>எந்தத் தளம் வெளியிடப்படுகிறது, இலக்கின் பெயர் என்ன.</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>எந்தப் பாதையின் கீழும் வேலை செய்யும். இயல்புநிலை.</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>சொந்த டொமைன் அமைக்கப்படும்போதெல்லாம் எழுதப்படும்.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>ஆம்</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>இங்கேயும் கன்சோலிலும் எப்போதும் கைமுறையாக உருவாக்கி வெளியிடலாம்.</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>ஒரு பெயர் மட்டும்; மதிப்பு அமைவு &gt; ரகசியங்கள் இல் இருக்கும்</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>%path இன் கீழ்</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>அறிக்கை இல்லாமல் முடிந்தது</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>கூடுதல்</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>தோல்வியடைந்தது</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>கோப்பு</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages, அல்லது docs கோப்புறையுடன் main.</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>git வழங்கி</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (டோக்கனுடன்) அல்லது git@github.com:owner/repo.git (வரிசைப்படுத்தல் விசையுடன்); அதில் ஒருபோதும் கடவுச்சொல்லோ டோக்கனோ இருக்கக்கூடாது.</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/, தளவரைபடத்துக்கும் நியமன இணைப்புகளுக்கும்.</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>படம்</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>ஒருபோதும் இல்லை</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>இல்லை</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>தொலை களஞ்சியம் இல்லை</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>எதுவுமில்லை: கமிட்கள் கோப்புறையிலேயே இருக்கும்</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>எதுவுமில்லை: எதுவும் மாறவில்லை</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>அனுப்பப்படவில்லை</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>எதுவும் மாறவில்லை</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>பக்கம்</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>தேறியது</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>proc_open முடக்கப்பட்டுள்ளது, எனவே இங்கே பணியைத் தொடங்க முடியாது. சேவையகத்தில் ./console exp:static:build ஐப் பயன்படுத்துங்கள்.</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>வெளியீடு</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>வெளியிடப்பட்டது</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>அனுப்புதல் நிலுவையில்</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>அனுப்பப்பட்டது</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>மறுக்கப்பட்டது</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>சார்பு</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>திரும்பப்பெறுதல்</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>திரும்பப்பெறப்பட்டது</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>இயங்குகிறது</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>கோப்புறை மட்டும்</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: CNAME கோப்பில் எழுதப்படும். டொமைனின் DNS ஐ வழங்கி விளக்குவது போல் அதை நோக்கி அமையுங்கள்; HTTPS தொடங்கச் சிறிது நேரம் ஆகலாம்.</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>ஆம், இன்னும் வெளியிடப்படவில்லை</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>ஒரு GitHub App</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>களஞ்சியத்தின் ஒரு பணிப்பாய்வு அதை வெளியிடுகிறது. உருவாக்கம் பணிப்பாய்வுக் கோப்பை எழுதுகிறது; கோப்புறையை வெறுமையாக விடவும்.</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>GitHub களஞ்சியம் மற்றும் டோக்கன் அல்லது GitHub App உடன் இலக்கைச் சேமித்த பிறகு, இந்தப் படி களஞ்சியத்தை உருவாக்கி GitHub Pages ஐ இயக்க முடியும். இல்லையெனில் முதலில் GitHub இல் களஞ்சியத்தை உருவாக்கவும்; வெற்றுக் களஞ்சியமும் போதும்.</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>கிளையா அல்லது GitHub Actions ஆ?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>DNS ஐச் சரிபார்</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>களஞ்சியம் இல்லையெனில் அதை உருவாக்கு</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>GitHub இல் களஞ்சியத்தை உருவாக்கி அதன் அமைப்புகளில் GitHub Pages ஐ இயக்கவும் (Settings &gt; Pages).</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>களஞ்சியம் %repo இல்லாதபோது அதை உருவாக்குகிறது (கேட்கப்பட்டால்), சேமித்தபடி கிளையிலிருந்து அல்லது GitHub Actions இலிருந்து GitHub Pages ஐ இயக்குகிறது, மேலும் சொந்த டொமைன் மற்றும் HTTPS ஐ அமைக்கிறது. சேமித்த அமைப்புகளைப் பயன்படுத்துகிறது: முதலில் மாற்றங்களைச் சேமிக்கவும்.</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>GitHub இல் விவரங்கள்</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>முதலில் சொந்த டொமைனை உள்ளிடவும்.</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>ஒவ்வொரு push உம் முதலில் இந்த வரம்புகளுடன் சரிபார்க்கப்படுகிறது.</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>GitHub இல் உள்ள https:// முகவரிக்கு. இந்த நிறுவலுக்காக அமைக்கப்பட்ட App உள்நுழைகிறது; அதற்கு நிறுவல் id தேவை.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages தனிப்பட்ட களஞ்சியத்தைக் கட்டணத் திட்டத்தில் மட்டுமே வழங்குகிறது.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: துணை டொமைனுக்கு (www.example.com) &lt;owner&gt;.github.io க்கு ஒரு CNAME பதிவு தேவை; மூல டொமைனுக்கு (example.com) A பதிவுகள் %ips.</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>GitHub App இன் நிறுவல் id</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>கடைசி Pages உருவாக்கம்</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>வரம்புகளும் விதிமுறைகளும்</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>இலவசத் திட்டத்தில் GitHub Pages க்குத் தேவை.</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>GitHub இல்</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>GitHub App உடன் மட்டும்: GitHub இல் App நிறுவலின் முகவரியின் இறுதியில் உள்ள எண். App தானே staticcache.ini இல் அமைக்கப்படுகிறது (GitHubAppId, GitHubAppKey).</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>தனிப்பட்டது</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>பொது</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>முதலில் GitHub களஞ்சியம் மற்றும் டோக்கன் அல்லது GitHub App உடன் இலக்கைச் சேமிக்கவும்.</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>டொமைன் வழங்குநரிடம் இந்தப் பதிவுகளை அமைக்கவும்:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>GitHub இல் அமை</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>%domain இன் DNS இன்னும் GitHub Pages ஐச் சுட்டவில்லை.</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>%domain இன் DNS GitHub Pages ஐச் சுட்டுகிறது.</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>GitHub ஒருங்கிணைப்பு இங்கே கிடைக்கவில்லை: %problem. கிளைக்கு வெளியிடுவது அப்படியும் வேலை செய்யும்; களஞ்சியத்தின் அமைப்புகளில் GitHub Pages ஐ இயக்கவும்.</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>இந்த இலக்குக்கு GitHub படிகள் கிடைக்கவில்லை: %problem.</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>நற்சான்றாக டோக்கன் அல்லது GitHub App இருக்கும்போது GitHub Pages இன் நிலை காட்டப்படும்.</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>உங்கள் சொந்த டொமைனைப் பயன்படுத்து</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>எதைத் தேர்வு செய்வது: டோக்கன், வரிசைப்படுத்தல் விசை அல்லது GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>GitHub களஞ்சியம் மற்றும் டோக்கன் அல்லது GitHub App இருந்தால், வழிகாட்டி உங்களுக்காகக் களஞ்சியத்தை உருவாக்கி, GitHub Pages ஐ இயக்கி, டொமைனை அமைக்க முடியும் (படி 4).</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>உருவாக்கப்படுகிறது</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>உருவாக்கப்பட்டது</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>GitHub Actions இலிருந்து</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>கிளை %branch இலிருந்து</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>இன்னும் இல்லை</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>கிடைக்கவில்லை</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>முடக்கம்</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>தனிப்பட்டது</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>பொது</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>வரிசையில்</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>தெரியாது</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%pages பக்கங்களில் %count:</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>உரைக் கோப்பு ஒவ்வொன்றின் அருகிலும் ஒரு .gz (மற்றும் .br), அவற்றை வழங்கும் ஹோஸ்ட்களுக்காக.</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>ஒரு பக்கத்தின் ஒவ்வொரு பழைய முகவரி மற்றும் மாற்றுப்பெயருக்கும் ஒரு சிறிய பக்கம், பழைய இணைப்புகள் தொடர்ந்து செயல்பட.</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>GitHub Actions தளத்தை வழங்கும்போது எப்போதும் எழுதப்படும்.</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>CC-BY-4.0 போன்ற SPDX அடையாளம், அல்லது உரையே.</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>கூடை</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>சேவையகத்திற்கான அழைப்புகள்</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>கருத்துகள்</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>தகவல்களைச் சேகரிக்கும் படிவங்கள்</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>GitHub Actions பணிப்பாய்வு</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>பக்கங்களில் குறைவான வெற்றிடமும் கருத்துகள் இன்மையும்.</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>உள்ளடக்கத்தின் உரிமம்</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>உள்நுழை</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>Minify</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>பிற படிவங்கள்</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>Precompress</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>திசைதிருப்பல் பக்கங்கள்</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>திசைதிருப்பல் பக்கங்கள்: %count.</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>தேடு</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>தேடல் குறியீடு: %languages மொழிகளில் %pages பக்கங்கள்.</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>உள்ளடக்கத்தின் ஹாஷ் மூலம் பெயரிடப்பட்ட பாணித்தாள்களும் ஸ்கிரிப்ட்களும், உலாவிகள் அவற்றை வைத்துக்கொள்ள.</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>மாற்றப்பட்ட பக்கங்கள், கடைசி மாற்றத்துக்குச் சில நிமிடங்களுக்குப் பிறகு (cronjob பகுதி staticpublish).</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>உள்ளடக்கத்தின் உரிமம், கீழே உள்ள புலத்திலிருந்து.</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>முழுத் தளமும், அட்டவணையின் நேரங்களில் (cronjob பகுதி staticpublish).</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>பக்கங்களின் இந்தப் பகுதிகளுக்குச் சேவையகம் தேவை; ஒவ்வொன்றுக்கும் மாற்று வழங்கப்பட்டுள்ளது. வெளியிடும் முன் அவற்றைச் சரிபார்க்கவும்.</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>நிலையாகச் செயல்படாதவை</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>ஹோஸ்டில் திறப்பவருக்கு, களஞ்சியம் என்ன என்பது.</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>விடப்பட்டது</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>மாற்று உரை</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>நேரடித் தளத்தின் படிவ முனையம்</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>நேரடித் தளம்</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>நகலின் தேடல் பக்கம்</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>படிவத்தை அனுப்ப முடியவில்லை.</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>நன்றி: படிவம் அனுப்பப்பட்டது.</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>படிவம் ஏற்கப்படவில்லை: நீங்கள் உள்ளிட்டதைச் சரிபார்த்து மீண்டும் அனுப்பவும்.</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>நகலில் இல்லாத பக்கங்களுக்கான இணைப்புகளை நீக்கு</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>நிர்வாகத்திற்கான இணைப்புகளை நீக்கு</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>அவற்றின் உரை நிலைக்கும். படங்கள், படிவங்கள் மற்றும் பிற தளங்களுக்கான இணைப்புகள் ஒருபோதும் நீக்கப்படாது.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>பதிப்பு</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>வெளியிட வேண்டிய தள அணுகல்கள்</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>தள அணுகல்</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>மூலத்தில்</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>மூலத்தில் தள அணுகல் இல்லை: ஒவ்வொன்றும் தன் கோப்புறையில் உள்ளது, மூலம் அவற்றுக்கு இணைப்பு தருகிறது</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>தள அணுகல்கள்</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>ஒரு தள அணுகலை, அல்லது தங்கள் URI முன்னொட்டால் ஒரே ஹோஸ்டைப் பகிரும் பலவற்றைத் தேர்ந்தெடுக்கவும். மூலத்திலுள்ளது அங்கேயே வழங்கப்படும், மற்றவை தங்கள் முன்னொட்டின் கோப்புறையில் (/ger/); அவற்றுக்கிடையேயான இணைப்புகள் நகலிலேயே இருக்கும். நிர்வாக தள அணுகல்கள் ஒருபோதும் வழங்கப்படாது.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>%site இல் %target இன் நிலையான வெளியீடு தோல்வியடைந்தது</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>%site இல் %target இன் நிலையான வெளியீடு வெற்றியடைந்தது</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>நிலையான வெளியீட்டு இலக்கு %target இதைக் கேட்பதால் %site இந்த அஞ்சலை அனுப்பியது.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>%site இல் வரிசைப்படுத்தல் %deploy தோல்வியடைந்தது</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>%site இல் வரிசைப்படுத்தல் %deploy ஒரு வாயிலில் காத்திருக்கிறது</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>%site இல் வரிசைப்படுத்தல் %deploy வெற்றியடைந்தது</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>migration.ini [RemoteSettings] Notify[] கேட்பதால் இந்த அஞ்சலை %site அனுப்பியது.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>தரவு வகைகள் (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>%time அன்று எண்ணப்பட்டது, %minutes நிமிடங்களுக்குப் பிறகு மீண்டும்</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>ஒரு தரவு வகை வகுப்புப் பண்பின் ஒரு வகை மதிப்பைச் சேமித்துத் திருத்துகிறது: ஒரு உரை வரி, ஒரு படம், ஒரு தொடர்பு. Kernel பெரும்பாலானவற்றை வழங்குகிறது, நீட்சிகள் மேலும் சேர்க்கின்றன. இங்கே அனைத்தும் உள்ளன, அவற்றை யார் வழங்குகிறார்கள், உள்ளடக்கத்தில் எவ்வளவு அவற்றைப் பயன்படுத்துகிறது என்பதுடன். தரவுத்தளம் பயன்படுத்தும் ஆனால் இனி எதுவும் பதிவு செய்யாத தரவு வகை, அதைக் கொண்ட உள்ளடக்கத்தை உடைக்கிறது.</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>வகுப்புக் குழுக்கள்</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>கடந்த சில நிமிடங்களின் எண்ணிக்கைகளைப் பயன்படுத்தாமல் இப்போதே மீண்டும் எண்ணு.</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>மீண்டும் எண்ணு</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>மேலோட்டம்</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>பதிவுசெய்த தேதி</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>பயன்பாட்டில் உள்ளது</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>பயன்படுத்தப்படவில்லை</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>தரவு வகைகளை வழங்கும் நீட்சிகள்</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>வகுப்புப் பண்புகள்</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>பொருள் பண்புகள்</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>பதிவு செய்யப்படவில்லை</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>பட்டியலில் உள்ளது, கோப்பு இல்லை</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>%count தரவு வகைகள் பயன்படுத்தப்படுகின்றன, ஆனால் பதிவு செய்யப்படவில்லை</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>%class_attributes வகுப்புப் பண்புகளும் %object_attributes பொருள் பண்புகளும் எந்த நீட்சியோ அமைப்போ பதிவு செய்யாத தரவு வகையைக் கொண்டுள்ளன. அவற்றின் பொருட்களைக் காட்டவோ திருத்தவோ வெளியிடவோ முடியாது. தரவு வகையை வழங்கும் நீட்சியைச் செயல்படுத்தவும், அல்லது வகுப்பை மாற்றவும்.</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>இவற்றை மட்டும் காட்டு</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>தரவு வகையைத் தேடு</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>அடையாளங்காட்டி, பெயர், PHP வகுப்பு அல்லது நீட்சி.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>காட்டு</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>அனைத்தும்</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>வழங்குபவர்</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>அனைவரும்</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>Kernel</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>எந்தத் தரவு வகையும் இந்த வடிகட்டியுடன் பொருந்தவில்லை.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>அனைத்தையும் காட்டு</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>நீட்சி</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%count தரவு வகைகளில் %shown, %used பயன்பாட்டில்</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>தரவுத்தளத்தில் இந்தத் தரவு வகைகளின் வகுப்பு அல்லது பொருள் பண்புகள் உள்ளன, ஆனால் content.ini இவற்றில் எதையும் பட்டியலிடவில்லை, அல்லது அதன் கோப்பு இல்லை.</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>%provider வழங்கும் தரவு வகைகள்</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>தரவு வகை</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>PHP வகுப்பு மற்றும் கோப்பு</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>வகுப்புகள்</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>பொருள்கள்</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>கொடிகள்</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>எதுவுமில்லை</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>எந்தத் தரவு வகையும் தேடலுடன் பொருந்தவில்லை. தேடலை அழிக்கவும்.</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>%count தரவு வகைகளில் %shown காட்டப்படுகின்றன</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>காட்டப்படும் தரவு வகைகள்: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>%column அடிப்படையில் வரிசைப்படுத்து</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>%time அன்று எண்ணப்பட்டது</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>அனைத்துத் தரவு வகைகள்</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>உதவிப் பக்கம்</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>இந்தத் தரவு வகை பயன்படுத்தப்படுகிறது, ஆனால் பதிவு செய்யப்படவில்லை</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>எந்த நீட்சியும் தரவு வகையைப் பதிவு செய்யாத வரை கீழே உள்ள வகுப்புகளின் பொருட்களைக் காட்டவோ திருத்தவோ வெளியிடவோ முடியாது. அதை வழங்கும் நீட்சியைச் செயல்படுத்தி content.ini [DataTypeSettings] AvailableDataTypes[] இல் சேர்க்கவும், அல்லது வகுப்புகளை மாற்றவும்.</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini இந்தத் தரவு வகையைப் பட்டியலிடுகிறது, ஆனால் எந்தத் தரவு வகை அடைவிலும் அதன் கோப்பு இல்லை. எதுவும் இதைப் பயன்படுத்தவில்லை; இதை AvailableDataTypes[] இலிருந்து நீக்கவும் அல்லது அதன் நீட்சியைச் செயல்படுத்தவும்.</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>இந்தத் தரவு வகையைப் பற்றி</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>அடையாளங்காட்டி</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>பெயர்</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>நீட்சி %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>யாருமில்லை</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>PHP வகுப்பு</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>கோப்பு</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>AvailableDataTypes[] இல்</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ஆம்</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>இல்லை</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>இதன் மதிப்பின் நெடுவரிசைகள்</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>இதன் வகுப்புப் பண்பு அமைப்புகளின் நெடுவரிசைகள்</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>அட்டவணைகள்</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>நெடுவரிசைகளும் அட்டவணைகளும் தரவு வகையின் நிரலைப் படித்துக் கண்டறியப்படுகின்றன: இது ஒரு வழிகாட்டி, உத்தரவாதம் அல்ல.</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>வார்ப்புருக்கள்</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>தள அணுகல்</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>வார்ப்புரு</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>காணப்படும் இடம்</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>இந்த நிர்வாகம்</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>இயல்புநிலைத் தளம்</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>மேலெழுதல்கள் இல்லாமல்: வகுப்பு அல்லது பண்பால் பொருந்தும் மேலெழுதல் வார்ப்புரு இவற்றை விட முன்னுரிமை பெறும்.</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>இதைப் பயன்படுத்தும் வகுப்புகள் (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>எந்த வகுப்பிலும் இந்தத் தரவு வகையின் பண்பு இல்லை.</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>வகுப்பு</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>பண்புகள்</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>வகுப்புப் பண்புகள் (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>பண்பு</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>அமைப்புகள்</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ஐடி %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>தேவை</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>தேடக்கூடியது</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>மொழிபெயர்க்கத்தக்கது</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>தகவலைச் சேகரிக்கிறது</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>இதைப் பயன்படுத்தும் சில உள்ளடக்கம்</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>கடைசியாக மாற்றியது முதலில்</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>மாற்றப்பட்டது</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>முனை %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>ஒவ்வொரு மொழிபெயர்ப்புக்கும் தனி மதிப்பு உண்டு.</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>தேடல் இதன் மதிப்புகளை அட்டவணைப்படுத்துகிறது.</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>இது பார்வையாளர்களிடமிருந்து தகவல்களைச் சேகரிக்க முடியும் (படிவங்கள்).</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>பட்டியல்களை இதன்படி வரிசைப்படுத்தலாம்: வரிசை விசை %type.</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>வரிசைப்படுத்தக்கூடியது</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>இதன் மதிப்புகள் பிற பொருட்களைச் சுட்டுகின்றன.</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>தொடர்புகள்</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>இதை ஒரு சாதாரண சரத்திலிருந்து நிரப்பலாம் (இறக்குமதி, REST).</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>உரையிலிருந்து</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>இதை ஒரு கோப்பிலிருந்து நிரப்பலாம்.</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>கோப்பிலிருந்து</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>இதன் வகுப்புப் பண்பு அமைப்புகள் தொகுப்புகளில் சேர்க்கப்படும்.</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>தொகுப்புகள்</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>உள்ளடக்கம் (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%count இல் %from முதல் %to வரை</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>பட்டியலை வடிகட்டு</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>அனைத்து வகுப்புகளும்</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>பிரிவு</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>மொழிகள்</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>உரிமையாளர்</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>வெளியிடப்பட்டது</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>வரிசையைத் தலைகீழாக்கு</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>உருப்படி இல்லை</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>ஒரு பக்கத்துக்கு</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>ஒரு பக்கத்திற்கு %count உருப்படிகளைக் காட்டு.</translation>
     </message>
 </context>
 </TS>

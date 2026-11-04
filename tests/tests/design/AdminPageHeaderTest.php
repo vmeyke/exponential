@@ -8,7 +8,7 @@
  *
  * Run: php vendor/bin/phpunit tests/tests/design/AdminPageHeaderTest.php
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package tests
  */
@@ -75,7 +75,7 @@ class AdminPageHeaderTest extends PHPUnit\Framework\TestCase
         // one breakpoint for the smaller title, the one of .a4-pagehead-title
         $this->assertMatchesRegularExpression( '/@media \(max-width: 600px\) \{\s*h1\.context-title,\s*\.a4-dash-hero h1 \{ font-size: var\(--a4-text-l\); \}/', $css );
         // the old #path span colour beat the breadcrumb's own colours
-        $this->assertStringNotContainsString( '#path span {', self::read( 'design/admin4/stylesheets/pagelayout.css' ) );
+        $this->assertStringNotContainsString( '#path span {', self::read( 'design/admin4/stylesheets/base.css' ) );
 
         $node = self::read( 'design/admin4/templates/node/view/a4_full_body.tpl' );
         foreach ( array( 'a4-node-head a4-pagehead', 'a4-node-heading a4-pagehead-main', 'context-title a4-pagehead-title',

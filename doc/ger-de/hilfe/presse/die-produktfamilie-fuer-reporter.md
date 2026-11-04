@@ -29,7 +29,7 @@ Beschreibungen stehen unter [Die Produkte im Einzelnen](../wer-ist-die-exponenti
 | **Exponential Basic** | Das kleine, einfache CMS der Linie 2.x, „for everyone, educational purposes, personal use“ | GPL v2 oder später |
 | **Exponential Platform 3.2.9** | Ein reines Symfony-CMS auf Basis der letzten freien Versionen von eZ Platform | laut seinem Paket |
 | **Exponential Platform Legacy** | Die Symfony-Plattform mit enthaltenem Exponential 6, ein „dual kernel“ (zwei Kernels) | laut seinem Paket |
-| **Exponential Platform Nexus** | Platform, Exponential 6, Netgen Layouts und Media Site mit Demoinhalten | laut seinem Paket |
+| **Exponential Platform Nexus** | Platform, Exponential 6, Exponential Layouts und Media Site mit Demoinhalten | laut seinem Paket |
 | **Exponential Platform DXP** | Eine freie Open-Source-Plattform für digitale Erlebnisse auf Symfony, die die Linie eZ Platform und Ibexa OSS fortführt | „GPL-2.0-or-later or proprietary“ (seine composer.json) |
 | **Exponential Velocity** | Ein in PHP geschriebener Web- und Anwendungsserver, der die Anwendung zwischen den Anfragen geladen hält | MIT |
 | **Exponential Intelligence** | Ein Schreibassistent in der Administration, der Entwürfe schreibt und nie selbst veröffentlicht | (Paket `se7enxweb/expai`) |
@@ -61,7 +61,7 @@ Die Nexus-Linie 1.3.0.x für Platform v5 und der v5-Starter haben keinen Legacy-
 
 | Produkt | Stand | Quelle |
 |---|---|---|
-| Exponential 6 | 6.0.14 veröffentlicht am 7. Juni 2026; 6.0.15 in Entwicklung | [Release-Übersicht](../../../eng-us/release-overview) |
+| Exponential 6 | 6.0.14 veröffentlicht am 7. Juni 2026; 6.0.15 ist die aktuelle Linie | [Release-Übersicht](../../../eng-us/release-overview) |
 | Exponential Basic | v2.4.0.3 | Beschreibung des Repositorys |
 | Velocity | Am 22. September 2026 als empfohlene Engine in Exponential angekommen; Teil von Exponential, von `composer.json` in `~0.0.4.54` verlangt, ab 6.0.15 (20. Oktober 2026) | [Chronik von Velocity](../../geschichte/velocity/README.md), [Changelog 6.0.15](../../../changelogs/6.0/6.0.15.md#20-october-2026-exponential-velocity-is-part-of-exponential) |
 | Intelligence, Layouts, AdminUI | Vom Kernel verlangt seit der Linie 6.0.15 | composer.json |

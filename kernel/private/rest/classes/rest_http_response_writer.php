@@ -2,7 +2,7 @@
 /**
  * File containing the ezpRestHttpResponseWriter class
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -20,6 +20,14 @@ class ezpRestHttpResponseWriter extends ezcMvcHttpResponseWriter
      * @var ezcMvcResponse
      */
     public $response;
+
+    /**
+     * Whether the response went out already, as it was written (an event stream: expGraphQLRestStreamResponse);
+     * nothing more is sent for it.
+     *
+     * @var bool
+     */
+    public $streamed = false;
 
     /**
      * Sends the response, with its status through http_response_code().
@@ -51,6 +59,8 @@ class ezpRestHttpResponseWriter extends ezcMvcHttpResponseWriter
         {
             $this->response->status->process( $this );
         }
+        if ( $this->streamed )
+            return;
 
         $this->headers['Content-Length'] = strlen( (string)$this->response->body );
 

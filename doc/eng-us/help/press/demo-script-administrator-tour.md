@@ -16,7 +16,7 @@ script names those screens and says how to film them. It follows parts 3, 7 and 
 
 Sign in as the administrator of a demo installation with invented content and invented accounts only
 ([Setting up a demo installation](setting-up-a-demo-installation.md)). The menu names below are those of the admin4
-design of the 6.0.15 development line; say which version you show.
+design of the 6.0.15 line; say which version you show.
 
 ## Contents
 
@@ -43,7 +43,7 @@ design of the 6.0.15 development line; say which version you show.
    [Roles and policies](../../guides/roles-and-policies.md).
 2. Point at the policy that opens the help: "The help is readable for editors on a new installation through the policy
    `exphelp/read`." ([The help system](../../features/6.0/help-system.md#who-may-read-it))
-3. **Setup > Languages**: show the content languages. Say the documented numbers with their source: 268 locale files
+3. **Setup > Languages**: show the content languages. Say the documented numbers with their source: 368 locale files
    can be used as content languages; administration translations exist (the current totals are at the top of [Languages in Exponential](../../languages.md))
    ([Languages in Exponential](../../languages.md)).
 

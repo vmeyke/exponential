@@ -15,12 +15,13 @@
  * Live database and settings, as the kernel runs (admin siteaccess); the test changes nothing but the resolver's own
  * cache generation (clearCache()), and puts every setting and global it changes back.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package tests
  * @group explayouts_admin
  */
 
+#[\PHPUnit\Framework\Attributes\Group('explayouts_admin')]
 class expLayoutsAdminLayoutsTest extends PHPUnit\Framework\TestCase
 {
     protected static $bootError = null;
@@ -41,8 +42,7 @@ class expLayoutsAdminLayoutsTest extends PHPUnit\Framework\TestCase
             $script->setUseSiteAccess( 'admin' );
             $script->initialize();
             eZExecution::setCleanExit();
-            if ( !eZDB::instance()->isConnected() )
-                throw new RuntimeException( 'no database connection' );
+            ezpLiveInstallation::installedSiteDatabase();
             self::$script = $script;
         }
         catch ( Throwable $e )

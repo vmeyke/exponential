@@ -14,13 +14,15 @@
  *  CP-07 the edit check goes through the filter content/edit/access as eZContentObject::editAccess() does: a
  *        listener gets the kernel's answer, the object, no version and the language; only true allows
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package tests
  * @group kernel
  * @group rest
  */
 
+#[\PHPUnit\Framework\Attributes\Group('kernel')]
+#[\PHPUnit\Framework\Attributes\Group('rest')]
 class expRestContentPermissionTestObject extends eZContentObject
 {
     public $id = 0;

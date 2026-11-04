@@ -2,7 +2,7 @@
 /**
  * File containing the eZContentFunctionCollection class.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -457,6 +457,17 @@ class eZContentFunctionCollection
                                           $parameters,
                                           $searchArray );
         return array( 'result' => $searchResult );
+    }
+
+    /**
+     * fetch( 'content', 'filtered_search' ): the search of the administration's search page, see expContentSearchFilters
+     *
+     * @param int $offset
+     * @return array
+     */
+    static public function fetchFilteredSearch( $offset )
+    {
+        return array( 'result' => expContentSearchFilters::fromCurrentRequest( $offset ) );
     }
 
     static public function fetchTrashObjectCount( $objectNameFilter, $attributeFilter = false )

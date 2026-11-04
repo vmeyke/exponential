@@ -2,14 +2,14 @@
 /**
  * File containing the expTranslationQualityTest class
  *
- * @copyright Copyright (C) 7x. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @package tests
  */
 
 /**
- * The translations of the administration that are kept complete (LANGUAGES; the kernel's catalogue and those of ezoe
- * and ezjscore, which ship with it) must stay usable: a finished translation keeps the
+ * The translations of the administration that are kept complete (LANGUAGES; the kernel's catalogue and those of ezoe,
+ * ezjscore and expimageeditor, which ship with it) must stay usable: a finished translation keeps the
  * placeholders (%1, %name ...), the HTML tags and entities, the leading and trailing whitespace and the number of
  * line breaks of its source, is not empty, and is not the English text itself unless that is right in the language
  * (a product name, a code, a word spelled the same: translation-identical-allowlist.json, each entry with its
@@ -23,16 +23,17 @@ class expTranslationQualityTest extends PHPUnit\Framework\TestCase
         'bel-BY', 'ben-BD', 'bho-IN', 'bod-CN', 'bos-BA', 'bre-FR', 'brx-IN', 'bul-BG', 'cat-ES', 'ceb-PH', 'che-RU',
         'chi-CN', 'chi-TW', 'ckb-IQ', 'cro-HR', 'cym-GB', 'cze-CZ', 'dan-DK', 'div-MV', 'doi-IN', 'dsb-DE', 'dut-NL',
         'dzo-BT', 'ell-GR', 'epo-EO', 'esl-ES', 'esl-MX', 'est-EE', 'eus-ES', 'ewe-GH', 'fao-FO', 'fas-AF', 'fas-IR',
-        'fil-PH', 'fin-FI', 'fre-FR', 'fry-NL', 'ful-SN', 'ger-DE', 'gla-GB', 'gle-IE', 'glg-ES', 'guj-IN', 'hau-NG',
-        'haw-US', 'heb-IL', 'hin-IN', 'hsb-DE', 'hun-HU', 'huy-IL', 'hye-AM', 'ibo-NG', 'ind-ID', 'isl-IS', 'ita-IT',
-        'jav-ID', 'jpn-JP', 'kab-DZ', 'kal-GL', 'kan-IN', 'kas-IN', 'kat-GE', 'kaz-KZ', 'khm-KH', 'kik-KE', 'kin-RW',
-        'kir-KG', 'kok-IN', 'kor-KP', 'kor-KR', 'kur-TR', 'lao-LA', 'lat-VA', 'lav-LV', 'lin-CD', 'lit-LT', 'ltz-LU',
-        'lug-UG', 'mai-IN', 'mal-IN', 'mar-IN', 'mkd-MK', 'mlg-MG', 'mlt-MT', 'mni-IN', 'mon-MN', 'mri-NZ', 'msa-MY',
-        'mya-MM', 'nep-NP', 'nor-NO', 'nqo-GN', 'oci-FR', 'ori-IN', 'orm-ET', 'pan-IN', 'pcm-NG', 'pnb-PK', 'pol-PL',
-        'por-BR', 'por-PT', 'pus-AF', 'que-PE', 'roh-CH', 'ron-RO', 'run-BI', 'rus-RU', 'ser-SR', 'sin-LK', 'slk-SK',
-        'slv-SI', 'sme-NO', 'sna-ZW', 'snd-PK', 'som-SO', 'sqi-AL', 'srp-RS', 'sun-ID', 'swa-KE', 'swe-SE', 'syr-IQ',
-        'tam-IN', 'tat-RU', 'tel-IN', 'tgk-TJ', 'tha-TH', 'tir-ET', 'tlh-QO', 'tuk-TM', 'tur-TR', 'uig-CN', 'ukr-UA',
-        'urd-PK', 'uzb-UZ', 'vie-VN', 'wol-SN', 'xho-ZA', 'yid-US', 'yor-NG', 'zgh-MA', 'zul-ZA' );
+        'fil-PH', 'fin-FI', 'fre-FR', 'fry-NL', 'ful-SN', 'ger-DE', 'gla-GB', 'gle-IE', 'glg-ES', 'grn-PY', 'guj-IN',
+        'hau-NG', 'haw-US', 'heb-IL', 'hin-IN', 'hsb-DE', 'hun-HU', 'huy-IL', 'hye-AM', 'ibo-NG', 'ind-ID', 'isl-IS',
+        'ita-IT', 'jav-ID', 'jpn-JP', 'kab-DZ', 'kal-GL', 'kan-IN', 'kas-IN', 'kat-GE', 'kaz-KZ', 'khm-KH', 'kik-KE',
+        'kin-RW', 'kir-KG', 'kok-IN', 'kor-KP', 'kor-KR', 'kur-TR', 'lao-LA', 'lat-VA', 'lav-LV', 'lin-CD', 'lit-LT',
+        'ltz-LU', 'lug-UG', 'mai-IN', 'mal-IN', 'mar-IN', 'mkd-MK', 'mlg-MG', 'mlt-MT', 'mni-IN', 'mon-MN', 'mri-NZ',
+        'msa-MY', 'mya-MM', 'nep-NP', 'nor-NO', 'nqo-GN', 'oci-FR', 'ori-IN', 'orm-ET', 'pan-IN', 'pcm-NG', 'pnb-PK',
+        'pol-PL', 'por-BR', 'por-PT', 'pus-AF', 'que-PE', 'roh-CH', 'ron-RO', 'run-BI', 'rus-RU', 'san-IN', 'sat-IN',
+        'ser-SR', 'sin-LK', 'slk-SK', 'slv-SI', 'sme-NO', 'sna-ZW', 'snd-PK', 'som-SO', 'sqi-AL', 'srp-RS', 'sun-ID',
+        'swa-KE', 'swe-SE', 'syr-IQ', 'tam-IN', 'tat-RU', 'tel-IN', 'tgk-TJ', 'tha-TH', 'tir-ET', 'tlh-QO', 'ton-TO',
+        'tuk-TM', 'tur-TR', 'uig-CN', 'ukr-UA', 'urd-PK', 'uzb-UZ', 'vie-VN', 'wol-SN', 'xho-ZA', 'yid-US', 'yor-NG',
+        'zgh-MA', 'zul-ZA' );
 
     const TAG = '/<[ \t\n\r]*\/?[ \t\n\r]*[A-Za-z][A-Za-z0-9]*(?:[ \t\n\r][^<>]*)?\/?[ \t\n\r]*>/';
     const ENTITY = '/&(?:#[0-9]+|#x[0-9A-Fa-f]+|[A-Za-z][A-Za-z0-9]*);/';
@@ -166,7 +167,7 @@ class expTranslationQualityTest extends PHPUnit\Framework\TestCase
         {
             $files = array_merge(
                 glob( $root . '/share/translations/' . $language . '/translation.ts' ),
-                glob( $root . '/extension/{ezoe,ezjscore}/translations/' . $language . '/translation.ts', GLOB_BRACE )
+                glob( $root . '/extension/{ezoe,ezjscore,expimageeditor}/translations/' . $language . '/translation.ts', GLOB_BRACE )
             );
             foreach ( $files as $file )
                 $rows[substr( $file, strlen( $root ) + 1 )] = array( $file, $language );

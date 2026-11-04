@@ -985,6 +985,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>navvam neH nejlu&apos;: %from - %to, %count Doch.</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>ngoq botlh chelwI'mey je Hoch tlhegh Segh, 'ej chay' lo' buvmey ngaSwI' je.</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>tlhegh Seghmey</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2317,6 +2325,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>pat navmey DaqawlaH je: nav yIpoSmoH (SeHlaw, 'olghach He, lo'wI'pu' tetlh ...) 'ej Dung "navvam yIqaw" yIwIv. qawmeH Daqmeyvetlh ghajlu' rutlh Degh.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>naDev navvam DapoSmoHmeH chaw' Daghajbe'choH. qawmeH Daq yIteq, qoj loHwI'vaD 'el chaw' yItlhob.</translation>
     </message>
 </context>
 <context>
@@ -5166,6 +5178,210 @@
         <source>Go to the first page</source>
         <translation>wa&apos;DIch nav yIjaH</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>latlh</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>Hu'mey 7 Qav</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>poH DawIvbogh</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>Hoch mu'mey</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>vay' mu'</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>mu'tlhegh qar</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>potlhghach</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>pong a–'</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>pong '–a</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>choHlu'ta', chu'qu'wI' wa'DIch</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>choHlu'ta', ngo'qu'wI' wa'DIch</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>ngeHlu'ta', chu'qu'wI' wa'DIch</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>ngeHlu'ta', ngo'qu'wI' wa'DIch</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>choHlu'ta'</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>Say'moHwI'mey</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>Say'moHwI'mey tIcha'</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>Say'moHwI'mey tISo'</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>yIchImmoH</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>yIlo'</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>mu'mey</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>De' Segh</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>latlh yIcha' (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>De' Segh wa' yIwIv, ghaH DaqDaj wa'Daq yInej.</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>'ay'</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Hal</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>ghoch</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>tagh jaj lugh 'oHbe'.</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>Qav jaj lugh 'oHbe'.</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>ghajwI'</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>lo'wI' mI', 'el pong pagh De'wI' QIn Daq.</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>“%input” lo'wI' tu'lu'be'.</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Hol</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>vay' Hol</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Daq</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>%count Daqmey</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>nav wa'Daq tu'lu'bogh De'mey</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>“%text” tu'lu'bogh De'mey (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>tu'lu'bogh De'mey (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>tetlh mIw yIlan</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>tetlh mIw yIchoH</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>chu'lu'ta'bogh Say'moHwI'mey</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>Say'moHwI'vam yIteq</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>pagh Say'moHwI'mey tIwIv 'ej tIlo'; vaj De' mumay'bogh tetlh cha'lu'.</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>mu'mey DaghItlhDI', nejmeH Daq mach Say'moHwI'mey.</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>“%text” vItu'be'.</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>pagh tu'lu'.</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>dung Say'moHwI' wa' yIteq.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>mughghachmey</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>vangghachmey</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>%name yIchoH</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>yIchoH</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -8004,8 +8220,8 @@
         <translation>chaw&apos; ghItlh poQmo&apos;, ghItlhwI&apos;pu&apos; wa&apos;DIch, Exponential ngaSbogh latlh ghommey ngoq je, ghItlh ghajghach QInmeychaj pollu&apos; Hal ghItlhmeyDaq LICENSE ghItlhDaq je.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>tlha&apos;bogh tetlh: Exponential nobwI&apos;pu&apos;, eZ Systems Contributor Licensing Agreement chutmey lutlha&apos;taHvIS, Qu&apos;chaj lo&apos; 7x &apos;e&apos; chaw&apos;pu&apos;bogh. mabvetlh chaw&apos;mo&apos;, nobghach Hoch ngeHqa&apos; 7x; nobghach ngaSbogh ghItlh chaw&apos; ghItlh rap lo&apos;. nobwI&apos; Hoch pong, rIt De&apos; (poQlu&apos;be&apos;), ghItlhmey nobta&apos;bogh QaHta&apos;bogh joq je ja&apos; tetlh.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>Exponential De&apos;wI&apos; ghunlu&apos;meH ghot ghunbogh ghaH, Hoch QInmey ghunlu&apos;pu&apos;. quvmoHmeH De&apos; &apos;oH, copyright De&apos; &apos;oHbe&apos;: Exponential ghunlu&apos;bogh Doch Exponential Foundation 7x je nobDaq Contributor Licensing Agreement lo&apos;.</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13827,32 +14043,20 @@ yIqaw: &apos;aplo&apos;mey jomHa&apos;lu&apos;be&apos;.</translation>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;Exponential Enterprise Edition yInuD&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Exponential Community yImuv, De&apos; yItam &apos;ej yInob&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; qonmeH chaw&apos; &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; latlhpu&apos; je.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>&lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt; lo&apos;lu&apos;. De&apos; latlh DaneHchugh, &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt; yIlegh.</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; qonmeH chaw&apos; &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; latlhpu&apos; je.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> De&apos; latlh DaneHchugh, &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt; yIlegh.</translation>
     </message>
     <message>
-        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; qonmeH chaw&apos; &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; latlhpu&apos; je.</translation>
+        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;Exponential yInuD (7x Hal)&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Exponential Community yImuv, QaH yISuq &apos;ej yInob&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; qonmeH chaw&apos; &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; latlhpu&apos; je.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13861,6 +14065,61 @@ yIqaw: &apos;aplo&apos;mey jomHa&apos;lu&apos;be&apos;.</translation>
     <message>
         <source>Help center</source>
         <translation>QaH botlh</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>De'</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>ghItlh navmey</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>lo'wI'pu'</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>De' buvmey</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>loHghach</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>nav %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>tu'lu'bogh De'mey Hoch tIlegh</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>%count tu'lu'</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>wa' tu'lu'</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>%count chupmey</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>chupmey tu'lu'be'</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>chupmey lI'laHbe'lu'.</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>chupmey</translation>
     </message>
 </context>
 <context>
@@ -14329,6 +14588,14 @@ yIqaw: &apos;aplo&apos;mey jomHa&apos;lu&apos;be&apos;.</translation>
         <source>Nothing new</source>
         <translation>chu&apos; pagh</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>janmeylIj</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Hung ta&apos;mey</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14618,6 +14885,14 @@ yIqaw: &apos;aplo&apos;mey jomHa&apos;lu&apos;be&apos;.</translation>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>nav, nej &apos;ej chay&apos; Qagh ja&apos;lu&apos;.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>chu&apos; De&apos;</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>chu&apos;qu&apos; De&apos;, nuDmeH &apos;ollu&apos;ta&apos;bogh, wIvlu&apos;ta&apos;bogh vangmey je.</translation>
     </message>
 </context>
 <context>
@@ -15076,6 +15351,46 @@ yIqaw: &apos;aplo&apos;mey jomHa&apos;lu&apos;be&apos;.</translation>
         <source>Synchronisations</source>
         <translation>rapmoHghachmey</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>GraphQL API: API Daq, qach nab, ghel nIDmeH Qorwagh je.</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>vIHghachmey</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>jomghach choHmey teywaymey bomlu&apos;: Dotlhchaj, QapmoHghachmey, QapmoH cheghmoH je.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>chu&apos; De&apos;</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>chu&apos;qu&apos; De&apos;, nuDmeH &apos;ollu&apos;ta&apos;bogh, wIvlu&apos;ta&apos;bogh vangmey je.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>choHbe&apos;bogh yoS velqa&apos; yI&apos;ang GitHub Pages Daq pagh git jabwI&apos; Daq.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>choHbe&apos;bogh HochvaD &apos;angghach</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>tlhegh Seghmey</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>ngoq botlh chelwI'mey je Hoch tlhegh Segh, 'ej chay' lo' buvmey ngaSwI' je.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15240,6 +15555,22 @@ yIqaw: &apos;aplo&apos;mey jomHa&apos;lu&apos;be&apos;.</translation>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>pagh lo&apos;bogh lo&apos;wI&apos; De&apos;mey, pagh bejnIS; tIchu&apos;Ha&apos;, tIngaQHa&apos;moH, pagh tIlel.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>lo&apos;wI&apos; &apos;olghach wanI&apos; tetlh</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>Hoch lo&apos;wI&apos; De&apos;vaD: &apos;Iv choHpu&apos;, &apos;Iv &apos;elpu&apos;, &apos;Iv Qo&apos;lu&apos;pu&apos;; yISay&apos;moH &apos;ej yIlel.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>&apos;elghach ja&apos;ghach</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>&apos;eltaHbogh lo&apos;wI&apos;pu&apos;, jajvaD &apos;elghachmey Qapbe&apos;ghachmey je; Dat lo&apos;wI&apos; mejmoHghach.</translation>
     </message>
 </context>
 <context>
@@ -22056,6 +22387,22 @@ yIqaw: &apos;aplo&apos;mey jomHa&apos;lu&apos;be&apos;.</translation>
         <source>%n hours ago</source>
         <translation>%n rep ret</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>GraphQL API pollu&apos;pu&apos;bogh ghelmey jangmey, qach nab De&apos; Seghmey je.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>choHbe&apos;bogh velqa&apos; yI&apos;ang GitHub Pages Daq pagh git jabwI&apos; Daq</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>choHbe&apos;bogh HochvaD &apos;angghach</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>choHbe&apos;bogh De&apos; polwI&apos; navmey jab De&apos;wI&apos; jabwI&apos;vam. yoS choHbe&apos;bogh velqa&apos; latlh DaqDaq &apos;anglu&apos;meH, GitHub Pages Daq pagh git jabwI&apos; Daq, choHbe&apos;bogh HochvaD &apos;angghach yIlo&apos;.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25597,6 +25944,10 @@ yIqaw: &apos;aplo&apos;mey jomHa&apos;lu&apos;be&apos;.</translation>
     <message>
         <source>last purge</source>
         <translation>Qav chImmoHghach</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>ghItlhmeH Dotlh ngaQHa&apos;moHwI&apos; lughaj ghItlhmey (Qav %date): Hoch pollu&apos;pu&apos;bogh ghot ngo&apos;moH Hoch ghItlh. Hoch lo&apos;wI&apos; %file ghItlhlaH net poQ; NFS Daq NFSv4 pagh lockd poQ.</translation>
     </message>
 </context>
 <context>
@@ -33545,6 +33896,14 @@ yIqaw: &apos;aplo&apos;mey jomHa&apos;lu&apos;be&apos;.</translation>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>PHP vangwI&apos; Dorta&apos;bogh poHmey teq PHP nIteb (session.gc_maxlifetime); navvam pagh session_gc poH Qu&apos; &apos;ay&apos; teqbe&apos;.</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>&apos;elghach ja&apos;ghachDaq Hoch lo&apos;wI&apos; poHmey &apos;eltaHbogh tetlhmeH ngu&apos;lu&apos;, mejmoHlu&apos; je; Hoch poH SeHwI&apos; lo&apos;taHvIS Qap ja&apos;ghach.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>&apos;elghach ja&apos;ghach yIpoSmoH</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37869,6 +38228,26 @@ yIlob.</translation>
     <message>
         <source>None yet</source>
         <translation>wej pagh</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Hung ta&apos;mey</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>&apos;elghachmeylIj chu&apos;, &apos;elnIS Qapbe&apos;ghachmey, pegh mu&apos;lIj De&apos;wI&apos; QIn DaqlIj cha&apos; mIw &apos;elghachlIj je choHmey.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>lo&apos;wI&apos; De&apos;vam &apos;elghachmey chu&apos;, &apos;elnIS Qapbe&apos;ghachmey, Hung choHmey je.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>ta&apos;mey yIbej</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>&apos;elghach Qapbe&apos;: %count</translation>
     </message>
 </context>
 <context>
@@ -44035,6 +44414,42 @@ chaw&apos;wI&apos;vaD ja&apos;ghachmey DangeH DaneHchugh pagh Dotlh DaleghmeH, b
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>&apos;elDI&apos; lo&apos;wI&apos;, latlh Ho&apos;Du&apos; ruchpa&apos; pegh mu&apos; chu&apos; wIvnIS. pegh mu&apos; ru&apos; DanobDI&apos; yIlo&apos;.</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>mIllogh tu'lu'bogh yIwIv</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>Doch DawIvbogh mIllogh ghItlh tlhegh vaDaq qonqa'lu'. latlh Doch choHbe'.</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>“%name” mIllogh tlhegh vaDaq qonqa'lu'pu'.</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>mIllogh DaSammeH yIleng</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>pong lo'taHvIS mIllogh yInej</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>yInej</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>“%name” mIllogh yIlo'</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>mIllogh vam yIlo'</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>Danejbogh mIllogh tu'lu'be'.</translation>
     </message>
 </context>
 <context>
@@ -50959,6 +51374,10 @@ latlh De&apos; DaneHchugh, poQghachmey nav yIlegh.</translation>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>crontab ghItlh ghItlhlu'pu'be' (%reason). yoS QapmoHbogh lo'wI' crontab ghItlhDaq tlheghmeyvam tIchel; ghobe'chugh, not Qap loSwI' tetlh, qemghachmey, ghuH QInmey, nejmeH tetlh je:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>kickstarter lo&apos;lu&apos;DI&apos; (%file, ghIq php bin/php/kickstarter.php run --apply) pagh chu&apos; jomlu&apos;DI&apos;, jomqa&apos;lu&apos;.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54838,6 +55257,10 @@ yIlob.</translation>
         <source>eZJSCore Public Packer cache</source>
         <translation>eZJSCore HochvaD ngaSmoHwI&apos; De&apos; polwI&apos;</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>GraphQL De&apos; polwI&apos; (jangmey qach nab Seghmey je)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54924,6 +55347,14 @@ yIlob.</translation>
     <message>
         <source>Copy of %class_name</source>
         <translation>%class_name qonqa&apos;ghach</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>tlhegh Seghmey</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>tlhegh Segh %string</translation>
     </message>
 </context>
 <context>
@@ -55750,6 +56181,26 @@ yIlob.</translation>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>SVG mIllogh laDlu&apos;be&apos;, pagh QaD &apos;anglu&apos;meH Doch ngaSbe&apos; mIllogh.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>mIllogh qonqa'laHbe'lu'. yInIDqa' pagh Daq loHwI' yIrI'.</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>Doch wIvlu'bogh tu'lu'be' pagh DalaDlaHbe'.</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>Doch wIvlu'bogh mIllogh ghajbe'.</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>Doch wIvlu'bogh mIllogh ghItlh laDlaHbe'lu'.</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>Doch wIvlu'bogh mIllogh tIn law' tlhegh vam chaw'bogh tIn puS: %1 mI'Hom ghommey.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56280,6 +56731,42 @@ yIlob.</translation>
         <source>The bookmark was renamed to "%name".</source>
         <translation>qawmeH Daq pong chu': "%name".</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>yoS lojmItvamDaq (%siteaccess) navvam chu'Ha'lu'ta'. navvam ghajbogh yoS lojmItDaq qawmeH Daq yIpoSmoH.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>naDev navvam ngoq 'ay' jomlu'be' qoj chu'lu'be'.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>navvam tu'lu'be'choH: HaStavetlh Hutlh ngoq 'ay'Daj.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>navvam DapoSmoHmeH chaw' Dunobbe' patlhmeylIj.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>yoS lojmItvam Dalo'meH chaw' Daghajbe'.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>De' cha'bogh navvam DalaDmeH chaw' Daghajbe'.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>navmey Seghvam qawmeH DaqmeyDaq chellu'laHbe': ghItlh neH ruch, qoj poH ngajDaq neH taH.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>navvam Daq tu'lu'be'.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>DaH navvam poSmoHlu'laHbe'.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56751,6 +57238,10 @@ Sor Daq buv DachoHnIS; tammeH vangghach yIlo&apos;.</translation>
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>Qav QapmoHghachDaq %count QIn Qo&apos; De&apos;wI&apos; QIn ngeHwI&apos;. De&apos;wI&apos; QIn jabwI&apos; site.ini MailSettings je yInuD.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>%count wanI&apos; loStaH &apos;ej ghuH QIn poH Qu&apos; Qapghach qonlu&apos;be&apos;. poH Qu&apos; &apos;ay&apos; &quot;frequent&quot; crontab ghItlhDaq yIchel, pagh exp:notification:run --apply yIQapmoH.</translation>
     </message>
 </context>
 <context>
@@ -63007,6 +63498,10 @@ Sor Daq buv DachoHnIS; tammeH vangghach yIlo&apos;.</translation>
         <source>Choose another site or section with the node picker</source>
         <translation>Sor Daq wIvwI&apos; yIlo&apos;; latlh yoS pagh &apos;ay&apos; yIwIv</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>ghajwI&apos; choHlaH pat loHwI&apos; neH: root DaghajtaHvIS ./console exp:content-check --fix-permissions --apply yIQapmoH.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64540,6 +65035,10 @@ Sor Daq buv DachoHnIS; tammeH vangghach yIlo&apos;.</translation>
     <message>
         <source>empty</source>
         <translation>chIm</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>qan qI&apos;meH ngaQHa&apos;moHwI&apos; (wa&apos; DIS ret law&apos; chenmoHlu&apos;): exp:audit key rotate --apply lo&apos;taHvIS yIchoH.</translation>
     </message>
 </context>
 <context>
@@ -66920,6 +67419,486 @@ Sor Daq buv DachoHnIS; tammeH vangghach yIlo&apos;.</translation>
         <source>Share of page time</source>
         <translation>nav poH &apos;ay&apos;</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>nav naQ chenmoHmeH tlhoblu'pu'</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>navvetlh ghajbe' nav De' polwI' (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>jangbe' nav De' polwI'</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>chenmoHlu'pu'</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>chenmoH ngoq botlh: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>%ms ms poHDaq nav jab nav De' polwI'. %stored poHDaq nav pol %render ms chenmoHghach; %age lup ret.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>DaH yIchenmoH</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>De' polwI' QorwaghDaq yIchegh</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>%stored poHDaq chenmoHghachvo' (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>tlhobghachvam: %ms ms poHDaq nav jab nav De' polwI'.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>lo'wI'</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>lo'wI' ngu'meH mI'</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>De' pol mI'</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>HaSta vam</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>Qorwagh De' polwI'</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>Hoch lo'wI'vaD (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>lo'wI' De' pol mI': rap mI' ghajbogh lo'wI'pu' HaSta De' pol teywI'mey lo'chuq</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>HISlaH</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ghobe'</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>'elmeH pong</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>'elta'</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>poH</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>lo'wI' qelbogh HaSta De' pol ngoq 'ay'mey, ngoq lajbogh rur, nav vam ViewCacheTweaks bIngDaq. rap mI' ghajbogh lo'wI'pu' HaSta De' pol teywI'mey lo'chuq, HaSta 'ay'mey pIm net Sovbe'chugh (parHa'ghachmey, 'IjwI' ngoqmey): pIm'a'chugh, nav vamvaD neH mI' ghaj chaH.</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>lo'wI' Delghach</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>HaSta vam (Dop %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: Hoch lo'wI' 'elta'bogh De' pol teywI'mey ghaj.</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>ViewCacheTweaks Qap: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>'ay'</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>ngoD</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>lo'wI' qelbe' 'ay' (ViewCacheTweaks).</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>HaSta vam</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>ghItlh rur yIqonqa'</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>patlhmey</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>patlh nobmey laDlaHbe'.</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>patlh ID</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>patlh</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>veH</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>nobta'</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>lo'wI'</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>ghom %name (Doch %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>qonqa'lu'ta'</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>qonqa'laHbe'.</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>'IjwI' teqta'</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>pong Hutlhbogh SuchwI'pu'</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>lIj rap</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>pIm</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>rap ViewCacheTweaks bIngDaq pongHa' tlhejwI'pu' Suqbogh mI', parHa'ghachmey motlh, HaSta 'ay'mey Hutlh: Quj laDbogh 'IjwI' tlhoblaHbe'lu'.</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>parHa'ghachmey</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>lo'wI' parHa'ghachmey qelbe' HaSta lo'ghach (site.ini [ContentSettings] CachedViewPreferences).</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>HaSta lo'ghachmey vam HaStamey qelbogh parHa'ghachmey (CachedViewPreferences), lo'wI' lo'laHghach pagh motlh. mI'Daq userpreferences rur chaH, Hoch HaSta lo'ghach tay'.</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>Qorwagh Segh</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>parHa'ghach</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>motlh</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>chaw' chutmey</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>patlhmey chutmey yI'ang (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>chutmey jabwI'vo' lI'lu' 'ay' vam poSmoHlu'DI', wa' nav wa'logh, 'ej bobcho' Qu' je luwIvlaH.</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>vangghach</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>Hoch ngoq 'ay'mey</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>Hoch Qu'mey</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>veHmey</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>latlh yI'ang</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>chutmey ghajbe' patlhmey vam.</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>wIvwI' rurbe' chut.</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%shown / %matching chutmey (%total Hoch)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>chenmoH 'e' poSDI' lan.</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>module/function, Qu', chuq</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>lut nej</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>law' lan</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>ngoq 'ay'/vangghach</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>Qu' Hoch (lut %count)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>lut 'oH ghajbe'.</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>lut %matched vo' %shown</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>jang pagh</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>So'lu'pu'</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>QIjmeH De' yIcha'</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>QIjmeH De' yISo'</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>yIpoSmoH</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>Hoch yIpoSmoH</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>Hoch yISoQmoH</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>ngaQHa'moHwI' ngoD ghap</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>poHDaq yInej</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Segh</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>latlh %count</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>cha'laHbe'lu': tlhoy 'aD</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>pe'lu'pu', Hoch %count ngutlh</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>taghlu'ta'</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>chab pong</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>poH ID</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>SeHwI'</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>polmeH He</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>PHP motlh</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>yInmeH poH (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>chab</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>yInmeH poH %s lup</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>PHP poHlIj neH 'oH, 'ay' poSmoHlu'DI' ghu'Daj; latlh poH not cha'lu'. pegh rurbogh ngaQHa'moHwI'mey ngoDmey (tokenmey, hashmey, mu'mey pegh) So'lu' (debugbar.ini SessionMask[]); latlh Hoch cha'lu' polta'lu'meH rur, nuv De' je.</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>ngaQHa'moHwI' %count, %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>tIn</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>chIm poH.</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>tlhobghachvamvaD poH taghlu'be'.</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>%name chelwI'</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>ngoq botlh latlh je</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>Hoch chelwI' cha'lu'be': naDev tetlhlu'laHbogh law' poH ngaS law'.</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>ngaQHa'moHwI' %count tetlhlu'be'.</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>HeH</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>token rurbogh ngoDmey (JSON Web Token, Authorization nach 'ollaHghach De', pegh ngaQHa'moHwI', hex ghap mIwHa' ghItlh tIq) So'lu' je, ngaQHa'moHwI'chaj pong vay' (debugbar.ini SessionValueMask[]).</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>pegh rur ngaQHa'moHwI' (debugbar.ini SessionMask[]).</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>token rur ngoD.</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>So'lu'pu'bogh ngaQHa'moHwI' bIng.</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>ghItlh rur poH, SomraS rur So'lu'pu'.</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>%size tIn law' poH tIn puS (debugbar.ini SessionWarnBytes): lo'wI'vam tlhobghach Hoch poH naQ laD, choHDI' ghItlh je.</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP poHvam polmeH ghItlhmey lo', tlhobghach naQ ghItlh ngaQmoH: lo'wI' rap tlhobghachmey (tetlh 'ay'mey law', AJAX rI'meH) ghom loS.</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>poSmoHtaH</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>%size tIn law' (debugbar.ini SessionWarnBytes): lo'wI'vam tlhobghach Hoch poH naQ laD.</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>De' polwI'vo' %hits laDlu'ta' (Hoch: %count)</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>mIw 'echlet chenmoHlu'be' (Dut De' polwI'vo' laDlu'bogh Dut pagh chenmoH).</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>patlh nobghachmey</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>patlhmey chaw' chutmey je</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>pong Huv'eghbe'bogh SuchwI'pu' rap be'</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>pong Huv'eghbe'bogh SuchwI'pu' rap</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -68800,6 +69779,14 @@ Sor Daq buv DachoHnIS; tammeH vangghach yIlo&apos;.</translation>
     <message>
         <source>not sent</source>
         <translation>ngeHlu&apos;be&apos;</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>naDev Qapghach Hoch qon ghuH QIn poH Qu&apos;. &apos;ay&apos; frequent crontab ghItlhDaq yIchel, pagh exp:notification:run --apply yIQapmoH.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>SeHlaw yIlo&apos;: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -74299,6 +75286,98 @@ Sor Daq buv DachoHnIS; tammeH vangghach yIlo&apos;.</translation>
         <source>This topic is not Released; readers do not see it.</source>
         <translation>ngangmoHbe'lu' mIwvam; legh laDwI'pu'be'.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>vIHghachmey</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>jomghach choHmey teywaymey bomlu&apos;: Dotlhchaj, QapmoHghachmey, QapmoH cheghmoH je.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>choHbe&apos;bogh yoS velqa&apos; yI&apos;ang GitHub Pages Daq pagh git jabwI&apos; Daq.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>choHbe&apos;bogh HochvaD &apos;angghach</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>nuDlu'taH</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>nav vam legh laDwI'pu'.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>vay' ngangmoHpa', laDwI'pu'vo' So'lu'.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>DaH nuDlu'taH nav. ngangmoHlu'pa', laDwI'pu'vo' So'lu'.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>ngangmoHlu' nav: DaH legh laDwI'pu'.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>nab moj nav. nuDlu' 'ej ngangmoHlu'pa', laDwI'pu'vo' So'lu'.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>DaH ngangmoH</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>%role Dotlh ghajbogh lo'wI' neH ngangmoHlaH, ghItlh vam ghItlhbe'chugh.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>ngangmoHmeH loSbogh QaH qechmey</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>ngangmoHlu'qa'pa', laDwI'pu'vo' So'.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>vaj nuD nuDwI'. wej legh laDwI'pu'.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>nom legh laDwI'pu'.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>latlh vummeH nuDmo' teq. leghbe' laDwI'pu'.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>laDwI'pu'vo' nav vam DaSo''a'?</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>nabvo' nav vam DangeHqa''a'?</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>vay' ngangmoHqa'pa', %title leghbe' laDwI'pu'.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>latlh vummeH nabvo' chegh %title. wej legh laDwI'pu', 'ej ngangmoHlu'pa' nuDlu'qa'nIS.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>yIqIl</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>nuDlu'taH qechmeyvam. DaH ghItlh ghItlhbe'bogh vay' ngangmoHDI', legh laDwI'pu'.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/languages</name>
@@ -76140,6 +77219,10 @@ Sor Daq buv DachoHnIS; tammeH vangghach yIlo&apos;.</translation>
         <source>Setup &gt; Cronjobs</source>
         <translation>SeHlaw &gt; poH Qu'mey</translation>
     </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>wej Qappu&apos; poH Qu&apos; &apos;ay&apos;mey: loStaH Qu&apos; loSwI&apos; tetlh, qemmey, ghuH QInmey, nejmeH tetlh je. php bin/php/installcrontab.php --add --apply yIQapmoH, pagh --show tlheghmey crontab ghItlhDaq tIchel.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/workflow/eventtype/expuserapprove</name>
@@ -76478,6 +77561,46 @@ Sor Daq buv DachoHnIS; tammeH vangghach yIlo&apos;.</translation>
         <source>None.</source>
         <translation>pagh.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>&apos;olwI&apos; ghun lo&apos;lu&apos;</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>De&apos;wI&apos; QIn ngoq lo&apos;lu&apos;</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>cheghmoHmeH ngoq lo&apos;lu&apos;</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>&apos;elmeH ngaQHa&apos;moHwI&apos; lo&apos;lu&apos;</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>Hur lo&apos;wI&apos; De&apos; lo&apos;lu&apos;</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Hung ta&apos;mey</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>rarmeH De&apos;wI&apos; ghom &apos;anglu&apos;; yoS De&apos; Hung DuHmey ja&apos;bogh rur Daq pollu&apos;.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>qonlu&apos;be&apos;</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Daq</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>chaq</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76721,6 +77844,42 @@ Sor Daq buv DachoHnIS; tammeH vangghach yIlo&apos;.</translation>
         <source>Manage devices</source>
         <translation>janmey tIloH</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>&apos;olwI&apos; ghun lo&apos;lu&apos;</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>De&apos;wI&apos; QIn ngoq lo&apos;lu&apos;</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>cheghmoHmeH ngoq lo&apos;lu&apos;</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>&apos;elmeH ngaQHa&apos;moHwI&apos; lo&apos;lu&apos;</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>Hur lo&apos;wI&apos; De&apos; lo&apos;lu&apos;</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Hung ta&apos;mey</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>qonlu&apos;be&apos;</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Daq</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>chaq</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76800,6 +77959,14 @@ Sor Daq buv DachoHnIS; tammeH vangghach yIlo&apos;.</translation>
         <source>View the sessions of this user</source>
         <translation>lo'wI'vam poHmey tIlegh</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>DaH %site Daq lo&apos;wI&apos; De&apos;lIj %login lo&apos;lu&apos;pu&apos; &apos;elmeH; Daq qanbe&apos; &apos;elpu&apos; Daqvo&apos;:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>Daq chaq</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76838,6 +78005,10 @@ Sor Daq buv DachoHnIS; tammeH vangghach yIlo&apos;.</translation>
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%os Daq %browser</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>&apos;elghach ja&apos;ghach</translation>
     </message>
 </context>
 <context>
@@ -77046,6 +78217,82 @@ Sor Daq buv DachoHnIS; tammeH vangghach yIlo&apos;.</translation>
         <source>The passkey could not be checked. Please try again.</source>
         <translation>'elmeH ngaQHa'moHwI' 'ollu'laHpu'be'. yInIDqa'.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>&apos;elmeH ngaQHa&apos;moHwI&apos;mey neH lo&apos;taHvIS &apos;elbogh lo&apos;wI&apos; De&apos;mey, naDev pegh mu&apos; lo&apos;laHbe&apos;: &quot;&apos;elmeH ngaQHa&apos;moHwI&apos; lo&apos;taHvIS yI&apos;el&quot; yIwIv.</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>%login &apos;elmeH ngaQHa&apos;moHwI&apos;mey</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>lo&apos;wI&apos; De&apos;vam &apos;elmeH lo&apos;lu&apos;bogh &apos;elmeH ngaQHa&apos;moHwI&apos;mey. jan chIllu&apos;pu&apos;bogh pagh jan nIHlu&apos;pu&apos;bogh DaqDaq ngaQHa&apos;moHwI&apos; yInge&apos;: &apos;ellaHbe&apos;choH. chu&apos;mey chel ghajwI&apos; neH.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>&apos;elmeH ngaQHa&apos;moHwI&apos; poQ lo&apos;wI&apos; De&apos;lIj</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>lo&apos;wI&apos; De&apos;lIjDaq &apos;elmeH ngaQHa&apos;moHwI&apos; yIchel</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>bItaHmeH, &apos;elmeH ngaQHa&apos;moHwI&apos; yIchel. ghIq pegh mu&apos; neH Dalo&apos;be&apos;; &apos;elmeH ngaQHa&apos;moHwI&apos; Dalo&apos;taHvIS bI&apos;el.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>&apos;elmeH ngaQHa&apos;moHwI&apos; lo&apos;ghach nom law&apos; &apos;ej Qob puS, pegh mu&apos; lo&apos;ghach nom puS &apos;ej Qob law&apos;. DaH wa&apos; yIchel, pagh Hutlh &apos;ach yItaH.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>DaH ghobe&apos;</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>&apos;elmeH ngaQHa&apos;moHwI&apos; &quot;%name&quot; Dange&apos;qang&apos;a&apos;?</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>lo&apos;wI&apos; De&apos;vamDaq &apos;ellaHbe&apos;choH. Qav ngaQHa&apos;moHwI&apos; ghaHchugh, pegh mu&apos; lo&apos;taHvIS &apos;el ghajwI&apos;, pagh pegh mu&apos; chu&apos; Dalan.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>&apos;elmeH ngaQHa&apos;moHwI&apos; yInge&apos;</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>yInge&apos;</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>&apos;elmeH ngaQHa&apos;moHwI&apos; ghajbe&apos; lo&apos;wI&apos; De&apos;vam.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>&apos;olwI&apos;</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Sovlu&apos;be&apos;</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>Qav &apos;elmeH ngaQHa&apos;moHwI&apos;lIj: Dateqpa&apos;, latlh yIchel.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>&apos;elmeH ngaQHa&apos;moHwI&apos;mey neH lo&apos;taHvIS &apos;el lo&apos;wI&apos; De&apos;vam (&apos;elmeH ngaQHa&apos;moHwI&apos; chut): pagh ratlhDI&apos;, pegh mu&apos;Daj lo&apos;taHvIS &apos;elqa&apos;.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>Qav &apos;elmeH ngaQHa&apos;moHwI&apos;lIj &apos;oH, &apos;ej wa&apos; Hutlhchugh &apos;ellaHbe&apos; lo&apos;wI&apos; De&apos;lIj. wa&apos;DIch latlh &apos;elmeH ngaQHa&apos;moHwI&apos; yIchel.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>&apos;elmeH ngaQHa&apos;moHwI&apos; &quot;%name&quot; nge&apos;lu&apos;ta&apos;. lo&apos;wI&apos; De&apos;vamDaq &apos;ellaHbe&apos;choH.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77145,6 +78392,34 @@ Sor Daq buv DachoHnIS; tammeH vangghach yIlo&apos;.</translation>
         <source>Code from your authenticator app</source>
         <translation>'olwI' ghunlIjvo' ngoq</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>reH De&apos; DaQaw&apos;rup, pagh ta&apos; mI&apos; DachImmoHrup.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>pegh mu&apos;lIj &apos;elmeH ngaQHa&apos;moHwI&apos; je</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>pegh mu&apos;lIj &apos;olwI&apos; ghunlIjvo&apos; ngoq je</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>pagh:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>&apos;elmeH ngaQHa&apos;moHwI&apos;mey lo&apos;laHbe&apos; De&apos; leghwI&apos;vam. latlh mIw yIlo&apos;, pagh latlh De&apos; leghwI&apos; yIlo&apos;.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>bItaHDI&apos;, &apos;elmeH ngaQHa&apos;moHwI&apos;meylIj wa&apos; tlhob De&apos; leghwI&apos;lIj.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>&apos;elmeH ngaQHa&apos;moHwI&apos; lo&apos;taHvIS yItaH</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77235,6 +78510,70 @@ Sor Daq buv DachoHnIS; tammeH vangghach yIlo&apos;.</translation>
     <message>
         <source>Setup</source>
         <translation>SeHlaw</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>pegh mu&apos;Daj, e-mail DaqDaj, &apos;elmeH ngaQHa&apos;moHwI&apos;meyDaj, cha&apos; mIw &apos;elghach, chenqa&apos;moHmeH ngoqmey pagh API ngaQHa&apos;moHwI&apos;meyDaj choHghach, latlh janmeyDajvo&apos; mejghach je.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>lo&apos;wI&apos;pu&apos;, pegh mu&apos;meychaj janmeychaj je, lo&apos;wI&apos; De&apos; DuHmey chenmoHghach choHghach je; lo&apos;wI&apos; De&apos;mey chu&apos; chawghach pagh lajQo&apos;ghach; patlhmey nobghach; chaw&apos; chutmey choHghach je.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>De&apos; Qaw&apos;ghach</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>veQ chImmoHghach, veQvo&apos; Dochmey teqghach, Dochmey law&apos; teqghach wa&apos;logh je.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>De&apos; teqghach, HochvaD &apos;angghach, polghach je</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>De&apos; teqghach (veQDaq je), HochvaD &apos;angghach, ghItlh wej rInbogh polghach je; ghItlh ngeHlu&apos;DI&apos; ghellu&apos;. motlh Qapbe&apos;.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>vangghach potlh Qapbe&apos;pa&apos;, &apos;Iv ghaH &apos;e&apos; &apos;olqa&apos; lo&apos;wI&apos; &apos;eltaHbogh: pegh mu&apos;Daj &apos;elmeH ngaQHa&apos;moHwI&apos; je lo&apos;taHvIS, pagh &apos;elmeH ngaQHa&apos;moHwI&apos; Hutlhchugh, pegh mu&apos;Daj &apos;olwI&apos; ghunDajvo&apos; ngoq je lo&apos;taHvIS. Internet nav neH ghel: REST, SOAP, WebDAV, expservices &apos;elghach, ra&apos;meH tlhegh je not ghel.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>nuqDaq DuHmey lo&apos;lu&apos;</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>vaD DuHmey</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Hoch yoS lojmIt</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>yoS lojmIt %name</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>yIpoSmoH</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>ghellu&apos;bogh: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>lo&apos;wI&apos; ghommey tIwIv, ghom ghotpu&apos; neH DaghelmeH (De&apos; choHwI&apos;pu&apos;, mu&apos;mey). pagh wIvlu&apos;chugh: Hoch lo&apos;wI&apos;.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>settings/override/site.ini.append.php DaqDaq pollu&apos;, Hoch yoS lojmItvaD. polDI&apos;, SoH &apos;e&apos; Da&apos;olnIS.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>settings/siteaccess/%name/site.ini.append.php DaqDaq pollu&apos;. settings/override DaqDaq mI&apos; tu&apos;lu&apos;chugh, potlh law&apos;. polDI&apos;, SoH &apos;e&apos; Da&apos;olnIS.</translation>
     </message>
 </context>
 <context>
@@ -77369,6 +78708,6822 @@ Sor Daq buv DachoHnIS; tammeH vangghach yIlo&apos;.</translation>
     <message>
         <source>Open the page</source>
         <translation>nav yIpoSmoH</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from vo&apos; %to ghoS; Hoch: %count</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>&apos;elmeH pong ghap lo&apos;wI&apos; ngu&apos;meH mI&apos;: wanI&apos; lo&apos;wI&apos; De&apos; ghap vangpu&apos;bogh lo&apos;wI&apos;.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>lo&apos;wI&apos; De&apos;</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>vangghach</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>tlha&apos;</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>Hoch ngoD</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>nung</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>vangwI&apos;</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>yIchImmoH</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>rIn</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>%days jaj wanI&apos;mey pollu&apos;.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>ghopDu&apos;mo&apos; teqlu&apos;pa&apos; wanI&apos;mey pollu&apos;.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>wanI&apos;mey</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>Hoch vangghach</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>lo&apos;wI&apos; De&apos;vam wanI&apos;mey Hoch</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>CSV ghItlh Segh: tetlh yIlel (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Qapbe&apos;</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Hal</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>tetlh yISay&apos;moH</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>wanI&apos; pagh tu&apos;lu&apos;.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>wa&apos; navDaq</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>audit.ini ghItlhDaq qonghach chu&apos;Ha&apos;lu&apos;ta&apos; ([UserAuditSettings] UserAudit); qonlu&apos;pu&apos;bogh wanI&apos;mey &apos;agh tetlh.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Qo&apos;lu&apos;ta&apos;</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>ngoD</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>yI&apos;ang</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>lo&apos;wI&apos; &apos;olghach wanI&apos; tetlh ngaSbogh tetlh tu&apos;lu&apos;be&apos;. php update/common/scripts/6.0/createuseraudittable.php yIlo&apos; &apos;ej yIchenmoH; chenmoHlu&apos;pa&apos; Hoch wanI&apos; pol &apos;olghach ghItlhmey.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>SQL De&apos; pa&apos; poQ navvam; MongoDB lo&apos;lu&apos;taHvIS lo&apos;laHbe&apos;lu&apos;. Hoch wanI&apos; pol &apos;olghach ghItlhmey.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>ghoch</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>lo&apos;wI&apos; &apos;olghach wanI&apos; tetlh</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>lo&apos;wI&apos;</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>ghorgh</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>nuqDaq</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>&apos;Iv lo&apos;wI&apos; De&apos; choHpu&apos;, chenmoHpu&apos;, chu&apos;pu&apos;, chu&apos;Ha&apos;pu&apos;, vIHmoHpu&apos;, teqpu&apos; je? &apos;Iv &apos;elpu&apos; ghap Qo&apos;lu&apos;pu&apos;? nuq patlhmey nobpu&apos;lu&apos;? wa&apos; tlhegh wa&apos; wanI&apos;vaD, nungbogh Dotlh tlha&apos;bogh Dotlh je. pegh mu&apos;mey peghmey je not qonlu&apos;.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>ghom</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>pat</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>Sovlu&apos;be&apos;</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>lo&apos;wI&apos; De&apos;lIj yIQan</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>%site Daq lo&apos;wI&apos; De&apos;lIj %login &apos;elmeH cheghmoHmeH ngoq lo&apos;lu&apos;pu&apos;.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>cheghmoHmeH ngoq lo&apos;lu&apos;pu&apos;</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>lo&apos;wI&apos; De&apos;</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>Daq chaq</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>pegh mu&apos; chu&apos; yItlhob &apos;elqa&apos;meH, pagh yoS loHwI&apos;pu&apos; tIrI&apos;.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>pegh mu&apos; chu&apos; yItlhob</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>wa&apos;logh neH Qap Hoch cheghmoHmeH ngoq. ghogh HablIj Dachiljaj, &apos;olwI&apos; ghunlIj yIcherqa&apos; &apos;ej cheghmoHmeH ngoqmey chu&apos; Daq QaDDaq tIpol.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>lo&apos;wI&apos; De&apos;lIjDaq &apos;elnIS Qapbe&apos;ghachmey</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>DaH pegh mu&apos;lIj ngoq je poQ &apos;elghach. DaghaHDI&apos; vay&apos; Dara&apos;nISbe&apos;.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>SoH DaghaHta&apos; &apos;ej pegh mu&apos;lIj DalijDI&apos;, chu&apos; yItlhob. SoHbe&apos;chugh, pegh mu&apos; HoSqu&apos; yIwIv &apos;ej cha&apos; mIw &apos;elghach yIchu&apos;.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>SoHbe&apos;chugh, chaq pegh mu&apos;lIj Sov vay&apos;: DaH yIchoH &apos;ej nuqDaq &apos;eltaH lo&apos;wI&apos; De&apos;lIj yInej.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>cheghmoHmeH ngoqmey ratlhbogh</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>janmeylIj tIbej</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>Hung ghuHmoHghach</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>%site Daq lo&apos;wI&apos; De&apos;lIj %login &apos;elnIS vay&apos; pegh mu&apos; muj lo&apos;taHvIS, ghIq qa&apos;logh: %count.</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>%site Daq lo&apos;wI&apos; De&apos;lIj %login Hung wanI&apos; qaS.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>lo&apos;wI&apos; De&apos;lIj Hung ghuHmoHghach &apos;oH. Hoch choH rurbogh vaD ngeHlu&apos; &apos;ej chu&apos;Ha&apos;laHbe&apos;lu&apos;.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>poH</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>%site Daq lo&apos;wI&apos; De&apos;lIj %login vaD cha&apos; mIw &apos;elghach chu&apos;Ha&apos;lu&apos;pu&apos;.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>cha&apos; mIw &apos;elghach chu&apos;Ha&apos;lu&apos;pu&apos;</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>%site Daq lo&apos;wI&apos; De&apos;lIj %login vaD cha&apos; mIw &apos;elghach chu&apos;lu&apos;pu&apos;.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>cha&apos; mIw &apos;elghach chu&apos;lu&apos;pu&apos;</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>%site Daq lo&apos;wI&apos; De&apos;lIj %login ngaQmoHlu&apos;pu&apos; &apos;elghach Qapbe&apos; law&apos;qu&apos;pu&apos; &apos;ellu&apos;DI&apos;.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>DaH pegh mu&apos;lIj neH lo&apos;wI&apos; De&apos;lIj Qan. SoH Dara&apos;be&apos;chugh, pegh mu&apos;lIj DachoHpu&apos;DI&apos; cha&apos; mIw &apos;elghach yIchu&apos;qa&apos;.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>lo&apos;wI&apos; De&apos;lIj ngaQmoHlu&apos;pu&apos;</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>%site Daq lo&apos;wI&apos; De&apos;lIj %login chellu&apos;ta&apos; &apos;elmeH ngaQHa&apos;moHwI&apos;.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>&apos;elmeH ngaQHa&apos;moHwI&apos;vam ghajbogh vay&apos; lo&apos;wI&apos; De&apos;lIjDaq &apos;ellaH, pegh mu&apos;lIj Hutlhchugh je. bachelbe&apos;chugh, &apos;elmeH ngaQHa&apos;moHwI&apos;mey Daq yIteq &apos;ej pegh mu&apos;lIj yIchoH.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>%site Daq lo&apos;wI&apos; De&apos;lIj %login vo&apos; &apos;elmeH ngaQHa&apos;moHwI&apos; teqlu&apos;ta&apos;.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>lo&apos;wI&apos; De&apos;lIjDaq &apos;ellaHbe&apos;choH. bIteqbe&apos;chugh, &apos;elmeH ngaQHa&apos;moHwI&apos;meylIj janmeylIj je tInuD.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>lo&apos;wI&apos; De&apos;lIjDaq &apos;elmeH ngaQHa&apos;moHwI&apos; chellu&apos;ta&apos;</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>lo&apos;wI&apos; De&apos;lIjvo&apos; &apos;elmeH ngaQHa&apos;moHwI&apos; teqlu&apos;ta&apos;</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>Hung ta&apos;mey</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>%name lo&apos;wI&apos; Hung ta&apos;mey</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>&apos;ellu&apos;ta&apos;</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>&apos;elnIS Qapbe&apos;ghach</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>mejlu&apos;ta&apos;</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>poHmey mejmoHlu&apos;ta&apos;</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>jan chu&apos;vo&apos; &apos;elghach</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Daq chu&apos;vo&apos; &apos;elghach</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>ngu&apos;lu&apos;ta&apos; ghot (&quot;SoH &apos;e&apos; yI&apos;ol&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>ghot &apos;olghach Qapbe&apos;</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>&apos;elmeH ngaQHa&apos;moHwI&apos; lo&apos;taHvIS &apos;ellu&apos;ta&apos;</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>&apos;elmeH ngaQHa&apos;moHwI&apos; &apos;elghach Qapbe&apos;</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>&apos;elghach Qo&apos;lu&apos;ta&apos;: cha&apos; mIw ngoq Hutlh pagh muj</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>cha&apos; mIw ngoq muj</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>&apos;elghach Qapbe&apos;mo&apos; lo&apos;wI&apos; De&apos; ngaQmoHlu&apos;ta&apos;</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>lo&apos;wI&apos; De&apos; ngaQHa&apos;moHlu&apos;ta&apos;</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>pegh mu&apos; choHlu&apos;ta&apos;</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>pegh mu&apos; choHghach Qapbe&apos;</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>pegh mu&apos; cherqa&apos;lu&apos;ta&apos;</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>pegh mu&apos; chu&apos; tlhoblu&apos;ta&apos;</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>De&apos;wI&apos; QIn Daq choHlu&apos;ta&apos;</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>lo&apos;wI&apos; pong choHlu&apos;ta&apos;</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>cha&apos; mIw &apos;elghach chu&apos;lu&apos;ta&apos;</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>cha&apos; mIw &apos;elghach chu&apos;Ha&apos;lu&apos;ta&apos;</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>cheghmoHmeH ngoq lo&apos;lu&apos;ta&apos;</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>cheghmoHmeH ngoqmey chu&apos;</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>ghun mu&apos;ngaq chenmoHlu&apos;ta&apos;</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>ghun mu&apos;ngaq nge&apos;lu&apos;ta&apos;</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>&apos;elmeH ngaQHa&apos;moHwI&apos; chellu&apos;ta&apos;</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>&apos;elmeH ngaQHa&apos;moHwI&apos; teqlu&apos;ta&apos;</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>lo&apos;wI&apos; De&apos; chu&apos;lu&apos;ta&apos;</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>lo&apos;wI&apos; De&apos; chu&apos;Ha&apos;lu&apos;ta&apos;</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Hoch</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>&apos;elghachmey poHmey je</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>lo&apos;wI&apos; De&apos; choHmey</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>qImHa&apos;be&apos;nIS</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>ta&apos;wI&apos;: SoH</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>ta&apos;wI&apos;: lo&apos;wI&apos;</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>ta&apos;wI&apos;: %login</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>mIw</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>De&apos; leghwI&apos;</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>De&apos;wI&apos; pat</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>jan</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>Daq</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>Sep</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>poHmey</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>nuq</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>He</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>&apos;elnIS Qapbe&apos;ghachmey</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>ngoqmey ratlhbogh</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>&apos;elghach SeHwI&apos;</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Hung ta&apos;mey</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>%name lo&apos;wI&apos; Hung ta&apos;mey</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>&apos;elghachmey lo&apos;wI&apos; De&apos;lIj Hung choHmey je. vay&apos; Dara&apos;be&apos;bogh Daleghchugh, pegh mu&apos;lIj yIchoH &apos;ej janmey DaghovlaHbe&apos;bogh tImejmoH.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>&apos;elghachmey lo&apos;wI&apos; De&apos;vam Hung choHmey je.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>janmeylIj</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>pegh mu&apos; yIchoH</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>lo&apos;wI&apos; De&apos;Daq yIchegh</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>Hung ta&apos;mey qonlu&apos;be&apos;</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>lo&apos;wI&apos; &apos;olghach wanI&apos; tetlhvo&apos; laDlu&apos;; De&apos; pa&apos;vamDaq expuser_audit SomraD Hutlh pagh QaHlu&apos;be&apos;. php update/common/scripts/6.0/createuseraudittable.php yIQapmoH, pagh 6.0.15 De&apos; pa&apos; choHghach yIQapmoH.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Hopbe&apos;bogh jajmey: %days</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Hopbe&apos;bogh jajmey &apos;elghachmey (%days)</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>Hung ta&apos;mey chu&apos;</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>yI&apos;ang</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>Qapbe&apos;</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>Qo&apos;lu&apos;ta&apos;</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>wej Hung ta&apos; qonlu&apos;.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>%days jaj pollu&apos; Hung wanI&apos;mey.</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>Hung wanI&apos;mey teqpa&apos; loHwI&apos;, pollu&apos;.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>&apos;elghach De&apos;wIj yIHev</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>poHmeylIj Hung wanI&apos;meylIj je, JSON ghItlh mol.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>naDev poHmey qonlu'be', vaj latlh jan mejmoHlaHbe'lu'. DaH pegh mu'lIj yIchoH.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>latlh poHmey %count mejmoHlu'pu'. DaH pegh mu'lIj yIchoH.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>latlh jan 'elpu'be'. DaH pegh mu'lIj yIchoH.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>qatlho'. wanI' Daghaj neH 'oH 'e' ghItlhlu'pu'.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>wanI'vam jang'e' poQbe'.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>nav Heghpu'. pagh choHlu'pu'; yInIDqa'.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>lo'wI' De'lIj yIQan</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>naDev vay' DaruchHa'chugh, Hoch janmey latlh tImejmoH, ghIq pegh mu' chu' yIwIv. HIqaw lo'meH 'elmeH ratlhbogh janmey mejmoHlu' je.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Hoch jan 'ach janvam mejmoHlu' tlhobmeH ghItlh veb. ghIq pegh mu' chu' DawIv.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>HIja', janmey latlh tImejmoH</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>SoH'a' DaH?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>HIja', jIH</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>ghobe', lo'wI' De'wIj yIQan</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>&apos;ellu&apos;ta&apos;</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>&apos;elnIS Qapbe&apos;ghach</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>mejlu&apos;ta&apos;</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>poHmey mejmoHlu&apos;ta&apos;</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>jan chu&apos;vo&apos; &apos;elghach</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Daq chu&apos;vo&apos; &apos;elghach</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>ngu&apos;lu&apos;ta&apos; ghot (&quot;SoH &apos;e&apos; yI&apos;ol&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>ghot &apos;olghach Qapbe&apos;</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>&apos;elmeH ngaQHa&apos;moHwI&apos; lo&apos;taHvIS &apos;ellu&apos;ta&apos;</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>&apos;elmeH ngaQHa&apos;moHwI&apos; &apos;elghach Qapbe&apos;</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>&apos;elghach Qo&apos;lu&apos;ta&apos;: cha&apos; mIw ngoq Hutlh pagh muj</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>cha&apos; mIw ngoq muj</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>&apos;elghach Qapbe&apos;mo&apos; lo&apos;wI&apos; De&apos; ngaQmoHlu&apos;ta&apos;</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>lo&apos;wI&apos; De&apos; ngaQHa&apos;moHlu&apos;ta&apos;</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>pegh mu&apos; choHlu&apos;ta&apos;</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>pegh mu&apos; choHghach Qapbe&apos;</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>pegh mu&apos; cherqa&apos;lu&apos;ta&apos;</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>pegh mu&apos; chu&apos; tlhoblu&apos;ta&apos;</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>De&apos;wI&apos; QIn Daq choHlu&apos;ta&apos;</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>lo&apos;wI&apos; pong choHlu&apos;ta&apos;</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>cha&apos; mIw &apos;elghach chu&apos;lu&apos;ta&apos;</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>cha&apos; mIw &apos;elghach chu&apos;Ha&apos;lu&apos;ta&apos;</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>cheghmoHmeH ngoq lo&apos;lu&apos;ta&apos;</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>cheghmoHmeH ngoqmey chu&apos;</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>ghun mu&apos;ngaq chenmoHlu&apos;ta&apos;</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>ghun mu&apos;ngaq nge&apos;lu&apos;ta&apos;</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>&apos;elmeH ngaQHa&apos;moHwI&apos; chellu&apos;ta&apos;</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>&apos;elmeH ngaQHa&apos;moHwI&apos; teqlu&apos;ta&apos;</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>lo&apos;wI&apos; De&apos; chu&apos;lu&apos;ta&apos;</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>lo&apos;wI&apos; De&apos; chu&apos;Ha&apos;lu&apos;ta&apos;</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Hoch</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>&apos;elghachmey poHmey je</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>lo&apos;wI&apos; De&apos; choHmey</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>qImHa&apos;be&apos;nIS</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Hung ta&apos;mey</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>%name lo&apos;wI&apos; Hung ta&apos;mey</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>&apos;elghachmey lo&apos;wI&apos; De&apos;lIj Hung choHmey je. vay&apos; Dara&apos;be&apos;bogh Daleghchugh, pegh mu&apos;lIj yIchoH &apos;ej janmey DaghovlaHbe&apos;bogh tImejmoH.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>janmeylIj</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>pegh mu&apos; yIchoH</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>wej yoSvamDaq Hung ta&apos;mey qonlu&apos;.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Hopbe&apos;bogh jajmey &apos;elghachmey (%days)</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>&apos;elnIS Qapbe&apos;ghachmey</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>wej Hung ta&apos; qonlu&apos;.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>&apos;elghach De&apos;wIj yIHev</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>poHmeylIj Hung wanI&apos;meylIj je, JSON ghItlh mol.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>naDev poHmey qonlu'be', vaj latlh jan mejmoHlaHbe'lu'. DaH pegh mu'lIj yIchoH.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>latlh poHmey %count mejmoHlu'pu'. DaH pegh mu'lIj yIchoH.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>latlh jan 'elpu'be'. DaH pegh mu'lIj yIchoH.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>qatlho'. wanI' Daghaj neH 'oH 'e' ghItlhlu'pu'.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>wanI'vam jang'e' poQbe'.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>nav Heghpu'. pagh choHlu'pu'; yInIDqa'.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>lo'wI' De'lIj yIQan</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>naDev vay' DaruchHa'chugh, Hoch janmey latlh tImejmoH, ghIq pegh mu' chu' yIwIv. HIqaw lo'meH 'elmeH ratlhbogh janmey mejmoHlu' je.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Hoch jan 'ach janvam mejmoHlu' tlhobmeH ghItlh veb. ghIq pegh mu' chu' DawIv.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>HIja', janmey latlh tImejmoH</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>SoH'a' DaH?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>HIja', jIH</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>ghobe', lo'wI' De'wIj yIQan</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>pegh mu&apos;</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>pegh mu&apos; cha&apos; mIw ngoq je</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>REST rarwI&apos;</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>SOAP rarwI&apos;</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>wa&apos; &apos;elghach</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>poHmey qonlu&apos;pa&apos; &apos;ellu&apos;ta&apos;</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>&apos;elghach ja&apos;ghach</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>yoSDaq &apos;eltaHbogh lo&apos;wI&apos;pu&apos;, &apos;elghachmey Qapbe&apos;ghachmey je mI&apos;, Dat lo&apos;wI&apos; mejmoHghach je. Hoch poH SeHwI&apos; lo&apos;taHvIS Qap.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>poH mejmoHlu&apos;ta&apos;. &apos;elqa&apos;nIS jan.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>%login poHmey mejmoHlu&apos;ta&apos;: %count.</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>%login poH QaptaHbogh tu&apos;lu&apos;be&apos;.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>lo&apos;wI&apos; De&apos; ghajbogh ngu&apos;meH mI&apos;vam, lo&apos;wI&apos; pongvam, De&apos;wI&apos; QIn Daqvam ghap tu&apos;lu&apos;be&apos;.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>poH Dalo&apos;taHbogh &apos;oH. DarInmoHmeH, yImej.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>rInpu&apos;ta&apos; poHvetlh.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>nav poH rInpu&apos;ta&apos;. pagh choHlu&apos;pu&apos;; yInIDqa&apos;.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>yoSvamDaq poHmey qonlu&apos;be&apos; (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>expuser_session SomraD Hutlh</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>chenmoHlu&apos;DI&apos; poHmey qonlu&apos;: php update/common/scripts/6.0/createusersessiontable.php, pagh 6.0.15 De&apos; pa&apos; choHghach.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>DaH DaHjaj je</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>poHmey QaptaHbogh</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>lo&apos;wI&apos;pu&apos; &apos;eltaHbogh</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>DaHjaj &apos;elghachmey</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>DaHjaj &apos;elnIS Qapbe&apos;ghachmey</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>Dat lo&apos;wI&apos; yImejmoH</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>lo&apos;wI&apos; De&apos; poH Hoch rIn tlhobghach veb, &quot;HIqaw&quot; pollu&apos;bogh poHmey je. lo&apos;wI&apos; De&apos; ghaj ghot muj net Har, yIlo&apos;; ghIq pegh mu&apos;Daj yIcherqa&apos;.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>lo&apos;wI&apos; ngu&apos;meH mI&apos;, lo&apos;wI&apos; pong, pagh De&apos;wI&apos; QIn Daq</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>Dat yImejmoH</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>DaH &apos;eltaH</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>Hopbe&apos;bogh lo&apos;lu&apos;pu&apos;bogh &apos;anglu&apos; (%limit law&apos;be&apos;).</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>lo&apos;wI&apos;</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>jan</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Daq</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>&apos;ellu&apos;ta&apos;</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>Hopbe&apos;bogh Qap poH</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>vangghachmey</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>janvam</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>qonlu&apos;be&apos;</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>yImejmoH</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>pagh poH &apos;eltaH.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Hopbe&apos;bogh jajmey: %days</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>lo&apos;wI&apos; &apos;olghach wanI&apos; tetlhvo&apos; &apos;elghachmey &apos;elnIS Qapbe&apos;ghachmey je toghlu&apos;, &apos;ach tu&apos;lu&apos;be&apos;; poHmey chu&apos; toghlu&apos;.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>jaj</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>&apos;elghachmey</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>&apos;elnIS Qapbe&apos;ghachmey</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>poHmey chu&apos;</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>poH SeHwI&apos;: %handler. expuser_session SomraDvo&apos; poHmey laDlu&apos;, vaj Hoch SeHwI&apos; lo&apos;taHvIS Qap ja&apos;ghach.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>rIntaHbogh %hours rep Daq vI'Hu'bogh ta'mey</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>%accounts lo'wI' De'mey 'elmeH Qapbe' De'wI' QIn wa' (%count nIDmey)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Qapbe'bogh 'elmeH nIDmey ghIq lo'wI' De' ngaQlu'</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>lo'wI' De' wa'Daq %count Qapbe'bogh 'elmeH nIDmey</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>rap poHDaq %count Sepmey vo' 'elpu'</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Hung ta'mey</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>poHmey</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>Qapbe'bogh 'elmeH nIDmey laDlu' lo'wI'pu' nuDmeH ghItlh vo', 'ach naDev tu'lu'be'.</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>pagh vI'Hu'be': 'elmeH nIDmey Qapbe'bogh luqa'bogh lo'wI' De' tu'lu'be', lo'wI' De'mey law' nIDbogh De'wI' QIn tu'lu'be', Sepmey law' vo' 'elpu'bogh lo'wI' De' tu'lu'be'.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>lo&apos;wI&apos; De&apos;lIj Hung ghuHmoHghach</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>lo&apos;wI&apos; De&apos;lIj %login Hung wanI&apos; qaS: %event. SoHbe&apos;chugh, %url Daq lo&apos;wI&apos; De&apos;lIj yIQan.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>SeHlaw</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>wa' tlhobmeH naDev De' yIpoQ: ghItlh'a' poQbogh mIwmey neH. De' Seghmey tlha' qach nab; ngeHbogh lo'wI' DIchmey lo' Hoch ghel.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>yoS lojmIt vam Daq GraphQL API chu'Ha'lu'. graphql.ini Daq yIchu': [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>GraphQL paq'or (webonyx/graphql-php 15) jomlu'be'.</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>API Daq</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>paq'or</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>qach nab</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>%count De' Seghmey, qach nab %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>ghel</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>choHlaHbogh mI'mey (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>yIQapmoH</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>jang</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>QaptaH…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>jang laDlaHbe'lu'.</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>DIchmeylIj lo' ghel; ghom vam Daq Da'el.</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%seconds lup Daq %count</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>veH pagh</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>juch</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>Qatlhghach</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>tetlh Hoch Doch mI'</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (motlh %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>lo'wI' ngaQHa'moHwI' ghap tlhobghachmey</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>pongHa' URL Daq tlhobghachmey</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>qach nab nuDghach (introspection)</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>pollu'pu'bogh ghelmey neH</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>ghel tIn law'</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>%bytes byte</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>lab tIn law'</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>%siteaccess yoS lojmIt tu'lu'be'.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>%siteaccess Daq choHmoHghachmey chu'lu'ta'.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>%siteaccess Daq choHmoHghachmey chu'Ha'lu'ta'.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>%siteaccess Daq GraphQL API chu'lu'ta'.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>%siteaccess Daq GraphQL API chu'Ha'lu'ta'.</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>DuHmey ghItlhlaHbe'lu': %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>jang De' polwI' chImmoHlu'ta': %count jangmey teqlu'.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>ghel DateqmeH ghel retlh 'aplo' yIghItlh.</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>ghel teqlaHbe'lu': PersistedQueryDirectoryList[] ghItlh qach Daq ghelvetlh nobpu'lu'chugh, ghItlhDaj tlhej teqlu'.</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>pollu'pu'bogh ghel teqlu'ta'.</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>choHmoHghachmey</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>chu'lu'ta'</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>chu'Ha'lu'ta'</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>yoS lojmItmey</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>API choHmoHghachmeyDaj je jangmeH Daq. graphql.ini ghItlh leQmey, ./console exp:graphql:enable exp:graphql:disable je rur.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>yoS lojmIt</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>GraphQL API</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>yIchoH</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>yIchu'Ha'</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>choHmoHghachmey yIchu'Ha'</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>choHmoHghachmey yIchu'</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>yIchu'</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>veHmey</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>yoS lojmIt vam graphql.ini [GraphQLSettings].</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>jang De' polwI'</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>pollu'pu'bogh ghelmey jangmey; lo'wI' chaw' tlhej pollu' 'ej De' chu' ghItlhlu'DI' HeghmoHlu'.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Dotlh</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>jangmey pollu'pu'bogh</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>%count jangmey, %bytes byte</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>poH nIb law'</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds lup</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>Qav Heghghach</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>jang De' polwI' yIchImmoH</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>pollu'pu'bogh ghelmey</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>./console exp:graphql:persist lo'lu'DI' pollu', pagh De'wI' ngaSwI' polmoH (pollu'pu'bogh ghelmey ghun'eghchu'); pong pagh SHA-256 lo'lu'DI' rI'lu'.</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>pongmey</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>tInghach</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>nuqDaq</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>yIteq</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>nobpu'lu'bogh</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>pollu'pu'bogh</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>HISlaH, ghel vam yIteq</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>pollu'pu'bogh ghel tu'lu'be' DaH.</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>API ngaQHa'moHwI'mey</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>graphql:read (ghelmey) pagh graphql:write (choHmoHghachmey) chaw' veH ghajbogh ngoch API ngaQHa'moHwI'mey. API 'el chaw' nav Daq pagh ./console exp:graphql:keys lo'taHvIS tIchenmoH 'ej tIteq.</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>API 'el chaw'</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>Hoch ngaQHa'moHwI'mey</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>ngaQHa'moHwI'</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>pong</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>ghajwI'</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>chaw' veHmey</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>Qav lo'ghach</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>Qap</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>Heghpu'</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>nge'lu'ta'</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>not</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>GraphQL chaw' veH ghajbogh API ngaQHa'moHwI' tu'lu'be' DaH.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>nav vam 'aghbogh yoS lojmIt %siteaccess Daq GraphQL API chu'Ha'lu'; bIngDaq ghItlh 'agh jangmeH Daq.</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>nav vam 'aghbogh yoS lojmIt %siteaccess vaD.</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>ghuHmoHwI'mey</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>API Daq poQbogh Hoch wanI' (publish, update, trash, delete, move, hide, reveal, mutation) ngeH cronjob 'ay' graphqlwebhooks; qIlpu'. ./console exp:graphql:webhooks 'ay' vam rur.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>wanI'mey</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>Hoch</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Hoch yoS lojmIt</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>ghorlu'</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>pegh tu'lu'be'</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>loSlu'</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count lujegh</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>Qav ngeHghach</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>waH yIngeH</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>HISlaH, ghuHmoHwI' vam yIteq</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>ghuHmoHwI' tu'lu'be' DaH.</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>ghuHmoHwI' yIchel</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>yIchel</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>ngeHghachmey chu'</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>poH</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>rIn</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>qIlghachmey</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>jIHwI'pu'vaD DaH chu'moHghachmey: /api/graphql/subscribe Daq wanI' bIQtIq, Velocity Daq WebSocket (graphql-transport-ws) je. De' laDlaHbogh qIlwI'pu'vaD neH Hoch wanI' ngeHlu'.</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>DaH poSmoHlu'</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>poSmoHlu'bogh 'aqroS</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>%total Hoch, %user Hoch lo'wI'vaD, %address Hoch DaqvaD</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>pongHa'bogh qIlghachmey</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>bIQtIq poH</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>ghuHmoHwI' chellu'laHbe': %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>%name ghuHmoHwI' choHlu'ta'; qIlmeH peghDaj ratlh.</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>qIlmeH pegh pollu'laHbe' (SeHlaw &gt; peghmey).</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>%name ghuHmoHwI' chellu'ta'. qIlmeH peghDaj, wa'logh neH 'aghlu': %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>%name ghuHmoHwI' tu'lu'be'.</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>jangbe' %name ghuHmoHwI': %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>%ms ms jangta' %name ghuHmoHwI': %status.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>ghuHmoHwI' DateqmeH ghuHmoHwI' retlh 'aplo' yIghItlh.</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>%name ghuHmoHwI' teqlu'ta'.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>yoS lojmIt vam Daq GraphQL API chu&apos;Ha&apos;lu&apos;.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>GraphQL paq&apos;or jomlu&apos;be&apos;.</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>GET pagh POST yIlo&apos;.</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>JSON Doch &apos;oHbe&apos; tlhobghach porgh.</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>JSON Doch &apos;oHbe&apos; variables.</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>JSON Doch &apos;oHbe&apos; extensions.</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>POST lo&apos;meH ghel yIngeH.</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>ghel ghajbe&apos; tlhobghach.</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>ghel tIq law&apos; %max byte tIq puS.</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>jabwI&apos; qoD Qagh</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node poQ wa&apos; neH: id, remoteId, path pagh urlAlias.</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content poQ wa&apos; neH: id pagh remoteId.</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>after SIqwI&apos; nobpu&apos;be&apos; API vam.</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>%alias mIllogh pong latlh tu&apos;lu&apos;be&apos; (image.ini [AliasSettings] AliasList[]).</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>naDev pollu&apos;pu&apos;bogh ghelmey neH laj: pollu&apos;pu&apos;bogh ghel id yIngeH.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>SHA-256 &apos;oHbe&apos; pollu&apos;pu&apos;bogh ghel hash.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>ghel rap&apos;be&apos; pollu&apos;pu&apos;bogh ghel hash.</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>tlhobghachmey law&apos;qu&apos;: %window lup tlhobghach %limit neH. %reset lup pIq yInIDqa&apos;.</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>%depth patlh Saw ghel; %max neH chaw&apos;lu&apos;.</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>%complexity Qatlhghach ghaj ghel; %max neH chaw&apos;lu&apos;.</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>qach nab laDlaHbe&apos; tlhobghach vam (introspection).</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search poQ ghItlh pagh SeHwI&apos; (classes, subtree, sections, publishedAfter, publishedBefore).</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>jaj &apos;oHbe&apos; %argument (ISO 8601, 2026-10-30).</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag poQ wa&apos; neH: id, remoteId pagh path.</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout poQ wa&apos; neH: id, identifier pagh urlAlias.</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>tlhobghach law' 'ay' tlhegh operations wa' JSON tlhobghach 'oHbe'.</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>tlhobghach law' 'ay' tlhegh map JSON Doch 'oHbe'.</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>%field ghItlh ghajbe' tlhobghach law' 'ay'.</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>tlhegh map He variables. DaH tagh net poQ: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>naQ paQDI'be' %name ghItlh (lab Qagh %error).</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>%max byte tIn law' %name ghItlh tIn puS.</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>%name ghItlh nuDlaHbe'lu'.</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>yoS lojmIt vam Daq choHmoHghachmey chu'Ha'lu' (graphql.ini [GraphQLSettings] MutationsEnabled).</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>POST lo'taHvIS choHmoHghach yIngeH.</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>De' DachoHmeH yI'el.</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>%scope chaw' veH ghajbe' API ngaQHa'moHwI'.</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>ghom ghajbogh choHmoHghach ghom mutlhghach Degh poQ (nach X-CSRF-Token).</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>uploadFromUrl chu'Ha'lu': jabwI' pagh pong graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>https URL Daq 'oH URL Daq'e' net poQ.</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>graphql.ini [GraphQLSettings] UploadFromUrlHostList[] Daq tu'lu'be' %host jabwI'.</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>ghItlh Suqlu'laHbe'.</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>'el Segh neH 'oH Upload'e'.</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>tlhobghach law' 'ay' ghItlh lajmeH Upload Segh choHwI' lo'lu'.</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>remote id %remoteId lo'lu'pu'.</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>%language mughmoHghach ghaj De' DaH: updateContent yIlo'.</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>wa' tlhegh yInob, puSqu'.</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>chovnatlh chu' chenmoHlaHbe'lu' (nab law'qu' ghaj De').</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>nab 'oHbe' %version chovnatlh.</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>id nodeId ghap wa' neH poQ deleteContent.</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>Daq'e' Daq bIng vIHmoHlaHbe'lu'.</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>%parentId bIng Daq ghaj De' DaH.</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>%field tlhegh ngoD pollaHbe'lu'.</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>%language De' Hol tu'lu'be'.</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>qach nab Daq %class De' buv tu'lu'be'.</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>naDev De' tu'lu'be', pagh bIlaDlaHbe'.</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>De' vam Daq Dochvam DaruchlaHbe'.</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>ghItlhlu'laHbogh %field tlhegh ghajbe' %class buv.</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>cha'logh nobpu'lu' %field tlhegh.</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>ghItlh laj %field tlhegh: upload rur yIngeH (tlhobghach law' 'ay').</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>ghItlh lajbe' %field tlhegh.</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>ngoD poQ %field tlhegh.</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>mu'mey Sar tlhegh neH ghItlh Segh %format; ngoD laj %field rur ghu'Daj (RAW).</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>%field tlhegh poQlu'.</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>HTML laDlaHbe'lu'.</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>id tlhej version neH laj content.</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>nungbogh mIllogh Degh lo'laHbe' pagh Heghpu'.</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>mung 'oHbe' (https://host pagh https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>GraphQL API chaw' veH 'oHbe': %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>/api/graphql/subscribe Daq qIlghachmey yIngeH (wanI' bIQtIq pagh WebSocket).</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>ghItlh vang pong pagh tlhobghach.</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>wa' yotlh neH poQ qIlghach.</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>qIlghachmey law'qu' poSmoHlu'; tugh yInIDqa'.</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>qIlghachmey %max DapoSmoH; 'aqroS chaw'lu'bogh 'oH.</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>qIlghachmey %max poSmoH Daqlij; 'aqroS chaw'lu'bogh 'oH.</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>yoS lojmIt vam Daq qIlghachmey chu'Ha'lu'.</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>bIqIlmeH yI'el (Degh pagh API ngaQHa'moHwI' le').</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>/api/graphql Daq choHmoHghachmey yIngeH.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>vIHghachmey</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Dotlh laDlaHbe&apos;lu&apos;: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>vIHghachmey raSmey tu&apos;lu&apos;be&apos; &apos;ach: ./console exp:upgrade --apply chenmoH.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>%count vIHghach Qapbe&apos;</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>QapmoHghach taH, %user taghmoH</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>jomghach ngaQlu&apos;: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>loStaH</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Qapbe&apos;</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>ghIlab ghewmey</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>QapmoHghach Qav</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>pagh &apos;ach</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>Hoch vIHghachmey</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>QapmoHghach ngeb</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>QapmoHghach waH</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>loStaHbogh vIHghachmey Qap tamghachDaq; tamghach cheghmoHlu&apos; ghIq: pagh polta&apos;lu&apos;. bIngDaq De&apos; pa&apos;Daq Hoch vIHghach choHmey tu&apos;lu&apos;.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>DaH QapmoHghach vangbogh. pagh choHlu&apos;: Hoch loStaHbogh vIHghach choHmeyDaj tetlh, QapmoHghach vangbogh nIteb, vangbogh ghIq je.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>yIngeb</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>yIQapmoH</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>QapmoHghach waH Qapbe&apos;: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>ngeb poQ PostgreSQL SQLite joq, chaH mIw choHmey cheghmoHlaHlu&apos;; De&apos; pa&apos;vamDaq bIngDaq nab QapmoHghach vangbogh &apos;ang.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>vIHghachmey&apos;e&apos;</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>vIHghach</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>ghap</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>vangbogh</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>ngeb: %result, %ms ms poH</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>vIHghach tu&apos;lu&apos;be&apos; &apos;ach.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>QapmoHghach nIteb, ghIq je</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>cheghmeH Daq nIteb</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>tlhaplu&apos;, vIHghach Qapbe&apos;chugh cheghmoHlu&apos;</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>chu&apos;Ha&apos;lu&apos;</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>cheghmeH Daq ghIq</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>QapmoHghach Qapchugh tlhaplu&apos;</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>%total vIHghach: %pending loStaH, %done rIn, %failed Qapbe&apos;.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>vIHghachmey qun</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>Hoch QapmoHghach, lo&apos;wI&apos;Daj, vum DaqDaj, cheghmeH Daqmey je, commit, per, lab je. QapmoHghach Qapbe&apos;bogh ghorlu&apos;bogh joq taHqa&apos;laHlu&apos;; QapmoHghach cheghmeH Daq ghajbogh nIteb cheghmoHlaHlu&apos;.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>QapmoHghachmey laDlaHbe&apos;lu&apos;: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>vIHghachmey raSmey tu&apos;lu&apos;be&apos; &apos;ach: ./console exp:upgrade --apply chenmoH.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>yI&apos;ang</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Hoch</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>QapmoHghachmey</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>taghlu&apos;</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>taghmoHwI&apos;</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>cheghmeH Daqmey</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>&apos;aplo&apos; qach</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>vangghachmey</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>nIteb</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>ghIq</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>lab: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>yItaHqa&apos;</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>yIcheghmoH</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>ghapvamDaq QapmoHghach tu&apos;lu&apos;be&apos;.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>naDev taghlu&apos;</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>QapmoHghachmey, taHqa&apos;ghachmey, cheghmoHghachmey je naDev taghlu&apos;pu&apos;bogh, Hoch ja&apos;ghach je.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>nuq</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>chav</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>cheghmoHghach</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>%target cheghmoHghach</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>QapmoHghach %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>QapmoHghach vangpu&apos;bogh, qonDaj, ghItlhmeyDaj je. naDev taghlu&apos;bogh QapmoHghach tlhopDaq taH, navvam SoQmoHlu&apos;DI&apos;; tlha&apos;meH navvam yIpoSmoHqa&apos;.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>QapmoHghachvam yItaHqa&apos;</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>QapmoHghachvam yIcheghmoH</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>qon laDlaHbe&apos;lu&apos;: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>ghoSghach</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>%user taghmoH, %time poH.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>ngoq nuDlu&apos; &apos;ej QapmoHghach nIteb cheghmeH Daq tlhaplu&apos;</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>%id QaptaH (%index, %total vo&apos;)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>%total vo&apos; %done rIn</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>vIHghachmey Qappu&apos;; wa&apos; Qapbe&apos;chugh cheghmeH Daq cheghmoHlu&apos;</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>QapmoHghach ghIq cheghmeH Daq tlhaplu&apos;, commit, per, lab je</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>cheghmeH Daq cheghmoHlu&apos;taH</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>QapmoHghach rIn. ja&apos;ghachDaj lI&apos;lu&apos;taH.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>ghoSghach tlha&apos;laHbe&apos;lu&apos;. QapmoHghach Dotlh Dalegh DaneHchugh navvam yIlI&apos;qa&apos;.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>QaptaHvIS QapmoHghach tlha&apos; navvam.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>yIlI&apos;qa&apos;</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>ja&apos;ghach</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>poH</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms ms poH</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>Qaghmey QapmoHghach ghItlhpu&apos;bogh</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>qon</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>vum Daq</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>pagh</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>rInlu&apos;</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>commit ghItlh</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>per</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>lab</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>QIn</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>QapmoHghachvam vIHghachmey</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>Hal</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>QapmoHghach ghItlhmey</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>ghItlhmey bertlham neH &apos;anglu&apos;.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>QaptaH</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>ja&apos;ghach Hutlh, rIn</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>Qap</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>Qapbe&apos;</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>lajQo&apos;lu&apos;</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>De&apos; pa&apos; paQlaHbe&apos;lu&apos;</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>qoD Qagh</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>QapmoHghach taH</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind taghmoH %user, %time poH.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>yItlha&apos;</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>jomghach ngaQlu&apos;</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>ngaQHa&apos;moHwI&apos; &apos;uch latlh QapmoHghach (DubghachDaq ra&apos;ghomDaq QapmoHghach joq): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>rIn</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>loStaH</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>poQbe&apos;lu&apos;</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>Sovbe&apos;lu&apos;</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>cheghmoHlu&apos;pu&apos;</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>lo&apos;lu&apos;pu&apos;</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>lo&apos;lu&apos;ta&apos;</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>cheghmoHlu&apos;</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>cheghmoHlu&apos;ta&apos;</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>QapmoHbe&apos;lu&apos;</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>latlh loStaH</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>choH laj</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>choH lajlu&apos;ta&apos;</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>ngeblu&apos;</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>vIHghachmey</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Dotlh</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>qun</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>%target yIcheghmoH</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>QapmoHghach cheghmoHlu&apos;, cheghmeH Daq nIteb tlhaplu&apos;pu&apos;bogh lo&apos;lu&apos;; wa&apos; vIHghach cheghmoHlu&apos;, down() Daj lo&apos;lu&apos;. cheghmeH Daq ngo&apos; cheghmoHlu&apos;chugh, po&apos;wI&apos;pu&apos; neH vang. Hoch tlhopDaq QaptaH SoH DaDa, DaH Dotlh cheghmeH Daq tlhaplu&apos;DI&apos;.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>cheghmoHlaHlu&apos;bogh laDlaHbe&apos;lu&apos;: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>wa&apos; QapmoHghach</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>wa&apos; vIHghach</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>cheghmeH Daq ngo&apos;</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>Delghach</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>HIja&apos;</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ghobe&apos;</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>cheghmeH Daq</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>per pong</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>tlhaplu&apos;</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Segh</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>cheghmoHmeH &apos;ay&apos;mey</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>De&apos; pa&apos;&apos;e&apos;</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>polmeH teywaymey (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>SeHlawmey (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>De&apos; pa&apos; cheghmoHlu&apos;chugh, cheghmeH Daq poH chegh, ghomghachmey je: ghIq bI&apos;elqa&apos;nIS ghotlh. vaj choHlu&apos;pu&apos;bogh Hoch luj; wa&apos;DIch DaH Dotlh cheghmeH Daq tlhaplu&apos;.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>cheghmoHbogh vIyaj</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>cheghmeH Daq ngu&apos;meH mI&apos; yIghItlhqa&apos;</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>HIja&apos;, yIcheghmoH</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>yIqIl</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>QapmoHghachmey nIteb cheghmeH Daq tlhaplu&apos;pu&apos;bogh.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>yIwIv</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>cheghmeH Daq ghajbogh QapmoHghach tu&apos;lu&apos;be&apos; &apos;ach.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>lo&apos;lu&apos;pu&apos;bogh vIHghachmey &apos;ej cheghchu&apos;laHbogh (down() ghaj).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>lo&apos;lu&apos;pu&apos;bogh vIHghach down() ghajbe&apos; pagh.</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>cheghmeH Daqmey ngo&apos; (po&apos;wI&apos;pu&apos;)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>cheghmeH Daq tu&apos;lu&apos;be&apos; &apos;ach.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>vIHghachmey tIQapmoH</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>tlhopDaq QapmoHghach taH %user DaDa, &apos;ej QaptaHvIS &apos;ang navDaj. wa&apos;DIch vIHghach nIteb jomghach cheghmeH Daq tlhaplu&apos;; vIHghach Qapbe&apos;chugh QapmoHghach mev &apos;ej cheghmeH Daq cheghmoHlu&apos;.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>wa&apos;DIch QapmoHghach waH</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Dotlh laDlaHbe&apos;lu&apos;: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>loStaHbogh vIHghachmey</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>mIwvamDaq Qap. wa&apos; DanoHmeH, poQbogh latlh je, QapmoHghach ghIqvaD, ghItlh yIteq.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>yIQapmoH</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>QaptaHvIS leHmeH Dotlh chu&apos;.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>lo&apos;lu&apos;pu&apos;DI&apos; choHlu&apos;</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>lo&apos;lu&apos;pu&apos;bogh teywaymey chaHbe&apos; teywaymeyvam. choH meq lajlu&apos;be&apos;chugh QapmoHghach lajQo&apos;; QapmoHqa&apos;be&apos;lu&apos;, checksum chu&apos; qonlu&apos; &apos;ej nuDghach ghItlhmeyDaq meq pollu&apos;.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>choHmey tIlaj</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>qatlh</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>Hung wIvmey motlh. Hoch ngaSwI&apos; wa&apos; mIw lon.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>cheghmeH Daq Hutlh</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>QapmoHghach nIteb ghIq je cheghmeH Daq Hutlh: Qapbe&apos;ghach cheghmoHlaHbe&apos; De&apos;wI&apos; nIteb.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>cheghmoHghach Hutlh</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>Qapbe&apos;DI&apos;, jomghach yIlon Qapbe&apos;ghach lonbogh rur.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>commitbe&apos;lu&apos;bogh choHmey tIpol</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>SeHlawmey, Dochmey chu&apos;, HaSta Hal joq commitbe&apos;lu&apos;bogh choHmey ghajchugh je yIQapmoH; cheghmeH DaqDaq &apos;el.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>commit Hutlh</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>Dotlh teyway QapmoHghach ghItlhmey je yIcommitQo&apos; (per Hutlh, lab Hutlh je).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>lab Hutlh</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>yIcommit &apos;ej yIper, &apos;ach yIlabQo&apos;.</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>per Hutlh</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>yIcommit &apos;ej yIlab, &apos;ach QapmoHghach yIperQo&apos;.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>HIja&apos;, DaH vIHghachmeyvam tIQapmoH</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>loStaHbogh vIHghach tu&apos;lu&apos;be&apos;.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>Dotlh yIchegh</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>jomghachvam choHmey, wa&apos;logh teywaymey ghItlhlu&apos; (Dochmey, buvmey, Qu&apos;mey, SeHlawmey, mIw) &apos;ej Hoch Daq jomghachDaq rap mIwDaq lo&apos;lu&apos;. wa&apos;DIch cheghmeH Daq tlhap QapmoHghach, vIHghach Qapbe&apos;chugh cheghmoH, &apos;ej vangpu&apos;bogh qon, commit, lab je.</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>loStaHbogh %count yIQapmoH</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>naQ leghghach</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>loStaH</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>rIn</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Qapbe&apos;</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>poQbe&apos;lu&apos;</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>De&apos; pa&apos;</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>tamghachmey: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>Daq vIHghachmey migrations/ Daq ghaHtaH, Doch chu&apos; vIHghachmey extension/&lt;name&gt;/migrations/ Daq. ponglu&apos; mIw, poQbogh je Qap.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>QapmoHghach Qav</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>lo&apos;lu&apos;pu&apos;DI&apos; choH teyway.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>vIHghach tu&apos;lu&apos;be&apos; &apos;ach. wa&apos;DIch ghItlh ./console exp:migration:generate --skeleton &lt;name&gt; --apply.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>QapmoHghachmey chu&apos;</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>Hoch QapmoHghachmey</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>QapmoHghach tu&apos;lu&apos;be&apos; &apos;ach.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>QapmoHghach ngebmeH migration/run chut poQlu&apos;.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>QapmoHghach taH: rInDI&apos; yIngeb.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>SeHlaw</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>jomghachvam QapmoHghach, vIHghach, cheghmeH Daq ghaHbe&apos; %target.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>wa&apos;DIch “HIja&apos;, yIcheghmoH” yIghItlh.</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>cheghmeH Daq ngo&apos; cheghmoHlu&apos;chugh, po&apos;wI&apos;pu&apos; neH vang: “cheghmoHbogh vIyaj” yIghItlh.</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>cheghmeH Daq ngu&apos;meH mI&apos; yIghItlhqa&apos;: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>cheghmoHmeH wa&apos; &apos;ay&apos; yIwIv, rap pagh law&apos;.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>QapmoHghachvam nIteb cheghmeH Daq tlhaplu&apos;be&apos;pu&apos;: vIHghachmeyDaj tIcheghmoH wa&apos; wa&apos;, pagh cheghmeH Daq ngo&apos; yIcheghmoH.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>vIHghachvam cheghchu&apos;laHbe&apos;: lo&apos;lu&apos;be&apos;pu&apos;, pagh down() ghajbe&apos;.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>nav laDlaHbe&apos;lu&apos;.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>taHqa&apos;meH QapmoHghach yIwIv.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>wa&apos;DIch “HIja&apos;, DaH vIHghachmeyvam tIQapmoH” yIghItlh.</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>wa&apos; vIHghach yIwIv, rap pagh law&apos;.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>lo&apos;lu&apos;pu&apos;DI&apos; choH vIHghach: choH yIlaj meq je, pagh teyway yIcheghmoH.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>choHlu&apos;pu&apos;bogh vIHghachmey lajlu&apos;meH meq yIja&apos;.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>500 ngutlh law&apos; meq &apos;e&apos; tuch.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>naDev taghlu&apos;bogh QapmoHghach taHtaH (%detail). rInpa&apos; yIloS.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>jomghach ngaQHa&apos;moHwI&apos; &apos;uch latlh QapmoHghach: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>QapmoHghach poQ lo&apos;wI&apos; tu&apos;lu&apos;bogh &apos;elpu&apos;bogh je.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>php ra&apos;meH mu&apos;tlhegh ghun tu&apos;lu&apos;be&apos;. migration.ini [AdminSettings] PhpCliPath yIcher, naQ He lo&apos;.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open chu&apos;Ha&apos;lu&apos;, vaj naDev QapmoHghach taghlaHbe&apos;lu&apos;. jabwI&apos;Daq ./console exp:migration:migrate --apply yIQapmoH.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>QapmoHghachmey ngaSwI&apos;Daq ghItlhlaHbe&apos;lu&apos;: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>QapmoHghach taghlu&apos; &apos;ach mIw ngu&apos;meH mI&apos;Daj ja&apos;be&apos;. %detail yInuD.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>cheghmoHmeH Doch yIpong.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>QapmoHghach taghlaHbe&apos;lu&apos;.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>choHmeyvaD qon</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>qon Qap'taHvIS, loHwI' 'ay'Daq pagh Daq tlhop SorDaq DachoHbogh Dochmey vaj HeghmoHvaD mIwmey ta'lu': ghItlh, buvmey, Qu'mey chutmey je, 'ay'mey, lo'wI'pu' ghommey je, URL pongmey, SeHlawmey. DarInDI' yImev, nuq qonta' yIlegh, 'ej vo' Dochvetlh HeghmoH yIchenmoH.</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>qonmey laDlaHbe'lu': %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>qonmey vaj raSmey tu'lu'be' wej: wa'DIch DuSaQ yImIgh (exp:upgrade --apply).</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>migration.ini Daq qon chu'Ha'lu' ([RecordingSettings] Recording=disabled).</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>choHmeywIj</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>DachoHbogh neH qon, Dachoh 'ej Daq, Damevpa'.</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>qon</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>%time vo', DaH %count choHmey.</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>per (DaneHchugh)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>nuq qonta' yI'ang</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>qon yImev</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>choHmeywIj qon yItaghmoH</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>Hoch Daqvaj Qorwagh</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>lo'wI' Hoch Hoch choH 'ej SeHwI' choH qon, SoQmoHlu'pa'. poSmoHtaHvIS SoH 'oH 'e' DatobnIS.</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>poS</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>Qorwagh yISoQmoH</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>Hoch Daqvaj Qorwagh yIpoSmoH</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>qonmey Hoch</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>lo'wI' mI' ('elmeH pong, QIn, ngoDHom) 'ej lo'wI' mI'mey bIDmey not qonlu'.</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>choHmey</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>Hoch Daq</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>%name choHmey</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>mevlu'</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>wej qon tu'lu'.</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>qon %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>Hoch qonmey</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>chenbogh HeghmoH</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>choHlu'bogh Doch wa' mIw Daq tay'moHlu'bogh choHmey: qonvam vo' chenmoHlu'bogh HeghmoH ta'.</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>jom'a'vam YAML mIw Segh %types ghajDI' vo' Dochvam HeghmoH chenmoHlaHlu'.</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>ngoDmo' chellu': %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>pagh qonlu'.</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>nuq qonta'</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>%count choHmey, ta'lu'bogh mIwmeyDaq.</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>choH</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>mIw</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>Dochvetlh</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>latlh %count: ./console exp:migration:record:show Hoch tetlh.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>yIwoD</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>qon 'ej qonta'bogh Dochmey teq. choHlu'bogh choHtaH.</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>HIja', qonvam yIwoD</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>qontaH…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>HeghmoHvaD choHmeylIj qonlu'taH.</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>Daqvam choH Hoch HeghmoHvaD qonlu'taH (Hoch Daqvaj Qorwagh).</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>Hoch Daq qon taghta': lo'wI' Hoch choH Hoch qonlu', Damevpa'.</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>qon taghta': choHmeylIj qonlu', Damevpa'.</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>qon mevta'. qonta'bogh ratlh, DawoDpa'.</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>qon wanI'mey je teqlu'ta'.</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>qon %id tu'lu'be'.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>wa'DIch "HIja', qonvam yIwoD" yIghItlh.</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>qonta'bogh lo'wI' neH ghom qon mevmoHlaH.</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>mevmoHmeH qon yIwIv.</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>Seghvam qon Qap'taH DaH.</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>qon choHlaHbe'lu': %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>ghoS chenmoH</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>ghoS pong (DaneHchugh)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>ghoS %file ghItlhlu'pu'. choHmey'e' chenmoHlaHbe'bogh mIw Hoch, De'wI' bey'e' nachDaq ponglu'pu', ghopvaD chenmoHlu'.</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>ghoS ghItlhlu'be': %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>tlhIngan Hol: ngoq ghom je pagh</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>ghItlh chIm migration.ini [RunSettings] 'oH vIleghbe'.</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>migration law' Hoch</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>migration pa' qaStaH (lup)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>migration bID ghoS (lup)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>Sov chu' (1 19 Hoch)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>ghItlh Hoch lupDujHom 1 qaStaHvIS 'ej pagh (bID: 0 60 lup, 'ej Sov 1 19) pagh ghItlh chIm.</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>%time vo' Ho'DoS.</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>pa' Ho'DoS vo' (rep, chIm)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>rep 1 44640 (jaj 31) pagh chIm.</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>vIHghach %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>vIHghach chu'</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>YAML vIHghach: ghItlh yIghItlh pagh navDaq mIwmeyDaj yIchenmoH; yI'ol; vaj vIHghachmey ghItlh pa'Daq yIpol.</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>vIHghachvam Qaplu'pu', vaj pollu'qa'be': ghItlh choHlu'bogh lajQo' mI' 'avwI'. vIHghach chu'Daq choH yIchenmoH.</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>ghItlh ghItlhlaHbe' Web SapwI'.</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>Dung QIjmeH ghItlh tlheghmey'e' nach (description, author, requires, environments, engines). navDaq mIw chellu'DI' pagh choHlu'DI', vIHghach ghItlhlu'qa': mIwmey jojDaq QIjmeH ghItlh polbe'lu'.</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>vIHghach pong</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>nuqDaq ghoS</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>Daq</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>YAML ghItlh</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>yI'ol</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>yIpol</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>mIw 'ay'mey</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>ngaQHa'moHwI'mey</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>yIchoH</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>Dung yIvIHmoH</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>bIng yIvIHmoH</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>yIteq</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>mIw tu'lu'be' 'ach: nav yIlo' 'ej wa' yIchel, pagh ghItlhDaq mIwmey yIghItlh.</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>mIw %number yIchoH</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>wa' mIw yIchel</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>mIw nav chenmoH mIw SeghDaj: ngaQHa'moHwI'meyDaj, nuq laj Hoch wa', ta'meH Seghmey ghajbogh je.</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>mIw Segh</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>navDaj yI'ang</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>mIwvaD ngaQHa'moHwI'mey Sovbe'bogh SeghDaj tu'lu'; mIw choHlu'DI' bIH teqlu': %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>ta'meH Segh</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>Daq</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>%modes neH</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>motlh: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>ghu'mey, rarwI'mey, QIjmeH ghItlh je</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>pong=lo'laHghach chovnatlhmey, rIn'eDmey SepmoHlu'. mIwvam lo'laHghachmey: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>ghu'</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>mIw yIchoH</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>mIw yIchel</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>exp:migration:check ja'bogh: nach, ghItlh, Hoch mIw 'ollu'bogh mIw SeghDaj je.</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>'olghach chav vIHghach.</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>nungbogh mIllogh</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>YAML, pollu'DI' rurbogh.</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>YAML yI'ang</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>YAML vIHghachmey</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>Qaplu'pu'</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>YAML vIHghach tu'lu'be' 'ach.</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>ghItlh choHwI'</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>vIHghachmey ghItlh pa'meyDaq YAML vIHghach %id tu'lu'be'.</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>mIw Segh yIwIv.</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>mIw chellu'pu'. vIHghach Dapolpa' vIHghach yI'ol.</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>mIw choHlu'pu'. vIHghach Dapolpa' vIHghach yI'ol.</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>mIw yIwIv.</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>nav ghajbe' mIwvam (gho, pagh mIw Segh ghajbe'bogh jomghachvam): ghItlhDaq yIchoH.</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>vIHghach lanlu'meH Daq yIwIv: Daq'a' pagh chelwI' QaplI'bogh.</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>%file pollu'pu'. vIHghach Qaplu'pa' QapmoHghach waH yIQapmoH.</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>polbe'lu': %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>Hop jomghachmey</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>jomghachvam vIHghachmey ngeHlu'bogh latlh jomghachmey: ngeHghach vIHghachmey ngeH wIvlu'pu'bogh Hop jomghachmeyDaq 'ej pa' QapmoH, Hoch rap poHDaq, rap Dotlhmey. not pegh ghaj Hop jomghach: SeHlaw &gt; peghmey Daq wa' pegh pong 'elmeH De'Daj.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>Hop jomghach chu'</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>QaH</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>%id rarghach nuDghach</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>Hop jomghachmey'e'</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>rap poHDaq %parallel Hop jomghachmey qaSmoHlu', law' puS; Hoch Hop jomghachDaq %timeout lup nIteb wa' 'ay' taHlaH.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>Hop jomghach</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>URL Daq</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>'elmeH De'</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>ghommey</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>tI'meH DuHmey</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>teywaymey neH (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>SSH ngaQHa'moHwI'</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>pegh mu'</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>pagh (jabwI' SSH Duy ngaQHa'moHwI'mey je)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>rarghach yInuD</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>ghomvaD ngeHghach ghomvetlh Hop jomghachmey Hoch ghoS.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>Hop jomghachmeyDaq yIngeH</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>Hop jomghach SeHlu'pu'be' 'ach.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>Hop jomghach %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>naDev pagh ngeHlu' pagh QapmoHlu': settings/override/migration.ini.append.php Daq DuHmey ghItlh “yIpol”. pong ghaH 'elmeH De''e'; SeHlaw &gt; peghmey Daq pagh vum DaqDaq ratlh lo'laHghachDaj.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>DuHmeyvam yInuD</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>ghItlhlu'pu'bogh DuHmey, pollu'pu'be' 'ach.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>nuDghach</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>DuHmey lugh. tlheghmeyvam ghItlhlu'taH:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>ngeHmeH mIw</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>pong neH; lo'laHghach SeHlaw &gt; peghmey Daq ratlh</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>ghItlhlu'taHbogh tlheghmey</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>rarghach</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>jabwI' ngaQHa'moHwI'</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. Hop jomghach</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>Hop jomghach pong, 'ej vum Daq'e' ghaHbogh.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ngu'meH mI'</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>ngutlhmey, mI'mey, - _ je, ghu': production1. ja'ghachmeyDaq, ra'ghomDaq je (--remotes=production1) Hop jomghach pong, 'ej ghIq choHlaHbe'lu'.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... mIwvamDaq vum Daqmey vegh patlhmey lo'bogh ngeHghach.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>DaneHchugh, ghIchmey'e' ghItlhmey luSol, ghu': production. ghomvaD ngeHghach ghomvetlh Hop jomghachmey Hoch ghoS.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. rarghach</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>chay' pa' paw teywaymey, 'ej nuqDaq jomghach tu'lu'.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>SSH vegh, choHbogh neH, 'ej ghorlu'pu'bogh ngeHghach taHqa'. rsync jomlu'pu'bogh Daq wIvlu'meH QaQqu'.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>teywaymeyvaD scp lo'bogh SSH.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>teywaymeyvaD sftp lo'bogh SSH.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>teywaymey neH: vIHghachmey ngeHlu' 'ej laDqa'lu', 'ach pa' QapmoHlaHbe'lu'.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>TLS vegh FTP; teywaymey neH.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>jabwI'vamDaq latlh jomghach, ghItlh pa'Daq.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>jabwI' pong</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>jabwI' pong pagh Daq, ghu': node1.example.com. local-vaD ghaHbe'.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>lojmIt mI'</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>chIm: SSH-vaD 22, FTP-vaD 21.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>lo'wI'</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>He</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>pa' jomghach DaH'e', ghu': /var/www/site (FTP-vaD: FTP mI' leghbogh He).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>PHP ra'meH tlhegh</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>pa' PHP CLI: php, pagh He naQ, /opt/plesk/php/8.4/bin/php rur.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>pa' root rur Qap ra'ghom ghItlhmey</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>root ghaHchugh Hop jomghach lo'wI' neH (vaj --allow-root-user lo'meH QapmoHlu').</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. 'elmeH De'</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>chay' pa' 'el jomghachvam. pong neH pollu'.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>pagh</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>jomghachvam Qapbogh lo'wI' SSH Duy ngaQHa'moHwI'mey je (local-vaD reH).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>pegh rur polbogh pegh ngaQHa'moHwI'.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>pegh rur polbogh pegh mu' (FTP 'elmeH lo'lu').</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>pegh pong</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>SeHlaw &gt; peghmey Daq pegh, ghu': deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>SeHlaw &gt; peghmey</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>pagh vum Daq choHlaHbogh mI'</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>ghaH ghajbogh jabwI' mIw choHlaHbogh mI', ghu': DEPLOY_KEY (env:DEPLOY_KEY rur pollu'). pegh pong Daq tlhap.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. jabwI' ngaQHa'moHwI'</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>DaneHchugh, SSH, sftp, rsync je ghaHvaD.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>jabwI' ngaQHa'moHwI' nI'qa'</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... ssh-keygen -l ghItlhbogh rur. ghaH lo'lu'chugh, ngaQHa'moHwI'vam 'ang'nIS jabwI'; lo'lu'be'chugh, wa'DIch rarghachDaq ngaQHa'moHwI' ghojlu'.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. nuDghach</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>Dung DuHmey lo'taHvIS rarghach yInuD, ghIq ghItlhlu'taHvIpbogh tlheghmey yInuD.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>Hop jomghachvam yIteq</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>settings/override/migration.ini.append.php vo' DuHmeyDaj teqlu'. Hop jomghachDaq pagh choHlu', 'ej qunDaq ratlh ngeHghachmeyDaj.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>HIja', Hop jomghachvam yIteq</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>ngeHghachmey</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>ngeHghach jomghachvam vIHghachmey ngeH wIvlu'pu'bogh Hop jomghachmeyDaq 'ej pa' %user rur QapmoH, Hoch rap poHDaq, rap Dotlhmey: wa'DIch Hoch Hop jomghach 'ollu', 'ej wa' Qapbe'chugh, lo'pu'bogh Hoch Hop jomghach cheghmoHlu'. 'em Daq taH, 'ej taHtaHvIS Hoch Hop jomghach 'ang navDaj.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. Hop jomghachmey</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>Hop jomghachmey, wa' ghom, pagh cha' yIwIv.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>pa' yIngeH</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. chay'</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>yIngeH</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>yIngeH 'ej yIQapmoH</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>Hoch Hop jomghachDaq vIHghachmey ngeHlu', 'ollu', QapmoHlu' je, wa' QapmoHghach ngu'meH mI' lo'lu'.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>teywaymey neH</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>teywaymey ngeHlu' 'ej 'ollu', pagh QapmoHlu' (FTP Hop jomghachvaD mIw wa' neH).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>patlhmey lo'</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>vum Daqmey mIwDaq patlh patlh je (dev, stage, beta, production ...): wa'DIch patlh ngeHlu', ghIq patlh veb chaw'pa' vay', loS lojmIt. Hoch patlhDaq Hoch pagh pagh.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>vIHghachmeyvam neH</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>DaneHchugh: vIHghach ngu'meH mI'mey, ghIchmey luSol. chIm: Daq Daq chel'eghmeyDaj je Hoch vIHghach.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>wa'DIch nuDghach neH</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>HIja', DaH yIngeH</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>vay' ngeHpu'bogh pagh QapmoHpu'bogh ngeHghachmey, chu'qu' wa'DIch (ja'ghach pollaHbe' wa'DIch nuDghach).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>teywaymey neH</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>patlhmey lo', %stages patlhmey</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>rapbe' Dotlhmey</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>ngeHghach tu'lu'be' 'ach.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>ngeHghach %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>ngeHghach Hop jomghachmey Hoch ghapDaj je. navvam SoQmoHlu'DI', 'em Daq taH naDev taghlu'pu'bogh ngeHghach; tlha'meH nav yIpoSmoHqa'.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>Hoch ngeHghachmey</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>wa'DIch nuDghach</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>patlh veb</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>DuHmey 'elmeH De' je 'ollu'taH</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>wa'DIch nuDghach: Hoch Hop jomghach ghap laDlu'taH</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>vIHghach teywaymey ngeHlu'taH</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>pawpu'bogh Doch 'ollu'taH</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>Hoch Hop jomghachDaq vIHghachmey QapmoHlu'taH</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>Hop jomghachmey cheghmoHlu'taH</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>rInpu' ngeHghach. ja'ghachDaj lI'lu'taH.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>ghoSghach tlha'laHbe'lu'. ngeHghach Dotlh DaleghmeH nav yIlI'qa'.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>'ay'</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>taHtaHvIS ngeHghach tlha' navvam.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>rap Dotlhmey</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>patlhmey</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>lojmItDajDaq loS patlh %stage</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>lojmIt %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>%user chaw'pu', %time</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>patlh</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>ngeHlu'pu'bogh teywaymey</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>qalmey mI'</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>lo'lu'pu': %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>lo'meH: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>'ay'mey</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>lojmIt: patlh %stage / %stages</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>nIteb patlhmey ngeHlu'pu'. tI'ol, ghIq patlh veb yIchaw': Hop jomghachmeyDaj 'ollu'qa' 'ej ngeHlu', Hoch pagh pagh.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>yIghoS</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>HIja', DaH patlh veb yIngeH</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>yIchaw'</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>ngeHghachvam yIcheghmoH</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>lo'pu'bogh Hoch Hop jomghach (%list) QapmoHghachDaj nIteb tlhaplu'pu'bogh cheghmeH Daq chegh, Hoch rap poHDaq.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>HIja', DaH ngeHghachvam yIcheghmoH</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>nablu'pu'</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>ngeHlu'pu'</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>ngeHlu'pu'</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>lojmItDaq loS</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>wIvlu'ta'</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>ghuSmoHlu'pu'</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>ghuS</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>patlhDaj loS</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>teywaymey ngeHlu'pu'</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>'ollu'pu'</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>Qapbe', 'ej cheghmoH'eghpu'</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>choHlu'be'</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>ngeHlu'pu'be'</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>paghlaHbe'lu'</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>jangpu' Hop jomghach.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>DaH Hop jomghach lo'laHbe'lu'.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done rIn, %pending loStaH, %failed Qapbe'</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>ngaQghach</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>pa' ngaQghach ghaj QapmoHghach</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>chIm</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stage / %stages</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>nuDmeH Hop jomghach yIwIv.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>wa'DIch “HIja', Hop jomghachvam yIteq” yIwIv.</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>Hop jomghach teqlaHbe'lu': %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>Hop jomghach pollaHbe'lu': %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>DuHmey ghItlh laDlaHbe'lu': %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>wa' Hop jomghach pagh wa' ghom yIwIv, puS.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>DuHmeyDaq wIvlu'pu'bogh Hop jomghach tu'lu'be' DaH. nav yIlI'qa'.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>wa'DIch “HIja', DaH yIngeH” yIwIv.</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>vIHghachmey QapmoHlaHbe' FTP Hop jomghach: “teywaymey neH” yIwIv, pagh yIlon.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>ngeHmeH vIHghachmey'e' vIHghach ngu'meH mI'mey chaH, ghIchmey luSol.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>taHtaH ngeHghach. rInpa' yIloS.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>lojmItDaq loSbe' ngeHghachvam.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>ngeHghachvam lo'pu'be' Hop jomghach: cheghmoHmeH pagh tu'lu'.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>wa'DIch “HIja', DaH patlh veb yIngeH” yIwIv.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>wa'DIch “HIja', DaH ngeHghachvam yIcheghmoH” yIwIv.</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>%id ngu'meH mI' ghajbogh Hop jomghach tu'lu'pu'.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>lojmIt mI''e' 1 vo' 65535 ghoS mI' ghaH.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>vum Daq'e' mu' ghaH, ngutlhmey, mI'mey, - _ je chenmoH (alpha, dev, stage, beta, production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>ghom'e' mu' ghaH, ngutlhmey, mI'mey, - _ je chenmoH (all ghaHbe'): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>DaH 'elmeH De' laDlaHbe'lu': %problem. wa'DIch ngeHghach nIteb SeHlaw &gt; peghmey Daq yIpol (pagh mI' yIHIjmoH).</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>teywaymey neH Hev FTP Hop jomghach: “teywaymey neH” ghaH ngeHghach, 'ej ghopDu'mo' pa' vIHghachmeyDaj QapmoHlu'.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>settings/override/migration.ini.append.php Daq Hop jomghach %id tu'lu'be'; SeHlu'bogh DaqDaq yIteq.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>FTP vegh 'ellu'pu' 'ej index.php laDlu'pu'. FTP Hop jomghach vIHghach Dotlh laDlaHbe'lu'.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>choHlu&apos;ta&apos;</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>chenmoHlu&apos;ta&apos;</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>pong</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>buv</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>&apos;ay&apos;</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>chenmoHwI&apos;</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>chu&apos; De&apos;</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>Hoch Daq chu&apos;qu&apos; De&apos; chenmoHlu&apos;ta&apos;bogh choHlu&apos;ta&apos;bogh je, chu&apos;qu&apos; wa&apos;DIch: vISwI&apos;pu&apos; ngeHta&apos;bogh, nuDmeH &apos;ollu&apos;ta&apos;bogh, nab &apos;anglu&apos;meH loSbogh. Dochmey yIwIv; tlhabmoHmeH, &apos;olmeH, So&apos;meH, &apos;aghmeH, teqmeH, pagh latlh &apos;ay&apos; Dotlh ghap Daq lalmeH.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>tetlh laDlaHlu&apos;be&apos;: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>nuDmeH &apos;ol SeHlu&apos;pa&apos;, vaj pagh &apos;ollu&apos;be&apos; &apos;ej &apos;ol vangmey qellu&apos;be&apos;. 6.0.15-review-hold Dub mIw SeHlaw: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>tetlh yIghIm</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>vo&apos;</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Daq</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>jaj</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>chenmoHlu&apos;ta&apos; (wa&apos;DIch &apos;anglu&apos;)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Hoch</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>&apos;anglu&apos;meH Dotlh</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>&apos;anglu&apos;ta&apos;</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>nab, not &apos;anglu&apos;ta&apos;</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>loS (chaw&apos; pagh jaj loS)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>veQDaq</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>nuDmeH &apos;ollu&apos;ta&apos;</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>&apos;ollu&apos;ta&apos;</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>&apos;ollu&apos;be&apos;</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>So&apos;lu&apos;ta&apos;</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>leghlaHlu&apos;</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>ngeHlu&apos;pu&apos;bogh jaj</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>vay&apos; siteaccess</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>audit qonta&apos;bogh neH.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>DaH: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>&apos;el pong pagh lo&apos;wI&apos; ID.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>yIghIm</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>ghImmey yIteq</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>Dochmey</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%count vo&apos; %from vo&apos; %to Daq</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Doch pagh</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(%ms ms laDlu&apos;ta&apos;)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>Dochmey wIvlu&apos;ta&apos;bogh vangmey</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>nav&apos;e&apos; Hoch yIwIv</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>%count wIvlu&apos;ta&apos;</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>vang</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>vang yIwIv</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>&apos;ol yItlhabmoH</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>nuDmeH yI&apos;ol</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>yISo&apos;</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>yI&apos;agh</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>veQDaq yIlal</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>yIQaw&apos;</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>&apos;ay&apos; yInob</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>Dotlh yInob</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>meq</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>&apos;olmeH poQlu&apos;; &apos;ol audit je Daq polta&apos;lu&apos;.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>&apos;ay&apos; yIwIv</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Dotlh</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>Dotlh yIwIv</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>wIvlu&apos;ta&apos;bogh yIlo&apos;</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>Doch Hoch DuHmeylIj DaH nuDlu&apos;. veQDaq lalpa&apos; Qawpa&apos; je yItob. %count Dochmey law&apos; Dochmey &apos;emDaq vanglu&apos;.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>yIwIv</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>&apos;anglu&apos;meH</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>vo&apos; ngeHlu&apos;</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>%name yIwIv</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>not wej</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(pong pagh)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>nab</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>loS</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>vav So&apos;ta&apos;</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>&apos;ollu&apos;ta&apos;: chu&apos; ngeH</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>%version mI&apos; loS</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>%version mI&apos; vanglu&apos;taH</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>nab, %version mI&apos;</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>%version mI&apos; &apos;anglu&apos;ta&apos;</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>%date vaD nablu&apos;ta&apos;</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>Daq pagh</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>qonlu&apos;be&apos;</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>ghImmeyvetlh rapbe&apos; pagh.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Hoch yI&apos;agh</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>wej De&apos; tu&apos;lu&apos;be&apos;.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>nav Hoch</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>nav Hoch %count Dochmey yI&apos;agh.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says &quot;not recorded&quot;.</source>
+        <translation>ngeH Daq De&apos;wI&apos; juH je audit tetlh vo&apos; Hut, naDev lo&apos;laHbe&apos;lu&apos;: tlhegh jatlh &quot;qonlu&apos;be&apos;&quot;.</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>Doch vaD audit qonta&apos;bogh Daq De&apos;wI&apos; juH je (nIteb &apos;ol reH qon; &apos;anglu&apos;meH chenmoHmeH je chu&apos;lu&apos;DI&apos; neH), pegh SeHlaw polmeH.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: %count Dochmey</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>Qawlu&apos;DI&apos; reH Dochmey teqlu&apos;, mI&apos;mey mughmey je Hoch. DoHmoHlaHbe&apos;lu&apos;.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>veQDaq Dochmey jaH, pa&apos; vo&apos; chenqa&apos;laHlu&apos;.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>Doch Hoch DuHmeylIj DaH nuDlu&apos;; Doch mach Dochmey ghajbogh choHlu&apos;be&apos; (De&apos; tlhIn Daq yIteq). SoH SoH&apos;a&apos; tobnIS.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>&apos;emDaq vanglu&apos;: ghoS nav poSmoHlu&apos;, &apos;ej rInDI&apos; Doch Hoch vaD ghotlh &apos;aghlu&apos;.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>Dochmey wIvlu&apos;ta&apos;</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>&apos;ej %count latlh</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>yIqIl</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>pagh vanglu&apos;ta&apos;</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>meq: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>&apos;emDaq vanglu&apos;taH vang.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>ghoSDI&apos;</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>&apos;emDaq vang Qapbe&apos;: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>rIn</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>lajQo&apos;lu&apos;</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Qapbe&apos;</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>Doch Hoch</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>Doch</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>ghotlh</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>qatlh</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>tetlhDaq yIchegh</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>SeHlaw</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>pagh vanglu&apos;</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>yItob</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>vang yIwIv.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>wa&apos; Doch yIwIv, puS.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>wa&apos;logh 1000 Dochmey yIwIv, law&apos;.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>qatlh Dochmey &apos;ollu&apos; yIja&apos;.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>&apos;ay&apos; yIwIv.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>Dotlh yIwIv.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>mu&apos;tlheghmey laDlaHlu&apos;be&apos;.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>jIH</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>chu&apos; De&apos;</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>mI&apos;mey laDlaHlu&apos;be&apos;: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>nuDmeH &apos;ollu&apos;ta&apos;</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>DaHjaj chu&apos;</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>nuDmeH &apos;ol SeHlu&apos;pa&apos; (6.0.15-review-hold Dub mIw).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>chu&apos; De&apos; Hoch</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>nuDmeH vangmey DalI&apos;laHbe&apos; (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>nuDmeH vang naQbe&apos;: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>nuDmeH: %count Doch Daq %action</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%total Doch %done: %ok rIn, %refused lajQo&apos;lu&apos;, %failed Qapbe&apos;</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok rIn, %refused lajQo&apos;lu&apos;, %failed Qapbe&apos;</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>not tu&apos;lu&apos;.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>Daq ghajbe&apos; (&apos;anglu&apos;be&apos;).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>DaSo&apos;laHbe&apos; (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>Da&apos;aghlaHbe&apos; (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>So&apos;lu&apos;pu&apos;.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>So&apos;lu&apos;be&apos;.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>So&apos;lu&apos;ta&apos;.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>&apos;aghlu&apos;ta&apos;.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>veQDaq ghaH: pa&apos; yIchImmoH pagh yIchenqa&apos;moH.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>nab &apos;anglu&apos;be&apos;bogh veQDaq jaHlaHbe&apos;: yIQaw&apos;.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>DaQaw&apos;laHbe&apos; (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>Qaw&apos;lu&apos;ta&apos;.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>DateqlaHbe&apos; (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>mach Dochmey ghaj: De&apos; tlhIn Daq yIteq, pa&apos; tetlhlu&apos;.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>teqlu&apos;be&apos; (teq &apos;ol ghun mIw).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>veQDaq lallu&apos;ta&apos;.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>&apos;ay&apos; tu&apos;lu&apos;be&apos;.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>&apos;ay&apos;vam Daq ghaHtaH.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>&apos;ay&apos;vam DanoblaHbe&apos; (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>&apos;ay&apos; noblu&apos;be&apos;.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>&apos;ay&apos; noblu&apos;ta&apos;.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>Dotlh tu&apos;lu&apos;be&apos;.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>Dotlhvam Daq ghaHtaH.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>Dotlhvam DanoblaHbe&apos; (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>Dotlh noblu&apos;be&apos; (choH &apos;ol ghun mIw).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>Dotlh noblu&apos;ta&apos;.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>vangvetlh tu&apos;lu&apos;be&apos;.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>nuDmeH &apos;ol SeHlu&apos;be&apos; (6.0.15-review-hold Dub mIw).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>qatlh &apos;ollu&apos; yIja&apos;.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>&apos;ollu&apos;pu&apos;.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>Da&apos;ollaHbe&apos; (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>&apos;ol cherlu&apos;be&apos; (choH &apos;ol ghun mIw).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>&apos;ollu&apos;ta&apos;.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>&apos;ollu&apos;be&apos;.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>DatlhabmoHlaHbe&apos; (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>&apos;ol tlhabmoHlu&apos;be&apos; (choH &apos;ol ghun mIw).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>tlhabmoHlu&apos;ta&apos;; So&apos;lu&apos;taH: Da&apos;aghlaHbe&apos; (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>tlhabmoHlu&apos;ta&apos;.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>Hoch ghochmey</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>HochvaD &apos;angghach Qav</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>GitHub Pages Daq yoSlIj choHbe&apos;bogh velqa&apos; yI&apos;ang, Dun&apos;a&apos;chugh pagh:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>ngo&apos;choHbogh navmey</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>choHbe&apos;bogh HochvaD &apos;angghach</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>choHbe&apos;bogh HochvaD &apos;angghach chu&apos;Ha&apos;lu&apos;.</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>ghoch</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>ghochmey laDlaHbe&apos;lu&apos;: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>Qu&apos; ruch</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>chenmoHghach waHnIS</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>&apos;e&apos; yIso&apos;</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>ghoch yIchenmoH</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>not</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>ghojmoHmeH ghItlh yIlaD</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>%added chel, %changed choH, %removed teq</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%bytes, %limit vo&apos; (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>latlh %count tetlhlu&apos;be&apos;.</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>%pages nav ghItlhlu&apos;</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path juv %size, jabwI&apos; wa&apos; ghItlh chaw&apos;bogh juv tlhoy Dung.</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>%percent % veH</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds lup</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag &apos;oH DaH yoS ghajbogh HochvaD &apos;angghach&apos;e&apos;.</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: Qu&apos; %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>/&apos;aplo&apos;qach/ GitHub jInmol yoSvaD; Hoch DaqvaD pagh lo&apos;wI&apos; yoSvaD chIm.</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. yoS</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. jabwI&apos;</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. &apos;aplo&apos; qachDaq &apos;el</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. &apos;aplo&apos; qach</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. rarwI&apos;mey bu&apos; He je</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. Hoch&apos;e&apos; DaqlIj</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. chenmoHghach ngaSbogh</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. ghorgh &apos;anglu&apos;</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. yInuD &apos;ej yIpol</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>GitHub jInmol yoS tu&apos;lu&apos; /&lt;repository&gt;/ bIngDaq; pa&apos; latlh Daq je Qap rarwI&apos;mey ghotlhbogh.</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>chenmoHghach %site Hoch nav suq, &apos;elbe&apos;bogh SuchwI&apos; leghbogh rur, rarwI&apos;mey ghItlhqa&apos;, ghItlhmey velqa&apos;moH, ghoch ghItlh pa&apos;Daq ghItlh. chenmoHghach DanuDpa&apos; &apos;ej HochvaD yI&apos;ang DaghoDpa&apos; pagh &apos;anglu&apos;.</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>cron mu&apos;tlhegh, mu&apos;tlhegh rur: 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>lab ngoQ polmeH pegh %secret.</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>lab ngoQ SSH lo&apos;taHvIS wa&apos; &apos;aplo&apos; qachDaq neH lablaH jom&apos;e&apos;vam, latlh Daq ghobe&apos;. pegh bID&apos;e&apos; SeHlaw &gt; peghmey Daq ratlh; Hoch bID neH &apos;anglu&apos;.</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>ghochvaD chenmoHlu&apos;pu&apos;bogh lab ngoQ</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>lab ngoQ SSH lo&apos; &apos;elmeH: git SoQ yIchoH, SSH SoQ yIlo&apos; (git@github.com:owner/repo.git).</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>Qu&apos; ruch, %user taghpu&apos;</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>ghochvam Qu&apos; ruchtaH (%detail). rInpa&apos; yIloS.</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>ghochvam Qu&apos; ruchtaH. rInpa&apos; yIloS.</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>nav /news/ vo&apos; nav /about-us/team rarwI&apos; ghItlhlu&apos;taH ghIq</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>lab ngoQ chu&apos; chenmoHlu&apos;. DaH &apos;aplo&apos; qachDaq Hoch bIDDaj yIchel.</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>Say&apos;moHghach ghIq Qagh &apos;aghbogh De&apos;, tlhegh ngoQ, pagh DIS ngoQ ngaSbogh nav not &apos;anglu&apos;.</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>cheghmoHghach po&apos;wI&apos;pu&apos;vaD: &quot;vam choHmey vISov&quot; yIwIv &apos;ej per pong yIghItlhqa&apos;.</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>yoS juv: %site, wa&apos; ghItlh juv: %file, jar wa&apos;DIch 100 GB lengwI&apos; je. Dun&apos;a&apos;chugh nab, Hoch&apos;e&apos;vaD &apos;aplo&apos; qach poQlu&apos;. GitHub Pages QaHbe&apos; Suy Daqmey pagh latlh Suy vangghachmey.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>ghoch &apos;oH wa&apos; yoS&apos;e&apos;, wa&apos; git &apos;aplo&apos; qachDaq &apos;anglu&apos;bogh. naDev pagh chenmoHlu&apos; pagh &apos;anglu&apos;: yIpol DuHmey ghItlh settings/override/staticcache.ini.append.php Daq.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>ghoch &apos;oH wa&apos; yoS&apos;e&apos;, wa&apos; DaqDaq &apos;anglu&apos;bogh, ghoch rur Hoch yoSlIj GitHub Pages Daq.</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>SeHlaw &gt; peghmey vo&apos; token</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>&apos;aplo&apos; qach Qu&apos; mIw &apos;anglu&apos;.</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>Hoch ngoQvam yIchel &apos;aplo&apos; qachDaq, ghItlhmeH chaw&apos; je. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, Allow write access yIwIv.</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>chellu&apos;</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>latlh git jabwI&apos;</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>latlh mIw ghochvam vum: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>yIchegh</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>bu&apos; He</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>nIteb</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>bu&apos; He bIngDaq</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>Sor &apos;ay&apos;</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>ghorlu&apos;bogh rarwI&apos;mey</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>chenmoHghachDaq ghorlu&apos;bogh rarwI&apos;mey</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>chenmoHghach</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>chenmoHghach %id, %user chenmoH</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>chenmoHghach %name</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>DaH yIchenmoH</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>chenmoHghach waHnIS</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>vangwI&apos;</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>ghopvaD, naDev</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>yIqIl</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>yIchoH</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>choHlu&apos;</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>choHmey</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>wa&apos;DIch yInuD</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>DuHmeyvam yInuD</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>chenmoHghach choHbogh yInuD, yIlegh, ghIq yI&apos;ang pagh yIwoD.</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>cheghmeH HochvaD &apos;angghach yIwIv.</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>ghIq &apos;aghlu&apos;meH jaS.</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>commit ghItlh</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>commit ghItlhmey</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>chenmoHghach commit ghItlh, per, %remote Daq lab je. not labmoHlu&apos;; ghIq HochvaD &apos;angghach DaneHbogh DacheghlaH.</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>ghItlh pa&apos; nIteb tlhIjlu&apos;chugh: %added chel, %changed choH, %removed teq, %unchanged choHbe&apos;.</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>HochvaD &apos;angghach Qav tlhIjlu&apos;.</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>&apos;elmeH De&apos;</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>Hoch&apos;e&apos; Daq</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>Qagh &apos;aghbogh De&apos;, tlhegh ngoQmey, DIS ngoQmey, nonce je reH teqlu&apos;.</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>lab ngoQ</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>%name lab ngoQ</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>yIwoD</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>chenmoHghach yIwoD</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>Daq</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>chIm: yoS SoQ. pagh yoS rap ghom SoQ.</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>rInlu&apos;</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>Hoch rarwI&apos; bu&apos; He tagh.</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>Hoch HochvaD &apos;angghach &apos;oH commit ghItlh&apos;e&apos;, per static/%id/&lt;n&gt; ghajbogh. cheghlu&apos;chugh commit ghItlh chu&apos; chenmoHlu&apos;, HochvaD &apos;angghach nIteb ghItlhmeyDaj ghaj: qun ratlh, per vIHbe&apos;, pagh labmoHlu&apos;.</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>latlh ghItlhmey</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>navmey Suq vo&apos;</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>ghItlh</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>ghItlhmey</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>ghItlhmey Dachlu&apos;</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>ghItlhmey:</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>boSlaHbe&apos;lu&apos;bogh ghItlhmey</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>ghop ngu&apos;wI&apos;</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>ghItlh pa&apos;</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>SSH SoQvaD. polpu&apos;DI&apos; ngoQ chenmoHlu&apos;; &apos;aplo&apos; qachDaq Hoch bIDDaj Dachel.</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>https:// SoQvaD. GitHub: fine-grained token, &apos;aplo&apos; qachDaq Contents laD ghItlh je chaw&apos; ghajbogh.</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>po&apos;wI&apos;pu&apos;vaD. labghach rInDI&apos; Hoch yoS choH.</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>chu&apos;wI&apos; mIwmey</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>GitHub &apos;aplo&apos; qach vo&apos; Dun&apos;a&apos;chugh jabwI&apos;.</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>Sor &apos;ay&apos; vo&apos;</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>git SoQ</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages chaw&apos;: yoS juv %site, ghItlh juv %file.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>GitHub Pages veHmey</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages ghItlhmey &apos;ang, motlh rur (_ taghbogh ghItlhmeyvaD poQlu&apos;).</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub Sor &apos;ay&apos; jab, lablu&apos;pu&apos;bogh rur. motlh.</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, De&apos;wI&apos; jabwI&apos;lIj: git &apos;aplo&apos; qach Hoch.</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>HochvaD &apos;angghach nIteb yIchegh</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>QaH</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>QaHwI&apos; mIwvaD QaH</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>yIso&apos;</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>qun</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>%name qun</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>jabwI&apos;</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>chenmoHghach GitHub Pages Hev chay&apos;</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>choHmey vInuDpu&apos;</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>vam choHmey vISov</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ngu&apos;meH mI&apos;</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>chu&apos;Ha&apos;lu&apos;: chu&apos;lu&apos;pa&apos; pagh chenmoHlaHlu&apos;.</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>%user rur Qap &apos;em; navvam DaSoQmoHlaH.</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>Qu&apos; %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>polmeH pegh %secret.</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Segh</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>HochvaD &apos;angghach Qav</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>navmeyvam yIchelQo&apos;</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>tlhoSmeyvam yIchelQo&apos;</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>rarwI&apos;mey</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>ghItlhqa&apos;lu&apos;bogh rarwI&apos;mey</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>yInbogh yoS</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>chenmoHghach yIlegh</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>mach ghItlhmey, mI&apos;mey, _ - je, ghoch rur github-public. ghItlh pa&apos; perwI&apos;mey je (static/&lt;id&gt;/&lt;n&gt;) ponglu&apos;, ghIq choHlaHbe&apos;lu&apos;.</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>ngoQ chu&apos; yIchenmoH</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>ghoch yIchenmoH</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>ngoQ yIchenmoH</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>wa&apos;DIch jabwI&apos;Daq &apos;aplo&apos; qach yIchenmoH; chIm &apos;aplo&apos; qach Qapchu&apos;.</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>ghItlhmey tetlh</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>QIn</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>navmey law&apos;</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>pong</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>SeHlaw &gt; peghmey Daq token pong</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>ghoch chu&apos;</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>yIghoS</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>ghobe&apos;</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>commit ghItlh tu&apos;lu&apos;be&apos; &apos;ach.</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>ngoQ chenmoHlu&apos;be&apos;: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>php ra&apos;meH tlhegh ghun tu&apos;lu&apos;be&apos;. migration.ini [AdminSettings] PhpCliPath yIwIv, He naQ yIlo&apos;.</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>per tu&apos;lu&apos;be&apos; &apos;ach.</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>ghoch tu&apos;lu&apos;be&apos; &apos;ach.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>pagh</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>chenmoHghachDaq ngaSbe&apos;.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>pagh &apos;anglu&apos;pu&apos; &apos;ach.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>pagh &apos;anglu&apos;pu&apos; &apos;ach: Hoch ghItlh chu&apos;.</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>yIrIt</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>poH nab rur</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>ra&apos;wI&apos; SeHlaw Daq</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>De&apos;wI&apos; jabwI&apos;Daq: ./console exp:static:serve %id rur jab.</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>Hoch tlheghDaq wa&apos; He, * Hoch &apos;ay&apos; rap: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>ghoch pong neH pollu&apos;; token ngoQ joq SeHlaw &gt; peghmey Daq ratlh, &apos;ej not ta Daq &apos;anglu&apos;.</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>navmey ponglu&apos;bogh neH</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>token neH. env:NAME De&apos;wI&apos; jabwI&apos; Dotlh lIng laD.</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>wa&apos;DIch legh yIpoSmoH</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>jabwI&apos; jabbogh rur chenmoHghach poSmoH, ghoch ghItlh pa&apos; vo&apos;. wa&apos; rep rarwI&apos; Qap SoHvaD.</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>poQbe&apos;lu&apos;. chIm: &apos;anglu&apos;pu&apos;bogh.</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>poQbe&apos;lu&apos;. Daq ghajlu&apos;chugh, yoS jablu&apos; ghuvDaq.</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>&apos;aghbogh De&apos;</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>navmey</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>ghoch navmey</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>lajQo&apos;lu&apos;bogh navmey</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>ghIq mIw</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>nungbogh mIllogh</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>wa&apos;DIch yIlegh &apos;ej yI&apos;ang</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>%name wa&apos;DIch yIlegh &apos;ej yI&apos;ang</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>chenmoHghach wa&apos;DIch yIlegh</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>ghoSghach</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>Hoch SoQ</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>Hoch ngoQ</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>HochvaD yI&apos;ang</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>choHbe&apos;bogh yoS velqa&apos; yI&apos;ang GitHub Pages Daq pagh git jabwI&apos; Daq: yIchenmoH, choHmey yInuD, yI&apos;ang, &apos;ej DaneHDI&apos; HochvaD &apos;angghach nIteb yIchegh.</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>cheghmeH HochvaD &apos;angghach</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>HochvaD &apos;angghachmey</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>lab</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>ghojmoHmeH ghItlh yIlaD</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>ta</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>lajQo&apos;lu&apos;</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>ghotlhbogh</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>yIlI&apos;qa&apos;</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>teqlu&apos;</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>ngoQ yIchoH: ngoQ ngo&apos; Qapbe&apos;choH</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>ja&apos;</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>chenmoHghach ja&apos;</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>&apos;aplo&apos; qach</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>yInuD</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>nuDghach Hoch DuH nuD &apos;ej ghItlhlu&apos;taHbogh tlheghmey &apos;ang. pagh pollu&apos; &apos;ach.</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>yIcheghmoH</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>cheghmoHghach</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>yIpol</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>poH nab</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>nejmeH nav</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>tlhoS ngu&apos;meH mI&apos;mey, mI&apos;mey ghoS rIn&apos;eQ.</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>yInbogh yoSDaq yIngeH</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>DuH</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>DuHmey</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>%name DuHmey</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>SeHlaw</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>SeHlaw &gt; peghmey</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>tetlhmeyDaq &apos;anglu&apos;, ghoch rur &quot;GitHub Pages Daq Hoch yoS&quot;.</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>GitHub App lo&apos;taHvIS &apos;el, GitHub muvghach jaSDI&apos; Qap.</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>yoS</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>&apos;anglu&apos;meH yoS</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>juv</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>juv veHmey je</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>chenmoHghach juv</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>ngo&apos;choHbogh navmey</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>taghlu&apos;</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>%user tagh, %time poH.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>ghap</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>choHbe&apos;bogh HochvaD &apos;angghach</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>choHbe&apos;bogh HochvaD &apos;angghach chu&apos;Ha&apos;lu&apos;</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>choHbe&apos;bogh HochvaD &apos;angghach chu&apos;Ha&apos;lu&apos;.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>choHbe&apos;bogh HochvaD &apos;angghach chu&apos;Ha&apos;lu&apos;. wa&apos;DIch SeHlaw &gt; choHbe&apos;bogh HochvaD &apos;angghach Daq yIchu&apos;.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>choHbe&apos;bogh HochvaD &apos;angghach chu&apos;lu&apos;.</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>mIw &apos;ay&apos; %step, %total vo&apos;</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>mIw &apos;ay&apos;mey</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>Say&apos;moHghach</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>yIchu&apos;Ha&apos;</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>yIchu&apos;</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>choHbe&apos;bogh HochvaD &apos;angghach yIchu&apos;</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>per</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>perwI&apos;mey</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>ghoch</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>ghochmey chenmoHlaHlu&apos; choHlaHlu&apos; je, &apos;ach chu&apos;lu&apos;pa&apos; pagh chenmoHlu&apos; pagh &apos;anglu&apos;.</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>nejwI&apos; jo&apos;mey ja&apos;, nuq laD.</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>chenmoHghach woDlaHbe&apos;lu&apos;: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>chenmoHghach rap HochvaD &apos;angghach Qav: &apos;anglu&apos;meH pagh tu&apos;lu&apos;.</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>chenmoHghach woDlu&apos;: ghItlh pa&apos; HochvaD &apos;angghach Qav ngaSqa&apos;.</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>motlh DuHmey law&apos; yoSmey yIQ.</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>&apos;anglu&apos;be&apos;bogh chenmoHghach ngaS ghItlh pa&apos;; chenmoHghach chu&apos; Qa&apos;.</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>Qu&apos;mey ghItlh pa&apos; ghItlhlaHbe&apos;lu&apos;: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>Qu&apos; ghuHmoHlaHbe&apos;lu&apos;: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>Qu&apos; taghlaHbe&apos;lu&apos;.</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>Qu&apos; rIn. ja&apos;Daj lI&apos;lu&apos;taH.</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>&apos;elpu&apos;bogh lo&apos;wI&apos; poQ Qu&apos;.</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>Qu&apos; taghlu&apos; &apos;ach mIw ngu&apos;meH mI&apos;Daj ja&apos;be&apos;. %detail yInuD.</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>ngoQ</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>ghItlh tIn law&apos;: %path, %size.</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>ghItlhlu&apos;taHbogh tlheghmey</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>nejwI&apos; jo&apos;meyvaD navmey tetlh; Hoch SoQ poQ.</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>&apos;elbe&apos;bogh SuchwI&apos; leghbogh rur navmey suqlu&apos;. not loHmeH choHmeH je siteaccess nobHa&apos;lu&apos;.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>ghoSghach tlha&apos;laHbe&apos;lu&apos;. Qu&apos; Dotlh DaleghmeH nav yIlI&apos;qa&apos;.</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>ngoQ Hoch bID:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>Sor &apos;ay&apos; ghuv</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>pegh pol ghun &apos;ach (./console exp:upgrade --apply raSDaj chenmoH), vaj ngoQ pollaHbe&apos;lu&apos;.</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>De&apos;wI&apos; jabwI&apos; &apos;el nIteb (SSH ngoQDaj pagh &apos;elmeH De&apos; QaHwI&apos;Daj lo&apos;), pagh De&apos;wI&apos; jabwI&apos;vamDaq &apos;aplo&apos; qach tu&apos;lu&apos;.</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>DuH ghItlhlaHbe&apos;lu&apos;: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>DuHmey lugh. tlheghmeyvam ghItlhlu&apos;taH:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>DuHmey ghItlh laDlaHbe&apos;lu&apos;: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>yoS HochvaD &apos;angghach&apos;e&apos; ghItlhmeyDaq chegh; chenmoHghach &apos;anglu&apos;be&apos;bogh wa&apos;DIch &apos;anglu&apos;nIS pagh woDlu&apos;nIS.</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>yoS nav&apos;e&apos;, SoQmey tu&apos;lu&apos;be&apos;bogh.</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>ghoch pollaHbe&apos;lu&apos;: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>ngoQvam lo&apos;taHvIS ghoch &apos;elbe&apos; &apos;ach: DuHmeyDaj Daq &quot;ghochvaD chenmoHlu&apos;pu&apos;bogh lab ngoQ&quot; yIwIv.</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>ghochmey laDlaHbe&apos;lu&apos;: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>nuDmeH chenmoHghach tu&apos;lu&apos;be&apos; &apos;ach.</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>jom&apos;e&apos;vam Dung siteaccess ghajbe&apos;. not &apos;anglu&apos; loHmeH choHmeH je siteaccess.</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>Qu&apos; ruchtaHvIS navvam tlha&apos;; navvam SoQmoHlu&apos;DI&apos; Qap &apos;em taH.</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>lab ngoQ ghajbe&apos; ghochvam &apos;ach.</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>naDev chenmoHlu&apos;be&apos; ghochvam &apos;ach.</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>wa&apos; ghaj ghochvam.</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>chenmoHghachvam woD: ghItlh pa&apos; HochvaD &apos;angghach Qav ngaSqa&apos;. yInbogh yoS choHbe&apos;.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>wa&apos;DIch &quot;choHmey vInuDpu&apos;&quot; yIwIv.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>poH</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>taghmoHwI&apos;mey</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>per pong yIghItlhqa&apos;</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>choHbe&apos;</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>QIn ngeHmeH rarwI&apos;</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>nuq</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>nuq choH</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>ghItlh Hoch Segh; reH ghItlhlu&apos;.</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>Qu&apos; vangpu&apos;bogh ta&apos;Daj je. naDev taghlu&apos;bogh Qu&apos; navvam SoQmoHlu&apos;DI&apos; Qap &apos;em taH.</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>Qu&apos; QaghmeyDaj ghItlhpu&apos;bogh</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>navmey ponglu&apos;bogh, &apos;anglu&apos;pu&apos;bogh ghItlhmey Hoch mIllogh je</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>ghorgh</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>HochvaD &apos;angghach Qapbe&apos;DI&apos;</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>HochvaD &apos;angghach QapDI&apos;</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>ghItlhmey &apos;anglu&apos;DI&apos;</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>velqa&apos; ngaSbe&apos;bogh De&apos;vaD rarwI&apos;mey nuqDaq ghoS (nejghach, &apos;elghach).</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>choHbe&apos;bogh velqa&apos; jablu&apos;meH Daq.</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>yoS &apos;anglu&apos;bogh, ghoch pong je.</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>He Hoch bIngDaq Qap. motlh.</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>Hoch&apos;e&apos; Daq DuHlu&apos;DI&apos; ghItlhlu&apos;.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>HISlaH</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>reH naDev ra&apos;wI&apos; SeHlaw Daq je ghopvaD DachenmoHlaH Da&apos;anglaH je.</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>pong neH; lo&apos;laHghach SeHlaw &gt; peghmey Daq ratlh</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>%path bIngDaq</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>ja&apos; Hutlh, rIn</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>latlh</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>Qapbe&apos;</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>ghItlh</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages, pagh main ghItlh pa&apos; docs je.</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>git jabwI&apos;</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (token lo&apos;) pagh git@github.com:owner/repo.git (lab ngoQ lo&apos;); not ngoQHom pagh token ngaS.</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/, yoS pu&apos;jIn canonical rarwI&apos;mey je.</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>mIllogh</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>not</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ghobe&apos;</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>Hop &apos;aplo&apos; qach tu&apos;lu&apos;be&apos;</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>pagh: ghItlh pa&apos;Daq commit ghItlhmey ratlh</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>pagh: pagh choHlu&apos;</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>lablu&apos;be&apos;</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>pagh choHlu&apos;</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>nav</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>Qap</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>proc_open chu&apos;Ha&apos;lu&apos;, vaj naDev Qu&apos; taghlaHbe&apos;lu&apos;. De&apos;wI&apos; jabwI&apos;Daq ./console exp:static:build yIlo&apos;.</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>HochvaD &apos;angghach</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>&apos;anglu&apos;pu&apos;</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>lab loS</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>lablu&apos;pu&apos;</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>lajQo&apos;lu&apos;</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>ghotlhbogh</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>cheghmoHghach</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>cheghmoHlu&apos;pu&apos;</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>Qap</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>ghItlh pa&apos; neH</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: ghItlh CNAME Daq ghItlhlu&apos;. jabwI&apos; QIjbogh rur Daq DNS jabwI&apos;Daq yIwIv; HTTPS taghmeH poH nI&apos; poQlaH.</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>HISlaH, &apos;anglu&apos;be&apos; &apos;ach</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>wa' GitHub App</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>'aplo' qach Qu' mIw 'oH ngaSbogh 'ang. chenmoHghach Qu' mIw De'wI' ghItlh ghItlh; pa' chIm yIpol.</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>GitHub 'aplo' qach token pagh GitHub App je ghajbogh ghoch Dapolpu'DI', 'aplo' qach chenmoHlaH mIw 'ay'vam 'ej GitHub Pages chu'laH. pagh, wa'DIch GitHubDaq 'aplo' qach yIchenmoH; chImchugh 'aplo' qach, maj.</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>Sor 'ay' pagh GitHub Actions?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>DNS yInuD</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>'aplo' qach tu'lu'be'chugh yIchenmoH</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>GitHubDaq 'aplo' qach yIchenmoH 'ej DuHmeyDaq GitHub Pages yIchu' (Settings &gt; Pages).</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>'aplo' qach %repo chenmoH tu'lu'be'chugh (tlhoblu'chugh), Sor 'ay' pagh GitHub Actions vo' GitHub Pages chu' polbogh rur, Hoch'e' Daq HTTPS je cher. DuHmey polpu'bogh lo': wa'DIch choHmey yIpol.</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>GitHubDaq De' naQ</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>wa'DIch Hoch'e' Daq yIghItlh.</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>wa'DIch veHmeyvam Daj lablu'bogh Hoch.</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>GitHubDaq https:// SoQvaD. jom Qu'vamvaD App cherlu'pu'bogh 'el; jom mI' poQ.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>DIl Hutlhbogh nab ghajchugh neH pegh 'aplo' qach jab GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: Daq mach (www.example.com) &lt;owner&gt;.github.ioDaq CNAME ta' poQ; Daq wa'DIch (example.com) A ta'mey %ips poQ.</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>GitHub App jom mI'</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>Pages chenmoHghach Qav</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>veHmey chutmey je</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>Dun'a'chugh nab, GitHub PagesvaD poQlu'.</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>GitHubDaq</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>GitHub App neH: GitHubDaq App jom SoQ bertlham mI'. staticcache.iniDaq App'e' cherlu' (GitHubAppId, GitHubAppKey).</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>pegh</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>Hoch</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>wa'DIch GitHub 'aplo' qach token pagh GitHub App je ghajbogh ghoch yIpol.</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>Daq jabwI'Daq ta'meyvam yIcher:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>GitHubDaq yIcher</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>GitHub Pages DIch %domain DNS wej.</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>GitHub Pages DIch %domain DNS.</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>naDev GitHub muvghach tu'lu'be': %problem. Sor 'ay'Daq ngaSghach Qap Hoch; 'aplo' qach DuHmeyDaq GitHub Pages yIchu'.</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>ghochvamvaD GitHub mIw 'ay'mey tu'lu'be': %problem.</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>'elmeH De' token pagh GitHub App 'oHchugh, GitHub Pages Dotlh 'aghlu'.</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>Hoch'e' Daq yIlo'</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>nuq Dawuq: token, lab ngoQ pagh GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>GitHub 'aplo' qach token pagh GitHub App je tu'lu'chugh, 'aplo' qach chenmoHlaH QaHwI' mIw, GitHub Pages chu'laH 'ej SoHvaD Daq cherlaH (mIw 'ay' loS).</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>chenmoHlu'taH</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>chenmoHlu'pu'</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>GitHub Actions vo'</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>Sor 'ay' %branch vo'</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>pagh wej</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>tu'lu'be'</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>chu'Ha'lu'</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>pegh</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>Hoch</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>loSwI' tetlhDaq</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>Sovlu'be'</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%count %pages nav:</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>ghItlh teywI' Hoch Dung .gz (je .br), ghItlh pagh vegh.</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>nav mach Hoch rurbogh Daq je pong nav, 'ej rap rap ghom chaq.</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>GitHub Actions vIlo' mIw.</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>SPDX id rur CC-BY-4.0, pagh mu'mey.</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>tu'lu'</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>qawHaq QonoS</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>QIjmey</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>ghItlh chu'wI' mIwmey</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>GitHub Actions workflow</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>pagh ghItlh je QIjmey nav.</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>De' wIj chaw'</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>yIlogh</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>Minify</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>chu'wI' mIwmey law'</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>Precompress</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>nav lan</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>nav lan: %count.</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>nej</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>nej Hotlh: %pages nav %languages.</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>Style sheets je scripts pongta' hash De' 'ej browsers vaj pol.</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>nav choHta', puS minut choH Qav (cronjob Del staticpublish).</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>De' wIj chaw', chu'wI' mIw bIng.</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>Hoch Dujmey, poH Hoch (cronjob Del staticpublish).</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>qawHaq ghaj nav Del; Hoch chap ghaj. yIleghmoH publish.</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>Daq static ghajbe'</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>repository; Daq host poSmoH.</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>tlhoS</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>chap mu'mey</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>yInbogh yoS chu'wI' lIw</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>yInbogh yoS</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>ngaS nej nav</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>chu'wI' mIw ngeH Dachu'laHbe'.</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>Qapla': chu'wI' mIw ngeH.</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>chu'wI' mIw Dachu'be': yIlaD 'ej yIngeH.</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>nobmeyHey DaH ghItlh 'ollaHbe'bogh tlhoS teq</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>loHwI' Daq rarwI' teq</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>ghItlhchaj ratlh. mIllogh, mu'tlhegh, latlh Daqmey rarwI' je not teqlu'.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>chovnatlh</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>yoS lojmItmey nanejbogh</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>yoS lojmIt</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>DaH tIqDaq</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>tIqDaq yoS lojmIt tu'lu'be': Hoch ghom'a' ghaH, tIq rar</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>yoS lojmItmey</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>yoS lojmIt wa' yIwIv, pagh law' URI moHaq ghaj host wa' 'ejDo'. tIqDaq lojmIt pa' lo'lu', latlh moHaq ghom'a'Daq (/ger/); chaH rarmeyvetlh qa'Daq ratlh. loH lojmItmey not nob.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>%site Daq %target choHbe'bogh HochvaD 'angghach Qapbe'</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>%site Daq %target choHbe'bogh HochvaD 'angghach Qap</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>QIn'vam ngeH %site, choHbe'bogh HochvaD 'angghach DoS %target poQmo'.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>%site Daq ngeHghach %deploy Qapbe'</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>%site Daq lojmIt Dop ngeHghach %deploy loS</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>%site Daq ngeHghach %deploy Qap</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>QIn'vam ngeH %site, migration.ini [RemoteSettings] Notify[] poQmo'.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>tlhegh Segh (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>%time toghlu', %minutes tup pIq toghlu'qa'</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>buv tlhegh lo'laHghach wa' Segh pol 'ej choH tlhegh Segh: ghItlh tlhegh, mIllogh, rar. law'chaj qem ngoq botlh, latlh chel chelwI'mey. naDev Hoch chaH tu'lu', 'Iv chaH nob, 'ej 'ar ngaSwI' chaH lo'. tlhegh Segh'e' lo' De'wI' De' ta' 'ach DaH qonbe' vay', ghaHbogh ngaSwI' ghor.</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>buv ghommey</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>tup Hopmey toghmey yIlo'Qo'; DaH yItogh qaSDI'.</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>yItogh qaSDI'</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>naQ leghghach</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>muvta'</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>lo'lu'</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>lo'lu'be'</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>tlhegh Segh nobbogh chelwI'mey</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>buv tlheghmey</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>Doch buv tlheghmey</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>qonlu'be'</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>tetlhDaq tu'lu', De'wI' teywI' tu'lu'be'</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>%count tlhegh Segh lo'lu' 'ach qonlu'be'</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>%class_attributes buv tlheghmey %object_attributes Doch tlheghmey je ghaj tlhegh Segh'e' qonbe' chelwI' pagh choHmeH ghItlh. Dochmeychaj 'aghlu' laHbe', choHlu' laHbe', ngablu' laHbe'. tlhegh Segh nobbogh chelwI' yItlhe', pagh buv yIchoH.</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>vam neH yI'agh</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>tlhegh Segh yInej</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>ngu'wI', pong, PHP buv pagh chelwI'.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>yI'ang</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Hoch</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>nobwI'</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>Hoch</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>ngoq botlh</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>SaywI' vam rapbogh tlhegh Segh tu'lu'be'.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Hoch yI'ang</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>chelwI'</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%count tlhegh Segh vo' %shown, %used lo'lu'</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>tlhegh Segh vammey buv tlheghmey pagh Doch tlheghmey ghaj De'wI' De' ta', 'ach pagh tetlh content.ini, pagh De'wI' teywI'Daj tu'lu'be'.</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>%provider tlhegh Segh</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>tlhegh Segh</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>PHP buv De'wI' teywI' je</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>buvmey</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>Dochmey</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>Dotlh permey</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>pagh</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>nejmeH mu' rapbogh tlhegh Segh tu'lu'be'. nejmeH mu' yIteq.</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>%count tlhegh Segh vo' %shown 'aghlu'</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>'aghlu'bogh tlhegh Segh: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>tetlh mIw yIchoH: %column</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>%time toghlu'</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>Hoch tlhegh Segh</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>QaH nav</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>tlhegh Segh vam lo'lu' 'ach qonlu'be'</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>tlhegh Segh qonbe'taHvIS Hoch chelwI', bIng buvmey Dochmey 'aghlu' laHbe', choHlu' laHbe', ngablu' laHbe'. nobbogh chelwI' yItlhe' 'ej content.ini [DataTypeSettings] AvailableDataTypes[] Daq yIchel, pagh buvmey yIchoH.</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>tlhegh Segh vam tetlh content.ini, 'ach De'wI' teywI'Daj ghajbogh tlhegh Segh qawHaq tu'lu'be'. lo'be' vay'; AvailableDataTypes[] vo' yIteq pagh chelwI'Daj yItlhe'.</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>tlhegh Segh vam bopbogh</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>ngu'wI'</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>pong</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>%name chelwI'</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>pagh</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>PHP buv</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>ghItlh</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>AvailableDataTypes[] Daq</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>HISlaH</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ghobe'</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>lo'laHghachDaj tut</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>buv tlheghDaj choHmeH ghItlh tut</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>SomHommey</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>tlhegh Segh ngoq laDlu'DI' tutmey ta'mey je tu'lu': ghojmoHwI' ghaH, lay' ghaHbe'.</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>mIw 'echletmey</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>yoS lojmIt</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>mIw 'echlet</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>tu'lu'bogh Daq</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>loH vam</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>motlh Daq</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>tamwI'mey Hutlh: buv pagh tlhegh rapbogh tamwI' mIw 'echlet vammey Qaw'.</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>lo'bogh buvmey (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>tlhegh Segh vam tlhegh ghajbogh buv tu'lu'be'.</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>buv</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>buv tlheghmey</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>buv tlheghmey (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>buv tlhegh</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>DuHmey</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ngu'meH mI' %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>poQlu'</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>nejmeH</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>mughlaH vay'</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>De' boS</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>lo'bogh ngaSwI' puS</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>Qav choHlu'bogh wa'DIch</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>choHlu'ta'</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>Sor Daq %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>Hoch mughmey ghaj lo'laHghach nIteb.</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>lo'laHghachmeyDaj tetlh nejwI'.</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>Suchbogh nuvpu' vo' De' boS laH (ghItlh nav).</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>tetlhmey nIS laH: nISmeH ngaQHa'moHwI' %type.</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>tetlh mIw lo'laH</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>latlh Dochmey 'ang lo'laHghachmeyDaj.</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>rarghachmey</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>ghItlh tlhegh nap vo' teblu' laH (qemlu', REST).</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>ghItlh vo'</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>De'wI' teywI' vo' teblu' laH.</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>De'wI' teywI' vo'</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>buv tlheghDaj choHmeH ghItlh 'el ngaSwI'meyDaq.</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>'aplo'mey</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>De' (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from - %to (Hoch: %count)</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>tetlh yIghIm</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>buvmey Hoch</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>'ay'</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Holmey</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>ghajwI'</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>'anglu'ta'</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>tetlh mIw yItlhe'moH</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Doch pagh</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>wa' navDaq</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>wa' navDaq %count Doch yI'ang.</translation>
     </message>
 </context>
 </TS>

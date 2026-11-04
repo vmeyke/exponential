@@ -1002,6 +1002,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>Bare denne siden gjennomsøkes: %from til %to av %count.</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Alle datatyper fra kjernen og utvidelsene, og hvordan klassene og innholdet bruker dem.</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Datatyper</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2354,6 +2362,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>Systemsider kan også bokmerkes: åpne siden (Oppsett, revisjonssporet, en liste over brukere ...) og velg Bokmerk denne siden over den. Slike bokmerker har et tannhjulikon.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>Du kan ikke lenger åpne denne siden her. Fjern bokmerket, eller be en administrator om tilgang.</translation>
     </message>
 </context>
 <context>
@@ -5379,6 +5391,210 @@
         <source>Go to the first page</source>
         <translation>Gå til første side</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>Annet</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>Siste 7 dager</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>Egendefinert periode</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>Alle ord</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>Hvilket som helst ord</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>Eksakt frase</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>Relevans</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>Navn A–Å</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>Navn Å–A</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>Endret, nyeste først</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>Endret, eldste først</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>Publisert, nyeste først</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>Publisert, eldste først</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Endringstidspunkt</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>Filtre</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>Vis filtre</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>Skjul filtre</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Nullstill</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>Bruk</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>Ord</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>Innholdstype</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>Vis flere (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>Velg én innholdstype for å søke i ett av attributtene dens.</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Seksjon</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Fra</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Til</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>Fra-datoen er ikke en gyldig dato.</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>Til-datoen er ikke en gyldig dato.</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Eier</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>Bruker-ID, brukernavn eller e-postadresse.</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>Fant ingen bruker for «%input».</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Språk</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>Alle språk</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Plassering</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>%count plasseringer</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>Resultater per side</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>Resultater for «%text» (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>Resultater (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>Sorter etter</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>Sorter</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>Aktive filtre</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>Fjern dette filteret</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>Eller velg filtre og bruk dem for å liste innholdet som samsvarer.</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>Filtrene snevrer inn søket når du har skrevet inn ord.</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>Fant ingen resultater for «%text».</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>Fant ingen resultater.</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>Fjern et filter ovenfor.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Oversettelser</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Handlinger</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>Rediger %name</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Rediger</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -7937,6 +8153,10 @@
         <source>Setup &gt; Cronjobs</source>
         <translation>Oppsett &gt; Cronjobber</translation>
     </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>Ingen cronjobbdel har kjørt ennå: jobbkøen, importene, varslingene og søkeindeksen venter. Kjør php bin/php/installcrontab.php --add --apply, eller legg til linjene fra --show i crontab.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/dashboard/drafts</name>
@@ -8485,8 +8705,8 @@
         <translation>Opphavsrettsmerknadene til de opprinnelige forfatterne og til tredjepartsprogramvaren som følger med Exponential, beholdes i kildefilene og i filen LICENSE, slik lisensen krever.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>Følgende er en liste over bidragsytere til Exponential som har lisensiert arbeidet sitt for bruk av 7x i henhold til vilkårene i eZ Systems Contributor Licensing Agreement. Som denne avtalen tillater, videredistribuerer 7x hvert bidrag under samme lisens som filen bidraget er inkludert i. Listen nevner hver bidragsyter, valgfri kontaktinformasjon og filene de har bidratt med eller bidratt til.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>Bidragsytere som krediteres for arbeidet sitt med Exponential og med programvaren det vokste ut av, med filene de har bidratt til. Dette er kreditering, ikke en opphavsrettsmerknad: bidrag til Exponential overdras til Exponential Foundation og 7x i henhold til Contributor Licensing Agreement.</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -14508,32 +14728,20 @@ Merk: Pakkene blir ikke avinstallert.</translation>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;Prøv Exponential Enterprise Edition&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Bli medlem av Exponential-fellesskapet, utveksle og bidra&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; og andre.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>Drevet av &lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt;. For mer informasjon, se &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; og andre.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> For mer informasjon se &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
     </message>
     <message>
-        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; og andre.</translation>
+        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;Prøv Exponential (fra 7x)&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Bli medlem av Exponential-fellesskapet, få støtte og bidra&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; og andre.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -14542,6 +14750,61 @@ Merk: Pakkene blir ikke avinstallert.</translation>
     <message>
         <source>Help center</source>
         <translation>Hjelpesenter</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>Innhold</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>Dokumentsider</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>Brukere</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>Innholdsklasser</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>Administrasjon</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>Side %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>Vis alle resultater</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>%count resultater</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>Ett resultat</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>%count forslag</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>Ingen forslag</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>Forslagene kunne ikke lastes inn.</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>Forslag</translation>
     </message>
 </context>
 <context>
@@ -15070,6 +15333,14 @@ Merk: Pakkene blir ikke avinstallert.</translation>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>Denne installasjonen er en offentlig demo: hvem som helst kan kjenne administratorpassordet, og administratorpassord kan ikke endres eller nullstilles. Ikke skriv inn noe privat her.</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Enhetene dine</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Sikkerhetsaktivitet</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -15391,6 +15662,14 @@ Merk: Pakkene blir ikke avinstallert.</translation>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>Veiledninger, søk og hvordan du rapporterer en feil.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Nytt innhold</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Det nyeste innholdet, det som holdes tilbake for gjennomgang, og handlinger på et utvalg.</translation>
     </message>
 </context>
 <context>
@@ -15849,6 +16128,46 @@ Merk: Pakkene blir ikke avinstallert.</translation>
         <source>Synchronisations</source>
         <translation>Synkroniseringer</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>GraphQL-API-et: endepunktet, skjemaet og en lekeplass for å prøve spørringer.</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migreringer</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Endringer i installasjonen lagret som filer: tilstanden deres, kjøringene, kjør og rull tilbake.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Nytt innhold</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Det nyeste innholdet, det som holdes tilbake for gjennomgang, og handlinger på et utvalg.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Publiser en statisk kopi av et nettsted til GitHub Pages eller en annen git-vert.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Statisk publisering</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Datatyper</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Alle datatyper fra kjernen og utvidelsene, og hvordan klassene og innholdet bruker dem.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -16017,6 +16336,22 @@ Merk: Pakkene blir ikke avinstallert.</translation>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>Kontoer ingen bruker eller som bør ses på; deaktiver, lås opp eller eksporter dem.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Revisjonslogg for brukere</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>Hvem som endret, logget inn eller ble avvist, per konto; filtrer og eksporter.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Innloggingsrapport</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>Hvem som er logget inn, innlogginger og feil per dag; logg ut en bruker overalt.</translation>
     </message>
 </context>
 <context>
@@ -22909,6 +23244,22 @@ Merk: Pakkene blir ikke avinstallert.</translation>
         <source>%n hours ago</source>
         <translation>for %n timer siden</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>Svar på GraphQL-API-ets lagrede spørringer, og innholdsklassene i skjemaet.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>Publiser en statisk kopi til GitHub Pages eller en annen git-vert</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Statisk publisering</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>Den statiske cachen leverer sider fra denne serveren. For å publisere en statisk kopi av et nettsted et annet sted, på GitHub Pages eller en annen git-vert, bruk statisk publisering.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -26463,6 +26814,10 @@ Merk: Pakkene blir ikke avinstallert.</translation>
     <message>
         <source>last purge</source>
         <translation>siste fjerning</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>Skrivinger kunne ikke ta tilstandslåsen (sist %date): hver av dem gjorde alle hurtigbufrede resultater utdaterte. %file må være skrivbar for hver bruker nettstedet kjører som; på NFS trengs NFSv4 eller lockd.</translation>
     </message>
 </context>
 <context>
@@ -34415,6 +34770,14 @@ Merk: Pakkene blir ikke avinstallert.</translation>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>Utløpte økter i PHP-behandleren fjernes av PHP selv (session.gc_maxlifetime), ikke av denne siden eller delen session_gc av cronjobben.</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>De innloggede øktene til alle brukere vises og logges ut i innloggingsrapporten, som fungerer med alle øktbehandlere.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>Åpne innloggingsrapporten</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -38831,6 +39194,26 @@ kontoen din.</translation>
     <message>
         <source>None yet</source>
         <translation>Ingen ennå</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Sikkerhetsaktivitet</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>Dine siste innlogginger, mislykkede forsøk og endringer av passordet, e-postadressen og totrinnsinnloggingen din.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>De siste innloggingene, mislykkede forsøkene og sikkerhetsendringene for denne kontoen.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>Se gjennom aktivitet</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>%count mislykkede innlogginger</translation>
     </message>
 </context>
 <context>
@@ -45093,6 +45476,42 @@ Hvis du vil sende en kommentar til den som skal godkjenne, eller se på status, 
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>Etter innlogging må brukeren velge et nytt passord før noe annet kan gjøres. Bruk dette når du gir noen et midlertidig passord.</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>Velg et eksisterende bilde</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>Bildefilen til objektet du velger, kopieres inn i dette feltet. Det andre objektet endres ikke.</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>Bildet til «%name» ble kopiert inn i dette feltet.</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>Bla igjennom for å finne et bilde</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>Søk i bilder etter navn</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Søk</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>Bruk bildet til «%name»</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>Bruk dette bildet</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>Ingen bilder samsvarer med søket ditt.</translation>
     </message>
 </context>
 <context>
@@ -52202,6 +52621,10 @@ Se siden med krav for mer informasjon.</translation>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>Crontab ble ikke skrevet (%reason). Legg til disse linjene i crontab til brukeren nettstedet kjører som, ellers kjøres aldri køen, importene, varslene og søkeindeksen:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>Reinstallering gjøres med kickstarteren (%file, deretter php bin/php/kickstarter.php run --apply) eller med en ny installasjon.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -56104,6 +56527,10 @@ kontoen din.</translation>
         <source>eZJSCore Public Packer cache</source>
         <translation>Cache for eZJSCore Public Packer</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>GraphQL-hurtigbuffer (svar og skjemaklasser)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -56198,6 +56625,14 @@ kontoen din.</translation>
     <message>
         <source>Remove classes</source>
         <translation>Fjern klasser</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Datatyper</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>Datatype %string</translation>
     </message>
 </context>
 <context>
@@ -57024,6 +57459,26 @@ denne feilen. Ikke prøv å sende betalingen på nytt.</translation>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>SVG-bildet kunne ikke leses, eller ingenting i det kan vises på en trygg måte.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>Bildet kunne ikke kopieres. Prøv igjen, eller kontakt administratoren for nettstedet.</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>Det valgte objektet finnes ikke, eller du har ikke tilgang til å lese det.</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>Det valgte objektet har ikke noe bilde.</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>Bildefilen til det valgte objektet kunne ikke leses.</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>Bildet til det valgte objektet er større enn dette feltet tillater: %1 byte.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -57566,6 +58021,42 @@ denne feilen. Ikke prøv å sende betalingen på nytt.</translation>
         <source>The bookmark was renamed to &quot;%name&quot;.</source>
         <translation>Bokmerket fikk det nye navnet &quot;%name&quot;.</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>Denne siden er slått av i denne nettstedstilgangen (%siteaccess). Åpne bokmerket i en nettstedstilgang som har den.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>Modulen til denne siden er ikke installert eller ikke aktivert her.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>Denne siden finnes ikke lenger: modulen har ingen slik visning.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>Ingen av rollene dine gir deg lov til å åpne denne siden.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>Du har ikke lov til å bruke denne nettstedstilgangen.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>Du har ikke lov til å lese innholdet denne siden viser.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>Denne typen side kan ikke bokmerkes: den utfører bare en handling på et skjema, eller er en side for ett øyeblikk.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>Adressen til denne siden mangler.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>Denne siden kan ikke åpnes nå.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -58048,6 +58539,10 @@ Du må endre klassen til noden ved hjelp av byttefunksjonen.</translation>
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>E-posttransporten avviste %count meldinger i siste kjøring. Kontroller e-postserveren og site.ini MailSettings.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>%count hendelser venter, og ingen kjøring av varslingscronjobben er registrert. Legg til cronjobbdelen &quot;frequent&quot; i crontab, eller kjør exp:notification:run --apply.</translation>
     </message>
 </context>
 <context>
@@ -64312,6 +64807,10 @@ Du må endre klassen til noden ved hjelp av byttefunksjonen.</translation>
         <source>Choose another site or section with the node picker</source>
         <translation>Velg et annet nettsted eller en annen seksjon med nodevelgeren</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>Bare systemadministratoren kan endre eieren: kjør ./console exp:content-check --fix-permissions --apply som root.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -65845,6 +66344,10 @@ Du må endre klassen til noden ved hjelp av byttefunksjonen.</translation>
     <message>
         <source>empty</source>
         <translation>tom</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>Signeringsnøkkelen er over ett år gammel: bytt den med exp:audit key rotate --apply.</translation>
     </message>
 </context>
 <context>
@@ -68225,6 +68728,486 @@ Du må endre klassen til noden ved hjelp av byttefunksjonen.</translation>
         <source>Share of page time</source>
         <translation>Andel av sidetiden</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>en full gjengivelse ble bedt om</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>sidecachen hadde ikke siden (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>sidecachen svarte ikke</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>Gjengitt</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>Gjengitt av kjernen: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>Levert fra sidecachen på %ms ms. Siden ble lagret %stored av en gjengivelse på %render ms, for %age s siden.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>Gjengi nå</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>Tilbake til den bufrede visningen</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>Fra gjengivelsen %stored (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>Denne forespørselen: levert fra sidecachen på %ms ms.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Bruker</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>Bruker-ID</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>Hurtigbufferprofil</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>Denne visningen</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>Visningscache</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>per bruker (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>Brukerens hurtigbufferprofil: brukere med samme profil deler visningsbufferfilene</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ja</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>nei</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Logg inn</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>Pålogget</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>Økt</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>Delene av innholdsvisningens hurtigbuffernøkkel som avhenger av brukeren, nøyaktig slik nøkkelen tar dem, under ViewCacheTweaks for denne siden. Brukere med samme profil deler visningenes hurtigbufferfiler, med mindre delene av selve visningen er forskjellige (preferanser, nøkler fra lyttere): de har en egen profil, kun for denne siden.</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>Profil</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>Denne visningen (node %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: hver pålogget bruker har egne hurtigbufferfiler.</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>Gjeldende ViewCacheTweaks: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>Del</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>Verdi</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>Ingen del avhenger av brukeren (ViewCacheTweaks).</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>denne visningen</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>Kopier som tekst</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>Roller</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>Ingen rolletildelinger kunne leses.</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>Rolle-ID</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Rolle</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>Begrensning</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>Tildelt</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>brukeren</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>gruppe %name (objekt %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>Kopiert</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>Kunne ikke kopiere.</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>utelatt av en lytter</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>Anonyme besøkende</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>lik din</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>forskjellig</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>Profilen anonyme besøkende får under samme ViewCacheTweaks, med standardpreferansene, uten visningens deler: en lytter som leser økten, kan ikke spørres om dem.</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>Preferanser</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>Ingen visningsmodus avhenger av brukerpreferanser (site.ini [ContentSettings] CachedViewPreferences).</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>Preferansene som visningene i disse visningsmodusene avhenger av (CachedViewPreferences), med brukerens verdi eller standardverdien. De ligger i profilen som userpreferences, for alle visningsmoduser samlet.</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>Visningsmodus</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>Preferanse</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>Standard</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>Tilgangsregler</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>Vis rollenes policyer (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>Policyene lastes fra serveren når denne delen åpnes, én side om gangen, og kan filtreres etter modul og funksjon.</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>Funksjon</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>Alle moduler</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>Alle funksjoner</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>Begrensninger</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>Vis flere</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>Disse rollene har ingen policyer.</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>Ingen policy samsvarer med filteret.</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%shown av %matching policyer (%total totalt)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>Lastes når den åpnes.</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>module/function, rolle, begrensning</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>Søk i retningslinjene</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>Last inn flere</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>Modul/funksjon</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>Alle roller (%count retningslinjer)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>Ingen retningslinje samsvarer.</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%shown av %matched retningslinjer</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>Ingen svar</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>maskert</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>Vis forklaringer</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>Skjul forklaringer</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Åpne</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>Åpne alle</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>Lukk alle</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>Nøkkel eller verdi</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>Søk i økten</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Type</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>%count til</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>nestet for dypt til å vises</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>avkortet, %count tegn totalt</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Startet</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>Navn på informasjonskapsel</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>Økt-ID</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>Behandler</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>Lagringssti</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>PHP-standard</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>Levetid (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>Informasjonskapsel</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>levetid %s s</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>Din egen PHP-økt, slik den var da seksjonen ble åpnet, aldri en annens. Verdier for nøkler som ser ut som hemmeligheter (tokener, hasher, passord), maskeres (debugbar.ini SessionMask[]); alt annet vises slik det er lagret, også personopplysninger.</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>%count nøkler, %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>stor</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>Økten er tom.</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>Ingen økt ble startet for denne forespørselen.</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Utvidelsen %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>Kjerne og andre</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>Ikke alle oppføringer vises: økten inneholder mer enn det som kan listes her.</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>%count nøkler er ikke oppført.</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>Rammer</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>Verdier som ser ut som et token (et JSON Web Token, legitimasjonen i en Authorization-header, en privat nøkkel, en lang heksadesimal eller tilfeldig tekst), maskeres også, uansett hva nøkkelen heter (debugbar.ini SessionValueMask[]).</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>Nøkkelen ser ut som en hemmelighet (debugbar.ini SessionMask[]).</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>Verdien ser ut som et token.</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>Under en maskert nøkkel.</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>Økten som tekst, maskert som tabellen.</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>Økten er større enn %size (debugbar.ini SessionWarnBytes): hver forespørsel fra denne brukeren leser hele økten, og skriver den når den er endret.</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP lagrer denne økten i filer og låser filen under hele forespørselen: forespørsler fra samme bruker (flere faner, AJAX-kall) venter på hverandre.</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>Hold åpen</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>Større enn %size (debugbar.ini SessionWarnBytes): hver forespørsel fra denne brukeren leser hele økten.</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%hits av %count lest fra cachen</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>Ingen mal ble gjengitt (en visning lest fra visningscachen gjengir ingen).</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>Rolletildelinger</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>Roller og tilgangsregler</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>forskjellig fra anonyme besøkende</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>samme som for anonyme besøkende</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70105,6 +71088,14 @@ Du må endre klassen til noden ved hjelp av byttefunksjonen.</translation>
     <message>
         <source>not sent</source>
         <translation>ikke sendt</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Varslingscronjobben registrerer hver kjøring her. Legg til delen frequent i crontab, eller kjør exp:notification:run --apply.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>Bruk konsollen: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -75830,6 +76821,98 @@ Du må endre klassen til noden ved hjelp av byttefunksjonen.</translation>
         <source>This topic is not Released; readers do not see it.</source>
         <translation>Dette emnet er ikke frigitt; leserne ser det ikke.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migreringer</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Endringer i installasjonen lagret som filer: tilstanden deres, kjøringene, kjør og rull tilbake.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Publiser en statisk kopi av et nettsted til GitHub Pages eller en annen git-vert.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Statisk publisering</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>Til gjennomgang</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>Leserne ser denne siden.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>Skjult for leserne til noen frigir den.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>Siden er nå til gjennomgang. Den er skjult for leserne til den blir frigitt.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>Siden er frigitt: leserne ser den nå.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>Siden er et utkast igjen. Den er skjult for leserne til den er gjennomgått og frigitt.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>Frigi nå</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>Bare en bruker med rollen %role som ikke skrev denne versjonen, kan frigi den.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>Hjelpeemner som venter på frigivelse</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>Skjuler den for leserne til den blir frigitt igjen.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>En kontrollør sjekker den deretter. Leserne ser den ikke ennå.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>Leserne ser den med en gang.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>Tar den ut av gjennomgang for mer arbeid. Leserne ser den ikke.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>Skjule denne siden for leserne?</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>Sende denne siden tilbake til utkast?</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>Leserne ser ikke lenger %title før noen frigir den igjen.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title går tilbake til utkast for mer arbeid. Leserne ser den fortsatt ikke, og den må gjennomgås på nytt før den blir frigitt.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Avbryt</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>Disse emnene er til gjennomgang. Leserne ser dem så snart noen som ikke skrev den gjeldende versjonen, frigir dem.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/secrets</name>
@@ -77735,6 +78818,46 @@ Du må endre klassen til noden ved hjelp av byttefunksjonen.</translation>
         <source>None.</source>
         <translation>Ingen.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>med en autentiseringsapp</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>med en kode via e-post</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>med en gjenopprettingskode</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>med en tilgangsnøkkel</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>med en ekstern konto</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Sikkerhetsaktivitet</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>Vises som nettverket sitt; adressen lagres slik personverninnstillingene for nettstedet sier.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Ikke registrert</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Plassering</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>omtrentlig</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -77978,6 +79101,42 @@ Du må endre klassen til noden ved hjelp av byttefunksjonen.</translation>
         <source>Manage devices</source>
         <translation>Administrer enheter</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>med en autentiseringsapp</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>med en kode via e-post</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>med en gjenopprettingskode</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>med en tilgangsnøkkel</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>med en ekstern konto</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Sikkerhetsaktivitet</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Ikke registrert</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Plassering</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>omtrentlig</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -78057,6 +79216,14 @@ Du må endre klassen til noden ved hjelp av byttefunksjonen.</translation>
         <source>View the sessions of this user</source>
         <translation>Vis øktene til denne brukeren</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>Kontoen din %login på %site ble nettopp brukt til å logge inn fra et sted den ikke har logget inn fra i det siste:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>Omtrentlig plassering</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -78095,6 +79262,10 @@ Du må endre klassen til noden ved hjelp av byttefunksjonen.</translation>
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%browser på %os</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Innloggingsrapport</translation>
     </message>
 </context>
 <context>
@@ -78303,6 +79474,82 @@ Du må endre klassen til noden ved hjelp av byttefunksjonen.</translation>
         <source>The passkey could not be checked. Please try again.</source>
         <translation>Tilgangsnøkkelen kunne ikke kontrolleres. Prøv igjen.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>Kontoer som bare logger inn med tilgangsnøkler, kan ikke bruke passord her: velg &quot;Logg inn med en tilgangsnøkkel&quot;.</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>Tilgangsnøklene til %login</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>Tilgangsnøklene denne kontoen logger inn med. Tilbakekall en som ligger på en mistet eller stjålet enhet: da kan den ikke logge inn lenger. Nye legger eieren til selv.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>Kontoen din trenger en tilgangsnøkkel</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>Legg til en tilgangsnøkkel på kontoen din</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>Legg til en tilgangsnøkkel for å fortsette. Da logger du inn med den i stedet for bare med et passord.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>Å logge inn med en tilgangsnøkkel er raskere og sikrere enn et passord. Legg til en nå, eller fortsett uten.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>Ikke nå</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>Vil du tilbakekalle tilgangsnøkkelen &quot;%name&quot;?</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>Den kan ikke lenger logge inn på denne kontoen. Hvis det var den siste, logger eieren inn med passordet, eller du angir et nytt.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>Tilbakekall tilgangsnøkkelen</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>Tilbakekall</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>Denne kontoen har ingen tilgangsnøkkel.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>Autentiseringsenhet</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Ukjent</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>Din siste tilgangsnøkkel: legg til en annen før du fjerner den.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>Denne kontoen logger bare inn med tilgangsnøkler (retningslinje for tilgangsnøkler): når ingen er igjen, logger den inn med passordet sitt igjen.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>Dette er din siste tilgangsnøkkel, og kontoen din kan ikke logge inn uten en. Legg til en annen tilgangsnøkkel først.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>Tilgangsnøkkelen &quot;%name&quot; er tilbakekalt. Den kan ikke lenger logge inn på denne kontoen.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -78402,6 +79649,34 @@ Du må endre klassen til noden ved hjelp av byttefunksjonen.</translation>
         <source>Code from your authenticator app</source>
         <translation>Kode fra autentiseringsappen din</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>Du er i ferd med å slette data for godt eller tømme en logg.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>Passordet ditt og en tilgangsnøkkel</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>Passordet ditt og en kode fra autentiseringsappen din</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>Eller:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>Denne nettleseren kan ikke bruke tilgangsnøkler. Bruk en annen måte eller en annen nettleser.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>Når du fortsetter, ber nettleseren om en av tilgangsnøklene dine.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>Fortsett med en tilgangsnøkkel</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -78492,6 +79767,70 @@ Du må endre klassen til noden ved hjelp av byttefunksjonen.</translation>
     <message>
         <source>Setup</source>
         <translation>Oppsett</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>Endre sitt eget passord, e-postadresse, tilgangsnøkler, totrinnsinnlogging, gjenopprettingskoder eller API-nøkler, og logge ut sine andre enheter.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>Opprette og redigere brukere, passordene og enhetene deres, kontoinnstillinger, godkjenne eller avvise nye brukerkontoer, tildele roller og redigere retningslinjer.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>Slette data</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>Tømme papirkurven, fjerne elementer fra den og fjerne flere elementer på én gang.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>Fjerne, publisere og lagre innhold</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>Fjerne innhold (også til papirkurven), publisere og lagre et utkast; spørres når skjemaet sendes. Av som standard.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>Før en sensitiv handling bekrefter en innlogget bruker på nytt hvem hen er: med passordet og en tilgangsnøkkel, eller uten tilgangsnøkkel med passordet og koden fra autentiseringsappen. Bare nettsidene spør: REST-grensesnittet, SOAP, WebDAV, expservices-innloggingen og kommandolinjen spør aldri.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>Hvor innstillingene gjelder</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>Innstillinger for</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Alle nettstedstilganger</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>Nettstedstilgang %name</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Åpne</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>Hvem som blir spurt: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>Kryss av brukergrupper for å spørre bare medlemmene deres (for eksempel redaktører). Ingen avkrysset: alle brukere.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>Lagret i settings/override/site.ini.append.php, for alle nettstedstilganger. Når du lagrer, blir du bedt om å bekrefte at det er deg.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>Lagret i settings/siteaccess/%name/site.ini.append.php. En verdi i settings/override går foran. Når du lagrer, blir du bedt om å bekrefte at det er deg.</translation>
     </message>
 </context>
 <context>
@@ -78594,6 +79933,6822 @@ Du må endre klassen til noden ved hjelp av byttefunksjonen.</translation>
     <message>
         <source>Open the page</source>
         <translation>Åpne siden</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from til %to av %count</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>Et brukernavn eller en bruker-ID: kontoen hendelsen gjaldt, eller brukeren som handlet.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Konto</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Handling</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>Etter</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>Alle resultater</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Før</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Utført av</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Tøm</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Utført</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>Hendelser lagres i %days dager.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>Hendelser lagres til de fjernes manuelt.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Hendelser</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>Alle handlinger</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>Alle hendelser for denne kontoen</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>Eksporter listen som CSV (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Mislyktes</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Fra</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>Avgrens listen</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>Ingen hendelser samsvarer.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Per side</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>Registreringen er slått av i audit.ini ([UserAuditSettings] UserAudit); listen viser det som ble registrert tidligere.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Avvist</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Resultat</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Vis</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>Tabellen for revisjonsloggen for brukere mangler. Opprett den med php update/common/scripts/6.0/createuseraudittable.php; inntil da beholder revisjonsfilene alle hendelser.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>Denne siden krever en SQL-database; den er ikke tilgjengelig med MongoDB. Revisjonsfilene beholder alle hendelser.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Til</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Revisjonslogg for brukere</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Bruker</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Når</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Hvor</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>Hvem som endret, opprettet, aktiverte, deaktiverte, flyttet eller fjernet hvilken konto, hvem som logget inn eller ble avvist, og hvilke roller som ble tildelt: én linje per hendelse, med feltene før og etter. Passord og hemmeligheter registreres aldri.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>gruppe</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>systemet</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>ukjent</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>Sikre kontoen din</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>En gjenopprettingskode ble brukt til å logge inn på kontoen din %login på %site.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>En gjenopprettingskode ble brukt</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Konto</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>Omtrentlig adresse</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>Be om et nytt passord for å logge inn igjen, eller kontakt administratorene av nettstedet.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>Be om et nytt passord</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>Hver gjenopprettingskode virker én gang. Hvis du har mistet telefonen, konfigurer autentiseringsappen på nytt og oppbevar de nye gjenopprettingskodene et trygt sted.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>Mislykkede innloggingsforsøk på kontoen din</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>Fra nå av ber innloggingen om en kode i tillegg til passordet ditt. Hvis det var du som gjorde dette, trenger du ikke gjøre noe.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>Hvis det var deg og du har glemt passordet, be om et nytt. Hvis ikke, velg et sterkere passord og slå på totrinnsinnlogging.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>Hvis det ikke var deg, kjenner noen kanskje passordet ditt: bytt det nå og sjekk hvor kontoen din er logget inn.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>Gjenværende gjenopprettingskoder</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>Se gjennom enhetene dine</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>Sikkerhetsvarsel</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>Noen prøvde å logge inn på kontoen din %login på %site med feil passord %count ganger på rad.</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>Det var en sikkerhetshendelse på kontoen din %login på %site.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>Dette er et sikkerhetsvarsel om kontoen din. Det sendes ved hver slik endring og kan ikke slås av.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Tid</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>Totrinnsinnlogging ble slått av for kontoen din %login på %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>Totrinnsinnlogging ble slått av</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>Totrinnsinnlogging ble slått på for kontoen din %login på %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>Totrinnsinnlogging ble slått på</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>Kontoen din %login på %site ble låst etter for mange mislykkede innlogginger.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>Kontoen din er nå bare beskyttet av passordet. Hvis det ikke var du som gjorde dette, slå på totrinnsinnlogging igjen etter at du har byttet passord.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>Kontoen din ble låst</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>En tilgangsnøkkel ble lagt til kontoen din %login på %site.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>Den som har denne tilgangsnøkkelen, kan logge inn på kontoen din uten passordet ditt. Hvis du ikke la den til, fjern den under Tilgangsnøkler og endre passordet ditt.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>En tilgangsnøkkel ble fjernet fra kontoen din %login på %site.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>Den kan ikke lenger logge inn på kontoen din. Hvis du ikke fjernet den, sjekk tilgangsnøklene og enhetene dine.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>En tilgangsnøkkel ble lagt til kontoen din</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>En tilgangsnøkkel ble fjernet fra kontoen din</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>Sikkerhetsaktivitet</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Sikkerhetsaktivitet for %name</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Logget inn</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Mislykket innloggingsforsøk</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Logget ut</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Økter logget ut</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Innlogging fra en ny enhet</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Innlogging fra en ny plassering</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Identitet bekreftet (&quot;Bekreft at det er deg&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Identitetskontroll mislyktes</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Logget inn med en tilgangsnøkkel</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Innlogging med tilgangsnøkkel mislyktes</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Innlogging avvist: totrinnskode mangler eller er feil</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Feil totrinnskode</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Kontoen låst etter mislykkede innlogginger</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Kontoen låst opp</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Passord endret</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Passordendring mislyktes</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Passord tilbakestilt</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Nytt passord forespurt</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>E-postadresse endret</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Brukernavn endret</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Totrinnsinnlogging slått på</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Totrinnsinnlogging slått av</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Gjenopprettingskode brukt</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Nye gjenopprettingskoder</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Apppassord opprettet</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Apppassord tilbakekalt</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Tilgangsnøkkel lagt til</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Tilgangsnøkkel fjernet</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Konto aktivert</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Kontoen er deaktivert</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Alle</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Innlogginger og økter</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Kontoendringer</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Trenger oppmerksomhet</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>av deg</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>av brukeren</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>av %login</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>Metode</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>Nettleser</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>System</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Enhet</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>Sted</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>Land</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Økter</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>Hvilke</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>Kanal</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Mislykkede forsøk</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>Gjenværende koder</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>Innloggingsbehandler</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Sikkerhetsaktivitet</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Sikkerhetsaktivitet for %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Innlogginger og endringer i sikkerheten for kontoen din. Hvis du ser noe du ikke har gjort, bytt passord og logg ut enhetene du ikke kjenner igjen.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>Innlogginger og endringer i sikkerheten for denne kontoen.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Enhetene dine</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Bytt passord</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>Tilbake til kontoen</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>Sikkerhetsaktiviteten registreres ikke</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>Den leses fra revisjonsloggen for brukere, der tabellen expuser_audit mangler eller ikke støttes i denne databasen. Kjør php update/common/scripts/6.0/createuseraudittable.php, eller databaseoppdateringen for 6.0.15.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>De siste %days dagene</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Innlogginger de siste %days dagene</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>Nylig sikkerhetsaktivitet</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Vis</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>mislyktes</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>avvist</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Ingen sikkerhetsaktivitet registrert ennå.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>Sikkerhetshendelser lagres i %days dager.</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>Sikkerhetshendelser lagres til en administrator fjerner dem.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Last ned innloggingsdataene mine</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Øktene og sikkerhetshendelsene dine som en JSON-fil.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Økter registreres ikke på dette nettstedet, så ingen andre enheter kunne logges ut. Bytt passordet ditt nå.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count andre økter ble logget ut. Bytt nå passordet ditt.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Ingen andre enheter var logget inn. Bytt nå passordet ditt.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Takk. Hendelsen er merket som din.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Den hendelsen trenger ikke noe svar.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Siden var utløpt. Ingenting ble endret; prøv igjen.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Sikre kontoen din</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Hvis noe her ikke var deg, logger du ut alle andre enheter og velger deretter et nytt passord. Enheter som holdes pålogget med «Husk meg», logges også ut.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Alle enheter unntatt denne logges ut ved neste forespørsel. Deretter velger du et nytt passord.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Ja, logg ut de andre enhetene</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Var dette deg?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Ja, det var meg</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Nei, sikre kontoen min</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Logget inn</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Mislykket innloggingsforsøk</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Logget ut</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Økter logget ut</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Innlogging fra en ny enhet</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Innlogging fra en ny plassering</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Identitet bekreftet (&quot;Bekreft at det er deg&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Identitetskontroll mislyktes</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Logget inn med en tilgangsnøkkel</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Innlogging med tilgangsnøkkel mislyktes</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Innlogging avvist: totrinnskode mangler eller er feil</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Feil totrinnskode</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Kontoen låst etter mislykkede innlogginger</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Kontoen låst opp</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Passord endret</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Passordendring mislyktes</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Passord tilbakestilt</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Nytt passord forespurt</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>E-postadresse endret</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Brukernavn endret</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Totrinnsinnlogging slått på</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Totrinnsinnlogging slått av</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Gjenopprettingskode brukt</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Nye gjenopprettingskoder</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Apppassord opprettet</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Apppassord tilbakekalt</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Tilgangsnøkkel lagt til</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Tilgangsnøkkel fjernet</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Konto aktivert</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Kontoen er deaktivert</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Alle</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Innlogginger og økter</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Kontoendringer</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Trenger oppmerksomhet</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Sikkerhetsaktivitet</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Sikkerhetsaktivitet for %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Innlogginger og endringer i sikkerheten for kontoen din. Hvis du ser noe du ikke har gjort, bytt passord og logg ut enhetene du ikke kjenner igjen.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Enhetene dine</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Bytt passord</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>Sikkerhetsaktiviteten registreres ennå ikke på dette nettstedet.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Innlogginger de siste %days dagene</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Mislykkede forsøk</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Ingen sikkerhetsaktivitet registrert ennå.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Last ned innloggingsdataene mine</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Øktene og sikkerhetshendelsene dine som en JSON-fil.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Økter registreres ikke på dette nettstedet, så ingen andre enheter kunne logges ut. Bytt passordet ditt nå.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count andre økter ble logget ut. Bytt nå passordet ditt.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Ingen andre enheter var logget inn. Bytt nå passordet ditt.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Takk. Hendelsen er merket som din.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Den hendelsen trenger ikke noe svar.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Siden var utløpt. Ingenting ble endret; prøv igjen.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Sikre kontoen din</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Hvis noe her ikke var deg, logger du ut alle andre enheter og velger deretter et nytt passord. Enheter som holdes pålogget med «Husk meg», logges også ut.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Alle enheter unntatt denne logges ut ved neste forespørsel. Deretter velger du et nytt passord.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Ja, logg ut de andre enhetene</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Var dette deg?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Ja, det var meg</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Nei, sikre kontoen min</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>Passord</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>Passord og totrinnskode</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>REST-grensesnitt</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>SOAP-grensesnitt</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>Enkel pålogging</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>Logget inn før økter ble registrert</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Innloggingsrapport</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>Hvem som er logget inn på nettstedet, hvor ofte kontoer logger inn og mislykkes, og utlogging av en bruker overalt. Fungerer med alle øktbehandlere.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>Økten ble logget ut. Enheten må logge inn på nytt.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>%login ble logget ut av %count økter.</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>%login hadde ingen aktiv økt.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>Ingen konto har den ID-en, det brukernavnet eller den e-postadressen.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>Dette er økten du bruker. Logg ut for å avslutte den.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>Den økten var allerede avsluttet.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Siden var utløpt. Ingenting ble endret; prøv igjen.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>Økter registreres ikke på dette nettstedet (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>Tabellen expuser_session mangler</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>Økter registreres når den er opprettet: php update/common/scripts/6.0/createusersessiontable.php, eller databaseoppdateringen for 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>Nå og i dag</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>Aktive økter</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>Innloggede brukere</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>Innlogginger i dag</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>Mislykkede forsøk i dag</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>Logg ut en bruker overalt</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>Hver økt for kontoen avsluttes ved neste forespørsel, også de som holdes av &quot;Husk meg&quot;. Bruk dette når en konto kan være på avveie; tilbakestill deretter passordet.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>Bruker-ID, brukernavn eller e-postadresse</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>Logg ut overalt</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>Logget inn nå</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>De %limit sist brukte vises.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Bruker</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Enhet</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adresse</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>Logget inn</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>Sist aktiv</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Handlinger</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>Denne enheten</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Ikke registrert</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>Logg ut</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>Ingen økt er logget inn.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>De siste %days dagene</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>Innlogginger og mislykkede forsøk telles fra revisjonsloggen for brukere, som ikke finnes; de nye øktene telles.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>Dag</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>Innlogginger</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Mislykkede forsøk</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>Nye økter</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>Øktbehandler: %handler. Øktene leses fra tabellen expuser_session, så rapporten fungerer med alle behandlere.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>Mistenkelig aktivitet de siste %hours timene</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>Ett nettverk klarte ikke å logge inn på %accounts kontoer (%count forsøk)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Konto låst etter mislykkede pålogginger</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>%count mislykkede pålogginger på én konto</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>Logget inn fra %count land samtidig</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Sikkerhetsaktivitet</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Sesjoner</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>Mislykkede pålogginger leses fra brukerrevisjonsloggen, som ikke er tilgjengelig her.</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>Ingenting mistenkelig: ingen konto med gjentatte mislykkede pålogginger, ikke noe nettverk som prøver flere kontoer, ingen konto pålogget fra flere land.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>Sikkerhetsvarsel for kontoen din</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>Det var en sikkerhetshendelse på kontoen din %login: %event. Hvis det ikke var deg, sikre kontoen din på %url.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Oppsett</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>Be innholdet på dette nettstedet om nøyaktig de feltene en side trenger, i én forespørsel. Skjemaet følger innholdsklassene; hver spørring kjører med rettighetene til brukeren som sender den.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>GraphQL-API-et er slått av i denne nettstedstilgangen. Slå det på i graphql.ini: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>GraphQL-biblioteket (webonyx/graphql-php 15) er ikke installert.</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>Endepunkt</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>Bibliotek</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>Skjema</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>%count innholdsklasser, skjema %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>Spørring</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>Variabler (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Kjør</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>Svar</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>Kjører…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>Svaret kunne ikke leses.</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>Spørringen kjører med dine rettigheter, innlogget med denne økten.</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%count på %seconds s</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>ingen grense</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>Dybde</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>Kompleksitet</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>Elementer per liste</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (standard %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>Forespørsler per bruker eller nøkkel</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>Forespørsler per anonym adresse</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>Introspeksjon</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>Bare lagrede spørringer</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>Største spørring</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>%bytes byte</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>Største opplasting</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>Nettstedstilgangen %siteaccess finnes ikke.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>Mutasjonene er slått på i %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>Mutasjonene er slått av i %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>GraphQL-API-et er slått på i %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>GraphQL-API-et er slått av i %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>Innstillingene kunne ikke skrives: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>Svarhurtigbufferen ble tømt: %count svar fjernet.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>Kryss av i boksen ved siden av spørringen for å fjerne den.</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>Spørringen kunne ikke fjernes: en spørring levert i en katalog fra PersistedQueryDirectoryList[] fjernes sammen med filen sin.</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>Den lagrede spørringen ble fjernet.</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>Mutasjoner</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>på</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>av</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Nettstedstilganger</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>Hvor API-et og mutasjonene svarer. Knappene skriver graphql.ini, slik ./console exp:graphql:enable og exp:graphql:disable gjør.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Nettstedstilgang</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>GraphQL-API</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Endre</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Slå av</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>Mutasjoner av</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>Mutasjoner på</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Slå på</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>Grenser</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>graphql.ini [GraphQLSettings] for denne nettstedstilgangen.</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>Svarhurtigbuffer</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>Svarene på lagrede spørringer, lagret per brukerrettigheter og utløpt hver gang innhold publiseres.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Tilstand</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>Lagrede svar</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>%count svar, %bytes byte</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>Lagres maksimalt</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds s</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>Sist utløpt</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>Tøm svarhurtigbufferen</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>Lagrede spørringer</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>Lagret med ./console exp:graphql:persist, eller av klienter (automatisk lagrede spørringer); kalles med navn eller SHA-256.</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>Navn</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Størrelse</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Hvor</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Fjern</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>levert</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>lagret</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>Ja, fjern denne spørringen</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>Ingen lagrede spørringer ennå.</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>API-nøkler</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>Personlige API-nøkler med omfanget graphql:read (spørringer) eller graphql:write (mutasjoner). Lag og tilbakekall dem på siden API-tilgang, eller med ./console exp:graphql:keys.</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>API-tilgang</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>Alle nøkler</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>Nøkkel</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Navn</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Eier</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>Omfang</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>Sist brukt</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>aktiv</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>utløpt</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>tilbakekalt</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>aldri</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>Ingen API-nøkkel med et GraphQL-omfang ennå.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>GraphQL-API-et er slått av i nettstedstilgangen %siteaccess, som viser denne siden; tabellen nedenfor viser hvor det svarer.</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>For nettstedstilgangen %siteaccess, som viser denne siden.</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>Webhooker</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>Hver hendelse et endepunkt ber om (publish, update, trash, delete, move, hide, reveal, mutation), sendes til det, signert, av cronjob-delen graphqlwebhooks. ./console exp:graphql:webhooks gjør det samme som denne delen.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Hendelser</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>alle</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Hver nettstedstilgang</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>feil</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>ingen hemmelighet</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>Venter</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count gitt opp</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>Siste levering</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Send en test</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>Ja, fjern denne webhooken</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>Ingen webhooker ennå.</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>Legg til en webhook</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>Legg til</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>Nylige leveringer</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Tid</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Resultat</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>Abonnementer</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>Direkteoppdateringer for klienter: en hendelsesstrøm på /api/graphql/subscribe og en WebSocket (graphql-transport-ws) på Velocity. Hver hendelse går bare til abonnenter som har lov til å lese innholdet.</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>Åpne nå</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>Flest åpne</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>%total totalt, %user per bruker, %address per adresse</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>Anonyme abonnementer</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>Strømmens varighet</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>Webhooken kunne ikke legges til: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>Webhooken %name ble endret; signeringshemmeligheten beholdes.</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>Signeringshemmeligheten kunne ikke lagres (Oppsett &gt; Hemmeligheter).</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>Webhooken %name ble lagt til. Signeringshemmeligheten, vist bare denne gangen: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>Webhooken %name finnes ikke.</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>Webhooken %name svarte ikke: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>Webhooken %name svarte %status på %ms ms.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>Kryss av i boksen ved siden av webhooken for å fjerne den.</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>Webhooken %name ble fjernet.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>GraphQL-API-et er slått av i denne nettstedstilgangen.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>GraphQL-biblioteket er ikke installert.</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>Bruk GET eller POST.</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>Forespørselens brødtekst er ikke et JSON-objekt.</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables er ikke et JSON-objekt.</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions er ikke et JSON-objekt.</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>Send spørringen med POST.</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>Forespørselen inneholder ingen spørring.</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>Spørringen er lengre enn %max byte.</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>Intern serverfeil</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node trenger nøyaktig én av id, remoteId, path og urlAlias.</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content trenger nøyaktig én av id og remoteId.</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>Markøren i after kommer ikke fra dette API-et.</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>Bildealiaset %alias finnes ikke (image.ini [AliasSettings] AliasList[]).</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>Bare lagrede spørringer godtas her: send id-en til en spørring som er lagret på serveren.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>Hashen til den lagrede spørringen er ikke en SHA-256.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>Hashen til den lagrede spørringen samsvarer ikke med spørringen.</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>For mange forespørsler: høyst %limit i løpet av %window sekunder. Prøv igjen om %reset sekunder.</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>Spørringen er %depth nivåer dyp; høyst %max er tillatt.</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>Spørringen har en kompleksitet på %complexity; høyst %max er tillatt.</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>Denne forespørselen har ikke lov til å lese skjemaet (introspection).</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search trenger en tekst eller et filter (classes, subtree, sections, publishedAfter, publishedBefore).</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument er ikke en dato (ISO 8601, 2026-10-30).</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag trenger nøyaktig én av id, remoteId og path.</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout trenger nøyaktig én av id, identifier og urlAlias.</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>Feltet operations i multipart-forespørselen er ikke én JSON-forespørsel.</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>Feltet map i multipart-forespørselen er ikke et JSON-objekt.</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>Multipart-forespørselen har ingen fil %field.</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>En sti i feltkartet må begynne med variables.: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>Filen %name kom ikke frem hel (opplastingsfeil %error).</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>Filen %name er større enn %max byte.</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>Filen %name kunne ikke kontrolleres.</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>Mutasjoner er slått av i denne nettstedstilgangen (graphql.ini [GraphQLSettings] MutationsEnabled).</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>Send en mutasjon med POST.</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>Logg inn for å endre innhold.</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>API-nøkkelen har ikke omfanget %scope.</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>En mutasjon med en økt trenger skjematokenet til økten (overskriften X-CSRF-Token).</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>uploadFromUrl er slått av: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] nevner ingen vert.</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>Adressen må være en https-adresse.</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>Verten %host står ikke i graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>Filen kunne ikke hentes.</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload er bare en inndatatype.</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>En variabel av typen Upload tar en fil fra en multipart-forespørsel.</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>Den eksterne ID-en %remoteId er allerede i bruk.</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>Innholdet har allerede en oversettelse til %language: bruk updateContent.</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>Oppgi minst ett felt.</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>Ingen ny versjon kunne lages (innholdet har for mange utkast).</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>Versjon %version er ikke et utkast.</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent trenger nøyaktig én av id og nodeId.</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>En plassering kan ikke flyttes under seg selv.</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>Innholdet har allerede en plassering under %parentId.</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>Verdien i feltet %field kunne ikke lagres.</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>Innholdsspråket %language finnes ikke.</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>Innholdsklassen %class finnes ikke i skjemaet.</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>Innholdet finnes ikke, eller du har ikke lov til å lese det.</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>Du har ikke lov til å gjøre dette med dette innholdet.</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>Klassen %class har ikke noe felt %field som kan skrives.</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>Feltet %field er oppgitt to ganger.</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>Feltet %field tar en fil: send den som opplasting (en multipart-forespørsel).</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>Feltet %field tar ingen fil.</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>Feltet %field trenger en verdi.</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>Formatet %format er bare for rik tekst-felt; %field tar verdien slik den er (RAW).</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>Feltet %field er påkrevd.</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>HTML-en kunne ikke leses.</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content tar version bare sammen med id.</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>Forhåndsvisningstokenet er ugyldig eller har utløpt.</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>Ikke en opprinnelse (https://host eller https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>Ikke et omfang i GraphQL-API-et: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>Send abonnementer til /api/graphql/subscribe (en hendelsesstrøm eller en WebSocket).</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>Forespørselen angir ingen operasjon i dokumentet.</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>Et abonnement ber om nøyaktig ett felt.</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>For mange abonnementer er åpne; prøv igjen senere.</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>Du har %max abonnementer åpne, det meste som er tillatt.</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>Adressen din har %max abonnementer åpne, det meste som er tillatt.</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>Abonnementer er slått av i denne nettstedstilgangen.</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>Logg inn for å abonnere (et token eller en personlig API-nøkkel).</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>Send mutasjoner til /api/graphql.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>Migreringer</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Tilstanden kunne ikke leses: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Tabellene for migreringene finnes ikke ennå: ./console exp:upgrade --apply oppretter dem.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>%count migreringer mislyktes</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>En kjøring pågår, startet av %user</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>Installasjonen er låst: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Venter</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Mislyktes</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>Foreldreløse</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Siste kjøring</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>ingen ennå</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>Alle migreringer</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>Simulert kjøring</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>Prøvekjøring</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>De ventende migreringene kjørte i en transaksjon som ble rullet tilbake etterpå: ingenting ble beholdt. Nedenfor ser du hva hver av dem endret i databasen.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>Hva en kjøring ville gjort nå. Ingenting endres: hver ventende migrering viser endringene den ville gjort, og kjøringen hva den ville gjort før og etter.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>Simuler</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Kjør</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>Prøvekjøringen mislyktes: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>En simulering krever PostgreSQL eller SQLite, der skjemaendringer kan rulles tilbake; på denne databasen er planen nedenfor det en kjøring ville gjort.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>Migreringene</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>Migrering</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Tilstand</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>Hva den ville gjort</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>Simulering: %result på %ms ms</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>Ingen migrering ennå.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>Før og etter kjøringen</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>Øyeblikksbilde før</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>tas, og gjenopprettes når en migrering mislykkes</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>av</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>Øyeblikksbilde etter</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>tas når kjøringen lyktes</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>%total migreringer: %pending venter, %done fullført, %failed mislyktes.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>Migreringshistorikk</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>Hver kjøring med bruker, miljø, øyeblikksbilder og hva som ble committet, tagget og pushet. En mislykket eller avbrutt kjøring kan gjenopptas; en kjøring med et øyeblikksbilde tatt før den kan tas tilbake.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>Kjøringene kunne ikke leses: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Tabellene for migreringene finnes ikke ennå: ./console exp:upgrade --apply oppretter dem.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Vis</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Alle</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>Kjøringer</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Startet</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Av</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>Øyeblikksbilder</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Depot</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Handlinger</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>før</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>etter</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>opplasting: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>Gjenoppta</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Rull tilbake</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>Ingen kjøring i denne tilstanden.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>Startet her</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>Kjøringer, gjenopptakelser og tilbakerullinger startet på disse sidene, med rapporten for hver.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Hva</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Resultat</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Tilbakerulling</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>Tilbakerulling av %target</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>Kjøring %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Hva kjøringen gjorde, oppføringen og loggen dens. En kjøring startet her fortsetter i bakgrunnen når denne siden lukkes; åpne siden igjen for å følge den.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>Gjenoppta denne kjøringen</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>Rull tilbake denne kjøringen</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>Oppføringen kunne ikke leses: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Fremdrift</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Startet av %user %time.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>Kontrollerer koden og tar et øyeblikksbilde før kjøringen</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>Kjører %id (%index av %total)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>%done av %total fullført</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>Migreringene er kjørt; gjenoppretter øyeblikksbildet hvis en mislyktes</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>Tar et øyeblikksbilde etter kjøringen, committer, tagger og pusher</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>Gjenoppretter øyeblikksbildet</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>Kjøringen er avsluttet. Laster rapporten.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>Fremdriften kunne ikke følges. Last inn siden på nytt for å se hvordan kjøringen går.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>Denne siden følger kjøringen mens den pågår.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Last inn på nytt</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Rapport</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Tid</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms millisekunder</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>Det kjøringen skrev ut som feil</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Oppføring</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>Miljø</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>ingen</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Avsluttet</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Innsending</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Etikett</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Opplasting</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Melding</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>Migreringer i denne kjøringen</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>Kilde</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>Kjøringslogg</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>Bare slutten av loggen vises.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>kjører</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>avsluttet uten rapport</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>lyktes</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>mislyktes</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>avvist</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>databasen var ikke tilgjengelig</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>intern feil</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>En kjøring pågår</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind startet av %user %time.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>Følg den</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>Installasjonen er låst</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>En annen kjøring holder låsen (en oppgradering eller en kjøring i konsollen): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>fullført</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>venter</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>ikke nødvendig</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>ukjent</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>rullet tilbake</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>utført</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>ville blitt utført</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>tatt tilbake</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>ville blitt tatt tilbake</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>ikke kjørt</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>venter på en annen</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>endring godtatt</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>endring ville blitt godtatt</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>simulert</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migreringer</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Tilstand</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Historikk</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>Ta tilbake %target</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>En kjøring tas tilbake til øyeblikksbildet tatt før den, en migrering med sin down(). Å gjenopprette et tidligere øyeblikksbilde er for eksperter. Hver av dem kjører i bakgrunnen som deg, etter et øyeblikksbilde av tilstanden nå.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>Det som kan tas tilbake, kunne ikke leses: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>En kjøring</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>Én migrering</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>Et tidligere øyeblikksbilde</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>Beskrivelse</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ja</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>nei</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Øyeblikksbilde</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Etikett</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>Tatt</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Type</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>Deler som skal gjenopprettes</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>Databasen</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>Lagringsfilene (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>Innstillingene (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>Å gjenopprette databasen setter den tilbake til tidspunktet for øyeblikksbildet, økter inkludert: du kan bli bedt om å logge inn igjen etterpå. Alt som er endret siden da, går tapt; et øyeblikksbilde av tilstanden nå tas først.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>Jeg vet hva dette gjenoppretter</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>Skriv inn ID-en til øyeblikksbildet på nytt</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>Ja, ta det tilbake</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Avbryt</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>Kjøringene med et øyeblikksbilde tatt før dem.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>Velg</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>Ingen kjøring med øyeblikksbilde ennå.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>De utførte migreringene som kan ta seg selv tilbake (de har en down()).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>Ingen utført migrering har en down().</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>Tidligere øyeblikksbilder (eksperter)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>Ingen øyeblikksbilder ennå.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>Kjør migreringene</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>Kjøringen fortsetter i bakgrunnen som %user, og siden dens viser den mens den pågår. Før den første migreringen tas et øyeblikksbilde av installasjonen; når en migrering mislykkes, stopper kjøringen og øyeblikksbildet gjenopprettes.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>Prøvekjøring først</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Tilstanden kunne ikke leses: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>Ventende migreringer</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>De kjøres i denne rekkefølgen. Fjern avkrysningen for en av dem for å la den, og de som krever den, vente til en senere kjøring.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>Kjør den</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>Slår på vedlikeholdsmodus mens den kjører.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>Endret etter at de ble utført</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>Disse filene er ikke de som ble utført. En kjøring avviser dem med mindre endringen godtas med en begrunnelse; de kjøres ikke på nytt, den nye kontrollsummen registreres og begrunnelsen lagres i revisjonsloggen.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>Godta endringene</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Hvorfor</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>Standardvalgene er de trygge. Hver boks utelater et trinn.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>Uten øyeblikksbilde</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>Ingen øyeblikksbilder før og etter kjøringen: en feil kan ikke gjenopprettes automatisk.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>Uten gjenoppretting</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>Etter en feil, la installasjonen være slik feilen etterlot den.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>Behold endringer som ikke er committet</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>Kjør selv om innstillinger, utvidelser eller design har endringer som ikke er committet; de tas med i øyeblikksbildet.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>Uten commit</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>Ikke commit tilstandsfilen og kjøringsloggen (heller ingen tag og ingen push).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>Uten push</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>Commit og tag, men ikke push.</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>Uten tag</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>Commit og push, men ikke tag kjøringen.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>Ja, kjør disse migreringene nå</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Ingen migrering venter.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>Tilbake til tilstanden</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>Endringer i denne installasjonen skrevet én gang som filer (innhold, klasser, roller, innstillinger, skjema) og utført på hver installasjon av nettstedet i samme rekkefølge. En kjøring tar først et øyeblikksbilde, gjenoppretter det når en migrering mislykkes, og registrerer, committer og pusher det den gjorde.</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>Kjør %count ventende</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Oversikt</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Venter</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Fullført</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Mislyktes</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>Ikke nødvendig</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>Databasen</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>transaksjoner: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>Nettstedets migreringer ligger i migrations/, en utvidelses migreringer i extension/&lt;name&gt;/migrations/. De kjøres i rekkefølgen til navnene sine og det de krever.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Siste kjøring</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>Filen ble endret etter at den ble utført.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>Ingen migrering ennå. ./console exp:migration:generate --skeleton &lt;name&gt; --apply skriver den første.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>De siste kjøringene</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>Alle kjøringer</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>Ingen kjøring ennå.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>Å simulere en kjøring krever tilgangsregelen migration/run.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>En kjøring pågår: simuler når den er avsluttet.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Oppsett</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target er verken en kjøring, en migrering eller et øyeblikksbilde av denne installasjonen.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>Kryss av for «Ja, ta det tilbake» først.</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>Å gjenopprette et tidligere øyeblikksbilde er for eksperter: kryss av for «Jeg vet hva dette gjenoppretter».</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>Skriv inn ID-en til øyeblikksbildet på nytt: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>Velg minst én del som skal gjenopprettes.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>Denne kjøringen har ikke noe øyeblikksbilde tatt før den: ta migreringene tilbake én etter én, eller gjenopprett et tidligere øyeblikksbilde.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>Denne migreringen kan ikke tas tilbake alene: den er ikke utført, eller den har ingen down().</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Skjemaet kunne ikke leses.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>Velg kjøringen som skal gjenopptas.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>Kryss av for «Ja, kjør disse migreringene nå» først.</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>Velg minst én migrering.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>En migrering ble endret etter at den ble utført: godta endringen med en begrunnelse, eller sett filen tilbake.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>Oppgi hvorfor de endrede migreringene godtas.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>Begrunnelsen kan være på høyst 500 tegn.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>En kjøring startet her pågår fortsatt (%detail). Vent til den er avsluttet.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>En annen kjøring holder låsen på installasjonen: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>Kjøringen krever en innlogget bruker som finnes.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Fant ingen php-kommandolinjeprogram. Sett migration.ini [AdminSettings] PhpCliPath til den fullstendige banen.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open er deaktivert, så en kjøring kan ikke startes her. Kjør ./console exp:migration:migrate --apply på serveren.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>Mappen for kjøringene kan ikke skrives til: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>Kjøringen ble startet, men rapporterte ikke prosess-ID-en sin. Kontroller %detail.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>Angi hva som skal tas tilbake.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>Kjøringen kunne ikke startes.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>Ta opp endringer</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>Mens et opptak pågår, lagres det du endrer i administrasjonen eller i nettstedets sidefelt som steg i en migrering: innhold, klasser, roller og policyer, seksjoner, brukere og grupper, URL-aliaser, innstillinger. Stopp det når du er ferdig, se hva det fanget, og generer en migrering fra det.</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>Opptakene kunne ikke leses: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>Tabellene for opptak finnes ikke ennå: kjør først oppgraderingen (exp:upgrade --apply).</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>Opptak er slått av i migration.ini ([RecordingSettings] Recording=disabled).</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>Mine endringer</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>Tar bare opp det du endrer, uansett hvor du endrer det, til du stopper det.</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>Opptak</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>siden %time, så langt %count endring(er).</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>Etikett (valgfri)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>Vis hva det fanget</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Stopp opptaket</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>Start opptak av mine endringer</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>Vindu for hele nettstedet</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>Tar opp hver endring fra hver bruker og fra konsollen til det lukkes. Når du åpner det, blir du bedt om å bekrefte at det er deg.</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Åpent</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>Lukk vinduet</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>Åpne vinduet for hele nettstedet</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>Opptakene</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>En brukers konto (pålogging, e-post, passord) og feltene i brukerkontoer blir aldri tatt opp.</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Endringer</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>Hele nettstedet</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>Endringer av %name</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Stoppet</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>Ingen opptak ennå.</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>Opptak %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>Alle opptak</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>Migreringen det ville gi</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>Endringene samlet i ett steg per endret ting: hva en migrering generert fra dette opptaket ville gjøre.</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>En migrering kan genereres fra det når denne installasjonen har YAML-stegtypene %types.</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>Utelatt med vilje: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>Ingenting ble tatt opp.</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>Hva det fanget</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>%count endring(er), i den rekkefølgen de ble gjort.</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Endring</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>Steg</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>Gjelder</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>%count til: ./console exp:migration:record:show viser alle.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Forkast</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>Fjerner opptaket og det det fanget. Det som er endret, forblir endret.</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>Ja, forkast dette opptaket</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>Tar opp…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Endringene dine tas opp for en migrering.</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>Hver endring på dette nettstedet tas opp for en migrering (vindu for hele nettstedet).</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>Opptaket for hele nettstedet har startet: hver endring fra hver bruker tas opp til du stopper det.</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>Opptaket har startet: endringene dine tas opp til du stopper det.</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>Opptaket er stoppet. Det det fanget, blir værende til du forkaster det.</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>Opptaket og hendelsene er fjernet.</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>Det finnes ikke noe opptak %id.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>Kryss først av for «Ja, forkast dette opptaket».</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>Bare brukeren som tok opp, kan stoppe et øktopptak.</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>Velg opptaket som skal stoppes.</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>Et opptak av denne typen pågår allerede.</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>Opptaket kunne ikke endres: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>Generer migrering</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>Navnet på migreringen (valgfritt)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>Migreringen %file er skrevet. Endringer som ingen steg kan gjøre, er nevnt øverst i filen og må gjøres for hånd.</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>Ingen migrering ble skrevet: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>En lang kjøring i deler</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>Tomme felt beholder innstillingene i migration.ini [RunSettings].</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>Høyst så mange migreringer</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>Ingen flere migreringer etter (sekunder)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>Pause mellom migreringer (sekunder)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>Lavere prioritet (1 til 19)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>Et felt for lang kjøring er et helt tall fra 1 (pausen: sekunder fra 0 til 60, prioriteten: 1 til 19), eller tomt.</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>Det lukker seg selv kl. %time.</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>Lukk seg selv etter (minutter, valgfritt)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>Minuttene er et helt tall fra 1 til 44640 (31 dager), eller tomt.</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>Migrering %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>Ny migrering</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>En YAML-migrering: skriv den som tekst eller bygg stegene i skjemaet, kontroller den og lagre den deretter i en migreringsmappe.</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>Denne migreringen er allerede kjørt, så den lagres ikke på nytt: en endret fil ville blitt avvist av sjekksumvakten. Gjør endringen i en ny migrering.</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>Webserveren kan ikke skrive filen.</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>Kommentarlinjene øverst er hodet (description, author, requires, environments, engines). Når et steg legges til eller endres i skjemaet, skrives migreringen på nytt: kommentarer mellom stegene beholdes ikke.</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>Navn på migreringen</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>Hvor den skal</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>Nettstedet</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>YAML-tekst</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>Kontroller</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Lagre</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Trinn</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>Nøkler</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Rediger</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>Flytt opp</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>Flytt ned</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Fjern</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>Ingen steg ennå: legg til ett med skjemaet, eller skriv dem i teksten.</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>Endre steg %number</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>Legg til et steg</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>Skjemaet for et steg lages ut fra stegtypen: nøklene, hva hver av dem tar imot og hvilke moduser steget hører til.</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>Stegtype</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>Vis skjemaet</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>Steget har nøkler som typen ikke kjenner; de utelates når steget endres: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>Modus</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>I</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>bare i %modes</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>Standard: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>Betingelser, referanser og kommentar</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>Navn=verdi-par atskilt med komma. Verdiene for dette steget: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>Eksempel</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>Endre steg</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>Legg til steg</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>Hva exp:migration:check sier: hodet, dokumentet og hvert steg kontrollert av stegtypen sin.</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>Migreringen består kontrollen.</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Forhåndsvis</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>YAML-en slik den blir lagret.</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>Vis YAML-en</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>YAML-migreringer</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>er kjørt</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>Det finnes ingen YAML-migreringer ennå.</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>Redigeringsprogram</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>Det finnes ingen YAML-migrering %id i migreringsmappene.</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>Velg en stegtype.</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>Steget er lagt til. Kontroller migreringen før du lagrer den.</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>Steget er endret. Kontroller migreringen før du lagrer den.</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>Velg et steg.</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>Dette steget har ikke noe skjema (en løkke, eller en stegtype denne installasjonen ikke har): endre det i teksten.</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>Velg hvor migreringen skal ligge: nettstedet eller en aktiv utvidelse.</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>%file er lagret. Gjør en prøvekjøring før migreringen kjøres.</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>Ikke lagret: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>Fjernmål</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>De andre installasjonene denne ruller ut migreringene sine til: en utrulling sender migreringene til de valgte fjernmålene og kjører dem der, alle samtidig og i takt. Et fjernmål har aldri en hemmelighet: legitimasjonen navngir én i Oppsett &gt; Hemmeligheter.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>Nytt fjernmål</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Hjelp</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>Tilkoblingstest for %id</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>Fjernmålene</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>Opptil %parallel fjernmål behandles samtidig; én fase kan ta %timeout sekunder på hvert.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>Fjernmål</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adresse</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Legitimasjon</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>Grupper</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>innstillinger må rettes</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>bare filer (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>SSH-nøkkel</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>Passord</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>ingen (vertens SSH-agent og nøkler)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>Test tilkoblingen</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>En utrulling til en gruppe går til hvert fjernmål i den.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>Rull ut til fjernmål</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>Ingen fjernmål er satt opp ennå.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>Fjernmål %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>Ingenting sendes eller kjøres her: Lagre skriver innstillingene til settings/override/migration.ini.append.php. Legitimasjonen er et navn; verdien blir værende i Oppsett &gt; Hemmeligheter eller i miljøet.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Kontroller disse innstillingene</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>Innstillingene slik de ble skrevet inn, ikke lagret ennå.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Gjennomgang</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Innstillingene er gyldige. Disse linjene vil bli skrevet:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>Transport</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>bare et navn; verdien blir værende i Oppsett &gt; Hemmeligheter</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Linjene som vil bli skrevet</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>Tilkobling</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>Vertsnøkkel</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. Fjernmålet</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>Hva fjernmålet heter og hvilket miljø det er.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>Bokstaver, sifre, - og _, for eksempel production1. Den navngir fjernmålet i rapporter og på konsollen (--remotes=production1) og kan ikke endres senere.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... En utrulling i etapper går gjennom miljøene i denne rekkefølgen.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>Valgfritt, atskilt med komma, for eksempel production. En utrulling til en gruppe går til hvert fjernmål i den.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. Tilkoblingen</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>Hvordan filene kommer dit, og hvor installasjonen ligger.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>Over SSH, bare det som er endret, en avbrutt overføring gjenopptas. Det beste valget der rsync er installert.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>SSH med scp for filene.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>SSH med sftp for filene.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>Bare filer: migreringene sendes og leses tilbake, men kan ikke kjøres der.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>FTP over TLS; bare filer.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>En annen installasjon på denne serveren, i en mappe.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Vert</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>Et vertsnavn eller en adresse, for eksempel node1.example.com. Ikke for local.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>Port</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>Tomt: 22 for SSH, 21 for FTP.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Bruker</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>Sti</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>Installasjonens rotkatalog der, for eksempel /var/www/site (for FTP: stien FTP-kontoen ser).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>PHP-kommandolinje</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>PHP-CLI-en der: php, eller en full sti som /opt/plesk/php/8.4/bin/php.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>Konsollskriptene kjører som root der</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>Bare når brukeren på fjernmålet er root (de kjøres da med --allow-root-user).</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. Legitimasjonen</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>Hvordan denne installasjonen logger inn der. Bare et navn lagres.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Ingen</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>SSH-agenten og nøklene til brukeren denne installasjonen kjører som (og alltid for local).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>En privat nøkkel lagret som hemmelighet.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>Et passord lagret som hemmelighet (FTP logger inn med et).</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>Navn på hemmeligheten</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>En hemmelighet fra Oppsett &gt; Hemmeligheter, for eksempel deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Oppsett &gt; Hemmeligheter</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>Eller en miljøvariabel</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>Variabelen i serverprosessen som inneholder den, for eksempel DEPLOY_KEY (lagret som env:DEPLOY_KEY). Den erstatter navnet på hemmeligheten.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. Vertsnøkkelen</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>Valgfritt, for SSH, sftp og rsync.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>Fingeravtrykk for vertsnøkkelen</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... slik ssh-keygen -l skriver det ut. Med det må verten vise denne nøkkelen; uten det læres nøkkelen ved første kontakt.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. Gjennomgang</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>Test tilkoblingen med innstillingene ovenfor, og gå deretter gjennom linjene som blir skrevet.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>Fjern dette fjernmålet</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>Innstillingene fjernes fra settings/override/migration.ini.append.php. Ingenting endres på fjernmålet, og utrullingene blir værende i historikken.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>Ja, fjern dette fjernmålet</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>Utrullinger</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>En utrulling sender migreringene til denne installasjonen til de valgte fjernmålene og kjører dem der som %user, alle samtidig og i takt: hvert fjernmål kontrolleres først, og hvis ett mislykkes, tas hvert fjernmål som har utført dem, tilbake. Den går i bakgrunnen, og siden dens viser hvert fjernmål underveis.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. Fjernmålene</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>Kryss av for fjernmål, en gruppe eller begge.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>Rull ut dit</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. Hvordan</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>Rull ut</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>Send og kjør</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>Migreringene sendes, kontrolleres og kjøres på hvert fjernmål med én felles kjørings-ID.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>Bare overføring</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>Filene sendes og kontrolleres, ingenting kjøres (den eneste måten for et FTP-fjernmål).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>I etapper</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>Etappe for etappe i miljøenes rekkefølge (dev, stage, beta, production ...): den første etappen rulles ut, deretter venter et kontrollpunkt til noen godkjenner den neste. Alt eller ingenting innenfor hver etappe.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>Bare disse migreringene</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>Valgfritt: migrerings-ID-er, atskilt med komma. Tomt: hver migrering på nettstedet og utvidelsene.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>Bare forhåndskontroll</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>Ja, rull ut nå</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>Utrullingene som sendte eller kjørte noe, de nyeste først (en forhåndskontroll beholder ingen rapport).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>bare overføring</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>i etapper, %stages etapper</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>ikke i takt</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>Ingen utrulling ennå.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>Utrulling %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Hvert fjernmål i utrullingen med sin tilstand. En utrulling startet her fortsetter i bakgrunnen når denne siden lukkes; åpne siden igjen for å følge den.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>Alle utrullinger</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>Forhåndskontroll</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>Neste etappe</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>Kontrollerer innstillingene og legitimasjonen</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>Forhåndskontroll: leser tilstanden til hvert fjernmål</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>Sender migreringsfilene</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>Kontrollerer det som kom fram</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>Kjører migreringene på hvert fjernmål</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>Tar fjernmålene tilbake</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>Utrullingen er avsluttet. Laster inn rapporten.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>Fremdriften kunne ikke følges. Last inn siden på nytt for å se hvordan det går med utrullingen.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>Fase</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>Denne siden følger utrullingen underveis.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>I takt</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>Etapper</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>etappe %stage venter ved kontrollpunktet sitt</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>Kontrollpunkt %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>godkjent av %user kl. %time</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>Etappe</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>Sendte filer</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>Kjerneversjon</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>utført: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>skal utføres: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>Faser</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>Kontrollpunkt: etappe %stage av %stages</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>Etappene før den er rullet ut. Kontroller dem, og godkjenn deretter neste etappe: fjernmålene i den kontrolleres på nytt og rulles ut, alt eller ingenting.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Neste</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>Ja, rull ut neste etappe nå</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Godkjenn</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>Rull tilbake denne utrullingen</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>Hvert fjernmål som utførte den (%list), går tilbake til øyeblikksbildet tatt før kjøringen, alle samtidig.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>Ja, rull tilbake denne utrullingen nå</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>planlagt</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>overført</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>rullet ut</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>venter ved et kontrollpunkt</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>valgt</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>forberedt</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>klar</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>venter på etappen sin</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>filer sendt</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>kontrollert</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>mislyktes, gjenopprettet seg selv</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>uendret</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>ikke rullet ut</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>ikke tilgjengelig</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>Fjernmålet svarte.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>Fjernmålet kan ikke brukes nå.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done fullført, %pending venter, %failed mislyktes</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>Lås</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>en kjøring holder låsen der</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>ledig</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stage av %stages</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>Velg fjernmålet som skal testes.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>Kryss av for «Ja, fjern dette fjernmålet» først.</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>Fjernmålet kunne ikke fjernes: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>Fjernmålet kunne ikke lagres: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Innstillingsfilen kan ikke leses: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>Velg minst ett fjernmål eller én gruppe.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>Et valgt fjernmål finnes ikke lenger i innstillingene. Last inn siden på nytt.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>Kryss av for «Ja, rull ut nå» først.</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>Et FTP-fjernmål kan ikke kjøre migreringer: velg «Bare overføring», eller utelat det.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>Migreringene som skal rulles ut, er migrerings-ID-er, atskilt med komma.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>Utrullingen pågår fortsatt. Vent til den er ferdig.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>Denne utrullingen venter ikke ved et kontrollpunkt.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>Ingen fjernmål utførte denne utrullingen: det er ingenting å rulle tilbake.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>Kryss av for «Ja, rull ut neste etappe nå» først.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>Kryss av for «Ja, rull tilbake denne utrullingen nå» først.</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>Et fjernmål med ID-en %id finnes allerede.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>Porten er et tall fra 1 til 65535.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>Miljøet er et ord av bokstaver, sifre, - og _ (alpha, dev, stage, beta, production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>En gruppe er et ord av bokstaver, sifre, - og _ (ikke all): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>Legitimasjonen kan ikke leses nå: %problem. Lagre den i Oppsett &gt; Hemmeligheter (eller sett variabelen) før den første utrullingen.</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>Et FTP-fjernmål tar bare imot filer: en utrulling dit er «Bare overføring», og migreringene kjøres der for hånd.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>Fjernmålet %id står ikke i settings/override/migration.ini.append.php; fjern det der det er angitt.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>Logget inn over FTP og leste index.php. Migreringstilstanden til et FTP-fjernmål kan ikke leses.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>Endret</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>Opprettet</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Navn</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Klasse</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Seksjon</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>Opprettet av</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Nytt innhold</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>Det sist opprettede og endrede innholdet på hele nettstedet, nyeste først: det besøkende har sendt inn, det som holdes tilbake for gjennomgang, utkast som venter på publisering. Velg elementer for å frigi, holde tilbake, skjule, vise, fjerne eller flytte dem til en annen seksjon eller tilstand.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>Listen kunne ikke leses: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>Tilbakeholdingen for gjennomgang er ikke satt opp ennå, så ingenting holdes tilbake, og handlingene for tilbakeholding tilbys ikke. Oppgraderingstrinnet 6.0.15-review-hold setter den opp: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Filtrer listen</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Fra</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Til</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Dato</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>Opprettet (først publisert)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Alle</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Publiseringsstatus</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Publisert</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>Utkast, aldri publisert</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>Forestående (venter på godkjenning eller en dato)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>I papirkurven</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Holdt tilbake for gjennomgang</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>Holdt tilbake</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>Ikke holdt tilbake</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>Skjult</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>Synlig</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>Sendt inn via</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>Enhver nettstedstilgang</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>Bare det revisjonen har registrert.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>Nå: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>Et brukernavn eller en bruker-ID.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Filtrer</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>Tøm filtre</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>Elementer</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from til %to av %count</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Ingen elementer</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(lest på %ms ms)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>Handlinger på de valgte elementene</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>Velg alle på denne siden</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>%count valgt</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Handling</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>Velg en handling</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>Opphev tilbakeholdingen</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Hold tilbake for gjennomgang</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Skjul</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>Vis</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>Flytt til papirkurven</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>Slett</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>Tildel seksjon</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>Tildel tilstand</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>Årsak</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>Påkrevd for å holde tilbake; lagres med tilbakeholdingen og i revisjonen.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>Velg en seksjon</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Tilstand</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>Velg en tilstand</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>Bruk på de valgte</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>Hvert element kontrolleres mot dine egne tillatelser. Flytting til papirkurven og sletting ber deg bekrefte. Mer enn %count elementer kjøres i bakgrunnen.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>Velg</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>Publisering</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>Sendt inn fra</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>Velg %name</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>ikke ennå</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(uten navn)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>Utkast</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Forestående</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>Skjult av overordnet</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>Holdt tilbake: ny innsending</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>Versjon %version venter</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>Versjon %version under arbeid</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>Utkast, versjon %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>Versjon %version publisert</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>Planlagt til %date</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>ingen adresse</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>ikke registrert</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>Ingenting samsvarer med disse filtrene.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Vis alle</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>Det finnes ikke noe innhold ennå.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Per side</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Vis %count elementer per side.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says &quot;not recorded&quot;.</source>
+        <translation>Adressen og nettleseren for en innsending kommer fra revisjonsindeksen, som ikke er tilgjengelig her: kolonnen viser «ikke registrert».</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>Adressen og nettleseren er de revisjonen har registrert for elementet (den automatiske tilbakeholdingen registrerer dem alltid; publisering og oppretting bare der det er slått på), slik personverninnstillingene beholder dem.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: %count elementer</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>Sletting fjerner elementene for godt, med alle versjoner og oversettelser. Det kan ikke angres.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>Elementene går til papirkurven, der de kan gjenopprettes.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>Hvert element kontrolleres mot dine egne tillatelser; et element med underelementer blir stående som det er (fjern det i innholdsstrukturen). Du blir bedt om å bekrefte at det er deg.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>Dette kjøres i bakgrunnen: fremdriftssiden åpnes, og resultatet per element vises når det er ferdig.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>De valgte elementene</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>og %count til</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Avbryt</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>Ingenting ble gjort</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Årsak: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>Handlingen kjører fortsatt i bakgrunnen.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>Fremdriften</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>Bakgrunnshandlingen mislyktes: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Utført</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Avvist</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Mislyktes</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>Per element</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>Element</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Resultat</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Hvorfor</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>Tilbake til listen</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Oppsett</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>Ingenting utført</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>Bekreft</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>Velg en handling.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>Velg minst ett element.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>Velg høyst 1000 elementer om gangen.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>Oppgi hvorfor elementene holdes tilbake.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>Velg seksjonen.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>Velg tilstanden.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Skjemaet kunne ikke leses.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>Oversikt</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>Nytt innhold</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>Antallene kunne ikke leses: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Holdt tilbake for gjennomgang</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>Nytt i dag</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Tilbakeholdingen for gjennomgang er ikke satt opp ennå (oppgraderingstrinnet 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>Alt nytt innhold</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>Du har ikke lov til å utføre moderasjonshandlinger (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>Moderasjonshandlingen er ikke fullført: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>Moderasjon: %action på %count objekter</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%done av %total objekter: %ok utført, %refused avvist, %failed mislyktes</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok utført, %refused avvist, %failed mislyktes</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>Det finnes ikke lenger.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>Det har ingen plassering (ikke publisert).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>Du har ikke lov til å skjule det (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>Du har ikke lov til å vise det (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>Det er allerede skjult.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>Det er ikke skjult.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>Skjult.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>Vist.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>Det ligger i papirkurven: tøm den eller gjenopprett det der.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>Et utkast som aldri er publisert, kan ikke legges i papirkurven: slett det.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>Du har ikke lov til å slette det (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>Slettet.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>Du har ikke lov til å fjerne det (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>Det har underelementer: fjern det i innholdsstrukturen, der de er listet.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>Det ble ikke fjernet (en arbeidsflyt holder kanskje fjerningen tilbake).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>Flyttet til papirkurven.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>Seksjonen finnes ikke.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>Det er allerede i denne seksjonen.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>Du har ikke lov til å tildele denne seksjonen (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>Seksjonen ble ikke tildelt.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>Seksjon tildelt.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>Tilstanden finnes ikke.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>Det har allerede denne tilstanden.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>Du har ikke lov til å tildele denne tilstanden (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>Tilstanden ble ikke tildelt (en arbeidsflyt holder kanskje endringen tilbake).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>Tilstand tildelt.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>Det finnes ingen slik handling.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Tilbakeholdingen for gjennomgang er ikke satt opp (oppgraderingstrinnet 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>Oppgi hvorfor det holdes tilbake.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>Det holdes allerede tilbake.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>Du har ikke lov til å holde det tilbake (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>Tilbakeholdingen ble ikke satt (en arbeidsflyt holder kanskje endringen tilbake).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>Holdt tilbake.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>Det holdes ikke tilbake.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>Du har ikke lov til å frigi det (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>Tilbakeholdingen ble ikke opphevet (en arbeidsflyt holder kanskje endringen tilbake).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>Frigitt; fortsatt skjult: du har ikke lov til å vise det (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>Frigitt.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>Alle mål</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Siste publisering</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>Publiser en gratis statisk kopi av nettstedet ditt på GitHub Pages:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Utdaterte sider</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Statisk publisering</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Statisk publisering er slått av.</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Mål</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Målene kunne ikke leses: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>en jobb pågår</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>bygg til kontroll</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>skjul dette</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>opprett et mål</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>aldri</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>les veiledningen</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>%added lagt til, %changed endret, %removed fjernet</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%bytes av %limit (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>%count til er ikke oppført.</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>%pages sider skrevet</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path er %size, mer enn verten tillater for én fil.</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>%percent % av grensen</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds s</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag er publiseringen nettstedet har nå.</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: jobb %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>/depot/ for et GitHub-prosjektnettsted; tomt for et eget domene eller et brukernettsted.</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. Nettstedet</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. Verten</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. Innlogging i depotet</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. Depotet</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. Lenker og basissti</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. Ditt eget domene</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. Hva bygget inneholder</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. Når det publiseres</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. Gjennomgå og lagre</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>Et GitHub-prosjektnettsted ligger under /&lt;repository&gt;/; relative lenker fungerer der og alle andre steder.</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>Et bygg henter hver side av %site slik en besøkende som ikke er logget inn ser den, skriver om lenkene, kopierer filene og skriver resultatet til målets mappe. Ingenting publiseres før du kontrollerer bygget og trykker Publiser.</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>Et cron-uttrykk, for eksempel 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>En deploy-nøkkel lagres som hemmeligheten %secret.</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>En deploy-nøkkel lar denne installasjonen laste opp til ett depot over SSH og ingen andre steder. Den private halvdelen blir værende i Oppsett &gt; Hemmeligheter; bare den offentlige halvdelen vises.</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>En deploy-nøkkel laget for dette målet</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>En deploy-nøkkel logger inn over SSH: endre git-adressen til SSH-adressen (git@github.com:owner/repo.git).</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>En jobb pågår, startet av %user</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>En jobb for dette målet pågår fortsatt (%detail). Vent til den er ferdig.</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>En jobb for dette målet pågår fortsatt. Vent til den er ferdig.</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>En lenke fra siden /news/ til siden /about-us/team blir skrevet som</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>En ny deploy-nøkkel ble laget. Legg til den offentlige halvdelen i depotet nå.</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>En side som fortsatt har feilsøkingsutdata, et skjematoken eller en økt-ID etter rensingen, publiseres aldri.</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>En tilbakerulling er for eksperter: kryss av for «Jeg vet hva dette endrer» og skriv inn navnet på etiketten igjen.</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>Et nettsted kan være opptil %site, én fil opptil %file, med omtrent 100 GB trafikk i måneden. På en gratisplan må depotet være offentlig. GitHub Pages er ikke ment for nettbutikker eller andre kommersielle transaksjoner.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>Et mål er ett nettsted publisert til ett git-depot. Ingenting bygges eller publiseres her: Lagre skriver innstillingene til settings/override/staticcache.ini.append.php.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>Et mål er ett nettsted publisert til ett sted, for eksempel det offentlige nettstedet ditt på GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>Et token fra Oppsett &gt; Hemmeligheter</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>En arbeidsflyt i depotet publiserer det.</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>Legg til denne offentlige nøkkelen i depotet med skrivetilgang. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, kryss av for Allow write access.</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>Lagt til</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>En annen git-vert</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>En annen prosess arbeider med dette målet: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>Tilbake</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>Basissti</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Før</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>Under en basissti</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>Gren</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>Brutte lenker</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>Brutte lenker i bygget</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>Bygg</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>Bygg %id av %user</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>Bygg %name</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>Bygg nå</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>Bygg til kontroll</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Av</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>For hånd, her</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Avbryt</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Endre</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>Endret</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Endringer</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>Kontroller det først</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Kontroller disse innstillingene</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>Kontroller hva bygget endrer, se på det, og publiser det eller kast det.</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>Velg publiseringen du vil gå tilbake til.</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>Kommer i en senere versjon.</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Innsending</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>Innsendinger</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>Sender inn bygget, gir det en etikett og laster det opp til %remote. En opplasting tvinges aldri; du kan gå tilbake til en hvilken som helst publisering senere.</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>Sammenlignet med mappen før: %added lagt til, %changed endret, %removed fjernet, %unchanged uendret.</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>Sammenlignet med siste publisering.</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Legitimasjon</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>Eget domene</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>Feilsøkingsutdata, skjematokener, økt-ID-er og nonce-verdier fjernes alltid.</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>Deploy-nøkkel</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>Deploy-nøkkel for %name</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Forkast</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>Forkast bygget</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>Domene</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>Tomt: adressen til nettstedet. Ellers en intern adresse til det samme nettstedet.</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Avsluttet</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>Hver lenke begynner med basisstien.</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>Hver publisering er en innsending med etiketten static/%id/&lt;n&gt;. Å gå tilbake lager en ny innsending med filene fra en tidligere publisering: historikken blir værende, ingen etikett flyttes og ingenting tvinges.</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>Tillegg</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>Hent sidene fra</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Fil</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>Filer</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>Filer mangler</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>Filer fra</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>Filer som ikke kunne samles inn</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>Fingeravtrykk</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>Mappe</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>For en SSH-adresse. Nøkkelen lages etter lagring; du legger den offentlige halvdelen til i depotet.</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>For en https://-adresse. GitHub: et finmasket token med Contents lese- og skrivetilgang til depotet.</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>For eksperter. Det offentlige nettstedet endres så snart opplastingen er fullført.</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Skjemaer</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>Gratis hosting fra et GitHub-depot.</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>Fra grenen</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>Git-adresse</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages tillater et nettsted på %site og en fil på %file.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>Grenser for GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages publiserer filene som de er (nødvendig for filer som begynner med _).</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub leverer grenen slik den lastes opp. Standard.</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, din egen server: et hvilket som helst git-depot.</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>Gå tilbake til en tidligere publisering</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Hjelp</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>Hjelp med veiviseren</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>Skjul dem</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Historikk</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>Historikk for %name</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Vert</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>Hvordan GitHub Pages mottar bygget</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>Jeg har kontrollert endringene</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>Jeg vet hva dette endrer</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>Den er slått av: ingenting kan bygges før den er slått på.</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>Den kjører i bakgrunnen som %user; du kan lukke denne siden.</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>Jobb %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>Lagret som hemmeligheten %secret.</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Type</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Siste publisering</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>Utelat disse sidene</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>Utelat disse seksjonene</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Lenker</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>Lenker omskrevet</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>Nettstedet i drift</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>Se på bygget</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>Små bokstaver, sifre, _ og -, for eksempel github-public. Det navngir mappen og etikettene (static/&lt;id&gt;/&lt;n&gt;) og kan ikke endres senere.</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>Lag en ny nøkkel</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>Opprett et mål</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>Lag nøkkelen</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>Opprett depotet hos verten først; et tomt depot holder.</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>Manifest</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Melding</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>De fleste sider</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Navn</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>Navnet på tokenet i Oppsett &gt; Hemmeligheter</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>Nytt mål</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Neste</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>Nei</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>Ingen innsending ennå.</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>Ingen nøkkel ble laget: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Fant ingen php-kommandolinjebinær. Sett migration.ini [AdminSettings] PhpCliPath til full sti.</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>Ingen etikett ennå.</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>Ingen mål ennå.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Ingen</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>Ikke i bygget.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>Ingenting er publisert ennå.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>Ingenting er publisert ennå: hver fil er ny.</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>Varsle</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>Etter en tidsplan</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>På konsollen</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>På serveren: ./console exp:static:serve %id leverer det på samme måte.</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>Én sti per linje, * samsvarer med en hvilken som helst del: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>Bare et navn lagres med målet; selve tokenet eller nøkkelen blir værende i Oppsett &gt; Hemmeligheter og vises aldri i en logg.</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>Bare det sidene nevner</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>Bare med et token. env:NAME leser i stedet en miljøvariabel på serveren.</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>Åpne forhåndsvisningen</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>Åpner bygget slik verten vil levere det, fra målets mappe. Lenken fungerer for deg i én time.</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>Valgfritt. Tomt: det som ble publisert.</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>Valgfritt. Med et domene leveres nettstedet ved roten.</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Utdata</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>Sider</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>Målets sider</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>Avviste sider</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>Etterbehandling</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Forhåndsvisning</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>Forhåndsvis og publiser</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>Forhåndsvis og publiser %name</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>Forhåndsvis bygget</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Fremdrift</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>Offentlig adresse</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>Offentlig nøkkel</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>Publiser</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>Publiser en statisk kopi av et nettsted til GitHub Pages eller en annen git-vert: bygg det, kontroller endringene, publiser, og gå tilbake til en tidligere publisering når du trenger det.</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>Publisering å gå tilbake til</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>Publiseringer</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Opplasting</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>Les veiledningen</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Logg</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Avvist</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>Relativ</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Last inn på nytt</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>Fjernet</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>Erstatt nøkkelen: den gamle slutter å virke</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Rapport</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>Rapport for bygget</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Depot</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Gjennomgang</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>Gjennomgangen kontrollerer hver innstilling og viser linjene som vil bli skrevet. Ingenting er lagret ennå.</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Rull tilbake</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Tilbakerulling</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Lagre</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>Tidsplan</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>Søkeside</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>Seksjons-ID-er, atskilt med komma.</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>Send dem til nettstedet i drift</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>Innstilling</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Innstillinger</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>Innstillinger for %name</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Oppsett</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Oppsett &gt; Hemmeligheter</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>Vises i lister, for eksempel «Offentlig nettsted på GitHub Pages».</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>Innlogging med en GitHub App kommer med GitHub-integrasjonen.</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>Nettsted</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>Nettsted som skal publiseres</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Størrelse</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>Størrelse og grenser</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>Størrelsen på bygget</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Utdaterte sider</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Startet</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Startet av %user kl. %time.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Tilstand</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Statisk publisering</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>Statisk publisering er slått av</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Statisk publisering er slått av.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>Statisk publisering er slått av. Slå det på i Oppsett &gt; Statisk publisering først.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>Statisk publisering er slått på.</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>Trinn %step av %total</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Trinn</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>Rensing</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Slå av</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Slå på</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>Slå på statisk publisering</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Etikett</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>Etiketter</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Mål</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>Mål kan opprettes og endres, men ingenting bygges eller publiseres før det er slått på.</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>Forteller søkemotorer hva de skal lese.</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>Bygget kunne ikke kastes: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>Bygget er det samme som siste publisering: det er ingenting å publisere.</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>Bygget ble kastet: mappen inneholder siste publisering igjen.</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>Standardverdiene passer for de fleste nettsteder.</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>Mappen inneholder et bygg som ikke er publisert ennå; et nytt bygg erstatter det.</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>Mappen for jobbene kan ikke skrives: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>Jobben kunne ikke klargjøres: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>Jobben kunne ikke startes.</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>Jobben er ferdig. Laster inn rapporten.</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>Jobben trenger en innlogget bruker.</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>Jobben ble startet, men rapporterte ikke prosess-ID-en sin. Kontroller %detail.</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>Nøkkelen</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>Den største filen: %path, %size.</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Linjene som vil bli skrevet</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>Listen over sider for søkemotorer; krever den offentlige adressen.</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>Sidene hentes slik en besøkende som ikke er logget inn ser dem. Siteaccesser for administrasjon og redigering tilbys aldri.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>Fremdriften kunne ikke følges. Last inn siden på nytt for å se hvordan det går med jobben.</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>Den offentlige halvdelen av nøkkelen:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>Roten av grenen</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>Hemmelighetslageret er ikke satt opp ennå (./console exp:upgrade --apply lager tabellen), så ingen nøkkel kan lagres.</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>Serveren logger inn selv (sin egen SSH-nøkkel eller credential helper), eller depotet ligger på denne serveren.</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>Innstillingen kunne ikke skrives: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Innstillingene er gyldige. Disse linjene vil bli skrevet:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Innstillingsfilen kan ikke leses: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>Nettstedet går tilbake til filene fra den publiseringen; et bygg som ikke er publisert ennå, må publiseres eller kastes først.</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>Nettstedets egen side for adresser som ikke finnes.</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>Målet kunne ikke lagres: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>Målet logger ennå ikke inn med denne nøkkelen: velg «En deploy-nøkkel laget for dette målet» i innstillingene.</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Målene kunne ikke leses: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>Det finnes ikke noe bygg å kontrollere ennå.</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>Denne installasjonen har ingen offentlig siteaccess. Siteaccesser for administrasjon og redigering publiseres aldri.</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>Denne siden følger jobben mens den pågår; den fortsetter i bakgrunnen når siden lukkes.</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>Dette målet har ingen deploy-nøkkel ennå.</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>Dette målet er ikke bygget her ennå.</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>Dette målet har en.</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>Kaster dette bygget: mappen inneholder siste publisering igjen. Nettstedet i drift endres ikke.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>Kryss av for «Jeg har kontrollert endringene» først.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Tid</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>Utløsere</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>Skriv inn navnet på etiketten igjen</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>Uendret</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>Webhook</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Hva</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>Hva som endres</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>Hva hver fil er; skrives alltid.</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>Hva jobben gjorde, og loggen. En jobb som startes her, fortsetter i bakgrunnen når denne siden lukkes.</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>Det jobben skrev ut som feil</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>Det sidene nevner, og hvert bilde i publisert innhold</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Når</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>Når en publisering mislykkes</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>Når en publisering lykkes</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>Når innhold publiseres</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>Hvor lenker til det kopien ikke inneholder, går (søket, innloggingen).</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>Hvor den statiske kopien leveres fra.</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>Hvilket nettsted som publiseres, og hva målet heter.</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>Fungerer under en hvilken som helst sti. Standard.</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>Skrives når et eget domene er angitt.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>Ja</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>Du kan alltid bygge og publisere for hånd her og på konsollen.</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>bare et navn; verdien blir værende i Oppsett &gt; Hemmeligheter</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>under %path</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>avsluttet uten rapport</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>ekstra</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>mislyktes</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>fil</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages, eller main med mappen docs.</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>git-vert</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (med et token) eller git@github.com:owner/repo.git (med en deploy-nøkkel); aldri et passord eller token i den.</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/, for nettstedskartet og de kanoniske lenkene.</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>bilde</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>aldri</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>nei</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>ingen fjernkilde</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>ingen: innsendinger blir i mappen</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>ingen: ingenting endret</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>ikke lastet opp</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>ingenting endret</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>side</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>bestått</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>proc_open er deaktivert, så en jobb kan ikke startes her. Bruk ./console exp:static:build på serveren.</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>publisering</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>publisert</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>opplasting venter</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>lastet opp</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>avvist</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>relativ</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>tilbakerulling</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>rullet tilbake</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>kjører</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>bare mappen</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: skrives til filen CNAME. Pek domenets DNS mot verten slik den forklarer; HTTPS kan ta en stund før det starter.</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>ja, ikke publisert ennå</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>En GitHub App</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>En workflow i depotet publiserer det. Bygget skriver workflow-filen; la mappen stå tom.</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>Når et mål er lagret med et GitHub-depot og et token eller en GitHub App, kan dette trinnet opprette depotet og slå på GitHub Pages. Ellers oppretter du depotet på GitHub først; et tomt depot holder.</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>Gren eller GitHub Actions?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>Sjekk DNS</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>Opprett depotet hvis det ikke finnes</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>Opprett depotet på GitHub og slå på GitHub Pages i innstillingene (Settings &gt; Pages).</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>Oppretter depotet %repo hvis det mangler (når det er ønsket), slår på GitHub Pages fra grenen eller fra GitHub Actions slik det er lagret, og setter eget domene og HTTPS. Bruker de lagrede innstillingene: lagre endringer først.</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>Detaljer på GitHub</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>Skriv inn eget domene først.</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>Hver push sjekkes først mot disse grensene.</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>For en https://-adresse på GitHub. Appen som er satt opp for denne installasjonen, logger på; den trenger installasjons-ID-en.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages viser et privat depot bare med et betalt abonnement.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: et underdomene (www.example.com) trenger en CNAME-post til &lt;owner&gt;.github.io; et apex-domene (example.com) A-postene %ips.</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>Installasjons-ID for GitHub App</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>Siste Pages-bygg</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>Grenser og vilkår</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>Nødvendig for GitHub Pages med gratis abonnement.</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>På GitHub</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>Bare med en GitHub App: tallet på slutten av adressen til appens installasjon på GitHub. Selve appen angis i staticcache.ini (GitHubAppId, GitHubAppKey).</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>Privat</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>Offentlig</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>Lagre målet med et GitHub-depot og et token eller en GitHub App først.</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>Sett disse postene hos leverandøren av domenet:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>Sett opp på GitHub</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>DNS for %domain peker ikke på GitHub Pages ennå.</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>DNS for %domain peker på GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>GitHub-integrasjonen er ikke tilgjengelig her: %problem. Publisering til grenen virker likevel; slå på GitHub Pages i depotets innstillinger.</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>GitHub-trinnene er ikke tilgjengelige for dette målet: %problem.</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>Statusen for GitHub Pages vises med et token eller en GitHub App som legitimasjon.</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>Bruk ditt eget domene</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>Hva du bør velge: token, deploy-nøkkel eller GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>Med et GitHub-depot og et token eller en GitHub App kan veiviseren opprette depotet, slå på GitHub Pages og sette domenet for deg (trinn 4).</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>bygges</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>bygget</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>fra GitHub Actions</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>fra grenen %branch</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>ingen ennå</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>ikke funnet</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>av</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>privat</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>offentlig</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>i kø</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>ukjent</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%count på %pages side(r):</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>En .gz (og .br) ved siden av hver tekstfil, for verter som serverer dem.</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>En liten side for hver gamle adresse og alias til en side, slik at gamle lenker fortsetter å virke.</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>Skrives alltid når GitHub Actions leverer nettstedet.</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>En SPDX-id som CC-BY-4.0, eller selve teksten.</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>Handlekurv</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>Kall til serveren</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Kommentarer</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>Skjemaer som samler inn informasjon</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>GitHub Actions-arbeidsflyt</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>Mindre blanktegn og ingen kommentarer i sidene.</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>Lisens for innholdet</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Innlogging</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>Minimer</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>Andre skjemaer</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>Forhåndskomprimer</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>Omdirigeringssider</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>Omdirigeringssider: %count.</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Søk</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>Søkeindeks: %pages side(r) på %languages.</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>Stilark og skript navngitt etter hashen av innholdet, slik at nettlesere kan beholde dem.</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>De endrede sidene, noen minutter etter siste endring (cronjob-delen staticpublish).</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>Lisensen for innholdet, fra feltet nedenfor.</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>Hele nettstedet, til tidspunktene i tidsplanen (cronjob-delen staticpublish).</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>Disse delene av sidene trenger en server; hver fikk en reserveløsning. Kontroller dem før du publiserer.</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>Hva som ikke virker statisk</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>Hva depotet er, for den som åpner det på verten.</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>utelatt</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>reserveteksten</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>skjemaendepunktet til nettstedet i drift</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>nettstedet i drift</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>søkesiden til kopien</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>Skjemaet kunne ikke sendes.</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>Takk: skjemaet ble sendt.</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>Skjemaet ble ikke godtatt: kontroller det du skrev inn og send det på nytt.</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>Fjern lenker til sider som kopien ikke inneholder</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>Fjern lenker til administrasjonen</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>Teksten deres blir stående. Bilder, skjemaer og lenker til andre nettsteder fjernes aldri.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Versjon</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>Nettstedstilganger som skal publiseres</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Nettstedstilgang</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>I roten</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>Ingen nettstedstilgang i roten: hver ligger i sin mappe, og roten lenker til dem</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Nettstedstilganger</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>Kryss av én nettstedstilgang, eller flere som deler én vert via URI-prefikset sitt. Den i roten serveres der, de andre i mappen for prefikset sitt (/ger/); lenker mellom dem blir i kopien. Administrasjonstilganger tilbys aldri.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>Statisk publisering av %target mislyktes på %site</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>Statisk publisering av %target lyktes på %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>Denne e-posten ble sendt av %site fordi målet for statisk publisering %target ber om det.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>Utrullingen %deploy mislyktes på %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>Utrullingen %deploy venter ved en port på %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>Utrullingen %deploy lyktes på %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>Denne e-posten ble sendt av %site fordi migration.ini [RemoteSettings] Notify[] ber om det.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>Datatyper (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>Talt %time, på nytt om %minutes minutter</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>En datatype lagrer og redigerer én type verdi i et klasseattributt: en tekstlinje, et bilde, en relasjon. Kjernen leverer de fleste, utvidelser legger til flere. Her er alle, hvem som leverer dem og hvor mye av innholdet som bruker dem. En datatype som databasen bruker, men som ingenting lenger registrerer, ødelegger innholdet som har den.</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>Klassegrupper</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>Tell på nytt nå i stedet for å bruke tallene fra de siste minuttene.</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>Tell på nytt</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Oversikt</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>Registrert</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>I bruk</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>Ikke brukt</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>Utvidelser som leverer datatyper</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>Klasseattributter</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>Objektattributter</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>Ikke registrert</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>Oppført, fil mangler</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>%count datatyper er i bruk, men ikke registrert</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>%class_attributes klasseattributter og %object_attributes objektattributter har en datatype som ingen utvidelse eller innstilling registrerer. Objektene deres kan ikke vises, redigeres eller publiseres. Aktiver utvidelsen som leverer datatypen, eller endre klassen.</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>Vis bare disse</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>Finn en datatype</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>Identifikator, navn, PHP-klasse eller utvidelse.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Vis</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Alle</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>Levert av</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>Alle</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>Kjerne</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>Ingen datatype samsvarer med dette filteret.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Vis alle</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>Utvidelse</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%shown av %count datatyper, %used i bruk</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>Databasen har klasse- eller objektattributter av disse datatypene, men content.ini oppfører ingen av dem, eller filen mangler.</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>Datatyper fra %provider</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>Datatype</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>PHP-klasse og fil</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>Klasser</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>Objekter</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>Flagg</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>ingen</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>Ingen datatype samsvarer med søket. Tøm søket.</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>%shown av %count datatyper vises</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>Viste datatyper: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>Sorter etter %column</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>Talt %time</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>Alle datatyper</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>Hjelpeside</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>Denne datatypen er i bruk, men ikke registrert</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>Objektene i klassene nedenfor kan ikke vises, redigeres eller publiseres så lenge ingen utvidelse registrerer datatypen. Aktiver utvidelsen som leverer den, og legg den til i content.ini [DataTypeSettings] AvailableDataTypes[], eller endre klassene.</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini oppfører denne datatypen, men ingen datatypekatalog har filen. Ingenting bruker den; fjern den fra AvailableDataTypes[] eller aktiver utvidelsen dens.</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>Om denne datatypen</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>Identifikator</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Navn</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Utvidelsen %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>ingen</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>PHP-klasse</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Fil</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>I AvailableDataTypes[]</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ja</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>nei</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>Kolonner for verdien</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>Kolonner for klasseattributtinnstillingene</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>Tabeller</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>Kolonnene og tabellene er funnet ved å lese koden til datatypen: en veiledning, ikke et løfte.</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>Maler</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Nettstedstilgang</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>Mal</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>Funnet i</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>denne administrasjonen</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>standardnettsted</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>Uten overstyringer: en overstyringsmal som samsvarer med klasse eller attributt, går foran disse.</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>Klasser som bruker den (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>Ingen klasse har et attributt av denne datatypen.</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Klasse</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>Attributter</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>Klasseattributter (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>Attributt</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Innstillinger</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>Påkrevet</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>Søkbar</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>Kan oversettes</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>Innhenter informasjon</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>Noe innhold som bruker den</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>Sist endret først</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Endringstidspunkt</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>Node %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>Hver oversettelse har sin egen verdi.</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>Søket indekserer verdiene.</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>Den kan samle inn informasjon fra besøkende (skjemaer).</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>Lister kan sorteres etter den: sorteringsnøkkel %type.</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>Sorterbar</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>Verdiene peker til andre objekter.</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>Relasjoner</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>Den kan fylles fra en vanlig streng (import, REST).</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>Fra tekst</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>Den kan fylles fra en fil.</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>Fra fil</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>Klasseattributtinnstillingene tas med i pakker.</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>Pakker</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>Innhold (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from til %to av %count</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Filtrer listen</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>Alle klasser</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Seksjon</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Språk</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Eier</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Publisert</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>Snu rekkefølgen</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Ingen elementer</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Per side</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Vis %count elementer per side.</translation>
     </message>
 </context>
 </TS>

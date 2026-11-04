@@ -6,12 +6,13 @@
  *
  * No database. The site.ini settings are set by each test and put back.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @package tests
  * @group kernel
  */
 
+#[\PHPUnit\Framework\Attributes\Group('kernel')]
 class expContentSecurityPolicyTest extends PHPUnit\Framework\TestCase
 {
     /** @var array section => variable => array( saved value ) or null (not set) */

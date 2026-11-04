@@ -982,6 +982,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>Slegs hierdie bladsy word deursoek: %from tot %to van %count.</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Elke datatipe van die kern en die uitbreidings, en hoe die klasse en inhoud dit gebruik.</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Datatipes</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2314,6 +2322,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>Stelselbladsye kan ook geboekmerk word: maak die bladsy oop (Opstelling, die ouditspoor, 'n lys gebruikers ...) en kies “Boekmerk hierdie bladsy” daarbo. Sulke boekmerke het 'n ratikoon.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>U mag nie meer hierdie bladsy hier oopmaak nie. Verwyder die boekmerk, of vra 'n administrateur vir toegang.</translation>
     </message>
 </context>
 <context>
@@ -5163,6 +5175,210 @@
         <source>Go to the first page</source>
         <translation>Gaan na die eerste bladsy</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>Ander</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>Laaste 7 dae</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>Pasgemaakte tydperk</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>Alle woorde</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>Enige woord</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>Presiese frase</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>Relevansie</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>Naam A–Z</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>Naam Z–A</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>Gewysig, nuutste eerste</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>Gewysig, oudste eerste</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>Gepubliseer, nuutste eerste</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>Gepubliseer, oudste eerste</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Gewysig</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>Filters</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>Wys filters</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>Versteek filters</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Herstel</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>Pas toe</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>Woorde</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>Inhoudtipe</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>Wys meer (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>Kies een inhoudtipe om in een van sy eienskappe te soek.</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Afdeling</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Van</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Tot</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>Die van-datum is nie 'n geldige datum nie.</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>Die tot-datum is nie 'n geldige datum nie.</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Eienaar</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>Gebruiker-ID, aanmeldnaam of e-posadres.</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>Geen gebruiker is vir “%input” gevind nie.</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Taal</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>Enige taal</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Ligging</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>%count liggings</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>Resultate per bladsy</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>Resultate vir “%text” (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>Resultate (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>Sorteer volgens</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>Sorteervolgorde</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>Aktiewe filters</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>Verwyder hierdie filter</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>Of kies filters en pas dit toe om die inhoud te lys wat daarby pas.</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>Die filters vernou die soektog sodra jy woorde ingetik het.</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>Geen resultate is vir “%text” gevind nie.</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>Geen resultate is gevind nie.</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>Verwyder 'n filter hierbo.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Vertalings</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Aksies</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>Wysig %name</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Wysig</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -8001,8 +8217,8 @@
         <translation>Die kopieregkennisgewings van die oorspronklike outeurs en van die derdeparty-sagteware wat by Exponential ingesluit is, word in die bronlêers en in die LICENSE-lêer bewaar, soos die lisensie vereis.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>Die volgende is &apos;n lys van Exponential-bydraers wat hul werk gelisensieer het vir gebruik deur 7x ingevolge die bepalings en voorwaardes van die eZ Systems Contributor Licensing Agreement. Soos deur hierdie ooreenkoms toegelaat, herversprei 7x elke bydrae onder dieselfde lisensie as die lêer waarin die bydrae ingesluit is. Die lys noem elke bydraer, opsionele kontakinligting en die lêers waartoe hulle bygedra het.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>Bydraers wat erken word vir hul werk aan Exponential en aan die sagteware waaruit dit gegroei het, met die lêers waartoe hulle bygedra het. Dit is erkenning, nie &apos;n kopieregkennisgewing nie: bydraes tot Exponential word kragtens die Contributor Licensing Agreement aan die Exponential Foundation en 7x oorgedra.</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13824,32 +14040,20 @@ Let wel: Die pakkette sal nie gedeïnstalleer word nie.</translation>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;Evalueer Exponential Enterprise Edition&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Word ’n lid van die Exponential-gemeenskap, wissel uit en dra by&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Kopiereg &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; en ander.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>Aangedryf deur &lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt;. Vir meer inligting sien &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Kopiereg &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; en ander.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> Vir meer inligting sien &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
     </message>
     <message>
-        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Kopiereg &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; en ander.</translation>
+        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;Evalueer Exponential (Van 7x)&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Word ’n lid van die Exponential-gemeenskap, kry ondersteuning en dra by&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Kopiereg &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; en ander.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13858,6 +14062,61 @@ Let wel: Die pakkette sal nie gedeïnstalleer word nie.</translation>
     <message>
         <source>Help center</source>
         <translation>Hulpsentrum</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>Inhoud</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>Dokumentbladsye</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>Gebruikers</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>Inhoudklasse</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>Administrasie</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>Bladsy %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>Bekyk alle resultate</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>%count resultate</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>Een resultaat</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>%count voorstelle</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>Geen voorstelle nie</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>Die voorstelle kon nie gelaai word nie.</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>Voorstelle</translation>
     </message>
 </context>
 <context>
@@ -14326,6 +14585,14 @@ Let wel: Die pakkette sal nie gedeïnstalleer word nie.</translation>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>Hierdie installasie is &apos;n openbare demonstrasie: enigiemand mag die administrateurwagwoord ken, en administrateurwagwoorde kan nie verander of teruggestel word nie. Moenie enigiets privaat hier invoer nie.</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>U toestelle</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Sekuriteitsaktiwiteit</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14615,6 +14882,14 @@ Let wel: Die pakkette sal nie gedeïnstalleer word nie.</translation>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>Gidse, soektog en hoe om &apos;n fout te rapporteer.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Onlangse inhoud</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Die nuutste inhoud, wat vir hersiening teruggehou word, en aksies op &apos;n keuse.</translation>
     </message>
 </context>
 <context>
@@ -15073,6 +15348,46 @@ Let wel: Die pakkette sal nie gedeïnstalleer word nie.</translation>
         <source>Synchronisations</source>
         <translation>Sinchronisasies</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>Die GraphQL-API: sy eindpunt, die skema en 'n speelgrond om navrae te probeer.</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migrasies</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Veranderinge aan die installasie as lêers bewaar: hul toestand, die lopies, uitvoer en terugrol.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Onlangse inhoud</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Die nuutste inhoud, wat vir hersiening teruggehou word, en aksies op &apos;n keuse.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Publiseer &apos;n statiese kopie van &apos;n werf na GitHub Pages of enige git-gasheer.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Statiese publisering</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Datatipes</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Elke datatipe van die kern en die uitbreidings, en hoe die klasse en inhoud dit gebruik.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15237,6 +15552,22 @@ Let wel: Die pakkette sal nie gedeïnstalleer word nie.</translation>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>Rekeninge wat niemand gebruik nie of wat aandag nodig het; deaktiveer, ontsluit of voer hulle uit.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Gebruikersouditlog</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>Wie het verander, aangemeld of is geweier, per rekening; filter en uitvoer.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Aanmeldverslag</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>Wie aangemeld is, aanmeldings en mislukkings per dag; meld &apos;n gebruiker oral af.</translation>
     </message>
 </context>
 <context>
@@ -22053,6 +22384,22 @@ Let wel: Die pakkette sal nie gedeïnstalleer word nie.</translation>
         <source>%n hours ago</source>
         <translation>%n uur gelede</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>Antwoorde van die GraphQL-API se gestoorde navrae, en die inhoudsklasse van sy skema.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>Publiseer &apos;n statiese kopie na GitHub Pages of enige git-gasheer</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Statiese publisering</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>Die statiese kas bedien bladsye vanaf hierdie bediener. Gebruik statiese publisering om &apos;n statiese kopie van &apos;n werf elders te publiseer, op GitHub Pages of enige git-gasheer.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25594,6 +25941,10 @@ Let wel: Die pakkette sal nie gedeïnstalleer word nie.</translation>
     <message>
         <source>last purge</source>
         <translation>laaste suiwering</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>Skryfwerk kon nie die toestandslot kry nie (laaste %date): elkeen het elke gekasde resultaat verouderd gemaak. %file moet skryfbaar wees vir elke gebruiker waaronder die werf loop; op NFS het dit NFSv4 of lockd nodig.</translation>
     </message>
 </context>
 <context>
@@ -33542,6 +33893,14 @@ Let wel: Die pakkette sal nie gedeïnstalleer word nie.</translation>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>Sessies van die PHP-hanteerder wat uitgetel het, word deur PHP self verwyder (session.gc_maxlifetime), nie deur hierdie bladsy of die session_gc-cronjob-deel nie.</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>Die aangemelde sessies van alle gebruikers word in die aanmeldverslag gelys en daar afgemeld; dit werk met elke sessiehanteerder.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>Open die aanmeldverslag</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37866,6 +38225,26 @@ u rekening te aktiveer.</translation>
     <message>
         <source>None yet</source>
         <translation>Nog geen</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Sekuriteitsaktiwiteit</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>U onlangse aanmeldings, mislukte pogings en veranderings aan u wagwoord, e-posadres en tweestap-aanmelding.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>Die onlangse aanmeldings, mislukte pogings en sekuriteitsveranderings van hierdie rekening.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>Gaan aktiwiteit na</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>%count mislukte aanmeldings</translation>
     </message>
 </context>
 <context>
@@ -44032,6 +44411,42 @@ Gebruik die URL hieronder as u opmerkings aan die goedkeurder wil stuur of die s
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>Na aanmelding moet die gebruiker eers &apos;n nuwe wagwoord kies voordat enigiets anders gedoen kan word. Gebruik dit wanneer &apos;n tydelike wagwoord aan iemand gegee word.</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>Kies 'n bestaande beeld</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>Die beeldlêer van die objek wat u kies, word na hierdie veld gekopieer. Die ander objek verander nie.</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>Die beeld van “%name” is na hierdie veld gekopieer.</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>Blaai vir 'n beeld</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>Soek beelde volgens naam</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Soek</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>Gebruik die beeld van “%name”</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>Gebruik hierdie beeld</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>Geen beeld pas by u soektog nie.</translation>
     </message>
 </context>
 <context>
@@ -50956,6 +51371,10 @@ Raadpleeg die vereistebladsy vir meer inligting.</translation>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>Die crontab is nie geskryf nie (%reason). Voeg hierdie reëls by die crontab van die gebruiker waaronder die werf loop, anders loop die tou, die invoere, die kennisgewings en die soekindeks nooit nie:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>Herinstallering word met die kickstarter gedoen (%file, dan php bin/php/kickstarter.php run --apply) of met &apos;n nuwe installering.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54835,6 +55254,10 @@ u rekening te aktiveer.</translation>
         <source>eZJSCore Public Packer cache</source>
         <translation>eZJSCore Public Packer-kas</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>GraphQL-kas (antwoorde en skemaklasse)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54921,6 +55344,14 @@ u rekening te aktiveer.</translation>
     <message>
         <source>Copy of %class_name</source>
         <translation>Kopie van %class_name</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Datatipes</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>Datatipe %string</translation>
     </message>
 </context>
 <context>
@@ -55747,6 +56178,26 @@ u rekening te aktiveer.</translation>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>Die SVG-beeld kon nie gelees word nie, of niks daarin kan veilig vertoon word nie.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>Die beeld kon nie gekopieer word nie. Probeer asseblief weer of kontak die werfadministrateur.</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>Die gekose objek bestaan nie of u mag dit nie lees nie.</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>Die gekose objek het geen beeld nie.</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>Die beeldlêer van die gekose objek kon nie gelees word nie.</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>Die beeld van die gekose objek is groter as wat hierdie veld toelaat: %1 grepe.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56277,6 +56728,42 @@ u rekening te aktiveer.</translation>
         <source>The bookmark was renamed to "%name".</source>
         <translation>Die boekmerk is hernoem na “%name”.</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>Hierdie bladsy is in hierdie werftoegang (%siteaccess) afgeskakel. Maak die boekmerk oop in 'n werftoegang wat dit het.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>Die module van hierdie bladsy is nie hier geïnstalleer of geaktiveer nie.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>Hierdie bladsy bestaan nie meer nie: sy module het nie so 'n aansig nie.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>Geen van u rolle laat u toe om hierdie bladsy oop te maak nie.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>U mag nie hierdie werftoegang gebruik nie.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>U mag nie die inhoud lees wat hierdie bladsy wys nie.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>Hierdie soort bladsy kan nie geboekmerk word nie: dit werk net op 'n vorm, of is 'n bladsy van een oomblik.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>Die adres van hierdie bladsy ontbreek.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>Hierdie bladsy kan nie nou oopgemaak word nie.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56748,6 +57235,10 @@ Die klas van die nodus moet met die ruil-funksie verander word.</translation>
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>Die poskanaal het in die laaste uitvoering %count boodskappe geweier. Gaan die posbediener en site.ini MailSettings na.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>%count gebeurtenisse wag en geen lopie van die kennisgewing-cronjob is aangeteken nie. Voeg die cronjob-deel &quot;frequent&quot; by die crontab, of voer exp:notification:run --apply uit.</translation>
     </message>
 </context>
 <context>
@@ -63004,6 +63495,10 @@ Die klas van die nodus moet met die ruil-funksie verander word.</translation>
         <source>Choose another site or section with the node picker</source>
         <translation>Kies nog &apos;n werf of seksie met die noduskieser</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>Slegs die stelseladministrateur kan die eienaar verander: voer ./console exp:content-check --fix-permissions --apply as root uit.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64537,6 +65032,10 @@ Die klas van die nodus moet met die ruil-funksie verander word.</translation>
     <message>
         <source>empty</source>
         <translation>leeg</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>Die ondertekeningsleutel is meer as &apos;n jaar oud: vervang dit met exp:audit key rotate --apply.</translation>
     </message>
 </context>
 <context>
@@ -68367,6 +68866,486 @@ Die klas van die nodus moet met die ruil-funksie verander word.</translation>
         <source>Share of page time</source>
         <translation>Aandeel van bladsytyd</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>’n volledige weergawe is aangevra</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>die bladsykas het nie die bladsy gehad nie (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>die bladsykas het nie geantwoord nie</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>Weergegee</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>Deur die kern weergegee: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>In %ms ms uit die bladsykas bedien. Die bladsy is om %stored gestoor deur ’n weergawe van %render ms, %age s gelede.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>Nou weergee</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>Terug na die gekaste aansig</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>Uit die weergawe om %stored (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>Hierdie versoek: in %ms ms uit die bladsykas bedien.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Gebruiker</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>Gebruiker-ID</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>Kasprofiel</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>Hierdie aansig</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>Aansigkas</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>per gebruiker (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>Kasprofiel van die gebruiker: gebruikers met dieselfde profiel deel die aansigkaslêers</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ja</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>nee</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Aanmelding</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>Aangemeld</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>Sessie</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>Die dele van die kassleutel van die inhoudsaansig wat van die gebruiker afhang, presies soos die sleutel hulle neem, onder die ViewCacheTweaks van hierdie bladsy. Gebruikers met dieselfde profiel deel die kaslêers van die aansigte, tensy die dele van 'n aansig self verskil (voorkeure, sleutels van luisteraars): dié het 'n eie profiel, slegs vir hierdie bladsy.</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>Profiel</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>Hierdie aansig (nodus %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: elke aangemelde gebruiker het eie kaslêers.</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>ViewCacheTweaks van krag: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>Deel</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>Waarde</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>Geen deel hang van die gebruiker af nie (ViewCacheTweaks).</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>hierdie aansig</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>Kopieer as teks</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>Rolle</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>Geen roltoekennings kon gelees word nie.</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>Rol-ID</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Rol</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>Beperking</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>Toegeken aan</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>die gebruiker</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>groep %name (objek %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>Gekopieer</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>Kon nie kopieer nie.</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>deur 'n luisteraar weggelaat</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>Anonieme besoekers</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>dieselfde as joune</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>verskillend</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>Die profiel wat anonieme besoekers onder dieselfde ViewCacheTweaks kry, met die verstekvoorkeure, sonder die dele van die aansig: 'n luisteraar wat die sessie lees, kan nie daarvoor gevra word nie.</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>Voorkeure</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>Geen aansigmodus hang van gebruikersvoorkeure af nie (site.ini [ContentSettings] CachedViewPreferences).</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>Die voorkeure waarvan die aansigte van hierdie aansigmodusse afhang (CachedViewPreferences), met die gebruiker se waarde of die verstek. Hulle is in die profiel as userpreferences, dié van alle aansigmodusse saam.</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>Aansigmodus</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>Voorkeur</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>Verstek</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>Beleide</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>Wys die beleide van die rolle (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>Die beleide word van die bediener gelaai wanneer hierdie afdeling oopgemaak word, een bladsy op 'n slag, en kan volgens module en funksie gefiltreer word.</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>Funksie</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>Alle modules</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>Alle funksies</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>Beperkings</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>Wys meer</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>Hierdie rolle het geen beleide nie.</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>Geen beleid pas by die filter nie.</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%shown van %matching beleide (%total in totaal)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>Gelaai wanneer geopen.</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>module/funksie, rol, beperking</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>Soek in die beleide</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>Laai meer</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>Module/funksie</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>Alle rolle (%count beleide)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>Geen beleid stem ooreen nie.</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%shown van %matched beleide</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>Geen antwoord</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>gemasker</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>Wys verduidelikings</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>Versteek verduidelikings</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Maak oop</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>Open almal</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>Sluit almal</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>Sleutel of waarde</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>Soek in die sessie</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Tipe</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>nog %count</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>te diep genestel om te wys</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>afgesny, %count karakters in totaal</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Begin</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>Koekienaam</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>Sessie-ID</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>Hanteerder</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>Stoorpad</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>PHP-verstek</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>Leeftyd (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>Koekie</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>leeftyd %s s</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>U eie PHP-sessie, soos dit was toe die afdeling geopen is, nooit ’n ander een nie. Waardes van sleutels wat soos geheime lyk (tokens, hashes, wagwoorde) word gemasker (debugbar.ini SessionMask[]); alles anders word gewys soos dit gestoor is, persoonlike data ook.</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>%count sleutels, %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>groot</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>Die sessie is leeg.</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>Geen sessie is vir hierdie versoek begin nie.</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Uitbreiding %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>Kern en ander</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>Nie elke inskrywing word gewys nie: die sessie bevat meer as wat hier gelys kan word.</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>%count sleutels word nie gelys nie.</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>Raam</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>Waardes wat soos ’n token lyk (’n JSON Web Token, die geloofsbriewe van ’n Authorization-kopskrif, ’n privaat sleutel, ’n lang heks- of lukrake teks) word ook gemasker, ongeag wat hul sleutel genoem word (debugbar.ini SessionValueMask[]).</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>Die sleutel lyk soos ’n geheim (debugbar.ini SessionMask[]).</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>Die waarde lyk soos ’n token.</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>Onder ’n gemaskerde sleutel.</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>Die sessie as teks, gemasker soos die tabel.</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>Die sessie is groter as %size (debugbar.ini SessionWarnBytes): elke versoek van hierdie gebruiker lees die hele sessie en skryf dit wanneer dit verander het.</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP hou hierdie sessie in lêers en sluit die lêer vir die hele versoek: versoeke van dieselfde gebruiker (verskeie oortjies, AJAX-oproepe) wag vir mekaar.</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>Hou oop</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>Groter as %size (debugbar.ini SessionWarnBytes): elke versoek van hierdie gebruiker lees die hele sessie.</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%hits van %count uit die kas gelees</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>Geen sjabloon is aangebied nie (’n aansig wat uit die aansigkas gelees is, bied geen aan nie).</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>Roltoewysings</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>Rolle en beleide</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>anders as vir anonieme besoekers</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>dieselfde as vir anonieme besoekers</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70247,6 +71226,14 @@ Die klas van die nodus moet met die ruil-funksie verander word.</translation>
     <message>
         <source>not sent</source>
         <translation>nie gestuur nie</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Die kennisgewing-cronjob teken elkeen van sy lopies hier aan. Voeg die deel frequent by die crontab, of voer exp:notification:run --apply uit.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>Gebruik die konsole: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -75965,6 +76952,98 @@ Die klas van die nodus moet met die ruil-funksie verander word.</translation>
         <source>This topic is not Released; readers do not see it.</source>
         <translation>Hierdie onderwerp is nie Vrygestel nie; lesers sien dit nie.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migrasies</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Veranderinge aan die installasie as lêers bewaar: hul toestand, die lopies, uitvoer en terugrol.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Publiseer &apos;n statiese kopie van &apos;n werf na GitHub Pages of enige git-gasheer.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Statiese publisering</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>In Hersiening</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>Lesers sien hierdie bladsy.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>Versteek vir lesers totdat iemand dit vrystel.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>Die bladsy is nou in Hersiening. Dit is versteek vir lesers totdat dit vrygestel word.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>Die bladsy is Vrygestel: lesers sien dit nou.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>Die bladsy is weer ’n Konsep. Dit is versteek vir lesers totdat dit hersien en vrygestel word.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>Stel nou vry</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>Slegs ’n gebruiker met die rol %role wat nie hierdie weergawe geskryf het nie, kan dit vrystel.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>Hulponderwerpe wat op vrystelling wag</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>Versteek dit vir lesers totdat dit weer vrygestel word.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>’n Hersiener kontroleer dit volgende. Lesers sien dit nog nie.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>Lesers sien dit dadelik.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>Haal dit uit hersiening vir verdere werk. Lesers sien dit nie.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>Versteek hierdie bladsy vir lesers?</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>Stuur hierdie bladsy terug na Konsep?</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>Lesers sien %title nie meer nie totdat iemand dit weer vrystel.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title gaan terug na Konsep vir verdere werk. Lesers sien dit steeds nie, en dit het ’n nuwe hersiening nodig voordat dit vrygestel word.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Kanselleer</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>Hierdie onderwerpe is in Hersiening. Lesers sien dit sodra iemand wat nie die huidige weergawe geskryf het nie, dit vrystel.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76136,6 +77215,10 @@ Die klas van die nodus moet met die ruil-funksie verander word.</translation>
     <message>
         <source>Setup &gt; Cronjobs</source>
         <translation>Opstelling &gt; Cronjobs</translation>
+    </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>Geen cronjob-deel het nog geloop nie: die werktou, die invoere, die kennisgewings en die soekindeks wag. Voer php bin/php/installcrontab.php --add --apply uit, of voeg die reëls van --show by die crontab.</translation>
     </message>
 </context>
 <context>
@@ -76475,6 +77558,46 @@ Die klas van die nodus moet met die ruil-funksie verander word.</translation>
         <source>None.</source>
         <translation>Geen.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>met &apos;n verifikasie-program</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>met &apos;n kode per e-pos</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>met &apos;n herwinningskode</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>met &apos;n wagwoordsleutel</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>met &apos;n eksterne rekening</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Sekuriteitsaktiwiteit</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>Word as sy netwerk gewys; die adres word bewaar soos die databeskermingsinstellings van die werf bepaal.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Nie aangeteken nie</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Ligging</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>benaderd</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76718,6 +77841,42 @@ Die klas van die nodus moet met die ruil-funksie verander word.</translation>
         <source>Manage devices</source>
         <translation>Bestuur toestelle</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>met &apos;n verifikasie-program</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>met &apos;n kode per e-pos</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>met &apos;n herwinningskode</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>met &apos;n wagwoordsleutel</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>met &apos;n eksterne rekening</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Sekuriteitsaktiwiteit</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Nie aangeteken nie</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Ligging</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>benaderd</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76797,6 +77956,14 @@ Die klas van die nodus moet met die ruil-funksie verander word.</translation>
         <source>View the sessions of this user</source>
         <translation>Bekyk die sessies van hierdie gebruiker</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>U rekening %login op %site is sopas gebruik om aan te meld vanaf &apos;n plek waarvandaan dit nie onlangs aangemeld het nie:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>Benaderde ligging</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76835,6 +78002,10 @@ Die klas van die nodus moet met die ruil-funksie verander word.</translation>
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%browser op %os</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Aanmeldverslag</translation>
     </message>
 </context>
 <context>
@@ -77043,6 +78214,82 @@ Die klas van die nodus moet met die ruil-funksie verander word.</translation>
         <source>The passkey could not be checked. Please try again.</source>
         <translation>Die wagwoordsleutel kon nie nagegaan word nie. Probeer asseblief weer.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>Rekeninge wat slegs met wagwoordsleutels aanmeld, kan nie hier &apos;n wagwoord gebruik nie: kies “Meld aan met &apos;n wagwoordsleutel”.</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>Wagwoordsleutels van %login</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>Die wagwoordsleutels waarmee hierdie rekening aanmeld. Trek een terug wat op &apos;n verlore of gesteelde toestel is: dit kan dan nie meer aanmeld nie. Die eienaar voeg self nuwes by.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>U rekening benodig &apos;n wagwoordsleutel</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>Voeg &apos;n wagwoordsleutel by u rekening</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>Voeg &apos;n wagwoordsleutel by om voort te gaan. U meld dan daarmee aan in plaas van slegs met &apos;n wagwoord.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>Om met &apos;n wagwoordsleutel aan te meld is vinniger en veiliger as &apos;n wagwoord. Voeg nou een by, of gaan sonder een voort.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>Nie nou nie</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>Trek die wagwoordsleutel “%name” terug?</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>Dit kan nie meer by hierdie rekening aanmeld nie. As dit die laaste een was, meld die eienaar met die wagwoord aan, of u stel &apos;n nuwe een.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>Trek die wagwoordsleutel terug</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>Trek terug</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>Hierdie rekening het geen wagwoordsleutel nie.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>Verifieerder</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Onbekend</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>U laaste wagwoordsleutel: voeg nog een by voordat u dit verwyder.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>Hierdie rekening meld slegs met wagwoordsleutels aan (wagwoordsleutelbeleid): wanneer daar geen oor is nie, meld dit weer met sy wagwoord aan.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>Dit is u laaste wagwoordsleutel en u rekening kan nie sonder een aanmeld nie. Voeg eers nog &apos;n wagwoordsleutel by.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>Die wagwoordsleutel “%name” is teruggetrek. Dit kan nie meer by hierdie rekening aanmeld nie.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77142,6 +78389,34 @@ Die klas van die nodus moet met die ruil-funksie verander word.</translation>
         <source>Code from your authenticator app</source>
         <translation>Kode van u verifieerder-app</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>U is op die punt om data permanent te skrap of &apos;n log leeg te maak.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>U wagwoord en &apos;n wagwoordsleutel</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>U wagwoord en &apos;n kode van u verifieerder-app</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>Of:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>Hierdie blaaier kan nie wagwoordsleutels gebruik nie. Gebruik &apos;n ander manier, of &apos;n ander blaaier.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>Wanneer u voortgaan, vra u blaaier vir een van u wagwoordsleutels.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>Gaan voort met &apos;n wagwoordsleutel</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77232,6 +78507,70 @@ Die klas van die nodus moet met die ruil-funksie verander word.</translation>
     <message>
         <source>Setup</source>
         <translation>Opstelling</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>Verandering van die eie wagwoord, e-posadres, wagwoordsleutels, tweestap-aanmelding, herwinningskodes of API-sleutels, en afmelding van die eie ander toestelle.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>Skep en wysig van gebruikers, hul wagwoorde en toestelle, rekeninginstellings, goedkeuring of weiering van nuwe gebruikersrekeninge, toewysing van rolle en wysiging van beleide.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>Data skrap</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>Leegmaak van die asblik, verwydering van items daaruit en verwydering van verskeie items gelyktydig.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>Inhoud verwyder, publiseer en stoor</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>Verwydering van inhoud (ook na die asblik), publisering en stoor van &apos;n konsep, gevra wanneer die vorm gestuur word. Verstek af.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>Voor &apos;n sensitiewe aksie bevestig &apos;n aangemelde gebruiker weer wie hy of sy is: met hul wagwoord en &apos;n wagwoordsleutel, of sonder &apos;n wagwoordsleutel met hul wagwoord en die kode van hul verifieerder-app. Slegs die webbladsye vra: die REST-koppelvlak, SOAP, WebDAV, die expservices-aanmelding en die opdragreël vra nooit nie.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>Waar die instellings geld</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>Instellings vir</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Elke werftoegang</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>Werftoegang %name</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Maak oop</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>Wie gevra word: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>Merk gebruikersgroepe om slegs hul lede te vra (byvoorbeeld redakteurs). Niks gemerk nie: elke gebruiker.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>Gestoor in settings/override/site.ini.append.php, vir elke werftoegang. Wanneer u stoor, word u gevra om te bevestig dat dit u is.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>Gestoor in settings/siteaccess/%name/site.ini.append.php. &apos;n Waarde in settings/override geniet voorrang daarbo. Wanneer u stoor, word u gevra om te bevestig dat dit u is.</translation>
     </message>
 </context>
 <context>
@@ -77366,6 +78705,6822 @@ Die klas van die nodus moet met die ruil-funksie verander word.</translation>
     <message>
         <source>Open the page</source>
         <translation>Open die bladsy</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from tot %to van %count</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>&apos;n Aanmeldnaam of gebruikers-ID: die rekening waaroor die gebeurtenis gegaan het, of die gebruiker wat opgetree het.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Rekening</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Aksie</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>Na</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>Enige resultaat</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Voor</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Deur</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Stel terug</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Voltooi</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>Gebeurtenisse word %days dae lank bewaar.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>Gebeurtenisse word bewaar totdat hulle met die hand verwyder word.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Gebeurtenisse</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>Elke aksie</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>Alle gebeurtenisse van hierdie rekening</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>Voer die lys as CSV uit (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Misluk</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Van</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>Verfyn die lys</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>Geen gebeurtenis pas nie.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Per bladsy</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>Opname is in audit.ini afgeskakel ([UserAuditSettings] UserAudit); die lys wys wat voorheen opgeneem is.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Geweier</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Resultaat</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Wys</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>Die tabel van die gebruikersouditlog ontbreek. Skep dit met php update/common/scripts/6.0/createuseraudittable.php; tot dan hou die ouditlêers elke gebeurtenis.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>Hierdie bladsy het &apos;n SQL-databasis nodig; dit is nie op MongoDB beskikbaar nie. Die ouditlêers hou elke gebeurtenis.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Tot</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Gebruikersouditlog</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Gebruiker</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Wanneer</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Waar</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>Wie watter rekening verander, geskep, geaktiveer, gedeaktiveer, geskuif of verwyder het, wie aangemeld het of geweier is, en watter rolle toegeken is: een reël per gebeurtenis, met die velde voor en na. Wagwoorde en geheime word nooit opgeneem nie.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>groep</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>stelsel</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>onbekend</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>Beveilig u rekening</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>&apos;n Herwinningskode is gebruik om by u rekening %login op %site aan te meld.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>&apos;n Herwinningskode is gebruik</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Rekening</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>Benaderde adres</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>Vra &apos;n nuwe wagwoord aan om weer aan te meld, of kontak die administrateurs van die werf.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>Vra &apos;n nuwe wagwoord aan</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>Elke herwinningskode werk net een keer. As u u foon verloor het, stel u verifikasie-program weer op en bewaar die nuwe herwinningskodes op &apos;n veilige plek.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>Mislukte aanmeldpogings op u rekening</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>Van nou af vra die aanmelding benewens u wagwoord ook &apos;n kode. As u dit gedoen het, hoef u niks te doen nie.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>As dit u was en u u wagwoord vergeet het, vra &apos;n nuwe een aan. Indien nie, kies &apos;n sterker wagwoord en skakel tweestap-aanmelding aan.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>As dit nie u was nie, ken iemand dalk u wagwoord: verander dit nou en gaan na waar u rekening aangemeld is.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>Oorblywende herwinningskodes</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>Gaan u toestelle na</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>Sekuriteitswaarskuwing</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>Iemand het %count keer agtereenvolgens probeer om met &apos;n verkeerde wagwoord by u rekening %login op %site aan te meld.</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>Daar was &apos;n sekuriteitsgebeurtenis op u rekening %login op %site.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>Dit is &apos;n sekuriteitswaarskuwing oor u rekening. Dit word vir elke sodanige verandering gestuur en kan nie afgeskakel word nie.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Tyd</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>Tweestap-aanmelding is vir u rekening %login op %site afgeskakel.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>Tweestap-aanmelding is afgeskakel</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>Tweestap-aanmelding is vir u rekening %login op %site aangeskakel.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>Tweestap-aanmelding is aangeskakel</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>U rekening %login op %site is ná te veel mislukte aanmeldings gesluit.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>U rekening word nou net deur u wagwoord beskerm. As u dit nie gedoen het nie, skakel tweestap-aanmelding weer aan nadat u u wagwoord verander het.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>U rekening is gesluit</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>&apos;n Wagwoordsleutel is by u rekening %login op %site gevoeg.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>Wie hierdie wagwoordsleutel het, kan sonder u wagwoord by u rekening aanmeld. As u dit nie bygevoeg het nie, verwyder dit onder Wagwoordsleutels en verander u wagwoord.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>&apos;n Wagwoordsleutel is van u rekening %login op %site verwyder.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>Dit kan nie meer by u rekening aanmeld nie. As u dit nie verwyder het nie, kontroleer u wagwoordsleutels en toestelle.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>&apos;n Wagwoordsleutel is by u rekening gevoeg</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>&apos;n Wagwoordsleutel is van u rekening verwyder</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>Sekuriteitsaktiwiteit</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Sekuriteitsaktiwiteit van %name</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Aangemeld</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Mislukte aanmeldpoging</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Afgemeld</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Sessies afgemeld</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Aanmelding vanaf &apos;n nuwe toestel</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Aanmelding vanaf &apos;n nuwe ligging</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Identiteit bevestig (&quot;Bevestig dat dit u is&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Identiteitskontrole het misluk</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Met &apos;n wagwoordsleutel aangemeld</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Aanmelding met wagwoordsleutel het misluk</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Aanmelding geweier: tweestapkode ontbreek of is verkeerd</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Verkeerde tweestapkode</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Rekening gesluit ná mislukte aanmeldings</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Rekening ontsluit</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Wagwoord verander</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Wagwoordverandering het misluk</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Wagwoord teruggestel</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Nuwe wagwoord aangevra</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>E-posadres verander</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Gebruikernaam verander</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Tweestap-aanmelding aangeskakel</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Tweestap-aanmelding afgeskakel</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Herwinningskode gebruik</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Nuwe herwinningskodes</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>App-wagwoord geskep</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>App-wagwoord herroep</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Wagwoordsleutel bygevoeg</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Wagwoordsleutel verwyder</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Rekening geaktiveer</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Rekening gedeaktiveer</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Almal</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Aanmeldings en sessies</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Rekeningveranderings</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Vereis aandag</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>deur u</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>deur die gebruiker</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>deur %login</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>Metode</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>Blaaier</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>Stelsel</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Toestel</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>Plek</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>Land</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Sessies</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>Watter</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>Kanaal</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Mislukte pogings</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>Oorblywende kodes</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>Aanmeldhanteerder</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Sekuriteitsaktiwiteit</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Sekuriteitsaktiwiteit van %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Aanmeldings en veranderings aan die sekuriteit van u rekening. As u iets sien wat u nie gedoen het nie, verander u wagwoord en meld die toestelle af wat u nie herken nie.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>Aanmeldings en veranderings aan die sekuriteit van hierdie rekening.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>U toestelle</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Verander wagwoord</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>Terug na die rekening</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>Die sekuriteitsaktiwiteit word nie aangeteken nie</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>Dit word uit die gebruikersouditlog gelees, waarvan die tabel expuser_audit ontbreek of nie op hierdie databasis ondersteun word nie. Voer php update/common/scripts/6.0/createuseraudittable.php uit, of die databasisbywerking van 6.0.15.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Die afgelope %days dae</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Aanmeldings in die afgelope %days dae</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>Onlangse sekuriteitsaktiwiteit</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Wys</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>misluk</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>geweier</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Nog geen sekuriteitsaktiwiteit aangeteken nie.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>Sekuriteitsgebeurtenisse word %days dae lank bewaar.</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>Sekuriteitsgebeurtenisse word bewaar totdat &apos;n administrateur dit verwyder.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Laai my aanmelddata af</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>U sessies en sekuriteitsgebeurtenisse as &apos;n JSON-lêer.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Sessies word nie op hierdie werf aangeteken nie, so geen ander toestel kon afgemeld word nie. Verander nou u wagwoord.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count ander sessies is afgemeld. Verander nou u wagwoord.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Geen ander toestel was aangemeld nie. Verander nou u wagwoord.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Dankie. Die gebeurtenis is as u s'n gemerk.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Daardie gebeurtenis vereis geen antwoord nie.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Die bladsy het verval. Niks is verander nie; probeer asseblief weer.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Beveilig u rekening</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>As iets hier nie u was nie, meld elke ander toestel af en kies dan 'n nuwe wagwoord. Toestelle wat met „Onthou my” aangemeld gebly het, word ook afgemeld.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Elke toestel behalwe hierdie een word by sy volgende versoek afgemeld. Daarna kies u 'n nuwe wagwoord.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Ja, meld die ander toestelle af</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Was dit u?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Ja, dit was ek</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Nee, beveilig my rekening</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Aangemeld</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Mislukte aanmeldpoging</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Afgemeld</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Sessies afgemeld</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Aanmelding vanaf &apos;n nuwe toestel</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Aanmelding vanaf &apos;n nuwe ligging</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Identiteit bevestig (&quot;Bevestig dat dit u is&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Identiteitskontrole het misluk</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Met &apos;n wagwoordsleutel aangemeld</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Aanmelding met wagwoordsleutel het misluk</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Aanmelding geweier: tweestapkode ontbreek of is verkeerd</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Verkeerde tweestapkode</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Rekening gesluit ná mislukte aanmeldings</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Rekening ontsluit</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Wagwoord verander</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Wagwoordverandering het misluk</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Wagwoord teruggestel</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Nuwe wagwoord aangevra</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>E-posadres verander</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Gebruikernaam verander</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Tweestap-aanmelding aangeskakel</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Tweestap-aanmelding afgeskakel</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Herwinningskode gebruik</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Nuwe herwinningskodes</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>App-wagwoord geskep</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>App-wagwoord herroep</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Wagwoordsleutel bygevoeg</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Wagwoordsleutel verwyder</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Rekening geaktiveer</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Rekening gedeaktiveer</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Almal</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Aanmeldings en sessies</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Rekeningveranderings</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Vereis aandag</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Sekuriteitsaktiwiteit</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Sekuriteitsaktiwiteit van %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Aanmeldings en veranderings aan die sekuriteit van u rekening. As u iets sien wat u nie gedoen het nie, verander u wagwoord en meld die toestelle af wat u nie herken nie.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>U toestelle</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Verander wagwoord</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>Die sekuriteitsaktiwiteit word nog nie op hierdie werf aangeteken nie.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Aanmeldings in die afgelope %days dae</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Mislukte pogings</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Nog geen sekuriteitsaktiwiteit aangeteken nie.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Laai my aanmelddata af</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>U sessies en sekuriteitsgebeurtenisse as &apos;n JSON-lêer.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Sessies word nie op hierdie werf aangeteken nie, so geen ander toestel kon afgemeld word nie. Verander nou u wagwoord.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count ander sessies is afgemeld. Verander nou u wagwoord.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Geen ander toestel was aangemeld nie. Verander nou u wagwoord.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Dankie. Die gebeurtenis is as u s'n gemerk.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Daardie gebeurtenis vereis geen antwoord nie.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Die bladsy het verval. Niks is verander nie; probeer asseblief weer.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Beveilig u rekening</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>As iets hier nie u was nie, meld elke ander toestel af en kies dan 'n nuwe wagwoord. Toestelle wat met „Onthou my” aangemeld gebly het, word ook afgemeld.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Elke toestel behalwe hierdie een word by sy volgende versoek afgemeld. Daarna kies u 'n nuwe wagwoord.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Ja, meld die ander toestelle af</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Was dit u?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Ja, dit was ek</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Nee, beveilig my rekening</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>Wagwoord</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>Wagwoord en tweestapkode</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>REST-koppelvlak</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>SOAP-koppelvlak</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>Enkelaanmelding</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>Aangemeld voordat sessies aangeteken is</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Aanmeldverslag</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>Wie op die werf aangemeld is, hoe dikwels rekeninge aanmeld en daarin misluk, en om &apos;n gebruiker oral af te meld. Dit werk met elke sessiehanteerder.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>Die sessie is afgemeld. Die toestel moet weer aanmeld.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>%login is uit %count sessies afgemeld.</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>%login het geen lopende sessie gehad nie.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>Geen rekening het daardie ID, gebruikernaam of e-posadres nie.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>Dit is die sessie wat u gebruik. Meld af om dit te beëindig.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>Daardie sessie het reeds geëindig.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Die bladsy het verval. Niks is verander nie; probeer asseblief weer.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>Sessies word nie op hierdie werf aangeteken nie (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>Die tabel expuser_session ontbreek</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>Sessies word aangeteken sodra dit geskep is: php update/common/scripts/6.0/createusersessiontable.php, of die databasisbywerking van 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>Nou en vandag</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>Lopende sessies</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>Aangemelde gebruikers</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>Aanmeldings vandag</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>Mislukte pogings vandag</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>Meld &apos;n gebruiker oral af</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>Elke sessie van die rekening eindig by sy volgende versoek, ook dié wat deur &quot;Onthou my&quot; behou word. Gebruik dit wanneer &apos;n rekening dalk in die verkeerde hande is; stel dan sy wagwoord terug.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>Gebruiker-ID, gebruikernaam of e-posadres</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>Meld oral af</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>Nou aangemeld</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>Die %limit mees onlangs gebruikte word gewys.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Gebruiker</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Toestel</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adres</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>Aangemeld</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>Laas aktief</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Aksies</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>Hierdie toestel</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Nie aangeteken nie</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>Meld af</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>Geen sessie is aangemeld nie.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Die afgelope %days dae</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>Aanmeldings en mislukte pogings word uit die gebruikersouditlog getel, wat nie bestaan nie; die nuwe sessies word wel getel.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>Dag</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>Aanmeldings</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Mislukte pogings</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>Nuwe sessies</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>Sessiehanteerder: %handler. Die sessies word uit die tabel expuser_session gelees, dus werk die verslag met elke hanteerder.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>Verdagte aktiwiteit in die afgelope %hours uur</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>Een netwerk kon nie by %accounts rekeninge aanmeld nie (%count pogings)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Rekening gesluit ná mislukte aanmeldings</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>%count mislukte aanmeldings op een rekening</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>Gelyktydig vanuit %count lande aangemeld</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Sekuriteitsaktiwiteit</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Sessies</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>Mislukte aanmeldings word uit die gebruikersouditlog gelees, wat nie hier beskikbaar is nie.</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>Niks verdag nie: geen rekening met herhaalde mislukte aanmeldings nie, geen netwerk wat verskeie rekeninge probeer nie, geen rekening wat vanuit verskeie lande aangemeld is nie.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>Sekuriteitswaarskuwing vir u rekening</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>Daar was &apos;n sekuriteitsgebeurtenis op u rekening %login: %event. As dit nie u was nie, beveilig u rekening by %url.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Opstelling</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>Vra die inhoud van hierdie werf vir presies die velde wat 'n bladsy nodig het, in een versoek. Die skema volg die inhoudsklasse; elke navraag loop met die regte van die gebruiker wat dit stuur.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>Die GraphQL-API is in hierdie werftoegang afgeskakel. Skakel dit aan in graphql.ini: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>Die GraphQL-biblioteek (webonyx/graphql-php 15) is nie geïnstalleer nie.</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>Eindpunt</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>Biblioteek</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>Skema</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>%count inhoudsklasse, skema %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>Navraag</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>Veranderlikes (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Voer uit</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>Antwoord</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>Loop tans…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>Die antwoord kon nie gelees word nie.</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>Die navraag loop met jou regte, aangemeld met hierdie sessie.</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%count in %seconds s</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>geen limiet</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>Diepte</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>Kompleksiteit</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>Items per lys</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (verstek %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>Versoeke per gebruiker of sleutel</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>Versoeke per anonieme adres</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>Introspeksie</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>Slegs gestoorde navrae</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>Grootste navraag</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>%bytes grepe</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>Grootste oplaai</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>Daar is geen werftoegang %siteaccess nie.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>Die mutasies is in %siteaccess aangeskakel.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>Die mutasies is in %siteaccess afgeskakel.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>Die GraphQL-API is in %siteaccess aangeskakel.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>Die GraphQL-API is in %siteaccess afgeskakel.</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>Die instellings kon nie geskryf word nie: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>Die antwoordkas is skoongemaak: %count antwoorde verwyder.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>Merk die blokkie langs die navraag om dit te verwyder.</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>Die navraag kon nie verwyder word nie: 'n navraag wat in 'n gids van PersistedQueryDirectoryList[] saamgelewer is, word saam met sy lêer verwyder.</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>Die gestoorde navraag is verwyder.</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>Mutasies</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>aan</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>af</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Werftoegange</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>Waar die API en sy mutasies antwoord. Die knoppies skryf graphql.ini, soos ./console exp:graphql:enable en exp:graphql:disable doen.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Werftoegang</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>GraphQL-API</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Verander</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Skakel af</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>Mutasies af</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>Mutasies aan</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Skakel aan</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>Limiete</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>graphql.ini [GraphQLSettings] van hierdie werftoegang.</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>Antwoordkas</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>Die antwoorde van gestoorde navrae, per gebruikersregte bewaar en verval wanneer inhoud gepubliseer word.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Toestand</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>Bewaarde antwoorde</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>%count antwoorde, %bytes grepe</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>Hoogstens bewaar</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds s</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>Laas verval</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>Maak die antwoordkas skoon</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>Gestoorde navrae</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>Gestoor met ./console exp:graphql:persist, of deur kliënte (outomatiese gestoorde navrae); geroep volgens naam of SHA-256.</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>Name</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Grootte</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Waar</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Verwyder</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>saamgelewer</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>gestoor</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>Ja, verwyder hierdie navraag</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>Nog geen gestoorde navraag nie.</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>API-sleutels</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>Persoonlike API-sleutels met die bestek graphql:read (navrae) of graphql:write (mutasies). Skep en herroep hulle op die bladsy API-toegang, of met ./console exp:graphql:keys.</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>API-toegang</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>Alle sleutels</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>Sleutel</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Naam</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Eienaar</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>Bestekke</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>Laas gebruik</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>aktief</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>verval</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>herroep</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>nooit</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>Nog geen API-sleutel met 'n GraphQL-bestek nie.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>Die GraphQL-API is afgeskakel in die werftoegang %siteaccess, wat hierdie bladsy wys; die tabel hieronder wys waar dit antwoord.</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>Vir die werftoegang %siteaccess, wat hierdie bladsy wys.</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>Webhooks</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>Elke gebeurtenis waarvoor 'n eindpunt vra (publish, update, trash, delete, move, hide, reveal, mutation) word, onderteken, deur die cronjob-deel graphqlwebhooks daarheen gestuur. ./console exp:graphql:webhooks doen dieselfde as hierdie afdeling.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Gebeurtenisse</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>alle</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Elke werftoegang</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>stukkend</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>geen geheim</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>Wag</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count opgegee</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>Laaste aflewering</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Stuur 'n toets</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>Ja, verwyder hierdie webhook</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>Nog geen webhook nie.</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>Voeg 'n webhook by</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>Voeg by</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>Onlangse aflewerings</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Tyd</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Resultaat</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>Intekeninge</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>Regstreekse bywerkings vir kliënte: 'n gebeurtenisstroom by /api/graphql/subscribe, en 'n WebSocket (graphql-transport-ws) op Velocity. Elke gebeurtenis gaan net na intekenaars wat die inhoud daarvan mag lees.</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>Nou oop</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>Meeste oop</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>%total altesaam, %user per gebruiker, %address per adres</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>Anonieme intekeninge</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>Stroomduur</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>Die webhook kon nie bygevoeg word nie: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>Die webhook %name is verander; sy ondertekeningsgeheim bly.</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>Die ondertekeningsgeheim kon nie gestoor word nie (Opstelling &gt; Geheime).</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>Die webhook %name is bygevoeg. Sy ondertekeningsgeheim, net hierdie keer gewys: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>Daar is geen webhook %name nie.</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>Die webhook %name het nie geantwoord nie: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>Die webhook %name het %status in %ms ms geantwoord.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>Merk die blokkie langs die webhook om dit te verwyder.</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>Die webhook %name is verwyder.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>Die GraphQL-API is in hierdie werftoegang afgeskakel.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>Die GraphQL-biblioteek is nie geïnstalleer nie.</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>Gebruik GET of POST.</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>Die liggaam is nie &apos;n JSON-objek nie.</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables is nie &apos;n JSON-objek nie.</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions is nie &apos;n JSON-objek nie.</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>Stuur die navraag met POST.</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>Die versoek bevat geen navraag nie.</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>Die navraag is langer as %max grepe.</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>Interne bedienerfout</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node benodig presies een van id, remoteId, path en urlAlias.</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content benodig presies een van id en remoteId.</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>Die wyser van after is nie een wat hierdie API gegee het nie.</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>Daar is geen beeldalias %alias nie (image.ini [AliasSettings] AliasList[]).</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>Slegs gestoorde navrae word hier aanvaar: stuur die id van &apos;n gestoorde navraag.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>Die hash van die gestoorde navraag is nie &apos;n SHA-256 nie.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>Die hash van die gestoorde navraag pas nie by die navraag nie.</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>Te veel versoeke: hoogstens %limit in %window sekondes. Probeer weer oor %reset sekondes.</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>Die navraag is %depth vlakke diep; hoogstens %max word toegelaat.</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>Die navraag het &apos;n kompleksiteit van %complexity; hoogstens %max word toegelaat.</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>Hierdie versoek mag nie die skema lees nie (introspection).</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search benodig &apos;n teks of &apos;n filter (classes, subtree, sections, publishedAfter, publishedBefore).</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument is nie &apos;n datum nie (ISO 8601, 2026-10-30).</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag benodig presies een van id, remoteId en path.</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout benodig presies een van id, identifier en urlAlias.</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>Die veld operations van 'n multipart-versoek is nie een JSON-versoek nie.</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>Die veld map van 'n multipart-versoek is nie 'n JSON-objek nie.</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>Die multipart-versoek bevat geen lêer %field nie.</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>'n Pad van die veld map moet met variables. begin: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>Die lêer %name het nie volledig aangekom nie (oplaaifout %error).</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>Die lêer %name is groter as %max grepe.</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>Die lêer %name kon nie nagegaan word nie.</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>Mutasies is in hierdie werftoegang afgeskakel (graphql.ini [GraphQLSettings] MutationsEnabled).</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>Stuur 'n mutasie met POST.</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>Meld aan om inhoud te verander.</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>Die API-sleutel het nie die bestek %scope nie.</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>'n Mutasie met 'n sessie benodig die vormtoken van die sessie (kopreël X-CSRF-Token).</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>uploadFromUrl is afgeskakel: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] noem geen gasheer nie.</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>Die adres moet 'n https-adres wees.</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>Die gasheer %host is nie in graphql.ini [GraphQLSettings] UploadFromUrlHostList[] nie.</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>Die lêer kon nie gehaal word nie.</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload is slegs 'n invoertipe.</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>'n Veranderlike van die tipe Upload neem 'n lêer van 'n multipart-versoek.</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>Die remote id %remoteId is reeds in gebruik.</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>Die inhoud het reeds 'n vertaling in %language: gebruik updateContent.</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>Gee ten minste een veld.</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>Geen nuwe weergawe kon gemaak word nie (die inhoud het te veel konsepte).</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>Weergawe %version is nie 'n konsep nie.</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent benodig presies een van id en nodeId.</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>'n Ligging kan nie onder homself geskuif word nie.</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>Die inhoud het reeds 'n ligging onder %parentId.</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>Die waarde van die veld %field kon nie gestoor word nie.</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>Daar is geen inhoudstaal %language nie.</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>Daar is geen inhoudsklas %class in die skema nie.</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>Die inhoud bestaan nie, of jy mag dit nie lees nie.</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>Jy mag dit nie aan hierdie inhoud doen nie.</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>Die klas %class het geen veld %field wat geskryf mag word nie.</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>Die veld %field is twee keer gegee.</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>Die veld %field neem 'n lêer: stuur dit as oplaai ('n multipart-versoek).</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>Die veld %field neem geen lêer nie.</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>Die veld %field benodig 'n waarde.</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>Die formaat %format is slegs vir ryk-teksvelde; %field neem sy waarde soos dit is (RAW).</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>Die veld %field is verpligtend.</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>Die HTML kon nie gelees word nie.</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content neem version slegs saam met id.</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>Die voorskoutoken is ongeldig of het verval.</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>Nie 'n oorsprong nie (https://host of https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>Nie 'n bestek van die GraphQL-API nie: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>Stuur intekeninge na /api/graphql/subscribe ('n gebeurtenisstroom of 'n WebSocket).</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>Die versoek noem geen bewerking van die dokument nie.</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>'n Intekening vra vir presies een veld.</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>Te veel intekeninge is oop; probeer later weer.</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>Jy het %max intekeninge oop, die meeste wat toegelaat word.</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>Jou adres het %max intekeninge oop, die meeste wat toegelaat word.</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>Intekeninge is in hierdie werftoegang afgeskakel.</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>Meld aan om in te teken ('n token of 'n persoonlike API-sleutel).</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>Stuur mutasies na /api/graphql.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>Migrasies</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Die toestand kon nie gelees word nie: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Die tabelle van die migrasies bestaan nog nie: ./console exp:upgrade --apply skep hulle.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>%count migrasies het misluk</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>&apos;n Lopie is aan die gang, begin deur %user</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>Die installasie is gesluit: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Hangend</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Misluk</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>Weeskinders</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Laaste lopie</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>nog geen</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>Alle migrasies</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>Gesimuleerde lopie</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>Proeflopie</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>Die hangende migrasies het in &apos;n transaksie geloop wat daarna teruggerol is: niks is behou nie. Hieronder is wat elkeen in die databasis verander het.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>Wat &apos;n lopie nou sou doen. Niks word verander nie: elke hangende migrasie lys die veranderinge wat dit sou maak, en die lopie wat dit voor en na sou doen.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>Simuleer</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Voer uit</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>Die proeflopie het misluk: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>&apos;n Simulasie benodig PostgreSQL of SQLite, waarvan die skemaveranderinge teruggerol kan word; op hierdie databasis is die plan hieronder wat &apos;n lopie sou doen.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>Die migrasies</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>Migrasie</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Toestand</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>Wat dit sou doen</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>Simulasie: %result in %ms ms</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>Nog geen migrasie nie.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>Voor en na die lopie</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>Momentopname vooraf</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>geneem, en herstel wanneer &apos;n migrasie misluk</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>af</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>Momentopname daarna</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>geneem wanneer die lopie geslaag het</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>%total migrasies: %pending hangend, %done klaar, %failed misluk.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>Migrasiegeskiedenis</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>Elke lopie met sy gebruiker, omgewing, momentopnames en wat vasgelê, geëtiketteer en gestoot is. &apos;n Mislukte of onderbroke lopie kan hervat word; &apos;n lopie met &apos;n momentopname vooraf kan teruggeneem word.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>Die lopies kon nie gelees word nie: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Die tabelle van die migrasies bestaan nog nie: ./console exp:upgrade --apply skep hulle.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Wys</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Alles</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>Lopies</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Begin</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Deur</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>Momentopnames</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Bewaarplek</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Aksies</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>vooraf</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>daarna</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>stoot: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>Hervat</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Rol terug</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>Geen lopie in hierdie toestand nie.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>Hier begin</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>Lopies, hervattings en terugrollings wat op hierdie bladsye begin is, met die verslag van elkeen.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Wat</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Resultaat</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Terugrolling</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>Terugrolling van %target</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>Lopie %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Wat die lopie gedoen het, sy rekord en sy logboek. &apos;n Lopie wat hier begin is, gaan in die agtergrond voort wanneer hierdie bladsy gesluit word; maak die bladsy weer oop om dit te volg.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>Hervat hierdie lopie</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>Rol hierdie lopie terug</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>Die rekord kon nie gelees word nie: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Vordering</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Begin deur %user om %time.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>Die kode word nagegaan en &apos;n momentopname word voor die lopie geneem</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>%id loop (%index van %total)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>%done van %total klaar</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>Die migrasies het geloop; die momentopname word herstel as een misluk het</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>Momentopname na die lopie, vaslê, etiketteer en stoot</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>Die momentopname word herstel</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>Die lopie is klaar. Sy verslag word gelaai.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>Die vordering kon nie gevolg word nie. Herlaai die bladsy om te sien hoe die lopie vorder.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>Hierdie bladsy volg die lopie terwyl dit loop.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Herlaai</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Verslag</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Duur</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms millisekondes</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>Wat die lopie as foute gedruk het</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Rekord</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>Omgewing</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>geen</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Beëindig</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Vaslegging</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Etiket</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Stoot</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Boodskap</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>Migrasies van hierdie lopie</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>Bron</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>Lopielogboek</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>Slegs die einde van die logboek word gewys.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>loop</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>sonder verslag beëindig</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>geslaag</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>misluk</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>geweier</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>die databasis was nie bereikbaar nie</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>interne fout</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>&apos;n Lopie is aan die gang</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind begin deur %user om %time.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>Volg dit</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>Die installasie is gesluit</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>&apos;n Ander lopie hou die slot (&apos;n opgradering of &apos;n lopie op die konsole): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>klaar</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>hangend</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>nie nodig nie</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>onbekend</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>teruggerol</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>toegepas</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>sou toegepas word</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>teruggeneem</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>sou teruggeneem word</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>nie geloop nie</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>wag vir &apos;n ander</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>verandering aanvaar</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>verandering sou aanvaar word</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>gesimuleer</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migrasies</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Toestand</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Geskiedenis</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>Neem %target terug</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>&apos;n Lopie word teruggeneem na die momentopname wat voor dit geneem is, een migrasie met sy down(). Om &apos;n vroeëre momentopname te herstel is vir kenners. Elkeen loop in die agtergrond as u, ná &apos;n momentopname van die huidige toestand.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>Wat teruggeneem kan word, kon nie gelees word nie: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>&apos;n Lopie</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>Een migrasie</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>&apos;n Vroeëre momentopname</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>Beskrywing</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ja</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>nee</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Momentopname</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Benaming</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>Geneem</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Soort</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>Dele om te herstel</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>Die databasis</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>Die bergingslêers (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>Die instellings (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>Om die databasis te herstel, neem dit terug na die tyd van die momentopname, sessies ingesluit: u mag daarna gevra word om weer aan te meld. Alles wat sedertdien verander het, gaan verlore; &apos;n momentopname van die huidige toestand word eers geneem.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>Ek weet wat dit herstel</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>Tik die id van die momentopname weer</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>Ja, neem dit terug</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Kanselleer</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>Die lopies met &apos;n momentopname wat vooraf geneem is.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>Kies</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>Nog geen lopie met &apos;n momentopname nie.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>Die toegepaste migrasies wat hulself kan terugneem (hulle het &apos;n down()).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>Geen toegepaste migrasie het &apos;n down() nie.</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>Vroeëre momentopnames (kenners)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>Nog geen momentopname nie.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>Voer die migrasies uit</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>Die lopie gaan in die agtergrond voort as %user, en sy bladsy wys dit terwyl dit loop. Voor die eerste migrasie word &apos;n momentopname van die installasie geneem; wanneer &apos;n migrasie misluk, stop die lopie en word die momentopname herstel.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>Eers &apos;n proeflopie</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Die toestand kon nie gelees word nie: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>Hangende migrasies</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>Hulle loop in hierdie volgorde. Ontmerk een om dit, en dié wat dit benodig, vir &apos;n latere lopie te laat.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>Voer dit uit</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>Skakel instandhoudingsmodus aan terwyl dit loop.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>Verander nadat hulle toegepas is</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>Hierdie lêers is nie dié wat toegepas is nie. &apos;n Lopie weier hulle tensy die verandering met &apos;n rede aanvaar word; hulle word nie weer uitgevoer nie, die nuwe kontrolesom word aangeteken en die rede in die ouditlogboek bewaar.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>Aanvaar die veranderinge</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Waarom</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>Die verstekwaardes is die veilige. Elke blokkie laat &apos;n stap uit.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>Geen momentopname</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>Geen momentopname voor en na die lopie nie: &apos;n mislukking kan nie outomaties herstel word nie.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>Geen herstel</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>Laat die installasie ná &apos;n mislukking soos die mislukking dit gelaat het.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>Behou veranderinge wat nie vasgelê is nie</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>Loop selfs al het instellings, uitbreidings of ontwerpe veranderinge wat nie vasgelê is nie; hulle gaan in die momentopname in.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>Geen vaslegging</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>Moenie die statuslêer en die lopielogboek vaslê nie (ook geen etiket en geen stoot nie).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>Geen stoot</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>Vaslê en etiketteer, maar moenie stoot nie.</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>Geen etiket</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>Vaslê en stoot, maar moenie die lopie etiketteer nie.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>Ja, voer hierdie migrasies nou uit</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Geen migrasie is hangend nie.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>Terug na die toestand</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>Veranderinge aan hierdie installasie, een keer as lêers geskryf (inhoud, klasse, rolle, instellings, skema) en in dieselfde volgorde op elke installasie van die werf toegepas. &apos;n Lopie neem eers &apos;n momentopname, herstel dit wanneer &apos;n migrasie misluk, en teken aan, lê vas en stoot wat dit gedoen het.</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>Voer %count hangende uit</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Oorsig</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Hangend</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Klaar</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Misluk</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>Nie nodig nie</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>Databasis</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>transaksies: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>Werfmigrasies is in migrations/, dié van &apos;n uitbreiding in extension/&lt;name&gt;/migrations/. Hulle loop in die volgorde van hul name en wat hulle benodig.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Laaste lopie</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>Die lêer het verander nadat dit toegepas is.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>Nog geen migrasie nie. ./console exp:migration:generate --skeleton &lt;name&gt; --apply skryf die eerste een.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>Die jongste lopies</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>Elke lopie</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>Nog geen lopie nie.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>Om &apos;n lopie te simuleer, benodig die beleid migration/run.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>&apos;n Lopie is aan die gang: simuleer wanneer dit klaar is.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Opstelling</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target is geen lopie, geen migrasie en geen momentopname van hierdie installasie nie.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>Merk eers „Ja, neem dit terug”.</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>Om &apos;n vroeëre momentopname te herstel is vir kenners: merk „Ek weet wat dit herstel”.</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>Tik die id van die momentopname weer: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>Kies ten minste een deel om te herstel.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>Hierdie lopie het geen momentopname vooraf nie: neem sy migrasies een vir een terug, of herstel &apos;n vroeëre momentopname.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>Hierdie migrasie kan nie self teruggeneem word nie: dit is nie toegepas nie, of dit het geen down() nie.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Die vorm kon nie gelees word nie.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>Kies die lopie om te hervat.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>Merk eers „Ja, voer hierdie migrasies nou uit”.</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>Kies ten minste een migrasie.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>&apos;n Migrasie het verander nadat dit toegepas is: aanvaar die verandering met &apos;n rede, of sit die lêer terug.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>Gee die rede waarom die veranderde migrasies aanvaar word.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>Die rede is hoogstens 500 karakters.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>&apos;n Lopie wat hier begin is, is nog aan die gang (%detail). Wag totdat dit klaar is.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>&apos;n Ander lopie hou die slot van die installasie: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>Die lopie benodig &apos;n aangemelde gebruiker wat bestaan.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Geen php-opdragreëlprogram is gevind nie. Stel migration.ini [AdminSettings] PhpCliPath op sy volle pad.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open is gedeaktiveer, dus kan &apos;n lopie nie hier begin word nie. Voer ./console exp:migration:migrate --apply op die bediener uit.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>Die gids van die lopies kan nie geskryf word nie: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>Die lopie is begin maar het nie sy proses-id gerapporteer nie. Gaan %detail na.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>Noem wat teruggeneem moet word.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>Die lopie kon nie begin word nie.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>Veranderinge opneem</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>Terwyl 'n opname loop, word wat jy in die administrasie of in die werf se kantbalk verander as stappe van 'n migrasie gehou: inhoud, klasse, rolle en beleide, afdelings, gebruikers en groepe, URL-aliasse, instellings. Stop dit wanneer jy klaar is, kyk wat dit vasgevang het en genereer 'n migrasie daaruit.</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>Die opnames kon nie gelees word nie: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>Die tabelle van die opnames bestaan nog nie: voer eers die opgradering uit (exp:upgrade --apply).</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>Opname is in migration.ini afgeskakel ([RecordingSettings] Recording=disabled).</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>My veranderinge</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>Neem net op wat jy verander, waar jy dit ook al verander, totdat jy dit stop.</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>Opname</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>sedert %time, tot dusver %count verandering(e).</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>Etiket (opsioneel)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>Wys wat dit vasgevang het</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Stop opname</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>Begin om my veranderinge op te neem</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>Venster vir die hele werf</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>Neem elke verandering van elke gebruiker en van die konsole op totdat dit gesluit word. Wanneer jy dit oopmaak, word jy gevra om te bevestig dat dit jy is.</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Oop</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>Sluit die venster</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>Maak die venster vir die hele werf oop</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>Opnames</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>'n Gebruiker se rekening (aanmeldnaam, e-pos, wagwoord) en die velde van gebruikersrekeninge word nooit opgeneem nie.</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Veranderinge</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>Hele werf</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>Veranderinge van %name</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Gestop</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>Nog geen opname nie.</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>Opname %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>Alle opnames</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>Die migrasie wat dit sou maak</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>Die veranderinge saamgevoeg tot een stap per ding wat verander het: wat 'n migrasie wat uit hierdie opname gegenereer word, sou doen.</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>'n Migrasie kan daaruit gegenereer word sodra hierdie installasie die YAML-staptipes %types het.</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>Doelbewus weggelaat: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>Niks is opgeneem nie.</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>Wat dit vasgevang het</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>%count verandering(e), in die volgorde waarin dit gemaak is.</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Verandering</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>Stap</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>Betref</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>Nog %count: ./console exp:migration:record:show lys almal.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Gooi weg</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>Verwyder die opname en wat dit vasgevang het. Wat verander is, bly verander.</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>Ja, gooi hierdie opname weg</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>Neem op…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Jou veranderinge word vir 'n migrasie opgeneem.</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>Elke verandering op hierdie werf word vir 'n migrasie opgeneem (venster vir die hele werf).</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>Die opname vir die hele werf het begin: elke verandering van elke gebruiker word opgeneem totdat jy dit stop.</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>Die opname het begin: jou veranderinge word opgeneem totdat jy dit stop.</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>Opname gestop. Wat dit vasgevang het, bly totdat jy dit weggooi.</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>Die opname en sy gebeure is verwyder.</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>Daar is geen opname %id nie.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>Merk eers "Ja, gooi hierdie opname weg".</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>Slegs die gebruiker wat opgeneem het, mag 'n sessie-opname stop.</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>Kies die opname om te stop.</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>'n Opname van hierdie soort loop reeds.</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>Die opname kon nie verander word nie: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>Genereer migrasie</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>Naam van die migrasie (opsioneel)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>Die migrasie %file is geskryf. Veranderinge wat geen stap kan maak nie, word bo-aan die lêer genoem, om met die hand te doen.</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>Geen migrasie is geskryf nie: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>'n Lang lopie in dele</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>Leë velde behou die instellings van migration.ini [RunSettings].</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>Hoogstens soveel migrasies</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>Geen verdere migrasie na (sekondes)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>Pouse tussen migrasies (sekondes)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>Laer prioriteit (1 tot 19)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>'n Langlopie-veld is 'n heelgetal vanaf 1 (die pouse: sekondes van 0 tot 60, die prioriteit: 1 tot 19), of leeg.</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>Dit sluit vanself om %time.</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>Sluit vanself na (minute, opsioneel)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>Die minute is 'n heelgetal van 1 tot 44640 (31 dae), of leeg.</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>Migrasie %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>Nuwe migrasie</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>'n YAML-migrasie: skryf dit as teks of bou die stappe daarvan in die vorm, kontroleer dit en stoor dit dan in 'n migrasiegids.</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>Hierdie migrasie het reeds geloop en word dus nie weer gestoor nie: 'n gewysigde lêer sou deur die kontrolesomwag geweier word. Maak die verandering in 'n nuwe migrasie.</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>Die webbediener kan nie die lêer skryf nie.</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>Die kommentaarreëls bo-aan is die kop (description, author, requires, environments, engines). Wanneer 'n stap in die vorm bygevoeg of verander word, word die migrasie weer geskryf: opmerkings tussen die stappe word nie behou nie.</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>Naam van die migrasie</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>Waarheen dit gaan</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>Die werf</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>YAML-teks</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>Kontroleer</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Stoor</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Stappe</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>Sleutels</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Wysig</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>Skuif op</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>Skuif af</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Verwyder</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>Nog geen stappe nie: voeg een by met die vorm, of skryf hulle in die teks.</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>Verander stap %number</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>Voeg 'n stap by</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>Die vorm van 'n stap word uit sy staptipe gemaak: sy sleutels, wat elkeen aanneem en die modusse waaraan dit behoort.</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>Staptipe</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>Wys die vorm</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>Die stap het sleutels wat sy tipe nie ken nie; hulle word weggelaat wanneer die stap verander word: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>Modus</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>In</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>slegs in %modes</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>Verstek: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>Voorwaardes, verwysings en opmerking</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>Naam=waarde-pare, geskei deur kommas. Die waardes van hierdie stap: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>Voorbeeld</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>Verander stap</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>Voeg stap by</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>Wat exp:migration:check sê: die kop, die dokument en elke stap, gekontroleer deur sy staptipe.</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>Die migrasie slaag die kontrole.</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Voorskou</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>Die YAML soos dit gestoor sal word.</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>Wys die YAML</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>YAML-migrasies</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>het geloop</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>Daar is nog geen YAML-migrasies nie.</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>Redigeerder</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>Daar is geen YAML-migrasie %id in die migrasiegidse nie.</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>Kies 'n staptipe.</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>Die stap is bygevoeg. Kontroleer die migrasie voordat jy dit stoor.</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>Die stap is verander. Kontroleer die migrasie voordat jy dit stoor.</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>Kies 'n stap.</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>Hierdie stap het geen vorm nie ('n lus, of 'n staptipe wat hierdie installasie nie het nie): verander dit in die teks.</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>Kies waarheen die migrasie gaan: die werf of 'n aktiewe uitbreiding.</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>%file gestoor. Doen 'n proeflopie voordat die migrasie loop.</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>Nie gestoor nie: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>Afgeleë stelsels</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>Die ander installasies waarheen hierdie een sy migrasies ontplooi: 'n ontplooiing stuur die migrasies na die gekose afgeleë stelsels en voer dit daar uit, almal gelyktydig en gesinchroniseer. 'n Afgeleë stelsel hou nooit 'n geheim nie: sy aanmeldbewys noem een in Opstelling &gt; Geheime.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>Nuwe afgeleë stelsel</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Hulp</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>Toets verbinding van %id</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>Die afgeleë stelsels</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>Tot %parallel afgeleë stelsels word gelyktydig hanteer; een fase mag op elkeen %timeout sekondes duur.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>Afgeleë stelsel</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adres</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Aanmeldbewys</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>Groepe</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>instellings om reg te stel</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>slegs lêers (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>SSH-sleutel</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>Wagwoord</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>geen (die gasheer se SSH-agent en sleutels)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>Toets verbinding</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>'n Ontplooiing na 'n groep gaan na elke afgeleë stelsel daarvan.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>Ontplooi na afgeleë stelsels</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>Nog geen afgeleë stelsel is opgestel nie.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>Afgeleë stelsel %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>Niks word hier gestuur of uitgevoer nie: Stoor skryf die instellings na settings/override/migration.ini.append.php. Die aanmeldbewys is 'n naam; sy waarde bly in Opstelling &gt; Geheime of in die omgewing.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Gaan hierdie instellings na</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>Die instellings soos ingevoer, nog nie gestoor nie.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Hersien</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Die instellings is geldig. Hierdie reëls sal geskryf word:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>Vervoer</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>slegs 'n naam; die waarde bly in Opstelling &gt; Geheime</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Die reëls wat geskryf sal word</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>Verbinding</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>Gasheersleutel</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. Die afgeleë stelsel</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>Wat die afgeleë stelsel genoem word en watter omgewing dit is.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>Letters, syfers, - en _, byvoorbeeld production1. Dit benoem die afgeleë stelsel in verslae en op die konsole (--remotes=production1) en kan later nie verander word nie.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... 'n Ontplooiing in stadiums gaan in hierdie volgorde deur die omgewings.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>Opsioneel, geskei deur kommas, byvoorbeeld production. 'n Ontplooiing na 'n groep gaan na elke afgeleë stelsel daarvan.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. Die verbinding</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>Hoe die lêers daar kom, en waar die installasie is.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>Oor SSH, slegs wat verander het, 'n onderbroke oordrag word hervat. Die beste keuse waar rsync geïnstalleer is.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>SSH met scp vir die lêers.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>SSH met sftp vir die lêers.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>Slegs lêers: die migrasies word gestuur en teruggelees, maar kan nie daar uitgevoer word nie.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>FTP oor TLS; slegs lêers.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>'n Ander installasie op hierdie bediener, in 'n gids.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Gasheer</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>'n Gasheernaam of adres, byvoorbeeld node1.example.com. Nie vir local nie.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>Poort</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>Leeg: 22 vir SSH, 21 vir FTP.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Gebruiker</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>Pad</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>Die installasie se wortel daar, byvoorbeeld /var/www/site (vir FTP: die pad wat die FTP-rekening sien).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>PHP-opdragreël</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>Die PHP CLI daar: php, of 'n volledige pad soos /opt/plesk/php/8.4/bin/php.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>Die konsoleskripte loop daar as root</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>Slegs wanneer die afgeleë stelsel se gebruiker root is (hulle word dan met --allow-root-user uitgevoer).</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. Die aanmeldbewys</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>Hoe hierdie installasie daar aanmeld. Slegs 'n naam word gestoor.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Geen</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>Die SSH-agent en sleutels van die gebruiker waaronder hierdie installasie loop (en altyd vir local).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>'n Privaat sleutel wat as 'n geheim bewaar word.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>'n Wagwoord wat as 'n geheim bewaar word (FTP meld daarmee aan).</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>Naam van die geheim</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>'n Geheim van Opstelling &gt; Geheime, byvoorbeeld deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Opstelling &gt; Geheime</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>Of 'n omgewingsveranderlike</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>Die veranderlike van die bedienerproses wat dit bevat, byvoorbeeld DEPLOY_KEY (gestoor as env:DEPLOY_KEY). Dit neem die plek van die naam van die geheim in.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. Die gasheersleutel</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>Opsioneel, vir SSH, sftp en rsync.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>Vingerafdruk van die gasheersleutel</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... soos ssh-keygen -l dit druk. Daarmee moet die gasheer hierdie sleutel wys; daarsonder word die sleutel by die eerste kontak geleer.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. Hersien</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>Toets die verbinding met die instellings hierbo, en hersien dan die reëls wat geskryf sal word.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>Verwyder hierdie afgeleë stelsel</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>Sy instellings word uit settings/override/migration.ini.append.php verwyder. Niks verander op die afgeleë stelsel nie, en sy ontplooiings bly in die geskiedenis.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>Ja, verwyder hierdie afgeleë stelsel</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>Ontplooiings</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>'n Ontplooiing stuur hierdie installasie se migrasies na die gekose afgeleë stelsels en voer dit daar as %user uit, almal gelyktydig en gesinchroniseer: elke afgeleë stelsel word eers gekontroleer, en as een misluk, word elke afgeleë stelsel wat dit toegepas het, teruggeneem. Dit loop in die agtergrond, en sy bladsy wys elke afgeleë stelsel terwyl dit loop.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. Die afgeleë stelsels</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>Merk afgeleë stelsels, 'n groep, of albei.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>Ontplooi daarheen</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. Hoe</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>Ontplooi</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>Stuur en voer uit</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>Die migrasies word na elke afgeleë stelsel gestuur, geverifieer en met een gedeelde lopie-ID uitgevoer.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>Slegs oordrag</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>Die lêers word gestuur en geverifieer, niks word uitgevoer nie (die enigste manier vir 'n FTP-afgeleë stelsel).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>In stadiums</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>Stadium vir stadium in die volgorde van die omgewings (dev, stage, beta, production ...): die eerste stadium word ontplooi, dan wag 'n hek totdat iemand die volgende goedkeur. Alles of niks binne elke stadium.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>Slegs hierdie migrasies</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>Opsioneel: migrasie-ID's, geskei deur kommas. Leeg: elke migrasie van die werf en sy uitbreidings.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>Slegs voorafkontrole</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>Ja, ontplooi nou</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>Die ontplooiings wat iets gestuur of uitgevoer het, die nuutste eerste ('n voorafkontrole hou geen verslag nie).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>slegs oordrag</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>in stadiums, %stages stadiums</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>nie gesinchroniseer nie</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>Nog geen ontplooiing nie.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>Ontplooiing %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Elke afgeleë stelsel van die ontplooiing met sy toestand. 'n Ontplooiing wat hier begin is, gaan in die agtergrond voort wanneer hierdie bladsy gesluit word; maak die bladsy weer oop om dit te volg.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>Alle ontplooiings</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>Voorafkontrole</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>Volgende stadium</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>Die instellings en die aanmeldbewys word gekontroleer</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>Voorafkontrole: die toestand van elke afgeleë stelsel word gelees</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>Die migrasielêers word gestuur</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>Wat aangekom het, word geverifieer</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>Die migrasies word op elke afgeleë stelsel uitgevoer</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>Die afgeleë stelsels word teruggeneem</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>Die ontplooiing het geëindig. Sy verslag word gelaai.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>Die vordering kon nie gevolg word nie. Herlaai die bladsy om te sien hoe dit met die ontplooiing gaan.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>Fase</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>Hierdie bladsy volg die ontplooiing terwyl dit loop.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>Gesinchroniseer</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>Stadiums</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>stadium %stage wag by sy hek</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>Hek %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>goedgekeur deur %user om %time</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>Stadium</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>Gestuurde lêers</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>Kernweergawe</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>toegepas: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>om toe te pas: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>Fases</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>Hek: stadium %stage van %stages</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>Die stadiums daarvoor is ontplooi. Kontroleer hulle, en keur dan die volgende stadium goed: sy afgeleë stelsels word weer gekontroleer en ontplooi, alles of niks.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Volgende</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>Ja, ontplooi nou die volgende stadium</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Keur goed</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>Rol hierdie ontplooiing terug</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>Elke afgeleë stelsel wat dit toegepas het (%list), gaan terug na die momentopname wat voor sy lopie geneem is, almal gelyktydig.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>Ja, rol hierdie ontplooiing nou terug</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>beplan</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>oorgedra</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>ontplooi</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>wag by 'n hek</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>gekies</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>voorberei</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>gereed</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>wag vir sy stadium</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>lêers gestuur</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>geverifieer</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>misluk, het homself herstel</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>onveranderd</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>nie ontplooi nie</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>nie bereikbaar nie</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>Die afgeleë stelsel het geantwoord.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>Die afgeleë stelsel kan nie nou gebruik word nie.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done klaar, %pending hangend, %failed misluk</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>Slot</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>'n lopie hou die slot daar</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>vry</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stage van %stages</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>Kies die afgeleë stelsel om te toets.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>Merk eers “Ja, verwyder hierdie afgeleë stelsel”.</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>Die afgeleë stelsel kon nie verwyder word nie: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>Die afgeleë stelsel kon nie gestoor word nie: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Die instellingslêer kan nie gelees word nie: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>Kies ten minste een afgeleë stelsel of groep.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>'n Gekose afgeleë stelsel is nie meer in die instellings nie. Herlaai die bladsy.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>Merk eers “Ja, ontplooi nou”.</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>'n FTP-afgeleë stelsel kan nie migrasies uitvoer nie: kies “Slegs oordrag”, of laat dit uit.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>Die migrasies om te ontplooi is migrasie-ID's, geskei deur kommas.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>Die ontplooiing is nog aan die gang. Wag totdat dit eindig.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>Hierdie ontplooiing wag nie by 'n hek nie.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>Geen afgeleë stelsel het hierdie ontplooiing toegepas nie: daar is niks om terug te rol nie.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>Merk eers “Ja, ontplooi nou die volgende stadium”.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>Merk eers “Ja, rol hierdie ontplooiing nou terug”.</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>'n Afgeleë stelsel met die ID %id bestaan reeds.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>Die poort is 'n getal van 1 tot 65535.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>Die omgewing is 'n woord van letters, syfers, - en _ (alpha, dev, stage, beta, production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>'n Groep is 'n woord van letters, syfers, - en _ (nie all nie): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>Die aanmeldbewys kan nie nou gelees word nie: %problem. Stoor dit in Opstelling &gt; Geheime (of stel die veranderlike) voor die eerste ontplooiing.</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>'n FTP-afgeleë stelsel ontvang slegs lêers: 'n ontplooiing daarheen is “Slegs oordrag”, en sy migrasies word daar met die hand uitgevoer.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>Die afgeleë stelsel %id is nie in settings/override/migration.ini.append.php nie; verwyder dit waar dit ingestel is.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>Oor FTP aangemeld en index.php gelees. Die migrasietoestand van 'n FTP-afgeleë stelsel kan nie gelees word nie.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>Gewysig</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>Geskep</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Naam</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Klas</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Afdeling</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>Skepper</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Onlangse inhoud</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>Die mees onlangs geskepte en gewysigde inhoud van die hele werf, nuutste eerste: wat besoekers ingedien het, wat vir hersiening teruggehou word, konsepte wat op hul publikasie wag. Kies elemente om hulle vry te stel, terug te hou, te versteek, sigbaar te maak, te verwyder of na &apos;n ander afdeling of toestand te skuif.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>Die lys kon nie gelees word nie: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>Die terughouding vir hersiening is nog nie opgestel nie, dus word niks teruggehou nie en die terughou-aksies word nie aangebied nie. Die opgraderingstap 6.0.15-review-hold stel dit op: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Filtreer die lys</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Van</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Tot</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Datum</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>Geskep (eerste gepubliseer)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Alles</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Publikasiestatus</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Gepubliseer</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>Konsep, nooit gepubliseer nie</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>Hangend (wag op goedkeuring of &apos;n datum)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>In die asblik</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Teruggehou vir hersiening</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>Teruggehou</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>Nie teruggehou nie</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>Versteek</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>Sigbaar</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>Ingedien via</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>Enige werftoegang</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>Slegs wat die ouditering aangeteken het.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>Nou: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>&apos;n Aanmeldnaam of &apos;n gebruiker-ID.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Filtreer</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>Vee filters uit</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>Elemente</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from tot %to van %count</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Geen element nie</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(gelees in %ms ms)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>Aksies op die gekose elemente</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>Kies alles op hierdie bladsy</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>%count gekies</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Aksie</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>Kies &apos;n aksie</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>Hef die terughouding op</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Hou terug vir hersiening</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Versteek</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>Maak sigbaar</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>Skuif na asblik</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>Skrap</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>Ken afdeling toe</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>Ken toestand toe</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>Rede</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>Nodig om terug te hou; word saam met die terughouding en in die ouditering bewaar.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>Kies &apos;n afdeling</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Toestand</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>Kies &apos;n toestand</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>Pas toe op die gekose</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>Elke element word teen u eie toestemmings nagegaan. Skuif na die asblik en skrap vra u om te bevestig. Meer as %count elemente loop in die agtergrond.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>Kies</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>Publikasie</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>Ingedien vanaf</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>Kies %name</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>nog nie</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(geen naam nie)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>Konsep</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Hangend</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>Versteek deur sy ouer</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>Teruggehou: nuwe indiening</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>Weergawe %version hangend</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>Weergawe %version word bewerk</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>Konsep, weergawe %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>Weergawe %version gepubliseer</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>Geskeduleer vir %date</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>geen adres nie</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>nie aangeteken nie</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>Niks pas by hierdie filters nie.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Wys alles</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>Daar is nog geen inhoud nie.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Per bladsy</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Wys %count elemente per bladsy.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says &quot;not recorded&quot;.</source>
+        <translation>Die adres en die blaaier van &apos;n indiening kom uit die ouditeringsindeks, wat hier nie beskikbaar is nie: die kolom sê &quot;nie aangeteken nie&quot;.</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>Die adres en die blaaier is dié wat die ouditering vir die element aangeteken het (die outomatiese terughouding teken hulle altyd aan; publiseer en skep slegs waar dit aangeskakel is), soos sy privaatheidsinstellings hulle bewaar.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: %count elemente</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>Skrap verwyder die elemente vir altyd, met al hul weergawes en vertalings. Dit kan nie ongedaan gemaak word nie.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>Die elemente gaan na die asblik, waaruit hulle herstel kan word.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>Elke element word teen u eie toestemmings nagegaan; &apos;n element met subelemente word gelaat soos dit is (verwyder dit in die inhoudstruktuur). U sal gevra word om te bevestig dat dit u is.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>Dit loop in die agtergrond: sy vorderingsbladsy maak oop, en die resultaat per element word gewys wanneer dit klaar is.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>Die gekose elemente</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>en nog %count</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Kanselleer</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>Niks is gedoen nie</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Rede: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>Die aksie loop nog in die agtergrond.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>Sy vordering</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>Die agtergrondaksie het misluk: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Gedoen</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Geweier</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Misluk</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>Per element</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>Element</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Resultaat</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Waarom</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>Terug na die lys</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Opstelling</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>Niks gedoen nie</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>Bevestig</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>Kies &apos;n aksie.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>Kies ten minste een element.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>Kies hoogstens 1000 elemente op &apos;n slag.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>Sê waarom die elemente teruggehou word.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>Kies die afdeling.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>Kies die toestand.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Die vorm kon nie gelees word nie.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>Kontroleskerm</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>Onlangse inhoud</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>Die tellings kon nie gelees word nie: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Teruggehou vir hersiening</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>Nuut vandag</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Die terughouding vir hersiening is nog nie opgestel nie (die opgraderingstap 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>Alle onlangse inhoud</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>U mag nie moderasie-aksies uitvoer nie (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>Die moderasie-aksie is nie voltooi nie: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>Moderasie: %action op %count objekte</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%done van %total objekte: %ok gedoen, %refused geweier, %failed misluk</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok gedoen, %refused geweier, %failed misluk</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>Dit bestaan nie meer nie.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>Dit het geen ligging nie (nie gepubliseer nie).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>U mag dit nie versteek nie (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>U mag dit nie sigbaar maak nie (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>Dit is reeds versteek.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>Dit is nie versteek nie.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>Versteek.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>Sigbaar gemaak.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>Dit is in die asblik: maak dit daar leeg of herstel dit daar.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>&apos;n Konsep wat nooit gepubliseer is nie, kan nie na die asblik gaan nie: skrap dit.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>U mag dit nie skrap nie (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>Geskrap.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>U mag dit nie verwyder nie (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>Dit het subelemente: verwyder dit in die inhoudstruktuur, waar hulle gelys word.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>Dit is nie verwyder nie (&apos;n werkvloei hou dalk die verwydering terug).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>Na die asblik geskuif.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>Die afdeling bestaan nie.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>Dit is reeds in hierdie afdeling.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>U mag nie hierdie afdeling toeken nie (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>Die afdeling is nie toegeken nie.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>Afdeling toegeken.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>Die toestand bestaan nie.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>Dit is reeds in hierdie toestand.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>U mag nie hierdie toestand toeken nie (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>Die toestand is nie toegeken nie (&apos;n werkvloei hou dalk die verandering terug).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>Toestand toegeken.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>Daar is nie so &apos;n aksie nie.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Die terughouding vir hersiening is nie opgestel nie (die opgraderingstap 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>Sê waarom dit teruggehou word.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>Dit word reeds teruggehou.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>U mag dit nie terughou nie (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>Die terughouding is nie geplaas nie (&apos;n werkvloei hou dalk die verandering terug).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>Teruggehou.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>Dit word nie teruggehou nie.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>U mag dit nie vrystel nie (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>Die terughouding is nie opgehef nie (&apos;n werkvloei hou dalk die verandering terug).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>Vrygestel; steeds versteek: u mag dit nie sigbaar maak nie (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>Vrygestel.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>Alle teikens</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Laaste publikasie</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>Publiseer &apos;n gratis statiese kopie van u werf op GitHub Pages:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Verouderde bladsye</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Statiese publisering</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Statiese publisering is afgeskakel.</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Teiken</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Die teikens kon nie gelees word nie: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>&apos;n taak is aan die gang</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>bou om na te gaan</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>versteek dit</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>skep &apos;n teiken</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>nooit</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>lees die tutoriaal</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>%added bygevoeg, %changed gewysig, %removed verwyder</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%bytes van %limit (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>Nog %count word nie gelys nie.</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>%pages bladsye geskryf</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path is %size, meer as wat die gasheer vir een lêer toelaat.</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>%percent % van die limiet</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds s</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag is die publikasie wat die werf nou het.</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: taak %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>/bewaarplek/ vir &apos;n GitHub-projekwerf; leeg vir &apos;n eie domein of &apos;n gebruikerswerf.</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. Die werf</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. Die gasheer</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. Aanmelding by die bewaarplek</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. Die bewaarplek</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. Skakels en basispad</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. U eie domein</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. Wat die bou bevat</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. Wanneer dit gepubliseer word</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. Hersien en stoor</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>&apos;n GitHub-projekwerf woon onder /&lt;repository&gt;/; relatiewe skakels werk daar en oral elders.</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>&apos;n Bou haal elke bladsy van %site af soos &apos;n besoeker wat nie aangemeld is nie dit sien, herskryf die skakels, kopieer die lêers en skryf die resultaat na die teiken se gids. Niks word gepubliseer voordat u die bou nagaan en op Publiseer druk nie.</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>&apos;n Cron-uitdrukking, byvoorbeeld 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>&apos;n Ontplooiingsleutel word as die geheim %secret bewaar.</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>&apos;n Ontplooiingsleutel laat hierdie installasie toe om oor SSH na een bewaarplek te stoot en nêrens anders nie. Sy private helfte bly in Opstelling &gt; Geheime; slegs die publieke helfte word gewys.</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>&apos;n Ontplooiingsleutel wat vir hierdie teiken gemaak is</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>&apos;n Ontplooiingsleutel meld oor SSH aan: verander die git-adres na die SSH-adres (git@github.com:owner/repo.git).</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>&apos;n Taak is aan die gang, begin deur %user</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>&apos;n Taak van hierdie teiken is nog aan die gang (%detail). Wag totdat dit klaar is.</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>&apos;n Taak van hierdie teiken is nog aan die gang. Wag totdat dit klaar is.</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>&apos;n Skakel van die bladsy /news/ na die bladsy /about-us/team sal geskryf word as</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>&apos;n Nuwe ontplooiingsleutel is gemaak. Voeg nou sy publieke helfte by die bewaarplek.</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>&apos;n Bladsy wat ná die stroping steeds ontfoutingsuitvoer, &apos;n vormteken of &apos;n sessie-ID bevat, word nooit gepubliseer nie.</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>&apos;n Terugrolling is vir kenners: merk &quot;Ek weet wat dit verander&quot; en tik die naam van die etiket weer.</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>&apos;n Werf mag tot %site groot wees, een lêer tot %file, met ongeveer 100 GB verkeer per maand. Op &apos;n gratis plan moet die bewaarplek publiek wees. GitHub Pages is nie bedoel vir winkels of ander kommersiële transaksies nie.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>&apos;n Teiken is een werf wat na een git-bewaarplek gepubliseer word. Niks word hier gebou of gepubliseer nie: Stoor skryf die instellings na settings/override/staticcache.ini.append.php.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>&apos;n Teiken is een werf wat na een plek gepubliseer word, byvoorbeeld u publieke werf op GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>&apos;n Toegangsteken uit Opstelling &gt; Geheime</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>&apos;n Werkvloei van die bewaarplek publiseer dit.</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>Voeg hierdie publieke sleutel met skryftoegang by die bewaarplek. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, merk Allow write access.</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>Bygevoeg</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>&apos;n Ander git-gasheer</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>&apos;n Ander proses werk aan hierdie teiken: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>Terug</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>Basispad</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Voorheen</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>Onder &apos;n basispad</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>Tak</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>Gebroke skakels</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>Gebroke skakels in die bou</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>Bou</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>Bou %id deur %user</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>Bou %name</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>Bou nou</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>Bou om na te gaan</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Deur</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>Met die hand, hier</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Kanselleer</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Verander</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>Gewysig</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Veranderinge</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>Gaan dit eers na</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Gaan hierdie instellings na</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>Gaan na wat die bou verander, kyk daarna, en publiseer dit dan of gooi dit weg.</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>Kies die publikasie om na terug te gaan.</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>Kom met &apos;n latere vrystelling.</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Vaslegging</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>Vasleggings</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>Lê die bou vas, etiketteer dit en stoot dit na %remote. &apos;n Stoot word nooit afgedwing nie; u kan later na enige publikasie terugkeer.</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>Vergeleke met die gids van voorheen: %added bygevoeg, %changed gewysig, %removed verwyder, %unchanged onveranderd.</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>Vergeleke met die laaste publikasie.</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Aanmeldbewys</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>Eie domein</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>Ontfoutingsuitvoer, vormtekens, sessie-ID&apos;s en nonces word altyd verwyder.</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>Ontplooiingsleutel</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>Ontplooiingsleutel van %name</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Verwerp</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>Verwerp die bou</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>Domein</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>Leeg: die adres van die werf. Andersins &apos;n interne adres van dieselfde werf.</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Geëindig</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>Elke skakel begin met die basispad.</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>Elke publikasie is &apos;n vaslegging met &apos;n etiket static/%id/&lt;n&gt;. Terugkeer maak &apos;n nuwe vaslegging met die lêers van &apos;n vroeëre publikasie: die geskiedenis bly, geen etiket skuif nie en niks word afgedwing nie.</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>Ekstras</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>Haal die bladsye af van</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Lêer</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>Lêers</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>Lêers ontbreek</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>Lêers van</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>Lêers wat nie versamel kon word nie</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>Vingerafdruk</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>Gids</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>Vir &apos;n SSH-adres. Die sleutel word ná die stoor gemaak; u voeg sy publieke helfte by die bewaarplek.</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>Vir &apos;n https://-adres. GitHub: &apos;n fynkorrelige toegangsteken met Contents lees en skryf op die bewaarplek.</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>Vir kenners. Die publieke werf verander sodra die stoot deur is.</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Vorms</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>Gratis gasheerdiens vanuit &apos;n GitHub-bewaarplek.</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>Vanaf die tak</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>Git-adres</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages laat &apos;n werf van %site en &apos;n lêer van %file toe.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>GitHub Pages-limiete</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages publiseer die lêers soos hulle is (nodig vir lêers wat met _ begin).</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub bedien die tak soos dit gestoot word. Die verstek.</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, u eie bediener: enige git-bewaarplek.</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>Gaan terug na &apos;n vroeëre publikasie</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Hulp</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>Hulp met die towenaar</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>Versteek hulle</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Geskiedenis</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>Geskiedenis van %name</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Gasheer</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>Hoe GitHub Pages die bou ontvang</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>Ek het die veranderinge nagegaan</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>Ek weet wat dit verander</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>Dit is afgeskakel: niks kan gebou word voordat dit aan is nie.</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>Dit loop in die agtergrond as %user; u kan hierdie bladsy toemaak.</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>Taak %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>Bewaar as die geheim %secret.</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Soort</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Laaste publikasie</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>Laat hierdie bladsye uit</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>Laat hierdie afdelings uit</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Skakels</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>Skakels herskryf</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>Lewendige werf</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>Kyk na die bou</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>Kleinletters, syfers, _ en -, byvoorbeeld github-public. Dit benoem die gids en die etikette (static/&lt;id&gt;/&lt;n&gt;) en kan nie later verander word nie.</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>Maak &apos;n nuwe sleutel</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>Skep &apos;n teiken</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>Maak die sleutel</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>Skep eers die bewaarplek op die gasheer; &apos;n leë een is goed.</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>Manifes</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Boodskap</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>Die meeste bladsye</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Naam</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>Naam van die toegangsteken in Opstelling &gt; Geheime</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>Nuwe teiken</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Volgende</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>Nee</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>Nog geen vaslegging nie.</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>Geen sleutel is gemaak nie: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Geen php-opdragreëlprogram is gevind nie. Stel migration.ini [AdminSettings] PhpCliPath op sy volle pad.</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>Nog geen etiket nie.</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>Nog geen teiken nie.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Geen</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>Nie in die bou nie.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>Niks is nog gepubliseer nie.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>Niks is nog gepubliseer nie: elke lêer is nuut.</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>Kennisgewing</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>Volgens &apos;n skedule</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>Op die konsole</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>Op die bediener: ./console exp:static:serve %id bedien dit op dieselfde manier.</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>Een pad per reël, * pas by enige deel: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>Slegs &apos;n naam word saam met die teiken gestoor; die toegangsteken of sleutel self bly in Opstelling &gt; Geheime en verskyn nooit in &apos;n logboek nie.</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>Slegs wat die bladsye noem</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>Slegs met &apos;n toegangsteken. env:NAME lees eerder &apos;n omgewingsveranderlike van die bediener.</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>Open die voorskou</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>Open die bou soos die gasheer dit sal bedien, vanuit die teiken se gids. Die skakel werk vir u vir &apos;n uur.</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>Opsioneel. Leeg: wat gepubliseer is.</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>Opsioneel. Met &apos;n domein word die werf by sy wortel bedien.</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Uitvoer</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>Bladsye</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>Bladsye van die teiken</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>Bladsye geweier</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>Naverwerking</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Voorskou</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>Voorskou en publiseer</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>Voorskou en publiseer %name</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>Voorskou van die bou</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Vordering</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>Publieke adres</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>Publieke sleutel</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>Publiseer</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>Publiseer &apos;n statiese kopie van &apos;n werf na GitHub Pages of enige git-gasheer: bou dit, gaan die veranderinge na, publiseer, en gaan terug na &apos;n vroeëre publikasie wanneer u moet.</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>Publikasie om na terug te gaan</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>Publikasies</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Stoot</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>Lees die tutoriaal</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Logboek</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Geweier</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>Relatief</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Herlaai</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>Verwyder</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>Vervang die sleutel: die ou een hou op werk</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Verslag</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>Verslag van die bou</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Bewaarplek</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Hersien</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>Hersiening gaan elke instelling na en wys die reëls wat geskryf sal word. Niks is nog gestoor nie.</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Rol terug</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Terugrolling</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Stoor</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>Skedule</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>Soekbladsy</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>Afdeling-ID&apos;s, geskei deur kommas.</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>Stuur hulle na die lewendige werf</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>Instelling</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Instellings</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>Instellings van %name</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Opstelling</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Opstelling &gt; Geheime</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>Getoon in lyste, byvoorbeeld &quot;Publieke werf op GitHub Pages&quot;.</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>Aanmelding met &apos;n GitHub App kom met die GitHub-integrasie.</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>Werf</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>Werf om te publiseer</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Grootte</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>Grootte en limiete</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>Grootte van die bou</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Verouderde bladsye</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Begin</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Begin deur %user om %time.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Toestand</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Statiese publisering</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>Statiese publisering is afgeskakel</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Statiese publisering is afgeskakel.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>Statiese publisering is afgeskakel. Skakel dit eers aan in Opstelling &gt; Statiese publisering.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>Statiese publisering is aangeskakel.</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>Stap %step van %total</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Stappe</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>Stroping</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Skakel af</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Skakel aan</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>Skakel statiese publisering aan</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Etiket</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>Etikette</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Teiken</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>Teikens kan geskep en verander word, maar niks word gebou of gepubliseer voordat dit aangeskakel is nie.</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>Sê vir soekenjins wat om te lees.</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>Die bou kon nie weggegooi word nie: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>Die bou is dieselfde as die laaste publikasie: daar is niks om te publiseer nie.</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>Die bou is weggegooi: die gids bevat weer die laaste publikasie.</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>Die verstekwaardes pas die meeste werwe.</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>Die gids bevat &apos;n bou wat nog nie gepubliseer is nie; &apos;n nuwe bou vervang dit.</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>Die gids van die take kan nie geskryf word nie: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>Die taak kon nie voorberei word nie: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>Die taak kon nie begin word nie.</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>Die taak is klaar. Sy verslag word gelaai.</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>Die taak benodig &apos;n aangemelde gebruiker.</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>Die taak is begin maar het nie sy proses-ID gerapporteer nie. Gaan %detail na.</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>Die sleutel</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>Die grootste lêer: %path, %size.</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Die reëls wat geskryf sal word</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>Die lys bladsye vir soekenjins; benodig die publieke adres.</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>Die bladsye word afgehaal soos &apos;n besoeker wat nie aangemeld is nie hulle sien. Administrasie- en redigeerwerftoegange word nooit aangebied nie.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>Die vordering kon nie gevolg word nie. Herlaai die bladsy om te sien hoe dit met die taak gaan.</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>Die publieke helfte van die sleutel:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>Die wortel van die tak</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>Die geheimestoor is nog nie opgestel nie (./console exp:upgrade --apply maak sy tabel), dus kan geen sleutel bewaar word nie.</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>Die bediener meld self aan (sy eie SSH-sleutel of geloofsbriefhelper), of die bewaarplek is op hierdie bediener.</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>Die instelling kon nie geskryf word nie: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Die instellings is geldig. Hierdie reëls sal geskryf word:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Die instellingslêer kan nie gelees word nie: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>Die werf gaan terug na die lêers van daardie publikasie; &apos;n bou wat nog nie gepubliseer is nie, moet eers gepubliseer of weggegooi word.</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>Die werf se eie bladsy vir adresse wat nie bestaan nie.</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>Die teiken kon nie gestoor word nie: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>Die teiken meld nog nie met hierdie sleutel aan nie: kies &quot;&apos;n Ontplooiingsleutel wat vir hierdie teiken gemaak is&quot; in sy instellings.</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Die teikens kon nie gelees word nie: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>Daar is nog geen bou om na te gaan nie.</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>Hierdie installasie het geen voorkant-werftoegang nie. Administrasie- en redigeerwerftoegange word nooit gepubliseer nie.</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>Hierdie bladsy volg die taak terwyl dit loop; dit gaan in die agtergrond voort wanneer die bladsy toegemaak word.</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>Hierdie teiken het nog geen ontplooiingsleutel nie.</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>Hierdie teiken is nog nie hier gebou nie.</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>Hierdie teiken het een.</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>Gooi hierdie bou weg: die gids bevat weer die laaste publikasie. Die lewendige werf verander nie.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>Merk eers &quot;Ek het die veranderinge nagegaan&quot;.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Tyd</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>Snellers</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>Tik die naam van die etiket weer</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>Onveranderd</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>Webhook</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Wat</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>Wat verander</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>Wat elke lêer is; word altyd geskryf.</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>Wat die taak gedoen het en sy logboek. &apos;n Taak wat hier begin is, gaan in die agtergrond voort wanneer hierdie bladsy toegemaak word.</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>Wat die taak as foute gedruk het</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>Wat die bladsye noem, en elke beeld van gepubliseerde inhoud</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Wanneer</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>Wanneer &apos;n publikasie misluk</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>Wanneer &apos;n publikasie slaag</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>Wanneer inhoud gepubliseer word</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>Waarheen skakels gaan na wat die kopie nie bevat nie (die soektog, die aanmelding).</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>Waarvandaan die statiese kopie bedien word.</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>Watter werf gepubliseer word, en wat die teiken genoem word.</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>Werk onder enige pad. Die verstek.</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>Geskryf wanneer &apos;n eie domein gestel is.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>Ja</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>U kan altyd hier en op die konsole met die hand bou en publiseer.</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>slegs &apos;n naam; die waarde bly in Opstelling &gt; Geheime</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>onder %path</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>geëindig sonder &apos;n verslag</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>ekstra</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>misluk</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>lêer</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages, of main met die gids docs.</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>git-gasheer</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (met &apos;n toegangsteken) of git@github.com:owner/repo.git (met &apos;n ontplooiingsleutel); nooit &apos;n wagwoord of toegangsteken daarin nie.</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/, vir die werfkaart en die kanonieke skakels.</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>beeld</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>nooit</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>nee</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>geen afstandbewaarplek</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>geen: vasleggings bly in die gids</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>geen: niks het verander nie</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>nie gestoot nie</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>niks het verander nie</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>bladsy</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>geslaag</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>proc_open is gedeaktiveer, dus kan &apos;n taak nie hier begin word nie. Gebruik ./console exp:static:build op die bediener.</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>publikasie</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>gepubliseer</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>stoot hangend</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>gestoot</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>geweier</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>relatief</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>terugrolling</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>teruggerol</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>loop</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>slegs die gids</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: in die lêer CNAME geskryf. Rig die DNS van die domein na die gasheer soos dit verduidelik; HTTPS kan &apos;n rukkie neem om te begin.</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>ja, nog nie gepubliseer nie</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>'n GitHub App</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>'n Werkvloei van die bewaarplek publiseer dit. Die bou skryf die werkvloeilêer; laat die gids leeg.</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>Nadat 'n teiken met 'n GitHub-bewaarplek en 'n toegangsteken of GitHub App gestoor is, kan hierdie stap die bewaarplek skep en GitHub Pages aanskakel. Skep andersins eers die bewaarplek op GitHub; 'n leë een is goed.</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>Tak of GitHub Actions?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>Kontroleer die DNS</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>Skep die bewaarplek as dit nie bestaan nie</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>Skep die bewaarplek op GitHub en skakel GitHub Pages in sy instellings aan (Settings &gt; Pages).</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>Skep die bewaarplek %repo wanneer dit ontbreek (indien gevra), skakel GitHub Pages aan vanaf die tak of vanaf GitHub Actions soos gestoor, en stel die eie domein en HTTPS in. Dit gebruik die gestoorde instellings: stoor eers veranderinge.</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>Besonderhede op GitHub</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>Voer eers die eie domein in.</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>Elke stoot word eers teen hierdie limiete gekontroleer.</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>Vir 'n https://-adres op GitHub. Die App wat vir hierdie installasie opgestel is, meld aan; dit benodig die installasie-ID.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages bedien 'n privaat bewaarplek slegs op 'n betaalde plan.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: 'n subdomein (www.example.com) benodig 'n CNAME-rekord na &lt;owner&gt;.github.io; 'n apeksdomein (example.com) die A-rekords %ips.</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>Installasie-ID van die GitHub App</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>Laaste Pages-bou</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>Limiete en voorwaardes</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>Nodig vir GitHub Pages op 'n gratis plan.</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>Op GitHub</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>Slegs met 'n GitHub App: die nommer aan die einde van die adres van die App se installasie op GitHub. Die App self word in staticcache.ini gestel (GitHubAppId, GitHubAppKey).</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>Privaat</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>Publiek</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>Stoor eers die teiken met 'n GitHub-bewaarplek en 'n toegangsteken of GitHub App.</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>Stel hierdie rekords by die verskaffer van die domein in:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>Stel op GitHub op</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>Die DNS van %domain wys nog nie na GitHub Pages nie.</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>Die DNS van %domain wys na GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>Die GitHub-integrasie is nie hier beskikbaar nie: %problem. Publisering na die tak werk steeds; skakel GitHub Pages in die bewaarplek se instellings aan.</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>Die GitHub-stappe is nie vir hierdie teiken beskikbaar nie: %problem.</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>Die toestand van GitHub Pages word gewys met 'n toegangsteken of GitHub App as die aanmeldbewys.</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>Gebruik jou eie domein</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>Wat om te kies: toegangsteken, ontplooiingsleutel of GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>Met 'n GitHub-bewaarplek en 'n toegangsteken of GitHub App kan die towenaar die bewaarplek skep, GitHub Pages aanskakel en die domein vir jou instel (stap 4).</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>word gebou</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>gebou</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>vanaf GitHub Actions</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>vanaf die tak %branch</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>nog geen</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>nie gevind nie</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>af</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>privaat</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>publiek</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>in die tou</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>onbekend</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%count op %pages bladsy(e):</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>'n .gz- (en .br-) lêer langs elke tekslêer, vir gashere wat dit bedien.</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>'n Klein bladsy vir elke ou adres en alias van 'n bladsy, sodat ou skakels aanhou werk.</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>Altyd geskryf wanneer GitHub Actions die werf lewer.</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>'n SPDX-id soos CC-BY-4.0, of die teks self.</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>Mandjie</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>Oproepe na die bediener</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Kommentaar</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>Vorms wat inligting versamel</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>GitHub Actions-werkvloei</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>Minder witspasie en geen kommentaar in die bladsye.</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>Lisensie van die inhoud</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Meld aan</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>Verklein</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>Ander vorms</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>Voorkomprimeer</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>Aanstuurbladsye</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>Aanstuurbladsye: %count.</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Soek</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>Soekindeks: %pages bladsy(e) in %languages.</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>Stylblaaie en skrifte wat na die hash van hul inhoud genoem word, sodat blaaiers dit mag hou.</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>Die gewysigde bladsye, 'n paar minute ná die laaste wysiging (die cronjob-deel staticpublish).</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>Die lisensie van die inhoud, uit die veld hieronder.</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>Die hele werf, op die tye van die skedule (die cronjob-deel staticpublish).</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>Hierdie dele van die bladsye benodig 'n bediener; elkeen het 'n terugvaloplossing gekry. Kontroleer dit voor jy publiseer.</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>Wat nie staties werk nie</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>Wat die bewaarplek is, vir wie dit op die gasheer oopmaak.</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>weggelaat</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>die terugvalteks</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>die vormeindpunt van die lewendige werf</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>die lewendige werf</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>die soekbladsy van die kopie</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>Die vorm kon nie gestuur word nie.</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>Dankie: die vorm is gestuur.</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>Die vorm is nie aanvaar nie: kontroleer wat jy ingevoer het en stuur dit weer.</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>Verwyder skakels na bladsye wat die kopie nie bevat nie</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>Verwyder skakels na die administrasie</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>Hul teks bly. Beelde, vorms en skakels na ander werwe word nooit verwyder nie.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Weergawe</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>Werftoegange om te publiseer</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Werftoegang</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>By die wortel</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>Geen werftoegang by die wortel nie: elkeen is in sy gids, en die wortel skakel na hulle</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Werftoegange</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>Merk een werftoegang, of verskeie wat een gasheer deur hul URI-voorvoegsel deel. Die een by die wortel word daar bedien, die ander in die gids van hul voorvoegsel (/ger/); skakels tussen hulle bly in die kopie. Administrasie-werftoegange word nooit aangebied nie.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>Statiese publisering van %target het op %site misluk</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>Statiese publisering van %target het op %site geslaag</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>Hierdie e-pos is deur %site gestuur omdat die statiese publiseringsteiken %target daarvoor vra.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>Die ontplooiing %deploy het op %site misluk</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>Die ontplooiing %deploy wag by 'n hek op %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>Die ontplooiing %deploy het op %site geslaag</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>Hierdie e-pos is deur %site gestuur omdat migration.ini [RemoteSettings] Notify[] dit vra.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>Datatipes (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>Getel %time, weer na %minutes minute</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>'n Datatipe stoor en wysig een soort waarde van 'n klasattribuut: 'n teksreël, 'n beeld, 'n verwantskap. Die kern bring die meeste, uitbreidings voeg meer by. Hier is hulle almal, wie hulle verskaf en hoeveel van die inhoud hulle gebruik. 'n Datatipe wat die databasis gebruik maar wat niks meer registreer nie, breek die inhoud wat dit het.</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>Klasgroepe</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>Tel nou weer in plaas daarvan om die tellings van die laaste minute te gebruik.</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>Tel weer</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Oorsig</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>Geregistreer</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>In gebruik</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>Nie gebruik nie</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>Uitbreidings wat datatipes verskaf</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>Klasattribute</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>Objekattribute</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>Nie geregistreer nie</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>Gelys, lêer ontbreek</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>%count datatipes word gebruik maar is nie geregistreer nie</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>%class_attributes klasattribute en %object_attributes objekattribute het 'n datatipe wat geen uitbreiding of instelling registreer nie. Hulle objekte kan nie gewys, gewysig of gepubliseer word nie. Aktiveer die uitbreiding wat die datatipe verskaf, of verander die klas.</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>Wys net hierdie</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>Vind 'n datatipe</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>Identifiseerder, naam, PHP-klas of uitbreiding.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Wys</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Almal</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>Verskaf deur</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>Almal</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>Kern</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>Geen datatipe pas by hierdie filter nie.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Wys almal</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>Uitbreiding</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%shown van %count datatipes, %used in gebruik</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>Die databasis het klas- of objekattribute van hierdie datatipes, maar content.ini lys geeneen van hulle nie, of hul lêer ontbreek.</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>Datatipes van %provider</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>Datatipe</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>PHP-klas en lêer</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>Klasse</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>Objekte</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>Vlae</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>geen</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>Geen datatipe pas by die soektog nie. Maak die soektog skoon.</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>%shown van %count datatipes gewys</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>Datatipes gewys: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>Sorteer volgens %column</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>Getel %time</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>Alle datatipes</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>Hulpbladsy</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>Hierdie datatipe word gebruik maar is nie geregistreer nie</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>Die objekte van die klasse hieronder kan nie gewys, gewysig of gepubliseer word solank geen uitbreiding die datatipe registreer nie. Aktiveer die uitbreiding wat dit verskaf en voeg dit by content.ini [DataTypeSettings] AvailableDataTypes[], of verander die klasse.</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini lys hierdie datatipe, maar geen datatipegids het sy lêer nie. Niks gebruik dit nie; verwyder dit uit AvailableDataTypes[] of aktiveer sy uitbreiding.</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>Oor hierdie datatipe</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>Identifiseerder</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Naam</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Uitbreiding %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>niemand</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>PHP-klas</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Lêer</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>In AvailableDataTypes[]</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ja</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>nee</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>Kolomme van sy waarde</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>Kolomme van sy klasattribuut-instellings</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>Tabelle</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>Die kolomme en tabelle word gevind deur die kode van die datatipe te lees: 'n riglyn, nie 'n belofte nie.</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>Sjablone</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Werftoegang</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>Sjabloon</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>Gevind in</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>hierdie administrasie</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>verstekwerf</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>Sonder oorskrywings: 'n oorskryfsjabloon wat volgens klas of attribuut pas, wen bo hierdie.</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>Klasse wat dit gebruik (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>Geen klas het 'n attribuut van hierdie datatipe nie.</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Klas</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>Attribute</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>Klasattribute (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>Attribuut</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Instellings</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>Vereis</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>Soekbaar</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>Vertaalbaar</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>Versamel inligting</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>Sommige inhoud wat dit gebruik</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>Laaste gewysig eerste</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Gewysig</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>Nodus %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>Elke vertaling het sy eie waarde.</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>Die soektog indekseer sy waardes.</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>Dit kan inligting van besoekers versamel (vorms).</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>Lyste kan daarvolgens gesorteer word: sorteersleutel %type.</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>Sorteerbaar</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>Sy waardes wys na ander objekte.</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>Verwantskappe</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>Dit kan uit 'n gewone string gevul word (invoer, REST).</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>Uit teks</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>Dit kan uit 'n lêer gevul word.</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>Uit lêer</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>Sy klasattribuut-instellings gaan in pakkette.</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>Pakkette</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>Inhoud (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from tot %to van %count</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Filtreer die lys</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>Alle klasse</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Afdeling</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Tale</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Eienaar</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Gepubliseer</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>Keer die volgorde om</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Geen element nie</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Per bladsy</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Wys %count items per bladsy.</translation>
     </message>
 </context>
 </TS>

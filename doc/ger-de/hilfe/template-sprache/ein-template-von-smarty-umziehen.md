@@ -3,14 +3,26 @@ title: Ein Template von Smarty umziehen
 audience: developer, designer, app-creator
 category: templates
 order: 50
-summary: Eine Anleitung zum Portieren - ein typisches Listen-Template aus Smarty in drei Schritten in die Template-Sprache übertragen (Variablen, Daten aus fetch, die Schleife mit Bedingungen, Links, Daten und Maskierung), jeder Schritt auf alpha gerendert, plus eine Checkliste der vorzunehmenden Ersetzungen.
+summary: Eine Anleitung zum Portieren - ein typisches Listen-Template aus Smarty in drei Schritten in die Template-Sprache übertragen (Variablen, Daten aus fetch, die Schleife mit Bedingungen, Links, Daten und Maskierung), jeder Schritt auf einer Entwicklungsinstallation gerendert, plus eine Checkliste der vorzunehmenden Ersetzungen.
 keywords: Smarty, portieren, migrieren, umwandeln, übertragen, Anleitung zum Portieren, Checkliste, fetch, foreach, sequence, cycle, ezurl, wash, datetime, port, migrate, convert, porting guide, checklist
 type: help
 ---
 # Ein Template von Smarty umziehen
 
 Diese Seite portiert ein kleines Template aus Smarty Schritt für Schritt in die Template-Sprache und endet mit einer Checkliste für Ihre
-eigenen Templates. Jeder Schritt wurde auf alpha gegen die Startseite „Fit & Healthy“ (Knoten 89) gerendert.
+eigenen Templates. Jeder Schritt wurde auf einer Entwicklungsinstallation gegen die Startseite „Fit & Healthy“ (Knoten 89) gerendert.
+
+> **Exponential führt Smarty-Templates selbst aus:** Ein Design kann Smarty-5-Templates (`.stpl`) neben seinen
+> `.tpl`-Templates enthalten, mit jedem Operator, jeder Fetch-Funktion, jeder Template-Funktion, jeder Override-Regel
+> und jedem Cache des Template-Systems. Wenn Sie lieber weiter Smarty schreiben, lesen Sie
+> [Von .tpl zu .stpl umziehen](von-tpl-zu-stpl-umziehen.md) und (Englisch)
+> [Smarty templates (.stpl) next to .tpl](../../../eng-us/features/6.0/smarty-templates.md); die Konverter wandeln auch in beide Richtungen um.
+
+> **Exponential führt Smarty-Templates selbst aus:** Ein Design kann Smarty-5-Templates (`.stpl`) neben seinen
+> `.tpl`-Templates enthalten, mit jedem Operator, jeder Fetch-Funktion, jeder Template-Funktion, jeder Override-Regel
+> und jedem Cache des Template-Systems. Wenn Sie lieber weiter Smarty schreiben, lesen Sie
+> [Von .tpl zu .stpl umziehen](von-tpl-zu-stpl-umziehen.md) und (Englisch)
+> [Smarty templates (.stpl) next to .tpl](../../../eng-us/features/6.0/smarty-templates.md); die Konverter wandeln auch in beide Richtungen um.
 
 ## Inhalt
 
@@ -52,7 +64,7 @@ holt das Template den Knoten selbst. Aus `escape` wird `wash`:
 <h2>{$site.name|wash}</h2>
 ```
 
-Ausgabe auf alpha:
+Ausgabe:
 
 ```text
 <h2>Fit &amp; Healthy</h2>
@@ -73,7 +85,7 @@ es gibt kein `@` und kein `==`:
 <p>{$pages|count} of {$site.children_count} pages</p>
 ```
 
-Ausgabe auf alpha:
+Ausgabe:
 
 ```text
 <h2>Fit &amp; Healthy</h2>
@@ -114,7 +126,7 @@ Das fertige Template. Was sich geändert hat:
 {undef $site $limit $pages}
 ```
 
-Ausgabe auf alpha:
+Ausgabe:
 
 ```text
 <h2>Fit &amp; Healthy</h2><ul>  <li class="odd"><a href="/slash-quotes">Slash Quotes</a>
@@ -123,7 +135,7 @@ Ausgabe auf alpha:
       2026-08-31</li></ul>
 ```
 
-Die Liste zeigt, was auf alpha zuletzt veröffentlicht war, als diese Seite entstand; auf Ihrer Website werden die Namen also andere sein.
+Die Liste zeigt, was auf einer Entwicklungsinstallation zuletzt veröffentlicht war, als diese Seite entstand; auf Ihrer Website werden die Namen also andere sein.
 
 ## Checkliste
 
@@ -155,8 +167,9 @@ und ein `set` auf eine nie definierte Variable scheitern beide stillschweigend i
 
 ## Verwandte Seiten
 
+- [Von Exponential-Templates (.tpl) zu Exponential-Smarty-Templates (.stpl) umziehen](von-tpl-zu-stpl-umziehen.md): Smarty-Templates, von Exponential selbst ausgeführt
 - Zurück: [Smarty und die Template-Sprache: die Unterschiede im Detail](smarty-unterschiede-im-detail.md)
-- Weiter: [Lexikalische Struktur](lexikalische-struktur.md)
+- Weiter: [Von .tpl zu .stpl umziehen](von-tpl-zu-stpl-umziehen.md)
 - [Knoten und Listen holen](../designer/vorlagen/knoten-und-listen-abrufen.md)
 - [URL-Operatoren](../designer/vorlagen/url-operatoren.md)
 - [Daten, Zahlen und Lokalisierung](../designer/vorlagen/datum-zahlen-und-l10n.md)

@@ -984,6 +984,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>Et gëtt just dës Säit duerchsicht: %from bis %to vun %count.</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>All Datentypen vum Kär an den Extensiounen, a wéi d'Klassen an d'Inhalter se benotzen.</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Datentypen</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2316,6 +2324,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>Systemsäite kënnen och als Lieszeechen gespäichert ginn: Maacht d'Säit op (Konfiguratioun, den Audit-Protokoll, eng Benotzerlëscht ...) a wielt driwwer Dës Säit als Lieszeechen späicheren. Esou Lieszeechen hunn en Zännrad-Symbol.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>Dir däerft dës Säit hei net méi opmaachen. Huelt d'Lieszeechen ewech, oder frot en Administrateur no Zougang.</translation>
     </message>
 </context>
 <context>
@@ -5165,6 +5177,210 @@
         <source>Go to the first page</source>
         <translation>Op déi éischt Säit goen</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>Anerer</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>Lescht 7 Deeg</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>Eegene Zäitraum</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>All Wierder</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>Iergendee Wuert</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>Exakt Ausdrock</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>Relevanz</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>Numm A–Z</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>Numm Z–A</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>Geännert, neiste fir d'éischt</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>Geännert, eelst fir d'éischt</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>Publizéiert, neiste fir d'éischt</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>Publizéiert, eelst fir d'éischt</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Geännert</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>Filteren</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>Filteren weisen</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>Filteren verstoppen</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Zrécksetzen</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>Uwenden</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>Wierder</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>Inhaltstyp</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>Méi weisen (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>Wielt een Inhaltstyp, fir an engem vu sengen Attributer ze sichen.</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Sektioun</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Vun</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Bis</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>Den Ufanksdatum ass keen gültegen Datum.</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>Den Enddatum ass keen gültegen Datum.</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Besëtzer</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>Benotzer-ID, Login oder E-Mail-Adress.</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>Fir „%input“ gouf kee Benotzer fonnt.</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Sprooch</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>All Sprooch</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Plaz</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>%count Plazen</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>Treffer pro Säit</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>Treffer fir „%text“ (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>Treffer (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>Sortéieren no</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>Sortéierung</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>Aktiv Filteren</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>Dëse Filter ewechhuelen</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>Oder wielt Filteren a wendt se un, fir de passenden Inhalt opzelëschten.</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>D'Filteren schränken d'Sich an, soubal Dir Wierder aginn hutt.</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>Fir „%text“ goufe keng Treffer fonnt.</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>Et goufe keng Treffer fonnt.</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>Huelt e Filter uewen ewech.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Iwwersetzungen</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Aktiounen</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>%name änneren</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Änneren</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -7514,6 +7730,10 @@
         <source>Setup &gt; Cronjobs</source>
         <translation>Konfiguratioun &gt; Cronjobs</translation>
     </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>Nach keen Cronjob-Deel ass gelaf: d&apos;Aufgabeschlaang, d&apos;Importer, d&apos;Notifikatiounen an de Sichindex waarden. Féiert php bin/php/installcrontab.php --add --apply aus, oder setzt d&apos;Zeile vun --show an d&apos;Crontab.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/dashboard/drafts</name>
@@ -8058,8 +8278,8 @@
         <translation>D'Copyrightinformatioune vun den ursprénglechen Auteuren an der Software vun Drëttubidder, déi mat Exponential matgeliwwert gëtt, bleiwen, wéi d'Lizenz et verlaangt, an de Quellfichieren an am Fichier LICENSE erhalen.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>Dëst ass eng Lëscht vun de Matwierkenden un Exponential, déi hir Aarbecht 7x ënner de Bedingunge vum eZ Systems Contributor Licensing Agreement zur Verfügung gestallt hunn. Wéi dës Vereinbarung et erlaabt, gëtt 7x all Bäitrag ënner der selwechter Lizenz weider wéi de Fichier, an deem hien enthale ass. D'Lëscht nennt all Matwierkenden, optional Kontaktangaben an d'Fichieren, zu deenen en bäigedroen huet.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>Bäiträger, déi fir hir Aarbecht un Exponential an un der Software, aus där et entstanen ass, genannt ginn, mat de Fichieren, zu deenen si bäigedroen hunn. Dëst ass eng Unerkennung, keen Copyright-Hiweis: Bäiträg zu Exponential ginn ënner dem Contributor Licensing Agreement un d'Exponential Foundation an 7x iwwerdroen.</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13881,32 +14101,20 @@ Hiweis: D'Packagen ginn net desinstalléiert.</translation>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%evaluate_link"&gt;Exponential Enterprise Edition testen&lt;/a&gt; - &lt;a href="%share_link"&gt;Gitt Member vun der Exponential Community, tauscht Iech aus a droot bäi&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; an anerer.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class="edition-info"&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>Ugedriwwen vu(n) &lt;span class="edition-info"&gt;%edition&lt;/span&gt;. Fir méi Informatiounen kuckt &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; an anerer.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> Fir méi Informatiounen kuckt &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
     </message>
     <message>
-        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; an anerer.</translation>
+        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href="%evaluate_link"&gt;Exponential testen (vun 7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;Gitt Member vun der Exponential Community, kritt Ënnerstëtzung a droot bäi&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; an anerer.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13915,6 +14123,61 @@ Hiweis: D'Packagen ginn net desinstalléiert.</translation>
     <message>
         <source>Help center</source>
         <translation>Hëllefszenter</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>Inhalter</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>Dokumentsäiten</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>Benotzer</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>Inhaltsklassen</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>Administratioun</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>Säit %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>All Treffer weisen</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>%count Treffer</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>Een Treffer</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>%count Virschléi</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>Keng Virschléi</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>D'Virschléi konnten net geluede ginn.</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>Virschléi</translation>
     </message>
 </context>
 <context>
@@ -14383,6 +14646,14 @@ Hiweis: D'Packagen ginn net desinstalléiert.</translation>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>Dës Installatioun ass eng ëffentlech Demo: Jiddereen dierf hiert Administrateurpasswuert kennen, an Administrateurpassweieren kënnen net geännert oder zréckgesat ginn. Gitt hei näischt Privates an.</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Är Geräter</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Sécherheetsaktivitéit</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14672,6 +14943,14 @@ Hiweis: D'Packagen ginn net desinstalléiert.</translation>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>Ureegungen, Sich a wéi een e Feeler mellt.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Nei Inhalter</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Déi neist Inhalter, wat fir d'Iwwerpréiwung zréckgehal gëtt, an Aktiounen op eng Auswiel.</translation>
     </message>
 </context>
 <context>
@@ -15130,6 +15409,46 @@ Hiweis: D'Packagen ginn net desinstalléiert.</translation>
         <source>Synchronisations</source>
         <translation>Synchronisatiounen</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>D'GraphQL-API: hiren Endpunkt, de Schema an eng Spillplaz fir Ufroen auszeprobéieren.</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migratiounen</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Ännerunge vun der Installatioun, als Dateien gehalen: hiren Zoustand, d&apos;Leef, lafe loossen an zréckrollen.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Nei Inhalter</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Déi neist Inhalter, wat fir d'Iwwerpréiwung zréckgehal gëtt, an Aktiounen op eng Auswiel.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Eng statesch Kopie vun engem Site op GitHub Pages oder all anere git-Host publizéieren.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Statescht Publizéieren</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Datentypen</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>All Datentypen vum Kär an den Extensiounen, a wéi d'Klassen an d'Inhalter se benotzen.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15294,6 +15613,22 @@ Hiweis: D'Packagen ginn net desinstalléiert.</translation>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>Konten, déi keen notzt oder déi Opmierksamkeet brauchen; desaktivéieren, entspären oder exportéieren.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Audit-Protokoll vun de Benotzer</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>Wien geännert huet, sech ugemellt huet oder ofgewise gouf, pro Kont; filteren an exportéieren.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Umeldungsbericht</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>Wien ugemellt ass, Umeldungen a Feeler pro Dag; e Benotzer iwwerall ofmellen.</translation>
     </message>
 </context>
 <context>
@@ -22110,6 +22445,22 @@ Hiweis: D'Packagen ginn net desinstalléiert.</translation>
         <source>%n hours ago</source>
         <translation>viru(n) %n Stonnen</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>Äntwerte vun de gespäicherten Ufroe vun der GraphQL-API an d&apos;Inhaltsklasse vun hirem Schema.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>Eng statesch Kopie op GitHub Pages oder all anere git-Host publizéieren</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Statescht Publizéieren</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>De statesche Cache servéiert Säite vun dësem Server. Fir eng statesch Kopie vun engem Site soss anzwousch ze publizéieren, op GitHub Pages oder all anere git-Host, benotzt statescht Publizéieren.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25651,6 +26002,10 @@ Hiweis: D'Packagen ginn net desinstalléiert.</translation>
     <message>
         <source>last purge</source>
         <translation>lescht Eidelmaache</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>Schreifvirgäng konnten d&apos;Spär vum Zoustand net huelen (lescht Kéier %date): jidderee vun hinnen huet all gecachte Resultater verännert. %file muss fir all Benotzer schreifbar sinn, ënner deem de Site leeft; op NFS brauch en NFSv4 oder lockd.</translation>
     </message>
 </context>
 <context>
@@ -33599,6 +33954,14 @@ Hiweis: D'Packagen ginn net desinstalléiert.</translation>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>Offgelaf Sessioune vum PHP-Handler hëlt PHP selwer ewech (session.gc_maxlifetime), net dës Säit oder den Cronjob-Deel session_gc.</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>Déi ugemellt Sessioune vun alle Benotzer ginn am Umeldungsbericht opgelëscht an ofgemellt; hie funktionéiert mat all Sessiouns-Handler.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>Umeldungsbericht opmaachen</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37923,6 +38286,26 @@ E-Mail-Adress geschéckt. Follegt den Instruktiounen an där E-Mail, fir
     <message>
         <source>None yet</source>
         <translation>Nach keen</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Sécherheetsaktivitéit</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>Är lescht Umeldungen, net erfollegräich Versich an Ännerungen un Ärem Passwuert, Ärer E-Mail-Adress an der Umeldung a zwee Schrëtt.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>Déi lescht Umeldungen, net erfollegräich Versich a Sécherheetsännerunge vun dësem Kont.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>Aktivitéit kontrolléieren</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>%count net erfollegräich Umeldungen</translation>
     </message>
 </context>
 <context>
@@ -44089,6 +44472,42 @@ Wann Dir dem Approbateur e Kommentar schécke wëllt oder de Status gesinn wëll
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>No der Umeldung muss de Benotzer en neit Passwuert wielen, ier e soss eppes ka maachen. Benotzt dat, wann Dir engem e provisorescht Passwuert gitt.</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>E bestoend Bild auswielen</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>D'Bilddatei vum Objet, deen Dir auswielt, gëtt an dëst Feld kopéiert. Deen aneren Objet gëtt net geännert.</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>D'Bild vu „%name“ gouf an dëst Feld kopéiert.</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>No engem Bild duerchsichen</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>Biller no Numm sichen</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Sichen</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>D'Bild vu „%name“ benotzen</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>Dëst Bild benotzen</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>Kee Bild entsprécht Ärer Sich.</translation>
     </message>
 </context>
 <context>
@@ -51013,6 +51432,10 @@ Weider Informatiounen fannt Dir op der Säit mat den Ufuerderungen.</translation
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>De Crontab gouf net geschriwwen (%reason). Setzt dës Zeilen am Crontab vum Benotzer derbäi, ënner deem de Site leeft, soss lafen d'Waardeschlaang, d'Importer, d'Notifikatiounen an de Sichindex ni:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>Nei installéiert gëtt mam Kickstarter (%file, duerno php bin/php/kickstarter.php run --apply) oder mat enger frëscher Installatioun.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54892,6 +55315,10 @@ E-Mail-Adress geschéckt. Follegt den Instruktiounen an där E-Mail, fir
         <source>eZJSCore Public Packer cache</source>
         <translation>eZJSCore-Packer-Cache (ëffentlech)</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>GraphQL-Cache (Äntwerten a Klasse vum Schema)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54978,6 +55405,14 @@ E-Mail-Adress geschéckt. Follegt den Instruktiounen an där E-Mail, fir
     <message>
         <source>Copy of %class_name</source>
         <translation>Kopie vun %class_name</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Datentypen</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>Datentyp %string</translation>
     </message>
 </context>
 <context>
@@ -55804,6 +56239,26 @@ dëse Feeler. Probéiert net, d'Bezuelung nach eng Kéier ofzeschécken.</transl
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>D'SVG-Bild konnt net gelies ginn, oder näischt dran kann sécher ugewise ginn.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>D'Bild konnt net kopéiert ginn. Probéiert et w.e.g. nach eng Kéier oder kontaktéiert den Administrateur vun der Websäit.</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>De gewielten Objet existéiert net oder Dir däerft en net liesen.</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>De gewielten Objet huet kee Bild.</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>D'Bilddatei vum gewielten Objet konnt net gelies ginn.</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>D'Bild vum gewielten Objet ass méi grouss wéi dëst Feld erlaabt: %1 Bytes.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56334,6 +56789,42 @@ dëse Feeler. Probéiert net, d'Bezuelung nach eng Kéier ofzeschécken.</transl
         <source>The bookmark was renamed to "%name".</source>
         <translation>D'Lieszeechen gouf op "%name" ëmbenannt.</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>Dës Säit ass an dësem Site-Zougang (%siteaccess) ausgeschalt. Maacht d'Lieszeechen an engem Site-Zougang op, deen se huet.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>De Modul vun dëser Säit ass hei net installéiert oder net aktivéiert.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>Dës Säit gëtt et net méi: hire Modul huet keng esou Usiicht.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>Keng vun Äre Rollen erlaabt Iech, dës Säit opzemaachen.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>Dir däerft dëse Site-Zougang net benotzen.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>Dir däerft den Inhalt, deen dës Säit weist, net liesen.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>Dës Zort vu Säit kann net als Lieszeechen ofgespäichert ginn: si handelt nëmmen op e Formulaire, oder et ass eng Säit vun engem eenzege Moment.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>D'Adress vun dëser Säit feelt.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>Dës Säit kann elo net opgemaach ginn.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56805,6 +57296,10 @@ Dir musst d'Klass vum Knuet mat der Tauschfunktioun änneren.</translation>
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>De Mail-Transport huet am leschte Laf %count Messagen refuséiert. Préift de Mailserver an d'site.ini MailSettings.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>%count Evenementer waarden an et ass kee Laf vum Notifikatiouns-Cronjob opgeholl. Setzt de Cronjob-Deel &quot;frequent&quot; an d&apos;Crontab, oder féiert exp:notification:run --apply aus.</translation>
     </message>
 </context>
 <context>
@@ -63061,6 +63556,10 @@ Dir musst d'Klass vum Knuet mat der Tauschfunktioun änneren.</translation>
         <source>Choose another site or section with the node picker</source>
         <translation>Eng aner Websäit oder Sektioun mat der Knuetenauswiel wielen</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>Nëmmen de Systemadministrateur kann de Besëtzer änneren: féiert ./console exp:content-check --fix-permissions --apply als root aus.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64594,6 +65093,10 @@ Dir musst d'Klass vum Knuet mat der Tauschfunktioun änneren.</translation>
     <message>
         <source>empty</source>
         <translation>eidel</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>De Signatursschlëssel ass méi wéi ee Joer al: wiesselt en mat exp:audit key rotate --apply.</translation>
     </message>
 </context>
 <context>
@@ -68424,6 +68927,486 @@ Dir musst d'Klass vum Knuet mat der Tauschfunktioun änneren.</translation>
         <source>Share of page time</source>
         <translation>Undeel un der Säitenzäit</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>eng komplett Erstellung gouf ugefrot</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>de Säitecache hat d'Säit net (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>de Säitecache huet net geäntwert</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>Erstallt</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>Vum Kär erstallt: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>An %ms ms aus dem Säitecache ausgeliwwert. D'Säit gouf um %stored vun enger Erstellung mat %render ms gespäichert, dat ass %age s hier.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>Elo erstellen</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>Zréck op d'Usiicht aus dem Cache</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>Vun der Erstellung um %stored (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>Dës Ufro: an %ms ms aus dem Säitecache ausgeliwwert.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Benotzer</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>Benotzer-ID</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>Cacheprofil</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>Dës Usiicht</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>View-Cache</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>pro Benotzer (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>Cacheprofil vum Benotzer: Benotzer mat deemselwechte Profil deelen d'Cachefichiere vun den Usiichten</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>jo</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>neen</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Benotzernumm</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>Ugemellt</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>Sessioun</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>D'Deeler vum Cache-Schlëssel vun der Inhaltsusiicht, déi vum Benotzer ofhänken, genee esou wéi de Schlëssel se hëlt, ënner de ViewCacheTweaks vun dëser Säit. Benotzer mat deemselwechte Profil deelen d'Cachefichiere vun den Usiichten, ausser d'Deeler vun enger Usiicht selwer sinn ënnerschiddlech (Präferenzen, Schlëssele vu Listeneren): déi hunn en eegene Profil, nëmme fir dës Säit.</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>Profil</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>Dës Usiicht (Knuet %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: all ugemellte Benotzer huet seng eege Cachefichieren.</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>Aktiv ViewCacheTweaks: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>Deel</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>Wäert</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>Keen Deel hänkt vum Benotzer of (ViewCacheTweaks).</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>dës Usiicht</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>Als Text kopéieren</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>Rollen</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>Et konnte keng Rollenzouweisunge gelies ginn.</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>Rollen-ID</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Roll</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>Aschränkung</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>Zougewisen un</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>de Benotzer</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>Grupp %name (Objet %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>Kopéiert</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>Konnt net kopéiert ginn.</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>vun engem Listener ausgelooss</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>Anonym Visiteuren</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>d'selwecht wéi Ären</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>ënnerschiddlech</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>De Profil, deen anonym Besicher ënner deene selwechte ViewCacheTweaks kréien, mat de Standardpräferenzen, ouni d'Deeler vun der Usiicht: e Listener, deen d'Sessioun liest, ka net no hinne gefrot ginn.</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>Präferenzen</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>Keen Usiichtsmodus hänkt vu Benotzerpräferenzen of (site.ini [ContentSettings] CachedViewPreferences).</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>D'Präferenzen, vun deenen d'Usiichte vun dësen Usiichtsmodussen ofhänken (CachedViewPreferences), mam Wäert vum Benotzer oder dem Standard. Si sinn am Profil als userpreferences, déi vun allen Usiichtsmodussen zesummen.</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>Usiichtsmodus</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>Präferenz</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>Standard</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>Richtlinnen</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>Richtlinne vun de Rollen uweisen (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>D'Richtlinne ginn vum Server gelueden, wann dës Sektioun opgemaach gëtt, eng Säit op eemol, a kënne no Modul a Funktioun gefiltert ginn.</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>Funktioun</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>All Moduler</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>All Funktiounen</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>Aschränkungen</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>Méi uweisen</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>Dës Rollen hu keng Richtlinnen.</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>Keng Richtlinn passt op de Filter.</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%shown vun %matching Richtlinnen (%total am Ganzen)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>Gëtt beim Opmaache gelueden.</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>modul/funktioun, roll, limitatioun</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>Politiken duerchsichen</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>Méi lueden</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>Modul/Funktioun</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>All Rollen (%count Politiken)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>Keng Politik passt.</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%shown vun %matched Politiken</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>Keng Äntwert</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>maskéiert</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>Erklärunge weisen</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>Erklärunge verstoppen</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Opmaachen</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>All opmaachen</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>All zoumaachen</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>Schlëssel oder Wäert</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>An der Sessioun sichen</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Typ</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>nach %count</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>ze déif verschachtelt fir ze weisen</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>ofgeschnidden, %count Zeechen am Ganzen</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Gestart</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>Cookie-Numm</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>Sessiouns-ID</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>Handler</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>Späicherpfad</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>PHP-Standard</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>Liewensdauer (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>Cookie</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>Liewensdauer %s s</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>Är eege PHP-Sessioun, sou wéi se war, wéi d'Sektioun opgemaach gouf, ni eng aner. Wäerter vu Schlësselen, déi wéi Geheimnisser ausgesinn (Tokens, Hashes, Passwierder), gi maskéiert (debugbar.ini SessionMask[]); alles anescht gëtt gewisen, wéi et gespäichert ass, och perséinlech Daten.</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>%count Schlësselen, %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>grouss</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>D'Sessioun ass eidel.</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>Fir dës Ufro gouf keng Sessioun gestart.</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Extensioun %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>Kernel an anerer</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>Net all Entrée gëtt gewisen: d'Sessioun huet méi, wéi hei opgelëscht ka ginn.</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>%count Schlësselen sinn net opgelëscht.</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>Rumm</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>Wäerter, déi wéi en Token ausgesinn (e JSON Web Token, d'Umeldungsdate vun engem Authorization-Header, e private Schlëssel, e laangen Hex- oder Zoufallstext), ginn och maskéiert, egal wéi hire Schlëssel heescht (debugbar.ini SessionValueMask[]).</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>De Schlëssel gesäit aus wéi e Geheimnis (debugbar.ini SessionMask[]).</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>De Wäert gesäit aus wéi en Token.</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>Ënner engem maskéierte Schlëssel.</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>D'Sessioun als Text, maskéiert wéi d'Tabell.</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>D'Sessioun ass méi grouss wéi %size (debugbar.ini SessionWarnBytes): all Ufro vun dësem Benotzer liest déi ganz Sessioun a schreift se, wann se geännert huet.</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP hält dës Sessioun a Fichieren a spärt de Fichier fir déi ganz Ufro: Ufroe vum selwechte Benotzer (e puer Tabs, AJAX-Opruffer) waarden openeen.</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>Op loossen</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>Méi grouss wéi %size (debugbar.ini SessionWarnBytes): all Ufro vun dësem Benotzer liest déi ganz Sessioun.</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%hits vun %count aus dem Cache gelies</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>Keng Schabloun gouf gerendert (eng Vue, déi aus dem Vue-Cache gelies gëtt, rendert keng).</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>Rollenzouweisungen</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>Rollen a Richtlinnen</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>anescht wéi bei anonyme Visiteuren</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>wéi bei anonyme Visiteuren</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70304,6 +71287,14 @@ Dir musst d'Klass vum Knuet mat der Tauschfunktioun änneren.</translation>
     <message>
         <source>not sent</source>
         <translation>net geschéckt</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>De Notifikatiouns-Cronjob hält hei all seng Läf fest. Setzt den Deel frequent an d&apos;Crontab, oder féiert exp:notification:run --apply aus.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>Benotzt d&apos;Konsol: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -76022,6 +77013,98 @@ Dir musst d'Klass vum Knuet mat der Tauschfunktioun änneren.</translation>
         <source>This topic is not Released; readers do not see it.</source>
         <translation>Dëst Thema ass net verëffentlecht; d'Lieser gesinn et net.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migratiounen</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Ännerunge vun der Installatioun, als Dateien gehalen: hiren Zoustand, d&apos;Leef, lafe loossen an zréckrollen.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Eng statesch Kopie vun engem Site op GitHub Pages oder all anere git-Host publizéieren.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Statescht Publizéieren</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>An der Kontroll</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>D'Lieser gesinn dës Säit.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>Fir d'Lieser verstoppt, bis een se verëffentlecht.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>D'Säit ass elo an der Kontroll. Si ass fir d'Lieser verstoppt, bis se verëffentlecht gëtt.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>D'Säit ass verëffentlecht: d'Lieser gesinn se elo.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>D'Säit ass erëm en Entworf. Si ass fir d'Lieser verstoppt, bis se kontrolléiert a verëffentlecht gëtt.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>Elo verëffentlechen</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>Nëmmen e Benotzer mat der Roll %role, deen dës Versioun net geschriwwen huet, kann se verëffentlechen.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>Hëllefsthemen, déi op d'Verëffentlechung waarden</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>Verstoppt se fir d'Lieser, bis se erëm verëffentlecht gëtt.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>Als Nächst kontrolléiert e Kontrolleur se. D'Lieser gesinn se nach net.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>D'Lieser gesinn se direkt.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>Hëlt se aus der Kontroll fir weider Aarbecht. D'Lieser gesinn se net.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>Dës Säit fir d'Lieser verstoppen?</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>Dës Säit zréck zum Entworf schécken?</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>D'Lieser gesinn %title net méi, bis een et erëm verëffentlecht.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title geet zréck zum Entworf fir weider Aarbecht. D'Lieser gesinn et ëmmer nach net, an et brauch eng nei Kontroll, ier et verëffentlecht gëtt.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Ofbriechen</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>Dës Themen sinn an der Kontroll. D'Lieser gesinn se, soubal een, deen déi aktuell Versioun net geschriwwen huet, se verëffentlecht.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76477,6 +77560,46 @@ Dir musst d'Klass vum Knuet mat der Tauschfunktioun änneren.</translation>
         <source>None.</source>
         <translation>Keng.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>mat enger Authenticator-App</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>mat engem Code per E-Mail</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>mat engem Recuperatiounscode</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>mat engem Passkey</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>mat engem externe Kont</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Sécherheetsaktivitéit</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>Als säi Netz gewisen; d&apos;Adress gëtt esou gespäichert, wéi d&apos;Dateschutzastellunge vun der Websäit et virgesinn.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Net erfaasst</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Plaz</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>ongeféier</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76720,6 +77843,42 @@ Dir musst d'Klass vum Knuet mat der Tauschfunktioun änneren.</translation>
         <source>Manage devices</source>
         <translation>Apparater verwalten</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>mat enger Authenticator-App</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>mat engem Code per E-Mail</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>mat engem Recuperatiounscode</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>mat engem Passkey</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>mat engem externe Kont</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Sécherheetsaktivitéit</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Net erfaasst</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Plaz</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>ongeféier</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76799,6 +77958,14 @@ Dir musst d'Klass vum Knuet mat der Tauschfunktioun änneren.</translation>
         <source>View the sessions of this user</source>
         <translation>D'Sessioune vun dësem Benotzer ukucken</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>Mat Ärem Kont %login op %site huet sech elo grad een vun enger Plaz aus ugemellt, vun där en sech an der leschter Zäit net ugemellt huet:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>Ongeféier Plaz</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76837,6 +78004,10 @@ Dir musst d'Klass vum Knuet mat der Tauschfunktioun änneren.</translation>
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%browser ënner %os</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Umeldungsbericht</translation>
     </message>
 </context>
 <context>
@@ -77045,6 +78216,82 @@ Dir musst d'Klass vum Knuet mat der Tauschfunktioun änneren.</translation>
         <source>The passkey could not be checked. Please try again.</source>
         <translation>De Passkey konnt net gepréift ginn. Probéiert w.e.g. nach eng Kéier.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>Konten, déi sech nëmme mat Passkeys umellen, kënnen hei kee Passwuert benotzen: Wielt &quot;Mat engem Passkey umellen&quot;.</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>Passkeys vun %login</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>D&apos;Passkeys, mat deenen sech dëse Kont umellt. Zitt een zréck, deen op engem verluerenen oder geklauten Apparat ass: Da kann en sech net méi umellen. Nei setzt de Besëtzer selwer derbäi.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>Äre Kont brauch e Passkey</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>Setzt Ärem Kont e Passkey derbäi</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>Setzt e Passkey derbäi, fir weiderzemaachen. Dir mellt Iech dann domat un amplaz nëmme mat engem Passwuert.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>Mat engem Passkey mellt Dir Iech méi séier a méi sécher un wéi mat engem Passwuert. Setzt elo een derbäi oder maacht ouni weider.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>Net elo</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>De Passkey &quot;%name&quot; zréckzéien?</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>En kann sech net méi bei dësem Kont umellen. Wann et de leschte war, mellt de Besëtzer sech mam Passwuert un, oder Dir setzt en neit.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>De Passkey zréckzéien</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>Zréckzéien</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>Dëse Kont huet kee Passkey.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>Authentifizéierer</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Onbekannt</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>Äre leschte Passkey: Setzt en aneren derbäi, ier Dir dëse ewechhuelt.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>Dëse Kont mellt sech nëmme mat Passkeys un (Passkey-Richtlinn): Ouni Passkey mellt e sech erëm mat sengem Passwuert un.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>Dat ass Äre leschte Passkey, an Äre Kont kann sech ouni een net umellen. Setzt fir d&apos;éischt en anere Passkey derbäi.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>De Passkey &quot;%name&quot; ass zréckgezunn. En kann sech net méi bei dësem Kont umellen.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77144,6 +78391,34 @@ Dir musst d'Klass vum Knuet mat der Tauschfunktioun änneren.</translation>
         <source>Code from your authenticator app</source>
         <translation>Code vun Ärer Authentifizéierungs-App</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>Dir sidd amgaang, Donnéeë fir ëmmer ze läschen oder e Protokoll eidel ze maachen.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>Äert Passwuert an e Passkey</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>Äert Passwuert an e Code aus Ärer Authenticator-App</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>Oder:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>Dëse Browser kann keng Passkeys benotzen. Wielt en anere Wee oder en anere Browser.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>Wann Dir weidermaacht, freet Äre Browser no engem vun Äre Passkeys.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>Mat engem Passkey weider</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77234,6 +78509,70 @@ Dir musst d'Klass vum Knuet mat der Tauschfunktioun änneren.</translation>
     <message>
         <source>Setup</source>
         <translation>Konfiguratioun</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>Säin eegent Passwuert, d&apos;E-Mail-Adress, Passkeys, d&apos;Umeldung a zwee Schrëtt, Recuperatiounscoden oder API-Schlësselen änneren an déi eegen aner Apparater ofmellen.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>Benotzer erstellen an änneren, hir Passwierder an Apparater, Kontastellungen, nei Benotzerkonten fräiginn oder refuséieren, Rollen zouweisen a Richtlinnen änneren.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>Donnéeë läschen</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>D&apos;Dreckskëscht eidel maachen, Elementer doraus ewechhuelen a méi Elementer op eemol ewechhuelen.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>Inhalt ewechhuelen, publizéieren a späicheren</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>Inhalt ewechhuelen (och an d&apos;Dreckskëscht), publizéieren an en Entworf späicheren, gefrot beim Schécke vum Formulaire. Standardméisseg aus.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>Virun enger sensibeler Aktioun bestätegt en ugemellte Benotzer nach eng Kéier, wien en ass: mat sengem Passwuert an engem Passkey, oder ouni Passkey mat sengem Passwuert an dem Code vu senger Authenticator-App. Nëmmen d&apos;Websäite froen: d&apos;REST-Schnëttstell, SOAP, WebDAV, d&apos;expservices-Umeldung an d&apos;Kommandozeil froen ni.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>Wou d&apos;Astellunge gëllen</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>Astellunge fir</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>All Site-Zougang</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>Site-Zougang %name</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Opmaachen</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>Wien gefrot gëtt: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>Kräizt Benotzergruppen un, fir nëmmen hir Memberen ze froen (zum Beispill Redakteren). Keng ugekräizt: all Benotzer.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>Gespäichert an settings/override/site.ini.append.php, fir all Site-Zougang. Beim Späichere gitt Dir gefrot, ze bestätegen, datt Dir et sidd.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>Gespäichert an settings/siteaccess/%name/site.ini.append.php. E Wäert an settings/override huet Virrang. Beim Späichere gitt Dir gefrot, ze bestätegen, datt Dir et sidd.</translation>
     </message>
 </context>
 <context>
@@ -77336,6 +78675,6822 @@ Dir musst d'Klass vum Knuet mat der Tauschfunktioun änneren.</translation>
     <message>
         <source>Open the page</source>
         <translation>D'Säit opmaachen</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from bis %to vun %count</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>E Login oder eng Benotzer-ID: de Kont, ëm deen et beim Evenement gaangen ass, oder de Benotzer, deen gehandelt huet.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Kont</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Aktioun</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>Duerno</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>All Resultat</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Virdrun</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Vun</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Zrécksetzen</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Erleedegt</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>Evenementer ginn %days Deeg gehalen.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>Evenementer gi gehalen, bis se mat der Hand ewechgeholl ginn.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Evenementer</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>All Aktioun</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>All Evenementer vun dësem Kont</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>Lëscht als CSV exportéieren (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Gescheitert</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Vun</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>Lëscht agrenzen</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>Keen Evenement passt.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Pro Säit</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>D&apos;Opzeechnung ass an audit.ini ausgeschalt ([UserAuditSettings] UserAudit); d&apos;Lëscht weist, wat virdru opgezeechent gouf.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Ofgewisen</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Resultat</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Weisen</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>D&apos;Tabell vum Audit-Protokoll vun de Benotzer feelt. Leet se mat php update/common/scripts/6.0/createuseraudittable.php un; bis dohin halen d&apos;Audit-Fichieren all Evenement.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>Dës Säit brauch eng SQL-Datebank; mat MongoDB ass se net disponibel. D&apos;Audit-Fichieren halen all Evenement.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Bis</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Audit-Protokoll vun de Benotzer</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Benotzer</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Wéini</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Wou</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>Wien e Kont geännert, ugeluecht, aktivéiert, desaktivéiert, verréckelt oder ewechgeholl huet, wien sech ugemellt huet oder ofgewise gouf, a wéi eng Rollen zougewise goufen: eng Zeil pro Evenement, mat de Felder virdrun an duerno. Passwierder a Geheimnisser ginn ni opgezeechent.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>Grupp</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>de System</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>onbekannt</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>Kont ofsécheren</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>Mat engem Recuperatiounscode gouf sech op Ärem Kont %login op %site ugemellt.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>E Recuperatiounscode gouf benotzt</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Kont</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>Ongeféier Adress</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>Frot en neit Passwuert un, fir Iech erëm unzemellen, oder wend Iech un d&apos;Administrateuren vun der Websäit.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>Neit Passwuert ufroen</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>All Recuperatiounscode funktionéiert eng Kéier. Wann Dir Ären Telefon verluer hutt, riicht Är Authenticator-App nei an a bewaart déi nei Recuperatiounscoden op enger sécherer Plaz.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>Net erfollegräich Umeldungsversich op Ärem Kont</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>Vun elo un freet d&apos;Umeldung nieft Ärem Passwuert no engem Code. Wann Dir dat waart, musst Dir näischt maachen.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>Wann Dir et waart an Äert Passwuert vergiess hutt, frot en neit un. Wann net, wielt e méi staarkt Passwuert a schalt d&apos;Umeldung a zwee Schrëtt an.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>Wann Dir dat net waart, kennt een vläicht Äert Passwuert: ännert et elo a kontrolléiert, wou Äre Kont ugemellt ass.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>Verbleiwend Recuperatiounscoden</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>Är Geräter kontrolléieren</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>Sécherheetswarnung</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>Een huet probéiert, sech %count Mol hannereneen mat engem falsche Passwuert op Ärem Kont %login op %site unzemellen.</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>Op Ärem Kont %login op %site gouf et e Sécherheetsevenement.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>Dëst ass eng Sécherheetswarnung iwwer Äre Kont. Si gëtt bei all esou Ännerung geschéckt a kann net ausgeschalt ginn.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Zäit</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>D&apos;Umeldung a zwee Schrëtt gouf fir Äre Kont %login op %site ausgeschalt.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>D&apos;Umeldung a zwee Schrëtt gouf ausgeschalt</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>D&apos;Umeldung a zwee Schrëtt gouf fir Äre Kont %login op %site ageschalt.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>D&apos;Umeldung a zwee Schrëtt gouf ageschalt</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>Äre Kont %login op %site gouf no ze vill net erfollegräiche Umeldunge gespaart.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>Äre Kont ass elo nëmmen nach duerch Äert Passwuert geschützt. Wann Dir dat net waart, schalt d&apos;Umeldung a zwee Schrëtt erëm an, nodeems Dir Äert Passwuert geännert hutt.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>Äre Kont gouf gespaart</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>Ärem Kont %login op %site gouf e Passkey derbäigesat.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>Wien dëse Passkey huet, kann sech ouni Äert Passwuert bei Ärem Kont umellen. Wann Dir en net derbäigesat hutt, huelt en ënner Passkeys ewech an ännert Äert Passwuert.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>Vun Ärem Kont %login op %site gouf e Passkey ewechgeholl.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>En kann sech net méi bei Ärem Kont umellen. Wann Dir en net ewechgeholl hutt, kontrolléiert Är Passkeys an Apparater.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>Ärem Kont gouf e Passkey derbäigesat</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>Vun Ärem Kont gouf e Passkey ewechgeholl</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>Sécherheetsaktivitéit</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Sécherheetsaktivitéit vun %name</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Ugemellt</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Net erfollegräichen Umeldungsversuch</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Ofgemellt</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Sessiounen ofgemellt</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Umeldung vun engem neien Gerät</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Umeldung vun enger neier Plaz</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Identitéit bestätegt (&quot;Bestätegt, datt Dir et sidd&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Identitéitskontroll feelgeschloen</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Mat engem Passkey ugemellt</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Umeldung mat Passkey feelgeschloen</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Umeldung refuséiert: Code vun der Umeldung a zwee Schrëtt feelt oder ass falsch</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Falsche Code vun der Umeldung a zwee Schrëtt</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Kont no net erfollegräiche Umeldunge gespaart</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Kont entspaart</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Passwuert geännert</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Passwuertännerung feelgeschloen</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Passwuert zréckgesat</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Neit Passwuert ugefrot</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>E-Mail-Adress geännert</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Benotzernumm geännert</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Umeldung a zwee Schrëtt ageschalt</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Umeldung a zwee Schrëtt ausgeschalt</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Recuperatiounscode benotzt</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Nei Recuperatiounscoden</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>App-Passwuert erstallt</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>App-Passwuert widderruff</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Passkey derbäigesat</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Passkey ewechgeholl</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Kont aktivéiert</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Kont desaktivéiert</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>All</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Umeldungen a Sessiounen</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Kontännerungen</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Brauch Opmierksamkeet</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>vun Iech</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>vum Benotzer</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>vun %login</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>Methode</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>Webbrowser</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>Betribssystem</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Gerät</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>Uert</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>Land</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Sessiounen</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>Wéi eng</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>Kanal</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Net erfollegräich Versich</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>Verbleiwend Coden</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>Umeldungs-Handler</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Sécherheetsaktivitéit</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Sécherheetsaktivitéit vun %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Umeldungen an Ännerungen un der Sécherheet vun Ärem Kont. Wann Dir eppes gesitt, wat Dir net gemaach hutt, ännert Äert Passwuert a mellt d&apos;Geräter of, déi Dir net erkennt.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>Umeldungen an Ännerungen un der Sécherheet vun dësem Kont.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Är Geräter</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Passwuert änneren</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>Zréck bei de Kont</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>D&apos;Sécherheetsaktivitéit gëtt net opgeholl</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>Si gëtt aus dem Audit-Protokoll vun de Benotzer gelies, deem seng Tabell expuser_audit feelt oder op dëser Datebank net ënnerstëtzt gëtt. Féiert php update/common/scripts/6.0/createuseraudittable.php aus, oder den Datebank-Update vun 6.0.15.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Déi lescht %days Deeg</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Umeldungen an de leschten %days Deeg</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>Rezent Sécherheetsaktivitéit</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Weisen</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>feelgeschloen</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>refuséiert</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Nach keng Sécherheetsaktivitéit opgeholl.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>Sécherheetsevenementer ginn %days Deeg laang gespäichert.</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>Sécherheetsevenementer ginn esou laang gespäichert, bis en Administrateur se ewechhëlt.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Meng Umeldungsdaten eroflueden</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Är Sessiounen a Sécherheetsevenementer als JSON-Fichier.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Op dësem Site ginn Sessiounen net opgezeechent, dofir konnt keen anert Gerät ofgemellt ginn. Ännert elo Äert Passwuert.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count aner Sessioune goufen ofgemellt. Ännert elo Äert Passwuert.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Keen anert Gerät war ugemellt. Ännert elo Äert Passwuert.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Merci. D'Evenement ass als Äert markéiert.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Dëst Evenement brauch keng Äntwert.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>D'Säit war ofgelaf. Et gouf näischt geännert; probéiert w.e.g. nach eng Kéier.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Kont ofsécheren</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Wann eppes hei net vun Iech war, mellt all aner Geräter of a wielt duerno en neit Passwuert. Geräter, déi mat „Ugemellt bleiwen“ ugemellt bliwwe sinn, ginn och ofgemellt.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>All Gerät ausser dësem gëtt bei senger nächster Ufro ofgemellt. Duerno wielt Dir en neit Passwuert.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Jo, déi aner Geräter ofmellen</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Waart Dir dat?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Jo, dat war ech</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Neen, mäi Kont ofsécheren</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Ugemellt</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Net erfollegräichen Umeldungsversuch</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Ofgemellt</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Sessiounen ofgemellt</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Umeldung vun engem neien Gerät</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Umeldung vun enger neier Plaz</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Identitéit bestätegt (&quot;Bestätegt, datt Dir et sidd&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Identitéitskontroll feelgeschloen</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Mat engem Passkey ugemellt</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Umeldung mat Passkey feelgeschloen</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Umeldung refuséiert: Code vun der Umeldung a zwee Schrëtt feelt oder ass falsch</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Falsche Code vun der Umeldung a zwee Schrëtt</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Kont no net erfollegräiche Umeldunge gespaart</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Kont entspaart</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Passwuert geännert</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Passwuertännerung feelgeschloen</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Passwuert zréckgesat</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Neit Passwuert ugefrot</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>E-Mail-Adress geännert</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Benotzernumm geännert</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Umeldung a zwee Schrëtt ageschalt</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Umeldung a zwee Schrëtt ausgeschalt</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Recuperatiounscode benotzt</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Nei Recuperatiounscoden</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>App-Passwuert erstallt</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>App-Passwuert widderruff</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Passkey derbäigesat</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Passkey ewechgeholl</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Kont aktivéiert</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Kont desaktivéiert</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>All</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Umeldungen a Sessiounen</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Kontännerungen</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Brauch Opmierksamkeet</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Sécherheetsaktivitéit</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Sécherheetsaktivitéit vun %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Umeldungen an Ännerungen un der Sécherheet vun Ärem Kont. Wann Dir eppes gesitt, wat Dir net gemaach hutt, ännert Äert Passwuert a mellt d&apos;Geräter of, déi Dir net erkennt.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Är Geräter</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Passwuert änneren</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>D&apos;Sécherheetsaktivitéit gëtt op dëser Websäit nach net opgeholl.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Umeldungen an de leschten %days Deeg</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Net erfollegräich Versich</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Nach keng Sécherheetsaktivitéit opgeholl.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Meng Umeldungsdaten eroflueden</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Är Sessiounen a Sécherheetsevenementer als JSON-Fichier.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Op dësem Site ginn Sessiounen net opgezeechent, dofir konnt keen anert Gerät ofgemellt ginn. Ännert elo Äert Passwuert.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count aner Sessioune goufen ofgemellt. Ännert elo Äert Passwuert.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Keen anert Gerät war ugemellt. Ännert elo Äert Passwuert.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Merci. D'Evenement ass als Äert markéiert.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Dëst Evenement brauch keng Äntwert.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>D'Säit war ofgelaf. Et gouf näischt geännert; probéiert w.e.g. nach eng Kéier.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Kont ofsécheren</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Wann eppes hei net vun Iech war, mellt all aner Geräter of a wielt duerno en neit Passwuert. Geräter, déi mat „Ugemellt bleiwen“ ugemellt bliwwe sinn, ginn och ofgemellt.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>All Gerät ausser dësem gëtt bei senger nächster Ufro ofgemellt. Duerno wielt Dir en neit Passwuert.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Jo, déi aner Geräter ofmellen</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Waart Dir dat?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Jo, dat war ech</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Neen, mäi Kont ofsécheren</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>Passwuert</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>Passwuert a Code vun der Umeldung a zwee Schrëtt</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>REST-Interface</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>SOAP-Interface</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>Eemol-Umeldung (SSO)</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>Ugemellt, ier Sessiounen opgeholl goufen</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Umeldungsbericht</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>Wien op der Websäit ugemellt ass, wéi dacks Konte sech umellen an dobäi scheiteren, an e Benotzer iwwerall ofmellen. Funktionéiert mat all Sessiouns-Handler.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>D&apos;Sessioun gouf ofgemellt. De Gerät muss sech nei umellen.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>%login gouf vun %count Sessiounen ofgemellt.</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>%login hat keng lafend Sessioun.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>Kee Kont huet dës ID, dësen Benotzernumm oder dës E-Mail-Adress.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>Dat ass d&apos;Sessioun, déi Dir elo grad benotzt. Fir se ze beenden, mellt Iech of.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>Dës Sessioun war scho beendegt.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>D&apos;Säit war ofgelaf. Et gouf näischt geännert; probéiert w.e.g. nach eng Kéier.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>Op dëser Websäit ginn keng Sessiounen opgeholl (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>D&apos;Tabell expuser_session feelt</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>Sessioune ginn opgeholl, soubal se erstallt ass: php update/common/scripts/6.0/createusersessiontable.php oder den Datebank-Update vun 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>Elo an haut</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>Lafend Sessiounen</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>Ugemellt Benotzer</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>Umeldungen haut</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>Net erfollegräich Versich haut</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>E Benotzer iwwerall ofmellen</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>All Sessioun vum Kont hält bei hirer nächster Ufro op, och déi, déi duerch &quot;Ugemellt bleiwen&quot; gehale ginn. Benotzt dat, wann e Kont an déi falsch Hänn geroden ass; setzt duerno säi Passwuert zréck.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>Benotzer-ID, Benotzernumm oder E-Mail-Adress</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>Iwwerall ofmellen</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>Elo ugemellt</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>Déi %limit zulescht benotzt ginn ugewisen.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Benotzer</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Gerät</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adress</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>Ugemellt</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>Zulescht aktiv</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Aktiounen</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>Dëse Gerät</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Net erfaasst</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>Ofmellen</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>Keng Sessioun ass ugemellt.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Déi lescht %days Deeg</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>Umeldungen an net erfollegräich Versich ginn aus dem Audit-Protokoll vun de Benotzer gezielt, dat feelt; déi nei Sessioune ginn gezielt.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>Dag</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>Umeldungen</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Net erfollegräich Versich</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>Nei Sessiounen</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>Sessiouns-Handler: %handler. D&apos;Sessioune ginn aus der Tabell expuser_session gelies, dofir funktionéiert de Bericht mat all Handler.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>Verdächteg Aktivitéit an de leschten %hours Stonnen</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>Een Netzwierk konnt sech net bei %accounts Konten umellen (%count Versich)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Kont no net erfollegräichen Umeldunge gespaart</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>%count net erfollegräich Umeldungen op engem Kont</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>Gläichzäiteg aus %count Länner ugemellt</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Sécherheetsaktivitéit</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Sessiounen</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>Net erfollegräich Umeldunge ginn aus dem Audit-Log vun de Benotzer gelies, deen hei net verfügbar ass.</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>Näischt Verdächteges: kee Kont mat widderholt net erfollegräichen Umeldungen, keen Netzwierk, dat verschidde Konte probéiert, kee Kont, deen aus verschiddene Länner ugemellt ass.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>Sécherheetswarnung zu Ärem Kont</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>Op Ärem Kont %login gouf et e Sécherheetsevenement: %event. Wann Dir dat net waart, sécheret Äre Kont ënner %url of.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Konfiguratioun</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>Frot den Inhalt vun dësem Site no genee de Felder, déi eng Säit brauch, an enger eenzeger Ufro. De Schema follegt den Inhaltsklassen; all Ufro leeft mat de Rechter vum Benotzer, deen se schéckt.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>D'GraphQL-API ass an dësem Site-Zougang ausgeschalt. Schalt se an graphql.ini an: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>D'GraphQL-Bibliothéik (webonyx/graphql-php 15) ass net installéiert.</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>Endpunkt</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>Bibliothéik</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>Schema</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>%count Inhaltsklassen, Schema %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>Ufro</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>Variabelen (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Ausféieren</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>Äntwert</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>Leeft…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>D'Äntwert konnt net gelies ginn.</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>D'Ufro leeft mat Äre Rechter, ugemellt mat dëser Sessioun.</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%count an %seconds s</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>keng Limit</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>Déift</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>Komplexitéit</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>Elementer pro Lëscht</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (Standard %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>Ufroen pro Benotzer oder Schlëssel</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>Ufroen pro anonymer Adress</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>Introspection</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>Nëmme gespäichert Ufroen</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>Gréisst Ufro</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>%bytes Bytes</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>Gréisst Eroplueden</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>Et gëtt keen Site-Zougang %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>D'Mutatiounen sinn an %siteaccess ageschalt.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>D'Mutatiounen sinn an %siteaccess ausgeschalt.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>D'GraphQL-API ass an %siteaccess ageschalt.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>D'GraphQL-API ass an %siteaccess ausgeschalt.</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>D'Astellunge konnten net geschriwwe ginn: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>De Äntwert-Cache gouf eidel gemaach: %count Äntwerten ewechgeholl.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>Kräizt d'Këscht nieft der Ufro un, fir se ewechzehuelen.</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>D'Ufro konnt net ewechgeholl ginn: eng Ufro, déi an engem Verzeechnes vu PersistedQueryDirectoryList[] matgeliwwert gëtt, gëtt mat hirem Fichier ewechgeholl.</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>Déi gespäichert Ufro gouf ewechgeholl.</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>Mutatiounen</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>un</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>aus</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Site-Zougäng</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>Wou d'API an hir Mutatiounen äntweren. D'Knäppercher schreiwen graphql.ini, sou wéi ./console exp:graphql:enable an exp:graphql:disable.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Site-Zougang</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>GraphQL-API</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Änneren</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Ausschalten</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>Mutatiounen aus</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>Mutatiounen un</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Aschalten</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>Limitten</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>graphql.ini [GraphQLSettings] vun dësem Site-Zougang.</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>Äntwert-Cache</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>D'Äntwerte vu gespäicherten Ufroen, pro Benotzerrechter gehalen an ofgelaf, all Kéier wann Inhalt publizéiert gëtt.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Zoustand</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>Gehalen Äntwerten</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>%count Äntwerten, %bytes Bytes</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>Héchstens gehalen</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds s</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>Lescht ofgelaf</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>Äntwert-Cache eidel maachen</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>Gespäichert Ufroen</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>Gespäichert mat ./console exp:graphql:persist oder vu Clienten (automatesch gespäichert Ufroen); mam Numm oder SHA-256 opgeruff.</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>Nimm</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Gréisst</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Wou</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Ewechhuelen</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>matgeliwwert</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>gespäichert</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>Jo, dës Ufro ewechhuelen</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>Nach keng gespäichert Ufro.</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>API-Schlësselen</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>Perséinlech API-Schlësselen mam Beräich graphql:read (Ufroen) oder graphql:write (Mutatiounen). Maacht a widderruft se op der Säit API-Zougang oder mat ./console exp:graphql:keys.</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>API-Zougang</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>All Schlësselen</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>Schlëssel</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Numm</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Besëtzer</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>Beräicher</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>Fir d'lescht benotzt</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>aktiv</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>ofgelaf</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>widderruff</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>ni</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>Nach keen API-Schlëssel mat engem GraphQL-Beräich.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>D'GraphQL-API ass am Site-Zougang %siteaccess ausgeschalt, deen dës Säit weist; d'Tabell hei ënnen weist, wou se äntwert.</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>Fir de Site-Zougang %siteaccess, deen dës Säit weist.</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>Webhooks</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>All Evenement, deen en Endpunkt ufrot (publish, update, trash, delete, move, hide, reveal, mutation), gëtt him vum Cronjob-Deel graphqlwebhooks ënnerschriwwe geschéckt. ./console exp:graphql:webhooks mécht datselwecht wéi dës Rubrik.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Evenementer</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>alleguer</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>All Site-Zougäng</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>futti</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>kee Geheimnis</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>Waarden</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count opginn</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>Lescht Liwwerung</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>En Test schécken</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>Jo, dëse Webhook ewechhuelen</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>Nach kee Webhook.</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>E Webhook derbäisetzen</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>Derbäisetzen</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>Rezent Liwwerungen</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Zäit</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Resultat</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>Abonnementer</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>Live-Aktualiséierunge fir Clienten: en Evenementstroum op /api/graphql/subscribe, an e WebSocket (graphql-transport-ws) op Velocity. All Evenement geet nëmmen un Abonnenten, déi säin Inhalt liese dierfen.</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>Elo op</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>Maximal op</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>%total am Ganzen, %user pro Benotzer, %address pro Adress</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>Anonym Abonnementer</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>Stroumdauer</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>De Webhook konnt net derbäigesat ginn: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>De Webhook %name gouf geännert; säi Signatur-Geheimnis bleift.</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>D'Signatur-Geheimnis konnt net gespäichert ginn (Konfiguratioun &gt; Geheimnisser).</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>De Webhook %name gouf derbäigesat. Säi Signatur-Geheimnis, nëmmen dës eng Kéier ugewisen: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>Et gëtt kee Webhook %name.</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>De Webhook %name huet net geäntwert: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>De Webhook %name huet %status an %ms ms geäntwert.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>Kräizt d'Këscht nieft dem Webhook un, fir en ewechzehuelen.</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>De Webhook %name gouf ewechgeholl.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>D&apos;GraphQL-API ass an dësem Site-Zougang ausgeschalt.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>D&apos;GraphQL-Bibliothéik ass net installéiert.</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>Benotzt GET oder POST.</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>De Body ass keen JSON-Objet.</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables ass keen JSON-Objet.</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions ass keen JSON-Objet.</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>Schéckt d&apos;Ufro mat POST.</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>An der Ufro feelt d&apos;GraphQL-Ufro.</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>D&apos;Ufro ass méi laang wéi %max Bytes.</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>Interne Serverfeeler</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node brauch genee eent vun id, remoteId, path an urlAlias.</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content brauch genee eent vun id an remoteId.</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>De Cursor vun after kënnt net vun dëser API.</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>Et gëtt keen Bildalias %alias (image.ini [AliasSettings] AliasList[]).</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>Hei ginn nëmme gespäichert Ufroen ugeholl: Schéckt d&apos;id vun enger gespäicherter Ufro.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>Den Hash vun der gespäicherter Ufro ass keen SHA-256.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>Den Hash vun der gespäicherter Ufro passt net zur Ufro.</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>Ze vill Ufroen: héchstens %limit an %window Sekonnen. Probéiert et an %reset Sekonnen nach eng Kéier.</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>D&apos;Ufro ass %depth Niveauen déif; héchstens %max sinn erlaabt.</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>D&apos;Ufro huet eng Komplexitéit vun %complexity; héchstens %max ass erlaabt.</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>Dës Ufro däerf de Schema net liesen (Introspection).</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search brauch en Text oder e Filter (classes, subtree, sections, publishedAfter, publishedBefore).</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument ass keen Datum (ISO 8601, 2026-10-30).</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag brauch genee eent vun id, remoteId an path.</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout brauch genee eent vun id, identifier an urlAlias.</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>D'Feld operations vun enger Multipart-Ufro ass keng eenzeg JSON-Ufro.</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>D'Feld map vun enger Multipart-Ufro ass keen JSON-Objet.</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>D'Multipart-Ufro huet keen Fichier %field.</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>E Wee vum Feld map muss mat variables. ufänken: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>De Fichier %name ass net komplett ukomm (Eropluedfeeler %error).</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>De Fichier %name ass méi grouss wéi %max Bytes.</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>De Fichier %name konnt net gepréift ginn.</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>Mutatiounen sinn an dësem Site-Zougang ausgeschalt (graphql.ini [GraphQLSettings] MutationsEnabled).</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>Schéckt eng Mutatioun mat POST.</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>Mellt Iech un, fir Inhalt z'änneren.</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>De API-Schlëssel huet de Beräich %scope net.</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>Eng Mutatioun mat enger Sessioun brauch de Formulaire-Token vun der Sessioun (Header X-CSRF-Token).</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>uploadFromUrl ass ausgeschalt: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] nennt keen Host.</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>D'Adress muss eng https-Adress sinn.</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>Den Host %host steet net an graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>De Fichier konnt net ofgeruff ginn.</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload ass nëmmen en Input-Typ.</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>Eng Variabel vum Typ Upload hëlt e Fichier vun enger Multipart-Ufro.</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>D'Remote-id %remoteId ass scho vergi.</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>Den Inhalt huet schonn eng Iwwersetzung op %language: benotzt updateContent.</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>Gitt mindestens ee Feld un.</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>Et konnt keng nei Versioun erstallt ginn (den Inhalt huet ze vill Entwërf).</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>D'Versioun %version ass keen Entworf.</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent brauch genee eent vun id an nodeId.</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>Eng Plaz kann net ënner sech selwer geréckelt ginn.</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>Den Inhalt huet schonn eng Plaz ënner %parentId.</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>De Wäert vum Feld %field konnt net gespäichert ginn.</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>Et gëtt keng Inhaltssprooch %language.</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>Et gëtt keng Inhaltsklass %class am Schema.</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>Den Inhalt ass net do, oder Dir däerft en net liesen.</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>Dir däerft dat net mat dësem Inhalt maachen.</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>D'Klass %class huet keen Feld %field, dat geschriwwe ka ginn.</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>D'Feld %field ass zweemol uginn.</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>D'Feld %field hëlt e Fichier: schéckt en als Eroplueden (eng Multipart-Ufro).</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>D'Feld %field hëlt keen Fichier.</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>D'Feld %field brauch e Wäert.</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>De Format %format ass nëmme fir Rich-Text-Felder; %field hëlt säi Wäert, wéi e ass (RAW).</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>D'Feld %field ass obligatoresch.</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>Den HTML konnt net gelies ginn.</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content hëlt version nëmme mat id.</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>De Virschau-Token ass net gëlteg oder ass ofgelaf.</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>Keen Origin (https://host oder https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>Kee Beräich vun der GraphQL-API: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>Schéckt Abonnementer op /api/graphql/subscribe (en Evenementstroum oder e WebSocket).</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>D'Ufro nennt keng Operatioun vum Dokument.</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>En Abonnement freet genee no engem Feld.</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>Ze vill Abonnementer sinn op; probéiert méi spéit nach eng Kéier.</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>Dir hutt %max Abonnementer op, dat erlaabt Maximum.</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>Är Adress huet %max Abonnementer op, dat erlaabt Maximum.</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>Abonnementer sinn an dësem Site-Zougang ausgeschalt.</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>Mellt Iech u fir z'abonnéieren (en Token oder e perséinleche API-Schlëssel).</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>Schéckt Mutatiounen op /api/graphql.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>Migratiounen</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>De Status konnt net gelies ginn: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>D&apos;Tabelle vun de Migratiounen existéieren nach net: ./console exp:upgrade --apply mécht se.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>%count Migratioune sinn feelgeschloen</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>E Laf ass amgaang, gestart vum %user</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>D&apos;Installatioun ass gespaart: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Amgaang</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Feelgeschloen</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>Weesen</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Leschte Laf</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>nach keen</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>All d&apos;Migratiounen</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>Simuléierte Laf</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>Testlaf</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>Déi oppe Migratioune sinn an enger Transaktioun gelaf, déi duerno zréckgerollt gouf: näischt gouf behalen. Hei drënner steet, wat all eenzel an der Datebank geännert huet.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>Wat e Laf elo géif maachen. Näischt gëtt geännert: all oppe Migratioun lëscht d&apos;Ännerungen op, déi se géif maachen, an de Laf, wat e virdrun an duerno géif maachen.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>Simuléieren</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Lafe loossen</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>Den Testlaf ass feelgeschloen: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>Eng Simulatioun brauch PostgreSQL oder SQLite, wou Schema-Ännerunge kënnen zréckgerollt ginn; op dëser Datebank ass de Plang hei drënner dat, wat e Laf géif maachen.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>D&apos;Migratiounen</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>Migratioun</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Zoustand</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>Wat se géif maachen</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>Simulatioun: %result an %ms ms</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>Nach keng Migratioun.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>Virun an no dem Laf</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>Momentopnam virdrun</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>gemaach, a restauréiert, wann eng Migratioun feelschléit</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>aus</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>Momentopnam duerno</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>gemaach, wann de Laf gelongen ass</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>%total Migratiounen: %pending op, %done fäerdeg, %failed feelgeschloen.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>Historique vun de Migratiounen</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>All Laf mat sengem Benotzer, senger Ëmgebung, senge Momentopnamen an deem, wat committed, getaggt a gepusht gouf. E feelgeschloenen oder ënnerbrachene Laf ka weidergefouert ginn; e Laf mat enger Momentopnam vu virdrun ka réckgängeg gemaach ginn.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>D&apos;Leef konnten net gelies ginn: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>D&apos;Tabelle vun de Migratiounen existéieren nach net: ./console exp:upgrade --apply mécht se.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Weisen</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Alleguer</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>Leef</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Gestart</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Vum</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>Momentopnamen</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Depot</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Aktiounen</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>virdrun</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>duerno</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>Push: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>Weiderfueren</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Zréckrollen</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>Kee Laf an dësem Zoustand.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>Hei gestart</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>Leef, Weiderféierungen an Zréckrollungen, déi op dëse Säite gestart goufen, all mat sengem Rapport.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Wat</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Resultat</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Zréckrollung</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>Zréckrollung vun %target</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>Laf %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Wat de Laf gemaach huet, säin Androg a säi Log. E Laf, deen hei gestart gouf, leeft am Hannergrond weider, wann dës Säit zougemaach gëtt; maacht d&apos;Säit nees op, fir en ze verfollegen.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>Dëse Laf weiderféieren</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>Dëse Laf zréckrollen</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>Den Androg konnt net gelies ginn: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Fortschrëtt</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Gestart vum %user um %time.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>De Code gëtt gepréift an eng Momentopnam virum Laf gemaach</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>%id leeft (%index vun %total)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>%done vun %total fäerdeg</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>D&apos;Migratioune sinn gelaf; d&apos;Momentopnam gëtt restauréiert, wann eng feelgeschloen ass</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>Momentopnam nom Laf, Commit, Tag a Push</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>D&apos;Momentopnam gëtt restauréiert</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>De Laf ass eriwwer. Säi Rapport gëtt gelueden.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>De Fortschrëtt konnt net verfollegt ginn. Luet d&apos;Säit nei, fir ze gesinn, wéi de Laf steet.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>Dës Säit verfollegt de Laf, während e leeft.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Nei lueden</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Rapport</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Zäit</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms Millisekonnen</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>Wat de Laf als Feeler ausginn huet</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Androg</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>Ëmgebung</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>keng</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Eriwwer</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Iwwerdroung</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Markéierung</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Verëffentlechung</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Noriicht</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>Migratioune vun dësem Laf</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>Quell</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>Log vum Laf</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>Just d&apos;Enn vum Log gëtt gewisen.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>leeft</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>ouni Rapport eriwwer</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>gelongen</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>feelgeschloen</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>refuséiert</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>d&apos;Datebank war net z&apos;erreechen</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>interne Feeler</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>E Laf ass amgaang</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind gestart vum %user um %time.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>Verfollegen</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>D&apos;Installatioun ass gespaart</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>En anere Laf hält d&apos;Spär (en Upgrade oder e Laf op der Konsol): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>fäerdeg</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>op</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>net néideg</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>onbekannt</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>zréckgerollt</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>ugewannt</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>géif ugewannt ginn</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>réckgängeg gemaach</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>géif réckgängeg gemaach ginn</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>net gelaf</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>waart op eng aner</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>Ännerung akzeptéiert</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>Ännerung géif akzeptéiert ginn</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>simuléiert</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migratiounen</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Zoustand</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Historique</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>%target réckgängeg maachen</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>E Laf gëtt op d&apos;Momentopnam vu virdrun zréckgesat, eng Migratioun mat hirem down(). Eng méi fréi Momentopnam ze restauréieren ass fir Experten. All dat leeft am Hannergrond als Dir, no enger Momentopnam vum aktuellen Zoustand.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>Wat réckgängeg gemaach ka ginn, konnt net gelies ginn: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>E Laf</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>Eng Migratioun</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>Eng méi fréi Momentopnam</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>Beschreiwung</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>jo</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>nee</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Momentopnam</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Bezeechnung</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>Gemaach</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Aart</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>Deeler fir ze restauréieren</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>D&apos;Datebank</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>D&apos;Späicherdateien (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>D&apos;Astellungen (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>D&apos;Restauratioun vun der Datebank setzt se op den Zäitpunkt vun der Momentopnam zréck, Sessiounen abegraff: Dir musst Iech duerno eventuell nees umellen. Alles, wat zënterhier geännert gouf, geet verluer; virdrun gëtt eng Momentopnam vum aktuellen Zoustand gemaach.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>Ech weess, wat dat restauréiert</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>Gitt d&apos;ID vun der Momentopnam nach eng Kéier an</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>Jo, réckgängeg maachen</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Ofbriechen</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>D&apos;Leef mat enger Momentopnam vu virdrun.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>Auswielen</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>Nach kee Laf mat enger Momentopnam.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>Déi ugewannt Migratiounen, déi sech selwer réckgängeg maache kënnen (si hunn en down()).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>Keng ugewannt Migratioun huet en down().</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>Méi fréi Momentopnamen (Experten)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>Nach keng Momentopnam.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>D&apos;Migratioune lafe loossen</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>De Laf leeft am Hannergrond als %user, a seng Säit weist en, während e leeft. Virun der éischter Migratioun gëtt eng Momentopnam vun der Installatioun gemaach; wann eng Migratioun feelschléit, hält de Laf un an d&apos;Momentopnam gëtt restauréiert.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>Fir d&apos;éischt en Testlaf</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>De Status konnt net gelies ginn: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>Oppe Migratiounen</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>Si lafen an dëser Reiefolleg. Huelt d&apos;Haken ewech, fir eng, an déi, déi se brauchen, fir e spéidere Laf ze loossen.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>Lafe loossen</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>Schalt de Wartungsmodus an, während e leeft.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>Geännert, nodeems se ugewannt goufen</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>Dës Dateie sinn net déi, déi ugewannt goufen. E Laf refuséiert se, ausser d&apos;Ännerung gëtt mat engem Grond akzeptéiert; si lafen net nach eng Kéier, déi nei Préifzomm gëtt agedroen an de Grond am Audit-Log gehalen.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>D&apos;Ännerungen akzeptéieren</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Firwat</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>D&apos;Standardastellunge sinn déi sécher. All Këscht léisst e Schrëtt ewech.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>Keng Momentopnam</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>Keng Momentopnam virun an no dem Laf: e Feeler kann net automatesch restauréiert ginn.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>Keng Restauratioun</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>No engem Feeler d&apos;Installatioun esou loossen, wéi de Feeler se gelooss huet.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>Net committéiert Ännerunge behalen</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>Lafe loossen, och wann Astellungen, Erweiderungen oder Designs net committéiert Ännerungen hunn; si kommen an d&apos;Momentopnam.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>Kee Commit</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>D&apos;Statusdatei an de Log vum Laf net committen (och keen Tag a keen Push).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>Kee Push</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>Committen an taggen, mee net pushen.</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>Keen Tag</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>Committen a pushen, mee de Laf net taggen.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>Jo, dës Migratiounen elo lafe loossen</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Keng Migratioun ass op.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>Zréck bei de Status</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>Ännerunge vun dëser Installatioun, eemol als Dateie geschriwwen (Inhalt, Klassen, Rollen, Astellungen, Schema) an op all Installatioun vum Site an der selwechter Reiefolleg ugewannt. E Laf mécht fir d&apos;éischt eng Momentopnam, restauréiert se, wann eng Migratioun feelschléit, an dréit an, committ a pusht, wat e gemaach huet.</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>%count oppe lafe loossen</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Iwwersiicht</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Op</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Fäerdeg</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Feelgeschloen</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>Net néideg</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>Datebank</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>Transaktiounen: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>Site-Migratioune sinn a migrations/, déi vun enger Erweiderung an extension/&lt;name&gt;/migrations/. Si lafen an der Reiefolleg vun hiren Nimm an deem, wat se brauchen.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Leschte Laf</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>D&apos;Datei gouf geännert, nodeems se ugewannt gouf.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>Nach keng Migratioun. ./console exp:migration:generate --skeleton &lt;name&gt; --apply schreift déi éischt.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>Déi lescht Leef</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>All d&apos;Leef</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>Nach kee Laf.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>Fir e Laf ze simuléieren, brauch een d&apos;Rechter migration/run.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>E Laf ass amgaang: simuléiert, wann e fäerdeg ass.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Konfiguratioun</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target ass kee Laf, keng Migratioun a keng Momentopnam vun dëser Installatioun.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>Kräizt fir d&apos;éischt &quot;Jo, réckgängeg maachen&quot; un.</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>Eng méi fréi Momentopnam ze restauréieren ass fir Experten: kräizt &quot;Ech weess, wat dat restauréiert&quot; un.</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>Gitt d&apos;ID vun der Momentopnam nach eng Kéier an: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>Wielt mindestens een Deel fir ze restauréieren.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>Dëse Laf huet keng Momentopnam vu virdrun: maacht seng Migratiounen eng no der anerer réckgängeg, oder restauréiert eng méi fréi Momentopnam.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>Dës Migratioun kann net eleng réckgängeg gemaach ginn: si ass net ugewannt, oder si huet keen down().</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>De Formulaire konnt net gelies ginn.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>Wielt de Laf, deen weidergefouert soll ginn.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>Kräizt fir d&apos;éischt &quot;Jo, dës Migratiounen elo lafe loossen&quot; un.</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>Wielt mindestens eng Migratioun.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>Eng Migratioun gouf geännert, nodeems se ugewannt gouf: akzeptéiert d&apos;Ännerung mat engem Grond, oder setzt d&apos;Datei zréck.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>Gitt de Grond un, firwat déi geännert Migratiounen akzeptéiert ginn.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>De Grond huet héchstens 500 Zeechen.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>E Laf, deen hei gestart gouf, ass nach amgaang (%detail). Waart, bis e fäerdeg ass.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>En anere Laf hält d&apos;Spär vun der Installatioun: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>De Laf brauch en ugemellte Benotzer, deen existéiert.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Kee php-Kommandozeilenprogramm gouf fonnt. Setzt migration.ini [AdminSettings] PhpCliPath op säi vollstännege Pfad.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open ass desaktivéiert, dofir kann hei kee Laf gestart ginn. Lafe loosst ./console exp:migration:migrate --apply um Server.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>Den Dossier vun de Leef kann net beschriwwe ginn: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>De Laf gouf gestart, huet awer seng Prozess-ID net gemellt. Kontrolléiert %detail.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>Nennt, wat réckgängeg gemaach soll ginn.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>De Laf konnt net gestart ginn.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>Ännerungen ophuelen</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>Soulaang eng Opnam leeft, gëtt dat, wat Dir an der Administratioun oder an der Säiteläischt vum Site ännert, als Schrëtt vun enger Migratioun gehalen: Inhalt, Klassen, Rollen a Richtlinnen, Sektiounen, Benotzer a Gruppen, URL-Aliasen, Astellungen. Stoppt se, wann Dir fäerdeg sidd, kuckt, wat se festgehalen huet, a generéiert eng Migratioun doraus.</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>D'Opname konnten net gelies ginn: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>D'Tabelle vun den Opnamen ginn et nach net: Lancéiert fir d'éischt den Upgrade (exp:upgrade --apply).</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>D'Ophuelen ass a migration.ini ausgeschalt ([RecordingSettings] Recording=disabled).</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>Meng Ännerungen</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>Hëlt just dat op, wat Dir ännert, egal wou, bis Dir se stoppt.</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>Opnam</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>zënter %time, bis elo %count Ännerung(en).</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>Etikett (fakultativ)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>Weisen, wat se festgehalen huet</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Opnam stoppen</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>Ufänken, meng Ännerungen opzehuelen</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>Fënster fir de ganze Site</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>Hëlt all Ännerung vun all Benotzer a vun der Konsol op, bis se zougemaach gëtt. Beim Opmaache musst Dir bestätegen, datt Dir et sidd.</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Op</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>Fënster zoumaachen</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>Fënster fir de ganze Site opmaachen</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>Opnamen</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>De Kont vun engem Benotzer (Login, E-Mail, Passwuert) an d'Felder vu Benotzerkonten ginn ni opgeholl.</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Ännerungen</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>Ganze Site</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>Ännerunge vum %name</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Gestoppt</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>Nach keng Opnam.</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>Opnam %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>All Opnamen</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>D'Migratioun, déi doraus géif entstoen</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>D'Ännerungen zesummegefaasst an ee Schrëtt pro geännert Saach: wat eng aus dëser Opnam generéiert Migratioun géif maachen.</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>Eng Migratioun kann doraus generéiert ginn, soubal dës Installatioun d'YAML-Schrëtttypen %types huet.</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>Bewosst ewechgelooss: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>Näischt gouf opgeholl.</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>Wat se festgehalen huet</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>%count Ännerung(en), an der Reiefolleg, an där se gemaach goufen.</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Ännerung</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>Schrëtt</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>Betrëfft</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>Nach %count: ./console exp:migration:record:show weist se all.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Verwerfen</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>Läscht d'Opnam an dat, wat se festgehalen huet. Wat geännert gouf, bleift geännert.</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>Jo, dës Opnam verwerfen</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>Hëlt op…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Är Ännerunge ginn fir eng Migratioun opgeholl.</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>All Ännerung op dësem Site gëtt fir eng Migratioun opgeholl (Fënster fir de ganze Site).</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>D'Opnam fir de ganze Site huet ugefaangen: all Ännerung vun all Benotzer gëtt opgeholl, bis Dir se stoppt.</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>D'Opnam huet ugefaangen: Är Ännerunge ginn opgeholl, bis Dir se stoppt.</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>Opnam gestoppt. Wat se festgehalen huet, bleift, bis Dir se verwerft.</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>D'Opnam an hir Evenementer goufe geläscht.</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>Et gëtt keng Opnam %id.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>Kräizt fir d'éischt „Jo, dës Opnam verwerfen“ un.</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>Just de Benotzer, deen opgeholl huet, däerf eng Sessiounsopnam stoppen.</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>Wielt d'Opnam, déi gestoppt soll ginn.</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>Eng Opnam vun dëser Zort leeft schonn.</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>D'Opnam konnt net geännert ginn: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>Migratioun generéieren</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>Numm vun der Migratioun (fakultativ)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>D'Migratioun %file ass geschriwwen. Ännerungen, déi kee Schrëtt maache kann, stinn uewen am Fichier a mussen vun Hand gemaach ginn.</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>Et gouf keng Migratioun geschriwwen: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>Een laange Llet a Portiounen</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>Eidel Felder behalen d'Astellunge vu migration.ini [RunSettings].</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>Héichstens esou vill Migratiounen</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>Keng weider Migratioun no (Sekonnen)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>Paus tëscht Migratiounen (Sekonnen)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>Méi niddreg Prioritéit (1 bis 19)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>E Feld fir de laange Lauf ass eng ganz Zuel ab 1 (d'Paus: Sekonnen vun 0 bis 60, d'Prioritéit: 1 bis 19) oder eidel.</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>Et mécht sech vu selwer um %time zou.</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>Vu selwer zoumaachen no (Minutten, optional)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>D'Minutte sinn eng ganz Zuel vun 1 bis 44640 (31 Deeg) oder eidel.</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>Migratioun %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>Nei Migratioun</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>Eng YAML-Migratioun: schreift se als Text oder stellt hir Schrëtt am Formulaire zesummen, kontrolléiert se an späichert se dann an engem Migratiounsdossier.</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>Dës Migratioun ass scho gelaf a gëtt dofir net nach eng Kéier gespäichert: E geännerte Fichier géif vun der Préifsummekontroll refuséiert ginn. Maacht d'Ännerung an enger neier Migratioun.</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>De Webserver kann de Fichier net schreiwen.</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>D'Kommentarzeilen uewen sinn de Kapp (description, author, requires, environments, engines). Wann e Schrëtt am Formulaire derbäigesat oder geännert gëtt, gëtt d'Migratioun nei geschriwwen: Kommentaren tëscht de Schrëtt bleiwen net erhalen.</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>Numm vun der Migratioun</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>Wouhin se kënnt</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>D'Websäit</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>YAML-Text</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>Kontrolléieren</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Späicheren</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Schrëtt</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>Schlëssel</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Änneren</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>No uewen réckelen</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>No ënnen réckelen</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Ewechhuelen</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>Nach keng Schrëtt: Setzt een mam Formulaire derbäi oder schreift se an den Text.</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>Schrëtt %number änneren</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>E Schrëtt derbäisetzen</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>De Formulaire vun engem Schrëtt entsteet aus sengem Schrëtttyp: seng Schlësselen, wat jiddwereen unhëlt an zu wéi enge Modi e gehéiert.</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>Schrëtttyp</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>Säi Formulaire weisen</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>De Schrëtt huet Schlësselen, déi säin Typ net kennt; si falen ewech, wann de Schrëtt geännert gëtt: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>Modus</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>An</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>nëmmen an %modes</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>Standard: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>Konditiounen, Referenzen a Kommentar</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>Pairen Numm=Wäert, mat Kommaen getrennt. D'Wäerter vun dësem Schrëtt: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>Beispill</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>Schrëtt änneren</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>Schrëtt derbäisetzen</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>Wat exp:migration:check seet: de Kapp, d'Dokument an all Schrëtt, vu sengem Schrëtttyp kontrolléiert.</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>D'Migratioun besteet d'Kontroll.</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Virschau</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>De YAML, sou wéi e gespäichert gëtt.</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>YAML weisen</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>YAML-Migratiounen</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>ass gelaf</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>Et gëtt nach keng YAML-Migratiounen.</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>Editeur</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>An de Migratiounsdossieren gëtt et keng YAML-Migratioun %id.</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>Wielt e Schrëtttyp.</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>De Schrëtt ass derbäigesat. Kontrolléiert d'Migratioun, ier Dir se späichert.</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>De Schrëtt ass geännert. Kontrolléiert d'Migratioun, ier Dir se späichert.</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>Wielt e Schrëtt.</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>Dëse Schrëtt huet kee Formulaire (eng Schleif oder e Schrëtttyp, deen dës Installatioun net huet): Ännert en am Text.</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>Wielt, wouhin d'Migratioun kënnt: d'Websäit oder eng aktiv Extensioun.</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>%file gespäichert. Maacht en Testlaf, ier d'Migratioun leeft.</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>Net gespäichert: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>Géigestellen</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>Déi aner Installatiounen, un déi dës hir Migratiounen ausliwwert: Eng Ausliwwerung schéckt d'Migratiounen un déi gewielt Géigestellen a léisst se do lafen, all gläichzäiteg an am Gläichstand. Eng Géigestell hält ni e Geheimnis: Hir Umeldedate nennen eent a Konfiguratioun &gt; Geheimnisser.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>Nei Géigestell</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Hëllef</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>Verbindungstest vun %id</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>D'Géigestellen</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>Bis zu %parallel Géigestelle ginn zur selwechter Zäit beaarbecht; eng Phas däerf op all eenzeler %timeout Sekonnen daueren.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>Géigestell</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adress</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Umeldedaten</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>Gruppen</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>Astellunge fir ze korrigéieren</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>nëmme Fichieren (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>SSH-Schlëssel</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>Passwuert</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>keng (SSH-Agent a Schlëssele vum Host)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>Verbindung testen</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>Eng Ausliwwerung un eng Grupp geet un all hir Géigestellen.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>Un Géigestellen ausliwweren</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>Nach keng Géigestell ageriicht.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>Géigestell %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>Hei gëtt näischt geschéckt oder lafe gelooss: Späicheren schreift d'Astellungen an settings/override/migration.ini.append.php. D'Umeldedate sinn en Numm; hire Wäert bleift a Konfiguratioun &gt; Geheimnisser oder an der Ëmgebung.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Kontrolléiert dës Astellungen</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>D'Astellunge wéi aginn, nach net gespäichert.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Iwwerpréifen</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>D'Astellunge si gülteg. Dës Zeile ginn geschriwwen:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>Transport</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>nëmmen en Numm; de Wäert bleift an Konfiguratioun &gt; Geheimnisser</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>D'Zeilen, déi geschriwwe ginn</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>Verbindung</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>Host-Schlëssel</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. D'Géigestell</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>Wéi d'Géigestell heescht a wéi eng Ëmgebung se ass.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>Buschtawen, Zifferen, - an _, zum Beispill production1. Si bezeechent d'Géigestell a Rapporten an op der Konsol (--remotes=production1) a kann duerno net méi geännert ginn.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... Eng Ausliwwerung a Stufen geet d'Ëmgebungen an dëser Reiefolleg duerch.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>Fakultativ, mat Kommaen getrennt, zum Beispill production. Eng Ausliwwerung un eng Grupp geet un all hir Géigestellen.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. D'Verbindung</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>Wéi d'Fichieren dohinner kommen a wou d'Installatioun läit.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>Iwwer SSH, nëmmen dat, wat geännert huet, eng ofgebrache Iwwerdroung gëtt weidergefouert. Déi bescht Wiel, wou rsync installéiert ass.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>SSH mat scp fir d'Fichieren.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>SSH mat sftp fir d'Fichieren.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>Nëmme Fichieren: D'Migratioune ginn geschéckt an zréckgelies, kënnen do awer net lafe gelooss ginn.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>FTP iwwer TLS; nëmme Fichieren.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>Eng aner Installatioun op dësem Server, an engem Dossier.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Host</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>En Hostnumm oder eng Adress, zum Beispill node1.example.com. Net fir local.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>Port</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>Eidel: 22 fir SSH, 21 fir FTP.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Benotzer</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>Pad</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>De Wuerzelverzeechnes vun der Installatioun do, zum Beispill /var/www/site (bei FTP: de Pad, deen de FTP-Kont gesäit).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>PHP-Kommandozeil</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>D'PHP-CLI do: php oder e kompletten Pad wéi /opt/plesk/php/8.4/bin/php.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>D'Konsolskripter lafen do als root</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>Nëmmen, wann de Benotzer vun der Géigestell root ass (si lafen dann mat --allow-root-user).</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. D'Umeldedaten</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>Wéi dës Installatioun sech do umellt. Gespäichert gëtt nëmmen en Numm.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Keng</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>Den SSH-Agent an d'Schlëssele vum Benotzer, als deen dës Installatioun leeft (an ëmmer bei local).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>E private Schlëssel, als Geheimnis ofgeluecht.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>E Passwuert, als Geheimnis ofgeluecht (FTP mellt sech domat un).</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>Numm vum Geheimnis</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>E Geheimnis aus Konfiguratioun &gt; Geheimnisser, zum Beispill deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Konfiguratioun &gt; Geheimnisser</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>Oder eng Ëmgebungsvariabel</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>D'Variabel vum Serverprozess, déi et enthält, zum Beispill DEPLOY_KEY (gespäichert als env:DEPLOY_KEY). Si trëtt un d'Plaz vum Numm vum Geheimnis.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. De Host-Schlëssel</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>Fakultativ, fir SSH, sftp an rsync.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>Fangerofdrock vum Host-Schlëssel</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... sou wéi ssh-keygen -l en ausgëtt. Mat him muss den Host dëse Schlëssel weisen; ouni hie gëtt de Schlëssel beim éischte Kontakt geléiert.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. Iwwerpréifen</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>Maacht en Test vun der Verbindung mat den Astellungen uewen, a kuckt dann d'Zeilen no, déi geschriwwe ginn.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>Dës Géigestell ewechhuelen</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>Hir Astellunge ginn aus settings/override/migration.ini.append.php erausgeholl. Op der Géigestell ännert sech näischt, an hir Ausliwwerunge bleiwen am Historique.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>Jo, dës Géigestell ewechhuelen</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>Ausliwwerungen</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>Eng Ausliwwerung schéckt d'Migratioune vun dëser Installatioun un déi gewielt Géigestellen a léisst se do als %user lafen, all gläichzäiteg an am Gläichstand: All Géigestell gëtt fir d'éischt kontrolléiert, a wann eng feelschléit, gëtt all Géigestell, déi ugewannt huet, zréckgeholl. Si leeft am Hannergrond, an hir Säit weist all Géigestell, während si leeft.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. D'Géigestellen</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>Kräizt Géigestellen, eng Grupp oder béides un.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>Dohin ausliwweren</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. Wéi</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>Ausliwweren</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>Schécken a lafe loossen</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>D'Migratioune ginn op all Géigestell geschéckt, iwwerpréift a mat enger gemeinsamer Laf-ID lafe gelooss.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>Nëmmen iwwerdroen</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>D'Fichieren ginn geschéckt an iwwerpréift, näischt gëtt lafe gelooss (deen eenzege Wee fir eng FTP-Géigestell).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>A Stufen</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>Stuf fir Stuf an der Reiefolleg vun den Ëmgebungen (dev, stage, beta, production ...): Déi éischt Stuf gëtt ausgeliwwert, dann waart eng Paart, bis een déi nächst approuvéiert. Alles oder näischt bannent all Stuf.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>Nëmmen dës Migratiounen</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>Fakultativ: Migratiouns-IDen, mat Kommaen getrennt. Eidel: all Migratioun vum Site a vu sengen Extensiounen.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>Nëmmen d'Virkontroll</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>Jo, elo ausliwweren</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>D'Ausliwwerungen, déi eppes geschéckt oder lafe gelooss hunn, déi neist fir d'éischt (eng Virkontroll behält kee Rapport).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>nëmmen iwwerdroen</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>a Stufen, %stages Stufen</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>net am Gläichstand</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>Nach keng Ausliwwerung.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>Ausliwwerung %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>All Géigestell vun der Ausliwwerung mat hirem Stand. Eng Ausliwwerung, déi hei gestart gouf, leeft am Hannergrond weider, wann dës Säit zougemaach gëtt; maacht d'Säit nees op, fir se ze verfollegen.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>All Ausliwwerungen</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>Virkontroll</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>Nächst Stuf</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>D'Astellungen an d'Umeldedate ginn iwwerpréift</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>Virkontroll: De Stand vun all Géigestell gëtt gelies</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>D'Migratiounsfichiere ginn geschéckt</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>Wat ukomm ass, gëtt iwwerpréift</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>D'Migratioune lafen op all Géigestell</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>D'Géigestelle ginn zréckgeholl</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>D'Ausliwwerung ass eriwwer. Hire Rapport gëtt gelueden.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>De Fortschrëtt konnt net verfollegt ginn. Luet d'Säit nei, fir ze gesinn, wéi et mat der Ausliwwerung steet.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>Phas</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>Dës Säit verfollegt d'Ausliwwerung, während se leeft.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>Am Gläichstand</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>Stufen</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>Stuf %stage waart un hirer Paart</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>Paart %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>approuvéiert vum %user um %time</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>Stuf</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>Geschéckte Fichieren</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>Kernel-Versioun</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>ugewannt: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>unzewenden: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>Phasen</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>Paart: Stuf %stage vun %stages</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>D'Stufen dovir sinn ausgeliwwert. Kontrolléiert se an approuvéiert dann déi nächst Stuf: Hir Géigestelle ginn nach eng Kéier kontrolléiert an ausgeliwwert, alles oder näischt.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Weider</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>Jo, déi nächst Stuf elo ausliwweren</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Approuvéieren</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>Dës Ausliwwerung zréckrollen</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>All Géigestell, déi se ugewannt huet (%list), geet zréck op d'Momentopnam virun hirem Laf, all gläichzäiteg.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>Jo, dës Ausliwwerung elo zréckrollen</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>geplangt</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>iwwerdroen</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>ausgeliwwert</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>waart un enger Paart</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>ausgewielt</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>virbereet</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>prett</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>waart op hir Stuf</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>Fichiere geschéckt</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>iwwerpréift</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>feelgeschloen, huet sech selwer restauréiert</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>onverännert</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>net ausgeliwwert</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>net erreechbar</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>D'Géigestell huet geäntwert.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>D'Géigestell kann elo net benotzt ginn.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done fäerdeg, %pending op, %failed feelgeschloen</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>Spär</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>e Laf hält do d'Spär</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>fräi</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stage vun %stages</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>Wielt d'Géigestell, déi getest soll ginn.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>Kräizt fir d'éischt „Jo, dës Géigestell ewechhuelen“ un.</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>D'Géigestell konnt net ewechgeholl ginn: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>D'Géigestell konnt net gespäichert ginn: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>D'Astellungsdatei ka net gelies ginn: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>Wielt mindestens eng Géigestell oder Grupp.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>Eng gewielt Géigestell ass net méi an den Astellungen. Luet d'Säit nei.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>Kräizt fir d'éischt „Jo, elo ausliwweren“ un.</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>Eng FTP-Géigestell kann keng Migratioune lafe loossen: Wielt „Nëmmen iwwerdroen“ oder loosst se ewech.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>D'Migratiounen, déi ausgeliwwert solle ginn, sinn Migratiouns-IDen, mat Kommaen getrennt.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>D'Ausliwwerung leeft nach. Waart, bis se eriwwer ass.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>Dës Ausliwwerung waart net un enger Paart.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>Keng Géigestell huet dës Ausliwwerung ugewannt: Et gëtt näischt zréckzerollen.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>Kräizt fir d'éischt „Jo, déi nächst Stuf elo ausliwweren“ un.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>Kräizt fir d'éischt „Jo, dës Ausliwwerung elo zréckrollen“ un.</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>Eng Géigestell mat der ID %id gëtt et schonn.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>De Port ass eng Zuel vun 1 bis 65535.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>D'Ëmgebung ass e Wuert aus Buschtawen, Zifferen, - an _ (alpha, dev, stage, beta, production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>Eng Grupp ass e Wuert aus Buschtawen, Zifferen, - an _ (net all): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>D'Umeldedate kënnen elo net gelies ginn: %problem. Leet se virun der éischter Ausliwwerung a Konfiguratioun &gt; Geheimnisser of (oder setzt d'Variabel).</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>Eng FTP-Géigestell kritt nëmme Fichieren: Eng Ausliwwerung dohin ass „Nëmmen iwwerdroen“, an hir Migratioune ginn do mat der Hand lafe gelooss.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>D'Géigestell %id steet net an settings/override/migration.ini.append.php; huelt se do ewech, wou se agestallt ass.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>Iwwer FTP ugemellt an index.php gelies. De Migratiounsstand vun enger FTP-Géigestell kann net gelies ginn.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>Geännert</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>Erstallt</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Numm</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Klass</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Sektioun</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>Ersteller</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Nei Inhalter</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>Déi lescht erstallt a geännert Inhalter vum ganze Site, déi neisten als éischt: wat Visiteuren agereecht hunn, wat fir d'Iwwerpréiwung zréckgehal gëtt, Entwërf, déi op hir Publikatioun waarden. Wielt Elementer aus, fir se fräizeginn, zréckzehalen, ze verstoppen, ze weisen, ewechzehuelen oder an eng aner Sektioun oder an en anere Zoustand ze réckelen.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>D'Lëscht konnt net gelies ginn: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>D'Zréckhale fir d'Iwwerpréiwung ass nach net ageriicht, dofir gëtt näischt zréckgehalen an d'Aktioune fir zréckzehalen ginn net ugebueden. Den Aktualiséierungsschrëtt 6.0.15-review-hold riicht et an: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>D'Lëscht filteren</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Vun</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Bis</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Datum</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>Erstallt (fir d'éischt publizéiert)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Alles</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Publikatiounsstatus</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Publizéiert</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>Entworf, ni publizéiert</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>Amgaang (waart op Fräigab oder en Datum)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>An der Dreckskëscht</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Fir d'Iwwerpréiwung zréckgehal</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>Zréckgehal</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>Net zréckgehal</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>Verstoppt</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>Siichtbar</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>Agereecht iwwer</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>All Site-Zougang</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>Just dat, wat den Audit opgezeechent huet.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>Elo: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>E Login oder eng Benotzer-ID.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Filteren</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>Filteren zrécksetzen</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>Elementer</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from bis %to vun %count</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Keen Element</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(gelies an %ms ms)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>Aktiounen op déi ausgewielt Elementer</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>All op dëser Säit auswielen</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>%count ausgewielt</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Aktioun</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>Eng Aktioun wielen</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>D'Zréckhalen ophiewen</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Fir d'Iwwerpréiwung zréckhalen</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Verstoppen</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>Weisen</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>An d'Dreckskëscht réckelen</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>Läschen</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>Sektioun zouweisen</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>Zoustand zouweisen</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>Grond</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>Néideg fir zréckzehalen; gëtt mam Zréckhalen an am Audit gespäichert.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>Eng Sektioun wielen</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Zoustand</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>En Zoustand wielen</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>Op déi ausgewielt uwenden</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>All Element gëtt géint Är eege Rechter gepréift. Fir d'Réckelen an d'Dreckskëscht an d'Läsche musst Dir confirméieren. Méi wéi %count Elementer lafen am Hannergrond.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>Auswielen</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>Publikatioun</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>Agereecht vun</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>%name auswielen</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>nach net</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(keen Numm)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>Entworf</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Amgaang</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>Duerch säin iwwergeuerdent Element verstoppt</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>Zréckgehal: nei Areechung</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>Versioun %version amgaang</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>Versioun %version a Bearbechtung</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>Entworf, Versioun %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>Versioun %version publizéiert</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>Geplangt fir %date</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>keng Adress</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>net opgezeechent</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>Näischt passt op dës Filteren.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>All weisen</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>Et gëtt nach keng Inhalter.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Pro Säit</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>%count Elementer pro Säit weisen.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says "not recorded".</source>
+        <translation>D'Adress an de Browser vun enger Areechung kommen aus dem Audit-Index, deen hei net disponibel ass: d'Kolonn weist „net opgezeechent“.</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>D'Adress an de Browser sinn déi, déi den Audit fir d'Element opgezeechent huet (dat automatescht Zréckhalen zeechent se ëmmer op; Publizéieren an Erstellen nëmmen do, wou et ageschalt ass), sou wéi seng Dateschutzastellungen se behalen.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: %count Elementer</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>D'Läsche läscht d'Elementer definitiv, mat all hire Versiounen an Iwwersetzungen. Dat kann net réckgängeg gemaach ginn.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>D'Elementer kommen an d'Dreckskëscht, vu wou se erëmhiergestallt kënne ginn.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>All Element gëtt géint Är eege Rechter gepréift; en Element mat Ënnerelementer bleift wéi et ass (huelt et an der Inhaltsstruktur ewech). Dir gitt gefrot ze confirméieren, datt Dir et sidd.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>Dat leeft am Hannergrond: seng Fortschrëttssäit geet op, an d'Resultat pro Element gëtt gewisen, wann et fäerdeg ass.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>Déi ausgewielt Elementer</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>an nach %count</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Ofbriechen</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>Et gouf näischt gemaach</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Grond: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>D'Aktioun leeft nach am Hannergrond.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>Hire Fortschrëtt</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>D'Hannergrondaktioun ass feelgeschloen: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Gemaach</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Ofgeleent</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Feelgeschloen</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>Pro Element</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>Element</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Resultat</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Firwat</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>Zréck op d'Lëscht</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Konfiguratioun</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>Näischt gemaach</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>Confirméieren</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>Wielt eng Aktioun.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>Wielt mindestens een Element aus.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>Wielt héchstens 1000 Elementer op eemol aus.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>Sot, firwat d'Elementer zréckgehal ginn.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>Wielt d'Sektioun.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>Wielt den Zoustand.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>De Formulaire konnt net gelies ginn.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>Iwwersiicht</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>Nei Inhalter</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>D'Zuele konnten net gelies ginn: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Fir d'Iwwerpréiwung zréckgehal</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>Haut nei</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>D'Zréckhale fir d'Iwwerpréiwung ass nach net ageriicht (den Aktualiséierungsschrëtt 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>All nei Inhalter</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>Dir däerft keng Moderatiounsaktioune maachen (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>D'Moderatiounsaktioun ass net komplett: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>Moderatioun: %action op %count Objeten</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%done vun %total Objeten: %ok gemaach, %refused ofgeleent, %failed feelgeschloen</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok gemaach, %refused ofgeleent, %failed feelgeschloen</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>Et existéiert net méi.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>Et huet keng Plaz (net publizéiert).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>Dir däerft et net verstoppen (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>Dir däerft et net weisen (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>Et ass schonn verstoppt.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>Et ass net verstoppt.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>Verstoppt.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>Gewisen.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>Et ass an der Dreckskëscht: eidelt se oder stellt et do erëm hier.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>En Entworf, deen ni publizéiert gouf, kann net an d'Dreckskëscht: läscht en.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>Dir däerft et net läschen (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>Geläscht.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>Dir däerft et net ewechhuelen (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>Et huet Ënnerelementer: huelt et an der Inhaltsstruktur ewech, wou se opgelëscht sinn.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>Et gouf net ewechgeholl (vläicht hält en Aarbechtsoflaf d'Ewechhuelen zréck).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>An d'Dreckskëscht geréckelt.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>D'Sektioun existéiert net.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>Et ass schonn an dëser Sektioun.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>Dir däerft dës Sektioun net zouweisen (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>D'Sektioun gouf net zougewisen.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>Sektioun zougewisen.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>Den Zoustand existéiert net.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>Et ass schonn an dësem Zoustand.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>Dir däerft dësen Zoustand net zouweisen (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>Den Zoustand gouf net zougewisen (vläicht hält en Aarbechtsoflaf d'Ännerung zréck).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>Zoustand zougewisen.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>Et gëtt keng esou Aktioun.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>D'Zréckhale fir d'Iwwerpréiwung ass net ageriicht (den Aktualiséierungsschrëtt 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>Sot, firwat et zréckgehal gëtt.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>Et gëtt schonn zréckgehal.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>Dir däerft et net zréckhalen (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>D'Zréckhale gouf net gesat (vläicht hält en Aarbechtsoflaf d'Ännerung zréck).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>Zréckgehal.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>Et gëtt net zréckgehal.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>Dir däerft et net fräiginn (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>D'Zréckhale gouf net opgehuewen (vläicht hält en Aarbechtsoflaf d'Ännerung zréck).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>Fräiginn; ëmmer nach verstoppt: Dir däerft et net weisen (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>Fräiginn.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>All Ziler</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Lescht Publikatioun</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>Publizéiert eng gratis statesch Kopie vun Ärem Site op GitHub Pages:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Verault Säiten</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Statescht Publizéieren</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Statescht Publizéieren ass ausgeschalt.</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Zil</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>D&apos;Ziler konnten net gelies ginn: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>eng Aufgab leeft</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>Build fir ze kontrolléieren</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>dëst verstoppen</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>en Zil maachen</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>ni</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>den Tutorial liesen</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>%added derbäi, %changed geännert, %removed ewechgeholl</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%bytes vun %limit (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>%count weider sinn net opgelëscht.</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>%pages Säite geschriwwen</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path huet %size, méi wéi den Host fir ee Fichier erlaabt.</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>%percent % vun der Limit</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds s</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag ass d&apos;Publikatioun, déi de Site elo huet.</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: Aufgab %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>/depot/ fir e GitHub-Projetssite; eidel fir eng eege Domän oder e Benotzersite.</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. De Site</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. Den Host</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. Umeldung beim Depot</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. Den Depot</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. Linken a Basispfad</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. Är eege Domän</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. Wat de Build enthält</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. Wéini publizéiert gëtt</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. Iwwerpréiwen a späicheren</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>E GitHub-Projetssite läit ënner /&lt;repository&gt;/; relativ Linke funktionéieren do an iwwerall soss.</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>E Build rifft all Säit vun %site of, esou wéi e Besucher, deen net ugemellt ass, se gesäit, schreift d&apos;Linken ëm, kopéiert d&apos;Fichieren a schreift d&apos;Resultat an den Dossier vum Zil. Näischt gëtt publizéiert, ier Dir de Build kontrolléiert an op Publizéieren dréckt.</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>En Cron-Ausdrock, zum Beispill 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>En Deploy-Key gëtt als Geheimnis %secret behalen.</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>En Deploy-Key léisst dës Installatioun iwwer SSH an een eenzegen Depot pushen an néierens soss. Seng privat Hälschent bleift an Konfiguratioun &gt; Geheimnisser; nëmmen déi ëffentlech Hälschent gëtt gewisen.</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>En Deploy-Key, dee fir dëst Zil gemaach gouf</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>En Deploy-Key mellt sech iwwer SSH un: ännert d&apos;git-Adress op déi SSH-Adress (git@github.com:owner/repo.git).</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>Eng Aufgab leeft, gestart vum %user</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>Eng Aufgab vun dësem Zil leeft nach (%detail). Waart, bis se fäerdeg ass.</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>Eng Aufgab vun dësem Zil leeft nach. Waart, bis se fäerdeg ass.</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>E Link vun der Säit /news/ op d&apos;Säit /about-us/team gëtt esou geschriwwen</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>En neien Deploy-Key gouf gemaach. Setzt seng ëffentlech Hälschent elo an den Depot.</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>Eng Säit, déi nom Botzen nach Debug-Ausgab, e Formulaire-Token oder eng Sessiouns-ID dréit, gëtt ni publizéiert.</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>Eng Zréckrollung ass fir Experten: kräizt „Ech weess, wat dat ännert“ un a tippt den Numm vum Tag nach eng Kéier.</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>E Site däerf bis zu %site grouss sinn, ee Fichier bis zu %file, mat ongeféier 100 GB Traffic de Mount. Mat engem gratis Abonnement muss den Depot ëffentlech sinn. GitHub Pages ass net fir Geschäfter oder aner kommerziell Transaktioune geduecht.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>En Zil ass ee Site, deen an een git-Depot publizéiert gëtt. Hei gëtt näischt gebaut oder publizéiert: Späicheren schreift d&apos;Astellungen an settings/override/staticcache.ini.append.php.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>En Zil ass ee Site, deen op eng Plaz publizéiert gëtt, zum Beispill Ären ëffentleche Site op GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>En Token aus Konfiguratioun &gt; Geheimnisser</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>E Workflow vum Depot publizéiert en.</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>Setzt dësen ëffentleche Schlëssel mat Schreifrecht an den Depot. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, kräizt Allow write access un.</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>Derbäigesat</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>En anere git-Host</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>En anere Prozess schafft un dësem Zil: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>Zréck</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>Basispfad</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Virdrun</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>Ënner engem Basispfad</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>Zweig</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>Futtis Linken</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>Futtis Linken am Build</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>Build</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>Build %id vum %user</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>Build vun %name</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>Elo bauen</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>Build fir ze kontrolléieren</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Vum</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>Mat der Hand, hei</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Ofbriechen</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Änneren</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>Geännert</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Ännerungen</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>Fir d&apos;éischt kontrolléieren</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Kontrolléiert dës Astellungen</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>Kontrolléiert, wat de Build ännert, kuckt en Iech un, publizéiert en dann oder geheit en ewech.</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>Wielt d&apos;Publikatioun, op déi zréckgaange gëtt.</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>Kënnt mat enger spéiderer Versioun.</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Commit</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>Commits</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>Mécht e Commit vum Build, taggt en a pusht en op %remote. E Push gëtt ni forcéiert; Dir kënnt spéider op all Publikatioun zréckgoen.</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>Verglach mam Dossier virdrun: %added derbäi, %changed geännert, %removed ewechgeholl, %unchanged onverännert.</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>Verglach mat der leschter Publikatioun.</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Umeldedaten</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>Eegen Domän</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>Debug-Ausgab, Formulaire-Tokens, Sessiouns-IDen an Nonces ginn ëmmer erausgeholl.</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>Deploy-Key</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>Deploy-Key vun %name</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Verwerfen</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>De Build verwerfen</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>Domän</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>Eidel: d&apos;Adress vum Site. Soss eng intern Adress vum selwechte Site.</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Ofgeschloss</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>All Link fänkt mam Basispfad un.</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>All Publikatioun ass e Commit mat engem Tag static/%id/&lt;n&gt;. Zréckgoen mécht en neie Commit mat de Fichiere vun enger fréierer Publikatioun: d&apos;Geschicht bleift, keen Tag gëtt verréckelt an näischt gëtt forcéiert.</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>Extraen</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>D&apos;Säiten ofruffe vun</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Fichier</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>Fichieren</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>Feelend Fichieren</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>Fichiere vun</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>Fichieren, déi net gesammelt konnte ginn</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>Fangerofdrock</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>Dossier</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>Fir eng SSH-Adress. De Schlëssel gëtt nom Späichere gemaach; Dir setzt seng ëffentlech Hälschent an den Depot.</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>Fir eng https://-Adress. GitHub: e fine-grained Token mat Liese- a Schreifrecht op Contents fir den Depot.</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>Fir Experten. Den ëffentleche Site ännert sech, soubal de Push duerch ass.</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Formulairen</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>Gratis Hosting aus engem GitHub-Depot.</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>Vum Zweig</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>Git-Adress</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages erlaabt e Site vun %site an ee Fichier vun %file.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>Limitte vu GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages publizéiert d&apos;Fichieren esou wéi se sinn (néideg fir Fichieren, déi mat _ ufänken).</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub servéiert den Zweig esou, wéi e gepusht gëtt. De Standard.</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, Ären eegene Server: all git-Depot.</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>Op eng fréier Publikatioun zréckgoen</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Hëllef</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>Hëllef zum Assistent</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>Verstoppen</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Historique</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>Historique vun %name</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Host</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>Wéi GitHub Pages de Build kritt</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>Ech hunn d&apos;Ännerunge kontrolléiert</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>Ech weess, wat dat ännert</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>Et ass ausgeschalt: näischt ka gebaut ginn, bis et ugeschalt ass.</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>Et leeft am Hannergrond als %user; Dir kënnt dës Säit zoumaachen.</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>Aufgab %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>Als Geheimnis %secret behalen.</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Aart</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Lescht Publikatioun</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>Dës Säiten auslossen</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>Dës Rubriken auslossen</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Linken</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>Ëmgeschriwwe Linken</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>Live-Site</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>De Build ukucken</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>Klengbuschtawen, Zifferen, _ an -, zum Beispill github-public. Et benennt den Dossier an d&apos;Tags (static/&lt;id&gt;/&lt;n&gt;) a kann duerno net méi geännert ginn.</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>En neie Schlëssel maachen</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>En Zil maachen</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>De Schlëssel maachen</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>Maacht den Depot fir d&apos;éischt um Host; en eidelen ass an der Rei.</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>Manifest</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Noriicht</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>Déi meescht Säiten</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Numm</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>Numm vum Token an Konfiguratioun &gt; Geheimnisser</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>Neit Zil</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Weider</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>Neen</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>Nach kee Commit.</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>Kee Schlëssel gouf gemaach: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Keen php-Kommandozeilenprogramm gouf fonnt. Setzt migration.ini [AdminSettings] PhpCliPath op säi komplette Pfad.</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>Nach keen Tag.</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>Nach keen Zil.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Keen</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>Net am Build.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>Nach näischt publizéiert.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>Nach näischt publizéiert: all Fichier ass nei.</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>Benoriichtegen</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>No engem Zäitplang</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>Op der Konsol</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>Um Server: ./console exp:static:serve %id servéiert en op déi selwecht Aart.</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>Ee Pfad pro Zeil, * passt op all Deel: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>Nëmmen en Numm gëtt mam Zil gespäichert; den Token oder de Schlëssel selwer bleift an Konfiguratioun &gt; Geheimnisser an erschéngt ni an engem Log.</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>Nëmmen dat, wat d&apos;Säiten nennen</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>Nëmme mat engem Token. env:NAME liest amplaz eng Ëmfeldvariabel vum Server.</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>D&apos;Virschau opmaachen</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>Mécht de Build op, esou wéi den Host en servéiere wäert, aus dem Dossier vum Zil. De Link funktionéiert fir Iech eng Stonn laang.</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>Fakultativ. Eidel: dat, wat publizéiert gouf.</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>Fakultativ. Mat enger Domän gëtt de Site op hirer Wuerzel servéiert.</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Ausgab</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>Säiten</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>Säite vum Zil</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>Refuséiert Säiten</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>Nobearbechtung</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Virschau</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>Virschau a publizéieren</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>Virschau a publizéieren: %name</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>Virschau vum Build</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Fortschrëtt</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>Ëffentlech Adress</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>Ëffentleche Schlëssel</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>Publizéieren</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>Eng statesch Kopie vun engem Site op GitHub Pages oder all anere git-Host publizéieren: en bauen, d&apos;Ännerunge kontrolléieren, publizéieren an op eng fréier Publikatioun zréckgoen, wann et néideg ass.</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>Publikatioun, op déi zréckgaange gëtt</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>Publikatiounen</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Push</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>Den Tutorial liesen</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Protokoll</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Refuséiert</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>Relativ</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Nei lueden</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>Ewechgeholl</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>De Schlëssel ersetzen: deen ale funktionéiert net méi</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Rapport</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>Rapport vum Build</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Depot</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Iwwerpréiwen</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>D&apos;Iwwerpréiwung kontrolléiert all Astellung a weist d&apos;Zeilen, déi geschriwwe ginn. Nach näischt ass gespäichert.</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Zréckrollen</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Zréckrollung</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Späicheren</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>Zäitplang</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>Sichsäit</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>Rubriken-IDen, duerch Kommaen getrennt.</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>Op de Live-Site schécken</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>Astellung</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Astellungen</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>Astellunge vun %name</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Konfiguratioun</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Konfiguratioun &gt; Geheimnisser</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>An de Lëschte gewisen, zum Beispill „Ëffentleche Site op GitHub Pages“.</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>D&apos;Umeldung mat enger GitHub App kënnt mat der GitHub-Integratioun.</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>Websäit</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>Websäit fir ze publizéieren</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Gréisst</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>Gréisst a Limitten</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>Gréisst vum Build</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Verault Säiten</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Gestart</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Gestart vum %user um %time.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Zoustand</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Statescht Publizéieren</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>Statescht Publizéieren ass ausgeschalt</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Statescht Publizéieren ass ausgeschalt.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>Statescht Publizéieren ass ausgeschalt. Schalt et fir d&apos;éischt an Konfiguratioun &gt; Statescht Publizéieren un.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>Statescht Publizéieren ass ugeschalt.</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>Schrëtt %step vun %total</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Schrëtt</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>Botzen</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Ausschalten</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Uschalten</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>Statescht Publizéieren uschalten</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Tag</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>Tags</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Zil</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>Ziler kënne gemaach a geännert ginn, mee näischt gëtt gebaut oder publizéiert, bis et ugeschalt ass.</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>Seet de Sichmaschinnen, wat se liese sollen.</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>De Build konnt net verworf ginn: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>De Build ass datselwecht wéi déi lescht Publikatioun: et gëtt näischt ze publizéieren.</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>De Build gouf verworf: den Dossier enthält erëm déi lescht Publikatioun.</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>D&apos;Standardastellunge passe fir déi meescht Siten.</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>Den Dossier enthält e Build, deen nach net publizéiert ass; en neie Build ersetzt en.</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>Den Dossier vun den Aufgabe ka net geschriwwe ginn: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>D&apos;Aufgab konnt net virbereet ginn: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>D&apos;Aufgab konnt net gestart ginn.</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>D&apos;Aufgab ass fäerdeg. Hire Rapport gëtt gelueden.</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>D&apos;Aufgab brauch en ugemellte Benotzer.</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>D&apos;Aufgab gouf gestart, mee huet hir Prozess-ID net gemellt. Kontrolléiert %detail.</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>De Schlëssel</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>De gréisste Fichier: %path, %size.</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>D&apos;Zeilen, déi geschriwwe ginn</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>D&apos;Lëscht vun de Säite fir Sichmaschinnen; brauch d&apos;ëffentlech Adress.</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>D&apos;Säite ginn esou ofgeruff, wéi e Besucher, deen net ugemellt ass, se gesäit. Administratiouns- a Redaktiouns-Siteaccesse ginn ni ugebueden.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>De Fortschrëtt konnt net verfollegt ginn. Luet d&apos;Säit nei, fir ze gesinn, wéi d&apos;Aufgab virugeet.</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>Déi ëffentlech Hälschent vum Schlëssel:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>D&apos;Wuerzel vum Zweig</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>De Geheimnisspäicher ass nach net ageriicht (./console exp:upgrade --apply mécht seng Tabell), dofir ka kee Schlëssel behale ginn.</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>De Server mellt sech selwer un (mat sengem eegene SSH-Schlëssel oder Credential-Helper), oder den Depot ass op dësem Server.</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>D&apos;Astellung konnt net geschriwwe ginn: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>D&apos;Astellunge si gülteg. Dës Zeile ginn geschriwwen:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>D&apos;Astellungsdatei ka net gelies ginn: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>De Site geet zréck op d&apos;Fichiere vun där Publikatioun; e Build, deen nach net publizéiert ass, muss fir d&apos;éischt publizéiert oder verworf ginn.</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>Déi eege Säit vum Site fir Adressen, déi net existéieren.</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>D&apos;Zil konnt net gespäichert ginn: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>D&apos;Zil mellt sech nach net mat dësem Schlëssel un: wielt „En Deploy-Key, dee fir dëst Zil gemaach gouf“ a sengen Astellungen.</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>D&apos;Ziler konnten net gelies ginn: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>Et gëtt nach kee Build fir ze kontrolléieren.</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>Dës Installatioun huet keen ëffentleche Siteaccess. Administratiouns- a Redaktiouns-Siteaccesse ginn ni publizéiert.</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>Dës Säit verfollegt d&apos;Aufgab, während se leeft; se leeft am Hannergrond weider, wann d&apos;Säit zougemaach gëtt.</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>Dëst Zil huet nach keen Deploy-Key.</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>Dëst Zil gouf hei nach net gebaut.</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>Dëst Zil huet een.</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>Geheit dëse Build ewech: den Dossier enthält erëm déi lescht Publikatioun. De Live-Site ännert sech net.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>Kräizt fir d&apos;éischt „Ech hunn d&apos;Ännerunge kontrolléiert“ un.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Zäit</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>Ausléiser</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>Tippt den Numm vum Tag nach eng Kéier</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>Onverännert</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>Webhook</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Wat</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>Wat sech ännert</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>Wat all Fichier ass; gëtt ëmmer geschriwwen.</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>Wat d&apos;Aufgab gemaach huet an hire Protokoll. Eng Aufgab, déi hei gestart gouf, leeft am Hannergrond weider, wann dës Säit zougemaach gëtt.</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>Wat d&apos;Aufgab als Feeler ausginn huet</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>Wat d&apos;Säiten nennen, an all Bild vum publizéierten Inhalt</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Wéini</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>Wann eng Publikatioun feelschléit</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>Wann eng Publikatioun geléngt</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>Wann Inhalt publizéiert gëtt</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>Wouhi Linke féieren, déi op eppes weisen, wat d&apos;Kopie net enthält (d&apos;Sich, d&apos;Umeldung).</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>Vu wou déi statesch Kopie servéiert gëtt.</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>Wéi ee Site publizéiert gëtt, a wéi d&apos;Zil heescht.</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>Funktionéiert ënner all Pfad. De Standard.</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>Gëtt geschriwwen, soubal eng eege Domän agestallt ass.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>Jo</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>Dir kënnt ëmmer mat der Hand hei an op der Konsol bauen a publizéieren.</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>nëmmen en Numm; de Wäert bleift an Konfiguratioun &gt; Geheimnisser</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>ënner %path</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>ouni Rapport ofgeschloss</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>zousätzlech</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>feelgeschloen</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>Fichier</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages, oder main mam Dossier docs.</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>git-Host</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (mat engem Token) oder git@github.com:owner/repo.git (mat engem Deploy-Key); ni e Passwuert oder Token dran.</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/, fir d&apos;Sitemap an d&apos;kanonesch Linken.</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>Bild</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>ni</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>neen</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>keen Remote</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>keen: d&apos;Commits bleiwen am Dossier</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>keen: näischt geännert</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>net gepusht</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>näischt geännert</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>Säit</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>gelongen</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>proc_open ass desaktivéiert, dofir ka keng Aufgab hei gestart ginn. Benotzt ./console exp:static:build um Server.</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>Publikatioun</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>publizéiert</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>Push ausstoend</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>gepusht</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>refuséiert</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>relativ</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>Zréckrollung</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>zréckgerollt</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>leeft</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>nëmmen den Dossier</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: gëtt an de Fichier CNAME geschriwwen. Riicht den DNS vun der Domän op den Host, esou wéi deen et erkläert; HTTPS ka eng Zäit brauchen, bis et ugeet.</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>jo, nach net publizéiert</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>Eng GitHub App</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>E Workflow vum Depot publizéiert en. De Build schreift de Workflow-Fichier; loosst den Dossier eidel.</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>Nodeems en Zil mat engem GitHub-Depot an engem Token oder enger GitHub App gespäichert ass, kann dëse Schrëtt den Depot uleeën a GitHub Pages uschalten. Soss leet den Depot fir d'éischt op GitHub un; en eidelen ass an der Rei.</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>Zweig oder GitHub Actions?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>DNS iwwerpréiwen</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>Den Depot uleeën, wann en net existéiert</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>Leet den Depot op GitHub un a schalt GitHub Pages a sengen Astellungen un (Settings &gt; Pages).</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>Leet den Depot %repo un, wann e feelt (wann et gefrot gëtt), schalt GitHub Pages vum Zweig oder vu GitHub Actions un, esou wéi gespäichert, a setzt déi eegen Domän an HTTPS. Et benotzt déi gespäichert Astellungen: späichert d'Ännerungen fir d'éischt.</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>Detailer op GitHub</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>Gitt fir d'éischt déi eegen Domän an.</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>All Push gëtt fir d'éischt géint dës Limitte gepréift.</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>Fir eng https://-Adress op GitHub. D'App, déi fir dës Installatioun ageriicht ass, mellt sech un; si brauch d'Installatiouns-ID.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages servéiert e private Depot nëmme mat engem bezuelten Abonnement.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: eng Subdomän (www.example.com) brauch e CNAME-Record op &lt;owner&gt;.github.io; eng Apex-Domän (example.com) d'A-Records %ips.</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>Installatiouns-ID vun der GitHub App</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>Leschte Pages-Build</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>Limitten a Konditiounen</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>Néideg fir GitHub Pages mat engem gratis Abonnement.</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>Op GitHub</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>Nëmme mat enger GitHub App: d'Zuel um Enn vun der Adress vun der Installatioun vun der App op GitHub. D'App selwer gëtt an staticcache.ini agestallt (GitHubAppId, GitHubAppKey).</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>Privat</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>Ëffentlech</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>Späichert d'Zil fir d'éischt mat engem GitHub-Depot an engem Token oder enger GitHub App.</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>Setzt dës Records beim Provider vun der Domän:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>Op GitHub ariichten</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>Den DNS vun %domain weist nach net op GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>Den DNS vun %domain weist op GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>D'GitHub-Integratioun ass hei net disponibel: %problem. Publizéieren op den Zweig funktionéiert trotzdeem; schalt GitHub Pages an den Astellunge vum Depot un.</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>D'GitHub-Schrëtt sinn net disponibel fir dëst Zil: %problem.</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>De Status vu GitHub Pages gëtt mat engem Token oder enger GitHub App als Umeldedaten ugewisen.</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>Är eegen Domän benotzen</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>Wat wielen: Token, Deploy-Key oder GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>Mat engem GitHub-Depot an engem Token oder enger GitHub App kann den Assistent fir Iech den Depot uleeën, GitHub Pages uschalten an d'Domän setzen (Schrëtt 4).</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>gëtt gebaut</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>gebaut</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>vu GitHub Actions</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>vum Zweig %branch</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>nach keen</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>net fonnt</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>aus</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>privat</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>ëffentlech</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>an der Waardeschlaang</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>onbekannt</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%count op %pages Säit(en):</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>E .gz (an .br) niewent all Textdatei, fir Hosten déi se ausliwweren.</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>Eng kleng Säit fir all aal Adress an Alias vun enger Säit, sou datt al Linken weider funktionéieren.</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>Gëtt ëmmer geschriwwen, wann GitHub Actions de Site liwwert.</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>Eng SPDX-ID wéi CC-BY-4.0, oder den Text selwer.</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>Kuerf</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>Opruff un de Server</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Kommentaren</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>Formulairen déi Informatioune sammelen</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>GitHub-Actions-Workflow</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>Manner Leerplaz a keng Kommentarer an de Säiten.</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>Lizenz vum Inhalt</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Login</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>Minifizéieren</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>Aner Formulairen</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>Viraus kompriméieren</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>Viruleedungssäiten</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>Viruleedungssäiten: %count.</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Sichen</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>Sichindex: %pages Säit(en) a(n) %languages.</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>Stylesheets a Skripter, benannt no dem Hash vun hirem Inhalt, sou datt Browser se kënne behalen.</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>Déi geännert Säiten, e puer Minutten no der leschter Ännerung (de Cronjob-Deel staticpublish).</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>D'Lizenz vum Inhalt, aus dem Feld hei drënner.</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>De ganze Site, zu de Zäite vum Zäitplang (de Cronjob-Deel staticpublish).</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>Dës Deeler vun de Säite brauchen e Server; jiddereen huet en Ersatz kritt. Kontrolléiert se virun dem Publizéieren.</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>Wat statesch net fonktionéiert</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>Wat de Repository ass, fir wien en um Host opmécht.</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>ewechgelooss</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>den Ersatztext</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>den Formulaire-Endpunkt vun der Live-Site</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>d'Live-Site</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>d'Sichsäit vun der Kopie</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>De Formulaire konnt net geschéckt ginn.</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>Merci: de Formulaire gouf geschéckt.</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>De Formulaire gouf net ugeholl: kontrolléiert, wat Dir aginn hutt, a schéckt en nach eng Kéier.</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>Linken op Säiten ewechhuelen, déi d'Kopie net enthält</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>Linken an d'Administratioun ewechhuelen</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>Hiren Text bleift stoen. Biller, Formulairen a Linken op aner Websäite ginn ni ewechgeholl.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Versioun</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>Site-Zougäng fir ze publizéieren</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Site-Zougang</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>An der Wuerzel</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>Kee Site-Zougang an der Wuerzel: all eenzelen ass a sengem Dossier, an d'Wuerzel verlinkt op si</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Site-Zougäng</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>Kräizt ee Site-Zougang un, oder e puer, déi sech iwwer hire URI-Präfix ee Host deelen. Deen an der Wuerzel gëtt do geliwwert, déi aner am Dossier vun hirem Präfix (/ger/); Linken tëscht hinne bleiwen an der Kopie. Administratiouns-Zougäng ginn ni ugebueden.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>Statesch Verëffentlechung vun %target op %site ass feelgeschloen</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>Statesch Verëffentlechung vun %target op %site huet geklappt</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>Dës Mail gouf vun %site geschéckt, well d'Zil fir statesch Verëffentlechung %target dat freet.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>D'Ausliwwerung %deploy ass op %site feelgeschloen</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>D'Ausliwwerung %deploy waart op %site un enger Paart</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>D'Ausliwwerung %deploy ass op %site gelongen</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>Dës Mail gouf vun %site geschéckt, well migration.ini [RemoteSettings] Notify[] et verlaangt.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>Datentypen (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>Gezielt %time, nees no %minutes Minutten</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>En Datentyp späichert an ännert eng Aart vu Wäert vun engem Klasseattribut: eng Textzeil, e Bild, eng Relatioun. De Kär bréngt déi meescht, Extensiounen bréngen der méi. Hei sinn se all, wien se liwwert a wéi vill Inhalter se benotzen. En Datentyp, deen d'Datebank benotzt, deen awer näischt méi registréiert, mécht d'Inhalter futti, déi en hunn.</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>Klassegruppen</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>Elo nees zielen amplaz d'Zuele vun de leschte Minutten ze benotzen.</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>Nees zielen</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Iwwersiicht</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>Registréiert</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>Am Gebrauch</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>Net benotzt</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>Extensiounen, déi Datentypen liwweren</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>Klasseattributer</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>Objetsattributer</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>Net registréiert</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>Opgelëscht, Fichier feelt</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>%count Datentypen gi benotzt, mee sinn net registréiert</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>%class_attributes Klasseattributer an %object_attributes Objetattributer hunn en Datentyp, deen keng Extensioun a keng Astellung registréiert. Hir Objete kënnen net ugewisen, geännert oder publizéiert ginn. Aktivéiert d'Extensioun, déi den Datentyp liwwert, oder ännert d'Klass.</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>Nëmmen dës weisen</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>Datentyp sichen</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>Identifiant, Numm, PHP-Klass oder Extensioun.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Weisen</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>All</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>Geliwwert vun</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>Jiddereen</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>Kär</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>Keen Datentyp passt op dëse Filter.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>All weisen</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>Extensioun</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%shown vun %count Datentypen, %used am Gebrauch</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>D'Datebank huet Klassen- oder Objetattributer vun dësen Datentypen, mee content.ini lëscht keen dovun op, oder säi Fichier feelt.</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>Datentypen vun %provider</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>Datentyp</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>PHP-Klass a Fichier</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>Klassen</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>Objeten</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>Markéierungen</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>keng</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>Keen Datentyp passt op d'Sich. Sich läschen.</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>%shown vun %count Datentypen ugewisen</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>Ugewisen Datentypen: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>Sortéieren no %column</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>Gezielt %time</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>All Datentypen</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>Hëllefsäit</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>Dësen Datentyp gëtt benotzt, mee ass net registréiert</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>D'Objete vun de Klassen hei ënnendrënner kënnen net ugewisen, geännert oder publizéiert ginn, soulaang keng Extensioun den Datentyp registréiert. Aktivéiert d'Extensioun, déi en liwwert, a setzt en an content.ini [DataTypeSettings] AvailableDataTypes[] derbäi, oder ännert d'Klassen.</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini lëscht dësen Datentyp op, mee keen Datentyp-Dossier huet säi Fichier. Näischt benotzt en; huelt en aus AvailableDataTypes[] eraus oder aktivéiert seng Extensioun.</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>Iwwer dësen Datentyp</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>Identifiant</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Numm</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Extensioun %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>keen</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>PHP-Klass</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Fichier</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>An AvailableDataTypes[]</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>jo</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>neen</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>Kolonne vu sengem Wäert</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>Kolonne vu sengen Klasseattribut-Astellungen</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>Tabellen</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>D'Kolonnen an d'Tabelle goufen duerch d'Liese vum Code vum Datentyp fonnt: eng Orientéierung, keng Garantie.</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>Schablounen</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Site-Zougang</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>Schabloun</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>Fonnt an</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>dës Administratioun</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>Standardsite</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>Ouni Overrides: eng Override-Schabloun, déi no Klass oder Attribut passt, geet virun dësen.</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>Klassen, déi en benotzen (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>Keng Klass huet en Attribut vun dësem Datentyp.</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Klass</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>Attributer</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>Klasseattributer (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>Attribut</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Astellungen</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>Obligatoresch</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>Duerchsichbar</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>Iwwersetzbar</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>Sammelt Informatiounen</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>E puer Inhalter, déi en benotzen</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>Lescht geännert als éischt</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Geännert</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>Knuet %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>All Iwwersetzung huet hiren eegene Wäert.</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>D'Sich indexéiert seng Wäerter.</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>E ka Informatioune vu Besucher sammelen (Formulairen).</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>Lëschte kënnen dono sortéiert ginn: Sortéierschlëssel %type.</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>Sortéierbar</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>Seng Wäerter weisen op aner Objeten.</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>Relatiounen</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>E kann aus engem einfachen Text gefëllt ginn (Import, REST).</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>Aus Text</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>E kann aus engem Fichier gefëllt ginn.</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>Aus Fichier</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>Seng Klasseattribut-Astellunge kommen an d'Packagen.</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>Packagen</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>Inhalter (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from bis %to vun %count</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>D'Lëscht filteren</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>All Klassen</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Sektioun</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Sproochen</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Besëtzer</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Publizéiert</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>Reiefolleg ëmdréinen</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Keen Element</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Pro Säit</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>%count Elementer pro Säit weisen.</translation>
     </message>
 </context>
 </TS>

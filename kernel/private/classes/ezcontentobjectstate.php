@@ -2,7 +2,7 @@
 /**
  * File containing the eZContentObjectState class.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -124,7 +124,30 @@ class eZContentObjectState extends eZPersistentObject
                "WHERE $conditionsSQL " .
                "ORDER BY ezcobj_state.priority";
 
-        $rows = $db->arrayQuery( $sql, array( 'limit' => $limit, 'offset' => $offset ) );
+        if ( $db->databaseName() === 'mongo' )
+        {
+            // three tables joined: MongoDB answers single-table selects only, so the states are read with a pipeline
+            // (the language of the first translation; MongoDB installations have one language per state so far)
+            $match = eZContentObjectStateGroup::mongoMatch( array_slice( $conditions, 0, count( $conditions ) - count( $defaultConditions ) ), 'ezcobj_state' );
+            if ( $match === null )
+                return array();
+            $pipeline = $match ? [ [ '$match' => $match ] ] : [];
+            $pipeline = array_merge( $pipeline, [
+                [ '$lookup' => [ 'from' => 'ezcobj_state_language', 'localField' => 'id', 'foreignField' => 'contentobject_state_id', 'as' => '_lang' ] ],
+                [ '$unwind' => [ 'path' => '$_lang', 'preserveNullAndEmptyArrays' => true ] ],
+                [ '$addFields' => [ 'language_id' => '$_lang.language_id', 'name' => '$_lang.name', 'description' => '$_lang.description',
+                                    'contentobject_state_id' => '$_lang.contentobject_state_id' ] ],
+                [ '$project' => [ '_id' => 0, '_lang' => 0 ] ],
+                [ '$sort' => [ 'priority' => 1 ] ],
+            ] );
+            if ( $offset > 0 ) $pipeline[] = [ '$skip' => (int)$offset ];
+            if ( $limit > 0 ) $pipeline[] = [ '$limit' => (int)$limit ];
+            $rows = $db->aggregate( 'ezcobj_state', $pipeline );
+            if ( $rows === false )
+                $rows = array();
+        }
+        else
+            $rows = $db->arrayQuery( $sql, array( 'limit' => $limit, 'offset' => $offset ) );
 
         $states = array();
         foreach ( $rows as $row )
@@ -309,84 +332,94 @@ class eZContentObjectState extends eZPersistentObject
             $db = eZDB::instance();
 
             $db->begin();
-
-            $languageMask = 1;
-            // set language mask and always available bits
-            foreach ( $this->AllTranslations() as $translation )
+            try
             {
-                if ( $translation->hasData() )
+
+                $languageMask = 1;
+                // set language mask and always available bits
+                foreach ( $this->AllTranslations() as $translation )
                 {
-                    $languageID = $translation->attribute( 'language_id' );
-                    if ( empty( $this->DefaultLanguageID ) )
+                    if ( $translation->hasData() )
                     {
-                        $this->DefaultLanguageID = $languageID & ~1;
-                    }
-                    // if default language, set always available flag
-                    if ( $languageID & $this->DefaultLanguageID )
-                    {
-                        $translation->setAttribute( 'language_id', $languageID | 1 );
-                    }
-                    // otherwise, remove always available flag if it's set
-                    else if ( $languageID & 1 )
-                    {
-                        $translation->setAttribute( 'language_id',  $languageID & ~1 );
-                    }
+                        $languageID = $translation->attribute( 'language_id' );
+                        if ( empty( $this->DefaultLanguageID ) )
+                        {
+                            $this->DefaultLanguageID = $languageID & ~1;
+                        }
+                        // if default language, set always available flag
+                        if ( $languageID & $this->DefaultLanguageID )
+                        {
+                            $translation->setAttribute( 'language_id', $languageID | 1 );
+                        }
+                        // otherwise, remove always available flag if it's set
+                        else if ( $languageID & 1 )
+                        {
+                            $translation->setAttribute( 'language_id',  $languageID & ~1 );
+                        }
 
-                    $languageMask = $languageMask | $languageID;
+                        $languageMask = $languageMask | $languageID;
+                    }
                 }
-            }
 
-            $assignToObjects = false;
-            if ( !isset( $this->ID ) )
+                $assignToObjects = false;
+                if ( !isset( $this->ID ) )
+                {
+                    $rows = $db->arrayQuery( "SELECT MAX(priority) AS max_priority FROM ezcobj_state WHERE group_id=" . $this->GroupID );
+
+                    if ( count( $rows ) > 0 && $rows[0]['max_priority'] !== null )
+                    {
+                        $this->setAttribute( 'priority', $rows[0]['max_priority'] + 1 );
+                    }
+                    else
+                    {
+                        // this is the first state created in the state group
+                        // make all content objects use this state
+                        $assignToObjects = true;
+                    }
+                }
+
+                $this->setAttribute( 'language_mask', $languageMask );
+
+                // store state
+                eZPersistentObject::storeObject( $this, $fieldFilters );
+
+                // store or remove translations
+                foreach ( $this->AllTranslations as $translation )
+                {
+                    if ( !$translation->hasData() )
+                    {
+                        // the name and description are empty
+                        // so the translation needs to be removed if it was stored before
+                        if ( $translation->attribute( 'contentobject_state_id' ) !== null )
+                        {
+                            $translation->remove();
+                        }
+                    }
+                    else
+                    {
+                        if ( $translation->attribute( 'contentobject_state_id' ) != $this->ID )
+                        {
+                            $translation->setAttribute( 'contentobject_state_id', $this->ID );
+                        }
+
+                        $translation->store();
+                    }
+                }
+
+                if ( $assignToObjects )
+                {
+                    $stateID = $this->ID;
+                    $db->query( "INSERT INTO ezcobj_state_link (contentobject_id, contentobject_state_id) SELECT id, $stateID FROM ezcontentobject" );
+                }
+
+            }
+            catch ( Throwable $e )
             {
-                $rows = $db->arrayQuery( "SELECT MAX(priority) AS max_priority FROM ezcobj_state WHERE group_id=" . $this->GroupID );
-
-                if ( count( $rows ) > 0 && $rows[0]['max_priority'] !== null )
-                {
-                    $this->setAttribute( 'priority', $rows[0]['max_priority'] + 1 );
-                }
-                else
-                {
-                    // this is the first state created in the state group
-                    // make all content objects use this state
-                    $assignToObjects = true;
-                }
+                // nothing of a transaction that failed half way is committed by a later commit()
+                if ( $db->transactionCounter() > 0 )
+                    $db->rollback();
+                throw $e;
             }
-
-            $this->setAttribute( 'language_mask', $languageMask );
-
-            // store state
-            eZPersistentObject::storeObject( $this, $fieldFilters );
-
-            // store or remove translations
-            foreach ( $this->AllTranslations as $translation )
-            {
-                if ( !$translation->hasData() )
-                {
-                    // the name and description are empty
-                    // so the translation needs to be removed if it was stored before
-                    if ( $translation->attribute( 'contentobject_state_id' ) !== null )
-                    {
-                        $translation->remove();
-                    }
-                }
-                else
-                {
-                    if ( $translation->attribute( 'contentobject_state_id' ) != $this->ID )
-                    {
-                        $translation->setAttribute( 'contentobject_state_id', $this->ID );
-                    }
-
-                    $translation->store();
-                }
-            }
-
-            if ( $assignToObjects )
-            {
-                $stateID = $this->ID;
-                $db->query( "INSERT INTO ezcobj_state_link (contentobject_id, contentobject_state_id) SELECT id, $stateID FROM ezcontentobject" );
-            }
-
             $db->commit();
         }
         else
@@ -561,9 +594,19 @@ class eZContentObjectState extends eZPersistentObject
     {
         $db = eZDB::instance();
         $db->begin();
-        $db->query( "DELETE FROM ezcobj_state_link WHERE contentobject_state_id=$id" );
-        eZPersistentObject::removeObject( eZContentObjectStateLanguage::definition(), array( 'contentobject_state_id' => $id ) );
-        eZPersistentObject::removeObject( eZContentObjectState::definition(), array( 'id' => $id ) );
+        try
+        {
+            $db->query( "DELETE FROM ezcobj_state_link WHERE contentobject_state_id=$id" );
+            eZPersistentObject::removeObject( eZContentObjectStateLanguage::definition(), array( 'contentobject_state_id' => $id ) );
+            eZPersistentObject::removeObject( eZContentObjectState::definition(), array( 'id' => $id ) );
+        }
+        catch ( Throwable $e )
+        {
+            // nothing of a transaction that failed half way is committed by a later commit()
+            if ( $db->transactionCounter() > 0 )
+                $db->rollback();
+            throw $e;
+        }
         $db->commit();
     }
 

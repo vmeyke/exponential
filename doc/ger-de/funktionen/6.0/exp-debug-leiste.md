@@ -30,7 +30,7 @@ Leiste ist unten angeheftet.
   daneben zählt nur, was die Datenbank erreicht hat. Jeder Wert öffnet seinen Reiter. Der Titel „Exp Debug“ und das Logo
   sitzen am rechten Ende, die Zusammenfassung der Seite links.
 - **Der Bereich** über der Leiste (standardmäßig 60 % des Fensters, eigenständig scrollend) hat die Reiter Meldungen,
-  Einstellungen, Cache, Zeiten, SQL, Templates, Eingebundene Dateien, Speicher und Velocity. Jeder Abschnitt des
+  Einstellungen, Cache, Zeiten, SQL, Templates, Eingebundene Dateien, Speicher, Rendering, Benutzer und Server. Jeder Abschnitt des
   klassischen Berichts ist mit seiner alten ID weiterhin da.
 - **Den Bereich in der Größe ändern**: Ziehen Sie den Streifen an der Oberkante des Bereichs (Maus, Stift oder Touch),
   oder fokussieren Sie ihn und verwenden Sie die Pfeiltasten (16 px, mit Umschalt 64 px; Pos1 und Ende für die kleinste
@@ -38,7 +38,7 @@ Leiste ist unten angeheftet.
   Fensters abzüglich der Leiste und wird pro Benutzer in der Einstellung `expdebugbar_panel_height` gemerkt, sodass sich
   der Bereich auf der nächsten Seite und in einem anderen Browser in dieser Höhe öffnet. Ohne Anmeldung (die Leiste nach
   IP gezeigt) wird die Höhe im Browser gehalten (Schlüssel `exp-debug-panel-height` in `localStorage`), nie in einer
-  Sitzung. Einzelheiten: [Die Höhe des Bereichs](../../bc/6.0/debug-leiste.md#die-höhe-des-panels).
+  Session. Einzelheiten: [Die Höhe des Bereichs](../../bc/6.0/debug-leiste.md#die-höhe-des-panels).
 - **Meldungen kopieren** auf dem Reiter Meldungen kopiert die gezeigten Meldungen (mit angewendeten Schaltflächen für die
   Stufe und dem Filterfeld) als einfachen Text in die Zwischenablage: pro Eintrag eine Zeile „Stufe: Quelle“, ein Tab und
   die Zeit, dann die Meldung, mit einer Leerzeile zwischen den Einträgen. Es verwendet die Zwischenablage des Browsers und,
@@ -47,7 +47,7 @@ Leiste ist unten angeheftet.
 - **Minimieren**: Klicken Sie auf das Exponential-Symbol am linken Ende (oder drücken Sie darauf Eingabe oder Leertaste),
   und die ganze Leiste wird zu einem Reiter von 40 px in der rechten unteren Ecke, der nur das Symbol und die Anzahl der
   Fehler zeigt.
-- **Beim Neuladen offen lassen**: Die Leiste merkt sich, ob sie offen war (Schlüssel `exp-debug-keep` und
+- **Beim Neuladen offen lassen** (in der Leiste kurz „Offen halten“, der volle Text als Tooltip): Die Leiste merkt sich, ob sie offen war (Schlüssel `exp-debug-keep` und
   `exp-debug-open` in `localStorage` des Browsers); ohne Haken beginnen die Details auf jeder Seite geschlossen.
 - Lesbar im hellen und im dunklen Modus; kein leerer Streifen mehr unter dem Copyright.
 
@@ -62,12 +62,34 @@ sie und vier Voreinstellungen (Template work, SQL tuning, Everything, Off). Exte
 Der Reiter **Cache** führt die Caches auf und leert sie über die Cache-Verwaltung, mit dem Zeitpunkt, an dem jeder zuletzt
 geleert wurde (oder „nie“).
 
+Die Leiste beginnt mit der Anfrage: HTTP-Status und Modul/View, grün, gelb bei einer Weiterleitung, rot ab Status 400; sie öffnet den Reiter **Rendering**, der mit
+einer Übersicht beginnt (Modul-View, Ansichts-Cache, Cache-Blöcke, Templates) und seine Teile als Unter-Reiter zeigt:
+Controller, Template-Baum, Ansichts-Cache von Inhalten, Cache-Blöcke und Templates.
+
+Der Reiter **Benutzer** (Chip `<Login> · VC <Profil>`, mit Personen-Symbol) beginnt mit einer Übersicht des Benutzers
+und hat vier Unter-Reiter (Cache-Profil, Präferenzen, Rollen und Richtlinien, Session). Er zeigt das Cache-Profil des Benutzers, den Fingerabdruck der Teile des
+Schlüssels im Ansichts-Cache von Inhalten, die vom Benutzer abhängen, sodass zwei Benutzer erkennen, ob sie sich die
+gecachten Ansichten teilen; seine Präferenzen und Rollenzuweisungen mit Links zu den Rollen; und in
+einem Abschnitt, der erst beim Öffnen geladen wird, die Richtlinien dieser Rollen, seitenweise, nach Rolle und per Suche
+(`content/read` findet auch die Platzhalter, die es gewähren), mit Klassen, Sektionen, Siteaccesses und Knoten mit Namen;
+und die eigene PHP-Session des Benutzers als Tabelle, geladen, wenn ihr Unter-Reiter gezeigt wird, Geheimnisse maskiert,
+nach Extension gruppiert, durchsuchbar.
+Der Reiter ist, wie der Reiter Rendering, für jeden, der
+die Debug-Ausgabe erhält, angemeldet oder nicht, und für `setup/setup`; wer die Debug-Ausgabe erhält, liest auch die
+Einstellungen, die Cache-Liste, OPcache und APCu, ändert aber ohne die Richtlinien nichts (`debugbar.ini ReadAccess`,
+`privileged` für die strengere Regel) ([Details](../../bc/6.0/debug-leiste.md#benutzer-rollen-und-cache-profil)).
+
 ## Wer sie verwenden darf
 
-Besucher, die den Debug-Bericht erhalten, sehen die Zusammenfassung der Seite, aber Einstellungen, Änderungsprotokoll,
-IP-Test und Cache-Liste brauchen die Richtlinien `setup/setup` (Einstellungen, Protokoll, IP-Test) oder
-`setup/managecache` (Cache-Liste). Bevor das am selben Tag verschärft wurde, konnte jeder Besucher, dem der Bericht
-gezeigt wurde, jede Debug-Einstellung lesen, mit Dateipfaden.
+Wer den Debug-Bericht erhält, liest standardmäßig alles, was die Leiste zeigt: die Einstellungen mit Dateipfaden, das
+Änderungsprotokoll, den IP-Test, die Cache-Liste, die Richtlinien seiner Rollen, OPcache und APCu. Eine Einstellung zu
+ändern braucht die Richtlinie `setup/setup`, einen Cache zu leeren `setup/managecache`, beides mit dem Formular-Token.
+`debugbar.ini [DebugBarSettings] ReadAccess=privileged` beschränkt auch das Lesen auf diese Richtlinien, die strengere
+Regel; eine Website, die den Debug-Bericht an Besucher gibt, denen sie ihre Konfiguration nicht
+anvertraut, setzt es ([Details](../../bc/6.0/debug-leiste.md#wer-was-lesen-darf-readaccess)). Niemand liest die
+Daten anderer: Die Session ist immer die eigene des Besuchers, das Änderungsprotokoll kommt ohne den Urheber jeder
+Änderung, IP- und Benutzerliste sind für Leser ohne `setup/setup` maskiert. Debug-Ausgabe auf einer öffentlichen
+Adresse zeigt jedem Besucher seine eigene Session: Im Produktivbetrieb `ReadAccess=privileged` setzen.
 
 ## Einstellungen
 

@@ -982,6 +982,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>Поиск выполняется только на этой странице: %from–%to из %count.</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Все типы данных ядра и расширений и то, как их используют классы и содержимое.</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Типы данных</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2314,6 +2322,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>Системные страницы тоже можно добавлять в закладки: откройте страницу (Настройка, журнал аудита, список пользователей ...) и выберите над ней «Добавить страницу в закладки». У таких закладок значок шестеренки.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>Вы больше не можете открывать эту страницу здесь. Удалите закладку или попросите администратора предоставить доступ.</translation>
     </message>
 </context>
 <context>
@@ -5163,6 +5175,210 @@
         <source>Go to the first page</source>
         <translation>Перейти на первую страницу</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>Другое</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>Последние 7 дней</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>Свой период</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>Все слова</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>Любое слово</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>Точная фраза</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>Релевантность</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>Название А–Я</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>Название Я–А</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>Изменено, сначала новые</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>Изменено, сначала старые</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>Опубликовано, сначала новые</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>Опубликовано, сначала старые</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Изменено</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>Фильтры</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>Показать фильтры</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>Скрыть фильтры</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Сбросить</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>Применить</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>Слова</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>Тип содержимого</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>Показать ещё (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>Выберите один тип содержимого, чтобы искать по одному из его атрибутов.</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Секция</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Откуда</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>По</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>Начальная дата указана неверно.</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>Конечная дата указана неверно.</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Владелец</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>ID пользователя, логин или адрес e-mail.</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>Пользователь «%input» не найден.</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Язык</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>Любой язык</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Расположение</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>Расположений: %count</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>Результатов на странице</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>Результаты по запросу «%text» (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>Результаты (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>Сортировать по</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>Сортировка</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>Активные фильтры</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>Убрать этот фильтр</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>Или выберите фильтры и примените их, чтобы вывести подходящее содержимое.</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>Фильтры сужают поиск, когда вы ввели слова.</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>По запросу «%text» ничего не найдено.</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>Ничего не найдено.</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>Уберите один из фильтров выше.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Переводы</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Действия</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>Изменить %name</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Изменить</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -8001,8 +8217,8 @@
         <translation>Уведомления об авторских правах первоначальных авторов и стороннего программного обеспечения, входящего в состав Exponential, хранятся в исходных файлах и в файле LICENSE, как того требует лицензия.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>Ниже приведен список участников разработки Exponential, которые лицензировали свою работу для использования компанией 7x на условиях Лицензионного соглашения участника eZ Systems. Как разрешено этим соглашением, 7x распространяет каждый вклад по той же лицензии, что и файл, в который он включен. В списке указан каждый участник, при желании его контактные данные и файлы, которые он создал или в которые внес вклад.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>Участники, которым выражается признательность за работу над Exponential и над программным обеспечением, из которого он вырос, с файлами, в которые они внесли вклад. Это признание, а не уведомление об авторском праве: вклады в Exponential передаются Exponential Foundation и 7x согласно Contributor Licensing Agreement.</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13824,32 +14040,20 @@ Note: The packages will not be uninstalled.</source>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;Оцените Exponential Enterprise Edition&lt;/a&gt; — &lt;a href=&quot;%share_link&quot;&gt;станьте участником сообщества Exponential, обменивайтесь опытом и вносите свой вклад&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; и другие.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>Работает на &lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt;. Дополнительные сведения: &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; и другие.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> Дополнительные сведения: &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
     </message>
     <message>
-        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; и другие.</translation>
+        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;Оцените Exponential (от 7x)&lt;/a&gt; — &lt;a href=&quot;%share_link&quot;&gt;станьте участником сообщества Exponential, получайте поддержку и вносите свой вклад&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; и другие.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13858,6 +14062,61 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Help center</source>
         <translation>Центр справки</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>Содержимое</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>Страницы документов</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>Пользователи</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>Классы содержимого</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>Администрирование</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>Страница %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>Показать все результаты</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>Результатов: %count</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>Один результат</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>Подсказок: %count</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>Нет подсказок</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>Не удалось загрузить подсказки.</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>Подсказки</translation>
     </message>
 </context>
 <context>
@@ -14326,6 +14585,14 @@ Note: The packages will not be uninstalled.</source>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>Эта установка является общедоступной демонстрацией: пароль администратора может знать кто угодно, а пароли администраторов нельзя изменить или сбросить. Не вводите здесь ничего личного.</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Ваши устройства</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Действия по безопасности</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14615,6 +14882,14 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>Руководства, поиск и способ сообщить об ошибке.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Новые материалы</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Новейшие материалы, то, что задержано на проверку, и действия с выбранными элементами.</translation>
     </message>
 </context>
 <context>
@@ -15073,6 +15348,46 @@ Note: The packages will not be uninstalled.</source>
         <source>Synchronisations</source>
         <translation>Синхронизации</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>GraphQL API: конечная точка, схема и песочница для пробы запросов.</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Миграции</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Изменения установки, хранимые в виде файлов: их состояние, запуски, выполнение и откат.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Новые материалы</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Новейшие материалы, то, что задержано на проверку, и действия с выбранными элементами.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Публикация статической копии сайта на GitHub Pages или любом git-хостинге.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Статическая публикация</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Типы данных</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Все типы данных ядра и расширений и то, как их используют классы и содержимое.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15237,6 +15552,22 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>Учетные записи, которыми никто не пользуется или которые требуют внимания; их можно отключить, разблокировать или экспортировать.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Журнал аудита пользователей</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>Кто вносил изменения, входил в систему или получил отказ, по каждой учетной записи; фильтрация и экспорт.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Отчет о входах</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>Кто вошел в систему, входы и неудачные попытки по дням; выход пользователя на всех устройствах.</translation>
     </message>
 </context>
 <context>
@@ -22053,6 +22384,22 @@ Note: The packages will not be uninstalled.</source>
         <source>%n hours ago</source>
         <translation>%n ч назад</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>Ответы сохранённых запросов GraphQL API и классы содержимого его схемы.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>Опубликовать статическую копию на GitHub Pages или любом git-хостинге</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Статическая публикация</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>Статический кэш отдаёт страницы с этого сервера. Чтобы опубликовать статическую копию сайта в другом месте, на GitHub Pages или любом git-хостинге, используйте статическую публикацию.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25594,6 +25941,10 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>last purge</source>
         <translation>последняя очистка</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>Записи не смогли взять блокировку состояния (последний раз %date): каждая из них делала устаревшими все кэшированные результаты. %file должен быть доступен для записи каждому пользователю, от имени которого работает сайт; на NFS нужны NFSv4 или lockd.</translation>
     </message>
 </context>
 <context>
@@ -33542,6 +33893,14 @@ Note: The packages will not be uninstalled.</source>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>Просроченные сеансы обработчика PHP удаляет сам PHP (session.gc_maxlifetime), а не эта страница и не часть задания cron session_gc.</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>Сеансы всех вошедших пользователей перечислены в отчете о входах, и там же их можно завершить; отчет работает с любым обработчиком сеансов.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>Открыть отчет о входах</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37866,6 +38225,26 @@ your account.</source>
     <message>
         <source>None yet</source>
         <translation>Пока нет</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Действия по безопасности</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>Ваши последние входы, неудачные попытки и изменения пароля, адреса электронной почты и двухэтапного входа.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>Последние входы, неудачные попытки и изменения безопасности этой учетной записи.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>Просмотреть действия</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>Неудачных попыток входа: %count</translation>
     </message>
 </context>
 <context>
@@ -44032,6 +44411,42 @@ If you want to send comments to the approver or view the status use the URL belo
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>После входа пользователь должен выбрать новый пароль, прежде чем продолжить работу. Используйте эту возможность, когда выдаете кому-либо временный пароль.</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>Выбрать существующее изображение</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>Файл изображения выбранного вами объекта копируется в это поле. Другой объект не изменяется.</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>Изображение из «%name» скопировано в это поле.</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>Обзор изображений</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>Поиск изображений по имени</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Найти</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>Использовать изображение из «%name»</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>Использовать это изображение</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>Нет изображений, соответствующих вашему запросу.</translation>
     </message>
 </context>
 <context>
@@ -50956,6 +51371,10 @@ See the requirements page for more information.</source>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>Crontab не записан (%reason). Добавьте эти строки в crontab пользователя, от имени которого работает сайт, иначе очередь, импорт, уведомления и поисковый индекс никогда не будут запускаться:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>Переустановка выполняется с помощью kickstarter (%file, затем php bin/php/kickstarter.php run --apply) или новой установкой.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54835,6 +55254,10 @@ your account.</source>
         <source>eZJSCore Public Packer cache</source>
         <translation>Кэш общего упаковщика eZJSCore</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>Кэш GraphQL (ответы и классы схемы)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54921,6 +55344,14 @@ your account.</source>
     <message>
         <source>Copy of %class_name</source>
         <translation>Копия %class_name</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Типы данных</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>Тип данных %string</translation>
     </message>
 </context>
 <context>
@@ -55747,6 +56178,26 @@ your account.</source>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>Не удалось прочитать SVG-изображение, или в нем нет ничего, что можно безопасно показать.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>Не удалось скопировать изображение. Повторите попытку или обратитесь к администратору сайта.</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>Выбранный объект не существует, или у вас нет прав на его чтение.</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>У выбранного объекта нет изображения.</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>Не удалось прочитать файл изображения выбранного объекта.</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>Изображение выбранного объекта больше, чем допускает это поле: %1 байт.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56277,6 +56728,42 @@ your account.</source>
         <source>The bookmark was renamed to "%name".</source>
         <translation>Закладка переименована в «%name».</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>Эта страница отключена в этом доступе к сайту (%siteaccess). Откройте закладку в доступе к сайту, в котором она есть.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>Модуль этой страницы здесь не установлен или не включен.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>Эта страница больше не существует: в ее модуле нет такого представления.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>Ни одна из ваших ролей не позволяет открыть эту страницу.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>Вам не разрешено использовать этот доступ к сайту.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>Вам не разрешено читать содержимое, которое показывает эта страница.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>Страницу такого типа нельзя добавить в закладки: она только обрабатывает форму или действительна лишь в один момент.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>Адрес этой страницы отсутствует.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>Сейчас эту страницу нельзя открыть.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56748,6 +57235,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>Почтовый транспорт отклонил сообщений при последнем запуске: %count. Проверьте почтовый сервер и site.ini MailSettings.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Ожидает событий: %count, а запусков задания cron для уведомлений не зарегистрировано. Добавьте часть заданий cron «frequent» в crontab или выполните exp:notification:run --apply.</translation>
     </message>
 </context>
 <context>
@@ -63004,6 +63495,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Choose another site or section with the node picker</source>
         <translation>Выбрать другой сайт или раздел в окне выбора узла</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>Сменить владельца может только системный администратор: выполните ./console exp:content-check --fix-permissions --apply от имени root.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64537,6 +65032,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>empty</source>
         <translation>пуста</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>Ключу подписи больше года: замените его командой exp:audit key rotate --apply.</translation>
     </message>
 </context>
 <context>
@@ -68367,6 +68866,486 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Share of page time</source>
         <translation>Доля времени страницы</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>запрошена полная обработка</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>в кэше страниц не было этой страницы (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>кэш страниц не ответил</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>Обработано</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>Обработано ядром: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>Отдано из кэша страниц за %ms мс. Страница сохранена в %stored после обработки длительностью %render мс, %age с назад.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>Обработать сейчас</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>Вернуться к странице из кэша</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>Из обработки в %stored (%render мс)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>Этот запрос: отдано из кэша страниц за %ms мс.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Пользователь</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>ID пользователя</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>Профиль кэша</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>Это представление</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>Кэш представлений</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>для каждого пользователя (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>Профиль кэша пользователя: пользователи с одинаковым профилем используют общие файлы кэша представлений</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>да</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>нет</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Вход</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>Вход выполнен</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>Сеанс</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>Части ключа кэша представления контента, зависящие от пользователя, в точности так, как их принимает ключ, при ViewCacheTweaks этой страницы. Пользователи с одинаковым профилем используют общие файлы кэша представлений, если только части самого представления не различаются (предпочтения, ключи слушателей): у таких представлений свой профиль, только для этой страницы.</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>Профиль</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>Это представление (узел %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: у каждого вошедшего пользователя собственные файлы кэша.</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>Действующие ViewCacheTweaks: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>Часть</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>Значение</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>Ни одна часть не зависит от пользователя (ViewCacheTweaks).</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>это представление</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>Копировать как текст</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>Роли</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>Не удалось прочитать назначения ролей.</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>ID роли</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Роль</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>Ограничение</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>Назначено</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>пользователю</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>группе %name (объект %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>Скопировано</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>Не удалось скопировать.</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>исключено слушателем</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>Анонимные посетители</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>совпадает с вашим</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>отличается</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>Профиль, который анонимные посетители получают при тех же ViewCacheTweaks, с предпочтениями по умолчанию, без частей представления: слушателя, читающего сессию, нельзя о них спросить.</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>Предпочтения</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>Ни один режим просмотра не зависит от предпочтений пользователя (site.ini [ContentSettings] CachedViewPreferences).</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>Предпочтения, от которых зависят представления этих режимов просмотра (CachedViewPreferences), со значением пользователя или значением по умолчанию. Они входят в профиль как userpreferences, все режимы просмотра вместе.</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>Режим просмотра</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>Предпочтение</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>По умолчанию</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>Правила доступа</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>Показать политики ролей (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>Политики загружаются с сервера при открытии этого раздела, постранично, и их можно фильтровать по модулю и функции.</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>Функция</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>Все модули</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>Все функции</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>Ограничения</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>Показать ещё</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>У этих ролей нет политик.</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>Ни одна политика не соответствует фильтру.</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%shown из %matching политик (всего %total)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>Загружается при открытии.</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>module/function, роль, ограничение</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>Поиск по политикам</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>Загрузить ещё</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>Модуль/функция</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>Все роли (политик: %count)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>Подходящих политик нет.</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%shown из %matched политик</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>Нет ответа</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>скрыто</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>Показать пояснения</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>Скрыть пояснения</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Открыть</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>Развернуть все</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>Свернуть все</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>Ключ или значение</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>Поиск в сеансе</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Тип</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>ещё %count</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>вложено слишком глубоко для показа</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>обрезано, всего символов: %count</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Начато</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>Имя cookie</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>ID сеанса</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>Обработчик</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>Путь сохранения</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>По умолчанию PHP</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>Время жизни (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>Файл cookie</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>время жизни %s с</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>Ваш собственный сеанс PHP в том виде, в каком он был при открытии раздела, и никогда не чужой. Значения ключей, похожих на секреты (токены, хэши, пароли), скрыты (debugbar.ini SessionMask[]); всё остальное показано так, как сохранено, включая персональные данные.</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>Ключей: %count, %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>большой</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>Сеанс пуст.</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>Для этого запроса сеанс не был запущен.</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Расширение %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>Ядро и прочее</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>Показаны не все записи: в сеансе больше, чем можно здесь перечислить.</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>Не перечислено ключей: %count.</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>Окружение</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>Значения, похожие на токен (JSON Web Token, учётные данные заголовка Authorization, закрытый ключ, длинный шестнадцатеричный или случайный текст), тоже скрываются, как бы ни назывался их ключ (debugbar.ini SessionValueMask[]).</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>Ключ похож на секрет (debugbar.ini SessionMask[]).</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>Значение похоже на токен.</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>Под скрытым ключом.</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>Сеанс в виде текста, скрытый так же, как в таблице.</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>Сеанс больше %size (debugbar.ini SessionWarnBytes): каждый запрос этого пользователя читает весь сеанс и записывает его, если он изменился.</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP хранит этот сеанс в файлах и блокирует файл на время всего запроса: запросы одного и того же пользователя (несколько вкладок, вызовы AJAX) ждут друг друга.</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>Оставлять открытой</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>Больше %size (debugbar.ini SessionWarnBytes): каждый запрос этого пользователя читает весь сеанс.</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%hits из %count прочитано из кэша</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>Ни один шаблон не отрисован (представление, прочитанное из кэша представлений, не отрисовывает шаблонов).</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>Назначения ролей</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>Роли и правила доступа</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>отличается от анонимных посетителей</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>как у анонимных посетителей</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70247,6 +71226,14 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>not sent</source>
         <translation>не отправлено</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Задание cron для уведомлений записывает здесь каждый свой запуск. Добавьте часть frequent в crontab или выполните exp:notification:run --apply.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>Используйте консоль: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -75965,6 +76952,98 @@ You will need to change the class of the node by using the swap functionality.</
         <source>This topic is not Released; readers do not see it.</source>
         <translation>Эта тема не выпущена; читатели ее не видят.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Миграции</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Изменения установки, хранимые в виде файлов: их состояние, запуски, выполнение и откат.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Публикация статической копии сайта на GitHub Pages или любом git-хостинге.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Статическая публикация</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>На проверке</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>Читатели видят эту страницу.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>Скрыта от читателей, пока кто-нибудь ее не выпустит.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>Страница теперь на проверке. Она скрыта от читателей, пока ее не выпустят.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>Страница выпущена: теперь читатели ее видят.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>Страница снова стала черновиком. Она скрыта от читателей, пока ее не проверят и не выпустят.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>Выпустить сейчас</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>Выпустить эту версию может только пользователь с ролью %role, который ее не писал.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>Темы справки, ожидающие выпуска</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>Скрывает ее от читателей, пока ее снова не выпустят.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>Затем ее проверит рецензент. Читатели ее пока не видят.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>Читатели сразу ее увидят.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>Снимает ее с проверки для доработки. Читатели ее не видят.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>Скрыть эту страницу от читателей?</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>Вернуть эту страницу в черновик?</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>Читатели больше не видят %title, пока кто-нибудь снова не выпустит эту страницу.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title возвращается в черновик на доработку. Читатели по-прежнему не видят страницу, а перед выпуском нужна новая проверка.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Отмена</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>Эти темы на проверке. Читатели увидят их, как только их выпустит тот, кто не писал текущую версию.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76136,6 +77215,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Setup &gt; Cronjobs</source>
         <translation>Настройка &gt; Задания cron</translation>
+    </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>Ни одна часть заданий cron еще не запускалась: очередь заданий, импорт, уведомления и поисковый индекс ждут. Выполните php bin/php/installcrontab.php --add --apply или добавьте строки из --show в crontab.</translation>
     </message>
 </context>
 <context>
@@ -76475,6 +77558,46 @@ You will need to change the class of the node by using the swap functionality.</
         <source>None.</source>
         <translation>Нет.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>с помощью приложения-аутентификатора</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>с помощью кода по электронной почте</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>с помощью кода восстановления</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>с помощью ключа доступа</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>с помощью внешней учетной записи</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Действия по безопасности</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>Показывается как сеть; адрес хранится так, как предусматривают параметры защиты данных сайта.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Не записано</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Местоположение</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>приблизительно</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76718,6 +77841,42 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Manage devices</source>
         <translation>Управление устройствами</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>с помощью приложения-аутентификатора</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>с помощью кода по электронной почте</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>с помощью кода восстановления</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>с помощью ключа доступа</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>с помощью внешней учетной записи</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Действия по безопасности</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Не записано</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Местоположение</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>приблизительно</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76797,6 +77956,14 @@ You will need to change the class of the node by using the swap functionality.</
         <source>View the sessions of this user</source>
         <translation>Показать сеансы этого пользователя</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>В вашу учетную запись %login на сайте %site только что выполнен вход из места, откуда в последнее время в нее не входили:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>Приблизительное местоположение</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76835,6 +78002,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%browser на %os</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Отчет о входах</translation>
     </message>
 </context>
 <context>
@@ -77043,6 +78214,82 @@ You will need to change the class of the node by using the swap functionality.</
         <source>The passkey could not be checked. Please try again.</source>
         <translation>Не удалось проверить ключ доступа. Повторите попытку.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>Учетные записи, которые входят только с ключами доступа, не могут использовать здесь пароль: выберите «Войти с ключом доступа».</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>Ключи доступа %login</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>Ключи доступа, с которыми входит эта учетная запись. Отзовите ключ, который находится на потерянном или украденном устройстве: с ним больше нельзя будет войти. Новые ключи владелец добавляет сам.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>Вашей учетной записи нужен ключ доступа</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>Добавьте ключ доступа к своей учетной записи</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>Добавьте ключ доступа, чтобы продолжить. Затем вы будете входить с ним, а не только с паролем.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>Вход с ключом доступа быстрее и безопаснее, чем с паролем. Добавьте его сейчас или продолжите без него.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>Не сейчас</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>Отозвать ключ доступа «%name»?</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>С ним больше нельзя будет войти в эту учетную запись. Если это был последний ключ, владелец входит с паролем, или вы задаете новый пароль.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>Отозвать ключ доступа</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>Отозвать</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>У этой учетной записи нет ключа доступа.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>Аутентификатор</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Неизвестно</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>Ваш последний ключ доступа: добавьте другой, прежде чем удалять его.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>Эта учетная запись входит только с ключами доступа (правило ключей доступа): если их не останется, она снова будет входить с паролем.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>Это ваш последний ключ доступа, и без него ваша учетная запись не сможет войти. Сначала добавьте другой ключ доступа.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>Ключ доступа «%name» отозван. С ним больше нельзя войти в эту учетную запись.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77142,6 +78389,34 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Code from your authenticator app</source>
         <translation>Код из приложения-аутентификатора</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>Вы собираетесь окончательно удалить данные или очистить журнал.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>Ваш пароль и ключ доступа</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>Ваш пароль и код из приложения-аутентификатора</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>Или:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>Этот браузер не может использовать ключи доступа. Выберите другой способ или другой браузер.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>Когда вы продолжите, браузер запросит один из ваших ключей доступа.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>Продолжить с ключом доступа</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77232,6 +78507,70 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Setup</source>
         <translation>Настройка</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>Изменение собственного пароля, адреса электронной почты, ключей доступа, двухэтапного входа, кодов восстановления или ключей API, а также выход из системы на других своих устройствах.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>Создание и редактирование пользователей, их паролей и устройств, параметров учетных записей, одобрение или отклонение новых учетных записей, назначение ролей и редактирование правил доступа.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>Удаление данных</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>Очистка корзины, удаление элементов из нее и удаление нескольких элементов сразу.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>Удаление, публикация и сохранение содержимого</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>Удаление содержимого (в том числе в корзину), публикация и сохранение черновика; запрос появляется при отправке формы. По умолчанию выключено.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>Перед важным действием вошедший пользователь еще раз подтверждает свою личность: паролем и ключом доступа или, без ключа доступа, паролем и кодом из приложения-аутентификатора. Спрашивают только веб-страницы: интерфейс REST, SOAP, WebDAV, вход expservices и командная строка никогда.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>Где действуют параметры</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>Параметры для</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Каждый доступ к сайту</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>Доступ к сайту %name</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Открыть</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>Кого спрашивать: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>Отметьте группы пользователей, чтобы спрашивать только их участников (например, редакторов). Ничего не отмечено: каждого пользователя.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>Сохраняется в settings/override/site.ini.append.php, для каждого доступа к сайту. При сохранении нужно подтвердить, что это вы.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>Сохраняется в settings/siteaccess/%name/site.ini.append.php. Значение в settings/override имеет приоритет. При сохранении нужно подтвердить, что это вы.</translation>
     </message>
 </context>
 <context>
@@ -77366,6 +78705,6822 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Open the page</source>
         <translation>Открыть страницу</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from – %to из %count</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>Имя пользователя или ID пользователя: учетная запись, которой касается событие, или пользователь, выполнивший действие.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Учетная запись</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Действие</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>После</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>Любой результат</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>До</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Исполнитель</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Сбросить</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Выполнено</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>Срок хранения событий в днях: %days.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>События хранятся, пока их не удалят вручную.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>События</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>Любое действие</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>Все события этой учетной записи</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>Экспортировать список в CSV (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Не удалось</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>С</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>Сузить список</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>Нет подходящих событий.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>На странице</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>Запись событий отключена в audit.ini ([UserAuditSettings] UserAudit); в списке показано то, что было записано ранее.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Отклонено</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Результат</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Показать</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>Таблица журнала аудита пользователей отсутствует. Создайте ее командой php update/common/scripts/6.0/createuseraudittable.php; до тех пор все события сохраняются в файлах аудита.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>Для этой страницы нужна база данных SQL; в MongoDB она недоступна. Все события сохраняются в файлах аудита.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>По</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Журнал аудита пользователей</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Пользователь</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Когда</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Где</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>Кто изменил, создал, включил, отключил, переместил или удалил какую учетную запись, кто вошел в систему или получил отказ и какие роли были назначены: одна строка на событие, со значениями полей до и после. Пароли и секретные данные никогда не записываются.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>группа</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>система</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>неизвестно</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>Защитить учетную запись</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>В вашу учетную запись %login на сайте %site выполнен вход с помощью кода восстановления.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>Использован код восстановления</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Учетная запись</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>Приблизительный адрес</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>Запросите новый пароль, чтобы снова войти, или обратитесь к администраторам сайта.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>Запросить новый пароль</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>Каждый код восстановления действует один раз. Если вы потеряли телефон, заново настройте приложение-аутентификатор и храните новые коды восстановления в надежном месте.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>Неудачные попытки входа в вашу учетную запись</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>Теперь при входе, помимо пароля, запрашивается код. Если это сделали вы, ничего делать не нужно.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>Если это были вы и вы забыли пароль, запросите новый. Если нет, выберите более надежный пароль и включите двухэтапный вход.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>Если это были не вы, кто-то может знать ваш пароль: смените его сейчас и проверьте, где выполнен вход в вашу учетную запись.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>Осталось кодов восстановления</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>Проверить ваши устройства</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>Оповещение безопасности</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>Кто-то пытался войти в вашу учетную запись %login на сайте %site с неверным паролем несколько раз подряд (попыток: %count).</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>С вашей учетной записью %login на сайте %site произошло событие безопасности.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>Это оповещение безопасности о вашей учетной записи. Оно отправляется при каждом таком изменении и не может быть отключено.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Время</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>Двухэтапный вход для вашей учетной записи %login на сайте %site отключен.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>Двухэтапный вход отключен</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>Двухэтапный вход для вашей учетной записи %login на сайте %site включен.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>Двухэтапный вход включен</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>Ваша учетная запись %login на сайте %site заблокирована после слишком большого числа неудачных попыток входа.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>Теперь ваша учетная запись защищена только паролем. Если это сделали не вы, смените пароль и снова включите двухэтапный вход.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>Ваша учетная запись заблокирована</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>К вашей учетной записи %login на %site добавлен ключ доступа.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>Тот, у кого есть этот ключ доступа, может войти в вашу учетную запись без пароля. Если вы его не добавляли, удалите его в разделе «Ключи доступа» и смените пароль.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>Из вашей учетной записи %login на %site удален ключ доступа.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>С ним больше нельзя войти в вашу учетную запись. Если вы его не удаляли, проверьте свои ключи доступа и устройства.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>К вашей учетной записи добавлен ключ доступа</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>Из вашей учетной записи удален ключ доступа</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>Действия по безопасности</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Действия по безопасности: %name</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Вход выполнен</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Неудачная попытка входа</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Выход выполнен</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Сеансы завершены</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Вход с нового устройства</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Вход из нового местоположения</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Личность подтверждена («Подтвердите, что это вы»)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Проверка личности не пройдена</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Вход с помощью ключа доступа</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Не удалось войти с помощью ключа доступа</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Вход отклонен: код двухэтапного входа отсутствует или неверен</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Неверный код двухэтапного входа</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Учетная запись заблокирована после неудачных попыток входа</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Учетная запись разблокирована</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Пароль изменен</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Не удалось изменить пароль</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Пароль сброшен</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Запрошен новый пароль</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Адрес электронной почты изменен</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Имя пользователя изменено</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Двухэтапный вход включен</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Двухэтапный вход отключен</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Использован код восстановления</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Новые коды восстановления</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Пароль приложения создан</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Пароль приложения отозван</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Ключ доступа добавлен</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Ключ доступа удален</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Учетная запись включена</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Учетная запись отключена</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Все</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Входы и сеансы</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Изменения учетной записи</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Требует внимания</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>вами</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>пользователем</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>пользователем %login</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>Способ</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>Браузер</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>Операционная система</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Устройство</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>Место</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>Страна</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Сеансы</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>Какие</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>Канал</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Неудачные попытки</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>Осталось кодов</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>Обработчик входа</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Действия по безопасности</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Действия по безопасности: %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Входы и изменения безопасности вашей учетной записи. Если вы видите действие, которого не совершали, смените пароль и завершите сеансы на устройствах, которые вы не узнаете.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>Входы и изменения безопасности этой учетной записи.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Ваши устройства</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Сменить пароль</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>Назад к учетной записи</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>Действия по безопасности не записываются</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>Они читаются из журнала аудита пользователей, таблица которого expuser_audit отсутствует или не поддерживается этой базой данных. Выполните php update/common/scripts/6.0/createuseraudittable.php или обновление базы данных до 6.0.15.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Последние дни: %days</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Входы за последние дни: %days</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>Последние действия по безопасности</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Показать</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>не удалось</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>отклонено</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Действий по безопасности пока не записано.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>События безопасности хранятся столько дней: %days.</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>События безопасности хранятся, пока их не удалит администратор.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Скачать мои данные о входах</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Ваши сеансы и события безопасности в виде файла JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>На этом сайте сеансы не записываются, поэтому выйти на других устройствах не удалось. Смените пароль прямо сейчас.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>Завершено других сеансов: %count. Теперь смените пароль.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>На других устройствах вход не был выполнен. Теперь смените пароль.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Спасибо. Событие отмечено как ваше.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Это событие не требует ответа.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Срок действия страницы истек. Ничего не изменено; повторите попытку.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Защитить учетную запись</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Если что-то здесь сделали не вы, выйдите на всех остальных устройствах, а затем выберите новый пароль. Устройства, на которых вход сохранен с помощью функции Запомнить меня, тоже будут отключены.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>На всех устройствах, кроме этого, выход произойдет при следующем запросе. Затем вы выберете новый пароль.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Да, выйти на других устройствах</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Это были вы?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Да, это был я</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Нет, защитить мою учетную запись</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Вход выполнен</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Неудачная попытка входа</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Выход выполнен</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Сеансы завершены</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Вход с нового устройства</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Вход из нового местоположения</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Личность подтверждена («Подтвердите, что это вы»)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Проверка личности не пройдена</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Вход с помощью ключа доступа</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Не удалось войти с помощью ключа доступа</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Вход отклонен: код двухэтапного входа отсутствует или неверен</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Неверный код двухэтапного входа</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Учетная запись заблокирована после неудачных попыток входа</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Учетная запись разблокирована</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Пароль изменен</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Не удалось изменить пароль</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Пароль сброшен</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Запрошен новый пароль</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Адрес электронной почты изменен</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Имя пользователя изменено</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Двухэтапный вход включен</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Двухэтапный вход отключен</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Использован код восстановления</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Новые коды восстановления</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Пароль приложения создан</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Пароль приложения отозван</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Ключ доступа добавлен</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Ключ доступа удален</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Учетная запись включена</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Учетная запись отключена</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Все</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Входы и сеансы</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Изменения учетной записи</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Требует внимания</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Действия по безопасности</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Действия по безопасности: %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Входы и изменения безопасности вашей учетной записи. Если вы видите действие, которого не совершали, смените пароль и завершите сеансы на устройствах, которые вы не узнаете.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Ваши устройства</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Сменить пароль</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>Действия по безопасности на этом сайте пока не записываются.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Входы за последние дни: %days</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Неудачные попытки</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Действий по безопасности пока не записано.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Скачать мои данные о входах</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Ваши сеансы и события безопасности в виде файла JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>На этом сайте сеансы не записываются, поэтому выйти на других устройствах не удалось. Смените пароль прямо сейчас.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>Завершено других сеансов: %count. Теперь смените пароль.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>На других устройствах вход не был выполнен. Теперь смените пароль.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Спасибо. Событие отмечено как ваше.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Это событие не требует ответа.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Срок действия страницы истек. Ничего не изменено; повторите попытку.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Защитить учетную запись</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Если что-то здесь сделали не вы, выйдите на всех остальных устройствах, а затем выберите новый пароль. Устройства, на которых вход сохранен с помощью функции Запомнить меня, тоже будут отключены.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>На всех устройствах, кроме этого, выход произойдет при следующем запросе. Затем вы выберете новый пароль.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Да, выйти на других устройствах</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Это были вы?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Да, это был я</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Нет, защитить мою учетную запись</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>Пароль</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>Пароль и код двухэтапного входа</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>Интерфейс REST</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>Интерфейс SOAP</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>Единый вход</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>Вход выполнен до начала записи сеансов</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Отчет о входах</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>Кто вошел на сайт, как часто учетные записи входят и не могут войти, а также выход пользователя на всех устройствах. Работает с любым обработчиком сеансов.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>Сеанс завершен. Устройству нужно войти снова.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>Пользователь %login выведен из системы, завершено сеансов: %count.</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>У пользователя %login не было активных сеансов.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>Нет учетной записи с таким ID, именем пользователя или адресом электронной почты.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>Это сеанс, который вы используете. Чтобы завершить его, выйдите из системы.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>Этот сеанс уже завершен.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Срок действия страницы истек. Ничего не изменено; повторите попытку.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>Сеансы на этом сайте не записываются (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>Таблица expuser_session отсутствует</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>Сеансы начнут записываться, как только она будет создана: php update/common/scripts/6.0/createusersessiontable.php или обновление базы данных до 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>Сейчас и сегодня</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>Активные сеансы</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>Вошедшие пользователи</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>Входы сегодня</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>Неудачные попытки сегодня</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>Выход пользователя на всех устройствах</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>Каждый сеанс учетной записи завершится при следующем запросе, в том числе сеансы, сохраненные с помощью «Запомнить меня». Используйте это, если учетная запись могла попасть в чужие руки; затем сбросьте ее пароль.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>ID пользователя, имя пользователя или адрес электронной почты</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>Выйти на всех устройствах</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>Сейчас в системе</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>Показаны последние использованные (не более %limit).</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Пользователь</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Устройство</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Адрес</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>Вход выполнен</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>Последняя активность</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Действия</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>Это устройство</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Не записано</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>Выйти</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>Нет сеансов с выполненным входом.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Последние дни: %days</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>Входы и неудачные попытки подсчитываются по журналу аудита пользователей, которого нет; новые сеансы подсчитываются.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>День</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>Входы</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Неудачные попытки</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>Новые сеансы</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>Обработчик сеансов: %handler. Сеансы читаются из таблицы expuser_session, поэтому отчет работает с любым обработчиком.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>Подозрительная активность за последние %hours ч.</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>Одна сеть не смогла войти в учетные записи (%accounts) (попыток: %count)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Учетная запись заблокирована после неудачных попыток входа</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>Неудачных попыток входа в одну учетную запись: %count</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>Вход одновременно из стран: %count</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Действия по безопасности</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Сеансы</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>Неудачные попытки входа берутся из журнала аудита пользователей, который здесь недоступен.</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>Ничего подозрительного: нет учетных записей с повторными неудачными попытками входа, нет сетей, пробующих несколько учетных записей, нет учетных записей со входом из нескольких стран.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>Оповещение безопасности для вашей учетной записи</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>С вашей учетной записью %login произошло событие безопасности: %event. Если это были не вы, защитите учетную запись по адресу %url.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Настройка</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>Запрашивайте у содержимого этого сайта ровно те поля, которые нужны странице, одним запросом. Схема следует классам содержимого; каждый запрос выполняется с правами пользователя, который его отправляет.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>GraphQL API отключён в этом доступе к сайту. Включите его в graphql.ini: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>Библиотека GraphQL (webonyx/graphql-php 15) не установлена.</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>Конечная точка</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>Библиотека</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>Схема</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>Классов содержимого: %count, схема %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>Запрос</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>Переменные (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Запустить</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>Ответ</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>Выполняется…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>Не удалось прочитать ответ.</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>Запрос выполняется с вашими правами, с входом в этом сеансе.</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%count за %seconds с</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>без ограничения</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>Глубина</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>Сложность</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>Элементов в списке</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (по умолчанию %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>Запросов на пользователя или ключ</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>Запросов на анонимный адрес</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>Интроспекция</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>Только сохранённые запросы</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>Наибольший запрос</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>%bytes байт</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>Наибольшая загрузка</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>Доступа к сайту %siteaccess нет.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>Мутации включены в %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>Мутации отключены в %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>GraphQL API включён в %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>GraphQL API отключён в %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>Не удалось записать настройки: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>Кеш ответов очищен: удалено ответов: %count.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>Отметьте флажок рядом с запросом, чтобы удалить его.</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>Не удалось удалить запрос: запрос, поставляемый в каталоге из PersistedQueryDirectoryList[], удаляется вместе со своим файлом.</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>Сохранённый запрос удалён.</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>Мутации</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>вкл.</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>выкл.</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Доступы к сайту</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>Где отвечают API и его мутации. Кнопки записывают graphql.ini, как это делают ./console exp:graphql:enable и exp:graphql:disable.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Доступ к сайту</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>GraphQL API</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Изменить</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Отключить</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>Мутации выкл.</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>Мутации вкл.</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Включить</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>Ограничения</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>graphql.ini [GraphQLSettings] этого доступа к сайту.</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>Кеш ответов</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>Ответы сохранённых запросов, хранятся отдельно по правам пользователя и устаревают при каждой публикации содержимого.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Состояние</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>Хранится ответов</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>Ответов: %count, %bytes байт</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>Хранится не дольше</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds с</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>Последнее устаревание</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>Очистить кеш ответов</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>Сохранённые запросы</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>Сохраняются командой ./console exp:graphql:persist или клиентами (автоматические сохранённые запросы); вызываются по имени или SHA-256.</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>Имена</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Размер</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Где</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Удалить</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>поставляемый</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>сохранённый</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>Да, удалить этот запрос</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>Сохранённых запросов пока нет.</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>Ключи API</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>Личные ключи API с областью graphql:read (запросы) или graphql:write (мутации). Создавайте и отзывайте их на странице Доступ к API или командой ./console exp:graphql:keys.</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>Доступ к API</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>Все ключи</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>Ключ</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Имя</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Владелец</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>Области</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>Последнее использование</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>активен</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>истёк</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>отозван</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>никогда</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>Ключей API с областью GraphQL пока нет.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>GraphQL API отключён в доступе к сайту %siteaccess, который показывает эту страницу; таблица ниже показывает, где он отвечает.</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>Для доступа к сайту %siteaccess, который показывает эту страницу.</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>Веб-хуки</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>Каждое событие, которое запрашивает конечная точка (publish, update, trash, delete, move, hide, reveal, mutation), отправляется ей с подписью частью cronjob graphqlwebhooks. ./console exp:graphql:webhooks делает то же, что и этот раздел.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>События</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>все</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Каждый доступ к сайту</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>сбой</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>нет секрета</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>Ожидают</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>Отменено: %count</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>Последняя доставка</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Отправить тест</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>Да, удалить этот веб-хук</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>Веб-хуков пока нет.</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>Добавить веб-хук</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>Добавить</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>Последние доставки</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Время</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Результат</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>Подписки</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>Обновления в реальном времени для клиентов: поток событий по адресу /api/graphql/subscribe и WebSocket (graphql-transport-ws) на Velocity. Каждое событие получают только подписчики, которым разрешено читать его содержимое.</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>Открыто сейчас</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>Максимум открытых</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>%total всего, %user на пользователя, %address на адрес</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>Анонимные подписки</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>Длительность потока</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>Не удалось добавить веб-хук: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>Веб-хук %name изменён; его секрет подписи сохраняется.</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>Не удалось сохранить секрет подписи (Настройка &gt; Секреты).</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>Веб-хук %name добавлен. Его секрет подписи, показанный только один раз: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>Веб-хука %name нет.</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>Веб-хук %name не ответил: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>Веб-хук %name ответил %status за %ms мс.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>Отметьте флажок рядом с веб-хуком, чтобы удалить его.</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>Веб-хук %name удалён.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>GraphQL API отключён в этом доступе к сайту.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>Библиотека GraphQL не установлена.</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>Используйте GET или POST.</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>Тело обращения не является объектом JSON.</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables не является объектом JSON.</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions не является объектом JSON.</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>Отправьте запрос методом POST.</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>Обращение не содержит запроса.</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>Запрос длиннее %max байт.</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>Внутренняя ошибка сервера</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node требует ровно одно из: id, remoteId, path и urlAlias.</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content требует ровно одно из: id и remoteId.</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>Курсор в after выдан не этим API.</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>Псевдонима изображения %alias не существует (image.ini [AliasSettings] AliasList[]).</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>Здесь принимаются только сохранённые запросы: отправьте id запроса, сохранённого на сервере.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>Хеш сохранённого запроса не является SHA-256.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>Хеш сохранённого запроса не соответствует запросу.</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>Слишком много обращений: не более %limit за %window секунд. Повторите попытку через %reset секунд.</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>Глубина запроса составляет %depth уровней; допускается не более %max.</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>Сложность запроса составляет %complexity; допускается не более %max.</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>Этому обращению запрещено читать схему (introspection).</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search требует текст или фильтр (classes, subtree, sections, publishedAfter, publishedBefore).</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument не является датой (ISO 8601, 2026-10-30).</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag требует ровно одно из: id, remoteId и path.</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout требует ровно одно из: id, identifier и urlAlias.</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>Поле operations составного (multipart) запроса не является одним запросом JSON.</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>Поле map составного (multipart) запроса не является объектом JSON.</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>В составном (multipart) запросе нет файла %field.</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>Путь в карте полей должен начинаться с variables.: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>Файл %name пришёл не целиком (ошибка загрузки %error).</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>Файл %name больше %max байт.</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>Не удалось проверить файл %name.</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>Мутации отключены в этом доступе к сайту (graphql.ini [GraphQLSettings] MutationsEnabled).</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>Отправьте мутацию методом POST.</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>Войдите, чтобы изменять содержимое.</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>У ключа API нет области %scope.</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>Мутации с сеансом нужен токен формы этого сеанса (заголовок X-CSRF-Token).</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>uploadFromUrl отключён: в graphql.ini [GraphQLSettings] UploadFromUrlHostList[] не указан ни один хост.</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>Адрес должен быть адресом https.</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>Хоста %host нет в graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>Не удалось получить файл.</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload — только входной тип.</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>Переменная типа Upload принимает файл из составного (multipart) запроса.</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>Удалённый идентификатор %remoteId уже занят.</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>У содержимого уже есть перевод на %language: используйте updateContent.</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>Укажите хотя бы одно поле.</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>Не удалось создать новую версию (у содержимого слишком много черновиков).</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>Версия %version не является черновиком.</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent требует ровно одного из: id и nodeId.</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>Расположение нельзя переместить внутрь самого себя.</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>У содержимого уже есть расположение под %parentId.</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>Не удалось сохранить значение поля %field.</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>Языка содержимого %language нет.</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>В схеме нет класса содержимого %class.</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>Содержимого нет, или вам нельзя его читать.</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>Вам нельзя делать это с этим содержимым.</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>У класса %class нет поля %field, доступного для записи.</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>Поле %field указано дважды.</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>Поле %field принимает файл: отправьте его как загрузку (составной multipart-запрос).</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>Поле %field не принимает файл.</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>Полю %field нужно значение.</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>Формат %format предназначен только для полей форматированного текста; %field принимает значение как есть (RAW).</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>Поле %field обязательно.</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>Не удалось прочитать HTML.</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content принимает version только вместе с id.</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>Токен предпросмотра недействителен или истёк.</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>Не origin (https://host или https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>Не область GraphQL API: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>Отправляйте подписки на /api/graphql/subscribe (поток событий или WebSocket).</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>Запрос не называет ни одной операции документа.</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>Подписка запрашивает ровно одно поле.</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>Открыто слишком много подписок; повторите попытку позже.</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>У вас открыто %max подписок — это максимум.</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>С вашего адреса открыто %max подписок — это максимум.</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>Подписки отключены в этом доступе к сайту.</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>Войдите, чтобы подписаться (токен или личный ключ API).</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>Отправляйте мутации на /api/graphql.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>Миграции</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Не удалось прочитать состояние: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Таблиц миграций ещё нет: их создаёт ./console exp:upgrade --apply.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>Миграций с ошибкой: %count</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>Идёт запуск, начатый пользователем %user</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>Установка заблокирована: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Ожидает</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>С ошибкой</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>Осиротевшие</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Последний запуск</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>пока нет</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>Все миграции</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>Имитация запуска</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>Пробный запуск</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>Ожидающие миграции выполнились в транзакции, которая затем была откачена: ничего не сохранено. Ниже показано, что каждая изменила в базе данных.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>Что сделал бы запуск сейчас. Ничего не изменяется: каждая ожидающая миграция перечисляет изменения, которые она внесла бы, а запуск — что он сделал бы до и после.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>Имитировать</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Выполнить</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>Пробный запуск завершился ошибкой: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>Для имитации нужен PostgreSQL или SQLite, где изменения схемы можно откатить; для этой базы данных план ниже показывает, что сделал бы запуск.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>Миграции</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>Миграция</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Состояние</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>Что она сделала бы</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>Имитация: %result за %ms мс</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>Миграций пока нет.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>До и после запуска</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>Снимок до</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>создаётся и восстанавливается при ошибке миграции</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>выкл.</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>Снимок после</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>создаётся при успешном запуске</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>Миграций: %total; ожидают: %pending, выполнены: %done, с ошибкой: %failed.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>История миграций</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>Каждый запуск с пользователем, окружением, снимками и тем, что было закоммичено, помечено тегом и отправлено. Запуск с ошибкой или прерванный запуск можно продолжить; запуск, перед которым был сделан снимок, можно отменить.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>Не удалось прочитать запуски: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Таблиц миграций ещё нет: их создаёт ./console exp:upgrade --apply.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Показать</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Все</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>Запуски</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Начат</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Кем</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>Снимки</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Репозиторий</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Действия</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>до</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>после</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>отправка: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>Продолжить</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Откатить</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>Нет запусков в этом состоянии.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>Начатые здесь</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>Запуски, продолжения и откаты, начатые на этих страницах, с отчётом по каждому.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Что</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Результат</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Откат</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>Откат %target</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>Запуск %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Что сделал запуск, его запись и журнал. Запуск, начатый здесь, продолжается в фоне, если закрыть эту страницу; откройте страницу снова, чтобы следить за ним.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>Продолжить этот запуск</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>Откатить этот запуск</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>Не удалось прочитать запись: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Ход выполнения</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Начат пользователем %user в %time.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>Проверка кода и создание снимка перед запуском</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>Выполняется %id (%index из %total)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>Выполнено %done из %total</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>Миграции выполнены; восстановление снимка, если какая-то завершилась ошибкой</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>Создание снимка после запуска, коммит, тег и отправка</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>Восстановление снимка</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>Запуск завершён. Загружается его отчёт.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>Не удалось отследить ход выполнения. Перезагрузите страницу, чтобы увидеть, как идёт запуск.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>Эта страница отслеживает запуск по ходу выполнения.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Перезагрузить</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Отчёт</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Длительность</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms мс</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>Что запуск вывел как ошибки</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Запись</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>Окружение</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>нет</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Завершён</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Коммит</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Тег</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Отправка</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Сообщение</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>Миграции этого запуска</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>Источник</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>Журнал запуска</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>Показан только конец журнала.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>выполняется</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>завершён без отчёта</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>успешно</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>с ошибкой</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>отклонён</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>база данных была недоступна</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>внутренняя ошибка</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>Идёт запуск</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind начат пользователем %user в %time.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>Следить</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>Установка заблокирована</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>Блокировку удерживает другой запуск (обновление или запуск в консоли): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>выполнена</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>ожидает</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>не требуется</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>неизвестно</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>откачена</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>применена</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>была бы применена</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>отменена</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>была бы отменена</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>не выполнялась</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>ждёт другую</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>изменение принято</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>изменение было бы принято</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>имитирована</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Миграции</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Состояние</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>История</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>Отменить %target</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>Запуск отменяется возвратом к снимку, сделанному перед ним, отдельная миграция — её методом down(). Восстановление более раннего снимка — для специалистов. Каждая отмена выполняется в фоне от вашего имени, после снимка текущего состояния.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>Не удалось прочитать, что можно отменить: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>Запуск</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>Одна миграция</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>Более ранний снимок</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>Описание</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>да</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>нет</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Снимок</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Метка</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>Создан</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Вид</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>Что восстановить</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>База данных</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>Файлы хранилища (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>Настройки (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>Восстановление возвращает базу данных к моменту снимка, включая сеансы: после этого может потребоваться войти снова. Всё, что изменилось с тех пор, будет потеряно; сначала создаётся снимок текущего состояния.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>Я знаю, что это восстанавливает</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>Введите идентификатор снимка ещё раз</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>Да, отменить</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Отмена</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>Запуски, перед которыми был сделан снимок.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>Выбрать</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>Запусков со снимком пока нет.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>Применённые миграции, которые могут отменить себя сами (у них есть down()).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>Ни у одной применённой миграции нет down().</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>Более ранние снимки (для специалистов)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>Снимков пока нет.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>Выполнить миграции</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>Запуск идёт в фоне от имени %user, а его страница показывает ход выполнения. Перед первой миграцией создаётся снимок установки; если миграция завершается ошибкой, запуск останавливается и снимок восстанавливается.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>Сначала пробный запуск</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Не удалось прочитать состояние: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>Ожидающие миграции</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>Они выполняются в этом порядке. Снимите отметку, чтобы оставить миграцию и зависящие от неё на следующий запуск.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>Выполнить</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>Включает режим обслуживания на время выполнения.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>Изменены после применения</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>Эти файлы отличаются от применённых. Запуск отклоняет их, если изменение не принято с указанием причины; повторно они не выполняются, новая контрольная сумма записывается, а причина сохраняется в журнале аудита.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>Принять изменения</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Причина</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>Значения по умолчанию безопасны. Каждый флажок пропускает один шаг.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>Без снимка</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>Без снимка до и после запуска: после ошибки автоматическое восстановление невозможно.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>Без восстановления</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>После ошибки оставить установку в том состоянии, в каком её оставила ошибка.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>Сохранить незакоммиченные изменения</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>Выполнять, даже если в настройках, расширениях или дизайнах есть незакоммиченные изменения; они попадают в снимок.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>Без коммита</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>Не коммитить файл состояния и журнал запуска (а также без тега и без отправки).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>Без отправки</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>Закоммитить и поставить тег, но не отправлять.</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>Без тега</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>Закоммитить и отправить, но не ставить тег на запуск.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>Да, выполнить эти миграции сейчас</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Ожидающих миграций нет.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>Назад к состоянию</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>Изменения этой установки, один раз записанные в виде файлов (содержимое, классы, роли, настройки, схема) и применяемые к каждой установке сайта в одном и том же порядке. Запуск сначала создаёт снимок, восстанавливает его при ошибке миграции, а затем записывает, коммитит и отправляет то, что сделал.</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>Выполнить ожидающие (%count)</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Обзор</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Ожидают</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Выполнены</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>С ошибкой</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>Не требуются</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>База данных</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>транзакции: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>Миграции сайта находятся в migrations/, миграции расширения — в extension/&lt;name&gt;/migrations/. Они выполняются в порядке своих имён и зависимостей.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Последний запуск</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>Файл изменился после применения.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>Миграций пока нет. Первую создаёт ./console exp:migration:generate --skeleton &lt;name&gt; --apply.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>Последние запуски</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>Все запуски</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>Запусков пока нет.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>Для имитации запуска нужна политика migration/run.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>Идёт запуск: запустите имитацию, когда он завершится.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Настройка</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target не является ни запуском, ни миграцией, ни снимком этой установки.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>Сначала отметьте «Да, отменить».</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>Восстановление более раннего снимка — для специалистов: отметьте «Я знаю, что это восстанавливает».</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>Введите идентификатор снимка ещё раз: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>Выберите хотя бы одну часть для восстановления.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>Перед этим запуском снимок не создавался: отмените его миграции по одной или восстановите более ранний снимок.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>Эту миграцию нельзя отменить саму по себе: она не применена или у неё нет down().</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Не удалось прочитать форму.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>Выберите запуск для продолжения.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>Сначала отметьте «Да, выполнить эти миграции сейчас».</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>Выберите хотя бы одну миграцию.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>Миграция изменилась после применения: примите изменение с указанием причины или верните файл.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>Укажите причину, по которой изменённые миграции принимаются.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>Причина — не более 500 символов.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>Запуск, начатый здесь, ещё идёт (%detail). Дождитесь его завершения.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>Блокировку установки удерживает другой запуск: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>Для запуска нужен существующий вошедший пользователь.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Не найдена программа php для командной строки. Укажите полный путь к ней в migration.ini [AdminSettings] PhpCliPath.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open отключена, поэтому запуск здесь начать нельзя. Выполните ./console exp:migration:migrate --apply на сервере.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>Нет записи в папку запусков: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>Запуск начат, но не сообщил идентификатор своего процесса. Проверьте %detail.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>Укажите, что отменить.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>Не удалось начать запуск.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>Запись изменений</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>Пока идёт запись, всё, что вы меняете в администрировании или на боковой панели сайта, сохраняется как шаги миграции: контент, классы, роли и политики, разделы, пользователи и группы, псевдонимы URL, настройки. Остановите запись, когда закончите, посмотрите, что она зафиксировала, и создайте из неё миграцию.</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>Не удалось прочитать записи: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>Таблиц записей ещё нет: сначала выполните обновление (exp:upgrade --apply).</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>Запись отключена в migration.ini ([RecordingSettings] Recording=disabled).</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>Мои изменения</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>Записывает только то, что меняете вы, где бы вы это ни меняли, пока вы её не остановите.</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>Запись</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>с %time, пока изменений: %count.</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>Метка (необязательно)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>Показать, что она зафиксировала</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Остановить запись</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>Начать запись моих изменений</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>Окно для всего сайта</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>Записывает каждое изменение каждого пользователя и консоли, пока окно не закрыто. При открытии вас попросят подтвердить, что это вы.</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Открыто</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>Закрыть окно</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>Открыть окно для всего сайта</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>Записи</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>Учётная запись пользователя (логин, e-mail, пароль) и поля учётных записей пользователей никогда не записываются.</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Изменения</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>Весь сайт</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>Изменения пользователя %name</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Остановлена</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>Записей пока нет.</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>Запись %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>Все записи</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>Миграция, которая из неё получится</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>Изменения, сведённые в один шаг на каждый изменённый объект: что сделала бы миграция, созданная из этой записи.</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>Миграцию из неё можно будет создать, когда в этой установке появятся типы шагов YAML %types.</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>Намеренно пропущено: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>Ничего не записано.</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>Что она зафиксировала</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>Изменений: %count, в том порядке, в каком они сделаны.</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Изменение</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>Шаг</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>Объект</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>Ещё %count: ./console exp:migration:record:show выводит все.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Отбросить</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>Удаляет запись и то, что она зафиксировала. Изменённое остаётся изменённым.</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>Да, отбросить эту запись</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>Идёт запись…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Ваши изменения записываются для миграции.</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>Каждое изменение на этом сайте записывается для миграции (окно для всего сайта).</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>Запись для всего сайта началась: каждое изменение каждого пользователя записывается, пока вы её не остановите.</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>Запись началась: ваши изменения записываются, пока вы её не остановите.</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>Запись остановлена. То, что она зафиксировала, сохраняется, пока вы её не отбросите.</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>Запись и её события удалены.</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>Записи %id нет.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>Сначала отметьте «Да, отбросить эту запись».</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>Остановить запись сеанса может только пользователь, который её вёл.</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>Выберите запись, которую нужно остановить.</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>Запись этого вида уже идёт.</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>Не удалось изменить запись: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>Создать миграцию</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>Название миграции (необязательно)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>Миграция %file записана. Изменения, которые не может сделать ни один шаг, перечислены в начале файла, их нужно сделать вручную.</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>Миграция не записана: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>Длительный запуск по частям</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>Пустые поля сохраняют настройки из migration.ini [RunSettings].</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>Не более стольких миграций</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>Больше никаких миграций после (секунд)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>Пауза между миграциями (секунд)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>Более низкий приоритет (от 1 до 19)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>Поле длительного запуска - целое число от 1 (пауза: секунды от 0 до 60, приоритет: от 1 до 19) или пустое.</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>Оно закроется само в %time.</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>Закрыть само через (минут, необязательно)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>Минуты - целое число от 1 до 44640 (31 день) или пустое.</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>Миграция %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>Новая миграция</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>Миграция YAML: напишите её текстом или соберите её шаги в форме, проверьте и сохраните в папку миграций.</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>Эта миграция уже выполнялась, поэтому повторно она не сохраняется: изменённый файл был бы отклонён защитой по контрольной сумме. Внесите изменение в новую миграцию.</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>Веб-сервер не может записать файл.</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>Строки комментариев в начале — это заголовок (description, author, requires, environments, engines). Когда шаг добавляется или изменяется в форме, миграция записывается заново: комментарии между шагами не сохраняются.</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>Название миграции</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>Куда она помещается</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>Сайт</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>Текст YAML</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>Проверить</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Сохранить</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Шаги</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>Ключи</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Изменить</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>Переместить вверх</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>Переместить вниз</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Убрать</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>Шагов пока нет: добавьте шаг через форму или напишите шаги в тексте.</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>Изменить шаг %number</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>Добавить шаг</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>Форма шага строится по его типу шага: его ключи, что принимает каждый из них, и режимы, к которым он относится.</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>Тип шага</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>Показать его форму</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>У шага есть ключи, неизвестные его типу; при изменении шага они отбрасываются: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>Режим</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>В</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>только в %modes</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>По умолчанию: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>Условия, ссылки и комментарий</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>Пары имя=значение через запятую. Значения этого шага: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>Пример</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>Изменить шаг</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>Добавление шага</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>Что сообщает exp:migration:check: заголовок, документ и каждый шаг, проверенный по своему типу шага.</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>Миграция проходит проверку.</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Предварительный просмотр</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>YAML в том виде, в каком он будет сохранён.</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>Показать YAML</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>Миграции YAML</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>выполнена</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>Миграций YAML пока нет.</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>Редакция</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>В папках миграций нет миграции YAML %id.</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>Выберите тип шага.</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>Шаг добавлен. Проверьте миграцию перед сохранением.</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>Шаг изменён. Проверьте миграцию перед сохранением.</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>Выберите шаг.</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>У этого шага нет формы (цикл или тип шага, которого нет в этой установке): измените его в тексте.</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>Выберите, куда поместить миграцию: в сайт или в активное расширение.</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>%file сохранён. Выполните пробный запуск до запуска миграции.</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>Не сохранено: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>Удалённые установки</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>Другие установки, на которые эта развёртывает свои миграции: развёртывание отправляет миграции на выбранные удалённые установки и выполняет их там, на всех одновременно и синхронно. Удалённая установка никогда не хранит секрет: её учётные данные называют один из секретов в разделе Настройка &gt; Секреты.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>Новая удалённая установка</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Справка</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>Проверка подключения %id</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>Список удалённых установок</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>Одновременно обрабатывается до %parallel удалённых установок; одна фаза может длиться на каждой %timeout секунд.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>Удалённая установка</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Адрес</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Учётные данные</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>Группы</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>нужно исправить настройки</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>только файлы (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>Ключ SSH</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>Пароль</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>нет (агент SSH и ключи узла)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>Проверить подключение</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>Развёртывание в группу выполняется на каждой её удалённой установке.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>Развернуть на удалённые установки</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>Удалённые установки пока не настроены.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>Удалённая установка %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>Здесь ничего не отправляется и не выполняется: «Сохранить» записывает настройки в settings/override/migration.ini.append.php. Учётные данные — это имя; их значение остаётся в разделе Настройка &gt; Секреты или в окружении.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Проверьте эти настройки</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>Настройки в том виде, как они введены, ещё не сохранены.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Проверить</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Настройки верны. Будут записаны эти строки:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>Транспорт</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>только имя; значение остаётся в разделе Настройка &gt; Секреты</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Строки, которые будут записаны</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>Подключение</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>Ключ узла</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. Удалённая установка</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>Как называется удалённая установка и какое это окружение.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>Буквы, цифры, - и _, например production1. Это имя удалённой установки в отчётах и в консоли (--remotes=production1), и изменить его позже нельзя.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... Развёртывание по этапам проходит окружения в этом порядке.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>Необязательно, через запятую, например production. Развёртывание в группу выполняется на каждой её удалённой установке.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. Подключение</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>Как файлы попадают туда и где находится установка.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>По SSH, только изменённое, прерванная передача возобновляется. Лучший выбор там, где установлен rsync.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>SSH с scp для файлов.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>SSH с sftp для файлов.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>Только файлы: миграции отправляются и считываются обратно, но выполнить их там нельзя.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>FTP через TLS; только файлы.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>Другая установка на этом сервере, в папке.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Узел</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>Имя узла или адрес, например node1.example.com. Не для local.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>Порт</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>Пусто: 22 для SSH, 21 для FTP.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Пользователь</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>Путь</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>Корневой каталог установки там, например /var/www/site (для FTP: путь, который видит учётная запись FTP).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>Командная строка PHP</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>PHP CLI там: php или полный путь, например /opt/plesk/php/8.4/bin/php.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>Консольные скрипты выполняются там от имени root</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>Только если пользователь удалённой установки — root (тогда они выполняются с --allow-root-user).</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. Учётные данные</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>Как эта установка входит туда. Сохраняется только имя.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Нет</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>Агент SSH и ключи пользователя, от имени которого работает эта установка (и всегда для local).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>Закрытый ключ, хранимый как секрет.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>Пароль, хранимый как секрет (по нему выполняется вход по FTP).</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>Имя секрета</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>Секрет из раздела Настройка &gt; Секреты, например deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Настройка &gt; Секреты</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>Или переменная окружения</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>Переменная серверного процесса, которая его содержит, например DEPLOY_KEY (сохраняется как env:DEPLOY_KEY). Она заменяет имя секрета.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. Ключ узла</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>Необязательно, для SSH, sftp и rsync.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>Отпечаток ключа узла</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... в том виде, как его выводит ssh-keygen -l. С ним узел должен предъявить этот ключ; без него ключ запоминается при первом контакте.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. Проверка</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>Проверьте подключение с указанными выше настройками, затем просмотрите строки, которые будут записаны.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>Удалить эту удалённую установку</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>Её настройки удаляются из settings/override/migration.ini.append.php. На удалённой установке ничего не меняется, а её развёртывания остаются в истории.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>Да, удалить эту удалённую установку</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>Развёртывания</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>Развёртывание отправляет миграции этой установки на выбранные удалённые установки и выполняет их там от имени %user, на всех одновременно и синхронно: сначала проверяется каждая удалённая установка, и если на одной происходит ошибка, каждая, которая уже применила миграции, откатывается. Оно идёт в фоне, и его страница показывает каждую удалённую установку по ходу выполнения.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. Удалённые установки</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>Отметьте удалённые установки, группу или и то и другое.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>Развернуть на неё</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. Способ</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>Развернуть</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>Отправить и выполнить</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>Миграции отправляются на каждую удалённую установку, проверяются и выполняются с одним общим ID запуска.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>Только передача</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>Файлы отправляются и проверяются, ничего не выполняется (единственный способ для удалённой установки по FTP).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>По этапам</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>Этап за этапом в порядке окружений (dev, stage, beta, production ...): развёртывается первый этап, затем шлюз ждёт, пока кто-нибудь не утвердит следующий. Всё или ничего в пределах каждого этапа.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>Только эти миграции</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>Необязательно: ID миграций через запятую. Пусто: все миграции сайта и его расширений.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>Только предварительная проверка</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>Да, развернуть сейчас</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>Развёртывания, которые что-то отправили или выполнили, сначала самые новые (предварительная проверка не сохраняет отчёт).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>только передача</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>по этапам, этапов: %stages</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>не синхронно</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>Развёртываний пока нет.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>Развёртывание %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Каждая удалённая установка развёртывания с её состоянием. Развёртывание, начатое здесь, продолжается в фоне, если закрыть эту страницу; откройте страницу снова, чтобы следить за ним.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>Все развёртывания</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>Предварительная проверка</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>Следующий этап</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>Проверка настроек и учётных данных</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>Предварительная проверка: чтение состояния каждой удалённой установки</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>Отправка файлов миграций</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>Проверка полученного</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>Выполнение миграций на каждой удалённой установке</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>Откат удалённых установок</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>Развёртывание завершено. Загрузка отчёта.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>Не удалось следить за ходом выполнения. Перезагрузите страницу, чтобы увидеть, как идёт развёртывание.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>Фаза</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>Эта страница следит за развёртыванием по ходу выполнения.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>Синхронно</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>Этапы</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>этап %stage ждёт у своего шлюза</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>Шлюз %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>утверждено: %user, %time</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>Этап</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>Отправленные файлы</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>Версия ядра</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>применено: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>к применению: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>Фазы</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>Шлюз: этап %stage из %stages</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>Предыдущие этапы развёрнуты. Проверьте их, затем утвердите следующий этап: его удалённые установки снова проверяются и развёртываются, всё или ничего.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Следующая</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>Да, развернуть следующий этап сейчас</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Утвердить</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>Откатить это развёртывание</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>Каждая удалённая установка, которая его применила (%list), возвращается к снимку, сделанному перед её запуском, все одновременно.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>Да, откатить это развёртывание сейчас</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>запланировано</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>передано</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>развёрнуто</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>ждёт у шлюза</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>выбрано</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>подготовлено</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>готово</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>ждёт своего этапа</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>файлы отправлены</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>проверено</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>с ошибкой, восстановилась сама</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>без изменений</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>не развёрнуто</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>недоступна</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>Удалённая установка ответила.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>Удалённую установку сейчас нельзя использовать.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done выполнено, %pending ожидает, %failed с ошибкой</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>Блокировка</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>там блокировку держит запуск</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>свободно</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stage из %stages</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>Выберите удалённую установку для проверки.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>Сначала отметьте «Да, удалить эту удалённую установку».</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>Не удалось удалить удалённую установку: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>Не удалось сохранить удалённую установку: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Не удалось прочитать файл настроек: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>Выберите хотя бы одну удалённую установку или группу.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>Выбранной удалённой установки больше нет в настройках. Перезагрузите страницу.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>Сначала отметьте «Да, развернуть сейчас».</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>Удалённая установка по FTP не может выполнять миграции: выберите «Только передача» или исключите её.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>Миграции для развёртывания — это ID миграций через запятую.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>Развёртывание ещё идёт. Дождитесь его завершения.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>Это развёртывание не ждёт у шлюза.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>Ни одна удалённая установка не применила это развёртывание: откатывать нечего.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>Сначала отметьте «Да, развернуть следующий этап сейчас».</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>Сначала отметьте «Да, откатить это развёртывание сейчас».</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>Удалённая установка с ID %id уже существует.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>Порт — это число от 1 до 65535.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>Окружение — это слово из букв, цифр, - и _ (alpha, dev, stage, beta, production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>Группа — это слово из букв, цифр, - и _ (не all): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>Учётные данные сейчас прочитать нельзя: %problem. Сохраните их в разделе Настройка &gt; Секреты (или задайте переменную) до первого развёртывания.</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>Удалённая установка по FTP только принимает файлы: развёртывание на неё — это «Только передача», а её миграции выполняются там вручную.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>Удалённой установки %id нет в settings/override/migration.ini.append.php; удалите её там, где она задана.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>Вход по FTP выполнен, index.php прочитан. Состояние миграций удалённой установки по FTP прочитать нельзя.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>Изменено</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>Создано</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Название</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Класс</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Секция</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>Создатель</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Новые материалы</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>Последние созданные и изменённые материалы всего сайта, сначала самые новые: то, что прислали посетители, что задержано на проверку, черновики, ожидающие публикации. Выберите элементы, чтобы снять задержку, задержать, скрыть, показать, удалить их или перенести в другую секцию или состояние.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>Не удалось прочитать список: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>Задержка на проверку ещё не настроена, поэтому ничего не задерживается и действия задержки недоступны. Её настраивает шаг обновления 6.0.15-review-hold: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Фильтровать список</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>С</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>По</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Дата</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>Создано (первая публикация)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Все</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Статус</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Опубликовано</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>Черновик, ни разу не опубликован</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>Ожидает (одобрения или даты)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>В корзине</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Задержано на проверку</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>Задержано</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>Не задержано</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>Скрыто</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>Видимо</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>Отправлено через</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>Любой доступ к сайту</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>Только то, что записал аудит.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>Сейчас: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>Логин или ID пользователя.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Фильтр</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>Сбросить фильтры</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>Элементы</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from–%to из %count</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Нет элементов</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(прочитано за %ms мс)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>Действия с выбранными элементами</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>Выбрать все на этой странице</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>Выбрано: %count</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Действие</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>Выберите действие</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>Снять задержку</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Задержать на проверку</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Скрыть</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>Показать</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>Переместить в корзину</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>Удалить</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>Назначить секцию</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>Назначить состояние</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>Причина</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>Нужна для задержки; сохраняется вместе с задержкой и в аудите.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>Выберите секцию</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Состояние</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>Выберите состояние</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>Применить к выбранным</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>Каждый элемент проверяется по вашим собственным правам. Перемещение в корзину и удаление требуют подтверждения. Более %count элементов обрабатываются в фоновом режиме.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>Выбрать</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>Публикация</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>Отправлено с адреса</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>Выбрать %name</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>ещё нет</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(без названия)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>Черновик</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Ожидает</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>Скрыто родителем</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>Задержано: новая отправка</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>Версия %version ожидает</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>Версия %version в работе</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>Черновик, версия %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>Версия %version опубликована</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>Запланировано на %date</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>нет адреса</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>не записано</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>Ничего не соответствует этим фильтрам.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Показать все</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>Материалов пока нет.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>На странице</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Показывать %count элементов на странице.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says &quot;not recorded&quot;.</source>
+        <translation>Адрес и браузер отправки берутся из индекса аудита, который здесь недоступен: в столбце указано «не записано».</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>Адрес и браузер — те, что аудит записал для элемента (автозадержка записывает их всегда; публикация и создание — только там, где это включено), в той мере, в какой их сохраняют его настройки конфиденциальности.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: элементов: %count</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>Удаление уничтожает элементы навсегда, со всеми их версиями и переводами. Это нельзя отменить.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>Элементы попадают в корзину, откуда их можно восстановить.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>Каждый элемент проверяется по вашим собственным правам; элемент с подэлементами остаётся как есть (удалите его в структуре материалов). Вас попросят подтвердить, что это вы.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>Это выполняется в фоновом режиме: откроется страница хода выполнения, а результат по каждому элементу будет показан по завершении.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>Выбранные элементы</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>и ещё %count</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Отмена</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>Ничего не сделано</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Причина: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>Действие всё ещё выполняется в фоновом режиме.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>Ход выполнения</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>Фоновое действие завершилось ошибкой: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Выполнено</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Отклонено</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Ошибка</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>По элементам</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>Элемент</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Результат</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Почему</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>Назад к списку</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Настройка</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>Ничего не сделано</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>Подтвердить</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>Выберите действие.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>Выберите хотя бы один элемент.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>Выберите не более 1000 элементов за раз.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>Укажите, почему элементы задержаны.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>Выберите секцию.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>Выберите состояние.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Не удалось прочитать форму.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>Панель мониторинга</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>Новые материалы</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>Не удалось прочитать счётчики: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Задержано на проверку</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>Новые сегодня</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Задержка на проверку ещё не настроена (шаг обновления 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>Все новые материалы</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>Вам не разрешено выполнять действия модерации (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>Действие модерации не завершено: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>Модерация: %action для %count объектов</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%done из %total объектов: выполнено %ok, отклонено %refused, ошибок %failed</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>выполнено %ok, отклонено %refused, ошибок %failed</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>Объект больше не существует.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>У объекта нет размещения (не опубликован).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>Вам не разрешено скрывать объект (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>Вам не разрешено показывать объект (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>Объект уже скрыт.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>Объект не скрыт.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>Скрыт.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>Показан.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>Объект в корзине: очистите корзину или восстановите его оттуда.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>Черновик, который ни разу не публиковался, нельзя переместить в корзину: удалите его.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>Вам не разрешено удалять объект (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>Удалён.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>Вам не разрешено убирать объект (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>У объекта есть подэлементы: удалите его в структуре материалов, где они перечислены.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>Объект не был удалён (удаление может задерживать рабочий процесс).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>Перемещён в корзину.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>Секция не существует.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>Объект уже находится в этой секции.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>Вам не разрешено назначать эту секцию (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>Секция не назначена.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>Секция назначена.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>Состояние не существует.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>Объект уже находится в этом состоянии.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>Вам не разрешено назначать это состояние (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>Состояние не назначено (изменение может задерживать рабочий процесс).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>Состояние назначено.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>Такого действия нет.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Задержка на проверку не настроена (шаг обновления 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>Укажите, почему объект задержан.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>Объект уже задержан.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>Вам не разрешено задерживать объект (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>Задержка не установлена (изменение может задерживать рабочий процесс).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>Задержан.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>Объект не задержан.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>Вам не разрешено снимать задержку с объекта (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>Задержка не снята (изменение может задерживать рабочий процесс).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>Задержка снята; объект по-прежнему скрыт: вам не разрешено показывать его (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>Задержка снята.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>Все цели</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Последняя публикация</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>Опубликуйте бесплатную статическую копию сайта на GitHub Pages:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Устаревшие страницы</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Статическая публикация</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Статическая публикация выключена.</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Цель</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Не удалось прочитать цели: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>идёт задание</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>сборка на проверку</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>скрыть</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>создать цель</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>никогда</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>прочитать руководство</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>Добавлено: %added, изменено: %changed, удалено: %removed</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%bytes из %limit (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>Ещё %count не показаны.</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>Записано страниц: %pages</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path имеет размер %size — больше, чем хостинг допускает для одного файла.</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>%percent % от лимита</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds с</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag — публикация, которая сейчас на сайте.</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: задание %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>/репозиторий/ для сайта проекта GitHub; пусто для собственного домена или сайта пользователя.</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. Сайт</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. Хостинг</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. Вход в репозиторий</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. Репозиторий</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. Ссылки и базовый путь</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. Ваш собственный домен</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. Что содержит сборка</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. Когда публикуется</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. Проверка и сохранение</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>Сайт проекта GitHub находится ниже /&lt;repository&gt;/; относительные ссылки работают и там, и в любом другом месте.</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>Сборка загружает каждую страницу %site так, как её видит посетитель без входа, переписывает ссылки, копирует файлы и записывает результат в папку цели. Ничего не публикуется, пока вы не проверите сборку и не нажмёте «Опубликовать».</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>Выражение cron, например 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>Ключ развёртывания хранится как секрет %secret.</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>Ключ развёртывания позволяет этой установке отправлять изменения по SSH в один репозиторий и никуда больше. Его закрытая часть остаётся в разделе Настройка &gt; Секреты; показывается только открытая часть.</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>Ключ развёртывания, созданный для этой цели</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>Ключ развёртывания входит по SSH: замените git-адрес на адрес SSH (git@github.com:owner/repo.git).</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>Идёт задание, запущенное пользователем %user</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>Задание этой цели ещё выполняется (%detail). Дождитесь его завершения.</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>Задание этой цели ещё выполняется. Дождитесь его завершения.</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>Ссылка со страницы /news/ на страницу /about-us/team будет записана как</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>Создан новый ключ развёртывания. Добавьте его открытую часть в репозиторий сейчас.</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>Страница, в которой после очистки ещё остаются отладочный вывод, токен формы или идентификатор сеанса, никогда не публикуется.</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>Откат — для опытных: отметьте «Я знаю, что это меняет» и введите имя тега ещё раз.</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>Сайт может занимать до %site, один файл — до %file, трафик — около 100 ГБ в месяц. На бесплатном тарифе репозиторий должен быть публичным. GitHub Pages не предназначен для магазинов и других коммерческих операций.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>Цель — это один сайт, публикуемый в один git-репозиторий. Здесь ничего не собирается и не публикуется: «Сохранить» записывает настройки в settings/override/staticcache.ini.append.php.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>Цель — это один сайт, публикуемый в одно место, например ваш публичный сайт на GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>Токен из раздела Настройка &gt; Секреты</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>Сборку публикует рабочий процесс (workflow) репозитория.</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>Добавьте этот открытый ключ в репозиторий с правом записи. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, отметьте Allow write access.</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>Добавлено</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>Другой git-хостинг</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>С этой целью работает другой процесс: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>Назад</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>Базовый путь</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Было</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>Ниже базового пути</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>Ветка</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>Битые ссылки</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>Битые ссылки в сборке</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>Сборка</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>Сборка %id, автор %user</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>Сборка %name</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>Собрать сейчас</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>Сборка на проверку</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Кем</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>Вручную, здесь</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Отмена</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Изменить</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>Изменено</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Изменения</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>Сначала проверить</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Проверьте эти настройки</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>Проверьте, что меняет сборка, посмотрите её, затем опубликуйте или отбросьте.</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>Выберите публикацию, к которой нужно вернуться.</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>Появится в одном из следующих выпусков.</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Коммит</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>Коммиты</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>Делает коммит сборки, помечает её тегом и отправляет в %remote. Отправка никогда не бывает принудительной; позже можно вернуться к любой публикации.</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>По сравнению с прежним содержимым папки: добавлено %added, изменено %changed, удалено %removed, без изменений %unchanged.</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>По сравнению с последней публикацией.</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Учётные данные</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>Собственный домен</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>Отладочный вывод, токены форм, идентификаторы сеансов и nonce всегда удаляются.</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>Ключ развёртывания</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>Ключ развёртывания для %name</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Отбросить</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>Отбросить сборку</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>Домен</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>Пусто: адрес сайта. Иначе — внутренний адрес того же сайта.</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Завершено</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>Каждая ссылка начинается с базового пути.</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>Каждая публикация — это коммит с тегом static/%id/&lt;n&gt;. Возврат создаёт новый коммит с файлами более ранней публикации: история сохраняется, ни один тег не перемещается и ничего не делается принудительно.</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>Дополнительные файлы</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>Загружать страницы с</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Файл</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>Файлы</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>Отсутствующие файлы</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>Файлы сайта</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>Файлы, которые не удалось собрать</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>Отпечаток</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>Папка</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>Для адреса SSH. Ключ создаётся после сохранения; его открытую часть вы добавляете в репозиторий.</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>Для адреса https://. GitHub: детализированный токен (fine-grained) с правами Contents на чтение и запись в репозитории.</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>Для опытных. Публичный сайт меняется, как только отправка завершена.</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Формы</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>Бесплатный хостинг из репозитория GitHub.</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>Из ветки</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>Git-адрес</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>Приложение GitHub</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages допускает сайт размером %site и файл размером %file.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>Ограничения GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages публикует файлы как есть (нужно для файлов, начинающихся с _).</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub отдаёт ветку в том виде, в каком она отправлена. По умолчанию.</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, ваш собственный сервер: любой git-репозиторий.</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>Вернуться к более ранней публикации</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Справка</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>Справка по мастеру</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>Скрыть их</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>История</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>История %name</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Хостинг</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>Как GitHub Pages получает сборку</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>Я проверил(а) изменения</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>Я знаю, что это меняет</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>Она выключена: пока её не включить, ничего собрать нельзя.</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>Выполняется в фоне от имени %user; эту страницу можно закрыть.</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>Задание %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>Хранится как секрет %secret.</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Тип</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Последняя публикация</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>Исключить эти страницы</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>Исключить эти разделы</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Ссылки</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>Переписано ссылок</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>Рабочий сайт</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>Посмотреть сборку</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>Строчные буквы, цифры, _ и -, например github-public. Задаёт имя папки и тегов (static/&lt;id&gt;/&lt;n&gt;) и не может быть изменено позже.</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>Создать новый ключ</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>Создать цель</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>Создать ключ</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>Сначала создайте репозиторий на хостинге; пустой подойдёт.</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>Манифест</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Сообщение</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>Большинство страниц</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Имя</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>Имя токена в разделе Настройка &gt; Секреты</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>Новая цель</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Далее</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>Нет</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>Коммитов пока нет.</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>Ключ не создан: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Не найден исполняемый файл командной строки php. Укажите его полный путь в migration.ini [AdminSettings] PhpCliPath.</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>Тегов пока нет.</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>Целей пока нет.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Нет</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>Нет в сборке.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>Пока ничего не опубликовано.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>Пока ничего не опубликовано: все файлы новые.</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>Уведомления</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>По расписанию</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>В консоли</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>На сервере: ./console exp:static:serve %id отдаёт её так же.</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>Один путь на строку, * соответствует любой части: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>С целью хранится только имя; сам токен или ключ остаётся в разделе Настройка &gt; Секреты и никогда не появляется в журнале.</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>Только то, что называют страницы</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>Только с токеном. env:NAME вместо этого читает переменную окружения сервера.</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>Открыть предпросмотр</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>Открывает сборку из папки цели так, как её будет отдавать хостинг. Ссылка работает для вас в течение часа.</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>Необязательно. Пусто: то, что было опубликовано.</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>Необязательно. С доменом сайт отдаётся из его корня.</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Вывод</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>Страницы</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>Страницы цели</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>Отклонённые страницы</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>Постобработка</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Предпросмотр</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>Предпросмотр и публикация</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>Предпросмотр и публикация: %name</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>Предпросмотр сборки</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Ход выполнения</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>Публичный адрес</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>Открытый ключ</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>Опубликовать</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>Публикуйте статическую копию сайта на GitHub Pages или любом git-хостинге: соберите её, проверьте изменения, опубликуйте и при необходимости вернитесь к более ранней публикации.</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>Публикация для возврата</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>Публикации</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Отправка</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>Прочитать руководство</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Журнал</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Отклонено</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>Относительные</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Обновить</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>Удалено</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>Заменить ключ: старый перестанет работать</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Отчёт</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>Отчёт о сборке</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Репозиторий</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Проверка</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>На шаге проверки проверяется каждая настройка и показываются строки, которые будут записаны. Пока ничего не сохранено.</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Откатить</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Откат</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Сохранить</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>Расписание</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>Страница поиска</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>Идентификаторы разделов через запятую.</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>Отправлять на рабочий сайт</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>Параметр</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Настройки</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>Настройки %name</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Настройка</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Настройка &gt; Секреты</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>Отображается в списках, например «Публичный сайт на GitHub Pages».</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>Вход через приложение GitHub появится вместе с интеграцией GitHub.</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>Сайт</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>Публикуемый сайт</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Размер</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>Размер и ограничения</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>Размер сборки</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Устаревшие страницы</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Начато</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Запущено пользователем %user в %time.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Состояние</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Статическая публикация</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>Статическая публикация выключена</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Статическая публикация выключена.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>Статическая публикация выключена. Сначала включите её в разделе Настройка &gt; Статическая публикация.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>Статическая публикация включена.</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>Шаг %step из %total</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Шаги</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>Очистка</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Выключить</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Включить</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>Включить статическую публикацию</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Тег</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>Теги</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Цель</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>Цели можно создавать и изменять, но ничего не собирается и не публикуется, пока публикация не включена.</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>Сообщает поисковым системам, что индексировать.</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>Не удалось отбросить сборку: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>Сборка совпадает с последней публикацией: публиковать нечего.</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>Сборка отброшена: в папке снова последняя публикация.</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>Значения по умолчанию подходят большинству сайтов.</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>В папке есть ещё не опубликованная сборка; новая сборка её заменит.</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>Папка заданий недоступна для записи: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>Не удалось подготовить задание: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>Не удалось запустить задание.</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>Задание завершено. Загружается его отчёт.</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>Для задания нужен пользователь, выполнивший вход.</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>Задание запущено, но не сообщило идентификатор процесса. Проверьте %detail.</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>Ключ</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>Самый большой файл: %path, %size.</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Строки, которые будут записаны</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>Список страниц для поисковых систем; требуется публичный адрес.</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>Страницы загружаются так, как их видит посетитель без входа. Доступы к сайту для администрирования и редактирования никогда не предлагаются.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>Не удалось отслеживать ход выполнения. Перезагрузите страницу, чтобы узнать, как идёт задание.</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>Открытая часть ключа:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>Корень ветки</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>Хранилище секретов ещё не настроено (./console exp:upgrade --apply создаёт его таблицу), поэтому ключ нельзя сохранить.</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>Сервер входит сам (своим ключом SSH или помощником учётных данных), или репозиторий находится на этом сервере.</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>Не удалось записать настройку: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Настройки верны. Будут записаны эти строки:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Не удалось прочитать файл настроек: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>Сайт возвращается к файлам той публикации; ещё не опубликованную сборку нужно сначала опубликовать или отбросить.</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>Собственная страница сайта для несуществующих адресов.</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>Не удалось сохранить цель: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>Цель ещё не входит с этим ключом: выберите «Ключ развёртывания, созданный для этой цели» в её настройках.</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Не удалось прочитать цели: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>Сборки на проверку пока нет.</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>В этой установке нет публичного доступа к сайту. Доступы к сайту для администрирования и редактирования никогда не публикуются.</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>Эта страница следит за заданием по ходу выполнения; после закрытия страницы оно продолжается в фоне.</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>У этой цели ещё нет ключа развёртывания.</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>Эта цель здесь ещё не собиралась.</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>У этой цели он есть.</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>Отбрасывает эту сборку: в папке снова последняя публикация. Рабочий сайт не меняется.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>Сначала отметьте «Я проверил(а) изменения».</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Время</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>Запуск</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>Введите имя тега ещё раз</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>Без изменений</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>Вебхук</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Что</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>Что меняется</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>Что представляет собой каждый файл; записывается всегда.</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>Что сделало задание, и его журнал. Задание, запущенное здесь, продолжается в фоне после закрытия этой страницы.</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>Ошибки, выведенные заданием</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>То, что называют страницы, и каждое изображение опубликованного содержимого</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Когда</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>При неудачной публикации</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>При успешной публикации</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>При публикации содержимого</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>Куда ведут ссылки на то, чего нет в копии (поиск, вход).</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>Откуда отдаётся статическая копия.</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>Какой сайт публикуется и как называется цель.</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>Работает под любым путём. По умолчанию.</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>Записывается, когда задан собственный домен.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>Да</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>Собирать и публиковать вручную всегда можно здесь и в консоли.</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>только имя; значение остаётся в разделе Настройка &gt; Секреты</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>ниже %path</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>завершено без отчёта</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>доп. файл</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>ошибка</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>файл</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages или main с папкой docs.</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>git-хостинг</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (с токеном) или git@github.com:owner/repo.git (с ключом развёртывания); никогда не указывайте в нём пароль или токен.</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/, для карты сайта и канонических ссылок.</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>изображение</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>никогда</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>нет</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>нет удалённого репозитория</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>нет: коммиты остаются в папке</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>нет: ничего не изменилось</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>не отправлено</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>ничего не изменилось</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>страница</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>успешно</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>proc_open отключена, поэтому здесь нельзя запустить задание. Используйте ./console exp:static:build на сервере.</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>публикация</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>опубликовано</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>ожидает отправки</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>отправлено</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>отклонено</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>относительные</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>откат</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>откачено</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>выполняется</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>только папка</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: записывается в файл CNAME. Направьте DNS домена на хостинг, как он описывает; запуск HTTPS может занять некоторое время.</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>да, ещё не опубликовано</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>Приложение GitHub App</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>Его публикует workflow репозитория. Сборка записывает файл workflow; оставьте папку пустой.</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>После сохранения цели с репозиторием GitHub и токеном или GitHub App этот шаг может создать репозиторий и включить GitHub Pages. Иначе сначала создайте репозиторий на GitHub; подойдёт и пустой.</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>Ветка или GitHub Actions?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>Проверить DNS</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>Создать репозиторий, если его нет</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>Создайте репозиторий на GitHub и включите GitHub Pages в его настройках (Settings &gt; Pages).</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>Создаёт репозиторий %repo, если его нет (если это запрошено), включает GitHub Pages из ветки или из GitHub Actions, как сохранено, и задаёт собственный домен и HTTPS. Использует сохранённые настройки: сначала сохраните изменения.</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>Подробности на GitHub</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>Сначала введите собственный домен.</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>Каждый push сначала проверяется на соответствие этим ограничениям.</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>Для адреса https:// на GitHub. Вход выполняет App, настроенный для этой установки; ему нужен идентификатор установки.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages обслуживает приватный репозиторий только на платном тарифе.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: поддомену (www.example.com) нужна запись CNAME на &lt;owner&gt;.github.io; корневому домену (example.com) — записи A %ips.</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>Идентификатор установки GitHub App</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>Последняя сборка Pages</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>Ограничения и условия</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>Требуется для GitHub Pages на бесплатном тарифе.</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>На GitHub</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>Только с GitHub App: число в конце адреса установки App на GitHub. Сам App задаётся в staticcache.ini (GitHubAppId, GitHubAppKey).</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>Приватный</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>Публичный</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>Сначала сохраните цель с репозиторием GitHub и токеном или GitHub App.</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>Задайте эти записи у регистратора домена:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>Настроить на GitHub</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>DNS домена %domain ещё не указывает на GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>DNS домена %domain указывает на GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>Интеграция с GitHub здесь недоступна: %problem. Публикация в ветку всё равно работает; включите GitHub Pages в настройках репозитория.</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>Шаги GitHub недоступны для этой цели: %problem.</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>Состояние GitHub Pages отображается, если учётные данные — токен или GitHub App.</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>Использовать собственный домен</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>Что выбрать: токен, ключ развёртывания или GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>С репозиторием GitHub и токеном или GitHub App мастер может сам создать репозиторий, включить GitHub Pages и задать домен (шаг 4).</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>собирается</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>собрано</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>из GitHub Actions</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>из ветки %branch</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>пока нет</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>не найдено</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>выключено</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>приватный</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>публичный</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>в очереди</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>неизвестно</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%count на %pages стр.:</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>Файл .gz (и .br) рядом с каждым текстовым файлом, для хостов, которые их отдают.</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>Небольшая страница для каждого старого адреса и псевдонима страницы, чтобы старые ссылки продолжали работать.</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>Записывается всегда, когда сайт доставляется через GitHub Actions.</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>Идентификатор SPDX, например CC-BY-4.0, или сам текст.</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>Корзина</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>Обращения к серверу</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Комментарии</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>Формы, собирающие информацию</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>Рабочий процесс GitHub Actions</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>Меньше пробелов и никаких комментариев на страницах.</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>Лицензия на содержимое</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Вход</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>Минификация</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>Другие формы</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>Предварительное сжатие</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>Страницы перенаправления</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>Страницы перенаправления: %count.</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Поиск</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>Поисковый индекс: %pages стр. на языках: %languages.</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>Таблицы стилей и скрипты, названные по хешу их содержимого, чтобы браузеры могли их хранить.</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>Изменённые страницы, через несколько минут после последнего изменения (часть cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>Лицензия на содержимое, из поля ниже.</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>Весь сайт, по времени расписания (часть cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>Этим частям страниц нужен сервер; для каждой задан запасной вариант. Проверьте их перед публикацией.</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>Что не работает статически</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>Что представляет собой репозиторий, для тех, кто открывает его на хосте.</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>пропущено</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>запасной текст</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>адрес приёма форм рабочего сайта</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>рабочий сайт</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>страница поиска копии</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>Не удалось отправить форму.</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>Спасибо: форма отправлена.</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>Форма не принята: проверьте введённое и отправьте её снова.</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>Удалять ссылки на страницы, которых нет в копии</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>Удалять ссылки в администрирование</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>Их текст остаётся. Изображения, формы и ссылки на другие сайты никогда не удаляются.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Версия</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>Доступы к сайту для публикации</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Доступ к сайту</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>В корне</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>Нет доступа в корне: каждый в своей папке, а корень ссылается на них</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Доступы к сайту</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>Отметьте один доступ к сайту или несколько, которые делят один хост по своему URI-префиксу. Тот, что в корне, отдаётся там, остальные — в папке своего префикса (/ger/); ссылки между ними остаются в копии. Административные доступы никогда не предлагаются.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>Статическая публикация %target на %site не удалась</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>Статическая публикация %target на %site прошла успешно</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>Это письмо отправил %site, потому что его запрашивает цель статической публикации %target.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>Развёртывание %deploy на %site завершилось с ошибкой</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>Развёртывание %deploy на %site ожидает на контрольной точке</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>Развёртывание %deploy на %site прошло успешно</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>Это письмо отправлено сайтом %site, потому что этого требует migration.ini [RemoteSettings] Notify[].</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>Типы данных (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>Подсчитано %time, снова через %minutes мин.</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>Тип данных хранит и редактирует один вид значения атрибута класса: строку текста, изображение, связь. Большинство из них поставляет ядро, расширения добавляют другие. Здесь все они, кто их предоставляет и сколько содержимого их использует. Тип данных, который используется в базе данных, но больше никем не зарегистрирован, ломает содержимое, в котором он есть.</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>Группы классов</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>Подсчитать заново сейчас, а не брать данные последних минут.</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>Подсчитать заново</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Обзор</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>Зарегистрирован</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>Используется</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>Не используется</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>Расширения, предоставляющие типы данных</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>Атрибуты класса</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>Атрибуты объекта</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>Не зарегистрирован</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>В списке, файл отсутствует</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>Используются, но не зарегистрированы типов данных: %count</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>Атрибуты классов (%class_attributes) и атрибуты объектов (%object_attributes) имеют тип данных, который не регистрирует ни одно расширение или настройка. Их объекты нельзя показать, отредактировать или опубликовать. Включите расширение, предоставляющее этот тип данных, или измените класс.</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>Показать только эти</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>Найти тип данных</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>Идентификатор, имя, PHP-класс или расширение.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Показать</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Все</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>Предоставлен</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>Любой пользователь</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>Ядро</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>Ни один тип данных не соответствует этому фильтру.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Показать все</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>Расширение</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%shown из %count типов данных, используется: %used</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>В базе данных есть атрибуты классов или объектов этих типов данных, но content.ini не содержит ни одного из них, или их файл отсутствует.</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>Типы данных: %provider</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>Тип данных</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>PHP-класс и файл</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>Классы</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>Объекты</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>Флаги</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>нет</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>Ни один тип данных не соответствует поиску. Очистите поиск.</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>Показано %shown из %count типов данных</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>Показано типов данных: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>Сортировать по: %column</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>Подсчитано %time</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>Все типы данных</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>Страница справки</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>Этот тип данных используется, но не зарегистрирован</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>Объекты классов ниже нельзя показать, отредактировать или опубликовать, пока ни одно расширение не регистрирует этот тип данных. Включите расширение, которое его предоставляет, и добавьте его в content.ini [DataTypeSettings] AvailableDataTypes[], или измените классы.</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini содержит этот тип данных, но ни в одном каталоге типов данных нет его файла. Он нигде не используется; удалите его из AvailableDataTypes[] или включите его расширение.</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>Об этом типе данных</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>Идентификатор</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Название</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Расширение %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>никто</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>Класс PHP</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Файл</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>В AvailableDataTypes[]</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>да</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>нет</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>Столбцы его значения</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>Столбцы настроек его атрибута класса</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>Таблицы</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>Столбцы и таблицы определяются по коду типа данных: это ориентир, а не гарантия.</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>Шаблоны</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Доступ к сайту</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>Шаблон</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>Находится в</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>этот интерфейс администрирования</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>сайт по умолчанию</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>Без переопределений: шаблон переопределения, выбранный по классу или атрибуту, имеет приоритет над этими.</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>Классы, использующие его (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>Ни у одного класса нет атрибута этого типа данных.</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Класс</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>Атрибуты</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>Атрибуты класса (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>Атрибут</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Параметры</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>Обязательно</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>Индексируется</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>Переводимое</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>Собирает информацию</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>Примеры содержимого с ним</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>Сначала последние изменённые</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Изменено</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>Узел %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>У каждого перевода своё значение.</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>Поиск индексирует его значения.</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>Может собирать информацию от посетителей (формы).</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>Списки можно сортировать по нему: ключ сортировки %type.</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>Сортировка</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>Его значения указывают на другие объекты.</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>Связи</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>Можно заполнить из простой строки (импорт, REST).</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>Из текста</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>Можно заполнить из файла.</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>Из файла</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>Настройки его атрибута класса попадают в пакеты.</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>Пакеты</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>Содержимое (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from–%to из %count</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Фильтровать список</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>Все классы</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Секция</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Языки</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Владелец</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Опубликовано</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>Обратный порядок</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Нет элементов</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>На странице</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Показывать элементов на странице: %count.</translation>
     </message>
 </context>
 </TS>

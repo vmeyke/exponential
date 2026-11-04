@@ -1,6 +1,6 @@
 <?php
 /**
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -15,6 +15,8 @@ $ViewList['logout'] = array(
     'functions' => array( 'login' ),
     'script' => 'logout.php',
     'ui_context' => 'authentication',
+    // a bookmark of it would log out (bookmark.ini [ViewBookmarkSettings] lists it too)
+    'bookmarkable' => false,
     'params' => array( ) );
 
 $ViewList['login'] = array(
@@ -57,12 +59,13 @@ $ViewList['megamenu'] = array(
 
 // The passkeys of the signed-in user's own account (doc/eng-us/guides/passkeys.md): add one (the browser's passkey
 // dialog), name, list, rename and remove them. Opens with user/login; the view sends a visitor who is not signed in
-// to the sign-in. "Verify it's you" asks first ([ReauthGroup_account]). See kernel/user/passkeys.php
+// to the sign-in. "Verify it's you" asks first ([ReauthGroup_account]). user/passkeys/<user id>: the passkeys of another
+// account, for a viewer with the policy user/passkeys_manage, who can revoke them. See kernel/user/passkeys.php
 $ViewList['passkeys'] = array(
     'functions' => array( 'login' ),
     'script' => 'passkeys.php',
     'default_navigation_part' => 'ezmynavigationpart',
-    'params' => array() );
+    'params' => array( 'UserID' ) );
 
 $ViewList['password'] = array(
     'functions' => array( 'password' ),
@@ -192,6 +195,46 @@ $ViewList['sessions'] = array(
     'params' => array( 'UserID' ),
 );
 
+// "Security activity" (doc/eng-us/features/6.0/user-sessions.md): the recent security events of the signed-in user's
+// own account (sign-ins, failed attempts, new devices and places, password, e-mail, two-step sign-in), read from the
+// user audit log; user/security/<user id> for another account needs the policy user/sessions, which the view checks.
+// On the own account it asks "Was this you?" about the events that need attention (ConfirmEventButton) and secures the
+// account (SecureButton: every other session signed out, then the password); (secure)/1, the link of the security
+// mails, puts that first. Changes are POST only, with the page's own token. See kernel/private/classes/views/user/security.php
+$ViewList['security'] = array(
+    'functions' => array( 'login' ),
+    'script' => 'security.php',
+    'ui_context' => 'administration',
+    'default_navigation_part' => 'ezmynavigationpart',
+    'unordered_params' => array( 'offset' => 'Offset', 'secure' => 'Secure' ),
+    'params' => array( 'UserID' ),
+);
+
+// The user audit log (doc/eng-us/features/6.0/user-audit.md): the security events about user accounts and groups
+// (table expuser_audit) filtered by user, action, result and date, paged, and the CSV of the filtered list (POST).
+// Needs the policy user/audit. See kernel/private/classes/views/user/audit.php
+$ViewList['audit'] = array(
+    'functions' => array( 'audit' ),
+    'script' => 'audit.php',
+    'ui_context' => 'administration',
+    'default_navigation_part' => 'ezusernavigationpart',
+    'unordered_params' => array( 'offset' => 'Offset' ),
+    'params' => array(),
+);
+
+// The sign-in report (doc/eng-us/features/6.0/user-sessions.md): how many sessions run and whose, the sign-ins and
+// failed attempts per day, the running sessions of every user (sign one out) and "Sign a user out everywhere". Reads
+// expuser_session, so it works with every session handler, the PHP files of the default one too. Needs the policy
+// user/sessions_manage; changes are POST only, with the page's own token. See
+// kernel/private/classes/views/user/sessionreport.php
+$ViewList['sessionreport'] = array(
+    'functions' => array( 'sessions_manage' ),
+    'script' => 'sessionreport.php',
+    'ui_context' => 'administration',
+    'default_navigation_part' => 'ezusernavigationpart',
+    'params' => array(),
+);
+
 $SiteAccess = array(
     'name'=> 'SiteAccess',
     'values'=> array(),
@@ -211,5 +254,12 @@ $FunctionList['hygiene'] = array();
 $FunctionList['deactivate'] = array();
 // see and sign out the sessions of other users (user/sessions/<user id>)
 $FunctionList['sessions'] = array();
+// read and export the user audit log (user/audit): who changed, signed in or was refused, for every account
+$FunctionList['audit'] = array();
+// the sign-in report of the whole site (user/sessionreport): running sessions of every user, sign-ins and failures per
+// day, and signing a user out everywhere
+$FunctionList['sessions_manage'] = array();
+// see and revoke the passkeys of other users (user/passkeys/<user id>)
+$FunctionList['passkeys_manage'] = array();
 
 ?>

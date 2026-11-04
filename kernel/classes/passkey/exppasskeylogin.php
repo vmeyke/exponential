@@ -2,7 +2,7 @@
 /**
  * File containing the expPasskeyLogin class.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package kernel
  */
@@ -20,6 +20,9 @@ class expPasskeyLogin extends eZUser
      */
     public static function signIn( eZUser $user )
     {
+        // listed on "Your devices" as a sign-in with a passkey
+        if ( class_exists( 'expUserSessionTracker' ) )
+            expUserSessionTracker::setMethodHint( 'password', 'passkey' );
         static::loginSucceeded( $user );
     }
 }

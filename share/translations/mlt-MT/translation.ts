@@ -982,6 +982,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>Qed titfittex din il-paġna biss: %from sa %to minn %count.</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Kull tip ta' dejta tal-Kernel u tal-estensjonijiet, u kif il-klassijiet u l-kontenut jużawh.</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Tipi ta' dejta</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2314,6 +2322,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>Il-paġni tas-sistema jistgħu jiżdiedu mal-favoriti wkoll: iftaħ il-paġna (Konfigurazzjoni, it-traċċa tal-awditu, lista ta' utenti ...) u agħżel “Żid il-paġna mal-favoriti” fuqha. Dawn il-favoriti għandhom ikona ta' rota.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>M'għadekx tista' tiftaħ din il-paġna hawn. Neħħi l-favorit, jew itlob aċċess lil amministratur.</translation>
     </message>
 </context>
 <context>
@@ -5163,6 +5175,210 @@
         <source>Go to the first page</source>
         <translation>Mur fl-ewwel paġna</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>Oħrajn</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>L-aħħar 7 ijiem</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>Perjodu personalizzat</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>Il-kliem kollha</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>Kwalunkwe kelma</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>Frażi eżatta</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>Rilevanza</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>Isem A–Ż</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>Isem Ż–A</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>Immodifikat, l-aktar ġodda l-ewwel</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>Immodifikat, l-eqdem l-ewwel</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>Ippubblikat, l-aktar ġodda l-ewwel</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>Ippubblikat, l-eqdem l-ewwel</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Immodifikat</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>Filtri</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>Uri l-filtri</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>Aħbi l-filtri</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Irrisettja</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>Applika</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>Kliem</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>Tip ta' kontenut</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>Uri aktar (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>Agħżel tip ta' kontenut wieħed biex tfittex f'wieħed mill-attributi tiegħu.</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Taqsima</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Minn</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Sa</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>Id-data tal-bidu mhijiex data valida.</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>Id-data tat-tmiem mhijiex data valida.</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Sid</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>ID tal-utent, login jew indirizz tal-email.</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>Ma nstab l-ebda utent għal “%input”.</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Lingwa</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>Kwalunkwe lingwa</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Post</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>%count postijiet</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>Riżultati għal kull paġna</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>Riżultati għal “%text” (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>Riżultati (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>Issortja skont</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>Sortjar</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>Filtri attivi</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>Neħħi dan il-filtru</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>Jew agħżel filtri u applikahom biex telenka l-kontenut li jaqbel magħhom.</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>Il-filtri jnaqqsu t-tfittxija ladarba tkun ittajpjajt il-kliem.</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>Ma nstab l-ebda riżultat għal “%text”.</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>Ma nstab l-ebda riżultat.</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>Neħħi filtru minn ta' fuq.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Traduzzjonijiet</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Azzjonijiet</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>Editja %name</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Editja</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -8001,8 +8217,8 @@
         <translation>L-avviżi dwar id-drittijiet tal-awtur tal-awturi oriġinali u tas-softwer ta&apos; partijiet terzi inkluż ma&apos; Exponential jinżammu fil-fajls tas-sors u fil-fajl LICENSE, kif titlob il-liċenzja.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>Din li ġejja hija lista tal-kontributuri ta&apos; Exponential li lliċenzjaw ix-xogħol tagħhom biex jintuża minn 7x skont it-termini u l-kundizzjonijiet tal-eZ Systems Contributor Licensing Agreement. Kif jippermetti dan il-ftehim, 7x iqassam kull kontribuzzjoni taħt l-istess liċenzja tal-fajl li fih hija inkluża l-kontribuzzjoni. Il-lista ssemmi kull kontributur, informazzjoni ta&apos; kuntatt fakultattiva u l-fajls li kkontribwixxa jew li għalihom ikkontribwixxa xogħol.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>Kontributuri rikonoxxuti għax-xogħol tagħhom fuq Exponential u fuq is-softwer li minnu kiber, flimkien mal-fajls li kkontribwew għalihom. Dan huwa rikonoxximent, mhux avviż tad-drittijiet tal-awtur: il-kontribuzzjonijiet għal Exponential jiġu assenjati lill-Exponential Foundation u lil 7x taħt il-Contributor Licensing Agreement.</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13824,32 +14040,20 @@ Nota: il-pakketti mhux se jiġu ddiżinstallati.</translation>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;Evalwa Exponential Enterprise Edition&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Issieħeb fil-Komunità ta&apos; Exponential, skambja u kkontribwixxi&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; u oħrajn.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>Imħaddem minn &lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt;. Għal aktar informazzjoni ara &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; u oħrajn.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> Għal aktar informazzjoni ara &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
     </message>
     <message>
-        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; u oħrajn.</translation>
+        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;Evalwa Exponential (minn 7x)&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Issieħeb fil-Komunità ta&apos; Exponential, ikseb appoġġ u kkontribwixxi&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; u oħrajn.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13858,6 +14062,61 @@ Nota: il-pakketti mhux se jiġu ddiżinstallati.</translation>
     <message>
         <source>Help center</source>
         <translation>Ċentru tal-għajnuna</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>Kontenut</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>Paġni tad-dokumenti</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>Utenti</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>Klassijiet tal-kontenut</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>Amministrazzjoni</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>Paġna %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>Ara r-riżultati kollha</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>Riżultati: %count</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>Riżultat wieħed</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>%count suġġerimenti</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>L-ebda suġġeriment</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>Is-suġġerimenti ma setgħux jitniżżlu.</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>Suġġerimenti</translation>
     </message>
 </context>
 <context>
@@ -14326,6 +14585,14 @@ Nota: il-pakketti mhux se jiġu ddiżinstallati.</translation>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>Din l-installazzjoni hija demo pubblika: kulħadd jista&apos; jkun jaf il-password tal-amministratur tagħha, u l-passwords tal-amministraturi ma jistgħux jinbidlu jew jiġu rrisettjati. Tdaħħalx xejn privat hawn.</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>L-apparati tiegħek</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Attività tas-sigurtà</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14615,6 +14882,14 @@ Nota: il-pakketti mhux se jiġu ddiżinstallati.</translation>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>Gwidi, tfittxija u kif tirrapporta żball.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Kontenut riċenti</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>L-aktar kontenut ġdid, dak li qed jinżamm għar-reviżjoni, u azzjonijiet fuq għażla.</translation>
     </message>
 </context>
 <context>
@@ -15073,6 +15348,46 @@ Nota: il-pakketti mhux se jiġu ddiżinstallati.</translation>
         <source>Synchronisations</source>
         <translation>Sinkronizzazzjonijiet</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>L-API GraphQL: il-punt tat-tmiem tagħha, l-iskema u spazju tal-provi biex tipprova mistoqsijiet.</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migrazzjonijiet</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Bidliet fl-installazzjoni miżmuma bħala fajls: l-istat tagħhom, it-tħaddimiet, tħaddim u treġġigħ lura.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Kontenut riċenti</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>L-aktar kontenut ġdid, dak li qed jinżamm għar-reviżjoni, u azzjonijiet fuq għażla.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Ippubblika kopja statika ta&apos; sit fuq GitHub Pages jew fuq kwalunkwe host tal-git.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Pubblikazzjoni statika</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Tipi ta' dejta</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Kull tip ta' dejta tal-Kernel u tal-estensjonijiet, u kif il-klassijiet u l-kontenut jużawh.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15237,6 +15552,22 @@ Nota: il-pakketti mhux se jiġu ddiżinstallati.</translation>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>Kontijiet li ħadd ma juża jew li jeħtieġu attenzjoni; iddiżattivahom, iżblokkahom jew esportahom.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Reġistru tal-awditu tal-utenti</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>Min biddel, daħal jew ġie miċħud, għal kull kont; iffiltra u esporta.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Rapport tad-dħul</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>Min hu dieħel, id-dħul u l-fallimenti kuljum; oħroġ utent minn kullimkien.</translation>
     </message>
 </context>
 <context>
@@ -22053,6 +22384,22 @@ Nota: il-pakketti mhux se jiġu ddiżinstallati.</translation>
         <source>%n hours ago</source>
         <translation>%n sigħat ilu</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>Tweġibiet tal-mistoqsijiet maħżuna tal-API GraphQL, u l-klassijiet tal-kontenut tal-iskema tagħha.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>Ippubblika kopja statika fuq GitHub Pages jew fuq kwalunkwe host tal-git</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Pubblikazzjoni statika</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>Il-cache statika sservi l-paġni minn dan is-server. Biex tippubblika kopja statika ta&apos; sit x&apos;imkien ieħor, fuq GitHub Pages jew fuq kwalunkwe host tal-git, uża l-pubblikazzjoni statika.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25594,6 +25941,10 @@ Nota: il-pakketti mhux se jiġu ddiżinstallati.</translation>
     <message>
         <source>last purge</source>
         <translation>l-aħħar tneħħija</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>Il-kitbiet ma setgħux jieħdu s-serratura tal-istat (l-aħħar darba %date): kull waħda għamlet skaduti r-riżultati kollha fil-cache. %file irid ikun jista&apos; jinkiteb minn kull utent li bih jaħdem is-sit; fuq NFS jeħtieġ NFSv4 jew lockd.</translation>
     </message>
 </context>
 <context>
@@ -33542,6 +33893,14 @@ Nota: il-pakketti mhux se jiġu ddiżinstallati.</translation>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>Is-sessjonijiet skaduti tal-ġestur tal-PHP jitneħħew mill-PHP innifsu (session.gc_maxlifetime), mhux minn din il-paġna jew mill-parti tal-kompitu cron session_gc.</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>Is-sessjonijiet attivi ta&apos; kull utent jidhru, u jistgħu jiġu magħluqa, fir-rapport tad-dħul, li jaħdem ma&apos; kull ġestur tas-sessjonijiet.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>Iftaħ ir-rapport tad-dħul</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37866,6 +38225,26 @@ il-kont tiegħek.</translation>
     <message>
         <source>None yet</source>
         <translation>L-ebda waħda s'issa</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Attività tas-sigurtà</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>Id-dħul reċenti tiegħek, it-tentattivi falluti u l-bidliet fil-password, fl-indirizz tal-email u fid-dħul f&apos;żewġ passi.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>Id-dħul reċenti, it-tentattivi falluti u l-bidliet tas-sigurtà ta&apos; dan il-kont.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>Irrevedi l-attività</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>Tentattivi ta&apos; dħul falluti: %count</translation>
     </message>
 </context>
 <context>
@@ -44032,6 +44411,42 @@ Jekk trid tibgħat kummenti lill-approvatur jew tara l-istatus, uża l-URL hawn 
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>Wara li jidħol, l-utent irid jagħżel password ġdida qabel ma jagħmel xi ħaġa oħra. Uża dan meta tagħti lil xi ħadd password temporanja.</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>Agħżel immaġni eżistenti</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>Il-fajl tal-immaġni tal-oġġett li tagħżel jiġi kkupjat f'dan il-qasam. L-oġġett l-ieħor ma jinbidilx.</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>L-immaġni ta' "%name" ġiet ikkupjata f'dan il-qasam.</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>Esplora għal immaġni</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>Fittex immaġnijiet skont l-isem</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Fittex</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>Uża l-immaġni ta' "%name"</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>Uża din l-immaġni</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>L-ebda immaġni ma taqbel mat-tfittxija tiegħek.</translation>
     </message>
 </context>
 <context>
@@ -50956,6 +51371,10 @@ Ara l-paġna tar-rekwiżiti għal aktar informazzjoni.</translation>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>Il-crontab ma nkitebx (%reason). Żid dawn il-linji mal-crontab tal-utent li bih jaħdem is-sit, inkella l-kju, l-importazzjonijiet, in-notifiki u l-indiċi tat-tfittxija qatt ma jaħdmu:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>L-installazzjoni mill-ġdid issir bil-kickstarter (%file, imbagħad php bin/php/kickstarter.php run --apply) jew b&apos;installazzjoni ġdida.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54835,6 +55254,10 @@ il-kont tiegħek.</translation>
         <source>eZJSCore Public Packer cache</source>
         <translation>Cache tal-Public Packer ta&apos; eZJSCore</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>Cache tal-GraphQL (tweġibiet u klassijiet tal-iskema)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54921,6 +55344,14 @@ il-kont tiegħek.</translation>
     <message>
         <source>Copy of %class_name</source>
         <translation>Kopja ta&apos; %class_name</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Tipi ta' dejta</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>Tip ta' dejta %string</translation>
     </message>
 </context>
 <context>
@@ -55747,6 +56178,26 @@ il-kont tiegħek.</translation>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>L-immaġni SVG ma setgħetx tinqara, jew xejn minnha ma jista&apos; jintwera b&apos;mod sigur.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>L-immaġni ma setgħetx tiġi kkupjata. Erġa' pprova jew ikkuntattja lill-amministratur tas-sit, jekk jogħġbok.</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>L-oġġett magħżul ma jeżistix jew m'għandekx permess taqrah.</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>L-oġġett magħżul m'għandux immaġni.</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>Il-fajl tal-immaġni tal-oġġett magħżul ma setax jinqara.</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>L-immaġni tal-oġġett magħżul hija akbar milli jippermetti dan il-qasam: %1 byte.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56277,6 +56728,42 @@ il-kont tiegħek.</translation>
         <source>The bookmark was renamed to "%name".</source>
         <translation>Il-favorit ingħata l-isem “%name”.</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>Din il-paġna hija mitfija f'dan l-aċċess għas-sit (%siteaccess). Iftaħ il-favorit f'aċċess għas-sit li għandu din il-paġna.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>Il-modulu ta' din il-paġna mhuwiex installat jew mhuwiex attivat hawn.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>Din il-paġna m'għadhiex teżisti: il-modulu tagħha m'għandux veduta bħal din.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>L-ebda wieħed mir-rwoli tiegħek ma jippermettilek tiftaħ din il-paġna.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>Ma tistax tuża dan l-aċċess għas-sit.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>Ma tistax taqra l-kontenut li turi din il-paġna.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>Dan it-tip ta' paġna ma jistax jiżdied mal-favoriti: jaġixxi biss fuq formola, jew huwa paġna ta' mument wieħed.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>L-indirizz ta' din il-paġna nieqes.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>Din il-paġna ma tistax tinfetaħ issa.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56748,6 +57235,10 @@ Ikollok tibdel il-klassi tan-nodu bil-funzjonalità tal-iskambju.</translation>
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>It-trasport tal-posta rrifjuta messaġġi fl-aħħar tħaddim: %count. Iċċekkja s-server tal-posta u site.ini MailSettings.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Avvenimenti qed jistennew: %count, u l-ebda tħaddim tal-kompitu cron tan-notifiki mhu rreġistrat. Żid il-parti “frequent” tal-kompiti cron mal-crontab, jew ħaddem exp:notification:run --apply.</translation>
     </message>
 </context>
 <context>
@@ -63004,6 +63495,10 @@ Ikollok tibdel il-klassi tan-nodu bil-funzjonalità tal-iskambju.</translation>
         <source>Choose another site or section with the node picker</source>
         <translation>Agħżel sit jew taqsima oħra bis-selettur tan-nodi</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>L-amministratur tas-sistema biss jista&apos; jibdel is-sid: ħaddem ./console exp:content-check --fix-permissions --apply bħala root.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64537,6 +65032,10 @@ Ikollok tibdel il-klassi tan-nodu bil-funzjonalità tal-iskambju.</translation>
     <message>
         <source>empty</source>
         <translation>vojta</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>Iċ-ċavetta tal-firma għandha aktar minn sena: biddilha b&apos;exp:audit key rotate --apply.</translation>
     </message>
 </context>
 <context>
@@ -68367,6 +68866,486 @@ Ikollok tibdel il-klassi tan-nodu bil-funzjonalità tal-iskambju.</translation>
         <source>Share of page time</source>
         <translation>Sehem mill-ħin tal-paġna</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>intalab għoti sħiħ</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>il-cache tal-paġni ma kellhiex il-paġna (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>il-cache tal-paġni ma wieġbitx</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>Mogħti</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>Mogħti mill-kernel: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>Moqdija mill-cache tal-paġni fi %ms ms. Il-paġna ġiet maħżuna fi %stored minn għoti ta' %render ms, %age s ilu.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>Agħti issa</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>Lura għall-veduta mill-cache</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>Mill-għoti fi %stored (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>Din it-talba: moqdija mill-cache tal-paġni fi %ms ms.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Utent</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>ID tal-utent</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>Profil tal-cache</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>Din il-veduta</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>Cache tal-veduti</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>għal kull utent (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>Profil tal-cache tal-utent: utenti bl-istess profil jaqsmu l-fajls tal-cache tal-vedute</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>iva</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>le</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Isem tal-utent</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>Illoggjat</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>Sessjoni</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>Il-partijiet taċ-ċavetta tal-cache tal-vedute tal-kontenut li jiddependu mill-utent, eżattament kif iċ-ċavetta teħodhom, taħt il-ViewCacheTweaks ta' din il-paġna. Utenti bl-istess profil jaqsmu l-fajls tal-cache tal-vedute, sakemm il-partijiet tal-veduta nfisha ma jvarjawx (preferenzi, ċwievet tal-listeners): dawk għandhom profil tagħhom, għal din il-paġna biss.</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>Profil</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>Din il-veduta (nodu %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: kull utent illoggjat għandu l-fajls tal-cache tiegħu.</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>ViewCacheTweaks fis-seħħ: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>Parti</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>Valur</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>L-ebda parti ma tiddependi mill-utent (ViewCacheTweaks).</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>din il-veduta</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>Ikkopja bħala test</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>Rwoli</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>Ma setgħet tinqara l-ebda assenjazzjoni ta' rwol.</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>ID tar-rwol</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Rwol</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>Limitazzjoni</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>Assenjat lil</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>l-utent</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>grupp %name (oġġett %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>Ikkupjat</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>Ma setax jiġi kkupjat.</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>imħolli barra minn listener</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>Viżitaturi anonimi</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>l-istess bħal tiegħek</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>differenti</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>Il-profil li jieħdu l-viżitaturi anonimi taħt l-istess ViewCacheTweaks, bil-preferenzi predefiniti, mingħajr il-partijiet tal-veduta: listener li jaqra s-sessjoni ma jistax jintalab għalihom.</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>Preferenzi</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>L-ebda mod ta' veduta ma jiddependi mill-preferenzi tal-utent (site.ini [ContentSettings] CachedViewPreferences).</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>Il-preferenzi li jiddependu minnhom il-vedute ta' dawn il-modi ta' veduta (CachedViewPreferences), bil-valur tal-utent jew dak predefinit. Jinsabu fil-profil bħala userpreferences, dawk tal-modi kollha flimkien.</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>Modalità tal-veduta</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>Preferenza</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>Predefinit</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>Politiki</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>Uri l-politiki tar-rwoli (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>Il-politiki jitgħabbew mis-server meta tinfetaħ din it-taqsima, paġna kull darba, u jistgħu jiġu ffiltrati skont il-modulu u l-funzjoni.</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>Funzjoni</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>Il-moduli kollha</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>Il-funzjonijiet kollha</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>Limitazzjonijiet</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>Uri aktar</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>Dawn ir-rwoli m'għandhomx politiki.</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>L-ebda politika ma taqbel mal-filtru.</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%shown minn %matching politika (%total b'kollox)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>Jitgħabba meta jinfetaħ.</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>module/function, rwol, limitazzjoni</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>Fittex il-politiki</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>Agħmel aktar</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>Modulu/funzjoni</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>Ir-rwoli kollha (%count politiki)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>L-ebda politika ma taqbel.</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%shown minn %matched politiki</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>Ebda tweġiba</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>mgħotti</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>Uri l-ispjegazzjonijiet</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>Aħbi l-ispjegazzjonijiet</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Iftaħ</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>Iftaħ kollox</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>Agħlaq kollox</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>Ċavetta jew valur</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>Fittex fis-sessjoni</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Tip</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>%count oħra</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>imdaħħal wisq fil-fond biex jintwera</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>maqtugħ, %count karattru b'kollox</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Beda</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>Isem tal-cookie</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>ID tas-sessjoni</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>Ġestur</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>Mogħdija tal-ħażna</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>Valur predefinit tal-PHP</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>Tul ta' ħajja (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>Cookie</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>tul ta' ħajja %s s</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>Is-sessjoni PHP tiegħek stess, kif kienet meta nfetħet is-sezzjoni, qatt ta' xi ħadd ieħor. Il-valuri taċ-ċwievet li jidhru sigrieti (tokens, hashes, passwords) jiġu mgħottija (debugbar.ini SessionMask[]); kull ħaġa oħra tintwera kif inħażnet, anke d-data personali.</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>%count ċwievet, %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>kbira</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>Is-sessjoni hija vojta.</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>Ma nbdiet l-ebda sessjoni għal din it-talba.</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Estensjoni %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>Il-qalba u oħrajn</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>Mhux kull entrata qed tintwera: is-sessjoni fiha aktar milli jista' jitniżżel hawn.</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>%count ċwievet mhumiex elenkati.</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>Qafas</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>Il-valuri li jidhru token (JSON Web Token, il-kredenzjali ta' header Authorization, ċavetta privata, test hex jew każwali twil) jiġu mgħottija wkoll, ikun x'ikun l-isem taċ-ċavetta tagħhom (debugbar.ini SessionValueMask[]).</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>Iċ-ċavetta tidher sigriet (debugbar.ini SessionMask[]).</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>Il-valur jidher token.</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>Taħt ċavetta mgħottija.</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>Is-sessjoni bħala test, mgħottija bħat-tabella.</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>Is-sessjoni hija akbar minn %size (debugbar.ini SessionWarnBytes): kull talba ta' dan l-utent taqra s-sessjoni kollha, u tiktibha meta tinbidel.</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>Il-PHP iżomm din is-sessjoni f'fajls u jsakkar il-fajl għat-talba kollha: it-talbiet tal-istess utent (diversi tabs, sejħiet AJAX) jistennew lil xulxin.</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>Żomm miftuħ</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>Akbar minn %size (debugbar.ini SessionWarnBytes): kull talba ta' dan l-utent taqra s-sessjoni kollha.</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%hits minn %count inqraw mill-cache</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>Ebda mudell ma ġie rrenderjat (veduta moqrija mill-cache tal-veduti ma tirrenderja l-ebda wieħed).</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>Assenjazzjonijiet tar-rwoli</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>Rwoli u politiki</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>differenti minn tal-viżitaturi anonimi</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>l-istess bħal tal-viżitaturi anonimi</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70247,6 +71226,14 @@ Ikollok tibdel il-klassi tan-nodu bil-funzjonalità tal-iskambju.</translation>
     <message>
         <source>not sent</source>
         <translation>mhux mibgħut</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Il-kompitu cron tan-notifiki jirreġistra hawn kull tħaddim tiegħu. Żid il-parti frequent mal-crontab, jew ħaddem exp:notification:run --apply.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>Uża l-console: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -75965,6 +76952,98 @@ Ikollok tibdel il-klassi tan-nodu bil-funzjonalità tal-iskambju.</translation>
         <source>This topic is not Released; readers do not see it.</source>
         <translation>Dan is-suġġett mhuwiex Rilaxxat; il-qarrejja ma jarawhx.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migrazzjonijiet</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Bidliet fl-installazzjoni miżmuma bħala fajls: l-istat tagħhom, it-tħaddimiet, tħaddim u treġġigħ lura.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Ippubblika kopja statika ta&apos; sit fuq GitHub Pages jew fuq kwalunkwe host tal-git.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Pubblikazzjoni statika</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>Fir-reviżjoni</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>Il-qarrejja jaraw din il-paġna.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>Moħbija mill-qarrejja sakemm xi ħadd jirrilaxxaha.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>Il-paġna issa tinsab fl-istat Reviżjoni. Hija moħbija mill-qarrejja sakemm tiġi rilaxxata.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>Il-paġna hija Rilaxxata: il-qarrejja jarawha issa.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>Il-paġna reġgħet saret Abbozz. Hija moħbija mill-qarrejja sakemm tiġi riveduta u rilaxxata.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>Irrilaxxa issa</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>Huwa biss utent bir-rwol %role li ma kitibx din il-verżjoni li jista' jirrilaxxaha.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>Suġġetti tal-għajnuna li qed jistennew ir-rilaxx</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>Taħbiha mill-qarrejja sakemm terġa' tiġi rilaxxata.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>Imbagħad jiċċekkjaha reviżur. Il-qarrejja għadhom ma jarawhiex.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>Il-qarrejja jarawha minnufih.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>Toħroġha mir-reviżjoni għal aktar xogħol. Il-qarrejja ma jarawhiex.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>Taħbi din il-paġna mill-qarrejja?</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>Tibgħat din il-paġna lura għall-Abbozz?</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>Il-qarrejja ma jibqgħux jaraw %title sakemm xi ħadd jerġa' jirrilaxxah.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title imur lura għall-Abbozz għal aktar xogħol. Il-qarrejja għadhom ma jarawhx, u jeħtieġ reviżjoni ġdida qabel ma jiġi rilaxxat.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Ikkanċella</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>Dawn is-suġġetti jinsabu fl-istat Reviżjoni. Il-qarrejja jarawhom hekk kif xi ħadd li ma kitibx il-verżjoni attwali jirrilaxxahom.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76136,6 +77215,10 @@ Ikollok tibdel il-klassi tan-nodu bil-funzjonalità tal-iskambju.</translation>
     <message>
         <source>Setup &gt; Cronjobs</source>
         <translation>Konfigurazzjoni &gt; Kompiti cron</translation>
+    </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>L-ebda parti tal-kompiti cron għadha ma tħaddmet: il-kju tax-xogħlijiet, l-importazzjonijiet, in-notifiki u l-indiċi tat-tfittxija qed jistennew. Ħaddem php bin/php/installcrontab.php --add --apply, jew żid il-linji ta&apos; --show mal-crontab.</translation>
     </message>
 </context>
 <context>
@@ -76475,6 +77558,46 @@ Ikollok tibdel il-klassi tan-nodu bil-funzjonalità tal-iskambju.</translation>
         <source>None.</source>
         <translation>Xejn.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>b&apos;app tal-awtentikazzjoni</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>b&apos;kodiċi bl-email</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>b&apos;kodiċi ta&apos; rkupru</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>b&apos;passkey</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>b&apos;kont estern</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Attività tas-sigurtà</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>Jidher bħala n-netwerk tiegħu; l-indirizz jinżamm kif jgħidu s-settings tal-protezzjoni tad-data tas-sit.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Mhux irreġistrat</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Post</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>bejn wieħed u ieħor</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76718,6 +77841,42 @@ Ikollok tibdel il-klassi tan-nodu bil-funzjonalità tal-iskambju.</translation>
         <source>Manage devices</source>
         <translation>Immaniġġja l-apparati</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>b&apos;app tal-awtentikazzjoni</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>b&apos;kodiċi bl-email</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>b&apos;kodiċi ta&apos; rkupru</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>b&apos;passkey</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>b&apos;kont estern</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Attività tas-sigurtà</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Mhux irreġistrat</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Post</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>bejn wieħed u ieħor</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76797,6 +77956,14 @@ Ikollok tibdel il-klassi tan-nodu bil-funzjonalità tal-iskambju.</translation>
         <source>View the sessions of this user</source>
         <translation>Ara s-sessjonijiet ta' dan l-utent</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>Il-kont tiegħek %login fuq %site għadu kif intuża biex jidħol minn post li ma daħalx minnu dan l-aħħar:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>Post approssimattiv</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76835,6 +78002,10 @@ Ikollok tibdel il-klassi tan-nodu bil-funzjonalità tal-iskambju.</translation>
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%browser fuq %os</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Rapport tad-dħul</translation>
     </message>
 </context>
 <context>
@@ -77043,6 +78214,82 @@ Ikollok tibdel il-klassi tan-nodu bil-funzjonalità tal-iskambju.</translation>
         <source>The passkey could not be checked. Please try again.</source>
         <translation>Il-passkey ma setgħetx tiġi vverifikata. Erġa' pprova, jekk jogħġbok.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>Il-kontijiet li jidħlu biss b&apos;passkeys ma jistgħux jużaw password hawn: agħżel “Idħol b&apos;passkey”.</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>Il-passkeys ta&apos; %login</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>Il-passkeys li dan il-kont jidħol bihom. Irrevoka dik li tinsab fuq apparat mitluf jew misruq: ma tkunx tista&apos; tidħol aktar. Is-sid iżid oħrajn ġodda hu stess.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>Il-kont tiegħek jeħtieġ passkey</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>Żid passkey mal-kont tiegħek</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>Żid passkey biex tkompli. Imbagħad tidħol biha minflok b&apos;password biss.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>Id-dħul b&apos;passkey huwa aktar mgħaġġel u aktar sigur minn password. Żid waħda issa, jew kompli mingħajrha.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>Mhux issa</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>Tirrevoka l-passkey “%name”?</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>Ma tkunx tista&apos; tidħol aktar f&apos;dan il-kont. Jekk kienet l-aħħar waħda, is-sid jidħol bil-password, jew inti tissettja waħda ġdida.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>Irrevoka l-passkey</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>Irrevoka</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>Dan il-kont m&apos;għandux passkey.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>Awtentikatur</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Mhux magħruf</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>L-aħħar passkey tiegħek: żid oħra qabel ma tneħħiha.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>Dan il-kont jidħol biss b&apos;passkeys (politika tal-passkeys): meta ma jibqa&apos; l-ebda waħda, jerġa&apos; jidħol bil-password tiegħu.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>Din hija l-aħħar passkey tiegħek u l-kont tiegħek ma jistax jidħol mingħajrha. L-ewwel żid passkey oħra.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>Il-passkey “%name” ġiet irrevokata. Ma tistax tidħol aktar f&apos;dan il-kont.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77142,6 +78389,34 @@ Ikollok tibdel il-klassi tan-nodu bil-funzjonalità tal-iskambju.</translation>
         <source>Code from your authenticator app</source>
         <translation>Kodiċi mill-app tal-awtentikazzjoni tiegħek</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>Se tħassar data għal kollox jew tbattal log.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>Il-password tiegħek u passkey</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>Il-password tiegħek u kodiċi mill-app tal-awtentikazzjoni tiegħek</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>Jew:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>Dan il-browser ma jistax juża passkeys. Uża mod ieħor, jew browser ieħor.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>Meta tkompli, il-browser tiegħek jitlob waħda mill-passkeys tiegħek.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>Kompli b&apos;passkey</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77232,6 +78507,70 @@ Ikollok tibdel il-klassi tan-nodu bil-funzjonalità tal-iskambju.</translation>
     <message>
         <source>Setup</source>
         <translation>Konfigurazzjoni</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>Il-bidla tal-password, l-indirizz tal-email, il-passkeys, id-dħul f&apos;żewġ passi, il-kodiċijiet ta&apos; rkupru jew iċ-ċwievet API proprji, u l-ħruġ mill-apparati l-oħra proprji.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>Il-ħolqien u l-editjar tal-utenti, il-passwords u l-apparati tagħhom, l-issettjar tal-kont, l-approvazzjoni jew iċ-ċaħda ta&apos; kontijiet ġodda tal-utenti, l-assenjar tar-rwoli u l-editjar tal-politiki.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>Tħassir ta&apos; data</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>It-tbattil tal-barmil, it-tneħħija ta&apos; oġġetti minnu u t-tneħħija ta&apos; diversi oġġetti f&apos;daqqa.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>Tneħħija, pubblikazzjoni u ssejvjar tal-kontenut</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>It-tneħħija tal-kontenut (anke lejn il-barmil), il-pubblikazzjoni u l-ħażna ta&apos; abbozz; mistoqsi meta l-formola tintbagħat. Mitfi awtomatikament.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>Qabel azzjoni sensittiva, utent dieħel jerġa&apos; jikkonferma min hu: bil-password tiegħu u passkey, jew mingħajr passkey bil-password tiegħu u l-kodiċi tal-app tal-awtentikazzjoni tiegħu. Il-paġni web biss jistaqsu: l-interfaċċja REST, SOAP, WebDAV, id-dħul ta&apos; expservices u l-linja tal-kmand qatt ma jistaqsu.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>Fejn japplika l-issettjar</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>Issettjar għal</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Kull aċċess għas-sit</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>Aċċess għas-sit %name</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Iftaħ</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>Min jiġi mistoqsi: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>Immarka gruppi ta&apos; utenti biex tistaqsi lill-membri tagħhom biss (pereżempju l-edituri). Xejn immarkat: kull utent.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>Issejvjat f&apos;settings/override/site.ini.append.php, għal kull aċċess għas-sit. Meta tissejvja tintalab tikkonferma li int.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>Issejvjat f&apos;settings/siteaccess/%name/site.ini.append.php. Valur f&apos;settings/override jirbaħ fuqu. Meta tissejvja tintalab tikkonferma li int.</translation>
     </message>
 </context>
 <context>
@@ -77366,6 +78705,6822 @@ Ikollok tibdel il-klassi tan-nodu bil-funzjonalità tal-iskambju.</translation>
     <message>
         <source>Open the page</source>
         <translation>Iftaħ il-paġna</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from sa %to minn %count</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>Isem tad-dħul jew ID tal-utent: il-kont li l-avveniment kien dwaru jew l-utent li aġixxa.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Kont</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Azzjoni</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>Wara</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>Kull riżultat</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Qabel</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Magħmul minn</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Neħħi</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Sar</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>L-avvenimenti jinżammu għal %days jum.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>L-avvenimenti jinżammu sakemm jitneħħew manwalment.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Avvenimenti</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>Kull azzjoni</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>L-avvenimenti kollha ta&apos; dan il-kont</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>Esporta l-lista bħala CSV (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Falla</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Minn</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>Illimita l-lista</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>L-ebda avveniment ma jaqbel.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Għal kull paġna</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>Ir-reġistrazzjoni hija mitfija f&apos;audit.ini ([UserAuditSettings] UserAudit); il-lista turi dak li ġie rreġistrat qabel.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Miċħud</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Riżultat</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Uri</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>It-tabella tar-reġistru tal-awditu tal-utenti hija nieqsa. Oħloqha permezz ta&apos; php update/common/scripts/6.0/createuseraudittable.php; sa dakinhar il-fajls tal-awditu jżommu kull avveniment.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>Din il-paġna teħtieġ database SQL; mhijiex disponibbli fuq MongoDB. Il-fajls tal-awditu jżommu kull avveniment.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Sa</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Reġistru tal-awditu tal-utenti</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Utent</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Meta</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Fejn</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>Min biddel, ħoloq, attiva, iddiżattiva, ċaqlaq jew neħħa liema kont, min daħal jew ġie miċħud, u liema rwoli ġew assenjati: linja waħda għal kull avveniment, bil-oqsma qabel u wara. Il-passwords u s-sigrieti qatt ma jiġu rreġistrati.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>grupp</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>sistema</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>mhux magħruf</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>Assigura l-kont tiegħek</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>Intuża kodiċi ta&apos; rkupru biex jidħol fil-kont tiegħek %login fuq %site.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>Intuża kodiċi ta&apos; rkupru</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Kont</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>Indirizz approssimattiv</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>Itlob password ġdida biex terġa&apos; tidħol, jew ikkuntattja lill-amministraturi tas-sit.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>Itlob password ġdida</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>Kull kodiċi ta&apos; rkupru jaħdem darba biss. Jekk tlift it-telefon tiegħek, erġa&apos; ssettja l-app tal-awtentikazzjoni u żomm il-kodiċijiet ta&apos; rkupru l-ġodda f&apos;post sigur.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>Tentattivi ta&apos; dħul falluti fil-kont tiegħek</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>Minn issa &apos;l quddiem, id-dħul jitlob kodiċi minbarra l-password tiegħek. Jekk għamilt dan int, m&apos;għandek bżonn tagħmel xejn.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>Jekk kont int u nsejt il-password tiegħek, itlob waħda ġdida. Jekk le, agħżel password aktar b&apos;saħħitha u ixgħel id-dħul f&apos;żewġ passi.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>Jekk ma kontx int, xi ħadd jista&apos; jkun jaf il-password tiegħek: biddilha issa u ċċekkja fejn il-kont tiegħek huwa dieħel.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>Kodiċijiet ta&apos; rkupru li fadal</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>Irrevedi l-apparati tiegħek</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>Twissija tas-sigurtà</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>Xi ħadd ipprova jidħol fil-kont tiegħek %login fuq %site b&apos;password ħażina diversi drabi wara xulxin: %count.</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>Kien hemm avveniment tas-sigurtà fil-kont tiegħek %login fuq %site.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>Din hija twissija tas-sigurtà dwar il-kont tiegħek. Tintbagħat għal kull bidla bħal din u ma tistax tintefa.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Ħin</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>Id-dħul f&apos;żewġ passi ntefa għall-kont tiegħek %login fuq %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>Id-dħul f&apos;żewġ passi ntefa</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>Id-dħul f&apos;żewġ passi ġie mixgħul għall-kont tiegħek %login fuq %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>Id-dħul f&apos;żewġ passi ġie mixgħul</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>Il-kont tiegħek %login fuq %site ġie msakkar wara wisq tentattivi ta&apos; dħul falluti.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>Il-kont tiegħek issa huwa protett mill-password tiegħek biss. Jekk ma għamiltx dan int, erġa&apos; ixgħel id-dħul f&apos;żewġ passi wara li tibdel il-password tiegħek.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>Il-kont tiegħek ġie msakkar</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>Ġiet miżjuda passkey mal-kont tiegħek %login fuq %site.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>Min għandu din il-passkey jista&apos; jidħol fil-kont tiegħek mingħajr il-password tiegħek. Jekk ma żidtiex int, neħħiha taħt Passkeys u biddel il-password tiegħek.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>Tneħħiet passkey mill-kont tiegħek %login fuq %site.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>Ma tistax tidħol aktar fil-kont tiegħek. Jekk ma neħħejtiex int, iċċekkja l-passkeys u l-apparati tiegħek.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>Ġiet miżjuda passkey mal-kont tiegħek</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>Tneħħiet passkey mill-kont tiegħek</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>Attività tas-sigurtà</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Attività tas-sigurtà ta&apos; %name</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Dieħel</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Tentattiv ta&apos; dħul fallut</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Ħareġ</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Sessjonijiet magħluqa</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Dħul minn apparat ġdid</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Dħul minn post ġdid</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Identità kkonfermata (“Ivverifika li int”)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Il-verifika tal-identità falliet</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Daħal b&apos;passkey</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Id-dħul b&apos;passkey falla</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Dħul miċħud: il-kodiċi tad-dħul f&apos;żewġ passi nieqes jew ħażin</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Kodiċi tad-dħul f&apos;żewġ passi ħażin</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Kont imsakkar wara tentattivi ta&apos; dħul falluti</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Kont miftuħ</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Password mibdula</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Il-bidla tal-password falliet</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Password irrisettjata</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Intalbet password ġdida</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Indirizz tal-email mibdul</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Isem tal-utent mibdul</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Dħul f&apos;żewġ passi mixgħul</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Dħul f&apos;żewġ passi mitfi</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Kodiċi ta&apos; rkupru użat</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Kodiċijiet ta&apos; rkupru ġodda</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Password tal-app maħluqa</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Password tal-app revokata</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Passkey miżjuda</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Passkey imneħħija</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Kont attivat</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Kont diżattivat</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Kollha</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Dħul u sessjonijiet</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Bidliet fil-kont</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Jeħtieġu attenzjoni</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>minnek</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>mill-utent</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>minn %login</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>Metodu</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>Brawżer</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>Sistema operattiva</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Apparat</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>Post</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>Pajjiż</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Sessjonijiet</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>Liema</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>Mezz</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Tentattivi falluti</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>Kodiċijiet li fadal</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>Ġestur tad-dħul</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Attività tas-sigurtà</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Attività tas-sigurtà ta&apos; %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Id-dħul u l-bidliet fis-sigurtà tal-kont tiegħek. Jekk tara xi ħaġa li ma għamiltx int, ibdel il-password tiegħek u oħroġ l-apparati li ma tagħrafx.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>Id-dħul u l-bidliet fis-sigurtà ta&apos; dan il-kont.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>L-apparati tiegħek</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Ibdel il-password</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>Lura għall-kont</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>L-attività tas-sigurtà mhix qed tiġi rreġistrata</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>Tinqara mir-reġistru tal-awditu tal-utenti, li t-tabella tiegħu expuser_audit hija nieqsa jew mhix appoġġata f&apos;din id-database. Ħaddem php update/common/scripts/6.0/createuseraudittable.php, jew l-aġġornament tad-database tal-verżjoni 6.0.15.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>L-aħħar jiem: %days</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Dħul fl-aħħar jiem (%days)</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>Attività reċenti tas-sigurtà</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Uri</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>falla</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>miċħud</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>L-ebda attività tas-sigurtà għadha ma ġiet irreġistrata.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>L-avvenimenti tas-sigurtà jinżammu għal %days jum.</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>L-avvenimenti tas-sigurtà jinżammu sakemm amministratur ineħħihom.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Niżżel id-data tad-dħul tiegħi</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Is-sessjonijiet u l-avvenimenti tas-sigurtà tiegħek bħala fajl JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Is-sessjonijiet ma jiġux irreġistrati f'dan is-sit, għalhekk l-ebda apparat ieħor ma seta' joħroġ. Ibdel il-password tiegħek issa.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count sessjonijiet oħra ngħalqu. Issa ibdel il-password tiegħek.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>L-ebda apparat ieħor ma kien dieħel. Issa ibdel il-password tiegħek.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Grazzi. L-avveniment ġie mmarkat bħala tiegħek.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Dak l-avveniment ma jeħtieġ l-ebda tweġiba.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Il-paġna kienet skadiet. Ma nbidel xejn; erġa' pprova, jekk jogħġbok.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Assigura l-kont tiegħek</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Jekk xi ħaġa hawn ma kontx int, oħroġ mill-apparati l-oħra kollha, imbagħad agħżel password ġdida. L-apparati li baqgħu dieħla bi “Ftakar fija” joħorġu wkoll.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Kull apparat ħlief dan joħroġ fit-talba li jmiss tiegħu. Imbagħad tagħżel password ġdida.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Iva, oħroġ mill-apparati l-oħra</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Kont int?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Iva, kont jien</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Le, assigura l-kont tiegħi</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Dieħel</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Tentattiv ta&apos; dħul fallut</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Ħareġ</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Sessjonijiet magħluqa</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Dħul minn apparat ġdid</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Dħul minn post ġdid</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Identità kkonfermata (“Ivverifika li int”)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Il-verifika tal-identità falliet</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Daħal b&apos;passkey</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Id-dħul b&apos;passkey falla</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Dħul miċħud: il-kodiċi tad-dħul f&apos;żewġ passi nieqes jew ħażin</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Kodiċi tad-dħul f&apos;żewġ passi ħażin</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Kont imsakkar wara tentattivi ta&apos; dħul falluti</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Kont miftuħ</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Password mibdula</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Il-bidla tal-password falliet</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Password irrisettjata</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Intalbet password ġdida</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Indirizz tal-email mibdul</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Isem tal-utent mibdul</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Dħul f&apos;żewġ passi mixgħul</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Dħul f&apos;żewġ passi mitfi</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Kodiċi ta&apos; rkupru użat</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Kodiċijiet ta&apos; rkupru ġodda</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Password tal-app maħluqa</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Password tal-app revokata</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Passkey miżjuda</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Passkey imneħħija</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Kont attivat</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Kont diżattivat</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Kollha</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Dħul u sessjonijiet</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Bidliet fil-kont</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Jeħtieġu attenzjoni</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Attività tas-sigurtà</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Attività tas-sigurtà ta&apos; %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Id-dħul u l-bidliet fis-sigurtà tal-kont tiegħek. Jekk tara xi ħaġa li ma għamiltx int, ibdel il-password tiegħek u oħroġ l-apparati li ma tagħrafx.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>L-apparati tiegħek</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Ibdel il-password</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>L-attività tas-sigurtà għadha mhix qed tiġi rreġistrata f&apos;dan is-sit.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Dħul fl-aħħar jiem (%days)</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Tentattivi falluti</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>L-ebda attività tas-sigurtà għadha ma ġiet irreġistrata.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Niżżel id-data tad-dħul tiegħi</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Is-sessjonijiet u l-avvenimenti tas-sigurtà tiegħek bħala fajl JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Is-sessjonijiet ma jiġux irreġistrati f'dan is-sit, għalhekk l-ebda apparat ieħor ma seta' joħroġ. Ibdel il-password tiegħek issa.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count sessjonijiet oħra ngħalqu. Issa ibdel il-password tiegħek.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>L-ebda apparat ieħor ma kien dieħel. Issa ibdel il-password tiegħek.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Grazzi. L-avveniment ġie mmarkat bħala tiegħek.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Dak l-avveniment ma jeħtieġ l-ebda tweġiba.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Il-paġna kienet skadiet. Ma nbidel xejn; erġa' pprova, jekk jogħġbok.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Assigura l-kont tiegħek</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Jekk xi ħaġa hawn ma kontx int, oħroġ mill-apparati l-oħra kollha, imbagħad agħżel password ġdida. L-apparati li baqgħu dieħla bi “Ftakar fija” joħorġu wkoll.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Kull apparat ħlief dan joħroġ fit-talba li jmiss tiegħu. Imbagħad tagħżel password ġdida.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Iva, oħroġ mill-apparati l-oħra</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Kont int?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Iva, kont jien</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Le, assigura l-kont tiegħi</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>Password</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>Password u kodiċi tad-dħul f&apos;żewġ passi</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>Interfaċċa REST</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>Interfaċċa SOAP</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>Dħul uniku</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>Daħal qabel ma bdew jiġu rreġistrati s-sessjonijiet</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Rapport tad-dħul</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>Min hu dieħel fis-sit, kemm-il darba l-kontijiet jidħlu u jfallu, u l-ħruġ ta&apos; utent minn kullimkien. Jaħdem ma&apos; kull ġestur tas-sessjonijiet.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>Is-sessjoni ngħalqet. L-apparat irid jerġa&apos; jidħol.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>%login ħareġ mis-sessjonijiet: %count.</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>%login ma kellux sessjoni attiva.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>L-ebda kont ma għandu dak l-ID, isem tal-utent jew indirizz tal-email.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>Din hija s-sessjoni li qed tuża. Biex ittemmha, oħroġ.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>Dik is-sessjoni kienet diġà ntemmet.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Il-paġna kienet skadiet. Ma nbidel xejn; erġa&apos; pprova, jekk jogħġbok.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>Is-sessjonijiet mhumiex irreġistrati f&apos;dan is-sit (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>It-tabella expuser_session hija nieqsa</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>Is-sessjonijiet jiġu rreġistrati hekk kif tinħoloq: php update/common/scripts/6.0/createusersessiontable.php, jew l-aġġornament tad-database tal-verżjoni 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>Issa u llum</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>Sessjonijiet attivi</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>Utenti dieħla</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>Dħul illum</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>Tentattivi falluti llum</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>Oħroġ utent minn kullimkien</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>Kull sessjoni tal-kont tintemm fit-talba li jmiss tagħha, anke dawk miżmuma minn “Ftakar fija”. Użah meta kont jista&apos; jkun f&apos;idejn il-ħażin; imbagħad irrisettja l-password tiegħu.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>ID tal-utent, isem tal-utent jew indirizz tal-email</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>Oħroġ minn kullimkien</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>Dieħla issa</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>Jidhru l-aktar użati reċentement, sa %limit.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Utent</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Apparat</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Indirizz</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>Dieħel</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>L-aħħar attività</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Azzjonijiet</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>Dan l-apparat</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Mhux irreġistrat</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>Oħroġ</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>L-ebda sessjoni mhi dieħla.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>L-aħħar jiem: %days</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>Id-dħul u t-tentattivi falluti jingħaddu mir-reġistru tal-awditu tal-utenti, li mhux hemm; is-sessjonijiet il-ġodda jingħaddu.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>Jum</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>Dħul</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Tentattivi falluti</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>Sessjonijiet ġodda</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>Ġestur tas-sessjonijiet: %handler. Is-sessjonijiet jinqraw mit-tabella expuser_session, għalhekk ir-rapport jaħdem ma&apos; kull ġestur.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>Attività suspettuża fl-aħħar %hours siegħa</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>Netwerk wieħed ma rnexxilux jidħol f'%accounts kont (%count tentattiv)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Kont imsakkar wara dħul li ma rnexxiex</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>%count dħul li ma rnexxiex fuq kont wieħed</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>Dieħel minn %count pajjiż fl-istess ħin</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Attività tas-sigurtà</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Sessjonijiet</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>Id-dħul li ma rnexxiex jinqara mir-reġistru tal-verifika tal-utenti, li mhuwiex disponibbli hawn.</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>Xejn suspettuż: l-ebda kont b'dħul ripetut li ma rnexxiex, l-ebda netwerk li jipprova diversi kontijiet, l-ebda kont dieħel minn diversi pajjiżi.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>Twissija tas-sigurtà dwar il-kont tiegħek</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>Kien hemm avveniment tas-sigurtà fil-kont tiegħek %login: %event. Jekk ma kontx int, assigura l-kont tiegħek fuq %url.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Konfigurazzjoni</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>Itlob lill-kontenut ta' dan is-sit eżattament il-oqsma li paġna teħtieġ, f'talba waħda. L-iskema ssegwi l-klassijiet tal-kontenut; kull mistoqsija taħdem bid-drittijiet tal-utent li jibgħatha.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>L-API GraphQL hija mitfija f'dan l-aċċess għas-sit. Ixgħelha f'graphql.ini: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>Il-librerija GraphQL (webonyx/graphql-php 15) mhijiex installata.</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>Punt tat-tmiem</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>Librerija</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>Skema</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>%count klassijiet tal-kontenut, skema %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>Mistoqsija</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>Varjabbli (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Ħaddem</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>Tweġiba</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>Qed jaħdem…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>It-tweġiba ma setgħetx tinqara.</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>Il-mistoqsija taħdem bid-drittijiet tiegħek, illoggjat b'din is-sessjoni.</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%count f'%seconds s</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>l-ebda limitu</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>Fond</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>Kumplessità</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>Elementi għal kull lista</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (default %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>Talbiet għal kull utent jew ċavetta</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>Talbiet għal kull indirizz anonimu</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>Introspezzjoni</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>Mistoqsijiet maħżuna biss</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>L-akbar mistoqsija</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>%bytes byte</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>L-akbar tlugħ</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>M'hemm l-ebda aċċess għas-sit %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>Il-mutazzjonijiet inxtegħlu f'%siteaccess.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>Il-mutazzjonijiet intfew f'%siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>L-API GraphQL inxtegħlet f'%siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>L-API GraphQL intfiet f'%siteaccess.</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>Is-settings ma setgħux jinkitbu: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>Il-cache tat-tweġibiet tbattlet: tneħħew %count tweġibiet.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>Immarka l-kaxxa ħdejn il-mistoqsija biex tneħħiha.</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>Il-mistoqsija ma setgħetx titneħħa: mistoqsija mogħtija f'direttorju ta' PersistedQueryDirectoryList[] titneħħa mal-fajl tagħha.</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>Il-mistoqsija maħżuna tneħħiet.</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>Mutazzjonijiet</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>mixgħul</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>mitfi</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Aċċessi għas-sit</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>Fejn tweġibu l-API u l-mutazzjonijiet tagħha. Il-buttuni jiktbu graphql.ini, kif jagħmlu ./console exp:graphql:enable u exp:graphql:disable.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Aċċess għas-sit</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>API GraphQL</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Ibdel</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Itfi</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>Mutazzjonijiet mitfija</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>Mutazzjonijiet mixgħula</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Ixgħel</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>Limiti</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>graphql.ini [GraphQLSettings] ta' dan l-aċċess għas-sit.</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>Cache tat-tweġibiet</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>It-tweġibiet tal-mistoqsijiet maħżuna, miżmuma skont id-drittijiet tal-utent u li jiskadu kull meta jiġi ppubblikat kontenut.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Stat</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>Tweġibiet miżmuma</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>%count tweġibiet, %bytes byte</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>Miżmuma l-iktar</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds s</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>L-aħħar skadenza</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>Battal il-cache tat-tweġibiet</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>Mistoqsijiet maħżuna</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>Maħżuna b'./console exp:graphql:persist, jew mill-klijenti (mistoqsijiet maħżuna awtomatikament); imsejħa bl-isem jew SHA-256.</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>Ismijiet</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Daqs</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Fejn</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Neħħi</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>mogħtija</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>maħżuna</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>Iva, neħħi din il-mistoqsija</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>Għad m'hemm l-ebda mistoqsija maħżuna.</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>Ċwievet API</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>Ċwievet API personali bl-ambitu graphql:read (mistoqsijiet) jew graphql:write (mutazzjonijiet). Oħloqhom u rrevokahom fil-paġna Aċċess għall-API, jew b'./console exp:graphql:keys.</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>Aċċess għall-API</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>Iċ-ċwievet kollha</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>Ċavetta</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Isem</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Sid</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>Ambiti</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>L-aħħar użu</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>attiva</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>skaduta</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>revokata</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>qatt</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>Għad m'hemm l-ebda ċavetta API b'ambitu GraphQL.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>L-API GraphQL hija mitfija fl-aċċess għas-sit %siteaccess, li juri din il-paġna; it-tabella hawn taħt turi fejn twieġeb.</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>Għall-aċċess għas-sit %siteaccess, li juri din il-paġna.</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>Webhooks</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>Kull avveniment li jitlob punt tat-tmiem (publish, update, trash, delete, move, hide, reveal, mutation) jintbagħatlu, iffirmat, mill-parti tal-cronjob graphqlwebhooks. ./console exp:graphql:webhooks tagħmel l-istess bħal din it-taqsima.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Avvenimenti</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>kollha</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Kull aċċess għas-sit</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>bil-ħsara</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>l-ebda sigriet</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>Qed jistennew</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count abbandunati</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>L-aħħar kunsinna</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Ibgħat test</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>Iva, neħħi dan il-webhook</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>Għad m'hemm l-ebda webhook.</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>Żid webhook</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>Żid</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>Kunsinni riċenti</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Ħin</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Riżultat</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>Abbonamenti</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>Aġġornamenti diretti għall-klijenti: fluss ta' avvenimenti f'/api/graphql/subscribe, u WebSocket (graphql-transport-ws) fuq Velocity. Kull avveniment imur biss għand l-abbonati li jistgħu jaqraw il-kontenut tiegħu.</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>Miftuħa issa</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>L-iktar miftuħa</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>%total b'kollox, %user għal kull utent, %address għal kull indirizz</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>Abbonamenti anonimi</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>Tul tal-fluss</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>Il-webhook ma setax jiżdied: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>Il-webhook %name inbidel; is-sigriet tal-firma tiegħu jibqa'.</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>Is-sigriet tal-firma ma setax jinħażen (Konfigurazzjoni &gt; Sigrieti).</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>Il-webhook %name żdied. Is-sigriet tal-firma tiegħu, muri din id-darba biss: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>M'hemm l-ebda webhook %name.</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>Il-webhook %name ma weġibx: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>Il-webhook %name wieġeb %status f'%ms ms.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>Immarka l-kaxxa ħdejn il-webhook biex tneħħih.</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>Il-webhook %name tneħħa.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>L-API GraphQL hija mitfija f&apos;dan l-aċċess għas-sit.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>Il-librerija GraphQL mhijiex installata.</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>Uża GET jew POST.</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>Il-korp tat-talba mhuwiex oġġett JSON.</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables mhuwiex oġġett JSON.</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions mhuwiex oġġett JSON.</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>Ibgħat il-mistoqsija b&apos;POST.</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>It-talba m&apos;għandha l-ebda mistoqsija.</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>Il-mistoqsija hija itwal minn %max byte.</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>Żball intern tas-server</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node jeħtieġ eżattament wieħed minn id, remoteId, path u urlAlias.</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content jeħtieġ eżattament wieħed minn id u remoteId.</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>Il-kursur ta&apos; after ma ngħatax minn din l-API.</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>Ma jeżistix alias tal-immaġni %alias (image.ini [AliasSettings] AliasList[]).</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>Hawn jiġu aċċettati biss mistoqsijiet maħżuna: ibgħat l-id ta&apos; mistoqsija maħżuna fuq is-server.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>Il-hash tal-mistoqsija maħżuna mhuwiex SHA-256.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>Il-hash tal-mistoqsija maħżuna ma jaqbilx mal-mistoqsija.</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>Wisq talbiet: l-iktar %limit f&apos;%window sekondi. Erġa&apos; pprova f&apos;%reset sekondi.</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>Il-mistoqsija hija fonda %depth livelli; huma permessi l-iktar %max.</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>Il-mistoqsija għandha kumplessità ta&apos; %complexity; huwa permess l-iktar %max.</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>Din it-talba ma tistax taqra l-iskema (introspection).</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search jeħtieġ test jew filtru (classes, subtree, sections, publishedAfter, publishedBefore).</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument mhuwiex data (ISO 8601, 2026-10-30).</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag jeħtieġ eżattament wieħed minn id, remoteId u path.</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout jeħtieġ eżattament wieħed minn id, identifier u urlAlias.</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>Il-qasam operations ta' talba multipart mhuwiex talba JSON waħda.</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>Il-qasam map ta' talba multipart mhuwiex oġġett JSON.</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>It-talba multipart m'għandhiex il-fajl %field.</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>Mogħdija tal-qasam map trid tibda b'variables.: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>Il-fajl %name ma waslx sħiħ (żball fit-tlugħ %error).</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>Il-fajl %name huwa akbar minn %max byte.</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>Il-fajl %name ma setax jiġi ċċekkjat.</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>Il-mutazzjonijiet huma mitfija f'dan l-aċċess għas-sit (graphql.ini [GraphQLSettings] MutationsEnabled).</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>Ibgħat mutazzjoni b'POST.</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>Idħol biex tibdel il-kontenut.</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>Iċ-ċavetta API m'għandhiex l-ambitu %scope.</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>Mutazzjoni b'sessjoni teħtieġ it-token tal-formola tas-sessjoni (header X-CSRF-Token).</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>uploadFromUrl huwa mitfi: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] ma jsemmi l-ebda host.</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>L-indirizz irid ikun indirizz https.</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>Il-host %host mhuwiex f'graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>Il-fajl ma setax jinġieb.</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload huwa tip ta' input biss.</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>Varjabbli tat-tip Upload jieħu fajl ta' talba multipart.</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>L-id remot %remoteId diġà meħud.</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>Il-kontenut diġà għandu traduzzjoni bil-%language: uża updateContent.</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>Agħti mill-inqas qasam wieħed.</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>Ma setgħetx issir verżjoni ġdida (il-kontenut għandu wisq abbozzi).</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>Il-verżjoni %version mhijiex abbozz.</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent jeħtieġ eżattament wieħed minn id u nodeId.</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>Post ma jistax jitmexxa taħt lilu nnifsu.</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>Il-kontenut diġà għandu post taħt %parentId.</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>Il-valur tal-qasam %field ma setax jinħażen.</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>M'hemm l-ebda lingwa tal-kontenut %language.</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>M'hemm l-ebda klassi tal-kontenut %class fl-iskema.</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>Il-kontenut mhuwiex hemm, jew ma tistax taqrah.</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>Ma tistax tagħmel dan lil dan il-kontenut.</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>Il-klassi %class m'għandhiex qasam %field li jista' jinkiteb.</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>Il-qasam %field ingħata darbtejn.</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>Il-qasam %field jieħu fajl: ibagħtu bħala tlugħ (talba multipart).</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>Il-qasam %field ma jieħux fajl.</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>Il-qasam %field jeħtieġ valur.</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>Il-format %format huwa biss għal oqsma ta' test rikk; %field jieħu l-valur tiegħu kif inhu (RAW).</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>Il-qasam %field huwa meħtieġ.</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>L-HTML ma setax jinqara.</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content jieħu version ma' id biss.</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>It-token tal-preview mhuwiex validu jew skada.</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>Mhuwiex oriġini (https://host jew https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>Mhuwiex ambitu tal-API GraphQL: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>Ibgħat l-abbonamenti lil /api/graphql/subscribe (fluss ta' avvenimenti jew WebSocket).</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>It-talba ma ssemmi l-ebda operazzjoni tad-dokument.</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>Abbonament jitlob eżattament qasam wieħed.</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>Hemm wisq abbonamenti miftuħa; erġa' pprova aktar tard.</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>Għandek %max abbonamenti miftuħa, l-ogħla numru permess.</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>L-indirizz tiegħek għandu %max abbonamenti miftuħa, l-ogħla numru permess.</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>L-abbonamenti huma mitfija f'dan l-aċċess għas-sit.</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>Idħol biex tabbona (token jew ċavetta API personali).</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>Ibgħat il-mutazzjonijiet lil /api/graphql.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>Migrazzjonijiet</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>L-istat ma setax jinqara: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>It-tabelli tal-migrazzjonijiet għadhom ma jeżistux: ./console exp:upgrade --apply joħloqhom.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>%count migrazzjonijiet fallew</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>Għaddej tħaddim, mibdi minn %user</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>L-installazzjoni hija msakkra: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Pendenti</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Fallew</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>Orfni</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>L-aħħar tħaddim</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>għad hemm xejn</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>Il-migrazzjonijiet kollha</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>Tħaddim simulat</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>Tħaddim ta&apos; prova</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>Il-migrazzjonijiet pendenti tħaddmu fi tranżazzjoni li wara ġiet imreġġgħa lura: xejn ma nżamm. Hawn taħt hemm x&apos;biddlet kull waħda fil-bażi tad-dejta.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>X&apos;jagħmel tħaddim issa. Xejn ma jinbidel: kull migrazzjoni pendenti telenka l-bidliet li tagħmel, u t-tħaddim x&apos;jagħmel qabel u wara.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>Issimula</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Ħaddem</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>It-tħaddim ta&apos; prova falla: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>Simulazzjoni teħtieġ PostgreSQL jew SQLite, li l-bidliet fl-iskema tagħhom jistgħu jitreġġgħu lura; f&apos;din il-bażi tad-dejta l-pjan hawn taħt juri x&apos;jagħmel tħaddim.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>Il-migrazzjonijiet</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>Migrazzjoni</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Stat</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>X&apos;tagħmel</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>Simulazzjoni: %result f&apos;%ms ms</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>Għad m&apos;hemm l-ebda migrazzjoni.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>Qabel u wara t-tħaddim</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>Ritratt ta&apos; qabel</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>meħud, u restawrat meta migrazzjoni tfalli</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>mitfi</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>Ritratt ta&apos; wara</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>meħud meta t-tħaddim irnexxa</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>%total migrazzjonijiet: %pending pendenti, %done magħmula, %failed fallew.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>Storja tal-migrazzjonijiet</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>Kull tħaddim bl-utent, l-ambjent, ir-ritratti tiegħu u x&apos;ġie kommess, ittikkettjat u mibgħut. Tħaddim li falla jew ġie interrott jista&apos; jitkompla; tħaddim b&apos;ritratt meħud qablu jista&apos; jitreġġa&apos; lura.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>It-tħaddimiet ma setgħux jinqraw: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>It-tabelli tal-migrazzjonijiet għadhom ma jeżistux: ./console exp:upgrade --apply joħloqhom.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Uri</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Kollha</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>Tħaddimiet</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Mibdi</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Minn</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>Ritratti</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Repożitorju</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Azzjonijiet</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>qabel</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>wara</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>bgħit: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>Kompli</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Reġġa&apos; lura</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>L-ebda tħaddim f&apos;dan l-istat.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>Mibdija hawn</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>Tħaddimiet, kontinwazzjonijiet u treġġigħ lura mibdija f&apos;dawn il-paġni, bir-rapport ta&apos; kull wieħed.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>X&apos;inhu</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Riżultat</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Treġġigħ lura</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>Treġġigħ lura ta&apos; %target</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>Tħaddim %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>X&apos;għamel it-tħaddim, ir-rekord u l-log tiegħu. Tħaddim mibdi hawn ikompli fl-isfond meta din il-paġna tingħalaq; erġa&apos; iftaħ il-paġna biex issegwih.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>Kompli dan it-tħaddim</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>Reġġa&apos; lura dan it-tħaddim</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>Ir-rekord ma setax jinqara: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Avvanz</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Mibdi minn %user fil-%time.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>Qed jiġi ċċekkjat il-kodiċi u jittieħed ritratt qabel it-tħaddim</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>Qed titħaddem %id (%index minn %total)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>%done minn %total magħmula</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>Il-migrazzjonijiet tħaddmu; qed jiġi restawrat ir-ritratt jekk xi waħda falliet</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>Qed jittieħed ritratt wara t-tħaddim, kommissjoni, ittikkettjar u bgħit</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>Qed jiġi restawrat ir-ritratt</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>It-tħaddim spiċċa. Qed jitgħabba r-rapport tiegħu.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>Il-progress ma setax jiġi segwit. Erġa&apos; għabbi l-paġna biex tara kif sejjer it-tħaddim.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>Din il-paġna ssegwi t-tħaddim waqt li jsir.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Erġa&apos; għabbi</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Rapport</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Ħin</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms millisekondi</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>X&apos;stampa t-tħaddim bħala żbalji</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Rekord</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>Ambjent</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>xejn</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Spiċċa</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Kommissjoni</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Tikketta</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Bgħit</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Messaġġ</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>Migrazzjonijiet ta&apos; dan it-tħaddim</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>Sors</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>Log tat-tħaddim</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>Jintwera biss it-tmiem tal-log.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>għaddej</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>spiċċa mingħajr rapport</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>irnexxa</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>falla</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>miċħud</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>il-bażi tad-dejta ma kinitx milħuqa</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>żball intern</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>Għaddej tħaddim</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind mibdi minn %user fil-%time.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>Segwih</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>L-installazzjoni hija msakkra</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>Tħaddim ieħor qed iżomm is-serratura (aġġornament jew tħaddim fil-console): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>magħmula</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>pendenti</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>mhux meħtieġa</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>mhux magħruf</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>imreġġgħa lura</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>applikata</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>tkun applikata</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>irtirata</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>tkun irtirata</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>mhux imħaddma</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>qed tistenna oħra</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>bidla aċċettata</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>il-bidla tkun aċċettata</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>simulata</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migrazzjonijiet</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Stat</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Storja</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>Irtira %target</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>Tħaddim jitreġġa&apos; lura għar-ritratt meħud qablu, migrazzjoni waħda bil-down() tagħha. Ir-restawr ta&apos; ritratt preċedenti huwa għall-esperti. Kull wieħed jitħaddem fl-isfond f&apos;ismek, wara ritratt tal-istat attwali.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>X&apos;jista&apos; jiġi rtirat ma setax jinqara: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>Tħaddim</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>Migrazzjoni waħda</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>Ritratt preċedenti</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>Deskrizzjoni</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>iva</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>le</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Ritratt</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Isem</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>Meħud</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Tip</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>Partijiet li għandhom jiġu restawrati</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>Il-bażi tad-dejta</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>Il-fajls maħżuna (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>Is-settings (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>Ir-restawr jieħu l-bażi tad-dejta lura għall-ħin tar-ritratt, inklużi s-sessjonijiet: wara jista&apos; jkollok tidħol mill-ġdid. Kull ma nbidel minn dak iż-żmien jintilef; l-ewwel jittieħed ritratt tal-istat attwali.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>Naf x&apos;jirrestawra dan</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>Erġa&apos; ikteb l-identifikatur tar-ritratt</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>Iva, irtira</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Ikkanċella</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>It-tħaddimiet b&apos;ritratt meħud qabilhom.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>Agħżel</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>Għad m&apos;hemm l-ebda tħaddim b&apos;ritratt.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>Il-migrazzjonijiet applikati li jistgħu jirtiraw lilhom infushom (għandhom down()).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>L-ebda migrazzjoni applikata m&apos;għandha down().</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>Ritratti preċedenti (esperti)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>Għad m&apos;hemm l-ebda ritratt.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>Ħaddem il-migrazzjonijiet</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>It-tħaddim ikompli fl-isfond bħala %user, u l-paġna tiegħu turih waqt li jsir. Qabel l-ewwel migrazzjoni jittieħed ritratt tal-installazzjoni; meta migrazzjoni tfalli t-tħaddim jieqaf u r-ritratt jiġi restawrat.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>L-ewwel tħaddim ta&apos; prova</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>L-istat ma setax jinqara: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>Migrazzjonijiet pendenti</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>Jitħaddmu f&apos;din l-ordni. Neħħi l-marka minn waħda biex tħalliha, flimkien ma&apos; dawk li jeħtiġuha, għal tħaddim aktar tard.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>Ħaddimha</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>Jixgħel il-modalità ta&apos; manutenzjoni waqt li jitħaddem.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>Inbidlu wara li ġew applikati</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>Dawn il-fajls mhumiex dawk li ġew applikati. Tħaddim jiċħadhom sakemm il-bidla ma tiġix aċċettata b&apos;raġuni; ma jitħaddmux mill-ġdid, iċ-checksum il-ġdid jiġi rreġistrat u r-raġuni tinżamm fil-log tal-verifika.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>Aċċetta l-bidliet</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Raġuni</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>Il-valuri awtomatiċi huma dawk siguri. Kull kaxxa tħalli pass barra.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>Ebda ritratt</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>Ebda ritratt qabel u wara t-tħaddim: falliment ma jistax jiġi restawrat awtomatikament.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>Ebda restawr</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>Wara falliment, ħalli l-installazzjoni kif ħallieha l-falliment.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>Żomm il-bidliet mhux kommessi</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>Ħaddem anki jekk is-settings, l-estensjonijiet jew id-disinji għandhom bidliet mhux kommessi; dawn jidħlu fir-ritratt.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>Ebda kommissjoni</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>Tikkommettix il-fajl tal-istat u l-log tat-tħaddim (lanqas tikketta u lanqas bgħit).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>Ebda bgħit</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>Ikkommetti u ttikkettja, iżda tibgħatx.</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>Ebda tikketta</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>Ikkommetti u ibgħat, iżda tittikkettjax it-tħaddim.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>Iva, ħaddem dawn il-migrazzjonijiet issa</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>L-ebda migrazzjoni mhi pendenti.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>Lura għall-istat</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>Bidliet f&apos;din l-installazzjoni miktuba darba bħala fajls (kontenut, klassijiet, rwoli, settings, skema) u applikati għal kull installazzjoni tas-sit fl-istess ordni. Tħaddim l-ewwel jieħu ritratt, jirrestawrah meta migrazzjoni tfalli, u jirreġistra, jikkommetti u jibgħat dak li għamel.</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>Ħaddem %count pendenti</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Ħarsa ġenerali</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Pendenti</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Magħmula</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Fallew</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>Mhux meħtieġa</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>Bażi tad-dejta</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>tranżazzjonijiet: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>Il-migrazzjonijiet tas-sit jinsabu f&apos;migrations/, dawk ta&apos; estensjoni f&apos;extension/&lt;name&gt;/migrations/. Jitħaddmu skont l-ordni tal-ismijiet tagħhom u ta&apos; dak li jeħtieġu.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>L-aħħar tħaddim</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>Il-fajl inbidel wara li ġie applikat.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>Għad m&apos;hemm l-ebda migrazzjoni. ./console exp:migration:generate --skeleton &lt;name&gt; --apply jikteb l-ewwel waħda.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>L-aħħar tħaddimiet</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>It-tħaddimiet kollha</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>Għad m&apos;hemm l-ebda tħaddim.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>Is-simulazzjoni ta&apos; tħaddim teħtieġ il-politika migration/run.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>Għaddej tħaddim: issimula meta jispiċċa.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Konfigurazzjoni</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target mhux tħaddim, mhux migrazzjoni u mhux ritratt ta&apos; din l-installazzjoni.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>L-ewwel immarka &quot;Iva, irtira&quot;.</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>Ir-restawr ta&apos; ritratt preċedenti huwa għall-esperti: immarka &quot;Naf x&apos;jirrestawra dan&quot;.</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>Erġa&apos; ikteb l-identifikatur tar-ritratt: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>Agħżel mill-inqas parti waħda biex tiġi restawrata.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>Dan it-tħaddim m&apos;għandux ritratt meħud qablu: irtira l-migrazzjonijiet tiegħu waħda waħda, jew irrestawra ritratt preċedenti.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>Din il-migrazzjoni ma tistax tiġi rtirata waħedha: mhix applikata, jew m&apos;għandhiex down().</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Il-formola ma setgħetx tinqara.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>Agħżel it-tħaddim li għandu jitkompla.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>L-ewwel immarka &quot;Iva, ħaddem dawn il-migrazzjonijiet issa&quot;.</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>Agħżel mill-inqas migrazzjoni waħda.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>Migrazzjoni nbidlet wara li ġiet applikata: aċċetta l-bidla b&apos;raġuni, jew erġa&apos; poġġi l-fajl lura.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>Agħti r-raġuni għaliex il-migrazzjonijiet mibdula qed jiġu aċċettati.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>Ir-raġuni hija mhux aktar minn 500 karattru.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>Tħaddim mibdi hawn għadu għaddej (%detail). Stenna sakemm jispiċċa.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>Tħaddim ieħor qed iżomm is-serratura tal-installazzjoni: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>It-tħaddim jeħtieġ utent idħol li jeżisti.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Ma nstab l-ebda programm php għal-linja tal-kmand. Issettja l-mogħdija sħiħa tiegħu f&apos;migration.ini [AdminSettings] PhpCliPath.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open huwa diżattivat, għalhekk tħaddim ma jistax jinbeda hawn. Ħaddem ./console exp:migration:migrate --apply fuq is-server.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>Il-folder tat-tħaddimiet ma jistax jinkiteb: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>It-tħaddim inbeda iżda ma rrapportax l-identifikatur tal-proċess tiegħu. Iċċekkja %detail.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>Semmi x&apos;għandu jiġi rtirat.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>It-tħaddim ma setax jinbeda.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>Reġistrazzjoni tal-bidliet</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>Waqt li reġistrazzjoni tkun għaddejja, dak li tbiddel fl-amministrazzjoni jew fil-faxxa tal-ġenb tas-sit jinżamm bħala passi ta' migrazzjoni: kontenut, klassijiet, rwoli u politiki, taqsimiet, utenti u gruppi, psewdonimi tal-URL, settings. Waqqafha meta tlesti, ara x'qabdet u iġġenera minnha migrazzjoni.</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>Ir-reġistrazzjonijiet ma setgħux jinqraw: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>It-tabelli tar-reġistrazzjonijiet għadhom ma jeżistux: l-ewwel ħaddem l-aġġornament (exp:upgrade --apply).</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>Ir-reġistrazzjoni hija mitfija f'migration.ini ([RecordingSettings] Recording=disabled).</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>Il-bidliet tiegħi</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>Tirreġistra biss dak li tbiddel int, kull fejn tbiddlu, sakemm twaqqafha.</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>Reġistrazzjoni</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>minn %time, s'issa %count bidla/bidliet.</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>Tikketta (mhux obbligatorja)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>Uri x'qabdet</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Waqqaf ir-reġistrazzjoni</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>Ibda rreġistra l-bidliet tiegħi</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>Tieqa għas-sit kollu</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>Tirreġistra kull bidla ta' kull utent u tal-console sakemm tingħalaq. Meta tiftaħha, tintalab tivverifika li int.</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Miftuħa</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>Agħlaq it-tieqa</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>Iftaħ it-tieqa għas-sit kollu</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>Reġistrazzjonijiet</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>Il-kont ta' utent (login, e-mail, password) u l-oqsma tal-kontijiet tal-utenti qatt ma jiġu rreġistrati.</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Bidliet</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>Is-sit kollu</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>Bidliet ta' %name</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Imwaqqfa</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>Għad m'hemm l-ebda reġistrazzjoni.</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>Reġistrazzjoni %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>Ir-reġistrazzjonijiet kollha</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>Il-migrazzjoni li toħroġ minnha</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>Il-bidliet miġbura f'pass wieħed għal kull ħaġa mibdula: x'tagħmel migrazzjoni ġġenerata minn din ir-reġistrazzjoni.</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>Tista' tiġi ġġenerata migrazzjoni minnha ladarba din l-installazzjoni jkollha t-tipi ta' passi YAML %types.</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>Imħolli barra apposta: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>Ma ġie rreġistrat xejn.</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>X'qabdet</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>%count bidla/bidliet, fl-ordni li saru.</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Bidla</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>Pass</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>Jikkonċerna</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>%count oħra: ./console exp:migration:record:show jelenkahom kollha.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Armi</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>Tneħħi r-reġistrazzjoni u dak li qabdet. Dak li nbidel jibqa' mibdul.</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>Iva, armi din ir-reġistrazzjoni</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>Qed tirreġistra…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Il-bidliet tiegħek qed jiġu rreġistrati għal migrazzjoni.</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>Kull bidla f'dan is-sit qed tiġi rreġistrata għal migrazzjoni (tieqa għas-sit kollu).</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>Ir-reġistrazzjoni tas-sit kollu bdiet: kull bidla ta' kull utent tiġi rreġistrata sakemm twaqqafha.</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>Ir-reġistrazzjoni bdiet: il-bidliet tiegħek jiġu rreġistrati sakemm twaqqafha.</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>Ir-reġistrazzjoni twaqqfet. Dak li qabdet jibqa' sakemm tarmiha.</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>Ir-reġistrazzjoni u l-avvenimenti tagħha tneħħew.</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>M'hemmx reġistrazzjoni %id.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>L-ewwel immarka "Iva, armi din ir-reġistrazzjoni".</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>L-utent li rreġistra biss jista' jwaqqaf reġistrazzjoni ta' sessjoni.</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>Agħżel ir-reġistrazzjoni li trid twaqqaf.</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>Diġà għaddejja reġistrazzjoni ta' dan it-tip.</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>Ir-reġistrazzjoni ma setgħetx tinbidel: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>Iġġenera migrazzjoni</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>Isem il-migrazzjoni (mhux obbligatorju)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>Il-migrazzjoni %file inkitbet. Il-bidliet li l-ebda pass ma jista' jagħmel huma msemmija fil-quċċata tal-fajl, biex isiru bl-idejn.</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>Ma nkitbet l-ebda migrazzjoni: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>Tħaddim twil f'partijiet</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>L-oqsma vojta jżommu s-settings ta' migration.ini [RunSettings].</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>L-aktar dan in-numru ta' migrazzjonijiet</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>Ebda migrazzjoni oħra wara (sekondi)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>Waqfa bejn il-migrazzjonijiet (sekondi)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>Prijorità aktar baxxa (1 sa 19)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>Qasam ta' tħaddim twil huwa numru sħiħ minn 1 (il-waqfa: sekondi minn 0 sa 60, il-prijorità: 1 sa 19), jew vojt.</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>Jingħalaq waħdu fil-%time.</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>Agħlaq waħdu wara (minuti, mhux obbligatorju)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>Il-minuti huma numru sħiħ minn 1 sa 44640 (31 jum), jew vojt.</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>Migrazzjoni %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>Migrazzjoni ġdida</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>Migrazzjoni YAML: iktibha bħala test jew ibni l-passi tagħha fil-formola, iċċekkjaha, imbagħad salvaha f'folder tal-migrazzjonijiet.</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>Din il-migrazzjoni diġà tħaddmet, għalhekk ma tiġix salvata mill-ġdid: fajl mibdul jiġi miċħud mill-protezzjoni tal-checksum. Agħmel il-bidla f'migrazzjoni ġdida.</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>Is-server tal-web ma jistax jikteb il-fajl.</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>Il-linji tal-kummenti fil-quċċata huma l-intestatura (description, author, requires, environments, engines). Meta pass jiżdied jew jinbidel fil-formola, il-migrazzjoni tinkiteb mill-ġdid: il-kummenti bejn il-passi ma jinżammux.</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>Isem il-migrazzjoni</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>Fejn tmur</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>Is-sit</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>Test YAML</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>Iċċekkja</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Salva</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Passi</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>Ċwievet</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Editja</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>Mexxi 'l fuq</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>Mexxi 'l isfel</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Neħħi</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>Għad m'hemmx passi: żid wieħed bil-formola, jew iktibhom fit-test.</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>Ibdel il-pass %number</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>Żid pass wieħed</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>Il-formola ta' pass issir mit-tip tal-pass tiegħu: iċ-ċwievet tiegħu, x'jieħu kull wieħed u l-modalitajiet li jappartjeni għalihom.</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>Tip ta' pass</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>Uri l-formola tiegħu</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>Il-pass għandu ċwievet li t-tip tiegħu ma jafx; jitħallew barra meta l-pass jinbidel: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>Modalità</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>F'</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>biss f'%modes</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>Valur awtomatiku: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>Kundizzjonijiet, referenzi u kumment</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>Pari Isem=valur, separati b'virgoli. Il-valuri ta' dan il-pass: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>Eżempju</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>Ibdel il-pass</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>Żid pass</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>X'jgħid exp:migration:check: l-intestatura, id-dokument u kull pass iċċekkjat mit-tip tal-pass tiegħu.</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>Il-migrazzjoni tgħaddi l-kontroll.</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Dehra minn qabel</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>Il-YAML kif se jiġi salvat.</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>Uri l-YAML</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>Migrazzjonijiet YAML</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>tħaddmet</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>Għad m'hemmx migrazzjonijiet YAML.</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>Editur</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>M'hemmx migrazzjoni YAML %id fil-folders tal-migrazzjonijiet.</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>Agħżel tip ta' pass.</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>Il-pass ġie miżjud. Iċċekkja l-migrazzjoni qabel ma ssalvaha.</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>Il-pass inbidel. Iċċekkja l-migrazzjoni qabel ma ssalvaha.</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>Agħżel pass.</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>Dan il-pass m'għandux formola (loop, jew tip ta' pass li din l-installazzjoni m'għandhiex): ibdlu fit-test.</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>Agħżel fejn tmur il-migrazzjoni: is-sit jew estensjoni attiva.</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>%file ġie salvat. Agħmel tħaddim ta' prova qabel ma titħaddem il-migrazzjoni.</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>Mhux salvat: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>Remoti</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>L-installazzjonijiet l-oħra li lilhom din tiskjera l-migrazzjonijiet tagħha: skjerament jibgħat il-migrazzjonijiet lir-remoti magħżula u jħaddimhom hemm, kollha f'daqqa u sinkronizzati. Remot qatt ma jżomm sigriet: il-kredenzjali tiegħu ssemmi wieħed f'Konfigurazzjoni &gt; Sigrieti.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>Remot ġdid</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Għajnuna</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>Test tal-konnessjoni ta' %id</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>Ir-remoti</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>Sa %parallel remoti jiġu pproċessati fl-istess ħin; fażi waħda tista' tieħu %timeout sekondi fuq kull wieħed.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>Remot</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Indirizz</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Kredenzjali</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>Gruppi</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>issettjar li għandu jiġi rranġat</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>fajls biss (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>Ċavetta SSH</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>Password</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>xejn (l-aġent SSH u ċ-ċwievet tal-host)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>Ittestja l-konnessjoni</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>Skjerament lil grupp imur għand kull remot tiegħu.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>Skjera lir-remoti</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>Għad m'hemm l-ebda remot konfigurat.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>Remot %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>Xejn ma jintbagħat jew jitħaddem hawn: Salva jikteb l-issettjar f'settings/override/migration.ini.append.php. Il-kredenzjali hija isem; il-valur tagħha jibqa' f'Konfigurazzjoni &gt; Sigrieti jew fl-ambjent.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Iċċekkja dan l-issettjar</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>L-issettjar kif iddaħħal, għadu mhux salvat.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Reviżjoni</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>L-issettjar huwa validu. Dawn il-linji se jinkitbu:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>Trasport</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>isem biss; il-valur jibqa' f'Konfigurazzjoni &gt; Sigrieti</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Il-linji li se jinkitbu</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>Konnessjoni</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>Ċavetta tal-host</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. Ir-remot</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>X'jismu r-remot u liema ambjent huwa.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>Ittri, ċifri, - u _, pereżempju production1. Jagħti isem lir-remot fir-rapporti u fuq il-konsol (--remotes=production1) u ma jistax jinbidel aktar tard.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... Skjerament fi stadji jgħaddi mill-ambjenti f'din l-ordni.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>Mhux obbligatorju, separati b'virgoli, pereżempju production. Skjerament lil grupp imur għand kull remot tiegħu.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. Il-konnessjoni</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>Kif il-fajls jaslu hemm, u fejn tinsab l-installazzjoni.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>Fuq SSH, biss dak li nbidel, trasferiment interrott jitkompla. L-aħjar għażla fejn rsync huwa installat.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>SSH b'scp għall-fajls.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>SSH b'sftp għall-fajls.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>Fajls biss: il-migrazzjonijiet jintbagħtu u jinqraw lura, iżda ma jistgħux jitħaddmu hemm.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>FTP fuq TLS; fajls biss.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>Installazzjoni oħra fuq dan is-server, f'folder.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Host</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>Isem ta' host jew indirizz, pereżempju node1.example.com. Mhux għal local.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>Port</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>Vojt: 22 għal SSH, 21 għal FTP.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Utent</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>Mogħdija</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>L-għerq tal-installazzjoni hemm, pereżempju /var/www/site (għal FTP: il-mogħdija li jara l-kont FTP).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>Linja ta' kmand PHP</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>Il-PHP CLI hemm: php, jew mogħdija sħiħa bħal /opt/plesk/php/8.4/bin/php.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>L-iskripts tal-konsol jitħaddmu bħala root hemm</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>Biss meta l-utent tar-remot ikun root (imbagħad jitħaddmu b'--allow-root-user).</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. Il-kredenzjali</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>Kif din l-installazzjoni tidħol hemm. Jiġi salvat isem biss.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Xejn</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>L-aġent SSH u ċ-ċwievet tal-utent li bih titħaddem din l-installazzjoni (u dejjem għal local).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>Ċavetta privata miżmuma bħala sigriet.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>Password miżmuma bħala sigriet (FTP jidħol b'waħda).</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>Isem tas-sigriet</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>Sigriet ta' Konfigurazzjoni &gt; Sigrieti, pereżempju deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Konfigurazzjoni &gt; Sigrieti</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>Jew varjabbli tal-ambjent</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>Il-varjabbli tal-proċess tas-server li jżommha, pereżempju DEPLOY_KEY (salvata bħala env:DEPLOY_KEY). Tieħu post l-isem tas-sigriet.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. Iċ-ċavetta tal-host</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>Mhux obbligatorju, għal SSH, sftp u rsync.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>Marka tas-swaba' taċ-ċavetta tal-host</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... kif jistampaha ssh-keygen -l. Biha, il-host irid juri din iċ-ċavetta; mingħajrha, iċ-ċavetta titgħallem mal-ewwel kuntatt.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. Reviżjoni</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>Ittestja l-konnessjoni bl-issettjar ta' hawn fuq, imbagħad irrevedi l-linji li se jinkitbu.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>Neħħi dan ir-remot</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>L-issettjar tiegħu jitneħħa minn settings/override/migration.ini.append.php. Xejn ma jinbidel fuq ir-remot, u l-iskjeramenti tiegħu jibqgħu fl-istorja.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>Iva, neħħi dan ir-remot</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>Skjeramenti</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>Skjerament jibgħat il-migrazzjonijiet ta' din l-installazzjoni lir-remoti magħżula u jħaddimhom hemm bħala %user, kollha f'daqqa u sinkronizzati: kull remot jiġi ċċekkjat l-ewwel, u meta wieħed ifalli, kull remot li applikahom jitreġġa' lura. Ikompli fl-isfond, u l-paġna tiegħu turi kull remot hekk kif jimxi.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. Ir-remoti</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>Immarka remoti, grupp, jew it-tnejn.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>Skjera lejh</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. Kif</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>Skjera</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>Ibgħat u ħaddem</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>Il-migrazzjonijiet jintbagħtu, jiġu vverifikati u jitħaddmu fuq kull remot b'ID tat-tħaddim wieħed komuni.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>Trasferiment biss</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>Il-fajls jintbagħtu u jiġu vverifikati, xejn ma jitħaddem (l-uniku mod għal remot FTP).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>Fi stadji</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>Stadju wara stadju fl-ordni tal-ambjenti (dev, stage, beta, production ...): l-ewwel stadju jiġi skjerat, imbagħad bieb jistenna sakemm xi ħadd japprova dak li jmiss. Kollox jew xejn f'kull stadju.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>Dawn il-migrazzjonijiet biss</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>Mhux obbligatorju: ID tal-migrazzjonijiet, separati b'virgoli. Vojt: kull migrazzjoni tas-sit u tal-estensjonijiet tiegħu.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>Verifika minn qabel biss</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>Iva, skjera issa</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>L-iskjeramenti li bagħtu jew ħaddmu xi ħaġa, l-aktar ġdid l-ewwel (verifika minn qabel ma żżomm l-ebda rapport).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>trasferiment biss</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>fi stadji, %stages stadji</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>mhux sinkronizzat</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>Għad m'hemm l-ebda skjerament.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>Skjerament %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Kull remot tal-iskjerament bl-istat tiegħu. Skjerament mibdi hawn ikompli fl-isfond meta din il-paġna tingħalaq; erġa' iftaħ il-paġna biex issegwih.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>L-iskjeramenti kollha</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>Verifika minn qabel</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>L-istadju li jmiss</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>Qed jiġu ċċekkjati l-issettjar u l-kredenzjali</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>Verifika minn qabel: qed jinqara l-istat ta' kull remot</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>Qed jintbagħtu l-fajls tal-migrazzjoni</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>Qed jiġi vverifikat dak li wasal</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>Qed jitħaddmu l-migrazzjonijiet fuq kull remot</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>Qed jitreġġgħu lura r-remoti</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>L-iskjerament spiċċa. Qed jitella' r-rapport tiegħu.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>Il-progress ma setax jiġi segwit. Erġa' tella' l-paġna biex tara kif sejjer l-iskjerament.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>Fażi</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>Din il-paġna ssegwi l-iskjerament hekk kif jimxi.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>Sinkronizzat</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>Stadji</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>l-istadju %stage qed jistenna fil-bieb tiegħu</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>Bieb %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>approvat minn %user fil-%time</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>Stadju</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>Fajls mibgħuta</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>Verżjoni tal-kernel</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>applikati: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>li għandhom jiġu applikati: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>Fażijiet</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>Bieb: stadju %stage minn %stages</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>L-istadji ta' qablu huma skjerati. Iċċekkjahom, imbagħad approva l-istadju li jmiss: ir-remoti tiegħu jerġgħu jiġu ċċekkjati u skjerati, kollox jew xejn.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Li jmiss</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>Iva, skjera l-istadju li jmiss issa</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Approva</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>Reġġa' lura dan l-iskjerament</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>Kull remot li applikah (%list) jerġa' lura għar-ritratt meħud qabel it-tħaddim tiegħu, kollha f'daqqa.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>Iva, reġġa' lura dan l-iskjerament issa</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>ippjanat</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>trasferit</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>skjerat</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>jistenna f'bieb</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>magħżul</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>ippreparat</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>lest</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>jistenna l-istadju tiegħu</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>fajls mibgħuta</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>ivverifikat</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>falla, irrestawra lilu nnifsu</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>mhux mibdul</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>mhux skjerat</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>ma jintlaħaqx</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>Ir-remot wieġeb.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>Ir-remot ma jistax jintuża issa.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done lesti, %pending pendenti, %failed fallew</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>Serratura</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>tħaddim qed iżomm is-serratura hemm</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>ħieles</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stage minn %stages</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>Agħżel ir-remot li għandu jiġi ttestjat.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>L-ewwel immarka “Iva, neħħi dan ir-remot”.</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>Ir-remot ma setax jitneħħa: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>Ir-remot ma setax jiġi salvat: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Il-fajl tal-issettjar ma jistax jinqara: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>Agħżel mill-inqas remot wieħed jew grupp.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>Remot magħżul m'għadux fl-issettjar. Erġa' tella' l-paġna.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>L-ewwel immarka “Iva, skjera issa”.</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>Remot FTP ma jistax iħaddem migrazzjonijiet: agħżel “Trasferiment biss”, jew ħallih barra.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>Il-migrazzjonijiet li għandhom jiġu skjerati huma ID tal-migrazzjonijiet, separati b'virgoli.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>L-iskjerament għadu għaddej. Stenna sakemm jispiċċa.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>Dan l-iskjerament ma jistenniex f'bieb.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>L-ebda remot ma applika dan l-iskjerament: m'hemm xejn x'jitreġġa' lura.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>L-ewwel immarka “Iva, skjera l-istadju li jmiss issa”.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>L-ewwel immarka “Iva, reġġa' lura dan l-iskjerament issa”.</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>Remot bl-ID %id diġà jeżisti.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>Il-port huwa numru minn 1 sa 65535.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>L-ambjent huwa kelma ta' ittri, ċifri, - u _ (alpha, dev, stage, beta, production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>Grupp huwa kelma ta' ittri, ċifri, - u _ (mhux all): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>Il-kredenzjali ma tistax tinqara issa: %problem. Salvaha f'Konfigurazzjoni &gt; Sigrieti (jew issettja l-varjabbli) qabel l-ewwel skjerament.</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>Remot FTP jirċievi fajls biss: skjerament lejh huwa “Trasferiment biss”, u l-migrazzjonijiet tiegħu jitħaddmu hemm bl-idejn.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>Ir-remot %id mhuwiex f'settings/override/migration.ini.append.php; neħħih minn fejn huwa ssettjat.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>Daħal fuq FTP u qara index.php. L-istat tal-migrazzjonijiet ta' remot FTP ma jistax jinqara.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>Immodifikat</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>Maħluq</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Isem</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Klassi</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Taqsima</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>Ħallieq</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Kontenut riċenti</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>L-aktar kontenut maħluq u mmodifikat riċentement tas-sit kollu, l-aktar ġdid l-ewwel: dak li bagħtu l-viżitaturi, dak li qed jinżamm għar-reviżjoni, abbozzi li qed jistennew il-pubblikazzjoni tagħhom. Agħżel oġġetti biex teħlishom, iżżommhom, taħbihom, turihom, tneħħihom jew tmexxihom għal taqsima jew stat ieħor.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>Il-lista ma setgħetx tinqara: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>Iż-żamma għar-reviżjoni għadha mhix issettjata, għalhekk xejn mhu miżmum u l-azzjonijiet taż-żamma mhumiex offruti. Il-pass tal-aġġornament 6.0.15-review-hold jissettjaha: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Iffiltra l-lista</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Minn</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Sa</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Data</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>Maħluq (l-ewwel pubblikazzjoni)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Kollha</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Stat tal-pubblikazzjoni</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Ippubblikat</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>Abbozz, qatt ma ġie ppubblikat</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>Pendenti (jistenna approvazzjoni jew data)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>Fil-barmil</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Miżmum għar-reviżjoni</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>Miżmum</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>Mhux miżmum</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>Moħbi</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>Viżibbli</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>Mibgħut fil-</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>Kwalunkwe aċċess għas-sit</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>Biss dak li rreġistra l-awditu.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>Issa: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>Isem tal-login jew ID tal-utent.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Iffiltra</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>Neħħi l-filtri</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>Oġġetti</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from sa %to minn %count</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>L-ebda oġġett</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(moqri f&apos;%ms ms)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>Azzjonijiet fuq l-oġġetti magħżula</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>Agħżel kollox f&apos;din il-paġna</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>%count magħżula</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Azzjoni</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>Agħżel azzjoni</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>Eħles iż-żamma</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Żomm għar-reviżjoni</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Aħbi</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>Uri</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>Mexxi għall-barmil</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>Ħassar</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>Assenja taqsima</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>Assenja stat</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>Raġuni</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>Meħtieġa biex iżżomm; tinżamm maż-żamma u fl-awditu.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>Agħżel taqsima</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Stat</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>Agħżel stat</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>Applika għal dawk magħżula</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>Kull oġġett jiġi ċċekkjat skont il-permessi tiegħek. It-tmexxija għall-barmil u t-tħassir jitolbuk tikkonferma. Aktar minn %count oġġetti jaħdmu fl-isfond.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>Agħżel</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>Pubblikazzjoni</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>Mibgħut minn</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>Agħżel %name</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>għadu le</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(bla isem)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>Abbozz</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Pendenti</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>Moħbi mill-ġenitur tiegħu</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>Miżmum: sottomissjoni ġdida</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>Verżjoni %version pendenti</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>Verżjoni %version għaddejja</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>Abbozz, verżjoni %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>Verżjoni %version ippubblikata</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>Skedat għal %date</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>l-ebda indirizz</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>mhux irreġistrat</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>Xejn ma jaqbel ma&apos; dawn il-filtri.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Uri kollox</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>Għad m&apos;hemmx kontenut.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Għal kull paġna</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Uri %count oġġetti għal kull paġna.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says &quot;not recorded&quot;.</source>
+        <translation>L-indirizz u l-browser ta&apos; sottomissjoni ġejjin mill-indiċi tal-awditu, li mhuwiex disponibbli hawn: il-kolonna tgħid &quot;mhux irreġistrat&quot;.</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>L-indirizz u l-browser huma dawk li l-awditu rreġistra għall-oġġett (iż-żamma awtomatika dejjem tirreġistrahom; il-pubblikazzjoni u l-ħolqien biss fejn huwa attivat), kif iżommhom is-settings tal-privatezza tiegħu.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: %count oġġetti</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>It-tħassir ineħħi l-oġġetti għal dejjem, bil-verżjonijiet u t-traduzzjonijiet kollha tagħhom. Ma jistax jitreġġa&apos; lura.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>L-oġġetti jmorru fil-barmil, minn fejn jistgħu jiġu rrestawrati.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>Kull oġġett jiġi ċċekkjat skont il-permessi tiegħek; oġġett b&apos;sotto-oġġetti jitħalla kif inhu (neħħih fl-istruttura tal-kontenut). Tintalab tivverifika li int.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>Dan jaħdem fl-isfond: tinfetaħ il-paġna tal-progress tiegħu, u r-riżultat għal kull oġġett jintwera meta jispiċċa.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>L-oġġetti magħżula</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>u %count oħra</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Ikkanċella</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>Ma sar xejn</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Raġuni: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>L-azzjoni għadha għaddejja fl-isfond.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>Il-progress tagħha</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>L-azzjoni fl-isfond falliet: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Lest</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Rifjutat</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Falla</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>Għal kull oġġett</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>Oġġett</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Riżultat</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Għaliex</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>Lura għal-lista</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Konfigurazzjoni</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>Xejn ma sar</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>Ikkonferma</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>Agħżel azzjoni.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>Agħżel mill-inqas oġġett wieħed.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>Agħżel l-aktar 1000 oġġett kull darba.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>Għid għaliex l-oġġetti qed jinżammu.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>Agħżel it-taqsima.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>Agħżel l-istat.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Il-formola ma setgħetx tinqara.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>Pannell</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>Kontenut riċenti</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>L-għadd ma setax jinqara: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Miżmum għar-reviżjoni</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>Ġodda llum</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Iż-żamma għar-reviżjoni għadha mhix issettjata (il-pass tal-aġġornament 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>Il-kontenut riċenti kollu</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>Ma tistax tħaddem azzjonijiet ta&apos; moderazzjoni (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>L-azzjoni ta&apos; moderazzjoni mhix kompluta: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>Moderazzjoni: %action fuq %count oġġetti</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%done minn %total oġġetti: %ok lesti, %refused rifjutati, %failed fallew</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok lesti, %refused rifjutati, %failed fallew</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>Ma għadux jeżisti.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>M&apos;għandux post (mhux ippubblikat).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>Ma tistax taħbih (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>Ma tistax turih (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>Diġà moħbi.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>Mhuwiex moħbi.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>Moħbi.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>Muri.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>Jinsab fil-barmil: battal jew irrestawrah hemmhekk.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>Abbozz li qatt ma ġie ppubblikat ma jistax imur fil-barmil: ħassru.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>Ma tistax tħassru (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>Imħassar.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>Ma tistax tneħħih (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>Għandu sotto-oġġetti: neħħih fl-istruttura tal-kontenut, fejn huma elenkati.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>Ma tneħħiex (workflow jista&apos; jżomm it-tneħħija).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>Imċaqlaq għall-barmil.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>It-taqsima ma teżistix.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>Diġà jinsab f&apos;din it-taqsima.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>Ma tistax tassenja din it-taqsima (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>It-taqsima ma ġietx assenjata.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>Taqsima assenjata.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>L-istat ma jeżistix.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>Diġà jinsab f&apos;dan l-istat.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>Ma tistax tassenja dan l-istat (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>L-istat ma ġiex assenjat (workflow jista&apos; jżomm il-bidla).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>Stat assenjat.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>M&apos;hemmx azzjoni bħal din.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Iż-żamma għar-reviżjoni mhix issettjata (il-pass tal-aġġornament 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>Għid għaliex qed jinżamm.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>Diġà miżmum.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>Ma tistax iżżommu (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>Iż-żamma ma tqegħditx (workflow jista&apos; jżomm il-bidla).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>Miżmum.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>Mhuwiex miżmum.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>Ma tistax teħilsu (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>Iż-żamma ma nħelsitx (workflow jista&apos; jżomm il-bidla).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>Meħlus; għadu moħbi: ma tistax turih (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>Meħlus.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>Il-miri kollha</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>L-aħħar pubblikazzjoni</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>Ippubblika kopja statika b&apos;xejn tas-sit tiegħek fuq GitHub Pages:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Paġni skaduti</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Pubblikazzjoni statika</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Il-pubblikazzjoni statika hija mitfija.</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Mira</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Il-miri ma setgħux jinqraw: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>kompitu għaddej</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>bini biex jiġi ċċekkjat</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>aħbi dan</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>oħloq mira</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>qatt</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>aqra t-tutorja</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>%added miżjuda, %changed mibdula, %removed imneħħija</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%bytes minn %limit (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>%count oħra mhumiex elenkati.</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>Paġni miktuba: %pages</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path huwa %size, aktar milli l-host jippermetti għal fajl wieħed.</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>%percent % tal-limitu</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds s</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag hija l-pubblikazzjoni li għandu s-sit issa.</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: kompitu %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>/repożitorju/ għal sit ta&apos; proġett fuq GitHub; vojt għal dominju proprju jew sit ta&apos; utent.</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. Is-sit</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. Il-host</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. Dħul fir-repożitorju</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. Ir-repożitorju</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. Links u l-mogħdija bażi</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. Id-dominju tiegħek</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. X&apos;fih il-bini</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. Meta jiġi ppubblikat</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. Irrevedi u ssalva</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>Sit ta&apos; proġett fuq GitHub jinsab taħt /&lt;repository&gt;/; il-links relattivi jaħdmu hemm u kullimkien ieħor.</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>Bini jġib kull paġna ta&apos; %site kif jaraha viżitatur li mhux illoggjat, jikteb mill-ġdid il-links, jikkopja l-fajls u jikteb ir-riżultat fil-folder tal-mira. Xejn ma jiġi ppubblikat qabel ma tiċċekkja l-bini u tagħfas Ippubblika.</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>Espressjoni cron, pereżempju 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>Ċavetta tal-iskjerament tinżamm bħala s-sigriet %secret.</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>Ċavetta tal-iskjerament tħalli din l-installazzjoni tibgħat lejn repożitorju wieħed permezz ta&apos; SSH u mkien ieħor. In-nofs privat tagħha jibqa&apos; f&apos;Konfigurazzjoni &gt; Sigrieti; jintwera biss in-nofs pubbliku.</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>Ċavetta tal-iskjerament magħmula għal din il-mira</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>Ċavetta tal-iskjerament tidħol permezz ta&apos; SSH: ibdel l-indirizz tal-git għal dak SSH (git@github.com:owner/repo.git).</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>Kompitu għaddej, mibdi minn %user</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>Kompitu ta&apos; din il-mira għadu għaddej (%detail). Stenna sakemm jispiċċa.</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>Kompitu ta&apos; din il-mira għadu għaddej. Stenna sakemm jispiċċa.</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>Link mill-paġna /news/ għall-paġna /about-us/team se jinkiteb bħala</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>Saret ċavetta tal-iskjerament ġdida. Żid in-nofs pubbliku tagħha mar-repożitorju issa.</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>Paġna li wara t-tneħħija għad fiha output tad-debug, token ta&apos; formola jew id ta&apos; sessjoni qatt ma tiġi ppubblikata.</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>Treġġigħ lura huwa għall-esperti: immarka &quot;Naf x&apos;jibdel dan&quot; u erġa&apos; ikteb l-isem tat-tikketta.</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>Sit jista&apos; jkun sa %site, fajl wieħed sa %file, b&apos;madwar 100 GB traffiku fix-xahar. Fuq pjan b&apos;xejn ir-repożitorju għandu jkun pubbliku. GitHub Pages mhuwiex maħsub għal ħwienet jew tranżazzjonijiet kummerċjali oħra.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>Mira hija sit wieħed ippubblikat f&apos;repożitorju tal-git wieħed. Hawn xejn ma jinbena jew jiġi ppubblikat: Salva jikteb l-issettjar f&apos;settings/override/staticcache.ini.append.php.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>Mira hija sit wieħed ippubblikat f&apos;post wieħed, pereżempju s-sit pubbliku tiegħek fuq GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>Token minn Konfigurazzjoni &gt; Sigrieti</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>Workflow tar-repożitorju jippubblikah.</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>Żid din iċ-ċavetta pubblika mar-repożitorju b&apos;aċċess għall-kitba. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, immarka Allow write access.</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>Miżjud</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>Host ieħor tal-git</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>Proċess ieħor qed jaħdem fuq din il-mira: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>Lura</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>Mogħdija bażi</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Qabel</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>Taħt mogħdija bażi</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>Fergħa</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>Links miksura</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>Links miksura fil-bini</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>Bini</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>Bini %id minn %user</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>Ibni %name</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>Ibni issa</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>Bini biex jiġi ċċekkjat</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Minn</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>Bl-idejn, hawn</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Ikkanċella</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Ibdel</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>Mibdul</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Bidliet</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>Iċċekkjah l-ewwel</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Iċċekkja dan l-issettjar</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>Iċċekkja x&apos;jibdel il-bini, ħarisha lejh, imbagħad ippubblikah jew armih.</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>Agħżel il-pubblikazzjoni li trid tmur lura għaliha.</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>Ġej f&apos;rilaxx aktar tard.</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Kommissjoni</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>Kommissjonijiet</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>Jagħmel kommissjoni tal-bini, jagħtih tikketta u jibagħtu lejn %remote. Il-bgħit qatt ma jkun sfurzat; tista&apos; tmur lura għal kwalunkwe pubblikazzjoni aktar tard.</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>Imqabbel mal-folder ta&apos; qabel: %added miżjuda, %changed mibdula, %removed imneħħija, %unchanged mhux mibdula.</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>Imqabbel mal-aħħar pubblikazzjoni.</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Kredenzjali</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>Dominju proprju</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>L-output tad-debug, it-tokens tal-formoli, l-ids tas-sessjoni u n-nonces jitneħħew dejjem.</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>Ċavetta tal-iskjerament</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>Ċavetta tal-iskjerament ta&apos; %name</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Armi</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>Armi l-bini</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>Dominju</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>Vojt: l-indirizz tas-sit. Inkella indirizz intern tal-istess sit.</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Spiċċa</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>Kull link jibda bil-mogħdija bażi.</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>Kull pubblikazzjoni hija kommissjoni b&apos;tikketta static/%id/&lt;n&gt;. Il-mixi lura jagħmel kommissjoni ġdida bil-fajls ta&apos; pubblikazzjoni preċedenti: l-istorja tibqa&apos;, l-ebda tikketta ma tiċċaqlaq u xejn ma jiġi sfurzat.</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>Fajls żejda</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>Ġib il-paġni minn</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Fajl</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>Fajls</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>Fajls nieqsa</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>Fajls ta&apos;</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>Fajls li ma setgħux jinġabru</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>Impronta</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>Folder</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>Għal indirizz SSH. Iċ-ċavetta ssir wara li ssalva; int iżżid in-nofs pubbliku tagħha mar-repożitorju.</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>Għal indirizz https://. GitHub: token fine-grained b&apos;Contents għall-qari u l-kitba fuq ir-repożitorju.</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>Għall-esperti. Is-sit pubbliku jinbidel hekk kif il-bgħit jitlesta.</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Formoli</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>Hosting b&apos;xejn minn repożitorju fuq GitHub.</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>Mill-fergħa</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>Indirizz tal-git</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages jippermetti sit ta&apos; %site u fajl ta&apos; %file.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>Il-limiti ta&apos; GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages jippubblika l-fajls kif inhuma (meħtieġ għal fajls li jibdew b&apos;_).</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub iservi l-fergħa kif intbagħtet. Id-default.</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, is-server tiegħek: kwalunkwe repożitorju tal-git.</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>Mur lura għal pubblikazzjoni preċedenti</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Għajnuna</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>Għajnuna bil-wizard</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>Aħbihom</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Storja</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>Storja ta&apos; %name</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Host</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>Kif GitHub Pages jirċievi l-bini</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>Iċċekkjajt il-bidliet</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>Naf x&apos;jibdel dan</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>Huwa mitfi: xejn ma jista&apos; jinbena sakemm jinxtegħel.</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>Jaħdem fl-isfond bħala %user; tista&apos; tagħlaq din il-paġna.</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>Kompitu %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>Miżmum bħala s-sigriet %secret.</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Tip</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>L-aħħar pubblikazzjoni</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>Ħalli barra dawn il-paġni</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>Ħalli barra dawn is-sezzjonijiet</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Links</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>Links miktuba mill-ġdid</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>Is-sit ħaj</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>Ħares lejn il-bini</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>Ittri żgħar, numri, _ u -, pereżempju github-public. Jagħti isem lill-folder u lit-tikketti (static/&lt;id&gt;/&lt;n&gt;) u ma jistax jinbidel aktar tard.</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>Agħmel ċavetta ġdida</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>Oħloq mira</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>Agħmel iċ-ċavetta</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>Oħloq ir-repożitorju fuq il-host l-ewwel; wieħed vojt huwa tajjeb.</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>Manifest</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Messaġġ</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>Ħafna mill-paġni</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Isem</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>Isem it-token f&apos;Konfigurazzjoni &gt; Sigrieti</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>Mira ġdida</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Li jmiss</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>Le</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>Għad m&apos;hemm l-ebda kommissjoni.</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>Ma saret l-ebda ċavetta: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Ma nstab l-ebda binarju tal-linja tal-kmand php. Issettja migration.ini [AdminSettings] PhpCliPath għall-mogħdija sħiħa tiegħu.</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>Għad m&apos;hemm l-ebda tikketta.</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>Għad m&apos;hemm l-ebda mira.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Xejn</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>Mhux fil-bini.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>Għadu ma ġie ppubblikat xejn.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>Għadu ma ġie ppubblikat xejn: kull fajl huwa ġdid.</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>Notifiki</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>Skont skeda</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>Fuq il-console</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>Fuq is-server: ./console exp:static:serve %id iservih bl-istess mod.</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>Mogħdija waħda f&apos;kull linja, * taqbel ma&apos; kwalunkwe parti: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>Mal-mira jinħażen isem biss; it-token jew iċ-ċavetta nfisha tibqa&apos; f&apos;Konfigurazzjoni &gt; Sigrieti u qatt ma tidher f&apos;log.</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>Biss dak li jsemmu l-paġni</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>Biss b&apos;token. env:NAME minflok jaqra varjabbli tal-ambjent tas-server.</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>Iftaħ id-dehra minn qabel</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>Jiftaħ il-bini kif se jservih il-host, mill-folder tal-mira. Il-link jaħdem għalik għal siegħa.</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>Mhux obbligatorju. Vojt: dak li ġie ppubblikat.</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>Mhux obbligatorju. B&apos;dominju s-sit jiġi servut fl-għerq tiegħu.</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Output</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>Paġni</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>Paġni tal-mira</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>Paġni rrifjutati</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>Ipproċessar ta&apos; wara</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Dehra minn qabel</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>Dehra minn qabel u pubblikazzjoni</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>Dehra minn qabel u pubblikazzjoni ta&apos; %name</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>Ara l-bini minn qabel</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Progress</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>Indirizz pubbliku</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>Ċavetta pubblika</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>Ippubblika</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>Ippubblika kopja statika ta&apos; sit fuq GitHub Pages jew fuq kwalunkwe host tal-git: ibnih, iċċekkja l-bidliet, ippubblika, u mur lura għal pubblikazzjoni preċedenti meta jkollok bżonn.</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>Pubblikazzjoni li tmur lura għaliha</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>Pubblikazzjonijiet</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Bgħit</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>Aqra t-tutorja</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Reġistru</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Irrifjutat</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>Relattivi</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Erġa&apos; għabbi</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>Imneħħi</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>Ibdel iċ-ċavetta: il-qadima tieqaf taħdem</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Rapport</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>Rapport tal-bini</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Repożitorju</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Reviżjoni</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>Ir-reviżjoni tiċċekkja kull issettjar u turi l-linji li se jinkitbu. Għadu ma ġie ssejvjat xejn.</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Reġġa&apos; lura</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Treġġigħ lura</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Salva</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>Skeda</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>Paġna tat-tfittxija</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>Ids tas-sezzjonijiet, separati b&apos;virgoli.</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>Ibgħathom lejn is-sit ħaj</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>Issettjar</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Issettjar</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>Issettjar ta&apos; %name</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Konfigurazzjoni</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Konfigurazzjoni &gt; Sigrieti</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>Jintwera fil-listi, pereżempju &quot;Sit pubbliku fuq GitHub Pages&quot;.</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>Id-dħul b&apos;GitHub App jasal mal-integrazzjoni ma&apos; GitHub.</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>Sit</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>Sit li jiġi ppubblikat</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Daqs</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>Daqs u limiti</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>Daqs tal-bini</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Paġni skaduti</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Beda</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Mibdi minn %user fil-%time.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Stat</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Pubblikazzjoni statika</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>Il-pubblikazzjoni statika hija mitfija</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Il-pubblikazzjoni statika hija mitfija.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>Il-pubblikazzjoni statika hija mitfija. Ixgħelha l-ewwel f&apos;Konfigurazzjoni &gt; Pubblikazzjoni statika.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>Il-pubblikazzjoni statika hija mixgħula.</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>Pass %step minn %total</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Passi</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>Tneħħija</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Itfi</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Ixgħel</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>Ixgħel il-pubblikazzjoni statika</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Tikketta</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>Tikketti</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Mira</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>Il-miri jistgħu jinħolqu u jinbidlu, iżda xejn ma jinbena jew jiġi ppubblikat sakemm tinxtegħel.</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>Tgħid lill-magni tat-tfittxija x&apos;għandhom jaqraw.</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>Il-bini ma setax jintrema: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>Il-bini huwa l-istess bħall-aħħar pubblikazzjoni: m&apos;hemm xejn x&apos;jiġi ppubblikat.</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>Il-bini ntrema: il-folder fih l-aħħar pubblikazzjoni mill-ġdid.</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>L-issettjar default jaqbel ma&apos; ħafna siti.</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>Il-folder fih bini li għadu ma ġiex ippubblikat; bini ġdid jissostitwih.</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>Il-folder tal-kompiti ma jistax jinkiteb: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>Il-kompitu ma setax jitħejja: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>Il-kompitu ma setax jinbeda.</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>Il-kompitu spiċċa. Qed jitgħabba r-rapport tiegħu.</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>Il-kompitu jeħtieġ utent illoggjat.</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>Il-kompitu nbeda iżda ma rrappurtax l-id tal-proċess tiegħu. Iċċekkja %detail.</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>Iċ-ċavetta</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>L-akbar fajl: %path, %size.</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Il-linji li se jinkitbu</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>Il-lista tal-paġni għall-magni tat-tfittxija; teħtieġ l-indirizz pubbliku.</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>Il-paġni jinġiebu kif jarahom viżitatur li mhux illoggjat. L-aċċessi għall-amministrazzjoni u għall-editjar qatt ma jiġu offruti.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>Il-progress ma setax jiġi segwit. Erġa&apos; għabbi l-paġna biex tara kif miexi l-kompitu.</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>In-nofs pubbliku taċ-ċavetta:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>L-għerq tal-fergħa</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>Il-ħażna tas-sigrieti għadha mhix issettjata (./console exp:upgrade --apply joħloq it-tabella tagħha), għalhekk l-ebda ċavetta ma tista&apos; tinżamm.</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>Is-server jidħol waħdu (biċ-ċavetta SSH tiegħu jew b&apos;credential helper), jew ir-repożitorju jinsab fuq dan is-server.</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>L-issettjar ma setax jinkiteb: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>L-issettjar huwa validu. Dawn il-linji se jinkitbu:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Il-fajl tal-issettjar ma jistax jinqara: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>Is-sit imur lura għall-fajls ta&apos; dik il-pubblikazzjoni; bini li għadu ma ġiex ippubblikat irid jiġi ppubblikat jew mormi l-ewwel.</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>Il-paġna tas-sit stess għal indirizzi li ma jeżistux.</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>Il-mira ma setgħetx tiġi ssejvjata: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>Il-mira għadha ma tidħolx b&apos;din iċ-ċavetta: agħżel &quot;Ċavetta tal-iskjerament magħmula għal din il-mira&quot; fl-issettjar tagħha.</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Il-miri ma setgħux jinqraw: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>Għad m&apos;hemm l-ebda bini biex jiġi ċċekkjat.</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>Din l-installazzjoni m&apos;għandha l-ebda aċċess pubbliku għas-sit. L-aċċessi għall-amministrazzjoni u għall-editjar qatt ma jiġu ppubblikati.</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>Din il-paġna ssegwi l-kompitu waqt li jimxi; jibqa&apos; għaddej fl-isfond meta l-paġna tingħalaq.</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>Din il-mira għad m&apos;għandhiex ċavetta tal-iskjerament.</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>Din il-mira għadha ma nbnietx hawn.</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>Din il-mira għandha waħda.</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>Jarmi dan il-bini: il-folder fih l-aħħar pubblikazzjoni mill-ġdid. Is-sit ħaj ma jinbidilx.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>L-ewwel immarka &quot;Iċċekkjajt il-bidliet&quot;.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Ħin</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>Skattaturi</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>Erġa&apos; ikteb l-isem tat-tikketta</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>Mhux mibdul</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>Webhook</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>X&apos;inhu</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>X&apos;jinbidel</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>X&apos;inhu kull fajl; jinkiteb dejjem.</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>X&apos;għamel il-kompitu u r-reġistru tiegħu. Kompitu mibdi hawn jibqa&apos; għaddej fl-isfond meta din il-paġna tingħalaq.</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>X&apos;stampa l-kompitu bħala żbalji</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>Dak li jsemmu l-paġni, u kull immaġni ta&apos; kontenut ippubblikat</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Meta</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>Meta pubblikazzjoni tfalli</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>Meta pubblikazzjoni tirnexxi</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>Meta jiġi ppubblikat kontenut</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>Fejn imorru l-links lejn dak li l-kopja m&apos;għandhiex (it-tfittxija, il-login).</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>Minn fejn tiġi servuta l-kopja statika.</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>Liema sit jiġi ppubblikat, u x&apos;jismu l-mira.</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>Jaħdem taħt kwalunkwe mogħdija. Id-default.</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>Jinkiteb kull meta jkun issettjat dominju proprju.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>Iva</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>Dejjem tista&apos; tibni u tippubblika bl-idejn hawn u fuq il-console.</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>isem biss; il-valur jibqa&apos; f&apos;Konfigurazzjoni &gt; Sigrieti</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>taħt %path</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>spiċċa mingħajr rapport</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>żejjed</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>falla</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>fajl</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages, jew main bil-folder docs.</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>host tal-git</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (b&apos;token) jew git@github.com:owner/repo.git (b&apos;ċavetta tal-iskjerament); qatt password jew token fih.</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/, għas-sitemap u l-links kanoniċi.</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>immaġni</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>qatt</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>le</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>l-ebda remote</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>xejn: il-kommissjonijiet jibqgħu fil-folder</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>xejn: ma nbidel xejn</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>mhux mibgħut</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>ma nbidel xejn</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>paġna</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>irnexxa</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>proc_open huwa diżattivat, għalhekk kompitu ma jistax jinbeda hawn. Uża ./console exp:static:build fuq is-server.</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>pubblikazzjoni</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>ippubblikat</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>bgħit pendenti</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>mibgħut</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>irrifjutat</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>relattivi</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>treġġigħ lura</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>imreġġa&apos; lura</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>għaddej</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>il-folder biss</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: jinkiteb fil-fajl CNAME. Ipponta d-DNS tad-dominju lejn il-host kif jispjega hu; l-HTTPS jista&apos; jieħu ftit ħin biex jibda.</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>iva, għadu mhux ippubblikat</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>Workflow tar-repożitorju jippubblikah. Il-bini jikteb il-fajl tal-workflow; ħalli l-folder vojt.</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>Wara li tissejvja mira b'repożitorju fuq GitHub u token jew GitHub App, dan il-pass jista' joħloq ir-repożitorju u jixgħel GitHub Pages. Inkella oħloq ir-repożitorju fuq GitHub l-ewwel; wieħed vojt huwa tajjeb.</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>Fergħa jew GitHub Actions?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>Iċċekkja d-DNS</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>Oħloq ir-repożitorju jekk ma jeżistix</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>Oħloq ir-repożitorju fuq GitHub u ixgħel GitHub Pages fis-settings tiegħu (Settings &gt; Pages).</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>Joħloq ir-repożitorju %repo meta jkun nieqes (jekk mitlub), jixgħel GitHub Pages mill-fergħa jew minn GitHub Actions kif issejvjat, u jissettja d-dominju proprju u HTTPS. Juża s-settings issejvjati: issejvja l-bidliet l-ewwel.</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>Dettalji fuq GitHub</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>Daħħal id-dominju proprju l-ewwel.</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>Kull push jiġi ċċekkjat l-ewwel kontra dawn il-limiti.</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>Għal indirizz https:// fuq GitHub. L-App issettjata għal din l-installazzjoni tidħol; għandha bżonn l-id tal-installazzjoni.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages iservi repożitorju privat biss fuq pjan bi ħlas.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: sottodominju (www.example.com) jeħtieġ rekord CNAME lejn &lt;owner&gt;.github.io; dominju apex (example.com) ir-rekords A %ips.</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>Id tal-installazzjoni tal-GitHub App</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>L-aħħar bini ta' Pages</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>Limiti u termini</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>Meħtieġ għal GitHub Pages fuq pjan b'xejn.</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>Fuq GitHub</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>Biss b'GitHub App: in-numru fl-aħħar tal-indirizz tal-installazzjoni tal-App fuq GitHub. L-App innifisha tiġi ssettjata f'staticcache.ini (GitHubAppId, GitHubAppKey).</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>Privat</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>Pubbliku</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>Issejvja l-mira b'repożitorju fuq GitHub u token jew GitHub App l-ewwel.</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>Issettja dawn ir-rekords għand il-fornitur tad-dominju:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>Issettja fuq GitHub</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>Id-DNS ta' %domain għadu ma jippuntax lejn GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>Id-DNS ta' %domain jippunta lejn GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>L-integrazzjoni ma' GitHub mhix disponibbli hawn: %problem. Il-pubblikazzjoni fil-fergħa taħdem xorta waħda; ixgħel GitHub Pages fis-settings tar-repożitorju.</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>Il-passi ta' GitHub mhumiex disponibbli għal din il-mira: %problem.</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>L-istat ta' GitHub Pages jintwera b'token jew GitHub App bħala kredenzjali.</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>Uża d-dominju tiegħek</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>X'għandek tagħżel: token, ċavetta tal-iskjerament jew GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>B'repożitorju fuq GitHub u token jew GitHub App, il-wizard jista' joħloq ir-repożitorju, jixgħel GitHub Pages u jissettja d-dominju għalik (pass 4).</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>qed jinbena</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>mibni</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>minn GitHub Actions</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>mill-fergħa %branch</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>għad xejn</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>ma nstabx</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>mitfi</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>privat</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>pubbliku</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>fil-kju</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>mhux magħruf</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%count fuq %pages paġna/i:</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>Fajl .gz (u .br) maġenb kull fajl tat-test, għal hosts li jservuhom.</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>Paġna żgħira għal kull indirizz antik u alias ta' paġna, biex il-links qodma jibqgħu jaħdmu.</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>Dejjem miktub meta GitHub Actions iwassal is-sit.</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>Id SPDX bħal CC-BY-4.0, jew it-test innifsu.</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>Basket</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>Sejħiet lis-server</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Kummenti</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>Formoli li jiġbru informazzjoni</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>Workflow ta' GitHub Actions</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>Inqas spazju vojt u l-ebda kummenti fil-paġni.</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>Liċenzja tal-kontenut</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Login</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>Minimizza</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>Formoli oħra</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>Ippressa minn qabel</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>Paġni ta' rindirizzar</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>Paġni ta' rindirizzar: %count.</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Fittex</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>Indiċi tat-tfittxija: %pages paġna/i f'%languages.</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>Style sheets u skripts imsemmija bl-hash tal-kontenut tagħhom, biex il-browsers ikunu jistgħu jżommuhom.</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>Il-paġni mibdula, ftit minuti wara l-aħħar bidla (il-parti cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>Il-liċenzja tal-kontenut, mill-qasam hawn taħt.</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>Is-sit kollu, fil-ħinijiet tal-iskeda (il-parti cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>Dawn il-partijiet tal-paġni jeħtieġu server; kull wieħed ingħata alternattiva. Iċċekkjahom qabel tippubblika.</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>X'ma jaħdimx b'mod statiku</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>X'inhu r-repository, għal min jiftħu fuq il-host.</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>imħolli barra</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>it-test alternattiv</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>il-punt tal-formoli tas-sit ħaj</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>is-sit ħaj</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>il-paġna tat-tfittxija tal-kopja</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>Il-formola ma setgħetx tintbagħat.</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>Grazzi: il-formola ntbagħtet.</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>Il-formola ma ntqablitx: iċċekkja dak li dħalt u ibgħatha mill-ġdid.</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>Neħħi l-links għal paġni li l-kopja ma fihiex</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>Neħħi l-links għall-amministrazzjoni</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>It-test tagħhom jibqa'. Stampi, formoli u links għal siti oħra qatt ma jitneħħew.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Verżjoni</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>Aċċessi għas-sit li jiġu ppubblikati</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Aċċess għas-sit</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>Fl-għerq</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>L-ebda aċċess fl-għerq: kull wieħed jinsab fil-folder tiegħu, u l-għerq jorbot magħhom</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Aċċessi għas-sit</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>Immarka aċċess wieħed għas-sit, jew diversi li jaqsmu host wieħed bil-prefiss URI tagħhom. Dak fl-għerq jiġi servut hemm, l-oħrajn fil-folder tal-prefiss tagħhom (/ger/); il-links bejniethom jibqgħu fil-kopja. L-aċċessi tal-amministrazzjoni qatt ma jiġu offruti.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>Il-pubblikazzjoni statika ta' %target falliet fuq %site</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>Il-pubblikazzjoni statika ta' %target irnexxiet fuq %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>Din l-email intbagħtet minn %site għax il-mira tal-pubblikazzjoni statika %target titlobha.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>L-iskjerament %deploy falla fuq %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>L-iskjerament %deploy qed jistenna f'bieb fuq %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>L-iskjerament %deploy irnexxa fuq %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>Din il-posta ntbagħtet minn %site għax migration.ini [RemoteSettings] Notify[] jitlobha.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>Tipi ta' dejta (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>Magħdud %time, mill-ġdid wara %minutes minuti</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>Tip ta' dejta jaħżen u jeditja tip wieħed ta' valur ta' attribut tal-klassi: linja ta' test, immaġni, relazzjoni. Il-Kernel iġib il-biċċa l-kbira, l-estensjonijiet iżidu oħrajn. Hawn huma kollha, min jipprovdihom u kemm kontenut jużahom. Tip ta' dejta li l-bażi tad-dejta tuża iżda li xejn ma jirreġistrah aktar, jikser il-kontenut li għandu.</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>Gruppi ta' klassijiet</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>Għodd mill-ġdid issa minflok tuża l-għadd tal-aħħar minuti.</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>Għodd mill-ġdid</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Ħarsa ġenerali</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>Irreġistrat</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>Qed tintuża</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>Mhux użat</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>Estensjonijiet li jipprovdu tipi ta' dejta</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>Attributi tal-klassi</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>Attributi tal-oġġett</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>Mhux irreġistrat</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>Elenkat, il-fajl nieqes</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>%count tipi ta' dejta huma użati iżda mhux irreġistrati</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>%class_attributes attributi tal-klassi u %object_attributes attributi tal-oġġett għandhom tip ta' dejta li l-ebda estensjoni jew issettjar ma jirreġistrah. L-oġġetti tagħhom ma jistgħux jintwerew, jiġu editjati jew ippubblikati. Attiva l-estensjoni li tipprovdi t-tip ta' dejta, jew ibdel il-klassi.</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>Uri dawn biss</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>Sib tip ta' dejta</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>Identifikatur, isem, klassi PHP jew estensjoni.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Uri</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Kollha</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>Ipprovdut minn</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>Kulħadd</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>Kernel</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>L-ebda tip ta' dejta ma jaqbel ma' dan il-filtru.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Uri kollox</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>Estensjoni</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%shown minn %count tipi ta' dejta, %used qed jintużaw</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>Il-bażi tad-dejta għandha attributi ta' klassijiet jew oġġetti ta' dawn it-tipi ta' dejta, iżda content.ini ma jelenka l-ebda wieħed minnhom, jew il-fajl tiegħu huwa nieqes.</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>Tipi ta' dejta ta' %provider</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>Tip ta' dejta</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>Klassi u fajl PHP</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>Klassijiet</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>Oġġetti</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>Indikaturi</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>xejn</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>L-ebda tip ta' dejta ma jaqbel mat-tfittxija. Neħħi t-tfittxija.</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>%shown minn %count tipi ta' dejta murija</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>Tipi ta' dejta murija: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>Issortja skont %column</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>Magħdud %time</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>It-tipi ta' dejta kollha</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>Paġna tal-għajnuna</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>Dan it-tip ta' dejta huwa użat iżda mhux irreġistrat</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>L-oġġetti tal-klassijiet hawn taħt ma jistgħux jintwerew, jiġu editjati jew ippubblikati sakemm l-ebda estensjoni ma tirreġistra t-tip ta' dejta. Attiva l-estensjoni li tipprovdih u żidu f'content.ini [DataTypeSettings] AvailableDataTypes[], jew ibdel il-klassijiet.</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini jelenka dan it-tip ta' dejta, iżda l-ebda direttorju tat-tipi ta' dejta ma għandu l-fajl tiegħu. Xejn ma jużah; neħħih minn AvailableDataTypes[] jew attiva l-estensjoni tiegħu.</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>Dwar dan it-tip ta' dejta</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>Identifikatur</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Isem</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Estensjoni %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>ħadd</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>Klassi PHP</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Fajl</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>F'AvailableDataTypes[]</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>iva</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>le</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>Kolonni tal-valur tiegħu</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>Kolonni tal-issettjar tal-attribut tal-klassi</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>Tabelli</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>Il-kolonni u t-tabelli jinstabu billi jinqara l-kodiċi tat-tip ta' dejta: gwida, mhux wegħda.</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>Mudelli</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Aċċess għas-sit</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>Mudell</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>Misjub fi</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>din l-amministrazzjoni</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>sit predefinit</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>Mingħajr overrides: mudell override li jaqbel skont il-klassi jew l-attribut jirbaħ fuq dawn.</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>Klassijiet li jużawh (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>L-ebda klassi m'għandha attribut ta' dan it-tip ta' dejta.</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Klassi</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>Attributi</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>Attributi tal-klassi (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>Attribut</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Issettjar</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>Meħtieġ</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>Jista' jitfittex</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>Traduċibbli</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>Jiġbor informazzjoni</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>Xi kontenut li jużah</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>L-aħħar modifikat l-ewwel</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Immodifikat</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>Nodu %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>Kull traduzzjoni għandha l-valur tagħha.</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>It-tfittxija tindiċizza l-valuri tiegħu.</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>Jista' jiġbor informazzjoni mill-viżitaturi (formoli).</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>Il-listi jistgħu jiġu ordnati skontu: ċavetta tal-ordni %type.</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>Jista' jiġi ssortjat</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>Il-valuri tiegħu jindikaw oġġetti oħra.</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>Relazzjonijiet</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>Jista' jimtela minn string sempliċi (importazzjoni, REST).</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>Minn test</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>Jista' jimtela minn fajl.</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>Minn fajl</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>L-issettjar tal-attribut tal-klassi tiegħu jidħol fil-pakketti.</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>Pakketti</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>Kontenut (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from sa %to minn %count</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Iffiltra l-lista</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>Il-klassijiet kollha</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Taqsima</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Lingwi</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Sid</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Ippubblikat</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>Aqleb is-sekwenza</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>L-ebda oġġett</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Għal kull paġna</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Uri elementi f'kull paġna: %count.</translation>
     </message>
 </context>
 </TS>

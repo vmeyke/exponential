@@ -984,6 +984,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>Ar pajenn-mañ hepken a vez klasket: %from da %to diwar %count.</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Pep rizh roadennoù eus ar galon hag eus an astennoù, ha penaos e vez implijet gant ar c'hlasadoù hag an endalc'had.</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Rizhioù roadennoù</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2316,6 +2324,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>Pajennoù reizhiad a c'haller lakaat en ho sinedoù ivez: digorit ar bajenn (Kefluniañ, roll an aodit, ur roll implijerien ...) ha diuzit Lakaat ar bajenn-mañ e sinedoù a-us dezhi. Ur skeudennig dantenn zo gant ar sinedoù-se.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>Ne c'hallit ken digeriñ ar bajenn-mañ amañ. Lamit kuit ar sined, pe goulennit un haeziñ ouzh ur merour.</translation>
     </message>
 </context>
 <context>
@@ -5165,6 +5177,210 @@
         <source>Go to the first page</source>
         <translation>Mont d'ar bajenn gentañ</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>All</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>7 devezh diwezhañ</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>Mare personelaet</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>An holl gerioù</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>Forzh peseurt ger</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>Frazenn resis</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>Dereadegezh</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>Anv A–Z</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>Anv Z–A</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>Kemmet, ar re nevesañ da gentañ</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>Kemmet, ar re goshañ da gentañ</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>Embannet, ar re nevesañ da gentañ</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>Embannet, ar re goshañ da gentañ</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Kemmet</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>Siloù</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>Diskouez ar siloù</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>Kuzhat ar siloù</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Adderaouekaat</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>Arloañ</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>Gerioù</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>Seurt endalc'had</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>Diskouez muioc'h (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>Dibabit ur seurt endalc'had hepken evit klask en unan eus e berzhioù.</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Rann</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Eus</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Da</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>An deiziad kregiñ n'eo ket un deiziad reizh.</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>An deiziad echuiñ n'eo ket un deiziad reizh.</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Perc'henn</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>ID an implijer, anv kevreañ pe chomlec'h postel.</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>N'eus bet kavet implijer ebet evit « %input ».</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Yezh</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>Forzh peseurt yezh</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Lec'hiadur</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>%count lec'hiadur</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>Disoc'hoù dre bajenn</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>Disoc'hoù evit « %text » (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>Disoc'hoù (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>Rummañ dre</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>Rummañ</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>Siloù oberiant</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>Lemel ar sil-mañ kuit</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>Pe dibabit siloù hag arloit anezho evit rollañ an endalc'had a glot ganto.</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>Ar siloù a strizh an enklask kerkent ha ma vez bet skrivet gerioù.</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>Disoc'h ebet evit « %text ».</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>Disoc'h ebet.</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>Lamit ur sil a-us.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Troidigezhioù</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Obererezhioù</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>Kemmañ %name</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Kemmañ</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -7514,6 +7730,10 @@
         <source>Setup &gt; Cronjobs</source>
         <translation>Kefluniañ &gt; Trevelloù cron</translation>
     </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>N&apos;eo bet lañset lodenn labour cron ebet c&apos;hoazh: al lostennad labourioù, an enporzhiadurioù, ar c&apos;hemennadennoù hag ar menegva klask a chom o c&apos;hortoz. Lañsit php bin/php/installcrontab.php --add --apply, pe ouzhpennit linennoù --show d&apos;ar crontab.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/dashboard/drafts</name>
@@ -8058,8 +8278,8 @@
         <translation>Miret eo kemennoù gwirioù aozer an aozerien orin hag ar meziantoù tredeog ebarzhet gant Exponential er restroù tarzh hag er restr LICENSE, evel m'her goulenn an aotreadur.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>Setu roll ar genlabourerien Exponential o deus aotreet o labour da 7x da vezañ implijet dindan divizoù ha divoned ar Contributor Licensing Agreement eus eZ Systems. Evel m'her aotre ar c'hendivizad-se, 7x a adskign pep perzh dindan an hevelep aotreadur hag ar restr ma 'z eo ebarzhet ennañ. Ar roll a anv pep kenlabourer, e titouroù darempred diret ha ar restroù m'en deus kemeret perzh enno.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>Kenlabourerien anavezet evit o labour war Exponential ha war ar meziant ma'z eo deuet anezhañ, gant ar restroù m'o deus kemeret perzh enno. Un anaoudegezh eo, n'eo ket un evezhiadenn gwir-eilañ: treuzkaset eo ar c'henlabouroù da Exponential d'an Exponential Foundation ha da 7x dindan ar Contributor Licensing Agreement.</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13881,32 +14101,20 @@ Notenn: ne vo ket distaliet ar pakadoù.</translation>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%evaluate_link"&gt;Esaeit Exponential Enterprise Edition&lt;/a&gt; - &lt;a href="%share_link"&gt;Deuit da vezañ izili eus ar gumuniezh Exponential, eskemmit ha kemerit perzh&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; hag re all.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class="edition-info"&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>Lusket gant &lt;span class="edition-info"&gt;%edition&lt;/span&gt;. Evit gouzout hiroc'h gwelit &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; hag re all.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> Evit gouzout hiroc'h gwelit &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
     </message>
     <message>
-        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; hag re all.</translation>
+        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href="%evaluate_link"&gt;Esaeit Exponential (diwar 7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;Deuit da vezañ izili eus ar gumuniezh Exponential, resevit skoazell ha kemerit perzh&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; hag re all.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13915,6 +14123,61 @@ Notenn: ne vo ket distaliet ar pakadoù.</translation>
     <message>
         <source>Help center</source>
         <translation>Kreizenn skoazell</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>Endalc'had</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>Pajennoù teulioù</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>Implijerien</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>Klasadoù endalc'had</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>Merañ</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>Pajenn %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>Gwelet an holl zisoc'hoù</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>%count disoc'h</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>Un disoc'h</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>%count kinnig</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>Kinnig ebet</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>N'eus ket bet gallet kargañ ar c'hinnigoù.</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>Kinnigoù</translation>
     </message>
 </context>
 <context>
@@ -14383,6 +14646,14 @@ Notenn: ne vo ket distaliet ar pakadoù.</translation>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>Un diskouezadeg foran eo ar staliadur-mañ: gouzout a c'hall an holl e ger-tremen merour, ha ne c'hall ket ger-tremen ar verourien bezañ kemmet nag adlakaet. Na skrivit netra prevez amañ.</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Hoc&apos;h ardivinkoù</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Obererezh surentez</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14672,6 +14943,14 @@ Notenn: ne vo ket distaliet ar pakadoù.</translation>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>Dornlevrioù, klask ha penaos danevellañ ur fazi.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Endalc'had nevez</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>An endalc'had nevesañ, ar pezh a zo dalc'het evit bezañ gwiriet, hag oberoù war un diuzad.</translation>
     </message>
 </context>
 <context>
@@ -15130,6 +15409,46 @@ Notenn: ne vo ket distaliet ar pakadoù.</translation>
         <source>Synchronisations</source>
         <translation>Sinkronelaadurioù</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>An API GraphQL: e boent-termen, ar chema hag ul leurenn-c'hoari evit esaeañ goulennoù.</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Divroadennoù</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Kemmoù d&apos;ar staliadur miret evel restroù: o statud, al lañsadennoù, lañsañ ha distreiñ.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Endalc'had nevez</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>An endalc'had nevesañ, ar pezh a zo dalc'het evit bezañ gwiriet, hag oberoù war un diuzad.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Embann un eilskrid stadek eus ul lec&apos;hienn war GitHub Pages pe war forzh peseurt herberc&apos;hier git.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Embann stadek</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Rizhioù roadennoù</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Pep rizh roadennoù eus ar galon hag eus an astennoù, ha penaos e vez implijet gant ar c'hlasadoù hag an endalc'had.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15294,6 +15613,22 @@ Notenn: ne vo ket distaliet ar pakadoù.</translation>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>Kontoù n'implij den pe a c'houlenn ur sell; o diweredekaat, o dibrennañ pe o ezporzhiañ.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Marilh aodit an implijerien</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>Piv en deus kemmet, kevreet pe bet nac&apos;het, dre gont; silañ hag ezporzhiañ.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Danevell ar c&apos;hevreadennoù</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>Piv a zo kevreet, kevreadennoù ha c&apos;hwitadennoù bep devezh; digevreañ un implijer e pep lec&apos;h.</translation>
     </message>
 </context>
 <context>
@@ -22110,6 +22445,22 @@ Notenn: ne vo ket distaliet ar pakadoù.</translation>
         <source>%n hours ago</source>
         <translation>%n eur zo</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>Respontoù rekedoù enrollet an API GraphQL, ha klasoù danvez e chema.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>Embann un eilskrid stadek war GitHub Pages pe war forzh peseurt herberc&apos;hier git</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Embann stadek</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>Ar grubuilh stadek a ginnig pajennoù adalek ar servijer-mañ. Evit embann un eilskrid stadek eus ul lec&apos;hienn e lec&apos;h all, war GitHub Pages pe war forzh peseurt herberc&apos;hier git, implijit an embann stadek.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25651,6 +26002,10 @@ Notenn: ne vo ket distaliet ar pakadoù.</translation>
     <message>
         <source>last purge</source>
         <translation>skarzhadenn ziwezhañ</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>N&apos;eo ket bet gouest ar skrivadurioù da gemer prenn ar stad (ar wech diwezhañ %date): pep hini en deus lakaet an holl disoc&apos;hoù er grubuilh da vezañ diamzeret. %file a rank bezañ skrivus evit pep implijer a laka al lec&apos;hienn da dreiñ; war NFS ez eus ezhomm eus NFSv4 pe lockd.</translation>
     </message>
 </context>
 <context>
@@ -33599,6 +33954,14 @@ Notenn: ne vo ket distaliet ar pakadoù.</translation>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>Dalc'hioù aet da bell ar merour PHP a vez lamet kuit gant PHP e-unan (session.gc_maxlifetime), n'eo ket gant ar bajenn-mañ nag a-berzh al labour cron session_gc.</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>Dalc&apos;hioù kevreet an holl implijerien a vez rollet, ha digevreet, war zanevell ar c&apos;hevreadennoù, a ya en-dro gant pep dornier dalc&apos;hoù.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>Digeriñ danevell ar c&apos;hevreadennoù</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37923,6 +38286,26 @@ gweredekaat ho kont.</translation>
     <message>
         <source>None yet</source>
         <translation>Hini ebet c'hoazh</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Obererezh surentez</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>Ho kevreadennoù diwezhañ, an taolioù-esae c&apos;hwitet hag ar c&apos;hemmoù d&apos;ho ker-tremen, d&apos;ho chomlec&apos;h postel ha d&apos;ho kevreadenn e daou gam.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>Kevreadennoù diwezhañ, taolioù-esae c&apos;hwitet ha kemmoù surentez ar gont-mañ.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>Adwelout an obererezh</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>Kevreadennoù c&apos;hwitet: %count</translation>
     </message>
 </context>
 <context>
@@ -44089,6 +44472,42 @@ Ma fell deoc'h kas evezhiadennoù d'an aprouer pe welout ar statud, implijit an 
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>Goude kevreañ e rank an implijer diuzañ ur ger-tremen nevez a-raok ober netra all. Implijit an dibarzh-mañ pa roit ur ger-tremen amzeriek d'unan bennak.</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>Dibab ur skeudenn zo anezhi</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>Restr skeudenn an objed a zibabit a vez eilet en tachenn-mañ. An objed all ne cheñch ket.</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>Skeudenn «%name» a zo bet eilet en tachenn-mañ.</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>Furchal evit kavout ur skeudenn</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>Klask skeudennoù dre an anv</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Klask</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>Implijout skeudenn «%name»</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>Implijout ar skeudenn-mañ</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>Skeudenn ebet ne glot gant ho klask.</translation>
     </message>
 </context>
 <context>
@@ -51013,6 +51432,10 @@ Sellit ouzh pajenn ar goulennoù evit gouzout hiroc'h.</translation>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>N'eo ket bet skrivet ar crontab (%reason). Ouzhpennit al linennoù-mañ da crontab an implijer m'emañ al lec'hienn o treiñ dindan e anv, pe ne vo biskoazh lañset al lostennad, an enporzhiadennoù, ar c'hemennadennoù nag ar meneger klask:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>Adstaliañ a reer gant ar c&apos;hickstarter (%file, goude php bin/php/kickstarter.php run --apply) pe gant ur staliadur nevez.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54892,6 +55315,10 @@ gweredekaat ho kont.</translation>
         <source>eZJSCore Public Packer cache</source>
         <translation>Krubuilh pakter foran eZJSCore</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>Krubuilh GraphQL (respontoù ha klasoù ar chema)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54978,6 +55405,14 @@ gweredekaat ho kont.</translation>
     <message>
         <source>Copy of %class_name</source>
         <translation>Eilad eus %class_name</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Rizhioù roadennoù</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>Rizh roadennoù %string</translation>
     </message>
 </context>
 <context>
@@ -55804,6 +56239,26 @@ Arabat klask adkas ar paeamant.</translation>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>Ne oa ket posupl lenn ar skeudenn SVG, pe ne c'haller diskouez netra enni en un doare diarvar.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>N'eus ket bet gallet eilañ ar skeudenn. Klaskit en-dro pe kit e darempred gant merour al lec'hienn.</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>N'eus ket eus an objed dibabet pe n'oc'h ket aotreet d'e lenn.</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>N'en deus skeudenn ebet an objed dibabet.</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>N'eus ket bet gallet lenn restr skeudenn an objed dibabet.</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>Brasoc'h eo skeudenn an objed dibabet eget ar pezh a aotre an dachenn-mañ: %1 okted.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56334,6 +56789,42 @@ Arabat klask adkas ar paeamant.</translation>
         <source>The bookmark was renamed to "%name".</source>
         <translation>Adanvet eo bet ar sined e "%name".</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>Diweredekaet eo ar bajenn-mañ en haeziñ al lec'hienn %siteaccess. Digorit ar sined en un haeziñ al lec'hienn ma'z eus anezhi.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>Mollad ar bajenn-mañ n'eo ket staliet pe gweredekaet amañ.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>N'eus ket eus ar bajenn-mañ ken: n'eus gwel ebet evel-se en he mollad.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>Hini ebet eus ho rolloù n'ho aotre da zigeriñ ar bajenn-mañ.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>N'hallit ket implijout an haeziñ al lec'hienn-mañ.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>N'hallit ket lenn an endalc'had diskouezet gant ar bajenn-mañ.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>Ar seurt pajenn-mañ ne c'haller ket lakaat e sinedoù: ne ra nemet war ur furmskrid, pe ur bajenn evit ur prantad berr eo.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>Chomlec'h ar bajenn-mañ a vank.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>Ne c'haller ket digeriñ ar bajenn-mañ bremañ.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56805,6 +57296,10 @@ Ret e vo deoc'h kemmañ klasad ar skoulm gant an arc'hwel eskemm.</translation>
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>Nac'het en deus an treuzdougen postel %count kemennadenn er lañs diwezhañ. Gwiriit servijer ar postelioù ha site.ini MailSettings.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Darvoudoù o c&apos;hortoz: %count, ha n&apos;eo bet enrollet lañsadenn ebet eus labour cron ar c&apos;hemennadennoù. Ouzhpennit al lodenn labour cron &quot;frequent&quot; d&apos;ar crontab, pe lañsit exp:notification:run --apply.</translation>
     </message>
 </context>
 <context>
@@ -63061,6 +63556,10 @@ Ret e vo deoc'h kemmañ klasad ar skoulm gant an arc'hwel eskemm.</translation>
         <source>Choose another site or section with the node picker</source>
         <translation>Dibab ul lec'hienn pe ur rann all gant diuzer ar skoulmoù</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>Merour ar reizhiad hepken a c&apos;hall kemmañ ar perc&apos;henn: lañsit ./console exp:content-check --fix-permissions --apply evel root.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64594,6 +65093,10 @@ Ret e vo deoc'h kemmañ klasad ar skoulm gant an arc'hwel eskemm.</translation>
     <message>
         <source>empty</source>
         <translation>goullo</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>Ouzhpenn ur bloaz eo an alc&apos;hwez sinañ: cheñchit anezhañ gant exp:audit key rotate --apply.</translation>
     </message>
 </context>
 <context>
@@ -68424,6 +68927,486 @@ Ret e vo deoc'h kemmañ klasad ar skoulm gant an arc'hwel eskemm.</translation>
         <source>Share of page time</source>
         <translation>Rann eus amzer ar bajenn</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>goulennet eo bet ur sevel klok</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>n'edo ket ar bajenn e krubuilh ar pajennoù (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>respont ebet digant krubuilh ar pajennoù</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>Savet</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>Savet gant ar c'halon: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>Servijet eus krubuilh ar pajennoù e %ms ms. Stoket e oa bet ar bajenn da %stored gant ur sevel a %render ms, %age s zo.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>Sevel bremañ</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>Distreiñ d'ar gwel er grubuilh</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>Eus ar sevel da %stored (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>Ar reked-mañ: servijet eus krubuilh ar pajennoù e %ms ms.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Implijer</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>ID an implijer</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>Profil krubuilh</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>Ar gwel-mañ</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>Krubuilh gwel</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>dre implijer (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>Profil krubuilh an implijer: an implijerien gant ar memes profil a rann restroù krubuilh ar gwelioù</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ya</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ket</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Anv implijer</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>Kevreet</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>Dalc'h</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>Lodennoù alc'hwez krubuilh gwel an endalc'had a zalc'h d'an implijer, evel ma vezont kemeret gant an alc'hwez, dindan ViewCacheTweaks ar bajenn-mañ. An implijerien gant ar memes profil a rann restroù krubuilh ar gwelioù, nemet e vefe disheñvel lodennoù ur gwel e-unan (gwellvezioù, alc'hwezioù ar selaouerien): ur profil dezho o-unan o deus, evit ar bajenn-mañ hepken.</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>Profil</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>Ar gwel-mañ (skoulm %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: pep implijer kevreet en deus e restroù krubuilh dezhañ e-unan.</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>ViewCacheTweaks e-pad: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>Lodenn</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>Talvoud</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>Lodenn ebet ne zalc'h d'an implijer (ViewCacheTweaks).</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>ar gwel-mañ</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>Eilañ evel testenn</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>Rolloù</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>N'eus bet gallet lenn deverk rollad ebet.</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>ID ar rollad</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Roll</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>Bevenn</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>Deverket da</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>an implijer</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>strollad %name (ergorenn %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>Eilet</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>N'eus ket bet gallet eilañ.</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>lezet a-gostez gant ur selaouer</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>Dasparzherien dizanv</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>heñvel ouzh hoc'h hini</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>disheñvel</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>Ar profil a vez roet d'ar weladennerien dizanv dindan ar memes ViewCacheTweaks, gant ar gwellvezioù dre ziouer, hep lodennoù ar gwel: ur selaouer a lenn an dalc'h ne c'hall ket bezañ goulennet diwar o fenn.</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>Gwellvezioù</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>Mod gwel ebet ne zalc'h da wellvezioù an implijer (site.ini [ContentSettings] CachedViewPreferences).</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>Ar gwellvezioù ma talc'h gwelioù ar modoù gwel-mañ outo (CachedViewPreferences), gant talvoud an implijer pe an hini dre ziouer. Er profil emaint evel userpreferences, re an holl vodoù gwel asambles.</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>Mod gwel</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>Gwellvez</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>Dre ziouer</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>Reolennoù</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>Diskouez reolennoù ar rolladoù (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>Karget e vez ar reolennoù eus ar servijer pa vez digoret ar rann-mañ, ur bajenn bep tro, hag e c'haller o sil dre vodul ha dre arc'hwel.</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>Arc'hwel</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>An holl molladoù</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>An holl arc'hwelioù</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>Bevennoù</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>Diskouez muioc'h</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>N'eus reolenn ebet gant ar rolladoù-mañ.</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>Reolenn ebet ne glot gant ar sil.</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%shown war %matching reolenn (%total en holl)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>Karget e vez pa vez digoret.</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>module/function, roll, strishadur</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>Klask er politikoù</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>Kargañ muioc'h</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>Mollad/arc'hwel</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>An holl rolloù (%count politikaenn)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>Politikaenn ebet ne glot.</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%shown war %matched politikaenn</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>Respont ebet</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>kuzhet</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>Diskouez an displegadennoù</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>Kuzhat an displegadennoù</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Digeriñ</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>Digeriñ pep tra</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>Serriñ pep tra</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>Alc'hwez pe dalvoud</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>Klask en dalc'h</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Rizh</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>%count all</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>re zoun enframmet evit bezañ diskouezet</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>troc'het, %count arouezenn en holl</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Loc'het</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>Anv an toupin</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>ID an dalc'h</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>Dornataer</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>Hent enrollañ</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>Dre ziouer PHP</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>Padelezh (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>Toupin</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>padelezh %s s</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>Ho talc'h PHP deoc'h, evel ma oa pa voe digoret ar rann, morse hini unan all. Talvoudoù an alc'hwezioù a seblant bezañ sekredoù (tokenoù, hashoù, gerioù-tremen) a vez kuzhet (debugbar.ini SessionMask[]); kement tra all a vez diskouezet evel m'eo enrollet, ar roadennoù personel ivez.</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>%count alc'hwez, %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>bras</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>Goullo eo an dalc'h.</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>N'eus bet loc'het dalc'h ebet evit ar reked-mañ.</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Astenn %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>Kalon ha re all</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>N'eo ket diskouezet an holl enmontoù: muioc'h a zo en dalc'h eget ar pezh a c'haller listennañ amañ.</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>%count alc'hwez n'int ket listennet.</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>Framm</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>An talvoudoù a seblant bezañ un token (ur JSON Web Token, titouroù-anaout un talbenn Authorization, un alc'hwez prevez, un destenn hex hir pe dargouezhek) a vez kuzhet ivez, forzh petra eo anv o alc'hwez (debugbar.ini SessionValueMask[]).</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>Seblantout a ra an alc'hwez bezañ ur sekred (debugbar.ini SessionMask[]).</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>Seblantout a ra an talvoud bezañ un token.</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>Dindan un alc'hwez kuzhet.</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>An dalc'h evel testenn, kuzhet evel an daolenn.</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>Brasoc'h eo an dalc'h eget %size (debugbar.ini SessionWarnBytes): pep reked eus an implijer-mañ a lenn an dalc'h a-bezh, hag e skriv anezhañ pa'z eo bet cheñchet.</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP a vir an dalc'h-mañ e restroù hag a jaoj ar restr e-pad ar reked a-bezh: rekedoù an hevelep implijer (meur a ivinell, galvoù AJAX) a c'hortoz an eil egile.</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>Mirout digor</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>Brasoc'h eget %size (debugbar.ini SessionWarnBytes): pep reked eus an implijer-mañ a lenn an dalc'h a-bezh.</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%hits diwar %count lennet eus ar grubuilh</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>N'eus bet sevenet patrom ebet (ur gwel lennet eus krubuilh ar gwelioù na seven hini ebet).</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>Lakadurioù roll</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>Rolloù ha reolennoù</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>disheñvel diouzh ar weladennerien dizanv</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>heñvel ouzh ar weladennerien dizanv</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70304,6 +71287,14 @@ Ret e vo deoc'h kemmañ klasad ar skoulm gant an arc'hwel eskemm.</translation>
     <message>
         <source>not sent</source>
         <translation>n'eo ket bet kaset</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Labour cron ar c&apos;hemennadennoù a enroll amañ pep lañsadenn anezhañ. Ouzhpennit al lodenn frequent d&apos;ar crontab, pe lañsit exp:notification:run --apply.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>Implijit al letrin: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -76022,6 +77013,98 @@ Ret e vo deoc'h kemmañ klasad ar skoulm gant an arc'hwel eskemm.</translation>
         <source>This topic is not Released; readers do not see it.</source>
         <translation>N'eo ket embannet ar rubrik-mañ; al lennerien ne welont ket anezhi.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Divroadennoù</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Kemmoù d&apos;ar staliadur miret evel restroù: o statud, al lañsadennoù, lañsañ ha distreiñ.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Embann un eilskrid stadek eus ul lec&apos;hienn war GitHub Pages pe war forzh peseurt herberc&apos;hier git.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Embann stadek</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>En adlenn</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>Gwelout a ra al lennerien ar bajenn-mañ.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>Kuzhet ouzh al lennerien betek ma vo embannet gant unan bennak.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>Emañ ar bajenn en adlenn bremañ. Kuzhet eo ouzh al lennerien betek ma vo embannet.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>Embannet eo ar bajenn: gwelout a ra al lennerien anezhi bremañ.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>Ur brouilhed eo ar bajenn en-dro. Kuzhet eo ouzh al lennerien betek ma vo adlennet hag embannet.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>Embann bremañ</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>N'eus nemet un implijer gant ar roll %role ha n'en deus ket skrivet an handelv-mañ a c'hall embann anezhi.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>Rubrikoù skoazell o c'hortoz bezañ embannet</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>Kuzhat a ra anezhi ouzh al lennerien betek ma vo embannet en-dro.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>Un adlenner a wiro anezhi da heul. Ne wel ket al lennerien anezhi c'hoazh.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>Gwelout a ra al lennerien anezhi diouzhtu.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>Tennañ a ra anezhi eus an adlenn evit labourat muioc'h warni. Ne wel ket al lennerien anezhi.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>Kuzhat ar bajenn-mañ ouzh al lennerien?</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>Kas ar bajenn-mañ en-dro d'ar brouilhed?</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>Ne wel ket al lennerien %title ken betek ma vo embannet en-dro gant unan bennak.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title a zistro d'ar brouilhed evit labourat muioc'h warni. Ne wel ket al lennerien anezhi c'hoazh, hag ezhomm he deus eus un adlenn nevez a-raok bezañ embannet.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Nullañ</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>En adlenn emañ ar rubrikoù-mañ. Gwelout a ray al lennerien anezho kerkent ha ma vint embannet gant unan bennak n'en deus ket skrivet an handelv red.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76477,6 +77560,46 @@ Ret e vo deoc'h kemmañ klasad ar skoulm gant an arc'hwel eskemm.</translation>
         <source>None.</source>
         <translation>Hini ebet.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>gant un arload kadarnaat</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>gant ur c&apos;hod dre bostel</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>gant ur c&apos;hod adtapout</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>gant un alc&apos;hwez-tremen</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>gant ur gont diavaez</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Obererezh surentez</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>Diskouezet evel e rouedad; miret e vez ar chomlec&apos;h evel ma lavar arventennoù gwarez ar roadennoù el lec&apos;hienn.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Ket enrollet</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Lec&apos;hiadur</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>war-dro</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76720,6 +77843,42 @@ Ret e vo deoc'h kemmañ klasad ar skoulm gant an arc'hwel eskemm.</translation>
         <source>Manage devices</source>
         <translation>Merañ an ardivinkoù</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>gant un arload kadarnaat</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>gant ur c&apos;hod dre bostel</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>gant ur c&apos;hod adtapout</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>gant un alc&apos;hwez-tremen</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>gant ur gont diavaez</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Obererezh surentez</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Ket enrollet</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Lec&apos;hiadur</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>war-dro</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76799,6 +77958,14 @@ Ret e vo deoc'h kemmañ klasad ar skoulm gant an arc'hwel eskemm.</translation>
         <source>View the sessions of this user</source>
         <translation>Diskouez dalc'hioù an implijer-mañ</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>Implijet eo bet ho kont %login war %site emberr evit kevreañ eus ul lec&apos;h ma n&apos;eo ket bet kevreet diouzhtañ nevez zo:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>Lec&apos;hiadur war-dro</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76837,6 +78004,10 @@ Ret e vo deoc'h kemmañ klasad ar skoulm gant an arc'hwel eskemm.</translation>
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%browser war %os</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Danevell ar c&apos;hevreadennoù</translation>
     </message>
 </context>
 <context>
@@ -77045,6 +78216,82 @@ Ret e vo deoc'h kemmañ klasad ar skoulm gant an arc'hwel eskemm.</translation>
         <source>The passkey could not be checked. Please try again.</source>
         <translation>N'eo ket bet tu gwiriañ an alc'hwez-tremen. Klaskit en-dro, mar plij.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>Ar c&apos;hontoù a gevre gant alc&apos;hwezioù-tremen hepken n&apos;hallont ket implijout ur ger-tremen amañ: dibabit &quot;Kevreañ gant un alc&apos;hwez-tremen&quot;.</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>Alc&apos;hwezioù-tremen %login</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>An alc&apos;hwezioù-tremen a implij ar gont-mañ evit kevreañ. Dizoberit an hini a zo war un trepas kollet pe laeret: ne c&apos;hallo ket kevreañ ken. Ar perc&apos;henn a ouzhpenn re nevez e-unan.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>Ezhomm en deus ho kont eus un alc&apos;hwez-tremen</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>Ouzhpennañ un alc&apos;hwez-tremen d&apos;ho kont</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>Ouzhpennit un alc&apos;hwez-tremen evit kenderc&apos;hel. Goude e kevreot gantañ e-lec&apos;h gant ur ger-tremen hepken.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>Kevreañ gant un alc&apos;hwez-tremen a zo buanoc&apos;h ha suroc&apos;h eget gant ur ger-tremen. Ouzhpennit unan bremañ, pe kendalc&apos;hit hep unan.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>Ket bremañ</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>Dizober an alc&apos;hwez-tremen &quot;%name&quot;?</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>Ne c&apos;hallo ket kevreañ ouzh ar gont-mañ ken. Ma oa an hini diwezhañ, e kevre ar perc&apos;henn gant ar ger-tremen, pe e lakait unan nevez.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>Dizober an alc&apos;hwez-tremen</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>Dizober</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>N&apos;eus alc&apos;hwez-tremen ebet gant ar gont-mañ.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>Kadarnaer</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Dianav</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>Hoc&apos;h alc&apos;hwez-tremen diwezhañ: ouzhpennit unan all a-raok e lemel kuit.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>Ar gont-mañ a gevre gant alc&apos;hwezioù-tremen hepken (reolenn an alc&apos;hwezioù-tremen): pa ne chom hini ebet, e kevre en-dro gant he ger-tremen.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>Hoc&apos;h alc&apos;hwez-tremen diwezhañ eo hag ho kont ne c&apos;hall ket kevreañ hep unan. Ouzhpennit un alc&apos;hwez-tremen all da gentañ.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>Dizobereet eo an alc&apos;hwez-tremen &quot;%name&quot;. Ne c&apos;hall ket kevreañ ouzh ar gont-mañ ken.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77144,6 +78391,34 @@ Ret e vo deoc'h kemmañ klasad ar skoulm gant an arc'hwel eskemm.</translation>
         <source>Code from your authenticator app</source>
         <translation>Kod eus ho arload kadarnaat</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>Emaoc&apos;h o vont da zilemel roadennoù da viken pe da c&apos;houllonderiñ ur marilh.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>Ho ker-tremen hag un alc&apos;hwez-tremen</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>Ho ker-tremen hag ur c&apos;hod eus ho arload kadarnaat</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>Pe:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>N&apos;hall ket ar merdeer-mañ implijout alc&apos;hwezioù-tremen. Implijit un doare all, pe ur merdeer all.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>Pa genderc&apos;hot, e c&apos;houlenno ho merdeer unan eus hoc&apos;h alc&apos;hwezioù-tremen.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>Kenderc&apos;hel gant un alc&apos;hwez-tremen</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77234,6 +78509,70 @@ Ret e vo deoc'h kemmañ klasad ar skoulm gant an arc'hwel eskemm.</translation>
     <message>
         <source>Setup</source>
         <translation>Kefluniañ</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>Kemmañ ho ker-tremen, ho chomlec&apos;h postel, hoc&apos;h alc&apos;hwezioù-tremen, ho kevreadur e daou gam, ho kodoù adtapout pe hoc&apos;h alc&apos;hwezioù API, ha digevreañ ho trepasoù all.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>Krouiñ ha kemmañ implijerien, o gerioù-tremen hag o zrepasoù, arventennoù ar c&apos;hontoù, aprouiñ pe nac&apos;hañ kontoù implijer nevez, lakaat rolloù ha kemmañ reolennoù.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>Dilemel roadennoù</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>Goullonderiñ ar voubellenn, lemel kuit elfennoù diouti ha lemel kuit meur a elfenn war un dro.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>Lemel kuit, embann hag enrollañ endalc&apos;had</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>Lemel kuit endalc&apos;had (er voubellenn ivez), embann hag enrollañ ur brouilhed, goulennet pa vez kaset ar furmskrid. Diweredekaet dre ziouer.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>A-raok un ober kizidik e kadarna un implijer kevreet adarre piv eo: gant e c&apos;her-tremen hag un alc&apos;hwez-tremen, pe hep alc&apos;hwez-tremen gant e c&apos;her-tremen ha kod e arload kadarnaat. Ar pajennoù web hepken a c&apos;houlenn: ar c&apos;hehentiñ REST, SOAP, WebDAV, ar c&apos;hevreadur expservices hag al linenn-urzhioù na c&apos;houlennont morse.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>Pelec&apos;h e talvez an arventennoù</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>Arventennoù evit</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Pep haeziñ al lec&apos;hienn</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>Haeziñ al lec&apos;hienn %name</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Digeriñ</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>Piv a vez goulennet: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>Askit strolladoù implijerien evit goulenn ouzh o izili hepken (an embannerien, da skouer). Netra asket: pep implijer.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>Enrollet e settings/override/site.ini.append.php, evit pep haeziñ al lec&apos;hienn. Enrollañ a c&apos;houlenn ouzhoc&apos;h kadarnaat e oc&apos;h c&apos;hwi.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>Enrollet e settings/siteaccess/%name/site.ini.append.php. Un dalvoudenn e settings/override a dremen a-raok. Enrollañ a c&apos;houlenn ouzhoc&apos;h kadarnaat e oc&apos;h c&apos;hwi.</translation>
     </message>
 </context>
 <context>
@@ -77336,6 +78675,6822 @@ Ret e vo deoc'h kemmañ klasad ar skoulm gant an arc'hwel eskemm.</translation>
     <message>
         <source>Open the page</source>
         <translation>Digeriñ ar bajenn</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from da %to diwar %count</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>Un anv kevreañ pe un ID implijer: ar gont a sell an darvoud outi pe an implijer en deus graet an obererezh.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Kont</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Obererezh</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>Goude</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>Forzh peseurt disoc&apos;h</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>A-raok</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Gant</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Goullonderiñ</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Graet</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>Miret e vez an darvoudoù e-pad %days devezh.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>Miret e vez an darvoudoù betek ma vint lamet gant an dorn.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Darvoudoù</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>Forzh peseurt obererezh</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>An holl zarvoudoù evit ar gont-mañ</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>Ezporzhiañ ar roll e CSV (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>C&apos;hwitet</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Eus</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>Strishaat ar roll</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>Darvoud ebet ne glot.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Dre bajenn</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>Diweredekaet eo an enrollañ e audit.ini ([UserAuditSettings] UserAudit); diskouez a ra ar roll ar pezh a oa bet enrollet a-raok.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Nac&apos;het</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Disoc&apos;h</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Diskouez</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>Mankout a ra taolenn marilh aodit an implijerien. Krouit anezhi gant php update/common/scripts/6.0/createuseraudittable.php; betek neuze e vir ar restroù aodit an holl zarvoudoù.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>Ezhomm en deus ar bajenn-mañ eus un diaz roadennoù SQL; n&apos;emañ ket hegerz gant MongoDB. Mirout a ra ar restroù aodit an holl zarvoudoù.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Da</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Marilh aodit an implijerien</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Implijer</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Pegoulz</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Pelec&apos;h</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>Piv en deus kemmet, krouet, gweredekaet, diweredekaet, dilec&apos;hiet pe lamet peseurt kont, piv en deus kevreet pe a zo bet nac&apos;het ha peseurt rolloù a zo bet roet: ul linenn dre zarvoud, gant ar maeziennoù a-raok ha goude. Biskoazh ne vez enrollet ar gerioù-tremen hag ar sekredoù.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>strollad</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>reizhiad</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>dianav</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>Surentezañ ho kont</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>Implijet eo bet ur c&apos;hod adtapout evit kevreañ d&apos;ho kont %login war %site.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>Implijet eo bet ur c&apos;hod adtapout</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Kont</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>Chomlec&apos;h war-dro</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>Goulennit ur ger-tremen nevez evit kevreañ en-dro, pe kit e darempred gant merourien al lec&apos;hienn.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>Goulenn ur ger-tremen nevez</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>Pep kod adtapout a ya en-dro ur wech. Ma hoc&apos;h eus kollet ho pellgomz, kefluniit en-dro hoc&apos;h arload kadarnaat ha mirit ar c&apos;hodoù adtapout nevez en ul lec&apos;h sur.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>Taolioù-esae kevreañ c&apos;hwitet war ho kont</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>A-benn bremañ e vo goulennet ur c&apos;hod ouzhpenn ho ker-tremen evit kevreañ. Ma&apos;z eo c&apos;hwi hoc&apos;h eus graet an dra-se, n&apos;eus netra d&apos;ober.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>Ma oa c&apos;hwi ha ma hoc&apos;h eus ankouaet ho ker-tremen, goulennit unan nevez. Ma ne oa ket, dibabit ur ger-tremen kreñvoc&apos;h ha gweredekait ar gevreadenn e daou gam.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>Ma ne oa ket c&apos;hwi, marteze e oar unan bennak ho ker-tremen: kemmit anezhañ bremañ ha gwiriit e pelec&apos;h eo kevreet ho kont.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>Kodoù adtapout a chom</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>Adwelout hoc&apos;h ardivinkoù</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>Kemenn surentez</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>Unan bennak en deus klasket kevreañ d&apos;ho kont %login war %site gant ur ger-tremen fall meur a wech diouzhtu (niver: %count).</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>Un darvoud surentez a zo bet war ho kont %login war %site.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>Ur c&apos;hemenn surentez diwar-benn ho kont eo hemañ. Kaset e vez evit pep kemm a seurt-se ha n&apos;hall ket bezañ diweredekaet.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Eur</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>Diweredekaet eo bet ar gevreadenn e daou gam evit ho kont %login war %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>Diweredekaet eo bet ar gevreadenn e daou gam</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>Gweredekaet eo bet ar gevreadenn e daou gam evit ho kont %login war %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>Gweredekaet eo bet ar gevreadenn e daou gam</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>Prennet eo bet ho kont %login war %site goude re a gevreadennoù c&apos;hwitet.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>Gwarezet eo ho kont gant ho ker-tremen hepken bremañ. Ma n&apos;eo ket c&apos;hwi hoc&apos;h eus graet an dra-se, gweredekait en-dro ar gevreadenn e daou gam goude bezañ kemmet ho ker-tremen.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>Prennet eo bet ho kont</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>Ouzhpennet eo bet un alc&apos;hwez-tremen d&apos;ho kont %login war %site.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>Piv bennak en deus an alc&apos;hwez-tremen-mañ a c&apos;hall kevreañ d&apos;ho kont hep ho ker-tremen. Ma n&apos;hoc&apos;h eus ket ouzhpennet anezhañ, lamit anezhañ e Alc&apos;hwezioù tremen ha cheñchit ho ker-tremen.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>Lamet eo bet un alc&apos;hwez-tremen diwar ho kont %login war %site.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>Ne c&apos;hall ket kevreañ d&apos;ho kont ken. Ma n&apos;hoc&apos;h eus ket lamet anezhañ, gwiriit hoc&apos;h alc&apos;hwezioù-tremen hag ho trepasoù.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>Ouzhpennet eo bet un alc&apos;hwez-tremen d&apos;ho kont</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>Lamet eo bet un alc&apos;hwez-tremen diwar ho kont</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>Obererezh surentez</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Obererezh surentez an implijer %name</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Kevreet</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Taol-esae kevreañ c&apos;hwitet</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Digevreet</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Dalc&apos;hioù digevreet</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Kevreadenn eus un trepas nevez</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Kevreadenn eus ul lec&apos;hiadur nevez</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Identelezh kadarnaet (&quot;Gwiriit ez eo c&apos;hwi&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>C&apos;hwitet eo gwiriadur an identelezh</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Kevreet gant un alc&apos;hwez-tremen</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>C&apos;hwitet eo ar gevreadenn gant an alc&apos;hwez-tremen</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Kevreadenn nac&apos;het: kod an daou gam a vank pe fall eo</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Kod an daou gam fall</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Kont prennet goude kevreadennoù c&apos;hwitet</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Kont dibrennet</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Ger-tremen kemmet</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>C&apos;hwitet eo kemmañ ar ger-tremen</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Ger-tremen adderaouekaet</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Ger-tremen nevez goulennet</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Chomlec&apos;h postel kemmet</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Anv implijer kemmet</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Kevreadenn e daou gam gweredekaet</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Kevreadenn e daou gam diweredekaet</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Kod adtapout implijet</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Kodoù adtapout nevez</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Ger-tremen arload krouet</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Ger-tremen arload torret</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Alc&apos;hwez-tremen ouzhpennet</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Alc&apos;hwez-tremen lamet</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Kont gweredekaet</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Kont diweredekaet</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>An holl</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Kevreadennoù ha dalc&apos;hioù</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Kemmoù er gont</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Ezhomm evezh</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>ganeoc&apos;h</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>gant an implijer</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>gant %login</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>Hentenn</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>Merdeer</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>Reizhiad korvoiñ</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Trepas</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>Lec&apos;h</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>Bro</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Dalc&apos;hioù</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>Peseurt re</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>Kanol</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Taolioù-esae c&apos;hwitet</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>Kodoù a chom</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>Dornier kevreañ</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Obererezh surentez</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Obererezh surentez an implijer %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Kevreadennoù ha kemmoù e surentez ho kont. Ma welit un dra n&apos;hoc&apos;h eus ket graet, kemmit ho ker-tremen ha digevreit an trepasoù n&apos;anavezit ket.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>Kevreadennoù ha kemmoù e surentez ar gont-mañ.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Hoc&apos;h ardivinkoù</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Kemmañ ar ger-tremen</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>Distreiñ d&apos;ar gont</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>N&apos;eo ket enrollet an obererezh surentez</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>Lennet e vez eus marilh aodit an implijerien, hag e daolenn expuser_audit a vank pe n&apos;eo ket skoret gant an diaz roadennoù-mañ. Lañsit php update/common/scripts/6.0/createuseraudittable.php, pe hizivadur diaz roadennoù ar stumm 6.0.15.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>An devezhioù diwezhañ: %days</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Kevreadennoù en devezhioù diwezhañ (%days)</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>Obererezh surentez nevez</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Diskouez</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>c&apos;hwitet</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>nac&apos;het</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>N&apos;eus bet enrollet obererezh surentez ebet c&apos;hoazh.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>Miret e vez an darvoudoù surentez e-pad un niver a zevezhioù: %days.</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>Miret e vez an darvoudoù surentez betek ma vint lamet gant ur merour.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Pellgargañ ma roadennoù kevreañ</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Ho talc&apos;hioù hag hoc&apos;h darvoudoù surentez evel ur restr JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>N'eo ket enrollet an dalc'hioù war al lec'hienn-mañ, setu n'eus ket bet gallet digevreañ ardivink all ebet. Kemmit ho ker-tremen bremañ.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count dalc'h all a zo bet digevreet. Kemmit ho ker-tremen bremañ.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>N'edo ardivink all ebet kevreet. Kemmit ho ker-tremen bremañ.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Trugarez. Merket eo bet an darvoud evel hini deoc'h.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>N'eus ket ezhomm da respont d'an darvoud-se.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Diamzeret e oa ar bajenn. N'eus bet kemmet netra; klaskit en-dro.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Surentezañ ho kont</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Ma n'eo ket bet graet un dra bennak amañ ganeoc'h, digevreit an holl ardivinkoù all, ha dibabit ur ger-tremen nevez goude. An ardivinkoù a chome kevreet gant «Derc'hel soñj ac'hanon» a vez digevreet ivez.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Pep ardivink nemet hemañ a vez digevreet en e goulenn da-heul. Goude e tibabit ur ger-tremen nevez.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Ya, digevreañ an ardivinkoù all</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>C'hwi an hini e oa?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Ya, me an hini e oa</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Ket, surentezañ ma c'hont</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Kevreet</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Taol-esae kevreañ c&apos;hwitet</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Digevreet</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Dalc&apos;hioù digevreet</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Kevreadenn eus un trepas nevez</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Kevreadenn eus ul lec&apos;hiadur nevez</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Identelezh kadarnaet (&quot;Gwiriit ez eo c&apos;hwi&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>C&apos;hwitet eo gwiriadur an identelezh</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Kevreet gant un alc&apos;hwez-tremen</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>C&apos;hwitet eo ar gevreadenn gant an alc&apos;hwez-tremen</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Kevreadenn nac&apos;het: kod an daou gam a vank pe fall eo</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Kod an daou gam fall</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Kont prennet goude kevreadennoù c&apos;hwitet</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Kont dibrennet</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Ger-tremen kemmet</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>C&apos;hwitet eo kemmañ ar ger-tremen</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Ger-tremen adderaouekaet</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Ger-tremen nevez goulennet</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Chomlec&apos;h postel kemmet</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Anv implijer kemmet</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Kevreadenn e daou gam gweredekaet</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Kevreadenn e daou gam diweredekaet</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Kod adtapout implijet</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Kodoù adtapout nevez</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Ger-tremen arload krouet</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Ger-tremen arload torret</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Alc&apos;hwez-tremen ouzhpennet</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Alc&apos;hwez-tremen lamet</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Kont gweredekaet</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Kont diweredekaet</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>An holl</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Kevreadennoù ha dalc&apos;hioù</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Kemmoù er gont</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Ezhomm evezh</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Obererezh surentez</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Obererezh surentez an implijer %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Kevreadennoù ha kemmoù e surentez ho kont. Ma welit un dra n&apos;hoc&apos;h eus ket graet, kemmit ho ker-tremen ha digevreit an trepasoù n&apos;anavezit ket.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Hoc&apos;h ardivinkoù</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Kemmañ ar ger-tremen</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>N&apos;eo ket enrollet an obererezh surentez war al lec&apos;hienn-mañ c&apos;hoazh.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Kevreadennoù en devezhioù diwezhañ (%days)</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Taolioù-esae c&apos;hwitet</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>N&apos;eus bet enrollet obererezh surentez ebet c&apos;hoazh.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Pellgargañ ma roadennoù kevreañ</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Ho talc&apos;hioù hag hoc&apos;h darvoudoù surentez evel ur restr JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>N'eo ket enrollet an dalc'hioù war al lec'hienn-mañ, setu n'eus ket bet gallet digevreañ ardivink all ebet. Kemmit ho ker-tremen bremañ.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count dalc'h all a zo bet digevreet. Kemmit ho ker-tremen bremañ.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>N'edo ardivink all ebet kevreet. Kemmit ho ker-tremen bremañ.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Trugarez. Merket eo bet an darvoud evel hini deoc'h.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>N'eus ket ezhomm da respont d'an darvoud-se.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Diamzeret e oa ar bajenn. N'eus bet kemmet netra; klaskit en-dro.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Surentezañ ho kont</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Ma n'eo ket bet graet un dra bennak amañ ganeoc'h, digevreit an holl ardivinkoù all, ha dibabit ur ger-tremen nevez goude. An ardivinkoù a chome kevreet gant «Derc'hel soñj ac'hanon» a vez digevreet ivez.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Pep ardivink nemet hemañ a vez digevreet en e goulenn da-heul. Goude e tibabit ur ger-tremen nevez.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Ya, digevreañ an ardivinkoù all</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>C'hwi an hini e oa?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Ya, me an hini e oa</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Ket, surentezañ ma c'hont</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>Ger-tremen</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>Ger-tremen ha kod an daou gam</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>Etrefas REST</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>Etrefas SOAP</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>Kevreañ unan</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>Kevreet a-raok ma vije enrollet an dalc&apos;hioù</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Danevell ar c&apos;hevreadennoù</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>Piv a zo kevreet d&apos;al lec&apos;hienn, pegen alies e kevre ar c&apos;hontoù hag e c&apos;hwitont, ha digevreañ un implijer e pep lec&apos;h. Mont a ra en-dro gant pep dornier dalc&apos;hoù.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>Digevreet eo bet an dalc&apos;h. Ret eo d&apos;an trepas kevreañ en-dro.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>Digevreet eo bet %login eus dalc&apos;hioù (niver: %count).</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>N&apos;en doa %login dalc&apos;h ebet o vont en-dro.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>Kont ebet n&apos;he deus an ID, an anv implijer pe ar chomlec&apos;h postel-se.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>Hemañ eo an dalc&apos;h emaoc&apos;h oc&apos;h implijout. Evit echuiñ anezhañ, digevreit.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>Echu e oa an dalc&apos;h-se dija.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Diamzeret e oa ar bajenn. N&apos;eus bet kemmet netra; klaskit en-dro.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>N&apos;eo ket enrollet an dalc&apos;hioù war al lec&apos;hienn-mañ (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>An daolenn expuser_session a vank</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>Enrollet e vez an dalc&apos;hioù kerkent ha ma vez krouet anezhi: php update/common/scripts/6.0/createusersessiontable.php, pe hizivadur diaz roadennoù ar stumm 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>Bremañ hag hiziv</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>Dalc&apos;hioù o vont en-dro</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>Implijerien kevreet</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>Kevreadennoù hiziv</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>Taolioù-esae c&apos;hwitet hiziv</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>Digevreañ un implijer e pep lec&apos;h</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>Pep dalc&apos;h eus ar gont a echu d&apos;he goulenn da zont, ar re viret gant &quot;Derc&apos;hel soñj ac&apos;hanon&quot; ivez. Implijit an dra-se pa c&apos;hallfe ur gont bezañ en daouarn fall; goude-se adderaouekait he ger-tremen.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>ID an implijer, anv implijer pe chomlec&apos;h postel</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>Digevreañ e pep lec&apos;h</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>Kevreet bremañ</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>Diskouezet eo ar re implijet nevesañ, betek %limit.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Implijer</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Trepas</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Chomlec&apos;h</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>Kevreet</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>Oberiant da ziwezhañ</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Obererezhioù</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>An trepas-mañ</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Ket enrollet</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>Digevreañ</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>Dalc&apos;h kevreet ebet.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>An devezhioù diwezhañ: %days</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>Kevreadennoù ha taolioù-esae c&apos;hwitet a vez kontet diwar marilh aodit an implijerien, ha n&apos;emañ ket eno; an dalc&apos;hioù nevez a vez kontet.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>Devezh</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>Kevreadennoù</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Taolioù-esae c&apos;hwitet</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>Dalc&apos;hioù nevez</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>Dornier dalc&apos;hoù: %handler. Lennet e vez an dalc&apos;hioù eus an daolenn expuser_session, setu ez a en-dro an danevell gant pep dornier.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>Obererezh arvarus e-pad an %hours eurvezh diwezhañ</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>Ur rouedad n'he deus ket gallet kevreañ ouzh %accounts kont (%count taol-esae)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Kont prennet goude kevreadennoù c'hwitet</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>%count kevreadenn c'hwitet war ur gont</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>Kevreet eus %count bro war un dro</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Obererezh surentez</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Dalc'hioù</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>Lennet e vez ar c'hevreadennoù c'hwitet e marilh evezhiañ an implijerien, ha n'eo ket hegerz amañ.</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>Netra arvarus: kont ebet gant kevreadennoù c'hwitet a-repetadoù, rouedad ebet o klask meur a gont, kont ebet kevreet eus meur a vro.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>Kemenn surentez diwar-benn ho kont</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>Un darvoud surentez a zo bet war ho kont %login: %event. Ma ne oa ket c&apos;hwi, surentezit ho kont war %url.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Kefluniañ</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>Goulennit digant danvez al lec'hienn-mañ ar maeziennoù rik a zo ezhomm d'ur bajenn, en ur goulenn hepken. Ar chema a heuilh ar c'hlasoù danvez; pep goulenn a vez lañset gant gwirioù an implijer a gas anezhañ.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>Diweredekaet eo an API GraphQL en haeziñ al lec'hienn-mañ. Gweredekait anezhañ e graphql.ini: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>N'eo ket staliet al levraoueg GraphQL (webonyx/graphql-php 15).</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>Poent-termen</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>Levraoueg</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>Chema</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>%count klas danvez, chema %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>Goulenn</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>Argemmennoù (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Lañsañ</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>Respont</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>O lañsañ…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>N'eus ket bet gallet lenn ar respont.</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>Lañset e vez ar goulenn gant ho kwirioù, kevreet gant an dalc'h-mañ.</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%count e %seconds s</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>bevenn ebet</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>Donder</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>Kemplezhded</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>Elfennoù dre roll</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (dre ziouer %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>Rekedoù dre implijer pe alc'hwez</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>Rekedoù dre chomlec'h dizanv</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>Emsell</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>Rekedoù enrollet hepken</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>Reked brasañ</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>%bytes okted</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>Pellgargadenn vrasañ</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>N'eus haeziñ lec'hienn %siteaccess ebet.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>Gweredekaet eo ar c'hemmadurioù e %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>Diweredekaet eo ar c'hemmadurioù e %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>Gweredekaet eo an API GraphQL e %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>Diweredekaet eo an API GraphQL e %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>N'eus ket bet gallet skrivañ an arventennoù: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>Goullonderet eo bet krubuilh ar respontoù: %count respont dilamet.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>Askit ar voest e-kichen ar reked evit he dilemel.</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>N'eus ket bet gallet dilemel ar reked: ur reked pourchaset en ur c'havlec'h eus PersistedQueryDirectoryList[] a vez dilamet gant he restr.</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>Dilamet eo bet ar reked enrollet.</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>Kemmadurioù</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>war enaou</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>lazhet</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Haeziñ lec'hienn</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>E-lec'h ma respont an API hag he c'hemmadurioù. Skrivañ a ra an afelloù graphql.ini, evel ma ra ./console exp:graphql:enable hag exp:graphql:disable.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Haeziñ lec'hienn</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>API GraphQL</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Kemmañ</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Diweredekaat</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>Diweredekaat ar c'hemmadurioù</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>Gweredekaat ar c'hemmadurioù</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Gweredekaat</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>Bevennoù</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>graphql.ini [GraphQLSettings] an haeziñ lec'hienn-mañ.</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>Krubuilh ar respontoù</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>Respontoù ar rekedoù enrollet, miret hervez gwirioù an implijer ha diamzeret bep tro ma vez embannet danvez.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Stad</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>Respontoù miret</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>%count respont, %bytes okted</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>Miret d'ar muiañ</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds s</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>Diamzeret da ziwezhañ</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>Goullonderiñ krubuilh ar respontoù</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>Rekedoù enrollet</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>Enrollet gant ./console exp:graphql:persist, pe gant ar c'hliantoù (rekedoù enrollet emgefreek); galvet dre anv pe SHA-256.</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>Anvioù</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Ment</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Pelec'h</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Dilemel</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>pourchaset</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>enrollet</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>Ya, dilemel ar reked-mañ</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>Reked enrollet ebet c'hoazh.</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>Alc'hwezioù API</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>Alc'hwezioù API personel gant an dachenn graphql:read (rekedoù) pe graphql:write (kemmadurioù). Krouit ha nullit anezho war ar bajenn Haeziñ an API, pe gant ./console exp:graphql:keys.</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>Haeziñ an API</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>An holl alc'hwezioù</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>Alc'hwez</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Anv</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Perc'henn</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>Tachennoù</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>Implijet da ziwezhañ</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>oberiant</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>aet da benn</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>nullet</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>morse</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>Alc'hwez API ebet gant un dachenn GraphQL c'hoazh.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>Diweredekaet eo an API GraphQL en haeziñ lec'hienn %siteaccess, a ziskouez ar bajenn-mañ; an daolenn a-is a ziskouez e-lec'h ma respont.</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>Evit an haeziñ lec'hienn %siteaccess, a ziskouez ar bajenn-mañ.</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>Webhooks</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>Pep darvoud a c'houlenn ur poent-termen (publish, update, trash, delete, move, hide, reveal, mutation) a vez kaset dezhañ, sinet, gant al lodenn cronjob graphqlwebhooks. ./console exp:graphql:webhooks a ra ar memes tra hag ar rann-mañ.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Darvoudoù</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>an holl</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Pep haeziñ lec'hienn</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>torret</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>sekred ebet</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>O c'hortoz</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count dilezet</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>Kasadenn ziwezhañ</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Kas un amprouadenn</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>Ya, dilemel ar webhook-mañ</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>Webhook ebet c'hoazh.</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>Ouzhpennañ ur webhook</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>Ouzhpennañ</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>Kasadennoù nevez</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Eur</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Disoc'h</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>Koumanantoù</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>Hizivadurioù war-eeun evit ar c'hliantoù: ul lanv darvoudoù war /api/graphql/subscribe, hag ur WebSocket (graphql-transport-ws) war Velocity. Pep darvoud a ya hepken d'ar goumananterien a c'hall lenn e zanvez.</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>Digor bremañ</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>Niver brasañ digor</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>%total en holl, %user dre implijer, %address dre chomlec'h</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>Koumanantoù dizanv</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>Padelezh al lanv</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>N'eus ket bet gallet ouzhpennañ ar webhook: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>Kemmet eo bet ar webhook %name; chom a ra e sekred sinañ.</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>N'eus ket bet gallet enrollañ ar sekred sinañ (Kefluniañ &gt; Sekredoù).</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>Ouzhpennet eo bet ar webhook %name. E sekred sinañ, diskouezet ar wech-mañ hepken: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>N'eus webhook %name ebet.</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>N'en deus ket respontet ar webhook %name: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>Respontet en deus ar webhook %name %status e %ms ms.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>Askit ar voest e-kichen ar webhook evit e zilemel.</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>Dilamet eo bet ar webhook %name.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>Diweredekaet eo an API GraphQL en haeziñ al lec&apos;hienn-mañ.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>N&apos;eo ket staliet al levraoueg GraphQL.</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>Implijit GET pe POST.</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>N&apos;eo ket korf ar goulenn un ergorenn JSON.</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>N&apos;eo ket variables un ergorenn JSON.</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>N&apos;eo ket extensions un ergorenn JSON.</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>Kasit ar reked gant POST.</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>N&apos;eus reked ebet er goulenn.</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>Hiroc&apos;h eo ar reked eget %max okted.</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>Fazi diabarzh ar servijer</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node en deus ezhomm eus unan hepken eus id, remoteId, path ha urlAlias.</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content en deus ezhomm eus unan hepken eus id ha remoteId.</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>N&apos;eo ket bet roet reti after gant an API-mañ.</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>N&apos;eus alias skeudenn %alias ebet (image.ini [AliasSettings] AliasList[]).</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>Rekedoù enrollet war ar servijer hepken a vez degemeret amañ: kasit id ur reked enrollet.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>N&apos;eo ket hash ar reked enrollet un SHA-256.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>Ne glot ket hash ar reked enrollet gant ar reked.</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>Re a c&apos;houlennoù: %limit d&apos;ar muiañ e %window eilenn. Klaskit en-dro a-benn %reset eilenn.</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>Donder ar reked a zo %depth live; %max d&apos;ar muiañ a zo aotreet.</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>Kemplezhded ar reked a zo %complexity; %max d&apos;ar muiañ a zo aotreet.</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>N&apos;hall ket ar goulenn-mañ lenn ar chema (introspection).</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search en deus ezhomm eus un destenn pe ur sil (classes, subtree, sections, publishedAfter, publishedBefore).</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>N&apos;eo ket %argument un deiziad (ISO 8601, 2026-10-30).</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag en deus ezhomm eus unan hepken eus id, remoteId ha path.</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout en deus ezhomm eus unan hepken eus id, identifier ha urlAlias.</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>N'eo ket ar vaezienn operations eus ur goulenn multipart ur reked JSON hepken.</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>N'eo ket ar vaezienn map eus ur goulenn multipart un ergorenn JSON.</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>N'eus restr %field ebet er goulenn multipart.</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>Un hent eus ar vaezienn map a rank kregiñ gant variables.: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>N'eo ket erruet ar restr %name a-bezh (fazi pellgargañ %error).</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>Brasoc'h eo ar restr %name eget %max okted.</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>N'eus ket bet gallet gwiriañ ar restr %name.</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>Diweredekaet eo ar c'hemmadurioù en haeziñ al lec'hienn-mañ (graphql.ini [GraphQLSettings] MutationsEnabled).</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>Kasit ur c'hemmadur gant POST.</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>Kevreit evit kemmañ an danvez.</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>N'en deus ket an alc'hwez API an dachenn %scope.</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>Ur c'hemmadur gant un dalc'h en deus ezhomm eus jedouer furmskrid an dalc'h (talbenn X-CSRF-Token).</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>Diweredekaet eo uploadFromUrl: ne envel graphql.ini [GraphQLSettings] UploadFromUrlHostList[] ostiz ebet.</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>Ret eo d'ar chomlec'h bezañ ur chomlec'h https.</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>N'emañ ket an ostiz %host e graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>N'eus ket bet gallet kerc'hat ar restr.</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload n'eo nemet ur rizh enankañ.</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>Un argemmenn a rizh Upload a gemer ur restr eus ur goulenn multipart.</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>Kemeret eo dija an id a-bell %remoteId.</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>Un droidigezh e %language en deus dija an danvez: implijit updateContent.</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>Roit ur vaezienn d'an nebeutañ.</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>N'eus ket bet gallet ober ur stumm nevez (re a brouennoù en deus an danvez).</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>N'eo ket ar stumm %version ur brouenn.</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent en deus ezhomm eus unan hepken eus id ha nodeId.</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>N'hall ket ul lec'hiadur bezañ dilec'hiet dindan e-unan.</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>Ul lec'hiadur dindan %parentId en deus dija an danvez.</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>N'eus ket bet gallet enrollañ talvoud ar vaezienn %field.</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>N'eus yezh danvez %language ebet.</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>N'eus klas danvez %class ebet er chema.</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>N'emañ ket an danvez amañ, pe n'hoc'h eus ket an aotre d'e lenn.</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>N'hoc'h eus ket an aotre d'ober an dra-se gant an danvez-mañ.</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>N'en deus ket ar c'hlas %class maezienn %field ebet a c'haller skrivañ.</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>Roet eo bet ar vaezienn %field div wech.</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>Ur restr a gemer ar vaezienn %field: kasit anezhi evel upload (ur goulenn multipart).</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>Ne gemer restr ebet ar vaezienn %field.</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>Ezhomm en deus ar vaezienn %field eus un talvoud.</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>Evit ar maeziennoù testenn binvidik hepken eo ar furmad %format; %field a gemer e dalvoud evel m'emañ (RAW).</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>Ret eo ar vaezienn %field.</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>N'eus ket bet gallet lenn an HTML.</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content ne gemer version nemet gant id.</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>N'eo ket reizh jedouer ar rakwel pe aet eo da benn.</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>N'eo ket un orin (https://host pe https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>N'eo ket un dachenn eus an API GraphQL: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>Kasit ar c'houmanantoù da /api/graphql/subscribe (ul lanv darvoudoù pe ur WebSocket).</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>N'envel ar reked oberiadenn ebet eus an teul.</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>Ur c'houmanant a c'houlenn ur vaezienn hepken.</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>Re a goumanantoù a zo digor; klaskit en-dro diwezhatoc'h.</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>%max koumanant digor hoc'h eus, an niver brasañ aotreet.</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>%max koumanant digor en deus ho chomlec'h, an niver brasañ aotreet.</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>Diweredekaet eo ar c'houmanantoù en haeziñ al lec'hienn-mañ.</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>Kevreit evit koumanantiñ (ur jedouer pe un alc'hwez API personel).</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>Kasit ar c'hemmadurioù da /api/graphql.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>Divroadennoù</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>N&apos;eus ket bet gallet lenn ar statud: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>N&apos;eus ket c&apos;hoazh eus taolennoù an divroadennoù: ./console exp:upgrade --apply a grou anezho.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>%count divroadenn c&apos;hwitet</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>Ul lañsadenn a zo war ober, lañset gant %user</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>Prennet eo ar staliadur: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>O c&apos;hortoz</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>C&apos;hwitet</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>Emzivaded</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Lañsadenn ziwezhañ</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>hini ebet c&apos;hoazh</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>An holl zivroadennoù</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>Lañsadenn simulet</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>Amprouadenn</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>An divroadennoù o c&apos;hortoz a zo bet lañset en un treuzgread nullet goude: netra n&apos;eo bet miret. Dindan emañ ar pezh he deus kemmet pep hini en diaz roadennoù.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>Ar pezh a rafe ul lañsadenn bremañ. Netra n&apos;eo kemmet: pep divroadenn o c&apos;hortoz a ro roll ar c&apos;hemmoù a rafe, hag al lañsadenn ar pezh a rafe a-raok ha goude.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>Simulañ</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Lañsañ</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>C&apos;hwitet eo an amprouadenn: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>Ur simuladenn he deus ezhomm eus PostgreSQL pe SQLite, a c&apos;haller nullañ kemmoù o brastres; war an diaz roadennoù-mañ e tiskouez ar steuñv dindan ar pezh a rafe ul lañsadenn.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>An divroadennoù</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>Divroadenn</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Stad</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>Ar pezh a rafe</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>Simuladenn: %result e %ms ms</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>Divroadenn ebet c&apos;hoazh.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>A-raok ha goude al lañsadenn</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>Tapadenn a-raok</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>tapet, hag adsavet pa c&apos;hwit un divroadenn</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>lazhet</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>Tapadenn goude</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>tapet pa ziskouez al lañsadenn bezañ deuet a-benn</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>%total divroadenn: %pending o c&apos;hortoz, %done graet, %failed c&apos;hwitet.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>Istor an divroadennoù</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>Pep lañsadenn gant he implijer, he endro, he zapadennoù hag ar pezh a zo bet kaset (commit), merket (tag) ha bountet (push). Ul lañsadenn c&apos;hwitet pe troc&apos;het a c&apos;haller kenderc&apos;hel; ul lañsadenn gant un dapadenn tapet a-raok a c&apos;haller distreiñ.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>N&apos;eus ket bet gallet lenn al lañsadennoù: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>N&apos;eus ket c&apos;hoazh eus taolennoù an divroadennoù: ./console exp:upgrade --apply a grou anezho.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Diskouez</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>An holl</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>Lañsadennoù</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Kroget</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Gant</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>Tapadennoù</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Kavlec&apos;h</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Oberoù</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>a-raok</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>goude</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>bountañ: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>Kenderc&apos;hel</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Distreiñ</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>Lañsadenn ebet er stad-mañ.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>Kroget amañ</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>Lañsadennoù, kenderc&apos;hadennoù ha distroioù kroget war ar pajennoù-mañ, gant danevell pep hini.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Petra</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Disoc&apos;h</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Distro</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>Distro %target</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>Lañsadenn %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Ar pezh he deus graet al lañsadenn, he enrolladenn hag he marilh. Ul lañsadenn kroget amañ a gendalc&apos;h en drekleur pa vez serret ar bajenn-mañ; digorit ar bajenn en-dro evit he heuliañ.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>Kenderc&apos;hel al lañsadenn-mañ</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>Distreiñ al lañsadenn-mañ</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>N&apos;eus ket bet gallet lenn an enrolladenn: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Araokadur</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Kroget gant %user da %time.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>O wiriañ ar c&apos;hod hag o tapout un dapadenn a-raok al lañsadenn</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>O lañsañ %id (%index war %total)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>%done war %total graet</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>Lañset eo bet an divroadennoù; oc&apos;h adsevel an dapadenn ma c&apos;hwitas unan</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>O tapout un dapadenn goude al lañsadenn, o kas (commit), o merkañ (tag) hag o vountañ (push)</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>Oc&apos;h adsevel an dapadenn</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>Echu eo al lañsadenn. O kargañ he danevell.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>N&apos;eus ket bet gallet heuliañ an araokadur. Adkargit ar bajenn evit gwelet pelec&apos;h emañ al lañsadenn.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>Ar bajenn-mañ a heul al lañsadenn e-pad ma pad.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Adkargañ</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Danevell</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Padelezh</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms milieileiz</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>Ar pezh he deus moullet al lañsadenn evel fazioù</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Enrolladenn</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>Endro</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>hini ebet</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Echuet</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Kas (commit)</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Merk</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Bountañ</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Kemennadenn</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>Divroadennoù al lañsadenn-mañ</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>Mammenn</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>Marilh al lañsadenn</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>Dibenn ar marilh hepken a vez diskouezet.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>war ober</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>echuet hep danevell</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>deuet a-benn</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>c&apos;hwitet</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>nac&apos;het</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>n&apos;haller ket tizhout an diaz roadennoù</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>fazi diabarzh</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>Ul lañsadenn a zo war ober</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind kroget gant %user da %time.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>Heuliañ</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>Prennet eo ar staliadur</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>Ul lañsadenn all a zalc&apos;h ar prenn (un hizivadenn pe ul lañsadenn er c&apos;honsol): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>graet</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>o c&apos;hortoz</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>n&apos;eo ket ret</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>dianav</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>nullet</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>arloet</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>a vefe arloet</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>distroet</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>a vefe distroet</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>n&apos;eo ket bet lañset</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>o c&apos;hortoz unan all</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>kemm asantet</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>ar c&apos;hemm a vefe asantet</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>simulet</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Divroadennoù</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Statud</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Istor</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>Distreiñ %target</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>Ul lañsadenn a vez distroet d&apos;an dapadenn tapet a-raok, un divroadenn gant he down(). Adsevel un dapadenn gozhoc&apos;h a zo evit an arbennigourien. Pep hini a dro en drekleur en hoc&apos;h anv, goude un dapadenn eus ar stad a-vremañ.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>N&apos;eus ket bet gallet lenn ar pezh a c&apos;haller distreiñ: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>Ul lañsadenn</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>Un divroadenn</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>Un dapadenn gozhoc&apos;h</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>Deskrivadur</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ya</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ket</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Tapadenn</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Tikedenn</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>Tapet</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Seurt</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>Lodennoù da adsevel</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>An diaz roadennoù</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>Ar restroù kadavet (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>An arventennoù (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>Adsevel an diaz roadennoù a gas anezhañ en-dro da vare an dapadenn, an dalc&apos;hoù e-barzh: marteze e vo goulennet ganeoc&apos;h kevreañ en-dro goude. Kollet e vo kement tra kemmet abaoe; un dapadenn eus ar stad a-vremañ a vez tapet da gentañ.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>Gouzout a ran petra a adsav an dra-se</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>Skrivit naoudi an dapadenn en-dro</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>Ya, distreiñ</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Nullañ</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>Al lañsadennoù gant un dapadenn tapet a-raok.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>Dibab</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>Lañsadenn ebet gant un dapadenn c&apos;hoazh.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>An divroadennoù arloet a c&apos;hall en em zistreiñ (un down() o deus).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>Divroadenn arloet ebet n&apos;he deus un down().</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>Tapadennoù koshoc&apos;h (arbennigourien)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>Tapadenn ebet c&apos;hoazh.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>Lañsañ an divroadennoù</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>Al lañsadenn a dro en drekleur evel %user, hag he fajenn a ziskouez anezhi e-pad ma pad. A-raok an divroadenn gentañ e vez tapet un dapadenn eus ar staliadur; pa c&apos;hwit un divroadenn e paouez al lañsadenn hag e vez adsavet an dapadenn.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>Amprouadenn da gentañ</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>N&apos;eus ket bet gallet lenn ar statud: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>Divroadennoù o c&apos;hortoz</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>Lañset int en urzh-mañ. Diaskit unan evit he lezel, hag ar re a zo ezhomm anezhi, evit ul lañsadenn diwezhatoc&apos;h.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>Lañsañ</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>Enaou ar mod trezalc&apos;h e-pad ma tro.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>Kemmet goude bezañ bet arloet</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>N&apos;eo ket ar restroù-mañ ar re a zo bet arloet. Ul lañsadenn a nac&apos;h anezho nemet e vefe asantet ar c&apos;hemm gant un abeg; n&apos;int ket lañset en-dro, enrollet e vez ar sammad-gwiriañ nevez ha miret an abeg e marilh an aodit.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>Asantiñ ar c&apos;hemmoù</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Perak</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>An talvoudoù dre ziouer eo ar re sur. Pep boest a lez ur pazenn a-gostez.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>Tapadenn ebet</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>Tapadenn ebet a-raok ha goude al lañsadenn: ur c&apos;hwitadenn n&apos;hall ket bezañ adsavet emgefreek.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>Adsav ebet</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>Goude ur c&apos;hwitadenn, lezel ar staliadur evel m&apos;he deus he lezet ar c&apos;hwitadenn.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>Mirout ar c&apos;hemmoù n&apos;int ket bet kaset (commit)</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>Lañsañ memes ma&apos;z eus kemmoù n&apos;int ket bet kaset (commit) en arventennoù, an astennoù pe an neuzioù; mont a reont en dapadenn.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>Kas (commit) ebet</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>Na gas ket (commit) restr ar statud ha marilh al lañsadenn (na merk na bountañ ken).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>Bountañ ebet</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>Kas (commit) ha merkañ, met na vountañ ket.</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>Merk ebet</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>Kas (commit) ha bountañ, met na verkañ ket al lañsadenn.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>Ya, lañsañ an divroadennoù-mañ bremañ</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Divroadenn ebet o c&apos;hortoz.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>Distreiñ d&apos;ar statud</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>Kemmoù d&apos;ar staliadur-mañ skrivet ur wech evel restroù (endalc&apos;had, klasoù, rolloù, arventennoù, brastres) hag arloet war pep staliadur eus al lec&apos;hienn en hevelep urzh. Ul lañsadenn a dap un dapadenn da gentañ, he adsav pa c&apos;hwit un divroadenn, hag a enroll, a gas (commit) hag a vount ar pezh he deus graet.</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>Lañsañ %count o c&apos;hortoz</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Alberz hollek</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>O c&apos;hortoz</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Graet</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>C&apos;hwitet</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>N&apos;eo ket ret</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>Stlennvon</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>treuzgreadoù: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>Divroadennoù al lec&apos;hienn a zo e migrations/, re un astenn e extension/&lt;name&gt;/migrations/. Lañset int hervez urzh o anvioù hag ar pezh o deus ezhomm.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Lañsadenn ziwezhañ</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>Kemmet eo bet ar restr goude bezañ bet arloet.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>Divroadenn ebet c&apos;hoazh. ./console exp:migration:generate --skeleton &lt;name&gt; --apply a skriv an hini gentañ.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>Al lañsadennoù diwezhañ</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>An holl lañsadennoù</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>Lañsadenn ebet c&apos;hoazh.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>Evit simulañ ul lañsadenn eo ret kaout ar reolenn migration/run.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>Ul lañsadenn a zo war ober: simulit pa vo echu.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Kefluniañ</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target n&apos;eo na lañsadenn, na divroadenn, na tapadenn eus ar staliadur-mañ.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>Askit « Ya, distreiñ » da gentañ.</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>Adsevel un dapadenn gozhoc&apos;h a zo evit an arbennigourien: askit « Gouzout a ran petra a adsav an dra-se ».</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>Skrivit naoudi an dapadenn en-dro: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>Dibabit da nebeutañ ul lodenn da adsevel.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>N&apos;eus tapadenn ebet bet tapet a-raok al lañsadenn-mañ: distroit he divroadennoù unan hag unan, pe adsavit un dapadenn gozhoc&apos;h.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>An divroadenn-mañ n&apos;hall ket en em zistreiñ hec&apos;h-unan: n&apos;eo ket arloet, pe n&apos;he deus down() ebet.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>N&apos;eus ket bet gallet lenn ar furmskrid.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>Dibabit al lañsadenn da genderc&apos;hel.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>Askit « Ya, lañsañ an divroadennoù-mañ bremañ » da gentañ.</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>Dibabit da nebeutañ un divroadenn.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>Un divroadenn a zo bet kemmet goude bezañ bet arloet: asantit ar c&apos;hemm gant un abeg, pe lakait ar restr en-dro.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>Roit an abeg perak eo asantet an divroadennoù kemmet.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>500 arouezenn d&apos;ar muiañ eo an abeg.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>Ul lañsadenn kroget amañ a zo war ober c&apos;hoazh (%detail). Gortozit ma vo echu.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>Ul lañsadenn all a zalc&apos;h prenn ar staliadur: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>Al lañsadenn he deus ezhomm eus un implijer kevreet hag a zo anezhañ.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>N&apos;eus bet kavet programm php linenn-urzhiañ ebet. Lakait migration.ini [AdminSettings] PhpCliPath war e hent klok.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>Diweredekaet eo proc_open, n&apos;haller ket neuze kregiñ ul lañsadenn amañ. Lañsit ./console exp:migration:migrate --apply war ar servijer.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>N&apos;haller ket skrivañ e teuliad al lañsadennoù: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>Kroget eo bet al lañsadenn met n&apos;he deus ket roet naoudi he argerzh. Gwiriit %detail.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>Lavarit petra a zo da zistreiñ.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>N&apos;eus ket bet gallet kregiñ al lañsadenn.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>Enrollañ ar c'hemmoù</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>E-pad ma 'z a en-dro un enrolladenn, ar pezh a cheñchit er merañ pe e barrenn gostez al lec'hienn a vez miret evel pazennoù ur migradur: endalc'had, klasoù, rolloù ha politikerezhioù, rannoù, implijerien ha strolladoù, aliasoù URL, arventennoù. Paouezit ganti pa vo echu ganeoc'h, sellit ouzh ar pezh he deus paket ha krouit ur migradur diwarni.</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>N'haller ket lenn an enrolladennoù: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>N'eus ket eus taolennoù an enrolladennoù c'hoazh: lañsit an hizivadur da gentañ (exp:upgrade --apply).</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>Diweredekaet eo an enrollañ e migration.ini ([RecordingSettings] Recording=disabled).</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>Ma c'hemmoù</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>Ne enroll nemet ar pezh a cheñchit, n'eus forzh pelec'h, betek ma paouezot ganti.</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>Enrolladenn</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>abaoe %time, %count kemm betek-henn.</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>Tikedenn (diret)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>Diskouez ar pezh he deus paket</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Paouez da enrollañ</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>Kregiñ da enrollañ ma c'hemmoù</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>Prenestr evit al lec'hienn a-bezh</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>Enrollañ a ra pep kemm gant pep implijer hag ar c'honsol betek ma vo serret. Pa vez digoret e vez goulennet diganeoc'h gwiriañ ez eo c'hwi.</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Digor</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>Serriñ ar prenestr</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>Digeriñ ar prenestr evit al lec'hienn a-bezh</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>Enrolladennoù</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>Kont un implijer (anv kevreañ, postel, ger-tremen) ha maeziennoù kontoù an implijerien n'int biskoazh enrollet.</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Kemmoù</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>Al lec'hienn a-bezh</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>Kemmoù %name</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Paouezet</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>Enrolladenn ebet c'hoazh.</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>Enrolladenn %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>An holl enrolladennoù</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>Ar migradur a vefe graet diwarni</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>Ar c'hemmoù strollet en ur bazenn evit pep tra cheñchet: ar pezh a rafe ur migradur krouet diwar an enrolladenn-mañ.</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>Gallout a raio bezañ krouet ur migradur diwarni pa vo ar seurtoù pazennoù YAML %types gant ar staliadur-mañ.</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>Lezet er-maez a-ratozh: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>Netra n'eo bet enrollet.</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>Ar pezh he deus paket</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>%count kemm, en urzh ma 'z int bet graet.</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Kemm</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>Pazenn</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>A sell ouzh</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>%count all: ./console exp:migration:record:show a ro roll anezho holl.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Dilezel</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>Lemel a ra an enrolladenn hag ar pezh he deus paket. Ar pezh a zo bet cheñchet a chom cheñchet.</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>Ya, dilezel an enrolladenn-mañ</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>Oc'h enrollañ…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Enrollet e vez ho kemmoù evit ur migradur.</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>Pep kemm el lec'hienn-mañ a vez enrollet evit ur migradur (prenestr evit al lec'hienn a-bezh).</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>Kroget eo an enrolladenn evit al lec'hienn a-bezh: pep kemm gant pep implijer a vez enrollet betek ma paouezot ganti.</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>Kroget eo an enrolladenn: ho kemmoù a vez enrollet betek ma paouezot ganti.</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>Paouezet eo an enrolladenn. Ar pezh he deus paket a chom betek ma tilezot anezhi.</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>Lamet eo bet an enrolladenn hag he darvoudoù.</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>N'eus enrolladenn %id ebet.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>Askit da gentañ "Ya, dilezel an enrolladenn-mañ".</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>An implijer en deus enrollet hepken a c'hall paouez gant un enrolladenn dalc'h.</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>Dibabit an enrolladenn da baouez.</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>Un enrolladenn eus ar seurt-se a ya en-dro dija.</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>N'haller ket kemmañ an enrolladenn: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>Genel ur migradur</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>Anv ar migradur (diret)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>Skrivet eo bet ar migradur %file. Ar c'hemmoù na c'hall pazenn ebet ober a vez envelet e penn ar restr, d'ober gant an dorn.</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>N'eus bet skrivet migradur ebet: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>Ur redadenn hir e rannoù</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>Ar maesoù goullo a ziwall arventennoù migration.ini [RunSettings].</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>Da bellañ ez eus kement a fiñvadurioù</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>Fiñvadur ebet ken goude (eilennoù)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>Ehan etre ar fiñvadurioù (eilennoù)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>Dreistmerzh izeloc'h (1 da 19)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>Ur maes redadenn hir zo un niver anterin adalek 1 (an ehan: eilennoù eus 0 da 60, an dreistmerzh: 1 da 19), pe goullo.</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>Serriñ a ra e-unan da %time.</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>Serriñ e-unan goude (munutennoù, diret)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>Ar munutennoù zo un niver anterin eus 1 da 44640 (31 devezh), pe goullo.</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>Divroadenn %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>Divroadenn nevez</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>Un divroadenn YAML: skrivit anezhi evel testenn pe savit he fazennoù er furmskrid, gwiriit anezhi, ha goude-se enrollit anezhi en un teuliad divroadennoù.</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>Lañset eo bet an divroadenn-mañ dija, setu n'eo ket enrollet en-dro: ur restr kemmet a vefe nac'het gant gward ar sammad-gwiriañ. Grit ar c'hemm en un divroadenn nevez.</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>N'hall ket ar servijer web skrivañ ar restr.</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>Al linennoù evezhiadenn e penn kentañ eo an talbenn (description, author, requires, environments, engines). Pa vez ouzhpennet pe kemmet ur bazenn er furmskrid, e vez adskrivet an divroadenn: an evezhiadennoù etre ar pazennoù ne vezont ket miret.</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>Anv an divroadenn</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>Da belec'h ez a</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>Al lec'hienn</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>Testenn YAML</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>Gwiriañ</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Enrollañ</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Derez</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>Alc'hwezioù</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Kemmañ</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>Dilec'hiañ e krec'h</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>Dilec'hiañ en traoñ</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Lemel kuit</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>Pazenn ebet c'hoazh: ouzhpennit unan gant ar furmskrid, pe skrivit anezho en destenn.</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>Kemmañ ar bazenn %number</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>Ouzhpennañ ur bazenn</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>Furmskrid ur bazenn a vez savet diwar he rizh pazenn: he alc'hwezioù, ar pezh a gemer pep hini hag ar modoù ma'z eo anezho.</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>Rizh pazenn</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>Diskouez he furmskrid</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>Alc'hwezioù dianav d'he rizh he deus ar bazenn; lezet e vezont a-gostez pa vez kemmet ar bazenn: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>Mod</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>E</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>e %modes hepken</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>Dre ziouer: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>Divizoù, daveennoù hag evezhiadenn</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>Koubladoù anv=talvoud dispartiet gant skejoù. Talvoudoù ar bazenn-mañ: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>Skouer</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>Kemmañ ar bazenn</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>Ouzhpennañ pazenn</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>Ar pezh a lavar exp:migration:check: an talbenn, an teul ha pep pazenn gwiriet gant he rizh pazenn.</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>Tremen a ra an divroadenn dre ar gwiriañ.</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Alberz</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>Ar YAML evel ma vo enrollet.</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>Diskouez ar YAML</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>Divroadennoù YAML</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>lañset eo bet</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>N'eus divroadenn YAML ebet c'hoazh.</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>Aozer</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>N'eus divroadenn YAML %id ebet en teuliadoù divroadennoù.</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>Dibabit ur rizh pazenn.</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>Ouzhpennet eo ar bazenn. Gwiriit an divroadenn a-raok he enrollañ.</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>Kemmet eo ar bazenn. Gwiriit an divroadenn a-raok he enrollañ.</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>Dibabit ur bazenn.</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>N'he deus ket ar bazenn-mañ furmskrid (ul lagadenn, pe ur rizh pazenn n'eo ket er staliadur-mañ): kemmit anezhi en destenn.</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>Dibabit da belec'h ez a an divroadenn: al lec'hienn pe un astenn oberiant.</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>Enrollet eo %file. Grit un amprouadenn a-raok ma vo lañset an divroadenn.</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>N'eo ket enrollet: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>Staliadurioù a-bell</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>Ar staliadurioù all ma tispak hemañ e zivroadennoù davete: un dispakadenn a gas an divroadennoù d'ar staliadurioù a-bell dibabet hag o lañs eno, an holl war un dro hag e kempred. Ur staliadur a-bell ne zalc'h kuzhadenn ebet morse: e ditour kennaskañ a envel unan e Kefluniañ &gt; Kuzhadennoù.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>Staliadur a-bell nevez</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Skoazell</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>Test kevreadenn %id</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>Ar staliadurioù a-bell</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>Betek %parallel staliadur a-bell a vez labouret warno war un dro; ur prantad a c'hall padout %timeout eilenn war pep hini.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>Staliadur a-bell</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Chomlec'h</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Titour kennaskañ</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>Strolladoù</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>arventennoù da reizhañ</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>restroù hepken (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>Alc'hwez SSH</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>Ger-tremen</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>hini ebet (ajant SSH hag alc'hwezioù an hostiz)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>Testañ ar gevreadenn</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>Un dispakadenn d'ur strollad a ya da bep staliadur a-bell anezhañ.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>Dispakañ d'ar staliadurioù a-bell</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>Staliadur a-bell ebet kefluniet c'hoazh.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>Staliadur a-bell %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>Netra ne vez kaset pe lañset amañ: Enrollañ a skriv an arventennoù e settings/override/migration.ini.append.php. An titour kennaskañ a zo un anv; e dalvoud a chom e Kefluniañ &gt; Kuzhadennoù pe en endro.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Gwiriit an arventennoù-mañ</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>An arventennoù evel m'int bet roet, n'int ket enrollet c'hoazh.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Adlenn</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Reizh eo an arventennoù. Al linennoù-mañ a vo skrivet:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>Treuzkas</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>un anv hepken; an talvoud a chom e Kefluniañ &gt; Kuzhadennoù</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Al linennoù a vo skrivet</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>Kevreadenn</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>Alc'hwez an hostiz</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. Ar staliadur a-bell</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>Penaos e vez graet eus ar staliadur a-bell ha peseurt endro eo.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>Naoudi</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>Lizherennoù, sifroù, - ha _, da skouer production1. Envel a ra ar staliadur a-bell en danevelloù ha war ar c'hoñsol (--remotes=production1) ha ne c'haller ket e cheñch diwezhatoc'h.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... Un dispakadenn a lankad da lankad a ya dre an endroioù en urzh-mañ.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>Diret, dispartiet gant skejoù, da skouer production. Un dispakadenn d'ur strollad a ya da bep staliadur a-bell anezhañ.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. Ar gevreadenn</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>Penaos ez a ar restroù di, ha pelec'h emañ ar staliadur.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>Dre SSH, ar pezh a zo bet cheñchet hepken, un treuzkas troc'het a vez kendalc'het. An dibab gwellañ el lec'h ma'z eo staliet rsync.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>SSH gant scp evit ar restroù.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>SSH gant sftp evit ar restroù.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>Restroù hepken: kaset hag adlennet e vez an divroadennoù, met ne c'haller ket o lañsañ eno.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>FTP dre TLS; restroù hepken.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>Ur staliadur all war ar servijer-mañ, en un teuliad.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Hostiz</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>Un anv hostiz pe ur chomlec'h, da skouer node1.example.com. N'eo ket evit local.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>Porzh</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>Goullo: 22 evit SSH, 21 evit FTP.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Implijer</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>Hent</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>Gwrizienn ar staliadur eno, da skouer /var/www/site (evit FTP: an hent a wel ar gont FTP).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>Linenn-urzhiañ PHP</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>PHP CLI eno: php, pe un hent klok evel /opt/plesk/php/8.4/bin/php.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>Ar skriptoù konsol a ya en-dro evel root eno</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>Pa vez root implijer ar staliadur a-bell hepken (lañset e vezont neuze gant --allow-root-user).</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. An titour kennaskañ</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>Penaos e kennask ar staliadur-mañ eno. N'eo enrollet nemet un anv.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Hini ebet</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>Ajant SSH hag alc'hwezioù an implijer ma ya en-dro ar staliadur-mañ gantañ (ha bepred evit local).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>Un alc'hwez prevez miret evel kuzhadenn.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>Ur ger-tremen miret evel kuzhadenn (FTP a gennask gantañ).</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>Anv ar guzhadenn</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>Ur guzhadenn eus Kefluniañ &gt; Kuzhadennoù, da skouer deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Kefluniañ &gt; Kuzhadennoù</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>Pe un argemmenn endro</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>Argemmenn argerzh ar servijer a zalc'h anezhi, da skouer DEPLOY_KEY (enrollet evel env:DEPLOY_KEY). Kemer a ra lec'h anv ar guzhadenn.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. Alc'hwez an hostiz</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>Diret, evit SSH, sftp ha rsync.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>Roudoù bizied alc'hwez an hostiz</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... evel ma tiskouez ssh-keygen -l anezhañ. Gantañ e rank an hostiz diskouez an alc'hwez-mañ; hepdañ e vez desket an alc'hwez d'an darempred kentañ.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. Adlenn</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>Testit ar gevreadenn gant an arventennoù a-us, ha goude adlennit al linennoù a vo skrivet.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>Lemel kuit ar staliadur a-bell-mañ</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>Lamet e vez e arventennoù eus settings/override/migration.ini.append.php. Netra ne cheñch war ar staliadur a-bell, hag e zispakadennoù a chom en istor.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>Ya, lemel kuit ar staliadur a-bell-mañ</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>Dispakadennoù</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>Un dispakadenn a gas divroadennoù ar staliadur-mañ d'ar staliadurioù a-bell dibabet hag o lañs eno evel %user, an holl war un dro hag e kempred: gwiriet e vez pep staliadur a-bell da gentañ, ha pa c'hwit unan, e vez distroet pep staliadur a-bell en deus arloet. Kenderc'hel a ra en drekleur, hag he fajenn a ziskouez pep staliadur a-bell a-hed an amzer.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. Ar staliadurioù a-bell</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>Askit staliadurioù a-bell, ur strollad, pe an daou.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>Dispakañ davetañ</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. Penaos</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>Dispakañ</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>Kas ha lañsañ</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>Kaset, gwiriet ha lañset e vez an divroadennoù war pep staliadur a-bell gant un naoudi lañsadenn rannet.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>Treuzkas hepken</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>Kaset ha gwiriet e vez ar restroù, netra ne vez lañset (an doare nemetañ evit ur staliadur a-bell FTP).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>A lankad da lankad</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>Lankad ha lankad hervez urzh an endroioù (dev, stage, beta, production ...): dispaket e vez al lankad kentañ, ha neuze e c'hortoz un dor betek ma asant unan bennak an hini war-lerc'h. Pep tra pe netra e-barzh pep lankad.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>An divroadennoù-mañ hepken</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>Diret: naoudioù divroadennoù, dispartiet gant skejoù. Goullo: pep divroadenn eus al lec'hienn hag he astennoù.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>Rakgwiriadur hepken</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>Ya, dispakañ bremañ</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>An dispakadennoù o deus kaset pe lañset un dra bennak, an hini nevesañ da gentañ (ur rakgwiriadur ne vir danevell ebet).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>treuzkas hepken</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>a lankad da lankad, %stages lankad</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>n'eo ket kempredet</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>Dispakadenn ebet c'hoazh.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>Dispakadenn %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Pep staliadur a-bell eus an dispakadenn gant e stad. Un dispakadenn loc'het amañ a genderc'h en drekleur pa vez serret ar bajenn-mañ; digorit ar bajenn en-dro evit he heuliañ.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>An holl dispakadennoù</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>Rakgwiriadur</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>Lankad war-lerc'h</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>O wiriañ an arventennoù hag an titouroù kennaskañ</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>Rakgwiriadur: o lenn stad pep staliadur a-bell</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>O kas restroù an divroadennoù</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>O wiriañ ar pezh a zo erruet</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>O lañsañ an divroadennoù war pep staliadur a-bell</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>O tistreiñ ar staliadurioù a-bell</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>Echu eo an dispakadenn. O kargañ he danevell.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>N'eus ket bet gallet heuliañ an araokadur. Adkargit ar bajenn evit gwelout penaos ez a an dispakadenn.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>Prantad</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>Ar bajenn-mañ a heul an dispakadenn a-hed ma ya.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>Kempredet</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>Lankadoù</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>lankad %stage a c'hortoz ouzh e zor</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>Dor %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>asantet gant %user da %time</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>Lankad</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>Restroù kaset</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>Stumm ar c'hernel</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>arloet: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>da arloañ: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>Prantadoù</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>Dor: lankad %stage diwar %stages</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>Dispaket eo al lankadoù a-raok. Gwiriit anezho, ha neuze asantit al lankad war-lerc'h: gwiriet en-dro ha dispaket e vez e staliadurioù a-bell, pep tra pe netra.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>War-lerc'h</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>Ya, dispakañ al lankad war-lerc'h bremañ</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Asantiñ</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>Distreiñ an dispakadenn-mañ</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>Pep staliadur a-bell en deus he arloet (%list) a zistro d'an dapadenn tapet a-raok e lañsadenn, an holl war un dro.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>Ya, distreiñ an dispakadenn-mañ bremañ</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>raktreset</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>treuzkaset</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>dispaket</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>o c'hortoz ouzh un dor</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>diuzet</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>prientet</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>prest</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>o c'hortoz e lankad</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>restroù kaset</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>gwiriet</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>c'hwitet, adsavet e-unan</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>digemm</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>n'eo ket dispaket</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>n'eus ket tu d'e dizhout</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>Respontet en deus ar staliadur a-bell.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>Ne c'haller ket implijout ar staliadur a-bell bremañ.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done graet, %pending o c'hortoz, %failed c'hwitet</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>Prenn</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>ul lañsadenn a zalc'h ar prenn eno</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>dieub</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stage diwar %stages</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>Dibabit ar staliadur a-bell da destañ.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>Askit « Ya, lemel kuit ar staliadur a-bell-mañ » da gentañ.</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>N'eus ket bet gallet lemel kuit ar staliadur a-bell: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>N'eus ket bet gallet enrollañ ar staliadur a-bell: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>N'haller ket lenn restr an arventennoù: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>Dibabit ur staliadur a-bell pe ur strollad da nebeutañ.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>Ur staliadur a-bell dibabet n'emañ ket mui en arventennoù. Adkargit ar bajenn.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>Askit « Ya, dispakañ bremañ » da gentañ.</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>Ur staliadur a-bell FTP ne c'hall ket lañsañ divroadennoù: dibabit « Treuzkas hepken », pe lezit anezhañ er-maez.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>An divroadennoù da zispakañ a zo naoudioù divroadennoù, dispartiet gant skejoù.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>War ober emañ an dispakadenn c'hoazh. Gortozit ma echuo.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>Ne c'hortoz ket an dispakadenn-mañ ouzh un dor.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>Staliadur a-bell ebet n'en deus arloet an dispakadenn-mañ: n'eus netra da zistreiñ.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>Askit « Ya, dispakañ al lankad war-lerc'h bremañ » da gentañ.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>Askit « Ya, distreiñ an dispakadenn-mañ bremañ » da gentañ.</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>Ur staliadur a-bell gant an naoudi %id a zo anezhañ dija.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>Ar porzh a zo un niver etre 1 ha 65535.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>An endro a zo ur ger graet gant lizherennoù, sifroù, - ha _ (alpha, dev, stage, beta, production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>Ur strollad zo ur ger graet gant lizherennoù, sifroù, - ha _ (nann all): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>Ne c'haller ket lenn an titour kennaskañ bremañ: %problem. Enrollit anezhañ e Kefluniañ &gt; Kuzhadennoù (pe lakait an argemmenn) a-raok an dispakadenn gentañ.</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>Ur staliadur a-bell FTP ne resev nemet restroù: un dispakadenn davetañ a zo « Treuzkas hepken », hag e zivroadennoù a vez lañset eno gant an dorn.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>N'emañ ket ar staliadur a-bell %id e settings/override/migration.ini.append.php; lamit anezhañ el lec'h ma'z eo kefluniet.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>Kennasket dre FTP ha lennet index.php. Ne c'haller ket lenn stad divroadennoù ur staliadur a-bell FTP.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>Kemmet</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>Krouet</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Anv</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Rummad</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Rann</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>Krouer</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Endalc'had nevez</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>An endalc'had krouet ha kemmet nevesañ el lec'hienn a-bezh, an nevesañ da gentañ : ar pezh o deus kaset ar weladennerien, ar pezh a zo dalc'het evit bezañ gwiriet, ar brouilhedoù a c'hortoz bezañ embannet. Diuzit elfennoù evit o dieubiñ, o derc'hel, o kuzhat, o diskouez, o lemel pe o dilec'hiañ d'ur rann pe d'ur stad all.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>N'eus ket bet gallet lenn ar roll : %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>N'eo ket bet kefluniet c'hoazh an dalc'h evit gwiriañ, neuze n'eus netra dalc'het ha n'eo ket kinniget oberoù an dalc'h. Ar bazenn hizivaat 6.0.15-review-hold a gefluni anezhañ : ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Silañ ar roll</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Eus</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Betek</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Deiziad</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>Krouet (embannet evit ar wech kentañ)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>An holl</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Statud</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Embannet</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>Brouilhed, morse embannet</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>O c'hortoz (un aprouadur pe un deiziad)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>Er boubellenn</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Dalc'het evit bezañ gwiriet</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>Dalc'het</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>N'eo ket dalc'het</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>Kuzhet</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>Gwelus</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>Kaset d'an</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>Ne vern pe haeziñ al lec'hienn</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>Ar pezh en deus enrollet an aodit hepken.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>Bremañ : %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>Un anv kevreañ pe un ID implijer.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Silañ</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>Skarzhañ ar siloù</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>Elfennoù</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from betek %to diwar %count</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Elfenn ebet</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(lennet e %ms ms)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>Oberoù war an elfennoù diuzet</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>Diuzañ pep tra war ar bajenn-mañ</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>%count diuzet</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Ober</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>Dibabit un ober</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>Dieubiñ an dalc'h</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Derc'hel evit gwiriañ</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Kuzhat</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>Diskouez</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>Kas d'ar boubellenn</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>Dilemel</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>Deverkañ ur rann</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>Deverkañ ur stad</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>Abeg</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>Ret evit derc'hel ; miret gant an dalc'h hag en aodit.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>Dibabit ur rann</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Stad</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>Dibabit ur stad</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>Arloañ d'an diuzad</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>Gwiriet e vez pep elfenn hervez ho kwirioù deoc'h. Kas d'ar boubellenn ha dilemel a c'houlenn ur gadarnadur. Ouzhpenn %count elfenn e vez kaset an ober en drekleur.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>Diuzañ</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>Embann</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>Kaset eus</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>Diuzañ %name</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>n'eo ket c'hoazh</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(anv ebet)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>Brouilhed</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>O c'hortoz</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>Kuzhet gant e gerent</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>Dalc'het : kasadenn nevez</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>Stumm %version o c'hortoz</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>Stumm %version war ober</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>Brouilhed, stumm %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>Stumm %version embannet</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>Steuñvet evit an %date</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>chomlec'h ebet</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>n'eo ket enrollet</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>Netra ne glot gant ar siloù-mañ.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Diskouez pep tra</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>N'eus endalc'had ebet c'hoazh.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Dre bajenn</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Diskouez %count elfenn dre bajenn.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says "not recorded".</source>
+        <translation>Chomlec'h ha merdeer ur gasadenn a zeu eus ibil an aodit, ha n'eo ket hegerz amañ : ar bann a lavar « n'eo ket enrollet ».</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>Ar chomlec'h hag ar merdeer a zo ar re en deus enrollet an aodit evit an elfenn (an dalc'h emgefre a enroll anezho bepred ; an embann hag ar c'hrouiñ e-lec'h ma 'z eo gweredekaet hepken), evel ma vez miret gant e arventennoù prevezded.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action : %count elfenn</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>Dilemel a lam an elfennoù da vat, gant o holl stummoù hag o holl droidigezhioù. Ne c'haller ket dizober.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>An elfennoù a ya d'ar boubellenn, ma c'hallont bezañ assavet diouti.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>Gwiriet e vez pep elfenn hervez ho kwirioù deoc'h ; un elfenn he deus is-elfennoù a vez lezet evel m'emañ (lamit anezhi e framm an endalc'had). Goulennet e vo diganeoc'h gwiriañ ez eo c'hwi.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>Kaset e vez en drekleur : digeriñ a ra e bajenn araokadur, ha diskouezet e vez an disoc'h evit pep elfenn pa vez echu.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>An elfennoù diuzet</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>ha %count all</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Nullañ</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>Netra n'eo bet graet</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Abeg : %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>An ober a dro c'hoazh en drekleur.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>E araokadur</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>C'hwitet en deus an ober en drekleur : %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Graet</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Nac'het</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>C'hwitet</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>Dre elfenn</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>Elfenn</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Disoc'h</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Perak</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>Distreiñ d'ar roll</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Kefluniañ</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>Netra graet</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>Kadarnaat</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>Dibabit un ober.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>Diuzit un elfenn da nebeutañ.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>Diuzit 1000 elfenn d'ar muiañ war un dro.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>Lavarit perak ez eo dalc'het an elfennoù.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>Dibabit ar rann.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>Dibabit ar stad.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>N'eus ket bet gallet lenn ar furmskrid.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>Taolenn-stur</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>Endalc'had nevez</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>N'eus ket bet gallet lenn an niveroù : %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Dalc'het evit bezañ gwiriet</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>Nevez hiziv</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>N'eo ket bet kefluniet c'hoazh an dalc'h evit gwiriañ (ar bazenn hizivaat 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>An holl endalc'had nevez</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>N'oc'h ket aotreet da gas oberoù habaskaat (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>N'eo ket klok an ober habaskaat : %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>Habaskaat : %action war %count objed</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%done diwar %total objed : %ok graet, %refused nac'het, %failed c'hwitet</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok graet, %refused nac'het, %failed c'hwitet</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>N'eus ket anezhañ ken.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>N'en deus lec'hiadur ebet (n'eo ket embannet).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>N'oc'h ket aotreet d'e guzhat (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>N'oc'h ket aotreet d'e ziskouez (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>Kuzhet eo dija.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>N'eo ket kuzhet.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>Kuzhet.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>Diskouezet.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>Er boubellenn emañ : goullonderit anezhi pe assavit anezhañ diouti.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>Ur brouilhed n'eo bet embannet morse ne c'hall ket mont d'ar boubellenn : dilamit anezhañ.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>N'oc'h ket aotreet d'e zilemel (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>Dilamet.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>N'oc'h ket aotreet d'e lemel (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>Is-elfennoù en deus : lamit anezhañ e framm an endalc'had, e-lec'h m'emaint rollet.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>N'eo ket bet lamet (gallout a ra ul lanv-labour derc'hel al lamadenn).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>Kaset d'ar boubellenn.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>N'eus ket eus ar rann.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>Er rann-mañ emañ dija.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>N'oc'h ket aotreet da zeverkañ ar rann-mañ (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>N'eo ket bet deverket ar rann.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>Rann deverket.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>N'eus ket eus ar stad.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>Er stad-mañ emañ dija.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>N'oc'h ket aotreet da zeverkañ ar stad-mañ (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>N'eo ket bet deverket ar stad (gallout a ra ul lanv-labour derc'hel ar c'hemm).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>Stad deverket.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>N'eus ober ebet a seurt-se.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>N'eo ket kefluniet an dalc'h evit gwiriañ (ar bazenn hizivaat 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>Lavarit perak ez eo dalc'het.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>Dalc'het eo dija.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>N'oc'h ket aotreet d'e zerc'hel (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>N'eo ket bet lakaet an dalc'h (gallout a ra ul lanv-labour derc'hel ar c'hemm).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>Dalc'het.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>N'eo ket dalc'het.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>N'oc'h ket aotreet d'e zieubiñ (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>N'eo ket bet dieubet an dalc'h (gallout a ra ul lanv-labour derc'hel ar c'hemm).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>Dieubet ; kuzhet c'hoazh : n'oc'h ket aotreet d'e ziskouez (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>Dieubet.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>An holl balioù</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Embannadenn ziwezhañ</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>Embannit un eilskrid stadek digoust eus ho lec&apos;hienn war GitHub Pages:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Pajennoù diamzeret</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Embann stadek</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Lazhet eo an embann stadek.</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Pal</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>N&apos;eus ket bet gallet lenn ar palioù: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>ul labour a zo war ober</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>savadur da wiriañ</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>kuzhat an dra-se</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>krouiñ ur pal</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>morse</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>lenn ar c&apos;helennskrid</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>%added ouzhpennet, %changed kemmet, %removed lamet</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%bytes eus %limit (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>%count all n&apos;int ket listennet.</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>%pages pajenn skrivet</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path a ra %size, muioc&apos;h eget ar pezh a aotre an herberc&apos;hier evit ur restr.</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>%percent % eus ar vevenn</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds s</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag eo an embannadenn a zo gant al lec&apos;hienn bremañ.</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: labour %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>/kavlec&apos;h/ evit ul lec&apos;hienn raktres GitHub; goullo evit un domani personel pe ul lec&apos;hienn implijer.</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. Al lec&apos;hienn</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. An herberc&apos;hier</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. Kennaskañ d&apos;ar c&apos;havlec&apos;h</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. Ar c&apos;havlec&apos;h</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. Liammoù hag hent diazez</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. Ho tomani deoc&apos;h</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. Petra a zo er savadur</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. Pegoulz e vez embannet</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. Adwelet hag enrollañ</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>Ul lec&apos;hienn raktres GitHub a vev dindan /&lt;repository&gt;/; al liammoù kar a ya en-dro eno hag e pep lec&apos;h all.</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>Ur savadur a zegas pep pajenn eus %site evel ma wel anezhi ur gweladenner n&apos;eo ket kennasket, a adskriv al liammoù, a eilskriv ar restroù hag a skriv an disoc&apos;h e teuliad ar pal. Netra n&apos;eo embannet a-raok ma vo gwiriet ar savadur ganeoc&apos;h ha pouezet war Embann.</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>Un eztaol cron, da skouer 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>Miret eo an alc&apos;hwez deploy evel ar c&apos;huzhadenn %secret.</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>Un alc&apos;hwez deploy a ro tro d&apos;ar staliadur-mañ da vountañ d&apos;ur c&apos;havlec&apos;h hepken dre SSH ha da netra all. E hanterenn brevez a chom e Kefluniañ &gt; Kuzhadennoù; an hanterenn foran hepken a vez diskouezet.</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>Un alc&apos;hwez deploy krouet evit ar pal-mañ</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>Un alc&apos;hwez deploy a gennask dre SSH: cheñchit ar chomlec&apos;h git evit an hini SSH (git@github.com:owner/repo.git).</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>Ul labour a zo war ober, lañset gant %user</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>Ul labour eus ar pal-mañ a zo war ober c&apos;hoazh (%detail). Gortozit ma echuo.</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>Ul labour eus ar pal-mañ a zo war ober c&apos;hoazh. Gortozit ma echuo.</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>Ul liamm eus ar bajenn /news/ d&apos;ar bajenn /about-us/team a vo skrivet evel</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>Krouet ez eus bet un alc&apos;hwez deploy nevez. Ouzhpennit e hanterenn foran d&apos;ar c&apos;havlec&apos;h bremañ.</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>Ur bajenn a gendalc&apos;h da gaout ec&apos;hankad diveugañ, ur jedouer furmskrid pe un naoudi dalc&apos;h goude ar skarzhañ n&apos;eo morse embannet.</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>An distro a zo evit an arbennigourien: askit &quot;Gouzout a ran petra a cheñch an dra-se&quot; ha skrivit anv ar merk en-dro.</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>Ul lec&apos;hienn a c&apos;hall tizhout %site, ur restr %file, gant tro-dro 100 GB a drafik bep miz. Gant ur steuñv digoust e rank ar c&apos;havlec&apos;h bezañ foran. GitHub Pages n&apos;eo ket graet evit stalioù pe treuzgreadoù kenwerzhel all.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>Ur pal eo ul lec&apos;hienn embannet en ur c&apos;havlec&apos;h git. Netra n&apos;eo savet nag embannet amañ: Enrollañ a skriv an arventennoù e settings/override/staticcache.ini.append.php.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>Ur pal eo ul lec&apos;hienn embannet en ul lec&apos;h, da skouer ho lec&apos;hienn foran war GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>Ur jedouer eus Kefluniañ &gt; Kuzhadennoù</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>Ul labour-red (workflow) eus ar c&apos;havlec&apos;h a embann anezhañ.</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>Ouzhpennit an alc&apos;hwez foran-mañ d&apos;ar c&apos;havlec&apos;h gant ar gwir da skrivañ. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, askit Allow write access.</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>Ouzhpennet</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>Un herberc&apos;hier git all</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>Ur prosez all a labour war ar pal-mañ: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>Distreiñ</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>Hent diazez</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>A-raok</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>Dindan un hent diazez</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>Skourr</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>Liammoù torret</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>Liammoù torret er savadur</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>Savadur</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>Savadur %id gant %user</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>Sevel %name</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>Sevel bremañ</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>Savadur da wiriañ</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Gant</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>Gant an dorn, amañ</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Nullañ</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Kemmañ</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>Kemmet</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Kemmoù</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>Gwiriañ anezhañ da gentañ</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Gwiriit an arventennoù-mañ</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>Gwiriit ar pezh a gemm ar savadur, sellit outañ, ha neuze embannit anezhañ pe taolit anezhañ kuit.</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>Dibabit an embannadenn da zistreiñ dezhi.</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>Gant ur stumm diwezhatoc&apos;h.</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Kasadenn</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>Kasadennoù</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>Kas a ra ar savadur (commit), e verkañ (tag) hag e vountañ da %remote. Morse ne vez rediet ur bountadenn; gallout a rit distreiñ da forzh peseurt embannadenn diwezhatoc&apos;h.</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>Keñveriet gant an teuliad a-raok: %added ouzhpennet, %changed kemmet, %removed lamet, %unchanged digemm.</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>Keñveriet gant an embannadenn ziwezhañ.</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Titour kennaskañ</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>Domani personel</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>Ec&apos;hankad diveugañ, jedouerioù furmskrid, naoudioù dalc&apos;h ha nonces a vez lamet bepred.</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>Alc&apos;hwez deploy</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>Alc&apos;hwez deploy %name</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Dilezel</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>Dilezel ar savadur</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>Domani</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>Goullo: chomlec&apos;h al lec&apos;hienn. A-hend-all, ur chomlec&apos;h diabarzh eus an hevelep lec&apos;hienn.</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Echuet</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>Pep liamm a grog gant an hent diazez.</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>Pep embannadenn a zo ur gasadenn gant ur merk static/%id/&lt;n&gt;. Distreiñ a ra ur gasadenn nevez gant restroù un embannadenn gent: an istor a chom, merk ebet ne fiñv ha netra n&apos;eo rediet.</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>Traoù ouzhpenn</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>Degas ar pajennoù eus</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Restr</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>Restroù</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>Restroù o vankout</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>Restroù eus</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>Restroù n&apos;eus ket bet gallet dastum</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>Roudoù-biz</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>Teuliad</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>Evit ur chomlec&apos;h SSH. Krouet e vez an alc&apos;hwez goude enrollañ; c&apos;hwi a ouzhpenn e hanterenn foran d&apos;ar c&apos;havlec&apos;h.</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>Evit ur chomlec&apos;h https://. GitHub: ur jedouer fine-grained gant Contents e lenn hag e skrivañ war ar c&apos;havlec&apos;h.</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>Evit an arbennigourien. Al lec&apos;hienn foran a cheñch kerkent ha ma vez tremenet ar bountadenn.</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Furmskridoù</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>Herberc&apos;hiañ digoust adalek ur c&apos;havlec&apos;h GitHub.</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>Eus ar skourr</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>Chomlec&apos;h git</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages a aotre ul lec&apos;hienn a %site hag ur restr a %file.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>Bevennoù GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages a embann ar restroù evel m&apos;emaint (ret evit ar restroù a grog gant _).</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub a ginnig ar skourr evel ma vez bountet. Dre ziouer.</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, ho servijer deoc&apos;h: forzh peseurt kavlec&apos;h git.</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>Distreiñ d&apos;un embannadenn gent</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Skoazell</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>Skoazell gant ar skoazeller</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>Kuzhat anezho</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Istor</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>Istor %name</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Herberc&apos;hier</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>Penaos e resev GitHub Pages ar savadur</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>Gwiriet em eus ar c&apos;hemmoù</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>Gouzout a ran petra a cheñch an dra-se</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>Naoudi</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>Lazhet eo: netra ne c&apos;hall bezañ savet a-raok ma vo enaouet.</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>Mont a ra en-dro en drekleur evel %user; gallout a rit serriñ ar bajenn-mañ.</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>Labour %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>Miret evel ar c&apos;huzhadenn %secret.</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Seurt</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Embannadenn ziwezhañ</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>Lezel a-gostez ar pajennoù-mañ</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>Lezel a-gostez ar rannoù-mañ</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Liammoù</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>Liammoù adskrivet</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>Lec&apos;hienn war-eeun</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>Sellet ouzh ar savadur</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>Lizherennoù bihan, sifroù, _ ha -, da skouer github-public. Anv an teuliad hag ar merkoù (static/&lt;id&gt;/&lt;n&gt;) eo ha ne c&apos;hall ket bezañ cheñchet diwezhatoc&apos;h.</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>Krouiñ un alc&apos;hwez nevez</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>Krouiñ ur pal</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>Krouiñ an alc&apos;hwez</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>Krouit ar c&apos;havlec&apos;h war an herberc&apos;hier da gentañ; mat eo unan goullo.</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>Roll ar restroù</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Kemennadenn</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>An darn vrasañ eus ar pajennoù</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Anv</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>Anv ar jedouer e Kefluniañ &gt; Kuzhadennoù</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>Pal nevez</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>War-lerc&apos;h</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>Ket</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>Kasadenn ebet c&apos;hoazh.</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>N&apos;eus bet krouet alc&apos;hwez ebet: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>N&apos;eus bet kavet binarel php evit al linenn-urzhiañ ebet. Lakait migration.ini [AdminSettings] PhpCliPath war e hent klok.</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>Merk ebet c&apos;hoazh.</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>Pal ebet c&apos;hoazh.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Hini ebet</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>N&apos;emañ ket er savadur.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>Netra n&apos;eo bet embannet c&apos;hoazh.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>Netra n&apos;eo bet embannet c&apos;hoazh: nevez eo pep restr.</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>Kemenn</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>Hervez un deiziadur</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>War ar c&apos;honsol</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>War ar servijer: ./console exp:static:serve %id a ginnig anezhañ en hevelep doare.</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>Un hent dre linenn, * a glot gant forzh peseurt lodenn: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>Un anv hepken a vez miret gant ar pal; ar jedouer pe an alc&apos;hwez e-unan a chom e Kefluniañ &gt; Kuzhadennoù ha n&apos;en em ziskouez morse en ur marilh.</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>Ar pezh a envel ar pajennoù hepken</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>Gant ur jedouer hepken. env:NAME a lenn ur varienn endro eus ar servijer e-lec&apos;h.</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>Digeriñ an alberz</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>Digeriñ a ra ar savadur evel ma vo kinniget gant an herberc&apos;hier, eus teuliad ar pal. Mont a ra al liamm en-dro evidoc&apos;h e-pad un eurvezh.</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>Diret. Goullo: ar pezh a zo bet embannet.</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>Diret. Gant un domani e vez kinniget al lec&apos;hienn en he gwrizienn.</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Ec&apos;hankad</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>Pajennoù</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>Pajennoù ar pal</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>Pajennoù nac&apos;het</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>Goude-tretiñ</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Alberz</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>Alberz hag embann</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>Alberz hag embann %name</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>Alberz ar savadur</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Araokadur</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>Chomlec&apos;h foran</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>Alc&apos;hwez foran</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>Embann</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>Embannit un eilskrid stadek eus ul lec&apos;hienn war GitHub Pages pe war forzh peseurt herberc&apos;hier git: savit anezhañ, gwiriit ar c&apos;hemmoù, embannit, ha distroit d&apos;un embannadenn gent pa vo ezhomm.</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>Embannadenn da zistreiñ dezhi</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>Embannadennoù</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Bountañ</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>Lenn ar c&apos;helennskrid</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Marilh</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Nac&apos;het</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>Kar</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Adkargañ</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>Lamet</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>Erlec&apos;hiañ an alc&apos;hwez: ehan a ray an hini kozh</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Danevell</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>Danevell ar savadur</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Kavlec&apos;h</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Adwelet</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>Adwelet a wir pep arventenn hag a ziskouez al linennoù a vo skrivet. Netra n&apos;eo enrollet c&apos;hoazh.</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Distreiñ</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Distro</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Enrollañ</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>Deiziadur</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>Pajenn enklask</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>Naoudioù ar rannoù, dispartiet gant skejoù.</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>Kas anezho d&apos;al lec&apos;hienn war-eeun</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>Arventenn</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Arventennoù</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>Arventennoù %name</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Kefluniañ</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Kefluniañ &gt; Kuzhadennoù</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>Diskouezet el listennoù, da skouer &quot;Lec&apos;hienn foran war GitHub Pages&quot;.</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>Kennaskañ gant ur GitHub App a zeuio gant an enframmadur GitHub.</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>Lec&apos;hienn</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>Lec&apos;hienn da embann</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Ment</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>Ment ha bevennoù</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>Ment ar savadur</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Pajennoù diamzeret</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Kroget</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Lañset gant %user da %time.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Stad</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Embann stadek</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>Lazhet eo an embann stadek</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Lazhet eo an embann stadek.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>Lazhet eo an embann stadek. Enaouit anezhañ e Kefluniañ &gt; Embann stadek da gentañ.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>Enaouet eo an embann stadek.</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>Pazenn %step diwar %total</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Pazennoù</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>Skarzhañ</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Lazhañ</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Enaouiñ</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>Enaouiñ an embann stadek</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Merk</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>Merkoù</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Pal</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>Gallout a reer krouiñ ha kemmañ palioù, met netra n&apos;eo savet nag embannet a-raok ma vo enaouet.</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>Lavaret a ra d&apos;ar c&apos;hefluskerioù enklask petra lenn.</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>N&apos;eus ket bet gallet dilezel ar savadur: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>Heñvel eo ar savadur ouzh an embannadenn ziwezhañ: n&apos;eus netra da embann.</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>Dilezet eo bet ar savadur: an embannadenn ziwezhañ a zo en teuliad en-dro.</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>An talvoudoù dre ziouer a ya mat d&apos;an darn vrasañ eus al lec&apos;hiennoù.</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>Ur savadur n&apos;eo ket embannet c&apos;hoazh a zo en teuliad; ur savadur nevez a erlec&apos;hio anezhañ.</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>N&apos;haller ket skrivañ e teuliad al labourioù: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>N&apos;eus ket bet gallet prientiñ al labour: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>N&apos;eus ket bet gallet loc&apos;hañ al labour.</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>Echu eo al labour. O kargañ e zanevell.</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>Al labour en deus ezhomm eus un implijer kennasket.</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>Loc&apos;het eo bet al labour met n&apos;en deus ket roet naoudi e brosez. Gwiriit %detail.</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>An alc&apos;hwez</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>Ar restr vrasañ: %path, %size.</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Al linennoù a vo skrivet</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>Roll ar pajennoù evit ar c&apos;hefluskerioù enklask; ezhomm en deus eus ar chomlec&apos;h foran.</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>Degaset e vez ar pajennoù evel ma wel anezho ur gweladenner n&apos;eo ket kennasket. Morse ne vez kinniget ar siteaccessoù merañ hag aozañ.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>N&apos;eus ket bet gallet heuliañ an araokadur. Adkargit ar bajenn evit gwelet penaos ez a al labour.</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>Hanterenn foran an alc&apos;hwez:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>Gwrizienn ar skourr</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>N&apos;eo ket staliet c&apos;hoazh ar stal kuzhadennoù (./console exp:upgrade --apply a grou he zaolenn), neuze n&apos;haller mirout alc&apos;hwez ebet.</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>Ar servijer a gennask e-unan (gant e alc&apos;hwez SSH pe e skoazeller titouroù kennaskañ), pe emañ ar c&apos;havlec&apos;h war ar servijer-mañ.</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>N&apos;eus ket bet gallet skrivañ an arventenn: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Reizh eo an arventennoù. Al linennoù-mañ a vo skrivet:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>N&apos;haller ket lenn restr an arventennoù: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>Distreiñ a ra al lec&apos;hienn da restroù an embannadenn-se; ur savadur n&apos;eo ket embannet c&apos;hoazh a rank bezañ embannet pe dilezet da gentañ.</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>Pajenn al lec&apos;hienn e-unan evit ar chomlec&apos;hioù n&apos;eus ket anezho.</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>N&apos;eus ket bet gallet enrollañ ar pal: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>Ar pal ne gennask ket gant an alc&apos;hwez-mañ c&apos;hoazh: dibabit &quot;Un alc&apos;hwez deploy krouet evit ar pal-mañ&quot; en e arventennoù.</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>N&apos;eus ket bet gallet lenn ar palioù: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>N&apos;eus savadur ebet da wiriañ c&apos;hoazh.</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>N&apos;eus siteaccess foran ebet gant ar staliadur-mañ. Morse ne vez embannet ar siteaccessoù merañ hag aozañ.</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>Ar bajenn-mañ a heuilh al labour e-keit ha ma ya; kenderc&apos;hel a ra en drekleur pa vez serret ar bajenn.</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>N&apos;en deus ar pal-mañ alc&apos;hwez deploy ebet c&apos;hoazh.</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>N&apos;eo ket bet savet ar pal-mañ amañ c&apos;hoazh.</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>Unan en deus ar pal-mañ.</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>Dilezel a ra ar savadur-mañ: an embannadenn ziwezhañ a zo en teuliad en-dro. Ne cheñch ket al lec&apos;hienn war-eeun.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>Askit &quot;Gwiriet em eus ar c&apos;hemmoù&quot; da gentañ.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Eur</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>Loc&apos;herioù</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>Skrivit anv ar merk en-dro</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>Digemm</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>Webhook</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Petra</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>Petra a cheñch</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>Petra eo pep restr; skrivet bepred.</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>Ar pezh en deus graet al labour hag e varilh. Ul labour lañset amañ a gendalc&apos;h en drekleur pa vez serret ar bajenn-mañ.</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>Ar pezh en deus moullet al labour evel fazioù</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>Ar pezh a envel ar pajennoù, ha pep skeudenn eus an endalc&apos;had embannet</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Pegoulz</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>Pa c&apos;hwit un embannadenn</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>Pa vez kaset da benn un embannadenn</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>Pa vez embannet endalc&apos;had</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>Da belec&apos;h ez a al liammoù d&apos;ar pezh n&apos;emañ ket en eilskrid (an enklask, ar c&apos;hennaskañ).</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>Eus pelec&apos;h e vez kinniget an eilskrid stadek.</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>Peseurt lec&apos;hienn a vez embannet, ha penaos e vez anvet ar pal.</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>Mont en-dro dindan forzh peseurt hent. Dre ziouer.</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>Skrivet bep tro ma vez termenet un domani personel.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>Ya</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>Gallout a rit bepred sevel hag embann gant an dorn amañ ha war ar c&apos;honsol.</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>un anv hepken; an talvoud a chom e Kefluniañ &gt; Kuzhadennoù</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>dindan %path</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>echuet hep danevell</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>ouzhpenn</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>c&apos;hwitet</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>restr</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages, pe main gant an teuliad docs.</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>herberc&apos;hier git</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (gant ur jedouer) pe git@github.com:owner/repo.git (gant un alc&apos;hwez deploy); morse ur ger-tremen pe ur jedouer ennañ.</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/, evit ar sitemap hag al liammoù kanonek.</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>skeudenn</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>morse</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ket</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>kavlec&apos;h a-bell ebet</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>hini ebet: ar c&apos;hasadennoù a chom en teuliad</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>hini ebet: netra n&apos;eo cheñchet</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>n&apos;eo ket bountet</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>netra n&apos;eo cheñchet</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>pajenn</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>deuet a-benn</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>Diweredekaet eo proc_open, neuze n&apos;haller ket loc&apos;hañ ul labour amañ. Implijit ./console exp:static:build war ar servijer.</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>embannadenn</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>embannet</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>bountadenn o c&apos;hortoz</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>bountet</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>nac&apos;het</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>kar</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>distro</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>distroet</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>war ober</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>an teuliad hepken</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: skrivet er restr CNAME. Lakait DNS an domani da vukañ war an herberc&apos;hier evel ma tispleg; HTTPS a c&apos;hall kemer amzer a-raok loc&apos;hañ.</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>ya, n&apos;eo ket embannet c&apos;hoazh</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>Un GitHub App</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>Ul labour-red (workflow) eus ar c'havlec'h a embann anezhañ. Ar savadur a skriv restr al labour-red; lezit an teuliad goullo.</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>Goude enrollañ ur pal gant ur c'havlec'h GitHub hag ur jedouer pe ur GitHub App, ar bazenn-mañ a c'hall krouiñ ar c'havlec'h hag enaouiñ GitHub Pages. A-hend-all krouit ar c'havlec'h war GitHub da gentañ; mat eo ur c'havlec'h goullo.</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>Skourr pe GitHub Actions?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>Gwiriañ an DNS</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>Krouiñ ar c'havlec'h ma n'eus ket anezhañ</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>Krouit ar c'havlec'h war GitHub hag enaouit GitHub Pages en e arventennoù (Settings &gt; Pages).</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>Krouiñ a ra ar c'havlec'h %repo pa vank (mar goulennet), enaouiñ a ra GitHub Pages eus ar skourr pe eus GitHub Actions evel m'eo bet enrollet, ha lakaat a ra an domani personel hag HTTPS. Implijout a ra an arventennoù enrollet: enrollit ar c'hemmoù da gentañ.</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>Munudoù war GitHub</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>Roit an domani personel da gentañ.</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>Pep push a vez gwiriet ouzh ar bevennoù-mañ da gentañ.</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>Evit ur chomlec'h https:// war GitHub. An App kefluniet evit ar staliadur-mañ a gevrea; ezhomm en deus eus id ar staliadur.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages ne servij ur c'havlec'h prevez nemet gant ur steuñv paeüs.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: un isdomani (www.example.com) en deus ezhomm eus ur c'herzh CNAME war-du &lt;owner&gt;.github.io; un domani pennañ (example.com), eus ar c'herzhoù A %ips.</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>Id staliadur ar GitHub App</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>Savadur Pages diwezhañ</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>Bevennoù ha divizoù</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>Ret evit GitHub Pages gant ur steuñv digoust.</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>War GitHub</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>Gant ur GitHub App hepken: an niverenn e dibenn chomlec'h staliadur an App war GitHub. An App e-unan a vez lakaet e staticcache.ini (GitHubAppId, GitHubAppKey).</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>Prevez</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>Foran</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>Enrollit ar pal gant ur c'havlec'h GitHub hag ur jedouer pe ur GitHub App da gentañ.</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>Lakait ar c'herzhoù-mañ e-ti pourchaser an domani:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>Kefluniañ war GitHub</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>DNS %domain ne ziskouez ket war-du GitHub Pages c'hoazh.</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>DNS %domain a ziskouez war-du GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>N'haller ket implijout an enframmañ GitHub amañ: %problem. Embann er skourr a ya en-dro memes tra; enaouit GitHub Pages en arventennoù ar c'havlec'h.</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>N'haller ket implijout ar pazennoù GitHub evit ar pal-mañ: %problem.</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>Stad GitHub Pages a vez diskouezet gant ur jedouer pe ur GitHub App evel titour kennaskañ.</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>Implijout ho tomani deoc'h</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>Petra dibab: jedouer, alc'hwez deploy pe GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>Gant ur c'havlec'h GitHub hag ur jedouer pe ur GitHub App, ar skoazeller a c'hall krouiñ ar c'havlec'h, enaouiñ GitHub Pages ha lakaat an domani evidoc'h (pazenn 4).</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>o sevel</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>savet</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>eus GitHub Actions</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>eus ar skourr %branch</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>hini ebet c'hoazh</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>n'eo ket bet kavet</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>lazhet</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>prevez</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>foran</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>el lostennad</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>dianav</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%count war %pages pajenn(où):</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>Ur restr .gz (ha .br) e-kichen pep restr testenn, evit an ostiz o servijo anezho.</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>Ur bajenn vihan evit pep chomlec'h kozh hag alias eus ur bajenn, evit ma chomo al liammoù kozh o labourat.</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>Skrivet bepred pa vez kaset al lec'hienn gant GitHub Actions.</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>Un id SPDX evel CC-BY-4.0, pe an destenn he-unan.</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>Paner</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>Galvoù d'ar servijer</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Evezhiadennoù</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>Furmskridoù a zastum titouroù</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>Befenn labour GitHub Actions</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>Nebeutoc'h a egor goulo ha n'eus evezhiadenn ebet er pajennoù.</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>Aotre an endalc'hadoù</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Kevreañ</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>Bihanaat</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>Furmskridoù all</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>Gwaskañ da gentañ</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>Pajennoù adkas</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>Pajennoù adkas: %count.</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Klask</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>Meneg klask: %pages pajenn(où) e %languages.</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>Teulennoù stil ha skriptoù anvet diwar hash o endalc'had, evit ma c'hallo ar merdeerioù o mirout.</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>Ar pajennoù cheñchet, un nebeud munutennoù goude ar cheñchamant diwezhañ (ar rann cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>Aotre an endalc'hadoù, diwar ar park a-is.</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>Al lec'hienn a-bezh, d'an eurioù eus ar steuñv (ar rann cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>Ezhomm o deus ar rannoù-se eus ar pajennoù eus ur servijer; pep hini he deus un diskoulm eus he c'hostez. Gwiriit anezho a-raok embann.</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>Ar pezh ne laka ket da labourat e doare stadek</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>Petra eo ar c'havlec'h, evit an hini a zigor anezhañ war an ostiz.</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>laosket</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>an destenn eus he c'hostez</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>pal ar furmskridoù eus al lec'hienn war-eeun</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>al lec'hienn war-eeun</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>pajenn glask ar eilad</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>N'eo ket bet posupl kas ar furmskrid.</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>Trugarez: kaset eo bet ar furmskrid.</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>N'eo ket bet degemeret ar furmskrid: gwiriit ar pezh hoc'h eus lakaet ha kasit en-dro.</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>Lemel al liammoù d'ar pajennoù n'emaint ket en eilskrid</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>Lemel al liammoù d'ar merañ</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>O zestenn a chom. Ar skeudennoù, ar furmskridoù hag al liammoù d'al lec'hiennoù all n'int biken lamet.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Handelv</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>Haeziñ al lec'hienn da embann</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Haeziñ al lec'hienn</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>E-barzh ar c'hrizienn</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>Haeziñ ebet er c'hrizienn: pep hini a zo en e deuliad, hag ar c'hrizienn a ere outo</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Haeziñ al lec'hienn</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>Merkit un haeziñ al lec'hienn, pe meur a hini a rann un herberc'hier dre o rakger URI. An hini er c'hrizienn a vez servijet eno, ar re all e teuliad o rakger (/ger/); al liammoù etrezo a chom er gopienn. Biken ne vez kinniget an haeziñ melestradurezh.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>C'hwitet eo bet an embann statek eus %target war %site</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>Berzh en deus graet an embann statek eus %target war %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>Kaset eo bet ar postel-mañ gant %site rak goulennet eo gant ar pal embann statek %target.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>An dispakadur %deploy en deus c'hwitet war %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>An dispakadur %deploy a c'hortoz ouzh un nor war %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>An dispakadur %deploy en deus berzet war %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>Kaset eo bet ar postel-mañ gant %site abalamour ma c'houlenn migration.ini [RemoteSettings] Notify[] kement-se.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>Rizhoù roadennoù (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>Kontet %time, en-dro a-benn %minutes munutenn</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>Ur rizh roadennoù a vir hag a aoz ur seurt talvoud eus un doareenn klasad: ul linenn destenn, ur skeudenn, un darempred. Ar galon a zegas al lodenn vrasañ anezho, an astennoù a ouzhpenn re all. Setu an holl anezho, piv a bourchas anezho ha pegement a endalc'had a implij anezho. Ur rizh roadennoù implijet gant an diaz roadennoù met n'eo enrollet gant netra ken a vrev an endalc'had en deus anezhañ.</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>Strolladoù klasadoù</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>Kontañ en-dro bremañ e-lec'h implijout kontoù ar munutennoù diwezhañ.</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>Kontañ en-dro</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Alberz hollek</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>Enskrivet</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>Implijet</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>Ket implijet</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>Astennoù a bourchas rizhoù roadennoù</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>Doareennoù ar c'hlasad</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>Doareennoù an objed</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>N'eo ket enrollet</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>Er roll, restr o vankout</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>Rizhoù roadennoù implijet met n'int ket enrollet: %count</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>Doareennoù klasad (%class_attributes) ha doareennoù objed (%object_attributes) o deus ur rizh roadennoù na vez enrollet gant astenn pe arventenn ebet. N'haller ket diskouez, aozañ pe embann o objedoù. Gweredekait an astenn a bourchas ar rizh roadennoù, pe cheñchit ar c'hlasad.</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>Diskouez ar re-mañ hepken</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>Kavout ur rizh roadennoù</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>Naoudi, anv, klasad PHP pe astenn.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Diskouez</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>An holl</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>Pourchaset gant</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>An holl</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>Kalon</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>Rizh roadennoù ebet ne glot gant ar sil-mañ.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Diskouez an holl</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>Astenn</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%shown diwar %count rizh roadennoù, %used implijet</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>An diaz roadennoù en deus doareennoù klasad pe objed eus ar rizhoù roadennoù-mañ, met content.ini ne ro hini ebet anezho, pe e vank o restr.</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>Rizhoù roadennoù %provider</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>Rizh roadennoù</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>Klasad PHP ha restr</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>Klasadoù</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>Objedoù</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>Merkoù</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>hini ebet</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>Rizh roadennoù ebet ne glot gant an enklask. Skarzhit an enklask.</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>%shown diwar %count rizh roadennoù diskouezet</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>Rizhoù roadennoù diskouezet: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>Rummañ dre %column</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>Kontet %time</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>An holl rizhoù roadennoù</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>Pajenn skoazell</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>Implijet eo ar rizh roadennoù-mañ met n'eo ket enrollet</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>N'haller ket diskouez, aozañ pe embann objedoù ar c'hlasadoù dindan keit ha ma n'enroll astenn ebet ar rizh roadennoù. Gweredekait an astenn a bourchas anezhañ hag ouzhpennit anezhañ e content.ini [DataTypeSettings] AvailableDataTypes[], pe cheñchit ar c'hlasadoù.</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini a ro ar rizh roadennoù-mañ, met teuliad rizhoù roadennoù ebet n'en deus e restr. Netra n'eo implijet gantañ; lamit anezhañ eus AvailableDataTypes[] pe gweredekait e astenn.</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>Diwar-benn ar rizh roadennoù-mañ</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>Anaouder</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Anv</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Astenn %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>den ebet</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>Klasad PHP</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Restr</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>E AvailableDataTypes[]</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ya</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ket</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>Bannoù e dalvoud</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>Bannoù arventennoù e zoareenn klasad</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>Taolennoù</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>Kavet eo ar bannoù hag an taolennoù en ur lenn kod ar rizh roadennoù: ur sturlevr, n'eo ket ur bromesa.</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>Patromoù</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Haeziñ al lec'hienn</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>Patrom</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>Kavet e</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>ar merañ-mañ</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>lec'hienn dre ziouer</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>Hep erlec'hiadur: ur patrom erlec'hiañ a glot dre glasad pe zoareenn a dremen a-raok ar re-mañ.</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>Klasadoù a implij anezhañ (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>Klasad ebet n'en deus un doareenn eus ar rizh roadennoù-mañ.</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Klasad</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>Doareennoù</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>Doareennoù ar c'hlasad (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>Doareenn</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Arventennoù</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>Ret</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>Klaskus</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>Hegerz da droidigezh</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>Dastum a ra titouroù</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>Endalc'had a implij anezhañ</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>Ar re gemmet da ziwezhañ da gentañ</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Kemmet</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>Skoulm %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>Pep troidigezh he deus he zalvoud dezhi.</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>An enklask a meneger e dalvoudoù.</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>Gallout a ra dastum titouroù digant ar weladennerien (furmskridoù).</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>Gallout a reer rummañ ar rolloù drezañ: alc'hwez rummañ %type.</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>Rummadus</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>E dalvoudoù a ziskouez objedoù all.</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>Liammoù</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>Gallout a reer e leuniañ gant un hedad testenn eeun (enporzhiañ, REST).</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>Diwar destenn</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>Gallout a reer e leuniañ diwar ur restr.</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>Diwar restr</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>Arventennoù e zoareenn klasad a ya er pakadoù.</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>Pakadoù</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>Endalc'had (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from da %to diwar %count</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Silañ ar roll</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>An holl glasadoù</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Rann</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Yezhoù</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Perc'henn</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Embannet</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>Troc'hañ an urzh</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Elfenn ebet</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Dre bajenn</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Diskouez %count elfenn dre bajenn.</translation>
     </message>
 </context>
 </TS>

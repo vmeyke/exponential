@@ -3,7 +3,7 @@
 /**
  * File containing the eZXHTMLXMLOutputRegression class
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -11,6 +11,7 @@
  * @group database
  */
 
+#[\PHPUnit\Framework\Attributes\Group('database')]
 class eZXHTMLXMLOutputRegression extends ezpDatabaseTestCase
 {
 
@@ -242,6 +243,7 @@ var_dump( $result );
      * @link http://issues.ez.no/18336
      * @note Test depends on template output!!
      */
+    #[\PHPUnit\Framework\Attributes\Group('issue_18336')]
     function testRenderAlignInCellsWithParagraph()
     {
         ezpINIHelper::setINISetting( 'ezxml.ini', 'ezxhtml', 'RenderParagraphInTableCells', 'enabled' );
@@ -275,6 +277,7 @@ var_dump( $result );
      * @link http://issues.ez.no/18336
      * @note Test depends on template output!!
      */
+    #[\PHPUnit\Framework\Attributes\Group('issue_18336')]
     function testRenderAlignInCellsWithoutParagraph()
     {
         ezpINIHelper::setINISetting( 'ezxml.ini', 'ezxhtml', 'RenderParagraphInTableCells', 'disabled' );
@@ -304,6 +307,7 @@ var_dump( $result );
      * @link http://issues.ez.no/18652
      * @note Test depends on template output!!
      */
+    #[\PHPUnit\Framework\Attributes\Group('issue18652')]
     function testSpaceBetweenInlineTags()
     {
         $xml = '<?xml version="1.0" encoding="utf-8"?>

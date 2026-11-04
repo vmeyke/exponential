@@ -11,7 +11,7 @@
  *
  * File containing the indexcontent.php cronjob
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -79,27 +79,35 @@ class Indexcontent extends \Exponential\Runnable\CronjobPart
                     $action = $entry['action'];
 
                     $cli->output( "\tIndexing object ID #$objectID" );
+                    // One short transaction per object, and per chunk of a moved subtree. The whole subtree was
+                    // indexed inside the object's transaction, and on SQLite (one writer at a time) every other
+                    // write, a page's save among them, waited for all of it.
                     $db->begin();
-                    $object = \eZContentObject::fetch( $objectID );
-                    $removeFromPendingActions = true;
-                    if ( $object )
+                    try
                     {
-                        if ( $needRemoveWithUpdate )
+                        $object = \eZContentObject::fetch( $objectID );
+                        $removeFromPendingActions = true;
+                        if ( $object )
                         {
-                            $searchEngine->removeObject( $object, false );
+                            if ( $needRemoveWithUpdate )
+                            {
+                                $searchEngine->removeObject( $object, false );
+                            }
+
+                            $removeFromPendingActions = $searchEngine->addObject( $object, false );
                         }
 
-                        $removeFromPendingActions = $searchEngine->addObject( $object, false );
-
                         // When moving content (and only, because of performances), reindex the subtree
-                        if ( $action == 'index_moved_node' )
+                        if ( $object && $action == 'index_moved_node' )
                         {
+                            $db->commit();
                             $nodeId = $object->attribute( 'main_node_id' );
                             $node = \eZContentObjectTreeNode::fetch( $nodeId );
 
                             if ( !( $node instanceof \eZContentObjectTreeNode ) )
                             {
                                 $cli->error( "An error occured while trying fetching node $nodeId" );
+                                $db->begin();
                                 if ( $db->databaseName() === 'mongo' )
                                     $db->deleteWhere( 'ezpending_actions', [ 'action' => $action, 'param' => (string)$objectID ] );
                                 else
@@ -135,7 +143,9 @@ class Indexcontent extends \Exponential\Runnable\CronjobPart
                                             continue;
                                         }
 
+                                        $db->begin();
                                         $searchEngine->addObject( $childObject, false );
+                                        $db->commit();
 
                                         // clear object cache to conserve memory
                                         \eZContentObject::clearCache();
@@ -149,24 +159,32 @@ class Indexcontent extends \Exponential\Runnable\CronjobPart
                                     break;
                                 }
                             }
+                            $db->begin();
                         }
-                    }
 
-                    if ( $removeFromPendingActions )
-                    {
-                        if ( $db->databaseName() === 'mongo' )
-                            $db->deleteWhere( 'ezpending_actions', [ 'action' => $action, 'param' => (string)$objectID ] );
+                        if ( $removeFromPendingActions )
+                        {
+                            if ( $db->databaseName() === 'mongo' )
+                                $db->deleteWhere( 'ezpending_actions', [ 'action' => $action, 'param' => (string)$objectID ] );
+                            else
+                                $db->query( "DELETE FROM ezpending_actions WHERE action = '$action' AND param = '$objectID'" );
+                            \eZContentCacheManager::clearContentCacheIfNeeded( $objectID );
+                        }
                         else
-                            $db->query( "DELETE FROM ezpending_actions WHERE action = '$action' AND param = '$objectID'" );
-                        \eZContentCacheManager::clearContentCacheIfNeeded( $objectID );
-                    }
-                    else
-                    {
-                        $cli->warning( "\tFailed indexing object ID #$objectID, keeping it in the queue." );
-                        // Increase the offset to skip failing objects
-                        ++$offset;
-                    }
+                        {
+                            $cli->warning( "\tFailed indexing object ID #$objectID, keeping it in the queue." );
+                            // Increase the offset to skip failing objects
+                            ++$offset;
+                        }
 
+                    }
+                    catch ( \Throwable $e )
+                    {
+                        // nothing of a transaction that failed half way is committed by a later commit()
+                        if ( $db->transactionCounter() > 0 )
+                            $db->rollback();
+                        throw $e;
+                    }
                     $db->commit();
                 }
 

@@ -2,7 +2,7 @@
 /**
  * File containing the eZShopOperationCollection class.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -96,38 +96,48 @@ class eZShopOperationCollection
         $vatIsKnown = true;
         $db = eZDB::instance();
         $db->begin();
-        foreach( $items as $item )
+        try
         {
-            $productContentObject = $item->attribute( 'contentobject' );
-
-            // Look up price object.
-            $priceObj = null;
-            $attributes =  $productContentObject->contentObjectAttributes();
-            foreach ( $attributes as $attribute )
+            foreach( $items as $item )
             {
-                $dataType = $attribute->dataType();
-                if ( eZShopFunctions::isProductDatatype( $dataType->isA() ) )
+                $productContentObject = $item->attribute( 'contentobject' );
+
+                // Look up price object.
+                $priceObj = null;
+                $attributes =  $productContentObject->contentObjectAttributes();
+                foreach ( $attributes as $attribute )
                 {
-                    $priceObj = $attribute->content();
-                    break;
+                    $dataType = $attribute->dataType();
+                    if ( eZShopFunctions::isProductDatatype( $dataType->isA() ) )
+                    {
+                        $priceObj = $attribute->content();
+                        break;
+                    }
                 }
+                if ( !is_object( $priceObj ) )
+                    continue;
+
+                // If the product is assigned a fixed VAT type then skip the product.
+                $vatType = $priceObj->VATType();
+                if ( !$vatType->attribute( 'is_dynamic' ) )
+                    continue;
+
+                // Update item's VAT percentage.
+                $vatValue = $priceObj->VATPercent( $productContentObject, $country );
+                eZDebug::writeNotice( "Updating product item collection item ('" .
+                                      $productContentObject->attribute( 'name' ) . "'): " .
+                                      "setting VAT $vatValue% according to order's country '$country'." );
+                $item->setAttribute( "vat_value", $vatValue );
+
+                $item->store();
             }
-            if ( !is_object( $priceObj ) )
-                continue;
-
-            // If the product is assigned a fixed VAT type then skip the product.
-            $vatType = $priceObj->VATType();
-            if ( !$vatType->attribute( 'is_dynamic' ) )
-                continue;
-
-            // Update item's VAT percentage.
-            $vatValue = $priceObj->VATPercent( $productContentObject, $country );
-            eZDebug::writeNotice( "Updating product item collection item ('" .
-                                  $productContentObject->attribute( 'name' ) . "'): " .
-                                  "setting VAT $vatValue% according to order's country '$country'." );
-            $item->setAttribute( "vat_value", $vatValue );
-
-            $item->store();
+        }
+        catch ( Throwable $e )
+        {
+            // nothing of a transaction that failed half way is committed by a later commit()
+            if ( $db->transactionCounter() > 0 )
+                $db->rollback();
+            throw $e;
         }
         $db->commit();
 
@@ -334,7 +344,8 @@ class eZShopOperationCollection
         {
             if ( substr( $optionKey, 0, 4 ) == 'set_' )
             {
-                $returnStatus = eZShopOperationCollection::addToBasket( $objectID, $optionList[$optionKey] );
+                // The same quantity for each set (the call without it threw ArgumentCountError on PHP 8)
+                $returnStatus = eZShopOperationCollection::addToBasket( $objectID, $optionList[$optionKey], $quantity );
                 // If adding one 'option set' fails we should stop immediately
                 if ( $returnStatus['status'] == eZModuleOperationInfo::STATUS_CANCELLED )
                     return $returnStatus;
@@ -477,28 +488,38 @@ class eZShopOperationCollection
 
                 $db = eZDB::instance();
                 $db->begin();
-                foreach ( $optionIDList as $optionIDItem )
+                try
                 {
-                    $attributeID = $optionIDItem['attribute_id'];
-                    $optionString = $optionIDItem['option_string'];
-
-                    $attribute = eZContentObjectAttribute::fetch( $attributeID, $object->attribute( 'current_version' ) );
-                    $dataType = $attribute->dataType();
-                    $optionData = $dataType->productOptionInformation( $attribute, $optionString, $item );
-                    if ( $optionData )
+                    foreach ( $optionIDList as $optionIDItem )
                     {
-                        $optionData['additional_price'] = eZShopFunctions::convertAdditionalPrice( $currency, $optionData['additional_price'] );
-                        $optionItem = eZProductCollectionItemOption::create( $item->attribute( 'id' ), $optionData['id'], $optionData['name'],
-                                                                             $optionData['value'], $optionData['additional_price'], $attributeID );
-                        $optionItem->store();
-                        $price += $optionData['additional_price'];
+                        $attributeID = $optionIDItem['attribute_id'];
+                        $optionString = $optionIDItem['option_string'];
+
+                        $attribute = eZContentObjectAttribute::fetch( $attributeID, $object->attribute( 'current_version' ) );
+                        $dataType = $attribute->dataType();
+                        $optionData = $dataType->productOptionInformation( $attribute, $optionString, $item );
+                        if ( $optionData )
+                        {
+                            $optionData['additional_price'] = eZShopFunctions::convertAdditionalPrice( $currency, $optionData['additional_price'] );
+                            $optionItem = eZProductCollectionItemOption::create( $item->attribute( 'id' ), $optionData['id'], $optionData['name'],
+                                                                                 $optionData['value'], $optionData['additional_price'], $attributeID );
+                            $optionItem->store();
+                            $price += $optionData['additional_price'];
+                        }
+                    }
+
+                    if ( $price != $priceWithoutOptions )
+                    {
+                        $item->setAttribute( "price", $price );
+                        $item->store();
                     }
                 }
-
-                if ( $price != $priceWithoutOptions )
+                catch ( Throwable $e )
                 {
-                    $item->setAttribute( "price", $price );
-                    $item->store();
+                    // nothing of a transaction that failed half way is committed by a later commit()
+                    if ( $db->transactionCounter() > 0 )
+                        $db->rollback();
+                    throw $e;
                 }
                 $db->commit();
             }
@@ -513,10 +534,20 @@ class eZShopOperationCollection
 
         $db = eZDB::instance();
         $db->begin();
-        $order->activate();
+        try
+        {
+            $order->activate();
 
-        $basket = eZBasket::currentBasket( true, $orderID);
-        $basket->remove();
+            $basket = eZBasket::currentBasket( true, $orderID);
+            $basket->remove();
+        }
+        catch ( Throwable $e )
+        {
+            // nothing of a transaction that failed half way is committed by a later commit()
+            if ( $db->transactionCounter() > 0 )
+                $db->rollback();
+            throw $e;
+        }
         $db->commit();
 
         eZHTTPTool::instance()->setSessionVariable( "UserOrderID", $orderID );

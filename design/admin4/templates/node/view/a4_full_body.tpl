@@ -22,7 +22,7 @@
 {def $js_class_languages = '[]'
      $disable_another_language = ''
      $disabled_sub_menu = '["class-createnodefeed","class-removenodefeed"]'
-     $has_content_class = eq( $node.object.content_class|not, false )
+     $has_content_class = is_object( $node.object.content_class )
      $object = $node.object
      $section = fetch( 'section', 'object', hash( 'section_id', $object.section_id ) )
      $locations = $object.assigned_nodes|count
@@ -165,12 +165,13 @@
                  state_href=concat( 'content/view/full/', $node.node_id, '/(language)/', $language.locale )|ezurl( 'no' )}
     {/foreach}
     </span>
+    {include uri='design:parts/a4_tabs_switch.tpl'}
 </p>
 </div>
 
 {* ---- The tabs (unchanged template: extensions add theirs) ---- *}
 <div id="window-controls" class="tab-block a4-node-tabs">
-{include uri='design:window_controls.tpl'}
+{include uri='design:window_controls.tpl' tabs_switch_elsewhere=true()}
 {include uri='design:parts/a4_tabs_height.tpl'}
 </div>
 

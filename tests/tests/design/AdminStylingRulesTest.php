@@ -26,7 +26,7 @@
  *
  * Run: php vendor/bin/phpunit tests/tests/design/AdminStylingRulesTest.php
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package tests
  */
@@ -56,7 +56,7 @@ class AdminStylingRulesTest extends PHPUnit\Framework\TestCase
     /**
      * Token name prefixes that are the same in light and dark mode (sizes, radius, type), so need no dark value
      */
-    const THEME_INDEPENDENT = array( '--a4-space-', '--a4-text-', '--a4-radius', '--a4-font', '--a4-mono', '--a4-leading', '--a4-control-h', '--a4-content-max', '--a4-gutter', '--a4-list-pad', '--a4-cell-pad-', '--a4-card-pad-', '--a4-z-' );
+    const THEME_INDEPENDENT = array( '--a4-space-', '--a4-text-', '--a4-radius', '--a4-font', '--a4-mono', '--a4-leading', '--a4-weight-', '--a4-duration', '--a4-tracking', '--a4-control-h', '--a4-content-max', '--a4-gutter', '--a4-list-pad', '--a4-cell-pad-', '--a4-card-pad-', '--a4-z-' );
 
     private static $root;
 
@@ -257,7 +257,8 @@ class AdminStylingRulesTest extends PHPUnit\Framework\TestCase
     public function testModuleStylesheetsUseOnlyTokens()
     {
         $problems = array();
-        foreach ( array( 'admin4', 'admin' ) as $design )
+        // design/standard: module stylesheets every admin design shares (modules/search.css)
+        foreach ( array( 'admin4', 'admin', 'standard' ) as $design )
         {
             foreach ( AdminFiles::files( self::$root . "/design/$design/stylesheets/modules/*.css" ) as $file )
             {
@@ -329,7 +330,7 @@ class AdminStylingRulesTest extends PHPUnit\Framework\TestCase
      * rule. A colour admin4.css overrides today is still a token here, so the next selector that slips past the
      * override (a dark-mode link at 1.8:1, a yellow diff mark under light text) cannot show it.
      */
-    const BASE_STYLESHEETS = array( 'core.css', 'content.css', 'pagelayout.css', 'theme/rounded.css', 'theme/admin_datatable.css', 'theme/modalwindow.css' );
+    const BASE_STYLESHEETS = array( 'base.css' );
 
     /**
      * Colour literals of the base stylesheets kept on purpose, as "file: selector { property: value }". It only
@@ -566,8 +567,10 @@ class AdminStylingRulesTest extends PHPUnit\Framework\TestCase
      */
     public function testBaseAndPageStylesheetsDrawNoTextBelowTwelvePixels()
     {
-        $core = AdminFiles::read( self::$root . '/design/admin4/stylesheets/core.css' );
-        $this->assertMatchesRegularExpression( '/body \/\*[^*]*\*\/\s*\{[^}]*font-size: var\(--a4-text-s\);/', $core, 'core.css sets the body text from the type scale' );
+        // the body text is admin4.css's rule (base.css's own was dead): a clamp between two steps of the type scale
+        $frame = AdminFiles::read( self::$root . '/design/admin4/stylesheets/admin4.css' );
+        $this->assertMatchesRegularExpression( '/^body \{ font-size: var\(--a4-text-body\); \}/m', $frame, 'admin4.css sets the body text from the type scale' );
+        $this->assertMatchesRegularExpression( '/--a4-text-body: clamp\(var\(--a4-text-s\),[^;]*var\(--a4-text-m\)\)/', AdminFiles::read( self::$root . '/design/admin4/stylesheets/components.css' ) );
         $problems = array();
         $it = new RecursiveIteratorIterator( new RecursiveDirectoryIterator( self::$root . '/design/admin4/stylesheets', FilesystemIterator::SKIP_DOTS ) );
         foreach ( $it as $file )
@@ -628,7 +631,7 @@ class AdminStylingRulesTest extends PHPUnit\Framework\TestCase
         $dir = self::$root . '/design/admin4/stylesheets';
         $found = array();
         // in the order the page loads them: admin4.css after pagelayout.css
-        foreach ( array( 'pagelayout.css', 'admin4.css' ) as $file )
+        foreach ( array( 'base.css', 'admin4.css' ) as $file )
         {
             foreach ( self::declarations( AdminFiles::read( "$dir/$file" ) ) as $d )
             {
@@ -644,10 +647,11 @@ class AdminStylingRulesTest extends PHPUnit\Framework\TestCase
         $this->assertSame( '24px', $found['.pagenavigator a']['min-width'] );
         $this->assertSame( '24px', $found['.pagenavigator a']['min-height'] );
         // the node view's tabs switch: a 36 x 24px control with a visible label in both templates that draw it
-        $this->assertSame( '36px', $found['.tab-block .show-hide-tabs']['width'] );
-        $this->assertSame( '24px', $found['.tab-block .show-hide-tabs']['height'] );
+        // (in the tab box, or after the languages of the node view's meta line: parts/a4_tabs_switch.tpl)
+        $this->assertSame( '36px', $found[':is(.tab-block, .a4-node-tabs-switch) .show-hide-tabs']['width'] );
+        $this->assertSame( '24px', $found[':is(.tab-block, .a4-node-tabs-switch) .show-hide-tabs']['height'] );
         $this->assertArrayHasKey( '.a4-tabs-switch-label', $found );
-        foreach ( array( 'window_controls.tpl', 'node/top_node_full.tpl' ) as $template )
+        foreach ( array( 'window_controls.tpl', 'node/top_node_full.tpl', 'parts/a4_tabs_switch.tpl' ) as $template )
         {
             $this->assertStringContainsString( '<span class="a4-tabs-switch-label" aria-hidden="true">{\'Tabs\'|i18n( \'design/admin/parts/my/menu\' )}</span>',
                 AdminFiles::read( self::$root . "/design/admin4/templates/$template" ), $template );
@@ -785,7 +789,7 @@ class AdminStylingRulesTest extends PHPUnit\Framework\TestCase
      */
     public function testTablePreferencesAreASegmentedControlOnTheTokens()
     {
-        $css = AdminFiles::read( self::$root . '/design/admin4/stylesheets/theme/rounded.css' );
+        $css = AdminFiles::read( self::$root . '/design/admin4/stylesheets/base.css' );
         preg_match_all( '/(?:^|\n)([^{}\n]*p\.table-preferences[^{}]*)\{([^}]*)\}/', $css, $rules, PREG_SET_ORDER );
         $this->assertGreaterThanOrEqual( 4, count( $rules ) );
         $all = '';
@@ -939,11 +943,14 @@ class AdminStylingRulesTest extends PHPUnit\Framework\TestCase
         $ini = AdminFiles::read( self::$root . '/settings/design.ini' );
         preg_match_all( '/^AdminComponentCSSFileList\[\]=(\S+)\s*$/m', $ini, $m );
         $this->assertContains( 'components.css', $m[1] );
+        // admin4 needs no other admin design: each file in admin4 or design/standard, and in admin or design/standard
+        // (a file every admin design shares, such as modules/search.css, is in design/standard only)
         foreach ( $m[1] as $file )
         {
             foreach ( array( 'admin4', 'admin' ) as $design )
             {
-                $this->assertFileExists( self::$root . "/design/$design/stylesheets/$file" );
+                $this->assertTrue( is_file( self::$root . "/design/$design/stylesheets/$file" ) || is_file( self::$root . "/design/standard/stylesheets/$file" ),
+                                   "$design: $file" );
             }
         }
     }

@@ -984,6 +984,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>تەنها ئەم پەڕەیە دەگەڕێت: %from تا %to لە %count.</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>هەموو جۆرێکی داتای ناوک و پێوەکراوەکان، و پۆل و ناوەڕۆک چۆن بەکاری دەهێنن.</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>جۆرەکانی داتا</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2316,6 +2324,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>پەڕەکانی سیستەمیش دەکرێت نیشانە بکرێن: پەڕەکە بکەرەوە (دامەزراندن، تۆماری چاودێری، لیستی بەکارهێنەران ...) و لە سەرووییەوە "نیشانەکردنی ئەم پەڕەیە" هەڵبژێرە. ئەم جۆرە نیشانانە ئایکۆنی چەرخی ددانەیان هەیە.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>چیتر ناتوانن لێرە ئەم پەڕەیە بکەنەوە. نیشانەکە لابەرن، یان لە بەڕێوەبەرێک داوای دەستگەیشتن بکەن.</translation>
     </message>
 </context>
 <context>
@@ -5165,6 +5177,210 @@
         <source>Go to the first page</source>
         <translation>بڕۆ بۆ یەکەم پەڕە</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>هی تر</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>7 ڕۆژی ڕابردوو</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>مەودای دڵخواز</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>هەموو وشەکان</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>هەر وشەیەک</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>دەستەواژەی ورد</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>پەیوەندیداری</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>ناو ئا–ی</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>ناو ی–ئا</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>گۆڕدراو، نوێترین سەرەتا</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>گۆڕدراو، کۆنترین سەرەتا</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>بڵاوکراوە، نوێترین سەرەتا</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>بڵاوکراوە، کۆنترین سەرەتا</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>گۆڕدراو</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>پاڵاوتنەکان</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>پیشاندانی پاڵاوتنەکان</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>شاردنەوەی پاڵاوتنەکان</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>ڕێکخستنەوە</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>جێبەجێکردن</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>وشەکان</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>جۆری ناوەڕۆک</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>زیاتر پیشان بدە (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>جۆرێکی ناوەڕۆک هەڵبژێرە بۆ گەڕان لە یەکێک لە تایبەتمەندییەکانی.</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>بەش</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>لە</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>بۆ</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>بەرواری دەستپێک بەرواری دروست نییە.</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>بەرواری کۆتایی بەرواری دروست نییە.</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>خاوەن</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>ناسنامەی بەکارهێنەر، ناوی چوونەژوورەوە یان ناونیشانی ئیمەیڵ.</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>هیچ بەکارهێنەرێک بۆ «%input» نەدۆزرایەوە.</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>زمان</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>هەر زمانێک</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>شوێن</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>%count شوێن</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>ئەنجام لە هەر پەڕەیەکدا</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>ئەنجامەکانی «%text» (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>ئەنجامەکان (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>ڕیزکردن بەپێی</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>ڕیزکردن</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>پاڵاوتنە چالاکەکان</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>لابردنی ئەم پاڵاوتنە</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>یان پاڵاوتنەکان هەڵبژێرە و جێبەجێیان بکە بۆ لیستکردنی ئەو ناوەڕۆکەی لەگەڵیان دەگونجێت.</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>پاڵاوتنەکان دوای نووسینی وشەکان گەڕانەکە تەسک دەکەنەوە.</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>هیچ ئەنجامێک بۆ «%text» نەدۆزرایەوە.</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>هیچ ئەنجامێک نەدۆزرایەوە.</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>پاڵاوتنێک لە سەرەوە لاببە.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>وەرگێڕانەکان</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>کردارەکان</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>دەستکاریکردنی %name</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>دەستکاری بکە</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -7514,6 +7730,10 @@
         <source>Setup &gt; Cronjobs</source>
         <translation>دامەزراندن &gt; Cronjobs</translation>
     </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>هێشتا هیچ بەشێکی ئەرکەکانی cron کاری نەکردووە: ڕیزی ئەرکەکان، هاوردەکان، ئاگادارکردنەوەکان و پێڕستی گەڕان چاوەڕێن. php bin/php/installcrontab.php --add --apply جێبەجێ بکەن، یان دێڕەکانی --show بۆ crontab زیاد بکەن.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/dashboard/drafts</name>
@@ -8058,8 +8278,8 @@
         <translation>ئاگادارکردنەوەکانی مافی لەبەرگرتنەوەی نووسەرە بنەڕەتییەکان و نەرمامێری لایەنی سێیەمی لەگەڵ Exponential دا هاتوو، وەک مۆڵەتنامەکە داوای دەکات، لە فایلە سەرچاوەکان و لە فایلی LICENSE دا دەپارێزرێن.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>ئەمە لیستی بەشداربووانی Exponential ـە کە کارەکانیان بۆ بەکارهێنانی 7x بەپێی مەرج و ڕێساکانی eZ Systems Contributor Licensing Agreement مۆڵەتپێدراون. وەک ئەم ڕێککەوتنە ڕێگە دەدات، 7x هەر بەشداریەک بە هەمان مۆڵەتنامەی ئەو فایلەی بەشداریەکەی تێدایە دووبارە بڵاو دەکاتەوە. لیستەکە ناوی هەر بەشداربوو، زانیاری پەیوەندیی ئارەزوومەندانە و ئەو فایلانە دەخاتە ڕوو کە بەشدارییان تێدا کردووە.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>بەشداربووانێک کە بۆ کارەکانیان لەسەر Exponential و ئەو نەرمەکاڵایەی لێیەوە پەیدا بوو سوپاس دەکرێن، لەگەڵ ئەو فایلانەی بەشدارییان تێدا کردووە. ئەمە سوپاسگوزارییە، نەک ئاگادارکردنەوەی مافی لەبەرگرتنەوە: بەشدارییەکان لە Exponential بەپێی Contributor Licensing Agreement دەدرێنە Exponential Foundation و 7x.</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13881,32 +14101,20 @@ Note: The packages will not be uninstalled.</source>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%evaluate_link"&gt;Exponential Enterprise Edition تاقی بکەنەوە&lt;/a&gt; - &lt;a href="%share_link"&gt;ببن بە ئەندامی کۆمەڵگای Exponential، ئاڵوگۆڕ بکەن و بەشدار بن&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; مافی لەبەرگرتنەوە &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; و کەسانی تر.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class="edition-info"&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>بە هێزی &lt;span class="edition-info"&gt;%edition&lt;/span&gt;. بۆ زانیاری زیاتر بڕواننە &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; مافی لەبەرگرتنەوە &amp;copy; 1998-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; و کەسانی تر.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> بۆ زانیاری زیاتر بڕواننە &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
     </message>
     <message>
-        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; مافی لەبەرگرتنەوە &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; و کەسانی تر.</translation>
+        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href="%evaluate_link"&gt;Exponential تاقی بکەنەوە (لە 7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;ببن بە ئەندامی کۆمەڵگای Exponential، پشتگیری وەربگرن و بەشدار بن&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; مافی لەبەرگرتنەوە &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; و کەسانی تر.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13915,6 +14123,61 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Help center</source>
         <translation>ناوەندی یارمەتی</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>ناوەڕۆک</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>پەڕەکانی بەڵگەنامە</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>بەکارهێنەران</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>پۆلەکانی ناوەڕۆک</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>بەڕێوەبردن</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>پەڕەی %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>بینینی هەموو ئەنجامەکان</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>%count ئەنجام</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>یەک ئەنجام</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>%count پێشنیار</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>هیچ پێشنیارێک نییە</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>پێشنیارەکان بار نەکران.</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>پێشنیارەکان</translation>
     </message>
 </context>
 <context>
@@ -14383,6 +14646,14 @@ Note: The packages will not be uninstalled.</source>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>ئەم دامەزراندنە دیمۆیەکی گشتییە: هەر کەسێک دەکرێت وشەی نهێنی بەڕێوەبەرەکەی بزانێت، و وشەی نهێنی بەڕێوەبەرەکان ناگۆڕدرێن و ڕێک ناخرێنەوە. لێرە هیچ شتێکی تایبەت مەنووسن.</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>ئامێرەکانتان</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>چالاکیی پاراستن</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14672,6 +14943,14 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>ڕێنمایی، گەڕان و چۆنیەتی ڕاپۆرتکردنی هەڵە.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>ناوەڕۆکی نوێ</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>نوێترین ناوەڕۆک، ئەوەی بۆ پێداچوونەوە ڕاگیراوە، و کردارەکان لەسەر هەڵبژاردنێک.</translation>
     </message>
 </context>
 <context>
@@ -15130,6 +15409,46 @@ Note: The packages will not be uninstalled.</source>
         <source>Synchronisations</source>
         <translation>هاوکاتکردنەکان</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>API ی GraphQL: خاڵی کۆتایی، سکیما و شوێنێک بۆ تاقیکردنەوەی پرسیارەکان.</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>گواستنەوەکان</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>گۆڕانکارییەکانی دامەزراندن کە وەک فایل پارێزراون: بارودۆخیان، جێبەجێکردنەکان، جێبەجێکردن و گەڕاندنەوە.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>ناوەڕۆکی نوێ</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>نوێترین ناوەڕۆک، ئەوەی بۆ پێداچوونەوە ڕاگیراوە، و کردارەکان لەسەر هەڵبژاردنێک.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>کۆپییەکی چەسپاوی ماڵپەڕێک بۆ GitHub Pages یان هەر خانەخوێیەکی git بڵاو بکەنەوە.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>بڵاوکردنەوەی چەسپاو</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>جۆرەکانی داتا</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>هەموو جۆرێکی داتای ناوک و پێوەکراوەکان، و پۆل و ناوەڕۆک چۆن بەکاری دەهێنن.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15294,6 +15613,22 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>هەژمارەکان کە کەس بەکاریان ناهێنێت یان پێویستیان بە سەیرکردنە؛ ناچالاکیان بکەن، قوفڵیان بکەنەوە یان هەناردەیان بکەن.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>تۆماری ئۆدیتی بەکارهێنەران</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>کێ گۆڕانکاری کرد، چووە ژوورەوە یان ڕەتکرایەوە، بەپێی هەر هەژمارێک؛ پاڵاوتن و هەناردەکردن.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>ڕاپۆرتی چوونەژوورەوە</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>کێ چووەتە ژوورەوە، چوونەژوورەوەکان و شکستەکان بۆ هەر ڕۆژێک؛ دەرکردنی بەکارهێنەرێک لە هەموو شوێنێک.</translation>
     </message>
 </context>
 <context>
@@ -22110,6 +22445,22 @@ Note: The packages will not be uninstalled.</source>
         <source>%n hours ago</source>
         <translation>%n کاتژمێر لەمەوبەر</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>وەڵامی پرسیارە پاشەکەوتکراوەکانی API ی GraphQL، و پۆلەکانی ناوەڕۆکی سکیماکەی.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>کۆپییەکی چەسپاو بۆ GitHub Pages یان هەر خانەخوێیەکی git بڵاو بکەنەوە</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>بڵاوکردنەوەی چەسپاو</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>کاشی چەسپاو پەڕەکان لەم ڕاژەکارەوە پێشکەش دەکات. بۆ بڵاوکردنەوەی کۆپییەکی چەسپاوی ماڵپەڕێک لە شوێنێکی تر، لەسەر GitHub Pages یان هەر خانەخوێیەکی git، بڵاوکردنەوەی چەسپاو بەکاربهێنن.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25651,6 +26002,10 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>last purge</source>
         <translation>دوایین سڕینەوە</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>نووسینەکان نەیانتوانی قفڵی دۆخ وەربگرن (دوایین جار %date): هەر یەکێکیان هەموو ئەنجامە کاشکراوەکانی کۆن کرد. %file دەبێت بۆ هەر بەکارهێنەرێک کە ماڵپەڕەکە پێی کار دەکات بنووسرێت؛ لە NFS پێویستی بە NFSv4 یان lockd هەیە.</translation>
     </message>
 </context>
 <context>
@@ -33599,6 +33954,14 @@ Note: The packages will not be uninstalled.</source>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>دانیشتنە کاتبەسەرچووەکانی بەڕێوەبەری PHP لەلایەن خودی PHP ەوە لادەبرێن (session.gc_maxlifetime)، نەک لەلایەن ئەم لاپەڕەیە یان بەشی cronjobی session_gc.</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>دانیشتنە چوونەژوورەوەکانی هەموو بەکارهێنەران لە ڕاپۆرتی چوونەژوورەوەدا لیست دەکرێن و دەردەکرێن؛ ئەم ڕاپۆرتە لەگەڵ هەموو هەندڵەرێکی دانیشتن کار دەکات.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>کردنەوەی ڕاپۆرتی چوونەژوورەوە</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37923,6 +38286,26 @@ your account.</source>
     <message>
         <source>None yet</source>
         <translation>هێشتا هیچ</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>چالاکیی پاراستن</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>دوایین چوونەژوورەوەکانتان، هەوڵە سەرنەکەوتووەکان و گۆڕانکارییەکان لە وشەی نهێنی، ناونیشانی ئیمەیڵ و چوونەژوورەوەی دوو-قۆناغیتاندا.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>دوایین چوونەژوورەوەکان، هەوڵە سەرنەکەوتووەکان و گۆڕانکارییەکانی پاراستنی ئەم هەژمارە.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>پێداچوونەوەی چالاکی</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>%count چوونەژوورەوەی سەرنەکەوتوو</translation>
     </message>
 </context>
 <context>
@@ -44089,6 +44472,42 @@ If you want to send comments to the approver or view the status use the URL belo
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>دوای چوونەژوورەوە، بەکارهێنەر دەبێت پێش هەر شتێکی دیکە وشەی نهێنییەکی نوێ هەڵبژێرێت. کاتێک وشەی نهێنییەکی کاتی دەدەن بە کەسێک بەکاری بهێنن.</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>هەڵبژاردنی وێنەیەکی هەبوو</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>فایلی وێنەی ئەو ئۆبجێکتەی هەڵیدەبژێرن بۆ ئەم خانەیە کۆپی دەکرێت. ئۆبجێکتەکەی تر ناگۆڕێت.</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>وێنەی «%name» بۆ ئەم خانەیە کۆپی کرا.</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>گەڕان بەناو بۆ وێنە</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>گەڕان بە دوای وێنەدا بە ناو</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>گەڕان</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>بەکارهێنانی وێنەی «%name»</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>بەکارهێنانی ئەم وێنەیە</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>هیچ وێنەیەک لەگەڵ گەڕانەکەتان ناگونجێت.</translation>
     </message>
 </context>
 <context>
@@ -51013,6 +51432,10 @@ See the requirements page for more information.</source>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>crontab نەنووسرا (%reason). ئەم دێڕانە بۆ crontabی ئەو بەکارهێنەرە زیاد بکەن کە ماڵپەڕەکەی پێ کار دەکات، ئەگینا ڕیز، هاوردەکان، ئاگادارکردنەوەکان و پێڕستی گەڕان هەرگیز کار ناکەن:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>دووبارە دامەزراندن بە kickstarter دەکرێت (%file، پاشان php bin/php/kickstarter.php run --apply) یان بە دامەزراندنێکی نوێ.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54892,6 +55315,10 @@ your account.</source>
         <source>eZJSCore Public Packer cache</source>
         <translation>کاشی پاکێجکەری گشتیی eZJSCore</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>کاشی GraphQL (وەڵامەکان و پۆلەکانی سکیما)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54978,6 +55405,14 @@ your account.</source>
     <message>
         <source>Copy of %class_name</source>
         <translation>لەبەرگیراوەی %class_name</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>جۆرەکانی داتا</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>جۆری داتا %string</translation>
     </message>
 </context>
 <context>
@@ -55804,6 +56239,26 @@ your account.</source>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>وێنەی SVG نەخوێندرایەوە، یان هیچ بەشێکی بە سەلامەتی نیشان نادرێت.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>وێنەکە کۆپی نەکرا. تکایە دووبارە هەوڵ بدەنەوە یان پەیوەندی بە بەڕێوەبەری ماڵپەڕەوە بکەن.</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>ئۆبجێکتی هەڵبژێردراو بوونی نییە یان ڕێگەتان پێ نادرێت بیخوێننەوە.</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>ئۆبجێکتی هەڵبژێردراو هیچ وێنەیەکی نییە.</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>فایلی وێنەی ئۆبجێکتی هەڵبژێردراو نەخوێندرایەوە.</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>وێنەی ئۆبجێکتی هەڵبژێردراو لەوە گەورەترە کە ئەم خانەیە ڕێگەی پێدەدات: %1 بایت.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56334,6 +56789,42 @@ your account.</source>
         <source>The bookmark was renamed to "%name".</source>
         <translation>ناوی نیشانەکە گۆڕدرا بۆ "%name".</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>ئەم پەڕەیە لەم دەستگەیشتنی ماڵپەڕەدا (%siteaccess) ناچالاککراوە. نیشانەکە لە دەستگەیشتنێکی ماڵپەڕدا بکەنەوە کە ئەم پەڕەیەی تێدایە.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>مۆدیولی ئەم پەڕەیە لێرە دانەمەزراوە یان چالاک نەکراوە.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>ئەم پەڕەیە چیتر بوونی نییە: مۆدیولەکەی پیشاندانێکی وای نییە.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>هیچ کام لە ڕۆڵەکانتان ڕێگەتان پێ نادات ئەم پەڕەیە بکەنەوە.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>ناتوانن ئەم دەستگەیشتنی ماڵپەڕە بەکاربهێنن.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>ناتوانن ئەو ناوەڕۆکە بخوێننەوە کە ئەم پەڕەیە پیشانی دەدات.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>ئەم جۆرە پەڕەیە ناتوانرێت نیشانە بکرێت: تەنها کار لەسەر فۆرمێک دەکات، یان پەڕەی یەک ساتە.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>ناونیشانی ئەم پەڕەیە نییە.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>ئێستا ناتوانرێت ئەم پەڕەیە بکرێتەوە.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56805,6 +57296,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>گواستنەوەی ئیمەیڵ لە دوایین جێبەجێکردندا %count نامەی ڕەتکردەوە. سێرڤەری ئیمەیڵ و site.ini MailSettings بپشکنن.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>%count ڕووداو چاوەڕێن و هیچ کارکردنێکی ئەرکی cronی ئاگادارکردنەوەکان تۆمار نەکراوە. بەشی ئەرکی cron &quot;frequent&quot; بۆ crontab زیاد بکەن، یان exp:notification:run --apply جێبەجێ بکەن.</translation>
     </message>
 </context>
 <context>
@@ -63061,6 +63556,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Choose another site or section with the node picker</source>
         <translation>ماڵپەڕ یان بەشێکی دیکە بە هەڵبژێری گرێ هەڵبژێرن</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>تەنها بەڕێوەبەری سیستەم دەتوانێت خاوەن بگۆڕێت: ./console exp:content-check --fix-permissions --apply وەک root جێبەجێ بکەن.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64594,6 +65093,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>empty</source>
         <translation>بەتاڵ</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>کلیلی واژووکردن لە ساڵێک کۆنترە: بە exp:audit key rotate --apply بیگۆڕن.</translation>
     </message>
 </context>
 <context>
@@ -68424,6 +68927,486 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Share of page time</source>
         <translation>بەشی کاتی پەڕە</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>داوای پێشکەشکردنی تەواو کرا</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>کاشی پەڕە ئەم پەڕەیەی نەبوو (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>کاشی پەڕە وەڵامی نەدایەوە</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>پێشکەشکراو</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>لەلایەن ناوکەوە پێشکەش کرا: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>لە %ms ms لە کاشی پەڕەوە خزمەت کرا. پەڕەکە لە %stored لەلایەن پێشکەشکردنێکی %render ms هەڵگیرا، %age چرکە لەمەوبەر.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>ئێستا پێشکەشی بکە</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>گەڕانەوە بۆ بینینی ناو کاش</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>لە پێشکەشکردنی %stored (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>ئەم داواکارییە: لە %ms ms لە کاشی پەڕەوە خزمەت کرا.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>بەکارهێنەر</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>ID ی بەکارهێنەر</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>پرۆفایلی کاش</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>ئەم پیشاندانە</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>کاشی بینین</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>بۆ هەر بەکارهێنەرێک (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>پرۆفایلی کاشی بەکارهێنەر: بەکارهێنەرانی خاوەن هەمان پرۆفایل فایلەکانی کاشی پیشاندان هاوبەش دەکەن</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>بەڵێ</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>نەخێر</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>ناوی چوونەژوورەوە</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>چووەتە ژوورەوە</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>دانیشتن</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>ئەو بەشانەی کلیلی کاشی پیشاندانی ناوەڕۆک کە پەیوەستن بە بەکارهێنەرەوە، ڕێک وەک کلیلەکە وەریان دەگرێت، بەپێی ViewCacheTweaks ی ئەم پەڕەیە. بەکارهێنەرانی خاوەن هەمان پرۆفایل فایلەکانی کاشی پیشاندانەکان هاوبەش دەکەن، مەگەر بەشەکانی خودی پیشاندانێک جیاواز بن (هەڵبژاردەکان، کلیلەکانی گوێگرەکان): ئەوانە پرۆفایلی خۆیان هەیە، تەنها بۆ ئەم پەڕەیە.</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>پرۆفایل</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>ئەم پیشاندانە (گرێی %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: هەر بەکارهێنەرێکی چووەژوورەوە فایلی کاشی تایبەتی خۆی هەیە.</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>ViewCacheTweaks ی چالاک: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>بەش</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>بەها</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>هیچ بەشێک پەیوەست نییە بە بەکارهێنەرەوە (ViewCacheTweaks).</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>ئەم پیشاندانە</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>لەبەرگرتنەوە وەک دەق</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>ڕۆڵەکان</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>هیچ دیاریکردنێکی ڕۆڵ نەخوێندرایەوە.</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>ناسنامەی ڕۆڵ</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>ڕۆڵ</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>سنووردارکردن</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>دیاریکراوە بۆ</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>بەکارهێنەر</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>گرووپی %name (ئۆبجێکتی %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>لەبەر گیرایەوە</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>لەبەرگرتنەوە سەرکەوتوو نەبوو.</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>لەلایەن گوێگرێکەوە لابراوە</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>سەردانیکەرە نەناسراوەکان</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>وەک هی تۆ</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>جیاواز</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>ئەو پرۆفایلەی میوانە نەناسراوەکان بەپێی هەمان ViewCacheTweaks وەری دەگرن، بە هەڵبژاردە بنەڕەتییەکان، بەبێ بەشەکانی پیشاندان: ناتوانرێت لە گوێگرێک کە دانیشتنەکە دەخوێنێتەوە داوایان بکرێت.</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>هەڵبژاردەکان</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>هیچ شێوازێکی پیشاندان پەیوەست نییە بە هەڵبژاردەکانی بەکارهێنەرەوە (site.ini [ContentSettings] CachedViewPreferences).</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>ئەو هەڵبژاردانەی پیشاندانەکانی ئەم شێوازانەی پیشاندان پشتیان پێ دەبەستن (CachedViewPreferences)، بە بەهای بەکارهێنەر یان بەهای بنەڕەتی. لە پرۆفایلەکەدا وەک userpreferences هەن، هی هەموو شێوازەکانی پیشاندان پێکەوە.</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>دۆخی پیشاندان</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>هەڵبژاردە</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>بنەڕەت</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>سیاسەتەکان</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>پیشاندانی سیاسەتەکانی ڕۆڵەکان (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>سیاسەتەکان کاتێک ئەم بەشە دەکرێتەوە لە ڕاژەکارەوە بار دەکرێن، پەڕە بە پەڕە، و دەتوانرێت بەپێی مۆدیوول و فەنکشن پاڵێو بکرێن.</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>فەنکشن</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>هەموو مۆدیولەکان</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>هەموو فەنکشنەکان</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>سنووردارکردنەکان</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>زیاتر پیشان بدە</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>ئەم ڕۆڵانە هیچ سیاسەتێکیان نییە.</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>هیچ سیاسەتێک لەگەڵ پاڵێوەرەکە ناگونجێت.</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%shown لە %matching سیاسەت (کۆی گشتی %total)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>کاتێک دەکرێتەوە بار دەکرێت.</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>module/function، ڕۆڵ، سنووردارکردن</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>گەڕان لە سیاسەتەکان</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>زیاتر بار بکە</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>مۆدیول/فەنکشن</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>هەموو ڕۆڵەکان (%count سیاسەت)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>هیچ سیاسەتێک نەگونجا.</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%shown لە %matched سیاسەت</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>هیچ وەڵامێک نییە</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>شاردراوە</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>ڕوونکردنەوەکان پیشان بدە</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>ڕوونکردنەوەکان بشارەوە</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>کردنەوە</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>کردنەوەی هەموو</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>داخستنی هەموو</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>کلیل یان بەها</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>گەڕان لە دانیشتن</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>جۆر</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>%count ی تر</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>زۆر قووڵ تێکهەڵکێش کراوە بۆ پیشاندان</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>بڕاوە، سەرجەم %count پیت</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>دەستی پێکرد</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>ناوی کووکی</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>ناسنامەی دانیشتن</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>بەڕێوەبەر</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>ڕێڕەوی پاشەکەوت</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>بنەڕەتی PHP</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>ماوەی ژیان (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>کووکی</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>ماوەی ژیان %s چ</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>دانیشتنی PHP ی خۆت، وەک ئەوەی کاتێک بەشەکە کرایەوە هەبوو، هەرگیز هی کەسێکی تر نا. بەهای ئەو کلیلانەی وەک نهێنی دەردەکەون (تۆکن، هاش، وشەی نهێنی) شاردراونەتەوە (debugbar.ini SessionMask[])؛ هەموو شتێکی تر وەک خۆی پاشەکەوت کراوە پیشان دەدرێت، زانیاریی کەسیش.</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>%count کلیل، %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>گەورە</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>دانیشتنەکە بەتاڵە.</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>هیچ دانیشتنێک بۆ ئەم داواکارییە دەستی پێنەکرد.</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>پێوەکراوی %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>کێرنێل و ئەوانی تر</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>هەموو تۆمارەکان پیشان نادرێن: دانیشتنەکە زیاترە لەوەی لێرە بتوانرێت لیست بکرێت.</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>%count کلیل لیست نەکراون.</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>چوارچێوە</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>ئەو بەهایانەی وەک تۆکن دەردەکەون (JSON Web Token، زانیاریی ناسینەوەی سەردێڕی Authorization، کلیلێکی تایبەت، دەقێکی hex ی درێژ یان هەڕەمەکی) ئەوانیش دەشاردرێنەوە، ناوی کلیلەکەیان هەرچی بێت (debugbar.ini SessionValueMask[]).</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>کلیلەکە وەک نهێنی دەردەکەوێت (debugbar.ini SessionMask[]).</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>بەهاکە وەک تۆکن دەردەکەوێت.</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>لە ژێر کلیلێکی شاردراوەدا.</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>دانیشتنەکە وەک دەق، وەک خشتەکە شاردراوە.</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>دانیشتنەکە لە %size گەورەترە (debugbar.ini SessionWarnBytes): هەر داواکارییەکی ئەم بەکارهێنەرە هەموو دانیشتنەکە دەخوێنێتەوە، و کاتێک گۆڕا دەینووسێتەوە.</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP ئەم دانیشتنە لە فایلدا هەڵدەگرێت و فایلەکە بۆ هەموو داواکارییەکە قوفڵ دەکات: داواکارییەکانی هەمان بەکارهێنەر (چەند تاب، بانگکردنی AJAX) چاوەڕێی یەکتر دەکەن.</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>بە کراوەیی بهێڵەوە</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>لە %size گەورەترە (debugbar.ini SessionWarnBytes): هەر داواکارییەکی ئەم بەکارهێنەرە هەموو دانیشتنەکە دەخوێنێتەوە.</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%hits لە %count لە کاشەوە خوێندرانەوە</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>هیچ قاڵبێک دروست نەکرا (دیمەنێک کە لە کاشی دیمەنەوە خوێندرابێتەوە هیچ قاڵبێک دروست ناکات).</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>دیاریکردنەکانی ڕۆڵ</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>ڕۆڵ و سیاسەتەکان</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>جیاوازە لە سەردانکەرانی بێناو</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>وەک سەردانکەرانی بێناو</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70304,6 +71287,14 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>not sent</source>
         <translation>نەنێردراوە</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>ئەرکی cronی ئاگادارکردنەوەکان هەموو کارکردنێکی خۆی لێرە تۆمار دەکات. بەشی frequent بۆ crontab زیاد بکەن، یان exp:notification:run --apply جێبەجێ بکەن.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>کۆنسۆڵ بەکاربهێنن: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -76022,6 +77013,98 @@ You will need to change the class of the node by using the swap functionality.</
         <source>This topic is not Released; readers do not see it.</source>
         <translation>ئەم بابەتە بڵاونەکراوەتەوە؛ خوێنەران نایبینن.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>گواستنەوەکان</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>گۆڕانکارییەکانی دامەزراندن کە وەک فایل پارێزراون: بارودۆخیان، جێبەجێکردنەکان، جێبەجێکردن و گەڕاندنەوە.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>کۆپییەکی چەسپاوی ماڵپەڕێک بۆ GitHub Pages یان هەر خانەخوێیەکی git بڵاو بکەنەوە.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>بڵاوکردنەوەی چەسپاو</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>لە پێداچوونەوەدا</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>خوێنەران ئەم پەڕەیە دەبینن.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>لە خوێنەران شاردراوەتەوە تا کەسێک بڵاوی دەکاتەوە.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>پەڕەکە ئێستا لە پێداچوونەوەدایە. تا بڵاو نەکرێتەوە لە خوێنەران شاردراوەتەوە.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>پەڕەکە بڵاوکراوەتەوە: خوێنەران ئێستا دەیبینن.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>پەڕەکە دووبارە ڕەشنووسە. تا پێداچوونەوەی بۆ نەکرێت و بڵاو نەکرێتەوە لە خوێنەران شاردراوەتەوە.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>ئێستا بڵاوی بکەرەوە</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>تەنها بەکارهێنەرێک کە ڕۆڵی %role ی هەیە و ئەم وەشانەی نەنووسیوە دەتوانێت بڵاوی بکاتەوە.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>بابەتەکانی یارمەتی کە چاوەڕێی بڵاوکردنەوەن</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>لە خوێنەرانی دەشارێتەوە تا دووبارە بڵاو دەکرێتەوە.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>دواتر پێداچوونەوەکارێک پشکنینی بۆ دەکات. خوێنەران هێشتا نایبینن.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>خوێنەران دەستبەجێ دەیبینن.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>بۆ کاری زیاتر لە پێداچوونەوە دەری دەهێنێت. خوێنەران نایبینن.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>ئەم پەڕەیە لە خوێنەران بشاردرێتەوە؟</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>ئەم پەڕەیە بگەڕێنرێتەوە بۆ ڕەشنووس؟</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>خوێنەران چیتر %title نابینن تا کەسێک دووبارە بڵاوی دەکاتەوە.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title بۆ کاری زیاتر دەگەڕێتەوە بۆ ڕەشنووس. خوێنەران هێشتا نایبینن، و پێش بڵاوکردنەوە پێداچوونەوەیەکی نوێی پێویستە.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>هەڵوەشاندنەوە</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>ئەم بابەتانە لە پێداچوونەوەدان. هەر کە کەسێک کە وەشانی ئێستای نەنووسیوە بڵاویان بکاتەوە، خوێنەران دەیانبینن.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76477,6 +77560,46 @@ You will need to change the class of the node by using the swap functionality.</
         <source>None.</source>
         <translation>هیچ.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>بە ئەپی پشتڕاستکردنەوە</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>بە کۆدێک لە ڕێگەی ئیمەیڵەوە</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>بە کۆدی گەڕاندنەوە</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>بە Passkey</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>بە هەژمارێکی دەرەکی</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>چالاکیی پاراستن</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>وەک تۆڕەکەی پیشان دەدرێت؛ ناونیشانەکە بەو شێوەیە هەڵدەگیرێت کە ڕێکخستنەکانی پاراستنی داتای ماڵپەڕەکە دەڵێن.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>تۆمار نەکراوە</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>شوێن</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>نزیکەیی</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76720,6 +77843,42 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Manage devices</source>
         <translation>بەڕێوەبردنی ئامێرەکان</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>بە ئەپی پشتڕاستکردنەوە</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>بە کۆدێک لە ڕێگەی ئیمەیڵەوە</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>بە کۆدی گەڕاندنەوە</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>بە Passkey</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>بە هەژمارێکی دەرەکی</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>چالاکیی پاراستن</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>تۆمار نەکراوە</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>شوێن</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>نزیکەیی</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76799,6 +77958,14 @@ You will need to change the class of the node by using the swap functionality.</
         <source>View the sessions of this user</source>
         <translation>بینینی دانیشتنەکانی ئەم بەکارهێنەرە</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>هەژمارەکەتان %login لە %site ئێستا بەکارهات بۆ چوونەژوورەوە لە شوێنێکەوە کە لەم دواییانەدا لێیەوە نەچووەتە ژوورەوە:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>شوێنی نزیکەیی</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76837,6 +78004,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%browser لەسەر %os</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>ڕاپۆرتی چوونەژوورەوە</translation>
     </message>
 </context>
 <context>
@@ -77045,6 +78216,82 @@ You will need to change the class of the node by using the swap functionality.</
         <source>The passkey could not be checked. Please try again.</source>
         <translation>پاسکییەکە نەتوانرا بپشکنرێت. تکایە دووبارە هەوڵ بدەنەوە.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>ئەو هەژمارانەی تەنها بە پاسکی دەچنە ژوورەوە ناتوانن لێرە وشەی نهێنی بەکاربهێنن: «چوونەژوورەوە بە پاسکی» هەڵبژێرن.</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>پاسکییەکانی %login</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>ئەو پاسکییانەی ئەم هەژمارە پێیان دەچێتە ژوورەوە. ئەوەی لەسەر ئامێرێکی ونبوو یان دزراوە باتڵی بکەنەوە: ئیتر ناتوانێت بچێتە ژوورەوە. خاوەنەکە خۆی پاسکیی نوێ زیاد دەکات.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>هەژمارەکەتان پێویستی بە پاسکییەکە</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>پاسکییەک بۆ هەژمارەکەتان زیاد بکەن</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>بۆ بەردەوامبوون پاسکییەک زیاد بکەن. دواتر لە جیاتی تەنها وشەی نهێنی، بەو دەچنە ژوورەوە.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>چوونەژوورەوە بە پاسکی خێراتر و پارێزراوترە لە وشەی نهێنی. ئێستا یەکێک زیاد بکەن، یان بەبێ ئەو بەردەوام بن.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>ئێستا نا</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>پاسکی &quot;%name&quot; باتڵ بکرێتەوە؟</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>ئیتر ناتوانێت بچێتە ژوورەوەی ئەم هەژمارە. ئەگەر دواینیان بوو، خاوەنەکە بە وشەی نهێنی دەچێتە ژوورەوە، یان ئێوە وشەیەکی نهێنی نوێ دادەنێن.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>باتڵکردنەوەی پاسکی</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>باتڵکردن</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>ئەم هەژمارە هیچ پاسکییەکی نییە.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>سەلمێنەر</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>نەناسراو</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>دوایین پاسکیتان: پێش لابردنی، یەکێکی تر زیاد بکەن.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>ئەم هەژمارە تەنها بە پاسکی دەچێتە ژوورەوە (سیاسەتی پاسکی): ئەگەر هیچیان نەمێنێت، دووبارە بە وشەی نهێنی خۆی دەچێتە ژوورەوە.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>ئەمە دوایین پاسکیتانە و هەژمارەکەتان بەبێ پاسکی ناتوانێت بچێتە ژوورەوە. سەرەتا پاسکییەکی تر زیاد بکەن.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>پاسکی &quot;%name&quot; باتڵ کرایەوە. ئیتر ناتوانێت بچێتە ژوورەوەی ئەم هەژمارە.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77144,6 +78391,34 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Code from your authenticator app</source>
         <translation>کۆد لە ئەپی سەلماندنی ئێوە</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>ئێوە خەریکن داتا بە یەکجاری بسڕنەوە یان تۆمارێک بەتاڵ بکەنەوە.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>وشەی نهێنیتان و پاسکییەک</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>وشەی نهێنیتان و کۆدێک لە ئەپی سەلمێنەرەکەتان</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>یان:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>ئەم وێبگەڕە ناتوانێت پاسکی بەکاربهێنێت. ڕێگایەکی تر، یان وێبگەڕێکی تر بەکاربهێنن.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>کاتێک بەردەوام دەبن، وێبگەڕەکەتان داوای یەکێک لە پاسکییەکانتان دەکات.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>بەردەوامبوون بە پاسکی</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77234,6 +78509,70 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Setup</source>
         <translation>دامەزراندن</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>گۆڕینی وشەی نهێنی، ناونیشانی ئیمەیڵ، پاسکی، چوونەژوورەوەی دوو-قۆناغی، کۆدەکانی گەڕاندنەوە یان کلیلەکانی API ی خۆتان، و چوونەدەرەوە لە ئامێرەکانی تری خۆتان.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>دروستکردن و دەستکاریکردنی بەکارهێنەران، وشەی نهێنی و ئامێرەکانیان، ڕێکخستنەکانی هەژمار، پەسەندکردن یان ڕەتکردنەوەی هەژماری بەکارهێنەری نوێ، دیاریکردنی ڕۆڵەکان و دەستکاریکردنی سیاسەتەکان.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>سڕینەوەی داتا</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>بەتاڵکردنەوەی سەبەتەی خۆڵ، لابردنی بڕگەکان لێی و لابردنی چەند بڕگەیەک بە یەکجار.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>لابردن، بڵاوکردنەوە و پاشەکەوتکردنی ناوەڕۆک</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>لابردنی ناوەڕۆک (بۆ سەبەتەی خۆڵیش)، بڵاوکردنەوە و پاشەکەوتکردنی ڕەشنووس، لە کاتی ناردنی فۆرمەکە دەپرسرێت. بە بنەڕەت ناچالاکە.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>پێش کرداری هەستیار، بەکارهێنەری چووەژوورەوە دووبارە دڵنیایی دەدات کە کێیە: بە وشەی نهێنی و پاسکییەک، یان بەبێ پاسکی بە وشەی نهێنی و کۆدی ئەپی سەلماندنەکەی. تەنها پەڕەکانی وێب دەپرسن: ڕووکاری REST، SOAP، WebDAV، چوونەژوورەوەی expservices و هێڵی فەرمان هەرگیز ناپرسن.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>ڕێکخستنەکان لە کوێ جێبەجێ دەبن</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>ڕێکخستنەکان بۆ</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>هەموو دەستگەیشتنێکی ماڵپەڕ</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>دەستگەیشتنی ماڵپەڕ %name</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>کردنەوە</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>کێ دەپرسرێت: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>گرووپەکانی بەکارهێنەر نیشان بکەن بۆ ئەوەی تەنها ئەندامەکانیان بپرسرێن (بۆ نموونە سەرنووسەران). هیچ نیشان نەکراوە: هەموو بەکارهێنەرێک.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>لە settings/override/site.ini.append.php پاشەکەوت کرا، بۆ هەموو دەستگەیشتنێکی ماڵپەڕ. لە کاتی پاشەکەوتکردن داوا لە ئێوە دەکرێت دڵنیا بکەنەوە کە ئێوەن.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>لە settings/siteaccess/%name/site.ini.append.php پاشەکەوت کرا. بەهایەک لە settings/override پێشی دەکەوێت. لە کاتی پاشەکەوتکردن داوا لە ئێوە دەکرێت دڵنیا بکەنەوە کە ئێوەن.</translation>
     </message>
 </context>
 <context>
@@ -77336,6 +78675,6822 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Open the page</source>
         <translation>کردنەوەی پەڕەکە</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from بۆ %to لە %count</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>ناوی چوونەژوورەوە یان ناسنامەی بەکارهێنەر: ئەو هەژمارەی ڕووداوەکە دەربارەی بوو یان ئەو بەکارهێنەرەی کردارەکەی کرد.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>هەژمار</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>کردار</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>پاش</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>هەر ئەنجامێک</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>پێش</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>لەلایەن</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>پاککردنەوە</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>ئەنجامدرا</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>ڕووداوەکان بۆ ماوەی %days ڕۆژ هەڵدەگیرێن.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>ڕووداوەکان هەڵدەگیرێن تا بە دەست لادەبرێن.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>ڕووداوەکان</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>هەر کردارێک</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>هەموو ڕووداوەکانی ئەم هەژمارە</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>هەناردەکردنی لیستەکە وەک CSV (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>سەرنەکەوت</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>لە</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>تەسککردنەوەی لیستەکە</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>هیچ ڕووداوێک ناگونجێت.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>لە هەر پەڕەیەکدا</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>تۆمارکردن لە audit.ini ناچالاک کراوە ([UserAuditSettings] UserAudit)؛ لیستەکە ئەوە پیشان دەدات کە پێشتر تۆمار کراوە.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>ڕەتکرایەوە</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>ئەنجام</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>پیشاندان</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>خشتەی تۆماری ئۆدیتی بەکارهێنەران بوونی نییە. بە php update/common/scripts/6.0/createuseraudittable.php دروستی بکەن؛ تا ئەو کاتە فایلەکانی ئۆدیت هەموو ڕووداوێک هەڵدەگرن.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>ئەم پەڕەیە پێویستی بە بنکەدراوەی SQL هەیە؛ لەسەر MongoDB بەردەست نییە. فایلەکانی ئۆدیت هەموو ڕووداوێک هەڵدەگرن.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>بۆ</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>تۆماری ئۆدیتی بەکارهێنەران</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>بەکارهێنەر</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>کات</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>شوێن</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>کێ کام هەژماری گۆڕی، دروستکرد، چالاککرد، ناچالاککرد، گواستەوە یان لابرد، کێ چووە ژوورەوە یان ڕەتکرایەوە، و کام ڕۆڵ دیاری کران: یەک دێڕ بۆ هەر ڕووداوێک، لەگەڵ خانەکان پێش و پاش گۆڕانکاری. وشە نهێنییەکان و زانیارییە نهێنییەکان هەرگیز تۆمار ناکرێن.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>کۆمەڵە</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>سیستەم</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>نەناسراو</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>هەژمارەکەتان بپارێزن</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>کۆدێکی گەڕاندنەوە بەکارهات بۆ چوونەژوورەوە بۆ هەژمارەکەتان %login لە %site.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>کۆدێکی گەڕاندنەوە بەکارهات</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>هەژمار</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>ناونیشانی نزیکەیی</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>بۆ چوونەژوورەوەی دووبارە داوای وشەی نهێنیی نوێ بکەن، یان پەیوەندی بە بەڕێوەبەرانی ماڵپەڕەکەوە بکەن.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>داواکردنی وشەی نهێنیی نوێ</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>هەر کۆدێکی گەڕاندنەوە یەک جار کار دەکات. ئەگەر تەلەفۆنەکەتان ون کردووە، ئەپی پشتڕاستکردنەوەکەتان دووبارە ڕێک بخەنەوە و کۆدە نوێکانی گەڕاندنەوە لە شوێنێکی پارێزراودا هەڵبگرن.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>هەوڵە سەرنەکەوتووەکانی چوونەژوورەوە بۆ هەژمارەکەتان</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>لەمەودوا، چوونەژوورەوە جگە لە وشەی نهێنییەکەتان داوای کۆدێکیش دەکات. ئەگەر ئێوە ئەمەتان کردووە، پێویست ناکات هیچ بکەن.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>ئەگەر ئێوە بوون و وشەی نهێنییەکەتان لەبیر کردووە، داوای وشەی نهێنیی نوێ بکەن. ئەگەر نا، وشەی نهێنییەکی بەهێزتر هەڵبژێرن و چوونەژوورەوەی دوو-قۆناغی چالاک بکەن.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>ئەگەر ئێوە نەبوون، لەوانەیە کەسێک وشەی نهێنییەکەتان بزانێت: ئێستا بیگۆڕن و بپشکنن هەژمارەکەتان لە کوێ چووەتە ژوورەوە.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>کۆدە ماوەکانی گەڕاندنەوە</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>پێداچوونەوەی ئامێرەکانتان</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>ئاگاداریی پاراستن</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>کەسێک هەوڵی دا %count جار لە دوای یەک بە وشەی نهێنیی هەڵە بچێتە ژوورەوەی هەژمارەکەتان %login لە %site.</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>ڕووداوێکی پاراستن لە هەژمارەکەتان %login لە %site ڕوویدا.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>ئەمە ئاگادارییەکی پاراستنە دەربارەی هەژمارەکەتان. بۆ هەموو گۆڕانکارییەکی لەم جۆرە دەنێردرێت و ناتوانرێت بکوژێنرێتەوە.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>کات</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>چوونەژوورەوەی دوو-قۆناغی بۆ هەژمارەکەتان %login لە %site ناچالاک کرا.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>چوونەژوورەوەی دوو-قۆناغی ناچالاک کرا</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>چوونەژوورەوەی دوو-قۆناغی بۆ هەژمارەکەتان %login لە %site چالاک کرا.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>چوونەژوورەوەی دوو-قۆناغی چالاک کرا</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>هەژمارەکەتان %login لە %site دوای چوونەژوورەوەی سەرنەکەوتووی زۆر داخرا.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>هەژمارەکەتان ئێستا تەنها بە وشەی نهێنییەکەتان پارێزراوە. ئەگەر ئێوە ئەمەتان نەکردووە، دوای گۆڕینی وشەی نهێنییەکەتان چوونەژوورەوەی دوو-قۆناغی دووبارە چالاک بکەنەوە.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>هەژمارەکەتان داخرا</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>پاسکییەک بۆ هەژمارەکەتان %login لە %site زیاد کرا.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>هەر کەسێک ئەم پاسکییەی هەبێت دەتوانێت بەبێ وشەی نهێنیتان بچێتە ژوورەوەی هەژمارەکەتان. ئەگەر ئێوە زیادتان نەکردووە، لە بەشی پاسکی لای ببەن و وشەی نهێنیتان بگۆڕن.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>پاسکییەک لە هەژمارەکەتان %login لە %site لابرا.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>ئیتر ناتوانێت بچێتە ژوورەوەی هەژمارەکەتان. ئەگەر ئێوە لاتان نەبردووە، پاسکی و ئامێرەکانتان بپشکنن.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>پاسکییەک بۆ هەژمارەکەتان زیاد کرا</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>پاسکییەک لە هەژمارەکەتان لابرا</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>چالاکیی پاراستن</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>چالاکیی پاراستنی %name</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>چووەتە ژوورەوە</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>هەوڵی سەرنەکەوتووی چوونەژوورەوە</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>چووەتە دەرەوە</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>دانیشتنەکان دەرکران</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>چوونەژوورەوە لە ئامێرێکی نوێوە</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>چوونەژوورەوە لە شوێنێکی نوێوە</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>ناسنامە پشتڕاست کرایەوە (&quot;پشتڕاستبکەنەوە کە ئێوەن&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>پشکنینی ناسنامە سەرنەکەوت</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>بە Passkey چووەتە ژوورەوە</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>چوونەژوورەوە بە Passkey سەرنەکەوت</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>چوونەژوورەوە ڕەت کرایەوە: کۆدی دوو-قۆناغی نییە یان هەڵەیە</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>کۆدی دوو-قۆناغیی هەڵە</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>هەژمار دوای چوونەژوورەوەی سەرنەکەوتوو داخرا</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>هەژمار کرایەوە</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>وشەی نهێنی گۆڕدرا</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>گۆڕینی وشەی نهێنی سەرنەکەوت</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>وشەی نهێنی ڕێک خرایەوە</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>داوای وشەی نهێنیی نوێ کرا</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>ناونیشانی ئیمەیڵ گۆڕدرا</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>ناوی بەکارهێنەر گۆڕدرا</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>چوونەژوورەوەی دوو-قۆناغی چالاک کرا</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>چوونەژوورەوەی دوو-قۆناغی ناچالاک کرا</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>کۆدی گەڕاندنەوە بەکارهات</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>کۆدی نوێی گەڕاندنەوە</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>وشەی نهێنیی ئەپ دروست کرا</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>وشەی نهێنیی ئەپ هەڵوەشێنرایەوە</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Passkey زیاد کرا</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Passkey لابرا</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>هەژمار چالاک کرا</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>هەژمار ناچالاک کرا</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>هەموو</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>چوونەژوورەوەکان و دانیشتنەکان</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>گۆڕانکارییەکانی هەژمار</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>پێویستی بە سەرنجە</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>لەلایەن ئێوەوە</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>لەلایەن بەکارهێنەرەوە</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>لەلایەن &quot;%login&quot;ەوە</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>ڕێگا</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>وێبگەڕ</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>سیستەمی کارپێکردن</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>ئامێر</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>جێگا</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>وڵات</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>دانیشتنەکان</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>کامانە</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>کەناڵ</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>هەوڵە سەرنەکەوتووەکان</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>کۆدە ماوەکان</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>هەندڵەری چوونەژوورەوە</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>چالاکیی پاراستن</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>چالاکیی پاراستنی %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>چوونەژوورەوەکان و گۆڕانکارییەکان لە پاراستنی هەژمارەکەتاندا. ئەگەر شتێک دەبینن کە ئێوە نەتانکردووە، وشەی نهێنییەکەتان بگۆڕن و ئەو ئامێرانە دەربکەن کە نایانناسن.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>چوونەژوورەوەکان و گۆڕانکارییەکان لە پاراستنی ئەم هەژمارەدا.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>ئامێرەکانتان</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>گۆڕینی وشەی نهێنی</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>گەڕانەوە بۆ هەژمار</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>چالاکیی پاراستن تۆمار ناکرێت</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>لە تۆماری ئۆدیتی بەکارهێنەرانەوە دەخوێنرێتەوە، کە خشتەکەی expuser_audit نییە یان لەسەر ئەم بنکەدراوەیە پشتگیری ناکرێت. php update/common/scripts/6.0/createuseraudittable.php جێبەجێ بکەن، یان نوێکردنەوەی بنکەدراوەی 6.0.15.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>دوایین %days ڕۆژ</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>چوونەژوورەوەکان لە دوایین %days ڕۆژدا</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>دوایین چالاکیی پاراستن</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>پیشاندان</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>سەرنەکەوت</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>ڕەتکرایەوە</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>هێشتا هیچ چالاکییەکی پاراستن تۆمار نەکراوە.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>ڕووداوەکانی پاراستن %days ڕۆژ هەڵدەگیرێن.</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>ڕووداوەکانی پاراستن هەڵدەگیرێن تا بەڕێوەبەرێک لایان دەبات.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>داگرتنی داتای چوونەژوورەوەکەم</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>دانیشتنەکان و ڕووداوەکانی پاراستنتان وەک فایلی JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>دانیشتنەکان لەم ماڵپەڕەدا تۆمار ناکرێن، بۆیە هیچ ئامێرێکی تر نەتوانرا دەربکرێت. ئێستا وشەی نهێنییەکەتان بگۆڕن.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count دانیشتنی تر دەرکران. ئێستا وشەی نهێنییەکەتان بگۆڕن.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>هیچ ئامێرێکی تر لە ژوورەوە نەبوو. ئێستا وشەی نهێنییەکەتان بگۆڕن.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>سوپاس. ڕووداوەکە وەک هی ئێوە نیشانە کرا.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>ئەو ڕووداوە پێویستی بە وەڵام نییە.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>ماوەی پەڕەکە بەسەرچووبوو. هیچ شتێک نەگۆڕدرا؛ تکایە دووبارە هەوڵ بدەنەوە.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>هەژمارەکەتان بپارێزن</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>ئەگەر شتێک لێرەدا ئێوە نەبوون، هەموو ئامێرەکانی تر دەربکەن، پاشان وشەی نهێنییەکی نوێ هەڵبژێرن. ئەو ئامێرانەی بە «من بیرت بێت» لە ژوورەوە ماونەتەوە، ئەوانیش دەردەکرێن.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>هەموو ئامێرێک جگە لەم ئامێرە لە داواکاریی داهاتوویدا دەردەکرێت. پاشان وشەی نهێنییەکی نوێ هەڵدەبژێرن.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>بەڵێ، ئامێرەکانی تر دەربکە</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>ئەمە ئێوە بوون؟</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>بەڵێ، من بووم</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>نەخێر، هەژمارەکەم بپارێزە</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>چووەتە ژوورەوە</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>هەوڵی سەرنەکەوتووی چوونەژوورەوە</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>چووەتە دەرەوە</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>دانیشتنەکان دەرکران</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>چوونەژوورەوە لە ئامێرێکی نوێوە</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>چوونەژوورەوە لە شوێنێکی نوێوە</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>ناسنامە پشتڕاست کرایەوە (&quot;پشتڕاستبکەنەوە کە ئێوەن&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>پشکنینی ناسنامە سەرنەکەوت</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>بە Passkey چووەتە ژوورەوە</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>چوونەژوورەوە بە Passkey سەرنەکەوت</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>چوونەژوورەوە ڕەت کرایەوە: کۆدی دوو-قۆناغی نییە یان هەڵەیە</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>کۆدی دوو-قۆناغیی هەڵە</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>هەژمار دوای چوونەژوورەوەی سەرنەکەوتوو داخرا</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>هەژمار کرایەوە</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>وشەی نهێنی گۆڕدرا</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>گۆڕینی وشەی نهێنی سەرنەکەوت</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>وشەی نهێنی ڕێک خرایەوە</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>داوای وشەی نهێنیی نوێ کرا</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>ناونیشانی ئیمەیڵ گۆڕدرا</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>ناوی بەکارهێنەر گۆڕدرا</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>چوونەژوورەوەی دوو-قۆناغی چالاک کرا</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>چوونەژوورەوەی دوو-قۆناغی ناچالاک کرا</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>کۆدی گەڕاندنەوە بەکارهات</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>کۆدی نوێی گەڕاندنەوە</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>وشەی نهێنیی ئەپ دروست کرا</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>وشەی نهێنیی ئەپ هەڵوەشێنرایەوە</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Passkey زیاد کرا</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Passkey لابرا</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>هەژمار چالاک کرا</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>هەژمار ناچالاک کرا</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>هەموو</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>چوونەژوورەوەکان و دانیشتنەکان</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>گۆڕانکارییەکانی هەژمار</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>پێویستی بە سەرنجە</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>چالاکیی پاراستن</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>چالاکیی پاراستنی %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>چوونەژوورەوەکان و گۆڕانکارییەکان لە پاراستنی هەژمارەکەتاندا. ئەگەر شتێک دەبینن کە ئێوە نەتانکردووە، وشەی نهێنییەکەتان بگۆڕن و ئەو ئامێرانە دەربکەن کە نایانناسن.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>ئامێرەکانتان</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>گۆڕینی وشەی نهێنی</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>چالاکیی پاراستن هێشتا لەم ماڵپەڕەدا تۆمار ناکرێت.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>چوونەژوورەوەکان لە دوایین %days ڕۆژدا</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>هەوڵە سەرنەکەوتووەکان</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>هێشتا هیچ چالاکییەکی پاراستن تۆمار نەکراوە.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>داگرتنی داتای چوونەژوورەوەکەم</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>دانیشتنەکان و ڕووداوەکانی پاراستنتان وەک فایلی JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>دانیشتنەکان لەم ماڵپەڕەدا تۆمار ناکرێن، بۆیە هیچ ئامێرێکی تر نەتوانرا دەربکرێت. ئێستا وشەی نهێنییەکەتان بگۆڕن.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count دانیشتنی تر دەرکران. ئێستا وشەی نهێنییەکەتان بگۆڕن.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>هیچ ئامێرێکی تر لە ژوورەوە نەبوو. ئێستا وشەی نهێنییەکەتان بگۆڕن.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>سوپاس. ڕووداوەکە وەک هی ئێوە نیشانە کرا.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>ئەو ڕووداوە پێویستی بە وەڵام نییە.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>ماوەی پەڕەکە بەسەرچووبوو. هیچ شتێک نەگۆڕدرا؛ تکایە دووبارە هەوڵ بدەنەوە.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>هەژمارەکەتان بپارێزن</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>ئەگەر شتێک لێرەدا ئێوە نەبوون، هەموو ئامێرەکانی تر دەربکەن، پاشان وشەی نهێنییەکی نوێ هەڵبژێرن. ئەو ئامێرانەی بە «من بیرت بێت» لە ژوورەوە ماونەتەوە، ئەوانیش دەردەکرێن.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>هەموو ئامێرێک جگە لەم ئامێرە لە داواکاریی داهاتوویدا دەردەکرێت. پاشان وشەی نهێنییەکی نوێ هەڵدەبژێرن.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>بەڵێ، ئامێرەکانی تر دەربکە</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>ئەمە ئێوە بوون؟</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>بەڵێ، من بووم</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>نەخێر، هەژمارەکەم بپارێزە</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>وشەی نهێنی</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>وشەی نهێنی و کۆدی دوو-قۆناغی</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>ڕووکاری REST</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>ڕووکاری SOAP</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>چوونەژوورەوەی یەکگرتوو</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>پێش تۆمارکردنی دانیشتنەکان چووەتە ژوورەوە</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>ڕاپۆرتی چوونەژوورەوە</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>کێ چووەتە ژوورەوەی ماڵپەڕەکە، هەژمارەکان چەند جار دەچنە ژوورەوە و سەرناکەون، و دەرکردنی بەکارهێنەرێک لە هەموو شوێنێک. لەگەڵ هەموو هەندڵەرێکی دانیشتن کار دەکات.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>دانیشتنەکە دەرکرا. ئامێرەکە دەبێت دووبارە بچێتە ژوورەوە.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>%login لە %count دانیشتن دەرکرا.</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>%login هیچ دانیشتنێکی کارای نەبوو.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>هیچ هەژمارێک ئەم ID، ناوی بەکارهێنەر یان ناونیشانی ئیمەیڵەی نییە.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>ئەمە ئەو دانیشتنەیە کە بەکاری دەهێنن. بۆ کۆتاییپێهێنانی، بچنە دەرەوە.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>ئەو دانیشتنە پێشتر کۆتایی هاتبوو.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>ماوەی پەڕەکە بەسەرچووبوو. هیچ شتێک نەگۆڕدرا؛ تکایە دووبارە هەوڵ بدەنەوە.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>دانیشتنەکان لەم ماڵپەڕەدا تۆمار ناکرێن (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>خشتەی expuser_session نییە</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>دانیشتنەکان تۆمار دەکرێن هەر کە دروست کرا: php update/common/scripts/6.0/createusersessiontable.php، یان نوێکردنەوەی بنکەدراوەی 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>ئێستا و ئەمڕۆ</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>دانیشتنە کاراکان</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>بەکارهێنەرانی چووەژوورەوە</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>چوونەژوورەوەکانی ئەمڕۆ</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>هەوڵە سەرنەکەوتووەکانی ئەمڕۆ</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>دەرکردنی بەکارهێنەرێک لە هەموو شوێنێک</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>هەموو دانیشتنێکی هەژمارەکە لە داواکاریی داهاتوویدا کۆتایی دێت، ئەوانەش کە بە &quot;من بیرت بێت&quot; هەڵگیراون. کاتێک بەکاری بهێنن کە لەوانەیە هەژمارێک لە دەستی هەڵەدا بێت؛ پاشان وشەی نهێنییەکەی ڕێک بخەنەوە.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>ID ی بەکارهێنەر، ناوی بەکارهێنەر یان ناونیشانی ئیمەیڵ</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>چوونەدەرەوە لە هەموو شوێنێک</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>ئێستا چووەتە ژوورەوە</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>ئەو %limit دانیشتنەی کە دواجار بەکارهاتوون پیشان دەدرێن.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>بەکارهێنەر</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>ئامێر</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>ناونیشان</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>چووەتە ژوورەوە</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>دوایین چالاکی</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>کردارەکان</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>ئەم ئامێرە</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>تۆمار نەکراوە</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>چوونەدەرەوە</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>هیچ دانیشتنێک نەچووەتە ژوورەوە.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>دوایین %days ڕۆژ</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>چوونەژوورەوەکان و هەوڵە سەرنەکەوتووەکان لە تۆماری ئۆدیتی بەکارهێنەرانەوە دەژمێردرێن، کە بوونی نییە؛ دانیشتنە نوێکان دەژمێردرێن.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>ڕۆژ</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>چوونەژوورەوەکان</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>هەوڵە سەرنەکەوتووەکان</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>دانیشتنە نوێکان</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>هەندڵەری دانیشتن: %handler. دانیشتنەکان لە خشتەی expuser_session دەخوێنرێنەوە، بۆیە ڕاپۆرتەکە لەگەڵ هەموو هەندڵەرێک کار دەکات.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>چالاکیی گوماناوی لە %hours کاتژمێری ڕابردوودا</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>تۆڕێک نەیتوانی بچێتە ناو %accounts هەژمار (%count هەوڵ)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>هەژمار داخرا دوای چوونەژوورەوەی سەرنەکەوتوو</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>%count چوونەژوورەوەی سەرنەکەوتوو لەسەر یەک هەژمار</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>لە یەک کاتدا لە %count وڵاتەوە چووەتە ژوورەوە</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>چالاکیی پاراستن</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>دانیشتنەکان</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>چوونەژوورەوە سەرنەکەوتووەکان لە تۆماری وردبینیی بەکارهێنەران دەخوێنرێنەوە، کە لێرەدا بەردەست نییە.</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>هیچ شتێکی گوماناوی نییە: هیچ هەژمارێک بە چوونەژوورەوەی سەرنەکەوتووی دووبارە نییە، هیچ تۆڕێک چەند هەژمارێک تاقی ناکاتەوە، هیچ هەژمارێک لە چەند وڵاتێکەوە نەچووەتە ژوورەوە.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>ئاگاداریی پاراستن بۆ هەژمارەکەتان</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>ڕووداوێکی پاراستن لە هەژمارەکەتان %login ڕوویدا: %event. ئەگەر ئێوە نەبوون، هەژمارەکەتان لە %url بپارێزن.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>دامەزراندن</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>لە ناوەڕۆکی ئەم ماڵپەڕە ڕێک ئەو خانانە داوا بکە کە پەڕەیەک پێویستی پێیانە، لە یەک داواکاریدا. سکیما شوێن پۆلەکانی ناوەڕۆک دەکەوێت؛ هەر پرسیارێک بە مافەکانی ئەو بەکارهێنەرە جێبەجێ دەکرێت کە دەینێرێت.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>API ی GraphQL لەم دەستگەیشتنی ماڵپەڕەدا کوژاوەتەوە. لە graphql.ini دا هەڵیبکە: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>کتێبخانەی GraphQL (webonyx/graphql-php 15) دانەمەزراوە.</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>خاڵی کۆتایی</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>کتێبخانە</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>سکیما</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>%count پۆلی ناوەڕۆک، سکیما %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>پرسیار</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>گۆڕاوەکان (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>جێبەجێکردن</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>وەڵام</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>جێبەجێ دەکرێت…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>وەڵامەکە نەخوێنرایەوە.</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>پرسیارەکە بە مافەکانی تۆ جێبەجێ دەکرێت، بە چوونەژوورەوە لەم دانیشتنەدا.</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%count لە %seconds چرکەدا</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>بێ سنوور</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>قووڵی</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>ئاڵۆزی</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>بڕگە بۆ هەر لیستێک</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (بنەڕەت %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>داواکاری بۆ هەر بەکارهێنەر یان کلیلێک</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>داواکاری بۆ هەر ناونیشانێکی نەناسراو</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>Introspection</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>تەنها پرسیارە پاشەکەوتکراوەکان</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>گەورەترین پرسیار</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>%bytes بایت</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>گەورەترین بارکردن</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>هیچ دەستگەیشتنی ماڵپەڕی %siteaccess نییە.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>گۆڕینەکان لە %siteaccess دا هەڵکراون.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>گۆڕینەکان لە %siteaccess دا کوژاونەتەوە.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>API ی GraphQL لە %siteaccess دا هەڵکراوە.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>API ی GraphQL لە %siteaccess دا کوژاوەتەوە.</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>ڕێکخستنەکان نەنووسران: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>کاشی وەڵام پاک کرایەوە: %count وەڵام لابران.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>بۆ لابردنی پرسیارەکە، خانەی تەنیشتی نیشان بکە.</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>پرسیارەکە لانەبرا: پرسیارێک کە لە بوخچەیەکی PersistedQueryDirectoryList[] دا هاتووە لەگەڵ فایلەکەی لادەبرێت.</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>پرسیارە پاشەکەوتکراوەکە لابرا.</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>گۆڕینەکان</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>هەڵکراو</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>کوژاوە</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>دەستگەیشتنەکانی ماڵپەڕ</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>شوێنی وەڵامدانەوەی API و گۆڕینەکانی. دوگمەکان graphql.ini دەنووسن، وەک ./console exp:graphql:enable و exp:graphql:disable دەیکەن.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>دەستگەیشتنی ماڵپەڕ</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>API ی GraphQL</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>گۆڕین</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>کوژاندنەوە</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>گۆڕینەکان بکوژێنەوە</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>گۆڕینەکان هەڵبکە</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>هەڵکردن</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>سنوورەکان</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>graphql.ini [GraphQLSettings] ی ئەم دەستگەیشتنی ماڵپەڕە.</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>کاشی وەڵام</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>وەڵامی پرسیارە پاشەکەوتکراوەکان، بەپێی مافەکانی بەکارهێنەر هەڵدەگیرێن و هەر کاتێک ناوەڕۆک بڵاو بکرێتەوە بەسەردەچن.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>دۆخ</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>وەڵامە هەڵگیراوەکان</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>%count وەڵام، %bytes بایت</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>زۆرترین ماوەی هەڵگرتن</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds چرکە</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>دوایین بەسەرچوون</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>کاشی وەڵام پاک بکەرەوە</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>پرسیارە پاشەکەوتکراوەکان</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>بە ./console exp:graphql:persist یان لەلایەن ڕاژەخوازەکانەوە پاشەکەوت کراون (پرسیاری پاشەکەوتکراوی خۆکار)؛ بە ناو یان SHA-256 بانگ دەکرێن.</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>ناوەکان</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>قەبارە</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>شوێن</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>لابردن</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>هاتوو</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>پاشەکەوتکراو</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>بەڵێ، ئەم پرسیارە لاببە</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>هێشتا هیچ پرسیارێکی پاشەکەوتکراو نییە.</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>کلیلەکانی API</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>کلیلی API ی کەسی بە بواری graphql:read (پرسیارەکان) یان graphql:write (گۆڕینەکان). لە پەڕەی دەستگەیشتنی API یان بە ./console exp:graphql:keys دروستیان بکە و هەڵیانبوەشێنەوە.</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>دەستگەیشتنی API</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>هەموو کلیلەکان</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>کلیل</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>ناو</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>خاوەن</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>بوارەکان</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>دوایین بەکارهێنان</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>چالاک</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>بەسەرچوو</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>هەڵوەشێنراوە</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>هەرگیز</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>هێشتا هیچ کلیلێکی API بە بواری GraphQL نییە.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>API ی GraphQL لە دەستگەیشتنی ماڵپەڕی %siteaccess دا کوژاوەتەوە، کە ئەم پەڕەیە پیشان دەدات؛ خشتەی خوارەوە پیشان دەدات لە کوێ وەڵام دەداتەوە.</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>بۆ دەستگەیشتنی ماڵپەڕی %siteaccess، کە ئەم پەڕەیە پیشان دەدات.</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>وێبهووکەکان</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>هەر ڕووداوێک کە خاڵێکی کۆتایی داوای دەکات (publish, update, trash, delete, move, hide, reveal, mutation) بە واژووکراوی لەلایەن بەشی cronjob ـی graphqlwebhooks بۆی دەنێردرێت. ./console exp:graphql:webhooks هەمان کاری ئەم بەشە دەکات.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>ڕووداوەکان</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>هەموو</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>هەموو دەستگەیشتنێکی ماڵپەڕ</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>تێکچوو</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>نهێنی نییە</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>چاوەڕوان</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count وازلێهێنراو</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>دوایین گەیاندن</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>تاقیکردنەوەیەک بنێرە</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>بەڵێ، ئەم وێبهووکە لاببە</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>هێشتا هیچ وێبهووکێک نییە.</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>وێبهووکێک زیاد بکە</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>زیادکردن</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>گەیاندنە نوێیەکان</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>کات</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>ئەنجام</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>بەشداربوونەکان</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>نوێکردنەوەی ڕاستەوخۆ بۆ کڕیارەکان: ڕێڕەوێکی ڕووداو لە /api/graphql/subscribe، و WebSocket (graphql-transport-ws) لەسەر Velocity. هەر ڕووداوێک تەنها بۆ ئەو بەشداربووانە دەچێت کە دەتوانن ناوەڕۆکەکەی بخوێننەوە.</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>ئێستا کراوە</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>زۆرترین کراوە</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>%total بە گشتی، %user بۆ هەر بەکارهێنەرێک، %address بۆ هەر ناونیشانێک</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>بەشداربوونی بێناو</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>ماوەی ڕێڕەو</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>وێبهووکەکە زیاد نەکرا: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>وێبهووکی %name گۆڕدرا؛ نهێنیی واژووکردنەکەی دەمێنێتەوە.</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>نهێنیی واژووکردن پاشەکەوت نەکرا (دامەزراندن &gt; نهێنییەکان).</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>وێبهووکی %name زیادکرا. نهێنیی واژووکردنەکەی، تەنها ئەم جارە پیشان دەدرێت: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>هیچ وێبهووکێکی %name نییە.</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>وێبهووکی %name وەڵامی نەدایەوە: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>وێبهووکی %name لە %ms ms دا وەڵامی %status ی دایەوە.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>بۆ لابردنی وێبهووکەکە، خانەی تەنیشتی نیشان بکە.</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>وێبهووکی %name لابرا.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>API ی GraphQL لەم دەستگەیشتنی ماڵپەڕەدا کوژاوەتەوە.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>کتێبخانەی GraphQL دانەمەزراوە.</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>GET یان POST بەکاربهێنە.</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>جەستەی داواکارییەکە ئۆبجێکتێکی JSON نییە.</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables ئۆبجێکتێکی JSON نییە.</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions ئۆبجێکتێکی JSON نییە.</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>پرسیارەکە بە POST بنێرە.</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>داواکارییەکە هیچ پرسیارێکی تێدا نییە.</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>پرسیارەکە لە %max بایت درێژترە.</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>هەڵەی ناوخۆیی ڕاژەکار</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node پێویستی بە ڕێک یەکێک لە id، remoteId، path و urlAlias هەیە.</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content پێویستی بە ڕێک یەکێک لە id و remoteId هەیە.</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>نیشاندەری after لەلایەن ئەم API یەوە نەدراوە.</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>هیچ ناوی جێگرەوەی وێنەی %alias نییە (image.ini [AliasSettings] AliasList[]).</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>لێرەدا تەنها ئەو پرسیارانە وەردەگیرێن کە لەسەر ڕاژەکار پاشەکەوت کراون: id ی پرسیارێکی پاشەکەوتکراو بنێرە.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>hash ی پرسیارە پاشەکەوتکراوەکە SHA-256 نییە.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>hash ی پرسیارە پاشەکەوتکراوەکە لەگەڵ پرسیارەکە ناگونجێت.</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>داواکاری زۆر: لانیزۆر %limit لە %window چرکەدا. دوای %reset چرکە دووبارە هەوڵ بدەوە.</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>قووڵی پرسیارەکە %depth ئاستە؛ لانیزۆر %max ڕێگەپێدراوە.</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>ئاڵۆزی پرسیارەکە %complexity یە؛ لانیزۆر %max ڕێگەپێدراوە.</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>ئەم داواکارییە ناتوانێت سکیما بخوێنێتەوە (introspection).</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search پێویستی بە دەقێک یان پاڵێوەرێک هەیە (classes, subtree, sections, publishedAfter, publishedBefore).</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument بەروار نییە (ISO 8601, 2026-10-30).</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag پێویستی بە ڕێک یەکێک لە id، remoteId و path هەیە.</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout پێویستی بە ڕێک یەکێک لە id، identifier و urlAlias هەیە.</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>خانەی operations ی داواکارییەکی multipart یەک داواکاری JSON نییە.</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>خانەی map ی داواکارییەکی multipart ئۆبجێکتێکی JSON نییە.</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>داواکارییە multipart ەکە هیچ فایلێکی %field ی تێدا نییە.</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>ڕێڕەوێکی خانەی map دەبێت بە variables. دەست پێ بکات: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>فایلی %name بە تەواوی نەگەیشت (هەڵەی بارکردن %error).</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>فایلی %name لە %max بایت گەورەترە.</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>فایلی %name نەپشکنرا.</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>گۆڕینەکان (mutations) لەم دەستگەیشتنی ماڵپەڕەدا کوژاونەتەوە (graphql.ini [GraphQLSettings] MutationsEnabled).</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>گۆڕینێک بە POST بنێرە.</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>بۆ گۆڕینی ناوەڕۆک بچۆ ژوورەوە.</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>کلیلی API ەکە بواری %scope ی نییە.</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>گۆڕینێک بە دانیشتنەوە پێویستی بە نیشانەی فۆرمی دانیشتنەکە هەیە (سەردێڕی X-CSRF-Token).</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>uploadFromUrl کوژاوەتەوە: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] هیچ میوانخانەیەک ناو نابات.</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>ناونیشانەکە دەبێت ناونیشانێکی https بێت.</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>میوانخانەی %host لە graphql.ini [GraphQLSettings] UploadFromUrlHostList[] دا نییە.</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>فایلەکە نەهێنرا.</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload تەنها جۆرێکی تێخستنە.</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>گۆڕاوێکی جۆری Upload فایلێکی داواکارییەکی multipart وەردەگرێت.</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>id ی دوور %remoteId پێشتر گیراوە.</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>ناوەڕۆکەکە پێشتر وەرگێڕانێکی بە %language هەیە: updateContent بەکاربهێنە.</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>لانیکەم یەک خانە بدە.</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>هیچ وەشانێکی نوێ دروست نەکرا (ناوەڕۆکەکە ڕەشنووسی زۆری هەیە).</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>وەشانی %version ڕەشنووس نییە.</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent پێویستی بە ڕێک یەکێک لە id و nodeId هەیە.</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>شوێنێک ناتوانرێت بخرێتە ژێر خۆیەوە.</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>ناوەڕۆکەکە پێشتر شوێنێکی لە ژێر %parentId هەیە.</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>بەهای خانەی %field پاشەکەوت نەکرا.</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>هیچ زمانی ناوەڕۆکی %language نییە.</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>هیچ پۆلی ناوەڕۆکی %class لە سکیماکەدا نییە.</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>ناوەڕۆکەکە بوونی نییە، یان ڕێگەت پێ نادرێت بیخوێنیتەوە.</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>ڕێگەت پێ نادرێت ئەمە بەم ناوەڕۆکە بکەیت.</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>پۆلی %class هیچ خانەیەکی %field ی نییە کە بتوانرێت بنووسرێت.</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>خانەی %field دوو جار دراوە.</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>خانەی %field فایل وەردەگرێت: وەک بارکردن بینێرە (داواکارییەکی multipart).</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>خانەی %field فایل وەرناگرێت.</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>خانەی %field پێویستی بە بەهایەک هەیە.</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>فۆرماتی %format تەنها بۆ خانەکانی دەقی دەوڵەمەندە؛ %field بەهاکەی وەک خۆی وەردەگرێت (RAW).</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>خانەی %field پێویستە.</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>HTML ەکە نەخوێنرایەوە.</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content تەنها لەگەڵ id دا version وەردەگرێت.</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>نیشانەی پێشبینین دروست نییە یان بەسەرچووە.</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>سەرچاوەیەک نییە (https://host یان https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>بوارێکی API ی GraphQL نییە: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>بەشداربوونەکان بنێرە بۆ /api/graphql/subscribe (ڕێڕەوێکی ڕووداو یان WebSocket).</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>داواکارییەکە ناوی هیچ کارێکی بەڵگەنامەکە ناهێنێت.</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>بەشداربوونێک ڕێک داوای یەک خانە دەکات.</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>بەشداربوونی زۆر کراوەن؛ دواتر دووبارە هەوڵ بدەوە.</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>%max بەشداربوونی کراوەت هەیە، کە زۆرترینی ڕێگەپێدراوە.</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>ناونیشانەکەت %max بەشداربوونی کراوەی هەیە، کە زۆرترینی ڕێگەپێدراوە.</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>بەشداربوونەکان لەم دەستگەیشتنی ماڵپەڕەدا کوژاونەتەوە.</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>بۆ بەشداربوون بچۆ ژوورەوە (نیشانەیەک یان کلیلێکی API ی کەسی).</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>گۆڕینەکان بنێرە بۆ /api/graphql.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>گواستنەوەکان</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>بارودۆخەکە نەخوێندرایەوە: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>خشتەکانی گواستنەوەکان هێشتا بوونیان نییە: ./console exp:upgrade --apply دروستیان دەکات.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>%count گواستنەوە سەرنەکەوتن</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>جێبەجێکردنێک بەردەوامە، لەلایەن %user دەستی پێکرد</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>دامەزراندنەکە قوفڵ کراوە: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>چاوەڕوان</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>سەرنەکەوت</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>بێخاوەنەکان</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>دوایین جێبەجێکردن</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>هێشتا هیچ</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>هەموو گواستنەوەکان</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>جێبەجێکردنی لاسایی</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>جێبەجێکردنی تاقیکاری</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>گواستنەوە چاوەڕوانەکان لە مامەڵەیەکدا جێبەجێ کران کە دواتر گەڕێندرایەوە: هیچ شتێک نەپارێزرا. لە خوارەوە ئەوە هەیە کە هەر یەکێکیان لە بنکەدراوەدا گۆڕیویەتی.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>ئەوەی جێبەجێکردنێک ئێستا دەیکات. هیچ شتێک ناگۆڕدرێت: هەر گواستنەوەیەکی چاوەڕوان ئەو گۆڕانکارییانە ڕیز دەکات کە دەیکات، و جێبەجێکردنەکە ئەوەی پێش و دوای دەیکات.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>لاسایی بکەرەوە</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>جێبەجێکردن</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>جێبەجێکردنی تاقیکاری سەرنەکەوت: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>لاساییکردنەوە پێویستی بە PostgreSQL یان SQLite هەیە، کە گۆڕانکارییەکانی نەخشەیان دەگەڕێندرێنەوە؛ لەسەر ئەم بنکەدراوەیە پلانەکەی خوارەوە ئەوەیە کە جێبەجێکردنێک دەیکات.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>گواستنەوەکان</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>گواستنەوە</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>دۆخ</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>ئەوەی دەیکات</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>لاساییکردنەوە: %result لە %ms میلیچرکەدا</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>هێشتا هیچ گواستنەوەیەک نییە.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>پێش و دوای جێبەجێکردن</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>وێنەی دۆخی پێشوو</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>دەگیرێت، و کاتێک گواستنەوەیەک سەرنەکەوێت دەگەڕێندرێتەوە</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>کوژاوە</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>وێنەی دۆخی دواتر</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>کاتێک جێبەجێکردنەکە سەرکەوت دەگیرێت</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>%total گواستنەوە: %pending چاوەڕوان، %done تەواو، %failed سەرنەکەوتوو.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>مێژووی گواستنەوەکان</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>هەر جێبەجێکردنێک لەگەڵ بەکارهێنەرەکەی، ژینگەکەی، وێنەکانی دۆخ و ئەوەی کۆمیت، تاگ و پوش کرا. جێبەجێکردنێکی سەرنەکەوتوو یان پچڕاو دەتوانرێت بەردەوام بکرێت؛ جێبەجێکردنێک کە وێنەی دۆخی پێش خۆی هەیە دەتوانرێت بگەڕێندرێتەوە.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>جێبەجێکردنەکان نەخوێندرانەوە: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>خشتەکانی گواستنەوەکان هێشتا بوونیان نییە: ./console exp:upgrade --apply دروستیان دەکات.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>پیشاندان</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>هەموو</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>جێبەجێکردنەکان</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>دەستپێکرد</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>لەلایەن</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>وێنەکانی دۆخ</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>کۆگا</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>کردارەکان</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>پێش</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>دوای</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>پوش: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>بەردەوامبوون</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>گەڕاندنەوە</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>هیچ جێبەجێکردنێک لەم دۆخەدا نییە.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>لێرە دەستپێکراو</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>جێبەجێکردن، بەردەوامبوون و گەڕاندنەوەکان کە لەم پەڕانەدا دەستیان پێکرا، لەگەڵ ڕاپۆرتی هەر یەکێکیان.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>چی</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>ئەنجام</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>گەڕاندنەوە</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>گەڕاندنەوەی %target</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>جێبەجێکردنی %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>ئەوەی جێبەجێکردنەکە کردی، تۆمارەکەی و لۆگەکەی. جێبەجێکردنێک کە لێرە دەستی پێکرا لە پاشبنەمادا بەردەوام دەبێت کاتێک ئەم پەڕەیە دادەخرێت؛ پەڕەکە دووبارە بکەرەوە بۆ بەدواداچوونی.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>ئەم جێبەجێکردنە بەردەوام بکە</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>ئەم جێبەجێکردنە بگەڕێنەرەوە</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>تۆمارەکە نەخوێندرایەوە: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>پێشکەوتن</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>لەلایەن %user لە %time دەستی پێکرد.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>پشکنینی کۆد و گرتنی وێنەی دۆخ پێش جێبەجێکردن</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>جێبەجێکردنی %id (%index لە %total)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>%done لە %total تەواو بوو</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>گواستنەوەکان جێبەجێ کران؛ ئەگەر یەکێکیان سەرنەکەوتبێت وێنەی دۆخەکە دەگەڕێندرێتەوە</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>گرتنی وێنەی دۆخ دوای جێبەجێکردن، کۆمیت، تاگ و پوش</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>گەڕاندنەوەی وێنەی دۆخ</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>جێبەجێکردنەکە کۆتایی هات. ڕاپۆرتەکەی بار دەکرێت.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>بەدواداچوونی پێشکەوتن نەکرا. پەڕەکە نوێ بکەرەوە بۆ بینینی ڕەوشی جێبەجێکردنەکە.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>ئەم پەڕەیە بەدوای جێبەجێکردنەکەدا دەچێت لە کاتی ڕۆیشتنیدا.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>نوێکردنەوە</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>ڕاپۆرت</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>ماوە</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms میلیچرکە</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>ئەوەی جێبەجێکردنەکە وەک هەڵە چاپی کرد</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>تۆمار</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>ژینگە</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>هیچ</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>کۆتایی هات</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>کۆمیت</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>تاگ</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>پوش</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>پەیام</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>گواستنەوەکانی ئەم جێبەجێکردنە</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>سەرچاوە</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>لۆگی جێبەجێکردن</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>تەنها کۆتایی لۆگەکە پیشان دەدرێت.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>لە جێبەجێکردندایە</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>بەبێ ڕاپۆرت کۆتایی هات</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>سەرکەوتوو</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>سەرنەکەوتوو</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>ڕەتکرایەوە</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>بنکەدراوە بەردەست نەبوو</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>هەڵەی ناوخۆیی</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>جێبەجێکردنێک بەردەوامە</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind لەلایەن %user لە %time دەستی پێکرد.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>بەدوایدا بچۆ</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>دامەزراندنەکە قوفڵ کراوە</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>جێبەجێکردنێکی تر قوفڵەکەی گرتووە (نوێکردنەوەیەک یان جێبەجێکردنێک لە کۆنسۆڵ): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>تەواو</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>چاوەڕوان</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>پێویست نییە</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>نەناسراو</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>گەڕێندرایەوە</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>جێبەجێ کرا</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>جێبەجێ دەکرێت</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>هەڵوەشێندرایەوە</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>هەڵدەوەشێندرێتەوە</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>جێبەجێ نەکراوە</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>چاوەڕێی یەکێکی تر دەکات</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>گۆڕانکاری پەسەند کرا</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>گۆڕانکاری پەسەند دەکرێت</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>لاسایی کرایەوە</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>گواستنەوەکان</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>بارودۆخ</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>مێژوو</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>هەڵوەشاندنەوەی %target</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>جێبەجێکردنێک بۆ وێنەی دۆخی پێش خۆی دەگەڕێندرێتەوە، گواستنەوەیەکیش بە down()ـەکەی. گەڕاندنەوەی وێنەیەکی دۆخی پێشوو بۆ پسپۆڕانە. هەر یەکێکیان لە پاشبنەمادا بە ناوی تۆوە جێبەجێ دەبێت، دوای گرتنی وێنەی دۆخی ئێستا.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>ئەوەی دەتوانرێت هەڵبوەشێندرێتەوە نەخوێندرایەوە: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>جێبەجێکردنێک</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>یەک گواستنەوە</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>وێنەیەکی دۆخی پێشوو</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>وەسف</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>بەڵێ</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>نەخێر</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>وێنەی دۆخ</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>ناونیشان</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>گیرا</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>جۆر</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>بەشەکان بۆ گەڕاندنەوە</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>بنکەدراوەکە</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>فایلە هەڵگیراوەکان (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>ڕێکخستنەکان (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>گەڕاندنەوەی بنکەدراوە دەیباتەوە بۆ کاتی وێنەی دۆخەکە، دانیشتنەکانیش لەخۆدەگرێت: لەوانەیە دواتر داوات لێبکرێت دووبارە بچیتە ژوورەوە. هەموو ئەوەی لەو کاتەوە گۆڕاوە لەدەست دەچێت؛ سەرەتا وێنەی دۆخی ئێستا دەگیرێت.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>دەزانم ئەمە چی دەگەڕێنێتەوە</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>ناسنامەی وێنەی دۆخەکە دووبارە بنووسە</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>بەڵێ، هەڵیبوەشێنەرەوە</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>هەڵوەشاندنەوە</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>ئەو جێبەجێکردنانەی وێنەی دۆخی پێش خۆیان هەیە.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>هەڵبژاردن</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>هێشتا هیچ جێبەجێکردنێک بە وێنەی دۆخەوە نییە.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>ئەو گواستنەوە جێبەجێکراوانەی دەتوانن خۆیان هەڵبوەشێننەوە (down()ـیان هەیە).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>هیچ گواستنەوەیەکی جێبەجێکراو down()ـی نییە.</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>وێنەکانی دۆخی پێشوو (پسپۆڕان)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>هێشتا هیچ وێنەیەکی دۆخ نییە.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>جێبەجێکردنی گواستنەوەکان</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>جێبەجێکردنەکە لە پاشبنەمادا وەک %user بەردەوام دەبێت، و پەڕەکەی لە کاتی ڕۆیشتنیدا پیشانی دەدات. پێش یەکەم گواستنەوە وێنەی دۆخی دامەزراندنەکە دەگیرێت؛ کاتێک گواستنەوەیەک سەرنەکەوێت جێبەجێکردنەکە دەوەستێت و وێنەی دۆخەکە دەگەڕێندرێتەوە.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>سەرەتا جێبەجێکردنی تاقیکاری</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>بارودۆخەکە نەخوێندرایەوە: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>گواستنەوە چاوەڕوانەکان</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>بەم ڕیزبەندییە جێبەجێ دەکرێن. نیشانەی یەکێکیان لابەرە بۆ ئەوەی ئەو و ئەوانەی پێویستیان پێیەتی بۆ جێبەجێکردنێکی دواتر بمێننەوە.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>جێبەجێی بکە</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>لە کاتی جێبەجێکردندا دۆخی چاککردنەوە دادەگیرسێنێت.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>دوای جێبەجێکردن گۆڕدراون</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>ئەم فایلانە ئەوانە نین کە جێبەجێ کران. جێبەجێکردن ڕەتیان دەکاتەوە مەگەر گۆڕانکارییەکە بە هۆکارێکەوە پەسەند بکرێت؛ دووبارە جێبەجێ ناکرێنەوە، پشکنینە کۆییە نوێیەکە تۆمار دەکرێت و هۆکارەکە لە لۆگی چاودێریدا دەپارێزرێت.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>پەسەندکردنی گۆڕانکارییەکان</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>بۆچی</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>بەها بنەڕەتییەکان سەلامەتن. هەر چوارگۆشەیەک هەنگاوێک دەپەڕێنێت.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>بەبێ وێنەی دۆخ</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>بەبێ وێنەی دۆخ پێش و دوای جێبەجێکردن: سەرنەکەوتن ناتوانرێت بە شێوەی خۆکار بگەڕێندرێتەوە.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>بەبێ گەڕاندنەوە</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>دوای سەرنەکەوتن، دامەزراندنەکە وەک ئەوە بهێڵەرەوە کە سەرنەکەوتنەکە بەجێی هێشت.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>هێشتنەوەی گۆڕانکارییە کۆمیت نەکراوەکان</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>جێبەجێی بکە ئەگەرچی ڕێکخستنەکان، پێوەکراوەکان یان دیزاینەکان گۆڕانکاری کۆمیت نەکراویان هەیە؛ دەچنە ناو وێنەی دۆخەکەوە.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>بەبێ کۆمیت</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>فایلی بارودۆخ و لۆگی جێبەجێکردن کۆمیت مەکە (هەروەها بەبێ تاگ و پوش).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>بەبێ پوش</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>کۆمیت و تاگ بکە، بەڵام پوش مەکە.</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>بەبێ تاگ</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>کۆمیت و پوش بکە، بەڵام جێبەجێکردنەکە تاگ مەکە.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>بەڵێ، ئێستا ئەم گواستنەوانە جێبەجێ بکە</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>هیچ گواستنەوەیەک چاوەڕوان نییە.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>گەڕانەوە بۆ بارودۆخ</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>گۆڕانکارییەکانی ئەم دامەزراندنە کە یەکجار وەک فایل نووسراون (ناوەڕۆک، پۆلەکان، ڕۆڵەکان، ڕێکخستنەکان، نەخشە) و بە هەمان ڕیزبەندی لەسەر هەموو دامەزراندنەکانی ماڵپەڕەکە جێبەجێ دەکرێن. جێبەجێکردن سەرەتا وێنەی دۆخ دەگرێت، کاتێک گواستنەوەیەک سەرنەکەوێت دەیگەڕێنێتەوە، و ئەوەی کردی تۆمار، کۆمیت و پوش دەکات.</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>جێبەجێکردنی %count چاوەڕوان</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>پوختە</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>چاوەڕوان</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>تەواو بوو</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>سەرنەکەوت</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>پێویست نییە</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>بنکەدراوە</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>مامەڵەکان: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>گواستنەوەکانی ماڵپەڕ لە migrations/ دان، هی پێوەکراوێک لە extension/&lt;name&gt;/migrations/. بە ڕیزبەندی ناوەکانیان و ئەوەی پێویستیانە جێبەجێ دەکرێن.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>دوایین جێبەجێکردن</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>فایلەکە دوای جێبەجێکردن گۆڕدرا.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>هێشتا هیچ گواستنەوەیەک نییە. ./console exp:migration:generate --skeleton &lt;name&gt; --apply یەکەمیان دەنووسێت.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>دوایین جێبەجێکردنەکان</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>هەموو جێبەجێکردنەکان</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>هێشتا هیچ جێبەجێکردنێک نییە.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>لاساییکردنەوەی جێبەجێکردن پێویستی بە سیاسەتی migration/run هەیە.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>جێبەجێکردنێک بەردەوامە: کاتێک کۆتایی هات لاسایی بکەرەوە.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>دامەزراندن</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target نە جێبەجێکردنە، نە گواستنەوە و نە وێنەی دۆخی ئەم دامەزراندنەیە.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>سەرەتا «بەڵێ، هەڵیبوەشێنەرەوە» نیشانە بکە.</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>گەڕاندنەوەی وێنەیەکی دۆخی پێشوو بۆ پسپۆڕانە: «دەزانم ئەمە چی دەگەڕێنێتەوە» نیشانە بکە.</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>ناسنامەی وێنەی دۆخەکە دووبارە بنووسە: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>لانیکەم یەک بەش بۆ گەڕاندنەوە هەڵبژێرە.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>ئەم جێبەجێکردنە وێنەی دۆخی پێش خۆی نییە: گواستنەوەکانی یەک بە یەک هەڵبوەشێنەرەوە، یان وێنەیەکی دۆخی پێشوو بگەڕێنەرەوە.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>ئەم گواستنەوەیە ناتوانێت خۆی هەڵبوەشێنێتەوە: جێبەجێ نەکراوە، یان down()ـی نییە.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>فۆرمەکە نەخوێندرایەوە.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>ئەو جێبەجێکردنە هەڵبژێرە کە بەردەوام بکرێت.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>سەرەتا «بەڵێ، ئێستا ئەم گواستنەوانە جێبەجێ بکە» نیشانە بکە.</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>لانیکەم یەک گواستنەوە هەڵبژێرە.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>گواستنەوەیەک دوای جێبەجێکردن گۆڕدرا: گۆڕانکارییەکە بە هۆکارێکەوە پەسەند بکە، یان فایلەکە بگەڕێنەرەوە.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>هۆکاری پەسەندکردنی گواستنەوە گۆڕدراوەکان بنووسە.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>هۆکارەکە زۆرترین 500 پیتە.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>جێبەجێکردنێک کە لێرە دەستی پێکرد هێشتا بەردەوامە (%detail). چاوەڕێ بکە تا کۆتایی دێت.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>جێبەجێکردنێکی تر قوفڵی دامەزراندنەکەی گرتووە: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>جێبەجێکردنەکە پێویستی بە بەکارهێنەرێکی هەبوو هەیە کە چووبێتە ژوورەوە.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>هیچ بەرنامەی هێڵی فەرمانی php نەدۆزرایەوە. migration.ini [AdminSettings] PhpCliPath بە ڕێڕەوی تەواوی دابنێ.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open ناچالاک کراوە، بۆیە لێرە ناتوانرێت جێبەجێکردن دەست پێبکرێت. ./console exp:migration:migrate --apply لەسەر ڕاژەکار جێبەجێ بکە.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>ناتوانرێت لە بوخچەی جێبەجێکردنەکاندا بنووسرێت: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>جێبەجێکردنەکە دەستی پێکرد بەڵام ناسنامەی پرۆسەکەی ڕانەگەیاند. %detail بپشکنە.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>دیاری بکە چی هەڵبوەشێندرێتەوە.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>جێبەجێکردنەکە دەستی پێنەکرا.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>تۆمارکردنی گۆڕانکارییەکان</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>تا تۆمارکردنێک کار دەکات، ئەوەی لە بەڕێوەبردن یان لە شریتی لاتەنیشتی ماڵپەڕ دەیگۆڕیت وەک هەنگاوەکانی گواستنەوەیەک دەپارێزرێت: ناوەڕۆک، پۆلەکان، ڕۆڵ و سیاسەتەکان، بەشەکان، بەکارهێنەران و گرووپەکان، ناوە خوازراوەکانی URL، ڕێکخستنەکان. کاتێک تەواو بوویت ڕایبگرە، سەیر بکە چی گرتووە و لێیەوە گواستنەوەیەک دروست بکە.</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>تۆمارەکان نەخوێندرانەوە: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>خشتەکانی تۆمار هێشتا بوونیان نییە: سەرەتا بەرزکردنەوە ئەنجام بدە (exp:upgrade --apply).</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>تۆمارکردن لە migration.ini دا کوژاوەتەوە ([RecordingSettings] Recording=disabled).</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>گۆڕانکارییەکانی من</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>تەنها ئەوە تۆمار دەکات کە تۆ دەیگۆڕیت، لە هەر شوێنێک بێت، تا ڕایدەگریت.</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>تۆمار</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>لە %time ەوە، تا ئێستا %count گۆڕانکاری.</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>ناونیشان (ئارەزوومەندانە)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>پیشاندانی ئەوەی گرتوویەتی</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>ڕاگرتنی تۆمارکردن</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>دەستپێکردنی تۆمارکردنی گۆڕانکارییەکانم</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>پەنجەرەی هەموو ماڵپەڕ</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>هەموو گۆڕانکارییەکی هەموو بەکارهێنەرێک و کۆنسۆڵ تۆمار دەکات تا دادەخرێت. لە کاتی کردنەوەدا داوات لێ دەکرێت پشتڕاستی بکەیتەوە کە خۆتیت.</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>کراوە</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>داخستنی پەنجەرە</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>کردنەوەی پەنجەرەی هەموو ماڵپەڕ</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>تۆمارەکان</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>هەژماری بەکارهێنەر (ناوی چوونەژوورەوە، ئیمەیڵ، وشەی نهێنی) و خانەکانی هەژماری بەکارهێنەران هەرگیز تۆمار ناکرێن.</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>گۆڕانکارییەکان</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>هەموو ماڵپەڕ</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>گۆڕانکارییەکانی %name</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>ڕاگیراو</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>هێشتا هیچ تۆمارێک نییە.</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>تۆمار %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>هەموو تۆمارەکان</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>ئەو گواستنەوەیەی لێی دروست دەبێت</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>گۆڕانکارییەکان کۆکراونەتەوە بۆ یەک هەنگاو بۆ هەر شتێکی گۆڕاو: ئەوەی گواستنەوەیەکی دروستکراو لەم تۆمارە دەیکات.</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>کاتێک ئەم دامەزراندنە جۆرەکانی هەنگاوی YAML %types ی هەبێت، دەتوانرێت گواستنەوەی لێ دروست بکرێت.</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>بە ئەنقەست لابرا: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>هیچ شتێک تۆمار نەکرا.</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>ئەوەی گرتوویەتی</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>%count گۆڕانکاری، بەو ڕیزبەندییەی کراون.</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>گۆڕانکاری</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>هەنگاو</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>پەیوەندیدار بە</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>%count ی تر: ./console exp:migration:record:show هەموویان لیست دەکات.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>فڕێدان</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>تۆمارەکە و ئەوەی گرتوویەتی لادەبات. ئەوەی گۆڕاوە گۆڕاو دەمێنێتەوە.</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>بەڵێ، ئەم تۆمارە فڕێ بدە</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>تۆمار دەکرێت…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>گۆڕانکارییەکانت بۆ گواستنەوەیەک تۆمار دەکرێن.</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>هەموو گۆڕانکارییەک لەم ماڵپەڕەدا بۆ گواستنەوەیەک تۆمار دەکرێت (پەنجەرەی هەموو ماڵپەڕ).</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>تۆمارکردنی هەموو ماڵپەڕ دەستی پێکرد: هەموو گۆڕانکارییەکی هەموو بەکارهێنەرێک تۆمار دەکرێت تا ڕایدەگریت.</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>تۆمارکردن دەستی پێکرد: گۆڕانکارییەکانت تۆمار دەکرێن تا ڕایدەگریت.</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>تۆمارکردن ڕاگیرا. ئەوەی گرتوویەتی دەمێنێتەوە تا فڕێی دەدەیت.</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>تۆمارەکە و ڕووداوەکانی لابران.</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>هیچ تۆمارێکی %id نییە.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>سەرەتا «بەڵێ، ئەم تۆمارە فڕێ بدە» نیشانە بکە.</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>تەنها ئەو بەکارهێنەرەی تۆماری کردووە دەتوانێت تۆماری دانیشتن ڕابگرێت.</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>ئەو تۆمارە هەڵبژێرە کە ڕادەگیرێت.</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>تۆمارێکی ئەم جۆرە پێشتر کار دەکات.</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>تۆمارەکە نەگۆڕدرا: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>کۆچ دروست بکە</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>ناوی کۆچەکە (ئارەزوومەندانە)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>کۆچی %file نووسرا. ئەو گۆڕانکارییانەی هیچ هەنگاوێک ناتوانێت بیانکات لە سەرەوەی فایلەکە ناویان هاتووە، بۆ ئەوەی بە دەست بکرێن.</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>هیچ کۆچێک نەنووسرا: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>ڕاکردنێکی درێژ بە بەشەکان</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>خانە بەتاڵەکان ڕێکخستنەکانی migration.ini [RunSettings] دەپارێزن.</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>زۆرترین ئەم ژمارە گواستنەوەیە</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>دوای ئەمە هیچ گواستنەوەیەک نییە (چرکە)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>وچان لە نێوان گواستنەوەکان (چرکە)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>پێشینەی نزمتر (1 بۆ 19)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>خانەی ڕاکردنی درێژ ژمارەیەکی تەواوە لە 1 ەوە (وچان: چرکە لە 0 بۆ 60، پێشینە: 1 بۆ 19)، یان بەتاڵ.</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>لە %time خۆی دادەخرێت.</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>دوای ئەمە خۆی دابخرێت (خولەک، ئارەزوومەندانە)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>خولەکەکان ژمارەیەکی تەواون لە 1 بۆ 44640 (31 ڕۆژ)، یان بەتاڵ.</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>گواستنەوەی %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>گواستنەوەی نوێ</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>گواستنەوەیەکی YAML: وەک دەق بینووسە یان هەنگاوەکانی لە فۆرمەکەدا دروست بکە، بیپشکنە، پاشان لە بوخچەیەکی گواستنەوەکاندا پاشەکەوتی بکە.</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>ئەم گواستنەوەیە پێشتر جێبەجێ کراوە، بۆیە دووبارە پاشەکەوت ناکرێتەوە: فایلێکی گۆڕدراو لەلایەن پاسەوانی چێکسەمەوە ڕەت دەکرێتەوە. گۆڕانکارییەکە لە گواستنەوەیەکی نوێدا بکە.</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>ڕاژەکاری وێب ناتوانێت فایلەکە بنووسێت.</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>دێڕە تێبینییەکانی سەرەوە سەردێڕەکەن (description, author, requires, environments, engines). کاتێک هەنگاوێک لە فۆرمەکەدا زیاد دەکرێت یان دەگۆڕدرێت، گواستنەوەکە دووبارە دەنووسرێتەوە: تێبینییەکانی نێوان هەنگاوەکان ناهێڵرێنەوە.</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>ناوی گواستنەوەکە</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>بۆ کوێ دەچێت</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>ماڵپەڕەکە</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>دەقی YAML</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>پشکنین</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>پاشەکەوتکردن</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>هەنگاوەکان</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>کلیلەکان</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>دەستکاری بکە</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>گواستنەوە بۆ سەرەوە</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>گواستنەوە بۆ خوارەوە</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>لابردن</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>هێشتا هیچ هەنگاوێک نییە: یەکێک بە فۆرمەکە زیاد بکە، یان لە دەقەکەدا بیاننووسە.</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>گۆڕینی هەنگاوی %number</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>هەنگاوێک زیاد بکە</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>فۆرمی هەنگاوێک لە جۆری هەنگاوەکەی دروست دەکرێت: کلیلەکانی، ئەوەی هەر یەکێکیان وەریدەگرێت و ئەو شێوازانەی سەر بەیانە.</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>جۆری هەنگاو</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>فۆرمەکەی پیشان بدە</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>هەنگاوەکە کلیلی هەیە کە جۆرەکەی نایانناسێت؛ کاتێک هەنگاوەکە دەگۆڕدرێت لادەبرێن: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>شێواز</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>لە</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>تەنها لە %modes</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>بنەڕەت: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>مەرجەکان، ئاماژەکان و تێبینی</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>جووتە ناو=بەها کە بە فاریزە جیاکراونەتەوە. بەهاکانی ئەم هەنگاوە: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>نموونە</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>گۆڕینی هەنگاو</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>زیادکردنی هەنگاو</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>ئەوەی exp:migration:check دەیڵێت: سەردێڕەکە، بەڵگەنامەکە و هەموو هەنگاوێک کە جۆری هەنگاوەکەی پشکنیویەتی.</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>گواستنەوەکە لە پشکنینەکە دەردەچێت.</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>پێشبینین</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>YAMLەکە بەو شێوەیەی پاشەکەوت دەکرێت.</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>YAMLەکە پیشان بدە</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>گواستنەوەکانی YAML</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>جێبەجێ کراوە</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>هێشتا هیچ گواستنەوەیەکی YAML نییە.</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>دەستکاریکار</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>هیچ گواستنەوەیەکی YAML بە %id لە بوخچەکانی گواستنەوەدا نییە.</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>جۆری هەنگاوێک هەڵبژێرە.</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>هەنگاوەکە زیاد کرا. پێش پاشەکەوتکردنی، گواستنەوەکە بپشکنە.</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>هەنگاوەکە گۆڕدرا. پێش پاشەکەوتکردنی، گواستنەوەکە بپشکنە.</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>هەنگاوێک هەڵبژێرە.</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>ئەم هەنگاوە فۆرمی نییە (خولێک، یان جۆرە هەنگاوێک کە ئەم دامەزراندنە نییەتی): لە دەقەکەدا بیگۆڕە.</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>هەڵبژێرە گواستنەوەکە بۆ کوێ دەچێت: ماڵپەڕەکە یان پاشکۆیەکی چالاک.</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>%file پاشەکەوت کرا. پێش ئەوەی گواستنەوەکە جێبەجێ بکرێت، جێبەجێکردنێکی تاقیکاری بکە.</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>پاشەکەوت نەکرا: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>شوێنە دوورەکان</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>ئەو دامەزراندنانەی تر کە ئەم دامەزراندنە گواستنەوەکانی بۆیان بڵاو دەکاتەوە: بڵاوکردنەوەیەک گواستنەوەکان دەنێرێت بۆ ئەو شوێنە دوورانەی هەڵبژێردراون و لەوێ جێبەجێیان دەکات، هەموویان پێکەوە و هاوکات. شوێنێکی دوور هەرگیز نهێنی هەڵناگرێت: زانیاریی چوونەژوورەوەکەی ناوی نهێنییەک لە دامەزراندن &gt; نهێنییەکان دەهێنێت.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>شوێنی دووری نوێ</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>یارمەتی</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>تاقیکردنەوەی پەیوەندیی %id</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>شوێنە دوورەکان</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>تا %parallel شوێنی دوور لە یەک کاتدا کاریان لەسەر دەکرێت؛ یەک فەیز دەتوانێت لەسەر هەر یەکێکیان %timeout چرکە بخایەنێت.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>شوێنی دوور</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>ناونیشان</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>زانیاریی چوونەژوورەوە</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>کۆمەڵەکان</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>ڕێکخستنەکان پێویستیان بە چاککردنە</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>تەنها فایل (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>کلیلی SSH</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>وشەی نهێنی</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>هیچ (بریکاری SSH و کلیلەکانی میوان)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>تاقیکردنەوەی پەیوەندی</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>بڵاوکردنەوە بۆ کۆمەڵەیەک دەچێت بۆ هەموو شوێنە دوورەکانی.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>بڵاوکردنەوە بۆ شوێنە دوورەکان</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>هێشتا هیچ شوێنێکی دوور ڕێک نەخراوە.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>شوێنی دووری %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>لێرە هیچ شتێک نانێردرێت و جێبەجێ ناکرێت: پاشەکەوتکردن ڕێکخستنەکان دەنووسێت بۆ settings/override/migration.ini.append.php. زانیاریی چوونەژوورەوە ناوێکە؛ بەهاکەی لە دامەزراندن &gt; نهێنییەکان یان لە ژینگەدا دەمێنێتەوە.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>ئەم ڕێکخستنانە بپشکنن</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>ڕێکخستنەکان وەک نووسراون، هێشتا پاشەکەوت نەکراون.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>پێداچوونەوە</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>ڕێکخستنەکان دروستن. ئەم هێڵانە دەنووسرێن:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>گواستنەوە</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>تەنها ناوێک؛ بەهاکە لە دامەزراندن &gt; نهێنییەکان دەمێنێتەوە</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>ئەو هێڵانەی دەنووسرێن</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>پەیوەندی</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>کلیلی میوان</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. شوێنی دوور</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>ناوی شوێنە دوورەکە چییە و کام ژینگەیە.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ناسنامە</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>پیت، ژمارە، - و _، بۆ نموونە production1. ناوی شوێنە دوورەکە لە ڕاپۆرتەکان و لە کۆنسۆڵدا دیاری دەکات (--remotes=production1) و دواتر ناگۆڕدرێت.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... بڵاوکردنەوەی قۆناغ بە قۆناغ بەم ڕیزبەندییە بە ناو ژینگەکاندا تێدەپەڕێت.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>ئارەزوومەندانە، بە کۆما جیاکراوە، بۆ نموونە production. بڵاوکردنەوە بۆ کۆمەڵەیەک دەچێت بۆ هەموو شوێنە دوورەکانی.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. پەیوەندی</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>فایلەکان چۆن دەگەنە ئەوێ، و دامەزراندنەکە لە کوێیە.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>لەسەر SSH، تەنها ئەوەی گۆڕاوە، ناردنێکی پچڕاو بەردەوام دەکرێتەوە. باشترین هەڵبژاردە لە شوێنێک کە rsync دامەزرابێت.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>SSH لەگەڵ scp بۆ فایلەکان.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>SSH لەگەڵ sftp بۆ فایلەکان.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>تەنها فایل: گواستنەوەکان دەنێردرێن و دووبارە دەخوێندرێنەوە، بەڵام لەوێ جێبەجێ ناکرێن.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>FTP لەسەر TLS؛ تەنها فایل.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>دامەزراندنێکی تر لەسەر ئەم ڕاژەکارە، لە بوخچەیەکدا.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>میوان</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>ناوی میوان یان ناونیشانێک، بۆ نموونە node1.example.com. بۆ local نییە.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>پۆرت</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>بەتاڵ: 22 بۆ SSH، 21 بۆ FTP.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>بەکارهێنەر</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>ڕێڕەو</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>ڕەگی دامەزراندنەکە لەوێ، بۆ نموونە /var/www/site (بۆ FTP: ئەو ڕێڕەوەی هەژماری FTP دەیبینێت).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>هێڵی فەرمانی PHP</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>PHP CLI لەوێ: php، یان ڕێڕەوێکی تەواو وەک /opt/plesk/php/8.4/bin/php.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>سکریپتەکانی کۆنسۆڵ لەوێ وەک root کار دەکەن</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>تەنها کاتێک بەکارهێنەری شوێنە دوورەکە root بێت (ئەوکات بە --allow-root-user جێبەجێ دەکرێن).</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. زانیاریی چوونەژوورەوە</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>ئەم دامەزراندنە چۆن لەوێ دەچێتە ژوورەوە. تەنها ناوێک پاشەکەوت دەکرێت.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>هیچ</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>بریکاری SSH و کلیلەکانی ئەو بەکارهێنەرەی ئەم دامەزراندنە وەک ئەو کار دەکات (و هەمیشە بۆ local).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>کلیلێکی تایبەت کە وەک نهێنی هەڵگیراوە.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>وشەی نهێنییەک کە وەک نهێنی هەڵگیراوە (FTP پێی دەچێتە ژوورەوە).</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>ناوی نهێنی</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>نهێنییەک لە دامەزراندن &gt; نهێنییەکان، بۆ نموونە deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>دامەزراندن &gt; نهێنییەکان</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>یان گۆڕاوێکی ژینگە</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>ئەو گۆڕاوەی پرۆسەی ڕاژەکار کە هەڵیگرتووە، بۆ نموونە DEPLOY_KEY (وەک env:DEPLOY_KEY پاشەکەوت دەکرێت). جێگەی ناوی نهێنی دەگرێتەوە.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. کلیلی میوان</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>ئارەزوومەندانە، بۆ SSH، sftp و rsync.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>پەنجەمۆری کلیلی میوان</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... وەک ئەوەی ssh-keygen -l چاپی دەکات. لەگەڵیدا، میوانەکە دەبێت ئەم کلیلە پیشان بدات؛ بەبێ ئەو، کلیلەکە لە یەکەم پەیوەندیدا فێر دەبێت.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. پێداچوونەوە</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>پەیوەندییەکە بە ڕێکخستنەکانی سەرەوە تاقی بکەرەوە، پاشان پێداچوونەوە بەو هێڵانەدا بکە کە دەنووسرێن.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>ئەم شوێنە دوورە لابە</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>ڕێکخستنەکانی لە settings/override/migration.ini.append.php لادەبرێن. هیچ شتێک لەسەر شوێنە دوورەکە ناگۆڕێت، و بڵاوکردنەوەکانی لە مێژوودا دەمێننەوە.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>بەڵێ، ئەم شوێنە دوورە لابە</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>بڵاوکردنەوەکان</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>بڵاوکردنەوەیەک گواستنەوەکانی ئەم دامەزراندنە دەنێرێت بۆ ئەو شوێنە دوورانەی هەڵبژێردراون و لەوێ وەک %user جێبەجێیان دەکات، هەموویان پێکەوە و هاوکات: سەرەتا هەموو شوێنێکی دوور دەپشکنرێت، و ئەگەر یەکێکیان سەرنەکەوت، هەموو ئەو شوێنانەی جێبەجێیان کردووە دەگەڕێنرێنەوە. لە پاشبنەمادا بەڕێوە دەچێت، و پەڕەکەی لە کاتی ڕۆیشتندا هەموو شوێنێکی دوور پیشان دەدات.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. شوێنە دوورەکان</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>شوێنە دوورەکان، کۆمەڵەیەک، یان هەردووکیان دیاری بکە.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>بۆ ئەوێ بڵاوی بکەرەوە</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. چۆنیەتی</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>بڵاوکردنەوە</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>بنێرە و جێبەجێی بکە</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>گواستنەوەکان دەنێردرێن، دەپشکنرێن و لەسەر هەموو شوێنێکی دوور بە یەک ناسنامەی جێبەجێکردنی هاوبەش جێبەجێ دەکرێن.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>تەنها ناردن</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>فایلەکان دەنێردرێن و دەپشکنرێن، هیچ شتێک جێبەجێ ناکرێت (تاکە ڕێگە بۆ شوێنێکی دووری FTP).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>قۆناغ بە قۆناغ</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>قۆناغ بە قۆناغ بە ڕیزبەندی ژینگەکان (dev, stage, beta, production ...): یەکەم قۆناغ بڵاو دەکرێتەوە، پاشان دەروازەیەک چاوەڕێ دەکات تا کەسێک قۆناغی دواتر پەسەند بکات. هەموو یان هیچ لە ناو هەر قۆناغێکدا.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>تەنها ئەم گواستنەوانە</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>ئارەزوومەندانە: ناسنامەی گواستنەوەکان، بە کۆما جیاکراوە. بەتاڵ: هەموو گواستنەوەیەکی ماڵپەڕەکە و پاشکۆکانی.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>تەنها پشکنینی پێشوەختە</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>بەڵێ، ئێستا بڵاوی بکەرەوە</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>ئەو بڵاوکردنەوانەی شتێکیان ناردووە یان جێبەجێ کردووە، نوێترینیان سەرەتا (پشکنینی پێشوەختە هیچ ڕاپۆرتێک ناهێڵێتەوە).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>تەنها ناردن</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>قۆناغ بە قۆناغ، %stages قۆناغ</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>ناهاوکات</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>هێشتا هیچ بڵاوکردنەوەیەک نییە.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>بڵاوکردنەوەی %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>هەموو شوێنێکی دووری بڵاوکردنەوەکە لەگەڵ دۆخەکەی. بڵاوکردنەوەیەک کە لێرە دەستی پێکردووە لە پاشبنەمادا بەردەوام دەبێت کاتێک ئەم پەڕەیە دادەخرێت؛ پەڕەکە دووبارە بکەرەوە بۆ ئەوەی بەدوایدا بچیت.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>هەموو بڵاوکردنەوەکان</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>پشکنینی پێشوەختە</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>قۆناغی دواتر</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>پشکنینی ڕێکخستنەکان و زانیاریی چوونەژوورەوە</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>پشکنینی پێشوەختە: خوێندنەوەی دۆخی هەموو شوێنێکی دوور</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>ناردنی فایلەکانی گواستنەوە</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>پشکنینی ئەوەی گەیشتووە</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>جێبەجێکردنی گواستنەوەکان لەسەر هەموو شوێنێکی دوور</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>گەڕاندنەوەی شوێنە دوورەکان</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>بڵاوکردنەوەکە کۆتایی هات. ڕاپۆرتەکەی بار دەکرێت.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>نەتوانرا بەدوای پێشکەوتنەکەدا بچیت. پەڕەکە نوێ بکەرەوە بۆ ئەوەی ببینیت بڵاوکردنەوەکە چۆن دەڕوات.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>فەیز</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>ئەم پەڕەیە لە کاتی ڕۆیشتندا بەدوای بڵاوکردنەوەکەدا دەچێت.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>هاوکات</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>قۆناغەکان</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>قۆناغی %stage لە دەروازەکەیدا چاوەڕێ دەکات</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>دەروازەی %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>لەلایەن %user لە %time پەسەند کرا</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>قۆناغ</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>فایلە نێردراوەکان</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>وەشانی کێرنێڵ</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>جێبەجێ کرا: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>بۆ جێبەجێکردن: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>فەیزەکان</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>دەروازە: قۆناغی %stage لە %stages</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>قۆناغەکانی پێشووی بڵاو کراونەتەوە. بیانپشکنە، پاشان قۆناغی دواتر پەسەند بکە: شوێنە دوورەکانی دووبارە دەپشکنرێن و بڵاو دەکرێنەوە، هەموو یان هیچ.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>دواتر</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>بەڵێ، ئێستا قۆناغی دواتر بڵاو بکەرەوە</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>پەسەندکردن</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>ئەم بڵاوکردنەوەیە بگەڕێنەرەوە</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>هەموو ئەو شوێنە دوورانەی جێبەجێیان کردووە (%list) دەگەڕێنەوە بۆ ئەو وێنەی دۆخەی پێش جێبەجێکردنەکەیان گیراوە، هەموویان پێکەوە.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>بەڵێ، ئێستا ئەم بڵاوکردنەوەیە بگەڕێنەرەوە</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>پلان بۆ داڕێژراو</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>نێردرا</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>بڵاوکرایەوە</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>لە دەروازەیەکدا چاوەڕێ دەکات</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>هەڵبژێردراو</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>ئامادەکراو</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>ئامادەیە</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>چاوەڕێی قۆناغەکەی دەکات</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>فایلەکان نێردران</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>پشکنراو</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>سەرنەکەوت، خۆی گەڕاندەوە</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>نەگۆڕاو</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>بڵاو نەکرایەوە</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>بەردەست نییە</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>شوێنە دوورەکە وەڵامی دایەوە.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>ئێستا ناتوانرێت شوێنە دوورەکە بەکاربهێنرێت.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done تەواو، %pending چاوەڕوان، %failed سەرنەکەوتوو</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>قوفڵ</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>جێبەجێکردنێک لەوێ قوفڵەکەی گرتووە</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>بەتاڵ</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stage لە %stages</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>ئەو شوێنە دوورە هەڵبژێرە کە تاقی بکرێتەوە.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>سەرەتا «بەڵێ، ئەم شوێنە دوورە لابە» دیاری بکە.</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>شوێنە دوورەکە لانەبرا: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>شوێنە دوورەکە پاشەکەوت نەکرا: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>فایلی ڕێکخستنەکان ناخوێندرێتەوە: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>لانیکەم یەک شوێنی دوور یان کۆمەڵەیەک هەڵبژێرە.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>شوێنێکی دووری هەڵبژێردراو چیتر لە ڕێکخستنەکاندا نییە. پەڕەکە نوێ بکەرەوە.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>سەرەتا «بەڵێ، ئێستا بڵاوی بکەرەوە» دیاری بکە.</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>شوێنێکی دووری FTP ناتوانێت گواستنەوەکان جێبەجێ بکات: «تەنها ناردن» هەڵبژێرە، یان وازی لێ بهێنە.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>ئەو گواستنەوانەی بڵاو دەکرێنەوە ناسنامەی گواستنەوەن، بە کۆما جیاکراوە.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>بڵاوکردنەوەکە هێشتا بەردەوامە. چاوەڕێ بکە تا کۆتایی دێت.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>ئەم بڵاوکردنەوەیە لە دەروازەیەکدا چاوەڕێ ناکات.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>هیچ شوێنێکی دوور ئەم بڵاوکردنەوەیەی جێبەجێ نەکردووە: هیچ شتێک نییە بۆ گەڕاندنەوە.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>سەرەتا «بەڵێ، ئێستا قۆناغی دواتر بڵاو بکەرەوە» دیاری بکە.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>سەرەتا «بەڵێ، ئێستا ئەم بڵاوکردنەوەیە بگەڕێنەرەوە» دیاری بکە.</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>شوێنێکی دوور بە ناسنامەی %id پێشتر هەیە.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>پۆرت ژمارەیەکە لە 1 بۆ 65535.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>ژینگە وشەیەکە لە پیت، ژمارە، - و _ (alpha, dev, stage, beta, production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>کۆمەڵە وشەیەکە لە پیت، ژمارە، - و _ (نەک all): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>زانیاریی چوونەژوورەوە ئێستا ناخوێندرێتەوە: %problem. پێش یەکەم بڵاوکردنەوە لە دامەزراندن &gt; نهێنییەکان پاشەکەوتی بکە (یان گۆڕاوەکە دابنێ).</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>شوێنێکی دووری FTP تەنها فایل وەردەگرێت: بڵاوکردنەوە بۆی «تەنها ناردن»ە، و گواستنەوەکانی لەوێ بە دەست جێبەجێ دەکرێن.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>شوێنی دووری %id لە settings/override/migration.ini.append.php دا نییە؛ لەو شوێنەی دانراوە لای ببە.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>لە ڕێگەی FTP چووە ژوورەوە و index.php ی خوێندەوە. دۆخی گواستنەوەی شوێنێکی دووری FTP ناخوێندرێتەوە.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>گۆڕدراو</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>دروستکراو</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>ناو</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>پۆل</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>بەش</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>دروستکەر</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>ناوەڕۆکی نوێ</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>نوێترین ناوەڕۆکی دروستکراو و گۆڕدراوی هەموو ماڵپەڕەکە، نوێترین یەکەم: ئەوەی سەردانکەران ناردوویانە، ئەوەی بۆ پێداچوونەوە ڕاگیراوە، ڕەشنووسەکان کە چاوەڕێی بڵاوکردنەوەیانن. بڕگەکان هەڵبژێرە بۆ ئازادکردن، ڕاگرتن، شاردنەوە، پیشاندان، لابردن یان گواستنەوەیان بۆ بەش یان دۆخێکی تر.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>لیستەکە نەخوێندرایەوە: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>ڕاگرتن بۆ پێداچوونەوە هێشتا ڕێکنەخراوە، بۆیە هیچ شتێک ڕانەگیراوە و کردارەکانی ڕاگرتن پێشکەش ناکرێن. هەنگاوی نوێکردنەوەی 6.0.15-review-hold ڕێکی دەخات: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>پاڵاوتنی لیستەکە</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>لە</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>بۆ</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>بەروار</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>دروستکراو (یەکەم بڵاوکردنەوە)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>هەموو</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>بارودۆخ</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>بڵاوکراوە</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>ڕەشنووس، هەرگیز بڵاونەکراوەتەوە</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>چاوەڕوان (چاوەڕێی پەسەندکردن یان بەروارێک)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>لە سەبەتەی خۆڵدا</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>ڕاگیراو بۆ پێداچوونەوە</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>ڕاگیراو</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>ڕانەگیراو</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>شاراوە</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>دیار</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>نێردراو لە</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>هەر دەستگەیشتنێکی ماڵپەڕ</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>تەنها ئەوەی تۆماری پشکنین تۆماری کردووە.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>ئێستا: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>ناوی چوونەژوورەوە یان ناسنامەی بەکارهێنەر.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>پاڵاوتن</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>سڕینەوەی پاڵاوتنەکان</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>بڕگەکان</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from تا %to لە %count</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>هیچ بڕگەیەک نییە</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(خوێندرایەوە لە %ms ms)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>کردارەکان لەسەر بڕگە هەڵبژێردراوەکان</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>هەڵبژاردنی هەموو لەم پەڕەیەدا</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>%count هەڵبژێردراو</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>کردار</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>کردارێک هەڵبژێرە</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>لابردنی ڕاگرتن</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>ڕاگرتن بۆ پێداچوونەوە</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>شاردنەوە</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>پیشاندان</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>گواستنەوە بۆ سەبەتەی خۆڵ</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>سڕینەوە</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>دیاریکردنی بەش</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>دیاریکردنی دۆخ</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>هۆکار</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>بۆ ڕاگرتن پێویستە؛ لەگەڵ ڕاگرتنەکە و لە تۆماری پشکنیندا هەڵدەگیرێت.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>بەشێک هەڵبژێرە</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>دۆخ</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>دۆخێک هەڵبژێرە</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>جێبەجێکردن لەسەر هەڵبژێردراوەکان</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>هەر بڕگەیەک بەپێی مۆڵەتەکانی خۆت پشکنینی بۆ دەکرێت. گواستنەوە بۆ سەبەتەی خۆڵ و سڕینەوە داوای دڵنیابوونەوەت لێ دەکەن. زیاتر لە %count بڕگە لە پاشبنەمادا جێبەجێ دەکرێن.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>هەڵبژاردن</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>بڵاوکردنەوە</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>نێردراو لە لایەن</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>هەڵبژاردنی %name</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>هێشتا نا</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(بێ ناو)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ناسنامە %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>ڕەشنووس</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>چاوەڕوان</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>شاراوە بەهۆی دایکەکەیەوە</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>ڕاگیراو: ناردنی نوێ</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>وەشانی %version چاوەڕوانە</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>وەشانی %version لە کاردایە</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>ڕەشنووس، وەشانی %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>وەشانی %version بڵاوکرایەوە</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>خشتەکراو بۆ %date</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>بێ ناونیشان</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>تۆمار نەکراوە</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>هیچ شتێک لەگەڵ ئەم پاڵاوتنانە ناگونجێت.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>پیشاندانی هەمووی</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>هێشتا هیچ ناوەڕۆکێک نییە.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>بۆ هەر پەڕەیەک</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>پیشاندانی %count بڕگە لە هەر پەڕەیەکدا.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says "not recorded".</source>
+        <translation>ناونیشان و وێبگەڕی ناردنێک لە پێڕستی تۆماری پشکنینەوە دێن، کە لێرە بەردەست نییە: ستوونەکە دەڵێت «تۆمار نەکراوە».</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>ناونیشان و وێبگەڕ ئەوانەن کە تۆماری پشکنین بۆ بڕگەکە تۆماری کردوون (ڕاگرتنی خۆکار هەمیشە تۆماریان دەکات؛ بڵاوکردنەوە و دروستکردن تەنها لەو شوێنانەی چالاک کراون)، وەک ڕێکخستنەکانی تایبەتمەندییەکەی هەڵیان دەگرێت.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: %count بڕگە</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>سڕینەوە بڕگەکان بە یەکجاری لادەبات، لەگەڵ هەموو وەشان و وەرگێڕانەکانیان. ناتوانرێت بگەڕێنرێتەوە.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>بڕگەکان دەچنە سەبەتەی خۆڵ، کە لەوێوە دەتوانرێت بگەڕێنرێنەوە.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>هەر بڕگەیەک بەپێی مۆڵەتەکانی خۆت پشکنینی بۆ دەکرێت؛ بڕگەیەک کە بڕگەی لاوەکی هەبێت وەک خۆی دەهێڵرێتەوە (لە پێکهاتەی ناوەڕۆکدا لای ببە). داوات لێ دەکرێت پشتڕاستی بکەیتەوە کە خۆتی.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>ئەمە لە پاشبنەمادا جێبەجێ دەکرێت: پەڕەی پێشکەوتنەکەی دەکرێتەوە، و ئەنجامی هەر بڕگەیەک کاتێک تەواو بوو پیشان دەدرێت.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>بڕگە هەڵبژێردراوەکان</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>و %count ی تر</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>هەڵوەشاندنەوە</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>هیچ شتێک نەکرا</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>هۆکار: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>کردارەکە هێشتا لە پاشبنەمادا جێبەجێ دەکرێت.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>پێشکەوتنەکەی</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>کردارەکەی پاشبنەما سەرنەکەوت: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>تەواو بوو</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>ڕەتکرایەوە</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>سەرنەکەوت</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>بۆ هەر بڕگەیەک</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>بڕگە</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>ئەنجام</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>بۆچی</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>گەڕانەوە بۆ لیستەکە</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>دامەزراندن</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>هیچ نەکرا</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>دڵنیابوونەوە</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>کردارێک هەڵبژێرە.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>لانیکەم یەک بڕگە هەڵبژێرە.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>لە یەک جاردا زۆرترین 1000 بڕگە هەڵبژێرە.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>بڵێ بۆچی بڕگەکان ڕاگیراون.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>بەشەکە هەڵبژێرە.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>دۆخەکە هەڵبژێرە.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>فۆڕمەکە نەخوێندرایەوە.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>داشبۆرد</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>ناوەڕۆکی نوێ</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>ژمارەکان نەخوێندرانەوە: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>ڕاگیراو بۆ پێداچوونەوە</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>نوێی ئەمڕۆ</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>ڕاگرتن بۆ پێداچوونەوە هێشتا ڕێکنەخراوە (هەنگاوی نوێکردنەوەی 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>هەموو ناوەڕۆکی نوێ</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>ڕێگەت پێ نەدراوە کردارەکانی چاودێری جێبەجێ بکەیت (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>کرداری چاودێری تەواو نییە: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>چاودێری: %action لەسەر %count ئۆبجێکت</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%done لە %total ئۆبجێکت: %ok تەواو بوو، %refused ڕەتکرایەوە، %failed سەرنەکەوت</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok تەواو بوو، %refused ڕەتکرایەوە، %failed سەرنەکەوت</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>ئیتر بوونی نییە.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>هیچ شوێنێکی نییە (بڵاونەکراوەتەوە).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>ڕێگەت پێ نەدراوە بیشاریتەوە (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>ڕێگەت پێ نەدراوە پیشانی بدەیت (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>پێشتر شاراوەیە.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>شاراوە نییە.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>شاردرایەوە.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>پیشان درا.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>لە سەبەتەی خۆڵدایە: لەوێ بەتاڵی بکەرەوە یان بیگەڕێنەرەوە.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>ڕەشنووسێک کە هەرگیز بڵاونەکراوەتەوە ناتوانێت بچێتە سەبەتەی خۆڵ: بیسڕەوە.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>ڕێگەت پێ نەدراوە بیسڕیتەوە (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>سڕایەوە.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>ڕێگەت پێ نەدراوە لای ببەیت (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>بڕگەی لاوەکی هەیە: لە پێکهاتەی ناوەڕۆکدا لای ببە، کە لەوێ لیست کراون.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>لانەبرا (لەوانەیە ڕەوتی کارێک لابردنەکە ڕابگرێت).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>گوازرایەوە بۆ سەبەتەی خۆڵ.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>بەشەکە بوونی نییە.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>پێشتر لەم بەشەدایە.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>ڕێگەت پێ نەدراوە ئەم بەشە دیاری بکەیت (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>بەشەکە دیاری نەکرا.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>بەشەکە دیاری کرا.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>دۆخەکە بوونی نییە.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>پێشتر لەم دۆخەدایە.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>ڕێگەت پێ نەدراوە ئەم دۆخە دیاری بکەیت (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>دۆخەکە دیاری نەکرا (لەوانەیە ڕەوتی کارێک گۆڕانکارییەکە ڕابگرێت).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>دۆخەکە دیاری کرا.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>کردارێکی وا نییە.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>ڕاگرتن بۆ پێداچوونەوە ڕێکنەخراوە (هەنگاوی نوێکردنەوەی 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>بڵێ بۆچی ڕاگیراوە.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>پێشتر ڕاگیراوە.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>ڕێگەت پێ نەدراوە ڕایبگریت (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>ڕاگرتنەکە دانەنرا (لەوانەیە ڕەوتی کارێک گۆڕانکارییەکە ڕابگرێت).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>ڕاگیرا.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>ڕانەگیراوە.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>ڕێگەت پێ نەدراوە ئازادی بکەیت (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>ڕاگرتنەکە لانەبرا (لەوانەیە ڕەوتی کارێک گۆڕانکارییەکە ڕابگرێت).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>ئازاد کرا؛ هێشتا شاراوەیە: ڕێگەت پێ نەدراوە پیشانی بدەیت (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>ئازاد کرا.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>هەموو ئامانجەکان</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>دوایین بڵاوکردنەوە</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>کۆپییەکی چەسپاوی ماڵپەڕەکەتان بە خۆڕایی لەسەر GitHub Pages بڵاو بکەنەوە:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>پەڕە کۆنەکان</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>بڵاوکردنەوەی چەسپاو</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>بڵاوکردنەوەی چەسپاو کوژاوەتەوە.</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>ئامانج</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>ئامانجەکان نەخوێندرانەوە: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>ئەرکێک بەڕێوەدەچێت</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>بنیاتنانی چاوەڕێی پشکنین</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>ئەمە بشارەوە</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>ئامانجێک دروست بکەن</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>هەرگیز</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>فێرکارییەکە بخوێننەوە</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>%added زیادکرا، %changed گۆڕدرا، %removed لابرا</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%bytes لە %limit (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>%count ی تر ڕیز نەکراون.</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>%pages پەڕە نووسران</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path قەبارەی %size ە، زیاتر لەوەی خانەخوێ بۆ فایلێک ڕێگەی پێدەدات.</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>%percent % ی سنوور</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds چرکە</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag ئەو بڵاوکردنەوەیەیە کە ماڵپەڕەکە ئێستا هەیەتی.</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: ئەرکی %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>/کۆگا/ بۆ ماڵپەڕی پرۆژەیەکی GitHub؛ بەتاڵ بۆ دۆمەینی تایبەت یان ماڵپەڕی بەکارهێنەر.</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. ماڵپەڕەکە</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. خانەخوێ</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. چوونەژوورەوە بۆ کۆگاکە</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. کۆگاکە</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. بەستەرەکان و ڕێڕەوی بنەڕەت</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. دۆمەینی خۆتان</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. بنیاتنانەکە چی لەخۆ دەگرێت</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. کەی بڵاو دەکرێتەوە</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. پێداچوونەوە و پاشەکەوتکردن</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>ماڵپەڕی پرۆژەیەکی GitHub لە ژێر /&lt;repository&gt;/ دایە؛ بەستەرە ڕێژەییەکان لەوێ و لە هەر شوێنێکی تر کار دەکەن.</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>بنیاتنانێک هەموو پەڕەیەکی %site دەهێنێت وەک ئەوەی سەردانکەرێکی نەچووەژوورەوە دەیبینێت، بەستەرەکان دووبارە دەنووسێتەوە، فایلەکان کۆپی دەکات و ئەنجامەکە دەنووسێت بۆ بوخچەی ئامانجەکە. هیچ شتێک بڵاو ناکرێتەوە تا بنیاتنانەکە نەپشکنن و بڵاوکردنەوە دانەگرن.</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>دەربڕینێکی cron، بۆ نموونە 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>کلیلی دیپلۆی وەک نهێنیی %secret هەڵدەگیرێت.</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>کلیلی دیپلۆی ڕێگە بەم دامەزراندنە دەدات تەنها بۆ یەک کۆگا لە ڕێگەی SSH پوش بکات و بۆ هیچ شوێنێکی تر نا. نیوە تایبەتەکەی لە دامەزراندن &gt; نهێنییەکان دەمێنێتەوە؛ تەنها نیوە گشتییەکە پیشان دەدرێت.</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>کلیلی دیپلۆیی دروستکراو بۆ ئەم ئامانجە</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>کلیلی دیپلۆی لە ڕێگەی SSH دەچێتە ژوورەوە: ناونیشانی git بگۆڕن بۆ ناونیشانی SSH (git@github.com:owner/repo.git).</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>ئەرکێک بەڕێوەدەچێت، لەلایەن %user دەستیپێکراوە</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>ئەرکێکی ئەم ئامانجە هێشتا بەڕێوەدەچێت (%detail). چاوەڕێ بکەن تا کۆتایی دێت.</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>ئەرکێکی ئەم ئامانجە هێشتا بەڕێوەدەچێت. چاوەڕێ بکەن تا کۆتایی دێت.</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>بەستەرێک لە پەڕەی /news/ بۆ پەڕەی /about-us/team بەم شێوەیە دەنووسرێت</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>کلیلی دیپلۆیی نوێ دروستکرا. ئێستا نیوە گشتییەکەی بخەنە سەر کۆگاکە.</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>پەڕەیەک کە دوای پاککردنەوە هێشتا دەرهاوێشتەی هەڵەدۆزی، تۆکنی فۆرم یان ناسنامەی دانیشتن لەخۆ بگرێت هەرگیز بڵاو ناکرێتەوە.</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>گەڕاندنەوە بۆ شارەزایانە: &quot;دەزانم ئەمە چی دەگۆڕێت&quot; دیاری بکەن و ناوی تاگەکە دووبارە بنووسنەوە.</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>ماڵپەڕێک دەتوانێت تا %site بێت، فایلێک تا %file، لەگەڵ نزیکەی 100 GB هاتوچۆ لە مانگێکدا. لەسەر پلانی خۆڕایی کۆگاکە دەبێت گشتی بێت. GitHub Pages بۆ فرۆشگا یان مامەڵەی بازرگانیی تر نییە.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>ئامانج یەک ماڵپەڕە کە بۆ یەک کۆگای git بڵاو دەکرێتەوە. لێرە هیچ شتێک بنیات نانرێت یان بڵاو ناکرێتەوە: پاشەکەوتکردن ڕێکخستنەکان دەنووسێت بۆ settings/override/staticcache.ini.append.php.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>ئامانج یەک ماڵپەڕە کە بۆ یەک شوێن بڵاو دەکرێتەوە، بۆ نموونە ماڵپەڕە گشتییەکەتان لەسەر GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>تۆکنێک لە دامەزراندن &gt; نهێنییەکان</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>ڕێڕەوی کارێکی کۆگاکە بڵاوی دەکاتەوە.</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>ئەم کلیلە گشتییە بە دەسەڵاتی نووسینەوە بخەنە سەر کۆگاکە. GitHub: Settings &gt; Deploy keys &gt; Add deploy key، Allow write access دیاری بکەن.</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>زیادکرا</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>خانەخوێیەکی تری git</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>پرۆسەیەکی تر لەسەر ئەم ئامانجە کار دەکات: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>گەڕانەوە</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>ڕێڕەوی بنەڕەت</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>پێشتر</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>لە ژێر ڕێڕەوێکی بنەڕەتدا</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>لق</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>بەستەرە شکاوەکان</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>بەستەرە شکاوەکانی ناو بنیاتنانەکە</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>بنیاتنان</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>بنیاتنانی %id لەلایەن %user</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>بنیاتنانی %name</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>ئێستا بنیات بنێن</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>بنیاتنانی چاوەڕێی پشکنین</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>لەلایەن</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>بە دەست، لێرە</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>هەڵوەشاندنەوە</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>گۆڕین</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>گۆڕدرا</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>گۆڕانکارییەکان</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>سەرەتا بیپشکنن</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>ئەم ڕێکخستنانە بپشکنن</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>بپشکنن بنیاتنانەکە چی دەگۆڕێت، سەیری بکەن، پاشان بڵاوی بکەنەوە یان فڕێی بدەن.</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>ئەو بڵاوکردنەوەیە هەڵبژێرن کە دەتانەوێت بگەڕێنەوە بۆی.</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>لە وەشانێکی داهاتوودا دێت.</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>کۆمیت</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>کۆمیتەکان</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>بنیاتنانەکە کۆمیت دەکات، تاگی دەکات و پوشی دەکات بۆ %remote. پوش هەرگیز بە زۆر ناکرێت؛ دواتر دەتوانن بگەڕێنەوە بۆ هەر بڵاوکردنەوەیەک.</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>بەراورد بە بوخچەکەی پێشوو: %added زیادکرا، %changed گۆڕدرا، %removed لابرا، %unchanged نەگۆڕدرا.</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>بەراورد بە دوایین بڵاوکردنەوە.</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>زانیاریی چوونەژوورەوە</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>دۆمەینی تایبەت</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>دەرهاوێشتەی هەڵەدۆزی، تۆکنی فۆرم، ناسنامەی دانیشتن و nonce ەکان هەمیشە لادەبرێن.</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>کلیلی دیپلۆی</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>کلیلی دیپلۆیی %name</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>فڕێدان</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>بنیاتنانەکە فڕێ بدەن</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>دۆمەین</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>بەتاڵ: ناونیشانی ماڵپەڕەکە. ئەگەر نا ناونیشانێکی ناوخۆیی هەمان ماڵپەڕ.</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>کۆتایی هات</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>هەموو بەستەرێک بە ڕێڕەوی بنەڕەت دەست پێدەکات.</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>هەموو بڵاوکردنەوەیەک کۆمیتێکە بە تاگی static/%id/&lt;n&gt;. گەڕانەوە کۆمیتێکی نوێ دروست دەکات بە فایلەکانی بڵاوکردنەوەیەکی پێشوو: مێژووەکە دەمێنێتەوە، هیچ تاگێک ناجووڵێت و هیچ شتێک بە زۆر ناکرێت.</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>زیادەکان</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>پەڕەکان لێرەوە بهێنە</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>فایل</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>فایلەکان</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>فایلی ونبوو</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>فایلەکانی</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>ئەو فایلانەی نەتوانران کۆبکرێنەوە</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>پەنجەمۆر</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>بوخچە</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>بۆ ناونیشانێکی SSH. کلیلەکە دوای پاشەکەوتکردن دروست دەکرێت؛ نیوە گشتییەکەی دەخەنە سەر کۆگاکە.</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>بۆ ناونیشانێکی https://. GitHub: تۆکنێکی وردکراو بە دەسەڵاتی خوێندنەوە و نووسینی Contents لەسەر کۆگاکە.</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>بۆ شارەزایان. ماڵپەڕە گشتییەکە هەر کە پوشەکە تەواو بوو دەگۆڕێت.</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>فۆرمەکان</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>خانەخوێیی خۆڕایی لە کۆگایەکی GitHub ەوە.</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>لە لقەکەوە</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>ناونیشانی Git</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages ڕێگە بە ماڵپەڕێکی %site و فایلێکی %file دەدات.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>سنوورەکانی GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages فایلەکان وەک خۆیان بڵاو دەکاتەوە (پێویستە بۆ ئەو فایلانەی بە _ دەست پێدەکەن).</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub لقەکە وەک ئەوەی پوش کراوە پێشکەش دەکات. بنەڕەت.</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab، Gitea، ڕاژەکاری خۆتان: هەر کۆگایەکی git.</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>گەڕانەوە بۆ بڵاوکردنەوەیەکی پێشوو</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>یارمەتی</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>یارمەتی لەگەڵ ڕێبەرەکە</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>بیانشارەوە</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>مێژوو</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>مێژووی %name</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>خانەخوێ</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>GitHub Pages چۆن بنیاتنانەکە وەردەگرێت</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>گۆڕانکارییەکانم پشکنیوە</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>دەزانم ئەمە چی دەگۆڕێت</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ناسنامە</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>کوژاوەتەوە: هیچ شتێک بنیات نانرێت تا هەڵنەکرێت.</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>لە پاشبنەمادا وەک %user کار دەکات؛ دەتوانن ئەم پەڕەیە دابخەن.</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>ئەرکی %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>وەک نهێنیی %secret هەڵگیراوە.</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>جۆر</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>دوایین بڵاوکردنەوە</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>ئەم پەڕانە لاببەن</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>ئەم بەشانە لاببەن</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>بەستەرەکان</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>بەستەرە دووبارە نووسراوەکان</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>ماڵپەڕی ڕاستەوخۆ</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>سەیری بنیاتنانەکە بکەن</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>پیتی بچووک، ژمارە، _ و -، بۆ نموونە github-public. ناوی بوخچەکە و تاگەکان (static/&lt;id&gt;/&lt;n&gt;) دیاری دەکات و دواتر ناگۆڕدرێت.</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>کلیلێکی نوێ دروست بکەن</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>ئامانجێک دروست بکەن</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>کلیلەکە دروست بکەن</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>سەرەتا کۆگاکە لەسەر خانەخوێکە دروست بکەن؛ کۆگایەکی بەتاڵ گونجاوە.</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>لیستی فایلەکان</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>پەیام</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>زۆربەی پەڕەکان</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>ناو</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>ناوی تۆکنەکە لە دامەزراندن &gt; نهێنییەکان</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>ئامانجی نوێ</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>دواتر</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>نەخێر</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>هێشتا هیچ کۆمیتێک نییە.</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>هیچ کلیلێک دروست نەکرا: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>هیچ بەرنامەیەکی هێڵی فەرمانی php نەدۆزرایەوە. migration.ini [AdminSettings] PhpCliPath بۆ ڕێڕەوە تەواوەکەی دابنێن.</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>هێشتا هیچ تاگێک نییە.</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>هێشتا هیچ ئامانجێک نییە.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>هیچ</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>لە بنیاتنانەکەدا نییە.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>هێشتا هیچ شتێک بڵاو نەکراوەتەوە.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>هێشتا هیچ شتێک بڵاو نەکراوەتەوە: هەموو فایلێک نوێیە.</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>ئاگادارکردنەوە</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>بەپێی خشتەی کات</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>لەسەر کۆنسۆڵ</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>لەسەر ڕاژەکار: ./console exp:static:serve %id بە هەمان شێوە پێشکەشی دەکات.</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>هەر هێڵێک یەک ڕێڕەو، * لەگەڵ هەر بەشێک دەگونجێت: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>تەنها ناوێک لەگەڵ ئامانجەکە هەڵدەگیرێت؛ خودی تۆکن یان کلیلەکە لە دامەزراندن &gt; نهێنییەکان دەمێنێتەوە و هەرگیز لە تۆماردا دەرناکەوێت.</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>تەنها ئەوەی پەڕەکان ناوی دەهێنن</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>تەنها لەگەڵ تۆکن. env:NAME لە جیاتی ئەوە گۆڕاوێکی ژینگەی ڕاژەکار دەخوێنێتەوە.</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>پێشبینینەکە بکەنەوە</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>بنیاتنانەکە دەکاتەوە وەک ئەوەی خانەخوێ پێشکەشی دەکات، لە بوخچەی ئامانجەکەوە. بەستەرەکە بۆ ماوەی کاتژمێرێک بۆ ئێوە کار دەکات.</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>ئارەزوومەندانە. بەتاڵ: ئەوەی بڵاوکرایەوە.</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>ئارەزوومەندانە. لەگەڵ دۆمەینێک ماڵپەڕەکە لە ڕەگەکەیدا پێشکەش دەکرێت.</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>دەرهاوێشتە</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>پەڕەکان</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>پەڕەکانی ئامانجەکە</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>پەڕە ڕەتکراوەکان</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>دواپرۆسەکردن</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>پێشبینین</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>پێشبینین و بڵاوکردنەوە</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>پێشبینین و بڵاوکردنەوەی %name</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>پێشبینینی بنیاتنانەکە</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>پێشکەوتن</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>ناونیشانی گشتی</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>کلیلی گشتی</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>بڵاوکردنەوە</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>کۆپییەکی چەسپاوی ماڵپەڕێک بۆ GitHub Pages یان هەر خانەخوێیەکی git بڵاو بکەنەوە: بنیاتی بنێن، گۆڕانکارییەکان بپشکنن، بڵاوی بکەنەوە، و کاتێک پێویست بوو بگەڕێنەوە بۆ بڵاوکردنەوەیەکی پێشوو.</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>بڵاوکردنەوە بۆ گەڕانەوە</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>بڵاوکردنەوەکان</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>پوش</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>فێرکارییەکە بخوێننەوە</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>تۆمار</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>ڕەتکرایەوە</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>ڕێژەیی</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>دووبارە بارکردنەوە</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>لابرا</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>کلیلەکە بگۆڕن: کۆنەکە لە کار دەکەوێت</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>ڕاپۆرت</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>ڕاپۆرتی بنیاتنانەکە</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>کۆگا</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>پێداچوونەوە</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>پێداچوونەوە هەموو ڕێکخستنێک دەپشکنێت و ئەو هێڵانە پیشان دەدات کە دەنووسرێن. هێشتا هیچ شتێک پاشەکەوت نەکراوە.</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>گەڕاندنەوە</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>گەڕاندنەوە</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>پاشەکەوتکردن</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>خشتەی کات</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>پەڕەی گەڕان</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>ناسنامەی بەشەکان، بە کۆما جیاکراونەتەوە.</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>بیاننێرن بۆ ماڵپەڕی ڕاستەوخۆ</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>ڕێکخستن</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>ڕێکخستنەکان</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>ڕێکخستنەکانی %name</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>دامەزراندن</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>دامەزراندن &gt; نهێنییەکان</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>لە لیستەکاندا پیشان دەدرێت، بۆ نموونە &quot;ماڵپەڕی گشتی لەسەر GitHub Pages&quot;.</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>چوونەژوورەوە بە GitHub App لەگەڵ یەکخستنی GitHub دێت.</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>ماڵپەڕ</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>ماڵپەڕ بۆ بڵاوکردنەوە</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>قەبارە</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>قەبارە و سنوورەکان</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>قەبارەی بنیاتنانەکە</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>پەڕە کۆنەکان</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>دەستپێکرد</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>لەلایەن %user لە %time دەستپێکرا.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>دۆخ</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>بڵاوکردنەوەی چەسپاو</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>بڵاوکردنەوەی چەسپاو کوژاوەتەوە</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>بڵاوکردنەوەی چەسپاو کوژاوەتەوە.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>بڵاوکردنەوەی چەسپاو کوژاوەتەوە. سەرەتا لە دامەزراندن &gt; بڵاوکردنەوەی چەسپاو هەڵیبکەن.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>بڵاوکردنەوەی چەسپاو هەڵکراوە.</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>هەنگاوی %step لە %total</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>هەنگاوەکان</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>پاککردنەوە</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>کوژاندنەوە</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>هەڵکردن</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>بڵاوکردنەوەی چەسپاو هەڵبکەن</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>تاگ</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>تاگەکان</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>ئامانج</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>ئامانجەکان دەتوانرێن دروست بکرێن و بگۆڕدرێن، بەڵام هیچ شتێک بنیات نانرێت یان بڵاو ناکرێتەوە تا هەڵنەکرێت.</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>بە بزوێنەرەکانی گەڕان دەڵێت چی بخوێننەوە.</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>بنیاتنانەکە فڕێ نەدرا: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>بنیاتنانەکە هەمان دوایین بڵاوکردنەوەیە: هیچ شتێک نییە بۆ بڵاوکردنەوە.</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>بنیاتنانەکە فڕێدرا: بوخچەکە دووبارە دوایین بڵاوکردنەوە لەخۆ دەگرێت.</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>بنەڕەتەکان بۆ زۆربەی ماڵپەڕەکان گونجاون.</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>بوخچەکە بنیاتنانێکی تێدایە کە هێشتا بڵاو نەکراوەتەوە؛ بنیاتنانێکی نوێ جێگەی دەگرێتەوە.</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>بوخچەی ئەرکەکان ناتوانرێت بنووسرێت: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>ئەرکەکە ئامادە نەکرا: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>ئەرکەکە دەست پێنەکرا.</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>ئەرکەکە کۆتایی هات. ڕاپۆرتەکەی باردەکرێت.</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>ئەرکەکە پێویستی بە بەکارهێنەرێکی چووەژوورەوە هەیە.</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>ئەرکەکە دەستیپێکرد بەڵام ناسنامەی پرۆسەکەی ڕانەگەیاند. %detail بپشکنن.</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>کلیلەکە</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>گەورەترین فایل: %path، %size.</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>ئەو هێڵانەی دەنووسرێن</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>لیستی پەڕەکان بۆ بزوێنەرەکانی گەڕان؛ پێویستی بە ناونیشانی گشتی هەیە.</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>پەڕەکان دەهێنرێن وەک ئەوەی سەردانکەرێکی نەچووەژوورەوە دەیانبینێت. دەستگەیشتنەکانی ماڵپەڕ بۆ بەڕێوەبردن و دەستکاریکردن هەرگیز پێشنیار ناکرێن.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>پێشکەوتنەکە نەتوانرا بەدواداچوونی بۆ بکرێت. پەڕەکە دووبارە باربکەنەوە بۆ بینینی دۆخی ئەرکەکە.</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>نیوە گشتییەکەی کلیلەکە:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>ڕەگی لقەکە</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>کۆگای نهێنییەکان هێشتا ڕێک نەخراوە (./console exp:upgrade --apply خشتەکەی دروست دەکات)، بۆیە هیچ کلیلێک ناتوانرێت هەڵبگیرێت.</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>ڕاژەکار خۆی دەچێتە ژوورەوە (بە کلیلی SSH ی خۆی یان یاریدەدەری زانیاریی چوونەژوورەوە)، یان کۆگاکە لەسەر ئەم ڕاژەکارەیە.</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>ڕێکخستنەکە نەنووسرا: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>ڕێکخستنەکان دروستن. ئەم هێڵانە دەنووسرێن:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>فایلی ڕێکخستنەکان ناخوێندرێتەوە: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>ماڵپەڕەکە دەگەڕێتەوە بۆ فایلەکانی ئەو بڵاوکردنەوەیە؛ بنیاتنانێک کە هێشتا بڵاو نەکراوەتەوە دەبێت سەرەتا بڵاو بکرێتەوە یان فڕێ بدرێت.</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>پەڕەی تایبەتی ماڵپەڕەکە بۆ ئەو ناونیشانانەی بوونیان نییە.</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>ئامانجەکە پاشەکەوت نەکرا: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>ئامانجەکە هێشتا بەم کلیلە ناچێتە ژوورەوە: لە ڕێکخستنەکانیدا &quot;کلیلی دیپلۆیی دروستکراو بۆ ئەم ئامانجە&quot; هەڵبژێرن.</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>ئامانجەکان نەخوێندرانەوە: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>هێشتا هیچ بنیاتنانێک بۆ پشکنین نییە.</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>ئەم دامەزراندنە هیچ دەستگەیشتنێکی پێشەوەی ماڵپەڕی نییە. دەستگەیشتنەکانی ماڵپەڕ بۆ بەڕێوەبردن و دەستکاریکردن هەرگیز بڵاو ناکرێنەوە.</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>ئەم پەڕەیە بەدوای ئەرکەکەدا دەچێت لە کاتی بەڕێوەچوونیدا؛ کاتێک پەڕەکە دادەخرێت لە پاشبنەمادا بەردەوام دەبێت.</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>ئەم ئامانجە هێشتا کلیلی دیپلۆیی نییە.</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>ئەم ئامانجە هێشتا لێرە بنیات نەنراوە.</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>ئەم ئامانجە یەکێکی هەیە.</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>ئەم بنیاتنانە فڕێ دەدات: بوخچەکە دووبارە دوایین بڵاوکردنەوە لەخۆ دەگرێت. ماڵپەڕی ڕاستەوخۆ ناگۆڕێت.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>سەرەتا &quot;گۆڕانکارییەکانم پشکنیوە&quot; دیاری بکەن.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>کات</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>دەستپێکەرەکان</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>ناوی تاگەکە دووبارە بنووسنەوە</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>نەگۆڕدراو</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>وێبهووک</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>چی</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>چی دەگۆڕێت</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>هەر فایلێک چییە؛ هەمیشە دەنووسرێت.</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>ئەرکەکە چی کرد و تۆمارەکەی. ئەرکێک کە لێرە دەستی پێکرابێت کاتێک ئەم پەڕەیە دادەخرێت لە پاشبنەمادا بەردەوام دەبێت.</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>ئەوەی ئەرکەکە وەک هەڵە چاپی کرد</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>ئەوەی پەڕەکان ناوی دەهێنن، و هەموو وێنەیەکی ناوەڕۆکی بڵاوکراوە</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>کەی</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>کاتێک بڵاوکردنەوەیەک سەرناکەوێت</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>کاتێک بڵاوکردنەوەیەک سەردەکەوێت</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>کاتێک ناوەڕۆک بڵاو دەکرێتەوە</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>بەستەرەکان بۆ ئەوەی کۆپییەکە لەخۆی ناگرێت (گەڕان، چوونەژوورەوە) بۆ کوێ دەچن.</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>کۆپییە چەسپاوەکە لە کوێوە پێشکەش دەکرێت.</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>کام ماڵپەڕ بڵاو دەکرێتەوە، و ناوی ئامانجەکە چییە.</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>لە ژێر هەر ڕێڕەوێکدا کار دەکات. بنەڕەت.</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>هەر کاتێک دۆمەینی تایبەت دانرابێت دەنووسرێت.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>بەڵێ</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>هەمیشە دەتوانن لێرە و لەسەر کۆنسۆڵ بە دەست بنیات بنێن و بڵاو بکەنەوە.</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>تەنها ناوێک؛ بەهاکە لە دامەزراندن &gt; نهێنییەکان دەمێنێتەوە</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>لە ژێر %path</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>بێ ڕاپۆرت کۆتایی هات</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>زیادە</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>سەرنەکەوت</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>فایل</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages، یان main لەگەڵ بوخچەی docs.</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>خانەخوێی git</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (لەگەڵ تۆکن) یان git@github.com:owner/repo.git (لەگەڵ کلیلی دیپلۆی)؛ هەرگیز وشەی نهێنی یان تۆکن تێیدا نەبێت.</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/، بۆ نەخشەی ماڵپەڕ و بەستەرە فەرمییەکان.</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>وێنە</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>هەرگیز</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>نەخێر</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>بێ ڕیمۆت</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>هیچ: کۆمیتەکان لە بوخچەکەدا دەمێننەوە</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>هیچ: هیچ شتێک نەگۆڕا</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>پوش نەکراوە</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>هیچ شتێک نەگۆڕا</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>پەڕە</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>سەرکەوت</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>proc_open ناچالاک کراوە، بۆیە ئەرکێک لێرە دەست پێناکرێت. لەسەر ڕاژەکار ./console exp:static:build بەکاربهێنن.</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>بڵاوکردنەوە</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>بڵاوکراوە</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>پوش چاوەڕوانە</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>پوش کرا</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>ڕەتکرایەوە</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>ڕێژەیی</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>گەڕاندنەوە</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>گەڕێندرایەوە</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>بەڕێوەدەچێت</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>تەنها بوخچەکە</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: لە فایلی CNAME دەنووسرێت. DNS ی دۆمەینەکە ئاراستەی خانەخوێکە بکەن وەک ئەو ڕوونی دەکاتەوە؛ دەستپێکردنی HTTPS لەوانەیە کاتێکی بوێت.</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>بەڵێ، هێشتا بڵاو نەکراوەتەوە</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>GitHub Appێک</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>ڕێڕەوی کارێکی کۆگاکە بڵاوی دەکاتەوە. بنیاتنانەکە فایلی ڕێڕەوی کارەکە دەنووسێت؛ بوخچەکە بە بەتاڵی بهێڵەوە.</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>دوای پاشەکەوتکردنی ئامانجێک لەگەڵ کۆگایەکی GitHub و تۆکنێک یان GitHub App، ئەم هەنگاوە دەتوانێت کۆگاکە دروست بکات و GitHub Pages هەڵبکات. ئەگەرنا سەرەتا کۆگاکە لە GitHub دروست بکە؛ کۆگایەکی بەتاڵ بەسە.</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>لق یان GitHub Actions؟</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>پشکنینی DNS</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>دروستکردنی کۆگاکە ئەگەر بوونی نەبێت</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>کۆگاکە لە GitHub دروست بکە و GitHub Pages لە ڕێکخستنەکانیدا هەڵبکە (Settings &gt; Pages).</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>کۆگای %repo دروست دەکات کاتێک نییە (ئەگەر داوا کرابێت)، GitHub Pages لە لقەکەوە یان لە GitHub Actions ەوە هەڵدەکات وەک پاشەکەوت کراوە، و دۆمەینی تایبەت و HTTPS ڕێکدەخات. ڕێکخستنە پاشەکەوتکراوەکان بەکاردەهێنێت: سەرەتا گۆڕانکارییەکان پاشەکەوت بکە.</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>وردەکاری لە GitHub</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>سەرەتا دۆمەینی تایبەت بنووسە.</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>هەر push ێک سەرەتا بەرامبەر ئەم سنوورانە دەپشکنرێت.</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>بۆ ناونیشانێکی https:// لە GitHub. ئەو App ـەی بۆ ئەم دامەزراندنە ڕێکخراوە دەچێتە ژوورەوە؛ پێویستی بە ناسنامەی دامەزراندنەکە هەیە.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages کۆگای تایبەت تەنها لەسەر پلانی پارەدار پێشکەش دەکات.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: ژێردۆمەینێک (www.example.com) پێویستی بە تۆمارێکی CNAME هەیە بۆ &lt;owner&gt;.github.io؛ دۆمەینێکی سەرەکی (example.com) تۆمارەکانی A %ips.</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>ناسنامەی دامەزراندنی GitHub App</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>دوایین بنیاتنانی Pages</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>سنوورەکان و مەرجەکان</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>بۆ GitHub Pages لەسەر پلانی خۆڕایی پێویستە.</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>لە GitHub</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>تەنها لەگەڵ GitHub App: ژمارەکەی کۆتایی ناونیشانی دامەزراندنی App لە GitHub. خودی App لە staticcache.ini دا ڕێکدەخرێت (GitHubAppId, GitHubAppKey).</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>تایبەت</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>گشتی</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>سەرەتا ئامانجەکە لەگەڵ کۆگایەکی GitHub و تۆکنێک یان GitHub App پاشەکەوت بکە.</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>ئەم تۆمارانە لای دابینکەری دۆمەینەکە ڕێکبخە:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>ڕێکخستن لە GitHub</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>DNSی %domain هێشتا ئاماژە بە GitHub Pages ناکات.</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>DNSی %domain ئاماژە بە GitHub Pages دەکات.</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>تێکەڵکردنی GitHub لێرە بەردەست نییە: %problem. بڵاوکردنەوە بۆ لقەکە هەر کار دەکات؛ GitHub Pages لە ڕێکخستنەکانی کۆگاکەدا هەڵبکە.</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>هەنگاوەکانی GitHub بۆ ئەم ئامانجە بەردەست نین: %problem.</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>دۆخی GitHub Pages پیشان دەدرێت کاتێک تۆکنێک یان GitHub App زانیاریی چوونەژوورەوەیە.</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>دۆمەینی خۆت بەکاربهێنە</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>کامە هەڵبژێریت: تۆکن، کلیلی دیپلۆی یان GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>بە کۆگایەکی GitHub و تۆکنێک یان GitHub App، ڕێبەرەکە دەتوانێت بۆت کۆگاکە دروست بکات، GitHub Pages هەڵبکات و دۆمەینەکە ڕێکبخات (هەنگاوی 4).</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>بنیات دەنرێت</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>بنیاتنرا</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>لە GitHub Actions ەوە</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>لە لقی %branch ەوە</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>هێشتا هیچ</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>نەدۆزرایەوە</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>کوژاوە</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>تایبەت</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>گشتی</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>لە ڕیزدایە</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>نەزانراو</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%count لە %pages پەڕە:</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>فایلێکی .gz (و .br) لە تەنیشت هەر فایلێکی دەق، بۆ ئەو هۆستانەی خزمەتیان دەکەن.</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>پەڕەیەکی بچووک بۆ هەر ناونیشانێکی کۆن و ناوی خوازراوی پەڕەیەک، بۆ ئەوەی بەستەرە کۆنەکان کار بکەن.</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>هەمیشە دەنووسرێت کاتێک GitHub Actions ماڵپەڕەکە دەگەیەنێت.</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>ناسێنەرێکی SPDX وەک CC-BY-4.0، یان خودی دەقەکە.</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>سەبەتە</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>بانگەکان بۆ ڕاژەکار</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>تێبینییەکان</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>فۆڕمەکانی کۆکردنەوەی زانیاری</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>کارجووڵەی GitHub Actions</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>بۆشایی کەمتر و بێ تێبینی لە پەڕەکاندا.</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>مۆڵەتی ناوەڕۆک</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>چوونە ژوورەوە</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>بچووککردنەوە</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>فۆڕمەکانی تر</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>پێشوەختە پەستاندن</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>پەڕەکانی ئاڕاستەکردنەوە</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>پەڕەکانی ئاڕاستەکردنەوە: %count.</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>گەڕان</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>پێڕستی گەڕان: %pages پەڕە لە %languages.</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>پەڕەی ستایل و سکریپتەکان بە هاشی ناوەڕۆکیان ناونراون، بۆ ئەوەی گەڕۆکەکان بیانهێڵنەوە.</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>پەڕە گۆڕاوەکان، چەند خولەکێک دوای دوایین گۆڕانکاری (بەشی cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>مۆڵەتی ناوەڕۆک، لە خانەی خوارەوە.</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>هەموو ماڵپەڕەکە، لە کاتەکانی خشتەی کات (بەشی cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>ئەم بەشانەی پەڕەکان ڕاژەکاریان پێویستە؛ هەریەکە جێگرەوەی هەیە. پێش بڵاوکردنەوە بیانپشکنە.</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>ئەوەی بە شێوەی جێگیر کار ناکات</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>کۆگاکە چییە، بۆ ئەو کەسەی لەسەر هۆست دەیکاتەوە.</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>فەوتاوە</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>دەقی جێگرەوە</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>کۆتا خاڵی فۆڕمی ماڵپەڕی ڕاستەوخۆ</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>ماڵپەڕی ڕاستەوخۆ</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>پەڕەی گەڕانی لەبەرگیراوە</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>فۆڕمەکە نەنێردرا.</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>سوپاس: فۆڕمەکە نێردرا.</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>فۆڕمەکە قبوڵ نەکرا: ئەوەی نووسیوتە بپشکنە و دووبارە بینێرە.</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>لابردنی بەستەرەکان بۆ ئەو پەڕانەی کە لە کۆپییەکەدا نین</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>لابردنی بەستەرەکان بۆ بەڕێوەبردن</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>دەقەکەیان دەمێنێتەوە. وێنە، فۆرم و بەستەر بۆ ماڵپەڕەکانی تر هەرگیز لانابرێن.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>وەشان</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>دەستگەیشتنەکانی ماڵپەڕ بۆ بڵاوکردنەوە</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>دەستگەیشتنی ماڵپەڕ</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>لە ڕەگ</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>هیچ دەستگەیشتنێک لە ڕەگ نییە: هەریەکە لە بوخچەی خۆیدایە، و ڕەگ بەستەری بۆیان هەیە</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>دەستگەیشتنەکانی ماڵپەڕ</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>یەک دەستگەیشتنی ماڵپەڕ نیشان بکە، یان چەند دانەیەک کە بە پێشگری URI یەک خانەخوێ هاوبەشن. ئەوەی لە ڕەگە لەوێ پێشکەش دەکرێت، ئەوانی تر لە بوخچەی پێشگرەکەیان (/ger/)؛ بەستەرەکانی نێوانیان لە کۆپییەکەدا دەمێننەوە. دەستگەیشتنەکانی بەڕێوەبردن هەرگیز پێشکەش ناکرێن.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>بڵاوکردنەوەی جێگیری %target لە %site سەرکەوتوو نەبوو</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>بڵاوکردنەوەی جێگیری %target لە %site سەرکەوتوو بوو</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>ئەم نامەیە لەلایەن %site ەوە نێردرا چونکە ئامانجی بڵاوکردنەوەی جێگیر %target داوای دەکات.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>بڵاوکردنەوەی %deploy لە %site سەرنەکەوت</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>بڵاوکردنەوەی %deploy لە %site لە دەروازەیەک چاوەڕێ دەکات</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>بڵاوکردنەوەی %deploy لە %site سەرکەوتوو بوو</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>ئەم نامەیە لەلایەن %site نێردرا چونکە migration.ini [RemoteSettings] Notify[] داوای دەکات.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>جۆرەکانی داتا (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>ژمێردرا %time، دووبارە دوای %minutes خولەک</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>جۆری داتا یەک جۆر بەهای تایبەتمەندییەکی پۆل هەڵدەگرێت و دەستکاری دەکات: دێڕێکی دەق، وێنەیەک، پەیوەندییەک. ناوک زۆربەیان دەهێنێت، پێوەکراوەکان زیاتر زیاد دەکەن. لێرەدا هەموویان هەن، کێ دابینیان دەکات و چەندی ناوەڕۆک بەکاریان دەهێنێت. جۆری داتایەک کە بنکەدراوە بەکاری دەهێنێت بەڵام چیتر هیچ شتێک تۆماری ناکات، ئەو ناوەڕۆکە تێک دەدات کە هەیەتی.</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>کۆمەڵەکانی پۆل</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>ئێستا دووبارە بژمێرە لە جیاتی بەکارهێنانی ژمارەکانی خولەکەکانی پێشوو.</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>دووبارە بژمێرە</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>پوختە</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>تۆمارکراو</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>بەکاردێت</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>بەکارنەهاتووە</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>پێوەکراوەکانی دابینکەری جۆری داتا</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>تایبەتمەندییەکانی پۆل</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>تایبەتمەندییەکانی ئۆبجێکت</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>تۆمار نەکراوە</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>لە لیستدایە، پەڕگە نییە</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>%count جۆری داتا بەکاردێن بەڵام تۆمار نەکراون</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>%class_attributes تایبەتمەندیی پۆل و %object_attributes تایبەتمەندیی ئۆبجێکت جۆری داتایەکیان هەیە کە هیچ پێوەکراو یان ڕێکخستنێک تۆماری ناکات. ئۆبجێکتەکانیان ناتوانرێن پیشان بدرێن، دەستکاری بکرێن یان بڵاو بکرێنەوە. ئەو پێوەکراوە چالاک بکە کە جۆری داتاکە دابین دەکات، یان پۆلەکە بگۆڕە.</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>تەنها ئەمانە پیشان بدە</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>جۆری داتا بدۆزەرەوە</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>ناسێنەر، ناو، پۆلی PHP یان پێوەکراو.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>پیشاندان</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>هەموو</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>دابینکراوە لەلایەن</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>هەمووان</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>ناوک</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>هیچ جۆری داتایەک لەگەڵ ئەم فلتەرە ناگونجێت.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>پیشاندانی هەمووی</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>پێوەکراو</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%shown لە %count جۆری داتا، %used لە بەکارهێناندا</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>بنکەدراوە تایبەتمەندیی پۆل یان ئۆبجێکتی ئەم جۆرانەی داتای تێدایە، بەڵام content.ini هیچیان لیست ناکات، یان پەڕگەکەیان نییە.</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>جۆرەکانی داتای %provider</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>جۆری داتا</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>پۆلی PHP و پەڕگە</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>پۆلەکان</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>ئۆبجێکتەکان</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>ئاڵاکان</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>هیچ</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>هیچ جۆری داتایەک لەگەڵ گەڕانەکە ناگونجێت. گەڕانەکە پاک بکەرەوە.</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>%shown لە %count جۆری داتا پیشان دراون</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>جۆرە پیشاندراوەکانی داتا: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>ڕیزکردن بەپێی %column</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>ژمێردرا %time</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>هەموو جۆرەکانی داتا</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>پەڕەی یارمەتی</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>ئەم جۆری داتایە بەکاردێت بەڵام تۆمار نەکراوە</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>تا هیچ پێوەکراوێک جۆری داتاکە تۆمار نەکات، ئۆبجێکتەکانی ئەم پۆلانەی خوارەوە ناتوانرێن پیشان بدرێن، دەستکاری بکرێن یان بڵاو بکرێنەوە. ئەو پێوەکراوە چالاک بکە کە دابینی دەکات و زیادی بکە بۆ content.ini [DataTypeSettings] AvailableDataTypes[]، یان پۆلەکان بگۆڕە.</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini ئەم جۆری داتایە لیست دەکات، بەڵام هیچ بوخچەیەکی جۆری داتا پەڕگەکەی تێدا نییە. هیچ شتێک بەکاری ناهێنێت؛ لە AvailableDataTypes[] لای ببە یان پێوەکراوەکەی چالاک بکە.</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>دەربارەی ئەم جۆری داتایە</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>ناسێنەر</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>ناو</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>پێوەکراوی %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>هیچ کەس</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>پۆلی PHP</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>فایل</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>لە AvailableDataTypes[] دا</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>بەڵێ</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>نەخێر</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>ستوونەکانی بەهاکەی</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>ستوونەکانی ڕێکخستنەکانی تایبەتمەندیی پۆلەکەی</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>خشتەکان</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>ستوون و خشتەکان بە خوێندنەوەی کۆدی جۆری داتاکە دۆزراونەتەوە: ڕێنماییە، نەک بەڵێن.</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>قاڵبەکان</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>دەستگەیشتنی ماڵپەڕ</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>قاڵب</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>دۆزرایەوە لە</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>ئەم بەڕێوەبردنە</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>ماڵپەڕی بنەڕەت</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>بەبێ overrides: قاڵبێکی override کە بەپێی پۆل یان تایبەتمەندی دەگونجێت پێش ئەمانە دەکەوێت.</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>ئەو پۆلانەی بەکاری دەهێنن (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>هیچ پۆلێک تایبەتمەندییەکی ئەم جۆری داتایەی نییە.</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>پۆل</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>تایبەتمەندییەکان</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>تایبەتمەندییەکانی پۆل (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>تایبەتمەندی</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>ڕێکخستنەکان</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>پێویست</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>گەڕانپێکراو</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>وەرگێڕدراو</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>زانیاری کۆدەکاتەوە</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>هەندێک ناوەڕۆک کە بەکاری دەهێنێت</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>دوایین گۆڕدراو یەکەم</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>گۆڕدراو</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>گرێی %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>هەر وەرگێڕانێک بەهای خۆی هەیە.</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>گەڕان بەهاکانی پێڕست دەکات.</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>دەتوانێت زانیاری لە سەردانکەران کۆ بکاتەوە (فۆرمەکان).</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>لیستەکان دەتوانرێن بەپێی ئەم ڕیز بکرێن: کلیلی ڕیزکردن %type.</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>ڕیزکراو</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>بەهاکانی ئاماژە بۆ ئۆبجێکتی تر دەکەن.</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>پەیوەندییەکان</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>دەتوانرێت لە دەقێکی سادە پڕ بکرێتەوە (هاوردە، REST).</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>لە دەقەوە</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>دەتوانرێت لە پەڕگەیەکەوە پڕ بکرێتەوە.</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>لە پەڕگەوە</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>ڕێکخستنەکانی تایبەتمەندیی پۆلەکەی دەچنە ناو پاکێجەکان.</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>پاکێجەکان</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>ناوەڕۆک (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from تا %to لە %count</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>پاڵاوتنی لیستەکە</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>هەموو پۆلەکان</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>بەش</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>زمانەکان</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>خاوەن</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>بڵاوکراوە</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>ڕیزبەندی بپێچەوە</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>هیچ بڕگەیەک نییە</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>لە هەر پەڕەیەکدا</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>%count بڕگە لە هەر پەڕەیەکدا پیشان بدە.</translation>
     </message>
 </context>
 </TS>

@@ -14,6 +14,20 @@ project fits the product. It answers: which kinds of organizations and which peo
 to its own sources; which product of the Exponential family fits each; and which questions tell you whether a
 prospect is a good fit.
 
+> **Warning**
+> **`.htaccess` slows down every request.** When `.htaccess` files are enabled (`AllowOverride` anything but `None`), let alone
+> used, Apache looks for them and reads and evaluates them on every request, in every directory of the path, and
+> page loading times go up drastically ([measured](../../guides/setup-files-from-the-console.md#measured-htaccess-against-rules-in-the-virtual-host)). The only real fix is to switch the feature off for
+> the virtual host: `AllowOverride None` in the HTTPS virtual host, and the rules in the virtual host's own
+> configuration as mod_rewrite rules. That is far faster in production speed tests and well worth the time it takes
+> to optimize a production configuration. Switch over right away: copy the rules of the
+> [example HTTPS virtual host](../../examples/web-servers/apache-virtual-host.md) into your virtual host (with the static cache, also
+> [`staticcache_offload.conf`](../../examples/staticcache_offload.conf)), set `AllowOverride None`, run `apachectl configtest`, reload Apache and
+> test the site. The same rules for other servers: [nginx](../../examples/web-servers/nginx.md), [LiteSpeed](../../examples/web-servers/litespeed.md),
+> [Caddy](../../examples/web-servers/caddy.md), [IIS](../../examples/web-servers/iis.md), [Velocity](../../examples/web-servers/velocity.md) (built in); where virtual host rules go in a control
+> panel: [Plesk](../hosting/panels/plesk.md), [cPanel](../hosting/panels/cpanel.md), [DirectAdmin](../hosting/panels/directadmin.md), [ISPConfig](../hosting/panels/ispconfig.md).
+> **On LiteSpeed or OpenLiteSpeed,** the server's own page cache can also answer anonymous visitors and crawlers without PHP: [Page caching with LiteSpeed and OpenLiteSpeed](../../guides/litespeed-page-cache.md).
+
 The sources describe their audiences in general terms. They do **not** publish customer lists, market shares or
 statistics about who uses the product, and neither does this page. The personas below are working models built from
 what the sources say the product does and whom they say it serves. Test them against your own conversations.
@@ -58,7 +72,7 @@ The table pairs each use named by the sources with the documented features that 
 | **Intranets** | Signed-in users, fine-grained rights per department, search | Role-based permissions with section and subtree limitations; built-in search engine | [Roles, policies and unactivated users](../../guides/roles-and-policies.md), [Sections](../../guides/sections.md), [Searching](../searching.md) |
 | **Extranets** (partners, members, customers) | Registration, approval of accounts, separate areas | User registration with administrator approval; sections; siteaccesses | [Roles, policies and unactivated users](../../guides/roles-and-policies.md), [Siteaccess host and language matching](../../features/6.0/siteaccess-host-and-language-matching.md) |
 | **E-commerce** | Products, baskets, orders, VAT, currencies, payments | "Advanced e-Commerce Stores (Built in)"; PayPal through `ezpaypal` | [Order receipts](../../features/6.0/order-receipts.md), [Store dashboard](../../features/6.0/store-dashboard.md), [Who is 7x?](../who-is-7x.md#a-cms-a-cmf-and-a-shop-in-one) |
-| **Multi-brand and multi-country organizations** | Several sites, several languages, shared content | Multisite from one installation; 268 locale files; right to left | [Planning multisite and multilingual projects](../leadership/multisite-and-multilingual-planning.md), [Languages in Exponential](../../languages.md) |
+| **Multi-brand and multi-country organizations** | Several sites, several languages, shared content | Multisite from one installation; 368 locale files; right to left | [Planning multisite and multilingual projects](../leadership/multisite-and-multilingual-planning.md), [Languages in Exponential](../../languages.md) |
 | **Associations, education, public bodies** | Long-lived sites, many editors, accessibility, data protection questions | Roles and workflows; admin4 design with tested contrast and target sizes; audit trail | [Accessibility, security and compliance checklists](../leadership/accessibility-security-and-compliance-checklists.md) |
 | **Agencies and integrators** | A platform to build many customer sites on, without license fees | GPL license; extensions; Git clones; the Nexus distribution with demo content and layouts | [Develop with Git](../develop-with-git.md), [Who is the Exponential Foundation?](../who-is-the-exponential-foundation.md#exponential-platform-nexus) |
 | **Custom web applications** | A framework with content, users and permissions already built | MVC, modules and views, templates, REST API, CLI scripts | [Templates and design](../../guides/templates-and-design.md), [REST API v1 and v2](../../guides/rest-api-v1-and-v2.md) |
@@ -92,7 +106,7 @@ what to send. The quotes in "What they care about" are typical concerns, not quo
 | **Role** | Head of digital, web or communications |
 | **Situation** | Runs one or more websites; editors wait for developers; languages and brands multiply |
 | **What they care about** | Speed of change, editor independence, many sites and languages, total cost |
-| **Lead with** | Editors build pages with Exponential Layouts; several sites and 268 locales from one installation; no license fee |
+| **Lead with** | Editors build pages with Exponential Layouts; several sites and 368 locales from one installation; no license fee |
 | **Show** | [Demo scripts](demo-scripts.md), the 15-minute script: dashboard, editing, layouts editor, languages |
 | **Send** | [Feature highlights mapped to customer needs](feature-highlights-for-customers.md), [Positioning and value proposition](positioning-and-value-proposition.md) |
 
@@ -174,7 +188,7 @@ Ask these in discovery. The right column says which answer points to a good fit 
 | Who changes pages today, and how long does it take? | Editors wait for developers | [The layouts editor](../layouts-editor.md) |
 | Do you sell online, or plan to? | Yes, close to the content | [Feature highlights](feature-highlights-for-customers.md) |
 | Where must the site run: own servers, a cloud, a hosting partner? | They want the choice, or have a fixed standard | [Choosing hosting, database and operating system](../leadership/choosing-hosting-database-and-os.md) |
-| Which database and operating system does your IT run? | One of the six databases; an OS with PHP 8.0 or later | [Database support](../database-support.md), [Operating system support](../os-support.md) |
+| Which database and operating system does your IT run? | One of the six databases; an OS with PHP 8.0 or later (PHP 7.4 usable without support) | [Database support](../database-support.md), [Operating system support](../os-support.md) |
 | How important are license costs and the freedom to change provider? | Important | [Licensing explained for buyers](licensing-for-buyers.md) |
 | Do you run a site built while the software was called eZ Publish, or on eZ Platform or Ibexa? | Yes | [Upgrading](../../guides/upgrading.md), migration chapters 14 to 16 |
 | Who will run the site after launch: your IT, an agency, a hosting company? | Someone is named | [Working together](../leadership/working-together.md) |
@@ -193,7 +207,7 @@ question must be answered before you promise anything.
 | "We need features X, Y and Z" that no help page describes | Nothing undocumented may be promised | Hand it to the project manager as a scoping question ([Estimating and scoping with extensions](../leadership/estimating-and-scoping-with-extensions.md)) |
 | "We need a certification or a guaranteed support time." | The sources name no certifications; `SECURITY.md` promises only a first answer to security reports within one business day | Say what the sources say; service levels are a matter of your own contract |
 | "We need Microsoft SQL Server." | It is "known to be possible with additional work", not supported today (`README.md`) | Read [Database support](../database-support.md) together with their IT |
-| "Our site runs on PHP 7." | PHP 7.4 is supported only up to 6.0.7 (`README.md`) | Plan the PHP upgrade as part of the project |
+| "Our site runs on PHP 7." | PHP 7.4 is usable again from 6.0.15, without support and without the features that need PHP 8 | Plan the PHP upgrade as part of the project |
 | "We want a Symfony-only stack." | The Exponential 6 kernel is not Symfony | Look at Exponential Platform DXP ([Which product of the family fits](#which-product-of-the-family-fits)) |
 
 ## A persona card to copy

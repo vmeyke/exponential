@@ -984,6 +984,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>Na only dis page dem search: %from to %to of %count.</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Every datatype of di kernel and di extensions, and how di classes and content dey use am.</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Datatypes</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2316,6 +2324,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>You fit bookmark system pages too: open di page (Setup, di audit trail, list of users ...) and choose Bookmark dis page for above am. Dem bookmarks dey get gear icon.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>You no fit open dis page for here again. Comot di bookmark, or ask administrator make e give you access.</translation>
     </message>
 </context>
 <context>
@@ -5165,6 +5177,210 @@
         <source>Go to the first page</source>
         <translation>Go to di first page</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>Other ones</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>Di last 7 days</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>Di time wey you choose</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>All di words</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>Any one word</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>Di exact words</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>How e match</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>Name from A reach Z</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>Name from Z reach A</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>Changed, di new ones first</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>Changed, di old ones first</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>Published, di new ones first</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>Published, di old ones first</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Changed</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>Filter dem</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>Show di filter dem</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>Hide di filter dem</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Start am again</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>Use am</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>Di words</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>Kind of content</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>Show more again (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>Choose one kind of content make you fit search inside one of en attributes.</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Part</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Start from</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Reach</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>Di start date no be correct date.</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>Di end date no be correct date.</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Di owner</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>User ID, login abi e-mail address.</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>We no see any user for “%input”.</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Di language</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>Any language at all</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Wia e dey</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>%count places</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>Wetin we find for one page</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>Wetin we find for “%text” (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>Wetin we find (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>Arrange am by</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>Arrange</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>Filter dem wey dey work</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>Comot dis filter</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>Or choose filter dem and use dem to show di content wey match.</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>Di filter dem go make di search small once you don type words.</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>We no find anything for “%text”.</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>We no find anything.</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>Comot one filter for up.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Di translations</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Wetin you fit do</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>Change %name</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Change am</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -7514,6 +7730,10 @@
         <source>Setup &gt; Cronjobs</source>
         <translation>Setup &gt; Cronjobs</translation>
     </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>No cronjob part don run yet: di job queue, di imports, di notifications and di search index dey wait. Run php bin/php/installcrontab.php --add --apply, or add di lines of --show to di crontab.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/dashboard/drafts</name>
@@ -8058,8 +8278,8 @@
         <translation>Di copyright notices of di original authors and of di third-party software wey dey inside Exponential dey for di source files and for di LICENSE file, as di license need am.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>Dis na list of Exponential contributors wey don license dia work make 7x use am under di terms and conditions of di eZ Systems Contributor Licensing Agreement. As dis agreement allow, 7x dey redistribute each contribution under di same license wey di file wey di contribution dey inside get. Di list name each contributor, optional contact info and di files wey dem contribute or contribute work to.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>Contributors wey we give credit for di work wey dem do for Exponential and for di software wey e grow from, plus di files wey dem contribute to. Dis na credit, no be copyright notice: contribution to Exponential dey go to Exponential Foundation and 7x under di Contributor Licensing Agreement.</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13881,32 +14101,20 @@ Note: Dem no go uninstall di packages.</translation>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%evaluate_link"&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href="%share_link"&gt;Become member of di Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class="edition-info"&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>Powered by &lt;span class="edition-info"&gt;%edition&lt;/span&gt;. For more information check &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> For more information check &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
     </message>
     <message>
-        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; and others.</translation>
+        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href="%evaluate_link"&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;Become member of di Exponential Community, get support and contribute&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; and others.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13915,6 +14123,61 @@ Note: Dem no go uninstall di packages.</translation>
     <message>
         <source>Help center</source>
         <translation>Help center</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>Di content</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>Di document pages</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>Di users</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>Content class dem</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>Admin side</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>Page number %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>See all wetin we find</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>%count tins wey we find</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>One thing wey we find</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>%count ideas wey we get</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>No ideas</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>We no fit load di ideas.</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>Ideas</translation>
     </message>
 </context>
 <context>
@@ -14383,6 +14646,14 @@ Note: Dem no go uninstall di packages.</translation>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>Dis installation na public demo: anybody fit know im administrator password, and dem no fit change or reset administrator passwords. No enter anything private here.</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Your devices</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Wetin happen for security</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14672,6 +14943,14 @@ Note: Dem no go uninstall di packages.</translation>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>Guides, search and how to report error.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>New content wey just come</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Di newest content, wetin dem hold make dem review am, and actions for di ones wey you choose.</translation>
     </message>
 </context>
 <context>
@@ -15130,6 +15409,46 @@ Note: Dem no go uninstall di packages.</translation>
         <source>Synchronisations</source>
         <translation>Synchronisations</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>Di GraphQL API: im end point, di schema and one playground to try queries.</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migration dem</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Change dem for di installation wey dey inside file: how dem dey, di run dem, run dem and turn dem back.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>New content wey just come</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Di newest content, wetin dem hold make dem review am, and actions for di ones wey you choose.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Publish static copy of site to GitHub Pages or any git host.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Di static publishing</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Datatypes</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Every datatype of di kernel and di extensions, and how di classes and content dey use am.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15294,6 +15613,22 @@ Note: Dem no go uninstall di packages.</translation>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>Accounts wey nobody dey use or wey need make you look dem; switch dem off, unlock dem or export dem.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Audit log for users</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>Who change am, log in or dem refuse, for each account; filter am and export am.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Report of di sign-ins</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>Who dey signed in, sign-ins and failures for each day; sign one user out for everywhere.</translation>
     </message>
 </context>
 <context>
@@ -22110,6 +22445,22 @@ Note: Dem no go uninstall di packages.</translation>
         <source>%n hours ago</source>
         <translation>%n hours ago</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>Di answers of di saved queries for di GraphQL API, plus di content classes of im schema.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>Publish static copy to GitHub Pages or any git host</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Di static publishing</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>Di static cache dey serve pages from dis server. To publish static copy of site for another place, for GitHub Pages or any git host, use di static publishing.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25651,6 +26002,10 @@ Note: Dem no go uninstall di packages.</translation>
     <message>
         <source>last purge</source>
         <translation>last purge</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>Di writes no fit take di state lock (di last one %date): each one make all di cached result old. %file must dey writable for every user wey di site dey run as; for NFS e need NFSv4 or lockd.</translation>
     </message>
 </context>
 <context>
@@ -33599,6 +33954,14 @@ Note: Dem no go uninstall di packages.</translation>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>PHP itself dey remove sessions wey don time out for di PHP handler (session.gc_maxlifetime), no be dis page or di session_gc cronjob part.</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>Di report of di sign-ins dey list di signed-in sessions of every user, and you fit sign dem out dia; e dey work wit every session handler.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>Open di report of di sign-ins</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37923,6 +38286,26 @@ your account.</translation>
     <message>
         <source>None yet</source>
         <translation>Nothing yet</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Wetin happen for security</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>Your sign-ins wey just happen, di tries wey no work and di changes to your password, email address and two-step sign-in.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>Di sign-ins wey just happen, di tries wey no work and di security changes of dis account.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>Check wetin happen</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>Sign-ins wey no work: %count</translation>
     </message>
 </context>
 <context>
@@ -44089,6 +44472,42 @@ If you wan send comments to di approver or see di status, use di URL wey dey bel
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>After di user don sign in, e must choose new password before e do anything else. Use am wen you give somebody temporary password.</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>Choose picture wey dey already</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>Di picture file of di object wey you choose go copy enter dis field. Di oda object no go change.</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>Di picture of "%name" don copy enter dis field.</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>Browse find picture</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>Search pictures by dia name</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Search</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>Use di picture of "%name"</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>Use dis picture</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>No picture match wetin you search.</translation>
     </message>
 </context>
 <context>
@@ -51013,6 +51432,10 @@ Check di requirements page for more information.</translation>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>Dem no write di crontab (%reason). Add dis lines to di crontab of di user wey di site dey run as, if not di queue, di imports, di notifications and di search index no go ever run:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>To install am again, use di kickstarter (%file, den php bin/php/kickstarter.php run --apply) or do fresh installation.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54892,6 +55315,10 @@ your account.</translation>
         <source>eZJSCore Public Packer cache</source>
         <translation>eZJSCore Public Packer cache</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>Cache for GraphQL (di answers and di schema classes)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54978,6 +55405,14 @@ your account.</translation>
     <message>
         <source>Copy of %class_name</source>
         <translation>Copy of %class_name</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Datatypes</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>Datatype %string</translation>
     </message>
 </context>
 <context>
@@ -55804,6 +56239,26 @@ your account.</translation>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>Dem no fit read di SVG image, or nothing inside am dey safe to show.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>We no fit copy di picture. Abeg try again or contact di site administrator.</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>Di object wey you select no dey or you no get permission to read am.</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>Di object wey you select no get picture.</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>We no fit read di picture file of di object wey you select.</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>Di picture of di object wey you select big pass wetin dis field allow: %1 bytes.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56334,6 +56789,42 @@ your account.</translation>
         <source>The bookmark was renamed to "%name".</source>
         <translation>Dem don change di name of di bookmark to "%name".</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>Dem don off dis page for dis siteaccess (%siteaccess). Open di bookmark for siteaccess wey get am.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>Dem never install di module of dis page for here, or dem never enable am.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>Dis page no dey again: im module no get dat kind view.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>None of your roles allow you open dis page.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>You no get permission to use dis siteaccess.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>You no get permission to read di content wey dis page dey show.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>You no fit bookmark dis kind page: e only dey work on form, or na page wey be for one moment.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>Di address of dis page no dey.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>Dis page no fit open now.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56805,6 +57296,10 @@ You go need change di class of di node wit di swap functionality.</translation>
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>Di mail transport refuse %count messages for di last run. Check di mail server and site.ini MailSettings.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>%count events dey wait and dem no record any run of di notification cronjob. Add di cronjob part &quot;frequent&quot; to di crontab, or run exp:notification:run --apply.</translation>
     </message>
 </context>
 <context>
@@ -63069,6 +63564,10 @@ You go need change di class of di node wit di swap functionality.</translation>
         <source>Choose another site or section with the node picker</source>
         <translation>Choose another site or section wit di node picker</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>Na only di system administrator fit change di owner: run ./console exp:content-check --fix-permissions --apply as root.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64602,6 +65101,10 @@ You go need change di class of di node wit di swap functionality.</translation>
     <message>
         <source>empty</source>
         <translation>empty</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>Di signing key don pass one year: change am wit exp:audit key rotate --apply.</translation>
     </message>
 </context>
 <context>
@@ -68432,6 +68935,486 @@ You go need change di class of di node wit di swap functionality.</translation>
         <source>Share of page time</source>
         <translation>Share of di page time</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>dem ask for full render</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>di page cache no get di page (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>di page cache no answer</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>Dem render am</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>Di kernel render am: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>Page cache serve am in %ms ms. Dem store di page for %stored from one render wey take %render ms, %age s ago.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>Render am now</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>Go back to di cached view</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>From di render for %stored (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>Dis request: page cache serve am in %ms ms.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Di user</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>Di user ID</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>Di cache profile</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>Dis view</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>Di view cache</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>for each user (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>Di user cache profile: users wey get di same profile dey share di view cache files</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>yes o</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>no o</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Login name</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>Don log in</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>Di session</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>Di parts of di content view cache key wey depend on di user, exactly as di key take dem, under di ViewCacheTweaks of dis page. Users wey get di same profile dey share di cache files of di views, unless di parts of one view self no be di same (preferences, keys of listeners): dose ones get dia own profile, for dis page only.</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>Di profile</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>Dis view (node %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: every user wey don log in get dia own cache files.</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>ViewCacheTweaks wey dey work: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>Di part</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>Di value</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>No part dey depend on di user (ViewCacheTweaks).</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>dis view</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>Copy am as text</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>Di roles</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>We no fit read any role assignment.</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>Di role ID</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Di role</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>Di limitation</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>Dem give am to</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>di user</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>di group %name (object %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>Don copy</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>E no fit copy.</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>one listener comot am</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>Visitors wey no get name</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>na di same as your own</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>e no be di same</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>Di profile wey visitors wey no get name dey get under di same ViewCacheTweaks, wit di default preferences, without di parts of di view: nobody fit ask listener wey dey read di session for dem.</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>Di preferences</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>No view mode dey depend on user preferences (site.ini [ContentSettings] CachedViewPreferences).</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>Di preferences wey di views of dis view modes dey depend on (CachedViewPreferences), wit di user value or di default. Dem dey inside di profile as userpreferences, di ones of every view mode togeda.</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>Di view mode</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>Di preference</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>Di default</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>Di policies</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>Show di policies of di roles (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>Di policies dey load from di server when you open dis section, one page at a time, and you fit filter dem by module and function.</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>Di function</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>All di modules</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>All di functions</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>Di limitations</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>Show plenty more</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>Dis roles no get any policy.</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>No policy match di filter.</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%shown out of %matching policies (%total for all)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>E go load as dem open am.</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>module/function, role, limitation</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>Search di policies</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>Load more tins</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>Module/di function</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>All di roles (%count policies)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>No policy match.</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%shown for %matched policies</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>No answer dey</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>dem don cover am</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>Show di explanation dem</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>Hide di explanation dem</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Open am</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>Open dem all</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>Close dem all</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>Key abi value</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>Search di session</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Di type</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>%count more dey</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>e enter inside too deep to show</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>dem cut am, %count characters for all</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Wen e start</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>Di cookie name</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>Di session ID</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>Di handler</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>Where e dey save</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>Wetin PHP dey use by default</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>How long e go last (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>Di cookie</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>e go last %s s</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>Na your own PHP session, as e be wen dem open di section, no be another person own at all. Di values of keys wey resemble secret (tokens, hashes, passwords) dem don cover am (debugbar.ini SessionMask[]); everything else dey show as dem store am, personal data join.</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>%count key dem, %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>e big</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>Di session empty.</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>Nobody start session for dis request.</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Di extension %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>Kernel and di others</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>No be every entry dey show: di session get pass wetin we fit list for here.</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>%count key dem no dey for di list.</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>Di frame</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>Values wey resemble token (JSON Web Token, di credentials for Authorization header, private key, long hex abi random text) dem dey cover am too, no matter wetin dem call di key (debugbar.ini SessionValueMask[]).</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>Di key resemble secret (debugbar.ini SessionMask[]).</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>Di value resemble token.</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>E dey under key wey dem don cover.</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>Di session as text, dem cover am like di table.</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>Di session big pass %size (debugbar.ini SessionWarnBytes): every request wey dis user make dey read di whole session, and e dey write am wen e change.</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP dey keep dis session for files and e dey lock di file for di whole request: requests from di same user (plenty tabs, AJAX calls) dey wait for each other.</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>Keep am open</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>E big pass %size (debugbar.ini SessionWarnBytes): every request wey dis user make dey read di whole session.</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%hits of %count dem read from di cache</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>Dem no render any template (view wey dem read from di view cache no dey render any).</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>Role wey dem don give</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>Roles and di rules wey follow dem</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>e no be di same as wetin anonymous visitors dey get</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>na di same tin wey anonymous visitors dey get</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70312,6 +71295,14 @@ You go need change di class of di node wit di swap functionality.</translation>
     <message>
         <source>not sent</source>
         <translation>dem no send am</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Di notification cronjob dey record each of im runs for here. Add di part frequent to di crontab, or run exp:notification:run --apply.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>Use di console: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -73560,7 +74551,7 @@ You go need change di class of di node wit di swap functionality.</translation>
     </message>
     <message>
         <source>%language: %count of %total pages</source>
-        <translation>%language: %count of %total pages</translation>
+        <translation>%language: %count for %total pages</translation>
     </message>
     <message>
         <source>About the help in other languages</source>
@@ -73712,11 +74703,11 @@ You go need change di class of di node wit di swap functionality.</translation>
     </message>
     <message>
         <source>Hide section: %title</source>
-        <translation>Hide section: %title</translation>
+        <translation>Hide di section: %title</translation>
     </message>
     <message>
         <source>Show section: %title</source>
-        <translation>Show section: %title</translation>
+        <translation>Show di section: %title</translation>
     </message>
     <message>
         <source>"Saving an article with an image fails with a 500 error", not "Bug" or "Help".</source>
@@ -73724,7 +74715,7 @@ You go need change di class of di node wit di swap functionality.</translation>
     </message>
     <message>
         <source>%count min read</source>
-        <translation>%count min read</translation>
+        <translation>%count minute to read am</translation>
     </message>
     <message>
         <source>%count pages</source>
@@ -73732,7 +74723,7 @@ You go need change di class of di node wit di swap functionality.</translation>
     </message>
     <message>
         <source>%from–%to of %total</source>
-        <translation>%from–%to of %total</translation>
+        <translation>%from–%to for %total</translation>
     </message>
     <message>
         <source>(new issue on GitHub, opens in a new window)</source>
@@ -73800,7 +74791,7 @@ You go need change di class of di node wit di swap functionality.</translation>
     </message>
     <message>
         <source>Browse by topic</source>
-        <translation>Browse by topic</translation>
+        <translation>Browse am by topic</translation>
     </message>
     <message>
         <source>Category:</source>
@@ -73996,7 +74987,7 @@ You go need change di class of di node wit di swap functionality.</translation>
     </message>
     <message>
         <source>Previous and next page</source>
-        <translation>Previous and next page</translation>
+        <translation>Di page wey dey before and di one wey dey after</translation>
     </message>
     <message>
         <source>Read the security policy</source>
@@ -74024,11 +75015,11 @@ You go need change di class of di node wit di swap functionality.</translation>
     </message>
     <message>
         <source>Results for “%query”</source>
-        <translation>Results for “%query”</translation>
+        <translation>Wetin we find for “%query”</translation>
     </message>
     <message>
         <source>Search guides, settings, commands…</source>
-        <translation>Search guides, settings, commands…</translation>
+        <translation>Search di guides, settings, commands…</translation>
     </message>
     <message>
         <source>Search the open issues of the tracker below. If your error is there, add what you know to it instead of opening a new one.</source>
@@ -74052,7 +75043,7 @@ You go need change di class of di node wit di swap functionality.</translation>
     </message>
     <message>
         <source>Steps to reproduce</source>
-        <translation>Steps to reproduce</translation>
+        <translation>Steps to make am happen again</translation>
     </message>
     <message>
         <source>Tell us on GitHub: the guide shows which tracker fits, what to include and the system details to copy, without any secrets.</source>
@@ -74336,7 +75327,7 @@ You go need change di class of di node wit di swap functionality.</translation>
     </message>
     <message>
         <source>Contribute back</source>
-        <translation>Contribute back</translation>
+        <translation>Give back to di project</translation>
     </message>
     <message>
         <source>Fork, fix and open a pull request.</source>
@@ -74448,7 +75439,7 @@ You go need change di class of di node wit di swap functionality.</translation>
     </message>
     <message>
         <source>Apply filters</source>
-        <translation>Apply filters</translation>
+        <translation>Use di filters</translation>
     </message>
     <message>
         <source>Browse</source>
@@ -74464,7 +75455,7 @@ You go need change di class of di node wit di swap functionality.</translation>
     </message>
     <message>
         <source>Choose another audience, topic or type.</source>
-        <translation>Choose another audience, topic or type.</translation>
+        <translation>Choose anoda audience, topic or type.</translation>
     </message>
     <message>
         <source>Creating and changing content: the editor, fields, drafts and versions.</source>
@@ -74512,7 +75503,7 @@ You go need change di class of di node wit di swap functionality.</translation>
     </message>
     <message>
         <source>Reference material: settings, commands and formats.</source>
-        <translation>Reference material: settings, commands and formats.</translation>
+        <translation>Reference material: di settings, di commands and di formats.</translation>
     </message>
     <message>
         <source>Running the site: settings, users and roles, caches, cronjobs and logs.</source>
@@ -74540,11 +75531,11 @@ You go need change di class of di node wit di swap functionality.</translation>
     </message>
     <message>
         <source>Your account: password, two-step sign-in and preferences.</source>
-        <translation>Your account: password, two-step sign-in and preferences.</translation>
+        <translation>Your account: password, two-step sign-in and wetin you prefer.</translation>
     </message>
     <message>
         <source>%count pages match</source>
-        <translation>%count pages match</translation>
+        <translation>%count pages match am</translation>
     </message>
     <message>
         <source>%count pages, in the folders of the documentation. Open a folder, or filter by a word of the title.</source>
@@ -74628,7 +75619,7 @@ You go need change di class of di node wit di swap functionality.</translation>
     </message>
     <message>
         <source>Page %number of %count</source>
-        <translation>Page %number of %count</translation>
+        <translation>Page %number for %count</translation>
     </message>
     <message>
         <source>Image: %alt</source>
@@ -74640,7 +75631,7 @@ You go need change di class of di node wit di swap functionality.</translation>
     </message>
     <message>
         <source>%count of %total entries</source>
-        <translation>%count of %total entries</translation>
+        <translation>%count for %total entries</translation>
     </message>
     <message>
         <source>Filter</source>
@@ -74648,7 +75639,7 @@ You go need change di class of di node wit di swap functionality.</translation>
     </message>
     <message>
         <source>Sort by %title</source>
-        <translation>Sort by %title</translation>
+        <translation>Arrange am by %title</translation>
     </message>
     <message>
         <source>Version, name, year or revision</source>
@@ -74664,7 +75655,7 @@ You go need change di class of di node wit di swap functionality.</translation>
     </message>
     <message>
         <source>Addresses and notes</source>
-        <translation>Addresses and notes</translation>
+        <translation>Addresses and di notes</translation>
     </message>
     <message>
         <source>Addresses on servers that are no longer online are kept as historical text.</source>
@@ -74780,7 +75771,7 @@ You go need change di class of di node wit di swap functionality.</translation>
     </message>
     <message>
         <source>From version %from</source>
-        <translation>From version %from</translation>
+        <translation>Start from version %from</translation>
     </message>
     <message>
         <source>Help topics</source>
@@ -74792,7 +75783,7 @@ You go need change di class of di node wit di swap functionality.</translation>
     </message>
     <message>
         <source>Manuals and help topics</source>
-        <translation>Manuals and help topics</translation>
+        <translation>Manuals and di help topics</translation>
     </message>
     <message>
         <source>Platform:</source>
@@ -75060,7 +76051,7 @@ You go need change di class of di node wit di swap functionality.</translation>
     </message>
     <message>
         <source>Open or close every folder</source>
-        <translation>Open or close every folder</translation>
+        <translation>Open or close all di folders</translation>
     </message>
     <message>
         <source>Every folder is open.</source>
@@ -75080,7 +76071,7 @@ You go need change di class of di node wit di swap functionality.</translation>
     </message>
     <message>
         <source>All pages for %audience</source>
-        <translation>All pages for %audience</translation>
+        <translation>All di pages for %audience</translation>
     </message>
     <message>
         <source>All audiences</source>
@@ -75096,7 +76087,7 @@ You go need change di class of di node wit di swap functionality.</translation>
     </message>
     <message>
         <source>Search by topic</source>
-        <translation>Search by topic</translation>
+        <translation>Search am by topic</translation>
     </message>
     <message>
         <source>Each button lists the pages of one topic for %audience.</source>
@@ -75112,7 +76103,7 @@ You go need change di class of di node wit di swap functionality.</translation>
     </message>
     <message>
         <source>Latest commits to Exponential</source>
-        <translation>Latest commits to Exponential</translation>
+        <translation>Di latest commits for Exponential</translation>
     </message>
     <message>
         <source>Full history on GitHub</source>
@@ -75276,7 +76267,7 @@ You go need change di class of di node wit di swap functionality.</translation>
     </message>
     <message>
         <source>Two ways to build</source>
-        <translation>Two ways to build</translation>
+        <translation>Two ways to build am</translation>
     </message>
     <message>
         <source>Two ways to build a site with Exponential: how they differ and how to choose between them.</source>
@@ -75400,7 +76391,7 @@ You go need change di class of di node wit di swap functionality.</translation>
     </message>
     <message>
         <source>Download all as DITA</source>
-        <translation>Download all as DITA</translation>
+        <translation>Download everytin as DITA</translation>
     </message>
     <message>
         <source>Help topics overdue for review</source>
@@ -75764,7 +76755,7 @@ You go need change di class of di node wit di swap functionality.</translation>
     </message>
     <message>
         <source>Exponential for non-profits: members, volunteers, fundraising pages, accessibility and transparency.</source>
-        <translation>Exponential for non-profits: members, volunteers, fundraising pages, accessibility and transparency.</translation>
+        <translation>Exponential for non-profits: members, volunteers, pages to raise money, accessibility and openness.</translation>
     </message>
     <message>
         <source>Local businesses</source>
@@ -75808,7 +76799,7 @@ You go need change di class of di node wit di swap functionality.</translation>
     </message>
     <message>
         <source>Plain-language help</source>
-        <translation>Plain-language help</translation>
+        <translation>Help for simple language</translation>
     </message>
     <message>
         <source>Exponential in plain language: how-tos without the command line, hosting choices and a glossary.</source>
@@ -75832,7 +76823,7 @@ You go need change di class of di node wit di swap functionality.</translation>
     </message>
     <message>
         <source>Use and run Exponential</source>
-        <translation>Use and run Exponential</translation>
+        <translation>Use and run Exponential yourself</translation>
     </message>
     <message>
         <source>Editors, administrators, developers and users, and everyone with a site of their own.</source>
@@ -75888,11 +76879,11 @@ You go need change di class of di node wit di swap functionality.</translation>
     </message>
     <message>
         <source>More audiences</source>
-        <translation>More audiences</translation>
+        <translation>More audiences dey</translation>
     </message>
     <message>
         <source>Review and release</source>
-        <translation>Review and release</translation>
+        <translation>Check am and release am</translation>
     </message>
     <message>
         <source>The topic is in Review now.</source>
@@ -75916,7 +76907,7 @@ You go need change di class of di node wit di swap functionality.</translation>
     </message>
     <message>
         <source>Review workflow</source>
-        <translation>Review workflow</translation>
+        <translation>How di review dey go</translation>
     </message>
     <message>
         <source>Draft</source>
@@ -75944,7 +76935,7 @@ You go need change di class of di node wit di swap functionality.</translation>
     </message>
     <message>
         <source>Style guide check</source>
-        <translation>Style guide check</translation>
+        <translation>Check against di style guide</translation>
     </message>
     <message>
         <source>The style guide check found nothing.</source>
@@ -76024,11 +77015,103 @@ You go need change di class of di node wit di swap functionality.</translation>
     </message>
     <message>
         <source>Another reason</source>
-        <translation>Another reason</translation>
+        <translation>Anoda reason</translation>
     </message>
     <message>
         <source>This topic is not Released; readers do not see it.</source>
         <translation>Dem never release dis topic; readers no fit see am.</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migration dem</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Change dem for di installation wey dey inside file: how dem dey, di run dem, run dem and turn dem back.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Publish static copy of site to GitHub Pages or any git host.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Di static publishing</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>Dey Review</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>Readers fit see dis page.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>Readers no fit see am until person release am.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>Di page dey Review now. Readers no fit see am until dem release am.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>Di page don Release: readers fit see am now.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>Di page don turn Draft again. Readers no fit see am until dem review am and release am.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>Release am now</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>Na only user wey get di %role role and no write dis version fit release am.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>Help topics wey dey wait for release</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>E go hide am from readers until dem release am again.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>Reviewer go check am next. Readers never see am yet.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>Readers go see am sharp sharp.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>E go comot am from review for more work. Readers no go see am.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>Hide dis page from readers?</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>Send dis page go back to Draft?</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>Readers no go see %title again until person release am again.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title go back to Draft for more work. Readers still no fit see am, and e need new review before dem release am.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Cancel</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>Dis topics dey Review. Readers go see dem once person wey no write di current version release dem.</translation>
     </message>
 </context>
 <context>
@@ -76485,6 +77568,46 @@ You go need change di class of di node wit di swap functionality.</translation>
         <source>None.</source>
         <translation>Nothing.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>wit authenticator app</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>wit code wey dem send for email</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>wit recovery code</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>wit passkey</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>wit account from outside</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Wetin happen for security</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>Na im network dem dey show; dem dey keep di address as di data protection settings of di site talk.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Dem no record am</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Wia e dey</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>e near am</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76728,6 +77851,42 @@ You go need change di class of di node wit di swap functionality.</translation>
         <source>Manage devices</source>
         <translation>Manage devices</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>wit authenticator app</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>wit code wey dem send for email</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>wit recovery code</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>wit passkey</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>wit account from outside</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Wetin happen for security</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Dem no record am</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Wia e dey</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>e near am</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76807,6 +77966,14 @@ You go need change di class of di node wit di swap functionality.</translation>
         <source>View the sessions of this user</source>
         <translation>See di sessions of dis user</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>Somebody just use your account %login for %site sign in from one place wey e never sign in from lately:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>Di place wey e near</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76845,6 +78012,10 @@ You go need change di class of di node wit di swap functionality.</translation>
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%browser on %os</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Report of di sign-ins</translation>
     </message>
 </context>
 <context>
@@ -77053,6 +78224,82 @@ You go need change di class of di node wit di swap functionality.</translation>
         <source>The passkey could not be checked. Please try again.</source>
         <translation>E no fit check di passkey. Abeg try again.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>Accounts wey dey sign in wit passkeys only no fit use password for here: choose &quot;Sign in wit passkey&quot;.</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>%login im passkeys</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>Di passkeys wey dis account dey take sign in. Revoke di one wey dey for device wey loss or wey dem thief: e no go fit sign in again. Di owner go add new ones by imself.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>Your account need passkey</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>Add passkey to your account</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>Add passkey make you fit continue. After dat, you go sign in wit am, no be only password.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>To sign in wit passkey fast pass password and e safe pass am. Add one now, or continue without am.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>No be now</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>You wan revoke di passkey &quot;%name&quot;?</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>E no fit sign in to dis account again. If na di last one, di owner go sign in wit di password, or you go set new one.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>Revoke di passkey</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>Revoke am</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>Dis account no get passkey.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>Di authenticator</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Dem no know am</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>Your last passkey: add another one before you comot am.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>Dis account dey sign in wit passkeys only (passkey policy): if none remain, e go sign in wit im password again.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>Dis na your last passkey and your account no fit sign in without one. Add another passkey first.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>Dem don revoke di passkey &quot;%name&quot;. E no fit sign in to dis account again.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77152,6 +78399,34 @@ You go need change di class of di node wit di swap functionality.</translation>
         <source>Code from your authenticator app</source>
         <translation>Code from your authenticator app</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>You wan delete data forever or clear log.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>Your password and passkey</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>Your password and code wey come from your authenticator app</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>Abi:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>Dis browser no fit use passkeys. Use another way, or another browser.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>When you continue, your browser go ask for one of your passkeys.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>Continue wit passkey</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77242,6 +78517,70 @@ You go need change di class of di node wit di swap functionality.</translation>
     <message>
         <source>Setup</source>
         <translation>Setup</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>To change your own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and to sign out your other devices.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>To create and edit users, dia passwords and devices, account settings, to approve or reject new user accounts, to give roles and to edit policies.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>To delete data</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>To empty di trash, comot items from am and comot plenty items at once.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>To comot, publish and save content</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>To comot content (even to di trash), publish and save draft; dem go ask when di form dey send. E dey off by default.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>Before any sensitive action, user wey don sign in go confirm again say na im: wit im password and passkey, or if no passkey, wit im password and di code from im authenticator app. Na only di web pages dey ask: di REST interface, SOAP, WebDAV, di expservices login and di command line no dey ever ask.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>Where di settings dey work</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>Settings wey dey for</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>All di siteaccess</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>Di siteaccess %name</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Open am</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>Who dem go ask: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>Tick user groups make dem ask only dia members (like editors). If you no tick any: every user.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>E don save for settings/override/site.ini.append.php, for all di siteaccess. When you save, dem go ask you to confirm say na you.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>E don save for settings/siteaccess/%name/site.ini.append.php. Value wey dey settings/override go win am. When you save, dem go ask you to confirm say na you.</translation>
     </message>
 </context>
 <context>
@@ -77344,6 +78683,6822 @@ You go need change di class of di node wit di swap functionality.</translation>
     <message>
         <source>Open the page</source>
         <translation>Open di page</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from reach %to out of %count</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>Login or user id: di account wey di event concern or di user wey do am.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Di account</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Wetin dem do</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>After e change</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>Any result at all</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Before e change</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Who do am</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Clear am</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>E work</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>Dem dey keep events for %days days.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>Dem dey keep events until person remove dem by hand.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Di events</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>All di actions</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>All di events of dis account</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>Export di list as CSV (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>E no work</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Start from</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>Make di list small</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>No event match.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>For each page</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>Recording don off for audit.ini ([UserAuditSettings] UserAudit); di list dey show wetin dem record before.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Dem refuse am</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Di result</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Show am</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>Di table for di user audit log no dey. Create am wit php update/common/scripts/6.0/createuseraudittable.php; till den, di audit files go keep every event.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>Dis page need SQL database; e no dey for MongoDB. Di audit files dey keep every event.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Reach</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Audit log for users</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Di user</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Wen</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Where e happen</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>Who change, create, enable, disable, move or remove which account, who log in or dem refuse, and which roles dem give: one line for each event, wit di fields before and after. Dem no dey ever record passwords and secrets.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>na group</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>na system</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>dem no know am</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>Make your account safe</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>Dem use one recovery code sign in to your account %login for %site.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>Dem use one recovery code</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Account</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>Di address wey e near</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>Ask for new password make you fit sign in again, or contact di administrators of di site.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>Ask for new password</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>Each recovery code dey work only one time. If your phone don lost, set up your authenticator app again and keep di new recovery codes for safe place.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>Sign-in tries wey no work for your account</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>From now go, sign-in go ask for code join your password. If na you do am, you no need do anything.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>If na you and you don forget your password, ask for new one. If no be you, choose password wey strong pass and switch on two-step sign-in.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>If no be you, somebody fit sabi your password: change am now and check wia your account dey signed in.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>Recovery codes wey remain</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>Check your devices</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>Security warning</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>Somebody try sign in to your account %login for %site wit wrong password %count times one after di other.</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>Security event happen for your account %login for %site.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>Dis na security warning about your account. Dem dey send am for every change like dis and you no fit off am.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Di time</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>Dem don off two-step sign-in for your account %login for %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>Dem don off two-step sign-in</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>Dem don switch on two-step sign-in for your account %login for %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>Dem don switch on two-step sign-in</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>Dem don lock your account %login for %site after too many sign-ins wey no work.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>Na only your password dey protect your account now. If no be you do am, switch on two-step sign-in again after you don change your password.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>Dem don lock your account</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>Dem don add passkey to your account %login for %site.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>Anybody wey get dis passkey fit sign in to your account without your password. If no be you add am, comot am for Passkeys and change your password.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>Dem don comot passkey from your account %login for %site.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>E no fit sign in to your account again. If no be you comot am, check your passkeys and devices.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>Dem don add passkey to your account</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>Dem don comot passkey from your account</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>Wetin happen for security</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Wetin happen for di security of %name</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>E don sign in</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Sign-in try wey no work</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>E don sign out</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Dem don sign out di sessions</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Sign-in from new device</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Sign-in from new place</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Dem don confirm sey na di person (&quot;Verify say na you&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Di identity check no work</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>E sign in wit passkey</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Passkey sign-in no work</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Dem refuse di sign-in: di two-step code no dey or e wrong</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Di two-step code wrong</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Dem lock di account after sign-ins wey no work</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Dem don unlock di account</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Dem don change di password</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Password change no work</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Dem don reset di password</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Dem ask for new password</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Dem don change di email address</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Dem don change di username</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Dem switch on two-step sign-in</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Dem off two-step sign-in</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Dem use recovery code</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>New recovery codes dem</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Dem create app password</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Dem cancel app password</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Dem add passkey</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Dem comot passkey</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Di account dey on</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Di account dey off</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>All</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Sign-ins and di sessions</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Changes for di account</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>E need attention</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>na you do am</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>na di user do am</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>na %login do am</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>How e take happen</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>Di browser</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>Operating system</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Device</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>Di place</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>Country</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Sessions</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>Which one</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>How dem send am</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Tries wey no work</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>Codes wey remain</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>Di sign-in handler</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Wetin happen for security</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Wetin happen for di security of %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Sign-ins and changes to di security of your account. If you see something wey no be you do am, change your password and sign out di devices wey you no sabi.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>Sign-ins and changes to di security of dis account.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Your devices</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Change password</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>Go back to di account</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>Dem no dey record wetin happen for security</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>Dem dey read am from di user audit log, but im table expuser_audit no dey or dis database no support am. Run php update/common/scripts/6.0/createuseraudittable.php, or di database update of 6.0.15.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Di last %days days</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Sign-ins for di last %days days</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>Wetin just happen for security</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Show</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>e no work</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>dem refuse am</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Dem never record anything for security yet.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>Dem dey keep security events for %days days.</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>Dem dey keep security events until administrator comot dem.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Download di data of my sign-ins</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Your sessions and security events as JSON file.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Dis site no dey record sessions, so we no fit sign out any oda device. Change your password now now.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>We don sign out %count oda sessions. Now change your password.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>No oda device bin dey signed in. Now change your password.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Tank you. We don mark di event say na you.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Dat event no need any ansa.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Di page don expire. Nothing change; abeg try again.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Make your account safe</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>If anytin for here no be you, sign out all di oda devices, den choose new password. Devices wey dey signed in wit “Remember me” go sign out too.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Every device apart from dis one go sign out wen e make im next request. Den you go choose new password.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Yes, sign out di oda devices</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Na you do am?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Yes, na me</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>No, make my account safe</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>E don sign in</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Sign-in try wey no work</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>E don sign out</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Dem don sign out di sessions</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Sign-in from new device</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Sign-in from new place</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Dem don confirm sey na di person (&quot;Verify say na you&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Di identity check no work</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>E sign in wit passkey</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Passkey sign-in no work</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Dem refuse di sign-in: di two-step code no dey or e wrong</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Di two-step code wrong</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Dem lock di account after sign-ins wey no work</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Dem don unlock di account</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Dem don change di password</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Password change no work</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Dem don reset di password</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Dem ask for new password</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Dem don change di email address</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Dem don change di username</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Dem switch on two-step sign-in</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Dem off two-step sign-in</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Dem use recovery code</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>New recovery codes dem</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Dem create app password</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Dem cancel app password</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Dem add passkey</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Dem comot passkey</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Di account dey on</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Di account dey off</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>All</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Sign-ins and di sessions</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Changes for di account</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>E need attention</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Wetin happen for security</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Wetin happen for di security of %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Sign-ins and changes to di security of your account. If you see something wey no be you do am, change your password and sign out di devices wey you no sabi.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Your devices</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Change password</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>Dem never dey record wetin happen for security for dis site.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Sign-ins for di last %days days</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Tries wey no work</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Dem never record anything for security yet.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Download di data of my sign-ins</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Your sessions and security events as JSON file.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Dis site no dey record sessions, so we no fit sign out any oda device. Change your password now now.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>We don sign out %count oda sessions. Now change your password.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>No oda device bin dey signed in. Now change your password.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Tank you. We don mark di event say na you.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Dat event no need any ansa.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Di page don expire. Nothing change; abeg try again.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Make your account safe</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>If anytin for here no be you, sign out all di oda devices, den choose new password. Devices wey dey signed in wit “Remember me” go sign out too.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Every device apart from dis one go sign out wen e make im next request. Den you go choose new password.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Yes, sign out di oda devices</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Na you do am?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Yes, na me</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>No, make my account safe</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>Password</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>Password and two-step code</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>REST interface</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>SOAP interface</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>Single sign-on</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>E sign in before dem start to record sessions</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Report of di sign-ins</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>Who dey signed in to di site, how often accounts dey sign in and fail, and how to sign one user out for everywhere. E dey work wit every session handler.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>Dem don sign out di session. Di device go need sign in again.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>Dem don sign %login out from %count sessions.</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>%login no get any session wey dey run.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>No account get dat ID, username or email address.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>Na dis session you dey use. To end am, sign out.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>Dat session don already end.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Di page don expire. Nothing change; abeg try again.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>Dem no dey record sessions for dis site (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>Di table expuser_session no dey</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>Dem go record sessions once dem create am: php update/common/scripts/6.0/createusersessiontable.php, or di database update of 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>Now and dis today</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>Sessions wey dey run</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>Users wey dey signed in</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>Sign-ins wey happen today</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>Tries wey no work today</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>Sign one user out for everywhere</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>Every session of di account go end for im next request, plus di ones wey Remember me dey keep. Use am wen account fit dey for wrong hand; den reset im password.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>User ID, username or email address</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>Sign out for everywhere</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>E dey signed in now</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>Na di %limit wey dem use last we dey show.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>User</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Device</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Address</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>E don sign in</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>Last time e dey active</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Actions</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>Dis device</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Dem no record am</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>Sign out</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>No session dey signed in.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Di last %days days</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>Dem dey count sign-ins and tries wey no work from di user audit log, but e no dey; dem still dey count di new sessions.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>Day</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>Sign-ins</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Tries wey no work</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>Di new sessions</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>Session handler: %handler. Dem dey read di sessions from di table expuser_session, so di report dey work wit every handler.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>Tins wey no clear for di last %hours hours</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>One network no fit sign in to %accounts accounts (%count tries)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Dem lock di account afta sign-ins wey no work</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>%count sign-ins wey no work for one account</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>E sign in from %count kontris di same time</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Wetin happen for security</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Sessions</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>We dey read sign-ins wey no work from di user audit log, but e no dey here.</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>Nothing wey no clear: no account wit plenti sign-ins wey no work, no network wey dey try plenti accounts, no account wey sign in from plenti kontris.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>Security warning for your account</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>Security event happen for your account %login: %event. If no be you, make your account safe for %url.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Setup</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>Ask di content of dis site for exactly di fields wey one page need, for one request. Di schema dey follow di content classes; every query dey run wit di rights of di user wey send am.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>Dem don off di GraphQL API for dis siteaccess. On am for graphql.ini: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>Dem never install di GraphQL library (webonyx/graphql-php 15).</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>End point</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>Library</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>Schema</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>%count content classes, schema %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>Query</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>Variables (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Run</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>Answer</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>E dey run…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>Di answer no fit read.</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>Di query dey run wit your rights, as you don sign in for dis session.</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%count for %seconds s</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>no limit</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>Depth</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>Complexity</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>Items for each list</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (default %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>Requests for each user or key</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>Requests for each anonymous address</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>Introspection</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>Persisted queries only</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>Biggest query</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>%bytes bytes</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>Biggest upload</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>Siteaccess %siteaccess no dey.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>Mutations don on for %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>Mutations don off for %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>GraphQL API don on for %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>GraphQL API don off for %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>We no fit write di settings: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>Dem don clear di response cache: %count answers comot.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>Tick di box near di query to comot am.</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>We no fit comot di query: query wey come inside directory of PersistedQueryDirectoryList[] go comot together wit im file.</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>Di persisted query don comot.</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>Mutations</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>on</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>off</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Siteaccesses</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>Where di API and im mutations dey answer. Di buttons dey write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable dey do.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>GraphQL API</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Change</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Off am</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>Mutations off</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>Mutations on</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>On am</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>Limits</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>graphql.ini [GraphQLSettings] of dis siteaccess.</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>Response cache</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>Di answers of persisted queries, wey dem keep by user rights and wey dey expire anytime content publish.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>State</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>Answers wey dem keep</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>%count answers, %bytes bytes</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>Longest time dem keep am</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds s</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>Last time e expire</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>Clear di response cache</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>Persisted queries</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>Dem store am wit ./console exp:graphql:persist, or clients store am (automatic persisted queries); dem dey call am by name or SHA-256.</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>Names</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Size</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Where</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Comot</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>shipped</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>stored</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>Yes, comot dis query</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>No persisted query yet.</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>API keys</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>Personal API keys wit di scope graphql:read (queries) or graphql:write (mutations). Make and revoke dem for di page API access, or wit ./console exp:graphql:keys.</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>API access</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>All keys</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>Key</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Name</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Owner</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>Scopes</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>Last time dem use am</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>active</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>don expire</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>dem don revoke am</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>never</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>No API key wit GraphQL scope yet.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>GraphQL API don off for di siteaccess %siteaccess, wey dey show dis page; di table wey dey down show where e dey answer.</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>For di siteaccess %siteaccess, wey dey show dis page.</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>Webhooks</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>Every event wey end point ask for (publish, update, trash, delete, move, hide, reveal, mutation), di cronjob part graphqlwebhooks dey send am go there, wit signature. ./console exp:graphql:webhooks dey do di same tin as dis section.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Events</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>all of dem</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>All siteaccess</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>don spoil</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>no get secret</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>Dey wait</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count wey dem don leave</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>Last delivery</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Send test</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>Yes, comot dis webhook</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>No webhook yet.</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>Add webhook</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>Add</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>Deliveries wey just happen</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Time</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Result</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>Subscriptions</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>Live updates for clients: event stream for /api/graphql/subscribe, and WebSocket (graphql-transport-ws) for Velocity. Each event dey go only to subscribers wey fit read di content.</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>Dey open now</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>Di most wey fit open</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>%total for all, %user for each user, %address for each address</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>Subscriptions wey no get name</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>How long stream go last</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>We no fit add di webhook: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>Dem don change di webhook %name; im signing secret still dey.</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>We no fit keep di signing secret (Setup &gt; Secrets).</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>Dem don add di webhook %name. Im signing secret, wey we go show only dis one time: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>No webhook %name dey.</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>Di webhook %name no answer: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>Di webhook %name answer %status inside %ms ms.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>Tick di box near di webhook to comot am.</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>Dem don comot di webhook %name.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>Dem don off di GraphQL API for dis siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>Dem never install di GraphQL library.</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>Make you use GET or POST.</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>Di body of di request no be JSON object.</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables no be JSON object.</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions no be JSON object.</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>Send di query wit POST.</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>Di request no get any query.</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>Di query long pass %max bytes.</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>Server get wahala for inside</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node need only one from id, remoteId, path and urlAlias.</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content need only one from id and remoteId.</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>Di cursor for after no be di one wey dis API give.</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>No image alias %alias dey (image.ini [AliasSettings] AliasList[]).</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>Na only queries wey dem don save dem dey accept for here: send di id of one query wey dem store for di server.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>Di hash of di saved query no be SHA-256.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>Di hash of di saved query no match di query.</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>Requests don too much: no pass %limit inside %window seconds. Try again after %reset seconds.</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>Di query deep reach %depth levels; na only %max dem allow.</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>Di query get complexity of %complexity; na only %max dem allow.</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>Dis request no fit read di schema (introspection).</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search need text or filter (classes, subtree, sections, publishedAfter, publishedBefore).</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument no be date (ISO 8601, 2026-10-30).</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag need only one from id, remoteId and path.</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout need only one from id, identifier and urlAlias.</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>Di operations field for di multipart request no be one JSON request.</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>Di map field for di multipart request no be JSON object.</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>Di multipart request no get file %field.</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>One path for di field map must start wit variables.: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>Di file %name no reach complete (upload error %error).</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>Di file %name big pass %max bytes.</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>We no fit check di file %name.</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>Dem don off mutations for dis siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>Send mutation wit POST.</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>Sign in first before you fit change content.</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>Di API key no get di scope %scope.</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>Mutation wey get session need di form token of di session (header X-CSRF-Token).</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>Dem don off uploadFromUrl: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] no name any host.</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>Di address must be https address.</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>Di host %host no dey for graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>We no fit fetch di file.</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload na input type only.</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>Variable of type Upload dey take file from multipart request.</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>Somebody don already take di remote id %remoteId.</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>Di content don already get translation for %language: use updateContent.</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>Put at least one field.</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>We no fit make new version (di content get too many drafts).</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>Version %version no be draft.</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent need exactly one of id and nodeId.</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>You no fit move location go under itself.</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>Di content don already get location under %parentId.</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>We no fit store di value of di field %field.</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>Content language %language no dey.</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>Content class %class no dey for di schema.</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>Di content no dey, or you no fit read am.</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>You no fit do dis one to dis content.</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>Di class %class no get field %field wey person fit write.</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>Dem give di field %field two times.</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>Di field %field dey take file: send am as upload (multipart request).</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>Di field %field no dey take file.</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>Di field %field need value.</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>Di format %format na only for rich text fields; %field dey take im value as e be (RAW).</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>Di field %field dey required.</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>We no fit read di HTML.</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content dey take version wit id only.</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>Di preview token no valid or e don expire.</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>E no be origin (https://host or https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>E no be scope of di GraphQL API: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>Send subscriptions go /api/graphql/subscribe (event stream or WebSocket).</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>Di request no name any operation for di document.</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>One subscription dey ask for only one field.</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>Too many subscriptions dey open; try again later.</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>You get %max subscriptions wey dey open, na di most wey dem allow.</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>Your address get %max subscriptions wey dey open, na di most wey dem allow.</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>Dem don off subscriptions for dis siteaccess.</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>Sign in to subscribe (token or your own API key).</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>Send mutations go /api/graphql.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>Migration dem</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>We no fit read how e dey: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Di table dem for di migration never dey: ./console exp:upgrade --apply go make dem.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>%count migration don fail</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>One run dey go on, na %user start am</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>Di installation don lock: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>E still dey wait</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>E don fail</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>Di ones wey no get papa</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Di last run</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>nothing yet</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>All di migration dem</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>Run wey we just pretend</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>Test run</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>Di migration dem wey dey wait run inside one transaction wey we turn back after: nothing remain. For down na wetin each one change for di database.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>Wetin run go do now. Nothing go change: each migration wey dey wait show di change wey e go make, and di run show wetin e go do before and after.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>Pretend run am</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Make e run</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>Di test run fail: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>To pretend run need PostgreSQL or SQLite, because dem fit turn schema change back; for dis database, di plan for down na wetin run go do.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>Di migration dem</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>Di migration</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>How e dey</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>Wetin e go do</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>Pretend run: %result for %ms ms</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>No migration dey yet.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>Before and after di run</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>Snapshot before</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>we take am, and we go bring am back if one migration fail</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>e dey off</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>Snapshot after</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>we take am when di run pass</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>%total migration: %pending dey wait, %done don finish, %failed don fail.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>Wetin don happen for migration</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>Every run with di user, di environment, di snapshot dem and wetin dem commit, tag and push. Run wey fail or wey stop for middle fit continue; run wey get snapshot before am fit turn back.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>We no fit read di run dem: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Di table dem for di migration never dey: ./console exp:upgrade --apply go make dem.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Show am</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>All of dem</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>Di run dem</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Wen e start</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Na who</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>Snapshot dem</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Di repository</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Wetin you fit do</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>before e start</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>after e finish</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>di push: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>Continue am</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Turn am back</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>No run dey for dis state.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>Wey start for here</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>Run, continue and turn-back wey start for dis page dem, with di report of each one.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Wetin</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Wetin come out</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Turn-back</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>Turn-back of %target</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>Di run %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Wetin di run do, di record and di log. Run wey start for here go still dey run for back if you close dis page; open di page again to follow am.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>Continue dis run</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>Turn dis run back</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>We no fit read di record: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>How far e don go</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Na %user start am for %time.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>We dey check di code and take snapshot before di run</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>%id dey run (%index of %total)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>%done of %total don finish</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>Di migration dem don run; we dey bring di snapshot back if one fail</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>We dey take snapshot after di run, dey commit, dey tag and dey push</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>We dey bring di snapshot back</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>Di run don end. We dey load di report.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>We no fit follow how far e don go. Load di page again to see how di run dey do.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>Dis page dey follow di run as e dey go.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Load am again</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Di report</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>How long e take</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms millisecond</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>Di error dem wey di run print</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Di record</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>Di environment</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>nothing</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Wen e end</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Di commit</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Di tag</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Di push</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Di message</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>Di migration dem for dis run</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>Where e from</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>Di log of di run</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>Na only di end of di log we show.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>e dey run</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>e end without report</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>e pass</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>e fail</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>dem refuse am</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>we no fit reach di database</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>error for inside</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>One run dey go on</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>Na %user start %kind for %time.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>Follow am</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>Di installation don lock</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>Another run hold di lock (one upgrade or one run for console): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>e don finish</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>e still dey wait</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>dem no need am</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>we no know</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>dem don turn am back</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>dem don apply am</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>dem go apply am</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>dem don take am back</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>dem go take am back</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>e never run</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>e dey wait for another one</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>dem accept di change</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>dem go accept di change</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>dem pretend run am</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migration dem</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>How e dey</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Wetin don happen before</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>Take %target back</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>Run go turn back to di snapshot wey dem take before am, one migration with im down(). To bring back older snapshot na for expert dem. Each one dey run for back as you, after snapshot of how tins dey now.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>We no fit read wetin fit turn back: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>One run</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>One migration only</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>One older snapshot</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>Wetin e be</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>yes o</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>no o</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Snapshot</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Di name</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>Wen dem take am</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Which kind</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>Di part dem to bring back</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>Di database</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>Di storage file dem (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>Di setting dem (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>To bring di database back go take am back to di time of di snapshot, session dem join: dem fit ask you to sign in again after. Everything wey change since then go loss; we go first take snapshot of how tins dey now.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>I sabi wetin dis one go bring back</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>Type di id of di snapshot again</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>Yes, take am back</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Comot am</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>Di run dem wey get snapshot before dem.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>Pick</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>No run with snapshot dey yet.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>Di migration dem wey dem don apply wey fit take demself back (dem get down()).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>No migration wey dem apply get down().</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>Older snapshot dem (for expert)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>No snapshot dey yet.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>Run di migration dem</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>Di run go dey go for back as %user, and im page go show am as e dey go. Before di first migration, we go take snapshot of di installation; if one migration fail, di run go stop and we go bring di snapshot back.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>Do test run first</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>We no fit read how e dey: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>Migration dem wey dey wait</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>Dem dey run for dis order. Remove tick from one to leave am, and di ones wey need am, for later run.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>Run am</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>E go on maintenance mode while e dey run.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>Dem change after dem apply am</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>Dis file dem no be di ones wey dem apply. Run go refuse dem unless dem accept di change with reason; dem no go run again, we go record di new checksum and keep di reason for di audit log.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>Accept di change dem</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Why e be so</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>Di default dem na di safe ones. Each box dey leave one step out.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>No snapshot</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>No snapshot before and after di run: if e fail, we no fit bring am back by imself.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>No bring-back</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>After e fail, leave di installation as di failure leave am.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>Keep di change dem wey never commit</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>Run am even if setting, extension or design get change wey never commit; dem go enter di snapshot.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>No commit am</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>No commit di status file and di run log (no tag and no push too).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>No push am</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>Commit and tag, but no push.</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>No tag am</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>Commit and push, but no tag di run.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>Yes, run dis migration dem now</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>No migration dey wait.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>Go back to how e dey</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>Change dem for dis installation wey dem write one time as file (content, class, role, setting, schema) and apply to every installation of di site for di same order. Run go first take snapshot, bring am back if one migration fail, and record, commit and push wetin e do.</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>Run di %count wey dey wait</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>How everything dey</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>E still dey wait</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Don finish</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>E don fail</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>Dem no need am</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>Di database</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>transaction dem: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>Di site migration dem dey inside migrations/, di ones of extension dey inside extension/&lt;name&gt;/migrations/. Dem dey run for di order of dia name and wetin dem need.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Di last run</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>Di file change after dem apply am.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>No migration dey yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply go write di first one.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>Di latest run dem</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>Every run wey dey</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>No run dey yet.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>To pretend run need di policy migration/run.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>One run dey go on: pretend run when e don end.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Set-am-up</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target no be run, no be migration and no be snapshot of dis installation.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>First tick &quot;Yes, take am back&quot;.</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>To bring back older snapshot na for expert dem: tick &quot;I sabi wetin dis one go bring back&quot;.</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>Type di id of di snapshot again: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>Pick at least one part to bring back.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>Dis run no get snapshot before am: take im migration dem back one by one, or bring back older snapshot.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>Dis migration no fit take imself back: dem never apply am, or e no get down().</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>We no fit read di form.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>Pick di run wey you wan continue.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>First tick &quot;Yes, run dis migration dem now&quot;.</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>Pick at least one migration.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>One migration change after dem apply am: accept di change with reason, or put di file back.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>Give di reason why una accept di migration dem wey change.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>Di reason no fit pass 500 character.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>One run wey start for here still dey go on (%detail). Wait make e end.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>Another run hold di lock of di installation: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>Di run need user wey dey and don sign in.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>We no see any php command line binary. Put im full path for migration.ini [AdminSettings] PhpCliPath.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open dey off, so run no fit start for here. Run ./console exp:migration:migrate --apply for di server.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>We no fit write inside di folder of di run dem: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>Di run start but e no talk im process id. Check %detail.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>Talk wetin you wan take back.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>Di run no fit start.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>Record di changes</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>As recording dey run, wetin you change for di admin or for di site side bar go dey kept as steps of one migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop am when you don finish, look wetin e catch, and make migration from am.</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>We no fit read di recordings: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>Di tables for di recordings never dey yet: run di upgrade first (exp:upgrade --apply).</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>Recording don off for migration.ini ([RecordingSettings] Recording=disabled).</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>My own changes</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>E go record only wetin you change, anywhere wey you change am, until you stop am.</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>Di recording</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>since %time, %count change(s) reach now.</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>Label (if you want)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>Show wetin e catch</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Stop di recording</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>Start to record my changes</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>Window for di whole site</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>E go record every change wey every user and di console make until dem close am. When you open am, dem go ask you to confirm say na you.</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>E dey open</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>Close di window</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>Open di window for di whole site</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>All di recordings</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>Di account of user (login, e-mail, password) and di fields of user accounts, we no dey ever record dem.</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Di changes</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>Di whole site</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>Changes wey %name make</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>E don stop</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>No recording dey yet.</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>Di recording %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>Every recording</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>Di migration wey e go make</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>Di changes wey we join into one step for each thing wey change: wetin migration wey dem make from dis recording go do.</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>You fit make migration from am once dis installation get di YAML step types %types.</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>We leave am out on purpose: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>Nothing dey recorded.</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>Wetin e catch</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>%count change(s), for di order wey dem make dem.</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>One change</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>Di step</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>E concern</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>%count more: ./console exp:migration:record:show go list all of dem.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Throway</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>E go remove di recording and wetin e catch. Wetin don change go still dey changed.</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>Yes, throway dis recording</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>E dey record…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Dem dey record your changes for one migration.</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>Dem dey record every change for dis site for one migration (window for di whole site).</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>Di recording for di whole site don start: dem go record every change wey every user make until you stop am.</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>Di recording don start: dem go record your changes until you stop am.</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>Di recording don stop. Wetin e catch go remain until you throway am.</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>Di recording and im events don comot.</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>No recording %id dey.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>First tick "Yes, throway dis recording".</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>Na only di user wey record fit stop session recording.</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>Choose di recording wey you wan stop.</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>Recording of dis kind dey run already.</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>We no fit change di recording: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>Make migration</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>Name of di migration (if you want)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>Di migration %file don write. Changes wey no step fit make dey named for top of di file, make you do dem with hand.</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>No migration write: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>Long run for parts</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>Empty fields go keep di settings for migration.ini [RunSettings].</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>Na only dis many migrations</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>No more migration after (seconds)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>Rest between migrations (seconds)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>Lower priority (from 1 reach 19)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>Long-run field na whole number from 1 (di rest: seconds from 0 to 60, di priority: 1 to 19), or e dey empty.</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>E go close by itself for %time.</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>Close by itself after (minutes, if you want)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>Di minutes na whole number from 1 to 44640 (31 days), or e dey empty.</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>Di migration %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>Fresh migration</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>YAML migration: write am as text or build im steps for di form, check am, den save am inside one migrations folder.</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>Dis migration don run before, so we no go save am again: di checksum guard go refuse file wey dem change. Make di change for new migration.</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>Di web server no fit write di file.</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>Di comment lines for top na di header (description, author, requires, environments, engines). When you add or change one step for di form, di migration go write again: di comments wey dey between di steps no go remain.</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>Di migration name</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>Where e go go</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>Di site</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>Di YAML text</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>Check</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Save</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Steps</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>Keys</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Edit</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>Move up</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>Move down</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Comot</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>No step dey yet: add one wit di form, or write dem for di text.</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>Change di step %number</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>Add one step</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>Na di step type dey make di form of one step: im keys, wetin each one dey take and di modes wey e belong to.</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>Di step type</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>Show im form</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>Di step get keys wey im type no know; dem go comot when di step change: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>Di mode</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>For</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>na only for %modes</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>Default na: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>Di conditions, references and comment</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>Name=value pairs wey comma separate. Di values for dis step: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>Example</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>Change di step</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>Add di step</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>Wetin exp:migration:check talk: di header, di document and every step wey im step type check.</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>Di migration pass di check.</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Preview</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>Di YAML as e go save.</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>Show di YAML</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>YAML migration dem</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>don run</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>No YAML migration dey yet.</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>Editor</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>No YAML migration %id dey inside di migration folders.</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>Pick di step type.</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>Di step don add. Check di migration before you save am.</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>Di step don change. Check di migration before you save am.</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>Pick one step.</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>Dis step no get form (na loop, or step type wey dis installation no get): change am for di text.</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>Pick where di migration go go: di site or one extension wey dey active.</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>We don save %file. Make test run before di migration run.</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>E no save: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>Di remote dem</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>Di other installation dem wey dis one dey deploy im migration dem go: deploy dey send di migration dem go di remote dem wey you choose and run dem for there, all of dem at once and in sync. Remote no dey ever hold secret: how e dey sign in just dey name one for Setup &gt; Secrets.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>Fresh remote</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Help</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>Test connection for %id</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>Di remote dem</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>Reach %parallel remote dem dey work at di same time; one phase fit take %timeout seconds for each one.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>Di remote</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Address</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>How e dey sign in</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>Groups</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>settings wey need fix</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>na only file (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>Di SSH key</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>Password</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>nothing (di host SSH agent and key dem)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>Test connection</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>Deploy to one group dey go every remote wey dey inside am.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>Deploy go di remote dem</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>No remote dey set up yet.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>Di remote %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>Nothing dey send or run for here: Save dey write di settings enter settings/override/migration.ini.append.php. How e dey sign in na just one name; im value go still dey for Setup &gt; Secrets or for di environment.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Check dis settings</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>Di settings as you enter dem, we never save dem yet.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Review</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Di settings correct. We go write dis lines:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>Transport</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>na only name; di value dey stay for Setup &gt; Secrets</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Di lines wey we go write</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>Connection</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>Di host key</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. Di remote</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>Wetin dem dey call di remote and which environment e be.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>Di id</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>Letters, numbers, - and _, for example production1. Na im be di remote name for report and for console (--remotes=production1), and you no fit change am later.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... Deploy for stages dey pass di environment dem for dis order.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>If you want, separate dem with comma, for example production. Deploy to one group dey go every remote wey dey inside am.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. Di connection</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>How di file dem go reach there, and where di installation dey.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>Through SSH, only wetin change, and transfer wey break go continue. Na di best choice where rsync dey installed.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>SSH with scp for di file dem.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>SSH with sftp for di file dem.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>Na only file: dem dey send di migration dem and read dem back, but dem no fit run dem for there.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>FTP over TLS; na only file.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>Another installation for dis server, inside one folder.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Host</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>Host name or address, for example node1.example.com. No be for local.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>Port</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>If e empty: 22 for SSH, 21 for FTP.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>User</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>Path</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>Di installation root for there, for example /var/www/site (for FTP: di path wey di FTP account dey see).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>Di PHP command line</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>Di PHP CLI for there: php, or full path like /opt/plesk/php/8.4/bin/php.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>Di console script dem dey run as root for there</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>Only when di remote user na root (then dem go run dem with --allow-root-user).</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. How e dey sign in</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>How dis installation dey sign in for there. Na only one name we dey save.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Nothing</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>Di SSH agent and key dem of di user wey dis installation dey run as (and always for local).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>Private key wey dem keep as secret.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>Password wey dem keep as secret (FTP dey use am sign in).</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>Di secret name</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>One secret from Setup &gt; Secrets, for example deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Setup &gt; Secrets</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>Or one environment variable</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>Di variable of di server process wey hold am, for example DEPLOY_KEY (we dey save am as env:DEPLOY_KEY). E dey take di place of di secret name.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. Di host key</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>If you want, for SSH, sftp and rsync.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>Di host key fingerprint</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... as ssh-keygen -l dey print am. If you put am, di host must show dis key; if you no put am, we go learn di key di first time we connect.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. Review am</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>Test di connection with di settings wey dey up, then review di line dem wey we go write.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>Comot dis remote</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>We go comot im settings from settings/override/migration.ini.append.php. Nothing go change for di remote, and im deploy dem go still dey for di history.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>Yes, comot dis remote</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>Di deploy dem</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>Deploy dey send dis installation migration dem go di remote dem wey you choose, and e dey run dem for there as %user, all of dem at once and in sync: e go check every remote first, and if one fail, every remote wey don apply go turn back. E dey go on for background, and im page dey show every remote as e dey go.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. Di remote dem</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>Tick remote dem, one group, or di two.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>Deploy go there</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. How e go work</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>Deploy am</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>Send am and run am</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>We dey send di migration dem, check dem and run dem for every remote with one run id wey all of dem share.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>Only transfer</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>We dey send di file dem and check dem, nothing dey run (na di only way for FTP remote).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>For stages</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>Stage by stage for di order of di environment dem (dev, stage, beta, production ...): we go deploy di first stage, then one gate go wait until somebody approve di next one. All or nothing inside every stage.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>Na only dis migration dem</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>If you want: migration id dem, separate dem with comma. If e empty: every migration of di site and im extension dem.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>Only check before e start</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>Yes, deploy am now</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>Di deploy dem wey send or run something, di newest one first (check before e start no dey keep report).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>only transfer</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>for stages, %stages stages</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>e no dey in sync</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>No deploy dey yet.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>Di deploy %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Every remote for di deploy with how e dey. Deploy wey start for here go still dey go on for background when you close dis page; open di page again to follow am.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>All di deploy dem</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>Check before e start</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>Di next stage</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>We dey check di settings and how e dey sign in</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>Check before e start: we dey read how every remote dey</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>We dey send di migration file dem</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>We dey check wetin reach</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>We dey run di migration dem for every remote</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>We dey turn di remote dem back</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>Di deploy don end. We dey load im report.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>We no fit follow how far e don go. Load di page again to see how di deploy dey go.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>Di phase</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>Dis page dey follow di deploy as e dey go.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>Dey in sync</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>Di stage dem</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>stage %stage dey wait for im gate</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>Di gate %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>%user approve am for %time</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>Di stage</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>Di file dem wey dem send</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>Di kernel version</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>dem don apply: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>dem go apply: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>Di phase dem</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>Gate: stage %stage out of %stages</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>Di stage dem wey dey before am don deploy. Check dem, then approve di next stage: we go check im remote dem again and deploy dem, all or nothing.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Next</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>Yes, deploy di next stage now</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Approve</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>Turn dis deploy back</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>Every remote wey don apply am (%list) go go back to di snapshot wey dem take before im run, all of dem at once.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>Yes, turn dis deploy back now</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>dem don plan am</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>e don transfer</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>e don deploy</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>e dey wait for one gate</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>wey you choose</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>e don ready</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>e ready</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>e dey wait for im stage</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>di file dem don send</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>dem don check am</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>e fail, e bring imself back</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>e no change</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>e never deploy</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>we no fit reach am</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>Di remote don answer.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>You no fit use di remote now.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done don finish, %pending still dey wait, %failed don fail</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>Di lock</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>one run dey hold di lock for there</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>free</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stage out of %stages</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>Pick di remote wey you wan test.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>Tick “Yes, comot dis remote” first.</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>We no fit comot di remote: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>We no fit save di remote: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>We no fit read di settings file: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>Pick at least one remote or group.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>One remote wey you choose no dey for di settings again. Load di page again.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>Tick “Yes, deploy am now” first.</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>FTP remote no fit run migration: pick “Only transfer”, or leave am out.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>Di migration dem to deploy na migration id dem, separate dem with comma.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>Di deploy still dey go on. Wait make e end.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>Dis deploy no dey wait for any gate.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>No remote apply dis deploy: nothing dey to turn back.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>Tick “Yes, deploy di next stage now” first.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>Tick “Yes, turn dis deploy back now” first.</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>One remote wey get di id %id don already dey.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>Di port na number from 1 reach 65535.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>Di environment na one word wey get letters, numbers, - and _ (alpha, dev, stage, beta, production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>Group na one word wey get letters, numbers, - and _ (no be all): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>We no fit read how e dey sign in now: %problem. Save am for Setup &gt; Secrets (or set di variable) before di first deploy.</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>FTP remote dey only receive file: deploy to am na “Only transfer”, and dem dey run im migration dem for there by hand.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>Di remote %id no dey for settings/override/migration.ini.append.php; comot am for where dem set am.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>We don sign in through FTP and read index.php. We no fit read di migration status of FTP remote.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>Changed</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>Dem don create am</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Name</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Class</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Section</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>Who create am</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>New content wey just come</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>Di content wey dem just create and change for di whole site, di newest first: wetin visitors send, wetin dem hold make dem review am, drafts wey dey wait make dem publish dem. Choose items make you release dem, hold dem, hide dem, show dem, comot dem or carry dem go another section or state.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>We no fit read di list: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>Dem never set up di review hold, so nothing dey hold and di hold actions no dey show. Di upgrade step 6.0.15-review-hold dey set am up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Filter di list</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>From when</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Reach</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Di date</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>Dem don create am (first time wey dem publish am)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Everything</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>How e be</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Dem don publish am</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>Draft, dem never publish am before</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>E still dey wait (e dey wait for approval or for one date)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>E dey inside trash</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Dem hold am make dem review am</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>Dem hold am</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>Dem no hold am</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>Dem hide am</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>People fit see am</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>Dem send am on</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>Any siteaccess at all</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>Only wetin di audit write down.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>Now now: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>Login name or user id.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Filter am</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>Clear di filters</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>Di items</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from to %to of %count</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>No item dey</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(we read am for %ms ms)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>Actions for di items wey you choose</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>Choose all for dis page</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>You don choose %count</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Wetin to do</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>Choose wetin to do</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>Release di hold</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Hold am make dem review am</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Hide am</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>Show am</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>Carry go trash</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>Delete am</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>Give am section</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>Give am state</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>Why</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>You need am to hold; dem go keep am with di hold and inside di audit.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>Choose one section</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Di state</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>Choose one state</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>Do am for di ones wey you choose</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>We go check each item against your own permissions. To carry go trash and to delete go ask you make you confirm. If e pass %count items, e go run for background.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>Choose</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>Di publishing</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>Dem send am from</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>Choose %name</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>e never reach</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(e no get name)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>Draft wey never finish</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>E still dey wait</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>Di parent don hide am</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>Dem hold am: new one wey dem send</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>Version %version still dey wait</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>Dem still dey work on version %version</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>Draft, na version %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>Dem don publish version %version</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>Dem plan am for %date</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>address no dey</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>dem no write am down</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>Nothing match dis filters.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Show everything</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>Content never dey.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>For each page</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Show %count items for each page.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says "not recorded".</source>
+        <translation>Di address and di browser of wetin dem send dey come from di audit index, wey no dey here: di column go talk "dem no write am down".</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>Di address and di browser na di ones wey di audit write down for di item (di auto-hold dey always write dem; publishing and creating only where dem switch am on), as di privacy settings take keep dem.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: %count items dem</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>To delete go comot di items forever, with all their versions and translations. You no fit undo am.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>Di items go enter trash, where dem fit bring dem back from.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>We go check each item against your own permissions; any item wey get sub items, we go leave am as e be (comot am for di content structure). Dem go ask you make you show say na you.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>Dis one dey run for background: di page wey show how e dey go go open, and di result for each item go show when e don finish.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>Di items wey you choose</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>and %count more again</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Cancel</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>Nothing happen</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Why: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>Di action still dey run for background.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>How e dey go</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>Di background action no work: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>E don finish</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Dem refuse am</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>E no work</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>For each item</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>One item</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Wetin come out</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Why e be so</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>Go back to di list</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Set am up</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>Nothing dey done</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>Confirm am</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>Choose wetin to do.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>Choose at least one item.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>No choose pass 1000 items at once.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>Talk why dem hold di items.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>Choose di section.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>Choose di state.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>We no fit read di form.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>Dashboard</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>New content wey just come</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>We no fit read di counts: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Dem hold am make dem review am</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>New ones today</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Dem never set up di review hold (di upgrade step 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>All di new content wey just come</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>You no get permission to run moderation actions (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>Di moderation action never complete: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>Moderation: %action for %count objects</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%done of %total objects: %ok don finish, %refused dem refuse, %failed no work</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok don finish, %refused dem refuse, %failed no work</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>E no dey again.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>E no get location (dem never publish am).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>You no get permission to hide am (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>You no get permission to show am (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>Dem don hide am before.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>Dem no hide am.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>Dem don hide am.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>Dem don show am.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>E dey inside trash: empty am or bring am back from there.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>Draft wey dem never publish no fit go trash: delete am.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>You no get permission to delete am (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>Dem don delete am.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>You no get permission to comot am (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>E get sub items: comot am for di content structure, where dem list dem.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>Dem no comot am (one workflow fit dey hold di removal).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>Dem don carry am go trash.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>Di section no dey.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>E don already dey for dis section.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>You no get permission to give dis section (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>Dem no give di section.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>Dem don give di section.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>Di state no dey.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>E don already dey for dis state.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>You no get permission to give dis state (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>Dem no give di state (one workflow fit dey hold di change).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>Dem don give di state.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>Dat kind action no dey.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Dem never set up di review hold (di upgrade step 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>Talk why dem hold am.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>Dem don hold am before.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>You no get permission to hold am (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>Dem no put di hold (one workflow fit dey hold di change).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>Dem don hold am.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>Dem no hold am.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>You no get permission to release am (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>Dem no release di hold (one workflow fit dey hold di change).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>Dem don release am; e still dey hide: you no get permission to show am (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>Dem don release am.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>All di target dem</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Di last publish</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>Publish static copy of your site for GitHub Pages free:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Pages wey don old</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Di static publishing</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Di static publishing dey off.</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Di target</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>We no fit read di target dem: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>one job dey go on</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>build wey dey wait check</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>hide dis one</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>make target</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>never</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>read di tutorial</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>%added don add, %changed don change, %removed don comot</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%bytes out of %limit (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>%count more dey wey we no list.</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>%pages pages don write</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path na %size, e pass wetin di host allow for one file.</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>%percent % of di limit</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds s</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag na di publish wey di site get now.</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: job %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>/repository/ for GitHub project site; leave am empty for your own domain or user site.</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. Di site</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. Di host</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. How to sign in to di repository</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. Di repository</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. Di links and di base path</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. Di domain wey be your own</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. Wetin di build carry</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. When e go publish</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. Check am well and save</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>GitHub project site dey live under /&lt;repository&gt;/; relative links dey work there and any other place.</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>Build dey fetch every page of %site as visitor wey never sign in dey see am, e go rewrite di links, copy di files and write wetin come out inside di target folder. Nothing go publish until you check di build and press Publish.</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>Cron expression, for example 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>Deploy key dey kept as di secret %secret.</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>Deploy key dey allow dis installation push to only one repository over SSH and nowhere else. Di private half dey stay for Setup &gt; Secrets; na only di public half we dey show.</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>Deploy key wey we make for dis target</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>Deploy key dey sign in over SSH: change di git address to di SSH one (git@github.com:owner/repo.git).</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>One job dey go on, na %user start am</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>One job of dis target still dey go on (%detail). Wait make e end.</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>One job of dis target still dey go on. Wait make e end.</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>Link from di page /news/ go di page /about-us/team go write like</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>We don make new deploy key. Add di public half to di repository now.</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>Page wey still carry debug output, form token or session id after we strip am, we no go ever publish am.</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>Turn-back na for expert dem: tick &quot;I sabi wetin dis one go change&quot; and type di name of di tag again.</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>Site fit reach %site, one file fit reach %file, with about 100 GB of traffic every month. For free plan, di repository must be public. GitHub Pages no be for shop or any other buying and selling.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>Target na one site wey dem publish to one git repository. Nothing dey build or publish for here: Save dey write di settings go settings/override/staticcache.ini.append.php.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>Target na one site wey dem publish to one place, for example your public site for GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>Token from Setup &gt; Secrets</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>One workflow of di repository dey publish am.</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>Add dis public key to di repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>Wetin dem add</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>Another git host</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>Another process dey work on dis target: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>Go back</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>Di base path</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Before e change</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>Under one base path</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>Di branch</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>Links wey don break</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>Links wey don break for di build</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>Di build</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>Build %id na %user do am</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>Build %name now</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>Build am now</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>Build wey dey wait check</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Na who</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>With hand, for here</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Cancel</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Change am</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>Wetin change</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Di change dem</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>Check am first</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Check dis settings</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>Check wetin di build change, look am, then publish am or throw am away.</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>Pick di publish wey you wan go back to.</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>E go come for later release.</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Di commit</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>Di commit dem</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>E go commit di build, tag am and push am go %remote. We no dey ever force push; you fit go back to any publish later.</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>Compare with how di folder be before: %added don add, %changed don change, %removed don comot, %unchanged no change.</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>Compare with di last publish.</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>How e dey sign in</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>Domain wey be your own</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>Debug output, form token, session id and nonce, we dey always comot dem.</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>Di deploy key</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>Di deploy key of %name</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Throw am away</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>Throw di build away</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>Di domain</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>Empty: di address of di site. If no be so, na internal address of di same site.</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Wen e end</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>Every link dey start with di base path.</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>Every publish na commit with tag static/%id/&lt;n&gt;. To go back dey make new commit with di files of one earlier publish: di history dey stay, no tag dey move and nothing dey forced.</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>Extra files</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>Fetch di pages from</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Di file</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>Di files</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>Files wey no dey</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>Di files of</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>Files wey we no fit gather</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>Di fingerprint</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>Di folder</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>For SSH address. We go make di key after you save; you go add di public half to di repository.</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>For https:// address. GitHub: fine-grained token wey get Contents read and write for di repository.</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>Na for expert dem. Di public site go change as soon as di push finish.</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Di forms</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>Free hosting from GitHub repository.</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>From di branch</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>Di git address</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages dey allow site of %site and file of %file.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>Di limit dem for GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages dey publish di files as dem be (you need am for files wey start with _).</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub dey serve di branch as dem push am. Na di default.</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, your own server: any git repository at all.</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>Go back to one earlier publish</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Help me</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>Help for di wizard</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>Hide dem</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Wetin don happen before</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>Wetin don happen for %name</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Di host</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>How GitHub Pages dey receive di build</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>I don check di change dem</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>I sabi wetin dis one go change</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>Di id</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>E dey off: nothing fit build until e dey on.</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>E dey run for back as %user; you fit close dis page.</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>Job %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>E dey kept as di secret %secret.</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Which kind</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Di last publish</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>Leave dis pages out</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>Leave dis sections out</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Di links</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>Links wey we rewrite</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>Di live site</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>Look di build</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>Small letters, numbers, _ and -, for example github-public. Na im be di name of di folder and di tags (static/&lt;id&gt;/&lt;n&gt;) and you no fit change am later.</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>Make new key</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>Make target</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>Make di key</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>First make di repository for di host; empty one dey fine.</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>Di manifest</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Di message</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>Most of di pages</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Di name</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>Name of di token for Setup &gt; Secrets</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>New target</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Next</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>No</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>No commit dey yet.</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>We no make any key: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>We no see any php command line binary. Set migration.ini [AdminSettings] PhpCliPath to di full path.</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>No tag dey yet.</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>No target dey yet.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>None at all</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>E no dey for di build.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>Nothing don publish yet.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>Nothing don publish yet: every file na new.</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>Tell people</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>On schedule</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>For di console</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>For di server: ./console exp:static:serve %id dey serve am di same way.</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>One path for each line, * dey match any part: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>Na only name we dey keep with di target; di token or key itself dey stay for Setup &gt; Secrets and e no dey ever show for log.</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>Only wetin di pages mention</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>Only with token. env:NAME dey read environment variable of di server instead.</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>Open di preview</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>E dey open di build as di host go serve am, from di target folder. Di link go work for you for one hour.</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>You fit leave am. Empty: wetin dem don publish.</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>You fit leave am. With domain, di site go serve for im root.</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Wetin e print</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>Di pages</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>Di pages of di target</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>Pages wey we refuse</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>Work after processing</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Preview</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>Preview and publish</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>Preview and publish %name</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>Preview di build</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>How far e don go</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>Di public address</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>Di public key</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>Publish am</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>Publish static copy of site to GitHub Pages or any git host: build am, check di change dem, publish, and go back to earlier publish when you need am.</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>Di publish to go back to</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>Di publish dem</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Di push</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>Read di tutorial</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Di record</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>We refuse am</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>Relative links</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Load am again</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>Wetin comot</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>Change di key: di old one go stop to work</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Di report</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>Report of di build</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Di repository</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Check am well</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>Di check go look every setting and show di lines wey we go write. Nothing don save yet.</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Turn am back</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Turn-back</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Save</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>Di schedule</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>Di search page</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>Section id dem, separate dem with comma.</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>Send dem go di live site</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>Di setting</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Settings</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>Settings of %name</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Setup</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Setup &gt; Secrets</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>E dey show for list, for example &quot;Public site for GitHub Pages&quot;.</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>To sign in with GitHub App go come with di GitHub integration.</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>Di site</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>Di site wey we go publish</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Di size</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>Size and limit dem</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>Size of di build</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Pages wey don old</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Wen e start</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Na %user start am for %time.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>How e dey</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Di static publishing</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>Di static publishing dey off</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Di static publishing dey off.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>Di static publishing dey off. First on am for Setup &gt; Di static publishing.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>Di static publishing dey on.</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>Step %step out of %total</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Di step dem</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>Strip am</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Off am</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>On am</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>On di static publishing</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Di tag</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>Di tag dem</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Di target</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>You fit make and change target dem, but nothing go build or publish until e dey on.</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>E dey tell search engine wetin dem go read.</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>We no fit throw di build away: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>Di build be di same as di last publish: nothing dey to publish.</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>We don throw di build away: di folder carry di last publish again.</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>Di default dem fit most sites.</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>Di folder carry build wey never publish; new build go replace am.</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>We no fit write inside di folder of di jobs: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>We no fit prepare di job: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>We no fit start di job.</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>Di job don end. We dey load di report.</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>Di job need user wey don sign in.</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>Di job don start but e no talk im process id. Check %detail.</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>Di key</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>Di biggest file: %path, %size.</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Di lines wey we go write</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>Di list of pages for search engine; e need di public address.</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>We dey fetch di pages as visitor wey never sign in dey see dem. We no dey ever offer administration and editing siteaccess.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>We no fit follow how far e don go. Load di page again to see how di job dey do.</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>Di public half of di key:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>Di root of di branch</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>Di secret store never set up (./console exp:upgrade --apply dey make im table), so we no fit keep any key.</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>Di server dey sign in by imself (im own SSH key or credential helper), or di repository dey for dis server.</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>We no fit write di setting: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Di settings correct. We go write dis lines:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>We no fit read di settings file: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>Di site go go back to di files of dat publish; build wey never publish must publish or comot first.</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>Di site own page for address wey no exist.</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>We no fit save di target: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>Di target never dey sign in with dis key: pick &quot;Deploy key wey we make for dis target&quot; for im settings.</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>We no fit read di target dem: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>No build dey to check yet.</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>Dis installation no get front siteaccess. We no dey ever publish administration and editing siteaccess.</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>Dis page dey follow di job as e dey go; e go still dey go for back when you close di page.</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>Dis target no get deploy key yet.</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>Nobody don build dis target for here yet.</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>Dis target get one.</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>E go throw dis build away: di folder go carry di last publish again. Di live site no go change.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>First tick &quot;I don check di change dem&quot;.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Di time</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>Wetin dey start am</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>Type di name of di tag again</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>No change</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>Webhook</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Wetin</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>Wetin dey change</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>Wetin each file be; we dey always write am.</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>Wetin di job do and im record. Job wey start for here go still dey go for back when you close dis page.</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>Wetin di job print as error</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>Wetin di pages mention, and every image of content wey don publish</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Wen</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>When publish fail</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>When publish work</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>When content publish</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>Where links go for wetin di copy no carry (di search, di login).</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>Where dem dey serve di static copy from.</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>Which site dem dey publish, and wetin be di target name.</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>E dey work under any path. Na di default.</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>We dey write am anytime you set your own domain.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>Yes</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>You fit always build and publish with hand for here and for di console.</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>na only name; di value dey stay for Setup &gt; Secrets</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>under %path</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>e end without report</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>extra file</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>e fail</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>di file</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages, or main with di folder docs.</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>git host</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (with token) or git@github.com:owner/repo.git (with deploy key); never put password or token inside am.</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/, for di sitemap and di canonical links.</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>di image</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>never</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>no</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>no remote dey</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>none: di commit dem dey stay for di folder</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>none: nothing change</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>we never push am</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>nothing change</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>di page</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>e pass</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>proc_open dey disabled, so job no fit start for here. Use ./console exp:static:build for di server.</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>di publish</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>e don publish</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>push dey wait</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>we don push am</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>we refuse am</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>relative links</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>turn-back</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>we don turn am back</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>e dey run</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>only di folder</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: we dey write am for di file CNAME. Point di DNS of di domain to di host as e explain; HTTPS fit take small time before e start.</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>yes, e never publish</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>One GitHub App</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>One workflow of di repository dey publish am. Di build dey write di workflow file; leave di folder empty.</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>After you save target wey get GitHub repository and token or GitHub App, dis step fit create di repository and on GitHub Pages. If no be so, first create di repository for GitHub; empty one dey fine.</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>Di branch or GitHub Actions?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>Check di DNS</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>Create di repository if e no dey</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>Create di repository for GitHub and on GitHub Pages for im settings (Settings &gt; Pages).</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>E go create di repository %repo if e no dey (if you ask), on GitHub Pages from di branch or from GitHub Actions as you save am, and set di domain wey be your own plus HTTPS. E dey use di settings wey you don save: first save di changes.</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>Details for GitHub</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>First put di domain wey be your own.</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>We dey first check every push against dis limit dem.</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>For https:// address for GitHub. Di App wey dem set up for dis installation na im dey sign in; e need di installation id.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages dey serve private repository only if you dey pay for plan.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: subdomain (www.example.com) need CNAME record go &lt;owner&gt;.github.io; apex domain (example.com) need di A records %ips.</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>Di installation id of di GitHub App</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>Di last Pages build</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>Di limit dem and di terms</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>E dey needed for GitHub Pages for free plan.</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>For GitHub</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>Only with GitHub App: di number for di end of di address of di App installation for GitHub. Di App itself dey set for staticcache.ini (GitHubAppId, GitHubAppKey).</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>No be for everybody</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>For everybody</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>First save di target with GitHub repository and token or GitHub App.</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>Set dis records for di company wey give you di domain:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>Set am up for GitHub</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>Di DNS of %domain never point to GitHub Pages yet.</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>Di DNS of %domain dey point to GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>Di GitHub integration no dey here: %problem. To publish to di branch still dey work; on GitHub Pages for di repository settings.</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>Di GitHub steps no dey for dis target: %problem.</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>Di state of GitHub Pages dey show when token or GitHub App na how e dey sign in.</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>Make you use your own domain</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>Which one you go choose: token, deploy key or GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>With GitHub repository and token or GitHub App, di wizard fit create di repository, on GitHub Pages and set di domain for you (step 4).</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>e dey build</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>e don build</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>na from GitHub Actions</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>from di branch %branch</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>nothing yet</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>we no see am</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>e don off</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>no be for everybody</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>for everybody</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>e dey wait for line</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>nobody know</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%count for %pages page(s):</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>One .gz (and .br) beside each text file, for hosts wey dey serve dem.</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>One small page for every old address and alias of one page, so di old links go still dey work.</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>E dey always write wen GitHub Actions deliver di site.</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>One SPDX id like CC-BY-4.0, or di text itself.</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>Basket</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>Calls to di server</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Comments</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>Forms wey dey collect information</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>GitHub Actions workflow</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>Less white space and no comments inside di pages.</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>License of di content</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Login</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>Minify</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>Oda forms</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>Precompress</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>Redirect pages</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>Redirect pages: %count.</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Search</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>Search index: %pages page(s) for %languages.</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>Style sheets and scripts wey dem name with di hash of dia content, so browsers fit keep dem.</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>Di pages wey change, small minutes after di last change (di cronjob part staticpublish).</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>Di license of di content, from di field below.</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>Di whole site, for di times of di schedule (di cronjob part staticpublish).</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>Dis parts of di pages need server; each one get fallback. Check dem before you publish.</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>Wetin no dey work statically</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>Wetin di repository be, for person wey open am for di host.</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>left out</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>di fallback text</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>di form endpoint of di live site</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>di live site</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>di search page of di copy</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>Dem no fit send di form.</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>Thank you: dem don send di form.</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>Dem no accept di form: check wetin you enter and send am again.</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>Comot link wey dey go page wey di copy no get</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>Comot link wey dey go admin side</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>Dia text go remain. Picture, form and link wey dey go oda site, we no dey ever comot dem.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Version</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>Siteaccesses wey we go publish</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>For di root</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>No siteaccess dey for di root: each one dey for im folder, and di root dey link go dem</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>Tick one siteaccess, or plenty wey dey share one host by dia URI prefix. Di one for di root na dia dem dey serve am, di oda ones dey for di folder of dia prefix (/ger/); links between dem go stay for di copy. Dem no dey ever show admin siteaccesses.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>Static publishing of %target no work for %site</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>Static publishing of %target work well for %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>%site send dis mail because di static publishing target %target ask for am.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>Di deploy %deploy don fail for %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>Di deploy %deploy dey wait for one gate for %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>Di deploy %deploy don work well for %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>%site send dis mail because migration.ini [RemoteSettings] Notify[] talk say make e send am.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>Datatype dem (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>We count am %time, we go count again after %minutes minutes</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>Datatype na di tin wey dey keep and edit one kain value for class attribute: text line, picture, relation. Di kernel bring most of dem, extensions dey add more. All of dem dey here, who dey provide dem and how much content dey use dem. If di database dey use one datatype but nothing register am again, e go spoil di content wey get am.</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>Class groups</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>Count again now, no use di count of di last few minutes.</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>Count am again</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Overview</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>Registered</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>Dem dey use am</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>No use</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>Extensions wey dey provide datatypes</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>Class attributes</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>Object attributes</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>Dem no register am</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>E dey for list, file no dey</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>%count datatypes dey in use but dem no register dem</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>%class_attributes class attributes and %object_attributes object attributes get datatype wey no extension or setting register. Dem no fit show, edit or publish their objects. Activate di extension wey provide di datatype, or change di class.</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>Show only dis ones</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>Find datatype</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>Identifier, name, PHP class or extension.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Show</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>All</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>Who provide am</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>Everyone</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>Kernel</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>No datatype match dis filter.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Show all</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>Extension</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%shown out of %count datatypes, %used dey in use</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>Di database get class or object attributes of dis datatypes, but content.ini no list any of dem, or their file no dey.</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>Datatypes from %provider</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>Datatype</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>PHP class and file</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>Classes</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>Objects</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>Flags</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>nothing</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>No datatype match di search. Clear di search.</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>%shown out of %count datatypes dey show</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>Datatypes wey dey show: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>Sort by %column</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>We count am %time</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>All di datatypes</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>Help page</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>Dem dey use dis datatype but nobody register am</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>Dem no fit show, edit or publish di objects of di classes wey dey below as long as no extension register di datatype. Activate di extension wey provide am and add am to content.ini [DataTypeSettings] AvailableDataTypes[], or change di classes.</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini list dis datatype, but no datatype directory get im file. Nothing dey use am; remove am from AvailableDataTypes[] or activate im extension.</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>About dis datatype</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>Identifier</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Name</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Extension %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>nobody at all</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>PHP class</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>File</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>Inside AvailableDataTypes[]</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>yes</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>no</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>Columns of im value</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>Columns of im class attribute settings</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>Tables</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>We find di columns and tables by reading di code of di datatype: na guide, no be promise.</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>Templates</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>Template</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>Wia dem find am</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>dis administration</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>default site wey dem set</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>Without overrides: override template wey match by class or attribute go win over dis ones.</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>Classes wey dey use am (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>No class get attribute of dis datatype.</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Class</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>Attributes</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>Class attributes (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>Attribute</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Settings</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>Required</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>Fit search</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>Translatable</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>E dey collect information</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>Some content wey dey use am</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>Di one wey dem change last go first</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Changed</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>Node %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>Each translation get im own value.</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>Di search dey index im values.</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>E fit collect information from visitors (forms).</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>You fit sort lists by am: sort key %type.</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>Sortable</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>Im values dey point to other objects.</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>Relations</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>You fit fill am from plain string (import, REST).</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>From text</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>You fit fill am from file.</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>From file</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>Im class attribute settings dey enter packages.</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>Packages</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>Content (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from to %to of %count</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Filter di list</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>All classes</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Section</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Languages</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Di owner</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Published</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>Reverse di order</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>No item dey</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>For each page</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Show %count items for each page.</translation>
     </message>
 </context>
 </TS>

@@ -3,7 +3,7 @@ title: Smarty und die Template-Sprache nebeneinander
 audience: developer, designer, app-creator
 category: templates
 order: 30
-summary: Eine Tabelle, die die Syntax von Smarty und die Template-Sprache von Exponential nebeneinanderstellt - Ausgabe, Modifikatoren und Operatoren, Zuweisung, Standardwerte, Bedingungen, Schleifen, Wechsel, include, literal, Begrenzer, Kommentare, capture, Maskierung, Daten, Caching und Vererbung - mit jedem Beispiel der Template-Sprache auf alpha gerendert.
+summary: Eine Tabelle, die die Syntax von Smarty und die Template-Sprache von Exponential nebeneinanderstellt - Ausgabe, Modifikatoren und Operatoren, Zuweisung, Standardwerte, Bedingungen, Schleifen, Wechsel, include, literal, Begrenzer, Kommentare, capture, Maskierung, Daten, Caching und Vererbung - mit jedem Beispiel der Template-Sprache auf einer Entwicklungsinstallation gerendert.
 keywords: Smarty, Vergleich, nebeneinander, Syntax, Modifikatoren, Operatoren, Zuweisung, assign, def, capture, set-block, cycle, sequence, include, literal, ldelim, escape, wash, date_format, datetime, comparison, side by side, modifiers
 type: help
 ---
@@ -12,7 +12,19 @@ type: help
 Wenn Sie Smarty kennen, können Sie die meisten Templates von Exponential sofort lesen: Die geschweiften Klammern, das `$`, die Pipe und die
 Block-Tags folgen derselben Idee. Die Einzelheiten unterscheiden sich, und an den Einzelheiten scheitert ein Template. Diese Seite stellt beide
 nebeneinander. Die Spalte zu Smarty dient nur dem Vergleich und wurde hier nicht ausgeführt; jedes Beispiel der Template-Sprache wurde auf
-alpha gerendert.
+einer Entwicklungsinstallation gerendert.
+
+> **Exponential führt Smarty-Templates selbst aus:** Ein Design kann Smarty-5-Templates (`.stpl`) neben seinen
+> `.tpl`-Templates enthalten, mit jedem Operator, jeder Fetch-Funktion, jeder Template-Funktion, jeder Override-Regel
+> und jedem Cache des Template-Systems. Wenn Sie lieber weiter Smarty schreiben, lesen Sie
+> [Von .tpl zu .stpl umziehen](von-tpl-zu-stpl-umziehen.md) und (Englisch)
+> [Smarty templates (.stpl) next to .tpl](../../../eng-us/features/6.0/smarty-templates.md); die Konverter wandeln auch in beide Richtungen um.
+
+> **Exponential führt Smarty-Templates selbst aus:** Ein Design kann Smarty-5-Templates (`.stpl`) neben seinen
+> `.tpl`-Templates enthalten, mit jedem Operator, jeder Fetch-Funktion, jeder Template-Funktion, jeder Override-Regel
+> und jedem Cache des Template-Systems. Wenn Sie lieber weiter Smarty schreiben, lesen Sie
+> [Von .tpl zu .stpl umziehen](von-tpl-zu-stpl-umziehen.md) und (Englisch)
+> [Smarty templates (.stpl) next to .tpl](../../../eng-us/features/6.0/smarty-templates.md); die Konverter wandeln auch in beide Richtungen um.
 
 ## Inhalt
 
@@ -72,7 +84,7 @@ Doppelpunkten:
 [{'<b>bold</b> & more'|wash}]
 ```
 
-Ausgabe auf alpha:
+Ausgabe:
 
 ```text
 [  The Exponential template language  ]
@@ -97,7 +109,7 @@ Nickname: {first_set( $nickname, 'none given' )}
 Greeting: {cond( $visits|gt( 3 ), 'welcome back', 'hello' )}
 ```
 
-Ausgabe auf alpha:
+Ausgabe:
 
 ```text
 Ada has visited 4 times.
@@ -119,7 +131,7 @@ Greeting: welcome back
 {for 1 to 3 as $i}[{$i}]{/for}
 ```
 
-Ausgabe auf alpha:
+Ausgabe:
 
 ```text
 2 items<li class="odd">a: apple</li><li class="even">b: banana</li><li class="odd">c: cherry</li>[1][2][3]
@@ -146,7 +158,7 @@ und das Template, das sie einbindet, mit einem literal-Block, den beiden Begrenz
 {ldelim}not a tag{rdelim}
 ```
 
-Ausgabe auf alpha:
+Ausgabe:
 
 ```text
 <p>Hello, designer!</p>
@@ -164,7 +176,7 @@ Operatoren arbeiten können:
 Captured {$badge|count_chars} characters: {$badge}
 ```
 
-Ausgabe auf alpha:
+Ausgabe:
 
 ```text
 Captured 30 characters: <span class="badge">NEW</span>
@@ -182,7 +194,7 @@ Short date: {$node.object.published|l10n( 'shortdate' )}
 Fields: {$node.data_map|count}
 ```
 
-Ausgabe auf alpha:
+Ausgabe:
 
 ```text
 Published: 2023-01-25
@@ -192,6 +204,8 @@ Fields: 18
 
 ## Verwandte Seiten
 
+- [Von Exponential-Templates (.tpl) zu Exponential-Smarty-Templates (.stpl) umziehen](von-tpl-zu-stpl-umziehen.md): Smarty-Templates, von Exponential selbst ausgeführt
+- Alle drei Engines, Twig eingeschlossen: [Templates nebeneinander: Exponential-Templates, Twig und Smarty](tpl-twig-smarty-nebeneinander.md)
 - Zurück: [Geschichte der Template-Sprache](geschichte-der-template-sprache.md)
 - Weiter: [Smarty und die Template-Sprache: die Unterschiede im Detail](smarty-unterschiede-im-detail.md)
 - [Ein Template von Smarty umziehen](ein-template-von-smarty-umziehen.md)

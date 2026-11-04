@@ -25,7 +25,7 @@ type: help
 | **Layouts** | Exponential Layouts, der visuelle Seitenbaukasten | [Exponential Layouts](produkte/exponential-layouts.md) |
 | **Legacy Bridge** | Betreibt den Kernel von Exponential 6 innerhalb der Symfony-Plattform | [Legacy Bridge](../../funktionen/6.0/legacy-bridge.md) |
 | **Metapaket** | Ein Composer-Paket, das nur andere verlangt, etwa `exponential-platform-dxp` | [Exponential Platform DXP](produkte/platform-dxp.md) |
-| **Nexus** | Exponential Platform Nexus: Plattform plus Exponential 6, Netgen Layouts und Media Site | [Die Platform-Linie](produkte/die-platform-linie.md) |
+| **Nexus** | Exponential Platform Nexus: Plattform plus Exponential 6, Exponential Layouts und Media Site | [Die Platform-Linie](produkte/die-platform-linie.md) |
 | **Paketserver** | Der Server der Seitenpakete des Einrichtungsassistenten | [Seitenpakete und der Paketserver](pakete/seitenpakete-und-der-paketserver.md) |
 | **Packagist** | Das öffentliche Composer-Repository, in dem se7enxweb seine Pakete veröffentlicht | [Composer und Packagist](pakete/composer-und-packagist.md) |
 | **Partner** | Ein Unternehmen im Partnerprogramm von Exponential | [Partner im Ökosystem](organisationen/partner-im-oekosystem.md) |
@@ -38,7 +38,7 @@ type: help
 ## Verwandte Seiten
 
 - [Ökosystem: hier beginnen](oekosystem-hier-beginnen.md)
-- [Glossar der Community](../../../eng-us/help/community/community-glossary.md)
+- [Glossar der Community](../gemeinschaft/glossar-fuer-die-community.md)
 - [Glossar des Installationsbuchs](../../glossar.md)
 - [Glossar für Partner](../partner/glossar-fuer-partner.md)
 - [Freie Dokumentation](../freie-dokumentation.md): Diese Seite dürfen Sie unter der GNU FDL 1.3 frei kopieren, übersetzen und verbessern.

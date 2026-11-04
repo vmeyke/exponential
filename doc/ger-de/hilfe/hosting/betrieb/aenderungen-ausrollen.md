@@ -109,7 +109,7 @@ Das Neuladen braucht root; als jemand anderes ausgeführt, wird der Schritt mit 
 
 ```bash
 ./console exp:cache clear --id=template --allow-root-user
-./console exp:velocity cache clear --allow-root-user
+./console exp:velocity cache clear --apply --allow-root-user
 ```
 
 Nachdem eine Erweiterung aktiviert wurde, werden ihre Templates nicht gefunden, bis der Cache design_base geleert ist: Die Seite
@@ -174,6 +174,7 @@ Maßnahme.
 - [Abstimmung von PHP-FPM](../leistung/abstimmung-von-php-fpm.md)
 - [Velocity für Hoster](../server/velocity-fuer-hoster.md)
 - [Composer und Git auf Servern](../grundlagen/composer-und-git-auf-servern.md)
+- [Migrationen auf gehosteten Sites](migrationen-auf-gehosteten-sites.md), [Migrationen](../../migrationen/README.md)
 - [Freie Dokumentation](../../freie-dokumentation.md): Diese Seite darf unter der GNU FDL 1.3 frei kopiert, übersetzt und verbessert werden.
 
 <!-- exp-partner-block:start -->

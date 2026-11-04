@@ -15,6 +15,21 @@ Besucher, ohne die Anwendung zu starten, und sind damit der stärkste Schutz geg
 unterschiedlich und haben unterschiedliche Kosten. Das Gesamtbild finden Sie unter
 [Caching für Verfügbarkeit](caching-fuer-verfuegbarkeit.md).
 
+> **Warnung**
+> **`.htaccess` bremst jede Anfrage.** Sind `.htaccess`-Dateien erlaubt (`AllowOverride` alles außer `None`), geschweige
+> denn genutzt, sucht Apache sie bei jeder Anfrage in jedem Verzeichnis des Pfads und liest und wertet sie aus, und
+> die Ladezeiten der Seiten steigen drastisch ([gemessen](../../../anleitungen/setup-dateien-von-der-konsole.md#gemessen-htaccess-gegen-regeln-im-virtuellen-host)). Die einzige wirkliche Abhilfe ist, die
+> Funktion für den virtuellen Host abzuschalten: `AllowOverride None` im virtuellen HTTPS-Host, und die Regeln in
+> der Konfiguration des virtuellen Hosts selbst als mod_rewrite-Regeln. Das ist in Geschwindigkeitstests im
+> Produktivbetrieb weit schneller und die Zeit für die Optimierung einer Produktivkonfiguration unbedingt wert.
+> Stellen Sie sofort um: Übernehmen Sie die Regeln des [Beispiels für einen virtuellen HTTPS-Host](../../../beispiele/webserver/apache-virtueller-host.md) in
+> Ihren virtuellen Host (mit dem statischen Cache auch [`staticcache_offload.conf`](../../../../eng-us/examples/staticcache_offload.conf)), setzen Sie
+> `AllowOverride None`, führen Sie `apachectl configtest` aus, laden Sie Apache neu und testen Sie die Website.
+> Dieselben Regeln für andere Server: [nginx](../../../beispiele/webserver/nginx.md), [LiteSpeed](../../../beispiele/webserver/litespeed.md), [Caddy](../../../beispiele/webserver/caddy.md), [IIS](../../../beispiele/webserver/iis.md),
+> [Velocity](../../../beispiele/webserver/velocity.md) (eingebaut); wohin Regeln für virtuelle Hosts in einem Control Panel gehören:
+> [Plesk](../../hosting/control-panels/plesk.md), [cPanel](../../hosting/control-panels/cpanel.md), [DirectAdmin](../../hosting/control-panels/directadmin.md), [ISPConfig](../../hosting/control-panels/ispconfig.md).
+> **Unter LiteSpeed oder OpenLiteSpeed** kann zusätzlich der Seiten-Cache des Servers anonyme Besucher und Crawler ohne PHP bedienen: [Seiten-Caching mit LiteSpeed und OpenLiteSpeed](../../../anleitungen/seiten-cache-mit-litespeed.md).
+
 ## Inhalt
 
 1. [Zwei Caches im Vergleich](#zwei-caches-im-vergleich)
@@ -122,7 +137,7 @@ sie entsprechend kennzeichnen.
 ## Nach einer Änderung
 
 - Nach einer Änderung an Template, Stylesheet oder Einstellungen:
-  `php bin/php/console exp:velocity cache clear --allow-root-user`. `exp:velocity deploy` leert ihn als letzten Schritt
+  `php bin/php/console exp:velocity cache clear --apply --allow-root-user`. `exp:velocity deploy` leert ihn als letzten Schritt
   ([Statischer Cache und Antwortcache von Velocity](../../ersteller/website-ersteller/statischer-cache-und-velocity.md#nach-einer-änderung)).
 - Dateien des statischen Caches werden beim Veröffentlichen aktualisiert; alle entfernen Sie mit
   `php bin/php/cache.php static clear --allow-root-user`.

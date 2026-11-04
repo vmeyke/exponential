@@ -29,7 +29,7 @@ to the getting-started guide.
 php -v
 ```
 
-Expected: a line beginning `PHP 8.`. Exponential 6.0 runs on PHP 8.0 to 8.5
+Expected: a line beginning `PHP 8.`. Exponential 6.0 runs on PHP 8.0 to 8.5 (PHP 7.4 usable without support)
 ([Requirements](../../INSTALL.md#2-requirements)). Set `memory_limit` (at least `64M`) and `date.timezone` in
 `php.ini` before you go on.
 
@@ -54,7 +54,7 @@ clones instead: [Installing from Git clones for study](installing-from-git-clone
 ## Install
 
 ```bash
-php bin/php/console exp:install --random-password --url=http://localhost:8087
+php bin/php/console exp:install --apply --random-password --url=http://localhost:8087
 ```
 
 What this does, as the [getting-started guide](../../guides/getting-started.md#31-the-one-command) describes it:

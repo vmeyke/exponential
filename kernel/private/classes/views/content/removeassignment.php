@@ -7,7 +7,7 @@
  * The original header of kernel/content/removeassignment.php:
  *
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -63,16 +63,26 @@ class Removeassignment extends \Exponential\Runnable\ModuleView
 
             $db = \eZDB::instance();
             $db->begin();
-            foreach ( $assignments as $assignment )
+            try
             {
-                $assignmentID = $assignment->attribute( 'id' );
-                if ( $assignment->attribute( 'is_main' ) )
-                    $mainNodeChanged = true;
-                \eZNodeAssignment::purgeByID( $assignmentID );
-            }
-            if ( $mainNodeChanged )
-                \eZNodeAssignment::setNewMainAssignment( $objectID, $editVersion );
+                foreach ( $assignments as $assignment )
+                {
+                    $assignmentID = $assignment->attribute( 'id' );
+                    if ( $assignment->attribute( 'is_main' ) )
+                        $mainNodeChanged = true;
+                    \eZNodeAssignment::purgeByID( $assignmentID );
+                }
+                if ( $mainNodeChanged )
+                    \eZNodeAssignment::setNewMainAssignment( $objectID, $editVersion );
 
+            }
+            catch ( \Throwable $e )
+            {
+                // nothing of a transaction that failed half way is committed by a later commit()
+                if ( $db->transactionCounter() > 0 )
+                    $db->rollback();
+                throw $e;
+            }
             $db->commit();
 
             return $this->viewResult( isset( $Result ) ? $Result : null,  $module->redirectToView( 'edit', array( $objectID, $editVersion, $editLanguage, $fromLanguage ) ) );

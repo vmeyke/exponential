@@ -7,7 +7,7 @@
  * The original header of kernel/setup/info.php:
  *
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -730,7 +730,7 @@ class Info extends \Exponential\Runnable\ModuleView
                         : (string)getenv( 'EXP_VELOCITY_ENGINE' );
         $serverSoftware = strtolower( isset( $_SERVER['SERVER_SOFTWARE'] ) ? (string)$_SERVER['SERVER_SOFTWARE'] : '' );
         $velocitySwitch = array(
-            'on'      => 'set [ServerSettings] EnginePhar=enabled (exp:velocity config set ServerSettings EnginePhar enabled), then exp:velocity restart',
+            'on'      => 'set [ServerSettings] EnginePhar=enabled (exp:velocity config set --apply ServerSettings EnginePhar enabled), then exp:velocity restart',
             'off'     => 'set [ServerSettings] EnginePhar=disabled, then exp:velocity restart',
             'restart' => 'exp:velocity restart',
         );

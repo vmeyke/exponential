@@ -12,7 +12,7 @@
  * expHelpMarkdownRenderer, the context help endpoint delivers them as they are, and the validator can see the
  * numbered list of a task and the bold labels of a step.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package kernel
  */
@@ -277,7 +277,7 @@ class expHelpContentSchema
                 'name' => 'Help glossary entry', 'container' => false, 'name_pattern' => '<term>',
                 'description' => 'A term of the glossary and the synonyms to avoid',
                 'attributes' => array(
-                    'term' => self::attr( 'Term', 'ezstring', true, true, true, array( 'max_length' => 100 ) ),
+                    'term' => self::attr( 'Term', 'ezstring', true, true, true, array( 'max_length' => 255 ) ),
                     'definition' => self::attr( 'Definition', 'eztext', false, true, true, array( 'rows' => 5 ) ),
                     'avoid' => self::attr( 'Synonyms to avoid', 'eztext', false, true, true, array( 'rows' => 3 ) ),
                     'audience' => self::attr( 'Audience', 'ezselection', false, false, false, array( 'options' => self::audiences(), 'multiple' => true ) ),

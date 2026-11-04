@@ -41,7 +41,7 @@ Lernen Sie die 30-Sekunden-Fassung auswendig; lesen Sie die anderen von einer Ka
 > nordamerikanisches Unternehmen, das seit den ersten Versionen mit dieser Software arbeitet, hat 2023 die Leitung des
 > Projekts übernommen, und im August 2025 wurde das Produkt in Exponential umbenannt.
 >
-> Seit dem 1. Januar 2024 gab es fünfzehn Releases 6.0.x, und 6.0.15 bringt Velocity, einen PHP-Webserver, ein
+> Seit dem 1. Januar 2024 gab es die Releases 6.0.0 bis 6.0.14, und 6.0.15 bringt Velocity, einen PHP-Webserver, ein
 > Prüfprotokoll, den Layouts-Editor, einen KI-Schreibassistenten, der nur Entwürfe schreibt, und die Hilfe, die Sie in
 > der Administration sehen. Die Exponential Foundation, eine im März 2026 gegründete gemeinnützige Organisation,
 > betreibt das Projekt. Alles ist freie Software: der Code unter der GPL, die Dokumentation unter der GNU FDL.“
@@ -52,7 +52,7 @@ Erzählen Sie die Zwei-Minuten-Fassung und fügen Sie je nach Zuhörer einen die
 
 | Zuhörer | Fügen Sie hinzu | Quelle |
 |---|---|---|
-| Ein Entwickler | „Es läuft auf PHP 8.0 bis 8.5, wird mit Composer installiert, und jedes Paket ist ein Git-Repository, das Sie mit vollständiger Historie klonen können. Jeder Pull Request wird übernommen.“ | [PHP-Versionen](../wer-ist-die-exponential-foundation.md#php-versionen), [Mit Git entwickeln](../mit-git-entwickeln.md), [Wie das Projekt wächst](../wer-ist-die-exponential-foundation.md#wie-das-projekt-wächst) |
+| Ein Entwickler | „Es läuft auf PHP 8.0 bis 8.5 (PHP 7.4 ohne Support nutzbar), wird mit Composer installiert, und jedes Paket ist ein Git-Repository, das Sie mit vollständiger Historie klonen können. Jeder Pull Request wird übernommen.“ | [PHP-Versionen](../wer-ist-die-exponential-foundation.md#php-versionen), [Mit Git entwickeln](../mit-git-entwickeln.md), [Wie das Projekt wächst](../wer-ist-die-exponential-foundation.md#wie-das-projekt-wächst) |
 | Ein Administrator | „SQLite 3, PostgreSQL, MongoDB, MariaDB, Oracle oder MySQL; Linux, BSD, macOS oder Windows; und eine Installation mit einem Befehl.“ | [Datenbankunterstützung](../datenbankunterstuetzung.md), [Betriebssystemunterstützung](../betriebssystemunterstuetzung.md), [Installation mit einem Befehl](../../funktionen/6.0/installation-mit-einem-befehl.md) |
 | Ein Redakteur | „Entwürfe und Versionen, eine Vorschau in Telefonbreite, ein Seitenbaukasten und Hilfe auf jedem Bildschirm.“ | [Ein Rundgang durch die Administration](../rundgang-durch-die-administration.md), [Der Layouts-Editor](../layout-editor.md) |
 | Ein Entscheider | „Die Software hat ihren ursprünglichen Hersteller schon einmal überlebt, weil ihr Code frei ist. Ein Unternehmen und eine gemeinnützige Organisation stehen dahinter.“ | [Mit Einwänden umgehen, Langlebigkeit](../geschaeft/einwandbehandlung.md#langlebigkeit-gibt-es-das-in-zehn-jahren-noch) |
@@ -63,10 +63,10 @@ Erzählen Sie die Zwei-Minuten-Fassung und fügen Sie je nach Zuhörer einen die
 | Aussage | Quelle |
 |---|---|
 | „ein professionelles PHP-Anwendungsframework mit fortgeschrittener CMS-Funktionalität (Content-Management-System) ... seine bemerkenswerteste Eigenschaft ist sein vollständig anpassbares und erweiterbares Inhaltsmodell“ | [README](https://github.com/se7enxweb/exponential/blob/main/README.md), [Exponential 6](../wer-ist-die-exponential-foundation.md#exponential-6-der-kernel) |
-| Copyright „1998 - 2026 7x & Exponential Foundation“ und „1999 - 2014 eZ Systems AS“ | [COPYRIGHT.md](https://github.com/se7enxweb/exponential/blob/main/COPYRIGHT.md) |
+| „Exponential Copyright © 1998-2026 Exponential Foundation and 7x“ und „1999 - 2014 eZ Systems AS“ | [COPYRIGHT.md](https://github.com/se7enxweb/exponential/blob/main/COPYRIGHT.md) |
 | eZ Publish wurde von seinem Hersteller nach fast achtzehn Jahren eingestellt | [Exponential 6](../wer-ist-die-exponential-foundation.md#exponential-6-der-kernel) |
 | „7x hat 2023 die Leitung des Projekts übernommen ...“ | [Wer ist 7x?, Kurz gesagt](../wer-ist-7x.md#kurz-gesagt) |
-| 6.0.0 am 1. Januar 2024 bis 6.0.14 am 7. Juni 2026, fünfzehn Releases; 6.0.15 in Entwicklung | [Wer ist 7x?, Die Releases 6.0.x](../wer-ist-7x.md#die-releases-60x) |
+| 6.0.0 am 1. Januar 2024 bis 6.0.14 am 7. Juni 2026, fünfzehn Releases; 6.0.15 ist die aktuelle Linie | [Wer ist 7x?, Die Releases 6.0.x](../wer-ist-7x.md#die-releases-60x) |
 | Das Produkt wurde am 11. und 12. August 2025 zu Exponential | [Zeitleiste](../wer-ist-die-exponential-foundation.md#zeitleiste) |
 | Die Foundation wurde am 19. März 2026 in Seattle gegründet | [Was die Foundation ist](../wer-ist-die-exponential-foundation.md#was-die-foundation-ist) |
 | Was 6.0.15 hinzufügt | [Änderungsprotokoll 6.0.15](../../../changelogs/6.0/6.0.15.md) |

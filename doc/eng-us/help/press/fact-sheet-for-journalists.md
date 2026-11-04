@@ -34,12 +34,12 @@ LEADS IT       7x, a North American web design, development, support and hosting
                Brookins Consulting); took over leadership of the project in 2023.
 OPERATES IT    The Exponential Foundation, a 501(c)(3) nonprofit founded 19 March 2026 in Seattle,
                Washington, USA.
-COPYRIGHT      "7x & Exponential Foundation" (1998 - 2026); "eZ Systems AS" (1999 - 2014) stays in the code.
+COPYRIGHT      "Exponential Copyright © 1998-2026 Exponential Foundation and 7x"; "eZ Systems AS" (1999 - 2014) stays in the code.
 HISTORY        Code base developed since 1999, first as eZ Publish, a product its creator discontinued after
                almost 18 years. 7x: idea 2014 (se7enx.com registered), project start 2022, launch December 2023.
                Renamed Exponential on 11/12 August 2025.
 RELEASES *     6.0.0 on 1 January 2024 ... 6.0.14 on 7 June 2026 (15 releases). Current line: 6.0.15,
-               in development (lib/version.php), no release tag on 19 October 2026.
+               which follows 6.0.14 (lib/version.php); no release tag on 19 October 2026.
 LICENSE        Software: GNU GPL v2 or later, free of charge. Documentation: GNU FDL 1.3 or later.
                Exponential Velocity: MIT.
 RUNS ON *      PHP 8.0 - 8.5. SQLite 3 (default), PostgreSQL, MongoDB, MariaDB, Oracle, MySQL.
@@ -48,7 +48,7 @@ NEW IN 6.0.15* Exponential Velocity (PHP web server), Exponential Layouts (page 
                Intelligence (writes drafts only), admin4 design, audit trail, help system.
 SECURITY       Private reports to security@se7enx.com; "a first answer within one business day";
                fixes ship in the next 6.0.x release; published versions are never changed.
-LANGUAGES *    268 locale files (40 right to left); administration translations (the current totals are at the top of [Languages in Exponential](../../languages.md)).
+LANGUAGES *    368 locale files (43 right to left); administration translations (the current totals are at the top of [Languages in Exponential](../../languages.md)).
 NOT            Not associated with eZ Systems or Ibexa.
 CODE           github.com/se7enxweb/exponential        Packages: Composer / Packagist, vendor se7enxweb
 WEB            exponential.earth   foundation.exponential.earth   se7enx.com   doc.exponential.earth
@@ -79,7 +79,7 @@ PRESS          info@se7enx.com   press kit: exponential.earth/about/press-kit
 |---|---|
 | Releases | [The 6.0.x releases at a glance](the-6-0-x-releases-at-a-glance.md), or the tags on GitHub |
 | Runs on | The README section "Requirements" |
-| New in 6.0.15 | The changelog; once 6.0.15 is tagged, it is no longer "in development" |
+| New in 6.0.15 | The changelog, and whether the tag `v6.0.15` exists (`git tag -l 'v6.0.*' --sort=version:refname`) |
 | Languages | [Languages in Exponential](../../languages.md) |
 
 ## Using the fact sheet
@@ -104,3 +104,11 @@ develop the products with us, and that is how Exponential grows. A partner websi
 mid-2027: please become a partner today to speed up our growth rate and land new features faster. Start with
 [Partners: start here](../partners/partners-start-here.md) and [How to apply](../partners/how-to-apply.md).
 <!-- exp-partner-block:end -->
+
+## Copyright and copyleft
+
+Since 29 October 2026 the copyright of Exponential is held by the Exponential Foundation and 7x together, the
+Foundation named first: "Exponential Copyright © 1998-2026 Exponential Foundation and 7x", in files
+"Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved." Who holds it and why, what the
+GPL lets you do, the third-party notices that stay and how to write the notice in new files and extensions:
+[Copyright and copyleft](../copyright-and-copyleft.md).

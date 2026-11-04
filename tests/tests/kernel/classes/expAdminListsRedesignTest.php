@@ -15,7 +15,7 @@
  *  AL-10 - An RSS import needs a name and an http or https source address to be stored
  *  AL-11 - class/copy copies only for a POST with a copy button; a link shows the confirmation
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package tests
  */
@@ -24,7 +24,7 @@ use Exponential\View\Kernel\Rss\ListView as RssList;
 use Exponential\View\Kernel\Trigger\ListView as TriggerList;
 use Exponential\View\Kernel\Workflow\Grouplist as WorkflowGroups;
 use Exponential\View\Kernel\Workflow\Processlist;
-use Exponential\View\Kernel\Class\Grouplist as ClassGroups;
+use Exponential\View\Kernel\ContentClass\Grouplist as ClassGroups;
 
 /** A row object: only its attributes */
 class X2AdminListStandIn
@@ -90,7 +90,7 @@ class expAdminListsRedesignTest extends PHPUnit\Framework\TestCase
                 public function hasPostVariable( $name ) { return array_key_exists( $name, $this->vars ); }
             };
         };
-        $copy = '\Exponential\View\Kernel\Class\Copy';
+        $copy = '\Exponential\View\Kernel\ContentClass\Copy';
         $this->assertTrue( $copy::isCopyRequest( $post( array( 'CopyClassButton' => '5' ) ), 'POST' ) );
         $this->assertTrue( $copy::isCopyRequest( $post( array( 'ConfirmCopyButton' => '1' ) ), 'post' ) );
         $this->assertFalse( $copy::isCopyRequest( $post( array( 'CopyClassButton' => '5' ) ), 'GET' ), 'a link never copies' );

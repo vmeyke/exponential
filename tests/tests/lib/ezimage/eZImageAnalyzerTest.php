@@ -10,13 +10,15 @@
  *
  * No database. Image files are written to a private directory under var/tmp that tearDown() removes.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @package tests
  * @group lib
  * @group ezimage
  */
 
+#[\PHPUnit\Framework\Attributes\Group('lib')]
+#[\PHPUnit\Framework\Attributes\Group('ezimage')]
 class eZImageAnalyzerTest extends PHPUnit\Framework\TestCase
 {
     private $dir;

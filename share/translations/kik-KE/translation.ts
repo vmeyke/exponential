@@ -984,6 +984,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>Ũrũa ũyũ tu nĩ ũcarĩtwo: %from nginya %to kuuma %count.</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>O mũthemba wa data wa mũthingi na wa ikĩongerereo, na ũrĩa irathi na maũndũ maũhũthagĩra.</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Mĩthemba ya data</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2316,6 +2324,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>Ũrũa cia mũthaiyo nĩ ciikagwo ikĩmenyithia o nacio: hingũra ũrũa (Mwambĩrĩria, rekodi ya ũkaguzi, mũhari wa ahũthiri ...) na ũthuure Ikia kĩmenyithia ũrũa-inĩ ũyũ igũrũ rĩaguo. Ikĩmenyithia ta icio irĩ mũhianĩre wa gĩtegi.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>Ndũngĩhota rĩngĩ gũhingũra ũrũa ũyũ gũkũ. Ehereria kĩmenyithia, kana ũhooe mũrũgamĩrĩri rũtha rwa gũtoonya.</translation>
     </message>
 </context>
 <context>
@@ -4322,7 +4334,7 @@
     </message>
     <message>
         <source>Stay on this page after making a new draft (untick to open the new draft in the editor at once).</source>
-        <translation>Tikia ũrũa-inĩ ũyũ thutha wa kũumba ndrafti njerũ (ehereria alama nĩguo ũhingũre ndrafti njerũ kĩnyamũ-inĩ kĩa gũcenjia o hĩndĩ ĩyo).</translation>
+        <translation>Tikia ũrũa-inĩ ũyũ thutha wa kũumba ndrafti njerũ (ehereria alama nĩguo ũhingũre ndrafti njerũ porogiramu-inĩ ya gũcenjia o hĩndĩ ĩyo).</translation>
     </message>
     <message>
         <source>%count selected.</source>
@@ -5165,6 +5177,210 @@
         <source>Go to the first page</source>
         <translation>Thiĩ ũrũa-inĩ wa mbere</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>Ĩngĩ</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>Mĩthenya 7 ĩrĩa ĩhĩtũku</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>Ihinda rĩrĩa wĩthurĩire</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>Ciugo ciothe</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>Kiugo o gĩothe</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>Ciugo o ũguo</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>Kũiganana</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>Rĩĩtwa A–Z</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>Rĩĩtwa Z–A</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>Nĩ gĩcenjetio, kĩa rĩu mbere</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>Nĩ gĩcenjetio, kĩa tene mbere</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>Nĩ kĩrutĩtwo, kĩa rĩu mbere</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>Nĩ kĩrutĩtwo, kĩa tene mbere</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Nĩ gĩcenjetio</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>Thuurania</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>Onania thuurania</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>Hitha thuurania</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Cookia</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>Hũthĩra</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>Ciugo</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>Mũthemba wa ũhoro</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>Onania makĩria (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>Thuura mũthemba ũmwe wa ũhoro nĩguo ũcarie thĩinĩ wa kĩmwe kĩa mĩtaratara yaguo.</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Gĩcunjĩ</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Kuuma</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Nginya</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>Mũthenya wa kwambĩrĩria ti mũthenya wagĩrĩire.</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>Mũthenya wa kũrĩkia ti mũthenya wagĩrĩire.</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Mwene</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>ID ya mũhũthiri, rĩĩtwa rĩa gũtoonya kana adiresi ya e-mail.</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>Gũtiarĩ mũhũthiri wonekire wa “%input”.</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Rũthiomi</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>Rũthiomi o rũothe</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Handũ</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>Handũ %count</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>Maciaro o rũpapura</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>Maciaro ma “%text” (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>Maciaro (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>Bange kũringana na</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>Bange</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>Thuurania iria irĩ wĩra-inĩ</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>Ehereria thuurania ĩno</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>Kana thuura thuurania na ũcihũthĩre nĩguo wone ũhoro ũrĩa ũiganainie nacio.</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>Thuurania nĩ inyihagia mũcario warĩkia kwandĩka ciugo.</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>Gũtiarĩ maciaro monekire ma “%text”.</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>Gũtiarĩ maciaro monekire.</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>Eheria thuurania ĩmwe igũrũ.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Ũtaũri</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Ciĩko</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>Cenjia %name</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Cenjia</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -5202,7 +5418,7 @@
     </message>
     <message>
         <source>Adds a language content can be translated into. It does not translate anything and changes no siteaccess: afterwards, translate content into it in the editor and add it to the SiteLanguageList of the siteaccesses that should show it.</source>
-        <translation>Nĩ ĩongerera rũthiomi rũrĩa ũhoro ũngĩtaũrwo. Ndĩtaũraga kĩndũ na ndĩgarũragia njĩra ya saiti o yothe: thutha wa ũguo, taũra ũhoro rũthiomi-inĩ rũu kĩnyamũ-inĩ kĩa gũcenjia na ũrwongerere SiteLanguageList ya njĩra cia saiti iria ikwagĩrĩrũo kũrwonania.</translation>
+        <translation>Nĩ ĩongerera rũthiomi rũrĩa ũhoro ũngĩtaũrwo. Ndĩtaũraga kĩndũ na ndĩgarũragia njĩra ya saiti o yothe: thutha wa ũguo, taũra ũhoro rũthiomi-inĩ rũu porogiramu-inĩ ya gũcenjia na ũrwongerere SiteLanguageList ya njĩra cia saiti iria ikwagĩrĩrũo kũrwonania.</translation>
     </message>
     <message>
         <source>%used of at most %max content languages are in use. Only the languages added here count, not the locales in the list below; removing a language no content uses frees a place.</source>
@@ -5258,7 +5474,7 @@
     </message>
     <message>
         <source>Translate content: open an object, choose Edit and pick the new language; the editor offers to start from an existing translation.</source>
-        <translation>Taũra ũhoro: hingũra kĩndũ, thuura Cenjia na ũthuure rũthiomi rũerũ; kĩnyamũ kĩa gũcenjia nĩ gĩkũguũrĩria gwambĩrĩria kuuma ũtaũri-inĩ ũrĩa ũrĩ o ho.</translation>
+        <translation>Taũra ũhoro: hingũra kĩndũ, thuura Cenjia na ũthuure rũthiomi rũerũ; porogiramu ya gũcenjia nĩ ĩgũkũguũrĩria gwambĩrĩria kuuma ũtaũri-inĩ ũrĩa ũrĩ o ho.</translation>
     </message>
     <message>
         <source>Show it: add SiteLanguageList[]=&lt;code&gt; to the site.ini of each siteaccess that should show it; first in the list means shown first.</source>
@@ -5349,7 +5565,7 @@
     </message>
     <message>
         <source>The languages content can be written in. Every object keeps one translation per language it has, and each siteaccess shows the languages in its SiteLanguageList, the first one first. The language of the administration interface itself is a different setting (Locale) and is not managed here.</source>
-        <translation>Ũthiomi ũrĩa ũhoro ũngĩandĩkwo thĩinĩ wacio. Kĩndũ o kĩmwe kĩigaga ũtaũri ũmwe harĩ rũthiomi o rũrĩa kĩrĩ naruo, na njĩra o yothe ya saiti ĩonanagia ũthiomi ũrĩa ũrĩ thĩinĩ wa SiteLanguageList yayo, ũrĩa wa mbere ũkĩmbere. Rũthiomi rwa kĩnyamũ kĩa ũrũgamĩrĩri kĩyo mwene nĩ mũtaratara ũngĩ (Locale) na ndũrũgamĩrĩrũo haha.</translation>
+        <translation>Ũthiomi ũrĩa ũhoro ũngĩandĩkwo thĩinĩ wacio. Kĩndũ o kĩmwe kĩigaga ũtaũri ũmwe harĩ rũthiomi o rũrĩa kĩrĩ naruo, na njĩra o yothe ya saiti ĩonanagia ũthiomi ũrĩa ũrĩ thĩinĩ wa SiteLanguageList yayo, ũrĩa wa mbere ũkĩmbere. Rũthiomi rwa kĩonereria kĩa ũrũgamĩrĩri kĩyo mwene nĩ mũtaratara ũngĩ (Locale) na ndũrũgamĩrĩrũo haha.</translation>
     </message>
     <message>
         <source>Overview</source>
@@ -5493,7 +5709,7 @@
     </message>
     <message>
         <source>No object or class has a translation in %locale yet. Translate content into it from the editor.</source>
-        <translation>Gũtirĩ kĩndũ kana kĩrathi kĩrĩ na ũtaũri thĩinĩ wa %locale o rĩ. Taũra ũhoro rũthiomi-inĩ rũu kuuma kĩnyamũ-inĩ kĩa gũcenjia.</translation>
+        <translation>Gũtirĩ kĩndũ kana kĩrathi kĩrĩ na ũtaũri thĩinĩ wa %locale o rĩ. Taũra ũhoro rũthiomi-inĩ rũu kuuma porogiramu-inĩ ya gũcenjia.</translation>
     </message>
     <message>
         <source>Can be removed, but %sites still list it: take it out of their SiteLanguageList as well.</source>
@@ -5549,7 +5765,7 @@
     </message>
     <message>
         <source>Content languages and interface languages</source>
-        <translation>Ũthiomi wa ũhoro na ũthiomi wa kĩnyamũ</translation>
+        <translation>Ũthiomi wa ũhoro na ũthiomi wa kĩonereria</translation>
     </message>
     <message>
         <source>What this page manages, and what it does not</source>
@@ -5561,11 +5777,11 @@
     </message>
     <message>
         <source>The texts of the administration interface and the templates (buttons, menus) come from translation files (.ts) and follow the Locale setting of a siteaccess instead. A site can show German content with an English interface and the other way round.</source>
-        <translation>Ciugo cia kĩnyamũ kĩa ũrũgamĩrĩri na cia mĩhiano (itonĩ, menu) nĩ ciumaga mafaili-inĩ ma ũtaũri (.ts) na igakũrũmĩra mũtaratara wa Locale wa njĩra ya saiti. Saiti no yonanie ũhoro wa Kĩjerumani na kĩnyamũ kĩa Gĩthungũ, na kũgĩa ũguo-rĩ.</translation>
+        <translation>Ciugo cia kĩonereria kĩa ũrũgamĩrĩri na cia mĩhiano (itonĩ, menu) nĩ ciumaga mafaili-inĩ ma ũtaũri (.ts) na igakũrũmĩra mũtaratara wa Locale wa njĩra ya saiti. Saiti no yonanie ũhoro wa Kĩjerumani na kĩonereria kĩa Gĩthungũ, na kũgĩa ũguo-rĩ.</translation>
     </message>
     <message>
         <source>Adding a language here does not translate anything and does not change any siteaccess: translate content in the editor, and list the language in SiteLanguageList where it should be shown. The user guide is doc/eng-us/guides/content-languages.md.</source>
-        <translation>Kwongerera rũthiomi haha ndũtaũraga kĩndũ na ndũgarũragia njĩra ya saiti o yothe: taũra ũhoro kĩnyamũ-inĩ kĩa gũcenjia, na ũrũorodhie SiteLanguageList kũrĩa rũkwagĩrĩrũo kwonanio. Ũtaarani wa mũhũthiri nĩ doc/eng-us/guides/content-languages.md.</translation>
+        <translation>Kwongerera rũthiomi haha ndũtaũraga kĩndũ na ndũgarũragia njĩra ya saiti o yothe: taũra ũhoro porogiramu-inĩ ya gũcenjia, na ũrũorodhie SiteLanguageList kũrĩa rũkwagĩrĩrũo kwonanio. Ũtaarani wa mũhũthiri nĩ doc/eng-us/guides/content-languages.md.</translation>
     </message>
     <message>
         <source>Remove these languages?</source>
@@ -5784,7 +6000,7 @@
     </message>
     <message>
         <source>Language of this interface</source>
-        <translation>Rũthiomi rwa kĩnyamũ gĩkĩ</translation>
+        <translation>Rũthiomi rwa kĩonereria gĩkĩ</translation>
     </message>
     <message>
         <source>In no SiteLanguageList</source>
@@ -5856,7 +6072,7 @@
     </message>
     <message>
         <source>It is the language this administration interface runs in, so it is not removed from here.</source>
-        <translation>Nĩ rũthiomi rũrĩa kĩnyamũ gĩkĩ kĩa ũrũgamĩrĩri gĩtengeragia, nĩ ũndũ ũcio ndũehererio haha.</translation>
+        <translation>Nĩ rũthiomi rũrĩa kĩonereria gĩkĩ kĩa ũrũgamĩrĩri gĩtengeragia, nĩ ũndũ ũcio ndũehererio haha.</translation>
     </message>
     <message>
         <source>%name cannot be removed while %objects objects and %classes classes have a translation in it; the kernel refuses it. To take it out of use without losing anything:</source>
@@ -7514,6 +7730,10 @@
         <source>Setup &gt; Cronjobs</source>
         <translation>Mwambĩrĩria &gt; Cron</translation>
     </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>Gũtirĩ gĩcunjĩ kĩa cronjob kĩrĩ gĩatengeria: mũhari wa mawĩra, indo iria ciagĩrĩrwo, mĩmenyithia na indekisi ya gũcaria nĩ irĩetereire. Tengeria php bin/php/installcrontab.php --add --apply, kana wongerere mĩhari ya --show thĩinĩ wa crontab.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/dashboard/drafts</name>
@@ -8058,8 +8278,8 @@
         <translation>Ũmenyithia wa kĩrĩ kĩa gwĩka wa andĩki a mbere na wa software ya andũ angĩ ĩrĩa ĩrĩ hamwe na Exponential nĩ ũigĩtwo thĩinĩ wa mafaili ma kĩambĩrĩria na thĩinĩ wa faili ya LICENSE, ta ũrĩa rũthaano rũrenda.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>Ũũ nĩ mũhari wa aiteithĩria a Exponential arĩa mahetire 7x rũthaano rwa gũhũthĩra wĩra wao kũringana na mawatho na mũhaka wa eZ Systems Contributor Licensing Agreement. Ta ũrĩa mũtũũranĩre ũyũ ũrekereria, 7x ĩgaĩraga rĩngĩ kĩheo kĩothe na rũthaano rũmwe na rwa faili ĩrĩa kĩheo kĩu kĩrĩ thĩinĩ. Mũhari ũcio ũtaarĩtie mũteithia o mũmwe, ũhoro wa gũtaarania ũrĩa ũtarĩ wa bata, na mafaili marĩa maateithĩtie kana marĩa maakĩrĩire wĩra wao.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>Arĩa mateithĩtie arĩa marakũngũĩrwo nĩ ũndũ wa wĩra wao harĩ Exponential na harĩ software ĩrĩa yoimire, hamwe na faili iria mateithĩirie. Ũyũ nĩ ũkũngũĩri, ti ũhoro wa copyright: ũteithio harĩ Exponential ũheagwo Exponential Foundation na 7x kũringana na Contributor Licensing Agreement.</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13881,32 +14101,20 @@ Rũmbũiya: Ikĩohe ndigaruta mũingĩrĩrie.</translation>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%evaluate_link"&gt;Geria Exponential Enterprise Edition&lt;/a&gt; - &lt;a href="%share_link"&gt;Tuĩka mũthiganĩrĩria wa Gĩkundi kĩa Exponential, tũhũranĩria na ũteithie&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Rũtha rwa mwandĩki &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; na angĩ.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class="edition-info"&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>Nĩ ĩtengerio nĩ &lt;span class="edition-info"&gt;%edition&lt;/span&gt;. Nĩguo wone ũhoro mũingĩ rora &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Rũtha rwa mwandĩki &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; na angĩ.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> Nĩguo wone ũhoro mũingĩ rora &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
     </message>
     <message>
-        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Rũtha rwa mwandĩki &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; na angĩ.</translation>
+        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href="%evaluate_link"&gt;Geria Exponential (kuuma 7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;Tuĩka mũthiganĩrĩria wa Gĩkundi kĩa Exponential, ũgĩe ũteithio na ũteithie&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Rũtha rwa mwandĩki &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; na angĩ.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13915,6 +14123,61 @@ Rũmbũiya: Ikĩohe ndigaruta mũingĩrĩrie.</translation>
     <message>
         <source>Help center</source>
         <translation>Kĩrĩndĩ kĩa ũteithio</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>Ũhoro</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>Mapapura ma ndogumendi</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>Ahũthiri</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>Irathi cia ũhoro</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>Ũrũgamĩrĩri</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>Rũpapura %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>Rora maciaro mothe</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>Maciaro %count</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>Gĩciaro kĩmwe</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>Mataaro %count</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>Gũtirĩ mataaro</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>Mataaro matingĩahotire gũtoonyio.</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>Mataaro</translation>
     </message>
 </context>
 <context>
@@ -14383,6 +14646,14 @@ Rũmbũiya: Ikĩohe ndigaruta mũingĩrĩrie.</translation>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>Kũingĩria gũkũ nĩ gwa kũonania kwa andũ othe: mũndũ o wothe no amenye kiugo kĩa hitho kĩa mũrũgamĩrĩri, na ikiugo cia hitho cia arũgamĩrĩri itingĩgarũrũkio kana ciigwo rĩngĩ. Ndũkaandĩke kĩndũ kĩa kĩmũthĩ haha.</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Ikĩfaa ciaku</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Mawĩra ma ũgitĩri</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14672,6 +14943,14 @@ Rũmbũiya: Ikĩohe ndigaruta mũingĩrĩrie.</translation>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>Ũtongoria, ũcaria na ũrĩa ũngĩtũma ũhoro wa mahĩtia.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Ũhoro mwerũ</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Ũhoro mwerũ mũno, ũrĩa ũnyiitĩtwo nĩ ũndũ wa gũthimwo, na mawĩra harĩ iria ithuurĩtwo.</translation>
     </message>
 </context>
 <context>
@@ -15130,6 +15409,46 @@ Rũmbũiya: Ikĩohe ndigaruta mũingĩrĩrie.</translation>
         <source>Synchronisations</source>
         <translation>Kũringanania</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>GraphQL API: mũthia wayo wa njĩra, skima na handũ ha kũgerageria mahooya.</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Mĩthamio</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Mũgarũrũko wa ũhandi ũigĩtwo ta faĩlo: ũrĩa ũrĩ, mĩtengerio, gũtengeria na gũcookia.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Ũhoro mwerũ</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Ũhoro mwerũ mũno, ũrĩa ũnyiitĩtwo nĩ ũndũ wa gũthimwo, na mawĩra harĩ iria ithuurĩtwo.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Cabithia kobi ya tũtũ ya saiti kũrĩ GitHub Pages kana host o yothe ya git.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Gũcabithia gwa tũtũ</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Mĩthemba ya data</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>O mũthemba wa data wa mũthingi na wa ikĩongerereo, na ũrĩa irathi na maũndũ maũhũthagĩra.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15294,6 +15613,22 @@ Rũmbũiya: Ikĩohe ndigaruta mũingĩrĩrie.</translation>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>Akaunti iria itihũthagĩrwo nĩ mũndũ o wothe kana ciabataraga kũrorwo; ciinge, ciahũre kana ciatũme nja.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Rekodi ya gũthingata ya ahũthiri</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>Ũrĩa wacenjirie, wegingĩrire kana akĩregwo, akaunti o akaunti; thuurania na gũtũma nja.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Ripoti ya gũtoonya</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>Nũũ ũtoonyete, gũtoonya na kũremwo o mũthenya; ruta mũhũthiri nja kũrĩa gũothe.</translation>
     </message>
 </context>
 <context>
@@ -21305,15 +21640,15 @@ Rũmbũiya: Ikĩohe ndigaruta mũingĩrĩrie.</translation>
     </message>
     <message>
         <source>The file consistency tool checks if you have altered any of the files that came with the current installation. Altered files may be replaced by new versions that contain bugfixes, new features, etc. Make sure that you backup and then merge your changes into the new versions of the files.</source>
-        <translation>Kĩnyamũ kĩa ũringaniru wa faili nĩkĩgeragia kana nĩwacenjia faili o yothe iria ciokire na ũingĩria wa rĩu. Mafaili marĩa macenjetio no mahaanwo nĩ irutwo njerũ irĩ na ũgeithia wa mahĩtia, kĩrĩa kĩerũ, na ũguo. Menya atĩ nĩũtumĩte kopi na ũcooke ũhurũre macenjio maku irutwo-inĩ njerũ ya mafaili.</translation>
+        <translation>Kĩndũ kĩa wĩra kĩa ũringaniru wa faili nĩkĩgeragia kana nĩwacenjia faili o yothe iria ciokire na ũingĩria wa rĩu. Mafaili marĩa macenjetio no mahaanwo nĩ irutwo njerũ irĩ na ũgeithia wa mahĩtia, kĩrĩa kĩerũ, na ũguo. Menya atĩ nĩũtumĩte kopi na ũcooke ũhurũre macenjio maku irutwo-inĩ njerũ ya mafaili.</translation>
     </message>
     <message>
         <source>The database consistency tool checks if the current database is consistent with the database schema that came with the Exponential distribution. If there are any inconsistencies, the tool will suggest the necessary SQL statements that should be run in order to bring the database into a consistent state. Please run the suggested SQL statements before upgrading.</source>
-        <translation>Kĩnyamũ kĩa ũringaniru wa kĩigĩro kĩa data nĩkĩgeragia kana kĩigĩro kĩa data kĩa rĩu nĩkĩringanĩte na mũthondeko wa kĩigĩro kĩa data ũrĩa wokire na ũgaĩrĩri wa Exponential. Angĩkorwo gũkoragwo na gũtaringana, kĩnyamũ nĩkĩgatuĩria maathani ma SQL marĩa mabataraga gũtengerio nĩguo kĩigĩro kĩa data kĩcooke hali-inĩ ĩrĩa ĩringanĩte. Ndagũthaitha, tengeria maathani ma SQL marĩa matuĩrĩirũo mbere ya gũthondeka.</translation>
+        <translation>Kĩndũ kĩa wĩra kĩa ũringaniru wa kĩigĩro kĩa data nĩkĩgeragia kana kĩigĩro kĩa data kĩa rĩu nĩkĩringanĩte na mũthondeko wa kĩigĩro kĩa data ũrĩa wokire na ũgaĩrĩri wa Exponential. Angĩkorwo gũkoragwo na gũtaringana, kĩndũ kĩu kĩa wĩra nĩkĩgatuĩria maathani ma SQL marĩa mabataraga gũtengerio nĩguo kĩigĩro kĩa data kĩcooke hali-inĩ ĩrĩa ĩringanĩte. Ndagũthaitha, tengeria maathani ma SQL marĩa matuĩrĩirũo mbere ya gũthondeka.</translation>
     </message>
     <message>
         <source>The upgrade checking tools require a lot of system resources. They may take some time to run.</source>
-        <translation>Ikĩnyamũ cia kũgeria gũthondeka nĩcibataraga indo nyingĩ cia mũtaratara. No ciende ihinda rĩa gũtengerio.</translation>
+        <translation>Indo cia wĩra cia kũgeria gũthondeka nĩcibataraga indo nyingĩ cia mũtaratara. No ciende ihinda rĩa gũtengerio.</translation>
     </message>
 </context>
 <context>
@@ -22110,6 +22445,22 @@ Rũmbũiya: Ikĩohe ndigaruta mũingĩrĩrie.</translation>
         <source>%n hours ago</source>
         <translation>ithaa %n rĩhĩtũku</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>Macokio ma ciũria iria ciigĩtwo cia GraphQL API, na mĩthemba ya maũndũ ya skima yayo.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>Cabithia kobi ya tũtũ kũrĩ GitHub Pages kana host o yothe ya git</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Gũcabithia gwa tũtũ</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>Kĩigĩro kĩa ihenya kĩa tũtũ kĩheanaga tũratathi kuuma server ĩno. Nĩguo ũcabithie kobi ya tũtũ ya saiti handũ hangĩ, kũrĩ GitHub Pages kana host o yothe ya git, hũthĩra gũcabithia gwa tũtũ.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -22535,7 +22886,7 @@ Rũmbũiya: Ikĩohe ndigaruta mũingĩrĩrie.</translation>
     </message>
     <message>
         <source>No php command line binary was found. Set cronjob.ini [AdminSettings] PhpCliPath to its full path.</source>
-        <translation>Gũtirĩ kĩnyamũ kĩa mũsitari wa itegeko kĩa php kĩnyitĩtwo. Iga cronjob.ini [AdminSettings] PhpCliPath njĩra yayo yothe.</translation>
+        <translation>Gũtirĩ porogiramu ya mũtara wa maathani ya php ĩrĩa ĩanyitirũo. Iga cronjob.ini [AdminSettings] PhpCliPath njĩra yayo yothe.</translation>
     </message>
     <message>
         <source>proc_open is disabled, so a cronjob cannot be started from the interface. Run it from a shell.</source>
@@ -25434,7 +25785,7 @@ Rũmbũiya: Ikĩohe ndigaruta mũingĩrĩrie.</translation>
     </message>
     <message>
         <source>Static cache</source>
-        <translation>Kĩigĩro kĩa ihenya gĩtarĩ kĩnyamũ</translation>
+        <translation>Kĩigĩro kĩa ihenya kĩa tũtũ</translation>
     </message>
     <message>
         <source>HTTP cache</source>
@@ -25594,7 +25945,7 @@ Rũmbũiya: Ikĩohe ndigaruta mũingĩrĩrie.</translation>
     </message>
     <message>
         <source>Processor</source>
-        <translation>Kĩnyamũ kĩa gũthondeka</translation>
+        <translation>Purosesa</translation>
     </message>
     <message>
         <source>Load</source>
@@ -25651,6 +26002,10 @@ Rũmbũiya: Ikĩohe ndigaruta mũingĩrĩrie.</translation>
     <message>
         <source>last purge</source>
         <translation>kũhũra kwa mũthia</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>Maandĩko matiahotire kuoya kĩhingo kĩa ũrĩa maũndũ matariĩ (rĩa kũrigĩrĩria %date): o rĩmwe nĩrĩatũmire maciaro mothe marĩa maigĩtwo matuĩke ma tene. %file no nginya ĩandĩkĩke nĩ o mũhũthĩri ũrĩa site ĩrutaga wĩra ta we; kũrĩ NFS nĩĩbataraga NFSv4 kana lockd.</translation>
     </message>
 </context>
 <context>
@@ -26590,7 +26945,7 @@ Rũmbũiya: Ikĩohe ndigaruta mũingĩrĩrie.</translation>
     </message>
     <message>
         <source>Every point this system can be extended at is listed below: what it is for, where the code goes, and what registers it. Where there is a tool it opens from here; where there is not, what is written here is what you would otherwise have to find by reading the kernel.</source>
-        <translation>Handũ hothe harĩa mũthia ũyũ ũngĩongererwo hathondekĩtwo haha thĩinĩ: nĩ wa kĩ, kodi ĩthiĩ kũ, na kĩrĩa kĩmĩcihĩtia. Harĩa harĩ kĩnyamũ, nĩkĩhingũrĩka kuuma haha; harĩa gũtarĩ, kĩrĩa kĩandĩkĩtwo haha nĩkĩo ũngĩkorirwo nĩ ũhoro ũngĩagĩrĩirũo gũtuĩra na gũthoma mũthingi.</translation>
+        <translation>Handũ hothe harĩa mũthia ũyũ ũngĩongererwo hathondekĩtwo haha thĩinĩ: nĩ wa kĩ, kodi ĩthiĩ kũ, na kĩrĩa kĩmĩcihĩtia. Harĩa harĩ kĩndũ kĩa wĩra, nĩkĩhingũrĩka kuuma haha; harĩa gũtarĩ, kĩrĩa kĩandĩkĩtwo haha nĩkĩo ũngĩkorirwo nĩ ũhoro ũngĩagĩrĩirũo gũtuĩra na gũthoma mũthingi.</translation>
     </message>
     <message>
         <source>extension points written up</source>
@@ -26598,11 +26953,11 @@ Rũmbũiya: Ikĩohe ndigaruta mũingĩrĩrie.</translation>
     </message>
     <message>
         <source>with a tool</source>
-        <translation>irĩ na kĩnyamũ</translation>
+        <translation>irĩ na kĩndũ kĩa wĩra</translation>
     </message>
     <message>
         <source>The rest are documented, and each is a tool waiting to be written.</source>
-        <translation>Icio ingĩ nĩ ciandĩkĩtwo, na o ĩmwe nĩ kĩnyamũ kĩrĩa kĩrĩ kĩrĩetereire gwandĩkwo.</translation>
+        <translation>Icio ingĩ nĩ ciandĩkĩtwo, na o ĩmwe nĩ kĩndũ kĩa wĩra kĩrĩa kĩrĩ kĩrĩetereire gwandĩkwo.</translation>
     </message>
     <message>
         <source>Showing %shown of them.</source>
@@ -26630,11 +26985,11 @@ Rũmbũiya: Ikĩohe ndigaruta mũingĩrĩrie.</translation>
     </message>
     <message>
         <source>tool available</source>
-        <translation>kĩnyamũ nĩ kĩrĩho</translation>
+        <translation>kĩndũ kĩa wĩra nĩ kĩrĩho</translation>
     </message>
     <message>
         <source>no tool yet</source>
-        <translation>gũtirĩ kĩnyamũ o rĩrĩ</translation>
+        <translation>gũtirĩ kĩndũ kĩa wĩra o rĩrĩ</translation>
     </message>
     <message>
         <source>Code</source>
@@ -26666,7 +27021,7 @@ Rũmbũiya: Ikĩohe ndigaruta mũingĩrĩrie.</translation>
     </message>
     <message>
         <source>With a tool</source>
-        <translation>Irĩ na kĩnyamũ</translation>
+        <translation>Irĩ na kĩndũ kĩa wĩra</translation>
     </message>
     <message>
         <source>Documentation only</source>
@@ -27074,7 +27429,7 @@ Rũmbũiya: Ikĩohe ndigaruta mũingĩrĩrie.</translation>
     </message>
     <message>
         <source>Something the browser can call and get json back from, without a page.</source>
-        <translation>Kĩndũ kĩrĩa kĩrĩa kĩnyamũ kĩa gũthoma kĩngĩhooya na kĩgacookio json, gũtarĩ ũrũa.</translation>
+        <translation>Kĩndũ kĩrĩa kĩrĩa kĩrorero kĩngĩhooya na kĩgacookio json, gũtarĩ ũrũa.</translation>
     </message>
     <message>
         <source>A step a workflow can take when something is published, moved or removed.</source>
@@ -27162,7 +27517,7 @@ Rũmbũiya: Ikĩohe ndigaruta mũingĩrĩrie.</translation>
     </message>
     <message>
         <source>Takes the payment without the buyer ever leaving the site: the card is exchanged for a token in the browser, and the charge is made server to server while they wait. The common shape now, and a different job from the redirect kind - one call decides the order, so there is no second visit in which to correct a wrong answer, and a timeout is a genuinely ambiguous state that has to be asked about rather than guessed at.</source>
-        <translation>Ĩĩkagĩra kũriha mũgũri ndathiĩ nja ya saiti: karata nĩ gũgũranagio na kĩrĩa kĩrĩ mbica kĩnyamũ-inĩ, na kũriha gũgĩkwo sava kũrĩ sava mũgũri akĩrĩra. Nĩ mũthemba wa ũmũthĩ, na wĩra ũtiganaine na wa gũthiĩ nja - kũgwĩta kũmwe nĩkũtuaga ioda, nĩ ũndũ ũcio gũtirĩ kũũka kwa keerĩ kwa kũrũngia macookio mahĩtu, na ihinda kũthira nĩ hali ĩtooĩkaine ĩrĩa ĩbatairie kũũrio na ti gũtuĩrwo.</translation>
+        <translation>Ĩĩkagĩra kũriha mũgũri ndathiĩ nja ya saiti: karata nĩ gũgũranagio na kĩrĩa kĩrĩ mbica kĩrorero-inĩ, na kũriha gũgĩkwo sava kũrĩ sava mũgũri akĩrĩra. Nĩ mũthemba wa ũmũthĩ, na wĩra ũtiganaine na wa gũthiĩ nja - kũgwĩta kũmwe nĩkũtuaga ioda, nĩ ũndũ ũcio gũtirĩ kũũka kwa keerĩ kwa kũrũngia macookio mahĩtu, na ihinda kũthira nĩ hali ĩtooĩkaine ĩrĩa ĩbatairie kũũrio na ti gũtuĩrwo.</translation>
     </message>
     <message>
         <source>What rate of tax applies to what, for whom.</source>
@@ -27186,7 +27541,7 @@ Rũmbũiya: Ikĩohe ndigaruta mũingĩrĩrie.</translation>
     </message>
     <message>
         <source>Decides whether a request came from a phone and what to do about it. The one that ships matches user agent strings against patterns, which ages badly; a filter of its own can use a header a proxy sets or a hint the browser gives.</source>
-        <translation>Nĩ ĩtuaga kana ihooya nĩ rĩũmĩte harĩ thimũ na kĩrĩa gĩkĩragwo gwĩkwo. Ĩrĩa ĩrehetwo nĩ ĩhaanaga mĩtũrĩre ya mũhũthiri na ngerekano, ũndũ ũrĩa ũngĩhĩtĩa wega; kĩthuurania kĩa gĩtwĩ kĩngĩhũthĩra mũtwe ũrĩa proxy ĩigagĩra kana kĩnyiihia kĩrĩa kĩnyamũ kĩa gũthoma kĩheagĩra.</translation>
+        <translation>Nĩ ĩtuaga kana ihooya nĩ rĩũmĩte harĩ thimũ na kĩrĩa gĩkĩragwo gwĩkwo. Ĩrĩa ĩrehetwo nĩ ĩhaanaga mĩtũrĩre ya mũhũthiri na ngerekano, ũndũ ũrĩa ũngĩhĩtĩa wega; kĩthuurania kĩa gĩtwĩ kĩngĩhũthĩra mũtwe ũrĩa proxy ĩigagĩra kana kĩnyiihia kĩrĩa kĩrorero kĩheagĩra.</translation>
     </message>
     <message>
         <source>The earliest place there is to see a REST request. Nothing has been matched and no controller chosen, so a request can be rewritten or turned away before anything has committed to answering it - and before authentication, so about a caller nobody has identified.</source>
@@ -33599,6 +33954,14 @@ Rũmbũiya: Ikĩohe ndigaruta mũingĩrĩrie.</translation>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>Ikĩhinda iria cihĩtũkĩte ihinda cia mũthingatĩri wa PHP nĩ ciehereragio nĩ PHP yayo yene (session.gc_maxlifetime), na ti nĩ ũrũa ũyũ kana gĩcunjĩ kĩa wĩra wa cron session_gc.</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>Ihinda iria itoonyete cia ahũthiri othe nĩ ionanagio, na ikarutwo nja, thĩinĩ wa ripoti ya gũtoonya, ĩrĩa ĩrutaga wĩra na mũhũthĩrĩria o wothe wa ikĩhinda.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>Hingũra ripoti ya gũtoonya</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37882,7 +38245,7 @@ akaunti yaku.</translation>
     </message>
     <message>
         <source>Where you are signed in: browser, system, place and time. Sign out a device you do not know.</source>
-        <translation>Kũrĩa ũingĩrĩte: kĩnyamũ kĩa ũthakia, mũthingi, handũ na ihinda. Ũmia kĩfaa kĩrĩa ũtooĩ.</translation>
+        <translation>Kũrĩa ũingĩrĩte: kĩrorero, mũthingi, handũ na ihinda. Ũmia kĩfaa kĩrĩa ũtooĩ.</translation>
     </message>
     <message>
         <source>Where this user is signed in, and signing the user out everywhere.</source>
@@ -37923,6 +38286,26 @@ akaunti yaku.</translation>
     <message>
         <source>None yet</source>
         <translation>Gũtirĩ rĩu</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Mawĩra ma ũgitĩri</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>Gũtoonya gwaku kwa ica ĩno, kũgeria kũrĩa kwaremirwo na mogarũrũku ma kiugo gĩaku kĩa hitho, anwani ya imeili na kũingĩra kwa ngũmbĩ igĩrĩ.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>Gũtoonya kwa ica ĩno, kũgeria kũrĩa kwaremirwo na mogarũrũku ma ũgitĩri wa akaunti ĩno.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>Thuthuria mawĩra</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>Gũtoonya kũrĩa kwaremirwo: %count</translation>
     </message>
 </context>
 <context>
@@ -38434,7 +38817,7 @@ akaunti yaku.</translation>
     </message>
     <message>
         <source>If the button does not work, copy this address into your browser: %url</source>
-        <translation>Angĩkorwo gĩthũngũ gĩtĩkĩrĩte gwĩka wĩra, kobia anwani ĩno thĩinĩ wa kĩnyamũ gĩaku kĩa ũthakia: %url</translation>
+        <translation>Angĩkorwo gĩthũngũ gĩtĩkĩrĩte gwĩka wĩra, kobia anwani ĩno thĩinĩ wa kĩrorero gĩaku: %url</translation>
     </message>
     <message>
         <source>This mail was sent by %siteurl because this email address was used to register an account.</source>
@@ -44090,6 +44473,42 @@ Nĩ ũngĩenda gũtũma ũhoro kũrĩ mũtĩkĩria kana kũrora ũrĩa kĩrĩ, h
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>Thutha wa gũtoonya, mũhũthiri no nginya athuure kiugo kĩerũ kĩa hitho mbere ya gwĩka kĩndũ kĩngĩ. Hũthĩra ũndũ ũcio rĩrĩa ũkũhe mũndũ kiugo kĩa hitho kĩa ihinda inini.</translation>
     </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>Thuura mbica ĩrĩa ĩrĩ kuo</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>Faĩro ya mbica ya kĩndũ kĩrĩa ũthuura nĩĩkopagĩrio mũhianĩre-inĩ ũyũ. Kĩndũ kĩrĩa kĩngĩ gĩtigũcenjio.</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>Mbica ya "%name" nĩĩkopagĩrio mũhianĩre-inĩ ũyũ.</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>Rora-rora ũcarie mbica</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>Caria mbica na rĩĩtwa</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Caria</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>Hũthĩra mbica ya "%name"</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>Hũthĩra mbica ĩno</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>Gũtirĩ mbica ĩringaine na ũcaria waku.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/content/datatype/result/ezoption</name>
@@ -49733,7 +50152,7 @@ Nĩguo ũtaratĩrie thĩna ũyũ no kwagĩrĩrwo ũreke ũmwe wa ũrĩa ũrũmĩ
     </message>
     <message>
         <source>Make sure the database server is configured to use Unicode or that it has the latest software which supports Unicode.</source>
-        <translation>Ĩkĩra ũhoro atĩ sava ya kĩigĩro kĩa data nĩ ĩtaratĩtwo gũhũthĩra Unicode kana atĩ nĩ ĩrĩ na kĩnyamũ kĩa rĩu kĩrĩa kĩtĩkĩrĩte Unicode.</translation>
+        <translation>Ĩkĩra ũhoro atĩ sava ya kĩigĩro kĩa data nĩ ĩtaratĩtwo gũhũthĩra Unicode kana atĩ nĩ ĩrĩ na porogiramu ya rĩu ĩrĩa ĩtĩkĩrĩte Unicode.</translation>
     </message>
     <message>
         <source>These and other additional languages can also be installed later.</source>
@@ -51012,6 +51431,10 @@ Rora ũrũa wa ũhoro wa ũrĩa ũbataranagio nĩguo ũmenye ũhoro ũngĩ.</tra
     <message>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>Crontab ndĩandĩkirwo (%reason). Ongerera mĩsarĩ ĩno crontab-inĩ ya mũhũthiri ũrĩa saiti ĩrutaga wĩra ta we, kana mũhari wa mawĩra, ũrehe thĩinĩ, mĩmenyithia na indekithi ya ũcaria itirĩ gũtengera o ũndũ:</translation>
+    </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>Gũcookia kũhanda gwĩkagwo na Kickstarter (%file, thuutha ũcio php bin/php/kickstarter.php run --apply) kana na ũhandi mwerũ.</translation>
     </message>
 </context>
 <context>
@@ -53775,7 +54198,7 @@ akaunti yaku.</translation>
     </message>
     <message>
         <source>If the button does not work, copy this address into your browser: %url</source>
-        <translation>Angĩkorwo gĩthũngũ gĩtĩkĩrĩte gwĩka wĩra, kobia anwani ĩno thĩinĩ wa kĩnyamũ gĩaku kĩa ũthakia: %url</translation>
+        <translation>Angĩkorwo gĩthũngũ gĩtĩkĩrĩte gwĩka wĩra, kobia anwani ĩno thĩinĩ wa kĩrorero gĩaku: %url</translation>
     </message>
     <message>
         <source>If you did not register, you can ignore this mail.</source>
@@ -54892,6 +55315,10 @@ akaunti yaku.</translation>
         <source>eZJSCore Public Packer cache</source>
         <translation>Kĩigĩro kĩa ihenya kĩa Public Packer ya eZJSCore</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>Kĩigĩro kĩa GraphQL (macokio na mĩthemba ya skima)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54978,6 +55405,14 @@ akaunti yaku.</translation>
     <message>
         <source>Copy of %class_name</source>
         <translation>Kopi ya %class_name</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Mĩthemba ya data</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>Mũthemba wa data %string</translation>
     </message>
 </context>
 <context>
@@ -55804,6 +56239,26 @@ Ndagũthaitha, ũhoye mũrũgamĩrĩri wa saiti na ũmũmenyithie
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>Mbica ya SVG ndĩahotetwo gũthomwo, kana gũtirĩ kĩndũ thĩinĩ wayo kĩngĩonanio na thayũ.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>Mbica ndĩngĩhota gũkopagĩrio. Ndagũthaitha geria rĩngĩ kana ũranie na mũrori wa thaiti.</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>Kĩndũ kĩrĩa gĩthuurĩtwo gĩtirĩ kuo kana ndwĩtĩkĩrĩtio gũgĩthoma.</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>Kĩndũ kĩrĩa gĩthuurĩtwo gĩtirĩ na mbica.</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>Faĩro ya mbica ya kĩndũ kĩrĩa gĩthuurĩtwo ndĩngĩhota gũthomwo.</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>Mbica ya kĩndũ kĩrĩa gĩthuurĩtwo nĩ nene gũkĩra ũrĩa mũhianĩre ũyũ wĩtĩkĩrĩte: baiti %1.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56334,6 +56789,42 @@ Ndagũthaitha, ũhoye mũrũgamĩrĩri wa saiti na ũmũmenyithie
         <source>The bookmark was renamed to "%name".</source>
         <translation>Kĩmenyithia nĩ gĩacenjetio rĩĩtwa kũgĩa "%name".</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>Ũrũa ũyũ nĩ ũhingĩtwo njĩra-inĩ ĩno ya saiti (%siteaccess). Hingũra kĩmenyithia njĩra-inĩ ya saiti ĩrĩ na ũrũa ũyũ.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>Moduli ya ũrũa ũyũ ndĩingĩrĩtio kana ndĩhingũrĩtwo gũkũ.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>Ũrũa ũyũ ndũrĩ ho rĩngĩ: moduli yaguo ĩtirĩ na mwonekere ta ũcio.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>Gũtirĩ rolo o na ĩmwe yaku ĩgũtĩkĩrĩtie gũhingũra ũrũa ũyũ.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>Ndũtĩkĩrĩtio kũhũthĩra njĩra ĩno ya saiti.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>Ndũtĩkĩrĩtio gũthoma ũhoro ũrĩa ũrũa ũyũ ũronania.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>Ũrũa wa mũthemba ũyũ ndũngĩĩkĩrwo kĩmenyithia: ũrutaga wĩra fomu-inĩ tu, kana nĩ ũrũa wa kahinda kanini tu.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>Anwani ya ũrũa ũyũ ndĩrĩho.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>Ũrũa ũyũ ndũngĩhingũka rĩu.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56805,6 +57296,10 @@ Nĩũgũkĩrĩrwo nĩ gũcenjia kĩrathi kĩa nodi ũhũthĩrĩte wĩra wa gũti
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>Ũtwarithia wa imeili nĩ wareganire ciugo gũtengeria-inĩ kwa mũthia, ũigana: %count. Thima sava ya imeili na site.ini MailSettings.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Maũndũ %count nĩ marĩetereire na gũtirĩ gũtengeria kwa cronjob ya mĩmenyithia kwandĩkĩtwo. Ongerera gĩcunjĩ kĩa cronjob &quot;frequent&quot; thĩinĩ wa crontab, kana ũtengerie exp:notification:run --apply.</translation>
     </message>
 </context>
 <context>
@@ -62347,7 +62842,7 @@ Nĩũgũkĩrĩrwo nĩ gũcenjia kĩrathi kĩa nodi ũhũthĩrĩte wĩra wa gũti
     </message>
     <message>
         <source>The files are kept by a cluster file handler: they are read from its table, owner and mode are not checked, and nothing can be moved or fixed here.</source>
-        <translation>Mafaili nĩmagĩtagwo nĩ mũhũthĩri wa mafaili wa kĩnyamũ kĩa klasta: nĩmathomagwo kuuma mũhariinĩ wao, mwene na mũhaano wa rũtha ndĩgũthimwo, na gũtirĩ kĩndũ kĩngĩthamio kana gũtharĩrio haha.</translation>
+        <translation>Mafaili nĩmagĩtagwo nĩ mũhũthĩri wa mafaili wa klasta: nĩmathomagwo kuuma mũhariinĩ wao, mwene na mũhaano wa rũtha ndĩgũthimwo, na gũtirĩ kĩndũ kĩngĩthamio kana gũtharĩrio haha.</translation>
     </message>
     <message>
         <source>Last scan</source>
@@ -63060,6 +63555,10 @@ Nĩũgũkĩrĩrwo nĩ gũcenjia kĩrathi kĩa nodi ũhũthĩrĩte wĩra wa gũti
     <message>
         <source>Choose another site or section with the node picker</source>
         <translation>Thuura wĩbusaiti kana gĩcunjĩ kĩngĩ na mũthuuri wa nodi</translation>
+    </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>No mũrũgamĩrĩri wa mũhaka wiki ũngĩhota gũcenjia mwene: tengeria ./console exp:content-check --fix-permissions --apply ta root.</translation>
     </message>
 </context>
 <context>
@@ -64594,6 +65093,10 @@ Nĩũgũkĩrĩrwo nĩ gũcenjia kĩrathi kĩa nodi ũhũthĩrĩte wĩra wa gũti
     <message>
         <source>empty</source>
         <translation>ndũrĩ kĩndũ</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>Kĩhingũrio kĩa kũhũra thaini nĩ gĩkũrĩte gũkĩra mwaka ũmwe: gĩcenjie na exp:audit key rotate --apply.</translation>
     </message>
 </context>
 <context>
@@ -68424,6 +68927,486 @@ Nĩũgũkĩrĩrwo nĩ gũcenjia kĩrathi kĩa nodi ũhũthĩrĩte wĩra wa gũti
         <source>Share of page time</source>
         <translation>Gĩcunjĩ kĩa ihinda rĩa ũrũa</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>kũonania guothe nĩ kwahooyirwo</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>kĩigĩro kĩa ihenya kĩa ũrũa gĩtiarĩ na ũrũa ũyũ (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>kĩigĩro kĩa ihenya kĩa ũrũa gĩtiacookirie</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>Yonanirio</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>Yonanirio nĩ mũthingi: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>Yatungatirwo kuuma kĩigĩro kĩa ihenya kĩa ũrũa thĩinĩ wa %ms ms. Ũrũa ũigirwo %stored nĩ kũonania kwa %render ms, %age s ciathira.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>Onania rĩu</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>Cooka mwonekere-inĩ wa kĩigĩro</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>Kuuma kũonania kwa %stored (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>Kũhooya gũkũ: yatungatirwo kuuma kĩigĩro kĩa ihenya kĩa ũrũa thĩinĩ wa %ms ms.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Mũhũthiri</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>ID ya mũhũthiri</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>Profaili ya cache</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>Mwonekano ũyũ</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>Kĩigĩro kĩa ihenya kĩa mwonekere</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>o mũhũthĩri (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>Profaili ya cache ya mũhũthĩri: ahũthĩri arĩa marĩ na profaili ĩmwe magayanaga mafaili ma cache ya mwonekano</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ĩĩ</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>aca</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Rĩĩtwa rĩa kwingĩra</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>Nĩatoonyete</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>Kĩhinda</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>Icunjĩ cia kĩhingũro gĩa cache ya mwonekano wa maũndũ iria ciĩtĩkĩtie mũhũthĩri, o ta ũrĩa kĩhingũro gĩcioyaga, rungu rwa ViewCacheTweaks cia ithangũ rĩĩrĩ. Ahũthĩri arĩa marĩ na profaili ĩmwe magayanaga mafaili ma cache ma mionekano, tiga icunjĩ cia mwonekano kĩũmbe ikĩhinyana (mendo, ihingũro cia athikĩrĩria): icio irĩ na profaili yacio ene, ya ithangũ rĩĩrĩ tu.</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>Wĩmenyithania</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>Mwonekano ũyũ (node %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: o mũhũthĩri ũtoonyete arĩ na mafaili make ma cache.</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>ViewCacheTweaks irĩa irarũta wĩra: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>Gĩcunjĩ</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>Mũigana</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>Gũtirĩ gĩcunjĩ kĩĩtĩkĩtie mũhũthĩri (ViewCacheTweaks).</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>mwonekano ũyũ</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>Kopĩ ta mwandĩko</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>Marolo</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>Gũtirĩ mĩheanĩre ya mĩrimo ĩngĩathomeka.</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>ID ya mũrimo</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Rolo</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>Mũhaka</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>Kũheanĩtwo kũrĩ</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>mũhũthĩri</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>gĩkundi %name (kĩndũ %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>Nĩ kũkobio</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>Gũkopĩ nĩkwaremwo.</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>gwatigwo nĩ mũthikĩrĩria</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>Ageni ũtooĩkaine</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>o ta yaku</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>ĩtiganĩte</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>Profaili ĩrĩa ageni matarĩ na marĩtwa monaga rungu rwa ViewCacheTweaks icio imwe, na mendo ma kĩambĩrĩria, hatarĩ icunjĩ cia mwonekano: mũthikĩrĩria ũrĩa ũthomaga session ndangĩũrio ũhoro wacio.</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>Mendo</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>Gũtirĩ mũthemba wa mwonekano wĩtĩkĩtie mendo ma mũhũthĩri (site.ini [ContentSettings] CachedViewPreferences).</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>Mendo marĩa mionekano ya mĩthemba ĩno ya mwonekano yĩtĩkĩtie (CachedViewPreferences), na mũigana wa mũhũthĩri kana wa kĩambĩrĩria. Marĩ thĩinĩ wa profaili ta userpreferences, ma mĩthemba yothe ya mwonekano hamwe.</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>Mũtugo wa mwonekere</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>Wendo</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>Kĩrĩa kĩigĩtwo</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>Mawatho</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>Onania mawatho ma mĩrimo (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>Mawatho majũkagio kuuma server rĩrĩa gĩcunjĩ gĩkĩ kĩhingũrwo, ithangũ rĩmwe o rĩmwe, na no mamenyererwo kũringana na module na wĩra.</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>Wĩra</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>Moduli ciothe</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>Mawĩra mothe</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>Mahinga</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>Onania makĩria</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>Mĩrimo ĩno ndĩrĩ na mawatho.</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>Gũtirĩ watho ũringaine na kĩamũri.</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%shown ya %matching ma mawatho (%total mothe)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>Nĩ ĩrehwo rĩrĩa ĩhingũrwo.</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>module/wĩra, mũrimo, ũthibitĩri</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>Caria mawatho</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>Rehe maingĩ</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>Module/wĩra</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>Mĩrimo yothe (mawatho %count)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>Gũtirĩ watho ũhoyanaga.</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%shown kuuma mawatho %matched</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>Gũtirĩ ũndũ ũgaruririo</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>kĩhithĩtwo</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>Onania mataarĩrio</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>Hitha mataarĩrio</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Hingũra</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>Hingũra ciothe</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>Hinga ciothe</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>Kĩmenyo kana mũigana</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>Caria kĩhinda-inĩ</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Mũthemba</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>%count ingĩ</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>kĩhumbĩrĩtwo thĩinĩ mũno gũkĩonania</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>gĩtinĩtwo, ndemwa %count ciothe</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Nĩ ĩambĩrĩirie</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>Rĩĩtwa rĩa kuki</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>ID ya kĩhinda</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>Mũrũgamĩrĩri</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>Njĩra ya kũiga</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>Mũtugo wa PHP</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>Ũtũũro (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>Kuki</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>ũtũũro %s s</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>Kĩhinda gĩaku kĩa PHP, o ta ũrĩa gĩatariĩ rĩrĩa gĩcunjĩ kĩahingũrirwo, gũtirĩ hĩndĩ kĩngĩ. Mĩigana ya imenyo iria ihaana ta hitho (tokeni, hashi, ciugo cia hitho) nĩ ĩhithĩtwo (debugbar.ini SessionMask[]); indo iria ingĩ ciothe nĩ ionanagio o ta ũrĩa ciaigirwo, o na ũhoro wa mũndũ kĩũmbe.</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>imenyo %count, %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>kĩnene</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>Kĩhinda gĩtirĩ na kĩndũ.</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>Gũtirĩ kĩhinda kĩambĩrĩirio nĩ ũndũ wa ihooya rĩĩrĩ.</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Kĩongerereo %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>Kĩĩhumo na ingĩ</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>Ti maandĩko mothe monanĩtio: kĩhinda kĩrĩ na maingĩ gũkĩra marĩa mangĩandĩkwo haha.</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>Imenyo %count itiandĩkĩtwo.</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>Fremu</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>Mĩigana ĩrĩa ĩhaana ta tokeni (JSON Web Token, ũhoro wa gwĩtĩkĩrĩka wa kĩongo kĩa Authorization, kĩmenyo kĩa hitho, mwandĩko mũraihu wa hex kana wa mũtukanio) o nayo nĩ ĩhithagwo, o na kĩmenyo kĩayo gĩĩtagwo atĩa (debugbar.ini SessionValueMask[]).</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>Kĩmenyo nĩ kĩhaana ta hitho (debugbar.ini SessionMask[]).</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>Mũigana nĩ ũhaana ta tokeni.</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>Rungu rwa kĩmenyo kĩhithĩtwo.</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>Kĩhinda ta mwandĩko, kĩhithĩtwo ta mũtaratara.</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>Kĩhinda nĩ kĩnene gũkĩra %size (debugbar.ini SessionWarnBytes): o ihooya rĩa mũhũthiri ũyũ nĩ rĩthomaga kĩhinda gĩothe, na rĩgakĩandĩka rĩrĩa gĩcenjia.</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP nĩ ĩigaga kĩhinda gĩkĩ thĩinĩ wa faili na ĩkahinga faili ihinda rĩothe rĩa ihooya: mahooya ma mũhũthiri ũmwe (tab nyingĩ, mĩĩtĩo ya AJAX) nĩ meetagĩrana.</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>Tiga kĩhingũku</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>Kĩnene gũkĩra %size (debugbar.ini SessionWarnBytes): o ihooya rĩa mũhũthiri ũyũ nĩ rĩthomaga kĩhinda gĩothe.</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%hits kuuma %count nĩ ithomirwo kuuma kĩigĩro-inĩ</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>Gũtirĩ mũhiano woimĩrĩirio (mwonekano ũthometwo kuuma kĩigĩro-inĩ kĩa mionekano ndũrehaga o na ũmwe).</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>Kũhe marolo</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>Marolo na mawatho</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>nĩ ngũrani na ageni matarĩ na rĩĩtwa</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>no ta ageni matarĩ na rĩĩtwa</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70304,6 +71287,14 @@ Nĩũgũkĩrĩrwo nĩ gũcenjia kĩrathi kĩa nodi ũhũthĩrĩte wĩra wa gũti
     <message>
         <source>not sent</source>
         <translation>ndĩtũmĩtwo</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Cronjob ya mĩmenyithia yandĩkaga haha o rĩrĩa yatengeria. Ongerera gĩcunjĩ frequent thĩinĩ wa crontab, kana ũtengerie exp:notification:run --apply.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>Hũthĩra console: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -76022,6 +77013,98 @@ Nĩũgũkĩrĩrwo nĩ gũcenjia kĩrathi kĩa nodi ũhũthĩrĩte wĩra wa gũti
         <source>This topic is not Released; readers do not see it.</source>
         <translation>Mũhoro ũyũ ndũrekerũo; athomi ndmaũonaga.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Mĩthamio</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Mũgarũrũko wa ũhandi ũigĩtwo ta faĩlo: ũrĩa ũrĩ, mĩtengerio, gũtengeria na gũcookia.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Cabithia kobi ya tũtũ ya saiti kũrĩ GitHub Pages kana host o yothe ya git.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Gũcabithia gwa tũtũ</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>Thĩinĩ wa Kũrora</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>Athomi nĩmaroraga ũrũpa ũyũ.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>Nĩ ũhithĩtwo athomi nginya mũndũ aũrekererie.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>Ũrũpa ũyũ ũrĩ thĩinĩ wa Kũrora rĩu. Nĩ ũhithĩtwo athomi nginya ũrekererio.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>Ũrũpa ũyũ nĩ ũrekereirio: athomi nĩmaũrora rĩu.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>Ũrũpa ũyũ nĩ ndrafti rĩngĩ. Nĩ ũhithĩtwo athomi nginya ũrorwo na ũrekererio.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>Rekereria rĩu</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>No mũhũthiri ũrĩ na rolo ya %role ũtaandĩkire ũrutwo ũyũ wiki ũngĩũrekereria.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>Mathĩna ma ũteithio marĩa merigĩrĩire kũrekererio</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>Nĩ ũũhitha athomi nginya ũrekererio rĩngĩ.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>Mũrori nĩwe ũkaũrora thutha. Athomi matiraũrora.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>Athomi nĩmaũrora o rĩmwe.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>Nĩ ũũruta kũrora nĩ ũndũ wa wĩra ũngĩ. Athomi matiũroraga.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>Hitha ũrũpa ũyũ athomi?</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>Cookia ũrũpa ũyũ kũrĩ Ndrafti?</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>Athomi matikũrora %title rĩngĩ nginya mũndũ aũrekererie rĩngĩ.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title nĩ kĩracooka kũrĩ Ndrafti nĩ ũndũ wa wĩra ũngĩ. Athomi o na rĩu matikĩroraga, na nĩ kĩbatarĩte kũrorwo kwerũ mbere ya kũrekererio.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Tiga</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>Mathĩna maya marĩ thĩinĩ wa Kũrora. Athomi nĩmakamarora o rĩrĩa mũndũ ũtaandĩkire ũrutwo wa rĩu amarekereria.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76168,7 +77251,7 @@ Nĩũgũkĩrĩrwo nĩ gũcenjia kĩrathi kĩa nodi ũhũthĩrĩte wĩra wa gũti
     </message>
     <message>
         <source>If the button does not work, copy this address into your browser: %url</source>
-        <translation>Angĩkorwo gĩthũngũ gĩtĩkĩrĩte gwĩka wĩra, kobia anwani ĩno thĩinĩ wa kĩnyamũ gĩaku kĩa ũthakia: %url</translation>
+        <translation>Angĩkorwo gĩthũngũ gĩtĩkĩrĩte gwĩka wĩra, kobia anwani ĩno thĩinĩ wa kĩrorero gĩaku: %url</translation>
     </message>
     <message>
         <source>A new user account waits for your approval</source>
@@ -76477,6 +77560,46 @@ Nĩũgũkĩrĩrwo nĩ gũcenjia kĩrathi kĩa nodi ũhũthĩrĩte wĩra wa gũti
         <source>None.</source>
         <translation>Gũtirĩ.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>na app ya gũtĩkĩria</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>na kodi ĩrĩa yatũmirwo na imeili</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>na kodi ya gũcookia</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>na kĩhingũrio kĩa hitho (passkey)</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>na akaunti ya nja</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Mawĩra ma ũgitĩri</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>Ĩonanagio ta neti yayo; anwani ĩigagwo o ta ũrĩa mĩtaratara ya kũgitĩra data ya website yugĩte.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Gĩtiandĩkĩtwo</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Handũ</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>hakuhĩ</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76720,6 +77843,42 @@ Nĩũgũkĩrĩrwo nĩ gũcenjia kĩrathi kĩa nodi ũhũthĩrĩte wĩra wa gũti
         <source>Manage devices</source>
         <translation>Rũgamĩrĩra ikĩfaa</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>na app ya gũtĩkĩria</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>na kodi ĩrĩa yatũmirwo na imeili</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>na kodi ya gũcookia</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>na kĩhingũrio kĩa hitho (passkey)</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>na akaunti ya nja</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Mawĩra ma ũgitĩri</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Gĩtiandĩkĩtwo</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Handũ</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>hakuhĩ</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76799,6 +77958,14 @@ Nĩũgũkĩrĩrwo nĩ gũcenjia kĩrathi kĩa nodi ũhũthĩrĩte wĩra wa gũti
         <source>View the sessions of this user</source>
         <translation>Rora ikĩhinda cia mũhũthiri ũyũ</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>Akaunti yaku %login kũrĩ %site rĩu ĩrahũthĩrwo gũtoonya kuuma handũ ĩtatoonyete kuuma mahinda maya:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>Handũ hakuhĩ</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76837,6 +78004,10 @@ Nĩũgũkĩrĩrwo nĩ gũcenjia kĩrathi kĩa nodi ũhũthĩrĩte wĩra wa gũti
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%browser kũrĩ %os</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Ripoti ya gũtoonya</translation>
     </message>
 </context>
 <context>
@@ -77045,6 +78216,82 @@ Nĩũgũkĩrĩrwo nĩ gũcenjia kĩrathi kĩa nodi ũhũthĩrĩte wĩra wa gũti
         <source>The passkey could not be checked. Please try again.</source>
         <translation>Kĩhingũri kĩa hitho gĩtiahotetwo gũthuthuria. Ndagũthaitha geria rĩngĩ.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>Akaunti iria ciĩngĩraga na ihingũrio cia hitho tu itingĩhũthĩra kiugo kĩa hitho haha: thuura &quot;Ingĩra na kĩhingũri kĩa hitho&quot;.</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>Ihingũrio cia hitho cia %login</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>Ihingũrio cia hitho iria akaunti ĩno ĩĩngĩragĩra nacio. Cooria kĩrĩa kĩrĩ kĩndũ-inĩ kĩrĩa kĩorire kana gĩkĩiywo: gĩtingĩhota gũtũmĩrwo kũingĩra rĩngĩ. Mwene akaunti nĩwe wongagĩrĩra njerũ we mwene.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>Akaunti yaku nĩĩrabatara kĩhingũri kĩa hitho</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>Ongerera akaunti yaku kĩhingũri kĩa hitho</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>Ongerera kĩhingũri kĩa hitho nĩguo ũthiĩ na mbere. Thuutha ũcio ũkũingĩra nakĩo handũ ha kiugo kĩa hitho kĩrĩ kĩiki.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>Kũingĩra na kĩhingũri kĩa hitho nĩ kwa ihenya na kwa ũgitĩri gũkĩra kiugo kĩa hitho. Ongerera kĩmwe rĩu, kana ũthiĩ na mbere ũtarĩ nakĩo.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>Ti rĩu</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>Cooria kĩhingũri kĩa hitho &quot;%name&quot;?</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>Gĩtingĩhota gũtũmĩrwo kũingĩra akaunti ĩno rĩngĩ. Angĩkorwo nĩkĩo kĩa kũrigĩrĩria, mwene akaunti nĩekũingĩra na kiugo kĩa hitho, kana wee ũige kĩerũ.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>Cooria kĩhingũri kĩa hitho</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>Cooria</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>Akaunti ĩno ndĩrĩ na kĩhingũri kĩa hitho.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>Kĩthibitisha</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Gĩtooĩkaine</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>Kĩhingũri gĩaku kĩa hitho kĩa kũrigĩrĩria: ongerera kĩngĩ mbere ya gũkĩehereria.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>Akaunti ĩno ĩĩngĩraga na ihingũrio cia hitho tu (watho wa ihingũrio cia hitho): hatarĩ kĩrĩa gĩtigarĩte, ĩĩngĩraga rĩngĩ na kiugo kĩayo kĩa hitho.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>Gĩkĩ nĩkĩo kĩhingũri gĩaku kĩa hitho kĩa kũrigĩrĩria na akaunti yaku ndĩngĩhota kũingĩra ĩtarĩ nakĩo. Ongerera kĩhingũri kĩngĩ kĩa hitho mbere.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>Kĩhingũri kĩa hitho &quot;%name&quot; nĩgĩacooruo. Gĩtingĩhota gũtũmĩrwo kũingĩra akaunti ĩno rĩngĩ.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77144,6 +78391,34 @@ Nĩũgũkĩrĩrwo nĩ gũcenjia kĩrathi kĩa nodi ũhũthĩrĩte wĩra wa gũti
         <source>Code from your authenticator app</source>
         <translation>Kĩndũ kĩa namba kuuma programu yaku ya ũhingũrĩri</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>Nĩ ũrenda gũthiria data biũ kana gũtheria rekodi ya mawĩra.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>Kiugo gĩaku kĩa hitho na kĩhingũri kĩa hitho</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>Kiugo gĩaku kĩa hitho na kĩara kuuma thoroga yaku ya gũthibitisha</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>Kana:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>Mbaratha ĩno ndĩngĩhota kũhũthĩra ihingũrio cia hitho. Hũthĩra njĩra ĩngĩ, kana mbaratha ĩngĩ.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>Ũngĩthiĩ na mbere, mbaratha yaku nĩĩkũrĩa kĩmwe kĩa ihingũrio ciaku cia hitho.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>Thiĩ na mbere na kĩhingũri kĩa hitho</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77234,6 +78509,70 @@ Nĩũgũkĩrĩrwo nĩ gũcenjia kĩrathi kĩa nodi ũhũthĩrĩte wĩra wa gũti
     <message>
         <source>Setup</source>
         <translation>Mwambĩrĩria</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>Gũcenjia kiugo kĩa hitho kĩa mwene, adiresi ya imeri, ihingũrio cia hitho, kũingĩra kwa ngũmbĩ igĩrĩ, ciara cia gũcookia kana ihingũrio cia API, na kũruta indo ingĩ cia mwene.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>Kũmba na gũcenjia ahũthiri, ciugo ciao cia hitho na indo ciao, mĩtaratara ya akaunti, gwĩtĩkĩra kana kũrega akaunti njerũ cia ahũthiri, kũheana marolo na gũcenjia mawatho.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>Gũthiria data</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>Gũtheria kĩgira kĩa mahuti, kũehereria indo kuuma kuo na kũehereria indo nyingĩ hamwe.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>Kũehereria, gũcabithia na kũiga ũhoro</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>Kũehereria ũhoro (o na gũũtwara kĩgira-inĩ kĩa mahuti), gũcabithia na kũiga ndrafti; kũũragio rĩrĩa fomu yatũmwo. Nĩ kũhingĩtwo kuuma kĩambĩrĩria.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>Mbere ya wĩra wa bata, mũhũthiri ũrĩa wĩngĩrĩte nĩathibitithagia rĩngĩ nũũ: na kiugo gĩake kĩa hitho na kĩhingũri kĩa hitho, kana atarĩ na kĩhingũri kĩa hitho na kiugo gĩake kĩa hitho na kĩara kĩa thoroga yake ya gũthibitisha. Mathamba ma web moiki nĩmo moragia: interface ya REST, SOAP, WebDAV, kũingĩra kwa expservices na mũhari wa watho matiũragia o na rĩ.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>Kũrĩa mĩtaratara ĩrutaga wĩra</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>Mĩtaratara ya</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>O njĩra ya saiti</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>Njĩra ya saiti %name tu</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Hingũra</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>Ũrĩa ũrooragio: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>Ikĩra rũthiomi ikundi cia ahũthiri nĩguo ũũrie amemba ao tu (ta acenjia). Hatarĩ ĩrĩ na rũthiomi: o mũhũthiri.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>Nĩĩigĩtwo thiinĩ wa settings/override/site.ini.append.php, nĩ ũndũ wa o njĩra ya saiti. Kũiga nĩgũkũũria ũthibitithie atĩ nĩ wee.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>Nĩĩigĩtwo thiinĩ wa settings/siteaccess/%name/site.ini.append.php. Mũigana thiinĩ wa settings/override nĩũkĩrĩte ũyũ. Kũiga nĩgũkũũria ũthibitithie atĩ nĩ wee.</translation>
     </message>
 </context>
 <context>
@@ -77331,11 +78670,6827 @@ Nĩũgũkĩrĩrwo nĩ gũcenjia kĩrathi kĩa nodi ũhũthĩrĩte wĩra wa gũti
     <name>design/standard/mail</name>
     <message>
         <source>If the button does not work, copy this address into your browser: %url</source>
-        <translation>Angĩkorwo gĩthũngũ gĩtĩkĩrĩte gwĩka wĩra, kobia anwani ĩno thĩinĩ wa kĩnyamũ gĩaku kĩa ũthakia: %url</translation>
+        <translation>Angĩkorwo gĩthũngũ gĩtĩkĩrĩte gwĩka wĩra, kobia anwani ĩno thĩinĩ wa kĩrorero gĩaku: %url</translation>
     </message>
     <message>
         <source>Open the page</source>
         <translation>Hingũra ũrũa</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from nginya %to harĩ %count</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>Rĩĩtwa rĩa kwingĩra kana ID ya mũhũthiri: akaunti ĩrĩa ũndũ ũcio ũgwatanĩte nayo kana mũhũthiri ũrĩa wĩkire ũndũ ũcio.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Akaunti</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Ũndũ ũgwĩkwo</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>Thutha</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>Ũthiĩ o wothe</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Mbere</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Wĩkĩte</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Theria</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Nĩ gwĩkĩtwo</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>Maũndũ mamenyagĩrwo mĩthenya %days.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>Maũndũ mamenyagĩrwo nginya maehererio na guoko.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Maũndũ</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>Ũndũ o wothe</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>Maũndũ mothe ma akaunti ĩno</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>Tũma nja mũtaratara ta CSV (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Nĩ ĩoire</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Kuuma</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>Nyihia mũtaratara</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>Gũtirĩ ũndũ ũringaine.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Ũrũa o ũrũa</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>Kwandĩka nĩ gũhingĩtwo thĩinĩ wa audit.ini ([UserAuditSettings] UserAudit); mũtaratara uonanagia kĩrĩa kĩandĩkĩtwo mbere.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Nĩ kũregetwo</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Ũthiĩ</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Rora</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>Tebo ya rekodi ya gũthingata ya ahũthiri ndĩrĩ kuo. Mĩumbe na php update/common/scripts/6.0/createuseraudittable.php; nginya hĩndĩ ĩyo, mafaili ma gũthingata nĩ mamenyagĩrĩra ũndũ o wothe.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>Ũrũa rũrũ nĩ rũbataraga kĩigĩro kĩa data kĩa SQL; rũtirĩ kuo harĩ MongoDB. Mafaili ma gũthingata nĩ mamenyagĩrĩra ũndũ o wothe.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Nginya</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Rekodi ya gũthingata ya ahũthiri</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Mũhũthiri</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Hĩndĩ</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Handũ</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>Ũrĩa wacenjirie, woombire, wahingũrire, wahingire, wathamirie kana weheririe akaunti ĩrĩkũ, ũrĩa wegingĩrire kana akĩregwo, na marolo marĩa maheirwo: mũhari ũmwe harĩ o ũndũ, hamwe na mĩhari ya mbere na ya thutha. Ciugo cia hitho na maũndũ ma hitho matiandĩkagwo o na rĩ.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>gĩkundi</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>mũhaka</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>gĩtooĩkaine</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>Gitĩra akaunti yaku</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>Kodi ya gũcookia nĩ yahũthĩrirwo gũtoonya akaunti yaku %login kũrĩ %site.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>Kodi ya gũcookia nĩ yahũthĩrirwo</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Akaunti</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>Anwani ya hakuhĩ</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>Itia kiugo kĩa hitho kĩerũ nĩguo ũtoonye rĩngĩ, kana ũaranie na arũgamĩrĩri a website.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>Itia kiugo kĩa hitho kĩerũ</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>O kodi ya gũcookia ĩrutaga wĩra rĩmwe tu. Angĩkorwo nĩ wũrirwo nĩ thimu yaku, haarĩria rĩngĩ app yaku ya gũtĩkĩria na ũige kodi njerũ cia gũcookia handũ harĩ na ũgitĩri.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>Kũgeria gũtoonya kũrĩa kwaremirwo akaunti-inĩ yaku</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>Kuuma rĩu, gũtoonya nĩ kũkũũria kodi hamwe na kiugo gĩaku kĩa hitho. Angĩkorwo nĩ wee wekire ũguo, ndwagĩrĩirwo nĩ gwĩka ũndũ.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>Angĩkorwo nĩ wee na nĩ ũriganĩirwo nĩ kiugo gĩaku kĩa hitho, itia kĩerũ. Angĩkorwo ti wee, thuura kiugo kĩa hitho kĩrĩ na hinya makĩria na ũhingũre kũingĩra kwa ngũmbĩ igĩrĩ.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>Angĩkorwo ti wee, no gũkorwo kũrĩ mũndũ ũũĩ kiugo gĩaku kĩa hitho: gĩcenjie rĩu na ũrore kũrĩa akaunti yaku ĩtoonyete.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>Kodi cia gũcookia iria ciatigara</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>Thuthuria ikĩfaa ciaku</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>Ũmenyithia wa ũgitĩri</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>Mũndũ nĩ ageririe gũtoonya akaunti yaku %login kũrĩ %site na kiugo kĩa hitho gĩtarĩ kĩo maita %count marũmanĩrĩire.</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>Nĩ kwagĩire ũndũ wa ũgitĩri akaunti-inĩ yaku %login kũrĩ %site.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>Ũyũ nĩ ũmenyithia wa ũgitĩri ũkoniĩ akaunti yaku. Ũtũmagwo o rĩrĩa kwagĩa ũgarũrũku ta ũyũ na ndũngĩhingwo.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Ihinda</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>Kũingĩra kwa ngũmbĩ igĩrĩ nĩ kwahingirwo akaunti-inĩ yaku %login kũrĩ %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>Kũingĩra kwa ngũmbĩ igĩrĩ nĩ kwahingirwo</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>Kũingĩra kwa ngũmbĩ igĩrĩ nĩ kwahingũrirwo akaunti-inĩ yaku %login kũrĩ %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>Kũingĩra kwa ngũmbĩ igĩrĩ nĩ kwahingũrirwo</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>Akaunti yaku %login kũrĩ %site nĩ yahingirwo thuutha wa kũremwo nĩ gũtoonya maita maingĩ mũno.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>Akaunti yaku rĩu ĩrĩgitĩirwo nĩ kiugo gĩaku kĩa hitho kiki. Angĩkorwo ti wee wekire ũguo, hingũra rĩngĩ kũingĩra kwa ngũmbĩ igĩrĩ thuutha wa gũcenjia kiugo gĩaku kĩa hitho.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>Akaunti yaku nĩ yahingirwo</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>Kĩhingũri kĩa hitho nĩkĩongereirwo akaunti-inĩ yaku %login kũrĩ %site.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>Mũndũ o wothe ũrĩ na kĩhingũri gĩkĩ kĩa hitho no ahote kũingĩra akaunti yaku atarĩ na kiugo gĩaku kĩa hitho. Angĩkorwo ti wee wakĩongereire, gĩkĩehererie rungu rwa Ihingũrio cia hitho na ũcenjie kiugo gĩaku kĩa hitho.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>Kĩhingũri kĩa hitho nĩkĩeherio kuuma akaunti-inĩ yaku %login kũrĩ %site.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>Gĩtingĩhota gũtũmĩrwo kũingĩra akaunti yaku rĩngĩ. Angĩkorwo ti wee wakĩeheririe, rora ihingũrio ciaku cia hitho na indo ciaku.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>Kĩhingũri kĩa hitho nĩkĩongereirwo akaunti-inĩ yaku</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>Kĩhingũri kĩa hitho nĩkĩeherio kuuma akaunti-inĩ yaku</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>Mawĩra ma ũgitĩri</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Mawĩra ma ũgitĩri ma %name</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Nĩ atoonyire</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Kũgeria gũtoonya kũrĩa kwaremirwo</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Nĩ oimire</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Ihinda nĩ ciarutirwo nja</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Gũtoonya kuuma kĩfaa-inĩ kĩerũ</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Gũtoonya kuuma handũ herũ</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Ũtũũro wa mũndũ nĩ watĩkĩrĩtio (&quot;Thibitisha atĩ nĩ wee&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Gũthuthuria ũtũũro wa mũndũ nĩ kwaremirwo</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Nĩ atoonyire na kĩhingũrio kĩa hitho</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Gũtoonya na kĩhingũrio kĩa hitho nĩ kwaremirwo</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Gũtoonya nĩ kwaregwo: kodi ya ngũmbĩ ya kerĩ ndĩrĩ kana ti yo</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Kodi ya ngũmbĩ ya kerĩ ti yo</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Akaunti nĩ yahingirwo thuutha wa kũremwo nĩ gũtoonya</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Akaunti nĩ yahingũrirwo</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Kiugo kĩa hitho nĩ gĩacenjirio</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Gũcenjia kiugo kĩa hitho nĩ kwaremirwo</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Kiugo kĩa hitho nĩ gĩacookirio rĩngĩ</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Kiugo kĩa hitho kĩerũ nĩ kĩetirio</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Anwani ya imeili nĩ yacenjirio</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Rĩĩtwa rĩa mũhũthiri nĩ rĩacenjirio</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Kũingĩra kwa ngũmbĩ igĩrĩ nĩ kwahingũrirwo</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Kũingĩra kwa ngũmbĩ igĩrĩ nĩ kwahingirwo</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Kodi ya gũcookia nĩ yahũthĩrirwo</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Kodi njerũ cia gũcookia</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Kiugo kĩa hitho kĩa porogiramu nĩkĩathondekirwo</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Kiugo kĩa hitho kĩa porogiramu nĩkĩacooriirwo</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Kĩhingũrio kĩa hitho nĩ kĩongereirwo</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Kĩhingũrio kĩa hitho nĩ kĩeheririo</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Akaunti nĩ yahingũrirwo ĩrute wĩra</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Akaunti nĩ yahingirwo ĩtige kũruta wĩra</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Ciothe</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Gũtoonya na ihinda</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Mogarũrũku ma akaunti</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Nĩ ĩbatarĩte kũroragwo</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>nĩ wee</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>nĩ mũhũthiri</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>nĩ %login</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>Njĩra</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>Kivinjari</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>Mũhaka wa kĩfaa</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Kĩfaa</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>Handũ</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>Bũrũri</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Ihinda</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>Iria</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>Njĩra ya gũtũma</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Kũgeria kũrĩa kwaremirwo</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>Kodi iria ciatigara</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>Mũhũthĩrĩria wa gũtoonya</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Mawĩra ma ũgitĩri</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Mawĩra ma ũgitĩri ma %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Gũtoonya na mogarũrũku ma ũgitĩri wa akaunti yaku. Ũngĩona ũndũ ũtekire, cenjia kiugo gĩaku kĩa hitho na ũrute nja ikĩfaa iria ũtooĩ.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>Gũtoonya na mogarũrũku ma ũgitĩri wa akaunti ĩno.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Ikĩfaa ciaku</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Cenjia kiugo kĩa hitho</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>Cooka akaunti-inĩ</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>Mawĩra ma ũgitĩri matiandĩkagwo</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>Ĩthomagwo kuuma rekodi-inĩ ya ũkaguzi wa ahũthiri, ĩrĩa thanduku yayo ya data expuser_audit ĩtarĩ kana ĩtateithĩkagĩrwo kĩigĩro-inĩ kĩĩ kĩa data. Tengeria php update/common/scripts/6.0/createuseraudittable.php, kana gũcookerithia kĩigĩro kĩa data kwa 6.0.15.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Mĩthenya %days ĩrĩa ĩhĩtũku</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Gũtoonya mĩthenya-inĩ %days ĩrĩa ĩhĩtũku</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>Mawĩra ma ũgitĩri ma ica ĩno</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Rora</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>nĩ kwaremirwo</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>nĩ kwaregwo</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Gũtirĩ mawĩra ma ũgitĩri marĩ mandĩke.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>Maũndũ ma ũgitĩri maigagwo mĩthenya %days.</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>Maũndũ ma ũgitĩri maigagwo nginya mũrũgamĩrĩri amehererie.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Ikũrũkia data yakwa ya gũtoonya</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Ihinda ciaku na maũndũ ma ũgitĩri ta faili ya JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Ihinda cia gũtoonya itiandĩkagwo kũrĩ thaiti ĩno, nĩ ũndũ ũcio gũtirĩ kĩfaa kĩngĩ kĩngĩehirio. Cenjia kiugo gĩaku kĩa hitho rĩu.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>Ihinda cia gũtoonya %count iria ingĩ nĩ ciaumirio. Rĩu cenjia kiugo gĩaku kĩa hitho.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Gũtirĩ kĩfaa kĩngĩ kĩarĩ gĩtoonyete. Rĩu cenjia kiugo gĩaku kĩa hitho.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Nĩ ngatho. Ũndũ ũyũ nĩ wamenyithanio ta waku.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Ũndũ ũcio ndũbataire icookio.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Ihinda rĩa ũrathi rĩrĩ rĩathira. Gũtirĩ ũndũ wacenjirio; ndagũthaitha geria rĩngĩ.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Gitĩra akaunti yaku</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Angĩkorwo kũrĩ ũndũ haha ũtaarĩ wee, umia ikĩfaa ciothe iria ingĩ, ningĩ ũthuure kiugo kĩa hitho kĩerũ. Ikĩfaa iria ciatigwo itoonyete na Ririkana niĩ o nacio nĩ ciumagio.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>O kĩfaa kĩrĩa kĩngĩ tiga gĩkĩ nĩ kĩumagio hĩndĩ ya ũhoro wakĩo ũrĩa ũrũmĩrĩire. Thuutha ũcio ũgathuura kiugo kĩa hitho kĩerũ.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Ĩĩ, umia ikĩfaa iria ingĩ</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Nĩ wee warĩ?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Ĩĩ, nĩ niĩ</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Aca, gitĩra akaunti yakwa</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Nĩ atoonyire</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Kũgeria gũtoonya kũrĩa kwaremirwo</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Nĩ oimire</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Ihinda nĩ ciarutirwo nja</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Gũtoonya kuuma kĩfaa-inĩ kĩerũ</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Gũtoonya kuuma handũ herũ</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Ũtũũro wa mũndũ nĩ watĩkĩrĩtio (&quot;Thibitisha atĩ nĩ wee&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Gũthuthuria ũtũũro wa mũndũ nĩ kwaremirwo</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Nĩ atoonyire na kĩhingũrio kĩa hitho</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Gũtoonya na kĩhingũrio kĩa hitho nĩ kwaremirwo</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Gũtoonya nĩ kwaregwo: kodi ya ngũmbĩ ya kerĩ ndĩrĩ kana ti yo</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Kodi ya ngũmbĩ ya kerĩ ti yo</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Akaunti nĩ yahingirwo thuutha wa kũremwo nĩ gũtoonya</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Akaunti nĩ yahingũrirwo</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Kiugo kĩa hitho nĩ gĩacenjirio</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Gũcenjia kiugo kĩa hitho nĩ kwaremirwo</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Kiugo kĩa hitho nĩ gĩacookirio rĩngĩ</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Kiugo kĩa hitho kĩerũ nĩ kĩetirio</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Anwani ya imeili nĩ yacenjirio</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Rĩĩtwa rĩa mũhũthiri nĩ rĩacenjirio</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Kũingĩra kwa ngũmbĩ igĩrĩ nĩ kwahingũrirwo</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Kũingĩra kwa ngũmbĩ igĩrĩ nĩ kwahingirwo</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Kodi ya gũcookia nĩ yahũthĩrirwo</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Kodi njerũ cia gũcookia</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Kiugo kĩa hitho kĩa porogiramu nĩkĩathondekirwo</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Kiugo kĩa hitho kĩa porogiramu nĩkĩacooriirwo</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Kĩhingũrio kĩa hitho nĩ kĩongereirwo</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Kĩhingũrio kĩa hitho nĩ kĩeheririo</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Akaunti nĩ yahingũrirwo ĩrute wĩra</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Akaunti nĩ yahingirwo ĩtige kũruta wĩra</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Ciothe</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Gũtoonya na ihinda</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Mogarũrũku ma akaunti</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Nĩ ĩbatarĩte kũroragwo</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Mawĩra ma ũgitĩri</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Mawĩra ma ũgitĩri ma %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Gũtoonya na mogarũrũku ma ũgitĩri wa akaunti yaku. Ũngĩona ũndũ ũtekire, cenjia kiugo gĩaku kĩa hitho na ũrute nja ikĩfaa iria ũtooĩ.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Ikĩfaa ciaku</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Cenjia kiugo kĩa hitho</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>Mawĩra ma ũgitĩri matirĩ mandĩkagwo website-inĩ ĩno.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Gũtoonya mĩthenya-inĩ %days ĩrĩa ĩhĩtũku</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Kũgeria kũrĩa kwaremirwo</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Gũtirĩ mawĩra ma ũgitĩri marĩ mandĩke.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Ikũrũkia data yakwa ya gũtoonya</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Ihinda ciaku na maũndũ ma ũgitĩri ta faili ya JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Ihinda cia gũtoonya itiandĩkagwo kũrĩ thaiti ĩno, nĩ ũndũ ũcio gũtirĩ kĩfaa kĩngĩ kĩngĩehirio. Cenjia kiugo gĩaku kĩa hitho rĩu.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>Ihinda cia gũtoonya %count iria ingĩ nĩ ciaumirio. Rĩu cenjia kiugo gĩaku kĩa hitho.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Gũtirĩ kĩfaa kĩngĩ kĩarĩ gĩtoonyete. Rĩu cenjia kiugo gĩaku kĩa hitho.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Nĩ ngatho. Ũndũ ũyũ nĩ wamenyithanio ta waku.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Ũndũ ũcio ndũbataire icookio.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Ihinda rĩa ũrathi rĩrĩ rĩathira. Gũtirĩ ũndũ wacenjirio; ndagũthaitha geria rĩngĩ.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Gitĩra akaunti yaku</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Angĩkorwo kũrĩ ũndũ haha ũtaarĩ wee, umia ikĩfaa ciothe iria ingĩ, ningĩ ũthuure kiugo kĩa hitho kĩerũ. Ikĩfaa iria ciatigwo itoonyete na Ririkana niĩ o nacio nĩ ciumagio.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>O kĩfaa kĩrĩa kĩngĩ tiga gĩkĩ nĩ kĩumagio hĩndĩ ya ũhoro wakĩo ũrĩa ũrũmĩrĩire. Thuutha ũcio ũgathuura kiugo kĩa hitho kĩerũ.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Ĩĩ, umia ikĩfaa iria ingĩ</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Nĩ wee warĩ?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Ĩĩ, nĩ niĩ</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Aca, gitĩra akaunti yakwa</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>Kiugo kĩa hitho</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>Kiugo kĩa hitho na kodi ya ngũmbĩ ya kerĩ</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>Interface ya REST</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>Interface ya SOAP</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>Gũtoonya rĩmwe (single sign-on)</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>Nĩ atoonyire mbere ya ihinda kwambĩrĩria kwandĩkwo</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Ripoti ya gũtoonya</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>Nũũ ũtoonyete website-inĩ, akaunti itoonyaga na ikaremwo maita meigana atĩa, na kũruta mũhũthiri nja kũrĩa gũothe. Ĩrutaga wĩra na mũhũthĩrĩria o wothe wa ikĩhinda.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>Kĩhinda nĩ kĩarutirwo nja. Kĩfaa nĩ kĩagĩrĩirwo gũtoonya rĩngĩ.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>%login nĩ arutirwo nja ihinda-inĩ %count.</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>%login ndaarĩ na kĩhinda kĩrĩa kĩrathiĩ.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>Gũtirĩ akaunti ĩrĩ na ID ĩyo, rĩĩtwa rĩu rĩa mũhũthiri kana anwani ĩyo ya imeili.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>Gĩkĩ nĩkĩo kĩhinda kĩrĩa ũrahũthĩra. Nĩguo ũgĩthirie, uma.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>Kĩhinda kĩu nĩ kĩarĩkĩtie gũthira.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Ihinda rĩa ũrathi rĩrĩ rĩathira. Gũtirĩ ũndũ wacenjirio; ndagũthaitha geria rĩngĩ.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>Ihinda itiandĩkagwo website-inĩ ĩno (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>Thanduku ya data expuser_session ndĩrĩ</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>Ihinda nĩ ciandĩkagwo o rĩrĩa ĩrathondekwo: php update/common/scripts/6.0/createusersessiontable.php, kana gũcookerithia kĩigĩro kĩa data kwa 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>Rĩu na ũmũthĩ</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>Ihinda iria irathiĩ</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>Ahũthiri arĩa matoonyete</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>Gũtoonya kwa ũmũthĩ</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>Kũgeria kũrĩa kwaremirwo ũmũthĩ</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>Ruta mũhũthiri nja kũrĩa gũothe</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>O kĩhinda kĩa akaunti gĩthiraga hĩndĩ ya ũtiia ũrĩa ũrũmĩrĩire, o na iria iigĩtwo nĩ &quot;Ndũmenye&quot;. Hũthĩra ũndũ ũyũ rĩrĩa akaunti ĩngĩkorwo ĩrĩ moko-inĩ mataagĩrĩire; thuutha ũcio cookia kiugo kĩayo kĩa hitho rĩngĩ.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>ID ya mũhũthiri, rĩĩtwa rĩa mũhũthiri kana anwani ya imeili</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>Ekia nja kũrĩa gũothe</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>Atoonyete rĩu</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>Ihinda %limit iria ihũthĩrĩtwo ica ĩno makĩria nĩcio ironanio.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Mũhũthiri</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Kĩfaa</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Anwani</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>Nĩ atoonyire</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>Wĩra wa mũthia</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Ciĩko</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>Kĩfaa gĩkĩ</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Gĩtiandĩkĩtwo</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>Ekia nja</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>Gũtirĩ kĩhinda gĩtoonyete.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Mĩthenya %days ĩrĩa ĩhĩtũku</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>Gũtoonya na kũgeria kũrĩa kwaremirwo gũtaragwo kuuma rekodi-inĩ ya ũkaguzi wa ahũthiri, ĩrĩa ĩtarĩ; ihinda njerũ nĩcio itaragwo.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>Mũthenya</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>Gũtoonya</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Kũgeria kũrĩa kwaremirwo</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>Ihinda njerũ</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>Mũhũthĩrĩria wa ikĩhinda: %handler. Ihinda ithomagwo kuuma thanduku-inĩ ya data expuser_session, nĩ ũndũ ũcio ripoti ĩrutaga wĩra na mũhũthĩrĩria o wothe.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>Mawĩra ma gwĩkĩrwo nganja mathaa-inĩ %hours marĩa mathirĩte</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>Mũtandao ũmwe nĩ waremirwo nĩ gũtoonya akaunti %accounts (kũgeria %count)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Akaunti nĩ yahingĩrwo thuutha wa gũtoonya kũrĩa kwaremirwo</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>Gũtoonya %count kũrĩa kwaremirwo akaunti-inĩ ĩmwe</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>Nĩ ĩtoonyete kuuma mabũrũri %count hĩndĩ ĩmwe</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Mawĩra ma ũgitĩri</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Ihinda cia gũtoonya</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>Gũtoonya kũrĩa kwaremirwo nĩ gũthomagwo kuuma rekondi ya ũthuthuria ya arĩa marahũthĩra, ĩrĩa ĩtarĩ haha.</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>Gũtirĩ ũndũ wa nganja: gũtirĩ akaunti ĩrĩ na gũtoonya kwaremirwo kaingĩ, gũtirĩ mũtandao ũrageria akaunti nyingĩ, gũtirĩ akaunti ĩtoonyete kuuma mabũrũri maingĩ.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>Ũmenyithia wa ũgitĩri wa akaunti yaku</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>Nĩ kwagĩire ũndũ wa ũgitĩri akaunti-inĩ yaku %login: %event. Angĩkorwo ti wee, gitĩra akaunti yaku kũrĩ %url.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Mwambĩrĩria</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>Ũria maũndũ ma saiti ĩno mĩena ĩrĩa karatathi kabataire tu, na ihooyo rĩmwe. Skima ĩrũmagĩrĩra mĩthemba ya maũndũ; o ihooyo rĩtengagĩrio na kĩhooto kĩa mũhũthĩri ũrĩrĩtũmĩte.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>GraphQL API nĩ ĩhingĩtwo njĩra-inĩ ĩno ya saiti. Mĩĩhingũre thĩinĩ wa graphql.ini: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>Mũthithũ wa GraphQL (webonyx/graphql-php 15) ndũrĩ mũhande.</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>Mũthia wa njĩra</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>Mũthithũ wa mabuku</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>Skima</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>Mĩthemba ya maũndũ %count, skima %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>Ihooyo</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>Mĩgarũrũko (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Tengeria</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>Ũcookio</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>Nĩ kũratengeria…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>Ũcookio ndũngĩthomeka.</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>Ihooyo rĩtengagĩrio na kĩhooto gĩaku, ũtonyete na kĩhinda gĩkĩ.</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%count thĩinĩ wa %seconds s</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>hatirĩ mũhaka</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>Ũriku</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>Ũritũ</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>Indo o mũrongo-inĩ</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (ya mbere %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>Mahooya o mũhũthĩri kana kĩmenyo</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>Mahooya o adrethi ĩtamenyekaga</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>Introspection</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>Ciũria iria ciigĩtwo tu</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>Kĩũria kĩnene mũno</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>baiti %bytes</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>Kwambatĩria kũnene mũno</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>Gũtirĩ njĩra ya saiti %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>Macenjio nĩ mahingũrĩtwo thĩinĩ wa %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>Macenjio nĩ mahingĩtwo thĩinĩ wa %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>GraphQL API nĩ ĩhingũrĩtwo thĩinĩ wa %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>GraphQL API nĩ ĩhingĩtwo thĩinĩ wa %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>Mĩtaratara ndĩngĩandĩkwo: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>Kĩigĩro kĩa ihenya kĩa macokio nĩ gĩthererio: macokio %count nĩ meherio.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>Hũra kabokisi karĩa karĩ hakuhĩ na kĩũria nĩguo ũkĩeherie.</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>Kĩũria gĩtingĩeherio: kĩũria kĩrĩa kĩheanĩtwo thĩinĩ wa ndairekitarĩ ya PersistedQueryDirectoryList[] kĩeheragio hamwe na faili yakĩo.</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>Kĩũria kĩigĩtwo nĩ kĩeherio.</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>Macenjio</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>ĩhingũrĩtwo</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>ĩhingĩtwo</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Njĩra cia saiti</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>Harĩa API na macenjio mayo macokagia. Mabatani macio maandĩkaga graphql.ini, o ta ũrĩa ./console exp:graphql:enable na exp:graphql:disable ĩĩkaga.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Njĩra ya saiti</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>GraphQL API</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Cenjia</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Hinga</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>Macenjio mahingĩtwo</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>Macenjio mahingũrĩtwo</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Hingũra</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>Mĩhaka</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>graphql.ini [GraphQLSettings] ya njĩra ĩno ya saiti.</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>Kĩigĩro kĩa ihenya kĩa macokio</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>Macokio ma ciũria iria ciigĩtwo, maigagwo kũringana na kĩhooto kĩa mũhũthĩri na magathira hĩndĩ o yothe ũhoro waumbũrwo.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Hali</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>Macokio maigĩtwo</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>macokio %count, baiti %bytes</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>Kũiga mũno makĩria</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds s</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>Gũthira kwa mũthia</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>Theria kĩigĩro kĩa ihenya kĩa macokio</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>Ciũria iria ciigĩtwo</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>Ciigagwo na ./console exp:graphql:persist, kana nĩ aguri (automatic persisted queries); ciĩtagwo na rĩĩtwa kana SHA-256.</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>Marĩĩtwa</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Ũnene</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Harĩkũ</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Ehereria</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>kĩheanĩtwo</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>kĩigĩtwo</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>Ĩĩ, eheria kĩũria gĩkĩ</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>Gũtirĩ kĩũria kĩigĩtwo o na rĩu.</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>Imenyo cia API</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>Imenyo cia API cia mũndũ kĩũmbe irĩ na sikopu graphql:read (ciũria) kana graphql:write (macenjio). Ithondeke na ũcieherie karatathi-inĩ ka Gũtonya API, kana na ./console exp:graphql:keys.</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>Gũtonya API</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>Imenyo ciothe</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>Kĩmenyo</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Rĩĩtwa</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Mwene</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>Sikopu</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>Kũhũthĩrwo kwa mũthia</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>wĩra-inĩ</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>nĩ ĩthirĩte</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>nĩ ĩeheretio</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>ndũkigathirĩ</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>Gũtirĩ kĩmenyo kĩa API kĩrĩ na sikopu ya GraphQL o na rĩu.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>GraphQL API nĩ ĩhingĩtwo njĩra-inĩ ya saiti %siteaccess, ĩrĩa ĩronania ũrũa rũrũ; tebũrũ ĩrĩ hau thĩ ĩronania harĩa ĩcokagia.</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>Nĩ ũndũ wa njĩra ya saiti %siteaccess, ĩrĩa ĩronania ũrũa rũrũ.</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>Mawebhook</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>O ũndũ ũrĩa mũthia wa njĩra ũũria (publish, update, trash, delete, move, hide, reveal, mutation) ũtũmagwo kuo, ũrĩ na kĩrore, nĩ gĩcunjĩ kĩa cronjob graphqlwebhooks. ./console exp:graphql:webhooks ĩrutaga wĩra o ta gĩcunjĩ gĩkĩ.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Maũndũ</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>mothe</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>O njĩra ya saiti</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>ĩthũkĩte</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>hatarĩ itumbĩ</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>Ĩrĩ gweterera</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count matigĩtwo</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>Gũtũma kwa kũrigĩrĩria</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Tũma kĩgeranio</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>Ĩĩ, eheria webhook ĩno</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>Gũtirĩ webhook o na rĩu.</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>Ongerera webhook</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>Ongerera</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>Gũtũma kwa hĩndĩ ĩno</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Ihinda</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Mũrĩkĩrĩrio</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>Ũrũmĩrĩri</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>Mageũrĩro ma rĩu kũrĩ arĩa mahũthagĩra: mũkondo wa maũndũ harĩ /api/graphql/subscribe, na WebSocket (graphql-transport-ws) igũrũ rĩa Velocity. O ũndũ ũthiĩ o kũrĩ arũmĩrĩri arĩa metĩkĩrĩtio gũthoma maũndũ maguo.</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>Ihingũrĩtwo rĩu</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>Mũigana mũnene ũhingũrĩtwo</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>%total wothe, %user o mũhũthĩri, %address o anwani</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>Ũrũmĩrĩri ũtarĩ na rĩĩtwa</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>Ũraihu wa mũkondo</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>Webhook ndĩngĩongereirwo: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>Webhook %name nĩ yacenjirio; itumbĩ rĩayo rĩa kĩrore nĩ rĩtigaraga.</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>Itumbĩ rĩa kĩrore rĩtingĩigirwo (Mwambĩrĩria &gt; Matumbĩ).</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>Webhook %name nĩ yongereirwo. Itumbĩ rĩayo rĩa kĩrore, rĩonanĩtio o riita rĩĩrĩ: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>Gũtirĩ webhook %name.</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>Webhook %name ndĩacokirie: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>Webhook %name nĩ yacokirie %status thĩinĩ wa %ms ms.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>Hũra kabokisi karĩa karĩ hakuhĩ na webhook nĩguo ũmĩeherie.</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>Webhook %name nĩ yeherio.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>GraphQL API nĩ ĩhingĩtwo njĩra-inĩ ĩno ya saiti.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>Raibrarĩ ya GraphQL ndĩrĩ ĩhandĩtwo.</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>Hũthĩra GET kana POST.</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>Mwĩrĩ wa ihooyo ti kĩndũ kĩa JSON.</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables ti kĩndũ kĩa JSON.</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions ti kĩndũ kĩa JSON.</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>Tũma kĩũria na POST.</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>Ihooyo rĩtirĩ na kĩũria.</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>Kĩũria nĩ kĩraihu gũkĩra baiti %max.</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>Ihĩtia rĩa thĩinĩ rĩa sava</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node nĩ ĩbataire kĩmwe tu kĩa id, remoteId, path na urlAlias.</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content nĩ ĩbataire kĩmwe tu kĩa id na remoteId.</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>Kĩonereria kĩa after ti kĩrĩa API ĩno yaheanire.</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>Gũtirĩ rĩĩtwa rĩngĩ rĩa mbica %alias (image.ini [AliasSettings] AliasList[]).</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>Haha nĩ ciũria iria ciigĩtwo tu itĩkagĩrĩtwo: tũma id ya kĩũria kĩigĩtwo.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>Hash ya kĩũria kĩigĩtwo ti SHA-256.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>Hash ya kĩũria kĩigĩtwo ndĩringaine na kĩũria.</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>Mahooya maingĩ mũno: matikĩrĩte %limit thĩinĩ wa sekondi %window. Geria rĩngĩ thuutha wa sekondi %reset.</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>Kĩũria kĩrĩ na ũriku wa mĩtaraga %depth; ĩrĩa ĩtĩkĩrĩtwo ndĩkĩrĩte %max.</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>Kĩũria kĩrĩ na ũhinya wa %complexity; ũrĩa ũtĩkĩrĩtwo ndũkĩrĩte %max.</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>Ihooyo rĩĩrĩ rĩtingĩthoma skima (introspection).</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search nĩ ĩbataire mĩandĩko kana gĩthondeki (classes, subtree, sections, publishedAfter, publishedBefore).</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument ti tarĩkĩ (ISO 8601, 2026-10-30).</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag nĩ ĩbataire kĩmwe tu kĩa id, remoteId na path.</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout nĩ ĩbataire kĩmwe tu kĩa id, identifier na urlAlias.</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>Mũhianĩre wa operations wa ihooyo rĩa multipart ti ihooyo rĩmwe rĩa JSON.</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>Mũhianĩre wa map wa ihooyo rĩa multipart ti kĩndũ kĩa JSON.</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>Ihooyo rĩa multipart rĩtirĩ na faili %field.</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>Njĩra ya mapu ya mĩhianĩre no nginya ĩambĩrĩrie na variables.: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>Faili %name ndĩkinyire yothe (ihĩtia rĩa kwambatĩria %error).</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>Faili %name nĩ nene gũkĩra baiti %max.</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>Faili %name ndĩngĩathimirwo.</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>Macenjio nĩ mahingĩtwo njĩra-inĩ ĩno ya saiti (graphql.ini [GraphQLSettings] MutationsEnabled).</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>Tũma gĩcenjio na POST.</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>Tonya nĩguo ũcenjie ũhoro.</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>Kĩmenyo kĩa API gĩtirĩ na sikopu %scope.</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>Gĩcenjio kĩa kĩhinda kĩbataraga tokeni ya fomu ya kĩhinda kĩu (kĩongo X-CSRF-Token).</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>uploadFromUrl nĩ ĩhingĩtwo: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] ndĩrĩ na host o na ĩmwe.</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>Adrethi no nginya ĩkorwo ĩrĩ adrethi ya https.</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>Host %host ndĩrĩ thĩinĩ wa graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>Faili ndĩngĩarehirwo.</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload nĩ mũthemba wa gũtoonyia tu.</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>Kĩgarũrũki kĩa mũthemba Upload kĩamũkagĩra faili ya ihooyo rĩa multipart.</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>Remote id %remoteId nĩ ĩrĩkĩtie kũoywo.</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>Ũhoro ũyũ nĩ ũrĩ na ũtaũri wa %language: hũthĩra updateContent.</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>Heana mũhianĩre ũmwe kana makĩria.</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>Ũrutwo mwerũ ndũngĩathondekwo (ũhoro ũrĩ na ndrafti nyingĩ mũno).</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>Ũrutwo %version ti ndrafti.</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent nĩ ĩbataire kĩmwe tu kĩa id na nodeId.</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>Handũ hatingĩthamio rungu rwaho mwene.</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>Ũhoro ũyũ nĩ ũrĩ na handũ rungu rwa %parentId.</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>Mũigana wa mũhianĩre %field ndũngĩaigirwo.</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>Gũtirĩ rũthiomi rwa ũhoro %language.</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>Gũtirĩ kĩrathi kĩa ũhoro %class thĩinĩ wa skima.</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>Ũhoro ndũrĩ kuo, kana ndwĩtĩkĩrĩtio kũũthoma.</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>Ndwĩtĩkĩrĩtio gwĩka ũguo ũhoro-inĩ ũyũ.</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>Kĩrathi %class gĩtirĩ na mũhianĩre %field ũngĩandĩkwo.</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>Mũhianĩre %field nĩ ũheanĩtwo maita merĩ.</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>Mũhianĩre %field wamũkagĩra faili: ĩtũme ta kwambatĩria (ihooyo rĩa multipart).</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>Mũhianĩre %field ndwamũkagĩra faili.</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>Mũhianĩre %field nĩ ũbataire mũigana.</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>Mũhiano %format nĩ wa mĩhianĩre ya mwandĩko mũthondeke tu; %field wamũkagĩra mũigana ũrĩa ũrĩ (RAW).</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>Mũhianĩre %field nĩ wa bata.</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>HTML ndĩngĩathomeka.</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content yamũkagĩra version hamwe na id tu.</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>Tokeni ya kuona mbere ti ya ma kana nĩ ĩthirĩte.</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>Ti origin (https://host kana https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>Ti sikopu ya GraphQL API: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>Tũma ũrũmĩrĩri kũrĩ /api/graphql/subscribe (mũkondo wa maũndũ kana WebSocket).</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>Ihooya rĩu rĩtigweta wĩra o na ũmwe wa dokumendi.</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>Ũrũmĩrĩri ũũragia o gĩcunjĩ kĩmwe kĩa ũhoro.</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>Ũrũmĩrĩri mũingĩ mũno nĩ ũhingũrĩtwo; geria rĩngĩ thuutha.</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>Ũrĩ na ũrũmĩrĩri %max ũhingũrĩtwo, ũrĩa mũingĩ wĩtĩkĩrĩtio.</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>Anwani yaku ĩrĩ na ũrũmĩrĩri %max ũhingũrĩtwo, ũrĩa mũingĩ wĩtĩkĩrĩtio.</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>Ũrũmĩrĩri nĩ ũhingĩtwo njĩra-inĩ ĩno ya saiti.</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>Ingĩra nĩguo ũrũmĩrĩre (tokeni kana kĩmenyo kĩaku kĩa API).</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>Tũma macenjio kũrĩ /api/graphql.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>Mĩthamio</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Ũrĩa kĩrĩ ndũngĩathomekire: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Metha cia mĩthamio itirĩ ho rĩu: ./console exp:upgrade --apply nĩĩgũcithondeka.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>Mĩthamio %count nĩyoire</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>Mũtengerio nĩ ũrathiĩ, wambĩrĩirio nĩ %user</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>Ũhandi nĩ mũhingĩre: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Nĩ ĩretereire</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Nĩ ĩoire</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>Itarĩ na mwene</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Mũtengerio wa kũrigĩrĩria</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>gũtirĩ o na ũmwe rĩu</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>Mĩthamio yothe</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>Mũtengerio wa kũhwanania</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>Ũgerio</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>Mĩthamio ĩretereire nĩyatengeririo thĩinĩ wa wĩra wa kĩigĩro ũrĩa wacookirio thuutha: gũtirĩ kĩndũ kĩaigirwo. Na thĩ nĩ harĩ ũrĩa o ũmwe wagarũrire thĩinĩ wa kĩigĩro kĩa data.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>Ũrĩa mũtengerio ũngĩĩka rĩu. Gũtirĩ kĩndũ kĩgũgarũrwo: o mũthamio ũretereire nĩ ũkuonania mũgarũrũko ũrĩa ũngĩĩka, na mũtengerio ũkoonania ũrĩa ũngĩĩka mbere na thuutha.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>Hwanania</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Tengeria</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>Ũgerio nĩ woire: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>Kũhwanania nĩ gũkũbatara PostgreSQL kana SQLite, iria mũgarũrũko wacio wa mũhaano ũngĩcookio; kĩigĩro-inĩ gĩkĩ kĩa data, mũbango ũrĩa ũrĩ na thĩ nĩguo ũrĩa mũtengerio ũngĩĩka.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>Mĩthamio</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>Mũthamio</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Ũrĩa ũrĩ</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>Ũrĩa ũngĩĩka</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>Kũhwanania: %result thĩinĩ wa milisekondi %ms</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>Gũtirĩ mũthamio rĩu.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>Mbere na thuutha wa mũtengerio</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>Mbica ya mbere</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>nĩĩrĩĩkuuo, na ĩcookio rĩrĩa mũthamio woima</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>nĩ kũhingwo</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>Mbica ya thuutha</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>ĩrĩĩkuuo rĩrĩa mũtengerio wahota</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>Mĩthamio %total: %pending ĩretereire, %done nĩĩrĩkĩtie, %failed nĩyoire.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>Rũgano rwa mĩthamio</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>O mũtengerio na mũhũthĩri waguo, mawĩra ma kũhũthĩra, mbica na kĩrĩa kĩarũmirio, gĩkĩheo kĩmenyithia na gĩgĩtũmwo. Mũtengerio woimĩte kana ũtinĩtwo nĩ ũngĩthiĩ na mbere; mũtengerio ũrĩ na mbica yoetwo mbere yaguo nĩ ũngĩcookio.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>Mĩtengerio ndĩngĩathomekire: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Metha cia mĩthamio itirĩ ho rĩu: ./console exp:upgrade --apply nĩĩgũcithondeka.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Onania</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Ciothe</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>Mĩtengerio</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Yambĩrĩirio</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Nĩ</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>Mbica</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Kĩigĩro kĩa code</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Mawĩra</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>mbere</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>thuutha</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>gũtũma: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>Thiĩ na mbere</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Cookia</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>Gũtirĩ mũtengerio ũrĩ ũguo.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>Yambĩrĩirio haha</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>Mĩtengerio, kũthiĩ na mbere na gũcookia kwambĩrĩirio karatathi-inĩ gaka, hamwe na ripoti ya o ũmwe.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Kĩĩ</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Maumĩrĩra</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Gũcookia</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>Gũcookia %target</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>Mũtengerio %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Ũrĩa mũtengerio wekire, rekodi yaguo na rũandĩko rwaguo. Mũtengerio wambĩrĩirio haha nĩ ũthiĩaga na mbere na thuutha rĩrĩa karatathi gaka kahingwo; hingũra karatathi rĩngĩ nĩguo ũũrũmĩrĩre.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>Thiĩ na mbere na mũtengerio ũyũ</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>Cookia mũtengerio ũyũ</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>Rekodi ndĩngĩathomekire: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Ũrĩa ũrathiĩ</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Wambĩrĩirio nĩ %user hĩndĩ ya %time.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>Gũthuthuria code na kuoya mbica mbere ya mũtengerio</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>Nĩ kũratengerio %id (%index kuuma %total)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>%done kuuma %total nĩĩrĩkĩtie</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>Mĩthamio nĩyatengerio; nĩ kũracookio mbica angĩkorwo ũmwe woimĩte</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>Kuoya mbica thuutha wa mũtengerio, kũrũmia, kũhe kĩmenyithia na gũtũma</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>Nĩ kũracookio mbica</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>Mũtengerio nĩ wathira. Ripoti yaguo nĩ ĩrarehwo.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>Ũrĩa ũrathiĩ ndũngĩarũmĩrĩirwo. Cookia karatathi rĩngĩ wone ũrĩa mũtengerio ũrathiĩ.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>Karatathi gaka nĩ karũmagĩrĩra mũtengerio ũrĩa ũrathiĩ.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Cookia rĩngĩ</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Ripoti</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Ihinda</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>milisekondi %ms</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>Kĩrĩa mũtengerio wonanirie ta mahĩtia</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Rekodi</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>Mawĩra ma kũhũthĩra</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>gũtirĩ</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Ĩrĩkĩtie</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Kũrũmia</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Kĩmenyithia</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Gũtũma</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Ndũmĩrĩri</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>Mĩthamio ya mũtengerio ũyũ</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>Kĩhumo</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>Rũandĩko rwa mũtengerio</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>No mũthia wa rũandĩko ũronanio.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>nĩ ũratengerio</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>wathirire hatarĩ ripoti</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>nĩ wahotire</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>nĩ woimĩte</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>nĩ waregirwo</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>kĩigĩro kĩa data gĩtiakinyĩrĩkire</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>ihĩtia rĩa thĩinĩ</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>Mũtengerio nĩ ũrathiĩ</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind wambĩrĩirio nĩ %user hĩndĩ ya %time.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>Ũrũmĩrĩre</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>Ũhandi nĩ mũhingĩre</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>Mũtengerio ũngĩ nĩ ũnyiitĩte kĩhingo (kwagĩrithia kana mũtengerio wa console): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>nĩĩrĩkĩtie</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>nĩ ĩretereire</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>ndĩbataranĩtie</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>ndĩmenyekaine</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>nĩ ĩcookeirio</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>nĩ ĩhũthĩrĩtwo</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>ĩngĩhũthĩrwo</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>nĩ ĩcookeirio</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>ĩngĩcookio</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>ndĩtengerio</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>ĩretereire ĩngĩ</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>mũgarũrũko nĩ wetĩkĩrĩtwo</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>mũgarũrũko ũngĩĩtĩkĩrwo</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>nĩ ĩhwananĩtio</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Mĩthamio</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Ũrĩa kĩrĩ</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Rũgano</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>Cookia %target</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>Mũtengerio ũcookagio mbica-inĩ ĩrĩa yoetwo mbere yaguo, mũthamio ũmwe ũgacookio na down() yaguo. Gũcookia mbica ya tene nĩ ya ataaĩ. O ũmwe ũtengeragio na thuutha ta wee, thuutha wa mbica ya ũrĩa kĩrĩ rĩu.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>Kĩrĩa kĩngĩcookio gĩtingĩathomekire: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>Mũtengerio</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>Mũthamio ũmwe</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>Mbica ya tene</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>Ũtaarĩria</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ĩĩ</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>aca</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Mbica</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Rĩĩtwa</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>Yoetwo</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Mũthemba</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>Icunjĩ cia gũcookia</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>Kĩigĩro kĩa data</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>Faĩlo iria ciigĩtwo (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>Mabangĩ (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>Gũcookia kĩigĩro kĩa data nĩ gũgĩcookagia ihinda-inĩ rĩrĩa mbica yoetwo, hamwe na sesheni: no ũũrio ũtoonye rĩngĩ thuutha. Kĩndũ o gĩothe kĩgarũrĩtwo kuuma hĩndĩ ĩyo nĩ gĩkũũra; mbica ya ũrĩa kĩrĩ rĩu ĩrĩĩkuuo mbere.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>Nĩ njũĩ kĩrĩa ũndũ ũyũ ũrĩcookia</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>Andĩka namba ya mbica rĩngĩ</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>Ĩĩ, cookia</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Tiga</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>Mĩtengerio ĩrĩ na mbica yoetwo mbere yayo.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>Thuura</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>Gũtirĩ mũtengerio ũrĩ na mbica rĩu.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>Mĩthamio ĩhũthĩrĩtwo ĩrĩa ĩngĩĩcookia yo nyene (ĩrĩ na down()).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>Gũtirĩ mũthamio ũhũthĩrĩtwo ũrĩ na down().</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>Mbica cia tene (ataaĩ)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>Gũtirĩ mbica rĩu.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>Tengeria mĩthamio</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>Mũtengerio ũthiĩaga na mbere na thuutha ta %user, na karatathi kaguo nĩ kaũwonanagia ũrĩa ũrathiĩ. Mbere ya mũthamio wa mbere, mbica ya ũhandi nĩĩrĩĩkuuo; rĩrĩa mũthamio woima, mũtengerio nĩ ũrũgamaga na mbica ĩgacookio.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>Ambĩrĩria na ũgerio</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Ũrĩa kĩrĩ ndũngĩathomekire: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>Mĩthamio ĩretereire</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>Ĩtengeragio na mũtaratara ũyũ. Ruta kĩmenyithia harĩ ũmwe nĩguo ũmũtige, hamwe na ĩrĩa ĩmũbataraga, nĩ ũndũ wa mũtengerio ũrĩa ũgooka.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>Ũtengerie</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>Nĩ ũhingũraga mũtaratara wa kũrũgamĩrĩra rĩrĩa ũratengerio.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>Igarũrĩtwo thuutha wa kũhũthĩrwo</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>Faĩlo ici ti iria ciahũthĩrirwo. Mũtengerio nĩ ũciregaga tiga mũgarũrũko wetĩkĩrwo na gĩtũmi; ndĩtengeragio rĩngĩ, checksum njerũ ĩĩandĩkagwo na gĩtũmi kĩgaigwo rũandĩko-inĩ rwa ũthuthuria.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>Ĩtĩkĩra mũgarũrũko</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Nĩ kĩĩ</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>Ũrĩa kũrĩ kũndũ gũa mbere nĩguo ũrĩ na ũgitĩri. O kabokithi nĩ katigaga gĩkinya kĩmwe.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>Hatarĩ mbica</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>Gũtirĩ mbica mbere na thuutha wa mũtengerio: kwaga guthiĩ wega gũtingĩcookio o gwakũ.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>Hatarĩ gũcookia</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>Thuutha wa kwaga, tiga ũhandi o ta ũrĩa kwaga kwaũtigire.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>Iga mũgarũrũko ũtarũmĩtio</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>Tengeria o na mabangĩ, wongerereri kana mĩhaano irĩ na mũgarũrũko ũtarũmĩtio; ũthiiaga thĩinĩ wa mbica.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>Hatarĩ kũrũmia</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>Ndũkarũmie faĩlo ya ũrĩa kĩrĩ na rũandĩko rwa mũtengerio (hatarĩ kĩmenyithia na hatarĩ gũtũma).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>Hatarĩ gũtũma</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>Rũmia na ũhe kĩmenyithia, no ndũgatũme.</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>Hatarĩ kĩmenyithia</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>Rũmia na ũtũme, no ndũkahe mũtengerio kĩmenyithia.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>Ĩĩ, tengeria mĩthamio ĩno rĩu</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Gũtirĩ mũthamio ũretereire.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>Cooka harĩ ũrĩa kĩrĩ</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>Mũgarũrũko wa ũhandi ũyũ wandĩkĩtwo rĩmwe ta faĩlo (ũhoro, mĩthemba, mawĩra, mabangĩ, mũhaano) na ũkahũthĩrwo harĩ o ũhandi wa website na mũtaratara o ũmwe. Mũtengerio woyaga mbica mbere, ũkamĩcookia rĩrĩa mũthamio woima, na ũkandĩka, ũkarũmia na ũgatũma kĩrĩa wekire.</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>Tengeria %count ĩretereire</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Mwonere</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Nĩ ĩretereire</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Nĩĩrĩkĩtie</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Nĩ ĩoire</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>Ndĩbataranĩtie</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>Kĩigĩro kĩa data</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>mawĩra ma kĩigĩro: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>Mĩthamio ya website ĩrĩ thĩinĩ wa migrations/, ĩrĩa ya wongerereri ĩrĩ thĩinĩ wa extension/&lt;name&gt;/migrations/. Ĩtengeragio na mũtaratara wa marĩĩtwa mayo na kĩrĩa ĩbataraga.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Mũtengerio wa kũrigĩrĩria</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>Faĩlo nĩ ĩgarũrũkire thuutha wa kũhũthĩrwo.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>Gũtirĩ mũthamio rĩu. ./console exp:migration:generate --skeleton &lt;name&gt; --apply nĩ ĩkwandĩka wa mbere.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>Mĩtengerio ya kũrigĩrĩria</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>Mĩtengerio yothe</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>Gũtirĩ mũtengerio rĩu.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>Kũhwanania mũtengerio nĩ gũkũbatara rũtha rwa migration/run.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>Mũtengerio nĩ ũrathiĩ: hwanania rĩrĩa ũgaathira.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Mwambĩrĩria</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target ti mũtengerio, ti mũthamio na ti mbica ya ũhandi ũyũ.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>Ambĩrĩria na kũhũra kĩmenyithia harĩ “Ĩĩ, cookia”.</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>Gũcookia mbica ya tene nĩ ya ataaĩ: hũra kĩmenyithia harĩ “Nĩ njũĩ kĩrĩa ũndũ ũyũ ũrĩcookia”.</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>Andĩka namba ya mbica rĩngĩ: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>Thuura kĩcunjĩ kĩmwe kĩa gũcookia o na kĩ.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>Mũtengerio ũyũ ndũrĩ na mbica yoetwo mbere yaguo: cookia mĩthamio yaguo ũmwe ũmwe, kana ũcookie mbica ya tene.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>Mũthamio ũyũ ndũngĩĩcookia wo mwene: ndũhũthĩrĩtwo, kana ndũrĩ na down().</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Fomu ndĩngĩathomekire.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>Thuura mũtengerio wa gũthiĩ naguo na mbere.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>Ambĩrĩria na kũhũra kĩmenyithia harĩ “Ĩĩ, tengeria mĩthamio ĩno rĩu”.</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>Thuura mũthamio ũmwe o na kĩ.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>Mũthamio nĩ wagarũrũkire thuutha wa kũhũthĩrwo: ĩtĩkĩra mũgarũrũko na gĩtũmi, kana ũcookie faĩlo.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>Heana gĩtũmi gĩa gwĩtĩkĩrwo kwa mĩthamio ĩgarũrũkĩte.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>Gĩtũmi gĩtigĩrĩte ndemwa 500.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>Mũtengerio wambĩrĩirio haha o nĩ ũrathiĩ (%detail). Eterera ũthire.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>Mũtengerio ũngĩ nĩ ũnyiitĩte kĩhingo kĩa ũhandi: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>Mũtengerio nĩ ũbataraga mũhũthĩri ũrĩ ho ũtoonyete.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Gũtirĩ porogramu ya php ya mũhari wa watho yoneka. Ĩkĩra njĩra yayo yothe thĩinĩ wa migration.ini [AdminSettings] PhpCliPath.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open nĩ ĩhingĩtwo, nĩ ũndũ ũcio mũtengerio ndũngĩambĩrĩrio haha. Tengeria ./console exp:migration:migrate --apply harĩ server.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>Mbacũ ya mĩtengerio ndĩngĩandĩkwo: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>Mũtengerio nĩ wambĩrĩirio no ndũheanire namba ya process yaguo. Thuthuria %detail.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>Uga kĩrĩa gĩa gũcookio.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>Mũtengerio ndũngĩambĩrĩirio.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>Kũandĩka mũgarũrũko</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>Rĩrĩa kwandĩka gũgũthiĩ na mbere, kĩrĩa ũgarũra kũrĩ ũrũgamĩrĩri kana harĩ bara ya mũthia ya website gĩikagwo ta makinya ma gũthamia: maũndũ, kĩrathi, mawĩra na mawatho, icunjĩ, atũmĩri na ikundi, marĩĩtwa mangĩ ma URL, mabango. Gĩtigithia warĩkia, rora kĩrĩa kĩnyitĩte, na ũthondeke ũthamia kuuma harĩkĩo.</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>Maandĩko matiahotire gũthomwo: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>Metha cia maandĩko itirĩ kuo: ambĩrĩria ũhũthĩre kũgarũrũra (exp:upgrade --apply).</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>Kwandĩka nĩ gũtirĩ kũhingũrĩtwo thĩinĩ wa migration.ini ([RecordingSettings] Recording=disabled).</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>Mũgarũrũko wakwa</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>Kĩandĩkaga o kĩrĩa ũgarũra, kũndũ o guothe ũkĩgarũrĩra, nginya ũkĩgitigithie.</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>Kwandĩka</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>kuuma %time, mũgarũrũko %count nginya rĩu.</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>Kĩmenyithia (ti ya bata)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>Onania kĩrĩa kĩnyitĩte</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Tigithia kwandĩka</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>Ambĩrĩria kwandĩka mũgarũrũko wakwa</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>Ndirica ya website yothe</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>Kĩandĩkaga mũgarũrũko o wothe wa mũtũmĩri o wothe na wa console nginya ĩhingwo. Ũkĩmĩhingũra, ũkũũrio wĩtĩkĩrie atĩ nĩwe.</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Ĩhingũre</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>Hinga ndirica</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>Hingũra ndirica ya website yothe</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>Maandĩko</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>Akaunti ya mũtũmĩri (rĩĩtwa rĩa gũtonya, email, kiugo kĩa hitho) na kũndũ gwa akaunti cia atũmĩri itiandĩkagwo o na rĩ.</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Mĩgarũrũko</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>Website yothe</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>Mĩgarũrũko ya %name</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Gĩtigithĩtio</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>Gũtirĩ maandĩko o na rĩmwe.</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>Kwandĩka %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>Maandĩko mothe</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>Ũthamia ũrĩa ũngĩuma</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>Mĩgarũrũko ĩnyitanĩte ĩgĩtuĩka ikinya rĩmwe harĩ kĩndũ o gĩothe kĩgarũrĩtwo: kĩrĩa ũthamia ũthondekeirwo kuuma maandĩko-inĩ maya ũngĩĩka.</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>Ũthamia no ũthondekwo kuuma harĩkĩo rĩrĩa ũhandi ũyũ ũgaakorwo na mĩthemba ya makinya ma YAML %types.</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>Gũtigwo na kĩĩmenyo: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>Gũtirĩ kĩandĩkĩtwo.</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>Kĩrĩa kĩnyitĩte</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>Mĩgarũrũko %count, kũringana na ũrĩa yekĩtwo.</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Mũgarũrũko</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>Ikinya</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>Ũhoro wa</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>Ingĩ %count: ./console exp:migration:record:show nĩ ĩgũtaarĩria ciothe.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Ikia</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>Nĩĩrutaga maandĩko na kĩrĩa kĩnyitĩte. Kĩrĩa kĩgarũrĩtwo gĩtigaraga kĩgarũrĩtwo.</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>Ĩĩ, ikia maandĩko maya</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>Nĩkũrandĩka…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Mĩgarũrũko yaku nĩĩrandĩkwo nĩ ũndũ wa ũthamia.</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>Mũgarũrũko o wothe website-inĩ ĩno nĩũrandĩkwo nĩ ũndũ wa ũthamia (ndirica ya website yothe).</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>Kwandĩka kwa website yothe nĩkwambĩrĩria: mũgarũrũko o wothe wa mũtũmĩri o wothe nĩũrandĩkwo nginya ũgĩtigithie.</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>Kwandĩka nĩkwambĩrĩria: mĩgarũrũko yaku nĩĩrandĩkwo nginya ũgĩtigithie.</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>Kwandĩka nĩgũtigithĩtio. Kĩrĩa kĩnyitĩte nĩgĩgũtigara nginya ũgĩikie.</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>Maandĩko na maũndũ macio nĩmarutĩtwo.</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>Gũtirĩ maandĩko %id.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>Ambĩrĩria ũrute "Ĩĩ, ikia maandĩko maya".</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>No mũtũmĩri ũrĩa wandĩkire wiki ũngĩtigithia kwandĩka kwa session.</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>Thuura kwandĩka gũgũtigithio.</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>Kwandĩka gwa mũthemba ũyũ nĩ gũkũthiĩ na mbere.</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>Maandĩko matiahotire kũgarũrwo: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>Thondeka ũthamio</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>Rĩĩtwa rĩa ũthamio (wĩyendeire)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>Ũthamio %file nĩũandĩkĩtwo. Mũgarũrũko ũrĩa gũtarĩ ikinya rĩngĩhota gwĩka ũgwetetwo igũrũ rĩa faĩlo, wĩkwo na guoko.</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>Gũtirĩ ũthamio wandĩkirwo: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>Kuhanda kwa ihinda ria ndũrũ na ciĩgana</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>Ithimi iri ciĩrĩ mũhuro ihuthĩrĩte mathimo ma migration.ini [RunSettings].</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>Migration nyingĩ makĩria ĩno</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>Gũtirĩ migration ĩngĩ thutha wa (sekondi)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>Ũkĩa gatagatĩ ka migration (sekondi)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>Ũrĩa ũhoro-inĩ nĩ wa gĩkio (1 nginya 19)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>Ithimi rĩa kuhanda kũrĩa kũraihu nĩ namba yothe kuuma 1 (ũkĩa: sekondi kuuma 0 nginya 60, ũhoro-inĩ: 1 nginya 19), kana mũhuro.</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>Nĩ ĩkĩngĩrĩra yoyo ngĩ %time.</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>Ngĩrĩra yoyo thutha wa (ithaa, ĩrĩa wendaga)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>Ithaa nĩ namba yothe kuuma 1 nginya 44640 (matukũ 31), kana mũhuro.</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>Mũthamio %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>Mũthamio mwerũ</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>Mũthamio wa YAML: ũwandĩke ta mahoro kana ũake makinya maguo thĩinĩ wa fomu, ũtiire, ningĩ ũũige thĩinĩ wa foda ya mĩthamio.</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>Mũthamio ũyũ nĩũtengerio mbere, nĩ ũndũ ũcio ndũkũigwo rĩngĩ: faili ĩgarũrĩtwo yahota kũregwo nĩ mũrangĩri wa namba ya ũtiiri. Ĩka mũgarũrũko ũcio thĩinĩ wa mũthamio mwerũ.</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>Seva ya wẽbu ndĩngĩhota kwandĩka faili.</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>Mĩhari ya maoni ya igũrũ nĩ kĩongo (description, author, requires, environments, engines). Rĩrĩa ikinya rĩongereirwo kana rĩgarũrĩtwo thĩinĩ wa fomu, mũthamio nĩũandĩkagwo rĩngĩ: maoni marĩa marĩ gatagatĩ ka makinya matiigagwo.</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>Rĩĩtwa rĩa mũthamio</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>Harĩa ũgũthiĩ</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>Thaiti</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>Mahoro ma YAML</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>Tiira</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Iga</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Ihingo</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>Ihingũro</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Cenjia</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>Thamia igũrũ</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>Thamia thĩ</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Ehereria</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>Gũtirĩ makinya rĩu: ongerera rĩmwe na fomu, kana ũmandĩke thĩinĩ wa mahoro.</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>Garũra ikinya %number</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>Ongerera ikinya rĩmwe</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>Fomu ya ikinya ĩthondekagwo kuuma mũthembainĩ wa ikinya rĩu: ihingũro ciarĩo, kĩrĩa o kĩmwe kĩoyaga na njĩra iria rĩrĩ thĩinĩ wacio.</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>Mũthemba wa ikinya</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>Onania fomu yarĩo</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>Ikinya rĩrĩ na ihingũro iria mũthemba warĩo ũtooĩ; nĩcirutagwo rĩrĩa ikinya rĩgũgarũrwo: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>Njĩra</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>Thĩinĩ wa</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>thĩinĩ wa %modes tu</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>Kĩa mbere: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>Mabataro, mathiĩnĩro na maoni</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>Rĩĩtwa=thogora, igayũkanĩtio na koma. Thogora wa ikinya rĩrĩ: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>Ngerekano</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>Garũra ikinya</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>Ongerera ikinya</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>Kĩrĩa exp:migration:check yugaga: kĩongo, ndogomendi na o ikinya rĩtiirĩtwo nĩ mũthemba warĩo wa ikinya.</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>Mũthamio nĩũhĩtũkĩte gũtiirwo.</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Rora mbere</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>YAML o ta ũrĩa ĩrĩigwo.</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>Onania YAML</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>Mĩthamio ya YAML</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>nĩũtengerio</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>Gũtirĩ mĩthamio ya YAML rĩu.</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>Ũcenjia</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>Gũtirĩ mũthamio wa YAML %id thĩinĩ wa foda cia mĩthamio.</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>Thuura mũthemba wa ikinya.</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>Ikinya nĩrĩongereirwo. Tiira mũthamio mbere ya kũũiga.</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>Ikinya nĩrĩgarũrĩtwo. Tiira mũthamio mbere ya kũũiga.</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>Thuura ikinya.</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>Ikinya rĩrĩ rĩtirĩ na fomu (gĩthiũrũrũka, kana mũthemba wa ikinya ũrĩa ũhaandi ũyũ ũtarĩ naguo): rĩgarũre thĩinĩ wa mahoro.</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>Thuura harĩa mũthamio ũgũthiĩ: thaiti kana kĩongerereri kĩrĩa kĩrutaga wĩra.</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>%file nĩĩigĩtwo. Tengeria ũgerio mbere ya mũthamio gũtengerio.</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>Ndũigĩtwo: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>Mahandi ma kũraya</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>Mahandi marĩa mangĩ ũhandi ũyũ ũtwaraga mĩthamio yaguo: mũtwaro ũtũmaga mĩthamio kũrĩ mahandi ma kũraya marĩa mathuurĩtwo na ũkamĩtengeria kuo, mothe ihinda rĩmwe na makĩhwananĩtie. Ũhandi wa kũraya ndũrĩ hĩndĩ ũigaga itumbĩ: ũira waguo wa gũtoonya ũgwetaga rĩmwe thĩinĩ wa Mwambĩrĩria &gt; Matumbĩ.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>Ũhandi wa kũraya mwerũ</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Ũteithio</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>Kũgeria ũgwatanio wa %id</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>Mahandi ma kũraya</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>Mahandi ma kũraya nginya %parallel nĩ marutagĩrwo wĩra ihinda rĩmwe; kĩhinda kĩmwe no gĩkinyie sekondi %timeout harĩ o ũmwe.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>Ũhandi wa kũraya</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Anwani</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Ũira wa gũtoonya</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>Ikundi</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>mĩtaratara ya kũrũnga</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>faĩlo tu (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>Rĩhingũro rĩa SSH</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>Kiugo kĩa hitho</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>gũtirĩ (SSH agent na ihingũro cia host)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>Geria ũgwatanio</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>Mũtwaro kũrĩ gĩkundi ũthiĩ kũrĩ o ũhandi wa kũraya wa gĩkio.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>Twara kũrĩ mahandi ma kũraya</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>Gũtirĩ ũhandi wa kũraya ũhaarĩirio rĩu.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>Ũhandi wa kũraya %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>Gũtirĩ kĩtũmagwo kana gĩtengagĩrio haha: Iga nĩĩandĩkaga mĩtaratara thĩinĩ wa settings/override/migration.ini.append.php. Ũira wa gũtoonya nĩ rĩĩtwa; kĩrĩa kĩrĩ thĩinĩ waguo gĩtigaraga Mwambĩrĩria &gt; Matumbĩ kana mawĩra-inĩ ma kũhũthĩra.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Thuthuria mĩtaratara ĩno</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>Mĩtaratara o ta ũrĩa yandĩkĩtwo, ĩtaigĩtwo rĩu.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Gũthingata</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Mĩtaratara nĩ ĩrĩ wega. Mĩhari ĩno nĩ ĩkaandĩkwo:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>Njĩra ya gũtwara</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>rĩĩtwa no rĩo; ũrĩa ũrĩ ũtigaraga thĩinĩ wa Mwambĩrĩria &gt; Matumbĩ</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Mĩhari ĩrĩa ĩkaandĩkwo</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>Ũgwatanio</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>Rĩhingũro rĩa host</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. Ũhandi wa kũraya</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>Ũrĩa ũhandi wa kũraya ũĩtagwo na mawĩra ma kũhũthĩra marĩa ũrĩ.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>Namba</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>Marũa, namba, - na _, ta production1. Nĩrĩo rĩĩtwa rĩa ũhandi wa kũraya maripoti-inĩ na console-inĩ (--remotes=production1) na ndĩngĩgarũrwo thuutha.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... Mũtwaro na irathi ũhĩtũkagĩra mawĩra ma kũhũthĩra na mũthiĩre ũyũ.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>Ti ya bata, ikĩgayanio na koma, ta production. Mũtwaro kũrĩ gĩkundi ũthiĩ kũrĩ o ũhandi wa kũraya wa gĩkio.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. Ũgwatanio</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>Ũrĩa faĩlo ikinyaga kuo, na harĩa ũhandi ũrĩ.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>Na SSH, kĩrĩa kĩgarũrũkĩte tu, na ũhĩtũkia ũrĩa watinĩkire ũgathiĩ na mbere. Ũthuuri mwega mũno harĩa rsync ĩhandĩtwo.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>SSH na scp kwa faĩlo.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>SSH na sftp kwa faĩlo.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>Faĩlo tu: mĩthamio ĩtũmagwo na ĩgathomwo rĩngĩ, no ndĩngĩtengerio kuo.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>FTP na TLS; faĩlo tu.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>Ũhandi ũngĩ thĩinĩ wa server ĩno, foda-inĩ.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Host</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>Rĩĩtwa rĩa host kana anwani, ta node1.example.com. Ti rĩa local.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>Mũrango</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>Hatarĩ kĩndũ: 22 kwa SSH, 21 kwa FTP.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Mũhũthiri</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>Njĩra</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>Mũri wa ũhandi kuo, ta /var/www/site (kwa FTP: njĩra ĩrĩa akaunti ya FTP yonaga).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>Command line ya PHP</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>PHP CLI ya kuo: php, kana njĩra yothe ta /opt/plesk/php/8.4/bin/php.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>Scripts cia console itengagĩrio kuo ta root</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>No rĩrĩa mũhũthiri wa ũhandi wa kũraya arĩ root (hĩndĩ ĩyo ĩtengagĩrio na --allow-root-user).</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. Ũira wa gũtoonya</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>Ũrĩa ũhandi ũyũ ũtoonyaga kuo. No rĩĩtwa tu rĩigagwo.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Gũtirĩ</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>SSH agent na ihingũro cia mũhũthiri ũrĩa ũhandi ũyũ ũtengagĩrio ta we (na hĩndĩ ciothe kwa local).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>Rĩhingũro rĩa mwene rĩigĩtwo ta itumbĩ.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>Kiugo kĩa hitho kĩigĩtwo ta itumbĩ (FTP ĩtoonyaga nakĩo).</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>Rĩĩtwa rĩa itumbĩ</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>Itumbĩ rĩa Mwambĩrĩria &gt; Matumbĩ, ta deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Mwambĩrĩria &gt; Matumbĩ</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>Kana variable ya mawĩra ma kũhũthĩra</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>Variable ya mawĩra ma server ĩrĩa ĩrĩ narĩo, ta DEPLOY_KEY (ĩigĩtwo ta env:DEPLOY_KEY). Ĩkaga handũ ha rĩĩtwa rĩa itumbĩ.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. Rĩhingũro rĩa host</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>Ti ya bata, kwa SSH, sftp na rsync.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>Mũhũrĩ wa rĩhingũro rĩa host</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... o ta ũrĩa ssh-keygen -l ĩrĩonanagia. Ũrĩ naguo, host no nginya yonanie rĩhingũro rĩĩrĩ; hatarĩ naguo, rĩhingũro rĩmenyagwo hĩndĩ ya ũgwatanio wa mbere.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. Gũthingata</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>Geria ũgwatanio na mĩtaratara ĩrĩa ĩrĩ igũrũ, ningĩ ũthingate mĩhari ĩrĩa ĩkwandĩkwo.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>Ehereria ũhandi ũyũ wa kũraya</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>Mĩtaratara yaguo nĩ ĩrehererio thĩinĩ wa settings/override/migration.ini.append.php. Gũtirĩ kĩgarũrũkaga ũhandi-inĩ wa kũraya, na mĩtwaro yaguo ĩtigaraga rũgano-inĩ.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>Ĩĩ, ehereria ũhandi ũyũ wa kũraya</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>Mĩtwaro</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>Mũtwaro ũtũmaga mĩthamio ya ũhandi ũyũ kũrĩ mahandi ma kũraya marĩa mathuurĩtwo na ũkamĩtengeria kuo ta %user, mothe ihinda rĩmwe na makĩhwananĩtie: o ũhandi wa kũraya ũtiiragwo mbere, na ũmwe waaga, o ũrĩa wamĩhũthĩrĩte nĩ ũcookagio. Ũthiaga na mbere ũrĩ na thuutha, na ũkurasa waguo ũkonania o ũhandi wa kũraya o ũrĩa ũrathiĩ.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. Mahandi ma kũraya</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>Ikĩra kĩmenyithia harĩ mahandi ma kũraya, gĩkundi, kana cierĩ.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>Twara kuo</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. Atĩa</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>Twara</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>Tũma na ũtengerie</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>Mĩthamio nĩ ĩtũmagwo, ĩgatiirwo na ĩgatengerio o ũhandi-inĩ wa kũraya na namba ĩmwe ya mũtengerio ĩrĩa ihũthagĩrwo nĩ othe.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>Hĩtũkia tu</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>Faĩlo nĩ itũmagwo na igatiirwo, gũtirĩ gĩtengagĩrio (njĩra ĩmwe tu kwa ũhandi wa kũraya wa FTP).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>Na irathi</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>Kĩrathi kĩmwe kĩmwe kũringana na mũthiĩre wa mawĩra ma kũhũthĩra (dev, stage, beta, production ...): kĩrathi kĩa mbere nĩ gĩtwarwo, ningĩ kĩhingo gĩkaetereria nginya mũndũ etĩkĩrie kĩrĩa kĩrũmĩrĩire. Ciothe kana gũtirĩ thĩinĩ wa o kĩrathi.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>Mĩthamio ĩno tu</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>Ti ya bata: namba cia mĩthamio, ikĩgayanio na koma. Hatarĩ kĩndũ: o mũthamio wa thaiti na extensions ciayo.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>Gũtiira mbere tu</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>Ĩĩ, twara rĩu</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>Mĩtwaro ĩrĩa yatũmire kana ĩgĩtengeria kĩndũ, ĩrĩa njerũ mbere (gũtiira mbere gũtiigaga ripoti).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>hĩtũkia tu</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>na irathi, irathi %stages</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>matihwananĩtie</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>Gũtirĩ mũtwaro rĩu.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>Mũtwaro %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>O ũhandi wa kũraya wa mũtwaro na ũrĩa ũrĩ. Mũtwaro wambĩrĩirio haha ũthiaga na mbere ũrĩ na thuutha rĩrĩa ũkurasa ũyũ wahingwo; hingũra ũkurasa rĩngĩ nĩguo ũũrũmĩrĩre.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>Mĩtwaro yothe</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>Gũtiira mbere</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>Kĩrathi kĩrĩa kĩrũmĩrĩire</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>Nĩ kũratiirwo mĩtaratara na ũira wa gũtoonya</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>Gũtiira mbere: nĩ kũrathomwo ũrĩa o ũhandi wa kũraya ũrĩ</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>Nĩ kũratũmwo faĩlo cia mĩthamio</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>Nĩ kũratiirwo kĩrĩa gĩkinyĩte</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>Nĩ kũratengerio mĩthamio o ũhandi-inĩ wa kũraya</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>Nĩ kũracookio mahandi ma kũraya</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>Mũtwaro nĩ ũrĩkĩtie. Nĩ kũrarehwo ripoti yaguo.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>Ũrĩa ũrathiĩ ndũngĩarũmĩrĩrwo. Cookia rĩngĩ ũkurasa nĩguo wone ũrĩa mũtwaro ũrathiĩ.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>Kĩhinda</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>Ũkurasa ũyũ ũrũmagĩrĩra mũtwaro o ũrĩa ũrathiĩ.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>Mahwananĩtie</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>Irathi</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>kĩrathi %stage nĩ kĩretereire kĩhingo-inĩ gĩakĩo</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>Kĩhingo %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>nĩ yetĩkĩririo nĩ %user ihinda %time</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>Kĩrathi</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>Faĩlo iria ciatũmirwo</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>Version ya kernel</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>nĩ ĩhũthĩrĩtwo: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>cia kũhũthĩrwo: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>Ihinda</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>Kĩhingo: kĩrathi %stage thĩinĩ wa %stages</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>Irathi iria irĩ mbere yakĩo nĩ itwarĩtwo. Ĩtiire, ningĩ wĩtĩkĩrie kĩrathi kĩrĩa kĩrũmĩrĩire: mahandi makĩo ma kũraya matiiragwo rĩngĩ na magatwarwo, mothe kana gũtirĩ.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Ĩrĩa ĩrũmĩrĩire</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>Ĩĩ, twara kĩrathi kĩrĩa kĩrũmĩrĩire rĩu</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Tĩkĩria</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>Cookia mũtwaro ũyũ</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>O ũhandi wa kũraya ũrĩa wauhũthĩrire (%list) ũcookaga harĩ mbica ĩrĩa yoetwo mbere ya mũtengerio waguo, mothe ihinda rĩmwe.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>Ĩĩ, cookia mũtwaro ũyũ rĩu</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>nĩ ĩbangĩtwo</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>nĩ ĩhĩtũkĩtio</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>nĩ ĩtwarĩtwo</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>ĩretereire kĩhingo-inĩ</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>nĩ ciathuurĩtwo</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>nĩ ĩhaarĩirio</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>nĩ ĩhaarĩirie</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>ĩretereire kĩrathi kĩayo</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>faĩlo nĩ ciatũmirwo</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>nĩ ĩtiirĩtwo</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>nĩ ĩoire, yecookirie yo nyene</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>ndĩgarũrũkĩte</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>ndĩtwarĩtwo</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>ndĩkinyĩrĩka</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>Ũhandi wa kũraya nĩ wacookirie.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>Ũhandi wa kũraya ndũngĩhũthĩka rĩu.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done nĩĩrĩkĩtie, %pending nĩ ĩretereire, %failed nĩ ĩoire</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>Kĩhingĩro</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>mũtengerio nĩ ũnyitĩte kĩhingĩro kuo</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>nĩ ihaaro</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stage thĩinĩ wa %stages</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>Thuura ũhandi wa kũraya wa kũgeria.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>Ikĩra kĩmenyithia harĩ “Ĩĩ, ehereria ũhandi ũyũ wa kũraya” mbere.</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>Ũhandi wa kũraya ndũngĩehereirio: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>Ũhandi wa kũraya ndũngĩigirwo: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Faili ya mĩtaratara ndĩngĩthomeka: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>Thuura nginya ũhandi wa kũraya ũmwe kana gĩkundi.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>Ũhandi wa kũraya ũrĩa wathuurirwo ndũrĩ rĩngĩ mĩtaratara-inĩ. Cookia rĩngĩ ũkurasa ũyũ.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>Ikĩra kĩmenyithia harĩ “Ĩĩ, twara rĩu” mbere.</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>Ũhandi wa kũraya wa FTP ndũngĩtengeria mĩthamio: thuura “Hĩtũkia tu”, kana ũũtige.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>Mĩthamio ya gũtwarwo nĩ namba cia mĩthamio, ikĩgayanio na koma.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>Mũtwaro o ũrathiĩ. Etereria ũrĩkie.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>Mũtwaro ũyũ ndwetagĩrĩra kĩhingo-inĩ.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>Gũtirĩ ũhandi wa kũraya wahũthĩrire mũtwaro ũyũ: gũtirĩ kĩa gũcookia.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>Ikĩra kĩmenyithia harĩ “Ĩĩ, twara kĩrathi kĩrĩa kĩrũmĩrĩire rĩu” mbere.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>Ikĩra kĩmenyithia harĩ “Ĩĩ, cookia mũtwaro ũyũ rĩu” mbere.</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>Ũhandi wa kũraya ũrĩ na namba %id nĩ ũrĩ kuo.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>Mũrango nĩ namba kuuma 1 nginya 65535.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>Mawĩra ma kũhũthĩra nĩ kiugo kĩa marũa, namba, - na _ (alpha, dev, stage, beta, production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>Gĩkundi nĩ kiugo kĩa marũa, namba, - na _ (ti all): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>Ũira wa gũtoonya ndũngĩthomeka rĩu: %problem. Ũige thĩinĩ wa Mwambĩrĩria &gt; Matumbĩ (kana ũige variable) mbere ya mũtwaro wa mbere.</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>Ũhandi wa kũraya wa FTP wamũkagĩra faĩlo tu: mũtwaro kuo nĩ “Hĩtũkia tu”, na mĩthamio yaguo ĩtengagĩrio kuo na moko.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>Ũhandi wa kũraya %id ndũrĩ thĩinĩ wa settings/override/migration.ini.append.php; ũehererie harĩa ũhaarĩirio.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>Nĩ yatoonyire na FTP na ĩgĩthoma index.php. Ũrĩa mĩthamio ya ũhandi wa kũraya wa FTP ĩrĩ ndũngĩthomeka.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>Nĩ gĩcenjetio</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>Nĩ kĩumbĩtwo</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Rĩĩtwa</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Kĩrathi</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Gĩcunjĩ</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>Mũumbi</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Ũhoro mwerũ</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>Ũhoro ũrĩa ũumbĩtwo na ũgacenjio o rĩu saiti-inĩ yothe, ũrĩa mwerũ mbere: ũrĩa ageni maatũmire, ũrĩa ũnyiitĩtwo nĩ ũndũ wa gũthimwo, ndrafti iria irĩetereire gũcabithio. Thuura indo nĩguo ũcirekererie, ũcinyiite, ũcihithe, ũcionanie, ũcieherie kana ũcithamĩrie gĩcunjĩ-inĩ kana hali-inĩ ĩngĩ.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>Mũhari ndũngĩathomekire: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>Kũnyiitwo nĩ ũndũ wa gũthimwo gũtirĩ kwambĩrĩrio, nĩ ũndũ ũcio gũtirĩ kĩnyiitĩtwo na mawĩra ma kũnyiita matiheanagwo. Ikinya rĩa gũcenjia 6.0.15-review-hold nĩrĩo rĩkwambagĩrĩria: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Thuurania mũhari</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Kuuma</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Nginya</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Tarehe</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>Nĩ kĩumbĩtwo (rĩrĩa gĩacabithirio mbere)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Ciothe</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Ũrĩa kĩrĩ</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Nĩ gĩcabithĩtio</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>Ndrafti, gĩtiacabithirio</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>Nĩ ĩretereire (gwĩtĩkĩrio kana tarehe)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>Kĩgira-inĩ kĩa mahuti</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Kĩnyiitĩtwo nĩ ũndũ wa gũthimwo</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>Kĩnyiitĩtwo</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>Gĩtinyiitĩtwo</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>Kĩhithe</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>Kĩonekaga</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>Gĩatũmirwo na</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>Njĩra o yothe ya saiti</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>O ũrĩa gũthingata kwandĩkire.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>Rĩu: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>Rĩĩtwa rĩa gũtoonya kana namba ya mũhũthĩri.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Thuurania</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>Eheria mathuurania</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>Indo</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from nginya %to thĩinĩ wa %count</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Gũtirĩ kĩndũ</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(gĩathomirwo thĩinĩ wa ms %ms)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>Mawĩra ma indo iria ithuurĩtwo</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>Thuura ciothe harĩ karatathi gaka</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>%count ithuurĩtwo</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Ũndũ ũgwĩkwo</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>Thuura ũndũ ũgwĩkwo</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>Rekereria kũnyiitwo</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Nyiita nĩ ũndũ wa gũthimwo</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Hitha</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>Onania</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>Ikia kĩgira-inĩ kĩa mahuti</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>Thiria</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>Hĩta gĩcunjĩ</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>Hĩta hali</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>Gĩtũmi</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>Nĩ kĩbatarĩte nĩguo kũnyiita; kĩigagwo hamwe na kũnyiitwo na thĩinĩ wa gũthingata.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>Thuura gĩcunjĩ</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Hali</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>Thuura hali</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>Hũthĩra harĩ iria ithuurĩtwo</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>O kĩndũ gĩthimagwo kũringana na rũtha rwaku. Gũikia kĩgira-inĩ kĩa mahuti na gũthiria nĩ igũkũũria ũtĩkĩrie. Indo nyingĩ gũkĩra %count ciĩkagwo na thuutha.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>Thuura</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>Gũcabithia</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>Gĩatũmirwo kuuma</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>Thuura %name</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>o na rĩu ti-ũguo</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(gũtirĩ rĩĩtwa)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>Namba %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>Ndrafti</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Nĩ ĩretereire</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>Nĩ ĩhithĩtwo nĩ ĩrĩa ĩrĩ igũrũ yayo</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>Kĩnyiitĩtwo: gĩtũmwo kĩerũ</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>Ũrutwo %version nĩ ũretereire</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>Ũrutwo %version nĩ ũrarutwo wĩra</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>Ndrafti, ũrutwo %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>Ũrutwo %version nĩ ũcabithĩtio</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>Nĩ kĩbangĩtwo harĩ %date</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>gũtirĩ aderethi</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>gĩtiandĩkĩtwo</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>Gũtirĩ kĩndũ gĩkũiganana na mathuurania macio.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Rora ciothe</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>Gũtirĩ ũhoro o na rĩu.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>O karatathi</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Onania indo %count o karatathi.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says "not recorded".</source>
+        <translation>Aderethi na mũthigiriri wa gĩtũmwo ciumaga indeksi-inĩ ya gũthingata, ĩrĩa ĩtarĩ haha: gĩcunjĩ kiuga "gĩtiandĩkĩtwo".</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>Aderethi na mũthigiriri nĩ iria gũthingata kwandĩkire nĩ ũndũ wa kĩndũ kĩu (kũnyiita gwa kĩũmbe kũrĩ hĩndĩ ciothe nĩ gũciandĩkaga; gũcabithia na kũumba o harĩa hahingũrĩtwo), o ta ũrĩa mbangĩ ciakĩo cia hitho iciigaga.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: indo %count</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>Gũthiria nĩ kweheragia indo tene na tene, hamwe na irutwo ciacio ciothe na ũtaũri wacio. Gũtingĩcokio.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>Indo nĩ ciathiĩ kĩgira-inĩ kĩa mahuti, kũrĩa ingĩcokio.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>O kĩndũ gĩthimagwo kũringana na rũtha rwaku; kĩndũ kĩrĩ na indo nini rungu rwakĩo gĩtigagwo o ũrĩa kĩrĩ (gĩeherie mũbangĩre-inĩ wa ũhoro). Nĩũkũũrio ũtĩkĩrie atĩ nĩ wee.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>Ũndũ ũyũ wĩkagwo na thuutha: karatathi ka ũrĩa ũthiĩte nĩ kahingũkaga, na ũthiĩ wa o kĩndũ nĩ ũkuonanio warĩkia.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>Indo iria ithuurĩtwo</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>na %count ingĩ</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Tiga</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>Gũtirĩ ũndũ wĩkĩtwo</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Gĩtũmi: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>Ũndũ ũcio o na rĩu nĩ ũrĩkwo na thuutha.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>Ũrĩa ũthiĩte</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>Ũndũ wa thuutha nĩ ũoire: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Nĩ ĩrĩkĩrĩte</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Nĩ ĩregetwo</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Nĩ ĩoire</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>O kĩndũ</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>Kĩndũ</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Ũthiĩ</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Nĩ kĩĩ</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>Cooka mũhari-inĩ</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Mwambĩrĩria</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>Gũtirĩ ũndũ wĩkĩtwo</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>Tĩkĩria</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>Thuura ũndũ ũgwĩkwo.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>Thuura kĩndũ o na kĩmwe.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>Thuura indo itakĩrĩte 1000 hĩndĩ ĩmwe.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>Ugĩ nĩ kĩĩ indo inyiitĩtwo.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>Thuura gĩcunjĩ.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>Thuura hali.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Fomu ndĩngĩathomekire.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>Ũthiũ wa wĩra</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>Ũhoro mwerũ</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>Mũtarũ ndũngĩathomekire: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Kĩnyiitĩtwo nĩ ũndũ wa gũthimwo</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>Kĩerũ ũmũthĩ</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Kũnyiitwo nĩ ũndũ wa gũthimwo gũtirĩ kwambĩrĩrio (ikinya rĩa gũcenjia 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>Ũhoro wothe mwerũ</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>Ndũrĩ na rũtha rwa gwĩka mawĩra ma ũrũgamĩrĩri (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>Ũndũ wa ũrũgamĩrĩri ndũrĩ mũrĩkie: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>Ũrũgamĩrĩri: %action harĩ indo %count</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%done thĩinĩ wa %total cia indo: %ok irĩkĩrĩte, %refused iregetwo, %failed ioire</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok irĩkĩrĩte, %refused iregetwo, %failed ioire</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>Gĩtirĩ ho rĩngĩ.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>Gĩtirĩ na handũ (gĩtiacabithirio).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>Ndũrĩ na rũtha rwa gũkĩhitha (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>Ndũrĩ na rũtha rwa gũkĩonania (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>Nĩ kĩhithe tayari.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>Gĩtihithe.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>Nĩ kĩhithĩtwo.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>Nĩ kĩonanĩtio.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>Kĩrĩ kĩgira-inĩ kĩa mahuti: gĩthirie kana ũgĩcokie kuo.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>Ndrafti ĩtarĩ yacabithio ndĩngĩthiĩ kĩgira-inĩ kĩa mahuti: ĩthirie.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>Ndũrĩ na rũtha rwa gũkĩthiria (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>Nĩ gĩthirĩtio.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>Ndũrĩ na rũtha rwa gũkĩeheria (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>Kĩrĩ na indo nini rungu rwakĩo: gĩeherie mũbangĩre-inĩ wa ũhoro, kũrĩa ciandĩkĩtwo.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>Gĩtieheririo (mũtaratara wa wĩra no ũkorwo ũnyiitĩte kweheria).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>Nĩ gĩikĩtio kĩgira-inĩ kĩa mahuti.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>Gĩcunjĩ gĩtirĩ ho.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>Kĩrĩ gĩcunjĩ-inĩ gĩkĩ tayari.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>Ndũrĩ na rũtha rwa kũhĩta gĩcunjĩ gĩkĩ (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>Gĩcunjĩ gĩtiahĩtirwo.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>Gĩcunjĩ nĩ kĩhĩtĩtwo.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>Hali ĩyo ndĩrĩ ho.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>Kĩrĩ hali-inĩ ĩno tayari.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>Ndũrĩ na rũtha rwa kũhĩta hali ĩno (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>Hali ndĩahĩtirwo (mũtaratara wa wĩra no ũkorwo ũnyiitĩte ũcenjio).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>Hali nĩ ĩhĩtĩtwo.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>Gũtirĩ ũndũ ũgwĩkwo ta ũcio.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Kũnyiitwo nĩ ũndũ wa gũthimwo gũtirĩ kwambĩrĩrio (ikinya rĩa gũcenjia 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>Ugĩ nĩ kĩĩ kĩnyiitĩtwo.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>Nĩ kĩnyiitĩtwo tayari.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>Ndũrĩ na rũtha rwa gũkĩnyiita (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>Kũnyiitwo gũtiaigirwo (mũtaratara wa wĩra no ũkorwo ũnyiitĩte ũcenjio).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>Nĩ kĩnyiitĩtwo.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>Gĩtinyiitĩtwo.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>Ndũrĩ na rũtha rwa gũkĩrekereria (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>Kũnyiitwo gũtiarekereirio (mũtaratara wa wĩra no ũkorwo ũnyiitĩte ũcenjio).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>Nĩ kĩrekereirio; o na rĩu nĩ kĩhithe: ndũrĩ na rũtha rwa gũkĩonania (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>Nĩ kĩrekereirio.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>Irorirwo ciothe</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Gũcabithia kwa mũthia</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>Cabithia kobi ya tũtũ ya saiti yaku tũhũ kũrĩ GitHub Pages:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Tũratathi tũkũrũ</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Gũcabithia gwa tũtũ</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Gũcabithia gwa tũtũ nĩ kũhingĩtwo.</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Kĩrorirwo</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Irorirwo itingĩathomekire: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>wĩra nĩ ũrathiĩ</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>mwako wa gũthuthuria</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>hitha ũyũ</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>thondeka kĩrorirwo</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>ndũkigathirĩ</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>thoma ũtaaro</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>%added nĩciongereirwo, %changed nĩcigarũrĩtwo, %removed nĩciehereirio</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%bytes kuuma %limit (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>Ingĩ %count itiandĩkĩtwo.</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>Tũratathi %pages nĩtwandĩkĩtwo</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path ĩrĩ %size, makĩria ma ũrĩa host yĩtĩkagĩria faili ĩmwe.</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>%percent % ya mũhaka</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>sekondi %seconds</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag nĩkuo gũcabithia kũrĩa saiti ĩrĩ nakuo rĩu.</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: wĩra %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>/kĩigĩro/ nĩ ũndũ wa saiti ya mũrimo wa GitHub; tiga ũtarĩ na kĩndũ nĩ ũndũ wa domain yaku kana saiti ya mũhũthĩri.</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. Saiti</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. Host</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. Gũtoonya kĩigĩro-inĩ kĩa code</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. Kĩigĩro kĩa code</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. Ikĩgwatanio na njĩra ya mũthingi</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. Domain yaku mwene</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. Kĩrĩa mwako ũkoragwo naguo</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. Rĩrĩa gũgũcabithio</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. Thuthuria na ũige</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>Saiti ya mũrimo wa GitHub ĩikaraga rungu rwa /&lt;repository&gt;/; ikĩgwatanio cia gũtwarana nĩ irutaga wĩra kũu na handũ hangĩ o hothe.</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>Mwako nĩ ũrehaga o karatathi ka %site o ta ũrĩa mũgeni ũtatoonyete akonaga, ũkandĩka ikĩgwatanio rĩngĩ, ũkoya kobi ya faili na ũkandĩka maumĩrĩra foda-inĩ ya kĩrorirwo. Gũtirĩ kĩndũ gĩgũcabithio nginya ũthuthurie mwako na ũhihinyie Cabithia.</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>Mwandĩkĩre wa cron, ta 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>Kĩhingũro kĩa gũtũma nĩ kĩigagwo ta thiri %secret.</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>Kĩhingũro kĩa gũtũma nĩ gĩĩtĩkagĩria ũhandi ũyũ gũtũma kũrĩ kĩigĩro kĩmwe kĩa code na SSH na gũtirĩ handũ hangĩ. Gĩcunjĩ gĩakĩo kĩa hitho gĩtigaraga thĩinĩ wa Mwambĩrĩria &gt; Matumbĩ; no gĩcunjĩ kĩa andũ othe kĩonanagio.</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>Kĩhingũro kĩa gũtũma gĩthondekeirwo kĩrorirwo gĩkĩ</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>Kĩhingũro kĩa gũtũma gĩtoonyaga na SSH: garũra address ya git ĩtuĩke ya SSH (git@github.com:owner/repo.git).</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>Wĩra nĩ ũrathiĩ, wambĩrĩirio nĩ %user</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>Wĩra wa kĩrorirwo gĩkĩ o na rĩu nĩ ũrathiĩ (%detail). Etererera ũthire.</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>Wĩra wa kĩrorirwo gĩkĩ o na rĩu nĩ ũrathiĩ. Etererera ũthire.</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>Kĩgwatanio kuuma karatathi /news/ nginya karatathi /about-us/team gĩkaandĩkwo ũũ</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>Kĩhingũro kĩerũ kĩa gũtũma nĩ gĩthondekeirwo. Ongerera gĩcunjĩ gĩakĩo kĩa andũ othe kĩigĩro-inĩ kĩa code rĩu.</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>Karatathi karĩ na maandĩko ma debug, token ya fomu kana id ya session o na thuutha wa gũthambio gatirĩ hĩndĩ gacabithagio.</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>Gũcookia nĩ kwa ataalamu: ĩkĩra kĩmenyithia &quot;Nĩ njũĩ kĩrĩa ũndũ ũyũ ũgũcenjia&quot; na wandĩke rĩĩtwa rĩa kĩmenyithia rĩngĩ.</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>Saiti no ĩkinye %site, faili ĩmwe %file, na trafiki ta 100 GB o mweri. Mũbango-inĩ wa tũhũ kĩigĩro kĩa code no nginya kĩonekage nĩ andũ othe. GitHub Pages ndĩthondekeirwo ndũka kana wonjoria ũngĩ wa biashara.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>Kĩrorirwo nĩ saiti ĩmwe ĩcabithagio kĩigĩro-inĩ kĩmwe kĩa code kĩa git. Gũtirĩ kĩndũ kĩakagwo kana gĩcabithagio haha: Iga yandĩkaga mĩtaratara thĩinĩ wa settings/override/staticcache.ini.append.php.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>Kĩrorirwo nĩ saiti ĩmwe ĩcabithagio handũ hamwe, ta saiti yaku ya andũ othe kũrĩ GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>Token kuuma Mwambĩrĩria &gt; Matumbĩ</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>Workflow ya kĩigĩro kĩa code nĩyo ĩkĩcabithagia.</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>Ongerera kĩhingũro gĩkĩ kĩa andũ othe kĩigĩro-inĩ kĩa code na rũtha rwa kwandĩka. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, ĩkĩra kĩmenyithia Allow write access.</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>Nĩciongereirwo</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>Host ĩngĩ ya git</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>Ũhoro ũngĩ nĩ ũrarutĩra kĩrorirwo gĩkĩ wĩra: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>Cooka</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>Njĩra ya mũthingi</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Mbere</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>Rungu rwa njĩra ya mũthingi</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>Rũhonge</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>Ikĩgwatanio njuune</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>Ikĩgwatanio njuune thĩinĩ wa mwako</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>Mwako</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>Mwako %id wa %user</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>Aka %name</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>Aka rĩu</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>Mwako wa gũthuthuria</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Nĩ</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>Na moko, haha</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Tiga</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Garũra</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>Nĩcigarũrĩtwo</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Mũgarũrũko</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>Thuthuria mbere</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Thuthuria mĩtaratara ĩno</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>Thuthuria kĩrĩa mwako ũgũcenjia, ũũrore, ningĩ ũũcabithie kana ũũte.</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>Thuura gũcabithia kũrĩa ũgũcooka.</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>Gũgaũka na ũrekereria ũrĩa ũgũka thuutha.</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Kũrũmia</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>Mĩrũmio</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>Nĩĩrũmagia mwako, ĩkaũhe kĩmenyithia na ĩkaũtũma kũrĩ %remote. Gũtũma gũtirĩ hĩndĩ kũhatagĩrĩrio; no ũcooke gũcabithia o kũrĩa guothe thuutha.</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>Kũringithanio na foda ya mbere: %added nĩciongereirwo, %changed nĩcigarũrĩtwo, %removed nĩciehereirio, %unchanged itigarũrĩtwo.</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>Kũringithanio na gũcabithia kwa mũthia.</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Ũira wa gũtoonya</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>Domain yaku</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>Maandĩko ma debug, token cia fomu, id cia session na nonce nĩ ciehagĩrio hĩndĩ ciothe.</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>Kĩhingũro kĩa gũtũma</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>Kĩhingũro kĩa gũtũma kĩa %name</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Ta</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>Ta mwako</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>Domain</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>Gũtirĩ kĩndũ: address ya saiti. Kana address ya thĩinĩ ya saiti o ĩyo.</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Ĩrĩkĩtie</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>O kĩgwatanio kĩambagĩrĩria na njĩra ya mũthingi.</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>O gũcabithia nĩ mũrũmio ũrĩ na kĩmenyithia static/%id/&lt;n&gt;. Gũcooka thuutha gũthondekaga mũrũmio mwerũ na faili cia gũcabithia kwa mbere: rũgano rũtigaraga, gũtirĩ kĩmenyithia gĩthamaga na gũtirĩ kĩndũ kĩhatagĩrĩrio.</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>Faili cia kuongerera</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>Rehe tũratathi kuuma</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Faili</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>Faili</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>Faili iria itarĩ ho</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>Faili cia</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>Faili iria itangĩacokanirio</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>Kĩmenyithia kĩa kĩhingũro</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>Foda</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>Nĩ ũndũ wa address ya SSH. Kĩhingũro gĩthondekagwo thuutha wa kũiga; wee nĩwe ũkũongerera gĩcunjĩ gĩakĩo kĩa andũ othe kĩigĩro-inĩ kĩa code.</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>Nĩ ũndũ wa address ya https://. GitHub: token ya fine-grained ĩrĩ na Contents gũthoma na kwandĩka kĩigĩro-inĩ kĩa code.</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>Nĩ kwa ataalamu. Saiti ya andũ othe ĩcenjagia o rĩrĩa gũtũma kwathira.</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Fomu</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>Host ya tũhũ kuuma kĩigĩro kĩa code kĩa GitHub.</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>Kuuma rũhonge</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>Address ya Git</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages ĩĩtĩkagĩria saiti ya %site na faili ya %file.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>Mĩhaka ya GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages ĩcabithagia faili o ta ũrĩa irĩ (nĩ bata nĩ ũndũ wa faili iria ciambagĩrĩria na _).</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub ĩheanaga rũhonge o ta ũrĩa rũtũmĩtwo. Ũrĩa ũtũũraga.</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, server yaku mwene: kĩigĩro o gĩothe kĩa code kĩa git.</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>Cooka gũcabithia kwa mbere</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Ũteithio</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>Ũteithio wa wizard</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>Ihithe</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Rũgano</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>Rũgano rwa %name</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Host</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>Ũrĩa GitHub Pages yamũkagĩra mwako</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>Nĩ ndathuthuria mĩgarũrũko</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>Nĩ njũĩ kĩrĩa ũndũ ũyũ ũgũcenjia</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>Namba</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>Nĩ kũhingĩtwo: gũtirĩ kĩndũ kĩngĩakwo nginya kũhingũrwo.</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>Ũrarutwo wĩra na thuutha ta %user; no ũhinge karatathi gaka.</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>Wĩra %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>Nĩ kĩigĩtwo ta thiri %secret.</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Mũthemba</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Gũcabithia kwa mũthia</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>Tiga tũratathi tũtũ</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>Tiga icunjĩ ici</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Ikĩgwatanio</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>Ikĩgwatanio iandĩkĩtwo rĩngĩ</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>Saiti ĩrĩa ĩrĩ muoyo</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>Rora mwako</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>Marũa manini, namba, _ na -, ta github-public. Nĩrĩo rĩĩtwa rĩa foda na rĩa imenyithia (static/&lt;id&gt;/&lt;n&gt;) na rĩtingĩgarũrwo thuutha.</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>Thondeka kĩhingũro kĩerũ</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>Thondeka kĩrorirwo</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>Thondeka kĩhingũro</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>Thondeka kĩigĩro kĩa code kũrĩ host mbere; kĩigĩro gĩtarĩ kĩndũ nĩ kĩega.</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>Rũrenda rwa faili</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Ndũmĩrĩri</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>Tũratathi tũingĩ</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Rĩĩtwa</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>Rĩĩtwa rĩa token thĩinĩ wa Mwambĩrĩria &gt; Matumbĩ</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>Kĩrorirwo kĩerũ</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Ĩrĩa ĩrũmĩrĩire</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>Aca</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>Gũtirĩ mũrũmio rĩu.</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>Gũtirĩ kĩhingũro gĩthondekeirwo: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Programu ya command line ya php ndĩonekire. Ĩkĩra njĩra yayo yothe thĩinĩ wa migration.ini [AdminSettings] PhpCliPath.</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>Gũtirĩ kĩmenyithia rĩu.</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>Gũtirĩ kĩrorirwo rĩu.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Gũtirĩ</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>Gĩtirĩ thĩinĩ wa mwako.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>Gũtirĩ kĩndũ kĩcabithĩtio rĩu.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>Gũtirĩ kĩndũ kĩcabithĩtio rĩu: o faili nĩ njerũ.</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>Menyithia</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>Na ratĩba</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>Kũrĩ console</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>Kũrĩ server: ./console exp:static:serve %id nĩ ĩkĩheanaga o ũguo.</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>Njĩra ĩmwe o mũhari, * nĩ ĩnyiitaga gĩcunjĩ o gĩothe: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>No rĩĩtwa rĩigagwo hamwe na kĩrorirwo; token kana kĩhingũro kĩene gĩtigaraga thĩinĩ wa Mwambĩrĩria &gt; Matumbĩ na gĩtionekaga rũandĩko-inĩ.</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>No kĩrĩa tũratathi tũgwetaga</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>No na token. env:NAME nĩ ĩthomaga variable ya environment ya server handũ ha ũguo.</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>Hingũra kũrora mbere</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>Ĩhingũraga mwako o ta ũrĩa host ĩkaũheana, kuuma foda ya kĩrorirwo. Kĩgwatanio nĩ kĩrutaga wĩra nĩ ũndũ waku ihinda rĩa ithaa rĩmwe.</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>Ti wa bata. Gũtirĩ kĩndũ: kĩrĩa gĩcabithirio.</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>Ti wa bata. Na domain saiti ĩheanagwo mũri-inĩ wayo.</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Maumĩrĩra</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>Tũratathi</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>Tũratathi twa kĩrorirwo</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>Tũratathi tũregetwo</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>Gũthondeka thuutha</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Rora mbere</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>Rora mbere na ũcabithie</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>Rora mbere na ũcabithie %name</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>Rora mwako mbere</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Ũrĩa ũrathiĩ</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>Address ya andũ othe</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>Kĩhingũro kĩa andũ othe</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>Cabithia</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>Cabithia kobi ya tũtũ ya saiti kũrĩ GitHub Pages kana host o yothe ya git: ĩake, thuthuria mĩgarũrũko, cabithia, na ũcooke gũcabithia kwa mbere rĩrĩa ũkũbatara.</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>Gũcabithia kũrĩa ũgũcooka</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>Gũcabithia</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Gũtũma</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>Thoma ũtaaro</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Rekodi</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Nĩ kũregetwo</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>Gũtwarana</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Cookia rĩngĩ</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>Nĩciehereirio</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>Garũra kĩhingũro: kĩrĩa gĩkũrũ gĩgũtiga wĩra</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Ripoti</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>Ripoti ya mwako</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Kĩigĩro kĩa code</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Thuthuria</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>Gũthuthuria nĩ kũroraga o mũtaratara na kũkonania mĩhari ĩrĩa ĩkaandĩkwo. Gũtirĩ kĩndũ kĩigĩtwo rĩu.</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Cookia</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Gũcookia</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Iga</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>Ratĩba</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>Karatathi ka gũcaria</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>Id cia icunjĩ, ciamũranĩtio na koma.</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>Itũme kũrĩ saiti ĩrĩa ĩrĩ muoyo</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>Mũtaratara</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Mĩtaratara</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>Mĩtaratara ya %name</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Mwambĩrĩria</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Mwambĩrĩria &gt; Matumbĩ</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>Ĩonanagio thĩinĩ wa mĩrongo, ta &quot;Saiti ya andũ othe kũrĩ GitHub Pages&quot;.</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>Gũtoonya na GitHub App gũgaũka na ũnyitanĩrio wa GitHub.</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>Saiti</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>Saiti ya gũcabithia</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Ũnene</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>Ũnene na mĩhaka</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>Ũnene wa mwako</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Tũratathi tũkũrũ</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Yambĩrĩirio</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Wambĩrĩirio nĩ %user hĩndĩ ya %time.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Ũrĩa ũrĩ</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Gũcabithia gwa tũtũ</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>Gũcabithia gwa tũtũ nĩ kũhingĩtwo</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Gũcabithia gwa tũtũ nĩ kũhingĩtwo.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>Gũcabithia gwa tũtũ nĩ kũhingĩtwo. Kũhingũre thĩinĩ wa Mwambĩrĩria &gt; Gũcabithia gwa tũtũ mbere.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>Gũcabithia gwa tũtũ nĩ kũhingũrĩtwo.</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>Ikinya %step kuuma %total</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Makinya</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>Gũthambia</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Hinga</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Hingũra</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>Hingũra gũcabithia gwa tũtũ</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Kĩmenyithia</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>Imenyithia</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Kĩrorirwo</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>Irorirwo no ithondekwo na igarũrwo, no gũtirĩ kĩndũ kĩkaakwo kana gĩcabithio nginya kũhingũrwo.</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>Ĩĩraga mashini cia gũcaria kĩrĩa igũthoma.</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>Mwako ndũngĩatee: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>Mwako ũhaana o ta gũcabithia kwa mũthia: gũtirĩ kĩndũ gĩa gũcabithia.</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>Mwako nĩ ũteetwo: foda nĩ ĩrĩ na gũcabithia kwa mũthia rĩngĩ.</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>Ũrĩa gũtũũraga nĩ kwagĩrĩire saiti nyingĩ.</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>Foda ĩrĩ na mwako ũtarĩ mũcabithie; mwako mwerũ nĩ ũkaũgarũra.</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>Foda ya mawĩra ndĩngĩandĩkwo: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>Wĩra ndũngĩathondekirwo: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>Wĩra ndũngĩambĩrĩirio.</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>Wĩra nĩ wathira. Ripoti yaguo nĩ ĩrarehwo.</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>Wĩra nĩ ũbataraga mũhũthĩri ũtoonyete.</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>Wĩra nĩ wambĩrĩirio no ndwaheanire id ya process yaguo. Thuthuria %detail.</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>Kĩhingũro</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>Faili nene gũkĩra ciothe: %path, %size.</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Mĩhari ĩrĩa ĩkaandĩkwo</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>Rũrenda rwa tũratathi nĩ ũndũ wa mashini cia gũcaria; nĩ rũbataraga address ya andũ othe.</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>Tũratathi tũrehagwo o ta ũrĩa mũgeni ũtatoonyete atuonaga. siteaccess cia ũrũgamĩrĩri na cia gũthondeka itirĩ hĩndĩ ciheanagwo.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>Ũrĩa ũrathiĩ ndũngĩarũmĩrĩirwo. Cookia karatathi rĩngĩ wone ũrĩa wĩra ũrathiĩ.</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>Gĩcunjĩ kĩa andũ othe kĩa kĩhingũro:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>Mũri wa rũhonge</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>Kĩigĩro kĩa matumbĩ gĩtirĩ kĩhaarĩrio rĩu (./console exp:upgrade --apply nĩ ĩthondekaga metha yakĩo), nĩ ũndũ ũcio gũtirĩ kĩhingũro kĩngĩigwo.</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>Server ĩtoonyaga yo nyene (na kĩhingũro gĩayo kĩa SSH kana credential helper), kana kĩigĩro kĩa code kĩrĩ server-inĩ ĩno.</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>Mũtaratara ndũngĩandĩkirwo: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Mĩtaratara nĩ ĩrĩ wega. Mĩhari ĩno nĩ ĩkaandĩkwo:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Faili ya mĩtaratara ndĩngĩthomeka: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>Saiti nĩ ĩcookaga faili-inĩ cia gũcabithia kũu; mwako ũtarĩ mũcabithie no nginya ũcabithio kana ũtewo mbere.</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>Karatathi ka saiti kene nĩ ũndũ wa address iria itarĩ ho.</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>Kĩrorirwo gĩtingĩaigirwo: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>Kĩrorirwo gĩtirĩ gĩgĩtoonya na kĩhingũro gĩkĩ rĩu: thuura &quot;Kĩhingũro kĩa gũtũma gĩthondekeirwo kĩrorirwo gĩkĩ&quot; mĩtaratara-inĩ yakĩo.</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Irorirwo itingĩathomekire: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>Gũtirĩ mwako wa gũthuthuria rĩu.</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>Ũhandi ũyũ ndũrĩ na siteaccess ya mbere. siteaccess cia ũrũgamĩrĩri na cia gũthondeka itirĩ hĩndĩ icabithagio.</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>Karatathi gaka nĩ karũmagĩrĩra wĩra ũrĩa ũrathiĩ; wĩra nĩ ũthiaga na mbere na thuutha rĩrĩa karatathi kahingwo.</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>Kĩrorirwo gĩkĩ gĩtirĩ na kĩhingũro kĩa gũtũma rĩu.</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>Kĩrorirwo gĩkĩ gĩtirĩ gĩakwo haha rĩu.</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>Kĩrorirwo gĩkĩ nĩ kĩrĩ nakĩo.</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>Nĩ ĩtaga mwako ũyũ: foda nĩ ĩrĩ na gũcabithia kwa mũthia rĩngĩ. Saiti ĩrĩa ĩrĩ muoyo ndĩcenjagia.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>Ĩkĩra kĩmenyithia &quot;Nĩ ndathuthuria mĩgarũrũko&quot; mbere.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Ihinda</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>Kĩambĩrĩria</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>Andĩka rĩĩtwa rĩa kĩmenyithia rĩngĩ</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>Itigarũrĩtwo</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>Webhook</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Kĩĩ</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>Kĩrĩa gĩgũcenjia</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>Kĩrĩa o faili ĩrĩ; ĩandĩkagwo hĩndĩ ciothe.</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>Kĩrĩa wĩra wekire na rekodi yaguo. Wĩra wambĩrĩirio haha nĩ ũthiaga na mbere na thuutha rĩrĩa karatathi gaka kahingwo.</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>Kĩrĩa wĩra wonanirie ta mahĩtia</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>Kĩrĩa tũratathi tũgwetaga, na o mbica ya maũndũ macabithĩtio</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Rĩ</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>Rĩrĩa gũcabithia kwaga</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>Rĩrĩa gũcabithia kwahota</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>Rĩrĩa maũndũ macabithio</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>Kũrĩa ikĩgwatanio cia kĩrĩa kobi ĩtarĩ nakĩo ithiĩ (gũcaria, gũtoonya).</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>Kũrĩa kobi ya tũtũ ĩheanagwo kuuma.</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>Nĩ saiti ĩrĩkũ ĩcabithagio, na kĩrorirwo gĩĩtagwo atĩa.</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>Rutaga wĩra rungu rwa njĩra o yothe. Ũrĩa ũtũũraga.</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>Ĩandĩkagwo rĩrĩa domain yaku yaigwo.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>Ĩĩ</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>Hĩndĩ ciothe no ũake na ũcabithie na moko haha na kũrĩ console.</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>rĩĩtwa no rĩo; ũrĩa ũrĩ ũtigaraga thĩinĩ wa Mwambĩrĩria &gt; Matumbĩ</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>rungu rwa %path</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>wathirire hatarĩ ripoti</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>kuongerera</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>nĩ woimĩte</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>faili</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages, kana main na foda docs.</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>host ya git</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (na token) kana git@github.com:owner/repo.git (na kĩhingũro kĩa gũtũma); ndũkanandĩke password kana token thĩinĩ wayo.</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/, nĩ ũndũ wa mapu ya saiti na ikĩgwatanio cia canonical.</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>mbica</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>ndũkigathirĩ</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>aca</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>gũtirĩ kĩigĩro kĩa kũraya</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>gũtirĩ: mĩrũmio ĩtigaraga foda-inĩ</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>gũtirĩ: gũtirĩ kĩndũ kĩgarũrũkĩte</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>ndĩtũmĩtwo</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>gũtirĩ kĩndũ kĩgarũrũkĩte</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>karatathi</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>nĩ wahotire</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>proc_open nĩ ĩhingĩtwo, nĩ ũndũ ũcio wĩra ndũngĩambĩrĩrio haha. Hũthĩra ./console exp:static:build kũrĩ server.</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>gũcabithia</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>nĩ gĩcabithĩtio</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>gũtũma nĩ kũretereire</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>nĩ ĩtũmĩtwo</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>nĩ waregirwo</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>gũtwarana</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>gũcookia</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>nĩ gĩcookeirio</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>nĩ ũratengerio</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>foda no yo</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: ĩandĩkagwo faili-inĩ CNAME. Erekeria DNS ya domain kũrĩ host o ta ũrĩa ĩtaaragĩria; HTTPS no ĩkũũe ihinda nĩguo yambĩrĩrie.</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>ĩĩ, ndĩrĩ ĩcabithio rĩu</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>GitHub App ĩmwe</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>Workflow ya kĩigĩro kĩa code nĩyo ĩkĩcabithagia. Mwako nĩguo wandĩkaga faili ya workflow; tiga folda ĩtarĩ kĩndũ.</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>Thuutha wa kũiga kĩrorirwo na kĩigĩro kĩa code kĩa GitHub na token kana GitHub App, kĩgerero gĩkĩ no gĩthondeke kĩigĩro kĩa code na kĩhingũre GitHub Pages. Angĩkorwo tiguo, thondeka kĩigĩro kĩa code GitHub mbere; kĩigĩro gĩtarĩ kĩndũ nĩ kĩega.</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>Rũhonge kana GitHub Actions?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>Thuthuria DNS</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>Thondeka kĩigĩro kĩa code angĩkorwo gĩtirĩ ho</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>Thondeka kĩigĩro kĩa code GitHub na ũhingũre GitHub Pages mĩtaratara-inĩ yakĩo (Settings &gt; Pages).</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>Nĩgĩthondekaga kĩigĩro kĩa code %repo kĩngĩkorwo gĩtirĩ ho (rĩrĩa gĩkũũrio), kĩhingũre GitHub Pages kuuma rũhonge kana kuuma GitHub Actions ta ũrĩa kwaigirũo, na kĩige domain yaku na HTTPS. Kĩhũthagĩra mĩtaratara ĩrĩa ĩigĩtwo: iga mũgarũrũko mbere.</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>Ũhoro wothe GitHub-inĩ</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>Ingĩra domain yaku mbere.</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>O push o yothe nĩĩthuthagĩrio na mĩhaka ĩno mbere.</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>Nĩ ũndũ wa address ya https:// GitHub-inĩ. App ĩrĩa yathondekeirwo ũhandi ũyũ nĩyo ĩtoonyaga; nĩĩbataraga id ya ũhandi.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages ĩheanaga kĩigĩro kĩa code kĩa hithũ o mũbango-inĩ wa kũrĩha tu.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: subdomain (www.example.com) nĩĩbataraga rekodi ya CNAME ya &lt;owner&gt;.github.io; apex domain (example.com) rekodi cia A %ips.</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>Id ya ũhandi wa GitHub App</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>Mwako wa Pages wa kũrigĩrĩria</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>Mĩhaka na mawatho</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>Nĩ kĩbataro nĩ ũndũ wa GitHub Pages mũbango-inĩ wa tũhũ.</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>GitHub-inĩ</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>O na GitHub App tu: namba ĩrĩa ĩrĩ mũthia wa address ya ũhandi wa App GitHub-inĩ. App ĩyo yene ĩigagwo thĩinĩ wa staticcache.ini (GitHubAppId, GitHubAppKey).</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>Hithũ</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>Ya andũ othe</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>Iga kĩrorirwo na kĩigĩro kĩa code kĩa GitHub na token kana GitHub App mbere.</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>Iga rekodi ici kũrĩ mũheani wa domain:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>Thondeka GitHub-inĩ</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>DNS ya %domain ndĩrĩ ĩrorithagia GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>DNS ya %domain nĩĩrorithagia GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>Ũnyitanĩrio wa GitHub ndũrĩ haha: %problem. Gũcabithia rũhonge-inĩ nĩkũrutaga wĩra o ũguo; hingũra GitHub Pages mĩtaratara-inĩ ya kĩigĩro kĩa code.</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>Ciĩgerero cia GitHub itirĩ nĩ ũndũ wa kĩrorirwo gĩkĩ: %problem.</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>Ũrĩa GitHub Pages ĩhaana nĩkuonanagio na token kana GitHub App ta ũira wa gũtoonya.</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>Hũthĩra domain yaku</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>Ũgũthuura kĩĩ: token, kĩhingũro kĩa gũtũma kana GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>Na kĩigĩro kĩa code kĩa GitHub na token kana GitHub App, wizard no ĩgũthondekere kĩigĩro kĩa code, ĩhingũre GitHub Pages na ĩige domain (kĩgerero 4).</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>nĩ kũrakwo</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>nĩ gwakwo</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>kuuma GitHub Actions</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>kuuma rũhonge %branch</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>gũtirĩ o na rĩu</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>ndĩonekire</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>hingĩtwo</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>hithũ</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>ya andũ othe</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>mũhari-inĩ</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>ndĩĩũĩkaine</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%count harĩ ngurarĩ %pages:</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>.gz (na .br) hakuhĩ na faili yothe ya ciugo, ya ahoti marĩa maacokagia.</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>Ngurarĩ nini ya anwani na marĩtwa ma tene ma ngurarĩ yothe, nĩguo hurunjĩ cia tene ciingĩrĩrie gwĩka wĩra.</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>Yandĩkagwo hĩndĩ ciothe GitHub Actions ĩrehe saiti.</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>SPDX id ta CC-BY-4.0, kana mahituko macio mene.</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>Gĩkabũ</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>Mathimo kũrĩ seva</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Ciugo cia gũtaarĩria</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>Fomu iria ciohaga ũhoro</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>GitHub Actions workflow</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>Nafasi nini ya ũtheri na gũtirĩ ciugo cia gũtaarĩria ngurarĩ-inĩ.</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>Rũtha rwa ũhoro</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Ingĩra</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>Nyihia</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>Fomu ingĩ</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>Kũmina mbere</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>Ngurarĩ cia gũcokia</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>Ngurarĩ cia gũcokia: %count.</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Caria</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>Ndĩrĩka ya gũcaria: ngurarĩ %pages thĩinĩ wa %languages.</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>Mahũgũro ma mũtindo na maandĩko marĩtwo na hash ya ũhoro wa macio, nĩguo mabrauza mamahe.</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>Ngurarĩ iria ciahũrũkire, ndagĩka nini thutha wa ũhũrũku wa mũthia (kĩgĩcĩ kĩa cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>Rũtha rwa ũhoro, kuuma ngũrũ-inĩ ya rĩrĩa rĩrĩ rũgongo.</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>Saiti yothe, ihinda-inĩ cia ratiba (kĩgĩcĩ kĩa cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>Icigo ici cia ngurarĩ nĩcihaanda seva; ĩmwe yothe nĩyaheirwo ya gũtũmĩka. Ciringe mbere ya gũcabithia.</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>Maũndũ marĩa matarutaga wĩra ta gĩtũũra</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>Rĩrĩa gĩkundi kĩa maũndũ kiri, kũrĩ ũrĩa ũkĩĩhingũra kũrĩ ũhoti.</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>yaithĩrũo</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>ciugo cia gũtũmĩka</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>mũthia wa fomu wa saiti ĩrĩa ĩrĩ muoyo</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>saiti ĩrĩa ĩrĩ muoyo</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>ngurarĩ ya gũcaria ya kopi</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>Fomu ĩyo ndĩahotekire gũtũmwo.</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>Ngatho: fomu ĩtũmĩtwo.</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>Fomu ndĩnyiitwo: ringa ũrĩa wandĩkire na ũmĩtũme rĩngĩ.</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>Ehera ngwatanio cia mathangũ marĩa kobĩ ĩtarĩ namo</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>Ehera ngwatanio cia gũthiĩ ũrũgamĩrĩri-inĩ</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>Ndeto ciacio itigaraga. Mbica, fomu na ngwatanio cia thaiti ingĩ itiheragwo.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Ũrutwo</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>Njĩra cia saiti cia gũcabwo</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Njĩra ya saiti</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>Mũthiyũ-inĩ</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>Gũtirĩ njĩra ya saiti mũthiyũ-inĩ: o ĩmwe ĩrĩ fonda-inĩ yayo, na mũthiyũ ũkũmathukania</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Njĩra cia saiti</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>Thuura njĩra ĩmwe ya saiti, kana nyingĩ iria igwatanagĩra mũgeni ũmwe na URI prefix ciao. Ĩrĩa ĩrĩ mũthiyũ-inĩ ĩheagwo kũu, iria ingĩ fonda-inĩ ya prefix yacio (/ger/); mĩthiĩre ĩrĩa ĩrĩ gatagatĩ kacio ĩtigagwo thĩinĩ wa kobĩ. Njĩra cia ũrũgamĩrĩri itiheanagwo o na rĩ.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>Gũcabithia static kwa %target nĩ kwaremwo harĩ %site</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>Gũcabithia static kwa %target nĩ kwahingĩte harĩ %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>Marũa maya matũmĩtwo nĩ %site tondũ kĩrĩa gĩa gũcabithia static %target nĩ kĩramiũria.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>Twara %deploy nĩ ĩoire kũrĩ %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>Twara %deploy nĩ ĩretereire kĩhingo-inĩ kũrĩ %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>Twara %deploy nĩ ĩhingĩte wega kũrĩ %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>Marũa maya matũmirwo nĩ %site tondũ migration.ini [RemoteSettings] Notify[] nĩ ĩrenda ũguo.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>Mĩthemba ya data (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>Ĩtarĩtwo %time, rĩngĩ thuutha wa ndagĩka %minutes</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>Mũthemba wa data ũiga na ũkagarũra mũthemba ũmwe wa thogora wa mũhianĩre wa kĩrathi: mũrĩrĩ wa ndemwa, mbica, ũhoro wa ngwatanĩro. Mũthingi nĩ ũrehaga mĩingĩ, ikĩongerereo nĩ ciongagĩrĩra ĩngĩ. Haha nĩ haarĩ yothe, ũrĩa ũmĩheanaga na ũrĩa maũndũ maingĩ mamĩhũthagĩra. Mũthemba wa data ũrĩa database ĩhũthagĩra no gũtirĩ kĩndũ kĩũandĩkithĩtie rĩu nĩ ũthũkagia maũndũ marĩa marĩ naguo.</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>Ikundi cia irathi</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>Tara rĩngĩ rĩu handũ ha kũhũthĩra mĩtaro ya ndagĩka iria ciathira.</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>Tara rĩngĩ</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Mũcemanio</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>Nĩ ehoketie</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>Nĩ ĩrahũthĩrũo</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>Ndĩhũthĩtwo</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>Ikĩongerereo iria ciheanaga mĩthemba ya data</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>Mĩhianĩre ya kĩrathi</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>Mĩhianĩre ya kĩndũ</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>Ndũandĩkithĩtio</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>Ĩrĩ thĩinĩ wa rũthiomi, faili ndĩrĩo</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>Mĩthemba ya data %count nĩ ĩrahũthĩrwo no ndĩandĩkithĩtio</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>Mĩhianĩre ya kĩrathi %class_attributes na mĩhianĩre ya indo %object_attributes ĩrĩ na mũthemba wa data ũrĩa gũtirĩ kĩongerereo kana mũbango ũũandĩkithĩtie. Indo ciacio itingĩonanio, igarũrwo kana ciumĩrio. Ambĩrĩria kĩongerereo kĩrĩa kĩheanaga mũthemba ũcio wa data, kana ũgarũre kĩrathi.</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>Onania ici tu</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>Caria mũthemba wa data</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>Kĩmenyithia, rĩĩtwa, kĩrathi kĩa PHP kana kĩongerereo.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Rora</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Ciothe</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>Ĩheanĩtwo nĩ</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>Mũndũ o wothe</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>Mũthingi</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>Gũtirĩ mũthemba wa data ũringaine na gĩthũrani gĩkĩ.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Rora ciothe</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>Kĩongerereo</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%shown kuuma mĩthemba ya data %count, %used nĩ ĩrahũthĩrwo</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>Database ĩrĩ na mĩhianĩre ya kĩrathi kana ya indo ya mĩthemba ĩno ya data, no content.ini ndĩandĩkĩte o na ũmwe, kana faili yaguo ndĩrĩo.</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>Mĩthemba ya data ya %provider</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>Mũthemba wa data</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>Kĩrathi kĩa PHP na faili</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>Irathi</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>Indo</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>Alama</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>gũtirĩ</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>Gũtirĩ mũthemba wa data ũringaine na ũcaria. Theria ũcaria.</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>%shown kuuma mĩthemba ya data %count nĩ ĩronanio</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>Mĩthemba ya data ĩronanio: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>Bange na %column</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>Ĩtarĩtwo %time</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>Mĩthemba yothe ya data</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>Ũrata wa ũteithio</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>Mũthemba ũyũ wa data nĩ ũrahũthĩrwo no ndũandĩkithĩtio</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>Indo cia irathi iria irĩ haha thĩ itingĩonanio, igarũrwo kana ciumĩrio rĩrĩa gũtirĩ kĩongerereo kĩandĩkithĩtie mũthemba ũyũ wa data. Ambĩrĩria kĩongerereo kĩrĩa kĩũheanaga na ũwongerere thĩinĩ wa content.ini [DataTypeSettings] AvailableDataTypes[], kana ũgarũre irathi.</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini nĩ ĩandĩkĩte mũthemba ũyũ wa data, no gũtirĩ ndaarĩkitarĩ ya mĩthemba ya data ĩrĩ na faili yaguo. Gũtirĩ kĩndũ kĩũhũthagĩra; ũrute kuuma AvailableDataTypes[] kana ũambĩrĩrie kĩongerereo kĩaguo.</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>Ũhoro wa mũthemba ũyũ wa data</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>Kĩmenyo</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Rĩĩtwa</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Kĩongerereo %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>gũtirĩ mũndũ</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>Kĩrathi kĩa PHP</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Faili</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>Thĩinĩ wa AvailableDataTypes[]</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ĩĩ</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>aca</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>Mĩhari ya thogora waguo</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>Mĩhari ya mĩbango ya mũhianĩre waguo wa kĩrathi</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>Ithandũkũ</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>Mĩhari na metha ionekaga na gũthoma code ya mũthemba wa data: nĩ kĩonereria, ti kĩĩranĩro.</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>Mĩhiano</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Njĩra ya saiti</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>Mũhiano</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>Gĩkoneka thĩinĩ wa</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>ũthondeki ũyũ</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>saiti ya kawaida</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>Hatarĩ ikũrũrania: mũhiano wa gũkũrũrania ũringaine na kĩrathi kana mũhianĩre nĩ ũhootaga ici.</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>Irathi iria ciũhũthagĩra (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>Gũtirĩ kĩrathi kĩrĩ na mũhianĩre wa mũthemba ũyũ wa data.</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Kĩrathi</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>Mĩhianĩre</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>Mĩhianĩre ya kĩrathi (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>Mũhianĩre</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Mĩtaratara</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>Nĩ bata</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>Nĩ kĩcarĩkaga</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>Nĩ kĩngĩtaũrwo</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>Nĩ ĩkũngania ũhoro</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>Maũndũ mamwe marĩa maũhũthagĩra</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>Ĩrĩa ĩgarũrĩtwo mũthia mbere</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Nĩ gĩcenjetio</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>Nodi %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>O ũtaũrani ũrĩ na thogora waguo.</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>Ũcaria nĩ ũandĩkaga mathogora maguo.</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>Nĩ ũngĩcookereria ũhoro kuuma kũrĩ ageni (fomu).</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>Mĩandĩko nĩ ĩngĩbangwo naguo: kĩhingũro gĩa kũbanga %type.</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>No ũbangwo</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>Mathogora maguo monagia indo ingĩ.</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>Ũnyitanĩri</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>Nĩ ũngĩiyũrwo kuuma ndemwa njerũ (kũrehe, REST).</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>Kuuma ndemwa</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>Nĩ ũngĩiyũrwo kuuma faili.</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>Kuuma faili</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>Mĩbango ya mũhianĩre waguo wa kĩrathi nĩ ĩtoonyaga thĩinĩ wa mĩhaka.</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>Ikĩohe</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>Ũhoro (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from nginya %to kuuma %count</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Thuurania mũhari</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>Irathi ciothe</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Gĩcunjĩ</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Ũthiomi</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Mwene</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Nĩ gĩcabithĩtio</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>Cokia mũbango</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Gũtirĩ kĩndũ</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Ũrũa o ũrũa</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Onania ikĩndũ %count ũrũa-inĩ o ũmwe.</translation>
     </message>
 </context>
 </TS>

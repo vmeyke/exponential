@@ -3,13 +3,14 @@
 /**
  * File containing the eZContentObjectTest class
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
  * @package tests
  * @group database
  */
+#[\PHPUnit\Framework\Attributes\Group('database')]
 class eZContentObjectTest extends ezpDatabaseTestCase
 {
     protected $backupGlobals = false;
@@ -506,6 +507,7 @@ class eZContentObjectTest extends ezpDatabaseTestCase
      * @see http://issues.ez.no/17946
      * @group issue17946
      */
+    #[\PHPUnit\Framework\Attributes\Group('issue17946')]
     public function testFetchByNodeIDArrayAsObject()
     {
         $fetchedObjects = eZContentObject::fetchByNodeID( array( 2 ) );
@@ -523,6 +525,7 @@ class eZContentObjectTest extends ezpDatabaseTestCase
      * @see http://issues.ez.no/17946
      * @group issue17946
      */
+    #[\PHPUnit\Framework\Attributes\Group('issue17946')]
     public function testFetchByNodeIDArrayAsRow()
     {
         $fetchedObjects = eZContentObject::fetchByNodeID( array( 2 ), false );

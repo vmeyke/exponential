@@ -8,7 +8,7 @@
  * No database. Writing goes to extension/<a name no extension has> and the archive to the cache directory; both
  * are removed again.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @package tests
  * @group kernel
@@ -16,6 +16,7 @@
 
 require_once __DIR__ . '/expRadWizardTestHelper.php';
 
+#[\PHPUnit\Framework\Attributes\Group('kernel')]
 class expExtensionWizardBaseTestWizard extends expExtensionWizard
 {
     public static $files = array( 'a/b/c.txt' => 'one', 'top.txt' => 'two' );
@@ -287,6 +288,27 @@ class expExtensionWizardBaseTest extends PHPUnit\Framework\TestCase
         $this->assertSame( 'A <b>bold</b> & "quoted" summary', $dom->getElementsByTagName( 'summary' )->item( 0 )->textContent );
         $this->assertSame( 'k1e_base', $dom->getElementsByTagName( 'name' )->item( 0 )->textContent );
         $this->assertSame( 'X & Y', $dom->getElementsByTagName( 'maintainer' )->item( 0 )->textContent );
+    }
+
+    public function testPackagingFilesNameAWebsite()
+    {
+        $settings = $this->settings( array() );
+        $php = expExtensionWizardBaseTestWizard::call( 'ezinfo', $settings );
+        expRadWizardTestHelper::assertPhpParses( $this, $php, 'ezinfo.php' );
+        $this->assertStringContainsString( "'Info_url'  => 'https://doc.exponential.earth' );", $php );
+        $dom = new DOMDocument();
+        $this->assertTrue( $dom->loadXML( expExtensionWizardBaseTestWizard::call( 'extensionXml', $settings ) ) );
+        $this->assertSame( 'https://doc.exponential.earth', $dom->getElementsByTagName( 'info_url' )->item( 0 )->textContent );
+
+        $settings = array( 'website' => 'https://example.org/my-extension' ) + $this->settings();
+        $this->assertStringContainsString( "'Info_url'  => 'https://example.org/my-extension' );", expExtensionWizardBaseTestWizard::call( 'ezinfo', $settings ) );
+        $this->assertStringContainsString( '<info_url>https://example.org/my-extension</info_url>', expExtensionWizardBaseTestWizard::call( 'extensionXml', $settings ) );
+
+        foreach ( array( 'javascript:alert(1)', 'example.org', "https://x.org/'a", 'ftp://example.org' ) as $bad )
+        {
+            $settings = array( 'website' => $bad ) + $this->settings();
+            $this->assertStringContainsString( "'Info_url'  => 'https://doc.exponential.earth' );", expExtensionWizardBaseTestWizard::call( 'ezinfo', $settings ), $bad );
+        }
     }
 
     public function testComposerJson()

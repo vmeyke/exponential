@@ -15,7 +15,7 @@
  *
  * Run: php vendor/bin/phpunit tests/tests/design/Admin4lReviewTest.php
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package tests
  */
@@ -41,11 +41,12 @@ class Admin4lReviewTest extends PHPUnit\Framework\TestCase
     }
 
     /** AL-R1 */
-    public function testTheGetSectionIdInTheCacheKeysIsANumber()
+    public function testTheSearchSectionIdInTheCacheKeysIsANumber()
     {
         $page = self::read( 'design/admin4l/templates/pagelayout.tpl' );
-        $this->assertStringContainsString( "ezhttp( 'SectionID', 'get' )|int", $page );
-        $this->assertDoesNotMatchRegularExpression( "/ezhttp\\( 'SectionID', 'get' \\)\\s*\\)/", $page, 'no raw value left' );
+        $this->assertStringContainsString( '$search_hash          = array( first_set( $search_section_id, -1 )|int )', $page );
+        $this->assertStringNotContainsString( "'SectionID', 'get'", $page, 'never the query string' );
+        $this->assertStringContainsString( '$env_badge.key, $a4_help_key, $search_hash ) ignore_content_expiry}', $page, 'the header block with the search popup keys on the section' );
     }
 
     /** AL-R2 */

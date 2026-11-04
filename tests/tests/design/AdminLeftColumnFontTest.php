@@ -5,7 +5,7 @@
  *
  * Run: php vendor/bin/phpunit tests/tests/design/AdminLeftColumnFontTest.php
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package tests
  */
@@ -80,7 +80,7 @@ class AdminLeftColumnFontTest extends PHPUnit\Framework\TestCase
     public function testTheLeftColumnKeepsTheBodysFontSize()
     {
         $found = false;
-        foreach ( self::rules( 'design/admin4/stylesheets/pagelayout.css' ) as $rule )
+        foreach ( self::rules( 'design/admin4/stylesheets/base.css' ) as $rule )
         {
             if ( $rule[0] !== '.sidebar.left' )
             {

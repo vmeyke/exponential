@@ -7,13 +7,15 @@
  *
  * No kernel bootstrap, no database: share/locale is read from the working copy.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @package tests
  * @group lib
  * @group ezlocale
  */
 
+#[\PHPUnit\Framework\Attributes\Group('lib')]
+#[\PHPUnit\Framework\Attributes\Group('ezlocale')]
 class expLocaleListTest extends PHPUnit\Framework\TestCase
 {
     protected function setUp(): void

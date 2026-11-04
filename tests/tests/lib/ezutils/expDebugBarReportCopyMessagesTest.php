@@ -11,13 +11,15 @@
  *
  * No database: the report is rendered from a debug instance of its own, as eZDebugMessagesTest does.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package tests
  * @group lib
  * @group ezutils
  */
 
+#[\PHPUnit\Framework\Attributes\Group('lib')]
+#[\PHPUnit\Framework\Attributes\Group('ezutils')]
 class expDebugBarReportCopyMessagesTest extends PHPUnit\Framework\TestCase
 {
     const GLOBAL_KEYS = array( 'eZDebugGlobalInstance', 'eZDebugEnabled', 'eZDebugLogOnly', 'eZDebugAlwaysLog', 'eZDebugLogFileEnabled' );

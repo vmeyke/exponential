@@ -3,7 +3,7 @@ title: Siteaccess-Operatoren
 audience: developer, designer, app-creator
 category: development
 order: 360
-summary: Die Kernel-Operatoren, die die Siteaccesses einer Installation kennen - siteaccess_url, siteaccess_menu, siteaccess_menu_key und language_switcher - mit ihren Parametern, den Einstellungen dahinter, was sie zurückgeben, wie sie kompiliert werden, und Beispielen, auf alpha mit drei verschiedenen Siteaccesses gerendert.
+summary: Die Kernel-Operatoren, die die Siteaccesses einer Installation kennen - siteaccess_url, siteaccess_menu, siteaccess_menu_key und language_switcher - mit ihren Parametern, den Einstellungen dahinter, was sie zurückgeben, wie sie kompiliert werden, und Beispielen, auf einer Entwicklungsinstallation mit drei verschiedenen Siteaccesses gerendert.
 keywords: Siteaccess, Sprachumschalter, Siteaccess-Menü, Startseite, Adresse, siteaccess_url, siteaccess_menu, siteaccess_menu_key, language_switcher, siteaccess, AdminSiteAccessMenu, FrontSiteAccess, TranslationSA, LanguageSwitcherClass, switchlanguage, ezpSiteAccessURL, ezpSiteAccessMenu
 type: help
 ---
@@ -43,8 +43,26 @@ Generierte Seite: [siteaccess_url](../../beispiele/template-operatoren/siteacces
   Siteaccess, der nicht in `AvailableSiteAccessList[]` steht, ergibt eine leere Zeichenkette.
 
 Die Adresse wird aus Schema, Host und Port der Anfrage und aus der Art ermittelt, wie der Ziel-Siteaccess erkannt wird
-(`MatchOrder`, `URIMatchType`, `HostMatchMapItems`, `SiteURL`); sie funktioniert also bei Erkennung über URI, Host und
-Port gleichermaßen. Sie wird weder in Anführungszeichen gesetzt noch maskiert.
+(`MatchOrder` mit `host_uri`, `host` und `uri`; `URIMatchType`, `HostUriMatchMapItems`, `HostMatchMapItems` und das
+eigene `[SiteSettings] SiteURL` des Siteaccess); sie funktioniert also bei Erkennung über URI, Host, Host und URI sowie
+Port gleichermaßen. Eine Adresse wird nur verwendet, wenn die Erkennungsregeln mit ihr zu genau diesem Siteaccess
+führen, ohne dass vom Pfad etwas übrig bleibt, sodass eine über den Host erkannte Website nie einen Pfad `/name/`
+bekommt, den ihr Host als Modul lesen würde (und mit 404 beantworten würde). In dieser Reihenfolge:
+
+1. dieser Host, mit einem Eintrag des Siteaccess in `HostUriMatchMapItems` für diesen Host, sonst mit seinem
+   URI-Element (oder seinem Schlüssel in `URIMatchMapItems`);
+2. die eigene `SiteURL` des Siteaccess (Host, Port und Pfad; eine darin enthaltene Indexdatei wird weggelassen), sofern
+   sie nicht leer oder `localhost` ist;
+3. ein Host, den `HostMatchMapItems` ihm zuordnet, ohne Pfad;
+4. Host und URI eines seiner Einträge in `HostUriMatchMapItems`.
+
+Lässt sich für keine davon zeigen, dass sie dorthin führt, wird seine URI auf diesem Host verwendet, sonst seine
+`SiteURL`, wie sie geschrieben ist, sonst dieser Host. Das Schema ist immer das der Anfrage. Mit den Einstellungen einer
+Demo, deren Administration einen eigenen Host hat (`MatchOrder=host_uri;host;uri`,
+`HostMatchMapItems[]=edit.example.com;admin` und `=example.com;site`,
+`HostUriMatchMapItems[]=example.com;bold;bold;strict`), verlinkt die Administration auf `edit.example.com` `site` auf
+`https://example.com/` und `bold` auf `https://example.com/bold/`. Sie wird weder in Anführungszeichen gesetzt noch
+maskiert.
 
 ```tpl
 1 front: {siteaccess_url()}
@@ -53,12 +71,12 @@ Port gleichermaßen. Sie wird weder in Anführungszeichen gesetzt noch maskiert.
 4 not available: {siteaccess_url( 'nosuchsite' )|get_type}
 ```
 
-Ausgabe auf alpha:
+Ausgabe:
 
 ```text
-1 front: http://alpha.se7enx.com/site/
-2 bold: http://alpha.se7enx.com/bold/
-3 starter_ger: http://alpha.se7enx.com/starter_ger/
+1 front: http://www.example.com/site/
+2 bold: http://www.example.com/bold/
+3 starter_ger: http://www.example.com/starter_ger/
 4 not available: string[0]
 ```
 
@@ -95,11 +113,11 @@ front: {$menu.front.identifier} {$menu.front.display_url}
 {/foreach}
 ```
 
-Ausgabe auf alpha:
+Ausgabe:
 
 ```text
 enabled=yes key length=32
-front: site admin.alpha.se7enx.com/site
+front: site admin.example.com/site
 site: bold (eng-US), bold_ger (ger-DE), editor (eng-US), starter (eng-US), starter_ger (ger-DE)
 ```
 
@@ -132,7 +150,7 @@ Generierte Seite: [language_switcher](../../beispiele/template-operatoren/langua
 
 Wenn das Ziel kein `?` enthält, wird der Query-String der aktuellen Anfrage angehängt. Die `url` ist ein Pfad für `ezurl`,
 das das Präfix des aktuellen Siteaccess ergänzt; die Ansicht `switchlanguage/to` (`kernel/private/modules/switchlanguage/to.php`)
-fragt dieselbe Klasse nach der Adresse des Ziels im anderen Siteaccess und leitet dorthin weiter. Auf alpha setzen nur
+fragt dieselbe Klasse nach der Adresse des Ziels im anderen Siteaccess und leitet dorthin weiter. Auf einer Entwicklungsinstallation setzen nur
 einige Siteaccesses `TranslationSA`; auf `starter` gerendert:
 
 ```tpl
@@ -144,7 +162,7 @@ TranslationSA has {ezini( 'RegionalSettings', 'TranslationSA' )|count} entries
 {/foreach}
 ```
 
-Ausgabe auf alpha:
+Ausgabe:
 
 ```text
 TranslationSA has 2 entries

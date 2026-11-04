@@ -16,7 +16,7 @@
  *  LC-09 - mailto: is valid when the domain has a mail server; paths are looked up as aliases, then on SiteURL
  *  LC-10 - file: is never tested; settings come with their defaults; a recent check is not repeated
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package tests
  */
@@ -209,6 +209,10 @@ class expLinkCheckTest extends PHPUnit\Framework\TestCase
         $this->assertSame( 5, $defaults['MaxRedirects'] );
         $this->assertSame( 1000, $defaults['HostDelay'] );
         $this->assertSame( 72000, $defaults['RecheckInterval'] );
+        $this->assertSame( 900, $defaults['MaxRunTime'] );
+        $this->assertTrue( \Exponential\Cronjob\Kernel\Linkcheck::overTime( 100.0, 1000.0, 900 ) );
+        $this->assertFalse( \Exponential\Cronjob\Kernel\Linkcheck::overTime( 100.0, 999.0, 900 ) );
+        $this->assertFalse( \Exponential\Cronjob\Kernel\Linkcheck::overTime( 100.0, 99999.0, 0 ) );
         $this->assertTrue( \Exponential\Cronjob\Kernel\Linkcheck::isRecent( 990, 1000, 100 ) );
         $this->assertFalse( \Exponential\Cronjob\Kernel\Linkcheck::isRecent( 800, 1000, 100 ) );
         $this->assertFalse( \Exponential\Cronjob\Kernel\Linkcheck::isRecent( 0, 1000, 100 ) );

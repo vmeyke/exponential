@@ -21,11 +21,21 @@ Benutzerverwaltung, einem Berechtigungssystem aus Rollen und Richtlinien, mehrsp
 Template-Sprache für die Ausgabe.
 
 Exponential 6 setzt eine langlebige Codebasis fort (ihre Copyright-Zeilen beginnen 1998). Die aktuelle 6.0-Linie
-läuft auf PHP 8.0 bis 8.5, wird mit Composer installiert und speichert ihre Inhalte in SQLite, MySQL oder MariaDB,
+läuft auf PHP 8.0 bis 8.5 (PHP 7.4 ohne Support nutzbar), wird mit Composer installiert und speichert ihre Inhalte in SQLite, MySQL oder MariaDB,
 PostgreSQL, MongoDB oder Oracle. Seit 6.0.15 bringt sie außerdem ihren eigenen Anwendungsserver mit, **Exponential
 Velocity**, der in jeder Phase der empfohlene Weg ist, sie auszuliefern, vom Laptop eines Entwicklers bis zur
-Produktion. Apache oder nginx mit PHP-FPM werden weiterhin vollständig unterstützt, und sie sind der Weg,
-Exponential unter PHP 8.0 zu betreiben, wo Velocity nicht läuft.
+Produktion. Apache oder nginx mit PHP-FPM werden weiterhin vollständig unterstützt, und FrankenPHP ist eine
+produktionsreife Alternative.
+
+**Ab 6.0.15 ist der Velocity Internet / Web Application Server Teil von Exponential.** Die Root-`composer.json`
+verlangt `se7enxweb/exponential-velocity ~0.0.4.57`, statt es nur vorzuschlagen, sodass jede mit Composer angelegte
+Installation ihn hat, unter jedem PHP, das der Kernel unterstützt, PHP 8.0 eingeschlossen. Das ist ein Wendepunkt für
+das Projekt, ein Grundstein und ein Schlussstein: eine neue Stufe der Integration des Anwendungssystems, die im
+Kernprodukt standardmäßig noch mehr Funktionen von Haus aus bietet. Exponential ist eine ganze, funktionierende Einheit
+statt eines Frameworks, das man erst vervollständigen muss: Eine Installation ist ein Stack für die schnelle
+Entwicklung von Internetanwendungen (RAD), ein CMS, eine Digital-Experience-Plattform und ein E-Commerce-System, vom
+Server bis zur gerenderten Seite. Siehe
+[Velocity ist Teil von Exponential 6.0.15](../hilfe/velocity-ist-teil-von-exponential-6-0-15.md).
 
 Das Produkt wird von [7x](https://se7enx.com) gepflegt. Der Quellcode liegt auf GitHub unter
 [github.com/se7enxweb/exponential](https://github.com/se7enxweb/exponential), und der Kernel sowie jede Extension
@@ -282,11 +292,11 @@ Installation. Sie unterscheiden sich darin, woher die Antworten kommen, und das 
   `CheckValidity=false` in `settings/override/site.ini.append.php` schreibt. Sie beantworten eine Seite pro Schritt,
   jede mit einer Erklärung. Er benötigt zuerst einen funktionierenden Webserver. Am besten geeignet für eine erste
   Installation und für Hosts ohne Shell-Zugang.
-- **Der Kickstarter** (`php bin/php/console exp:kickstarter run --force`) führt dieselben Schritte auf der
+- **Der Kickstarter** (`php bin/php/console exp:kickstarter run --apply --force`) führt dieselben Schritte auf der
   Kommandozeile aus und liest jede Antwort aus `kickstart.ini` im Installationsverzeichnis. Die Datei ist die
   Spezifikation der Installation: Sie kann geprüft, aufbewahrt und wiederverwendet werden. Am besten geeignet für
   wiederholbare und unbeaufsichtigte Installationen.
-- **Die Konsoleninstallation** (`php bin/php/console exp:install`) erstellt die Kickstart-Konfiguration aus
+- **Die Konsoleninstallation** (`php bin/php/console exp:install --apply`) erstellt die Kickstart-Konfiguration aus
   Kommandozeilenoptionen, von denen jede einen Standardwert hat, und führt damit den Kickstarter aus. Am besten
   geeignet für die schnellste Installation und für Skripte, CI und Container.
 

@@ -7,6 +7,20 @@ upgrade safe (back up, then never run the installer over an existing site), the 
 console commands that check the result, and the release notes to read for each period you pass. It summarises and
 extends the [Upgrading guide](../guides/upgrading.md), which remains the step-by-step procedure.
 
+> **Warning**
+> **`.htaccess` slows down every request.** When `.htaccess` files are enabled (`AllowOverride` anything but `None`), let alone
+> used, Apache looks for them and reads and evaluates them on every request, in every directory of the path, and
+> page loading times go up drastically ([measured](../guides/setup-files-from-the-console.md#measured-htaccess-against-rules-in-the-virtual-host)). The only real fix is to switch the feature off for
+> the virtual host: `AllowOverride None` in the HTTPS virtual host, and the rules in the virtual host's own
+> configuration as mod_rewrite rules. That is far faster in production speed tests and well worth the time it takes
+> to optimize a production configuration. Switch over right away: copy the rules of the
+> [example HTTPS virtual host](../examples/web-servers/apache-virtual-host.md) into your virtual host (with the static cache, also
+> [`staticcache_offload.conf`](../examples/staticcache_offload.conf)), set `AllowOverride None`, run `apachectl configtest`, reload Apache and
+> test the site. The same rules for other servers: [nginx](../examples/web-servers/nginx.md), [LiteSpeed](../examples/web-servers/litespeed.md),
+> [Caddy](../examples/web-servers/caddy.md), [IIS](../examples/web-servers/iis.md), [Velocity](../examples/web-servers/velocity.md) (built in); where virtual host rules go in a control
+> panel: [Plesk](../help/hosting/panels/plesk.md), [cPanel](../help/hosting/panels/cpanel.md), [DirectAdmin](../help/hosting/panels/directadmin.md), [ISPConfig](../help/hosting/panels/ispconfig.md).
+> **On LiteSpeed or OpenLiteSpeed,** the server's own page cache can also answer anonymous visitors and crawlers without PHP: [Page caching with LiteSpeed and OpenLiteSpeed](../guides/litespeed-page-cache.md).
+
 [Contents](README.md) · Previous: [10. After installing](10-after-installing.md) · Next: [12. Troubleshooting](12-troubleshooting.md)
 
 ## 11.1 Before you start
@@ -276,7 +290,7 @@ running Exponential 6 inside a Symfony platform, see [Legacy bridge](../features
    if the table lacks it. The MySQL file runs on every MySQL from 5.5.3 and on MariaDB (see the per-database notes
    above). Details: [Changelog 6.0.0](../../changelogs/6.0/6.0.0.md).
 3. **PHP.** The current line runs on PHP 8.0 to 8.5 (`composer.json`: `^8.0`), Velocity included from its release 0.0.4.54. Releases 6.0.8 to
-   6.0.14 required 8.1. A site that must stay on PHP 7.4 stays on 6.0.7. Check your own extensions for PHP 8
+   6.0.14 required 8.1. A site on PHP 7.4 can run the current line again from 6.0.15, without support (6.0.8 to 6.0.14 need PHP 8.1). Check your own extensions for PHP 8
    problems: classes that extend `eZPersistentObject` or `eZDataType` are the usual cases. See
    [PHP 8 support](../bc/6.0/php8.md) and [PHP 8.0 support](../bc/6.0/php-8.0-support.md).
 4. Continue with [11.6](#116-from-any-60x-to-today).
@@ -326,6 +340,19 @@ Velocity's response cache. It prints PASS, FAIL or SKIP with the time of each an
 of rendered pages cleared before PHP runs the new code fills up again with pages of the old code. See
 [chapter 8](08-serving-the-site.md#8314-deploying-a-change-expvelocity-deploy) and
 [Velocity engines](../bc/6.0/velocity-engines.md).
+
+**Compare your files with the new templates.** A release can change `.htaccess_root`, `.htaccess_root_static` and
+`config.php-RECOMMENDED`; your `.htaccess` and `config.php` stay as they are:
+
+```bash
+php bin/php/console exp:setup:status                     # is .htaccess still a copy of a template?
+php bin/php/console exp:setup:htaccess                   # the diff between your .htaccess and the new template
+php bin/php/console exp:setup:htaccess --force --apply   # take the new rules (backup first), when the diff holds nothing of yours
+php bin/php/console exp:config:list                      # settings new in config.php-RECOMMENDED show up as (not set)
+```
+
+Set the new settings you want with `exp:config:set <NAME> <value> --apply`; the settings you had keep their values.
+See [Setting up .htaccess and config.php from the console](../guides/setup-files-from-the-console.md#12-after-an-upgrade).
 
 ### Step 2: apply the database update
 
@@ -383,7 +410,7 @@ Read every release note between your version and today; each opens with what to 
 | 6.0.3 | [6.0.4](../../changelogs/6.0/6.0.4.md): the responsive administration design |
 | 6.0.4 | [6.0.5](../../changelogs/6.0/6.0.5.md): a failed 6.0.4 install, datatypes of extensions |
 | 6.0.5 | [6.0.6](../../changelogs/6.0/6.0.6.md): `admin3` on phones and tablets |
-| 6.0.6 | [6.0.7](../../changelogs/6.0/6.0.7.md): the last release for PHP 7.4 |
+| 6.0.6 | [6.0.7](../../changelogs/6.0/6.0.7.md): the last release for PHP 7.4 until 6.0.15 |
 | 6.0.7 | [6.0.8](../../changelogs/6.0/6.0.8.md): **needs PHP 8.1**; and [PHP 8 support](../bc/6.0/php8.md) |
 | 6.0.8 | [6.0.9](../../changelogs/6.0/6.0.9.md): PostgreSQL, REST access to content |
 | 6.0.9 | [6.0.10](../../changelogs/6.0/6.0.10.md): the product name in templates, translations and overrides; [The product is called Exponential](../features/6.0/rebranding-to-exponential.md) |
@@ -407,6 +434,8 @@ The changes people meet most often when they reach 6.0.15:
 - **Legacy extensions** were brought to one standard between 22 September and 2 October 2026:
   [Behaviour changes of the legacy extensions](../bc/6.0/extensions-behaviour-changes.md).
 - **Static cache defaults** changed: [Static cache defaults](../bc/6.0/static-cache-defaults.md).
+- **Static publishing** is new (November 2026): off until you switch it on; the upgrade step `6.0.15-static-publish-tables` makes the
+  tables `exp_static_run` and `exp_static_page`. [Static publishing](../bc/6.0/static-publishing.md).
 - **Velocity**, if you run it: [Velocity engine upgrade notes](../bc/6.0/velocity-engine-upgrade-notes.md) and
   [on-disk layout](../bc/6.0/velocity-ondisk-layout.md).
 
@@ -469,14 +498,14 @@ Other tools that help after an upgrade:
 | `php bin/php/ezsqldiff.php --type=mysql --user=USER --password=PASS share/db_schema.dba <database>` | compare your database with the reference schema, which goes **first**. The output is the SQL that would turn the second argument (your database) into the first (the reference): a `CREATE TABLE` or `ADD` line names something an update step should have made, a `DROP TABLE` line a table only your database has (your own extensions' tables appear that way). Read it, do not run it. Exit code 0 when the schemas match, 1 when they differ (`--type` is `mysql` or `postgresql`). Chapters 14 to 16 use it the same way |
 | `php bin/php/updateniceurls.php` | rebuild the URL aliases (`--update-nodes`) |
 | `php bin/php/updatesearchindex.php` | reindex all content in the search engine |
-| `php bin/php/cleanupversions.php` | remove archived versions beyond the `VersionManagement` limits |
+| `php bin/php/cleanupversions.php --apply` | remove archived versions beyond the `VersionManagement` limits |
 
 Last, clear the content cache and, under Velocity, its response cache, **after** the PHP-FPM reload or Velocity
 restart, so that a page rendered by the old code is not served again:
 
 ```bash
 php bin/php/ezcache.php --clear-tag=content
-php bin/php/console exp:velocity cache clear
+php bin/php/console exp:velocity cache clear --apply
 ```
 
 ## 11.8 If something goes wrong
@@ -505,6 +534,7 @@ changelog: [6.0.0 to 6.0.15](../../changelogs/6.0/6.0.15.md).
 In this repository:
 
 - [Upgrading](../guides/upgrading.md): the step-by-step guide this chapter extends.
+- [Setting up .htaccess and config.php from the console](../guides/setup-files-from-the-console.md): compare both files with the new templates.
 - Release notes: [changelogs of 6.0](../../changelogs/6.0/6.0.15.md) ([6.0.0](../../changelogs/6.0/6.0.0.md) to
   [6.0.14](../../changelogs/6.0/6.0.14.md)), the [extensions' release notes](../../changelogs/extensions/README.md),
   [all changelogs](../../changelogs/README.md).

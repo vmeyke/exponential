@@ -12,13 +12,25 @@
  *  BV-05 expBookmarkPage::items(): a system page row (node_id 0) is an item of kind view with its address; it is ok,
  *        denied (cannot be opened) or gone (no address); node rows are unchanged and of kind node
  *  BV-06 search finds a system page by its address; the type order sorts it by its label; the overview counts them
+ *  BV-07 queryOf(), pathOf(), canonicalQuery(): only the kept keys, one scalar value each, sorted and encoded
+ *  BV-08 bookmarkable(): a listed view (module/view, module/*) is refused, every other one is taken
+ *  BV-09 the kinds of bookmark (bookmark.ini): search before the system page kind, their icons and labels; a module
+ *        icon from ModuleIcons, the default for a module that is not listed; parts() ignores the query string
+ *  BV-10 reasonText(): a sentence for every reason a bookmark is greyed, and one for an unknown reason
+ *  BV-11 expBookmarkPage::viewItem() carries the reason, the icon and the label of its kind
+ *  BV-12 every icon bookmark.ini names has its class in both copies of components.css
+ *  BV-13 an extension adds a kind of bookmark through bookmark.ini; a class that is not a kind is skipped
+ *  BV-14 parse(): the module, the view, the ordered and unordered parameters and the query string of an address
+ *  BV-15 parsedFields(): what the columns module_name, view_name and view_parameters hold
+ *  BV-16 renamedURI(): a renamed module or view, parameters and query string kept; other modules and bad names refused
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package tests
  * @group bookmarks
  */
 
+#[\PHPUnit\Framework\Attributes\Group('bookmarks')]
 class expBookmarkViewTest extends PHPUnit\Framework\TestCase
 {
     /** BV-01 */
@@ -127,4 +139,200 @@ class expBookmarkViewTest extends PHPUnit\Framework\TestCase
         $this->assertSame( 2, $summary['gone'], 'denied and gone count as no longer available' );
         $this->assertSame( 4, $summary['bookmarks'] );
     }
+
+    /** BV-07 */
+    public function testQueryString()
+    {
+        $this->assertSame( 'SearchText=a%20b&x=1', expBookmarkView::queryOf( 'content/search?SearchText=a%20b&x=1#top' ) );
+        $this->assertSame( '', expBookmarkView::queryOf( 'setup/info' ) );
+        $this->assertSame( 'content/search', expBookmarkView::pathOf( 'content/search?SearchText=x' ) );
+        $keys = array( 'SearchText', 'SectionID', 'SubTreeArray' );
+        $this->assertSame( 'SearchText=Stra%C3%9Fe%20%26%20Weg&SectionID=3',
+                           expBookmarkView::canonicalQuery( 'content', 'search', 'SectionID=3&SearchText=Stra%C3%9Fe+%26+Weg&Other=1', $keys ),
+                           'sorted, encoded, other keys dropped' );
+        $this->assertSame( 'SearchText=x', expBookmarkView::canonicalQuery( 'content', 'search', array( 'SearchText' => ' x ', 'SubTreeArray' => array( 2 ), 'SectionID' => '' ), $keys ),
+                           'an array value and an empty value are dropped' );
+        $this->assertSame( '', expBookmarkView::canonicalQuery( 'content', 'search', 'SearchText=' . str_repeat( 'y', 256 ), $keys ), 'too long' );
+        $this->assertSame( '', expBookmarkView::canonicalQuery( 'content', 'search', "SearchText=a%0Ab", $keys ), 'a control character' );
+        $this->assertSame( '', expBookmarkView::canonicalQuery( 'setup', 'info', 'SearchText=x', array() ), 'a view that keeps no keys' );
+    }
+
+    /** BV-08 */
+    public function testBookmarkable()
+    {
+        $list = array( 'content/action', 'switchlanguage/*', ' /user/logout/ ' );
+        $this->assertFalse( expBookmarkView::bookmarkable( 'content/action', $list )['result'] );
+        $this->assertSame( 'not-bookmarkable', expBookmarkView::bookmarkable( 'content/action/12', $list )['reason'] );
+        $this->assertFalse( expBookmarkView::bookmarkable( 'switchlanguage/to/ger/content', $list )['result'], 'module/*' );
+        $this->assertFalse( expBookmarkView::bookmarkable( 'user/logout', $list )['result'], 'spaces and slashes of an entry are ignored' );
+        // the setup module, not content: loading the content module definition reads the state groups from the database
+        $this->assertTrue( expBookmarkView::bookmarkable( 'setup/action', $list )['result'], 'the same view name in another module' );
+        $this->assertTrue( expBookmarkView::bookmarkable( 'setup/info', array() )['result'] );
+    }
+
+    /** BV-09 */
+    public function testKindsAndIcons()
+    {
+        expBookmarkView::reset();
+        $types = expBookmarkView::types();
+        $this->assertGreaterThanOrEqual( 2, count( $types ) );
+        $this->assertInstanceOf( 'expBookmarkTypeSystemPage', end( $types ), 'the system page kind comes last and takes every view' );
+        $search = expBookmarkView::typeFor( 'content', 'search' );
+        $this->assertInstanceOf( 'expBookmarkTypeSearch', $search );
+        $this->assertSame( 'search', $search->icon( 'content/search?SearchText=x' ) );
+        $this->assertSame( array( 'SearchText', 'SectionID', 'SubTreeArray' ), $search->queryParameters( 'content', 'search' ) );
+        $page = expBookmarkView::typeFor( 'setup', 'info' );
+        $this->assertSame( 'view', $page->identifier() );
+        $this->assertSame( array(), $page->queryParameters( 'setup', 'info' ) );
+        $this->assertSame( 'tools', $page->icon( 'setup/info' ) );
+        $this->assertSame( 'shield-lock', expBookmarkView::moduleIcon( 'role' ) );
+        $this->assertSame( 'gear', expBookmarkView::moduleIcon( 'bmvtest_unlisted_module' ) );
+        $this->assertSame( array( 'module' => 'content', 'view' => 'search' ), expBookmarkView::parts( 'content/search?SearchText=a/b' ) );
+    }
+
+    /** BV-10 */
+    public function testReasonText()
+    {
+        $texts = array();
+        foreach ( array( 'siteaccess-rules', 'no-module', 'no-view', 'policy', 'login', 'node', 'not-bookmarkable', 'empty', 'bmvtest-other' ) as $reason )
+        {
+            $text = expBookmarkView::reasonText( $reason );
+            $this->assertNotSame( '', $text, $reason );
+            $texts[$reason] = $text;
+        }
+        $this->assertSame( $texts['node'], expBookmarkView::reasonText( 'object' ) );
+        $this->assertCount( 9, array_unique( $texts ), 'each reason has its own sentence' );
+    }
+
+    /** BV-11 */
+    public function testViewItemReasonIconAndKind()
+    {
+        $item = expBookmarkPage::viewItem( array( 'id' => 20, 'name' => 'Disk use', 'folder_id' => 0, 'uri' => 'setup/cache',
+                                                  'can_open' => false, 'reason' => 'siteaccess-rules', 'reason_text' => 'Switched off here.',
+                                                  'icon' => 'tools', 'type_label' => '' ), 1, 'System page' );
+        $this->assertSame( 'denied', $item['state'] );
+        $this->assertSame( 'siteaccess-rules', $item['reason'] );
+        $this->assertSame( 'Switched off here.', $item['reason_text'] );
+        $this->assertSame( 'tools', $item['icon'] );
+        $this->assertSame( 'System page', $item['class_name'] );
+        $item = expBookmarkPage::viewItem( array( 'id' => 21, 'name' => 'Drafts search', 'folder_id' => 0, 'uri' => 'content/search?SearchText=draft',
+                                                  'can_open' => true, 'icon' => 'search', 'type_label' => 'Search' ), 2, 'System page' );
+        $this->assertSame( 'ok', $item['state'] );
+        $this->assertSame( 'search', $item['view'], 'the view without the query string' );
+        $this->assertSame( 'Search', $item['class_name'], 'the label of its kind' );
+        $this->assertSame( '', $item['reason_text'] );
+    }
+
+    /** BV-12 every icon bookmark.ini names (and the search kind's) has its class in both copies of components.css */
+    public function testEveryBookmarkIconExists()
+    {
+        $root = dirname( __DIR__, 5 );
+        $ini = eZINI::instance( 'bookmark.ini' );
+        $icons = array_values( (array)$ini->variable( 'ViewBookmarkSettings', 'ModuleIcons' ) );
+        $icons[] = $ini->variable( 'ViewBookmarkSettings', 'DefaultIcon' );
+        $icons[] = 'search';
+        foreach ( array( 'admin', 'admin4' ) as $design )
+        {
+            $css = file_get_contents( "$root/design/$design/stylesheets/components.css" );
+            foreach ( array_unique( $icons ) as $icon )
+                $this->assertStringContainsString( ".a4-bi-$icon {", $css, "design/$design: no .a4-bi-$icon" );
+        }
+    }
+
+    /** BV-13 an extension's kind (bookmark.ini [BookmarkTypeSettings]) is asked first; a class that is no kind is skipped */
+    public function testAnExtensionAddsAKind()
+    {
+        $ini = eZINI::instance( 'bookmark.ini' );
+        $list = $ini->variable( 'BookmarkTypeSettings', 'TypeList' );
+        $classes = $ini->variable( 'BookmarkTypeSettings', 'TypeClass' );
+        try
+        {
+            $ini->setVariable( 'BookmarkTypeSettings', 'TypeList', array( 'layout', 'broken', 'search' ) );
+            $ini->setVariable( 'BookmarkTypeSettings', 'TypeClass', array( 'layout' => 'bmvtestLayoutBookmarkType', 'broken' => 'stdClass',
+                                                                           'search' => 'expBookmarkTypeSearch' ) );
+            expBookmarkView::reset();
+            $this->assertCount( 3, expBookmarkView::types(), 'layout, search and the system page kind; stdClass is skipped' );
+            $kind = expBookmarkView::typeFor( 'content', 'dashboard' );
+            $this->assertSame( 'layout', $kind->identifier() );
+            $this->assertSame( 'layout-sidebar-inset', $kind->icon( 'content/dashboard' ) );
+            $this->assertSame( array(), $kind->queryParameters( 'content', 'dashboard' ), 'no query string by default' );
+            $this->assertInstanceOf( 'expBookmarkTypeSearch', expBookmarkView::typeFor( 'content', 'search' ) );
+            $this->assertInstanceOf( 'expBookmarkTypeSystemPage', expBookmarkView::typeFor( 'setup', 'info' ) );
+        }
+        finally
+        {
+            $ini->setVariable( 'BookmarkTypeSettings', 'TypeList', $list );
+            $ini->setVariable( 'BookmarkTypeSettings', 'TypeClass', $classes );
+            expBookmarkView::reset();
+        }
+    }
+
+    /** BV-14 parse(): module, view, ordered and unordered parameters and the query string of an address */
+    public function testParse()
+    {
+        $this->assertSame( array( 'module' => 'setup', 'view' => 'cache', 'ordered' => array(), 'unordered' => array(), 'query' => array() ),
+                           expBookmarkView::parse( 'setup/cache' ) );
+        $this->assertSame( array( 'module' => 'role', 'view' => 'view', 'ordered' => array( '3' ), 'unordered' => array(), 'query' => array() ),
+                           expBookmarkView::parse( 'role/view/3' ) );
+        $this->assertSame( array( 'module' => 'audit', 'view' => 'console', 'ordered' => array(),
+                                  'unordered' => array( 'user' => '14', 'offset' => '20' ), 'query' => array() ),
+                           expBookmarkView::parse( 'audit/console/(user)/14/(offset)/20' ) );
+        $parsed = expBookmarkView::parse( 'content/search?SearchText=news&SectionID=1' );
+        $this->assertSame( array( 'SearchText' => 'news', 'SectionID' => '1' ), $parsed['query'] );
+        $this->assertSame( 'search', $parsed['view'] );
+        $parsed = expBookmarkView::parse( 'content/view/full/2/(offset)/10/extra' );
+        $this->assertSame( array( 'full', '2', 'extra' ), $parsed['ordered'], 'a step without a name stays an ordered parameter' );
+        $this->assertSame( array( 'offset' => '10' ), $parsed['unordered'] );
+        $this->assertSame( array( 'page' => '2' ), expBookmarkView::parse( 'x/y/(page)/1/(page)/2' )['unordered'], 'the last value of a name counts' );
+        $this->assertSame( array( 'last' => '' ), expBookmarkView::parse( 'x/y/(last)' )['unordered'] );
+        $this->assertSame( array( 'module' => 'setup', 'view' => '', 'ordered' => array(), 'unordered' => array(), 'query' => array() ),
+                           expBookmarkView::parse( 'setup' ) );
+    }
+
+    /** BV-15 parsedFields(): the values of module_name, view_name and view_parameters (JSON, empty maps as objects) */
+    public function testParsedFields()
+    {
+        $this->assertSame( array( 'module_name' => 'role', 'view_name' => 'view',
+                                  'view_parameters' => '{"ordered":["3"],"unordered":{},"query":{}}' ),
+                           expBookmarkView::parsedFields( 'role/view/3' ) );
+        $this->assertSame( '{"ordered":[],"unordered":{"user":"14","offset":"20"},"query":{}}',
+                           expBookmarkView::parsedFields( 'audit/console/(user)/14/(offset)/20' )['view_parameters'] );
+        $this->assertSame( '{"ordered":[],"unordered":{},"query":{"SearchText":"Grüße/2026"}}',
+                           expBookmarkView::parsedFields( 'content/search?SearchText=Gr%C3%BC%C3%9Fe%2F2026' )['view_parameters'] );
+        foreach ( array( 'setup/cache', 'git_manager/dashboard', 'content/trash/(offset)/20', 'user/audit/(user)/14' ) as $uri )
+        {
+            $fields = expBookmarkView::parsedFields( $uri );
+            $parts = expBookmarkView::parts( $uri );
+            $this->assertSame( $parts['module'], $fields['module_name'], $uri );
+            $this->assertSame( $parts['view'], $fields['view_name'], $uri );
+            $this->assertIsArray( json_decode( $fields['view_parameters'], true ), $uri );
+        }
+        $this->assertSame( array( 'module_name', 'view_name', 'view_parameters' ), expBookmarkView::PARSED_COLUMNS );
+    }
+
+    /** BV-16 renamedURI(): a module, or one view, gets its new name; the parameters and the query string stay */
+    public function testRenamedURI()
+    {
+        $this->assertSame( 'roles/view/3', expBookmarkView::renamedURI( 'role/view/3', 'role', 'roles' ) );
+        $this->assertSame( 'roles/show/3', expBookmarkView::renamedURI( 'role/view/3', 'role/view', 'roles/show' ) );
+        $this->assertSame( 'roles/view/3', expBookmarkView::renamedURI( 'role/view/3', 'role/view', 'roles' ), 'a module alone keeps the view' );
+        $this->assertSame( 'search/find/(offset)/10?SearchText=news',
+                           expBookmarkView::renamedURI( 'content/search/(offset)/10?SearchText=news', 'content/search', 'search/find' ) );
+        $this->assertSame( 'admin2', expBookmarkView::renamedURI( 'admin', 'admin', 'admin2' ) );
+        $this->assertNull( expBookmarkView::renamedURI( 'role/edit/3', 'role/view', 'roles/show' ), 'another view' );
+        $this->assertNull( expBookmarkView::renamedURI( 'roles/view/3', 'role', 'x' ), 'another module, not a prefix' );
+        $this->assertNull( expBookmarkView::renamedURI( 'role/view/3', 'role', 'roles/view' ), 'a module cannot become one view' );
+        foreach ( array( array( 'role/../x', 'y' ), array( 'role', '' ), array( 'role', 'https://example.org' ), array( 'role', 'a/b/c' ),
+                         array( 'role', 'javascript:alert(1)' ), array( '', 'x' ) ) as $pair )
+            $this->assertNull( expBookmarkView::renamedURI( 'role/view/3', $pair[0], $pair[1] ), implode( ' -> ', $pair ) );
+    }
+}
+
+/** BV-13: a kind of bookmark as an extension would add it */
+class bmvtestLayoutBookmarkType extends expBookmarkType
+{
+    public function identifier() { return 'layout'; }
+    public function accepts( $module, $view ) { return $module === 'content' && $view === 'dashboard'; }
+    public function icon( $uri ) { return 'layout-sidebar-inset'; }
+    public function label() { return 'Layout'; }
 }

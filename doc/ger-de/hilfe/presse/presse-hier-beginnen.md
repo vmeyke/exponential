@@ -120,7 +120,7 @@ Längere und kürzere Fassungen, die Sie kopieren dürfen, stehen auf [Standardb
 | [Über ein Release berichten](ueber-ein-release-berichten.md), [Checkliste für die Release-Berichterstattung](checkliste-release-berichterstattung.md) | Schritt für Schritt über eine neue Version berichten |
 | [Wo Changelogs und Release Notes stehen](wo-changelogs-und-release-notes-stehen.md), [Ein Changelog lesen](ein-changelog-lesen.md) | Die offizielle Aufzeichnung finden und lesen |
 | [Wie Versionsnummern funktionieren](wie-versionsnummern-funktionieren.md), [Veröffentlichte Versionen ändern sich nie](veroeffentlichte-versionen-aendern-sich-nie.md), [Ein Release selbst überprüfen](ein-release-selbst-pruefen.md) | Versionsnummern verstehen und prüfen |
-| [Über 6.0.15 berichten, solange es in Entwicklung ist](ueber-6-0-15-in-entwicklung-berichten.md), [Über Sicherheitskorrekturen berichten](ueber-sicherheitskorrekturen-berichten.md) | Verantwortungsvoll über unveröffentlichte Arbeit und über Korrekturen berichten |
+| [Über 6.0.15 berichten: vor und nach dem Tag](ueber-6-0-15-in-entwicklung-berichten.md), [Über Sicherheitskorrekturen berichten](ueber-sicherheitskorrekturen-berichten.md) | Verantwortungsvoll über die Linie 6.0.15 und über Korrekturen berichten |
 | [Vorlagen für Release-Beiträge](vorlagen-fuer-release-beitraege.md) | Mit einer belegten Vorlage beginnen |
 
 ### Interviews, Briefings und Faktencheck
@@ -182,6 +182,9 @@ Längere und kürzere Fassungen, die Sie kopieren dürfen, stehen auf [Standardb
 - [Faktenblatt für Journalisten](faktenblatt-fuer-journalisten.md)
 - [Creator und Influencer: hier beginnen](creator-und-influencer-hier-beginnen.md)
 - [Freie Dokumentation](../freie-dokumentation.md): Diese Seite darf unter der GNU FDL 1.3 frei kopiert, übersetzt und verbessert werden.
+
+<!-- exp-see-also-645 -->
+**Siehe auch:** [Podcaster, Radio und Streaming](../podcaster/podcaster-hier-beginnen.md).
 
 <!-- exp-partner-block:start -->
 **Werden Sie Exponential-Partner.** Partner teilen ihre Informationen, stellen Mittel bereit, geben Beiträge zurück

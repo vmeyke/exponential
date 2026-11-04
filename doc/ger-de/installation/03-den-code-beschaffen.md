@@ -9,6 +9,21 @@ Sie eine auswählen, wie die Extensions als Composer-Pakete ankommen, wie das Pa
 ankommt und was unter PHP 8.0 bis 8.3 anders ist, und schließt mit einem Rundgang durch jeden Eintrag der obersten
 Ebene des Installationsverzeichnisses und den Rechten, die Sie vor der Installation setzen müssen.
 
+> **Warnung**
+> **`.htaccess` bremst jede Anfrage.** Sind `.htaccess`-Dateien erlaubt (`AllowOverride` alles außer `None`), geschweige
+> denn genutzt, sucht Apache sie bei jeder Anfrage in jedem Verzeichnis des Pfads und liest und wertet sie aus, und
+> die Ladezeiten der Seiten steigen drastisch ([gemessen](../anleitungen/setup-dateien-von-der-konsole.md#gemessen-htaccess-gegen-regeln-im-virtuellen-host)). Die einzige wirkliche Abhilfe ist, die
+> Funktion für den virtuellen Host abzuschalten: `AllowOverride None` im virtuellen HTTPS-Host, und die Regeln in
+> der Konfiguration des virtuellen Hosts selbst als mod_rewrite-Regeln. Das ist in Geschwindigkeitstests im
+> Produktivbetrieb weit schneller und die Zeit für die Optimierung einer Produktivkonfiguration unbedingt wert.
+> Stellen Sie sofort um: Übernehmen Sie die Regeln des [Beispiels für einen virtuellen HTTPS-Host](../beispiele/webserver/apache-virtueller-host.md) in
+> Ihren virtuellen Host (mit dem statischen Cache auch [`staticcache_offload.conf`](../../eng-us/examples/staticcache_offload.conf)), setzen Sie
+> `AllowOverride None`, führen Sie `apachectl configtest` aus, laden Sie Apache neu und testen Sie die Website.
+> Dieselben Regeln für andere Server: [nginx](../beispiele/webserver/nginx.md), [LiteSpeed](../beispiele/webserver/litespeed.md), [Caddy](../beispiele/webserver/caddy.md), [IIS](../beispiele/webserver/iis.md),
+> [Velocity](../beispiele/webserver/velocity.md) (eingebaut); wohin Regeln für virtuelle Hosts in einem Control Panel gehören:
+> [Plesk](../hilfe/hosting/control-panels/plesk.md), [cPanel](../hilfe/hosting/control-panels/cpanel.md), [DirectAdmin](../hilfe/hosting/control-panels/directadmin.md), [ISPConfig](../hilfe/hosting/control-panels/ispconfig.md).
+> **Unter LiteSpeed oder OpenLiteSpeed** kann zusätzlich der Seiten-Cache des Servers anonyme Besucher und Crawler ohne PHP bedienen: [Seiten-Caching mit LiteSpeed und OpenLiteSpeed](../anleitungen/seiten-cache-mit-litespeed.md).
+
 [Inhalt](README.md) · Zurück: [2. Voraussetzungen](02-voraussetzungen.md) · Weiter: [4. Eine Installationsmethode wählen](04-installationsweg-waehlen.md)
 
 ## 3.1 Versionen, Tags und Branches
@@ -23,7 +38,7 @@ Exponential wird als Composer-Paket
 | Standard-Branch | `main` | die aktuelle Entwicklung der Linie 6.0, derzeit 6.0.15 |
 | Release-Branches | `6.0.7` bis `6.0.14` | den Stand jeder Release-Linie |
 
-Der neueste Release-Tag zum Zeitpunkt der Erstellung ist `v6.0.14`; der Branch `main` bezeichnet sich selbst als
+Die Linie 6.0.15 folgt auf den Release-Tag `v6.0.14`; der Branch `main` bezeichnet sich selbst als
 `6.0.15stable` (`lib/version.php`) und enthält die in [Changelog 6.0.15](../../changelogs/6.0/6.0.15.md)
 beschriebenen Änderungen. Um zu sehen, was derzeit veröffentlicht ist:
 
@@ -37,7 +52,7 @@ oder, innerhalb eines Klons, nach `git fetch --tags`:
 git tag -l 'v*' --sort=version:refname | tail -5
 ```
 
-was die fünf neuesten Tags ausgibt, den neuesten zuletzt:
+was die fünf neuesten Tags ausgibt, den neuesten zuletzt (hier die Ausgabe vor dem Tag `v6.0.15`):
 
 ```text
 v6.0.10
@@ -64,10 +79,10 @@ deren PHP-Anforderung Ihr PHP nicht erfüllt:
 |---|---|---|
 | `v6.0.0` bis `v6.0.7` | `^7.4 \|\| ^8.1` | nicht installierbar |
 | `v6.0.8` bis `v6.0.14` | `^8.1` und spätere 8.x | nicht installierbar |
-| 6.0.15 (`main`, `dev-main` für Composer) | `^8.0` und spätere 8.x | installierbar |
+| 6.0.15 (`~6.0.15`: der Tag `v6.0.15` oder `main`, `dev-main` für Composer) | `^8.0` und spätere 8.x | installierbar |
 
-Kein veröffentlichter Tag akzeptiert PHP 8.0: Verwenden Sie unter PHP 8.0 `main`, bis es einen Tag der Linie 6.0.15
-gibt.
+Die Tags `v6.0.0` bis `v6.0.14` akzeptieren PHP 8.0 nicht: Verwenden Sie unter PHP 8.0 die Linie 6.0.15, also
+`~6.0.15` (den Tag `v6.0.15`, sobald er veröffentlicht ist) oder den Branch `main`, der diese Linie trägt.
 
 `composer.json` gibt `main` den Branch-Alias `6.0.x-dev` (`"extra": { "branch-alias": { "dev-main": "6.0.x-dev" } }`).
 Aus `main` installiert, hat das Root-Paket dann sowohl die Version `6.0.x-dev` als auch `dev-main`, sodass ein Paket,
@@ -162,7 +177,7 @@ Ohne Versionsangabe nimmt Composer die neueste stabile Release. Um eine festzule
 folgen:
 
 ```bash
-composer create-project se7enxweb/exponential:v6.0.14 exponential
+composer create-project se7enxweb/exponential:~6.0.15 exponential
 composer create-project se7enxweb/exponential:dev-main exponential
 ```
 
@@ -274,18 +289,26 @@ Website nicht gebraucht.
 
 ## 3.4 Das Velocity-Paket
 
-Exponential Velocity, der empfohlene Anwendungsserver, ist ein eigenes Paket,
-[`se7enxweb/exponential-velocity`](https://packagist.org/packages/se7enxweb/exponential-velocity). `composer.json`
-verlangt es als `~0.0.4.55`, sodass `composer install` es installiert. Seit dem Release 0.0.4.54 läuft die Engine unter PHP
-8.0 bis 8.5 (`"php": ">=8.0"`, dieselbe älteste Version wie beim Kernel) und braucht die Erweiterung `sockets`
-(`"ext-sockets": "*"`). Bis 0.0.4.54 brauchte die Engine PHP 8.1, und `composer.json` schlug sie nur vor; eine
-Installation aus dieser Zeit fügt sie so hinzu:
+Seit 6.0.15 ist Exponential Velocity, der Internet / Web Application Server und die empfohlene Engine für jede Stufe,
+Teil von Exponential. Es ist das Paket
+[`se7enxweb/exponential-velocity`](https://packagist.org/packages/se7enxweb/exponential-velocity), und die
+`composer.json` im Wurzelverzeichnis **verlangt** es (vor 6.0.15 wurde es nur vorgeschlagen):
 
-```bash
-composer require se7enxweb/exponential-velocity:~0.0.4.55
+```json
+"se7enxweb/exponential-velocity": "~0.0.4.57"
 ```
 
-`~0.0.4.55` akzeptiert jede spätere Release `0.0.4.x` (`>=0.0.4.55 <0.0.5.0`), sodass Composer die neueste davon
+Velocity 0.0.4.54 läuft unter PHP 8.0 und höher (`"php": ">=8.0"`) und braucht die Erweiterung `sockets`
+(`"ext-sockets": "*"`), sodass dasselbe PHP, das den Kernel ausführt, auch den Server ausführt, das mitgelieferte
+PHP 8.0 von Red Hat Enterprise Linux 9 eingeschlossen. Ein einfaches `composer install` installiert es; mehr ist nicht
+nötig. Bis 0.0.4.54 brauchte die Engine PHP 8.1, und `composer.json` schlug sie nur vor; eine Installation aus dieser
+Zeit fügt sie so hinzu:
+
+```bash
+composer require se7enxweb/exponential-velocity:~0.0.4.57
+```
+
+`~0.0.4.57` akzeptiert jede spätere Release `0.0.4.x` (`>=0.0.4.57 <0.0.5.0`), sodass Composer die neueste davon
 installiert. Die letzte Stelle einer Velocity-Version zählt über 9 hinaus weiter (`0.0.4.9`, `0.0.4.10`, ...), daher
 findet eine Versionssortierung die neueste, keine Namenssortierung.
 
@@ -407,14 +430,16 @@ das Verzeichnis zum Git-Repository gehört; die übrigen werden von Composer ode
 | `index_rest.php` | Der Front-Controller der REST-API (`/api/`). |
 | `index_cluster.php` | Liefert Dateien aus dem Datenbank-Cluster aus. |
 | `index_treemenu.php` | Der schnelle Endpunkt für das Inhaltsbaummenü der Administration. |
-| `soap.php`, `webdav.php` | Die Einstiegspunkte für SOAP und WebDAV. |
+| `index_soap.php`, `index_webdav.php` | Die Einstiegspunkte für SOAP und WebDAV. |
+| `soap.php` | Leitet an `index_soap.php` weiter, seinen Namen bis 6.0.14; wird in einer späteren Hauptversion entfernt ([was zu ändern ist](../bc/6.0/soap-einstiegsskript-index-soap.md)). |
+| `webdav.php` | Leitet an `index_webdav.php` weiter, seinen Namen bis 6.0.14; wird in einer späteren Hauptversion entfernt ([was zu ändern ist](../bc/6.0/webdav-einstiegsskript-index-webdav.md)). |
 | `runcronjobs.php` | Führt Cronjob-Teile aus: `php runcronjobs.php --list`. |
 | `autoload.php` | Lädt den Autoloader von Composer und den des Kernels; jeder Einstiegspunkt beginnt damit. |
 | `ezpm.php` | Der Paketmanager auf der Kommandozeile. |
 | `composer.json` | Die Anforderungen: PHP, Extensions, Zeta Components. `composer.dev.json` enthält die Entwicklungswerkzeuge von `make devtools` (installiert nach `.devtools/`); `composer.json.dist` ist ein älteres Upstream-Manifest, das zur Referenz aufbewahrt wird. |
-| `.htaccess_root` | Apache-Rewrite-Regeln; kopieren Sie die Datei nach `.htaccess` (`cp .htaccess_root .htaccess`). `.htaccess_root_static` ist dieselbe Datei mit den Regeln, die den statischen Cache vor der Anwendung ausliefern. |
+| `.htaccess_root` | Apache-Rewrite-Regeln; kopieren Sie die Datei mit `./console exp:setup:htaccess --apply` nach `.htaccess` (oder mit `cp .htaccess_root .htaccess`). `.htaccess_root_static` ist dieselbe Datei mit den Regeln, die den statischen Cache vor der Anwendung ausliefern (`exp:setup:htaccess --static --apply`). |
 | `kickstart.ini-dist` | Die kommentierte Vorlage für `kickstart.ini`; `kickstart.ini--example` ist ein Beispiel. |
-| `config.php-RECOMMENDED` | Eine dokumentierte Liste der Einstellungen, die `config.php` vornehmen kann; benennen Sie die Datei in `config.php` um und entfernen Sie die Kommentarzeichen vor den Einstellungen, die Sie brauchen. |
+| `config.php-RECOMMENDED` | Eine dokumentierte Liste der Einstellungen, die `config.php` vornehmen kann. Kopieren Sie die Datei mit `./console exp:setup:config --apply` nach `config.php` (oder mit `cp config.php-RECOMMENDED config.php`), listen Sie die Einstellungen mit `./console exp:config:list` auf und setzen Sie eine mit `./console exp:config:set <NAME> <value> --apply`, statt in einem Editor die Kommentarzeichen zu entfernen. Siehe [.htaccess und config.php von der Konsole aus einrichten](../anleitungen/setup-dateien-von-der-konsole.md). |
 | `config.env.php.example` | Kopieren Sie die Datei nach `config.env.php`, um die Umgebung des Rechners zu benennen (`EXP_ENV`); siehe [Einstellungen pro Umgebung](../funktionen/6.0/umgebungseinstellungen.md). |
 | `exponential.cron`, `ezpublish.cron` | Beispiel-Crontabs für die Cronjobs (`crontab exponential.cron`, nachdem Sie die beiden Variablen `EXPONENTIALROOT` und `PHP` gesetzt haben). |
 | `sw.js`, `index.js` | Der Service Worker der Website. |

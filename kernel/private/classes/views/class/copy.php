@@ -7,7 +7,7 @@
  * The original header of kernel/class/copy.php:
  *
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -15,7 +15,7 @@
  *
  */
 
-namespace Exponential\View\Kernel\Class
+namespace Exponential\View\Kernel\ContentClass
 {
 
 class Copy extends \Exponential\Runnable\ModuleView
@@ -161,4 +161,11 @@ class Copy extends \Exponential\Runnable\ModuleView
     }
 }
 
+}
+
+// The namespace was Exponential\View\Kernel\Class until 6.0.15. "Class" is a reserved word
+// before PHP 8.0, so it was renamed for PHP 7.4; the old name keeps working.
+namespace
+{
+    class_alias( 'Exponential\\View\\Kernel\\ContentClass\\Copy', 'Exponential\\View\\Kernel\\Class\\Copy' );
 }

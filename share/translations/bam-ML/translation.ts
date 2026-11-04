@@ -984,6 +984,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>Nin ɲɛ dɔrɔn de bɛ ɲini: %from ka se %to ma, %count na.</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Kisɛ ni farafɛnw ka kunnafoni suguya bɛɛ, ani kilasiw ni kɔnɔkow b'a kɛ baara la cogo min.</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Kunnafoni suguyaw</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2316,6 +2324,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>Sistɛmu ɲɛw fana bɛ se ka kɛ taamasiyɛn ye: ɲɛ da yɛlɛ (Labɛnni, sɛgɛsɛgɛli sɛbɛn, baarakɛlaw lisi ...), o kɔ «Nin ɲɛ taamasiyɛn kɛ» sugandi a san fɛ. Taamasiyɛn nin suguya bɛ jaa dɔ bolo min ye mɔbilɛri ye.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>I tɛ se ka nin ɲɛ da yɛlɛ yan tun. Taamasiyɛn bɔsi, wala donni ɲini marabaga fɛ.</translation>
     </message>
 </context>
 <context>
@@ -5165,6 +5177,210 @@
         <source>Go to the first page</source>
         <translation>Taa ɲɛ fɔlɔ la</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>Wɛrɛ</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>Don 7 tɛmɛnenw</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>Waati min sugandira</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>Daɲɛ bɛɛ</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>Daɲɛ o daɲɛ</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>Kumasen kɛrɛnkɛrɛnnen</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>Nafa</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>Tɔgɔ A–Z</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>Tɔgɔ Z–A</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>Yɛlɛmana, kuraw fɔlɔ</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>Yɛlɛmana, kɔrɔw fɔlɔ</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>Bɔra kɛnɛ kan, kuraw fɔlɔ</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>Bɔra kɛnɛ kan, kɔrɔw fɔlɔ</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Yɛlɛmana</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>Sɛnsɛnw</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>Sɛnsɛnw jira</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>Sɛnsɛnw dogo</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Segin fɔlɔ</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>Waleya</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>Daɲɛw</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>Kɔnɔko suguya</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>Jira ka caya (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>Kɔnɔko suguya kelen sugandi walasa ka ɲinini kɛ a jogo dɔ kɔnɔ.</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Sekisiyɔn</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Ka bɔ</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Ka taa</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>Daminɛ don tɛ don ɲuman ye.</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>Laban don tɛ don ɲuman ye.</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Tigi</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>Baarakɛla ID, donni tɔgɔ walima e-mail adrɛsi.</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>Baarakɛla si ma sɔrɔ «%input» kama.</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Kan</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>Kan o kan</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Yɔrɔ</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>Yɔrɔ %count</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>Jaabiw ɲɛ kelen kan</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>Jaabiw «%text» kama (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>Jaabiw (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>Bolo da ni</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>Bolo da</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>Sɛnsɛn bɛ baara la</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>Nin sɛnsɛn bɔsi</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>Walima sɛnsɛnw sugandi ka u waleya walasa ka kɔnɔko minnu bɛ bɛn u ma, olu jira.</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>Ni i ye daɲɛw sɛbɛn, sɛnsɛnw bɛ ɲinini dɔgɔya.</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>Jaabi si ma sɔrɔ «%text» kama.</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>Jaabi si ma sɔrɔ.</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>Sɛnsɛn dɔ bɔ sanfɛ.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Bayɛlɛmaliw</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Walew</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>%name yɛlɛma</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Yɛlɛma</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -7514,6 +7730,10 @@
         <source>Setup &gt; Cronjobs</source>
         <translation>Labɛnni &gt; Cron baaraw</translation>
     </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>Cron baara yɔrɔ si ma baara kɛ fɔlɔ: baara jɛnɔgɔnyaw, donnenw, kunnafonidiw ani ɲinini jirisɛbɛn bɛ makɔnɔni na. I ka php bin/php/installcrontab.php --add --apply kɛ, walima ka --show sariyaw fara crontab kan.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/dashboard/drafts</name>
@@ -8058,8 +8278,8 @@
         <translation>Sɛbɛnnabaga fɔlɔw ni cɛ wɛrɛw ka porogaramuw ka copyright kunnafoniw minnu bɛ Exponential fɛ, olu bɛ sɔrɔ sɛbɛn fisiyew kɔnɔ ni LICENSE fisiye kɔnɔ, i n'a fɔ lisansi b'a ɲini cogo min na.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>Nin ye Exponential dɛmɛbagaw ka lisi ye, minnu ye u ka baara di 7x ma eZ Systems Contributor Licensing Agreement sariyaw la. I n'a fɔ jɛɲɔgɔnya in b'a yamaruya cogo min na, 7x bɛ dɛmɛ kelen-kelen bɛɛ lajɛ ni lisansi kelen ye ni fisiye min kɔnɔ a bɛ. Lisi bɛ dɛmɛbaga kelen-kelen bɛɛ tɔgɔ fɔ, a ka jɔɲɔgɔnya kunnafoniw ni a b'a fɛ, ni fisiye minnu na a dɛmɛna.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>Dɛmɛbagaw minnu tɔgɔ fɔra u ka baara la Exponential ni a bɔra software min na, ani u ye dɛmɛ don fiyɛri minnu na. Nin ye waleɲumandɔn ye, copyright kunnafoni tɛ: dɛmɛ minnu bɛ don Exponential la, olu bɛ di Exponential Foundation ni 7x ma Contributor Licensing Agreement kɔnɔ.</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13881,32 +14101,20 @@ Ko: pakew tɛna sigili bɔ.</translation>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%evaluate_link"&gt;Exponential Enterprise Edition sɛgɛsɛgɛ&lt;/a&gt; - &lt;a href="%share_link"&gt;I ka kɛ Exponential Community ka mɔgɔ ye, ka ɲɔgɔn dɛmɛ ani ka fara a kan&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; ni mɔgɔ wɛrɛw.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class="edition-info"&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>&lt;span class="edition-info"&gt;%edition&lt;/span&gt; bɛ baara kɛ. Kunnafoni wɛrɛw kama, filɛ &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; ni mɔgɔ wɛrɛw.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> Kunnafoni wɛrɛw kama, filɛ &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
     </message>
     <message>
-        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; ni mɔgɔ wɛrɛw.</translation>
+        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href="%evaluate_link"&gt;Exponential sɛgɛsɛgɛ (7x fɛ)&lt;/a&gt; - &lt;a href="%share_link"&gt;I ka kɛ Exponential Community ka mɔgɔ ye, ka dɛmɛ sɔrɔ ani ka fara a kan&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; ni mɔgɔ wɛrɛw.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13915,6 +14123,61 @@ Ko: pakew tɛna sigili bɔ.</translation>
     <message>
         <source>Help center</source>
         <translation>Dɛmɛ yɔrɔ</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>Kɔnɔkow</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>Sɛbɛn ɲɛw</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>Baarakɛlaw</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>Kɔnɔkow kilasiw</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>Marali</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>Ɲɛ %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>Jaabiw bɛɛ lajɛ</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>Bɔnɛ %count</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>Jaabi kelen</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>Laadilikan %count</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>Laadilikan si tɛ</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>Laadilikanw ma se ka doni.</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>Laadilikanw</translation>
     </message>
 </context>
 <context>
@@ -14383,6 +14646,14 @@ Ko: pakew tɛna sigili bɔ.</translation>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>Nin sigili ye demo ye min bɛ mɔgɔ bɛɛ bolo: mɔgɔ o mɔgɔ bɛ se ka a marabaga gundodaɲɛ dɔn, ani marabagaw ka gundodaɲɛw tɛ se ka yɛlɛma walima ka segin kokura. I kana foyi gundo don yan.</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>I ka minɛnw</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Lakana kɛwalew</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14672,6 +14943,14 @@ Ko: pakew tɛna sigili bɔ.</translation>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>Ladilikanw, ɲinini ani fili fɔcogo.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Kɔnɔko kuraw</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Kɔnɔko kuraw, fɛn minnu minɛna ka lajɛ, ani kɛwalew sugandili kan.</translation>
     </message>
 </context>
 <context>
@@ -15130,6 +15409,46 @@ Ko: pakew tɛna sigili bɔ.</translation>
         <source>Synchronisations</source>
         <translation>Ɲɔgɔnsuma</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>GraphQL API: a donda yɔrɔ, sigicogo ani ɲɛnajɛyɔrɔ min bɛ ɲininkaliw lajɛ.</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Yɔrɔyɛlɛmaw</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Sigili yɛlɛmali minnu marara ka kɛ dosiyew ye: u hali, waleyaw, ka waleya ani ka segin kɔ.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Kɔnɔko kuraw</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Kɔnɔko kuraw, fɛn minnu minɛna ka lajɛ, ani kɛwalew sugandili kan.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Siti dɔ kopi jɔlen bila kɛnɛ kan GitHub Pages kan walima git jatigi o jatigi kan.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Bilali jɔlen</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Kunnafoni suguyaw</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Kisɛ ni farafɛnw ka kunnafoni suguya bɛɛ, ani kilasiw ni kɔnɔkow b'a kɛ baara la cogo min.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15294,6 +15613,22 @@ Ko: pakew tɛna sigili bɔ.</translation>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>Kontiw mɔgɔ si tɛ minnu baara kɛ walima minnu ka kan ka lajɛ; u bɔ baara la, u da yɛlɛ walima u labɔ.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Baarakɛlaw sɛgɛsɛgɛli sɛbɛn</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>Jɔn ye fɛn yɛlɛma, jɔn donna walima jɔn ma sɔn, konti kelen kelen; sɛnsɛn ani labɔ.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Donni jatebɔsɛbɛn</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>Minnu donnen bɛ, donniw ani tiɲɛniw don o don; baarakɛla dɔ bɔ yɔrɔ bɛɛ.</translation>
     </message>
 </context>
 <context>
@@ -22110,6 +22445,22 @@ Ko: pakew tɛna sigili bɔ.</translation>
         <source>%n hours ago</source>
         <translation>lɛrɛ %n tɛmɛnen</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>GraphQL API ka ɲininkali maralenw jaabiw, ani a sigicogo kɔnɔko kuluw.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>Kopi jɔlen bila kɛnɛ kan GitHub Pages kan walima git jatigi o jatigi kan</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Bilali jɔlen</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>Kasi jɔlen bɛ ɲɛw di ka bɔ nin sɛriwɛri in na. Walasa ka siti kopi jɔlen bila kɛnɛ kan yɔrɔ wɛrɛ la, GitHub Pages kan walima git jatigi o jatigi kan, bilali jɔlen kɛ.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25651,6 +26002,10 @@ Ko: pakew tɛna sigili bɔ.</translation>
     <message>
         <source>last purge</source>
         <translation>jɔsili laban</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>Sɛbɛnni tɛ se ka cogoya sɔgɔlan ta (laban %date): u kelen kelen bɛɛ ye jabi marali bɛɛ kɔrɔya. %file ka kan ka se ka sɛbɛn baarakɛla bɛɛ fɛ minnu tɔgɔ la site bɛ baara kɛ; NFS kan a mago bɛ NFSv4 walima lockd la.</translation>
     </message>
 </context>
 <context>
@@ -33599,6 +33954,14 @@ Ko: pakew tɛna sigili bɔ.</translation>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>PHP ɲɛnabɔbaga ka sesiyɔn tɛmɛnenw bɛ bɔsi PHP yɛrɛ fɛ (session.gc_maxlifetime), nin ɲɛ walima session_gc cron baara fan tɛ.</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>Donni jatebɔsɛbɛn bɛ baarakɛla bɛɛ ka sesiyɔn donnenw jira, k&apos;u bɔ fana; a bɛ baara kɛ ni sesiyɔn ɲɛnabɔbaga bɛɛ ye.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>Donni jatebɔsɛbɛn da wuli</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37923,6 +38286,26 @@ konti da bila baara la.</translation>
     <message>
         <source>None yet</source>
         <translation>Foyi tɛ fɔlɔ</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Lakana kɛwalew</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>I ka donni kɔfɔlɔw, cɛsiri minnu ma ɲɛ ani yɛlɛmaliw i ka gundodaɲɛ, i ka imɛli adiresi ani donni sen fila la kan.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>Nin konti in ka donni kɔfɔlɔw, cɛsiri minnu ma ɲɛ ani lakana yɛlɛmaliw.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>Kɛwalew lajɛ</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>Donni minnu ma ɲɛ: %count</translation>
     </message>
 </context>
 <context>
@@ -44089,6 +44472,42 @@ Ni i b'a fɛ ka hakilina ci sɔnbaga ma walima ka hali lajɛ, URL min bɛ duguma
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>Donni kɔ, baarakɛla ka kan ka gundodaɲɛ kura sugandi sani a ka foyi wɛrɛ kɛ. A kɛ ni i ye gundodaɲɛ waatiman di mɔgɔ dɔ ma.</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>Ja min bɛ yen sugandi</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>I bɛ objɛ min sugandi, o ja dosiye bɛ kopi ka don yɔrɔ in na. Objɛ tɔ tɛ yɛlɛma.</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>“%name” ja kopira ka don yɔrɔ in na.</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>Yaala ka ja ɲini</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>Jaw ɲini tɔgɔ fɛ</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Ɲini</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>“%name” ja ta</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>Nin ja ta</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>Ja si tɛ i ka ɲinini bɛn.</translation>
     </message>
 </context>
 <context>
@@ -51013,6 +51432,10 @@ A filɛ nafaw ɲɛ la walasa ka kunnafoni caman sɔrɔ.</translation>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>Crontab ma sɛbɛn (%reason). Nin sira ninnu fara baarakɛla ka crontab kan min bɛ siti boli, n'o tɛ ɲɛnɔgɔnkɔ, ladamuw, kunnafonidiw ni ɲɛnini taamasiyɛn tɛna boli abada:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>A bɛ sigi kokura ni Kickstarter ye (%file, o kɔ php bin/php/kickstarter.php run --apply) walima ni sigili kura ye.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54892,6 +55315,10 @@ konti da bila baara la.</translation>
         <source>eZJSCore Public Packer cache</source>
         <translation>eZJSCore packer kasi (bɛɛ ka)</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>GraphQL marayɔrɔ (jaabiw ani sigicogo kuluw)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54978,6 +55405,14 @@ konti da bila baara la.</translation>
     <message>
         <source>Copy of %class_name</source>
         <translation>%class_name kopi</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Kunnafoni suguyaw</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>Kunnafoni suguya %string</translation>
     </message>
 </context>
 <context>
@@ -55804,6 +56239,26 @@ I kana sarali ci tugun.</translation>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>SVG ja ma se ka kalan, wala a kɔnɔ foyi tɛ se ka jira ni lakana ye.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>Ja ma se ka kopi. Hakɛto, i ka segin k'a kɛ walima i ka siti marabaga sɔrɔ.</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>Objɛ sugandilen tɛ yen walima i tɛ se k'a kalan.</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>Ja si tɛ objɛ sugandilen na.</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>Objɛ sugandilen ja dosiye ma se ka kalan.</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>Objɛ sugandilen ja ka bon ni yɔrɔ in sɔnna min ma: bayiti %1.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56334,6 +56789,42 @@ I kana sarali ci tugun.</translation>
         <source>The bookmark was renamed to "%name".</source>
         <translation>Taamasiyɛn tɔgɔ yɛlɛmana ka kɛ «%name» ye.</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>Nin ɲɛ bɔra baara la nin siti donda in na (%siteaccess). Taamasiyɛn da yɛlɛ siti donda dɔ la min bɛ ni nin ɲɛ ye.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>Nin ɲɛ modili ma sigi yan, wala a ma bila baara la yan.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>Nin ɲɛ tɛ yen tun: a modili tɛ ni lajɛyɔrɔ suguya in ye.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>I ka jɔyɔrɔw si t'a to i ka nin ɲɛ da yɛlɛ.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>I tɛ se ka nin siti donda in labaara.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>I tɛ se ka kɔnɔkow kalan minnu bɛ jira nin ɲɛ kan.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>Ɲɛ nin suguya tɛ se ka kɛ taamasiyɛn ye: a bɛ baara kɛ sɛbɛnfura dɔrɔn kan, wala ɲɛ don min bɛ yen waati dɔɔnin dɔrɔn.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>Nin ɲɛ adiresi tɛ yen.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>Nin ɲɛ tɛ se ka da yɛlɛ sisan.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56805,6 +57296,10 @@ I ka kan ka nɔdi kilasi yɛlɛma ni falen baarakɛcogo ye.</translation>
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>Imɛli ciyɔrɔ banna ci %count la boli laban na. Imɛli sɛriwɛri ni site.ini MailSettings sɛgɛsɛgɛ.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Kɛwale %count bɛ makɔnɔni na ani kunnafonidi cron baara boli si ma sɛbɛn. Cron baara yɔrɔ «frequent» fara crontab kan, walima exp:notification:run --apply kɛ.</translation>
     </message>
 </context>
 <context>
@@ -63061,6 +63556,10 @@ I ka kan ka nɔdi kilasi yɛlɛma ni falen baarakɛcogo ye.</translation>
         <source>Choose another site or section with the node picker</source>
         <translation>Siti wɛrɛ wala sekisiyɔn wɛrɛ sugandi ni nɔdi sugandibaga ye</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>Sisitɛmu kuntigi dama de bɛ se ka tigi yɛlɛma: ./console exp:content-check --fix-permissions --apply kɛ i n&apos;a fɔ root.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64594,6 +65093,10 @@ I ka kan ka nɔdi kilasi yɛlɛma ni falen baarakɛcogo ye.</translation>
     <message>
         <source>empty</source>
         <translation>lankolon</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>Bolonɔbila kile tɛmɛna san kelen kan: a yɛlɛma ni exp:audit key rotate --apply ye.</translation>
     </message>
 </context>
 <context>
@@ -66939,7 +67442,7 @@ I ka kan ka nɔdi kilasi yɛlɛma ni falen baarakɛcogo ye.</translation>
     </message>
     <message>
         <source>Good evening</source>
-        <translation>I ni sɔgɔma</translation>
+        <translation>I ni wula</translation>
     </message>
     <message>
         <source>Good morning</source>
@@ -68423,6 +68926,486 @@ I ka kan ka nɔdi kilasi yɛlɛma ni falen baarakɛcogo ye.</translation>
     <message>
         <source>Share of page time</source>
         <translation>ɲɛ waati tila</translation>
+    </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>dilanni dafalen ɲininna</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>ɲɛ tun tɛ ɲɛ kasi kɔnɔ (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>ɲɛ kasi ma jaabi di</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>A dilanna</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>Kisɛ ye a dilan: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>A dira ka bɔ ɲɛ kasi la %ms ms kɔnɔ. Ɲɛ marala %stored dilanni dɔ fɛ min mɛnna %render ms, a bɛ %age s bɔ.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>A dilan sisan</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>Segin kasi lajɛ ma</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>Ka bɔ dilanni na min kɛra %stored (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>Nin delili: a dira ka bɔ ɲɛ kasi la %ms ms kɔnɔ.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Baarakɛla</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>Baarakɛla ID</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>Kasi profili</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>Nin lajɛ</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>Lajɛ kasi</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>baarakɛla kelen-kelen bɛɛ ye (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>Baarakɛla ka kasi profili: baarakɛla minnu ka profili ye kelen ye, olu bɛ lajɛ kasi dosiyew tila ɲɔgɔn na</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ɔwɔ</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ayi</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Baarakɛla tɔgɔ</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>Donna</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>Sesiyɔn</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>Kɔnɔkow lajɛ kasi kile yɔrɔ minnu bɛ baarakɛla sɔrɔ, i n'a fɔ kile b'u ta cogo min na, nin ɲɛ in ka ViewCacheTweaks kɔrɔ. Baarakɛla minnu ka profili ye kelen ye, olu bɛ lajɛw ka kasi dosiyew tila ɲɔgɔn na, ni lajɛ yɛrɛ ka yɔrɔw ma danfara (sugandiliw, lamɛnbagaw ka kilew): olu ta profili bɛ u yɛrɛ ye, nin ɲɛ in dɔrɔn na.</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>Profili</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>Nin lajɛ (nɔdi %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: baarakɛla o baarakɛla min donna, kasi dosiyew b'a yɛrɛ ye.</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>ViewCacheTweaks minnu bɛ baara la: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>Fan</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>Hakɛ</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>Yɔrɔ si tɛ baarakɛla sɔrɔ (ViewCacheTweaks).</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>nin lajɛ</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>A ladege i n'a fɔ sɛbɛn</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>Jɔyɔrɔw</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>Jɔyɔrɔ dili si ma se ka kalan.</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>Jɔyɔrɔ ID</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Jɔyɔrɔ</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>Dancɛ</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>Dira min ma</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>baarakɛla</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>jɛkulu %name (fɛn %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>Kopi kɛra</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>A ma se ka ladege.</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>lamɛnbaga dɔ y'a bila kɛrɛ fɛ</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>Lajɛbaga tɔgɔbaliw</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>i ta bɔlen</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>danfaralen</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>Profili min bɛ sɔrɔ taamaden tɔgɔbaliw fɛ ViewCacheTweaks kelen kɔrɔ, ni sugandili ɲɛfɔlenw ye, lajɛ yɔrɔw tɛ min na: lamɛnbaga min bɛ sesiyɔn kalan, o tɛ se ka ɲininka u ko la.</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>Sugandiliw</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>Lajɛ cogo si tɛ baarakɛla ka sugandiliw sɔrɔ (site.ini [ContentSettings] CachedViewPreferences).</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>Sugandili minnu na nin lajɛ cogow ka lajɛw bɛ sɔrɔ (CachedViewPreferences), ni baarakɛla ka hakɛ ye walima ɲɛfɔlen. U bɛ profili kɔnɔ i n'a fɔ userpreferences, lajɛ cogo bɛɛ ta ɲɔgɔn fɛ.</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>Lajɛ cogo</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>Sugandili</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>Sariyalen</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>Sariyaw</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>Jɔyɔrɔw ka sariyaw jira (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>Sariyaw bɛ ta sɛriwɛri la ni nin yɔrɔ in dayɛlɛla, ɲɛ kelen kelen, ka se ka sɛgɛsɛgɛ ni modili ni baara ye.</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>Baarakɛcogo</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>Modili bɛɛ</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>Baara bɛɛ</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>Dancɛw</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>A caman jira</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>Sariya si tɛ nin jɔyɔrɔw la.</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>Sariya si tɛ bɛn sɛgɛsɛgɛli ma.</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%shown %matching sariyaw la (%total bɛɛ lajɛlen)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>A bɛ ta ni a dayɛlɛra.</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>module/baara, yɔrɔ, dancɛ</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>Sariyaw ɲini</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>Caman ta</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>Module/baara</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>Yɔrɔw bɛɛ (sariya %count)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>Sariya si ma kɛ kelen ye.</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%shown ka bɔ sariya %matched la</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>Jaabi t'a la</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>dogolen</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>Ɲɛfɔliw jira</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>Ɲɛfɔliw dogo</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Da yɛlɛ</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>Bɛɛ yɛlɛ</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>Bɛɛ datugu</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>Kile walima hakɛ</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>Sesiyɔn ɲini</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Suguya</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>%count wɛrɛw</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>a donnen kɔnɔ kojugu ka se ka jira</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>a tigɛra, sɛbɛnni %count bɛɛ lajɛlen</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Daminɛna</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>Kuki tɔgɔ</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>Sesiyɔn ID</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>Ɲɛnabɔbaga</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>Marali sira</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>PHP sigicogo</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>Ɲɛnamaya waati (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>Kuki</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>ɲɛnamaya waati %s s</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>I yɛrɛ ka PHP sesiyɔn, i ko a tun bɛ cogo min na tuma min na bolofara dayɛlɛla, abada wɛrɛ tɛ. Kile minnu bɛ i n'a fɔ gundow (tokɛnw, hasiw, gundodaw), olu hakɛw bɛ dogo (debugbar.ini SessionMask[]); fɛn tɔw bɛɛ bɛ jira i ko u marala cogo min na, mɔgɔ yɛrɛ ka kunnafoniw fana.</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>kile %count, %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>belebele</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>Sesiyɔn lankolon don.</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>Sesiyɔn si ma daminɛ nin ɲinini kama.</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Farafɛn %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>Kɛrɛnɛli ni tɔw</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>Donni bɛɛ tɛ jira: fɛn minnu bɛ sesiyɔn kɔnɔ, olu ka ca ni minnu bɛ se ka sɛbɛn yan.</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>Kile %count ma sɛbɛn.</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>Fɛrɛmu</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>Hakɛ minnu bɛ i n'a fɔ tokɛn (JSON Web Token, Authorization kuncɛ ka sɛbɛnw, kile dogolen, hex walima sɛbɛn kɔnnabɔ jan), olu fana bɛ dogo, u kile tɔgɔ mana kɛ min o min ye (debugbar.ini SessionValueMask[]).</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>Kile bɛ i n'a fɔ gundo (debugbar.ini SessionMask[]).</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>Hakɛ bɛ i n'a fɔ tokɛn.</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>Kile dogolen dɔ jukɔrɔ.</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>Sesiyɔn i ko sɛbɛn, a dogolen i ko tabali.</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>Sesiyɔn ka bon ni %size ye (debugbar.ini SessionWarnBytes): nin baarakɛla ka ɲinini kelen-kelen bɛɛ bɛ sesiyɔn bɛɛ kalan, ka a sɛbɛn ni a yɛlɛmana.</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP bɛ nin sesiyɔn mara filiw kɔnɔ ka fili datugu ɲinini bɛɛ waati la: baarakɛla kelen ka ɲininiw (tab caman, AJAX weleliw) bɛ ɲɔgɔn makɔnɔ.</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>A to yɛlɛnen</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>A ka bon ni %size ye (debugbar.ini SessionWarnBytes): nin baarakɛla ka ɲinini kelen-kelen bɛɛ bɛ sesiyɔn bɛɛ kalan.</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%hits %count la kalanna kasi la</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>Modɛli si ma jira (yecogo min kalanna yecogo kasi la, o tɛ foyi jira).</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>Jɔyɔrɔ diw</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>Jɔyɔrɔw ni sariyaw</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>a tɛ kelen ye ni bisigilikɛla tɔgɔbaliw ta ye</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>a ye kelen ye ni bisigilikɛla tɔgɔbaliw ta ye</translation>
     </message>
 </context>
 <context>
@@ -70304,6 +71287,14 @@ I ka kan ka nɔdi kilasi yɛlɛma ni falen baarakɛcogo ye.</translation>
     <message>
         <source>not sent</source>
         <translation>ci ma kɛ</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Kunnafonidi cron baara b&apos;a boli kelen kelen bɛɛ sɛbɛn yan. Yɔrɔ frequent fara crontab kan, walima exp:notification:run --apply kɛ.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>Konsoli kɛ baara la: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -76022,6 +77013,98 @@ I ka kan ka nɔdi kilasi yɛlɛma ni falen baarakɛcogo ye.</translation>
         <source>This topic is not Released; readers do not see it.</source>
         <translation>Nin ko ma bila kɛnɛ kan; kalandenw tɛ a ye.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Yɔrɔyɛlɛmaw</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Sigili yɛlɛmali minnu marara ka kɛ dosiyew ye: u hali, waleyaw, ka waleya ani ka segin kɔ.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Siti dɔ kopi jɔlen bila kɛnɛ kan GitHub Pages kan walima git jatigi o jatigi kan.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Bilali jɔlen</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>Lajɛli la</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>Kalandenw bɛ nin ɲɛ ye.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>A dogolen don kalandenw ma fo mɔgɔ dɔ k'a bila kɛnɛ kan.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>Ɲɛ in bɛ lajɛli na sisan. A dogolen don kalandenw ma fo a ka bila kɛnɛ kan.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>Ɲɛ in bilalen bɛ kɛnɛ kan: kalandenw bɛ a ye sisan.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>Ɲɛ in ye bruyɔn ye tuma were. A dogolen don kalandenw ma fo a ka lajɛ ka bila kɛnɛ kan.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>A bila kɛnɛ kan sisan</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>Baarakɛla min bolo %role jɔyɔrɔ bɛ, n'a ma nin wɛrisiyɔn sɛbɛn, o dɔrɔn de bɛ se k'a bila kɛnɛ kan.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>Dɛmɛ kow minnu bɛ bila kɛnɛ kan makɔnɔ</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>A b'a dogo kalandenw ma fo a ka bila kɛnɛ kan tuma were.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>Lajɛbaga dɔ b'a lajɛ o kɔfɛ. Kalandenw t'a ye fɔlɔ.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>Kalandenw b'a ye o yɔrɔnin bɛɛ.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>A b'a bɔ lajɛli la ka baara wɛrɛ kɛ a la. Kalandenw t'a ye.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>Nin ɲɛ dogo kalandenw ma wa?</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>Nin ɲɛ segin bruyɔn na wa?</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>Kalandenw tɛ %title ye tun fo mɔgɔ dɔ k'a bila kɛnɛ kan tuma were.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title bɛ segin bruyɔn na ka baara wɛrɛ kɛ a la. Kalandenw t'a ye hali sisan, wa lajɛli kura ka kan ka kɛ sani a ka bila kɛnɛ kan.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Dabila</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>Nin kow bɛ lajɛli na. Kalandenw b'u ye ni mɔgɔ min ma sisan wɛrisiyɔn sɛbɛn y'u bila kɛnɛ kan.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76477,6 +77560,46 @@ I ka kan ka nɔdi kilasi yɛlɛma ni falen baarakɛcogo ye.</translation>
         <source>None.</source>
         <translation>Foyi tɛ.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>ni authenticator porogaramu ye</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>ni kode ye min cira imɛli fɛ</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>ni lasegin kode ye</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>ni donni kile ye</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>ni kɛnɛma konti ye</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Lakana kɛwalew</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>A jiranen don i n&apos;a fɔ a ka rezo; adiresi bɛ mara i n&apos;a fɔ siti ka kunnafoniw lakana labɛnw b&apos;a fɔ cogo min na.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>A ma sɛbɛn</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Yɔrɔ</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>a ɲɔgɔn</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76720,6 +77843,42 @@ I ka kan ka nɔdi kilasi yɛlɛma ni falen baarakɛcogo ye.</translation>
         <source>Manage devices</source>
         <translation>Minɛnw mara</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>ni authenticator porogaramu ye</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>ni kode ye min cira imɛli fɛ</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>ni lasegin kode ye</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>ni donni kile ye</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>ni kɛnɛma konti ye</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Lakana kɛwalew</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>A ma sɛbɛn</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Yɔrɔ</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>a ɲɔgɔn</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76799,6 +77958,14 @@ I ka kan ka nɔdi kilasi yɛlɛma ni falen baarakɛcogo ye.</translation>
         <source>View the sessions of this user</source>
         <translation>Nin baarakɛla ka sesiyɔnw lajɛ</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>I ka konti %login min bɛ %site kan, o kɛra sisan ka don ka bɔ yɔrɔ dɔ la, a ma don ka bɔ yɔrɔ min na kɔfɛ in na:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>Yɔrɔ a ɲɔgɔn</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76837,6 +78004,10 @@ I ka kan ka nɔdi kilasi yɛlɛma ni falen baarakɛcogo ye.</translation>
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%browser %os kan</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Donni jatebɔsɛbɛn</translation>
     </message>
 </context>
 <context>
@@ -77045,6 +78216,82 @@ I ka kan ka nɔdi kilasi yɛlɛma ni falen baarakɛcogo ye.</translation>
         <source>The passkey could not be checked. Please try again.</source>
         <translation>Donni kile ma se ka sɛgɛsɛgɛ. Hakɛto, a lajɛ tuma were.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>Konti minnu bɛ don ni donni kilew dɔrɔn ye, olu tɛ se ka gundodaɲɛ kɛ yan: «Don ni donni kile ye» sugandi.</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>%login ka donni kilew</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>Donni kile minnu bɛ nin konti don. Min bɛ minɛn tununnen walima sonyalen kan, o bɔ baara la: a tɛ se ka don tun. Tigi yɛrɛ de bɛ kuraw fara a kan.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>I ka konti mago bɛ donni kile la</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>Donni kile fara i ka konti kan</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>Donni kile fara a kan ka taa ɲɛ. O kɔ, i bɛ don n&apos;a ye, gundodaɲɛ dɔrɔn nɔ na.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>Ka don ni donni kile ye ka teli ani a ka lafiya ka tɛmɛ gundodaɲɛ kan. Kelen fara a kan sisan, walima taa ɲɛ a kɔ.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>Sisan tɛ</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>Donni kile «%name» bɔ baara la wa?</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>A tɛ se ka don nin konti la tun. N&apos;o tun ye a laban ye, tigi bɛ don ni gundodaɲɛ ye, walima i bɛ kura dɔ sigi.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>Donni kile bɔ baara la</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>Bɔ baara la</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>Donni kile si tɛ nin konti bolo.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>Sɛgɛsɛgɛbaga</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>A tɛ dɔn</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>I ka donni kile laban: wɛrɛ fara a kan sani i k&apos;a bɔsi.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>Nin konti bɛ don ni donni kilew dɔrɔn ye (donni kile sariya): ni foyi ma to, a bɛ don ni a ka gundodaɲɛ ye tugun.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>Nin ye i ka donni kile laban ye, wa i ka konti tɛ se ka don ni kile tɛ. Donni kile wɛrɛ fara a kan fɔlɔ.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>Donni kile «%name» bɔra baara la. A tɛ se ka don nin konti la tun.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77144,6 +78391,34 @@ I ka kan ka nɔdi kilasi yɛlɛma ni falen baarakɛcogo ye.</translation>
         <source>Code from your authenticator app</source>
         <translation>Kode min bɔra i ka porogaramu sɛgɛsɛgɛbaga la</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>I bɛ kunnafoniw jɔsi pewu walima kɛwale sɛbɛn lankolon.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>I ka gundodaɲɛ ni donni kile</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>I ka gundodaɲɛ ni kode min bɔra i ka porogaramu sɛgɛsɛgɛbaga la</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>Walima:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>Nin wɛbu yaalalan tɛ se ka baara kɛ ni donni kilew ye. Sira wɛrɛ ta, walima wɛbu yaalalan wɛrɛ.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>Ni i taara ɲɛ, i ka wɛbu yaalalan bɛ i ka donni kile dɔ ɲini.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>Taa ɲɛ ni donni kile ye</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77234,6 +78509,70 @@ I ka kan ka nɔdi kilasi yɛlɛma ni falen baarakɛcogo ye.</translation>
     <message>
         <source>Setup</source>
         <translation>Labɛnni</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>I yɛrɛ ka gundodaɲɛ, imɛli adiresi, donni kilew, donni sen fila la, lasegin kodew walima API kilew yɛlɛma, ani ka bɔ i yɛrɛ ka minɛn wɛrɛw kan.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>Baarakɛlaw, u ka gundodaɲɛw ni u ka minɛnw dilan ni u yɛlɛma, konti labɛnw, baarakɛla konti kuraw sɔn walima u bali, jɔyɔrɔw di ani sariyaw yɛlɛma.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>Kunnafoniw jɔsili</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>Nɔgɔsigiyɔrɔ lankolon, fɛnw bɔsi a la ani fɛn caman bɔsi ɲɔgɔn fɛ.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>Kɔnɔkow bɔsili, u bilali kɛnɛ kan ani u marali</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>Kɔnɔkow bɔsili (nɔgɔsigiyɔrɔ la fana), bilali kɛnɛ kan ani bruyɔn marali; a bɛ ɲininka ni formilɛri cira. A tɛ baara la ka kɔrɔ sariyalen na.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>Sani kɛwale sɛgɛlen dɔ, baarakɛla donnen b&apos;a yɛrɛ jira kokura: ni a ka gundodaɲɛ ni donni kile ye, walima ni donni kile t&apos;a bolo, ni a ka gundodaɲɛ ni kode ye min bɔra a ka porogaramu sɛgɛsɛgɛbaga la. Wɛbu ɲɛw dɔrɔn de b&apos;a ɲini: REST interfɛsi, SOAP, WebDAV, expservices donni ani komandi sira t&apos;a ɲini abada.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>Labɛnw bɛ baara kɛ yɔrɔ min na</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>Labɛnw min kama</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Siti donda bɛɛ</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>Siti donda %name</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Da yɛlɛ</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>Ɲininkalenw: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>Baarakɛlaw jɛkuluw taamasiyɛn walasa k&apos;u ka mɔgɔw dɔrɔn ɲininka (sɛbɛnnikɛlaw, misali la). Si ma taamasiyɛn: baarakɛla bɛɛ.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>Maralen bɛ settings/override/site.ini.append.php kɔnɔ, siti donda bɛɛ ye. Maraliw b&apos;i ɲini k&apos;i yɛrɛ jira.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>Maralen bɛ settings/siteaccess/%name/site.ini.append.php kɔnɔ. Hakɛ min bɛ settings/override kɔnɔ, o de bɛ fanga sɔrɔ a kan. Maraliw b&apos;i ɲini k&apos;i yɛrɛ jira.</translation>
     </message>
 </context>
 <context>
@@ -77336,6 +78675,6822 @@ I ka kan ka nɔdi kilasi yɛlɛma ni falen baarakɛcogo ye.</translation>
     <message>
         <source>Open the page</source>
         <translation>ɲɛ in yɛlɛ</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from ka taa %to, %count la</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>Baarakɛla tɔgɔ walima baarakɛla ID: konti min ko kɛwale kɛra, walima baarakɛla min ye kɛwale kɛ.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Konti</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Kɛwale</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>Kɔfɛ</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>Jaabi bɛɛ</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Sani</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Kɛbaga</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Saniya</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>A kɛra</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>Kɛwalew bɛ mara tile %days kɔnɔ.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>Kɛwalew bɛ mara fo u ka bɔsi ni bolo ye.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Kɛwalew</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>Kɛwale bɛɛ</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>Nin konti kɛwalew bɛɛ</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>Lisi labɔ CSV la (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>A ma ɲɛ</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Ka bɔ</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>Lisi dɔgɔya</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>Kɛwale si tɛ bɛn.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>ɲɛ kelen na</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>Sɛbɛnni lajɔlen don audit.ini kɔnɔ ([UserAuditSettings] UserAudit); lisi bɛ min sɛbɛnna fɔlɔ o jira.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>A ma sɔn</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Jaabi</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Jira</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>Baarakɛlaw sɛgɛsɛgɛli sɛbɛn tabulo tɛ yen. I ka a dilan ni php update/common/scripts/6.0/createuseraudittable.php ye; fo o waati, sɛgɛsɛgɛli fisiyew bɛ kɛwale bɛɛ mara.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>Nin ɲɛ mago bɛ kunnafoniso SQL la; a tɛ sɔrɔ MongoDB kan. Sɛgɛsɛgɛli fisiyew bɛ kɛwale bɛɛ mara.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Ka taa</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Baarakɛlaw sɛgɛsɛgɛli sɛbɛn</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Baarakɛla</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Waati</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Yɔrɔ</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>Jɔn ye konti jumɛn yɛlɛma, ka a dilan, ka a bila baara la, ka a bɔ baara la, ka a yɔrɔ falen walima ka a bɔsi, jɔn donna walima jɔn ma sɔn, ani jɔyɔrɔ jumɛnw dira: sira kelen kɛwale kelen kelen bɛɛ ye, ni yɔrɔw cogo ye fɔlɔ ani kɔfɛ. Gundodaɲɛw ni gundow tɛ sɛbɛn abada.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>jɛkulu</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>sistɛmu</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>a tɛ dɔn</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>I ka konti lakana</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>Lasegin kode dɔ kɛra ka don i ka konti %login kɔnɔ %site kan.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>Lasegin kode dɔ kɛra baara la</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Konti</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>Adiresi a ɲɔgɔn</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>Gundodaɲɛ kura ɲini walasa ka don kokura, walima ka siti kuntigiw wele.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>Gundodaɲɛ kura ɲini</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>Lasegin kode kelen kelen bɛɛ bɛ baara kɛ siɲɛ kelen. Ni i ka telefɔni tununa, i ka authenticator porogaramu labɛn kokura ani ka lasegin kode kuraw mara yɔrɔ lakananen na.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>Donni cɛsiri minnu ma ɲɛ i ka konti kan</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>Ka bɔ sisan na, donni bɛna kode dɔ ɲini i ka gundodaɲɛ kɔ. Ni e de y&apos;a kɛ, i man kan ka foyi kɛ.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>Ni e de don ani i ɲinana i ka gundodaɲɛ kɔ, kura dɔ ɲini. Ni e tɛ, gundodaɲɛ barikama sugandi ani ka donni sen fila la daminɛ.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>Ni e tɛ min y&apos;a kɛ, mɔgɔ dɔ bɛ se k&apos;i ka gundodaɲɛ dɔn: a yɛlɛma sisan ani ka yɔrɔ lajɛ i ka konti donnen bɛ yɔrɔ min na.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>Lasegin kode minnu tora</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>I ka minɛnw lajɛ</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>Lakana lasɔmini</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>Mɔgɔ dɔ y&apos;a ɲini ka don i ka konti %login kɔnɔ %site kan ni gundodaɲɛ filanen ye siɲɛ %count ɲɔgɔn kɔ.</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>Lakana kɛwale dɔ kɛra i ka konti %login kan %site kan.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>Nin ye lakana lasɔmini ye i ka konti ko la. A bɛ ci o yɛlɛmali suguya bɛɛ la ani a tɛ se ka bila.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Waati</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>Donni sen fila la bilara i ka konti %login ye %site kan.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>Donni sen fila la bilara</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>Donni sen fila la daminɛna i ka konti %login ye %site kan.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>Donni sen fila la daminɛna</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>I ka konti %login min bɛ %site kan, o datugura donni caman minnu ma ɲɛ olu kɔ.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>Sisan i ka konti lakananen bɛ i ka gundodaɲɛ dama de fɛ. Ni e tɛ min y&apos;a kɛ, donni sen fila la daminɛ kokura i ka gundodaɲɛ yɛlɛmali kɔ.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>I ka konti datugura</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>Donni kile dɔ farala i ka konti %login kan %site kan.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>Mɔgɔ o mɔgɔ ye nin donni kile ta, o bɛ se ka don i ka konti la ni i ka gundodaɲɛ tɛ. Ni i yɛrɛ ma a fara a kan, a bɔsi Donni kilew kɔnɔ ani i ka gundodaɲɛ yɛlɛma.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>Donni kile dɔ bɔsira i ka konti %login la %site kan.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>A tɛ se ka don i ka konti la tun. Ni i yɛrɛ ma a bɔsi, i ka donni kilew ni i ka minɛnw lajɛ.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>Donni kile dɔ farala i ka konti kan</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>Donni kile dɔ bɔsira i ka konti la</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>Lakana kɛwalew</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>%name ka lakana kɛwalew</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>A donna</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Donni cɛsiri min ma ɲɛ</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>A bɔra</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Sesiyɔnw bɔra</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Donni ka bɔ minɛn kura la</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Donni ka bɔ yɔrɔ kura la</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Mɔgɔya sɛmɛntiyara («I yɛrɛ sɔn»)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Mɔgɔya lajɛli ma ɲɛ</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>A donna ni donni kile ye</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Donni ni donni kile ye ma ɲɛ</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Donni banna: sen fila kode tɛ yen walima a ma ɲɛ</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Sen fila kode filanen</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Konti datugura donni minnu ma ɲɛ olu kɔ</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Konti dayɛlɛra</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Gundodaɲɛ yɛlɛmana</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Gundodaɲɛ yɛlɛmali ma ɲɛ</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Gundodaɲɛ labɛnna kokura</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Gundodaɲɛ kura ɲinina</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Imɛli adiresi yɛlɛmana</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Baarakɛla tɔgɔ yɛlɛmana</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Donni sen fila la bɛ baara la</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Donni sen fila la bɔra baara la</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Lasegin kode kɛra baara la</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Lasegin kode kuraw</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Aplikasiyɔn gundodaɲɛ dilanna</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Aplikasiyɔn gundodaɲɛ bɔra baara la</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Donni kile farala a kan</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Donni kile bɔsira</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Konti bilara baara la</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Konti bɔra baara la</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Bɛɛ</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Donniw ani sesiyɔnw</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Konti yɛlɛmaliw</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>A mago bɛ janto la</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>e fɛ</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>baarakɛla fɛ</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>%login fɛ</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>Cogoya</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>Wɛbu yaalalan</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>Sisitɛmu</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Minɛn</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>Yɔrɔ</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>Jamana</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Sesiyɔnw</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>Jumɛn</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>Cili sira</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Cɛsiri minnu ma ɲɛ</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>Kode minnu tora</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>Donni ɲɛnabɔbaga</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Lakana kɛwalew</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>%name ka lakana kɛwalew</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Donniw ani yɛlɛmaliw i ka konti lakanali la. Ni i ye fɛn dɔ ye i ma min kɛ, i ka gundodaɲɛ yɛlɛma ani ka minɛn minnu i t&apos;u dɔn, olu bɔ.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>Donniw ani yɛlɛmaliw nin konti in lakanali la.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>I ka minɛnw</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Gundodaɲɛ yɛlɛma</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>Segin konti la</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>Lakana kɛwalew tɛ sɛbɛn</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>A bɛ kalan ka bɔ baarakɛlaw sɛgɛsɛgɛli sɛbɛn na, a ka tabali expuser_audit tɛ yen walima a tɛ dɛmɛ nin bɛɛjɛfanba in kan. php update/common/scripts/6.0/createuseraudittable.php kɛ, walima 6.0.15 ka bɛɛjɛfanba kuraya.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Don %days labanw</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Donniw don %days labanw kɔnɔ</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>Lakana kɛwale kɔfɔlɔw</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Jira</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>a ma ɲɛ</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>a banna</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Lakana kɛwale si ma sɛbɛn fɔlɔ.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>Lakana kɛwalew bɛ mara don %days.</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>Lakana kɛwalew bɛ mara fo kuntigi dɔ k&apos;u bɔsi.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>N ka donni kunnafoniw lajigin</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>I ka sesiyɔnw ani i ka lakana kɛwalew i n&apos;a fɔ JSON fisiye.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Sesiyɔnw tɛ sɛbɛn nin siti in kan, o de kosɔn minɛn wɛrɛ si ma se ka bɔ. Sisan i ka gundodaɲɛ yɛlɛma.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>Sesiyɔn wɛrɛ %count bɔra. Sisan i ka gundodaɲɛ yɛlɛma.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Minɛn wɛrɛ si tun ma don. Sisan i ka gundodaɲɛ yɛlɛma.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>I ni ce. Ko kɛra in tagamasiyɛnna ko i ta don.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>O ko kɛra in mago tɛ jaabi la.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Ɲɛ waati tun tɛmɛna. Foyi ma yɛlɛma; hakɛto, i ka a lajɛ kokura.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>I ka konti lakana</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Ni fɛn dɔ yan ma kɛ i ye, i ka minɛn wɛrɛw bɛɛ bɔ, o kɔ i ka gundodaɲɛ kura sugandi. Minɛn minnu tora don ni «N hakili to» ye, olu fana bɛ bɔ.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Minɛn bɛɛ bɛ bɔ a ka ɲinini nata la, ni nin kelen tɛ. O kɔ i bɛ gundodaɲɛ kura sugandi.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Ɔwɔ, minɛn tɔw bɔ</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>I tun don wa?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Ɔwɔ, ne tun don</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Ayi, ne ka konti lakana</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>A donna</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Donni cɛsiri min ma ɲɛ</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>A bɔra</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Sesiyɔnw bɔra</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Donni ka bɔ minɛn kura la</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Donni ka bɔ yɔrɔ kura la</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Mɔgɔya sɛmɛntiyara («I yɛrɛ sɔn»)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Mɔgɔya lajɛli ma ɲɛ</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>A donna ni donni kile ye</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Donni ni donni kile ye ma ɲɛ</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Donni banna: sen fila kode tɛ yen walima a ma ɲɛ</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Sen fila kode filanen</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Konti datugura donni minnu ma ɲɛ olu kɔ</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Konti dayɛlɛra</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Gundodaɲɛ yɛlɛmana</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Gundodaɲɛ yɛlɛmali ma ɲɛ</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Gundodaɲɛ labɛnna kokura</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Gundodaɲɛ kura ɲinina</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Imɛli adiresi yɛlɛmana</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Baarakɛla tɔgɔ yɛlɛmana</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Donni sen fila la bɛ baara la</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Donni sen fila la bɔra baara la</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Lasegin kode kɛra baara la</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Lasegin kode kuraw</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Aplikasiyɔn gundodaɲɛ dilanna</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Aplikasiyɔn gundodaɲɛ bɔra baara la</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Donni kile farala a kan</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Donni kile bɔsira</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Konti bilara baara la</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Konti bɔra baara la</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Bɛɛ</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Donniw ani sesiyɔnw</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Konti yɛlɛmaliw</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>A mago bɛ janto la</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Lakana kɛwalew</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>%name ka lakana kɛwalew</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Donniw ani yɛlɛmaliw i ka konti lakanali la. Ni i ye fɛn dɔ ye i ma min kɛ, i ka gundodaɲɛ yɛlɛma ani ka minɛn minnu i t&apos;u dɔn, olu bɔ.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>I ka minɛnw</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Gundodaɲɛ yɛlɛma</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>Lakana kɛwalew tɛ sɛbɛn nin siti in kan fɔlɔ.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Donniw don %days labanw kɔnɔ</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Cɛsiri minnu ma ɲɛ</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Lakana kɛwale si ma sɛbɛn fɔlɔ.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>N ka donni kunnafoniw lajigin</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>I ka sesiyɔnw ani i ka lakana kɛwalew i n&apos;a fɔ JSON fisiye.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Sesiyɔnw tɛ sɛbɛn nin siti in kan, o de kosɔn minɛn wɛrɛ si ma se ka bɔ. Sisan i ka gundodaɲɛ yɛlɛma.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>Sesiyɔn wɛrɛ %count bɔra. Sisan i ka gundodaɲɛ yɛlɛma.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Minɛn wɛrɛ si tun ma don. Sisan i ka gundodaɲɛ yɛlɛma.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>I ni ce. Ko kɛra in tagamasiyɛnna ko i ta don.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>O ko kɛra in mago tɛ jaabi la.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Ɲɛ waati tun tɛmɛna. Foyi ma yɛlɛma; hakɛto, i ka a lajɛ kokura.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>I ka konti lakana</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Ni fɛn dɔ yan ma kɛ i ye, i ka minɛn wɛrɛw bɛɛ bɔ, o kɔ i ka gundodaɲɛ kura sugandi. Minɛn minnu tora don ni «N hakili to» ye, olu fana bɛ bɔ.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Minɛn bɛɛ bɛ bɔ a ka ɲinini nata la, ni nin kelen tɛ. O kɔ i bɛ gundodaɲɛ kura sugandi.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Ɔwɔ, minɛn tɔw bɔ</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>I tun don wa?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Ɔwɔ, ne tun don</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Ayi, ne ka konti lakana</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>Gundodaɲɛ</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>Gundodaɲɛ ani sen fila kode</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>REST ɲɔgɔndanbaga</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>SOAP ɲɔgɔndanbaga</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>Donni kelen (single sign-on)</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>A donna sanni sesiyɔnw ka daminɛ ka sɛbɛn</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Donni jatebɔsɛbɛn</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>Minnu donnen bɛ siti kɔnɔ, kontiw bɛ don ani u bɛ tiɲɛ siɲɛ joli, ani baarakɛla dɔ bɔli yɔrɔ bɛɛ. A bɛ baara kɛ ni sesiyɔn ɲɛnabɔbaga bɛɛ ye.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>Sesiyɔn bɔra. Minɛn ka kan ka don kokura.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>%login bɔra sesiyɔn %count kɔnɔ.</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>Sesiyɔn si tun tɛ taa la %login fɛ.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>Konti si tɛ min ka ID, baarakɛla tɔgɔ walima imɛli adiresi ye o ye.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>Nin ye sesiyɔn ye i bɛ baara kɛ ni min ye. Walasa k&apos;a laban, i ka bɔ.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>O sesiyɔn tun banna kaban.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Ɲɛ waati tun tɛmɛna. Foyi ma yɛlɛma; hakɛto, i ka a lajɛ kokura.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>Sesiyɔnw tɛ sɛbɛn nin siti in kan (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>Tabali expuser_session tɛ yen</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>Sesiyɔnw bɛna sɛbɛn n&apos;a dilanna: php update/common/scripts/6.0/createusersessiontable.php, walima 6.0.15 ka bɛɛjɛfanba kuraya.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>Sisan ani bi</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>Sesiyɔn minnu bɛ taa la</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>Baarakɛla donnenw</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>Bi donniw</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>Bi cɛsiri minnu ma ɲɛ</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>Baarakɛla dɔ bɔ yɔrɔ bɛɛ</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>Konti ka sesiyɔn bɛɛ bɛ ban a ka ɲinini nata la, «N hakili to» ye minnu mara, olu fana. A kɛ ni konti dɔ bɛ se ka kɛ bolo jugu la; o kɔ a ka gundodaɲɛ labɛn kokura.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>Baarakɛla ID, baarakɛla tɔgɔ walima imɛli adiresi</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>Yɔrɔ bɛɛ bɔ</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>A donnen bɛ sisan</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>%limit minnu kɛra baara la laban na, olu jiranen don.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Baarakɛla</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Minɛn</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adiresi</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>A donna</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>Baara laban waati</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Walew</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>Nin minɛn in</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>A ma sɛbɛn</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>Bɔ</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>Sesiyɔn si donnen tɛ.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Don %days labanw</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>Donniw ani cɛsiri minnu ma ɲɛ, olu bɛ jate ka bɔ baarakɛlaw sɛgɛsɛgɛli sɛbɛn na, min tɛ yen; sesiyɔn kuraw bɛ jate.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>Don</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>Donniw</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Cɛsiri minnu ma ɲɛ</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>Sesiyɔn kuraw</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>Sesiyɔn ɲɛnabɔbaga: %handler. Sesiyɔnw bɛ kalan ka bɔ tabali expuser_session na, o de kosɔn jatebɔsɛbɛn bɛ baara kɛ ni ɲɛnabɔbaga bɛɛ ye.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>Kɛwale sigiyamaw lɛrɛ %hours laban kɔnɔ</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>Rezo kelen ma se ka don konti %accounts la (cɛsiri %count)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Konti datugura donni minnu ma ɲɛ kɔfɛ</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>Donni %count minnu ma ɲɛ konti kelen kan</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>Donna ka bɔ jamana %count la waati kelen na</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Lakana kɛwalew</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Sesiyɔnw</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>Donni minnu ma ɲɛ, olu bɛ kalan ka bɔ baarakɛla sɛgɛsɛgɛli sɛbɛn kɔnɔ, o tɛ sɔrɔ yan.</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>Foyi sigiyama tɛ: konti si tɛ min donni ma ɲɛ siɲɛ caman, rezo si tɛ konti caman lajɛ la, konti si ma don ka bɔ jamana caman na.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>Lakana lasɔmini i ka konti ko la</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>Lakana kɛwale dɔ kɛra i ka konti %login kan: %event. Ni e tun tɛ, i ka konti lakana %url la.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Labɛnni</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>Nin siti kɔnɔkow ɲininka yɔrɔ minnu ɲɛ bɛ mago don o dɔrɔn na, ɲininkali kelen kɔnɔ. Sigicogo bɛ kɔnɔko kuluw tugu; ɲininkali bɛɛ bɛ boli ni a cibaga ka sariyaw ye.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>GraphQL API sogolen don nin siti donda in na. A yɛlɛ graphql.ini kɔnɔ: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>GraphQL gafebon (webonyx/graphql-php 15) ma sigi.</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>Donda yɔrɔ</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>Gafebon</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>Sigicogo</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>Kɔnɔko kulu %count, sigicogo %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>Ɲininkali</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>Yɛlɛmatɔw (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Boli</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>Jaabi</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>A bɛ boli…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>Jaabi ma se ka kalan.</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>Ɲininkali bɛ boli ni i ka sariyaw ye, i donnen nin sesɔn in na.</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%count segonda %seconds kɔnɔ</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>dan si tɛ</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>Dunya</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>Gɛlɛya</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>Fɛnw lisi kelen-kelen na</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (a sigilen %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>Delili baarakɛla walima kile kelen-kelen na</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>Delili adrɛsi tɔgɔntan kelen-kelen na</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>Introspection</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>Ɲininkali maralenw dɔrɔn</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>Ɲininkali belebeleba</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>bayiti %bytes</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>Doncogo belebeleba</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>Siti donda %siteaccess tɛ yen.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>Mutation yɛlɛla %siteaccess kɔnɔ.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>Mutation sogola %siteaccess kɔnɔ.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>GraphQL API yɛlɛla %siteaccess kɔnɔ.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>GraphQL API sogola %siteaccess kɔnɔ.</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>Labɛnw ma se ka sɛbɛn: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>Jaabi cache saniyara: jaabi %count bɔra.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>Ɲininkali kɛrɛfɛ bɔgɔsɔrɔ taamasiyɛn walasa ka a bɔ.</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>Ɲininkali ma se ka bɔ: ɲininkali min nana PersistedQueryDirectoryList[] ka dosiye dɔ kɔnɔ, o bɛ bɔ ni a ka gafe ye.</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>Ɲininkali maralen bɔra.</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>Mutation</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>yɛlɛlen</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>sogolen</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Siti dondaw</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>Yɔrɔ minnu na API ni a ka mutation bɛ jaabi di. Butɔnw bɛ graphql.ini sɛbɛn, i n'a fɔ ./console exp:graphql:enable ani exp:graphql:disable b'a kɛ cogo min na.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siti donda</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>GraphQL API</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Yɛlɛma</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>A sogo</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>Mutation sogolen</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>Mutation yɛlɛlen</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>A yɛlɛ</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>Danw</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>Nin siti donda in ka graphql.ini [GraphQLSettings].</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>Jaabi cache</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>Ɲininkali maralenw ka jaabiw, minnu bɛ mara ka kɛɲɛ ni baarakɛla ka sariyaw ye, ka u waati ban tuma o tuma kɔnɔko bɛ bɔ kɛnɛ kan.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Cogoya</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>Jaabi maralenw</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>Jaabi %count, bayiti %bytes</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>A maralen bɛ mɛn a ka ca la</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds s</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>Waati banni laban</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>Jaabi cache saniya</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>Ɲininkali maralenw</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>U marala ni ./console exp:graphql:persist ye, walima kiliyanw fɛ (ɲininkali maralen yɛrɛma); u bɛ wele ni tɔgɔ walima SHA-256 ye.</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>Tɔgɔw</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Bonya</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Yɔrɔ</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>A bɔ</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>nalen</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>maralen</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>Ɔwɔ, nin ɲininkali bɔ</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>Ɲininkali maralen si tɛ yen fɔlɔ.</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>API kilew</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>Mɔgɔ yɛrɛ ka API kilew ni scope graphql:read (ɲininkaliw) walima graphql:write (mutation) ye. U dilan ani ka u bɔ baara la API donda ɲɛ kan, walima ni ./console exp:graphql:keys ye.</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>API donda</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>Kilew bɛɛ</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>Kile</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Tɔgɔ</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Tigi</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>Scope</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>Baara laban</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>baara la</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>waati tɛmɛna</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>bɔra baara la</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>abada</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>API kile si tɛ yen fɔlɔ min bɛ ni GraphQL scope ye.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>GraphQL API sogolen don siti donda %siteaccess kɔnɔ, min bɛ nin ɲɛ in jira; jiralan min bɛ duguma, o b'a jira a bɛ jaabi di yɔrɔ minnu na.</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>Siti donda %siteaccess kama, min bɛ nin ɲɛ in jira.</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>Webhookw</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>Ko o ko donda yɔrɔ bɛ min ɲini (publish, update, trash, delete, move, hide, reveal, mutation), cronjob yɔrɔ graphqlwebhooks b'a ci a ma, a bolonɔbilalen. ./console exp:graphql:webhooks bɛ fɛn kelen kɛ ni nin yɔrɔ ye.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Kow</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>a bɛɛ</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Siti donda bɛɛ</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>a tiɲɛna</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>gundo tɛ</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>A bɛ makɔnɔni na</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count bilala</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>Cili laban</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Kɔrɔbɔli ci</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>Ɔwɔ, nin webhook bɔ</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>Webhook si tɛ yen fɔlɔ.</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>Webhook fara a kan</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>A fara a kan</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>Cili kuraw</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Waati</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Jaabi</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>Subscription</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>Kibaru kuraw sanga in na kiliyanw ye: kow woyo /api/graphql/subscribe la, ani WebSocket (graphql-transport-ws) Velocity kan. Ko o ko bɛ taa dɔrɔn subscriber minnu bɛ se k'a kɔnɔkow kalan.</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>Dayɛlɛlen sisan</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>Dayɛlɛlen caman bɛɛ la</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>%total a bɛɛ la, %user baarakɛla kelen o kelen ye, %address adirɛsi kelen o kelen ye</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>Subscription tɔgɔbali</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>Woyo janya</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>Webhook ma se ka fara a kan: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>Webhook %name yɛlɛmana; a bolonɔbila gundo bɛ to.</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>Bolonɔbila gundo ma se ka mara (Labɛnni &gt; Gundow).</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>Webhook %name farala a kan. A bolonɔbila gundo, min bɛ jira nin siɲɛ in dɔrɔn: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>Webhook %name tɛ yen.</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>Webhook %name ma jaabi: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>Webhook %name ye %status jaabi %ms ms kɔnɔ.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>Webhook kɛrɛfɛ bɔgɔsɔrɔ taamasiyɛn walasa ka a bɔ.</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>Webhook %name bɔra.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>GraphQL API sogolen don nin siti donda in na.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>GraphQL gafebon ma sigi.</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>GET walima POST baara.</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>Delili farikolo tɛ JSON fɛn ye.</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables tɛ JSON fɛn ye.</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions tɛ JSON fɛn ye.</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>Ɲininkali ci ni POST ye.</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>Ɲininkali si tɛ delili in na.</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>Ɲininkali ka jan ni bayiti %max ye.</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>Sɛriwɛri kɔnɔna fili</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node mago bɛ kelen dɔrɔn na id, remoteId, path ani urlAlias cɛ.</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content mago bɛ kelen dɔrɔn na id ani remoteId cɛ.</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>after ka kursɔri tɛ API in ye min di.</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>Ja tɔgɔ wɛrɛ %alias tɛ yen (image.ini [AliasSettings] AliasList[]).</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>Ɲininkali minnu maralen don sɛriwɛri kan, olu dɔrɔn de bɛ minɛ yan: ɲininkali maralen ka id ci.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>Ɲininkali maralen ka hash tɛ SHA-256 ye.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>Ɲininkali maralen ka hash ni ɲininkali tɛ bɛn.</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>Delili ka ca kojugu: %limit dɔrɔn segonda %window kɔnɔ. A lajɛ tugun segonda %reset kɔfɛ.</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>Ɲininkali dunya ye hakɛ %depth ye; %max dɔrɔn de bɛ sɔn.</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>Ɲininkali gɛlɛya ye %complexity ye; %max dɔrɔn de bɛ sɔn.</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>Delili in tɛ se ka sigicogo kalan (introspection).</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search mago bɛ sɛbɛn walima sɔgɔli na (classes, subtree, sections, publishedAfter, publishedBefore).</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument tɛ don ye (ISO 8601, 2026-10-30).</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag mago bɛ kelen dɔrɔn na id, remoteId ani path cɛ.</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout mago bɛ kelen dɔrɔn na id, identifier ani urlAlias cɛ.</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>multipart delili ka yɔrɔ operations tɛ JSON delili kelen ye.</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>multipart delili ka yɔrɔ map tɛ JSON fɛn ye.</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>Gafe %field tɛ multipart delili in na.</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>Yɔrɔ map ka sira kelen-kelen bɛɛ ka kan ka daminɛ ni variables. ye: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>Gafe %name ma se dafalen ye (doncogo fili %error).</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>Gafe %name ka bon ni bayiti %max ye.</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>Gafe %name ma se ka lajɛ.</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>Mutation sogolen don nin siti donda in na (graphql.ini [GraphQLSettings] MutationsEnabled).</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>Mutation ci ni POST ye.</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>Don walasa ka kɔnɔkow yɛlɛma.</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>API kile in tɛ ni scope %scope ye.</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>Mutation min bɛ ni sesɔn ye, o mago bɛ sesɔn ka formu taamasiyɛn na (header X-CSRF-Token).</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>uploadFromUrl sogolen don: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] tɛ hosti si tɔgɔ fɔ.</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>Adrɛsi ka kan ka kɛ https adrɛsi ye.</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>Hosti %host tɛ graphql.ini [GraphQLSettings] UploadFromUrlHostList[] kɔnɔ.</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>Gafe ma se ka ta.</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload ye donko suguya dɔrɔn de ye.</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>Yɛlɛmatɔ min suguya ye Upload ye, o bɛ multipart delili ka gafe ta.</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>remote id %remoteId tara ka ban.</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>Kɔnɔko in bayɛlɛmali bɛ yen %language kɔnɔ ka ban: updateContent baara.</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>Yɔrɔ kelen di a dɔgɔyalen na.</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>Bɔko kura ma se ka dilan (kɔnɔko in sɛbɛn ɲɛnajɛlenw ka ca kojugu).</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>Bɔko %version tɛ sɛbɛn ɲɛnajɛlen ye.</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent mago bɛ kelen dɔrɔn na id ani nodeId cɛ.</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>Yɔrɔ tɛ se ka bila a yɛrɛ jukɔrɔ.</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>Kɔnɔko in yɔrɔ bɛ %parentId jukɔrɔ ka ban.</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>Yɔrɔ %field nafa ma se ka mara.</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>Kɔnɔko kan %language tɛ yen.</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>Kɔnɔko kulu %class tɛ sigicogo kɔnɔ.</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>Kɔnɔko in tɛ yen, walima i tɛ se ka a kalan.</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>I tɛ se ka nin kɛ nin kɔnɔko in na.</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>Kulu %class tɛ ni yɔrɔ %field ye min bɛ se ka sɛbɛn.</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>Yɔrɔ %field dira siɲɛ fila.</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>Yɔrɔ %field bɛ gafe ta: a ci ka kɛ upload ye (multipart delili).</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>Yɔrɔ %field tɛ gafe ta.</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>Yɔrɔ %field mago bɛ nafa na.</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>Cogoya %format ye sɛbɛn nafama yɔrɔw dɔrɔn de ta ye; %field bɛ a nafa ta i n'a fɔ a bɛ cogo min na (RAW).</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>Yɔrɔ %field wajibi don.</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>HTML ma se ka kalan.</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content bɛ version ta ni id dɔrɔn ye.</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>Ɲɛfɛlajɛ taamasiyɛn tɛ bɛn walima a waati tɛmɛna.</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>Nin tɛ bɔyɔrɔ ye (https://host walima https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>Nin tɛ GraphQL API ka scope ye: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>Subscription ci /api/graphql/subscribe ma (kow woyo walima WebSocket).</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>Delili ma sɛbɛn in baara si tɔgɔ fɔ.</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>Subscription bɛ yɔrɔ kelen dɔrɔn ɲini.</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>Subscription caman kojugu dayɛlɛlen don; a lajɛ tugun kɔfɛ.</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>Subscription %max dayɛlɛlen bɛ i fɛ, o ye dancɛ ye.</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>Subscription %max dayɛlɛlen bɛ i ka adirɛsi la, o ye dancɛ ye.</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>Subscription sogolen don nin siti donda in na.</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>Don walasa ka subscription kɛ (token walima i yɛrɛ ka API kili).</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>Mutation ci /api/graphql ma.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>Yɔrɔyɛlɛmaw</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Hali ma se ka kalan: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Yɔrɔyɛlɛmaw ka tabaliw tɛ yen fɔlɔ: ./console exp:upgrade --apply b&apos;u dilan.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>Yɔrɔyɛlɛma %count ma ɲɛ</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>Waleya dɔ bɛ taa, %user de y&apos;a daminɛ</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>Sigili datugulen don: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>A bɛ makɔnɔni na</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>A ma ɲɛ</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>Falentɔw</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Waleya laban</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>foyi fɔlɔ</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>Yɔrɔyɛlɛmaw bɛɛ</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>Waleya ladegelen</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>Kɔrɔbɔli waleya</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>Yɔrɔyɛlɛma makɔnɔlenw kɛra jago dɔ kɔnɔ min seginna kɔ o kɔfɛ: foyi ma mara. Duguma, u kelen-kelen bɛɛ ye min yɛlɛma kunnafoniso kɔnɔ.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>Waleya bɛna min kɛ sisan. Foyi tɛ yɛlɛma: yɔrɔyɛlɛma makɔnɔlen kelen-kelen bɛɛ b&apos;a ka yɛlɛmaliw sɛbɛn, waleya fana b&apos;a sɛbɛn a bɛna min kɛ ka kɔn ani o kɔfɛ.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>Ladege</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>A waleya</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>Kɔrɔbɔli waleya ma ɲɛ: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>Ladegeli mago bɛ PostgreSQL walima SQLite la, minnu ka schéma yɛlɛmaliw bɛ se ka segin kɔ; kunnafoniso nin kan, duguma labɛn ye waleya bɛna min kɛ ye.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>Yɔrɔyɛlɛmaw</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>Yɔrɔyɛlɛma</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Cogoya</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>A bɛna min kɛ</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>Ladegeli: %result milisekondi %ms kɔnɔ</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>Yɔrɔyɛlɛma si tɛ yen fɔlɔ.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>Waleya ɲɛ ani a kɔfɛ</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>Ja fɔlɔ</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>a bɛ ta, ka segin a la ni yɔrɔyɛlɛma dɔ ma ɲɛ</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>a datugulen</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>Ja laban</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>a bɛ ta ni waleya ɲɛna</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>Yɔrɔyɛlɛma %total: %pending makɔnɔlen, %done banna, %failed ma ɲɛ.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>Yɔrɔyɛlɛmaw tariku</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>Waleya kelen-kelen bɛɛ n&apos;a baarakɛla, a baarayɔrɔ, a jaw ani min marara, taamasiyɛn donna min na ani min cira. Waleya min ma ɲɛ walima min tigɛra, o bɛ se ka taa a fɛ; waleya min ja tara a ɲɛ, o bɛ se ka segin kɔ.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>Waleyaw ma se ka kalan: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Yɔrɔyɛlɛmaw ka tabaliw tɛ yen fɔlɔ: ./console exp:upgrade --apply b&apos;u dilan.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Jira</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Bɛɛ</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>Waleyaw</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Daminɛna</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Min ye</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>Jaw</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Marayɔrɔ</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Walew</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>ka kɔn</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>o kɔfɛ</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>cili: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>Taa a fɛ</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Segin kɔ</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>Waleya si tɛ cogoya nin na.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>Daminɛna yan</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>Waleyaw, tɛmɛliw ani seginliw minnu daminɛna nin ɲɛw kan, u kelen-kelen bɛɛ ka rapɔrɔ.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Mun</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Jaabi</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Segin kɔ</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>%target segin kɔ</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>Waleya %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Waleya ye min kɛ, a sɛbɛnni ani a jurunali. Waleya min daminɛna yan, o bɛ taa a fɛ kɔfɛ ni ɲɛ nin datugura; ɲɛ in da wuli tugun walasa k&apos;a nɔfɛ.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>Taa waleya nin fɛ</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>Waleya nin segin kɔ</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>Sɛbɛnni ma se ka kalan: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Ɲɛtaa</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>%user de y&apos;a daminɛ %time.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>Kode bɛ sɛgɛsɛgɛ ani ja bɛ ta waleya ɲɛ</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>%id bɛ waleya (%index %total la)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>%done banna %total la</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>Yɔrɔyɛlɛmaw waleyara; ja bɛ segin ni kelen ma ɲɛ</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>Ja bɛ ta waleya kɔfɛ, ka mara, ka taamasiyɛn don ani ka ci</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>Ja bɛ segin</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>Waleya banna. A ka rapɔrɔ bɛ doni.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>Ɲɛtaa ma se ka nɔfɛ. Ɲɛ in doni tugun walasa ka waleya cogoya ye.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>Ɲɛ nin bɛ waleya nɔfɛ a taa tuma.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Doni tugun</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Rapɔrɔ</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Mɛnni</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>milisekondi %ms</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>Waleya ye min jira fili ye</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Sɛbɛnni</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>Baarayɔrɔ</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>foyi</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Banna</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Mara</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Taamasiyɛn</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Ci</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Cikan</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>Waleya nin ka yɔrɔyɛlɛmaw</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>Sorodasi</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>Waleya jurunali</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>Jurunali laban dɔrɔn de bɛ jira.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>a bɛ waleya</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>a banna rapɔrɔ tɛ</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>a ɲɛna</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>a ma ɲɛ</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>a ma sɔn</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>kunnafoniso tun tɛ se ka sɔrɔ</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>kɔnɔ fili</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>Waleya dɔ bɛ taa</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind daminɛna %user fɛ %time.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>A nɔfɛ</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>Sigili datugulen don</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>Waleya wɛrɛ de bɛ datugulan minɛ (yiriwali walima waleya konsoli kan): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>a banna</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>a bɛ makɔnɔni na</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>a mago tɛ</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>a tɛ dɔn</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>a seginna kɔ</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>a waleyara</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>a tun bɛna waleya</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>a seginna</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>a tun bɛna segin</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>a ma waleya</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>a bɛ wɛrɛ makɔnɔ</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>yɛlɛmali sɔnna</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>yɛlɛmali tun bɛna sɔn</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>a ladegera</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Yɔrɔyɛlɛmaw</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Hali</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Tariku</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>%target segin</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>Waleya bɛ segin a ɲɛ ja min tara o la, yɔrɔyɛlɛma kelen bɛ segin n&apos;a ka down() ye. Ja kɔrɔ dɔ seginni ye dɔnnikɛlaw ta ye. U kelen-kelen bɛɛ bɛ waleya kɔfɛ i tɔgɔ la, sisan cogoya ja tali kɔfɛ.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>Min bɛ se ka segin, o ma se ka kalan: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>Waleya dɔ</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>Yɔrɔyɛlɛma kelen</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>Ja kɔrɔ dɔ</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>Ɲɛfɔli</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ɔwɔ</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ayi</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Ja</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Tɔgɔ</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>Tara</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Suguya</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>Yɔrɔ minnu ka kan ka segin</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>Kunnafoniso</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>Dosiye maralenw (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>Labɛnw (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>Kunnafoniso seginni b&apos;a segin ja waati ma, sesiyɔnw fana: a bɛ se ka kɛ i ka ɲini ka don tugun o kɔfɛ. Fɛn o fɛn yɛlɛmana kabini o waati, o bɛ tunu; sisan cogoya ja bɛ ta fɔlɔ.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>N b&apos;a dɔn nin bɛ min segin</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>Ja nimɔrɔ sɛbɛn tugun</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>Ɔwɔ, a segin</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Dabila</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>Waleya minnu ja tara u ɲɛ.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>Sugandi</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>Waleya si tɛ yen ja bɛ min fɛ fɔlɔ.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>Yɔrɔyɛlɛma waleyalen minnu bɛ se k&apos;u yɛrɛ segin (down() b&apos;u fɛ).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>Yɔrɔyɛlɛma waleyalen si tɛ down() sɔrɔ.</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>Ja kɔrɔw (dɔnnikɛlaw)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>Ja si tɛ yen fɔlɔ.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>Yɔrɔyɛlɛmaw waleya</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>Waleya bɛ taa kɔfɛ i n&apos;a fɔ %user, a ka ɲɛ b&apos;a jira a taa tuma. Yɔrɔyɛlɛma fɔlɔ ɲɛ, sigili ja bɛ ta; ni yɔrɔyɛlɛma dɔ ma ɲɛ, waleya bɛ jɔ ani ja bɛ segin.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>Kɔrɔbɔli waleya fɔlɔ</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Hali ma se ka kalan: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>Yɔrɔyɛlɛma makɔnɔlenw</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>U bɛ waleya nin bolodacogo la. Kelen taamasiyɛn bɔ walasa k&apos;o ani minnu mago b&apos;a la to waleya nata kama.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>A waleya</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>A bɛ ladonni cogoya daminɛ a waleya tuma.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>U yɛlɛmana u waleyali kɔfɛ</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>Nin dosiyew tɛ minnu waleyara. Waleya b&apos;u ban ni yɛlɛmali ma sɔn ni sababu ye; u tɛ waleya tugun, checksum kura bɛ sɛbɛn ani sababu bɛ mara sɛgɛsɛgɛli jurunali kɔnɔ.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>Sɔn yɛlɛmaliw ma</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Mun na</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>Labɛn fɔlɔw de lakananen don. Kɛsu kelen-kelen bɛɛ bɛ taabolo kelen to.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>Ja tɛ</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>Ja tɛ waleya ɲɛ ani a kɔfɛ: ni a ma ɲɛ, a tɛ se ka segin a yɛrɛ ma.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>Seginni tɛ</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>Ni a ma ɲɛ, sigili to i n&apos;a fɔ dɛsɛ y&apos;a to cogo min na.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>Yɛlɛmali minnu ma mara, olu mara</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>A waleya hali ni labɛnw, jɛnsɛnniw walima desɛnw ka yɛlɛmali dɔw ma mara; u bɛ don ja kɔnɔ.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>Marali tɛ</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>Hali dosiye ani waleya jurunali kana mara (taamasiyɛn ni cili fana tɛ).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>Cili tɛ</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>A mara ani taamasiyɛn don a la, nka kana a ci.</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>Taamasiyɛn tɛ</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>A mara ani a ci, nka kana taamasiyɛn don waleya la.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>Ɔwɔ, nin yɔrɔyɛlɛmaw waleya sisan</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Yɔrɔyɛlɛma si tɛ makɔnɔni na.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>Segin hali ma</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>Sigili nin yɛlɛmaliw, minnu sɛbɛnna siɲɛ kelen ka kɛ dosiyew ye (kɔnɔkow, kulu, jɔyɔrɔw, labɛnw, schéma) ani minnu bɛ waleya site ka sigili bɛɛ kan bolodacogo kelen na. Waleya bɛ ja ta fɔlɔ, k&apos;a segin ni yɔrɔyɛlɛma dɔ ma ɲɛ, ka a ye min kɛ sɛbɛn, k&apos;a mara ani k&apos;a ci.</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>Makɔnɔlen %count waleya</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Lajɛ kunba</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>A bɛ makɔnɔni na</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>A banna</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>A ma ɲɛ</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>A mago tɛ</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>Kunnafoniso</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>jagow: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>Site ka yɔrɔyɛlɛmaw bɛ migrations/ kɔnɔ, jɛnsɛnni ta bɛ extension/&lt;name&gt;/migrations/ kɔnɔ. U bɛ waleya u tɔgɔw bolodacogo ani u mago bɛ min na o la.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Waleya laban</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>Dosiye yɛlɛmana a waleyali kɔfɛ.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>Yɔrɔyɛlɛma si tɛ yen fɔlɔ. ./console exp:migration:generate --skeleton &lt;name&gt; --apply bɛ fɔlɔ sɛbɛn.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>Waleya labanw</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>Waleyaw bɛɛ</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>Waleya si tɛ yen fɔlɔ.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>Waleya ladegeli mago bɛ migration/run sariya la.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>Waleya dɔ bɛ taa: a ladege ni a banna.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Labɛnni</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target tɛ sigili nin ka waleya ye, a tɛ yɔrɔyɛlɛma ye, a tɛ ja ye.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>Taamasiyɛn don &quot;Ɔwɔ, a segin&quot; la fɔlɔ.</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>Ja kɔrɔ seginni ye dɔnnikɛlaw ta ye: taamasiyɛn don &quot;N b&apos;a dɔn nin bɛ min segin&quot; la.</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>Ja nimɔrɔ sɛbɛn tugun: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>Yɔrɔ kelen walima caman sugandi ka segin.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>Ja ma ta waleya nin ɲɛ: a ka yɔrɔyɛlɛmaw segin kelen-kelen, walima ja kɔrɔ dɔ segin.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>Nin yɔrɔyɛlɛma tɛ se k&apos;a yɛrɛ segin: a ma waleya, walima down() t&apos;a fɛ.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Formilɛri ma se ka kalan.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>Waleya sugandi min ka kan ka taa a fɛ.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>Taamasiyɛn don &quot;Ɔwɔ, nin yɔrɔyɛlɛmaw waleya sisan&quot; la fɔlɔ.</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>Yɔrɔyɛlɛma kelen walima caman sugandi.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>Yɔrɔyɛlɛma dɔ yɛlɛmana a waleyali kɔfɛ: sɔn yɛlɛmali ma ni sababu ye, walima dosiye segin a nɔ na.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>Sababu fɔ min na yɔrɔyɛlɛma yɛlɛmalenw sɔnna.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>Sababu tɛ se ka tɛmɛ sɛbɛnsun 500 kan.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>Waleya min daminɛna yan, o bɛ taa hali bi (%detail). A makɔnɔ fo a ka ban.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>Waleya wɛrɛ de bɛ sigili datugulan minɛ: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>Waleya mago bɛ baarakɛla donnen dɔ la min bɛ yen.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>php ci sira porogaramu si ma sɔrɔ. migration.ini [AdminSettings] PhpCliPath labɛn a sira dafalen na.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open datugulen don, o de kosɔn waleya tɛ se ka daminɛ yan. ./console exp:migration:migrate --apply waleya sɛriwɛri kan.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>Waleyaw ka kalasɛri tɛ se ka sɛbɛn: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>Waleya daminɛna nka a ma a ka porosɛsi nimɔrɔ fɔ. %detail lajɛ.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>Min ka kan ka segin, o tɔgɔ fɔ.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>Waleya ma se ka daminɛ.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>Yɛlɛmaw sɛbɛnni</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>Sɛbɛnni bɛ taa tuma min na, i bɛ min yɛlɛma ɲɛmɔgɔya la walima siti in kɛrɛfɛ bara kan, o bɛ mara i n'a fɔ taali sen dɔw: kɔnɔnafɛnw, kilasiw, baaraw ani sariyaw, yɔrɔw, baarakɛlaw ani jɛkuluw, URL tɔgɔ wɛrɛw, labɛnw. A jɔ n'i banna, a lajɛ a ye min minɛ, ka taali dilan o la.</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>Sɛbɛnniw ma se ka kalan: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>Sɛbɛnniw ka tabaliw tɛ yen fɔlɔ: i ka kurayali kɛ fɔlɔ (exp:upgrade --apply).</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>Sɛbɛnni datugura migration.ini kɔnɔ ([RecordingSettings] Recording=disabled).</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>N ka yɛlɛmaw</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>A bɛ i yɛrɛ ka yɛlɛmaw dɔrɔn sɛbɛn, i y'a yɛlɛma yɔrɔ o yɔrɔ, fo i k'a jɔ.</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>Sɛbɛnni</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>kabini %time, yɛlɛma %count fo sisan.</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>Taamasyɛn (n'i b'a fɛ)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>A ye min minɛ, o jira</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Sɛbɛnni jɔ</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>N ka yɛlɛmaw sɛbɛnni daminɛ</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>Siti bɛɛ ka finɛtiri</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>A bɛ baarakɛla bɛɛ ni konsɔli ka yɛlɛma bɛɛ sɛbɛn fo a ka datugu. N'i b'a da wuli, u b'a ɲini i fɛ i k'a sɛmɛntiya ko e don.</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>A dayɛlɛlen</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>Finɛtiri datugu</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>Siti bɛɛ ka finɛtiri da wuli</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>Sɛbɛnniw</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>Baarakɛla ka jatebɔsɛbɛn (donni tɔgɔ, imɛri, gundo daɲɛ) ani baarakɛlaw ka jatebɔsɛbɛnw ka yɔrɔw tɛ sɛbɛn abada.</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Yɛlɛmaw</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>Siti bɛɛ</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>%name ka yɛlɛmaw</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>A jɔra</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>Sɛbɛnni si tɛ yen fɔlɔ.</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>Sɛbɛnni %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>Sɛbɛnni bɛɛ</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>Taali min bɛna bɔ a la</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>Yɛlɛmaw ladalen taamasen kelen kɔnɔ fɛn o fɛn yɛlɛmana: taali min dilanna nin sɛbɛnni in na, o tun bɛna min kɛ.</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>Taali bɛ se ka dilan a la ni nin sigili in sɔrɔla YAML taamasen suguyaw %types.</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>A tora kɛnɛma ni laɲini ye: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>Foyi ma sɛbɛn.</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>A ye min minɛ</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>Yɛlɛma %count, u kɛra cogo min na.</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Yɛlɛma</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>Taamasen</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>A ɲɛsinnen</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>%count wɛrɛw: ./console exp:migration:record:show b'u bɛɛ yira.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Fili</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>A bɛ sɛbɛnni ni a ye min minɛ bɔ yen. Min yɛlɛmana, o bɛ to yɛlɛmanen.</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>Ɔwɔ, nin sɛbɛnni in fili</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>A bɛ sɛbɛnni kɛ…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>I ka yɛlɛmaw bɛ sɛbɛn taali dɔ kosɔn.</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>Nin siti in kan yɛlɛma bɛɛ bɛ sɛbɛn taali dɔ kosɔn (siti bɛɛ ka finɛtiri).</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>Siti bɛɛ ka sɛbɛnni daminɛna: baarakɛla bɛɛ ka yɛlɛma bɛɛ bɛna sɛbɛn fo i k'a jɔ.</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>Sɛbɛnni daminɛna: i ka yɛlɛmaw bɛna sɛbɛn fo i k'a jɔ.</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>Sɛbɛnni jɔra. A ye min minɛ, o bɛna to fo i k'a fili.</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>Sɛbɛnni ni a ka kow bɔra yen.</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>Sɛbɛnni %id tɛ yen.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>I ka "Ɔwɔ, nin sɛbɛnni in fili" taamasyɛn fɔlɔ.</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>Baarakɛla min ye sɛbɛnni kɛ, o dɔrɔn de bɛ se ka sesɔn sɛbɛnni jɔ.</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>Sɛbɛnni min ka kan ka jɔ, o sugandi.</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>Nin suguya sɛbɛnni bɛ taa fɔlɔ.</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>Sɛbɛnni ma se ka yɛlɛma: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>Migration dilan</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>Migration tɔgɔ (i sago)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>Migration %file sɛbɛnna. Yɛlɛmali minnu tɛ se ka kɛ taabolo si fɛ, olu tɔgɔ bɛ fili sanfɛ, k'u kɛ ni bolo ye.</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>Migration si ma sɛbɛn: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>Baara jan min tilalen bɛ cɛ</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>Yɔrɔ lankolonnen na migration.ini [RunSettings] sigidaw lakana.</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>Migrasiyɔn caman fɔlɔ ka dɔgɔ</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>Migrasiyɔn wɛrɛ tɛ kɔ (sekɔndi)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>Lafiɲɛ migrasiyɔnw cɛ (sekɔndi)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>Kɔrɔbɔ ɲɛnabɔ (1 ka se 19 ma)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>Baara jan yɔrɔ ye jatiw bɛnnen ye ka bɔ 1 la (lafiɲɛ: sekɔndi 0 ka se 60 ma, ɲɛnabɔ: 1 ka se 19 ma), walima lankolon.</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>A b'a yɛrɛ datugu %time.</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>A yɛrɛ datugu kɔ (miniti, sugandi)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>Minitiw ye jatiw bɛnnen ye 1 ka se 44640 ma (don 31), walima lankolon.</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>Yɔrɔyɛlɛma %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>Yɔrɔyɛlɛma kura</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>YAML yɔrɔyɛlɛma dɔ: a sɛbɛn i n'a fɔ sɛbɛn walima a taamasenw labɛn formilɛri kɔnɔ, a lajɛ, o kɔfɛ a mara yɔrɔyɛlɛmaw dosiye dɔ kɔnɔ.</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>Nin yɔrɔyɛlɛma waleyara ka ban, o de kosɔn a tɛ mara tugun: jatesen kɔlɔsili tun bɛna fisiye yɛlɛmalen ban. Yɛlɛmali kɛ yɔrɔyɛlɛma kura dɔ kɔnɔ.</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>Wɛbu sɛrɛwɛri tɛ se ka fisiye sɛbɛn.</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>Hakilina sɛbɛnni minnu bɛ sanfɛ, olu ye kunkan ye (description, author, requires, environments, engines). Ni taamasen dɔ farala a kan walima a yɛlɛmana formilɛri kɔnɔ, yɔrɔyɛlɛma bɛ sɛbɛn kokura: hakilina minnu bɛ taamasenw cɛ, olu tɛ mara.</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>Yɔrɔyɛlɛma tɔgɔ</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>A bɛ taa yɔrɔ min</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>Siti</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>YAML sɛbɛn</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>Lajɛ</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Mara</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Sennaw</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>Kilew</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Yɛlɛma</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>Yɛlɛn</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>Jigin</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Bɔsi</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>Taamasen si tɛ yen fɔlɔ: kelen fara a kan ni formilɛri ye, walima u sɛbɛn sɛbɛn kɔnɔ.</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>Taamasen %number yɛlɛma</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>Taamasen dɔ fara a kan</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>Taamasen formilɛri bɛ dilan a taamasen suguya la: a kilew, u kelen kelen bɛ min ta ani a bɛ taabolo minnu na.</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>Taamasen suguya</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>A formilɛri jira</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>Kili dɔw bɛ taamasen na, a suguya tɛ minnu dɔn; u bɛ bɔ a la ni taamasen yɛlɛmana: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>Taabolo</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>Kɔnɔ</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>%modes dɔrɔn na</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>Daminɛ nafa: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>Sariyaw, referansiw ani hakilina</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>Tɔgɔ=nafa fila-fila minnu farala ɲɔgɔn na ni virigiliw ye. Nin taamasen nafaw: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>Misali</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>Taamasen yɛlɛma</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>Taamasen fara a kan</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>exp:migration:check bɛ min fɔ: kunkan, dokuman ani taamasen bɛɛ min lajɛra a taamasen suguya fɛ.</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>Yɔrɔyɛlɛma ɲɛna lajɛli la.</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Ɲɛfɛlajɛ</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>YAML i n'a fɔ a bɛna mara cogo min na.</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>YAML jira</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>YAML yɔrɔyɛlɛmaw</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>a waleyara</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>YAML yɔrɔyɛlɛma si tɛ yen fɔlɔ.</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>Yɛlɛmabaga</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>YAML yɔrɔyɛlɛma %id tɛ yɔrɔyɛlɛmaw dosiyew kɔnɔ.</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>Taamasen suguya dɔ sugandi.</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>Taamasen farala a kan. Yɔrɔyɛlɛma lajɛ sani i k'a mara.</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>Taamasen yɛlɛmana. Yɔrɔyɛlɛma lajɛ sani i k'a mara.</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>Taamasen dɔ sugandi.</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>Formilɛri tɛ nin taamasen fɛ (segin-segin dɔ, walima taamasen suguya min tɛ nin sigili la): a yɛlɛma sɛbɛn kɔnɔ.</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>Yɔrɔyɛlɛma bɛ taa yɔrɔ min, o sugandi: siti walima ɛkisitansiyɔn waleyalen dɔ.</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>%file marara. Kɔrɔbɔli waleya kɛ sani yɔrɔyɛlɛma ka waleya.</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>A ma mara: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>Yɔrɔjanw</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>Sigili wɛrɛ minnu ma nin bɛ a ka yɔrɔyɛlɛmaw jɛnsɛn: jɛnsɛnni bɛ yɔrɔyɛlɛmaw ci yɔrɔjan sugandilenw ma k'u waleya yen, u bɛɛ ɲɔgɔn fɛ ani u bɛɛ bɛnnen. Yɔrɔjan tɛ gundo mara abada: a ka donni sɛbɛn bɛ gundo dɔ tɔgɔ fɔ Labɛnni &gt; Gundow la.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>Yɔrɔjan kura</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Dɛmɛ</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>%id ka jɛɲɔgɔnya sɛgɛsɛgɛli</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>Yɔrɔjanw</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>Fo yɔrɔjan %parallel bɛ baara ɲɔgɔn fɛ; tilayɔrɔ kelen bɛ se ka segondi %timeout ta u kelen-kelen bɛɛ kan.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>Yɔrɔjan</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adiresi</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Donni sɛbɛn</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>Jɛkuluw</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>labɛnw ka kan ka latilen</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>fisiyew dɔrɔn (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>SSH kile</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>Gundodaɲɛ</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>foyi (hɔsiti ka SSH dɛmɛbaga ni kilew)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>Jɛɲɔgɔnya sɛgɛsɛgɛ</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>Jɛnsɛnni min bɛ kɛ jɛkulu dɔ ye, o bɛ taa a ka yɔrɔjan bɛɛ ma.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>Jɛnsɛn yɔrɔjanw ma</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>Yɔrɔjan si ma labɛn fɔlɔ.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>Yɔrɔjan %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>Foyi tɛ ci walima ka waleya yan: Mara bɛ labɛnw sɛbɛn settings/override/migration.ini.append.php kɔnɔ. Donni sɛbɛn ye tɔgɔ ye; a nafa bɛ to Labɛnni &gt; Gundow la walima baarayɔrɔ la.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Nin labɛnw lajɛ</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>Labɛnw i n'a fɔ u donna cogo min, u ma mara fɔlɔ.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Lajɛ</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Labɛnw ɲɛna. Nin sɛbɛnsenw bɛna sɛbɛn:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>Ciyɔrɔ</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>tɔgɔ dɔrɔn; a nafa bɛ to Labɛnni &gt; Gundow kɔnɔ</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Sɛbɛnsen minnu bɛna sɛbɛn</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>Jɛɲɔgɔnya</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>Hɔsiti kile</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. Yɔrɔjan</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>Yɔrɔjan tɔgɔ ye min ye ani a ye baarayɔrɔ min ye.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>Tɔgɔnɔ</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>Sɛbɛndenw, jatedenw, - ani _, misali la production1. A bɛ yɔrɔjan tɔgɔ fɔ rapɔrɔw la ani konsoli kan (--remotes=production1), a tɛ se ka yɛlɛma kɔfɛ.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... Dakun-dakun jɛnsɛnni bɛ baarayɔrɔw tɛmɛ nin taabolo la.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>N'i b'a fɛ, virigili b'u cɛ, misali la production. Jɛnsɛnni min bɛ kɛ jɛkulu dɔ ye, o bɛ taa a ka yɔrɔjan bɛɛ ma.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. Jɛɲɔgɔnya</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>Fisiyew bɛ se yen cogo min, ani sigili bɛ yɔrɔ min.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>SSH kan, min yɛlɛmana o dɔrɔn, lataali tigɛlen bɛ taa a fɛ. Sugandili ɲuman don yɔrɔ minnu na rsync sigilen bɛ.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>SSH ni scp ye fisiyew kama.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>SSH ni sftp ye fisiyew kama.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>Fisiyew dɔrɔn: yɔrɔyɛlɛmaw bɛ ci ka kalan ka segin, nka u tɛ se ka waleya yen.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>FTP TLS kan; fisiyew dɔrɔn.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>Sigili wɛrɛ min bɛ nin sɛriwɛri kan, dosiye dɔ kɔnɔ.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Hɔsiti</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>Hɔsiti tɔgɔ walima adiresi, misali la node1.example.com. A tɛ local kama.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>Pɔrɔ</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>Lankolon: 22 SSH kama, 21 FTP kama.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Baarakɛla</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>Sira</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>Sigili ju yen, misali la /var/www/site (FTP kama: sira min FTP kɔnti b'a ye).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>PHP ka cikansira</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>PHP CLI min bɛ yen: php, walima sira dafalen i n'a fɔ /opt/plesk/php/8.4/bin/php.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>Konsoli sɛbɛnw bɛ waleya yen i n'a fɔ root</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>Ni yɔrɔjan ka baarakɛla ye root ye dɔrɔn (u bɛ waleya ni --allow-root-user ye o tuma).</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. Donni sɛbɛn</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>Sigili nin bɛ don yen cogo min. Tɔgɔ dɔrɔn de bɛ mara.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Foyi</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>Baarakɛla min tɔgɔ la sigili nin bɛ waleya, o ka SSH dɛmɛbaga ni kilew (ani tuma bɛɛ local kama).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>Kile kɛrɛnkɛrɛnnen min maralen bɛ i n'a fɔ gundo.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>Gundodaɲɛ min maralen bɛ i n'a fɔ gundo (FTP bɛ don ni o ye).</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>Gundo tɔgɔ</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>Gundo dɔ min bɛ Labɛnni &gt; Gundow la, misali la deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Labɛnni &gt; Gundow</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>Walima baarayɔrɔ yɛlɛmata dɔ</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>Sɛriwɛri porosesi yɛlɛmata min b'a mara, misali la DEPLOY_KEY (a maralen bɛ i n'a fɔ env:DEPLOY_KEY). A bɛ gundo tɔgɔ nɔ na.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. Hɔsiti kile</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>N'i b'a fɛ, SSH, sftp ani rsync kama.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>Hɔsiti kile bolonɔ</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... i n'a fɔ ssh-keygen -l b'a sɛbɛn cogo min. N'a bɛ yen, hɔsiti ka kan ka nin kile jira; n'a tɛ yen, kile bɛ dɔn ɲɔgɔn sɔrɔli fɔlɔ la.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. Lajɛ</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>Jɛɲɔgɔnya sɛgɛsɛgɛ ni labɛn minnu bɛ sanfɛ, o kɔ, sira minnu bɛna sɛbɛn, olu lajɛ.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>Nin yɔrɔjan bɔsi</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>A ka labɛnw bɛ bɔ settings/override/migration.ini.append.php kɔnɔ. Foyi tɛ yɛlɛma yɔrɔjan kan, a ka jɛnsɛnniw bɛ to tariku la.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>Ɔwɔ, nin yɔrɔjan bɔsi</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>Jɛnsɛnniw</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>Jɛnsɛnni bɛ sigili nin ka yɔrɔyɛlɛmaw ci yɔrɔjan sugandilenw ma k'u waleya yen i n'a fɔ %user, u bɛɛ ɲɔgɔn fɛ ani u bɛɛ bɛnnen: yɔrɔjan bɛɛ bɛ lajɛ fɔlɔ, ni kelen ma ɲɛ, yɔrɔjan o yɔrɔjan y'a waleya, o bɛ segin kɔ. A bɛ taa a fɛ kɔfɛ, a ka ɲɛ bɛ yɔrɔjan bɛɛ jira a ka taa cogo la.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. Yɔrɔjanw</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>Yɔrɔjanw sugandi, jɛkulu dɔ, walima u fila bɛɛ.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>Jɛnsɛn yen</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. Cogo min</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>Jɛnsɛn</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>Ci ka waleya</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>Yɔrɔyɛlɛmaw bɛ ci, ka lajɛ ka waleya yɔrɔjan bɛɛ kan ni waleya tɔgɔnɔ kelen ye u bɛɛ ye.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>Lataali dɔrɔn</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>Fisiyew bɛ ci ka lajɛ, foyi tɛ waleya (FTP yɔrɔjan ka sira kelenpe).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>Dakun-dakun</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>Dakun ni dakun baarayɔrɔw ka taabolo la (dev, stage, beta, production ...): dakun fɔlɔ bɛ jɛnsɛn, o kɔ donda dɔ bɛ makɔnɔ fo mɔgɔ dɔ ka sɔn dakun nata ma. Bɛɛ walima foyi dakun kelen-kelen bɛɛ kɔnɔ.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>Nin yɔrɔyɛlɛmaw dɔrɔn</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>N'i b'a fɛ: yɔrɔyɛlɛma tɔgɔnɔw, virigili b'u cɛ. Lankolon: siti n'a ka fɛnfaraw ka yɔrɔyɛlɛma bɛɛ.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>Lajɛli fɔlɔ dɔrɔn</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>Ɔwɔ, jɛnsɛn sisan</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>Jɛnsɛnni minnu ye fɛn dɔ ci walima k'a waleya, kuranw fɔlɔ (lajɛli fɔlɔ tɛ rapɔrɔ mara).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>lataali dɔrɔn</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>dakun-dakun, dakun %stages</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>a ma bɛn</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>Jɛnsɛnni si tɛ yen fɔlɔ.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>Jɛnsɛnni %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Jɛnsɛnni ka yɔrɔjan bɛɛ n'a ka cogoya. Jɛnsɛnni min daminɛna yan, o bɛ taa a fɛ kɔfɛ ni nin ɲɛ datugura; ɲɛ da wuli tugun walasa k'a nɔfɛ.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>Jɛnsɛnniw bɛɛ</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>Lajɛli fɔlɔ</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>Dakun nata</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>Labɛnw ni donni sɛbɛnw bɛ lajɛ</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>Lajɛli fɔlɔ: yɔrɔjan bɛɛ ka cogoya bɛ kalan</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>Yɔrɔyɛlɛma fisiyew bɛ ci</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>Min sera, o bɛ lajɛ</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>Yɔrɔyɛlɛmaw bɛ waleya yɔrɔjan bɛɛ kan</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>Yɔrɔjanw bɛ segin kɔ</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>Jɛnsɛnni banna. A ka rapɔrɔ bɛ doni.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>Ɲɛtaa ma se ka nɔfɛ. Ɲɛ in doni tugun walasa ka jɛnsɛnni taa cogo ye.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>Tilayɔrɔ</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>Nin ɲɛ bɛ jɛnsɛnni nɔfɛ a ka taa cogo la.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>Bɛnnen</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>Dakunw</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>dakun %stage bɛ makɔnɔni na a ka donda la</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>Donda %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>%user y'a sɔn %time</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>Dakun</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>Fisiye cilenw</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>Kernel wɛrisɔn</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>waleyalenw: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>ka waleya: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>Tilayɔrɔw</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>Donda: dakun %stage %stages kɔnɔ</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>A ɲɛ dakunw jɛnsɛnna. U lajɛ, o kɔ sɔn dakun nata ma: a ka yɔrɔjanw bɛ lajɛ tugun ka jɛnsɛn, bɛɛ walima foyi.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Nata</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>Ɔwɔ, dakun nata jɛnsɛn sisan</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Sɔn</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>Nin jɛnsɛnni segin kɔ</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>Yɔrɔjan o yɔrɔjan y'a waleya (%list), o bɛ segin ja ma min tara sani a ka waleya ka kɛ, u bɛɛ ɲɔgɔn fɛ.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>Ɔwɔ, nin jɛnsɛnni segin kɔ sisan</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>a bolodara</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>a lataara</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>a jɛnsɛnna</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>a bɛ makɔnɔni na donda dɔ la</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>sugandilenw</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>a labɛnna</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>a labɛnnen don</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>a bɛ a ka dakun makɔnɔ</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>fisiyew cira</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>a lajɛra</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>a ma ɲɛ, a y'a yɛrɛ segin</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>a ma yɛlɛma</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>a ma jɛnsɛn</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>a tɛ se ka sɔrɔ</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>Yɔrɔjan ye jaabi di.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>Yɔrɔjan tɛ se ka baara la sisan.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done banna, %pending bɛ makɔnɔni na, %failed ma ɲɛ</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>Datugulan</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>waleya dɔ ye datugulan minɛ yen</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>lankolon</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stage %stages kɔnɔ</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>Yɔrɔjan sugandi min ka kan ka sɛgɛsɛgɛ.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>«Ɔwɔ, nin yɔrɔjan bɔsi» sugandi fɔlɔ.</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>Yɔrɔjan ma se ka bɔsi: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>Yɔrɔjan ma se ka mara: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Labɛnw fisiye tɛ se ka kalan: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>Yɔrɔjan kelen walima jɛkulu kelen sugandi a dɔgɔyalenba la.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>Yɔrɔjan sugandilen dɔ tɛ labɛnw na tugun. Ɲɛ in doni tugun.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>«Ɔwɔ, jɛnsɛn sisan» sugandi fɔlɔ.</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>FTP yɔrɔjan tɛ se ka yɔrɔyɛlɛmaw waleya: «Lataali dɔrɔn» sugandi, walima a to kɔ.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>Yɔrɔyɛlɛma minnu ka kan ka jɛnsɛn, olu ye yɔrɔyɛlɛma tɔgɔnɔw ye, virigili b'u cɛ.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>Jɛnsɛnni bɛ taa hali bi. A makɔnɔ fo a ka ban.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>Nin jɛnsɛnni tɛ makɔnɔ donda si la.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>Yɔrɔjan si ma nin jɛnsɛnni waleya: foyi tɛ yen ka segin kɔ.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>«Ɔwɔ, dakun nata jɛnsɛn sisan» sugandi fɔlɔ.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>«Ɔwɔ, nin jɛnsɛnni segin kɔ sisan» sugandi fɔlɔ.</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>Yɔrɔjan min tɔgɔnɔ ye %id, o bɛ yen kaban.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>Pɔrɔ ye jate ye 1 ni 65535 cɛ.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>Baarayɔrɔ ye daɲɛ ye min dilanen bɛ ni sɛbɛndenw, jatedenw, - ani _ ye (alpha, dev, stage, beta, production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>Jɛkulu ye daɲɛ ye min dilanen bɛ ni sɛbɛndenw, jatedenw, - ani _ ye (a tɛ all ye): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>Donni sɛbɛn tɛ se ka kalan sisan: %problem. A mara Labɛnni &gt; Gundow la (walima yɛlɛmata sigi) sani jɛnsɛnni fɔlɔ ka kɛ.</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>FTP yɔrɔjan bɛ fisiyew dɔrɔn sɔrɔ: jɛnsɛnni min bɛ kɛ a ye, o ye «Lataali dɔrɔn» ye, a ka yɔrɔyɛlɛmaw bɛ waleya yen ni bolo ye.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>Yɔrɔjan %id tɛ settings/override/migration.ini.append.php kɔnɔ; a bɔsi yɔrɔ min na a labɛnnen bɛ.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>Donna FTP fɛ ka index.php kalan. FTP yɔrɔjan ka yɔrɔyɛlɛma hali tɛ se ka kalan.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>Yɛlɛmana</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>Dilanna</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Tɔgɔ</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Kilasi</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Sekisiyɔn</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>Dilanbaga</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Kɔnɔko kuraw</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>Siti bɛɛ kɔnɔkow minnu dilanna walima yɛlɛmana kɔsa in na, kuraw fɔlɔ: bisigiyalaw ye fɛn minnu ci, fɛn minnu minɛna ka lajɛ, bruyɔnw minnu bɛ u bilali makɔnɔ. Fɛnw sugandi walasa k'u bila, k'u minɛ, k'u dogo, k'u jira, k'u bɔsi walima k'u bila sekisiyɔn wɛrɛ walima cogoya wɛrɛ la.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>Lisi ma se ka kalan: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>Lajɛli minɛni ma labɛn fɔlɔ, o de kosɔn foyi ma minɛ ani minɛni kɛwalew tɛ di. Yɛlɛmali taabolo 6.0.15-review-hold b'a labɛn: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Lisi sɛnsɛn</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Ka bɔ</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Ka se</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Don</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>Dilanna (bilali fɔlɔ)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Bɛɛ</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Hali</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Bilalen</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>Bruyɔn, ma bila abada</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>A bɛ makɔnɔni na (a bɛ sɔnni walima don dɔ makɔnɔ)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>Nɔgɔsigiyɔrɔ la</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Minɛna ka lajɛ</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>Minɛna</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>Ma minɛ</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>Dogolen</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>Yeli</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>Cira don min na</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>Siti donda o donda</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>Sɛgɛsɛgɛli ye min sɛbɛn o dɔrɔn.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>Sisan: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>Donni tɔgɔ walima baarakɛla ID.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Sɛnsɛn</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>Sɛnsɛnw bɔsi</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>Fɛnw</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from ka se %to ma %count kɔnɔ</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Fɛn si tɛ</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(kalanna %ms ms kɔnɔ)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>Kɛwalew fɛn sugandilenw kan</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>Ɲɛ in bɛɛ sugandi</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>%count sugandilen</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Kɛwale</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>Kɛwale dɔ sugandi</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>Minɛni bɔ</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Minɛ ka lajɛ</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Dogo</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>Jira</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>Bila nɔgɔsigiyɔrɔ la</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>Jɔsi</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>Sekisiyɔn di</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>Cogoya di</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>Sababu</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>Wajibi don ka minɛ; a bɛ mara minɛni fɛ ani sɛgɛsɛgɛli kɔnɔ.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>Sekisiyɔn dɔ sugandi</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Cogoya</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>Cogoya dɔ sugandi</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>A kɛ sugandilenw na</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>Fɛn kelen kelen bɛ lajɛ i yɛrɛ ka yamaruyaw la. Bilali nɔgɔsigiyɔrɔ la ani jɔsili b'a ɲini i ka sɔn. Ni fɛnw ka ca ni %count ye, u bɛ kɛ kɔfɛ.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>Sugandi</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>Bilali</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>Cira yɔrɔ</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>%name sugandi</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>a ma kɛ fɔlɔ</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(tɔgɔ tɛ)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>Bruyɔn</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>A bɛ makɔnɔni na</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>A faa ye a dogo</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>Minɛna: ci kura</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>Wɛrisiyɔn %version bɛ makɔnɔni na</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>Wɛrisiyɔn %version bɛ baara la</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>Bruyɔn, wɛrisiyɔn %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>Wɛrisiyɔn %version bilalen</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>Labɛnna %date kama</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>adrɛsi tɛ</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>ma sɛbɛn</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>Foyi tɛ bɛn sɛnsɛn ninnu ma.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Bɛɛ jira</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>Kɔnɔko si tɛ fɔlɔ.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Ɲɛ kelen na</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Fɛn %count jira ɲɛ kelen na.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says "not recorded".</source>
+        <translation>Ci dɔ ka adrɛsi ni a ka navigatɛri bɛ bɔ sɛgɛsɛgɛli indɛkisi la, min tɛ sɔrɔ yan: kolɔni b'a fɔ ko "ma sɛbɛn".</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>Adrɛsi ni navigatɛri ye sɛgɛsɛgɛli ye minnu sɛbɛn fɛn in kama (minɛni yɛrɛma b'u sɛbɛn tuma bɛɛ; bilali ni dilanni b'u sɛbɛn yɔrɔ minnu na a bɔra yen dɔrɔn), i n'a fɔ a ka gundo labɛnw b'u mara cogo min na.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: fɛn %count</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>Jɔsili bɛ fɛnw bɔ pewu, u ka wɛrisiyɔnw ni u ka bayɛlɛmaw bɛɛ. A tɛ se ka segin kɔ.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>Fɛnw bɛ taa nɔgɔsigiyɔrɔ la, u bɛ se ka segin ka bɔ yen.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>Fɛn kelen kelen bɛ lajɛ i yɛrɛ ka yamaruyaw la; fɛn min bɛ ni fɛn dɔgɔmanw ye, o bɛ to a cogo la (a bɔsi kɔnɔko jɔcogo la). A bɛna ɲini i fɛ i k'a jira ko i yɛrɛ don.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>Nin bɛ kɛ kɔfɛ: a taa ɲɛ bɛ yɛlɛ, ani fɛn kelen kelen jaabi bɛ jira n'a banna.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>Fɛn sugandilenw</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>ani %count wɛrɛ</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Dabila</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>Foyi ma kɛ</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Sababu: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>Kɛwale bɛ kɛ kɔfɛ hali sisan.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>A taa ɲɛ</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>Kɔfɛ kɛwale ma ɲɛ: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>A banna</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>A ma sɔn</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>A ma ɲɛ</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>Fɛn kelen kelen</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>Fɛn</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Jaabi</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Mun na</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>Segin lisi ma</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Labɛnni</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>Foyi ma kɛ hali dɔɔnin</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>Sɔn</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>Kɛwale dɔ sugandi.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>Fɛn kelen sugandi a dɔgɔya la.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>Fɛn 1000 dɔrɔn sugandi a caya la siɲɛ kelen.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>A fɔ fɛnw minɛna mun na.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>Sekisiyɔn sugandi.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>Cogoya sugandi.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Formilɛri ma se ka kalan.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>Kunnafoni tablo</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>Kɔnɔko kuraw</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>Jatew ma se ka kalan: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Minɛna ka lajɛ</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>Kura bi</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Lajɛli minɛni ma labɛn fɔlɔ (yɛlɛmali taabolo 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>Kɔnɔko kura bɛɛ</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>I tɛ se ka moderasiyɔn kɛwalew kɛ (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>Moderasiyɔn kɛwale ma dafa: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>Moderasiyɔn: %action objɛ %count kan</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%done objɛ %total la: %ok banna, %refused ma sɔn, %failed ma ɲɛ</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok banna, %refused ma sɔn, %failed ma ɲɛ</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>A tɛ yen tugun.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>Yɔrɔ si t'a fɛ (a ma bila).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>I tɛ se k'a dogo (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>I tɛ se k'a jira (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>A dogolen don kaban.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>A ma dogo.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>Dogolen.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>Jiralen.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>A bɛ nɔgɔsigiyɔrɔ la: a lankolon walima a segin ka bɔ yen.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>Bruyɔn min ma bila abada, o tɛ se ka taa nɔgɔsigiyɔrɔ la: a jɔsi.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>I tɛ se k'a jɔsi (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>Jɔsilen.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>I tɛ se k'a bɔsi (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>Fɛn dɔgɔmanw b'a la: a bɔsi kɔnɔko jɔcogo la, u lisi bɛ yɔrɔ min na.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>A ma bɔsi (baarasira dɔ bɛ se ka bɔsili minɛ).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>A taara nɔgɔsigiyɔrɔ la.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>Sekisiyɔn tɛ yen.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>A bɛ sekisiyɔn in na kaban.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>I tɛ se ka sekisiyɔn in di (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>Sekisiyɔn ma di.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>Sekisiyɔn dilen.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>Cogoya tɛ yen.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>A bɛ cogoya in na kaban.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>I tɛ se ka cogoya in di (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>Cogoya ma di (baarasira dɔ bɛ se ka yɛlɛmali minɛ).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>Cogoya dilen.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>Kɛwale suguya tɛ yen.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Lajɛli minɛni ma labɛn (yɛlɛmali taabolo 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>A fɔ a minɛna mun na.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>A minɛna kaban.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>I tɛ se k'a minɛ (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>Minɛni ma kɛ (baarasira dɔ bɛ se ka yɛlɛmali minɛ).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>Minɛna.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>A ma minɛ.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>I tɛ se k'a bila (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>Minɛni ma bɔ (baarasira dɔ bɛ se ka yɛlɛmali minɛ).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>A bilala; a dogolen don hali bi: i tɛ se k'a jira (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>A bilala.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>Taayɔrɔw bɛɛ</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Bilali laban</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>I ka siti kopi jɔlen bila kɛnɛ kan fu GitHub Pages kan:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Ɲɛ kɔrɔlenw</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Bilali jɔlen</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Bilali jɔlen datugulen don.</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Taayɔrɔ</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Taayɔrɔw ma se ka kalan: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>baara dɔ bɛ kɛ</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>dilanni min ka kan ka lajɛ</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>nin dogo</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>taayɔrɔ dilan</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>abada</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>kalanni kalan</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>%added farala a kan, %changed yɛlɛmana, %removed bɔra</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%bytes %limit kɔnɔ (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>%count wɛrɛw ma sɛbɛn yan.</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>Ɲɛ %pages sɛbɛnna</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path bonya ye %size ye, o ka bon ni jatigi bɛ sɔn min ma fisiye kelen na.</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>Dan ka %percent %</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>segin %seconds</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag ye bilali ye min bɛ siti kan sisan.</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: baara %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>/marayɔrɔ/ GitHub porozɛ siti kama; a to lankolon domɛni yɛrɛ ta walima baarakɛla siti kama.</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. Siti</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. Jatigi</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. Donni marayɔrɔ la</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. Marayɔrɔ</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. Siriw ani sira jusigi</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. I yɛrɛ ka domɛni</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. Dilanni bɛ min kɔnɔ</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. A bɛ bila kɛnɛ kan tuma min na</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. Lajɛ ka mara</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>GitHub porozɛ siti bɛ /&lt;repository&gt;/ jukɔrɔ; siri sumanenw bɛ baara kɛ yen ani yɔrɔ wɛrɛ bɛɛ la.</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>Dilanni bɛ %site ka ɲɛ bɛɛ ta i n&apos;a fɔ lajɛlikɛla min ma don b&apos;a ye cogo min na, ka siriw sɛbɛn kokura, ka fisiyew kopi ani ka jaabi sɛbɛn taayɔrɔ ka kɛsu kɔnɔ. Foyi tɛ bila kɛnɛ kan fɔ i ka dilanni lajɛ ka Bila kɛnɛ kan digi.</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>Cron kumasen, i n&apos;a fɔ 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>Bilali kile bɛ mara i n&apos;a fɔ gundo %secret.</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>Bilali kile bɛ sira di nin sigili ma ka ci marayɔrɔ kelen ma SSH fɛ, a tɛ taa yɔrɔ wɛrɛ la. A tilayɔrɔ gundo bɛ to Labɛnni &gt; Gundow kɔnɔ; a tilayɔrɔ kɛnɛ kan dɔrɔn de bɛ jira.</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>Bilali kile min dilanna nin taayɔrɔ in kama</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>Bilali kile bɛ don SSH fɛ: git adarɛsi yɛlɛma ka kɛ SSH adarɛsi ye (git@github.com:owner/repo.git).</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>Baara dɔ bɛ kɛ, %user de y&apos;a daminɛ</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>Nin taayɔrɔ in ka baara dɔ bɛ kɛ hali bi (%detail). A makɔnɔ fɔ a ka ban.</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>Nin taayɔrɔ in ka baara dɔ bɛ kɛ hali bi. A makɔnɔ fɔ a ka ban.</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>Siri min bɛ bɔ ɲɛ /news/ la ka taa ɲɛ /about-us/team la, o bɛna sɛbɛn nin cogo la</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>Bilali kile kura dilanna. A tilayɔrɔ kɛnɛ kan fara marayɔrɔ kan sisan.</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>Ɲɛ min bɛ ni ɲɛjiri bɔlenw ye hali bi, walima formulɛri tɔkɛn, walima sesiyɔn tɔgɔ saniyali kɔfɛ, o tɛ bila kɛnɛ kan abada.</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>Segin kɔ ye dɔnnikɛlaw ta ye: &quot;N b&apos;a dɔn nin bɛ min yɛlɛma&quot; sugandi ka taamasiyɛn tɔgɔ sɛbɛn tugun.</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>Siti bonya bɛ se ka se %site ma, fisiye kelen %file ma, ni taamaw ye 100 GB ɲɔgɔn ye kalo kɔnɔ. Fu labɛn kan, marayɔrɔ ka kan ka kɛ kɛnɛ kan. GitHub Pages ma dilan butikiw walima jago wɛrɛw kama.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>Taayɔrɔ ye siti kelen ye min bɛ bila git marayɔrɔ kelen kɔnɔ. Foyi tɛ dilan walima ka bila kɛnɛ kan yan: Mara bɛ labɛnw sɛbɛn settings/override/staticcache.ini.append.php kɔnɔ.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>Taayɔrɔ ye siti kelen ye min bɛ bila yɔrɔ kelen na, i n&apos;a fɔ i ka siti kɛnɛ kan GitHub Pages kan.</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>Tɔkɛn min bɔra Labɛnni &gt; Gundow la</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>Marayɔrɔ ka baarasira dɔ b&apos;a bila kɛnɛ kan.</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>Nin kile kɛnɛ kan fara marayɔrɔ kan ni sɛbɛnni sira ye. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, Allow write access sugandi.</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>Farala a kan</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>Git jatigi wɛrɛ</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>Baarakɛcogo wɛrɛ bɛ baara kɛ nin taayɔrɔ in kan: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>Segin kɔ</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>Sira jusigi</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Fɔlɔ</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>Sira jusigi dɔ jukɔrɔ</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>Bolo</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>Siri tiɲɛnenw</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>Siri tiɲɛnenw dilanni kɔnɔ</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>Dilanni</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>Dilanni %id, %user fɛ</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>%name dilan</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>A dilan sisan</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>Dilanni min ka kan ka lajɛ</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Min ye</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>Ni bolo ye, yan</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Dabila</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Yɛlɛma</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>Yɛlɛmana</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Yɛlɛmaw</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>A lajɛ fɔlɔ</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Nin labɛnw lajɛ</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>Dilanni bɛ min yɛlɛma o lajɛ, a filɛ, o kɔ a bila kɛnɛ kan walima a fili.</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>Bilali sugandi i bɛ segin min ma.</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>Bɛna na bɔli nata dɔ la.</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Mara</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>Maraliw</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>Dilanni bɛ mara, ka taamasiyɛn don a la ani k&apos;a ci %remote ma. Ci tɛ kɛ ni fanga ye abada; i bɛ se ka segin bilali o bilali ma kɔfɛ.</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>Ni kɛsu fɔlɔ ye: %added farala a kan, %changed yɛlɛmana, %removed bɔra, %unchanged ma yɛlɛma.</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>Ni bilali laban ye.</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Donni sɛbɛn</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>Domɛni yɛrɛ ta</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>Ɲɛjiri bɔlenw, formulɛri tɔkɛnw, sesiyɔn tɔgɔw ani nonce bɛ bɔ a la tuma bɛɛ.</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>Bilali kile</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>%name ka bilali kile</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>A fili</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>Dilanni fili</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>Domɛni</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>Lankolon: siti adarɛsi. N&apos;o tɛ, siti kelen in adarɛsi kɔnɔnata.</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Banna</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>Siri bɛɛ bɛ daminɛ ni sira jusigi ye.</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>Bilali bɛɛ ye marali ye ni taamasiyɛn static/%id/&lt;n&gt; ye. Segin kɔ bɛ marali kura kɛ ni bilali fɔlɔ dɔ ka fisiyew ye: tariku bɛ to, taamasiyɛn si tɛ lamaga, foyi tɛ kɛ ni fanga ye.</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>Fisiye farataw</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>Ɲɛw ta ka bɔ</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Fisiye</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>Fisiyew</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>Fisiye dɛsɛlenw</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>Fisiyew:</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>Fisiye minnu ma se ka lajɛ</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>Bolonɔ</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>Kɛsu</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>SSH adarɛsi kama. Kile bɛ dilan marali kɔfɛ; i b&apos;a tilayɔrɔ kɛnɛ kan fara marayɔrɔ kan.</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>https:// adarɛsi kama. GitHub: tɔkɛn dafalen ni Contents kalanni ani sɛbɛnni sira ye marayɔrɔ kan.</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>Dɔnnikɛlaw kama. Siti kɛnɛ kan bɛ yɛlɛma ci banni kɔfɛ yɔrɔnin kelen.</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Formulɛriw</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>Jatigiya fu ka bɔ GitHub marayɔrɔ dɔ la.</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>Ka bɔ bolo la</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>Git adarɛsi</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages bɛ sɔn siti ma min bonya ye %site ye ani fisiye min bonya ye %file ye.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>GitHub Pages danw</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages bɛ fisiyew bila kɛnɛ kan u cogo la (o mako bɛ fisiye minnu bɛ daminɛ ni _ ye).</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub bɛ bolo di a cira cogo min na. A fɔlɔ.</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, i yɛrɛ ka sɛriwɛri: git marayɔrɔ o marayɔrɔ.</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>Segin bilali fɔlɔ dɔ ma</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Dɛmɛ</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>Dɛmɛ ladilikɛla kama</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>U dogo</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Tariku</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>%name ka tariku</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Jatigi</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>GitHub Pages bɛ dilanni sɔrɔ cogo min na</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>N ye yɛlɛmaw lajɛ</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>N b&apos;a dɔn nin bɛ min yɛlɛma</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>Tɔgɔnɔ</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>A datugulen don: foyi tɛ se ka dilan fɔ a ka da wuli.</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>A bɛ baara kɛ kɔfɛ i n&apos;a fɔ %user; i bɛ se ka nin ɲɛ datugu.</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>Baara %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>A marara i n&apos;a fɔ gundo %secret.</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Suguya</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Bilali laban</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>Nin ɲɛw bila kɛrɛfɛ</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>Nin yɔrɔw bila kɛrɛfɛ</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Siriw</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>Siri sɛbɛnnen kokuraw</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>Siti kɛnɛ kan</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>Dilanni filɛ</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>Sɛbɛnnisun fitininw, jateden, _ ani -, i n&apos;a fɔ github-public. A bɛ tɔgɔ da kɛsu ani taamasiyɛnw na (static/&lt;id&gt;/&lt;n&gt;) wa a tɛ se ka yɛlɛma kɔfɛ.</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>Kile kura dilan</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>Taayɔrɔ dilan</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>Kile dilan</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>Marayɔrɔ dilan jatigi kan fɔlɔ; lankolon fana bɛ ɲɛ.</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>Fisiyew lisi</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Cikan</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>Ɲɛ caman</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Tɔgɔ</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>Tɔkɛn tɔgɔ Labɛnni &gt; Gundow kɔnɔ</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>Taayɔrɔ kura</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Nata</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>ayi</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>Marali si tɛ yen fɔlɔ.</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>Kile si ma dilan: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>php ka baarakɛminɛn ci sira ma sɔrɔ. migration.ini [AdminSettings] PhpCliPath sigi a sira dafalen na.</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>Taamasiyɛn si tɛ yen fɔlɔ.</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>Taayɔrɔ si tɛ yen fɔlɔ.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Foyi</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>A tɛ dilanni kɔnɔ.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>Foyi ma bila kɛnɛ kan fɔlɔ.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>Foyi ma bila kɛnɛ kan fɔlɔ: fisiye bɛɛ ye kura ye.</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>Kunnafoni di</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>Waati labɛnnen na</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>Konsoli kan</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>Sɛriwɛri kan: ./console exp:static:serve %id b&apos;a di o cogo kelen na.</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>Sira kelen sɛbɛnsen kelen na, * bɛ bɛn yɔrɔ o yɔrɔ ma: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>Tɔgɔ dɔrɔn de bɛ mara taayɔrɔ fɛ; tɔkɛn walima kile yɛrɛ bɛ to Labɛnni &gt; Gundow kɔnɔ wa a tɛ jira sɛbɛnni kɔnɔ abada.</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>Ɲɛw bɛ min tɔgɔ fɔ o dɔrɔn</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>Ni tɔkɛn ye dɔrɔn. env:NAME bɛ sɛriwɛri ka sigiyɔrɔ yɛlɛmata kalan o nɔ na.</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>Ɲɛfɛlajɛ da wuli</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>Dilanni bɛ da wuli i n&apos;a fɔ jatigi bɛna a di cogo min na, ka bɔ taayɔrɔ ka kɛsu la. Siri bɛ baara kɛ i ye lɛrɛ kelen kɔnɔ.</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>A tɛ wajibi ye. Lankolon: min bilara kɛnɛ kan.</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>A tɛ wajibi ye. Ni domɛni bɛ yen, siti bɛ di a ju la.</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Bɔli</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>Ɲɛw</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>Taayɔrɔ ka ɲɛw</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>Ɲɛ banlenw</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>Baara kɔfɛta</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Ɲɛfɛlajɛ</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>Ɲɛfɛlajɛ ani bilali</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>Ɲɛfɛlajɛ ani bilali %name</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>Dilanni ɲɛfɛlajɛ</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Taabolo</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>Adarɛsi kɛnɛ kan</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>Kile kɛnɛ kan</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>Bila kɛnɛ kan</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>Siti dɔ kopi jɔlen bila kɛnɛ kan GitHub Pages kan walima git jatigi o jatigi kan: a dilan, yɛlɛmaw lajɛ, a bila kɛnɛ kan, ani ka segin bilali fɔlɔ dɔ ma ni mako b&apos;a la.</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>Bilali min ma segin</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>Bilaliw</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Ci</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>Kalanni kalan</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Sɛbɛnni</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>A banna</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>Sumanenw</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>A lata kokura</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>Bɔra</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>Kile falen: kɔrɔlen tɛna baara kɛ tugun</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Jatebɔ</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>Dilanni jatebɔ</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Marayɔrɔ</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Lajɛli</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>Lajɛli bɛ labɛn kelen kelen bɛɛ lajɛ ka sɛbɛnsen minnu bɛna sɛbɛn olu jira. Foyi ma mara fɔlɔ.</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Segin kɔ</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Segin kɔ</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Mara</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>Waati labɛnnen</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>Ɲinini ɲɛ</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>Yɔrɔw tɔgɔnɔw, u farala ɲɔgɔn na ni bisigili ye.</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>U ci siti kɛnɛ kan ma</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>Labɛn</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Labɛnw</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>%name ka labɛnw</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Labɛnni</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Labɛnni &gt; Gundow</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>A bɛ jira lisiw kɔnɔ, i n&apos;a fɔ &quot;Siti kɛnɛ kan GitHub Pages kan&quot;.</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>Donni ni GitHub App ye bɛna na ni GitHub ɲɔgɔndɛmɛ ye.</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>Siti</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>Siti min ka kan ka bila kɛnɛ kan</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Bonya</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>Bonya ani danw</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>Dilanni bonya</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Ɲɛ kɔrɔlenw</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Daminɛna</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>%user y&apos;a daminɛ %time.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Cogoya</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Bilali jɔlen</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>Bilali jɔlen datugulen don</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Bilali jɔlen datugulen don.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>Bilali jɔlen datugulen don. A da wuli Labɛnni &gt; Bilali jɔlen kɔnɔ fɔlɔ.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>Bilali jɔlen dayɛlɛlen don.</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>Taabolo %step %total kɔnɔ</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Taabolow</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>Saniyali</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>A datugu</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>A da wuli</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>Bilali jɔlen da wuli</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Taamasiyɛn</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>Taamasiyɛnw</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Taayɔrɔ</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>Taayɔrɔw bɛ se ka dilan ani ka yɛlɛma, nka foyi tɛ dilan walima ka bila kɛnɛ kan fɔ a ka da wuli.</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>A bɛ a fɔ ɲininikɛminɛnw ye u ka kan ka min kalan.</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>Dilanni ma se ka fili: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>Dilanni ni bilali laban ye kelen ye: foyi tɛ yen ka bila kɛnɛ kan.</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>Dilanni filila: kɛsu bɛ ni bilali laban ye tugun.</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>A fɔlɔ labɛnw bɛ bɛn siti caman ma.</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>Dilanni dɔ bɛ kɛsu kɔnɔ min ma bila kɛnɛ kan fɔlɔ; dilanni kura bɛna a nɔ ta.</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>Baaraw ka kɛsu tɛ se ka sɛbɛn: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>Baara ma se ka labɛn: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>Baara ma se ka daminɛ.</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>Baara banna. A jatebɔ bɛ lata.</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>Baara mako bɛ baarakɛla donnen dɔ la.</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>Baara daminɛna nka a ma a ka baarakɛcogo tɔgɔnɔ fɔ. %detail lajɛ.</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>Kile</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>Fisiye belebele: %path, %size.</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Sɛbɛnsen minnu bɛna sɛbɛn</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>Ɲɛw lisi ɲininikɛminɛnw kama; adarɛsi kɛnɛ kan mago b&apos;a la.</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>Ɲɛw bɛ ta i n&apos;a fɔ lajɛlikɛla min ma don b&apos;u ye cogo min na. Ɲɛmɔgɔya ani latilenni siteaccess tɛ di abada.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>Taabolo ma se ka tugu. Ɲɛ lata kokura walasa ka baara cogoya ye.</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>Kile tilayɔrɔ kɛnɛ kan:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>Bolo ju</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>Gundow marayɔrɔ ma labɛn fɔlɔ (./console exp:upgrade --apply b&apos;a ka tabali dilan), o de kosɔn kile si tɛ se ka mara.</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>Sɛriwɛri bɛ don a yɛrɛ ma (a yɛrɛ ka SSH kile walima donni sɛbɛn dɛmɛbaga fɛ), walima marayɔrɔ bɛ nin sɛriwɛri in kan.</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>Labɛn ma se ka sɛbɛn: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Labɛnw ɲɛna. Nin sɛbɛnsenw bɛna sɛbɛn:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Labɛnw fisiye tɛ se ka kalan: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>Siti bɛ segin o bilali ka fisiyew ma; dilanni min ma bila kɛnɛ kan fɔlɔ, o ka kan ka bila kɛnɛ kan walima ka fili fɔlɔ.</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>Siti yɛrɛ ka ɲɛ adarɛsi minnu tɛ yen olu kama.</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>Taayɔrɔ ma se ka mara: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>Taayɔrɔ tɛ don ni nin kile ye fɔlɔ: &quot;Bilali kile min dilanna nin taayɔrɔ in kama&quot; sugandi a ka labɛnw kɔnɔ.</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Taayɔrɔw ma se ka kalan: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>Dilanni si tɛ yen ka lajɛ fɔlɔ.</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>Siteaccess ɲɛfɛta si tɛ nin sigili in na. Ɲɛmɔgɔya ani latilenni siteaccess tɛ bila kɛnɛ kan abada.</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>Nin ɲɛ bɛ tugu baara kɔ a taabolo la; ni ɲɛ datugura, a bɛ taa a fɛ kɔfɛ.</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>Bilali kile si tɛ nin taayɔrɔ in fɛ fɔlɔ.</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>Nin taayɔrɔ in ma dilan yan fɔlɔ.</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>Kelen bɛ nin taayɔrɔ in fɛ.</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>Nin dilanni bɛ fili: kɛsu bɛ ni bilali laban ye tugun. Siti kɛnɛ kan tɛ yɛlɛma.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>&quot;N ye yɛlɛmaw lajɛ&quot; sugandi fɔlɔ.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Waati</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>Daminɛcogow</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>Taamasiyɛn tɔgɔ sɛbɛn tugun</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>A ma yɛlɛma</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>Webhook</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Mun</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>Min bɛ yɛlɛma</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>Fisiye kelen kelen ye min ye; a bɛ sɛbɛn tuma bɛɛ.</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>Baara ye min kɛ ani a ka sɛbɛnni. Baara min daminɛna yan, o bɛ taa a fɛ kɔfɛ ni nin ɲɛ datugura.</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>Baara ye min bɔ i n&apos;a fɔ filiw</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>Ɲɛw bɛ min tɔgɔ fɔ, ani kɔnɔkow bilalenw ka ja bɛɛ</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Tuma jumɛn</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>Ni bilali ma ɲɛ</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>Ni bilali ɲɛna</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>Ni kɔnɔkow bilara kɛnɛ kan</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>Kopi tɛ ni min ye, siriw bɛ taa o yɔrɔ min (ɲinini, donni).</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>Kopi jɔlen bɛ di ka bɔ yɔrɔ min na.</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>Siti min bɛ bila kɛnɛ kan, ani taayɔrɔ tɔgɔ.</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>A bɛ baara kɛ sira o sira jukɔrɔ. A fɔlɔ.</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>A bɛ sɛbɛn tuma o tuma ni domɛni yɛrɛ ta sigira.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>ɔwɔ</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>I bɛ se ka dilan ani ka bila kɛnɛ kan ni bolo ye tuma bɛɛ yan ani konsoli kan.</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>tɔgɔ dɔrɔn; a nafa bɛ to Labɛnni &gt; Gundow kɔnɔ</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>%path jukɔrɔ</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>banna jatebɔ tɛ</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>farata</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>ma ɲɛ</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>fisiye</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages, walima main ni kɛsu docs ye.</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>git jatigi</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (ni tɔkɛn ye) walima git@github.com:owner/repo.git (ni bilali kile ye); tɛmɛsira walima tɔkɛn kana kɛ a kɔnɔ abada.</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/, siti kɔrɔfɔlan ani siri sɔbɛw kama.</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>ja</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>abada</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ayi</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>yɔrɔjan si tɛ</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>foyi: maraliw bɛ to kɛsu kɔnɔ</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>foyi: foyi ma yɛlɛma</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>ma ci</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>foyi ma yɛlɛma</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>ɲɛ</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>a ɲɛna</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>proc_open datugulen don, o de kosɔn baara tɛ se ka daminɛ yan. ./console exp:static:build kɛ sɛriwɛri kan.</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>bilali</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>bilalen kɛnɛ kan</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>ci bɛ makɔnɔ</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>cira</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>a banna</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>sumanenw</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>segin kɔ</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>seginna kɔ</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>a bɛ kɛ</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>kɛsu dɔrɔn</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: a bɛ sɛbɛn fisiye CNAME kɔnɔ. Domɛni ka DNS ɲɛsin jatigi ma i n&apos;a fɔ a b&apos;a ɲɛfɔ cogo min na; HTTPS bɛ se ka mɛn sani a ka daminɛ.</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>ɔwɔ, a ma bila kɛnɛ kan fɔlɔ</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>GitHub App dɔ</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>Marayɔrɔ ka baarakɛcogo dɔ b'a bila kɛnɛ kan. Labɛnni bɛ baarakɛcogo sɛbɛn sɛbɛn; ka kalasa to lankolon.</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>Ni i ye taayɔrɔ mara ni GitHub marayɔrɔ ani tɔkɛn walima GitHub App ye, nin taabolo in bɛ se ka marayɔrɔ dan ani ka GitHub Pages daminɛ. N'o tɛ, i ka marayɔrɔ dan GitHub kan fɔlɔ; lankolon fana ka ɲi.</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>Bolo walima GitHub Actions?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>DNS lajɛ</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>Marayɔrɔ dan ni a tɛ yen</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>Marayɔrɔ dan GitHub kan ani ka GitHub Pages daminɛ a labɛnw na (Settings &gt; Pages).</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>Marayɔrɔ %repo dan ni a tɛ yen (ni a delila), ka GitHub Pages daminɛ ka bɔ bolo la walima GitHub Actions la i n'a fɔ a marara cogo min na, ani ka domɛni yɛrɛ ta ni HTTPS sigi. A bɛ labɛn maralenw kɛ: i ka changementw mara fɔlɔ.</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>Kunnafoniw GitHub kan</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>Domɛni yɛrɛ ta sɛbɛn fɔlɔ.</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>Cili bɛɛ bɛ lajɛ ni nin danw ye fɔlɔ.</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>https:// adresi kama GitHub kan. App min labɛnna nin sigili in kama, o bɛ don; a mago bɛ sigili nimɔrɔ la.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages bɛ marayɔrɔ dogolen di sara sugu dɔrɔn na.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: domɛni denmisɛn (www.example.com) mago bɛ CNAME sɛbɛn na ka taa &lt;owner&gt;.github.io la; domɛni kunba (example.com) mago bɛ A sɛbɛnw na %ips.</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>GitHub App sigili nimɔrɔ</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>Pages labɛnni laban</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>Danw ani sariyaw</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>A ka kan GitHub Pages ma sara tɛ sugu min na.</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>GitHub kan</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>GitHub App dɔrɔn fɛ: nimɔrɔ min bɛ App sigili adresi laban na GitHub kan. App yɛrɛ bɛ sigi staticcache.ini kɔnɔ (GitHubAppId, GitHubAppKey).</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>Dogolen</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>Kɛnɛ kan</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>Taayɔrɔ mara ni GitHub marayɔrɔ ani tɔkɛn walima GitHub App ye fɔlɔ.</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>Nin sɛbɛnw sigi domɛni dibagatɔ fɛ:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>A labɛn GitHub kan</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>%domain ka DNS ma GitHub Pages jira fɔlɔ.</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>%domain ka DNS bɛ GitHub Pages jira.</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>GitHub ɲɔgɔndɛmɛ tɛ yan: %problem. Bila kɛnɛ kan bolo la bɛ baara kɛ hali bi; GitHub Pages daminɛ marayɔrɔ labɛnw na.</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>GitHub taabolow tɛ yen nin taayɔrɔ in kama: %problem.</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>GitHub Pages cogo bɛ jira ni tɔkɛn walima GitHub App ye i n'a fɔ donni sɛbɛn.</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>I yɛrɛ ka domɛni kɛ</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>Min ka kan ka sugandi: tɔkɛn, bilali kile walima GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>Ni GitHub marayɔrɔ ani tɔkɛn walima GitHub App bɛ yen, ladilikɛla bɛ se ka marayɔrɔ dan, ka GitHub Pages daminɛ ani ka domɛni sigi i ye (taabolo 4).</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>a bɛ labɛn na</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>a labɛnna</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>ka bɔ GitHub Actions la</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>ka bɔ bolo %branch la</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>foyi fɔlɔ</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>a ma sɔrɔ</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>a datugulen</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>dogolen</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>kɛnɛ kan</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>a bɛ ɲɔgɔnkɔ la</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>a tɛ dɔn</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%count ɲɛw %pages kɔnɔ:</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>Dɔ .gz (ani .br) fayili bɛɛ sɛbɛnni fayili kɛrɛ fɛ, ɲɛmɔgɔw ye minnu b'u di.</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>Ɲɛ fitinin adirɛsi kɔrɔ ni ɲɛ tɔgɔ wɛrɛ bɛɛ ye, walasa jɛɲɔgɔnya kɔrɔw ka taa a fɛ baara la.</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>A bɛ sɛbɛn tuma bɛɛ ni GitHub Actions ye sitɛ lase.</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>SPDX id i n'a fɔ CC-BY-4.0, wala sɛbɛnni yɛrɛ.</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>Kabaki</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>Weleli serivɛri ma</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Hakilinaw</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>Formulɛriw minnu bɛ kunnafoni lajɛ</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>GitHub Actions baarakɛcogo</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>Yɔrɔ gansan dɔgɔya ani hakilinaw tɛ ɲɛw kɔnɔ.</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>Kɔnɔnafili sariyaw</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Don</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>Fitinya</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>Formulɛri wɛrɛw</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>Ka fatin sani</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>Ɲɛ ɲɔgɔnyew</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>Ɲɛ ɲɔgɔnyew: %count.</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Ɲinini</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>Ɲinini kɔdɔnnisɛbɛn: ɲɛ %pages %languages kɔnɔ.</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>Cogoyasɛbɛnw ni sɛbɛnw minnu tɔgɔ bɛ u kɔnɔnafili hash la, walasa baarakɛminɛnw ka se u mara.</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>Ɲɛ ncininen minnu, miniti damadɔ kɔfɛ ɲɛsinni laban kɔ (cronjob yɔrɔ staticpublish).</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>Kɔnɔnafili sariya, ka bɔ yɔrɔ duguma in na.</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>Sitɛ bɛɛ, waati sigilen na (cronjob yɔrɔ staticpublish).</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>Ɲɛ yɔrɔ òn bɛ serivɛri wajibiya; dɔ o dɔ ye dɛmɛbaara sɔrɔ. A lajɛ sani i ka bila kɛnɛ kan.</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>Min tɛ baara kɛ statiki cogo la</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>Mara ye mun ye, mɔgɔ min bɛ a da hɔsti kan.</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>bɔra a la</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>dɛmɛ sɛbɛn</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>sitɛ kɛnɛ formulɛri laban</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>sitɛ kɛnɛ</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>kopi ɲinini ɲɛ</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>Formulɛri ma se ka ci.</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>I ni ce: formulɛri cira.</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>Formulɛri ma sɔn: i ka min sɛbɛn, a lajɛ ka a ci tuun.</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>Jɛɲɔgɔnya minnu bɛ taa ɲɛ minnu tɛ kopi kɔnɔ, olu bɔ</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>Jɛɲɔgɔnya minnu bɛ taa ɲɛmɔgɔya la, olu bɔ</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>U ka sɛbɛn bɛ to yen. Jaw, fɔrimiw ani jɛɲɔgɔnya minnu bɛ taa siti wɛrɛw la, olu tɛ bɔ abada.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Wɛrisiyɔn</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>Siti dondaw minnu bɛ bɔ</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siti donda</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>Ju la</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>Siti donda si tɛ ju la: kelen-kelen bɛɛ bɛ a ka kɛsu kɔnɔ, ju bɛ u lajɛ</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Siti dondaw</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>Siti donda kelen sugandi, walima caman minnu bɛ jatigi kelen tila u ka URI daminɛ fɛ. Min bɛ ju la, o bɛ di yen, tɔw bɛ u ka daminɛ kɛsu kɔnɔ (/ger/); u cɛ siriw bɛ to kopi kɔnɔ. Ɲɛmɔgɔya siti dondaw tɛ jira abada.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>%target ka bɔli sabali ma se ka kɛ %site kan</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>%target ka bɔli sabali sera ka kɛ %site kan</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>%site de ye nin bataki ci bawo bɔli sabali kuntilenna %target b'a ɲini.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>Jɛnsɛn %deploy ma ɲɛ %site kan</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>Jɛnsɛn %deploy bɛ makɔnɔni na da dɔ la %site kan</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>Jɛnsɛn %deploy ɲɛna %site kan</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>Nin bataki ci bɔra %site fɛ bawo migration.ini [RemoteSettings] Notify[] b'a ɲini.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>Kunnafoni suguyaw (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>A jatera %time, a bɛ jate kokura miniti %minutes kɔfɛ</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>Kunnafoni suguya bɛ kilasi atiribi ka nafa suguya kelen mara ani k'a yɛlɛma: sɛbɛnni sira, ja, jɛɲɔgɔnya. Kisɛ de bɛ u fanba lase, farafɛnw bɛ dɔw fara u kan. U bɛɛ filɛ nin ye, minnu b'u di ani kɔnɔkow hakɛ min b'u kɛ baara la. Kunnafoni suguya min bɛ kɛ baara la kunnafoni marayɔrɔ la nka foyi t'a sɛbɛn tun, o bɛ kɔnɔko tiɲɛ min b'a la.</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>Kilasi jɛkuluw</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>Jate kokura sisan, i kana miniti laban ninnu jatew kɛ baara la.</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>Jate kokura</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Lajɛ kunba</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>Tɔgɔsɛbɛnnen</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>A bɛ baara la</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>A ma baara</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>Farafɛn minnu bɛ kunnafoni suguyaw di</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>Kilasi atiribiw</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>Objɛ atiribiw</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>A ma sɛbɛn</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>A bɛ lisi la, filiye tɛ yen</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>Kunnafoni suguya %count bɛ kɛ baara la nka u ma sɛbɛn</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>Kilasi atiribi %class_attributes ani objɛ atiribi %object_attributes ka kunnafoni suguya ye farafɛn walima labɛn si t'o sɛbɛn. U ka objɛw tɛ se ka jira, ka yɛlɛma walima ka bɔ kɛnɛ kan. Farafɛn min bɛ kunnafoni suguya di, o lakunun, walima kilasi yɛlɛma.</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>Ninnu dɔrɔn jira</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>Kunnafoni suguya ɲini</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>Taamasiyɛn, tɔgɔ, PHP kilasi walima farafɛn.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Jira</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Bɛɛ</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>A dibaga</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>Mɔgɔ bɛɛ</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>Kisɛ</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>Kunnafoni suguya si tɛ bɛn nin sɛgɛsɛgɛli ma.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Bɛɛ jira</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>Farafɛn</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%shown kunnafoni suguya %count la, %used bɛ kɛ baara la</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>Kunnafoni marayɔrɔ ka kilasi walima objɛ atiribiw bɛ nin kunnafoni suguyaw la, nka content.ini ma u si sɛbɛn, walima u ka filiye tɛ yen.</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>%provider ka kunnafoni suguyaw</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>Kunnafoni suguya</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>PHP kilasi ani filiye</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>Kilasiw</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>Objɛw</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>Taamasiyɛnw</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>foyi</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>Kunnafoni suguya si tɛ bɛn ɲinini ma. Ɲinini jɔsi.</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>Kunnafoni suguya %count la, %shown jirala</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>Kunnafoni suguya jiralenw: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>Bolo da %column ye</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>A jatera %time</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>Kunnafoni suguyaw bɛɛ</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>Dɛmɛ ɲɛ</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>Nin kunnafoni suguya bɛ kɛ baara la nka a ma sɛbɛn</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>Kilasi minnu bɛ duguma, olu ka objɛw tɛ se ka jira, ka yɛlɛma walima ka bɔ kɛnɛ kan ni farafɛn si ma kunnafoni suguya sɛbɛn. Farafɛn min b'a di, o lakunun ani k'a fara content.ini [DataTypeSettings] AvailableDataTypes[] kan, walima kilasiw yɛlɛma.</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini ye nin kunnafoni suguya sɛbɛn, nka kunnafoni suguya furancɛ si t'a ka filiye ye. Foyi t'a kɛ baara la; a bɔ AvailableDataTypes[] la walima a ka farafɛn lakunun.</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>Nin kunnafoni suguya ko la</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>Taamasere</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Tɔgɔ</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Farafɛn %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>mɔgɔ si</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>PHP kilasi</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Fisiye</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>AvailableDataTypes[] kɔnɔ</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ɔwɔ</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ayi</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>A nafa kolonw</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>A ka kilasi atiribi labɛnw kolonw</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>Tabliw</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>Kolonw ni tabaliw sɔrɔla kunnafoni suguya ka kode kalanni fɛ: ɲɛminɛni don, layidu tɛ.</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>Modɛliw</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siti donda</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>Modɛli</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>A sɔrɔla yan</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>nin ɲɛmɔgɔya</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>siti fɔlɔ</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>Override tɛ: override modɛli min bɛ bɛn kilasi walima atiribi ma, o bɛ ninnu kunna.</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>Kilasi minnu b'a kɛ baara la (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>Kilasi si tɛ nin kunnafoni suguya atiribi ye.</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Kilasi</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>Atiribiw</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>Kilasi atiribiw (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>Atiribi</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Labɛnw</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>A ka kan</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>A bɛ se ka ɲini</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>A bɛ se ka bayɛlɛma</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>A bɛ kunnafoni lajɛ</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>Kɔnɔko dɔw minnu b'a kɛ baara la</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>Laban yɛlɛmalen fɔlɔ</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Yɛlɛmana</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>Nɔdi %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>Bayɛlɛmani kelen kelen bɛɛ n'a yɛrɛ nafa don.</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>Ɲinini b'a nafaw sɛbɛn.</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>A bɛ se ka kunnafoni lajɛ ka bɔ lajɛlikɛlaw fɛ (formiw).</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>Lisiw bɛ se ka labɛn a fɛ: labɛnni kile %type.</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>A bɛ se ka bolo da</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>A nafaw bɛ objɛ wɛrɛw jira.</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>Jɛɲɔgɔnyaw</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>A bɛ se ka fa ni sɛbɛnni gansan ye (import, REST).</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>Ka bɔ sɛbɛnni na</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>A bɛ se ka fa ni filiye ye.</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>Ka bɔ filiye la</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>A ka kilasi atiribi labɛnw bɛ don pakɛw la.</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>Pakew</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>Kɔnɔkow (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from ka se %to ma %count na</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Lisi sɛnsɛn</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>Kilasi bɛɛ</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Sekisiyɔn</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Kanw</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Tigi</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Bilalen</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>Bolodacogo yɛlɛma kɔ ma</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Fɛn si tɛ</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>ɲɛ kelen na</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Fɛn %count jira ɲɛ kelen kɔnɔ.</translation>
     </message>
 </context>
 </TS>

@@ -2,14 +2,14 @@
 title: exphelp.ini [Landing_admin]
 audience: developer, admin
 category: examples
-summary: "The settings of [Landing_admin] in exphelp.ini: StartPage, Related"
-keywords: exphelp.ini, Landing_admin, INI, setting, StartPage, Related
+summary: "The settings of [Landing_admin] in exphelp.ini: StartPage, InfoPages, Related"
+keywords: exphelp.ini, Landing_admin, INI, setting, StartPage, InfoPages, Related
 type: generated
 generated: exp:help:examples
 ---
 # exphelp.ini [Landing_admin]
 
-The block `[Landing_admin]` of `settings/exphelp.ini`, with 2 setting(s).
+The block `[Landing_admin]` of `settings/exphelp.ini`, with 3 setting(s).
 
 Never edit `settings/exphelp.ini` itself: an update replaces it. Put the settings you change in an override, which wins over the shipped file:
 
@@ -26,6 +26,30 @@ Default: `help/admin-tour.md`.
 # settings/override/exphelp.ini.append.php
 [Landing_admin]
 StartPage=help/admin-tour.md
+*/ ?>
+```
+
+## InfoPages
+
+Default: a list of 11: `help/migrations/migrations-for-administrators.md`, `help/migrations/README.md`, `help/migrations/in-the-administration.md`, `help/migrations/a-tour-of-setup-migrations.md`, `help/migrations/deploy-step-by-step.md`, `help/migrations/when-a-migration-fails.md`, `help/migrations/recipes/captions-and-rollback-in-practice.md`, `help/migrations/faq.md`, `guides/host-static-sites-on-github-pages.md`, `help/static-publishing/keep-private-content-private.md`, `help/static-publishing/github-pages-limits-and-terms.md`.
+
+```ini
+<?php /* #?ini charset="utf-8"?
+# settings/override/exphelp.ini.append.php
+[Landing_admin]
+# an empty "InfoPages[]" first replaces the shipped list; without it the items are added
+InfoPages[]
+InfoPages[]=help/migrations/migrations-for-administrators.md
+InfoPages[]=help/migrations/README.md
+InfoPages[]=help/migrations/in-the-administration.md
+InfoPages[]=help/migrations/a-tour-of-setup-migrations.md
+InfoPages[]=help/migrations/deploy-step-by-step.md
+InfoPages[]=help/migrations/when-a-migration-fails.md
+InfoPages[]=help/migrations/recipes/captions-and-rollback-in-practice.md
+InfoPages[]=help/migrations/faq.md
+InfoPages[]=guides/host-static-sites-on-github-pages.md
+InfoPages[]=help/static-publishing/keep-private-content-private.md
+InfoPages[]=help/static-publishing/github-pages-limits-and-terms.md
 */ ?>
 ```
 

@@ -36,12 +36,12 @@ Anonymous role does not, and the help is never shown to visitors who are not sig
 Editor role `exphelp/read`. On an installation from before the help system, grant it with
 
 ```sh
-php bin/php/addexphelpreadpolicy.php --dry-run      # lists what it would grant
-php bin/php/addexphelpreadpolicy.php                # the Editor role
-php bin/php/addexphelpreadpolicy.php --role=Editor --role=5
+php bin/php/addexphelpreadpolicy.php                # dry run: lists what it would grant
+php bin/php/addexphelpreadpolicy.php --apply        # the Editor role
+php bin/php/addexphelpreadpolicy.php --apply --role=Editor --role=5
 ```
 
-(`./console exp:help-grant` runs the same command.) Roles that already read the help are left alone, so it can run
+(`./console exp:help-grant --apply` runs the same command.) Roles that already read the help are left alone, so it can run
 again. By hand: Roles and policies, the role, New policy, module `exphelp`, function `read`.
 The Help button appears only for users who have it.
 
@@ -139,6 +139,9 @@ its id, and wins over its front matter:
 PageOrder[]
 PageOrder[project/README.md]=0
 PageOrder[INSTALL.md]=10
+PageOrder[CONFIGURING.md]=11
+PageOrder[EXTENDING.md]=13
+PageOrder[INTEGRATING.md]=14
 PageOrder[languages.md]=20
 PageOrder[branch-overview.md]=30
 PageOrder[release-overview]=40
@@ -489,6 +492,17 @@ is at and the settings, not the git index file itself: `git status`, or a commit
 file, keeps the index, the search index and the rendered pages. A new index is built by one process at a time; the
 other requests use the newest index already in the cache until it is ready (the search index likewise), instead
 of each building its own. Removed versions are also dropped from OPcache, so its memory is reclaimed.
+
+A help page never waits for a build (15 to 30 seconds) while an older index is in the cache: it answers from that
+one and starts `exp:help index` for its language in the background (`setsid`; the marker `index.building` keeps it
+to one build, and a marker older than five minutes is retried). The page after the build uses the new index. Only
+when there is no index at all (a fresh installation, a new index format) does a request build it itself.
+`exp:velocity deploy` builds the index right after the caches are cleared (step "help index"), so the first help page
+after a landing already shows the new pages. Every siteaccess and the console build the same index: the
+extensions whose documentation it holds are `ActiveExtensions[]` and the `ActiveAccessExtensions[]` of every
+siteaccess, never only those of the current one, so a console run no longer replaces the administration's index.
+The lock and marker files get the storage file mode, like the index, so a console run as root leaves them usable
+by the web server. The order of the pages for the previous and next links is kept per index in `order/`.
 
 ## Languages and accessibility
 

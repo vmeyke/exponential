@@ -32,8 +32,8 @@ und Ablehnungen, Inhaltsänderungen, geschriebene Einstellungen, geleerte Caches
 in der Administration oder auf der Kommandozeile lesen“ ([Das Prüfprotokoll](../../funktionen/6.0/pruefprotokoll.md)). „Jeder
 Eintrag trägt den Hash des Eintrags davor (eine Hash-Kette)“, und ein Befehl `verify` sagt, ob etwas bearbeitet oder
 herausgeschnitten wurde. Das Prüfprotokoll geht auch sorgsam mit den Menschen um, die es aufzeichnet: Adressen werden gekürzt,
-und Passwörter werden nie aufgeschrieben. (6.0.15 ist in Entwicklung und nicht erschienen; die Funktion wurde am
-2. Oktober 2026 hinzugefügt.)
+und Passwörter werden nie aufgeschrieben. (6.0.15 ist die aktuelle Linie von Exponential 6.0; die Funktion wurde am
+2. Oktober 2026 hinzugefügt, das ist ein Datum der Änderung, kein Veröffentlichungsdatum.)
 
 ## Was neu ist, und seit wann
 
@@ -49,7 +49,7 @@ und Passwörter werden nie aufgeschrieben. (6.0.15 ist in Entwicklung und nicht 
 | Fakt | Quelle |
 |---|---|
 | Es ist standardmäßig eingeschaltet und braucht keine Einrichtung. | [Das Prüfprotokoll](../../funktionen/6.0/pruefprotokoll.md) |
-| Jeder Eintrag trägt den Hash des vorherigen; Tagesdateien werden abgeschlossen, archiviert und in signierten Manifesten aufgeführt. | [Das Prüfprotokoll, Wozu Sie es brauchen](../../funktionen/6.0/pruefprotokoll.md#warum-sie-es-wollen) |
+| Jeder Eintrag trägt den Hash des vorherigen; Tagesdateien werden abgeschlossen, archiviert und in signierten Manifesten aufgeführt. | [Das Prüfprotokoll, Warum Sie es wollen](../../funktionen/6.0/pruefprotokoll.md#warum-sie-es-wollen) |
 | Alarmregeln achten auf Brute-Force-Anmeldungen, die Vergabe einer Administratorrolle, außerhalb der Arbeitszeit geschriebene Einstellungen, Massenlöschungen, das Abschalten des Audits und eine unterbrochene Kette. | ebenda |
 | Adressen werden gekürzt, Sitzungen gehasht, User-Agents verkürzt, Werte aus Abfragen entfernt. | ebenda |
 | Passwörter, Tokens, Reparaturschlüssel und Geheimnisse werden nie aufgezeichnet. | ebenda |

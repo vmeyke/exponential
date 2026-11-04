@@ -15,6 +15,20 @@ work, what that means for a hosting platform, and what to watch on panels, conta
 Windows. The full support statement with every system is
 [Operating system support](../../os-support.md); this page arranges it for hosts.
 
+> **Warning**
+> **`.htaccess` slows down every request.** When `.htaccess` files are enabled (`AllowOverride` anything but `None`), let alone
+> used, Apache looks for them and reads and evaluates them on every request, in every directory of the path, and
+> page loading times go up drastically ([measured](../../../guides/setup-files-from-the-console.md#measured-htaccess-against-rules-in-the-virtual-host)). The only real fix is to switch the feature off for
+> the virtual host: `AllowOverride None` in the HTTPS virtual host, and the rules in the virtual host's own
+> configuration as mod_rewrite rules. That is far faster in production speed tests and well worth the time it takes
+> to optimize a production configuration. Switch over right away: copy the rules of the
+> [example HTTPS virtual host](../../../examples/web-servers/apache-virtual-host.md) into your virtual host (with the static cache, also
+> [`staticcache_offload.conf`](../../../examples/staticcache_offload.conf)), set `AllowOverride None`, run `apachectl configtest`, reload Apache and
+> test the site. The same rules for other servers: [nginx](../../../examples/web-servers/nginx.md), [LiteSpeed](../../../examples/web-servers/litespeed.md),
+> [Caddy](../../../examples/web-servers/caddy.md), [IIS](../../../examples/web-servers/iis.md), [Velocity](../../../examples/web-servers/velocity.md) (built in); where virtual host rules go in a control
+> panel: [Plesk](../panels/plesk.md), [cPanel](../panels/cpanel.md), [DirectAdmin](../panels/directadmin.md), [ISPConfig](../panels/ispconfig.md).
+> **On LiteSpeed or OpenLiteSpeed,** the server's own page cache can also answer anonymous visitors and crawlers without PHP: [Page caching with LiteSpeed and OpenLiteSpeed](../../../guides/litespeed-page-cache.md).
+
 ## Contents
 
 1. [The short answer](#the-short-answer)
@@ -30,7 +44,7 @@ Windows. The full support statement with every system is
 
 ## The short answer
 
-Exponential 6.0.x runs on almost any operating system that has PHP 8.0 or later and a web server. It is plain PHP
+Exponential 6.0.x runs on almost any operating system that has PHP 8.0 or later (PHP 7.4 usable without support) and a web server. It is plain PHP
 files plus a database; it has no compiled code of its own and no dependency on one C library
 ([OS support](../../os-support.md#what-the-operating-system-has-to-provide)). For a host the practical choice is a
 current Linux distribution with a maintained PHP 8.

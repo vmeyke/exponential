@@ -984,6 +984,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>Dušše dát siidu ohccojuvvo: %from rádjai %to, buohkaid lohku %count.</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Juohke dáhtašládja váimmus ja lasáhusain, ja mo luohkát ja sisdoallu dan geavahit.</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Dáhtašládjjat</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2316,6 +2324,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>Vuogádatsiiddut sáhttet maiddái girjemearkkaid: raba siidu (Ásaheapmi, dárkkistanlogga, geavaheaddjilistu ...) ja vállje Girjemearke dán siiddu das bajábealde. Dákkár girjemearkkain lea ráhtaikona.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>Dus ii leat šat lohpi rahpat dán siiddu dáppe. Váldde eret girjemearkka, dahje bivdde hálddašeaddjis beassanlobi.</translation>
     </message>
 </context>
 <context>
@@ -5165,6 +5177,210 @@
         <source>Go to the first page</source>
         <translation>Mana vuosttaš siidui</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>Eará</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>Maŋimuš 7 beaivvi</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>Iežas áigodat</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>Buot sánit</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>Vaikko makkár sátni</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>Dárkilis cealkka</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>Relevánsa</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>Namma A–Ž</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>Namma Ž–A</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>Rievdaduvvon, ođđasepmosat vuos</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>Rievdaduvvon, boarrasepmosat vuos</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>Almmuhuvvon, ođđasepmosat vuos</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>Almmuhuvvon, boarrasepmosat vuos</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Rievdaduvvon</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>Sillut</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>Čájet silluid</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>Čiega silluid</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Nuollat</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>Geavahit</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>Sánit</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>Sisdoallotiipa</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>Čájet eambbo (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>Vállje ovtta sisdoallotiippa ohcat ovtta dan attribuhtain.</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Oassi</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Gos</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Gosa</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>Álgobeaivi ii leat gustovaš beaivemearri.</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>Loahppabeaivi ii leat gustovaš beaivemearri.</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Eaiggát</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>Geavaheaddji ID, sisačálihannamma dahje e-poastačujuhus.</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>Ii gávdnon geavaheaddji ”%input” várás.</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Giella</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>Vaikko makkár giella</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Sajádat</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>%count sajádaga</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>Bohtosat juohke siidui</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>Bohtosat ”%text” várás (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>Bohtosat (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>Sorteret dan mielde</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>Sorteren</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>Aktiivvalaš sillut</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>Váldde dán sillu eret</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>Dahje vállje silluid ja geavat daid čájehit sisdoalu mii heive daidda.</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>Sillut gáržžidit ohcama go leat čállán sániid.</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>Eai gávdnon bohtosat ”%text” várás.</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>Eai gávdnon bohtosat.</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>Váldde eret ovtta sillu bajábealde.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Jorgalusat</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Doaimmat</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>Rievdadit %name</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Rievdadit</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -7514,6 +7730,10 @@
         <source>Setup &gt; Cronjobs</source>
         <translation>Ásaheapmi &gt; Cron-barggut</translation>
     </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>Ii oktage cron-barggu oassi leat vel vuodjan: bargovuordinláhkki, sisafievrrideamit, dieđáhusat ja ohcanindeaksa vurdet. Vuoje php bin/php/installcrontab.php --add --apply, dahje lasit --show linjáid crontab:ii.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/dashboard/drafts</name>
@@ -8058,8 +8278,8 @@
         <translation>Álgoálgosaš čálliid ja Exponentialain mielde juhkojuvvon goalmmátoasi prográmmaid sárgáhusrievttiid dieđut leat vurkejuvvon gáldofiillain ja LICENSE-fiillas, nu mo liseansa gáibida.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>Čuovvovaš lea listu Exponential-veahkeheaddjiin geat leat liseanseren iežaset barggu 7x:a geavahussii eZ Systems Contributor Licensing Agreement -šiehtadusa eavttuid vuolde. Nu mo šiehtadus lohpida, 7x juhká viidáseappot juohke veahki seamma liseanssa vuolde go dat fiila masa dat gullá. Listu namuha juohke veahkeheaddji, eaktodáhtolaš oktavuođadieđuid ja fiillaid maidda son lea veahkehan.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>Oasseválddit geaid namahuvvojit sin barggu dihte Exponential ja dan prográmma, mas dat šattai, oktan fiillaiguin maidda sii leat váikkuhan. Dát lea dovddasteapmi, ii ge dahkkivuoigatvuođa dieđáhus: oasseváldimat Exponentialii addojuvvojit Exponential Foundationii ja 7x:ii Contributor Licensing Agreement mielde.</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13881,32 +14101,20 @@ Muitte: Páhkaid sajáiduhttin ii sihkkojuvvo.</translation>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%evaluate_link"&gt;Geahččal Exponential Enterprise Edition&lt;/a&gt; - &lt;a href="%share_link"&gt;Šadde Exponential-searvvi miellahttun, fievrrit dieđuid ja mielváikkut&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; ja earát.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class="edition-info"&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>Doaibmagoahtá prográmmain &lt;span class="edition-info"&gt;%edition&lt;/span&gt;. Eanet dieđut: &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; ja earát.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> Eanet dieđut: &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
     </message>
     <message>
-        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; ja earát.</translation>
+        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href="%evaluate_link"&gt;Geahččal Exponential (7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;Šadde Exponential-searvvi miellahttun, oaččut doarjaga ja mielváikkut&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; ja earát.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13915,6 +14123,61 @@ Muitte: Páhkaid sajáiduhttin ii sihkkojuvvo.</translation>
     <message>
         <source>Help center</source>
         <translation>Veahkkeguovddáš</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>Sisdoallu</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>Dokumeantta siiddut</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>Geavaheaddjit</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>Sisdoalloluohkkát</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>Hálddašeapmi</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>Siidu %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>Čájet buot bohtosiid</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>%count bohtosa</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>Okta boađus</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>%count evttohusa</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>Eai leat evttohusat</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>Evttohusaid ii sáhttán viežžat.</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>Evttohusat</translation>
     </message>
 </context>
 <context>
@@ -14383,6 +14646,14 @@ Muitte: Páhkaid sajáiduhttin ii sihkkojuvvo.</translation>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>Dát sajáiduhttin lea almmolaš demo: gii beare sáhttá dovdat dan hálddašeaddji beassansáni, ja hálddašeaddji beassansániid ii sáhte rievdadit dahje máhcahit. Ale čále dása mihkkege priváhta.</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Du neavvut</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Sihkarvuođadoaimmat</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14672,6 +14943,14 @@ Muitte: Páhkaid sajáiduhttin ii sihkkojuvvo.</translation>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>Oahpuid, ohcan ja mo dieđát meattáhusa.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Ođđa sisdoallu</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Ođđaseamos sisdoallu, mii lea doallojuvvon guorahallama várás, ja doaimmat válljemiin.</translation>
     </message>
 </context>
 <context>
@@ -15130,6 +15409,46 @@ Muitte: Páhkaid sajáiduhttin ii sihkkojuvvo.</translation>
         <source>Synchronisations</source>
         <translation>Sihkkarastimat</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>GraphQL-API: dan loahppačuokkis, hápmi ja stoahkanbáiki gos geahččalit jearaldagaid.</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migrašuvnnat</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Installašuvnna rievdadusat fiilan seailluhuvvon: sin dilli, vuodjimat, vuodjin ja ruovttoluotta máhcaheapmi.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Ođđa sisdoallu</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Ođđaseamos sisdoallu, mii lea doallojuvvon guorahallama várás, ja doaimmat válljemiin.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Almmut neahttabáikki stáhtalaš kopiija GitHub Pages:ii dahje makkár beare git-guossoheaddjái.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Stáhtalaš almmuheapmi</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Dáhtašládjjat</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Juohke dáhtašládja váimmus ja lasáhusain, ja mo luohkát ja sisdoallu dan geavahit.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15294,6 +15613,22 @@ Muitte: Páhkaid sajáiduhttin ii sihkkojuvvo.</translation>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>Kontot maid oktage ii geavat dahje mat dárbbašit geahčadit; heaittit, rabas dahje olggosfievrit daid.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Geavaheaddjiid revišuvdnalogga</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>Gii rievdadii, čálihii sisa dahje hilgojuvvui, kontto mielde; sillo ja fievrrit olggos.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Sisačálihanraporta</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>Gii lea sisačálihuvvon, sisačáliheamit ja meattáhusat beaivválaččat; čálit geavaheaddji olggos juohke sajis.</translation>
     </message>
 </context>
 <context>
@@ -22110,6 +22445,22 @@ Muitte: Páhkaid sajáiduhttin ii sihkkojuvvo.</translation>
         <source>%n hours ago</source>
         <translation>%n diibmu áigi</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>GraphQL-API:a vurkejuvvon jearaldagaid vástádusat ja dan hámi sisdoalloluohkát.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>Almmut stáhtalaš kopiija GitHub Pages:ii dahje makkár beare git-guossoheaddjái</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Stáhtalaš almmuheapmi</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>Stáhtalaš gaskavuorká fállá siidduid dán bálvás. Jus háliidat almmuhit neahttabáikki stáhtalaš kopiija eará sajis, GitHub Pages:is dahje makkár beare git-guossoheaddjis, geavat stáhtalaš almmuheami.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25651,6 +26002,10 @@ Muitte: Páhkaid sajáiduhttin ii sihkkojuvvo.</translation>
     <message>
         <source>last purge</source>
         <translation>maŋimuš sihkkun</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>Čállimat eai sáhttán váldit dili lohkka (maŋimuš háve %date): juohke okta dagai buot gurrejuvvon bohtosiid boarásmuvvan. %file ferte leat čállinláhkái juohke geavaheaddjái geainna neahttabáiki doaibmá; NFS:s dárbbaša NFSv4 dahje lockd.</translation>
     </message>
 </context>
 <context>
@@ -33599,6 +33954,14 @@ Muitte: Páhkaid sajáiduhttin ii sihkkojuvvo.</translation>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>PHP-gieđahalli gollan sešuvnnaid váldá eret PHP ieš (session.gc_maxlifetime), ii dát siidu iige session_gc-cron-barggu oassi.</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>Buot geavaheddjiid sisačálihuvvon sešuvnnat čájehuvvojit ja čálihuvvojit olggos sisačálihanraporttas, mii doaibmá buot sešuvnnaid gieđahalliiguin.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>Rahpat sisačálihanraportta</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37923,6 +38286,26 @@ du konto.</translation>
     <message>
         <source>None yet</source>
         <translation>Ii vel ii oktage</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Sihkarvuođadoaimmat</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>Du maŋimuš sisačáliheamit, eahpelihkostuvvan geahččaleamit ja rievdadusat du beassansáni, e-poastačujuhusa ja guovtteaskkálaš sisačálihusa ektui.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>Dán kontu maŋimuš sisačáliheamit, eahpelihkostuvvan geahččaleamit ja sihkarvuođarievdadusat.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>Geahčadit doaimmaid</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>Eahpelihkostuvvan sisačáliheamit: %count</translation>
     </message>
 </context>
 <context>
@@ -44089,6 +44472,42 @@ Jus háliidat sáddet kommeanttaid dohkkehaddjái dahje oaidnit stáhtusa, geava
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>Maŋŋel sisačálihemiin geavaheaddji ferte válljet ođđa beassansáni ovdalgo máhttá dahkat eará. Geavat dán go addet earáide gaskaboddosaš beassansáni.</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>Vállje gova mii juo gávdno</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>Dan objeavtta govvafiila maid válljet máŋgejuvvo dán gieddái. Nubbi objeakta ii rievdda.</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>”%name” govva máŋgejuvvui dán gieddái.</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>Bláđđe gova</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>Oza govaid nama mielde</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Ohcat</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>Geavat ”%name” gova</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>Geavat dán gova</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>Ii oktage govva heive du ohcamii.</translation>
     </message>
 </context>
 <context>
@@ -51013,6 +51432,10 @@ Geahča gáibádussiidda eambbo dieđuid dihte.</translation>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>Crontab ii čállojuvvon (%reason). Lasit dát linnját crontabii geavaheaddjis gii neahttabáikki vuoddjá, muđui vuordinláhkki, sisafievrridemiid, dieđáhusaid ja ohcanindeaksa eai goassige vuodját:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>Ođđasit sajáiduhttin dahkkojuvvo kickstarteriin (%file, dasto php bin/php/kickstarter.php run --apply) dahje ođđa sajáiduhttimiin.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54892,6 +55315,10 @@ du konto.</translation>
         <source>eZJSCore Public Packer cache</source>
         <translation>eZJSCore almmolaš packer-gaskavuorká</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>GraphQL-cache (vástádusat ja hámi luohkát)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54978,6 +55405,14 @@ du konto.</translation>
     <message>
         <source>Copy of %class_name</source>
         <translation>Máŋggus: %class_name</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Dáhtašládjjat</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>Dáhtašládja %string</translation>
     </message>
 </context>
 <context>
@@ -55804,6 +56239,26 @@ du konto.</translation>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>SVG-govva ii sáhttán lohkkojuvvot, dahje das ii sáhte maidege čájehit sihkkarit.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>Gova ii sáhttán máŋget. Geahččal ođđasit dahje váldde oktavuođa neahttabáikki administráhtoriin.</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>Válljejuvvon objeakta ii gávdno dahje dus ii leat lohpi lohkat dan.</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>Válljejuvvon objeavttas ii leat govva.</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>Válljejuvvon objeavtta govvafiilla ii sáhttán lohkat.</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>Válljejuvvon objeavtta govva lea stuorát go dát gieddi lohpida: %1 byte.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56334,6 +56789,42 @@ du konto.</translation>
         <source>The bookmark was renamed to "%name".</source>
         <translation>Girjemearka ođđa namma lea "%name".</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>Dát siidu lea heaittihuvvon dán neahttabáikebeassamis (%siteaccess). Raba girjemearkka neahttabáikebeassamis mas dát siidu lea.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>Dán siiddu moduvla ii leat sajáiduhttojuvvon dahje doaibmahuvvon dáppe.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>Dát siidu ii leat šat: dan moduvllas ii leat dakkár oaidnu.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>Ii oktage du rollain atte dutnje lobi rahpat dán siiddu.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>Dus ii leat lohpi geavahit dán neahttabáikebeassama.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>Dus ii leat lohpi lohkat sisdoalu maid dát siidu čájeha.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>Dákkár siidui ii sáhte lasihit girjemearkka: dat doaibmá dušše skovis, dahje lea siidu mii gusto dušše oanehis bottaža.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>Dán siiddu čujuhus váilu.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>Dán siiddu ii sáhte rahpat dál.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56805,6 +57296,10 @@ Don fertet rievdadit čuolmma luohká molsunfunkšuvnna bokte.</translation>
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>E-poasttajohtolat biehttalii %count reive maŋimus vuodjimis. Dárkkis e-poastabálvá ja site.ini MailSettings.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Dáhpáhusat mat vurdet: %count, ja dieđáhus-cron-barggu vuodjin ii leat registrerejuvvon. Lasit cron-barggu oasi &quot;frequent&quot; crontab:ii, dahje vuoje exp:notification:run --apply.</translation>
     </message>
 </context>
 <context>
@@ -63061,6 +63556,10 @@ Don fertet rievdadit čuolmma luohká molsunfunkšuvnna bokte.</translation>
         <source>Choose another site or section with the node picker</source>
         <translation>Vállje eará neahttabáikki dahje oasi čuolbmaválljejeaddjiin</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>Dušše vuogádathálddašeaddji sáhttá rievdadit eaiggáda: vuoje ./console exp:content-check --fix-permissions --apply root-geavaheaddjin.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64594,6 +65093,10 @@ Don fertet rievdadit čuolmma luohká molsunfunkšuvnna bokte.</translation>
     <message>
         <source>empty</source>
         <translation>guorus</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>Vuolláičállinčoavdda lea badjel jagi boaris: molso dan exp:audit key rotate --apply bokte.</translation>
     </message>
 </context>
 <context>
@@ -68424,6 +68927,486 @@ Don fertet rievdadit čuolmma luohká molsunfunkšuvnna bokte.</translation>
         <source>Share of page time</source>
         <translation>Oassi siiddu áigge</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>ollislaš hábmen bivdojuvvui</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>siidugaskavuorkkás ii lean siidu (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>siidugaskavuorká ii vástidan</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>Hábmejuvvon</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>Hábmejuvvon váimmu bokte: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>Fállan siidugaskavuorkkás, %ms ms. Siidu vurkejuvvui %stored hábmemis mii bisttii %render ms, %age s áigi.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>Hábmet dál</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>Ruovttoluotta gaskavuorká oidnosii</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>Hábmemis %stored (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>Dát bivdda: fállan siidugaskavuorkkás, %ms ms.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Geavaheaddji</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>Geavaheaddji-ID</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>Cache-profiila</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>Dát čájeheapmi</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>Oaidnogaskavuorká</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>juohke geavaheaddjái (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>Geavaheaddji cache-profiila: geavaheaddjit geain lea seamma profiila juogadit čájehusa cache-fiillaid</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>juo</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ii</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Geavaheaddjinamma</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>Sisačálihan</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>Sešuvdna</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>Sisdoalločájehusa cache-čoavdaga oasit mat gullet geavaheaddjái, dego čoavdda daid váldá, dán siiddu ViewCacheTweaks mielde. Geavaheaddjit geain lea seamma profiila juogadit čájehusaid cache-fiillaid, jus čájehusa iežas oasit (válljemat, listeneriid čoavddat) eai leat earáláganat: dain lea iežaset profiila, dušše dán siidui.</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>Profiila</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>Dát čájeheapmi (čuolbma %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: juohke sisačálihan geavaheaddjis leat iežas cache-fiillat.</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>Doaibmi ViewCacheTweaks: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>Oassi</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>Árvu</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>Ii oktage oassi gula geavaheaddjái (ViewCacheTweaks).</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>dát čájeheapmi</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>Máŋge teakstan</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>Rollat</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>Rolla-mearrideamit eai sáhttán lohkkojuvvot.</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>Rolla ID</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Rolla</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>Ráddjen</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>Mearriduvvon</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>geavaheaddjái</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>joavku %name (objeakta %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>Máŋgejuvvon</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>Ii sáhttán máŋget.</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>listener guođii olggobeallái</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>Anonyma oaidnit</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>seamma go du</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>earálágan</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>Profiila maid namahis guossit ožžot seamma ViewCacheTweaks vuolde, standárdaválljemiiguin, čájehusa osiid haga: listeneris mii lohká sešuvnna ii sáhte daid jearrat.</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>Válljemat</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>Ii oktage čájehusvuohki gula geavaheaddji válljemiidda (site.ini [ContentSettings] CachedViewPreferences).</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>Válljemat maidda dáid čájehusvugiid čájehusat gullet (CachedViewPreferences), geavaheaddji árvvuin dahje standárdaárvvuin. Dat leat profiilas userpreferences namas, buot čájehusvugiid oktan.</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>Čájehanvuohki</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>Válljen</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>Standárda</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>Njuolggadusat</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>Čájet rollaid njuolggadusaid (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>Njuolggadusat vižžojuvvojit serveris go dát oassi rahpasa, siidu hávális, ja daid sáhttá silla modula ja funkšuvnna mielde.</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>Doaibma</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>Buot moduvllat</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>Buot funkšuvnnat</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>Ráddjemat</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>Čájet eanet</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>Dáin rollain eai leat njuolggadusat.</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>Ii oktage njuolggadus heive sillii.</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%shown / %matching njuolggadusa (oktiibuot %total)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>Viežžá go rahpa.</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>module/function, rolla, ráddjejupmi</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>Oza njuolggadusaid</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>Viečča eambbo</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>Moduvla/doaibma</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>Buot rollat (%count njuolggadusa)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>Ii oktage njuolggadus heive.</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%shown %matched njuolggadusas</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>Eai vástádus</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>maskerejuvvon</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>Čájet čilgehusaid</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>Čiega čilgehusaid</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Rahpat</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>Rahpat buot</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>Gidđat buot</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>Čoavdi dahje árvu</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>Oza sešuvnnas</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Šládja</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>%count eanet</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>menddo čiekŋalit siskkildan čájehussii</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>oaniduvvon, oktiibuot %count mearkka</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Álggahuvvon</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>Diehtočoahku namma</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>Sešuvnna ID</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>Gieđahalli</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>Vurkenbálggis</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>PHP standárda</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>Eallinágga (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>Diehtočoahkku</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>eallinágga %s s</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>Du iežat PHP-sešuvdna, nugo dat lei go oassi rahppojuvvui, ii goassige eará. Čoavddaid árvvut mat orrot leame čiegusvuođat (tokenat, hashat, beassansánit), maskerejuvvojit (debugbar.ini SessionMask[]); buot eará čájehuvvo nugo dat lea vurkejuvvon, maiddái persovdnadieđut.</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>%count čoavddaid, %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>stuoris</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>Sešuvdna lea guorus.</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>Dán jearaldahkii ii álggahuvvon makkárge sešuvdna.</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Lasáhus %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>Váibmu ja earát</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>Buot merkošumit eai čájehuvvo: sešuvnnas lea eanet go dás sáhttá listut.</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>%count čoavddaid eai leat listejuvvon.</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>Rámma</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>Árvvut mat orrot leame token (JSON Web Token, Authorization-oaivegeaži duođaštusat, priváhta čoavdi, guhkes heksadesimála dahje sahtedohko teaksta), maskerejuvvojit maiddái, beroškeahttá mii sin čoavdi namma lea (debugbar.ini SessionValueMask[]).</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>Čoavdi orru leame čiegusvuohta (debugbar.ini SessionMask[]).</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>Árvu orru leame token.</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>Maskerejuvvon čoavddi vuolde.</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>Sešuvdna teakstan, maskerejuvvon nugo tabealla.</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>Sešuvdna lea stuorát go %size (debugbar.ini SessionWarnBytes): juohke dán geavaheaddji jearaldat lohká olles sešuvnna, ja čállá dan go dat lea rievdan.</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP vurke dán sešuvnna fiillaide ja loahkká fiilla olles jearaldaga áigge: seamma geavaheaddji jearaldagat (máŋga gilkora, AJAX-gohčumat) vurdet guhtet guimmiideaset.</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>Doalaha rabas</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>Stuorát go %size (debugbar.ini SessionWarnBytes): juohke dán geavaheaddji jearaldat lohká olles sešuvnna.</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%hits %count gaskkas lohkkojuvvon gaskavuorkkás</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>Ii makkárge málle hábmejuvvon (oaidnu mii lohkkojuvvo oaidnogaskavuorkkás ii hábme ovttage).</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>Rollamearrademat</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>Rollat ja njuolggadusat</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>earálagan go namahis guossiin</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>seamma go namahis guossiin</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70304,6 +71287,14 @@ Don fertet rievdadit čuolmma luohká molsunfunkšuvnna bokte.</translation>
     <message>
         <source>not sent</source>
         <translation>ii sáddejuvvon</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Dieđáhus-cron-bargu registrere dása juohke vuodjima. Lasit oasi frequent crontab:ii, dahje vuoje exp:notification:run --apply.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>Geavat konsolla: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -76022,6 +77013,98 @@ Don fertet rievdadit čuolmma luohká molsunfunkšuvnna bokte.</translation>
         <source>This topic is not Released; readers do not see it.</source>
         <translation>Dát fáddá ii leat Almmuhuvvon; lohkkit eai oainne dan.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migrašuvnnat</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Installašuvnna rievdadusat fiilan seailluhuvvon: sin dilli, vuodjimat, vuodjin ja ruovttoluotta máhcaheapmi.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Almmut neahttabáikki stáhtalaš kopiija GitHub Pages:ii dahje makkár beare git-guossoheaddjái.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Stáhtalaš almmuheapmi</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>Dárkkisteamis</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>Lohkkit oidnet dán siiddu.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>Čiehkkojuvvon lohkkiin dassážii go muhtun almmuha dan.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>Siidu lea dál Dárkkisteamis. Dat lea čiehkkojuvvon lohkkiin dassážii go dat almmuhuvvo.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>Siidu lea Almmuhuvvon: lohkkit oidnet dan dál.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>Siidu lea fas Luonos. Dat lea čiehkkojuvvon lohkkiin dassážii go dat dárkkistuvvo ja almmuhuvvo.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>Almmut dál</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>Dušše geavaheaddji geas lea rolla %role ja guhte ii čállán dán veršuvnna, sáhttá almmuhit dan.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>Veahkkefáttát mat vurdet almmuheami</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>Čiehká dan lohkkiin dassážii go dat almmuhuvvo fas.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>Dárkkisteaddji dárkkista dan dasto. Lohkkit eai oaine dan vel.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>Lohkkit oidnet dan dakkaviđe.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>Váldá dan eret dárkkisteamis eanet bargui. Lohkkit eai oaine dan.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>Čiehkat dán siiddu lohkkiin?</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>Sáddet dán siiddu ruovttoluotta Luonosii?</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>Lohkkit eai šat oaine %title dassážii go muhtun almmuha dan fas.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title máhcca Luonosii eanet bargui. Lohkkit eai ain oaine dan, ja dat dárbbaša ođđa dárkkisteami ovdal go almmuhuvvo.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Gaskkalduhttit</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>Dát fáttát leat Dárkkisteamis. Lohkkit oidnet daid go muhtun guhte ii čállán dálá veršuvnna almmuha daid.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76477,6 +77560,46 @@ Don fertet rievdadit čuolmma luohká molsunfunkšuvnna bokte.</translation>
         <source>None.</source>
         <translation>Ii mihkkege.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>autentiseren-prográmmain</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>kodain e-poastta bokte</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>máhcahankodain</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>beassančoavdagiin</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>olgguldas kontuin</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Sihkarvuođadoaimmat</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>Čájehuvvo fierpmádahkan; čujuhus vurkejuvvo nugo neahttabáikki dáhtasuodjalanheivehusat dadjet.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Ii merkejuvvon</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Sajádat</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>likká</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76720,6 +77843,42 @@ Don fertet rievdadit čuolmma luohká molsunfunkšuvnna bokte.</translation>
         <source>Manage devices</source>
         <translation>Hálddašit neavvuid</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>autentiseren-prográmmain</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>kodain e-poastta bokte</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>máhcahankodain</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>beassančoavdagiin</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>olgguldas kontuin</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Sihkarvuođadoaimmat</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Ii merkejuvvon</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Sajádat</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>likká</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76799,6 +77958,14 @@ Don fertet rievdadit čuolmma luohká molsunfunkšuvnna bokte.</translation>
         <source>View the sessions of this user</source>
         <translation>Čájehit dán geavaheaddji sešuvnnaid</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>Du kontu %login neahttabáikkis %site bokte čálihuvvui dál sisa báikkis gos dat ii leat čálihuvvon sisa áiggi mielde:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>Likká sajádat</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76837,6 +78004,10 @@ Don fertet rievdadit čuolmma luohká molsunfunkšuvnna bokte.</translation>
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%browser, %os</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Sisačálihanraporta</translation>
     </message>
 </context>
 <context>
@@ -77045,6 +78216,82 @@ Don fertet rievdadit čuolmma luohká molsunfunkšuvnna bokte.</translation>
         <source>The passkey could not be checked. Please try again.</source>
         <translation>Beassančoavdda ii sáhttán dárkkistuvvot. Geahččal ođđasit.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>Kontot mat čálihit sisa dušše beassančoavddaiguin eai sáhte geavahit beassansáni dáppe: vállje “Čálihit sisa beassančoavdain”.</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>%login beassančoavddat</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>Beassančoavddat maiguin dát konto čálihuvvo sisa. Gomit dan mii lea láhppon dahje suolahuvvon ovttadagas: dainna ii sáhte šat čálihit sisa. Ođđasiid lasiha eaiggát ieš.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>Du konto dárbbaša beassančoavdda</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>Lasit beassančoavdda iežat kontui</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>Lasit beassančoavdda vai sáhtát joatkit. Dan maŋŋá čálihat sisa dainna, iige dušše beassansániin.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>Sisačálihit beassančoavdain lea jođáneabbo ja sihkkareabbo go beassansátni. Lasit dál ovtta, dahje joatkke almmá.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>Ii dál</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>Gomihit beassančoavdda “%name”?</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>Dainna ii sáhte šat čálihit sisa dán kontui. Jus dat lei maŋimuš, de eaiggát čálihuvvo sisa beassansániin, dahje don biddjet ođđa.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>Gomihit beassančoavdda</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>Gomihit</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>Dán kontos ii leat beassančoavdda.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>Duođašteaddji</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Amas</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>Du maŋimuš beassančoavdda: lasit vel ovtta ovdal go váldát dan eret.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>Dát konto čálihuvvo sisa dušše beassančoavddaiguin (beassančoavdanjuolggadus): go ii leat šat oktage, de čálihuvvo fas sisa iežas beassansániin.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>Dát lea du maŋimuš beassančoavdda, ja du konto ii sáhte čálihit sisa almmá. Lasit vuos vel ovtta beassančoavdda.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>Beassančoavdda “%name” lea gomihuvvon. Dainna ii sáhte šat čálihit sisa dán kontui.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77144,6 +78391,34 @@ Don fertet rievdadit čuolmma luohká molsunfunkšuvnna bokte.</translation>
         <source>Code from your authenticator app</source>
         <translation>Koda autentifikašuvdnaprográmmas</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>Don leat sihkkomin dieđuid agibeaivái dahje guorusmahttimin loggja.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>Du beassansátni ja beassančoavdda</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>Du beassansátni ja koda du duođaštanapplikašuvnnas</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>Dahje:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>Dát fierpmádatlogan ii sáhte geavahit beassančoavddaid. Vállje eará vuogi dahje eará fierpmádatlogana.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>Go joatkkát, de du fierpmádatlogan jearrá ovtta du beassančoavddain.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>Joatkke beassančoavdain</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77234,6 +78509,70 @@ Don fertet rievdadit čuolmma luohká molsunfunkšuvnna bokte.</translation>
     <message>
         <source>Setup</source>
         <translation>Ásaheapmi</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>Rievdadit iežas beassansáni, e-poasttačujuhusa, beassančoavddaid, guovtteaskkálaš sisačálihusa, máhcahankodaid dahje API-čoavddaid, ja čálihit olggos iežas eará ovttadagain.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>Ráhkadit ja rievdadit geavaheddjiid, sin beassansániid ja ovttadagaid, kontoheivehusaid, dohkkehit dahje hilgut ođđa geavaheaddjikontoid, juohkit rollaid ja rievdadit njuolggadusaid.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>Dieđuid sihkkun</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>Ruskalihtti guorusmahttin, áđaid váldin eret das ja máŋga ávdnasa váldin eret oktanaga.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>Sisdoalu váldin eret, almmuheapmi ja vurken</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>Sisdoalu váldin eret (maiddái ruskalihttái), almmuheapmi ja luonosa vurken, jearrat go skovvi sáddejuvvo. Jáddaduvvon dábálaččat.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>Ovdal hearkkes doaimma sisačálihuvvon geavaheaddji duođašta ođđasit gii son lea: beassansániin ja beassančoavdain, dahje almmá beassančoavdda beassansániin ja duođaštanapplikašuvnna kodain. Dušše neahttasiiddut jerret: REST-lakta, SOAP, WebDAV, expservices-sisačálihus ja gohččunlinnjá eai goassege.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>Gos heivehusat gustojit</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>Heivehusat dása:</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Juohke neahttabáikebeassan</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>Neahttabáikebeassan %name</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Rahpat</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>Geas jerrojuvvo: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>Merke geavaheaddjijoavkkuid vai jerrojuvvojit dušše sin miellahtut (ovdamearkka dihte doaimmaheaddjit). Ii mihkkege merkejuvvon: juohke geavaheaddji.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>Vurkejuvvo settings/override/site.ini.append.php-fiilii, juohke neahttabáikebeassamii. Vurkemis jerrojuvvo duođaštit ahte don leat don.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>Vurkejuvvo settings/siteaccess/%name/site.ini.append.php-fiilii. Árvu settings/override:s manná ovdalii. Vurkemis jerrojuvvo duođaštit ahte don leat don.</translation>
     </message>
 </context>
 <context>
@@ -77336,6 +78675,6822 @@ Don fertet rievdadit čuolmma luohká molsunfunkšuvnna bokte.</translation>
     <message>
         <source>Open the page</source>
         <translation>Rahpat siidu</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from–%to, oktiibuot %count</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>Geavaheaddjinamma dahje geavaheaddji ID: konto maid dáhpáhus guoskkai, dahje geavaheaddji gii doaimmai.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Konto</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Doaibma</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>Maŋŋil</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>Buot bohtosat</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Ovdal</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Dahkki</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Guorrut</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Dahkkon</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>Dáhpáhusat vurkejuvvojit %days beaivvi.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>Dáhpáhusat vurkejuvvojit dassážii go dat sihkkojuvvojit gieđain.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Dáhpáhusat</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>Buot doaimmat</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>Dán kontto buot dáhpáhusat</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>Fievrrit listtu olggos CSV-fiilan (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Ii lihkostuvvan</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Rájes</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>Ráddje listtu</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>Ii oktage dáhpáhus heive.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Siidui</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>Registreren lea jáddaduvvon audit.ini-fiillas ([UserAuditSettings] UserAudit); listu čájeha dan mii registrerejuvvui ovdal.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Hilgojuvvon</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Bohtosat</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Čájet</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>Geavaheaddjiid revišuvdnaloggatabealla váilu. Ráhkat dan dáinna: php update/common/scripts/6.0/createuseraudittable.php; dassážii revišuvdnafiillat vurkejit buot dáhpáhusaid.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>Dát siidu dárbbaša SQL-diehtovuođu; dat ii leat olámuttus MongoDB:s. Revišuvdnafiillat vurkejit buot dáhpáhusaid.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Rádjái</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Geavaheaddjiid revišuvdnalogga</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Geavaheaddji</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Goas</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Gos</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>Gii rievdadii, ráhkadii, doaimmahii, jáddadii, sirddii dahje sihkui man kontto, gii čálihii sisa dahje hilgojuvvui, ja makkár rollat juhkkojuvvojedje: okta linnjá juohke dáhpáhussii, gieddiiguin ovdal ja maŋŋil. Beassansánit ja čiegusvuođat eai goassege registrerejuvvo.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>joavku</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>vuogádat</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>amas</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>Sihkkarastit konto</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>Máhcahankoda geavahuvvui čálihit sisa du kontui %login neahttabáikkis %site.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>Máhcahankoda geavahuvvui</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Konto</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>Likká čujuhus</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>Bivdde ođđa beassansáni vai sáhtát fas čálihit sisa, dahje váldde oktavuođa neahttabáikki hálddašeddjiiguin.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>Bivdit ođđa beassansáni</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>Juohke máhcahankoda doaibmá oktii. Jus leat massán telefovnna, ráhkat autentiseren-prográmma ođđasit ja vurke ođđa máhcahankodaid oadjebas sadjái.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>Eahpelihkostuvvan sisačálihangeahččaleamit du kontus</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>Dás duohko sisačálihus bivdá koda beassansáni lassin. Jus don dahket dán, de it dárbbaš maidege dahkat.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>Jus dat ledjet don ja leat vajálduhttán beassansáni, de bivdde ođđa. Jus ii, de vállje garraset beassansáni ja čuoggát guovtteaskkálaš sisačálihusa doaibmii.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>Jus dat it lean don, de soapmásaš sáhttá diehtit du beassansáni: rievdat dan dál ja dárkkis gos du konto lea sisačálihuvvon.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>Báhcán máhcahankodat</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>Geahčat lávdeidat</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>Sihkarvuođavárrehus</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>Soapmásaš geahččalii čálihit sisa du kontui %login neahttabáikkis %site boasttu beassansániin máŋgii maŋŋálagaid (geahččaleamit: %count).</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>Du kontus %login neahttabáikkis %site dáhpáhuvai sihkarvuođadáhpáhus.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>Dát lea sihkarvuođavárrehus du kontu birra. Dat sáddejuvvo juohke dakkár rievdadusa maŋŋá iige sáhte jáddaduvvot.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Áigi</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>Guovtteaskkálaš sisačálihus jáddaduvvui du kontus %login neahttabáikkis %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>Guovtteaskkálaš sisačálihus jáddaduvvui</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>Guovtteaskkálaš sisačálihus čuoggáhuvvui doaibmii du kontus %login neahttabáikkis %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>Guovtteaskkálaš sisačálihus čuoggáhuvvui doaibmii</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>Du konto %login neahttabáikkis %site lohkkaduvvui go ledje beare ollu eahpelihkostuvvan sisačáliheamit.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>Du konto lea dál suddjejuvvon dušše beassansániin. Jus it dahkan dán, de čuoggát guovtteaskkálaš sisačálihusa fas doaibmii go leat rievdadan beassansáni.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>Du konto lohkkaduvvui</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>Beassančoavdda lea lasihuvvon du kontui %login %site:s.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>Gii nu guhte doallá dán beassančoavdda sáhttá čálihit sisa du kontui almmá du beassansáni. Jus don it lasihan dan, de váldde dan eret Beassačoavddat-oasis ja rievdat beassansáni.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>Beassančoavdda lea váldojuvvon eret du kontos %login %site:s.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>Dainna ii sáhte šat čálihit sisa du kontui. Jus don it váldán dan eret, de dárkkis iežat beassančoavddaid ja ovttadagaid.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>Beassančoavdda lea lasihuvvon du kontui</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>Beassančoavdda lea váldojuvvon eret du kontos</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>Sihkarvuođadoaimmat</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Sihkarvuođadoaimmat: %name</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Čálihuvvon sisa</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Eahpelihkostuvvan sisačálihangeahččaleapmi</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Čálihuvvon olggos</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Sešuvnnat čálihuvvon olggos</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Sisačálihus ođđa lávdis</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Sisačálihus ođđa sajádagas</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Identitehta duođaštuvvon (&quot;Duođašte ahte don leat&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Identitehtadárkkisteapmi ii lihkostuvvan</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Čálihuvvon sisa beassančoavdagiin</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Sisačálihus beassančoavdagiin ii lihkostuvvan</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Sisačálihus hilgojuvvon: guovttelávkásaš koda váilu dahje lea boastut</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Boasttu guovttelávkásaš koda</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Konto lohkkaduvvon eahpelihkostuvvan sisačálihemiid maŋŋá</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Konto rahppojuvvon</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Beassansátni rievdaduvvon</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Beassansáni rievdadeapmi ii lihkostuvvan</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Beassansátni máhcahuvvon</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Ođđa beassansátni bivdojuvvon</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>E-poastačujuhus rievdaduvvon</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Geavaheaddjinamma rievdaduvvon</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Guovtteaskkálaš sisačálihus doaibmii</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Guovtteaskkálaš sisačálihus jáddaduvvon</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Máhcahankoda geavahuvvon</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Ođđa máhcahankodat</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Applikašuvdnabeassansátni ráhkaduvvon</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Applikašuvdnabeassansátni gomihuvvon</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Beassančoavdda lasihuvvon</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Beassančoavdda váldojuvvon eret</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Konto doaibmá</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Konto heaittihuvvon</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Buot</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Sisačáliheamit ja sešuvnnat</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Kontorievdadusat</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Dárbbaša fuolahusa</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>du bokte</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>geavaheaddji bokte</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>geavaheaddji %login bokte</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>Vuohki</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>Neahttalogan</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>Doaibmavuogádat</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Lávdi</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>Báiki</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>Riika</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Sešuvnnat</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>Mat</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>Kanála</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Eahpelihkostuvvan geahččaleamit</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>Báhcán kodat</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>Sisačálihusa gieđahalli</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Sihkarvuođadoaimmat</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Sihkarvuođadoaimmat: %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Sisačáliheamit ja rievdadusat du kontu sihkarvuođas. Jus oainnát juoidá maid it leat dahkan, de rievdat beassansáni ja čálit olggos lávddiid maid it dovdda.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>Sisačáliheamit ja rievdadusat dán kontu sihkarvuođas.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Du neavvut</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Rievdadit beassansáni</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>Ruovttoluotta kontui</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>Sihkarvuođadoaimmat eai registrerejuvvo</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>Dat lohkkojuvvojit geavaheddjiid revišuvdnaloggas, muhto dan tabealla expuser_audit váilu dahje ii dorjojuvvo dán diehtovuođus. Vuoje php update/common/scripts/6.0/createuseraudittable.php, dahje 6.0.15 diehtovuođuođasmahttima.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Maŋimuš beaivvit: %days</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Sisačáliheamit maŋimuš beivviid (beaivvit: %days)</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>Maŋimuš sihkarvuođadoaimmat</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Čájehit</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>ii lihkostuvvan</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>hilgojuvvon</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Sihkarvuođadoaimmat eai leat vel registrerejuvvon.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>Sihkarvuođadáhpáhusat vurkejuvvojit dihto áigge (beaivvit: %days).</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>Sihkarvuođadáhpáhusat vurkejuvvojit dassážii go hálddašeaddji sihkku daid.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Viežžat mu sisačálihandieđuid</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Du sešuvnnat ja sihkarvuođadáhpáhusat JSON-fiilan.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Sešuvnnat eai registrerejuvvo dán neahttabáikkis, nu ahte ii oktage eará neavvu sáhttán čálihuvvot olggos. Rievdat beassansáni dál.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count eará sešuvnna čálihuvvoje olggos. Rievdat dál beassansáni.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Ii oktage eará neavvu lean sisačálihuvvon. Rievdat dál beassansáni.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Giitu. Dáhpáhus lea merkejuvvon du dáhpáhussan.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Dat dáhpáhus ii dárbbaš vástádusa.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Siidu lei nogaduvvon. Maidege ii rievdaduvvon; geahččal ođđasit.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Sihkkarastit konto</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Jos juoga dás ii lean don, čálit olggos buot eará neavvuid, ja vállje dasto ođđa beassansáni. Neavvut mat leat bisuhuvvon sisačálihuvvon Muitte mu bokte čálihuvvojit maid olggos.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Buot neavvut earret dán čálihuvvojit olggos boahtte gáibádusas. Dasto válljet ođđa beassansáni.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Juo, čálit olggos eará neavvuid</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Leigo dát don?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Juo, dat ledjen mun</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Ii, sihkkarastte mu konto</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Čálihuvvon sisa</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Eahpelihkostuvvan sisačálihangeahččaleapmi</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Čálihuvvon olggos</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Sešuvnnat čálihuvvon olggos</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Sisačálihus ođđa lávdis</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Sisačálihus ođđa sajádagas</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Identitehta duođaštuvvon (&quot;Duođašte ahte don leat&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Identitehtadárkkisteapmi ii lihkostuvvan</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Čálihuvvon sisa beassančoavdagiin</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Sisačálihus beassančoavdagiin ii lihkostuvvan</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Sisačálihus hilgojuvvon: guovttelávkásaš koda váilu dahje lea boastut</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Boasttu guovttelávkásaš koda</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Konto lohkkaduvvon eahpelihkostuvvan sisačálihemiid maŋŋá</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Konto rahppojuvvon</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Beassansátni rievdaduvvon</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Beassansáni rievdadeapmi ii lihkostuvvan</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Beassansátni máhcahuvvon</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Ođđa beassansátni bivdojuvvon</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>E-poastačujuhus rievdaduvvon</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Geavaheaddjinamma rievdaduvvon</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Guovtteaskkálaš sisačálihus doaibmii</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Guovtteaskkálaš sisačálihus jáddaduvvon</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Máhcahankoda geavahuvvon</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Ođđa máhcahankodat</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Applikašuvdnabeassansátni ráhkaduvvon</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Applikašuvdnabeassansátni gomihuvvon</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Beassančoavdda lasihuvvon</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Beassančoavdda váldojuvvon eret</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Konto doaibmá</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Konto heaittihuvvon</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Buot</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Sisačáliheamit ja sešuvnnat</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Kontorievdadusat</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Dárbbaša fuolahusa</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Sihkarvuođadoaimmat</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Sihkarvuođadoaimmat: %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Sisačáliheamit ja rievdadusat du kontu sihkarvuođas. Jus oainnát juoidá maid it leat dahkan, de rievdat beassansáni ja čálit olggos lávddiid maid it dovdda.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Du neavvut</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Rievdadit beassansáni</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>Sihkarvuođadoaimmat eai vel registrerejuvvo dán neahttabáikkis.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Sisačáliheamit maŋimuš beivviid (beaivvit: %days)</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Eahpelihkostuvvan geahččaleamit</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Sihkarvuođadoaimmat eai leat vel registrerejuvvon.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Viežžat mu sisačálihandieđuid</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Du sešuvnnat ja sihkarvuođadáhpáhusat JSON-fiilan.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Sešuvnnat eai registrerejuvvo dán neahttabáikkis, nu ahte ii oktage eará neavvu sáhttán čálihuvvot olggos. Rievdat beassansáni dál.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count eará sešuvnna čálihuvvoje olggos. Rievdat dál beassansáni.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Ii oktage eará neavvu lean sisačálihuvvon. Rievdat dál beassansáni.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Giitu. Dáhpáhus lea merkejuvvon du dáhpáhussan.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Dat dáhpáhus ii dárbbaš vástádusa.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Siidu lei nogaduvvon. Maidege ii rievdaduvvon; geahččal ođđasit.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Sihkkarastit konto</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Jos juoga dás ii lean don, čálit olggos buot eará neavvuid, ja vállje dasto ođđa beassansáni. Neavvut mat leat bisuhuvvon sisačálihuvvon Muitte mu bokte čálihuvvojit maid olggos.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Buot neavvut earret dán čálihuvvojit olggos boahtte gáibádusas. Dasto válljet ođđa beassansáni.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Juo, čálit olggos eará neavvuid</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Leigo dát don?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Juo, dat ledjen mun</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Ii, sihkkarastte mu konto</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>Beassansátni</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>Beassansátni ja guovttelávkásaš koda</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>REST-ráddjehus</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>SOAP-ráddjehus</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>Okta sisačálihus</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>Čálihii sisa ovdal go sešuvnnat registrerejuvvojedje</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Sisačálihanraporta</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>Gii lea sisačálihuvvon neahttabáikái, man dávjá kontot čálihit sisa ja eai lihkostuva, ja geavaheaddji olggoščáliheapmi juohke sajis. Doaibmá buot sešuvnnaid gieđahalliiguin.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>Sešuvdna čálihuvvui olggos. Lávdi ferte čálihit sisa ođđasit.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>Geavaheaddji %login čálihuvvui olggos sešuvnnain (lohku: %count).</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>Geavaheaddjis %login ii lean doaibmi sešuvdna.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>Ii oktage konto leat dainna ID:in, geavaheaddjinamain dahje e-poastačujuhusain.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>Dát lea sešuvdna maid don geavahat. Čálit olggos vai heaittihat dan.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>Dat sešuvdna lei juo heaittihuvvon.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Siidu lei nogaduvvon. Maidege ii rievdaduvvon; geahččal ođđasit.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>Sešuvnnat eai registrerejuvvo dán neahttabáikkis (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>Tabealla expuser_session váilu</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>Sešuvnnat registrerejuvvojit go dat lea ráhkaduvvon: php update/common/scripts/6.0/createusersessiontable.php, dahje 6.0.15 diehtovuođuođasmahttin.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>Dál ja odne</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>Doaibmi sešuvnnat</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>Sisačálihuvvon geavaheaddjit</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>Sisačáliheamit odne</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>Eahpelihkostuvvan geahččaleamit odne</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>Čálihit geavaheaddji olggos juohke sajis</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>Kontu juohke sešuvdna nohká dan boahtte jearaldagas, maiddái dat mat &quot;Muitte mu&quot; doallá. Geavat dán go konto sáhttá leat boasttu gieđain; máhcat dasto dan beassansáni.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>Geavaheaddji-ID, geavaheaddjinamma dahje e-poastačujuhus</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>Čálihit olggos juohke sajis</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>Sisačálihan dál</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>Maŋimusat geavahuvvon čájehuvvojit (eanemusat: %limit).</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Geavaheaddji</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Lávdi</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Čujuhus</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>Čálihuvvon sisa</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>Maŋemus aktiivvalaš</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Doaimmat</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>Dát lávdi</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Ii merkejuvvon</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>Čálihit olggos</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>Ii oktage sešuvdna lea sisačálihuvvon.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Maŋimuš beaivvit: %days</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>Sisačáliheamit ja eahpelihkostuvvan geahččaleamit rehkenastojuvvojit geavaheddjiid revišuvdnaloggas, mii váilu; ođđa sešuvnnat rehkenastojuvvojit.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>Beaivi</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>Sisačáliheamit</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Eahpelihkostuvvan geahččaleamit</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>Ođđa sešuvnnat</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>Sešuvnnaid gieđahalli: %handler. Sešuvnnat lohkkojuvvojit tabeallas expuser_session, nu ahte raporta doaibmá buot gieđahalliiguin.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>Eahpečilgasis doaimmat maŋimuš %hours diimmus</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>Okta fierpmádat ii lihkostuvvan čálihit sisa %accounts kontui (%count geahččaleami)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Konto lohkkaduvvon eahpelihkostuvvan sisačálihemiid maŋŋá</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>%count eahpelihkostuvvan sisačálihemiid ovtta kontos</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>Sisačálihuvvon %count riikkas oktanaga</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Sihkarvuođadoaimmat</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Sešuvnnat</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>Eahpelihkostuvvan sisačálihemiid lohkkojuvvojit geavaheaddjiid dárkkistanloggas, mii ii leat olámuttos dás.</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>Ii mihkkege eahpečilgasis: ii oktage konto mas leat ollu eahpelihkostuvvan sisačálihemiid, ii oktage fierpmádat mii geahččala máŋga konto, ii oktage konto mii lea sisačálihuvvon máŋgga riikkas.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>Sihkarvuođavárrehus du kontu birra</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>Du kontus %login dáhpáhuvai sihkarvuođadáhpáhus: %event. Jus dat it lean don, de sihkkarastte du konto čujuhusas %url.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Ásaheapmi</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>Bivdde dán neahttabáikki sisdoalus juste daid gieddeid maid siidu dárbbaša, ovtta jearaldagas. Hápmi čuovvu sisdoalloluohkáid; juohke jearaldat vuddjojuvvo dan geavaheaddji vuoigatvuođaiguin gii dan sádde.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>GraphQL-API lea jáddaduvvon dán neahttabáikebeassanis. Álggat dan graphql.ini:s: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>GraphQL-girjerájus (webonyx/graphql-php 15) ii leat sajáiduhttojuvvon.</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>Loahppačuokkis</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>Girjerájus</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>Hápmi</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>%count sisdoalloluohkká, hápmi %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>Jearaldat</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>Variábelat (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Vuodjit</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>Vástádus</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>Vuddjojuvvo…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>Vástádus ii sáhttán lohkkojuvvot.</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>Jearaldat vuddjojuvvo du vuoigatvuođaiguin, sisačáliiduvvon dán bargovuoru bokte.</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%count %seconds s:s</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>ii ráddji</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>Čiekŋalasvuohta</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>Kompleksitehta</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>Elemeanttat juohke listtus</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (standárda %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>Gáibádusat juohke geavaheaddjái dahje čovdosii</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>Gáibádusat juohke anonyma čujuhussii</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>Introspekšuvdna</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>Dušše vurkejuvvon jearaldagat</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>Stuorámus jearaldat</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>%bytes byte</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>Stuorámus sáddehus</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>Neahttabáikebeassan %siteaccess ii gávdno.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>Mutašuvnnat leat álggahuvvon %siteaccess:s.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>Mutašuvnnat leat jáddaduvvon %siteaccess:s.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>GraphQL-API lea álggahuvvon %siteaccess:s.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>GraphQL-API lea jáddaduvvon %siteaccess:s.</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>Ásahusaid ii sáhttán čállit: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>Vástádusa gaskaboddosaš vurká lea čorgejuvvon: %count vástádusa sihkkojuvvon.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>Merke ruvtto jearaldaga bálddas sihkkun dihte dan.</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>Jearaldaga ii sáhttán sihkkut: jearaldat mii lea sáddejuvvon PersistedQueryDirectoryList[] máhpas sihkkojuvvo iežas fiillain.</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>Vurkejuvvon jearaldat sihkkojuvvui.</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>Mutašuvnnat</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>álggahuvvon</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>jáddaduvvon</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Neahttabáikebeassamat</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>Gos API ja dan mutašuvnnat vástidit. Boalut čállet graphql.ini, nugo ./console exp:graphql:enable ja exp:graphql:disable dahket.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Neahttabáikebeassan</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>GraphQL-API</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Rievdat</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Jáddat</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>Mutašuvnnat eret</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>Mutašuvnnat ala</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Álggat</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>Rájit</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>Dán neahttabáikebeassama graphql.ini [GraphQLSettings].</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>Vástádusa gaskaboddosaš vurká</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>Vurkejuvvon jearaldagaid vástádusat, mat vurkejuvvojit geavaheaddjivuoigatvuođaid mielde ja nohket juohke háve go sisdoallu almmuhuvvo.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Dilli</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>Vurkejuvvon vástádusat</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>%count vástádusa, %bytes byte</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>Vurkejuvvo eanemusat</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds s</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>Maŋimuš nohkan</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>Čorge vástádusa gaskaboddosaš vurkká</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>Vurkejuvvon jearaldagat</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>Vurkejuvvon ./console exp:graphql:persist:in dahje klieanttaid bokte (automáhtalaš vurkejuvvon jearaldagat); gohčoduvvojit nama dahje SHA-256 mielde.</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>Namat</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Sturrodat</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Gos</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Sihko</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>sáddejuvvon</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>vurkejuvvon</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>Juo, sihko dán jearaldaga</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>Ii vel vurkejuvvon jearaldat.</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>API-čoavddat</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>Persovnnalaš API-čoavddat viidodagain graphql:read (jearaldagat) dahje graphql:write (mutašuvnnat). Ráhkat ja geassit daid ruovttoluotta siiddus API-beassan, dahje ./console exp:graphql:keys:in.</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>API-beassan</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>Buot čoavddat</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>Čoavdda</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Namma</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Eaiggát</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>Viidodagat</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>Maŋimusat geavahuvvon</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>aktiivvalaš</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>nohkan</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>geassádallon</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>ii goassige</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>Ii vel API-čoavdda mas lea GraphQL-viidodat.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>GraphQL-API lea jáddaduvvon neahttabáikebeassamis %siteaccess, mii čájeha dán siiddu; vuolábeale tabealla čájeha gos dat vástida.</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>Neahttabáikebeassama %siteaccess várás, mii čájeha dán siiddu.</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>Webhookat</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>Juohke dáhpáhus maid loahppačuokkis bivdá (publish, update, trash, delete, move, hide, reveal, mutation), sáddejuvvo dasa, vuolláičállojuvvon, cronjob-oasis graphqlwebhooks. ./console exp:graphql:webhooks dahká seamma go dát oassi.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Dáhpáhusat</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>buot</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Juohke neahttabáikebeassan</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>boatkanan</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>ii čiehkádus</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>Vurdet</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count heaitthuvvon</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>Maŋimuš sáddejupmi</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Sádde geahččaleami</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>Juo, sihko dán webhooka</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>Ii vel webhook.</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>Lasit webhooka</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>Lasit</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>Maŋimuš sáddejumit</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Áigi</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Boađus</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>Diŋgojumit</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>Njuolggoođasmahttimat klieanttaide: dáhpáhusrávdnji /api/graphql/subscribe:s, ja WebSocket (graphql-transport-ws) Velocity:s. Juohke dáhpáhus manná dušše diŋgojeddjiide geat besset lohkat dan sisdoalu.</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>Rabas dál</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>Eanemus rabas</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>%total oktiibuot, %user juohke geavaheaddjái, %address juohke čujuhussii</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>Namahis diŋgojumit</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>Rávnji guhkkodat</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>Webhooka ii sáhttán lasihit: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>Webhook %name rievdaduvvui; dan vuolláičállinčiehkádus bissu.</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>Vuolláičállinčiehkádusa ii sáhttán vurket (Ásaheapmi &gt; Čiehkádusat).</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>Webhook %name lasihuvvui. Dan vuolláičállinčiehkádus, čájehuvvon dušše dán háve: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>Webhook %name ii gávdno.</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>Webhook %name ii vástidan: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>Webhook %name vástidii %status %ms ms:s.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>Merke ruvtto webhooka bálddas sihkkun dihte dan.</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>Webhook %name sihkkojuvvui.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>GraphQL-API lea jáddaduvvon dán neahttabáikebeassanis.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>GraphQL-girjerájus ii leat sajáiduhttojuvvon.</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>Geavat GET dahje POST.</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>Gáibádusa sisdoallu ii leat JSON-objekta.</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables ii leat JSON-objekta.</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions ii leat JSON-objekta.</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>Sádde jearaldaga POST:ain.</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>Gáibádusas ii leat jearaldat.</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>Jearaldat lea guhkit go %max byte.</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>Siskkáldas bálvvá meattáhus</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node dárbbaša juste ovtta dáin: id, remoteId, path ja urlAlias.</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content dárbbaša juste ovtta dáin: id ja remoteId.</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>after-cursor ii leat dán API:as addojuvvon.</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>Govva-alias %alias ii gávdno (image.ini [AliasSettings] AliasList[]).</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>Dáppe dohkkehuvvojit dušše vurkejuvvon jearaldagat: sádde vurkejuvvon jearaldaga id.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>Vurkejuvvon jearaldaga hash ii leat SHA-256.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>Vurkejuvvon jearaldaga hash ii heive jearaldahkii.</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>Menddo ollu gáibádusat: eanemusat %limit %window sekundas. Geahččal fas %reset sekundda geažes.</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>Jearaldat lea %depth dási čiekŋal; eanemusat %max leat lobálaččat.</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>Jearaldagas lea kompleksitehta %complexity; eanemusat %max lea lobálaš.</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>Dát gáibádus ii oaččo lohkat hámi (introspection).</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search dárbbaša teavstta dahje sillju (classes, subtree, sections, publishedAfter, publishedBefore).</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument ii leat dáhton (ISO 8601, 2026-10-30).</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag dárbbaša juste ovtta dáin: id, remoteId ja path.</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout dárbbaša juste ovtta dáin: id, identifier ja urlAlias.</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>Multipart-gáibádusa gieddi operations ii leat okta JSON-gáibádus.</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>Multipart-gáibádusa gieddi map ii leat JSON-objeakta.</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>Multipart-gáibádusas ii leat fiila %field.</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>Gieddi map bálggis ferte álgit variables.: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>Fiila %name ii boahtán ollislaččat (sáddenmeattáhus %error).</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>Fiila %name lea stuorát go %max byte.</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>Fiilla %name ii sáhttán dárkkistit.</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>Mutašuvnnat leat jáddaduvvon dán neahttabáikebeassanis (graphql.ini [GraphQLSettings] MutationsEnabled).</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>Sádde mutašuvnna POST:in.</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>Čálit sisa rievdadan dihte sisdoalu.</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>API-čoavddas ii leat viidodat %scope.</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>Mutašuvdna mas lea session dárbbaša session skovvatoken (bajilčála X-CSRF-Token).</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>uploadFromUrl lea jáddaduvvon: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] ii namut ii ovttage guossohasa.</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>Čujuhus ferte leat https-čujuhus.</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>Guossoheaddji %host ii leat graphql.ini [GraphQLSettings] UploadFromUrlHostList[]:as.</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>Fiilla ii sáhttán viežžat.</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload lea dušše sisaboahtošládja.</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>Upload-šlája variábel váldá multipart-gáibádusa fiilla.</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>Gáiddus id %remoteId lea juo geavahusas.</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>Sisdoalus lea juo jorgalus gillii %language: geavat updateContent.</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>Atte unnimusat ovtta gietti.</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>Ođđa veršuvnna ii sáhttán ráhkadit (sisdoalus leat menddo ollu konseavttat).</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>Veršuvdna %version ii leat konseapta.</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent dárbbaša juste ovtta dain id ja nodeId.</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>Báikki ii sáhte sirdit iežas vuollái.</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>Sisdoalus lea juo báiki %parentId vuolde.</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>Gietti %field árvvu ii sáhttán vurket.</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>Sisdoallogiella %language ii gávdno.</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>Sisdoalloluohkká %class ii gávdno hámis.</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>Sisdoallu ii gávdno, dahje don it oaččo lohkat dan.</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>Don it oaččo dahkat dán dán sisdoallui.</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>Luohkás %class ii leat gieddi %field man sáhttá čállit.</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>Gieddi %field lea addojuvvon guktii.</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>Gieddi %field váldá fiilla: sádde dan upload:an (multipart-gáibádus).</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>Gieddi %field ii váldde fiilla.</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>Gieddi %field dárbbaša árvvu.</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>Formáhtta %format lea dušše hábmejuvvon teakstagieddiide; %field váldá árvvus nu go dat lea (RAW).</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>Gieddi %field lea bákkolaš.</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>HTML ii sáhttán lohkat.</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content váldá version dušše id:in.</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>Ovdačájehantoken ii leat gustovaš dahje lea nohkan.</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>Ii leat álgu (https://host dahje https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>Ii leat GraphQL-API viidodat: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>Sádde diŋgojumiid /api/graphql/subscribe:i (dáhpáhusrávdnji dahje WebSocket).</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>Bivdda ii namut ovttage dokumeantta doaimma.</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>Diŋgojupmi bivdá juste ovtta gietti.</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>Menddo ollu diŋgojumit leat rabas; geahččal fas maŋŋelis.</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>Dus leat %max diŋgojumi rabas, eanemus mii lea lohpi.</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>Du čujuhusas leat %max diŋgojumi rabas, eanemus mii lea lohpi.</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>Diŋgojumit leat jáddaduvvon dán neahttabáikebeassanis.</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>Čálit sisa diŋgot dihte (token dahje persovnnalaš API-čoavdda).</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>Sádde mutašuvnnaid /api/graphql:i.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>Migrašuvnnat</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Stáhtusa ii sáhttán lohkat: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Migrašuvnnaid tabeallat eai vel gávdno: ./console exp:upgrade --apply ráhkada daid.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>%count migrašuvnna eai lihkostuvvan</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>Vuodjin manná, %user álggahii dan</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>Installašuvdna lea lohkkašuvvon: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Vuordá</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Ii lihkostuvvan</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>Orbbešat</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Maŋimuš vuodjin</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>ii vel oktage</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>Buot migrašuvnnat</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>Simulerejuvvon vuodjin</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>Geahččalanvuodjin</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>Vuordi migrašuvnnat vudje transakšuvnnas mii maŋŋá máhcahuvvui: ii mihkkege seailluhuvvon. Vuolábealde oainnát maid juohke okta rievdadii diehtovuođus.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>Maid vuodjin dál dagašii. Ii mihkkege rievdaduvvo: juohke vuordi migrašuvdna listtuha rievdadusaid maid dagašii, ja vuodjin maid dagašii ovdal ja maŋŋá.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>Simulere</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Vuodjit</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>Geahččalanvuodjin ii lihkostuvvan: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>Simulašuvdna dárbbaša PostgreSQL dahje SQLite, maid skemárievdadusaid sáhttá máhcahit; dán diehtovuođus vuolábeale plána čájeha maid vuodjin dagašii.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>Migrašuvnnat</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>Migrašuvdna</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Dilli</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>Maid dagašii</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>Simulašuvdna: %result %ms ms:s</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>Ii vel migrašuvdna.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>Ovdal ja maŋŋá vuodjima</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>Govven ovdal</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>váldon, ja máhcahuvvo go migrašuvdna ii lihkostuva</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>jaddaduvvon</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>Govven maŋŋá</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>váldon go vuodjin lihkostuvai</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>Migrašuvnnat oktiibuot: %total; vuordit: %pending, gárvvis: %done, eai lihkostuvvan: %failed.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>Migrašuvdnahistorjá</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>Juohke vuodjin geavaheddjiin, birrasiin, govvemiiguin ja dainna mii čállojuvvui, merkejuvvui ja dulddiiduvvui. Vuodjima mii ii lihkostuvvan dahje boatkanii sáhttá joatkit; vuodjima mas lea govven ovdal sáhttá váldit ruovttoluotta.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>Vuodjimiid ii sáhttán lohkat: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Migrašuvnnaid tabeallat eai vel gávdno: ./console exp:upgrade --apply ráhkada daid.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Čájet</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Buot</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>Vuodjimat</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Álggahuvvon</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Gii</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>Govvemat</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Vuorká</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Doaimmat</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>ovdal</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>maŋŋá</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>dulddideapmi: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>Joatkke</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Máhcat</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>Ii oktage vuodjin dán dilis.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>Álggahuvvon dáppe</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>Vuodjimat, joatkimat ja máhcaheamit mat leat álggahuvvon dáin siidduin, juohkehaččain raporttain.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Mii</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Boađus</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Máhcaheapmi</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>%target máhcaheapmi</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>Vuodjin %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Maid vuodjin dagai, dan čálus ja logga. Vuodjin mii lea álggahuvvon dáppe joatkašuvvá duogážis go dát siidu giddejuvvo; raba siiddu fas čuovvut dan.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>Joatkke dán vuodjima</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>Máhcat dán vuodjima</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>Čállosa ii sáhttán lohkat: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Ovdáneapmi</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>%user álggahii %time.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>Koda dárkkistuvvo ja govven váldojuvvo ovdal vuodjima</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>%id vuodjá (%index / %total)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>%done / %total gárvvis</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>Migrašuvnnat leat vuodján; govven máhcahuvvo jus okta ii lihkostuvvan</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>Govven váldojuvvo maŋŋá vuodjima, čállo, merkejuvvo ja dulddiiduvvo</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>Govven máhcahuvvo</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>Vuodjin lea nohkan. Raporta viežžojuvvo.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>Ovdáneami ii sáhttán čuovvut. Viečča siiddu ođđasit oaidnit got vuodjimis manná.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>Dát siidu čuovvu vuodjima dan bottu go dat manná.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Viečča ođđasit</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Raporta</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Bistin</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms millisekundda</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>Maid vuodjin čálii boastuvuohtan</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Čálus</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>Biras</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>ii mihkkege</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Nohkan</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Čáliheapmi</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Merka</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Dulddideapmi</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Dieđáhus</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>Dán vuodjima migrašuvnnat</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>Gáldu</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>Vuodjinlogga</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>Dušše logga loahppa čájehuvvo.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>vuodjá</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>nohkan raporttaid haga</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>lihkostuvai</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>ii lihkostuvvan</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>hilgojuvvon</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>diehtovuođđu ii lean olahusas</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>siskkáldas boasttuvuohta</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>Vuodjin manná</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind, %user álggahii %time.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>Čuovo dan</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>Installašuvdna lea lohkkašuvvon</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>Eará vuodjin doallá lohkka (ođasmahttin dahje vuodjin konsollas): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>gárvvis</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>vuordá</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>ii dárbbašlaš</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>amas</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>máhcahuvvon</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>geavahuvvon</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>geavahuvvošii</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>váldon ruovttoluotta</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>váldojuvvošii ruovttoluotta</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>ii vuddjon</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>vuordá eará</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>rievdadus dohkkehuvvon</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>rievdadus dohkkehuvvošii</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>simulerejuvvon</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migrašuvnnat</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Stáhtus</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Historjá</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>Váldde %target ruovttoluotta</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>Vuodjin váldojuvvo ruovttoluotta govvemii mii váldui ovdal dan, okta migrašuvdna iežas down() bokte. Ovddit govvema máhcaheapmi lea áššedovdiide. Juohke okta vuodjá duogážis du namas, maŋŋá go dálá dilis lea govven váldon.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>Ii sáhttán lohkat maid sáhttá váldit ruovttoluotta: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>Vuodjin</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>Okta migrašuvdna</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>Ovddit govven</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>Válddahus</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>juo</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ii</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Govven</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Namahus</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>Váldon</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Šládja</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>Oasit maid máhcahit</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>Diehtovuođđu</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>Vurkenfiillat (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>Ásahusat (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>Diehtovuođu máhcaheapmi váldá dan ruovttoluotta govvema áigái, sešuvnnat fárus: sáhttá leat ahte fertet maŋŋá fas čálihit sisa. Buot mii lea rievdan dan rájes láhppo; vuos váldojuvvo govven dálá dilis.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>Mun dieđán maid dát máhcaha</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>Čále govvema id fas</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>Juo, váldde ruovttoluotta</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Gaskkalduhttit</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>Vuodjimat main lea govven váldon ovdal daid.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>Vállje</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>Ii vel oktage vuodjin govvemiin.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>Geavahuvvon migrašuvnnat mat sáhttet ieža váldit iežaset ruovttoluotta (sis lea down()).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>Ii oktage geavahuvvon migrašuvdna sis leat down().</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>Ovddit govvemat (áššedovdiide)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>Ii vel oktage govven.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>Vuoje migrašuvnnaid</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>Vuodjin manná duogážis %user namas, ja dan siidu čájeha dan dan bottu go manná. Ovdal vuosttaš migrašuvnna váldojuvvo installašuvnna govven; go migrašuvdna ii lihkostuva, vuodjin bisána ja govven máhcahuvvo.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>Vuos geahččalanvuodjin</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Stáhtusa ii sáhttán lohkat: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>Vuordi migrašuvnnat</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>Dat vudjet dán ortnegis. Váldde merkema eret ovtta migrašuvnnas guođđit dan, ja daid mat dan dárbbašit, maŋit vuodjimii.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>Vuoje dan</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>Čuovgada fuolahusmoduhusa dan bottu go vuodjá.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>Rievdaduvvon maŋŋá go geavahuvvo</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>Dát fiillat eai leat dat mat geavahuvvo. Vuodjin hilgu daid jus rievdadus ii dohkkehuvvo ákkain; dat eai vuddjojuvvo fas, ođđa dárkkistansupmi čállojuvvo ja ákka seailluhuvvo revišuvdnaloggii.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>Dohkket rievdadusaid</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Manne</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>Standárdaárvvut leat dat oadjebasat. Juohke boksa guođđá ovtta lávkki eret.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>Ii govven</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>Ii govven ovdal ja maŋŋá vuodjima: meattáhusa ii sáhte automáhtalaččat máhcahit.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>Ii máhcaheapmi</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>Meattáhusa maŋŋá, guođe installašuvnna nugo meattáhus dan guđii.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>Seailluhit rievdadusaid mat eai leat čállojuvvon</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>Vuoje vaikko ásahusain, viiddisdusain dahje hábmemiin leat rievdadusat mat eai leat čállojuvvon; dat bohtet govvemii.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>Ii čáliheapmi</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>Ale čálit stáhtusfiilla ja vuodjinlogga (ii merka iige dulddideapmi).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>Ii dulddideapmi</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>Čále ja merke, muhto ale dulddit.</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>Ii merka</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>Čále ja dulddit, muhto ale merke vuodjima.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>Juo, vuoje dáid migrašuvnnaid dál</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Ii oktage migrašuvdna vuorde.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>Ruovttoluotta stáhtussii</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>Dán installašuvnna rievdadusat čállojuvvon oktii fiilan (sisdoallu, klássat, rollat, ásahusat, skeama) ja geavahuvvon juohke neahttabáikki installašuvnnas seamma ortnegis. Vuodjin vuos váldá govvema, máhcaha dan go migrašuvdna ii lihkostuva, ja registrere, čállá ja dulddiida maid dagai.</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>Vuoje vuordiid (%count)</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Čoahkkáigeassu</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Vuordá</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Gárvvis</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Ii lihkostuvvan</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>Ii dárbbašlaš</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>Diehtovuođđu</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>transakšuvnnat: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>Neahttabáikki migrašuvnnat leat migrations/:s, viiddisdusa migrašuvnnat extension/&lt;name&gt;/migrations/:s. Dat vudjet sin namaid ja dárbbuid ortnegis.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Maŋimuš vuodjin</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>Fiila rievddai maŋŋá go geavahuvvo.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>Ii vel migrašuvdna. ./console exp:migration:generate --skeleton &lt;name&gt; --apply čállá vuosttaža.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>Ođđaseamos vuodjimat</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>Buot vuodjimat</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>Ii vel oktage vuodjin.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>Vuodjima simuleren dárbbaša njuolggadusa migration/run.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>Vuodjin manná: simulere go dat lea nohkan.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Ásaheapmi</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target ii leat dán installašuvnna vuodjin, migrašuvdna iige govven.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>Merke vuos „Juo, váldde ruovttoluotta”.</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>Ovddit govvema máhcaheapmi lea áššedovdiide: merke „Mun dieđán maid dát máhcaha”.</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>Čále govvema id fas: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>Vállje unnimusat ovtta oasi maid máhcahit.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>Dán vuodjimis ii leat govven váldon ovdal dan: váldde dan migrašuvnnaid ruovttoluotta okta nuppi maŋŋá, dahje máhcat ovddit govvema.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>Dán migrašuvnna ii sáhte váldit ruovttoluotta okto: dat ii leat geavahuvvon, dahje das ii leat down().</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Skovi ii sáhttán lohkat.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>Vállje vuodjima maid joatkit.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>Merke vuos „Juo, vuoje dáid migrašuvnnaid dál”.</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>Vállje unnimusat ovtta migrašuvnna.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>Migrašuvdna rievddai maŋŋá go geavahuvvo: dohkket rievdadusa ákkain, dahje bija fiilla ruovttoluotta.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>Atte ákka manne rievdaduvvon migrašuvnnat dohkkehuvvojit.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>Ákka sáhttá leat eanemusat 500 mearkka.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>Vuodjin mii álggahuvvui dáppe ain manná (%detail). Vuorde dassážii go dat nohká.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>Eará vuodjin doallá installašuvnna lohkka: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>Vuodjin dárbbaša sisačálihuvvon geavaheaddji gii gávdno.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Ii gávdnan php gohččunlinnjá prográmma. Bija migration.ini [AdminSettings] PhpCliPath dan ollislaš bálgái.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open lea jaddaduvvon, nu ahte vuodjima ii sáhte álggahit dáppe. Vuoje ./console exp:migration:migrate --apply bálvás.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>Vuodjimiid máhppii ii sáhte čállit: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>Vuodjin álggahuvvui muhto ii dieđihan iežas proseassa id. Dárkkis %detail.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>Namut maid galgá váldit ruovttoluotta.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>Vuodjima ii sáhttán álggahit.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>Báddet rievdadusaid</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>Go báddehus lea jođus, dat maid don rievdadat hálddahusas dahje neahttabáikki siidoholggas vurkejuvvo sirdima lávkin: sisdoallu, klássat, rollat ja njuolggadusat, oasit, geavaheaddjit ja joavkkut, URL-alias, heivehusat. Bisset dan go leat gárvvis, geahča maid dat lea dohppen ja ráhkat das sirdima.</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>Báddemiid ii sáhttán lohkat: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>Báddemiid tabeallat eai leat vel: vuos vuoje ođasmahttima (exp:upgrade --apply).</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>Báddén lea jáddaduvvon migration.ini:s ([RecordingSettings] Recording=disabled).</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>Mu rievdadusat</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>Bádde dušše dan maid don rievdadat, gos ihkinassii, dassážii go bisset dan.</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>Báddehus</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>%time rájes, dán rádjái %count rievdadusa.</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>Lihpu (eaktodáhtolaš)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>Čájet maid dat lea dohppen</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Bisset báddema</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>Álggat mu rievdadusaid báddema</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>Láse olles neahttabáikái</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>Bádde juohke geavaheaddji ja konsolla juohke rievdadusa dassážii go dat giddejuvvo. Rahpama oktavuođas dus jearrat duođaštit ahte leat don.</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Rabas</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>Gidde láse</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>Raba láse olles neahttabáikái</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>Báddehusat</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>Geavaheaddji konto (sisačálihannamma, e-poasta, beassansátni) ja geavaheaddjikontuid gieddit eai goassege báddejuvvo.</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Rievdadusat</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>Olles neahttabáiki</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>%name rievdadusat</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Bissejuvvon</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>Ii vel báddehus.</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>Báddehus %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>Buot báddehusat</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>Sirdin mii das šattašii</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>Rievdadusat čohkkejuvvon ovtta lávkái juohke rievdaduvvon ášši ovddas: maid dán báddehusas ráhkaduvvon sirdin dagašii.</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>Das sáhttá ráhkadit sirdima go dán sajáiduhttimis leat YAML-lávkešlájat %types.</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>Dáhtolaččat guđđojuvvon olggobeallái: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>Mihkkege ii báddejuvvon.</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>Maid dat lea dohppen</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>%count rievdadusa, dan ortnegis go dat dahkkojuvvojedje.</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Rievdadus</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>Lávki</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>Guoská</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>Vel %count: ./console exp:migration:record:show listu buot.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Bálkes</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>Sihku báddehusa ja dan maid dat lea dohppen. Mii lea rievdaduvvon, bissu rievdaduvvon.</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>Juo, bálkes dán báddehusa</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>Báddemin…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Du rievdadusat báddejuvvojit sirdima várás.</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>Juohke rievdadus dán neahttabáikkis báddejuvvo sirdima várás (láse olles neahttabáikái).</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>Olles neahttabáikki báddehus lea álgán: juohke geavaheaddji juohke rievdadus báddejuvvo dassážii go bisset dan.</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>Báddehus lea álgán: du rievdadusat báddejuvvojit dassážii go bisset dan.</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>Báddehus bissejuvvon. Maid dat lea dohppen bissu dassážii go bálkestat dan.</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>Báddehus ja dan dáhpáhusat leat sihkkojuvvon.</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>Ii gávdno báddehus %id.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>Merke vuos «Juo, bálkes dán báddehusa».</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>Dušše geavaheaddji gii báddii sáhttá bissehit čoahkkima báddehusa.</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>Vállje báddehusa mii galgá bissehuvvot.</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>Dán šlája báddehus lea juo jođus.</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>Báddehusa ii sáhttán rievdadit: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>Ráhkat sirdima</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>Sirdima namma (eaktodáhtolaš)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>Sirdin %file lea čállojuvvon. Rievdadusat maid ii oktage lávki sáhte dahkat, leat namuhuvvon fiilla álggus, dahkkojuvvot gieđain.</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>Ii oktage sirdin čállojuvvon: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>Guhkes ruvvan ossodagain</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>Guorus gieđat doalvvošit migration.ini [RunSettings] ásahusaid.</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>Eanemusat nu ollu fievrridemiid</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>Eai šat fievrridemit maŋŋel (sekundat)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>Boddu fievrridemiid gaskkas (sekundat)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>Vuolit vuoruheapmi (1 gitta 19)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>Guhkes ruvvama gieddi lea gokčasuohkka lohku 1:s (boddu: sekundat 0:s 60:ii, vuoruheapmi: 1 gitta 19) dahje guorus.</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>Dat gidda ieš dolla %time.</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>Gidde ieš maŋŋel (minuhtat, valljivuohta)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>Minuhtat leat gokčasuohkka lohku 1:s 44640:ii (31 beaivvi) dahje guorus.</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>Migrašuvdna %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>Ođđa migrašuvdna</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>YAML-migrašuvdna: čále dan teakstan dahje hukse dan lávkkiid skovis, dárkkis dan ja vurke dan dasto migrašuvdnamáhppii.</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>Dát migrašuvdna lea juo vuddjojuvvon, danin dat ii vurkejuvvo ođđasit: dárkkistansubmmi suodjalus hilgošii rievdaduvvon fiilla. Daga rievdadusa ođđa migrašuvnnas.</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>Neahttabálvá ii sáhte čállit fiilla.</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>Kommentárlinját bajimusas leat oaivi (description, author, requires, environments, engines). Go lávki lasihuvvo dahje rievdaduvvo skovis, migrašuvdna čállojuvvo ođđasit: kommentárat lávkkiid gaskkas eai seilu.</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>Migrašuvnna namma</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>Gosa dat manná</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>Neahttabáiki</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>YAML-teaksta</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>Dárkkistit</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Vurket</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Lávkkit</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>Čoavdásat</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Rievdadit</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>Sirdit bajás</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>Sirdit vuolás</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Váldit eret</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>Ii vel lávkkit: lasit ovtta skoviin, dahje čále daid teakstii.</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>Rievdat lávkki %number</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>Lasit ovtta lávkki</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>Lávkki skovvi ráhkaduvvo dan lávkešlájas: dan čoavdásiin, maid juohke okta váldá ja vugiin maidda dat gullá.</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>Lávkešládja</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>Čájet dan skovi</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>Lávkkis leat čoavdásat maid dan šládja ii dovdda; dat guđđojuvvojit eret go lávki rievdaduvvo: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>Vuohki</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>Sajis</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>dušše %modes</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>Standárda: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>Eavttut, čujuhusat ja kommentára</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>Namma=árvu-páras, sirrejuvvon rihkuiguin. Dán lávkki árvvut: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>Ovdamearka</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>Rievdat lávkki</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>Lasit lávkki</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>Maid exp:migration:check dadjá: oaivi, dokumeanta ja juohke lávki dárkkistuvvon dan lávkešlájain.</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>Migrašuvdna manná dárkkisteami čađa.</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Ovdačájeheapmi</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>YAML nugo dat vurkejuvvo.</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>Čájet YAML</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>YAML-migrašuvnnat</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>lea vuddjojuvvon</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>Eai leat vel YAML-migrašuvnnat.</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>Doaimmaheaddji</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>Migrašuvdnamáhpain ii leat YAML-migrašuvdna %id.</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>Vállje lávkešlája.</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>Lávki lea lasihuvvon. Dárkkis migrašuvnna ovdal go vurket dan.</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>Lávki lea rievdaduvvon. Dárkkis migrašuvnna ovdal go vurket dan.</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>Vállje lávkki.</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>Dán lávkkis ii leat skovvi (luhkka, dahje lávkešládja mii dán installašuvnnas ii leat): rievdat dan teavsttas.</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>Vállje gosa migrašuvdna manná: neahttabáikái dahje aktiivvalaš lassiprográmmii.</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>%file vurkejuvvui. Vuoje geahččalanvuodjima ovdal go migrašuvdna vuodjá.</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>Ii vurkejuvvon: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>Gáiddusvuogádagat</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>Eará installašuvnnat masa dát doaimmaha iežas migrašuvnnaid: doaimmaheapmi sádde migrašuvnnaid válljejuvvon gáiddusvuogádagaide ja vuodjá daid doppe, buot seammás ja ovttaláhkai. Gáiddusvuogádat ii goassege doala čiehkádusa: dan sisabeassandieđut namuhit ovtta Ásaheapmi &gt; Čiehkádusat siste.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>Ođđa gáiddusvuogádat</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Veahkki</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>Čatnasupmigeahččaleapmi: %id</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>Gáiddusvuogádagat</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>Gitta %parallel gáiddusvuogádaga gieđahallojuvvojit seammás; okta fása sáhttá bistit %timeout sekundda juohkehaččas.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>Gáiddusvuogádat</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Čujuhus</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Duođaštus</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>Joavkkut</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>heivehusat maid galgá divvut</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>dušše fiillat (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>SSH-čoavdda</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>Beassansátni</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>ii mihkkege (hosta SSH-agenta ja čoavdagat)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>Geahčal čatnasumi</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>Doaimmaheapmi joavkui manná juohke dan gáiddusvuogádahkii.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>Doaimmat gáiddusvuogádagaide</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>Ii vel oktage gáiddusvuogádat leat ásahuvvon.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>Gáiddusvuogádat %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>Dáppe ii sáddejuvvo iige vudjojuvvo mihkkege: Vurket čállá heivehusaid settings/override/migration.ini.append.php fiilii. Sisabeassandieđut leat namma; dan árvu bissu Ásaheapmi &gt; Čiehkádusat siste dahje birrasis.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Dárkkis dáid ásahusaid</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>Heivehusat nu go dat čállojuvvojedje, eai vel vurkejuvvon.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Dárkkistus</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Ásahusat leat gustovaččat. Dát linját čállojuvvojit:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>Sirdin</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>dušše namma; árvu bázzá Ásaheapmi &gt; Čiehkádusat</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Linját mat čállojuvvojit</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>Čatnasupmi</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>Hostačoavdda</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. Gáiddusvuogádat</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>Mii gáiddusvuogádaga namma lea ja makkár biras dat lea.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>Bustávat, logut, - ja _, ovdamearkka dihte production1. Dat namuha gáiddusvuogádaga raporttain ja konsollas (--remotes=production1), ja dan ii sáhte maŋŋelaš rievdadit.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... Dásiid mielde doaimmaheapmi manná birrasiid čađa dán ortnegis.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>Eaktodáhtolaš, rihkkumiin sirrejuvvon, ovdamearkka dihte production. Doaimmaheapmi joavkui manná juohke dan gáiddusvuogádahkii.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. Čatnasupmi</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>Movt fiillat ollet dohko, ja gos installašuvdna lea.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>SSH bokte, dušše dat mii lea rievdan, botkejuvvon sirdin joatkašuvvá. Buoremus válljejupmi doppe gos rsync lea installerejuvvon.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>SSH scp mielde fiillaid várás.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>SSH sftp mielde fiillaid várás.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>Dušše fiillat: migrašuvnnat sáddejuvvojit ja lohkkojuvvojit ruovttoluotta, muhto eai sáhte vudjojuvvot doppe.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>FTP TLS bokte; dušše fiillat.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>Eará installašuvdna dán servviris, máhpas.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Hosta</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>Hostanamma dahje čujuhus, ovdamearkka dihte node1.example.com. Ii local várás.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>Poarta</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>Guorus: 22 SSH várás, 21 FTP várás.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Geavaheaddji</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>Bálggis</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>Installašuvnna ruohtasmáhppa doppe, ovdamearkka dihte /var/www/site (FTP várás: bálggis maid FTP-konto oaidná).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>PHP-gohččunlinjá</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>PHP CLI doppe: php, dahje olles bálggis nu go /opt/plesk/php/8.4/bin/php.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>Konsollaskriptat vudjojuvvojit doppe root geavaheaddjin</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>Dušše go gáiddusvuogádaga geavaheaddji lea root (dalle dat vudjojuvvojit --allow-root-user mielde).</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. Sisabeassandieđut</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>Movt dát installašuvdna čálihuvvá doppe sisa. Dušše namma vurkejuvvo.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Ii oktage</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>Dan geavaheaddji SSH-agenta ja čoavdagat, geanin dát installašuvdna doaibmá (ja álo local várás).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>Priváhta čoavdda mii vurkejuvvo čiehkádussan.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>Beassansátni mii vurkejuvvo čiehkádussan (FTP čálihuvvá sisa dainna).</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>Čiehkádusa namma</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>Čiehkádus Ásaheapmi &gt; Čiehkádusat siste, ovdamearkka dihte deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Ásaheapmi &gt; Čiehkádusat</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>Dahje birasvariábel</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>Servvirproseassa variábel mii dan doallá, ovdamearkka dihte DEPLOY_KEY (vurkejuvvon env:DEPLOY_KEY). Dat lea čiehkádusa nama sajis.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. Hostačoavdda</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>Eaktodáhtolaš, SSH, sftp ja rsync várás.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>Hostačoavdaga suorbmamearka</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... nu go ssh-keygen -l dan čájeha. Dainna hosta ferte čájehit dán čoavdaga; dan haga čoavdda oahppojuvvo vuosttaš oktavuođas.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. Geahčadeapmi</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>Geahččal čatnasumi bajábeale heivehusaiguin, ja geahčat dasto linjáid mat čállojuvvojit.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>Váldde eret dán gáiddusvuogádaga</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>Dan heivehusat váldojuvvojit eret settings/override/migration.ini.append.php fiillas. Gáiddusvuogádagas ii rievdda mihkkege, ja dan doaimmaheamit bissot historjjás.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>Juo, váldde eret dán gáiddusvuogádaga</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>Doaimmaheamit</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>Doaimmaheapmi sádde dán installašuvnna migrašuvnnaid válljejuvvon gáiddusvuogádagaide ja vuodjá daid doppe %user geavaheaddjin, buot seammás ja ovttaláhkai: juohke gáiddusvuogádat dárkkistuvvo vuos, ja jus okta ii lihkostuva, de juohke gáiddusvuogádat mii lea geavahan daid máhcahuvvo. Dat manná duogážis, ja dan siidu čájeha juohke gáiddusvuogádaga dađistaga.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. Gáiddusvuogádagat</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>Merke gáiddusvuogádagaid, joavkku dahje goappašagaid.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>Doaimmat dohko</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. Movt</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>Doaimmat</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>Sádde ja vuoje</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>Migrašuvnnat sáddejuvvojit juohke gáiddusvuogádahkii, dárkkistuvvojit ja vudjojuvvojit ovtta oktasaš vuodjin-id mielde.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>Dušše sirdit</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>Fiillat sáddejuvvojit ja dárkkistuvvojit, mihkkege ii vudjojuvvo (áidna vuohki FTP-gáiddusvuogádaga várás).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>Dásiid mielde</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>Dássi dási mielde birrasiid ortnega mielde (dev, stage, beta, production ...): vuosttaš dássi doaimmahuvvo, dasto uksa vuordá dassážii go muhtun dohkkeha boahtte dási. Buot dahje ii mihkkege juohke dási siste.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>Dušše dát migrašuvnnat</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>Eaktodáhtolaš: migrašuvdna-id:t, rihkkumiin sirrejuvvon. Guorus: buot neahttabáikki ja dan lasáhusaid migrašuvnnat.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>Dušše ovdadárkkisteapmi</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>Juo, doaimmat dál</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>Doaimmaheamit mat leat sádden dahje vuodján juoidá, ođđaseamos vuos (ovdadárkkisteapmi ii vurke raportta).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>dušše sirdit</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>dásiid mielde, %stages dási</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>ii ovttaláhkai</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>Ii vel makkárge doaimmaheapmi.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>Doaimmaheapmi %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Juohke doaimmaheami gáiddusvuogádat iežas stáhtusiin. Doaimmaheapmi mii álggahuvvui dáppe joatkašuvvá duogážis go dát siidu giddejuvvo; raba siiddu fas vai sáhtát čuovvut dan.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>Buot doaimmaheamit</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>Ovdadárkkisteapmi</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>Boahtte dássi</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>Heivehusat ja sisabeassandieđut dárkkistuvvojit</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>Ovdadárkkisteapmi: juohke gáiddusvuogádaga stáhtus lohkkojuvvo</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>Migrašuvdnafiillat sáddejuvvojit</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>Dat mii olii, dárkkistuvvo</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>Migrašuvnnat vudjojuvvojit juohke gáiddusvuogádagas</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>Gáiddusvuogádagat máhcahuvvojit</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>Doaimmaheapmi lea nohkan. Dan raporta viežžojuvvo.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>Ovdáneami ii sáhttán čuovvut. Ođasmahte siiddu vai oainnát movt doaimmaheapmi manná.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>Fása</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>Dát siidu čuovvu doaimmaheami dađistaga.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>Ovttaláhkai</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>Dásit</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>dássi %stage vuordá iežas uvssas</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>Uksa %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>%user dohkkehii %time</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>Dássi</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>Sáddejuvvon fiillat</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>Kernelveršuvdna</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>geavahuvvon: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>galgá geavahuvvot: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>Fásat</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>Uksa: dássi %stage / %stages</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>Dan ovddit dásit leat doaimmahuvvon. Dárkkis daid, ja dohkket dasto boahtte dási: dan gáiddusvuogádagat dárkkistuvvojit fas ja doaimmahuvvojit, buot dahje ii mihkkege.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Boahtte</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>Juo, doaimmat boahtte dási dál</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Dohkkehit</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>Máhcat dán doaimmaheami</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>Juohke gáiddusvuogádat mii lea geavahan dan (%list) máhccá govvii mii váldojuvvui ovdal dan vuodjima, buot seammás.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>Juo, máhcat dán doaimmaheami dál</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>plánejuvvon</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>sirdojuvvon</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>doaimmahuvvon</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>vuordá uvssas</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>válljejuvvon</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>ráhkkanahttojuvvon</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>gárvvis</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>vuordá iežas dási</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>fiillat sáddejuvvon</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>dárkkistuvvon</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>ii lihkostuvvan, divvui iežas</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>rievddakeahttá</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>ii doaimmahuvvon</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>ii olahahtti</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>Gáiddusvuogádat vástidii.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>Gáiddusvuogádaga ii sáhte dál geavahit.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done gárvvis, %pending vuordá, %failed ii lihkostuvvan</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>Lohkka</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>vuodjin doallá lohka doppe</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>friddja</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stage / %stages</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>Vállje gáiddusvuogádaga maid galgá geahččalit.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>Merke vuos «Juo, váldde eret dán gáiddusvuogádaga».</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>Gáiddusvuogádaga ii sáhttán váldit eret: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>Gáiddusvuogádaga ii sáhttán vurket: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Ásahusfiilla ii sáhte lohkat: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>Vállje unnimusat ovtta gáiddusvuogádaga dahje joavkku.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>Válljejuvvon gáiddusvuogádat ii leat šat heivehusain. Ođasmahte siiddu.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>Merke vuos «Juo, doaimmat dál».</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>FTP-gáiddusvuogádat ii sáhte vuodjit migrašuvnnaid: vállje «Dušše sirdit», dahje guođe dan olggobeallai.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>Migrašuvnnat maid galgá doaimmahit leat migrašuvdna-id:t, rihkkumiin sirrejuvvon.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>Doaimmaheapmi ain manná. Vuorde dassážii go dat nohká.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>Dát doaimmaheapmi ii vuorde uvssas.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>Ii oktage gáiddusvuogádat leat geavahan dán doaimmaheami: ii leat mihkkege máhcahit.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>Merke vuos «Juo, doaimmat boahtte dási dál».</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>Merke vuos «Juo, máhcat dán doaimmaheami dál».</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>Gáiddusvuogádat mas lea id %id, gávdno juo.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>Poarta lea lohku 1 gitta 65535.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>Biras lea sátni mas leat bustávat, logut, - ja _ (alpha, dev, stage, beta, production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>Joavku lea sátni mas leat bustávat, logut, - ja _ (ii all): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>Sisabeassandieđuid ii sáhte dál lohkat: %problem. Vurke daid Ásaheapmi &gt; Čiehkádusat siste (dahje ásat variábela) ovdal vuosttaš doaimmaheami.</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>FTP-gáiddusvuogádat oažžu dušše fiillaid: doaimmaheapmi dohko lea «Dušše sirdit», ja dan migrašuvnnat vudjojuvvojit doppe gieđain.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>Gáiddusvuogádat %id ii leat settings/override/migration.ini.append.php fiillas; váldde dan eret doppe gos dat lea ásahuvvon.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>Čálihuvvon sisa FTP bokte ja lohkan index.php. FTP-gáiddusvuogádaga migrašuvdnastáhtusa ii sáhte lohkat.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>Rievdaduvvon</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>Ráhkaduvvon</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Namma</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Luohkká</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Oassi</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>Ráhkadeaddji</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Ođđa sisdoallu</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>Olles neahttabáikki maŋimusat ráhkaduvvon ja rievdaduvvon sisdoallu, ođđaseamos vuosttažin: maid galledeaddjit sádde, mii lea doallojuvvon guorahallama várás, ja luonosat mat vuordet almmuheami. Vállje elemeanttaid vai luoittát, doalat, čiehkat, čájehat, sihkut dahje sirdát daid eará oassái dahje dillái.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>Listtu ii sáhttán lohkat: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>Guorahallandoallu ii leat vel ásahuvvon, nu ahte mihkkege ii dollo ja doallodoaimmat eai fállojuvvo. Ođasmahttinlávki 6.0.15-review-hold ásaha dan: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Sillo listtu</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Rájes</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Gitta</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Beaivi</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>Ráhkaduvvon (vuosttaš háve almmuhuvvon)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Buot</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Dilli</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Almmuhuvvon</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>Luonos, ii goassege almmuhuvvon</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>Vuordá (dohkkeheami dahje beaivvi)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>Ruskalihttis</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Doallojuvvon guorahallama várás</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>Doallojuvvon</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>Ii doallojuvvon</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>Čihkosis</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>Oidnosis</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>Sáddejuvvon neahttabáikebeassamis</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>Vaikko mii neahttabáikebeassan</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>Dušše dat maid revišuvdna registrerii.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>Dál: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>Geavaheaddjinamma dahje geavaheaddji ID.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Sillo</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>Sihko sillut</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>Elemeanttat</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from–%to / %count</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Ii makkárge elemeanta</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(lohkkojuvvon %ms ms:s)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>Doaimmat válljejuvvon elemeanttaiguin</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>Vállje buot dán siiddus</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>%count válljejuvvon</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Doaibma</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>Vállje doaimma</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>Luoitte doalu</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Doala guorahallama várás</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Čiehkat</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>Čájehit</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>Sirdde ruskalihttái</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>Sihkkut</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>Mearrit oasi</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>Mearrit dili</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>Sivva</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>Dárbbašuvvo doallama várás; vurkejuvvo doalu ja revišuvnna oktii.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>Vállje oasi</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Dilli</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>Vállje dili</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>Geavat válljejuvvon elemeanttaide</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>Juohke elemeanta dárkkistuvvo du iežat vuoigatvuođaid ektui. Ruskalihttái sirdin ja sihkkun gáibidit duođašteami. Eanet go %count elemeantta gieđahallojuvvojit duogážis.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>Vállje</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>Almmuheapmi</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>Sáddejuvvon čujuhusas</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>Vállje %name</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>ii vel</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(ii nama)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>Identifikáhtor %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>Luonos</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Vuordá</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>Čihkosis váhnenelemeantta dihte</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>Doallojuvvon: ođđa sáddejupmi</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>Veršuvdna %version vuordá</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>Veršuvdna %version barggus</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>Luonos, veršuvdna %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>Veršuvdna %version almmuhuvvon</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>Plánejuvvon: %date</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>ii čujuhus</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>ii registrerejuvvon</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>Mihkkege ii heive dáidda silluide.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Čájet buot</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>Sisdoallu ii leat vel.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Juohke siidui</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Čájet %count elemeantta juohke siidui.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says "not recorded".</source>
+        <translation>Sáddejumi čujuhus ja neahttalohkki bohtet revišuvdnaindeavssas, mii ii leat olahanmuttus dáppe: čuoldda čállá "ii registrerejuvvon".</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>Čujuhus ja neahttalohkki leat dat maid revišuvdna registrerii elemeantta ovddas (automáhtalaš doallu registrere daid álo; almmuheapmi ja ráhkadeapmi dušše doppe gos dat lea čađahuvvon), nugo dan priváhtavuođaásahusat daid vurkejit.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: %count elemeantta</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>Sihkkun sihkku elemeanttaid agibeaivái, buot sin veršuvnnaiguin ja jorgalusaiguin. Dan ii sáhte máhcahit.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>Elemeanttat mannet ruskalihttái, gos daid sáhttá máhcahit.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>Juohke elemeanta dárkkistuvvo du iežat vuoigatvuođaid ektui; elemeanta mas leat vuolleelemeanttat bázaha nugo lea (sihko dan sisdoallostruktuvrras). Don bivdojuvvot duođaštit ahte don leat don.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>Dát johtá duogážis: dan ovdáneapmesiidu rahpasa, ja boađus juohke elemeanttas čájehuvvo go dat lea gárvvis.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>Válljejuvvon elemeanttat</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>ja %count eanet</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Gaskkalduhttit</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>Mihkkege ii dahkkojuvvon</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Sivva: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>Doaibma ain johtá duogážis.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>Dan ovdáneapmi</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>Duogášdoaibma ii lihkostuvvan: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Dahkkojuvvon</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Hilgojuvvon</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Ii lihkostuvvan</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>Elemeantta mielde</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>Elemeanta</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Boađus</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Manne</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>Ruovttoluotta listui</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Ásaheapmi</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>Mihkkege ii dahkkon</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>Duođaš</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>Vállje doaimma.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>Vállje unnimusat ovtta elemeantta.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>Vállje eanemusat 1000 elemeantta oktanaga.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>Čálit manne elemeanttat dollojuvvojit.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>Vállje oasi.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>Vállje dili.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Skovi ii sáhttán lohkat.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>Dieđáhusbeavdi</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>Ođđa sisdoallu</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>Loguid ii sáhttán lohkat: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Doallojuvvon guorahallama várás</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>Ođđa odne</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Guorahallandoallu ii leat vel ásahuvvon (ođasmahttinlávki 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>Buot ođđa sisdoallu</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>Dus ii leat lohpi čađahit moderašuvdnadoaimmaid (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>Moderašuvdnadoaibma ii leat gárvvis: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>Moderašuvdna: %action %count objeavttas</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%done / %total objeavttas: %ok dahkkojuvvon, %refused hilgojuvvon, %failed eai lihkostuvvan</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok dahkkojuvvon, %refused hilgojuvvon, %failed eai lihkostuvvan</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>Dat ii gávdno šat.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>Das ii leat báiki (ii almmuhuvvon).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>Dus ii leat lohpi čiehkat dan (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>Dus ii leat lohpi čájehit dan (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>Dat lea juo čihkosis.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>Dat ii leat čihkosis.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>Čihkkojuvvon.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>Čájehuvvon.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>Dat lea ruskalihttis: guorrut dahje máhcat dan doppe.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>Luonos mii ii leat goassege almmuhuvvon ii sáhte mannat ruskalihttái: sihko dan.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>Dus ii leat lohpi sihkkut dan (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>Sihkkojuvvon.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>Dus ii leat lohpi váldit dan eret (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>Das leat vuolleelemeanttat: sihko dan sisdoallostruktuvrras, gos dat leat listtuin.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>Dat ii váldojuvvon eret (bargoproseassa sáhttá doallat eretváldima).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>Sirdojuvvon ruskalihttái.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>Oassi ii gávdno.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>Dat lea juo dán oasis.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>Dus ii leat lohpi mearridit dán oasi (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>Oassi ii mearriduvvon.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>Oassi mearriduvvon.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>Dilli ii gávdno.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>Dat lea juo dán dilis.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>Dus ii leat lohpi mearridit dán dili (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>Dilli ii mearriduvvon (bargoproseassa sáhttá doallat rievdadusa).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>Dilli mearriduvvon.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>Dakkár doaibma ii gávdno.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Guorahallandoallu ii leat ásahuvvon (ođasmahttinlávki 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>Čálit manne dat dollojuvvo.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>Dat lea juo doallojuvvon.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>Dus ii leat lohpi doallat dan (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>Doallu ii biddjojuvvon (bargoproseassa sáhttá doallat rievdadusa).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>Doallojuvvon.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>Dat ii leat doallojuvvon.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>Dus ii leat lohpi luoitit dan (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>Doallu ii luoitojuvvon (bargoproseassa sáhttá doallat rievdadusa).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>Luitojuvvon; ain čihkosis: dus ii leat lohpi čájehit dan (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>Luitojuvvon.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>Buot ulbmilat</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Maŋimuš almmuheapmi</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>Almmut nuvttá stáhtalaš kopiija iežat neahttabáikkis GitHub Pages:ii:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Boares siiddut</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Stáhtalaš almmuheapmi</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Stáhtalaš almmuheapmi lea jaddaduvvon.</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Ulbmil</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Ulbmiliid ii sáhttán lohkat: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>bargu lea jođus</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>huksen dárkkisteapmái</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>čiega dán</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>ráhkat ulbmila</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>ii goassige</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>loga oahpahusa</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>%added lasihuvvon, %changed rievdaduvvon, %removed sihkkojuvvon</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%bytes, ráddjehus %limit (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>%count eará eai leat listtus.</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>%pages siiddu čállojuvvon</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path lea %size, eanet go guossoheaddji lobiha ovtta fiilii.</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>%percent % ráddjehusas</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds sek</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag lea almmuheapmi mii neahttabáikkis lea dál.</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: bargu %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>/vuorká/ GitHub-prošeaktabáikki várás; guorus iežat domena dahje geavaheaddjibáikki várás.</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. Neahttabáiki</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. Guossoheaddji</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. Sisačáliheapmi vuorkái</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. Vuorká</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. Liŋkkat ja vuođđobálggis</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. Iežat domena</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. Mii huksemis lea</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. Goas almmuhuvvo</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. Dárkkis ja vurke</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>GitHub-prošeaktabáiki orru /&lt;repository&gt;/ vuolde; relatiivvalaš liŋkkat doibmet doppe ja buot eará sajiin.</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>Huksen viežžá %site juohke siiddu nugo sisačálekeahtes galledeaddji dan oaidná, čállá liŋkkaid ođđasit, kopiere fiillaid ja čállá boađusa ulbmila máhppii. Mihkkege ii almmuhuvvo ovdal go don dárkkistat huksema ja deaddilat Almmut.</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>Cron-cealkka, ovdamearkka dihte 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>Almmuhančoavdda vurkejuvvo čiehkádussan %secret.</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>Almmuhančoavdda diktá dán installašuvnna dulddidit ovtta vuorkái SSH bokte iige makkárge eará sadjái. Dan priváhta bealli bázzá Ásaheapmi &gt; Čiehkádusat; dušše almmolaš bealli čájehuvvo.</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>Almmuhančoavdda mii lea ráhkaduvvon dán ulbmilii</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>Almmuhančoavdda čálihuvvá sisa SSH bokte: rievdat git-čujuhusa SSH-čujuhussan (git@github.com:owner/repo.git).</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>Bargu lea jođus, %user álggahii dan</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>Dán ulbmila bargu lea ain jođus (%detail). Vuorde dassážii go dat nohká.</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>Dán ulbmila bargu lea ain jođus. Vuorde dassážii go dat nohká.</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>Liŋka siiddus /news/ siidui /about-us/team čállojuvvo ná</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>Ođđa almmuhančoavdda ráhkaduvvui. Lasit dan almmolaš beali vuorkái dál.</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>Siidu mas ain leat debugčállosat, skovvatoken dahje session-id buhtisteami maŋŋá, ii goassige almmuhuvvo.</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>Máhcaheapmi lea áššedovdiide: merke &quot;Mun dieđán maid dát rievdada&quot; ja čále merka nama fas.</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>Neahttabáiki sáhttá leat gitta %site, okta fiila gitta %file, sullii 100 GB johtolagain mánus. Nuvttá plánas vuorká ferte leat almmolaš. GitHub Pages ii leat oaivvilduvvon gávppiide dahje eará kommersiála transakšuvnnaide.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>Ulbmil lea okta neahttabáiki mii almmuhuvvo ovtta git-vuorkái. Dáppe ii huksejuvvo iige almmuhuvvo mihkkege: Vurke čállá ásahusaid fiilii settings/override/staticcache.ini.append.php.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>Ulbmil lea okta neahttabáiki mii almmuhuvvo ovtta sadjái, ovdamearkka dihte du almmolaš neahttabáiki GitHub Pages:is.</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>Token mii lea Ásaheapmi &gt; Čiehkádusat</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>Vuorkká bargoproseassa almmuha dan.</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>Lasit dán almmolaš čoavdaga vuorkái čállinlobiin. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, merke Allow write access.</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>Lasihuvvon</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>Eará git-guossoheaddji</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>Eará proseassa bargá dáinna ulbmiliin: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>Ruovttoluotta</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>Vuođđobálggis</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Ovdal</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>Vuođđobálgá vuolde</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>Oavsi</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>Boatkanan liŋkkat</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>Boatkanan liŋkkat huksemis</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>Huksen</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>Huksen %id, ráhkadii %user</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>Huksen %name</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>Hukse dál</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>Huksen dárkkisteapmái</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Gii</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>Gieđain, dáppe</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Šluhtte</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Rievdat</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>Rievdaduvvon</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Rievdadusat</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>Dárkkis vuos</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Dárkkis dáid ásahusaid</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>Dárkkis maid huksen rievdada, geahča dan, ja almmut dahje bálkes dan.</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>Vállje almmuheami masa máhccat.</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>Boahtá maŋit veršuvnnas.</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Čáliheapmi</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>Čáliheamit</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>Čállá huksema, merke dan ja dulddida dan dása: %remote. Dulddideapmi ii goassige bákkuhuvvo; sáhtát maŋŋil máhccat makkár beare almmuheapmái.</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>Buohtastahttojuvvon ovddit máhpain: %added lasihuvvon, %changed rievdaduvvon, %removed sihkkojuvvon, %unchanged rievdakeahttá.</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>Buohtastahttojuvvon maŋimuš almmuhemiin.</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Duođaštus</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>Iežat domena</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>Debugčállosat, skovvatokenat, session-id:t ja nonce:t váldojuvvojit álo eret.</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>Almmuhančoavdda</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>%name almmuhančoavdda</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Bálkes</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>Bálkes huksema</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>Domena</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>Guorus: neahttabáikki čujuhus. Muđui seamma neahttabáikki siskkáldas čujuhus.</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Nohkan</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>Juohke liŋka álgá vuođđobálgáin.</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>Juohke almmuheapmi lea čáliheapmi merkkain static/%id/&lt;n&gt;. Máhccan ráhkada ođđa čáliheami ovddit almmuheami fiillaiguin: historjá bissu, ii oktage merka sirdojuvvo iige mihkkege bákkuhuvvo.</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>Lasáhusat</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>Viečča siidduid dás</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Fiila</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>Fiillat</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>Fiillat váilot</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>Fiillat báikkis</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>Fiillat maid ii sáhttán čoaggit</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>Suorbmaguovdu</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>Máhppa</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>SSH-čujuhussii. Čoavdda ráhkaduvvo vurkema maŋŋá; don lasihat dan almmolaš beali vuorkái.</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>https://-čujuhussii. GitHub: dárkilis token (fine-grained) mas lea Contents lohkan- ja čállinlohpi vuorkái.</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>Áššedovdiide. Almmolaš neahttabáiki rievdá dalán go dulddideapmi lea čađahuvvon.</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Skovit</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>Nuvttá guossoheapmi GitHub-vuorkkás.</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>Oavssis</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>Git-čujuhus</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub-ápa</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages lobiha neahttabáikki mii lea %site ja fiilla mii lea %file.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>GitHub Pages ráddjehusat</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages almmuha fiillaid nugo dat leat (dárbbašlaš fiillaide mat álget _ mearkkain).</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub fállá oavssi nugo dat lea dulddiiduvvon. Standárda.</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, iežat bálvá: makkár beare git-vuorká.</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>Máhca ovddit almmuheapmái</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Veahkki</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>Veahkki čuvvogii</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>Čiega daid</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Historjá</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>%name historjá</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Guossoheaddji</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>Movt GitHub Pages oažžu huksema</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>Mun lean dárkkistan rievdadusaid</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>Mun dieđán maid dát rievdada</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>Dat lea jaddaduvvon: mihkkege ii sáhte huksejuvvot ovdal go dat lea čadnon.</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>Dat bargá duogážis %user namas; sáhtát giddet dán siiddu.</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>Bargu %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>Vurkejuvvon čiehkádussan %secret.</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Šládja</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Maŋimuš almmuheapmi</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>Guođe eret dáid siidduid</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>Guođe eret dáid oasiid</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Liŋkkat</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>Liŋkkat čállojuvvon ođđasit</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>Eallis neahttabáiki</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>Geahča huksema</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>Unna bustávat, logut, _ ja -, ovdamearkka dihte github-public. Dat namuha máhpa ja merkkaid (static/&lt;id&gt;/&lt;n&gt;) iige sáhte rievdaduvvot maŋŋil.</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>Ráhkat ođđa čoavdaga</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>Ráhkat ulbmila</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>Ráhkat čoavdaga</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>Ráhkat vuos vuorkká guossoheaddjis; guorus vuorká lea buorre.</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>Fiilalistu (manifest)</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Dieđáhus</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>Eanaš siiddut</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Namma</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>Tokena namma Ásaheapmi &gt; Čiehkádusat</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>Ođđa ulbmil</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Boahtte</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>Ii</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>Ii vel čáliheapmi.</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>Čoavdda ii ráhkaduvvon: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Ii gávdnon php gohččunlinjáprográmma. Bija migration.ini [AdminSettings] PhpCliPath dan ollislaš bálgái.</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>Ii vel merka.</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>Ii vel ulbmil.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Ii mihkkege</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>Ii huksemis.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>Mihkkege ii leat vel almmuhuvvon.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>Mihkkege ii leat vel almmuhuvvon: juohke fiila lea ođas.</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>Dieđit</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>Áigetávvala mielde</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>Konsollas</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>Bálvás: ./console exp:static:serve %id fállá dan seamma láhkái.</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>Okta bálggis juohke linjái, * heive makkár beare oassái: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>Dušše namma vurkejuvvo ulbmiliin; token dahje čoavdda ieš bázzá Ásaheapmi &gt; Čiehkádusat iige goassige oidno logas.</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>Dušše dat maid siiddut namuhit</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>Dušše tokeniin. env:NAME lohká baicca bálvá birasvariábela.</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>Raba ovdačájeheami</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>Rahpá huksema nugo guossoheaddji dan fállá, ulbmila máhpas. Liŋka doaibmá dutnje diimmu.</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>Eaktodáhtolaš. Guorus: dat mii almmuhuvvui.</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>Eaktodáhtolaš. Domenain neahttabáiki fállojuvvo dan ruohttasis.</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Olggosbuvttus</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>Siiddut</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>Ulbmila siiddut</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>Hilgojuvvon siiddut</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>Maŋŋegieđahallan</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Ovdačájeheapmi</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>Ovdačájeheapmi ja almmuheapmi</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>%name ovdačájeheapmi ja almmuheapmi</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>Huksema ovdačájeheapmi</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Ovdáneapmi</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>Almmolaš čujuhus</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>Almmolaš čoavdda</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>Almmut</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>Almmut neahttabáikki stáhtalaš kopiija GitHub Pages:ii dahje makkár beare git-guossoheaddjái: hukse dan, dárkkis rievdadusaid, almmut, ja máhca ovddit almmuheapmái go dárbbašat.</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>Almmuheapmi masa máhccat</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>Almmuheamit</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Dulddideapmi</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>Loga oahpahusa</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Logga</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Hilgojuvvon</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>Relatiivvalaš</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Viečča ođđasit</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>Sihkkojuvvon</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>Buhtte čoavdaga: boares heaitá doaibmamis</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Raporta</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>Huksema raporta</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Vuorká</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Dárkkisteapmi</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>Dárkkisteapmi dárkkista juohke ásahusa ja čájeha linjáid mat čállojuvvojit. Mihkkege ii leat vel vurkejuvvon.</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Máhcat</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Máhcaheapmi</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Vurke</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>Áigetávval</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>Ohcansiidu</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>Oasiid id:t, sirrejuvvon rihkkosiiguin.</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>Sádde daid eallis neahttabáikái</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>Ásahus</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Ásahusat</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>%name ásahusat</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Ásaheapmi</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Ásaheapmi &gt; Čiehkádusat</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>Čájehuvvo listtuin, ovdamearkka dihte &quot;Almmolaš neahttabáiki GitHub Pages:is&quot;.</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>Sisačáliheapmi GitHub-ápain boahtá GitHub-integrašuvnnain.</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>Neahttabáiki</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>Neahttabáiki maid almmuhit</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Sturrodat</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>Sturrodat ja ráddjehusat</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>Huksema sturrodat</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Boares siiddut</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Álggahuvvon</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>%user álggahii %time.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Dilli</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Stáhtalaš almmuheapmi</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>Stáhtalaš almmuheapmi lea jaddaduvvon</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Stáhtalaš almmuheapmi lea jaddaduvvon.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>Stáhtalaš almmuheapmi lea jaddaduvvon. Čana dan vuos dás: Ásaheapmi &gt; Stáhtalaš almmuheapmi.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>Stáhtalaš almmuheapmi lea čadnon.</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>Lávki %step / %total</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Lávkkit</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>Buhtisteapmi</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Jaddat</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Čana</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>Čana stáhtalaš almmuheami</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Merka</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>Merkkat</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Ulbmil</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>Ulbmiliid sáhttá ráhkadit ja rievdadit, muhto mihkkege ii huksejuvvo iige almmuhuvvo ovdal go dat lea čadnon.</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>Muitala ohcanmášiinnaide maid lohkat.</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>Huksema ii sáhttán bálkestit: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>Huksen lea seamma go maŋimuš almmuheapmi: ii leat mihkkege maid almmuhit.</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>Huksen bálkestuvvui: máhpas lea fas maŋimuš almmuheapmi.</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>Standárdaárvvut heivejit eanaš neahttabáikkiide.</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>Máhpas lea huksen mii ii leat vel almmuhuvvon; ođđa huksen buhtte dan.</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>Bargguid máhppii ii sáhte čállit: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>Barggu ii sáhttán ráhkkanit: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>Barggu ii sáhttán álggahit.</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>Bargu lea nohkan. Raporta viežžojuvvo.</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>Bargu dárbbaša sisačálihuvvon geavaheaddji.</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>Bargu álggahuvvui muhto ii dieđihan iežas proseassa-id. Dárkkis %detail.</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>Čoavdda</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>Stuorimus fiila: %path, %size.</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Linját mat čállojuvvojit</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>Siidolistu ohcanmášiinnaide; dárbbaša almmolaš čujuhusa.</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>Siiddut viežžojuvvojit nugo sisačálekeahtes galledeaddji daid oaidná. Hálddahus- ja doaimmahansiteaccessat eai goassige fállojuvvo.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>Ovdáneami ii sáhttán čuovvut. Viečča siiddu ođđasit oaidnin dihte movt bargu manná.</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>Čoavdaga almmolaš bealli:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>Oavssi ruohtas</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>Čiehkádusvuorká ii leat vel ásahuvvon (./console exp:upgrade --apply ráhkada dan tabealla), nu ahte ii oktage čoavdda sáhte vurkejuvvot.</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>Bálvá čálihuvvá sisa ieš (iežas SSH-čoavdagiin dahje duođaštusveahkkeprográmmain), dahje vuorká lea dán bálvás.</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>Ásahusa ii sáhttán čállit: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Ásahusat leat gustovaččat. Dát linját čállojuvvojit:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Ásahusfiilla ii sáhte lohkat: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>Neahttabáiki máhccá dan almmuheami fiillaide; huksen mii ii leat vel almmuhuvvon ferte vuos almmuhuvvot dahje bálkestuvvot.</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>Neahttabáikki iežas siidu čujuhusaide mat eai gávdno.</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>Ulbmila ii sáhttán vurket: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>Ulbmil ii vel čálihuva sisa dáinna čoavdagiin: vállje &quot;Almmuhančoavdda mii lea ráhkaduvvon dán ulbmilii&quot; dan ásahusain.</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Ulbmiliid ii sáhttán lohkat: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>Ii leat vel huksen maid dárkkistit.</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>Dán installašuvnnas ii leat almmolaš siteaccess. Hálddahus- ja doaimmahansiteaccessat eai goassige almmuhuvvo.</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>Dát siidu čuovvu barggu dan mielde go dat manná; dat joatká duogážis go siidu giddejuvvo.</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>Dán ulbmilis ii leat vel almmuhančoavdda.</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>Dát ulbmil ii leat vel huksejuvvon dáppe.</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>Dán ulbmilis lea okta.</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>Bálkesta dán huksema: máhpas lea fas maŋimuš almmuheapmi. Eallis neahttabáiki ii rievdda.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>Merke vuos &quot;Mun lean dárkkistan rievdadusaid&quot;.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Áigi</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>Álggaheaddjit</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>Čále merka nama fas</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>Rievdakeahttá</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>Webhook</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Mii</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>Mii rievdá</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>Mii juohke fiila lea; čállojuvvo álo.</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>Maid bargu dagai ja dan logga. Bargu mii álggahuvvo dáppe joatká duogážis go dát siidu giddejuvvo.</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>Maid bargu čálii meattáhussan</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>Dat maid siiddut namuhit, ja juohke govva almmuhuvvon sisdoalus</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Goas</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>Go almmuheapmi ii lihkostuva</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>Go almmuheapmi lihkostuvvá</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>Go sisdoallu almmuhuvvo</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>Gosa liŋkkat dasa mii kopiijas ii leat mannet (ohcan, sisačáliheapmi).</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>Gos stáhtalaš kopiija fállojuvvo.</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>Guhte neahttabáiki almmuhuvvo, ja mii ulbmila namma lea.</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>Doaibmá makkár beare bálgá vuolde. Standárda.</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>Čállojuvvo go iežat domena lea mearriduvvon.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>Juo</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>Sáhtát álo huksit ja almmuhit gieđain dáppe ja konsollas.</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>dušše namma; árvu bázzá Ásaheapmi &gt; Čiehkádusat</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>%path vuolde</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>nogai raporttaha</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>lasáhus</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>ii lihkostuvvan</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>fiila</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages, dahje main máhpain docs.</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>git-guossoheaddji</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (tokeniin) dahje git@github.com:owner/repo.git (almmuhančoavdagiin); ii goassige beassansátni dahje token das.</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/, siidokártta ja kanonalaš liŋkkaid várás.</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>govva</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>ii goassige</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ii</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>ii gáiddus vuorká</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>ii mihkkege: čáliheamit bissot máhpas</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>ii mihkkege: mihkkege ii rievdan</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>ii dulddiiduvvon</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>mihkkege ii rievdan</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>siidu</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>lihkostuvai</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>proc_open lea jaddaduvvon, nu ahte bargu ii sáhte álggahuvvot dáppe. Geavat ./console exp:static:build bálvás.</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>almmuheapmi</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>almmuhuvvon</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>dulddideapmi vuordá</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>dulddiiduvvon</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>hilgojuvvon</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>relatiivvalaš</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>máhcaheapmi</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>máhcahuvvon</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>jođus</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>dušše máhppa</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: čállojuvvo fiilii CNAME. Čujut domena DNS guossoheaddjái nugo dat čilge; HTTPS sáhttá ádjánit ovdal go álgá.</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>juo, ii vel almmuhuvvon</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>Vuorkká bargogoarta almmuha dan. Huksen čállá bargogoartafiilla; guođe máppa guorusin.</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>Go leat vurken ulbmila GitHub-vuorkkáin ja tokeniin dahje GitHub App:ain, de dát lávki sáhttá ráhkadit vuorkká ja čatnat GitHub Pages ala. Muđui ráhkat vuos vuorkká GitHub:as; guorus vuorká lea buorre.</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>Oavsi vai GitHub Actions?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>Dárkko DNS</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>Ráhkat vuorkká jus dat ii gávdno</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>Ráhkat vuorkká GitHub:as ja čatna GitHub Pages ala dan heivehusain (Settings &gt; Pages).</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>Ráhkada vuorkká %repo go dat váilu (go bivdojuvvo), čatná GitHub Pages ala oavssis dahje GitHub Actions:as nugo vurkejuvvon, ja bidjá iežat domena ja HTTPS. Geavaha vurkejuvvon heivehusaid: vurke vuos rievdadusaid.</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>Dieđut GitHub:as</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>Čális vuos iežat domena.</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>Juohke dulddiideapmi dárkkistuvvo vuos dáid ráddjehusaid ektui.</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>https://-čujuhussii GitHub:as. App mii lea heivehuvvon dán sajáiduhttimii čálihuvvá sisa; dat dárbbaša sajáiduhttima id.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages fállá priváhta vuorkká dušše máksojuvvon plánas.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: vuolledomena (www.example.com) dárbbaša CNAME-merkoštusa &lt;owner&gt;.github.io:ii; váldodomena (example.com) A-merkoštusaid %ips.</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>GitHub App sajáiduhttima id</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>Maŋimuš Pages-huksen</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>Ráddjehusat ja eavttut</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>Dárbbašlaš GitHub Pages várás nuvttá plánas.</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>GitHub:as</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>Dušše GitHub App:ain: nummir App sajáiduhttima čujuhusa loahpas GitHub:as. App ieš heivehuvvo staticcache.ini:s (GitHubAppId, GitHubAppKey).</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>Priváhta</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>Almmolaš</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>Vurke vuos ulbmila GitHub-vuorkkáin ja tokeniin dahje GitHub App:ain.</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>Bija dáid merkoštusaid domena fálli lusa:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>Heivet GitHub:as</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>%domain DNS ii čujut vel GitHub Pages ala.</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>%domain DNS čujuha GitHub Pages ala.</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>GitHub-integrašuvdna ii leat olámuttus dáppe: %problem. Almmuheapmi oksii doaibmá goittotge; čatna GitHub Pages ala vuorkká heivehusain.</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>GitHub-lávkkit eai leat olámuttus dán ulbmilii: %problem.</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>GitHub Pages dilli čájehuvvo go duođaštus lea token dahje GitHub App.</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>Geavat iežat domena</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>Maid válljet: token, almmuhančoavdda dahje GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>GitHub-vuorkkáin ja tokeniin dahje GitHub App:ain sáhttá čuvvu du ovddas ráhkadit vuorkká, čatnat GitHub Pages ala ja bidjat domena (lávki 4).</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>huksejuvvo</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>huksejuvvon</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>GitHub Actions:as</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>oavssis %branch</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>ii vel mihkkege</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>ii gávdnon</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>eret</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>priváhta</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>almmolaš</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>vuordimin</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>amas</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%count %pages siiddus:</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>Fiila .gz (ja .br) juohke teakstafiilla bokte, daidda váikkuhedjiide mat fállet daid.</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>Smávva siidu juohke boares čujuhusa ja nama ovddas, vai boares liŋkkat barget.</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>Čállojuvvo álo go GitHub Actions oažžu siidduid.</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>SPDX-id nugo CC-BY-4.0, dahje teaksta ieš.</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>Gorgu</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>Bovdehusat serverii</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Kommeanttat</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>Skovit mat čoaggejit dieđuid</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>GitHub Actions workflow</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>Unnit ráfi ja eai kommeanttat siidduin.</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>Sisdoalu liseansa</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Sisaloggen</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>Minify</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>Eará skovit</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>Precompress</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>Ruovttoluotta jođihanasiiddut</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>Ruovttoluotta jođihanasiiddut: %count.</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Ohcan</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>Ohcanindeaksa: %pages siidu gielain %languages.</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>Stiilaiddut ja skripttat mat nammaduvvojit sisdoalu hash-árvvu mielde, vai čoaggáičit sáhttet daid doallat.</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>Rievdaduvvon siiddut, moadde minuhta maŋŋel maŋimuš rievdadusa (cronjob oassi staticpublish).</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>Sisdoalu liseansa, vuolábeale gieddes.</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>Oppa neahttabáiki, plána áiggiid mielde (cronjob oassi staticpublish).</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>Dát siidduid oasit dárbbašit servera; juohkehaš oaččui várrebohtosa. Kontrolle daid ovdal almmuhat.</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>Mii ii doaimma statihkalaččat</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>Maid repositoria lea, sidjiide geat rahpet dan hostii.</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>guovdelii bijat</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>várreteaksta</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>eallis neahttabáikki skovvaoažžu</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>eallis neahttabáiki</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>kopiija ohcansiidu</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>Skovi ii sáhttán sáddejuvvot.</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>Giitu: skovi sáddejuvvui.</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>Skovi ii dohkkehuvvon: dárkkis maid čállit ja sádde dan ođđasit.</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>Sihko liŋkkaid siidduide maid máŋgosis ii leat</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>Sihko liŋkkaid hálddahussii</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>Sin teaksta báhcá. Govat, skovit ja liŋkkat eará neahttabáikkiide eai goassige sihkkojuvvo.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Veršuvdna</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>Almmuhuvvon neahttabáikebeassamat</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Neahttabáikebeassan</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>Ruohttasis</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>Ii mihkkege neahttabáikebeassama ruohttasis: juohke okta lea iežas máhpas, ja ruohtas liŋke daidda</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Neahttabáikebeassamat</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>Merke ovtta neahttabáikebeassama, dahje máŋga mat juogadit ovtta guossoheaddji iežaset URI-ovdalaččain. Dat mii lea ruohttasis bálvaluvvo doppe, earát iežaset ovdalačča máhpas (/ger/); liŋkkat gaskkaneaset bissot máŋggus. Hálddahuslaš beassamat eai goassege fállojuvvo.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>Statalaš almmuheapmi %target ii lihkostuvvan %site:s</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>Statalaš almmuheapmi %target lihkostuvai %site:s</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>%site sáddii dán e-poastta danin go statalaš almmuheami ulbmil %target bivdá dan.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>Doaimmaheapmi %deploy ii lihkostuvvan neahttabáikkis %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>Doaimmaheapmi %deploy vuordá uvssa luhtte neahttabáikkis %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>Doaimmaheapmi %deploy lihkostuvai neahttabáikkis %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>Dán e-poastta sáddii %site, danin go migration.ini [RemoteSettings] Notify[] dan gáibida.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>Dáhtašlájat (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>Rehkenastojuvvon %time, ođđasit %minutes minuhta geažes</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>Dáhtašládja vurke ja rievdada ovtta lágan árvvu luohká attribuhtas: teakstalinnjá, gova, oktavuođa. Váibmu buktá eanaš daid, lasáhusat lasihit eanet. Dás leat buot, gii daid fállá ja man ollu sisdoalus daid geavaha. Dáhtašládja maid diehtovuođđu geavaha muhto maid ii mihkkege šat registrere, billista sisdoalu mas dat lea.</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>Luohkkájoavkkut</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>Rehkenastte ođđasit dál iige geavat maŋimuš minuhtaid loguid.</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>Rehkenastte ođđasit</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Čoahkkáigeassu</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>Registrerejuvvon</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>Geavahusas</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>Ii geavahuvvon</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>Lasáhusat mat fállet dáhtašlájaid</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>Luohká attribuhtat</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>Objeavtta attribuhtat</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>Ii registrerejuvvon</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>Listtus, fiila váilu</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>%count dáhtašlája geavahuvvojit muhto eai leat registrerejuvvon</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>%class_attributes luohká attribuhtas ja %object_attributes objeakta attribuhtas lea dáhtašládja maid ii oktage lasáhus dahje heivehus registrere. Daid objeavttaid ii sáhte čájehit, rievdadit dahje almmuhit. Aktivere lasáhusa mii fállá dáhtašlája, dahje rievdat luohká.</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>Čájet dušše dáid</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>Oza dáhtašlája</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>Identifiseaddji, namma, PHP-luohkká dahje lasáhus.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Čájet</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Buot</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>Fállá</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>Juohke</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>Váibmu</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>Ii oktage dáhtašládja heive dán filtarii.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Čájet buot</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>Lasáhus</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%shown %count dáhtašlájas, %used geavahusas</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>Diehtovuođus leat dáid dáhtašlájaid luohká- dahje objeaktaattribuhtat, muhto content.ini ii listte ii ovttage dain, dahje dan fiila váilu.</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>%provider dáhtašlájat</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>Dáhtašládja</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>PHP-luohkká ja fiila</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>Luohkát</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>Objeavttat</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>Mearkkat</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>ii oktage</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>Ii oktage dáhtašládja heive ohcamii. Sihko ohcama.</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>%shown %count dáhtašlájas čájehuvvon</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>Čájehuvvon dáhtašlájat: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>Sorteret: %column</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>Rehkenastojuvvon %time</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>Buot dáhtašlájat</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>Veahkkesiidu</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>Dát dáhtašládja geavahuvvo muhto ii leat registrerejuvvon</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>Vuolábeale luohkáid objeavttaid ii sáhte čájehit, rievdadit dahje almmuhit nu guhká go ii oktage lasáhus registrere dáhtašlája. Aktivere lasáhusa mii dan fállá ja lasit dan content.ini [DataTypeSettings] AvailableDataTypes[], dahje rievdat luohkáid.</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini listte dán dáhtašlája, muhto ii oktage dáhtašládjamáhppa sisttisdoala dan fiilla. Ii mihkkege geavat dan; sihko dan AvailableDataTypes[] listtus dahje aktivere dan lasáhusa.</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>Dán dáhtašlája birra</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>Identifiseaddji</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Namma</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Lasáhus %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>ii oktage</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>PHP-luohkká</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Fiila</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>AvailableDataTypes[] listtus</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>juo</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ii</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>Dan árvvu čuolddat</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>Dan luohká attribuhta heivehusaid čuolddat</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>Tabeallat</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>Čuolddat ja tabeallat gávdnojit go lohká dáhtašlája koda: bagadus, ii lohpádus.</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>Mállet</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Neahttabáikebeassan</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>Málle</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>Gávdnui dáppe:</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>dát hálddašeapmi</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>standárda neahttabáiki</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>Overrides haga: override-málle mii heive luohká dahje attribuhta mielde vuoitá dáid.</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>Luohkát mat dan geavahit (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>Ii ovttage luohkás leat dán dáhtašlája attribuhtta.</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Luohkká</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>Attribuhtat</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>Luohká attribuhtat (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>Attribuhtta</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Heivehusat</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>Bákkolaš</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>Ohcamis</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>Jorgaluvvon vejolaš</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>Čohkke dieđuid</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>Muhtun sisdoallu mii dan geavaha</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>Maŋimužžan rievdaduvvon vuosttažin</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Rievdaduvvon</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>Čuolbma %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>Juohke jorgalusas lea iežas árvu.</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>Ohcan indeksere dan árvvuid.</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>Dat sáhttá čoaggit dieđuid gallededdjiin (skovit).</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>Listtuid sáhttá sorteret dan mielde: sorterenčoavdda %type.</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>Sorterehahtti</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>Dan árvvut čujuhit eará objeavttaide.</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>Oktavuođat</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>Dan sáhttá deavdit čielga teavsttas (import, REST).</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>Teavsttas</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>Dan sáhttá deavdit fiillas.</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>Fiillas</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>Dan luohká attribuhta heivehusat mannet páhkkaide.</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>Páhkat</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>Sisdoallu (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from rádjai %to, buohkaid lohku %count</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Sillo listtu</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>Buot luohkát</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Oassi</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Gielat</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Eaiggát</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Almmuhuvvon</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>Jorgal ortnega</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Ii makkárge elemeanta</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Siidui</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Čájet %count elemeantta siiddus.</translation>
     </message>
 </context>
 </TS>

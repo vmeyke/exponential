@@ -15,6 +15,27 @@ Server-Block aus [Kapitel 8, Abschnitt 8.6](../../installation/08-die-website-au
 HTTPS, HTTP/2, eine Weiterleitung auf Port 80 und die Sicherheits-Header. Vergleichen Sie sie nach jedem Upgrade mit
 `.htaccess_root`.
 
+> **Warnung**
+> **`.htaccess` bremst jede Anfrage.** Sind `.htaccess`-Dateien erlaubt (`AllowOverride` alles außer `None`), geschweige
+> denn genutzt, sucht Apache sie bei jeder Anfrage in jedem Verzeichnis des Pfads und liest und wertet sie aus, und
+> die Ladezeiten der Seiten steigen drastisch ([gemessen](../../anleitungen/setup-dateien-von-der-konsole.md#gemessen-htaccess-gegen-regeln-im-virtuellen-host)). Die einzige wirkliche Abhilfe ist, die
+> Funktion für den virtuellen Host abzuschalten: `AllowOverride None` im virtuellen HTTPS-Host, und die Regeln in
+> der Konfiguration des virtuellen Hosts selbst als mod_rewrite-Regeln. Das ist in Geschwindigkeitstests im
+> Produktivbetrieb weit schneller und die Zeit für die Optimierung einer Produktivkonfiguration unbedingt wert.
+> Stellen Sie sofort um: Übernehmen Sie die Regeln des [Beispiels für einen virtuellen HTTPS-Host](apache-virtueller-host.md) in
+> Ihren virtuellen Host (mit dem statischen Cache auch [`staticcache_offload.conf`](../../../eng-us/examples/staticcache_offload.conf)), setzen Sie
+> `AllowOverride None`, führen Sie `apachectl configtest` aus, laden Sie Apache neu und testen Sie die Website.
+> Dieselben Regeln für andere Server: [nginx](nginx.md), [LiteSpeed](litespeed.md), [Caddy](caddy.md), [IIS](iis.md),
+> [Velocity](velocity.md) (eingebaut); wohin Regeln für virtuelle Hosts in einem Control Panel gehören:
+> [Plesk](../../hilfe/hosting/control-panels/plesk.md), [cPanel](../../hilfe/hosting/control-panels/cpanel.md), [DirectAdmin](../../hilfe/hosting/control-panels/directadmin.md), [ISPConfig](../../hilfe/hosting/control-panels/ispconfig.md).
+> **Unter LiteSpeed oder OpenLiteSpeed** kann zusätzlich der Seiten-Cache des Servers anonyme Besucher und Crawler ohne PHP bedienen: [Seiten-Caching mit LiteSpeed und OpenLiteSpeed](../../anleitungen/seiten-cache-mit-litespeed.md).
+
+nginx liest `.htaccess` nie, deshalb schützt `./console exp:setup:htaccess --apply` eine nginx-Site nicht: Das tun die
+Regeln unten. Nützlich ist die Konsole trotzdem: `./console exp:setup:config --apply` bringt `config.php` an ihren
+Platz, und nach einem Upgrade zeigt `./console exp:setup:htaccess` an einer mit `exp:setup:htaccess` kopierten
+`.htaccess` als Diff, welche Regeln von `.htaccess_root` sich geändert haben. Siehe
+[.htaccess und config.php von der Konsole einrichten](../../anleitungen/setup-dateien-von-der-konsole.md).
+
 ## Installieren
 
 1. Kopieren Sie die Datei nach `/etc/nginx/conf.d/example.com.conf`. Sie wird innerhalb des Blocks `http {}` gelesen:
@@ -129,6 +150,14 @@ server {
         fastcgi_param SCRIPT_NAME /index_rest.php;
         fastcgi_pass unix:/run/php-fpm/www.sock;
     }
+    # The SOAP server (soap.ini EnableSOAP=true) is index_soap.php since
+    # Exponential 6.0.15; soap.php only forwards to it. Uncomment with SOAP on:
+    #location = /index_soap.php {
+    #    include fastcgi_params;
+    #    fastcgi_param SCRIPT_FILENAME $document_root/index_soap.php;
+    #    fastcgi_param SCRIPT_NAME /index_soap.php;
+    #    fastcgi_pass unix:/run/php-fpm/www.sock;
+    #}
     location ~ ^/([^/]+/)?content/treemenu {
         include fastcgi_params;
         fastcgi_param SCRIPT_FILENAME $document_root/index_treemenu.php;
@@ -189,6 +218,11 @@ server {
   `RewriteRule .* index.php`.
 - Die Front-Controller werden in `SCRIPT_FILENAME` genannt; die Anfrage wird nicht umgeschrieben, daher trägt
   `REQUEST_URI` (aus `fastcgi_params`) weiterhin die Adresse, die der Besucher angefordert hat, wie bei Apache.
+- Der SOAP-Server heißt seit Exponential 6.0.15 `index_soap.php` (vorher `soap.php`, jetzt ein Shim, das dorthin
+  weiterleitet). Seine Location ist auskommentiert, weil SOAP standardmäßig aus ist; nehmen Sie die Kommentarzeichen
+  weg, wenn Sie SOAP einschalten, und ändern Sie eine `location = /soap.php` einer älteren Konfiguration entsprechend.
+  Den Test mit `curl` finden Sie unter
+  [Das SOAP-Einstiegsskript heißt jetzt index_soap.php](../../bc/6.0/soap-einstiegsskript-index-soap.md#testen).
 - Die Locations für statische Dateien haben kein `fastcgi_pass`, dort läuft also kein PHP, und die Skript-Regel davor
   sorgt dafür, dass eine `.php` unterhalb eines Verzeichnisses für statische Dateien auch nicht als Text ausgeliefert
   wird. Die Skript-Regel antwortet für jeden solchen Pfad mit 404, ob er existiert oder nicht; das ist etwas strenger
@@ -208,6 +242,16 @@ Endet TLS an einem Load Balancer vor nginx, behalten Sie einen `server` auf dem 
 als `HTTP_X_FORWARDED_PROTO` an); der Kernel glaubt ihm nur, wenn er von einer Adresse kommt, die in
 `site.ini [HTTPHeaderSettings] TrustedProxies[]` steht
 ([Kapitel 8, Abschnitt 8.8](../../installation/08-die-website-ausliefern.md#88-hinter-einem-reverse-proxy)).
+
+## WebDAV
+
+Diese Datei leitet WebDAV nicht weiter (standardmäßig aus). Um es auszuliefern, fügen Sie vor der Auffangregel eine
+`location ^~ /index_webdav.php` mit `fastcgi_param SCRIPT_FILENAME $document_root/index_webdav.php` und
+`SCRIPT_NAME /index_webdav.php` hinzu, oder einen eigenen `server` für einen WebDAV-Host. Seit 6.0.15 heißt das Skript
+`index_webdav.php`; ein Block für `webdav.php` funktioniert über einen weiterleitenden Shim bis zu einer späteren
+Hauptversion weiter, ändern Sie aber **beides**, die `location` und `SCRIPT_FILENAME`. Vorher/nachher und der Test
+(`curl -X PROPFIND -H 'Depth: 1'`, erwartet: `207 Multi-Status`):
+[Das WebDAV-Einstiegsskript heißt jetzt index_webdav.php](../../bc/6.0/webdav-einstiegsskript-index-webdav.md#nginx).
 
 ## Prüfen
 
@@ -230,5 +274,6 @@ lieferte auf Port 80 eine ACME-Challenge-Datei aus.
 - [Kapitel 8, Abschnitt 8.6: nginx mit PHP-FPM](../../installation/08-die-website-ausliefern.md#86-nginx-mit-php-fpm).
 - [Kapitel 13, Abschnitt 13.2: Was der Webserver niemals ausliefern darf](../../installation/13-sicherheitshaertung.md#132-was-der-webserver-niemals-ausliefern-darf).
 - [PHP-FPM-Pool](php-fpm.md), [Apache .htaccess](apache-htaccess.md) (die Regeln, eine nach der anderen erklärt).
+- [.htaccess und config.php von der Konsole einrichten](../../anleitungen/setup-dateien-von-der-konsole.md): welche Server `.htaccess` lesen, und `config.php`.
 - [Webserver-Beispiele](README.md) und [alle Beispiele](../README.md).
 - [Freie Dokumentation](../../hilfe/freie-dokumentation.md): Diese Seite dürfen Sie frei kopieren, übersetzen und verbessern.

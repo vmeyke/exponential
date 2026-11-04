@@ -13,7 +13,7 @@
  * q (search text), legacy_file (a 4.x audit file name: its event names), domain. The channels a user may read
  * (the Channel limitation of audit/read) are given separately and always apply.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package kernel
  */
@@ -386,9 +386,49 @@ class expAuditQuery
     public function fetch( array $f, ?array $channels, $offset = 0, $limit = 50, $columns = '*' )
     {
         $limit = min( self::MAX_LIMIT, max( 1, (int)$limit ) );
-        $sql = 'SELECT ' . $columns . ' FROM ' . expAuditIndexSchema::EVENT . ' WHERE ' . $this->where( $f, $channels )
+        $offset = max( 0, (int)$offset );
+        $where = $this->where( $f, $channels );
+        $recent = $this->fetchFromRecent( $where, $offset, $limit, $columns );
+        if ( $recent !== null )
+            return $recent;
+        $sql = 'SELECT ' . $columns . ' FROM ' . expAuditIndexSchema::EVENT . ' WHERE ' . $where
              . ' ORDER BY time_ms DESC, id DESC';
-        return expAuditIndexSchema::tryArrayQuery( $this->db, $sql, array( 'offset' => max( 0, (int)$offset ), 'limit' => $limit ) );
+        return expAuditIndexSchema::tryArrayQuery( $this->db, $sql, array( 'offset' => $offset, 'limit' => $limit ) );
+    }
+
+    /** How many of the newest rows fetchFromRecent() looks at first */
+    const RECENT_WINDOW = 20000;
+
+    /**
+     * The page from the newest RECENT_WINDOW rows only, when they hold all of it (SQLite).
+     *
+     * A filter matching most of a large index (the dashboard block's "access,system" of notice severity or worse:
+     * 640 000 of 677 000 rows) made SQLite choose the channel index, read every matching row and sort them for the
+     * newest ten: 8 to 18 s with a cold cache, past the gateway's time-out (the dashboard's 504, 2026-10-29). The
+     * newest rows by the time index, filtered, take milliseconds. When the window has fewer matches than the page
+     * needs (a rare channel, a narrow filter, a deep page), the rows may lie further back and the full query runs
+     * as before, with the plan SQLite chooses, which suits such a filter. A full page from the window is exact:
+     * every row outside it is older than every row in it.
+     *
+     * @param string $where
+     * @param int $offset
+     * @param int $limit
+     * @param string $columns
+     * @return array[]|null the page, or null when the full query has to run
+     */
+    protected function fetchFromRecent( $where, $offset, $limit, $columns )
+    {
+        if ( $this->type !== 'sqlite' || $offset + $limit > self::RECENT_WINDOW || $where === '1=1' )
+            return null;
+        // from the time of the oldest row of the window on, so rows of the same millisecond are all in or all out;
+        // by the time index, named: without statistics SQLite takes the channel index even with the time range
+        // (128 s against milliseconds). A database without that index refuses the query and the full one runs.
+        $sql = 'SELECT ' . $columns . ' FROM ' . expAuditIndexSchema::EVENT . ' INDEXED BY expaudit_event_time'
+             . ' WHERE time_ms >= (SELECT MIN(time_ms) FROM (SELECT time_ms FROM ' . expAuditIndexSchema::EVENT
+             . ' ORDER BY time_ms DESC LIMIT ' . self::RECENT_WINDOW . ') recent)'
+             . ' AND ' . $where . ' ORDER BY time_ms DESC, id DESC';
+        $rows = expAuditIndexSchema::tryArrayQuery( $this->db, $sql, array( 'offset' => $offset, 'limit' => $limit ) );
+        return is_array( $rows ) && count( $rows ) === $limit ? $rows : null;
     }
 
     /**
@@ -490,10 +530,32 @@ class expAuditQuery
         if ( !$columns )
             return array();
         $cols = implode( ', ', $columns );
-        $sql = "SELECT $cols, COUNT(*) AS n FROM " . expAuditIndexSchema::EVENT . ' WHERE ' . $this->where( $f, $channels )
-             . " GROUP BY $cols ORDER BY n DESC";
-        $rows = expAuditIndexSchema::tryArrayQuery( $this->db, $sql, array( 'limit' => max( 1, (int)$limit ) ) );
+        $tail = ' WHERE ' . $this->where( $f, $channels ) . " GROUP BY $cols ORDER BY n DESC";
+        $params = array( 'limit' => max( 1, (int)$limit ) );
+        $rows = null;
+        // the records of the last day or two by the time index, named: without statistics SQLite reads the whole
+        // covering index of the grouped columns instead (800 000 entries, 4.5 s, for the 20 000 records of today).
+        // A database without that index refuses the query and the plain one runs.
+        if ( $this->type === 'sqlite' && self::isRecentRangeOnly( $f, time() ) )
+            $rows = expAuditIndexSchema::tryArrayQuery( $this->db, "SELECT $cols, COUNT(*) AS n FROM " . expAuditIndexSchema::EVENT
+                                                        . ' INDEXED BY expaudit_event_time' . $tail, $params );
+        if ( $rows === null )
+            $rows = expAuditIndexSchema::tryArrayQuery( $this->db, "SELECT $cols, COUNT(*) AS n FROM " . expAuditIndexSchema::EVENT . $tail, $params );
         return $rows === null ? array() : $rows;
+    }
+
+    /**
+     * Whether a filter is a time range starting less than two days ago and nothing else (the dashboard's "today"),
+     * which the time index answers best.
+     *
+     * @param array $f
+     * @param int $now Unix time
+     * @return bool
+     */
+    public static function isRecentRangeOnly( array $f, $now )
+    {
+        $rest = array_diff_key( $f, array( 'from_ms' => true, 'to_ms' => true ) );
+        return isset( $f['from_ms'] ) && !$rest && (int)$f['from_ms'] >= ( (int)$now - 2 * 86400 ) * 1000;
     }
 
     /**

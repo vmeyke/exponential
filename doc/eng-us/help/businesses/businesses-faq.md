@@ -12,6 +12,20 @@ type: help
 Short answers to the questions owners and managers ask most. Each answer names its source and links to the page with
 the details.
 
+> **Warning**
+> **`.htaccess` slows down every request.** When `.htaccess` files are enabled (`AllowOverride` anything but `None`), let alone
+> used, Apache looks for them and reads and evaluates them on every request, in every directory of the path, and
+> page loading times go up drastically ([measured](../../guides/setup-files-from-the-console.md#measured-htaccess-against-rules-in-the-virtual-host)). The only real fix is to switch the feature off for
+> the virtual host: `AllowOverride None` in the HTTPS virtual host, and the rules in the virtual host's own
+> configuration as mod_rewrite rules. That is far faster in production speed tests and well worth the time it takes
+> to optimize a production configuration. Switch over right away: copy the rules of the
+> [example HTTPS virtual host](../../examples/web-servers/apache-virtual-host.md) into your virtual host (with the static cache, also
+> [`staticcache_offload.conf`](../../examples/staticcache_offload.conf)), set `AllowOverride None`, run `apachectl configtest`, reload Apache and
+> test the site. The same rules for other servers: [nginx](../../examples/web-servers/nginx.md), [LiteSpeed](../../examples/web-servers/litespeed.md),
+> [Caddy](../../examples/web-servers/caddy.md), [IIS](../../examples/web-servers/iis.md), [Velocity](../../examples/web-servers/velocity.md) (built in); where virtual host rules go in a control
+> panel: [Plesk](../hosting/panels/plesk.md), [cPanel](../hosting/panels/cpanel.md), [DirectAdmin](../hosting/panels/directadmin.md), [ISPConfig](../hosting/panels/ispconfig.md).
+> **On LiteSpeed or OpenLiteSpeed,** the server's own page cache can also answer anonymous visitors and crawlers without PHP: [Page caching with LiteSpeed and OpenLiteSpeed](../../guides/litespeed-page-cache.md).
+
 ## Contents
 
 1. [Cost and license](#cost-and-license)
@@ -43,7 +57,7 @@ Exponential sold to your own customers. Details, and the questions to settle wit
 ## Running it
 
 **What does a server need?**
-PHP 8.0 or later on almost any operating system; a web server (Apache, Nginx and the others, or the bundled
+PHP 8.0 or later (PHP 7.4 usable without support) on almost any operating system; a web server (Apache, Nginx and the others, or the bundled
 Velocity); and a database, where SQLite 3, the default, needs no database server (`README.md`, "Requirements";
 [Requirements at a glance](../hosting/basics/requirements-at-a-glance.md)).
 
@@ -79,8 +93,8 @@ Yes, through the REST API ("A headless CRUD REST API", `README.md`), which check
 See [Mobile and headless](mobile-and-headless/README.md).
 
 **How many languages?**
-268 locale files can be chosen as content languages and siteaccess locales, 40 of them written right to left; the
-administration has 73 translations, all complete (26 October 2026) ([Languages in Exponential](../../languages.md)).
+368 locale files can be chosen as content languages and siteaccess locales, 43 of them written right to left; the
+administration translations are all complete (the current totals are at the top of the languages page) ([Languages in Exponential](../../languages.md)).
 See [Multilingual businesses](multilingual/README.md).
 
 **Can we run several brands from one installation?**
@@ -154,3 +168,11 @@ develop the products with us, and that is how Exponential grows. A partner websi
 mid-2027: please become a partner today to speed up our growth rate and land new features faster. Start with
 [Partners: start here](../partners/partners-start-here.md) and [How to apply](../partners/how-to-apply.md).
 <!-- exp-partner-block:end -->
+
+## Copyright and copyleft
+
+Since 29 October 2026 the copyright of Exponential is held by the Exponential Foundation and 7x together, the
+Foundation named first: "Exponential Copyright © 1998-2026 Exponential Foundation and 7x", in files
+"Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved." Who holds it and why, what the
+GPL lets you do, the third-party notices that stay and how to write the notice in new files and extensions:
+[Copyright and copyleft](../copyright-and-copyleft.md).

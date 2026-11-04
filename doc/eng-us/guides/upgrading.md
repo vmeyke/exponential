@@ -1,9 +1,23 @@
 # Upgrading: from 4.x, 5.x or an earlier 6.0.x to today
 
 This guide is for whoever runs an existing installation and wants to bring it to the current Exponential 6.0 line.
-That line is 6.0.15, still in development; the newest release tag at the time of writing is `v6.0.14` (see
+That line is 6.0.15, which follows 6.0.14; Composer installs it with the constraint `~6.0.15` (see
 [Changelog 6.0.15](../../changelogs/6.0/6.0.15.md)). Find your version, follow the part for it, and finish with the
 checks at the end. They tell you that the result is good.
+
+> **Warning**
+> **`.htaccess` slows down every request.** When `.htaccess` files are enabled (`AllowOverride` anything but `None`), let alone
+> used, Apache looks for them and reads and evaluates them on every request, in every directory of the path, and
+> page loading times go up drastically ([measured](setup-files-from-the-console.md#measured-htaccess-against-rules-in-the-virtual-host)). The only real fix is to switch the feature off for
+> the virtual host: `AllowOverride None` in the HTTPS virtual host, and the rules in the virtual host's own
+> configuration as mod_rewrite rules. That is far faster in production speed tests and well worth the time it takes
+> to optimize a production configuration. Switch over right away: copy the rules of the
+> [example HTTPS virtual host](../examples/web-servers/apache-virtual-host.md) into your virtual host (with the static cache, also
+> [`staticcache_offload.conf`](../examples/staticcache_offload.conf)), set `AllowOverride None`, run `apachectl configtest`, reload Apache and
+> test the site. The same rules for other servers: [nginx](../examples/web-servers/nginx.md), [LiteSpeed](../examples/web-servers/litespeed.md),
+> [Caddy](../examples/web-servers/caddy.md), [IIS](../examples/web-servers/iis.md), [Velocity](../examples/web-servers/velocity.md) (built in); where virtual host rules go in a control
+> panel: [Plesk](../help/hosting/panels/plesk.md), [cPanel](../help/hosting/panels/cpanel.md), [DirectAdmin](../help/hosting/panels/directadmin.md), [ISPConfig](../help/hosting/panels/ispconfig.md).
+> **On LiteSpeed or OpenLiteSpeed,** the server's own page cache can also answer anonymous visitors and crawlers without PHP: [Page caching with LiteSpeed and OpenLiteSpeed](litespeed-page-cache.md).
 
 Plan for twenty minutes for a small site. The risky step is the database. That is why step 1 is a backup.
 
@@ -159,8 +173,8 @@ Then read the notes of the 5.90 line, which prepared the move to PHP 7 and a lon
    `SET default_storage_engine=InnoDB;`, which MySQL (from 5.5.3) and MariaDB accept, so run the whole file. Copies of
    the file from before October 2026 began with `SET storage_engine=InnoDB;`, which MySQL 5.7.5 and newer and
    MariaDB 12.0 and newer reject; take the current file. Details: [Changelog 6.0.0](../../changelogs/6.0/6.0.0.md).
-3. PHP: Exponential 6.0 needs PHP 8.0 or newer on the current line (Exponential Velocity included, from its release 0.0.4.54; see
-   [PHP 8.0 support](../bc/6.0/php-8.0-support.md)). A site that must stay on PHP 7.4 stays on 6.0.7; read [PHP 8 support](../bc/6.0/php8.md) for the order of the upgrade steps, and check your own extensions
+3. PHP: Exponential 6.0.15 runs on PHP 8.0 or newer (PHP 7.4 usable without support), Exponential Velocity on 8.0 or newer (from its release 0.0.4.54; see
+   [PHP 8.0 support](../bc/6.0/php-8.0-support.md) and [Why Exponential supports PHP 7.4](../help/why-exponential-supports-php-7-4.md)). A site on PHP 7.4 can run the current line again from 6.0.15, without support (6.0.8 to 6.0.14 need PHP 8.1); read [PHP 8 support](../bc/6.0/php8.md) for the order of the upgrade steps, and check your own extensions
    for PHP 8 warnings (classes extending `eZPersistentObject` or `eZDataType` are the usual cases).
 4. Continue with Part C, which is the same procedure for every 6.0.x step.
 
@@ -180,6 +194,20 @@ Expected: the first prints how many classes it found; the second ends with a lin
 Do not use `-k` on an installation that keeps extra working copies of the code inside its root (for example git worktree folders) without excluding them, e.g. `--exclude='<folder>'`; otherwise kernel classes are mapped into those copies.
 Then reload the PHP-FPM that serves the site (`systemctl reload <your-php-fpm-service>`), and, if you run Velocity,
 `./console exp:velocity deploy --dry-run --allow-root-user` shows every step the real command would run.
+
+Then compare `.htaccess` and `config.php` with the new templates. A release can change `.htaccess_root`,
+`.htaccess_root_static` and `config.php-RECOMMENDED`, and your copies stay as they are:
+
+```bash
+./console exp:setup:status                     # is .htaccess still a copy of a template?
+./console exp:setup:htaccess                   # the diff between your .htaccess and the new template
+./console exp:setup:htaccess --force --apply   # take the new rules (backup first), when the diff holds nothing of yours
+./console exp:config:list                      # settings new in config.php-RECOMMENDED show up as (not set)
+```
+
+Set the new settings you want with `./console exp:config:set <NAME> <value> --apply`; the settings you had keep their
+values. The same applies after Parts A and B. See
+[Setting up .htaccess and config.php from the console](setup-files-from-the-console.md#12-after-an-upgrade).
 
 ### C2. Apply the database update
 
@@ -243,6 +271,22 @@ The three changes people most often meet:
 - Security headers, `HttpOnly`/`SameSite` session cookies and a stricter upload check are on by default
   (September and October 2026): if a host frames your admin, set the header deliberately.
 
+**If WebDAV is on**: since 6.0.15 its entry script is `index_webdav.php`. `webdav.php` only forwards to it and will be
+removed in a later major version. Change the virtual host (the HTTPS one too) and the rewrite rules, then test with
+`curl -i -X PROPFIND -H 'Depth: 1' https://www.example.com/index_webdav.php/` (expect `207 Multi-Status`):
+[The WebDAV entry script is now index_webdav.php](../bc/6.0/webdav-entry-script-index-webdav.md).
+
+**If SOAP is on** (`soap.ini` `EnableSOAP=true`, for example for the `syndication` extension): since 6.0.15 its entry
+script is `index_soap.php`. `soap.php` only forwards to it and will be removed in a later major version. Let
+`index_soap.php` through in the HTTPS virtual host and in `.htaccess`, point the SOAP clients at it, reload the web
+server, then test with `curl -sS -i 'https://www.example.com/index_soap.php?wsdl'` (expect `200` and
+`Error: this web page does only understand POST methods`; a `404` or a page of the site means the rule is missing):
+[The SOAP entry script is now index_soap.php](../bc/6.0/soap-entry-script-index-soap.md).
+
+**This is the step most often forgotten.** An upgrade replaces the scripts, but the virtual host, the rewrite rules
+and the control panel's directives are yours: no upgrade changes them. Change them on the HTTPS host (`*:443`), not
+only on the HTTP one, and run the `curl` test after the reload, before you call the upgrade done.
+
 For what changed by month, the story is in the [chronicle](../history/2026/); every single change is in the
 [ledger of the root repository](../history/ledger/exponential-root.md).
 
@@ -294,6 +338,12 @@ rendered by old code is not served again.
 A published release can not be changed; the way to get a fix is the next version. To see what a version holds, open
 its changelog: [6.0.0 to 6.0.15](../../changelogs/6.0/6.0.15.md).
 
+**Migrations (6.0.15).** From 6.0.15 on, a site's own changes after the upgrade (a table, a content class, roles,
+a fix of content) are best written as migrations: files under version control that every installation of the site
+applies in the same order with `./console exp:migration:migrate --apply`, with a caption before each run. The
+kernel's upgrade steps are listed among them. Start with [Migrations](../help/migrations/README.md); the word means
+something else than upgrading a site: [Migrations versus migrating a site](../help/migrations/migrations-versus-migrating-a-site.md).
+
 **Demo mode (6.0.15).** The environment variable `EXP_DEMO_MODE=1` marks a public demo; without it nothing changes. Upgrading a demo: keep the variable for the web server, cron and console, and check the banner afterwards. Upgrading a real site: make sure the variable is set for none of its processes. [Demo mode](../bc/6.0/demo-mode.md).
 
 **VAT rules (6.0.15).** Nothing changes in how VAT is charged. VAT rules are applied only when
@@ -308,6 +358,9 @@ and test an order before going live. [Changelog 6.0.15](../../changelogs/6.0/6.0
 - [Operating a site](operating-a-site.md): backups, caches and repairs after the upgrade.
 - [Deploying](deploying.md) and [Velocity engines](../bc/6.0/velocity-engines.md): reload the right PHP-FPM, or move to a faster server.
 - [Extensions](extensions.md): versions, loading order and releases of your own extensions.
+- [Upgrading with the console](upgrading-with-the-console.md) and [Migrations](../help/migrations/README.md): the
+  upgrade as one command, and the site's own changes after it.
+- [Setting up .htaccess and config.php from the console](setup-files-from-the-console.md): compare both files with the new templates.
 - Release notes: [Exponential 6.0 changelogs](../../changelogs/6.0/6.0.15.md) and [the extensions' release notes](../../changelogs/extensions/README.md).
 
 <!-- exp-partner-block:start -->

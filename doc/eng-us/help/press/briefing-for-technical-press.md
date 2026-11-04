@@ -29,7 +29,7 @@ your interview time on design decisions. Facts are as of 18 October 2026; check 
 |---|---|---|
 | What it is | "a professional PHP application framework with advanced CMS (content management system) functionality", with a "fully customizable and extendable content model" | [Exponential 6, the kernel](../who-is-the-exponential-foundation.md#exponential-6-the-kernel) |
 | Main features | Content classes, versions, multilingual, search, roles, approval and scheduled publication, multisite, e-commerce, workflows, templates, a headless REST API, clustering, a plugin API | Same section (from the README) |
-| PHP | 8.0 is the oldest supported version on the development line; 8.1 to 8.5 supported; PHP 7.4 only up to 6.0.7 | [PHP versions](../who-is-the-exponential-foundation.md#php-versions) |
+| PHP | 8.0 to 8.5 supported on the development line; 7.4 usable without support; PHP 7.4 usable without support from 6.0.15 | [PHP versions](../who-is-the-exponential-foundation.md#php-versions) |
 | Testing | CI runs the test suite on PHP 8.1 to 8.5 and checks that 8.0 boots, on every push to `main` and every pull request | Same section |
 | License | GNU GPL v2 or later; documentation GNU FDL 1.3 or later | [Who is 7x?, Open source licenses](../who-is-7x.md#open-source-licenses) |
 | Packages | The kernel is the Composer package `se7enxweb/exponential`; its `composer.json` required 66 se7enxweb packages on 18 October 2026 | [7x in numbers](../who-is-7x.md#7x-in-numbers) |
@@ -66,7 +66,7 @@ Velocity's own facts and figures, with their measuring conditions, are on [Cover
   history" ([Git first](../who-is-the-exponential-foundation.md#git-first)).
 - **Three ways to get the code**: `git clone` plus `composer install` (recommended), `composer create-project`, or
   `composer require` ([Getting the code](../../install/03-getting-the-code.md#32-three-ways-to-get-the-code)).
-- **One-command install** on the development line: `./console exp:install` builds a complete site on SQLite
+- **One-command install** on the development line: `./console exp:install --apply` builds a complete site on SQLite
   ([Install in one command](../../features/6.0/install-in-one-command.md)).
 - **Published tags never change** ([Published versions never change](published-versions-never-change.md)).
 

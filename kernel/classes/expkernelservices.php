@@ -2,7 +2,7 @@
 /**
  * File containing the expKernelServices class.
  *
- * @copyright Copyright (C) 1998 - 2026 7x and the Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package kernel
  */
@@ -256,6 +256,20 @@ class expKernelServices
         if ( $settings['WorkerScope'] === 'auto' )
             return defined( 'EZP_INI_FILEMTIME_CHECK' ) && EZP_INI_FILEMTIME_CHECK === false;
         return false;
+    }
+
+    /**
+     * Whether this request's settings files come from the worker store: the container booted with a compiled index
+     * and WorkerScope on. Then a setting changes only with an INI cache clear or a deploy, which starts another
+     * generation (expKernelServiceScope::sync()), and a value worked out from the settings may be kept as long
+     * (expKernelServiceScope::memo()).
+     *
+     * @return bool
+     */
+    public static function workerSettingsKept()
+    {
+        return self::$booted && self::$index !== null && !self::$compilerRecording && self::workerScopeEnabled()
+               && expKernelServiceScope::hasWorker() && expKernelServiceScope::worker()->generation === self::$index['generation'];
     }
 
     /**

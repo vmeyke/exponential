@@ -2293,6 +2293,13 @@ $schema = array (
         'not_null' => '1',
         'default' => 0,
       ),
+      'module_name' =>
+      array (
+        'length' => 100,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
       'module_uri' =>
       array (
         'type' => 'longtext',
@@ -2305,6 +2312,18 @@ $schema = array (
         'not_null' => '1',
         'default' => 0,
       ),
+      'view_name' =>
+      array (
+        'length' => 100,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'view_parameters' =>
+      array (
+        'type' => 'longtext',
+        'default' => false,
+      ),
     ),
     'indexes' =>
     array (
@@ -2314,6 +2333,15 @@ $schema = array (
         'fields' =>
         array (
           0 => 'bookmark_id',
+        ),
+      ),
+      'expbookmark_view_module' =>
+      array (
+        'type' => 'non-unique',
+        'fields' =>
+        array (
+          0 => 'module_name',
+          1 => 'view_name',
         ),
       ),
       'expbookmark_view_user' =>
@@ -3004,6 +3032,14 @@ $schema = array (
         'fields' => 
         array (
           0 => 'language_mask',
+        ),
+      ),
+      'ezcontentobject_modified' => 
+      array (
+        'type' => 'non-unique',
+        'fields' => 
+        array (
+          0 => 'modified',
         ),
       ),
       'ezcontentobject_owner' => 
@@ -5521,6 +5557,13 @@ $schema = array (
         'not_null' => '1',
         'default' => 0,
       ),
+      'siteaccess' => 
+      array (
+        'length' => 255,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
       'status_id' => 
       array (
         'length' => 11,
@@ -7849,6 +7892,262 @@ $schema = array (
       ),
     ),
   ),
+  'expuser_session_info' =>
+  array (
+    'name' => 'expuser_session_info',
+    'fields' =>
+    array (
+      'auth_detail' =>
+      array (
+        'length' => 32,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'country' =>
+      array (
+        'length' => 2,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'host' =>
+      array (
+        'length' => 255,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'location' =>
+      array (
+        'length' => 128,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'session_id' =>
+      array (
+        'length' => 11,
+        'type' => 'int',
+        'not_null' => '1',
+        'default' => 0,
+      ),
+      'user_id' =>
+      array (
+        'length' => 11,
+        'type' => 'int',
+        'not_null' => '1',
+        'default' => 0,
+      ),
+    ),
+    'indexes' =>
+    array (
+      'PRIMARY' =>
+      array (
+        'type' => 'primary',
+        'fields' =>
+        array (
+          0 => 'session_id',
+        ),
+      ),
+      'expuser_session_info_user' =>
+      array (
+        'type' => 'non-unique',
+        'fields' =>
+        array (
+          0 => 'user_id',
+        ),
+      ),
+    ),
+  ),
+  'expuser_audit' =>
+  array (
+    'name' => 'expuser_audit',
+    'fields' =>
+    array (
+      'actor_id' =>
+      array (
+        'length' => 11,
+        'type' => 'int',
+        'not_null' => '1',
+        'default' => 0,
+      ),
+      'actor_login' =>
+      array (
+        'length' => 150,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'client_ip' =>
+      array (
+        'length' => 64,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'created' =>
+      array (
+        'length' => 11,
+        'type' => 'int',
+        'not_null' => '1',
+        'default' => 0,
+      ),
+      'event_id' =>
+      array (
+        'length' => 26,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'event_name' =>
+      array (
+        'length' => 128,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'host' =>
+      array (
+        'length' => 255,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'id' =>
+      array (
+        'type' => 'auto_increment',
+        'default' => false,
+      ),
+      'module_view' =>
+      array (
+        'length' => 128,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'reason' =>
+      array (
+        'length' => 64,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'request_id' =>
+      array (
+        'length' => 40,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'result' =>
+      array (
+        'length' => 16,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'siteaccess' =>
+      array (
+        'length' => 64,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'target_id' =>
+      array (
+        'length' => 11,
+        'type' => 'int',
+        'not_null' => '1',
+        'default' => 0,
+      ),
+      'target_login' =>
+      array (
+        'length' => 150,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'target_type' =>
+      array (
+        'length' => 16,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'time_ms' =>
+      array (
+        'length' => 20,
+        'type' => 'bigint',
+        'not_null' => '1',
+        'default' => 0,
+      ),
+      'value_after' =>
+      array (
+        'type' => 'longtext',
+        'default' => NULL,
+      ),
+      'value_before' =>
+      array (
+        'type' => 'longtext',
+        'default' => NULL,
+      ),
+    ),
+    'indexes' =>
+    array (
+      'PRIMARY' =>
+      array (
+        'type' => 'primary',
+        'fields' =>
+        array (
+          0 => 'id',
+        ),
+      ),
+      'expuser_audit_event' =>
+      array (
+        'type' => 'unique',
+        'fields' =>
+        array (
+          0 => 'event_id',
+        ),
+      ),
+      'expuser_audit_target' =>
+      array (
+        'type' => 'non-unique',
+        'fields' =>
+        array (
+          0 => 'target_id',
+          1 => 'created',
+        ),
+      ),
+      'expuser_audit_actor' =>
+      array (
+        'type' => 'non-unique',
+        'fields' =>
+        array (
+          0 => 'actor_id',
+          1 => 'created',
+        ),
+      ),
+      'expuser_audit_name' =>
+      array (
+        'type' => 'non-unique',
+        'fields' =>
+        array (
+          0 => 'event_name',
+          1 => 'created',
+        ),
+      ),
+      'expuser_audit_created' =>
+      array (
+        'type' => 'non-unique',
+        'fields' =>
+        array (
+          0 => 'created',
+        ),
+      ),
+    ),
+  ),
   'exphelp_help_id' =>
   array (
     'name' => 'exphelp_help_id',
@@ -7974,6 +8273,860 @@ $schema = array (
         'fields' =>
         array (
           0 => 'created',
+        ),
+      ),
+    ),
+  ),
+  'exp_migration' =>
+  array (
+    'name' => 'exp_migration',
+    'fields' =>
+    array (
+      'caption_id' =>
+      array (
+        'length' => 150,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'checksum' =>
+      array (
+        'length' => 64,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'duration_ms' =>
+      array (
+        'length' => 11,
+        'type' => 'int',
+        'not_null' => '1',
+        'default' => 0,
+      ),
+      'engine' =>
+      array (
+        'length' => 30,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'environment' =>
+      array (
+        'length' => 50,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'file_path' =>
+      array (
+        'length' => 255,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'finished_at' =>
+      array (
+        'length' => 11,
+        'type' => 'int',
+        'not_null' => '1',
+        'default' => 0,
+      ),
+      'message' =>
+      array (
+        'length' => 1000,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'migration_id' =>
+      array (
+        'length' => 150,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'revision' =>
+      array (
+        'length' => 64,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'run_by' =>
+      array (
+        'length' => 150,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'run_id' =>
+      array (
+        'length' => 64,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'source' =>
+      array (
+        'length' => 100,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'stage' =>
+      array (
+        'length' => 20,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'started_at' =>
+      array (
+        'length' => 11,
+        'type' => 'int',
+        'not_null' => '1',
+        'default' => 0,
+      ),
+      'state' =>
+      array (
+        'length' => 20,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'version' =>
+      array (
+        'length' => 30,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+    ),
+    'indexes' =>
+    array (
+      'PRIMARY' =>
+      array (
+        'type' => 'primary',
+        'fields' =>
+        array (
+          0 => 'source',
+          1 => 'migration_id',
+        ),
+      ),
+      'exp_migration_run_id' =>
+      array (
+        'type' => 'non-unique',
+        'fields' =>
+        array (
+          0 => 'run_id',
+        ),
+      ),
+    ),
+  ),
+  'exp_migration_deploy' =>
+  array (
+    'name' => 'exp_migration_deploy',
+    'fields' =>
+    array (
+      'deploy_id' =>
+      array (
+        'length' => 64,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'finished_at' =>
+      array (
+        'length' => 11,
+        'type' => 'int',
+        'not_null' => '1',
+        'default' => 0,
+      ),
+      'in_sync' =>
+      array (
+        'length' => 11,
+        'type' => 'int',
+        'not_null' => '1',
+        'default' => 0,
+      ),
+      'message' =>
+      array (
+        'length' => 1000,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'mode' =>
+      array (
+        'length' => 20,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'next_stage' =>
+      array (
+        'length' => 11,
+        'type' => 'int',
+        'not_null' => '1',
+        'default' => 0,
+      ),
+      'run_by' =>
+      array (
+        'length' => 150,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'stages' =>
+      array (
+        'length' => 11,
+        'type' => 'int',
+        'not_null' => '1',
+        'default' => 0,
+      ),
+      'started_at' =>
+      array (
+        'length' => 11,
+        'type' => 'int',
+        'not_null' => '1',
+        'default' => 0,
+      ),
+      'state' =>
+      array (
+        'length' => 20,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+    ),
+    'indexes' =>
+    array (
+      'PRIMARY' =>
+      array (
+        'type' => 'primary',
+        'fields' =>
+        array (
+          0 => 'deploy_id',
+        ),
+      ),
+      'exp_migration_deploy_started' =>
+      array (
+        'type' => 'non-unique',
+        'fields' =>
+        array (
+          0 => 'started_at',
+        ),
+      ),
+    ),
+  ),
+  'exp_migration_deploy_host' =>
+  array (
+    'name' => 'exp_migration_deploy_host',
+    'fields' =>
+    array (
+      'address' =>
+      array (
+        'length' => 255,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'applied' =>
+      array (
+        'length' => 11,
+        'type' => 'int',
+        'not_null' => '1',
+        'default' => 0,
+      ),
+      'caption' =>
+      array (
+        'length' => 150,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'deploy_id' =>
+      array (
+        'length' => 64,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'environment' =>
+      array (
+        'length' => 50,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'message' =>
+      array (
+        'length' => 1000,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'remote_id' =>
+      array (
+        'length' => 64,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'stage' =>
+      array (
+        'length' => 11,
+        'type' => 'int',
+        'not_null' => '1',
+        'default' => 0,
+      ),
+      'state' =>
+      array (
+        'length' => 20,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'transport' =>
+      array (
+        'length' => 20,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+    ),
+    'indexes' =>
+    array (
+      'PRIMARY' =>
+      array (
+        'type' => 'primary',
+        'fields' =>
+        array (
+          0 => 'deploy_id',
+          1 => 'remote_id',
+        ),
+      ),
+      'exp_migration_deploy_host_remote' =>
+      array (
+        'type' => 'non-unique',
+        'fields' =>
+        array (
+          0 => 'remote_id',
+        ),
+      ),
+    ),
+  ),
+  'exp_migration_run' =>
+  array (
+    'name' => 'exp_migration_run',
+    'fields' =>
+    array (
+      'caption_post' =>
+      array (
+        'length' => 150,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'caption_pre' =>
+      array (
+        'length' => 150,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'commit_id' =>
+      array (
+        'length' => 64,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'environment' =>
+      array (
+        'length' => 50,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'finished_at' =>
+      array (
+        'length' => 11,
+        'type' => 'int',
+        'not_null' => '1',
+        'default' => 0,
+      ),
+      'log_file' =>
+      array (
+        'length' => 255,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'message' =>
+      array (
+        'length' => 1000,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'push_state' =>
+      array (
+        'length' => 20,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'run_by' =>
+      array (
+        'length' => 150,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'run_id' =>
+      array (
+        'length' => 64,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'started_at' =>
+      array (
+        'length' => 11,
+        'type' => 'int',
+        'not_null' => '1',
+        'default' => 0,
+      ),
+      'state' =>
+      array (
+        'length' => 20,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'tag_name' =>
+      array (
+        'length' => 150,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+    ),
+    'indexes' =>
+    array (
+      'PRIMARY' =>
+      array (
+        'type' => 'primary',
+        'fields' =>
+        array (
+          0 => 'run_id',
+        ),
+      ),
+      'exp_migration_run_started' =>
+      array (
+        'type' => 'non-unique',
+        'fields' =>
+        array (
+          0 => 'started_at',
+        ),
+      ),
+    ),
+  ),
+  'exp_static_page' =>
+  array (
+    'name' => 'exp_static_page',
+    'fields' =>
+    array (
+      'built_at' =>
+      array (
+        'length' => 11,
+        'type' => 'int',
+        'not_null' => '1',
+        'default' => 0,
+      ),
+      'hash' =>
+      array (
+        'length' => 64,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'node_id' =>
+      array (
+        'length' => 11,
+        'type' => 'int',
+        'not_null' => '1',
+        'default' => 0,
+      ),
+      'page_bytes' =>
+      array (
+        'length' => 11,
+        'type' => 'int',
+        'not_null' => '1',
+        'default' => 0,
+      ),
+      'path' =>
+      array (
+        'length' => 255,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'stale' =>
+      array (
+        'length' => 11,
+        'type' => 'int',
+        'not_null' => '1',
+        'default' => 0,
+      ),
+      'target' =>
+      array (
+        'length' => 50,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+    ),
+    'indexes' =>
+    array (
+      'PRIMARY' =>
+      array (
+        'type' => 'primary',
+        'fields' =>
+        array (
+          0 => 'target',
+          1 => 'path',
+        ),
+      ),
+      'exp_static_page_node' =>
+      array (
+        'type' => 'non-unique',
+        'fields' =>
+        array (
+          0 => 'node_id',
+        ),
+      ),
+    ),
+  ),
+  'exp_static_run' =>
+  array (
+    'name' => 'exp_static_run',
+    'fields' =>
+    array (
+      'added' =>
+      array (
+        'length' => 11,
+        'type' => 'int',
+        'not_null' => '1',
+        'default' => 0,
+      ),
+      'bytes' =>
+      array (
+        'length' => 11,
+        'type' => 'int',
+        'not_null' => '1',
+        'default' => 0,
+      ),
+      'changed' =>
+      array (
+        'length' => 11,
+        'type' => 'int',
+        'not_null' => '1',
+        'default' => 0,
+      ),
+      'commit_id' =>
+      array (
+        'length' => 64,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'files' =>
+      array (
+        'length' => 11,
+        'type' => 'int',
+        'not_null' => '1',
+        'default' => 0,
+      ),
+      'finished_at' =>
+      array (
+        'length' => 11,
+        'type' => 'int',
+        'not_null' => '1',
+        'default' => 0,
+      ),
+      'kind' =>
+      array (
+        'length' => 20,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'message' =>
+      array (
+        'length' => 1000,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'pages' =>
+      array (
+        'length' => 11,
+        'type' => 'int',
+        'not_null' => '1',
+        'default' => 0,
+      ),
+      'push_state' =>
+      array (
+        'length' => 20,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'removed' =>
+      array (
+        'length' => 11,
+        'type' => 'int',
+        'not_null' => '1',
+        'default' => 0,
+      ),
+      'run_by' =>
+      array (
+        'length' => 150,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'run_id' =>
+      array (
+        'length' => 64,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'started_at' =>
+      array (
+        'length' => 11,
+        'type' => 'int',
+        'not_null' => '1',
+        'default' => 0,
+      ),
+      'state' =>
+      array (
+        'length' => 20,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'tag_name' =>
+      array (
+        'length' => 150,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'target' =>
+      array (
+        'length' => 50,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+    ),
+    'indexes' =>
+    array (
+      'PRIMARY' =>
+      array (
+        'type' => 'primary',
+        'fields' =>
+        array (
+          0 => 'run_id',
+        ),
+      ),
+      'exp_static_run_target' =>
+      array (
+        'type' => 'non-unique',
+        'fields' =>
+        array (
+          0 => 'target',
+          1 => 'started_at',
+        ),
+      ),
+    ),
+  ),
+  'exp_migration_recording' =>
+  array (
+    'name' => 'exp_migration_recording',
+    'fields' =>
+    array (
+      'environment' =>
+      array (
+        'length' => 50,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'event_count' =>
+      array (
+        'length' => 11,
+        'type' => 'int',
+        'not_null' => '1',
+        'default' => 0,
+      ),
+      'kind' =>
+      array (
+        'length' => 20,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'label' =>
+      array (
+        'length' => 255,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'message' =>
+      array (
+        'length' => 1000,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'recording_id' =>
+      array (
+        'length' => 64,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'started_at' =>
+      array (
+        'length' => 11,
+        'type' => 'int',
+        'not_null' => '1',
+        'default' => 0,
+      ),
+      'state' =>
+      array (
+        'length' => 20,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'stopped_at' =>
+      array (
+        'length' => 11,
+        'type' => 'int',
+        'not_null' => '1',
+        'default' => 0,
+      ),
+      'user_id' =>
+      array (
+        'length' => 11,
+        'type' => 'int',
+        'not_null' => '1',
+        'default' => 0,
+      ),
+    ),
+    'indexes' =>
+    array (
+      'PRIMARY' =>
+      array (
+        'type' => 'primary',
+        'fields' =>
+        array (
+          0 => 'recording_id',
+        ),
+      ),
+      'exp_migration_recording_state' =>
+      array (
+        'type' => 'non-unique',
+        'fields' =>
+        array (
+          0 => 'state',
+        ),
+      ),
+    ),
+  ),
+  'exp_migration_recording_event' =>
+  array (
+    'name' => 'exp_migration_recording_event',
+    'fields' =>
+    array (
+      'actor_id' =>
+      array (
+        'length' => 11,
+        'type' => 'int',
+        'not_null' => '1',
+        'default' => 0,
+      ),
+      'audit_name' =>
+      array (
+        'length' => 100,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'event_id' =>
+      array (
+        'length' => 32,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'payload' =>
+      array (
+        'type' => 'longtext',
+        'default' => NULL,
+      ),
+      'recorded_at' =>
+      array (
+        'length' => 11,
+        'type' => 'int',
+        'not_null' => '1',
+        'default' => 0,
+      ),
+      'recording_id' =>
+      array (
+        'length' => 64,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'step_mode' =>
+      array (
+        'length' => 20,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'step_type' =>
+      array (
+        'length' => 50,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'subject' =>
+      array (
+        'length' => 255,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+    ),
+    'indexes' =>
+    array (
+      'PRIMARY' =>
+      array (
+        'type' => 'primary',
+        'fields' =>
+        array (
+          0 => 'recording_id',
+          1 => 'event_id',
         ),
       ),
     ),

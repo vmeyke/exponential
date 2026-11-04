@@ -106,6 +106,23 @@ EXECUTE exp_trashed_by_index_stmt;
 DEALLOCATE PREPARE exp_trashed_by_index_stmt;
 
 --
+-- An index on ezcontentobject.modified: Dashboard > Recent content lists the
+-- objects by their modification date, a page at a time, and on a large
+-- database that read must be indexed. Created only when missing.
+--
+
+SET @exp_contentobject_modified_index_sql := IF(
+    ( SELECT COUNT(*) FROM information_schema.STATISTICS
+      WHERE TABLE_SCHEMA = DATABASE()
+        AND TABLE_NAME = 'ezcontentobject'
+        AND INDEX_NAME = 'ezcontentobject_modified' ) = 0,
+    'CREATE INDEX ezcontentobject_modified ON ezcontentobject ( modified )',
+    'DO 0' );
+PREPARE exp_contentobject_modified_index_stmt FROM @exp_contentobject_modified_index_sql;
+EXECUTE exp_contentobject_modified_index_stmt;
+DEALLOCATE PREPARE exp_contentobject_modified_index_stmt;
+
+--
 -- The pdf export carries its own footer wording.
 --
 -- Every page of every export used to read "Exponential PDF export", because
@@ -330,11 +347,65 @@ CREATE TABLE expbookmark_folder (
 CREATE TABLE IF NOT EXISTS expbookmark_view (
   bookmark_id int(11) NOT NULL DEFAULT '0',
   created int(11) NOT NULL DEFAULT '0',
+  module_name varchar(100) NOT NULL DEFAULT '',
   module_uri longtext,
   user_id int(11) NOT NULL DEFAULT '0',
+  view_name varchar(100) NOT NULL DEFAULT '',
+  view_parameters longtext,
   PRIMARY KEY ( bookmark_id ),
+  KEY expbookmark_view_module ( module_name, view_name ),
   KEY expbookmark_view_user ( user_id )
 ) ENGINE=InnoDB;
+
+-- The address parsed: module_name, view_name and view_parameters (JSON of the ordered, unordered
+-- and query parameters), so bookmarks are found and moved by module and view. A table made by an
+-- early 6.0.15 build has only the address: the columns and their index are added when missing
+-- (chosen by a look at information_schema, as above, so the lines can run again). The rows are
+-- filled from their address by update/common/scripts/6.0/createbookmarkviewtable.php or
+-- ./console exp:upgrade --apply; until then the kernel reads the address alone.
+SET @exp_bmv_module_sql := IF(
+    ( SELECT COUNT(*) FROM information_schema.COLUMNS
+      WHERE TABLE_SCHEMA = DATABASE()
+        AND TABLE_NAME = 'expbookmark_view'
+        AND COLUMN_NAME = 'module_name' ) = 0,
+    'ALTER TABLE expbookmark_view ADD module_name varchar(100) NOT NULL DEFAULT ''''',
+    'DO 0' );
+PREPARE exp_bmv_module_stmt FROM @exp_bmv_module_sql;
+EXECUTE exp_bmv_module_stmt;
+DEALLOCATE PREPARE exp_bmv_module_stmt;
+
+SET @exp_bmv_view_sql := IF(
+    ( SELECT COUNT(*) FROM information_schema.COLUMNS
+      WHERE TABLE_SCHEMA = DATABASE()
+        AND TABLE_NAME = 'expbookmark_view'
+        AND COLUMN_NAME = 'view_name' ) = 0,
+    'ALTER TABLE expbookmark_view ADD view_name varchar(100) NOT NULL DEFAULT ''''',
+    'DO 0' );
+PREPARE exp_bmv_view_stmt FROM @exp_bmv_view_sql;
+EXECUTE exp_bmv_view_stmt;
+DEALLOCATE PREPARE exp_bmv_view_stmt;
+
+SET @exp_bmv_params_sql := IF(
+    ( SELECT COUNT(*) FROM information_schema.COLUMNS
+      WHERE TABLE_SCHEMA = DATABASE()
+        AND TABLE_NAME = 'expbookmark_view'
+        AND COLUMN_NAME = 'view_parameters' ) = 0,
+    'ALTER TABLE expbookmark_view ADD view_parameters longtext',
+    'DO 0' );
+PREPARE exp_bmv_params_stmt FROM @exp_bmv_params_sql;
+EXECUTE exp_bmv_params_stmt;
+DEALLOCATE PREPARE exp_bmv_params_stmt;
+
+SET @exp_bmv_index_sql := IF(
+    ( SELECT COUNT(*) FROM information_schema.STATISTICS
+      WHERE TABLE_SCHEMA = DATABASE()
+        AND TABLE_NAME = 'expbookmark_view'
+        AND INDEX_NAME = 'expbookmark_view_module' ) = 0,
+    'CREATE INDEX expbookmark_view_module ON expbookmark_view ( module_name, view_name )',
+    'DO 0' );
+PREPARE exp_bmv_index_stmt FROM @exp_bmv_index_sql;
+EXECUTE exp_bmv_index_stmt;
+DEALLOCATE PREPARE exp_bmv_index_stmt;
 
 -- E-mail preferences and consent.
 --
@@ -636,6 +707,23 @@ CREATE TABLE IF NOT EXISTS expuser_session (
 ) ENGINE=InnoDB;
 
 --
+-- What a signed-in session adds to its row of expuser_session (doc/eng-us/features/6.0/user-sessions.md): the host
+-- the sign-in was made on, the country and place a local GeoIP database names (empty without one) and the second
+-- step of the sign-in (totp, email, recovery). One row per session, removed with it. Without the table the sessions
+-- are tracked as before, without these details; update/common/scripts/6.0/createusersessiontable.php creates it on
+-- any engine. Written with IF NOT EXISTS, so running this statement again changes nothing.
+CREATE TABLE IF NOT EXISTS expuser_session_info (
+  auth_detail varchar(32) NOT NULL DEFAULT '',
+  country varchar(2) NOT NULL DEFAULT '',
+  host varchar(255) NOT NULL DEFAULT '',
+  location varchar(128) NOT NULL DEFAULT '',
+  session_id int(11) NOT NULL DEFAULT '0',
+  user_id int(11) NOT NULL DEFAULT '0',
+  PRIMARY KEY ( session_id ),
+  KEY expuser_session_info_user ( user_id )
+) ENGINE=InnoDB;
+
+--
 -- ezuser.login: one account per login.
 --
 -- A new installation has the unique index ezuser_login from the kernel schema.
@@ -656,11 +744,23 @@ CREATE TABLE IF NOT EXISTS expuser_session (
 -- ezprest_authcode: PKCE (RFC 7636) for the OAuth authorization code flow.
 -- oauth/authorize stores the code_challenge and code_challenge_method of the request with the code; the token end
 -- point checks the code_verifier against them. Without these columns no authorization code can be issued.
--- Run once; a second run stops at "Duplicate column name", which means the columns are there.
+-- Added only when missing (both columns come together), so the lines can run again; a database without the
+-- REST tables gets nothing.
 --
-ALTER TABLE ezprest_authcode
-  ADD COLUMN code_challenge varchar(128) default NULL,
-  ADD COLUMN code_challenge_method varchar(10) default NULL;
+SET @exp_pkce_sql := IF(
+    ( SELECT COUNT(*) FROM information_schema.TABLES
+      WHERE TABLE_SCHEMA = DATABASE()
+        AND TABLE_NAME = 'ezprest_authcode' ) = 1
+    AND
+    ( SELECT COUNT(*) FROM information_schema.COLUMNS
+      WHERE TABLE_SCHEMA = DATABASE()
+        AND TABLE_NAME = 'ezprest_authcode'
+        AND COLUMN_NAME = 'code_challenge' ) = 0,
+    'ALTER TABLE ezprest_authcode ADD COLUMN code_challenge varchar(128) default NULL, ADD COLUMN code_challenge_method varchar(10) default NULL',
+    'DO 0' );
+PREPARE exp_pkce_stmt FROM @exp_pkce_sql;
+EXECUTE exp_pkce_stmt;
+DEALLOCATE PREPARE exp_pkce_stmt;
 
 -- Passkeys (doc/eng-us/guides/passkeys.md).
 --
@@ -690,6 +790,7 @@ CREATE TABLE IF NOT EXISTS exppasskey (
   PRIMARY KEY ( id ),
   UNIQUE KEY exppasskey_credential ( credential_hash ),
   KEY exppasskey_user ( user_id )
+) ENGINE=InnoDB;
 
 -- Help maintained as content (doc/eng-us/features/6.0/help-content.md): exphelp_help_id records every help_id that
 -- was Released and the object it belongs to, so the validator reports a help_id that was renamed or reused (clients
@@ -715,4 +816,240 @@ CREATE TABLE IF NOT EXISTS exphelp_feedback (
   PRIMARY KEY  (id),
   KEY exphelp_feedback_object (object_id,created),
   KEY exphelp_feedback_created (created)
+) ENGINE=InnoDB;
+
+--
+-- ezorder.siteaccess: the siteaccess (store or site) an order was placed in
+-- (doc/eng-us/features/6.0/order-siteaccess.md). The shop records it when the
+-- basket becomes an order; the order view and the order lists show it and
+-- filter by it. Orders placed before keep '' and are shown as unknown: which
+-- siteaccess they came from is not recorded; bin/php/expbackfillordersiteaccess.php
+-- infers it from the content tree where it can (dry run unless --apply).
+-- Until the column is there the kernel stores and reads orders without it.
+-- Added only when it is missing, so the lines can run again.
+--
+
+SET @exp_order_siteaccess_sql := IF(
+    ( SELECT COUNT(*) FROM information_schema.COLUMNS
+      WHERE TABLE_SCHEMA = DATABASE()
+        AND TABLE_NAME = 'ezorder'
+        AND COLUMN_NAME = 'siteaccess' ) = 0,
+    'ALTER TABLE ezorder ADD siteaccess varchar(255) NOT NULL DEFAULT ''''',
+    'DO 0' );
+PREPARE exp_order_siteaccess_stmt FROM @exp_order_siteaccess_sql;
+EXECUTE exp_order_siteaccess_stmt;
+DEALLOCATE PREPARE exp_order_siteaccess_stmt;
+
+--
+-- expuser_audit: the user audit log (doc/eng-us/features/6.0/user-audit.md). One row per
+-- security event about a user account or a user group (a change with its fields before and
+-- after, a sign-in, a refused attempt, a role assignment): who, when, where (siteaccess, host,
+-- the address as the audit's privacy rules leave it), whom and what. Filled from the audit
+-- records of the access channel; read on user/audit. Never a password, a hash or a secret.
+-- Written with IF NOT EXISTS, so running this statement again changes nothing.
+--
+CREATE TABLE IF NOT EXISTS expuser_audit (
+  actor_id int(11) NOT NULL DEFAULT '0',
+  actor_login varchar(150) NOT NULL DEFAULT '',
+  client_ip varchar(64) NOT NULL DEFAULT '',
+  created int(11) NOT NULL DEFAULT '0',
+  event_id varchar(26) NOT NULL DEFAULT '',
+  event_name varchar(128) NOT NULL DEFAULT '',
+  host varchar(255) NOT NULL DEFAULT '',
+  id int(11) NOT NULL AUTO_INCREMENT,
+  module_view varchar(128) NOT NULL DEFAULT '',
+  reason varchar(64) NOT NULL DEFAULT '',
+  request_id varchar(40) NOT NULL DEFAULT '',
+  result varchar(16) NOT NULL DEFAULT '',
+  siteaccess varchar(64) NOT NULL DEFAULT '',
+  target_id int(11) NOT NULL DEFAULT '0',
+  target_login varchar(150) NOT NULL DEFAULT '',
+  target_type varchar(16) NOT NULL DEFAULT '',
+  time_ms bigint(20) NOT NULL DEFAULT '0',
+  value_after longtext,
+  value_before longtext,
+  PRIMARY KEY ( id ),
+  UNIQUE KEY expuser_audit_event ( event_id ),
+  KEY expuser_audit_target ( target_id, created ),
+  KEY expuser_audit_actor ( actor_id, created ),
+  KEY expuser_audit_name ( event_name, created ),
+  KEY expuser_audit_created ( created )
+) ENGINE=InnoDB;
+
+-- expupgrade_step: the older record of exp:upgrade, which only a pre-release of 6.0.15 had (no released
+-- version has it). exp_migration below replaces it: its rows are copied over and the table is dropped at the
+-- end of this section. Created empty here when it is missing, so the copy below can read it on every
+-- installation; the upgrade step 6.0.15-upgrade-record-table does the same from the console.
+
+CREATE TABLE IF NOT EXISTS expupgrade_step (
+  applied_at int(11) NOT NULL DEFAULT '0',
+  applied_by varchar(150) NOT NULL DEFAULT '',
+  checksum varchar(64) NOT NULL DEFAULT '',
+  duration_ms int(11) NOT NULL DEFAULT '0',
+  engine varchar(30) NOT NULL DEFAULT '',
+  message varchar(1000) NOT NULL DEFAULT '',
+  stage varchar(20) NOT NULL DEFAULT '',
+  state varchar(20) NOT NULL DEFAULT '',
+  step_id varchar(150) NOT NULL DEFAULT '',
+  version varchar(30) NOT NULL DEFAULT '',
+  PRIMARY KEY ( step_id )
+) ENGINE=InnoDB;
+
+-- exp_static_run and exp_static_page: the record of static publishing, one row per publish or rollback of a
+-- target and one per page of a target as last published (the upgrade step 6.0.15-static-publish-tables makes
+-- them). Written with IF NOT EXISTS, so running these statements again changes nothing.
+
+CREATE TABLE IF NOT EXISTS exp_static_page (
+  built_at int(11) NOT NULL DEFAULT '0',
+  hash varchar(64) NOT NULL DEFAULT '',
+  node_id int(11) NOT NULL DEFAULT '0',
+  page_bytes int(11) NOT NULL DEFAULT '0',
+  path varchar(255) NOT NULL DEFAULT '',
+  stale int(11) NOT NULL DEFAULT '0',
+  target varchar(50) NOT NULL DEFAULT '',
+  PRIMARY KEY ( target, path ),
+  KEY exp_static_page_node ( node_id )
+) ENGINE=InnoDB;
+
+CREATE TABLE IF NOT EXISTS exp_static_run (
+  added int(11) NOT NULL DEFAULT '0',
+  bytes int(11) NOT NULL DEFAULT '0',
+  changed int(11) NOT NULL DEFAULT '0',
+  commit_id varchar(64) NOT NULL DEFAULT '',
+  files int(11) NOT NULL DEFAULT '0',
+  finished_at int(11) NOT NULL DEFAULT '0',
+  kind varchar(20) NOT NULL DEFAULT '',
+  message varchar(1000) NOT NULL DEFAULT '',
+  pages int(11) NOT NULL DEFAULT '0',
+  push_state varchar(20) NOT NULL DEFAULT '',
+  removed int(11) NOT NULL DEFAULT '0',
+  run_by varchar(150) NOT NULL DEFAULT '',
+  run_id varchar(64) NOT NULL DEFAULT '',
+  started_at int(11) NOT NULL DEFAULT '0',
+  state varchar(20) NOT NULL DEFAULT '',
+  tag_name varchar(150) NOT NULL DEFAULT '',
+  target varchar(50) NOT NULL DEFAULT '',
+  PRIMARY KEY ( run_id ),
+  KEY exp_static_run_target ( target, started_at )
+) ENGINE=InnoDB;
+
+-- exp_migration and exp_migration_run: the migration record (one row per migration, the key is its source and
+-- id) and its runs; exp:upgrade writes its steps there as migrations of the source "kernel" (the upgrade step
+-- 6.0.15-migration-tables makes them). Written with IF NOT EXISTS, the copy leaves out a row that exp_migration
+-- has already and the table expupgrade_step is gone afterwards, so running these statements again changes nothing.
+
+CREATE TABLE IF NOT EXISTS exp_migration (
+  caption_id varchar(150) NOT NULL DEFAULT '',
+  checksum varchar(64) NOT NULL DEFAULT '',
+  duration_ms int(11) NOT NULL DEFAULT '0',
+  engine varchar(30) NOT NULL DEFAULT '',
+  environment varchar(50) NOT NULL DEFAULT '',
+  file_path varchar(255) NOT NULL DEFAULT '',
+  finished_at int(11) NOT NULL DEFAULT '0',
+  message varchar(1000) NOT NULL DEFAULT '',
+  migration_id varchar(150) NOT NULL DEFAULT '',
+  revision varchar(64) NOT NULL DEFAULT '',
+  run_by varchar(150) NOT NULL DEFAULT '',
+  run_id varchar(64) NOT NULL DEFAULT '',
+  source varchar(100) NOT NULL DEFAULT '',
+  stage varchar(20) NOT NULL DEFAULT '',
+  started_at int(11) NOT NULL DEFAULT '0',
+  state varchar(20) NOT NULL DEFAULT '',
+  version varchar(30) NOT NULL DEFAULT '',
+  PRIMARY KEY ( source, migration_id ),
+  KEY exp_migration_run_id ( run_id )
+) ENGINE=InnoDB;
+
+CREATE TABLE IF NOT EXISTS exp_migration_run (
+  caption_post varchar(150) NOT NULL DEFAULT '',
+  caption_pre varchar(150) NOT NULL DEFAULT '',
+  commit_id varchar(64) NOT NULL DEFAULT '',
+  environment varchar(50) NOT NULL DEFAULT '',
+  finished_at int(11) NOT NULL DEFAULT '0',
+  log_file varchar(255) NOT NULL DEFAULT '',
+  message varchar(1000) NOT NULL DEFAULT '',
+  push_state varchar(20) NOT NULL DEFAULT '',
+  run_by varchar(150) NOT NULL DEFAULT '',
+  run_id varchar(64) NOT NULL DEFAULT '',
+  started_at int(11) NOT NULL DEFAULT '0',
+  state varchar(20) NOT NULL DEFAULT '',
+  tag_name varchar(150) NOT NULL DEFAULT '',
+  PRIMARY KEY ( run_id ),
+  KEY exp_migration_run_started ( started_at )
+) ENGINE=InnoDB;
+
+INSERT INTO exp_migration ( source, migration_id, stage, version, state, started_at, finished_at, duration_ms, run_by, engine, checksum, message, caption_id )
+  SELECT 'kernel', s.step_id, s.stage, s.version, s.state,
+         CASE WHEN s.applied_at > 0 THEN GREATEST( s.applied_at - ROUND( s.duration_ms / 1000 ), 0 ) ELSE 0 END,
+         s.applied_at, s.duration_ms, s.applied_by, s.engine, s.checksum, s.message,
+         CASE WHEN s.stage = 'caption' AND s.step_id LIKE 'caption:%' THEN SUBSTRING( s.step_id, 9 ) ELSE '' END
+    FROM expupgrade_step s
+   WHERE NOT EXISTS ( SELECT 1 FROM exp_migration m WHERE m.source = 'kernel' AND m.migration_id = s.step_id );
+
+DROP TABLE IF EXISTS expupgrade_step;
+
+-- exp_migration_recording and exp_migration_recording_event: the recordings of changes for migrations (one row per
+-- recording, one row per recorded change with the migration step it stands for as JSON in payload). The upgrade
+-- step 6.0.15-migration-recording-tables does the same. New tables only, written with IF NOT EXISTS, so running
+-- these statements again changes nothing.
+
+CREATE TABLE IF NOT EXISTS exp_migration_recording (
+  environment varchar(50) NOT NULL DEFAULT '',
+  event_count int(11) NOT NULL DEFAULT '0',
+  kind varchar(20) NOT NULL DEFAULT '',
+  label varchar(255) NOT NULL DEFAULT '',
+  message varchar(1000) NOT NULL DEFAULT '',
+  recording_id varchar(64) NOT NULL DEFAULT '',
+  started_at int(11) NOT NULL DEFAULT '0',
+  state varchar(20) NOT NULL DEFAULT '',
+  stopped_at int(11) NOT NULL DEFAULT '0',
+  user_id int(11) NOT NULL DEFAULT '0',
+  PRIMARY KEY ( recording_id ),
+  KEY exp_migration_recording_state ( state )
+) ENGINE=InnoDB;
+
+CREATE TABLE IF NOT EXISTS exp_migration_recording_event (
+  actor_id int(11) NOT NULL DEFAULT '0',
+  audit_name varchar(100) NOT NULL DEFAULT '',
+  event_id varchar(32) NOT NULL DEFAULT '',
+  payload longtext,
+  recorded_at int(11) NOT NULL DEFAULT '0',
+  recording_id varchar(64) NOT NULL DEFAULT '',
+  step_mode varchar(20) NOT NULL DEFAULT '',
+  step_type varchar(50) NOT NULL DEFAULT '',
+  subject varchar(255) NOT NULL DEFAULT '',
+  PRIMARY KEY ( recording_id, event_id )
+) ENGINE=InnoDB;
+
+-- exp_migration_deploy and exp_migration_deploy_host: the record of the deploys of migrations to remotes (one row
+-- per deploy, one per remote of it; exp:migration:deploy and Setup > Migrations > Deploys). The upgrade step
+-- 6.0.15-migration-deploy-tables makes them the same way.
+CREATE TABLE IF NOT EXISTS exp_migration_deploy (
+  deploy_id varchar(64) NOT NULL DEFAULT '',
+  finished_at int(11) NOT NULL DEFAULT '0',
+  in_sync int(11) NOT NULL DEFAULT '0',
+  message varchar(1000) NOT NULL DEFAULT '',
+  mode varchar(20) NOT NULL DEFAULT '',
+  next_stage int(11) NOT NULL DEFAULT '0',
+  run_by varchar(150) NOT NULL DEFAULT '',
+  stages int(11) NOT NULL DEFAULT '0',
+  started_at int(11) NOT NULL DEFAULT '0',
+  state varchar(20) NOT NULL DEFAULT '',
+  PRIMARY KEY ( deploy_id ),
+  KEY exp_migration_deploy_started ( started_at )
+) ENGINE=InnoDB;
+
+CREATE TABLE IF NOT EXISTS exp_migration_deploy_host (
+  address varchar(255) NOT NULL DEFAULT '',
+  applied int(11) NOT NULL DEFAULT '0',
+  caption varchar(150) NOT NULL DEFAULT '',
+  deploy_id varchar(64) NOT NULL DEFAULT '',
+  environment varchar(50) NOT NULL DEFAULT '',
+  message varchar(1000) NOT NULL DEFAULT '',
+  remote_id varchar(64) NOT NULL DEFAULT '',
+  stage int(11) NOT NULL DEFAULT '0',
+  state varchar(20) NOT NULL DEFAULT '',
+  transport varchar(20) NOT NULL DEFAULT '',
+  PRIMARY KEY ( deploy_id, remote_id ),
+  KEY exp_migration_deploy_host_remote ( remote_id )
 ) ENGINE=InnoDB;

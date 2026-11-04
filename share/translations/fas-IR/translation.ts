@@ -982,6 +982,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>فقط در این صفحه جستجو می‌شود: %from تا %to از %count.</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>همه انواع داده هسته و افزونه‌ها، و اینکه کلاس‌ها و محتوا چگونه از آن‌ها استفاده می‌کنند.</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>انواع داده</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2314,6 +2322,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>صفحه‌های سیستم را هم می‌توان نشانک‌گذاری کرد: صفحه را باز کنید (راه‌اندازی، ردگیری ممیزی، فهرستی از کاربران ...) و در بالای آن «نشانک‌گذاری این صفحه» را انتخاب کنید. این نشانک‌ها نماد چرخ‌دنده دارند.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>شما دیگر اجازهٔ باز کردن این صفحه را در اینجا ندارید. نشانک را بردارید، یا از یک مدیر دسترسی بخواهید.</translation>
     </message>
 </context>
 <context>
@@ -5163,6 +5175,210 @@
         <source>Go to the first page</source>
         <translation>رفتن به صفحهٔ نخست</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>سایر</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>7 روز گذشته</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>بازهٔ دلخواه</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>همهٔ واژه‌ها</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>هر واژه</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>عبارت دقیق</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>ارتباط</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>نام الف–ی</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>نام ی–الف</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>تاریخ تغییر، جدیدترین اول</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>تاریخ تغییر، قدیمی‌ترین اول</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>تاریخ انتشار، جدیدترین اول</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>تاریخ انتشار، قدیمی‌ترین اول</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>تاریخ تغییر</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>فیلترها</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>نمایش فیلترها</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>پنهان کردن فیلترها</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>بازنشانی</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>اعمال</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>واژه‌ها</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>نوع محتوا</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>نمایش بیشتر (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>یک نوع محتوا را انتخاب کنید تا در یکی از ویژگی‌های آن جستجو شود.</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>بخش</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>از</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>تا</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>تاریخ شروع معتبر نیست.</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>تاریخ پایان معتبر نیست.</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>مالک</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>شناسهٔ کاربر، نام کاربری یا نشانی ایمیل.</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>هیچ کاربری برای «%input» یافت نشد.</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>زبان</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>هر زبانی</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>مکان</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>%count مکان</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>نتایج در هر صفحه</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>نتایج برای «%text» (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>نتایج (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>مرتب‌سازی بر اساس</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>مرتب‌سازی</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>فیلترهای فعال</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>برداشتن این فیلتر</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>یا فیلترهایی را انتخاب و اعمال کنید تا محتوای منطبق با آن‌ها فهرست شود.</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>پس از وارد کردن واژه‌ها، فیلترها جستجو را محدودتر می‌کنند.</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>هیچ نتیجه‌ای برای «%text» یافت نشد.</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>هیچ نتیجه‌ای یافت نشد.</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>یکی از فیلترهای بالا را حذف کنید.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>ترجمه‌ها</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>عملیات</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>ویرایش %name</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>ویرایش</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -7512,6 +7728,10 @@
         <source>Setup &gt; Cronjobs</source>
         <translation>راه‌اندازی &gt; کارهای زمان‌بندی‌شده</translation>
     </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>هنوز هیچ قسمت کار زمان‌بندی‌شده‌ای اجرا نشده است: صف کارها، درون‌بری‌ها، اعلان‌ها و نمایهٔ جستجو در انتظارند. php bin/php/installcrontab.php --add --apply را اجرا کنید، یا خطوط --show را به crontab بیفزایید.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/dashboard/drafts</name>
@@ -8056,8 +8276,8 @@
         <translation>اطلاعیه‌های حق نشر نویسندگان اصلی و نرم‌افزارهای شخص ثالثی که همراه Exponential آمده‌اند، چنان‌که مجوز نشر ایجاب می‌کند، در فایل‌های منبع و در فایل LICENSE نگه داشته می‌شوند.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>فهرست زیر مشارکت‌کنندگانی در Exponential را نام می‌برد که کار خود را بر اساس شرایط و ضوابط eZ Systems Contributor Licensing Agreement برای استفادهٔ 7x تحت مجوز نشر قرار داده‌اند. چنان‌که این توافق‌نامه اجازه می‌دهد، 7x هر مشارکت را تحت همان مجوز نشری توزیع می‌کند که فایل دربرگیرندهٔ آن مشارکت دارد. این فهرست نام هر مشارکت‌کننده، اطلاعات تماس اختیاری و فایل‌هایی را که در آن‌ها مشارکت داشته است در بر دارد.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>مشارکت‌کنندگانی که برای کارشان روی Exponential و نرم‌افزاری که از آن پدید آمد از آنان قدردانی می‌شود، همراه با پرونده‌هایی که در آن‌ها مشارکت کرده‌اند. این قدردانی است، نه اعلامیهٔ حق نشر: مشارکت‌ها در Exponential طبق Contributor Licensing Agreement به Exponential Foundation و 7x واگذار می‌شوند.</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13879,32 +14099,20 @@ Note: The packages will not be uninstalled.</source>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;ارزیابی Exponential Enterprise Edition&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;عضو جامعهٔ Exponential شوید، تبادل نظر و مشارکت کنید&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; حق نشر &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; و دیگران.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>قدرت‌گرفته از &lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt;. برای اطلاعات بیشتر &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt; را ببینید.</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; حق نشر &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; و دیگران.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> برای اطلاعات بیشتر &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt; را ببینید.</translation>
     </message>
     <message>
-        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; حق نشر &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; و دیگران.</translation>
+        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;ارزیابی Exponential (از 7x)&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;عضو جامعهٔ Exponential شوید، پشتیبانی بگیرید و مشارکت کنید&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; حق نشر &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; و دیگران.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13913,6 +14121,61 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Help center</source>
         <translation>مرکز راهنما</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>محتوا</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>صفحه‌های سند</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>کاربران</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>کلاس‌های محتوا</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>مدیریت</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>صفحهٔ %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>مشاهدهٔ همهٔ نتایج</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>%count نتیجه</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>یک نتیجه</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>%count پیشنهاد</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>پیشنهادی وجود ندارد</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>پیشنهادها بارگیری نشد.</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>پیشنهادها</translation>
     </message>
 </context>
 <context>
@@ -14381,6 +14644,14 @@ Note: The packages will not be uninstalled.</source>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>این نصب یک نسخهٔ نمایشی عمومی است: هر کسی ممکن است گذرواژهٔ مدیر آن را بداند، و گذرواژه‌های مدیران قابل تغییر یا بازنشانی نیستند. هیچ اطلاعات خصوصی‌ای در اینجا وارد نکنید.</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>دستگاه‌های شما</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>فعالیت امنیتی</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14670,6 +14941,14 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>راهنماها، جستجو و چگونگی گزارش یک خطا.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>محتوای اخیر</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>جدیدترین محتوا، آنچه برای بازبینی نگه داشته شده و اقدام‌ها روی یک انتخاب.</translation>
     </message>
 </context>
 <context>
@@ -15128,6 +15407,46 @@ Note: The packages will not be uninstalled.</source>
         <source>Synchronisations</source>
         <translation>همگام‌سازی‌ها</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>API ‏GraphQL: نقطهٔ پایانی آن، طرح‌واره و محیطی برای آزمودن پرس‌وجوها.</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>مهاجرت‌ها</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>تغییرات نصب که به‌صورت فایل نگهداری می‌شوند: وضعیت آن‌ها، اجراها، اجرا و بازگردانی.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>محتوای اخیر</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>جدیدترین محتوا، آنچه برای بازبینی نگه داشته شده و اقدام‌ها روی یک انتخاب.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>انتشار یک نسخهٔ ایستا از سایت در GitHub Pages یا هر میزبان git.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>انتشار ایستا</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>انواع داده</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>همه انواع داده هسته و افزونه‌ها، و اینکه کلاس‌ها و محتوا چگونه از آن‌ها استفاده می‌کنند.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15292,6 +15611,22 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>حساب‌هایی که کسی از آن‌ها استفاده نمی‌کند یا نیاز به بررسی دارند؛ غیرفعال کردن، بازگشایی یا برون‌بری آن‌ها.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>گزارش ممیزی کاربران</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>چه کسی تغییر داد، وارد شد یا رد شد، به تفکیک حساب؛ فیلتر و برون‌بری.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>گزارش ورود</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>چه کسی وارد شده است، ورودها و ناکامی‌ها در هر روز؛ خارج کردن یک کاربر از همه‌جا.</translation>
     </message>
 </context>
 <context>
@@ -22108,6 +22443,22 @@ Note: The packages will not be uninstalled.</source>
         <source>%n hours ago</source>
         <translation>%n ساعت پیش</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>پاسخ‌های پرس‌وجوهای ذخیره‌شدهٔ API ‏GraphQL و کلاس‌های محتوای طرح‌وارهٔ آن.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>انتشار یک نسخهٔ ایستا در GitHub Pages یا هر میزبان git</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>انتشار ایستا</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>حافظهٔ پنهان ایستا صفحه‌ها را از همین سرور ارائه می‌کند. برای انتشار نسخهٔ ایستای یک سایت در جای دیگر، در GitHub Pages یا هر میزبان git، از انتشار ایستا استفاده کنید.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25649,6 +26000,10 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>last purge</source>
         <translation>آخرین پاک‌سازی</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>نوشتن‌ها نتوانستند قفل وضعیت را بگیرند (آخرین بار %date): هر کدام همهٔ نتایج کش‌شده را کهنه کرد. %file باید برای هر کاربری که سایت با آن اجرا می‌شود قابل نوشتن باشد؛ روی NFS به NFSv4 یا lockd نیاز دارد.</translation>
     </message>
 </context>
 <context>
@@ -33597,6 +33952,14 @@ Note: The packages will not be uninstalled.</source>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>نشست‌های منقضی گردانندهٔ PHP توسط خود PHP برداشته می‌شوند (session.gc_maxlifetime)، نه توسط این صفحه یا قسمت کار زمان‌بندی‌شدهٔ session_gc.</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>نشست‌های واردشدهٔ همهٔ کاربران در گزارش ورود فهرست و خارج می‌شوند؛ این گزارش با هر گردانندهٔ نشستی کار می‌کند.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>باز کردن گزارش ورود</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37921,6 +38284,26 @@ your account.</source>
     <message>
         <source>None yet</source>
         <translation>هنوز هیچ</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>فعالیت امنیتی</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>ورودهای اخیر شما، تلاش‌های ناموفق و تغییرات گذرواژه، نشانی ایمیل و ورود دومرحله‌ای شما.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>ورودهای اخیر، تلاش‌های ناموفق و تغییرات امنیتی این حساب.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>بررسی فعالیت</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>%count ورود ناموفق</translation>
     </message>
 </context>
 <context>
@@ -44087,6 +44470,42 @@ If you want to send comments to the approver or view the status use the URL belo
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>کاربر پس از ورود باید پیش از هر کار دیگری گذرواژهٔ جدیدی انتخاب کند. هنگامی که به کسی گذرواژهٔ موقت می‌دهید از این گزینه استفاده کنید.</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>انتخاب یک تصویر موجود</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>فایل تصویر شیئی که انتخاب می‌کنید در این فیلد کپی می‌شود. شیء دیگر تغییر نمی‌کند.</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>تصویر «%name» در این فیلد کپی شد.</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>مرور برای یافتن تصویر</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>جستجوی تصاویر بر اساس نام</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>جستجو</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>استفاده از تصویر «%name»</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>استفاده از این تصویر</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>هیچ تصویری با جستجوی شما مطابقت ندارد.</translation>
     </message>
 </context>
 <context>
@@ -51011,6 +51430,10 @@ See the requirements page for more information.</source>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>crontab نوشته نشد (%reason). این سطرها را به crontab کاربری که سایت با آن اجرا می‌شود بیفزایید، وگرنه صف، درون‌ریزی‌ها، اعلان‌ها و نمایهٔ جستجو هرگز اجرا نمی‌شوند:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>نصب دوباره با kickstarter انجام می‌شود (%file، سپس php bin/php/kickstarter.php run --apply) یا با یک نصب تازه.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54890,6 +55313,10 @@ your account.</source>
         <source>eZJSCore Public Packer cache</source>
         <translation>حافظهٔ پنهان فشرده‌ساز عمومی eZJSCore</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>حافظهٔ نهان GraphQL (پاسخ‌ها و کلاس‌های طرح‌واره)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54976,6 +55403,14 @@ your account.</source>
     <message>
         <source>Copy of %class_name</source>
         <translation>کپی %class_name</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>انواع داده</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>نوع داده %string</translation>
     </message>
 </context>
 <context>
@@ -55802,6 +56237,26 @@ your account.</source>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>تصویر SVG خوانده نشد، یا هیچ بخشی از آن را نمی‌توان به‌صورت امن نمایش داد.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>تصویر کپی نشد. لطفاً دوباره تلاش کنید یا با مدیر سایت تماس بگیرید.</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>شیء انتخاب‌شده وجود ندارد یا اجازهٔ خواندن آن را ندارید.</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>شیء انتخاب‌شده تصویری ندارد.</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>فایل تصویر شیء انتخاب‌شده خوانده نشد.</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>تصویر شیء انتخاب‌شده از حد مجاز این فیلد بزرگ‌تر است: %1 بایت.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56332,6 +56787,42 @@ your account.</source>
         <source>The bookmark was renamed to &quot;%name&quot;.</source>
         <translation>نام نشانک به «%name» تغییر کرد.</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>این صفحه در این دسترسی سایت (%siteaccess) غیرفعال است. نشانک را در دسترسی سایتی باز کنید که این صفحه را دارد.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>ماژول این صفحه در اینجا نصب یا فعال نشده است.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>این صفحه دیگر وجود ندارد: ماژول آن چنین نمایی ندارد.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>هیچ‌یک از نقش‌های شما اجازهٔ باز کردن این صفحه را به شما نمی‌دهد.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>شما اجازهٔ استفاده از این دسترسی سایت را ندارید.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>شما اجازهٔ خواندن محتوایی را که این صفحه نشان می‌دهد ندارید.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>این نوع صفحه را نمی‌توان نشانک‌گذاری کرد: فقط روی یک فرم عمل می‌کند، یا صفحه‌ای لحظه‌ای است.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>نشانی این صفحه موجود نیست.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>این صفحه را اکنون نمی‌توان باز کرد.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56803,6 +57294,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>سامانهٔ انتقال ایمیل در آخرین اجرا %count پیام را رد کرد. سرور ایمیل و site.ini MailSettings را بررسی کنید.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>%count رویداد در انتظار است و هیچ اجرایی از کار زمان‌بندی‌شدهٔ اعلان‌ها ثبت نشده است. قسمت کار زمان‌بندی‌شدهٔ «frequent» را به crontab بیفزایید، یا exp:notification:run --apply را اجرا کنید.</translation>
     </message>
 </context>
 <context>
@@ -63059,6 +63554,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Choose another site or section with the node picker</source>
         <translation>انتخاب سایت یا بخش دیگر با انتخابگر گره</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>فقط مدیر سیستم می‌تواند مالک را تغییر دهد: ./console exp:content-check --fix-permissions --apply را با کاربر root اجرا کنید.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64592,6 +65091,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>empty</source>
         <translation>خالی</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>کلید امضا بیش از یک سال عمر دارد: آن را با exp:audit key rotate --apply عوض کنید.</translation>
     </message>
 </context>
 <context>
@@ -66972,6 +67475,486 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Share of page time</source>
         <translation>سهم از زمان صفحه</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>یک رندر کامل درخواست شد</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>حافظهٔ پنهان صفحه این صفحه را نداشت (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>حافظهٔ پنهان صفحه پاسخ نداد</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>رندرشده</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>رندرشده توسط هسته: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>در %ms میلی‌ثانیه از حافظهٔ پنهان صفحه ارائه شد. صفحه در %stored توسط رندری به مدت %render میلی‌ثانیه ذخیره شد، %age ثانیه پیش.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>رندر اکنون</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>بازگشت به نمای حافظهٔ پنهان</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>از رندر در %stored (%render میلی‌ثانیه)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>این درخواست: در %ms میلی‌ثانیه از حافظهٔ پنهان صفحه ارائه شد.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>کاربر</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>شناسهٔ کاربر</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>پروفایل کش</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>این نما</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>حافظهٔ پنهان نما</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>برای هر کاربر (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>پروفایل کش کاربر: کاربران با پروفایل یکسان فایل‌های کش نما را به اشتراک می‌گذارند</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>بله</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>خیر</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>نام کاربری</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>وارد شده</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>نشست</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>بخش‌هایی از کلید کش نمای محتوا که به کاربر بستگی دارند، دقیقاً همان‌طور که کلید آن‌ها را می‌گیرد، تحت ViewCacheTweaks این صفحه. کاربران با پروفایل یکسان فایل‌های کش نماها را به اشتراک می‌گذارند، مگر اینکه بخش‌های خود یک نما متفاوت باشند (ترجیحات، کلیدهای شنونده‌ها): آن‌ها پروفایل خاص خود را دارند، فقط برای این صفحه.</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>پروفایل</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>این نما (گره %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: هر کاربر واردشده فایل‌های کش مخصوص خود را دارد.</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>ViewCacheTweaks فعال: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>قسمت</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>مقدار</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>هیچ بخشی به کاربر بستگی ندارد (ViewCacheTweaks).</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>این نما</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>کپی به‌صورت متن</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>نقش‌ها</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>هیچ تخصیص نقشی خوانده نشد.</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>شناسه نقش</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>نقش</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>محدودیت</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>تخصیص‌یافته به</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>کاربر</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>گروه %name (شیء %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>کپی شد</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>کپی ممکن نشد.</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>حذف‌شده توسط یک شنونده</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>بازدیدکنندگان ناشناس</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>مانند مال شما</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>متفاوت</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>پروفایلی که بازدیدکنندگان ناشناس تحت همان ViewCacheTweaks دریافت می‌کنند، با ترجیحات پیش‌فرض، بدون بخش‌های نما: نمی‌توان آن‌ها را از شنونده‌ای که نشست را می‌خواند پرسید.</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>ترجیحات</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>هیچ حالت نمایشی به ترجیحات کاربر بستگی ندارد (site.ini [ContentSettings] CachedViewPreferences).</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>ترجیحاتی که نماهای این حالت‌های نمایش به آن‌ها بستگی دارند (CachedViewPreferences)، با مقدار کاربر یا مقدار پیش‌فرض. آن‌ها در پروفایل به‌صورت userpreferences هستند، مربوط به همه حالت‌های نمایش با هم.</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>حالت نما</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>ترجیح</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>پیش‌فرض</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>خط‌مشی‌ها</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>نمایش سیاست‌های نقش‌ها (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>سیاست‌ها هنگام باز شدن این بخش از سرور بارگیری می‌شوند، هر بار یک صفحه، و می‌توان آن‌ها را بر اساس ماژول و تابع فیلتر کرد.</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>تابع</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>همهٔ ماژول‌ها</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>همه توابع</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>محدودیت‌ها</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>نمایش بیشتر</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>این نقش‌ها هیچ سیاستی ندارند.</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>هیچ سیاستی با فیلتر مطابقت ندارد.</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%shown از %matching سیاست (%total در کل)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>هنگام باز شدن بارگذاری می‌شود.</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>module/function، نقش، محدودیت</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>جستجوی سیاست‌ها</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>بارگذاری بیشتر</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>ماژول/تابع</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>همه نقش‌ها (%count سیاست)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>هیچ سیاستی مطابقت ندارد.</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%shown از %matched سیاست</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>پاسخی دریافت نشد</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>پوشانده‌شده</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>نمایش توضیحات</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>پنهان کردن توضیحات</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>باز کردن</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>باز کردن همه</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>بستن همه</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>کلید یا مقدار</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>جست‌وجو در نشست</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>نوع</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>%count مورد دیگر</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>برای نمایش بیش از حد تودرتو است</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>کوتاه‌شده، در مجموع %count نویسه</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>آغاز شد</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>نام کوکی</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>شناسهٔ نشست</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>گرداننده</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>مسیر ذخیره</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>پیش‌فرض PHP</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>طول عمر (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>کوکی</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>طول عمر %s ثانیه</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>نشست PHP خود شما، همان‌گونه که هنگام باز شدن این بخش بود، هرگز نشست دیگری. مقدار کلیدهایی که شبیه اسرار هستند (توکن‌ها، هش‌ها، گذرواژه‌ها) پوشانده می‌شود (debugbar.ini SessionMask[])؛ همهٔ موارد دیگر همان‌گونه که ذخیره شده‌اند نمایش داده می‌شوند، حتی داده‌های شخصی.</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>%count کلید، %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>بزرگ</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>نشست خالی است.</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>برای این درخواست هیچ نشستی آغاز نشد.</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>افزونهٔ %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>هسته و دیگران</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>همهٔ مدخل‌ها نمایش داده نمی‌شوند: نشست بیش از آنچه اینجا قابل فهرست کردن است دارد.</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>%count کلید فهرست نشده‌اند.</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>قاب</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>مقدارهایی که شبیه توکن هستند (یک JSON Web Token، اعتبارنامه‌های یک سرآیند Authorization، یک کلید خصوصی، یک متن هگزادسیمال یا تصادفی طولانی) نیز پوشانده می‌شوند، نام کلیدشان هرچه باشد (debugbar.ini SessionValueMask[]).</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>کلید شبیه یک راز است (debugbar.ini SessionMask[]).</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>مقدار شبیه یک توکن است.</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>زیر یک کلید پوشانده‌شده.</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>نشست به‌صورت متن، پوشانده‌شده مانند جدول.</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>نشست بزرگ‌تر از %size است (debugbar.ini SessionWarnBytes): هر درخواست این کاربر کل نشست را می‌خواند و هنگامی که تغییر کرده باشد آن را می‌نویسد.</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP این نشست را در پرونده‌ها نگه می‌دارد و پرونده را در طول کل درخواست قفل می‌کند: درخواست‌های یک کاربر (چند زبانه، فراخوانی‌های AJAX) منتظر یکدیگر می‌مانند.</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>باز نگه داشتن</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>بزرگ‌تر از %size (debugbar.ini SessionWarnBytes): هر درخواست این کاربر کل نشست را می‌خواند.</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%hits از %count از حافظهٔ پنهان خوانده شد</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>هیچ قالبی پردازش نشد (نمایی که از حافظهٔ پنهان نماها خوانده شود هیچ قالبی را پردازش نمی‌کند).</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>تخصیص‌های نقش</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>نقش‌ها و خط‌مشی‌ها</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>متفاوت با بازدیدکنندگان ناشناس</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>همانند بازدیدکنندگان ناشناس</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -68852,6 +69835,14 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>not sent</source>
         <translation>ارسال‌نشده</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>کار زمان‌بندی‌شدهٔ اعلان‌ها هر اجرای خود را اینجا ثبت می‌کند. قسمت frequent را به crontab بیفزایید، یا exp:notification:run --apply را اجرا کنید.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>از کنسول استفاده کنید: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -74570,6 +75561,98 @@ You will need to change the class of the node by using the swap functionality.</
         <source>This topic is not Released; readers do not see it.</source>
         <translation>این موضوع منتشر نشده است؛ خوانندگان آن را نمی‌بینند.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>مهاجرت‌ها</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>تغییرات نصب که به‌صورت فایل نگهداری می‌شوند: وضعیت آن‌ها، اجراها، اجرا و بازگردانی.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>انتشار یک نسخهٔ ایستا از سایت در GitHub Pages یا هر میزبان git.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>انتشار ایستا</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>در بازبینی</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>خوانندگان این صفحه را می‌بینند.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>تا وقتی کسی آن را منتشر نکند، از خوانندگان پنهان است.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>صفحه اکنون در بازبینی است. تا زمان انتشار از خوانندگان پنهان است.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>صفحه منتشر شد: خوانندگان اکنون آن را می‌بینند.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>صفحه دوباره پیش‌نویس است. تا زمانی که بازبینی و منتشر نشود، از خوانندگان پنهان است.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>انتشار فوری</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>فقط کاربری با نقش %role که این نسخه را ننوشته است می‌تواند آن را منتشر کند.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>موضوعات راهنمای در انتظار انتشار</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>آن را تا انتشار دوباره از خوانندگان پنهان می‌کند.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>سپس یک بازبین آن را بررسی می‌کند. خوانندگان هنوز آن را نمی‌بینند.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>خوانندگان بی‌درنگ آن را می‌بینند.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>آن را برای کار بیشتر از بازبینی خارج می‌کند. خوانندگان آن را نمی‌بینند.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>این صفحه از خوانندگان پنهان شود؟</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>این صفحه به پیش‌نویس برگردد؟</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>خوانندگان دیگر %title را نمی‌بینند تا کسی دوباره آن را منتشر کند.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title برای کار بیشتر به پیش‌نویس برمی‌گردد. خوانندگان هنوز آن را نمی‌بینند و پیش از انتشار به بازبینی تازه نیاز دارد.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>لغو</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>این موضوعات در بازبینی هستند. وقتی کسی که نسخهٔ کنونی را ننوشته آن‌ها را منتشر کند، خوانندگان آن‌ها را می‌بینند.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/secrets</name>
@@ -76475,6 +77558,46 @@ You will need to change the class of the node by using the swap functionality.</
         <source>None.</source>
         <translation>هیچ.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>با برنامهٔ احراز هویت</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>با کدی از طریق ایمیل</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>با کد بازیابی</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>با کلید عبور</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>با حساب خارجی</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>فعالیت امنیتی</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>به‌صورت شبکهٔ آن نمایش داده می‌شود؛ نشانی طبق تنظیمات حفاظت از دادهٔ سایت نگه داشته می‌شود.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>ثبت نشده</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>موقعیت</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>تقریبی</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76718,6 +77841,42 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Manage devices</source>
         <translation>مدیریت دستگاه‌ها</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>با برنامهٔ احراز هویت</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>با کدی از طریق ایمیل</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>با کد بازیابی</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>با کلید عبور</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>با حساب خارجی</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>فعالیت امنیتی</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>ثبت نشده</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>موقعیت</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>تقریبی</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76797,6 +77956,14 @@ You will need to change the class of the node by using the swap functionality.</
         <source>View the sessions of this user</source>
         <translation>مشاهدهٔ نشست‌های این کاربر</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>حساب شما %login در %site همین حالا برای ورود از جایی به کار رفت که اخیراً از آنجا وارد نشده بود:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>موقعیت تقریبی</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76835,6 +78002,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%browser روی %os</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>گزارش ورود</translation>
     </message>
 </context>
 <context>
@@ -77043,6 +78214,82 @@ You will need to change the class of the node by using the swap functionality.</
         <source>The passkey could not be checked. Please try again.</source>
         <translation>کلید عبور بررسی نشد. لطفاً دوباره تلاش کنید.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>حساب‌هایی که فقط با کلید عبور وارد می‌شوند نمی‌توانند در اینجا از گذرواژه استفاده کنند: «ورود با کلید عبور» را انتخاب کنید.</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>کلیدهای عبور %login</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>کلیدهای عبوری که این حساب با آن‌ها وارد می‌شود. کلیدی را که روی دستگاهی گم‌شده یا دزدیده‌شده است ابطال کنید: دیگر نمی‌تواند وارد شود. مالک حساب کلیدهای تازه را خودش می‌افزاید.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>حساب شما به یک کلید عبور نیاز دارد</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>افزودن کلید عبور به حساب شما</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>برای ادامه یک کلید عبور بیفزایید. پس از آن به‌جای گذرواژهٔ تنها، با آن وارد می‌شوید.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>ورود با کلید عبور سریع‌تر و امن‌تر از گذرواژه است. اکنون یکی بیفزایید یا بدون آن ادامه دهید.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>اکنون نه</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>کلید عبور «%name» ابطال شود؟</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>این کلید دیگر نمی‌تواند به این حساب وارد شود. اگر آخرین کلید بوده باشد، مالک با گذرواژه وارد می‌شود یا شما گذرواژهٔ تازه‌ای تعیین می‌کنید.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>ابطال کلید عبور</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>ابطال</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>این حساب هیچ کلید عبوری ندارد.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>احرازکننده</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>نامشخص</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>آخرین کلید عبور شما: پیش از برداشتن آن، کلید دیگری بیفزایید.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>این حساب فقط با کلید عبور وارد می‌شود (خط‌مشی کلید عبور): اگر کلیدی باقی نماند، دوباره با گذرواژهٔ خود وارد می‌شود.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>این آخرین کلید عبور شماست و حساب شما بدون آن نمی‌تواند وارد شود. ابتدا کلید عبور دیگری بیفزایید.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>کلید عبور «%name» ابطال شد. این کلید دیگر نمی‌تواند به این حساب وارد شود.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77142,6 +78389,34 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Code from your authenticator app</source>
         <translation>کد برنامهٔ احراز هویت</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>شما در آستانهٔ حذف همیشگی داده‌ها یا پاک کردن یک گزارش رویداد هستید.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>گذرواژهٔ شما و یک کلید عبور</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>گذرواژهٔ شما و کدی از برنامهٔ احراز هویت</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>یا:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>این مرورگر نمی‌تواند از کلیدهای عبور استفاده کند. از روش دیگری یا مرورگر دیگری استفاده کنید.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>وقتی ادامه دهید، مرورگرتان یکی از کلیدهای عبور شما را درخواست می‌کند.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>ادامه با کلید عبور</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77232,6 +78507,70 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Setup</source>
         <translation>راه‌اندازی</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>تغییر گذرواژه، نشانی ایمیل، کلیدهای عبور، ورود دومرحله‌ای، کدهای بازیابی یا کلیدهای API خود، و خارج کردن دستگاه‌های دیگر خود از حساب.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>ایجاد و ویرایش کاربران، گذرواژه‌ها و دستگاه‌هایشان، تنظیمات حساب، تأیید یا رد حساب‌های کاربری تازه، واگذاری نقش‌ها و ویرایش خط‌مشی‌ها.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>حذف داده‌ها</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>خالی کردن سطل زباله، برداشتن موارد از آن و برداشتن چند مورد با هم.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>برداشتن، انتشار و ذخیرهٔ محتوا</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>برداشتن محتوا (از جمله به سطل زباله)، انتشار و ذخیرهٔ پیش‌نویس؛ هنگام ارسال فرم پرسیده می‌شود. به‌طور پیش‌فرض خاموش است.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>پیش از یک کنش حساس، کاربر واردشده دوباره هویت خود را تأیید می‌کند: با گذرواژه و یک کلید عبور، یا بدون کلید عبور با گذرواژه و کد برنامهٔ احراز هویت خود. فقط صفحه‌های وب می‌پرسند: رابط REST، SOAP، WebDAV، ورود expservices و خط فرمان هرگز نمی‌پرسند.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>جایی که تنظیمات اعمال می‌شوند</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>تنظیمات برای</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>همهٔ دسترسی‌های سایت</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>فقط دسترسی سایت %name</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>باز کردن</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>از چه کسانی پرسیده می‌شود: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>گروه‌های کاربری را علامت بزنید تا فقط از اعضای آن‌ها پرسیده شود (برای نمونه ویراستاران). هیچ‌کدام علامت نخورده: همهٔ کاربران.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>در settings/override/site.ini.append.php برای همهٔ دسترسی‌های سایت ذخیره می‌شود. هنگام ذخیره از شما خواسته می‌شود هویت خود را تأیید کنید.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>در settings/siteaccess/%name/site.ini.append.php ذخیره می‌شود. مقداری در settings/override بر آن مقدم است. هنگام ذخیره از شما خواسته می‌شود هویت خود را تأیید کنید.</translation>
     </message>
 </context>
 <context>
@@ -77334,6 +78673,6822 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Open the page</source>
         <translation>باز کردن صفحه</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from تا %to از %count</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>نام کاربری یا شناسهٔ کاربر: حسابی که رویداد دربارهٔ آن بود یا کاربری که اقدام کرد.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>حساب</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>اقدام</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>پس از</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>همهٔ نتایج</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>پیش از</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>انجام‌دهنده</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>پاک کردن</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>انجام شد</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>رویدادها %days روز نگه داشته می‌شوند.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>رویدادها تا زمانی که به‌صورت دستی حذف شوند نگه داشته می‌شوند.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>رویدادها</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>همهٔ اقدام‌ها</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>همهٔ رویدادهای این حساب</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>برون‌بری فهرست به‌صورت CSV (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>ناموفق</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>از</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>محدود کردن فهرست</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>هیچ رویدادی مطابقت ندارد.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>در هر صفحه</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>ثبت رویدادها در audit.ini خاموش است ([UserAuditSettings] UserAudit)؛ فهرست آنچه را پیش‌تر ثبت شده است نشان می‌دهد.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>ردشده</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>نتیجه</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>نمایش</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>جدول گزارش ممیزی کاربران وجود ندارد. آن را با php update/common/scripts/6.0/createuseraudittable.php بسازید؛ تا آن زمان فایل‌های ممیزی همهٔ رویدادها را نگه می‌دارند.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>این صفحه به پایگاه دادهٔ SQL نیاز دارد؛ روی MongoDB در دسترس نیست. فایل‌های ممیزی همهٔ رویدادها را نگه می‌دارند.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>تا</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>گزارش ممیزی کاربران</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>کاربر</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>زمان</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>مکان</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>چه کسی کدام حساب را تغییر داد، ایجاد کرد، فعال کرد، غیرفعال کرد، جابه‌جا کرد یا حذف کرد، چه کسی وارد شد یا رد شد، و چه نقش‌هایی واگذار شد: یک سطر برای هر رویداد، با مقدار فیلدها پیش و پس از تغییر. گذرواژه‌ها و رازها هرگز ثبت نمی‌شوند.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>گروه</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>سیستم</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>نامشخص</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>ایمن کردن حساب</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>یک کد بازیابی برای ورود به حساب شما %login در %site به کار رفت.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>یک کد بازیابی به کار رفت</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>حساب</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>نشانی تقریبی</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>برای ورود دوباره گذرواژهٔ جدیدی درخواست کنید، یا با مدیران سایت تماس بگیرید.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>درخواست گذرواژهٔ جدید</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>هر کد بازیابی یک بار کار می‌کند. اگر تلفن خود را گم کرده‌اید، برنامهٔ احراز هویت خود را دوباره راه‌اندازی کنید و کدهای بازیابی جدید را در جای امنی نگه دارید.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>تلاش‌های ناموفق ورود به حساب شما</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>از این پس، ورود افزون بر گذرواژهٔ شما یک کد هم می‌خواهد. اگر این کار را خودتان انجام داده‌اید، لازم نیست کاری بکنید.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>اگر خودتان بودید و گذرواژهٔ خود را فراموش کرده‌اید، گذرواژهٔ جدیدی درخواست کنید. اگر نه، گذرواژهٔ قوی‌تری برگزینید و ورود دومرحله‌ای را روشن کنید.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>اگر این کار شما نبوده است، ممکن است کسی گذرواژهٔ شما را بداند: همین حالا آن را تغییر دهید و بررسی کنید حساب شما در کجا وارد شده است.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>کدهای بازیابی باقی‌مانده</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>بررسی دستگاه‌های شما</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>اخطار امنیتی</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>کسی %count بار پشت سر هم کوشید با گذرواژهٔ نادرست به حساب شما %login در %site وارد شود.</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>رویدادی امنیتی در حساب شما %login در %site رخ داد.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>این یک اخطار امنیتی دربارهٔ حساب شماست. برای هر تغییری از این دست فرستاده می‌شود و نمی‌توان آن را خاموش کرد.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>زمان</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>ورود دومرحله‌ای برای حساب شما %login در %site خاموش شد.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>ورود دومرحله‌ای خاموش شد</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>ورود دومرحله‌ای برای حساب شما %login در %site روشن شد.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>ورود دومرحله‌ای روشن شد</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>حساب شما %login در %site پس از ورودهای ناموفق بیش از حد قفل شد.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>حساب شما اکنون فقط با گذرواژه‌تان محافظت می‌شود. اگر این کار را خودتان انجام نداده‌اید، پس از تغییر گذرواژه، ورود دومرحله‌ای را دوباره روشن کنید.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>حساب شما قفل شد</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>یک کلید عبور به حساب شما %login در %site افزوده شد.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>هر کسی که این کلید عبور را دارد می‌تواند بدون گذرواژهٔ شما به حسابتان وارد شود. اگر شما آن را نیفزوده‌اید، آن را در بخش کلیدهای عبور بردارید و گذرواژهٔ خود را تغییر دهید.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>یک کلید عبور از حساب شما %login در %site برداشته شد.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>این کلید دیگر نمی‌تواند به حساب شما وارد شود. اگر شما آن را برنداشته‌اید، کلیدهای عبور و دستگاه‌های خود را بررسی کنید.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>یک کلید عبور به حساب شما افزوده شد</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>یک کلید عبور از حساب شما برداشته شد</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>فعالیت امنیتی</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>فعالیت امنیتی %name</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>ورود</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>تلاش ناموفق برای ورود</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>خروج</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>نشست‌ها خارج شدند</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>ورود از دستگاهی جدید</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>ورود از موقعیتی جدید</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>هویت تأیید شد («تأیید هویت»)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>بررسی هویت ناموفق بود</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>ورود با کلید عبور</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>ورود با کلید عبور ناموفق بود</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>ورود رد شد: کد ورود دومرحله‌ای وجود ندارد یا نادرست است</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>کد ورود دومرحله‌ای نادرست</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>حساب پس از ورودهای ناموفق قفل شد</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>قفل حساب باز شد</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>گذرواژه تغییر کرد</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>تغییر گذرواژه ناموفق بود</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>گذرواژه بازنشانی شد</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>گذرواژهٔ جدید درخواست شد</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>نشانی ایمیل تغییر کرد</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>نام کاربری تغییر کرد</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>ورود دومرحله‌ای روشن شد</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>ورود دومرحله‌ای خاموش شد</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>کد بازیابی به کار رفت</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>کدهای بازیابی جدید</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>گذرواژهٔ برنامه ایجاد شد</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>گذرواژهٔ برنامه باطل شد</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>کلید عبور افزوده شد</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>کلید عبور برداشته شد</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>حساب فعال شد</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>حساب غیرفعال شد</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>همه</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>ورودها و نشست‌ها</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>تغییرات حساب</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>نیازمند توجه</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>توسط شما</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>توسط کاربر</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>توسط %login</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>روش</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>مرورگر</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>سیستم‌عامل</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>دستگاه</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>مکان</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>کشور</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>نشست‌ها</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>کدام‌ها</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>کانال</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>تلاش‌های ناموفق</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>کدهای باقی‌مانده</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>گردانندهٔ ورود</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>فعالیت امنیتی</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>فعالیت امنیتی %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>ورودها و تغییرات امنیتی حساب شما. اگر چیزی می‌بینید که خودتان انجام نداده‌اید، گذرواژهٔ خود را تغییر دهید و دستگاه‌هایی را که نمی‌شناسید خارج کنید.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>ورودها و تغییرات امنیتی این حساب.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>دستگاه‌های شما</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>تغییر گذرواژه</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>بازگشت به حساب</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>فعالیت امنیتی ثبت نمی‌شود</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>این فعالیت از گزارش ممیزی کاربران خوانده می‌شود که جدول آن، expuser_audit، وجود ندارد یا در این پایگاه داده پشتیبانی نمی‌شود. php update/common/scripts/6.0/createuseraudittable.php یا به‌روزرسانی پایگاه دادهٔ 6.0.15 را اجرا کنید.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>%days روز گذشته</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>ورودها در %days روز گذشته</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>فعالیت امنیتی اخیر</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>نمایش</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>ناموفق</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>ردشده</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>هنوز هیچ فعالیت امنیتی ثبت نشده است.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>رویدادهای امنیتی %days روز نگه داشته می‌شوند.</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>رویدادهای امنیتی تا زمانی که یک مدیر آن‌ها را بردارد نگه داشته می‌شوند.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>دانلود داده‌های ورود من</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>نشست‌ها و رویدادهای امنیتی شما در قالب فایل JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>نشست‌ها در این سایت ثبت نمی‌شوند، بنابراین هیچ دستگاه دیگری خارج نشد. اکنون گذرواژهٔ خود را تغییر دهید.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count نشست دیگر خارج شدند. اکنون گذرواژهٔ خود را تغییر دهید.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>هیچ دستگاه دیگری وارد نشده بود. اکنون گذرواژهٔ خود را تغییر دهید.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>سپاسگزاریم. این رویداد به نام شما علامت‌گذاری شد.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>این رویداد نیازی به پاسخ ندارد.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>صفحه منقضی شده بود. چیزی تغییر نکرد؛ لطفاً دوباره تلاش کنید.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>ایمن کردن حساب</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>اگر چیزی در اینجا کار شما نبود، همهٔ دستگاه‌های دیگر را خارج کنید و سپس گذرواژهٔ تازه‌ای برگزینید. دستگاه‌هایی که با «مرا به خاطر بسپار» وارد مانده‌اند نیز خارج می‌شوند.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>همهٔ دستگاه‌ها به جز این یکی در درخواست بعدی خود خارج می‌شوند. سپس گذرواژهٔ تازه‌ای برمی‌گزینید.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>بله، دستگاه‌های دیگر را خارج کن</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>آیا این شما بودید؟</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>بله، من بودم</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>نه، حسابم را ایمن کن</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>ورود</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>تلاش ناموفق برای ورود</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>خروج</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>نشست‌ها خارج شدند</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>ورود از دستگاهی جدید</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>ورود از موقعیتی جدید</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>هویت تأیید شد («تأیید هویت»)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>بررسی هویت ناموفق بود</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>ورود با کلید عبور</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>ورود با کلید عبور ناموفق بود</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>ورود رد شد: کد ورود دومرحله‌ای وجود ندارد یا نادرست است</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>کد ورود دومرحله‌ای نادرست</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>حساب پس از ورودهای ناموفق قفل شد</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>قفل حساب باز شد</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>گذرواژه تغییر کرد</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>تغییر گذرواژه ناموفق بود</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>گذرواژه بازنشانی شد</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>گذرواژهٔ جدید درخواست شد</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>نشانی ایمیل تغییر کرد</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>نام کاربری تغییر کرد</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>ورود دومرحله‌ای روشن شد</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>ورود دومرحله‌ای خاموش شد</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>کد بازیابی به کار رفت</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>کدهای بازیابی جدید</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>گذرواژهٔ برنامه ایجاد شد</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>گذرواژهٔ برنامه باطل شد</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>کلید عبور افزوده شد</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>کلید عبور برداشته شد</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>حساب فعال شد</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>حساب غیرفعال شد</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>همه</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>ورودها و نشست‌ها</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>تغییرات حساب</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>نیازمند توجه</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>فعالیت امنیتی</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>فعالیت امنیتی %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>ورودها و تغییرات امنیتی حساب شما. اگر چیزی می‌بینید که خودتان انجام نداده‌اید، گذرواژهٔ خود را تغییر دهید و دستگاه‌هایی را که نمی‌شناسید خارج کنید.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>دستگاه‌های شما</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>تغییر گذرواژه</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>فعالیت امنیتی هنوز در این سایت ثبت نمی‌شود.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>ورودها در %days روز گذشته</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>تلاش‌های ناموفق</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>هنوز هیچ فعالیت امنیتی ثبت نشده است.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>دانلود داده‌های ورود من</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>نشست‌ها و رویدادهای امنیتی شما در قالب فایل JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>نشست‌ها در این سایت ثبت نمی‌شوند، بنابراین هیچ دستگاه دیگری خارج نشد. اکنون گذرواژهٔ خود را تغییر دهید.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count نشست دیگر خارج شدند. اکنون گذرواژهٔ خود را تغییر دهید.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>هیچ دستگاه دیگری وارد نشده بود. اکنون گذرواژهٔ خود را تغییر دهید.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>سپاسگزاریم. این رویداد به نام شما علامت‌گذاری شد.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>این رویداد نیازی به پاسخ ندارد.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>صفحه منقضی شده بود. چیزی تغییر نکرد؛ لطفاً دوباره تلاش کنید.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>ایمن کردن حساب</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>اگر چیزی در اینجا کار شما نبود، همهٔ دستگاه‌های دیگر را خارج کنید و سپس گذرواژهٔ تازه‌ای برگزینید. دستگاه‌هایی که با «مرا به خاطر بسپار» وارد مانده‌اند نیز خارج می‌شوند.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>همهٔ دستگاه‌ها به جز این یکی در درخواست بعدی خود خارج می‌شوند. سپس گذرواژهٔ تازه‌ای برمی‌گزینید.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>بله، دستگاه‌های دیگر را خارج کن</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>آیا این شما بودید؟</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>بله، من بودم</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>نه، حسابم را ایمن کن</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>گذرواژه</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>گذرواژه و کد ورود دومرحله‌ای</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>رابط REST</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>رابط SOAP</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>ورود یکپارچه</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>ورود پیش از آغاز ثبت نشست‌ها</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>گزارش ورود</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>چه کسی در سایت وارد شده است، حساب‌ها هر چند وقت یک بار وارد می‌شوند و ناکام می‌مانند، و خارج کردن یک کاربر از همه‌جا. با هر گردانندهٔ نشستی کار می‌کند.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>نشست خارج شد. دستگاه باید دوباره وارد شود.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>%login از %count نشست خارج شد.</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>%login هیچ نشست در حال اجرایی نداشت.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>هیچ حسابی این شناسه، نام کاربری یا نشانی ایمیل را ندارد.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>این همان نشستی است که از آن استفاده می‌کنید. برای پایان دادن به آن، خارج شوید.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>آن نشست پیش‌تر پایان یافته بود.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>مهلت صفحه به پایان رسیده بود. چیزی تغییر نکرد؛ لطفاً دوباره تلاش کنید.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>نشست‌ها در این سایت ثبت نمی‌شوند (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>جدول expuser_session وجود ندارد</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>نشست‌ها پس از ایجاد آن ثبت می‌شوند: php update/common/scripts/6.0/createusersessiontable.php یا به‌روزرسانی پایگاه دادهٔ 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>اکنون و امروز</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>نشست‌های در حال اجرا</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>کاربران واردشده</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>ورودهای امروز</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>تلاش‌های ناموفق امروز</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>خارج کردن یک کاربر از همه‌جا</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>هر نشست این حساب در درخواست بعدی‌اش پایان می‌یابد، از جمله نشست‌هایی که با «مرا به خاطر بسپار» نگه داشته شده‌اند. هنگامی از آن استفاده کنید که ممکن است حسابی به دست نادرستی افتاده باشد؛ سپس گذرواژهٔ آن را بازنشانی کنید.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>شناسهٔ کاربر، نام کاربری یا نشانی ایمیل</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>خروج از همه‌جا</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>اکنون واردشده</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>%limit نشستی که اخیراً بیش از همه به کار رفته‌اند نمایش داده می‌شوند.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>کاربر</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>دستگاه</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>نشانی</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>ورود</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>آخرین فعالیت</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>عملیات</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>این دستگاه</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>ثبت نشده</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>خروج</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>هیچ نشستی وارد نشده است.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>%days روز گذشته</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>ورودها و تلاش‌های ناموفق از گزارش ممیزی کاربران شمرده می‌شوند که وجود ندارد؛ نشست‌های جدید شمرده می‌شوند.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>روز</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>ورودها</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>تلاش‌های ناموفق</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>نشست‌های جدید</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>گردانندهٔ نشست: %handler. نشست‌ها از جدول expuser_session خوانده می‌شوند، بنابراین گزارش با هر گرداننده‌ای کار می‌کند.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>فعالیت مشکوک در %hours ساعت گذشته</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>یک شبکه نتوانست به %accounts حساب وارد شود (%count تلاش)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>حساب پس از ورودهای ناموفق قفل شد</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>%count ورود ناموفق به یک حساب</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>ورود هم‌زمان از %count کشور</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>فعالیت امنیتی</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>نشست‌ها</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>ورودهای ناموفق از گزارش ممیزی کاربران خوانده می‌شوند که در اینجا در دسترس نیست.</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>هیچ مورد مشکوکی نیست: هیچ حسابی با ورودهای ناموفق مکرر، هیچ شبکه‌ای که چند حساب را امتحان کند و هیچ حسابی که از چند کشور وارد شده باشد وجود ندارد.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>اخطار امنیتی برای حساب شما</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>رویدادی امنیتی در حساب شما %login رخ داد: %event. اگر شما نبودید، حساب خود را در %url ایمن کنید.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>راه‌اندازی</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>از محتوای این سایت دقیقاً همان فیلدهایی را که یک صفحه نیاز دارد، در یک درخواست بخواهید. طرح‌واره از کلاس‌های محتوا پیروی می‌کند؛ هر پرس‌وجو با دسترسی‌های کاربری اجرا می‌شود که آن را می‌فرستد.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>API ‏GraphQL در این دسترسی سایت خاموش است. آن را در graphql.ini روشن کنید: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>کتابخانهٔ GraphQL (webonyx/graphql-php 15) نصب نشده است.</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>نقطهٔ پایانی</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>کتابخانه</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>طرح‌واره</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>%count کلاس محتوا، طرح‌واره %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>پرس‌وجو</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>متغیرها (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>اجرا</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>پاسخ</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>در حال اجرا…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>پاسخ خوانده نشد.</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>پرس‌وجو با دسترسی‌های شما اجرا می‌شود، با ورود از طریق همین نشست.</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%count در %seconds ثانیه</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>بدون محدودیت</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>عمق</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>پیچیدگی</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>آیتم در هر فهرست</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (پیش‌فرض %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>درخواست به ازای هر کاربر یا کلید</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>درخواست به ازای هر نشانی ناشناس</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>درون‌نگری (Introspection)</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>فقط پرس‌وجوهای ذخیره‌شده</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>بزرگ‌ترین پرس‌وجو</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>%bytes بایت</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>بزرگ‌ترین بارگذاری</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>دسترسی سایت %siteaccess وجود ندارد.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>جهش‌ها در %siteaccess روشن هستند.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>جهش‌ها در %siteaccess خاموش هستند.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>API ‏GraphQL در %siteaccess روشن است.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>API ‏GraphQL در %siteaccess خاموش است.</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>تنظیمات نوشته نشد: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>حافظهٔ نهان پاسخ‌ها پاک شد: %count پاسخ حذف شد.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>برای حذف پرس‌وجو، کادر کنار آن را علامت بزنید.</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>پرس‌وجو حذف نشد: پرس‌وجویی که در یکی از پوشه‌های PersistedQueryDirectoryList[] عرضه شده است همراه با فایلش حذف می‌شود.</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>پرس‌وجوی ذخیره‌شده حذف شد.</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>جهش‌ها</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>روشن</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>خاموش</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>دسترسی‌های سایت</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>جایی که API و جهش‌هایش پاسخ می‌دهند. دکمه‌ها graphql.ini را می‌نویسند، همان‌گونه که ./console exp:graphql:enable و exp:graphql:disable می‌نویسند.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>دسترسی سایت</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>API ‏GraphQL</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>تغییر</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>خاموش کردن</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>جهش‌ها خاموش</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>جهش‌ها روشن</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>روشن کردن</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>محدودیت‌ها</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>graphql.ini [GraphQLSettings] این دسترسی سایت.</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>حافظهٔ نهان پاسخ‌ها</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>پاسخ‌های پرس‌وجوهای ذخیره‌شده، که به تفکیک حقوق کاربر نگه داشته می‌شوند و هر بار که محتوایی منتشر شود منقضی می‌شوند.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>وضعیت</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>پاسخ‌های نگه‌داشته</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>%count پاسخ، %bytes بایت</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>حداکثر مدت نگه‌داری</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds ثانیه</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>آخرین انقضا</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>پاک کردن حافظهٔ نهان پاسخ‌ها</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>پرس‌وجوهای ذخیره‌شده</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>ذخیره‌شده با ./console exp:graphql:persist یا توسط کلاینت‌ها (پرس‌وجوهای ذخیره‌شدهٔ خودکار)؛ با نام یا SHA-256 فراخوانده می‌شوند.</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>نام‌ها</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>اندازه</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>محل</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>حذف</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>عرضه‌شده</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>ذخیره‌شده</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>بله، این پرس‌وجو حذف شود</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>هنوز هیچ پرس‌وجوی ذخیره‌شده‌ای نیست.</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>کلیدهای API</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>کلیدهای شخصی API با دامنهٔ graphql:read (پرس‌وجوها) یا graphql:write (جهش‌ها). آن‌ها را در صفحهٔ دسترسی API یا با ./console exp:graphql:keys بسازید و باطل کنید.</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>دسترسی API</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>همهٔ کلیدها</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>کلید</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>نام</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>مالک</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>دامنه‌ها</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>آخرین استفاده</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>فعال</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>منقضی</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>باطل‌شده</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>هرگز</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>هنوز هیچ کلید API با دامنهٔ GraphQL نیست.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>API ‏GraphQL در دسترسی سایت %siteaccess که این صفحه را نشان می‌دهد خاموش است؛ جدول زیر نشان می‌دهد کجا پاسخ می‌دهد.</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>برای دسترسی سایت %siteaccess که این صفحه را نشان می‌دهد.</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>وب‌هوک‌ها</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>هر رویدادی که یک نقطهٔ پایانی درخواست کند (publish, update, trash, delete, move, hide, reveal, mutation)، امضاشده توسط بخش cronjob به نام graphqlwebhooks برایش فرستاده می‌شود. فرمان ./console exp:graphql:webhooks همان کار این بخش را انجام می‌دهد.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>رویدادها</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>همه</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>همهٔ دسترسی‌های سایت</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>خراب</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>بدون رمز</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>در انتظار</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count رهاشده</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>آخرین تحویل</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>ارسال آزمایشی</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>بله، این وب‌هوک حذف شود</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>هنوز هیچ وب‌هوکی نیست.</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>افزودن وب‌هوک</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>افزودن</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>تحویل‌های اخیر</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>زمان</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>نتیجه</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>اشتراک‌ها</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>به‌روزرسانی زنده برای کلاینت‌ها: یک جریان رویداد در /api/graphql/subscribe و یک WebSocket (graphql-transport-ws) روی Velocity. هر رویداد فقط به مشترکانی می‌رسد که اجازهٔ خواندن محتوای آن را دارند.</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>اکنون باز</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>حداکثر باز</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>%total در مجموع، %user برای هر کاربر، %address برای هر نشانی</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>اشتراک‌های ناشناس</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>مدت جریان</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>وب‌هوک افزوده نشد: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>وب‌هوک %name تغییر کرد؛ رمز امضای آن باقی می‌ماند.</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>رمز امضا ذخیره نشد (راه‌اندازی &gt; رمزها).</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>وب‌هوک %name افزوده شد. رمز امضای آن، که فقط همین یک بار نشان داده می‌شود: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>وب‌هوک %name وجود ندارد.</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>وب‌هوک %name پاسخ نداد: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>وب‌هوک %name در %ms ms با %status پاسخ داد.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>برای حذف وب‌هوک، کادر کنار آن را علامت بزنید.</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>وب‌هوک %name حذف شد.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>API ‏GraphQL در این دسترسی سایت خاموش است.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>کتابخانهٔ GraphQL نصب نشده است.</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>از GET یا POST استفاده کنید.</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>بدنهٔ درخواست یک شیء JSON نیست.</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables یک شیء JSON نیست.</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions یک شیء JSON نیست.</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>پرس‌وجو را با POST بفرستید.</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>درخواست هیچ پرس‌وجویی ندارد.</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>پرس‌وجو بیش از %max بایت است.</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>خطای داخلی سرور</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node دقیقاً به یکی از id، remoteId، path و urlAlias نیاز دارد.</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content دقیقاً به یکی از id و remoteId نیاز دارد.</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>مکان‌نمای after را این API نداده است.</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>نام مستعار تصویر %alias وجود ندارد (image.ini [AliasSettings] AliasList[]).</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>در اینجا فقط پرس‌وجوهای ذخیره‌شده پذیرفته می‌شوند: شناسهٔ (id) یک پرس‌وجوی ذخیره‌شده را بفرستید.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>هش پرس‌وجوی ذخیره‌شده یک SHA-256 نیست.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>هش پرس‌وجوی ذخیره‌شده با پرس‌وجو مطابقت ندارد.</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>درخواست‌ها بیش از حد است: حداکثر %limit در %window ثانیه. %reset ثانیهٔ دیگر دوباره تلاش کنید.</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>عمق پرس‌وجو %depth سطح است؛ حداکثر %max مجاز است.</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>پیچیدگی پرس‌وجو %complexity است؛ حداکثر %max مجاز است.</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>این درخواست اجازهٔ خواندن طرح‌واره را ندارد (introspection).</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search به یک متن یا یک فیلتر نیاز دارد (classes، subtree، sections، publishedAfter، publishedBefore).</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument یک تاریخ نیست (ISO 8601, 2026-10-30).</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag دقیقاً به یکی از id، remoteId و path نیاز دارد.</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout دقیقاً به یکی از id، identifier و urlAlias نیاز دارد.</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>فیلد operations یک درخواست multipart یک درخواست JSON نیست.</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>فیلد map یک درخواست multipart یک شیء JSON نیست.</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>درخواست multipart فایل %field را ندارد.</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>هر مسیر نگاشت فیلدها باید با variables. آغاز شود: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>فایل %name کامل نرسید (خطای بارگذاری %error).</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>فایل %name بزرگ‌تر از %max بایت است.</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>فایل %name بررسی نشد.</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>جهش‌ها در این دسترسی سایت خاموش هستند (graphql.ini [GraphQLSettings] MutationsEnabled).</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>جهش را با POST بفرستید.</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>برای تغییر محتوا وارد شوید.</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>کلید API دامنهٔ %scope را ندارد.</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>جهشی که با نشست فرستاده می‌شود به توکن فرم نشست نیاز دارد (سرآیند X-CSRF-Token).</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>uploadFromUrl خاموش است: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] هیچ میزبانی را نام نمی‌برد.</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>نشانی باید یک نشانی https باشد.</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>میزبان %host در graphql.ini [GraphQLSettings] UploadFromUrlHostList[] نیست.</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>فایل دریافت نشد.</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload تنها یک نوع ورودی است.</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>متغیری از نوع Upload یک فایل از درخواست multipart می‌گیرد.</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>شناسهٔ راه دور %remoteId پیش‌تر گرفته شده است.</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>محتوا از پیش ترجمه‌ای به %language دارد: از updateContent استفاده کنید.</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>دست‌کم یک فیلد بدهید.</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>نسخهٔ تازه‌ای ساخته نشد (محتوا پیش‌نویس‌های بسیار زیادی دارد).</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>نسخهٔ %version پیش‌نویس نیست.</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent دقیقاً به یکی از id و nodeId نیاز دارد.</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>یک مکان را نمی‌توان به زیر خودش جابه‌جا کرد.</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>محتوا از پیش مکانی زیر %parentId دارد.</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>مقدار فیلد %field ذخیره نشد.</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>زبان محتوای %language وجود ندارد.</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>کلاس محتوای %class در طرح‌واره وجود ندارد.</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>محتوا وجود ندارد، یا اجازهٔ خواندن آن را ندارید.</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>اجازهٔ انجام این کار روی این محتوا را ندارید.</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>کلاس %class فیلد قابل نوشتنی به نام %field ندارد.</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>فیلد %field دو بار داده شده است.</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>فیلد %field یک فایل می‌گیرد: آن را به‌صورت بارگذاری بفرستید (یک درخواست multipart).</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>فیلد %field فایل نمی‌گیرد.</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>فیلد %field به یک مقدار نیاز دارد.</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>قالب %format تنها برای فیلدهای متن غنی است؛ %field مقدارش را همان‌گونه که هست می‌گیرد (RAW).</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>فیلد %field الزامی است.</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>HTML خوانده نشد.</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content تنها همراه با id پارامتر version را می‌پذیرد.</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>توکن پیش‌نمایش معتبر نیست یا منقضی شده است.</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>یک مبدأ نیست (https://host یا https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>یک دامنهٔ API ‏GraphQL نیست: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>اشتراک‌ها را به /api/graphql/subscribe بفرستید (یک جریان رویداد یا یک WebSocket).</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>درخواست هیچ عملیاتی از سند را نام نمی‌برد.</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>یک اشتراک دقیقاً یک فیلد درخواست می‌کند.</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>تعداد اشتراک‌های باز بیش از حد است؛ بعداً دوباره تلاش کنید.</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>شما %max اشتراک باز دارید، که بیشترین تعداد مجاز است.</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>نشانی شما %max اشتراک باز دارد، که بیشترین تعداد مجاز است.</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>اشتراک‌ها در این دسترسی سایت خاموش‌اند.</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>برای مشترک شدن وارد شوید (یک توکن یا یک کلید API شخصی).</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>جهش‌ها را به /api/graphql بفرستید.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>مهاجرت‌ها</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>وضعیت خوانده نشد: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>جدول‌های مهاجرت‌ها هنوز وجود ندارند: ./console exp:upgrade --apply آن‌ها را می‌سازد.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>%count مهاجرت ناموفق بود</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>یک اجرا در جریان است که %user آن را آغاز کرده است</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>نصب قفل شده است: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>در انتظار</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>ناموفق</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>بی‌صاحب</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>آخرین اجرا</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>هنوز هیچ</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>همه مهاجرت‌ها</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>اجرای شبیه‌سازی‌شده</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>اجرای آزمایشی</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>مهاجرت‌های در انتظار در تراکنشی اجرا شدند که پس از آن بازگردانده شد: هیچ چیز نگه داشته نشد. در زیر آمده است که هر کدام چه چیزی را در پایگاه داده تغییر داد.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>کاری که یک اجرا اکنون انجام می‌داد. هیچ چیز تغییر نمی‌کند: هر مهاجرت در انتظار تغییراتی را که ایجاد می‌کرد فهرست می‌کند، و اجرا کاری را که پیش و پس از آن انجام می‌داد.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>شبیه‌سازی</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>اجرا</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>اجرای آزمایشی ناموفق بود: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>شبیه‌سازی به PostgreSQL یا SQLite نیاز دارد که تغییرات طرح‌واره در آن‌ها قابل بازگردانی است؛ در این پایگاه داده، برنامه زیر نشان می‌دهد یک اجرا چه می‌کرد.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>مهاجرت‌ها</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>مهاجرت</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>وضعیت</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>کاری که انجام می‌داد</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>شبیه‌سازی: %result در %ms میلی‌ثانیه</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>هنوز هیچ مهاجرتی نیست.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>پیش و پس از اجرا</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>تصویر لحظه‌ای پیش از اجرا</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>گرفته می‌شود و اگر مهاجرتی ناموفق شود بازیابی می‌شود</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>خاموش</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>تصویر لحظه‌ای پس از اجرا</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>وقتی اجرا موفق بود گرفته می‌شود</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>%total مهاجرت: %pending در انتظار، %done انجام‌شده، %failed ناموفق.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>تاریخچه مهاجرت‌ها</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>هر اجرا با کاربر، محیط، تصاویر لحظه‌ای و آنچه کامیت، برچسب‌گذاری و پوش شد. اجرای ناموفق یا قطع‌شده را می‌توان از سر گرفت؛ اجرایی که پیش از آن تصویر لحظه‌ای گرفته شده را می‌توان بازگرداند.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>اجراها خوانده نشدند: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>جدول‌های مهاجرت‌ها هنوز وجود ندارند: ./console exp:upgrade --apply آن‌ها را می‌سازد.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>نمایش</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>همه</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>اجراها</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>آغاز</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>توسط</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>تصاویر لحظه‌ای</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>مخزن</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>عملیات</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>پیش از اجرا</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>پس از اجرا</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>پوش: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>از سر گرفتن</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>بازگرداندن</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>هیچ اجرایی در این وضعیت نیست.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>آغازشده در اینجا</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>اجراها، ازسرگیری‌ها و بازگردانی‌هایی که در این صفحه‌ها آغاز شده‌اند، همراه با گزارش هر کدام.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>چه</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>نتیجه</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>بازگردانی</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>بازگردانی %target</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>اجرای %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>کاری که اجرا انجام داد، رکورد و گزارش آن. اجرایی که اینجا آغاز شده با بستن این صفحه در پس‌زمینه ادامه می‌یابد؛ برای دنبال کردن آن صفحه را دوباره باز کنید.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>از سر گرفتن این اجرا</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>بازگرداندن این اجرا</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>رکورد خوانده نشد: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>پیشرفت</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>آغازشده توسط %user در %time.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>بررسی کد و گرفتن تصویر لحظه‌ای پیش از اجرا</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>در حال اجرای %id (%index از %total)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>%done از %total انجام شد</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>مهاجرت‌ها اجرا شدند؛ اگر یکی ناموفق بوده باشد تصویر لحظه‌ای بازیابی می‌شود</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>گرفتن تصویر لحظه‌ای پس از اجرا، کامیت، برچسب‌گذاری و پوش</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>بازیابی تصویر لحظه‌ای</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>اجرا پایان یافت. گزارش آن در حال بارگذاری است.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>پیشرفت قابل دنبال کردن نبود. صفحه را دوباره بارگذاری کنید تا وضعیت اجرا را ببینید.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>این صفحه اجرا را در حین پیشروی دنبال می‌کند.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>بارگذاری دوباره</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>گزارش</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>مدت</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms میلی‌ثانیه</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>آنچه اجرا به‌عنوان خطا چاپ کرد</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>رکورد</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>محیط</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>هیچ</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>پایان</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>کامیت</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>برچسب</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>پوش</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>پیام</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>مهاجرت‌های این اجرا</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>منبع</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>گزارش اجرا</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>فقط پایان گزارش نمایش داده می‌شود.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>در حال اجرا</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>بدون گزارش پایان یافت</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>موفق</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>ناموفق</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>رد شد</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>پایگاه داده در دسترس نبود</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>خطای داخلی</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>یک اجرا در جریان است</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind توسط %user در %time آغاز شد.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>دنبال کردن</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>نصب قفل شده است</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>اجرای دیگری قفل را در اختیار دارد (یک ارتقا یا اجرایی در کنسول): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>انجام‌شده</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>در انتظار</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>لازم نیست</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>نامشخص</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>بازگردانده شد</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>اعمال شد</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>اعمال می‌شد</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>پس گرفته شد</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>پس گرفته می‌شد</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>اجرا نشد</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>منتظر مهاجرت دیگری است</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>تغییر پذیرفته شد</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>تغییر پذیرفته می‌شد</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>شبیه‌سازی شد</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>مهاجرت‌ها</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>وضعیت</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>تاریخچه</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>بازگرداندن %target</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>یک اجرا به تصویر لحظه‌ای گرفته‌شده پیش از آن بازگردانده می‌شود، یک مهاجرت با down() خودش. بازیابی تصویر لحظه‌ای قدیمی‌تر برای کارشناسان است. هر کدام پس از گرفتن تصویر لحظه‌ای از وضعیت کنونی، در پس‌زمینه با حساب شما اجرا می‌شود.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>آنچه قابل بازگرداندن است خوانده نشد: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>یک اجرا</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>یک مهاجرت</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>یک تصویر لحظه‌ای قدیمی‌تر</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>توضیحات</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>بله</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>خیر</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>تصویر لحظه‌ای</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>برچسب نام</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>زمان گرفتن</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>نوع</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>بخش‌های قابل بازیابی</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>پایگاه داده</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>فایل‌های ذخیره‌شده (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>تنظیمات (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>بازیابی، پایگاه داده را به زمان تصویر لحظه‌ای برمی‌گرداند، از جمله نشست‌ها: ممکن است پس از آن از شما خواسته شود دوباره وارد شوید. هر چه از آن زمان تغییر کرده از دست می‌رود؛ ابتدا از وضعیت کنونی تصویر لحظه‌ای گرفته می‌شود.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>می‌دانم این چه چیزی را بازیابی می‌کند</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>شناسه تصویر لحظه‌ای را دوباره وارد کنید</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>بله، بازگردانده شود</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>لغو</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>اجراهایی که پیش از آن‌ها تصویر لحظه‌ای گرفته شده است.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>انتخاب</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>هنوز هیچ اجرایی با تصویر لحظه‌ای نیست.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>مهاجرت‌های اعمال‌شده‌ای که می‌توانند خود را بازگردانند (یک down() دارند).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>هیچ مهاجرت اعمال‌شده‌ای down() ندارد.</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>تصاویر لحظه‌ای قدیمی‌تر (کارشناسان)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>هنوز هیچ تصویر لحظه‌ای نیست.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>اجرای مهاجرت‌ها</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>اجرا در پس‌زمینه با حساب %user ادامه می‌یابد و صفحه آن روند را نشان می‌دهد. پیش از نخستین مهاجرت، از نصب تصویر لحظه‌ای گرفته می‌شود؛ اگر مهاجرتی ناموفق شود، اجرا متوقف و تصویر لحظه‌ای بازیابی می‌شود.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>ابتدا اجرای آزمایشی</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>وضعیت خوانده نشد: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>مهاجرت‌های در انتظار</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>آن‌ها به این ترتیب اجرا می‌شوند. تیک یکی را بردارید تا آن و مهاجرت‌های وابسته به آن برای اجرای بعدی بمانند.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>اجرا شود</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>در طول اجرا حالت نگهداری را روشن می‌کند.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>پس از اعمال تغییر کرده‌اند</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>این فایل‌ها همان‌هایی نیستند که اعمال شدند. اجرا آن‌ها را رد می‌کند مگر اینکه تغییر با ذکر دلیل پذیرفته شود؛ آن‌ها دوباره اجرا نمی‌شوند، چک‌سام جدید ثبت می‌شود و دلیل در گزارش ممیزی نگه داشته می‌شود.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>پذیرفتن تغییرات</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>دلیل</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>پیش‌فرض‌ها گزینه‌های امن هستند. هر جعبه یک گام را حذف می‌کند.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>بدون تصویر لحظه‌ای</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>بدون تصویر لحظه‌ای پیش و پس از اجرا: یک شکست را نمی‌توان به‌طور خودکار بازیابی کرد.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>بدون بازیابی</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>پس از شکست، نصب را همان‌گونه که شکست به جا گذاشته رها کن.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>نگه داشتن تغییرات کامیت‌نشده</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>اجرا حتی اگر تنظیمات، افزونه‌ها یا طراحی‌ها تغییرات کامیت‌نشده داشته باشند؛ این تغییرات در تصویر لحظه‌ای قرار می‌گیرند.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>بدون کامیت</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>فایل وضعیت و گزارش اجرا کامیت نشوند (بدون برچسب و بدون پوش).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>بدون پوش</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>کامیت و برچسب‌گذاری، اما بدون پوش.</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>بدون برچسب</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>کامیت و پوش، اما بدون برچسب‌گذاری اجرا.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>بله، این مهاجرت‌ها اکنون اجرا شوند</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>هیچ مهاجرتی در انتظار نیست.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>بازگشت به وضعیت</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>تغییرات این نصب که یک بار به‌صورت فایل نوشته می‌شوند (محتوا، کلاس‌ها، نقش‌ها، تنظیمات، طرح‌واره) و به همان ترتیب بر هر نصب سایت اعمال می‌شوند. یک اجرا ابتدا تصویر لحظه‌ای می‌گیرد، اگر مهاجرتی ناموفق شود آن را بازیابی می‌کند، و کاری را که انجام داده ثبت، کامیت و پوش می‌کند.</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>اجرای %count مهاجرت در انتظار</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>نمای کلی</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>در انتظار</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>انجام‌شده</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>ناموفق</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>لازم نیست</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>پایگاه داده</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>تراکنش‌ها: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>مهاجرت‌های سایت در migrations/ و مهاجرت‌های یک افزونه در extension/&lt;name&gt;/migrations/ قرار دارند. آن‌ها به ترتیب نام‌ها و وابستگی‌هایشان اجرا می‌شوند.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>آخرین اجرا</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>فایل پس از اعمال تغییر کرده است.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>هنوز هیچ مهاجرتی نیست. ./console exp:migration:generate --skeleton &lt;name&gt; --apply نخستین را می‌نویسد.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>آخرین اجراها</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>همه اجراها</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>هنوز هیچ اجرایی نیست.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>شبیه‌سازی یک اجرا به سیاست migration/run نیاز دارد.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>یک اجرا در جریان است: پس از پایان آن شبیه‌سازی کنید.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>راه‌اندازی</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target نه اجرا، نه مهاجرت و نه تصویر لحظه‌ای این نصب است.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>ابتدا «بله، بازگردانده شود» را تیک بزنید.</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>بازیابی تصویر لحظه‌ای قدیمی‌تر برای کارشناسان است: «می‌دانم این چه چیزی را بازیابی می‌کند» را تیک بزنید.</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>شناسه تصویر لحظه‌ای را دوباره وارد کنید: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>دست‌کم یک بخش را برای بازیابی انتخاب کنید.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>پیش از این اجرا تصویر لحظه‌ای گرفته نشده است: مهاجرت‌های آن را یکی‌یکی بازگردانید یا یک تصویر لحظه‌ای قدیمی‌تر را بازیابی کنید.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>این مهاجرت نمی‌تواند خود را بازگرداند: اعمال نشده است یا down() ندارد.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>فرم خوانده نشد.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>اجرایی را که باید از سر گرفته شود انتخاب کنید.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>ابتدا «بله، این مهاجرت‌ها اکنون اجرا شوند» را تیک بزنید.</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>دست‌کم یک مهاجرت انتخاب کنید.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>یک مهاجرت پس از اعمال تغییر کرده است: تغییر را با ذکر دلیل بپذیرید یا فایل را به حالت قبل برگردانید.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>دلیل پذیرفتن مهاجرت‌های تغییریافته را بنویسید.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>دلیل حداکثر ۵۰۰ نویسه است.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>اجرایی که اینجا آغاز شده هنوز در جریان است (%detail). صبر کنید تا پایان یابد.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>اجرای دیگری قفل نصب را در اختیار دارد: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>اجرا به کاربر واردشده‌ای نیاز دارد که وجود داشته باشد.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>هیچ برنامه خط فرمان php یافت نشد. مسیر کامل آن را در migration.ini [AdminSettings] PhpCliPath تنظیم کنید.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open غیرفعال است، بنابراین اینجا نمی‌توان اجرایی را آغاز کرد. ./console exp:migration:migrate --apply را روی سرور اجرا کنید.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>پوشه اجراها قابل نوشتن نیست: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>اجرا آغاز شد اما شناسه فرایند خود را گزارش نکرد. %detail را بررسی کنید.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>مشخص کنید چه چیزی باید بازگردانده شود.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>اجرا آغاز نشد.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>ضبط تغییرات</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>تا وقتی ضبط در جریان است، آنچه در مدیریت یا نوار کناری سایت تغییر می‌دهید به‌صورت گام‌های یک مهاجرت نگه داشته می‌شود: محتوا، کلاس‌ها، نقش‌ها و سیاست‌ها، بخش‌ها، کاربران و گروه‌ها، نام‌های مستعار URL، تنظیمات. وقتی کارتان تمام شد آن را متوقف کنید، ببینید چه چیزی ثبت کرده و از آن یک مهاجرت بسازید.</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>ضبط‌ها خوانده نشد: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>جدول‌های ضبط هنوز وجود ندارند: ابتدا ارتقا را اجرا کنید (exp:upgrade --apply).</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>ضبط در migration.ini خاموش است ([RecordingSettings] Recording=disabled).</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>تغییرات من</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>فقط آنچه شما تغییر می‌دهید، هر جا که تغییر دهید، ضبط می‌کند تا وقتی متوقفش کنید.</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>ضبط</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>از %time، تاکنون %count تغییر.</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>برچسب (اختیاری)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>نمایش آنچه ثبت کرده</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>توقف ضبط</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>شروع ضبط تغییرات من</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>پنجره برای کل سایت</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>هر تغییر هر کاربر و کنسول را تا بسته شدن ضبط می‌کند. هنگام باز کردن از شما خواسته می‌شود هویت خود را تأیید کنید.</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>باز</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>بستن پنجره</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>باز کردن پنجره برای کل سایت</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>ضبط‌ها</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>حساب یک کاربر (نام ورود، ایمیل، گذرواژه) و فیلدهای حساب‌های کاربری هرگز ضبط نمی‌شوند.</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>تغییرات</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>کل سایت</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>تغییرات %name</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>متوقف‌شده</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>هنوز ضبطی نیست.</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>ضبط %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>همه ضبط‌ها</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>مهاجرتی که از آن ساخته می‌شود</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>تغییرات به یک گام برای هر چیز تغییرکرده تجمیع شده‌اند: آنچه مهاجرتِ ساخته‌شده از این ضبط انجام می‌دهد.</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>وقتی این نصب انواع گام YAML %types را داشته باشد، می‌توان از آن مهاجرت ساخت.</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>عمداً کنار گذاشته شد: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>چیزی ضبط نشد.</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>آنچه ثبت کرده</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>%count تغییر، به ترتیبی که انجام شدند.</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>تغییر</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>گام</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>مربوط به</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>%count مورد دیگر: ./console exp:migration:record:show همه را فهرست می‌کند.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>دور انداختن</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>ضبط و آنچه ثبت کرده را حذف می‌کند. آنچه تغییر کرده تغییریافته می‌ماند.</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>بله، این ضبط را دور بینداز</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>در حال ضبط…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>تغییرات شما برای یک مهاجرت ضبط می‌شوند.</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>هر تغییر در این سایت برای یک مهاجرت ضبط می‌شود (پنجره برای کل سایت).</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>ضبط کل سایت آغاز شد: هر تغییر هر کاربر تا وقتی متوقفش کنید ضبط می‌شود.</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>ضبط آغاز شد: تغییرات شما تا وقتی متوقفش کنید ضبط می‌شوند.</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>ضبط متوقف شد. آنچه ثبت کرده تا وقتی دورش بیندازید باقی می‌ماند.</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>ضبط و رویدادهایش حذف شدند.</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>ضبط %id وجود ندارد.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>ابتدا «بله، این ضبط را دور بینداز» را علامت بزنید.</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>فقط کاربری که ضبط کرده می‌تواند ضبط نشست را متوقف کند.</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>ضبطی را که باید متوقف شود انتخاب کنید.</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>ضبطی از این نوع هم‌اکنون در جریان است.</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>ضبط تغییر داده نشد: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>ایجاد مهاجرت</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>نام مهاجرت (اختیاری)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>مهاجرت %file نوشته شد. تغییراتی که هیچ گامی نمی‌تواند انجام دهد در بالای فایل نام برده شده‌اند تا دستی انجام شوند.</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>هیچ مهاجرتی نوشته نشد: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>اجرای طولانی در چند بخش</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>فیلدهای خالی تنظیمات migration.ini [RunSettings] را حفظ می‌کنند.</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>حداکثر این تعداد مهاجرت</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>پس از این هیچ مهاجرت دیگری نیست (ثانیه)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>مکث بین مهاجرت‌ها (ثانیه)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>اولویت پایین‌تر (1 تا 19)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>فیلد اجرای طولانی یک عدد صحیح از 1 است (مکث: ثانیه از 0 تا 60، اولویت: 1 تا 19) یا خالی.</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>در ساعت %time خودش بسته می‌شود.</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>پس از این مدت خودش بسته شود (دقیقه، اختیاری)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>دقیقه‌ها یک عدد صحیح از 1 تا 44640 (31 روز) است یا خالی.</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>مهاجرت %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>مهاجرت جدید</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>یک مهاجرت YAML: آن را به صورت متن بنویسید یا گام‌هایش را در فرم بسازید، بررسی کنید و سپس در یک پوشه مهاجرت‌ها ذخیره کنید.</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>این مهاجرت پیش‌تر اجرا شده است، پس دوباره ذخیره نمی‌شود: محافظ چک‌سام فایل تغییریافته را رد می‌کند. تغییر را در یک مهاجرت جدید انجام دهید.</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>سرور وب نمی‌تواند این فایل را بنویسد.</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>خطوط توضیح در بالا سرآیند هستند (description, author, requires, environments, engines). وقتی گامی در فرم افزوده یا تغییر داده شود، مهاجرت دوباره نوشته می‌شود: توضیحات میان گام‌ها نگه داشته نمی‌شوند.</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>نام مهاجرت</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>محل قرارگیری</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>سایت</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>متن YAML</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>بررسی</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>ذخیره</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>گام‌ها</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>کلیدها</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>ویرایش</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>انتقال به بالا</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>انتقال به پایین</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>برداشتن</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>هنوز هیچ گامی نیست: یکی را با فرم اضافه کنید یا آن‌ها را در متن بنویسید.</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>تغییر گام %number</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>افزودن یک گام</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>فرم یک گام از نوع گام آن ساخته می‌شود: کلیدهایش، آنچه هر کلید می‌پذیرد و حالت‌هایی که به آن‌ها تعلق دارد.</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>نوع گام</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>نمایش فرم آن</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>این گام کلیدهایی دارد که نوعش آن‌ها را نمی‌شناسد؛ هنگام تغییر گام کنار گذاشته می‌شوند: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>حالت</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>در</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>فقط در %modes</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>پیش‌فرض: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>شرط‌ها، ارجاع‌ها و توضیح</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>جفت‌های نام=مقدار، جداشده با ویرگول. مقدارهای این گام: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>نمونه</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>تغییر گام</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>افزودن گام</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>آنچه exp:migration:check می‌گوید: سرآیند، سند و هر گام که با نوع گام خود بررسی شده است.</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>مهاجرت از بررسی گذشت.</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>پیش‌نمایش</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>YAML به همان شکلی که ذخیره خواهد شد.</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>نمایش YAML</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>مهاجرت‌های YAML</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>اجرا شده</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>هنوز هیچ مهاجرت YAML نیست.</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>ویراستاری</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>هیچ مهاجرت YAML با شناسه %id در پوشه‌های مهاجرت نیست.</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>یک نوع گام انتخاب کنید.</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>گام افزوده شد. پیش از ذخیره، مهاجرت را بررسی کنید.</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>گام تغییر کرد. پیش از ذخیره، مهاجرت را بررسی کنید.</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>یک گام انتخاب کنید.</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>این گام فرم ندارد (یک حلقه، یا نوع گامی که این نصب ندارد): آن را در متن تغییر دهید.</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>انتخاب کنید مهاجرت کجا قرار گیرد: سایت یا یک افزونه فعال.</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>%file ذخیره شد. پیش از اجرای مهاجرت، یک اجرای آزمایشی انجام دهید.</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>ذخیره نشد: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>سرورهای راه دور</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>نصب‌های دیگری که این نصب مهاجرت‌هایش را به آن‌ها مستقر می‌کند: استقرار، مهاجرت‌ها را به سرورهای راه دور انتخاب‌شده می‌فرستد و آن‌ها را در آنجا اجرا می‌کند، همه با هم و همگام. سرور راه دور هرگز مقدار محرمانه‌ای نگه نمی‌دارد: اعتبارنامهٔ آن به یکی در راه‌اندازی &gt; مقادیر محرمانه اشاره می‌کند.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>سرور راه دور جدید</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>راهنما</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>آزمایش اتصال %id</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>سرورهای راه دور</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>حداکثر %parallel سرور راه دور هم‌زمان پردازش می‌شوند؛ هر فاز می‌تواند روی هر کدام %timeout ثانیه طول بکشد.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>سرور راه دور</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>نشانی</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>اعتبارنامه</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>گروه‌ها</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>تنظیماتی که باید اصلاح شوند</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>فقط فایل‌ها (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>کلید SSH</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>گذرواژه</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>هیچ‌کدام (عامل SSH و کلیدهای میزبان)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>آزمایش اتصال</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>استقرار به یک گروه به همهٔ سرورهای راه دور آن می‌رسد.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>استقرار به سرورهای راه دور</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>هنوز هیچ سرور راه دوری تنظیم نشده است.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>سرور راه دور %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>اینجا چیزی فرستاده یا اجرا نمی‌شود: ذخیره، تنظیمات را در settings/override/migration.ini.append.php می‌نویسد. اعتبارنامه فقط یک نام است؛ مقدار آن در راه‌اندازی &gt; مقادیر محرمانه یا در محیط می‌ماند.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>این تنظیمات را بررسی کنید</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>تنظیمات همان‌طور که وارد شده‌اند، هنوز ذخیره نشده.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>بازبینی</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>تنظیمات معتبرند. این خط‌ها نوشته خواهند شد:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>روش ارسال (Transport)</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>فقط یک نام؛ مقدار در راه‌اندازی &gt; مقادیر محرمانه می‌ماند</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>خط‌هایی که نوشته خواهند شد</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>اتصال</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>کلید میزبان</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. سرور راه دور</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>نام سرور راه دور و اینکه کدام محیط است.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>شناسه</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>حروف، ارقام، - و _، برای نمونه production1. این نام، سرور راه دور را در گزارش‌ها و در خط فرمان (--remotes=production1) مشخص می‌کند و بعداً قابل تغییر نیست.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha، dev، stage، beta، production ... استقرار مرحله‌ای محیط‌ها را به همین ترتیب طی می‌کند.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>اختیاری، جداشده با ویرگول، برای نمونه production. استقرار به یک گروه به همهٔ سرورهای راه دور آن می‌رسد.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. اتصال</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>فایل‌ها چگونه به آنجا می‌رسند و نصب کجاست.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>از طریق SSH، فقط آنچه تغییر کرده، و انتقال قطع‌شده از سر گرفته می‌شود. بهترین انتخاب در جایی که rsync نصب است.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>SSH با scp برای فایل‌ها.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>SSH با sftp برای فایل‌ها.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>فقط فایل‌ها: مهاجرت‌ها فرستاده و دوباره خوانده می‌شوند، اما در آنجا قابل اجرا نیستند.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>FTP روی TLS؛ فقط فایل‌ها.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>نصبی دیگر روی همین سرور، در یک پوشه.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>میزبان</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>نام میزبان یا نشانی، برای نمونه node1.example.com. نه برای local.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>درگاه (port)</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>خالی: 22 برای SSH، 21 برای FTP.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>کاربر</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>مسیر</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>ریشهٔ نصب در آنجا، برای نمونه /var/www/site (برای FTP: مسیری که حساب FTP می‌بیند).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>خط فرمان PHP</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>رابط خط فرمان PHP در آنجا: php، یا یک مسیر کامل مانند /opt/plesk/php/8.4/bin/php.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>اسکریپت‌های خط فرمان در آنجا با root اجرا می‌شوند</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>فقط وقتی کاربر سرور راه دور root باشد (در آن صورت با --allow-root-user اجرا می‌شوند).</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. اعتبارنامه</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>این نصب چگونه در آنجا وارد می‌شود. فقط یک نام ذخیره می‌شود.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>هیچ‌کدام</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>عامل SSH و کلیدهای کاربری که این نصب با آن اجرا می‌شود (و همیشه برای local).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>کلید خصوصی‌ای که به‌صورت مقدار محرمانه نگهداری می‌شود.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>گذرواژه‌ای که به‌صورت مقدار محرمانه نگهداری می‌شود (FTP با آن وارد می‌شود).</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>نام مقدار محرمانه</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>یک مقدار محرمانه از راه‌اندازی &gt; مقادیر محرمانه، برای نمونه deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>راه‌اندازی &gt; مقادیر محرمانه</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>یا یک متغیر محیطی</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>متغیر فرایند سرور که آن را نگه می‌دارد، برای نمونه DEPLOY_KEY (ذخیره‌شده به‌صورت env:DEPLOY_KEY). این متغیر جای نام مقدار محرمانه را می‌گیرد.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. کلید میزبان</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>اختیاری، برای SSH، sftp و rsync.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>اثر انگشت کلید میزبان</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... همان‌طور که ssh-keygen -l آن را چاپ می‌کند. با آن، میزبان باید همین کلید را نشان دهد؛ بدون آن، کلید در نخستین تماس آموخته می‌شود.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. بازبینی</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>اتصال را با تنظیمات بالا آزمایش کنید، سپس سطرهایی را که نوشته خواهند شد بازبینی کنید.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>حذف این سرور راه دور</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>تنظیمات آن از settings/override/migration.ini.append.php حذف می‌شود. روی سرور راه دور چیزی تغییر نمی‌کند و استقرارهای آن در تاریخچه می‌مانند.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>بله، این سرور راه دور را حذف کن</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>استقرارها</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>استقرار، مهاجرت‌های این نصب را به سرورهای راه دور انتخاب‌شده می‌فرستد و آن‌ها را در آنجا با کاربر %user اجرا می‌کند، همه با هم و همگام: ابتدا هر سرور راه دور بررسی می‌شود و اگر یکی ناموفق باشد، هر سرور راه دوری که اعمال کرده بازگردانده می‌شود. استقرار در پس‌زمینه انجام می‌شود و صفحهٔ آن هر سرور راه دور را در حین کار نشان می‌دهد.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. سرورهای راه دور</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>سرورهای راه دور، یک گروه یا هر دو را علامت بزنید.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>استقرار به آن</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. روش</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>استقرار</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>فرستادن و اجرا</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>مهاجرت‌ها به هر سرور راه دور فرستاده، تأیید و با یک شناسهٔ اجرای مشترک اجرا می‌شوند.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>فقط انتقال</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>فایل‌ها فرستاده و تأیید می‌شوند و چیزی اجرا نمی‌شود (تنها راه برای سرور راه دور FTP).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>مرحله‌ای</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>مرحله به مرحله به ترتیب محیط‌ها (dev، stage، beta، production ...): مرحلهٔ نخست مستقر می‌شود، سپس یک دروازه منتظر می‌ماند تا کسی مرحلهٔ بعدی را تأیید کند. در هر مرحله، همه یا هیچ.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>فقط این مهاجرت‌ها</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>اختیاری: شناسه‌های مهاجرت، جداشده با ویرگول. خالی: همهٔ مهاجرت‌های سایت و افزونه‌های آن.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>فقط پیش‌بررسی</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>بله، اکنون مستقر کن</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>استقرارهایی که چیزی فرستاده یا اجرا کرده‌اند، جدیدترین در ابتدا (پیش‌بررسی گزارشی نگه نمی‌دارد).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>فقط انتقال</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>مرحله‌ای، %stages مرحله</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>ناهمگام</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>هنوز استقراری نیست.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>استقرار %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>هر سرور راه دور این استقرار با وضعیت آن. استقراری که از اینجا آغاز شده با بستن این صفحه در پس‌زمینه ادامه می‌یابد؛ برای پیگیری آن، صفحه را دوباره باز کنید.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>همهٔ استقرارها</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>پیش‌بررسی</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>مرحلهٔ بعدی</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>در حال بررسی تنظیمات و اعتبارنامه‌ها</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>پیش‌بررسی: در حال خواندن وضعیت هر سرور راه دور</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>در حال فرستادن فایل‌های مهاجرت</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>در حال تأیید آنچه رسید</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>در حال اجرای مهاجرت‌ها روی هر سرور راه دور</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>در حال بازگرداندن سرورهای راه دور</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>استقرار به پایان رسید. در حال بارگذاری گزارش آن.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>پیشرفت قابل پیگیری نبود. صفحه را دوباره بارگذاری کنید تا وضعیت استقرار را ببینید.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>فاز</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>این صفحه استقرار را در حین انجام پیگیری می‌کند.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>همگام</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>مراحل</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>مرحلهٔ %stage پشت دروازهٔ خود منتظر است</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>دروازهٔ %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>تأییدشده توسط %user در %time</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>مرحله</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>فایل‌های فرستاده‌شده</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>نسخهٔ هسته</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>اعمال‌شده: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>برای اعمال: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>فازها</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>دروازه: مرحلهٔ %stage از %stages</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>مراحل پیش از آن مستقر شده‌اند. آن‌ها را بررسی کنید، سپس مرحلهٔ بعدی را تأیید کنید: سرورهای راه دور آن دوباره بررسی و مستقر می‌شوند، همه یا هیچ.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>بعدی</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>بله، مرحلهٔ بعدی را اکنون مستقر کن</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>تأیید</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>بازگرداندن این استقرار</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>هر سرور راه دوری که آن را اعمال کرده (%list) به تصویر لحظه‌ای گرفته‌شده پیش از اجرایش بازمی‌گردد، همه با هم.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>بله، این استقرار را اکنون بازگردان</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>برنامه‌ریزی‌شده</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>منتقل‌شده</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>مستقرشده</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>پشت یک دروازه منتظر است</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>انتخاب‌شده</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>آماده‌شده</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>آماده</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>منتظر مرحلهٔ خود است</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>فایل‌ها فرستاده شد</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>تأییدشده</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>ناموفق، خود را بازیابی کرد</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>بدون تغییر</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>مستقر نشده</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>در دسترس نیست</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>سرور راه دور پاسخ داد.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>اکنون نمی‌توان از سرور راه دور استفاده کرد.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done انجام‌شده، %pending در انتظار، %failed ناموفق</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>قفل</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>یک اجرا در آنجا قفل را در دست دارد</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>آزاد</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stage از %stages</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>سرور راه دوری را که باید آزمایش شود انتخاب کنید.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>ابتدا «بله، این سرور راه دور را حذف کن» را علامت بزنید.</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>سرور راه دور حذف نشد: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>سرور راه دور ذخیره نشد: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>فایل تنظیمات خوانده نمی‌شود: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>دست‌کم یک سرور راه دور یا گروه انتخاب کنید.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>یکی از سرورهای راه دور انتخاب‌شده دیگر در تنظیمات نیست. صفحه را دوباره بارگذاری کنید.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>ابتدا «بله، اکنون مستقر کن» را علامت بزنید.</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>سرور راه دور FTP نمی‌تواند مهاجرت‌ها را اجرا کند: «فقط انتقال» را انتخاب کنید یا آن را کنار بگذارید.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>مهاجرت‌هایی که باید مستقر شوند شناسه‌های مهاجرت‌اند، جداشده با ویرگول.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>استقرار هنوز در جریان است. صبر کنید تا پایان یابد.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>این استقرار پشت هیچ دروازه‌ای منتظر نیست.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>هیچ سرور راه دوری این استقرار را اعمال نکرده است: چیزی برای بازگرداندن نیست.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>ابتدا «بله، مرحلهٔ بعدی را اکنون مستقر کن» را علامت بزنید.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>ابتدا «بله، این استقرار را اکنون بازگردان» را علامت بزنید.</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>سرور راه دوری با شناسهٔ %id از قبل وجود دارد.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>درگاه عددی از 1 تا 65535 است.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>محیط کلمه‌ای از حروف، ارقام، - و _ است (alpha، dev، stage، beta، production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>گروه کلمه‌ای از حروف، ارقام، - و _ است (نه all): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>اعتبارنامه اکنون قابل خواندن نیست: %problem. پیش از نخستین استقرار، آن را در راه‌اندازی &gt; مقادیر محرمانه ذخیره کنید (یا متغیر را تنظیم کنید).</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>سرور راه دور FTP فقط فایل دریافت می‌کند: استقرار به آن «فقط انتقال» است و مهاجرت‌هایش در آنجا به‌صورت دستی اجرا می‌شوند.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>سرور راه دور %id در settings/override/migration.ini.append.php نیست؛ آن را در جایی که تنظیم شده حذف کنید.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>از طریق FTP وارد شد و index.php را خواند. وضعیت مهاجرت یک سرور راه دور FTP قابل خواندن نیست.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>تاریخ تغییر</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>تاریخ ایجاد</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>نام</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>کلاس</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>بخش</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>ایجادکننده</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>محتوای اخیر</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>تازه‌ترین محتوای ایجادشده و تغییریافته در کل سایت، جدیدترین در ابتدا: آنچه بازدیدکنندگان فرستاده‌اند، آنچه برای بازبینی نگه داشته شده و پیش‌نویس‌هایی که در انتظار انتشارند. مواردی را انتخاب کنید تا آن‌ها را آزاد، نگه‌داری، پنهان، آشکار یا حذف کنید یا به بخش یا وضعیت دیگری منتقل کنید.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>فهرست خوانده نشد: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>نگه‌داری برای بازبینی هنوز راه‌اندازی نشده است، پس چیزی نگه داشته نمی‌شود و اقدام‌های نگه‌داری ارائه نمی‌شوند. گام ارتقای 6.0.15-review-hold آن را راه‌اندازی می‌کند: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>فیلتر کردن فهرست</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>از</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>تا</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>تاریخ</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>تاریخ ایجاد (نخستین انتشار)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>همه</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>وضعیت</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>منتشرشده</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>پیش‌نویس، هرگز منتشر نشده</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>در انتظار (منتظر تأیید یا یک تاریخ)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>در سطل زباله</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>نگه‌داشته برای بازبینی</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>نگه‌داشته</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>نگه‌داشته نشده</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>پنهان</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>قابل مشاهده</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>فرستاده‌شده در</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>هر دسترسی سایت</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>فقط آنچه ممیزی ثبت کرده است.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>اکنون: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>یک نام کاربری یا شناسه کاربر.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>فیلتر</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>پاک کردن فیلترها</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>موارد</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from تا %to از %count</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>هیچ موردی نیست</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(خوانده‌شده در %ms میلی‌ثانیه)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>اقدام‌ها روی موارد انتخاب‌شده</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>انتخاب همه در این صفحه</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>%count انتخاب‌شده</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>اقدام</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>یک اقدام را انتخاب کنید</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>برداشتن نگه‌داری</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>نگه‌داری برای بازبینی</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>پنهان کردن</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>آشکار کردن</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>انتقال به سطل زباله</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>حذف</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>تخصیص بخش</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>تخصیص وضعیت</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>دلیل</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>برای نگه‌داری لازم است؛ همراه نگه‌داری و در ممیزی نگه داشته می‌شود.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>یک بخش را انتخاب کنید</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>وضعیت</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>یک وضعیت را انتخاب کنید</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>اعمال روی موارد انتخاب‌شده</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>هر مورد با مجوزهای خود شما بررسی می‌شود. انتقال به سطل زباله و حذف از شما تأیید می‌خواهند. بیش از %count مورد در پس‌زمینه اجرا می‌شود.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>انتخاب</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>انتشار</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>فرستاده‌شده از</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>انتخاب %name</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>هنوز نه</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(بدون نام)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>شناسه %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>پیش‌نویس</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>در انتظار</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>پنهان‌شده توسط والد</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>نگه‌داشته: ارسال جدید</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>نسخه %version در انتظار</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>نسخه %version در حال ویرایش</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>پیش‌نویس، نسخه %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>نسخه %version منتشر شد</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>زمان‌بندی‌شده برای %date</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>بدون نشانی</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>ثبت نشده</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>هیچ چیز با این فیلترها مطابقت ندارد.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>نمایش همه</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>هنوز هیچ محتوایی وجود ندارد.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>در هر صفحه</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>نمایش %count مورد در هر صفحه.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says &quot;not recorded&quot;.</source>
+        <translation>نشانی و مرورگرِ یک ارسال از نمایه ممیزی می‌آیند که اینجا در دسترس نیست: ستون «ثبت نشده» را نشان می‌دهد.</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>نشانی و مرورگر همان‌هایی هستند که ممیزی برای این مورد ثبت کرده است (نگه‌داری خودکار همیشه آن‌ها را ثبت می‌کند؛ انتشار و ایجاد فقط در جایی که فعال شده باشد)، به همان شکلی که تنظیمات حریم خصوصی آن‌ها را نگه می‌دارد.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: %count مورد</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>حذف، موارد را برای همیشه همراه با همه نسخه‌ها و ترجمه‌هایشان پاک می‌کند. این کار قابل بازگشت نیست.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>موارد به سطل زباله می‌روند و از آنجا می‌توان آن‌ها را بازگرداند.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>هر مورد با مجوزهای خود شما بررسی می‌شود؛ موردی که زیرمورد دارد همان‌طور که هست باقی می‌ماند (آن را در ساختار محتوا حذف کنید). از شما خواسته می‌شود تأیید کنید که خودتان هستید.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>این کار در پس‌زمینه اجرا می‌شود: صفحه پیشرفت آن باز می‌شود و نتیجه هر مورد پس از پایان نمایش داده می‌شود.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>موارد انتخاب‌شده</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>و %count مورد دیگر</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>لغو</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>هیچ کاری انجام نشد</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>دلیل: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>اقدام هنوز در پس‌زمینه در حال اجراست.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>پیشرفت آن</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>اقدام پس‌زمینه ناموفق بود: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>انجام شد</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>رد شد</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>ناموفق</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>برای هر مورد</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>مورد</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>نتیجه</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>چرا</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>بازگشت به فهرست</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>راه‌اندازی</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>کاری انجام نشد</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>تأیید</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>یک اقدام را انتخاب کنید.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>دست‌کم یک مورد را انتخاب کنید.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>هر بار حداکثر 1000 مورد را انتخاب کنید.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>بنویسید چرا موارد نگه داشته می‌شوند.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>بخش را انتخاب کنید.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>وضعیت را انتخاب کنید.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>فرم خوانده نشد.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>پیشخوان</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>محتوای اخیر</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>شمارش‌ها خوانده نشد: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>نگه‌داشته برای بازبینی</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>جدید امروز</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>نگه‌داری برای بازبینی هنوز راه‌اندازی نشده است (گام ارتقای 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>همه محتوای اخیر</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>شما اجازه اجرای اقدام‌های نظارتی را ندارید (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>اقدام نظارتی کامل نیست: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>نظارت: %action روی %count شیء</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%done از %total شیء: %ok انجام شد، %refused رد شد، %failed ناموفق</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok انجام شد، %refused رد شد، %failed ناموفق</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>دیگر وجود ندارد.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>مکانی ندارد (منتشر نشده).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>شما اجازه پنهان کردن آن را ندارید (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>شما اجازه آشکار کردن آن را ندارید (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>از قبل پنهان است.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>پنهان نیست.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>پنهان شد.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>آشکار شد.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>در سطل زباله است: آن را همان‌جا خالی یا بازیابی کنید.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>پیش‌نویسی که هرگز منتشر نشده نمی‌تواند به سطل زباله برود: آن را حذف کنید.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>شما اجازه حذف آن را ندارید (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>حذف شد.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>شما اجازه برداشتن آن را ندارید (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>زیرمورد دارد: آن را در ساختار محتوا، جایی که زیرموردها فهرست شده‌اند، بردارید.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>برداشته نشد (ممکن است یک گردش کار برداشتن را نگه داشته باشد).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>به سطل زباله منتقل شد.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>بخش وجود ندارد.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>از قبل در این بخش است.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>شما اجازه تخصیص این بخش را ندارید (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>بخش تخصیص داده نشد.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>بخش تخصیص داده شد.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>وضعیت وجود ندارد.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>از قبل در این وضعیت است.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>شما اجازه تخصیص این وضعیت را ندارید (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>وضعیت تخصیص داده نشد (ممکن است یک گردش کار تغییر را نگه داشته باشد).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>وضعیت تخصیص داده شد.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>چنین اقدامی وجود ندارد.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>نگه‌داری برای بازبینی راه‌اندازی نشده است (گام ارتقای 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>بنویسید چرا نگه داشته می‌شود.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>از قبل نگه داشته شده است.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>شما اجازه نگه‌داشتن آن را ندارید (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>نگه‌داری اعمال نشد (ممکن است یک گردش کار تغییر را نگه داشته باشد).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>نگه داشته شد.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>نگه داشته نشده است.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>شما اجازه آزاد کردن آن را ندارید (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>نگه‌داری برداشته نشد (ممکن است یک گردش کار تغییر را نگه داشته باشد).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>آزاد شد؛ هنوز پنهان است: شما اجازه آشکار کردن آن را ندارید (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>آزاد شد.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>همهٔ مقصدها</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>آخرین انتشار</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>یک نسخهٔ ایستای رایگان از سایت خود را در GitHub Pages منتشر کنید:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>صفحه‌های کهنه</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>انتشار ایستا</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>انتشار ایستا خاموش است.</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>مقصد</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>مقصدها خوانده نشدند: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>یک کار در حال اجراست</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>ساخت در انتظار بررسی</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>پنهان کردن این</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>ایجاد مقصد</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>هرگز</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>خواندن آموزش</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>%added افزوده، %changed تغییریافته، %removed حذف‌شده</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%bytes از %limit (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>%count مورد دیگر فهرست نشده‌اند.</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>%pages صفحه نوشته شد</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>حجم %path برابر %size است، بیش از آنچه میزبان برای یک فایل اجازه می‌دهد.</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>%percent % از سقف</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds ثانیه</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag انتشاری است که اکنون روی سایت است.</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: کار %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>/مخزن/ برای سایت پروژهٔ GitHub؛ خالی برای دامنهٔ اختصاصی یا سایت کاربری.</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>۱. سایت</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>۲. میزبان</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>۳. ورود به مخزن</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>۴. مخزن</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>۵. پیوندها و مسیر پایه</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>۶. دامنهٔ اختصاصی شما</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>۷. محتوای ساخت</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>۸. زمان انتشار</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>۹. بازبینی و ذخیره</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>سایت پروژهٔ GitHub زیر /&lt;repository&gt;/ قرار دارد؛ پیوندهای نسبی آنجا و هر جای دیگر کار می‌کنند.</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>یک ساخت هر صفحهٔ %site را همان‌گونه که بازدیدکنندهٔ واردنشده می‌بیند دریافت می‌کند، پیوندها را بازنویسی می‌کند، فایل‌ها را کپی می‌کند و نتیجه را در پوشهٔ مقصد می‌نویسد. تا وقتی ساخت را بررسی نکنید و «انتشار» را نزنید، چیزی منتشر نمی‌شود.</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>یک عبارت cron، برای نمونه 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>کلید استقرار به‌صورت مقدار محرمانهٔ %secret نگه داشته می‌شود.</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>کلید استقرار به این نصب اجازه می‌دهد فقط به یک مخزن و از طریق SSH پوش کند و نه جای دیگر. نیمهٔ خصوصی آن در راه‌اندازی &gt; مقادیر محرمانه می‌ماند؛ فقط نیمهٔ عمومی نمایش داده می‌شود.</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>کلید استقراری که برای این مقصد ساخته شده</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>کلید استقرار از طریق SSH وارد می‌شود: نشانی git را به نشانی SSH تغییر دهید (git@github.com:owner/repo.git).</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>یک کار در حال اجراست، آغازشده توسط %user</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>یک کار این مقصد هنوز در حال اجراست (%detail). تا پایان آن صبر کنید.</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>یک کار این مقصد هنوز در حال اجراست. تا پایان آن صبر کنید.</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>پیوندی از صفحهٔ /news/ به صفحهٔ /about-us/team این‌گونه نوشته می‌شود</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>یک کلید استقرار تازه ساخته شد. اکنون نیمهٔ عمومی آن را به مخزن بیفزایید.</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>صفحه‌ای که پس از پاک‌سازی هنوز خروجی اشکال‌زدایی، توکن فرم یا شناسهٔ نشست دارد، هرگز منتشر نمی‌شود.</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>بازگردانی برای کاربران متخصص است: گزینهٔ «می‌دانم این چه چیزی را تغییر می‌دهد» را علامت بزنید و نام برچسب را دوباره وارد کنید.</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>یک سایت می‌تواند تا %site و یک فایل تا %file باشد، با حدود ۱۰۰ گیگابایت ترافیک در ماه. در طرح رایگان مخزن باید عمومی باشد. GitHub Pages برای فروشگاه‌ها یا دیگر تراکنش‌های تجاری در نظر گرفته نشده است.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>یک مقصد یعنی یک سایت که در یک مخزن git منتشر می‌شود. اینجا چیزی ساخته یا منتشر نمی‌شود: «ذخیره» تنظیمات را در settings/override/staticcache.ini.append.php می‌نویسد.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>یک مقصد یعنی یک سایت که در یک جا منتشر می‌شود، برای نمونه سایت عمومی شما در GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>توکنی از راه‌اندازی &gt; مقادیر محرمانه</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>یک گردش‌کار مخزن آن را منتشر می‌کند.</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>این کلید عمومی را با دسترسی نوشتن به مخزن بیفزایید. GitHub: Settings &gt; Deploy keys &gt; Add deploy key، و Allow write access را علامت بزنید.</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>افزوده</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>میزبان git دیگر</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>فرایند دیگری روی این مقصد کار می‌کند: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>بازگشت</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>مسیر پایه</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>پیش از</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>زیر یک مسیر پایه</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>شاخه</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>پیوندهای شکسته</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>پیوندهای شکسته در ساخت</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>ساخت</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>ساخت %id توسط %user</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>ساخت %name</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>اکنون بساز</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>ساخت در انتظار بررسی</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>توسط</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>دستی، همین‌جا</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>لغو</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>تغییر</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>تغییریافته</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>تغییرات</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>اول آن را بررسی کنید</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>این تنظیمات را بررسی کنید</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>بررسی کنید ساخت چه چیزی را تغییر می‌دهد، آن را ببینید، سپس منتشرش کنید یا کنارش بگذارید.</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>انتشاری را که می‌خواهید به آن برگردید انتخاب کنید.</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>در نسخه‌ای بعدی می‌آید.</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>کامیت</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>کامیت‌ها</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>ساخت را کامیت می‌کند، برچسب می‌زند و به %remote پوش می‌کند. پوش هرگز اجباری نیست؛ بعداً می‌توانید به هر انتشاری برگردید.</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>در مقایسه با پوشهٔ قبلی: %added افزوده، %changed تغییریافته، %removed حذف‌شده، %unchanged بدون تغییر.</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>در مقایسه با آخرین انتشار.</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>اعتبارنامه</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>دامنهٔ اختصاصی</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>خروجی اشکال‌زدایی، توکن‌های فرم، شناسه‌های نشست و nonceها همیشه حذف می‌شوند.</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>کلید استقرار</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>کلید استقرار %name</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>کنار گذاشتن</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>کنار گذاشتن ساخت</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>دامنه</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>خالی: نشانی سایت. در غیر این صورت نشانی داخلی همان سایت.</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>پایان</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>هر پیوند با مسیر پایه آغاز می‌شود.</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>هر انتشار یک کامیت با برچسب static/%id/&lt;n&gt; است. بازگشت یک کامیت تازه با فایل‌های یک انتشار پیشین می‌سازد: تاریخچه می‌ماند، هیچ برچسبی جابه‌جا نمی‌شود و هیچ چیز اجباری نیست.</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>فایل‌های اضافی</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>دریافت صفحه‌ها از</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>فایل</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>فایل‌ها</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>فایل‌های گم‌شده</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>فایل‌های</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>فایل‌هایی که گردآوری نشدند</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>اثر انگشت</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>پوشه</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>برای نشانی SSH. کلید پس از ذخیره ساخته می‌شود؛ نیمهٔ عمومی آن را به مخزن می‌افزایید.</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>برای نشانی https://. در GitHub: یک توکن دقیق (fine-grained) با دسترسی خواندن و نوشتن Contents روی مخزن.</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>برای کاربران متخصص. سایت عمومی به محض پایان پوش تغییر می‌کند.</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>فرم‌ها</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>میزبانی رایگان از یک مخزن GitHub.</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>از شاخه</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>نشانی git</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages سایتی تا %site و فایلی تا %file را می‌پذیرد.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>محدودیت‌های GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages فایل‌ها را همان‌گونه که هستند منتشر می‌کند (برای فایل‌هایی که با _ آغاز می‌شوند لازم است).</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub شاخه را همان‌گونه که پوش شده ارائه می‌کند. پیش‌فرض.</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab، Gitea، سرور خودتان: هر مخزن git.</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>بازگشت به یک انتشار پیشین</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>راهنما</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>راهنمای ویزارد</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>پنهان کردن آن‌ها</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>تاریخچه</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>تاریخچهٔ %name</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>میزبان</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>GitHub Pages ساخت را چگونه دریافت می‌کند</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>تغییرات را بررسی کرده‌ام</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>می‌دانم این چه چیزی را تغییر می‌دهد</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>شناسه</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>خاموش است: تا روشن نشود چیزی ساخته نمی‌شود.</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>در پس‌زمینه با کاربر %user اجرا می‌شود؛ می‌توانید این صفحه را ببندید.</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>کار %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>به‌صورت مقدار محرمانهٔ %secret نگه داشته می‌شود.</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>نوع</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>آخرین انتشار</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>کنار گذاشتن این صفحه‌ها</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>کنار گذاشتن این بخش‌ها</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>پیوندها</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>پیوندهای بازنویسی‌شده</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>سایت زنده</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>دیدن ساخت</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>حروف کوچک، ارقام، _ و -، برای نمونه github-public. نام پوشه و برچسب‌ها (static/&lt;id&gt;/&lt;n&gt;) از آن گرفته می‌شود و بعداً قابل تغییر نیست.</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>ساخت کلید تازه</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>ایجاد مقصد</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>ساخت کلید</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>اول مخزن را روی میزبان بسازید؛ مخزن خالی هم کافی است.</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>فهرست فایل‌ها</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>پیام</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>بیشتر صفحه‌ها</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>نام</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>نام توکن در راه‌اندازی &gt; مقادیر محرمانه</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>مقصد تازه</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>بعدی</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>خیر</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>هنوز کامیتی نیست.</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>کلیدی ساخته نشد: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>هیچ فایل اجرایی خط فرمان php پیدا نشد. مسیر کامل آن را در migration.ini [AdminSettings] PhpCliPath تنظیم کنید.</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>هنوز برچسبی نیست.</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>هنوز مقصدی نیست.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>هیچ</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>در ساخت نیست.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>هنوز چیزی منتشر نشده است.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>هنوز چیزی منتشر نشده است: همهٔ فایل‌ها تازه‌اند.</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>اطلاع‌رسانی</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>طبق زمان‌بندی</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>در خط فرمان</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>روی سرور: ./console exp:static:serve %id آن را به همین شکل ارائه می‌کند.</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>در هر خط یک مسیر؛ * با هر بخشی جور می‌شود: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>فقط یک نام همراه مقصد ذخیره می‌شود؛ خود توکن یا کلید در راه‌اندازی &gt; مقادیر محرمانه می‌ماند و هرگز در گزارشی ظاهر نمی‌شود.</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>فقط آنچه صفحه‌ها نام می‌برند</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>فقط با توکن. env:NAME به‌جای آن یک متغیر محیطی سرور را می‌خواند.</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>باز کردن پیش‌نمایش</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>ساخت را همان‌گونه که میزبان ارائه خواهد کرد، از پوشهٔ مقصد باز می‌کند. پیوند برای شما یک ساعت کار می‌کند.</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>اختیاری. خالی: آنچه منتشر شد.</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>اختیاری. با دامنه، سایت در ریشهٔ آن ارائه می‌شود.</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>خروجی</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>صفحه‌ها</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>صفحه‌های مقصد</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>صفحه‌های ردشده</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>پس‌پردازش</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>پیش‌نمایش</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>پیش‌نمایش و انتشار</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>پیش‌نمایش و انتشار %name</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>پیش‌نمایش ساخت</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>پیشرفت</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>نشانی عمومی</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>کلید عمومی</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>انتشار</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>یک نسخهٔ ایستا از سایت را در GitHub Pages یا هر میزبان git منتشر کنید: آن را بسازید، تغییرات را بررسی کنید، منتشر کنید و هر وقت لازم شد به یک انتشار پیشین برگردید.</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>انتشاری برای بازگشت</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>انتشارها</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>پوش</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>خواندن آموزش</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>گزارش اجرا</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>ردشده</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>نسبی</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>بارگذاری دوباره</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>حذف‌شده</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>جایگزینی کلید: کلید قدیمی دیگر کار نمی‌کند</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>گزارش</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>گزارش ساخت</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>مخزن</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>بازبینی</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>بازبینی همهٔ تنظیمات را بررسی می‌کند و خط‌هایی را که نوشته خواهند شد نشان می‌دهد. هنوز چیزی ذخیره نشده است.</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>بازگرداندن</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>بازگردانی</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>ذخیره</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>زمان‌بندی</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>صفحهٔ جست‌وجو</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>شناسه‌های بخش، جداشده با ویرگول.</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>فرستادن آن‌ها به سایت زنده</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>تنظیم</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>تنظیمات</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>تنظیمات %name</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>راه‌اندازی</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>راه‌اندازی &gt; مقادیر محرمانه</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>در فهرست‌ها نمایش داده می‌شود، برای نمونه «سایت عمومی در GitHub Pages».</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>ورود با GitHub App همراه با یکپارچه‌سازی GitHub می‌آید.</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>سایت</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>سایت برای انتشار</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>اندازه</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>اندازه و محدودیت‌ها</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>اندازهٔ ساخت</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>صفحه‌های کهنه</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>آغاز</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>آغازشده توسط %user در %time.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>وضعیت</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>انتشار ایستا</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>انتشار ایستا خاموش است</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>انتشار ایستا خاموش است.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>انتشار ایستا خاموش است. اول آن را در راه‌اندازی &gt; انتشار ایستا روشن کنید.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>انتشار ایستا روشن است.</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>گام %step از %total</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>گام‌ها</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>پاک‌سازی</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>خاموش کردن</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>روشن کردن</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>روشن کردن انتشار ایستا</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>برچسب</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>برچسب‌ها</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>مقصد</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>مقصدها را می‌توان ساخت و تغییر داد، اما تا وقتی روشن نشود چیزی ساخته یا منتشر نمی‌شود.</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>به موتورهای جست‌وجو می‌گوید چه چیزی را بخوانند.</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>ساخت کنار گذاشته نشد: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>ساخت با آخرین انتشار یکسان است: چیزی برای انتشار نیست.</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>ساخت کنار گذاشته شد: پوشه دوباره آخرین انتشار را در خود دارد.</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>پیش‌فرض‌ها برای بیشتر سایت‌ها مناسب‌اند.</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>پوشه ساختی دارد که هنوز منتشر نشده است؛ ساخت تازه جای آن را می‌گیرد.</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>در پوشهٔ کارها نمی‌توان نوشت: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>کار آماده نشد: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>کار آغاز نشد.</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>کار پایان یافت. در حال بارگذاری گزارش آن.</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>کار به کاربری واردشده نیاز دارد.</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>کار آغاز شد اما شناسهٔ فرایند خود را گزارش نکرد. %detail را بررسی کنید.</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>کلید</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>بزرگ‌ترین فایل: %path، %size.</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>خط‌هایی که نوشته خواهند شد</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>فهرست صفحه‌ها برای موتورهای جست‌وجو؛ به نشانی عمومی نیاز دارد.</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>صفحه‌ها همان‌گونه دریافت می‌شوند که بازدیدکنندهٔ واردنشده می‌بیند. siteaccessهای مدیریت و ویرایش هرگز پیشنهاد نمی‌شوند.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>پیشرفت را نمی‌توان دنبال کرد. صفحه را دوباره بارگذاری کنید تا وضعیت کار را ببینید.</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>نیمهٔ عمومی کلید:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>ریشهٔ شاخه</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>انبار مقادیر محرمانه هنوز راه‌اندازی نشده است (./console exp:upgrade --apply جدول آن را می‌سازد)، پس هیچ کلیدی را نمی‌توان نگه داشت.</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>سرور خودش وارد می‌شود (با کلید SSH یا ابزار کمکی اعتبارنامهٔ خودش)، یا مخزن روی همین سرور است.</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>تنظیم نوشته نشد: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>تنظیمات معتبرند. این خط‌ها نوشته خواهند شد:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>فایل تنظیمات خوانده نمی‌شود: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>سایت به فایل‌های آن انتشار برمی‌گردد؛ ساختی که هنوز منتشر نشده باید اول منتشر یا کنار گذاشته شود.</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>صفحهٔ خود سایت برای نشانی‌هایی که وجود ندارند.</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>مقصد ذخیره نشد: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>مقصد هنوز با این کلید وارد نمی‌شود: در تنظیمات آن «کلید استقراری که برای این مقصد ساخته شده» را انتخاب کنید.</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>مقصدها خوانده نشدند: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>هنوز ساختی برای بررسی نیست.</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>این نصب siteaccess عمومی ندارد. siteaccessهای مدیریت و ویرایش هرگز منتشر نمی‌شوند.</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>این صفحه کار را در حین پیشرفت دنبال می‌کند؛ با بستن صفحه، کار در پس‌زمینه ادامه می‌یابد.</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>این مقصد هنوز کلید استقرار ندارد.</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>این مقصد هنوز اینجا ساخته نشده است.</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>این مقصد یکی دارد.</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>این ساخت را کنار می‌گذارد: پوشه دوباره آخرین انتشار را در خود دارد. سایت زنده تغییر نمی‌کند.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>اول گزینهٔ «تغییرات را بررسی کرده‌ام» را علامت بزنید.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>زمان</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>راه‌اندازها</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>نام برچسب را دوباره وارد کنید</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>بدون تغییر</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>وب‌هوک</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>چه</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>چه تغییر می‌کند</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>هر فایل چیست؛ همیشه نوشته می‌شود.</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>کاری که کار انجام داد و گزارش اجرای آن. کاری که اینجا آغاز شود، با بستن این صفحه در پس‌زمینه ادامه می‌یابد.</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>آنچه کار به‌عنوان خطا چاپ کرد</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>آنچه صفحه‌ها نام می‌برند، و همهٔ تصویرهای محتوای منتشرشده</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>چه زمانی</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>وقتی انتشاری ناموفق است</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>وقتی انتشاری موفق است</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>وقتی محتوا منتشر می‌شود</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>پیوندها به چیزهایی که نسخه ندارد (جست‌وجو، ورود) به کجا بروند.</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>نسخهٔ ایستا از کجا ارائه می‌شود.</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>کدام سایت منتشر می‌شود و نام مقصد چیست.</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>زیر هر مسیری کار می‌کند. پیش‌فرض.</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>هر بار که دامنهٔ اختصاصی تنظیم شده باشد نوشته می‌شود.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>بله</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>همیشه می‌توانید اینجا و در خط فرمان به‌صورت دستی بسازید و منتشر کنید.</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>فقط یک نام؛ مقدار در راه‌اندازی &gt; مقادیر محرمانه می‌ماند</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>زیر %path</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>بدون گزارش پایان یافت</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>اضافی</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>ناموفق</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>فایل</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages، یا main با پوشهٔ docs.</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>میزبان git</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (با توکن) یا git@github.com:owner/repo.git (با کلید استقرار)؛ هرگز گذرواژه یا توکن در آن نباشد.</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/، برای نقشهٔ سایت و پیوندهای canonical.</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>تصویر</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>هرگز</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>خیر</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>بدون مخزن دور</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>هیچ: کامیت‌ها در پوشه می‌مانند</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>هیچ: چیزی تغییر نکرد</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>پوش نشده</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>چیزی تغییر نکرد</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>صفحه</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>موفق</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>proc_open غیرفعال است، پس اینجا نمی‌توان کاری را آغاز کرد. روی سرور از ./console exp:static:build استفاده کنید.</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>انتشار</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>منتشرشده</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>در انتظار پوش</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>پوش‌شده</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>ردشده</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>نسبی</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>بازگردانی</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>بازگردانده شد</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>در حال اجرا</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>فقط پوشه</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: در فایل CNAME نوشته می‌شود. DNS دامنه را طبق توضیح میزبان به آن اشاره دهید؛ راه‌اندازی HTTPS ممکن است کمی طول بکشد.</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>بله، هنوز منتشر نشده</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>یک GitHub App</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>یک گردش‌کار مخزن آن را منتشر می‌کند. ساخت، فایل گردش‌کار را می‌نویسد؛ پوشه را خالی بگذارید.</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>پس از ذخیرهٔ مقصدی با مخزن GitHub و یک توکن یا GitHub App، این مرحله می‌تواند مخزن را بسازد و GitHub Pages را روشن کند. در غیر این صورت، اول مخزن را در GitHub بسازید؛ مخزن خالی هم کافی است.</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>شاخه یا GitHub Actions؟</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>بررسی DNS</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>اگر مخزن وجود ندارد، آن را بساز</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>مخزن را در GitHub بسازید و GitHub Pages را در تنظیمات آن روشن کنید (Settings &gt; Pages).</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>مخزن %repo را اگر وجود نداشته باشد (در صورت درخواست) می‌سازد، GitHub Pages را طبق تنظیمات ذخیره‌شده از شاخه یا از GitHub Actions روشن می‌کند و دامنهٔ اختصاصی و HTTPS را تنظیم می‌کند. از تنظیمات ذخیره‌شده استفاده می‌کند: اول تغییرات را ذخیره کنید.</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>جزئیات در GitHub</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>اول دامنهٔ اختصاصی را وارد کنید.</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>هر push ابتدا با این محدودیت‌ها بررسی می‌شود.</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>برای نشانی https:// در GitHub. اپی که برای این نصب راه‌اندازی شده وارد می‌شود؛ به شناسهٔ نصب نیاز دارد.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages مخزن خصوصی را فقط در طرح پولی ارائه می‌کند.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: زیردامنه (www.example.com) به رکورد CNAME به &lt;owner&gt;.github.io نیاز دارد؛ دامنهٔ اصلی (example.com) به رکوردهای A با %ips.</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>شناسهٔ نصب GitHub App</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>آخرین ساخت Pages</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>محدودیت‌ها و شرایط</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>برای GitHub Pages در طرح رایگان لازم است.</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>در GitHub</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>فقط با GitHub App: عدد انتهای نشانی نصب اپ در GitHub. خود اپ در staticcache.ini تنظیم می‌شود (GitHubAppId, GitHubAppKey).</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>خصوصی</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>عمومی</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>اول مقصد را با مخزن GitHub و یک توکن یا GitHub App ذخیره کنید.</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>این رکوردها را نزد ارائه‌دهندهٔ دامنه تنظیم کنید:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>راه‌اندازی در GitHub</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>DNS دامنهٔ %domain هنوز به GitHub Pages اشاره نمی‌کند.</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>DNS دامنهٔ %domain به GitHub Pages اشاره می‌کند.</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>یکپارچه‌سازی GitHub اینجا در دسترس نیست: %problem. انتشار به شاخه همچنان کار می‌کند؛ GitHub Pages را در تنظیمات مخزن روشن کنید.</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>مراحل GitHub برای این مقصد در دسترس نیست: %problem.</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>وضعیت GitHub Pages وقتی نشان داده می‌شود که اعتبارنامه یک توکن یا GitHub App باشد.</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>از دامنهٔ خودتان استفاده کنید</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>کدام را انتخاب کنیم: توکن، کلید استقرار یا GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>با مخزن GitHub و یک توکن یا GitHub App، دستیار می‌تواند مخزن را بسازد، GitHub Pages را روشن کند و دامنه را برایتان تنظیم کند (مرحلهٔ ۴).</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>در حال ساخت</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>ساخته شد</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>از GitHub Actions</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>از شاخهٔ %branch</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>هنوز هیچ</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>یافت نشد</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>خاموش</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>خصوصی</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>عمومی</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>در صف</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>نامشخص</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%count در %pages صفحه:</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>یک فایل .gz (و .br) کنار هر فایل متنی، برای میزبان‌هایی که آن‌ها را ارائه می‌کنند.</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>یک صفحهٔ کوچک برای هر نشانی و نام مستعار قدیمی یک صفحه، تا پیوندهای قدیمی کار کنند.</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>همیشه هنگامی نوشته می‌شود که GitHub Actions سایت را تحویل می‌دهد.</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>یک شناسهٔ SPDX مانند CC-BY-4.0، یا خود متن.</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>سبد</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>فراخوانی‌های سرور</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>نظرها</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>فرم‌هایی که اطلاعات جمع‌آوری می‌کنند</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>گردش‌کار GitHub Actions</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>فاصلهٔ خالی کمتر و بدون توضیحات در صفحه‌ها.</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>مجوز محتوا</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>ورود</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>کوچک‌سازی</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>فرم‌های دیگر</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>پیش‌فشرده‌سازی</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>صفحه‌های تغییر مسیر</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>صفحه‌های تغییر مسیر: %count.</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>جست‌وجو</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>نمایهٔ جست‌وجو: %pages صفحه در %languages.</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>شیوه‌نامه‌ها و اسکریپت‌هایی که با هش محتوایشان نام‌گذاری شده‌اند، تا مرورگرها بتوانند آن‌ها را نگه دارند.</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>صفحه‌های تغییرکرده، چند دقیقه پس از آخرین تغییر (بخش cronjob به نام staticpublish).</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>مجوز محتوا، از فیلد زیر.</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>کل سایت، در زمان‌های زمان‌بندی (بخش cronjob به نام staticpublish).</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>این بخش‌های صفحه‌ها به سرور نیاز دارند؛ برای هرکدام یک جایگزین گذاشته شد. پیش از انتشار بررسی‌شان کنید.</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>آنچه به‌صورت ایستا کار نمی‌کند</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>مخزن چیست، برای کسی که آن را روی میزبان باز می‌کند.</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>حذف‌شده</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>متن جایگزین</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>نقطهٔ پایانی فرم سایت زنده</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>سایت زنده</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>صفحهٔ جست‌وجوی نسخه</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>فرم ارسال نشد.</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>سپاس: فرم ارسال شد.</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>فرم پذیرفته نشد: ورودی‌های خود را بررسی کنید و دوباره ارسال کنید.</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>حذف پیوندها به صفحه‌هایی که نسخه ندارد</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>حذف پیوندها به بخش مدیریت</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>متن آن‌ها باقی می‌ماند. تصویرها، فرم‌ها و پیوندها به سایت‌های دیگر هرگز حذف نمی‌شوند.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>نسخه</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>دسترسی‌های سایت برای انتشار</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>دسترسی سایت</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>در ریشه</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>هیچ دسترسی سایتی در ریشه نیست: هرکدام در پوشهٔ خود است و ریشه به آن‌ها پیوند می‌دهد</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>دسترسی‌های سایت</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>یک دسترسی سایت، یا چند دسترسی را که با پیشوند URI یک میزبان را به اشتراک می‌گذارند علامت بزنید. آنکه در ریشه است همان‌جا ارائه می‌شود، بقیه در پوشهٔ پیشوند خود (/ger/)؛ پیوندهای میان آن‌ها در نسخه می‌مانند. دسترسی‌های مدیریت هرگز پیشنهاد نمی‌شوند.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>انتشار ایستای %target در %site ناموفق بود</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>انتشار ایستای %target در %site موفق بود</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>این ایمیل را %site فرستاده است، چون مقصد انتشار ایستای %target آن را درخواست می‌کند.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>استقرار %deploy در %site ناموفق بود</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>استقرار %deploy در %site پشت یک دروازه منتظر است</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>استقرار %deploy در %site با موفقیت انجام شد</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>این ایمیل را %site فرستاده است، زیرا migration.ini [RemoteSettings] Notify[] آن را درخواست می‌کند.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>انواع داده (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>شمارش در %time، دوباره پس از %minutes دقیقه</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>یک نوع داده یک نوع مقدار از یک ویژگی کلاس را ذخیره و ویرایش می‌کند: یک خط متن، یک تصویر، یک ارتباط. هسته بیشتر آن‌ها را فراهم می‌کند و افزونه‌ها موارد بیشتری اضافه می‌کنند. اینجا همه آن‌ها آمده‌اند، اینکه چه کسی آن‌ها را فراهم می‌کند و چه مقدار از محتوا از آن‌ها استفاده می‌کند. نوع داده‌ای که پایگاه داده از آن استفاده می‌کند اما دیگر هیچ چیز آن را ثبت نمی‌کند، محتوایی را که آن را دارد خراب می‌کند.</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>گروه‌های کلاس</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>اکنون دوباره بشمارید، به جای استفاده از شمارش دقیقه‌های اخیر.</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>شمارش دوباره</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>نمای کلی</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>تاریخ ثبت‌نام</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>در حال استفاده</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>استفاده‌نشده</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>افزونه‌های فراهم‌کننده نوع داده</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>ویژگی‌های کلاس</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>ویژگی‌های شیء</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>ثبت‌نشده</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>فهرست شده، فایل موجود نیست</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>%count نوع داده استفاده می‌شوند اما ثبت نشده‌اند</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>%class_attributes ویژگی کلاس و %object_attributes ویژگی شیء نوع داده‌ای دارند که هیچ افزونه یا تنظیمی آن را ثبت نمی‌کند. اشیای آن‌ها را نمی‌توان نمایش داد، ویرایش یا منتشر کرد. افزونه‌ای را که این نوع داده را فراهم می‌کند فعال کنید، یا کلاس را تغییر دهید.</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>فقط این‌ها را نشان بده</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>یافتن نوع داده</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>شناسه، نام، کلاس PHP یا افزونه.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>نمایش</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>همه</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>فراهم‌شده توسط</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>همه</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>هسته</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>هیچ نوع داده‌ای با این فیلتر مطابقت ندارد.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>نمایش همه</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>افزونه</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%shown از %count نوع داده، %used در حال استفاده</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>پایگاه داده ویژگی‌های کلاس یا شیء از این انواع داده دارد، اما content.ini هیچ‌کدام از آن‌ها را فهرست نمی‌کند، یا فایل آن موجود نیست.</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>انواع داده %provider</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>نوع داده</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>کلاس PHP و فایل</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>کلاس‌ها</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>اشیا</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>مشخصه‌ها</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>هیچ</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>هیچ نوع داده‌ای با جستجو مطابقت ندارد. جستجو را پاک کنید.</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>%shown از %count نوع داده نمایش داده شد</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>انواع داده نمایش‌داده‌شده: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>مرتب‌سازی بر اساس %column</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>شمارش در %time</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>همه انواع داده</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>صفحه راهنما</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>این نوع داده استفاده می‌شود اما ثبت نشده است</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>تا زمانی که هیچ افزونه‌ای این نوع داده را ثبت نکند، اشیای کلاس‌های زیر را نمی‌توان نمایش داد، ویرایش یا منتشر کرد. افزونه‌ای را که آن را فراهم می‌کند فعال کنید و آن را به content.ini [DataTypeSettings] AvailableDataTypes[] اضافه کنید، یا کلاس‌ها را تغییر دهید.</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini این نوع داده را فهرست می‌کند، اما هیچ پوشه نوع داده‌ای فایل آن را ندارد. هیچ چیز از آن استفاده نمی‌کند؛ آن را از AvailableDataTypes[] حذف کنید یا افزونه آن را فعال کنید.</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>درباره این نوع داده</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>شناسه</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>نام</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>افزونهٔ %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>هیچ‌کس</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>کلاس PHP</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>فایل</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>در AvailableDataTypes[]</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>بله</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>خیر</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>ستون‌های مقدار آن</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>ستون‌های تنظیمات ویژگی کلاس آن</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>جدول‌ها</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>ستون‌ها و جدول‌ها با خواندن کد نوع داده یافت می‌شوند: یک راهنما، نه یک تضمین.</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>قالب‌ها</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>دسترسی سایت</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>قالب</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>یافت‌شده در</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>این بخش مدیریت</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>سایت پیش‌فرض</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>بدون override: قالب override که بر اساس کلاس یا ویژگی مطابقت دارد بر این‌ها مقدم است.</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>کلاس‌هایی که از آن استفاده می‌کنند (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>هیچ کلاسی ویژگی‌ای از این نوع داده ندارد.</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>کلاس</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>ویژگی‌ها</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>ویژگی‌های کلاس (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>ویژگی</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>تنظیمات</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>شناسه %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>الزامی</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>قابل جستجو</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>قابل ترجمه</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>اطلاعات گردآوری می‌کند</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>برخی محتواهایی که از آن استفاده می‌کنند</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>آخرین تغییرات اول</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>تاریخ تغییر</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>گره %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>هر ترجمه مقدار خودش را دارد.</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>جستجو مقادیر آن را نمایه می‌کند.</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>می‌تواند از بازدیدکنندگان اطلاعات جمع‌آوری کند (فرم‌ها).</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>فهرست‌ها را می‌توان بر اساس آن مرتب کرد: کلید مرتب‌سازی %type.</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>قابل مرتب‌سازی</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>مقادیر آن به اشیای دیگر اشاره می‌کنند.</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>ارتباط‌ها</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>می‌توان آن را از یک رشته ساده پر کرد (درون‌ریزی، REST).</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>از متن</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>می‌توان آن را از یک فایل پر کرد.</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>از فایل</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>تنظیمات ویژگی کلاس آن در بسته‌ها قرار می‌گیرد.</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>بسته‌ها</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>محتوا (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from تا %to از %count</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>فیلتر کردن فهرست</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>همهٔ کلاس‌ها</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>بخش</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>زبان‌ها</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>مالک</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>منتشرشده</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>معکوس کردن ترتیب</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>هیچ موردی نیست</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>در هر صفحه</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>نمایش %count مورد در هر صفحه.</translation>
     </message>
 </context>
 </TS>

@@ -984,6 +984,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>ХӀара агӀо бен лехар дац: %count чуьра %from - %to.</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Бухан а, шордарийн а хӀора хаамийн тайпа, классаша а, чулацамо а иза муха лелош ду а.</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Хаамийн тайпанаш</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2316,6 +2324,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>Системин агӀонаш а билгалонашка тӀетоха мега: агӀо схьаде (ДӀахӀоттор, талламан лар, декъашхойн могӀам ...) а, цуьнан лакхахь «ХӀара агӀо билгалонашка тӀетоха» харжа а. Иштта билгалонашна шесттаӀий сурт ю.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>Шуна хӀинца хӀара агӀо кхузахь схьаелла бакъо яц. Билгало дӀадаккха, я администраторах тӀекхачар деха.</translation>
     </message>
 </context>
 <context>
@@ -5165,6 +5177,210 @@
         <source>Go to the first page</source>
         <translation>Хьалхара агӀо дехьа</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>Кхин</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>ТӀаьххьара 7 де</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>Шен диапазон</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>Массо дешнаш</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>Муьлхха а дош</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>Нийса фраза</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>Йоьзна хилар</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>ЦӀе А–Я</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>ЦӀе Я–А</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>Хийцина, хьалха керланаш</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>Хийцина, хьалха тиша долунаш</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>Арахецна, хьалха керланаш</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>Арахецна, хьалха тиша долунаш</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Хийцина</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>Фильтраш</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>Фильтраш гайта</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>Фильтраш къайлаяха</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>ЮхахӀоттаяла</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>Леладан</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>Дешнаш</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>Чулацаман тайп</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>Кхин а гайта (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>Цуьнан атрибутех цхьаннехь лаха чулацаман цхьа тайп харжа.</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Дакъа</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Хьост</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Кхузе</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>ДӀадолоран терахь нийса терахь дац.</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>Чекхдаларан терахь нийса терахь дац.</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Да</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>Декъашхочун ID, логин я электронан поштан адрес.</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>«%input» лаьцна декъашхо ца карийна.</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Мотт</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>Муьлхха а мотт</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Меттиг</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>Меттигаш: %count</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>АгӀонгахь жамӀаш</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>«%text» лаьцна жамӀаш (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>ЖамӀаш (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>ДӀанисъян</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>РогӀехь дӀанисдан</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>Жигара фильтраш</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>ХӀара фильтр дӀаяккха</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>Я фильтраш а харжий, уьш леладе, царна догӀу чулацам гайта.</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>Дешнаш яздинчул тӀаьхьа фильтраша лахар готдо.</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>«%text» лаьцна жамӀаш ца карийна.</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>ЖамӀаш ца карийна.</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>Лакхахь цхьа фильтр дӀаяккха.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Гочдарш</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>ГӀуллакхаш</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>%name нисдан</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Нисдан</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -7514,6 +7730,10 @@
         <source>Setup &gt; Cronjobs</source>
         <translation>ДӀахӀоттор &gt; Cron-болхаш</translation>
     </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>Cron-белхан цхьа а дакъа хӀинца а дӀадолийна дац: белхийн рогӀалла, импорт, хаамаш а, лехаран индекс а хьоьжуш ю. php bin/php/installcrontab.php --add --apply дӀадоло, я --show могӀанаш crontab чу тӀетоха.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/dashboard/drafts</name>
@@ -8058,8 +8278,8 @@
         <translation>Хьалхара авторийн а, Exponential-ца юкъайогӀучу кхечу агӀор программин а авторан бакъонаш лицензи ма-дарра, хьалхара файлашкахь а, LICENSE файлехь а ларйина ю.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>ХӀара — шайн болх 7x-на eZ Systems Contributor Licensing Agreement бакъонашца лело лицензи динчу Exponential декъашхойн могӀам. Иза бакъо йолу тайпа, 7x хӀора декъашхочун болх цу декъашхочун болх чудерзийна файлан лицензица юха даржайо. МогӀамехь хӀора декъашхочун цӀе, лаахь контакт а, цо дина я цуьнан болх чудаьхьна файлаш а ю.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>Exponential а, иза кхолламчу программни гӀирсана а беш болчу балха гӀоьнна хаздина декъашхой, церан гӀо хилла файлашца. ХӀара хьалхара хьахор ду, авторан бакъонах лаьцна хаам бац: Exponential-на деш болу гӀо Contributor Licensing Agreement-ца Exponential Foundation-на а, 7x-на а дӀалуш ду.</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13881,32 +14101,20 @@ Note: The packages will not be uninstalled.</source>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%evaluate_link"&gt;Exponential Enterprise Edition таллам бе&lt;/a&gt; - &lt;a href="%share_link"&gt;Exponential Community декъашхо хилла, хаамаш дехьа-сехьа дахьа а, юкъахь дакъа лаца а&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; а, кхечара а.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class="edition-info"&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>&lt;span class="edition-info"&gt;%edition&lt;/span&gt; ца болх бо. Кхин хаам беш &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt; хьажа.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; а, кхечара а.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> Кхин хаам беш &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt; хьажа.</translation>
     </message>
     <message>
-        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; а, кхечара а.</translation>
+        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href="%evaluate_link"&gt;Exponential таллам бе (7x-ера)&lt;/a&gt; - &lt;a href="%share_link"&gt;Exponential Community декъашхо хилла, гӀо схьаэца а, юкъахь дакъа лаца а&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; а, кхечара а.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13915,6 +14123,61 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Help center</source>
         <translation>ГӀон центр</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>Чулацам</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>Документийн агӀонаш</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>Декъашхой</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>Чулацаман классаш</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>Урхалла</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>АгӀо %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>Массо жамӀаш гайта</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>ЖамӀаш: %count</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>Цхьа жамӀ</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>Хьехамаш: %count</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>Хьехамаш бац</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>Хьехамаш чу ца бахьийра.</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>Хьехамаш</translation>
     </message>
 </context>
 <context>
@@ -14383,6 +14646,14 @@ Note: The packages will not be uninstalled.</source>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>ХӀара дӀахӀоттам юкъараллин демо ю: администраторан пароль мила а хаьа мега, ткъа администраторийн пароль хийца я меттахӀотто йиш яц. Кхузахь шен хӀума ма чуязде.</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Шун гӀирсаш</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Кхерамазаллин гӀуллакхаш</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14672,6 +14943,14 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>Куьйгалла, лехар а, гӀалат муха хаам бан а.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Керла чулацам</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Уггар керла чулацам, талламна сацийнарг, харжинчуьнца гӀуллакхаш.</translation>
     </message>
 </context>
 <context>
@@ -15130,6 +15409,46 @@ Note: The packages will not be uninstalled.</source>
         <source>Synchronisations</source>
         <translation>Цхьатерра дарш</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>GraphQL API: цуьнан чаккхенан тӀадам, схема а, хаттарш зен меттиг а.</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Миграцеш</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>ДӀахӀоттаман хийцамаш файлаш санна лардина: церан хьал, дӀадахьарш, дӀадахьар а юхадерзор а.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Керла чулацам</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Уггар керла чулацам, талламна сацийнарг, харжинчуьнца гӀуллакхаш.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Сайтан статикан копи GitHub Pages чохь я муьлххачу git хостехь арахеца.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Статикан арахецар</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Хаамийн тайпанаш</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Бухан а, шордарийн а хӀора хаамийн тайпа, классаша а, чулацамо а иза муха лелош ду а.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15294,6 +15613,22 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>Цхьаъ а лелош доцу я хьажа оьшу аккаунташ; церан дӀасацо, схьадоьллийла я экспорт ян.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Декъашхойн талламан журнал</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>Мила хийцина, мила чувелла я мила юхатоьхна, хӀора аккаунтехула; фильтр ян а, экспорт ян а.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>ЧугӀорийн отчет</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>Мила чугӀо хилла, хӀора дийнахь чугӀорш а, кхиам боцу гӀортарш а; декъашхо массанхьара аравакхар.</translation>
     </message>
 </context>
 <context>
@@ -22110,6 +22445,22 @@ Note: The packages will not be uninstalled.</source>
         <source>%n hours ago</source>
         <translation>%n сохьт хьалха</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>GraphQL API-н Ӏалашдинчу хаттарийн жоьпаш а, цуьнан схеман чулацаман классаш а.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>Статикан копи GitHub Pages чохь я муьлххачу git хостехь арахеца</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Статикан арахецар</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>Статикан кэшо агӀонаш хӀокху серверера луш ю. Сайтан статикан копи кхечу меттехь, GitHub Pages чохь я муьлххачу git хостехь арахеца, статикан арахецар лелае.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25651,6 +26002,10 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>last purge</source>
         <translation>тӀаьххьара дӀаяккхар</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>Яздарш хьелан блокировка схьаэца ца йелла (тӀаьххьара %date): хӀора цхьаммо кэшехь долу массо жамӀ ширделла. %file сайт болх беш долу хӀора декъашхочунна язъян йиш йолуш хила деза; NFS тӀехь NFSv4 я lockd оьшу.</translation>
     </message>
 </context>
 <context>
@@ -33599,6 +33954,14 @@ Note: The packages will not be uninstalled.</source>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>PHP обработчикан хан чекхъяьллина сессеш PHP-ца шех дӀадоккху (session.gc_maxlifetime), оцу агӀо я session_gc cron-болхан дакъо ца.</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>Массо а декъашхойн чугӀуьйриг сессеш чугӀорийн отчетехь гойту, цигахь уьш чекхъяха а мега; отчет хӀора а сессин обработчикца болх беш ю.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>ЧугӀорийн отчет схьаелла</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37923,6 +38286,26 @@ your account.</source>
     <message>
         <source>None yet</source>
         <translation>Ӏуллура яц</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Кхерамазаллин гӀуллакхаш</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>Шун тӀаьххьара чугӀорш, кхиам боцу гӀортарш, пароль, электронан поштан адрес а, шина гӀулчехь чугӀор а хийцар.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>ХӀокху аккаунтан тӀаьххьара чугӀорш, кхиам боцу гӀортарш а, кхерамазаллин хийцамаш а.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>ГӀуллакхашка хьажа</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>Кхиам боцу чугӀорш: %count</translation>
     </message>
 </context>
 <context>
@@ -44089,6 +44472,42 @@ If you want to send comments to the approver or view the status use the URL belo
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>ЧугӀоьлчул тӀаьхьа декъашхочо кхин хӀума дале хьалха керла пароль харжа веза. Цхьанна кхета пароль луш лелае.</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>Йолчу суртех цхьаъ харжа</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>Ахь хаьржинчу объектан суртан файл кху меттиге копи йо. Вукху объектехь хийцам ца хуьлу.</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>«%name» суртан копи кху меттиге йина.</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>Сурт схьалаха</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>Суьрташ цӀарца лаха</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Лехар</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>«%name» сурт лело</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>ХӀара сурт лело</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>Ахьа лехначунна терра сурт дац.</translation>
     </message>
 </context>
 <context>
@@ -51013,6 +51432,10 @@ See the requirements page for more information.</source>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>Crontab яздина яц (%reason). Оцу могӀарш сайт болх беш йолчу декъашхочун crontab-чу тӀетоха, дацахь, рогӀ, импорташ, хаамаш а лехаран индекс цкъа а ца лелор ду:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>Юха дӀахӀоттор kickstarter-ца (%file, тӀаккха php bin/php/kickstarter.php run --apply) я керла дӀахӀотторца до.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54892,6 +55315,10 @@ your account.</source>
         <source>eZJSCore Public Packer cache</source>
         <translation>eZJSCore юкъара упаковщикан кэш</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>GraphQL кэш (жоьпаш а, схеман классаш а)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54978,6 +55405,14 @@ your account.</source>
     <message>
         <source>Copy of %class_name</source>
         <translation>%class_name копи</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Хаамийн тайпанаш</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>Хаамийн тайпа %string</translation>
     </message>
 </context>
 <context>
@@ -55804,6 +56239,26 @@ your account.</source>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>SVG-сурт деша ца ели, е цу чохь кхерам боцуш гайта хӀума яц.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>Сурт копи ца делира. Дехар до, юха гӀо де йа сайтан администратор кхетта.</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>Хаьржина объект яц, йа хьуна иза еша бакъо яц.</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>Хаьржинчу объектехь сурт дац.</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>Хаьржинчу объектан суртан файл еша ца делира.</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>Хаьржинчу объектан сурт кху меттиго магийначул доккха ду: %1 байт.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56334,6 +56789,42 @@ your account.</source>
         <source>The bookmark was renamed to "%name".</source>
         <translation>Билгало «%name» цӀе хийцина.</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>ХӀара агӀо хӀокху сайте тӀекхачарехь (%siteaccess) дӀасайина ю. Билгало схьаелла хӀара агӀо йолчу сайте тӀекхачарехь.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>ХӀокху агӀонан модуль кхузахь дӀахӀоттийна яц я латийна яц.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>ХӀара агӀо хӀинца яц: цуьнан модулехь иштта хьажар дац.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>Шун цхьана а ролехо шуна хӀара агӀо схьаелла ца магайо.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>Шуна хӀара сайте тӀекхачар лело бакъо яц.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>ХӀокху агӀоно гойту чулацам деша шуна бакъо яц.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>ХӀокху тайпана агӀо билгалонашка тӀетоха йиш яц: иза формица бен болх ца бо, я цхьана хенан агӀо ю.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>ХӀокху агӀонан адрес дац.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>ХӀара агӀо хӀинца схьаелла йиш яц.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56805,6 +57296,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>Почтан транспорто тӀаьххьара дӀадаларехь %count хаам юхатоьхна. Почтан сервер а site.ini MailSettings а таллам бе.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Хьоьжуш долу хиламаш: %count, ткъа хаамийн cron-белхан цхьа а дӀадолор дӀаяздина дац. Cron-белхан дакъа «frequent» crontab чу тӀетоха, я exp:notification:run --apply дӀадоло.</translation>
     </message>
 </context>
 <context>
@@ -63061,6 +63556,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Choose another site or section with the node picker</source>
         <translation>Кхин сайт я дакъа шад харжаран гӀирсаца харжа</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>Да хийца системан администраторна бен йиш яц: ./console exp:content-check --fix-permissions --apply root санна дӀадоло.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64594,6 +65093,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>empty</source>
         <translation>яьсса</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>КуьгтаӀоран догӀа шарал тиша ду: exp:audit key rotate --apply командица иза хийца.</translation>
     </message>
 </context>
 <context>
@@ -68424,6 +68927,486 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Share of page time</source>
         <translation>АгӀонан хенан дакъа</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>юьззина кхоллар дехна</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>агӀонийн кэшехь агӀо яцара (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>агӀонийн кэшо жоп ца делира</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>Кхоьллина</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>Бухо кхоьллина: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>АгӀонийн кэшера %ms мс чохь елла. АгӀо %stored хенахь %render мс дахделла кхолларо Ӏалашйина, %age сек хьалха.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>ХӀинца кхолла</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>Кэшера хьажарна тӀе юхадерза</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>%stored хенахь хиллачу кхоллара (%render мс)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>ХӀара дехар: агӀонийн кэшера %ms мс чохь елла.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Декъашхо</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>Декъашхочун ID</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>Кэшан профиль</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>ХӀара гайтар</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>Хьажаран кэш</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>хӀора декъашхочунна (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>Декъашхочун кэшан профиль: цхьа профиль йолчу декъашхоша гайтаран кэшан файлаш цхьаьна лелайо</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>хӀаъ</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>хӀан-хӀа</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>ЧугӀор</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>Чувелла</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>Сесси</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>Чулацаман гайтаран кэшан догӀан декъашхочух дозуш долу дакъош, догӀано уьш схьаэцарехь, хӀокху агӀон ViewCacheTweaks тӀехь. Цхьа профиль йолчу декъашхоша гайтарийн кэшан файлаш цхьаьна лелайо, гайтаран шен дакъош (харжамаш, ладоьгӀучийн догӀанаш) къаьсташ дацахь: царна шайн профиль ю, хӀокху агӀонна бен.</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>Профиль</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>ХӀара гайтар (узел %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: чувеллачу хӀора декъашхочун шен кэшан файлаш ю.</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>Болх беш долу ViewCacheTweaks: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>Дакъа</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>МаьӀна</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>Цхьа а дакъа декъашхочух доьзна дац (ViewCacheTweaks).</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>хӀара гайтар</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>Текст санна копи е</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>Ролаш</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>Ролаш тӀеязъяр еша ца делира.</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>Ролан ID</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Роль</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>Доза</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>ТӀеязйина</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>декъашхочунна</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>тоба %name (объект %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>Копи яьккхина</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>Копи ян ца делира.</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>ладоьгӀучо дӀаяьккхина</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>ЦӀе йоцу хьажархой</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>хьайчуьнца цхьатерра</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>къаьсташ</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>Цхьа ViewCacheTweaks тӀехь, стандартан харжамашца, гайтаран дакъош доцуш, цӀе йоцучу хьешашна луш йолу профиль: сесси йоьшучу ладоьгӀучуьнга уьш хатта йиш яц.</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>Харжамаш</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>Цхьа а гайтаран кеп декъашхочун харжамех доьзна яц (site.ini [ContentSettings] CachedViewPreferences).</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>ХӀокху гайтаран кепийн гайтарш доьзна долу харжамаш (CachedViewPreferences), декъашхочун маьӀница я стандартан маьӀница. Уьш профилехь userpreferences санна ю, ерриге гайтаран кепийн цхьаьна.</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>Хьажаран кеп</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>Харжам</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>Стандартан</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>Политикаш</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>Ролийн политикаш гайта (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>Политикаш серверера чуйоьду хӀара дакъа диллича, цхьацца агӀо, уьш модулехь а функцехь а литта мега.</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>Функци</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>Массо а модулаш</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>Ерриге функцеш</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>Дозанаш</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>Кхин гайта</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>ХӀокху ролийн политикаш яц.</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>Цхьа а политика фильтрана ца догӀу.</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%shown %matching политикех (дерриге %total)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>Схьайелча чу чуйоьллу.</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>module/function, роль, чекхдаккхар</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>Политикаш лаха</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>Кхин а чуяккха</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>Модуль/функци</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>Ерриге роли (%count политика)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>Политика цакаре хилла.</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%matched политикех %shown</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>Жоп дац</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>къайлаяьккхина</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>Кхетамаш гайта</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>Кхетамаш къайлабаха</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Схьаделла</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>Массо а схьаделла</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>Массо а дӀакъовла</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>ДогӀа я маьӀна</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>Сессехь лаха</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Тайпа</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>кхин %count</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>гайта тӀех кӀорга чудиллина</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>хадийна, массо а %count символ</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>ДӀаболийна</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>Кукин цӀе</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>Сессин ID</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>Кхочушдийриг</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>Ӏалашъяран некъ</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>PHP-н стандарт</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>Дахаран хан (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>Куки</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>дахаран хан %s с</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>Хьан шен PHP-сесси, дакъа схьаделлачу хенахь хиллачу кепара, цкъа а кхин цхьа сесси йоцуш. Къайле санна хетачу догӀийн (токенаш, хэшаш, пароль) маьӀнаш къайлайохуш ду (debugbar.ini SessionMask[]); кхин массо а Ӏалашйинчу кепара гайтина ду, шен хаамаш а.</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>%count догӀа, %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>доккха</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>Сесси еса ю.</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>ХӀокху дехарна цхьа а сесси ца йолийна.</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Шордар %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>Ядро а, кхиберш а</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>Массо а дӀаяздар гайтина дац: сессехь кхузахь дагардан тарлучул сов ду.</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>%count догӀа могӀамехь дац.</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>Гура</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>Токен санна хетачу маьӀнаш а (JSON Web Token, Authorization кортан бакъонаш, шен догӀа, деха hex я цхьанхьа нисделла текст) къайлайохуш ду, церан догӀанан цӀе муха елахь а (debugbar.ini SessionValueMask[]).</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>ДогӀа къайле санна хета (debugbar.ini SessionMask[]).</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>МаьӀна токен санна хета.</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>Къайлаяьккхинчу догӀанан кӀел.</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>Сесси текстан кепехь, таблица санна къайлаяьккхина.</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>Сесси %size-л йоккха ю (debugbar.ini SessionWarnBytes): хӀокху пайдаэцархочун хӀора дехаро ерриге сесси йоьшу, хийцаелча иза дӀаяздо.</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP-с хӀара сесси файлашкахь латтайо, ерриге дехар чекхдаллалц файл блокировать йо: цхьана пайдаэцархочун дехарш (масех вкладка, AJAX-кхайкхамаш) вовшашка хьоьжу.</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>Схьаделла латто</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>%size-л йоккха (debugbar.ini SessionWarnBytes): хӀокху пайдаэцархочун хӀора дехаро ерриге сесси йоьшу.</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%count-х %hits кэшера йешна</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>Цхьа а кеп ца хӀоттийна (хьажаран кэшера йешначу хьажаро цхьа а кеп ца хӀоттайо).</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>Ролийн тӀедилларш</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>Ролаш а, политикаш а</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>цӀе доцу хьошийн чул башха</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>цӀе доцу хьошийн санна</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70304,6 +71287,14 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>not sent</source>
         <translation>ца дахьийтина</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Хаамийн cron-болх кхузахь шен хӀора дӀадолор дӀаяздеш ю. Дакъа frequent crontab чу тӀетоха, я exp:notification:run --apply дӀадоло.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>Консоль лело: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -76022,6 +77013,98 @@ You will need to change the class of the node by using the swap functionality.</
         <source>This topic is not Released; readers do not see it.</source>
         <translation>ХӀара тема Арахецна дац; ешархоша иза ца гой.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Миграцеш</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>ДӀахӀоттаман хийцамаш файлаш санна лардина: церан хьал, дӀадахьарш, дӀадахьар а юхадерзор а.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Сайтан статикан копи GitHub Pages чохь я муьлххачу git хостехь арахеца.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Статикан арахецар</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>Талламехь</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>Ешархошна хӀара агӀо гуш ю.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>Цхьаммо арахецалц ешархошна къайлах ю.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>АгӀо хӀинца Талламехь ю. Иза арахецалц ешархошна къайлах ю.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>АгӀо Арахецна ю: ешархошна иза хӀинца гуш ю.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>АгӀо юха Черновик ю. Талла а, арахеца а йиллалц иза ешархошна къайлах ю.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>ХӀинца арахеца</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>%role роль йолчу, хӀара верси ца язйинчу декъашхочо бен иза арахеца ца йиш.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>Арахецаре хьоьжуш йолу гӀоьнан темаш</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>Юха арахецалц иза ешархошна къайла йо.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>ТӀаккха иза талламхочо толлу. Ешархошна иза хӀинца а ца го.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>Ешархошна иза сихха го.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>Кхин болх бан иза талламера дӀайоккху. Ешархошна иза ца го.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>ХӀара агӀо ешархошна къайла йо?</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>ХӀара агӀо Черновике юхайерзо?</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>Цхьаммо юха арахецалц ешархошна %title кхин ца го.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title кхин болх бан Черновике юхайоьрзу. Ешархошна иза хӀинца а ца го, арахецале керла таллам оьшу.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Юхадаккха</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>ХӀара темаш Талламехь ю. ХӀинцалера верси ца язйинчо уьш арахецча, ешархошна уьш го.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76477,6 +77560,46 @@ You will need to change the class of the node by using the swap functionality.</
         <source>None.</source>
         <translation>Цхьа а яц.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>аутентификацин программица</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>электронан поштехула кодаца</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>меттахӀотторан кодаца</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>чугӀоран догӀаца</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>арахьарчу аккаунтаца</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Кхерамазаллин гӀуллакхаш</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>Сети санна гойту; адрес сайтан хаамаш ларбаран параметрашкахь ма-аллара Ӏалашйо.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Билгалдина дац</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Меттиг</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>герггара</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76720,6 +77843,42 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Manage devices</source>
         <translation>ГӀирсаш урхалла</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>аутентификацин программица</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>электронан поштехула кодаца</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>меттахӀотторан кодаца</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>чугӀоран догӀаца</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>арахьарчу аккаунтаца</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Кхерамазаллин гӀуллакхаш</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Билгалдина дац</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Меттиг</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>герггара</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76799,6 +77958,14 @@ You will need to change the class of the node by using the swap functionality.</
         <source>View the sessions of this user</source>
         <translation>ХӀара декъашхочун сессеш хьажа</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>%site сайтехь шун %login аккаунте хӀинца чугӀо хилла, тӀаьххьарчу хенахь цу аккаунте чугӀо ца хиллачу меттигера:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>Герггара меттиг</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76837,6 +78004,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%browser, %os тӀехь</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>ЧугӀорийн отчет</translation>
     </message>
 </context>
 <context>
@@ -77045,6 +78216,82 @@ You will need to change the class of the node by using the swap functionality.</
         <source>The passkey could not be checked. Please try again.</source>
         <translation>ЧугӀоран догӀа таллам бан ца елира. Дехар до, юха хьажа.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>ЧугӀоран догӀанашца бен чугӀо ца до аккаунташна кхузахь пароль леладан йиш яц: «ЧугӀоран догӀаца чугӀо» харжа.</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>%login чугӀоран догӀанаш</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>ХӀара аккаунт чугӀоьту чугӀоран догӀанаш. Дайначу я лачкъийначу гӀирсаца долу догӀа юхадаккха: цуьнца кхин чугӀо ца тарло. Керланаш дас ша тӀетуху.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>Шун аккаунтана чугӀоран догӀа оьшу</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>Шун аккаунте чугӀоран догӀа тӀетоха</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>Кхин дӀа даха чугӀоран догӀа тӀетоха. ТӀаккха шу паролаца бен доцуш, цуьнца чугӀур ду.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>ЧугӀоран догӀаца чугӀор паролал сиха а, кхерамза а ду. ХӀинца цхьаъ тӀетоха, я цуьнца доцуш кхин дӀаяхйа.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>ХӀинца дац</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>ЧугӀоран догӀа «%name» юхадаккха?</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>Цуьнца хӀокху аккаунте кхин чугӀо ца тарло. Иза тӀаьххьара делахь, да паролаца чугӀур ву, я шуьга керла пароль хӀотто йиш ю.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>ЧугӀоран догӀа юхадаккха</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>Юхадаккха</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>ХӀокху аккаунтан чугӀоран догӀа дац.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>Аутентификатор</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Вовзийтина дац</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>Шун тӀаьххьара чугӀоран догӀа: иза дӀадаккхале кхин цхьаъ тӀетоха.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>ХӀара аккаунт чугӀоран догӀанашца бен чугӀо ца до (чугӀоран догӀанийн политика): цхьа а дисна ца хилча, иза юха шен паролаца чугӀо.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>ХӀара шун тӀаьххьара чугӀоран догӀа ду, шун аккаунт цуьнца доцуш чугӀо ца тарло. Хьалха кхин чугӀоран догӀа тӀетоха.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>ЧугӀоран догӀа «%name» юхадаьккхина. Цуьнца хӀокху аккаунте кхин чугӀо ца тарло.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77144,6 +78391,34 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Code from your authenticator app</source>
         <translation>Шун аутентификаторан программера код</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>Шу хаамаш гуттаренна дӀабайа я журнал цӀанъян кийча ду.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>Шун пароль а, чугӀоран догӀа а</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>Шун пароль а, шун аутентификаторан программера код а</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>Я:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>ХӀокху браузерехь чугӀоран догӀанаш лелош ца тарло. Кхин некъ я кхин браузер лелае.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>Шу дӀадахча, браузеро шун чугӀоран догӀанех цхьаъ хоттур ду.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>ЧугӀоран догӀаца кхин дӀаяхйа</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77234,6 +78509,70 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Setup</source>
         <translation>ДӀахӀоттор</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>Шен пароль, электронан поштан адрес, чугӀоран догӀанаш, шина гӀулчехь чугӀор, меттахӀотторан кодаш я API догӀанаш хийцар, ткъа шен кхечу гӀирсашкара аравалар.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>Декъашхой, церан пароль а, гӀирсаш а кхолла а, нисдан а, аккаунтан параметраш, керла декъашхойн аккаунташ тӀелаца я юхатоха, ролаш леладан а, политикаш нисдан а.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>Хаамаш дӀадайар</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>Нехийн тускар яьсса яккхар, цу чуьра хӀуманаш дӀаяккхар а, цхьана хенахь масех хӀума дӀаяккхар а.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>Чулацам дӀадаккхар, арахецар а, Ӏалашдар а</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>Чулацам дӀадаккхар (нехийн тускаре а), арахецар а, черновик Ӏалашдар а; форма дӀаяхьийтича хоттало. Кечйинчу чохь дӀасаций.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>Нийса ца йолу гӀуллакхал хьалха чугӀаьлла декъашхочо юха шу мила ю тӀечӀагӀдо: шен паролаца а, чугӀоран догӀаца а, я чугӀоран догӀа доцуш, шен паролаца а, шен аутентификаторан программин кодаца а. Веб-агӀонаш бен ца хоттало: REST интерфейс, SOAP, WebDAV, expservices чугӀор а, командан могӀа а цкъа а ца хоьттуш.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>Параметраш мичахь болу</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>Параметраш</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Массо сайте тӀекхачар</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>Сайте тӀекхачар %name</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Схьаделла</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>Мила хоттур ву: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>Декъашхойн тобанаш билгалъяха, церан декъашхошка бен ца хотта (масала, редакторашка). Цхьа а билгалйина яц: массо декъашхошка.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>settings/override/site.ini.append.php чохь Ӏалашйина, массо сайте тӀекхачарна. Ӏалашдарехь шу мила ю тӀечӀагӀдар хоттало.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>settings/siteaccess/%name/site.ini.append.php чохь Ӏалашйина. settings/override чохь долу маьӀна цунна тӀехь ду. Ӏалашдарехь шу мила ю тӀечӀагӀдар хоттало.</translation>
     </message>
 </context>
 <context>
@@ -77336,6 +78675,6822 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Open the page</source>
         <translation>АгӀо схьаделла</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%count чуьра %from – %to</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>Декъашхочун цӀе я ID: хилларг лаьцна долу аккаунт я и дийриг дина декъашхо.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Аккаунт</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Некъ</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>ТӀаьхьа</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>Муьлхха а жамӀ</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Хьалха</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Мила</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>ЦӀанъян</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Кхочушдина</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>Хилларш Ӏалашдо %days дийнахь.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>Хилларш Ӏалашдо куьйгаца дӀа ца даьхччалц.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Хилларш</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>Муьлхха а некъ</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>ХӀокху аккаунтан массо а хилларш</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>Могам CSV форматехь экспорт ян (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Ца хилла</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Дуьйна</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>Могам готдан</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>Цхьа а хилларг ца догӀу.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>ХӀора агӀонехь</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>ДӀаяздар audit.ini чохь дӀадайина ([UserAuditSettings] UserAudit); могамехь гойту хьалха дӀаяздинарг.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Юхатоьхна</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>ЖамӀ</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Гайта</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>Декъашхойн талламан журналан таблица яц. Иза кхолла php update/common/scripts/6.0/createuseraudittable.php гӀоьнца; цул хьалха талламан файлашкахь хӀора хилларг Ӏалашдо.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>ХӀокху агӀонна SQL хаамийн база еза; MongoDB тӀехь иза болх ца бо. Талламан файлашкахь хӀора хилларг Ӏалашдо.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Кхаччалц</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Декъашхойн талламан журнал</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Декъашхо</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Маца</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Мичахь</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>Мила муьлха аккаунт хийцина, кхоьллина, хьаллатийна, дӀаяйина, дехьаяьккхина я дӀаяьккхина, мила чувелла я юхатоьхна, а муьлха ролаш хӀиттийна: хӀора хилларгана цхьа могӀа, меттигийн хьалхара а, тӀаьхьара а маьӀнаш долуш. Паролаш а, къайленаш а цкъа а дӀа ца яздо.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>тоба</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>система</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>вовзийтина дац</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>Аккаунт ларъян</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>%site сайтехь шун аккаунте %login меттахӀотторан кодаца чугӀо хилла.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>МеттахӀотторан код лелийна</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Аккаунт</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>Герггара адрес</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>Юха чугӀо керла пароль деха, я сайтан администраторашка дӀакхайкха.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>Керла пароль деха</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>ХӀора меттахӀотторан код цкъа бен болх ца бо. Шун телефон дайнехь, аутентификацин программа юха нисъе, керла меттахӀотторан кодаш тешаме меттехь Ӏалашде.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>Шун аккаунте кхиам боцу чугӀоран гӀортарш</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>ХӀинца дуьйна чугӀучу хенахь пароль а долуш код а хоьтту. Иза шаьш динехь, хӀумма а дан ца оьшу.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>Иза шу хиллехь, шайн пароль дицдинехь, керла деха. Шу ца хиллехь, чӀагӀ пароль харжа, шина гӀулчехь чугӀор латае.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>Иза шу ца хиллехь, шун пароль цхьаьннан хаа мега: хӀинцца иза хийца, шун аккаунт мичахь чугӀо хилла хьажа.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>Диснарш меттахӀотторан кодаш</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>Шайн гӀирсашка хьажа</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>Кхерамазаллин дӀахьедар</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>Цхьаммо %site сайтехь шун аккаунте %login нийса доцу парольца масийттазза тӀаьхьа-тӀаьхьа чугӀо гӀортар дина (гӀортарш: %count).</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>%site сайтехь шун аккаунтехь %login кхерамазаллин хилам хилла.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>ХӀара шун аккаунтах лаьцна кхерамазаллин дӀахьедар ду. Иза хӀора а иштта хийцамехь дӀадохьу, иза дӀасацо йиш яц.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Хан</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>%site сайтехь шун аккаунтан %login шина гӀулчехь чугӀор дӀасаделла.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>Шина гӀулчехь чугӀор дӀасаделла</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>%site сайтехь шун аккаунтан %login шина гӀулчехь чугӀор латийна.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>Шина гӀулчехь чугӀор латийна</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>%site сайтехь шун аккаунт %login дукха кхиам боцу чугӀорш хиллачул тӀаьхьа дӀакъовлина.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>ХӀинца шун аккаунт пароль бен ларъеш яц. Иза шаьш ца динехь, пароль хийцинчул тӀаьхьа шина гӀулчехь чугӀор юха латае.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>Шун аккаунт дӀакъовлина</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>%site сайтехь шун аккаунте %login чугӀоран догӀа тӀетоьхна.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>ХӀара чугӀоран догӀа шена гаргахь долчунна шун пароль йоцуш шун аккаунте чугӀо тарло. Шуьга иза тӀе ца тоьхнехь, ЧугӀоран догӀанаш чохь иза дӀадаккха, шун пароль хийца.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>%site сайтехь шун аккаунтера %login чугӀоран догӀа дӀадаьккхина.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>Цуьнца шун аккаунте кхин чугӀо ца тарло. Шуьга иза дӀа ца даьккхинехь, шун чугӀоран догӀанаш а, гӀирсаш а хьажа.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>Шун аккаунте чугӀоран догӀа тӀетоьхна</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>Шун аккаунтера чугӀоран догӀа дӀадаьккхина</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>Кхерамазаллин гӀуллакхаш</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Кхерамазаллин гӀуллакхаш: %name</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>ЧугӀаьлла</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Кхиам боцу чугӀоран гӀортар</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Аравелла</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Сессеш чекхъяьхна</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Керлачу гӀирсера чугӀор</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Керлачу меттигера чугӀор</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Шахь тӀечӀагӀдина («Шу мила ю тӀечӀагӀде»)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Шахь таллар кхиамца ца даьлла</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>ЧугӀоран догӀаца чугӀаьлла</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>ЧугӀоран догӀаца чугӀор кхиамца ца даьлла</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>ЧугӀор юхатоьхна: шина гӀулчехь чугӀоран код яц я нийса яц</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Шина гӀулчехь чугӀоран нийса доцу код</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Кхиам боцу чугӀорш хиллачул тӀаьхьа аккаунт дӀакъовлина</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Аккаунт схьаелла</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Пароль хийцина</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Пароль хийца ца делла</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Пароль дӀатесна</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Керла пароль дехна</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Электронан поштан адрес хийцина</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Декъашхочун цӀе хийцина</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Шина гӀулчехь чугӀор латийна</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Шина гӀулчехь чугӀор дӀасаделла</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>МеттахӀотторан код лелийна</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Керла меттахӀотторан кодаш</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>ХӀоттаман пароль кхоьллина</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>ХӀоттаман пароль юхаэцна</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>ЧугӀоран догӀа тӀетоьхна</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>ЧугӀоран догӀа дӀадаьккхина</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Аккаунт латийна</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Аккаунт дӀасаделла</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Массо</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>ЧугӀорш а, сессеш а</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Аккаунтан хийцамаш</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Тидам оьшу</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>шаьш</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>декъашхочо</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>декъашхочо: %login</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>Кеп</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>Браузер</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>Операцин система</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>ГӀирс</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>Меттиг</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>Пачхьалкх</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Сессеш</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>Муьлхарш</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>Канал</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Кхиам боцу гӀортарш</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>Диснарш кодаш</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>ЧугӀоран обработчик</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Кхерамазаллин гӀуллакхаш</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Кхерамазаллин гӀуллакхаш: %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Шун аккаунте чугӀорш а, цуьнан кхерамазаллин хийцамаш а. Шаьш ца дина хӀума гахь, пароль хийца, шаьш ца девза гӀирсаш аравахийта.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>ХӀокху аккаунте чугӀорш а, цуьнан кхерамазаллин хийцамаш а.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Шун гӀирсаш</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Пароль хийца</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>Аккаунте юхадерза</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>Кхерамазаллин гӀуллакхаш дӀаяздеш дац</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>Уьш декъашхойн талламан журналера ешна, ткъа цуьнан таблица expuser_audit яц я хӀокху хаамийн базехь ловш яц. php update/common/scripts/6.0/createuseraudittable.php я 6.0.15 хаамийн базан карлаяккхар дӀадоло.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>ТӀаьххьара денош: %days</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>ТӀаьххьарчу деношкахь чугӀорш (денош: %days)</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>ТӀаьххьара кхерамазаллин гӀуллакхаш</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Гайта</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>кхиам боцуш</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>юхатоьхна</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Кхерамазаллин гӀуллакхаш хӀинца а дӀаяздина дац.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>Кхерамазаллин хиламаш Ӏалашбо (денош: %days).</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>Кхерамазаллин хиламаш администраторо дӀабаххалц Ӏалашбо.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Сан чугӀорийн хаамаш охьадаккха</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Шун сессеш а, кхерамазаллин хиламаш а JSON файл санна.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>ХӀокху сайтехь сессеш яздеш яц, цундела кхин цхьа а гӀирс аравалийта ца делира. ХӀинцца шайн пароль хийца.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>Кхин %count сесси чекхъяьккхина. ХӀинца шайн пароль хийца.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Кхин цхьа а гӀирс чувала вацара. ХӀинца шайн пароль хийца.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Баркалла. Хилларг шуьнаниг санна билгалдаьккхина.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Оцу хиллачунна жоп ца оьшу.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>АгӀон хан чекхъяьлла. Цхьа а хӀума ца хийцина; дехар до, юха хьажа.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Аккаунт ларъян</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Кхузахь цхьаъ шу ца хиллехь, массо кхин гӀирсаш араяха, тӀаккха керла пароль харжа. «Со дагалаца» бахьанехь чохь йисина гӀирсаш а араяха.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>ХӀокхул сов массо гӀирс шен рогӀерчу дехарехь арабаьккхина хир бу. ТӀаккха аш керла пароль хоржу.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>ХӀаъ, кхин гӀирсаш араяха</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Иза шу дарий?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>ХӀаъ, иза со вара</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>ХӀан-хӀа, сан аккаунт ларъе</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>ЧугӀаьлла</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Кхиам боцу чугӀоран гӀортар</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Аравелла</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Сессеш чекхъяьхна</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Керлачу гӀирсера чугӀор</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Керлачу меттигера чугӀор</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Шахь тӀечӀагӀдина («Шу мила ю тӀечӀагӀде»)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Шахь таллар кхиамца ца даьлла</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>ЧугӀоран догӀаца чугӀаьлла</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>ЧугӀоран догӀаца чугӀор кхиамца ца даьлла</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>ЧугӀор юхатоьхна: шина гӀулчехь чугӀоран код яц я нийса яц</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Шина гӀулчехь чугӀоран нийса доцу код</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Кхиам боцу чугӀорш хиллачул тӀаьхьа аккаунт дӀакъовлина</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Аккаунт схьаелла</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Пароль хийцина</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Пароль хийца ца делла</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Пароль дӀатесна</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Керла пароль дехна</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Электронан поштан адрес хийцина</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Декъашхочун цӀе хийцина</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Шина гӀулчехь чугӀор латийна</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Шина гӀулчехь чугӀор дӀасаделла</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>МеттахӀотторан код лелийна</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Керла меттахӀотторан кодаш</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>ХӀоттаман пароль кхоьллина</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>ХӀоттаман пароль юхаэцна</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>ЧугӀоран догӀа тӀетоьхна</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>ЧугӀоран догӀа дӀадаьккхина</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Аккаунт латийна</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Аккаунт дӀасаделла</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Массо</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>ЧугӀорш а, сессеш а</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Аккаунтан хийцамаш</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Тидам оьшу</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Кхерамазаллин гӀуллакхаш</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Кхерамазаллин гӀуллакхаш: %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Шун аккаунте чугӀорш а, цуьнан кхерамазаллин хийцамаш а. Шаьш ца дина хӀума гахь, пароль хийца, шаьш ца девза гӀирсаш аравахийта.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Шун гӀирсаш</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Пароль хийца</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>ХӀокху сайтехь кхерамазаллин гӀуллакхаш хӀинца а дӀаяздеш дац.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>ТӀаьххьарчу деношкахь чугӀорш (денош: %days)</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Кхиам боцу гӀортарш</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Кхерамазаллин гӀуллакхаш хӀинца а дӀаяздина дац.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Сан чугӀорийн хаамаш охьадаккха</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Шун сессеш а, кхерамазаллин хиламаш а JSON файл санна.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>ХӀокху сайтехь сессеш яздеш яц, цундела кхин цхьа а гӀирс аравалийта ца делира. ХӀинцца шайн пароль хийца.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>Кхин %count сесси чекхъяьккхина. ХӀинца шайн пароль хийца.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Кхин цхьа а гӀирс чувала вацара. ХӀинца шайн пароль хийца.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Баркалла. Хилларг шуьнаниг санна билгалдаьккхина.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Оцу хиллачунна жоп ца оьшу.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>АгӀон хан чекхъяьлла. Цхьа а хӀума ца хийцина; дехар до, юха хьажа.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Аккаунт ларъян</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Кхузахь цхьаъ шу ца хиллехь, массо кхин гӀирсаш араяха, тӀаккха керла пароль харжа. «Со дагалаца» бахьанехь чохь йисина гӀирсаш а араяха.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>ХӀокхул сов массо гӀирс шен рогӀерчу дехарехь арабаьккхина хир бу. ТӀаккха аш керла пароль хоржу.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>ХӀаъ, кхин гӀирсаш араяха</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Иза шу дарий?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>ХӀаъ, иза со вара</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>ХӀан-хӀа, сан аккаунт ларъе</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>Пароль</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>Пароль а, шина гӀулчехь чугӀоран код а</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>REST интерфейс</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>SOAP интерфейс</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>Цхьана чугӀор</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>Сессеш дӀаязъян доладалале чугӀаьлла</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>ЧугӀорийн отчет</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>Сайте мила чугӀо хилла, аккаунташ мел кест-кеста чугӀо а, чугӀо ца далла а, декъашхо массанхьара аравакхар а. ХӀора а сессин обработчикца болх беш ю.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>Сесси чекхъяьккхина. ГӀирсана юха чугӀо деза.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>%login араваьккхина, чекхъяьхна сессеш: %count.</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>%login декъашхочун болх беш йолу сесси яцара.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>Иштта ID, декъашхочун цӀе я электронан поштан адрес йолу аккаунт яц.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>ХӀара шаьш лелош йолу сесси ю. Иза чекхъяккха, аравала.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>И сесси хьалха чекхъяьллера.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>АгӀонан хан чекхъяьллера. Цхьа а хӀума хийцина дац; юха гӀорта.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>ХӀокху сайтехь сессеш дӀаяздеш дац (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>Таблица expuser_session яц</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>Иза кхоьллича сессеш дӀаязъян йолало: php update/common/scripts/6.0/createusersessiontable.php я 6.0.15 хаамийн базан карлаяккхар.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>ХӀинца а, тахана а</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>Болх беш йолу сессеш</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>ЧугӀаьлла декъашхой</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>Тахана чугӀорш</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>Тахана кхиам боцу гӀортарш</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>Декъашхо массанхьара аравакхар</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>Аккаунтан хӀора сесси шен рогӀерчу дехарехь чекхъйолу, «Со дагалаца» лелийна Ӏалашйина сессеш а. Аккаунт нийса доцчу куьйгашка кхачанехь, иза лело; тӀаккха цуьнан пароль дӀатоха.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>Декъашхочун ID, декъашхочун цӀе я электронан поштан адрес</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>Массанхьара аравала</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>ХӀинца чугӀаьлла</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>ТӀаьххьара лелийнарш гойту (%limit сов доцуш).</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Декъашхо</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>ГӀирс</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Адрес</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>ЧугӀаьлла</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>ТӀаьххьара жигара</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>ГӀуллакхаш</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>ХӀара гӀирс</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Билгалдина дац</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>Аравала</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>ЧугӀаьлла цхьа а сесси яц.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>ТӀаьххьара денош: %days</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>ЧугӀорш а, кхиам боцу гӀортарш а декъашхойн талламан журналехула лоьгу, ткъа иза яц; керла сессеш лоьгу.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>Де</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>ЧугӀорш</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Кхиам боцу гӀортарш</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>Керла сессеш</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>Сессин обработчик: %handler. Сессеш expuser_session таблицера еша, цундела отчет хӀора а обработчикца болх беш ю.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>ТӀаьххьарчу %hours сахьтехь шеконан гӀуллакх</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>Цхьана сетано %accounts аккаунте чувала ца делира (%count гӀортар)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Кхиам боцу чувалар бахьанехь аккаунт дӀакъевлина</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>Цхьана аккаунтехь %count кхиам боцу чувалар</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>Цхьана хенахь %count мехкара чувалар</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Кхерамазаллин гӀуллакхаш</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Сессеш</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>Кхиам боцу чувалар лелорхойн аудитан журналера доьшу, иза кхузахь дац.</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>Шеконан хӀумма а дац: юха-юха кхиам боцу чувалар долу аккаунт дац, масех аккаунт зуьйш йолу сеть яц, масех мехкара чувала аккаунт дац.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>Шун аккаунтана кхерамазаллин дӀахьедар</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>Шун аккаунтехь %login кхерамазаллин хилам хилла: %event. Иза шу ца хиллехь, %url адресехь шайн аккаунт ларъе.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>ДӀахӀоттор</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>ХӀокху сайтан чулацамах цхьана дехарца агӀона оьшу йолу меттигаш бен ма деха. Схема чулацаман классашна тӀехьа йоьду; хӀора хаттар кхочуш до и дахьийтинчу пайдаэцархочун бакъонашца.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>GraphQL API хӀокху сайте тӀекхачарехь дӀайайина ю. Иза латае graphql.ini чохь: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>GraphQL библиотека (webonyx/graphql-php 15) дӀахӀоттийна яц.</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>Чаккхенан тӀадам</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>Библиотека</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>Схема</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>Чулацаман классаш: %count, схема %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>Хаттар</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>Хийцалуш долунаш (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>ДӀадоло</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>Жоп</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>Кхочуш деш…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>Жоп еша ца делира.</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>Хаттар кхочуш до хьан бакъонашца, хӀокху сессехь чувалийна.</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%seconds сек чохь %count</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>доза доцуш</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>КӀоргалла</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>Чолхалла</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>МогӀам чохь элементаш</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (ша-шаха %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>Декъашхочун я догӀанан дехарш</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>ЦӀе йоцчу адресан дехарш</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>Интроспекци</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>Ӏалашдина хаттарш бен</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>Уггар доккха хаттар</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>%bytes байт</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>Уггар доккха чуйолуьйтуш</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>%siteaccess сайте тӀекхачар дац.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>%siteaccess чохь мутацеш латийна ю.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>%siteaccess чохь мутацеш дӀайайина ю.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>%siteaccess чохь GraphQL API латийна ю.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>%siteaccess чохь GraphQL API дӀайайина ю.</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>ТӀегӀанаш яздан ца делира: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>Жоьпийн кэш цӀанйина: %count жоп дӀадаьккхина.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>Хаттар дӀадаккха цунна юххехь йолу кор билгалде.</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>Хаттар дӀадаккха ца делира: PersistedQueryDirectoryList[] директорехь деана хаттар шен файлца дӀадоккху.</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>Ӏалашдина хаттар дӀадаьккхина.</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>Мутацеш</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>латийна</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>дӀайайина</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Сайте тӀекхачарш</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>API а, цуьнан мутацеш а жоп луш йолу меттигаш. Кнопкаш graphql.ini чу йоздо, ./console exp:graphql:enable а, exp:graphql:disable а санна.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Сайте тӀекхачар</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>GraphQL API</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Хийца</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>ДӀайайа</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>Мутацеш дӀайайа</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>Мутацеш лато</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Лато</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>Дозанаш</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>ХӀокху сайте тӀекхачаран graphql.ini [GraphQLSettings].</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>Жоьпийн кэш</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>Ӏалашдинчу хаттарийн жоьпаш, декъашхочун бакъонашца Ӏалашдина, чулацам арахецча хан чекхйолуш.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Хьал</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>Ӏалашдина жоьпаш</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>%count жоп, %bytes байт</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>Уггар дукха Ӏалашдо</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds сек</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>ТӀаьххьара хан чекхъяларан</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>Жоьпийн кэш цӀанъе</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>Ӏалашдина хаттарш</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>./console exp:graphql:persist-ца я клиенташа Ӏалашдина (автоматически Ӏалашдина хаттарш); цӀарца я SHA-256-ца кхайкху.</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>ЦӀерш</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Барам</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Мичахь</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>ДӀадаккха</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>деана</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>Ӏалашдина</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>ХӀаъ, хӀара хаттар дӀадаккха</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>Ӏалашдина хаттар хӀинца а дац.</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>API догӀанаш</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>graphql:read (хаттарш) я graphql:write (мутацеш) гуо долу шениг API догӀанаш. Уьш API тӀекхачар агӀонгахь я ./console exp:graphql:keys-ца кхолла а, юхаяккха а.</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>API тӀекхачар</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>Массо догӀанаш</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>ДогӀа</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>ЦӀе</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Да</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>Гуонаш</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>ТӀаьххьара лелийна</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>жигара</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>хан чекхъяьлла</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>юхаяьккхина</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>цкъа а</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>GraphQL гуо долу API догӀа хӀинца а дац.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>ХӀара агӀо гойтуш долчу %siteaccess сайте тӀекхачарехь GraphQL API дӀайайина ю; лахахь йолчу таблицехь гайтина иза мичхьа жоп луш ю.</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>ХӀара агӀо гойтуш долчу %siteaccess сайте тӀекхачарна.</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>Вебхукаш</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>Чаккхенан тӀадамо доьхуш долу хилам массо а (publish, update, trash, delete, move, hide, reveal, mutation) цуьнга, куьг а таӀийна, дахийтало cronjob-ан дакъо graphqlwebhooks. ./console exp:graphql:webhooks хӀокху декъо ден хӀума до.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Хиламаш</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>массо а</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Сайте тӀекхачар массо а</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>талхийна</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>къайле яц</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>Хьоьжуш</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count дӀатесна</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>ТӀаьххьара дӀакхачор</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Зер дахийта</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>ХӀаъ, хӀара вебхук дӀадаккха</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>Вебхук хӀинца а дац.</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>Вебхук тӀетоха</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>ТӀетоха</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>ТӀаьххьарлера дӀакхачорш</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Хан</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Жамӏ</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>Подпискаш</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>Клиенташна дийна керлачу хаамаш: /api/graphql/subscribe тӀехь хиламийн тӀаьхьалонаш, Velocity тӀехь WebSocket (graphql-transport-ws) а. ХӀора хилам цуьнан чулацам еша бакъо йолчу подписчикашка бен ца кхочу.</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>ХӀинца схьаелла</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>Уггар дукха схьаелла</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>%total массо а, %user хӀора лелорхочунна, %address хӀора адресна</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>ЦӀе йоцу подпискаш</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>ТӀаьхьалонан бохалла</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>Вебхук тӀетоха ца делира: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>Вебхук %name хийцина; цуьнан куьг таӀоран къайле юьсу.</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>Куьг таӀоран къайле Ӏалашъян ца делира (ДӀахӀоттор &gt; Къайленаш).</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>Вебхук %name тӀетоьхна. Цуьнан куьг таӀоран къайле, хӀокху цкъа бен гойтуш яц: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>Вебхук %name дац.</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>Вебхуко %name жоп ца делла: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>Вебхуко %name %ms ms чохь %status жоп делла.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>Вебхук дӀабаккха цунна юххехь йолу кор билгалде.</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>Вебхук %name дӀабаьккхина.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>GraphQL API хӀокху сайте тӀекхачарехь дӀайайина ю.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>GraphQL библиотека дӀахӀоттийна яц.</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>GET я POST лелае.</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>Дехаран чорхь JSON объект дац.</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables JSON объект дац.</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions JSON объект дац.</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>Хаттар POST-ца дахийта.</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>Дехарехь хаттар дац.</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>Хаттар %max байтал деха ду.</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>Серверан чоьхьара гӀалат</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node-на id, remoteId, path, urlAlias цаьрах нийса цхьаъ оьшу.</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content-на id, remoteId цаьрах нийса цхьаъ оьшу.</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>after-ан курсор хӀокху API-с деллачех дац.</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>%alias цӀе йолу суьртан псевдоним яц (image.ini [AliasSettings] AliasList[]).</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>Кхузахь серверехь Ӏалашдина хаттарш бен ца тӀеоьцу: Ӏалашдинчу хаттаран id дахийта.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>Ӏалашдинчу хаттаран hash SHA-256 дац.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>Ӏалашдинчу хаттаран hash хаттарца ца догӀу.</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>Дехарш дукха ду: %window секундехь %limit сов дац. %reset секунд яьлча юха хьажа.</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>Хаттаран кӀоргалла %depth тӀегӀа ю; %max сов ца магийна.</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>Хаттаран чолхалла %complexity ю; %max сов ца магийна.</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>ХӀокху дехарна схема еша бакъо яц (introspection).</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search-на текст я фильтр оьшу (classes, subtree, sections, publishedAfter, publishedBefore).</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument терахь дац (ISO 8601, 2026-10-30).</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag-на id, remoteId, path цаьрах нийса цхьаъ оьшу.</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout-на id, identifier, urlAlias цаьрах нийса цхьаъ оьшу.</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>Multipart дехаран operations аре цхьа JSON дехар дац.</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>Multipart дехаран map аре JSON объект дац.</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>Multipart дехарехь %field файл яц.</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>map аренан некъ variables.-ах доло деза: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>%name файл юкъара кхаьчна яц (чуйолуьйтуран гӀалат %error).</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>%name файл %max байтал йоккха ю.</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>%name файл таллалуш ца хилла.</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>Мутацеш хӀокху сайте тӀекхачарехь дӀайайина ю (graphql.ini [GraphQLSettings] MutationsEnabled).</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>Мутаци POST-ца дахийта.</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>Чулацам хийца чувала.</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>API догӀанан %scope гуо дац.</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>Сессица йолчу мутацина сессин форман токен оьшу (корта X-CSRF-Token).</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>uploadFromUrl дӀайайина ю: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] чохь цхьа хост а яц.</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>Адрес https адрес хила еза.</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>%host хост graphql.ini [GraphQLSettings] UploadFromUrlHostList[] чохь яц.</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>Файл схьаэца ца делира.</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload чуйолу тайпа бен дац.</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>Upload тайпанан хийцалучо multipart дехаран файл тӀеоьцу.</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>%remoteId генара идентификатор дӀалаьцна ю.</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>Чулацамехь %language маттахь гочдар хӀинцале а ду: updateContent лелае.</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>Лаххара а цхьа аре язъе.</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>Керла верси кхолла ца делира (чулацамехь дукха черновикаш ю).</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>%version верси черновик яц.</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent-на id, nodeId цаьрах нийса цхьаъ оьшу.</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>Меттиг шен кӀел дӀаяккха йиш яц.</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>Чулацамехь %parentId кӀел меттиг хӀинцале а ю.</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>%field аренан маьӀна Ӏалашдан ца делира.</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>%language чулацаман мотт бац.</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>Схемехь %class чулацаман класс яц.</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>Чулацам бац, я хьан иза еша бакъо яц.</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>ХӀокху чулацамца иза дан хьан бакъо яц.</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>%class классехь яздан мега %field аре яц.</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>%field аре шозза язйина ю.</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>%field аре файл тӀеоьцу: иза чуйолуьйтуш дахийта (multipart дехар).</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>%field аре файл тӀе ца оьцу.</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>%field аренна маьӀна оьшу.</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>%format формат хаздина текстан ареш бен дац; %field шен маьӀна долчу кепара тӀеоьцу (RAW).</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>%field аре тӀедожийна ю.</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>HTML еша ца делира.</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content-с version id-ца бен тӀе ца оьцу.</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>Хьалха хьажаран токен нийса яц я цуьнан хан чекхъяьлла.</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>Схьадаларан меттиг яц (https://host я https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>GraphQL API гуо дац: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>Подпискаш /api/graphql/subscribe тӀе дахийта (хиламийн тӀаьхьалонаш я WebSocket).</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>Дехаро документан цхьа а операци ца йоккху.</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>Подписко цхьа поле бен ца доьху.</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>Подпискаш дукха схьаелла ю; тӀаьхьо юха хьажа.</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>Хьан %max подписка схьаелла ю, магийна уггар дукха.</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>Хьан адресехь %max подписка схьаелла ю, магийна уггар дукха.</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>Подпискаш хӀокху сайте тӀекхачарехь дӀайайина ю.</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>Подписка ян чувала (токен я шен API догӀа).</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>Мутацеш /api/graphql тӀе дахийта.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>Миграцеш</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Статус еша ца делира: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Миграцийн таблицаш хӀинца а яц: ./console exp:upgrade --apply цо уьш кхуллу.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>%count миграци ца хилла</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>ДӀадахьар доьдуш ду, %user долийна</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>ДӀахӀоттам блокировкехь бу: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Хьоьжуш</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Ца хилла</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>Да-нана доцурш</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>ТӀаьххьара дӀадахьар</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>хӀинца а дац</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>Миграцеш массо а</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>Моделехь дӀадахьар</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>Талламан дӀадахьар</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>Хьоьжуш йолу миграцеш транзакцехь дӀаяхна, иза тӀаьхьо юхаерзина: цхьа а хӀума ца лардина. Лахахь ду хӀора цхьаммо хаамийн базехь хийцинарг.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>ХӀинца дӀадахьаро дийр долчух лаьцна. Цхьа а хӀума ца хуьйцу: хӀора хьоьжуш йолчу миграцис шена дан лаьа хийцамаш гойту, дӀадахьаро — хьалха а тӀаьхьа а дийр дерг.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>Моделехь дан</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>ДӀадоло</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>Талламан дӀадахьар ца хилла: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>Моделехь дан PostgreSQL я SQLite оьшу, церан схемин хийцамаш юхаберзалур бу; хӀокху хаамийн базехь лахахь йолчу планехь ду дӀадахьаро дийр дерг.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>Миграцеш</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>Миграци</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Хьал</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>Цо дийр дерг</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>Моделехь дар: %result, %ms мс</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>ХӀинца а миграци яц.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>ДӀадахьарал хьалха а тӀаьхьа а</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>Хьалхара сурт</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>до, миграци ца хилча юхаметтахӀоттайо</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>дӀадайина</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>ТӀаьхьара сурт</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>дӀадахьар кхиамца чекхдаьлча до</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>%total миграци: %pending хьоьжуш, %done кхочушйина, %failed ца хилла.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>Миграцийн истори</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>ХӀора дӀадахьар шен лелорхочуьнца, гонахьарчу хьолаца, суьрташца, коммит, тег, пуш динчуьнца. Ца хилла я сецна дӀадахьар кхин дӀа даьхьа мега; хьалха сурт долу дӀадахьар юхадерзо мега.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>ДӀадахьарш еша ца делира: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Миграцийн таблицаш хӀинца а яц: ./console exp:upgrade --apply цо уьш кхуллу.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Гайта</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Массо</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>ДӀадахьарш</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Долийна</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Долийнарг</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>Суьрташ</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Репозиторий</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>ГӀуллакхаш</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>хьалха</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>тӀаьхьа</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>пуш: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>Кхин дӀа даьхьа</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Юхадерзо</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>ХӀокху хьолехь дӀадахьар дац.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>Кхузахь долийна</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>ХӀокху агӀонашкахь долийна дӀадахьарш, кхин дӀа дахьарш, юхадерзорш, хӀоранна а шен хаамца.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>ХӀун</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>ЖамӀ</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Юхадерзор</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>%target юхадерзор</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>ДӀадахьар %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>ДӀадахьаро диннарг, цуьнан дӀаяздар а журнал а. Кхузахь долийна дӀадахьар хӀара агӀо къовлича а гӀаролла тӀехь кхин дӀа доьду; иза тергал дан агӀо юха схьаеллаша.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>ХӀара дӀадахьар кхин дӀа даьхьа</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>ХӀара дӀадахьар юхадерзо</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>ДӀаяздар еша ца делира: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>ДӀабахар</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>%user долийна %time.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>Код таллар а дӀадахьарал хьалха сурт дар а</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>%id доьду (%total чуьра %index)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>%total чуьра %done кхочушйина</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>Миграцеш дӀаяхна; цхьаъ ца хиллехь, сурт юхаметтахӀоттадо</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>ДӀадахьарал тӀаьхьа сурт дар, коммит, тег, пуш</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>Сурт юхаметтахӀоттадар</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>ДӀадахьар чекхдаьлла. Цуьнан хаам чуйолуш бу.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>ДӀабахар тергал дан ца делира. ДӀадахьар муха доьду хаа агӀо юха чуйиллахь.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>ХӀокху агӀоно дӀадахьар доьдучу хенахь тергал до.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Юха чуйилла</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Хаам</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Хан</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms мс</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>ДӀадахьаро гӀалаташ санна арадаьккхинарг</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>ДӀаяздар</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>Хьал</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>дац</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Чекхдаьлла</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Коммит</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Тег</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Пуш</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Хаам</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>ХӀокху дӀадахьаран миграцеш</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>Хьост</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>ДӀадахьаран журнал</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>Журналан чаккхе бен ца гойту.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>доьду</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>хаам боцуш чекхдаьлла</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>кхиамца</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>ца хилла</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>дӀатеттина</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>хаамийн базе кхача ца делира</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>чоьхьара гӀалат</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>ДӀадахьар доьдуш ду</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind %user долийна %time.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>Тергал де</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>ДӀахӀоттам блокировкехь бу</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>Кхечу дӀадахьаро блокировка лаьцна (керлайаккхар я консолехь дӀадахьар): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>кхочушйина</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>хьоьжуш</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>ца оьшу</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>вовзийтина дац</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>юхаерзина</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>лелийна</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>лелор ю</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>юхаяьккхина</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>юхаяккхар ю</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>дӀа ца яхна</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>кхечуьнга хьоьжу</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>хийцам тӀеэцна</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>хийцам тӀеоцур бу</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>моделехь йина</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Миграцеш</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Статус</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Истори</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>%target юхаяккха</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>ДӀадахьар шел хьалха динчу сурте юхадерзадо, цхьа миграци — шен down() кхочушйина. Хьалхара сурт юхаметтахӀоттор говзанчашна ду. ХӀора гӀаролла тӀехь хьан цӀарах доьду, хӀинцалерчу хьолан сурт динчул тӀаьхьа.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>Юхаяккха мегарг еша ца делира: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>ДӀадахьар</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>Цхьа миграци</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>Хьалхара сурт</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>Дийцар</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>хӀаъ</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>хӀан-хӀа</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Сурт</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Билгало</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>Дина</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Тайпа</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>ЮхаметтахӀотто дакъош</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>Хаамийн база</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>Ларйинарчу файлаш (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>Параметраш (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>Хаамийн база юхаметтахӀоттайича, иза сурт динчу хене юхайоьрзу, сессеш а юкъахь: тӀаьхьа юха чугӀо оьшур ду хьуна. Цул тӀаьхьа хийцина массо а хӀума дӀадоьду; хьалха хӀинцалерчу хьолан сурт до.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>Хаьа суна хӀокхо юхаметтахӀоттор дерг</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>Суьртан идентификатор юха язъе</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>ХӀаъ, юхаяккха</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Юхадаккха</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>Шел хьалха сурт долу дӀадахьарш.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>Харжа</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>Сурт долу дӀадахьар хӀинца а дац.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>Шаьш юхаяла йиш йолу лелийна миграцеш (цаьрца down() ю).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>Цхьана а лелийначу миграцехь down() яц.</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>Хьалхара суьрташ (говзанчаш)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>ХӀинца а сурт дац.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>Миграцеш дӀаяха</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>ДӀадахьар гӀаролла тӀехь %user цӀарах доьду, цуьнан агӀоно иза доьдучу хенахь гойту. Хьалхарчу миграцел хьалха дӀахӀоттаман сурт до; миграци ца хилча дӀадахьар сецна, сурт юхаметтахӀоттадо.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>Хьалха талламан дӀадахьар</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Статус еша ца делира: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>Хьоьжуш йолу миграцеш</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>Уьш хӀокху рагӀехь доьду. Цхьаъ тӀаьхьарчу дӀадахьарна юьтуш, цуьнан билгало дӀаяккха, иза оьшучаьрца цхьаьна.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>ДӀадаха</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>Доьдучу хенахь техникин хьелан раж дӀалото.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>Лелийначул тӀаьхьа хийцина</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>ХӀарш лелийна файлаш яц. ДӀадахьаро уьш дӀатуьту, хийцам бахьанца тӀе ца эцахь; уьш юха дӀа ца йоьду, керла контролан жамӀ дӀаяздо, бахьана аудитан журналехь лардо.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>Хийцамаш тӀеэца</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>ХӀунда</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>Ӏадатан маьӀнаш кхерамза ду. ХӀора бошхапо цхьа гӀулч дӀайоккху.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>Сурт доцуш</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>ДӀадахьарал хьалха а тӀаьхьа а сурт доцуш: ца хиллачул тӀаьхьа шегара юхаметтахӀотто йиш яц.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>ЮхаметтахӀоттор доцуш</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>Ца хиллачул тӀаьхьа дӀахӀоттам иза мухха битнехь а, иштта бита.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>Коммит ца дина хийцамаш дита</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>Параметрашкахь, шордаршкахь я дизайнашкахь коммит ца дина хийцамаш белахь а дӀадаха; уьш сурте кхочу.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>Коммит доцуш</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>Статусан файл а дӀадахьаран журнал а коммит ма е (тег а пуш а доцуш).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>Пуш доцуш</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>Коммит а тег а е, амма пуш ма е.</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>Тег доцуш</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>Коммит а пуш а е, амма дӀадахьарна тег ма е.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>ХӀаъ, хӀинца хӀара миграцеш дӀаяха</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Хьоьжуш йолу миграци яц.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>Статусе юхагӀо</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>ХӀокху дӀахӀоттаман хийцамаш цкъа файлаш санна язйина (чулацам, классаш, рольш, параметраш, схема), сайтан хӀора дӀахӀоттамна цу рагӀехь лелош. ДӀадахьаро хьалха сурт до, миграци ца хилча иза юхаметтахӀоттадо, ша динарг дӀаяздо, коммит а пуш а до.</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>%count хьоьжуш йолу дӀаяха</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Терго</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Хьоьжуш</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Кхочушйина</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Ца хилла</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>Ца оьшу</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>Хаамийн база</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>транзакцеш: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>Сайтан миграцеш migrations/ чохь ю, шордаран миграцеш — extension/&lt;name&gt;/migrations/ чохь. Уьш шайн цӀерийн а шайна оьшучун а рагӀехь доьду.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>ТӀаьххьара дӀадахьар</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>Файл лелийначул тӀаьхьа хийцина.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>ХӀинца а миграци яц. ./console exp:migration:generate --skeleton &lt;name&gt; --apply цо хьалхарниг язйо.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>ТӀаьххьара дӀадахьарш</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>ДӀадахьарш массо а</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>ХӀинца а дӀадахьар дац.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>ДӀадахьар моделехь дан migration/run политика оьшу.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>ДӀадахьар доьдуш ду: иза чекхдаьлча моделехь де.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>ДӀахӀоттор</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target хӀокху дӀахӀоттаман дӀадахьар а, миграци а, сурт а дац.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>Хьалха «ХӀаъ, юхаяккха» билгало е.</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>Хьалхара сурт юхаметтахӀоттор говзанчашна ду: «Хаьа суна хӀокхо юхаметтахӀоттор дерг» билгало е.</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>Суьртан идентификатор юха язъе: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>ЮхаметтахӀотто уггар кӀеззиг цхьа дакъа харжа.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>ХӀокху дӀадахьарехь шел хьалха сурт дац: цуьнан миграцеш цхьацца юхаяха, я хьалхара сурт юхаметтахӀотта.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>ХӀара миграци шех юхаяла йиш яц: иза лелийна яц, я цуьнца down() яц.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Форма еша ца делира.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>Кхин дӀа даьхьа дӀадахьар харжа.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>Хьалха «ХӀаъ, хӀинца хӀара миграцеш дӀаяха» билгало е.</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>Уггар кӀеззиг цхьа миграци харжа.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>Миграци лелийначул тӀаьхьа хийцина: хийцам бахьанца тӀеэца, я файл юха меттахӀотта.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>Хийцина миграцеш хӀунда тӀеоьцу, цуьнан бахьана язъе.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>Бахьана уггар дукха 500 символ ю.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>Кхузахь долийна дӀадахьар хӀинца а доьду (%detail). Иза чекхдаллалц собар де.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>Кхечу дӀадахьаро дӀахӀоттаман блокировка лаьцна: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>ДӀадахьарна чувеана долу бакъ лелорхо оьшу.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>php командин могӀанан программа ца карийна. migration.ini [AdminSettings] PhpCliPath цуьнан буьззина некъ хӀоттабе.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open дӀадайина ду, цундела кхузахь дӀадахьар доло йиш яц. Серверехь ./console exp:migration:migrate --apply дӀадоло.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>ДӀадахьарийн папке язъян йиш яц: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>ДӀадахьар долийна, амма цо шен процессан идентификатор ца хаийтина. %detail талла.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>Юхаяккха езарг язъе.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>ДӀадахьар доло ца делира.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>Хийцамаш дӀаяздар</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>ДӀаяздар доллушехь, ахь администрацехь я сайтан агӀонан панелехь хийцинарг миграцин гӀулчаш санна латтадо: чулацам, классаш, рольш а политикаш а, декъаш, лелорхой а тобанаш а, URL цӀерш, нисдарш. Чекхдаьккхинчул тӀаьхьа сацае иза, хьажа цо хӀун лаьцна, цунна тӀера миграци кхолла.</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>ДӀаяздарш дешан ца делира: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>ДӀаяздаран таблицаш хӀинца а яц: хьалха карлайаккхар лелае (exp:upgrade --apply).</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>ДӀаяздар migration.ini чохь дӀадайина ду ([RecordingSettings] Recording=disabled).</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>Сан хийцамаш</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>Ахь сацаделла ца даллалц ахь хийцинарг бен дӀа ца йоззу, мичча хийцахь а.</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>ДӀаяздар</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>%time тӀера, хӀинцалц %count хийцам.</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>Билгало (лаахь)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>Цо хӀун лаьцна гайта</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>ДӀаяздар сацо</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>Сан хийцамаш дӀаяздар доладан</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>Ерриге сайтан кор</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>ДӀакъовлуш долчу хенахь кхаччалц хӀора лелорхочун а консолан а хӀора хийцам дӀа йоззу. Схьайоьллуш хьо хьо вуйла тӀечӀагӀдан деза.</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Схьаелла</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>Кор дӀакъовла</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>Ерриге сайтан кор схьаелла</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>ДӀаяздарш</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>Лелорхочун аккаунт (логин, электронан пошт, пароль) а лелорхойн аккаунтийн аренаш а цкъа а дӀа ца йоззу.</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Хийцамаш</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>Ерриге сайт</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>%name хийцамаш</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Сацийна</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>ХӀинца а дӀаяздар дац.</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>ДӀаяздар %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>Массо а дӀаяздарш</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>Цунна тӀера хила йолу миграци</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>ХӀора хийцинчу хӀуманна цхьа гӀулч чу тоьхна хийцамаш: хӀокху дӀаяздарна тӀера кхоьллинчу миграцис хӀун дийр ду.</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>ХӀокху дӀахӀоттамна YAML гӀулчийн тайпанаш %types хилча цунна тӀера миграци кхолла йиш хир ю.</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>Хуъушехь дӀатесна: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>Цхьа а хӀума дӀа ца яздина.</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>Цо хӀун лаьцна</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>%count хийцам, бина рогӀаллехь.</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Хийцам</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>ГӀулч</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>Хьокъехь</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>Кхин %count: ./console exp:migration:record:show массо а гойту.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>ДӀатаса</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>ДӀаяздар а цо лаьцнарг а дӀаайъа. Хийцинарг хийцина латта.</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>ХӀаъ, хӀара дӀаяздар дӀатаса</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>ДӀаяздеш ду…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Хьан хийцамаш миграцина дӀаяздеш ду.</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>ХӀокху сайтехь хӀора хийцам миграцина дӀаяздеш бу (ерриге сайтан кор).</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>Ерриге сайтан дӀаяздар доладелла: ахь сацадаллалц хӀора лелорхочун хӀора хийцам дӀаяздийр бу.</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>ДӀаяздар доладелла: ахь сацадаллалц хьан хийцамаш дӀаяздийр бу.</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>ДӀаяздар сацийна. Цо лаьцнарг ахь дӀатосаллалц латтар ду.</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>ДӀаяздар а цуьнан хиламаш а дӀаайина.</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>%id дӀаяздар дац.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>Хьалха «ХӀаъ, хӀара дӀаяздар дӀатаса» билгалде.</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>Сессин дӀаяздар дӀаяздинчу лелорхочо бен сацо ца мега.</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>Сацо деза дӀаяздар харжа.</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>ХӀокху тайпанара дӀаяздар хӀинцале а доллуш ду.</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>ДӀаяздар хийца ца делира: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>Миграци кхолла</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>Миграцин цӀе (лаахь)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>Миграци %file яздина. Цхьана а гӀулкхо дан цало хийцамаш файлан лакхахь гайтина, куьйга бан беза.</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>Миграци язйина яц: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>Дикка лелор дакъошкахь</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>Іаьвшина аренаша migration.ini [RunSettings] нисдарш лардо.</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>Уггар а дукха миграцеш</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>Хьалха миграци дац тӀаьхьа (секундаш)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>Миграцеш юкъара паузa (секундаш)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>Лахара коьрта (1 1аьржа 19)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>Дикка лелоран аре 1 хьалха терахь бу (пауза: 0 1аьржа 60 секунд, коьрта: 1 1аьржа 19) я іаьвшина.</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>Иза шех %time долуш юкъадоьллу.</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>Шех юкъадаккха тӀаьхьа (минуташ, ваьшта)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>Минуташ 1 1аьржа 44640 (31 де) терахь бу, я іаьвшина.</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>Миграци %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>Керла миграци</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>YAML-миграци: иза текстан кепехь язъе я цуьнан гӀулчаш формехь хӀиттае, талла, тӀаккха миграцийн папкехь Ӏалашъе.</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>ХӀара миграци хьалхе дӀаяхна, цундела иза юха Ӏалаш ца йо: хийцина файл контрольни жамӀан талламо дӀатоттур ю. Хийцам керлачу миграцехь бе.</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>Веб-серверна файл язъян ца лало.</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>Лакхахь йолу комментарийн могӀанаш корта бу (description, author, requires, environments, engines). Формехь гӀулч тӀетоьхча я хийцича, миграци юха язйо: гӀулчийн юккъехь йолу комментареш Ӏалаш ца йо.</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>Миграцин цӀе</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>Мича гӀур ю</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>Сайт</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>YAML-текст</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>Талла</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Ӏалашдан</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>ГӀулчаш</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>ДогӀанаш</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Нисдан</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>Хьала дехьадаккха</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>Охьа дехьадаккха</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>ДӀадаккха</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>ХӀинца а гӀулчаш яц: формица цхьаъ тӀетоха я уьш текстехь язъе.</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>%number гӀулч хийца</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>Цхьа гӀулч тӀетоха</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>ГӀулчан форма цуьнан гӀулчан тайпанах йо: цуьнан догӀанаш, хӀора цхьаммо хӀун тӀеоьцу а, иза мичу ражашна йолу а.</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>ГӀулчан тайпа</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>Цуьнан форма гайта</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>ГӀулчан цуьнан тайпана ца девза догӀанаш ду; гӀулч хийцича уьш дӀаэр ду: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>Раж</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>Чохь</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>%modes чохь бен</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>ХӀоттина маьӀна: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>Билламаш, хьажорагаш а, комментари а</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>ЦӀе=маьӀна шишша, запятойца къастийна. ХӀокху гӀулчан маьӀнаш: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>Масал</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>ГӀулч хийца</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>ГӀулч тӀетоха</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>exp:migration:check хӀун боху: корта, документ а, хӀора гӀулч а, шен гӀулчан тайпано теллина.</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>Миграцино таллам чекхбаьккхина.</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Хьалххе хьажар</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>Ӏалашдийр долчу кепехь YAML.</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>YAML гайта</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>YAML-миграцеш</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>дӀаяхна</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>ХӀинца а YAML-миграцеш яц.</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>Редактор</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>Миграцийн папкашкахь YAML-миграци %id яц.</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>ГӀулчан тайпа харжа.</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>ГӀулч тӀетоьхна. Ӏалашъяле миграци талла.</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>ГӀулч хийцина. Ӏалашъяле миграци талла.</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>ГӀулч харжа.</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>ХӀокху гӀулчан форма яц (цикл, я хӀокху дӀахӀоттамехь доцу гӀулчан тайпа): иза текстехь хийца.</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>Миграци мича гӀур ю харжа: сайт я жигара расширени.</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>%file Ӏалашдина. Миграци дӀаяхале, талламан дӀадахьар де.</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>Ӏалаш ца дина: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>Генара дӀахӀоттамаш</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>ХӀокху дӀахӀоттамо шен миграцеш дӀакхачош болу кхин дӀахӀоттамаш: дӀакхачоро миграцеш харжинчу генарчу дӀахӀоттамашка дохьу, цигахь дӀайоьхуьйту, массо а цкъачунна а цхьаьнадогӀуш а. Генарчу дӀахӀоттамехь цкъа а къайле хӀума ца хуьлу: цуьнан чуваларан хаамаша ДӀахӀоттор &gt; Къайле хӀуманаш чуьра цхьаъ цӀе йоккху.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>Керла генара дӀахӀоттам</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>ГӀо</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>%id зӀе таллар</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>Генара дӀахӀоттамаш массо а</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>%parallel кхаччалц генарчу дӀахӀоттамашца цхьана хенахь болх бо; хӀоранна тӀехь цхьана мурна %timeout секунд яла мега.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>Генара дӀахӀоттам</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Адрес</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Чуваларан хаамаш</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>Тобанаш</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>нисдан деза нисдарш</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>файлаш бен (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>SSH догӀа</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>Пароль</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>цхьа а яц (хостан SSH агент а догӀанаш а)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>ЗӀе талла</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>Тобане дӀакхачор цуьнан массо а генарчу дӀахӀоттаме кхочу.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>Генарчу дӀахӀоттамашка дӀакхачо</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>ХӀинца а цхьа а генара дӀахӀоттам нисбина бац.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>Генара дӀахӀоттам %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>Кхузахь хӀумма а дӀа ца дохьу, дӀа ца доьхуьйту: Ӏалашдан нисдарш settings/override/migration.ini.append.php чу йоззу. Чуваларан хаамаш – цӀе ю; цуьнан маьӀна ДӀахӀоттор &gt; Къайле хӀуманаш чохь я хьолехь дуьсу.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>ХӀара нисдарш талла</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>Яздинчу кепара нисдарш, хӀинца а Ӏалаш ца дина.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Талла</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Нисдарш нийса ду. ХӀара могӀанаш дӀаяздийр ду:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>Транспорт</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>цӀе бен; маьӀна ДӀахӀоттор &gt; Къайле хӀуманаш чохь юьсу</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>ДӀаяздийр долу могӀанаш</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>ЗӀе</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>Хостан догӀа</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. Генара дӀахӀоттам</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>Генарчу дӀахӀоттаман цӀе хӀун ю, иза муьлха хьал ду.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>Id</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>Элпаш, терахьаш, - а, _ а, масала production1. Цо генарчу дӀахӀоттаман цӀе йо хаамашкахь а консолехь а (--remotes=production1), тӀаьхьа иза хийца йиш яц.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... ТӀегӀанашца дӀакхачор хьолашкахула оцу рогӀаллехь дӀадоьду.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>Лаахь, запятойшца къастийна, масала production. Тобане дӀакхачор цуьнан массо а генарчу дӀахӀоттаме кхочу.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. ЗӀе</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>Файлаш цига муха кхочу, дӀахӀоттам мичахь бу.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>SSH тӀехула, хийцинарг бен, хадийна дӀакхехьар кхин дӀа до. rsync дӀахӀоттийна меттехь уггар дика харжам.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>Файлашна scp йолу SSH.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>Файлашна sftp йолу SSH.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>Файлаш бен: миграцеш дӀайохьу а юха йоьшу а, амма цигахь дӀа яха йиш яц.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>TLS тӀехула FTP; файлаш бен.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>ХӀокху серверехь, папкехь болу кхин дӀахӀоттам.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Хост</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>Хостан цӀе я адрес, масала node1.example.com. local-на дац.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>Порт</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>Даьсса: SSH-на 22, FTP-на 21.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Декъашхо</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>Некъ</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>Цигара дӀахӀоттаман орам, масала /var/www/site (FTP-на: FTP аккаунтана гуш болу некъ).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>PHP-н командийн могӀа</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>Цигара PHP CLI: php, я /opt/plesk/php/8.4/bin/php санна юьззина некъ.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>Консолан скрипташ цигахь root санна дӀайоьду</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>Генарчу дӀахӀоттаман декъашхо root велахь бен (тӀаккха уьш --allow-root-user цуьнца дӀайоьду).</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. Чуваларан хаамаш</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>ХӀара дӀахӀоттам цига муха чуволу. ЦӀе бен Ӏалаш ца йо.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Цхьа а яц</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>ХӀара дӀахӀоттам болх беш волчу декъашхочун SSH агент а догӀанаш а (local-на гуттар а).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>Къайле хӀума санна Ӏалашдина долахь догӀа.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>Къайле хӀума санна Ӏалашдина пароль (FTP цуьнца чуволу).</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>Къайлечу хӀуманан цӀе</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>ДӀахӀоттор &gt; Къайле хӀуманаш чуьра къайле хӀума, масала deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>ДӀахӀоттор &gt; Къайле хӀуманаш</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>Я хьалан хийцалург</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>Иза латтош йолу серверан процессан хийцалург, масала DEPLOY_KEY (env:DEPLOY_KEY санна Ӏалашйина). Иза къайлечу хӀуманан цӀерийн метта хуьлу.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. Хостан догӀа</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>Лаахь, SSH-на, sftp-на, rsync-на.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>Хостан догӀанан пӀелгийн лар</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... ssh-keygen -l цо зорба тоьхна санна. Иза делахь, хоста хӀара догӀа гайта деза; иза доцуш, догӀа хьалхарчу зӀенехь Ӏамадо.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. Талла</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>Лакхарчу нисдаршца зӀе талла, тӀаккха йоззур йолу могӀанаш талла.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>ХӀара генара дӀахӀоттам дӀабаккха</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>Цуьнан нисдарш settings/override/migration.ini.append.php чуьра дӀадоху. Генарчу дӀахӀоттамехь хӀумма а ца хийцало, цуьнан дӀакхачорш историхь дуьсу.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>ХӀаъ, хӀара генара дӀахӀоттам дӀабаккха</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>ДӀакхачорш</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>ДӀакхачоро хӀокху дӀахӀоттаман миграцеш харжинчу генарчу дӀахӀоттамашка дохьу, уьш цигахь %user санна дӀайоьхуьйту, массо а цкъачунна а цхьаьнадогӀуш а: хьалха массо а генара дӀахӀоттам толлу, цхьаъ ца хилча, лелийна массо а генара дӀахӀоттам юхаберзабо. Иза фонехь дӀадоьду, цуьнан агӀоно массо а генара дӀахӀоттам гойту, иза дӀадоьдучу хенахь.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. Генара дӀахӀоттамаш</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>Генара дӀахӀоттамаш, тоба я шиъ а билгалде.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>Цига дӀакхачо</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. Муха</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>ДӀакхачо</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>ДӀадахьийта а дӀадоло а</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>Миграцеш массо а генарчу дӀахӀоттаме дӀайохьу, толлу, цхьаьна йолчу дӀадахьаран Id-ца дӀайоьхуьйту.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>ДӀакхехьар бен</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>Файлаш дӀайохьу а толлу а, хӀумма а дӀа ца доьхуьйту (FTP генарчу дӀахӀоттамна цхьа бен некъ).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>ТӀегӀанашца</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>ТӀегӀа тӀегӀанца, хьолийн рогӀаллехь (dev, stage, beta, production ...): хьалхара тӀегӀа дӀакхачадо, тӀаккха ков хьоьжу, цхьаммо тӀехьара тӀегӀа тӀелацалц. ХӀора тӀегӀанехь массо а я хӀумма а.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>ХӀара миграцеш бен</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>Лаахь: миграцийн Id, запятойшца къастийна. Даьсса: сайтан а цуьнан шордарийн а массо а миграци.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>Хьалхе таллар бен</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>ХӀаъ, хӀинца дӀакхачо</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>Цхьа хӀума дӀадахьийтина я дӀадолийна дӀакхачорш, керланиг хьалха (хьалхе талларо хаам ца буьту).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>дӀакхехьар бен</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>тӀегӀанашца, %stages тӀегӀа</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>цхьаьна ца догӀу</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>ХӀинца а дӀакхачор дац.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>ДӀакхачор %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>ДӀакхачоран массо а генара дӀахӀоттам шен хьолаца. Кхузахь долийна дӀакхачор хӀара агӀо дӀакъевлича а фонехь дӀадоьду; иза тергал дан агӀо юха схьаелла.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>ДӀакхачорш массо а</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>Хьалхе таллар</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>ТӀехьара тӀегӀа</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>Нисдарш а чуваларан хаамаш а толлуш</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>Хьалхе таллар: массо а генарчу дӀахӀоттаман хьал доьшуш</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>Миграцийн файлаш дӀахьийтуш</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>Кхаьчнарг толлуш</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>Массо а генарчу дӀахӀоттамехь миграцеш дӀайоьхуш</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>Генара дӀахӀоттамаш юхабоьрзуш</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>ДӀакхачор чекхдаьлла. Цуьнан хаам чубуллуш.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>ДӀабахар тергал дан ца делира. ДӀакхачор муха доьду хаа агӀо юха чуйилла.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>Мур</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>ХӀокху агӀоно дӀакхачор тергал до, иза дӀадоьдучу хенахь.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>ЦхьаьнадогӀуш</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>ТӀегӀанаш</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>%stage тӀегӀа шен ковехь хьоьжу</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>Ков %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>%user тӀелаьцна %time</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>ТӀегӀа</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>ДӀадахьийтина файлаш</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>Кернелан верси</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>лелийна: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>лело: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>Мурраш</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>Ков: %stages чуьра %stage тӀегӀа</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>Цунна хьалхара тӀегӀанаш дӀакхачийна. Уьш талла, тӀаккха тӀехьара тӀегӀа тӀелаца: цуьнан генара дӀахӀоттамаш юха а толлу, дӀакхачадо, массо а я хӀумма а.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>ТӀехьара</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>ХӀаъ, тӀехьара тӀегӀа хӀинца дӀакхачо</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>ТӀелаца</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>ХӀара дӀакхачор юхадерзо</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>Иза лелийна массо а генара дӀахӀоттам (%list) шен дӀадахьарал хьалха динчу сурте юхаберза, массо а цкъачунна.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>ХӀаъ, хӀара дӀакхачор хӀинца юхадерзо</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>планехь ду</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>дӀакхехьна</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>дӀакхачийна</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>ковехь хьоьжу</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>харжина</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>кечдина</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>кечам</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>шен тӀегӀане хьоьжу</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>файлаш дӀадахьийтина</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>таллина</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>ца хилла, ша юхаметтахӀоттийна</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>ца хийцина</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>дӀа ца кхачийна</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>кхача йиш яц</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>Генарчу дӀахӀоттамо жоп делла.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>Генара дӀахӀоттам хӀинца леладан йиш яц.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done кхочушйина, %pending хьоьжуш, %failed ца хилла</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>Блокировка</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>цигахь цхьана дӀадахьаро блокировка латтайо</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>меттиг йолу</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stages чуьра %stage</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>Талла генара дӀахӀоттам харжа.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>Хьалха «ХӀаъ, хӀара генара дӀахӀоттам дӀабаккха» билгалде.</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>Генара дӀахӀоттам дӀабаккха ца белира: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>Генара дӀахӀоттам Ӏалашбан ца белира: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Нисдаран файл еша йиш яц: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>Лаххара а цхьа генара дӀахӀоттам я тоба харжа.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>Харжинчу генарчу дӀахӀоттамех цхьаъ нисдаршкахь кхин бац. АгӀо юха чуйилла.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>Хьалха «ХӀаъ, хӀинца дӀакхачо» билгалде.</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>FTP генарчу дӀахӀоттамо миграцеш дӀа ца йоьхуьйту: «ДӀакхехьар бен» харжа, я иза ма харжа.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>ДӀакхачо езаш йолу миграцеш – запятойшца къастийна миграцийн Id ю.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>ДӀакхачор хӀинца а доьду. Иза чекхдаллалц собар де.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>ХӀара дӀакхачор ковехь ца хьоьжу.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>Цхьа а генарчу дӀахӀоттамо хӀара дӀакхачор ца лелийна: юхадерзо хӀумма а дац.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>Хьалха «ХӀаъ, тӀехьара тӀегӀа хӀинца дӀакхачо» билгалде.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>Хьалха «ХӀаъ, хӀара дӀакхачор хӀинца юхадерзо» билгалде.</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>%id Id йолу генара дӀахӀоттам хӀинцале а бу.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>Порт – 1 тӀера 65535 кхаччалц терахь ду.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>Хьал – элпаш, терахьаш, - а, _ а йолу дош ду (alpha, dev, stage, beta, production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>Тоба – элпаш, терахьаш, - а, _ а йолу дош ду (all доцуш): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>Чуваларан хаамаш хӀинца еша йиш яц: %problem. Хьалхарчу дӀакхачорал хьалха уьш ДӀахӀоттор &gt; Къайле хӀуманаш чохь Ӏалашбе (я хийцалург хӀоттае).</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>FTP генарчу дӀахӀоттамо файлаш бен ца оьцу: цига дӀакхачор «ДӀакхехьар бен» ду, цуьнан миграцеш цигахь куьйга дӀайоьхуьйту.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>%id генара дӀахӀоттам settings/override/migration.ini.append.php чохь бац; иза нисбинчу меттехь дӀабаккха.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>FTP тӀехула чувахана, index.php йешна. FTP генарчу дӀахӀоттаман миграцийн хьал еша йиш яц.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>Хийцина</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>Кхоьллина</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>ЦӀе</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Класс</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Дакъа</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>Кхоллархо</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Керла чулацам</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>Массо сайтан тӀаьххьара кхоьллина а, хийцина а чулацам, уггар керланиг хьалха: хьешаша дахьийтинарг, талламна сацийнарг, арахеца хьоьжуш болу черновикаш. Элементаш харжа, уьш сацорах мукъа баха, саца, къайлабаха, гайта, дӀабаха я кхечу дакъа я хьал чу дехьабаха.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>МогӀам ца белла деша: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>Талламна сацор хӀинца а дӀахӀоттийна дац, цундела цхьа а хӀума ца сацадо, сацоран гӀуллакхаш а ца лелайо. Иза 6.0.15-review-hold керлачу дахаран гӀулч дӀахӀоттадо: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>МогӀам фильтр ян</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>ТӀера</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Кхаччалц</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Терахь</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>Кхоьллина (хьалхара арахецар)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Массо</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Статус</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Арахецна</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>Черновик, цкъа а арахецна доцу</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>Хьоьжуш (тӀечӀагӀдаре я терахье)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>Нехийн тускарахь</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Талламна сацийна</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>Сацийна</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>Сацийна доцу</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>Къайлаха</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>Гуш</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>Дахьийтина сайте тӀекхачар</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>Муьлхха а сайте тӀекхачар</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>Аудито дӀаяздинарг бен.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>ХӀинца: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>Логин я пайдаэцархочун ID.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Фильтр</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>Фильтраш дӀацӀанъян</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>Элементаш</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%count чуьра %from – %to</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Элемент дац</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(%ms мс чохь дешна)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>Харжинчу элементашца гӀуллакхаш</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>ХӀокху агӀонехь массо харжа</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>%count харжина</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>ГӀуллакх</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>ГӀуллакх харжа</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>Сацор дӀадаккха</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Талламна саца</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Къайладаккха</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>Гайта</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>Нехийн тускар чу дехьадаккха</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>ДӀадайа</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>Дакъа тӀедилла</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>Хьал тӀедилла</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>Бахьана</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>Сацорна оьшу; сацорца а, аудитехь а лардо.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>Дакъа харжа</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Хьал</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>Хьал харжа</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>Харжинчарна тӀетоха</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>ХӀора элемент шун шен бакъонашца талла. Нехийн тускар чу дехьадаккхарна а, дӀадайарна а тӀечӀагӀдар оьшу. %count элемент сов дерш фонехь бо.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>Харжа</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>Арахецар</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>Дахьийтина адрес</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>%name харжа</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>хӀинца а дац</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(цӀе йоцуш)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>Черновик</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Хьоьжуш</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>Лакхарчо къайладаьхна</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>Сацийна: керла дахьийтинарг</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>Верси %version хьоьжуш</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>Верси %version болх беш</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>Черновик, верси %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>Верси %version арахецна</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>%date терахьна хьажийна</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>адрес яц</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>дӀаяздина дац</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>ХӀокху фильтрашна цхьа а хӀума ца догӀу.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Массо гайта</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>ХӀинца а чулацам бац.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>ХӀора агӀонехь</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>ХӀора агӀонехь %count элемент гайта.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says "not recorded".</source>
+        <translation>Дахьийтинчун адрес а, браузер а аудитан индексера схьаоьцу, иза кхузахь тӀекхочуш яц: бӀогӀамехь «дӀаяздина дац» боху.</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>Адрес а, браузер а — элементана аудито дӀаяздинарш ду (автосацоро уьш гуттар дӀаяздо; арахецаро а, кхолларо а — иза латийна болчу меттехь бен), цуьнан къайлаллин нисдарша лардеш ма-хиллара.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: %count элемент</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>ДӀадайаро элементаш даиман дӀадохуш ду, церан массо версешца а, гочдаршца а. Иза юхадерзо йиш яц.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>Элементаш нехийн тускар чу доьду, цигара уьш меттахӀитто йиш ю.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>ХӀора элемент шун шен бакъонашца талла; кӀелара элементаш долу элемент ма-дарра дуьту (чулацаман структурехь дӀадаккха иза). Иза шу дуйла тӀечӀагӀдан дийхар хир ду.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>Иза фонехь до: цуьнан дӀадахаран агӀо схьайоьллу, хӀора элементан жамӀ чекхдаьлча гойтур ду.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>Харжина элементаш</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>кхин а %count</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Юхадаккха</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>Цхьа а хӀума ца дина</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Бахьана: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>ГӀуллакх хӀинца а фонехь лелаш ду.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>Цуьнан дӀадахар</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>Фонан гӀуллакх ца кхиъна: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Кхочушдина</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Дуьхьал дина</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Ца кхиъна</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>ХӀора элементехь</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>Элемент</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>ЖамӀ</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Хьанна</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>МогӀа тӀе юхадерза</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>ДӀахӀоттор</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>Цхьа а хӀума ца дина</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>ТӀечӀагӀдан</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>ГӀуллакх харжа.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>Цхьаъ мукъане а элемент харжа.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>Цкъачунна 1000 элемент сов ма харжа.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>Элементаш хӀунда сацийна ду дийца.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>Дакъа харжа.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>Хьал харжа.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Форма ца белла деша.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>Урхаллин панель</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>Керла чулацам</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>Дагардарш ца белла деша: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Талламна сацийна</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>Тахана керла</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Талламна сацор хӀинца а дӀахӀоттийна дац (6.0.15-review-hold керлачу дахаран гӀулч).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>Массо керла чулацам</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>Шун модерацин гӀуллакхаш дан бакъо яц (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>Модерацин гӀуллакх чекх ца даьлла: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>Модераци: %count объектана %action</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%total объектах %done: %ok кхочушдина, %refused дуьхьал дина, %failed ца кхиъна</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok кхочушдина, %refused дуьхьал дина, %failed ца кхиъна</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>Иза кхин дац.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>Цуьнан меттиг яц (арахецна дац).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>Шун иза къайладаккха бакъо яц (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>Шун иза гайта бакъо яц (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>Иза хьалха дуьйна къайлаха ду.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>Иза къайлаха дац.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>Къайладаьккхина.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>Гайтина.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>Иза нехийн тускарахь ду: тускар дӀацӀанъе я цигара иза меттахӀоттаде.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>Цкъа а арахецна доцу черновик нехийн тускар чу ца долу: иза дӀадайа.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>Шун иза дӀадайа бакъо яц (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>ДӀадайина.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>Шун иза дӀадаккха бакъо яц (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>Цуьнан кӀелара элементаш ду: уьш гойтучу чулацаман структурехь дӀадаккха иза.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>Иза дӀа ца даьккхина (белхан некъо дӀадаккхар сацийна хила тарло).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>Нехийн тускар чу дехьадаьккхина.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>Дакъа дац.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>Иза хьалха дуьйна хӀокху декъехь ду.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>Шун хӀара дакъа тӀедилла бакъо яц (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>Дакъа тӀе ца диллина.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>Дакъа тӀедиллина.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>Хьал дац.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>Иза хьалха дуьйна хӀокху хьолехь ду.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>Шун хӀара хьал тӀедилла бакъо яц (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>Хьал тӀе ца диллина (белхан некъо хийцам сацийна хила тарло).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>Хьал тӀедиллина.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>Иштта гӀуллакх дац.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Талламна сацор дӀахӀоттийна дац (6.0.15-review-hold керлачу дахаран гӀулч).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>Иза хӀунда сацийна ду дийца.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>Иза хьалха дуьйна сацийна ду.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>Шун иза саца бакъо яц (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>Сацор ца хӀоттийна (белхан некъо хийцам сацийна хила тарло).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>Сацийна.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>Иза сацийна дац.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>Шун иза мукъа даккха бакъо яц (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>Сацор дӀа ца даьккхина (белхан некъо хийцам сацийна хила тарло).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>Мукъа даьккхина; хӀинца а къайлаха ду: шун иза гайта бакъо яц (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>Мукъа даьккхина.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>Массо Ӏалашонаш</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>ТӀаьххьара арахецар</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>Шайн сайтан мах боцу статикан копи GitHub Pages чохь арахеца:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Тиша агӀонаш</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Статикан арахецар</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Статикан арахецар дӀадайина ду.</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Ӏалашо</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Ӏалашонаш еша ца делира: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>тӀедиллар дӀахьош ду</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>таллам оьшу гулдар</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>иза къайладаккха</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>Ӏалашо кхолла</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>цкъа а</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>туториал еша</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>%added тӀетоьхна, %changed хийцина, %removed дӀаяьккхина</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%bytes %limit чуьра (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>Кхин %count могӀамехь гойтуш дац.</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>%pages агӀо яздина</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path %size ю, хостаца цхьана файлана магийначул сов.</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>Доза %percent %</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds с</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag – сайтан хӀинцалера арахецар ду.</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: тӀедиллар %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>/репозиторий/ GitHub-ан проектан сайтана; шен доменна я лелорхочун сайтана еса.</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. Сайт</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. Хост</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. Репозиторе чугӀойла</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. Репозиторий</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. Хьажоргаш а, бух некъ а</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. Шайн домен</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. Гулдарехь хӀун ю</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. Маца арахоьцу</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. Хьажа а, Ӏалашде а</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>GitHub-ан проектан сайт /&lt;repository&gt;/ кӀел ю; релятивни хьажоргаша цигахь а, кхечу муьлххачу меттехь а болх бо.</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>Гулдаро %site-н хӀора агӀо чу ца велла хьаьшша гуш санна схьаэцу, хьажоргаш юха язйо, файлаш копи йо, жамӀ Ӏалашонан папке дӀаяздо. Аша гулдар таллалц а, &quot;Арахеца&quot; тӀетаӀийталц а цхьа а хӀума арахоьцуш дац.</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>Cron-аларг, масала 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>Деплойн догӀа къайле %secret санна Ӏалашдина.</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>Деплойн догӀано хӀокху дӀахӀотторна SSH-ца цхьана репозиторе пуш дан бакъо ло, кхечу цхьаъ а меттиге а ца. Цуьнан къайлах ах ДӀахӀоттор &gt; Къайле хӀуманаш чохь юьсу; гойтуш юкъара ах бен яц.</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>ХӀокху Ӏалашонна кхоьллина деплойн догӀа</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>Деплойн догӀа SSH-ца чугӀо: git-адрес SSH-адрес (git@github.com:owner/repo.git) тӀе хийца.</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>%user-с доладина тӀедиллар дӀахьош ду</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>ХӀокху Ӏалашонан тӀедиллар хӀинца а дӀахьош ду (%detail). Иза чекхдаллалц собар де.</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>ХӀокху Ӏалашонан тӀедиллар хӀинца а дӀахьош ду. Иза чекхдаллалц собар де.</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>/news/ агӀонера /about-us/team агӀоне хьажорг иштта язйийр ю</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>Керла деплойн догӀа кхоьллина. Цуьнан юкъара ах хӀинца репозиторе тӀетоха.</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>ЦӀандинчул тӀаьхьа а дебаг-аракхолладар, формин токен я сессин id долу агӀо цкъа а арахоьцуш яц.</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>Юхадерзор говзанчашна ду: &quot;Ас хаьа хӀокхо хӀун хуьйцу&quot; билгалде, тегин цӀе юха язъе.</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>Сайт %site кхаччалц хила мега, цхьа файл %file кхаччалц, баттахь 100 GB гергга трафик. Мах боцчу планехь репозиторий юкъара хила еза. GitHub Pages туьканнашна я кхечу совдегаран ГӀуллакхашна лерина яц.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>Ӏалашо – цхьана git-репозиторе арахецна цхьа сайт. Кхузахь цхьа а хӀума гулдеш я арахоьцуш дац: Ӏалашдаро нисдарш settings/override/staticcache.ini.append.php чу дӀаяздо.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>Ӏалашо – цхьана меттиге арахецна цхьа сайт, масала GitHub Pages чохь шун юкъара сайт.</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>ДӀахӀоттор &gt; Къайле хӀуманаш чуьра токен</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>Репозиторин workflow-с иза арахоьцу.</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>ХӀара юкъара догӀа язъян бакъо йолуш репозиторе тӀетоха. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, Allow write access билгалде.</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>ТӀетоьхна</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>Кхин git хост</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>Кхечу процесса хӀокху Ӏалашонца болх бо: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>Юхадерза</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>Бух некъ</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Хьалха</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>Бух некъ кӀел</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>Га</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>Дохийна хьажоргаш</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>Гулдарехь дохийна хьажоргаш</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>Гулдар</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>Гулдар %id, %user</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>%name гулдан</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>ХӀинца гулде</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>Таллам оьшу гулдар</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Долийнарг</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>Куьйга, кхузахь</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Юхадаккха</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Хийца</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>Хийцина</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Хийцамаш</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>Хьалха иза талла</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>ХӀара нисдарш талла</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>Гулдаро хӀун хуьйцу талла, цуьнга хьажа, тӀаккха иза арахеца я дӀатасса.</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>Юхадерза арахецар харжа.</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>ТӀаьхьарчу версехь хир ду.</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Коммит</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>Коммиташ</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>Гулдар коммит до, тег тӀетухий %remote тӀе пуш до. Пуш цкъа а нуьцкъах ца до; тӀаьхьо муьлххачу арахецаре юхадерза мега.</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>Хьалхарчу папкица дустина: %added тӀетоьхна, %changed хийцина, %removed дӀаяьккхина, %unchanged ца хийцина.</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>ТӀаьххьарчу арахецарца дустина.</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Чуваларан хаамаш</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>Шен домен</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>Дебаг-аракхолладар, формин токенаш, сессин id а, nonce а гуттар дӀадоккху.</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>Деплойн догӀа</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>%name-н деплойн догӀа</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>ДӀатасса</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>Гулдар дӀатасса</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>Домен</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>Еса: сайтан адрес. Кхечу хьолехь цу сайтан чоьхьара адрес.</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Чекхдаьлла</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>ХӀора хьажорг бух некъах йолало.</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>ХӀора арахецар static/%id/&lt;n&gt; тег йолу коммит ду. Юхадерзаро хьалхарчу арахецаран файлашца керла коммит до: истори юьсу, цхьа а тег ца хьедо, цхьа а хӀума нуьцкъах ца до.</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>ТӀетохарш</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>АгӀонаш схьаэца кхузара</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Файл</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>Файлаш</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>Файлаш яц</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>Файлаш</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>Гулъян ца елла файлаш</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>Фингерпринт</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>Папка</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>SSH-адресана. ДогӀа Ӏалашдинчул тӀаьхьа кхуллу; цуьнан юкъара ах аша репозиторе тӀетоха еза.</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>https:// адресана. GitHub: репозиторехь Contents еша а, язъян а бакъо йолу fine-grained токен.</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>Говзанчашна. Пуш чекхдаьллачу сохьта юкъара сайт хийцало.</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Формаш</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>GitHub-репозиторера мах боцу хостинг.</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>Гаьнгара</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>Git-адрес</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages-о %site сайт а, %file файл а магийна.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>GitHub Pages-ан дозанаш</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages-о файлаш уьш муха ю иштта арахоьцу (_ тӀера болалуш йолчу файлашна оьшу).</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub-о га пуш динчу кепехь луш ю. Ӏадатан.</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, шайн сервер: муьлха а git-репозиторий.</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>Хьалхарчу арахецаре юхадерза</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>ГӀо</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>Масторан гӀо</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>Уьш къайлаяха</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Истори</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>%name-н истори</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Хост</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>GitHub Pages-о гулдар муха схьаэцу</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>Ас хийцамаш талла бина</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>Ас хаьа хӀокхо хӀун хуьйцу</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>Id</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>Иза дӀадайина ду: иза латтийталц цхьа а хӀума гулдан йиш яц.</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>Иза гӀаролехь %user санна дӀахьо; хӀара агӀо дӀакъовла мега.</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>ТӀедиллар %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>Къайле %secret санна Ӏалашдина.</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Тайп</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>ТӀаьххьара арахецар</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>ХӀара агӀонаш юкъаъ ца яхийта</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>ХӀара декъаш юкъаъ ца дахийта</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Хьажоргаш</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>Юха язйина хьажоргаш</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>Болх беш болу сайт</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>Гулдаре хьажа</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>Жима элпаш, терахьаш, _ а - а, масала github-public. Цо папкин а, тегийн а (static/&lt;id&gt;/&lt;n&gt;) цӀе ло, тӀаьхьо хийца йиш яц.</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>Керла догӀа кхолла</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>Ӏалашо кхолла</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>ДогӀа кхолла</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>Хьалха хостехь репозиторий кхолла; еса а мега.</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>Манифест</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Хаам</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>Дукхахйолу агӀонаш</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>ЦӀе</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>ДӀахӀоттор &gt; Къайле хӀуманаш чохь токенан цӀе</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>Керла Ӏалашо</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>ТӀехьара</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>ХӀан-хӀа</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>ХӀинца а коммит дац.</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>ДогӀа ца кхоьллина: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>php командин могӀанан бинарни файл ца карийна. migration.ini [AdminSettings] PhpCliPath цуьнан буьззина некъ тӀе билгалде.</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>ХӀинца а тег яц.</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>ХӀинца а Ӏалашо яц.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Цхьа а яц</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>Гулдарехь дац.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>ХӀинца а цхьа а хӀума арахецна дац.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>ХӀинца а цхьа а хӀума арахецна дац: хӀора файл керла ю.</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>Хаам бар</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>Графикаца</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>Консолехь</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>Серверехь: ./console exp:static:serve %id цо иза цу кепехь ло.</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>ХӀора могӀанехь цхьа некъ, * муьлхачу а декъах терра ду: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>Ӏалашонца цӀе бен Ӏалашйо; токен я догӀа ша ДӀахӀоттор &gt; Къайле хӀуманаш чохь юьсу, цкъа а журналехь ца го.</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>АгӀоната цӀе яьккхинарг бен</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>Токенца бен. env:NAME цуьнан метта серверан гонахьарчу хьолан хийцалуш долу еша.</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>Хьалххе хьажар схьаделла</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>Гулдар хоста лур долчу кепехь Ӏалашонан папкера схьадиллу. Хьажорг шуна цхьана сохьтана болх беш ю.</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>Ца оьшуш. Еса: арахецнарг.</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>Ца оьшуш. Доменаца сайт цуьнан орамехь луш ю.</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Аракхолладар</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>АгӀонаш</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>Ӏалашонан агӀонаш</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>ТӀе ца лаьцна агӀонаш</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>ТӀаьхьара кечдар</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Хьалххе хьажар</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>Хьалххе хьажар а, арахецар а</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>%name: хьалххе хьажар а, арахецар а</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>Гулдаре хьалххе хьажар</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Хьедар</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>Юкъара адрес</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>Юкъара догӀа</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>Арахеца</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>Сайтан статикан копи GitHub Pages чохь я муьлххачу git хостехь арахеца: иза гулде, хийцамаш талла, арахеца, оьшуш хилча хьалхарчу арахецаре юхадерза.</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>Юхадерза арахецар</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>Арахецарш</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Пуш</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>Туториал еша</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>ДӀаяздар</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>ТӀе ца лаьцна</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>Релятивни</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Юха чуйолла</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>ДӀаяьккхина</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>ДогӀа хийца: шира догӀано болх бар сецар ду</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Отчет</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>Гулдаран отчет</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Репозиторий</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Хьажар</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>Хьажаро хӀора нисдар толлу, дӀаяздийр долу могӀанаш гойту. ХӀинца а цхьа а хӀума Ӏалашдина дац.</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Юхадерзо</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Юхадерзор</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Ӏалашдан</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>График</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>Лахаран агӀо</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>Декъийн id, запятойшца къастийна.</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>Уьш болх беш болчу сайте дахийта</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>Нисдар</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Нисдарш</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>%name-н нисдарш</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>ДӀахӀоттор</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>ДӀахӀоттор &gt; Къайле хӀуманаш</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>МогӀамашкахь гойту, масала &quot;GitHub Pages чохь юкъара сайт&quot;.</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>GitHub App-ца чугӀойла GitHub-ца интеграцица хир ю.</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>Сайт</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>Арахеца сайт</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Барам</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>Барам а, дозанаш а</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>Гулдаран барам</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Тиша агӀонаш</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Долийна</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>%user-с %time-хь доладина.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Хьал</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Статикан арахецар</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>Статикан арахецар дӀадайина ду</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Статикан арахецар дӀадайина ду.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>Статикан арахецар дӀадайина ду. Хьалха иза ДӀахӀоттор &gt; Статикан арахецар чохь лато.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>Статикан арахецар латийна ду.</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>%total чуьра %step гӀулч</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>ГӀулчаш</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>ЦӀандар</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>ДӀайайа</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Лато</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>Статикан арахецар лато</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Тег</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>Тегаш</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Ӏалашо</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>Ӏалашонаш кхолла а, хийца а мега, амма иза латталц цхьа а хӀума гулдеш я арахоьцуш дац.</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>Лахаран системашна хӀун еша еза дуьйцу.</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>Гулдар дӀатасса ца делира: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>Гулдар тӀаьххьарчу арахецарах терра ду: арахеца хӀума дац.</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>Гулдар дӀатесна: папкехь юха а тӀаьххьара арахецар ду.</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>Ӏадатан маьӀнаш дукхахйолчу сайташна догӀу.</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>Папкехь хӀинца а арахецна доцу гулдар ду; керлачу гулдаро иза хуьйцур ду.</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>ТӀедилларийн папке яздан йиш яц: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>ТӀедиллар кечдан ца делира: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>ТӀедиллар доладан ца делира.</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>ТӀедиллар чекхдаьлла. Цуьнан отчет чуйоллуш ю.</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>ТӀедилларна чувелла лелорхо оьшу.</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>ТӀедиллар доладелла, амма цо шен процессан id ца элира. %detail талла.</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>ДогӀа</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>Уггаре доккха файл: %path, %size.</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>ДӀаяздийр долу могӀанаш</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>Лахаран системашна агӀонийн могӀам; юкъара адрес оьшу.</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>АгӀонаш чу ца велла хьаьшша гуш санна схьаоьцу. Администрацин а, тадаран а siteaccess цкъа а ца хьоьху.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>Хьедар тергал дан ца делира. ТӀедиллар муха ду хаа агӀо юха чуйолла.</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>ДогӀан юкъара ах:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>Гаьннан орам</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>Къайленийн склад хӀинца а нисйина яц (./console exp:upgrade --apply цуьнан таблица кхуллу), цундела цхьа а догӀа Ӏалашдан йиш яц.</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>Сервер ша чугӀо (шен SSH догӀаца я credential helper-ца), я репозиторий хӀокху серверехь ю.</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>Нисдар дӀаяздан ца делира: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Нисдарш нийса ду. ХӀара могӀанаш дӀаяздийр ду:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Нисдаран файл еша йиш яц: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>Сайт цу арахецаран файлашка юхаверзар ву; хӀинца а арахецна доцу гулдар хьалха арахеца я дӀатасса деза.</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>Йоцучу адресашна сайтан шен агӀо.</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>Ӏалашо Ӏалашъян ца елира: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>Ӏалашо хӀинца а хӀокху догӀаца чу ца гӀо: цуьнан нисдаршкахь &quot;ХӀокху Ӏалашонна кхоьллина деплойн догӀа&quot; харжа.</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Ӏалашонаш еша ца делира: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>ХӀинца а талла гулдар дац.</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>ХӀокху дӀахӀотторехь хьалхара siteaccess дац. Администрацин а, тадаран а siteaccess цкъа а арахоьцуш дац.</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>ХӀокху агӀоно тӀедиллар дӀахьочу хенахь тергал до; агӀо дӀакъевлча иза гӀаролехь дӀахьур ду.</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>ХӀокху Ӏалашонан хӀинца а деплойн догӀа дац.</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>ХӀара Ӏалашо хӀинца а кхузахь гулйина яц.</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>ХӀокху Ӏалашонан иза ду.</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>ХӀара гулдар дӀатосу: папкехь юха а тӀаьххьара арахецар хир ду. Болх беш болу сайт ца хийцало.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>Хьалха &quot;Ас хийцамаш талла бина&quot; билгалде.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Хан</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>Триггераш</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>Тегин цӀе юха язъе</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>Ца хийцина</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>Вебхук</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>ХӀун</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>ХӀун хийцало</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>ХӀора файл хӀун ю; гуттар дӀаяздо.</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>ТӀедилларо дина хӀума а, цуьнан дӀаяздар а. Кхузахь доладина тӀедиллар хӀара агӀо дӀакъевлча гӀаролехь дӀахьур ду.</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>ТӀедилларо гӀалаташ санна арахецнарг</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>АгӀоната цӀе яьккхинарг, арахецначу чулацаман хӀора сурт а</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Маца</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>Арахецар ца хилча</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>Арахецар кхиамца хилча</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>Чулацам арахецча</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>Копехь доцучу хӀуманашка хьажоргаш мича йоьду (лахар, чугӀойла).</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>Статикан копи мичара луш ю.</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>Муьлха сайт арахоьцу, Ӏалашонан цӀе хӀун ю.</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>Муьлххачу некъа кӀел болх бо. Ӏадатан.</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>Шен домен билгалйинчу хенахь гуттар дӀаяздо.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>ХӀаъ</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>Кхузахь а, консолехь а гуттар куьйга гулдан а, арахеца а мега.</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>цӀе бен; маьӀна ДӀахӀоттор &gt; Къайле хӀуманаш чохь юьсу</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>%path кӀел</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>отчет йоцуш чекхдаьлла</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>тӀетохар</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>ца хилла</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>файл</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages, я docs папкица main.</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>git хост</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (токенца) я git@github.com:owner/repo.git (деплойн догӀаца); цу чохь цкъа а пароль я токен ца хила еза.</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/, сайтан картана а, канонически хьажоргашна а.</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>сурт</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>цкъа а</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>хӀан-хӀа</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>генара репозиторий яц</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>яц: коммиташ папкехь юьсу</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>яц: цхьа а хӀума ца хийцина</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>пуш ца дина</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>цхьа а хӀума ца хийцина</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>агӀо</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>кхиамца</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>proc_open дӀайайина ю, цундела кхузахь тӀедиллар доладан йиш яц. Серверехь ./console exp:static:build лелае.</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>арахецар</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>арахецна</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>пуш хьоьжуш ду</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>пуш дина</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>тӀе ца лаьцна</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>релятивни</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>юхадерзор</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>юхадерзина</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>дӀахьош</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>папка бен</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: CNAME файл чу дӀаяздо. Доменан DNS хоста дийцинчу кепехь хосте хьажае; HTTPS болх бан хьовсаш цхьа хан яла мега.</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>хӀаъ, хӀинца а арахецна дац</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>Цхьа GitHub App</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>Репозиторин workflow-с иза арахоьцу. Гулдаро workflow-н файл язйо; папка еса юьтуш йита.</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>GitHub-репозиторица а, токенца я GitHub App-ца а Ӏалашо Ӏалашйинчул тӀаьхьа, кху гӀулчано репозиторий кхолла а, GitHub Pages лато а мега. Иштта дацахь, хьалха GitHub-хь репозиторий кхолла; еса а мега.</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>Га я GitHub Actions?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>DNS талла</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>Репозиторий яцахь, иза кхолла</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>GitHub-хь репозиторий кхолла, цуьнан нисдаршкахь GitHub Pages лато (Settings &gt; Pages).</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>%repo репозиторий яцахь (дийхча) кхуллу, Ӏалашйинчу кепара гаьнгара я GitHub Actions-ера GitHub Pages латайо, шен домен а, HTTPS а дӀахӀоттайо. Ӏалашдина нисдарш лелайо: хьалха хийцамаш Ӏалашбе.</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>GitHub-хь мадарра</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>Хьалха шен домен язъе.</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>ХӀора push хьалха хӀокху дозанашца таллало.</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>GitHub-хь https:// адресана. Кху дӀахӀотторна нисйина App чугӀо; цунна дӀахӀотторан id оьшу.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages-о къайлаха репозиторий мах болчу планехь бен ца гойту.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: субдоменна (www.example.com) &lt;owner&gt;.github.io-на CNAME-йоза оьшу; коьрта доменна (example.com) A-йозанаш %ips.</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>GitHub App-ан дӀахӀотторан id</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>ТӀаьххьара Pages гулдар</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>Дозанаш а, бехкамаш а</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>Мах боцу планехь GitHub Pages-на оьшу.</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>GitHub-хь</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>GitHub App-ца бен: GitHub-хь App-ан дӀахӀотторан адресан чаккхенгахь долу терахь. App ша staticcache.ini-хь дӀахӀоттайо (GitHubAppId, GitHubAppKey).</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>Къайлаха</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>Массарна</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>Хьалха GitHub-репозиторица а, токенца я GitHub App-ца а Ӏалашо Ӏалашйе.</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>ХӀара йозанаш доменан провайдерехь дӀахӀиттае:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>GitHub-хь дӀахӀотто</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>%domain-ан DNS хӀинца а GitHub Pages-е хьажийна яц.</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>%domain-ан DNS GitHub Pages-е хьажийна ю.</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>GitHub-ца интеграци кхузахь яц: %problem. Гаьнга арахецар делахь а болх беш ду; репозиторин нисдаршкахь GitHub Pages лато.</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>Кху Ӏалашонна GitHub-ан гӀулчаш яц: %problem.</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>GitHub Pages-ан хьал гойту чуваларан хаамаш токен я GitHub App елахь.</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>Шайн домен лелае</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>ХӀун харжа: токен, деплойн догӀа я GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>GitHub-репозиторица а, токенца я GitHub App-ца а мастеро шуна репозиторий кхолла а, GitHub Pages лато а, домен дӀахӀотто а мега (4-гӀа гӀулч).</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>гулйеш</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>гулйина</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>GitHub Actions-ера</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>%branch гаьнгара</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>хӀинца а яц</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>ца карийна</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>дӀайайина</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>къайлаха</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>массарна</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>рогӀехь</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>ца хаьа</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%count %pages агӀон чохь:</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>Текстийн дәл тӀехьа .gz (а, .br а) файл, церан хьалха ерзо хостийн тӀера.</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>АгӀонан хиллачу адрессийн а, цуьнан кхин цӀерийн а хӀора агӀо, хиллачу кепашна болх бан кхин.</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>ХӀора хан а, GitHub Actions сайт дӀакхачо, йазйо.</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>SPDX id, масала CC-BY-4.0, я йозуш йолу текст шех.</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>Пхьегӏа</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>Серверана кхайкхамаш</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Комментарешш</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>Хаамаш гулдеш йолу формаш</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>GitHub Actions болх</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>Агӏонаш чохь бос йоцу меттиг а, комментарешш а кӀезиг.</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>Чулацаман бакъо</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Чугӏо</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>Жима дан</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>Кхин формаш</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>Хьалха юкъайоккху</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>Кхин дӏаайа агӀонаш</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>Кхин дӏаайа агӀонаш: %count.</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Леха</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>Лехаман индекс: %languages чохь %pages агӀо.</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>Чулацаман хеш хилла цӀераш йолу стилан листаш а, скрипташ а, браузерша церан кхача ларйан.</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>Хийцина агӀонаш, тӀаьхьарчу хийцамал тӀаьхьа масех минот даьлча (cronjob дакъа staticpublish).</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>Чулацаман бакъо, лахахь йолчу аренгара.</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>Берриг сайт, графикан хенашка (cronjob дакъа staticpublish).</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>Хӏара агӏонийн дакъош серверана оьшу; хӏорга шен резервни хилла. Хьалха хьажа, арахеца хьалха.</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>Статикан болх бацаран</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>Репозиторий хӏун ю, хостехь иза схьайоьллучунна.</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>дӏахӏоттийна</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>резервни текст</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>болх беш болчу сайтан формийн эхь</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>болх беш болу сайт</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>копин лехаман агӀо</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>Форма дӀасаяхь йиш яц.</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>Баркалла: форма дӀаяхьа.</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>Форма схьаяцна яц: хьажа ахь язйинчуьнга а, юха дӀаяхьа.</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>Копехь доцу агӀонашка хьажорагаш дӀаяха</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>Администраце хьажорагаш дӀаяха</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>Церан текст йисина йуьсу. Суьрташ, формаш а кхечу сайташка хьажорагаш а цкъа а дӀа ца йоху.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Верси</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>Арахеца сайте тӀекхачарш</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Сайте тӀекхачар</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>Орамехь</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>Орамехь сайте тӀекхачар дац: хӀора а шен папкехь ю, орамо уьш хьажийна</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Сайте тӀекхачарш</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>Билгалде цхьа сайте тӀекхачар, я шайн URI-префиксаца цхьа хост декъа масех. Орамехьниг цигахь латтайо, кхинарш шайн префиксан папкехь (/ger/); царна юккъера хьажоргаш копехь йисина. Администрацин тӀекхачарш цкъа а ца гойту.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>%site тӀехь %target статикин публикаци ца хилла</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>%site тӀехь %target статикин публикаци кхиамца чекхъяьлла</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>ХӀара кехат %site-с хьажийна, статикин публикацин Ӏалашо %target цуьнах хьоьхуш дела.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>%site тӀехь дӀакхачо %deploy ца хилла</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>%site тӀехь дӀакхачо %deploy ков тӀехь хьоьжуш ю</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>%site тӀехь дӀакхачо %deploy кхиамца хилла</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>ХӀара кехат дӀадахьийтина %site, хӀунда аълча migration.ini [RemoteSettings] Notify[] иза дехна.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>Хаамийн тайпанаш (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>Лерина %time, юха %minutes минот яьлча</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>Хаамийн тайпано классан атрибутан цхьа кепара маьӀна латто а, нисдо а: текстан могӀа, сурт, юкъаметтиг. Церан дукхахдерг Бухо луш ду, шордарша кхин а тӀетуху. Кхузахь уьш дерриге а бу, уьш мила луш ву а, чулацаман мел дакъа царах пайдаоьцуш ду а. Хаамийн базо лелош болу, амма цкъа а цхьаммо а дӀаяздеш боцу хаамийн тайпано и шена чохь долу чулацам талхаво.</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>Классийн тобанаш</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>ТӀаьххьарчу минотийн лараш ца лелош, хӀинца юха лара.</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>Юха лара</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Терго</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>ДӀаяздина</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>Лелош</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>Ца лелийна</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>Хаамийн тайпанаш луш долу шордарш</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>Классан атрибуташ</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>Объектан атрибуташ</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>ДӀаязбина бац</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>МогӀамехь бу, файл яц</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>Лелош болу, амма дӀаязбина боцу хаамийн тайпанаш: %count</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>Классан атрибуташ (%class_attributes) а, объектан атрибуташ (%object_attributes) а цхьана а шордаро я нисдаро дӀаяздеш боцу хаамийн тайпа долуш ду. Церан объекташ гайта, нисъя я арахеца йиш яц. Хаамийн тайпа луш долу шордар латаде, я класс хийца.</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>ХӀорш бен ма гайта</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>Хаамийн тайпа лахар</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>Идентификатор, цӀе, PHP класс я шордар.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Гайта</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Массо</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>Луш верг</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>Массо а</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>Бух</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>ХӀокху фильтре нийса хаамийн тайпа дац.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Массо гайта</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>Шордар</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%count хаамийн тайпанех %shown, %used лелаш</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>Хаамийн базехь хӀокху хаамийн тайпанийн классан я объектан атрибуташ ю, амма content.ini чохь царах цхьа а бац, я цуьнан файл яц.</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>%provider хаамийн тайпанаш</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>Хаамийн тайпа</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>PHP класс а, файл а</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>Классаш</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>Объекташ</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>Билгалонаш</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>цхьаъ а яц</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>Лахарна нийса хаамийн тайпа дац. Лахар цӀанде.</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>%count хаамийн тайпанех %shown гайтина</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>Гайтина хаамийн тайпанаш: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>%column-ца рогӀехь дӀанисдан</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>Лерина %time</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>Хаамийн тайпанаш дерриге а</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>ГӀоьнан агӀо</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>ХӀара хаамийн тайпа лелош ду, амма дӀаязбина дац</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>Цхьана а шордаро хаамийн тайпа дӀа ца яздеш долчу хенахь лахахь долчу классийн объекташ гайта, нисъя я арахеца йиш яц. И луш долу шордар латаде, иза content.ini [DataTypeSettings] AvailableDataTypes[] чу тӀетоха, я классаш хийца.</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini чохь хӀара хаамийн тайпа ду, амма цхьана а хаамийн тайпанийн каталогехь цуьнан файл яц. Цхьаммо а иза ца лелайо; иза AvailableDataTypes[] чуьра дӀадаккха, я цуьнан шордар латаде.</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>ХӀокху хаамийн тайпанах лаьцна</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>Идентификатор</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>ЦӀе</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Шордар %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>цхьа а вац</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>PHP-класс</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Файл</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>AvailableDataTypes[] чохь</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>хӀаъ</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>хӀан-хӀа</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>Цуьнан маьӀнин бӀогӀамаш</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>Цуьнан классан атрибутан нисдаран бӀогӀамаш</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>Таблицаш</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>БӀогӀамаш а, таблицаш а хаамийн тайпанан код ешарца карийна: иза некъгайтар ду, чӀагӀо яц.</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>Кепаш</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Сайте тӀекхачар</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>Кеп</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>Карийна</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>хӀара администраци</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>тӀеэцна сайт</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>Хийцамаш боцуш: классе я атрибуте нийса йолу хийцаман кеп хӀоршел хьалха ю.</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>Иза лелош долу классаш (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>Цхьана а классехь хӀокху хаамийн тайпанан атрибут дац.</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Класс</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>Атрибуташ</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>Классан атрибуташ (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>Атрибут</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Параметраш</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>Оьшуш ду</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>Лохуш</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>Гоч дан мега</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>Хаамаш гулдо</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>Иза лелош долу цхьа чулацам</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>ТӀаьххьара хийцинарг хьалха</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Хийцина</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>Шад %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>ХӀора гочдарехь шен маьӀна ду.</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>Лахаро цуьнан маьӀнаш индексе доху.</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>Цо хьешийн хаамаш гулбан тарло (формаш).</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>МогӀамаш цуьнца хӀиттор тарло: хӀитторан догӀа %type.</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>РогӀехь дӀанисъян мега</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>Цуьнан маьӀнаш кхечу объекташка хьажийна ду.</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>Уьйраш</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>Иза атта текстах дуза мега (импорт, REST).</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>Текстах</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>Иза файлах дуза мега.</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>Файлах</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>Цуьнан классан атрибутан нисдарш пакеташка дуьйлу.</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>Пакеташ</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>Чулацам (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from - %to, %count чуьра</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>МогӀам фильтр ян</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>Массо классаш</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Дакъа</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Меттанаш</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Да</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Арахецна</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>РогӀалла юхатоха</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Элемент дац</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>ХӀора агӀонехь</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>ХӀора агӀонехь элементаш %count гайта.</translation>
     </message>
 </context>
 </TS>

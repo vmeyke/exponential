@@ -984,6 +984,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>Wodia nu le axa sia ɖeka dzi ko: %from va se ɖe %to le %count me.</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Dzime kple tsɔtsɔkpewo ƒe nyatakaka ƒomevi ɖesiaɖe, kple alesi hatsotsoawo kple nyatia zãnɛ.</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Nyatakaka ƒomeviwo</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2316,6 +2324,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>Woate ŋu awɔ dzesiɖoƒe na sistɛm ƒe axawo hã: ʋu axa la (Ɖoɖowɔwɔ, dzodzro ŋutinya, zãlawo ƒe lisiti ...) eye nàtia «Wɔ dzesiɖoƒe na axa sia» le eŋgɔ. Dzesiɖoƒe siawo si dzesi si nye kpe ƒe ɖɔlinu le.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>Mɔɖeɖe megali asiwò be yeaʋu axa sia le afi sia o. Ɖe dzesiɖoƒe la ɖa, alo bia dziɖula be wòaɖe mɔ na wò.</translation>
     </message>
 </context>
 <context>
@@ -5165,6 +5177,210 @@
         <source>Go to the first page</source>
         <translation>Yi axa gbãtɔ la dzi</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>Bubuwo</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>Ŋkeke 7 mamlɛtɔ</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>Ɣeyiɣi si nètia</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>Nya siwo katã</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>Nya ɖesiaɖe</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>Nyagbe pɛpɛpɛ</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>Kadodo</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>Ŋkɔ A–Z</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>Ŋkɔ Z–A</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>Wotrɔ asi le eŋu, yeyetɔwo gbã</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>Wotrɔ asi le eŋu, xoxotɔwo gbã</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>Woɖe ɖe go, yeyetɔwo gbã</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>Woɖe ɖe go, xoxotɔwo gbã</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Wotrɔ asi le eŋu</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>Tsotsonuwo</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>Ɖe tsotsonuwo fia</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>Ɣla tsotsonuwo</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Ɖo ɖe ɖoɖo gbãtɔ me</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>Zãe</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>Nyawo</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>Emenu ƒomevi</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>Ɖe bubuwo fia (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>Tia emenu ƒomevi ɖeka be nàdi nu le eƒe nɔnɔmewo dometɔ ɖeka me.</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Akpa</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Tso</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Va se ɖe</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>Gɔmedzeŋkekea menye ŋkeke si sɔ o.</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>Nuwuŋkekea menye ŋkeke si sɔ o.</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Nutɔ</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>Zãla ƒe ID, gesiŋkɔ alo e-mail adrɛs.</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>Womekpɔ zãla aɖeke na “%input” o.</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Gbe</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>Gbe ɖesiaɖe</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Teƒe</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>Teƒe %count</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>Emetsonuwo le axa ɖeka dzi</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>Emetsonuwo na “%text” (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>Emetsonuwo (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>Ɖo ɖe ɖoɖo nu le</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>Ɖoɖo</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>Tsotsonu siwo le dɔ wɔm</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>Ɖe tsotsonu sia ɖa</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>Alo tia tsotsonuwo eye nàzã wo be nàkpɔ emenu siwo sɔ kple wo.</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>Ne èŋlɔ nyawo vɔ la, tsotsonuwo ɖea didia dzi kpɔtɔna.</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>Womekpɔ emetsonu aɖeke na “%text” o.</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>Womekpɔ emetsonu aɖeke o.</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>Ɖe tsotsonu ɖeka si le etame ɖa.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Gbegɔmeɖeɖewo</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Dɔwɔwɔwo</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>Trɔ asi le %name ŋu</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Trɔ asi le eŋu</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -7514,6 +7730,10 @@
         <source>Setup &gt; Cronjobs</source>
         <translation>Setup &gt; Cron dɔwo</translation>
     </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>Cron dɔ ƒe akpa aɖeke mewɔ dɔ haɖe o: dɔwo ƒe ɖoɖo, nu siwo wotsɔ vae, gbeƒãɖeɖewo kple didi ƒe nuxlɔ̃ɖoɖo le lalam. Wɔ php bin/php/installcrontab.php --add --apply, alo tsɔ --show ƒe fliwo kpe ɖe crontab ŋu.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/dashboard/drafts</name>
@@ -8058,8 +8278,8 @@
         <translation>Ŋgɔgbewɔlawo kple dɔwɔnu siwo tso ame bubuwo gbɔ eye wotsɔ wo kple Exponential ƒe ŋutɔdidi ƒe ŋlɔɖiwo le gbɔ le ŋtɔŋu faɛlwo kple LICENSE faɛl me, abe alesi lisɛns la di ene.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>Esia nye Exponential ƒe kpekpeɖeŋudelawo siwo tsɔ woƒe dɔ na 7x le eZ Systems Contributor Licensing Agreement ƒe ɖoɖowo nu ƒe lisiti. Abe alesi nubabla sia ɖe mɔ ene la, 7x tsɔa kpekpeɖeŋu ɖe sia ɖe zua ame bubuwo hã le lisɛns ɖeka si faɛl si me kpekpeɖeŋu la le lia te. Lisiti la gblɔa kpekpeɖeŋudela ɖe sia ɖe ƒe ŋkɔ, kadodo ƒe nyatakaka (ne ele eme) kple faɛlwo si wotsɔ kpe ɖe eŋu.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>Kpekpeɖeŋunala siwo ŋu wodoa ŋkɔ le woƒe dɔ si wowɔ le Exponential kple software si me wòtso la ŋu, kpe ɖe faɛl siwo me wokpe ɖe eŋu la ŋu. Esia nye akpedada, menye copyright gbeƒãɖeɖe o: wotsɔa kpekpeɖeŋu siwo wona Exponential la naa Exponential Foundation kple 7x le Contributor Licensing Agreement la te.</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13881,32 +14101,20 @@ Nyabiala: Womaɖe agbawo ɖa le ɖoɖoɖi me o.</translation>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%evaluate_link"&gt;Kpɔ Exponential Enterprise Edition ƒe nɔnɔme&lt;/a&gt; - &lt;a href="%share_link"&gt;Zu Exponential Hadɔwɔla, ɖɔ nu ɖekae eye nàkpe ɖe eŋu&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; kple bubuwo.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class="edition-info"&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>&lt;span class="edition-info"&gt;%edition&lt;/span&gt; ye nɔ dɔ wɔm. Be nàkpɔ nyatakaka geɖe la, kpɔ &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; kple bubuwo.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> Be nàkpɔ nyatakaka geɖe la, kpɔ &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
     </message>
     <message>
-        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; kple bubuwo.</translation>
+        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href="%evaluate_link"&gt;Kpɔ Exponential (tso 7x gbɔ) ƒe nɔnɔme&lt;/a&gt; - &lt;a href="%share_link"&gt;Zu Exponential Hadɔwɔla, xɔ kpekpeɖeŋu eye nàkpe ɖe eŋu&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; kple bubuwo.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13915,6 +14123,61 @@ Nyabiala: Womaɖe agbawo ɖa le ɖoɖoɖi me o.</translation>
     <message>
         <source>Help center</source>
         <translation>Kpekpeɖeŋu ƒe afi</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>Emenuwo</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>Agbalẽ ƒe axawo</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>Zãlawo</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>Emenu ƒe hatsotsowo</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>Dziɖuɖu</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>Axa %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>Kpɔ emetsonuwo katã</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>Nuŋɔŋlɔ %count</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>Emetsonu ɖeka</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>Aɖaŋuɖoɖo %count</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>Aɖaŋuɖoɖo aɖeke meli o</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>Womete ŋu tsɔ aɖaŋuɖoɖoawo vɛ o.</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>Aɖaŋuɖoɖowo</translation>
     </message>
 </context>
 <context>
@@ -14383,6 +14646,14 @@ Nyabiala: Womaɖe agbawo ɖa le ɖoɖoɖi me o.</translation>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>Ɖoɖoɖi sia nye kpɔɖeŋu gbogbo: ame ɖesiaɖe ate ŋu anya dziɖula ƒe mɔxenya, eye womate ŋu atrɔ alo agbugbɔ dziɖula ƒe mɔxenyawo ɖo o. Mègbɔ nu tame aɖeke ɖe afisia o.</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Wò mɔ̃ɖaŋuwo</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Dedienɔnɔme ƒe nuwɔwɔwo</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14672,6 +14943,14 @@ Nyabiala: Womaɖe agbawo ɖa le ɖoɖoɖi me o.</translation>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>Mɔfiafiawo, didi kple alesi nàgblɔ vodada ŋu.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Nyatakaka yeyewo</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Nyatakaka yeyetɔwo, nu siwo wolé ɖi hena dzodzro, kple dɔwɔwɔwo le esiwo wotia ŋu.</translation>
     </message>
 </context>
 <context>
@@ -15130,6 +15409,46 @@ Nyabiala: Womaɖe agbawo ɖa le ɖoɖoɖi me o.</translation>
         <source>Synchronisations</source>
         <translation>Ɖekawɔwɔwo</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>GraphQL API la: eƒe nuwuƒe teƒe, skema la kple fefeƒe aɖe si nàtsɔ ado biabiawo akpɔ.</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Ʋuʋuwo</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Tɔtrɔ siwo wowɔ le ɖoɖoa ŋu eye wodzra wo ɖo abe faɛlwo ene: woƒe nɔnɔme, wɔwɔwo, wɔe kple gbugbɔe ɖe megbe.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Nyatakaka yeyewo</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Nyatakaka yeyetɔwo, nu siwo wolé ɖi hena dzodzro, kple dɔwɔwɔwo le esiwo wotia ŋu.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Ɖe nyatakakaɖoƒe aɖe ƒe kɔpi si metrɔna o ɖe dutoƒo le GitHub Pages alo git sɛva ɖesiaɖe dzi.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Ɖeɖe ɖe dutoƒo si metrɔna o</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Nyatakaka ƒomeviwo</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Dzime kple tsɔtsɔkpewo ƒe nyatakaka ƒomevi ɖesiaɖe, kple alesi hatsotsoawo kple nyatia zãnɛ.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15294,6 +15613,22 @@ Nyabiala: Womaɖe agbawo ɖa le ɖoɖoɖi me o.</translation>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>Akɔnta siwo ame aɖeke mezãa o alo siwo hiã be woakpɔ wo; tɔ wo te, ʋu wo alo tsɔ wo yi go.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Zãlawo ƒe dzodzro ŋutinya</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>Ame si trɔ nu, ge ɖe eme alo wogbe nɛ, le akɔnta ɖesiaɖe nu; tsotsonu kple tsɔtsɔ yi go.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Geɖeeme ƒe nyatakaka</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>Ame siwo ge ɖe eme, geɖeemewo kple kpododonuwo le ŋkeke ɖesiaɖe me; do zãla aɖe le eme le teƒe sia teƒe.</translation>
     </message>
 </context>
 <context>
@@ -22110,6 +22445,22 @@ Nyabiala: Womaɖe agbawo ɖa le ɖoɖoɖi me o.</translation>
         <source>%n hours ago</source>
         <translation>ga %n do ŋgɔ</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>GraphQL API ƒe biabia siwo wodzra ɖo ƒe ŋuɖoɖowo, kple eƒe skema ƒe emenyawo ƒe hatsotsowo.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>Ɖe kɔpi si metrɔna o ɖe dutoƒo le GitHub Pages alo git sɛva ɖesiaɖe dzi</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Ɖeɖe ɖe dutoƒo si metrɔna o</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>Kase si metrɔna o naa axawo tso sɛva sia dzi. Be nàɖe nyatakakaɖoƒe aɖe ƒe kɔpi si metrɔna o ɖe dutoƒo le teƒe bubu, le GitHub Pages alo git sɛva ɖesiaɖe dzi la, zã ɖeɖe ɖe dutoƒo si metrɔna o.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25651,6 +26002,10 @@ Nyabiala: Womaɖe agbawo ɖa le ɖoɖoɖi me o.</translation>
     <message>
         <source>last purge</source>
         <translation>ŋɔŋlɔ ɖa mavɔ</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>Nuŋɔŋlɔwo mete ŋu xɔ nɔnɔme ƒe safui o (mamlɛtɔ %date): wo dometɔ ɖe sia ɖe na be emetsonu siwo wodzra ɖo la katã nye xoxo. Ele be %file nanye nusi zãla ɖe sia ɖe si ŋkɔ me nyatakakadzraɖoƒe la wɔa dɔ le la nate ŋu aŋlɔ ɖe eme; le NFS dzi ehiã NFSv4 alo lockd.</translation>
     </message>
 </context>
 <context>
@@ -33599,6 +33954,14 @@ Nyabiala: Womaɖe agbawo ɖa le ɖoɖoɖi me o.</translation>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>PHP kpɔla ƒe zãɣi siwo ƒe ɣeyiɣi nu la, PHP ŋutɔ ɖea wo ɖa (session.gc_maxlifetime), menye axa sia alo cronjob session_gc ƒe akpa o.</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>Geɖeeme ƒe nyatakaka la ɖoa zãla ɖesiaɖe ƒe zãɣi siwo ge ɖe eme fiana, eye wòdoa wo le eme; ewɔa dɔ kple zãɣi kpɔla ɖesiaɖe.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>Ʋu geɖeeme ƒe nyatakaka</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37923,6 +38286,26 @@ be nàna wò akɔnta nawɔ dɔ.</translation>
     <message>
         <source>None yet</source>
         <translation>Aɖeke haɖe o</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Dedienɔnɔme ƒe nuwɔwɔwo</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>Wò geɖeeme siwo wɔ teti, agbagbadzedze siwo mede edzi o kple tɔtrɔ siwo va wò mɔxenya, wò e-meil adrɛs kple geɖeeme le afɔɖeɖe eve me ŋu.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>Akɔnta sia ƒe geɖeeme siwo wɔ teti, agbagbadzedze siwo mede edzi o kple dedienɔnɔme ƒe tɔtrɔwo.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>Lé ŋku ɖe nuwɔwɔwo ŋu</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>Geɖeeme siwo mede edzi o: %count</translation>
     </message>
 </context>
 <context>
@@ -44089,6 +44472,42 @@ Ne èdi be yeaɖo nyaɖeɖewo ɖe lɔlɔ̃ɖeedzila ŋu alo yeakpɔ ɖoƒea la, 
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>Ne wòge ɖe eme vɔ la, ele be zãla la natia mɔxenya yeye hafi awɔ naneke bubu. Zãe ne èle mɔxenya ɣeyiɣi kpui nam ame aɖe.</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>Tia nɔnɔmetata si li xoxo</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>Woaɖe nu si nètia la ƒe nɔnɔmetata ƒe faɛl ƒe kɔpi ade teƒe sia. Nu bubu la matrɔ o.</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>Woɖe “%name” ƒe nɔnɔmetata ƒe kɔpi de teƒe sia.</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>Kpɔ nuwo me hena nɔnɔmetata</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>Di nɔnɔmetatawo le ŋkɔ nu</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Di</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>Zã “%name” ƒe nɔnɔmetata</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>Zã nɔnɔmetata sia</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>Nɔnɔmetata aɖeke mesɔ kple wò didi o.</translation>
     </message>
 </context>
 <context>
@@ -51013,6 +51432,10 @@ Kpɔ nu siwo hiã ƒe axa la be nàkpɔ nyatakaka geɖe.</translation>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>Womeŋlɔ crontab o (%reason). Tsɔ ŋgɔgbe siawo kpe ɖe zãla si me nyatakakaɖoƒea le dɔ wɔm le ƒe crontab ŋu, ne menye nenema o la, fli la, nu siwo wotsɔ va eme, gbeƒãɖeɖewo kple didiwo ƒe ɖoɖo magawɔ dɔ gbeɖe o:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>Wogbugbɔa ɖoe kple Kickstarter (%file, emegbe php bin/php/kickstarter.php run --apply) alo kple ɖoɖo yeye.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54892,6 +55315,10 @@ be nàna wò akɔnta nawɔ dɔ.</translation>
         <source>eZJSCore Public Packer cache</source>
         <translation>eZJSCore ƒe packer kase (dutoƒe)</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>GraphQL ƒe nudzraɖoƒe kpui (ŋuɖoɖowo kple skema ƒe hatsotsowo)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54978,6 +55405,14 @@ be nàna wò akɔnta nawɔ dɔ.</translation>
     <message>
         <source>Copy of %class_name</source>
         <translation>%class_name ƒe kɔpi</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Nyatakaka ƒomeviwo</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>Nyatakaka ƒomevi %string</translation>
     </message>
 </context>
 <context>
@@ -55804,6 +56239,26 @@ Taflatse, megada asi ɖe ga ɖoɖo ƒe ɖoɖo ɖa ake o.</translation>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>Womete ŋu xlẽ SVG nɔnɔmetata la o, alo nu aɖeke mele eme si woate ŋu afia le dedie o.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>Womete ŋu ɖe nɔnɔmetata la ƒe kɔpi o. Taflatse, gbugbɔ do kpɔ alo ƒo ka kple nyatakakaɖoƒea ƒe dziɖula.</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>Nu si wotia la meli o alo mɔ meli na wò be nàxlẽe o.</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>Nɔnɔmetata aɖeke mele nu si wotia la ŋu o.</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>Womete ŋu xlẽ nu si wotia la ƒe nɔnɔmetata ƒe faɛl o.</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>Nu si wotia la ƒe nɔnɔmetata lolo wu esi teƒe sia ɖe mɔ ɖo: byte %1.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56334,6 +56789,42 @@ Taflatse, megada asi ɖe ga ɖoɖo ƒe ɖoɖo ɖa ake o.</translation>
         <source>The bookmark was renamed to "%name".</source>
         <translation>Wotrɔ dzesiɖoƒe la ƒe ŋkɔ be "%name".</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>Wotɔ te axa sia le nyatakakaɖoƒe ƒe mɔnu sia (%siteaccess) me. Ʋu dzesiɖoƒe la le nyatakakaɖoƒe ƒe mɔnu si me axa la le la me.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>Womeɖo axa sia ƒe mɔdul la ɖi o, alo womena wòawɔ dɔ le afi sia o.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>Axa sia megali o: kpɔƒe sia tɔgbe meli le eƒe mɔdul la me o.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>Wò dɔdeasiwo dometɔ aɖeke meɖe mɔ na wò be nàʋu axa sia o.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>Mɔ meli na wò be nàzã nyatakakaɖoƒe ƒe mɔnu sia o.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>Mɔ meli na wò be nàxlẽ emenu siwo axa sia ɖena fiana o.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>Womate ŋu awɔ dzesiɖoƒe na axa sia tɔgbi o: ewɔa dɔ ɖe agbalẽvi aɖe ŋu ko, alo enye axa si li na ɣeyiɣi kpui aɖe ko.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>Axa sia ƒe adrɛs mele o.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>Womate ŋu aʋu axa sia fifia o.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56805,6 +57296,10 @@ Ele be nàtrɔ kadodoƒe la ƒe hatsotso to trɔtrɔ dɔwɔnu zãzã me.</transl
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>E-meil ƒe mɔ la gbe dɔdɔwo %count le ƒuƒu mlɔetɔ me. Kpɔ e-meil sɛva la kple site.ini MailSettings me.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Nudzɔdzɔ %count le lalam eye womeŋlɔ gbeƒãɖeɖe ƒe cron dɔ ƒe dɔwɔwɔ aɖeke ɖi o. Tsɔ cron dɔ ƒe akpa &quot;frequent&quot; kpe ɖe crontab ŋu, alo wɔ exp:notification:run --apply.</translation>
     </message>
 </context>
 <context>
@@ -63061,6 +63556,10 @@ Ele be nàtrɔ kadodoƒe la ƒe hatsotso to trɔtrɔ dɔwɔnu zãzã me.</transl
         <source>Choose another site or section with the node picker</source>
         <translation>Tia nyatakakaɖoƒe bubu alo akpa bubu kple kadodoƒe ƒe tiala</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>Sistem dzikpɔla ɖeɖe koe ate ŋu atrɔ nutɔ la: wɔ ./console exp:content-check --fix-permissions --apply abe root ene.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64594,6 +65093,10 @@ Ele be nàtrɔ kadodoƒe la ƒe hatsotso to trɔtrɔ dɔwɔnu zãzã me.</transl
     <message>
         <source>empty</source>
         <translation>ƒuƒlu</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>Asidede ƒe safui la xɔ ƒe ɖeka wu: trɔe kple exp:audit key rotate --apply.</translation>
     </message>
 </context>
 <context>
@@ -68424,6 +68927,486 @@ Ele be nàtrɔ kadodoƒe la ƒe hatsotso to trɔtrɔ dɔwɔnu zãzã me.</transl
         <source>Share of page time</source>
         <translation>Axa ƒe ɣeyiɣi ƒe akpa</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>wobia be woawɔe blibo</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>axa la menɔ axa ƒe kase me o (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>axa ƒe kase meɖo nya ŋu o</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>Wowɔe</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>Dzime ye wɔe: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>Woɖoe tso axa ƒe kase me le %ms ms me. Wodzra axa la ɖo le %stored to wɔwɔ si xɔ %render ms dzi, %age s va yi.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>Wɔe fifia</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>Trɔ yi kase ƒe kpɔkpɔ dzi</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>Tso wɔwɔ si wowɔ le %stored (%render ms) me</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>Biabia sia: woɖoe tso axa ƒe kase me le %ms ms me.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Zãla</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>Zãla ƒe ID</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>Kase ƒe nɔnɔme</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>Kpɔƒe sia</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>Kpɔƒe kase</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>ɖe zãla ɖesiaɖe nu (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>Zãla ƒe kase nɔnɔme: zãla siwo ƒe nɔnɔme le ɖeka la mãa kpɔƒe kase ƒe faɛlwo</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ɛ̃</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ao</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Zãla ƒe ŋkɔ</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>Ege ɖe eme</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>Zãɣi</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>Emenyawo ƒe kpɔƒe kase safui ƒe akpa siwo nɔ te ɖe zãla dzi, abe ale si safui la xɔa wo ene, le axa sia ƒe ViewCacheTweaks te. Zãla siwo ƒe nɔnɔme le ɖeka la mãa kpɔƒewo ƒe kase faɛlwo, negbe ne kpɔƒe la ŋutɔ ƒe akpawo to vovo (tiatiawo, ɖotolawo ƒe safuiwo): nɔnɔme si nye wo tɔ le wo si, na axa sia ko.</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>Ŋutɔŋutɔ ƒe nyatakaka</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>Kpɔƒe sia (kadodo %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: zãla ɖesiaɖe si ge ɖe eme la ƒe kase faɛlwo le eya ŋutɔ si.</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>ViewCacheTweaks siwo le dɔ wɔm: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>Akpa</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>Asixɔxɔ</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>Akpa aɖeke menɔ te ɖe zãla dzi o (ViewCacheTweaks).</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>kpɔƒe sia</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>Kɔpi abe nuŋlɔŋlɔ ene</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>Dɔdeasiwo</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>Womete ŋu xlẽ akpaɖeɖe ƒe dɔdeasi aɖeke o.</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>Akpaɖeɖe ƒe ID</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Dɔdeasi</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>Seɖoƒe</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>Wode asi na</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>zãla la</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>ha %name (nu %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>Wokɔpi</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>Mete ŋu kɔpi o.</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>ɖotola aɖe ɖe le eme</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>Kpɔla ŋkɔmanɔsitɔwo</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>sɔ kple tɔwò</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>to vovo</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>Nɔnɔme si amedzro siwo womenya ŋkɔ o xɔna le ViewCacheTweaks ɖeka ma te, kple tiatia siwo woɖo ɖi, kpɔƒe la ƒe akpawo manɔmee: womate ŋu abia ɖotola si xlẽa zãɣi la le wo ŋu o.</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>Tiatiawo</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>Kpɔƒe ƒe mɔnu aɖeke menɔ te ɖe zãla ƒe tiatiawo dzi o (site.ini [ContentSettings] CachedViewPreferences).</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>Tiatia siwo dzi kpɔƒe ƒe mɔnu siawo ƒe kpɔƒewo nɔ te ɖo (CachedViewPreferences), kple zãla ƒe asixɔxɔ alo esi woɖo ɖi. Wole nɔnɔme la me abe userpreferences ene, kpɔƒe ƒe mɔnuwo katã tɔ ɖekae.</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>Kpɔkpɔ ƒe mɔ</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>Tiatia</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>Gɔmeɖoanyi</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>Sededewo</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>Ðe akpaɖeɖewo ƒe ɖoɖowo fia (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>Wotsɔa ɖoɖowo tso server dzi ne woʋu akpa sia, axa ɖeka ɖeka, eye woate ŋu ato wo to le module kple dɔwɔwɔ nu.</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>Dɔwɔwɔ</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>Mɔdulwo katã</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>Dɔwɔwɔwo katã</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>Seɖoƒewo</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>Ðe bubuwo fia</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>Ðoɖo aɖeke mele akpaɖeɖe siawo si o.</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>Ðoɖo aɖeke mesɔ kple totonu la o.</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%shown le %matching ɖoɖowo dome (%total katã)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>Wokpɔna ne woʋee.</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>module/function, dɔwɔɖoɖo, tameɖoɖo</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>Dii ɖoɖo siwo li la</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>Kpɔ bubu hã</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>Mɔdul/dɔwɔwɔ</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>Dɔwɔɖoɖo ɖesiaɖe (ɖoɖo %count)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>Ɖoɖo aɖeke meɖo ɖe eŋu o.</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%shown le ɖoɖo %matched me</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>Eŋuɖoɖo aɖeke meli o</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>woɣlae</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>Ɖe numeɖeɖewo fia</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>Ɣla numeɖeɖewo</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Ʋu</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>Ʋu wo katã</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>Tui wo katã</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>Safui alo asixɔxɔ</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>Di nu le zãɣia me</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Ƒomevi</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>%count bubuwo</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>ede eme tsitsitsi akpa be woaɖee afia</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>wolãe, nuŋlɔdzesi %count le eme katã</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Wodze egɔme</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>Kuki ƒe ŋkɔ</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>Zãɣi ƒe ID</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>Nudzikpɔla</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>Teƒe si wodzraa nu ɖo</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>PHP ƒe gɔmeɖoanyi</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>Agbenɔɣi (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>Kuki</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>agbenɔɣi %s s</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>Wò ŋutɔ wò PHP zãɣi, abe ale si wònɔ esime woʋu akpaa ene, menye ame bubu tɔ gbeɖe o. Safui siwo dze abe nya ɣaɣlawo ene (token, hash, nyaɣaɣlawo) ƒe asixɔxɔwo woɣlana (debugbar.ini SessionMask[]); woɖea nu bubuawo katã fiana abe ale si wodzra wo ɖoe ene, ame ŋutɔ ƒe nyatakakawo hã.</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>safui %count, %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>lolo</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>Naneke mele zãɣia me o.</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>Womedze zãɣi aɖeke gɔme na biabia sia o.</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Tsɔtsɔkpe %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>Kernel kple bubuwo</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>Womeɖe nuŋlɔɖiwo katã fia o: nu siwo le zãɣia me sɔ gbɔ wu esi woate ŋu aŋlɔ ɖe afi sia.</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>Womeŋlɔ safui %count ɖe afi sia o.</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>Ɖoɖowɔɖi</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>Asixɔxɔ siwo dze abe token ene (JSON Web Token, Authorization tanya ƒe kpeɖodziwo, safui ɣaɣla, hex didi alo nuŋlɔɖi si wotsɔ dzodzro) hã woɣlana, eɖanye ŋkɔ ka ke woyɔna na woƒe safui o (debugbar.ini SessionValueMask[]).</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>Safuia dze abe nya ɣaɣla ene (debugbar.ini SessionMask[]).</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>Asixɔxɔa dze abe token ene.</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>Le safui ɣaɣla aɖe te.</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>Zãɣia abe nuŋlɔɖi ene, woɣlae abe tabula la ene.</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>Zãɣia lolo wu %size (debugbar.ini SessionWarnBytes): zãla sia ƒe biabia ɖesiaɖe xlẽa zãɣia blibo, eye wòŋlɔnɛ ne etrɔ.</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP dzraa zãɣi sia ɖo ɖe faɛlwo me eye wòdea safui faɛla ŋu le biabia blibo la me: zãla ma ke ƒe biabiawo (tab geɖe, AJAX yɔyɔwo) lalaa wo nɔewo.</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>Na wòanɔ ʋuʋu</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>Elolo wu %size (debugbar.ini SessionWarnBytes): zãla sia ƒe biabia ɖesiaɖe xlẽa zãɣia blibo.</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%hits le %count dome woxlẽ tso cache me</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>Womewɔ kpɔɖeŋu aɖeke o (nukpɔkpɔ si woxlẽ tso nukpɔkpɔ ƒe cache me mewɔa aɖeke o).</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>Dɔdeasi ƒe nanawo</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>Dɔdeasiwo kple sededewo</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>mesɔ kple amedzro siwo ŋkɔ menya o tɔ o</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>esɔ kple amedzro siwo ŋkɔ menya o tɔ</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70304,6 +71287,14 @@ Ele be nàtrɔ kadodoƒe la ƒe hatsotso to trɔtrɔ dɔwɔnu zãzã me.</transl
     <message>
         <source>not sent</source>
         <translation>womedɔ ɖa o</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Gbeƒãɖeɖe ƒe cron dɔ la ŋlɔa eƒe dɔwɔwɔ ɖesiaɖe ɖe afi sia. Tsɔ akpa frequent kpe ɖe crontab ŋu, alo wɔ exp:notification:run --apply.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>Zã kɔnsol la: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -76022,6 +77013,98 @@ Ele be nàtrɔ kadodoƒe la ƒe hatsotso to trɔtrɔ dɔwɔnu zãzã me.</transl
         <source>This topic is not Released; readers do not see it.</source>
         <translation>Woɖe nya sia ɖe go haɖe o; xlẽlawo mekpɔe o.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Ʋuʋuwo</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Tɔtrɔ siwo wowɔ le ɖoɖoa ŋu eye wodzra wo ɖo abe faɛlwo ene: woƒe nɔnɔme, wɔwɔwo, wɔe kple gbugbɔe ɖe megbe.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Ɖe nyatakakaɖoƒe aɖe ƒe kɔpi si metrɔna o ɖe dutoƒo le GitHub Pages alo git sɛva ɖesiaɖe dzi.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Ɖeɖe ɖe dutoƒo si metrɔna o</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>Le kpɔkpɔ me</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>Xlẽlawo kpɔa axa sia.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>Woɣlae ɖe xlẽlawo nu va se ɖe esime ame aɖe naɖee ɖe go.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>Axa la le kpɔkpɔ me fifia. Woɣlae ɖe xlẽlawo nu va se ɖe esime woaɖee ɖe go.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>Woɖe axa la ɖe go: xlẽlawo kpɔe fifia.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>Axa la zu ŋɔŋlɔ gbãtɔ gbugbɔ. Woɣlae ɖe xlẽlawo nu va se ɖe esime woakpɔ eŋu ahaɖee ɖe go.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>Ɖee ɖe go fifia</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>Zãla si si %role ƒe dɔdeasi le eye meŋlɔ ʋɛsiɔn sia o la ɖeka koe ate ŋu aɖee ɖe go.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>Kpekpeɖeŋu ƒe nya siwo le ɖeɖe ɖe go lalam</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>Eɣlanɛ ɖe xlẽlawo nu va se ɖe esime woagaɖee ɖe go.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>Nyakpɔla aɖe akpɔ eŋu emegbe. Xlẽlawo mekpɔe haɖe o.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>Xlẽlawo kpɔnɛ enumake.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>Eɖenɛ le kpɔkpɔ me be woawɔ dɔ bubu le eŋu. Xlẽlawo mekpɔnɛ o.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>Àɣla axa sia ɖe xlẽlawo nu?</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>Àgbugbɔ axa sia ayi ŋɔŋlɔ gbãtɔ me?</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>Xlẽlawo megakpɔa %title o va se ɖe esime ame aɖe nagaɖee ɖe go.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title trɔ yi ŋɔŋlɔ gbãtɔ me be woawɔ dɔ bubu le eŋu. Xlẽlawo mekpɔe haɖe o, eye ehiã kpɔkpɔ yeye hafi woaɖee ɖe go.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Ɖe asi le eŋu</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>Nya siawo le kpɔkpɔ me. Xlẽlawo akpɔ wo ne ame aɖe si meŋlɔ ʋɛsiɔn si le te fifia o la ɖe wo ɖe go.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76477,6 +77560,46 @@ Ele be nàtrɔ kadodoƒe la ƒe hatsotso to trɔtrɔ dɔwɔnu zãzã me.</transl
         <source>None.</source>
         <translation>Naneke.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>kple authenticator app</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>kple kɔd si woɖo to e-meil dzi</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>kple gbugbɔxɔ kɔd</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>kple mɔxe-safui</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>kple akɔnta bubu si le gota</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Dedienɔnɔme ƒe nuwɔwɔwo</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>Woɖenɛ fiana abe eƒe nɛtwɔk ene; wodzraa adrɛs la ɖo abe ale si nyatakakawo ƒe dzɔdzɔme ƒe ɖoɖo siwo le nyatakakaɖaƒe la gblɔ ene.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Womeŋlɔe ɖe eme o</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Teƒe</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>kpɔtɔ ɖe eŋu</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76720,6 +77843,42 @@ Ele be nàtrɔ kadodoƒe la ƒe hatsotso to trɔtrɔ dɔwɔnu zãzã me.</transl
         <source>Manage devices</source>
         <translation>Dzi kpɔ mɔ̃ɖaŋuwo</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>kple authenticator app</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>kple kɔd si woɖo to e-meil dzi</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>kple gbugbɔxɔ kɔd</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>kple mɔxe-safui</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>kple akɔnta bubu si le gota</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Dedienɔnɔme ƒe nuwɔwɔwo</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Womeŋlɔe ɖe eme o</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Teƒe</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>kpɔtɔ ɖe eŋu</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76799,6 +77958,14 @@ Ele be nàtrɔ kadodoƒe la ƒe hatsotso to trɔtrɔ dɔwɔnu zãzã me.</transl
         <source>View the sessions of this user</source>
         <translation>Kpɔ zãla sia ƒe zãɣiwo</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>Wozã wò akɔnta %login le %site dzi fifia tsɔ ge ɖe eme tso teƒe aɖe si womegena ɖe eme tso le ɣeyiɣi siawo me o:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>Teƒe si te ɖe eŋu</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76837,6 +78004,10 @@ Ele be nàtrɔ kadodoƒe la ƒe hatsotso to trɔtrɔ dɔwɔnu zãzã me.</transl
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%browser le %os dzi</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Geɖeeme ƒe nyatakaka</translation>
     </message>
 </context>
 <context>
@@ -77045,6 +78216,82 @@ Ele be nàtrɔ kadodoƒe la ƒe hatsotso to trɔtrɔ dɔwɔnu zãzã me.</transl
         <source>The passkey could not be checked. Please try again.</source>
         <translation>Womete ŋu kpɔ mɔxe-safui la me o. Taflatse, da asi le eŋu ake.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>Akɔnta siwo gena ɖe eme kple mɔxe-safuiwo ɖeɖe ko mate ŋu azã mɔxenya le afi sia o: tia “Ge ɖe eme kple mɔxe-safui”.</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>%login ƒe mɔxe-safuiwo</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>Mɔxe-safui siwo akɔnta sia zãna gena ɖe eme. Ɖe esi le mɔ̃ si bu alo wofi dzi la ɖa: mate ŋu age ɖe eme azɔ o. Akɔnta tɔ ŋutɔ tsɔa yeyewo kpena ɖe eŋu.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>Wò akɔnta hiã mɔxe-safui</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>Tsɔ mɔxe-safui kpe ɖe wò akɔnta ŋu</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>Tsɔ mɔxe-safui kpe ɖe eŋu be nàyi edzi. Emegbe àge ɖe eme kplii, menye kple mɔxenya ɖeɖe ko o.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>Geɖeeme kple mɔxe-safui le kabakaba eye wòle dedie wu mɔxenya. Tsɔ ɖeka kpe ɖe eŋu fifia, alo yi edzi manɔmee.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>Fifia o</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>Ɖe mɔxe-safui “%name” ɖa?</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>Mate ŋu age ɖe akɔnta sia me azɔ o. Ne enye mamlɛtɔ la, akɔnta tɔ age ɖe eme kple mɔxenya, alo àɖo yeye.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>Ɖe mɔxe-safui la ɖa</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>Ɖe ɖa</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>Mɔxe-safui aɖeke mele akɔnta sia si o.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>Kpɔkpɔ ƒe mɔ̃</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Menya o</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>Wò mɔxe-safui mamlɛtɔ: tsɔ bubu kpe ɖe eŋu hafi nàɖe esia ɖa.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>Akɔnta sia gena ɖe eme kple mɔxe-safuiwo ɖeɖe ko (mɔxe-safui ƒe sedede): ne ɖeke megasusɔ o la, egbugbɔa gena ɖe eme kple eƒe mɔxenya.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>Esia enye wò mɔxe-safui mamlɛtɔ eye wò akɔnta mate ŋu age ɖe eme ne ɖeke meli o. Tsɔ mɔxe-safui bubu kpe ɖe eŋu gbã.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>Woɖe mɔxe-safui “%name” ɖa. Mate ŋu age ɖe akɔnta sia me azɔ o.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77144,6 +78391,34 @@ Ele be nàtrɔ kadodoƒe la ƒe hatsotso to trɔtrɔ dɔwɔnu zãzã me.</transl
         <source>Code from your authenticator app</source>
         <translation>Kɔd si tso wò authenticator app me</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>Èle nyatakakawo tutu ɖa tegbee alo ŋkuɖodzigbalẽ aɖe ƒe nuwo ŋlɔ ɖa ge.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>Wò mɔxenya kple mɔxe-safui</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>Wò mɔxenya kple kɔd tso wò authenticator app me</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>Alo:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>Browser sia mate ŋu azã mɔxe-safuiwo o. Zã mɔ bubu, alo browser bubu.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>Ne èyi edzi la, wò browser abia ɖeka le wò mɔxe-safuiwo dome.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>Yi edzi kple mɔxe-safui</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77234,6 +78509,70 @@ Ele be nàtrɔ kadodoƒe la ƒe hatsotso to trɔtrɔ dɔwɔnu zãzã me.</transl
     <message>
         <source>Setup</source>
         <translation>Ɖoɖowɔwɔ</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>Ame ŋutɔ ƒe mɔxenya, e-mail adrɛs, mɔxe-safuiwo, geɖeeme le afɔɖeɖe eve me, gbugbɔgaxɔ kɔdwo alo API safuiwo tɔtrɔ, kple ame ŋutɔ ƒe mɔ̃ bubuwo ɖeɖe le eme.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>Zãlawo wɔwɔ kple woƒe nuwo tɔtrɔ, woƒe mɔxenyawo kple mɔ̃wo, akɔnta ƒe ɖoɖowo, zãla ƒe akɔnta yeyewo dzi ɖeɖe alo gbegbe, dɔdeasiwo nana kple sededewo tɔtrɔ.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>Nyatakakawo tutu ɖa</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>Nugbegblẽƒe ŋlɔ ɖa, nuwo ɖeɖe le eme kple nu geɖewo ɖeɖe ɖa zi ɖeka.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>Emenuwo ɖeɖe ɖa, ɖeɖe ɖe dutoƒo kple dzadzraɖo</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>Emenuwo ɖeɖe ɖa (le nugbegblẽƒe hã), ɖeɖe ɖe dutoƒo kple ŋɔŋlɔ gbãtɔ dzadzraɖo; wobiana ne wodɔ agbalẽ la ɖa. Wotsi enu le gɔmedzedzea me.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>Hafi zãla si ge ɖe eme nawɔ nu vevi aɖe la, egbugbɔa ɖoa kpe edzi be eyae: kple eƒe mɔxenya kple mɔxe-safui, alo mɔxe-safui manɔmee la, kple eƒe mɔxenya kple kɔd si tso eƒe authenticator app me. Web axawo ɖeɖe ko biana: REST ƒe mɔnu, SOAP, WebDAV, expservices ƒe geɖeeme kple kɔmand ƒe fli mebiana gbeɖe o.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>Afi si ɖoɖowo wɔa dɔ le</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>Ɖoɖowo na</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Nyatakakaɖoƒe ƒe mɔnu ɖesiaɖe</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>Nyatakakaɖoƒe ƒe mɔnu %name ɖeɖe ko</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Ʋu</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>Ame siwo wobiana: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>Tia zãlawo ƒe ƒuƒoƒowo be woabia woƒe ŋkɔtɔwo ɖeɖe ko (abe asitrɔlawo ene). Ne mètia ɖeke o: zãla ɖesiaɖe.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>Wodzrae ɖo ɖe settings/override/site.ini.append.php me, na nyatakakaɖoƒe ƒe mɔnu ɖesiaɖe. Dzadzraɖo abia be nàɖo kpe edzi be wòe.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>Wodzrae ɖo ɖe settings/siteaccess/%name/site.ini.append.php me. Asixɔxɔ si le settings/override me ƒo esia ta. Dzadzraɖo abia be nàɖo kpe edzi be wòe.</translation>
     </message>
 </context>
 <context>
@@ -77336,6 +78675,6822 @@ Ele be nàtrɔ kadodoƒe la ƒe hatsotso to trɔtrɔ dɔwɔnu zãzã me.</transl
     <message>
         <source>Open the page</source>
         <translation>Ʋu axa la</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from va se ɖe %to le %count me</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>Zãla ƒe ŋkɔ alo zãla ƒe ID: akɔnta si ŋu nudzɔdzɔa ku ɖo alo zãla si wɔ dɔa.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Akɔnta</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Dɔwɔwɔ</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>Megbe</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>Nyaʋiʋli ɖesiaɖe</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Do ŋgɔ</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Wɔla</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Ɖe ɖa</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Ewɔ dɔ</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>Wodzraa nudzɔdzɔwo ɖo ŋkeke %days.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>Wodzraa nudzɔdzɔwo ɖo va se ɖe esime woaɖe wo ɖa kple asi.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Nudzɔdzɔwo</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>Dɔwɔwɔ ɖesiaɖe</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>Akɔnta sia ƒe nudzɔdzɔwo katã</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>Tsɔ ŋkɔŋlɔa yi go abe CSV ene (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Mewɔ dɔ o</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Tso</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>Ɖe ŋkɔŋlɔa dzi kpɔtɔ</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>Nudzɔdzɔ aɖeke mesɔ o.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Le axa ɖesiaɖe dzi</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>Wotɔ nuŋlɔɖi te le audit.ini me ([UserAuditSettings] UserAudit); ŋkɔŋlɔa fia nu siwo woŋlɔ ɖi do ŋgɔ.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Wogbe</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Nyaʋiʋli</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Fia</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>Zãlawo ƒe dzodzro ŋutinya ƒe tabla meli o. Wɔe kple php update/common/scripts/6.0/createuseraudittable.php; va se ɖe ɣemaɣi la, dzodzro faɛlwo dzraa nudzɔdzɔ ɖesiaɖe ɖo.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>Axa sia hiã SQL nyatakakadzraɖoƒe; meli le MongoDB dzi o. Dzodzro faɛlwo dzraa nudzɔdzɔ ɖesiaɖe ɖo.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Va se ɖe</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Zãlawo ƒe dzodzro ŋutinya</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Zãla</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Ɣeyiɣi</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Teƒe</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>Ame si trɔ asi le akɔnta si ŋu, wɔe, na wòwɔ dɔ, tɔe te, ɖee ɖe teƒe bubu alo ɖee ɖa, ame si ge ɖe eme alo wogbe nɛ, kple dɔdeasi siwo wotsɔ na: fli ɖeka ɖe nudzɔdzɔ ɖesiaɖe ta, kple teƒewo do ŋgɔ kple megbe. Womeŋlɔa mɔxenyawo kple nya ɣaɣlawo ɖi gbeɖe o.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>ƒuƒoƒo</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>ɖoɖoa</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>menya o</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>Ta wò akɔnta ŋu</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>Wozã gbugbɔxɔ kɔd tsɔ ge ɖe wò akɔnta %login le %site dzi me.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>Wozã gbugbɔxɔ kɔd</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Akɔnta</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>Adrɛs si te ɖe eŋu</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>Bia mɔxenya yeye be nàgage ɖe eme, alo ka asi nyatakakaɖaƒe la ƒe dzikpɔlawo ŋu.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>Bia mɔxenya yeye</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>Gbugbɔxɔ kɔd ɖesiaɖe wɔa dɔ zi ɖeka ko. Ne wò fon bu la, gbugbɔ ɖo wò authenticator app eye nàdzra gbugbɔxɔ kɔd yeyeawo ɖo ɖe teƒe si dedie le.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>Geɖeeme ƒe agbagbadzedze siwo mede edzi o le wò akɔnta dzi</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>Tso fifia dzi la, geɖeeme abia kɔd aɖe kpe ɖe wò mɔxenya ŋu. Ne wòe wɔe la, mehiã be nàwɔ naneke o.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>Ne wòe eye nèŋlɔ wò mɔxenya be la, bia yeye. Ne menye wòe o la, tia mɔxenya si sesẽ wu eye nàde geɖeeme le afɔɖeɖe eve me dɔ me.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>Ne menye wòe wɔe o la, ame aɖe ate ŋu anya wò mɔxenya: trɔe fifia eye nàkpɔ afi si wò akɔnta ge ɖe eme le.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>Gbugbɔxɔ kɔd siwo susɔ</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>Lé ŋku ɖe wò mɔ̃ɖaŋuwo ŋu</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>Dedienɔnɔme ƒe nuxlɔ̃ame</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>Ame aɖe di be yeage ɖe wò akɔnta %login le %site dzi me kple mɔxenya si menyo o zi %count wòkplɔ wo nɔewo ɖo.</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>Dedienɔnɔme ƒe nudzɔdzɔ aɖe dzɔ ɖe wò akɔnta %login le %site dzi.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>Esia nye dedienɔnɔme ƒe nuxlɔ̃ame tso wò akɔnta ŋu. Woɖonɛ ɖa ɣesiaɣi si tɔtrɔ sia tɔgbe dzɔ eye womate ŋu atsii o.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Ɣeyiɣi</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>Wotsi geɖeeme le afɔɖeɖe eve me na wò akɔnta %login le %site dzi.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>Wotsi geɖeeme le afɔɖeɖe eve me</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>Wode geɖeeme le afɔɖeɖe eve me dɔ me na wò akɔnta %login le %site dzi.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>Wode geɖeeme le afɔɖeɖe eve me dɔ me</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>Wotu wò akɔnta %login le %site dzi le geɖeeme geɖe siwo mede edzi o megbe.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>Wò mɔxenya ɖeɖe koe le wò akɔnta tam fifia. Ne menye wòe wɔe o la, gade geɖeeme le afɔɖeɖe eve me dɔ me le esi nètrɔ wò mɔxenya vɔ megbe.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>Wotu wò akɔnta</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>Wotsɔ mɔxe-safui kpe ɖe wò akɔnta %login ŋu le %site dzi.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>Ame sia ame si si mɔxe-safui sia le la ate ŋu age ɖe wò akɔnta me manɔ wò mɔxenya o. Ne menye wòe tsɔe kpe ɖe eŋu o la, ɖee ɖa le Mɔxe-safuiwo te eye nàtrɔ wò mɔxenya.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>Woɖe mɔxe-safui ɖa le wò akɔnta %login me le %site dzi.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>Mate ŋu age ɖe wò akɔnta me azɔ o. Ne menye wòe ɖee ɖa o la, lé ŋku ɖe wò mɔxe-safuiwo kple mɔ̃ɖaŋuwo ŋu.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>Wotsɔ mɔxe-safui kpe ɖe wò akɔnta ŋu</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>Woɖe mɔxe-safui ɖa le wò akɔnta me</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>Dedienɔnɔme ƒe nuwɔwɔwo</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>%name ƒe dedienɔnɔme ƒe nuwɔwɔwo</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Ge ɖe eme</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Geɖeeme ƒe agbagbadzedze si mede edzi o</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Do le eme</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Wodo zãɣiwo le eme</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Geɖeeme tso mɔ̃ɖaŋu yeye dzi</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Geɖeeme tso teƒe yeye</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Woka ɖe ame ƒe ŋutɔnyenye dzi (&quot;Kpe ɖe edzi be wòe nye esi&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Ame ƒe ŋutɔnyenye ƒe dodokpɔ mede edzi o</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Ge ɖe eme kple mɔxe-safui</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Geɖeeme kple mɔxe-safui mede edzi o</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Wogbe geɖeeme: afɔɖeɖe eve me kɔd la mele eme o alo menyo o</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Afɔɖeɖe eve me kɔd si menyo o</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Wotu akɔnta le geɖeeme siwo mede edzi o megbe</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Woʋu akɔnta</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Wotrɔ mɔxenya</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Mɔxenya tɔtrɔ mede edzi o</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Wogbugbɔ mɔxenya ɖo</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Wobia mɔxenya yeye</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Wotrɔ e-meil adrɛs</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Wotrɔ zãla ƒe ŋkɔ</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Geɖeeme le afɔɖeɖe eve me le dɔ wɔm</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Geɖeeme le afɔɖeɖe eve me tɔ te</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Wozã gbugbɔxɔ kɔd ɖeka</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Gbugbɔxɔ kɔd yeyewo</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Wowɔ app ƒe mɔxenya</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Woɖe app ƒe mɔxenya ɖa</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Wotsɔ mɔxe-safui kpe ɖe eŋu</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Woɖe mɔxe-safui ɖa</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Wona akɔnta wɔ dɔ</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Wotsi akɔnta</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Wo katã</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Geɖeemewo kple zãɣiwo</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Akɔnta ƒe tɔtrɔwo</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Ehiã ŋkuléleɖeeŋu</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>wòe wɔe</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>zãla la wɔe</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>%login wɔe</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>Mɔnu</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>Brauza</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>Sistem</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Mɔ̃ɖaŋu</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>Teƒe</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>Dukɔ</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Zãɣiwo</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>Ka tɔ</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>Mɔ si dzi woɖoe to</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Agbagbadzedze siwo mede edzi o</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>Kɔd siwo susɔ</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>Geɖeeme kpɔla</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Dedienɔnɔme ƒe nuwɔwɔwo</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>%name ƒe dedienɔnɔme ƒe nuwɔwɔwo</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Geɖeemewo kple tɔtrɔ siwo va wò akɔnta ƒe dedienɔnɔme ŋu. Ne èkpɔ nane si mènye wòe wɔe o la, trɔ wò mɔxenya eye nàdo mɔ̃ɖaŋu siwo mènya o le eme.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>Geɖeemewo kple tɔtrɔ siwo va akɔnta sia ƒe dedienɔnɔme ŋu.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Wò mɔ̃ɖaŋuwo</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Trɔ mɔxenya</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>Trɔ yi akɔnta la gbɔ</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>Womeŋlɔa dedienɔnɔme ƒe nuwɔwɔwo ɖi o</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>Woxlẽnɛ tso zãlawo ƒe dzodzro ŋutinya me, si ƒe kplɔ̃ expuser_audit mele eme o alo womexɔe le nyatakakadzraɖoƒe sia dzi o. Wɔ php update/common/scripts/6.0/createuseraudittable.php, alo 6.0.15 ƒe nyatakakadzraɖoƒe ƒe yeyewɔwɔ.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Ŋkeke %days siwo va yi</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Geɖeemewo le ŋkeke %days siwo va yi me</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>Dedienɔnɔme ƒe nuwɔwɔ siwo wɔ teti</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Fia</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>mede edzi o</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>wogbee</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Womeŋlɔ dedienɔnɔme ƒe nuwɔwɔ aɖeke ɖi haɖe o.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>Wodzraa dedienɔnɔme ƒe nudzɔdzɔwo ɖo ŋkeke %days.</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>Wodzraa dedienɔnɔme ƒe nudzɔdzɔwo ɖo vaseɖe esime dzikpɔla aɖe aɖe wo ɖa.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Ɖe nye geɖeeme ƒe nyatakakawo ɖe anyi</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Wò zãɣiwo kple wò dedienɔnɔme ƒe nudzɔdzɔwo abe JSON faɛl ene.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Womeŋlɔa zãɣiwo ɖi le nyatakakadzraɖoƒe sia o, eya ta womete ŋu ɖe mɔ̃ɖaŋu bubu aɖeke do le eme o. Trɔ wò mɔxenya fifia.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>Wode zãɣi bubu %count do le eme. Fifia trɔ wò mɔxenya.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Mɔ̃ɖaŋu bubu aɖeke menɔ eme o. Fifia trɔ wò mɔxenya.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Akpe. Woɖo dzesi nudzɔdzɔa be wòe nye tɔwò.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Nudzɔdzɔ ma mehiã ŋuɖoɖo aɖeke o.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Axa la ƒe ɣeyiɣi va yi. Wometrɔ naneke o; taflatse, gbugbɔ dze agbagba.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Ta wò akɔnta ŋu</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Ne nane le afi sia si menye wòe o la, de mɔ̃ɖaŋu bubu ɖe sia ɖe do le eme, eye nàtia mɔxenya yeye. Wode mɔ̃ɖaŋu siwo wona wonɔ eme kple Ɖo ŋku dzinye dzi la hã do le eme.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Wode mɔ̃ɖaŋu ɖe sia ɖe negbe esia ko do le eme le eƒe biabia si kplɔe ɖo me. Emegbe nàtia mɔxenya yeye.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Ɛ̃, de mɔ̃ɖaŋu bubuawo do le eme</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Wòe a?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Ɛ̃, nyee</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Ao, ta nye akɔnta ŋu</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Ge ɖe eme</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Geɖeeme ƒe agbagbadzedze si mede edzi o</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Do le eme</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Wodo zãɣiwo le eme</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Geɖeeme tso mɔ̃ɖaŋu yeye dzi</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Geɖeeme tso teƒe yeye</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Woka ɖe ame ƒe ŋutɔnyenye dzi (&quot;Kpe ɖe edzi be wòe nye esi&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Ame ƒe ŋutɔnyenye ƒe dodokpɔ mede edzi o</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Ge ɖe eme kple mɔxe-safui</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Geɖeeme kple mɔxe-safui mede edzi o</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Wogbe geɖeeme: afɔɖeɖe eve me kɔd la mele eme o alo menyo o</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Afɔɖeɖe eve me kɔd si menyo o</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Wotu akɔnta le geɖeeme siwo mede edzi o megbe</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Woʋu akɔnta</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Wotrɔ mɔxenya</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Mɔxenya tɔtrɔ mede edzi o</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Wogbugbɔ mɔxenya ɖo</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Wobia mɔxenya yeye</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Wotrɔ e-meil adrɛs</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Wotrɔ zãla ƒe ŋkɔ</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Geɖeeme le afɔɖeɖe eve me le dɔ wɔm</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Geɖeeme le afɔɖeɖe eve me tɔ te</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Wozã gbugbɔxɔ kɔd ɖeka</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Gbugbɔxɔ kɔd yeyewo</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Wowɔ app ƒe mɔxenya</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Woɖe app ƒe mɔxenya ɖa</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Wotsɔ mɔxe-safui kpe ɖe eŋu</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Woɖe mɔxe-safui ɖa</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Wona akɔnta wɔ dɔ</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Wotsi akɔnta</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Wo katã</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Geɖeemewo kple zãɣiwo</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Akɔnta ƒe tɔtrɔwo</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Ehiã ŋkuléleɖeeŋu</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Dedienɔnɔme ƒe nuwɔwɔwo</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>%name ƒe dedienɔnɔme ƒe nuwɔwɔwo</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Geɖeemewo kple tɔtrɔ siwo va wò akɔnta ƒe dedienɔnɔme ŋu. Ne èkpɔ nane si mènye wòe wɔe o la, trɔ wò mɔxenya eye nàdo mɔ̃ɖaŋu siwo mènya o le eme.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Wò mɔ̃ɖaŋuwo</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Trɔ mɔxenya</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>Womeŋlɔa dedienɔnɔme ƒe nuwɔwɔwo ɖi le nyatakakaɖaƒe sia dzi haɖe o.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Geɖeemewo le ŋkeke %days siwo va yi me</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Agbagbadzedze siwo mede edzi o</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Womeŋlɔ dedienɔnɔme ƒe nuwɔwɔ aɖeke ɖi haɖe o.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Ɖe nye geɖeeme ƒe nyatakakawo ɖe anyi</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Wò zãɣiwo kple wò dedienɔnɔme ƒe nudzɔdzɔwo abe JSON faɛl ene.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Womeŋlɔa zãɣiwo ɖi le nyatakakadzraɖoƒe sia o, eya ta womete ŋu ɖe mɔ̃ɖaŋu bubu aɖeke do le eme o. Trɔ wò mɔxenya fifia.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>Wode zãɣi bubu %count do le eme. Fifia trɔ wò mɔxenya.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Mɔ̃ɖaŋu bubu aɖeke menɔ eme o. Fifia trɔ wò mɔxenya.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Akpe. Woɖo dzesi nudzɔdzɔa be wòe nye tɔwò.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Nudzɔdzɔ ma mehiã ŋuɖoɖo aɖeke o.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Axa la ƒe ɣeyiɣi va yi. Wometrɔ naneke o; taflatse, gbugbɔ dze agbagba.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Ta wò akɔnta ŋu</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Ne nane le afi sia si menye wòe o la, de mɔ̃ɖaŋu bubu ɖe sia ɖe do le eme, eye nàtia mɔxenya yeye. Wode mɔ̃ɖaŋu siwo wona wonɔ eme kple Ɖo ŋku dzinye dzi la hã do le eme.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Wode mɔ̃ɖaŋu ɖe sia ɖe negbe esia ko do le eme le eƒe biabia si kplɔe ɖo me. Emegbe nàtia mɔxenya yeye.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Ɛ̃, de mɔ̃ɖaŋu bubuawo do le eme</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Wòe a?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Ɛ̃, nyee</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Ao, ta nye akɔnta ŋu</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>Mɔxenya</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>Mɔxenya kple afɔɖeɖe eve me kɔd</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>REST ƒe kadodomɔnu</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>SOAP ƒe kadodomɔnu</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>Geɖeeme zi ɖeka (single sign-on)</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>Ge ɖe eme hafi wodze zãɣiwo ŋɔŋlɔ gɔme</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Geɖeeme ƒe nyatakaka</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>Ame siwo ge ɖe nyatakakaɖaƒe la me, zi ale si akɔntawo gena ɖe eme kple esi mede edzi na wo o, kple zãla aɖe dodo le eme le teƒe sia teƒe. Ewɔa dɔ kple zãɣi kpɔla ɖesiaɖe.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>Wodo zãɣi la le eme. Ele be mɔ̃ɖaŋu la nagage ɖe eme.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>Wodo %login le zãɣi %count me.</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>Zãɣi aɖeke menɔ dɔ wɔm na %login o.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>Akɔnta aɖeke mesɔ kple ID, zãla ƒe ŋkɔ alo e-meil adrɛs ma o.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>Esiae nye zãɣi si nèle zãzãm. Be nàwu enu la, do le eme.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>Zãɣi ma wu enu xoxo.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Axa la ƒe ɣeyiɣi va yi. Wometrɔ naneke o; taflatse, gbugbɔ dze agbagba.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>Womeŋlɔa zãɣiwo ɖi le nyatakakaɖaƒe sia dzi o (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>Kplɔ̃ expuser_session mele eme o</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>Woaŋlɔ zãɣiwo ɖi ne wowɔe vɔ: php update/common/scripts/6.0/createusersessiontable.php, alo 6.0.15 ƒe nyatakakadzraɖoƒe ƒe yeyewɔwɔ.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>Fifia kple egbe</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>Zãɣi siwo le dɔ wɔm</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>Zãla siwo ge ɖe eme</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>Egbe ƒe geɖeemewo</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>Egbe ƒe agbagbadzedze siwo mede edzi o</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>Do zãla aɖe le eme le teƒe sia teƒe</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>Akɔnta la ƒe zãɣi ɖesiaɖe wua enu le eƒe biabia si kplɔe ɖo me, siwo &quot;Ɖo ŋku dzinye&quot; dzra ɖo hã. Zãe ne akɔnta aɖe ate ŋu anɔ asi si menyo o me; emegbe gbugbɔ eƒe mɔxenya ɖo.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>Zãla ƒe ID, zãla ƒe ŋkɔ alo e-meil adrɛs</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>Do le eme le teƒe sia teƒe</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>Le eme fifia</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>Wole %limit siwo wozã mlɔeba la fiam.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Zãla</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Mɔ̃ɖaŋu</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adrɛs</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>Ge ɖe eme</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>Dɔwɔɣi mamlɛtɔ</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Dɔwɔwɔwo</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>Mɔ̃ɖaŋu sia</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Womeŋlɔe ɖe eme o</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>Do le eme</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>Zãɣi aɖeke mele eme o.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Ŋkeke %days siwo va yi</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>Woxlẽa geɖeemewo kple agbagbadzedze siwo mede edzi o tso zãlawo ƒe dzodzro ŋutinya si mele eme o la me; zãɣi yeyewo ya, woxlẽa wo.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>Ŋkeke</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>Geɖeemewo</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Agbagbadzedze siwo mede edzi o</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>Zãɣi yeyewo</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>Zãɣi kpɔla: %handler. Woxlẽa zãɣiwo tso kplɔ̃ expuser_session me, eya ta nyatakaka la wɔa dɔ kple kpɔla ɖesiaɖe.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>Nuwɔna siwo dzi kakaɖedzi mele o le gaƒoƒo %hours siwo va yi me</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>Kadodo ɖeka mete ŋu ge ɖe akɔnta %accounts me o (agbagbadzedze %count)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Wotu akɔnta la le gegedeeme siwo mede edzi o megbe</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>Gegedeeme %count siwo mede edzi o le akɔnta ɖeka dzi</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>Woge ɖe eme tso dukɔ %count me ɣeyiɣi ɖeka</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Dedienɔnɔme ƒe nuwɔwɔwo</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Zãɣiwo</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>Woxlẽa gegedeeme siwo mede edzi o tso zãtɔwo ƒe ŋkuléleɖenu ƒe agbalẽ me, eye mele afi sia o.</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>Naneke si dzi kakaɖedzi mele o meli o: akɔnta aɖeke si ŋu gegedeeme siwo mede edzi o gbugbɔ dzɔ le o, kadodo aɖeke si dze agbagba le akɔnta geɖewo ŋu o, akɔnta aɖeke si ge ɖe eme tso dukɔ geɖewo me o.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>Dedienɔnɔme ƒe nuxlɔ̃ame na wò akɔnta</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>Dedienɔnɔme ƒe nudzɔdzɔ aɖe dzɔ ɖe wò akɔnta %login dzi: %event. Ne menye wòe o la, ta wò akɔnta ŋu le %url.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Ɖoɖowɔwɔ</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>Bia nyatakakaɖoƒe sia ƒe emenyawo be woana nusiwo ŋutɔŋutɔ axa aɖe hiã la ko le biabia ɖeka me. Skema la dzea emenyawo ƒe hatsotsowo yome; biabia ɖesiaɖe wɔa dɔ kple ŋusẽ siwo le zãla si ɖoe la si.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>Wotsi GraphQL API la le nyatakakaɖoƒe ƒe mɔnu sia me. Ʋui le graphql.ini me: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>Womeɖo GraphQL agbalẽdzraɖoƒe (webonyx/graphql-php 15) la ɖe enu o.</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>Nuwuƒe teƒe</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>Agbalẽdzraɖoƒe</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>Skema</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>Emenyawo ƒe hatsotso %count, skema %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>Biabia</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>Nusiwo trɔna (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Ƒu du</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>Ŋuɖoɖo</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>Ele duƒum…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>Womete ŋu xlẽ ŋuɖoɖo la o.</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>Biabia la wɔa dɔ kple wò ŋusẽwo, esi nège ɖe eme le kpekpe sia me.</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%count le sekend %seconds me</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>seɖoƒe aɖeke meli o</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>Goglome</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>Xaxa</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>Nuwo le xexlẽdzesi ɖe sia ɖe me</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (gɔmeɖoanyi %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>Kukuɖeɖewo na zãla alo safui ɖe sia ɖe</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>Kukuɖeɖewo na adrɛs ŋkɔmanɔŋu ɖe sia ɖe</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>Introspection</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>Biabia siwo wodzra ɖo ko</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>Biabia gãtɔ</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>byte %bytes</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>Ɖoɖoɖeɖe gãtɔ</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>Nyatakakaɖoƒe ƒe mɔnu %siteaccess meli o.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>Woʋu tɔtrɔwo le %siteaccess me.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>Wotsi tɔtrɔwo le %siteaccess me.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>Woʋu GraphQL API la le %siteaccess me.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>Wotsi GraphQL API la le %siteaccess me.</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>Womete ŋu ŋlɔ ɖoɖowo o: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>Wokplɔ ŋuɖoɖowo ƒe nudzraɖoƒe: woɖe ŋuɖoɖo %count ɖa.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>Tre ɖe aɖaka si le biabia la xa me be nàɖe eɖa.</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>Womete ŋu ɖe biabia la ɖa o: biabia si woɖo ɖa le PersistedQueryDirectoryList[] ƒe agbalẽdzraɖoƒe aɖe me la, woɖenɛ ɖa kple eƒe faɛl.</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>Woɖe biabia si wodzra ɖo la ɖa.</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>Tɔtrɔwo</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>le eme</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>wotsi</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Nyatakakaɖoƒe ƒe mɔnuwo</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>Afi si API la kple eƒe tɔtrɔwo ɖoa ŋu le. Abɔtawo ŋlɔa graphql.ini, abe ale si ./console exp:graphql:enable kple exp:graphql:disable wɔnɛ ene.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Nyatakakaɖoƒe ƒe mɔnu</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>GraphQL API</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Trɔe</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Tsii</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>Tɔtrɔwo wotsi</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>Tɔtrɔwo le eme</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Ʋui</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>Seɖoƒewo</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>Nyatakakaɖoƒe ƒe mɔnu sia ƒe graphql.ini [GraphQLSettings].</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>Ŋuɖoɖowo ƒe nudzraɖoƒe</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>Biabia siwo wodzra ɖo ƒe ŋuɖoɖowo, siwo wodzra ɖo ɖe zãla ƒe ŋusẽwo nu eye woƒe ɣeyiɣi va yina ɣesiaɣi si woɖe nyatakaka ɖe go.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Nɔnɔme</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>Ŋuɖoɖo siwo wodzra ɖo</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>Ŋuɖoɖo %count, byte %bytes</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>Ɣeyiɣi didiƒetɔ</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>sekend %seconds</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>Ɣeyiɣi va yi mamlɛtɔ</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>Kplɔ ŋuɖoɖowo ƒe nudzraɖoƒe</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>Biabia siwo wodzra ɖo</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>Wodzra wo ɖo kple ./console exp:graphql:persist, alo asisiwo (biabia siwo wodzra ɖo le wo ɖokui si); woyɔa wo kple ŋkɔ alo SHA-256.</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>Ŋkɔwo</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Lolome</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Afika</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Ɖee ɖa</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>woɖo ɖa</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>wodzra ɖo</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>Ɛ̃, ɖe biabia sia ɖa</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>Biabia aɖeke si wodzra ɖo meli haɖe o.</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>API safuiwo</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>Ame ŋutɔ ƒe API safui siwo ƒe nuteƒe nye graphql:read (biabiawo) alo graphql:write (tɔtrɔwo). Wɔ wo eye nàtsri wo le axa API ƒe mɔnu dzi, alo kple ./console exp:graphql:keys.</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>API ƒe mɔnu</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>Safuiwo katã</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>Safui</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Ŋkɔ</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Tɔ</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>Nuteƒewo</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>Wozãe mamlɛtɔ</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>le dɔ wɔm</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>ɣeyiɣi va yi</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>wotsrii</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>gbeɖe</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>API safui aɖeke si si GraphQL nuteƒe le meli haɖe o.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>Wotsi GraphQL API la le nyatakakaɖoƒe ƒe mɔnu %siteaccess si ɖe axa sia fiana la me; tabla si le ete la ɖe afi si wòɖoa ŋu le fiana.</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>Na nyatakakaɖoƒe ƒe mɔnu %siteaccess si ɖe axa sia fiana.</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>Webhookwo</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>Nudzɔdzɔ ɖesiaɖe si nuwuƒe teƒe aɖe bia (publish, update, trash, delete, move, hide, reveal, mutation) la, cronjob ƒe akpa graphqlwebhooks ɖoa ɖe eŋu kple asidede. ./console exp:graphql:webhooks wɔa nu ma ke abe akpa sia ene.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Nudzɔdzɔwo</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>wo katã</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Nyatakakaɖoƒe ƒe mɔnu ɖesiaɖe</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>egbã</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>nya ɣaɣla aɖeke meli o</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>Le lalam</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count wogbe</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>Ɖoɖoɖa mamlɛtɔ</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Ɖo dodokpɔ ɖa</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>Ɛ̃, ɖe webhook sia ɖa</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>Webhook aɖeke meli haɖe o.</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>Tsɔ webhook kpe ɖe eŋu</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>Tsɔ kpe ɖe eŋu</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>Ɖoɖoɖa yeyewo</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Ɣeyiɣi</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Emetsonu</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>Ŋkɔŋlɔɖewo</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>Yeyewɔwɔ le ɣeyiɣi ma ke me na asisiwo: nudzɔdzɔ ƒe tsiʋuʋu le /api/graphql/subscribe, kple WebSocket (graphql-transport-ws) le Velocity dzi. Nudzɔdzɔ ɖesiaɖe yina na ŋkɔŋlɔla siwo woɖe mɔ na be woaxlẽ eƒe nyatakaka la ko.</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>Ʋu fifia</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>Esiwo ʋu wu</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>%total katã, %user le zãla ɖesiaɖe si, %address le adrɛs ɖesiaɖe si</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>Ŋkɔŋlɔɖe siwo ŋkɔ mele o</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>Tsiʋuʋu ƒe didime</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>Womete ŋu tsɔ webhook la kpe ɖe eŋu o: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>Wotrɔ webhook %name; eƒe asidede ƒe nya ɣaɣla la gakpɔtɔ li.</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>Womete ŋu dzra asidede ƒe nya ɣaɣla la ɖo o (Ɖoɖowɔwɔ &gt; Nya ɣaɣlawo).</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>Wotsɔ webhook %name kpe ɖe eŋu. Eƒe asidede ƒe nya ɣaɣla, si woɖe fia zi ɖeka sia ko: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>Webhook %name meli o.</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>Webhook %name meɖo eŋu o: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>Webhook %name ɖo eŋu %status le %ms ms me.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>Tre ɖe aɖaka si le webhook la xa me be nàɖe eɖa.</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>Woɖe webhook %name ɖa.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>Wotsi GraphQL API la le nyatakakaɖoƒe ƒe mɔnu sia me.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>Womeɖo GraphQL agbalẽdzraɖoƒe la ɖe enu o.</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>Zã GET alo POST.</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>Biabia la ƒe ŋutilã menye JSON nu o.</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables menye JSON nu o.</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions menye JSON nu o.</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>Ɖo biabia la ɖa kple POST.</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>Biabia aɖeke mele kukuɖeɖe la me o.</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>Biabia la didi wu byte %max.</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>Vodada le server la me</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node hiã ɖeka pɛ tso id, remoteId, path kple urlAlias me.</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content hiã ɖeka pɛ tso id kple remoteId me.</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>Menye API sia ye na after ƒe cursor la o.</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>Nɔnɔmetata ƒe ŋkɔ bubu %alias meli o (image.ini [AliasSettings] AliasList[]).</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>Biabia siwo wodzra ɖo ko woxɔna le afi sia: ɖo biabia si wodzra ɖo ƒe id ɖa.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>Biabia si wodzra ɖo ƒe hash menye SHA-256 o.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>Biabia si wodzra ɖo ƒe hash mesɔ kple biabia la o.</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>Kukuɖeɖewo sɔ gbɔ akpa: %limit ya teƒe le sekend %window me. Gate kpɔ ake le sekend %reset megbe.</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>Biabia la ƒe goglome nye ɖoƒe %depth; %max ya teƒe koe woɖe mɔ ɖo.</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>Biabia la ƒe xaxa nye %complexity; %max ya teƒe koe woɖe mɔ ɖo.</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>Womeɖe mɔ na kukuɖeɖe sia be wòaxlẽ skema la o (introspection).</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search hiã nuŋɔŋlɔ alo nusiamɔnu (classes, subtree, sections, publishedAfter, publishedBefore).</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument menye ŋkeke o (ISO 8601, 2026-10-30).</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag hiã ɖeka pɛ tso id, remoteId kple path me.</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout hiã ɖeka pɛ tso id, identifier kple urlAlias me.</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>Multipart kukuɖeɖe ƒe operations teƒe menye JSON kukuɖeɖe ɖeka o.</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>Multipart kukuɖeɖe ƒe map teƒe menye JSON nu o.</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>Faɛl %field meli le multipart kukuɖeɖe la me o.</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>Ele be teƒewo ƒe anyigbatata ƒe mɔ aɖe nadze egɔme kple variables.: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>Faɛl %name meva bliboe o (ɖoɖoɖeɖe ƒe vodada %error).</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>Faɛl %name lolo wu byte %max.</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>Womete ŋu kpɔ faɛl %name ŋu o.</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>Wotsi tɔtrɔwo (mutations) le nyatakakaɖoƒe ƒe mɔnu sia me (graphql.ini [GraphQLSettings] MutationsEnabled).</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>Ɖo tɔtrɔ ɖa kple POST.</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>Ge ɖe eme be nàtrɔ nyatakaka.</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>API safui la mekpɔ nuteƒe %scope o.</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>Tɔtrɔ si wowɔ kple kpekpe hiã kpekpe la ƒe agbalẽ ƒe dzesi (tame X-CSRF-Token).</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>Wotsi uploadFromUrl: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] meyɔ dzɔla aɖeke o.</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>Ele be adrɛs la nanye https adrɛs.</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>Dzɔla %host mele graphql.ini [GraphQLSettings] UploadFromUrlHostList[] me o.</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>Womete ŋu xɔ faɛl la o.</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload nye nudede ƒomevi ko.</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>Upload ƒomevi ƒe tɔtrɔnu xɔa multipart kukuɖeɖe ƒe faɛl.</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>Wotsɔ didiƒe id %remoteId xoxo.</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>Gɔmeɖeɖe le %language me le nyatakaka la si xoxo: zã updateContent.</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>Na teƒe ɖeka ya teti.</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>Womete ŋu wɔ tɔtrɔ yeye o (nyatakaka la ƒe nuŋlɔɖi gbãtɔwo sɔ gbɔ akpa).</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>Tɔtrɔ %version menye nuŋlɔɖi gbãtɔ o.</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent hiã ɖeka pɛ tso id kple nodeId me.</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>Womate ŋu aʋu teƒe aɖe ayi eya ŋutɔ te o.</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>Teƒe le nyatakaka la si le %parentId te xoxo.</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>Womete ŋu dzra teƒe %field ƒe asixɔxɔ ɖo o.</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>Nyatakaka ƒe gbe %language meli o.</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>Nyatakaka ƒe hatsotso %class meli le skema la me o.</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>Nyatakaka la meli o, alo womeɖe mɔ na wò be nàxlẽe o.</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>Womeɖe mɔ na wò be nàwɔ esia ɖe nyatakaka sia ŋu o.</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>Teƒe %field si woate ŋu aŋlɔ ɖe eme meli le hatsotso %class me o.</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>Wona teƒe %field zi eve.</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>Teƒe %field xɔa faɛl: ɖoe ɖa abe ɖoɖoɖeɖe ene (multipart kukuɖeɖe).</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>Teƒe %field mexɔa faɛl o.</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>Teƒe %field hiã asixɔxɔ.</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>Ɖoɖo %format nye nuŋlɔŋlɔ si me nu geɖe le ƒe teƒewo ko tɔ; %field xɔa eƒe asixɔxɔ abe ale si wòle ene (RAW).</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>Ehiã be woana teƒe %field.</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>Womete ŋu xlẽ HTML la o.</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content xɔa version kple id ko.</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>Ŋgɔkpɔkpɔ ƒe dzesi la mesɔ o alo eƒe ɣeyiɣi va yi.</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>Menye dzɔtsoƒe o (https://host alo https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>Menye GraphQL API ƒe nuteƒe o: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>Ɖo ŋkɔŋlɔɖewo ɖe /api/graphql/subscribe (nudzɔdzɔ ƒe tsiʋuʋu alo WebSocket).</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>Kukuɖeɖe la meyɔ dɔwɔwɔ aɖeke le agbalẽ la me o.</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>Ŋkɔŋlɔɖe bia teƒe ɖeka pɛ ko.</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>Ŋkɔŋlɔɖe siwo ʋu sɔ gbɔ akpa; gate kpɔ emegbe.</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>Ŋkɔŋlɔɖe %max ʋu na wò, esiae nye agbɔsɔsɔ si ŋu woɖe mɔ ɖo.</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>Ŋkɔŋlɔɖe %max ʋu na wò adrɛs, esiae nye agbɔsɔsɔ si ŋu woɖe mɔ ɖo.</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>Wotsi ŋkɔŋlɔɖewo le nyatakakaɖoƒe ƒe mɔnu sia me.</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>Ge ɖe eme be nàŋlɔ ŋkɔ (dzesi alo wò ŋutɔ wò API safui).</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>Ɖo tɔtrɔwo ɖe /api/graphql.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>Ʋuʋuwo</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Womete ŋu xlẽ nɔnɔmea o: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Ʋuʋuwo ƒe tabletɔwo meli haɖe o: ./console exp:upgrade --apply wɔa wo.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>Ʋuʋu %count mede edzi o</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>Wɔwɔ aɖe le edzi yim, %user ye dze egɔme</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>Woʋu ɖoɖoa nu: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Le lalam</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Mede edzi o</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>Tsyɔ̃eviwo</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Wɔwɔ mamlɛtɔ</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>naneke haɖe o</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>Ʋuʋuwo katã</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>Wɔwɔ si wosɔ kpɔ</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>Dodokpɔ wɔwɔ</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>Ʋuʋu siwo le lalam la wɔ dɔ le nudzɔdzɔ aɖe me si wogbugbɔ ɖe megbe emegbe: wolé naneke ɖe asi o. Le ete la, nu si ɖesiaɖe trɔ le nyatakakadzraɖoƒea le.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>Nu si wɔwɔ aɖe awɔ fifia. Womatrɔ naneke o: ʋuʋu ɖesiaɖe si le lalam ŋlɔ tɔtrɔ siwo wòawɔ, eye wɔwɔa ŋlɔ nu si wòawɔ do ŋgɔ kple emegbe.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>Sɔe kpɔ</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Wɔe</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>Dodokpɔ wɔwɔa mede edzi o: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>Sɔsɔkpɔ hiã PostgreSQL alo SQLite, siwo ƒe ɖoɖo tɔtrɔwo woate ŋu agbugbɔ ɖe megbe; le nyatakakadzraɖoƒe sia dzi la, ɖoɖo si le ete fia nu si wɔwɔ aɖe awɔ.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>Ʋuʋuawo</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>Ʋuʋu</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Nɔnɔme</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>Nu si wòawɔ</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>Sɔsɔkpɔ: %result le milisekɔnd %ms me</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>Ʋuʋu aɖeke meli haɖe o.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>Do ŋgɔ na wɔwɔa kple emegbe</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>Nɔnɔmefoto do ŋgɔ</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>woɖenɛ, eye wogaɖoe anyi ne ʋuʋu aɖe mede edzi o</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>wotsii</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>Nɔnɔmefoto emegbe</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>woɖenɛ ne wɔwɔa dze edzi</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>Ʋuʋu %total: %pending le lalam, %done wowɔe nu, %failed mede edzi o.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>Ʋuʋuwo ƒe ŋutinya</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>Wɔwɔ ɖesiaɖe kple eƒe zãla, nɔƒe, nɔnɔmefotowo kple nu si wokpe ɖe edzi, de dzesii eye wodɔ ɖa. Woate ŋu ayi wɔwɔ si mede edzi o alo si wotso le titina la dzi; woate ŋu agbugbɔ wɔwɔ si ŋu woɖe nɔnɔmefoto do ŋgɔ na la ɖe megbe.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>Womete ŋu xlẽ wɔwɔawo o: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Ʋuʋuwo ƒe tabletɔwo meli haɖe o: ./console exp:upgrade --apply wɔa wo.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Fia</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Wo katã</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>Wɔwɔwo</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Wodze egɔme</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Ame si</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>Nɔnɔmefotowo</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Dzraɖoƒe</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Dɔwɔwɔwo</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>do ŋgɔ</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>emegbe</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>ɖoɖo ɖa: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>Yi edzi</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Gbugbɔe ɖe megbe</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>Wɔwɔ aɖeke mele nɔnɔme sia me o.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>Wodze egɔme le afi sia</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>Wɔwɔ, yiyi edzi kple gbugbɔgbɔ ɖe megbe siwo wodze egɔme le axa siawo dzi, kple ɖesiaɖe ƒe nyatakaka.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Nu ka</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Emetsonu</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Gbugbɔgbɔ ɖe megbe</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>%target gbugbɔgbɔ ɖe megbe</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>Wɔwɔ %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Nu si wɔwɔa wɔ, eƒe ŋkɔŋlɔ kple eƒe agbalẽ. Wɔwɔ si wodze egɔme le afi sia yia edzi le megbe ne wotu axa sia; ʋu axaa ake be nàkplɔe ɖo.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>Yi wɔwɔ sia dzi</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>Gbugbɔ wɔwɔ sia ɖe megbe</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>Womete ŋu xlẽ ŋkɔŋlɔa o: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Ŋgɔyiyi</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>%user ye dze egɔme le %time.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>Wole kɔda la dzrom eye wole nɔnɔmefoto ɖem do ŋgɔ na wɔwɔa</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>Wole %id wɔm (%index le %total me)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>Wowɔ %done nu le %total me</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>Ʋuʋuawo wɔ dɔ vɔ; wole nɔnɔmefotoa gaɖom anyi ne ɖeka mede edzi o</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>Wole nɔnɔmefoto ɖem le wɔwɔa megbe, wole kpem ɖe edzi, le dzesi dem eye wole eɖom ɖa</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>Wole nɔnɔmefotoa gaɖom anyi</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>Wɔwɔa wu enu. Wole eƒe nyatakaka hem vɛ.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>Womete ŋu kplɔ ŋgɔyiyia ɖo o. Gahe axaa vɛ be nàkpɔ ale si wɔwɔa le edzi yim.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>Axa sia kplɔa wɔwɔa ɖo esime wòle edzi yim.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Gahee vɛ</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Nyatakaka</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Ɣeyiɣi</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>milisekɔnd %ms</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>Nu si wɔwɔa ŋlɔ abe vodadawo ene</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Ŋkɔŋlɔ</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>Nɔƒe</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>naneke</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Wowu enu</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Kpeɖodzi</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Dzesi</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Ɖoɖo ɖa</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Nyagbɔgblɔ</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>Wɔwɔ sia ƒe ʋuʋuwo</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>Nu si tso</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>Wɔwɔa ƒe agbalẽ</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>Agbalẽa ƒe nuwuwu ko wofia.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>le edzi yim</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>wu enu nyatakaka manɔmee</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>dze edzi</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>mede edzi o</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>wogbee</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>womete ŋu ɖo nyatakakadzraɖoƒea gbɔ o</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>vodada le eme</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>Wɔwɔ aɖe le edzi yim</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind, %user ye dze egɔme le %time.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>Kplɔe ɖo</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>Woʋu ɖoɖoa nu</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>Wɔwɔ bubu lé nuʋuʋua ɖe asi (ŋgɔyiyi aɖe alo wɔwɔ aɖe le konsol dzi): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>wowɔe nu</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>le lalam</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>mehiã o</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>menya o</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>wogbugbɔe ɖe megbe</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>wowɔ eŋudɔ</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>awɔ eŋudɔ</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>wogbugbɔe</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>woagbugbɔe</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>womewɔe o</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>le bubu lalam</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>wolɔ̃ ɖe tɔtrɔa dzi</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>woalɔ̃ ɖe tɔtrɔa dzi</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>wosɔe kpɔ</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Ʋuʋuwo</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Nɔnɔme</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Ŋutinya</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>Gbugbɔ %target</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>Wogbugbɔa wɔwɔ aɖe ɖe nɔnɔmefoto si woɖe do ŋgɔ nɛ dzi, eye ʋuʋu ɖeka to eƒe down() dzi. Nɔnɔmefoto xoxo gaɖoɖo anyi nye nunyalawo tɔ. Ɖesiaɖe wɔa dɔ le megbe le wò ŋkɔ me, le nɔnɔme fifitɔ ƒe nɔnɔmefoto megbe.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>Womete ŋu xlẽ nu si woate ŋu agbugbɔ o: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>Wɔwɔ ɖeka</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>Ʋuʋu ɖeka</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>Nɔnɔmefoto xoxo aɖe</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>Numeɖeɖe</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ɛ̃</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ao</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Nɔnɔmefoto</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Ŋkɔ</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>Woɖee</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Ƒomevi</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>Akpa siwo woagaɖo anyi</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>Nyatakakadzraɖoƒea</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>Faɛl siwo wodzra ɖo (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>Ɖoɖowo (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>Nyatakakadzraɖoƒea gaɖoɖo anyi trɔnɛ yia nɔnɔmefotoa ƒe ɣeyiɣi dzi, kple gɔmedzeƒewo hã: ɖewohĩ woabia tso asiwò be nàge ɖe eme ake emegbe. Nu siwo katã wotrɔ tso ɣemaɣi la abu; woɖea nɔnɔme fifitɔ ƒe nɔnɔmefoto gbã.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>Menya nu si esia gaɖona anyi</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>Ŋlɔ nɔnɔmefotoa ƒe dzesixexle ake</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>Ɛ̃, gbugbɔe</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Ɖe asi le eŋu</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>Wɔwɔ siwo ŋu woɖe nɔnɔmefoto do ŋgɔ na.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>Tia</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>Wɔwɔ aɖeke si si nɔnɔmefoto le meli haɖe o.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>Ʋuʋu siwo ŋu wowɔ dɔ le eye woate ŋu agbugbɔ wo ɖokuiwo (down() le wo si).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>Ʋuʋu aɖeke si ŋu wowɔ dɔ le si down() mele o.</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>Nɔnɔmefoto xoxowo (nunyalawo)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>Nɔnɔmefoto aɖeke meli haɖe o.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>Wɔ ʋuʋuawo</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>Wɔwɔa yia edzi le megbe abe %user ene, eye eƒe axa fiaa esime wòle edzi yim. Do ŋgɔ na ʋuʋu gbãtɔ la, woɖea ɖoɖoa ƒe nɔnɔmefoto; ne ʋuʋu aɖe mede edzi o la, wɔwɔa tɔna eye wogaɖoa nɔnɔmefotoa anyi.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>Dodokpɔ wɔwɔ gbã</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Womete ŋu xlẽ nɔnɔmea o: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>Ʋuʋu siwo le lalam</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>Wowɔa wo le ɖoɖo sia nu. Ɖe dzesi le ɖeka ŋu be nàgblẽe ɖi, kpe ɖe esiwo hiãe ŋu, na wɔwɔ si ava emegbe.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>Wɔe</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>Eʋua ŋudzɔdzɔ ƒe mɔnu esime wòle dɔ wɔm.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>Wotrɔ wo esi wowɔ wo ŋudɔ vɔ</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>Faɛl siawo menye esiwo ŋu wowɔ dɔ le o. Wɔwɔ gbea wo negbe ɖe wolɔ̃ ɖe tɔtrɔa dzi kple nusita aɖe; womegawɔa wo ake o, woŋlɔa dzesixexle yeyea ɖi eye wodzraa nusitaa ɖo ɖe dzodzrɔ ƒe agbalẽa me.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>Lɔ̃ ɖe tɔtrɔawo dzi</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Nusita</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>Gɔmeɖoɖowoe nye esiwo me dedienyenye le. Aɖaka ɖesiaɖe gblẽa afɔɖeɖe ɖeka ɖi.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>Nɔnɔmefoto aɖeke o</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>Nɔnɔmefoto aɖeke o do ŋgɔ na wɔwɔa kple emegbe: womate ŋu agaɖo nudzɔdzɔ si mede edzi o anyi le eɖokui si o.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>Gaɖoɖo anyi aɖeke o</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>Ne nane mede edzi o la, gblẽ ɖoɖoa ɖi abe ale si wòle ene.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>Lé tɔtrɔ siwo womekpe ɖe edzi o la ɖe asi</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>Wɔe togbɔ be tɔtrɔ siwo womekpe ɖe edzi o le ɖoɖowo, kekeɖenuwo alo ɖɔɖɔwo me hã; woayi nɔnɔmefotoa me.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>Kpeɖodzi aɖeke o</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>Mègakpe ɖe nɔnɔme faɛla kple wɔwɔa ƒe agbalẽa dzi o (dzesi aɖeke o eye ɖoɖo ɖa aɖeke hã o).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>Ɖoɖo ɖa aɖeke o</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>Kpe ɖe edzi eye nàde dzesii, gake mègaɖoe ɖa o.</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>Dzesi aɖeke o</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>Kpe ɖe edzi eye nàɖoe ɖa, gake mègade dzesi wɔwɔa ŋu o.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>Ɛ̃, wɔ ʋuʋu siawo fifia</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Ʋuʋu aɖeke mele lalam o.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>Trɔ yi nɔnɔmea gbɔ</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>Tɔtrɔ siwo wowɔ le ɖoɖo sia ŋu, siwo woŋlɔ zi ɖeka abe faɛlwo ene (nuwo, hatsotsowo, dɔdeasiwo, ɖoɖowo, ɖoɖotata) eye wowɔa wo ŋudɔ le nyatakakaƒea ƒe ɖoɖo ɖesiaɖe me le ɖoɖo ɖeka nu. Wɔwɔ ɖea nɔnɔmefoto gbã, gaɖonɛ anyi ne ʋuʋu aɖe mede edzi o, eye eŋlɔa nu si wòwɔ ɖi, kpena ɖe edzi eye wòɖonɛ ɖa.</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>Wɔ %count siwo le lalam</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Nuƒoƒo kpuie</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Le lalam</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Wowɔe nu</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Mede edzi o</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>Mehiã o</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>Nyatakakadzraɖoƒe</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>nudzɔdzɔwo: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>Nyatakakaƒea ƒe ʋuʋuwo le migrations/ me, kekeɖenu ƒe ʋuʋuwo le extension/&lt;name&gt;/migrations/ me. Wowɔa wo le woƒe ŋkɔwo kple nu siwo wohiã ƒe ɖoɖo nu.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Wɔwɔ mamlɛtɔ</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>Faɛla trɔ esi wowɔ eŋudɔ vɔ.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>Ʋuʋu aɖeke meli haɖe o. ./console exp:migration:generate --skeleton &lt;name&gt; --apply ŋlɔa gbãtɔ.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>Wɔwɔ yeyetɔwo</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>Wɔwɔwo katã</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>Wɔwɔ aɖeke meli haɖe o.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>Wɔwɔ sɔsɔkpɔ hiã ɖoɖo migration/run.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>Wɔwɔ aɖe le edzi yim: sɔe kpɔ ne ewu enu.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Ɖoɖowɔwɔ</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target menye ɖoɖo sia ƒe wɔwɔ, ʋuʋu alo nɔnɔmefoto aɖeke o.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>De dzesi “Ɛ̃, gbugbɔe” gbã.</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>Nɔnɔmefoto xoxo gaɖoɖo anyi nye nunyalawo tɔ: de dzesi “Menya nu si esia gaɖona anyi”.</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>Ŋlɔ nɔnɔmefotoa ƒe dzesixexle ake: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>Tia akpa ɖeka ya teti be woagaɖoe anyi.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>Woɖe nɔnɔmefoto aɖeke do ŋgɔ na wɔwɔ sia o: gbugbɔ eƒe ʋuʋuwo ɖekaɖekae, alo gaɖo nɔnɔmefoto xoxo aɖe anyi.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>Ʋuʋu sia mate ŋu agbugbɔ eɖokui o: womewɔ eŋudɔ o, alo down() mele esi o.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Womete ŋu xlẽ nuŋlɔɖia o.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>Tia wɔwɔ si dzi nàyi.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>De dzesi “Ɛ̃, wɔ ʋuʋu siawo fifia” gbã.</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>Tia ʋuʋu ɖeka ya teti.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>Ʋuʋu aɖe trɔ esi wowɔ eŋudɔ vɔ: lɔ̃ ɖe tɔtrɔa dzi kple nusita aɖe, alo gbugbɔ faɛla ɖe eƒe teƒe.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>Gblɔ nusita wolɔ̃ ɖe ʋuʋu siwo wotrɔ la dzi.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>Nusitaa mele be wòagbɔ dzesi 500 o.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>Wɔwɔ si wodze egɔme le afi sia gale edzi yim (%detail). Lalae vaseɖe esime wòawu enu.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>Wɔwɔ bubu lé ɖoɖoa ƒe nuʋuʋu ɖe asi: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>Wɔwɔa hiã zãla si li eye wòge ɖe eme.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Womekpɔ php ƒe sededemɔ dɔwɔnu aɖeke o. Ɖo migration.ini [AdminSettings] PhpCliPath ɖe eƒe mɔ blibo dzi.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>Wotsi proc_open, eya ta womate ŋu adze wɔwɔ aɖe gɔme le afi sia o. Wɔ ./console exp:migration:migrate --apply le subɔla la dzi.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>Womate ŋu aŋlɔ nu ɖe wɔwɔwo ƒe agbalẽɖaka me o: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>Wodze wɔwɔa gɔme gake meɖe eƒe dɔwɔwɔ ƒe dzesixexle fia o. Dzro %detail me.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>Gblɔ nu si woagbugbɔ.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>Womete ŋu dze wɔwɔa gɔme o.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>Tɔtrɔwo ŋɔŋlɔ ɖi</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>Esime ŋɔŋlɔɖi le edzi yim la, nusi nètrɔna le dɔdzikpɔla me alo le nyatakakadzraɖoƒea ƒe axadzi bar dzi la, wodzraa wo ɖo abe ʋuʋu ƒe afɔɖeɖewo ene: nyatakakawo, hatiwo, dɔwo kple ɖoɖowo, akpawo, zãlawo kple hawo, URL ŋkɔ bubuwo, ɖoɖowo. Tɔ̃e ne èwu enu, kpɔ nusi wòlé, eye nàwɔ ʋuʋu tso eme.</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>Womete ŋu xlẽ ŋɔŋlɔɖiwo o: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>Ŋɔŋlɔɖiwo ƒe kplɔ̃wo meli haɖe o: gbã la, wɔ yeyewɔwɔ (exp:upgrade --apply).</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>Wotsi ŋɔŋlɔɖi le migration.ini me ([RecordingSettings] Recording=disabled).</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>Nye tɔtrɔwo</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>Nusi nètrɔna ko wòŋlɔna ɖi, afi sia afi si nètrɔe le, va se ɖe esime nàtɔ̃e.</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>Ŋɔŋlɔɖi</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>tso %time, tɔtrɔ %count va se ɖe fifia.</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>Dzesi (ne èlɔ̃)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>Fia nusi wòlé</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Tɔ̃ ŋɔŋlɔɖi</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>Dze nye tɔtrɔwo ŋɔŋlɔ ɖi gɔme</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>Fesre na nyatakakadzraɖoƒea katã</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>Eŋlɔa zãla ɖesiaɖe kple console ƒe tɔtrɔ ɖesiaɖe ɖi va se ɖe esime woatui. Ne èʋui la, woabia wò be nàɖo kpe edzi be wòe.</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Eʋu</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>Tu fesre</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>Ʋu fesre na nyatakakadzraɖoƒea katã</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>Ŋɔŋlɔɖiwo</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>Womeŋlɔa zãla ƒe akɔnta (ŋkɔ si wotsɔna gena ɖe eme, e-mail, nyaɣaɣla) kple zãlawo ƒe akɔntawo ƒe teƒewo ɖi gbeɖe o.</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Tɔtrɔwo</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>Nyatakakadzraɖoƒea katã</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>%name ƒe tɔtrɔwo</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Etɔ̃</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>Ŋɔŋlɔɖi aɖeke meli haɖe o.</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>Ŋɔŋlɔɖi %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>Ŋɔŋlɔɖiwo katã</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>Ʋuʋu si ado tso eme</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>Tɔtrɔ siwo woƒo ƒu wòzu afɔɖeɖe ɖeka na nu ɖesiaɖe si wotrɔ: nusi ʋuʋu si wowɔ tso ŋɔŋlɔɖi sia me awɔ.</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>Woate ŋu awɔ ʋuʋu tso eme ne ɖoɖo sia kpɔ YAML afɔɖeɖe ƒomevi %types.</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>Wogblee ɖi ɖe tame me: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>Naneke womeŋlɔ ɖi o.</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>Nusi wòlé</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>Tɔtrɔ %count, le ɖoɖo si nu wowɔ wo le.</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Tɔtrɔ</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>Afɔɖeɖe</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>Ku ɖe</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>Bubu %count: ./console exp:migration:record:show ŋlɔa wo katã ɖe ŋgɔ.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Ƒu gbe</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>Eɖea ŋɔŋlɔɖi la kple nusi wòlé ɖa. Nusi wotrɔ la gakpɔtɔ nye esi wotrɔ.</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>Ɛ̃, ƒu ŋɔŋlɔɖi sia gbe</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>Ele ŋɔŋlɔm ɖi…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Wole wò tɔtrɔwo ŋlɔm ɖi na ʋuʋu.</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>Wole tɔtrɔ ɖesiaɖe le nyatakakadzraɖoƒe sia ŋlɔm ɖi na ʋuʋu (fesre na nyatakakadzraɖoƒea katã).</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>Nyatakakadzraɖoƒea katã ƒe ŋɔŋlɔɖi dze egɔme: woaŋlɔ zãla ɖesiaɖe ƒe tɔtrɔ ɖesiaɖe ɖi va se ɖe esime nàtɔ̃e.</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>Ŋɔŋlɔɖi dze egɔme: woaŋlɔ wò tɔtrɔwo ɖi va se ɖe esime nàtɔ̃e.</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>Wotɔ̃ ŋɔŋlɔɖi. Nusi wòlé anɔ anyi va se ɖe esime nàƒu egbe.</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>Woɖe ŋɔŋlɔɖi la kple eƒe nudzɔdzɔwo ɖa.</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>Ŋɔŋlɔɖi %id meli o.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>Gbã la, tia "Ɛ̃, ƒu ŋɔŋlɔɖi sia gbe".</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>Zãla si ŋlɔe ɖi ko ate ŋu atɔ̃ kpekpe ƒe ŋɔŋlɔɖi.</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>Tia ŋɔŋlɔɖi si woatɔ̃.</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>Ŋɔŋlɔɖi ƒomevi sia le edzi yim xoxo.</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>Womete ŋu trɔ ŋɔŋlɔɖi la o: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>Wɔ migration</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>Migration ƒe ŋkɔ (ne èdi)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>Woŋlɔ migration %file. Tɔtrɔ siwo afɔɖeɖe aɖeke mate ŋu awɔ o la, woŋlɔ wo ŋkɔ ɖe faɛl la ƒe tame, be nàwɔ wo kple asi.</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>Womeŋlɔ migration aɖeke o: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>Dɔwɔɖoɖo didi si wokaka ɖe akpa aɖewo me</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>Teƒe gbadzɛwo me ɖoɖowo le migration.ini [RunSettings] me ahe.</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>Migration sɔ gbɔ eve aɖe pɛ</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>Migration bubu aɖeke meli o le (sekɛnd) megbe</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>Ɣeyiɣi dzudzɔ le migration dome (sekɛnd)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>Vevienyenye sue (1 va ɖo 19)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>Dɔwɔɖoɖo didi ƒe teƒea nye ɖokuiwo si dzi nuwo dzi tso 1 (dzudzɔ: sekɛnd 0 va ɖo 60, vevienyenye: 1 va ɖo 19), alo gbadzɛ.</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>Eɖokui tue le %time.</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>Tu ɖokui le (miniti, ɖe wò ɖokui nu) megbe</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>Minitiwo nye ɖokuiwo si dzi nuwo tso 1 va ɖo 44640 (ŋkeke 31), alo gbadzɛ.</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>Ʋuʋu %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>Ʋuʋu yeye</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>YAML ʋuʋu aɖe: ŋlɔe abe nyawo ene alo wɔ eƒe afɔɖeɖewo le nuŋlɔɖia me, kpɔe, emegbe dzrae ɖo ɖe ʋuʋuwo ƒe faɛldzraɖoƒe aɖe me.</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>Ʋuʋu sia wɔ dɔ xoxo, eya ta womagadzrae ɖo o: checksum dzɔla agbe faɛl si wotrɔ. Wɔ tɔtrɔa le ʋuʋu yeye aɖe me.</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>Web server mate ŋu aŋlɔ faɛla o.</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>Susunya fli siwo le etame la nye tanya (description, author, requires, environments, engines). Ne wotsɔ afɔɖeɖe kpee alo wotrɔe le nuŋlɔɖia me la, wogaŋlɔa ʋuʋua: womedzraa susunya siwo le afɔɖeɖewo dome ɖo o.</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>Ʋuʋua ƒe ŋkɔ</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>Afi si wòyina</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>Nyatakakadzraɖoƒea</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>YAML nyawo</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>Kpɔ</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Dzra ɖo</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Afɔɖeɖewo</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>Safuiwo</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Trɔ asi le eŋu</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>Ɖe dzi</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>Ɖe ete</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Ɖe ɖa</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>Afɔɖeɖe aɖeke meli haɖe o: tsɔ ɖeka kpee kple nuŋlɔɖia, alo ŋlɔ wo ɖe nyawo me.</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>Trɔ afɔɖeɖe %number</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>Tsɔ afɔɖeɖe aɖe kpee</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>Afɔɖeɖe ƒe nuŋlɔɖi tso eƒe afɔɖeɖe ƒomevi me: eƒe safuiwo, nu si ɖesiaɖe xɔna kple mɔnu siwo me wòle.</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>Afɔɖeɖe ƒe ƒomevi</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>Fia eƒe nuŋlɔɖi</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>Safui aɖewo le afɔɖeɖea si siwo eƒe ƒomevi menya o; woɖea wo ɖa ne wotrɔ afɔɖeɖea: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>Mɔnu</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>Le</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>le %modes ko me</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>Gɔmedzetɔ: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>Nɔnɔmewo, ŋkuɖodziwo kple susunya</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>Ŋkɔ=asixɔxɔ eve-eve siwo wotsɔ koma ma ɖe vovo. Afɔɖeɖe sia ƒe asixɔxɔwo: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>Kpɔɖeŋu</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>Trɔ afɔɖeɖe</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>Tsɔ afɔɖeɖe kpee</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>Nu si exp:migration:check gblɔ: tanya, agbalẽa kple afɔɖeɖe ɖesiaɖe si eƒe afɔɖeɖe ƒomevi kpɔ.</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>Ʋuʋua dze edzi le kpɔkpɔa me.</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Kpɔe do ŋgɔ</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>YAML abe ale si woadzrae ɖo ene.</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>Fia YAML</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>YAML ʋuʋuwo</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>wɔ dɔ xoxo</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>YAML ʋuʋu aɖeke meli haɖe o.</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>Asitrɔla</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>YAML ʋuʋu %id aɖeke mele ʋuʋuwo ƒe faɛldzraɖoƒewo me o.</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>Tia afɔɖeɖe ƒe ƒomevi aɖe.</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>Wotsɔ afɔɖeɖea kpee. Kpɔ ʋuʋua hafi nàdzrae ɖo.</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>Wotrɔ afɔɖeɖea. Kpɔ ʋuʋua hafi nàdzrae ɖo.</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>Tia afɔɖeɖe aɖe.</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>Nuŋlɔɖi aɖeke mele afɔɖeɖe sia si o (gbugbɔgbɔwɔ aɖe, alo afɔɖeɖe ƒomevi si mele ɖoɖo sia me o): trɔe le nyawo me.</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>Tia afi si ʋuʋua ayi: nyatakakadzraɖoƒea alo tsɔkpe aɖe si le dɔ wɔm.</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>Wodzra %file ɖo. Wɔ dodokpɔ wɔwɔ hafi ʋuʋua nawɔ dɔ.</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>Womedzrae ɖo o: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>Didiƒetɔwo</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>Ɖoɖo bubu siwo gbɔ ɖoɖo sia ɖoa eƒe ʋuʋuwo ɖe dɔ me le: dɔmeɖoɖo ɖoa ʋuʋuawo ɖe didiƒetɔ siwo wotia la gbɔ eye wòwɔa wo le afima, wo katã ɣeyiɣi ɖeka me eye le ɖeka me. Didiƒetɔ melé nya ɣaɣla aɖeke ɖe asi gbeɖe o: eƒe gedeeme ƒe kpeɖodzinua yɔa nya ɣaɣla ɖeka le Ɖoɖowɔwɔ &gt; Nuviwo me.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>Didiƒetɔ yeye</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Kpekpeɖeŋu</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>%id ƒe kadodo dodokpɔ</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>Didiƒetɔawo</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>Wowɔa dɔ le didiƒetɔ %parallel gbɔ ɣeyiɣi ɖeka me le gãƒe; akpa ɖeka ate ŋu axɔ sekend %timeout le ɖesiaɖe dzi.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>Didiƒetɔ</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adrɛs</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Gedeeme ƒe kpeɖodzinu</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>Ƒuƒoƒowo</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>ɖoɖo siwo woaɖɔ ɖo</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>faɛlwo ko (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>SSH ƒe safui</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>Mɔxenya</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>naneke (host ƒe SSH agent kple safuiwo)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>Te kadodoa</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>Dɔmeɖoɖo na ƒuƒoƒo aɖe yia eƒe didiƒetɔ ɖesiaɖe gbɔ.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>Ɖoe ɖe dɔ me le didiƒetɔwo gbɔ</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>Woɖo didiƒetɔ aɖeke haɖe o.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>Didiƒetɔ %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>Womeɖoa naneke ɖa alo wɔa naneke le afi sia o: Dzra ɖo ŋlɔa ɖoɖoawo ɖe settings/override/migration.ini.append.php me. Gedeeme ƒe kpeɖodzinua nye ŋkɔ; eƒe asixɔxɔ susɔna ɖe Ɖoɖowɔwɔ &gt; Nuviwo me alo le nɔƒea me.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Kpɔ ɖoɖo siawo ɖa</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>Ɖoɖoawo abe alesi woŋlɔ wo ene, womedzra wo ɖo haɖe o.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Kpɔ ɖe eŋu</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Ɖoɖoawo le eteƒe. Woaŋlɔ fli siawo:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>Transport</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>ŋkɔ ko; asixɔxɔa nɔa Ɖoɖowɔwɔ &gt; Nuviwo me</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Fli siwo woaŋlɔ</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>Kadodo</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>Host ƒe safui</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. Didiƒetɔa</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>Ŋkɔ si wotsɔna yɔa didiƒetɔa kple nɔƒe si wònye.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>Id</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>Nuŋlɔdzesiwo, xexlẽdzesiwo, - kple _, le kpɔɖeŋu me production1. Eyae nye didiƒetɔa ƒe ŋkɔ le nyatakakawo me kple le console dzi (--remotes=production1) eye womate ŋu atrɔe emegbe o.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... Dɔmeɖoɖo le ɖoƒewo me toa nɔƒeawo me le ɖoɖo sia nu.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>Ne èlɔ̃, wotsɔ koma ma wo dome, le kpɔɖeŋu me production. Dɔmeɖoɖo na ƒuƒoƒo aɖe yia eƒe didiƒetɔ ɖesiaɖe gbɔ.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. Kadodoa</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>Alesi faɛlawo yia afima, kple afi si ɖoɖoa le.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>To SSH dzi, nu si trɔ ko, eye wogayia tsɔtsɔyi si nyã la dzi. Tiatia nyuitɔ le afi si wode rsync ɖo.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>SSH kple scp na faɛlwo.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>SSH kple sftp na faɛlwo.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>Faɛlwo ko: woɖoa ʋuʋuawo ɖa eye wogaxlẽa wo, gake womate ŋu awɔ wo le afima o.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>FTP to TLS dzi; faɛlwo ko.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>Ɖoɖo bubu le sɛva sia dzi, le faɛldzraɖoƒe aɖe me.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Host</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>Host ƒe ŋkɔ alo adrɛs, le kpɔɖeŋu me node1.example.com. Menye na local o.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>Port</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>Ƒuƒlu: 22 na SSH, 21 na FTP.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Zãla</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>Mɔ</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>Ɖoɖoa ƒe ke le afima, le kpɔɖeŋu me /var/www/site (na FTP: mɔ si FTP ƒe akɔnta kpɔna).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>PHP ƒe sededefli</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>PHP CLI si le afima: php, alo mɔ bliboa abe /opt/plesk/php/8.4/bin/php ene.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>Console ƒe sedenuwo wɔa dɔ abe root ene le afima</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>Ne didiƒetɔa ƒe zãla nye root ko (ekema wowɔa wo kple --allow-root-user).</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. Gedeeme ƒe kpeɖodzinua</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>Alesi ɖoɖo sia gena ɖe eme le afima. Ŋkɔ ko wodzrana ɖo.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Naneke</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>Zãla si ƒe ŋkɔ me ɖoɖo sia wɔa dɔ le ƒe SSH agent kple safuiwo (eye ɣesiaɣi na local).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>Ame ŋutɔ ƒe safui si wodzra ɖo abe nya ɣaɣla ene.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>Mɔxenya si wodzra ɖo abe nya ɣaɣla ene (FTP tsɔnɛ gena ɖe eme).</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>Nya ɣaɣla ƒe ŋkɔ</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>Nya ɣaɣla aɖe tso Ɖoɖowɔwɔ &gt; Nuviwo me, le kpɔɖeŋu me deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Ɖoɖowɔwɔ &gt; Nuviwo</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>Alo nɔƒe ƒe tɔtrɔnu</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>Sɛva ƒe dɔwɔwɔ ƒe tɔtrɔnu si me wòle, le kpɔɖeŋu me DEPLOY_KEY (wodzrae ɖo abe env:DEPLOY_KEY ene). Exɔa nya ɣaɣla ƒe ŋkɔ ƒe teƒe.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. Host ƒe safuia</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>Ne èlɔ̃, na SSH, sftp kple rsync.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>Host ƒe safui ƒe asidzesi</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... abe alesi ssh-keygen -l taa ene. Ne ele eme la, ele be host la naɖe safui sia afia; ne mele eme o la, wosrɔ̃a safuia le kadodo gbãtɔ me.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. Kpɔ ɖe eŋu</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>Te kadodoa kpɔ kple ɖoɖo siwo le etame, emegbe kpɔ fli siwo woaŋlɔ la ɖa.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>Ɖe didiƒetɔ sia ɖa</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>Woɖea eƒe ɖoɖowo ɖa le settings/override/migration.ini.append.php me. Naneke metrɔna le didiƒetɔa gbɔ o, eye eƒe dɔmeɖoɖowo susɔna ɖe ŋutinya me.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>Ɛ̃, ɖe didiƒetɔ sia ɖa</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>Dɔmeɖoɖowo</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>Dɔmeɖoɖo ɖoa ʋuʋu siwo le ɖoɖo sia me ɖe didiƒetɔ siwo wotia la gbɔ eye wòwɔa wo le afima abe %user ene, wo katã ɣeyiɣi ɖeka me eye le ɖeka me: wokpɔa didiƒetɔ ɖesiaɖe gbã, eye ne ɖeka mede edzi o la, wogbugbɔa didiƒetɔ ɖesiaɖe si wɔ eŋudɔ. Eyina edzi le megbe, eye eƒe axa fiaa didiƒetɔ ɖesiaɖe esime wòle edzi yim.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. Didiƒetɔawo</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>Tia didiƒetɔwo, ƒuƒoƒo aɖe, alo wo eve siaa.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>Ɖoe ɖe dɔ me le afima</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. Aleke</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>Ɖoe ɖe dɔ me</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>Ɖoe ɖa eye nàwɔe</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>Woɖoa ʋuʋuawo ɖe didiƒetɔ ɖesiaɖe gbɔ, kpɔa wo ɖa eye wowɔa wo kple wɔwɔ ƒe Id ɖeka si wo katã ma.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>Tsɔe yi ko</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>Woɖoa faɛlawo ɖa eye wokpɔa wo ɖa, womewɔa naneke o (mɔ ɖeka kolia na FTP didiƒetɔ).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>Le ɖoƒewo me</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>Ɖoƒe ɖeka ɖeka le nɔƒewo ƒe ɖoɖo nu (dev, stage, beta, production ...): woɖoa ɖoƒe gbãtɔ ɖe dɔ me, emegbe agbo aɖe lalana va se ɖe esime ame aɖe alɔ̃ ɖe esi kplɔe ɖo dzi. Wo katã alo naneke o le ɖoƒe ɖesiaɖe me.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>Ʋuʋu siawo ko</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>Ne èlɔ̃: ʋuʋuwo ƒe Id, wotsɔ koma ma wo dome. Ƒuƒlu: nyatakakadzraɖoƒea kple eƒe tsɔtsɔkpewo ƒe ʋuʋu ɖesiaɖe.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>Dodokpɔ gbãtɔ ko</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>Ɛ̃, ɖoe ɖe dɔ me fifia</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>Dɔmeɖoɖo siwo ɖo nane ɖa alo wɔ nane, yeyetɔ gbã (dodokpɔ gbãtɔ medzraa nyatakaka ɖo o).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>tsɔe yi ko</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>le ɖoƒewo me, ɖoƒe %stages</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>mele ɖeka me o</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>Dɔmeɖoɖo aɖeke meli haɖe o.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>Dɔmeɖoɖo %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Dɔmeɖoɖoa ƒe didiƒetɔ ɖesiaɖe kple eƒe nɔnɔme. Dɔmeɖoɖo si wodze egɔme le afi sia yia edzi le megbe ne wotu axa sia; ʋu axaa ake be nàkplɔe ɖo.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>Dɔmeɖoɖowo katã</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>Dodokpɔ gbãtɔ</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>Ɖoƒe si kplɔe ɖo</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>Wole ɖoɖoawo kple gedeeme ƒe kpeɖodzinuawo kpɔm</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>Dodokpɔ gbãtɔ: wole didiƒetɔ ɖesiaɖe ƒe nɔnɔme xlẽm</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>Wole ʋuʋu ƒe faɛlwo ɖom ɖa</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>Wole nu si va ɖo kpɔm ɖa</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>Wole ʋuʋuawo wɔm le didiƒetɔ ɖesiaɖe dzi</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>Wole didiƒetɔawo gbugbɔm</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>Dɔmeɖoɖoa wu enu. Wole eƒe nyatakaka hem vɛ.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>Womete ŋu kplɔ ŋgɔyiyia ɖo o. Gahe axaa vɛ be nàkpɔ alesi dɔmeɖoɖoa le edzi yim.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>Akpa</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>Axa sia kplɔa dɔmeɖoɖoa ɖo esime wòle edzi yim.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>Le ɖeka me</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>Ɖoƒewo</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>ɖoƒe %stage le lalam le eƒe agbo nu</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>Agbo %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>%user lɔ̃ ɖe edzi le %time</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>Ɖoƒe</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>Faɛl siwo woɖo ɖa</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>Kernel ƒe ɖeɖe</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>wowɔ eŋudɔ: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>woawɔ eŋudɔ: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>Akpawo</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>Agbo: ɖoƒe %stage le %stages me</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>Woɖo ɖoƒe siwo do ŋgɔ nɛ ɖe dɔ me. Kpɔ wo ɖa, emegbe lɔ̃ ɖe ɖoƒe si kplɔe ɖo dzi: wogakpɔa eƒe didiƒetɔwo ɖa eye woɖoa wo ɖe dɔ me, wo katã alo naneke o.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Esi kplɔe ɖo</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>Ɛ̃, ɖo ɖoƒe si kplɔe ɖo ɖe dɔ me fifia</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Lɔ̃ ɖe edzi</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>Gbugbɔ dɔmeɖoɖo sia ɖe megbe</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>Didiƒetɔ ɖesiaɖe si wɔ eŋudɔ (%list) trɔna yia nɔnɔmefoto si woɖe do ŋgɔ na eƒe wɔwɔa gbɔ, wo katã ɣeyiɣi ɖeka me.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>Ɛ̃, gbugbɔ dɔmeɖoɖo sia ɖe megbe fifia</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>woɖo eŋu ɖoɖo</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>wotsɔe yi</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>woɖoe ɖe dɔ me</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>le lalam le agbo aɖe nu</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>wotia</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>wodzrae ɖo</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>le klalo</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>le eƒe ɖoƒe lalam</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>woɖo faɛlwo ɖa</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>wokpɔe ɖa</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>mede edzi o, egaɖo eɖokui anyi</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>metrɔ o</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>womeɖoe ɖe dɔ me o</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>womate ŋu aɖo egbɔ o</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>Didiƒetɔa ɖo eŋu.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>Womate ŋu azã didiƒetɔa fifia o.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done wowɔe nu, %pending le lalam, %failed mede edzi o</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>Mɔxexe</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>wɔwɔ aɖe lé mɔxexea ɖe asi le afima</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>ƒuƒlu</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stage le %stages me</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>Tia didiƒetɔ si nàte kpɔ.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>Tia “Ɛ̃, ɖe didiƒetɔ sia ɖa” gbã.</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>Womete ŋu ɖe didiƒetɔa ɖa o: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>Womete ŋu dzra didiƒetɔa ɖo o: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Womate ŋu axlẽ ɖoɖowo ƒe faɛl la o: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>Tia didiƒetɔ alo ƒuƒoƒo ɖeka ya teti.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>Didiƒetɔ aɖe si wotia mele ɖoɖoawo me azɔ o. Gahe axaa vɛ.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>Tia “Ɛ̃, ɖoe ɖe dɔ me fifia” gbã.</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>FTP didiƒetɔ mate ŋu awɔ ʋuʋuwo o: tia “Tsɔe yi ko”, alo ɖe eɖa.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>Ʋuʋu siwo woaɖo ɖe dɔ me nye ʋuʋuwo ƒe Id, wotsɔ koma ma wo dome.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>Dɔmeɖoɖoa gale edzi yim. Lala va se ɖe esime wòawu enu.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>Dɔmeɖoɖo sia melalana le agbo aɖeke nu o.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>Didiƒetɔ aɖeke mewɔ dɔmeɖoɖo sia ŋudɔ o: naneke meli si woagbugbɔ ɖe megbe o.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>Tia “Ɛ̃, ɖo ɖoƒe si kplɔe ɖo ɖe dɔ me fifia” gbã.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>Tia “Ɛ̃, gbugbɔ dɔmeɖoɖo sia ɖe megbe fifia” gbã.</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>Didiƒetɔ si ƒe Id nye %id li xoxo.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>Port la nye xexlẽdzesi tso 1 va ɖo 65535.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>Nɔƒea nye nya si wotsɔ nuŋlɔdzesiwo, xexlẽdzesiwo, - kple _ wɔ (alpha, dev, stage, beta, production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>Ƒuƒoƒo nye nya si wotsɔ nuŋlɔdzesiwo, xexlẽdzesiwo, - kple _ wɔ (menye all o): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>Womate ŋu axlẽ gedeeme ƒe kpeɖodzinua fifia o: %problem. Dzrae ɖo ɖe Ɖoɖowɔwɔ &gt; Nuviwo me (alo ɖo tɔtrɔnua) do ŋgɔ na dɔmeɖoɖo gbãtɔ.</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>FTP didiƒetɔ xɔa faɛlwo ko: dɔmeɖoɖo na eya nye “Tsɔe yi ko”, eye wotsɔa asi wɔa eƒe ʋuʋuwo le afima.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>Didiƒetɔ %id mele settings/override/migration.ini.append.php me o; ɖee ɖa le afi si woɖoe ɖo.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>Wode eme to FTP dzi eye woxlẽ index.php. Womate ŋu axlẽ FTP didiƒetɔ ƒe ʋuʋu ƒe nɔnɔme o.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>Wotrɔ asi le eŋu</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>Wowɔe</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Ŋkɔ</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Hatsotso</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Akpa</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>Wɔla</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Nyatakaka yeyewo</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>Nyatakaka siwo wowɔ kple esiwo wotrɔ asi le eŋu nyitsɔ laa le nyatakakaɖoƒe blibo la dzi, yeyetɔ gbã: nu siwo amedzrowo ɖo ɖa, nu siwo wolé ɖi hena dzodzro, ŋɔŋlɔ gbãtɔ siwo le lalam be woaɖe wo ɖe dutoƒo. Tia nuŋɔŋlɔwo be nàɖe asi le wo ŋu, alé wo ɖi, aɣla wo, aɖe wo afia, aɖe wo ɖa alo aɖe wo ayi akpa alo nɔnɔme bubu me.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>Womete ŋu xlẽ ŋkɔŋɔŋlɔ la o: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>Wometi ɖoɖo ɖe nulélé ɖi hena dzodzro ŋu haɖe o, eya ta naneke mele léle ɖi o eye womena nulélé ɖi ƒe dɔwɔwɔwo o. Ŋgɔyiyi ƒe afɔɖeɖe 6.0.15-review-hold ye ɖoa eƒe ɖoɖo: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Tso ŋkɔŋɔŋlɔ la me</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Tso</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Va ɖo</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Ŋkeke</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>Wowɔe (woɖe ɖe dutoƒo zi gbãtɔ)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Wo katã</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Ɖoƒe</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Woɖe ɖe dutoƒo</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>Ŋɔŋlɔ gbãtɔ, womeɖe ɖe dutoƒo kpɔ o</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>Le lalam (le lalam na ɖeɖe mɔ alo ŋkeke aɖe)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>Le nugbegblẽƒe</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Wolé ɖi hena dzodzro</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>Wolé ɖi</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>Womelé ɖi o</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>Woɣla</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>Dze</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>Woɖo ɖa le</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>Nyatakakaɖoƒe ƒe mɔnu ɖesiaɖe</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>Nu siwo dzodzro la ŋlɔ ɖi ko.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>Fifia: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>Gegeɖe ŋkɔ alo zãla ƒe ID.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Tso me</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>Tutu tsotsonuwo ɖa</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>Nuŋɔŋlɔwo</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from va ɖo %to le %count me</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Nuŋɔŋlɔ aɖeke meli o</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(woxlẽe le %ms ms me)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>Dɔwɔwɔwo le nuŋɔŋlɔ siwo wotia la ŋu</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>Tia wo katã le axa sia dzi</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>Wotia %count</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Dɔwɔwɔ</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>Tia dɔwɔwɔ aɖe</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>Ɖe asi le nulélé ɖi la ŋu</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Lée ɖi hena dzodzro</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Ɣla</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>Ɖee fia</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>Ɖe yi nugbegblẽƒe</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>Tutu ɖa</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>Na akpa</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>Na nɔnɔme</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>Nuka ta</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>Ehiã hafi woalée ɖi; wodzranɛ ɖo kple nulélé ɖi la kple dzodzro la me.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>Tia akpa aɖe</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Nɔnɔme</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>Tia nɔnɔme aɖe</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>Wɔe ɖe esiwo wotia ŋu</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>Wodzroa nuŋɔŋlɔ ɖesiaɖe me ɖe wò ŋutɔ ƒe mɔɖeɖewo nu. Woabia wò be nàkɔ ɖe edzi hafi woaɖe nu ayi nugbegblẽƒe alo atutu nu ɖa. Nuŋɔŋlɔ siwo wu %count la wɔa dɔ le megbe.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>Tia</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>Ɖeɖe ɖe dutoƒo</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>Woɖo ɖa tso</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>Tia %name</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>haɖe o</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(ŋkɔ meli o)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>Ŋɔŋlɔ gbãtɔ</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Le lalam</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>Edzila ɣlɛ</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>Wolé ɖi: nu yeye si woɖo ɖa</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>ʋɛsiɔn %version le lalam</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>ʋɛsiɔn %version le edzi yim</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>Ŋɔŋlɔ gbãtɔ, ʋɛsiɔn %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>Woɖe ʋɛsiɔn %version ɖe dutoƒo</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>Woɖo ɖi na %date</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>adrɛs meli o</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>womeŋlɔe ɖi o</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>Naneke mewɔ ɖeka kple tsotsonu siawo o.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Ɖe wo katã fia</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>Nyatakaka aɖeke meli haɖe o.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Le axa ɖesiaɖe dzi</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Ɖe nuŋɔŋlɔ %count fia le axa ɖesiaɖe dzi.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says "not recorded".</source>
+        <translation>Nu si woɖo ɖa ƒe adrɛs kple mɔfiala tso dzodzro ƒe nuxlẽƒe si mele afi sia o me: dzidzimeŋɔŋlɔ la gblɔ be "womeŋlɔe ɖi o".</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>Adrɛs kple mɔfiala la nye esiwo dzodzro la ŋlɔ ɖi na nuŋɔŋlɔ la (nulélé ɖi le eɖokui si ŋlɔa wo ɖi ɣesiaɣi; ɖeɖe ɖe dutoƒo kple wɔwɔ le afi siwo woʋu wo le ko), abe ale si eƒe adzɔgbeɖoɖowo dzraa wo ɖo ene.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: nuŋɔŋlɔ %count</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>Tutuɖa ɖea nuŋɔŋlɔwo ɖa tegbee, kple woƒe ʋɛsiɔnwo kple gɔmeɖeɖewo katã. Womate ŋu atrɔe o.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>Nuŋɔŋlɔwo yina nugbegblẽƒe, afi si woate ŋu agbugbɔ wo ali tso.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>Wodzroa nuŋɔŋlɔ ɖesiaɖe me ɖe wò ŋutɔ ƒe mɔɖeɖewo nu; nuŋɔŋlɔ si te nuŋɔŋlɔ bubuwo le la, wogblẽnɛ ɖi nenema (ɖee ɖa le nyatakaka ƒe ɖoɖo me). Woabia wò be nàɖo kpe edzi be wòe.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>Esia wɔa dɔ le megbe: eƒe ŋgɔyiyi ƒe axa ʋuna, eye woɖea nuŋɔŋlɔ ɖesiaɖe ƒe nyaʋiʋli fiana ne ewu enu.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>Nuŋɔŋlɔ siwo wotia</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>kple %count bubuwo</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Ɖe asi le eŋu</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>Womewɔ naneke o</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Nuka ta: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>Dɔwɔwɔ la gale edzi yim le megbe.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>Eƒe ŋgɔyiyi</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>Dɔwɔwɔ si le megbe la mewɔ dɔ o: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Wowɔe nu</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Wogbe</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Mewɔ dɔ o</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>Le nuŋɔŋlɔ ɖesiaɖe nu</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>Nuŋɔŋlɔ</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Nyaʋiʋli</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Nu ka ŋuti</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>Trɔ yi ŋkɔŋɔŋlɔ la gbɔ</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Ɖoɖowɔwɔ</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>Womewɔ naneke kura o</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>Kɔ ɖe edzi</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>Tia dɔwɔwɔ aɖe.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>Tia nuŋɔŋlɔ ɖeka ya teti.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>Mègatia nuŋɔŋlɔ siwo wu 1000 zi ɖeka o.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>Gblɔ nu si ta wolé nuŋɔŋlɔwo ɖi.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>Tia akpa la.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>Tia nɔnɔme la.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Womete ŋu xlẽ nuŋɔŋlɔgbalẽ la o.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>Dɔwɔƒe</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>Nyatakaka yeyewo</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>Womete ŋu xlẽ xexlẽmewo o: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Wolé ɖi hena dzodzro</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>Yeye egbe</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Wometi ɖoɖo ɖe nulélé ɖi hena dzodzro ŋu haɖe o (ŋgɔyiyi ƒe afɔɖeɖe 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>Nyatakaka yeyewo katã</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>Mɔ meli na wò be nàwɔ nyatakaka dzikpɔkpɔ ƒe dɔwɔwɔwo o (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>Nyatakaka dzikpɔkpɔ ƒe dɔwɔwɔ la mede blibo o: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>Nyatakaka dzikpɔkpɔ: %action le nuwo %count dzi</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%done le nu %total me: %ok wowɔe nu, %refused wogbe, %failed mewɔ dɔ o</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok wowɔe nu, %refused wogbe, %failed mewɔ dɔ o</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>Megali o.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>Teƒe aɖeke mele esi o (womeɖee ɖe dutoƒo o).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>Mɔ meli na wò be nàɣlae o (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>Mɔ meli na wò be nàɖee afia o (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>Woɣlae xoxo.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>Womeɣlae o.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>Woɣlae.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>Woɖee fia.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>Ele nugbegblẽƒe: ɖe nuwo le eme alo gbugbɔe ali tso afi ma.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>Ŋɔŋlɔ gbãtɔ si womeɖe ɖe dutoƒo kpɔ o la mate ŋu ayi nugbegblẽƒe o: tutui ɖa.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>Mɔ meli na wò be nàtutui ɖa o (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>Wotutui ɖa.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>Mɔ meli na wò be nàɖee ɖa o (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>Nuŋɔŋlɔ bubuwo le ete: ɖee ɖa le nyatakaka ƒe ɖoɖo me, afi si woŋlɔ wo ɖe.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>Womeɖee ɖa o (dɔwɔwɔmɔ aɖe ate ŋu alé eɖeɖeɖa la ɖi).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>Woɖe yi nugbegblẽƒe.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>Akpa la meli o.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>Ele akpa sia me xoxo.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>Mɔ meli na wò be nàna akpa sia o (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>Womena akpa la o.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>Wona akpa la.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>Nɔnɔme la meli o.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>Ele nɔnɔme sia me xoxo.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>Mɔ meli na wò be nàna nɔnɔme sia o (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>Womena nɔnɔme la o (dɔwɔwɔmɔ aɖe ate ŋu alé tɔtrɔ la ɖi).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>Wona nɔnɔme la.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>Dɔwɔwɔ ma tɔgbi meli o.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Wometi ɖoɖo ɖe nulélé ɖi hena dzodzro ŋu o (ŋgɔyiyi ƒe afɔɖeɖe 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>Gblɔ nu si ta wolée ɖi.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>Wolée ɖi xoxo.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>Mɔ meli na wò be nàlée ɖi o (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>Wometsɔ nulélé ɖi la ɖo eŋu o (dɔwɔwɔmɔ aɖe ate ŋu alé tɔtrɔ la ɖi).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>Wolée ɖi.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>Womelée ɖi o.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>Mɔ meli na wò be nàɖe asi le eŋu o (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>Womeɖe asi le nulélé ɖi la ŋu o (dɔwɔwɔmɔ aɖe ate ŋu alé tɔtrɔ la ɖi).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>Woɖe asi le eŋu; wogaɣlae ko: mɔ meli na wò be nàɖee afia o (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>Woɖe asi le eŋu.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>Taɖodzinuwo katã</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Ɖeɖe ɖe dutoƒo mamlɛtɔ</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>Ɖe wò nyatakakaɖoƒe ƒe kɔpi si metrɔna o ɖe dutoƒo femaxee le GitHub Pages dzi:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Axa siwo xo</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Ɖeɖe ɖe dutoƒo si metrɔna o</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Wotsi ɖeɖe ɖe dutoƒo si metrɔna o.</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Taɖodzinu</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Womete ŋu xlẽ taɖodzinuawo o: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>dɔ aɖe le edzi yim</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>tutu si woakpɔ</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>ɣla esia</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>wɔ taɖodzinu</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>gbeɖe</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>xlẽ nufiafia la</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>%added wotsɔ kpe ɖe eŋu, %changed wotrɔ, %removed woɖe ɖa</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%bytes le %limit me (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>Bubu %count mele ŋkɔŋlɔa me o.</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>Woŋlɔ axa %pages</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path ƒe lolome nye %size, si wu esi sɛva la ɖe mɔ na faɛl ɖeka.</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>%percent % le seɖoƒea me</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds s</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag enye ɖeɖe ɖe dutoƒo si le nyatakakaɖoƒea si fifia.</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: dɔ %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>/dzraɖoƒe/ na GitHub dɔwɔna ƒe nyatakakaɖoƒe; ɖe eme ƒuƒlu na wò ŋutɔ wò dɔmen alo zãla ƒe nyatakakaɖoƒe.</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. Nyatakakaɖoƒea</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. Sɛva la</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. Gedede dzraɖoƒea me</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. Dzraɖoƒea</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. Kadodowo kple gɔmeɖoanyi mɔ</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. Wò ŋutɔ wò dɔmen</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. Nu si le tutua me</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. Ɣeyiɣi si woaɖee ɖe dutoƒo</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. Gbugbɔ kpɔe eye nàdzrae ɖo</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>GitHub dɔwɔna ƒe nyatakakaɖoƒe nɔa /&lt;repository&gt;/ te; kadodo siwo do ƒome kple wo nɔewo wɔa dɔ le afi ma kple teƒe bubu ɖesiaɖe.</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>Tutu xɔa %site ƒe axa ɖesiaɖe abe ale si amedzro si mege ɖe eme o kpɔnɛ ene, egbugbɔa kadodowo ŋlɔna, eɖea faɛlwo ƒe kɔpi eye wòŋlɔa emetsonu ɖe taɖodzinua ƒe faɛldzraɖoƒe me. Womaɖe naneke ɖe dutoƒo o vaseɖe esime nàkpɔ tutua ɖa eye nàzi Ɖe ɖe dutoƒo dzi.</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>Cron ƒe nyagbɔgblɔ, abe 0 3 * * * ene</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>Wodzra ɖoɖo ɖa ƒe safui ɖo abe nuvi %secret ene.</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>Ɖoɖo ɖa ƒe safui ɖea mɔ na ɖoɖowɔƒe sia be wòaɖo nuwo ɖa ɖe dzraɖoƒe ɖeka ko me to SSH dzi, eye menye ɖe teƒe bubu o. Eƒe akpa si nye ame ŋutɔ tɔ la nɔa Ɖoɖowɔwɔ &gt; Nuviwo me; akpa si le dutoƒo ko wofiana.</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>Ɖoɖo ɖa ƒe safui si wowɔ na taɖodzinu sia</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>Ɖoɖo ɖa ƒe safui gea eme to SSH dzi: trɔ git adrɛs la wòanye SSH tɔ (git@github.com:owner/repo.git).</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>Dɔ aɖe le edzi yim, %user ye dze egɔme</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>Taɖodzinu sia ƒe dɔ aɖe gale edzi yim (%detail). Lala vaseɖe esime wòawu enu.</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>Taɖodzinu sia ƒe dɔ aɖe gale edzi yim. Lala vaseɖe esime wòawu enu.</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>Kadodo tso axa /news/ yi axa /about-us/team ŋu la, woaŋlɔe ale:</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>Wowɔ ɖoɖo ɖa ƒe safui yeye. Tsɔ eƒe akpa si le dutoƒo la kpe ɖe dzraɖoƒea ŋu fifia.</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>Axa si gale vodadadidi ƒe numetoto, nuŋɔŋlɔgbalẽ ƒe token alo gedede ƒe id me le klɔklɔ megbe la, womaɖee ɖe dutoƒo gbeɖe o.</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>Gbugbɔgbɔ ɖe megbe nye na aɖaŋutɔwo: tia &quot;Menya nu si esia atrɔ&quot; eye nàgaŋlɔ dzesia ƒe ŋkɔ ake.</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>Nyatakakaɖoƒe ate ŋu alolo va ɖo %site, faɛl ɖeka va ɖo %file, kple zɔzɔ si ade 100 GB le ɣleti ɖeka me. Le ɖoɖo femaxee dzi la, ele be dzraɖoƒea nanɔ dutoƒo. Womewɔ GitHub Pages na fiasewo alo asitsatsa bubuwo o.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>Taɖodzinu nye nyatakakaɖoƒe ɖeka si woɖe ɖe dutoƒo le git dzraɖoƒe ɖeka me. Womewɔa naneke alo ɖea naneke ɖe dutoƒo le afi sia o: Dzra ɖo ŋlɔa ɖoɖowo ɖe settings/override/staticcache.ini.append.php me.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>Taɖodzinu nye nyatakakaɖoƒe ɖeka si woɖe ɖe dutoƒo le teƒe ɖeka, abe wò dutoƒo nyatakakaɖoƒe le GitHub Pages dzi ene.</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>Token tso Ɖoɖowɔwɔ &gt; Nuviwo me</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>Dzraɖoƒea ƒe dɔwɔwɔ ƒe ɖoɖo aɖe ɖenɛ ɖe dutoƒo.</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>Tsɔ dutoƒo safui sia kpe ɖe dzraɖoƒea ŋu kple ŋlɔŋlɔ ƒe mɔɖeɖe. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tia Allow write access.</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>Wotsɔ kpe ɖe eŋu</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>Git sɛva bubu</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>Dɔwɔwɔ bubu le dɔ wɔm le taɖodzinu sia ŋu: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>Trɔ yi megbe</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>Gɔmeɖoanyi mɔ</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Do ŋgɔ</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>Le gɔmeɖoanyi mɔ aɖe te</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>Alɔ</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>Kadodo siwo gbã</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>Kadodo siwo gbã le tutua me</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>Tutu</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>Tutu %id, %user ye wɔe</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>Tu %name</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>Tui fifia</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>Tutu si woakpɔ</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Ame si</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>Kple asi, le afi sia</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Ɖe asi le eŋu</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Trɔe</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>Wotrɔe</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Tɔtrɔwo</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>Kpɔe gbã</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Kpɔ ɖoɖo siawo ɖa</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>Kpɔ nu si tutua trɔ, kpɔe ɖa, emegbe ɖee ɖe dutoƒo alo tsɔe ƒu gbe.</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>Tia ɖeɖe ɖe dutoƒo si gbɔ nàgbugbɔ ayi.</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>Ava le ɖeɖe si gbɔna me.</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Kpeɖodzi</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>Kpeɖodziwo</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>Ekpea ɖe tutua dzi, ede dzesii eye wòɖoe ɖa yi %remote. Womezia ɖoɖo ɖa dzi gbeɖe o; àte ŋu agbugbɔ ayi ɖeɖe ɖe dutoƒo ɖesiaɖe gbɔ emegbe.</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>Ne wotsɔe sɔ kple faɛldzraɖoƒe si nɔ anyi do ŋgɔ: %added wotsɔ kpe ɖe eŋu, %changed wotrɔ, %removed woɖe ɖa, %unchanged womedo asi le eŋu o.</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>Ne wotsɔe sɔ kple ɖeɖe ɖe dutoƒo mamlɛtɔ.</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Gedeeme ƒe kpeɖodzinu</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>Wò ŋutɔ wò dɔmen</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>Woɖea vodadadidi ƒe numetoto, nuŋɔŋlɔgbalẽ ƒe tokenwo, gedede ƒe idwo kple noncewo ɖa ɣesiaɣi.</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>Ɖoɖo ɖa ƒe safui</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>%name ƒe ɖoɖo ɖa ƒe safui</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Tsɔe ƒu gbe</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>Tsɔ tutua ƒu gbe</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>Dɔmen</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>Ƒuƒlu: nyatakakaɖoƒea ƒe adrɛs. Ne menye nenema o la, nyatakakaɖoƒe ma ke ƒe adrɛs si le eme.</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Wowu enu</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>Kadodo ɖesiaɖe dzea egɔme kple gɔmeɖoanyi mɔa.</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>Ɖeɖe ɖe dutoƒo ɖesiaɖe nye kpeɖodzi si ŋu dzesi static/%id/&lt;n&gt; le. Gbugbɔgbɔ ɖe megbe wɔa kpeɖodzi yeye kple ɖeɖe ɖe dutoƒo si do ŋgɔ ƒe faɛlwo: ŋutinya la nɔa anyi, dzesi aɖeke meʋãna o eye womezia naneke dzi o.</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>Nu bubuwo</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>Xɔ axawo tso</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Faɛl</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>Faɛlwo</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>Faɛl siwo bu</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>Faɛlwo tso</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>Faɛl siwo womete ŋu ƒo nu ƒu o</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>Asibidɛ ƒe dzesi</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>Faɛldzraɖoƒe</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>Na SSH adrɛs. Wowɔa safui la le dzadzraɖo megbe; wòe atsɔ eƒe akpa si le dutoƒo akpe ɖe dzraɖoƒea ŋu.</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>Na https:// adrɛs. GitHub: token si me tsitotsito le eye Contents xexlẽ kple ŋlɔŋlɔ ƒe mɔɖeɖe le esi le dzraɖoƒea dzi.</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>Na aɖaŋutɔwo. Dutoƒo nyatakakaɖoƒea trɔna enumake ne ɖoɖo ɖa la wu enu.</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Nuŋɔŋlɔgbalẽwo</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>Teƒenɔnɔ femaxee tso GitHub dzraɖoƒe me.</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>Tso alɔa me</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>Git adrɛs</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages ɖea mɔ na nyatakakaɖoƒe si lolo %site kple faɛl si lolo %file.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>GitHub Pages ƒe seɖoƒewo</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages ɖea faɛlwo ɖe dutoƒo abe ale si wole ene (ehiã na faɛl siwo dzea egɔme kple _).</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub naa alɔa abe ale si woɖoe ɖa ene. Gɔmeɖoanyitɔ.</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, wò ŋutɔ wò sɛva: git dzraɖoƒe ɖesiaɖe.</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>Gbugbɔ yi ɖeɖe ɖe dutoƒo si do ŋgɔ gbɔ</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Kpekpeɖeŋu</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>Kpekpeɖeŋu le mɔfiala ŋu</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>Ɣla wo</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Ŋutinya</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>%name ƒe ŋutinya</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Sɛva</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>Ale si GitHub Pages xɔa tutua</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>Mekpɔ tɔtrɔawo ɖa</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>Menya nu si esia atrɔ</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>Id</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>Wotsii: womate ŋu atu naneke o vaseɖe esime woatɔe.</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>Ele dɔ wɔm le megbe abe %user ene; àte ŋu atu axa sia.</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>Dɔ %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>Wodzrae ɖo abe nuvi %secret ene.</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Ƒomevi</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Ɖeɖe ɖe dutoƒo mamlɛtɔ</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>Gbe axa siawo</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>Gbe akpa siawo</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Kadodowo</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>Kadodo siwo wogbugbɔ ŋlɔ</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>Nyatakakaɖoƒe si le dɔ wɔm</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>Kpɔ tutua</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>Lɛta suewo, xexlẽdzesiwo, _ kple -, abe github-public ene. Etsɔa ŋkɔ na faɛldzraɖoƒea kple dzesiwo (static/&lt;id&gt;/&lt;n&gt;) eye womate ŋu atrɔe emegbe o.</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>Wɔ safui yeye</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>Wɔ taɖodzinu</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>Wɔ safui la</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>Wɔ dzraɖoƒea le sɛva la dzi gbã; esi ƒuƒlu hã nyo.</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>Faɛlwo ƒe xexlẽ</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Nyagbɔgblɔ</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>Axawo ƒe akpa gãtɔ</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Ŋkɔ</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>Token la ƒe ŋkɔ le Ɖoɖowɔwɔ &gt; Nuviwo me</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>Taɖodzinu yeye</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Esi kplɔe ɖo</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>Ao</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>Kpeɖodzi aɖeke meli haɖe o.</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>Womewɔ safui aɖeke o: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Womekpɔ php sedede ƒe dɔwɔnu aɖeke o. Ɖo migration.ini [AdminSettings] PhpCliPath ɖe eƒe mɔ blibo dzi.</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>Dzesi aɖeke meli haɖe o.</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>Taɖodzinu aɖeke meli haɖe o.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Naneke</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>Mele tutua me o.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>Womeɖe naneke ɖe dutoƒo haɖe o.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>Womeɖe naneke ɖe dutoƒo haɖe o: faɛl ɖesiaɖe nye yeye.</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>Na nyanya</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>Le ɣeyiɣi ƒe ɖoɖo nu</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>Le console dzi</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>Le sɛva dzi: ./console exp:static:serve %id naa wo nenema ke.</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>Mɔ ɖeka le fli ɖesiaɖe dzi, * sɔ kple akpa ɖesiaɖe: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>Ŋkɔ ɖeka ko wodzrana ɖo kple taɖodzinua; token alo safui la ŋutɔ nɔa Ɖoɖowɔwɔ &gt; Nuviwo me eye meɖea eɖokui fiana le ŋkɔŋlɔ aɖeke me gbeɖe o.</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>Nu si axawo yɔ ko</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>Kple token ko. env:NAME xlẽa sɛva la ƒe nɔƒe ƒe tɔtrɔ aɖe ɖe eteƒe.</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>Ʋu ŋgɔkpɔkpɔa</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>Eʋua tutua abe ale si sɛva la anae ene, tso taɖodzinua ƒe faɛldzraɖoƒe me. Kadodoa awɔ dɔ na wò gaƒoƒo ɖeka.</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>Mehiã o. Ƒuƒlu: nu si woɖe ɖe dutoƒo.</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>Mehiã o. Ne dɔmen le eŋu la, wonaa nyatakakaɖoƒea le eƒe ke dzi.</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Numetoto</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>Axawo</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>Taɖodzinua ƒe axawo</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>Axa siwo wogbe</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>Emegbe dɔwɔwɔ</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Ŋgɔkpɔkpɔ</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>Kpɔe do ŋgɔ eye nàɖee ɖe dutoƒo</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>Kpɔ %name do ŋgɔ eye nàɖee ɖe dutoƒo</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>Kpɔ tutua do ŋgɔ</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Ŋgɔyiyi</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>Dutoƒo adrɛs</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>Dutoƒo safui</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>Ɖe ɖe dutoƒo</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>Ɖe nyatakakaɖoƒe aɖe ƒe kɔpi si metrɔna o ɖe dutoƒo le GitHub Pages alo git sɛva ɖesiaɖe dzi: tui, kpɔ tɔtrɔawo ɖa, ɖee ɖe dutoƒo, eye nàgbugbɔ ayi ɖeɖe ɖe dutoƒo si do ŋgɔ gbɔ ne ehiã.</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>Ɖeɖe ɖe dutoƒo si gbɔ woagbugbɔ ayi</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>Ɖeɖe ɖe dutoƒowo</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Ɖoɖo ɖa</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>Xlẽ nufiafia la</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Ŋkɔŋlɔ</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Wogbe</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>Si do ƒome</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Gahee vɛ</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>Woɖe ɖa</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>Ɖɔli safui la: xoxotɔ madzɔ dɔ o</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Nyatakaka</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>Tutua ƒe nyatakaka</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Dzraɖoƒe</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Gbugbɔkpɔ</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>Gbugbɔkpɔ kpɔa ɖoɖo ɖesiaɖe ɖa eye wòfiaa fli siwo woaŋlɔ. Womedzra naneke ɖo haɖe o.</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Gbugbɔe ɖe megbe</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Gbugbɔgbɔ ɖe megbe</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Dzra ɖo</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>Ɣeyiɣi ƒe ɖoɖo</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>Didi ƒe axa</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>Akpawo ƒe idwo, woma wo ɖe vovo kple komawo.</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>Ɖo wo ɖe nyatakakaɖoƒe si le dɔ wɔm</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>Ɖoɖo</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Ɖoɖowo</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>%name ƒe ɖoɖowo</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Ɖoɖowɔwɔ</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Ɖoɖowɔwɔ &gt; Nuviwo</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>Wofiaa le ŋkɔŋlɔwo me, abe &quot;Dutoƒo nyatakakaɖoƒe le GitHub Pages dzi&quot; ene.</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>Gedede eme kple GitHub App ava kple GitHub kpekpeɖeŋu.</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>Nyatakakaɖoƒe</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>Nyatakakaɖoƒe si woaɖe ɖe dutoƒo</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Lolome</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>Lolome kple seɖoƒewo</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>Tutua ƒe lolome</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Axa siwo xo</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Wodze egɔme</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>%user ye dze egɔme le %time.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Nɔnɔme</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Ɖeɖe ɖe dutoƒo si metrɔna o</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>Wotsi ɖeɖe ɖe dutoƒo si metrɔna o</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Wotsi ɖeɖe ɖe dutoƒo si metrɔna o.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>Wotsi ɖeɖe ɖe dutoƒo si metrɔna o. Tɔe le Ɖoɖowɔwɔ &gt; Ɖeɖe ɖe dutoƒo si metrɔna o me gbã.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>Wotɔ ɖeɖe ɖe dutoƒo si metrɔna o.</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>Afɔɖeɖe %step le %total me</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Afɔɖeɖewo</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>Klɔklɔ</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Tsii</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Tɔe</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>Tɔ ɖeɖe ɖe dutoƒo si metrɔna o</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Dzesi</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>Dzesiwo</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Taɖodzinu</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>Woate ŋu awɔ taɖodzinuwo ahatrɔ wo, gake womatu naneke alo aɖe naneke ɖe dutoƒo o vaseɖe esime woatɔe.</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>Egblɔna na didi ƒe mɔ̃wo nu si woaxlẽ.</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>Womete ŋu tsɔ tutua ƒu gbe o: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>Tutua le abe ɖeɖe ɖe dutoƒo mamlɛtɔ ene: naneke meli woaɖe ɖe dutoƒo o.</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>Wotsɔ tutua ƒu gbe: faɛldzraɖoƒea gale ɖeɖe ɖe dutoƒo mamlɛtɔ me ake.</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>Gɔmeɖoanyi ɖoɖowo sɔ na nyatakakaɖoƒe geɖe.</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>Tutu si womeɖe ɖe dutoƒo haɖe o le faɛldzraɖoƒea me; tutu yeye aɖe aɖɔlii.</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>Womate ŋu aŋlɔ nu ɖe dɔwo ƒe faɛldzraɖoƒea me o: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>Womete ŋu dzra dɔa ɖo o: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>Womete ŋu dze dɔa gɔme o.</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>Dɔa wu enu. Wole eƒe nyatakaka hem vɛ.</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>Dɔa hiã zãla si ge ɖe eme.</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>Wodze dɔa gɔme gake meɖe eƒe dɔwɔwɔ ƒe id fia o. Kpɔ %detail ɖa.</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>Safui la</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>Faɛl gãtɔ: %path, %size.</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Fli siwo woaŋlɔ</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>Axawo ƒe ŋkɔŋlɔ na didi ƒe mɔ̃wo; ehiã dutoƒo adrɛs la.</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>Woxɔa axawo abe ale si amedzro si mege ɖe eme o kpɔa wo ene. Womenaa dziɖuɖu kple asitɔtrɔ ƒe siteaccesswo gbeɖe o.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>Womete ŋu kplɔ ŋgɔyiyia ɖo o. Gahe axa la vɛ be nàkpɔ ale si dɔa le yiyim.</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>Safui la ƒe akpa si le dutoƒo:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>Alɔa ƒe ke</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>Nuviwo ƒe dzraɖoƒe mele ɖoɖo me haɖe o (./console exp:upgrade --apply wɔa eƒe tabletɔ), eyata womate ŋu adzra safui aɖeke ɖo o.</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>Sɛva la gea eme le eɖokui si (eya ŋutɔ ƒe SSH safui alo gedeeme ƒe kpeɖeŋutɔ), alo dzraɖoƒea le sɛva sia dzi.</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>Womete ŋu ŋlɔ ɖoɖoa o: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Ɖoɖoawo le eteƒe. Woaŋlɔ fli siawo:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Womate ŋu axlẽ ɖoɖowo ƒe faɛl la o: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>Nyatakakaɖoƒea gbugbɔna yia ɖeɖe ɖe dutoƒo ma ƒe faɛlwo gbɔ; ele be woaɖe tutu si womeɖe ɖe dutoƒo haɖe o ɖe dutoƒo alo atsɔe aƒu gbe gbã.</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>Nyatakakaɖoƒea ŋutɔ ƒe axa na adrɛs siwo meli o.</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>Womete ŋu dzra taɖodzinua ɖo o: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>Taɖodzinua mege ɖe eme kple safui sia haɖe o: tia &quot;Ɖoɖo ɖa ƒe safui si wowɔ na taɖodzinu sia&quot; le eƒe ɖoɖowo me.</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Womete ŋu xlẽ taɖodzinuawo o: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>Tutu aɖeke meli si woakpɔ haɖe o.</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>Dutoƒo siteaccess aɖeke mele ɖoɖowɔƒe sia si o. Womeɖea dziɖuɖu kple asitɔtrɔ ƒe siteaccesswo ɖe dutoƒo gbeɖe o.</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>Axa sia kplɔa dɔa ɖo le esime wòle edzi yim; eyina edzi le megbe ne wotu axa la.</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>Ɖoɖo ɖa ƒe safui aɖeke mele taɖodzinu sia si haɖe o.</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>Womeyi taɖodzinu sia ƒe tutu le afi sia haɖe o.</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>Ɖeka le taɖodzinu sia si.</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>Etsɔa tutu sia ƒua gbe: faɛldzraɖoƒea gale ɖeɖe ɖe dutoƒo mamlɛtɔ me ake. Nyatakakaɖoƒe si le dɔ wɔm la matrɔ o.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>Tia &quot;Mekpɔ tɔtrɔawo ɖa&quot; gbã.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Ɣeyiɣi</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>Nu siwo dzea egɔme</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>Gaŋlɔ dzesia ƒe ŋkɔ ake</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>Womedo asi le eŋu o</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>Webhook</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Nu ka</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>Nu si trɔna</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>Nu si faɛl ɖesiaɖe nye; woŋlɔnɛ ɣesiaɣi.</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>Nu si dɔa wɔ kple eƒe ŋkɔŋlɔ. Dɔ si wodze egɔme le afi sia yina edzi le megbe ne wotu axa sia.</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>Nu si dɔa ta abe vodadawo ene</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>Nu si axawo yɔ, kple nɔnɔmetata ɖesiaɖe si le nu siwo woɖe ɖe dutoƒo me</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Ɣekaɣi</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>Ne ɖeɖe ɖe dutoƒo mede edzi o</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>Ne ɖeɖe ɖe dutoƒo dze edzi</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>Ne woɖe nu ɖe dutoƒo</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>Afi si kadodo siwo yina nu siwo mele kɔpia me o la yina (didi, gedeeme).</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>Afi si wonaa kɔpi si metrɔna o tso.</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>Nyatakakaɖoƒe si woɖe ɖe dutoƒo, kple ŋkɔ si wona taɖodzinua.</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>Ewɔa dɔ le mɔ ɖesiaɖe te. Gɔmeɖoanyitɔ.</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>Woŋlɔnɛ ɣesiaɣi si woɖo wò ŋutɔ wò dɔmen.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>Ɛ̃</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>Àte ŋu atu nu ahaɖe nu ɖe dutoƒo kple asi le afi sia kple le console dzi ɣesiaɣi.</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>ŋkɔ ko; asixɔxɔa nɔa Ɖoɖowɔwɔ &gt; Nuviwo me</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>le %path te</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>wu enu nyatakaka manɔmee</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>nu bubu</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>mede edzi o</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>faɛl</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages, alo main kple faɛldzraɖoƒe docs.</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>git sɛva</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (kple token) alo git@github.com:owner/repo.git (kple ɖoɖo ɖa ƒe safui); mɔxenya alo token aɖeke manɔ eme gbeɖe o.</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/, na nyatakakaɖoƒea ƒe anyigbatata kple kadodo vavãwo.</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>nɔnɔmetata</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>gbeɖe</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ao</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>dzraɖoƒe si le adzɔge meli o</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>naneke o: kpeɖodziwo nɔa faɛldzraɖoƒea me</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>naneke o: naneke metrɔ o</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>womeɖoe ɖa o</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>naneke metrɔ o</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>axa</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>dze edzi</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>Wotsi proc_open, eyata womate ŋu adze dɔ aɖeke gɔme le afi sia o. Zã ./console exp:static:build le sɛva dzi.</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>ɖeɖe ɖe dutoƒo</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>woɖee ɖe dutoƒo</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>ɖoɖo ɖa le lalam</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>woɖoe ɖa</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>wogbe</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>si do ƒome</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>gbugbɔgbɔ ɖe megbe</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>wogbugbɔe ɖe megbe</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>le edzi yim</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>faɛldzraɖoƒea ko</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: woŋlɔnɛ ɖe faɛl CNAME me. Ɖo dɔmen la ƒe DNS ɖe sɛva la gbɔ abe ale si wòɖe eme ene; HTTPS ate ŋu axɔ ɣeyiɣi aɖe hafi adze egɔme.</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>ɛ̃, womeɖee ɖe dutoƒo haɖe o</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>GitHub App aɖe</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>Dzraɖoƒea ƒe dɔwɔɖoɖo aɖe ɖenɛ ɖe dutoƒo. Tutuɖoa ŋlɔa dɔwɔɖoɖo ƒe faɛl la; gble agbalẽdzraɖoƒea ƒuƒlu.</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>Ne èdzra taɖodzinu aɖe ɖo kple GitHub dzraɖoƒe kple token alo GitHub App vɔ la, afɔɖeɖe sia ate ŋu awɔ dzraɖoƒea ahaʋu GitHub Pages. Ne menye nenema o la, wɔ dzraɖoƒea le GitHub dzi gbã; ƒuƒlu hã nyo.</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>Alɔ alo GitHub Actions?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>Kpɔ DNS la ɖa</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>Wɔ dzraɖoƒea ne meli o</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>Wɔ dzraɖoƒea le GitHub dzi eye nàʋu GitHub Pages le eƒe ɖoɖowo me (Settings &gt; Pages).</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>Ewɔa dzraɖoƒe %repo ne mele eme o (ne wobia), eʋua GitHub Pages tso alɔa me alo tso GitHub Actions me abe ale si wodzrae ɖo ene, eye wòɖoa wò ŋutɔ wò dɔmen kple HTTPS. Ezãa ɖoɖo siwo wodzra ɖo: dzra tɔtrɔwo ɖo gbã.</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>Nyatakaka vovovo le GitHub dzi</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>Ŋlɔ wò ŋutɔ wò dɔmen gbã.</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>Wodzrana ɖoɖo ɖa ɖe sia ɖe ɖe seɖoƒe siawo ŋu gbã.</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>Na https:// adrɛs le GitHub dzi. App si woɖo na ɖoɖo sia gena ɖe eme; ehiã ɖoɖo ƒe id.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages naa dzraɖoƒe ɣaɣla le ɖoɖo si wòxea fe ɖo ko dzi.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: subdɔmen (www.example.com) hiã CNAME ŋɔŋlɔ ɖe &lt;owner&gt;.github.io ŋu; dɔmen gã (example.com) hiã A ŋɔŋlɔwo %ips.</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>GitHub App ƒe ɖoɖo ƒe id</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>Pages ƒe tutuɖo mamlɛtɔ</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>Seɖoƒewo kple nubabla</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>Ehiã na GitHub Pages le ɖoɖo femaxee dzi.</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>Le GitHub dzi</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>Le GitHub App gbɔ ko: xexlẽdzesi si le App ƒe ɖoɖo ƒe adrɛs nuwuwu le GitHub dzi. Woɖoa App la ŋutɔ ɖe staticcache.ini me (GitHubAppId, GitHubAppKey).</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>Ɣaɣla</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>Dutoƒo</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>Dzra taɖodzinua ɖo kple GitHub dzraɖoƒe kple token alo GitHub App gbã.</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>Ɖo ŋɔŋlɔ siawo le dɔmen la ƒe nunala gbɔ:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>Ɖoe ɖo le GitHub dzi</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>%domain ƒe DNS mefia GitHub Pages haɖe o.</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>%domain ƒe DNS fia GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>GitHub kpekpeɖeŋu meli le afi sia o: %problem. Ɖeɖe ɖe dutoƒo le alɔa me gakpɔtɔ wɔa dɔ; ʋu GitHub Pages le dzraɖoƒea ƒe ɖoɖowo me.</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>GitHub ƒe afɔɖeɖewo meli na taɖodzinu sia o: %problem.</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>Woɖea GitHub Pages ƒe nɔnɔme fiana ne token alo GitHub App nye gedeeme ƒe kpeɖodzinu.</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>Zã wò ŋutɔ wò dɔmen</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>Nu si nàtia: token, ɖoɖo ɖa ƒe safui alo GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>Kple GitHub dzraɖoƒe kple token alo GitHub App la, mɔfiala ate ŋu awɔ dzraɖoƒea, aʋu GitHub Pages eye wòaɖo dɔmen la na wò (afɔɖeɖe 4).</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>wole etu ɖom</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>wotui</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>tso GitHub Actions me</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>tso alɔ %branch me</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>naneke haɖe o</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>womekpɔe o</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>etsi</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>ɣaɣla</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>dutoƒo</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>le fli me</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>menya o</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%count le axa %pages dzi:</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>.gz (kple .br) le nuŋɔŋlɔ ɖe sia ɖe xa, na dɔdzikpɔla siwo naa wo.</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>Axa sue aɖe na adrese xoxo kple ŋkɔ bubu sia ɖe sia si axa aɖe si, ale be kadodo xoxowo age ɖe edɔ wɔm.</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>Wɔ ŋɔŋlɔ ɣesiaɣi ne GitHub Actions kplɔ saitia vɛ.</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>SPDX id abe CC-BY-4.0 ene, alo nuŋɔŋlɔ ŋutɔ.</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>Agbadzɔ</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>Yɔyɔ ɖe serva ŋu</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Nyaɖeɖefia</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>Nuŋɔŋlɔgbalẽwo si ƒoa nyatakaka nu ƒu</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>GitHub Actions workflow</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>Teƒe gbadza sue kple nyaɖeɖefia manɔmee le axawo me.</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>Nuŋɔŋlɔ ƒe lisensi</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Ge ɖe eme</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>Ɖe sue</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>Nuŋɔŋlɔgbalẽ bubuwo</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>Tia nu ŋgɔ</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>Axa siwo dzoa</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>Axa siwo dzoa: %count.</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Didi</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>Didi ƒe ɖoɖo: axa %pages le %languages me.</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>Nɔnɔme ƒe agbalẽwo kple dɔwɔnuwo siwo wotsɔ woƒe nu ƒe hash ŋlɔ ŋkɔ na, ale be browser-wo nate ŋu axɔ wo ɖe te.</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>Axa siwo trɔ, miniti ʋɛ aɖewo le trɔtrɔ mamlɛa megbe (cronjob ƒe akpa staticpublish).</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>Nuŋɔŋlɔ ƒe lisensi, tso teƒe si le afi gɔme.</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>Saita blibo, le ɣeyiɣi ɖoɖo ƒe ɣeyiɣiwo me (cronjob ƒe akpa staticpublish).</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>Axa ƒe akpa siawo hiã serva; wotsɔ nu bubu na wo ɖe sia ɖe. Dzro wo ƒe nu ŋgɔ na wò ate ŋu aɖe ɖe dutoƒo.</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>Nu si mewɔa dɔ le teƒe ɖeka o</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>Nu si repository nye, na ame si le egbe ʋuam le host dzi.</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>woɖe ɖa</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>nuŋɔŋlɔ si ɖo teƒe</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>nuŋɔŋlɔgbalẽ ƒe nuɖoɖo si le dɔ wɔm</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>nyatakakaɖoƒe si le dɔ wɔm</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>kɔpi ƒe didi ƒe axa</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>Womete ŋu ɖo nuŋɔŋlɔgbalẽa o.</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>Akpe: wɔɖo nuŋɔŋlɔgbalẽa.</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>Womexɔ nuŋɔŋlɔgbalẽa o: dzro nu si ŋlɔ ɖe eme eye nàɖo egbɔ.</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>Ɖe kadodo siwo yi axa siwo mele kɔpi la me o la ɖa</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>Ɖe kadodo siwo yi dɔdzikpɔla ƒe akpa la ɖa</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>Woƒe nuŋɔŋlɔ susɔna. Womeɖea nɔnɔmetatawo, nuŋlɔɖiwo kple kadodo siwo yi nyatakakadzraɖoƒe bubuwo ɖa gbeɖe o.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>ʋɛsiɔn</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>Nyatakakaɖoƒe ƒe mɔnu siwo woata</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Nyatakakaɖoƒe ƒe mɔnu</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>Le ke la me</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>Nyatakakaɖoƒe ƒe mɔnu aɖeke mele ke la me o: ɖesiaɖe le eƒe agbalẽdzraɖoƒe me, eye ke la ku ɖe wo ŋu</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Nyatakakaɖoƒe ƒe mɔnuwo</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>Tia nyatakakaɖoƒe ƒe mɔnu ɖeka, alo geɖe siwo mama host ɖeka to woƒe URI ŋgɔdonya dzi. Esi le ke la me la wona le afima, bubuawo le woƒe ŋgɔdonya ƒe agbalẽdzraɖoƒe me (/ger/); kadodo siwo le wo dome la tsia kɔpi la me. Womenaa dziɖuɖu ƒe mɔnuwo gbeɖe o.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>%target ƒe static publishing mede edzi le %site o</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>%target ƒe static publishing de edzi le %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>%site ye ɖo mail sia ɖa elabena static publishing taɖodzinu %target bia.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>Ɖoe ɖe dɔ me %deploy mede edzi o le %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>Ɖoe ɖe dɔ me %deploy le lalam le agbo aɖe nu le %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>Ɖoe ɖe dɔ me %deploy dze edzi le %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>%site ye ɖo agbalẽ sia ɖe esi migration.ini [RemoteSettings] Notify[] bia be woaɖoe ta.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>Nyatakaka ƒomeviwo (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>Woxlẽe le %time, agaxlẽe le aɖabaƒoƒo %minutes megbe</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>Nyatakaka ƒomevi dzraa hatsotso ƒe atribiut ƒe asixɔxɔ ƒomevi ɖeka ɖo eye wòtrɔnɛ: nuŋɔŋlɔ fli ɖeka, nɔnɔmetata ɖeka, kadodo ɖeka. Dzime naa wo dometɔ akpa gãtɔ, tsɔtsɔkpewo tsɔa bubuwo kpena ɖe eŋu. Wo katã le afi sia, ame si naa wo kple alesi gbegbe nyatia zãa wo. Nyatakaka ƒomevi si nyatakakadzraɖoƒe zãna gake naneke megaŋlɔa eŋkɔ o la gblẽa nyati si me wòle.</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>Hatsotso ƒuƒoƒowo</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>Gaxlẽe fifia le esi teƒe nàzã aɖabaƒoƒo mamlɛawo ƒe xexlẽme.</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>Gaxlẽe</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Nuƒoƒo kpuie</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>Woŋlɔ ŋkɔ</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>Le dɔ wɔm</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>Womezãe o</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>Tsɔtsɔkpe siwo naa nyatakaka ƒomeviwo</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>Hatsotso ƒe atribiutwo</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>Nu ƒe atribiutwo</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>Womeŋlɔ eŋkɔ o</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>Ele xexlẽdzesiwo me, faɛl mele eme o</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>Wozãa nyatakaka ƒomevi %count gake womeŋlɔ woƒe ŋkɔ o</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>Hatsotso ƒe atribiut %class_attributes kple nu ƒe atribiut %object_attributes ƒe nyatakaka ƒomevi nye esi tsɔtsɔkpe alo ɖoɖo aɖeke meŋlɔ eŋkɔ o. Womate ŋu aɖe woƒe nuwo afia, atrɔ wo alo aɖe wo ɖe go o. Na tsɔtsɔkpe si naa nyatakaka ƒomevi la nawɔ dɔ, alo trɔ hatsotso la.</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>Ɖe esiawo ɖeɖe ko fia</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>Di nyatakaka ƒomevi</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>Dzesi, ŋkɔ, PHP hatsotso alo tsɔtsɔkpe.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Fia</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Wo katã</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>Ame si naa</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>Ame sia ame</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>Dzime</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>Nyatakaka ƒomevi aɖeke mewɔ ɖeka kple tiatia sia o.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Fia wo katã</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>Tsɔtsɔkpe</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%shown le nyatakaka ƒomevi %count dome, %used le zãzã me</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>Hatsotso alo nu ƒe atribiut siwo ƒe nyatakaka ƒomevi nye esiawo le nyatakakadzraɖoƒe la me, gake content.ini meŋlɔ wo dometɔ aɖeke o, alo woƒe faɛl mele eme o.</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>%provider ƒe nyatakaka ƒomeviwo</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>Nyatakaka ƒomevi</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>PHP hatsotso kple faɛl</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>Hatsotsowo</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>Nuwo</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>Dzesiwo</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>naneke</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>Nyatakaka ƒomevi aɖeke mewɔ ɖeka kple didi la o. Tutu didi la ɖa.</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>Wofia nyatakaka ƒomevi %shown le %count dome</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>Nyatakaka ƒomevi siwo wofia: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>Ɖo ɖe ɖoɖo nu le %column nu</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>Woxlẽe le %time</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>Nyatakaka ƒomeviwo katã</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>Kpekpeɖeŋu axa</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>Wozãa nyatakaka ƒomevi sia gake womeŋlɔ eŋkɔ o</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>Womate ŋu aɖe hatsotso siwo le ete ƒe nuwo afia, atrɔ wo alo aɖe wo ɖe go o ne tsɔtsɔkpe aɖeke meŋlɔ nyatakaka ƒomevi la ƒe ŋkɔ o. Na tsɔtsɔkpe si naa enae nawɔ dɔ eye nàtsɔe akpe ɖe content.ini [DataTypeSettings] AvailableDataTypes[] ŋu, alo trɔ hatsotsoawo.</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini ŋlɔ nyatakaka ƒomevi sia, gake eƒe faɛl mele nyatakaka ƒomevi ƒe agbalẽɖoƒe aɖeke me o. Naneke mezãnɛ o; ɖee ɖa le AvailableDataTypes[] me alo na eƒe tsɔtsɔkpe nawɔ dɔ.</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>Le nyatakaka ƒomevi sia ŋu</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>Dzesidenu</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Ŋkɔ</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Tsɔtsɔkpe %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>ame aɖeke o</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>PHP hatsotso</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Faɛl</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>Le AvailableDataTypes[] me</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ɛ̃</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ao</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>Eƒe asixɔxɔ ƒe kɔlɔmwo</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>Eƒe hatsotso ƒe atribiut ɖoɖowo ƒe kɔlɔmwo</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>Kplɔ̃wo</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>Wokpɔ kɔlɔmwo kple taɓlewo to nyatakaka ƒomevi la ƒe kɔd xexlẽ me: mɔfiame, menye ŋugbedodo o.</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>Kpɔɖeŋuwo</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Nyatakakaɖoƒe ƒe mɔnu</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>Kpɔɖeŋu</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>Wokpɔe le</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>dɔdzikpɔƒe sia</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>nyatakakaɖoƒe si woɖo ɖi</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>Overrides manɔmee: override kpɔɖeŋu si sɔ kple hatsotso alo atribiut la ɖua esiawo dzi.</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>Hatsotso siwo zãe (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>Hatsotso aɖeke mele esi atribiut si ƒe nyatakaka ƒomevi nye esia o.</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Hatsotso</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>Atribiutwo</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>Hatsotso ƒe atribiutwo (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>Atribiut</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Ɖoɖowo</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>Hiã</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>Wodi nu le eme</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>Woate ŋu aɖe gbegɔme</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>Ƒoa nyatakaka ƒu</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>Nyati aɖewo siwo zãe</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>Esi wotrɔ mlɔeba gbã</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Wotrɔ asi le eŋu</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>Kadodoƒe %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>Gɔmeɖeɖe ɖesiaɖe ƒe asixɔxɔ nye eya ŋutɔ tɔ.</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>Didi la ŋlɔa eƒe asixɔxɔwo ɖe ɖoɖo me.</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>Ate ŋu aƒo nyatakakawo nu ƒu tso amedzrowo gbɔ (fɔmwo).</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>Woate ŋu aɖo xexlẽdzesiwo ɖe ɖoɖo nu le eƒe nu: ɖoɖo ƒe safui %type.</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>Woate ŋu aɖo ɖe ɖoɖo nu</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>Eƒe asixɔxɔwo fia nu bubuwo.</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>Ƒomedodowo</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>Woate ŋu atsɔ nuŋɔŋlɔ bɔbɔe ayɔe (import, REST).</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>Tso nuŋɔŋlɔ me</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>Woate ŋu atsɔ faɛl ayɔe.</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>Tso faɛl me</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>Eƒe hatsotso ƒe atribiut ɖoɖowo yia agbawo me.</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>Agbawo</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>Emenuwo (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from va se ɖe %to le %count me</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Tso ŋkɔŋɔŋlɔ la me</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>Hatsotso katã</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Akpa</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Gbewo</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Nutɔ</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Woɖe ɖe dutoƒo</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>Trɔ ɖoɖomɔ la</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Nuŋɔŋlɔ aɖeke meli o</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Le axa ɖesiaɖe dzi</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Ɖe nuŋɔŋlɔ %count fia le axa ɖe sia ɖe dzi.</translation>
     </message>
 </context>
 </TS>

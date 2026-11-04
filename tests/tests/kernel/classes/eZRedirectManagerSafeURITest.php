@@ -24,7 +24,7 @@
  *           state/group_edit, role/edit, class/edit and class/groupedit: the form's page, else their old default
  *  VIEW-02  The same with an unsafe page in the form: their old default
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @package tests
  */
@@ -298,9 +298,9 @@ class eZRedirectManagerSafeURITest extends PHPUnit\Framework\TestCase
             'state/edit' => \Exponential\View\Kernel\State\Edit::cancelURI( null, 'ez_lock', $o ),
             'state/group_edit' => \Exponential\View\Kernel\State\GroupEdit::cancelURI( null, $o ),
             'role/edit' => \Exponential\View\Kernel\Role\Edit::cancelURI( null, $o ),
-            'class/edit' => \Exponential\View\Kernel\Class\Edit::cancelURI( null, false, $o ),
-            'class/edit from a group' => \Exponential\View\Kernel\Class\Edit::cancelURI( null, '3', $o ),
-            'class/groupedit' => \Exponential\View\Kernel\Class\Groupedit::cancelURI( null, $o ),
+            'class/edit' => \Exponential\View\Kernel\ContentClass\Edit::cancelURI( null, false, $o ),
+            'class/edit from a group' => \Exponential\View\Kernel\ContentClass\Edit::cancelURI( null, '3', $o ),
+            'class/groupedit' => \Exponential\View\Kernel\ContentClass\Groupedit::cancelURI( null, $o ),
         );
     }
 

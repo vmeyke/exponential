@@ -46,7 +46,7 @@ als Exponential fortgeführt ([Wer ist 7x?](../wer-ist-7x.md)).
 
 ## Ihre erste Stunde
 
-1. **Installieren** (10 Minuten): `./console exp:install` richtet eine Site auf SQLite ein
+1. **Installieren** (10 Minuten): `./console exp:install --apply` richtet eine Site auf SQLite ein
    ([Installation mit einem Befehl](../../funktionen/6.0/installation-mit-einem-befehl.md)).
 2. **Orientieren** (10 Minuten): [Exponential für Web-Framework-Entwickler](exponential-fuer-framework-entwickler.md) und
    Ihre Umstiegsseite ([Symfony](umstieg-von-symfony.md), [Laravel](umstieg-von-laravel.md),
@@ -182,8 +182,8 @@ als Exponential fortgeführt ([Wer ist 7x?](../wer-ist-7x.md)).
 |---|---|
 | [Anwendungsentwickler: hier beginnen](../ersteller/anwendungsentwickler/anwendungsentwickler-hier-beginnen.md) | Die ausführlichen Leitfäden hinter den meisten Seiten hier: Module, Datentypen, Workflows, Warteschlangen, REST, Deployment |
 | [Erweiterungsentwicklung: das Buch](../erweiterungsentwicklung/README.md) | Jeder Erweiterungspunkt Schritt für Schritt, vom Benutzer bis zum Maintainer |
-| [PHP-Entwickler: hier beginnen](../../../eng-us/help/php-developers/php-developers-start-here.md) | Die PHP-Seite: Sprache, Konventionen und die Klassen des Kernels |
-| [Softwareingenieure: hier beginnen](../../../eng-us/help/software-engineers/software-engineers-start-here.md) | Architektur, Qualität und Ingenieurspraxis |
+| [PHP-Entwickler: hier beginnen](../php-entwickler/php-entwickler-hier-beginnen.md) | Die PHP-Seite: Sprache, Konventionen und die Klassen des Kernels |
+| [Softwareingenieure: hier beginnen](../softwareingenieure/softwareingenieure-hier-beginnen.md) | Architektur, Qualität und Ingenieurspraxis |
 | [Die Template-Sprache](../template-sprache/README.md) | Die Sprache im Detail, mit Vergleichen zu Smarty |
 | [Kernel-Architektur](../../standards/architektur/kernel-architektur.md) | Die maßgebliche Beschreibung der Schichten des Kernels |
 | [Erweiterungspunkte](../../bc/6.0/rad-erweiterungspunkte.md) | Der Katalog aller Erweiterungspunkte |

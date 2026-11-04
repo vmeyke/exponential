@@ -3,8 +3,8 @@ title: "Story: Exponential Layouts, the page builder"
 audience: press
 category: press-media
 order: 53
-summary: A feature story about Exponential Layouts, the visual page builder that brings the Netgen Layouts concept to the Exponential kernel - layouts, zones, blocks, rules and shared layouts - with printable facts, credit to Netgen, what not to claim and headline ideas.
-keywords: story, Exponential Layouts, explayouts, page builder, layouts, zones, blocks, rules, shared layouts, Netgen Layouts, press
+summary: A feature story about Exponential Layouts, the visual page builder that brings the concept of the upstream layouts packages to the Exponential kernel - layouts, zones, blocks, rules and shared layouts - with printable facts, credit to Netgen, what not to claim and headline ideas.
+keywords: story, Exponential Layouts, explayouts, page builder, layouts, zones, blocks, rules, shared layouts, press
 type: help
 ---
 # Story: Exponential Layouts, the page builder
@@ -25,12 +25,12 @@ template work. It gives the story, the dates, facts with sources, the credit you
 
 ## The story in one paragraph
 
-"Exponential Layouts is a visual page builder for Exponential. It brings the Netgen Layouts concept to the
+"Exponential Layouts is a visual page builder for Exponential. It brings the concept of the upstream layouts packages to the
 Exponential kernel: a **layout** is a saved arrangement of **blocks** in **zones**, and a **rule** decides which pages
 get it, so editors rearrange pages without touching templates" ([README, Exponential Layouts](https://github.com/se7enxweb/exponential/blob/main/README.md#exponential-layouts-revolutionary)).
 Layouts have drafts like content does, a header or footer can be built once in a shared layout and linked from every
 other layout, and layouts move between installations by export and import. The suite is required by the kernel's
-`composer.json` in the 6.0.15 development line, so every new installation has it
+`composer.json` in the 6.0.15 line, so every new installation has it
 ([Exponential Layouts](../who-is-the-exponential-foundation.md#exponential-layouts)).
 
 ## What is new, and when
@@ -43,7 +43,8 @@ other layout, and layouts move between installations by export and import. The s
 | Export and import of layouts | 17 October 2026 | [6.0.15 changelog](../../../changelogs/6.0/6.0.15.md#17-october-2026-export-and-import-of-layouts) |
 | The layout editor page meets WCAG 2 AA (as the changelog states it) | 17 October 2026 | [6.0.15 changelog](../../../changelogs/6.0/6.0.15.md#17-october-2026-the-layout-editor-page-meets-wcag-2-aa) |
 
-The 6.0.15 line is in development and not released.
+The 6.0.15 line is the current release line of Exponential 6.0; the dates are dates of the changes, not a release
+date.
 
 ## Facts you can print
 
@@ -60,8 +61,8 @@ The 6.0.15 line is in development and not released.
 
 ## Credit where it is due
 
-Exponential Layouts ports the Netgen Layouts **concept** to the Exponential kernel. Name Netgen when you describe it:
-"It brings the Netgen Layouts concept to Exponential." Do not call the product "Netgen Layouts for Exponential"; it has
+Exponential Layouts ports the **concept** of the upstream layouts packages to the Exponential kernel. Credit the upstream packages when you describe it:
+"It brings the concept of the upstream layouts packages to Exponential." Do not call the product "Netgen Layouts for Exponential"; it has
 its own name ([Talking points: Exponential Layouts](../advocates/talking-points-exponential-layouts.md#credit-where-it-is-due)).
 Netgen is a separate company; the sources do not describe any endorsement by Netgen, so do not imply one.
 
@@ -89,7 +90,7 @@ Netgen is a separate company; the sources do not describe any endorsement by Net
 | Question | Ask | Where |
 |---|---|---|
 | A demonstration, the roadmap of the suite | 7x | info@se7enx.com, or <https://exponential.earth/about/contact-us> |
-| Questions about Netgen Layouts itself | Netgen, not 7x | their own channels |
+| Questions about the upstream layouts packages themselves | Netgen, not 7x | their own channels |
 | How sites use it | the community, in public | <https://share.exponential.earth/forums> |
 
 ## Related pages

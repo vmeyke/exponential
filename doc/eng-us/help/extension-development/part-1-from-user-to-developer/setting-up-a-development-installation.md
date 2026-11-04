@@ -53,7 +53,7 @@ Expected: a number of extension clones, and the last three commits of one of the
 ## Step 2: install with one command
 
 ```bash
-php bin/php/console exp:install
+php bin/php/console exp:install --apply
 ```
 
 With no options this installs the `sevenx_multisite` site package on **SQLite**, in `eng-US`, and prints a summary
@@ -142,7 +142,7 @@ If you prefer to keep your own extensions outside `extension/`, the kernel can s
 
 | Symptom | What to check |
 |---|---|
-| `composer install` stops with a PHP version error | `php -v`; the kernel needs PHP 8.0 or later |
+| `composer install` stops with a PHP version error | `php -v`; the kernel needs PHP 8.0 or later (PHP 7.4 usable without support) |
 | `exp:install` stops before the summary | its own message names the check that failed; the log is in `var/log/` |
 | The site shows a blank page | `var/log/error.log`, and the PHP error log of your web server |
 | A change to a template has no effect | template compilation: clear the template cache, or set `TemplateCompile=disabled` while developing |

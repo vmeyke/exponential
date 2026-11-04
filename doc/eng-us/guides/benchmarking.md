@@ -857,6 +857,21 @@ Defaults in brackets. "http" options apply to the HTTP mode, "kernel" and "micro
 | `--force` | http | allow more than the polite limits against a host that is not loopback |
 | `-s <siteaccess>`, `-q`, `--allow-root-user`, `-d` | | the general options of every script: siteaccess, quiet (progress off, result kept), run as root, debug output |
 
+## Smarty templates
+
+Comparing a `.tpl` design with its Smarty (`.stpl`) port follows the same rules: the same caches warm, the same
+debug state, medians, a server that is not overloaded. The measurements of the media design in both engines, on
+Apache with PHP-FPM and on Velocity, and what made the Smarty pages fast:
+[Smarty templates: performance (Speed)](smarty-templates-performance.md).
+
+## Twig templates
+
+The same for a Twig (`.twig`) port, with one more rule for cached pages: measure from a client whose address is not
+in the debug list, or every response carries the debug report and bypasses the page caches. The media design measured
+in all three engines, cached and uncached, on Apache with PHP-FPM and on Velocity, with the load of each run:
+[Twig templates: performance (Speed)](twig-templates-performance.md); all three engines side by side, cached, uncached and
+with the debug output, with the conditions of every run: [Speed of the three template engines](template-engines-speed.md).
+
 ## References
 
 - [Benchmark: exp:benchmark](../features/6.0/benchmark.md): the feature reference, with the file list.

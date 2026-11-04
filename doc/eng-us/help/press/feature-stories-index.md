@@ -27,8 +27,9 @@ and headline ideas, and who to ask. Pick the area your audience cares about.
 
 ## Headline features of the 6.0.15 line
 
-6.0.15 is in development; write about these features as "coming in the next release" or "in the development version"
-([Covering 6.0.15 while it is in development](covering-6-0-15-while-in-development.md)).
+6.0.15 is the current release line of Exponential 6.0. Call these features released only if the tag `v6.0.15` exists
+(`git tag -l 'v6.0.*' --sort=version:refname`); without it, write "in the development version"
+([Covering 6.0.15, before and after its tag](covering-6-0-15-while-in-development.md)).
 
 | Story | In one line |
 |---|---|
@@ -81,7 +82,7 @@ and headline ideas, and who to ask. Pick the area your audience cares about.
 | [Story: SQLite by default](story-sqlite-by-default.md) | A CMS that needs no database server |
 | [Story: MongoDB as a database](story-mongodb.md) | A document database under a content model |
 | [Story: operating systems](story-operating-systems.md) | Linux, BSD, macOS and Windows in tiers |
-| [Story: current PHP](story-current-php.md) | Old code base, PHP 8.0 to 8.5 |
+| [Story: current PHP](story-current-php.md) | Old code base, PHP 8.0 to 8.5 (PHP 7.4 usable without support) |
 | [Story: install in one command](story-install-in-one-command.md) | From nothing to a site with one command |
 | [Story: Git first](story-git-first.md) | Installing and updating with Git |
 

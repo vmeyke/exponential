@@ -308,7 +308,10 @@ in no group).
   overview, which leaves it out of its tiles. `TrailLinks[]` is its counterpart at the end: the links it names are
   drawn after all other links, in its order, also after the links extensions append; in a grouped menu after the
   groups and "More", in none of them (`.a4-navtrail`), in a plain list as its last items, in the tiles as the last
-  tiles. The Dashboard menu ends with Change password and Edit profile this way.
+  tiles. The Dashboard menu ends with Audit trail, Change password and Edit profile this way. `CollapseAfter=<n>`
+  shortens a menu drawn as one list: its first <n> links show, in the order drawn, and the rest follow in a "More
+  (count)" disclosure (`details.a4-navmore`), closed at first and open when it holds the current page. The Dashboard
+  menu sets 10.
 - **Access.** The view `setup/menu` opens with any one of the setup module's functions (`setup`, `administrate`,
   `managecache`, `managecronjobs`, `preload`, `system_info`), so a role that reached the tab's former page
   (`setup/cache`) keeps the tab. The tab asks for nothing more (`[Topmenu_setup]` has no `PolicyList[]`): a role
@@ -563,7 +566,7 @@ Change password and Edit profile last, as in the left menu):
 
 | Group | Links (`MegaMenuLinks[]`) |
 |---|---|
-| Overview | `overview-dashboard` (Dashboard); the Help center (`overview-help_center`) joins it once the help adds its link to `[Leftmenu_my]` |
+| Overview | `overview-dashboard` (Dashboard), `overview-recent_content` (Recent content, for moderators); the Help center (`overview-help_center`) joins it once the help adds its link to `[Leftmenu_my]` |
 | Your work | `work-my_drafts`, `work-my_pending`, `work-collaboration`, `work-my_bookmarks` |
 | Activity and audit | `activity-console` (Audit trail), `activity-expai_events` (AI events) |
 | Exponential Intelligence | `ei-expai`, `ei-expai_vector`, `ei-expai_chain`, `ei-expai_alttext`, `ei-expai_log`, `ei-expai_help` |
@@ -824,7 +827,7 @@ The fetch function `fetch( 'content', 'language_states', hash( 'object', $object
 `state_main_name`, optional `state_object_id`, `state_href`, `state_current`). Under forced colors the fill and the
 dot are drawn in system colors. `tests/tests/design/AdminLanguageStatesTest.php`.
 
-Cost, measured on alpha with a folder of 50 articles: the sub-items request (`ezjscnode::subtree`, 50 rows) takes
+Cost, measured on a development installation with a folder of 50 articles: the sub-items request (`ezjscnode::subtree`, 50 rows) takes
 the same number of queries before and after the states (357 for 50 rows, 42 for 5, the same both times: nothing per
 row is added); the node view adds the one grouped query of `lastEdited()`, which the SQL query cache answers on the
 second use in the same page (meta line and Translations tab). Since the fetch function belongs to a kernel class, a
@@ -1014,7 +1017,8 @@ Policies of a role (`role/view`, `role/edit`) and the role cards of `role/list` 
 | `settings/menu.ini` | `Topmenu_<tab>` | `Name`, `Tooltip`, `TranslationContext` | the default tab names, context `design/admin/pagelayout` | siteaccess |
 | `settings/menu.ini` | `Leftmenu_<menu>` | `Groups[]`, `GroupNames[<group>]`, `GroupLinks_<group>[]` | the nine groups of `Leftmenu_setup` (Design and Audit for moved tabs, AI and Updates for extensions' links) | siteaccess |
 | `settings/menu.ini` | `Leftmenu_<menu>` | `LeadLinks[]` | `overview` in `Leftmenu_setup` | siteaccess |
-| `settings/menu.ini` | `Leftmenu_<menu>` | `TrailLinks[]` | `change_password`, `edit_profile` in `Leftmenu_my` | siteaccess |
+| `settings/menu.ini` | `Leftmenu_<menu>` | `TrailLinks[]` | `audit`, `change_password`, `edit_profile` in `Leftmenu_my` | siteaccess |
+| `settings/menu.ini` | `Leftmenu_<menu>` | `CollapseAfter` | `10` in `Leftmenu_my` (the rest of the links under "More") | siteaccess |
 | `settings/menu.ini` | `Leftmenu_setup` | `GroupTabs[<group>]`, `GroupSections[<group>]` | `design` and `audit` (see [Moving a tab into Setup](#moving-a-tab-into-setup)) | siteaccess |
 | `settings/menu.ini` | `Leftmenu_<menu>` | `LinkIcons[<link>]`, `LinkDescriptions[<link>]`, `LinkFigureTemplates[<link>]` | the core Setup links | siteaccess |
 | `settings/design.ini` | `AdminDesignSettings` | `IconList[]` | every `.a4-bi-*` icon of `components.css` | siteaccess |

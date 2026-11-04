@@ -6,6 +6,21 @@ mit einem einzigen Konsolenbefehl), wie Sie die Website ausliefern und was danac
 wie es ausgeliefert wird, lesen Sie zuerst in der [README](../../README.md) des Projekts. Eine geführte erste Stunde
 nach der Installation finden Sie unter [Erste Schritte](anleitungen/erste-schritte.md).
 
+> **Warnung**
+> **`.htaccess` bremst jede Anfrage.** Sind `.htaccess`-Dateien erlaubt (`AllowOverride` alles außer `None`), geschweige
+> denn genutzt, sucht Apache sie bei jeder Anfrage in jedem Verzeichnis des Pfads und liest und wertet sie aus, und
+> die Ladezeiten der Seiten steigen drastisch ([gemessen](anleitungen/setup-dateien-von-der-konsole.md#gemessen-htaccess-gegen-regeln-im-virtuellen-host)). Die einzige wirkliche Abhilfe ist, die
+> Funktion für den virtuellen Host abzuschalten: `AllowOverride None` im virtuellen HTTPS-Host, und die Regeln in
+> der Konfiguration des virtuellen Hosts selbst als mod_rewrite-Regeln. Das ist in Geschwindigkeitstests im
+> Produktivbetrieb weit schneller und die Zeit für die Optimierung einer Produktivkonfiguration unbedingt wert.
+> Stellen Sie sofort um: Übernehmen Sie die Regeln des [Beispiels für einen virtuellen HTTPS-Host](beispiele/webserver/apache-virtueller-host.md) in
+> Ihren virtuellen Host (mit dem statischen Cache auch [`staticcache_offload.conf`](../eng-us/examples/staticcache_offload.conf)), setzen Sie
+> `AllowOverride None`, führen Sie `apachectl configtest` aus, laden Sie Apache neu und testen Sie die Website.
+> Dieselben Regeln für andere Server: [nginx](beispiele/webserver/nginx.md), [LiteSpeed](beispiele/webserver/litespeed.md), [Caddy](beispiele/webserver/caddy.md), [IIS](beispiele/webserver/iis.md),
+> [Velocity](beispiele/webserver/velocity.md) (eingebaut); wohin Regeln für virtuelle Hosts in einem Control Panel gehören:
+> [Plesk](hilfe/hosting/control-panels/plesk.md), [cPanel](hilfe/hosting/control-panels/cpanel.md), [DirectAdmin](hilfe/hosting/control-panels/directadmin.md), [ISPConfig](hilfe/hosting/control-panels/ispconfig.md).
+> **Unter LiteSpeed oder OpenLiteSpeed** kann zusätzlich der Seiten-Cache des Servers anonyme Besucher und Crawler ohne PHP bedienen: [Seiten-Caching mit LiteSpeed und OpenLiteSpeed](anleitungen/seiten-cache-mit-litespeed.md).
+
 Jeder Befehl wird im Wurzelverzeichnis der Installation ausgeführt: dem Verzeichnis, das `index.php`, `autoload.php`,
 `bin/` und `settings/` enthält. Die Befehlskonsole ist `bin/php/console`. Viele Installationen legen im Wurzelverzeichnis
 eine Verknüpfung darauf an (`ln -s bin/php/console console`), sodass `./console` und `php bin/php/console` dasselbe
@@ -37,7 +52,8 @@ hin, wenn es nötig ist.
 
 *Vollständiges Kapitel: [01-introduction](installation/01-einfuehrung.md)*
 
-Eine Installation besteht aus dem Exponential-Kernel, den in `composer.json` aufgeführten Extensions, einem Site-Paket mit
+Eine Installation besteht aus dem Exponential-Kernel, den in `composer.json` aufgeführten Extensions (welche sie hat und
+aktiviert: [Erweiterungen einer neuen Installation](funktionen/6.0/erweiterungen-einer-neuen-installation.md)), einem Site-Paket mit
 seinen Inhalten und seinem Design sowie drei Siteaccesses. Ihre Namen lauten immer `site`, `admin` und `editor`; was Sie
 bei der Installation wählen, ist der URL-Pfad, der Port oder der Hostname, der zu jedem von ihnen führt (der Match-Wert):
 
@@ -53,7 +69,7 @@ liefert die Website mit dem PHP-Server aus, den Exponential für Sie starten kan
 ```bash
 composer create-project se7enxweb/exponential exponential
 cd exponential
-php bin/php/console exp:install --random-password --url=http://localhost:8087
+php bin/php/console exp:install --apply --random-password --url=http://localhost:8087
 php bin/php/console exp:velocity start --engine=php
 ```
 
@@ -81,7 +97,7 @@ verfolgen, ändern und von dem aus Sie Beiträge zurückgeben können.
 |---|---|
 | Version | **PHP 8.0 bis 8.5**. `composer.json` deklariert `^8.0` (und akzeptiert spätere 8.x-Versionen). PHP 8.0 ist die älteste unterstützte Version, sodass das mitgelieferte PHP von Red Hat Enterprise Linux 9 (und AlmaLinux 9, Rocky Linux 9) Exponential unter Apache, PHP-FPM oder Velocity ausführt. Verwenden Sie das neueste PHP, das Ihr System anbietet. Siehe [Unterstützung für PHP 8.0](bc/6.0/php-8.0-unterstuetzung.md). |
 | Exponential Velocity | läuft ab seinem Release 0.0.4.54 auf **PHP 8.0 bis 8.5** (bis dahin brauchte es 8.1), mit der Extension `sockets` (`pcntl` und `openssl` für den Worker-Pool und HTTPS). Unter RHEL 9 führt das mitgelieferte PHP 8.0 es aus; siehe [Unterstützung für PHP 8.0](bc/6.0/php-8.0-unterstuetzung.md#exponential-velocity-unter-php-80). |
-| Release-Tags | `v6.0.8` bis `v6.0.14` erfordern PHP 8.1; unter PHP 8.0 installieren Sie die Linie 6.0.15 (`dev-main`, die Composer auch als `6.0.x-dev` kennt), bis deren Tag veröffentlicht ist. |
+| Release-Tags | `v6.0.8` bis `v6.0.14` erfordern PHP 8.1; unter PHP 8.0 installieren Sie die Linie 6.0.15 (`se7enxweb/exponential:~6.0.15`; den Tag `v6.0.15`, sobald er veröffentlicht ist, oder den Branch `main`, der diese Linie trägt, `dev-main`, den Composer auch als `6.0.x-dev` kennt). |
 | 64-Bit-PHP | nötig für mehr als 30 Sprachen (`composer.json`, `suggest`). |
 | `memory_limit` | mindestens `64M` (Setup-Prüfung `memory_limit`). Starten Sie den Webserver oder PHP-FPM nach dem Bearbeiten von `php.ini` neu. |
 | `max_execution_time` | mindestens `30` Sekunden (Setup-Prüfung `execution_time`). |
@@ -124,7 +140,7 @@ Serverversionen, die der Assistent prüft, stehen in `kernel/setup/ezsetupcommon
 SQLite 3.0.1, MongoDB 4.0, Oracle 19); die praktischen Mindestversionen, die die aktuellen Treiber brauchen, liegen
 höher (SQLite 3.33, PostgreSQL 13, MongoDB 6.0), siehe
 [Datenbankunterstützung](hilfe/datenbankunterstuetzung.md#versionen-am-code-überprüft). Exponential läuft auf fast jedem
-Betriebssystem mit PHP 8.0 oder neuer: siehe [Unterstützung von Betriebssystemen](hilfe/betriebssystemunterstuetzung.md).
+Betriebssystem mit PHP 8.0 oder neuer (PHP 7.4 ohne Support nutzbar): siehe [Unterstützung von Betriebssystemen](hilfe/betriebssystemunterstuetzung.md).
 
 ### Webserver
 
@@ -187,12 +203,12 @@ php bin/php/console --version
 
 Die erste Zeile nennt die Version, zum Beispiel `console (Exponential) 6.0.15stable`.
 
-**Exponential Velocity.** `composer.json` verlangt es in `~0.0.4.55`, sodass `composer install` es auf jedem
+**Exponential Velocity.** `composer.json` verlangt es in `~0.0.4.57`, sodass `composer install` es auf jedem
 unterstützten PHP installiert, auch auf 8.0. Bis zu seinem Release 0.0.4.54 brauchte es PHP 8.1 und wurde nur
 vorgeschlagen; eine in dieser Zeit erstellte Installation fügt es hinzu mit:
 
 ```bash
-composer require se7enxweb/exponential-velocity:~0.0.4.55
+composer require se7enxweb/exponential-velocity:~0.0.4.57
 ```
 
 ## 4. Eine Installationsmethode wählen
@@ -204,7 +220,7 @@ Installation.
 
 | | Einrichtungsassistent | Kickstarter | Konsoleninstallation |
 |---|---|---|---|
-| Gestartet durch | Öffnen der Website im Browser | `php bin/php/console exp:kickstarter run --force` | `php bin/php/console exp:install` |
+| Gestartet durch | Öffnen der Website im Browser | `php bin/php/console exp:kickstarter run --apply --force` | `php bin/php/console exp:install --apply` |
 | Antworten kommen aus | den Formularen, eine Seite pro Schritt | `kickstart.ini` im Wurzelverzeichnis der Installation | Kommandozeilenoptionen, jede mit einem Standardwert |
 | Am besten für | eine erste Installation, das Ausprobieren von Exponential | wiederholbare, skriptgesteuerte oder unbeaufsichtigte Installationen | die schnellste Installation; Skripte und CI |
 | Benötigt während der Installation einen Webserver | ja | nein | nein |
@@ -261,7 +277,7 @@ Die Reihenfolge ist die Schritttabelle in `kernel/setup/steps/ezstep_data.php`.
 | 10 | Konfiguration der Siteaccesses | Wie die Siteaccesses unterschieden werden: nach URL-Pfad, nach Port oder nach Hostname. |
 | 11 | Seitendetails | Titel, URL, die Match-Werte von `site`, `admin` und `editor` (URL-Pfade sind mit dem Paketbezeichner, *identifier*`_admin` und `editor` vorausgefüllt; Ports `8080`, `8081`, `8082`; Hostnamen *identifier*`.`*host*, *identifier*`-admin.`*host*, `edit.`*host*). Der Assistent lehnt `admin` und `user` als Werte ab. Außerdem der Absender der optionalen E-Mails der Website und was mit einer Datenbank geschehen soll, die bereits Daten enthält. |
 | 12 | Administrator der Seite | Vorname, Nachname, E-Mail-Adresse und Passwort des Benutzers `admin`. Das Passwort muss mindestens 10 Zeichen lang sein (`site.ini [UserSettings] MinPasswordLength`); ein leeres wird abgelehnt. |
-| 13 | Seitensicherheit | Hinweise, wenn die Website nicht im Virtual-Host-Modus läuft: Kopieren Sie die Regeln mit `cp .htaccess_root .htaccess`. |
+| 13 | Seitensicherheit | Hinweise, wenn die Website nicht im Virtual-Host-Modus läuft: Kopieren Sie die Regeln mit `./console exp:setup:htaccess --apply` (oder `cp .htaccess_root .htaccess`). |
 | 14 | Registrierung | Nichts einzugeben: eine Seite über die Community. Der Assistent sendet keine Registrierungs-E-Mail. |
 | — | Sites anlegen | Keine Seite: Hier werden das Datenbankschema und die Daten, die Pakete und die Dateien in `settings/siteaccess/` geschrieben. |
 | 15 | Abgeschlossen | Die Adressen der öffentlichen, der Admin- und der Redakteurs-Website. |
@@ -285,7 +301,7 @@ Vorlage ist `kickstart.ini-dist`.
 php bin/php/console exp:kickstarter ini            # write kickstart.ini in an interactive editor
 php bin/php/console exp:kickstarter ini --yes      # write it with the built-in defaults, no questions
 php bin/php/console exp:kickstarter run --dry-run  # check kickstart.ini, the database and the packages
-php bin/php/console exp:kickstarter run --force    # install
+php bin/php/console exp:kickstarter run --apply --force    # install
 ```
 
 `php bin/php/kickstarter.php` akzeptiert dieselben Unterbefehle und Optionen.
@@ -297,12 +313,12 @@ php bin/php/console exp:kickstarter run --force    # install
 | `ini --defaults`, `-d` | Die Beispielwerte aus `kickstart.ini-dist` übernehmen. |
 | `ini --from-installed` | Datenbankserver, -name und -benutzer (niemals das Passwort) eines installierten Siteaccess als Standardwerte übernehmen. Die Datei verweist dann auf eine aktive Datenbank. |
 | `run` | Die Schritte von `Welcome` bis `Final` ausführen. |
-| `run --force` | Immer erforderlich, wenn die Schritte `CreateSites` enthalten, den Schritt, der Datenbank und Einstellungen schreibt. Ohne diese Option bricht `run` mit „Re-run with --force to confirm you want to install the site package." ab. |
+| `run --apply` | Immer erforderlich, wenn die Schritte `CreateSites` enthalten, den Schritt, der Datenbank und Einstellungen schreibt. Ohne diese Option bricht `run` mit „Re-run with --force to confirm you want to install the site package." ab. |
 | `run --dry-run` | `kickstart.ini` validieren, `DatabaseChoice` bis `SiteDetails` ausführen, das Site-Paket und seine Abhängigkeiten in ein temporäres `var/storage/packages/dryrun/` herunterladen (das wieder entfernt wird) und anhalten. Die Datenbank muss erreichbar sein; es wird nichts hineingeschrieben, kein Passwort erzeugt und keine E-Mail gesendet. |
 | `run --list-steps` | Die Schritte auflisten und beenden. Ändert nichts. |
 | `run --start-step=<step>`, `--stop-step=<step>` | Einen Teil der Schritte ausführen, zur Diagnose. Ein Lauf kann einen früheren nicht fortsetzen: Ein Startschritt, dessen spätere Schritte die Ergebnisse früherer benötigen, wird abgelehnt, mit Angabe des Schritts, bei dem begonnen werden muss. Beheben Sie nach einem Fehler die Ursache und führen Sie die gesamte Folge erneut aus. |
 
-Während `run --force` die Datenbank neu aufbaut, beantwortet die Website jeden Besucher mit der Wartungsseite; ein
+Während `run --apply` die Datenbank neu aufbaut, beantwortet die Website jeden Besucher mit der Wartungsseite; ein
 bereits geöffnetes Wartungsfenster bleibt bestehen, und nach einem fehlgeschlagenen Schritt bleibt die Seite stehen, bis
 Sie erneut ausführen oder `php bin/php/maintenance.php off` aufrufen. Jeder Lauf wird mit maskierten Passwörtern in
 `var/log/kickstart.log` protokolliert (frühere Läufe werden als `kickstart.log.1` bis `.9` aufbewahrt;
@@ -428,13 +444,13 @@ allein dieser Befehl das Paket `sevenx_multisite` auf SQLite mit dem Benutzer `a
 installiert:
 
 ```bash
-php bin/php/console exp:install
+php bin/php/console exp:install --apply
 ```
 
 Andere Datenbanken (halten Sie das Passwort mit `EXP_INSTALL_DB_PASSWORD` aus der Shell-Historie heraus):
 
 ```bash
-EXP_INSTALL_DB_PASSWORD='secret' php bin/php/console exp:install --db=mysql --db-host=127.0.0.1 \
+EXP_INSTALL_DB_PASSWORD='secret' php bin/php/console exp:install --apply --db=mysql --db-host=127.0.0.1 \
     --db-name=mysite --db-user=mysite --url=https://www.example.com --random-password
 ```
 
@@ -480,7 +496,7 @@ Zertifikaten, sodass weder Apache noch nginx noch PHP-FPM nötig sind. Installie
 ([Abschnitt 3](#3-den-code-beschaffen)), dann:
 
 ```bash
-php bin/php/console exp:velocity config set ServerSettings Engine qbix
+php bin/php/console exp:velocity config set --apply ServerSettings Engine qbix
 php bin/php/console exp:velocity start
 php bin/php/console exp:velocity status
 ```
@@ -491,9 +507,9 @@ php bin/php/console exp:velocity status
 aus, gebunden an `Host` (`127.0.0.1`). Um ins Netzwerk auszuliefern:
 
 ```bash
-php bin/php/console exp:velocity config set ServerSettings Host 0.0.0.0
-php bin/php/console exp:velocity config set ServerSettings Port 80
-php bin/php/console exp:velocity config set ServerSettings HTTPSPort 443
+php bin/php/console exp:velocity config set --apply ServerSettings Host 0.0.0.0
+php bin/php/console exp:velocity config set --apply ServerSettings Port 80
+php bin/php/console exp:velocity config set --apply ServerSettings HTTPSPort 443
 php bin/php/console exp:velocity restart
 ```
 
@@ -505,9 +521,9 @@ als root, außer bei `AllowRootWorkers=enabled`.
 **HTTPS mit einem vorhandenen Zertifikat** (eine PEM-Datei kann beides enthalten):
 
 ```bash
-php bin/php/console exp:velocity config set HTTPSSettings Certificate /etc/ssl/example.com/fullchain.pem
-php bin/php/console exp:velocity config set HTTPSSettings Key /etc/ssl/example.com/privkey.pem
-php bin/php/console exp:velocity config set HTTPSSettings Enabled true
+php bin/php/console exp:velocity config set --apply HTTPSSettings Certificate /etc/ssl/example.com/fullchain.pem
+php bin/php/console exp:velocity config set --apply HTTPSSettings Key /etc/ssl/example.com/privkey.pem
+php bin/php/console exp:velocity config set --apply HTTPSSettings Enabled true
 php bin/php/console exp:velocity restart
 php bin/php/console exp:velocity ssl show
 ```
@@ -518,7 +534,7 @@ springt ein, solange das echte unbrauchbar ist (`fallback`, Standard `self-signe
 ohne Neustart eingewechselt. Das Zertifikatssubsystem der Engine bezieht und erneuert außerdem Zertifikate von
 Let's Encrypt (oder jeder ACME-CA) und liest Archive und PKCS#12-Bündel; es wird unter `Q.web.https` konfiguriert und in
 [Velocity: HTTPS und Zertifikate](funktionen/6.0/velocity-https-zertifikate.md) beschrieben.
-`[HTTPSSettings] HSTSMaxAge` (ausgeliefert mit 300 Sekunden) setzt Strict-Transport-Security; erhöhen Sie den Wert erst,
+`[HTTPSSettings] HSTSMaxAge` (ausgeliefert mit 0, aus; 300 zum Einstieg) setzt Strict-Transport-Security; erhöhen Sie den Wert erst,
 wenn jeder Name der Website dauerhaft auf HTTPS läuft.
 
 **Konfigurationsaufbau.** Die Konfiguration von Velocity folgt Debians `/etc/apache2`: `/etc/vc/vc.conf`,
@@ -529,8 +545,8 @@ Site-Datei `sites-available/<site>.conf` wird bei jedem `start` und `restart` od
 
 ```bash
 php bin/php/console exp:velocity layout                 # show every file the server uses
-php bin/php/console exp:velocity site enable <name>
-php bin/php/console exp:velocity site disable <name>
+php bin/php/console exp:velocity site enable --apply <name>
+php bin/php/console exp:velocity site disable --apply <name>
 ```
 
 **Im Alltag:**
@@ -563,8 +579,14 @@ Certificate` und `Key` oder einem selbstsignierten Zertifikat, das sie selbst er
 Aktivieren Sie die mitgelieferten Rewrite-Regeln:
 
 ```bash
-cp .htaccess_root .htaccess
+./console exp:setup:htaccess --apply      # oder von Hand: cp .htaccess_root .htaccess
 ```
+
+Der Befehl kopiert `.htaccess_root` nach `.htaccess` mit dem Modus der Vorlage (und, als root mit
+`--allow-root-user`, mit ihrem Eigentümer), zeigt einen Diff und lehnt ab, wenn bereits eine abweichende `.htaccess`
+vorhanden ist, und sichert die alte Datei, bevor `--force --apply` sie ersetzt. `--static` kopiert stattdessen
+`.htaccess_root_static`. Ebenso legt `./console exp:setup:config --apply` die Datei `config.php-RECOMMENDED` als
+`config.php` an; siehe [.htaccess und config.php von der Konsole aus einrichten](anleitungen/setup-dateien-von-der-konsole.md).
 
 Sie schalten den Virtual-Host-Modus auf Basis von `.htaccess` ein: Punktdateien, `.git` und Skripte unterhalb der
 Front-Controller antworten mit 404, `/api/` geht an `index_rest.php`, statische Design-Dateien werden direkt
@@ -726,7 +748,7 @@ Mehr dazu: [SQLite-Datenbankunterstützung](funktionen/6.0/sqlite-datenbank.md),
    | ein Template oder eine Extension hinzugefügt | `php bin/php/ezcache.php --clear-id=template-override` |
    | unsicher | `php bin/php/ezcache.php --clear-all` |
 
-   Mit Velocity zusätzlich `php bin/php/console exp:velocity cache clear`; nach einer Änderung an einer Klasse oder
+   Mit Velocity zusätzlich `php bin/php/console exp:velocity cache clear --apply`; nach einer Änderung an einer Klasse oder
    einer INI-Datei erledigt `exp:velocity
    deploy` all dies in der richtigen Reihenfolge.
 5. **Erzeugen Sie die Autoloads neu**, nachdem Sie in einer Extension eine Klasse hinzugefügt oder umbenannt haben:
@@ -737,8 +759,8 @@ Mehr dazu: [SQLite-Datenbankunterstützung](funktionen/6.0/sqlite-datenbank.md),
    Markdown-Hilfe in die Warteschlange gestellt (die letzten Zeilen ihrer Ausgabe): Ein Hintergrundjob legt sie in den
    folgenden 20 bis 30 Minuten an, und `./console exp:help:content report -s admin` zeigt "Handbücher werden erstellt
    (n von 52)", bis er fertig ist. Führen Sie nach dem Setup-Assistenten, oder wenn das Einreihen ein Problem gemeldet
-   hat, `./console exp:help:content build-manuals -s admin --queue` aus. Führen Sie
-   `./console exp:help:content build-manuals -s admin --release` nach jeder Aktualisierung aus
+   hat, `./console exp:help:content build-manuals --apply -s admin --queue` aus. Führen Sie
+   `./console exp:help:content build-manuals --apply -s admin --release` nach jeder Aktualisierung aus
    ([Handbücher aus der Markdown-Hilfe](funktionen/6.0/hilfeinhalte.md#handbücher-aus-der-markdown-hilfe)).
 8. **Optional: die Job-Warteschlange und Exponential Intelligence.** `composer.json` bringt die Job-Warteschlange
    `expqueue` und den Schreibassistenten `expai` nach `extension/`, beide inaktiv. Um sie zu verwenden:
@@ -776,6 +798,9 @@ Mehr dazu: [SQLite-Datenbankunterstützung](funktionen/6.0/sqlite-datenbank.md),
 
 Fahren Sie dann mit den Anleitungen fort:
 
+- [Exponential 6.0 konfigurieren](CONFIGURING.md): wo Einstellungen liegen und welche Datei gewinnt, Siteaccesses, Sprachen, E-Mail, Caches, Sicherheit, Extensions und Logs.
+- [Exponential 6.0 erweitern](EXTENDING.md): Extensions, Module und Ansichten, Templates, Datentypen, Workflow-Ereignisse, Cronjob-Teile, Befehle, Tests und Veröffentlichungen.
+- [Mit Exponential 6.0 integrieren](INTEGRATING.md): die APIs, die Anmeldung von Maschinen, Inhalte und Ereignisse hinein und hinaus, Single Sign-on, Frontends und Sicherheit für Integrationen.
 - [Erste Schritte](anleitungen/erste-schritte.md): erste Anmeldung, erste Inhalte, erste Template-Änderung.
 - [Das Inhaltsmodell und das Bearbeiten von Inhalten](anleitungen/inhaltsmodell-und-bearbeitung.md): Klassen, Objekte, der Online-Editor, der Papierkorb und Inhalts-Jobs.
 - [Templates und Design](anleitungen/templates-und-design.md): das Template finden, das eine Seite geschrieben hat, es überschreiben, das Admin-Design wechseln.
@@ -793,7 +818,10 @@ Fahren Sie dann mit den Anleitungen fort:
 Führen Sie den Installer nicht über einer bestehenden Website aus. Folgen Sie [Aktualisieren](anleitungen/aktualisieren.md): von
 4.x, 5.x oder einer früheren 6.0.x auf die aktuelle Linie, mit der Datenbankaktualisierung und den Checklisten pro
 Release. Eine Installation von 6.0 bringen Sie mit dem kurzen Vorgehen von
-[Exponential 6.0 aktualisieren](UPDATE.md) auf den aktuellen Stand; um eine Website umzuziehen oder zu entfernen,
+[Exponential 6.0 aktualisieren](UPDATE.md) auf den aktuellen Stand. Vergleichen Sie nach jeder Aktualisierung
+`.htaccess` und `config.php` mit den neuen Vorlagen: `./console exp:setup:status`, `./console exp:setup:htaccess`
+(der Diff) und `./console exp:config:list` (Einstellungen, die neu in `config.php-RECOMMENDED` sind, erscheinen als
+`(not set)`). Um eine Website umzuziehen oder zu entfernen,
 exportieren Sie zuerst alles mit [Exponential 6.0 deinstallieren](UNINSTALL.md).
 
 Das Online-Handbuch enthält weitere Hinweise zur Installation:
@@ -816,7 +844,9 @@ https://exponential.doc.exponential.earth/Exponential/Technical-manual/6.x/Insta
 | Kickstarter: „The database file name is not valid" | Eine vor dem 5. Oktober 2026 mit `ini --yes` geschriebene `kickstart.ini` enthält `Database=ezp`, und SQLite braucht einen Namen, der auf `.db`, `.db3`, `.sqlite` oder `.sqlite3` endet. Setzen Sie `[database_init] Database` und `[site_details] Database` zum Beispiel auf `exponential.db` und `DatabaseAction` für eine neue Datenbank auf `ignore`. |
 | Kickstarter: „--start-step=... cannot work" | Ein Lauf kann einen früheren nicht fortsetzen. Beheben Sie die Ursache und führen Sie ab `Welcome` aus (der Standard). |
 | SQLite: „database is busy: the transaction could not start within N s" | Ein anderer Schreibzugriff hielt die Sperre während der gesamten `SQLiteTransactionWait`. Es wurde nichts geschrieben; versuchen Sie es erneut oder erhöhen Sie die Einstellung (unterhalb der Zeitüberschreitung für Anfragen). |
-| 404 für jede Seite unter Apache | `.htaccess` wird nicht gelesen (`AllowOverride All`) oder `mod_rewrite` ist aus; haben Sie `cp .htaccess_root .htaccess` ausgeführt? |
+| 404 für jede Seite unter Apache | `.htaccess` wird nicht gelesen (`AllowOverride All`) oder `mod_rewrite` ist aus; gibt es überhaupt eine `.htaccess`? `./console exp:setup:status` sagt es, `./console exp:setup:htaccess --apply` kopiert sie. |
+| `FAIL: .htaccess exists and differs ...` oder `FAIL: config.php exists and differs ...` | Die Datei enthält eigene Änderungen. Lesen Sie den Diff (`-v` zeigt ihn vollständig); `--force --apply` ersetzt sie nach einer Sicherung in `var/backup/setup/<time>/`. Siehe [.htaccess und config.php von der Konsole aus einrichten](anleitungen/setup-dateien-von-der-konsole.md). |
+| `Warning: config.php does not compile` | Korrigieren Sie die genannte Zeile, oder `./console exp:setup:config --force --apply` (die defekte Datei wird vorher gesichert). |
 | Eine weiße Seite oder 500 | Lesen Sie `var/log/error.log`; prüfen Sie `php -v` und ob `vendor/` existiert (`composer install`). |
 | Eine Änderung erscheint unter Velocity nicht | Die Worker halten den alten Code: `exp:velocity restart` (oder `deploy`), dann `exp:velocity cache clear`. |
 | Das Administratorpasswort ist verloren | Als root: `php bin/php/resetuserpassword.php --allow-root-user -u admin -g`; andernfalls autorisieren Sie sich mit einem anderen Administrator (`-a <login> -ap <password>`). Siehe [Ein Benutzerpasswort zurücksetzen](funktionen/6.0/benutzerpasswort-zuruecksetzen.md). |

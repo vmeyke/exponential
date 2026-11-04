@@ -40,8 +40,8 @@ run without it.
 ## Extensions are packages
 
 The root `require` lists the extensions every installation gets as `se7enxweb/*` packages, each with a tilde
-constraint, for example `se7enxweb/exponential-velocity` at `~0.0.4.55` and `se7enxweb/sevenx_authentication_2fa`
-at `~1.0.14`. The legacy installer plugin places them in `extension/`. `suggest` lists optional ones, such as
+constraint, for example `se7enxweb/exponential-velocity` at `~0.0.4.57` and `se7enxweb/sevenx_authentication_2fa`
+at `~1.0.18`. The legacy installer plugin places them in `extension/`. `suggest` lists optional ones, such as
 `se7enxweb/sevenx_valkey_cache` and `se7enxweb/ezfind`, with the PHP extensions each database needs.
 
 ## Constraints and the lock file
@@ -87,7 +87,7 @@ system expects those interfaces.
 
 - [ ] Is it needed, or does the kernel or a shipped extension already do it?
 - [ ] Its license is compatible with the GNU GPL, version 2 or later.
-- [ ] It supports PHP 8.0 (the oldest supported version), or it is optional and guarded.
+- [ ] It supports PHP 8.0 (the oldest supported version) and, where it can, PHP 7.4 (usable without support), or it is optional and guarded, or it is required only for newer PHP through `se7enxweb/exponential-php-floor`.
 - [ ] It is maintained, and released on Packagist.
 - [ ] The constraint names a released version.
 - [ ] Its security advisories are watched (`composer audit` is recommended in the hardening guide).

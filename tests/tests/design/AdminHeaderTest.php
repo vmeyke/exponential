@@ -20,7 +20,7 @@
  *
  * Run: php vendor/bin/phpunit tests/tests/design/AdminHeaderTest.php
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package tests
  */
@@ -86,7 +86,7 @@ class AdminHeaderTest extends PHPUnit\Framework\TestCase
         $this->assertSame( '0', $phone['.navbar-menu.show']['padding'] );
 
         // one value for everything that keeps clear of the header: on the root, not on .dashboard-flex
-        $this->assertDoesNotMatchRegularExpression( '/\.dashboard-flex\s*\{[^}]*--header-height\s*:/', self::css( 'pagelayout.css' ) );
+        $this->assertDoesNotMatchRegularExpression( '/\.dashboard-flex\s*\{[^}]*--header-height\s*:/', self::css( 'base.css' ) );
         $js = self::file( 'design/admin4/javascript/admin4.js' );
         $this->assertStringContainsString( "var root = document.documentElement;", $js );
         $this->assertStringContainsString( "root.style.setProperty('--header-height', px + 'px');", $js );
@@ -107,7 +107,9 @@ class AdminHeaderTest extends PHPUnit\Framework\TestCase
             $this->assertStringNotContainsString( 'Logout: ', $tpl, "$path: logout left the menu row" );
         }
         $js = self::file( 'design/admin4/javascript/admin4.js' );
-        foreach ( array( "new ResizeObserver(fit).observe(nav);", "list.insertBefore(tabs[i], list.firstChild);",
+        foreach ( array( "new ResizeObserver(fit).observe(nav);", "if (!kept[j]) list.insertBefore(tabs[j], list.firstChild);",
+                         // the tabs are measured once, not the page laid out again after each move (seconds on a long table)
+                         "var boxes = tabs.map(function (li) { return li.getBoundingClientRect(); });",
                          "if (li.parentNode !== bar || li.nextSibling !== next)", "if (!wide.matches && !list.firstChild) return;",
                          "var more = document.querySelector('#header .a4-nav-more');",
                          "toggle.classList.toggle('has-current', !!list.querySelector('[aria-current]'));",
@@ -334,19 +336,19 @@ class AdminHeaderTest extends PHPUnit\Framework\TestCase
         $rules = AdminBaseStylesheetsTest::rules( $css );
         $this->assertSame( 'flex', $rules['.header-site, .header-help, .header-user']['display'] );
         $this->assertDoesNotMatchRegularExpression( '/\.site-preview\s*\{/', $css, 'the link takes .a4-header-btn as it is' );
-        $this->assertDoesNotMatchRegularExpression( '/\.site-preview\b/', self::css( 'pagelayout.css' ), 'no rules for the old place beside the logo' );
+        $this->assertDoesNotMatchRegularExpression( '/\.site-preview\b/', self::css( 'base.css' ), 'no rules for the old place beside the logo' );
     }
 
     public function testTheSlashKeyFocusesTheHeaderSearch()
     {
-        $search = self::file( 'design/admin4/templates/page_search.tpl' );
-        $this->assertStringContainsString( '{if $box|eq( \'\' )} aria-keyshortcuts="/" data-short-placeholder="1"{/if}', $search );
+        $search = self::file( 'design/standard/templates/parts/header_search.tpl' );
+        $this->assertStringContainsString( '{if $box|eq( \'\' )} aria-keyshortcuts="/ Control+/ Meta+/" data-short-placeholder="1"{/if}', $search );
         // the narrow header field: a short placeholder; the scope ("Search in all content") stays its name and title
         $this->assertStringContainsString( 'placeholder="{if $box|eq( \'\' )}{\'Search...\'|i18n( \'design/admin/pagelayout\' )|wash}{else}{$search_title|wash}{/if}" aria-label="{$search_title|wash}"', $search );
         // the scope popup's script is a file of its own (no inline script, doc/eng-us/features/6.0/content-security-policy.md)
         $this->assertStringContainsString( "{ezscript( array( 'page/page_search.js' ) )}", $search );
         $this->assertStringContainsString( "if ( !field.hasAttribute( 'data-short-placeholder' ) ) field.placeholder = label;",
-                                           self::file( 'design/admin4/javascript/page/page_search.js' ) );
+                                           self::file( 'design/standard/javascript/page/page_search.js' ) );
         $js = self::file( 'design/admin4/javascript/admin4.js' );
         $this->assertStringContainsString( "if (e.key !== '/' || e.ctrlKey || e.metaKey || e.altKey || e.isComposing || e.defaultPrevented) return;", $js );
         $this->assertStringContainsString( "/^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName)", $js, 'typing a slash in a field stays a slash' );

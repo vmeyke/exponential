@@ -2,7 +2,7 @@
 /**
  * File containing the early exit of the role-aware HTTP cache.
  *
- * @copyright Copyright (C) 7x. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @package kernel
  */
@@ -46,6 +46,8 @@ if ( PHP_SAPI !== 'cli' && !defined( 'EXP_HTTPCACHE_EARLY_EXIT_DONE' ) )
             'ifNoneMatch' => $_SERVER['HTTP_IF_NONE_MATCH'] ?? null,
             // request-shield, when it ran first: the page this request may be answered from.
             'lookupUri' => $_SERVER['REQUEST_SHIELD_CACHE_LOOKUP'] ?? null,
+            // when the request began, for the time a debug viewer's bar gives (ezpHttpCacheContract::debugBar())
+            'start' => isset( $_SERVER['REQUEST_TIME_FLOAT'] ) ? (float)$_SERVER['REQUEST_TIME_FLOAT'] : microtime( true ),
         ) );
         if ( $response === null )
         {

@@ -2,7 +2,7 @@
 /**
  * File containing eZContentOperationDeleteRegression class
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -15,6 +15,8 @@
  * @backupGlobals disabled
  * @group database
  */
+#[\PHPUnit\Framework\Attributes\BackupGlobals(false)]
+#[\PHPUnit\Framework\Attributes\Group('database')]
 class eZContentOperationDeleteObjectRegression extends ezpDatabaseTestCase
 {
     private $folder;
@@ -76,6 +78,7 @@ class eZContentOperationDeleteObjectRegression extends ezpDatabaseTestCase
      * @link http://issues.ez.no/17932
      * @group issue_17932
      */
+    #[\PHPUnit\Framework\Attributes\Group('issue_17932')]
     public function testRemovePendingSearchOnDeleteObject()
     {
         $objectID = $this->folder->object->attribute( 'id' );
@@ -94,6 +97,7 @@ class eZContentOperationDeleteObjectRegression extends ezpDatabaseTestCase
      * Same test as {@link self::testRemovePendingSearchOnDeleteObject()}, with several objects
      * @group issue_17932
      */
+    #[\PHPUnit\Framework\Attributes\Group('issue_17932')]
     public function testRemovePendingSearchOnDeleteSeveralObjects()
     {
         eZContentOperationCollection::deleteObject( $this->nodeIds );
@@ -109,6 +113,7 @@ class eZContentOperationDeleteObjectRegression extends ezpDatabaseTestCase
      * Same test as {@link self::testRemovePendingSearchOnDeleteObject()}, with class based delayed indexing
      * @group issue_17932
      */
+    #[\PHPUnit\Framework\Attributes\Group('issue_17932')]
     public function testRemovePendingSearchWithClassBasedIndexing()
     {
         // Activate delayed indexing for folder content class only
@@ -133,6 +138,7 @@ class eZContentOperationDeleteObjectRegression extends ezpDatabaseTestCase
      *
      * @group issue_17932
      */
+    #[\PHPUnit\Framework\Attributes\Group('issue_17932')]
     public function testRemovePendingSearchSeveralNodesForObject()
     {
         $this->folder->addNode( 43 );
@@ -162,6 +168,7 @@ class eZContentOperationDeleteObjectRegression extends ezpDatabaseTestCase
      *
      * @group issue_17932
      */
+    #[\PHPUnit\Framework\Attributes\Group('issue_17932')]
     public function testRemovePendingSearchNotAllNodesRemoved()
     {
         $this->folder->addNode( 43 );

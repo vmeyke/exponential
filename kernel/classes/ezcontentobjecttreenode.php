@@ -2,7 +2,7 @@
 /**
  * File containing the eZContentObjectTreeNode class.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -2390,6 +2390,394 @@ class eZContentObjectTreeNode extends eZPersistentObject
         return strtolower( (string)$direction ) === 'desc' ? -1 : 1;
     }
 
+    /**
+     * The aggregate stages that apply an AttributeFilter on MongoDB, as createAttributeFilterSQLStrings() does on
+     * the SQL engines. They run on tree documents with the object's and class's fields flattened in (id,
+     * current_version, published, modified, section_id, owner_id, class_identifier, name; see subTreeByNodeID());
+     * $withJoins puts the stages that flatten them in front, for a pipeline that has not joined yet (true, or the
+     * languages of mongoLanguageInfo() for the name lookup).
+     *
+     * The filters: path, published, modified, modified_subnode, node_id, contentobject_id, section, state, depth,
+     * class_identifier, priority, name, owner, visibility, and class attributes (identifier or id, by their sort
+     * key); the operators =, !=, <, >, <=, >=, like, not_like, in, not_in, between, not_between; "and" or "or" as
+     * the first entry. Before this the MongoDB path left the filter out and every fetch with one returned the whole
+     * subtree.
+     *
+     * @param array|false $attributeFilter
+     * @param bool|array $withJoins
+     * @return array|false the stages (none for no filter); false when the filter cannot be applied: an unknown
+     *                     class attribute in an "and" filter (null on the SQL engines), class_name or an unknown
+     *                     operator. The caller returns an empty result then, never the unfiltered subtree.
+     */
+    static function mongoAttributeFilterStages( $attributeFilter, $withJoins = false )
+    {
+        if ( !is_array( $attributeFilter ) || !$attributeFilter )
+            return array();
+        $filterArray = $attributeFilter;
+        $joinType = '$and';
+        if ( isset( $filterArray[0] ) && is_string( $filterArray[0] ) )
+        {
+            $joinType = strtolower( $filterArray[0] ) === 'or' ? '$or' : '$and';
+            unset( $filterArray[0] );
+        }
+        $fields = array( 'path' => array( 'path_string', 'string' ), 'published' => array( 'published', 'int' ),
+                         'modified' => array( 'modified', 'int' ), 'modified_subnode' => array( 'modified_subnode', 'int' ),
+                         'node_id' => array( 'node_id', 'int' ), 'contentobject_id' => array( 'contentobject_id', 'int' ),
+                         'section' => array( 'section_id', 'int' ), 'depth' => array( 'depth', 'int' ),
+                         'class_identifier' => array( 'class_identifier', 'string' ), 'priority' => array( 'priority', 'int' ),
+                         'name' => array( 'name', 'string' ), 'owner' => array( 'owner_id', 'int' ),
+                         'visibility' => array( 'is_invisible', 'int' ) );
+        $stages = array();
+        $conditions = array();
+        $n = 0;
+        foreach ( $filterArray as $filter )
+        {
+            if ( !is_array( $filter ) || count( $filter ) < 3 )
+                continue;
+            list( $attribute, $operator, $value ) = array_values( $filter );
+            if ( $attribute === 'class_name' )
+            {
+                eZDebug::writeWarning( 'The attribute filter class_name is not available on MongoDB', __METHOD__ );
+                return false;
+            }
+            if ( $attribute === 'visibility' )
+                $value = ( $value == '1' ) ? 0 : 1;
+            if ( $attribute === 'state' )
+            {
+                $as = '_afstate' . $n++;
+                $stages[] = array( '$lookup' => array( 'from' => 'ezcobj_state_link', 'localField' => 'id',
+                                                       'foreignField' => 'contentobject_id', 'as' => $as ) );
+                $field = "$as.contentobject_state_id";
+                $type = 'int';
+                if ( $operator === '=' )
+                    $operator = 'in';
+                else if ( $operator === '!=' )
+                    $operator = 'not_in';
+                if ( !is_array( $value ) )
+                    $value = array( $value );
+            }
+            else if ( isset( $fields[$attribute] ) )
+            {
+                list( $field, $type ) = $fields[$attribute];
+            }
+            else
+            {
+                $id = is_numeric( $attribute ) ? (int)$attribute : eZContentObjectTreeNode::classAttributeIDByIdentifier( $attribute );
+                $sortKey = $id ? eZContentObjectTreeNode::sortKeyByClassAttributeID( $id ) : false;
+                if ( !$id || $sortKey === false )
+                {
+                    if ( $joinType === '$and' )
+                        return false;
+                    continue;
+                }
+                $as = '_af' . $n++;
+                $stages[] = array( '$lookup' => array(
+                    'from' => 'ezcontentobject_attribute',
+                    'let' => array( 'oid' => '$contentobject_id', 'ver' => '$contentobject_version' ),
+                    'pipeline' => array(
+                        array( '$match' => array( '$expr' => array( '$and' => array( array( '$eq' => array( '$contentobject_id', '$$oid' ) ),
+                                                                                     array( '$eq' => array( '$version', '$$ver' ) ) ) ) ) ),
+                        array( '$match' => array( 'contentclassattribute_id' => $id ) ),
+                        array( '$project' => array( '_id' => 0, 'sort_key_int' => 1, 'sort_key_string' => 1 ) ),
+                    ),
+                    'as' => $as ) );
+                // the SQL engines join the attribute (INNER JOIN, also in an "or" filter): an object without it
+                // is never in the result, whatever the comparison
+                $stages[] = array( '$match' => array( "$as.0" => array( '$exists' => true ) ) );
+                $type = $sortKey === 'string' ? 'string' : 'int';
+                $field = $as . '.' . ( $type === 'string' ? 'sort_key_string' : 'sort_key_int' );
+            }
+            $condition = self::mongoAttributeFilterCondition( $field, $type, $operator, $value );
+            if ( $condition === false )
+            {
+                eZDebug::writeWarning( "Unknown attribute filter type on MongoDB: $operator", __METHOD__ );
+                return false;
+            }
+            $conditions[] = $condition;
+        }
+        if ( !$conditions )
+            return count( $filterArray ) ? false : array();
+        $stages[] = array( '$match' => count( $conditions ) === 1 ? $conditions[0] : array( $joinType => $conditions ) );
+        $joined = array();
+        foreach ( $stages as $stage )
+        {
+            if ( isset( $stage['$lookup']['as'] ) )
+                $joined[$stage['$lookup']['as']] = 0;
+        }
+        if ( $joined )
+            $stages[] = array( '$project' => $joined );
+        if ( $withJoins )
+            $stages = array_merge( self::mongoFlattenStages( is_array( $withJoins ) ? $withJoins : null ), $stages );
+        return $stages;
+    }
+
+    /**
+     * One AttributeFilter comparison as a MongoDB condition, or false for an unknown operator.
+     *
+     * @param string $field
+     * @param string $type int or string
+     * @param string $operator
+     * @param mixed $value
+     * @return array|false
+     */
+    static function mongoAttributeFilterCondition( $field, $type, $operator, $value )
+    {
+        $cast = function ( $v ) use ( $type ) {
+            return $type === 'int' && is_numeric( $v ) ? (int)$v : (string)$v;
+        };
+        $map = array( '=' => '$eq', '!=' => '$ne', '>' => '$gt', '<' => '$lt', '>=' => '$gte', '<=' => '$lte' );
+        if ( isset( $map[$operator] ) )
+            return array( $field => array( $map[$operator] => $cast( $value ) ) );
+        switch ( $operator )
+        {
+            case 'in':
+            case 'not_in':
+                if ( !is_array( $value ) )
+                    return false;
+                return array( $field => array( $operator === 'in' ? '$in' : '$nin' => array_values( array_map( $cast, $value ) ) ) );
+            case 'between':
+            case 'not_between':
+                if ( !is_array( $value ) || count( $value ) < 2 )
+                    return false;
+                $value = array_values( $value );
+                $range = array( '$gte' => $cast( $value[0] ), '$lte' => $cast( $value[1] ) );
+                return $operator === 'between' ? array( $field => $range ) : array( $field => array( '$not' => $range ) );
+            case 'like':
+            case 'not_like':
+                // * is the wildcard, \* a literal star (as on the SQL engines)
+                $parts = preg_split( '/(?<!\\\\)\*/', (string)$value );
+                $regex = '^' . implode( '.*', array_map( function ( $p ) { return preg_quote( str_replace( '\\*', '*', $p ) ); }, $parts ) ) . '$';
+                return $operator === 'like'
+                    ? array( $field => array( '$regex' => $regex ) )
+                    : array( $field => array( '$not' => array( '$regex' => $regex ) ) );
+        }
+        return false;
+    }
+
+    /**
+     * The stages that join a tree document with its object, class and name and flatten the fields the
+     * attribute filter reads (the same names subTreeByNodeID() gives them).
+     *
+     * @return array
+     */
+    static function mongoFlattenStages( $languageInfo = null )
+    {
+        if ( $languageInfo === null )
+            $languageInfo = self::mongoLanguageInfo();
+        return array(
+            array( '$lookup' => array( 'from' => 'ezcontentobject', 'localField' => 'contentobject_id', 'foreignField' => 'id', 'as' => '_obj' ) ),
+            array( '$unwind' => '$_obj' ),
+            array( '$lookup' => array( 'from' => 'ezcontentclass', 'localField' => '_obj.contentclass_id', 'foreignField' => 'id', 'as' => '_cls' ) ),
+            array( '$unwind' => '$_cls' ),
+            array( '$match' => array( '_cls.version' => 0 ) ),
+            array( '$lookup' => array(
+                'from' => 'ezcontentobject_name',
+                'let' => array( 'oid' => '$contentobject_id', 'ver' => '$contentobject_version' ),
+                'pipeline' => self::mongoNameLookupPipeline( $languageInfo ),
+                'as' => '_name' ) ),
+            array( '$unwind' => '$_name' ),
+            array( '$addFields' => array(
+                'id' => '$_obj.id', 'current_version' => '$_obj.current_version', 'modified' => '$_obj.modified',
+                'owner_id' => '$_obj.owner_id', 'published' => '$_obj.published', 'section_id' => '$_obj.section_id',
+                'contentclass_id' => '$_obj.contentclass_id', 'language_mask' => '$_obj.language_mask',
+                'class_identifier' => '$_cls.identifier', 'name' => '$_name.name' ) ),
+        );
+    }
+
+    /**
+     * The prioritized languages as the MongoDB stages need them, read where the SQL engines read
+     * eZContentLanguage::languagesSQLFilter() and sqlFilter(): while a fetch's Language is set.
+     *
+     * @return array 'mask' (1, always available, plus the id of every prioritized language) and 'ids' (the ids, the
+     *               most prioritized first)
+     */
+    static function mongoLanguageInfo()
+    {
+        $mask = 1;
+        $ids = array();
+        foreach ( eZContentLanguage::prioritizedLanguages() as $language )
+        {
+            $id = (int)$language->attribute( 'id' );
+            $mask += $id;
+            $ids[] = $id;
+        }
+        return array( 'mask' => $mask, 'ids' => $ids );
+    }
+
+    /**
+     * The language filter of a subtree fetch on MongoDB: only objects in a prioritized language or always
+     * available, as languagesSQLFilter() ( language_mask & mask > 0 ).
+     *
+     * @param array $languageInfo from mongoLanguageInfo()
+     * @return array one $match stage, on the flattened language_mask
+     */
+    static function mongoLanguageStages( array $languageInfo )
+    {
+        return array( array( '$match' => array( 'language_mask' => array( '$bitsAnySet' => (int)$languageInfo['mask'] ) ) ) );
+    }
+
+    /**
+     * The $lookup pipeline of an object's name on MongoDB, as eZContentLanguage::sqlFilter() picks it on the SQL
+     * engines: the name in the most prioritized language the version has, else the always available one; a
+     * version with neither has no name, and the fetch leaves it out (the SQL engines' join finds no row).
+     *
+     * @param array $languageInfo from mongoLanguageInfo()
+     * @return array
+     */
+    static function mongoNameLookupPipeline( array $languageInfo )
+    {
+        $branches = array();
+        foreach ( array_values( $languageInfo['ids'] ) as $rank => $id )
+        {
+            // a name row's language_id is the language's id, plus 1 when it is the always available one
+            $branches[] = array( 'case' => array( '$in' => array( '$language_id', array( $id, $id + 1 ) ) ), 'then' => $rank );
+        }
+        $fallback = array( '$cond' => array( array( '$eq' => array( array( '$mod' => array( '$language_id', 2 ) ), 1 ) ), 500, 1000 ) );
+        return array(
+            array( '$match' => array( '$expr' => array( '$and' => array( array( '$eq' => array( '$contentobject_id', '$$oid' ) ),
+                                                                         array( '$eq' => array( '$content_version', '$$ver' ) ) ) ) ) ),
+            array( '$addFields' => array( '_rank' => $branches ? array( '$switch' => array( 'branches' => $branches, 'default' => $fallback ) ) : $fallback ) ),
+            array( '$match' => array( '_rank' => array( '$lt' => 1000 ) ) ),
+            array( '$sort' => array( '_rank' => 1 ) ),
+            array( '$limit' => 1 ),
+        );
+    }
+
+    /**
+     * The read permission of a subtree fetch on MongoDB, as createPermissionCheckingSQL() gives it to the SQL
+     * engines: one condition per policy (its limitations ANDed, its Node and Subtree placements ORed), the policies
+     * ORed. The stages run on tree documents with the object's fields flattened in (contentclass_id, section_id,
+     * owner_id, id). Before this the MongoDB path checked no permission at all, and a fetch listed every node of the
+     * subtree, restricted sections included, to anybody.
+     *
+     * @param array|bool $limitationList from getLimitationList(): false for no read access, an empty array for all
+     * @param array $fetchScope from permissionFetchScope()
+     * @return array the stages: none for full access; a $match no document meets for no access
+     */
+    static function mongoPermissionStages( $limitationList, $fetchScope = array() )
+    {
+        $none = array( array( '$match' => array( '$expr' => false ) ) );
+        if ( $limitationList === false )
+            return $none;
+        if ( !is_array( $limitationList ) || count( $limitationList ) == 0 )
+            return array();
+
+        $prunedPolicies = false;
+        if ( self::permissionSQLOptimization() )
+        {
+            $limitationList = self::mergeLimitationList( $limitationList );
+            $mergedCount = count( $limitationList );
+            if ( isset( $fetchScope['paths'] ) || !empty( $fetchScope['class_ids'] ) )
+            {
+                $limitationList = self::pruneLimitationList( $limitationList,
+                                                             isset( $fetchScope['paths'] ) ? $fetchScope['paths'] : null,
+                                                             isset( $fetchScope['class_filter_type'] ) ? $fetchScope['class_filter_type'] : false,
+                                                             isset( $fetchScope['class_ids'] ) ? $fetchScope['class_ids'] : array() );
+                $prunedPolicies = count( $limitationList ) < $mergedCount;
+            }
+            if ( count( $limitationList ) == 0 )
+                return $none;
+        }
+
+        $stages = array();
+        $groupOwners = null;
+        $statesJoined = false;
+        $policies = array();
+        foreach ( $limitationList as $limitationArray )
+        {
+            $parts = array();
+            $placements = array();
+            foreach ( $limitationArray as $ident => $values )
+            {
+                $values = (array)$values;
+                switch ( $ident )
+                {
+                    case 'Class':
+                        if ( count( $values ) > 0 )
+                            $parts[] = array( 'contentclass_id' => array( '$in' => array_map( 'intval', $values ) ) );
+                        break;
+
+                    case 'Section':
+                    case 'User_Section':
+                        if ( count( $values ) > 0 )
+                            $parts[] = array( 'section_id' => array( '$in' => array_map( 'intval', $values ) ) );
+                        break;
+
+                    case 'Owner':
+                        $parts[] = array( 'owner_id' => (int)eZUser::currentUser()->attribute( 'contentobject_id' ) );
+                        break;
+
+                    case 'Group':
+                        if ( $groupOwners === null )
+                        {
+                            // the owners that share a user group with the current user, as the SQL engines' temporary table
+                            $groupOwners = array();
+                            $userObject = eZUser::currentUser()->attribute( 'contentobject' );
+                            $parentList = $userObject ? array_map( 'intval', (array)$userObject->attribute( 'parent_nodes' ) ) : array();
+                            if ( $parentList )
+                            {
+                                foreach ( (array)eZDB::instance()->aggregate( 'ezcontentobject_tree', array(
+                                    array( '$match' => array( 'parent_node_id' => array( '$in' => $parentList ) ) ),
+                                    array( '$group' => array( '_id' => '$contentobject_id' ) ) ) ) as $row )
+                                    $groupOwners[] = (int)$row['_id'];
+                            }
+                        }
+                        $parts[] = array( 'owner_id' => array( '$in' => $groupOwners ) );
+                        break;
+
+                    case 'Node':
+                        $placements[] = array( 'node_id' => array( '$in' => array_map( 'intval', $values ) ) );
+                        break;
+
+                    case 'Subtree':
+                        foreach ( $values as $pathString )
+                            $placements[] = array( 'path_string' => array( '$regex' => '^' . preg_quote( (string)$pathString ) ) );
+                        break;
+
+                    case 'User_Subtree':
+                        $subtrees = array();
+                        foreach ( $values as $pathString )
+                            $subtrees[] = array( 'path_string' => array( '$regex' => '^' . preg_quote( (string)$pathString ) ) );
+                        if ( $subtrees )
+                            $parts[] = count( $subtrees ) > 1 ? array( '$or' => $subtrees ) : $subtrees[0];
+                        break;
+
+                    default:
+                        if ( strncmp( $ident, 'StateGroup_', 11 ) === 0 )
+                        {
+                            // the state ids of a StateGroup limitation belong to that group: the object has one of them
+                            if ( !$statesJoined )
+                            {
+                                $stages[] = array( '$lookup' => array( 'from' => 'ezcobj_state_link', 'localField' => 'id',
+                                                                       'foreignField' => 'contentobject_id', 'as' => '_perm_states' ) );
+                                $statesJoined = true;
+                            }
+                            $parts[] = array( '_perm_states.contentobject_state_id' => array( '$in' => array_map( 'intval', $values ) ) );
+                        }
+                        // a limitation of an extension: its handler writes SQL, which MongoDB cannot run, so the
+                        // policy gives no access here (the SQL engines without a handler do the same)
+                        else if ( !ezpContentLimitation::isKernelLimitation( $ident ) )
+                        {
+                            $parts[] = array( '$expr' => false );
+                        }
+                }
+            }
+            if ( $placements )
+                $parts[] = count( $placements ) > 1 ? array( '$or' => $placements ) : $placements[0];
+            if ( $parts )
+                $policies[] = count( $parts ) > 1 ? array( '$and' => $parts ) : $parts[0];
+        }
+        if ( $policies )
+            $stages[] = array( '$match' => count( $policies ) > 1 ? array( '$or' => $policies ) : $policies[0] );
+        else if ( $prunedPolicies )
+            return $none;
+        else
+            return array();
+        if ( $statesJoined )
+            $stages[] = array( '$project' => array( '_perm_states' => 0 ) );
+        return $stages;
+    }
+
     static function subTreeByNodeID( $params = false, $nodeID = 0 )
     {
         if ( !is_numeric( $nodeID ) and !is_array( $nodeID ) )
@@ -2489,6 +2877,7 @@ class eZContentObjectTreeNode extends eZPersistentObject
 
         $languageFilter = eZContentLanguage::languagesSQLFilter( 'ezcontentobject' );
         $objectNameLanguageFilter = eZContentLanguage::sqlFilter( 'ezcontentobject_name', 'ezcontentobject' );
+        $mongoLanguage = self::mongoLanguageInfo();
 
         if ( $language )
         {
@@ -2498,8 +2887,18 @@ class eZContentObjectTreeNode extends eZPersistentObject
 
         $limitation = ( isset( $params['Limitation']  ) && is_array( $params['Limitation']  ) ) ? $params['Limitation']: false;
         $limitationList = eZContentObjectTreeNode::getLimitationList( $limitation );
-        $sqlPermissionChecking = eZContentObjectTreeNode::createPermissionCheckingSQL( $limitationList, 'ezcontentobject_tree', 'ezcontentobject_tree',
-            eZContentObjectTreeNode::permissionFetchScope( $limitationList, $nodeID, $nodePaths, $params ) );
+        $permissionScope = eZContentObjectTreeNode::permissionFetchScope( $limitationList, $nodeID, $nodePaths, $params );
+        $mongoPermissionStages = array();
+        if ( eZDB::instance()->databaseName() === 'mongo' )
+        {
+            $mongoPermissionStages = self::mongoPermissionStages( $limitationList, $permissionScope );
+            $sqlPermissionChecking = array( 'from' => '', 'where' => '', 'temp_tables' => array() );
+        }
+        else
+        {
+            $sqlPermissionChecking = eZContentObjectTreeNode::createPermissionCheckingSQL( $limitationList, 'ezcontentobject_tree', 'ezcontentobject_tree',
+                $permissionScope );
+        }
 
         // Determine whether we should show invisible nodes.
         $showInvisibleNodesCond = eZContentObjectTreeNode::createShowInvisibleSQLString( !$ignoreVisibility );
@@ -2616,20 +3015,15 @@ class eZContentObjectTreeNode extends eZPersistentObject
                     $mPipeline[] = [ '$match' => [ '_obj.contentclass_id' => [ $fop => $filterClassIDs ] ] ];
                 }
             }
-            // Name lookup
+            // Name lookup: the name in the most prioritized language, as the SQL engines' join picks it; a version
+            // without a name in such a language is left out, as there
             $mPipeline[] = [ '$lookup' => [
                 'from'     => 'ezcontentobject_name',
                 'let'      => [ 'oid' => '$contentobject_id', 'ver' => '$contentobject_version' ],
-                'pipeline' => [
-                    [ '$match' => [ '$expr' => [ '$and' => [
-                        [ '$eq' => [ '$contentobject_id', '$$oid' ] ],
-                        [ '$eq' => [ '$content_version', '$$ver' ] ],
-                    ] ] ] ],
-                    [ '$limit' => 1 ],
-                ],
+                'pipeline' => self::mongoNameLookupPipeline( $mongoLanguage ),
                 'as' => '_name',
             ] ];
-            $mPipeline[] = [ '$unwind' => [ 'path' => '$_name', 'preserveNullAndEmptyArrays' => true ] ];
+            $mPipeline[] = [ '$unwind' => '$_name' ];
             // Flatten joined fields
             $mPipeline[] = [ '$addFields' => [
                 'contentclass_id'            => '$_obj.contentclass_id',
@@ -2649,6 +3043,15 @@ class eZContentObjectTreeNode extends eZPersistentObject
                 'name'                       => '$_name.name',
                 'real_translation'           => '$_name.real_translation',
             ] ];
+            // the languages and the read permission (languagesSQLFilter(), createPermissionCheckingSQL())
+            $mPipeline = array_merge( $mPipeline, self::mongoLanguageStages( $mongoLanguage ), $mongoPermissionStages );
+            $filterStages = self::mongoAttributeFilterStages( $params['AttributeFilter'] );
+            if ( $filterStages === false )
+            {
+                $db->dropTempTableList( $sqlPermissionChecking['temp_tables'] );
+                return [];
+            }
+            $mPipeline = array_merge( $mPipeline, $filterStages );
             $mPipeline[] = [ '$project' => [ '_id' => 0, '_obj' => 0, '_cls' => 0, '_name' => 0 ] ];
             // Sort
             $sortBy    = isset( $params['SortBy'] ) ? $params['SortBy'] : false;
@@ -3087,6 +3490,7 @@ class eZContentObjectTreeNode extends eZPersistentObject
 
         $languageFilter = ' AND '.eZContentLanguage::languagesSQLFilter( 'ezcontentobject' );
         $objectNameLanguageFilter = eZContentLanguage::sqlFilter( 'ezcontentobject_name', 'ezcontentobject' );
+        $mongoLanguage = self::mongoLanguageInfo();
 
         if ( $language )
         {
@@ -3111,8 +3515,18 @@ class eZContentObjectTreeNode extends eZPersistentObject
 
         $limitation = ( isset( $params['Limitation']  ) && is_array( $params['Limitation']  ) ) ? $params['Limitation']: false;
         $limitationList = eZContentObjectTreeNode::getLimitationList( $limitation );
-        $sqlPermissionChecking = eZContentObjectTreeNode::createPermissionCheckingSQL( $limitationList, 'ezcontentobject_tree', 'ezcontentobject_tree',
-            eZContentObjectTreeNode::permissionFetchScope( $limitationList, $nodeID, $nodePaths, $params ) );
+        $permissionScope = eZContentObjectTreeNode::permissionFetchScope( $limitationList, $nodeID, $nodePaths, $params );
+        $mongoPermissionStages = array();
+        if ( eZDB::instance()->databaseName() === 'mongo' )
+        {
+            $mongoPermissionStages = self::mongoPermissionStages( $limitationList, $permissionScope );
+            $sqlPermissionChecking = array( 'from' => '', 'where' => '', 'temp_tables' => array() );
+        }
+        else
+        {
+            $sqlPermissionChecking = eZContentObjectTreeNode::createPermissionCheckingSQL( $limitationList, 'ezcontentobject_tree', 'ezcontentobject_tree',
+                $permissionScope );
+        }
 
         $query = "SELECT
                         count( DISTINCT ezcontentobject_tree.node_id ) as count
@@ -3179,19 +3593,22 @@ class eZContentObjectTreeNode extends eZPersistentObject
                 $matchStage['is_invisible'] = 0;
             if ( isset( $params['MainNodeOnly'] ) && $params['MainNodeOnly'] === true )
                 $matchStage['$expr'] = [ '$eq' => [ '$node_id', '$main_node_id' ] ];
-            $countPipeline = [ [ '$match' => $matchStage ] ];
+            // joined and flattened as the fetch does: the name in a prioritized language (none, no count), the
+            // object's class, section, owner and languages for the filters and the read permission
+            $countPipeline = array_merge( [ [ '$match' => $matchStage ] ], self::mongoFlattenStages( $mongoLanguage ) );
             if ( isset( $classIDArray ) && !empty( $classIDArray ) )
             {
-                $countPipeline[] = [ '$lookup' => [
-                    'from'         => 'ezcontentobject',
-                    'localField'   => 'contentobject_id',
-                    'foreignField' => 'id',
-                    'as'           => '_obj',
-                ] ];
-                $countPipeline[] = [ '$unwind' => '$_obj' ];
                 $filterOp = ( isset( $params['ClassFilterType'] ) && $params['ClassFilterType'] === 'include' ) ? '$in' : '$nin';
-                $countPipeline[] = [ '$match' => [ '_obj.contentclass_id' => [ $filterOp => array_map( 'intval', $classIDArray ) ] ] ];
+                $countPipeline[] = [ '$match' => [ 'contentclass_id' => [ $filterOp => array_map( 'intval', $classIDArray ) ] ] ];
             }
+            $countPipeline = array_merge( $countPipeline, self::mongoLanguageStages( $mongoLanguage ), $mongoPermissionStages );
+            $filterStages = self::mongoAttributeFilterStages( $attributeFilterParam );
+            if ( $filterStages === false )
+            {
+                $db->dropTempTableList( $sqlPermissionChecking['temp_tables'] );
+                return 0;
+            }
+            $countPipeline = array_merge( $countPipeline, $filterStages );
             $countPipeline[] = [ '$count' => 'count' ];
             $countRows = $db->aggregate( 'ezcontentobject_tree', $countPipeline );
             $db->dropTempTableList( $sqlPermissionChecking['temp_tables'] );
@@ -3537,13 +3954,33 @@ class eZContentObjectTreeNode extends eZPersistentObject
         }
 
         $db->begin();
-        foreach ( array_chunk( $objectSimpleIDArray, 100 ) as $pagedObjectIDs )
+        try
         {
-            $db->query( "UPDATE ezcontentobject SET section_id='$sectionID' WHERE $filterPart " . $db->generateSQLINStatement( $pagedObjectIDs, 'id', false, true, 'int' ) );
-            if ( $updateSearchIndexes )
+            try
             {
-                eZSearch::updateObjectsSection( $pagedObjectIDs, $sectionID );
+                foreach ( array_chunk( $objectSimpleIDArray, 100 ) as $pagedObjectIDs )
+                {
+                    $db->query( "UPDATE ezcontentobject SET section_id='$sectionID' WHERE $filterPart " . $db->generateSQLINStatement( $pagedObjectIDs, 'id', false, true, 'int' ) );
+                    if ( $updateSearchIndexes )
+                    {
+                        eZSearch::updateObjectsSection( $pagedObjectIDs, $sectionID );
+                    }
+                }
             }
+            catch ( Throwable $e )
+            {
+                // nothing of a transaction that failed half way is committed by a later commit()
+                if ( $db->transactionCounter() > 0 )
+                    $db->rollback();
+                throw $e;
+            }
+        }
+        catch ( Throwable $e )
+        {
+            // nothing of a transaction that failed half way is committed by a later commit()
+            if ( $db->transactionCounter() > 0 )
+                $db->rollback();
+            throw $e;
         }
         $db->commit();
 
@@ -3608,32 +4045,52 @@ class eZContentObjectTreeNode extends eZPersistentObject
 
         $db = eZDB::instance();
         $db->begin();
-        $db->query( "UPDATE ezcontentobject_tree SET main_node_id=$mainNodeID WHERE contentobject_id=$objectID" );
-        if ( !$version )
+        try
         {
-            $rows = $db->arrayQuery( "SELECT current_version FROM ezcontentobject WHERE id=$objectID" );
-            $version = $rows[0]['current_version'];
-        }
-        $db->query( "UPDATE eznode_assignment SET is_main=1 WHERE contentobject_id=$objectID AND contentobject_version=$version AND parent_node=$parentMainNodeID" );
-        $db->query( "UPDATE eznode_assignment SET is_main=0 WHERE contentobject_id=$objectID AND contentobject_version=$version AND parent_node!=$parentMainNodeID" );
+            try
+            {
+                $db->query( "UPDATE ezcontentobject_tree SET main_node_id=$mainNodeID WHERE contentobject_id=$objectID" );
+                if ( !$version )
+                {
+                    $rows = $db->arrayQuery( "SELECT current_version FROM ezcontentobject WHERE id=$objectID" );
+                    $version = $rows[0]['current_version'];
+                }
+                $db->query( "UPDATE eznode_assignment SET is_main=1 WHERE contentobject_id=$objectID AND contentobject_version=$version AND parent_node=$parentMainNodeID" );
+                $db->query( "UPDATE eznode_assignment SET is_main=0 WHERE contentobject_id=$objectID AND contentobject_version=$version AND parent_node!=$parentMainNodeID" );
 
-        $contentObject = eZContentObject::fetch( $objectID );
-        // The parent's object by id: fetchByNodeID() filters by language, and while
-        // an installation runs the base data is not yet in the site's language
-        $parentNode = eZContentObjectTreeNode::fetchStructural( $parentMainNodeID );
-        $parentContentObject = $parentNode ? eZContentObject::fetch( $parentNode->attribute( 'contentobject_id' ) ) : null;
-        if ( $updateSection && $contentObject && $parentContentObject && $contentObject->attribute( 'section_id' ) != $parentContentObject->attribute( 'section_id' ) )
+                $contentObject = eZContentObject::fetch( $objectID );
+                // The parent's object by id: fetchByNodeID() filters by language, and while
+                // an installation runs the base data is not yet in the site's language
+                $parentNode = eZContentObjectTreeNode::fetchStructural( $parentMainNodeID );
+                $parentContentObject = $parentNode ? eZContentObject::fetch( $parentNode->attribute( 'contentobject_id' ) ) : null;
+                if ( $updateSection && $contentObject && $parentContentObject && $contentObject->attribute( 'section_id' ) != $parentContentObject->attribute( 'section_id' ) )
+                {
+                    $newSectionID = $parentContentObject->attribute( 'section_id' );
+                    // the section follows the main location: part of that change, not an assignment of its own (audit)
+                    if ( class_exists( 'expAuditHook' ) )
+                        expAuditHook::muted( 'content.node.section', function () use ( $mainNodeID, $newSectionID ) {
+                            eZContentObjectTreeNode::assignSectionToSubTree( $mainNodeID, $newSectionID );
+                        } );
+                    else
+                        eZContentObjectTreeNode::assignSectionToSubTree( $mainNodeID, $newSectionID );
+                }
+
+            }
+            catch ( Throwable $e )
+            {
+                // nothing of a transaction that failed half way is committed by a later commit()
+                if ( $db->transactionCounter() > 0 )
+                    $db->rollback();
+                throw $e;
+            }
+        }
+        catch ( Throwable $e )
         {
-            $newSectionID = $parentContentObject->attribute( 'section_id' );
-            // the section follows the main location: part of that change, not an assignment of its own (audit)
-            if ( class_exists( 'expAuditHook' ) )
-                expAuditHook::muted( 'content.node.section', function () use ( $mainNodeID, $newSectionID ) {
-                    eZContentObjectTreeNode::assignSectionToSubTree( $mainNodeID, $newSectionID );
-                } );
-            else
-                eZContentObjectTreeNode::assignSectionToSubTree( $mainNodeID, $newSectionID );
+            // nothing of a transaction that failed half way is committed by a later commit()
+            if ( $db->transactionCounter() > 0 )
+                $db->rollback();
+            throw $e;
         }
-
         $db->commit();
 
     }
@@ -4210,6 +4667,14 @@ class eZContentObjectTreeNode extends eZPersistentObject
                     else
                         $nodesListArray = $result;
                 }
+                // the SQL engines join each node with its object: the root node 1 has none (object 0) and is never
+                // in a path. Kept here, it put an unnamed node before every page's path, so a front page's title
+                // read "Home / Content" instead of "Home"
+                $nodesListArray = array_values( array_filter( $nodesListArray, function ( $node ) {
+                    $objectID = $node instanceof eZContentObjectTreeNode ? $node->attribute( 'contentobject_id' )
+                              : ( is_array( $node ) && isset( $node['contentobject_id'] ) ? $node['contentobject_id'] : 0 );
+                    return (int)$objectID > 0;
+                } ) );
                 return $nodesListArray;
             }
 
@@ -4335,11 +4800,31 @@ class eZContentObjectTreeNode extends eZPersistentObject
         $insertedNode->setAttribute( 'is_invisible', $isInvinsible );
 
         $db->begin();
-        $insertedNode->store();
-        $insertedID = $insertedNode->attribute( 'node_id' );
-        $newNodePath = $parentPath . $insertedID . '/';
-        $insertedNode->setAttribute( 'path_string', $newNodePath );
-        $insertedNode->store();
+        try
+        {
+            try
+            {
+                $insertedNode->store();
+                $insertedID = $insertedNode->attribute( 'node_id' );
+                $newNodePath = $parentPath . $insertedID . '/';
+                $insertedNode->setAttribute( 'path_string', $newNodePath );
+                $insertedNode->store();
+            }
+            catch ( Throwable $e )
+            {
+                // nothing of a transaction that failed half way is committed by a later commit()
+                if ( $db->transactionCounter() > 0 )
+                    $db->rollback();
+                throw $e;
+            }
+        }
+        catch ( Throwable $e )
+        {
+            // nothing of a transaction that failed half way is committed by a later commit()
+            if ( $db->transactionCounter() > 0 )
+                $db->rollback();
+            throw $e;
+        }
         $db->commit();
 
         if ( $asObject )
@@ -4658,7 +5143,8 @@ class eZContentObjectTreeNode extends eZPersistentObject
             // Avoid crashes due to database inconsistencies
             if ( $parentNode instanceof eZContentObjectTreeNode )
             {
-                $pathIdentificationString = $parentNode->attribute( 'path_identification_string' );
+                // NULL where the database keeps an empty string as NULL (Oracle: the top level node's)
+                $pathIdentificationString = (string)$parentNode->attribute( 'path_identification_string' );
             }
             else
             {
@@ -4735,80 +5221,100 @@ class eZContentObjectTreeNode extends eZPersistentObject
 
         $db = eZDB::instance();
         $db->begin();
-
-        $nodePath = $this->attribute( 'path_string' );
-        $childrensPath = $nodePath ;
-
-        $pathString = " path_string like '$childrensPath%' ";
-
-        $urlAlias = $this->attribute( 'url_alias' );
-
-        // Remove static cache
-        if ( $ini->variable( 'ContentSettings', 'StaticCache' ) == 'enabled' )
+        try
         {
-            $optionArray = array( 'iniFile'      => 'site.ini',
-                                  'iniSection'   => 'ContentSettings',
-                                  'iniVariable'  => 'StaticCacheHandler' );
+            try
+            {
 
-            $options = new ezpExtensionOptions( $optionArray );
+                $nodePath = $this->attribute( 'path_string' );
+                $childrensPath = $nodePath ;
 
-            $staticCacheHandler = eZExtension::getHandlerClass( $options );
+                $pathString = " path_string like '$childrensPath%' ";
 
-            $staticCacheHandler->removeURL( "/" . $urlAlias );
-            $staticCacheHandler->generateAlwaysUpdatedCache();
+                $urlAlias = $this->attribute( 'url_alias' );
 
-            $parent = $this->fetchParent();
-        }
+                // Remove static cache
+                if ( $ini->variable( 'ContentSettings', 'StaticCache' ) == 'enabled' )
+                {
+                    $optionArray = array( 'iniFile'      => 'site.ini',
+                                          'iniSection'   => 'ContentSettings',
+                                          'iniVariable'  => 'StaticCacheHandler' );
 
-        $db->query( "DELETE FROM ezcontentobject_tree
+                    $options = new ezpExtensionOptions( $optionArray );
+
+                    $staticCacheHandler = eZExtension::getHandlerClass( $options );
+
+                    $staticCacheHandler->removeURL( "/" . $urlAlias );
+                    $staticCacheHandler->generateAlwaysUpdatedCache();
+
+                    $parent = $this->fetchParent();
+                }
+
+                $db->query( "DELETE FROM ezcontentobject_tree
                             WHERE $pathString OR
                             path_string = '$nodePath'" );
 
-        // Re-cache parent node
-        if ( $ini->variable( 'ContentSettings', 'StaticCache' ) == 'enabled' )
-        {
-            if ( $parent )
+                // Re-cache parent node
+                if ( $ini->variable( 'ContentSettings', 'StaticCache' ) == 'enabled' )
+                {
+                    if ( $parent )
+                    {
+                        $staticCacheHandler->cacheURL( "/" . $parent->urlAlias() );
+                    }
+                }
+
+                // Clean up URL alias entries
+                eZURLAliasML::removeByAction( 'eznode', $nodeID );
+
+                // Clean up content cache
+                eZContentCacheManager::clearContentCacheIfNeeded( $this->attribute( 'contentobject_id' ) );
+
+                // clean up user cache
+                if ( in_array( $object->attribute( 'contentclass_id' ), eZUser::contentClassIDs() ) )
+                {
+                    eZUser::removeSessionData( $objectID );
+                    eZUser::purgeUserCacheByUserId( $objectID );
+                }
+
+                $parentNode = $this->attribute( 'parent' );
+                if ( is_object( $parentNode ) )
+                {
+                    eZContentCacheManager::clearContentCacheIfNeeded( $parentNode->attribute( 'contentobject_id' ) );
+                    $parentNode->updateAndStoreModified();
+                    eZNodeAssignment::purgeByParentAndContentObjectID( $parentNode->attribute( 'node_id' ), $objectID );
+                }
+
+                // Clean up policies and limitations
+                eZRole::cleanupByNode( $this );
+
+                // Clean up recent items
+                eZContentBrowseRecent::removeRecentByNodeID( $nodeID );
+
+                // Clean up bookmarks
+                eZContentBrowseBookmark::removeByNodeID( $nodeID );
+
+                // Clean up tip-a-friend counter
+                eZTipafriendCounter::removeForNode( $nodeID );
+
+                // Clean up view counter
+                eZViewCounter::removeCounter( $nodeID );
+
+            }
+            catch ( Throwable $e )
             {
-                $staticCacheHandler->cacheURL( "/" . $parent->urlAlias() );
+                // nothing of a transaction that failed half way is committed by a later commit()
+                if ( $db->transactionCounter() > 0 )
+                    $db->rollback();
+                throw $e;
             }
         }
-
-        // Clean up URL alias entries
-        eZURLAliasML::removeByAction( 'eznode', $nodeID );
-
-        // Clean up content cache
-        eZContentCacheManager::clearContentCacheIfNeeded( $this->attribute( 'contentobject_id' ) );
-
-        // clean up user cache
-        if ( in_array( $object->attribute( 'contentclass_id' ), eZUser::contentClassIDs() ) )
+        catch ( Throwable $e )
         {
-            eZUser::removeSessionData( $objectID );
-            eZUser::purgeUserCacheByUserId( $objectID );
+            // nothing of a transaction that failed half way is committed by a later commit()
+            if ( $db->transactionCounter() > 0 )
+                $db->rollback();
+            throw $e;
         }
-
-        $parentNode = $this->attribute( 'parent' );
-        if ( is_object( $parentNode ) )
-        {
-            eZContentCacheManager::clearContentCacheIfNeeded( $parentNode->attribute( 'contentobject_id' ) );
-            $parentNode->updateAndStoreModified();
-            eZNodeAssignment::purgeByParentAndContentObjectID( $parentNode->attribute( 'node_id' ), $objectID );
-        }
-
-        // Clean up policies and limitations
-        eZRole::cleanupByNode( $this );
-
-        // Clean up recent items
-        eZContentBrowseRecent::removeRecentByNodeID( $nodeID );
-
-        // Clean up bookmarks
-        eZContentBrowseBookmark::removeByNodeID( $nodeID );
-
-        // Clean up tip-a-friend counter
-        eZTipafriendCounter::removeForNode( $nodeID );
-
-        // Clean up view counter
-        eZViewCounter::removeCounter( $nodeID );
-
         $db->commit();
     }
 
@@ -4868,206 +5374,226 @@ class eZContentObjectTreeNode extends eZPersistentObject
 
         $db = eZDB::instance();
         $db->begin();
-
-        foreach ( $deleteIDArray as $deleteID )
+        try
         {
-            $node = eZContentObjectTreeNode::fetch( $deleteID );
-            if ( $node === null )
-                continue;
-
-            $object = $node->attribute( 'object' );
-            if ( $object === null )
-                continue;
-
-            $class = $object->attribute( 'content_class' );
-            $canRemove = $node->attribute( 'can_remove' );
-            $canRemoveSubtree = true;
-
-            $nodeID = $node->attribute( 'node_id' );
-            $nodeName = $object->attribute( 'name' );
-
-            $childCount = 0;
-            $newMainNodeID = false;
-            $objectNodeCount = 0;
-            $readableChildCount = 0;
-
-            if ( $canRemove )
+            try
             {
-                $moveToTrashAllowed = $node->isNodeTrashAllowed();
 
-                $readableChildCount = $node->subTreeCount( array( 'Limitation' => array() ) );
-                $childCount = $node->subTreeCount( array( 'IgnoreVisibility' => true ) );
-                $totalChildCount += $childCount;
-
-                $allAssignedNodes = $object->attribute( 'assigned_nodes' );
-                $objectNodeCount = count( $allAssignedNodes );
-                // We need to find a new main node ID if we are trying
-                // to remove the current main node.
-                if ( $node->attribute( 'main_node_id' ) == $nodeID )
+                foreach ( $deleteIDArray as $deleteID )
                 {
-                    if ( count( $allAssignedNodes ) > 1 )
+                    $node = eZContentObjectTreeNode::fetch( $deleteID );
+                    if ( $node === null )
+                        continue;
+
+                    $object = $node->attribute( 'object' );
+                    if ( $object === null )
+                        continue;
+
+                    $class = $object->attribute( 'content_class' );
+                    $canRemove = $node->attribute( 'can_remove' );
+                    $canRemoveSubtree = true;
+
+                    $nodeID = $node->attribute( 'node_id' );
+                    $nodeName = $object->attribute( 'name' );
+
+                    $childCount = 0;
+                    $newMainNodeID = false;
+                    $objectNodeCount = 0;
+                    $readableChildCount = 0;
+
+                    if ( $canRemove )
                     {
-                        foreach( $allAssignedNodes as $assignedNode )
-                        {
-                            $assignedNodeID = $assignedNode->attribute( 'node_id' );
-                            if ( $assignedNodeID == $nodeID )
-                                continue;
-                            $newMainNodeID = $assignedNodeID;
-                            break;
-                        }
-                    }
-                }
+                        $moveToTrashAllowed = $node->isNodeTrashAllowed();
 
-                if ( $infoOnly )
-                {
-                    // Find the number of items in the subtree we are allowed to remove
-                    // if this differs from the total count it means we have items we cannot remove
-                    // We do this by fetching the limitation list for content/remove
-                    // and passing it to the subtree count function.
-                    $currentUser = eZUser::currentUser();
-                    $accessResult = $currentUser->hasAccessTo( 'content', 'remove' );
-                    if ( $accessResult['accessWord'] == 'limited' )
-                    {
-                        $limitationList = $accessResult['policies'];
-                        $removeableChildCount = $node->subTreeCount( array( 'Limitation' => $limitationList, 'IgnoreVisibility' => true ) );
-                        $canRemoveSubtree = ( $removeableChildCount == $childCount );
-                        $canRemove = $canRemoveSubtree;
-                    }
-                    //check if there is sub object in pending status
-                    $limitCount = 100;
-                    $offset = 0;
-                    while( 1 )
-                    {
-                        $children = $node->subTree( array( 'Limitation' => array(),
-                                                            'SortBy' => array( 'path' , false ),
-                                                            'Offset' => $offset,
-                                                            'Limit' => $limitCount,
-                                                            'IgnoreVisibility' => true,
-                                                            'AsObject' => false ) );
-                        // fetch pending node assignment(pending object)
-                        $idList = array();
-                        //add node itself into idList
-                        if( $offset === 0 )
-                        {
-                            $idList[] = $nodeID;
-                        }
-                        foreach( $children as $child )
-                        {
-                            $idList[] = $child['node_id'];
-                        }
+                        $readableChildCount = $node->subTreeCount( array( 'Limitation' => array() ) );
+                        $childCount = $node->subTreeCount( array( 'IgnoreVisibility' => true ) );
+                        $totalChildCount += $childCount;
 
-                        if( count( $idList ) === 0 )
+                        $allAssignedNodes = $object->attribute( 'assigned_nodes' );
+                        $objectNodeCount = count( $allAssignedNodes );
+                        // We need to find a new main node ID if we are trying
+                        // to remove the current main node.
+                        if ( $node->attribute( 'main_node_id' ) == $nodeID )
                         {
-                            break;
-                        }
-                        $pendingChildCount = eZNodeAssignment::fetchChildCountByVersionStatus( $idList,
-                                                                                       eZContentObjectVersion::STATUS_PENDING );
-                        if( $pendingChildCount !== 0 )
-                        {
-                            // there is pending object
-                            $hasPendingObject = true;
-                            break;
-                        }
-                        $offset += $limitCount;
-                    }
-                }
-
-                // We will only remove the subtree if are allowed
-                // and are told to do so.
-                if ( $canRemove and !$infoOnly )
-                {
-                    $moveToTrashTemp = $moveToTrash;
-                    if ( !$moveToTrashAllowed )
-                        $moveToTrashTemp = false;
-
-                    // Audit (doc/eng-us/bc/6.0/audit.md, F2): the subtree's root is the parent event, every node removed
-                    // below it a child event of the same kind
-                    $auditParent = null;
-                    if ( class_exists( 'expAuditHook' ) )
-                    {
-                        $rootLast = $node->attribute( 'main_node_id' ) == $nodeID && $objectNodeCount <= 1;
-                        $auditName = !$rootLast ? 'content.node.remove' : ( $moveToTrashTemp ? 'content.node.remove.trash' : 'content.object.remove' );
-                        if ( expAuditHook::on( $auditName ) )
-                        {
-                            $auditParent = expAuditHook::begin( $auditName, self::auditRemovalData( $node, $object, $auditName, $allAssignedNodes ) );
-                            if ( $auditParent !== null )
-                                expAuditHook::subtreeRoot( $nodeID );
-                        }
-                    }
-
-                    $removeSubtree = function () use ( $node, $moveToTrashTemp )
-                    {
-                        // Remove children, fetching them by 100 to avoid memory overflow.
-                        // removeNodeFromTree -> removeThis handles cache clearing
-                        while ( 1 )
-                        {
-                            // We should remove the latest subitems first,
-                            // so we should fetch subitems sorted by 'path_string' DESC
-                            $children = $node->subTree( array( 'Limitation' => array(),
-                                                               'SortBy' => array( 'path' , false ),
-                                                               'Limit' => 100,
-                                                               'IgnoreVisibility' => true ) );
-                            if ( !$children )
-                                break;
-
-                            foreach ( $children as $child )
+                            if ( count( $allAssignedNodes ) > 1 )
                             {
-                                $child->removeNodeFromTree( $moveToTrashTemp );
-                                eZContentObject::clearCache();
+                                foreach( $allAssignedNodes as $assignedNode )
+                                {
+                                    $assignedNodeID = $assignedNode->attribute( 'node_id' );
+                                    if ( $assignedNodeID == $nodeID )
+                                        continue;
+                                    $newMainNodeID = $assignedNodeID;
+                                    break;
+                                }
                             }
                         }
 
-                        $node->removeNodeFromTree( $moveToTrashTemp );
-                    };
-                    if ( $auditParent !== null )
-                    {
-                        try
+                        if ( $infoOnly )
                         {
-                            expAuditHook::withParent( $auditParent, $removeSubtree );
+                            // Find the number of items in the subtree we are allowed to remove
+                            // if this differs from the total count it means we have items we cannot remove
+                            // We do this by fetching the limitation list for content/remove
+                            // and passing it to the subtree count function.
+                            $currentUser = eZUser::currentUser();
+                            $accessResult = $currentUser->hasAccessTo( 'content', 'remove' );
+                            if ( $accessResult['accessWord'] == 'limited' )
+                            {
+                                $limitationList = $accessResult['policies'];
+                                $removeableChildCount = $node->subTreeCount( array( 'Limitation' => $limitationList, 'IgnoreVisibility' => true ) );
+                                $canRemoveSubtree = ( $removeableChildCount == $childCount );
+                                $canRemove = $canRemoveSubtree;
+                            }
+                            //check if there is sub object in pending status
+                            $limitCount = 100;
+                            $offset = 0;
+                            while( 1 )
+                            {
+                                $children = $node->subTree( array( 'Limitation' => array(),
+                                                                    'SortBy' => array( 'path' , false ),
+                                                                    'Offset' => $offset,
+                                                                    'Limit' => $limitCount,
+                                                                    'IgnoreVisibility' => true,
+                                                                    'AsObject' => false ) );
+                                // fetch pending node assignment(pending object)
+                                $idList = array();
+                                //add node itself into idList
+                                if( $offset === 0 )
+                                {
+                                    $idList[] = $nodeID;
+                                }
+                                foreach( $children as $child )
+                                {
+                                    $idList[] = $child['node_id'];
+                                }
+
+                                if( count( $idList ) === 0 )
+                                {
+                                    break;
+                                }
+                                $pendingChildCount = eZNodeAssignment::fetchChildCountByVersionStatus( $idList,
+                                                                                               eZContentObjectVersion::STATUS_PENDING );
+                                if( $pendingChildCount !== 0 )
+                                {
+                                    // there is pending object
+                                    $hasPendingObject = true;
+                                    break;
+                                }
+                                $offset += $limitCount;
+                            }
                         }
-                        catch ( Throwable $e )
+
+                        // We will only remove the subtree if are allowed
+                        // and are told to do so.
+                        if ( $canRemove and !$infoOnly )
                         {
-                            expAuditHook::subtreeRoot( $nodeID, false );
-                            expAuditHook::end( $auditParent, array( 'result' => 'failed', 'reason' => 'error',
-                                                                    'error' => array( 'message' => get_class( $e ) ) ) );
-                            throw $e;
+                            $moveToTrashTemp = $moveToTrash;
+                            if ( !$moveToTrashAllowed )
+                                $moveToTrashTemp = false;
+
+                            // Audit (doc/eng-us/bc/6.0/audit.md, F2): the subtree's root is the parent event, every node removed
+                            // below it a child event of the same kind
+                            $auditParent = null;
+                            if ( class_exists( 'expAuditHook' ) )
+                            {
+                                $rootLast = $node->attribute( 'main_node_id' ) == $nodeID && $objectNodeCount <= 1;
+                                $auditName = !$rootLast ? 'content.node.remove' : ( $moveToTrashTemp ? 'content.node.remove.trash' : 'content.object.remove' );
+                                if ( expAuditHook::on( $auditName ) )
+                                {
+                                    $auditParent = expAuditHook::begin( $auditName, self::auditRemovalData( $node, $object, $auditName, $allAssignedNodes ) );
+                                    if ( $auditParent !== null )
+                                        expAuditHook::subtreeRoot( $nodeID );
+                                }
+                            }
+
+                            $removeSubtree = function () use ( $node, $moveToTrashTemp )
+                            {
+                                // Remove children, fetching them by 100 to avoid memory overflow.
+                                // removeNodeFromTree -> removeThis handles cache clearing
+                                while ( 1 )
+                                {
+                                    // We should remove the latest subitems first,
+                                    // so we should fetch subitems sorted by 'path_string' DESC
+                                    $children = $node->subTree( array( 'Limitation' => array(),
+                                                                       'SortBy' => array( 'path' , false ),
+                                                                       'Limit' => 100,
+                                                                       'IgnoreVisibility' => true ) );
+                                    if ( !$children )
+                                        break;
+
+                                    foreach ( $children as $child )
+                                    {
+                                        $child->removeNodeFromTree( $moveToTrashTemp );
+                                        eZContentObject::clearCache();
+                                    }
+                                }
+
+                                $node->removeNodeFromTree( $moveToTrashTemp );
+                            };
+                            if ( $auditParent !== null )
+                            {
+                                try
+                                {
+                                    expAuditHook::withParent( $auditParent, $removeSubtree );
+                                }
+                                catch ( Throwable $e )
+                                {
+                                    expAuditHook::subtreeRoot( $nodeID, false );
+                                    expAuditHook::end( $auditParent, array( 'result' => 'failed', 'reason' => 'error',
+                                                                            'error' => array( 'message' => get_class( $e ) ) ) );
+                                    throw $e;
+                                }
+                                expAuditHook::subtreeRoot( $nodeID, false );
+                                expAuditHook::end( $auditParent, array( 'after' => array( 'subtree_nodes' => (int)$childCount ) ) );
+                            }
+                            else
+                                $removeSubtree();
                         }
-                        expAuditHook::subtreeRoot( $nodeID, false );
-                        expAuditHook::end( $auditParent, array( 'after' => array( 'subtree_nodes' => (int)$childCount ) ) );
                     }
-                    else
-                        $removeSubtree();
+                    if ( !$canRemove )
+                        $canRemoveAll = false;
+
+                    // Do not create info list if we are removing subtrees
+                    if ( !$infoOnly )
+                        continue;
+
+                    $soleNodeCount = $node->subtreeSoleNodeCount();
+                    $totalLoneNodeCount += $soleNodeCount;
+                    if ( $objectNodeCount <= 1 )
+                        ++$totalLoneNodeCount;
+
+                    $item = array( "nodeName" => $nodeName, // Backwards compatibility
+                                   "childCount" => $childCount, // Backwards compatibility
+                                   "additionalWarning" => '', // Backwards compatibility, this will always be empty
+                                   'node' => $node,
+                                   'object' => $object,
+                                   'class' => $class,
+                                   'node_name' => $nodeName,
+                                   'child_count' => $childCount,
+                                   'object_node_count' => $objectNodeCount,
+                                   'sole_node_count' => $soleNodeCount,
+                                   'can_remove' => $canRemove,
+                                   'can_remove_subtree' => $canRemoveSubtree,
+                                   'real_child_count' => $readableChildCount,
+                                   'new_main_node_id' => $newMainNodeID );
+                    $deleteResult[] = $item;
                 }
+
             }
-            if ( !$canRemove )
-                $canRemoveAll = false;
-
-            // Do not create info list if we are removing subtrees
-            if ( !$infoOnly )
-                continue;
-
-            $soleNodeCount = $node->subtreeSoleNodeCount();
-            $totalLoneNodeCount += $soleNodeCount;
-            if ( $objectNodeCount <= 1 )
-                ++$totalLoneNodeCount;
-
-            $item = array( "nodeName" => $nodeName, // Backwards compatibility
-                           "childCount" => $childCount, // Backwards compatibility
-                           "additionalWarning" => '', // Backwards compatibility, this will always be empty
-                           'node' => $node,
-                           'object' => $object,
-                           'class' => $class,
-                           'node_name' => $nodeName,
-                           'child_count' => $childCount,
-                           'object_node_count' => $objectNodeCount,
-                           'sole_node_count' => $soleNodeCount,
-                           'can_remove' => $canRemove,
-                           'can_remove_subtree' => $canRemoveSubtree,
-                           'real_child_count' => $readableChildCount,
-                           'new_main_node_id' => $newMainNodeID );
-            $deleteResult[] = $item;
+            catch ( Throwable $e )
+            {
+                // nothing of a transaction that failed half way is committed by a later commit()
+                if ( $db->transactionCounter() > 0 )
+                    $db->rollback();
+                throw $e;
+            }
         }
-
+        catch ( Throwable $e )
+        {
+            // nothing of a transaction that failed half way is committed by a later commit()
+            if ( $db->transactionCounter() > 0 )
+                $db->rollback();
+            throw $e;
+        }
         $db->commit();
 
         if ( !$infoOnly )
@@ -5238,12 +5764,32 @@ class eZContentObjectTreeNode extends eZPersistentObject
                 // We need to change the main node ID before we remove the current node
                 $db = eZDB::instance();
                 $db->begin();
-                eZContentObjectTreeNode::updateMainNodeID( $newMainNode->attribute( 'node_id' ),
-                                                           $object->attribute( 'id' ),
-                                                           $object->attribute( 'current_version' ),
-                                                           $newMainNode->attribute( 'parent_node_id' ) );
-                $this->removeThis();
-                eZSearch::addObject( $object );
+                try
+                {
+                    try
+                    {
+                        eZContentObjectTreeNode::updateMainNodeID( $newMainNode->attribute( 'node_id' ),
+                                                                   $object->attribute( 'id' ),
+                                                                   $object->attribute( 'current_version' ),
+                                                                   $newMainNode->attribute( 'parent_node_id' ) );
+                        $this->removeThis();
+                        eZSearch::addObject( $object );
+                    }
+                    catch ( Throwable $e )
+                    {
+                        // nothing of a transaction that failed half way is committed by a later commit()
+                        if ( $db->transactionCounter() > 0 )
+                            $db->rollback();
+                        throw $e;
+                    }
+                }
+                catch ( Throwable $e )
+                {
+                    // nothing of a transaction that failed half way is committed by a later commit()
+                    if ( $db->transactionCounter() > 0 )
+                        $db->rollback();
+                    throw $e;
+                }
                 $db->commit();
             }
             else
@@ -5251,21 +5797,41 @@ class eZContentObjectTreeNode extends eZPersistentObject
                 // This is the last assignment so we remove the object too
                 $db = eZDB::instance();
                 $db->begin();
-                $this->removeThis();
+                try
+                {
+                    try
+                    {
+                        $this->removeThis();
 
-                if ( $moveToTrash )
-                {
-                    // saving information about this node in ..trash_node table
-                    $trashNode = eZContentObjectTrashNode::createFromNode( $this );
-                    $db = eZDB::instance();
-                    $db->begin();
-                    $trashNode->storeToTrash();
-                    $db->commit();
-                    $object->removeThis();
+                        if ( $moveToTrash )
+                        {
+                            // saving information about this node in ..trash_node table
+                            $trashNode = eZContentObjectTrashNode::createFromNode( $this );
+                            $db = eZDB::instance();
+                            $db->begin();
+                            $trashNode->storeToTrash();
+                            $db->commit();
+                            $object->removeThis();
+                        }
+                        else
+                        {
+                            $object->purge();
+                        }
+                    }
+                    catch ( Throwable $e )
+                    {
+                        // nothing of a transaction that failed half way is committed by a later commit()
+                        if ( $db->transactionCounter() > 0 )
+                            $db->rollback();
+                        throw $e;
+                    }
                 }
-                else
+                catch ( Throwable $e )
                 {
-                    $object->purge();
+                    // nothing of a transaction that failed half way is committed by a later commit()
+                    if ( $db->transactionCounter() > 0 )
+                        $db->rollback();
+                    throw $e;
                 }
                 $db->commit();
             }
@@ -5425,6 +5991,8 @@ class eZContentObjectTreeNode extends eZPersistentObject
             ezpEvent::getInstance()->notify( 'content/move', array( (int)$nodeID, (int)$node->attribute( 'contentobject_id' ), (int)$oldParentNodeID, (int)$newParentNodeID ) );
             if ( class_exists( 'expDataSyncListener' ) )
                 expDataSyncListener::moved( (int)$nodeID, (int)$node->attribute( 'contentobject_id' ) );
+            if ( class_exists( 'expGraphQLEventListener' ) )
+                expGraphQLEventListener::moved( (int)$nodeID, (int)$node->attribute( 'contentobject_id' ), (int)$oldParentNodeID, (int)$newParentNodeID );
 
             $newParentNode = eZContentObjectTreeNode::fetch( $newParentNodeID );
             $newParentPath = $newParentNode->attribute( 'path_string' );
@@ -7133,8 +7701,28 @@ class eZContentObjectTreeNode extends eZPersistentObject
         $db = eZDB::instance();
 
         $db->begin();
-        parent::store( $fieldFilters );
-        $this->updateAndStoreModified();
+        try
+        {
+            try
+            {
+                parent::store( $fieldFilters );
+                $this->updateAndStoreModified();
+            }
+            catch ( Throwable $e )
+            {
+                // nothing of a transaction that failed half way is committed by a later commit()
+                if ( $db->transactionCounter() > 0 )
+                    $db->rollback();
+                throw $e;
+            }
+        }
+        catch ( Throwable $e )
+        {
+            // nothing of a transaction that failed half way is committed by a later commit()
+            if ( $db->transactionCounter() > 0 )
+                $db->rollback();
+            throw $e;
+        }
         $db->commit();
     }
 
@@ -7389,28 +7977,51 @@ class eZContentObjectTreeNode extends eZPersistentObject
                               'before' => array( 'hidden' => (bool)$node->attribute( 'is_hidden' ), 'invisible' => (bool)$node->attribute( 'is_invisible' ) ),
                               'after' => array( 'hidden' => $modifyRootNode ? true : (bool)$node->attribute( 'is_hidden' ), 'invisible' => true ) );
             } );
+        // the GraphQL event journal (webhooks, subscriptions): the node hidden itself, not a subtree's update
+        if ( $modifyRootNode && class_exists( 'expGraphQLEventListener' ) )
+            expGraphQLEventListener::hidden( $node, true );
 
         $db->begin();
-
-        if ( !$node->attribute( 'is_invisible' ) ) // if root node is visible
+        try
         {
-            // 1) Mark root node as hidden and invisible.
-            if ( $modifyRootNode )
-                $db->query( "UPDATE ezcontentobject_tree SET is_hidden=1, is_invisible=1, modified_subnode=$time WHERE node_id=$nodeID" );
+            try
+            {
 
-            // 2) Recursively mark child nodes as invisible, except for ones which have been previously marked as invisible.
-            $nodePath = $node->attribute( 'path_string' );
-            $db->query( "UPDATE ezcontentobject_tree SET is_invisible=1, modified_subnode=$time WHERE is_invisible=0 AND path_string LIKE '$nodePath%'" );
+                if ( !$node->attribute( 'is_invisible' ) ) // if root node is visible
+                {
+                    // 1) Mark root node as hidden and invisible.
+                    if ( $modifyRootNode )
+                        $db->query( "UPDATE ezcontentobject_tree SET is_hidden=1, is_invisible=1, modified_subnode=$time WHERE node_id=$nodeID" );
+
+                    // 2) Recursively mark child nodes as invisible, except for ones which have been previously marked as invisible.
+                    $nodePath = $node->attribute( 'path_string' );
+                    $db->query( "UPDATE ezcontentobject_tree SET is_invisible=1, modified_subnode=$time WHERE is_invisible=0 AND path_string LIKE '$nodePath%'" );
+                }
+                else
+                {
+                    // Mark root node as hidden
+                    if ( $modifyRootNode )
+                        $db->query( "UPDATE ezcontentobject_tree SET is_hidden=1, modified_subnode=$time WHERE node_id=$nodeID" );
+                }
+
+                $node->updateAndStoreModified();
+
+            }
+            catch ( Throwable $e )
+            {
+                // nothing of a transaction that failed half way is committed by a later commit()
+                if ( $db->transactionCounter() > 0 )
+                    $db->rollback();
+                throw $e;
+            }
         }
-        else
+        catch ( Throwable $e )
         {
-            // Mark root node as hidden
-            if ( $modifyRootNode )
-                $db->query( "UPDATE ezcontentobject_tree SET is_hidden=1, modified_subnode=$time WHERE node_id=$nodeID" );
+            // nothing of a transaction that failed half way is committed by a later commit()
+            if ( $db->transactionCounter() > 0 )
+                $db->rollback();
+            throw $e;
         }
-
-        $node->updateAndStoreModified();
-
         $db->commit();
 
         eZContentObjectTreeNode::clearViewCacheForSubtree( $node, $modifyRootNode );
@@ -7458,38 +8069,60 @@ class eZContentObjectTreeNode extends eZPersistentObject
                               'after' => array( 'hidden' => $modifyRootNode ? false : (bool)$node->attribute( 'is_hidden' ),
                                                 'invisible' => (bool)$parentNode->attribute( 'is_invisible' ) ) );
             } );
+        if ( $modifyRootNode && class_exists( 'expGraphQLEventListener' ) )
+            expGraphQLEventListener::hidden( $node, false );
 
         $db = eZDB::instance();
 
         $db->begin();
-
-        if ( ! $parentNode->attribute( 'is_invisible' ) ) // if parent node is visible
+        try
         {
-            // 1) Mark root node as not hidden and visible.
-            if ( $modifyRootNode )
-                $db->query( "UPDATE ezcontentobject_tree SET is_invisible=0, is_hidden=0, modified_subnode=$time WHERE node_id=$nodeID" );
+            try
+            {
 
-            // 2) Recursively mark child nodes as visible (except for nodes previosly marked as hidden, and all their children).
+                if ( ! $parentNode->attribute( 'is_invisible' ) ) // if parent node is visible
+                {
+                    // 1) Mark root node as not hidden and visible.
+                    if ( $modifyRootNode )
+                        $db->query( "UPDATE ezcontentobject_tree SET is_invisible=0, is_hidden=0, modified_subnode=$time WHERE node_id=$nodeID" );
 
-            // 2.1) $hiddenChildren = Fetch all hidden children for the root node
-            $hiddenChildren = $db->arrayQuery( "SELECT path_string FROM ezcontentobject_tree " .
-                                                "WHERE node_id <> $nodeID AND is_hidden=1 AND path_string LIKE '$nodePath%'" );
-            $skipSubtreesString = '';
-            foreach ( $hiddenChildren as $i )
-                $skipSubtreesString .= " AND path_string NOT LIKE '" . $i['path_string'] . "%'";
+                    // 2) Recursively mark child nodes as visible (except for nodes previosly marked as hidden, and all their children).
 
-            // 2.2) Mark those children as visible which are not under nodes in $hiddenChildren
-            $db->query( "UPDATE ezcontentobject_tree SET is_invisible=0, modified_subnode=$time WHERE path_string LIKE '$nodePath%' $skipSubtreesString" );
+                    // 2.1) $hiddenChildren = Fetch all hidden children for the root node
+                    $hiddenChildren = $db->arrayQuery( "SELECT path_string FROM ezcontentobject_tree " .
+                                                        "WHERE node_id <> $nodeID AND is_hidden=1 AND path_string LIKE '$nodePath%'" );
+                    $skipSubtreesString = '';
+                    foreach ( $hiddenChildren as $i )
+                        $skipSubtreesString .= " AND path_string NOT LIKE '" . $i['path_string'] . "%'";
+
+                    // 2.2) Mark those children as visible which are not under nodes in $hiddenChildren
+                    $db->query( "UPDATE ezcontentobject_tree SET is_invisible=0, modified_subnode=$time WHERE path_string LIKE '$nodePath%' $skipSubtreesString" );
+                }
+                else
+                {
+                    // Mark root node as not hidden.
+                    if ( $modifyRootNode )
+                        $db->query( "UPDATE ezcontentobject_tree SET is_hidden=0, modified_subnode=$time WHERE node_id=$nodeID" );
+                }
+
+                $node->updateAndStoreModified();
+
+            }
+            catch ( Throwable $e )
+            {
+                // nothing of a transaction that failed half way is committed by a later commit()
+                if ( $db->transactionCounter() > 0 )
+                    $db->rollback();
+                throw $e;
+            }
         }
-        else
+        catch ( Throwable $e )
         {
-            // Mark root node as not hidden.
-            if ( $modifyRootNode )
-                $db->query( "UPDATE ezcontentobject_tree SET is_hidden=0, modified_subnode=$time WHERE node_id=$nodeID" );
+            // nothing of a transaction that failed half way is committed by a later commit()
+            if ( $db->transactionCounter() > 0 )
+                $db->rollback();
+            throw $e;
         }
-
-        $node->updateAndStoreModified();
-
         $db->commit();
 
         eZContentObjectTreeNode::clearViewCacheForSubtree( $node, $modifyRootNode );
@@ -7524,15 +8157,35 @@ class eZContentObjectTreeNode extends eZPersistentObject
             $nodeID                 = $node->attribute( 'node_id' );
             $db                     = eZDB::instance();
             $db->begin();
-            $db->query( "UPDATE ezcontentobject_tree SET is_invisible=$parentNodeIsVisible WHERE node_id=$nodeID" );
-
-            if ( $recursive )
+            try
             {
-                // update visibility for children of the node
-                if( $parentNodeIsVisible )
-                    eZContentObjectTreeNode::hideSubTree( $node, $modifyRootNode = false );
-                else
-                    eZContentObjectTreeNode::unhideSubTree( $node, $modifyRootNode = false );
+                try
+                {
+                    $db->query( "UPDATE ezcontentobject_tree SET is_invisible=$parentNodeIsVisible WHERE node_id=$nodeID" );
+
+                    if ( $recursive )
+                    {
+                        // update visibility for children of the node
+                        if( $parentNodeIsVisible )
+                            eZContentObjectTreeNode::hideSubTree( $node, $modifyRootNode = false );
+                        else
+                            eZContentObjectTreeNode::unhideSubTree( $node, $modifyRootNode = false );
+                    }
+                }
+                catch ( Throwable $e )
+                {
+                    // nothing of a transaction that failed half way is committed by a later commit()
+                    if ( $db->transactionCounter() > 0 )
+                        $db->rollback();
+                    throw $e;
+                }
+            }
+            catch ( Throwable $e )
+            {
+                // nothing of a transaction that failed half way is committed by a later commit()
+                if ( $db->transactionCounter() > 0 )
+                    $db->rollback();
+                throw $e;
             }
             $db->commit();
         }

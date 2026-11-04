@@ -8,13 +8,15 @@
  *
  * The request is an ezpRestRequest built by the test and the header is set in $_SERVER and put back. No database.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @package tests
  * @group kernel
  * @group rest
  */
 
+#[\PHPUnit\Framework\Attributes\Group('kernel')]
+#[\PHPUnit\Framework\Attributes\Group('rest')]
 class ezpOauthUtilityTokenTest extends PHPUnit\Framework\TestCase
 {
     private $authorization;

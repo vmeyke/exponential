@@ -3,7 +3,7 @@
 /**
  * File containing the eZURLTypeRegression class
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -11,6 +11,7 @@
  * @group database
  */
 
+#[\PHPUnit\Framework\Attributes\Group('database')]
 class eZURLTypeRegression extends ezpDatabaseTestCase
 {
     protected $backupGlobals = FALSE;
@@ -30,6 +31,7 @@ class eZURLTypeRegression extends ezpDatabaseTestCase
      * @see testUnserializeLinkEncoding
      * @group issue_13604
      */
+    #[\PHPUnit\Framework\Attributes\Group('issue_13604')]
     public function testSerializeLinkEncoding()
     {
         $url = "http://example.com/?param1=lorem&param2=ispum";
@@ -62,6 +64,7 @@ class eZURLTypeRegression extends ezpDatabaseTestCase
      * @see testSerializeLinkEncoding
      * @group issue_13604
      */
+    #[\PHPUnit\Framework\Attributes\Group('issue_13604')]
     public function testUnserializeLinkEncoding()
     {
         $url = "http://example.com/?param1=lorem&param2=ispum";
@@ -109,6 +112,7 @@ class eZURLTypeRegression extends ezpDatabaseTestCase
      * @link http://issues.ez.no/18211
      * @group issue18211
      */
+    #[\PHPUnit\Framework\Attributes\Group('issue18211')]
     public function testUrlCaseSensitivity()
     {
         $url = 'http://ez.no/EZPUBLISH';

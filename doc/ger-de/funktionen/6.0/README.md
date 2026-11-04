@@ -6,13 +6,28 @@ Erweiterungen, Themes und Pakete haben ein eigenes Verzeichnis:
 [Erweiterungen, Themes und Pakete](erweiterungen/README.md). Jede Änderung steht mit ihrem
 Datum im [Changelog von 6.0.15](../../../changelogs/6.0/6.0.15.md).
 
+> **Warnung**
+> **`.htaccess` bremst jede Anfrage.** Sind `.htaccess`-Dateien erlaubt (`AllowOverride` alles außer `None`), geschweige
+> denn genutzt, sucht Apache sie bei jeder Anfrage in jedem Verzeichnis des Pfads und liest und wertet sie aus, und
+> die Ladezeiten der Seiten steigen drastisch ([gemessen](../../anleitungen/setup-dateien-von-der-konsole.md#gemessen-htaccess-gegen-regeln-im-virtuellen-host)). Die einzige wirkliche Abhilfe ist, die
+> Funktion für den virtuellen Host abzuschalten: `AllowOverride None` im virtuellen HTTPS-Host, und die Regeln in
+> der Konfiguration des virtuellen Hosts selbst als mod_rewrite-Regeln. Das ist in Geschwindigkeitstests im
+> Produktivbetrieb weit schneller und die Zeit für die Optimierung einer Produktivkonfiguration unbedingt wert.
+> Stellen Sie sofort um: Übernehmen Sie die Regeln des [Beispiels für einen virtuellen HTTPS-Host](../../beispiele/webserver/apache-virtueller-host.md) in
+> Ihren virtuellen Host (mit dem statischen Cache auch [`staticcache_offload.conf`](../../../eng-us/examples/staticcache_offload.conf)), setzen Sie
+> `AllowOverride None`, führen Sie `apachectl configtest` aus, laden Sie Apache neu und testen Sie die Website.
+> Dieselben Regeln für andere Server: [nginx](../../beispiele/webserver/nginx.md), [LiteSpeed](../../beispiele/webserver/litespeed.md), [Caddy](../../beispiele/webserver/caddy.md), [IIS](../../beispiele/webserver/iis.md),
+> [Velocity](../../beispiele/webserver/velocity.md) (eingebaut); wohin Regeln für virtuelle Hosts in einem Control Panel gehören:
+> [Plesk](../../hilfe/hosting/control-panels/plesk.md), [cPanel](../../hilfe/hosting/control-panels/cpanel.md), [DirectAdmin](../../hilfe/hosting/control-panels/directadmin.md), [ISPConfig](../../hilfe/hosting/control-panels/ispconfig.md).
+> **Unter LiteSpeed oder OpenLiteSpeed** kann zusätzlich der Seiten-Cache des Servers anonyme Besucher und Crawler ohne PHP bedienen: [Seiten-Caching mit LiteSpeed und OpenLiteSpeed](../../anleitungen/seiten-cache-mit-litespeed.md).
+
 Die Funktionsseiten selbst sind noch nicht alle ins Deutsche übersetzt; die Links führen bis dahin zu den englischen
 Seiten.
 
 ## Hier beginnen: Velocity ist Teil von Exponential 6.0.15
 
 Seit 6.0.15 ist der Velocity Internet / Web Application Server Teil von Exponential: Die `composer.json` im
-Wurzelverzeichnis verlangt `se7enxweb/exponential-velocity ~0.0.4.55`, sodass jede Installation ihn hat, auf PHP 8.0
+Wurzelverzeichnis verlangt `se7enxweb/exponential-velocity ~0.0.4.57` (über `se7enxweb/exponential-php-floor`, auf PHP 8.0 und neuer), sodass jede Installation ihn hat, auf PHP 8.0
 und neuer. Das markiert einen Wendepunkt, einen Grundstein und einen Schlussstein für das Projekt: eine neue Stufe der
 Integration von Anwendung und System, mit noch mehr Funktionen von Haus aus und standardmäßig im Kernprodukt.
 Exponential ist ein einziger funktionierender Stack (Server, Plattform für schnelle Anwendungsentwicklung, CMS,
@@ -43,7 +58,9 @@ nginx mit PHP-FPM funktionieren weiter wie bisher.
 
 - [Exponential mit einem einzigen Befehl installieren](installation-mit-einem-befehl.md)
 - [Kickstarter: eine ganze Site aus einer Datei installieren](kickstarter-cli.md)
+- [Konsolenbefehle für .htaccess und config.php](befehle-fuer-htaccess-und-config-php.md)
 - [Was eine neue Installation mitbringt: die Standardauswahl an Erweiterungen](standard-extension-auslieferung.md)
+- [Erweiterungen einer neuen Installation (6.0.15)](erweiterungen-einer-neuen-installation.md): mitgeliefert, installiert, standardmäßig aktiviert, ihre Tabellen
 - [Eine saubere Installation, die zu Shared Hosting passt und Exponential heißt](standardwerte-einer-sauberen-installation.md)
 - [Das neue Aussehen des Einrichtungsassistenten und der Siteaccess für den Editor](einrichtungsassistent-und-editor-siteaccess.md)
 - [Einstellungen pro Umgebung (EXP_ENV)](umgebungseinstellungen.md)
@@ -53,12 +70,14 @@ nginx mit PHP-FPM funktionieren weiter wie bisher.
 - [Die Systemkarte: exp:expfetch, exp:info und exp:about](systemkarte.md)
 - [Benchmark: `exp:benchmark`](benchmark.md)
 - [Wartungsmodus](wartungsmodus.md)
+- [Migrationen im Kernel](migrationen.md) (Rezepte, Zielgruppenseiten und FAQ: [Migrationen](../../hilfe/migrationen/README.md))
 - [Eine defekte Installation im Browser reparieren](reparatur-im-browser.md)
 - [Prüfung der Dateikonsistenz und die Dateiliste des Release](dateikonsistenzpruefung.md)
 - [Qualitätsprüfungen: Git-Hooks, Dateimanifest, Codestil und PHPStan](qualitaetspruefungen.md)
 - [Cache leeren, indem Verzeichnisse beiseitegeschoben werden](cache-leeren-durch-umbenennen.md)
 - [Inhalts- und INI-Cache in Redis oder Valkey halten](valkey-cache-hooks.md)
 - [Generator für den statischen Cache](generator-fuer-den-statischen-cache.md)
+- [Statisches Veröffentlichen: eine statische Kopie einer Website für GitHub Pages und jeden statischen Host](statisches-veroeffentlichen.md)
 - [Cronjob-Konsole](cronjobs-in-der-konsole.md), [Cronjob-Teile pausieren](cronjobs-pausieren.md),
   [Einen Cronjob-Teil auslassen](filter-fuer-cronjob-teile.md)
 - [Rotation und Bereinigung der Logs](log-rotation.md), [Der Log-Viewer](log-betrachter.md),
@@ -84,7 +103,13 @@ nginx mit PHP-FPM funktionieren weiter wie bisher.
 - [Filter für Zugriff und View-Cache in Erweiterungen](zugriffs-und-cache-filter.md)
 - [Einschränkungen von Inhaltsrichtlinien durch Erweiterungen](handler-fuer-inhaltseinschraenkungen.md)
 - [Icon-Themes, die in Ihrer Erweiterung liegen](icon-themes-in-extensions.md)
+- [Die Website-Seitenleiste (expwt) anstelle der Website-Toolbar (ezwt)](website-seitenleiste.md): der Wechsel mit
+  `exp:wt:migrate-from-ezwt` und dem Upgrade-Schritt 6.0.15-expwt-enable
+- [Pagelayout-Hooks: eine Stelle am Ende jeder Seite für Erweiterungen](seitenlayout-hooks.md)
 - [Entfernte Dienste: die ganze Administration als HTTP-API (expservices)](entfernte-dienste-expservices.md)
+- [Die GraphQL-API: genau die Felder abfragen, die eine Seite braucht](graphql.md): `/api/graphql`, ein aus den
+  Inhaltsklassen erzeugtes Schema, Richtlinien gelten immer, Setup > GraphQL mit einem Playground,
+  `exp:graphql:status`, `exp:graphql:schema` und `exp:graphql:query`
 - [Anfrageregeln: entscheiden, was mit einer Anfrage geschieht, bevor ihr View läuft](anfrageregeln.md)
 - [Prüfungen von Rollen und Richtlinien in Templates](template-operatoren-fuer-rollen-und-richtlinien.md)
 - [String-Funktionen von PHP als Template-Operatoren](template-operatoren-fuer-zeichenketten.md)
@@ -155,6 +180,7 @@ nginx mit PHP-FPM funktionieren weiter wie bisher.
 - [Shop-Dashboard und Bestellstatus](shop-dashboard.md)
 - [Dauerhafte Bestellbelege](bestellbelege.md)
 - [Die Bestellliste nach jeder Spalte sortieren](sortierung-der-bestellliste.md)
+- [Aus welchem Siteaccess eine Bestellung kam](bestellungen-nach-siteaccess.md)
 
 ## Benutzer, Berechtigungen und Sicherheit
 
@@ -162,13 +188,17 @@ nginx mit PHP-FPM funktionieren weiter wie bisher.
 - [Der Geheimnisspeicher: Passwörter und Schlüssel der Werkzeuge, verschlüsselt, nach Namen](geheimnisspeicher.md)
 - [Content Security Policy](content-security-policy.md)
 - [Sichere Weiterleitungen und „zurück, woher Sie gekommen sind“](sichere-weiterleitungen.md)
+- [Korrekturen aus den Forks von Opencontent und Mugo Web: Grenzen, einzeilige Logs und sicherere Standards](korrekturen-aus-den-legacy-forks.md):
+  `MaxPathDepth`, einzeilige `eZLog`-Einträge, REST-Listener, die Upload-Sperrliste, das `HardLimit` für Teilbäume
 - [„Dieses Formular ist abgelaufen“: Ablehnungen durch das Formular-Token](seite-abgelaufenes-formular.md)
 - [SOAP-Aufrufe über HTTPS: Zertifikate einer internen Zertifizierungsstelle](soap-client-tls.md)
 - [Ihr Passwort ändern](moderne-passwortaenderung.md)
 - [Passwort bei der nächsten Anmeldung ändern](passwort-bei-naechster-anmeldung-aendern.md)
 - [Zweiter Schritt auf den anderen Anmeldewegen: REST, WebDAV, SOAP, expservices; App-Passwörter](zweiter-schritt-auf-anderen-anmeldewegen.md)
 - [Das Passwort eines Benutzers auf der Kommandozeile zurücksetzen](benutzerpasswort-zuruecksetzen.md)
+- [Benutzerverwaltung von der Konsole: die Befehle exp:user für Konten, Gruppen, Rollen, Sitzungen, Import und Export](benutzerverwaltung-von-der-konsole.md)
 - [Benutzerkonten prüfen](benutzerpflege.md)
+- [Benutzer-Auditprotokoll: wer was an einem Konto geändert hat, Anmeldungen und Ablehnungen](benutzer-auditprotokoll.md)
 - [Ihre Geräte: angemeldete Sitzungen je Benutzer, endgültig abgemeldet, eine E-Mail über ein neues Gerät](benutzersitzungen.md)
 - [Signierte Links in der E-Mail „Neuer Benutzer registriert“](admin-links-der-registrierung.md)
 - [Administratoren geben neue Redakteurskonten frei](freigabe-von-redakteurskonten.md)

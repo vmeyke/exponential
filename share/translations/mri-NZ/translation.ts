@@ -984,6 +984,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>Ko tēnei whārangi anake e rapua ana: %from ki %to o %count.</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Ia momo raraunga o te iho me ngā toronga, me te āhua o te whakamahi a ngā karaehe me te ihirangi.</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Ngā momo raraunga</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2316,6 +2324,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>Ka taea hoki te tohuwāhi i ngā whārangi pūnaha: huakina te whārangi (Whakaritenga, te ara arotake, tētahi rārangi kaiwhakamahi ...) ka kōwhiri i “Tohuwāhi i tēnei whārangi” i runga ake. He tohu kaputīrino tō aua tohuwāhi.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>Kua kore e taea e koe te huaki i tēnei whārangi i konei. Tangohia te tohuwāhi, me tono rānei ki tētahi kaiwhakahaere kia whai urunga koe.</translation>
     </message>
 </context>
 <context>
@@ -5165,6 +5177,210 @@
         <source>Go to the first page</source>
         <translation>Haere ki te whārangi tuatahi</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>Ētahi atu</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>7 rā kua pahure</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>Awhe ritenga</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>Ngā kupu katoa</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>Tētahi kupu</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>Kīanga tōtika</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>Hāngaitanga</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>Ingoa A–Z</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>Ingoa Z–A</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>Kua whakarerekētia, te hōu tuatahi</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>Kua whakarerekētia, te tawhito tuatahi</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>Kua whakaputaina, te hōu tuatahi</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>Kua whakaputaina, te tawhito tuatahi</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Kua whakarerekētia</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>Ngā tātari</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>Whakaatu tātari</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>Huna tātari</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Tautuhi anō</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>Whakahāngai</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>Ngā kupu</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>Momo ihirangi</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>Whakaatu atu anō (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>Kōwhiria tētahi momo ihirangi kia rapu ai i tētahi o ōna āhuatanga.</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Wāhanga</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Mai i</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Ki</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>Ehara te rā tīmata i te rā tika.</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>Ehara te rā mutunga i te rā tika.</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Kaipupuri</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>ID kaiwhakamahi, ingoa takiuru, wāhitau īmēra rānei.</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>Kāore he kaiwhakamahi i kitea mō “%input”.</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Reo</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>Tētahi reo</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Tauwāhi</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>%count tauwāhi</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>Ngā hua ia whārangi</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>Ngā hua mō “%text” (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>Ngā hua (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>Kōmaka mā</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>Kōmaka</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>Ngā tātari hohe</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>Tango i tēnei tātari</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>Kōwhiria rānei ētahi tātari, ka whakahāngai kia rārangitia te ihirangi e ōrite ana.</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>Ka whāiti ngā tātari i te rapu ina oti ngā kupu te pato.</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>Kāore he hua i kitea mō “%text”.</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>Kāore he hua i kitea.</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>Tangohia tētahi tātari i runga ake.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Ngā whakamāoritanga</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Ngā mahi</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>Whakatika %name</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Whakatika</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -7514,6 +7730,10 @@
         <source>Setup &gt; Cronjobs</source>
         <translation>Whakaritenga &gt; Ngā mahi cron</translation>
     </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>Kāore anō kia rere tētahi wāhanga o te mahi cron: e tatari ana te tūtira mahi, ngā kawemai, ngā pānui me te taupū rapu. Whakahaerehia te php bin/php/installcrontab.php --add --apply, tāpirihia rānei ngā rārangi o --show ki te crontab.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/dashboard/drafts</name>
@@ -8058,8 +8278,8 @@
         <translation>Ka puritia ngā pānui manatārua o ngā kaituhi taketake me te pūmanawa a te hunga kē kei roto i a Exponential i ngā kōnae pūtake me te kōnae LICENSE, pērā i tā te raihana e tono ana.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>Ko te rārangi e whai ake nei ko ngā kaitautoko o Exponential kua raihana i ā rātou mahi kia whakamahia e 7x i raro i ngā ture me ngā āhuatanga o te eZ Systems Contributor Licensing Agreement. E ai ki tā tēnei whakaaetanga e whakaae ana, ka tohatoha anō a 7x i ia tautoko i raro i te raihana ōrite ki te kōnae kei roto ai te tautoko. Ka whakahua te rārangi i ia kaitautoko, ngā taipitopito whakapā ki te pai, me ngā kōnae i tautoko ai rātou.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>Ngā kaiwhai wāhi e whakamihia ana mō ā rātou mahi ki Exponential, ki te pūmanawa hoki i ahu mai ai, me ngā kōnae i whai wāhi ai rātou. He whakamihi tēnei, ehara i te pānui manatārua: ka tukuna ngā takoha ki Exponential ki te Exponential Foundation me 7x i raro i te Contributor Licensing Agreement.</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13881,32 +14101,20 @@ Kia mōhio: kāore e tangohia te tāutanga o ngā mōkihi.</translation>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%evaluate_link"&gt;Arotakehia a Exponential Enterprise Edition&lt;/a&gt; - &lt;a href="%share_link"&gt;Hono atu ki te Hapori Exponential, whakawhitiwhiti, tāpae hoki&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Mana pupuri &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; me ētahi atu.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class="edition-info"&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>Ka whakahaerehia e &lt;span class="edition-info"&gt;%edition&lt;/span&gt;. Mō ētahi atu mōhiohio tirohia &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Mana pupuri &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; me ētahi atu.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> Mō ētahi atu mōhiohio tirohia &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
     </message>
     <message>
-        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Mana pupuri &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; me ētahi atu.</translation>
+        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href="%evaluate_link"&gt;Arotakehia a Exponential (Mai i a 7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;Hono atu ki te Hapori Exponential, whiwhi tautoko, tāpae hoki&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Mana pupuri &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; me ētahi atu.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13915,6 +14123,61 @@ Kia mōhio: kāore e tangohia te tāutanga o ngā mōkihi.</translation>
     <message>
         <source>Help center</source>
         <translation>Pokapū āwhina</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>Ihirangi</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>Ngā whārangi tuhinga</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>Ngā kaiwhakamahi</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>Ngā karaehe ihirangi</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>Whakahaere</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>Whārangi %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>Tirohia ngā hua katoa</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>%count ngā hua</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>Kotahi te hua</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>%count ngā marohi</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>Kāore he marohi</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>Kāore i taea te uta ngā marohi.</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>Ngā marohi</translation>
     </message>
 </context>
 <context>
@@ -14383,6 +14646,14 @@ Kia mōhio: kāore e tangohia te tāutanga o ngā mōkihi.</translation>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>He whakaaturanga tūmatanui tēnei tāutanga: ka mōhio pea te katoa ki tōna kupuhipa kaiwhakahaere, ā, kāore e taea te panoni, te tautuhi anō rānei i ngā kupuhipa kaiwhakahaere. Kaua e tāuru i tētahi mea tūmataiti i konei.</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Ō pūrere</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Ngohe haumarutanga</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14672,6 +14943,14 @@ Kia mōhio: kāore e tangohia te tāutanga o ngā mōkihi.</translation>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>Ngā aratohu, te rapu me te āhua o te pūrongo i tētahi hapa.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Ihirangi hou</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Te ihirangi hou rawa, ngā mea kua puritia mō te arotake, me ngā mahi ki tētahi tīpakonga.</translation>
     </message>
 </context>
 <context>
@@ -15130,6 +15409,46 @@ Kia mōhio: kāore e tangohia te tāutanga o ngā mōkihi.</translation>
         <source>Synchronisations</source>
         <translation>Ngā tukutahitanga</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>Te GraphQL API: tōna pito mutunga, te hanganga me tētahi papa whakamātau hei whakamātau i ngā uiui.</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Ngā hekenga</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Ngā panonitanga ki te tāutanga e puritia ana hei kōnae: tō rātou tūnga, ngā whakahaerenga, whakahaere me te whakahoki.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Ihirangi hou</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Te ihirangi hou rawa, ngā mea kua puritia mō te arotake, me ngā mahi ki tētahi tīpakonga.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Whakaputaina tētahi kape pūmau o tētahi pae ki GitHub Pages, ki tētahi kaihautū git rānei.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Whakaputanga pūmau</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Ngā momo raraunga</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Ia momo raraunga o te iho me ngā toronga, me te āhua o te whakamahi a ngā karaehe me te ihirangi.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15294,6 +15613,22 @@ Kia mōhio: kāore e tangohia te tāutanga o ngā mōkihi.</translation>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>Ngā pūkete kāore e whakamahia ana e tētahi, me titiro rānei; whakawetohia, wetekia te raka, kaweakehia rānei.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Rangitaki arotake kaiwhakamahi</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>Ko wai i panoni, i takiuru, i whakakāhoretia rānei, mō ia pūkete; tātari, kaweake hoki.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Pūrongo takiurunga</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>Ko wai kua takiuru, ngā takiurunga me ngā hapa i ia rā; takiputahia tētahi kaiwhakamahi i ngā wāhi katoa.</translation>
     </message>
 </context>
 <context>
@@ -22110,6 +22445,22 @@ Kia mōhio: kāore e tangohia te tāutanga o ngā mōkihi.</translation>
         <source>%n hours ago</source>
         <translation>%n haora kua pahure</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>Ngā whakautu o ngā uiui penapena o te GraphQL API, me ngā karaehe ihirangi o tōna hanganga.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>Whakaputaina tētahi kape pūmau ki GitHub Pages, ki tētahi kaihautū git rānei</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Whakaputanga pūmau</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>Ka tuku te keteroki pūmau i ngā whārangi mai i tēnei tūmau. Hei whakaputa i tētahi kape pūmau o tētahi pae ki wāhi kē, ki GitHub Pages, ki tētahi kaihautū git rānei, whakamahia te whakaputanga pūmau.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25651,6 +26002,10 @@ Kia mōhio: kāore e tangohia te tāutanga o ngā mōkihi.</translation>
     <message>
         <source>last purge</source>
         <translation>tāhae whakamutunga</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>Kāore i taea e ngā tuhinga te tango i te raka tūnga (te wā whakamutunga %date): nā ia tuhinga i tawhito ai ngā hua katoa kua keteroki. Me taea e ia kaiwhakamahi e rere ai te pae te tuhi ki %file; i runga NFS me whai NFSv4, lockd rānei.</translation>
     </message>
 </context>
 <context>
@@ -33599,6 +33954,14 @@ Kia mōhio: kāore e tangohia te tāutanga o ngā mōkihi.</translation>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>Ka tangohia e PHP anō ngā wātū kua pau te wā o te kaiwhakahaere PHP (session.gc_maxlifetime), kaua e tēnei whārangi, e te wāhanga mahi cron session_gc rānei.</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>Ka whakarārangitia ngā wātū kua takiuru o ia kaiwhakamahi, ā, ka taea te takiputa, i te pūrongo takiurunga, e mahi ana me ia kaiwhakarite wātū.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>Huakina te pūrongo takiurunga</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37923,6 +38286,26 @@ i tō pūkete.</translation>
     <message>
         <source>None yet</source>
         <translation>Kāore anō</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Ngohe haumarutanga</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>Ō takiurunga o nā tata nei, ngā ngana i rahua me ngā panonitanga ki tō kupuhipa, tō wāhitau īmēra me tō takiuru takirua.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>Ngā takiurunga o nā tata nei, ngā ngana i rahua me ngā panonitanga haumarutanga o tēnei pūkete.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>Arotakehia te ngohe</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>Takiurunga i rahua: %count</translation>
     </message>
 </context>
 <context>
@@ -44089,6 +44472,42 @@ Mēnā e hiahia ana koe ki te tuku kōrero ki te kaiwhakamana, ki te tiro rānei
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>Whai muri i te takiuru, me kōwhiri te kaiwhakamahi i tētahi kupuhipa hou i mua i te mahi i tētahi atu mea. Whakamahia ina hoatu koe i tētahi kupuhipa taupua ki tētahi tangata.</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>Kōwhiria tētahi atahanga e tīariari ana</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>Ka tāruatia te kōnae atahanga o te ahanoa ka kōwhiria e koe ki tēnei āpure. Kāore te ahanoa atu e panoni.</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>Kua tāruatia te atahanga o "%name" ki tēnei āpure.</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>Pūtirotiro mō tētahi atahanga</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>Rapua ngā atahanga mā te ingoa</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Rapu</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>Whakamahia te atahanga o "%name"</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>Whakamahia tēnei atahanga</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>Kāore he atahanga e ōrite ana ki tāu rapunga.</translation>
     </message>
 </context>
 <context>
@@ -51013,6 +51432,10 @@ Tirohia te whārangi whāinga mō ētahi atu mōhiohio.</translation>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>Kāore i tuhia te crontab (%reason). Tāpirihia ēnei rārangi ki te crontab a te kaiwhakamahi e whakahaere ana i te pae, ki te kore, kāore e whakahaerea te tūtira, ngā kawemai, ngā pānui me te tūtohi rapunga:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>Ka whakaurua anō mā te kickstarter (%file, kātahi ko php bin/php/kickstarter.php run --apply) mā tētahi tāutanga hou rānei.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54892,6 +55315,10 @@ i tō pūkete.</translation>
         <source>eZJSCore Public Packer cache</source>
         <translation>Keteroki Public Packer eZJSCore</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>Keteroki GraphQL (ngā whakautu me ngā karaehe hanganga)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54978,6 +55405,14 @@ i tō pūkete.</translation>
     <message>
         <source>Copy of %class_name</source>
         <translation>Tārua o %class_name</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Ngā momo raraunga</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>Momo raraunga %string</translation>
     </message>
 </context>
 <context>
@@ -55804,6 +56239,26 @@ i tō pūkete.</translation>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>Kāore i taea te pānui i te atahanga SVG, kāore rānei he mea i roto e taea te whakaatu i runga i te haumaru.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>Kāore i taea te tārua i te atahanga. Tēnā koa, whakamātauria anō, whakapā atu rānei ki te kaiwhakahaere pae.</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>Kāore te ahanoa i kōwhiria i te tīariari, kāore rānei koe e whakaaetia ki te pānui i a ia.</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>Kāore he atahanga o te ahanoa i kōwhiria.</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>Kāore i taea te pānui i te kōnae atahanga o te ahanoa i kōwhiria.</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>He nui ake te atahanga o te ahanoa i kōwhiria i tā tēnei āpure e whakaae ai: %1 paita.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56334,6 +56789,42 @@ i tō pūkete.</translation>
         <source>The bookmark was renamed to "%name".</source>
         <translation>Kua whakaingoatia anōtia te tohuwāhi ki “%name”.</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>Kua whakawetohia tēnei whārangi i tēnei urunga pae (%siteaccess). Huakina te tohuwāhi i tētahi urunga pae kei reira tēnei whārangi.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>Kāore te kōwae o tēnei whārangi i tāutahia, i whakahohea rānei i konei.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>Kua kore tēnei whārangi: kāore he tirohanga pērā i tōna kōwae.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>Kāore tētahi o ō tūranga e whakaae ana kia huakina e koe tēnei whārangi.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>Kāore ō whakaaetanga ki te whakamahi i tēnei urunga pae.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>Kāore ō whakaaetanga ki te pānui i te ihirangi e whakaaturia ana e tēnei whārangi.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>Kāore e taea te tohuwāhi tēnei momo whārangi: ka mahi noa iho ki tētahi puka, he whārangi rānei mō te wā poto anake.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>Kei te ngaro te wāhitau o tēnei whārangi.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>Kāore e taea te huaki i tēnei whārangi ināianei.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56805,6 +57296,10 @@ Me whakarerekē koe i te karaehe o te pona mā te whakamahi i te āhei whakawhit
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>I whakahē te kawe īmēra i ngā karere e %count i te whakahaerenga whakamutunga. Tirohia te tūmau īmēra me site.ini MailSettings.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>E %count ngā takahanga e tatari ana, ā, kāore he rerenga o te mahi cron pānui kua tuhia. Tāpirihia te wāhanga mahi cron &quot;frequent&quot; ki te crontab, whakahaerehia rānei te exp:notification:run --apply.</translation>
     </message>
 </context>
 <context>
@@ -63061,6 +63556,10 @@ Me whakarerekē koe i te karaehe o te pona mā te whakamahi i te āhei whakawhit
         <source>Choose another site or section with the node picker</source>
         <translation>Kōwhiria tētahi atu pae, wāhanga rānei mā te kaikōwhiri pona</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>Mā te kaiwhakahaere pūnaha anake e panoni te kaipupuri: whakahaerehia te ./console exp:content-check --fix-permissions --apply hei root.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64594,6 +65093,10 @@ Me whakarerekē koe i te karaehe o te pona mā te whakamahi i te āhei whakawhit
     <message>
         <source>empty</source>
         <translation>kore</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>Neke atu i te kotahi tau te pakeke o te kī waitohu: hurihia mā te exp:audit key rotate --apply.</translation>
     </message>
 </context>
 <context>
@@ -68424,6 +68927,486 @@ Me whakarerekē koe i te karaehe o te pona mā te whakamahi i te āhei whakawhit
         <source>Share of page time</source>
         <translation>Wāhanga o te wā whārangi</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>i tonoa he tānga katoa</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>kāore te whārangi i te keteroki whārangi (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>kāore te keteroki whārangi i whakautu</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>Kua tāia</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>I tāia e te iho: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>I tukuna mai i te keteroki whārangi i roto i te %ms ms. I tiakina te whārangi i te %stored e tētahi tānga %render ms, %age hēkona i mua.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>Tāia ināianei</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>Hoki ki te tirohanga mai i te keteroki</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>Nō te tānga i te %stored (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>Tēnei tono: i tukuna mai i te keteroki whārangi i roto i te %ms ms.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Kaiwhakamahi</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>ID kaiwhakamahi</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>Kōtaha keteroki</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>Tēnei tirohanga</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>Keteroki tirohanga</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>mō ia kaiwhakamahi (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>Te kōtaha keteroki o te kaiwhakamahi: ko ngā kaiwhakamahi he ōrite te kōtaha ka tiri i ngā kōnae keteroki tirohanga</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>āe</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>kāo</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Ingoa kaiwhakamahi</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>Kua takiuru</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>Wātū</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>Ko ngā wāhanga o te kī keteroki tirohanga ihirangi e whakawhirinaki ana ki te kaiwhakamahi, kia rite tonu ki tā te kī e tango ai, i raro i ngā ViewCacheTweaks o tēnei whārangi. Ka tiri ngā kaiwhakamahi he ōrite te kōtaha i ngā kōnae keteroki o ngā tirohanga, ki te kore e rerekē ngā wāhanga o tētahi tirohanga ake (ngā manakohanga, ngā kī o ngā kaiwhakarongo): he kōtaha anō ō aua mea, mō tēnei whārangi anake.</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>Kōtaha</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>Tēnei tirohanga (kōpuku %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: he kōnae keteroki motuhake tō ia kaiwhakamahi kua takiuru.</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>ViewCacheTweaks e whai mana ana: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>Wāhanga</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>Uara</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>Kāore he wāhanga e whakawhirinaki ana ki te kaiwhakamahi (ViewCacheTweaks).</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>tēnei tirohanga</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>Tāruatia hei kuputuhi</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>Ngā tūranga</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>Kāore i taea te pānui i ngā tautapanga tūranga.</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>ID tūranga</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Tūranga</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>Herenga</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>Kua tautapatia ki</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>te kaiwhakamahi</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>rōpū %name (ahanoa %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>Kua tāruatia</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>Kāore i taea te tārua.</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>i whakarērea e tētahi kaiwhakarongo</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>Ngā manuhiri ingoamuna</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>ōrite ki tōu</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>rerekē</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>Te kōtaha ka whiwhi ngā manuhiri muna i raro i ngā ViewCacheTweaks ōrite, me ngā manakohanga taunoa, kāore he wāhanga o te tirohanga: e kore e taea te pātai ki tētahi kaiwhakarongo e pānui ana i te wātū mō aua mea.</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>Ngā manakohanga</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>Kāore he aratau tirohanga e whakawhirinaki ana ki ngā manakohanga kaiwhakamahi (site.ini [ContentSettings] CachedViewPreferences).</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>Ngā manakohanga e whakawhirinaki ai ngā tirohanga o ēnei aratau tirohanga (CachedViewPreferences), me te uara o te kaiwhakamahi, te taunoa rānei. Kei roto i te kōtaha hei userpreferences, ērā o ngā aratau tirohanga katoa i te taha o tētahi ki tētahi.</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>Aratau tirohanga</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>Manakohanga</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>Taunoa</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>Ngā kaupapahere</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>Whakaatuhia ngā kaupapahere o ngā tūranga (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>Ka utaina ngā kaupapahere mai i te tūmau ina huakina tēnei wāhanga, kotahi whārangi i te wā, ā, ka taea te tātari mā te kōwae me te taumahi.</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>Taumahi</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>Ngā kōwae katoa</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>Ngā taumahi katoa</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>Ngā herenga</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>Whakaatu atu anō</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>Kāore he kaupapahere o ēnei tūranga.</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>Kāore he kaupapahere e hāngai ana ki te tātari.</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%shown o ngā kaupapahere %matching (%total katoa)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>Ka utaina ina tuwhera.</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>module/function, tūranga, here</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>Rapua ngā kaupapahere</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>Uta atu anō</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>Kōwae/taumahi</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>Ngā tūranga katoa (%count kaupapahere)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>Kāore he kaupapahere e hāngai ana.</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%shown o ngā kaupapahere %matched</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>Kāore he whakautu</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>kua huna</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>Whakaatuhia ngā whakamārama</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>Hunāia ngā whakamārama</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Huaki</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>Huaki katoa</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>Kati katoa</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>Kī, uara rānei</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>Rapua te wātū</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Momo</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>%count anō</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>he hōhonu rawa te kōhanga hei whakaatu</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>kua tapahia, %count ngā pūāhua katoa</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>I tīmata</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>Ingoa pihikete</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>ID wātū</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>Kaiwhakahaere</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>Ara penapena</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>Taunoa a PHP</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>Roanga ora (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>Pihikete</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>roanga %s hēk</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>Tō ake wātū PHP, pērā i tōna āhua i te wā i whakatuwheratia ai te wāhanga, kaua rawa he wātū o tētahi atu. Ka huna ngā uara o ngā kī e rite ana ki ngā mea muna (ngā token, ngā hash, ngā kupuhipa) (debugbar.ini SessionMask[]); ka whakaatuhia ētahi atu katoa pērā i tā rātou penapena, tae atu ki ngā raraunga whaiaro.</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>%count kī, %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>nui</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>Kua kau te wātū.</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>Kāore he wātū i tīmatahia mō tēnei tono.</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Toronga %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>Kernel me ētahi atu</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>Kāore ngā tāurunga katoa e whakaaturia ana: he nui ake kei te wātū i tērā e taea te rārangi ki konei.</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>Kāore e rārangitia ana ngā kī %count.</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>Anga</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>Ka huna anō ngā uara e rite ana ki te token (he JSON Web Token, ngā taipitopito tuakiri o te pane Authorization, he kī tūmataiti, he kuputuhi hex roa, matapōkere rānei), ahakoa he aha te ingoa o tō rātou kī (debugbar.ini SessionValueMask[]).</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>He rite te kī ki tētahi mea muna (debugbar.ini SessionMask[]).</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>He rite te uara ki te token.</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>Kei raro i tētahi kī kua huna.</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>Te wātū hei kuputuhi, kua huna pērā i te ripanga.</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>He nui ake te wātū i te %size (debugbar.ini SessionWarnBytes): ka pānui ia tono a tēnei kaiwhakamahi i te wātū katoa, ā, ka tuhi i a ia ina hurihia.</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>Ka penapena a PHP i tēnei wātū ki ngā kōnae, ā, ka rakaina te kōnae mō te tono katoa: ka tatari ngā tono a te kaiwhakamahi kotahi (he maha ngā ripa, ngā karanga AJAX) tētahi ki tētahi.</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>Waiho tuwhera</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>Nui ake i te %size (debugbar.ini SessionWarnBytes): ka pānui ia tono a tēnei kaiwhakamahi i te wātū katoa.</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%hits o te %count i pānuitia mai i te keteroki</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>Kāore he tātauira i tukuna (kāore e tukuna he tātauira e tētahi tirohanga i pānuitia mai i te keteroki tirohanga).</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>Ngā tuku tūranga</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>Ngā tūranga me ngā kaupapahere</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>he rerekē i ō ngā manuhiri ingoakore</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>he ōrite ki ō ngā manuhiri ingoakore</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70304,6 +71287,14 @@ Me whakarerekē koe i te karaehe o te pona mā te whakamahi i te āhei whakawhit
     <message>
         <source>not sent</source>
         <translation>kāore i tukuna</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Ka tuhia e te mahi cron pānui ōna rerenga katoa ki konei. Tāpirihia te wāhanga frequent ki te crontab, whakahaerehia rānei te exp:notification:run --apply.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>Whakamahia te papatohu: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -76022,6 +77013,98 @@ Me whakarerekē koe i te karaehe o te pona mā te whakamahi i te āhei whakawhit
         <source>This topic is not Released; readers do not see it.</source>
         <translation>Kāore anō tēnei kaupapa kia Tukuna; kāore ngā kaipānui e kite.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Ngā hekenga</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Ngā panonitanga ki te tāutanga e puritia ana hei kōnae: tō rātou tūnga, ngā whakahaerenga, whakahaere me te whakahoki.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Whakaputaina tētahi kape pūmau o tētahi pae ki GitHub Pages, ki tētahi kaihautū git rānei.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Whakaputanga pūmau</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>Kei te arotakehia</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>Ka kite ngā kaipānui i tēnei whārangi.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>Ka hunaia i ngā kaipānui kia tukuna rā anō e tētahi.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>Kei te Arotake te whārangi ināianei. Ka hunaia i ngā kaipānui kia tukuna rā anō.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>Kua Tukuna te whārangi: ka kite ngā kaipānui ināianei.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>He Hukihuki anō te whārangi. Ka hunaia i ngā kaipānui kia arotakehia, kia tukuna rā anō.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>Tukuna ināianei</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>Ko te kaiwhakamahi anake he tūranga %role tōna, kāore nāna i tuhi tēnei putanga, ka āhei ki te tuku.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>Ngā kaupapa āwhina e tatari ana kia tukuna</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>Ka huna i ngā kaipānui kia tukuna anō rā anō.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>Ka tirohia e tētahi kaiarotake ā muri ake. Kāore anō ngā kaipānui kia kite.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>Ka kite tonu ngā kaipānui.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>Ka tangohia i te arotake kia mahia anō. Kāore ngā kaipānui e kite.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>Me huna tēnei whārangi i ngā kaipānui?</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>Me whakahoki tēnei whārangi ki te Hukihuki?</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>Kāore ngā kaipānui e kite anō i a %title kia tukuna anō rā anō e tētahi.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>Ka hoki a %title ki te Hukihuki kia mahia anō. Kāore tonu ngā kaipānui e kite, ā, me arotake anō i mua i te tukunga.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Whakakore</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>Kei te Arotake ēnei kaupapa. Ka kite ngā kaipānui ina tukuna e tētahi kāore nāna i tuhi te putanga o nāianei.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76477,6 +77560,46 @@ Me whakarerekē koe i te karaehe o te pona mā te whakamahi i te āhei whakawhit
         <source>None.</source>
         <translation>Kāore.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>mā tētahi tono kaiwhakamana</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>mā tētahi waehere mā te īmēra</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>mā tētahi waehere whakaora</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>mā tētahi kī uru</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>mā tētahi pūkete o waho</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Ngohe haumarutanga</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>Ka whakaaturia hei whatunga; ka puritia te wāhitau e ai ki ngā tautuhinga tiaki raraunga o te pae.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Kāore i tuhia</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Tauwāhi</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>āwhiwhi</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76720,6 +77843,42 @@ Me whakarerekē koe i te karaehe o te pona mā te whakamahi i te āhei whakawhit
         <source>Manage devices</source>
         <translation>Whakahaere pūrere</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>mā tētahi tono kaiwhakamana</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>mā tētahi waehere mā te īmēra</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>mā tētahi waehere whakaora</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>mā tētahi kī uru</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>mā tētahi pūkete o waho</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Ngohe haumarutanga</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Kāore i tuhia</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Tauwāhi</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>āwhiwhi</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76799,6 +77958,14 @@ Me whakarerekē koe i te karaehe o te pona mā te whakamahi i te āhei whakawhit
         <source>View the sessions of this user</source>
         <translation>Tirohia ngā wātū o tēnei kaiwhakamahi</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>Kātahi anō tō pūkete %login i %site ka whakamahia hei takiuru mai i tētahi wāhi kāore anō kia takiuru mai i reira i nā tata nei:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>Tauwāhi āwhiwhi</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76837,6 +78004,10 @@ Me whakarerekē koe i te karaehe o te pona mā te whakamahi i te āhei whakawhit
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%browser i runga i %os</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Pūrongo takiurunga</translation>
     </message>
 </context>
 <context>
@@ -77045,6 +78216,82 @@ Me whakarerekē koe i te karaehe o te pona mā te whakamahi i te āhei whakawhit
         <source>The passkey could not be checked. Please try again.</source>
         <translation>Kāore i taea te tirotiro i te kī uru. Tēnā koa, whakamātauria anōtia.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>Kāore e taea e ngā pūkete ka takiuru mā ngā kī uru anake te whakamahi kupuhipa i konei: kōwhiria “Takiuru mā te kī uru”.</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>Ngā kī uru o %login</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>Ngā kī uru e takiuru ai tēnei pūkete. Unuhia te kī kei runga i tētahi pūrere kua ngaro, kua tāhaetia rānei: kāore e taea e ia te takiuru anō. Mā te rangatira anō e tāpiri ngā mea hou.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>Me whai kī uru tō pūkete</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>Tāpiria he kī uru ki tō pūkete</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>Tāpiria he kī uru kia haere tonu ai. Ka takiuru koe mā reira, kaua mā te kupuhipa anake.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>He tere ake, he haumaru ake te takiuru mā te kī uru i te kupuhipa. Tāpiria tētahi ināianei, haere tonu rānei me te kore.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>Ā tōna wā</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>Me unu te kī uru “%name”?</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>Kāore e taea e ia te takiuru ki tēnei pūkete. Mehemea koia te mea whakamutunga, ka takiuru te rangatira mā te kupuhipa, ka tautuhi rānei koe i tētahi kupuhipa hou.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>Unuhia te kī uru</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>Unu</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>Kāore he kī uru o tēnei pūkete.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>Kaiwhakamana</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Kāore i te mōhiotia</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>Tō kī uru whakamutunga: tāpiria tētahi atu i mua i tō tango i tēnei.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>Ka takiuru tēnei pūkete mā ngā kī uru anake (kaupapa here kī uru): ki te kore he mea e toe ana, ka takiuru anō mā tōna kupuhipa.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>Koinei tō kī uru whakamutunga, ā, kāore e taea e tō pūkete te takiuru me te kore. Tāpiria tētahi atu kī uru i te tuatahi.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>Kua unuhia te kī uru “%name”. Kāore e taea e ia te takiuru ki tēnei pūkete.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77144,6 +78391,34 @@ Me whakarerekē koe i te karaehe o te pona mā te whakamahi i te āhei whakawhit
         <source>Code from your authenticator app</source>
         <translation>Waehere mai i tō tono kaiwhakamana</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>Kei te mukua e koe ētahi raraunga mō ake tonu, kei te ūkui rānei i tētahi rangitaki.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>Tō kupuhipa me tētahi kī uru</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>Tō kupuhipa me tētahi waehere mai i tō tono kaiwhakamana</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>Rānei:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>Kāore e taea e tēnei pūtirotiro te whakamahi kī uru. Whakamahia tētahi atu huarahi, tētahi atu pūtirotiro rānei.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>Ka haere tonu koe, ka tono tō pūtirotiro i tētahi o ō kī uru.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>Haere tonu mā te kī uru</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77234,6 +78509,70 @@ Me whakarerekē koe i te karaehe o te pona mā te whakamahi i te āhei whakawhit
     <message>
         <source>Setup</source>
         <translation>Whakaritenga</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>Te huri i tō ake kupuhipa, wāhitau īmēra, kī uru, takiuru takirua, waehere whakaora, kī API rānei, me te takiputa i ō ake pūrere kē.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>Te waihanga me te whakatika i ngā kaiwhakamahi, ō rātou kupuhipa me ō rātou pūrere, ngā tautuhinga pūkete, te whakaae, te whakakāhore rānei i ngā pūkete kaiwhakamahi hou, te tautapa tūranga me te whakatika kaupapa here.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>Te muku raraunga</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>Te whakawātea i te ipupara, te tango mea i roto, me te tango i ngā mea maha i te wā kotahi.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>Te tango, te whakaputa me te tiaki ihirangi</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>Te tango ihirangi (ki te ipupara anō), te whakaputa me te tiaki tauira; ka pātaihia ina tukuna te puka. Kua weto mā te taunoa.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>I mua i tētahi mahi tūpato, ka whakaū anō te kaiwhakamahi kua takiuru ko wai ia: mā tōna kupuhipa me tētahi kī uru, mā tōna kupuhipa me te waehere o tōna tono kaiwhakamana rānei ki te kore he kī uru. Ko ngā whārangi tukutuku anake ka pātai: kāore rawa te atanga REST, SOAP, WebDAV, te takiuru expservices me te rārangi tono e pātai.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>Te wāhi e pā ai ngā tautuhinga</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>Ngā tautuhinga mō</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Ia urunga pae</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>Urunga pae %name</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Huaki</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>Ko wai ka pātaihia: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>Tohua ngā rōpū kaiwhakamahi kia pātaihia ō rātou mema anake (pērā i ngā ētita). Kāore he mea kua tohua: ia kaiwhakamahi.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>Kua tiakina ki settings/override/site.ini.append.php, mō ia urunga pae. Ka tono te tiaki kia whakaū koe ko koe tēnei.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>Kua tiakina ki settings/siteaccess/%name/site.ini.append.php. Ka toa tētahi uara i settings/override i runga ake. Ka tono te tiaki kia whakaū koe ko koe tēnei.</translation>
     </message>
 </context>
 <context>
@@ -77336,6 +78675,6822 @@ Me whakarerekē koe i te karaehe o te pona mā te whakamahi i te āhei whakawhit
     <message>
         <source>Open the page</source>
         <translation>Huakina te whārangi</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from ki %to o %count</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>He ingoa takiuru, he ID kaiwhakamahi rānei: te pūkete i pā ai te takahanga, te kaiwhakamahi rānei nāna i mahi.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Pūkete</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Mahi</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>I muri</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>Ngā hua katoa</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>I mua</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Nā</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Ūkui</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Kua oti</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>Ka puritia ngā takahanga mō te %days rā.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>Ka puritia ngā takahanga kia tangohia rā anō ā-ringa.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Ngā takahanga</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>Ngā mahi katoa</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>Ngā takahanga katoa o tēnei pūkete</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>Kaweakehia te rārangi hei CSV (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>I rahua</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Mai i</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>Whakawhāitihia te rārangi</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>Kāore he takahanga e ōrite ana.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Ia whārangi</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>Kua whakawetohia te hopu i roto i te audit.ini ([UserAuditSettings] UserAudit); ka whakaatu te rārangi i ngā mea i hopukina i mua.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>I whakakāhoretia</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Hua</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Whakaatu</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>Kei te ngaro te tūtohi o te rangitaki arotake kaiwhakamahi. Waihangatia mā te php update/common/scripts/6.0/createuseraudittable.php; ā mohoa noa, ka puritia e ngā kōnae arotake ia takahanga.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>Me whai pātengi raraunga SQL tēnei whārangi; kāore e wātea ana i runga i te MongoDB. Ka puritia e ngā kōnae arotake ia takahanga.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Ki</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Rangitaki arotake kaiwhakamahi</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Kaiwhakamahi</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Āhea</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Kei hea</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>Ko wai i panoni, i waihanga, i whakahohe, i whakaweto, i nuku, i tango rānei i tēhea pūkete, ko wai i takiuru, i whakakāhoretia rānei, ā, ko ēhea tūranga i tautapahia: kotahi te rārangi mō ia takahanga, me ngā āpure o mua, o muri hoki. Kāore rawa ngā kupuhipa me ngā mea muna e hopukina.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>rōpū</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>pūnaha</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>kāore e mōhiotia</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>Whakahaumarutia tō pūkete</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>I whakamahia tētahi waehere whakaora hei takiuru ki tō pūkete %login i %site.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>I whakamahia tētahi waehere whakaora</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Pūkete</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>Wāhitau āwhiwhi</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>Tonoa he kupuhipa hou kia takiuru anō ai koe, whakapā atu rānei ki ngā kaiwhakahaere o te pae.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>Tonoa he kupuhipa hou</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>Kotahi noa te mahi a ia waehere whakaora. Mēnā kua ngaro tō waea, whakaritea anō tō tono kaiwhakamana, ā, puritia ngā waehere whakaora hou ki tētahi wāhi haumaru.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>Ngā ngana takiuru i rahua ki tō pūkete</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>Mai i nāianei, ka tono te takiurunga i tētahi waehere hei āpiti ki tō kupuhipa. Mēnā nāu tēnei, kāore he mahi māu.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>Mēnā ko koe tērā, ā, kua wareware koe ki tō kupuhipa, tonoa he mea hou. Ki te kore, kōwhiria he kupuhipa kaha ake, ā, whakahohea te takiuru takirua.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>Mēnā ehara i a koe, tērā pea kei te mōhio tētahi atu ki tō kupuhipa: panonitia ināianei, ā, tirohia te wāhi kua takiuru ai tō pūkete.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>Ngā waehere whakaora e toe ana</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>Arotakehia ō pūrere</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>Matohi haumarutanga</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>I ngana tētahi ki te takiuru ki tō pūkete %login i %site me tētahi kupuhipa hē, %count ngā wā i te raupapa.</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>I puta tētahi takahanga haumarutanga ki tō pūkete %login i %site.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>He matohi haumarutanga tēnei mō tō pūkete. Ka tukuna mō ia panonitanga pēnei, ā, kāore e taea te whakaweto.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Wā</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>Kua whakawetohia te takiuru takirua mō tō pūkete %login i %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>Kua whakawetohia te takiuru takirua</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>Kua whakahohea te takiuru takirua mō tō pūkete %login i %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>Kua whakahohea te takiuru takirua</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>Kua rakaina tō pūkete %login i %site i muri i te maha rawa o ngā takiurunga i rahua.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>Ko tō kupuhipa anake e tiaki ana i tō pūkete ināianei. Mēnā ehara nāu tēnei, whakahohea anō te takiuru takirua ka oti ana tō kupuhipa te panoni.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>Kua rakaina tō pūkete</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>Kua tāpiria he kī uru ki tō pūkete %login i %site.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>Ka taea e te tangata kei a ia tēnei kī uru te takiuru ki tō pūkete me te kore o tō kupuhipa. Ki te kore koe i tāpiri, tangohia i raro i Kī uru, ka huri i tō kupuhipa.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>Kua tangohia he kī uru i tō pūkete %login i %site.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>Kāore e taea e ia te takiuru ki tō pūkete. Ki te kore koe i tango, tirohia ō kī uru me ō pūrere.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>Kua tāpiria he kī uru ki tō pūkete</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>Kua tangohia he kī uru i tō pūkete</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>Ngohe haumarutanga</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Ngohe haumarutanga a %name</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Kua takiuru</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Ngana takiuru i rahua</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Kua takiputa</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Kua takiputahia ngā wātū</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Takiurunga mai i tētahi pūrere hou</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Takiurunga mai i tētahi tauwāhi hou</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Kua whakaūngia te tuakiri (“Whakamanatia ko koe tēnei”)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>I rahua te arotake tuakiri</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>I takiuru mā tētahi kī uru</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>I rahua te takiuru mā te kī uru</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>I whakakāhoretia te takiurunga: kei te ngaro, kei te hē rānei te waehere takirua</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Waehere takirua hē</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Kua rakaina te pūkete i muri i ngā takiurunga i rahua</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Kua wetekina te pūkete</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Kua panonitia te kupuhipa</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>I rahua te panoni kupuhipa</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Kua tautuhi anōtia te kupuhipa</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Kua tonoa he kupuhipa hou</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Kua panonitia te wāhitau īmēra</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Kua panonitia te ingoa kaiwhakamahi</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Kua whakahohea te takiuru takirua</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Kua whakawetohia te takiuru takirua</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>I whakamahia he waehere whakaora</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Ngā waehere whakaora hou</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Kua waihangatia he kupuhipa taupānga</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Kua unuhia he kupuhipa taupānga</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Kua tāpirihia he kī uru</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Kua tangohia he kī uru</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Kua whakahohea te pūkete</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Kua whakawetohia te pūkete</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Katoa</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Ngā takiurunga me ngā wātū</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Ngā panonitanga pūkete</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Me aro atu</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>nāu</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>nā te kaiwhakamahi</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>nā %login</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>Tikanga</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>Pūtirotiro</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>Pūnaha whakahaere</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Pūrere</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>Wāhi</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>Whenua</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Ngā wātū</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>Ko ēhea</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>Hongere</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Ngā ngana i rahua</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>Ngā waehere e toe ana</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>Kaiwhakarite takiurunga</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Ngohe haumarutanga</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Ngohe haumarutanga a %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Ngā takiurunga me ngā panonitanga ki te haumarutanga o tō pūkete. Mēnā ka kite koe i tētahi mea kāore nāu i mahi, panonitia tō kupuhipa, ā, takiputahia ngā pūrere kāore koe e mōhio ana.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>Ngā takiurunga me ngā panonitanga ki te haumarutanga o tēnei pūkete.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Ō pūrere</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Panonihia te kupuhipa</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>Hoki ki te pūkete</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>Kāore te ngohe haumarutanga e tuhia ana</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>Ka pānuitia mai i te rangitaki arotake kaiwhakamahi, kei te ngaro tōna ripanga expuser_audit, kāore rānei e tautokona ki tēnei pātengi raraunga. Whakahaerehia te php update/common/scripts/6.0/createuseraudittable.php, te whakahou pātengi raraunga rānei o 6.0.15.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Ngā rā %days kua hipa</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Ngā takiurunga i ngā rā %days kua hipa</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>Ngohe haumarutanga o nā tata nei</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Whakaatu</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>i rahua</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>i whakakāhoretia</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Kāore anō he ngohe haumarutanga kia tuhia.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>Ka puritia ngā takahanga haumarutanga mō ngā rā %days.</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>Ka puritia ngā takahanga haumarutanga kia tangohia rā anō e tētahi kaiwhakahaere.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Tikiake i aku raraunga takiuru</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Ō wātū me ō takahanga haumarutanga hei kōnae JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Kāore e tuhia ngā wātū ki tēnei pae, nō reira kāore i taea te takiputa i tētahi atu pūrere. Panonihia tō kupuhipa ināianei.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>Kua takiputaina ētahi atu wātū %count. Ināianei panonihia tō kupuhipa.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Kāore he pūrere kē i takiuru. Ināianei panonihia tō kupuhipa.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Tēnā koe. Kua tohua te takahanga hei āu.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Kāore he whakautu e hiahiatia ana mō taua takahanga.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Kua pau te wā o te whārangi. Kāore i whakarerekētia tētahi mea; tēnā koa, whakamātauria anōtia.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Whakahaumarutia tō pūkete</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Mēnā ehara i a koe tētahi mea i konei, takiputaina ngā pūrere kē katoa, kātahi ka kōwhiri i tētahi kupuhipa hou. Ka takiputaina hoki ngā pūrere i noho takiuru mā te “Maumahara ki ahau”.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Ka takiputaina ia pūrere, hāunga tēnei, i tāna tono e whai ake nei. Kātahi koe ka kōwhiri i tētahi kupuhipa hou.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Āe, takiputaina ngā pūrere kē</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Ko koe tēnei?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Āe, ko au</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Kāo, whakahaumarutia taku pūkete</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Kua takiuru</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Ngana takiuru i rahua</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Kua takiputa</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Kua takiputahia ngā wātū</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Takiurunga mai i tētahi pūrere hou</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Takiurunga mai i tētahi tauwāhi hou</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Kua whakaūngia te tuakiri (“Whakamanatia ko koe tēnei”)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>I rahua te arotake tuakiri</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>I takiuru mā tētahi kī uru</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>I rahua te takiuru mā te kī uru</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>I whakakāhoretia te takiurunga: kei te ngaro, kei te hē rānei te waehere takirua</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Waehere takirua hē</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Kua rakaina te pūkete i muri i ngā takiurunga i rahua</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Kua wetekina te pūkete</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Kua panonitia te kupuhipa</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>I rahua te panoni kupuhipa</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Kua tautuhi anōtia te kupuhipa</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Kua tonoa he kupuhipa hou</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Kua panonitia te wāhitau īmēra</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Kua panonitia te ingoa kaiwhakamahi</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Kua whakahohea te takiuru takirua</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Kua whakawetohia te takiuru takirua</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>I whakamahia he waehere whakaora</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Ngā waehere whakaora hou</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Kua waihangatia he kupuhipa taupānga</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Kua unuhia he kupuhipa taupānga</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Kua tāpirihia he kī uru</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Kua tangohia he kī uru</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Kua whakahohea te pūkete</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Kua whakawetohia te pūkete</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Katoa</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Ngā takiurunga me ngā wātū</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Ngā panonitanga pūkete</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Me aro atu</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Ngohe haumarutanga</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Ngohe haumarutanga a %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Ngā takiurunga me ngā panonitanga ki te haumarutanga o tō pūkete. Mēnā ka kite koe i tētahi mea kāore nāu i mahi, panonitia tō kupuhipa, ā, takiputahia ngā pūrere kāore koe e mōhio ana.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Ō pūrere</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Panonihia te kupuhipa</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>Kāore anō te ngohe haumarutanga kia tuhia ki tēnei pae.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Ngā takiurunga i ngā rā %days kua hipa</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Ngā ngana i rahua</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Kāore anō he ngohe haumarutanga kia tuhia.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Tikiake i aku raraunga takiuru</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Ō wātū me ō takahanga haumarutanga hei kōnae JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Kāore e tuhia ngā wātū ki tēnei pae, nō reira kāore i taea te takiputa i tētahi atu pūrere. Panonihia tō kupuhipa ināianei.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>Kua takiputaina ētahi atu wātū %count. Ināianei panonihia tō kupuhipa.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Kāore he pūrere kē i takiuru. Ināianei panonihia tō kupuhipa.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Tēnā koe. Kua tohua te takahanga hei āu.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Kāore he whakautu e hiahiatia ana mō taua takahanga.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Kua pau te wā o te whārangi. Kāore i whakarerekētia tētahi mea; tēnā koa, whakamātauria anōtia.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Whakahaumarutia tō pūkete</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Mēnā ehara i a koe tētahi mea i konei, takiputaina ngā pūrere kē katoa, kātahi ka kōwhiri i tētahi kupuhipa hou. Ka takiputaina hoki ngā pūrere i noho takiuru mā te “Maumahara ki ahau”.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Ka takiputaina ia pūrere, hāunga tēnei, i tāna tono e whai ake nei. Kātahi koe ka kōwhiri i tētahi kupuhipa hou.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Āe, takiputaina ngā pūrere kē</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Ko koe tēnei?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Āe, ko au</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Kāo, whakahaumarutia taku pūkete</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>Kupuhipa</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>Kupuhipa me te waehere takirua</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>Atanga REST</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>Atanga SOAP</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>Takiuru kotahi</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>I takiuru i mua i te tuhinga o ngā wātū</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Pūrongo takiurunga</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>Ko wai kua takiuru ki te pae, he hia te auau o te takiuru me te rahunga o ngā pūkete, me te takiputa i tētahi kaiwhakamahi i ngā wāhi katoa. Ka mahi tahi me ia kaiwhakarite wātū.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>Kua takiputahia te wātū. Me takiuru anō te pūrere.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>Kua takiputahia a %login i ngā wātū %count.</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>Kāore he wātū e rere ana a %login.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>Kāore he pūkete he pērā tōna ID, ingoa kaiwhakamahi, wāhitau īmēra rānei.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>Ko te wātū tēnei e whakamahia ana e koe. Hei whakamutu, takiputa.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>Kua mutu kē taua wātū.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Kua pau te wā o te whārangi. Kāore he mea i panonitia; tēnā koa, ngana anō.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>Kāore ngā wātū e tuhia ana ki tēnei pae (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>Kei te ngaro te ripanga expuser_session</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>Ka tuhia ngā wātū ina waihangatia: php update/common/scripts/6.0/createusersessiontable.php, te whakahou pātengi raraunga rānei o 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>Ināianei me tēnei rā</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>Ngā wātū e rere ana</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>Ngā kaiwhakamahi kua takiuru</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>Ngā takiurunga o tēnei rā</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>Ngā ngana i rahua o tēnei rā</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>Takiputahia tētahi kaiwhakamahi i ngā wāhi katoa</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>Ka mutu ia wātū o te pūkete i tōna tono e whai ake nei, tae atu ki ērā e puritia ana e “Maumahara ki ahau”. Whakamahia ina tērā pea kei ngā ringa hē tētahi pūkete; kātahi ka tautuhi anō i tōna kupuhipa.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>ID kaiwhakamahi, ingoa kaiwhakamahi, wāhitau īmēra rānei</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>Takiputa i ngā wāhi katoa</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>Kua takiuru ināianei</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>Ka whakaaturia ngā %limit i whakamahia tata nei.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Kaiwhakamahi</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Pūrere</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Wāhitau</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>Kua takiuru</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>Hohe whakamutunga</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Ngā mahi</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>Tēnei pūrere</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Kāore i tuhia</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>Takiputa</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>Kāore he wātū kua takiuru.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Ngā rā %days kua hipa</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>Ka tatauria ngā takiurunga me ngā ngana i rahua mai i te rangitaki arotake kaiwhakamahi, kāore nei i reira; ka tatauria tonutia ngā wātū hou.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>Rā</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>Ngā takiurunga</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Ngā ngana i rahua</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>Ngā wātū hou</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>Kaiwhakarite wātū: %handler. Ka pānuitia ngā wātū mai i te ripanga expuser_session, nā reira ka mahi te pūrongo me ia kaiwhakarite.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>Ngohe whakapae i ngā hāora %hours kua hipa</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>I rahu tētahi whatunga ki te takiuru ki ngā pūkete %accounts (%count ngana)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Kua rakaina te pūkete i muri i ngā takiuru i rahua</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>%count takiuru i rahua ki tētahi pūkete kotahi</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>I takiuru mai i ngā whenua %count i te wā kotahi</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Ngohe haumarutanga</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Ngā wātū</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>Ka pānuitia ngā takiuru i rahua i te rangitaki arotake kaiwhakamahi, kāore e wātea ana i konei.</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>Kāore he mea whakapae: kāore he pūkete he maha ōna takiuru i rahua, kāore he whatunga e whakamātau ana i ngā pūkete maha, kāore he pūkete i takiuru mai i ngā whenua maha.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>Matohi haumarutanga mō tō pūkete</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>I puta tētahi takahanga haumarutanga ki tō pūkete %login: %event. Mēnā ehara i a koe, whakahaumarutia tō pūkete ki %url.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Whakaritenga</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>Tonoa ki te ihirangi o tēnei pae ngā āpure e hiahiatia ana e tētahi whārangi, i te tono kotahi anake. E whai ana te hanganga i ngā karaehe ihirangi; ka whakahaerehia ia uiui me ngā mana o te kaiwhakamahi nāna i tuku.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>Kua whakawetohia te GraphQL API i tēnei urunga pae. Whakakāngia ki graphql.ini: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>Kāore anō kia tāutahia te whare pukapuka GraphQL (webonyx/graphql-php 15).</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>Pito mutunga</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>Whare pukapuka</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>Hanganga</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>%count karaehe ihirangi, hanganga %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>Uiui</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>Ngā taurangi (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Whakahaere</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>Whakautu</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>E whakahaere ana…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>Kāore i taea te pānui i te whakautu.</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>Ka whakahaerehia te uiui me ōu mana, kua takiuru mā tēnei wātū.</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%count i ngā hēk %seconds</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>kāore he tepe</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>Hōhonu</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>Matatini</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>Ngā tūemi i ia rārangi</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (taunoa %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>Ngā tono i ia kaiwhakamahi, kī rānei</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>Ngā tono i ia wāhitau ingoakore</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>Introspection</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>Ngā uiui penapena anake</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>Te uiui nui rawa</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>%bytes paita</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>Te tuku ake nui rawa</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>Kāore he urunga pae %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>Kua whakakāngia ngā panoni i %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>Kua whakawetohia ngā panoni i %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>Kua whakakāngia te GraphQL API i %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>Kua whakawetohia te GraphQL API i %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>Kāore i taea ngā tautuhinga te tuhi: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>Kua ūkuia te keteroki whakautu: %count ngā whakautu i tangohia.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>Tohua te pouaka i te taha o te uiui hei tango i a ia.</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>Kāore i taea te uiui te tango: ko tētahi uiui i tukuna i tētahi whaiaronga o PersistedQueryDirectoryList[] ka tangohia me tōna kōnae.</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>Kua tangohia te uiui penapena.</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>Ngā panoni</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>kā</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>weto</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Ngā urunga pae</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>Te wāhi e whakautu ai te API me ōna panoni. Ka tuhi ngā pātene i graphql.ini, pērā i ā ./console exp:graphql:enable me exp:graphql:disable.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Urunga pae</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>GraphQL API</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Panoni</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Whakaweto</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>Kua weto ngā panoni</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>Kua kā ngā panoni</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Whakakā</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>Ngā tepe</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>graphql.ini [GraphQLSettings] o tēnei urunga pae.</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>Keteroki whakautu</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>Ngā whakautu o ngā uiui penapena, ka puritia i ia mōtika kaiwhakamahi, ka pau i ia wā ka whakaputaina he ihirangi.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Tūnga</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>Ngā whakautu kua puritia</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>%count whakautu, %bytes paita</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>Te roa rawa o te pupuri</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds hēk</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>I pau whakamutunga</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>Ūkuia te keteroki whakautu</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>Ngā uiui penapena</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>Kua penapenatia mā ./console exp:graphql:persist, mā ngā kiritaki rānei (ngā uiui penapena aunoa); ka karangahia mā te ingoa, mā SHA-256 rānei.</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>Ngā ingoa</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Rahi</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Kei hea</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Tango</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>i tukuna</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>penapena</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>Āe, tangohia tēnei uiui</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>Kāore anō he uiui penapena.</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>Ngā kī API</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>Ngā kī API whaiaro me te korahi graphql:read (ngā uiui) graphql:write (ngā panoni) rānei. Hangaia, whakakorehia hoki i te whārangi Urunga API, mā ./console exp:graphql:keys rānei.</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>Urunga API</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>Ngā kī katoa</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>Kī</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Ingoa</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Kaipupuri</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>Ngā korahi</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>Whakamahia whakamutunga</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>hohe</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>kua pau</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>kua whakakorehia</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>kāore rawa</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>Kāore anō he kī API me tētahi korahi GraphQL.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>Kua whakawetohia te GraphQL API i te urunga pae %siteaccess, e whakaatu ana i tēnei whārangi; ka whakaatu te ripanga i raro i te wāhi e whakautu ai.</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>Mō te urunga pae %siteaccess, e whakaatu ana i tēnei whārangi.</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>Ngā matau tukutuku</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>Ko ia takahanga e tonoa ana e tētahi pito mutunga (publish, update, trash, delete, move, hide, reveal, mutation) ka tukuna ki a ia, kua hainatia, e te wāhanga cronjob graphqlwebhooks. He ōrite te mahi a ./console exp:graphql:webhooks ki tēnei wāhanga.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Ngā takahanga</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>katoa</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Ia urunga pae</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>kua pakaru</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>kāore he mea muna</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>E tatari ana</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count kua whakarērea</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>Tuku whakamutunga</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Tukuna he whakamātautau</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>Āe, tangohia tēnei matau tukutuku</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>Kāore anō he matau tukutuku.</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>Tāpiri matau tukutuku</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>Tāpiri</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>Ngā tukunga tata nei</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Wā</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Hua</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>Ngā ohaurunga</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>He whakahōu ora mō ngā kiritaki: he rerenga takahanga ki /api/graphql/subscribe, me tētahi WebSocket (graphql-transport-ws) ki Velocity. Ka tae ia takahanga ki ngā kaiohauru anake e āhei ana ki te pānui i tōna ihirangi.</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>E tuwhera ana ināianei</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>Te nuinga ka tuwhera</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>%total katoa, %user mō ia kaiwhakamahi, %address mō ia wāhitau</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>Ngā ohaurunga kore ingoa</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>Te roa o te rerenga</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>Kāore i taea te matau tukutuku te tāpiri: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>Kua panonihia te matau tukutuku %name; ka noho tonu tōna mea muna haina.</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>Kāore i taea te mea muna haina te penapena (Whakaritenga &gt; Ngā mea muna).</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>Kua tāpirihia te matau tukutuku %name. Tōna mea muna haina, ka whakaaturia kotahi anake: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>Kāore he matau tukutuku %name.</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>Kāore te matau tukutuku %name i whakautu: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>I whakautu te matau tukutuku %name ki te %status i roto i te %ms ms.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>Tohua te pouaka i te taha o te matau tukutuku hei tango i a ia.</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>Kua tangohia te matau tukutuku %name.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>Kua whakawetohia te GraphQL API i tēnei urunga pae.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>Kāore anō kia tāutahia te whare pukapuka GraphQL.</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>Whakamahia te GET, te POST rānei.</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>Ehara te tinana o te tono i te ahanoa JSON.</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>Ehara a variables i te ahanoa JSON.</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>Ehara a extensions i te ahanoa JSON.</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>Tukuna te uiui mā te POST.</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>Kāore he uiui i roto i te tono.</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>He roa ake te uiui i ngā paita %max.</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>Hapa tūmau ā-roto</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>E hiahia ana a node kia kotahi tonu o id, remoteId, path, urlAlias rānei.</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>E hiahia ana a content kia kotahi tonu o id, remoteId rānei.</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>Ehara te atatohu o after i tētahi i hoatu e tēnei API.</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>Kāore he ingoa kē whakaahua %alias (image.ini [AliasSettings] AliasList[]).</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>Ko ngā uiui penapena anake e whakaaetia ana ki konei: tukuna te id o tētahi uiui kua penapenatia ki te tūmau.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>Ehara te hash o te uiui penapena i te SHA-256.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>Kāore te hash o te uiui penapena e ōrite ki te uiui.</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>He nui rawa ngā tono: %limit te mōrahi i roto i ngā hēkona %window. Whakamātauria anō ā ngā hēkona %reset.</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>E %depth ngā taumata o te hōhonu o te uiui; %max te mōrahi e whakaaetia ana.</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>Ko te matatini o te uiui ko %complexity; %max te mōrahi e whakaaetia ana.</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>Kāore e whakaaetia kia pānui tēnei tono i te hanganga (introspection).</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>E hiahia ana a search i tētahi kuputuhi, tētahi tātari rānei (classes, subtree, sections, publishedAfter, publishedBefore).</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>Ehara a %argument i te rā (ISO 8601, 2026-10-30).</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>E hiahia ana a tag kia kotahi tonu o id, remoteId, path rānei.</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>E hiahia ana a layout kia kotahi tonu o id, identifier, urlAlias rānei.</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>Ehara te āpure operations o tētahi tono multipart i te tono JSON kotahi.</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>Ehara te āpure map o tētahi tono multipart i te ahanoa JSON.</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>Kāore he kōnae %field i te tono multipart.</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>Me tīmata tētahi ara o te āpure map ki variables.: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>Kāore i tae katoa mai te kōnae %name (hapa tuku ake %error).</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>He nui ake te kōnae %name i ngā paita %max.</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>Kāore i taea te kōnae %name te takitaki.</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>Kua whakawetohia ngā panoni (mutation) i tēnei urunga pae (graphql.ini [GraphQLSettings] MutationsEnabled).</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>Tukuna te panoni mā POST.</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>Takiuru kia panoni ai i te ihirangi.</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>Kāore he korahi %scope o te kī API.</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>Ko te panoni me tētahi wātū ka hiahia ki te tohu puka o te wātū (pane X-CSRF-Token).</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>Kua whakawetohia a uploadFromUrl: kāore a graphql.ini [GraphQLSettings] UploadFromUrlHostList[] e whakahua i tētahi kaihautū.</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>Me noho te wāhitau hei wāhitau https.</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>Kāore te kaihautū %host i roto i graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>Kāore i taea te kōnae te tiki.</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>He momo tāuru anake a Upload.</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>Ka tango tētahi taurangi o te momo Upload i tētahi kōnae o te tono multipart.</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>Kua tangohia kētia te id mamao %remoteId.</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>He whakamāoritanga kē tō te ihirangi ki te %language: whakamahia te updateContent.</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>Hoatu kia kotahi te āpure i te iti rawa.</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>Kāore i taea he putanga hou te hanga (he nui rawa ngā tauira o te ihirangi).</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>Ehara te putanga %version i te tauira.</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>Ka hiahia a deleteContent ki te kotahi tonu o id me nodeId.</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>Kāore e taea tētahi tauwāhi te nuku ki raro i a ia anō.</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>He tauwāhi kē tō te ihirangi i raro i %parentId.</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>Kāore i taea te uara o te āpure %field te penapena.</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>Kāore he reo ihirangi %language.</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>Kāore he karaehe ihirangi %class i te hanganga.</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>Kāore te ihirangi i reira, kāore rānei koe e whakaaetia kia pānui.</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>Kāore koe e whakaaetia kia pēnei tāu ki tēnei ihirangi.</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>Kāore he āpure %field e taea ana te tuhi o te karaehe %class.</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>E rua ngā wā i hoatu ai te āpure %field.</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>Ka tango te āpure %field i tētahi kōnae: tukuna hei tuku ake (he tono multipart).</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>Kāore te āpure %field e tango kōnae.</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>Ka hiahia te āpure %field ki tētahi uara.</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>Mō ngā āpure kuputuhi taurangi anake te hōputu %format; ka tango a %field i tōna uara pērā tonu (RAW).</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>Me whai te āpure %field.</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>Kāore i taea te HTML te pānui.</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>Ka tango a content i a version me id anake.</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>Kāore te tohu arokite i te tika, kua pau rānei.</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>Ehara i te takenga (https://host, https://host:port rānei): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>Ehara i te korahi o te GraphQL API: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>Tukuna ngā ohaurunga ki /api/graphql/subscribe (he rerenga takahanga, he WebSocket rānei).</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>Kāore te tono e whakaingoa i tētahi mahi o te tuhinga.</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>Ka tono tētahi ohaurunga kia kotahi tonu te āpure.</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>He nui rawa ngā ohaurunga e tuwhera ana; whakamātau anō ā muri ake.</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>E %max ō ohaurunga e tuwhera ana, koinā te mea nui rawa e whakaaetia ana.</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>E %max ngā ohaurunga e tuwhera ana i tō wāhitau, koinā te mea nui rawa e whakaaetia ana.</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>Kua whakawetohia ngā ohaurunga i tēnei urunga pae.</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>Takiuru kia ohauru ai (he tohu, he kī API whaiaro rānei).</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>Tukuna ngā panoni ki /api/graphql.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>Ngā hekenga</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Kāore i taea te pānui i te tūnga: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Kāore anō kia noho mai ngā ripanga o ngā hekenga: mā ./console exp:upgrade --apply e hanga.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>%count ngā hekenga i rahua</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>He whakahaerenga e haere ana, nā %user i tīmata</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>Kua rakaina te tāutanga: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>E tatari ana</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>I rahua</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>Ngā pani</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Whakahaerenga whakamutunga</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>kāore anō</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>Ngā hekenga katoa</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>Whakahaerenga whaihanga</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>Whakahaere whakamātau</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>I whakahaerea ngā hekenga e tatari ana i roto i tētahi tauwhitinga i whakahokia i muri mai: kāore he mea i puritia. Kei raro iho te mea i panonitia e ia hekenga i te pātengi raraunga.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>Te mea ka mahia e tētahi whakahaerenga ināianei. Kāore he mea e panonitia: ka whakarārangi ia hekenga e tatari ana i ngā panonitanga ka mahia e ia, ā, ko te whakahaerenga i tāna ka mahi i mua, i muri hoki.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>Whaihanga</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Whakahaere</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>I rahua te whakahaere whakamātau: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>Me whai PostgreSQL, SQLite rānei tētahi whaihanga, nō te mea ka taea te whakahoki i ā rāua panonitanga hanganga; i tēnei pātengi raraunga, ko te mahere i raro iho te mea ka mahia e tētahi whakahaerenga.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>Ngā hekenga</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>Hekenga</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Āhua</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>Te mea ka mahia e ia</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>Whaihanga: %result i roto i te %ms ms</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>Kāore anō he hekenga.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>I mua, i muri hoki i te whakahaerenga</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>Hopukanga i mua</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>ka tangohia, ā, ka whakahokia mai ina rahua tētahi hekenga</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>weto</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>Hopukanga i muri</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>ka tangohia ina angitu te whakahaerenga</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>%total ngā hekenga: %pending e tatari ana, %done kua oti, %failed i rahua.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>Hītori hekenga</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>Ia whakahaerenga me tōna kaiwhakamahi, taiao, hopukanga me ngā mea i tāpaetia, i tūtohua, i panaia. Ka taea te haere tonu i tētahi whakahaerenga i rahua, i haukotia rānei; ka taea te tango whakamuri i tētahi whakahaerenga he hopukanga i tangohia i mua i a ia.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>Kāore i taea te pānui i ngā whakahaerenga: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Kāore anō kia noho mai ngā ripanga o ngā hekenga: mā ./console exp:upgrade --apply e hanga.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Whakaatu</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Katoa</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>Ngā whakahaerenga</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>I tīmata</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Nā</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>Ngā hopukanga</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Pātaka</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Ngā mahi</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>i mua</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>i muri</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>pana: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>Haere tonu</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Whakahoki</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>Kāore he whakahaerenga i tēnei āhua.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>I tīmata i konei</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>Ngā whakahaerenga, ngā haere tonutanga me ngā whakahokinga i tīmatahia i ēnei whārangi, me te pūrongo o ia mea.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>He aha</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Hua</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Whakahokinga</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>Whakahokinga o %target</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>Whakahaerenga %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Te mea i mahia e te whakahaerenga, tōna pūkete me tōna rangitaki. Ka haere tonu i muri tētahi whakahaerenga i tīmatahia i konei ina katia tēnei whārangi; whakatuwheratia anō te whārangi hei whai i a ia.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>Haere tonu i tēnei whakahaerenga</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>Whakahokia tēnei whakahaerenga</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>Kāore i taea te pānui i te pūkete: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Ahunga whakamua</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Nā %user i tīmata i te %time.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>E arotake ana i te waehere me te tango hopukanga i mua i te whakahaerenga</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>E whakahaere ana i a %id (%index o %total)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>%done o %total kua oti</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>Kua whakahaerea ngā hekenga; e whakahoki ana i te hopukanga mēnā i rahua tētahi</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>E tango ana i te hopukanga i muri i te whakahaerenga, e tāpae ana, e tūtohu ana, e pana ana</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>E whakahoki ana i te hopukanga</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>Kua mutu te whakahaerenga. E uta ana i tōna pūrongo.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>Kāore i taea te whai i te ahunga whakamua. Utaina anō te whārangi kia kite ai koe i te haere o te whakahaerenga.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>Ka whai tēnei whārangi i te whakahaerenga i a ia e haere ana.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Utaina anō</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Pūrongo</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Wā</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms hēkona-mano</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>Ngā hapa i tāngia e te whakahaerenga</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Pūkete</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>Taiao</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>kāore</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>I mutu</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Tāpaetanga</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Tūtohu</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Pana</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Karere</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>Ngā hekenga o tēnei whakahaerenga</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>Pūtake</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>Rangitaki whakahaerenga</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>Ko te pito anake o te rangitaki e whakaaturia ana.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>e whakahaere ana</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>i mutu me te kore pūrongo</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>i angitu</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>i rahua</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>i whakakāhoretia</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>kāore i taea te toro atu ki te pātengi raraunga</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>hapa ā-roto</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>He whakahaerenga e haere ana</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind nā %user i tīmata i te %time.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>Whāia</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>Kua rakaina te tāutanga</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>Kei tētahi atu whakahaerenga te raka (he whakahoutanga, he whakahaerenga rānei i te papatohu): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>kua oti</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>e tatari ana</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>kāore e hiahiatia</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>kāore e mōhiotia</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>kua whakahokia</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>kua whakamahia</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>ka whakamahia</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>kua tangohia whakamuri</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>ka tangohia whakamuri</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>kāore i whakahaerea</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>e tatari ana ki tētahi atu</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>kua whakaaetia te panonitanga</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>ka whakaaetia te panonitanga</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>kua whaihangatia</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Ngā hekenga</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Tūnga</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Hītori</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>Tangohia whakamuri a %target</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>Ka tangohia whakamuri tētahi whakahaerenga ki te hopukanga i tangohia i mua i a ia, ko tētahi hekenga mā tōna down(). Mā ngā tohunga te whakahoki i tētahi hopukanga o mua. Ka whakahaerea ia mea i muri hei a koe, i muri i tētahi hopukanga o te āhua o nāianei.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>Kāore i taea te pānui i ngā mea ka taea te tango whakamuri: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>He whakahaerenga</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>Kotahi te hekenga</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>He hopukanga o mua</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>Whakaahuatanga</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>āe</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>kāo</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Hopukanga</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Tapanga</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>I tangohia</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Momo</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>Ngā wāhanga hei whakahoki</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>Te pātengi raraunga</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>Ngā kōnae rokiroki (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>Ngā tautuhinga (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>Mā te whakahoki i te pātengi raraunga ka hoki ia ki te wā o te hopukanga, tae atu ki ngā wātū: tērā pea ka tonoa koe kia takiuru anō i muri. Ka ngaro ngā mea katoa i panonitia mai i taua wā; ka tangohia i te tuatahi he hopukanga o te āhua o nāianei.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>Kei te mōhio au ki tā tēnei e whakahoki ai</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>Patohia anō te ID o te hopukanga</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>Āe, tangohia whakamuri</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Whakakore</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>Ngā whakahaerenga he hopukanga i tangohia i mua i a rātou.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>Kōwhiria</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>Kāore anō he whakahaerenga he hopukanga tōna.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>Ngā hekenga kua whakamahia ka taea e rātou anō te tango whakamuri (he down() tō rātou).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>Kāore he hekenga kua whakamahia he down() tōna.</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>Ngā hopukanga o mua (tohunga)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>Kāore anō he hopukanga.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>Whakahaerehia ngā hekenga</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>Ka haere te whakahaerenga i muri hei %user, ā, ka whakaatu tōna whārangi i a ia e haere ana. I mua i te hekenga tuatahi ka tangohia he hopukanga o te tāutanga; ina rahua tētahi hekenga ka mutu te whakahaerenga, ā, ka whakahokia te hopukanga.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>Whakahaere whakamātau i te tuatahi</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Kāore i taea te pānui i te tūnga: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>Ngā hekenga e tatari ana</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>Ka whakahaerea rātou i tēnei raupapa. Tangohia te tohu i tētahi kia waiho ia, me ērā e hiahia ana ki a ia, mō tētahi whakahaerenga ā muri ake.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>Whakahaerehia</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>Ka whakakā i te aratau tiaki i a ia e whakahaere ana.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>I panonitia i muri i tō rātou whakamahinga</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>Ehara ēnei kōnae i ērā i whakamahia. Ka whakakāhore tētahi whakahaerenga i a rātou ki te kore e whakaaetia te panonitanga me tētahi take; kāore rātou e whakahaerea anō, ka tuhia te tapeke arowhai hou, ā, ka puritia te take ki te rangitaki arotake.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>Whakaaetia ngā panonitanga</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>He aha ai</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>Ko ngā taunoa ngā mea haumaru. Ka waiho e ia pouaka tētahi hātepe.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>Kāore he hopukanga</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>Kāore he hopukanga i mua, i muri hoki i te whakahaerenga: kāore e taea te whakahoki aunoa i tētahi rahunga.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>Kāore he whakahokinga</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>I muri i tētahi rahunga, waiho te tāutanga kia pērā i tā te rahunga i waiho ai.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>Puritia ngā panonitanga kāore anō kia tāpaetia</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>Whakahaerehia ahakoa he panonitanga kāore anō kia tāpaetia kei ngā tautuhinga, ngā toronga, ngā hoahoa rānei; ka uru atu ērā ki te hopukanga.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>Kāore he tāpaetanga</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>Kaua e tāpae i te kōnae tūnga me te rangitaki whakahaerenga (kāore hoki he tūtohu, kāore he pana).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>Kāore he pana</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>Tāpaetia, tūtohua, engari kaua e pana.</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>Kāore he tūtohu</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>Tāpaetia, panaia, engari kaua e tūtohu i te whakahaerenga.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>Āe, whakahaerehia ēnei hekenga ināianei</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Kāore he hekenga e tatari ana.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>Hoki ki te tūnga</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>Ngā panonitanga ki tēnei tāutanga i tuhia kotahi hei kōnae (ihirangi, akomanga, tūranga, tautuhinga, hanganga) ā, ka whakamahia ki ia tāutanga o te pae i te raupapa kotahi. Ka tango tētahi whakahaerenga i tētahi hopukanga i te tuatahi, ka whakahoki i a ia ina rahua tētahi hekenga, ā, ka tuhi, ka tāpae, ka pana i tāna i mahi ai.</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>Whakahaerehia ngā %count e tatari ana</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Tirohanga whānui</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>E tatari ana</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Kua oti</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>I rahua</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>Kāore e hiahiatia</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>Pātengi raraunga</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>tauwhitinga: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>Kei migrations/ ngā hekenga o te pae, kei extension/&lt;name&gt;/migrations/ ērā o tētahi toronga. Ka whakahaerea rātou i te raupapa o ō rātou ingoa me ō rātou hiahia.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Whakahaerenga whakamutunga</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>I panonitia te kōnae i muri i tōna whakamahinga.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>Kāore anō he hekenga. Mā ./console exp:migration:generate --skeleton &lt;name&gt; --apply e tuhi te tuatahi.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>Ngā whakahaerenga hou rawa</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>Ia whakahaerenga</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>Kāore anō he whakahaerenga.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>Me whai te kaupapahere migration/run kia whaihanga ai i tētahi whakahaerenga.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>He whakahaerenga e haere ana: whaihangatia ina mutu.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Whakaritenga</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>Ehara a %target i te whakahaerenga, i te hekenga, i te hopukanga rānei o tēnei tāutanga.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>Tohua te &quot;Āe, tangohia whakamuri&quot; i te tuatahi.</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>Mā ngā tohunga te whakahoki i tētahi hopukanga o mua: tohua te &quot;Kei te mōhio au ki tā tēnei e whakahoki ai&quot;.</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>Patohia anō te ID o te hopukanga: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>Kōwhiria kia kotahi te wāhanga iti rawa hei whakahoki.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>Kāore he hopukanga i tangohia i mua i tēnei whakahaerenga: tangohia whakamuri ōna hekenga takitahi, whakahokia rānei tētahi hopukanga o mua.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>Kāore e taea e tēnei hekenga te tango whakamuri i a ia anō: kāore anō kia whakamahia, kāore rānei ōna down().</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Kāore i taea te pānui i te puka.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>Kōwhiria te whakahaerenga hei haere tonu.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>Tohua te &quot;Āe, whakahaerehia ēnei hekenga ināianei&quot; i te tuatahi.</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>Kōwhiria kia kotahi te hekenga iti rawa.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>I panonitia tētahi hekenga i muri i tōna whakamahinga: whakaaetia te panonitanga me tētahi take, whakahokia rānei te kōnae.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>Homai te take e whakaaetia ai ngā hekenga kua panonitia.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>Ko te 500 pūāhua te roa rawa o te take.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>Kei te haere tonu tētahi whakahaerenga i tīmatahia i konei (%detail). Tatari kia mutu.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>Kei tētahi atu whakahaerenga te raka o te tāutanga: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>Me whai te whakahaerenga i tētahi kaiwhakamahi kua takiuru, ā, e noho ana.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Kāore i kitea he papatono rārangi tono php. Tautuhia te migration.ini [AdminSettings] PhpCliPath ki tōna ara katoa.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>Kua monokia a proc_open, nō reira kāore e taea te tīmata i tētahi whakahaerenga i konei. Whakahaerehia ./console exp:migration:migrate --apply i te tūmau.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>Kāore e taea te tuhi ki te kōpaki o ngā whakahaerenga: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>I tīmatahia te whakahaerenga engari kāore i pūrongo i tōna ID tukanga. Tirohia a %detail.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>Tapaina te mea hei tango whakamuri.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>Kāore i taea te tīmata i te whakahaerenga.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>Te hopu i ngā panonitanga</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>I te wā e rere ana tētahi hopunga, ko ngā mea ka panonitia e koe i te whakahaere, i te pae taha rānei o te pae, ka puritia hei hipanga o tētahi hekenga: ihirangi, ngā karaehe, ngā tūranga me ngā kaupapahere, ngā wāhanga, ngā kaiwhakamahi me ngā rōpū, ngā ingoa kārangaranga URL, ngā tautuhinga. Me whakamutu ina oti, tirohia ngā mea i hopukina, ā, waihangatia he hekenga i reira.</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>Kāore i taea te pānui i ngā hopunga: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>Kāore anō kia puta ngā ripanga o ngā hopunga: whakahaerehia te whakahou i te tuatahi (exp:upgrade --apply).</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>Kua whakawetohia te hopu i roto i migration.ini ([RecordingSettings] Recording=disabled).</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>Aku panonitanga</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>Ka hopu anake i ngā mea ka panonitia e koe, ahakoa kei hea, kia whakamutua rā anō e koe.</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>Hopunga</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>mai i %time, %count panonitanga i tēnei wā.</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>Tapanga (kōwhiringa)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>Whakaaturia ngā mea i hopukina</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Whakamutua te hopu</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>Tīmataria te hopu i aku panonitanga</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>Matapihi mō te pae katoa</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>Ka hopu i ia panonitanga a ia kaiwhakamahi me te papatohu kia kati rā anō. Ina whakatuwheratia, ka tonoa koe kia whakaū ko koe tonu tēnei.</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Tuwhera</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>Katia te matapihi</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>Whakatuwherahia te matapihi mō te pae katoa</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>Ngā hopunga</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>Kāore rawa e hopukina te pūkete o tētahi kaiwhakamahi (ingoa takiuru, īmēra, kupuhipa) me ngā āpure o ngā pūkete kaiwhakamahi.</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Ngā panonitanga</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>Te pae katoa</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>Ngā panonitanga a %name</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Kua whakamutua</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>Kāore anō he hopunga.</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>Hopunga %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>Ngā hopunga katoa</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>Te hekenga ka puta mai</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>Ngā panonitanga kua whakakotahitia hei hipanga kotahi mō ia mea i panonitia: te mahi a tētahi hekenga ka waihangatia mai i tēnei hopunga.</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>Ka taea te waihanga hekenga i reira ina whiwhi tēnei tāutanga i ngā momo hipanga YAML %types.</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>I whakarērea mā te whakaaro: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>Kāore he mea i hopukina.</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>Ngā mea i hopukina</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>%count panonitanga, i te raupapa i mahia ai.</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Panonitanga</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>Hipanga</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>E pā ana ki</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>%count anō: ka rārangihia katoatia e ./console exp:migration:record:show.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Whakarērea</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>Ka tangohia te hopunga me ngā mea i hopukina. Ko ngā mea i panonitia ka noho panoni tonu.</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>Āe, whakarērea tēnei hopunga</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>E hopu ana…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Kei te hopukina ō panonitanga mō tētahi hekenga.</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>Kei te hopukina ia panonitanga i tēnei pae mō tētahi hekenga (matapihi mō te pae katoa).</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>Kua tīmata te hopunga o te pae katoa: ka hopukina ia panonitanga a ia kaiwhakamahi kia whakamutua rā anō e koe.</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>Kua tīmata te hopunga: ka hopukina ō panonitanga kia whakamutua rā anō e koe.</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>Kua whakamutua te hopunga. Ka noho tonu ngā mea i hopukina kia whakarērea rā anō e koe.</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>Kua tangohia te hopunga me ōna takahanga.</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>Kāore he hopunga %id.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>Tīkina i te tuatahi te "Āe, whakarērea tēnei hopunga".</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>Ko te kaiwhakamahi anake nāna i hopu ka āhei ki te whakamutu i tētahi hopunga wātū.</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>Kōwhiria te hopunga hei whakamutu.</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>Kei te rere kē tētahi hopunga o tēnei momo.</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>Kāore i taea te panoni i te hopunga: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>Waihanga hekenga</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>Ingoa o te hekenga (kōwhiringa)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>Kua tuhia te hekenga %file. Ko ngā panonitanga e kore e taea e tētahi hātepe, kua whakaingoatia ki te tīmatanga o te kōnae, hei mahi ā-ringa.</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>Kāore he hekenga i tuhia: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>He rere roa i ngā wāhanga</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>Ka puritia e ngā āpure kau ngā tautuhinga o migration.ini [RunSettings].</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>Te nui rawa o ēnei hekenga</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>Kāore he hekenga atu i muri i (hēkona)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>Okiokinga i waenga i ngā hekenga (hēkona)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>Te whakaarotau iti iho (1 ki te 19)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>He tau tōpū te āpure rere roa mai i te 1 (te okiokinga: hēkona mai i te 0 ki te 60, te whakaarotau: 1 ki te 19), he kau rānei.</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>Ka kati ake i a ia anō i te %time.</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>Kati ake i a ia anō i muri i (miniti, kāore e hiahiatia)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>He tau tōpū ngā miniti mai i te 1 ki te 44640 (31 rā), he kau rānei.</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>Hekenga %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>Hekenga hou</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>He hekenga YAML: tuhia hei kupu, hangaia rānei ōna hipanga i te puka, tirohia, kātahi ka tiaki ki tētahi kōpaki hekenga.</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>Kua whakahaerehia kētia tēnei hekenga, nā reira kāore e tiakina anō: ka whakakāhoretia he kōnae kua panonitia e te kaitiaki tapeke-taki. Mahia te panonitanga i tētahi hekenga hou.</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>Kāore e taea e te tūmau tukutuku te tuhi i te kōnae.</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>Ko ngā rārangi tākupu kei runga ko te pane (description, author, requires, environments, engines). Ina tāpirihia, ina panonitia rānei he hipanga i te puka, ka tuhia anōtia te hekenga: kāore e puritia ngā tākupu i waenga i ngā hipanga.</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>Ingoa o te hekenga</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>Te wāhi ka haere</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>Te pae</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>Kupu YAML</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>Tirotiro</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Tiaki</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Ngā hipanga</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>Ngā kī</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Whakatika</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>Nuku whakarunga</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>Nuku whakararo</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Tango</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>Kāore anō he hipanga: tāpirihia tētahi mā te puka, tuhia rānei ki te kupu.</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>Panonitia te hipanga %number</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>Tāpiri hipanga</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>Ka hangaia te puka o tētahi hipanga i tōna momo hipanga: ōna kī, he aha tā ia kī e tango ai, me ngā aratau e uru ai ia.</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>Momo hipanga</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>Whakaatu i tōna puka</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>He kī tō te hipanga kāore i te mōhiotia e tōna momo; ka waiho ēnei ina panonitia te hipanga: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>Aratau</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>I roto i</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>i %modes anake</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>Taunoa: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>Ngā here, ngā tohutoro me te tākupu</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>Ngā takirua ingoa=uara kua wehea ki te piko. Ngā uara o tēnei hipanga: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>Tauira</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>Panoni hipanga</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>Tāpiritia te hipanga</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>Te kōrero a exp:migration:check: te pane, te tuhinga me ia hipanga kua tirohia e tōna momo hipanga.</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>Ka pahure te hekenga i te tirotiro.</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Arokite</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>Te YAML ka tiakina.</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>Whakaatu i te YAML</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>Ngā hekenga YAML</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>kua whakahaerehia</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>Kāore anō he hekenga YAML.</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>Ētita</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>Kāore he hekenga YAML %id i ngā kōpaki hekenga.</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>Kōwhiria he momo hipanga.</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>Kua tāpirihia te hipanga. Tirohia te hekenga i mua i tō tiaki.</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>Kua panonitia te hipanga. Tirohia te hekenga i mua i tō tiaki.</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>Kōwhiria he hipanga.</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>Kāore he puka o tēnei hipanga (he koromeke, he momo hipanga rānei kāore i tēnei tāutanga): panonitia i te kupu.</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>Kōwhiria te wāhi ka haere te hekenga: ko te pae, he toronga hohe rānei.</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>Kua tiakina a %file. Mahia he whakahaere whakamātau i mua i te whakahaeretanga o te hekenga.</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>Kāore i tiakina: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>Ngā pae mamao</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>Ngā tāutanga kē e tukuna ai e tēnei ōna hekenga: ka tukuna e te tukunga ngā hekenga ki ngā pae mamao i kōwhiria, ā, ka whakahaerehia ki reira, i te wā kotahi, ā, i te ōrite. Kāore rawa tētahi pae mamao e pupuri i tētahi mea muna: ka tapaina e tōna tohu tuakiri tētahi i Whakaritenga &gt; Ngā mea muna.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>Pae mamao hou</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Āwhina</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>Whakamātau hononga o %id</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>Ngā pae mamao</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>Ka mahia ngā pae mamao e %parallel te nui i te wā kotahi; ka roa pea tētahi wāhanga kia %timeout hēkona i ia pae.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>Pae mamao</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Wāhitau</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Tohu tuakiri</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>Ngā rōpū</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>ngā tautuhinga hei whakatika</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>ngā kōnae anake (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>Kī SSH</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>Kupuhipa</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>kore (te kaihoko SSH me ngā kī o te kaihautū)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>Whakamātau hononga</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>Ka tae te tukunga ki tētahi rōpū ki ia pae mamao o taua rōpū.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>Tuku ki ngā pae mamao</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>Kāore anō he pae mamao kua whakaritea.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>Pae mamao %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>Kāore he mea e tukuna, e whakahaerehia rānei i konei: ka tuhi a Tiaki i ngā tautuhinga ki settings/override/migration.ini.append.php. He ingoa te tohu tuakiri; ka noho tōna uara ki Whakaritenga &gt; Ngā mea muna, ki te taiao rānei.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Arotakehia ēnei tautuhinga</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>Ngā tautuhinga pērā i tā i whakauruhia, kāore anō kia tiakina.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Arotake</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>He tika ngā tautuhinga. Ka tuhia ēnei rārangi:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>Kawe</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>he ingoa anake; ka noho te uara ki Whakaritenga &gt; Ngā mea muna</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Ngā rārangi ka tuhia</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>Hononga</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>Kī kaihautū</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. Te pae mamao</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>He aha te ingoa o te pae mamao, ā, ko tēhea taiao.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>Tautohu</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>Ngā pū, ngā mati, te - me te _, hei tauira production1. Ko te ingoa tēnei o te pae mamao i ngā pūrongo me te papatohu (--remotes=production1), ā, kāore e taea te panoni ā muri ake.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... Ka haere tētahi tukunga ā-taumata i ngā taiao i tēnei raupapa.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>Kōwhiringa, ka wehea ki ngā piko, hei tauira production. Ka tae te tukunga ki tētahi rōpū ki ia pae mamao o taua rōpū.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. Te hononga</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>Me pēhea te tae o ngā kōnae ki reira, ā, kei hea te tāutanga.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>Mā SSH, ko ngā mea i panoni anake, ka haere tonu tētahi whakawhitinga i motu. Te kōwhiringa pai rawa ki te wāhi kua tāutahia a rsync.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>SSH me scp mō ngā kōnae.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>SSH me sftp mō ngā kōnae.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>Ngā kōnae anake: ka tukuna ngā hekenga, ka pānuitia anō, engari kāore e taea te whakahaere ki reira.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>FTP mā TLS; ngā kōnae anake.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>He tāutanga kē i tēnei tūmau, i roto i tētahi kōpaki.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Kaihautū</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>He ingoa kaihautū, he wāhitau rānei, hei tauira node1.example.com. Ehara mō local.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>Tauranga</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>Kau: 22 mō SSH, 21 mō FTP.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Kaiwhakamahi</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>Ara</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>Te pūtake o te tāutanga ki reira, hei tauira /var/www/site (mō FTP: te ara e kitea ana e te pūkete FTP).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>Rārangi tono PHP</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>Te PHP CLI ki reira: php, he ara katoa rānei pērā i /opt/plesk/php/8.4/bin/php.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>Ka whakahaere ngā hōtuhi papatohu ki reira hei root</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>Ina ko root anake te kaiwhakamahi o te pae mamao (ka whakahaerehia ki --allow-root-user).</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. Te tohu tuakiri</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>Me pēhea te takiuru a tēnei tāutanga ki reira. He ingoa anake ka tiakina.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Kore</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>Te kaihoko SSH me ngā kī o te kaiwhakamahi e whakahaere ana i tēnei tāutanga (ā, i ngā wā katoa mō local).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>He kī tūmataiti e puritia ana hei mea muna.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>He kupuhipa e puritia ana hei mea muna (ka takiuru te FTP ki tētahi).</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>Ingoa o te mea muna</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>He mea muna o Whakaritenga &gt; Ngā mea muna, hei tauira deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Whakaritenga &gt; Ngā mea muna</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>He taurangi taiao rānei</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>Te taurangi o te tukanga tūmau e pupuri ana i a ia, hei tauira DEPLOY_KEY (ka tiakina hei env:DEPLOY_KEY). Ka whakakapi i te ingoa o te mea muna.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. Te kī kaihautū</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>Kōwhiringa, mō SSH, sftp me rsync.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>Matihao o te kī kaihautū</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... pērā i tā ssh-keygen -l e tā ai. Mēnā kei reira, me whakaatu te kaihautū i tēnei kī; ki te kore, ka akona te kī i te whakapānga tuatahi.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. Arotake</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>Whakamātauria te hononga ki ngā tautuhinga i runga ake, kātahi ka arotake i ngā rārangi ka tuhia.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>Tangohia tēnei pae mamao</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>Ka tangohia ōna tautuhinga i settings/override/migration.ini.append.php. Kāore he mea e panoni i te pae mamao, ā, ka noho tonu ōna tukunga ki te hītori.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>Āe, tangohia tēnei pae mamao</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>Ngā tukunga</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>Ka tukuna e te tukunga ngā hekenga o tēnei tāutanga ki ngā pae mamao i kōwhiria, ā, ka whakahaerehia ki reira hei %user, i te wā kotahi, ā, i te ōrite: ka tirotirohia ia pae mamao i te tuatahi, ā, ki te rahua tētahi, ka tangohia whakamuri ia pae mamao i whakamahi. Ka haere tonu i muri, ā, ka whakaatu tōna whārangi i ia pae mamao i a ia e haere ana.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. Ngā pae mamao</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>Tohua ngā pae mamao, tētahi rōpū, ngā mea e rua rānei.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>Tukuna ki reira</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. Me pēhea</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>Tuku</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>Tukuna, whakahaerehia</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>Ka tukuna, ka manatokohia, ka whakahaerehia ngā hekenga i ia pae mamao me tētahi tautohu whakahaerenga kotahi e tiritiria ana.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>Whakawhiti anake</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>Ka tukuna, ka manatokohia ngā kōnae, kāore he mea e whakahaerehia (te huarahi anake mō tētahi pae mamao FTP).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>Ā-taumata</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>Taumata i muri i te taumata, i te raupapa o ngā taiao (dev, stage, beta, production ...): ka tukuna te taumata tuatahi, kātahi ka tatari tētahi kēti kia whakamanatia e tētahi te taumata e whai ake. Te katoa, te kore rānei i roto i ia taumata.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>Ēnei hekenga anake</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>Kōwhiringa: ngā tautohu hekenga, ka wehea ki ngā piko. Kau: ia hekenga o te pae me ōna toronga.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>Arowhai tōmua anake</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>Āe, tukuna ināianei</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>Ngā tukunga i tuku, i whakahaere rānei i tētahi mea, ko te mea hou rawa i te tuatahi (kāore he pūrongo e puritia e tētahi arowhai tōmua).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>whakawhiti anake</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>ā-taumata, %stages taumata</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>kāore i te ōrite</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>Kāore anō he tukunga.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>Tukunga %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Ia pae mamao o te tukunga me tōna āhua. Ka haere tonu i muri tētahi tukunga i tīmata i konei ina katia tēnei whārangi; whakatuwherahia anō te whārangi hei whai i a ia.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>Ngā tukunga katoa</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>Arowhai tōmua</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>Taumata e whai ake</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>E tirotiro ana i ngā tautuhinga me ngā tohu tuakiri</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>Arowhai tōmua: e pānui ana i te āhua o ia pae mamao</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>E tuku ana i ngā kōnae hekenga</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>E manatoko ana i ngā mea i tae mai</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>E whakahaere ana i ngā hekenga i ia pae mamao</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>E tango whakamuri ana i ngā pae mamao</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>Kua mutu te tukunga. E uta ana i tōna pūrongo.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>Kāore i taea te whai i te ahunga whakamua. Utaina anō te whārangi kia kite i te āhua o te tukunga.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>Wāhanga</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>Ka whai tēnei whārangi i te tukunga i a ia e haere ana.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>Kei te ōrite</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>Ngā taumata</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>e tatari ana te taumata %stage ki tōna kēti</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>Kēti %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>i whakamanatia e %user i %time</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>Taumata</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>Ngā kōnae i tukuna</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>Putanga kernel</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>kua whakamahia: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>hei whakamahi: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>Ngā wāhanga</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>Kēti: taumata %stage o %stages</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>Kua tukuna ngā taumata i mua. Tirohia, kātahi ka whakamana i te taumata e whai ake: ka tirotirohia anō ōna pae mamao, ka tukuna, te katoa, te kore rānei.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Panuku</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>Āe, tukuna te taumata e whai ake ināianei</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Whakamana</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>Whakahokia tēnei tukunga</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>Ka hoki ia pae mamao i whakamahi i a ia (%list) ki te hopukanga i tangohia i mua i tōna whakahaerenga, i te wā kotahi.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>Āe, whakahokia tēnei tukunga ināianei</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>kua whakamaheretia</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>kua whakawhitia</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>kua tukuna</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>e tatari ana ki tētahi kēti</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>kua kōwhiria</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>kua whakaritea</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>kua rite</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>e tatari ana ki tōna taumata</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>kua tukuna ngā kōnae</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>kua manatokohia</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>i rahua, i whakahoki anō i a ia anō</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>kāore i panoni</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>kāore i tukuna</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>kāore e taea te tae atu</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>I whakautu te pae mamao.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>Kāore e taea te whakamahi i te pae mamao ināianei.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done kua oti, %pending e tatari ana, %failed i rahua</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>Raka</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>kei tētahi whakahaerenga te raka ki reira</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>wātea</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stage o %stages</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>Kōwhiria te pae mamao hei whakamātau.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>Tohua te “Āe, tangohia tēnei pae mamao” i te tuatahi.</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>Kāore i taea te tango i te pae mamao: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>Kāore i taea te tiaki i te pae mamao: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Kāore e taea te pānui i te kōnae tautuhinga: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>Kōwhiria kia kotahi te pae mamao, te rōpū rānei, i te iti rawa.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>Kua kore tētahi pae mamao i kōwhiria i roto i ngā tautuhinga. Utaina anō te whārangi.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>Tohua te “Āe, tukuna ināianei” i te tuatahi.</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>Kāore e taea e tētahi pae mamao FTP te whakahaere hekenga: kōwhiria te “Whakawhiti anake”, waiho rānei.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>Ko ngā hekenga hei tuku he tautohu hekenga, ka wehea ki ngā piko.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>E haere tonu ana te tukunga. Tatari kia mutu.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>Kāore tēnei tukunga e tatari ki tētahi kēti.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>Kāore he pae mamao i whakamahi i tēnei tukunga: kāore he mea hei whakahoki.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>Tohua te “Āe, tukuna te taumata e whai ake ināianei” i te tuatahi.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>Tohua te “Āe, whakahokia tēnei tukunga ināianei” i te tuatahi.</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>Kua tīariari kē tētahi pae mamao me te tautohu %id.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>He tau te tauranga mai i te 1 ki te 65535.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>He kupu te taiao o ngā pū, ngā mati, te - me te _ (alpha, dev, stage, beta, production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>He kupu te rōpū o ngā pū, ngā mati, te - me te _ (ehara i te all): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>Kāore e taea te pānui i te tohu tuakiri ināianei: %problem. Tiakina ki Whakaritenga &gt; Ngā mea muna (tautuhia rānei te taurangi) i mua i te tukunga tuatahi.</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>Ka whiwhi noa tētahi pae mamao FTP i ngā kōnae: ko te tukunga ki reira he “Whakawhiti anake”, ā, ka whakahaerehia ā-ringa ōna hekenga ki reira.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>Kāore te pae mamao %id i roto i settings/override/migration.ini.append.php; tangohia i te wāhi i tautuhia ai.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>I takiuru mā FTP, ā, i pānuitia te index.php. Kāore e taea te pānui i te tūnga hekenga o tētahi pae mamao FTP.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>Kua whakarerekētia</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>Kua waihangatia</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Ingoa</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Karaehe</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Wāhanga</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>Kaihanga</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Ihirangi hou</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>Te ihirangi i waihangatia, i whakarerekētia rānei i nā tata nei puta noa i te pae katoa, ko te mea hou rawa i te tuatahi: ngā mea i tukuna mai e ngā manuhiri, ngā mea kua puritia mō te arotake, ngā hukihuki e tatari ana kia whakaputaina. Tīpakohia ngā tūemi hei tuku, hei pupuri, hei huna, hei whakaatu, hei tango, hei nuku rānei ki tētahi atu wāhanga, tūāhua rānei.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>Kāore i taea te pānui i te rārangi: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>Kāore anō kia whakaritea te pupuri arotake, nō reira kāore he mea e puritia ana, ā, kāore e tukuna ngā mahi pupuri. Mā te hīkoi whakahou 6.0.15-review-hold e whakarite: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Tātaritia te rārangi</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Mai i</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Ki</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Rā</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>Kua waihangatia (i whakaputaina tuatahitia)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Katoa</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Tūnga</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Kua whakaputaina</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>Hukihuki, kāore anō kia whakaputaina</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>E tatari ana (e tatari ana ki te whakaaetanga, ki tētahi rā rānei)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>Kei te ipupara</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Kua puritia mō te arotake</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>Kua puritia</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>Kāore i puritia</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>Huna</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>Kitea</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>I tukuna i te</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>Ko tētahi urunga pae</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>Ko ngā mea anake i tuhia e te arotake mahi.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>Ināianei: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>He takiuru, he id kaiwhakamahi rānei.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Tātari</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>Ūkuia ngā tātari</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>Ngā tūemi</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from ki %to o %count</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Kāore he tūemi</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(i pānuitia i roto i te %ms ms)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>Ngā mahi mō ngā tūemi kua tīpakohia</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>Tīpakohia ngā mea katoa i tēnei whārangi</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>%count kua tīpakohia</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Mahi</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>Kōwhiria he mahi</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>Tukua te pupuri</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Puritia mō te arotake</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Hunaia</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>Whakaaturia</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>Nukuhia ki te ipupara</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>Mukua</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>Tautapa wāhanga</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>Tautapa tūāhua</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>Take</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>E hiahiatia ana hei pupuri; ka tiakina me te pupuri, ki te arotake mahi hoki.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>Kōwhiria he wāhanga</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Tūāhua</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>Kōwhiria he tūāhua</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>Whakamahia ki ngā mea kua tīpakohia</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>Ka arotakehia ia tūemi ki ōu ake whakaaetanga. Ka tono te nuku ki te ipupara me te muku kia whakaūngia e koe. Ki te nui ake i te %count tūemi, ka whakahaerehia ki muri.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>Tīpako</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>Whakaputanga</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>I tukuna mai i</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>Tīpakohia a %name</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>kāore anō</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(kāore he ingoa)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>Hukihuki</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>E tatari ana</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>Kua hunaia e tōna matua</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>Kua puritia: tukunga hou</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>Putanga %version e tatari ana</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>Putanga %version e mahia ana</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>Hukihuki, putanga %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>Putanga %version kua whakaputaina</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>Kua whakaritea mō te %date</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>kāore he wāhitau</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>kāore i tuhia</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>Kāore he mea e hāngai ana ki ēnei tātari.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Whakaaturia te katoa</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>Kāore anō he ihirangi.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Ia whārangi</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Whakaaturia ngā tūemi %count ia whārangi.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says "not recorded".</source>
+        <translation>Ko te wāhitau me te pūtirotiro o tētahi tukunga ka ahu mai i te taupū arotake mahi, kāore e wātea i konei: e kī ana te tīwae "kāore i tuhia".</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>Ko te wāhitau me te pūtirotiro ko ērā i tuhia e te arotake mahi mō te tūemi (ka tuhia tonutia e te pupuri aunoa; ko te whakaputa me te waihanga anake mēnā kua whakakāngia), e ai ki tā ōna tautuhinga tūmataiti e pupuri ai.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: %count tūemi</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>Ka tangohia mō ake tonu atu e te muku ngā tūemi, me ō rātou putanga me ngā whakamāoritanga katoa. Kāore e taea te whakakore.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>Ka haere ngā tūemi ki te ipupara, ka taea te whakahoki mai i reira.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>Ka arotakehia ia tūemi ki ōu ake whakaaetanga; ka waiho tētahi tūemi he tūemi-iti ōna ki tōna āhua (tangohia i te hanganga ihirangi). Ka tonoa koe kia manatoko ko koe tonu tēnei.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>Ka whakahaerehia tēnei ki muri: ka tuwhera tōna whārangi kauneke, ā, ka whakaaturia te hua mō ia tūemi ina oti.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>Ngā tūemi kua tīpakohia</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>me ētahi atu %count</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Whakakore</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>Kāore he mea i mahia</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Take: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>Kei te whakahaere tonu te mahi ki muri.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>Tōna kauneke</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>I rahua te mahi o muri: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Kua oti</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Kua whakakāhoretia</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Kua rahua</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>Ia tūemi</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>Tūemi</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Hua</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>He aha ai</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>Hoki ki te rārangi</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Whakaritenga</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>Kāore he mea i oti</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>Whakaū</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>Kōwhiria he mahi.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>Tīpakohia kia kotahi te tūemi i te iti rawa.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>Tīpakohia kia 1000 tūemi i te nui rawa i te wā kotahi.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>Kīia te take e puritia ana ngā tūemi.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>Kōwhiria te wāhanga.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>Kōwhiria te tūāhua.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Kāore i taea te pānui i te puka.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>Papatohu</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>Ihirangi hou</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>Kāore i taea te pānui i ngā tatau: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Kua puritia mō te arotake</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>Hou i tēnei rā</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Kāore anō kia whakaritea te pupuri arotake (te hīkoi whakahou 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>Ngā ihirangi hou katoa</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>Kāore koe e whakaaetia ki te whakahaere i ngā mahi whakaōrite (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>Kāore i oti te mahi whakaōrite: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>Whakaōrite: %action ki ngā ahanoa %count</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%done o ngā ahanoa %total: %ok kua oti, %refused kua whakakāhoretia, %failed kua rahua</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok kua oti, %refused kua whakakāhoretia, %failed kua rahua</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>Kua kore kē.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>Kāore ōna wāhi (kāore i whakaputaina).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>Kāore koe e whakaaetia ki te huna (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>Kāore koe e whakaaetia ki te whakaatu (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>Kua hunaia kē.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>Kāore i te hunaia.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>Kua hunaia.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>Kua whakaaturia.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>Kei te ipupara: whakawāteatia, whakahokia mai rānei i reira.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>Kāore e taea e tētahi hukihuki kāore anō kia whakaputaina te haere ki te ipupara: mukua.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>Kāore koe e whakaaetia ki te muku (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>Kua mukua.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>Kāore koe e whakaaetia ki te tango (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>He tūemi-iti ōna: tangohia i te hanganga ihirangi, kei reira rātou e rārangi ana.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>Kāore i tangohia (tērā pea kei te pupuri tētahi rerenga mahi i te tango).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>Kua nukuhia ki te ipupara.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>Kāore te wāhanga i te tīari.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>Kei tēnei wāhanga kē.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>Kāore koe e whakaaetia ki te tautapa i tēnei wāhanga (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>Kāore i tautapahia te wāhanga.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>Kua tautapahia te wāhanga.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>Kāore te tūāhua i te tīari.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>Kei tēnei tūāhua kē.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>Kāore koe e whakaaetia ki te tautapa i tēnei tūāhua (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>Kāore i tautapahia te tūāhua (tērā pea kei te pupuri tētahi rerenga mahi i te panoni).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>Kua tautapahia te tūāhua.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>Kāore he mahi pērā.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Kāore i whakaritea te pupuri arotake (te hīkoi whakahou 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>Kīia te take e puritia ana.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>Kua puritia kē.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>Kāore koe e whakaaetia ki te pupuri (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>Kāore i whakatakotoria te pupuri (tērā pea kei te pupuri tētahi rerenga mahi i te panoni).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>Kua puritia.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>Kāore i te puritia.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>Kāore koe e whakaaetia ki te tuku (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>Kāore i tukuna te pupuri (tērā pea kei te pupuri tētahi rerenga mahi i te panoni).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>Kua tukuna; kei te huna tonu: kāore koe e whakaaetia ki te whakaatu (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>Kua tukuna.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>Ngā whāinga katoa</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Whakaputanga whakamutunga</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>Whakaputaina tētahi kape pūmau utu kore o tō pae ki GitHub Pages:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Ngā whārangi tawhito</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Whakaputanga pūmau</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Kua wetohia te whakaputanga pūmau.</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Whāinga</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Kāore i taea te pānui i ngā whāinga: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>kei te haere tētahi mahi</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>hanganga hei arotake</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>hunaia tēnei</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>hangaia he whāinga</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>kore rawa</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>pānuitia te akoranga</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>%added kua tāpirihia, %changed kua panonitia, %removed kua tangohia</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%bytes o %limit (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>Kāore anō kia rārangitia ētahi atu %count.</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>%pages whārangi kua tuhia</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>Ko %path he %size, nui ake i tā te kaihautū e whakaae ai mō tētahi kōnae.</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>%percent % o te tepe</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds hēkona</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>Ko %tag te whakaputanga kei te pae ināianei.</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: mahi %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>/pātaka/ mō tētahi pae kaupapa GitHub; waiho kia wātea mō tētahi rohe ake, mō tētahi pae kaiwhakamahi rānei.</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. Te pae</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. Te kaihautū</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. Te takiuru ki te pātaka</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. Te pātaka</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. Ngā hono me te ara pūtake</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. Tōu ake rohe</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. Ngā mea kei te hanganga</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. Āhea ka whakaputaina</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. Arotakehia, tiakina</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>Kei raro i /&lt;repository&gt;/ tētahi pae kaupapa GitHub; ka mahi ngā hono whanaunga ki reira, ki wāhi kē atu hoki.</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>Ka tiki tētahi hanganga i ia whārangi o %site kia rite ki tā tētahi manuhiri kāore anō kia takiuru e kite ai, ka tuhi anō i ngā hono, ka tārua i ngā kōnae, ā, ka tuhi i te hua ki te kōpaki o te whāinga. Kāore he mea e whakaputaina kia arotakehia rā anō e koe te hanganga, ka pēhi i a Whakaputa.</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>He kīanga cron, hei tauira 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>Kei te puritia tētahi kī tuku hei mea muna %secret.</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>Mā tētahi kī tuku e taea ai e tēnei tāutanga te pana ki tētahi pātaka kotahi mā SSH, kaua ki wāhi kē. Ka noho tōna haurua tūmataiti ki Whakaritenga &gt; Ngā mea muna; ko te haurua tūmatanui anake e whakaaturia ana.</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>He kī tuku i hangaia mō tēnei whāinga</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>Ka takiuru tētahi kī tuku mā SSH: panonitia te wāhitau git ki te wāhitau SSH (git@github.com:owner/repo.git).</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>Kei te haere tētahi mahi, nā %user i tīmata</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>Kei te haere tonu tētahi mahi o tēnei whāinga (%detail). Tatari kia mutu.</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>Kei te haere tonu tētahi mahi o tēnei whāinga. Tatari kia mutu.</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>Ka tuhia tētahi hono mai i te whārangi /news/ ki te whārangi /about-us/team pēnei</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>Kua hangaia he kī tuku hou. Tāpirihia tōna haurua tūmatanui ki te pātaka ināianei.</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>Kāore rawa e whakaputaina tētahi whārangi e mau tonu ana i te huaputa patuiro, i tētahi tohu tomo puka, i tētahi ID wātū rānei i muri i te tīhore.</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>Mā ngā tohunga anake te whakahokinga: tohua te &quot;E mōhio ana ahau ki ngā mea ka panonitia e tēnei&quot;, ā, patohia anō te ingoa o te tūtohu.</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>Ka taea e tētahi pae te eke ki %site, tētahi kōnae ki %file, me te 100 GB pea o te waka ia marama. I tētahi mahere utu kore me tūmatanui te pātaka. Ehara a GitHub Pages i te mea mō ngā toa, mō ētahi atu tauwhitinga arumoni rānei.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>Ko tētahi whāinga he pae kotahi ka whakaputaina ki tētahi pātaka git kotahi. Kāore he mea e hangaia, e whakaputaina rānei i konei: ka tuhi a Tiaki i ngā tautuhinga ki settings/override/staticcache.ini.append.php.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>Ko tētahi whāinga he pae kotahi ka whakaputaina ki tētahi wāhi kotahi, hei tauira tō pae tūmatanui ki GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>He tohu tomo mai i Whakaritenga &gt; Ngā mea muna</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>Mā tētahi rerenga mahi o te pātaka e whakaputa.</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>Tāpirihia tēnei kī tūmatanui ki te pātaka me te urunga tuhi. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tohua a Allow write access.</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>Kua tāpirihia</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>Tētahi atu kaihautū git</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>Kei te mahi tētahi atu tukanga i tēnei whāinga: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>Hoki</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>Ara pūtake</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>I mua</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>I raro i tētahi ara pūtake</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>Peka</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>Ngā hono pakaru</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>Ngā hono pakaru i te hanganga</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>Hanganga</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>Hanganga %id nā %user</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>Hangaia a %name</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>Hangaia ināianei</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>Hanganga hei arotake</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Nā</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>Ā-ringa, i konei</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Whakakore</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Panoni</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>Kua panonitia</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Ngā panonitanga</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>Arotakehia i te tuatahi</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Arotakehia ēnei tautuhinga</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>Arotakehia ngā mea ka panonitia e te hanganga, tirohia, kātahi ka whakaputa, ka maka atu rānei.</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>Kōwhiria te whakaputanga hei hokinga atu.</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>Ka puta mai i tētahi putanga ā muri ake.</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Tāpaetanga</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>Ngā tāpaetanga</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>Ka tāpae i te hanganga, ka tūtohu, ka pana ki %remote. Kāore rawa te pana e akiakitia; ka taea e koe te hoki ki tētahi whakaputanga ā muri ake.</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>Ka whakatauritea ki te kōpaki o mua: %added kua tāpirihia, %changed kua panonitia, %removed kua tangohia, %unchanged kāore i panonitia.</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>Ka whakatauritea ki te whakaputanga whakamutunga.</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Tohu tuakiri</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>Rohe ake</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>Ka tangohia i ngā wā katoa te huaputa patuiro, ngā tohu tomo puka, ngā ID wātū me ngā nonce.</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>Kī tuku</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>Kī tuku o %name</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Makaia</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>Makaia te hanganga</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>Rohe</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>Wātea: te wāhitau o te pae. Ki te kore, he wāhitau ā-roto o taua pae anō.</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Kua mutu</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>Ka tīmata ia hono ki te ara pūtake.</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>He tāpaetanga ia whakaputanga me te tūtohu static/%id/&lt;n&gt;. Ka hanga te hokinga i tētahi tāpaetanga hou me ngā kōnae o tētahi whakaputanga o mua: ka noho tonu te hītori, kāore he tūtohu e nekehia, kāore hoki he mea e akiakitia.</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>Ngā āpitihanga</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>Tikina ngā whārangi mai i</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Kōnae</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>Ngā kōnae</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>Kei te ngaro ētahi kōnae</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>Ngā kōnae o</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>Ngā kōnae kāore i taea te kohi</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>Matimati</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>Kōpaki</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>Mō tētahi wāhitau SSH. Ka hangaia te kī i muri i te tiaki; māu e tāpiri tōna haurua tūmatanui ki te pātaka.</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>Mō tētahi wāhitau https://. GitHub: he tohu tomo fine-grained me te pānui me te tuhi Contents ki te pātaka.</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>Mā ngā tohunga. Ka panoni te pae tūmatanui ina oti te pana.</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Ngā puka</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>Manaaki utu kore mai i tētahi pātaka GitHub.</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>Mai i te peka</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>Wāhitau git</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>Ka whakaae a GitHub Pages ki tētahi pae o %site me tētahi kōnae o %file.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>Ngā tepe o GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>Ka whakaputa a GitHub Pages i ngā kōnae kia rite tonu ki a rātou (e hiahiatia ana mō ngā kōnae ka tīmata ki te _).</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>Ka tuku a GitHub i te peka kia rite ki tōna panatanga. Te taunoa.</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, tōu ake tūmau: tētahi pātaka git.</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>Hoki ki tētahi whakaputanga o mua</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Āwhina</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>Āwhina mō te kaiārahi</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>Hunaia</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Hītori</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>Hītori o %name</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Kaihautū</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>Me pēhea a GitHub Pages e whiwhi ai i te hanganga</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>Kua arotakehia e ahau ngā panonitanga</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>E mōhio ana ahau ki ngā mea ka panonitia e tēnei</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>Tautohu</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>Kua wetohia: kāore he mea e taea te hanga kia whakakāngia rā anō.</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>Ka rere ki muri hei %user; ka taea e koe te kati i tēnei whārangi.</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>Mahi %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>Kei te puritia hei mea muna %secret.</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Momo</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Whakaputanga whakamutunga</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>Waiho ēnei whārangi</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>Waiho ēnei wāhanga</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Ngā hono</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>Ngā hono kua tuhia anō</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>Pae ora</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>Tirohia te hanganga</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>Ngā pū iti, ngā mati, _ me -, hei tauira github-public. Ka tapaina e ia te kōpaki me ngā tūtohu (static/&lt;id&gt;/&lt;n&gt;), ā, kāore e taea te panoni ā muri ake.</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>Hangaia he kī hou</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>Hangaia he whāinga</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>Hangaia te kī</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>Hangaia te pātaka ki te kaihautū i te tuatahi; e pai ana tētahi pātaka wātea.</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>Whakaaturanga</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Karere</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>Te nuinga o ngā whārangi</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Ingoa</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>Ingoa o te tohu tomo i Whakaritenga &gt; Ngā mea muna</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>Whāinga hou</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Panuku</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>Kāo</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>Kāore anō he tāpaetanga.</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>Kāore he kī i hangaia: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Kāore i kitea he pūrua rārangi tono php. Tautuhia a migration.ini [AdminSettings] PhpCliPath ki tōna ara katoa.</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>Kāore anō he tūtohu.</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>Kāore anō he whāinga.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Kore</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>Kāore i te hanganga.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>Kāore anō tētahi mea kia whakaputaina.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>Kāore anō tētahi mea kia whakaputaina: he hou ia kōnae.</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>Whakamōhio</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>Ā-hōtaka</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>I te papatohu</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>I te tūmau: ka pērā anō te tuku a ./console exp:static:serve %id.</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>Kotahi te ara ia rārangi, ka ōrite te * ki tētahi wāhanga: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>He ingoa anake ka penapenatia me te whāinga; ka noho tonu te tohu tomo, te kī rānei ki Whakaritenga &gt; Ngā mea muna, ā, kāore rawa e puta i tētahi rangitaki.</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>Ko ngā mea anake e whakaingoatia ana e ngā whārangi</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>Mā tētahi tohu tomo anake. Ka pānui kē a env:NAME i tētahi taurangi taiao o te tūmau.</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>Huakina te arokite</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>Ka huaki i te hanganga kia rite ki tā te kaihautū e tuku ai, mai i te kōpaki o te whāinga. Ka mahi te hono mōu mō te hāora kotahi.</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>Kōwhiringa. Wātea: te mea i whakaputaina.</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>Kōwhiringa. Ki te whai rohe, ka tukuna te pae ki tōna pūtake.</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Huaputa</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>Ngā whārangi</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>Ngā whārangi o te whāinga</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>Ngā whārangi kua whakakāhoretia</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>Tukatuka i muri</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Arokite</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>Arokite, whakaputa hoki</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>Arokite, whakaputa hoki i a %name</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>Arokitea te hanganga</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Ahunga whakamua</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>Wāhitau tūmatanui</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>Kī tūmatanui</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>Whakaputa</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>Whakaputaina tētahi kape pūmau o tētahi pae ki GitHub Pages, ki tētahi kaihautū git rānei: hangaia, arotakehia ngā panonitanga, whakaputaina, ā, hoki ki tētahi whakaputanga o mua ina hiahiatia.</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>Whakaputanga hei hokinga atu</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>Ngā whakaputanga</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Pana</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>Pānuitia te akoranga</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Pūkete</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Kua whakakāhoretia</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>Whanaunga</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Utaina anō</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>Kua tangohia</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>Whakakapia te kī: ka mutu te mahi a te kī tawhito</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Pūrongo</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>Pūrongo o te hanganga</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Pātaka</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Arotake</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>Ka arotake te Arotake i ia tautuhinga, ā, ka whakaatu i ngā rārangi ka tuhia. Kāore anō tētahi mea kia tiakina.</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Whakahoki</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Whakahokinga</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Tiaki</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>Hōtaka</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>Whārangi rapu</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>Ngā ID wāhanga, ka wehea ki te piko.</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>Tukuna ki te pae ora</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>Tautuhinga</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Ngā tautuhinga</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>Ngā tautuhinga o %name</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Whakaritenga</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Whakaritenga &gt; Ngā mea muna</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>Ka whakaaturia ki ngā rārangi, hei tauira &quot;He pae tūmatanui ki GitHub Pages&quot;.</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>Ka puta mai te takiuru mā tētahi GitHub App me te tūhononga GitHub.</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>Pae</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>Pae hei whakaputa</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Rahi</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>Rahi me ngā tepe</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>Rahi o te hanganga</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Ngā whārangi tawhito</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>I tīmata</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Nā %user i tīmata i te %time.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Āhua</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Whakaputanga pūmau</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>Kua wetohia te whakaputanga pūmau</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Kua wetohia te whakaputanga pūmau.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>Kua wetohia te whakaputanga pūmau. Whakakāngia i Whakaritenga &gt; Whakaputanga pūmau i te tuatahi.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>Kua whakakāngia te whakaputanga pūmau.</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>Hipanga %step o %total</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Ngā hipanga</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>Tīhore</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Wetohia</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Whakakāngia</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>Whakakāngia te whakaputanga pūmau</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Tūtohu</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>Ngā tūtohu</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Whāinga</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>Ka taea te hanga, te panoni hoki i ngā whāinga, engari kāore he mea e hangaia, e whakaputaina rānei kia whakakāngia rā anō.</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>Ka kōrero ki ngā pūkaha rapu he aha hei pānui.</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>Kāore i taea te maka atu i te hanganga: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>He ōrite te hanganga ki te whakaputanga whakamutunga: kāore he mea hei whakaputa.</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>Kua makaia te hanganga: kei te kōpaki anō te whakaputanga whakamutunga.</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>E pai ana ngā taunoa mō te nuinga o ngā pae.</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>Kei te kōpaki tētahi hanganga kāore anō kia whakaputaina; ka whakakapia e tētahi hanganga hou.</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>Kāore e taea te tuhi ki te kōpaki o ngā mahi: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>Kāore i taea te whakarite i te mahi: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>Kāore i taea te tīmata i te mahi.</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>Kua mutu te mahi. E uta ana i tōna pūrongo.</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>Me whai kaiwhakamahi kua takiuru te mahi.</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>I tīmataria te mahi engari kāore i pūrongo i tōna ID tukanga. Arotakehia a %detail.</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>Te kī</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>Te kōnae nui rawa: %path, %size.</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Ngā rārangi ka tuhia</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>Te rārangi whārangi mō ngā pūkaha rapu; me whai te wāhitau tūmatanui.</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>Ka tikina ngā whārangi kia rite ki tā tētahi manuhiri kāore anō kia takiuru e kite ai. Kāore rawa e tukuna ngā urunga pae whakahaere, whakatika hoki.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>Kāore i taea te whai i te ahunga whakamua. Utaina anō te whārangi kia kite ai me pēhea te mahi.</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>Te haurua tūmatanui o te kī:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>Te pūtake o te peka</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>Kāore anō kia whakaritea te pātaka mea muna (ka hangaia e ./console exp:upgrade --apply tōna ripanga), nō reira kāore e taea te pupuri i tētahi kī.</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>Ka takiuru te tūmau ake (tōna ake kī SSH, kaiāwhina tohu tuakiri rānei), kei tēnei tūmau rānei te pātaka.</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>Kāore i taea te tuhi i te tautuhinga: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>He tika ngā tautuhinga. Ka tuhia ēnei rārangi:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Kāore e taea te pānui i te kōnae tautuhinga: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>Ka hoki te pae ki ngā kōnae o taua whakaputanga; me whakaputa, me maka atu rānei tētahi hanganga kāore anō kia whakaputaina i te tuatahi.</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>Te whārangi ake o te pae mō ngā wāhitau kāore i te tīari.</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>Kāore i taea te tiaki i te whāinga: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>Kāore anō te whāinga e takiuru ana ki tēnei kī: kōwhiria te &quot;He kī tuku i hangaia mō tēnei whāinga&quot; i ōna tautuhinga.</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Kāore i taea te pānui i ngā whāinga: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>Kāore anō he hanganga hei arotake.</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>Kāore he urunga pae mua i tēnei tāutanga. Kāore rawa e whakaputaina ngā urunga pae whakahaere, whakatika hoki.</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>Ka whai tēnei whārangi i te mahi i a ia e haere ana; ka haere tonu ki muri ina katia te whārangi.</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>Kāore anō he kī tuku o tēnei whāinga.</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>Kāore anō tēnei whāinga kia hangaia i konei.</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>Kei tēnei whāinga tētahi.</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>Ka maka atu i tēnei hanganga: kei te kōpaki anō te whakaputanga whakamutunga. Kāore te pae ora e panoni.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>Tohua te &quot;Kua arotakehia e ahau ngā panonitanga&quot; i te tuatahi.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Wā</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>Ngā keu</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>Patohia anō te ingoa o te tūtohu</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>Kāore i panonitia</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>Matau tukutuku</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>He aha</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>Ngā mea ka panoni</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>He aha ia kōnae; ka tuhia i ngā wā katoa.</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>Ngā mea i mahia e te mahi me tōna pūkete. Ka haere tonu ki muri tētahi mahi i tīmataria i konei ina katia tēnei whārangi.</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>Ngā mea i tāngia e te mahi hei hapa</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>Ngā mea e whakaingoatia ana e ngā whārangi, me ia whakaahua o te ihirangi kua whakaputaina</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Āhea</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>Ina rahua tētahi whakaputanga</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>Ina angitu tētahi whakaputanga</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>Ina whakaputaina he ihirangi</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>Ki hea haere ai ngā hono ki ngā mea kāore i te kape (te rapu, te takiuru).</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>I hea tukuna ai te kape pūmau.</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>Ko tēhea pae ka whakaputaina, ā, he aha te ingoa o te whāinga.</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>Ka mahi i raro i tētahi ara. Te taunoa.</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>Ka tuhia ina tautuhia tētahi rohe ake.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>Āe</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>Ka taea tonu e koe te hanga, te whakaputa ā-ringa i konei, i te papatohu hoki.</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>he ingoa anake; ka noho te uara ki Whakaritenga &gt; Ngā mea muna</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>i raro i %path</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>i mutu me te kore pūrongo</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>āpitihanga</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>i rahua</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>kōnae</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages, main rānei me te kōpaki docs.</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>kaihautū git</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (me tētahi tohu tomo), git@github.com:owner/repo.git rānei (me tētahi kī tuku); kaua rawa he kupuhipa, he tohu tomo rānei ki roto.</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/, mō te mahere pae me ngā hono matua.</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>whakaahua</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>kore rawa</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>kāo</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>kāore he mamao</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>kore: ka noho ngā tāpaetanga ki te kōpaki</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>kore: kāore he mea i panoni</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>kāore anō kia panaia</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>kāore he mea i panoni</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>whārangi</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>i paahi</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>Kua monokia a proc_open, nō reira kāore e taea te tīmata i tētahi mahi i konei. Whakamahia a ./console exp:static:build i te tūmau.</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>whakaputanga</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>kua whakaputaina</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>e tatari ana te pana</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>kua panaia</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>kua whakakāhoretia</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>whanaunga</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>whakahokinga</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>kua whakahokia</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>e rere ana</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>te kōpaki anake</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: ka tuhia ki te kōnae CNAME. Tohua te DNS o te rohe ki te kaihautū kia rite ki tāna e whakamārama ai; ka roa pea te tīmata o HTTPS.</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>āe, kāore anō kia whakaputaina</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>He GitHub App</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>Mā tētahi workflow o te pātaka e whakaputa. Ka tuhi te hanganga i te kōnae workflow; waiho kia wātea te kōpaki.</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>Ina oti tētahi whāinga te tiaki me tētahi pātaka GitHub me tētahi tohu tomo, GitHub App rānei, ka taea e tēnei hipanga te waihanga i te pātaka me te whakakā i GitHub Pages. Ki te kore, waihangatia te pātaka ki GitHub i te tuatahi; ka pai anō tētahi pātaka wātea.</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>He peka, he GitHub Actions rānei?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>Tirohia te DNS</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>Waihangatia te pātaka mēnā kāore anō kia puta</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>Waihangatia te pātaka ki GitHub, ka whakakā i GitHub Pages i ōna tautuhinga (Settings &gt; Pages).</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>Ka waihanga i te pātaka %repo mēnā e ngaro ana (ina tonoa), ka whakakā i GitHub Pages mai i te peka, mai i GitHub Actions rānei, pērā i te mea i tiakina, ka tautuhi hoki i te rohe ake me HTTPS. Ka whakamahia ngā tautuhinga kua tiakina: tiakina ngā panoni i te tuatahi.</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>Ngā taipitopito ki GitHub</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>Tāurua te rohe ake i te tuatahi.</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>Ka arowhaitia ia push ki ēnei tepe i te tuatahi.</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>Mō tētahi wāhitau https:// ki GitHub. Ka takiuru te App kua whakaritea mō tēnei tāutanga; me whai i te id tāutanga.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>Ka tukuna e GitHub Pages tētahi pātaka tūmataiti mā tētahi mahere utu anake.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: me whai tētahi rohe-iti (www.example.com) i tētahi pūkete CNAME ki &lt;owner&gt;.github.io; me whai tētahi rohe apex (example.com) i ngā pūkete A %ips.</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>Te id tāutanga o te GitHub App</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>Te hanganga Pages whakamutunga</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>Ngā tepe me ngā ture</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>E hiahiatia ana mō GitHub Pages i runga i tētahi mahere utukore.</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>Ki GitHub</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>Mā tētahi GitHub App anake: ko te tau kei te pito o te wāhitau o te tāutanga o te App ki GitHub. Ka tautuhia te App ake ki staticcache.ini (GitHubAppId, GitHubAppKey).</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>Tūmataiti</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>Tūmatanui</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>Tiakina te whāinga me tētahi pātaka GitHub me tētahi tohu tomo, GitHub App rānei i te tuatahi.</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>Tautuhia ēnei pūkete ki te kaiwhakarato o te rohe:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>Whakaritea ki GitHub</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>Kāore anō te DNS o %domain kia tohu ki GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>Ka tohu te DNS o %domain ki GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>Kāore te tūhononga GitHub e wātea ana i konei: %problem. Ka mahi tonu te whakaputa ki te peka; whakakāngia GitHub Pages i ngā tautuhinga o te pātaka.</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>Kāore ngā hipanga GitHub e wātea ana mō tēnei whāinga: %problem.</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>Ka whakaaturia te tūnga o GitHub Pages mēnā he tohu tomo, he GitHub App rānei te tohu tuakiri.</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>Whakamahia tōu ake rohe</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>Me kōwhiri ko tēhea: tohu tomo, kī tuku, GitHub App rānei</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>Mā tētahi pātaka GitHub me tētahi tohu tomo, GitHub App rānei, ka taea e te kaiārahi te waihanga i te pātaka, te whakakā i GitHub Pages me te tautuhi i te rohe mōu (hipanga 4).</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>e hanga ana</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>kua hangaia</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>mai i GitHub Actions</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>mai i te peka %branch</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>kāore anō</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>kāore i kitea</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>kua weto</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>tūmataiti</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>tūmatanui</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>kei te rārangi tatari</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>kāore e mōhiotia</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%count i runga i ngā whārangi %pages:</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>He kōpaki .gz (me .br) i te taha o ia kōpaki tuhinga, mō ngā kaihāpai e tuku ana.</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>He whārangi iti mō ia wāhitau tawhito me te ingoa tūmataiti o tētahi whārangi, kia mahi tonu ngā hononga tawhito.</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>Ka tuhia i ngā wā katoa ka tukuna te pae e GitHub Actions.</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>He tohu SPDX pērā i CC-BY-4.0, he tuhinga rānei.</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>Kete</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>Ngā karanga ki te tūmau</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Ngā kōrero</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>Ngā puka e kohi mōhiohio ana</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>Te rerenga mahi GitHub Actions</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>He iti ake te mokowā putua, kāore he kōrero i ngā whārangi.</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>Raihana o te ihirangi</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Takiuru</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>Whakaiti</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>Ētahi atu puka</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>Whakawehe i mua</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>Ngā whārangi whakaaro-ke</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>Ngā whārangi whakaaro-ke: %count.</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Rapu</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>Taurangi rapu: %pages whārangi i te %languages.</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>Ngā rau āhua me ngā tuhinga mahi i whakaingoatia ki te hash o ō rātou ihirangi, kia mau ai ngā pūtirotiro.</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>Ngā whārangi kua whakarereketia, e rua meneti i muri i te whakarerekētanga whakamutunga (te wāhanga cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>Te raihana o te ihirangi, mai i te āpure kei raro nei.</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>Te pae katoa, i ngā wā o te wātaka (te wāhanga cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>E hiahia ana ēnei wāhanga o ngā whārangi ki tētahi tūmau; kua whiwhi ia tahi i tētahi atu huarahi. Tirohia i mua i te whakaputa.</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>Ngā mea e kore e mahi ā-tuturu</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>He aha te putunga, mō te tangata e whakatuwhera ana i te kaihāpai.</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>kua waihohia</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>te tuhinga rā</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>te pito puka o te pae ora</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>te pae ora</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>te whārangi rapu o te kape</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>Kāore i taea te tuku i te puka.</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>Mauruuru: kua tukuna te puka.</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>Kāore i whakaaetia te puka: tirohia ō tuhinga ka tuku anō.</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>Tangohia ngā hononga ki ngā whārangi kāore i te kape</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>Tangohia ngā hononga ki te whakahaere</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>Ka noho tonu tō rātou kuputuhi. Kāore rawa e tangohia ngā whakaahua, ngā puka me ngā hononga ki ētahi atu pae.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Putanga</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>Ngā urunga pae hei whakaputa</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Urunga pae</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>I te pūtake</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>Kāore he urunga pae i te pūtake: kei tōna kōpaki ia urunga, ā, ka hono te pūtake ki a rātou</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Ngā urunga pae</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>Tohua kia kotahi te urunga pae, kia maha rānei e tiri ana i te kaihautū kotahi mā tō rātou kuhimua URI. Ko te mea i te pūtake ka tukuna ki reira, ko ētahi atu ki te kōpaki o tō rātou kuhimua (/ger/); ka noho ngā hononga i waenga i a rātou ki te tārua. Kāore rawa e tukuna ngā urunga whakahaere.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>I rahua te whakaputa pateko o %target i %site</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>I angitu te whakaputa pateko o %target i %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>I tukuna tēnei īmēra e %site nā te mea e tono ana te whāinga whakaputa pateko %target.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>I rahua te tuku %deploy i %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>E tatari ana te tuku %deploy ki tētahi kēti i %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>I angitū te tuku %deploy i %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>I tukuna tēnei īmēra e %site nā te mea e tono ana a migration.ini [RemoteSettings] Notify[].</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>Ngā momo raraunga (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>I tatauria %time, anō ā muri i te %minutes meneti</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>Ka penapena, ka whakatika te momo raraunga i tētahi momo uara o tētahi āhuatanga karaehe: he rārangi kuputuhi, he atahanga, he hononga. Nā te iho te nuinga, ka tāpiri ngā toronga i ētahi atu. Anei katoa, ko wai e tuku ana, ā, e hia te ihirangi e whakamahi ana. Ko te momo raraunga e whakamahia ana e te pātengi raraunga engari kāore he mea e rēhita ana i a ia, ka pakaru i a ia te ihirangi kei a ia.</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>Ngā rōpū karaehe</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>Tatau anō ināianei, kaua e whakamahi i ngā tatau o ngā meneti whakamutunga.</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>Tatau anō</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Tirohanga whānui</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>Kua rēhitatia</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>E whakamahia ana</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>Kāore i whakamahia</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>Ngā toronga e tuku ana i ngā momo raraunga</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>Ngā āhuatanga karaehe</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>Ngā āhuatanga ahanoa</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>Kāore i rēhitatia</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>Kei te rārangi, kāore te kōnae</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>E %count ngā momo raraunga e whakamahia ana engari kāore i rēhitatia</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>E %class_attributes ngā āhuatanga karaehe me ngā āhuatanga ahanoa e %object_attributes he momo raraunga kāore e rēhitatia e tētahi toronga, tautuhinga rānei. Kāore e taea ō rātou ahanoa te whakaatu, te whakatika, te whakaputa rānei. Whakahohea te toronga e tuku ana i te momo raraunga, panonitia rānei te karaehe.</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>Whakaatuhia ēnei anake</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>Kimihia he momo raraunga</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>Pūtohu, ingoa, karaehe PHP, toronga rānei.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Whakaatu</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Katoa</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>Nā</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>Te tokomaha katoa</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>Iho</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>Kāore he momo raraunga e ōrite ana ki tēnei tātari.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Whakaatu katoa</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>Toronga</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%shown o %count momo raraunga, %used e whakamahia ana</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>He āhuatanga karaehe, ahanoa rānei o ēnei momo raraunga kei te pātengi raraunga, engari kāore te content.ini e whakarārangi i tētahi, kua ngaro rānei tōna kōnae.</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>Ngā momo raraunga a %provider</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>Momo raraunga</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>Karaehe PHP me te kōnae</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>Ngā karaehe</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>Ahanoa</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>Ngā haki</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>kore</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>Kāore he momo raraunga e ōrite ana ki te rapu. Ūkuia te rapu.</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>%shown o %count momo raraunga e whakaaturia ana</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>Ngā momo raraunga e whakaaturia ana: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>Kōmaka mā %column</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>I tatauria %time</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>Ngā momo raraunga katoa</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>Whārangi āwhina</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>E whakamahia ana tēnei momo raraunga engari kāore i rēhitatia</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>Kāore e taea ngā ahanoa o ngā karaehe i raro nei te whakaatu, te whakatika, te whakaputa rānei, i te mea kāore he toronga e rēhita ana i te momo raraunga. Whakahohea te toronga e tuku ana, ā, tāpirihia ki content.ini [DataTypeSettings] AvailableDataTypes[], panonitia rānei ngā karaehe.</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>Kei te whakarārangi te content.ini i tēnei momo raraunga, engari kāore he whaiaronga momo raraunga e mau ana i tōna kōnae. Kāore he mea e whakamahi ana; tangohia mai i AvailableDataTypes[], whakahohea rānei tōna toronga.</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>Mō tēnei momo raraunga</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>Pūtohu</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Ingoa</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Toronga %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>kāore tētahi</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>Karaehe PHP</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Kōnae</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>Kei AvailableDataTypes[]</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>āe</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>kāo</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>Ngā tīwae o tōna uara</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>Ngā tīwae o ōna tautuhinga āhuatanga karaehe</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>Ngā ripanga</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>I kitea ngā tīwae me ngā ripanga mā te pānui i te waehere o te momo raraunga: he aratohu, ehara i te kupu taurangi.</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>Ngā tātauira</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Urunga pae</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>Tātauira</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>Kei</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>tēnei whakahaeretanga</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>pae taunoa</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>Kāore he whakakapi: ka toa te tātauira whakakapi e ōrite ana ki te karaehe, ki te āhuatanga rānei i ēnei.</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>Ngā karaehe e whakamahi ana (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>Kāore he karaehe he āhuatanga o tēnei momo raraunga.</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Karaehe</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>Ngā āhuatanga</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>Ngā āhuatanga karaehe (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>Āhuatanga</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Tautuhinga</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>Me whakakī</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>Ka taea te rapu</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>Ka taea te whakamāori</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>Ka kohi mōhiohio</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>Ētahi ihirangi e whakamahi ana</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>Te mea i whakarerekē whakamutunga i te tuatahi</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Kua whakarerekētia</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>Pona %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>He uara anō tō ia whakamāoritanga.</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>Ka tūtohi te rapu i ōna uara.</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>Ka taea e ia te kohikohi mōhiohio mai i ngā manuhiri (puka).</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>Ka taea ngā rārangi te kōmaka mā tēnei: kī kōmaka %type.</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>Ka taea te kōmaka</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>E tohu ana ōna uara ki ētahi atu ahanoa.</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>Ngā hononga</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>Ka taea te whakakī mai i tētahi aho māmā (kawemai, REST).</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>Mai i te kuputuhi</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>Ka taea te whakakī mai i tētahi kōnae.</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>Mai i te kōnae</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>Ka uru ōna tautuhinga āhuatanga karaehe ki ngā mōkihi.</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>Ngā mōkihi</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>Ihirangi (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from ki %to o %count</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Tātaritia te rārangi</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>Ngā karaehe katoa</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Wāhanga</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Ngā reo</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Kaipupuri</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Kua whakaputaina</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>Hurihia te raupapa</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Kāore he tūemi</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Ia whārangi</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Whakaaturia ngā tūemi %count i ia whārangi.</translation>
     </message>
 </context>
 </TS>

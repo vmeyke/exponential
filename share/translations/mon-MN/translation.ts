@@ -984,6 +984,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>Зөвхөн энэ хуудаснаас хайна: нийт %count, %from гэснээс %to хүртэл.</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Цөм болон өргөтгөлүүдийн бүх өгөгдлийн төрөл, ангиуд болон агуулга тэдгээрийг хэрхэн ашигладаг нь.</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Өгөгдлийн төрлүүд</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2316,6 +2324,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>Системийн хуудсыг мөн хавчуургад нэмж болно: хуудсыг (Тохируулга, аудитын бүртгэл, хэрэглэгчдийн жагсаалт ...) нээгээд түүний дээрх «Энэ хуудсыг хавчуургад нэмэх»-ийг сонгоно уу. Ийм хавчуурга араа дүрсэтэй.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>Та энэ хуудсыг эндээс цаашид нээх боломжгүй. Хавчуургыг хасна уу, эсвэл администратороос хандах эрх хүснэ үү.</translation>
     </message>
 </context>
 <context>
@@ -5165,6 +5177,210 @@
         <source>Go to the first page</source>
         <translation>Эхний хуудас руу очих</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>Бусад</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>Сүүлийн 7 хоног</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>Тохируулсан хугацаа</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>Бүх үг</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>Аль ч үг</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>Яг тохирох хэллэг</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>Хамааралтай байдал</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>Нэр А–Я</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>Нэр Я–А</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>Өөрчилсөн, шинэ нь эхэндээ</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>Өөрчилсөн, хуучин нь эхэндээ</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>Нийтэлсэн, шинэ нь эхэндээ</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>Нийтэлсэн, хуучин нь эхэндээ</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Өөрчилсөн</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>Шүүлтүүрүүд</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>Шүүлтүүрүүдийг харуулах</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>Шүүлтүүрүүдийг нуух</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Тэглэх</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>Хэрэгжүүлэх</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>Үгс</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>Агуулгын төрөл</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>Илүү харуулах (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>Аттрибутуудын аль нэгээр нь хайхын тулд нэг агуулгын төрөл сонгоно уу.</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Хэсэг</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Эх сурвалж</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Хүртэл</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>Эхлэх огноо нь хүчинтэй огноо биш байна.</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>Дуусах огноо нь хүчинтэй огноо биш байна.</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Эзэмшигч</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>Хэрэглэгчийн ID, нэвтрэх нэр эсвэл и-мэйл хаяг.</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>«%input»-д тохирох хэрэглэгч олдсонгүй.</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Хэл</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>Аль ч хэл</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Байршил</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>%count байршил</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>Хуудас бүрийн үр дүн</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>«%text»-ийн үр дүн (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>Үр дүн (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>Эрэмбэлэх үндэс</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>Эрэмбэ</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>Идэвхтэй шүүлтүүрүүд</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>Энэ шүүлтүүрийг хасах</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>Эсвэл шүүлтүүр сонгож хэрэгжүүлэн тохирох агуулгыг жагсаана уу.</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>Үг бичсний дараа шүүлтүүрүүд хайлтыг нарийсгана.</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>«%text»-д үр дүн олдсонгүй.</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>Үр дүн олдсонгүй.</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>Дээрх шүүлтүүрээс нэгийг хасна уу.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Орчуулгууд</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Үйлдлүүд</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>%name засах</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Засах</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -7514,6 +7730,10 @@
         <source>Setup &gt; Cronjobs</source>
         <translation>Тохируулга &gt; Cron даалгаврууд</translation>
     </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>Cron даалгаврын аль ч хэсэг хараахан ажиллаагүй байна: даалгаврын дараалал, импорт, мэдэгдэл болон хайлтын индекс хүлээгдэж байна. php bin/php/installcrontab.php --add --apply командыг ажиллуулна уу, эсвэл --show командын гаргасан мөрүүдийг crontab файлд нэмнэ үү.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/dashboard/drafts</name>
@@ -8058,8 +8278,8 @@
         <translation>Лицензийн шаардлагын дагуу анхны зохиогчид болон Exponential-д багтсан гуравдагч талын програм хангамжийн зохиогчийн эрхийн мэдэгдлийг эх файлууд болон LICENSE файлд хадгалсан.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>Доор Exponential-д хувь нэмэр оруулагчдын жагсаалтыг үзүүлэв. Тэд өөрсдийн ажлыг eZ Systems Contributor Licensing Agreement-ийн нөхцлийн дагуу 7x-д ашиглуулахаар лицензлэсэн. Энэ гэрээгээр зөвшөөрсөн ёсоор 7x хувь нэмэр бүрийг тухайн хувь нэмэр багтсан файлтай ижил лицензээр дахин түгээдэг. Жагсаалтад хувь нэмэр оруулагч бүрийн нэр, хүсвэл холбоо барих мэдээлэл, мөн тэдний бүтээсэн эсвэл хувь нэмэр оруулсан файлуудыг заасан.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>Exponential болон түүний үүссэн програм хангамж дээр ажилласны төлөө нэр нь дурдагдсан хувь нэмэр оруулагчид, тэдний хувь нэмэр оруулсан файлуудын хамт. Энэ нь талархал бөгөөд зохиогчийн эрхийн мэдэгдэл биш: Exponential-д оруулсан хувь нэмрийг Contributor Licensing Agreement-ийн дагуу Exponential Foundation болон 7x-д шилжүүлдэг.</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13881,32 +14101,20 @@ Note: The packages will not be uninstalled.</source>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%evaluate_link"&gt;Exponential Enterprise Edition-ийг турших&lt;/a&gt; - &lt;a href="%share_link"&gt;Exponential нийгэмлэгийн гишүүн болж, туршлага солилцож, хувь нэмрээ оруулах&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; болон бусад.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class="edition-info"&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>&lt;span class="edition-info"&gt;%edition&lt;/span&gt; дээр ажиллаж байна. Дэлгэрэнгүй мэдээллийг &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;-аас үзнэ үү.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; болон бусад.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> Дэлгэрэнгүй мэдээллийг &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;-аас үзнэ үү.</translation>
     </message>
     <message>
-        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; болон бусад.</translation>
+        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href="%evaluate_link"&gt;Exponential-ийг турших (7x-ээс)&lt;/a&gt; - &lt;a href="%share_link"&gt;Exponential нийгэмлэгийн гишүүн болж, дэмжлэг аваад, хувь нэмрээ оруулах&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; болон бусад.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13915,6 +14123,61 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Help center</source>
         <translation>Тусламжийн төв</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>Агуулга</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>Баримт бичгийн хуудсууд</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>Хэрэглэгчид</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>Агуулгын ангиуд</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>Удирдлага</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>Хуудас %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>Бүх үр дүнг харах</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>%count үр дүн</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>Нэг үр дүн</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>%count санал</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>Санал алга</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>Саналуудыг ачаалж чадсангүй.</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>Саналууд</translation>
     </message>
 </context>
 <context>
@@ -14383,6 +14646,14 @@ Note: The packages will not be uninstalled.</source>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>Энэ суулгац нь олон нийтийн демо юм: түүний администраторын нууц үгийг хэн ч мэдэж болох бөгөөд администраторын нууц үгийг өөрчлөх эсвэл сэргээх боломжгүй. Энд хувийн юу ч бүү оруулаарай.</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Таны төхөөрөмжүүд</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Аюулгүй байдлын үйл ажиллагаа</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14672,6 +14943,14 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>Гарын авлага, хайлт болон алдааг хэрхэн мэдээлэх.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Шинэ агуулга</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Хамгийн шинэ агуулга, хянуулахаар саатуулсан зүйлс болон сонголт дээрх үйлдлүүд.</translation>
     </message>
 </context>
 <context>
@@ -15130,6 +15409,46 @@ Note: The packages will not be uninstalled.</source>
         <source>Synchronisations</source>
         <translation>Синхрончлолууд</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>GraphQL API: түүний төгсгөлийн цэг, схем болон асуулга туршиж үзэх талбар.</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Шилжүүлгүүд</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Файл хэлбэрээр хадгалсан суулгацын өөрчлөлтүүд: тэдгээрийн төлөв, ажиллуулалтууд, ажиллуулах ба буцаах.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Шинэ агуулга</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Хамгийн шинэ агуулга, хянуулахаар саатуулсан зүйлс болон сонголт дээрх үйлдлүүд.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Сайтын статик хуулбарыг GitHub Pages эсвэл дурын git хост руу нийтлэх.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Статик нийтлэлт</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Өгөгдлийн төрлүүд</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Цөм болон өргөтгөлүүдийн бүх өгөгдлийн төрөл, ангиуд болон агуулга тэдгээрийг хэрхэн ашигладаг нь.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15294,6 +15613,22 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>Хэн ч ашигладаггүй эсвэл анхаарал шаардсан бүртгэлүүд; тэдгээрийг идэвхгүй болгох, нээх эсвэл экспортлох.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Хэрэглэгчийн аудитын бүртгэл</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>Бүртгэл тус бүрээр хэн өөрчилсөн, хэн нэвтэрсэн эсвэл хэнд татгалзсан; шүүх болон экспортлох.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Нэвтрэлтийн тайлан</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>Хэн нэвтэрсэн, өдөр бүрийн нэвтрэлт ба бүтэлгүйтэл; хэрэглэгчийг бүх газраас гаргах.</translation>
     </message>
 </context>
 <context>
@@ -22110,6 +22445,22 @@ Note: The packages will not be uninstalled.</source>
         <source>%n hours ago</source>
         <translation>%n цагийн өмнө</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>GraphQL API-н хадгалсан асуулгуудын хариултууд болон түүний схемийн агуулгын ангиуд.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>Статик хуулбарыг GitHub Pages эсвэл дурын git хост руу нийтлэх</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Статик нийтлэлт</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>Статик кэш хуудсуудыг энэ серверээс үйлчилдэг. Сайтын статик хуулбарыг өөр газар, GitHub Pages эсвэл дурын git хост дээр нийтлэхийн тулд статик нийтлэлтийг ашиглана уу.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25651,6 +26002,10 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>last purge</source>
         <translation>сүүлийн цэвэрлэгээ</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>Бичилтүүд төлөвийн түгжээг авч чадсангүй (сүүлд %date): тус бүр нь кэшлэгдсэн бүх үр дүнг хуучирсан болгосон. %file нь сайт ажилладаг хэрэглэгч бүрт бичигдэхүйц байх ёстой; NFS дээр NFSv4 эсвэл lockd хэрэгтэй.</translation>
     </message>
 </context>
 <context>
@@ -33599,6 +33954,14 @@ Note: The packages will not be uninstalled.</source>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>PHP боловсруулагчийн хугацаа дууссан сессүүдийг энэ хуудас эсвэл session_gc cron даалгаврын хэсэг бус PHP өөрөө (session.gc_maxlifetime) хасдаг.</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>Бүх хэрэглэгчийн нэвтэрсэн сессүүд нэвтрэлтийн тайланд жагсаагдаж, тэндээс дуусгагдана; тайлан аливаа сессийн боловсруулагчтай ажилладаг.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>Нэвтрэлтийн тайланг нээх</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37923,6 +38286,26 @@ your account.</source>
     <message>
         <source>None yet</source>
         <translation>Одоохондоо байхгүй</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Аюулгүй байдлын үйл ажиллагаа</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>Таны сүүлийн нэвтрэлтүүд, бүтэлгүйтсэн оролдлогууд болон нууц үг, имэйл хаяг, хоёр шаттай нэвтрэлтэд орсон өөрчлөлтүүд.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>Энэ бүртгэлийн сүүлийн нэвтрэлтүүд, бүтэлгүйтсэн оролдлогууд болон аюулгүй байдлын өөрчлөлтүүд.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>Үйл ажиллагааг хянах</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>Бүтэлгүйтсэн нэвтрэлт: %count</translation>
     </message>
 </context>
 <context>
@@ -44089,6 +44472,42 @@ If you want to send comments to the approver or view the status use the URL belo
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>Нэвтэрсний дараа хэрэглэгч өөр юу ч хийхээс өмнө шинэ нууц үг сонгох ёстой. Хэн нэгэнд түр нууц үг өгөхдөө үүнийг ашиглана уу.</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>Одоо байгаа зургийг сонгох</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>Таны сонгосон объектын зургийн файл энэ талбарт хуулагдана. Нөгөө объект өөрчлөгдөхгүй.</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>«%name»-ийн зураг энэ талбарт хуулагдлаа.</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>Зураг үзэж сонгох</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>Нэрээр зураг хайх</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Хайх</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>«%name»-ийн зургийг ашиглах</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>Энэ зургийг ашиглах</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>Таны хайлтад тохирох зураг алга.</translation>
     </message>
 </context>
 <context>
@@ -51013,6 +51432,10 @@ See the requirements page for more information.</source>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>crontab-д бичсэнгүй (%reason). Эдгээр мөрийг сайтыг ажиллуулж буй хэрэглэгчийн crontab-д нэмнэ үү, эс бөгөөс дараалал, импорт, мэдэгдэл болон хайлтын индекс хэзээ ч ажиллахгүй:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>Дахин суулгахдаа kickstarter (%file, дараа нь php bin/php/kickstarter.php run --apply) эсвэл шинэ суулгалт ашиглана.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54892,6 +55315,10 @@ your account.</source>
         <source>eZJSCore Public Packer cache</source>
         <translation>eZJSCore нийтийн багцлагчийн кэш</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>GraphQL кэш (хариултууд ба схемийн ангиуд)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54978,6 +55405,14 @@ your account.</source>
     <message>
         <source>Copy of %class_name</source>
         <translation>%class_name-ийн хуулбар</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Өгөгдлийн төрлүүд</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>Өгөгдлийн төрөл %string</translation>
     </message>
 </context>
 <context>
@@ -55804,6 +56239,26 @@ your account.</source>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>SVG зургийг уншиж чадсангүй, эсвэл түүнд аюулгүй харуулах зүйл алга.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>Зургийг хуулж чадсангүй. Дахин оролдох эсвэл сайтын администратортой холбогдоно уу.</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>Сонгосон объект байхгүй эсвэл та түүнийг унших эрхгүй байна.</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>Сонгосон объектод зураг байхгүй.</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>Сонгосон объектын зургийн файлыг уншиж чадсангүй.</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>Сонгосон объектын зураг энэ талбарын зөвшөөрөхөөс том байна: %1 байт.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56334,6 +56789,42 @@ your account.</source>
         <source>The bookmark was renamed to "%name".</source>
         <translation>Хавчуургын нэрийг «%name» болгон өөрчиллөө.</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>Энэ хуудас энэ сайтын хандалтад (%siteaccess) унтраалттай байна. Хавчуургыг энэ хуудас байгаа сайтын хандалтад нээнэ үү.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>Энэ хуудасны модуль энд суулгагдаагүй эсвэл идэвхжүүлэгдээгүй байна.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>Энэ хуудас байхаа больсон: түүний модульд ийм харагдац байхгүй.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>Таны аль ч үүрэг танд энэ хуудсыг нээхийг зөвшөөрөхгүй байна.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>Танд энэ сайтын хандалтыг ашиглах эрх байхгүй.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>Танд энэ хуудасны харуулж буй агуулгыг унших эрх байхгүй.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>Энэ төрлийн хуудсыг хавчуургад нэмэх боломжгүй: энэ нь зөвхөн маягт дээр үйлдэл хийдэг эсвэл түр зуурын хуудас юм.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>Энэ хуудасны хаяг байхгүй байна.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>Энэ хуудсыг одоо нээх боломжгүй.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56805,6 +57296,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>Сүүлийн ажиллалтад шуудангийн дамжуулалт %count мессежийг татгалзсан. Шуудангийн сервер болон site.ini MailSettings-ийг шалгана уу.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Хүлээгдэж буй үйл явдал: %count, гэвч мэдэгдлийн cron даалгавар нэг ч удаа ажилласан бүртгэл алга. «frequent» cron хэсгийг crontab файлд нэмнэ үү, эсвэл exp:notification:run --apply командыг ажиллуулна уу.</translation>
     </message>
 </context>
 <context>
@@ -63061,6 +63556,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Choose another site or section with the node picker</source>
         <translation>Зангилаа сонгогчоор өөр сайт эсвэл хэсэг сонгох</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>Эзэмшигчийг зөвхөн системийн администратор өөрчилж чадна: ./console exp:content-check --fix-permissions --apply командыг root эрхээр ажиллуулна уу.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64594,6 +65093,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>empty</source>
         <translation>хоосон</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>Гарын үсгийн түлхүүр нэг жилээс илүү хуучин байна: exp:audit key rotate --apply командаар солино уу.</translation>
     </message>
 </context>
 <context>
@@ -68424,6 +68927,486 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Share of page time</source>
         <translation>Хуудасны хугацаанд эзлэх хувь</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>бүтэн боловсруулалт хүссэн</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>хуудасны кэшид хуудас байгаагүй (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>хуудасны кэш хариу өгсөнгүй</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>Боловсруулсан</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>Цөм боловсруулсан: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>Хуудасны кэшээс %ms мс хугацаанд үйлчилсэн. Хуудсыг %stored цагт %render мс үргэлжилсэн боловсруулалтаар хадгалсан, %age сек өмнө.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>Одоо боловсруулах</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>Кэш дэх харагдац руу буцах</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>%stored цагийн боловсруулалтаас (%render мс)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>Энэ хүсэлт: хуудасны кэшээс %ms мс хугацаанд үйлчилсэн.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Хэрэглэгч</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>Хэрэглэгчийн ID</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>Кэшийн профайл</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>Энэ харагдац</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>Харагдацын кэш</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>хэрэглэгч тус бүрээр (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>Хэрэглэгчийн кэшийн профайл: ижил профайлтай хэрэглэгчид харагдацын кэш файлуудыг хуваалцдаг</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>тийм</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>үгүй</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Хэрэглэгчийн нэр</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>Нэвтэрсэн</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>Сесс</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>Агуулгын харагдацын кэшийн түлхүүрийн хэрэглэгчээс хамаарах хэсгүүд, түлхүүр яг авдаг хэлбэрээр нь, энэ хуудасны ViewCacheTweaks тохиргооны дагуу. Ижил профайлтай хэрэглэгчид харагдацуудын кэш файлуудыг хуваалцдаг, харин харагдацын өөрийн хэсгүүд ялгаатай бол (тохиргоо, сонсогчдын түлхүүр): тэдгээр нь зөвхөн энэ хуудсанд өөрийн профайлтай.</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>Профайл</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>Энэ харагдац (зангилаа %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: нэвтэрсэн хэрэглэгч бүр өөрийн кэш файлтай.</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>Хүчинтэй ViewCacheTweaks: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>Хэсэг</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>Утга</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>Хэрэглэгчээс хамаарах хэсэг байхгүй (ViewCacheTweaks).</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>энэ харагдац</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>Текстээр хуулах</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>Үүрэг</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>Дүрийн оноолтыг уншиж чадсангүй.</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>Дүрийн ID</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Үүрэг</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>Хязгаарлалт</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>Оноосон</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>хэрэглэгч</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>бүлэг %name (объект %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>Хуулсан</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>Хуулж чадсангүй.</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>сонсогч хассан</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>Нэргүй зочид</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>таныхтай ижил</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>өөр</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>Нэрээ нууцалсан зочид ижил ViewCacheTweaks дор, анхдагч тохиргоотой, харагдацын хэсгүүдгүйгээр авах профайл: сешн уншдаг сонсогчоос тэдгээрийг асууж болохгүй.</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>Тохиргоонууд</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>Ямар ч харагдацын горим хэрэглэгчийн тохиргооноос хамаарахгүй (site.ini [ContentSettings] CachedViewPreferences).</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>Эдгээр харагдацын горимын харагдацууд хамаардаг тохиргоонууд (CachedViewPreferences), хэрэглэгчийн утга эсвэл анхдагч утгатай. Тэдгээр нь бүх харагдацын горимынх хамтдаа userpreferences нэрээр профайлд байна.</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>Харах горим</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>Тохиргоо</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>Өгөгдмөл</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>Бодлогууд</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>Дүрүүдийн бодлогыг харуулах (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>Энэ хэсгийг нээхэд бодлогууд серверээс нэг хуудсаар ачаалагдах ба модуль болон функцээр шүүж болно.</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>Функц</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>Бүх модуль</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>Бүх функц</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>Хязгаарлалтууд</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>Илүүг харуулах</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>Эдгээр дүрд бодлого байхгүй.</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>Шүүлтүүрт тохирох бодлого алга.</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%matching бодлогоос %shown (нийт %total)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>Нээх үед ачаалагдана.</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>module/function, үүрэг, хязгаарлалт</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>Бодлогуудаас хайх</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>Дахин ачаалах</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>Модуль/функц</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>Бүх үүрэг (%count бодлого)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>Тохирох бодлого алга.</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%matched бодлогын %shown</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>Хариу алга</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>нуусан</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>Тайлбар харуулах</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>Тайлбар нуух</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Нээх</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>Бүгдийг дэлгэх</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>Бүгдийг хураах</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>Түлхүүр эсвэл утга</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>Сессээс хайх</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Төрөл</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>өөр %count</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>харуулахад хэт гүн үүрлэсэн</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>таслагдсан, нийт %count тэмдэгт</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Эхэлсэн</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>Күүкийн нэр</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>Сессийн ID</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>Боловсруулагч</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>Хадгалах зам</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>PHP-ийн өгөгдмөл</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>Амьдрах хугацаа (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>Күүки</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>амьдрах хугацаа %s с</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>Таны өөрийн PHP сесс, хэсгийг нээх үед байсан байдлаараа, хэзээ ч өөр хүнийх биш. Нууц мэт харагдах түлхүүрүүдийн утгыг (токен, хэш, нууц үг) нуусан (debugbar.ini SessionMask[]); бусад бүхнийг хадгалсан байдлаар нь, хувийн мэдээллийг ч мөн адил харуулна.</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>%count түлхүүр, %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>том</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>Сесс хоосон байна.</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>Энэ хүсэлтэд сесс эхлүүлээгүй.</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Өргөтгөл %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>Цөм болон бусад</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>Бүх бичлэгийг харуулаагүй: сесст энд жагсааж болохоос илүү зүйл байна.</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>%count түлхүүрийг жагсаагаагүй.</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>Хүрээ</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>Токен мэт харагдах утгуудыг (JSON Web Token, Authorization толгойн нэвтрэх мэдээлэл, хувийн түлхүүр, урт арван зургаатын эсвэл санамсаргүй текст) түлхүүр нь ямар ч нэртэй байсан мөн нуудаг (debugbar.ini SessionValueMask[]).</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>Түлхүүр нь нууц мэт харагдаж байна (debugbar.ini SessionMask[]).</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>Утга нь токен мэт харагдаж байна.</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>Нуусан түлхүүрийн доор.</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>Сессийг текстээр, хүснэгтийн адил нууж харуулсан.</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>Сесс %size-аас том байна (debugbar.ini SessionWarnBytes): энэ хэрэглэгчийн хүсэлт бүр сессийг бүхэлд нь уншиж, өөрчлөгдсөн үед бичдэг.</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP энэ сессийг файлд хадгалж, хүсэлтийн туршид файлыг түгждэг: нэг хэрэглэгчийн хүсэлтүүд (хэд хэдэн таб, AJAX дуудлага) бие биенээ хүлээдэг.</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>Нээлттэй байлгах</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>%size-аас том (debugbar.ini SessionWarnBytes): энэ хэрэглэгчийн хүсэлт бүр сессийг бүхэлд нь уншдаг.</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>Нийт %count, кэшээс уншсан %hits</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>Ямар ч загвар зурагдаагүй (харагдацын кэшээс уншсан харагдац загвар зурдаггүй).</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>Үүргийн оноолтууд</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>Үүрэг ба бодлогууд</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>нэргүй зочдынхоос ялгаатай</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>нэргүй зочдынхтой адил</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70304,6 +71287,14 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>not sent</source>
         <translation>илгээгдээгүй</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Мэдэгдлийн cron даалгавар ажилласан удаа бүрээ энд бүртгэдэг. frequent хэсгийг crontab файлд нэмнэ үү, эсвэл exp:notification:run --apply командыг ажиллуулна уу.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>Консол ашиглана уу: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -76022,6 +77013,98 @@ You will need to change the class of the node by using the swap functionality.</
         <source>This topic is not Released; readers do not see it.</source>
         <translation>Энэ сэдэв гараагүй байна; уншигчид үүнийг харахгүй.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Шилжүүлгүүд</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Файл хэлбэрээр хадгалсан суулгацын өөрчлөлтүүд: тэдгээрийн төлөв, ажиллуулалтууд, ажиллуулах ба буцаах.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Сайтын статик хуулбарыг GitHub Pages эсвэл дурын git хост руу нийтлэх.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Статик нийтлэлт</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>Хяналтад</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>Уншигчид энэ хуудсыг харж байна.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>Хэн нэгэн гаргах хүртэл уншигчдаас нуугдсан.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>Хуудас одоо «Хяналт» төлөвт байна. Гаргах хүртэл уншигчдаас нуугдсан.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>Хуудас гарсан: уншигчид одоо үүнийг харж байна.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>Хуудас дахин ноорог боллоо. Хянаж, гаргах хүртэл уншигчдаас нуугдсан.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>Одоо гаргах</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>Зөвхөн %role үүрэгтэй, энэ хувилбарыг бичээгүй хэрэглэгч үүнийг гаргаж чадна.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>Гаргахыг хүлээж буй тусламжийн сэдвүүд</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>Дахин гаргах хүртэл уншигчдаас нууна.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>Дараа нь хянагч шалгана. Уншигчид одоохондоо харахгүй.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>Уншигчид шууд харна.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>Нэмэлт ажил хийхээр хяналтаас гаргана. Уншигчид харахгүй.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>Энэ хуудсыг уншигчдаас нуух уу?</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>Энэ хуудсыг ноорог руу буцаах уу?</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>Хэн нэгэн дахин гаргах хүртэл уншигчид %title-г харахгүй.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title нэмэлт ажил хийхээр ноорог руу буцна. Уншигчид одоо ч харахгүй бөгөөд гаргахаас өмнө шинэ хяналт шаардлагатай.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Цуцлах</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>Эдгээр сэдэв «Хяналт» төлөвт байна. Одоогийн хувилбарыг бичээгүй хэн нэгэн гаргамагц уншигчид харна.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76477,6 +77560,46 @@ You will need to change the class of the node by using the swap functionality.</
         <source>None.</source>
         <translation>Байхгүй.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>баталгаажуулагч програмаар</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>имэйлээр ирсэн кодоор</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>сэргээх кодоор</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>нэвтрэх түлхүүрээр</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>гадаад бүртгэлээр</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Аюулгүй байдлын үйл ажиллагаа</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>Сүлжээ хэлбэрээр харуулна; хаягийг сайтын өгөгдөл хамгаалах тохиргоонд заасны дагуу хадгална.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Бүртгээгүй</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Байршил</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>ойролцоогоор</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76720,6 +77843,42 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Manage devices</source>
         <translation>Төхөөрөмжүүдийг удирдах</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>баталгаажуулагч програмаар</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>имэйлээр ирсэн кодоор</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>сэргээх кодоор</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>нэвтрэх түлхүүрээр</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>гадаад бүртгэлээр</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Аюулгүй байдлын үйл ажиллагаа</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Бүртгээгүй</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Байршил</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>ойролцоогоор</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76799,6 +77958,14 @@ You will need to change the class of the node by using the swap functionality.</
         <source>View the sessions of this user</source>
         <translation>Энэ хэрэглэгчийн сессүүдийг харах</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>%site сайт дахь Таны %login бүртгэлээр сүүлийн үед нэвтэрч байгаагүй газраас саяхан нэвтэрлээ:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>Ойролцоо байршил</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76837,6 +78004,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%os дээрх %browser</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Нэвтрэлтийн тайлан</translation>
     </message>
 </context>
 <context>
@@ -77045,6 +78216,82 @@ You will need to change the class of the node by using the swap functionality.</
         <source>The passkey could not be checked. Please try again.</source>
         <translation>Нэвтрэх түлхүүрийг шалгаж чадсангүй. Дахин оролдоно уу.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>Зөвхөн нэвтрэх түлхүүрээр нэвтэрдэг бүртгэлүүд энд нууц үг ашиглах боломжгүй: «Нэвтрэх түлхүүрээр нэвтрэх»-ийг сонгоно уу.</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>%login-ийн нэвтрэх түлхүүрүүд</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>Энэ бүртгэлийн нэвтэрдэг нэвтрэх түлхүүрүүд. Алдагдсан эсвэл хулгайлагдсан төхөөрөмж дээрх түлхүүрийг хүчингүй болгоно уу: түүгээр цаашид нэвтрэх боломжгүй. Шинийг эзэмшигч өөрөө нэмнэ.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>Таны бүртгэлд нэвтрэх түлхүүр хэрэгтэй</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>Бүртгэлдээ нэвтрэх түлхүүр нэмэх</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>Үргэлжлүүлэхийн тулд нэвтрэх түлхүүр нэмнэ үү. Дараа нь та зөвхөн нууц үгээр бус, түүгээр нэвтэрнэ.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>Нэвтрэх түлхүүрээр нэвтрэх нь нууц үгээс хурдан бөгөөд аюулгүй. Одоо нэгийг нэмэх эсвэл түүнгүйгээр үргэлжлүүлнэ үү.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>Одоо биш</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>«%name» нэвтрэх түлхүүрийг хүчингүй болгох уу?</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>Түүгээр энэ бүртгэлд цаашид нэвтрэх боломжгүй. Хэрэв энэ сүүлчийнх нь байсан бол эзэмшигч нууц үгээрээ нэвтэрнэ, эсвэл та шинэ нууц үг тохируулна.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>Нэвтрэх түлхүүрийг хүчингүй болгох</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>Хүчингүй болгох</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>Энэ бүртгэлд нэвтрэх түлхүүр байхгүй.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>Баталгаажуулагч</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Тодорхойгүй</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>Таны сүүлчийн нэвтрэх түлхүүр: хасахаасаа өмнө өөр нэгийг нэмнэ үү.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>Энэ бүртгэл зөвхөн нэвтрэх түлхүүрээр нэвтэрдэг (нэвтрэх түлхүүрийн бодлого): нэг ч үлдээгүй бол дахин нууц үгээрээ нэвтэрнэ.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>Энэ бол таны сүүлчийн нэвтрэх түлхүүр бөгөөд таны бүртгэл түүнгүйгээр нэвтрэх боломжгүй. Эхлээд өөр нэвтрэх түлхүүр нэмнэ үү.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>«%name» нэвтрэх түлхүүрийг хүчингүй болголоо. Түүгээр энэ бүртгэлд цаашид нэвтрэх боломжгүй.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77144,6 +78391,34 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Code from your authenticator app</source>
         <translation>Таны баталгаажуулагч аппын код</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>Та өгөгдлийг бүрмөсөн устгах эсвэл бүртгэлийн журналыг цэвэрлэх гэж байна.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>Таны нууц үг ба нэвтрэх түлхүүр</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>Таны нууц үг ба баталгаажуулагч аппын код</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>Эсвэл:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>Энэ браузер нэвтрэх түлхүүр ашиглах боломжгүй. Өөр арга эсвэл өөр браузер ашиглана уу.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>Үргэлжлүүлэхэд браузер тань таны нэвтрэх түлхүүрүүдийн нэгийг асууна.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>Нэвтрэх түлхүүрээр үргэлжлүүлэх</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77234,6 +78509,70 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Setup</source>
         <translation>Тохируулга</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>Өөрийн нууц үг, имэйл хаяг, нэвтрэх түлхүүр, хоёр шаттай нэвтрэлт, сэргээх код эсвэл API түлхүүрийг өөрчлөх, мөн өөрийн бусад төхөөрөмжөөс гарах.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>Хэрэглэгчид, тэдний нууц үг, төхөөрөмж, бүртгэлийн тохиргоог үүсгэх ба засах, шинэ хэрэглэгчийн бүртгэлийг зөвшөөрөх эсвэл татгалзах, үүрэг оноох ба бодлого засах.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>Өгөгдөл устгах</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>Хогийн савыг хоослох, түүнээс зүйл хасах, олон зүйлийг нэг дор хасах.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>Агуулга хасах, нийтлэх, хадгалах</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>Агуулга хасах (хогийн сав руу ч мөн), нийтлэх, ноорог хадгалах; маягтыг илгээх үед асууна. Анхдагчаар унтраалттай.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>Эмзэг үйлдлийн өмнө нэвтэрсэн хэрэглэгч хэн болохоо дахин баталгаажуулна: нууц үг ба нэвтрэх түлхүүрээрээ, эсвэл нэвтрэх түлхүүргүй бол нууц үг ба баталгаажуулагч аппынхаа кодоор. Зөвхөн вэб хуудсууд асууна: REST интерфейс, SOAP, WebDAV, expservices нэвтрэлт болон командын мөр хэзээ ч асуухгүй.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>Тохиргоо хаана хамаарах</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>Дараахын тохиргоо</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Бүх сайтын хандалт</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>Сайтын хандалт %name</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Нээх</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>Хэнээс асуух: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>Зөвхөн гишүүдээс нь асуухын тулд хэрэглэгчийн бүлгүүдийг тэмдэглэнэ үү (жишээ нь редакторууд). Юу ч тэмдэглээгүй бол: бүх хэрэглэгч.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>Бүх сайтын хандалтад зориулан settings/override/site.ini.append.php-д хадгалагдсан. Хадгалахад Та мөн эсэхээ баталгаажуулахыг асууна.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>settings/siteaccess/%name/site.ini.append.php-д хадгалагдсан. settings/override доторх утга түүнээс давамгайлна. Хадгалахад Та мөн эсэхээ баталгаажуулахыг асууна.</translation>
     </message>
 </context>
 <context>
@@ -77336,6 +78675,6822 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Open the page</source>
         <translation>Хуудсыг нээх</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from–%to, нийт %count</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>Нэвтрэх нэр эсвэл хэрэглэгчийн ID: үйл явдал хамаарах бүртгэл эсвэл үйлдэл хийсэн хэрэглэгч.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Бүртгэл</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Үйлдэл</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>Дараа нь</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>Бүх үр дүн</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Өмнө нь</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Гүйцэтгэгч</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Цэвэрлэх</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Амжилттай</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>Үйл явдлыг %days хоног хадгална.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>Үйл явдлыг гараар устгах хүртэл хадгална.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Үйл явдлууд</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>Бүх үйлдэл</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>Энэ бүртгэлийн бүх үйл явдал</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>Жагсаалтыг CSV хэлбэрээр экспортлох (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Амжилтгүй</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Эхлэх</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>Жагсаалтыг нарийсгах</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>Тохирох үйл явдал алга.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Нэг хуудсанд</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>audit.ini файлд бичлэг хийхийг унтраасан ([UserAuditSettings] UserAudit); жагсаалт өмнө нь бичигдсэнийг харуулна.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Татгалзсан</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Үр дүн</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Харуулах</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>Хэрэглэгчийн аудитын бүртгэлийн хүснэгт байхгүй байна. Үүнийг php update/common/scripts/6.0/createuseraudittable.php ашиглан үүсгэнэ үү; тэр болтол аудитын файлууд үйл явдал бүрийг хадгална.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>Энэ хуудсанд SQL өгөгдлийн сан шаардлагатай; MongoDB дээр ашиглах боломжгүй. Аудитын файлууд үйл явдал бүрийг хадгална.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Хүртэл</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Хэрэглэгчийн аудитын бүртгэл</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Хэрэглэгч</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Хэзээ</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Хаана</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>Хэн аль бүртгэлийг өөрчилсөн, үүсгэсэн, идэвхжүүлсэн, идэвхгүй болгосон, зөөсөн эсвэл хассан, хэн нэвтэрсэн эсвэл хэнд татгалзсан, ямар үүрэг оноосон: үйл явдал бүрт нэг мөр, талбаруудын өмнөх болон дараах утгатай. Нууц үг болон нууц мэдээллийг хэзээ ч бүртгэдэггүй.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>бүлэг</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>систем</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>үл мэдэгдэх</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>Бүртгэлээ хамгаалах</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>%site сайт дахь Таны %login бүртгэлд сэргээх кодоор нэвтэрлээ.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>Сэргээх код ашиглагдлаа</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Бүртгэл</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>Ойролцоо хаяг</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>Дахин нэвтрэхийн тулд шинэ нууц үг хүснэ үү, эсвэл сайтын администраторуудад хандана уу.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>Шинэ нууц үг хүсэх</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>Сэргээх код бүр зөвхөн нэг удаа ажилладаг. Хэрэв Та утсаа гээсэн бол баталгаажуулагч програмаа дахин тохируулж, шинэ сэргээх кодуудаа найдвартай газар хадгална уу.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>Таны бүртгэлд нэвтрэх бүтэлгүйтсэн оролдлогууд</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>Одоогоос эхлэн нэвтрэхэд нууц үгээс гадна код асууна. Хэрэв үүнийг Та хийсэн бол юу ч хийх шаардлагагүй.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>Хэрэв энэ Та байсан бөгөөд нууц үгээ мартсан бол шинийг хүснэ үү. Хэрэв үгүй бол илүү хүчтэй нууц үг сонгож, хоёр шаттай нэвтрэлтийг идэвхжүүлнэ үү.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>Хэрэв энэ Та биш байсан бол хэн нэгэн Таны нууц үгийг мэдэж магадгүй: үүнийг одоо сольж, бүртгэл тань хаана нэвтэрсэн байгааг шалгана уу.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>Үлдсэн сэргээх кодууд</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>Төхөөрөмжүүдээ шалгах</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>Аюулгүй байдлын сэрэмжлүүлэг</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>Хэн нэгэн %site сайт дахь Таны %login бүртгэлд буруу нууц үгээр дараалан хэд хэдэн удаа нэвтрэхийг оролдлоо (оролдлого: %count).</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>%site сайт дахь Таны %login бүртгэлд аюулгүй байдлын үйл явдал гарлаа.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>Энэ бол Таны бүртгэлийн талаарх аюулгүй байдлын сэрэмжлүүлэг юм. Ийм өөрчлөлт бүрт илгээгддэг бөгөөд унтраах боломжгүй.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Цаг</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>%site сайт дахь Таны %login бүртгэлийн хоёр шаттай нэвтрэлтийг унтраалаа.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>Хоёр шаттай нэвтрэлтийг унтраалаа</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>%site сайт дахь Таны %login бүртгэлийн хоёр шаттай нэвтрэлтийг асаалаа.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>Хоёр шаттай нэвтрэлтийг асаалаа</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>%site сайт дахь Таны %login бүртгэл хэт олон удаа амжилтгүй нэвтэрсний дараа түгжигдлээ.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>Таны бүртгэл одоо зөвхөн нууц үгээр хамгаалагдаж байна. Хэрэв үүнийг Та хийгээгүй бол нууц үгээ сольсны дараа хоёр шаттай нэвтрэлтийг дахин асаана уу.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>Таны бүртгэл түгжигдлээ</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>%site дээрх таны %login бүртгэлд нэвтрэх түлхүүр нэмэгдлээ.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>Энэ нэвтрэх түлхүүрийг эзэмшсэн хэн ч таны нууц үггүйгээр таны бүртгэлд нэвтэрч чадна. Хэрэв та үүнийг нэмээгүй бол Нэвтрэх түлхүүрүүд хэсгээс хасаад нууц үгээ солино уу.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>%site дээрх таны %login бүртгэлээс нэвтрэх түлхүүр хасагдлаа.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>Түүгээр таны бүртгэлд цаашид нэвтрэх боломжгүй. Хэрэв та үүнийг хасаагүй бол нэвтрэх түлхүүрүүд болон төхөөрөмжөө шалгана уу.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>Таны бүртгэлд нэвтрэх түлхүүр нэмэгдлээ</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>Таны бүртгэлээс нэвтрэх түлхүүр хасагдлаа</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>Аюулгүй байдлын үйл ажиллагаа</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Аюулгүй байдлын үйл ажиллагаа: %name</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Нэвтэрсэн</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Нэвтрэх бүтэлгүйтсэн оролдлого</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Гарсан</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Сессүүдийг дуусгасан</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Шинэ төхөөрөмжөөс нэвтэрсэн</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Шинэ байршлаас нэвтэрсэн</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Хэн болохыг баталгаажуулсан («Та мөн эсэхээ баталгаажуулах»)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Хэн болохыг шалгах амжилтгүй болсон</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Нэвтрэх түлхүүрээр нэвтэрсэн</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Нэвтрэх түлхүүрээр нэвтрэх амжилтгүй болсон</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Нэвтрэлтийг татгалзсан: хоёр шаттай нэвтрэлтийн код байхгүй эсвэл буруу</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Хоёр шаттай нэвтрэлтийн буруу код</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Амжилтгүй нэвтрэлтийн дараа бүртгэл түгжигдсэн</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Бүртгэлийн түгжээг тайлсан</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Нууц үг өөрчилсөн</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Нууц үг өөрчлөх амжилтгүй болсон</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Нууц үгийг шинэчилсэн</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Шинэ нууц үг хүссэн</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Имэйл хаяг өөрчилсөн</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Хэрэглэгчийн нэр өөрчилсөн</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Хоёр шаттай нэвтрэлтийг асаасан</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Хоёр шаттай нэвтрэлтийг унтраасан</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Сэргээх код ашигласан</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Шинэ сэргээх кодууд</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Аппын нууц үг үүсгэсэн</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Аппын нууц үгийг хүчингүй болгосон</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Нэвтрэх түлхүүр нэмсэн</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Нэвтрэх түлхүүр хассан</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Бүртгэлийг идэвхжүүлсэн</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Бүртгэлийг идэвхгүй болгосон</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Бүгд</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Нэвтрэлт ба сессүүд</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Бүртгэлийн өөрчлөлтүүд</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Анхаарал шаардлагатай</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>Та хийсэн</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>хэрэглэгч хийсэн</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>%login хийсэн</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>Арга</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>Браузер</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>Үйлдлийн систем</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Төхөөрөмж</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>Газар</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>Улс</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Сессүүд</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>Аль нь</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>Суваг</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Бүтэлгүйтсэн оролдлогууд</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>Үлдсэн кодууд</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>Нэвтрэлтийн боловсруулагч</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Аюулгүй байдлын үйл ажиллагаа</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Аюулгүй байдлын үйл ажиллагаа: %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Таны бүртгэлийн нэвтрэлтүүд болон аюулгүй байдлын өөрчлөлтүүд. Хэрэв Та өөрөө хийгээгүй зүйл харвал нууц үгээ сольж, танихгүй төхөөрөмжүүдийг гаргана уу.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>Энэ бүртгэлийн нэвтрэлтүүд болон аюулгүй байдлын өөрчлөлтүүд.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Таны төхөөрөмжүүд</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Нууц үг солих</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>Бүртгэл рүү буцах</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>Аюулгүй байдлын үйл ажиллагааг бүртгэдэггүй</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>Үүнийг хэрэглэгчийн аудитын бүртгэлээс уншдаг бөгөөд түүний expuser_audit хүснэгт байхгүй эсвэл энэ өгөгдлийн санд дэмжигддэггүй. php update/common/scripts/6.0/createuseraudittable.php командыг эсвэл 6.0.15 хувилбарын өгөгдлийн сангийн шинэчлэлийг ажиллуулна уу.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Сүүлийн %days өдөр</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Сүүлийн %days өдрийн нэвтрэлтүүд</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>Аюулгүй байдлын сүүлийн үйл ажиллагаа</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Харуулах</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>бүтэлгүйтсэн</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>татгалзсан</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Аюулгүй байдлын үйл ажиллагаа хараахан бүртгэгдээгүй байна.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>Аюулгүй байдлын үйл явдлыг %days өдөр хадгална.</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>Аюулгүй байдлын үйл явдлыг администратор хасах хүртэл хадгална.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Миний нэвтрэлтийн өгөгдлийг татаж авах</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Таны сессүүд болон аюулгүй байдлын үйл явдлууд JSON файл хэлбэрээр.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Энэ сайт сессүүдийг бүртгэдэггүй тул өөр ямар ч төхөөрөмжийг гаргаж чадсангүй. Нууц үгээ одоо солино уу.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>Бусад %count сессээс гаргалаа. Одоо нууц үгээ солино уу.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Өөр ямар ч төхөөрөмж нэвтэрсэн байгаагүй. Одоо нууц үгээ солино уу.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Баярлалаа. Энэ үйл явдлыг таных гэж тэмдэглэлээ.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Тэр үйл явдалд хариу шаардлагагүй.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Хуудасны хугацаа дууссан байсан. Юу ч өөрчлөгдөөгүй; дахин оролдоно уу.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Бүртгэлээ хамгаалах</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Энд байгаа ямар нэг зүйлийг та хийгээгүй бол бусад бүх төхөөрөмжөөс гарч, дараа нь шинэ нууц үг сонгоно уу. “Намайг санах”-аар нэвтэрсэн хэвээр байгаа төхөөрөмжүүдээс мөн гарна.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Энэхүүнээс бусад бүх төхөөрөмж дараагийн хүсэлтээрээ гарна. Дараа нь та шинэ нууц үг сонгоно.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Тийм, бусад төхөөрөмжөөс гарах</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Энэ та байсан уу?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Тийм, энэ би байсан</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Үгүй, миний бүртгэлийг хамгаалах</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Нэвтэрсэн</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Нэвтрэх бүтэлгүйтсэн оролдлого</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Гарсан</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Сессүүдийг дуусгасан</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Шинэ төхөөрөмжөөс нэвтэрсэн</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Шинэ байршлаас нэвтэрсэн</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Хэн болохыг баталгаажуулсан («Та мөн эсэхээ баталгаажуулах»)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Хэн болохыг шалгах амжилтгүй болсон</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Нэвтрэх түлхүүрээр нэвтэрсэн</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Нэвтрэх түлхүүрээр нэвтрэх амжилтгүй болсон</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Нэвтрэлтийг татгалзсан: хоёр шаттай нэвтрэлтийн код байхгүй эсвэл буруу</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Хоёр шаттай нэвтрэлтийн буруу код</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Амжилтгүй нэвтрэлтийн дараа бүртгэл түгжигдсэн</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Бүртгэлийн түгжээг тайлсан</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Нууц үг өөрчилсөн</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Нууц үг өөрчлөх амжилтгүй болсон</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Нууц үгийг шинэчилсэн</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Шинэ нууц үг хүссэн</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Имэйл хаяг өөрчилсөн</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Хэрэглэгчийн нэр өөрчилсөн</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Хоёр шаттай нэвтрэлтийг асаасан</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Хоёр шаттай нэвтрэлтийг унтраасан</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Сэргээх код ашигласан</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Шинэ сэргээх кодууд</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Аппын нууц үг үүсгэсэн</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Аппын нууц үгийг хүчингүй болгосон</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Нэвтрэх түлхүүр нэмсэн</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Нэвтрэх түлхүүр хассан</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Бүртгэлийг идэвхжүүлсэн</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Бүртгэлийг идэвхгүй болгосон</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Бүгд</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Нэвтрэлт ба сессүүд</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Бүртгэлийн өөрчлөлтүүд</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Анхаарал шаардлагатай</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Аюулгүй байдлын үйл ажиллагаа</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Аюулгүй байдлын үйл ажиллагаа: %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Таны бүртгэлийн нэвтрэлтүүд болон аюулгүй байдлын өөрчлөлтүүд. Хэрэв Та өөрөө хийгээгүй зүйл харвал нууц үгээ сольж, танихгүй төхөөрөмжүүдийг гаргана уу.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Таны төхөөрөмжүүд</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Нууц үг солих</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>Энэ сайтад аюулгүй байдлын үйл ажиллагааг хараахан бүртгэдэггүй.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Сүүлийн %days өдрийн нэвтрэлтүүд</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Бүтэлгүйтсэн оролдлогууд</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Аюулгүй байдлын үйл ажиллагаа хараахан бүртгэгдээгүй байна.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Миний нэвтрэлтийн өгөгдлийг татаж авах</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Таны сессүүд болон аюулгүй байдлын үйл явдлууд JSON файл хэлбэрээр.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Энэ сайт сессүүдийг бүртгэдэггүй тул өөр ямар ч төхөөрөмжийг гаргаж чадсангүй. Нууц үгээ одоо солино уу.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>Бусад %count сессээс гаргалаа. Одоо нууц үгээ солино уу.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Өөр ямар ч төхөөрөмж нэвтэрсэн байгаагүй. Одоо нууц үгээ солино уу.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Баярлалаа. Энэ үйл явдлыг таных гэж тэмдэглэлээ.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Тэр үйл явдалд хариу шаардлагагүй.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Хуудасны хугацаа дууссан байсан. Юу ч өөрчлөгдөөгүй; дахин оролдоно уу.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Бүртгэлээ хамгаалах</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Энд байгаа ямар нэг зүйлийг та хийгээгүй бол бусад бүх төхөөрөмжөөс гарч, дараа нь шинэ нууц үг сонгоно уу. “Намайг санах”-аар нэвтэрсэн хэвээр байгаа төхөөрөмжүүдээс мөн гарна.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Энэхүүнээс бусад бүх төхөөрөмж дараагийн хүсэлтээрээ гарна. Дараа нь та шинэ нууц үг сонгоно.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Тийм, бусад төхөөрөмжөөс гарах</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Энэ та байсан уу?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Тийм, энэ би байсан</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Үгүй, миний бүртгэлийг хамгаалах</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>Нууц үг</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>Нууц үг ба хоёр шаттай нэвтрэлтийн код</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>REST интерфейс</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>SOAP интерфейс</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>Нэгдсэн нэвтрэлт</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>Сессүүдийг бүртгэж эхлэхээс өмнө нэвтэрсэн</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Нэвтрэлтийн тайлан</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>Сайтад хэн нэвтэрсэн, бүртгэлүүд хэр олон удаа нэвтэрч, нэвтэрч чадахгүй байгаа, мөн хэрэглэгчийг бүх газраас гаргах. Аливаа сессийн боловсруулагчтай ажилладаг.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>Сессийг дуусгалаа. Төхөөрөмж дахин нэвтрэх шаардлагатай.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>%login хэрэглэгчийг гаргалаа, дуусгасан сесс: %count.</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>%login хэрэглэгчид ажиллаж буй сесс байгаагүй.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>Ийм ID, хэрэглэгчийн нэр эсвэл имэйл хаягтай бүртгэл байхгүй.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>Энэ бол Таны ашиглаж буй сесс. Үүнийг дуусгахын тулд системээс гарна уу.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>Тэр сесс аль хэдийн дууссан байсан.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Хуудасны хугацаа дууссан байсан. Юу ч өөрчлөгдсөнгүй; дахин оролдоно уу.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>Энэ сайтад сессүүдийг бүртгэдэггүй (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>expuser_session хүснэгт байхгүй байна</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>Хүснэгт үүссэний дараа сессүүд бүртгэгдэж эхэлнэ: php update/common/scripts/6.0/createusersessiontable.php эсвэл 6.0.15 хувилбарын өгөгдлийн сангийн шинэчлэл.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>Одоо ба өнөөдөр</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>Ажиллаж буй сессүүд</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>Нэвтэрсэн хэрэглэгчид</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>Өнөөдрийн нэвтрэлтүүд</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>Өнөөдрийн бүтэлгүйтсэн оролдлогууд</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>Хэрэглэгчийг бүх газраас гаргах</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>Бүртгэлийн сесс бүр дараагийн хүсэлтээр дуусна, «Намайг санах»-аар хадгалагдсан сессүүд ч мөн адил. Бүртгэл буруу гарт орсон байж болзошгүй үед үүнийг ашиглана уу; дараа нь нууц үгийг нь шинэчилнэ үү.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>Хэрэглэгчийн ID, хэрэглэгчийн нэр эсвэл имэйл хаяг</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>Бүх газраас гарах</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>Одоо нэвтэрсэн</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>Хамгийн сүүлд ашигласан %limit сессийг харуулж байна.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Хэрэглэгч</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Төхөөрөмж</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Хаяг</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>Нэвтэрсэн</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>Сүүлд идэвхтэй байсан</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Үйлдлүүд</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>Энэ төхөөрөмж</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Бүртгээгүй</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>Гарах</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>Нэвтэрсэн сесс алга.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Сүүлийн %days өдөр</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>Нэвтрэлт болон бүтэлгүйтсэн оролдлогуудыг хэрэглэгчийн аудитын бүртгэлээс тоолдог боловч энэ бүртгэл байхгүй; шинэ сессүүдийг тоолно.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>Өдөр</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>Нэвтрэлтүүд</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Бүтэлгүйтсэн оролдлогууд</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>Шинэ сессүүд</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>Сессийн боловсруулагч: %handler. Сессүүдийг expuser_session хүснэгтээс уншдаг тул тайлан аливаа боловсруулагчтай ажилладаг.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>Сүүлийн %hours цагийн сэжигтэй үйл ажиллагаа</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>Нэг сүлжээ %accounts бүртгэлд нэвтэрч чадсангүй (%count оролдлого)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Амжилтгүй нэвтрэлтийн дараа бүртгэл түгжигдсэн</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>Нэг бүртгэлд %count амжилтгүй нэвтрэлт</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>Нэгэн зэрэг %count орноос нэвтэрсэн</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Аюулгүй байдлын үйл ажиллагаа</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Сессүүд</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>Амжилтгүй нэвтрэлтийг хэрэглэгчийн аудитын бүртгэлээс уншдаг бөгөөд энд боломжгүй байна.</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>Сэжигтэй зүйл алга: давтан амжилтгүй нэвтэрсэн бүртгэл алга, хэд хэдэн бүртгэлийг оролдсон сүлжээ алга, хэд хэдэн орноос нэвтэрсэн бүртгэл алга.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>Таны бүртгэлийн аюулгүй байдлын сэрэмжлүүлэг</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>Таны %login бүртгэлд аюулгүй байдлын үйл явдал гарлаа: %event. Хэрэв энэ Та биш байсан бол бүртгэлээ %url хаягаар хамгаална уу.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Тохируулга</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>Энэ сайтын агуулгаас хуудсанд хэрэгтэй талбаруудыг яг нэг хүсэлтээр аваарай. Схем нь агуулгын ангиудыг дагана; асуулга бүр түүнийг илгээсэн хэрэглэгчийн эрхээр ажиллана.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>GraphQL API энэ сайтын хандалтад унтраалттай байна. graphql.ini-д асаана уу: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>GraphQL сан (webonyx/graphql-php 15) суулгаагүй байна.</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>Төгсгөлийн цэг</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>Сан</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>Схем</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>Агуулгын ангиуд: %count, схем %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>Асуулга</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>Хувьсагчид (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Ажиллуулах</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>Хариу</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>Ажиллаж байна…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>Хариуг уншиж чадсангүй.</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>Асуулга таны эрхээр, энэ сессээр нэвтэрсэн байдлаар ажиллана.</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%seconds с-д %count</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>хязгааргүй</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>Гүн</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>Нарийн төвөгтэй байдал</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>Жагсаалт тутмын зүйл</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (өгөгдмөл %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>Хэрэглэгч эсвэл түлхүүр тутмын хүсэлт</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>Нэргүй хаяг тутмын хүсэлт</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>Интроспекц</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>Зөвхөн хадгалсан асуулга</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>Хамгийн том асуулга</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>%bytes байт</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>Хамгийн том байршуулалт</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>%siteaccess сайтын хандалт байхгүй.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>%siteaccess-д мутацийг асаалаа.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>%siteaccess-д мутацийг унтраалаа.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>%siteaccess-д GraphQL API-г асаалаа.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>%siteaccess-д GraphQL API-г унтраалаа.</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>Тохиргоог бичиж чадсангүй: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>Хариултын кэшийг цэвэрлэлээ: %count хариулт устгагдсан.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>Асуулгыг устгахын тулд хажуугийн нүдийг чагтална уу.</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>Асуулгыг устгаж чадсангүй: PersistedQueryDirectoryList[]-ийн лавлахад ирсэн асуулга өөрийн файлтай хамт устгагдана.</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>Хадгалсан асуулгыг устгалаа.</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>Мутаци</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>асаалттай</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>унтраалттай</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Сайтын хандалтууд</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>API болон түүний мутаци хариулдаг газар. Товчнууд ./console exp:graphql:enable ба exp:graphql:disable-ийн адилаар graphql.ini-г бичнэ.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Сайтын хандалт</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>GraphQL API</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Өөрчлөх</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Унтраах</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>Мутаци унтраалттай</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>Мутаци асаалттай</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Асаах</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>Хязгаарууд</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>Энэ сайтын хандалтын graphql.ini [GraphQLSettings].</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>Хариултын кэш</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>Хадгалсан асуулгын хариултууд, хэрэглэгчийн эрхээр тусад нь хадгалагдаж, агуулга нийтлэгдэх бүрт хугацаа нь дуусна.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Төлөв</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>Хадгалсан хариулт</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>%count хариулт, %bytes байт</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>Хамгийн удаан хадгалах</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds с</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>Сүүлд хугацаа дууссан</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>Хариултын кэшийг цэвэрлэх</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>Хадгалсан асуулгууд</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>./console exp:graphql:persist-ээр эсвэл клиентүүдээр хадгалсан (автомат хадгалсан асуулга); нэр эсвэл SHA-256-аар дуудна.</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>Нэрс</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Хэмжээ</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Хаана</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Устгах</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>дагалдсан</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>хадгалсан</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>Тийм, энэ асуулгыг устгах</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>Хадгалсан асуулга одоогоор алга.</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>API түлхүүрүүд</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>graphql:read (асуулга) эсвэл graphql:write (мутаци) хамрах хүрээтэй хувийн API түлхүүрүүд. Тэдгээрийг API хандалт хуудсанд эсвэл ./console exp:graphql:keys-ээр үүсгэж, цуцална.</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>API хандалт</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>Бүх түлхүүр</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>Түлхүүр</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Нэр</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Эзэмшигч</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>Хамрах хүрээ</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>Сүүлд ашигласан</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>идэвхтэй</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>хугацаа дууссан</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>цуцлагдсан</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>хэзээ ч</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>GraphQL хамрах хүрээтэй API түлхүүр одоогоор алга.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>Энэ хуудсыг харуулж буй %siteaccess сайтын хандалтад GraphQL API унтраалттай байна; доорх хүснэгт хаана хариулдгийг харуулна.</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>Энэ хуудсыг харуулж буй %siteaccess сайтын хандалтын мэдээлэл.</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>Вебхукууд</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>Төгсгөлийн цэгийн хүссэн үйл явдал бүрийг (publish, update, trash, delete, move, hide, reveal, mutation) cronjob-ийн graphqlwebhooks хэсэг гарын үсэгтэйгээр түүнд илгээнэ. ./console exp:graphql:webhooks нь энэ хэсэгтэй ижил үйлдэл хийнэ.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Үйл явдлууд</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>бүгд</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Сайтын хандалт бүр</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>эвдэрсэн</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>нууцгүй</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>Хүлээгдэж буй</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count орхигдсон</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>Сүүлийн хүргэлт</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Туршилт илгээх</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>Тийм, энэ вебхукийг устгах</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>Вебхук одоогоор алга.</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>Вебхук нэмэх</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>Нэмэх</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>Сүүлийн хүргэлтүүд</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Цаг</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Үр дүн</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>Захиалгууд</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>Клиентүүдэд зориулсан шууд шинэчлэлт: /api/graphql/subscribe дээрх үйл явдлын урсгал, мөн Velocity дээрх WebSocket (graphql-transport-ws). Үйл явдал бүр зөвхөн түүний агуулгыг унших эрхтэй захиалагчдад очно.</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>Одоо нээлттэй</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>Хамгийн ихдээ нээлттэй</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>Нийт %total, хэрэглэгч тус бүрд %user, хаяг тус бүрд %address</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>Нэргүй захиалгууд</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>Урсгалын урт</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>Вебхукийг нэмж чадсангүй: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>%name вебхукийг өөрчиллөө; түүний гарын үсгийн нууц хэвээр үлдэнэ.</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>Гарын үсгийн нууцыг хадгалж чадсангүй (Тохируулга &gt; Нууцууд).</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>%name вебхукийг нэмлээ. Түүний гарын үсгийн нууц, зөвхөн энэ удаа харагдана: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>%name вебхук байхгүй.</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>%name вебхук хариу өгсөнгүй: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>%name вебхук %ms ms-д %status хариу өглөө.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>Вебхукийг устгахын тулд хажуугийн нүдийг чагтална уу.</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>%name вебхукийг устгалаа.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>GraphQL API энэ сайтын хандалтад унтраалттай байна.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>GraphQL сан суулгаагүй байна.</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>GET эсвэл POST ашиглана уу.</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>Хүсэлтийн их бие JSON объект биш байна.</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables нь JSON объект биш байна.</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions нь JSON объект биш байна.</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>Асуулгыг POST-оор илгээнэ үү.</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>Хүсэлтэд асуулга алга.</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>Асуулга %max байтаас урт байна.</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>Серверийн дотоод алдаа</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node нь id, remoteId, path болон urlAlias-ын яг нэгийг шаардана.</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content нь id болон remoteId-ын яг нэгийг шаардана.</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>after-ын курсор энэ API-аас өгөгдсөн курсор биш байна.</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>%alias гэсэн зургийн алиас байхгүй (image.ini [AliasSettings] AliasList[]).</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>Энд зөвхөн хадгалсан асуулгыг хүлээн авна: сервер дээр хадгалсан асуулгын id-г илгээнэ үү.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>Хадгалсан асуулгын хэш SHA-256 биш байна.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>Хадгалсан асуулгын хэш асуулгатай таарахгүй байна.</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>Хэт олон хүсэлт: %window секундэд хамгийн ихдээ %limit. %reset секундын дараа дахин оролдоно уу.</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>Асуулга %depth түвшний гүнтэй; хамгийн ихдээ %max зөвшөөрөгдөнө.</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>Асуулгын нарийн төвөгтэй байдал %complexity; хамгийн ихдээ %max зөвшөөрөгдөнө.</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>Энэ хүсэлт схемийг унших эрхгүй (introspection).</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search нь текст эсвэл шүүлтүүр шаардана (classes, subtree, sections, publishedAfter, publishedBefore).</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument нь огноо биш байна (ISO 8601, 2026-10-30).</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag нь id, remoteId болон path-ын яг нэгийг шаардана.</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout нь id, identifier болон urlAlias-ын яг нэгийг шаардана.</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>Олон хэсэгт хүсэлтийн operations талбар нь нэг JSON хүсэлт биш байна.</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>Олон хэсэгт хүсэлтийн map талбар нь JSON объект биш байна.</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>Олон хэсэгт хүсэлтэд %field файл алга.</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>map талбарын зам variables.-аар эхлэх ёстой: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>%name файл бүтэн ирсэнгүй (байршуулалтын алдаа %error).</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>%name файл %max байтаас том байна.</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>%name файлыг шалгаж чадсангүй.</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>Энэ сайтын хандалтад мутаци унтраалттай байна (graphql.ini [GraphQLSettings] MutationsEnabled).</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>Мутацийг POST-оор илгээнэ үү.</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>Агуулгыг өөрчлөхийн тулд нэвтэрнэ үү.</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>API түлхүүрт %scope хамрах хүрээ алга.</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>Сесстэй мутацид сессийн маягтын токен шаардлагатай (толгой X-CSRF-Token).</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>uploadFromUrl унтраалттай: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] ямар ч хост заагаагүй.</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>Хаяг нь https хаяг байх ёстой.</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>%host хост graphql.ini [GraphQLSettings] UploadFromUrlHostList[]-д байхгүй.</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>Файлыг татаж чадсангүй.</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload нь зөвхөн оролтын төрөл.</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>Upload төрлийн хувьсагч олон хэсэгт хүсэлтийн файлыг авна.</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>Алсын id %remoteId аль хэдийн ашиглагдсан.</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>Агуулга %language хэл дээр аль хэдийн орчуулгатай: updateContent ашиглана уу.</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>Дор хаяж нэг талбар өгнө үү.</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>Шинэ хувилбар үүсгэж чадсангүй (агуулга хэт олон ноорогтой).</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>%version хувилбар ноорог биш.</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent-д id ба nodeId-ийн яг нэг нь шаардлагатай.</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>Байршлыг өөрийнх нь доор зөөх боломжгүй.</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>Агуулга %parentId-ийн доор аль хэдийн байршилтай.</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>%field талбарын утгыг хадгалж чадсангүй.</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>%language агуулгын хэл байхгүй.</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>Схемд %class агуулгын анги байхгүй.</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>Агуулга байхгүй, эсвэл та үүнийг унших эрхгүй.</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>Та энэ агуулгад ийм үйлдэл хийх эрхгүй.</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>%class ангид бичиж болох %field талбар байхгүй.</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>%field талбарыг хоёр удаа өгсөн байна.</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>%field талбар файл авна: үүнийг байршуулалт болгон илгээнэ үү (олон хэсэгт хүсэлт).</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>%field талбар файл авахгүй.</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>%field талбарт утга шаардлагатай.</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>%format формат нь зөвхөн баян текстийн талбарт зориулагдсан; %field утгаа байгаагаар нь авна (RAW).</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>%field талбар заавал шаардлагатай.</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>HTML-ийг уншиж чадсангүй.</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content нь version-ийг зөвхөн id-тэй хамт авна.</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>Урьдчилан харах токен хүчингүй эсвэл хугацаа нь дууссан.</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>Эх үүсвэр биш (https://host эсвэл https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>GraphQL API-ийн хамрах хүрээ биш: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>Захиалгуудыг /api/graphql/subscribe руу илгээнэ үү (үйл явдлын урсгал эсвэл WebSocket).</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>Хүсэлт баримтын ямар ч үйлдлийг нэрлээгүй байна.</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>Захиалга яг нэг талбар хүснэ.</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>Хэт олон захиалга нээлттэй байна; дараа дахин оролдоно уу.</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>Танд %max захиалга нээлттэй байна, энэ нь зөвшөөрөгдөх дээд хэмжээ.</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>Таны хаягт %max захиалга нээлттэй байна, энэ нь зөвшөөрөгдөх дээд хэмжээ.</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>Энэ сайтын хандалтад захиалга унтраалттай байна.</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>Захиалахын тулд нэвтэрнэ үү (токен эсвэл хувийн API түлхүүр).</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>Мутацийг /api/graphql руу илгээнэ үү.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>Шилжүүлгүүд</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Төлөвийг уншиж чадсангүй: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Шилжүүлгийн хүснэгтүүд хараахан байхгүй байна: ./console exp:upgrade --apply тэдгээрийг үүсгэнэ.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>%count шилжүүлэг амжилтгүй болсон</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>Ажиллуулалт явагдаж байна, эхлүүлсэн: %user</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>Суулгац түгжигдсэн байна: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Хүлээгдэж буй</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Амжилтгүй</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>Өнчин</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Сүүлийн ажиллуулалт</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>хараахан алга</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>Бүх шилжүүлэг</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>Дуурайлган ажиллуулалт</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>Туршилтын ажиллуулалт</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>Хүлээгдэж буй шилжүүлгүүд дараа нь буцаагдсан гүйлгээнд ажилласан: юу ч хадгалагдаагүй. Доор тус бүр өгөгдлийн санд юуг өөрчилснийг харуулав.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>Ажиллуулалт одоо юу хийхийг харуулна. Юу ч өөрчлөгдөхгүй: хүлээгдэж буй шилжүүлэг бүр хийх өөрчлөлтөө, ажиллуулалт өмнө болон дараа нь юу хийхээ жагсаана.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>Дуурайх</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Ажиллуулах</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>Туршилтын ажиллуулалт амжилтгүй боллоо: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>Дуурайлтад схемийн өөрчлөлтийг буцааж болдог PostgreSQL эсвэл SQLite шаардлагатай; энэ өгөгдлийн сан дээр доорх төлөвлөгөө нь ажиллуулалт юу хийхийг харуулна.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>Шилжүүлгүүд</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>Шилжүүлэг</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Төлөв</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>Юу хийх байсан</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>Дуурайлт: %result, %ms мс</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>Шилжүүлэг хараахан алга.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>Ажиллуулалтын өмнө ба дараа</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>Өмнөх агшин зураг</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>авсан бөгөөд шилжүүлэг амжилтгүй болбол сэргээнэ</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>унтраалттай</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>Дараах агшин зураг</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>ажиллуулалт амжилттай болоход авсан</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>%total шилжүүлэг: %pending хүлээгдэж буй, %done хийгдсэн, %failed амжилтгүй.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>Шилжүүлгийн түүх</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>Ажиллуулалт бүр хэрэглэгч, орчин, агшин зургууд болон юуг коммитлож, шошголж, илгээснийхээ хамт. Амжилтгүй эсвэл тасалдсан ажиллуулалтыг үргэлжлүүлж болно; өмнө нь агшин зураг авсан ажиллуулалтыг буцааж болно.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>Ажиллуулалтуудыг уншиж чадсангүй: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Шилжүүлгийн хүснэгтүүд хараахан байхгүй байна: ./console exp:upgrade --apply тэдгээрийг үүсгэнэ.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Харуулах</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Бүгд</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>Ажиллуулалтууд</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Эхэлсэн</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Хэн</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>Агшин зургууд</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Агуулах</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Үйлдлүүд</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>өмнө</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>дараа</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>илгээлт: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>Үргэлжлүүлэх</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Буцаах</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>Энэ төлөвт ажиллуулалт алга.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>Энд эхлүүлсэн</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>Эдгээр хуудсаас эхлүүлсэн ажиллуулалт, үргэлжлүүлэлт, буцаалтууд тус бүрийн тайлангийн хамт.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Юу</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Үр дүн</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Буцаалт</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>%target-ийн буцаалт</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>Ажиллуулалт %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Ажиллуулалт юу хийсэн, түүний бичлэг ба лог. Энд эхлүүлсэн ажиллуулалт энэ хуудсыг хаахад арын горимд үргэлжилнэ; дагахын тулд хуудсыг дахин нээнэ үү.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>Энэ ажиллуулалтыг үргэлжлүүлэх</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>Энэ ажиллуулалтыг буцаах</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>Бичлэгийг уншиж чадсангүй: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Явц</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>%user эхлүүлсэн, %time.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>Кодыг шалгаж, ажиллуулалтын өмнө агшин зураг авч байна</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>%id ажиллаж байна (%total-ээс %index)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>%total-ээс %done хийгдсэн</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>Шилжүүлгүүд ажилласан; аль нэг нь амжилтгүй бол агшин зургийг сэргээж байна</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>Ажиллуулалтын дараа агшин зураг авч, коммитлож, шошголж, илгээж байна</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>Агшин зургийг сэргээж байна</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>Ажиллуулалт дууслаа. Тайланг ачаалж байна.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>Явцыг дагаж чадсангүй. Ажиллуулалт хэрхэн явж байгааг харахын тулд хуудсыг дахин ачаална уу.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>Энэ хуудас ажиллуулалтыг явцын турш дагана.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Дахин ачаалах</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Тайлан</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Хугацаа</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms мс</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>Ажиллуулалтын алдаа болгон хэвлэсэн зүйл</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Бичлэг</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>Орчин</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>байхгүй</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Дууссан</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Коммит</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Шошго</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Илгээлт</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Мессеж</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>Энэ ажиллуулалтын шилжүүлгүүд</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>Эх сурвалж</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>Ажиллуулалтын лог</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>Логийн зөвхөн төгсгөлийг харуулж байна.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>ажиллаж байна</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>тайлангүй дууссан</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>амжилттай</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>амжилтгүй</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>татгалзсан</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>өгөгдлийн санд хүрэх боломжгүй байсан</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>дотоод алдаа</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>Ажиллуулалт явагдаж байна</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind-ийг %user эхлүүлсэн, %time.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>Дагах</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>Суулгац түгжигдсэн байна</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>Өөр ажиллуулалт түгжээг барьж байна (шинэчлэлт эсвэл консол дээрх ажиллуулалт): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>хийгдсэн</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>хүлээгдэж буй</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>шаардлагагүй</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>тодорхойгүй</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>буцаагдсан</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>хэрэгжсэн</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>хэрэгжих байсан</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>буцаагдсан</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>буцаагдах байсан</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>ажиллаагүй</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>өөр нэгийг хүлээж байна</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>өөрчлөлтийг зөвшөөрсөн</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>өөрчлөлтийг зөвшөөрөх байсан</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>дуурайсан</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Шилжүүлгүүд</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Статус</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Түүх</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>%target-ийг буцаах</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>Ажиллуулалтыг түүний өмнө авсан агшин зураг руу буцаана, нэг шилжүүлгийг түүний down()-оор. Өмнөх агшин зургийг сэргээх нь мэргэжилтнүүдэд зориулагдсан. Тус бүр одоогийн төлөвийн агшин зураг авсны дараа таны нэрээр арын горимд ажиллана.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>Юуг буцааж болохыг уншиж чадсангүй: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>Ажиллуулалт</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>Нэг шилжүүлэг</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>Өмнөх агшин зураг</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>Тайлбар</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>тийм</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>үгүй</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Агшин зураг</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Нэр</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>Авсан</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Төрөл</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>Сэргээх хэсгүүд</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>Өгөгдлийн сан</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>Хадгалалтын файлууд (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>Тохиргоо (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>Сэргээлт нь өгөгдлийн санг сессүүдийн хамт агшин зураг авсан цаг руу буцаана: дараа нь дахин нэвтрэх шаардлагатай байж болно. Түүнээс хойш өөрчлөгдсөн бүх зүйл алга болно; эхлээд одоогийн төлөвийн агшин зураг авна.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>Энэ юуг сэргээхийг би мэдэж байна</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>Агшин зургийн танигчийг дахин бичнэ үү</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>Тийм, буцаах</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Цуцлах</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>Өмнө нь агшин зураг авсан ажиллуулалтууд.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>Сонгох</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>Агшин зурагтай ажиллуулалт хараахан алга.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>Өөрсдийгөө буцааж чадах хэрэгжсэн шилжүүлгүүд (тэдэнд down() бий).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>Хэрэгжсэн ямар ч шилжүүлэгт down() алга.</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>Өмнөх агшин зургууд (мэргэжилтнүүд)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>Агшин зураг хараахан алга.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>Шилжүүлгүүдийг ажиллуулах</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>Ажиллуулалт %user нэрээр арын горимд үргэлжилж, түүний хуудас явцыг нь харуулна. Эхний шилжүүлгийн өмнө суулгацын агшин зураг авна; шилжүүлэг амжилтгүй болбол ажиллуулалт зогсож, агшин зургийг сэргээнэ.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>Эхлээд туршилтын ажиллуулалт</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Төлөвийг уншиж чадсангүй: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>Хүлээгдэж буй шилжүүлгүүд</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>Тэд энэ дарааллаар ажиллана. Аль нэгийг болон түүнийг шаарддаг шилжүүлгүүдийг дараагийн ажиллуулалтад үлдээхийн тулд тэмдгийг арилгана уу.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>Ажиллуулах</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>Ажиллах үедээ засвар үйлчилгээний горимыг асаана.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>Хэрэгжсэнийхээ дараа өөрчлөгдсөн</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>Эдгээр файлууд хэрэгжсэн файлууд биш байна. Өөрчлөлтийг шалтгаантайгаар зөвшөөрөөгүй бол ажиллуулалт тэднийг татгалзана; тэд дахин ажиллахгүй, шинэ хяналтын нийлбэрийг бүртгэж, шалтгааныг аудитын логт хадгална.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>Өөрчлөлтүүдийг зөвшөөрөх</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Шалтгаан</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>Анхдагч утгууд нь аюулгүй. Хайрцаг бүр нэг алхмыг алгасна.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>Агшин зураггүй</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>Ажиллуулалтын өмнө ба дараа агшин зураг авахгүй: алдааг автоматаар сэргээх боломжгүй.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>Сэргээлтгүй</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>Алдааны дараа суулгацыг алдаа үлдээсэн байдлаар нь орхих.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>Коммитлоогүй өөрчлөлтүүдийг үлдээх</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>Тохиргоо, өргөтгөл эсвэл дизайнд коммитлоогүй өөрчлөлт байсан ч ажиллуулах; тэд агшин зурагт орно.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>Коммитгүй</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>Төлөвийн файл болон ажиллуулалтын логийг коммитлохгүй (шошго ч, илгээлт ч үгүй).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>Илгээлтгүй</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>Коммитлож шошголох боловч илгээхгүй.</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>Шошгогүй</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>Коммитлож илгээх боловч ажиллуулалтыг шошголохгүй.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>Тийм, эдгээр шилжүүлгийг одоо ажиллуулах</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Хүлээгдэж буй шилжүүлэг алга.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>Төлөв рүү буцах</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>Энэ суулгацын өөрчлөлтүүдийг нэг удаа файл хэлбэрээр бичиж (контент, ангилал, үүрэг, тохиргоо, схем), сайтын суулгац бүрт ижил дарааллаар хэрэгжүүлнэ. Ажиллуулалт эхлээд агшин зураг авч, шилжүүлэг амжилтгүй болбол түүнийг сэргээж, хийсэн зүйлээ бүртгэж, коммитлож, илгээнэ.</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>Хүлээгдэж буй %count-ийг ажиллуулах</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Тойм</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Хүлээгдэж буй</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Хийгдсэн</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Амжилтгүй</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>Шаардлагагүй</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>Өгөгдлийн сан</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>гүйлгээ: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>Сайтын шилжүүлгүүд migrations/ дотор, өргөтгөлийнх extension/&lt;name&gt;/migrations/ дотор байна. Тэд нэрийнхээ дараалал ба шаардлагынхаа дагуу ажиллана.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Сүүлийн ажиллуулалт</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>Файл хэрэгжсэнийхээ дараа өөрчлөгдсөн.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>Шилжүүлэг хараахан алга. ./console exp:migration:generate --skeleton &lt;name&gt; --apply эхнийхийг бичнэ.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>Сүүлийн ажиллуулалтууд</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>Бүх ажиллуулалт</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>Ажиллуулалт хараахан алга.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>Ажиллуулалтыг дуурайхад migration/run бодлого шаардлагатай.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>Ажиллуулалт явагдаж байна: дууссаны дараа дуурайна уу.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Тохируулга</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target нь энэ суулгацын ажиллуулалт ч, шилжүүлэг ч, агшин зураг ч биш.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>Эхлээд «Тийм, буцаах»-ыг тэмдэглэнэ үү.</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>Өмнөх агшин зургийг сэргээх нь мэргэжилтнүүдэд зориулагдсан: «Энэ юуг сэргээхийг би мэдэж байна»-ыг тэмдэглэнэ үү.</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>Агшин зургийн танигчийг дахин бичнэ үү: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>Сэргээх дор хаяж нэг хэсгийг сонгоно уу.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>Энэ ажиллуулалтын өмнө агшин зураг аваагүй: шилжүүлгүүдийг нь нэг нэгээр буцаах эсвэл өмнөх агшин зургийг сэргээнэ үү.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>Энэ шилжүүлэг өөрөө буцаагдах боломжгүй: хэрэгжээгүй эсвэл down() байхгүй.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Маягтыг уншиж чадсангүй.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>Үргэлжлүүлэх ажиллуулалтыг сонгоно уу.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>Эхлээд «Тийм, эдгээр шилжүүлгийг одоо ажиллуулах»-ыг тэмдэглэнэ үү.</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>Дор хаяж нэг шилжүүлэг сонгоно уу.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>Шилжүүлэг хэрэгжсэнийхээ дараа өөрчлөгдсөн: өөрчлөлтийг шалтгаантайгаар зөвшөөрөх эсвэл файлыг буцааж тавина уу.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>Өөрчлөгдсөн шилжүүлгүүдийг яагаад зөвшөөрч байгаа шалтгааныг бичнэ үү.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>Шалтгаан хамгийн ихдээ 500 тэмдэгт байна.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>Энд эхлүүлсэн ажиллуулалт үргэлжилсээр байна (%detail). Дуусахыг хүлээнэ үү.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>Өөр ажиллуулалт суулгацын түгжээг барьж байна: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>Ажиллуулалтад нэвтэрсэн, бодитоор байгаа хэрэглэгч шаардлагатай.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>php тушаалын мөрийн програм олдсонгүй. migration.ini [AdminSettings] PhpCliPath-д түүний бүтэн замыг тохируулна уу.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open идэвхгүй тул энд ажиллуулалт эхлүүлэх боломжгүй. Сервер дээр ./console exp:migration:migrate --apply-г ажиллуулна уу.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>Ажиллуулалтын хавтас руу бичих боломжгүй: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>Ажиллуулалт эхэлсэн боловч процессын танигчаа мэдээлсэнгүй. %detail-г шалгана уу.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>Юуг буцаахыг заана уу.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>Ажиллуулалтыг эхлүүлж чадсангүй.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>Өөрчлөлтийг бичих</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>Бичлэг явагдаж байх үед удирдлагад эсвэл сайтын хажуугийн самбарт таны өөрчилсөн зүйл шилжүүлгийн алхмууд болж хадгалагдана: агуулга, анги, үүрэг ба бодлого, хэсэг, хэрэглэгч ба бүлэг, URL нэр, тохиргоо. Дуусмагц зогсоож, юу барьж авсныг хараад, түүнээс шилжүүлэг үүсгэнэ үү.</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>Бичлэгүүдийг уншиж чадсангүй: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>Бичлэгийн хүснэгтүүд хараахан алга: эхлээд шинэчлэлийг ажиллуулна уу (exp:upgrade --apply).</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>Бичлэг migration.ini дотор унтраалттай ([RecordingSettings] Recording=disabled).</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>Миний өөрчлөлтүүд</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>Таныг зогсоох хүртэл зөвхөн таны өөрчилсөн зүйлийг, хаана ч өөрчилсөн, бичнэ.</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>Бичлэг</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>%time-с хойш, одоогоор %count өөрчлөлт.</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>Шошго (заавал биш)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>Юу барьж авсныг харуулах</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Бичлэгийг зогсоох</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>Миний өөрчлөлтийг бичиж эхлэх</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>Бүх сайтын цонх</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>Хаагдах хүртэл хэрэглэгч бүрийн болон консолын өөрчлөлт бүрийг бичнэ. Нээх үед таныг өөрөө мөн эсэхийг баталгаажуулахыг хүснэ.</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Нээлттэй</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>Цонхыг хаах</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>Бүх сайтын цонхыг нээх</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>Бичлэгүүд</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>Хэрэглэгчийн бүртгэл (нэвтрэх нэр, имэйл, нууц үг) болон хэрэглэгчийн бүртгэлийн талбаруудыг хэзээ ч бичихгүй.</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Өөрчлөлтүүд</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>Бүх сайт</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>%name-ийн өөрчлөлтүүд</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Зогсоосон</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>Одоогоор бичлэг алга.</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>Бичлэг %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>Бүх бичлэг</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>Түүнээс гарах шилжүүлэг</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>Өөрчлөгдсөн зүйл бүрт нэг алхам болгон нэгтгэсэн өөрчлөлтүүд: энэ бичлэгээс үүсгэсэн шилжүүлэг юу хийхийг.</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>Энэ суулгацад YAML алхмын төрлүүд %types бий болоход түүнээс шилжүүлэг үүсгэж болно.</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>Санаатайгаар орхисон: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>Юу ч бичигдсэнгүй.</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>Юу барьж авсан</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>%count өөрчлөлт, хийгдсэн дарааллаараа.</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Өөрчлөлт</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>Алхам</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>Холбогдох</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>Бас %count: ./console exp:migration:record:show бүгдийг жагсаана.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Хаях</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>Бичлэг болон түүний барьж авсныг устгана. Өөрчлөгдсөн зүйл өөрчлөгдсөн хэвээр үлдэнэ.</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>Тийм, энэ бичлэгийг хаях</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>Бичиж байна…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Таны өөрчлөлтүүдийг шилжүүлэгт зориулан бичиж байна.</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>Энэ сайт дахь өөрчлөлт бүрийг шилжүүлэгт зориулан бичиж байна (бүх сайтын цонх).</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>Бүх сайтын бичлэг эхэллээ: таныг зогсоох хүртэл хэрэглэгч бүрийн өөрчлөлт бүрийг бичнэ.</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>Бичлэг эхэллээ: таныг зогсоох хүртэл таны өөрчлөлтүүдийг бичнэ.</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>Бичлэг зогслоо. Барьж авсан зүйл таныг хаях хүртэл үлдэнэ.</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>Бичлэг болон түүний үйл явдлуудыг устгалаа.</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>%id бичлэг алга.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>Эхлээд «Тийм, энэ бичлэгийг хаях»-ыг тэмдэглэнэ үү.</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>Сешний бичлэгийг зөвхөн бичсэн хэрэглэгч зогсоож чадна.</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>Зогсоох бичлэгээ сонгоно уу.</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>Энэ төрлийн бичлэг аль хэдийн явагдаж байна.</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>Бичлэгийг өөрчилж чадсангүй: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>Шилжилт үүсгэх</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>Шилжилтийн нэр (заавал биш)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>%file шилжилтийг бичлээ. Ямар ч алхам хийж чадахгүй өөрчлөлтүүдийг файлын эхэнд нэрлэсэн бөгөөд гараар хийнэ.</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>Ямар ч шилжилт бичигдсэнгүй: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>Хэсэгчлэн урт ажиллуулалт</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>Хоосон талбарууд migration.ini [RunSettings]-ийн тохиргоог хадгална.</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>Хамгийн ихдээ ийм олон шилжилт</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>Үүний дараа шилжилт хийхгүй (секунд)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>Шилжилтүүдийн хоорондын завсарлага (секунд)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>Бага ач холбогдол (1-ээс 19)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>Урт ажиллуулалтын талбар нь 1-ээс эхлэх бүхэл тоо (завсарлага: 0-ээс 60 секунд, ач холбогдол: 1-ээс 19) эсвэл хоосон.</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>Энэ нь %time цагт өөрөө хаагдана.</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>Үүний дараа өөрөө хаах (минут, заавал биш)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>Минут нь 1-ээс 44640 (31 өдөр) хүртэлх бүхэл тоо эсвэл хоосон.</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>Шилжүүлэг %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>Шинэ шилжүүлэг</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>YAML шилжүүлэг: үүнийг текстээр бичих эсвэл алхмуудыг нь маягтаар бүрдүүлж, шалгаад, дараа нь шилжүүлгийн хавтсанд хадгална уу.</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>Энэ шилжүүлэг аль хэдийн ажилласан тул дахин хадгалагдахгүй: өөрчлөгдсөн файлыг шалгах нийлбэрийн хамгаалалт татгалзана. Өөрчлөлтийг шинэ шилжүүлэгт хийнэ үү.</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>Вэб сервер файлыг бичиж чадахгүй.</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>Эхэн дэх сэтгэгдлийн мөрүүд нь толгой хэсэг (description, author, requires, environments, engines). Маягтаар алхам нэмэх эсвэл өөрчлөхөд шилжүүлгийг дахин бичнэ: алхмуудын хоорондох сэтгэгдлүүд хадгалагдахгүй.</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>Шилжүүлгийн нэр</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>Хаана байрлах</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>Сайт</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>YAML текст</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>Шалгах</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Хадгалах</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Алхмууд</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>Түлхүүрүүд</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Засах</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>Дээш зөөх</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>Доош зөөх</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Хасах</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>Одоогоор алхам алга: маягтаар нэгийг нэмэх эсвэл текстэд бичнэ үү.</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>Алхам %number өөрчлөх</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>Алхам нэмэх</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>Алхмын маягт нь түүний алхмын төрлөөс бүрдэнэ: түлхүүрүүд, тус бүр юу хүлээн авах, мөн хамаарах горимууд.</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>Алхмын төрөл</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>Түүний маягтыг харуулах</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>Алхамд түүний төрлийн мэдэхгүй түлхүүрүүд байна; алхмыг өөрчлөхөд тэдгээрийг орхино: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>Горим</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>Дотор</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>зөвхөн %modes горимд</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>Анхдагч: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>Нөхцөл, лавлагаа ба сэтгэгдэл</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>Нэр=утга хосууд, таслалаар тусгаарлагдсан. Энэ алхмын утгууд: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>Жишээ</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>Алхам өөрчлөх</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>Алхмыг нэмэх</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>exp:migration:check юу хэлж байна: толгой хэсэг, баримт бичиг болон алхмын төрлөөрөө шалгагдсан алхам бүр.</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>Шилжүүлэг шалгалтыг давлаа.</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Урьдчилан харах</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>Хадгалагдах хэлбэрээрх YAML.</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>YAML-ийг харуулах</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>YAML шилжүүлгүүд</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>ажилласан</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>Одоогоор YAML шилжүүлэг алга.</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>Редакц</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>Шилжүүлгийн хавтсуудад %id гэсэн YAML шилжүүлэг алга.</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>Алхмын төрлийг сонгоно уу.</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>Алхам нэмэгдлээ. Хадгалахаасаа өмнө шилжүүлгийг шалгана уу.</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>Алхам өөрчлөгдлөө. Хадгалахаасаа өмнө шилжүүлгийг шалгана уу.</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>Алхам сонгоно уу.</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>Энэ алхамд маягт байхгүй (давталт эсвэл энэ суулгацад байхгүй алхмын төрөл): текстэд өөрчилнө үү.</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>Шилжүүлэг хаана байрлахыг сонгоно уу: сайт эсвэл идэвхтэй өргөтгөл.</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>%file хадгалагдлаа. Шилжүүлгийг ажиллуулахаас өмнө туршилтын ажиллуулалт хийнэ үү.</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>Хадгалагдсангүй: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>Алсын цэгүүд</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>Энэ суулгац шилжүүлгүүдээ байршуулдаг бусад суулгацууд: байршуулалт нь шилжүүлгүүдийг сонгосон алсын цэгүүд рүү илгээж, тэнд бүгдийг нэгэн зэрэг, синхрон ажиллуулна. Алсын цэг хэзээ ч нууц хадгалдаггүй: түүний нэвтрэх мэдээлэл Тохируулга &gt; Нууцууд доторх нэг нууцыг нэрлэнэ.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>Шинэ алсын цэг</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Тусламж</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>%id-ийн холболтын шалгалт</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>Бүх алсын цэг</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>Нэгэн зэрэг %parallel хүртэлх алсын цэг дээр ажиллана; нэг фаз тус бүр дээр %timeout секунд үргэлжилж болно.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>Алсын цэг</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Хаяг</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Нэвтрэх мэдээлэл</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>Бүлгүүд</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>засах тохиргоо</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>зөвхөн файл (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>SSH түлхүүр</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>Нууц үг</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>байхгүй (хостын SSH агент ба түлхүүрүүд)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>Холболтыг шалгах</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>Бүлэг рүү хийх байршуулалт нь түүний алсын цэг бүрд очно.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>Алсын цэгүүд рүү байршуулах</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>Одоогоор алсын цэг тохируулаагүй байна.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>Алсын цэг %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>Энд юу ч илгээгдэхгүй, ажиллахгүй: Хадгалах нь тохиргоог settings/override/migration.ini.append.php руу бичнэ. Нэвтрэх мэдээлэл бол нэр; түүний утга Тохируулга &gt; Нууцууд эсвэл орчинд үлдэнэ.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Эдгээр тохиргоог шалгана уу</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>Оруулсан ёсоороо, хараахан хадгалаагүй тохиргоо.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Хянах</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Тохиргоо хүчинтэй. Дараах мөрүүд бичигдэнэ:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>Тээвэрлэлт</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>зөвхөн нэр; утга нь Тохируулга &gt; Нууцууд хэсэгт үлдэнэ</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Бичигдэх мөрүүд</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>Холболт</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>Хостын түлхүүр</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. Алсын цэг</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>Алсын цэгийг юу гэж нэрлэдэг, ямар орчин болох.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>Үсэг, цифр, - болон _, жишээ нь production1. Энэ нь тайлан болон консол дээр (--remotes=production1) алсын цэгийг нэрлэх ба дараа нь өөрчлөх боломжгүй.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... Үе шаттай байршуулалт орчнуудыг энэ дарааллаар дамжина.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>Заавал биш, таслалаар тусгаарлана, жишээ нь production. Бүлэг рүү хийх байршуулалт нь түүний алсын цэг бүрд очно.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. Холболт</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>Файлууд тийшээ хэрхэн хүрэх, суулгац хаана байгаа.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>SSH-ээр, зөвхөн өөрчлөгдсөн хэсгийг, тасарсан дамжуулалтыг үргэлжлүүлнэ. rsync суусан газарт хамгийн сайн сонголт.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>Файлуудад scp ашигладаг SSH.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>Файлуудад sftp ашигладаг SSH.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>Зөвхөн файл: шилжүүлгүүдийг илгээж, буцааж уншдаг ч тэнд ажиллуулж чадахгүй.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>TLS дээрх FTP; зөвхөн файл.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>Энэ сервер дээрх, хавтас доторх өөр суулгац.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Хост</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>Хостын нэр эсвэл хаяг, жишээ нь node1.example.com. local-д биш.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>Порт</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>Хоосон: SSH-д 22, FTP-д 21.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Хэрэглэгч</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>Зам</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>Тэндх суулгацын үндсэн хавтас, жишээ нь /var/www/site (FTP-д: FTP бүртгэлийн хардаг зам).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>PHP командын мөр</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>Тэндх PHP CLI: php, эсвэл /opt/plesk/php/8.4/bin/php гэх мэт бүтэн зам.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>Консолын скриптүүд тэнд root-ээр ажиллана</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>Зөвхөн алсын цэгийн хэрэглэгч root үед (тэгвэл тэдгээрийг --allow-root-user-ээр ажиллуулна).</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. Нэвтрэх мэдээлэл</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>Энэ суулгац тэнд хэрхэн нэвтрэх. Зөвхөн нэр хадгалагдана.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Байхгүй</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>Энэ суулгацыг ажиллуулж буй хэрэглэгчийн SSH агент болон түлхүүрүүд (local-д үргэлж).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>Нууц болгон хадгалсан хувийн түлхүүр.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>Нууц болгон хадгалсан нууц үг (FTP үүгээр нэвтэрнэ).</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>Нууцын нэр</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>Тохируулга &gt; Нууцууд доторх нууц, жишээ нь deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Тохируулга &gt; Нууцууд</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>Эсвэл орчны хувьсагч</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>Үүнийг агуулж буй серверийн процессын хувьсагч, жишээ нь DEPLOY_KEY (env:DEPLOY_KEY гэж хадгална). Энэ нь нууцын нэрийг орлоно.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. Хостын түлхүүр</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>Заавал биш, SSH, sftp болон rsync-д.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>Хостын түлхүүрийн хурууны хээ</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... хэлбэрээр, ssh-keygen -l хэвлэдэг шиг. Үүнтэй бол хост энэ түлхүүрийг харуулах ёстой; үүнгүй бол түлхүүрийг анхны холболтоор сурна.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. Хянах</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>Дээрх тохиргоогоор холболтыг шалгаад, дараа нь бичигдэх мөрүүдийг хянана уу.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>Энэ алсын цэгийг хасах</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>Түүний тохиргоог settings/override/migration.ini.append.php-ээс хасна. Алсын цэг дээр юу ч өөрчлөгдөхгүй бөгөөд түүний байршуулалтууд түүхэнд үлдэнэ.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>Тийм, энэ алсын цэгийг хасах</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>Байршуулалтууд</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>Байршуулалт нь энэ суулгацын шилжүүлгүүдийг сонгосон алсын цэгүүд рүү илгээж, тэнд %user нэрээр бүгдийг нэгэн зэрэг, синхрон ажиллуулна: эхлээд алсын цэг бүрийг шалгах ба аль нэг нь амжилтгүй болбол хэрэгжүүлсэн алсын цэг бүрийг буцаана. Энэ нь арын горимд явагдах ба түүний хуудас алсын цэг бүрийг явцын дагуу харуулна.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. Алсын цэгүүд</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>Алсын цэгүүд, бүлэг эсвэл хоёуланг нь тэмдэглэнэ үү.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>Түүн рүү байршуулах</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. Хэрхэн</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>Байршуулах</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>Илгээж ажиллуулах</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>Шилжүүлгүүдийг алсын цэг бүр рүү илгээж, баталгаажуулж, нэг нийтлэг ажиллуулалтын ID-аар ажиллуулна.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>Зөвхөн дамжуулах</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>Файлуудыг илгээж баталгаажуулна, юу ч ажиллуулахгүй (FTP алсын цэгийн цорын ганц арга).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>Үе шаттай</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>Орчнуудын дарааллаар (dev, stage, beta, production ...) үе шат үе шатаар: эхний үе шатыг байршуулж, дараа нь хэн нэгэн дараагийнхыг батлах хүртэл хаалга хүлээнэ. Үе шат бүрийн дотор бүгд эсвэл юу ч үгүй.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>Зөвхөн эдгээр шилжүүлэг</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>Заавал биш: шилжүүлгийн ID-ууд, таслалаар тусгаарлана. Хоосон: сайт болон түүний өргөтгөлүүдийн шилжүүлэг бүр.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>Зөвхөн урьдчилсан шалгалт</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>Тийм, одоо байршуулах</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>Ямар нэг зүйл илгээсэн эсвэл ажиллуулсан байршуулалтууд, хамгийн шинэ нь эхэндээ (урьдчилсан шалгалт тайлан хадгалдаггүй).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>зөвхөн дамжуулах</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>үе шаттай, %stages үе шат</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>синхрон биш</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>Одоогоор байршуулалт алга.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>Байршуулалт %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Байршуулалтын алсын цэг бүр төлөвтэйгөө. Энд эхлүүлсэн байршуулалт энэ хуудсыг хаахад арын горимд үргэлжилнэ; үүнийг дагахын тулд хуудсыг дахин нээнэ үү.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>Бүх байршуулалт</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>Урьдчилсан шалгалт</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>Дараагийн үе шат</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>Тохиргоо болон нэвтрэх мэдээллийг шалгаж байна</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>Урьдчилсан шалгалт: алсын цэг бүрийн төлөвийг уншиж байна</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>Шилжүүлгийн файлуудыг илгээж байна</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>Ирсэн зүйлийг баталгаажуулж байна</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>Алсын цэг бүр дээр шилжүүлгүүдийг ажиллуулж байна</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>Алсын цэгүүдийг буцааж байна</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>Байршуулалт дууслаа. Тайланг нь ачаалж байна.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>Явцыг дагаж чадсангүй. Байршуулалт хэр явж байгааг харахын тулд хуудсыг дахин ачаална уу.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>Фаз</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>Энэ хуудас байршуулалтыг явцын дагуу дагана.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>Синхрон</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>Үе шатууд</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>%stage-р үе шат хаалган дээрээ хүлээж байна</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>Хаалга %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>%user %time-д баталсан</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>Үе шат</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>Илгээсэн файлууд</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>Цөмийн хувилбар</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>хэрэгжсэн: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>хэрэгжүүлэх: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>Фазууд</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>Хаалга: %stages-ийн %stage-р үе шат</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>Өмнөх үе шатууд байршсан. Тэдгээрийг шалгаад, дараагийн үе шатыг батална уу: түүний алсын цэгүүдийг дахин шалгаж байршуулна, бүгд эсвэл юу ч үгүй.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Дараах</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>Тийм, дараагийн үе шатыг одоо байршуулах</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Батлах</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>Энэ байршуулалтыг буцаах</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>Үүнийг хэрэгжүүлсэн алсын цэг бүр (%list) ажиллуулалтынхаа өмнө авсан агшин зураг руу бүгд нэгэн зэрэг буцна.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>Тийм, энэ байршуулалтыг одоо буцаах</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>төлөвлөсөн</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>дамжуулсан</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>байршсан</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>хаалган дээр хүлээж байна</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>сонгосон</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>бэлтгэсэн</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>бэлэн</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>үе шатаа хүлээж байна</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>файл илгээсэн</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>баталгаажсан</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>амжилтгүй, өөрийгөө сэргээсэн</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>өөрчлөгдөөгүй</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>байршаагүй</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>холбогдох боломжгүй</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>Алсын цэг хариу өглөө.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>Алсын цэгийг одоо ашиглах боломжгүй.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done хийгдсэн, %pending хүлээгдэж буй, %failed амжилтгүй</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>Түгжээ</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>тэнд нэг ажиллуулалт түгжээг барьж байна</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>сул</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stages-ийн %stage</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>Шалгах алсын цэгээ сонгоно уу.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>Эхлээд «Тийм, энэ алсын цэгийг хасах»-ыг тэмдэглэнэ үү.</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>Алсын цэгийг хасаж чадсангүй: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>Алсын цэгийг хадгалж чадсангүй: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Тохиргооны файлыг уншиж чадахгүй: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>Дор хаяж нэг алсын цэг эсвэл бүлэг сонгоно уу.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>Сонгосон алсын цэг тохиргоонд байхгүй болсон. Хуудсыг дахин ачаална уу.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>Эхлээд «Тийм, одоо байршуулах»-ыг тэмдэглэнэ үү.</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>FTP алсын цэг шилжүүлэг ажиллуулж чадахгүй: «Зөвхөн дамжуулах»-ыг сонгох эсвэл түүнийг орхино уу.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>Байршуулах шилжүүлгүүд нь таслалаар тусгаарласан шилжүүлгийн ID-ууд.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>Байршуулалт үргэлжилсээр байна. Дуустал хүлээнэ үү.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>Энэ байршуулалт хаалган дээр хүлээхгүй.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>Энэ байршуулалтыг ямар ч алсын цэг хэрэгжүүлээгүй: буцаах зүйл алга.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>Эхлээд «Тийм, дараагийн үе шатыг одоо байршуулах»-ыг тэмдэглэнэ үү.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>Эхлээд «Тийм, энэ байршуулалтыг одоо буцаах»-ыг тэмдэглэнэ үү.</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>%id ID-тай алсын цэг аль хэдийн байна.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>Порт нь 1-ээс 65535 хүртэлх тоо.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>Орчин нь үсэг, цифр, - болон _-ээс бүрдсэн үг (alpha, dev, stage, beta, production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>Бүлэг нь үсэг, цифр, - болон _-ээс бүрдсэн үг (all биш): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>Нэвтрэх мэдээллийг одоо унших боломжгүй: %problem. Эхний байршуулалтаас өмнө үүнийг Тохируулга &gt; Нууцууд-д хадгална уу (эсвэл хувьсагчийг тохируулна уу).</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>FTP алсын цэг зөвхөн файл хүлээн авна: түүн рүү хийх байршуулалт нь «Зөвхөн дамжуулах» бөгөөд шилжүүлгүүдийг тэнд гараар ажиллуулна.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>%id алсын цэг settings/override/migration.ini.append.php-д байхгүй; тохируулсан газраас нь хасна уу.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>FTP-ээр нэвтэрч index.php-г уншлаа. FTP алсын цэгийн шилжүүлгийн төлөвийг унших боломжгүй.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>Өөрчилсөн</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>Үүсгэсэн</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Нэр</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Анги</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Хэсэг</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>Үүсгэгч</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Шинэ агуулга</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>Бүх сайтын хамгийн сүүлд үүсгэсэн болон өөрчилсөн агуулга, хамгийн шинэ нь эхэндээ: зочдын илгээсэн зүйлс, хянуулахаар саатуулсан зүйлс, нийтлэгдэхээ хүлээж буй ноорогууд. Зүйлсийг чөлөөлөх, саатуулах, нуух, харуулах, хасах эсвэл өөр хэсэг, төлөв рүү шилжүүлэхийн тулд сонгоно уу.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>Жагсаалтыг уншиж чадсангүй: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>Хяналтын саатуулга хараахан тохируулагдаагүй тул юу ч саатуулагдахгүй бөгөөд саатуулах үйлдлүүд санал болгогдохгүй. Үүнийг 6.0.15-review-hold шинэчлэлийн алхам тохируулна: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Жагсаалтыг шүүх</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Эхлэх</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Дуусах</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Огноо</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>Үүсгэсэн (анх нийтэлсэн)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Бүгд</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Нийтлэлийн статус</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Нийтлэгдсэн</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>Ноорог, хэзээ ч нийтлэгдээгүй</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>Хүлээгдэж буй (зөвшөөрөл эсвэл огноо хүлээж буй)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>Хогийн саванд</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Хянуулахаар саатуулсан</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>Саатуулсан</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>Саатуулаагүй</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>Нуугдсан</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>Харагдах</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>Илгээсэн сайтын хандалт</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>Дурын сайтын хандалт</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>Зөвхөн аудитын бүртгэсэн зүйлс.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>Одоо: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>Нэвтрэх нэр эсвэл хэрэглэгчийн дугаар.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Шүүх</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>Шүүлтүүрийг цэвэрлэх</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>Зүйлс</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%count-аас %from–%to</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Зүйл алга</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(%ms мс-д уншсан)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>Сонгосон зүйлс дээрх үйлдлүүд</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>Энэ хуудсан дээрх бүгдийг сонгох</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>%count сонгосон</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Үйлдэл</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>Үйлдэл сонгоно уу</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>Саатуулгыг цуцлах</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Хянуулахаар саатуулах</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Нуух</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>Харуулах</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>Хогийн сав руу зөөх</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>Устгах</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>Хэсэг оноох</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>Төлөв оноох</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>Шалтгаан</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>Саатуулахад шаардлагатай; саатуулгатай хамт болон аудитад хадгалагдана.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>Хэсэг сонгоно уу</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Төлөв</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>Төлөв сонгоно уу</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>Сонгосонд хэрэгжүүлэх</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>Зүйл бүрийг таны өөрийн зөвшөөрлөөр шалгана. Хогийн сав руу зөөх болон устгах үед баталгаажуулалт асууна. %count-аас олон зүйл ар талд ажиллана.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>Сонгох</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>Нийтлэл</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>Хаанаас илгээсэн</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>%name-г сонгох</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>хараахан үгүй</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(нэргүй)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>Дугаар %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>Ноорог</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Хүлээгдэж буй</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>Эх зүйлээрээ нуугдсан</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>Саатуулсан: шинэ илгээлт</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>%version хувилбар хүлээгдэж буй</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>%version хувилбар боловсруулагдаж буй</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>Ноорог, %version хувилбар</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>%version хувилбар нийтлэгдсэн</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>%date-нд товлосон</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>хаяг алга</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>бүртгэгдээгүй</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>Эдгээр шүүлтүүрт тохирох зүйл алга.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Бүгдийг харуулах</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>Агуулга хараахан алга.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Хуудас бүрт</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Хуудас бүрт %count зүйл харуулах.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says "not recorded".</source>
+        <translation>Илгээлтийн хаяг болон хөтөч аудитын индексээс ирдэг бөгөөд энд ашиглах боломжгүй: баганад «бүртгэгдээгүй» гэж бичигдэнэ.</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>Хаяг болон хөтөч нь аудитын тухайн зүйлд бүртгэсэн утга юм (автомат саатуулга үүнийг үргэлж бүртгэдэг; нийтлэх болон үүсгэх нь зөвхөн идэвхжүүлсэн үед), нууцлалын тохиргоо хадгалсан хэлбэрээр.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: %count зүйл</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>Устгах нь зүйлсийг бүх хувилбар, орчуулгынх нь хамт бүрмөсөн арилгана. Буцаах боломжгүй.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>Зүйлс хогийн сав руу очих бөгөөд тэндээс сэргээж болно.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>Зүйл бүрийг таны өөрийн зөвшөөрлөөр шалгана; дэд зүйлтэй зүйлийг хэвээр нь үлдээнэ (түүнийг агуулгын бүтцэд хасна уу). Таныг мөн эсэхийг баталгаажуулахыг танаас хүснэ.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>Энэ нь ар талд ажиллана: явцын хуудас нь нээгдэж, дууссаны дараа зүйл тус бүрийн үр дүн харагдана.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>Сонгосон зүйлс</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>болон өөр %count</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Цуцлах</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>Юу ч хийгдсэнгүй</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Шалтгаан: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>Үйлдэл ар талд ажилласаар байна.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>Түүний явц</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>Ар талын үйлдэл амжилтгүй боллоо: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Дууссан</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Татгалзсан</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Амжилтгүй</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>Зүйл тус бүрээр</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>Зүйл</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Үр дүн</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Яагаад</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>Жагсаалт руу буцах</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Тохируулга</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>Юу ч хийгдсэнгүй</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>Баталгаажуулах</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>Үйлдэл сонгоно уу.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>Дор хаяж нэг зүйл сонгоно уу.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>Нэг удаад хамгийн ихдээ 1000 зүйл сонгоно уу.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>Зүйлсийг яагаад саатуулж буйг бичнэ үү.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>Хэсгийг сонгоно уу.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>Төлөвийг сонгоно уу.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Маягтыг уншиж чадсангүй.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>Хяналтын самбар</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>Шинэ агуулга</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>Тоонуудыг уншиж чадсангүй: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Хянуулахаар саатуулсан</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>Өнөөдөр шинэ</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Хяналтын саатуулга хараахан тохируулагдаагүй (6.0.15-review-hold шинэчлэлийн алхам).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>Бүх шинэ агуулга</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>Та модерацийн үйлдэл гүйцэтгэх эрхгүй (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>Модерацийн үйлдэл дуусаагүй: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>Модераци: %count объект дээр %action</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%total объектоос %done: %ok дууссан, %refused татгалзсан, %failed амжилтгүй</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok дууссан, %refused татгалзсан, %failed амжилтгүй</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>Энэ одоо байхгүй болсон.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>Энэ байршилгүй (нийтлэгдээгүй).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>Та үүнийг нуух эрхгүй (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>Та үүнийг харуулах эрхгүй (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>Энэ аль хэдийн нуугдсан.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>Энэ нуугдаагүй.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>Нуусан.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>Харуулсан.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>Энэ хогийн саванд байна: тэнд хоосолж эсвэл сэргээнэ үү.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>Хэзээ ч нийтлэгдээгүй ноорог хогийн сав руу орох боломжгүй: үүнийг устгана уу.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>Та үүнийг устгах эрхгүй (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>Устгасан.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>Та үүнийг хасах эрхгүй (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>Үүнд дэд зүйлс бий: дэд зүйлс нь жагсаагдсан агуулгын бүтцэд үүнийг хасна уу.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>Үүнийг хасаагүй (ажлын урсгал хасалтыг саатуулж магадгүй).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>Хогийн сав руу зөөсөн.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>Хэсэг байхгүй.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>Энэ аль хэдийн энэ хэсэгт байна.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>Та энэ хэсгийг оноох эрхгүй (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>Хэсгийг оноосонгүй.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>Хэсгийг оноосон.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>Төлөв байхгүй.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>Энэ аль хэдийн энэ төлөвт байна.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>Та энэ төлөвийг оноох эрхгүй (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>Төлөвийг оноосонгүй (ажлын урсгал өөрчлөлтийг саатуулж магадгүй).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>Төлөвийг оноосон.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>Ийм үйлдэл байхгүй.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Хяналтын саатуулга тохируулагдаагүй (6.0.15-review-hold шинэчлэлийн алхам).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>Яагаад саатуулж буйг бичнэ үү.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>Энэ аль хэдийн саатуулагдсан.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>Та үүнийг саатуулах эрхгүй (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>Саатуулга тавигдсангүй (ажлын урсгал өөрчлөлтийг саатуулж магадгүй).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>Саатуулсан.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>Энэ саатуулагдаагүй.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>Та үүнийг чөлөөлөх эрхгүй (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>Саатуулгыг цуцалсангүй (ажлын урсгал өөрчлөлтийг саатуулж магадгүй).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>Чөлөөлсөн; одоо ч нуугдсан хэвээр: та үүнийг харуулах эрхгүй (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>Чөлөөлсөн.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>Бүх зорилт</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Сүүлийн нийтлэлт</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>Сайтынхаа үнэгүй статик хуулбарыг GitHub Pages дээр нийтлээрэй:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Хуучирсан хуудсууд</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Статик нийтлэлт</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Статик нийтлэлт унтраалттай байна.</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Зорилт</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Зорилтуудыг уншиж чадсангүй: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>даалгавар явагдаж байна</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>шалгах бүтээл</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>үүнийг нуух</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>зорилт үүсгэх</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>хэзээ ч үгүй</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>зааварчилгааг унших</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>%added нэмэгдсэн, %changed өөрчлөгдсөн, %removed хасагдсан</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%limit-ээс %bytes (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>Өөр %count жагсаагдаагүй.</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>Бичигдсэн хуудас: %pages</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path нь %size, хостын нэг файлд зөвшөөрөхөөс их байна.</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>Хязгаарын %percent %</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds сек</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag бол сайтын одоогийн нийтлэлт.</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: даалгавар %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>GitHub төслийн сайтад /агуулах/; өөрийн домэйн эсвэл хэрэглэгчийн сайтад хоосон.</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. Сайт</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. Хост</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. Агуулахад нэвтрэх</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. Агуулах</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. Холбоосууд ба үндсэн зам</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. Таны өөрийн домэйн</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. Бүтээлд юу орох</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. Хэзээ нийтлэх</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. Хянаж хадгалах</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>GitHub төслийн сайт /&lt;repository&gt;/ доор байрладаг; харьцангуй холбоосууд тэнд ч, өөр хаана ч ажиллана.</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>Бүтээл нь %site-ийн хуудас бүрийг нэвтрээгүй зочин харах байдлаар татаж, холбоосуудыг дахин бичиж, файлуудыг хуулж, үр дүнг зорилтын хавтас руу бичнэ. Та бүтээлийг шалгаж Нийтлэх товчийг дарах хүртэл юу ч нийтлэгдэхгүй.</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>Cron илэрхийлэл, жишээ нь 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>Байршуулах түлхүүрийг %secret нууц болгон хадгалдаг.</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>Байршуулах түлхүүр нь энэ суулгацад зөвхөн нэг агуулах руу SSH-ээр илгээх боломж олгоно. Түүний хувийн хагас Тохируулга &gt; Нууцууд хэсэгт үлдэнэ; зөвхөн нийтийн хагасыг харуулна.</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>Энэ зорилтод зориулж үүсгэсэн байршуулах түлхүүр</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>Байршуулах түлхүүр SSH-ээр нэвтэрдэг: git хаягийг SSH хаяг болгон өөрчилнө үү (git@github.com:owner/repo.git).</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>%user-ийн эхлүүлсэн даалгавар явагдаж байна</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>Энэ зорилтын даалгавар явагдсаар байна (%detail). Дуусахыг хүлээнэ үү.</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>Энэ зорилтын даалгавар явагдсаар байна. Дуусахыг хүлээнэ үү.</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>/news/ хуудаснаас /about-us/team хуудас руу чиглэсэн холбоосыг дараах байдлаар бичнэ</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>Шинэ байршуулах түлхүүр үүслээ. Түүний нийтийн хагасыг одоо агуулахад нэмнэ үү.</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>Цэвэрлэсний дараа ч дибаг гаралт, маягтын токен эсвэл сешний id агуулсан хуудсыг хэзээ ч нийтлэхгүй.</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>Буцаалт нь мэргэжилтнүүдэд зориулагдсан: &quot;Энэ юуг өөрчлөхийг би мэднэ&quot;-г тэмдэглээд шошгоны нэрийг дахин бичнэ үү.</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>Сайт %site хүртэл, нэг файл %file хүртэл байж болох ба сард 100 GB орчим траффиктай. Үнэгүй багцад агуулах нийтийн байх ёстой. GitHub Pages нь дэлгүүр эсвэл бусад арилжааны гүйлгээнд зориулагдаагүй.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>Зорилт гэдэг нь нэг git агуулах руу нийтлэгдэх нэг сайт юм. Энд юу ч бүтээгдэхгүй, нийтлэгдэхгүй: Хадгалах нь тохиргоог settings/override/staticcache.ini.append.php руу бичнэ.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>Зорилт гэдэг нь нэг газар нийтлэгдэх нэг сайт, жишээ нь GitHub Pages дээрх таны нийтийн сайт.</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>Тохируулга &gt; Нууцууд хэсгийн токен</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>Агуулахын workflow үүнийг нийтэлнэ.</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>Энэ нийтийн түлхүүрийг бичих эрхтэйгээр агуулахад нэмнэ үү. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, Allow write access-ийг тэмдэглэнэ.</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>Нэмэгдсэн</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>Өөр git хост</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>Өөр процесс энэ зорилт дээр ажиллаж байна: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>Буцах</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>Үндсэн зам</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Өмнө</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>Үндсэн замын доор</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>Салбар</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>Эвдэрсэн холбоосууд</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>Бүтээл дэх эвдэрсэн холбоосууд</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>Бүтээл</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>%user-ийн бүтээл %id</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>%name-ийг бүтээх</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>Одоо бүтээх</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>Шалгах бүтээл</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Хэн</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>Гараар, энд</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Цуцлах</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Өөрчлөх</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>Өөрчлөгдсөн</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Өөрчлөлтүүд</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>Эхлээд шалгах</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Эдгээр тохиргоог шалгана уу</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>Бүтээл юуг өөрчлөхийг шалгаж, үзээд дараа нь нийтлэх эсвэл хаяна уу.</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>Буцах нийтлэлтээ сонгоно уу.</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>Дараагийн хувилбарт гарна.</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Коммит</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>Коммитууд</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>Бүтээлийг коммитлож, шошголж, %remote руу илгээнэ. Илгээлтийг хэзээ ч хүчээр хийхгүй; дараа нь дурын нийтлэлт рүү буцаж болно.</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>Өмнөх хавтастай харьцуулбал: %added нэмэгдсэн, %changed өөрчлөгдсөн, %removed хасагдсан, %unchanged өөрчлөгдөөгүй.</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>Сүүлийн нийтлэлттэй харьцуулсан.</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Нэвтрэх мэдээлэл</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>Өөрийн домэйн</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>Дибаг гаралт, маягтын токен, сешний id болон nonce-уудыг үргэлж хасна.</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>Байршуулах түлхүүр</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>%name-ийн байршуулах түлхүүр</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Хаях</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>Бүтээлийг хаях</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>Домэйн</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>Хоосон: сайтын хаяг. Эс бөгөөс тухайн сайтын дотоод хаяг.</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Дууссан</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>Холбоос бүр үндсэн замаар эхэлнэ.</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>Нийтлэлт бүр static/%id/&lt;n&gt; шошготой коммит байна. Буцах нь өмнөх нийтлэлтийн файлуудтай шинэ коммит үүсгэнэ: түүх хадгалагдана, ямар ч шошго шилжихгүй, юу ч хүчээр хийгдэхгүй.</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>Нэмэлт файлууд</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>Хуудсуудыг татах хаяг</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Файл</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>Файлууд</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>Дутуу файлууд</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>Файлууд:</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>Цуглуулж чадаагүй файлууд</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>Хурууны хээ</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>Хавтас</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>SSH хаягт. Түлхүүрийг хадгалсны дараа үүсгэнэ; та түүний нийтийн хагасыг агуулахад нэмнэ.</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>https:// хаягт. GitHub: агуулах дээр Contents унших ба бичих эрхтэй нарийвчилсан (fine-grained) токен.</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>Мэргэжилтнүүдэд. Илгээлт дуусмагц нийтийн сайт өөрчлөгдөнө.</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Маягтууд</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>GitHub агуулахаас үнэгүй хостинг.</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>Салбараас</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>Git хаяг</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages нь %site хэмжээтэй сайт, %file хэмжээтэй файлыг зөвшөөрдөг.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>GitHub Pages-ийн хязгаар</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages файлуудыг байгаагаар нь нийтэлнэ (_-ээр эхэлсэн файлуудад шаардлагатай).</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub салбарыг илгээгдсэн байдлаар нь үйлчилнэ. Анхдагч.</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, таны өөрийн сервер: дурын git агуулах.</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>Өмнөх нийтлэлт рүү буцах</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Тусламж</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>Шидтэний тусламж</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>Нуух</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Түүх</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>%name-ийн түүх</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Хост</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>GitHub Pages бүтээлийг хэрхэн хүлээн авах</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>Би өөрчлөлтүүдийг шалгасан</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>Энэ юуг өөрчлөхийг би мэднэ</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>Унтраалттай байна: асаах хүртэл юу ч бүтээх боломжгүй.</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>Арын дэвсгэрт %user нэрээр ажиллана; та энэ хуудсыг хааж болно.</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>Даалгавар %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>%secret нууц болгон хадгалсан.</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Төрөл</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Сүүлийн нийтлэлт</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>Эдгээр хуудсыг оруулахгүй</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>Эдгээр хэсгийг оруулахгүй</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Холбоосууд</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>Дахин бичигдсэн холбоосууд</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>Амьд сайт</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>Бүтээлийг үзэх</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>Жижиг үсэг, цифр, _ ба -, жишээ нь github-public. Хавтас болон шошгуудыг (static/&lt;id&gt;/&lt;n&gt;) нэрлэх ба дараа өөрчлөх боломжгүй.</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>Шинэ түлхүүр үүсгэх</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>Зорилт үүсгэх</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>Түлхүүр үүсгэх</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>Эхлээд хост дээр агуулахыг үүсгэнэ үү; хоосон байж болно.</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>Манифест</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Мессеж</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>Ихэнх хуудас</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Нэр</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>Тохируулга &gt; Нууцууд дахь токены нэр</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>Шинэ зорилт</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Дараах</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>Үгүй</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>Коммит хараахан алга.</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>Түлхүүр үүсээгүй: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>php командын мөрийн программ олдсонгүй. migration.ini [AdminSettings] PhpCliPath-д түүний бүтэн замыг тохируулна уу.</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>Шошго хараахан алга.</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>Зорилт хараахан алга.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Байхгүй</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>Бүтээлд байхгүй.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>Юу ч хараахан нийтлэгдээгүй.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>Юу ч хараахан нийтлэгдээгүй: бүх файл шинэ.</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>Мэдэгдэл</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>Хуваарийн дагуу</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>Консол дээр</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>Сервер дээр: ./console exp:static:serve %id мөн адил үйлчилнэ.</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>Мөр бүрт нэг зам, * нь дурын хэсэгт тохирно: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>Зорилттой хамт зөвхөн нэр хадгална; токен эсвэл түлхүүр өөрөө Тохируулга &gt; Нууцууд хэсэгт үлдэж, бүртгэлд хэзээ ч гарахгүй.</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>Зөвхөн хуудсуудын нэрлэсэн зүйл</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>Зөвхөн токентой. env:NAME оронд нь серверийн орчны хувьсагчийг уншина.</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>Урьдчилан харахыг нээх</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>Бүтээлийг хост үйлчлэх байдлаар, зорилтын хавтаснаас нээнэ. Холбоос танд нэг цагийн турш ажиллана.</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>Заавал биш. Хоосон: нийтлэгдсэн зүйл.</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>Заавал биш. Домэйнтэй бол сайтыг түүний үндэсээс үйлчилнэ.</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Гаралт</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>Хуудсууд</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>Зорилтын хуудсууд</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>Татгалзсан хуудсууд</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>Дараах боловсруулалт</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Урьдчилан харах</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>Урьдчилан харах ба нийтлэх</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>%name-ийг урьдчилан харах ба нийтлэх</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>Бүтээлийг урьдчилан харах</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Явц</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>Нийтийн хаяг</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>Нийтийн түлхүүр</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>Нийтлэх</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>Сайтын статик хуулбарыг GitHub Pages эсвэл дурын git хост руу нийтлэх: бүтээж, өөрчлөлтийг шалгаж, нийтлээд, шаардлагатай үед өмнөх нийтлэлт рүү буцна.</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>Буцах нийтлэлт</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>Нийтлэлтүүд</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Илгээлт</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>Зааварчилгааг унших</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Бүртгэл</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Татгалзсан</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>Харьцангуй</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Дахин ачаалах</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>Хасагдсан</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>Түлхүүрийг солих: хуучин нь ажиллахаа болино</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Тайлан</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>Бүтээлийн тайлан</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Агуулах</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Хяналт</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>Хяналт нь тохиргоо бүрийг шалгаж, бичигдэх мөрүүдийг харуулна. Юу ч хараахан хадгалагдаагүй.</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Буцаах</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Буцаалт</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Хадгалах</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>Хуваарь</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>Хайлтын хуудас</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>Хэсгийн id-ууд, таслалаар тусгаарлана.</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>Тэднийг амьд сайт руу илгээх</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>Тохиргоо</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Тохиргоо</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>%name-ийн тохиргоо</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Тохируулга</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Тохируулга &gt; Нууцууд</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>Жагсаалтад харагдана, жишээ нь &quot;GitHub Pages дээрх нийтийн сайт&quot;.</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>GitHub App-аар нэвтрэх нь GitHub-ийн интеграцтай хамт гарна.</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>Сайт</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>Нийтлэх сайт</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Хэмжээ</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>Хэмжээ ба хязгаар</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>Бүтээлийн хэмжээ</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Хуучирсан хуудсууд</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Эхэлсэн</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>%user %time-д эхлүүлсэн.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Төлөв</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Статик нийтлэлт</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>Статик нийтлэлт унтраалттай байна</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Статик нийтлэлт унтраалттай байна.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>Статик нийтлэлт унтраалттай байна. Эхлээд Тохируулга &gt; Статик нийтлэлт хэсэгт асаана уу.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>Статик нийтлэлт асаалттай байна.</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>%total-ийн %step-р алхам</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Алхамууд</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>Цэвэрлэгээ</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Унтраах</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Асаах</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>Статик нийтлэлтийг асаах</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Шошго</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>Шошгууд</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Зорилт</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>Зорилтуудыг үүсгэж, өөрчилж болно, гэхдээ асаах хүртэл юу ч бүтээгдэхгүй, нийтлэгдэхгүй.</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>Хайлтын системд юуг унших ёстойг хэлнэ.</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>Бүтээлийг хаяж чадсангүй: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>Бүтээл сүүлийн нийтлэлттэй ижил байна: нийтлэх зүйл алга.</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>Бүтээлийг хаялаа: хавтас дахин сүүлийн нийтлэлтийг агуулж байна.</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>Анхдагч утгууд ихэнх сайтад тохирно.</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>Хавтас хараахан нийтлэгдээгүй бүтээл агуулж байна; шинэ бүтээл түүнийг орлоно.</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>Даалгавруудын хавтас руу бичих боломжгүй: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>Даалгаврыг бэлтгэж чадсангүй: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>Даалгаврыг эхлүүлж чадсангүй.</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>Даалгавар дууслаа. Тайланг ачаалж байна.</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>Даалгаварт нэвтэрсэн хэрэглэгч шаардлагатай.</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>Даалгавар эхэлсэн боловч процессынхоо id-г мэдээлээгүй. %detail-ийг шалгана уу.</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>Түлхүүр</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>Хамгийн том файл: %path, %size.</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Бичигдэх мөрүүд</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>Хайлтын системд зориулсан хуудсуудын жагсаалт; нийтийн хаяг шаардлагатай.</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>Хуудсуудыг нэвтрээгүй зочин харах байдлаар татна. Удирдлага болон засварын сайтын хандалтуудыг хэзээ ч санал болгохгүй.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>Явцыг дагаж чадсангүй. Даалгавар хэрхэн явагдаж байгааг харахын тулд хуудсыг дахин ачаална уу.</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>Түлхүүрийн нийтийн хагас:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>Салбарын үндэс</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>Нууцын сан хараахан тохируулагдаагүй (./console exp:upgrade --apply түүний хүснэгтийг үүсгэнэ), тиймээс түлхүүр хадгалах боломжгүй.</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>Сервер өөрөө нэвтэрнэ (өөрийн SSH түлхүүр эсвэл credential helper-ээр), эсвэл агуулах энэ сервер дээр байна.</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>Тохиргоог бичиж чадсангүй: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Тохиргоо хүчинтэй. Дараах мөрүүд бичигдэнэ:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Тохиргооны файлыг уншиж чадахгүй: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>Сайт тухайн нийтлэлтийн файлууд руу буцна; хараахан нийтлэгдээгүй бүтээлийг эхлээд нийтлэх эсвэл хаях шаардлагатай.</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>Байхгүй хаягуудад зориулсан сайтын өөрийн хуудас.</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>Зорилтыг хадгалж чадсангүй: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>Зорилт энэ түлхүүрээр хараахан нэвтрэхгүй байна: тохиргоонд нь &quot;Энэ зорилтод зориулж үүсгэсэн байршуулах түлхүүр&quot;-ийг сонгоно уу.</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Зорилтуудыг уншиж чадсангүй: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>Шалгах бүтээл хараахан алга.</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>Энэ суулгацад нийтийн сайтын хандалт алга. Удирдлага болон засварын сайтын хандалтуудыг хэзээ ч нийтлэхгүй.</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>Энэ хуудас даалгаврыг явцын турш дагана; хуудсыг хаахад даалгавар арын дэвсгэрт үргэлжилнэ.</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>Энэ зорилтод байршуулах түлхүүр хараахан алга.</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>Энэ зорилтыг энд хараахан бүтээгээгүй.</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>Энэ зорилтод нэг байна.</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>Энэ бүтээлийг хаяна: хавтас дахин сүүлийн нийтлэлтийг агуулна. Амьд сайт өөрчлөгдөхгүй.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>Эхлээд &quot;Би өөрчлөлтүүдийг шалгасан&quot;-ыг тэмдэглэнэ үү.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Цаг</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>Өдөөгчид</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>Шошгоны нэрийг дахин бичнэ үү</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>Өөрчлөгдөөгүй</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>Вебхук</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Юу</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>Юу өөрчлөгдөх</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>Файл бүр юу болох; үргэлж бичигдэнэ.</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>Даалгавар юу хийсэн ба түүний бүртгэл. Энд эхлүүлсэн даалгавар энэ хуудсыг хаахад арын дэвсгэрт үргэлжилнэ.</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>Даалгаврын алдаа болгон хэвлэсэн зүйл</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>Хуудсуудын нэрлэсэн зүйл болон нийтлэгдсэн агуулгын бүх зураг</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Хэзээ</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>Нийтлэлт амжилтгүй болоход</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>Нийтлэлт амжилттай болоход</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>Агуулга нийтлэгдэхэд</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>Хуулбарт байхгүй зүйл рүү чиглэсэн холбоосууд хаашаа очих (хайлт, нэвтрэлт).</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>Статик хуулбарыг хаанаас үйлчлэх.</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>Аль сайтыг нийтлэх, зорилтыг юу гэж нэрлэх.</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>Дурын замын доор ажиллана. Анхдагч.</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>Өөрийн домэйн тохируулсан үед бичигдэнэ.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>Тийм</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>Та энд болон консол дээр үргэлж гараар бүтээж, нийтэлж болно.</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>зөвхөн нэр; утга нь Тохируулга &gt; Нууцууд хэсэгт үлдэнэ</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>%path доор</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>тайлангүй дууссан</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>нэмэлт</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>амжилтгүй</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>файл</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages, эсвэл docs хавтастай main.</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>git хост</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (токентой) эсвэл git@github.com:owner/repo.git (байршуулах түлхүүртэй); дотор нь нууц үг эсвэл токен хэзээ ч бүү оруул.</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/, сайтын зураглал болон каноник холбоосуудад.</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>зураг</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>хэзээ ч үгүй</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>үгүй</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>алсын агуулахгүй</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>байхгүй: коммитууд хавтаст үлдэнэ</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>байхгүй: юу ч өөрчлөгдөөгүй</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>илгээгдээгүй</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>юу ч өөрчлөгдөөгүй</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>хуудас</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>амжилттай</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>proc_open идэвхгүй тул энд даалгавар эхлүүлэх боломжгүй. Сервер дээр ./console exp:static:build-ийг ашиглана уу.</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>нийтлэлт</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>нийтлэгдсэн</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>илгээлт хүлээгдэж буй</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>илгээгдсэн</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>татгалзсан</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>харьцангуй</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>буцаалт</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>буцаагдсан</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>ажиллаж байна</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>зөвхөн хавтас</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: CNAME файлд бичигдэнэ. Домэйны DNS-ийг хостын тайлбарласны дагуу хост руу чиглүүлнэ үү; HTTPS эхлэхэд хэсэг хугацаа шаардагдаж магадгүй.</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>тийм, хараахан нийтлэгдээгүй</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>Агуулахын ажлын урсгал үүнийг нийтэлнэ. Бүтээл ажлын урсгалын файлыг бичнэ; хавтсыг хоосон үлдээнэ үү.</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>GitHub агуулах болон токен эсвэл GitHub App-тай зорилтыг хадгалсны дараа энэ алхам агуулахыг үүсгэж GitHub Pages-ийг асааж чадна. Эс бөгөөс эхлээд GitHub дээр агуулахаа үүсгэнэ үү; хоосон байсан ч болно.</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>Салбар уу, GitHub Actions уу?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>DNS шалгах</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>Агуулах байхгүй бол үүсгэх</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>GitHub дээр агуулахаа үүсгээд тохиргоонд нь GitHub Pages-ийг асаана уу (Settings &gt; Pages).</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>Агуулах %repo байхгүй бол үүсгэж (хүссэн тохиолдолд), хадгалсны дагуу салбар эсвэл GitHub Actions-аас GitHub Pages-ийг асааж, өөрийн домэйн болон HTTPS-ийг тохируулна. Хадгалсан тохиргоог ашигладаг: эхлээд өөрчлөлтөө хадгална уу.</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>GitHub дээрх дэлгэрэнгүй</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>Эхлээд өөрийн домэйнээ оруулна уу.</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>Илгээлт бүрийг эхлээд эдгээр хязгаараар шалгана.</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>GitHub дээрх https:// хаягийн хувьд. Энэ суулгацад тохируулсан App нэвтэрнэ; түүнд суулгацын id хэрэгтэй.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages хувийн агуулахыг зөвхөн төлбөртэй багц дээр үйлчилнэ.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: дэд домэйнд (www.example.com) &lt;owner&gt;.github.io руу чиглэсэн CNAME бичлэг; үндсэн домэйнд (example.com) A бичлэгүүд %ips хэрэгтэй.</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>GitHub App-ийн суулгацын id</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>Сүүлийн Pages бүтээл</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>Хязгаар ба нөхцөл</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>Үнэгүй багц дээр GitHub Pages-д шаардлагатай.</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>GitHub дээр</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>Зөвхөн GitHub App-тай: GitHub дээрх App-ийн суулгацын хаягийн төгсгөл дэх тоо. App өөрөө staticcache.ini-д тохируулагдана (GitHubAppId, GitHubAppKey).</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>Хувийн</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>Нийтийн</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>Эхлээд зорилтыг GitHub агуулах болон токен эсвэл GitHub App-тай хадгална уу.</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>Эдгээр бичлэгийг домэйн үйлчилгээ үзүүлэгч дээр тохируулна уу:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>GitHub дээр тохируулах</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>%domain-ийн DNS одоогоор GitHub Pages руу чиглээгүй байна.</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>%domain-ийн DNS GitHub Pages руу чиглэж байна.</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>GitHub-ийн интеграц энд боломжгүй: %problem. Салбар руу нийтлэх нь хэвээр ажиллана; агуулахын тохиргоонд GitHub Pages-ийг асаана уу.</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>Энэ зорилтод GitHub-ийн алхмууд боломжгүй: %problem.</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>Нэвтрэх мэдээлэл нь токен эсвэл GitHub App үед GitHub Pages-ийн төлөв харагдана.</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>Өөрийн домэйн ашиглах</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>Аль нь сонгох вэ: токен, байршуулах түлхүүр эсвэл GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>GitHub агуулах болон токен эсвэл GitHub App байвал шидтэн таны өмнөөс агуулахыг үүсгэж, GitHub Pages-ийг асааж, домэйнийг тохируулж чадна (4-р алхам).</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>бүтээгдэж байна</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>бүтээгдсэн</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>GitHub Actions-аас</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>%branch салбараас</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>одоохондоо байхгүй</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>олдсонгүй</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>унтраалттай</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>хувийн</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>нийтийн</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>дараалалд</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>тодорхойгүй</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%pages хуудаснаас %count:</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>Текст файл бүрийн хажууд .gz (болон .br), тэдгээрийг үйлчилдэг хостуудад зориулав.</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>Хуудасны хуучин хаяг, өөр нэр бүрд зориулсан жижиг хуудас, ингэснээр хуучин холбоосууд ажилласаар байна.</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>GitHub Actions сайтыг хүргэх бүрд үргэлж бичигдэнэ.</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>CC-BY-4.0 гэх мэт SPDX ID, эсвэл текст өөрөө.</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>Сагс</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>Сервер рүү хийх дуудлага</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Сэтгэгдэл</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>Мэдээлэл цуглуулдаг маягтууд</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>GitHub Actions ажлын урсгал</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>Хуудсанд хоосон зай цөөн, сэтгэгдэлгүй.</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>Агуулгын лиценз</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Нэвтрэх</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>Багасгах</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>Бусад маягтууд</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>Урьдчилан шахах</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>Чиглүүлэх хуудаснууд</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>Чиглүүлэх хуудаснууд: %count.</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Хайх</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>Хайлтын индекс: %languages хэлээр %pages хуудас.</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>Агуулгынх нь хэшээр нэрлэсэн стиль болон скриптүүд, ингэснээр хөтчүүд тэдгээрийг хадгалж болно.</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>Өөрчлөгдсөн хуудаснууд, сүүлийн өөрчлөлтөөс хойш хэдэн минутын дараа (cronjob хэсэг staticpublish).</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>Агуулгын лиценз, доорх талбараас.</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>Бүх сайт, хуваарийн цагуудад (cronjob хэсэг staticpublish).</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>Хуудасны эдгээр хэсэгт сервер хэрэгтэй; тус бүр нөөц шийдэлтэй. Нийтлэхийн өмнө шалгана уу.</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>Статикаар юу ажиллахгүй вэ</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>Репозитори гэж юу вэ, түүнийг хост дээр нээж буй хүнд зориулав.</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>орхигдуулсан</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>нөөц текст</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>амьд сайтын маягтын төгсгөлийн цэг</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>амьд сайт</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>хуулбарын хайлтын хуудас</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>Маягтыг илгээж чадсангүй.</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>Баярлалаа: маягтыг илгээлээ.</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>Маягтыг хүлээн аваагүй: оруулсан зүйлээ шалгаад дахин илгээнэ үү.</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>Хуулбарт байхгүй хуудсанд хөтлөх холбоосыг устгах</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>Удирдлага руу хөтлөх холбоосыг устгах</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>Тэдний бичвэр үлдэнэ. Зураг, маягт болон бусад сайт руу хөтлөх холбоосыг хэзээ ч устгахгүй.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Хувилбар</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>Нийтлэх сайтын хандалтууд</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Сайтын хандалт</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>Үндсэнд</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>Үндсэнд сайтын хандалт байхгүй: тус бүр өөрийн хавтсанд, үндэс тэдгээр рүү холбоно</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Сайтын хандалтууд</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>Нэг сайтын хандалт, эсвэл URI угтвараараа нэг хост хуваалцдаг хэд хэдийг тэмдэглэнэ үү. Үндсэнд байгаа нь тэнд үйлчлэгдэнэ, бусад нь угтварынхаа хавтсанд (/ger/); тэдгээрийн хоорондох холбоосууд хуулбар дотор үлдэнэ. Удирдлагын хандалтыг хэзээ ч санал болгодоггүй.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>%site дээр %target-ийн статик нийтлэл амжилтгүй боллоо</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>%site дээр %target-ийн статик нийтлэл амжилттай боллоо</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>Статик нийтлэлийн зорилт %target үүнийг хүссэн тул %site энэ захидлыг илгээв.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>%site дээрх %deploy байршуулалт амжилтгүй боллоо</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>%site дээрх %deploy байршуулалт хаалган дээр хүлээж байна</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>%site дээрх %deploy байршуулалт амжилттай боллоо</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>Энэ захидлыг %site илгээсэн, учир нь migration.ini [RemoteSettings] Notify[] үүнийг шаарддаг.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>Өгөгдлийн төрлүүд (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>%time-д тоолсон, %minutes минутын дараа дахин</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>Өгөгдлийн төрөл нь ангийн атрибутын нэг төрлийн утгыг хадгалж, засварладаг: текстийн мөр, зураг, холбоос. Ихэнхийг нь цөм өгдөг, өргөтгөлүүд нэмдэг. Энд бүгд байна, хэн өгдөг, агуулга хэр их ашигладаг нь. Өгөгдлийн сан ашигладаг ч өөр юу ч бүртгэхээ больсон өгөгдлийн төрөл түүнийг агуулсан агуулгыг эвддэг.</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>Ангийн бүлгүүд</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>Сүүлийн минутуудын тоог ашиглахын оронд одоо дахин тоолох.</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>Дахин тоолох</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Тойм</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>Бүртгүүлсэн</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>Ашиглагдаж байна</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>Ашиглаагүй</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>Өгөгдлийн төрөл өгдөг өргөтгөлүүд</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>Ангийн атрибутууд</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>Объектын атрибутууд</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>Бүртгэгдээгүй</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>Жагсаалтад байгаа, файл алга</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>%count өгөгдлийн төрөл ашиглагдаж байгаа ч бүртгэгдээгүй</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>%class_attributes ангийн атрибут болон %object_attributes объектын атрибут нь ямар ч өргөтгөл, тохиргоо бүртгэдэггүй өгөгдлийн төрөлтэй. Тэдгээрийн объектыг харуулах, засах, нийтлэх боломжгүй. Өгөгдлийн төрлийг өгдөг өргөтгөлийг идэвхжүүлэх эсвэл ангийг өөрчил.</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>Зөвхөн эдгээрийг харуулах</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>Өгөгдлийн төрөл хайх</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>Танигч, нэр, PHP анги эсвэл өргөтгөл.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Харуулах</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Бүгд</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>Өгсөн</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>Бүгд</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>Цөм</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>Энэ шүүлтүүрт тохирох өгөгдлийн төрөл алга.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Бүгдийг харуулах</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>Өргөтгөл</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%count өгөгдлийн төрлөөс %shown, %used ашиглагдаж байна</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>Өгөгдлийн санд эдгээр өгөгдлийн төрлийн анги эсвэл объектын атрибутууд байгаа ч content.ini тэдгээрийн аль нэгийг ч жагсаагаагүй, эсвэл файл нь алга.</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>%provider-ийн өгөгдлийн төрлүүд</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>Өгөгдлийн төрөл</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>PHP анги ба файл</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>Ангиуд</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>Объектууд</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>Тугнууд</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>байхгүй</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>Хайлтад тохирох өгөгдлийн төрөл алга. Хайлтыг цэвэрлэ.</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>%count өгөгдлийн төрлөөс %shown харуулж байна</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>Харуулсан өгөгдлийн төрлүүд: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>Эрэмбэлэх: %column</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>%time-д тоолсон</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>Бүх өгөгдлийн төрөл</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>Тусламжийн хуудас</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>Энэ өгөгдлийн төрөл ашиглагдаж байгаа ч бүртгэгдээгүй</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>Ямар ч өргөтгөл өгөгдлийн төрлийг бүртгээгүй байхад доорх ангиудын объектыг харуулах, засах, нийтлэх боломжгүй. Түүнийг өгдөг өргөтгөлийг идэвхжүүлээд content.ini [DataTypeSettings] AvailableDataTypes[]-д нэмэх, эсвэл ангиудыг өөрчил.</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini энэ өгөгдлийн төрлийг жагсаасан ч ямар ч өгөгдлийн төрлийн хавтаст түүний файл алга. Үүнийг юу ч ашигладаггүй; AvailableDataTypes[]-ээс хасах эсвэл өргөтгөлийг нь идэвхжүүл.</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>Энэ өгөгдлийн төрлийн тухай</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>Танигч</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Нэр</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Өргөтгөл %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>хэн ч биш</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>PHP класс</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Файл</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>AvailableDataTypes[]-д</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>тийм</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>үгүй</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>Утгын баганууд</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>Ангийн атрибутын тохиргооны баганууд</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>Хүснэгтүүд</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>Багана, хүснэгтийг өгөгдлийн төрлийн кодыг уншиж олсон: баримжаа, амлалт биш.</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>Загварууд</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Сайтын хандалт</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>Загвар</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>Байгаа газар</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>энэ удирдлага</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>үндсэн сайт</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>Дарж бичихгүйгээр: анги эсвэл атрибутаар тохирох дарж бичих загвар эдгээрээс давуу.</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>Үүнийг ашигладаг ангиуд (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>Энэ өгөгдлийн төрлийн атрибуттай анги алга.</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Анги</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>Атрибутууд</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>Ангийн атрибутууд (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>Атрибут</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Тохиргоо</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>Шаардлагатай</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>Хайх боломжтой</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>Орчуулах боломжтой</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>Мэдээлэл цуглуулдаг</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>Үүнийг ашигладаг зарим агуулга</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>Сүүлд өөрчлөгдсөн нь эхэнд</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Өөрчилсөн</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>Зангилаа %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>Орчуулга бүр өөрийн утгатай.</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>Хайлт түүний утгуудыг индексжүүлдэг.</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>Зочдоос мэдээлэл цуглуулж чадна (маягт).</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>Жагсаалтыг үүгээр эрэмбэлж болно: эрэмбийн түлхүүр %type.</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>Эрэмбэлэгдэх</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>Түүний утгууд бусад объект руу заадаг.</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>Холбоод</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>Энгийн текстээс бөглөж болно (импорт, REST).</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>Текстээс</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>Файлаас бөглөж болно.</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>Файлаас</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>Ангийн атрибутын тохиргоо нь багцад ордог.</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>Багцууд</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>Агуулга (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from - %to, нийт %count</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Жагсаалтыг шүүх</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>Бүх ангиуд</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Хэсэг</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Хэлүүд</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Эзэмшигч</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Нийтлэгдсэн</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>Дарааллыг эсрэгээр нь болгох</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Зүйл алга</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Нэг хуудсанд</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Нэг хуудсанд %count зүйл харуулах.</translation>
     </message>
 </context>
 </TS>

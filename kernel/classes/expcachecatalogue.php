@@ -2,7 +2,7 @@
 /**
  * File containing the expCacheCatalogue class.
  *
- * @copyright Copyright (C) 1998 - 2026 7x and the Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package kernel
  */
@@ -35,7 +35,7 @@ class expCacheCatalogue
         'codepage' => 'settings', 'rest-routes' => 'settings', 'translation' => 'settings', 'chartrans' => 'settings',
         'kernelservices' => 'settings',
         'imagealias' => 'images',
-        'exphttpcache' => 'velocity', 'querycache' => 'velocity',
+        'exphttpcache' => 'velocity', 'querycache' => 'velocity', 'graphql' => 'velocity',
     );
 
     /** Tag => group, for caches of extensions */
@@ -47,6 +47,7 @@ class expCacheCatalogue
         'content'           => 'The rendered views of content: what a page shows of each object, per view mode and user.',
         'exphttpcache'      => 'Whole pages per permission context, answered before the kernel starts.',
         'querycache'        => 'Results of SQL queries, kept until a write touches their tables.',
+        'graphql'           => 'Answers of the GraphQL API\'s persisted queries, and the content classes of its schema.',
         'global_ini'        => 'The settings files read once for every siteaccess.',
         'ini'               => 'The settings of each siteaccess, merged from every override.',
         'codepage'          => 'Character set conversion tables.',

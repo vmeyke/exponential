@@ -2,7 +2,7 @@
 /**
  * File containing the expVelocityDeploy class.
  *
- * @copyright Copyright (C) 7x. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
  * @package kernel
@@ -19,6 +19,17 @@
  * every page requested in between is rendered by the old code and cached
  * again, and the change looks as if it had not worked.
  *
+ * The caches are cleared only when something they hold can have changed since the last
+ * deploy that passed (cachePlan(), changes()): the INI caches when settings changed; the
+ * compiled templates when templates or the template engines' code changed; translations
+ * when translations changed; the override and design caches when templates or settings
+ * changed; the caches of rendered output (content, exphttpcache, template-block,
+ * Velocity's response cache) when templates, design files, settings or translations
+ * changed. A deploy of PHP classes only keeps them, so the first visitors after it do not
+ * wait for every page to be rendered again. --clear-content clears the caches of rendered
+ * output anyway, --all-caches every cache; without a record of the last deploy (the first
+ * one, or the marker removed) every cache is cleared, as before.
+ *
  *   1  extension autoloads             bin/php/ezpgenerateautoloads.php -e
  *   2  kernel autoloads (--kernel)     bin/php/ezpgenerateautoloads.php -k, kernel/ and lib/ only
  *   3  INI caches                      bin/php/ezcache.php --clear-tag=ini; its last item,
@@ -26,6 +37,9 @@
  *                                      container again (exp:services:compile)
  *   4  template, template-override, translation and design_base caches,
  *      one id per call
+ *  4a  pending migrations (--migrate, or [DeploySettings] Migrate=enabled):
+ *      bin/php/expmigrationmigrate.php --apply; a run that fails stops the
+ *      deploy before PHP-FPM or Velocity runs the new code
  *   5  engine archive                  bin/php/phar.php build: rebuilt only when a file
  *                                      in kernel/, lib/ or autoload/ changed, and
  *                                      every file parsed first
@@ -37,6 +51,8 @@
  *      caches, one id per call; the packer only ever right before
  *      template-block
  *   9  Velocity's response cache
+ *  9a  the help index: bin/php/exphelp.php index --no-images (what changed in
+ *      the documentation; a failure does not stop the deploy)
  *  10  the help content cache, one step per siteaccess that shows the help:
  *      bin/php/exphelpcontent.php cache -s <siteaccess> (SKIP where help
  *      content is not installed)
@@ -68,7 +84,8 @@ class expVelocityDeploy
      * @param array $options kernel, autoload, fpm, velocity (bool, default:
      *        kernel false, the others true), dry-run, rebuild-phar, packer,
      *        fpm-reload (bool: reload PHP-FPM even when its OPcache revalidates),
-     *        engine (string, passed on to the restart)
+     *        engine (string, passed on to the restart), migrate (bool, or null for
+     *        [DeploySettings] Migrate)
      * @param callable|null $printer function( array $step, int $number, int $count )
      */
     public function __construct( expVelocity $velocity, array $options = array(), $printer = null )
@@ -77,7 +94,8 @@ class expVelocityDeploy
         $this->options = $options + array(
             'kernel' => false, 'autoload' => true, 'fpm' => true, 'velocity' => true,
             'dry-run' => false, 'rebuild-phar' => false, 'packer' => false, 'engine' => '',
-            'fpm-reload' => false,
+            'fpm-reload' => false, 'clear-content' => false, 'all-caches' => false,
+            'migrate' => null,
         );
         $this->printer = $printer;
         $this->root = rtrim( eZSys::rootDir(), '/' );
@@ -105,13 +123,21 @@ class expVelocityDeploy
                 array( 'bin/php/ezpgenerateautoloads.php', '-k', '-q', '--exclude=' . implode( ',', $this->kernelExcludes() ) ),
                 $noAutoload, 'autoload/ezp_kernel.php' );
 
-        $steps[] = $this->commandStep( 'ini', 'INI caches',
+        $plan = $this->cachePlan();
+        $ini = $this->commandStep( 'ini', 'INI caches',
             array( 'bin/php/ezcache.php', '--clear-tag=ini', '--allow-root-user' ) );
+        $steps[] = $this->planned( $ini, $plan['ini'] );
         // design_base: the list of design directories, which keeps the
         // extensions active when it was written; without it a newly activated
         // extension's templates are not found.
         foreach ( array( 'template', 'template-override', 'translation', 'design_base' ) as $id )
-            $steps[] = $this->cacheStep( $id );
+            $steps[] = $this->planned( $this->cacheStep( $id ), $plan[$id] );
+        // --caches: the other caches a migration run touched (image, user_info_cache ...), by id or tag of ezcache
+        foreach ( $this->extraCacheSteps() as $step )
+            $steps[] = $step;
+
+        // --migrate: the pending migrations, with the new code on disk and before the web server runs it
+        $steps[] = $this->migrateStep();
 
         $steps[] = $this->archiveStep();
         $steps[] = $this->fpmStep();
@@ -126,24 +152,215 @@ class expVelocityDeploy
             $ids[] = 'ezjscore-packer';
         $ids[] = 'template-block';
         foreach ( $ids as $id )
-            $steps[] = $this->cacheStep( $id );
+            $steps[] = $id === 'ezjscore-packer' ? $this->cacheStep( $id ) : $this->planned( $this->cacheStep( $id ), $plan['rendered'] );
 
         $velocity = $this->velocity;
-        $steps[] = array(
+        $steps[] = $this->planned( array(
             'id' => 'velocity-cache', 'label' => 'Velocity response cache',
-            'command' => 'exp:velocity cache clear', 'skip' => '',
+            'command' => 'exp:velocity cache clear --apply', 'skip' => '',
             'run' => function () use ( $velocity ) {
                 $r = $velocity->clearCache();
                 return array( $r['ok'], $r['message'] );
             },
-        );
+        ), $plan['rendered'] );
+
+        $steps[] = $this->helpIndexStep();
 
         foreach ( $this->helpCacheSteps() as $step )
             $steps[] = $step;
 
+        $steps[] = $this->languageCacheStep();
+
         $steps[] = $this->warmUpStep();
 
         return $steps;
+    }
+
+    /** The kinds of files a deploy looks at, and the paths below the root they are found in. */
+    const WATCHED = array(
+        'templates'     => array( 'design', 'extension/*/design' ),
+        'settings'      => array( 'settings', 'extension/*/settings' ),
+        'translations'  => array( 'share/translations', 'extension/*/translations' ),
+        // the template engines and the operator registrations, whose code a compiled template can hold
+        'template code' => array( 'lib/eztemplate', 'lib/smarty', 'lib/twig', 'lib/templatebridge', 'kernel/common', 'extension/*/autoloads' ),
+    );
+
+    /** @var array|null see changes() */
+    protected $changes = null;
+
+    /**
+     * The marker of the last deploy that passed: var/cache/velocity-deploy/last.json, with the time it started.
+     *
+     * @return expVelocityMarkers
+     */
+    public function markers()
+    {
+        return new expVelocityMarkers( $this->root . '/var/cache/velocity-deploy' );
+    }
+
+    /**
+     * What changed since the last deploy that passed: per kind of WATCHED (templates, settings, translations, template
+     * code), up to three files whose modification time is not older than the start of that deploy.
+     *
+     * @return array known (bool: a last deploy is on record), since (its start, a Unix time, or null), changed (kind =>
+     *         list of paths below the root; a kind with no change is not listed)
+     */
+    public function changes()
+    {
+        if ( $this->changes !== null )
+            return $this->changes;
+        $last = $this->markers()->read( 'last' );
+        $since = is_array( $last ) && isset( $last['started'] ) && is_numeric( $last['started'] ) ? (int)$last['started'] : null;
+        $changed = array();
+        if ( $since !== null )
+        {
+            foreach ( self::WATCHED as $kind => $patterns )
+            {
+                $files = self::changedFiles( $this->root, $patterns, $since, 3 );
+                if ( $files )
+                    $changed[$kind] = $files;
+            }
+        }
+        return $this->changes = array( 'known' => $since !== null, 'since' => $since, 'changed' => $changed );
+    }
+
+    /**
+     * Files below the given paths (globs below the root) modified at or after $since.
+     *
+     * @param string $root
+     * @param array $patterns
+     * @param int $since Unix time
+     * @param int $limit stop after this many
+     * @return array paths below the root
+     */
+    public static function changedFiles( $root, array $patterns, $since, $limit = 3 )
+    {
+        $found = array();
+        foreach ( $patterns as $pattern )
+        {
+            foreach ( (array)glob( $root . '/' . $pattern, GLOB_ONLYDIR ) as $dir )
+            {
+                if ( !is_string( $dir ) || !is_dir( $dir ) )
+                    continue;
+                $files = new RecursiveIteratorIterator(
+                    new RecursiveDirectoryIterator( $dir, FilesystemIterator::SKIP_DOTS | FilesystemIterator::FOLLOW_SYMLINKS ),
+                    RecursiveIteratorIterator::LEAVES_ONLY, RecursiveIteratorIterator::CATCH_GET_CHILD );
+                foreach ( $files as $file )
+                {
+                    if ( $file->isFile() && $file->getMTime() >= $since )
+                    {
+                        $found[] = substr( $file->getPathname(), strlen( $root ) + 1 );
+                        if ( count( $found ) >= $limit )
+                            return $found;
+                    }
+                }
+            }
+        }
+        return $found;
+    }
+
+    /**
+     * Which caches this deploy clears, and why: for each, '' (cleared) or the reason it is kept.
+     *
+     * @return array ini, template, template-override, translation, design_base, rendered (content, exphttpcache,
+     *         template-block and Velocity's response cache) => array( clear (bool), why (string) )
+     */
+    public function cachePlan()
+    {
+        return self::plan( $this->changes(), $this->options );
+    }
+
+    /**
+     * The decision of cachePlan(), from what changed and the options.
+     *
+     * @param array $changes as changes() gives them
+     * @param array $options kernel, clear-content, all-caches
+     * @return array
+     */
+    public static function plan( array $changes, array $options )
+    {
+        $changed = isset( $changes['changed'] ) ? $changes['changed'] : array();
+        $since = !empty( $changes['since'] ) ? date( 'Y-m-d H:i:s', (int)$changes['since'] ) : '';
+        $why = function ( array $kinds ) use ( $changed ) {
+            $parts = array();
+            foreach ( $kinds as $kind )
+                if ( isset( $changed[$kind] ) )
+                    $parts[] = $kind . ' changed (' . implode( ', ', $changed[$kind] ) . ( count( $changed[$kind] ) >= 3 ? ' ...' : '' ) . ')';
+            return implode( '; ', $parts );
+        };
+        $decide = function ( array $kinds, $keptWhat, array $extra = array() ) use ( $changes, $options, $since, $why ) {
+            if ( !empty( $options['all-caches'] ) )
+                return array( true, 'cleared: --all-caches' );
+            if ( empty( $changes['known'] ) )
+                return array( true, 'cleared: no record of an earlier deploy (var/cache/velocity-deploy/last.json)' );
+            foreach ( $extra as $option => $reason )
+                if ( !empty( $options[$option] ) )
+                    return array( true, 'cleared: ' . $reason );
+            $reason = $why( $kinds );
+            if ( $reason !== '' )
+                return array( true, 'cleared: ' . $reason );
+            return array( false, 'kept: no ' . $keptWhat . ' changed since the last deploy (' . $since . ')' );
+        };
+        $plan = array(
+            'ini'               => $decide( array( 'settings' ), 'settings', array( 'kernel' => '--kernel (a class added or renamed)' ) ),
+            'template'          => $decide( array( 'templates', 'template code' ), 'template or template engine code' ),
+            'template-override' => $decide( array( 'templates', 'settings' ), 'template or settings' ),
+            'translation'       => $decide( array( 'translations' ), 'translation' ),
+            'design_base'       => $decide( array( 'templates', 'settings' ), 'template or settings' ),
+            'rendered'          => $decide( array( 'templates', 'settings', 'translations' ), 'template, design file, settings or translation',
+                                            array( 'clear-content' => '--clear-content' ) ),
+        );
+        // --caches: the caches a migration run touched (expMigrationAfterRun), cleared whatever files changed
+        $asked = self::cacheList( isset( $options['caches'] ) ? $options['caches'] : array() );
+        $groups = array( 'ini' => array( 'ini', 'global_ini', 'tag:ini' ), 'template' => array( 'template' ), 'template-override' => array( 'template-override' ),
+                         'translation' => array( 'translation' ), 'design_base' => array( 'design_base' ),
+                         'rendered' => array( 'content', 'exphttpcache', 'template-block' ) );
+        foreach ( $groups as $key => $names )
+        {
+            $hit = array_values( array_intersect( $names, $asked ) );
+            if ( $hit && !$plan[$key][0] )
+                $plan[$key] = array( true, 'cleared: --caches (' . implode( ', ', $hit ) . ')' );
+        }
+        return $plan;
+    }
+
+    /**
+     * The names of --caches: a comma-separated text or a list, trimmed, each once. Pure.
+     *
+     * @param string|string[] $caches
+     * @return string[]
+     */
+    public static function cacheList( $caches )
+    {
+        $list = array();
+        foreach ( is_array( $caches ) ? $caches : explode( ',', (string)$caches ) as $name )
+        {
+            $name = trim( (string)$name );
+            if ( $name !== '' && !in_array( $name, $list, true ) )
+                $list[] = $name;
+        }
+        return $list;
+    }
+
+    /**
+     * A cache step as the plan has it: kept (SKIP with the reason) or cleared (the reason in the dry run).
+     *
+     * @param array $step
+     * @param array $decision array( clear, why )
+     * @return array
+     */
+    protected function planned( array $step, array $decision )
+    {
+        list( $clear, $why ) = $decision;
+        if ( !$clear )
+        {
+            if ( $step['skip'] === '' )
+                $step['skip'] = $why . '; --clear-content or --all-caches clears it';
+            return $step;
+        }
+        if ( !isset( $step['dry'] ) )
+            $step['dry'] = function () use ( $why ) { return $why; };
+        return $step;
     }
 
     /**
@@ -196,6 +413,66 @@ class expVelocityDeploy
             );
         }
         return $steps;
+    }
+
+    /**
+     * The interface language caches (expUISwitchLanguageCatalogue, expI18nFallbackReport: the coverage of every
+     * translation, which Setup > Interface languages and the language choice show): ./console exp:i18n fallbacks
+     * builds what changed since they were written, the translations a landing changed, so no visitor waits for it.
+     * They are no cache a deploy clears; without changed translations this takes a moment. A failure is reported
+     * and does not stop the deploy: the page builds them itself.
+     *
+     * @return array
+     */
+    protected function languageCacheStep()
+    {
+        return self::nonFatalCommandStep( 'language-cache', 'interface language caches',
+            array( 'bin/php/console', 'exp:i18n', 'fallbacks', '--only=own', '--allow-root-user', '--no-colors' ),
+            'built', 'the page builds them itself' );
+    }
+
+    /**
+     * The help index (expHelpDocumentIndex) of every documentation language, and its search index: ./console
+     * exp:help index builds what a landing changed (doc/ and the extensions' doc/), so the first help page after the
+     * deploy shows the new pages at once. A help page never waits for it (it answers from the older index and builds
+     * in the background), so a failure is reported and does not stop the deploy.
+     *
+     * @return array
+     */
+    protected function helpIndexStep()
+    {
+        $step = $this->nonFatalCommandStep( 'help-index', 'help index',
+            array( 'bin/php/exphelp.php', 'index', '--no-images', '--allow-root-user', '--no-colors' ),
+            'built', 'a help page builds it in the background' );
+        if ( !is_file( $this->root . '/bin/php/exphelp.php' ) )
+            $step['skip'] = 'no help system in this version';
+        return $step;
+    }
+
+    /**
+     * A step that runs a console command whose failure does not stop the deploy (the page does the work itself).
+     *
+     * @param string $id
+     * @param string $label
+     * @param string[] $args
+     * @param string $done the message of a success
+     * @param string $fallback what happens without it
+     * @return array
+     */
+    protected function nonFatalCommandStep( $id, $label, array $args, $done, $fallback )
+    {
+        $self = $this;
+        return array(
+            'id' => $id, 'label' => $label, 'skip' => '',
+            'command' => 'php ' . implode( ' ', $args ),
+            'dry' => function () use ( $args ) { return 'php ' . implode( ' ', $args ); },
+            'run' => function () use ( $self, $args, $done, $fallback ) {
+                list( $code, $output ) = $self->runCommand( array_merge( array( PHP_BINARY ), $args ) );
+                if ( $code !== 0 || preg_match( '/(Fatal error|Exception|Parse error)/', implode( "\n", $output ) ) )
+                    return array( null, 'not built (exit ' . $code . '); ' . $fallback );
+                return array( true, $done );
+            },
+        );
     }
 
     /**
@@ -311,6 +588,12 @@ class expVelocityDeploy
         $result = array( 'ok' => !$failed, 'dry-run' => !empty( $this->options['dry-run'] ),
                          'seconds' => round( microtime( true ) - $start, 1 ), 'steps' => $report );
 
+        // the record the next deploy compares against: the start of this one, so a file changed while it ran counts
+        // as changed next time
+        if ( !$failed && empty( $this->options['dry-run'] ) )
+            $this->markers()->write( 'last', array( 'started' => (int)floor( $start ), 'finished' => time(),
+                                                    'changed' => array_keys( $this->changes()['changed'] ) ) );
+
         // Audit (doc/eng-us/bc/6.0/audit.md, system.velocity.deploy): a deploy that ran (not a dry run)
         if ( empty( $this->options['dry-run'] ) && class_exists( 'expAuditHook' ) )
             expAuditHook::emit( 'system.velocity.deploy', function () use ( $report, $failed, $start ) {
@@ -358,6 +641,65 @@ class expVelocityDeploy
                 return array( true, $tail );
             },
         );
+    }
+
+    /**
+     * Whether a deploy runs the pending migrations: the option migrate when it is given (--migrate, --no-migrate),
+     * else velocity.ini [DeploySettings] Migrate (enabled; anything else, or no setting, is disabled). Pure apart
+     * from reading the setting.
+     *
+     * @param bool|null $option
+     * @param eZINI|null $ini velocity.ini
+     * @return bool
+     */
+    public static function migrateEnabled( $option, $ini = null )
+    {
+        if ( $option !== null )
+            return (bool)$option;
+        $ini = $ini ?: eZINI::instance( 'velocity.ini' );
+        return $ini->hasVariable( 'DeploySettings', 'Migrate' ) && trim( (string)$ini->variable( 'DeploySettings', 'Migrate' ) ) === 'enabled';
+    }
+
+    /**
+     * The step that runs the pending migrations (exp:migration:migrate --apply, with its captions, record, commit and
+     * push as on the command line). Its exit code decides: a migration that fails stops the deploy.
+     *
+     * @return array
+     */
+    protected function migrateStep()
+    {
+        $skip = self::migrateEnabled( $this->options['migrate'] ) ? ''
+              : ( $this->options['migrate'] === false ? 'skipped (--no-migrate)' : 'not asked ([DeploySettings] Migrate=disabled; --migrate runs them)' );
+        return $this->commandStep( 'migrate', 'pending migrations', array( 'bin/php/expmigrationmigrate.php', '--apply', '--allow-root-user' ), $skip );
+    }
+
+    /** The caches the deploy has steps of its own for (cachePlan() decides them; --caches only adds a reason). */
+    const PLANNED_CACHES = array( 'ini', 'global_ini', 'tag:ini', 'template', 'template-override', 'translation', 'design_base', 'content', 'exphttpcache',
+                                  'template-block', 'ezjscore-packer' );
+
+    /**
+     * A step for each cache of --caches the deploy has no step for: --clear-id when it is an id of ezcache,
+     * --clear-tag when it is a tag (or written tag:<name>); a name that is neither fails the step.
+     *
+     * @return array
+     */
+    protected function extraCacheSteps()
+    {
+        $steps = array();
+        $names = array_diff( self::cacheList( isset( $this->options['caches'] ) ? $this->options['caches'] : array() ), self::PLANNED_CACHES );
+        if ( !$names )
+            return $steps;
+        $cacheList = eZCache::fetchList();
+        $ids = eZCache::fetchIDList( $cacheList );
+        foreach ( $names as $name )
+        {
+            $tag = strpos( $name, 'tag:' ) === 0 ? substr( $name, 4 ) : null;
+            $arg = $tag !== null ? '--clear-tag=' . $tag : ( in_array( $name, $ids, true ) ? '--clear-id=' : '--clear-tag=' ) . $name;
+            $step = $this->commandStep( 'cache-' . str_replace( ':', '-', $name ), $name . ' cache', array( 'bin/php/ezcache.php', $arg, '--allow-root-user' ) );
+            $step['dry'] = function () { return 'cleared: --caches'; };
+            $steps[] = $step;
+        }
+        return $steps;
     }
 
     /**

@@ -36,7 +36,7 @@ the kernel supports (8.0 to 8.5 for 6.0.15, `doc/eng-us/install/02-requirements.
 
 **Copyright assignment (CLA).** A change to the **core kernel** (`se7enxweb/exponential`),
 sent in any form, is merged only after you have signed the Contributor Licensing Agreement that 7x and the
-Exponential Foundation require. **By signing and submitting, you assign the copyright in your contribution to 7x, which becomes its owner, and give up control over it:** 7x may use, change, relicense and distribute it in any way, also under other licenses and in commercial
+Exponential Foundation require. **By signing and submitting, you assign the copyright in your contribution to the Exponential Foundation and 7x, which become its owners, and give up control over it:** The Exponential Foundation and 7x may use, change, relicense and distribute it in any way, also under other licenses and in commercial
 products, without asking or paying you, and you cannot withdraw it or set conditions on it. Your own custom extensions, and
 fixes you keep for your customers, are not affected. See
 [Copyright assignment (CLA)](../../../../CONTRIBUTING.md#copyright-assignment-cla).
@@ -48,7 +48,7 @@ fixes you keep for your customers, are not affected. See
 - Rename only if needed (for example to publish on Packagist under your vendor), and say where it came from.
 - Offer your fork's improvements back if the original revives.
 
-The project does the same: Exponential Layouts "brings the Netgen Layouts concept to the Exponential kernel"
+The project does the same: Exponential Layouts "brings the concept of the upstream layouts packages to the Exponential kernel"
 (README), and the LoveStack improvements were rebuilt "with full credit to Mugo Web" (README).
 
 ## 5. Taking over maintenance

@@ -111,9 +111,9 @@ Hinweise:
 - 7x und die Foundation sind **zwei Organisationen**. Schreiben Sie nie so, als wären sie eine, und schreiben Sie nie,
   dass die Foundation Dienstleistungen verkauft: 7x ist das Unternehmen, die Foundation betreibt und finanziert das
   Projekt ([Die Foundation und 7x](../wer-ist-die-exponential-foundation.md#die-foundation-und-7x)).
-- Der Copyright-Inhaber der Software wird **7x & Exponential Foundation** geschrieben (`COPYRIGHT.md`); der Vermerk
-  der Dokumentation ergänzt „and the Exponential contributors“ ([Die Lizenz dieser Dokumentation](../../README-LIZENZ.md)).
-  Übernehmen Sie diese Vermerke genau, kürzen Sie sie nie.
+- Der Copyright-Inhaber der Software wird **Exponential Foundation and 7x** geschrieben (`COPYRIGHT.md`); die
+  Dokumentation trägt denselben Vermerk, ohne dritten Rechteinhaber: Mitwirkende übertragen ihr Urheberrecht über das CLA
+  an beide ([Die Lizenz dieser Dokumentation](../../README-LIZENZ.md)). Übernehmen Sie den Vermerk genau, kürzen Sie ihn nie.
 
 ## Der alte Name: eZ Publish, nur als Geschichte
 
@@ -165,7 +165,7 @@ Die Quellen erwähnen andere Unternehmen sachlich. Behalten Sie diesen Ton bei.
 |---|---|---|
 | eZ Systems | Entwickler von eZ Publish; sein Copyright von 1999 bis 2014 bleibt im Code | Nur als Geschichte und in Copyright-Vermerken nennen |
 | Ibexa, eZ Platform, Ibexa DXP OSS | Die auf Symfony basierenden Nachfolger von eZ Publish; das Produkt wurde „At the specific request of Ibexa“ umbenannt, auf ausdrücklichen Wunsch von Ibexa | Nur sachliche Aussagen; keine Vergleiche über das hinaus, was die Quellen sagen ([Exponential sachlich vergleichen](exponential-sachlich-vergleichen.md)) |
-| Netgen | Exponential Layouts bringt „the Netgen Layouts concept to the Exponential kernel“, also das Konzept von Netgen Layouts in den Kernel von Exponential | Nennen Sie sie, wo ihre Arbeit verwendet wird |
+| Netgen | Exponential Layouts bringt „the concept of the upstream layouts packages to the Exponential kernel“, also das Konzept der Upstream-Layouts-Pakete in den Kernel von Exponential | Nennen Sie sie, wo ihre Arbeit verwendet wird |
 | Mugo Web | Funktionen von LoveStack wurden „with full credit to Mugo Web“ nachgebaut, unter voller Nennung von Mugo Web | Nennen Sie sie |
 | CJW Network | `cjw_newsletter`, request-shield | Nennen Sie sie; request-shield ist „a project of CJW Network ... not of the Foundation“, ein Projekt von CJW Network und nicht der Foundation |
 

@@ -982,6 +982,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>ఈ పేజీలో మాత్రమే శోధించబడుతుంది: %countలో %from నుండి %to వరకు.</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>కెర్నల్ మరియు ఎక్స్‌టెన్షన్‌ల ప్రతి డేటా రకం, మరియు క్లాస్‌లు, కంటెంట్ దానిని ఎలా ఉపయోగిస్తాయి.</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>డేటాటైప్‌లు</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2314,6 +2322,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>సిస్టమ్ పేజీలను కూడా బుక్‌మార్క్ చేయవచ్చు: పేజీని తెరవండి (సెటప్, ఆడిట్ ట్రెయిల్, వినియోగదారుల జాబితా ...) మరియు దాని పైన ఉన్న “ఈ పేజీని బుక్‌మార్క్ చేయండి”ని ఎంచుకోండి. అటువంటి బుక్‌మార్క్‌లకు గేర్ చిహ్నం ఉంటుంది.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>మీరు ఇకపై ఈ పేజీని ఇక్కడ తెరవలేరు. బుక్‌మార్క్‌ను తొలగించండి, లేదా యాక్సెస్ కోసం నిర్వాహకుడిని అడగండి.</translation>
     </message>
 </context>
 <context>
@@ -5163,6 +5175,210 @@
         <source>Go to the first page</source>
         <translation>మొదటి పేజీకి వెళ్లండి</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>ఇతర</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>గత 7 రోజులు</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>అనుకూల పరిధి</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>అన్ని పదాలు</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>ఏదైనా పదం</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>ఖచ్చితమైన పదబంధం</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>సంబంధితత</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>పేరు A–Z</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>పేరు Z–A</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>సవరించబడింది, కొత్తవి ముందు</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>సవరించబడింది, పాతవి ముందు</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>ప్రచురించబడింది, కొత్తవి ముందు</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>ప్రచురించబడింది, పాతవి ముందు</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>సవరించబడింది</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>ఫిల్టర్‌లు</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>ఫిల్టర్‌లను చూపించు</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>ఫిల్టర్‌లను దాచు</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>రీసెట్ చేయండి</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>వర్తింపజేయండి</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>పదాలు</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>కంటెంట్ రకం</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>మరిన్ని చూపించు (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>దాని లక్షణాలలో ఒకదానిలో వెతకడానికి ఒక కంటెంట్ రకాన్ని ఎంచుకోండి.</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>విభాగం</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>నుండి</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>వరకు</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>ప్రారంభ తేదీ చెల్లుబాటు అయ్యే తేదీ కాదు.</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>ముగింపు తేదీ చెల్లుబాటు అయ్యే తేదీ కాదు.</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>యజమాని</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>వినియోగదారు ID, లాగిన్ లేదా ఇ-మెయిల్ చిరునామా.</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>“%input” కోసం వినియోగదారు ఎవరూ కనుగొనబడలేదు.</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>భాష</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>ఏదైనా భాష</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>స్థానం</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>%count స్థానాలు</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>పేజీకి ఫలితాలు</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>“%text” కోసం ఫలితాలు (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>ఫలితాలు (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>దీని ప్రకారం క్రమబద్ధీకరించండి</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>క్రమబద్ధీకరించండి</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>క్రియాశీల ఫిల్టర్‌లు</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>ఈ ఫిల్టర్‌ను తీసివేయండి</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>లేదా ఫిల్టర్‌లను ఎంచుకుని, వాటికి సరిపోయే కంటెంట్‌ను జాబితా చేయడానికి వాటిని వర్తింపజేయండి.</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>మీరు పదాలు టైప్ చేసిన తర్వాత ఫిల్టర్‌లు శోధనను కుదిస్తాయి.</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>“%text” కోసం ఫలితాలు ఏవీ కనుగొనబడలేదు.</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>ఫలితాలు ఏవీ కనుగొనబడలేదు.</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>పైన ఉన్న ఒక ఫిల్టర్‌ను తీసివేయండి.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>అనువాదాలు</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>చర్యలు</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>%name ను సవరించండి</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>సవరించండి</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -7512,6 +7728,10 @@
         <source>Setup &gt; Cronjobs</source>
         <translation>సెటప్ &gt; క్రాన్ జాబ్‌లు</translation>
     </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>ఇంకా ఏ క్రాన్ జాబ్ భాగమూ రన్ కాలేదు: జాబ్ క్యూ, దిగుమతులు, నోటిఫికేషన్‌లు మరియు శోధన సూచిక వేచి ఉన్నాయి. php bin/php/installcrontab.php --add --apply ను రన్ చేయండి, లేదా --show చూపే పంక్తులను crontab ఫైల్‌కు జోడించండి.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/dashboard/drafts</name>
@@ -8056,8 +8276,8 @@
         <translation>లైసెన్స్ అవసరం మేరకు, అసలు రచయితల కాపీరైట్ నోటీసులు మరియు Exponential తో చేర్చబడిన మూడవ పక్ష సాఫ్ట్‌వేర్ నోటీసులు సోర్స్ ఫైళ్లలో మరియు LICENSE ఫైల్‌లో ఉంచబడ్డాయి.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>eZ Systems కంట్రిబ్యూటర్ లైసెన్సింగ్ ఒప్పందం నియమ నిబంధనల ప్రకారం 7x ఉపయోగించడానికి తమ పనిని లైసెన్స్ చేసిన Exponential కంట్రిబ్యూటర్ల జాబితా క్రింద ఉంది. ఈ ఒప్పందం అనుమతించిన విధంగా, 7x ప్రతి సహకారాన్ని అది చేర్చబడిన ఫైల్‌కు ఉన్న లైసెన్స్ కిందనే తిరిగి పంపిణీ చేస్తుంది. ఈ జాబితాలో ప్రతి కంట్రిబ్యూటర్ పేరు, ఐచ్ఛిక సంప్రదింపు సమాచారం మరియు వారు సహకరించిన లేదా పని అందించిన ఫైళ్లు ఉంటాయి.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>Exponential మరియు అది పుట్టిన సాఫ్ట్‌వేర్‌పై చేసిన పనికి గుర్తింపు పొందిన సహకారులు, వారు సహకరించిన ఫైళ్లతో సహా. ఇది గుర్తింపు, కాపీరైట్ నోటీసు కాదు: Exponential కు అందించిన సహకారాలు Contributor Licensing Agreement ప్రకారం Exponential Foundation మరియు 7x కు బదిలీ చేయబడతాయి.</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13879,32 +14099,20 @@ Note: The packages will not be uninstalled.</source>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;Exponential Enterprise Edition‌ను మూల్యాంకనం చేయండి&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Exponential కమ్యూనిటీలో సభ్యులు అవ్వండి, పరస్పరం మార్చుకోండి, సహకరించండి&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; కాపీరైట్ &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; మరియు ఇతరులు.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>&lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt; ద్వారా శక్తివంతం చేయబడింది. మరింత సమాచారం కోసం &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt; చూడండి.</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; కాపీరైట్ &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; మరియు ఇతరులు.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> మరింత సమాచారం కోసం &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt; చూడండి.</translation>
     </message>
     <message>
-        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; కాపీరైట్ &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; మరియు ఇతరులు.</translation>
+        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;Exponential (From 7x)ను మూల్యాంకనం చేయండి&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Exponential కమ్యూనిటీలో సభ్యులు అవ్వండి, సహాయం పొందండి, సహకరించండి&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; కాపీరైట్ &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; మరియు ఇతరులు.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13913,6 +14121,61 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Help center</source>
         <translation>సహాయ కేంద్రం</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>కంటెంట్</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>పత్రం పేజీలు</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>వినియోగదారులు</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>కంటెంట్ క్లాస్‌లు</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>అడ్మినిస్ట్రేషన్</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>పేజీ %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>అన్ని ఫలితాలను చూడండి</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>%count ఫలితాలు</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>ఒక ఫలితం</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>%count సూచనలు</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>సూచనలు లేవు</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>సూచనలను లోడ్ చేయడం సాధ్యం కాలేదు.</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>సూచనలు</translation>
     </message>
 </context>
 <context>
@@ -14381,6 +14644,14 @@ Note: The packages will not be uninstalled.</source>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>ఈ ఇన్‌స్టాలేషన్ పబ్లిక్ డెమో: ఎవరికైనా దీని నిర్వాహకుడి పాస్‌వర్డ్ తెలిసి ఉండవచ్చు, మరియు నిర్వాహకుల పాస్‌వర్డ్‌లను మార్చడం లేదా రీసెట్ చేయడం సాధ్యం కాదు. ఇక్కడ ఎలాంటి ప్రైవేట్ సమాచారాన్ని నమోదు చేయకండి.</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>మీ పరికరాలు</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>భద్రతా కార్యకలాపం</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14670,6 +14941,14 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>గైడ్‌లు, శోధన మరియు లోపాన్ని ఎలా నివేదించాలి.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>ఇటీవలి కంటెంట్</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>అత్యంత కొత్త కంటెంట్, సమీక్ష కోసం నిలిపి ఉంచినది, మరియు ఎంపికపై చర్యలు.</translation>
     </message>
 </context>
 <context>
@@ -15128,6 +15407,46 @@ Note: The packages will not be uninstalled.</source>
         <source>Synchronisations</source>
         <translation>సింక్రనైజేషన్‌లు</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>GraphQL API: దాని ఎండ్ పాయింట్, స్కీమా మరియు క్వెరీలను ప్రయత్నించడానికి ఒక ప్లేగ్రౌండ్.</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>ఇన్‌స్టాలేషన్ మైగ్రేషన్‌లు</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>ఫైళ్లుగా ఉంచిన ఇన్‌స్టాలేషన్ మార్పులు: వాటి స్థితి, రన్‌లు, అమలు చేయడం మరియు వెనక్కి తీసుకోవడం.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>ఇటీవలి కంటెంట్</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>అత్యంత కొత్త కంటెంట్, సమీక్ష కోసం నిలిపి ఉంచినది, మరియు ఎంపికపై చర్యలు.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>ఒక సైట్ యొక్క స్టాటిక్ కాపీని GitHub Pages లో లేదా ఏదైనా git హోస్ట్‌లో ప్రచురించండి.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>స్టాటిక్ ప్రచురణ</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>డేటాటైప్‌లు</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>కెర్నల్ మరియు ఎక్స్‌టెన్షన్‌ల ప్రతి డేటా రకం, మరియు క్లాస్‌లు, కంటెంట్ దానిని ఎలా ఉపయోగిస్తాయి.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15292,6 +15611,22 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>ఎవరూ ఉపయోగించని లేదా పరిశీలన అవసరమైన ఖాతాలు; వాటిని నిలిపివేయండి, అన్‌లాక్ చేయండి లేదా ఎగుమతి చేయండి.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>వినియోగదారు ఆడిట్ లాగ్</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>ఖాతా వారీగా ఎవరు మార్చారు, సైన్ ఇన్ చేశారు లేదా తిరస్కరించబడ్డారు; ఫిల్టర్ చేసి ఎగుమతి చేయండి.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>సైన్ ఇన్ నివేదిక</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>ఎవరు సైన్ ఇన్ అయ్యారు, రోజువారీ సైన్ ఇన్‌లు మరియు వైఫల్యాలు; ఒక వినియోగదారును అన్ని చోట్ల నుండి సైన్ అవుట్ చేయండి.</translation>
     </message>
 </context>
 <context>
@@ -22108,6 +22443,22 @@ Note: The packages will not be uninstalled.</source>
         <source>%n hours ago</source>
         <translation>%n గంటల క్రితం</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>GraphQL API యొక్క నిల్వ చేసిన క్వెరీల సమాధానాలు, మరియు దాని స్కీమా యొక్క కంటెంట్ క్లాస్‌లు.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>స్టాటిక్ కాపీని GitHub Pages లో లేదా ఏదైనా git హోస్ట్‌లో ప్రచురించండి</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>స్టాటిక్ ప్రచురణ</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>స్టాటిక్ కాష్ ఈ సర్వర్ నుండి పేజీలను అందిస్తుంది. ఒక సైట్ యొక్క స్టాటిక్ కాపీని వేరే చోట, GitHub Pages లో లేదా ఏదైనా git హోస్ట్‌లో ప్రచురించడానికి స్టాటిక్ ప్రచురణను ఉపయోగించండి.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25649,6 +26000,10 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>last purge</source>
         <translation>చివరి ప్రక్షాళన</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>రాతలు స్థితి లాక్‌ను పొందలేకపోయాయి (చివరిసారి %date): ప్రతి ఒక్కటీ కాష్ చేసిన అన్ని ఫలితాలను పాతవిగా చేసింది. సైట్ ఏ వినియోగదారులుగా నడుస్తుందో వారందరికీ %file రాయగలిగేలా ఉండాలి; NFS లో దీనికి NFSv4 లేదా lockd అవసరం.</translation>
     </message>
 </context>
 <context>
@@ -33597,6 +33952,14 @@ Note: The packages will not be uninstalled.</source>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>PHP హ్యాండ్లర్ యొక్క గడువు ముగిసిన సెషన్‌లను ఈ పేజీ లేదా session_gc క్రాన్‌జాబ్ భాగం కాకుండా PHP స్వయంగా (session.gc_maxlifetime) తొలగిస్తుంది.</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>వినియోగదారులందరి సైన్ ఇన్ అయిన సెషన్‌లు సైన్ ఇన్ నివేదికలో జాబితా చేయబడతాయి, అక్కడి నుండే సైన్ అవుట్ చేయబడతాయి; అది ప్రతి సెషన్ హ్యాండ్లర్‌తో పనిచేస్తుంది.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>సైన్ ఇన్ నివేదికను తెరవండి</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37921,6 +38284,26 @@ your account.</source>
     <message>
         <source>None yet</source>
         <translation>ఇంకా ఏదీ లేదు</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>భద్రతా కార్యకలాపం</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>మీ ఇటీవలి సైన్ ఇన్‌లు, విఫలమైన ప్రయత్నాలు మరియు మీ పాస్‌వర్డ్, ఇమెయిల్ చిరునామా, రెండు దశల సైన్ ఇన్‌లో మార్పులు.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>ఈ ఖాతా యొక్క ఇటీవలి సైన్ ఇన్‌లు, విఫలమైన ప్రయత్నాలు మరియు భద్రతా మార్పులు.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>కార్యకలాపాన్ని సమీక్షించండి</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>%count విఫలమైన సైన్ ఇన్‌లు</translation>
     </message>
 </context>
 <context>
@@ -44087,6 +44470,42 @@ If you want to send comments to the approver or view the status use the URL belo
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>సైన్ ఇన్ చేసిన తర్వాత, వినియోగదారు మరేదైనా చేసే ముందు కొత్త పాస్‌వర్డ్‌ను ఎంచుకోవాలి. మీరు ఎవరికైనా తాత్కాలిక పాస్‌వర్డ్ ఇచ్చినప్పుడు దీన్ని ఉపయోగించండి.</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>ఇప్పటికే ఉన్న చిత్రాన్ని ఎంచుకోండి</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>మీరు ఎంచుకున్న ఆబ్జెక్ట్ యొక్క చిత్ర ఫైల్ ఈ ఫీల్డ్‌లోకి కాపీ చేయబడుతుంది. ఇతర ఆబ్జెక్ట్ మారదు.</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>“%name” యొక్క చిత్రం ఈ ఫీల్డ్‌లోకి కాపీ చేయబడింది.</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>చిత్రం కోసం బ్రౌజ్ చేయండి</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>పేరుతో చిత్రాలను శోధించండి</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>శోధన</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>“%name” యొక్క చిత్రాన్ని ఉపయోగించండి</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>ఈ చిత్రాన్ని ఉపయోగించండి</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>మీ శోధనకు సరిపోలే చిత్రం ఏదీ లేదు.</translation>
     </message>
 </context>
 <context>
@@ -51011,6 +51430,10 @@ See the requirements page for more information.</source>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>crontab రాయబడలేదు (%reason). సైట్ ఏ వినియోగదారుగా నడుస్తుందో ఆ వినియోగదారు crontabకు ఈ పంక్తులను జోడించండి, లేకపోతే క్యూ, దిగుమతులు, నోటిఫికేషన్‌లు మరియు శోధన సూచిక ఎప్పటికీ అమలు కావు:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>మళ్లీ ఇన్‌స్టాల్ చేయడం కిక్‌స్టార్టర్‌తో (%file, ఆపై php bin/php/kickstarter.php run --apply) లేదా కొత్త ఇన్‌స్టలేషన్‌తో జరుగుతుంది.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54890,6 +55313,10 @@ your account.</source>
         <source>eZJSCore Public Packer cache</source>
         <translation>eZJSCore Public Packer కాష్</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>GraphQL కాష్ (సమాధానాలు మరియు స్కీమా క్లాస్‌లు)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54976,6 +55403,14 @@ your account.</source>
     <message>
         <source>Copy of %class_name</source>
         <translation>%class_name యొక్క కాపీ</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>డేటాటైప్‌లు</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>డేటా రకం %string</translation>
     </message>
 </context>
 <context>
@@ -55802,6 +56237,26 @@ your account.</source>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>SVG చిత్రాన్ని చదవడం సాధ్యం కాలేదు, లేదా అందులో ఏదీ సురక్షితంగా చూపించడం సాధ్యం కాదు.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>చిత్రాన్ని కాపీ చేయడం సాధ్యం కాలేదు. దయచేసి మళ్లీ ప్రయత్నించండి లేదా సైట్ నిర్వాహకుడిని సంప్రదించండి.</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>ఎంచుకున్న ఆబ్జెక్ట్ ఉనికిలో లేదు లేదా దాన్ని చదవడానికి మీకు అనుమతి లేదు.</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>ఎంచుకున్న ఆబ్జెక్ట్‌కు చిత్రం లేదు.</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>ఎంచుకున్న ఆబ్జెక్ట్ యొక్క చిత్ర ఫైల్‌ను చదవడం సాధ్యం కాలేదు.</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>ఎంచుకున్న ఆబ్జెక్ట్ యొక్క చిత్రం ఈ ఫీల్డ్ అనుమతించే దానికంటే పెద్దది: %1 బైట్‌లు.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56332,6 +56787,42 @@ your account.</source>
         <source>The bookmark was renamed to &quot;%name&quot;.</source>
         <translation>బుక్‌మార్క్ పేరు “%name”గా మార్చబడింది.</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>ఈ సైట్‌యాక్సెస్‌లో (%siteaccess) ఈ పేజీ నిలిపివేయబడింది. ఈ పేజీ ఉన్న సైట్‌యాక్సెస్‌లో బుక్‌మార్క్‌ను తెరవండి.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>ఈ పేజీ యొక్క మాడ్యూల్ ఇక్కడ ఇన్‌స్టాల్ చేయబడలేదు లేదా ప్రారంభించబడలేదు.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>ఈ పేజీ ఇకపై లేదు: దాని మాడ్యూల్‌లో అటువంటి వీక్షణ లేదు.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>మీ పాత్రలలో ఏదీ ఈ పేజీని తెరవడానికి మిమ్మల్ని అనుమతించదు.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>ఈ సైట్‌యాక్సెస్‌ను ఉపయోగించడానికి మీకు అనుమతి లేదు.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>ఈ పేజీ చూపే కంటెంట్‌ను చదవడానికి మీకు అనుమతి లేదు.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>ఈ రకమైన పేజీని బుక్‌మార్క్ చేయలేరు: ఇది ఒక ఫారంపై మాత్రమే పని చేస్తుంది, లేదా ఒక క్షణానికి మాత్రమే చెందిన పేజీ.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>ఈ పేజీ చిరునామా లేదు.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>ఈ పేజీని ఇప్పుడు తెరవడం సాధ్యం కాదు.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56803,6 +57294,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>చివరి రన్‌లో మెయిల్ ట్రాన్స్‌పోర్ట్ %count సందేశాలను తిరస్కరించింది. మెయిల్ సర్వర్‌ను మరియు site.ini MailSettings‌ను తనిఖీ చేయండి.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>%count ఈవెంట్‌లు వేచి ఉన్నాయి మరియు నోటిఫికేషన్ క్రాన్ జాబ్ రన్ ఏదీ నమోదు కాలేదు. &quot;frequent&quot; అనే క్రాన్ జాబ్ భాగాన్ని crontab ఫైల్‌కు జోడించండి, లేదా exp:notification:run --apply ను రన్ చేయండి.</translation>
     </message>
 </context>
 <context>
@@ -63059,6 +63554,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Choose another site or section with the node picker</source>
         <translation>నోడ్ పికర్‌తో మరొక సైట్ లేదా విభాగాన్ని ఎంచుకోండి</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>సిస్టమ్ నిర్వాహకుడు మాత్రమే యజమానిని మార్చగలరు: root గా ./console exp:content-check --fix-permissions --apply ను రన్ చేయండి.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64592,6 +65091,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>empty</source>
         <translation>ఖాళీ</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>సంతకం కీ ఒక సంవత్సరం కంటే పాతది: exp:audit key rotate --apply తో దాన్ని మార్చండి.</translation>
     </message>
 </context>
 <context>
@@ -68422,6 +68925,486 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Share of page time</source>
         <translation>పేజీ సమయంలో వాటా</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>పూర్తి రెండర్ అభ్యర్థించబడింది</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>పేజీ కాష్‌లో ఈ పేజీ లేదు (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>పేజీ కాష్ ప్రతిస్పందించలేదు</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>రెండర్ చేయబడింది</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>కెర్నల్ ద్వారా రెండర్ చేయబడింది: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>పేజీ కాష్ నుండి %ms ms లో అందించబడింది. ఈ పేజీ %stored సమయంలో %render ms పట్టిన రెండర్ ద్వారా నిల్వ చేయబడింది, %age s క్రితం.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>ఇప్పుడే రెండర్ చేయండి</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>కాష్ చేసిన వీక్షణకు వెనుకకు</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>%stored నాటి రెండర్ నుండి (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>ఈ అభ్యర్థన: పేజీ కాష్ నుండి %ms ms లో అందించబడింది.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>వినియోగదారు</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>వినియోగదారు ID</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>కాష్ ప్రొఫైల్</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>ఈ వీక్షణ</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>వీక్షణ కాష్</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>ప్రతి వినియోగదారుకు (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>వినియోగదారు కాష్ ప్రొఫైల్: ఒకే ప్రొఫైల్ ఉన్న వినియోగదారులు వీక్షణ కాష్ ఫైళ్లను పంచుకుంటారు</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>అవును</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>కాదు</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>లాగిన్</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>లాగిన్ అయ్యారు</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>సెషన్</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>ఈ పేజీ ViewCacheTweaks ప్రకారం, వినియోగదారుపై ఆధారపడే కంటెంట్ వీక్షణ కాష్ కీ భాగాలు, కీ వాటిని తీసుకునే విధంగానే. ఒకే ప్రొఫైల్ ఉన్న వినియోగదారులు వీక్షణల కాష్ ఫైళ్లను పంచుకుంటారు, వీక్షణ స్వంత భాగాలు (ప్రాధాన్యతలు, listener కీలు) భిన్నంగా ఉంటే తప్ప: వాటికి ఈ పేజీకి మాత్రమే సొంత ప్రొఫైల్ ఉంటుంది.</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>ప్రొఫైల్</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>ఈ వీక్షణ (నోడ్ %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: లాగిన్ అయిన ప్రతి వినియోగదారుకు సొంత కాష్ ఫైళ్లు ఉంటాయి.</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>అమలులో ఉన్న ViewCacheTweaks: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>భాగం</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>విలువ</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>ఏ భాగమూ వినియోగదారుపై ఆధారపడదు (ViewCacheTweaks).</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>ఈ వీక్షణ</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>టెక్స్ట్‌గా కాపీ చేయండి</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>పాత్రలు</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>పాత్ర కేటాయింపులు ఏవీ చదవలేకపోయాము.</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>పాత్ర ID</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>పాత్ర</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>పరిమితి</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>కేటాయించబడింది</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>వినియోగదారు</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>సమూహం %name (ఆబ్జెక్ట్ %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>కాపీ చేయబడింది</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>కాపీ చేయలేకపోయాము.</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>listener వదిలివేసింది</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>అజ్ఞాత సందర్శకులు</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>మీదే లాగా</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>భిన్నం</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>అనామక సందర్శకులు అదే ViewCacheTweaks కింద, డిఫాల్ట్ ప్రాధాన్యతలతో, వీక్షణ భాగాలు లేకుండా పొందే ప్రొఫైల్: సెషన్‌ను చదివే listener ను వాటి కోసం అడగలేము.</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>ప్రాధాన్యతలు</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>ఏ వీక్షణ మోడ్ కూడా వినియోగదారు ప్రాధాన్యతలపై ఆధారపడదు (site.ini [ContentSettings] CachedViewPreferences).</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>ఈ వీక్షణ మోడ్‌ల వీక్షణలు ఆధారపడే ప్రాధాన్యతలు (CachedViewPreferences), వినియోగదారు విలువ లేదా డిఫాల్ట్‌తో. అవి ప్రొఫైల్‌లో userpreferences గా, అన్ని వీక్షణ మోడ్‌లవి కలిపి ఉంటాయి.</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>వీక్షణ మోడ్</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>ప్రాధాన్యత</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>డిఫాల్ట్</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>విధానాలు</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>పాత్రల విధానాలను చూపించు (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>ఈ విభాగాన్ని తెరిచినప్పుడు విధానాలు సర్వర్ నుండి ఒక్కో పేజీగా లోడ్ అవుతాయి, మరియు మాడ్యూల్ మరియు ఫంక్షన్ ద్వారా ఫిల్టర్ చేయవచ్చు.</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>ఫంక్షన్</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>అన్ని మాడ్యూల్‌లు</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>అన్ని ఫంక్షన్‌లు</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>పరిమితులు</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>మరిన్ని చూపించు</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>ఈ పాత్రలకు విధానాలు లేవు.</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>ఏ విధానమూ ఫిల్టర్‌కు సరిపోలదు.</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%matching లో %shown విధానాలు (మొత్తం %total)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>తెరిచినప్పుడు లోడ్ అవుతుంది.</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>module/function, పాత్ర, పరిమితి</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>విధానాలను శోధించండి</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>మరిన్ని లోడ్ చేయండి</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>మాడ్యూల్/ఫంక్షన్</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>అన్ని పాత్రలు (%count విధానాలు)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>ఏ విధానమూ సరిపోలలేదు.</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%matched విధానాలలో %shown</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>సమాధానం లేదు</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>మాస్క్ చేయబడింది</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>వివరణలను చూపండి</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>వివరణలను దాచండి</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>తెరవండి</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>అన్నీ తెరవండి</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>అన్నింటినీ మూసివేయండి</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>కీ లేదా విలువ</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>సెషన్‌లో శోధించండి</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>రకం</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>మరో %count</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>చూపడానికి చాలా లోతుగా నెస్ట్ చేయబడింది</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>కత్తిరించబడింది, మొత్తం %count అక్షరాలు</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>ప్రారంభమైంది</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>కుకీ పేరు</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>సెషన్ ID</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>హ్యాండ్లర్</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>సేవ్ పాత్</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>PHP డిఫాల్ట్</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>జీవితకాలం (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>కుకీ</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>జీవితకాలం %s సె</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>మీ స్వంత PHP సెషన్, విభాగం తెరిచినప్పుడు ఉన్నట్లుగానే, ఎప్పుడూ వేరొకరిది కాదు. రహస్యాల్లా కనిపించే కీల విలువలు (టోకెన్‌లు, హ్యాష్‌లు, పాస్‌వర్డ్‌లు) మాస్క్ చేయబడతాయి (debugbar.ini SessionMask[]); మిగతావన్నీ నిల్వ చేసినట్లుగానే చూపబడతాయి, వ్యక్తిగత డేటా కూడా.</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>%count కీలు, %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>పెద్దది</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>సెషన్ ఖాళీగా ఉంది.</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>ఈ అభ్యర్థన కోసం ఏ సెషన్ ప్రారంభించబడలేదు.</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>ఎక్స్‌టెన్షన్ %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>కెర్నల్ మరియు ఇతరాలు</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>అన్ని ఎంట్రీలు చూపబడలేదు: ఇక్కడ జాబితా చేయగలిగిన దానికంటే సెషన్‌లో ఎక్కువ ఉన్నాయి.</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>%count కీలు జాబితా చేయబడలేదు.</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>ఫ్రేమ్</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>టోకెన్‌లా కనిపించే విలువలు (ఒక JSON Web Token, Authorization హెడర్ యొక్క ఆధారాలు, ఒక ప్రైవేట్ కీ, పొడవైన హెక్స్ లేదా యాదృచ్ఛిక టెక్స్ట్) కూడా మాస్క్ చేయబడతాయి, వాటి కీ పేరు ఏదైనా సరే (debugbar.ini SessionValueMask[]).</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>కీ ఒక రహస్యంలా కనిపిస్తోంది (debugbar.ini SessionMask[]).</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>విలువ ఒక టోకెన్‌లా కనిపిస్తోంది.</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>మాస్క్ చేయబడిన కీ కింద.</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>టెక్స్ట్‌గా సెషన్, పట్టికలాగే మాస్క్ చేయబడింది.</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>సెషన్ %size కంటే పెద్దది (debugbar.ini SessionWarnBytes): ఈ వినియోగదారు యొక్క ప్రతి అభ్యర్థన మొత్తం సెషన్‌ను చదువుతుంది, మరియు అది మారినప్పుడు రాస్తుంది.</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP ఈ సెషన్‌ను ఫైళ్లలో ఉంచుతుంది మరియు మొత్తం అభ్యర్థన సమయంలో ఫైల్‌ను లాక్ చేస్తుంది: ఒకే వినియోగదారు యొక్క అభ్యర్థనలు (అనేక ట్యాబ్‌లు, AJAX కాల్‌లు) ఒకదాని కోసం ఒకటి వేచి ఉంటాయి.</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>తెరిచే ఉంచండి</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>%size కంటే పెద్దది (debugbar.ini SessionWarnBytes): ఈ వినియోగదారు యొక్క ప్రతి అభ్యర్థన మొత్తం సెషన్‌ను చదువుతుంది.</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%countలో %hits కాష్ నుండి చదవబడ్డాయి</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>ఏ టెంప్లేట్ రెండర్ చేయబడలేదు (వ్యూ కాష్ నుండి చదివిన వ్యూ ఏదీ రెండర్ చేయదు).</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>పాత్ర కేటాయింపులు</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>పాత్రలు మరియు పాలసీలు</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>అనామక సందర్శకుల నుండి భిన్నం</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>అనామక సందర్శకులకు ఉన్నట్లే</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70302,6 +71285,14 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>not sent</source>
         <translation>పంపబడలేదు</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>నోటిఫికేషన్ క్రాన్ జాబ్ తన ప్రతి రన్‌ను ఇక్కడ నమోదు చేస్తుంది. frequent భాగాన్ని crontab ఫైల్‌కు జోడించండి, లేదా exp:notification:run --apply ను రన్ చేయండి.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>కన్సోల్ ఉపయోగించండి: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -76020,6 +77011,98 @@ You will need to change the class of the node by using the swap functionality.</
         <source>This topic is not Released; readers do not see it.</source>
         <translation>ఈ అంశం విడుదల చేయబడలేదు; పాఠకులు దీన్ని చూడరు.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>ఇన్‌స్టాలేషన్ మైగ్రేషన్‌లు</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>ఫైళ్లుగా ఉంచిన ఇన్‌స్టాలేషన్ మార్పులు: వాటి స్థితి, రన్‌లు, అమలు చేయడం మరియు వెనక్కి తీసుకోవడం.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>ఒక సైట్ యొక్క స్టాటిక్ కాపీని GitHub Pages లో లేదా ఏదైనా git హోస్ట్‌లో ప్రచురించండి.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>స్టాటిక్ ప్రచురణ</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>సమీక్షలో</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>పాఠకులు ఈ పేజీని చూస్తారు.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>ఎవరైనా విడుదల చేసే వరకు పాఠకుల నుండి దాచబడింది.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>పేజీ ఇప్పుడు సమీక్షలో ఉంది. విడుదల చేసే వరకు పాఠకుల నుండి దాచబడింది.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>పేజీ విడుదల చేయబడింది: పాఠకులు ఇప్పుడు దాన్ని చూస్తారు.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>పేజీ మళ్లీ డ్రాఫ్ట్‌గా ఉంది. సమీక్షించి విడుదల చేసే వరకు పాఠకుల నుండి దాచబడింది.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>ఇప్పుడే విడుదల చేయండి</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>%role పాత్ర ఉన్న, ఈ వెర్షన్‌ను రాయని వినియోగదారు మాత్రమే దీన్ని విడుదల చేయగలరు.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>విడుదల కోసం వేచి ఉన్న సహాయ అంశాలు</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>మళ్లీ విడుదల చేసే వరకు పాఠకుల నుండి దాచుతుంది.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>తర్వాత ఒక సమీక్షకుడు దాన్ని తనిఖీ చేస్తారు. పాఠకులు ఇంకా దాన్ని చూడరు.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>పాఠకులు దాన్ని వెంటనే చూస్తారు.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>మరింత పని కోసం సమీక్ష నుండి తీసివేస్తుంది. పాఠకులు దాన్ని చూడరు.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>ఈ పేజీని పాఠకుల నుండి దాచాలా?</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>ఈ పేజీని డ్రాఫ్ట్‌కు తిరిగి పంపాలా?</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>ఎవరైనా మళ్లీ విడుదల చేసే వరకు పాఠకులు %title ను ఇక చూడరు.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title మరింత పని కోసం డ్రాఫ్ట్‌కు తిరిగి వెళ్తుంది. పాఠకులు ఇంకా దాన్ని చూడరు, విడుదలకు ముందు కొత్త సమీక్ష అవసరం.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>రద్దు చేయండి</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>ఈ అంశాలు సమీక్షలో ఉన్నాయి. ప్రస్తుత వెర్షన్‌ను రాయని ఎవరైనా విడుదల చేసిన వెంటనే పాఠకులు వాటిని చూస్తారు.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76475,6 +77558,46 @@ You will need to change the class of the node by using the swap functionality.</
         <source>None.</source>
         <translation>ఏదీ లేదు.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>ప్రామాణీకరణ యాప్‌తో</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>ఇమెయిల్ ద్వారా వచ్చిన కోడ్‌తో</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>రికవరీ కోడ్‌తో</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>పాస్‌కీతో</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>బాహ్య ఖాతాతో</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>భద్రతా కార్యకలాపం</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>దాని నెట్‌వర్క్‌గా చూపబడుతుంది; సైట్ యొక్క డేటా రక్షణ సెట్టింగ్‌లు చెప్పిన విధంగా చిరునామా ఉంచబడుతుంది.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>నమోదు కాలేదు</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>స్థానం</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>సుమారుగా</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76718,6 +77841,42 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Manage devices</source>
         <translation>పరికరాలను నిర్వహించండి</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>ప్రామాణీకరణ యాప్‌తో</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>ఇమెయిల్ ద్వారా వచ్చిన కోడ్‌తో</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>రికవరీ కోడ్‌తో</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>పాస్‌కీతో</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>బాహ్య ఖాతాతో</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>భద్రతా కార్యకలాపం</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>నమోదు కాలేదు</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>స్థానం</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>సుమారుగా</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76797,6 +77956,14 @@ You will need to change the class of the node by using the swap functionality.</
         <source>View the sessions of this user</source>
         <translation>ఈ వినియోగదారు సెషన్‌లను చూడండి</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>%site సైట్‌లోని మీ ఖాతా %login తో, ఇటీవల సైన్ ఇన్ కాని ఒక స్థలం నుండి ఇప్పుడే సైన్ ఇన్ జరిగింది:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>సుమారు స్థానం</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76835,6 +78002,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%os లో %browser</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>సైన్ ఇన్ నివేదిక</translation>
     </message>
 </context>
 <context>
@@ -77043,6 +78214,82 @@ You will need to change the class of the node by using the swap functionality.</
         <source>The passkey could not be checked. Please try again.</source>
         <translation>పాస్‌కీని తనిఖీ చేయడం సాధ్యం కాలేదు. దయచేసి మళ్లీ ప్రయత్నించండి.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>పాస్‌కీలతో మాత్రమే సైన్ ఇన్ చేసే ఖాతాలు ఇక్కడ పాస్‌వర్డ్‌ను ఉపయోగించలేవు: “పాస్‌కీతో సైన్ ఇన్ చేయండి” ఎంచుకోండి.</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>%login పాస్‌కీలు</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>ఈ ఖాతా సైన్ ఇన్ చేసే పాస్‌కీలు. పోయిన లేదా దొంగిలించబడిన పరికరంలో ఉన్నదాన్ని ఉపసంహరించండి: దానితో ఇకపై సైన్ ఇన్ చేయలేరు. కొత్తవాటిని యజమానే జోడిస్తారు.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>మీ ఖాతాకు పాస్‌కీ అవసరం</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>మీ ఖాతాకు పాస్‌కీని జోడించండి</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>కొనసాగడానికి పాస్‌కీని జోడించండి. ఆ తర్వాత మీరు పాస్‌వర్డ్ ఒక్కటే కాకుండా దానితో సైన్ ఇన్ చేస్తారు.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>పాస్‌కీతో సైన్ ఇన్ చేయడం పాస్‌వర్డ్ కంటే వేగంగా, సురక్షితంగా ఉంటుంది. ఇప్పుడే ఒకటి జోడించండి, లేదా అది లేకుండా కొనసాగండి.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>ఇప్పుడు కాదు</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>“%name” పాస్‌కీని ఉపసంహరించాలా?</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>దానితో ఇకపై ఈ ఖాతాలోకి సైన్ ఇన్ చేయలేరు. అది చివరిది అయితే, యజమాని పాస్‌వర్డ్‌తో సైన్ ఇన్ చేస్తారు, లేదా మీరు కొత్తది సెట్ చేస్తారు.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>పాస్‌కీని ఉపసంహరించండి</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>ఉపసంహరించండి</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>ఈ ఖాతాకు పాస్‌కీ లేదు.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>ప్రమాణీకరణి</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>తెలియదు</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>మీ చివరి పాస్‌కీ: దాన్ని తీసివేసే ముందు మరొకటి జోడించండి.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>ఈ ఖాతా పాస్‌కీలతో మాత్రమే సైన్ ఇన్ చేస్తుంది (పాస్‌కీ విధానం): ఒక్కటీ మిగలకపోతే, మళ్లీ తన పాస్‌వర్డ్‌తో సైన్ ఇన్ చేస్తుంది.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>ఇది మీ చివరి పాస్‌కీ, ఇది లేకుండా మీ ఖాతా సైన్ ఇన్ చేయలేదు. ముందుగా మరొక పాస్‌కీని జోడించండి.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>“%name” పాస్‌కీ ఉపసంహరించబడింది. దానితో ఇకపై ఈ ఖాతాలోకి సైన్ ఇన్ చేయలేరు.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77142,6 +78389,34 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Code from your authenticator app</source>
         <translation>మీ ప్రమాణీకరణ యాప్ నుండి కోడ్</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>మీరు డేటాను శాశ్వతంగా తొలగించబోతున్నారు లేదా లాగ్‌ను ఖాళీ చేయబోతున్నారు.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>మీ పాస్‌వర్డ్ మరియు పాస్‌కీ</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>మీ పాస్‌వర్డ్ మరియు మీ ప్రమాణీకరణ యాప్ నుండి కోడ్</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>లేదా:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>ఈ బ్రౌజర్ పాస్‌కీలను ఉపయోగించలేదు. వేరే మార్గాన్ని లేదా వేరే బ్రౌజర్‌ను ఉపయోగించండి.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>మీరు కొనసాగినప్పుడు, మీ బ్రౌజర్ మీ పాస్‌కీలలో ఒకదాన్ని అడుగుతుంది.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>పాస్‌కీతో కొనసాగండి</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77232,6 +78507,70 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Setup</source>
         <translation>సెటప్</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>తన సొంత పాస్‌వర్డ్, ఇమెయిల్ చిరునామా, పాస్‌కీలు, రెండు దశల సైన్ ఇన్, రికవరీ కోడ్‌లు లేదా API కీలను మార్చడం, తన ఇతర పరికరాల నుండి సైన్ అవుట్ చేయడం.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>వినియోగదారులను, వారి పాస్‌వర్డ్‌లు మరియు పరికరాలను, ఖాతా సెట్టింగ్‌లను సృష్టించడం మరియు సవరించడం, కొత్త వినియోగదారు ఖాతాలను ఆమోదించడం లేదా తిరస్కరించడం, పాత్రలను కేటాయించడం మరియు విధానాలను సవరించడం.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>డేటాను తొలగించడం</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>ట్రాష్‌ను ఖాళీ చేయడం, దాని నుండి అంశాలను తీసివేయడం మరియు ఒకేసారి అనేక అంశాలను తీసివేయడం.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>కంటెంట్‌ను తీసివేయడం, ప్రచురించడం మరియు సేవ్ చేయడం</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>కంటెంట్‌ను తీసివేయడం (ట్రాష్‌కు కూడా), ప్రచురించడం మరియు డ్రాఫ్ట్‌ను సేవ్ చేయడం; ఫారమ్ పంపినప్పుడు అడుగుతుంది. డిఫాల్ట్‌గా ఆఫ్.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>సున్నితమైన చర్యకు ముందు, సైన్ ఇన్ అయిన వినియోగదారు తాము ఎవరో మళ్లీ నిర్ధారిస్తారు: తమ పాస్‌వర్డ్ మరియు పాస్‌కీతో, లేదా పాస్‌కీ లేకుంటే తమ పాస్‌వర్డ్ మరియు ప్రమాణీకరణ యాప్ కోడ్‌తో. వెబ్ పేజీలు మాత్రమే అడుగుతాయి: REST ఇంటర్‌ఫేస్, SOAP, WebDAV, expservices లాగిన్ మరియు కమాండ్ లైన్ ఎప్పుడూ అడగవు.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>సెట్టింగ్‌లు ఎక్కడ వర్తిస్తాయి</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>దీని కోసం సెట్టింగ్‌లు</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>ప్రతి సైట్‌యాక్సెస్</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>సైట్‌యాక్సెస్ %name</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>తెరవండి</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>ఎవరిని అడుగుతారు: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>వాటి సభ్యులను మాత్రమే అడగడానికి వినియోగదారు సమూహాలను ఎంచుకోండి (ఉదాహరణకు, ఎడిటర్లు). ఏదీ ఎంచుకోకపోతే: ప్రతి వినియోగదారు.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>settings/override/site.ini.append.php లో, ప్రతి సైట్‌యాక్సెస్ కోసం సేవ్ చేయబడుతుంది. సేవ్ చేసేటప్పుడు ఇది మీరేనని నిర్ధారించమని అడుగుతుంది.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>settings/siteaccess/%name/site.ini.append.php లో సేవ్ చేయబడుతుంది. settings/override లోని విలువకు ప్రాధాన్యత ఉంటుంది. సేవ్ చేసేటప్పుడు ఇది మీరేనని నిర్ధారించమని అడుగుతుంది.</translation>
     </message>
 </context>
 <context>
@@ -77334,6 +78673,6822 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Open the page</source>
         <translation>పేజీని తెరవండి</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%count లో %from నుండి %to వరకు</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>లాగిన్ పేరు లేదా వినియోగదారు ID: ఈవెంట్ సంబంధించిన ఖాతా లేదా చర్య తీసుకున్న వినియోగదారు.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>ఖాతా</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>చర్య</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>తర్వాత</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>ఏ ఫలితమైనా</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>ముందు</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>చేసినవారు</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>క్లియర్ చేయండి</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>పూర్తయింది</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>ఈవెంట్‌లు %days రోజులు ఉంచబడతాయి.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>ఈవెంట్‌లు మాన్యువల్‌గా తీసివేసే వరకు ఉంచబడతాయి.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>ఈవెంట్‌లు</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>ప్రతి చర్య</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>ఈ ఖాతా యొక్క అన్ని ఈవెంట్‌లు</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>జాబితాను CSV గా ఎగుమతి చేయండి (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>విఫలమైంది</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>నుండి</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>జాబితాను కుదించండి</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>ఏ ఈవెంట్ సరిపోలలేదు.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>ప్రతి పేజీకి</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>audit.ini లో ([UserAuditSettings] UserAudit) రికార్డింగ్ ఆఫ్ చేయబడింది; జాబితా ఇంతకు ముందు రికార్డ్ చేసిన వాటిని చూపిస్తుంది.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>తిరస్కరించబడింది</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>ఫలితం</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>చూపించండి</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>వినియోగదారు ఆడిట్ లాగ్ పట్టిక లేదు. దీన్ని php update/common/scripts/6.0/createuseraudittable.php తో సృష్టించండి; అప్పటి వరకు ఆడిట్ ఫైల్‌లు ప్రతి ఈవెంట్‌ను ఉంచుతాయి.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>ఈ పేజీకి SQL డేటాబేస్ అవసరం; ఇది MongoDB లో అందుబాటులో లేదు. ఆడిట్ ఫైల్‌లు ప్రతి ఈవెంట్‌ను ఉంచుతాయి.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>వరకు</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>వినియోగదారు ఆడిట్ లాగ్</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>వినియోగదారు</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>ఎప్పుడు</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>ఎక్కడ</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>ఎవరు ఏ ఖాతాను మార్చారు, సృష్టించారు, ప్రారంభించారు, నిలిపివేశారు, తరలించారు లేదా తీసివేశారు, ఎవరు సైన్ ఇన్ చేశారు లేదా తిరస్కరించబడ్డారు, ఏ పాత్రలు కేటాయించబడ్డాయి: ప్రతి ఈవెంట్‌కు ఒక పంక్తి, ముందు మరియు తర్వాత ఫీల్డ్‌లతో. పాస్‌వర్డ్‌లు మరియు రహస్యాలు ఎప్పుడూ రికార్డ్ చేయబడవు.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>సమూహం</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>సిస్టమ్</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>తెలియదు</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>మీ ఖాతాను సురక్షితం చేయండి</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>%site సైట్‌లోని మీ ఖాతా %login లోకి సైన్ ఇన్ చేయడానికి ఒక రికవరీ కోడ్ ఉపయోగించబడింది.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>ఒక రికవరీ కోడ్ ఉపయోగించబడింది</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>ఖాతా</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>సుమారు చిరునామా</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>మళ్లీ సైన్ ఇన్ చేయడానికి కొత్త పాస్‌వర్డ్‌ను అభ్యర్థించండి, లేదా సైట్ నిర్వాహకులను సంప్రదించండి.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>కొత్త పాస్‌వర్డ్‌ను అభ్యర్థించండి</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>ప్రతి రికవరీ కోడ్ ఒక్కసారి మాత్రమే పనిచేస్తుంది. మీరు మీ ఫోన్‌ను పోగొట్టుకుంటే, మీ ప్రామాణీకరణ యాప్‌ను మళ్లీ సెటప్ చేసి, కొత్త రికవరీ కోడ్‌లను సురక్షితమైన చోట ఉంచండి.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>మీ ఖాతాపై విఫలమైన సైన్ ఇన్ ప్రయత్నాలు</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>ఇకపై సైన్ ఇన్ చేసేటప్పుడు మీ పాస్‌వర్డ్‌తో పాటు ఒక కోడ్ అడగబడుతుంది. ఇది మీరే చేసి ఉంటే, మీరు ఏమీ చేయనవసరం లేదు.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>అది మీరే అయి, మీ పాస్‌వర్డ్ మరచిపోయి ఉంటే, కొత్తదాన్ని అభ్యర్థించండి. లేకపోతే, మరింత బలమైన పాస్‌వర్డ్‌ను ఎంచుకుని రెండు దశల సైన్ ఇన్‌ను ఆన్ చేయండి.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>ఇది మీరు కాకపోతే, ఎవరికైనా మీ పాస్‌వర్డ్ తెలిసి ఉండవచ్చు: ఇప్పుడే దాన్ని మార్చి, మీ ఖాతా ఎక్కడెక్కడ సైన్ ఇన్ అయి ఉందో తనిఖీ చేయండి.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>మిగిలిన రికవరీ కోడ్‌లు</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>మీ పరికరాలను సమీక్షించండి</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>భద్రతా హెచ్చరిక</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>ఎవరో %site సైట్‌లోని మీ ఖాతా %login లోకి తప్పు పాస్‌వర్డ్‌తో వరుసగా %count సార్లు సైన్ ఇన్ చేయడానికి ప్రయత్నించారు.</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>%site సైట్‌లోని మీ ఖాతా %login పై ఒక భద్రతా ఈవెంట్ జరిగింది.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>ఇది మీ ఖాతా గురించిన భద్రతా హెచ్చరిక. ఇలాంటి ప్రతి మార్పుకు ఇది పంపబడుతుంది మరియు దీన్ని ఆఫ్ చేయడం సాధ్యం కాదు.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>సమయం</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>%site సైట్‌లోని మీ ఖాతా %login కు రెండు దశల సైన్ ఇన్ ఆఫ్ చేయబడింది.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>రెండు దశల సైన్ ఇన్ ఆఫ్ చేయబడింది</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>%site సైట్‌లోని మీ ఖాతా %login కు రెండు దశల సైన్ ఇన్ ఆన్ చేయబడింది.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>రెండు దశల సైన్ ఇన్ ఆన్ చేయబడింది</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>చాలా విఫలమైన సైన్ ఇన్‌ల తర్వాత %site సైట్‌లోని మీ ఖాతా %login లాక్ చేయబడింది.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>మీ ఖాతా ఇప్పుడు మీ పాస్‌వర్డ్‌తో మాత్రమే రక్షించబడుతోంది. ఇది మీరు చేయకపోతే, మీ పాస్‌వర్డ్ మార్చిన తర్వాత రెండు దశల సైన్ ఇన్‌ను మళ్లీ ఆన్ చేయండి.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>మీ ఖాతా లాక్ చేయబడింది</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>%site లోని మీ %login ఖాతాకు పాస్‌కీ జోడించబడింది.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>ఈ పాస్‌కీ ఉన్న ఎవరైనా మీ పాస్‌వర్డ్ లేకుండా మీ ఖాతాలోకి సైన్ ఇన్ చేయగలరు. మీరు దీన్ని జోడించకపోతే, పాస్‌కీలు విభాగంలో దాన్ని తీసివేసి మీ పాస్‌వర్డ్‌ను మార్చండి.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>%site లోని మీ %login ఖాతా నుండి పాస్‌కీ తీసివేయబడింది.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>దానితో ఇకపై మీ ఖాతాలోకి సైన్ ఇన్ చేయలేరు. మీరు దీన్ని తీసివేయకపోతే, మీ పాస్‌కీలు మరియు పరికరాలను తనిఖీ చేయండి.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>మీ ఖాతాకు పాస్‌కీ జోడించబడింది</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>మీ ఖాతా నుండి పాస్‌కీ తీసివేయబడింది</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>భద్రతా కార్యకలాపం</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>%name యొక్క భద్రతా కార్యకలాపం</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>సైన్ ఇన్ అయ్యారు</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>విఫలమైన సైన్ ఇన్ ప్రయత్నం</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>సైన్ అవుట్ అయ్యారు</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>సెషన్‌లు సైన్ అవుట్ చేయబడ్డాయి</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>కొత్త పరికరం నుండి సైన్ ఇన్</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>కొత్త స్థానం నుండి సైన్ ఇన్</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>గుర్తింపు నిర్ధారించబడింది (“ఇది మీరే అని ధృవీకరించండి”)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>గుర్తింపు తనిఖీ విఫలమైంది</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>పాస్‌కీతో సైన్ ఇన్ అయ్యారు</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>పాస్‌కీ సైన్ ఇన్ విఫలమైంది</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>సైన్ ఇన్ తిరస్కరించబడింది: రెండు దశల కోడ్ లేదు లేదా తప్పు</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>తప్పు రెండు దశల కోడ్</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>విఫలమైన సైన్ ఇన్‌ల తర్వాత ఖాతా లాక్ చేయబడింది</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>ఖాతా అన్‌లాక్ చేయబడింది</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>పాస్‌వర్డ్ మార్చబడింది</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>పాస్‌వర్డ్ మార్పు విఫలమైంది</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>పాస్‌వర్డ్ రీసెట్ చేయబడింది</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>కొత్త పాస్‌వర్డ్ అభ్యర్థించబడింది</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>ఇమెయిల్ చిరునామా మార్చబడింది</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>వినియోగదారు పేరు మార్చబడింది</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>రెండు దశల సైన్ ఇన్ ఆన్ చేయబడింది</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>రెండు దశల సైన్ ఇన్ ఆఫ్ చేయబడింది</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>రికవరీ కోడ్ ఉపయోగించబడింది</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>కొత్త రికవరీ కోడ్‌లు</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>యాప్ పాస్‌వర్డ్ సృష్టించబడింది</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>యాప్ పాస్‌వర్డ్ రద్దు చేయబడింది</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>పాస్‌కీ జోడించబడింది</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>పాస్‌కీ తీసివేయబడింది</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>ఖాతా ప్రారంభించబడింది</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>ఖాతా నిలిపివేయబడింది</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>అన్నీ</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>సైన్ ఇన్‌లు మరియు సెషన్‌లు</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>ఖాతా మార్పులు</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>శ్రద్ధ అవసరం</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>మీ ద్వారా</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>వినియోగదారు ద్వారా</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>%login ద్వారా</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>పద్ధతి</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>బ్రౌజర్</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>ఆపరేటింగ్ సిస్టమ్</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>పరికరం</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>స్థలం</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>దేశం</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>సెషన్‌లు</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>ఏవి</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>పంపిన మార్గం</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>విఫలమైన ప్రయత్నాలు</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>మిగిలిన కోడ్‌లు</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>సైన్ ఇన్ హ్యాండ్లర్</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>భద్రతా కార్యకలాపం</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>%name యొక్క భద్రతా కార్యకలాపం</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>మీ ఖాతా యొక్క సైన్ ఇన్‌లు మరియు భద్రతలో మార్పులు. మీరు చేయనిది ఏదైనా కనిపిస్తే, మీ పాస్‌వర్డ్ మార్చి, మీరు గుర్తించని పరికరాలను సైన్ అవుట్ చేయండి.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>ఈ ఖాతా యొక్క సైన్ ఇన్‌లు మరియు భద్రతలో మార్పులు.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>మీ పరికరాలు</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>పాస్‌వర్డ్ మార్చండి</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>ఖాతాకు తిరిగి వెళ్లండి</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>భద్రతా కార్యకలాపం నమోదు కావడం లేదు</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>ఇది వినియోగదారు ఆడిట్ లాగ్ నుండి చదవబడుతుంది, దాని పట్టిక expuser_audit లేదు లేదా ఈ డేటాబేస్‌లో మద్దతు లేదు. php update/common/scripts/6.0/createuseraudittable.php ను రన్ చేయండి, లేదా 6.0.15 యొక్క డేటాబేస్ నవీకరణను రన్ చేయండి.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>గత %days రోజులు</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>గత %days రోజుల్లో సైన్ ఇన్‌లు</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>ఇటీవలి భద్రతా కార్యకలాపం</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>చూపించండి</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>విఫలమైంది</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>తిరస్కరించబడింది</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>ఇంకా ఏ భద్రతా కార్యకలాపమూ నమోదు కాలేదు.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>భద్రతా ఈవెంట్‌లు %days రోజులు ఉంచబడతాయి.</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>నిర్వాహకుడు తీసివేసే వరకు భద్రతా ఈవెంట్‌లు ఉంచబడతాయి.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>నా సైన్ ఇన్ డేటాను డౌన్‌లోడ్ చేయండి</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>మీ సెషన్‌లు మరియు భద్రతా ఈవెంట్‌లు JSON ఫైల్‌గా.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>ఈ సైట్‌లో సెషన్‌లు నమోదు చేయబడవు, కాబట్టి ఏ ఇతర పరికరాన్నీ సైన్ అవుట్ చేయలేకపోయాము. ఇప్పుడే మీ పాస్‌వర్డ్ మార్చండి.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>ఇతర %count సెషన్‌లు సైన్ అవుట్ చేయబడ్డాయి. ఇప్పుడు మీ పాస్‌వర్డ్ మార్చండి.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>ఏ ఇతర పరికరం సైన్ ఇన్ అయి లేదు. ఇప్పుడు మీ పాస్‌వర్డ్ మార్చండి.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>ధన్యవాదాలు. ఈ సంఘటన మీదిగా గుర్తించబడింది.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>ఆ సంఘటనకు సమాధానం అవసరం లేదు.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>పేజీ గడువు ముగిసింది. ఏదీ మార్చబడలేదు; దయచేసి మళ్లీ ప్రయత్నించండి.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>మీ ఖాతాను సురక్షితం చేయండి</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>ఇక్కడ ఏదైనా మీరు చేయకపోతే, అన్ని ఇతర పరికరాలను సైన్ అవుట్ చేసి, ఆపై కొత్త పాస్‌వర్డ్‌ను ఎంచుకోండి. నన్ను గుర్తుంచుకో ద్వారా సైన్ ఇన్‌లో ఉంచిన పరికరాలు కూడా సైన్ అవుట్ అవుతాయి.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>ఇది తప్ప ప్రతి పరికరం దాని తదుపరి అభ్యర్థనలో సైన్ అవుట్ అవుతుంది. ఆపై మీరు కొత్త పాస్‌వర్డ్‌ను ఎంచుకుంటారు.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>అవును, ఇతర పరికరాలను సైన్ అవుట్ చేయండి</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>ఇది మీరేనా?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>అవును, అది నేనే</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>కాదు, నా ఖాతాను సురక్షితం చేయండి</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>సైన్ ఇన్ అయ్యారు</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>విఫలమైన సైన్ ఇన్ ప్రయత్నం</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>సైన్ అవుట్ అయ్యారు</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>సెషన్‌లు సైన్ అవుట్ చేయబడ్డాయి</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>కొత్త పరికరం నుండి సైన్ ఇన్</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>కొత్త స్థానం నుండి సైన్ ఇన్</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>గుర్తింపు నిర్ధారించబడింది (“ఇది మీరే అని ధృవీకరించండి”)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>గుర్తింపు తనిఖీ విఫలమైంది</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>పాస్‌కీతో సైన్ ఇన్ అయ్యారు</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>పాస్‌కీ సైన్ ఇన్ విఫలమైంది</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>సైన్ ఇన్ తిరస్కరించబడింది: రెండు దశల కోడ్ లేదు లేదా తప్పు</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>తప్పు రెండు దశల కోడ్</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>విఫలమైన సైన్ ఇన్‌ల తర్వాత ఖాతా లాక్ చేయబడింది</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>ఖాతా అన్‌లాక్ చేయబడింది</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>పాస్‌వర్డ్ మార్చబడింది</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>పాస్‌వర్డ్ మార్పు విఫలమైంది</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>పాస్‌వర్డ్ రీసెట్ చేయబడింది</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>కొత్త పాస్‌వర్డ్ అభ్యర్థించబడింది</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>ఇమెయిల్ చిరునామా మార్చబడింది</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>వినియోగదారు పేరు మార్చబడింది</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>రెండు దశల సైన్ ఇన్ ఆన్ చేయబడింది</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>రెండు దశల సైన్ ఇన్ ఆఫ్ చేయబడింది</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>రికవరీ కోడ్ ఉపయోగించబడింది</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>కొత్త రికవరీ కోడ్‌లు</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>యాప్ పాస్‌వర్డ్ సృష్టించబడింది</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>యాప్ పాస్‌వర్డ్ రద్దు చేయబడింది</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>పాస్‌కీ జోడించబడింది</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>పాస్‌కీ తీసివేయబడింది</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>ఖాతా ప్రారంభించబడింది</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>ఖాతా నిలిపివేయబడింది</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>అన్నీ</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>సైన్ ఇన్‌లు మరియు సెషన్‌లు</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>ఖాతా మార్పులు</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>శ్రద్ధ అవసరం</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>భద్రతా కార్యకలాపం</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>%name యొక్క భద్రతా కార్యకలాపం</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>మీ ఖాతా యొక్క సైన్ ఇన్‌లు మరియు భద్రతలో మార్పులు. మీరు చేయనిది ఏదైనా కనిపిస్తే, మీ పాస్‌వర్డ్ మార్చి, మీరు గుర్తించని పరికరాలను సైన్ అవుట్ చేయండి.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>మీ పరికరాలు</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>పాస్‌వర్డ్ మార్చండి</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>ఈ సైట్‌లో భద్రతా కార్యకలాపం ఇంకా నమోదు కావడం లేదు.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>గత %days రోజుల్లో సైన్ ఇన్‌లు</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>విఫలమైన ప్రయత్నాలు</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>ఇంకా ఏ భద్రతా కార్యకలాపమూ నమోదు కాలేదు.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>నా సైన్ ఇన్ డేటాను డౌన్‌లోడ్ చేయండి</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>మీ సెషన్‌లు మరియు భద్రతా ఈవెంట్‌లు JSON ఫైల్‌గా.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>ఈ సైట్‌లో సెషన్‌లు నమోదు చేయబడవు, కాబట్టి ఏ ఇతర పరికరాన్నీ సైన్ అవుట్ చేయలేకపోయాము. ఇప్పుడే మీ పాస్‌వర్డ్ మార్చండి.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>ఇతర %count సెషన్‌లు సైన్ అవుట్ చేయబడ్డాయి. ఇప్పుడు మీ పాస్‌వర్డ్ మార్చండి.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>ఏ ఇతర పరికరం సైన్ ఇన్ అయి లేదు. ఇప్పుడు మీ పాస్‌వర్డ్ మార్చండి.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>ధన్యవాదాలు. ఈ సంఘటన మీదిగా గుర్తించబడింది.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>ఆ సంఘటనకు సమాధానం అవసరం లేదు.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>పేజీ గడువు ముగిసింది. ఏదీ మార్చబడలేదు; దయచేసి మళ్లీ ప్రయత్నించండి.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>మీ ఖాతాను సురక్షితం చేయండి</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>ఇక్కడ ఏదైనా మీరు చేయకపోతే, అన్ని ఇతర పరికరాలను సైన్ అవుట్ చేసి, ఆపై కొత్త పాస్‌వర్డ్‌ను ఎంచుకోండి. నన్ను గుర్తుంచుకో ద్వారా సైన్ ఇన్‌లో ఉంచిన పరికరాలు కూడా సైన్ అవుట్ అవుతాయి.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>ఇది తప్ప ప్రతి పరికరం దాని తదుపరి అభ్యర్థనలో సైన్ అవుట్ అవుతుంది. ఆపై మీరు కొత్త పాస్‌వర్డ్‌ను ఎంచుకుంటారు.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>అవును, ఇతర పరికరాలను సైన్ అవుట్ చేయండి</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>ఇది మీరేనా?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>అవును, అది నేనే</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>కాదు, నా ఖాతాను సురక్షితం చేయండి</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>పాస్‌వర్డ్</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>పాస్‌వర్డ్ మరియు రెండు దశల కోడ్</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>REST ఇంటర్‌ఫేస్</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>SOAP ఇంటర్‌ఫేస్</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>సింగిల్ సైన్-ఆన్</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>సెషన్‌లు నమోదు కావడానికి ముందే సైన్ ఇన్ అయ్యారు</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>సైన్ ఇన్ నివేదిక</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>సైట్‌లో ఎవరు సైన్ ఇన్ అయ్యారు, ఖాతాలు ఎంత తరచుగా సైన్ ఇన్ అవుతాయి మరియు విఫలమవుతాయి, ఒక వినియోగదారును అన్ని చోట్ల నుండి సైన్ అవుట్ చేయడం. ఇది ప్రతి సెషన్ హ్యాండ్లర్‌తో పనిచేస్తుంది.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>సెషన్ సైన్ అవుట్ చేయబడింది. పరికరం మళ్లీ సైన్ ఇన్ చేయాలి.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>%login ను %count సెషన్‌ల నుండి సైన్ అవుట్ చేశారు.</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>%login కు నడుస్తున్న సెషన్ ఏదీ లేదు.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>ఈ ID, వినియోగదారు పేరు లేదా ఇమెయిల్ చిరునామాతో ఏ ఖాతా లేదు.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>ఇది మీరు ఉపయోగిస్తున్న సెషన్. దాన్ని ముగించడానికి సైన్ అవుట్ చేయండి.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>ఆ సెషన్ ఇప్పటికే ముగిసింది.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>పేజీ గడువు ముగిసింది. ఏదీ మార్చబడలేదు; దయచేసి మళ్లీ ప్రయత్నించండి.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>ఈ సైట్‌లో సెషన్‌లు నమోదు చేయబడవు (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>expuser_session పట్టిక లేదు</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>అది సృష్టించబడిన వెంటనే సెషన్‌లు నమోదు అవుతాయి: php update/common/scripts/6.0/createusersessiontable.php, లేదా 6.0.15 యొక్క డేటాబేస్ నవీకరణ.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>ఇప్పుడు మరియు ఈ రోజు</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>నడుస్తున్న సెషన్‌లు</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>సైన్ ఇన్ అయిన వినియోగదారులు</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>ఈ రోజు సైన్ ఇన్‌లు</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>ఈ రోజు విఫలమైన ప్రయత్నాలు</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>ఒక వినియోగదారును అన్ని చోట్ల నుండి సైన్ అవుట్ చేయండి</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>ఖాతా యొక్క ప్రతి సెషన్ దాని తదుపరి అభ్యర్థనలో ముగుస్తుంది, “నన్ను గుర్తుంచుకో” ద్వారా ఉంచబడినవి కూడా. ఒక ఖాతా తప్పుడు చేతుల్లో ఉండవచ్చు అనిపించినప్పుడు దీన్ని ఉపయోగించండి; ఆపై దాని పాస్‌వర్డ్‌ను రీసెట్ చేయండి.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>వినియోగదారు ID, వినియోగదారు పేరు లేదా ఇమెయిల్ చిరునామా</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>అన్ని చోట్ల నుండి సైన్ అవుట్ చేయండి</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>ఇప్పుడు సైన్ ఇన్ అయినవి</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>ఇటీవల ఉపయోగించిన %limit చూపబడుతున్నాయి.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>వినియోగదారు</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>పరికరం</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>చిరునామా</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>సైన్ ఇన్ అయ్యారు</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>చివరిగా సక్రియం</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>చర్యలు</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>ఈ పరికరం</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>నమోదు కాలేదు</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>సైన్ అవుట్ చేయండి</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>ఏ సెషన్ సైన్ ఇన్ అయి లేదు.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>గత %days రోజులు</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>సైన్ ఇన్‌లు మరియు విఫలమైన ప్రయత్నాలు వినియోగదారు ఆడిట్ లాగ్ నుండి లెక్కించబడతాయి, అది లేదు; కొత్త సెషన్‌లు లెక్కించబడతాయి.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>రోజు</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>సైన్ ఇన్‌లు</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>విఫలమైన ప్రయత్నాలు</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>కొత్త సెషన్‌లు</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>సెషన్ హ్యాండ్లర్: %handler. సెషన్‌లు expuser_session పట్టిక నుండి చదవబడతాయి, కాబట్టి నివేదిక ప్రతి హ్యాండ్లర్‌తో పనిచేస్తుంది.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>గత %hours గంటల్లో అనుమానాస్పద కార్యకలాపం</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>ఒక నెట్‌వర్క్ %accounts ఖాతాల్లోకి సైన్ ఇన్ చేయడంలో విఫలమైంది (%count ప్రయత్నాలు)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>విఫలమైన సైన్ ఇన్‌ల తర్వాత ఖాతా లాక్ చేయబడింది</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>ఒక ఖాతాలో %count విఫలమైన సైన్ ఇన్‌లు</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>ఒకేసారి %count దేశాల నుండి సైన్ ఇన్ అయింది</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>భద్రతా కార్యకలాపం</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>సెషన్‌లు</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>విఫలమైన సైన్ ఇన్‌లు వినియోగదారు ఆడిట్ లాగ్ నుండి చదవబడతాయి, అది ఇక్కడ అందుబాటులో లేదు.</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>అనుమానాస్పదమైనది ఏదీ లేదు: పదే పదే విఫలమైన సైన్ ఇన్‌లు ఉన్న ఖాతా లేదు, అనేక ఖాతాలను ప్రయత్నిస్తున్న నెట్‌వర్క్ లేదు, అనేక దేశాల నుండి సైన్ ఇన్ అయిన ఖాతా లేదు.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>మీ ఖాతా కోసం భద్రతా హెచ్చరిక</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>మీ ఖాతా %login పై ఒక భద్రతా ఈవెంట్ జరిగింది: %event. ఇది మీరు కాకపోతే, %url వద్ద మీ ఖాతాను సురక్షితం చేయండి.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>సెటప్</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>ఈ సైట్ కంటెంట్ నుండి ఒక పేజీకి కావలసిన ఫీల్డ్‌లను మాత్రమే కచ్చితంగా, ఒకే అభ్యర్థనలో అడగండి. స్కీమా కంటెంట్ క్లాస్‌లను అనుసరిస్తుంది; ప్రతి క్వెరీ దానిని పంపిన వినియోగదారు హక్కులతో నడుస్తుంది.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>ఈ సైట్‌యాక్సెస్‌లో GraphQL API ఆఫ్‌లో ఉంది. దీన్ని graphql.ini లో ఆన్ చేయండి: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>GraphQL లైబ్రరీ (webonyx/graphql-php 15) ఇన్‌స్టాల్ చేయబడలేదు.</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>ఎండ్ పాయింట్</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>లైబ్రరీ</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>స్కీమా</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>%count కంటెంట్ క్లాస్‌లు, స్కీమా %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>క్వెరీ</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>వేరియబుల్స్ (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>రన్ చేయండి</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>సమాధానం</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>నడుస్తోంది…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>సమాధానాన్ని చదవలేకపోయాం.</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>ఈ సెషన్‌తో సైన్ ఇన్ అయి, మీ హక్కులతో క్వెరీ నడుస్తుంది.</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%seconds సె. లో %count</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>పరిమితి లేదు</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>లోతు</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>సంక్లిష్టత</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>జాబితాకు అంశాలు</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (డిఫాల్ట్ %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>వినియోగదారు లేదా కీకి అభ్యర్థనలు</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>అనామక చిరునామాకు అభ్యర్థనలు</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>ఇంట్రోస్పెక్షన్</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>నిల్వ చేసిన క్వెరీలు మాత్రమే</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>అతిపెద్ద క్వెరీ</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>%bytes బైట్‌లు</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>అతిపెద్ద అప్‌లోడ్</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>%siteaccess అనే సైట్‌యాక్సెస్ లేదు.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>%siteaccess లో మ్యుటేషన్‌లు ఆన్ చేయబడ్డాయి.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>%siteaccess లో మ్యుటేషన్‌లు ఆఫ్ చేయబడ్డాయి.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>%siteaccess లో GraphQL API ఆన్ చేయబడింది.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>%siteaccess లో GraphQL API ఆఫ్ చేయబడింది.</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>సెట్టింగ్‌లను రాయలేకపోయాము: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>ప్రతిస్పందన కాష్ ఖాళీ చేయబడింది: %count సమాధానాలు తొలగించబడ్డాయి.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>క్వెరీని తొలగించడానికి దాని పక్కన ఉన్న పెట్టెను టిక్ చేయండి.</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>క్వెరీని తొలగించలేకపోయాము: PersistedQueryDirectoryList[] లోని డైరెక్టరీలో అందించబడిన క్వెరీ దాని ఫైల్‌తో పాటే తొలగించబడుతుంది.</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>నిల్వ చేసిన క్వెరీ తొలగించబడింది.</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>మ్యుటేషన్‌లు</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>ఆన్</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>ఆఫ్</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>సైట్‌యాక్సెస్‌లు</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>API మరియు దాని మ్యుటేషన్‌లు ఎక్కడ సమాధానమిస్తాయి. ./console exp:graphql:enable మరియు exp:graphql:disable చేసినట్లే బటన్‌లు graphql.ini ను రాస్తాయి.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>సైట్‌యాక్సెస్</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>GraphQL API</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>మార్చు</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>ఆఫ్ చేయి</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>మ్యుటేషన్‌లు ఆఫ్</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>మ్యుటేషన్‌లు ఆన్</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>ఆన్ చేయి</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>పరిమితులు</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>ఈ సైట్‌యాక్సెస్ యొక్క graphql.ini [GraphQLSettings].</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>ప్రతిస్పందన కాష్</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>నిల్వ చేసిన క్వెరీల సమాధానాలు, వినియోగదారు హక్కుల ప్రకారం ఉంచబడి, కంటెంట్ ప్రచురించబడిన ప్రతిసారీ గడువు ముగుస్తాయి.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>స్థితి</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>ఉంచిన సమాధానాలు</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>%count సమాధానాలు, %bytes బైట్‌లు</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>గరిష్ఠంగా ఉంచే సమయం</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds సె.</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>చివరిగా గడువు ముగిసింది</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>ప్రతిస్పందన కాష్‌ను ఖాళీ చేయి</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>నిల్వ చేసిన క్వెరీలు</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>./console exp:graphql:persist తో లేదా క్లయింట్‌ల ద్వారా (ఆటోమేటిక్ నిల్వ చేసిన క్వెరీలు) నిల్వ చేయబడతాయి; పేరు లేదా SHA-256 ద్వారా పిలవబడతాయి.</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>పేర్లు</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>పరిమాణం</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>ఎక్కడ</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>తొలగించు</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>అందించబడింది</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>నిల్వ చేయబడింది</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>అవును, ఈ క్వెరీని తొలగించు</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>ఇంకా నిల్వ చేసిన క్వెరీ లేదు.</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>API కీలు</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>graphql:read (క్వెరీలు) లేదా graphql:write (మ్యుటేషన్‌లు) స్కోప్ ఉన్న వ్యక్తిగత API కీలు. వాటిని API యాక్సెస్ పేజీలో లేదా ./console exp:graphql:keys తో సృష్టించండి మరియు రద్దు చేయండి.</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>API యాక్సెస్</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>అన్ని కీలు</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>కీ</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>పేరు</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>యజమాని</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>స్కోప్‌లు</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>చివరిగా ఉపయోగించినది</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>సక్రియం</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>గడువు ముగిసింది</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>రద్దు చేయబడింది</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>ఎప్పుడూ లేదు</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>GraphQL స్కోప్ ఉన్న API కీ ఇంకా లేదు.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>ఈ పేజీని చూపే సైట్‌యాక్సెస్ %siteaccess లో GraphQL API ఆఫ్‌లో ఉంది; అది ఎక్కడ సమాధానమిస్తుందో కింది పట్టిక చూపుతుంది.</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>ఈ పేజీని చూపే సైట్‌యాక్సెస్ %siteaccess కోసం.</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>వెబ్‌హుక్‌లు</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>ఎండ్ పాయింట్ కోరే ప్రతి ఈవెంట్ (publish, update, trash, delete, move, hide, reveal, mutation) cronjob భాగం graphqlwebhooks ద్వారా సంతకంతో దానికి పంపబడుతుంది. ./console exp:graphql:webhooks ఈ విభాగం చేసే పనినే చేస్తుంది.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>ఈవెంట్‌లు</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>అన్నీ</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>ప్రతి సైట్‌యాక్సెస్</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>పాడైంది</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>సీక్రెట్ లేదు</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>వేచి ఉన్నవి</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count వదిలివేయబడ్డాయి</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>చివరి డెలివరీ</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>పరీక్ష పంపు</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>అవును, ఈ వెబ్‌హుక్‌ను తొలగించు</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>ఇంకా వెబ్‌హుక్ లేదు.</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>వెబ్‌హుక్ జోడించు</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>జోడించు</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>ఇటీవలి డెలివరీలు</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>సమయం</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>ఫలితం</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>సబ్‌స్క్రిప్షన్‌లు</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>క్లయింట్‌ల కోసం లైవ్ అప్‌డేట్‌లు: /api/graphql/subscribe వద్ద ఈవెంట్ స్ట్రీమ్, మరియు Velocity పై WebSocket (graphql-transport-ws). ప్రతి ఈవెంట్ దాని కంటెంట్‌ను చదవడానికి అనుమతి ఉన్న సబ్‌స్క్రైబర్‌లకు మాత్రమే వెళ్తుంది.</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>ఇప్పుడు తెరిచినవి</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>గరిష్ఠంగా తెరిచినవి</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>మొత్తం %total, ప్రతి వినియోగదారుకు %user, ప్రతి చిరునామాకు %address</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>అనామక సబ్‌స్క్రిప్షన్‌లు</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>స్ట్రీమ్ వ్యవధి</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>వెబ్‌హుక్‌ను జోడించలేకపోయాము: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>వెబ్‌హుక్ %name మార్చబడింది; దాని సంతకం సీక్రెట్ అలాగే ఉంటుంది.</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>సంతకం సీక్రెట్‌ను నిల్వ చేయలేకపోయాము (సెటప్ &gt; సీక్రెట్‌లు).</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>వెబ్‌హుక్ %name జోడించబడింది. దాని సంతకం సీక్రెట్, ఈ ఒక్కసారి మాత్రమే చూపబడుతుంది: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>%name అనే వెబ్‌హుక్ లేదు.</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>వెబ్‌హుక్ %name స్పందించలేదు: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>వెబ్‌హుక్ %name %ms ms లో %status తో స్పందించింది.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>వెబ్‌హుక్‌ను తొలగించడానికి దాని పక్కన ఉన్న పెట్టెను టిక్ చేయండి.</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>వెబ్‌హుక్ %name తొలగించబడింది.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>ఈ సైట్‌యాక్సెస్‌లో GraphQL API ఆఫ్‌లో ఉంది.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>GraphQL లైబ్రరీ ఇన్‌స్టాల్ చేయబడలేదు.</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>GET లేదా POST ఉపయోగించండి.</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>అభ్యర్థన బాడీ JSON ఆబ్జెక్ట్ కాదు.</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables JSON ఆబ్జెక్ట్ కాదు.</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions JSON ఆబ్జెక్ట్ కాదు.</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>క్వెరీని POST తో పంపండి.</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>అభ్యర్థనలో క్వెరీ లేదు.</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>క్వెరీ %max బైట్‌ల కంటే పొడవుగా ఉంది.</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>అంతర్గత సర్వర్ లోపం</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node కి id, remoteId, path, urlAlias లలో సరిగ్గా ఒకటి అవసరం.</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content కి id, remoteId లలో సరిగ్గా ఒకటి అవసరం.</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>after యొక్క కర్సర్ ఈ API ఇచ్చినది కాదు.</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>%alias అనే చిత్ర అలియాస్ లేదు (image.ini [AliasSettings] AliasList[]).</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>ఇక్కడ నిల్వ చేసిన క్వెరీలు మాత్రమే అంగీకరించబడతాయి: నిల్వ చేసిన క్వెరీ యొక్క id పంపండి.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>నిల్వ చేసిన క్వెరీ హాష్ SHA-256 కాదు.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>నిల్వ చేసిన క్వెరీ హాష్ క్వెరీతో సరిపోలడం లేదు.</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>చాలా ఎక్కువ అభ్యర్థనలు: %window సెకన్లలో గరిష్ఠంగా %limit. %reset సెకన్ల తర్వాత మళ్లీ ప్రయత్నించండి.</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>క్వెరీ %depth స్థాయిల లోతులో ఉంది; గరిష్ఠంగా %max అనుమతించబడతాయి.</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>క్వెరీ సంక్లిష్టత %complexity; గరిష్ఠంగా %max అనుమతించబడుతుంది.</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>ఈ అభ్యర్థన స్కీమాను చదవకూడదు (introspection).</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search కి ఒక టెక్స్ట్ లేదా ఫిల్టర్ అవసరం (classes, subtree, sections, publishedAfter, publishedBefore).</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument తేదీ కాదు (ISO 8601, 2026-10-30).</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag కి id, remoteId, path లలో సరిగ్గా ఒకటి అవసరం.</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout కి id, identifier, urlAlias లలో సరిగ్గా ఒకటి అవసరం.</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>multipart అభ్యర్థనలోని operations ఫీల్డ్ ఒక JSON అభ్యర్థన కాదు.</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>multipart అభ్యర్థనలోని map ఫీల్డ్ ఒక JSON ఆబ్జెక్ట్ కాదు.</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>multipart అభ్యర్థనలో %field ఫైల్ లేదు.</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>map ఫీల్డ్‌లోని మార్గం variables. తో ప్రారంభం కావాలి: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>%name ఫైల్ పూర్తిగా అందలేదు (అప్‌లోడ్ లోపం %error).</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>%name ఫైల్ %max బైట్‌ల కంటే పెద్దది.</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>%name ఫైల్‌ను తనిఖీ చేయలేకపోయాము.</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>ఈ సైట్‌యాక్సెస్‌లో మ్యుటేషన్‌లు ఆఫ్‌లో ఉన్నాయి (graphql.ini [GraphQLSettings] MutationsEnabled).</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>మ్యుటేషన్‌ను POST తో పంపండి.</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>కంటెంట్ మార్చడానికి సైన్ ఇన్ చేయండి.</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>API కీకి %scope స్కోప్ లేదు.</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>సెషన్‌తో కూడిన మ్యుటేషన్‌కు ఆ సెషన్ ఫారమ్ టోకెన్ అవసరం (హెడర్ X-CSRF-Token).</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>uploadFromUrl ఆఫ్‌లో ఉంది: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] ఏ హోస్ట్‌నూ పేర్కొనలేదు.</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>చిరునామా https చిరునామా అయి ఉండాలి.</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>%host హోస్ట్ graphql.ini [GraphQLSettings] UploadFromUrlHostList[] లో లేదు.</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>ఫైల్‌ను పొందలేకపోయాము.</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload కేవలం ఇన్‌పుట్ టైప్ మాత్రమే.</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>Upload టైప్ వేరియబుల్ ఒక multipart అభ్యర్థనలోని ఫైల్‌ను తీసుకుంటుంది.</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>remote id %remoteId ఇప్పటికే వాడుకలో ఉంది.</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>కంటెంట్‌కు ఇప్పటికే %language లో అనువాదం ఉంది: updateContent ఉపయోగించండి.</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>కనీసం ఒక ఫీల్డ్ ఇవ్వండి.</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>కొత్త వెర్షన్ సృష్టించలేకపోయాము (కంటెంట్‌కు చాలా ఎక్కువ డ్రాఫ్ట్‌లు ఉన్నాయి).</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>వెర్షన్ %version డ్రాఫ్ట్ కాదు.</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent కు id మరియు nodeId లలో సరిగ్గా ఒకటి అవసరం.</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>ఒక స్థానాన్ని దాని కిందికే తరలించలేము.</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>కంటెంట్‌కు ఇప్పటికే %parentId కింద ఒక స్థానం ఉంది.</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>%field ఫీల్డ్ విలువను నిల్వ చేయలేకపోయాము.</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>%language అనే కంటెంట్ భాష లేదు.</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>స్కీమాలో %class అనే కంటెంట్ క్లాస్ లేదు.</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>కంటెంట్ లేదు, లేదా దాన్ని చదవడానికి మీకు అనుమతి లేదు.</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>ఈ కంటెంట్‌పై దీన్ని చేయడానికి మీకు అనుమతి లేదు.</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>%class క్లాస్‌లో రాయదగిన %field ఫీల్డ్ లేదు.</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>%field ఫీల్డ్ రెండుసార్లు ఇవ్వబడింది.</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>%field ఫీల్డ్ ఒక ఫైల్‌ను తీసుకుంటుంది: దాన్ని అప్‌లోడ్‌గా పంపండి (multipart అభ్యర్థన).</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>%field ఫీల్డ్ ఫైల్‌ను తీసుకోదు.</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>%field ఫీల్డ్‌కు ఒక విలువ అవసరం.</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>%format ఫార్మాట్ రిచ్ టెక్స్ట్ ఫీల్డ్‌లకు మాత్రమే; %field తన విలువను ఉన్నది ఉన్నట్లుగా తీసుకుంటుంది (RAW).</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>%field ఫీల్డ్ తప్పనిసరి.</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>HTML ను చదవలేకపోయాము.</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content, version ను id తో మాత్రమే తీసుకుంటుంది.</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>ప్రివ్యూ టోకెన్ చెల్లదు లేదా గడువు ముగిసింది.</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>ఇది origin కాదు (https://host లేదా https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>GraphQL API స్కోప్ కాదు: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>సబ్‌స్క్రిప్షన్‌లను /api/graphql/subscribe కు పంపండి (ఈవెంట్ స్ట్రీమ్ లేదా WebSocket).</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>అభ్యర్థన డాక్యుమెంట్‌లోని ఏ ఆపరేషన్‌నూ పేర్కొనలేదు.</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>ఒక సబ్‌స్క్రిప్షన్ సరిగ్గా ఒక ఫీల్డ్‌ను మాత్రమే అడుగుతుంది.</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>చాలా ఎక్కువ సబ్‌స్క్రిప్షన్‌లు తెరిచి ఉన్నాయి; తర్వాత మళ్లీ ప్రయత్నించండి.</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>మీకు %max సబ్‌స్క్రిప్షన్‌లు తెరిచి ఉన్నాయి, ఇది అనుమతించిన గరిష్ఠం.</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>మీ చిరునామాకు %max సబ్‌స్క్రిప్షన్‌లు తెరిచి ఉన్నాయి, ఇది అనుమతించిన గరిష్ఠం.</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>ఈ సైట్‌యాక్సెస్‌లో సబ్‌స్క్రిప్షన్‌లు ఆఫ్‌లో ఉన్నాయి.</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>సబ్‌స్క్రైబ్ చేయడానికి సైన్ ఇన్ చేయండి (టోకెన్ లేదా వ్యక్తిగత API కీ).</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>మ్యుటేషన్‌లను /api/graphql కు పంపండి.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>ఇన్‌స్టాలేషన్ మైగ్రేషన్‌లు</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>స్థితిని చదవడం సాధ్యం కాలేదు: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>మైగ్రేషన్‌ల పట్టికలు ఇంకా లేవు: ./console exp:upgrade --apply వాటిని సృష్టిస్తుంది.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>%count మైగ్రేషన్‌లు విఫలమయ్యాయి</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>ఒక రన్ జరుగుతోంది, %user ప్రారంభించారు</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>ఇన్‌స్టాలేషన్ లాక్ చేయబడింది: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>పెండింగ్‌లో ఉన్నవి</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>విఫలమైనవి</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>అనాథలు</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>చివరి రన్</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>ఇంకా ఏదీ లేదు</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>అన్ని మైగ్రేషన్‌లు</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>అనుకరించిన రన్</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>ప్రయోగాత్మక రన్</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>పెండింగ్ మైగ్రేషన్‌లు తర్వాత వెనక్కి తీసుకున్న ఒక లావాదేవీలో నడిచాయి: ఏదీ ఉంచబడలేదు. ప్రతి ఒక్కటి డేటాబేస్‌లో ఏమి మార్చిందో క్రింద ఉంది.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>ఇప్పుడు ఒక రన్ ఏమి చేస్తుందో. ఏదీ మార్చబడదు: ప్రతి పెండింగ్ మైగ్రేషన్ తాను చేసే మార్పులను జాబితా చేస్తుంది, మరియు రన్ ముందు, తర్వాత ఏమి చేస్తుందో చూపుతుంది.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>అనుకరించు</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>అమలు చేయి</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>ప్రయోగాత్మక రన్ విఫలమైంది: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>అనుకరణకు PostgreSQL లేదా SQLite అవసరం, వాటి స్కీమా మార్పులను వెనక్కి తీసుకోవచ్చు; ఈ డేటాబేస్‌లో క్రింది ప్రణాళికే ఒక రన్ చేసేది.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>మైగ్రేషన్‌లు</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>మైగ్రేషన్ పేరు</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>స్థితి</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>అది ఏమి చేస్తుంది</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>అనుకరణ: %result, %ms మి.సె.లో</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>ఇంకా మైగ్రేషన్ లేదు.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>రన్‌కు ముందు మరియు తర్వాత</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>ముందరి పునరుద్ధరణ బిందువు</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>తీసుకోబడుతుంది, మైగ్రేషన్ విఫలమైతే పునరుద్ధరించబడుతుంది</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>ఆఫ్</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>తర్వాతి పునరుద్ధరణ బిందువు</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>రన్ విజయవంతమైతే తీసుకోబడుతుంది</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>%total మైగ్రేషన్‌లు: %pending పెండింగ్, %done పూర్తయినవి, %failed విఫలమైనవి.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>మైగ్రేషన్ చరిత్ర</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>ప్రతి రన్ దాని వినియోగదారు, పర్యావరణం, పునరుద్ధరణ బిందువులు మరియు కమిట్, ట్యాగ్, పుష్ చేసిన వాటితో. విఫలమైన లేదా అంతరాయం కలిగిన రన్‌ను కొనసాగించవచ్చు; ముందు పునరుద్ధరణ బిందువు తీసుకున్న రన్‌ను వెనక్కి తీసుకోవచ్చు.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>రన్‌లను చదవడం సాధ్యం కాలేదు: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>మైగ్రేషన్‌ల పట్టికలు ఇంకా లేవు: ./console exp:upgrade --apply వాటిని సృష్టిస్తుంది.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>చూపించు</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>అన్నీ</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>రన్‌లు</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>ప్రారంభమైంది</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>చేసినవారు</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>పునరుద్ధరణ బిందువులు</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>రిపోజిటరీ</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>చర్యలు</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>ముందు</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>తర్వాత</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>పుష్: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>కొనసాగించు</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>వెనక్కి తీసుకో</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>ఈ స్థితిలో రన్ లేదు.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>ఇక్కడ ప్రారంభించినవి</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>ఈ పేజీలలో ప్రారంభించిన రన్‌లు, కొనసాగింపులు మరియు వెనక్కి తీసుకోవడాలు, ప్రతిదాని నివేదికతో.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>ఏమిటి</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>ఫలితం</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>వెనక్కి తీసుకోవడం</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>%target ను వెనక్కి తీసుకోవడం</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>రన్ %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>రన్ ఏమి చేసింది, దాని రికార్డు మరియు దాని లాగ్. ఇక్కడ ప్రారంభించిన రన్ ఈ పేజీ మూసినా నేపథ్యంలో కొనసాగుతుంది; దాన్ని అనుసరించడానికి పేజీని మళ్లీ తెరవండి.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>ఈ రన్‌ను కొనసాగించు</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>ఈ రన్‌ను వెనక్కి తీసుకో</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>రికార్డును చదవడం సాధ్యం కాలేదు: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>పురోగతి</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>%time కు %user ప్రారంభించారు.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>కోడ్‌ను తనిఖీ చేసి రన్‌కు ముందు పునరుద్ధరణ బిందువు తీసుకుంటోంది</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>%id నడుస్తోంది (%total లో %index)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>%total లో %done పూర్తయ్యాయి</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>మైగ్రేషన్‌లు నడిచాయి; ఒకటి విఫలమైతే పునరుద్ధరణ బిందువును పునరుద్ధరిస్తోంది</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>రన్ తర్వాత పునరుద్ధరణ బిందువు తీసుకోవడం, కమిట్, ట్యాగ్ మరియు పుష్ చేయడం</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>పునరుద్ధరణ బిందువును పునరుద్ధరిస్తోంది</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>రన్ ముగిసింది. దాని నివేదిక లోడ్ అవుతోంది.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>పురోగతిని అనుసరించలేకపోయాము. రన్ ఎలా జరుగుతోందో చూడటానికి పేజీని మళ్లీ లోడ్ చేయండి.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>ఈ పేజీ రన్ జరుగుతున్న కొద్దీ దాన్ని అనుసరిస్తుంది.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>మళ్లీ లోడ్ చేయి</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>నివేదిక</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>సమయం</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms మి.సె.</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>రన్ లోపాలుగా ముద్రించినవి</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>రికార్డు</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>పర్యావరణం</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>ఏదీ లేదు</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>ముగిసింది</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>కమిట్</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>ట్యాగ్</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>పుష్</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>సందేశం</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>ఈ రన్ యొక్క మైగ్రేషన్‌లు</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>మూలం</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>రన్ లాగ్</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>లాగ్ చివరి భాగం మాత్రమే చూపబడుతుంది.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>నడుస్తోంది</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>నివేదిక లేకుండా ముగిసింది</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>విజయవంతం</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>విఫలం</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>తిరస్కరించబడింది</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>డేటాబేస్ అందుబాటులో లేదు</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>అంతర్గత లోపం</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>ఒక రన్ జరుగుతోంది</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind, %time కు %user ప్రారంభించారు.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>అనుసరించు</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>ఇన్‌స్టాలేషన్ లాక్ చేయబడింది</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>మరొక రన్ లాక్‌ను కలిగి ఉంది (ఒక అప్‌గ్రేడ్ లేదా కన్సోల్‌లో ఒక రన్): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>పూర్తయింది</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>పెండింగ్‌లో ఉంది</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>అవసరం లేదు</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>తెలియదు</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>వెనక్కి తీసుకోబడింది</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>వర్తింపజేయబడింది</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>వర్తింపజేయబడుతుంది</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>తిరిగి తీసివేయబడింది</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>వెనక్కి తీసుకోబడుతుంది</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>అమలు కాలేదు</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>మరొకదాని కోసం వేచి ఉంది</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>మార్పు ఆమోదించబడింది</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>మార్పు ఆమోదించబడుతుంది</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>అనుకరించబడింది</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>ఇన్‌స్టాలేషన్ మైగ్రేషన్‌లు</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>స్థితిగతి</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>చరిత్ర</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>%target ను వెనక్కి తీసుకో</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>ఒక రన్ దానికి ముందు తీసుకున్న పునరుద్ధరణ బిందువుకు వెనక్కి తీసుకోబడుతుంది, ఒక మైగ్రేషన్ దాని down() తో. మునుపటి పునరుద్ధరణ బిందువును పునరుద్ధరించడం నిపుణుల కోసం. ప్రతిదీ ప్రస్తుత స్థితి యొక్క పునరుద్ధరణ బిందువు తర్వాత, మీ పేరుతో నేపథ్యంలో నడుస్తుంది.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>ఏమి వెనక్కి తీసుకోవచ్చో చదవడం సాధ్యం కాలేదు: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>ఒక రన్</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>ఒక మైగ్రేషన్</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>మునుపటి పునరుద్ధరణ బిందువు</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>వివరణ</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>అవును</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>కాదు</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>పునరుద్ధరణ బిందువు</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>లేబుల్</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>తీసుకున్నది</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>రకం</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>పునరుద్ధరించాల్సిన భాగాలు</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>డేటాబేస్</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>నిల్వ ఫైళ్లు (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>సెట్టింగ్‌లు (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>డేటాబేస్‌ను పునరుద్ధరించడం దాన్ని పునరుద్ధరణ బిందువు సమయానికి తీసుకెళ్తుంది, సెషన్‌లతో సహా: తర్వాత మళ్లీ సైన్ ఇన్ చేయమని అడగవచ్చు. అప్పటి నుండి మారినదంతా పోతుంది; ముందుగా ప్రస్తుత స్థితి యొక్క పునరుద్ధరణ బిందువు తీసుకోబడుతుంది.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>ఇది ఏమి పునరుద్ధరిస్తుందో నాకు తెలుసు</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>పునరుద్ధరణ బిందువు ఐడీని మళ్లీ టైప్ చేయండి</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>అవును, వెనక్కి తీసుకో</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>రద్దు చేయండి</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>ముందు పునరుద్ధరణ బిందువు తీసుకున్న రన్‌లు.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>ఎంచుకో</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>పునరుద్ధరణ బిందువుతో ఇంకా రన్ లేదు.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>తమను తాము వెనక్కి తీసుకోగల వర్తింపజేసిన మైగ్రేషన్‌లు (వాటికి down() ఉంది).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>వర్తింపజేసిన ఏ మైగ్రేషన్‌కూ down() లేదు.</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>మునుపటి పునరుద్ధరణ బిందువులు (నిపుణులు)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>ఇంకా పునరుద్ధరణ బిందువు లేదు.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>మైగ్రేషన్‌లను అమలు చేయి</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>రన్ %user గా నేపథ్యంలో కొనసాగుతుంది, దాని పేజీ అది జరుగుతున్న కొద్దీ చూపిస్తుంది. మొదటి మైగ్రేషన్‌కు ముందు ఇన్‌స్టాలేషన్ యొక్క పునరుద్ధరణ బిందువు తీసుకోబడుతుంది; ఒక మైగ్రేషన్ విఫలమైతే రన్ ఆగి పునరుద్ధరణ బిందువు పునరుద్ధరించబడుతుంది.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>ముందుగా ప్రయోగాత్మక రన్</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>స్థితిని చదవడం సాధ్యం కాలేదు: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>పెండింగ్ మైగ్రేషన్‌లు</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>అవి ఈ క్రమంలో నడుస్తాయి. ఒకదాన్ని మరియు దానిపై ఆధారపడినవాటిని తర్వాతి రన్ కోసం వదిలేయడానికి దాని టిక్ తీసివేయండి.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>దాన్ని అమలు చేయి</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>నడుస్తున్నప్పుడు నిర్వహణ మోడ్‌ను ఆన్ చేస్తుంది.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>వర్తింపజేసిన తర్వాత మార్చబడినవి</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>ఈ ఫైళ్లు వర్తింపజేసినవి కావు. మార్పు ఒక కారణంతో ఆమోదించబడకపోతే రన్ వాటిని తిరస్కరిస్తుంది; అవి మళ్లీ నడవవు, కొత్త చెక్‌సమ్ నమోదు చేయబడి కారణం ఆడిట్ లాగ్‌లో ఉంచబడుతుంది.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>మార్పులను ఆమోదించు</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>కారణం</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>డిఫాల్ట్‌లే సురక్షితమైనవి. ప్రతి పెట్టె ఒక దశను వదిలేస్తుంది.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>పునరుద్ధరణ బిందువు వద్దు</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>రన్‌కు ముందు, తర్వాత పునరుద్ధరణ బిందువు లేదు: వైఫల్యాన్ని స్వయంచాలకంగా పునరుద్ధరించలేము.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>పునరుద్ధరణ వద్దు</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>వైఫల్యం తర్వాత, ఇన్‌స్టాలేషన్‌ను వైఫల్యం వదిలిన స్థితిలోనే ఉంచు.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>కమిట్ చేయని మార్పులను ఉంచు</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>సెట్టింగ్‌లు, ఎక్స్‌టెన్షన్‌లు లేదా డిజైన్‌లలో కమిట్ చేయని మార్పులు ఉన్నా అమలు చేయి; అవి పునరుద్ధరణ బిందువులో చేరతాయి.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>కమిట్ వద్దు</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>స్థితి ఫైల్‌ను మరియు రన్ లాగ్‌ను కమిట్ చేయవద్దు (ట్యాగ్ మరియు పుష్ కూడా వద్దు).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>పుష్ వద్దు</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>కమిట్ మరియు ట్యాగ్ చేయి, కానీ పుష్ చేయవద్దు.</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>ట్యాగ్ వద్దు</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>కమిట్ మరియు పుష్ చేయి, కానీ రన్‌కు ట్యాగ్ చేయవద్దు.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>అవును, ఈ మైగ్రేషన్‌లను ఇప్పుడే అమలు చేయి</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>ఏ మైగ్రేషన్ పెండింగ్‌లో లేదు.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>స్థితికి తిరిగి వెళ్లు</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>ఈ ఇన్‌స్టాలేషన్‌కు మార్పులు ఒకసారి ఫైళ్లుగా వ్రాయబడి (కంటెంట్, క్లాసులు, పాత్రలు, సెట్టింగ్‌లు, స్కీమా) సైట్ యొక్క ప్రతి ఇన్‌స్టాలేషన్‌కు అదే క్రమంలో వర్తింపజేయబడతాయి. ఒక రన్ ముందుగా పునరుద్ధరణ బిందువు తీసుకుంటుంది, మైగ్రేషన్ విఫలమైతే దాన్ని పునరుద్ధరిస్తుంది, మరియు తాను చేసినదాన్ని నమోదు చేసి, కమిట్ చేసి, పుష్ చేస్తుంది.</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>పెండింగ్‌లో ఉన్న %count ను అమలు చేయి</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>అవలోకనం</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>పెండింగ్‌లో ఉన్నవి</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>పూర్తయినవి</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>విఫలమైనవి</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>అవసరం లేనివి</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>డేటాబేస్</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>లావాదేవీలు: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>సైట్ మైగ్రేషన్‌లు migrations/ లో ఉంటాయి, ఒక ఎక్స్‌టెన్షన్‌వి extension/&lt;name&gt;/migrations/ లో. అవి వాటి పేర్ల క్రమంలో మరియు వాటికి అవసరమైనవాటి ప్రకారం నడుస్తాయి.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>చివరి రన్</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>వర్తింపజేసిన తర్వాత ఫైల్ మార్చబడింది.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>ఇంకా మైగ్రేషన్ లేదు. ./console exp:migration:generate --skeleton &lt;name&gt; --apply మొదటిదాన్ని వ్రాస్తుంది.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>తాజా రన్‌లు</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>అన్ని రన్‌లు</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>ఇంకా రన్ లేదు.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>రన్‌ను అనుకరించడానికి migration/run విధానం అవసరం.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>ఒక రన్ జరుగుతోంది: అది ముగిసిన తర్వాత అనుకరించండి.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>సెటప్</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target ఈ ఇన్‌స్టాలేషన్ యొక్క రన్ కాదు, మైగ్రేషన్ కాదు, పునరుద్ధరణ బిందువు కాదు.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>ముందుగా “అవును, వెనక్కి తీసుకో” ను టిక్ చేయండి.</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>మునుపటి పునరుద్ధరణ బిందువును పునరుద్ధరించడం నిపుణుల కోసం: “ఇది ఏమి పునరుద్ధరిస్తుందో నాకు తెలుసు” ను టిక్ చేయండి.</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>పునరుద్ధరణ బిందువు ఐడీని మళ్లీ టైప్ చేయండి: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>పునరుద్ధరించడానికి కనీసం ఒక భాగాన్ని ఎంచుకోండి.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>ఈ రన్‌కు ముందు పునరుద్ధరణ బిందువు తీసుకోబడలేదు: దాని మైగ్రేషన్‌లను ఒక్కొక్కటిగా వెనక్కి తీసుకోండి, లేదా మునుపటి పునరుద్ధరణ బిందువును పునరుద్ధరించండి.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>ఈ మైగ్రేషన్‌ను విడిగా వెనక్కి తీసుకోలేము: అది వర్తింపజేయబడలేదు, లేదా దానికి down() లేదు.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>ఫారమ్‌ను చదవడం సాధ్యం కాలేదు.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>కొనసాగించాల్సిన రన్‌ను ఎంచుకోండి.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>ముందుగా “అవును, ఈ మైగ్రేషన్‌లను ఇప్పుడే అమలు చేయి” ను టిక్ చేయండి.</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>కనీసం ఒక మైగ్రేషన్‌ను ఎంచుకోండి.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>ఒక మైగ్రేషన్ వర్తింపజేసిన తర్వాత మారింది: మార్పును ఒక కారణంతో ఆమోదించండి, లేదా ఫైల్‌ను తిరిగి పెట్టండి.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>మార్చబడిన మైగ్రేషన్‌లు ఎందుకు ఆమోదించబడుతున్నాయో కారణం ఇవ్వండి.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>కారణం గరిష్టంగా 500 అక్షరాలు.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>ఇక్కడ ప్రారంభించిన ఒక రన్ ఇంకా జరుగుతోంది (%detail). అది ముగిసే వరకు వేచి ఉండండి.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>మరొక రన్ ఇన్‌స్టాలేషన్ లాక్‌ను కలిగి ఉంది: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>రన్‌కు సైన్ ఇన్ చేసిన, ఉనికిలో ఉన్న వినియోగదారు అవసరం.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>php కమాండ్ లైన్ బైనరీ కనుగొనబడలేదు. migration.ini [AdminSettings] PhpCliPath లో దాని పూర్తి మార్గాన్ని సెట్ చేయండి.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open నిలిపివేయబడింది, కాబట్టి ఇక్కడ రన్ ప్రారంభించలేము. సర్వర్‌లో ./console exp:migration:migrate --apply ను అమలు చేయండి.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>రన్‌ల ఫోల్డర్‌లో వ్రాయలేము: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>రన్ ప్రారంభించబడింది కానీ దాని ప్రాసెస్ ఐడీని తెలియజేయలేదు. %detail ను తనిఖీ చేయండి.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>ఏమి వెనక్కి తీసుకోవాలో పేర్కొనండి.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>రన్‌ను ప్రారంభించడం సాధ్యం కాలేదు.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>మార్పుల రికార్డింగ్</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>రికార్డింగ్ నడుస్తున్నంత వరకు మీరు నిర్వహణలో లేదా సైట్ సైడ్‌బార్‌లో మార్చేది ఒక మైగ్రేషన్ దశలుగా ఉంచబడుతుంది: కంటెంట్, తరగతులు, పాత్రలు మరియు విధానాలు, విభాగాలు, వినియోగదారులు మరియు సమూహాలు, URL మారుపేర్లు, సెట్టింగ్‌లు. పూర్తయ్యాక దాన్ని ఆపండి, అది ఏమి పట్టుకుందో చూడండి, దాని నుండి మైగ్రేషన్‌ను సృష్టించండి.</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>రికార్డింగ్‌లను చదవలేకపోయాము: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>రికార్డింగ్ పట్టికలు ఇంకా లేవు: ముందుగా అప్‌గ్రేడ్‌ను అమలు చేయండి (exp:upgrade --apply).</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>migration.ini లో రికార్డింగ్ ఆఫ్ చేయబడింది ([RecordingSettings] Recording=disabled).</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>నా మార్పులు</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>మీరు ఆపే వరకు మీరు మార్చేదాన్ని మాత్రమే, ఎక్కడ మార్చినా, రికార్డ్ చేస్తుంది.</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>రికార్డింగ్</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>%time నుండి, ఇప్పటివరకు %count మార్పులు.</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>లేబుల్ (ఐచ్ఛికం)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>అది ఏమి పట్టుకుందో చూపించు</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>రికార్డింగ్ ఆపు</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>నా మార్పుల రికార్డింగ్ ప్రారంభించు</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>మొత్తం సైట్ కిటికీ</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>మూసే వరకు ప్రతి వినియోగదారు మరియు కన్సోల్ యొక్క ప్రతి మార్పును రికార్డ్ చేస్తుంది. తెరిచేటప్పుడు మీరేనని ధృవీకరించమని అడుగుతుంది.</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>తెరిచి ఉంది</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>కిటికీ మూసివేయి</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>మొత్తం సైట్ కిటికీ తెరువు</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>రికార్డింగ్‌లు</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>వినియోగదారు ఖాతా (లాగిన్, ఇ-మెయిల్, పాస్‌వర్డ్) మరియు వినియోగదారు ఖాతాల ఫీల్డ్‌లు ఎప్పుడూ రికార్డ్ చేయబడవు.</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>మార్పులు</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>మొత్తం సైట్</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>%name యొక్క మార్పులు</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>ఆపబడింది</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>ఇంకా రికార్డింగ్ లేదు.</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>రికార్డింగ్ %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>అన్ని రికార్డింగ్‌లు</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>దీని నుండి వచ్చే మైగ్రేషన్</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>మార్చిన ప్రతి దానికి ఒక దశగా కలిపిన మార్పులు: ఈ రికార్డింగ్ నుండి సృష్టించిన మైగ్రేషన్ ఏమి చేస్తుందో.</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>ఈ ఇన్‌స్టాలేషన్‌లో YAML దశ రకాలు %types ఉన్నప్పుడు దీని నుండి మైగ్రేషన్ సృష్టించవచ్చు.</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>ఉద్దేశపూర్వకంగా వదిలేశాం: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>ఏమీ రికార్డ్ కాలేదు.</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>అది ఏమి పట్టుకుంది</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>%count మార్పులు, చేసిన క్రమంలో.</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>మార్పు</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>దశ</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>సంబంధించినది</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>మరో %count: ./console exp:migration:record:show అన్నింటినీ జాబితా చేస్తుంది.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>విస్మరించు</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>రికార్డింగ్‌ను మరియు అది పట్టుకున్నదాన్ని తొలగిస్తుంది. మారినది మారినట్లే ఉంటుంది.</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>అవును, ఈ రికార్డింగ్‌ను విస్మరించు</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>రికార్డ్ అవుతోంది…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>మీ మార్పులు ఒక మైగ్రేషన్ కోసం రికార్డ్ అవుతున్నాయి.</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>ఈ సైట్‌లోని ప్రతి మార్పు ఒక మైగ్రేషన్ కోసం రికార్డ్ అవుతోంది (మొత్తం సైట్ కిటికీ).</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>మొత్తం సైట్ రికార్డింగ్ ప్రారంభమైంది: మీరు ఆపే వరకు ప్రతి వినియోగదారు యొక్క ప్రతి మార్పు రికార్డ్ అవుతుంది.</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>రికార్డింగ్ ప్రారంభమైంది: మీరు ఆపే వరకు మీ మార్పులు రికార్డ్ అవుతాయి.</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>రికార్డింగ్ ఆగింది. అది పట్టుకున్నది మీరు విస్మరించే వరకు ఉంటుంది.</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>రికార్డింగ్ మరియు దాని సంఘటనలు తొలగించబడ్డాయి.</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>రికార్డింగ్ %id లేదు.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>ముందుగా "అవును, ఈ రికార్డింగ్‌ను విస్మరించు" ఎంచుకోండి.</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>సెషన్ రికార్డింగ్‌ను రికార్డ్ చేసిన వినియోగదారు మాత్రమే ఆపగలరు.</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>ఆపాల్సిన రికార్డింగ్‌ను ఎంచుకోండి.</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>ఈ రకమైన రికార్డింగ్ ఇప్పటికే నడుస్తోంది.</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>రికార్డింగ్‌ను మార్చలేకపోయాము: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>మైగ్రేషన్ సృష్టించు</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>మైగ్రేషన్ పేరు (ఐచ్ఛికం)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>మైగ్రేషన్ %file వ్రాయబడింది. ఏ దశా చేయలేని మార్పులు ఫైల్ పైభాగంలో పేర్కొనబడ్డాయి, వాటిని చేతితో చేయాలి.</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>ఏ మైగ్రేషన్ వ్రాయబడలేదు: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>భాగాలుగా ఒక సుదీర్ఘ రన్</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>ఖాళీ ఫీల్డ్‌లు migration.ini [RunSettings] సెట్టింగ్‌లను ఉంచుతాయి.</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>గరిష్టంగా ఇన్ని మైగ్రేషన్‌లు</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>దీని తర్వాత మరిన్ని మైగ్రేషన్‌లు లేవు (సెకన్లు)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>మైగ్రేషన్‌ల మధ్య విరామం (సెకన్లు)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>తక్కువ ప్రాధాన్యత (1 నుండి 19)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>సుదీర్ఘ రన్ ఫీల్డ్ 1 నుండి మొదలయ్యే పూర్ణ సంఖ్య (విరామం: 0 నుండి 60 సెకన్లు, ప్రాధాన్యత: 1 నుండి 19), లేదా ఖాళీ.</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>ఇది %time కి దానంతట అదే మూసుకుంటుంది.</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>దీని తర్వాత దానంతట అదే మూసివేయి (నిమిషాలు, ఐచ్ఛికం)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>నిమిషాలు 1 నుండి 44640 (31 రోజులు) వరకు పూర్ణ సంఖ్య, లేదా ఖాళీ.</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>మైగ్రేషన్ %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>కొత్త మైగ్రేషన్</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>YAML మైగ్రేషన్: దీన్ని టెక్స్ట్‌గా రాయండి లేదా ఫారమ్‌లో దీని దశలను నిర్మించండి, తనిఖీ చేయండి, ఆపై మైగ్రేషన్ల ఫోల్డర్‌లో సేవ్ చేయండి.</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>ఈ మైగ్రేషన్ ఇప్పటికే అమలైంది, కాబట్టి ఇది మళ్లీ సేవ్ చేయబడదు: మార్చిన ఫైల్‌ను చెక్‌సమ్ రక్షణ తిరస్కరిస్తుంది. మార్పును కొత్త మైగ్రేషన్‌లో చేయండి.</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>వెబ్ సర్వర్ ఫైల్‌ను రాయలేదు.</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>పైన ఉన్న వ్యాఖ్య పంక్తులు హెడర్ (description, author, requires, environments, engines). ఫారమ్‌లో దశను జోడించినప్పుడు లేదా మార్చినప్పుడు, మైగ్రేషన్ మళ్లీ రాయబడుతుంది: దశల మధ్య ఉన్న వ్యాఖ్యలు ఉంచబడవు.</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>మైగ్రేషన్ పేరు</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>ఇది ఎక్కడికి వెళ్తుంది</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>సైట్</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>YAML టెక్స్ట్</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>తనిఖీ చేయండి</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>సేవ్ చేయండి</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>దశలు</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>కీలు</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>సవరించండి</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>పైకి తరలించండి</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>కిందకు తరలించండి</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>తీసివేయండి</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>ఇంకా దశలు లేవు: ఫారమ్‌తో ఒకటి జోడించండి, లేదా వాటిని టెక్స్ట్‌లో రాయండి.</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>దశ %number ను మార్చు</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>ఒక దశను జోడించండి</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>దశ యొక్క ఫారమ్ దాని దశ రకం నుండి తయారవుతుంది: దాని కీలు, ప్రతి ఒక్కటి ఏమి తీసుకుంటుంది మరియు అది చెందిన మోడ్‌లు.</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>దశ రకం</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>దీని ఫారమ్‌ను చూపించు</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>దశలో దాని రకానికి తెలియని కీలు ఉన్నాయి; దశను మార్చినప్పుడు అవి వదిలివేయబడతాయి: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>మోడ్</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>లో</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>%modes లో మాత్రమే</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>డిఫాల్ట్: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>షరతులు, సూచనలు మరియు వ్యాఖ్య</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>కామాలతో వేరు చేసిన పేరు=విలువ జతలు. ఈ దశ విలువలు: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>ఉదాహరణ</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>దశను మార్చు</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>దశను జోడించు</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>exp:migration:check ఏమి చెబుతుంది: హెడర్, డాక్యుమెంట్ మరియు దాని దశ రకం తనిఖీ చేసిన ప్రతి దశ.</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>మైగ్రేషన్ తనిఖీలో ఉత్తీర్ణమైంది.</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>ప్రివ్యూ</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>సేవ్ చేయబడే విధంగా YAML.</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>YAML ను చూపించు</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>YAML మైగ్రేషన్లు</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>అమలైంది</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>ఇంకా YAML మైగ్రేషన్లు లేవు.</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>ఎడిటర్</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>మైగ్రేషన్ ఫోల్డర్లలో YAML మైగ్రేషన్ %id లేదు.</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>దశ రకాన్ని ఎంచుకోండి.</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>దశ జోడించబడింది. సేవ్ చేసే ముందు మైగ్రేషన్‌ను తనిఖీ చేయండి.</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>దశ మార్చబడింది. సేవ్ చేసే ముందు మైగ్రేషన్‌ను తనిఖీ చేయండి.</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>ఒక దశను ఎంచుకోండి.</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>ఈ దశకు ఫారమ్ లేదు (ఒక లూప్, లేదా ఈ ఇన్‌స్టాలేషన్‌లో లేని దశ రకం): దీన్ని టెక్స్ట్‌లో మార్చండి.</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>మైగ్రేషన్ ఎక్కడికి వెళ్లాలో ఎంచుకోండి: సైట్ లేదా క్రియాశీల ఎక్స్‌టెన్షన్.</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>%file సేవ్ చేయబడింది. మైగ్రేషన్ అమలయ్యే ముందు ప్రయోగాత్మక రన్ చేయండి.</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>సేవ్ కాలేదు: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>రిమోట్‌లు</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>ఈ ఇన్‌స్టాలేషన్ తన మైగ్రేషన్‌లను డిప్లాయ్ చేసే ఇతర ఇన్‌స్టాలేషన్‌లు: ఒక డిప్లాయ్ మైగ్రేషన్‌లను ఎంచుకున్న రిమోట్‌లకు పంపి అక్కడ అమలు చేస్తుంది, అన్నీ ఒకేసారి మరియు సమకాలంలో. రిమోట్ ఎప్పుడూ రహస్యాన్ని కలిగి ఉండదు: దాని ఆధారాలు సెటప్ &gt; రహస్యాలు లోని ఒకదాని పేరును సూచిస్తాయి.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>కొత్త రిమోట్</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>సహాయం</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>%id కనెక్షన్ పరీక్ష</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>రిమోట్‌లు</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>ఒకేసారి గరిష్ఠంగా %parallel రిమోట్‌లపై పని జరుగుతుంది; ఒక్కో దానిపై ఒక ఫేజ్ %timeout సెకన్లు పట్టవచ్చు.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>రిమోట్</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>చిరునామా</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>ఆధారాలు</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>సమూహాలు</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>సరిచేయాల్సిన సెట్టింగ్‌లు</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>ఫైళ్లు మాత్రమే (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>SSH కీ</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>పాస్‌వర్డ్</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>ఏదీ లేదు (హోస్ట్ యొక్క SSH ఏజెంట్ మరియు కీలు)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>కనెక్షన్‌ను పరీక్షించండి</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>ఒక సమూహానికి డిప్లాయ్ దానిలోని ప్రతి రిమోట్‌కు వెళ్తుంది.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>రిమోట్‌లకు డిప్లాయ్ చేయి</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>ఇంకా ఏ రిమోట్ సెటప్ చేయబడలేదు.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>రిమోట్ %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>ఇక్కడ ఏమీ పంపబడదు లేదా అమలు చేయబడదు: సేవ్ చేయండి సెట్టింగ్‌లను settings/override/migration.ini.append.php లో రాస్తుంది. ఆధారాలు ఒక పేరు మాత్రమే; దాని విలువ సెటప్ &gt; రహస్యాలు లో లేదా పర్యావరణంలో ఉంటుంది.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>ఈ సెట్టింగ్‌లను తనిఖీ చేయండి</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>నమోదు చేసిన విధంగా సెట్టింగ్‌లు, ఇంకా సేవ్ చేయలేదు.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>సమీక్షించండి</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>సెట్టింగ్‌లు చెల్లుబాటు అయ్యేవి. ఈ లైన్‌లు వ్రాయబడతాయి:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>ట్రాన్స్‌పోర్ట్</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>పేరు మాత్రమే; విలువ సెటప్ &gt; రహస్యాలు లోనే ఉంటుంది</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>వ్రాయబోయే లైన్‌లు</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>కనెక్షన్</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>హోస్ట్ కీ</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. రిమోట్</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>రిమోట్ పేరు ఏమిటి, అది ఏ పర్యావరణం.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ఐడి</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>అక్షరాలు, అంకెలు, - మరియు _, ఉదాహరణకు production1. ఇది నివేదికలలో మరియు కన్సోల్‌లో (--remotes=production1) రిమోట్‌కు పేరు పెడుతుంది, తర్వాత మార్చలేము.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... దశలవారీ డిప్లాయ్ పర్యావరణాలను ఈ క్రమంలో దాటుతుంది.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>ఐచ్ఛికం, కామాలతో వేరు చేసి, ఉదాహరణకు production. ఒక సమూహానికి డిప్లాయ్ దానిలోని ప్రతి రిమోట్‌కు వెళ్తుంది.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. కనెక్షన్</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>ఫైళ్లు అక్కడికి ఎలా చేరతాయి, ఇన్‌స్టాలేషన్ ఎక్కడ ఉంది.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>SSH ద్వారా, మారినది మాత్రమే, ఆగిపోయిన బదిలీ కొనసాగించబడుతుంది. rsync ఇన్‌స్టాల్ అయి ఉన్న చోట ఉత్తమ ఎంపిక.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>ఫైళ్ల కోసం scp తో SSH.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>ఫైళ్ల కోసం sftp తో SSH.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>ఫైళ్లు మాత్రమే: మైగ్రేషన్‌లు పంపబడి తిరిగి చదవబడతాయి, కానీ అక్కడ అమలు చేయలేము.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>TLS ద్వారా FTP; ఫైళ్లు మాత్రమే.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>ఈ సర్వర్‌లో, ఒక ఫోల్డర్‌లో ఉన్న మరొక ఇన్‌స్టాలేషన్.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>హోస్ట్</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>ఒక హోస్ట్ పేరు లేదా చిరునామా, ఉదాహరణకు node1.example.com. local కోసం కాదు.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>పోర్ట్</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>ఖాళీ: SSH కు 22, FTP కు 21.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>వినియోగదారు</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>పాత్</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>అక్కడ ఇన్‌స్టాలేషన్ యొక్క రూట్, ఉదాహరణకు /var/www/site (FTP కోసం: FTP ఖాతా చూసే పాత్).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>PHP కమాండ్ లైన్</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>అక్కడి PHP CLI: php, లేదా /opt/plesk/php/8.4/bin/php వంటి పూర్తి పాత్.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>కన్సోల్ స్క్రిప్ట్‌లు అక్కడ root గా నడుస్తాయి</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>రిమోట్ వినియోగదారు root అయినప్పుడు మాత్రమే (అప్పుడు అవి --allow-root-user తో అమలవుతాయి).</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. ఆధారాలు</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>ఈ ఇన్‌స్టాలేషన్ అక్కడ ఎలా సైన్ ఇన్ అవుతుంది. ఒక పేరు మాత్రమే సేవ్ చేయబడుతుంది.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>ఏదీ లేదు</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>ఈ ఇన్‌స్టాలేషన్ ఏ వినియోగదారుగా నడుస్తుందో ఆ వినియోగదారు SSH ఏజెంట్ మరియు కీలు (local కోసం ఎల్లప్పుడూ).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>రహస్యంగా ఉంచిన ప్రైవేట్ కీ.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>రహస్యంగా ఉంచిన పాస్‌వర్డ్ (FTP దీనితో సైన్ ఇన్ అవుతుంది).</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>రహస్యం పేరు</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>సెటప్ &gt; రహస్యాలు నుండి ఒక రహస్యం, ఉదాహరణకు deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>సెటప్ &gt; రహస్యాలు</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>లేదా ఒక పర్యావరణ వేరియబుల్</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>దాన్ని కలిగి ఉన్న సర్వర్ ప్రాసెస్ వేరియబుల్, ఉదాహరణకు DEPLOY_KEY (env:DEPLOY_KEY గా సేవ్ చేయబడుతుంది). ఇది రహస్యం పేరు స్థానాన్ని తీసుకుంటుంది.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. హోస్ట్ కీ</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>ఐచ్ఛికం, SSH, sftp మరియు rsync కోసం.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>హోస్ట్ కీ వేలిముద్ర</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... ssh-keygen -l ముద్రించినట్లు. ఇది ఉంటే, హోస్ట్ ఈ కీని చూపాలి; లేకపోతే, మొదటి సంప్రదింపులో కీ నేర్చుకోబడుతుంది.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. సమీక్ష</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>పై సెట్టింగ్‌లతో కనెక్షన్‌ను పరీక్షించండి, తర్వాత రాయబోయే పంక్తులను సమీక్షించండి.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>ఈ రిమోట్‌ను తీసివేయి</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>దీని సెట్టింగ్‌లు settings/override/migration.ini.append.php నుండి తీసివేయబడతాయి. రిమోట్‌లో ఏమీ మారదు, దీని డిప్లాయ్‌లు చరిత్రలో ఉంటాయి.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>అవును, ఈ రిమోట్‌ను తీసివేయి</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>డిప్లాయ్‌లు</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>ఒక డిప్లాయ్ ఈ ఇన్‌స్టాలేషన్ మైగ్రేషన్‌లను ఎంచుకున్న రిమోట్‌లకు పంపి, వాటిని అక్కడ %user గా అమలు చేస్తుంది, అన్నీ ఒకేసారి మరియు సమకాలంలో: ప్రతి రిమోట్ ముందుగా తనిఖీ చేయబడుతుంది, ఒకటి విఫలమైతే, వర్తింపజేసిన ప్రతి రిమోట్ వెనక్కి తీసుకోబడుతుంది. ఇది నేపథ్యంలో కొనసాగుతుంది, దాని పేజీ ప్రతి రిమోట్‌ను జరుగుతున్న కొద్దీ చూపిస్తుంది.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. రిమోట్‌లు</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>రిమోట్‌లను, ఒక సమూహాన్ని, లేదా రెండింటినీ టిక్ చేయండి.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>దానికి డిప్లాయ్ చేయి</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. ఎలా</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>డిప్లాయ్</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>పంపి అమలు చేయి</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>మైగ్రేషన్‌లు ప్రతి రిమోట్‌కు పంపబడి, ధృవీకరించబడి, ఒకే ఉమ్మడి రన్ ఐడితో అమలు చేయబడతాయి.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>బదిలీ మాత్రమే</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>ఫైళ్లు పంపబడి ధృవీకరించబడతాయి, ఏమీ అమలు చేయబడదు (FTP రిమోట్‌కు ఇదొక్కటే మార్గం).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>దశలవారీగా</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>పర్యావరణాల క్రమంలో దశలవారీగా (dev, stage, beta, production ...): మొదటి దశ డిప్లాయ్ చేయబడుతుంది, తర్వాత ఎవరైనా తదుపరి దశను ఆమోదించే వరకు ఒక గేట్ వేచి ఉంటుంది. ప్రతి దశలో అన్నీ లేదా ఏదీ కాదు.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>ఈ మైగ్రేషన్‌లు మాత్రమే</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>ఐచ్ఛికం: మైగ్రేషన్ ఐడిలు, కామాలతో వేరు చేసి. ఖాళీ: సైట్ మరియు దాని ఎక్స్‌టెన్షన్‌ల ప్రతి మైగ్రేషన్.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>ముందస్తు తనిఖీ మాత్రమే</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>అవును, ఇప్పుడే డిప్లాయ్ చేయి</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>ఏదైనా పంపిన లేదా అమలు చేసిన డిప్లాయ్‌లు, కొత్తవి ముందుగా (ముందస్తు తనిఖీ నివేదికను ఉంచదు).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>బదిలీ మాత్రమే</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>దశలవారీగా, %stages దశలు</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>సమకాలంలో లేదు</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>ఇంకా డిప్లాయ్ లేదు.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>డిప్లాయ్ %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>డిప్లాయ్‌లోని ప్రతి రిమోట్ దాని స్థితితో. ఇక్కడ ప్రారంభించిన డిప్లాయ్ ఈ పేజీ మూసినప్పుడు నేపథ్యంలో కొనసాగుతుంది; దాన్ని అనుసరించడానికి పేజీని మళ్లీ తెరవండి.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>అన్ని డిప్లాయ్‌లు</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>ముందస్తు తనిఖీ</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>తదుపరి దశ</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>సెట్టింగ్‌లు మరియు ఆధారాలను తనిఖీ చేస్తోంది</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>ముందస్తు తనిఖీ: ప్రతి రిమోట్ స్థితిని చదువుతోంది</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>మైగ్రేషన్ ఫైళ్లను పంపుతోంది</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>చేరినదాన్ని ధృవీకరిస్తోంది</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>ప్రతి రిమోట్‌లో మైగ్రేషన్‌లను అమలు చేస్తోంది</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>రిమోట్‌లను వెనక్కి తీసుకుంటోంది</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>డిప్లాయ్ ముగిసింది. దాని నివేదికను లోడ్ చేస్తోంది.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>పురోగతిని అనుసరించలేకపోయాం. డిప్లాయ్ ఎలా జరుగుతోందో చూడటానికి పేజీని మళ్లీ లోడ్ చేయండి.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>ఫేజ్</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>ఈ పేజీ డిప్లాయ్ జరుగుతున్న కొద్దీ దాన్ని అనుసరిస్తుంది.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>సమకాలంలో</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>దశలు</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>దశ %stage తన గేట్ వద్ద వేచి ఉంది</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>గేట్ %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>%time కు %user ఆమోదించారు</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>దశ</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>పంపిన ఫైళ్లు</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>కెర్నల్ వెర్షన్</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>వర్తింపజేసినవి: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>వర్తింపజేయాల్సినవి: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>ఫేజ్‌లు</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>గేట్: %stages లో దశ %stage</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>దీనికి ముందు దశలు డిప్లాయ్ చేయబడ్డాయి. వాటిని తనిఖీ చేసి, తర్వాత తదుపరి దశను ఆమోదించండి: దాని రిమోట్‌లు మళ్లీ తనిఖీ చేయబడి డిప్లాయ్ చేయబడతాయి, అన్నీ లేదా ఏదీ కాదు.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>తదుపరి</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>అవును, తదుపరి దశను ఇప్పుడే డిప్లాయ్ చేయి</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>ఆమోదించండి</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>ఈ డిప్లాయ్‌ను వెనక్కి తీసుకో</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>దాన్ని వర్తింపజేసిన ప్రతి రిమోట్ (%list) తన రన్‌కు ముందు తీసుకున్న పునరుద్ధరణ బిందువుకు తిరిగి వెళ్తుంది, అన్నీ ఒకేసారి.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>అవును, ఈ డిప్లాయ్‌ను ఇప్పుడే వెనక్కి తీసుకో</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>ప్రణాళికలో ఉంది</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>బదిలీ అయింది</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>డిప్లాయ్ అయింది</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>ఒక గేట్ వద్ద వేచి ఉంది</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>ఎంచుకున్నవి</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>సిద్ధం చేయబడింది</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>సిద్ధంగా ఉంది</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>తన దశ కోసం వేచి ఉంది</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>ఫైళ్లు పంపబడ్డాయి</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>ధృవీకరించబడింది</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>విఫలమైంది, తనను తాను పునరుద్ధరించుకుంది</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>మారలేదు</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>డిప్లాయ్ కాలేదు</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>చేరుకోలేము</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>రిమోట్ సమాధానం ఇచ్చింది.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>రిమోట్‌ను ఇప్పుడు ఉపయోగించలేము.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done పూర్తయింది, %pending పెండింగ్‌లో ఉంది, %failed విఫలం</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>లాక్</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>అక్కడ ఒక రన్ లాక్‌ను పట్టి ఉంది</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>ఖాళీ</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stages లో %stage</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>పరీక్షించాల్సిన రిమోట్‌ను ఎంచుకోండి.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>ముందుగా “అవును, ఈ రిమోట్‌ను తీసివేయి” టిక్ చేయండి.</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>రిమోట్‌ను తీసివేయలేకపోయాం: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>రిమోట్‌ను సేవ్ చేయలేకపోయాం: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>సెట్టింగ్‌ల ఫైల్‌ను చదవలేము: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>కనీసం ఒక రిమోట్ లేదా సమూహాన్ని ఎంచుకోండి.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>ఎంచుకున్న ఒక రిమోట్ ఇప్పుడు సెట్టింగ్‌లలో లేదు. పేజీని మళ్లీ లోడ్ చేయండి.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>ముందుగా “అవును, ఇప్పుడే డిప్లాయ్ చేయి” టిక్ చేయండి.</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>FTP రిమోట్ మైగ్రేషన్‌లను అమలు చేయలేదు: “బదిలీ మాత్రమే” ఎంచుకోండి, లేదా దాన్ని వదిలేయండి.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>డిప్లాయ్ చేయాల్సిన మైగ్రేషన్‌లు కామాలతో వేరు చేసిన మైగ్రేషన్ ఐడిలు.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>డిప్లాయ్ ఇంకా జరుగుతోంది. అది ముగిసే వరకు వేచి ఉండండి.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>ఈ డిప్లాయ్ ఏ గేట్ వద్దా వేచి ఉండదు.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>ఏ రిమోట్ ఈ డిప్లాయ్‌ను వర్తింపజేయలేదు: వెనక్కి తీసుకోవడానికి ఏమీ లేదు.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>ముందుగా “అవును, తదుపరి దశను ఇప్పుడే డిప్లాయ్ చేయి” టిక్ చేయండి.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>ముందుగా “అవును, ఈ డిప్లాయ్‌ను ఇప్పుడే వెనక్కి తీసుకో” టిక్ చేయండి.</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>%id ఐడితో ఒక రిమోట్ ఇప్పటికే ఉంది.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>పోర్ట్ 1 నుండి 65535 వరకు ఒక సంఖ్య.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>పర్యావరణం అనేది అక్షరాలు, అంకెలు, - మరియు _ తో కూడిన ఒక పదం (alpha, dev, stage, beta, production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>సమూహం అనేది అక్షరాలు, అంకెలు, - మరియు _ తో కూడిన ఒక పదం (all కాదు): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>ఆధారాలను ఇప్పుడు చదవలేము: %problem. మొదటి డిప్లాయ్‌కు ముందు వాటిని సెటప్ &gt; రహస్యాలు లో సేవ్ చేయండి (లేదా వేరియబుల్‌ను సెట్ చేయండి).</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>FTP రిమోట్ ఫైళ్లను మాత్రమే స్వీకరిస్తుంది: దానికి డిప్లాయ్ “బదిలీ మాత్రమే”, దాని మైగ్రేషన్‌లు అక్కడ చేతితో అమలు చేయబడతాయి.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>రిమోట్ %id settings/override/migration.ini.append.php లో లేదు; అది సెట్ చేయబడిన చోట దాన్ని తీసివేయండి.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>FTP ద్వారా సైన్ ఇన్ అయి index.php చదివింది. FTP రిమోట్ యొక్క మైగ్రేషన్ స్థితిని చదవలేము.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>సవరించబడింది</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>సృష్టించబడింది</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>పేరు</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>క్లాస్</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>విభాగం</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>సృష్టికర్త</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>ఇటీవలి కంటెంట్</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>మొత్తం సైట్‌లో ఇటీవల సృష్టించిన మరియు సవరించిన కంటెంట్, కొత్తది ముందుగా: సందర్శకులు సమర్పించినది, సమీక్ష కోసం నిలిపి ఉంచినది, ప్రచురణ కోసం వేచి ఉన్న డ్రాఫ్ట్‌లు. నిలుపుదలను విడుదల చేయడానికి, నిలిపి ఉంచడానికి, దాచడానికి, చూపించడానికి, తీసివేయడానికి లేదా మరొక విభాగానికి లేదా స్థితికి తరలించడానికి అంశాలను ఎంచుకోండి.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>జాబితాను చదవలేకపోయాము: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>సమీక్ష నిలుపుదల ఇంకా సెటప్ చేయబడలేదు, కాబట్టి ఏదీ నిలిపి ఉంచబడలేదు మరియు నిలుపుదల చర్యలు అందించబడవు. అప్‌గ్రేడ్ దశ 6.0.15-review-hold దీన్ని సెటప్ చేస్తుంది: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>జాబితాను ఫిల్టర్ చేయండి</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>నుండి</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>వరకు</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>తేదీ</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>సృష్టించబడింది (మొదటిసారి ప్రచురించబడింది)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>అన్నీ</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>స్థితి</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>ప్రచురించబడింది</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>డ్రాఫ్ట్, ఎప్పుడూ ప్రచురించబడలేదు</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>పెండింగ్‌లో ఉంది (ఆమోదం లేదా తేదీ కోసం వేచి ఉంది)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>ట్రాష్‌లో ఉంది</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>సమీక్ష కోసం నిలిపి ఉంచబడింది</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>నిలిపి ఉంచబడింది</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>నిలిపి ఉంచబడలేదు</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>దాచబడింది</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>కనిపిస్తుంది</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>సమర్పించిన చోటు</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>ఏదైనా సైట్‌యాక్సెస్</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>ఆడిట్ నమోదు చేసినది మాత్రమే.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>ప్రస్తుతం: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>లాగిన్ పేరు లేదా వినియోగదారు ID.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>ఫిల్టర్ చేయండి</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>ఫిల్టర్‌లను క్లియర్ చేయండి</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>అంశాలు</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%count లో %from నుండి %to</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>అంశం లేదు</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(%ms ms లో చదవబడింది)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>ఎంచుకున్న అంశాలపై చర్యలు</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>ఈ పేజీలో అన్నీ ఎంచుకోండి</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>%count ఎంచుకోబడ్డాయి</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>చర్య</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>ఒక చర్యను ఎంచుకోండి</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>నిలుపుదలను విడుదల చేయండి</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>సమీక్ష కోసం నిలిపి ఉంచండి</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>దాచండి</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>చూపించు</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>ట్రాష్‌కు తరలించండి</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>తొలగించండి</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>విభాగాన్ని కేటాయించండి</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>స్థితిని కేటాయించండి</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>కారణం</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>నిలిపి ఉంచడానికి అవసరం; నిలుపుదలతో మరియు ఆడిట్‌లో ఉంచబడుతుంది.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>ఒక విభాగాన్ని ఎంచుకోండి</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>స్థితి</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>ఒక స్థితిని ఎంచుకోండి</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>ఎంచుకున్న వాటికి వర్తింపజేయండి</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>ప్రతి అంశం మీ స్వంత అనుమతులతో తనిఖీ చేయబడుతుంది. ట్రాష్‌కు తరలించడం మరియు తొలగించడం మీ నిర్ధారణను అడుగుతాయి. %count కంటే ఎక్కువ అంశాలు నేపథ్యంలో నడుస్తాయి.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>ఎంచుకోండి</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>ప్రచురణ</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>నుండి సమర్పించబడింది</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>%name ఎంచుకోండి</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>ఇంకా లేదు</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(పేరు లేదు)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>డ్రాఫ్ట్</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>పెండింగ్‌లో ఉంది</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>దాని పేరెంట్ ద్వారా దాచబడింది</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>నిలిపి ఉంచబడింది: కొత్త సమర్పణ</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>వెర్షన్ %version పెండింగ్‌లో ఉంది</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>వెర్షన్ %version పురోగతిలో ఉంది</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>డ్రాఫ్ట్, వెర్షన్ %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>వెర్షన్ %version ప్రచురించబడింది</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>%date కి షెడ్యూల్ చేయబడింది</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>చిరునామా లేదు</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>నమోదు కాలేదు</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>ఈ ఫిల్టర్‌లకు ఏదీ సరిపోలలేదు.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>అన్నీ చూపించు</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>ఇంకా కంటెంట్ లేదు.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>ప్రతి పేజీకి</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>ప్రతి పేజీకి %count అంశాలను చూపించు.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says &quot;not recorded&quot;.</source>
+        <translation>సమర్పణ యొక్క చిరునామా మరియు బ్రౌజర్ ఆడిట్ సూచిక నుండి వస్తాయి, అది ఇక్కడ అందుబాటులో లేదు: నిలువు వరుస &quot;నమోదు కాలేదు&quot; అని చూపిస్తుంది.</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>చిరునామా మరియు బ్రౌజర్ ఆ అంశం కోసం ఆడిట్ నమోదు చేసినవి (ఆటో-నిలుపుదల వాటిని ఎల్లప్పుడూ నమోదు చేస్తుంది; ప్రచురించడం మరియు సృష్టించడం ఆన్ చేసినప్పుడు మాత్రమే), దాని గోప్యతా సెట్టింగ్‌లు ఉంచినట్లుగా.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: %count అంశాలు</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>తొలగించడం అంశాలను వాటి అన్ని వెర్షన్‌లు మరియు అనువాదాలతో శాశ్వతంగా తీసివేస్తుంది. దీన్ని రద్దు చేయలేము.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>అంశాలు ట్రాష్‌కు వెళ్తాయి, అక్కడి నుండి వాటిని పునరుద్ధరించవచ్చు.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>ప్రతి అంశం మీ స్వంత అనుమతులతో తనిఖీ చేయబడుతుంది; ఉప అంశాలు ఉన్న అంశం అలాగే వదిలివేయబడుతుంది (దాన్ని కంటెంట్ నిర్మాణంలో తీసివేయండి). అది మీరే అని ధృవీకరించమని మిమ్మల్ని అడుగుతారు.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>ఇది నేపథ్యంలో నడుస్తుంది: దాని పురోగతి పేజీ తెరుచుకుంటుంది, మరియు పూర్తయినప్పుడు ప్రతి అంశం ఫలితం చూపబడుతుంది.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>ఎంచుకున్న అంశాలు</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>మరియు మరో %count</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>రద్దు చేయండి</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>ఏమీ చేయబడలేదు</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>కారణం: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>చర్య ఇంకా నేపథ్యంలో నడుస్తోంది.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>దాని పురోగతి</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>నేపథ్య చర్య విఫలమైంది: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>పూర్తయింది</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>తిరస్కరించబడింది</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>విఫలమైంది</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>ప్రతి అంశానికి</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>అంశం</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>ఫలితం</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>ఎందుకు</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>జాబితాకు తిరిగి వెళ్ళండి</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>సెటప్</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>ఏమీ చేయలేదు</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>నిర్ధారించండి</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>ఒక చర్యను ఎంచుకోండి.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>కనీసం ఒక అంశాన్ని ఎంచుకోండి.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>ఒకేసారి గరిష్టంగా 1000 అంశాలను ఎంచుకోండి.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>అంశాలు ఎందుకు నిలిపి ఉంచబడ్డాయో చెప్పండి.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>విభాగాన్ని ఎంచుకోండి.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>స్థితిని ఎంచుకోండి.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>ఫారమ్‌ను చదవలేకపోయాము.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>డాష్‌బోర్డ్</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>ఇటీవలి కంటెంట్</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>లెక్కలను చదవలేకపోయాము: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>సమీక్ష కోసం నిలిపి ఉంచబడింది</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>ఈ రోజు కొత్తవి</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>సమీక్ష నిలుపుదల ఇంకా సెటప్ చేయబడలేదు (అప్‌గ్రేడ్ దశ 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>అన్ని ఇటీవలి కంటెంట్</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>మీరు మోడరేషన్ చర్యలను నడపలేరు (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>మోడరేషన్ చర్య పూర్తి కాలేదు: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>మోడరేషన్: %count ఆబ్జెక్ట్‌లపై %action</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%total లో %done ఆబ్జెక్ట్‌లు: %ok పూర్తయ్యాయి, %refused తిరస్కరించబడ్డాయి, %failed విఫలమయ్యాయి</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok పూర్తయ్యాయి, %refused తిరస్కరించబడ్డాయి, %failed విఫలమయ్యాయి</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>ఇది ఇక ఉనికిలో లేదు.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>దీనికి స్థానం లేదు (ప్రచురించబడలేదు).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>మీరు దీన్ని దాచలేరు (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>మీరు దీన్ని చూపించలేరు (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>ఇది ఇప్పటికే దాచబడింది.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>ఇది దాచబడలేదు.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>దాచబడింది.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>చూపించబడింది.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>ఇది ట్రాష్‌లో ఉంది: అక్కడ ఖాళీ చేయండి లేదా పునరుద్ధరించండి.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>ఎప్పుడూ ప్రచురించబడని డ్రాఫ్ట్ ట్రాష్‌కు వెళ్ళదు: దాన్ని తొలగించండి.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>మీరు దీన్ని తొలగించలేరు (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>తొలగించబడింది.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>మీరు దీన్ని తీసివేయలేరు (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>దీనికి ఉప అంశాలు ఉన్నాయి: అవి జాబితా చేయబడిన కంటెంట్ నిర్మాణంలో దీన్ని తీసివేయండి.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>ఇది తీసివేయబడలేదు (ఒక వర్క్‌ఫ్లో తీసివేతను నిలిపి ఉంచి ఉండవచ్చు).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>ట్రాష్‌కు తరలించబడింది.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>విభాగం ఉనికిలో లేదు.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>ఇది ఇప్పటికే ఈ విభాగంలో ఉంది.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>మీరు ఈ విభాగాన్ని కేటాయించలేరు (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>విభాగం కేటాయించబడలేదు.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>విభాగం కేటాయించబడింది.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>స్థితి ఉనికిలో లేదు.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>ఇది ఇప్పటికే ఈ స్థితిలో ఉంది.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>మీరు ఈ స్థితిని కేటాయించలేరు (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>స్థితి కేటాయించబడలేదు (ఒక వర్క్‌ఫ్లో మార్పును నిలిపి ఉంచి ఉండవచ్చు).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>స్థితి కేటాయించబడింది.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>అటువంటి చర్య లేదు.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>సమీక్ష నిలుపుదల సెటప్ చేయబడలేదు (అప్‌గ్రేడ్ దశ 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>ఇది ఎందుకు నిలిపి ఉంచబడిందో చెప్పండి.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>ఇది ఇప్పటికే నిలిపి ఉంచబడింది.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>మీరు దీన్ని నిలిపి ఉంచలేరు (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>నిలుపుదల ఉంచబడలేదు (ఒక వర్క్‌ఫ్లో మార్పును నిలిపి ఉంచి ఉండవచ్చు).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>నిలిపి ఉంచబడింది.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>ఇది నిలిపి ఉంచబడలేదు.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>మీరు దీన్ని విడుదల చేయలేరు (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>నిలుపుదల విడుదల చేయబడలేదు (ఒక వర్క్‌ఫ్లో మార్పును నిలిపి ఉంచి ఉండవచ్చు).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>విడుదల చేయబడింది; ఇంకా దాచబడి ఉంది: మీరు దీన్ని చూపించలేరు (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>విడుదల చేయబడింది.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>అన్ని లక్ష్యాలు</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>చివరి ప్రచురణ</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>మీ సైట్ యొక్క ఉచిత స్టాటిక్ కాపీని GitHub Pages లో ప్రచురించండి:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>పాతబడిన పేజీలు</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>స్టాటిక్ ప్రచురణ</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>స్టాటిక్ ప్రచురణ ఆఫ్ చేయబడింది.</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>లక్ష్యం</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>లక్ష్యాలను చదవలేకపోయాము: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>ఒక జాబ్ జరుగుతోంది</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>తనిఖీ చేయాల్సిన బిల్డ్</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>దీన్ని దాచు</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>ఒక లక్ష్యాన్ని సృష్టించు</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>ఎప్పుడూ కాదు</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>ట్యుటోరియల్ చదవండి</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>%added జోడించబడ్డాయి, %changed మార్చబడ్డాయి, %removed తీసివేయబడ్డాయి</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%limit లో %bytes (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>ఇంకా %count జాబితాలో చూపబడలేదు.</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>%pages పేజీలు వ్రాయబడ్డాయి</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path పరిమాణం %size, హోస్ట్ ఒక ఫైల్‌కు అనుమతించే దానికంటే ఎక్కువ.</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>పరిమితిలో %percent %</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds సె</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag అనేది సైట్‌లో ప్రస్తుతం ఉన్న ప్రచురణ.</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: జాబ్ %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>/రిపోజిటరీ/ GitHub ప్రాజెక్ట్ సైట్ కోసం; కస్టమ్ డొమైన్ లేదా యూజర్ సైట్ కోసం ఖాళీగా ఉంచండి.</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. సైట్</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. హోస్ట్</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. రిపోజిటరీలోకి సైన్ ఇన్</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. రిపోజిటరీ</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. లింక్‌లు మరియు బేస్ పాత్</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. మీ సొంత డొమైన్</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. బిల్డ్‌లో ఏముంటుంది</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. ఎప్పుడు ప్రచురించబడుతుంది</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. సమీక్షించి సేవ్ చేయండి</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>GitHub ప్రాజెక్ట్ సైట్ /&lt;repository&gt;/ కింద ఉంటుంది; సాపేక్ష లింక్‌లు అక్కడ మరియు ఇంకెక్కడైనా పనిచేస్తాయి.</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>ఒక బిల్డ్ %site లోని ప్రతి పేజీని సైన్ ఇన్ చేయని సందర్శకుడు చూసే విధంగా తెచ్చి, లింక్‌లను తిరిగి వ్రాసి, ఫైల్‌లను కాపీ చేసి, ఫలితాన్ని లక్ష్యం యొక్క ఫోల్డర్‌లో వ్రాస్తుంది. మీరు బిల్డ్‌ను తనిఖీ చేసి ప్రచురించండి నొక్కే వరకు ఏదీ ప్రచురించబడదు.</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>ఒక cron వ్యక్తీకరణ, ఉదాహరణకు 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>డిప్లాయ్ కీ %secret అనే రహస్యంగా ఉంచబడుతుంది.</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>డిప్లాయ్ కీ ఈ ఇన్‌స్టాలేషన్‌ను SSH ద్వారా ఒకే ఒక రిపోజిటరీకి మాత్రమే పుష్ చేయడానికి అనుమతిస్తుంది, ఇంకెక్కడికీ కాదు. దాని ప్రైవేట్ భాగం సెటప్ &gt; రహస్యాలు లో ఉంటుంది; పబ్లిక్ భాగం మాత్రమే చూపబడుతుంది.</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>ఈ లక్ష్యం కోసం సృష్టించిన డిప్లాయ్ కీ</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>డిప్లాయ్ కీ SSH ద్వారా సైన్ ఇన్ అవుతుంది: git చిరునామాను SSH చిరునామాకు మార్చండి (git@github.com:owner/repo.git).</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>%user ప్రారంభించిన ఒక జాబ్ జరుగుతోంది</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>ఈ లక్ష్యం యొక్క ఒక జాబ్ ఇంకా జరుగుతోంది (%detail). అది ముగిసే వరకు వేచి ఉండండి.</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>ఈ లక్ష్యం యొక్క ఒక జాబ్ ఇంకా జరుగుతోంది. అది ముగిసే వరకు వేచి ఉండండి.</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>/news/ పేజీ నుండి /about-us/team పేజీకి లింక్ ఇలా వ్రాయబడుతుంది</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>కొత్త డిప్లాయ్ కీ సృష్టించబడింది. దాని పబ్లిక్ భాగాన్ని ఇప్పుడే రిపోజిటరీకి జోడించండి.</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>తొలగింపు తర్వాత కూడా డీబగ్ అవుట్‌పుట్, ఫారమ్ టోకెన్ లేదా సెషన్ ఐడి ఉన్న పేజీ ఎప్పుడూ ప్రచురించబడదు.</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>వెనక్కి తీసుకోవడం నిపుణుల కోసం: &quot;ఇది ఏమి మారుస్తుందో నాకు తెలుసు&quot; ను టిక్ చేసి ట్యాగ్ పేరును మళ్లీ టైప్ చేయండి.</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>ఒక సైట్ %site వరకు, ఒక ఫైల్ %file వరకు ఉండవచ్చు, నెలకు సుమారు 100 GB ట్రాఫిక్‌తో. ఉచిత ప్లాన్‌లో రిపోజిటరీ పబ్లిక్‌గా ఉండాలి. GitHub Pages దుకాణాలు లేదా ఇతర వాణిజ్య లావాదేవీల కోసం ఉద్దేశించబడలేదు.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>లక్ష్యం అంటే ఒక git రిపోజిటరీకి ప్రచురించబడే ఒక సైట్. ఇక్కడ ఏదీ బిల్డ్ చేయబడదు లేదా ప్రచురించబడదు: సేవ్ సెట్టింగ్‌లను settings/override/staticcache.ini.append.php లో వ్రాస్తుంది.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>లక్ష్యం అంటే ఒకే చోటికి ప్రచురించబడే ఒక సైట్, ఉదాహరణకు GitHub Pages లో మీ పబ్లిక్ సైట్.</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>సెటప్ &gt; రహస్యాలు నుండి ఒక టోకెన్</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>రిపోజిటరీ యొక్క ఒక వర్క్‌ఫ్లో దాన్ని ప్రచురిస్తుంది.</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>ఈ పబ్లిక్ కీని వ్రాత అనుమతితో రిపోజిటరీకి జోడించండి. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, Allow write access ను టిక్ చేయండి.</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>జోడించబడింది</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>మరొక git హోస్ట్</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>మరొక ప్రాసెస్ ఈ లక్ష్యంపై పనిచేస్తోంది: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>వెనుకకు</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>బేస్ పాత్</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>ముందు</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>ఒక బేస్ పాత్ కింద</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>బ్రాంచ్</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>విరిగిన లింక్‌లు</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>బిల్డ్‌లో విరిగిన లింక్‌లు</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>బిల్డ్</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>%user చేసిన బిల్డ్ %id</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>%name ను బిల్డ్ చేయండి</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>ఇప్పుడే బిల్డ్ చేయండి</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>తనిఖీ చేయాల్సిన బిల్డ్</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>ఎవరు</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>చేతితో, ఇక్కడ</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>రద్దు చేయండి</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>మార్చండి</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>మార్చబడింది</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>మార్పులు</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>ముందుగా దాన్ని తనిఖీ చేయండి</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>ఈ సెట్టింగ్‌లను తనిఖీ చేయండి</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>బిల్డ్ ఏమి మారుస్తుందో తనిఖీ చేసి, దాన్ని చూసి, ఆపై ప్రచురించండి లేదా విస్మరించండి.</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>వెనక్కి వెళ్లాల్సిన ప్రచురణను ఎంచుకోండి.</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>తదుపరి విడుదలలో వస్తుంది.</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>కమిట్</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>కమిట్‌లు</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>బిల్డ్‌ను కమిట్ చేసి, ట్యాగ్ చేసి, %remote కి పుష్ చేస్తుంది. పుష్ ఎప్పుడూ బలవంతంగా చేయబడదు; తర్వాత ఏ ప్రచురణకైనా వెనక్కి వెళ్లవచ్చు.</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>ముందటి ఫోల్డర్‌తో పోలిస్తే: %added జోడించబడ్డాయి, %changed మార్చబడ్డాయి, %removed తీసివేయబడ్డాయి, %unchanged మారలేదు.</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>చివరి ప్రచురణతో పోల్చబడింది.</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>ఆధారాలు</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>కస్టమ్ డొమైన్</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>డీబగ్ అవుట్‌పుట్, ఫారమ్ టోకెన్‌లు, సెషన్ ఐడిలు మరియు nonce లు ఎల్లప్పుడూ తీసివేయబడతాయి.</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>డిప్లాయ్ కీ</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>%name యొక్క డిప్లాయ్ కీ</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>విస్మరించు</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>బిల్డ్‌ను విస్మరించు</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>డొమైన్</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>ఖాళీ: సైట్ చిరునామా. లేకపోతే అదే సైట్ యొక్క అంతర్గత చిరునామా.</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>ముగిసింది</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>ప్రతి లింక్ బేస్ పాత్‌తో ప్రారంభమవుతుంది.</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>ప్రతి ప్రచురణ static/%id/&lt;n&gt; ట్యాగ్‌తో కూడిన ఒక కమిట్. వెనక్కి వెళ్లడం ముందటి ప్రచురణ ఫైల్‌లతో కొత్త కమిట్‌ను చేస్తుంది: చరిత్ర అలాగే ఉంటుంది, ఏ ట్యాగ్ కదలదు మరియు ఏదీ బలవంతంగా చేయబడదు.</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>అదనపు ఫైల్‌లు</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>పేజీలను ఇక్కడి నుండి తెచ్చు</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>ఫైల్</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>ఫైల్‌లు</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>ఫైల్‌లు లేవు</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>వీటి ఫైల్‌లు</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>సేకరించలేని ఫైల్‌లు</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>వేలిముద్ర</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>ఫోల్డర్</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>SSH చిరునామా కోసం. సేవ్ చేసిన తర్వాత కీ సృష్టించబడుతుంది; దాని పబ్లిక్ భాగాన్ని మీరు రిపోజిటరీకి జోడిస్తారు.</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>https:// చిరునామా కోసం. GitHub: రిపోజిటరీపై Contents చదవడం మరియు వ్రాయడం అనుమతి ఉన్న fine-grained టోకెన్.</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>నిపుణుల కోసం. పుష్ పూర్తయిన వెంటనే పబ్లిక్ సైట్ మారుతుంది.</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>ఫారమ్‌లు</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>GitHub రిపోజిటరీ నుండి ఉచిత హోస్టింగ్.</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>బ్రాంచ్ నుండి</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>Git చిరునామా</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages %site సైట్‌ను మరియు %file ఫైల్‌ను అనుమతిస్తుంది.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>GitHub Pages పరిమితులు</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages ఫైల్‌లను ఉన్నవి ఉన్నట్టుగా ప్రచురిస్తుంది (_ తో ప్రారంభమయ్యే ఫైల్‌లకు అవసరం).</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub బ్రాంచ్‌ను పుష్ చేసిన విధంగానే అందిస్తుంది. డిఫాల్ట్.</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, మీ సొంత సర్వర్: ఏదైనా git రిపోజిటరీ.</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>ముందటి ప్రచురణకు వెనక్కి వెళ్లండి</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>సహాయం</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>విజర్డ్‌తో సహాయం</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>వాటిని దాచు</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>చరిత్ర</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>%name చరిత్ర</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>హోస్ట్</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>GitHub Pages బిల్డ్‌ను ఎలా స్వీకరిస్తుంది</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>నేను మార్పులను తనిఖీ చేశాను</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>ఇది ఏమి మారుస్తుందో నాకు తెలుసు</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ఐడి</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>ఇది ఆఫ్ చేయబడింది: ఆన్ చేసే వరకు ఏదీ బిల్డ్ చేయలేము.</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>ఇది %user గా నేపథ్యంలో నడుస్తుంది; మీరు ఈ పేజీని మూసివేయవచ్చు.</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>జాబ్ %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>%secret అనే రహస్యంగా ఉంచబడింది.</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>రకం</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>చివరి ప్రచురణ</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>ఈ పేజీలను వదిలివేయండి</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>ఈ విభాగాలను వదిలివేయండి</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>లింక్‌లు</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>తిరిగి వ్రాసిన లింక్‌లు</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>లైవ్ సైట్</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>బిల్డ్‌ను చూడండి</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>చిన్న అక్షరాలు, అంకెలు, _ మరియు -, ఉదాహరణకు github-public. ఇది ఫోల్డర్‌కు మరియు ట్యాగ్‌లకు (static/&lt;id&gt;/&lt;n&gt;) పేరు పెడుతుంది, తర్వాత మార్చలేము.</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>కొత్త కీని సృష్టించు</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>ఒక లక్ష్యాన్ని సృష్టించు</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>కీని సృష్టించు</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>ముందుగా హోస్ట్‌లో రిపోజిటరీని సృష్టించండి; ఖాళీది అయినా పరవాలేదు.</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>ఫైల్ జాబితా</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>సందేశం</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>చాలా పేజీలు</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>పేరు</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>సెటప్ &gt; రహస్యాలు లో టోకెన్ పేరు</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>కొత్త లక్ష్యం</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>తదుపరి</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>కాదు</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>ఇంకా కమిట్ లేదు.</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>కీ సృష్టించబడలేదు: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>php కమాండ్ లైన్ ప్రోగ్రామ్ కనుగొనబడలేదు. migration.ini [AdminSettings] PhpCliPath లో దాని పూర్తి పాత్‌ను సెట్ చేయండి.</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>ఇంకా ట్యాగ్ లేదు.</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>ఇంకా లక్ష్యం లేదు.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>ఏదీ లేదు</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>బిల్డ్‌లో లేదు.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>ఇంకా ఏదీ ప్రచురించబడలేదు.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>ఇంకా ఏదీ ప్రచురించబడలేదు: ప్రతి ఫైల్ కొత్తది.</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>తెలియజేయి</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>షెడ్యూల్ ప్రకారం</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>కన్సోల్‌లో</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>సర్వర్‌లో: ./console exp:static:serve %id దాన్ని అదే విధంగా అందిస్తుంది.</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>ప్రతి లైన్‌కు ఒక పాత్, * ఏ భాగానికైనా సరిపోతుంది: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>లక్ష్యంతో పాటు పేరు మాత్రమే నిల్వ చేయబడుతుంది; టోకెన్ లేదా కీ సెటప్ &gt; రహస్యాలు లోనే ఉంటుంది మరియు ఏ లాగ్‌లోనూ కనిపించదు.</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>పేజీలు పేర్కొనేవి మాత్రమే</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>టోకెన్‌తో మాత్రమే. env:NAME బదులుగా సర్వర్ యొక్క ఎన్విరాన్‌మెంట్ వేరియబుల్‌ను చదువుతుంది.</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>ప్రివ్యూను తెరవండి</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>హోస్ట్ అందించే విధంగానే, లక్ష్యం యొక్క ఫోల్డర్ నుండి బిల్డ్‌ను తెరుస్తుంది. లింక్ మీ కోసం ఒక గంట పనిచేస్తుంది.</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>ఐచ్ఛికం. ఖాళీ: ప్రచురించబడినది.</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>ఐచ్ఛికం. డొమైన్‌తో సైట్ దాని రూట్‌లో అందించబడుతుంది.</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>అవుట్‌పుట్</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>పేజీలు</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>లక్ష్యం యొక్క పేజీలు</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>తిరస్కరించిన పేజీలు</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>పోస్ట్-ప్రాసెసింగ్</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>ప్రివ్యూ</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>ప్రివ్యూ చేసి ప్రచురించండి</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>%name ను ప్రివ్యూ చేసి ప్రచురించండి</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>బిల్డ్‌ను ప్రివ్యూ చేయండి</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>పురోగతి</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>పబ్లిక్ చిరునామా</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>పబ్లిక్ కీ</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>ప్రచురించండి</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>ఒక సైట్ యొక్క స్టాటిక్ కాపీని GitHub Pages లో లేదా ఏదైనా git హోస్ట్‌లో ప్రచురించండి: దాన్ని బిల్డ్ చేసి, మార్పులను తనిఖీ చేసి, ప్రచురించి, అవసరమైనప్పుడు ముందటి ప్రచురణకు వెనక్కి వెళ్లండి.</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>వెనక్కి వెళ్లాల్సిన ప్రచురణ</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>ప్రచురణలు</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>పుష్</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>ట్యుటోరియల్ చదవండి</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>లాగ్</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>తిరస్కరించబడింది</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>సాపేక్ష</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>మళ్లీ లోడ్ చేయండి</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>తీసివేయబడింది</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>కీని మార్చండి: పాతది పనిచేయడం ఆగిపోతుంది</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>నివేదిక</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>బిల్డ్ నివేదిక</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>రిపోజిటరీ</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>సమీక్ష</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>సమీక్ష ప్రతి సెట్టింగ్‌ను తనిఖీ చేసి వ్రాయబోయే లైన్‌లను చూపుతుంది. ఇంకా ఏదీ సేవ్ చేయబడలేదు.</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>వెనక్కి తీసుకో</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>వెనక్కి తీసుకోవడం</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>సేవ్ చేయండి</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>షెడ్యూల్</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>శోధన పేజీ</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>విభాగ ఐడిలు, కామాలతో వేరుచేయబడినవి.</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>వాటిని లైవ్ సైట్‌కు పంపండి</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>సెట్టింగ్</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>సెట్టింగ్‌లు</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>%name సెట్టింగ్‌లు</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>సెటప్</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>సెటప్ &gt; రహస్యాలు</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>జాబితాలలో చూపబడుతుంది, ఉదాహరణకు &quot;GitHub Pages లో పబ్లిక్ సైట్&quot;.</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>GitHub App తో సైన్ ఇన్ GitHub ఇంటిగ్రేషన్‌తో వస్తుంది.</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>సైట్</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>ప్రచురించాల్సిన సైట్</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>పరిమాణం</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>పరిమాణం మరియు పరిమితులు</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>బిల్డ్ పరిమాణం</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>పాతబడిన పేజీలు</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>ప్రారంభమైంది</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>%user %time కి ప్రారంభించారు.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>స్థితి</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>స్టాటిక్ ప్రచురణ</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>స్టాటిక్ ప్రచురణ ఆఫ్ చేయబడింది</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>స్టాటిక్ ప్రచురణ ఆఫ్ చేయబడింది.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>స్టాటిక్ ప్రచురణ ఆఫ్ చేయబడింది. ముందుగా సెటప్ &gt; స్టాటిక్ ప్రచురణ లో దాన్ని ఆన్ చేయండి.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>స్టాటిక్ ప్రచురణ ఆన్ చేయబడింది.</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>దశ %step / %total</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>దశలు</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>తొలగింపు</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>ఆఫ్ చేయండి</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>ఆన్ చేయండి</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>స్టాటిక్ ప్రచురణను ఆన్ చేయండి</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>ట్యాగ్</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>ట్యాగ్‌లు</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>లక్ష్యం</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>లక్ష్యాలను సృష్టించవచ్చు మరియు మార్చవచ్చు, కానీ ఇది ఆన్ చేసే వరకు ఏదీ బిల్డ్ చేయబడదు లేదా ప్రచురించబడదు.</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>సెర్చ్ ఇంజిన్‌లకు ఏమి చదవాలో చెబుతుంది.</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>బిల్డ్‌ను విస్మరించలేకపోయాము: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>బిల్డ్ చివరి ప్రచురణ వలెనే ఉంది: ప్రచురించడానికి ఏమీ లేదు.</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>బిల్డ్ విస్మరించబడింది: ఫోల్డర్‌లో మళ్లీ చివరి ప్రచురణ ఉంది.</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>డిఫాల్ట్‌లు చాలా సైట్‌లకు సరిపోతాయి.</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>ఫోల్డర్‌లో ఇంకా ప్రచురించని బిల్డ్ ఉంది; కొత్త బిల్డ్ దాన్ని భర్తీ చేస్తుంది.</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>జాబ్‌ల ఫోల్డర్‌లో వ్రాయలేము: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>జాబ్‌ను సిద్ధం చేయలేకపోయాము: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>జాబ్‌ను ప్రారంభించలేకపోయాము.</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>జాబ్ ముగిసింది. దాని నివేదిక లోడ్ అవుతోంది.</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>జాబ్‌కు సైన్ ఇన్ చేసిన వినియోగదారు అవసరం.</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>జాబ్ ప్రారంభమైంది కానీ దాని ప్రాసెస్ ఐడిని తెలియజేయలేదు. %detail ను తనిఖీ చేయండి.</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>కీ</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>అతిపెద్ద ఫైల్: %path, %size.</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>వ్రాయబోయే లైన్‌లు</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>సెర్చ్ ఇంజిన్‌ల కోసం పేజీల జాబితా; పబ్లిక్ చిరునామా అవసరం.</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>సైన్ ఇన్ చేయని సందర్శకుడు చూసే విధంగానే పేజీలు తేబడతాయి. నిర్వహణ మరియు ఎడిటింగ్ siteaccess లు ఎప్పుడూ అందించబడవు.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>పురోగతిని అనుసరించలేకపోయాము. జాబ్ ఎలా జరుగుతోందో చూడడానికి పేజీని మళ్లీ లోడ్ చేయండి.</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>కీ యొక్క పబ్లిక్ భాగం:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>బ్రాంచ్ యొక్క రూట్</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>రహస్యాల నిల్వ ఇంకా సెటప్ చేయబడలేదు (./console exp:upgrade --apply దాని పట్టికను సృష్టిస్తుంది), కాబట్టి ఏ కీనీ ఉంచలేము.</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>సర్వర్ తనంతట తానే సైన్ ఇన్ అవుతుంది (దాని సొంత SSH కీ లేదా క్రెడెన్షియల్ హెల్పర్‌తో), లేదా రిపోజిటరీ ఈ సర్వర్‌లోనే ఉంది.</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>సెట్టింగ్‌ను వ్రాయలేకపోయాము: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>సెట్టింగ్‌లు చెల్లుబాటు అయ్యేవి. ఈ లైన్‌లు వ్రాయబడతాయి:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>సెట్టింగ్‌ల ఫైల్‌ను చదవలేము: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>సైట్ ఆ ప్రచురణ ఫైల్‌లకు వెనక్కి వెళ్తుంది; ఇంకా ప్రచురించని బిల్డ్‌ను ముందుగా ప్రచురించాలి లేదా విస్మరించాలి.</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>ఉనికిలో లేని చిరునామాల కోసం సైట్ యొక్క సొంత పేజీ.</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>లక్ష్యాన్ని సేవ్ చేయలేకపోయాము: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>లక్ష్యం ఇంకా ఈ కీతో సైన్ ఇన్ అవ్వదు: దాని సెట్టింగ్‌లలో &quot;ఈ లక్ష్యం కోసం సృష్టించిన డిప్లాయ్ కీ&quot; ను ఎంచుకోండి.</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>లక్ష్యాలను చదవలేకపోయాము: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>తనిఖీ చేయడానికి ఇంకా బిల్డ్ లేదు.</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>ఈ ఇన్‌స్టాలేషన్‌లో ఫ్రంట్ siteaccess లేదు. నిర్వహణ మరియు ఎడిటింగ్ siteaccess లు ఎప్పుడూ ప్రచురించబడవు.</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>ఈ పేజీ జాబ్ జరుగుతున్నప్పుడు దాన్ని అనుసరిస్తుంది; పేజీ మూసివేసినప్పుడు అది నేపథ్యంలో కొనసాగుతుంది.</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>ఈ లక్ష్యానికి ఇంకా డిప్లాయ్ కీ లేదు.</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>ఈ లక్ష్యం ఇక్కడ ఇంకా బిల్డ్ చేయబడలేదు.</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>ఈ లక్ష్యానికి ఒకటి ఉంది.</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>ఈ బిల్డ్‌ను విస్మరిస్తుంది: ఫోల్డర్‌లో మళ్లీ చివరి ప్రచురణ ఉంటుంది. లైవ్ సైట్ మారదు.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>ముందుగా &quot;నేను మార్పులను తనిఖీ చేశాను&quot; ను టిక్ చేయండి.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>సమయం</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>ట్రిగ్గర్‌లు</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>ట్యాగ్ పేరును మళ్లీ టైప్ చేయండి</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>మారలేదు</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>వెబ్‌హుక్</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>ఏమి</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>ఏమి మారుతుంది</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>ప్రతి ఫైల్ ఏమిటి; ఎల్లప్పుడూ వ్రాయబడుతుంది.</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>జాబ్ ఏమి చేసింది మరియు దాని లాగ్. ఇక్కడ ప్రారంభించిన జాబ్ ఈ పేజీ మూసివేసినప్పుడు నేపథ్యంలో కొనసాగుతుంది.</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>జాబ్ లోపాలుగా ముద్రించినవి</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>పేజీలు పేర్కొనేవి, మరియు ప్రచురించిన కంటెంట్ యొక్క ప్రతి చిత్రం</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>ఎప్పుడు</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>ప్రచురణ విఫలమైనప్పుడు</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>ప్రచురణ విజయవంతమైనప్పుడు</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>కంటెంట్ ప్రచురించబడినప్పుడు</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>కాపీలో లేని వాటికి లింక్‌లు ఎక్కడికి వెళ్తాయి (శోధన, లాగిన్).</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>స్టాటిక్ కాపీ ఎక్కడి నుండి అందించబడుతుంది.</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>ఏ సైట్ ప్రచురించబడుతుంది, మరియు లక్ష్యం పేరు ఏమిటి.</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>ఏ పాత్ కిందైనా పనిచేస్తుంది. డిఫాల్ట్.</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>కస్టమ్ డొమైన్ సెట్ చేసినప్పుడల్లా వ్రాయబడుతుంది.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>అవును</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>మీరు ఎల్లప్పుడూ ఇక్కడ మరియు కన్సోల్‌లో చేతితో బిల్డ్ చేసి ప్రచురించవచ్చు.</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>పేరు మాత్రమే; విలువ సెటప్ &gt; రహస్యాలు లోనే ఉంటుంది</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>%path కింద</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>నివేదిక లేకుండా ముగిసింది</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>అదనపు</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>విఫలమైంది</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>ఫైల్</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages, లేదా docs ఫోల్డర్‌తో main.</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>git హోస్ట్</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (టోకెన్‌తో) లేదా git@github.com:owner/repo.git (డిప్లాయ్ కీతో); అందులో ఎప్పుడూ పాస్‌వర్డ్ లేదా టోకెన్ ఉండకూడదు.</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/, సైట్‌మ్యాప్ మరియు కానానికల్ లింక్‌ల కోసం.</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>చిత్రం</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>ఎప్పుడూ కాదు</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>కాదు</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>రిమోట్ లేదు</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>ఏదీ లేదు: కమిట్‌లు ఫోల్డర్‌లోనే ఉంటాయి</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>ఏదీ లేదు: ఏమీ మారలేదు</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>పుష్ చేయలేదు</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>ఏమీ మారలేదు</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>పేజీ</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>ఉత్తీర్ణం</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>proc_open నిలిపివేయబడింది, కాబట్టి ఇక్కడ జాబ్‌ను ప్రారంభించలేము. సర్వర్‌లో ./console exp:static:build ను ఉపయోగించండి.</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>ప్రచురణ</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>ప్రచురించబడింది</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>పుష్ పెండింగ్‌లో ఉంది</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>పుష్ చేయబడింది</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>తిరస్కరించబడింది</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>సాపేక్ష</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>వెనక్కి తీసుకోవడం</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>వెనక్కి తీసుకోబడింది</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>నడుస్తోంది</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>ఫోల్డర్ మాత్రమే</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: CNAME ఫైల్‌లో వ్రాయబడుతుంది. హోస్ట్ వివరించినట్లుగా డొమైన్ యొక్క DNS ను దాని వైపు సూచించండి; HTTPS ప్రారంభం కావడానికి కొంత సమయం పట్టవచ్చు.</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>అవును, ఇంకా ప్రచురించబడలేదు</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>ఒక GitHub App</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>రిపోజిటరీలోని ఒక వర్క్‌ఫ్లో దీన్ని ప్రచురిస్తుంది. బిల్డ్ వర్క్‌ఫ్లో ఫైల్‌ను రాస్తుంది; ఫోల్డర్‌ను ఖాళీగా వదిలేయండి.</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>GitHub రిపోజిటరీ మరియు టోకెన్ లేదా GitHub App తో లక్ష్యాన్ని సేవ్ చేసిన తర్వాత, ఈ దశ రిపోజిటరీని సృష్టించి GitHub Pages ను ఆన్ చేయగలదు. లేకపోతే ముందుగా GitHub లో రిపోజిటరీని సృష్టించండి; ఖాళీది అయినా సరే.</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>బ్రాంచ్ లేదా GitHub Actions?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>DNS ను తనిఖీ చేయండి</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>రిపోజిటరీ లేకపోతే సృష్టించండి</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>GitHub లో రిపోజిటరీని సృష్టించి దాని సెట్టింగ్‌లలో GitHub Pages ను ఆన్ చేయండి (Settings &gt; Pages).</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>రిపోజిటరీ %repo లేనప్పుడు దాన్ని సృష్టిస్తుంది (అడిగితే), సేవ్ చేసిన విధంగా బ్రాంచ్ నుండి లేదా GitHub Actions నుండి GitHub Pages ను ఆన్ చేస్తుంది, మరియు కస్టమ్ డొమైన్, HTTPS ను సెట్ చేస్తుంది. ఇది సేవ్ చేసిన సెట్టింగ్‌లను ఉపయోగిస్తుంది: ముందుగా మార్పులను సేవ్ చేయండి.</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>GitHub లో వివరాలు</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>ముందుగా కస్టమ్ డొమైన్‌ను నమోదు చేయండి.</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>ప్రతి పుష్ ముందుగా ఈ పరిమితులతో తనిఖీ చేయబడుతుంది.</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>GitHub లో https:// చిరునామా కోసం. ఈ ఇన్‌స్టాలేషన్ కోసం సెటప్ చేసిన App సైన్ ఇన్ చేస్తుంది; దానికి ఇన్‌స్టాలేషన్ id అవసరం.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages ప్రైవేట్ రిపోజిటరీని చెల్లింపు ప్లాన్‌లో మాత్రమే అందిస్తుంది.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: సబ్‌డొమైన్ (www.example.com) కు &lt;owner&gt;.github.io కు CNAME రికార్డ్ అవసరం; ఏపెక్స్ డొమైన్ (example.com) కు A రికార్డ్‌లు %ips.</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>GitHub App యొక్క ఇన్‌స్టాలేషన్ id</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>చివరి Pages బిల్డ్</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>పరిమితులు మరియు నిబంధనలు</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>ఉచిత ప్లాన్‌లో GitHub Pages కోసం అవసరం.</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>GitHub లో</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>GitHub App తో మాత్రమే: GitHub లో App ఇన్‌స్టాలేషన్ చిరునామా చివరిలోని సంఖ్య. App స్వయంగా staticcache.ini లో సెట్ చేయబడుతుంది (GitHubAppId, GitHubAppKey).</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>ప్రైవేట్</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>పబ్లిక్</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>ముందుగా లక్ష్యాన్ని GitHub రిపోజిటరీ మరియు టోకెన్ లేదా GitHub App తో సేవ్ చేయండి.</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>డొమైన్ ప్రొవైడర్ వద్ద ఈ రికార్డ్‌లను సెట్ చేయండి:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>GitHub లో సెటప్ చేయండి</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>%domain యొక్క DNS ఇంకా GitHub Pages వైపు సూచించడం లేదు.</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>%domain యొక్క DNS GitHub Pages వైపు సూచిస్తోంది.</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>GitHub ఇంటిగ్రేషన్ ఇక్కడ అందుబాటులో లేదు: %problem. బ్రాంచ్‌కు ప్రచురించడం అయినా పని చేస్తుంది; రిపోజిటరీ సెట్టింగ్‌లలో GitHub Pages ను ఆన్ చేయండి.</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>ఈ లక్ష్యానికి GitHub దశలు అందుబాటులో లేవు: %problem.</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>ఆధారాలుగా టోకెన్ లేదా GitHub App ఉన్నప్పుడు GitHub Pages స్థితి చూపబడుతుంది.</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>మీ స్వంత డొమైన్‌ను ఉపయోగించండి</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>ఏది ఎంచుకోవాలి: టోకెన్, డిప్లాయ్ కీ లేదా GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>GitHub రిపోజిటరీ మరియు టోకెన్ లేదా GitHub App తో, విజర్డ్ మీ కోసం రిపోజిటరీని సృష్టించి, GitHub Pages ను ఆన్ చేసి, డొమైన్‌ను సెట్ చేయగలదు (దశ 4).</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>బిల్డ్ అవుతోంది</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>బిల్డ్ అయింది</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>GitHub Actions నుండి</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>బ్రాంచ్ %branch నుండి</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>ఇంకా ఏదీ లేదు</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>కనుగొనబడలేదు</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>ఆఫ్</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>ప్రైవేట్</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>పబ్లిక్</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>క్యూలో ఉంది</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>తెలియదు</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%pages పేజీలలో %count:</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>ప్రతి టెక్స్ట్ ఫైల్ పక్కన ఒక .gz (మరియు .br), వాటిని అందించే హోస్ట్‌ల కోసం.</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>పేజీ యొక్క ప్రతి పాత చిరునామా మరియు మారుపేరుకు ఒక చిన్న పేజీ, పాత లింక్‌లు పని చేస్తూ ఉండటానికి.</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>GitHub Actions సైట్‌ను అందించినప్పుడు ఎల్లప్పుడూ వ్రాయబడుతుంది.</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>CC-BY-4.0 వంటి SPDX ఐడి, లేదా టెక్స్ట్ స్వయంగా.</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>బుట్ట</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>సర్వర్‌కు కాల్‌లు</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>వ్యాఖ్యలు</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>సమాచారం సేకరించే ఫారమ్‌లు</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>GitHub Actions వర్క్‌ఫ్లో</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>పేజీలలో తక్కువ ఖాళీ స్థలం మరియు వ్యాఖ్యలు లేకుండా.</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>కంటెంట్ లైసెన్స్</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>లాగిన్</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>Minify</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>ఇతర ఫారమ్‌లు</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>Precompress</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>దారి మళ్లింపు పేజీలు</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>దారి మళ్లింపు పేజీలు: %count.</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>శోధన</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>శోధన సూచిక: %languages భాషలలో %pages పేజీలు.</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>కంటెంట్ హాష్ పేరుతో స్టైల్ షీట్‌లు మరియు స్క్రిప్ట్‌లు, బ్రౌజర్‌లు వాటిని ఉంచుకోవడానికి.</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>మార్చిన పేజీలు, చివరి మార్పు తర్వాత కొన్ని నిమిషాలకు (cronjob భాగం staticpublish).</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>కంటెంట్ లైసెన్స్, దిగువ ఫీల్డ్ నుండి.</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>మొత్తం సైట్, షెడ్యూల్ సమయాల్లో (cronjob భాగం staticpublish).</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>పేజీల ఈ భాగాలకు సర్వర్ అవసరం; ప్రతిదానికి ప్రత్యామ్నాయం ఇవ్వబడింది. ప్రచురించే ముందు వాటిని తనిఖీ చేయండి.</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>స్థిరంగా పని చేయనివి</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>హోస్ట్‌లో తెరిచేవారికి, రిపాజిటరీ అంటే ఏమిటి.</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>వదిలేసినవి</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>ప్రత్యామ్నాయ టెక్స్ట్</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>లైవ్ సైట్ ఫారమ్ ఎండ్‌పాయింట్</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>లైవ్ సైట్</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>కాపీ యొక్క శోధన పేజీ</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>ఫారమ్‌ను పంపలేకపోయాము.</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>ధన్యవాదాలు: ఫారమ్ పంపబడింది.</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>ఫారమ్ అంగీకరించబడలేదు: మీరు నమోదు చేసినది తనిఖీ చేసి మళ్లీ పంపండి.</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>నకలులో లేని పేజీలకు లింకులను తీసివేయి</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>నిర్వహణకు వెళ్లే లింకులను తీసివేయి</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>వాటి పాఠ్యం అలాగే ఉంటుంది. చిత్రాలు, ఫారమ్‌లు మరియు ఇతర సైట్‌లకు లింకులు ఎప్పుడూ తీసివేయబడవు.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>వెర్షన్</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>ప్రచురించాల్సిన సైట్‌యాక్సెస్‌లు</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>సైట్‌యాక్సెస్</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>రూట్‌లో</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>రూట్‌లో ఏ సైట్‌యాక్సెస్ లేదు: ప్రతిదీ తన ఫోల్డర్‌లో ఉంటుంది, రూట్ వాటికి లింక్ ఇస్తుంది</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>సైట్‌యాక్సెస్‌లు</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>ఒక సైట్‌యాక్సెస్‌ను, లేదా తమ URI ఉపసర్గ ద్వారా ఒకే హోస్ట్‌ను పంచుకునే అనేకాన్ని ఎంచుకోండి. రూట్‌లోనిది అక్కడే అందించబడుతుంది, మిగతావి తమ ఉపసర్గ ఫోల్డర్‌లో (/ger/); వాటి మధ్య లింకులు ప్రతిలోనే ఉంటాయి. నిర్వహణ సైట్‌యాక్సెస్‌లు ఎప్పుడూ అందించబడవు.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>%site లో %target యొక్క స్టాటిక్ ప్రచురణ విఫలమైంది</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>%site లో %target యొక్క స్టాటిక్ ప్రచురణ విజయవంతమైంది</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>స్టాటిక్ ప్రచురణ లక్ష్యం %target దీనిని కోరినందున %site ఈ మెయిల్‌ను పంపింది.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>%site లో డిప్లాయ్ %deploy విఫలమైంది</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>%site లో డిప్లాయ్ %deploy ఒక గేట్ వద్ద వేచి ఉంది</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>%site లో డిప్లాయ్ %deploy విజయవంతమైంది</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>migration.ini [RemoteSettings] Notify[] కోరుతున్నందున ఈ మెయిల్‌ను %site పంపింది.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>డేటా రకాలు (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>%time న లెక్కించబడింది, %minutes నిమిషాల తర్వాత మళ్లీ</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>డేటా రకం క్లాస్ లక్షణం యొక్క ఒక రకమైన విలువను నిల్వ చేసి సవరిస్తుంది: ఒక టెక్స్ట్ లైన్, ఒక చిత్రం, ఒక సంబంధం. చాలావాటిని కెర్నల్ అందిస్తుంది, ఎక్స్‌టెన్షన్‌లు మరిన్ని జోడిస్తాయి. ఇక్కడ అవన్నీ ఉన్నాయి, వాటిని ఎవరు అందిస్తారు మరియు కంటెంట్‌లో ఎంత వాటిని ఉపయోగిస్తుంది. డేటాబేస్ ఉపయోగించే కానీ ఇకపై ఏదీ నమోదు చేయని డేటా రకం దానిని కలిగిన కంటెంట్‌ను పాడు చేస్తుంది.</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>క్లాస్ సమూహాలు</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>గత కొన్ని నిమిషాల లెక్కలను వాడకుండా ఇప్పుడే మళ్లీ లెక్కించు.</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>మళ్లీ లెక్కించు</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>అవలోకనం</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>నమోదైన తేదీ</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>ఉపయోగంలో ఉంది</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>ఉపయోగించబడలేదు</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>డేటా రకాలను అందించే ఎక్స్‌టెన్షన్‌లు</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>క్లాస్ లక్షణాలు</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>ఆబ్జెక్ట్ లక్షణాలు</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>నమోదు కాలేదు</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>జాబితాలో ఉంది, ఫైల్ లేదు</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>%count డేటా రకాలు ఉపయోగంలో ఉన్నాయి కానీ నమోదు కాలేదు</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>%class_attributes క్లాస్ లక్షణాలు మరియు %object_attributes ఆబ్జెక్ట్ లక్షణాలు ఏ ఎక్స్‌టెన్షన్ లేదా సెట్టింగ్ నమోదు చేయని డేటా రకాన్ని కలిగి ఉన్నాయి. వాటి ఆబ్జెక్ట్‌లను చూపించడం, సవరించడం లేదా ప్రచురించడం సాధ్యం కాదు. ఆ డేటా రకాన్ని అందించే ఎక్స్‌టెన్షన్‌ను సక్రియం చేయండి, లేదా క్లాస్‌ను మార్చండి.</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>వీటిని మాత్రమే చూపించు</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>డేటా రకాన్ని వెతకండి</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>గుర్తింపు, పేరు, PHP క్లాస్ లేదా ఎక్స్‌టెన్షన్.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>చూపించండి</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>అన్నీ</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>అందించినది</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>అందరూ</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>కెర్నల్</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>ఈ ఫిల్టర్‌కు ఏ డేటా రకమూ సరిపోలలేదు.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>అన్నీ చూపించండి</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>ఎక్స్‌టెన్షన్</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%count డేటా రకాలలో %shown, %used ఉపయోగంలో</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>డేటాబేస్‌లో ఈ డేటా రకాల క్లాస్ లేదా ఆబ్జెక్ట్ లక్షణాలు ఉన్నాయి, కానీ content.ini వాటిలో దేనినీ జాబితా చేయదు, లేదా దాని ఫైల్ లేదు.</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>%provider డేటా రకాలు</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>డేటా రకం</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>PHP క్లాస్ మరియు ఫైల్</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>క్లాస్‌లు</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>ఆబ్జెక్ట్‌లు</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>ఫ్లాగ్‌లు</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>ఏదీ లేదు</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>శోధనకు ఏ డేటా రకమూ సరిపోలలేదు. శోధనను తొలగించండి.</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>%count డేటా రకాలలో %shown చూపబడ్డాయి</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>చూపిన డేటా రకాలు: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>%column ప్రకారం క్రమబద్ధీకరించండి</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>%time న లెక్కించబడింది</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>అన్ని డేటా రకాలు</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>సహాయ పేజీ</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>ఈ డేటా రకం ఉపయోగంలో ఉంది కానీ నమోదు కాలేదు</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>ఏ ఎక్స్‌టెన్షన్ ఈ డేటా రకాన్ని నమోదు చేయనంత వరకు దిగువ క్లాస్‌ల ఆబ్జెక్ట్‌లను చూపించడం, సవరించడం లేదా ప్రచురించడం సాధ్యం కాదు. దానిని అందించే ఎక్స్‌టెన్షన్‌ను సక్రియం చేసి content.ini [DataTypeSettings] AvailableDataTypes[] కు జోడించండి, లేదా క్లాస్‌లను మార్చండి.</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini ఈ డేటా రకాన్ని జాబితా చేస్తుంది, కానీ ఏ డేటా రకం డైరెక్టరీలోనూ దాని ఫైల్ లేదు. దీనిని ఏదీ ఉపయోగించదు; దీనిని AvailableDataTypes[] నుండి తీసివేయండి లేదా దాని ఎక్స్‌టెన్షన్‌ను సక్రియం చేయండి.</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>ఈ డేటా రకం గురించి</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>ఐడెంటిఫైయర్</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>పేరు</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>ఎక్స్‌టెన్షన్ %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>ఎవరూ లేరు</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>PHP క్లాస్</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>ఫైల్</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>AvailableDataTypes[] లో</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>అవును</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>కాదు</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>దీని విలువ యొక్క నిలువు వరుసలు</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>దీని క్లాస్ లక్షణ సెట్టింగ్‌ల నిలువు వరుసలు</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>పట్టికలు</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>డేటా రకం కోడ్‌ను చదివి నిలువు వరుసలు మరియు పట్టికలు కనుగొనబడతాయి: ఇది మార్గదర్శి, హామీ కాదు.</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>టెంప్లేట్‌లు</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>సైట్‌యాక్సెస్</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>టెంప్లేట్</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>ఇక్కడ కనుగొనబడింది</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>ఈ నిర్వహణ</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>డిఫాల్ట్ సైట్</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>ఓవర్‌రైడ్‌లు లేకుండా: క్లాస్ లేదా లక్షణం ద్వారా సరిపోలిన ఓవర్‌రైడ్ టెంప్లేట్ వీటికంటే ప్రాధాన్యం పొందుతుంది.</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>దీనిని ఉపయోగించే క్లాస్‌లు (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>ఏ క్లాస్‌లోనూ ఈ డేటా రకం లక్షణం లేదు.</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>క్లాస్</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>లక్షణాలు</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>క్లాస్ లక్షణాలు (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>లక్షణం</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>సెట్టింగ్‌లు</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>అవసరం</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>శోధించదగినది</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>అనువదించదగినది</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>సమాచారాన్ని సేకరిస్తుంది</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>దీనిని ఉపయోగించే కొంత కంటెంట్</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>చివరిగా మార్చినది ముందు</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>సవరించబడింది</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>నోడ్ %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>ప్రతి అనువాదానికి దాని స్వంత విలువ ఉంటుంది.</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>శోధన దీని విలువలను సూచిక చేస్తుంది.</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>ఇది సందర్శకుల నుండి సమాచారం సేకరించగలదు (ఫారమ్‌లు).</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>జాబితాలను దీని ప్రకారం క్రమబద్ధీకరించవచ్చు: క్రమ కీ %type.</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>క్రమబద్ధీకరించదగినది</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>దీని విలువలు ఇతర ఆబ్జెక్ట్‌లను సూచిస్తాయి.</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>సంబంధాలు</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>దీనిని సాధారణ స్ట్రింగ్ నుండి నింపవచ్చు (దిగుమతి, REST).</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>టెక్స్ట్ నుండి</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>దీనిని ఫైల్ నుండి నింపవచ్చు.</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>ఫైల్ నుండి</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>దీని క్లాస్ లక్షణ సెట్టింగ్‌లు ప్యాకేజీలలోకి వెళ్తాయి.</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>ప్యాకేజీలు</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>కంటెంట్ (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%countలో %from నుండి %to వరకు</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>జాబితాను ఫిల్టర్ చేయండి</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>అన్ని క్లాస్‌లు</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>విభాగం</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>భాషలు</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>యజమాని</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>ప్రచురించబడింది</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>క్రమాన్ని రివర్స్ చేయండి</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>అంశం లేదు</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>ప్రతి పేజీకి</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>ప్రతి పేజీకి %count అంశాలను చూపండి.</translation>
     </message>
 </context>
 </TS>

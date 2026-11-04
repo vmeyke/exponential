@@ -14,6 +14,20 @@ whose site must stay up when it matters most. It explains the tools Exponential 
 interact with publishing an urgent update, and what the product does not do. Every behavior below is documented in
 the pages linked; test each on your own installation before an incident tests it for you.
 
+> **Warning**
+> **`.htaccess` slows down every request.** When `.htaccess` files are enabled (`AllowOverride` anything but `None`), let alone
+> used, Apache looks for them and reads and evaluates them on every request, in every directory of the path, and
+> page loading times go up drastically ([measured](../../../../guides/setup-files-from-the-console.md#measured-htaccess-against-rules-in-the-virtual-host)). The only real fix is to switch the feature off for
+> the virtual host: `AllowOverride None` in the HTTPS virtual host, and the rules in the virtual host's own
+> configuration as mod_rewrite rules. That is far faster in production speed tests and well worth the time it takes
+> to optimize a production configuration. Switch over right away: copy the rules of the
+> [example HTTPS virtual host](../../../../examples/web-servers/apache-virtual-host.md) into your virtual host (with the static cache, also
+> [`staticcache_offload.conf`](../../../../examples/staticcache_offload.conf)), set `AllowOverride None`, run `apachectl configtest`, reload Apache and
+> test the site. The same rules for other servers: [nginx](../../../../examples/web-servers/nginx.md), [LiteSpeed](../../../../examples/web-servers/litespeed.md),
+> [Caddy](../../../../examples/web-servers/caddy.md), [IIS](../../../../examples/web-servers/iis.md), [Velocity](../../../../examples/web-servers/velocity.md) (built in); where virtual host rules go in a control
+> panel: [Plesk](../../../hosting/panels/plesk.md), [cPanel](../../../hosting/panels/cpanel.md), [DirectAdmin](../../../hosting/panels/directadmin.md), [ISPConfig](../../../hosting/panels/ispconfig.md).
+> **On LiteSpeed or OpenLiteSpeed,** the server's own page cache can also answer anonymous visitors and crawlers without PHP: [Page caching with LiteSpeed and OpenLiteSpeed](../../../../guides/litespeed-page-cache.md).
+
 ![The maintenance window shows visitors a page while the administration stays reachable](../../../images/government/gov-maint-alerts.webp)
 
 ## Contents
@@ -31,7 +45,7 @@ the pages linked; test each on your own installation before an incident tests it
 |---|---|---|---|
 | View cache | stores rendered content pages | publishing (the object and related pages), **Clear cache** on a node | [Caches](../../../../guides/caches.md) |
 | Static cache | pages stored as plain files the web server sends without starting Exponential | publishing refreshes touched pages; **Setup > Cache management**, *Static content cache* | [Static cache generator](../../../../features/6.0/static-cache-generator.md) |
-| Velocity response cache | responses held by the Velocity web server | `./console exp:velocity cache clear` | [Velocity response cache](../../../../features/6.0/velocity-response-cache.md) |
+| Velocity response cache | responses held by the Velocity web server | `./console exp:velocity cache clear --apply` | [Velocity response cache](../../../../features/6.0/velocity-response-cache.md) |
 | CDN or reverse proxy | copies at the edge | the CDN's purge | [HTTP caching and CDNs](../../../creators/website-creators/http-caching-and-cdns.md) |
 
 ## The static cache
@@ -56,7 +70,7 @@ refreshes them.
 | Publish the Incident update | the on-call publisher |
 | View cache of the object and related pages cleared | automatic |
 | Static pages touched by the publish, and `AlwaysUpdateArray[]` pages, refreshed | automatic, during the publish (unless `CronjobCacheClear=enabled` defers it to the `staticcache_cleanup` cronjob part) |
-| Velocity response cache | expires by its lifetime, or clear it: `./console exp:velocity cache clear` |
+| Velocity response cache | expires by its lifetime, or clear it: `./console exp:velocity cache clear --apply` |
 | CDN | expires by its lifetime, or purge |
 | Check logged out, on a phone, with a fresh browser | the publisher or a second person |
 

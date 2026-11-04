@@ -2,7 +2,7 @@
 /**
  * File containing the eZSOAPClientTest class.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -29,6 +29,7 @@ class eZSOAPClientTest extends ezpTestCase
     /**
      * @dataProvider providerTestSoapClientConstructorUseSSL
      */
+    #[\PHPUnit\Framework\Attributes\DataProvider('providerTestSoapClientConstructorUseSSL')]
     public function testSoapClientConstructorUseSSL( $port, $expectedUseSSLResult, $useSSL = null )
     {
         $client = new eZSOAPClient( 'soap.example.com', '/', $port, $useSSL );
@@ -47,6 +48,7 @@ class eZSOAPClientTest extends ezpTestCase
     /**
      * @dataProvider providerTestSoapClientConstructorPort
      */
+    #[\PHPUnit\Framework\Attributes\DataProvider('providerTestSoapClientConstructorPort')]
     public function testSoapClientConstructorPort( $port, $expectedPortResult )
     {
         $client = new eZSOAPClient( 'soap.example.com', '/', $port );
@@ -69,6 +71,7 @@ class eZSOAPClientTest extends ezpTestCase
     /**
      * @dataProvider providerTestSoapClientSend
      */
+    #[\PHPUnit\Framework\Attributes\DataProvider('providerTestSoapClientSend')]
     public function testSoapClientSend( $expectedSendResult, $server, $path, $port, $name, $namespace, $parameters = array() )
     {
         self::markTestSkipped( "Test disabled as critmon has been shut down. Needs a different server or way of doing this." );

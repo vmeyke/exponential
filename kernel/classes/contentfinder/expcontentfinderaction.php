@@ -2,7 +2,7 @@
 /**
  * File containing the expContentFinderAction class.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package kernel
  */
@@ -479,7 +479,17 @@ class expContentFinderAction
                                   'language' => (string)$version->initialLanguageCode() );
                 $db = eZDB::instance();
                 $db->begin();
-                $version->removeThis();
+                try
+                {
+                    $version->removeThis();
+                }
+                catch ( Throwable $e )
+                {
+                    // nothing of a transaction that failed half way is committed by a later commit()
+                    if ( $db->transactionCounter() > 0 )
+                        $db->rollback();
+                    throw $e;
+                }
                 $db->commit();
                 // as content/history records it (doc/eng-us/bc/6.0/audit.md, content.version.remove)
                 if ( class_exists( 'expAuditHook' ) )

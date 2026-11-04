@@ -26,7 +26,7 @@
  * one ([TreeSettings] PageOrder[<page id>], pageOrder()): this wins over a page's front matter order, so pages that
  * cannot carry front matter (the project files, plain text) can be placed too.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package kernel
  */
@@ -181,6 +181,7 @@ class expHelpAudience
         'features'        => array( 'name' => 'Features', 'icon' => 'stars' ),
         'development'     => array( 'name' => 'Development', 'icon' => 'code-square' ),
         'install-upgrade' => array( 'name' => 'Installation and upgrades', 'icon' => 'box-seam' ),
+        'migrations'      => array( 'name' => 'Migrations', 'icon' => 'arrow-down-up' ),
         'project-files'   => array( 'name' => 'Project files', 'icon' => 'git' ),
         'release-notes'   => array( 'name' => 'Release notes', 'icon' => 'journal-text' ),
         'history'         => array( 'name' => 'History', 'icon' => 'clock-history' ),
@@ -198,7 +199,10 @@ class expHelpAudience
     /** [TypeSettings] PathRules[] by default */
     const TYPE_RULES = array(
         'doc/eng-us/help/*;help', 'doc/eng-us/guides/*;guide', 'doc/eng-us/features/*;feature', 'doc/eng-us/bc/*;bc', 'doc/changelogs/*;changelog',
-        'doc/eng-us/install/*;install', 'doc/eng-us/INSTALL.md;install', 'doc/eng-us/UPDATE.md;install', 'doc/eng-us/UNINSTALL.md;install',
+        'doc/eng-us/install/*;install', 'doc/eng-us/INSTALL.md;install',
+        'doc/eng-us/EXTENDING.md;guide',
+        'doc/eng-us/CONFIGURING.md;install', 'doc/eng-us/UPDATE.md;install', 'doc/eng-us/INTEGRATING.md;install',
+        'doc/eng-us/UNINSTALL.md;install',
         'doc/eng-us/specifications/*;specification', 'doc/eng-us/history/*;history',
         'doc/eng-us/examples/*;example', 'extension/*;extension', '*;reference',
     );
@@ -258,6 +262,8 @@ class expHelpAudience
         'doc/eng-us/guides/two-factor-login.md;admin,user',
         'doc/eng-us/guides/templates-and-design.md;developer',
         'doc/eng-us/guides/extensions.md;developer,admin',
+        'doc/eng-us/EXTENDING.md;developer,designer',
+        'doc/eng-us/INTEGRATING.md;integrator,developer,admin',
         'doc/eng-us/guides/rest-api-v1-and-v2.md;developer',
         'doc/eng-us/guides/benchmarking.md;developer',
         'doc/eng-us/guides/test-language-lorem-ipsum.md;developer',
@@ -274,6 +280,10 @@ class expHelpAudience
     /** [CategorySettings] PathRules[] by default */
     const CATEGORY_RULES = array(
         'doc/eng-us/help/manual/*;manual',
+        'doc/eng-us/help/migrations/*;migrations',
+        'doc/eng-us/guides/migrations*.md;migrations',
+        'doc/eng-us/features/6.0/migrations.md;migrations',
+        'doc/eng-us/specifications/6.0/migration-file-format.md;migrations',
         'doc/eng-us/help/leadership/*;leadership',
         'doc/eng-us/help/business/*;business',
         'doc/eng-us/help/partners/*;partnership',
@@ -328,6 +338,8 @@ class expHelpAudience
         'doc/eng-us/guides/*-developer.md;development',
         'doc/eng-us/guides/templates-and-design.md;development',
         'doc/eng-us/guides/extensions.md;development',
+        'doc/eng-us/EXTENDING.md;development',
+        'doc/eng-us/INTEGRATING.md;integration',
         'doc/eng-us/guides/rest-api-v1-and-v2.md;development',
         'doc/eng-us/guides/benchmarking.md;development',
         'doc/eng-us/guides/test-language-lorem-ipsum.md;development',
@@ -346,8 +358,11 @@ class expHelpAudience
     const PAGE_ORDER = array(
         'project/README.md' => 0,
         'INSTALL.md' => 10,
+        'CONFIGURING.md' => 11,
         'UPDATE.md' => 12,
-        'UNINSTALL.md' => 14,
+        'EXTENDING.md' => 13,
+        'INTEGRATING.md' => 14,
+        'UNINSTALL.md' => 16,
         'languages.md' => 20,
         'branch-overview.md' => 30,
         'release-overview' => 40,

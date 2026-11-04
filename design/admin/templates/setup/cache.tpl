@@ -38,7 +38,7 @@
     <ul>{foreach $cache_result.names as $cp_name}<li>{$cp_name|wash}</li>{/foreach}</ul>
     {/if}
     {if $cache_result.restart}<p>{'A running Velocity still holds the old settings in memory: restart it with %command.'|i18n( 'design/admin/setup/cache',, hash( '%command', '<code>./console exp:velocity restart</code>' ) )}</p>{/if}
-    {if $cache_result.response_cache}<p>{'Velocity\'s response cache may serve pages made before this for a few seconds more; clear it below or with %command.'|i18n( 'design/admin/setup/cache',, hash( '%command', '<code>./console exp:velocity cache clear</code>' ) )}</p>{/if}
+    {if $cache_result.response_cache}<p>{'Velocity\'s response cache may serve pages made before this for a few seconds more; clear it below or with %command.'|i18n( 'design/admin/setup/cache',, hash( '%command', '<code>./console exp:velocity cache clear --apply</code>' ) )}</p>{/if}
     {if $cache_result.command}<p>{'From a shell:'|i18n( 'design/admin/setup/cache' )} <code>{$cache_result.command|wash}</code></p>{/if}
 </div>
 {/if}
@@ -204,7 +204,7 @@
         <li>
             <div class="a4-setup-server-text"><strong>{'Velocity response cache'|i18n( 'design/admin/setup/cache' )}</strong>
                 <span class="a4-badge">{'%files files, %size'|i18n( 'design/admin/setup/cache',, hash( '%files', $velocity_cache.files|wash, '%size', $velocity_cache.size|wash ) )}</span>
-                <small>{'Pages Velocity answers without PHP, for a few seconds each.'|i18n( 'design/admin/setup/cache' )} {if $velocity_cache.cleared}{'Last cleared %time.'|i18n( 'design/admin/setup/cache',, hash( '%time', $velocity_cache.cleared|wash ) )}{/if} <code>./console exp:velocity cache clear</code></small></div>
+                <small>{'Pages Velocity answers without PHP, for a few seconds each.'|i18n( 'design/admin/setup/cache' )} {if $velocity_cache.cleared}{'Last cleared %time.'|i18n( 'design/admin/setup/cache',, hash( '%time', $velocity_cache.cleared|wash ) )}{/if} <code>./console exp:velocity cache clear --apply</code></small></div>
             <div class="a4-actions">
                 <input class="a4-btn a4-btn-small" type="submit" name="ClearVelocityCacheButton" value="{'Clear Velocity\'s response cache'|i18n( 'design/admin/setup/cache' )}" />
             </div>
@@ -248,6 +248,13 @@
 <details class="a4-fold" id="exp-static-cache">
     <summary><h2 class="a4-h2">{'Static content cache'|i18n( 'design/admin/setup/cache' )}</h2><span class="a4-muted">{'pages stored as files, answered by the web server without the CMS'|i18n( 'design/admin/setup/cache' )}</span></summary>
     <div class="a4-fold-body a4-stack">
+    {if fetch( 'user', 'has_access_to', hash( 'module', 'staticpublish', 'function', 'read' ) )}
+    <div class="a4-notice is-info">
+        <p class="a4-notice-title">{'Static publishing'|i18n( 'design/admin/setup/cache' )}</p>
+        <p>{'The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.'|i18n( 'design/admin/setup/cache' )}
+           <a href={'staticpublish/dashboard'|ezurl}>{'Publish a static copy to GitHub Pages or any git host'|i18n( 'design/admin/setup/cache' )}</a></p>
+    </div>
+    {/if}
     {if $static_cache_siteaccess_list|count|eq(0)}
         <div class="a4-notice is-warn"><p><strong>{'No site can be cached.'|i18n( 'design/admin/setup/cache' )}</strong> {'Every siteaccess either requires a login or has no SiteSettings/SiteURL, so there is no page to fetch and store.'|i18n( 'design/admin/setup/cache' )}</p></div>
     {else}
@@ -394,7 +401,7 @@
             <li>{'By tag'|i18n( 'design/admin/setup/cache' )}<code>php bin/php/ezcache.php --clear-tag=template --allow-root-user</code></li>
             <li>{'Everything'|i18n( 'design/admin/setup/cache' )}<code>php bin/php/ezcache.php --clear-all --allow-root-user</code></li>
             <li>{'What would be cleared, with sizes, without clearing'|i18n( 'design/admin/setup/cache' )}<code>./console exp:cache clear --id=content --dry-run --allow-root-user</code></li>
-            <li>{'Velocity\'s response cache'|i18n( 'design/admin/setup/cache' )}<code>./console exp:velocity cache clear</code></li>
+            <li>{'Velocity\'s response cache'|i18n( 'design/admin/setup/cache' )}<code>./console exp:velocity cache clear --apply</code></li>
             <li>{'Velocity, after settings changed'|i18n( 'design/admin/setup/cache' )}<code>./console exp:velocity restart --allow-root-user</code></li>
         </ul>
     </div>

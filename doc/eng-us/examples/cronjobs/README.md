@@ -17,17 +17,21 @@ Every cronjob script of the kernel and the bundled extensions and the parts of t
 | Part | Scripts | Run it |
 |---|---|---|
 | (default) | [unpublish.php](unpublish.md), [rssimport.php](rssimport.md), [indexcontent.php](indexcontent.md), [hide.php](hide.md), [internal_drafts_cleanup.php](internal_drafts_cleanup.md) | `php runcronjobs.php` |
-| `infrequent` | [basket_cleanup.php](basket_cleanup.md), [linkcheck.php](linkcheck.md), [mailpreferences.php](mailpreferences.md), [usersessions.php](usersessions.md), [exphelp.php](exphelp.md) | `php runcronjobs.php infrequent` |
-| `frequent` | [notification.php](notification.md), [workflow.php](workflow.md), [contentjobs.php](contentjobs.md), [datatablesync.php](datatablesync.md), [audit.php](audit.md), [mailbounces.php](mailbounces.md) | `php runcronjobs.php frequent` |
+| `infrequent` | [basket_cleanup.php](basket_cleanup.md), [linkcheck.php](linkcheck.md), [mailpreferences.php](mailpreferences.md), [usersessions.php](usersessions.md), [useraudit.php](useraudit.md), [exphelp.php](exphelp.md) | `php runcronjobs.php infrequent` |
+| `frequent` | [notification.php](notification.md), [workflow.php](workflow.md), [contentjobs.php](contentjobs.md), [datatablesync.php](datatablesync.md), [audit.php](audit.md), [mailbounces.php](mailbounces.md), [graphqlwebhooks.php](graphqlwebhooks.md) | `php runcronjobs.php frequent` |
 | `contentcheck` | [contentcheck.php](contentcheck.md) | `php runcronjobs.php contentcheck` |
 | `contentjobs` | [contentjobs.php](contentjobs.md) | `php runcronjobs.php contentjobs` |
 | `datatable` | [datatablesync.php](datatablesync.md) | `php runcronjobs.php datatable` |
 | `audit` | [audit.php](audit.md) | `php runcronjobs.php audit` |
+| `graphqlwebhooks` | [graphqlwebhooks.php](graphqlwebhooks.md) | `php runcronjobs.php graphqlwebhooks` |
 | `logs` | [explogrotate.php](explogrotate.md) | `php runcronjobs.php logs` |
 | `notification` | [notification.php](notification.md) | `php runcronjobs.php notification` |
 | `mailpreferences` | [mailpreferences.php](mailpreferences.md) | `php runcronjobs.php mailpreferences` |
+| `migrationpush` | [migrationpush.php](migrationpush.md) | `php runcronjobs.php migrationpush` |
+| `staticpublish` | [staticpublish.php](staticpublish.md) | `php runcronjobs.php staticpublish` |
 | `mailbounces` | [mailbounces.php](mailbounces.md) | `php runcronjobs.php mailbounces` |
 | `usersessions` | [usersessions.php](usersessions.md) | `php runcronjobs.php usersessions` |
+| `useraudit` | [useraudit.php](useraudit.md) | `php runcronjobs.php useraudit` |
 | `exphelp` | [exphelp.php](exphelp.md) | `php runcronjobs.php exphelp` |
 | `unlock` | [unlock.php](unlock.md) | `php runcronjobs.php unlock` |
 | `cluster_maintenance` | [clusterpurge.php](clusterpurge.md) | `php runcronjobs.php cluster_maintenance` |
@@ -48,6 +52,7 @@ Every cronjob script of the kernel and the bundled extensions and the parts of t
 | [datatablesync.php](datatablesync.md) | Start the data table synchronisations that are due (scheduled and live, by their interval) | frequent, datatable |
 | [exphelp.php](exphelp.md) | Help maintained as content: removes old answers to "Was this helpful?" and records the DITA export of the help in git when exphelp.ini [ContentSettings] DitaHistoryDirectory is set | infrequent, exphelp |
 | [explogrotate.php](explogrotate.md) | Logs: rotate the logs over their MaxSize, prune and compress their archives (off unless a part runs it) | logs |
+| [graphqlwebhooks.php](graphqlwebhooks.md) | GraphQL webhooks: send the events of the journal to the end points that want them, with retries | frequent, graphqlwebhooks |
 | [hide.php](hide.md) | Process scheduled hide and unhide actions on content objects | (default) |
 | [httpcache_cleanup.php](httpcache_cleanup.md) | Remove expired, purged and orphaned entries from the role-aware HTTP cache | cache_cleanup |
 | [indexcontent.php](indexcontent.md) | Index pending content modifications in the search engine | (default) |
@@ -55,17 +60,20 @@ Every cronjob script of the kernel and the bundled extensions and the parts of t
 | [linkcheck.php](linkcheck.md) | Check all internal and external links in published content for broken URLs | infrequent |
 | [mailbounces.php](mailbounces.md) | The bounce mailbox: hard bounces and spam complaints go on the suppression list (mailpreferences.ini [BounceSettings]) | frequent, mailbounces |
 | [mailpreferences.php](mailpreferences.md) | E-mail preferences retention: consent log rows of people who are gone, expired confirmations, old suppression entries | infrequent, mailpreferences |
+| [migrationpush.php](migrationpush.md) | Migrations: push the record of the runs whose push failed to the migrations repository's remote again | migrationpush |
 | [notification.php](notification.md) | Process and dispatch pending notification events to subscribers | frequent, notification |
 | [old_drafts_cleanup.php](old_drafts_cleanup.md) | Remove user drafts that exceed the configured age limit |  |
 | [querycache_cleanup.php](querycache_cleanup.md) | Remove the result files of the SQL query cache that are older than MaxAge or from before the last clear | cache_cleanup |
 | [rssimport.php](rssimport.md) | Fetch and import configured RSS feeds into the content tree | (default) |
 | [session_gc.php](session_gc.md) | Garbage-collect expired user sessions from the session store |  |
 | [staticcache_cleanup.php](staticcache_cleanup.md) | Remove expired and stale entries from the static page cache |  |
+| [staticpublish.php](staticpublish.md) | Static publishing: push again what could not be pushed, publish the pages changed by a content publish (debounced) and the targets whose schedule is due | staticpublish |
 | [subtreeexpirycleanup.php](subtreeexpirycleanup.md) | Clean up subtree expiry entries from the URL cache tables |  |
 | [trashpurge.php](trashpurge.md) | Permanently delete objects in the trash (all, or as old as [TrashSettings] KeepItemsForDays says) |  |
 | [unlock.php](unlock.md) | Release content objects stuck in a locked editing state | unlock |
 | [unpublish.php](unpublish.md) | Process scheduled unpublish actions on content objects | (default) |
-| [updateviewcount.php](updateviewcount.md) | Flush the in-memory view count buffer to the database |  |
+| [updateviewcount.php](updateviewcount.md) | Count the page views of the web server's access logs into the view counter (ezview_counter) |  |
+| [useraudit.php](useraudit.md) | User audit log: removes the rows of expuser_audit older than audit.ini [UserAuditSettings] RetentionDays | infrequent, useraudit |
 | [usersessions.php](usersessions.md) | Signed-in sessions ("Your devices"): ends the sessions not used for [Session] SessionTimeout, removes ended ones after [UserSessionSettings] RetentionDays | infrequent, usersessions |
 | [workflow.php](workflow.md) | Process pending workflow events and advance stalled workflows | frequent |
 

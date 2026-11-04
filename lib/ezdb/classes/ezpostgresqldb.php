@@ -2,7 +2,7 @@
 /**
  * File containing the eZPostgreSQLDB class.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * Portions derived from LoveStack (mugoweb/ezpublish-legacy, commit 3d18f47551), Copyright (C) Mugo Web, GPL v2
@@ -187,6 +187,22 @@ class eZPostgreSQLDB extends eZDBInterface
     function databaseName()
     {
         return 'postgresql';
+    }
+
+    /**
+     * Whether this connection's string literals take a backslash literally (standard_conforming_strings, on by
+     * default since PostgreSQL 9.1). Read from the connection: the server reports every change of the setting,
+     * a SET in this session included, so asking costs no statement. Null without a connection.
+     * eZDBQueryCache::backslashEscapes() asks it to tell where a literal ends.
+     *
+     * @return bool|null
+     */
+    function standardConformingStrings()
+    {
+        if ( !$this->DBConnection || !function_exists( 'pg_parameter_status' ) )
+            return null;
+        $value = @pg_parameter_status( $this->DBConnection, 'standard_conforming_strings' );
+        return $value === false ? null : $value === 'on';
     }
 
     function bindingType( )

@@ -15,6 +15,20 @@ that explains them and three optional blocks after them. Use it where you cannot
 host. With access to the virtual host, the [Apache virtual host](apache-virtual-host.md) example puts the same rules in
 server context and saves Apache a file lookup per directory on every request.
 
+> **Warning**
+> **`.htaccess` slows down every request.** When `.htaccess` files are enabled (`AllowOverride` anything but `None`), let alone
+> used, Apache looks for them and reads and evaluates them on every request, in every directory of the path, and
+> page loading times go up drastically ([measured](../../guides/setup-files-from-the-console.md#measured-htaccess-against-rules-in-the-virtual-host)). The only real fix is to switch the feature off for
+> the virtual host: `AllowOverride None` in the HTTPS virtual host, and the rules in the virtual host's own
+> configuration as mod_rewrite rules. That is far faster in production speed tests and well worth the time it takes
+> to optimize a production configuration. Switch over right away: copy the rules of the
+> [example HTTPS virtual host](apache-virtual-host.md) into your virtual host (with the static cache, also
+> [`staticcache_offload.conf`](../staticcache_offload.conf)), set `AllowOverride None`, run `apachectl configtest`, reload Apache and
+> test the site. The same rules for other servers: [nginx](nginx.md), [LiteSpeed](litespeed.md),
+> [Caddy](caddy.md), [IIS](iis.md), [Velocity](velocity.md) (built in); where virtual host rules go in a control
+> panel: [Plesk](../../help/hosting/panels/plesk.md), [cPanel](../../help/hosting/panels/cpanel.md), [DirectAdmin](../../help/hosting/panels/directadmin.md), [ISPConfig](../../help/hosting/panels/ispconfig.md).
+> **On LiteSpeed or OpenLiteSpeed,** the server's own page cache can also answer anonymous visitors and crawlers without PHP: [Page caching with LiteSpeed and OpenLiteSpeed](../../guides/litespeed-page-cache.md).
+
 ## Install it
 
 ```bash
@@ -23,6 +37,11 @@ cp .htaccess_root .htaccess      # copy, do not move: an update can bring a new 
 apachectl configtest             # Syntax OK
 systemctl reload httpd           # apache2 on Debian and Ubuntu
 ```
+
+Or let the console make the copy: `./console exp:setup:htaccess --apply` copies `.htaccess_root` to `.htaccess`
+(`--static` takes `.htaccess_root_static`), keeps the template's mode and owner, backs up a file that is already there
+and refuses to replace one that differs unless you add `--force`. Without `--apply` it only shows what it would do.
+See [Setting up .htaccess and config.php from the console](../../guides/setup-files-from-the-console.md#3-put-htaccess-into-place).
 
 Apache needs `mod_rewrite` (Debian: `a2enmod rewrite`), and the virtual host must let it read the file:
 
@@ -38,7 +57,9 @@ Apache needs `mod_rewrite` (Debian: `a2enmod rewrite`), and the virtual host mus
 caching block `Indexes`; with neither allowed, Apache answers 500 for every request, and its error log names the line.
 
 To use the optional blocks, copy `doc/eng-us/examples/htaccess` instead of `.htaccess_root` and enable what you need. After
-every upgrade, compare your `.htaccess` with the new `.htaccess_root` and take over new rules.
+every upgrade, compare your `.htaccess` with the new `.htaccess_root` and take over new rules. `./console
+exp:setup:htaccess` shows that difference as a diff and exits 1 while the two differ; `./console exp:setup:status`
+says which template `.htaccess` is a copy of.
 
 ## The file
 
@@ -104,7 +125,17 @@ RewriteCond %{REQUEST_FILENAME} -f
 RewriteRule ^.+/[^/]+\.(php[0-9]?|phtml|phar)$ - [R=404,L]
 RewriteRule ^api/ index_rest.php [L]
 RewriteRule ^index_rest\.php - [L]
+# The SOAP server (settings/soap.ini EnableSOAP=true) is index_soap.php since
+# Exponential 6.0.15; soap.php, its old name, only forwards to it. Uncomment
+# when SOAP is switched on, and let the SOAP clients call index_soap.php:
+#RewriteRule ^index_soap\.php - [L]
 RewriteRule ^([^/]+/)?content/treemenu.* index_treemenu.php [L]
+# WebDAV (settings/webdav.ini [GeneralSettings] EnableWebDAV=true): the server is
+# index_webdav.php, reached as https://www.example.com/index_webdav.php/<siteaccess>/.
+# Uncomment to let it answer on this host, or give it a host of its own that sends
+# every request to index_webdav.php. webdav.php, its old name, only forwards to it
+# and will be removed in a later major version: name index_webdav.php in new rules.
+#RewriteRule ^index_webdav\.php - [L]
 RewriteRule ^var/([^/]+/)?storage/images(-versioned)?/.* - [L]
 # SVG images are sanitized on upload; served from the storage they also run
 # nothing and load nothing when opened directly (needs mod_headers).
@@ -161,6 +192,52 @@ RewriteRule ^sw\.js$ - [L]
 # Platform for Privacy Preferences Project ( P3P ) related files for Internet Explorer
 # More info here : http://en.wikipedia.org/wiki/P3p
 RewriteRule ^w3c/p3p\.xml - [L]
+
+## >>> LiteSpeed page cache (off) >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+## LiteSpeed Web Server (Enterprise) and OpenLiteSpeed can keep whole pages and
+## answer anonymous visitors and crawlers from them without running PHP: no
+## plugin and no code, only the rules below. Apache and nginx never read them
+## (<IfModule LiteSpeed>). Every line, purging, checks and troubleshooting:
+##   doc/eng-us/guides/litespeed-page-cache.md
+##
+## To switch it on, remove the first "#" of every line from the ">>>" line to
+## the "<<<" line (a "##" line keeps one "#" and stays a comment), or run:
+##   sed -i '/^## >>> LiteSpeed page cache/,/^## <<< LiteSpeed page cache/ s/^#//' .htaccess
+## Then request a page twice without cookies; the second answer says "hit":
+##   curl -sI https://www.example.com/ | grep -i x-litespeed-cache
+## The server needs a cache directory (LiteSpeed Enterprise: CacheRoot at
+## server level). OpenLiteSpeed reads only the rewrite rules of .htaccess,
+## only with autoLoadHtaccess on and only after a restart, and needs its cache
+## module on for the virtual host: see the guide.
+##
+#<IfModule LiteSpeed>
+## Look the request up in the page cache.
+#CacheLookup on
+## Only reads: every form (POST) and every other write reaches PHP.
+#RewriteCond %{REQUEST_METHOD} ^(GET|HEAD)$
+## No query string: searches, filters and tracking parameters reach PHP.
+#RewriteCond %{QUERY_STRING} ^$
+## Nobody with a session or signed in. The session cookie is PHPSESSID with
+## site.ini [Session] SessionNameHandler=default (php.ini session.name) and
+## eZSESSID<md5 of the siteaccess> with SessionNameHandler=custom; the kernel
+## sets is_logged_in=true for every signed-in user. Editors, members and a
+## visitor with a basket all carry one. Add cookies of your own that change
+## what a page shows, separated by "|".
+#RewriteCond %{HTTP_COOKIE} !(eZSESSID|PHPSESSID|is_logged_in) [NC]
+## Not the views that differ per visitor or change something, with or without
+## a siteaccess in front: the administration (put the URI of yours if it is
+## not "admin"), user/, shop/, notification/, layout/, ezjscore/, setup/ and
+## every content/ view except content/view/. REST, SOAP, WebDAV and the tree
+## menu never get here: the rules above send them their own way.
+#RewriteCond %{REQUEST_URI} !^/([^/]+/)?((admin|user|shop|notification|layout|ezjscore|setup)(/|$)|content/(?!view/)) [NC]
+## The administration on a host name of its own: remove one more "#", adjust.
+##RewriteCond %{HTTP_HOST} !^admin\. [NC]
+## Keep the page 120 seconds (max-age). Nothing removes it when an editor
+## publishes: anonymous visitors see a change at most max-age seconds later.
+## Never cache pages with debug output (site.ini DebugOutput, DebugByIP).
+#RewriteRule .* - [E=cache-control:max-age=120]
+#</IfModule>
+## <<< LiteSpeed page cache <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 RewriteRule .* index.php
 
@@ -231,7 +308,9 @@ RewriteRule .* index.php
 | `RewriteRule (^\|/)\.(?!well-known(/\|$)) - [R=404,L]` | any path with a segment that starts with a dot answers 404, except `.well-known` | `.git/config`, `.env`, a package's `.cache`, an extension's own `.htaccess` |
 | `RewriteCond %{REQUEST_FILENAME} -f` + `RewriteRule ^.+/[^/]+\.(php[0-9]?\|phtml\|phar)$ - [R=404,L]` | an existing script below the root answers 404 | no library, installer, package setting or stray script runs because its path was asked for; only the front controllers at the root run |
 | `RewriteRule ^api/ index_rest.php [L]`, `^index_rest\.php - [L]` | the REST API | `index_rest.php` is the REST front controller |
+| `#RewriteRule ^index_soap\.php - [L]` (commented) | the SOAP server, when `soap.ini [GeneralSettings] EnableSOAP=true` | `index_soap.php` is the SOAP front controller since 6.0.15; `soap.php` only forwards to it. Uncomment the line with SOAP on, or SOAP requests end at `index.php`; see [the SOAP entry script is now index_soap.php](../../bc/6.0/soap-entry-script-index-soap.md) |
 | `RewriteRule ^([^/]+/)?content/treemenu.* index_treemenu.php [L]` | the administration's tree menu, with or without a siteaccess in front | a light front controller for the tree's JSON |
+| `#RewriteRule ^index_webdav\.php - [L]` (commented) | WebDAV on this host, once uncommented | `index_webdav.php` is the WebDAV server since 6.0.15; `webdav.php` only forwards to it ([what to change](../../bc/6.0/webdav-entry-script-index-webdav.md)) |
 | `^var/([^/]+/)?storage/images(-versioned)?/.*` | stored image variations are sent as files | images in content |
 | the `<FilesMatch "(?i)\.svgz?$">` block | an SVG is sent with `Content-Security-Policy: sandbox ...` | an SVG opened directly runs nothing and loads nothing |
 | `^var/([^/]+/)?storage/pdf/...\.pdf$` | stored PDF exports | Setup > PDF export |
@@ -242,6 +321,7 @@ RewriteRule .* index.php
 | `^extension/[^/]+/icons/[A-Za-z0-9_/-]+\.(svg\|png\|gif)$` | the icon themes of extensions (`icon.ini [ExtensionSettings] IconExtensions[]`) | SVG, PNG and GIF images with exactly one extension only: a name like `a.php.svg` could otherwise be handed to PHP by an `AddHandler` mapping |
 | `^packages/styles/...`, `^var/storage/packages/.+\.(png\|jpe?g\|gif\|webp)$` | package styles and preview images | a package's XML, SQL and settings are not for the web; SVG is not listed, it can carry script |
 | `favicon.ico`, `robots.txt`, `index.js`, `sw.js`, `w3c/p3p.xml` | sent from the root | the service worker must be served from the root |
+| the block `## >>> LiteSpeed page cache` ... `## <<< LiteSpeed page cache` (commented) | once uncommented, on LiteSpeed Enterprise and OpenLiteSpeed only (`<IfModule LiteSpeed>`): anonymous `GET` and `HEAD` requests without a query string, session or sign-in cookie, outside the administration, user, shop and editing views, are kept by the server's page cache for `max-age` seconds | answers anonymous visitors and crawlers without PHP; Apache skips it. Every line: [Page caching with LiteSpeed and OpenLiteSpeed](../../guides/litespeed-page-cache.md) |
 | `RewriteRule .* index.php` | everything else runs `index.php` | URL aliases and modules; also `settings/site.ini`, `composer.json`, `var/log/...`, which `index.php` answers with a page or a 404, never the file |
 
 So `var/`, `settings/`, `vendor/`, `.git`, `composer.*` and `.env` need no rules of their own: the dot rule and "not on
@@ -293,4 +373,5 @@ used it as `.htaccess` for a test document root and answered every request of th
 - [Chapter 8, section 8.5: Apache with PHP-FPM](../../install/08-serving-the-site.md#85-apache-with-php-fpm).
 - [Chapter 13, section 13.2: What the web server must never hand out](../../install/13-security-hardening.md#132-what-the-web-server-must-never-hand-out).
 - [LiteSpeed](litespeed.md): LiteSpeed Enterprise reads this file as Apache does.
+- [Setting up .htaccess and config.php from the console](../../guides/setup-files-from-the-console.md): `exp:setup:htaccess`, `exp:setup:status`.
 - [Free documentation](../../help/free-documentation.md): this page is free to copy, translate and improve.

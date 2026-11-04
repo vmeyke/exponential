@@ -14,13 +14,15 @@
  *
  * No kernel bootstrap, no database and no siteaccess: a bare eZTemplate with the lib/eztemplate autoloads.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @package tests
  * @group lib
  * @group eztemplate
  */
 
+#[\PHPUnit\Framework\Attributes\Group('lib')]
+#[\PHPUnit\Framework\Attributes\Group('eztemplate')]
 class eZTemplateEngineRenderTest extends PHPUnit\Framework\TestCase
 {
     /** @var string directory of this class's template files and compiled templates */
@@ -165,6 +167,10 @@ class eZTemplateEngineRenderTest extends PHPUnit\Framework\TestCase
 
             // section (the function before foreach)
             'section var'               => array( '{section var=v loop=$l}{$v}{/section}', array( 'l' => array( 1, 2 ) ), '12' ),
+            // var= is the section's iterator: its own index, number, key, item, sequence and the item's attributes
+            'section var iterator'      => array( '{section var=v loop=$l}{$v.index}{$v.number}{$v.key}{$v.item}{$v|upcase};{/section}', array( 'l' => array( 'a', 'b' ) ), '010aA;121bB;' ),
+            'section var attributes'    => array( '{section var=v loop=$l max=1}{$v.name}{$v.item.name}{/section}', array( 'l' => array( array( 'name' => 'x' ), array( 'name' => 'y' ) ) ), 'xx' ),
+            'section var sequence'      => array( '{section var=v loop=$l sequence=array(a,b)}{$v.sequence}{/section}', array( 'l' => array( 1, 2, 3 ) ), 'aba' ),
             'section name item'         => array( '{section name=S loop=$l}{$S:item}{/section}', array( 'l' => array( 'a', 'b' ) ), 'ab' ),
             'section show'              => array( '{section show=$a}y{section-else}n{/section}', array( 'a' => false ), 'n' ),
             'section loop count'        => array( '{section loop=3}x{/section}', array(), 'xxx' ),

@@ -2,7 +2,7 @@
 /**
  * File containing the eZExtensionWithOrderingTest class
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -11,8 +11,11 @@
 
 class eZExtensionWithOrderingTest extends ezpTestCase
 {
+    private $exceptionHandler;
+
     public function setUp(): void
     {
+        $this->pushExceptionHandlerMarker();
         ezpINIHelper::setINISetting( 'site.ini', 'ExtensionSettings', 'ExtensionDirectory', 'tests/tests/kernel/classes/extensions/' );
         ezpINIHelper::setINISetting( 'site.ini', 'ExtensionSettings', 'ExtensionOrdering', 'enabled' );
         ezpINIHelper::setINISetting( 'site.ini', 'ExtensionSettings', 'ActiveAccessExtensions', array() );
@@ -23,7 +26,33 @@ class eZExtensionWithOrderingTest extends ezpTestCase
     {
         ezpINIHelper::restoreINISettings();
         self::clearActiveExtensionsCache();
-        restore_exception_handler();
+        $this->popExceptionHandlersToMarker();
+    }
+
+    /**
+     * Starts the test without an exception handler: pushes a marker of its own and then null onto PHP's stack of
+     * exception handlers. Paired with popExceptionHandlersToMarker(), which leaves the stack as it was, so PHPUnit
+     * sees neither a handler left behind nor one of its own removed (a set_exception_handler( $saved ) in tearDown()
+     * pushed one more instead, and the test was risky).
+     */
+    private function pushExceptionHandlerMarker()
+    {
+        $this->exceptionHandler = static function ( $e ) {};
+        set_exception_handler( $this->exceptionHandler );
+        set_exception_handler( null );
+    }
+
+    /** Pops every exception handler the test and the tested code pushed, the marker included. */
+    private function popExceptionHandlersToMarker()
+    {
+        for ( $i = 0; $i < 100; $i++ )
+        {
+            $current = set_exception_handler( null );
+            restore_exception_handler();
+            restore_exception_handler();
+            if ( $current === $this->exceptionHandler )
+                return;
+        }
     }
 
     public function testUnrelatedKeepOrder1()

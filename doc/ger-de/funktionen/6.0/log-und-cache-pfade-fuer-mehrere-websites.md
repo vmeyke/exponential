@@ -6,6 +6,21 @@ Dateisystem (Arbeitsspeicher) legen oder den INI-Cache jeder Website einzeln lee
 Einstellungen, ihr Verhalten unter Velocity und auf der Kommandozeile und was zu tun ist, wenn eine Installation von
 einer eigenen Lösung auf diese Einstellungen umgestellt wird.
 
+> **Warnung**
+> **`.htaccess` bremst jede Anfrage.** Sind `.htaccess`-Dateien erlaubt (`AllowOverride` alles außer `None`), geschweige
+> denn genutzt, sucht Apache sie bei jeder Anfrage in jedem Verzeichnis des Pfads und liest und wertet sie aus, und
+> die Ladezeiten der Seiten steigen drastisch ([gemessen](../../anleitungen/setup-dateien-von-der-konsole.md#gemessen-htaccess-gegen-regeln-im-virtuellen-host)). Die einzige wirkliche Abhilfe ist, die
+> Funktion für den virtuellen Host abzuschalten: `AllowOverride None` im virtuellen HTTPS-Host, und die Regeln in
+> der Konfiguration des virtuellen Hosts selbst als mod_rewrite-Regeln. Das ist in Geschwindigkeitstests im
+> Produktivbetrieb weit schneller und die Zeit für die Optimierung einer Produktivkonfiguration unbedingt wert.
+> Stellen Sie sofort um: Übernehmen Sie die Regeln des [Beispiels für einen virtuellen HTTPS-Host](../../beispiele/webserver/apache-virtueller-host.md) in
+> Ihren virtuellen Host (mit dem statischen Cache auch [`staticcache_offload.conf`](../../../eng-us/examples/staticcache_offload.conf)), setzen Sie
+> `AllowOverride None`, führen Sie `apachectl configtest` aus, laden Sie Apache neu und testen Sie die Website.
+> Dieselben Regeln für andere Server: [nginx](../../beispiele/webserver/nginx.md), [LiteSpeed](../../beispiele/webserver/litespeed.md), [Caddy](../../beispiele/webserver/caddy.md), [IIS](../../beispiele/webserver/iis.md),
+> [Velocity](../../beispiele/webserver/velocity.md) (eingebaut); wohin Regeln für virtuelle Hosts in einem Control Panel gehören:
+> [Plesk](../../hilfe/hosting/control-panels/plesk.md), [cPanel](../../hilfe/hosting/control-panels/cpanel.md), [DirectAdmin](../../hilfe/hosting/control-panels/directadmin.md), [ISPConfig](../../hilfe/hosting/control-panels/ispconfig.md).
+> **Unter LiteSpeed oder OpenLiteSpeed** kann zusätzlich der Seiten-Cache des Servers anonyme Besucher und Crawler ohne PHP bedienen: [Seiten-Caching mit LiteSpeed und OpenLiteSpeed](../../anleitungen/seiten-cache-mit-litespeed.md).
+
 ## Kurz gefasst
 
 | | |
@@ -55,8 +70,11 @@ tmpfs  /srv/www/exponential/var_cache  tmpfs  size=8g,mode=0775,uid=www-data,gid
   INI-Cache in `ini/`), `expiry.php` in `var/example/expiry/`. Der Speicher bleibt in `var/example/storage`.
 - Velocity liefert die öffentlichen Caches unterhalb von `var_cache/` aus (gepackte Skripte und Stylesheets, Text als
   Bild) und sonst nichts dort: `expVelocity::staticPaths()` fügt sie den Pfaden aller drei Engines hinzu, wenn
-  `CacheVarDir` gesetzt ist. Für Apache aktivieren Sie die auskommentierte `var_cache`-Regel in `.htaccess_root`, für
-  nginx die auskommentierte `location` in [Website ausliefern](../../installation/08-die-website-ausliefern.md).
+  `CacheVarDir` gesetzt ist. Für Apache aktivieren Sie die auskommentierte `var_cache`-Regel von `.htaccess_root` in
+  Ihrer Kopie, `.htaccess` (kopiert mit `./console exp:setup:htaccess --apply`; nach einem Upgrade zeigt dieser Befehl
+  die Regel unter den Unterschieden und kopiert nur mit `--force`, aktivieren Sie sie danach also wieder), für
+  nginx die auskommentierte `location` in [Website ausliefern](../../installation/08-die-website-ausliefern.md). Siehe
+  [.htaccess und config.php von der Konsole aus einrichten](../../anleitungen/setup-dateien-von-der-konsole.md).
 - Mit einem Cluster-Datei-Handler siehe [Cluster](#cluster-dfs) weiter unten.
 - Setzen Sie die Einstellungen dort, wo jeder Siteaccess jeder Website sie liest (die globale Überschreibung). Velocity
   schreibt seine Liste der ausgelieferten Pfade beim Start, ohne Siteaccess: Es liest `CacheVarDir` aus den globalen
@@ -127,7 +145,7 @@ und `/srv/cache` erlaubt nicht mehr `/srv/cache-other`.
 `eZSiteAccess::change()` setzt alle drei für den Siteaccess, zu dem gewechselt wird: das Log-Verzeichnis
 (`eZSiteAccess::updateLogDirectory()`), das INI-Cache-Verzeichnis (`eZSiteAccess::updateINICacheDirectory()`) und die
 Ablaufdatei (`eZExpiryHandler::resetForCurrentCacheDirectory()`). Dies geschieht für jeden Front-Controller,
-einschließlich `soap.php` und `webdav.php`, und für jedes Skript, sodass `bin/php/ezcache.php -s example` und die
+einschließlich `index_soap.php` und `index_webdav.php`, und für jedes Skript, sodass `bin/php/ezcache.php -s example` und die
 Cronjobs einer Website in die Verzeichnisse dieser Website schreiben.
 
 Mit `INICacheDir=site` wird auch die `site.ini` des Siteaccess selbst im INI-Cache der Website zwischengespeichert:

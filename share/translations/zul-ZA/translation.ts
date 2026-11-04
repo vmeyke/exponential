@@ -982,6 +982,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>Leli khasi kuphela elisesha: %from kuya ku-%to kwezingu-%count.</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Lonke uhlobo lwedatha lwekherneli nezandiso, nokuthi izigaba nokuqukethwe kulusebenzisa kanjani.</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Izinhlobo zedatha</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2314,6 +2322,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>Namakhasi esistimu angaphawulwa: vulani ikhasi (Ukumisa, umkhondo wokucwaningwa, uhlu lwabasebenzisi ...) bese nikhetha okuthi Phawula leli khasi ngaphezu kwalo. Izimpawu ezinjalo zinesithonjana segiya.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>Anisakwazi ukuvula leli khasi lapha. Susani uphawu lokufunda, noma nicele imvume yokufinyelela kumlawuli.</translation>
     </message>
 </context>
 <context>
@@ -5163,6 +5175,210 @@
         <source>Go to the first page</source>
         <translation>Iya ekhasini lokuqala</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>Okunye</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>Izinsuku eziyi-7 zokugcina</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>Isikhathi esikhethiwe</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>Wonke amagama</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>Noma yiliphi igama</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>Umusho oqondile</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>Ukuhambisana</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>Igama A–Z</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>Igama Z–A</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>Kushintshiwe, ezintsha kuqala</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>Kushintshiwe, ezindala kuqala</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>Kushicilelwe, ezintsha kuqala</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>Kushicilelwe, ezindala kuqala</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Kushintshiwe</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>Izihlungi</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>Bonisa izihlungi</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>Fihla izihlungi</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Setha kabusha</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>Faka</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>Amagama</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>Uhlobo lokuqukethwe</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>Bonisa okuningi (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>Khetha uhlobo olulodwa lokuqukethwe ukuze usesha kwesinye sezici zalo.</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Isigaba</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Kusuka ku-</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Ku</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>Usuku lokuqala alulona usuku oluvumelekile.</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>Usuku lokugcina alulona usuku oluvumelekile.</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Umnikazi</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>I-ID yomsebenzisi, igama lokungena noma ikheli le-imeyili.</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>Akekho umsebenzisi otholakele we-“%input”.</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Ulimi</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>Noma yiluphi ulimi</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Indawo</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>Izindawo ezingu-%count</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>Imiphumela ekhasini ngalinye</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>Imiphumela ye-“%text” (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>Imiphumela (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>Hlela ngokuhleleka kwe-</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>Hlela</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>Izihlungi ezisebenzayo</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>Susa lesi sihlungi</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>Noma khetha izihlungi bese uzifaka ukuze ubonise okuqukethwe okuhambisana nazo.</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>Izihlungi zinciphisa usesho uma usuthayiphe amagama.</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>Ayikho imiphumela etholakele ye-“%text”.</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>Ayikho imiphumela etholakele.</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>Susa isihlungi esingenhla.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Izinguqulelo</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Izenzo</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>Hlela %name</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Hlela</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -7512,6 +7728,10 @@
         <source>Setup &gt; Cronjobs</source>
         <translation>Ukumisa &gt; Ama-cronjob</translation>
     </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>Ayikho ingxenye yomsebenzi we-cron esake yasebenza: ulayini wemisebenzi, okungenisiwe, izaziso nenkomba yokusesha kusalindile. Qalisani php bin/php/installcrontab.php --add --apply, noma nengeze imigqa ye --show ku-crontab.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/dashboard/drafts</name>
@@ -8056,8 +8276,8 @@
         <translation>Izaziso zelungelo lokukopisha zababhali bokuqala nezesofthiwe yabantu besithathu eyifakwe ne-Exponential zigcinwa emafayelini omthombo nasefayelini elithi LICENSE, njengoba imvume yeslayisense idinga.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>Okulandelayo luhlu lwabaneminikelo ye-Exponential abanikeze ilayisense umsebenzi wabo ukuze usetshenziswe yi-7x ngokwemigomo nemibandela ye-eZ Systems Contributor Licensing Agreement. Njengoba kuvunyelwe yileli sivumelwano, i-7x isabalalisa kabusha umnikelo ngamunye ngaphansi kwelayisense efanayo naleyo yefayela umnikelo oqukethwe kulo. Uhlu luqamba umnikeli ngamunye, ulwazi lokuxhumana olungakhethwa namafayela abanikele kuwo noma abanikele ngomsebenzi kuwo.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>Abanikeli abanconywa ngomsebenzi wabo ku-Exponential nakusofthiwe eyavela kuyo, kanye namafayela abanikela kuwo. Lokhu kungukubonga, akusona isaziso se-copyright: iminikelo ku-Exponential inikezwa i-Exponential Foundation ne-7x ngaphansi kwe-Contributor Licensing Agreement.</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13879,32 +14099,20 @@ Isaziso: Amaphakheji ngeke akhishwe.</translation>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;Hlolani i-Exponential Enterprise Edition&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Yibani yilungu leNhlangano ye-Exponential, nishintshisane futhi nilekelele&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; nabanye.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>Inikwa amandla ngu-&lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt;. Ukuze nithole ulwazi olwengeziwe bheka &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; nabanye.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> Ukuze nithole ulwazi olwengeziwe bheka &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
     </message>
     <message>
-        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; nabanye.</translation>
+        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;Hlolani i-Exponential (Evela ku-7x)&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Yibani yilungu leNhlangano ye-Exponential, thole usizo futhi nilekelele&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; nabanye.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13913,6 +14121,61 @@ Isaziso: Amaphakheji ngeke akhishwe.</translation>
     <message>
         <source>Help center</source>
         <translation>Isikhungo losizo</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>Okuqukethwe</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>Amakhasi amadokhumenti</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>Abasebenzisi</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>Amakilasi okuqukethwe</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>Ukuphatha</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>Ikhasi %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>Buka yonke imiphumela</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>Imiphumela engu-%count</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>Umphumela owodwa</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>Iziphakamiso ezingu-%count</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>Azikho iziphakamiso</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>Iziphakamiso azikwazanga ukulayishwa.</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>Iziphakamiso</translation>
     </message>
 </context>
 <context>
@@ -14381,6 +14644,14 @@ Isaziso: Amaphakheji ngeke akhishwe.</translation>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>Lokhu kufakwa kuyidemo yomphakathi: noma ubani angazi iphasiwedi yomlawuli, futhi amaphasiwedi omlawuli awakwazi ukushintshwa noma ukusethwa kabusha. Ningafaki lutho olufihlekile lapha.</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Amadivayisi enu</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Imisebenzi yokuphepha</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14670,6 +14941,14 @@ Isaziso: Amaphakheji ngeke akhishwe.</translation>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>Imihlahlandlela, ukusesha nokuthi nibika kanjani iphutha.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Okuqukethwe kwakamuva</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Okuqukethwe okusha, okubanjelwe ukubuyekezwa, nezenzo kokukhethiwe.</translation>
     </message>
 </context>
 <context>
@@ -15128,6 +15407,46 @@ Isaziso: Amaphakheji ngeke akhishwe.</translation>
         <source>Synchronisations</source>
         <translation>Ukuvumelanisa</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>I-GraphQL API: iphoyinti layo lokugcina, i-schema nendawo yokuzama imibuzo.</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Ukufuduka</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Izinguquko zokufakwa ezigcinwe njengamafayela: isimo sazo, ukuqhuba, qhuba futhi ubuyisele emuva.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Okuqukethwe kwakamuva</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Okuqukethwe okusha, okubanjelwe ukubuyekezwa, nezenzo kokukhethiwe.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Shicilela ikhophi engaguquki yesayithi ku-GitHub Pages noma kunoma yisiphi isiphakeli se-git.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Ukushicilela okungaguquki</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Izinhlobo zedatha</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Lonke uhlobo lwedatha lwekherneli nezandiso, nokuthi izigaba nokuqukethwe kulusebenzisa kanjani.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15292,6 +15611,22 @@ Isaziso: Amaphakheji ngeke akhishwe.</translation>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>Ama-akhawunti engekhoowasebenzisayo noma adinga ukubhekwa; wavimbele, wavule noma uwathumele.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Irekhodi lokucwaningwa kwabasebenzisi</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>Ubani oshintshile, ongenile noma onqatshelwe, nge-akhawunti ngayinye; ukuhlunga nokuthumela.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Umbiko wokungena</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>Ubani ongenile, ukungena nokwehluleka ngosuku ngalunye; khipha umsebenzisi yonke indawo.</translation>
     </message>
 </context>
 <context>
@@ -22108,6 +22443,22 @@ Isaziso: Amaphakheji ngeke akhishwe.</translation>
         <source>%n hours ago</source>
         <translation>Emahoreni angu-%n edlule</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>Izimpendulo zemibuzo egciniwe ye-GraphQL API, kanye namakilasi okuqukethwe e-schema yayo.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>Shicilela ikhophi engaguquki ku-GitHub Pages noma kunoma yisiphi isiphakeli se-git</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Ukushicilela okungaguquki</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>Inqolobane engaguquki inikeza amakhasi kusukela kule seva. Ukuze ushicilele ikhophi engaguquki yesayithi kwenye indawo, ku-GitHub Pages noma kunoma yisiphi isiphakeli se-git, sebenzisa ukushicilela okungaguquki.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25649,6 +26000,10 @@ Isaziso: Amaphakheji ngeke akhishwe.</translation>
     <message>
         <source>last purge</source>
         <translation>ukususa kokugcina</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>Ukubhala akukwazanga ukuthatha ukhiye wesimo (okokugcina %date): ngakunye kwenza yonke imiphumela egcinwe kunqolobane ibe yindala. %file kumele ibhaleke yiwo wonke umsebenzisi isayithi elisebenza njengaye; ku-NFS idinga i-NFSv4 noma i-lockd.</translation>
     </message>
 </context>
 <context>
@@ -33597,6 +33952,14 @@ Isaziso: Amaphakheji ngeke akhishwe.</translation>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>Amaseshini aphelelwe yisikhathi enkambisi yePHP asuswa yiPHP ngokwayo (session.gc_maxlifetime), hhayi leli khasi noma ingxenye ye-session_gc ye-cronjob.</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>Amaseshini angenile abo bonke abasebenzisi ayabhalwa, futhi ayakhishwa, embikweni wokungena, osebenza nanoma yisiphi isiphathi seseshini.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>Vula umbiko wokungena</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37921,6 +38284,26 @@ isebenze i-akhawunti yenu.</translation>
     <message>
         <source>None yet</source>
         <translation>Akukabi khona</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Imisebenzi yokuphepha</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>Ukungena kwenu kwakamuva, imizamo ehlulekile nezinguquko kuphasiwedi yenu, ikheli le-imeyili nokungena ngezinyathelo ezimbili.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>Ukungena kwakamuva, imizamo ehlulekile nezinguquko zokuphepha kwale akhawunti.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>Buyekeza imisebenzi</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>Ukungena okuhlulekile: %count</translation>
     </message>
 </context>
 <context>
@@ -44087,6 +44470,42 @@ Uma nifuna ukuthumela amazwana kumvumi noma ukubuka isimo sebenzisa i-URL engeza
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>Ngemva kokungena, umsebenzisi kumele akhethe iphasiwedi entsha ngaphambi kokwenza okunye. Sebenzisa lokhu uma ninika othile iphasiwedi yesikhashana.</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>Khetha isithombe esikhona</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>Ifayela lesithombe lento oyikhethayo likopishelwa kule nkambu. Enye into ayishintshi.</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>Isithombe sika-“%name” sikopishelwe kule nkambu.</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>Phequlula ukuthola isithombe</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>Sesha izithombe ngegama</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Sesha</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>Sebenzisa isithombe sika-“%name”</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>Sebenzisa lesi sithombe</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>Asikho isithombe esihambisana nosesho lwakho.</translation>
     </message>
 </context>
 <context>
@@ -51011,6 +51430,10 @@ Bhekani ikhasi lezidingo ukuze nithole ulwazi olwengeziwe.</translation>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>I-crontab ayibhalwanga (%reason). Engezani le migqa ku-crontab yomsebenzisi isayithi esebenza ngaye, kungenjalo ulayini, ukungenisa, izaziso nenkomba yokusesha akusoze kwasebenza:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>Ukufaka kabusha kwenziwa nge-Kickstarter (%file, bese kuba php bin/php/kickstarter.php run --apply) noma ngokufaka okusha.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54890,6 +55313,10 @@ isebenze i-akhawunti yenu.</translation>
         <source>eZJSCore Public Packer cache</source>
         <translation>Inqolobane ye-eZJSCore Public Packer</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>Inqolobane ye-GraphQL (izimpendulo namakilasi e-schema)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54976,6 +55403,14 @@ isebenze i-akhawunti yenu.</translation>
     <message>
         <source>Copy of %class_name</source>
         <translation>Ikhophi ye-%class_name</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Izinhlobo zedatha</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>Uhlobo lwedatha %string</translation>
     </message>
 </context>
 <context>
@@ -55802,6 +56237,26 @@ isebenze i-akhawunti yenu.</translation>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>Isithombe se-SVG asikwazanga ukufundwa, noma akukho okuqukethwe kusona okungabonakaliswa ngokuphephile.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>Isithombe asikwazanga ukukopishwa. Sicela uzame futhi noma uxhumane nomlawuli wesayithi.</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>Into ekhethiwe ayikho noma awuvunyelwe ukuyifunda.</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>Into ekhethiwe ayinaso isithombe.</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>Ifayela lesithombe lento ekhethiwe alikwazanga ukufundwa.</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>Isithombe sento ekhethiwe sikhulu kunalokho okuvunyelwe yile nkambu: amabhayithi angu-%1.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56332,6 +56787,42 @@ isebenze i-akhawunti yenu.</translation>
         <source>The bookmark was renamed to &quot;%name&quot;.</source>
         <translation>Uphawu lokufunda luqanjwe kabusha lwaba “%name”.</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>Leli khasi licishiwe kulokhu kufinyelela isayithi (%siteaccess). Vulani uphawu lokufunda ekufinyeleleni isayithi okunaleli khasi.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>Imojuli yaleli khasi ayifakiwe noma ayinikwanga amandla lapha.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>Leli khasi alisekho: imojuli yalo ayinakho ukubuka okunjalo.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>Ayikho neyodwa yezindima zenu enivumela ukuthi nivule leli khasi.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>Aninayo imvume yokusebenzisa lokhu kufinyelela isayithi.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>Aninayo imvume yokufunda okuqukethwe okuboniswa yileli khasi.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>Lolu hlobo lwekhasi alinakwenziwa uphawu lokufunda: lisebenza kuphela efomini, noma liyikhasi lomzuzwana owodwa.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>Ikheli laleli khasi alikho.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>Leli khasi alikwazi ukuvulwa manje.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56803,6 +57294,10 @@ Kuzodingeka nishintshe isigaba sendawo yomsuka ngokusebenzisa umsebenzi wokushin
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>I-mail transport yenqabe imiyalezo engu-%count ekusebenzeni kokugcina. Hlolani iseva yemeyili ne-site.ini MailSettings.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Izehlakalo ezingu-%count ziyalinda futhi akukho ukusebenza komsebenzi we-cron wezaziso okurekhodiwe. Engezani ingxenye yomsebenzi we-cron “frequent” ku-crontab, noma niqalise exp:notification:run --apply.</translation>
     </message>
 </context>
 <context>
@@ -63059,6 +63554,10 @@ Kuzodingeka nishintshe isigaba sendawo yomsuka ngokusebenzisa umsebenzi wokushin
         <source>Choose another site or section with the node picker</source>
         <translation>Khethani elinye isayithi noma isigaba nisebenzisa isikhethi sendawo yomsuka</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>Umlawuli wesistimu kuphela ongashintsha umnikazi: qalisani ./console exp:content-check --fix-permissions --apply njenge root.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64592,6 +65091,10 @@ Kuzodingeka nishintshe isigaba sendawo yomsuka ngokusebenzisa umsebenzi wokushin
     <message>
         <source>empty</source>
         <translation>akunalutho</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>Isihluthulelo sokusayina sesidlule unyaka owodwa ubudala: sishintsheni nge exp:audit key rotate --apply.</translation>
     </message>
 </context>
 <context>
@@ -68422,6 +68925,486 @@ Kuzodingeka nishintshe isigaba sendawo yomsuka ngokusebenzisa umsebenzi wokushin
         <source>Share of page time</source>
         <translation>Isabelo sesikhathi sekhasi</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>kuceliwe ukukhiqiza okuphelele</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>inqolobane yamakhasi ibingenalo leli khasi (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>inqolobane yamakhasi ayiphendulanga</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>Ikhiqiziwe</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>Ikhiqizwe yikherneli: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>Ihlinzekwe isuka enqolobaneni yamakhasi, ithathe %ms ms. Ikhasi lagcinwa ngo %stored ngokukhiqiza okuthathe %render ms, %age s edlule.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>Khiqiza manje</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>Buyela ekubukeni kwenqolobane</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>Kusukela ekukhiqizeni ngo %stored (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>Lesi sicelo: ihlinzekwe isuka enqolobaneni yamakhasi, ithathe %ms ms.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Umsebenzisi</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>I-ID yomsebenzisi</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>Iphrofayela ye-cache</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>Lokhu kubuka</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>Buka inqolobane</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>ngomsebenzisi ngamunye (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>Iphrofayela ye-cache yomsebenzisi: abasebenzisi abanephrofayela efanayo babelana ngamafayela e-cache okubuka</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>yebo</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>cha</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Ukungena</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>Ungene ngemvume</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>Iseshini</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>Izingxenye zokhiye we-cache wokubuka okuqukethwe ezincike kumsebenzisi, ngqo njengoba ukhiye uzithatha, ngaphansi kwe-ViewCacheTweaks yaleli khasi. Abasebenzisi abanephrofayela efanayo babelana ngamafayela e-cache okubuka, ngaphandle uma izingxenye zokubuka ngokwakho zihlukile (okuncamelayo, okhiye bama-listener): lezo zinephrofayela yazo, kuleli khasi kuphela.</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>Iphrofayela</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>Lokhu kubuka (i-node %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: umsebenzisi ngamunye ongenile unamafayela akhe e-cache.</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>I-ViewCacheTweaks esebenzayo: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>Ingxenye</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>Inani</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>Ayikho ingxenye encike kumsebenzisi (ViewCacheTweaks).</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>lokhu kubuka</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>Kopisha njengombhalo</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>Izindima</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>Azikho izabelo zezindima ezikwazile ukufundwa.</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>I-ID yendima</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Indima</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>Isihlukaniso</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>Kwabelwe</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>umsebenzisi</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>iqembu %name (into %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>Kukopishiwe</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>Akukwazanga ukukopisha.</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>kushiywe yi-listener</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>Izivakashi ezingaziwa</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>kufana nokwakho</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>kuhlukile</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>Iphrofayela izivakashi ezingaziwa ezithola ngaphansi kwe-ViewCacheTweaks efanayo, nokuncamelayo okuzenzakalelayo, ngaphandle kwezingxenye zokubuka: i-listener efunda iseshini ayikwazi ukubuzwa ngazo.</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>Okuncamelayo</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>Ayikho imodi yokubuka encike kokuncamelayo komsebenzisi (site.ini [ContentSettings] CachedViewPreferences).</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>Okuncamelayo ukubuka kwalezi zimodi zokubuka okuncike kukho (CachedViewPreferences), nenani lomsebenzisi noma elizenzakalelayo. Kusephrofayeleni njenge-userpreferences, okwazo zonke izimodi zokubuka ndawonye.</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>Imodi yokubuka</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>Okuncanyelwayo</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>Okuzenzakalelayo</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>Izinqubomgomo</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>Bonisa izinqubomgomo zezindima (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>Izinqubomgomo zilayishwa kuseva lapho lesi sigaba sivulwa, ikhasi elilodwa ngesikhathi, futhi zingahlungwa ngemojula nangomsebenzi.</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>Umsebenzi</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>Yonke imojuli</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>Yonke imisebenzi</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>Imikhawulo</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>Bonisa okuningi</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>Lezi zindima azinazo izinqubomgomo.</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>Ayikho inqubomgomo ehambisana nesihlungi.</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%shown kwezi %matching izinqubomgomo (%total sezizonke)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>Ilayishwa uma ivulwa.</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>module/function, indima, umkhawulo</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>Sesha izinqubomgomo</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>Layisha okwengeziwe</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>Imojuli/umsebenzi</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>Zonke izindima (izinqubomgomo ezingu-%count)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>Azikho izinqubomgomo ezifanayo.</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%shown kwezinqubomgomo ezingu-%matched</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>Alukho impendulo</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>kufihliwe</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>Bonisa izincazelo</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>Fihla izincazelo</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Vula</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>Vula konke</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>Vala konke</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>Ukhiye noma inani</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>Sesha kuseshini</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Uhlobo</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>%count okwengeziwe</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>kufakwe ngaphakathi kakhulu ukuthi kuboniswe</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>kunqunyiwe, %count izinhlamvu sezizonke</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Kuqalile</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>Igama lekhukhi</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>I-ID yeseshini</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>Isiphathi</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>Indlela yokugcina</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>Okuzenzakalelayo kwe-PHP</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>Isikhathi sokuphila (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>Ikhukhi</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>isikhathi sokuphila %s imizuzwana</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>Iseshini yakho ye-PHP, njengoba yayinjalo lapho isigaba sivulwa, akusoze kube enye. Amanani okhiye ababukeka njengezimfihlo (amathokheni, ama-hash, amaphasiwedi) ayafihlwa (debugbar.ini SessionMask[]); konke okunye kuboniswa njengoba kugciniwe, kuhlanganise nedatha yomuntu siqu.</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>%count okhiye, %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>enkulu</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>Iseshini ayinalutho.</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>Ayikho iseshini eqaliwe yalesi sicelo.</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Isandiso %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>I-kernel nokunye</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>Akuwona wonke amangeniso aboniswayo: iseshini inokuningi kunalokho okungabhalwa lapha.</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>%count okhiye abafakwanga ohlwini.</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>Uhlaka</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>Amanani abukeka njengethokheni (i-JSON Web Token, iziqinisekiso zesihloko se-Authorization, ukhiye oyimfihlo, umbhalo omude we-hex noma ongahleliwe) nawo ayafihlwa, noma ngabe ukhiye wawo ubizwa ngokuthini (debugbar.ini SessionValueMask[]).</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>Ukhiye ubukeka njengemfihlo (debugbar.ini SessionMask[]).</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>Inani libukeka njengethokheni.</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>Ngaphansi kokhiye ofihliwe.</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>Iseshini njengombhalo, ifihlwe njengethebula.</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>Iseshini inkulu kuno-%size (debugbar.ini SessionWarnBytes): sonke isicelo salo msebenzisi sifunda iseshini yonke, futhi siyibhale uma ishintshile.</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>I-PHP igcina le seshini kumafayela futhi ikhiye ifayela isikhathi sonke sesicelo: izicelo zomsebenzisi oyedwa (amathebhu amaningi, izingcingo ze-AJAX) ziyalindana.</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>Gcina kuvuliwe</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>Inkulu kuno-%size (debugbar.ini SessionWarnBytes): sonke isicelo salo msebenzisi sifunda iseshini yonke.</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%hits kokungu-%count kufundwe kunqolobane</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>Asikho isifanekiso esinikeziwe (ukubuka okufundwe kunqolobane yokubuka akunikezi nesisodwa).</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>Ukunikezwa kwezindima</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>Izindima nezinqubomgomo</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>kwehlukile kwezivakashi ezingaziwa</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>kuyafana nezivakashi ezingaziwa</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70302,6 +71285,14 @@ Kuzodingeka nishintshe isigaba sendawo yomsuka ngokusebenzisa umsebenzi wokushin
     <message>
         <source>not sent</source>
         <translation>akuthunyelwanga</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Umsebenzi we-cron wezaziso urekhoda lapha konke ukusebenza kwawo. Engezani ingxenye frequent ku-crontab, noma niqalise exp:notification:run --apply.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>Sebenzisani ikhonsoli: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -76020,6 +77011,98 @@ Kuzodingeka nishintshe isigaba sendawo yomsuka ngokusebenzisa umsebenzi wokushin
         <source>This topic is not Released; readers do not see it.</source>
         <translation>Lesi sihloko asiKhishiwe; abafundi abasiboni.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Ukufuduka</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Izinguquko zokufakwa ezigcinwe njengamafayela: isimo sazo, ukuqhuba, qhuba futhi ubuyisele emuva.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Shicilela ikhophi engaguquki yesayithi ku-GitHub Pages noma kunoma yisiphi isiphakeli se-git.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Ukushicilela okungaguquki</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>Kubuyekezwa</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>Abafundi bayalibona leli khasi.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>Lifihliwe kubafundi kuze kube yilapho umuntu elikhipha.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>Ikhasi manje lisekubuyekezweni. Lifihliwe kubafundi kuze likhishwe.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>Ikhasi Likhishiwe: abafundi sebeyalibona manje.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>Ikhasi selibuye laba yiSiqeshana. Lifihliwe kubafundi kuze libuyekezwe futhi likhishwe.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>Khipha manje</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>Umsebenzisi kuphela onendima %role ongabhalanga lolu hlobo ongalikhipha.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>Izihloko zosizo ezilinde ukukhishwa</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>Liyalifihla kubafundi kuze liphinde likhishwe.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>Umbuyekezi uzolihlola ngokulandelayo. Abafundi abakaliboni.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>Abafundi balibona ngokushesha.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>Liyalikhipha ekubuyekezweni ukuze kwenziwe omunye umsebenzi. Abafundi abaliboni.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>Fihla leli khasi kubafundi?</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>Buyisela leli khasi eSiqeshaneni?</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>Abafundi abasaboni %title kuze kube yilapho umuntu elikhipha futhi.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title libuyela eSiqeshaneni ukuze kwenziwe omunye umsebenzi. Abafundi abakaliboni, futhi lidinga ukubuyekezwa okusha ngaphambi kokuthi likhishwe.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Khansela</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>Lezi zihloko zisekubuyekezweni. Abafundi bazibona uma umuntu ongabhalanga inguqulo yamanje ezikhipha.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76475,6 +77558,46 @@ Kuzodingeka nishintshe isigaba sendawo yomsuka ngokusebenzisa umsebenzi wokushin
         <source>None.</source>
         <translation>Lutho.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>nge-app yokuqinisekisa</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>ngekhodi ethunyelwe nge-imeyili</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>ngekhodi yokubuyisela</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>nge-passkey</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>nge-akhawunti yangaphandle</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Imisebenzi yokuphepha</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>Kuboniswa njengenethiwekhi yalo; ikheli ligcinwa ngendlela izilungiselelo zokuvikelwa kwedatha zesayithi ezisho ngayo.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Akurekhodiwe</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Indawo</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>cishe</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76718,6 +77841,42 @@ Kuzodingeka nishintshe isigaba sendawo yomsuka ngokusebenzisa umsebenzi wokushin
         <source>Manage devices</source>
         <translation>Phatha amadivayisi</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>nge-app yokuqinisekisa</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>ngekhodi ethunyelwe nge-imeyili</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>ngekhodi yokubuyisela</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>nge-passkey</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>nge-akhawunti yangaphandle</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Imisebenzi yokuphepha</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Akurekhodiwe</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Indawo</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>cishe</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76797,6 +77956,14 @@ Kuzodingeka nishintshe isigaba sendawo yomsuka ngokusebenzisa umsebenzi wokushin
         <source>View the sessions of this user</source>
         <translation>Buka amaseshini alo msebenzisi</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>I-akhawunti yenu %login ku %site isanda kusetshenziswa ukungena isuka endaweni engakaze ingene kuyo muva nje:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>Indawo ecishe ibe yiyo</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76835,6 +78002,10 @@ Kuzodingeka nishintshe isigaba sendawo yomsuka ngokusebenzisa umsebenzi wokushin
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%browser ku-%os</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Umbiko wokungena</translation>
     </message>
 </context>
 <context>
@@ -77043,6 +78214,82 @@ Kuzodingeka nishintshe isigaba sendawo yomsuka ngokusebenzisa umsebenzi wokushin
         <source>The passkey could not be checked. Please try again.</source>
         <translation>I-passkey ayikwazanga ukuhlolwa. Sicela nizame futhi.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>Ama-akhawunti angena ngama-passkey kuphela awakwazi ukusebenzisa iphasiwedi lapha: khethani okuthi “Ngena nge-passkey”.</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>Ama-passkey ka-%login</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>Ama-passkey le akhawunti engena ngawo. Hoxisani leyo esedivayisini elahlekile noma entshontshiwe: ayisakwazi ukungena. Umnikazi wengeza amasha ngokwakhe.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>I-akhawunti yenu idinga i-passkey</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>Engezani i-passkey ku-akhawunti yenu</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>Engezani i-passkey ukuze niqhubeke. Bese ningena ngayo esikhundleni sephasiwedi yodwa.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>Ukungena nge-passkey kushesha futhi kuphephile kunephasiwedi. Engezani eyodwa manje, noma niqhubeke ngaphandle kwayo.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>Hhayi manje</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>Hoxisa i-passkey “%name”?</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>Ayisakwazi ukungena kule akhawunti. Uma kade iyokugcina, umnikazi ungena ngephasiwedi, noma nina nisetha entsha.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>Hoxisa i-passkey</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>Hoxisa</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>Le akhawunti ayinayo i-passkey.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>Isiqinisekisi</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Akwaziwa</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>I-passkey yenu yokugcina: engezani enye ngaphambi kokuthi niyisuse.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>Le akhawunti ingena ngama-passkey kuphela (inqubomgomo ye-passkey): uma kungasekho nelilodwa, iphinde ingene ngephasiwedi yayo.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>Lena yi-passkey yenu yokugcina futhi i-akhawunti yenu ayikwazi ukungena ngaphandle kwayo. Qalani ngokwengeza enye i-passkey.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>I-passkey “%name” ihoxisiwe. Ayisakwazi ukungena kule akhawunti.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77142,6 +78389,34 @@ Kuzodingeka nishintshe isigaba sendawo yomsuka ngokusebenzisa umsebenzi wokushin
         <source>Code from your authenticator app</source>
         <translation>Ikhodi evela ku-app yenu yokuqinisekisa</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>Senizosula idatha unomphela noma nisule ilogi.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>Iphasiwedi yenu kanye ne-passkey</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>Iphasiwedi yenu kanye nekhodi evela ku-app yenu yokuqinisekisa</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>Noma:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>Lesi siphequluli asikwazi ukusebenzisa ama-passkey. Sebenzisani enye indlela, noma esinye isiphequluli.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>Uma niqhubeka, isiphequluli senu sizocela eyodwa yama-passkey enu.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>Qhubeka nge-passkey</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77232,6 +78507,70 @@ Kuzodingeka nishintshe isigaba sendawo yomsuka ngokusebenzisa umsebenzi wokushin
     <message>
         <source>Setup</source>
         <translation>Ukumisa</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>Ukushintsha iphasiwedi yakho, ikheli le-imeyili, ama-passkey, ukusayina ngezinyathelo ezimbili, amakhodi okubuyisa noma okhiye be-API, nokuphuma kwamanye amadivayisi akho.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>Ukudala nokuhlela abasebenzisi, amaphasiwedi abo namadivayisi, izilungiselelo ze-akhawunti, ukwamukela noma ukwenqaba ama-akhawunti amasha abasebenzisi, ukwabela izindima nokuhlela izinqubomgomo.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>Ukusula idatha</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>Ukukhipha udoti, ukususa izinto kuwo nokususa izinto eziningi ngesikhathi esisodwa.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>Ukususa, ukushicilela nokulondoloza okuqukethwe</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>Ukususa okuqukethwe (ngisho kudoti), ukushicilela nokulondoloza okusalungiswa, kubuzwa lapho ifomu ithunyelwa. Kuvaliwe ngokuzenzakalelayo.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>Ngaphambi kwesenzo esibucayi, umsebenzisi ongene uphinde aqinisekise ukuthi ungubani: ngephasiwedi yakhe ne-passkey, noma ngaphandle kwe-passkey ngephasiwedi yakhe nekhodi ye-app yakhe yokuqinisekisa. Amakhasi ewebhu kuphela abuzayo: isixhumanisi se-REST, SOAP, WebDAV, ukungena kwe-expservices nomugqa womyalo akusoze kubuze.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>Lapho izilungiselelo zisebenza khona</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>Izilungiselelo ze</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Konke ukufinyelela isayithi</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>Ukufinyelela isayithi %name</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Vula</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>Obuzwayo: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>Makhani amaqembu abasebenzisi ukuze kubuzwe amalungu awo kuphela (isibonelo, abahleli). Akukho elimakiwe: wonke umsebenzisi.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>Kulondolozwe ku-settings/override/site.ini.append.php, kukho konke ukufinyelela isayithi. Ukulondoloza kucela ukuthi niqinisekise ukuthi yinina.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>Kulondolozwe ku-settings/siteaccess/%name/site.ini.append.php. Inani elikhona ku-settings/override lihamba phambili kunalo. Ukulondoloza kucela ukuthi niqinisekise ukuthi yinina.</translation>
     </message>
 </context>
 <context>
@@ -77334,6 +78673,6822 @@ Kuzodingeka nishintshe isigaba sendawo yomsuka ngokusebenzisa umsebenzi wokushin
     <message>
         <source>Open the page</source>
         <translation>Vula ikhasi</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from kuya ku %to kwezi %count</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>Igama lokungena noma i-ID yomsebenzisi: i-akhawunti isehlakalo esiphathelene nayo noma umsebenzisi owenze isenzo.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>I-akhawunti</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Isenzo</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>Ngemuva</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>Noma imuphi umphumela</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Ngaphambi</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Umenzi</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Sula</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Kwenziwe</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>Izehlakalo zigcinwa izinsuku ezingu %days.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>Izehlakalo zigcinwa zize zisuswe ngesandla.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Izehlakalo</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>Noma yisiphi isenzo</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>Zonke izehlakalo zale akhawunti</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>Thumela uhlu njenge-CSV (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Kuhlulekile</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Kusuka</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>Nciphisa uhlu</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>Asikho isehlakalo esifanayo.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Ekhasini ngalinye</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>Ukurekhoda kuvaliwe ku-audit.ini ([UserAuditSettings] UserAudit); uhlu lubonisa okurekhodwe ngaphambili.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Kwenqatshiwe</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Umphumela</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Bonisa</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>Ithebula lerekhodi lokucwaningwa kwabasebenzisi alikho. Lakheni nge php update/common/scripts/6.0/createuseraudittable.php; kuze kube yilapho amafayela okucwaninga egcina sonke isehlakalo.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>Leli khasi lidinga idathabheyisi ye-SQL; alitholakali ku-MongoDB. Amafayela okucwaninga agcina sonke isehlakalo.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Kuya</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Irekhodi lokucwaningwa kwabasebenzisi</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Umsebenzisi</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Nini</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Kuphi</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>Ubani oshintshile, odalile, onike amandla, ovimbele, ohambisile noma osuse yiphi i-akhawunti, ubani ongenile noma onqatshelwe, nokuthi yiziphi izindima ezabelwe: umugqa owodwa ngesehlakalo ngasinye, nezinkambu ngaphambi nangemuva. Amaphasiwedi nezimfihlo akuze kurekhodwe.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>iqembu</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>isistimu</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>akwaziwa</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>Vikelani i-akhawunti yenu</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>Ikhodi yokubuyisela isetshenziswe ukungena ku-akhawunti yenu %login ku %site.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>Ikhodi yokubuyisela isetshenzisiwe</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>I-akhawunti</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>Ikheli elicishe libe yilo</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>Celani iphasiwedi entsha ukuze ningene futhi, noma nixhumane nabalawuli besayithi.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>Cela iphasiwedi entsha</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>Ikhodi ngayinye yokubuyisela isebenza kanye kuphela. Uma nilahlekelwe ifoni yenu, sethani kabusha i-app yenu yokuqinisekisa futhi nigcine amakhodi amasha okubuyisela endaweni ephephile.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>Imizamo yokungena ehlulekile ku-akhawunti yenu</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>Kusukela manje, ukungena kucela ikhodi ngaphezu kwephasiwedi yenu. Uma kunguni enikwenzile lokhu, akukho okufanele nikwenze.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>Uma bekuyinina futhi nikhohlwe iphasiwedi yenu, celani entsha. Uma kungenjalo, khethani iphasiwedi eqinile kakhudlwana futhi nivule ukungena ngezinyathelo ezimbili.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>Uma bekungeyona nina, kungenzeka ukuthi othile uyayazi iphasiwedi yenu: yishintsheni manje futhi nihlole ukuthi i-akhawunti yenu ingene kuphi.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>Amakhodi okubuyisela asele</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>Buyekeza amadivayisi enu</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>Isexwayiso sokuphepha</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>Othile uzame ukungena ku-akhawunti yenu %login ku %site ngephasiwedi engalungile izikhathi ezingu-%count zilandelana.</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>Kube nesehlakalo sokuphepha ku-akhawunti yenu %login ku %site.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>Lesi yisexwayiso sokuphepha mayelana ne-akhawunti yenu. Sithunyelwa kuzo zonke izinguquko ezinjalo futhi asikwazi ukuvalwa.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Isikhathi</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>Ukungena ngezinyathelo ezimbili kuvaliwe ku-akhawunti yenu %login ku %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>Ukungena ngezinyathelo ezimbili kuvaliwe</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>Ukungena ngezinyathelo ezimbili kuvuliwe ku-akhawunti yenu %login ku %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>Ukungena ngezinyathelo ezimbili kuvuliwe</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>I-akhawunti yenu %login ku %site ikhiyiwe ngemuva kokungena okuningi kakhulu okuhlulekile.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>I-akhawunti yenu manje ivikelwe yiphasiwedi yenu kuphela. Uma kungeyona nina enikwenzile lokhu, vulani futhi ukungena ngezinyathelo ezimbili ngemuva kokushintsha iphasiwedi yenu.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>I-akhawunti yenu ikhiyiwe</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>I-passkey yengezwe ku-akhawunti yenu %login ku-%site.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>Noma ubani onale passkey angangena ku-akhawunti yenu ngaphandle kwephasiwedi yenu. Uma ningayengezanga, yisuseni ngaphansi kokuthi Ama-passkey bese nishintsha iphasiwedi yenu.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>I-passkey isusiwe ku-akhawunti yenu %login ku-%site.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>Ayisakwazi ukungena ku-akhawunti yenu. Uma ningayisusanga, hlolani ama-passkey enu namadivayisi.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>I-passkey yengezwe ku-akhawunti yenu</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>I-passkey isusiwe ku-akhawunti yenu</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>Imisebenzi yokuphepha</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Imisebenzi yokuphepha ka %name</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Ungenile</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Umzamo wokungena ohlulekile</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Uphumile</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Amaseshini akhishiwe</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Ukungena kusuka kudivayisi entsha</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Ukungena kusuka endaweni entsha</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Ubunjalo buqinisekisiwe (“Qinisekisani ukuthi yinina”)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Ukuhlolwa kobunjalo kuhlulekile</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Ungene nge-passkey</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Ukungena nge-passkey kuhlulekile</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Ukungena kwenqatshiwe: ikhodi yesinyathelo sesibili ayikho noma ayilungile</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Ikhodi yesinyathelo sesibili engalungile</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>I-akhawunti ikhiyiwe ngemuva kokungena okuhlulekile</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>I-akhawunti ivuliwe</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Iphasiwedi ishintshiwe</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Ukushintsha iphasiwedi kuhlulekile</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Iphasiwedi isethwe kabusha</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Iphasiwedi entsha iceliwe</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Ikheli le-imeyili lishintshiwe</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Igama lomsebenzisi lishintshiwe</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Ukungena ngezinyathelo ezimbili kuvuliwe</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Ukungena ngezinyathelo ezimbili kuvaliwe</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Ikhodi yokubuyisela isetshenzisiwe</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Amakhodi amasha okubuyisela</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Iphasiwedi ye-app yenziwe</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Iphasiwedi ye-app ihoxisiwe</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>I-passkey yengeziwe</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>I-passkey isusiwe</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>I-akhawunti inikwe amandla</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>I-akhawunti ivimbelwe</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Konke</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Ukungena namaseshini</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Izinguquko ze-akhawunti</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Kudinga ukunakwa</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>yinina</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>ngumsebenzisi</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>ngu %login</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>Indlela</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>Isiphequluli</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>Isistimu yokusebenza</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Idivayisi</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>Indawo</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>Izwe</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Amaseshini</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>Yiziphi</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>Indlela yokuthumela</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Imizamo ehlulekile</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>Amakhodi asele</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>Isiphathi sokungena</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Imisebenzi yokuphepha</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Imisebenzi yokuphepha ka %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Ukungena nezinguquko ekuphepheni kwe-akhawunti yenu. Uma nibona okuthile eningakwenzanga, shintshani iphasiwedi yenu futhi nikhiphe amadivayisi eningawazi.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>Ukungena nezinguquko ekuphepheni kwale akhawunti.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Amadivayisi enu</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Shintsha iphasiwedi</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>Buyela ku-akhawunti</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>Imisebenzi yokuphepha ayirekhodwa</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>Ifundwa erekhodini lokucwaningwa kwabasebenzisi, elinethebula elithi expuser_audit elingekho noma elingasekelwe kule dathabheyisi. Qalisani php update/common/scripts/6.0/createuseraudittable.php, noma isibuyekezo sedathabheyisi se 6.0.15.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Izinsuku ezingu-%days ezedlule</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Ukungena ezinsukwini ezingu-%days ezedlule</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>Imisebenzi yokuphepha yakamuva</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Bonisa</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>kuhlulekile</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>kwenqatshiwe</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Ayikakabi bikho imisebenzi yokuphepha erekhodiwe.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>Izehlakalo zokuphepha zigcinwa izinsuku ezingu-%days.</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>Izehlakalo zokuphepha zigcinwa kuze kube umlawuli uyazisusa.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Landa idatha yami yokungena</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Amaseshini enu nezehlakalo zokuphepha njengefayela le-JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Amaseshini awaqoshwa kule sayithi, ngakho ayikho enye idivayisi ebingaphunyiswa. Shintsha iphasiwedi yakho manje.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>Amanye amaseshini angu-%count aphunyisiwe. Manje shintsha iphasiwedi yakho.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Ayikho enye idivayisi ebingene. Manje shintsha iphasiwedi yakho.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Ngiyabonga. Lesi senzakalo simakwe njengesakho.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Leso senzakalo asidingi mpendulo.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Ikhasi belisiphelelwe yisikhathi. Akukho okushintshiwe; sicela nizame futhi.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Vikelani i-akhawunti yenu</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Uma okuthile lapha bekungeyena wena, phumisa wonke amanye amadivayisi, bese ukhetha iphasiwedi entsha. Amadivayisi agcinwe engene nge Ngikhumbule nawo ayaphunyiswa.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Yonke idivayisi ngaphandle kwale iphunyiswa esicelweni sayo esilandelayo. Bese ukhetha iphasiwedi entsha.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Yebo, phumisa amanye amadivayisi</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Bekuwena yini lo?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Yebo, bekuyimina</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Cha, vikela i-akhawunti yami</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Ungenile</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Umzamo wokungena ohlulekile</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Uphumile</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Amaseshini akhishiwe</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Ukungena kusuka kudivayisi entsha</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Ukungena kusuka endaweni entsha</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Ubunjalo buqinisekisiwe (“Qinisekisani ukuthi yinina”)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Ukuhlolwa kobunjalo kuhlulekile</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Ungene nge-passkey</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Ukungena nge-passkey kuhlulekile</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Ukungena kwenqatshiwe: ikhodi yesinyathelo sesibili ayikho noma ayilungile</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Ikhodi yesinyathelo sesibili engalungile</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>I-akhawunti ikhiyiwe ngemuva kokungena okuhlulekile</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>I-akhawunti ivuliwe</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Iphasiwedi ishintshiwe</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Ukushintsha iphasiwedi kuhlulekile</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Iphasiwedi isethwe kabusha</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Iphasiwedi entsha iceliwe</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Ikheli le-imeyili lishintshiwe</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Igama lomsebenzisi lishintshiwe</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Ukungena ngezinyathelo ezimbili kuvuliwe</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Ukungena ngezinyathelo ezimbili kuvaliwe</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Ikhodi yokubuyisela isetshenzisiwe</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Amakhodi amasha okubuyisela</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Iphasiwedi ye-app yenziwe</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Iphasiwedi ye-app ihoxisiwe</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>I-passkey yengeziwe</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>I-passkey isusiwe</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>I-akhawunti inikwe amandla</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>I-akhawunti ivimbelwe</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Konke</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Ukungena namaseshini</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Izinguquko ze-akhawunti</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Kudinga ukunakwa</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Imisebenzi yokuphepha</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Imisebenzi yokuphepha ka %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Ukungena nezinguquko ekuphepheni kwe-akhawunti yenu. Uma nibona okuthile eningakwenzanga, shintshani iphasiwedi yenu futhi nikhiphe amadivayisi eningawazi.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Amadivayisi enu</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Shintsha iphasiwedi</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>Imisebenzi yokuphepha ayikarekhodwa kule sayithi.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Ukungena ezinsukwini ezingu-%days ezedlule</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Imizamo ehlulekile</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Ayikakabi bikho imisebenzi yokuphepha erekhodiwe.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Landa idatha yami yokungena</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Amaseshini enu nezehlakalo zokuphepha njengefayela le-JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Amaseshini awaqoshwa kule sayithi, ngakho ayikho enye idivayisi ebingaphunyiswa. Shintsha iphasiwedi yakho manje.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>Amanye amaseshini angu-%count aphunyisiwe. Manje shintsha iphasiwedi yakho.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Ayikho enye idivayisi ebingene. Manje shintsha iphasiwedi yakho.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Ngiyabonga. Lesi senzakalo simakwe njengesakho.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Leso senzakalo asidingi mpendulo.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Ikhasi belisiphelelwe yisikhathi. Akukho okushintshiwe; sicela nizame futhi.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Vikelani i-akhawunti yenu</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Uma okuthile lapha bekungeyena wena, phumisa wonke amanye amadivayisi, bese ukhetha iphasiwedi entsha. Amadivayisi agcinwe engene nge Ngikhumbule nawo ayaphunyiswa.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Yonke idivayisi ngaphandle kwale iphunyiswa esicelweni sayo esilandelayo. Bese ukhetha iphasiwedi entsha.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Yebo, phumisa amanye amadivayisi</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Bekuwena yini lo?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Yebo, bekuyimina</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Cha, vikela i-akhawunti yami</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>Iphasiwedi</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>Iphasiwedi nekhodi yesinyathelo sesibili</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>Isixhumi se-REST</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>Isixhumi se-SOAP</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>Ukungena kanye (single sign-on)</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>Ungene ngaphambi kokuba amaseshini arekhodwe</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Umbiko wokungena</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>Ubani ongenile kusayithi, ama-akhawunti angena futhi ahluleke kangaki, nokukhipha umsebenzisi yonke indawo. Kusebenza nanoma yisiphi isiphathi seseshini.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>Iseshini ikhishiwe. Idivayisi kufanele ingene futhi.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>U %login ukhishiwe emaseshini angu-%count.</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>U %login ubengenayo iseshini esebenzayo.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>Ayikho i-akhawunti ene-ID, igama lomsebenzisi noma ikheli le-imeyili elinjalo.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>Le yiseshini eniyisebenzisayo. Ukuyiqeda, phumani.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>Leyo seshini ibisiphelile kakade.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Ikhasi belisiphelelwe yisikhathi. Akukho okushintshiwe; sicela nizame futhi.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>Amaseshini awarekhodwa kule sayithi (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>Ithebula elithi expuser_session alikho</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>Amaseshini arekhodwa uma selenziwe: php update/common/scripts/6.0/createusersessiontable.php, noma isibuyekezo sedathabheyisi se 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>Manje nanamuhla</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>Amaseshini asebenzayo</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>Abasebenzisi abangenile</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>Ukungena kwanamuhla</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>Imizamo ehlulekile yanamuhla</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>Khipha umsebenzisi yonke indawo</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>Yonke iseshini ye-akhawunti iphela esicelweni sayo esilandelayo, kuhlanganise nalezo ezigcinwe ngu “Ngikhumbule”. Sebenzisani lokhu uma i-akhawunti ingase ibe sezandleni ezingalungile; bese nisetha kabusha iphasiwedi yayo.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>I-ID yomsebenzisi, igama lomsebenzisi noma ikheli le-imeyili</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>Phumisa yonke indawo</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>Ungenile manje</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>Kuboniswa angu-%limit asetshenziswe muva nje.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Umsebenzisi</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Idivayisi</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Ikheli</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>Ungenile</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>Ugcine ukusebenza</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Izenzo</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>Le divayisi</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Akurekhodiwe</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>Khipha</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>Ayikho iseshini engenile.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Izinsuku ezingu-%days ezedlule</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>Ukungena nemizamo ehlulekile kubalwa erekhodini lokucwaningwa kwabasebenzisi, elingekho; kubalwa amaseshini amasha.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>Usuku</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>Ukungena</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Imizamo ehlulekile</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>Amaseshini amasha</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>Isiphathi seseshini: %handler. Amaseshini afundwa ethebuleni elithi expuser_session, ngakho umbiko usebenza nanoma yisiphi isiphathi.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>Umsebenzi osolisayo emahoreni angu-%hours edlule</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>Inethiwekhi eyodwa yehlulekile ukungena kuma-akhawunti angu-%accounts (imizamo engu-%count)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>I-akhawunti ivaliwe ngemuva kokungena okwehlulekile</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>Ukungena okwehlulekile okungu-%count ku-akhawunti eyodwa</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>Ingene isuka emazweni angu-%count ngesikhathi esisodwa</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Imisebenzi yokuphepha</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Amasesheni</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>Ukungena okwehlulekile kufundwa kurekhodi lokuhlola labasebenzisi, elingatholakali lapha.</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>Akukho okusolisayo: ayikho i-akhawunti enokungena okwehlulekile okuphindaphindiwe, ayikho inethiwekhi ezama ama-akhawunti amaningi, ayikho i-akhawunti engene isuka emazweni amaningi.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>Isexwayiso sokuphepha se-akhawunti yenu</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>Kube nesehlakalo sokuphepha ku-akhawunti yenu %login: %event. Uma bekungeyona nina, vikelani i-akhawunti yenu ku %url.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Ukumisa</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>Buza okuqukethwe yile sayithi kanye izinkambu ikhasi elizidingayo, ngesicelo esisodwa. I-Schema ilandela amakilasi okuqukethwe; umbuzo ngamunye usebenza ngamalungelo omsebenzisi owuthumelayo.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>I-GraphQL API ivaliwe kulokhu kufinyelela isayithi. Yivule ku-graphql.ini: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>Umtapo wolwazi we-GraphQL (webonyx/graphql-php 15) awufakiwe.</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>Iphoyinti lokugcina</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>Umtapo wolwazi</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>I-Schema</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>Amakilasi okuqukethwe angu-%count, i-schema %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>Umbuzo</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>Okuguquguqukayo (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Sebenzisa</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>Impendulo</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>Iyasebenza…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>Impendulo ayikwazanga ukufundwa.</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>Umbuzo usebenza ngamalungelo akho, ungene ngale seshini.</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%count kumasekhondi angu-%seconds</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>awukho umkhawulo</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>Ukujula</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>Ubunkimbinkimbi</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>Izinto ohlwini ngalunye</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (okuzenzakalelayo %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>Izicelo ngomsebenzisi noma ngokhiye</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>Izicelo ngekheli elingaziwa</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>Ukuzihlola (introspection)</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>Imibuzo egciniwe kuphela</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>Umbuzo omkhulu kakhulu</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>amabhayithi angu-%bytes</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>Ukulayisha okukhulu kakhulu</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>Akukho kufinyelela isayithi %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>Izinguquko zivuliwe ku-%siteaccess.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>Izinguquko zivaliwe ku-%siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>I-GraphQL API ivuliwe ku-%siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>I-GraphQL API ivaliwe ku-%siteaccess.</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>Izilungiselelo azikwazanga ukubhalwa: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>Inqolobane yezimpendulo isuliwe: kususwe izimpendulo ezingu-%count.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>Maka ibhokisi eceleni kombuzo ukuze uwususe.</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>Umbuzo awukwazanga ukususwa: umbuzo ofika kuhla lwemibhalo lwe-PersistedQueryDirectoryList[] ususwa kanye nefayela lawo.</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>Umbuzo ogciniwe ususiwe.</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>Izinguquko</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>kuvuliwe</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>kuvaliwe</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Ukufinyelela kwamasayithi</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>Lapho i-API nezinguquko zayo ziphendula khona. Izinkinobho zibhala i-graphql.ini, njengoba kwenza ./console exp:graphql:enable kanye ne-exp:graphql:disable.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Ukufinyelela isayithi</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>I-GraphQL API</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Shintsha</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Vala</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>Vala izinguquko</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>Vula izinguquko</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Vula</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>Imikhawulo</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>graphql.ini [GraphQLSettings] yalokhu kufinyelela isayithi.</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>Inqolobane yezimpendulo</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>Izimpendulo zemibuzo egciniwe, zigcinwa ngokwamalungelo omsebenzisi futhi ziphelelwa yisikhathi njalo uma okuqukethwe kushicilelwa.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Isimo</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>Izimpendulo ezigciniwe</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>izimpendulo ezingu-%count, amabhayithi angu-%bytes</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>Isikhathi esiphezulu sokugcina</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds s</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>Kuphelelwe yisikhathi ngokugcina</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>Sula inqolobane yezimpendulo</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>Imibuzo egciniwe</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>Igcinwa nge-./console exp:graphql:persist, noma ngamaklayenti (imibuzo egciniwe ezenzakalelayo); ibizwa ngegama noma nge-SHA-256.</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>Amagama</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Usayizi</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Kuphi</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Susa</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>kuthunyelwe</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>kugciniwe</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>Yebo, susa lo mbuzo</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>Awukabikho umbuzo ogciniwe.</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>Okhiye be-API</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>Okhiye be-API bomuntu siqu abanesikhundla graphql:read (imibuzo) noma graphql:write (izinguquko). Bakhe futhi ubahoxise ekhasini elithi Ukufinyelela kwe-API, noma nge-./console exp:graphql:keys.</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>Ukufinyelela kwe-API</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>Bonke okhiye</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>Ukhiye</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Igama</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Umnikazi</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>Izikhundla</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>Kusetshenziswe ngokugcina</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>kuyasebenza</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>kuphelelwe yisikhathi</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>kuhoxisiwe</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>soze</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>Awukabikho ukhiye we-API onesikhundla se-GraphQL.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>I-GraphQL API ivaliwe ekufinyeleleni isayithi %siteaccess, okubonisa leli khasi; ithebula elingezansi libonisa lapho iphendula khona.</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>Okokufinyelela isayithi %siteaccess, okubonisa leli khasi.</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>Ama-webhook</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>Wonke umcimbi ocelwa yiphoyinti lokugcina (publish, update, trash, delete, move, hide, reveal, mutation) uthunyelwa kulo, usayiniwe, yingxenye ye-cronjob graphqlwebhooks. ./console exp:graphql:webhooks yenza okufanayo nalesi sigaba.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Imicimbi</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>konke</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Konke ukufinyelela isayithi</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>kuphukile</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>ayikho imfihlo</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>Okulindile</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count okuyekiwe</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>Ukulethwa kokugcina</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Thumela isivivinyo</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>Yebo, susa le webhook</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>Ayikabikho i-webhook.</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>Engeza i-webhook</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>Engeza</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>Ukulethwa kwakamuva</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Isikhathi</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Umphumela</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>Imibhaliso</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>Izibuyekezo ezibukhoma zamaklayenti: umfudlana wemicimbi ku-/api/graphql/subscribe, kanye ne-WebSocket (graphql-transport-ws) ku-Velocity. Umcimbi ngamunye uya kuphela kubabhalisile abavunyelwe ukufunda okuqukethwe kwawo.</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>Okuvuliwe manje</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>Okuningi okuvuliwe</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>%total sekukonke, %user ngomsebenzisi, %address ngekheli</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>Imibhaliso engaziwa</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>Ubude bomfudlana</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>I-webhook ayikwazanga ukwengezwa: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>I-webhook %name ishintshiwe; imfihlo yayo yokusayina iyahlala.</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>Imfihlo yokusayina ayikwazanga ukugcinwa (Ukumisa &gt; Izimfihlo).</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>I-webhook %name yengeziwe. Imfihlo yayo yokusayina, ekhonjiswa kulokhu kuphela: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>Ayikho i-webhook %name.</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>I-webhook %name ayiphendulanga: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>I-webhook %name iphendule %status ngo-%ms ms.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>Maka ibhokisi eceleni kwe-webhook ukuze uyisuse.</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>I-webhook %name isusiwe.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>I-GraphQL API ivaliwe kulokhu kufinyelela isayithi.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>Umtapo wolwazi we-GraphQL awufakiwe.</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>Sebenzisa i-GET noma i-POST.</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>Umzimba wesicelo awuyona into ye-JSON.</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables akuyona into ye-JSON.</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions akuyona into ye-JSON.</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>Thumela umbuzo nge-POST.</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>Isicelo asinawo umbuzo.</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>Umbuzo mude kunamabhayithi angu-%max.</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>Iphutha langaphakathi leseva</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node idinga okukodwa ncamashi kokuthi id, remoteId, path kanye ne-urlAlias.</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content idinga okukodwa ncamashi kokuthi id kanye ne-remoteId.</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>Ikhesa ka-after ayinikezwanga yile API.</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>Asikho isibizo sesithombe esithi %alias (image.ini [AliasSettings] AliasList[]).</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>Kwamukelwa kuphela imibuzo egciniwe lapha: thumela i-id yombuzo ogciniwe.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>I-hash yombuzo ogciniwe ayiyona i-SHA-256.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>I-hash yombuzo ogciniwe ayifani nombuzo.</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>Izicelo ziningi kakhulu: kuvunyelwe okufika ku-%limit kumasekhondi angu-%window. Zama futhi emasekhondini angu-%reset.</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>Umbuzo ujule ngamazinga angu-%depth; kuvunyelwe okufika ku-%max.</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>Umbuzo unobunkimbinkimbi obungu-%complexity; kuvunyelwe okufika ku-%max.</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>Lesi sicelo asivunyelwe ukufunda i-schema (introspection).</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search idinga umbhalo noma isihlungi (classes, subtree, sections, publishedAfter, publishedBefore).</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument akulona usuku (ISO 8601, 2026-10-30).</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag idinga okukodwa ncamashi kokuthi id, remoteId kanye ne-path.</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout idinga okukodwa ncamashi kokuthi id, identifier kanye ne-urlAlias.</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>Inkambu ethi operations yesicelo esinezingxenye eziningi akusona isicelo esisodwa se-JSON.</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>Inkambu ethi map yesicelo esinezingxenye eziningi akuyona into ye-JSON.</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>Isicelo esinezingxenye eziningi asinalo ifayela %field.</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>Indlela enkambini ethi map kumele iqale nge-variables.: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>Ifayela %name alifikanga liphelele (iphutha lokulayisha %error).</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>Ifayela %name likhulu kunamabhayithi angu-%max.</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>Ifayela %name alikwazanga ukuhlolwa.</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>Izinguquko (mutations) zivaliwe kulokhu kufinyelela isayithi (graphql.ini [GraphQLSettings] MutationsEnabled).</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>Thumela inguquko nge-POST.</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>Ngena ukuze ushintshe okuqukethwe.</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>Ukhiye we-API awunaso isikhundla %scope.</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>Inguquko eneseshini idinga ithokheni yefomu yeseshini (unhlokweni X-CSRF-Token).</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>I-uploadFromUrl ivaliwe: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] ayishoyo nhlobo umsingathi.</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>Ikheli kumele libe yikheli le-https.</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>Umsingathi %host akekho ku-graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>Ifayela alikwazanga ukulandwa.</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload wuhlobo lokufaka kuphela.</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>Okuguquguqukayo kohlobo Upload kuthatha ifayela lesicelo esinezingxenye eziningi.</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>I-remote id %remoteId isivele isetshenziswa.</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>Okuqukethwe sekunokuhumusha ngo-%language: sebenzisa i-updateContent.</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>Nikeza okungenani inkambu eyodwa.</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>Ayikwazanga ukwenziwa inguqulo entsha (okuqukethwe kunezinhlaka eziningi kakhulu).</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>Inguqulo %version akusiyo uhlaka.</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>I-deleteContent idinga ncamashi eyodwa ku-id ne-nodeId.</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>Indawo ayikwazi ukuhanjiswa ngaphansi kwayo uqobo.</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>Okuqukethwe sekunendawo ngaphansi kuka-%parentId.</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>Inani lenkambu %field alikwazanga ukugcinwa.</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>Alukho ulimi lokuqukethwe %language.</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>Asikho isigaba sokuqukethwe %class ku-schema.</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>Okuqukethwe akukho, noma awuvunyelwe ukukufunda.</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>Awuvunyelwe ukwenza lokhu kulokhu okuqukethwe.</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>Isigaba %class asinayo inkambu %field engabhalwa.</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>Inkambu %field inikezwe kabili.</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>Inkambu %field ithatha ifayela: lithumele njenge-upload (isicelo esinezingxenye eziningi).</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>Inkambu %field ayithathi fayela.</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>Inkambu %field idinga inani.</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>Ifomethi %format ingeyezinkambu zombhalo onothile kuphela; %field ithatha inani layo njengoba linjalo (RAW).</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>Inkambu %field iyadingeka.</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>I-HTML ayikwazanga ukufundwa.</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>I-content ithatha i-version kanye ne-id kuphela.</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>Ithokheni yokubuka kuqala ayivumelekile noma iphelelwe yisikhathi.</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>Akuyona i-origin (https://host noma https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>Akusona isikhundla se-GraphQL API: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>Thumela imibhaliso ku-/api/graphql/subscribe (umfudlana wemicimbi noma i-WebSocket).</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>Isicelo asisho msebenzi wedokhumenti.</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>Umbhaliso ucela inkambu eyodwa ncamashi.</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>Kuvulwe imibhaliso eminingi kakhulu; zama futhi emuva kwesikhathi.</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>Unemibhaliso evuliwe engu-%max, okuyinani eliphezulu elivunyelwe.</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>Ikheli lakho linemibhaliso evuliwe engu-%max, okuyinani eliphezulu elivunyelwe.</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>Imibhaliso ivaliwe kulokhu kufinyelela isayithi.</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>Ngena ukuze ubhalise (ithokheni noma ukhiye we-API womuntu siqu).</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>Thumela izinguquko (mutations) ku-/api/graphql.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>Ukufuduka</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Isimo asikwazanga ukufundwa: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Amathebula okufuduka awekho okwamanje: ./console exp:upgrade --apply uyawenza.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>Ukufuduka okungu-%count kuhlulekile</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>Ukuqhuba kuyaqhubeka, kuqalwe ngu-%user</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>Ukufakwa kukhiyiwe: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Kulindile</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Kuhlulekile</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>Izintandane</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Ukuqhuba kokugcina</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>akukho okwamanje</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>Konke ukufuduka</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>Ukuqhuba okulingisiwe</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>Ukuzama</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>Ukufuduka okulindile kuqhutshwe kumsebenzi owabuyiselwa emuva ngemuva kwalokho: akukho okugciniwe. Ngezansi yilokho okushintshwe yilowo nalowo kudathabheyisi.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>Lokho ukuqhuba obekungakwenza manje. Akukho okushintshwayo: ukufuduka ngakunye okulindile kubala izinguquko obekungazenza, kanti ukuqhuba kubala lokho obekungakwenza ngaphambili nangemuva.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>Lingisa</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Qhuba</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>Ukuzama kuhlulekile: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>Ukulingisa kudinga i-PostgreSQL noma i-SQLite, okuzinguquko zayo zesakhiwo zingabuyiselwa emuva; kule dathabheyisi uhlelo olungezansi yilokho ukuqhuba obekungakwenza.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>Ukufuduka</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>Ukufuduka</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Isimo</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>Lokho obekungakwenza</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>Ukulingisa: %result ku-%ms ms</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>Akukho kufuduka okwamanje.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>Ngaphambi nangemva kokuqhuba</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>Isithombe sangaphambili</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>siyathathwa, futhi sibuyiselwa uma ukufuduka kuhluleka</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>kuvaliwe</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>Isithombe sangemuva</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>siyathathwa uma ukuqhuba kuphumelele</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>Ukufuduka okungu-%total: %pending kulindile, %done kuqedile, %failed kuhlulekile.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>Umlando wokufuduka</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>Ukuqhuba ngakunye nomsebenzisi wakho, indawo yokusebenza, izithombe kanye nalokho okwenziwe i-commit, kwanikezwa ithegi futhi kwaphushwa. Ukuqhuba okuhlulekile noma okuphazanyisiwe kungaqhutshekwa; ukuqhuba okunesithombe esathathwa ngaphambi kwakho kungabuyiselwa emuva.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>Ukuqhuba akukwazanga ukufundwa: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Amathebula okufuduka awekho okwamanje: ./console exp:upgrade --apply uyawenza.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Bonisa</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Konke</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>Ukuqhuba</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Kuqalile</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Ngu</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>Izithombe</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Inqolobane</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Izenzo</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>ngaphambili</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>ngemuva</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>ukuphusha: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>Qhubeka</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Buyisela emuva</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>Akukho kuqhuba kulesi simo.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>Kuqalwe lapha</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>Ukuqhuba, ukuqhubeka nokubuyisela emuva okuqalwe kulawa makhasi, kanye nombiko walokho ngakunye.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Ini</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Umphumela</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Ukubuyisela emuva</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>Ukubuyisela emuva kwe-%target</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>Ukuqhuba %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Lokho ukuqhuba okwenzile, irekhodi lakho nelogi yakho. Ukuqhuba okuqalwe lapha kuyaqhubeka ngemuva uma leli khasi livaliwe; vula ikhasi futhi ukuze ukulandele.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>Qhubeka nalokhu kuqhuba</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>Buyisela emuva lokhu kuqhuba</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>Irekhodi alikwazanga ukufundwa: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Inqubekelaphambili</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Kuqalwe ngu-%user ngo-%time.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>Kuhlolwa ikhodi futhi kuthathwa isithombe ngaphambi kokuqhuba</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>Kuqhutshwa %id (%index kokungu-%total)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>%done kokungu-%total kuqedile</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>Ukufuduka sekuqhutshiwe; kubuyiselwa isithombe uma okukodwa kuhlulekile</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>Kuthathwa isithombe ngemva kokuqhuba, kwenziwa i-commit, ithegi kanye nokuphusha</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>Kubuyiselwa isithombe</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>Ukuqhuba sekuphelile. Kulayishwa umbiko wakho.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>Inqubekelaphambili ayikwazanga ukulandelwa. Layisha kabusha ikhasi ukuze ubone ukuthi ukuqhuba kuhamba kanjani.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>Leli khasi lilandela ukuqhuba njengoba kuhamba.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Layisha kabusha</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Umbiko</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Isikhathi</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms amamilisekhondi</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>Lokho ukuqhuba okuphrinte njengamaphutha</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Irekhodi</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>Indawo yokusebenza</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>akukho</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Kuphelile</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>I-commit</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Ithegi</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Ukuphusha</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Umlayezo</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>Ukufuduka kwalokhu kuqhuba</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>Umthombo</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>Ilogi yokuqhuba</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>Kuboniswa ukuphela kwelogi kuphela.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>kuyaqhuba</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>kuphele ngaphandle kombiko</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>kuphumelele</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>kuhlulekile</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>kwenqatshiwe</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>idathabheyisi ibingafinyeleleki</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>iphutha langaphakathi</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>Ukuqhuba kuyaqhubeka</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind kuqalwe ngu-%user ngo-%time.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>Kulandele</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>Ukufakwa kukhiyiwe</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>Okunye ukuqhuba kubambe ukhiye (ukuthuthukisa noma ukuqhuba kukhonsoli): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>kuqedile</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>kulindile</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>akudingeki</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>akwaziwa</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>kubuyiselwe emuva</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>kusetshenzisiwe</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>bekungasetshenziswa</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>kuhoxisiwe</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>bekungahoxiswa</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>akuqhutshwanga</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>kulinde okunye</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>ushintsho lwamukelwe</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>ushintsho belungamukelwa</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>kulingisiwe</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Ukufuduka</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Isimo</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Umlando</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>Hoxisa %target</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>Ukuqhuba kuhoxiswa kuye esithombeni esathathwa ngaphambi kwakho, ukufuduka okukodwa nge-down() yakho. Ukubuyisela isithombe sangaphambilini kungokochwepheshe. Ngakunye kuqhuba ngemuva njengawe, ngemva kwesithombe sesimo samanje.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>Lokho okungahoxiswa akukwazanga ukufundwa: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>Ukuqhuba</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>Ukufuduka okukodwa</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>Isithombe sangaphambilini</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>Incazelo</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>yebo</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>cha</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Isithombe</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Ilebula</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>Kuthathwe</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Uhlobo</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>Izingxenye ezizobuyiselwa</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>Idathabheyisi</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>Amafayela okugcina (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>Izilungiselelo (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>Ukubuyisela idathabheyisi kuyibuyisela esikhathini sesithombe, kuhlanganise nezikhathi zokungena: ungacelwa ukuthi ungene futhi ngemuva kwalokho. Konke okushintshile kusukela lapho kuyalahleka; kuqala kuthathwa isithombe sesimo samanje.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>Ngiyazi ukuthi lokhu kubuyiselani</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>Thayipha futhi i-id yesithombe</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>Yebo, kuhoxise</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Khansela</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>Ukuqhuba okunesithombe esathathwa ngaphambi kwakho.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>Khetha</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>Akukho kuqhuba okunesithombe okwamanje.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>Ukufuduka okusetshenzisiwe okungazihoxisa (kune-down()).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>Akukho kufuduka okusetshenzisiwe okune-down().</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>Izithombe zangaphambilini (ochwepheshe)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>Akukho sithombe okwamanje.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>Qhuba ukufuduka</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>Ukuqhuba kuqhubeka ngemuva njengo-%user, futhi ikhasi lakho likubonisa njengoba kuhamba. Ngaphambi kokufuduka kokuqala kuthathwa isithombe sokufakwa; uma ukufuduka kuhluleka ukuqhuba kuyama futhi isithombe siyabuyiselwa.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>Zama kuqala</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Isimo asikwazanga ukufundwa: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>Ukufuduka okulindile</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>Kuqhuba ngalolu hlelo. Susa umaki kokukodwa ukuze ukushiye, kanye nalokho okukudingayo, kuze kube ukuqhuba kwakamuva.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>Kuqhube</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>Kuvula imodi yokulungisa ngesikhathi kuqhuba.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>Kushintshwe ngemva kokusetshenziswa</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>La mafayela akuwona lawo asetshenziswa. Ukuqhuba kuyawenqaba ngaphandle uma ushintsho lwamukelwa ngesizathu; awaqhutshwa futhi, isamu yokuhlola entsha iyarekhodwa futhi isizathu sigcinwa kwilogi yokuhlola.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>Yamukela izinguquko</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Kungani</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>Okuzenzakalelayo yikho okuphephile. Ibhokisi ngalinye lishiya isinyathelo.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>Asikho isithombe</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>Asikho isithombe ngaphambi nangemva kokuqhuba: ukuhluleka akukwazi ukubuyiselwa ngokuzenzakalelayo.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>Akukho kubuyisela</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>Ngemva kokuhluleka, shiya ukufakwa njengoba ukuhluleka kukushiye.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>Gcina izinguquko ezingenziwanga i-commit</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>Qhuba noma izilungiselelo, izandiso noma imiklamo inezinguquko ezingenziwanga i-commit; zingena esithombeni.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>Ayikho i-commit</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>Ungenzi i-commit yefayela lesimo nelogi yokuqhuba (futhi ayikho ithegi noma ukuphusha).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>Akukho kuphusha</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>Yenza i-commit nethegi, kodwa ungaphushi.</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>Ayikho ithegi</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>Yenza i-commit futhi uphushe, kodwa unganiki ukuqhuba ithegi.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>Yebo, qhuba lokhu kufuduka manje</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Akukho kufuduka okulindile.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>Buyela esimweni</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>Izinguquko zalokhu kufakwa ezibhalwe kanye njengamafayela (okuqukethwe, amakilasi, izindima, izilungiselelo, isakhiwo) futhi zisetshenziswe kukho konke ukufakwa kwesayithi ngohlelo olufanayo. Ukuqhuba kuqala kuthathe isithombe, kusibuyisele uma ukufuduka kuhluleka, futhi kurekhode, kwenze i-commit futhi kuphushe lokho okwenzile.</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>Qhuba okungu-%count okulindile</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Ukubuka konke</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Kulindile</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Kuqedile</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Kuhlulekile</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>Akudingeki</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>Idathabheyisi</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>imisebenzi: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>Ukufuduka kwesayithi kuku-migrations/, okwesandiso kuku-extension/&lt;name&gt;/migrations/. Kuqhuba ngokulandelana kwamagama akho nalokho okudingayo.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Ukuqhuba kokugcina</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>Ifayela lishintshile ngemva kokusetshenziswa.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>Akukho kufuduka okwamanje. ./console exp:migration:generate --skeleton &lt;name&gt; --apply ubhala okokuqala.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>Ukuqhuba kwakamuva</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>Konke ukuqhuba</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>Akukho kuqhuba okwamanje.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>Ukulingisa ukuqhuba kudinga inqubomgomo migration/run.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>Ukuqhuba kuyaqhubeka: lingisa uma sekuphelile.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Ukumisa</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target akusikho ukuqhuba, akusikho ukufuduka futhi akusiso isithombe salokhu kufakwa.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>Maka &quot;Yebo, kuhoxise&quot; kuqala.</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>Ukubuyisela isithombe sangaphambilini kungokochwepheshe: maka &quot;Ngiyazi ukuthi lokhu kubuyiselani&quot;.</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>Thayipha futhi i-id yesithombe: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>Khetha okungenani ingxenye eyodwa ezobuyiselwa.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>Lokhu kuqhuba akunaso isithombe esathathwa ngaphambi kwakho: hoxisa ukufuduka kwakho ngakunye, noma ubuyisele isithombe sangaphambilini.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>Lokhu kufuduka akukwazi ukuhoxiswa kukodwa: akusetshenzisiwe, noma akunayo i-down().</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Ifomu alikwazanga ukufundwa.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>Khetha ukuqhuba okufanele kuqhubeke.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>Maka &quot;Yebo, qhuba lokhu kufuduka manje&quot; kuqala.</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>Khetha okungenani ukufuduka okukodwa.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>Ukufuduka kushintshe ngemva kokusetshenziswa: yamukela ushintsho ngesizathu, noma ubuyisele ifayela.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>Nikeza isizathu sokuthi kungani ukufuduka okushintshiwe kwamukelwa.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>Isizathu singaba ngamaletha angu-500 kuphela.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>Ukuqhuba okuqalwe lapha kusaqhubeka (%detail). Linda kuze kuphele.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>Okunye ukuqhuba kubambe ukhiye wokufakwa: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>Ukuqhuba kudinga umsebenzisi ongenile okhona.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Ayikho ibhinari yomugqa womyalo we-php etholakele. Setha migration.ini [AdminSettings] PhpCliPath endleleni yayo egcwele.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open ivaliwe, ngakho ukuqhuba akukwazi ukuqalwa lapha. Qhuba ./console exp:migration:migrate --apply kuseva.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>Ifolda yokuqhuba ayikwazi ukubhalwa: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>Ukuqhuba kuqalisiwe kodwa akuzange kubike i-id yenqubo yakho. Hlola %detail.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>Shono ukuthi yini okufanele ihoxiswe.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>Ukuqhuba akukwazanga ukuqaliswa.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>Ukuqopha izinguquko</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>Ngenkathi ukuqopha kuqhubeka, lokho okushintsha ekuphathweni noma kubha eseceleni yesayithi kugcinwa njengezinyathelo zokufuduka: okuqukethwe, amakilasi, izindima nezinqubomgomo, izigaba, abasebenzisi namaqembu, amagama ahlukile e-URL, izilungiselelo. Kumise uma usuqedile, ubheke ukuthi kubambeni, bese wakha ukufuduka kukho.</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>Ukuqopha akufundeki: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>Amathebula okuqopha awekho okwamanje: qala usebenzise ukuthuthukisa (exp:upgrade --apply).</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>Ukuqopha kuvaliwe ku-migration.ini ([RecordingSettings] Recording=disabled).</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>Izinguquko zami</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>Kuqopha kuphela lokho okushintshayo, noma kuphi lapho ukushintsha khona, uze ukumise.</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>Ukuqopha</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>kusukela ngo-%time, izinguquko ezingu-%count kuze kube manje.</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>Ilebula (ongakhetha)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>Bonisa ukuthi kubambeni</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Misa ukuqopha</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>Qala ukuqopha izinguquko zami</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>Iwindi lesayithi lonke</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>Kuqopha uguquko ngalunye lomsebenzisi ngamunye nekhonsoli kuze kuvalwe. Uma ulivula, ucelwa ukuqinisekisa ukuthi nguwe.</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Kuvuliwe</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>Vala iwindi</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>Vula iwindi lesayithi lonke</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>Okuqoshiwe</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>I-akhawunti yomsebenzisi (igama lokungena, i-imeyili, iphasiwedi) nezinkambu zama-akhawunti abasebenzisi akuqoshwa nanini.</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Izinguquko</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>Isayithi lonke</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>Izinguquko zika-%name</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Kumisiwe</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>Akukho okuqoshiwe okwamanje.</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>Okuqoshiwe %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>Konke okuqoshiwe</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>Ukufuduka obekungaba khona</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>Izinguquko ezihlanganiswe zaba isinyathelo esisodwa entweni ngayinye eshintshiwe: lokho ukufuduka okwenziwe kulokhu okuqoshiwe obekungakwenza.</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>Ukufuduka kungenziwa kukho uma lokhu kufakwa sekunezinhlobo zezinyathelo ze-YAML %types.</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>Kushiywe ngamabomu: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>Akukho okuqoshiwe.</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>Lokho okubambile</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>Izinguquko ezingu-%count, ngokulandelana kwazo.</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Uguquko</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>Isinyathelo</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>Mayelana</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>Okunye okungu-%count: ./console exp:migration:record:show kubala konke.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Lahla</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>Kususa okuqoshiwe nalokho okubambile. Okushintshiwe kuhlala kushintshiwe.</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>Yebo, lahla lokhu okuqoshiwe</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>Kuyaqoshwa…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Izinguquko zakho ziqoshwa ukuze kube nokufuduka.</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>Uguquko ngalunye kule sayithi luqoshwa ukuze kube nokufuduka (iwindi lesayithi lonke).</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>Ukuqopha kwesayithi lonke sekuqalile: uguquko ngalunye lomsebenzisi ngamunye luqoshwa uze ukumise.</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>Ukuqopha sekuqalile: izinguquko zakho ziqoshwa uze ukumise.</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>Ukuqopha kumisiwe. Lokho okubambile kuhlala uze ukulahle.</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>Okuqoshiwe nemicimbi yakho kususiwe.</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>Akukho okuqoshiwe okungu-%id.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>Qala ukhethe "Yebo, lahla lokhu okuqoshiwe".</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>Umsebenzisi oqophile kuphela ongamisa ukuqopha kweseshini.</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>Khetha ukuqopha okufanele kumiswe.</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>Ukuqopha kwalolu hlobo sekuqhubeka.</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>Okuqoshiwe akushintsheki: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>Dala ukufuduka</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>Igama lokufuduka (okokuzikhethela)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>Ukufuduka %file kubhaliwe. Izinguquko okungekho sinyathelo esingazenza zibalwe phezulu kwefayela, ukuze zenziwe ngesandla.</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>Akukho kufuduka okubhaliwe: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>Ukusebenza okude ngezingxenye</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>Izinkambu ezingenalutho zigcina izilungiselelo ze-migration.ini [RunSettings].</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>Kuze kube yile nombolo yokufuduswa</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>Akukho okunye ukufuduswa ngemva kwe (amasekhondi)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>Ikhefu phakathi kokufuduswa (amasekhondi)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>Okuthandwayo okuphansi (1 kuya ku-19)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>Inkambu yokusebenza okude inombolo ephelele kusuka ku-1 (ikhefu: amasekhondi kusuka ku-0 kuya ku-60, okuthandwayo: 1 kuya ku-19), noma ingenalutho.</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>Ivala yodwa ngo-%time.</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>Vala yodwa ngemva kwe (amaminithi, ukukhetha)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>Amaminithi inombolo ephelele kusuka ku-1 kuya ku-44640 (izinsuku ezingu-31), noma ingenalutho.</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>Ukufuduka %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>Ukufuduka okusha</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>Ukufuduka kwe-YAML: kubhale njengombhalo noma wakhe izinyathelo zako efomini, ukuhlole, bese ukulondoloza efolda yokufuduka.</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>Lokhu kufuduka sekuke kwasebenza, ngakho akulondolozwa futhi: ifayela elishintshiwe lingenqatshwa ngumvikeli we-checksum. Yenza ushintsho ekufudukeni okusha.</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>Iseva yewebhu ayikwazi ukubhala ifayela.</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>Imigqa yamazwana phezulu iyisihloko (description, author, requires, environments, engines). Uma isinyathelo sengezwa noma sishintshwa efomini, ukufuduka kubhalwa kabusha: amazwana aphakathi kwezinyathelo awagcinwa.</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>Igama lokufuduka</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>Lapho kuya khona</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>Isayithi</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>Umbhalo we-YAML</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>Hlola</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Londoloza</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Izinyathelo</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>Okhiye</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Hlela</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>Hambisa Phezulu</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>Hambisa Phansi</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Susa</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>Azikabikho izinyathelo: engeza esisodwa ngefomu, noma uzibhale embhalweni.</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>Shintsha isinyathelo %number</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>Engeza isinyathelo esisodwa</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>Ifomu lesinyathelo lenziwa ngohlobo lwaso lwesinyathelo: okhiye baso, lokho okuthathwa ngamunye kanye namamodi esiphathelene nawo.</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>Uhlobo lwesinyathelo</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>Bonisa ifomu laso</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>Isinyathelo sinokhiye uhlobo lwaso olungabazi; bayashiywa ngaphandle uma isinyathelo sishintshwa: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>Imodi</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>Ku-</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>ku-%modes kuphela</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>Okuzenzakalelayo: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>Imibandela, izinkomba namazwana</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>Amapheya e-Igama=inani ahlukaniswe ngamakhefu. Amanani alesi sinyathelo: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>Isibonelo</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>Shintsha isinyathelo</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>Engeza isinyathelo</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>Lokho okushiwo yi-exp:migration:check: isihloko, idokhumenti nesinyathelo ngasinye esihlolwe wuhlobo lwaso lwesinyathelo.</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>Ukufuduka kuphumelela ekuhloleni.</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Buka kuqala</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>I-YAML njengoba izolondolozwa.</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>Bonisa i-YAML</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>Ukufuduka kwe-YAML</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>sekusebenzile</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>Akukabikho ukufuduka kwe-YAML.</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>Isihleli</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>Akukho ukufuduka kwe-YAML %id kumafolda okufuduka.</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>Khetha uhlobo lwesinyathelo.</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>Isinyathelo sengeziwe. Hlola ukufuduka ngaphambi kokuthi ukulondoloze.</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>Isinyathelo sishintshiwe. Hlola ukufuduka ngaphambi kokuthi ukulondoloze.</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>Khetha isinyathelo.</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>Lesi sinyathelo asinalo ifomu (iluphu, noma uhlobo lwesinyathelo olungekho kulokhu kufakwa): sishintshe embhalweni.</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>Khetha lapho ukufuduka kuya khona: isayithi noma isandiso esisebenzayo.</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>Kulondolozwe i-%file. Yenza ukuzama ngaphambi kokuba ukufuduka kusebenze.</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>Akulondolozwanga: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>Izikhungo ezikude</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>Okunye ukufakwa lokhu kufakwa okusabalalisela kukho ukufuduka kwakho: ukusabalalisa kuthumela ukufuduka ezikhungweni ezikude ezikhethiwe futhi kukuqhube lapho, konke ngesikhathi esisodwa futhi kuvumelana. Isikhungo esikude asikaze sibe nemfihlo: imininingwane yaso yokungena iqamba eyodwa ku-Ukumisa &gt; Imfihlo.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>Isikhungo esikude esisha</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Usizo</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>Ukuhlolwa kokuxhumeka kuka-%id</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>Izikhungo ezikude</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>Kusetshenzwa ezikhungweni ezikude ezifika ku-%parallel ngesikhathi esisodwa; ibanga elilodwa lingathatha imizuzwana engu-%timeout kwesinye nesinye.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>Isikhungo esikude</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Ikheli</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Imininingwane yokungena</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>Amaqembu</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>izilungiselelo okufanele zilungiswe</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>amafayela kuphela (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>Ukhiye we-SSH</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>Iphasiwedi</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>akukho (i-ejenti ye-SSH nokhiye besiphakeli)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>Hlola ukuxhumeka</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>Ukusabalalisa eqenjini kuya kuzo zonke izikhungo ezikude zalo.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>Sabalalisa ezikhungweni ezikude</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>Asikho isikhungo esikude esimisiwe okwamanje.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>Isikhungo esikude %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>Akukho okuthunyelwayo noma okuqhutshwayo lapha: u-Londoloza ubhala izilungiselelo ku-settings/override/migration.ini.append.php. Imininingwane yokungena iyigama; inani layo lihlala ku-Ukumisa &gt; Imfihlo noma endaweni yokusebenza.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Hlola lezi zilungiselelo</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>Izilungiselelo njengoba zifakiwe, azikalondolozwa.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Buyekeza</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Izilungiselelo zivumelekile. Le migqa izobhalwa:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>Ukuthutha</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>igama kuphela; inani lihlala ku-Ukumisa &gt; Imfihlo</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Imigqa ezobhalwa</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>Ukuxhumeka</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>Ukhiye wesiphakeli</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. Isikhungo esikude</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>Ukuthi isikhungo esikude sibizwa ngokuthini nokuthi yiyiphi indawo yokusebenza.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>Isihlonzi</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>Izinhlamvu, izinombolo, - no-_, isibonelo production1. Liqamba isikhungo esikude emibikweni nakukhonsoli (--remotes=production1) futhi alikwazi ukushintshwa kamuva.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... Ukusabalalisa ngezigaba kudlula ezindaweni zokusebenza ngalokhu kulandelana.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>Kuyakhethwa, kuhlukaniswe ngokhefana, isibonelo production. Ukusabalalisa eqenjini kuya kuzo zonke izikhungo ezikude zalo.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. Ukuxhumeka</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>Ukuthi amafayela afika kanjani lapho, nokuthi ukufakwa kukuphi.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>Nge-SSH, kuphela okushintshile, ukudlulisa okuphazamisekile kuyaqhutshekwa. Ukukhetha okungcono lapho i-rsync ifakiwe khona.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>I-SSH ene-scp yamafayela.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>I-SSH ene-sftp yamafayela.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>Amafayela kuphela: ukufuduka kuthunyelwa futhi kufundwe emuva, kodwa akukwazi ukuqhutshwa lapho.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>I-FTP nge-TLS; amafayela kuphela.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>Okunye ukufakwa kulesi siphakeli, kufolda.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Isiphakeli</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>Igama lesiphakeli noma ikheli, isibonelo node1.example.com. Hhayi kwe-local.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>Imbobo</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>Akunalutho: 22 kwe-SSH, 21 kwe-FTP.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Umsebenzisi</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>Indlela</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>Impande yokufakwa lapho, isibonelo /var/www/site (kwe-FTP: indlela ebonwa yi-akhawunti ye-FTP).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>Umugqa wemiyalo we-PHP</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>I-PHP CLI elapho: php, noma indlela ephelele efana ne-/opt/plesk/php/8.4/bin/php.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>Imibhalo yekhonsoli iqhuba njenge-root lapho</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>Kuphela uma umsebenzisi wesikhungo esikude eyi-root (lapho-ke kuqhutshwa nenketho --allow-root-user).</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. Imininingwane yokungena</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>Ukuthi lokhu kufakwa kungena kanjani lapho. Kugcinwa igama kuphela.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Lutho</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>I-ejenti ye-SSH nokhiye bomsebenzisi lokhu kufakwa okusebenza njengaye (futhi njalo kwe-local).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>Ukhiye wangasese ogcinwe njengemfihlo.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>Iphasiwedi egcinwe njengemfihlo (i-FTP ingena ngayo).</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>Igama lemfihlo</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>Imfihlo evela ku-Ukumisa &gt; Imfihlo, isibonelo deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Ukumisa &gt; Imfihlo</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>Noma okuguquguqukayo kwendawo yokusebenza</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>Okuguquguqukayo kwenqubo yesiphakeli okuyiphethe, isibonelo DEPLOY_KEY (kugcinwe njenge-env:DEPLOY_KEY). Kuthatha indawo yegama lemfihlo.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. Ukhiye wesiphakeli</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>Kuyakhethwa, kwe-SSH, sftp ne-rsync.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>Isigxivizo sokhiye wesiphakeli</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... njengoba i-ssh-keygen -l ikuphrinta. Uma ukhona, isiphakeli kufanele sibonise lo khiye; ngaphandle kwakho, ukhiye ufundwa ekuxhumaneni kokuqala.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. Buyekeza</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>Hlola ukuxhumeka ngezilungiselelo ezingenhla, bese ubuyekeza imigqa ezobhalwa.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>Susa lesi sikhungo esikude</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>Izilungiselelo zaso zikhishwa ku-settings/override/migration.ini.append.php. Akukho okushintshayo esikhungweni esikude, futhi ukusabalalisa kwaso kuhlala emlandweni.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>Yebo, susa lesi sikhungo esikude</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>Ukusabalalisa</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>Ukusabalalisa kuthumela ukufuduka kwalokhu kufakwa ezikhungweni ezikude ezikhethiwe futhi kukuqhube lapho njengo-%user, konke ngesikhathi esisodwa futhi kuvumelana: isikhungo esikude ngasinye sihlolwa kuqala, futhi uma esisodwa sihluleka, isikhungo esikude ngasinye esikusebenzisile sibuyiselwa emuva. Kuqhubeka ngemuva, futhi ikhasi lakho libonisa isikhungo esikude ngasinye njengoba kuqhubeka.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. Izikhungo ezikude</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>Maka izikhungo ezikude, iqembu, noma kokubili.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>Sabalalisa lapho</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. Kanjani</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>Sabalalisa</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>Thumela uqhube</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>Ukufuduka kuthunyelwa, kuhlolwe futhi kuqhutshwe esikhungweni esikude ngasinye nge-ID yokuqhuba eyodwa eyabelwana ngayo.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>Dlulisa kuphela</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>Amafayela ayathunyelwa futhi ahlolwe, akukho okuqhutshwayo (ukuphela kwendlela yesikhungo esikude se-FTP).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>Ngezigaba</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>Isigaba ngesigaba ngokulandelana kwezindawo zokusebenza (dev, stage, beta, production ...): isigaba sokuqala siyasabalaliswa, bese isango lilinda kuze kube yilapho othile evuma esilandelayo. Konke noma lutho ngaphakathi kwesigaba ngasinye.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>Lokhu kufuduka kuphela</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>Kuyakhethwa: ama-ID okufuduka, ahlukaniswe ngokhefana. Akunalutho: konke ukufuduka kwesayithi nezandiso zayo.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>Ukuhlola kwangaphambili kuphela</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>Yebo, sabalalisa manje</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>Ukusabalalisa okuthumele noma okuqhube okuthile, okusha kuqala (ukuhlola kwangaphambili akugcini umbiko).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>dlulisa kuphela</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>ngezigaba, izigaba ezingu-%stages</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>akuvumelani</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>Akukho kusabalalisa okwamanje.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>Ukusabalalisa %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Isikhungo esikude ngasinye sokusabalalisa nesimo saso. Ukusabalalisa okuqalwe lapha kuqhubeka ngemuva uma leli khasi livaliwe; vula ikhasi futhi ukuze ukulandele.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>Konke ukusabalalisa</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>Ukuhlola kwangaphambili</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>Isigaba esilandelayo</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>Kuhlolwa izilungiselelo nemininingwane yokungena</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>Ukuhlola kwangaphambili: kufundwa isimo sesikhungo esikude ngasinye</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>Kuthunyelwa amafayela okufuduka</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>Kuhlolwa okufikile</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>Kuqhutshwa ukufuduka esikhungweni esikude ngasinye</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>Izikhungo ezikude zibuyiselwa emuva</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>Ukusabalalisa kuphelile. Kulayishwa umbiko wakho.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>Inqubekelaphambili ayikwazanga ukulandelwa. Layisha kabusha ikhasi ukuze ubone ukuthi ukusabalalisa kuhamba kanjani.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>Ibanga</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>Leli khasi lilandela ukusabalalisa njengoba kuqhubeka.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>Kuvumelana</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>Izigaba</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>isigaba %stage silinde esangweni laso</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>Isango %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>kuvunywe ngu-%user ngo-%time</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>Isigaba</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>Amafayela athunyelwe</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>Inguqulo ye-kernel</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>kusetshenzisiwe: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>okuzosetshenziswa: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>Amabanga</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>Isango: isigaba %stage ku-%stages</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>Izigaba ezingaphambi kwaso sezisabalalisiwe. Zihlole, bese uvuma isigaba esilandelayo: izikhungo ezikude zaso ziyahlolwa futhi ziphinde zisabalaliswe, konke noma lutho.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Okulandelayo</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>Yebo, sabalalisa isigaba esilandelayo manje</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Vuma</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>Buyisela emuva lokhu kusabalalisa</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>Isikhungo esikude ngasinye esikusebenzisile (%list) sibuyela esithombeni esathathwa ngaphambi kokuqhuba kwaso, konke ngesikhathi esisodwa.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>Yebo, buyisela emuva lokhu kusabalalisa manje</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>kuhleliwe</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>kudlulisiwe</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>kusabalalisiwe</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>kulinde esangweni</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>kukhethiwe</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>kulungisiwe</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>kuyalungile</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>kulinde isigaba sakho</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>amafayela athunyelwe</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>kuhloliwe</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>kuhlulekile, kuzibuyisele ngokwakho</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>akushintshile</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>akusabalalisiwe</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>akufinyeleleki</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>Isikhungo esikude siphendulile.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>Isikhungo esikude asikwazi ukusetshenziswa manje.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done kuqedile, %pending kulindile, %failed kuhlulekile</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>Ukukhiya</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>ukuqhuba kubambe ukukhiya lapho</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>kukhululekile</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stage ku-%stages</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>Khetha isikhungo esikude ozosihlola.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>Qala ngokumaka “Yebo, susa lesi sikhungo esikude”.</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>Isikhungo esikude asikwazanga ukususwa: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>Isikhungo esikude asikwazanga ukulondolozwa: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Ifayela lezilungiselelo alikwazi ukufundwa: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>Khetha okungenani isikhungo esikude esisodwa noma iqembu.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>Isikhungo esikude esikhethiwe asisekho ezilungiselelweni. Layisha kabusha ikhasi.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>Qala ngokumaka “Yebo, sabalalisa manje”.</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>Isikhungo esikude se-FTP asikwazi ukuqhuba ukufuduka: khetha “Dlulisa kuphela”, noma usishiye ngaphandle.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>Ukufuduka okuzosabalaliswa kungama-ID okufuduka, ahlukaniswe ngokhefana.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>Ukusabalalisa kusaqhubeka. Linda kuze kuphele.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>Lokhu kusabalalisa akulindi esangweni.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>Asikho isikhungo esikude esisebenzise lokhu kusabalalisa: akukho okungabuyiselwa emuva.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>Qala ngokumaka “Yebo, sabalalisa isigaba esilandelayo manje”.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>Qala ngokumaka “Yebo, buyisela emuva lokhu kusabalalisa manje”.</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>Isikhungo esikude esine-ID %id sesivele sikhona.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>Imbobo iyinombolo esuka ku-1 kuya ku-65535.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>Indawo yokusebenza yigama lezinhlamvu, izinombolo, - no-_ (alpha, dev, stage, beta, production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>Iqembu yigama lezinhlamvu, izinombolo, - no-_ (hhayi all): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>Imininingwane yokungena ayikwazi ukufundwa manje: %problem. Yilondoloze ku-Ukumisa &gt; Imfihlo (noma usethe okuguquguqukayo) ngaphambi kokusabalalisa kokuqala.</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>Isikhungo esikude se-FTP sithola amafayela kuphela: ukusabalalisa kuso kungu-“Dlulisa kuphela”, futhi ukufuduka kwaso kuqhutshwa lapho ngesandla.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>Isikhungo esikude %id asikho ku-settings/override/migration.ini.append.php; sisuse lapho simiswe khona.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>Kungenwe nge-FTP futhi kwafundwa i-index.php. Isimo sokufuduka sesikhungo esikude se-FTP asikwazi ukufundwa.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>Kushintshiwe</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>Kudaliwe</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Igama</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Ikilasi</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Isigaba</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>Umdali</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Okuqukethwe kwakamuva</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>Okuqukethwe okusanda kudalwa nokushintshwa kwesayithi yonke, okusha kuqala: lokho izivakashi ezikuthumele, lokho okubanjelwe ukubuyekezwa, izinguqulo zokuqala ezilindele ukushicilelwa. Khetha izinto ukuze uzikhulule, uzibambe, uzifihle, uzembule, uzisuse noma uzihambisele kwesinye isigaba noma isimo.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>Uhlu alukwazanga ukufundwa: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>Ukubanjelwa ukubuyekezwa akukasethwa, ngakho akukho okubanjiwe futhi izenzo zokubamba azinikezwa. Isinyathelo sokuthuthukisa 6.0.15-review-hold siyakusetha: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Hlunga uhlu</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Kusukela</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Kuya</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Usuku</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>Kudaliwe (kushicilelwe okokuqala)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Konke</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Isimo</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Kushicilelwe</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>Isiqeshana, akukaze kushicilelwe</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>Kulindile (kulinde ukugunyazwa noma usuku)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>Kudoti</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Kubanjelwe ukubuyekezwa</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>Kubanjiwe</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>Akubanjiwe</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>Kufihliwe</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>Kuyabonakala</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>Kuthunyelwe ngo</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>Noma iyiphi indlela yokufinyelela isayithi</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>Kuphela lokho okurekhodwe ukucwaningwa.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>Manje: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>Igama lokungena noma i-ID yomsebenzisi.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Hlunga</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>Sula izihlungi</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>Izinto</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from kuya ku-%to kokungu-%count</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Ayikho into</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(kufundwe ngo-%ms ms)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>Izenzo ezintweni ezikhethiwe</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>Khetha konke kuleli khasi</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>%count kukhethiwe</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Isenzo</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>Khetha isenzo</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>Khulula ukubanjwa</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Bambela ukubuyekezwa</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Fihla</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>Embula</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>Hambisa kudoti</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>Susa</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>Nikeza isigaba</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>Nikeza isimo</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>Isizathu</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>Kudingeka ukuze kubanjwe; kugcinwa nokubanjwa nasekucwaningweni.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>Khetha isigaba</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Isimo</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>Khetha isimo</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>Sebenzisa kokukhethiwe</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>Into ngayinye ihlolwa ngokwezimvume zakho. Ukuhambisa kudoti nokususa kucela ukuthi uqinisekise. Izinto ezingaphezu kuka-%count zenziwa ngemuva.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>Khetha</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>Ukushicilelwa</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>Kuthunyelwe kusuka ku</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>Khetha %name</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>akukakabi</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(alikho igama)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>I-ID %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>Isiqeshana</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Kulindile</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>Kufihlwe yinto engumzali</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>Kubanjiwe: okusha okuthunyelwe</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>Inguqulo %version ilindile</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>Inguqulo %version iyaqhubeka</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>Isiqeshana, inguqulo %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>Inguqulo %version ishicilelwe</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>Kuhlelelwe u-%date</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>alikho ikheli</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>akurekhodiwe</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>Akukho okufanayo nalezi zihlungi.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Bonisa konke</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>Akukho okuqukethwe okwamanje.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Ekhasini ngalinye</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Bonisa izinto ezingu-%count ekhasini ngalinye.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says &quot;not recorded&quot;.</source>
+        <translation>Ikheli nesiphequluli sokuthunyelwe kuvela enkombeni yokucwaningwa, engatholakali lapha: ikholamu ithi &quot;akurekhodiwe&quot;.</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>Ikheli nesiphequluli yilokho okurekhodwe ukucwaningwa kwento (ukubamba okuzenzakalelayo kuhlala kukurekhoda; ukushicilela nokudala kuphela lapho kuvuliwe), njengoba izilungiselelo zobumfihlo zikugcina.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: izinto ezingu-%count</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>Ukususa kususa izinto unomphela, nazo zonke izinguqulo nokuhumusha kwazo. Akukwazi ukuhlehliswa.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>Izinto ziya kudoti, lapho zingabuyiselwa khona.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>Into ngayinye ihlolwa ngokwezimvume zakho; into enezinto ezingaphansi ishiywa injalo (yisuse esakhiweni sokuqukethwe). Uzocelwa ukuthi uqinisekise ukuthi nguwe.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>Lokhu kwenzeka ngemuva: ikhasi lenqubekela phambili liyavuleka, futhi umphumela wento ngayinye uboniswa uma sekuqediwe.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>Izinto ezikhethiwe</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>nokunye okungu-%count</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Khansela</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>Akukho okwenziwe</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Isizathu: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>Isenzo sisaqhubeka ngemuva.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>Inqubekela phambili yaso</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>Isenzo sangemuva sehlulekile: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Kuqedile</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Kwenqatshiwe</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Kuhlulekile</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>Ngento ngayinye</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>Into</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Umphumela</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Kungani</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>Buyela ohlwini</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Ukumisa</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>Akwenziwanga lutho</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>Qinisekisa</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>Khetha isenzo.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>Khetha okungenani into eyodwa.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>Khetha izinto ezingadluli ku-1000 ngesikhathi.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>Sho ukuthi kungani izinto zibanjiwe.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>Khetha isigaba.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>Khetha isimo.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Ifomu alikwazanga ukufundwa.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>Ideshibhodi</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>Okuqukethwe kwakamuva</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>Izibalo azikwazanga ukufundwa: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Kubanjelwe ukubuyekezwa</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>Okusha namuhla</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Ukubanjelwa ukubuyekezwa akukasethwa (isinyathelo sokuthuthukisa 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>Konke okuqukethwe kwakamuva</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>Awuvunyelwe ukwenza izenzo zokulawula (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>Isenzo sokulawula asiphelele: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>Ukulawula: %action ezintweni ezingu-%count</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%done kwezingu-%total izinto: %ok kwenziwe, %refused kwenqatshiwe, %failed kwehlulekile</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok kwenziwe, %refused kwenqatshiwe, %failed kwehlulekile</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>Akusekho.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>Akunandawo (akushicilelwe).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>Awuvunyelwe ukukufihla (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>Awuvunyelwe ukukwembula (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>Sekuvele kufihliwe.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>Akufihliwe.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>Kufihliwe.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>Kwembuliwe.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>Kusedotini: lithulule noma ukubuyisele lapho.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>Isiqeshana esingakaze sishicilelwe asikwazi ukuya kudoti: sisuse.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>Awuvunyelwe ukukususa (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>Kususiwe.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>Awuvunyelwe ukukukhipha (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>Kunezinto ezingaphansi: kususe esakhiweni sokuqukethwe, lapho zibalwe khona.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>Akukasuswa (ukugcwaliswa komsebenzi kungase kubambe ukususwa).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>Kuhanjiswe kudoti.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>Isigaba asikho.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>Sekuvele kukulesi sigaba.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>Awuvunyelwe ukunikeza lesi sigaba (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>Isigaba asinikezwanga.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>Isigaba sinikeziwe.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>Isimo asikho.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>Sekuvele kukulesi simo.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>Awuvunyelwe ukunikeza lesi simo (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>Isimo asinikezwanga (ukugcwaliswa komsebenzi kungase kubambe ushintsho).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>Isimo sinikeziwe.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>Asikho isenzo esinjalo.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Ukubanjelwa ukubuyekezwa akusethiwe (isinyathelo sokuthuthukisa 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>Sho ukuthi kungani kubanjiwe.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>Sekuvele kubanjiwe.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>Awuvunyelwe ukukubamba (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>Ukubamba akubekwanga (ukugcwaliswa komsebenzi kungase kubambe ushintsho).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>Kubanjiwe.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>Akubanjiwe.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>Awuvunyelwe ukukukhulula (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>Ukubamba akukhululwanga (ukugcwaliswa komsebenzi kungase kubambe ushintsho).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>Kukhululiwe; kusafihliwe: awuvunyelwe ukukwembula (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>Kukhululiwe.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>Konke okuqondiwe</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Ukushicilela kokugcina</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>Shicilela ikhophi engaguquki yamahhala yesayithi lakho ku-GitHub Pages:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Amakhasi aphelelwe yisikhathi</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Ukushicilela okungaguquki</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Ukushicilela okungaguquki kuvaliwe.</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Okuqondiwe</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Okuqondiwe akukwazanga ukufundwa: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>kukhona umsebenzi oqhubekayo</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>isakhiwo esizohlolwa</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>fihla lokhu</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>dala okuqondiwe</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>akukaze</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>funda isifundo</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>%added kwengeziwe, %changed kushintshiwe, %removed kususiwe</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%bytes kokungu-%limit (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>Ezinye ezingu-%count azibalwanga.</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>Amakhasi angu-%pages abhaliwe</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path ingu-%size, ngaphezu kwalokho isiphakeli esikuvumelayo efayeleni elilodwa.</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>%percent % yomkhawulo</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds amasekhondi</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag ingukushicilela okukhona manje kusayithi.</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: umsebenzi %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>/repository/ yesayithi lephrojekthi ye-GitHub; akunalutho kudomeyini yangokwezifiso noma kusayithi lomsebenzisi.</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. Isayithi</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. Isiphakeli</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. Ukungena enqolobaneni</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. Inqolobane</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. Izixhumanisi nendlela eyisisekelo</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. Idomeyini yakho</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. Lokho isakhiwo esiqukethe</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. Nini kushicilelwa</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. Buyekeza futhi ulondoloze</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>Isayithi lephrojekthi ye-GitHub lihlala ngaphansi kwe-/&lt;repository&gt;/; izixhumanisi ezihlobene zisebenza lapho nakuyo yonke enye indawo.</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>Isakhiwo silanda wonke amakhasi e-%site njengoba isivakashi esingangenile sibabona, sibhala kabusha izixhumanisi, sikopisha amafayela futhi sibhala umphumela kufolda yokuqondiwe. Akukho okushicilelwayo uze uhlole isakhiwo futhi ucindezele okuthi Shicilela.</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>Isisho se-cron, isibonelo 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>Ukhiye wokuthumela ugcinwe njengemfihlo %secret.</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>Ukhiye wokuthumela uvumela lokhu kufakwa ukuthi kuphushe enqolobaneni eyodwa nge-SSH hhayi kwenye indawo. Ingxenye yawo eyimfihlo ihlala ku-Ukumisa &gt; Imfihlo; kuboniswa ingxenye yomphakathi kuphela.</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>Ukhiye wokuthumela owenzelwe lokhu okuqondiwe</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>Ukhiye wokuthumela ungena nge-SSH: shintsha ikheli le-git libe ngele-SSH (git@github.com:owner/repo.git).</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>Kukhona umsebenzi oqhubekayo, oqalwe ngu-%user</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>Umsebenzi walokhu okuqondiwe usaqhubeka (%detail). Linda uze uphele.</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>Umsebenzi walokhu okuqondiwe usaqhubeka. Linda uze uphele.</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>Isixhumanisi esisuka ekhasini /news/ siye ekhasini /about-us/team sizobhalwa ngokuthi</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>Kwenziwe ukhiye omusha wokuthumela. Engeza ingxenye yawo yomphakathi enqolobaneni manje.</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>Ikhasi elisaphethe okukhishwa kokulungisa amaphutha, ithokheni yefomu noma i-id yeseshini ngemuva kokuhlanza alishicilelwa neze.</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>Ukubuyisela emuva kungokochwepheshe: maka okuthi &quot;Ngiyazi ukuthi lokhu kushintshani&quot; bese uthayipha igama lethegi futhi.</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>Isayithi lingafika ku-%site, ifayela elilodwa ku-%file, nethrafikhi engaba ngu-100 GB ngenyanga. Ohlelweni lwamahhala inqolobane kufanele ibe ngeyomphakathi. I-GitHub Pages ayenzelwe izitolo noma ezinye izinkokhelo zezohwebo.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>Okuqondiwe yisayithi elilodwa elishicilelwe enqolobaneni eyodwa ye-git. Akukho okwakhiwayo noma okushicilelwayo lapha: Londoloza ibhala izilungiselelo ku-settings/override/staticcache.ini.append.php.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>Okuqondiwe yisayithi elilodwa elishicilelwe endaweni eyodwa, isibonelo isayithi lakho lomphakathi ku-GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>Ithokheni evela ku-Ukumisa &gt; Imfihlo</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>Uhlelo lomsebenzi lwenqolobane luyalishicilela.</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>Engeza lo khiye womphakathi enqolobaneni ngemvume yokubhala. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, maka Allow write access.</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>Kwengeziwe</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>Esinye isiphakeli se-git</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>Enye inqubo isebenza kulokhu okuqondiwe: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>Emuva</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>Indlela eyisisekelo</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Ngaphambili</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>Ngaphansi kwendlela eyisisekelo</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>Igatsha</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>Izixhumanisi eziphukile</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>Izixhumanisi eziphukile esakhiweni</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>Isakhiwo</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>Isakhiwo %id ngu-%user</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>Yakha %name</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>Yakha manje</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>Isakhiwo esizohlolwa</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Ngu</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>Ngesandla, lapha</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Khansela</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Shintsha</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>Kushintshiwe</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Izinguquko</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>Qala ngokuhlola</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Hlola lezi zilungiselelo</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>Hlola lokho isakhiwo esikushintshayo, sibuke, bese usishicilela noma usilahle.</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>Khetha ukushicilela ofuna ukubuyela kukho.</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>Kuzofika ekukhishweni kwakamuva.</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>I-commit</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>Ama-commit</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>Yenza i-commit yesakhiwo, isinike ithegi bese isiphushela ku-%remote. Ukuphusha akuphoqwa neze; ungabuyela kunoma yikuphi ukushicilela kamuva.</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>Uma kuqhathaniswa nefolda yangaphambili: %added kwengeziwe, %changed kushintshiwe, %removed kususiwe, %unchanged akushintshiwe.</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>Uma kuqhathaniswa nokushicilela kokugcina.</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Imininingwane yokungena</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>Idomeyini yangokwezifiso</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>Okukhishwa kokulungisa amaphutha, amathokheni amafomu, ama-id eseshini nama-nonce kuhlala kukhishwa.</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>Ukhiye wokuthumela</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>Ukhiye wokuthumela we-%name</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Lahla</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>Lahla isakhiwo</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>Idomeyini</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>Akunalutho: ikheli lesayithi. Uma kungenjalo, ikheli langaphakathi lesayithi elifanayo.</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Kuphelile</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>Zonke izixhumanisi ziqala ngendlela eyisisekelo.</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>Ukushicilela ngakunye kuyi-commit enethegi static/%id/&lt;n&gt;. Ukubuyela emuva kwenza i-commit entsha enamafayela okushicilela kwangaphambili: umlando uyahlala, ayikho ithegi esuswayo futhi akukho okuphoqwayo.</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>Okwengeziwe</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>Landa amakhasi ku-</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Ifayela</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>Amafayela</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>Amafayela angekho</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>Amafayela e-</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>Amafayela angakwazanga ukuqoqwa</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>Isigxivizo somunwe</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>Ifolda</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>Okwekheli le-SSH. Ukhiye wenziwa ngemuva kokulondoloza; wena wengeza ingxenye yawo yomphakathi enqolobaneni.</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>Okwekheli le-https://. GitHub: ithokheni ecacile (fine-grained) enemvume ye-Contents yokufunda nokubhala enqolobaneni.</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>Okochwepheshe. Isayithi lomphakathi liyashintsha ngokushesha nje uma ukuphusha sekuphumelele.</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Amafomu</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>Ukusingathwa kwamahhala kusuka enqolobaneni ye-GitHub.</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>Kusuka egatsheni</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>Ikheli le-git</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>I-GitHub Pages ivumela isayithi elingu-%site nefayela elingu-%file.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>Imikhawulo ye-GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>I-GitHub Pages ishicilela amafayela njengoba enjalo (kuyadingeka kumafayela aqala ngo-_).</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>I-GitHub inikeza igatsha njengoba liphushiwe. Okuzenzakalelayo.</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, iseva yakho: noma iyiphi inqolobane ye-git.</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>Buyela ekushicileleni kwangaphambili</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Usizo</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>Usizo ngesiphathi</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>Zifihle</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Umlando</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>Umlando we-%name</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Isiphakeli</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>Indlela i-GitHub Pages ethola ngayo isakhiwo</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>Ngizihlolile izinguquko</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>Ngiyazi ukuthi lokhu kushintshani</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>Isihlonzi</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>Kuvaliwe: akukho okungakhiwa kuze kuvulwe.</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>Kusebenza ngemuva njengo-%user; ungalivala leli khasi.</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>Umsebenzi %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>Kugcinwe njengemfihlo %secret.</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Uhlobo</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Ukushicilela kokugcina</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>Shiya ngaphandle lawa makhasi</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>Shiya ngaphandle lezi zigaba</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Izixhumanisi</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>Izixhumanisi ezibhalwe kabusha</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>Isayithi elibukhoma</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>Buka isakhiwo</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>Izinhlamvu ezincane, izinombolo, _ kanye ne -, isibonelo github-public. Iqamba ifolda namathegi (static/&lt;id&gt;/&lt;n&gt;) futhi ayikwazi ukushintshwa kamuva.</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>Yenza ukhiye omusha</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>Yenza okuqondiwe</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>Yenza ukhiye</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>Qala wenze inqolobane esiphakelini; engenalutho ilungile.</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>Uhlu lwamafayela</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Umlayezo</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>Amakhasi amaningi</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Igama</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>Igama lethokheni ku-Ukumisa &gt; Imfihlo</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>Okuqondiwe okusha</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Okulandelayo</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>Cha</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>Ayikho i-commit okwamanje.</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>Akwenziwanga ukhiye: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Ayitholakalanga i-binary yomugqa womyalo we-php. Setha i-migration.ini [AdminSettings] PhpCliPath endleleni yayo ephelele.</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>Ayikho ithegi okwamanje.</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>Akukho okuqondiwe okwamanje.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Lutho</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>Akukho esakhiweni.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>Akukho okushicilelwe okwamanje.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>Akukho okushicilelwe okwamanje: wonke amafayela amasha.</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>Yazisa</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>Ngesikhathi esihleliwe</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>Kukhonsoli</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>Kuseva: ./console exp:static:serve %id ikunikeza ngendlela efanayo.</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>Indlela eyodwa emugqeni ngamunye, * ifana nanoma iyiphi ingxenye: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>Kugcinwa igama kuphela nokuqondiwe; ithokheni noma ukhiye uqobo uhlala ku-Ukumisa &gt; Imfihlo futhi awuveli neze kulogi.</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>Lokho amakhasi akubizayo kuphela</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>Kuphela ngethokheni. env:NAME esikhundleni salokho ifunda okuguquguqukayo kwemvelo yeseva.</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>Vula ukubuka kuqala</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>Ivula isakhiwo njengoba isiphakeli sizosinikeza, kusuka kufolda yokuqondiwe. Isixhumanisi sikusebenzela ihora elilodwa.</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>Kuyazikhethela. Akunalutho: lokho okushicilelwe.</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>Kuyazikhethela. Ngedomeyini isayithi linikezwa empandeni yalo.</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Okuvelayo</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>Amakhasi</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>Amakhasi okuqondiwe</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>Amakhasi enqatshiwe</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>Ukucubungula kwangemuva</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Buka kuqala</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>Buka kuqala futhi ushicilele</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>Buka kuqala futhi ushicilele i-%name</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>Buka kuqala isakhiwo</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Inqubekelaphambili</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>Ikheli lomphakathi</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>Ukhiye womphakathi</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>Shicilela</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>Shicilela ikhophi engaguquki yesayithi ku-GitHub Pages noma kunoma yisiphi isiphakeli se-git: yakha, hlola izinguquko, shicilela, futhi ubuyele ekushicileleni kwangaphambili uma kudingeka.</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>Ukushicilela okuzobuyelwa kukho</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>Okushicilelwe</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Ukuphusha</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>Funda isifundo</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Irekhodi</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Kunqatshiwe</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>Okuhlobene</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Layisha kabusha</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>Kususiwe</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>Shintsha ukhiye: omdala uyayeka ukusebenza</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Umbiko</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>Umbiko wesakhiwo</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Inqolobane</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Buyekeza</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>Ukubuyekeza kuhlola zonke izilungiselelo futhi kubonise imigqa ezobhalwa. Akukho okulondoloziwe okwamanje.</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Buyisela emuva</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Ukubuyisela emuva</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Londoloza</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>Isikhathi esihleliwe</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>Ikhasi lokusesha</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>Ama-id ezigaba, ahlukaniswe ngokhefana.</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>Zithumele kusayithi elibukhoma</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>Isilungiselelo</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Izilungiselelo</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>Izilungiselelo ze-%name</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Ukumisa</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Ukumisa &gt; Imfihlo</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>Kuboniswa ohlwini, isibonelo &quot;Isayithi lomphakathi ku-GitHub Pages&quot;.</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>Ukungena nge-GitHub App kuzofika nokuhlanganiswa kwe-GitHub.</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>Isayithi</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>Isayithi elizoshicilelwa</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Usayizi</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>Usayizi nemikhawulo</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>Usayizi wesakhiwo</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Amakhasi aphelelwe yisikhathi</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Kuqalile</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Kuqalwe ngu-%user ngo-%time.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Isimo</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Ukushicilela okungaguquki</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>Ukushicilela okungaguquki kuvaliwe</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Ukushicilela okungaguquki kuvaliwe.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>Ukushicilela okungaguquki kuvaliwe. Qala ngokukuvula ku-Ukumisa &gt; Ukushicilela okungaguquki.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>Ukushicilela okungaguquki kuvuliwe.</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>Isinyathelo %step kokungu-%total</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Izinyathelo</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>Ukuhlanza</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Vala</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Vula</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>Vula ukushicilela okungaguquki</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Ithegi</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>Amathegi</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Okuqondiwe</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>Okuqondiwe kungenziwa futhi kushintshwe, kodwa akukho okwakhiwayo noma okushicilelwayo kuze kuvulwe.</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>Kutshela izinjini zokusesha ukuthi zifundeni.</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>Isakhiwo asikwazanga ukulahlwa: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>Isakhiwo siyafana nokushicilela kokugcina: akukho okuzoshicilelwa.</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>Isakhiwo silahliwe: ifolda iphinde iqukathe ukushicilela kokugcina.</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>Okuzenzakalelayo kufanele amasayithi amaningi.</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>Ifolda iqukethe isakhiwo esingakashicilelwa; isakhiwo esisha siyasithatha isikhundla.</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>Ifolda yemisebenzi ayikwazi ukubhalelwa: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>Umsebenzi awukwazanga ukulungiswa: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>Umsebenzi awukwazanga ukuqaliswa.</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>Umsebenzi uphelile. Kulayishwa umbiko wawo.</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>Umsebenzi udinga umsebenzisi ongene ngemvume.</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>Umsebenzi uqalisiwe kodwa awubikanga i-id yenqubo yawo. Hlola %detail.</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>Ukhiye</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>Ifayela elikhulu kunawo wonke: %path, %size.</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Imigqa ezobhalwa</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>Uhlu lwamakhasi lwezinjini zokusesha; ludinga ikheli lomphakathi.</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>Amakhasi alandwa njengoba isivakashi esingangenile sibabona. Ukufinyelela isayithi kokuphatha nokuhlela akunikezwa neze.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>Inqubekelaphambili ayikwazanga ukulandelwa. Layisha kabusha ikhasi ukuze ubone ukuthi umsebenzi uhamba kanjani.</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>Ingxenye yomphakathi yokhiye:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>Impande yegatsha</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>Isitolo semfihlo asikasethwa (./console exp:upgrade --apply senza ithebula laso), ngakho akukho khiye ongagcinwa.</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>Iseva ingena ngokwayo (ngokhiye wayo we-SSH noma umsizi wemininingwane yokungena), noma inqolobane ikule seva.</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>Isilungiselelo asikwazanga ukubhalwa: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Izilungiselelo zivumelekile. Le migqa izobhalwa:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Ifayela lezilungiselelo alikwazi ukufundwa: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>Isayithi libuyela kumafayela alokho kushicilela; isakhiwo esingakashicilelwa kufanele siqale sishicilelwe noma silahlwe.</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>Ikhasi lesayithi uqobo lamakheli angekho.</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>Okuqondiwe akukwazanga ukulondolozwa: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>Okuqondiwe akukangeni ngalo khiye okwamanje: khetha okuthi &quot;Ukhiye wokuthumela owenzelwe lokhu okuqondiwe&quot; kuzilungiselelo zakho.</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Okuqondiwe akukwazanga ukufundwa: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>Asikho isakhiwo esizohlolwa okwamanje.</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>Lokhu kufakwa akunakho ukufinyelela isayithi kwangaphambili. Ukufinyelela isayithi kokuphatha nokuhlela akushicilelwa neze.</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>Leli khasi lilandela umsebenzi njengoba uqhubeka; uqhubeka ngemuva uma ikhasi livaliwe.</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>Lokhu okuqondiwe akukabi nawo ukhiye wokuthumela.</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>Lokhu okuqondiwe akukakhiwa lapha.</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>Lokhu okuqondiwe kunawo.</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>Ilahla lesi sakhiwo: ifolda iphinde iqukathe ukushicilela kokugcina. Isayithi elibukhoma alishintshi.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>Qala umake okuthi &quot;Ngizihlolile izinguquko&quot;.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Isikhathi</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>Okuqalisayo</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>Thayipha igama lethegi futhi</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>Akushintshiwe</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>I-webhook</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Ini</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>Okushintshayo</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>Ukuthi ifayela ngalinye liyini; kuhlala kubhalwa.</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>Lokho umsebenzi owenzile nerekhodi lawo. Umsebenzi oqalwe lapha uyaqhubeka ngemuva uma leli khasi livaliwe.</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>Lokho umsebenzi okuphrinte njengamaphutha</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>Lokho amakhasi akubizayo, nayo yonke imifanekiso yokuqukethwe okushicilelwe</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Nini</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>Uma ukushicilela kuhluleka</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>Uma ukushicilela kuphumelela</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>Uma okuqukethwe kushicilelwa</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>Lapho kuya khona izixhumanisi eziya kulokho ikhophi engenakho (ukusesha, ukungena).</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>Lapho ikhophi engaguquki inikezwa khona.</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>Yiliphi isayithi elishicilelwayo, nokuthi okuqondiwe kubizwa ngokuthini.</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>Sebenza ngaphansi kwanoma iyiphi indlela. Okuzenzakalelayo.</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>Kubhalwa noma nini lapho kusethwe idomeyini yangokwezifiso.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>Yebo</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>Ungahlala wakha futhi ushicilele ngesandla lapha nakukhonsoli.</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>igama kuphela; inani lihlala ku-Ukumisa &gt; Imfihlo</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>ngaphansi kwe-%path</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>kuphele ngaphandle kombiko</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>okwengeziwe</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>kuhlulekile</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>ifayela</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages, noma main nefolda docs.</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>isiphakeli se-git</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (ngethokheni) noma git@github.com:owner/repo.git (ngokhiye wokuthumela); ungalokothi ufake iphasiwedi noma ithokheni kulo.</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/, yemephu yesayithi nezixhumanisi ezisemthethweni.</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>umfanekiso</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>akukaze</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>cha</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>ayikho i-remote</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>lutho: ama-commit ahlala kufolda</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>lutho: akukho okushintshile</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>akuphushiwe</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>akukho okushintshile</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>ikhasi</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>kuphumelele</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>I-proc_open ivaliwe, ngakho umsebenzi awukwazi ukuqalwa lapha. Sebenzisa ./console exp:static:build kuseva.</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>ukushicilela</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>kushicilelwe</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>ukuphusha kulindile</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>kuphushiwe</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>kunqatshiwe</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>okuhlobene</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>ukubuyisela emuva</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>kubuyiselwe emuva</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>kuyasebenza</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>ifolda kuphela</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: kubhalwe efayeleni CNAME. Khomba i-DNS yedomeyini esiphakelini njengoba sichaza; i-HTTPS ingathatha isikhashana ukuqala.</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>yebo, akukashicilelwa</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>I-GitHub App</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>Uhlelo lomsebenzi lwenqolobane luyalishicilela. Isakhiwo sibhala ifayela lohlelo lomsebenzi; shiya ifolda ingenalutho.</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>Ngemva kokulondoloza okuqondiwe nenqolobane ye-GitHub kanye nethokheni noma i-GitHub App, lesi sinyathelo singakha inqolobane futhi sivule i-GitHub Pages. Uma kungenjalo qala wenze inqolobane ku-GitHub; engenalutho ilungile.</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>Igatsha noma i-GitHub Actions?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>Hlola i-DNS</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>Yenza inqolobane uma ingekho</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>Yenza inqolobane ku-GitHub bese uvula i-GitHub Pages kuzilungiselelo zayo (Settings &gt; Pages).</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>Yenza inqolobane %repo uma ingekho (uma kucelwa), ivule i-GitHub Pages kusuka egatsheni noma kusuka ku-GitHub Actions njengoba kulondoloziwe, futhi isethe idomeyini yangokwezifiso ne-HTTPS. Isebenzisa izilungiselelo ezilondoloziwe: qala ulondoloze izinguquko.</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>Imininingwane ku-GitHub</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>Qala ufake idomeyini yangokwezifiso.</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>I-push ngayinye ihlolwa kuqala ngokuqhathaniswa nale mikhawulo.</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>Okwekheli le-https:// ku-GitHub. I-App esethelwe lokhu kufakwa iyangena; idinga i-id yokufakwa.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>I-GitHub Pages inikeza inqolobane eyimfihlo kuphela ohlelweni olukhokhelwayo.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: isizinda esingaphansi (www.example.com) sidinga irekhodi le-CNAME eliya ku-&lt;owner&gt;.github.io; isizinda esiyinhloko (example.com) amarekhodi e-A %ips.</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>I-id yokufakwa ye-GitHub App</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>Isakhiwo sokugcina se-Pages</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>Imikhawulo nemigomo</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>Kuyadingeka ku-GitHub Pages ohlelweni lwamahhala.</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>Ku-GitHub</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>Nge-GitHub App kuphela: inombolo esekugcineni kwekheli lokufakwa kwe-App ku-GitHub. I-App uqobo isethwa ku-staticcache.ini (GitHubAppId, GitHubAppKey).</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>Eyimfihlo</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>Eyomphakathi</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>Qala ulondoloze okuqondiwe nenqolobane ye-GitHub kanye nethokheni noma i-GitHub App.</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>Setha lawa marekhodi kumhlinzeki wedomeyini:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>Setha ku-GitHub</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>I-DNS ye-%domain ayikakhombi ku-GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>I-DNS ye-%domain ikhomba ku-GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>Ukuhlanganiswa kwe-GitHub akutholakali lapha: %problem. Ukushicilela egatsheni kusasebenza; vula i-GitHub Pages kuzilungiselelo zenqolobane.</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>Izinyathelo ze-GitHub azitholakali kulokhu okuqondiwe: %problem.</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>Isimo se-GitHub Pages siboniswa uma imininingwane yokungena iyithokheni noma i-GitHub App.</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>Sebenzisa idomeyini yakho</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>Ongakukhetha: ithokheni, ukhiye wokuthumela noma i-GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>Ngenqolobane ye-GitHub kanye nethokheni noma i-GitHub App, i-wizard ingakwenzela inqolobane, ivule i-GitHub Pages futhi isethe idomeyini (isinyathelo 4).</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>kuyakhiwa</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>kwakhiwe</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>kusuka ku-GitHub Actions</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>kusuka egatsheni %branch</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>akukho okwamanje</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>akutholakalanga</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>kuvaliwe</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>eyimfihlo</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>eyomphakathi</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>kulayini</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>akwaziwa</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%count emakhasini angu-%pages:</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>I-.gz (ne-.br) eduze kwefayela ngalinye lombhalo, kumasevisi ahlinzeka ngayo.</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>Ikhasi elincane ekheli ngalinye elidala nesiteketiso sekhasi, ukuze izixhumanisi ezidala ziqhubeke zisebenza.</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>Ihlala ibhalwa uma i-GitHub Actions ilethela isayithi.</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>I-id ye-SPDX efana ne-CC-BY-4.0, noma umbhalo uqobo.</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>Ubhasikidi</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>Izingcingo eziya kuseva</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Amazwana</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>Amafomu aqoqa ulwazi</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>Ukuhamba komsebenzi we-GitHub Actions</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>Isikhala esincane futhi akukho amazwana emakhasini.</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>Ilayisense yokuqukethwe</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Ngena ngemvume</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>Minify</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>Amanye amafomu</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>Precompress</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>Amakhasi okuqondisa kabusha</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>Amakhasi okuqondisa kabusha: %count.</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Sesha</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>Inkomba yosesho: amakhasi angu-%pages ku-%languages.</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>Amashidi esitayela nezikripthi ezibizwa ngehash yokuqukethwe kwazo, ukuze amabhrawuza awagcine.</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>Amakhasi eshintshile, ngemizuzu embalwa ngemuva koshintsho lokugcina (ingxenye ye-cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>Ilayisense yokuqukethwe, ensimini engezansi.</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>Yonke isayithi, ngezikhathi zeshejuli (ingxenye ye-cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>Lezi zingxenye zamakhasi zidinga iseva; ngayinye ithole enye esikhundleni. Zihlole ngaphambi kokushicilela.</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>Okungasebenzi ngokungaguquki</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>Ukuthi inqolobane iyini, kunoma ubani ayivula kumsingathi.</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>kushiywe</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>umbhalo wesikhashana</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>iphoyinti lamafomu esayithi ebukhoma</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>isayithi ebukhoma</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>ikhasi losesho lekhophi</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>Ifomu ayikwazanga ukuthunyelwa.</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>Ngiyabonga: ifomu ithunyelwe.</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>Ifomu ayemukelwanga: hlola ofake bese uyithumela futhi.</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>Susa izixhumanisi eziya emakhasini ikhophi engenawo</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>Susa izixhumanisi eziya ekuphathweni</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>Umbhalo wazo uyahlala. Izithombe, amafomu nezixhumanisi eziya kwamanye amasayithi azisuswa neze.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Inguqulo</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>Ukufinyelela kwesayithi okuzoshicilelwa</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Ukufinyelela isayithi</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>Empandeni</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>Akukho ukufinyelela empandeni: ngakunye kusefolda yakho, impande ixhumanisa nakho</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Ukufinyelela kwesayithi</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>Maka ukufinyelela kwesayithi okukodwa, noma okuningi okwabelana ngomsingathi oyedwa ngesiqalo sakho se-URI. Okusempandeni kunikezwa lapho, okunye kufolda yesiqalo sakho (/ger/); izixhumanisi phakathi kwakho zihlala ekhophini. Ukufinyelela kokuphatha akukaze kunikezwe.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>Ukushicilelwa okungashintshi kwe-%target kwehlulekile ku-%site</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>Ukushicilelwa okungashintshi kwe-%target kuphumelele ku-%site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>Le imeyili ithunyelwe ngu-%site ngoba inhloso yokushicilela okungashintshi %target iyayicela.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>Ukusabalalisa %deploy kuhlulekile ku %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>Ukusabalalisa %deploy kulinde esangweni ku %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>Ukusabalalisa %deploy kuphumelele ku %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>Le meyili ithunyelwe ngu %site ngoba migration.ini [RemoteSettings] Notify[] iyayicela.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>Izinhlobo zedatha (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>Kubalwe ngo-%time, futhi ngemuva kwemizuzu engu-%minutes</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>Uhlobo lwedatha lugcina futhi luhlele uhlobo olulodwa lwenani lesici sesigaba: umugqa wombhalo, isithombe, ukuxhumana. Ikherneli iletha iningi lazo, izandiso zengeza ezinye. Nazi zonke, ubani ozihlinzekayo nokuthi ingakanani okuqukethwe okuzisebenzisayo. Uhlobo lwedatha olusetshenziswa yidathabheyisi kodwa olungasabhaliswa yilutho lwephula okuqukethwe okunalo.</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>Amaqembu amagigaba</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>Bala futhi manje esikhundleni sokusebenzisa izibalo zemizuzu edlule.</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>Bala futhi</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Ukubuka konke</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>Kubhalisiwe</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>Iyasetshenziswa</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>Akusetshenziswa</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>Izandiso ezihlinzeka izinhlobo zedatha</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>Izici zesigaba</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>Izici zeNto</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>Alubhalisiwe</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>Kusohlwini, ifayela alikho</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>Izinhlobo zedatha ezingu-%count ziyasetshenziswa kodwa azibhalisiwe</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>Izici zesigaba ezingu-%class_attributes nezici zezinto ezingu-%object_attributes zinohlobo lwedatha olungabhaliswanga yisandiso noma isilungiselelo. Izinto zazo azikwazi ukuboniswa, ukuhlelwa noma ukushicilelwa. Vula isandiso esihlinzeka lolu hlobo lwedatha, noma ushintshe isigaba.</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>Bonisa lezi kuphela</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>Thola uhlobo lwedatha</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>Isihlonzi, igama, isigaba se-PHP noma isandiso.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Bonisa</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Konke</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>Kuhlinzekwe ngu</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>Wonke umuntu</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>Ikherneli</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>Alukho uhlobo lwedatha oluhambisana nalesi sihlungi.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Bonisa konke</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>Isandiso</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>Ezingu-%shown kwezinhlobo zedatha ezingu-%count, ezingu-%used ziyasetshenziswa</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>Idathabheyisi inezici zesigaba noma zezinto zalezi zinhlobo zedatha, kodwa i-content.ini ayibhali nolulodwa lwazo, noma ifayela layo alikho.</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>Izinhlobo zedatha zika-%provider</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>Uhlobo lwedatha</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>Isigaba se-PHP nefayela</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>Izigaba</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>Izinto</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>Amafulegi</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>lutho</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>Alukho uhlobo lwedatha oluhambisana nosesho. Sula usesho.</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>Kuboniswa ezingu-%shown kwezinhlobo zedatha ezingu-%count</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>Izinhlobo zedatha eziboniswayo: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>Hlela ngokwe-%column</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>Kubalwe ngo-%time</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>Zonke izinhlobo zedatha</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>Ikhasi losizo</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>Lolu hlobo lwedatha luyasetshenziswa kodwa alubhalisiwe</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>Izinto zezigaba ezingezansi azikwazi ukuboniswa, ukuhlelwa noma ukushicilelwa uma singekho isandiso esibhalisa lolu hlobo lwedatha. Vula isandiso esiluhlinzekayo bese ulungeza ku-content.ini [DataTypeSettings] AvailableDataTypes[], noma ushintshe izigaba.</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>I-content.ini ibhala lolu hlobo lwedatha, kodwa ayikho inkomba yezinhlobo zedatha enefayela lalo. Akukho okulusebenzisayo; lisuse ku-AvailableDataTypes[] noma uvule isandiso salo.</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>Mayelana nalolu hlobo lwedatha</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>Isihlonzi</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Igama</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Isandiso %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>akekho</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>Isigaba se-PHP</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Ifayela</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>Ku-AvailableDataTypes[]</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>yebo</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>cha</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>Amakholomu wenani lalo</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>Amakholomu wezilungiselelo zesici sesigaba salo</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>Amathebula</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>Amakholomu namathebula atholakala ngokufunda ikhodi yohlobo lwedatha: kuyisiqondiso, akusona isithembiso.</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>Izifanekiso</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Ukufinyelela isayithi</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>Isifanekiso</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>Itholakala ku-</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>lokhu kuphatha</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>isayithi elizenzakalelayo</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>Ngaphandle kokweqisa: isifanekiso sokweqisa esihambisana nesigaba noma isici siphumelela kunalezi.</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>Izigaba ezilusebenzisayo (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>Asikho isigaba esinesici salolu hlobo lwedatha.</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Isigaba</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>Izici</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>Izici zesigaba (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>Isici</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Izilungiselelo</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>i-ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>Kuyadingeka</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>Kuyaseshwa</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>Kuyahumusheka</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>Iqoqa ulwazi</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>Okunye okuqukethwe okulusebenzisayo</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>Okushintshwe muva kuqala</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Kushintshiwe</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>Indawo yomsuka %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>Ukuhumusha ngakunye kunenani lakho.</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>Usesho lufaka amanani alo enkombeni.</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>Lungaqoqa ulwazi kuzivakashi (amafomu).</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>Uhlu lungahlelwa ngalo: ukhiye wokuhlela %type.</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>Okungahlelwa</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>Amanani alo akhomba kwezinye izinto.</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>Ubudlelwano</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>Lungagcwaliswa kusuka embhalweni ovamile (ukungenisa, REST).</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>Kusuka embhalweni</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>Lungagcwaliswa kusuka efayeleni.</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>Kusuka efayeleni</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>Izilungiselelo zesici sesigaba salo zingena emaphakheji.</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>Amaphakheji</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>Okuqukethwe (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from kuya ku-%to kwa-%count</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Hlunga uhlu</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>Zonke izigaba</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Isigaba</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Izilimi</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Umnikazi</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Kushicilelwe</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>Hlehlisa ukuhleleka</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Ayikho into</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Ekhasini ngalinye</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Bonisa izinto ezingu-%count ekhasini ngalinye.</translation>
     </message>
 </context>
 </TS>

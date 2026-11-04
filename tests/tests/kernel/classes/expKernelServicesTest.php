@@ -26,7 +26,7 @@
  *          INI reset; the deploy's INI step reaches the compile through the "kernelservices" cache item
  *  KS-10 - Without a booted container, eZExtension::activateExtensions() does not ask it (nothing changes)
  *
- * @copyright Copyright (C) 1998 - 2026 7x and the Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package tests
  */
@@ -212,7 +212,7 @@ class expKernelServicesTest extends PHPUnit\Framework\TestCase
     /** KS-05 */
     public function testRequestResetHooks()
     {
-        $this->assertSame( array( 'querycache', 'sqlprofile', 'csp', 'audit', 'renderstats', 'requestlog', 'classifier', 'userapproval' ),
+        $this->assertSame( array( 'querycache', 'sqlprofile', 'csp', 'audit', 'renderstats', 'requestlog', 'classifier', 'userapproval', 'staticbuild' ),
                            array_keys( expKernelServiceScope::DEFAULT_RESET_HOOKS ) );
         $this->assertSame( array( 'eZDBQueryCache', 'resetRequest' ), expKernelServiceScope::DEFAULT_RESET_HOOKS['querycache'] );
         $this->assertSame( array( 'expRequestClassifier', 'reset' ), expKernelServiceScope::DEFAULT_RESET_HOOKS['classifier'] );
@@ -356,6 +356,13 @@ class expKernelServicesTest extends PHPUnit\Framework\TestCase
         $reset = strpos( $ctor, 'eZINI::resetAllInstances( false );' );
         $enter = strpos( $ctor, 'expKernelServices::enterSiteAccess();' );
         $this->assertGreaterThan( $reset, $enter, 'the siteaccess is entered after the INI reset' );
+
+        // the REST kernel (index_rest.php: the GraphQL API, decision 18) boots the same way
+        $rest = file_get_contents( expKernelServices::installationRoot() . '/kernel/private/rest/classes/ezpkernelrest.php' );
+        $boot = strpos( $rest, 'expKernelServices::bootWeb( $this->settings );' );
+        $this->assertNotFalse( $boot );
+        $this->assertLessThan( strpos( $rest, "eZExtension::activateExtensions( 'default' );" ), $boot, 'booted before the extension passes' );
+        $this->assertGreaterThan( strpos( $rest, 'eZINI::resetAllInstances( false );' ), strpos( $rest, 'expKernelServices::enterSiteAccess();' ) );
 
         $ezcache = file_get_contents( expKernelServices::installationRoot() . '/kernel/classes/ezcache.php' );
         $this->assertMatchesRegularExpression( "/'id' => 'kernelservices',\s*'tag' => array\( 'ini' \)/", $ezcache );

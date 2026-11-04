@@ -13,10 +13,28 @@ Exponential runs on Windows with IIS, PHP for Windows (the non-thread-safe build
 **URL Rewrite** module. [`web.config`](web.config) in the installation root carries everything: the PHP handler, the
 rewrite rules of `.htaccess_root`, request filtering and the security headers.
 
+> **Warning**
+> **`.htaccess` slows down every request.** When `.htaccess` files are enabled (`AllowOverride` anything but `None`), let alone
+> used, Apache looks for them and reads and evaluates them on every request, in every directory of the path, and
+> page loading times go up drastically ([measured](../../guides/setup-files-from-the-console.md#measured-htaccess-against-rules-in-the-virtual-host)). The only real fix is to switch the feature off for
+> the virtual host: `AllowOverride None` in the HTTPS virtual host, and the rules in the virtual host's own
+> configuration as mod_rewrite rules. That is far faster in production speed tests and well worth the time it takes
+> to optimize a production configuration. Switch over right away: copy the rules of the
+> [example HTTPS virtual host](apache-virtual-host.md) into your virtual host (with the static cache, also
+> [`staticcache_offload.conf`](../staticcache_offload.conf)), set `AllowOverride None`, run `apachectl configtest`, reload Apache and
+> test the site. The same rules for other servers: [nginx](nginx.md), [LiteSpeed](litespeed.md),
+> [Caddy](caddy.md), [IIS](iis.md), [Velocity](velocity.md) (built in); where virtual host rules go in a control
+> panel: [Plesk](../../help/hosting/panels/plesk.md), [cPanel](../../help/hosting/panels/cpanel.md), [DirectAdmin](../../help/hosting/panels/directadmin.md), [ISPConfig](../../help/hosting/panels/ispconfig.md).
+> **On LiteSpeed or OpenLiteSpeed,** the server's own page cache can also answer anonymous visitors and crawlers without PHP: [Page caching with LiteSpeed and OpenLiteSpeed](../../guides/litespeed-page-cache.md).
+
 > **Note:** This example is derived, not tested on IIS: it was checked for well-formed XML only (`xmllint`). Its
 > rewrite rules are `.htaccess_root`'s, whose behavior was tested in Apache and nginx. Test it on your server with the
 > requests below before you rely on it, and compare it with `.htaccess_root` after every upgrade. See
 > [Operating system support](../../help/os-support.md) for what is known about Windows.
+
+IIS never reads `.htaccess`: `exp:setup:htaccess` does not protect an IIS site, `web.config` does. `config.php` is
+put into place and edited the same way on every server, with `exp:setup:config` and `exp:config:set`; see
+[Setting up .htaccess and config.php from the console](../../guides/setup-files-from-the-console.md).
 
 ## Install it
 
@@ -202,6 +220,14 @@ segment *anywhere* in a path, so it lists only names no page of a site can have 
 values equal to `site.ini [HTTPHeaderSettings] SecurityHeaders[]`, or remove the header from one of the two, so a page
 never carries two different values.
 
+## WebDAV
+
+This `web.config` does not route WebDAV (off by default). To serve it, add a rule for `^index_webdav\.php` with
+`<action type="None" />` before the catch-all, or a site of its own that rewrites everything to `index_webdav.php`,
+and keep IIS's own WebDAV module off for it. Since 6.0.15 the script is `index_webdav.php`; a rule written for
+`webdav.php` keeps working through a forwarding shim until a later major version. Before/after and the test:
+[The WebDAV entry script is now index_webdav.php](../../bc/6.0/webdav-entry-script-index-webdav.md#microsoft-iis-webconfig).
+
 ## Check it
 
 ```powershell
@@ -216,4 +242,5 @@ foreach ($p in '/.git/config','/.env','/kernel/classes/ezini.php','/extension/ez
 - [Apache .htaccess](apache-htaccess.md): the rules explained one by one.
 - [Chapter 13, section 13.2: What the web server must never hand out](../../install/13-security-hardening.md#132-what-the-web-server-must-never-hand-out).
 - [Operating system support](../../help/os-support.md), [Web server examples](README.md) and [all examples](../README.md).
+- [Setting up .htaccess and config.php from the console](../../guides/setup-files-from-the-console.md): which servers read `.htaccess`, and `config.php`.
 - [Free documentation](../../help/free-documentation.md): this page is free to copy, translate and improve.

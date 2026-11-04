@@ -96,7 +96,7 @@ See [The built-in search index tables](search-index-tables.md).
 | `expaudit_cursor`, `expaudit_event`, `expaudit_file` | the audit index (6.0.15) |
 | `expmail_*` | e-mail preferences, consent log, suppression list (6.0.15) |
 | `expbookmark_folder` | bookmark folders (6.0.15) |
-| `expbookmark_view` | the addresses of bookmarks of system pages (6.0.15) |
+| `expbookmark_view` | the addresses of bookmarks of system pages, also taken apart into `module_name`, `view_name` and `view_parameters` (6.0.15) |
 | `expapikey`, `ezprest_*` | personal API keys, OAuth clients and tokens: credentials, treat as secrets |
 | `ezrss_*`, `ezpdf_export`, `ezpackage`, `ezinfocollection*`, `ezcollab_*`, `eznotification*` | feeds, exports, packages, form submissions, collaboration, notifications |
 
@@ -115,7 +115,7 @@ database and expired rows are not removed. Old versions are pruned with `bin/php
 
 | Need | Use |
 |---|---|
-| Remove old versions | `php bin/php/cleanupversions.php` |
+| Remove old versions | `php bin/php/cleanupversions.php --apply` |
 | Rebuild URL aliases | `php bin/php/updateniceurls.php`, `exp:verify_aliases` |
 | Rebuild the search index | `php bin/php/updatesearchindex.php --clean` |
 | Remove expired sessions | `php bin/php/ezsessiongc.php` |

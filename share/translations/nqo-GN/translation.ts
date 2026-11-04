@@ -984,6 +984,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>ߣߌ߲ ߢߍ ߘߐߙߐ߲ ߘߍ ߓߋ ߢߌߣߌ: %from ߞߊ ߛߋ %to ߡߊ߸ %count ߣߊ.</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>ߞߌߛߍ ߣߌ ߝߊߙߊߝߍ߲ߟߎ ߟߊ ߞߎ߲ߣߊߝߏߣߌ ߛߎߜ߳ߎߦߊߟߎ ߓߍߓߍ߸ ߊ߬ ߣߌ ߞߌߟߊߛߌߟߎ ߣߌ ߞߐߣߐߞߏߟߎ ߦߋ ߊ߬ ߟߎ ߓߊߙߊ ߞߍ ߟߊ ߡߍ߲ ߠߊ.</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>ߞߎ߲ߣߊߝߏߣߌ ߛߎߜ߳ߎߦߊߟߎ</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2316,6 +2324,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>ߛߌߛߕߍߡߎ ߢߍߟߎ ߝߊߣߊ ߓߋ ߛߋ ߞߊ ߞߍ ߕߊߡߊߛߌߦߍ߲ ߦߋ: ߢߍ ߘߊ ߦߍߟߍ (ߟߊߓߍ߲ߣߌ߸ ߛߍߜ߳ߍߛߍߜ߳ߍߟߌ ߛߍߓߍ߲߸ ߓߊߙߊߞߍߟߊߟߎ ߟߌߛߌ ...)߸ ߏ ߞߐ «ߣߌ߲ ߢߍ ߕߊߡߊߛߌߦߍ߲ ߞߍ» ߛߎߜ߳ߊ߲ߘߌ ߊ ߛߊ߲ ߝߍ. ߕߊߡߊߛߌߦߍ߲ ߣߌ߲ ߛߎߜ߳ߎߦߊ ߓߋ ߖߊ ߘߏ ߓߟߏ ߡߌ߲ ߦߋ ߡߊߛߌ߲ ߛߌߣߌ ߖߊ ߦߋ.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>ߌ ߕߍ ߛߋ ߞߊ ߢߍ ߣߌ߲ ߘߊ ߦߍߟߍ ߦߊ߲ ߕߎߜ߳ߎ߲. ߕߊߡߊߛߌߦߍ߲ ߓߐߛߌ߸ ߥߊߟߌߡߊ ߞߊ ߘߏ߲ߣߌ ߦߊߡߊߙߎߦߊ ߢߌߣߌ ߡߊߙߊߓߊߜ߳ߊ ߝߍ.</translation>
     </message>
 </context>
 <context>
@@ -5165,6 +5177,210 @@
         <source>Go to the first page</source>
         <translation>ߕߊ ߢߍ ߝߐߟߐ ߟߊ</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>ߥߍߙߍ</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>ߘߏ߲ 7 ߕߍߡߍߣߍ߲ߟߎ</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>ߕߎߡߊ ߘߎߞߍ߲ ߞߍߣߍ߲</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>ߞߎߡߊߘߋ߲ ߓߍ߯</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>ߞߎߡߊߘߋ߲ ߛߌ߫</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>ߞߎߡߊ߫ ߞߍߣߍ߲ ߕߊ߲ߓߌߟߊ</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>ߓߍ߲ߢߐ߲߰ߦߊ</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>ߕߐ߮ A–Z</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>ߕߐ߮ Z–A</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>ߦߍߟߍߡߊߣߊ߫߸ ߞߎߘߊ ߟߎ߬ ߝߟߐ߫</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>ߦߍߟߍߡߊߣߊ߫߸ ߞߘߐ ߟߎ߬ ߝߟߐ߫</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>ߟߊߥߟߌߣߍ߲߫߸ ߞߎߘߊ ߟߎ߬ ߝߟߐ߫</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>ߟߊߥߟߌߣߍ߲߫߸ ߞߘߐ ߟߎ߬ ߝߟߐ߫</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>ߦߍߟߍߡߊߣߊ</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>ߛߍ߲ߛߍ߲ߟߎ</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>ߛߍ߲ߛߍ߲ߟߎ ߦߌߘߊ</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>ߛߍ߲ߛߍ߲ߟߎ ߘߏߕߏ߲߰</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>ߛߋߜ߳ߌ߲ ߝߐߟߐ</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>ߥߊߟߍߦߊ</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>ߞߎߡߊߘߋ߲ߠߎ</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>ߞߐߣߐߞߏ ߛߎ߮ߦߊ</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>ߡߊ߬ߞߊ߬ߝߏ߬ ߦߌߘߊ (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>ߞߐߣߐߞߏ ߛߎ߮ߦߊ ߞߋߟߋ߲ ߓߊߦߟߍ߬ ߞߊ߬ ߢߌߣߌ߲ߠߌ ߞߍ߫ ߊ߬ ߟߊ߫ ߘߎ߲ߛߓߍ ߞߋߟߋ߲ ߞߣߐ߫.</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>ߛߍߞߌߛߌߦߐ߲</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>ߞߊ ߓߐ</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>ߞߊ ߕߊ</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>ߘߊߞߎ߲ ߕߟߋ߬ ߞߍߣߍ߲߫ ߕߍ߫ ߕߟߋ߬ ߓߍ߲ߣߍ߲߫ ߘߌ߫.</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>ߓߊ߲ߠߌ ߕߟߋ߬ ߞߍߣߍ߲߫ ߕߍ߫ ߕߟߋ߬ ߓߍ߲ߣߍ߲߫ ߘߌ߫.</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>ߕߌߜ߳ߌ</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>ߓߊߙߊߞߍߟߊ ID߸ ߘߏ߲߬ߠߌ߲ ߕߐ߮ ߥߟߊ߫ e-mail ߟߊߓߊ߰ߙߊ.</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>ߓߊߙߊߞߍߟߊ߫ ߛߌ߫ ߡߊ߫ ߛߐ߬ߘߐ߲߬ “%input” ߦߋ߫.</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>ߞߊ߲</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>ߞߊ߲ ߛߌ߫</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>ߦߐߙߐ</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>ߦߐߙߐ %count</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>ߓߐߣߍ ߞߐߜߍ ߓߍ߯ ߟߊ߫</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>“%text” ߓߐߣߍߟߎ (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>ߓߐߣߍߟߎ (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>ߓߏߟߏ ߘߊ ߣߌ</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>ߓߏߟߏ ߘߊ</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>ߛߍ߲ߛߍ߲ ߓߋ ߓߊߙߊ ߟߊ</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>ߣߌ߲ ߛߍ߲ߛߍ߲ ߓߐߛߌ</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>ߥߟߊ߫ ߛߍ߲ߛߍ߲ߟߎ ߓߊߦߟߍ߬ ߞߊ߬ ߊ߬ߟߎ߬ ߥߊߟߍߦߊ߫ ߞߊ߬ ߞߐߣߐߞߏ ߓߍ߲ߣߍ߲߫ ߠߎ߬ ߦߌߘߊ߫.</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>ߣߴߌ ߞߊ߬ ߞߎߡߊߘߋ߲ߠߎ ߛߓߍ߫ ߓߊ߬߸ ߛߍ߲ߛߍ߲ߟߎ ߓߊ߬ ߢߌߣߌ߲ߠߌ ߘߐߓߍ߲߬.</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>ߓߐߣߍ߫ ߛߌ߫ ߡߊ߫ ߛߐ߬ߘߐ߲߬ “%text” ߦߋ߫.</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>ߓߐߣߍ߫ ߛߌ߫ ߡߊ߫ ߛߐ߬ߘߐ߲߬.</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>ߛߍ߲ߛߍ߲ ߞߋߟߋ߲ ߓߐߛߌ߫ ߛߍ߲ߝߍ߬.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>ߓߊߦߍߟߍߡߊߟߌߟߎ</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>ߥߊߟߋߟߎ</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>%name ߦߍߟߍߡߊ</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>ߦߍߟߍߡߊ</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -7514,6 +7730,10 @@
         <source>Setup &gt; Cronjobs</source>
         <translation>ߟߊߓߍ߲ߣߌ &gt; cron ߓߊߙߊߟߎ</translation>
     </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>ߞߙߏߣ ߓߊߙߊ ߦߐߙߐ ߛߌ ߡߊ ߓߊߙߊ ߞߍ ߝߐߟߐ: ߓߊߙߊ ߖߍߣߐߜ߳ߐ߲ߦߊߟߎ߸ ߘߏ߲ߣߍ߲ߟߎ߸ ߞߎ߲ߣߊߝߏߣߌߘߌߟߎ ߊߣߌ ߢߌߣߌߣߌ ߖߌߙߌߛߍߓߍ߲ ߓߋ ߡߊߞߐߣߐߣߌ ߟߊ. ߌ ߞߊ php bin/php/installcrontab.php --add --apply ߞߍ߸ ߥߊߟߌߡߊ ߞߊ --show ߛߊߙߌߦߊߟߎ ߝߊߙߊ crontab ߞߊ߲.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/dashboard/drafts</name>
@@ -8058,8 +8278,8 @@
         <translation>ߛߍߓߍߣߊߓߊߜ߳ߊ ߝߐߟߐߟߎ ߣߌ ߗߍ ߥߍߙߍ ߞߊ ߔߏߙߏߜ߳ߙߊߡߎߟߎ ߞߊ copyright ߞߎ߲ߣߊߝߏߣߌߟߎ ߡߌ߲ߣߎ ߓߋ Exponential ߝߍ, ߏߟߎ ߓߋ ߛߐߙߐ ߛߍߓߍ߲ ߝߌߛߌߦߋߟߎ ߞߐߣߐ ߣߌ LICENSE ߝߌߛߌߦߋ ߞߐߣߐ, ߌ ߣߊ ߝߐ ߟߌߛߊ߲ߛߌ ߓߋ ߊ ߢߌߣߌ ߗߏߜ߳ߏ ߡߌ߲ ߣߊ.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>ߣߌ߲ ߦߋ Exponential ߘߍߡߍߓߊߜ߳ߊ ߟߌߛߌ ߦߋ, ߡߌ߲ߣߎ ߦߋ ߎ ߞߊ ߓߊߙߊ ߘߌ 7x ߡߊ eZ Systems Contributor Licensing Agreement ߛߊߙߌߦߊߟߎ ߟߊ. ߌ ߣߊ ߝߐ ߖߍߢߐߜ߳ߐ߲ߦߊ ߌ߲ ߓߋ ߊ ߦߊߡߊߙߎߦߊ ߗߏߜ߳ߏ ߡߌ߲ ߣߊ, 7x ߓߋ ߘߍߡߍ ߞߋߟߋ߲-ߞߋߟߋ߲ ߓߍ ߟߊߖߍ ߣߌ ߟߌߛߊ߲ߛߌ ߞߋߟߋ߲ ߦߋ ߣߌ ߝߌߛߌߦߋ ߡߌ߲ ߞߐߣߐ ߊ ߓߋ. ߟߌߛߌ ߓߋ ߘߍߡߍߓߊߜ߳ߊ ߞߋߟߋ߲-ߞߋߟߋ߲ ߓߍ ߕߐߜ߳ߐ ߝߐ, ߊ ߞߊ ߖߍߢߐߜ߳ߐ߲ߦߊ ߞߎ߲ߣߊߝߏߣߌߟߎ ߣߌ ߊ ߓߋ ߊ ߝߍ, ߣߌ ߝߌߛߌߦߋ ߡߌ߲ߣߎ ߣߊ ߊ ߘߍߡߍߣߊ.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>ߘߍߡߍߓߊ߯ ߡߍ߲ ߠߎ߬ ߕߐ߮ ߝߐ߫ ߟߊ߫ ߊ߬ߟߎ߬ ߟߊ߫ ߓߊ߯ߙߊ ߘߐ߫ Exponential ߣߌ߫ ߒߞߏ߫ ߟߐ߲ߞߏ߫ ߡߍ߲ ߞߊ߲߬ ߊ߬ ߓߐ߫ ߘߊ߫، ߞߐߕߐ߮ ߡߍ߲ ߠߎ߬ ߘߍߡߍ߲ ߘߊ߫. ߣߌ߲߬ ߦߋ߫ ߞߎ߲߬ߓߊ߲߬ߠߌ߲ ߠߋ߬ ߘߌ߫، copyright ߞߊ߲ߞߎ߲ ߕߍ߫: ߘߍߡߍ߲߫ ߡߍ߲ ߠߎ߬ ߦߋ߫ ߞߍ߫ Exponential ߦߋ߫، ߏ߬ ߟߎ߬ ߦߋ߫ ߘߌ߬ Exponential Foundation ߣߌ߫ 7x ߡߊ߬ Contributor Licensing Agreement ߞߘߐ߫.</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13881,32 +14101,20 @@ Note: The packages will not be uninstalled.</source>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%evaluate_link"&gt;Exponential Enterprise Edition ߛߍߜ߳ߍߛߍߜ߳ߍ&lt;/a&gt; - &lt;a href="%share_link"&gt;ߌ ߞߊ ߞߍ Exponential Community ߞߊ ߡߐߜ߳ߐ ߦߋ߸ ߞߊ ߢߐߜ߳ߐ߲ ߘߍߡߍ ߊߣߌ ߞߊ ߝߊߙߊ ߊ ߞߊ߲&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; ߣߌ ߡߐߜ߳ߐ ߥߍߙߍߟߎ.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class="edition-info"&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>&lt;span class="edition-info"&gt;%edition&lt;/span&gt; ߓߋ ߓߊߙߊ ߞߍ. ߞߎ߲ߣߊߝߏߣߌ ߥߍߙߍߟߎ ߞߊߡߊ߸ ߊ ߝߌߟߍ &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; ߣߌ ߡߐߜ߳ߐ ߥߍߙߍߟߎ.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> ߞߎ߲ߣߊߝߏߣߌ ߥߍߙߍߟߎ ߞߊߡߊ߸ ߊ ߝߌߟߍ &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
     </message>
     <message>
-        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; ߣߌ ߡߐߜ߳ߐ ߥߍߙߍߟߎ.</translation>
+        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href="%evaluate_link"&gt;Exponential ߛߍߜ߳ߍߛߍߜ߳ߍ (7x ߝߍ)&lt;/a&gt; - &lt;a href="%share_link"&gt;ߌ ߞߊ ߞߍ Exponential Community ߞߊ ߡߐߜ߳ߐ ߦߋ߸ ߞߊ ߘߍߡߍ ߛߐߙߐ ߊߣߌ ߞߊ ߝߊߙߊ ߊ ߞߊ߲&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; ߣߌ ߡߐߜ߳ߐ ߥߍߙߍߟߎ.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13915,6 +14123,61 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Help center</source>
         <translation>ߘߍߡߍ ߦߐߙߐ</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>ߞߐߣߐߞߏߟߎ</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>ߞߐߕߐ߯ߓߍ ߞߐߜߍߟߎ</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>ߓߊߙߊߞߍߟߊߟߎ</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>ߞߐߣߐߞߏ ߞߌߟߊߛߌߟߎ</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>ߡߊߙߊߟߌ</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>ߞߐߜߍ %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>ߓߐߣߍߟߎ ߓߍ߯ ߦߋ߫</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>ߓߐߣߍ %count</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>ߓߐߣߍ ߞߋߟߋ߲</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>ߟߊ߬ߓߍ߲߬ߢߐ߲߰ߦߊ %count</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>ߟߊ߬ߓߍ߲߬ߢߐ߲߰ߦߊ߫ ߛߌ߫ ߕߍ߫</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>ߟߊ߬ߓߍ߲߬ߢߐ߲߰ߦߊߟߎ ߡߊ߫ ߛߋ߫ ߟߊߘߎߟߌ ߟߊ߫.</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>ߟߊ߬ߓߍ߲߬ߢߐ߲߰ߦߊߟߎ</translation>
     </message>
 </context>
 <context>
@@ -14383,6 +14646,14 @@ Note: The packages will not be uninstalled.</source>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>ߣߌ߲ ߛߌߜ߳ߌߟߌ ߦߋ ߘߍߡߏ ߦߋ ߡߌ߲ ߓߋ ߡߐߜ߳ߐ ߓߍߓߍ ߓߟߏ: ߡߐߜ߳ߐ ߏ ߡߐߜ߳ߐ ߓߋ ߛߋ ߞߊ ߊ ߡߊߙߊߓߊߜ߳ߊ ߜ߳ߎ߲ߘߏߘߊߢߍ ߘߏ߲߸ ߊߣߌ ߡߊߙߊߓߊߜ߳ߊߟߎ ߞߊ ߜ߳ߎ߲ߘߏߘߊߢߍߟߎ ߕߍ ߛߋ ߞߊ ߦߍߟߍߡߊ ߥߊߟߌߡߊ ߞߊ ߛߋߜ߳ߌ߲ ߞߏߞߎߙߊ. ߌ ߞߊߣߊ ߝߏߦߌ ߜ߳ߎ߲ߘߏ ߘߏ߲ ߦߊ߲.</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>ߌ ߞߊ ߡߌߣߍߣߍߟߎ</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>ߟߊߞߊߣߊ ߞߍߥߊߟߍߟߎ</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14672,6 +14943,14 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>ߟߊߘߌߟߌߞߊ߲ߟߎ߸ ߢߌߣߌߣߌ ߊߣߌ ߝߌߟߌ ߝߐߗߏߜ߳ߏ.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>ߞߐߣߐߞߏ ߞߎߙߊߟߎ</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>ߞߐߣߐߞߏ ߞߎߙߊߟߎ, ߝߍ߲ ߡߌ߲ߣߎ ߡߌߣߍߣߊ ߞߊ ߟߊߖߍ, ߊߣߌ ߞߍߥߊߟߍߟߎ ߛߎߜ߳ߊ߲ߘߌߟߌ ߞߊ߲.</translation>
     </message>
 </context>
 <context>
@@ -15130,6 +15409,46 @@ Note: The packages will not be uninstalled.</source>
         <source>Synchronisations</source>
         <translation>ߢߐߜ߳ߐ߲ߛߎߡߊ</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>GraphQL API: ߊ ߘߏ߲ߘߊ ߦߐߙߐ߸ ߛߌߜ߳ߌߗߏߜ߳ߏ ߣߌ߫ ߢߍߣߊߖߍߦߐߙߐ ߡߍ߲ ߦߋ ߢߌߣߌ߲ߞߊߟߌ ߟߎ ߝߊߙߌ ߟߊ.</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>ߕߊߡߌ߲ߠߌ ߟߎ</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>ߟߊߘߏ߲ߠߌ ߡߊߝߊߟߋ߲ߠߌ ߡߟߊߞߊ߬ߣߍ߲߫ ߞߐߕߐ߮ ߟߎ߬ ߘߐ߫: ߏ߬ ߟߎ߬ ߤߊߟߌ߸ ߓߏߟߌ ߟߎ߸ ߓߏߟߌ ߣߌ߫ ߞߐ߫ ߟߊߛߋߟߌ.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>ߞߐߣߐߞߏ ߞߎߙߊߟߎ</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>ߞߐߣߐߞߏ ߞߎߙߊߟߎ, ߝߍ߲ ߡߌ߲ߣߎ ߡߌߣߍߣߊ ߞߊ ߟߊߖߍ, ߊߣߌ ߞߍߥߊߟߍߟߎ ߛߎߜ߳ߊ߲ߘߌߟߌ ߞߊ߲.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>ߛߌߕߌ ߞߏߔߌ ߖߐߟߋ߲ ߓߌߟߊ ߞߍߣߍ ߞߊ߲ GitHub Pages ߥߟߊ߫ git ߤߐߛߌߕߌ ߝߘߏ߬ ߞߊ߲߬.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>ߞߍߣߍߓߌߟߊߟߌ ߖߐߟߋ߲</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>ߞߎ߲ߣߊߝߏߣߌ ߛߎߜ߳ߎߦߊߟߎ</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>ߞߌߛߍ ߣߌ ߝߊߙߊߝߍ߲ߟߎ ߟߊ ߞߎ߲ߣߊߝߏߣߌ ߛߎߜ߳ߎߦߊߟߎ ߓߍߓߍ߸ ߊ߬ ߣߌ ߞߌߟߊߛߌߟߎ ߣߌ ߞߐߣߐߞߏߟߎ ߦߋ ߊ߬ ߟߎ ߓߊߙߊ ߞߍ ߟߊ ߡߍ߲ ߠߊ.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15294,6 +15613,22 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>ߞߏ߲ߕߌߟߎ ߡߐߜ߳ߐ ߛߌ ߕߍ ߡߌ߲ߣߎ ߓߊߙߊ ߞߍ ߥߊߟߌߡߊ ߡߌ߲ߣߎ ߞߊ ߞߊ߲ ߞߊ ߟߊߖߍ; ߏߟߎ ߓߐ ߓߊߙߊ ߟߊ߸ ߏߟߎ ߘߊ ߦߍߟߍ ߥߊߟߌߡߊ ߏߟߎ ߟߊߓߐ.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>ߓߊߙߊߞߍߟߊ ߛߍߜ߳ߍߛߍߜ߳ߍߟߌ ߛߍߓߍ߲</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>ߖߐ߲ ߦߋ ߦߍߟߍߡߊ ߞߍ߸ ߖߐ߲ ߘߏ߲߸ ߥߊߟߌߡߊ ߖߐ߲ ߘߏ߲ߣߌ ߓߊ߲ߣߍ߲ ߘߏ߲߸ ߞߐ߲ߕߌ ߞߋߟߋ߲ ߞߋߟߋ߲ ߣߊ; ߛߍ߲ߛߍ߲ ߊߣߌ ߟߊߓߐ.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>ߘߏ߲ߣߌ ߖߊߕߋߓߐߛߍߓߍ߲</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>ߡߌ߲ߣߎ߲ ߘߏ߲ߣߍ߲ ߓߋ߸ ߘߏ߲ߣߌߟߎ ߊߣߌ ߕߌߢߍߣߌߟߎ ߘߏ߲ ߏ ߘߏ߲; ߓߊߙߊߞߍߟߊ ߘߐ ߓߐ ߦߐߙߐ ߓߍߍ.</translation>
     </message>
 </context>
 <context>
@@ -22110,6 +22445,22 @@ Note: The packages will not be uninstalled.</source>
         <source>%n hours ago</source>
         <translation>ߟߍߙߍ %n ߕߍߡߍߣߍ߲</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>GraphQL API ߟߊ߫ ߢߌߣߌ߲ߞߊߟߌ ߟߊߡߙߊ߬ߣߍ߲ ߠߎ߬ ߖߋ߬ߓߌ ߟߎ߬, ߊ߬ ߣߌ߫ ߊ߬ ߟߊ߫ ߛߌߜ߳ߌߗߏߜ߳ߏ ߞߐߣߐߞߏ ߞߎߟߎ ߟߎ߬.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>ߞߏߔߌ ߖߐߟߋ߲ ߓߌߟߊ ߞߍߣߍ ߞߊ߲ GitHub Pages ߥߟߊ߫ git ߤߐߛߌߕߌ ߝߘߏ߬ ߞߊ߲߬</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>ߞߍߣߍߓߌߟߊߟߌ ߖߐߟߋ߲</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>ߞߊߛߌ ߖߐߟߋ߲ ߦߋ߫ ߞߐߜߍ ߟߎ߬ ߘߌ߫ ߞߊ߬ ߓߐ߫ ߛߍߙߌߥߍߙߌ ߣߌ߲߬ ߘߐ߫. ߞߊ߬ ߛߌߕߌ ߞߏߔߌ ߖߐߟߋ߲ ߓߌߟߊ ߞߍߣߍ ߞߊ߲ ߦߙߐ߫ ߥߙߍ߫ ߟߊ߫߸ GitHub Pages ߥߟߊ߫ git ߤߐߛߌߕߌ ߝߘߏ߬ ߞߊ߲߬߸ ߞߍߣߍߓߌߟߊߟߌ ߖߐߟߋ߲ ߓߊ߯ߙߊ߫.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25651,6 +26002,10 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>last purge</source>
         <translation>ߖߐߛߌߟߌ ߟߊߓߊ߲</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>ߛߓߍߟߌ ߟߎ߫ ߡߊ߫ ߛߋ߫ ߞߊ߬ ߗߋߟߌ ߛߐ߰ߘߐ߲ ߕߊ߬ (ߟߊߓߊ߲ %date): ߟߊ߬ߓߊ߲߬ߕߐ ߞߋߟߋ߲ ߞߋߟߋ߲ ߓߘߊ߫ ߖߊߓߌ߫ ߟߊߡߊ߬ߙߊ߬ߣߍ߲ ߠߎ߬ ߓߍ߯ ߞߐ߯ߙߐ߫. %file ߞߊߞߊ߲߫ ߞߊ߬ ߛߋ߫ ߛߓߍ߫ ߟߊ߫ ߓߊ߯ߙߊߞߍߟߊ ߓߍ߯ ߟߊ߫ ߛߌߕߌ ߦߋ߫ ߓߊ߯ߙߊ߫ ߟߊ߫ ߡߍ߲ ߠߎ߬ ߕߐ߮ ߘߐ߫; NFS ߞߊ߲߬ ߊ߬ ߦߋ߫ NFSv4 ߥߟߊ߫ lockd ߝߍ߬.</translation>
     </message>
 </context>
 <context>
@@ -33599,6 +33954,14 @@ Note: The packages will not be uninstalled.</source>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>PHP ߢߍߣߊߓߐߓߊߜ߳ߊ ߞߊ ߛߍߛߌߦߐ߲ ߕߍߡߍߣߍ߲ߟߎ ߓߋ ߓߐߛߌ PHP ߦߍߙߍ ߝߍ (session.gc_maxlifetime)߸ ߣߌ߲ ߢߍ ߥߊߟߌߡߊ session_gc cron ߓߊߙߊ ߝߊ߲ ߕߍ.</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>ߘߏ߲ߣߌ ߖߊߕߋߓߐߛߍߓߍ߲ ߓߋ ߓߊߙߊߞߍߟߊ ߓߍߍ ߟߊ ߛߍߛߌߦߐ߲ ߘߏ߲ߣߍ߲ߟߎ ߖߌߙߊ߸ ߞߊ ߏߟߎ ߓߐ ߝߊ߲ߓߊ; ߊ ߓߋ ߓߊߙߊ ߞߍ ߣߌ ߛߍߛߌߦߐ߲ ߢߍߣߊߓߐߓߊߜ߳ߊ ߓߍߍ ߦߋ.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>ߘߏ߲ߣߌ ߖߊߕߋߓߐߛߍߓߍ߲ ߘߊ ߥߎߟߌ</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37923,6 +38286,26 @@ your account.</source>
     <message>
         <source>None yet</source>
         <translation>ߝߏߦߌ ߕߍ ߝߐߟߐ</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>ߟߊߞߊߣߊ ߞߍߥߊߟߍߟߎ</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>ߌ ߞߊ ߘߏ߲ߣߌ ߞߐߝߐߟߐߟߎ߸ ߗߍߛߌߙߌ ߡߌ߲ߣߎ߲ ߡߊ ߢߍ ߊߣߌ ߦߍߟߍߡߊߟߌߟߎ ߌ ߞߊ ߜ߳ߎ߲ߘߏߘߊߢߍ߸ ߌ ߞߊ ߌߡߍߟߌ ߊߘߙߍߛߌ ߊߣߌ ߘߏ߲ߣߌ ߛߍ߲ ߝߌߟߊ ߟߊ ߞߊ߲.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>ߣߌ߲ ߞߐ߲ߕߌ ߣߌ߲ ߟߊ ߘߏ߲ߣߌ ߞߐߝߐߟߐߟߎ߸ ߗߍߛߌߙߌ ߡߌ߲ߣߎ߲ ߡߊ ߢߍ ߊߣߌ ߟߊߞߊߣߊ ߦߍߟߍߡߊߟߌߟߎ.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>ߞߍߥߊߟߍߟߎ ߟߊߖߍ</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>ߘߏ߲ߣߌ ߡߌ߲ߣߎ߲ ߡߊ ߢߍ: %count</translation>
     </message>
 </context>
 <context>
@@ -44089,6 +44472,42 @@ If you want to send comments to the approver or view the status use the URL belo
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>ߘߏ߲ߣߌ ߞߐ߸ ߓߊߙߊߞߍߟߊ ߞߊ ߞߊߣ ߞߊ ߜ߳ߎ߲ߘߏߘߊߢߍ ߞߎߙߊ ߛߎߜ߳ߊ߲ߘߌ ߛߊߣߌ ߊ ߞߊ ߝߏߦߌ ߥߍߙߍ ߞߍ. ߊ ߞߍ ߣߌ ߌ ߦߋ ߜ߳ߎ߲ߘߏߘߊߢߍ ߥߊߕߌߡߊ߲ ߘߌ ߡߐߜ߳ߐ ߘߐ ߡߊ.</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>ߖߊ ߡߌ߲ ߓߋ ߦߋ߲ ߓߊ߯ ߛߎߥߊ߲ߘߌ</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>ߌ ߓߊ߯ ߝߍ߲ ߡߍ߲ ߛߎߥߊ߲ߘߌ߫ ߊ ߖߊ ߞߐߕߐ߯ߘߐ ߓߍ߯ ߓߊߦߟߍߡߊ߲߫ ߞߊ ߘߏ߲߫ ߝߊ߲ ߣߌ߲߬ ߘߐ. ߝߍ߲ ߜߘߍ ߕߍ߫ ߡߊߝߊ߬ߟߋ߲߫.</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>"%name" ߟߊ ߖߊ ߓߘߊ߫ ߓߊߦߟߍߡߊ߲߫ ߞߊ ߘߏ߲߫ ߝߊ߲ ߣߌ߲߬ ߘߐ.</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>ߖߊ ߦߊߟߊ</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>ߖߊ ߟߎ߫ ߢߌߣߌ ߕߐ߮ ߟߊ߫</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>ߢߌߣߌ</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>"%name" ߟߊ ߖߊ ߟߊߓߊ߰ߙߊ߫</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>ߖߊ ߣߌ߲߬ ߟߊߓߊ߰ߙߊ߫</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>ߖߊ߫ ߛߌ߫ ߕߍ߫ ߓߍ߲߬ ߌ ߟߊ ߢߌߣߌ ߡߊ߬.</translation>
     </message>
 </context>
 <context>
@@ -51013,6 +51432,10 @@ See the requirements page for more information.</source>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>crontab ߡߊ ߛߍߓߍ߲ (%reason). ߣߌ߲ ߛߌߙߊ ߣߌ߲ߣߎ ߝߊߙߊ ߓߊߙߊߞߍߟߊ ߞߊ crontab ߞߊ߲ ߡߌ߲ ߓߋ ߛߌߕߌ ߓߏߟߌ߸ ߣߏ ߕߍ ߢߍߣߐߜ߳ߐ߸ ߟߊߘߊߡߎߟߎ߸ ߞߎ߲ߣߊߝߏߣߌߘߌߟߎ ߣߌ ߢߌߣߌߣߌ ߕߊߡߊߛߌߦߍ߲ ߕߍߣߊ ߓߏߟߌ ߊߓߊߘߊ:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>ߊ ߓߋ ߛߌߜ߳ߌ ߞߏߞߎߙߊ ߣߌ Kickstarter ߦߋ (%file, ߏ ߞߐ php bin/php/kickstarter.php run --apply) ߥߊߟߌߡߊ ߣߌ ߛߌߜ߳ߌߟߌ ߞߎߙߊ ߦߋ.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54892,6 +55315,10 @@ your account.</source>
         <source>eZJSCore Public Packer cache</source>
         <translation>eZJSCore Packer ߞߊߛߌ (ߓߍ ߞߊ)</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>GraphQL ߟߊߡߙߊ߬ߟߌ (ߖߋ߬ߓߌ ߟߎ߬ ߣߌ߫ ߛߌߜ߳ߌߗߏߜ߳ߏ ߞߎߟߎ ߟߎ߬)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54978,6 +55405,14 @@ your account.</source>
     <message>
         <source>Copy of %class_name</source>
         <translation>%class_name ߞߏߔߌ</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>ߞߎ߲ߣߊߝߏߣߌ ߛߎߜ߳ߎߦߊߟߎ</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>ߞߎ߲ߣߊߝߏߣߌ ߛߎߜ߳ߎߦߊ %string</translation>
     </message>
 </context>
 <context>
@@ -55804,6 +56239,26 @@ your account.</source>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>SVG ߖߊ ߡߊ ߛߋ ߞߊ ߞߊߟߊ߲߸ ߥߊߟߊ ߊ ߞߐߣߐ ߝߏߦߌ ߕߍ ߛߋ ߞߊ ߖߌߙߊ ߣߌ ߟߊߞߊߣߊ ߦߋ.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>ߖߊ ߕߍ߫ ߛߋ߫ ߓߊߦߟߍߡߊ߲߫ ߠߊ߫. ߤߊߞߍߕߏ߸ ߌ ߞߊ ߛߋߜ߳ߌ߲ ߞߊ ߊ ߞߍ ߥߊߟߌߡߊ ߌ ߞߊ ߛߌߕߌ ߡߊߙߊߓߊߜ߳ߊ ߛߐߙߐ.</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>ߝߍ߲ ߛߎߥߊ߲ߘߌߣߍ߲ ߕߍ߫ ߦߋ߲߬ ߥߟߊ߫ ߌ ߕߍ߫ ߛߋ߫ ߊ ߞߊ߬ߙߊ߲߬ ߠߊ߫.</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>ߖߊ߫ ߕߍ߫ ߝߍ߲ ߛߎߥߊ߲ߘߌߣߍ߲ ߠߊ߫.</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>ߝߍ߲ ߛߎߥߊ߲ߘߌߣߍ߲ ߟߊ ߖߊ ߞߐߕߐ߯ߘߐ ߕߍ߫ ߛߋ߫ ߞߊ߬ߙߊ߲߬ ߠߊ߫.</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>ߝߍ߲ ߛߎߥߊ߲ߘߌߣߍ߲ ߟߊ ߖߊ ߓߏ߲߬ߓߊ߲߬ ߘߏ߲߫ ߝߊ߲ ߣߌ߲߬ ߟߊ߬ߘߌ߬ߢߍ߲߬ ߠߊ߫: %1 ߓߊߦߌߕߌ.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56334,6 +56789,42 @@ your account.</source>
         <source>The bookmark was renamed to "%name".</source>
         <translation>ߕߊߡߊߛߌߦߍ߲ ߕߐߜ߳ߐ ߦߍߟߍߡߊߣߊ ߞߊ ߞߍ «%name» ߦߋ.</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>ߢߍ ߣߌ߲ ߕߍ ߓߊߙߊ ߟߊ ߛߌߕߌ ߘߏ߲ߘߊ ߣߌ߲ ߞߐߣߐ (%siteaccess). ߕߊߡߊߛߌߦߍ߲ ߘߊ ߦߍߟߍ ߛߌߕߌ ߘߏ߲ߘߊ ߘߐ ߞߐߣߐ߸ ߢߍ ߣߌ߲ ߓߋ ߡߍ߲ ߞߐߣߐ.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>ߢߍ ߣߌ߲ ߞߊ ߡߏߘߌߟߌ ߡߊ ߛߌߜ߳ߌ ߦߊ߲߸ ߥߊߟߌߡߊ ߊ ߕߍ ߓߊߙߊ ߟߊ.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>ߢߍ ߣߌ߲ ߕߍ ߦߋ߲ ߕߎߜ߳ߎ߲: ߟߊߖߍߦߐߙߐ ߕߍ߲ ߕߍ ߊ ߞߊ ߡߏߘߌߟߌ ߟߊ.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>ߌ ߞߊ ߖߐߦߐߙߐ ߛߌ ߕߍ ߌ ߕߏ ߞߊ ߢߍ ߣߌ߲ ߘߊ ߦߍߟߍ.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>ߦߊߡߊߙߎߦߊ ߕߍ ߌ ߓߟߏ ߞߊ ߛߌߕߌ ߘߏ߲ߘߊ ߣߌ߲ ߓߊߙߊߞߍ.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>ߦߊߡߊߙߎߦߊ ߕߍ ߌ ߓߟߏ ߞߊ ߢߍ ߣߌ߲ ߞߐߣߐߞߏ ߞߊߟߊ߲.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>ߢߍ ߛߎߜ߳ߎߦߊ ߣߌ߲ ߕߍ ߛߋ ߞߊ ߞߍ ߕߊߡߊߛߌߦߍ߲ ߦߋ: ߊ ߓߋ ߓߊߙߊ ߞߍ ߛߍߓߍ߲ߝߎߙߊ ߘߐߙߐ߲ ߞߊ߲߸ ߥߊߟߌߡߊ ߥߊߕߌ ߛߎߙߎ߲ ߢߍ ߘߏ߲.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>ߢߍ ߣߌ߲ ߞߊ ߊߘߌߙߍߛߌ ߕߍ ߦߋ߲.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>ߢߍ ߣߌ߲ ߕߍ ߛߋ ߞߊ ߘߊ ߦߍߟߍ ߛߌߛߊ߲.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56805,6 +57296,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>ߌߡߍߟߌ ߗߌߦߐߙߐ ߓߊ߲ߣߊ ߗߌ %count ߟߊ ߓߏߟߌ ߟߊߓߊ߲ ߣߊ. ߌߡߍߟߌ ߛߍߙߌߥߍߙߌ ߣߌ site.ini MailSettings ߛߍߜ߳ߍߛߍߜ߳ߍ.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>ߞߍߥߊߟߍ %count ߓߋ ߡߊߞߐߣߐߣߌ ߟߊ ߊߣߌ ߞߎ߲ߣߊߝߏߣߌߘߌ ߞߙߏߣ ߓߊߙߊ ߓߏߟߌ ߛߌ ߡߊ ߛߍߓߍ. ߞߙߏߣ ߓߊߙߊ ߦߐߙߐ «frequent» ߝߊߙߊ crontab ߞߊ߲߸ ߥߊߟߌߡߊ exp:notification:run --apply ߞߍ.</translation>
     </message>
 </context>
 <context>
@@ -63061,6 +63556,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Choose another site or section with the node picker</source>
         <translation>ߛߌߕߌ ߥߍߙߍ ߥߊߟߊ ߛߍߞߌߛߌߦߐ߲ ߥߍߙߍ ߛߎߜ߳ߊ߲ߘߌ ߣߌ ߣߐߘߌ ߛߎߜ߳ߊ߲ߘߌߓߊߜ߳ߊ ߦߋ</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>ߛߌߛߕߍߡߌ ߞߎ߲ߕߌߜ߳ߌ ߘߊߡߊ ߘߍ ߓߋ ߛߋ ߞߊ ߕߌߜ߳ߌ ߦߍߟߍߡߊ: ./console exp:content-check --fix-permissions --apply ߞߍ ߌ ߣ&apos;ߊ ߝߐ root.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64594,6 +65093,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>empty</source>
         <translation>ߟߊ߲ߞߏߟߏ߲</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>ߓߟߏߣߐߓߌߟߊ ߞߌߟߍ ߕߍߡߍߣߊ ߛߊ߲ ߞߋߟߋ߲ ߞߊ߲: ߊ ߦߍߟߍߡߊ ߣߌ exp:audit key rotate --apply ߦߋ.</translation>
     </message>
 </context>
 <context>
@@ -68424,6 +68927,486 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Share of page time</source>
         <translation>ߢߍ ߥߊߕߌ ߕߌߟߊ</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>ߘߌߟߊ߲ߣߌ ߘߊߝߊߟߋ߲ ߢߌߣߌ߲ߣߊ</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>ߢߍ ߕߎ߲ ߕߍ ߢߍ ߞߊߛߌ ߞߐߣߐ (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>ߢߍ ߞߊߛߌ ߡߊ ߖߊߊߓߌ ߘߌ</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>ߊ ߘߌߟߊ߲ߣߊ</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>ߞߌߛߍ ߦߋ ߊ ߘߌߟߊ߲: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>ߊ ߘߌߙߊ ߞߊ ߓߐ ߢߍ ߞߊߛߌ ߟߊ %ms ms ߞߐߣߐ. ߢߍ ߡߊߙߊߟߊ %stored ߘߌߟߊ߲ߣߌ ߘߐ ߝߍ ߡߌ߲ ߡߍ߲ߣߊ %render ms߸ ߊ ߓߍ %age s ߓߐ.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>ߊ ߘߌߟߊ߲ ߛߌߛߊ߲</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>ߛߋߜߌ߲ ߞߊߛߌ ߟߊߖߍ ߡߊ</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>ߞߊ ߓߐ ߘߌߟߊ߲ߣߌ ߣߊ ߡߌ߲ ߞߍߙߊ %stored (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>ߣߌ߲ ߘߋߟߌߟߌ: ߊ ߘߌߙߊ ߞߊ ߓߐ ߢߍ ߞߊߛߌ ߟߊ %ms ms ߞߐߣߐ.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>ߓߊߙߊߞߍߟߊ</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>ߓߊߙߊߞߍߟߊ ID</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>ߞߊߛߌ ߔߙߏߝߌߟߌ</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>ߟߊߖߍ ߣߌ߲߬</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>ߟߊߖߍ ߞߊߛߌ</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>ߓߊߙߊߞߍߟߊ ߞߋߟߋ߲ ߞߋߟߋ߲ (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>ߓߊߙߊߞߍߟߊ ߟߊ߫ ߞߊߛߌ ߔߙߏߝߌߟߌ: ߔߙߏߝߌߟߌ ߞߋߟߋ߲ ߓߊߙߊߞߍߟߊ ߟߎ߬ ߦߋ߫ ߟߊߖߍ ߞߊߛߌ ߞߐߕߐ߮ ߟߎ߬ ߟߊߘߊ߲߬ߓߊ߲߬</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ߐߥߐ</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ߊߦߌ</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>ߓߊߙߊߞߍߟߊ ߕߐߜ߳ߐ</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>ߘߏ߲߬ߣߍ߲</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>ߛߍߛߌߦߐ߲</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>ߞߣߐߘߐ ߟߊߖߍ ߞߊߛߌ ߞߟߋ ߝߊ߲߭ ߡߍ߲ ߠߎ߬ ߓߘߊ߫ ߛߎߘߎ߲߬ ߓߊߙߊߞߍߟߊ ߟߊ߫߸ ߞߟߋ ߦߋ߫ ߊ߬ߟߎ߬ ߕߊ߫ ߒ߬ߞߊ߬ ߡߍ߲߫߸ ߞߐߜߍ ߣߌ߲߬ ߟߊ߫ ViewCacheTweaks ߘߐ߫. ߔߙߏߝߌߟߌ ߞߋߟߋ߲ ߓߊߙߊߞߍߟߊ ߟߎ߬ ߦߋ߫ ߟߊߖߍ ߟߎ߬ ߞߊߛߌ ߞߐߕߐ߮ ߟߎ߬ ߟߊߘߊ߲߬ߓߊ߲߬߸ ߝߏ߫ ߣߴߊ߬ ߞߍ߫ ߘߊ߫ ߟߊߖߍ ߖߘߍ߬ ߝߊ߲߭ ߟߎ߬ ߓߐߣߍ߲ ߘߐ߫ (ߢߣߊߕߊߟߌ߸ ߟߊߡߍ߲ߓߊ ߟߎ߬ ߞߟߋ): ߏ߬ ߟߎ߬ ߟߊ߫ ߔߙߏߝߌߟߌ ߖߘߍ߬ ߦߋ߫ ߦߋ߲߬߸ ߞߐߜߍ ߣߌ߲߬ ߘߐߙߐ߲߫ ߠߊ߫.</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>ߔߙߏߝߌߟߌ</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>ߟߊߖߍ ߣߌ߲߬ (ߣߐߘߌ %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: ߓߊߙߊߞߍߟߊ ߘߏ߲߬ߣߍ߲ ߓߍ߯ ߟߊ߫ ߞߊߛߌ ߞߐߕߐ߮ ߖߘߍ߬ ߦߋ߫ ߦߋ߲߬.</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>ViewCacheTweaks ߡߍ߲ ߦߋ߫ ߓߊ߯ߙߊ ߘߐ߫: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>ߝߊ߲</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>ߤߊߞߍ</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>ߝߊ߲߭ ߛߌ߫ ߕߍ߫ ߛߎߘߎ߲߬ ߓߊߙߊߞߍߟߊ ߟߊ߫ (ViewCacheTweaks).</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>ߟߊߖߍ ߣߌ߲߬ ߠߋ߬</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>ߞߏߔߌ ߞߍ߫ ߛߓߍߟߌ ߘߌ߫</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>ߖߐߦߐߙߐߟߎ</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>ߖߐߦߐߙߐ ߘߊߓߊ߯ߙߊߟߌ ߛߌ߫ ߡߊ߫ ߛߋ߫ ߞߊ߬ߙߊ߲߬ ߠߊ߫.</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>ߖߐߦߐߙߐ ID</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>ߖߐߦߐߙߐ</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>ߘߊ߲ߗߍ</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>ߘߌ߬ߣߍ߲ ߡߍ߲ ߡߊ߬</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>ߓߊߙߊߞߍߟߊ</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>ߖߍߞߎߟߎ %name (ߝߋ߲ %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>ߞߏߔߌ ߞߍߙߊ</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>ߞߏߔߌ ߡߊ߫ ߛߋ߫ ߞߍ߫ ߟߊ߫.</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>ߟߊߡߍ߲ߓߊ ߟߋ ߞߊ߬ ߊ߬ ߓߐ߫</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>ߟߊߖߍߓߊߜ߳ߊ ߕߐߜ߳ߐߓߊߟߌߟߎ</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>ߊ߬ ߞߋߟߋ߲߫ ߌ ߟߊ߫ ߘߌ߫</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>ߓߐߣߍ߲ ߘߐ߫</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>ߔߙߏߝߌߟߌ ߡߍ߲ ߕߐ߯ߒߕߊ߲ ߓߊߙߊߞߍߟߊ ߟߎ߬ ߦߋ߫ ߛߐ߬ߘߐ߲߬ ViewCacheTweaks ߞߋߟߋ߲ ߘߐ߫߸ ߛߊߙߌߦߊߟߍ߲ ߢߣߊߕߊߟߌ ߟߎ߬ ߝߍ߬߸ ߟߊߖߍ ߝߊ߲߭ ߟߎ߬ ߕߍ߫: ߟߊߡߍ߲ߓߊ ߡߍ߲ ߦߋ߫ ߛߍߛߌߦߐ߲ ߞߊ߬ߙߊ߲߬ ߠߊ߫߸ ߏ߬ ߕߍ߫ ߛߋ߫ ߢߌ߬ߣߌ߲߬ߞߊ߬ߟߌ ߟߊ߫ ߊ߬ߟߎ߬ ߡߊ߬.</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>ߢߣߊߕߊߟߌ ߟߎ߬</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>ߟߊߖߍ ߗߏߜ߳ߏ ߛߌ߫ ߕߍ߫ ߛߎߘߎ߲߬ ߓߊߙߊߞߍߟߊ ߟߊ߫ ߢߣߊߕߊߟߌ ߟߎ߬ ߟߊ߫ (site.ini [ContentSettings] CachedViewPreferences).</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>ߢߣߊߕߊߟߌ ߡߍ߲ ߠߎ߬ ߟߊߖߍ ߗߏߜ߳ߏ ߣߌ߲߬ ߠߎ߬ ߟߊ߫ ߟߊߖߍ ߟߎ߬ ߛߎߘߎ߲߬ߣߍ߲ ߦߋ߫ (CachedViewPreferences)߸ ߓߊߙߊߞߍߟߊ ߟߊ߫ ߛߊ߲߬ߞߊ߬ߟߌ ߥߟߊ߫ ߛߊߙߌߦߊߟߍ߲ ߝߍ߬. ߊ߬ߟߎ߬ ߦߋ߫ ߔߙߏߝߌߟߌ ߘߐ߫ ߞߊ߬ ߞߍ߫ userpreferences ߘߌ߫߸ ߟߊߖߍ ߗߏߜ߳ߏ ߓߍ߯ ߟߊ߫ ߘߌ߫ ߢߐ߲߮ ߝߍ߬.</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>ߟߊߖߍ ߗߏߜ߳ߏ</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>ߢߣߊߕߊߟߌ</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>ߛߊߙߌߦߊߟߍ߲</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>ߛߊߙߌߦߊߟߎ</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>ߖߐߦߐߙߐ ߟߎ߬ ߟߊ߫ ߛߊߙߌߦߊߟߎ ߖߌߙߊ߫ (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>ߛߊߙߌߦߊߟߎ ߦߋ߫ ߟߊߘߏ߲߬ ߛߍߙߝߍߙ ߞߊ߲߬ ߣߌ߫ ߝߊ߲߭ ߣߌ߲߬ ߘߊ߫ ߘߊ߫߸ ߞߐߜߍ ߞߋߟߋ߲߫ ߞߋߟߋ߲߫߸ ߊ߬ ߘߌ߫ ߛߋ߫ ߛߍ߲ߛߍ߲߫ ߠߊ߫ ߡߏߘߌߟߌ ߣߌ߫ ߓߊߙߊߞߍߗߏߜ߳ߏ ߝߍ߬.</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>ߓߊߙߊߞߍߗߏߜ߳ߏ</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>ߡߏߘߌߟߌ ߓߍ</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>ߓߊߙߊߞߍߗߏߜ߳ߏ ߓߍ߯</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>ߘߊ߲ߗߍߟߎ</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>ߞߏ߫ ߜߘߍ߫ ߟߎ߬ ߖߌߙߊ߫</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>ߛߊߙߌߦߊߟߎ ߕߍ߫ ߖߐߦߐߙߐ ߣߌ߲߬ ߠߎ߬ ߓߟߏ߫.</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>ߛߊߙߌߦߊߟߌ ߛߌ߫ ߕߍ߫ ߓߍ߲߬ ߛߍ߲ߛߍ߲ ߡߊ߬.</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%shown ߞߊ߬ ߓߐ߫ %matching ߛߊߙߌߦߊߟߎ ߘߐ߫ (%total ߓߍ߯)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>ߊ߲ ߦߋ߲߬ ߘߐ߫ ߖߊ߲߬ ߞߍ߫.</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>module/function, ߓߊ߲ߞߊ߲, ߞߏ߫ߡߊ߲</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>ߞߊ߬ߙߊ߲ߠߊ߫ ߘߋ߬ߣߍ߲߫ ߢߌ߬ߣߌ߲߬</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>ߞߏ߫ ߟߎ߬ ߘߐ߫ ߖߊ߲߬</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>ߡߏߘߌߟߌ/ߓߊߙߊߞߍߗߏߜ߳ߏ</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>ߓߊ߲ߞߊ߲ ߓߍ߯ (%count)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>ߞߊ߬ߙߊ߲ߠߊ߫ ߡߍ߲ ߕߍ߫.</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%shown ߝߐ߫ %matched ߘߐ߫</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>ߛߙߋ߲߬ߧߊ߲ ߕߍ߫</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>ߘߏ߬ߜߏ߬ߣߍ߲߫</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>ߢߍߝߐߟߌ ߟߎ߬ ߦߌ߬ߘߊ߬</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>ߢߍߝߐߟߌ ߟߎ߬ ߘߏ߬ߜߏ߬</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>ߘߊ ߦߍߟߍ</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>ߓߍߍ ߦߍߟߍ</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>ߓߍߍ ߘߊߕߎߜ߳ߎ</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>ߞߌߟߍ ߥߟߊ߫ ߤߊߞߍ</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>ߛߍߛߌߦߐ߲ ߘߐ߫ ߢߌ߬ߣߌ߲߬</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>ߛߎߜ߳ߎߦߊ</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>%count ߜߘߍ߫ ߟߎ߬</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>ߊ߬ ߘߏ߲߬ߣߍ߲߫ ߘߎ߰ߡߊ߬ ߞߏߖߎ߰ ߞߵߊ߬ ߦߌ߬ߘߊ߬</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>ߊ߬ ߕߍ߰ߣߍ߲߫ ߘߌ߫߸ ߛߓߍߘߋ߲ %count ߓߍ߯ ߟߊߘߍ߬ߣߍ߲߫</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>ߘߊߡߌߣߍߣߊ</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>ߞߎߞߌ ߕߐ߮</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>ߛߍߛߌߦߐ߲ ID</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>ߓߟߏߟߊߟߊ</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>ߟߊߡߙߊ߬ ߛߌߟߊ</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>PHP ߓߊߖߎ߬ߕߍ߰ߓߊ</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>ߡߊ߰ߞߍ߬ߕߊ߬ ߕߎߡߊ (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>ߞߎߞߌ</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>ߡߊ߰ߞߍ߬ߕߊ߬ ߕߎߡߊ %s ߛ.</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>ߌ ߖߘߍ߬ ߟߊ߫ PHP ߛߍߛߌߦߐ߲ ߠߋ߬߸ ߊ߬ ߕߘߍ߬ ߞߍ߫ ߢߊ߬ ߡߍ߲߬ ߠߊ߫ ߕߎߡߊ ߡߍ߲߫ ߝߊߛߟߌ ߟߊߞߊ߬ߘߊ߫ ߟߊ߫߸ ߝߏߦߌ߬ ߕߍ߫ ߓߊ߬ߓߎ߬ߕߊ ߜߘߍ߫ ߘߌ߫. ߞߌߟߍ ߡߍ߲ ߠߎ߬ ߦߋ߫ ߞߎ߲߬ߘߐ߬ߝߍ߲ ߠߎ߬ ߟߋ߬ ߘߌ߫ (ߕߏߞߍ߲߫߸ ߤߊߛ߸ ߕߊ߬ߡߌ߲߬ߞߊ߲) ߏ߬ ߟߎ߬ ߤߊߞߍ ߟߎ߬ ߓߍ߯ ߘߏ߬ߜߏ߬ ߟߊ߫ (debugbar.ini SessionMask[])؛ ߝߋ߲߫ ߜߘߍ߫ ߓߍ߯ ߦߌ߬ߘߊ߬ ߟߊ߫ ߊ߬ ߟߊߡߙߊ߬ߣߍ߲߫ ߞߍ߫ ߢߊ߬ ߡߍ߲߬߸ ߡߐ߰ ߖߘߍ߬ ߟߊ߫ ߞߎ߲߬ߠߊ߬ߦߋߟߌ ߝߣߊ߫.</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>ߞߌߟߍ %count߸ %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>ߓߏ߲߬</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>ߛߍߛߌߦߐ߲ ߝߎ߬ ߟߋ߬.</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>ߛߍߛߌߦߐ߲߫ ߛߌ߫ ߡߊ߫ ߘߊߡߌ߬ߣߊ߬ ߢߌ߬ߣߌ߲߬ߠߌ߲ ߣߌ߲߬ ߠߊ߫.</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>ߝߊߙߊߝߍ߲ %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>ߞߍߙߣߍߟ ߣߌ߫ ߜߘߍ߫ ߟߎ߬</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>ߟߊߘߏ߲ߠߌ ߓߍ߯ ߡߊ߫ ߦߌ߬ߘߊ߬: ߛߍߛߌߦߐ߲ ߞߣߐ߫ ߝߋ߲߫ ߛߌߦߊߡߊ߲߫ ߞߊ߬ ߕߊ߬ߡߌ߲߬ ߡߍ߲߫ ߛߋ߫ ߟߊ߫ ߛߓߍ߫ ߟߊ߫ ߦߊ߲߬.</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>ߞߌߟߍ %count ߡߊ߫ ߛߓߍ߫.</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>ߓߊ߲ߓߊ߲</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>ߤߊߞߍ ߡߍ߲ ߠߎ߬ ߦߋ߫ ߕߏߞߍ߲߫ ߘߌ߫ (JSON Web Token߸ Authorization ߞߎ߲߬ߘߐ ߟߊ߫ ߟߊߓߊ߰ߙߊ߬ߟߌ߬ߟߊ߬ߘߌ߬߸ ߞߌߟߍ ߖߘߍ߬ߘߐ߬߸ hex ߥߟߊ߫ ߛߓߍߟߌ߫ ߖߊ߲߬ ߓߟߏߓߟߏ) ߏ߬ ߟߎ߬ ߝߣߊ߫ ߓߍ߯ ߘߏ߬ߜߏ߬ ߟߊ߫߸ ߞߵߊ߬ ߟߊߞߊ߬ ߟߊ߫ ߞߌߟߍ ߕߐ߮ ߦߋ߫ ߡߎ߲߬ ߘߌ߫ (debugbar.ini SessionValueMask[]).</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>ߞߌߟߍ ߦߋ߫ ߞߎ߲߬ߘߐ߬ߝߍ߲߫ ߘߌ߫ (debugbar.ini SessionMask[]).</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>ߤߊߞߍ ߦߋ߫ ߕߏߞߍ߲߫ ߘߌ߫.</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>ߞߌߟߍ ߘߏ߬ߜߏ߬ߣߍ߲ ߘߎ߰ߞߟߏ߬.</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>ߛߍߛߌߦߐ߲ ߛߓߍߟߌ ߘߌ߫߸ ߘߏ߬ߜߏ߬ߣߍ߲߫ ߕߊ߬ߓߟߏ ߞߍ߫ ߢߊ߬.</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>ߛߍߛߌߦߐ߲ ߓߏ߲߬ ߌ߲߬ %size ߘߌ߫ (debugbar.ini SessionWarnBytes): ߓߊ߯ߙߊߞߍߟߊ ߣߌ߲߬ ߟߊ߫ ߢߌ߬ߣߌ߲߬ߠߌ߲ ߓߍ߯ ߛߍߛߌߦߐ߲ ߓߍ߯ ߞߊ߬ߙߊ߲߬ ߠߊ߫߸ ߞߊ߬ ߊ߬ ߛߓߍ߫ ߣߌ߫ ߊ߬ ߡߊߝߊ߬ߟߋ߲߬ߣߍ߲߫ ߘߌ߫.</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP ߦߋ߫ ߛߍߛߌߦߐ߲ ߣߌ߲߬ ߟߊߡߙߊ߬ ߟߊ߫ ߞߐߕߐ߯ ߟߎ߬ ߘߐ߫ ߞߊ߬ ߞߐߕߐ߮ ߛߐ߰ ߢߌ߬ߣߌ߲߬ߠߌ߲ ߓߍ߯ ߞߘߐ߫: ߓߊ߯ߙߊߞߍߟߊ ߞߋߟߋ߲ ߟߊ߫ ߢߌ߬ߣߌ߲߬ߠߌ߲ ߠߎ߬ (ߓߟߏߡߊ ߛߌߦߊߡߊ߲߫߸ AJAX ߞߟߌߟߌ) ߦߋ߫ ߢߐ߲߰ ߡߊߞߏ߲ߠߊ߲߫.</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>ߊ߬ ߕߏ߫ ߦߍߟߍߣߍ߲߫</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>ߓߏ߲߬ ߌ߲߬ %size ߘߌ߫ (debugbar.ini SessionWarnBytes): ߓߊ߯ߙߊߞߍߟߊ ߣߌ߲߬ ߟߊ߫ ߢߌ߬ߣߌ߲߬ߠߌ߲ ߓߍ߯ ߛߍߛߌߦߐ߲ ߓߍ߯ ߞߊ߬ߙߊ߲߬ ߠߊ߫.</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%count ߟߎ߬ ߘߐ߫ %hits ߞߊ߬ߙߊ߲߬ߣߍ߲߫ ߞߊߛߌ ߞߐ߫</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>ߡߏߘߍߟߌ߫ ߛߌ߫ ߡߊ߫ ߦߌ߬ߘߊ߬ (ߦߌ߬ߘߊ߬ߟߌ ߡߍ߲ ߞߊ߬ߙߊ߲߬ߣߍ߲߫ ߦߌ߬ߘߊ߬ߟߌ ߞߊߛߌ ߞߐ߫߸ ߏ߬ ߕߍ߫ ߡߏߘߍߟߌ߫ ߛߌ߫ ߦߌ߬ߘߊ߬).</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>ߖߐߦߐߙߐ ߘߌߟߎ</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>ߖߐߦߐߙߐߟߎ ߣߌ ߛߊߙߌߦߊߟߎ</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>ߓߊ߲ߓߊ߲ ߞߏ߫ ߕߐ߯ߒߕߊߓߊߟߌ ߟߎ߬ ߕߊ ߘߐ߫</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>ߞߋߟߋ߲ ߞߏ߫ ߕߐ߯ߒߕߊߓߊߟߌ ߟߎ߬ ߕߊ</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70304,6 +71287,14 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>not sent</source>
         <translation>ߗߌ ߡߊ ߞߍ</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>ߞߎ߲ߣߊߝߏߣߌߘߌ ߞߙߏߣ ߓߊߙߊ ߓߋ ߊ ߓߏߟߌ ߞߋߟߋ߲ ߞߋߟߋ߲ ߓߍߍ ߛߍߓߍ ߦߊ߲. ߦߐߙߐ frequent ߝߊߙߊ crontab ߞߊ߲߸ ߥߊߟߌߡߊ exp:notification:run --apply ߞߍ.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>ߞߐ߲ߛߏߟߌ ߞߍ ߓߊߙߊ ߟߊ: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -76022,6 +77013,98 @@ You will need to change the class of the node by using the swap functionality.</
         <source>This topic is not Released; readers do not see it.</source>
         <translation>ߣߌ߲ ߞߏ ߡߊ ߓߌߟߊ ߞߍߣߍ ߞߊ߲; ߞߊߟߊ߲ߘߍ߲ߟߎ ߕߍ ߊ ߦߋ.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>ߕߊߡߌ߲ߠߌ ߟߎ</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>ߟߊߘߏ߲ߠߌ ߡߊߝߊߟߋ߲ߠߌ ߡߟߊߞߊ߬ߣߍ߲߫ ߞߐߕߐ߮ ߟߎ߬ ߘߐ߫: ߏ߬ ߟߎ߬ ߤߊߟߌ߸ ߓߏߟߌ ߟߎ߸ ߓߏߟߌ ߣߌ߫ ߞߐ߫ ߟߊߛߋߟߌ.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>ߛߌߕߌ ߞߏߔߌ ߖߐߟߋ߲ ߓߌߟߊ ߞߍߣߍ ߞߊ߲ GitHub Pages ߥߟߊ߫ git ߤߐߛߌߕߌ ߝߘߏ߬ ߞߊ߲߬.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>ߞߍߣߍߓߌߟߊߟߌ ߖߐߟߋ߲</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>ߟߊߖߍߟߌ ߞߣߐ</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>ߞߊߟߊ߲ߘߍ߲ߟߎ ߓߋ ߞߐߜߍ ߣߌ߲ ߦߋ.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>ߊ ߘߏߜߏߟߍ߲ ߓߋ ߞߊߟߊ߲ߘߍ߲ߟߎ ߡߊ߸ ߝߏ ߡߐߜ߳ߐ ߘߏ ߦߋ ߊ ߓߌߟߊ ߞߍߣߍ ߞߊ߲.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>ߞߐߜߍ ߣߌ߲ ߓߋ ߟߊߖߍߟߌ ߣߊ ߛߌߛߊ߲. ߊ ߘߏߜߏߟߍ߲ ߓߋ ߞߊߟߊ߲ߘߍ߲ߟߎ ߡߊ߸ ߝߏ ߊ ߦߋ ߓߌߟߊ ߞߍߣߍ ߞߊ߲.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>ߞߐߜߍ ߣߌ߲ ߓߌߟߊߟߍ߲ ߓߋ ߞߍߣߍ ߞߊ߲: ߞߊߟߊ߲ߘߍ߲ߟߎ ߓߋ ߊ ߦߋ ߛߌߛߊ߲.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>ߞߐߜߍ ߣߌ߲ ߦߋ ߓߙߎߦߐ߲ ߦߋ ߕߎߡߊ ߥߍߙߍ. ߊ ߘߏߜߏߟߍ߲ ߓߋ ߞߊߟߊ߲ߘߍ߲ߟߎ ߡߊ߸ ߝߏ ߊ ߦߋ ߟߊߖߍ ߞߊ ߓߌߟߊ ߞߍߣߍ ߞߊ߲.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>ߓߌߟߊ ߞߍߣߍ ߞߊ߲ ߛߌߛߊ߲</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>ߟߊߓߊ߯ߙߊߓߊ߯ߟߊ ߡߍ߲ ߓߟߏ ߖߐߦߐߙߐ %role ߓߋ߸ ߊ ߣߌ ߊ ߡߊ ߥߍߙߌߛߌߦߐ߲ ߣߌ߲ ߛߍߓߍ߸ ߏ ߘߐߙߐ߲ ߓߋ ߛߋ ߞߊ ߊ ߓߌߟߊ ߞߍߣߍ ߞߊ߲.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>ߘߍߡߍ ߞߏ ߡߍ߲ ߓߋ ߓߌߟߊߟߌ ߞߍߣߍ ߞߊ߲ ߡߊߞߐߣߐ ߟߊ</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>ߊ ߓߋ ߊ ߘߏߜߏ ߞߊߟߊ߲ߘߍ߲ߟߎ ߡߊ߸ ߝߏ ߊ ߦߋ ߓߌߟߊ ߞߍߣߍ ߞߊ߲ ߕߎߡߊ ߥߍߙߍ.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>ߟߊߖߍߟߌߟߊ ߘߏ ߓߋ ߊ ߝߍߛߍߝߍߛߍ ߏ ߞߐ. ߞߊߟߊ߲ߘߍ߲ߟߎ ߡߊ ߊ ߦߋ ߝߟߐ.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>ߞߊߟߊ߲ߘߍ߲ߟߎ ߓߋ ߊ ߦߋ ߛߌߛߊ߲ ߛߌߛߊ߲.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>ߊ ߓߋ ߊ ߓߐ ߟߊߖߍߟߌ ߘߐ ߓߊ߯ߙߊ ߥߍߙߍ ߞߏߛߐ߲. ߞߊߟߊ߲ߘߍ߲ߟߎ ߕߍ ߊ ߦߋ.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>ߞߐߜߍ ߣߌ߲ ߘߏߜߏ ߞߊߟߊ߲ߘߍ߲ߟߎ ߡߊ؟</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>ߞߐߜߍ ߣߌ߲ ߛߍߜ߳ߌ߲ ߓߙߎߦߐ߲ ߣߊ؟</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>ߞߊߟߊ߲ߘߍ߲ߟߎ ߕߍ %title ߦߋ ߕߎߜߎ߲߸ ߝߏ ߡߐߜ߳ߐ ߘߏ ߦߋ ߊ ߓߌߟߊ ߞߍߣߍ ߞߊ߲ ߕߎߡߊ ߥߍߙߍ.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title ߓߋ ߛߍߜ߳ߌ߲ ߓߙߎߦߐ߲ ߣߊ ߓߊ߯ߙߊ ߥߍߙߍ ߞߏߛߐ߲. ߞߊߟߊ߲ߘߍ߲ߟߎ ߡߊ ߊ ߦߋ ߝߟߐ߸ ߊ ߞߊߞߊ ߟߊߖߍ ߞߎߘߊ ߟߊ ߞߊߓߌ ߊ ߡߊ ߓߌߟߊ ߞߍߣߍ ߞߊ߲.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>ߘߊߓߌߟߊ</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>ߞߏ ߣߌ߲ ߠߎ ߓߋ ߟߊߖߍߟߌ ߘߐ. ߞߊߟߊ߲ߘߍ߲ߟߎ ߓߋ ߊߟߎ ߦߋ ߣߌ ߡߐߜ߳ߐ ߡߍ߲ ߡߊ ߥߍߙߌߛߌߦߐ߲ ߛߌߛߊ߲ ߡߌ߲ ߛߍߓߍ߸ ߏ ߦߋ ߊߟߎ ߓߌߟߊ ߞߍߣߍ ߞߊ߲.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76477,6 +77560,46 @@ You will need to change the class of the node by using the swap functionality.</
         <source>None.</source>
         <translation>ߝߏߦߌ ߕߍ.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>ߣߌ authenticator ߔߏߙߏߜ߳ߙߊߡߎ ߦߋ</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>ߣߌ ߞߏߘߍ ߦߋ ߡߌ߲ ߗߌߙߊ ߌߡߍߟߌ ߝߍ</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>ߣߌ ߟߊߛߋߜ߳ߌ߲ ߞߏߘߍ ߦߋ</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>ߣߌ ߘߏ߲ߣߌ ߞߌߟߍ ߦߋ</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>ߣߌ ߞߍߣߍߡߊ ߞߐ߲ߕߌ ߦߋ</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>ߟߊߞߊߣߊ ߞߍߥߊߟߍߟߎ</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>ߊ ߖߌߙߊߣߍ߲ ߘߏ߲ ߌ ߣ&apos;ߊ ߝߐ ߊ ߟߊ ߙߋߖߏ; ߊߘߌߙߍߛߌ ߓߋ ߡߊߙߊ ߌ ߣ&apos;ߊ ߝߐ ߛߌߕߌ ߟߊ ߞߎ߲ߣߊߝߏߣߌߟߎ ߟߊߞߊߣߊ ߟߊߓߍ߲ߟߎ ߓߋ ߊ ߝߐ ߗߏߜ߳ߏ ߡߌ߲ ߣߊ.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>ߊ ߡߊ ߛߍߓߍ</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>ߦߐߙߐ</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>ߊ ߢߐߜ߳ߐ߲</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76720,6 +77843,42 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Manage devices</source>
         <translation>ߡߌߣߍߣߍߟߎ ߡߊߙߊ</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>ߣߌ authenticator ߔߏߙߏߜ߳ߙߊߡߎ ߦߋ</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>ߣߌ ߞߏߘߍ ߦߋ ߡߌ߲ ߗߌߙߊ ߌߡߍߟߌ ߝߍ</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>ߣߌ ߟߊߛߋߜ߳ߌ߲ ߞߏߘߍ ߦߋ</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>ߣߌ ߘߏ߲ߣߌ ߞߌߟߍ ߦߋ</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>ߣߌ ߞߍߣߍߡߊ ߞߐ߲ߕߌ ߦߋ</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>ߟߊߞߊߣߊ ߞߍߥߊߟߍߟߎ</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>ߊ ߡߊ ߛߍߓߍ</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>ߦߐߙߐ</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>ߊ ߢߐߜ߳ߐ߲</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76799,6 +77958,14 @@ You will need to change the class of the node by using the swap functionality.</
         <source>View the sessions of this user</source>
         <translation>ߣߌ߲ ߓߊߙߊߞߍߟߊ ߞߊ ߛߍߛߌߦߐ߲ߟߎ ߟߊߖߍ</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>ߌ ߞߊ ߞߐ߲ߕߌ %login ߡߌ߲ ߓߋ %site ߞߊ߲߸ ߏ ߞߍߙߊ ߛߌߛߊ߲ ߞߊ ߘߏ߲ ߞߊ ߓߐ ߦߐߙߐ ߘߐ ߟߊ߸ ߊ ߡߊ ߘߏ߲ ߞߊ ߓߐ ߦߐߙߐ ߡߌ߲ ߣߊ ߞߐߝߍ ߣߌ߲ ߣߊ:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>ߦߐߙߐ ߊ ߢߐߜ߳ߐ߲</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76837,6 +78004,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%browser %os ߞߊ߲</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>ߘߏ߲ߣߌ ߖߊߕߋߓߐߛߍߓߍ߲</translation>
     </message>
 </context>
 <context>
@@ -77045,6 +78216,82 @@ You will need to change the class of the node by using the swap functionality.</
         <source>The passkey could not be checked. Please try again.</source>
         <translation>ߘߏ߲ߣߌ ߞߌߟߍ ߡߊ ߛߋ ߞߊ ߛߍߜ߳ߍߛߍߜ߳ߍ. ߤߊߞߍߕߏ߸ ߊ ߟߊߖߍ ߕߎߡߊ ߥߍߙߍ.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>ߞߐ߲ߕߌ ߡߍ߲ ߟߎ ߓߋ ߘߏ߲ ߘߏ߲ߣߌ ߞߌߟߍߟߎ ߘߐߙߐ߲ ߟߊ߸ ߏ ߟߎ ߕߍ ߛߐ߲ ߞߊ ߜ߳ߎ߲ߘߏߘߊߢߍ ߟߊߓߊߙߊ ߦߊ߲: «ߘߏ߲ ߣߌ ߘߏ߲ߣߌ ߞߌߟߍ ߦߋ» ߛߎߜ߳ߊ߲ߘߌ.</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>%login ߟߊ ߘߏ߲ߣߌ ߞߌߟߍߟߎ</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>ߣߌ߲ ߞߐ߲ߕߌ ߓߋ ߘߏ߲ ߘߏ߲ߣߌ ߞߌߟߍ ߡߍ߲ ߟߎ ߟߊ. ߡߌ߲ ߓߍ ߡߌߣߍ߲ ߕߎ߲ߣߍ߲ ߥߊߟߌߡߊ ߛߏ߲ߦߊߣߍ߲ ߞߊ߲߸ ߏ ߟߊߛߊ: ߊ ߕߍ ߛߋ ߘߏ߲ ߟߊ ߕߎߡߊ ߥߍߙߍ. ߞߐ߲ߕߌ ߕߌ ߖߍߘߍ ߓߋ ߞߎߘߊ ߟߎ ߝߊߙߊ ߟߊ.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>ߘߏ߲ߣߌ ߞߌߟߍ ߞߊߞߊ߲ ߌ ߞߊ ߞߐ߲ߕߌ ߝߍ</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>ߘߏ߲ߣߌ ߞߌߟߍ ߝߊߙߊ ߌ ߞߊ ߞߐ߲ߕߌ ߞߊ߲</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>ߘߏ߲ߣߌ ߞߌߟߍ ߝߊߙߊ ߞߊ ߕߊ ߢߍ. ߏ ߞߐ ߌ ߓߘߊ ߘߏ߲ ߊ ߟߋ ߦߋ߸ ߌ ߕߍ ߘߏ߲ ߜ߳ߎ߲ߘߏߘߊߢߍ ߘߐߙߐ߲ ߦߋ ߕߎߡߊ ߥߍߙߍ.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>ߣߌ ߘߏ߲ߣߌ ߞߌߟߍ ߦߋ ߘߏ߲ ߞߊ ߘߌߦߊ ߞߏߛߓߍ ߊ ߟߊߕߊߡߊ߲ߣߍ߲ ߞߏߛߓߍ ߜ߳ߎ߲ߘߏߘߊߢߍ ߓߊߟߊ. ߞߋߟߋ߲ ߝߊߙߊ ߊ ߞߊ߲ ߛߌߣߊ߲߸ ߥߊߟߌߡߊ ߕߊ ߢߍ ߊ ߕߍ.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>ߛߌߣߊ߲ ߕߍ</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>ߘߏ߲ߣߌ ߞߌߟߍ «%name» ߟߊߛߊ ߥߊ؟</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>ߊ ߕߍ ߛߋ ߞߊ ߘߏ߲ ߣߌ߲ ߞߐ߲ߕߌ ߟߊ ߕߎߡߊ ߥߍߙߍ. ߣߌ ߊ ߕߎ߲ ߓߍ ߟߊߓߊ߲ ߘߌ߸ ߞߐ߲ߕߌ ߕߌ ߓߘߊ ߘߏ߲ ߜ߳ߎ߲ߘߏߘߊߢߍ ߦߋ߸ ߥߊߟߌߡߊ ߌ ߦߋ ߜ߳ߎ߲ߘߏߘߊߢߍ ߞߎߘߊ ߟߊߘߏ߲.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>ߘߏ߲ߣߌ ߞߌߟߍ ߟߊߛߊ</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>ߟߊߛߊ</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>ߘߏ߲ߣߌ ߞߌߟߍ ߕߍ ߣߌ߲ ߞߐ߲ߕߌ ߓߟߏ.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>ߘߐ߲ߣߊߓߊߜ߳ߊ</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>ߊ ߕߍ ߘߏ߲</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>ߌ ߞߊ ߘߏ߲ߣߌ ߞߌߟߍ ߟߊߓߊ߲: ߜ߳ߘߍ ߝߊߙߊ ߊ ߞߊ߲ ߣߌ ߌ ߡߊ ߣߌ߲ ߓߐߛߌ ߝߟߐ.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>ߣߌ߲ ߞߐ߲ߕߌ ߓߋ ߘߏ߲ ߘߏ߲ߣߌ ߞߌߟߍߟߎ ߘߐߙߐ߲ ߟߊ (ߘߏ߲ߣߌ ߞߌߟߍ ߛߊߙߌߦߊ): ߣߌ ߞߋߟߋ߲ ߕߍ ߕߏߣߍ߲ ߦߋ߸ ߊ ߓߘߊ ߘߏ߲ ߊ ߞߊ ߜ߳ߎ߲ߘߏߘߊߢߍ ߦߋ ߕߎߣߌ.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>ߣߌ߲ ߦߋ ߌ ߞߊ ߘߏ߲ߣߌ ߞߌߟߍ ߟߊߓߊ߲ ߘߌ߸ ߌ ߞߊ ߞߐ߲ߕߌ ߕߍ ߛߋ ߞߊ ߘߏ߲ ߊ ߕߍ. ߘߏ߲ߣߌ ߞߌߟߍ ߜ߳ߘߍ ߝߊߙߊ ߊ ߞߊ߲ ߝߟߐ.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>ߘߏ߲ߣߌ ߞߌߟߍ «%name» ߟߊߛߊߣߍ߲ ߟߋ. ߊ ߕߍ ߛߋ ߞߊ ߘߏ߲ ߣߌ߲ ߞߐ߲ߕߌ ߟߊ ߕߎߡߊ ߥߍߙߍ.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77144,6 +78391,34 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Code from your authenticator app</source>
         <translation>ߞߏߘߋ ߡߌ߲ ߓߐߙߊ ߌ ߞߊ ߔߏߙߏߜ߳ߙߊߡߎ ߛߍߜ߳ߍߛߍߜ߳ߍߓߊߜ߳ߊ ߟߊ</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>ߌ ߓߋ ߕߊ ߘߊߕߊ ߖߐߛߌ ߟߊ ߓߊߓߎ߲ ߥߊߟߌߡߊ ߞߍߥߊߟߍ ߛߍߓߍ߲ ߘߏ ߖߐߛߌ ߟߊ.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>ߌ ߞߊ ߜ߳ߎ߲ߘߏߘߊߢߍ ߣߌ ߘߏ߲ߣߌ ߞߌߟߍ ߘߏ</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>ߌ ߞߊ ߜ߳ߎ߲ߘߏߘߊߢߍ ߣߌ ߞߏߘߌ ߘߏ ߡߌ߲ ߓߐߙߊ ߌ ߞߊ ߘߐ߲ߣߊߓߊߜ߳ߊ ߊߔߟߌߞߊߛߌߦߐ߲ ߣߊ</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>ߥߊߟߌߡߊ:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>ߣߌ߲ ߥߍߓߎ ߦߊߟߊߟߊ߲ ߕߍ ߛߋ ߘߏ߲ߣߌ ߞߌߟߍߟߎ ߟߊߓߊߙߊ ߟߊ. ߛߌߟߊ ߜ߳ߘߍ ߓߊߙߊ ߕߊ߸ ߥߊߟߌߡߊ ߥߍߓߎ ߦߊߟߊߟߊ߲ ߜ߳ߘߍ.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>ߣߌ ߌ ߓߊ ߕߊ ߢߍ߸ ߌ ߞߊ ߥߍߓߎ ߦߊߟߊߟߊ߲ ߓߋ ߌ ߞߊ ߘߏ߲ߣߌ ߞߌߟߍߟߎ ߞߋߟߋ߲ ߢߌߣߌ߲ ߟߊ.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>ߕߊ ߢߍ ߣߌ ߘߏ߲ߣߌ ߞߌߟߍ ߦߋ</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77234,6 +78509,70 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Setup</source>
         <translation>ߟߊߓߍ߲ߣߌ</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>ߌ ߖߘߍ ߞߊ ߜ߳ߎ߲ߘߏߘߊߢߍ߸ ߌߡߍߟߌ ߊߘߙߍߛߌ߸ ߘߏ߲ߣߌ ߞߌߟߍߟߎ߸ ߘߏ߲ߣߌ ߛߍ߲ ߝߌߟߊ ߟߊ߸ ߛߐߘߐ߲ ߞߏߘߌߟߎ ߥߊߟߌߡߊ API ߞߌߟߍߟߎ ߡߊߝߊߟߋ߲ ߟߌ߲߸ ߊ ߣߌ ߌ ߖߘߍ ߞߊ ߡߌߣߍ߲ ߜ߳ߘߍߟߎ ߓߐ ߟߌ߲.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>ߓߊߙߊߞߍߟߊߟߎ߸ ߏ ߟߎ ߟߊ ߜ߳ߎ߲ߘߏߘߊߢߍ ߣߌ ߡߌߣߍ߲ߟߎ߸ ߞߐ߲ߕߌ ߟߊߓߍ߲ߟߎ ߘߊߟߌ߲ ߣߌ ߦߍߟߍߡߊߟߌ߸ ߓߊߙߊߞߍߟߊ ߞߐ߲ߕߌ ߞߎߘߊߟߎ ߓߊ߲ߓߊ߲ ߥߊߟߌߡߊ ߓߊߟߌ߸ ߖߐߦߐߙߐߟߎ ߘߌߟߌ ߣߌ ߛߊߙߌߦߊߟߎ ߦߍߟߍߡߊߟߌ.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>ߘߊߕߊ ߖߐߛߌߟߌ</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>ߣߐߜ߳ߐߛߌߜ߳ߌߦߐߙߐ ߘߊߝߊ߲ߞߊ߲ߓߐߟߌ߸ ߝߋ߲ߟߎ ߓߐߛߌߟߌ ߊ ߞߐߣߐ ߣߌ ߝߋ߲ ߛߌߦߊߡߊ߲ ߓߐߛߌߟߌ ߢߐ߲ߡߌ߲ߞߊ߲ ߘߐ.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>ߞߐߣߐߞߏߟߎ ߓߐߛߌߟߌ߸ ߓߌߟߊߟߌ ߞߍߣߍ ߞߊ߲ ߣߌ ߡߊߙߊߟߌ</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>ߞߐߣߐߞߏߟߎ ߓߐߛߌߟߌ (ߣߐߜ߳ߐߛߌߜ߳ߌߦߐߙߐ ߘߐ ߝߣߊ)߸ ߓߌߟߊߟߌ ߞߍߣߍ ߞߊ߲ ߣߌ ߓߙߎߦߐ߲ ߡߊߙߊߟߌ߸ ߢߌߣߌ߲ߞߊߟߌ ߓߋ ߞߍ ߞߊ ߛߓߍߘߋ߲ ߗߌ ߕߎߡߊ ߟߊ. ߊ ߕߍ ߟߊߓߊߙߊ ߟߊ ߝߟߐ.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>ߞߊ ߓߊ ߞߍߟߌ ߜ߳ߍߟߍ߲ ߢߍ߸ ߓߊߙߊߞߍߟߊ ߡߍ߲ ߘߏ߲ߣߍ߲ ߓߋ ߊ ߦߍߙߍ ߛߐ߲ ߕߎߡߊ ߥߍߙߍ: ߣߌ ߊ ߞߊ ߜ߳ߎ߲ߘߏߘߊߢߍ ߣߌ ߘߏ߲ߣߌ ߞߌߟߍ ߦߋ߸ ߥߊߟߌߡߊ ߣߌ ߘߏ߲ߣߌ ߞߌߟߍ ߕߍ ߦߋ߲߸ ߣߌ ߊ ߞߊ ߜ߳ߎ߲ߘߏߘߊߢߍ ߣߌ ߊ ߞߊ ߘߐ߲ߣߊߓߊߜ߳ߊ ߊߔߟߌߞߊߛߌߦߐ߲ ߞߏߘߌ ߦߋ. ߥߍߓߎ ߞߐߜ߳ߍߟߎ ߘߐߙߐ߲ ߓߋ ߢߌߣߌ߲ߞߊߟߌ ߞߍ ߟߊ: REST ߘߐ߲ߓߊߟߌ߸ SOAP߸ WebDAV߸ expservices ߘߏ߲ߣߌ ߣߌ ߓߊߘߌ ߛߌߘߌߙߌ ߕߍ ߢߌߣߌ߲ߞߊߟߌ ߞߍ ߝߋߎ.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>ߟߊߓߍ߲ߟߎ ߓߋ ߕߊ ߡߌ߲ ߞߊ߲</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>ߟߊߓߍ߲ߟߎ ߓߊ ߡߍ߲ ߦߋ</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>ߛߌߕߌ ߘߏ߲ߘߊ ߓߍߦߊ</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>ߛߌߕߌ ߘߏ߲ߘߊ %name</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>ߘߊ ߦߍߟߍ</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>ߡߍ߲ ߢߌߣߌ߲ߞߊߣߍ߲: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>ߓߊߙߊߞߍߟߊߟߎ ߖߍߞߎߟߎߟߎ ߛߎߜ߳ߊ߲ߘߌ ߞߊ ߏ ߟߎ ߟߊ ߛߌ߲ߘߌߟߊߟߎ ߘߐߙߐ߲ ߢߌߣߌ߲ߞߊ (ߦߙߌߞߊ ߘߌ ߦߍߟߍߡߊߓߊߜ߳ߊߟߎ). ߞߋߟߋ߲ ߡߊ ߛߎߜ߳ߊ߲ߘߌ: ߓߊߙߊߞߍߟߊ ߓߍߦߊ.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>ߊ ߡߊߙߊߣߍ߲ ߦߋ settings/override/site.ini.append.php ߘߐ߸ ߛߌߕߌ ߘߏ߲ߘߊ ߓߍߦߊ ߝߍ. ߡߊߙߊߟߌ ߓߋ ߌ ߢߌߣߌ߲ߞߊ ߞߊ ߌ ߦߍߙߍ ߛߐ߲.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>ߊ ߡߊߙߊߣߍ߲ ߦߋ settings/siteaccess/%name/site.ini.append.php ߘߐ. ߝߋ߲ ߡߍ߲ ߓߍ settings/override ߘߐ߸ ߏ ߟߋ ߓߋ ߛߋ߲ߘߐ ߟߊ. ߡߊߙߊߟߌ ߓߋ ߌ ߢߌߣߌ߲ߞߊ ߞߊ ߌ ߦߍߙߍ ߛߐ߲.</translation>
     </message>
 </context>
 <context>
@@ -77336,6 +78675,6822 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Open the page</source>
         <translation>ߢߍ ߌ߲ ߦߍߟߍ</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from ߞߊ ߛߋ %to ߞߊ ߓߐ %count ߘߐ</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>ߓߊߙߊߞߍߟߊ ߕߐߜ߳ߐ ߥߊߟߌߡߊ ߓߊߙߊߞߍߟߊ ID: ߞߐ߲ߕߌ ߡߌ߲ ߞߍߥߊߟߋ ߞߍߣߍ߲ ߦߋ ߊ ߞߊ߲߸ ߥߊߟߌߡߊ ߓߊߙߊߞߍߟߊ ߡߌ߲ ߦߋ ߊ ߞߍ.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>ߞߐ߲ߕߌ</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>ߞߍߥߊߟߋ</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>ߞߐߝߍ</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>ߖߊߓߌ ߏ ߖߊߓߌ</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>ߛߊߣߌ</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>ߞߍߓߊߜ߳ߊ</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>ߛߊߣߌߦߊ</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>ߊ ߞߍߙߊ</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>ߞߍߥߊߟߍߟߎ ߓߍ ߡߊߙߊ ߕߌߟߋ %days ߞߐߣߐ.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>ߞߍߥߊߟߍߟߎ ߓߍ ߡߊߙߊ ߝߐ ߣߌ ߎ ߓߐߛߌߙߊ ߓߟߏ ߟߊ.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>ߞߍߥߊߟߍߟߎ</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>ߞߍߥߊߟߋ ߏ ߞߍߥߊߟߋ</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>ߞߐ߲ߕߌ ߣߌ߲ ߞߊ ߞߍߥߊߟߍߟߎ ߓߍ</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>ߟߌߛߌ ߟߊߓߐ ߞߊ ߞߍ CSV ߦߋ (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>ߊ ߡߊ ߢߍ</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>ߞߊ ߓߐ</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>ߟߌߛߌ ߛߍ߲ߛߍ߲</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>ߞߍߥߊߟߋ ߛߌ ߡߊ ߓߍ߲.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>ߢߍ ߞߋߟߋ߲ ߣߊ</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>ߛߍߓߍ߲ߣߌ ߘߊߕߎߜ߳ߎߙߊ audit.ini ߞߐߣߐ ([UserAuditSettings] UserAudit); ߟߌߛߌ ߓߍ ߡߌ߲ ߛߍߓߍ߲ߣߍ߲ ߝߟߐ ߖߌߙߊ.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>ߊ ߓߊ߲ߣߍ߲</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>ߖߊߓߌ</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>ߖߌߙߊ</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>ߓߊߙߊߞߍߟߊ ߛߍߜ߳ߍߛߍߜ߳ߍߟߌ ߛߍߓߍ߲ ߞߊ ߕߊߓߟߌ ߕߍ ߦߋ߲. ߌ ߦߋ ߊ ߘߌߟߊ߲ ߣߌ php update/common/scripts/6.0/createuseraudittable.php ߦߋ; ߝߐ ߏ ߥߊߕߌ߸ ߛߍߜ߳ߍߛߍߜ߳ߍߟߌ ߝߌߛߌߦߋߟߎ ߓߍ ߞߍߥߊߟߋ ߏ ߞߍߥߊߟߋ ߡߊߙߊ.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>ߢߍ ߣߌ߲ ߡߊߜ߳ߏ ߓߍ SQL ߞߎ߲ߣߊߝߏߣߌߛߏ ߟߊ; ߊ ߕߍ ߛߐߙߐ MongoDB ߞߊ߲. ߛߍߜ߳ߍߛߍߜ߳ߍߟߌ ߝߌߛߌߦߋߟߎ ߓߍ ߞߍߥߊߟߋ ߏ ߞߍߥߊߟߋ ߡߊߙߊ.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>ߝߐ</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>ߓߊߙߊߞߍߟߊ ߛߍߜ߳ߍߛߍߜ߳ߍߟߌ ߛߍߓߍ߲</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>ߓߊߙߊߞߍߟߊ</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>ߥߊߕߌ</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>ߦߐߙߐ</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>ߖߐ߲ ߦߋ ߞߐ߲ߕߌ ߖߎߡߍ߲ ߦߍߟߍߡߊ߸ ߞߊ ߊ ߘߌߟߊ߲߸ ߞߊ ߊ ߓߊߙߊ ߘߊߡߌߣߍ߸ ߞߊ ߊ ߓߊߙߊ ߘߊߓߌߟߊ߸ ߞߊ ߊ ߦߐߙߐ ߝߊߟߋ߲ ߥߊߟߌߡߊ ߞߊ ߊ ߓߐߛߌ߸ ߖߐ߲ ߘߏ߲ߣߊ ߥߊߟߌߡߊ ߖߐ߲ ߘߏ߲ߣߌ ߓߊ߲ߣߍ߲ ߘߏ߲߸ ߊߣߌ ߖߐߦߐߙߐ ߖߎߡߍ߲ ߟߎ ߘߌߙߊ: ߛߌߙߊ ߞߋߟߋ߲ ߞߍߥߊߟߋ ߞߋߟߋ߲ ߞߋߟߋ߲ ߣߊ߸ ߣߌ ߊ ߦߐߙߐߟߎ ߦߋ ߛߊߣߌ ߊߣߌ ߞߐߝߍ. ߜ߳ߎ߲ߘߏߘߊߢߍߟߎ ߣߌ ߜ߳ߎ߲ߘߏߟߎ ߕߍ ߛߍߓߍ߲ ߊߓߊߘߊ.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>ߖߍߞߎߟߎ</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>ߛߌߛߕߍߡߎ</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>ߊ ߕߍ ߘߏ߲</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>ߌ ߞߊ ߞߐ߲ߕߌ ߟߊߞߊߣߊ</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>ߟߊߛߋߜ߳ߌ߲ ߞߏߘߍ ߘߐ ߞߍߙߊ ߞߊ ߘߏ߲ ߌ ߞߊ ߞߐ߲ߕߌ %login ߞߐߣߐ %site ߞߊ߲.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>ߟߊߛߋߜ߳ߌ߲ ߞߏߘߍ ߘߐ ߞߍߙߊ ߓߊߙߊ ߟߊ</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>ߞߐ߲ߕߌ</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>ߊߘߌߙߍߛߌ ߊ ߢߐߜ߳ߐ߲</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>ߜ߳ߎ߲ߘߏߘߊߢߍ ߞߎߙߊ ߢߌߣߌ ߥߊߟߊߛߊ ߞߊ ߘߏ߲ ߞߏߞߎߙߊ߸ ߥߊߟߌߡߊ ߞߊ ߛߌߕߌ ߞߎ߲ߕߌߜ߳ߌߟߎ ߥߍߟߍ.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>ߜ߳ߎ߲ߘߏߘߊߢߍ ߞߎߙߊ ߢߌߣߌ</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>ߟߊߛߋߜ߳ߌ߲ ߞߏߘߍ ߞߋߟߋ߲ ߞߋߟߋ߲ ߓߍߍ ߓߋ ߓߊߙߊ ߞߍ ߛߌߢߍ ߞߋߟߋ߲. ߣߌ ߌ ߞߊ ߕߋߟߋߝߐߣߌ ߕߎߣߎߣߊ߸ ߌ ߞߊ authenticator ߔߏߙߏߜ߳ߙߊߡߎ ߟߊߓߍ߲ ߞߏߞߎߙߊ ߊߣߌ ߞߊ ߟߊߛߋߜ߳ߌ߲ ߞߏߘߍ ߞߎߙߊߟߎ ߡߊߙߊ ߦߐߙߐ ߟߊߞߊߣߊߣߍ߲ ߣߊ.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>ߘߏ߲ߣߌ ߗߍߛߌߙߌ ߡߌ߲ߣߎ߲ ߡߊ ߢߍ ߌ ߞߊ ߞߐ߲ߕߌ ߞߊ߲</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>ߞߊ ߓߐ ߛߌߛߊ߲ ߣߊ߸ ߘߏ߲ߣߌ ߓߋߣߊ ߞߏߘߍ ߘߐ ߢߌߣߌ ߌ ߞߊ ߜ߳ߎ߲ߘߏߘߊߢߍ ߞߐ. ߣߌ ߌߟߋ ߘߍ ߦߋ ߊ ߞߍ߸ ߌ ߡߊ߲ ߞߊ߲ ߞߊ ߝߏߦߌ ߞߍ.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>ߣߌ ߌߟߋ ߘߏ߲ ߊߣߌ ߌ ߢߌߣߊ߲ߣߊ ߌ ߞߊ ߜ߳ߎ߲ߘߏߘߊߢߍ ߞߐ߸ ߞߎߙߊ ߘߐ ߢߌߣߌ. ߣߌ ߌߟߋ ߕߍ߸ ߜ߳ߎ߲ߘߏߘߊߢߍ ߓߊߙߌߞߊߡߊ ߛߎߜ߳ߊ߲ߘߌ ߊߣߌ ߞߊ ߘߏ߲ߣߌ ߛߍ߲ ߝߌߟߊ ߟߊ ߘߊߡߌߣߍ.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>ߣߌ ߌߟߋ ߕߍ ߡߌ߲ ߦߋ ߊ ߞߍ߸ ߡߐߜ߳ߐ ߘߐ ߓߋ ߛߋ ߞߊ ߌ ߞߊ ߜ߳ߎ߲ߘߏߘߊߢߍ ߘߐ߲: ߊ ߦߍߟߍߡߊ ߛߌߛߊ߲ ߊߣߌ ߞߊ ߦߐߙߐ ߟߊߖߍ ߌ ߞߊ ߞߐ߲ߕߌ ߘߏ߲ߣߍ߲ ߓߋ ߦߐߙߐ ߡߌ߲ ߣߊ.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>ߟߊߛߋߜ߳ߌ߲ ߞߏߘߍ ߡߌ߲ߣߎ߲ ߕߏߙߊ</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>ߌ ߞߊ ߡߌߣߍߣߍߟߎ ߟߊߖߍ</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>ߟߊߞߊߣߊ ߟߊߛߐߡߌߣߌ</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>ߡߐߜ߳ߐ ߘߐ ߦߋ ߊ ߢߌߣߌ ߞߊ ߘߏ߲ ߌ ߞߊ ߞߐ߲ߕߌ %login ߞߐߣߐ %site ߞߊ߲ ߣߌ ߜ߳ߎ߲ߘߏߘߊߢߍ ߝߌߟߊߣߍ߲ ߦߋ ߛߌߢߍ %count ߢߐߜ߳ߐ߲ ߞߐ.</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>ߟߊߞߊߣߊ ߞߍߥߊߟߍ ߘߐ ߞߍߙߊ ߌ ߞߊ ߞߐ߲ߕߌ %login ߞߊ߲ %site ߞߊ߲.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>ߣߌ߲ ߦߋ ߟߊߞߊߣߊ ߟߊߛߐߡߌߣߌ ߦߋ ߌ ߞߊ ߞߐ߲ߕߌ ߞߏ ߟߊ. ߊ ߓߋ ߗߌ ߏ ߦߍߟߍߡߊߟߌ ߛߎߜ߳ߎߦߊ ߓߍߍ ߟߊ ߊߣߌ ߊ ߕߍ ߛߋ ߞߊ ߓߌߟߊ.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>ߥߊߕߌ</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>ߘߏ߲ߣߌ ߛߍ߲ ߝߌߟߊ ߟߊ ߓߌߟߊߙߊ ߌ ߞߊ ߞߐ߲ߕߌ %login ߦߋ %site ߞߊ߲.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>ߘߏ߲ߣߌ ߛߍ߲ ߝߌߟߊ ߟߊ ߓߌߟߊߙߊ</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>ߘߏ߲ߣߌ ߛߍ߲ ߝߌߟߊ ߟߊ ߘߊߡߌߣߍߣߊ ߌ ߞߊ ߞߐ߲ߕߌ %login ߦߋ %site ߞߊ߲.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>ߘߏ߲ߣߌ ߛߍ߲ ߝߌߟߊ ߟߊ ߘߊߡߌߣߍߣߊ</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>ߌ ߞߊ ߞߐ߲ߕߌ %login ߡߌ߲ ߓߋ %site ߞߊ߲߸ ߏ ߘߊߕߎߜ߳ߎߙߊ ߘߏ߲ߣߌ ߛߌߦߊߡߊ߲ ߡߌ߲ߣߎ߲ ߡߊ ߢߍ ߏߟߎ ߞߐ.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>ߛߌߛߊ߲ ߌ ߞߊ ߞߐ߲ߕߌ ߟߊߞߊߣߊߣߍ߲ ߓߋ ߌ ߞߊ ߜ߳ߎ߲ߘߏߘߊߢߍ ߘߊߡߊ ߘߍ ߝߍ. ߣߌ ߌߟߋ ߕߍ ߡߌ߲ ߦߋ ߊ ߞߍ߸ ߘߏ߲ߣߌ ߛߍ߲ ߝߌߟߊ ߟߊ ߘߊߡߌߣߍ ߞߏߞߎߙߊ ߌ ߞߊ ߜ߳ߎ߲ߘߏߘߊߢߍ ߦߍߟߍߡߊߟߌ ߞߐ.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>ߌ ߞߊ ߞߐ߲ߕߌ ߘߊߕߎߜ߳ߎߙߊ</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>ߘߏ߲ߣߌ ߞߌߟߍ ߘߏ ߝߊߙߊߣߍ߲ ߌ ߞߊ ߞߐ߲ߕߌ %login ߞߊ߲ %site ߞߊ߲.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>ߡߍ߲ ߓߍߣߊ ߘߏ߲ߣߌ ߞߌߟߍ ߣߌ߲ ߡߊߙߊ߸ ߏ ߓߋ ߛߐ߲ ߞߊ ߘߏ߲ ߌ ߞߊ ߞߐ߲ߕߌ ߟߊ ߌ ߞߊ ߜ߳ߎ߲ߘߏߘߊߢߍ ߕߍ. ߣߌ ߌ ߕߍ ߊ ߝߊߙߊ ߟߊ߸ ߊ ߓߐߛߌ ߘߏ߲ߣߌ ߞߌߟߍߟߎ ߞߐߣߐ ߊ ߣߌ ߌ ߞߊ ߜ߳ߎ߲ߘߏߘߊߢߍ ߡߊߝߊߟߋ߲.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>ߘߏ߲ߣߌ ߞߌߟߍ ߘߏ ߓߐߛߌߣߍ߲ ߌ ߞߊ ߞߐ߲ߕߌ %login ߟߊ %site ߞߊ߲.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>ߊ ߕߍ ߛߋ ߞߊ ߘߏ߲ ߌ ߞߊ ߞߐ߲ߕߌ ߟߊ ߕߎߡߊ ߥߍߙߍ. ߣߌ ߌ ߕߍ ߊ ߓߐߛߌ ߟߊ߸ ߌ ߞߊ ߘߏ߲ߣߌ ߞߌߟߍߟߎ ߣߌ ߌ ߞߊ ߡߌߣߍ߲ߟߎ ߝߛߍߝߛߍ.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>ߘߏ߲ߣߌ ߞߌߟߍ ߘߏ ߝߊߙߊߣߍ߲ ߌ ߞߊ ߞߐ߲ߕߌ ߞߊ߲</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>ߘߏ߲ߣߌ ߞߌߟߍ ߘߏ ߓߐߛߌߣߍ߲ ߌ ߞߊ ߞߐ߲ߕߌ ߟߊ</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>ߟߊߞߊߣߊ ߞߍߥߊߟߍߟߎ</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>%name ߟߊ ߟߊߞߊߣߊ ߞߍߥߊߟߍߟߎ</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>ߊ ߘߏ߲ߣߊ</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>ߘߏ߲ߣߌ ߗߍߛߌߙߌ ߡߌ߲ ߡߊ ߢߍ</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>ߊ ߓߐߙߊ</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>ߛߍߛߌߦߐ߲ߟߎ ߓߐߙߊ</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>ߘߏ߲ߣߌ ߞߊ ߓߐ ߡߌߣߍ߲ ߞߎߙߊ ߟߊ</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>ߘߏ߲ߣߌ ߞߊ ߓߐ ߦߐߙߐ ߞߎߙߊ ߟߊ</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>ߡߐߜ߳ߐߦߊ ߛߍߡߍ߲ߕߌߦߊߙߊ («ߌ ߦߍߙߍ ߛߐ߲»)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>ߡߐߜ߳ߐߦߊ ߟߊߖߍߟߌ ߡߊ ߢߍ</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>ߊ ߘߏ߲ߣߊ ߣߌ ߘߏ߲ߣߌ ߞߌߟߍ ߦߋ</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>ߘߏ߲ߣߌ ߣߌ ߘߏ߲ߣߌ ߞߌߟߍ ߦߋ ߡߊ ߢߍ</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>ߘߏ߲ߣߌ ߓߊ߲ߣߊ: ߛߍ߲ ߝߌߟߊ ߞߏߘߍ ߕߍ ߦߋ߲ ߥߊߟߌߡߊ ߊ ߡߊ ߢߍ</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>ߛߍ߲ ߝߌߟߊ ߞߏߘߍ ߝߌߟߊߣߍ߲</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>ߞߐ߲ߕߌ ߘߊߕߎߜ߳ߎߙߊ ߘߏ߲ߣߌ ߡߌ߲ߣߎ߲ ߡߊ ߢߍ ߏߟߎ ߞߐ</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>ߞߐ߲ߕߌ ߘߊߦߍߟߍߙߊ</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>ߜ߳ߎ߲ߘߏߘߊߢߍ ߦߍߟߍߡߊߣߊ</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>ߜ߳ߎ߲ߘߏߘߊߢߍ ߦߍߟߍߡߊߟߌ ߡߊ ߢߍ</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>ߜ߳ߎ߲ߘߏߘߊߢߍ ߟߊߓߍ߲ߣߊ ߞߏߞߎߙߊ</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>ߜ߳ߎ߲ߘߏߘߊߢߍ ߞߎߙߊ ߢߌߣߌߣߊ</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>ߌߡߍߟߌ ߊߘߙߍߛߌ ߦߍߟߍߡߊߣߊ</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>ߓߊߙߊߞߍߟߊ ߕߐߜ߳ߐ ߦߍߟߍߡߊߣߊ</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>ߘߏ߲ߣߌ ߛߍ߲ ߝߌߟߊ ߟߊ ߓߋ ߓߊߙߊ ߟߊ</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>ߘߏ߲ߣߌ ߛߍ߲ ߝߌߟߊ ߟߊ ߓߐߙߊ ߓߊߙߊ ߟߊ</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>ߟߊߛߋߜ߳ߌ߲ ߞߏߘߍ ߞߍߙߊ ߓߊߙߊ ߟߊ</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>ߟߊߛߋߜ߳ߌ߲ ߞߏߘߍ ߞߎߙߊߟߎ</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>ߊߔߟߌߞߊߛߌߦߐ߲ ߜ߳ߎ߲ߘߏߘߊߢߍ ߘߌߟߊ߲ߣߊ</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>ߊߔߟߌߞߊߛߌߦߐ߲ ߜ߳ߎ߲ߘߏߘߊߢߍ ߓߐߙߊ ߓߊߙߊ ߟߊ</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>ߘߏ߲ߣߌ ߞߌߟߍ ߝߊߙߊߟߊ ߊ ߞߊ߲</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>ߘߏ߲ߣߌ ߞߌߟߍ ߓߐߛߌߙߊ</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>ߞߐ߲ߕߌ ߓߌߟߊߙߊ ߓߊߙߊ ߟߊ</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>ߞߐ߲ߕߌ ߓߐߙߊ ߓߊߙߊ ߟߊ</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>ߓߍߓߍ</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>ߘߏ߲ߣߌߟߎ ߊߣߌ ߛߍߛߌߦߐ߲ߟߎ</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>ߞߐ߲ߕߌ ߦߍߟߍߡߊߟߌߟߎ</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>ߊ ߡߊߜ߳ߏ ߓߋ ߖߊ߲ߕߏ ߟߊ</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>ߌߟߋ ߝߍ</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>ߓߊߙߊߞߍߟߊ ߝߍ</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>%login ߝߍ</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>ߗߏߜ߳ߏߦߊ</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>ߥߍߓߎ ߦߊߟߊߟߊ߲</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>ߛߌߛߕߍߡߌ</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>ߡߌߣߍ߲</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>ߦߐߙߐ</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>ߖߊߡߊߣߊ</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>ߛߍߛߌߦߐ߲ߟߎ</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>ߖߎߡߍ߲</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>ߗߌߟߌ ߛߌߙߊ</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>ߗߍߛߌߙߌ ߡߌ߲ߣߎ߲ ߡߊ ߢߍ</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>ߞߏߘߍ ߡߌ߲ߣߎ߲ ߕߏߙߊ</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>ߘߏ߲ߣߌ ߢߍߣߊߓߐߓߊߜ߳ߊ</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>ߟߊߞߊߣߊ ߞߍߥߊߟߍߟߎ</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>%name ߟߊ ߟߊߞߊߣߊ ߞߍߥߊߟߍߟߎ</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>ߘߏ߲ߣߌߟߎ ߊߣߌ ߦߍߟߍߡߊߟߌߟߎ ߌ ߞߊ ߞߐ߲ߕߌ ߟߊߞߊߣߊߟߌ ߟߊ. ߣߌ ߌ ߦߋ ߝߍ߲ ߘߐ ߦߋ ߌ ߡߊ ߡߌ߲ ߞߍ߸ ߌ ߞߊ ߜ߳ߎ߲ߘߏߘߊߢߍ ߦߍߟߍߡߊ ߊߣߌ ߞߊ ߡߌߣߍ߲ ߡߌ߲ߣߎ߲ ߌ ߕߍ ߏߟߎ ߘߐ߲߸ ߏߟߎ ߓߐ.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>ߘߏ߲ߣߌߟߎ ߊߣߌ ߦߍߟߍߡߊߟߌߟߎ ߣߌ߲ ߞߐ߲ߕߌ ߣߌ߲ ߟߊߞߊߣߊߟߌ ߟߊ.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>ߌ ߞߊ ߡߌߣߍߣߍߟߎ</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>ߜ߳ߎ߲ߘߏߘߊߢߍ ߦߍߟߍߡߊ</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>ߛߍߜ߳ߌ߲ ߞߐ߲ߕߌ ߟߊ</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>ߟߊߞߊߣߊ ߞߍߥߊߟߍߟߎ ߕߍ ߛߍߓߍ</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>ߊ ߓߋ ߞߊߙߊ߲ ߞߊ ߓߐ ߓߊߙߊߞߍߟߊ ߛߍߜ߳ߍߛߍߜ߳ߍߟߌ ߛߍߓߍ߲ ߣߊ߸ ߊ ߟߊ ߕߊߓߊߟߌ expuser_audit ߕߍ ߦߋ߲ ߥߊߟߌߡߊ ߊ ߕߍ ߘߍߡߍ ߣߌ߲ ߓߍߖߍߝߊ߲ߓߊ ߣߌ߲ ߞߊ߲. php update/common/scripts/6.0/createuseraudittable.php ߞߍ߸ ߥߊߟߌߡߊ 6.0.15 ߟߊ ߓߍߖߍߝߊ߲ߓߊ ߞߎߙߊߦߊ.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>ߘߏ߲ %days ߟߊߓߊ߲ߟߎ</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>ߘߏ߲ߣߌߟߎ ߘߏ߲ %days ߟߊߓߊ߲ߟߎ ߞߐߣߐ</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>ߟߊߞߊߣߊ ߞߍߥߊߟߍ ߞߐߝߐߟߐߟߎ</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>ߖߌߙߊ</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>ߊ ߡߊ ߢߍ</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>ߊ ߓߊ߲ߣߊ</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>ߟߊߞߊߣߊ ߞߍߥߊߟߍ ߛߌ ߡߊ ߛߍߓߍ ߝߐߟߐ.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>ߟߊߞߊߣߊ ߞߍߥߊߟߍߟߎ ߓߋ ߡߊߙߊ ߘߏ߲ %days.</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>ߟߊߞߊߣߊ ߞߍߥߊߟߍߟߎ ߓߋ ߡߊߙߊ ߝߏ ߞߎ߲ߕߌߜ߳ߌ ߘߐ ߞߊ ߏߟߎ ߓߐߛߌ.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>ߒ ߞߊ ߘߏ߲ߣߌ ߞߎ߲ߣߊߝߏߣߌߟߎ ߟߊߖߌߜ߳ߌ߲</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>ߌ ߞߊ ߛߍߛߌߦߐ߲ߟߎ ߊߣߌ ߌ ߞߊ ߟߊߞߊߣߊ ߞߍߥߊߟߍߟߎ ߌ ߣ&apos;ߊ ߝߐ JSON ߝߌߛߌߦߋ.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>ߛߍߛߌߦߐ߲ߟߎ ߕߍ ߛߓߍߘߐ ߞߍߦߙߐ ߣߌ߲ ߞߊ߲, ߏ ߘߐ ߡߌߣߍ߲ ߜ߳ߊ߲ߞߊ߲ ߕߍ ߛߋ ߓߐ ߟߊ. ߌ ߞߊ ߜ߳ߎ߲ߘߏߘߊߢߍ ߦߟߍߡߊ ߛߌߛߍ߲.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>ߛߍߛߌߦߐ߲ ߜ߳ߊ߲ߞߊ߲ %count ߓߐߣߍ߲ ߘߌ. ߛߌߛߍ߲ ߌ ߞߊ ߜ߳ߎ߲ߘߏߘߊߢߍ ߦߟߍߡߊ.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>ߡߌߣߍ߲ ߜ߳ߊ߲ߞߊ߲ ߕߍ ߘߏ߲ߣߍ߲ ߕߎߣߎ߲. ߛߌߛߍ߲ ߌ ߞߊ ߜ߳ߎ߲ߘߏߘߊߢߍ ߦߟߍߡߊ.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>ߌ ߣߌ ߗߍ. ߞߍߣߍ߲ ߣߌ߲ ߛߓߍߣߍ߲ ߌ ߕߐߘߐ.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>ߞߍߣߍ߲ ߏ ߡߊ ߖߋߓߌ ߝߍ.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>ߢߍ ߕߍߡߍߣߊ. ߝߏߦߌ ߡߊ ߦߍߟߍߡߊ; ߤߊߞߍߕߏ߸ ߊ ߟߊߖߍ ߕߎߡߊ ߥߍߙߍ.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>ߌ ߞߊ ߞߐ߲ߕߌ ߟߊߞߊߣߊ</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>ߣߌ ߝߋߎ ߦߋ߲ ߣߌ߲ ߡߊ ߞߍ ߌ ߓߟߏ ߡߊ, ߡߌߣߍ߲ ߜ߳ߊ߲ߞߊ߲ ߓߍߍ ߓߐ, ߏ ߞߐ ߜ߳ߎ߲ߘߏߘߊߢߍ ߞߎߘߊ ߕߊ. ߡߌߣߍ߲ ߡߍ߲ ߘߏ߲ߣߍ߲ ߕߎ «ߒ ߤߊߞߌߟߌ ߕߏ» ߟߊ, ߏߟߎ ߝߣߊ ߓߐߟߊ.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>ߡߌߣߍ߲ ߓߍߍ ߓߐߟߊ ߞߏ ߣߌ߲ ߘߐߙߐ߲ ߕߍ, ߊ ߞߊ ߡߊߢߌߣߌ ߣߊߓߊߟߌ ߟߊ. ߏ ߞߐ ߌ ߘߌ ߜ߳ߎ߲ߘߏߘߊߢߍ ߞߎߘߊ ߕߊ.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>ߐߥߐ, ߡߌߣߍ߲ ߜ߳ߊ߲ߞߊ߲ߟߎ ߓߐ</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>ߌ ߟߋ ߞߍ ߘߌ?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>ߐߥߐ, ߒ ߠߋ ߕߘߍ ߞߍ</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>ߊߦߌ, ߒ ߞߊ ߞߐ߲ߕߌ ߟߊߞߊߣߊ</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>ߊ ߘߏ߲ߣߊ</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>ߘߏ߲ߣߌ ߗߍߛߌߙߌ ߡߌ߲ ߡߊ ߢߍ</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>ߊ ߓߐߙߊ</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>ߛߍߛߌߦߐ߲ߟߎ ߓߐߙߊ</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>ߘߏ߲ߣߌ ߞߊ ߓߐ ߡߌߣߍ߲ ߞߎߙߊ ߟߊ</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>ߘߏ߲ߣߌ ߞߊ ߓߐ ߦߐߙߐ ߞߎߙߊ ߟߊ</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>ߡߐߜ߳ߐߦߊ ߛߍߡߍ߲ߕߌߦߊߙߊ («ߌ ߦߍߙߍ ߛߐ߲»)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>ߡߐߜ߳ߐߦߊ ߟߊߖߍߟߌ ߡߊ ߢߍ</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>ߊ ߘߏ߲ߣߊ ߣߌ ߘߏ߲ߣߌ ߞߌߟߍ ߦߋ</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>ߘߏ߲ߣߌ ߣߌ ߘߏ߲ߣߌ ߞߌߟߍ ߦߋ ߡߊ ߢߍ</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>ߘߏ߲ߣߌ ߓߊ߲ߣߊ: ߛߍ߲ ߝߌߟߊ ߞߏߘߍ ߕߍ ߦߋ߲ ߥߊߟߌߡߊ ߊ ߡߊ ߢߍ</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>ߛߍ߲ ߝߌߟߊ ߞߏߘߍ ߝߌߟߊߣߍ߲</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>ߞߐ߲ߕߌ ߘߊߕߎߜ߳ߎߙߊ ߘߏ߲ߣߌ ߡߌ߲ߣߎ߲ ߡߊ ߢߍ ߏߟߎ ߞߐ</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>ߞߐ߲ߕߌ ߘߊߦߍߟߍߙߊ</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>ߜ߳ߎ߲ߘߏߘߊߢߍ ߦߍߟߍߡߊߣߊ</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>ߜ߳ߎ߲ߘߏߘߊߢߍ ߦߍߟߍߡߊߟߌ ߡߊ ߢߍ</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>ߜ߳ߎ߲ߘߏߘߊߢߍ ߟߊߓߍ߲ߣߊ ߞߏߞߎߙߊ</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>ߜ߳ߎ߲ߘߏߘߊߢߍ ߞߎߙߊ ߢߌߣߌߣߊ</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>ߌߡߍߟߌ ߊߘߙߍߛߌ ߦߍߟߍߡߊߣߊ</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>ߓߊߙߊߞߍߟߊ ߕߐߜ߳ߐ ߦߍߟߍߡߊߣߊ</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>ߘߏ߲ߣߌ ߛߍ߲ ߝߌߟߊ ߟߊ ߓߋ ߓߊߙߊ ߟߊ</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>ߘߏ߲ߣߌ ߛߍ߲ ߝߌߟߊ ߟߊ ߓߐߙߊ ߓߊߙߊ ߟߊ</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>ߟߊߛߋߜ߳ߌ߲ ߞߏߘߍ ߞߍߙߊ ߓߊߙߊ ߟߊ</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>ߟߊߛߋߜ߳ߌ߲ ߞߏߘߍ ߞߎߙߊߟߎ</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>ߊߔߟߌߞߊߛߌߦߐ߲ ߜ߳ߎ߲ߘߏߘߊߢߍ ߘߌߟߊ߲ߣߊ</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>ߊߔߟߌߞߊߛߌߦߐ߲ ߜ߳ߎ߲ߘߏߘߊߢߍ ߓߐߙߊ ߓߊߙߊ ߟߊ</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>ߘߏ߲ߣߌ ߞߌߟߍ ߝߊߙߊߟߊ ߊ ߞߊ߲</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>ߘߏ߲ߣߌ ߞߌߟߍ ߓߐߛߌߙߊ</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>ߞߐ߲ߕߌ ߓߌߟߊߙߊ ߓߊߙߊ ߟߊ</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>ߞߐ߲ߕߌ ߓߐߙߊ ߓߊߙߊ ߟߊ</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>ߓߍߓߍ</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>ߘߏ߲ߣߌߟߎ ߊߣߌ ߛߍߛߌߦߐ߲ߟߎ</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>ߞߐ߲ߕߌ ߦߍߟߍߡߊߟߌߟߎ</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>ߊ ߡߊߜ߳ߏ ߓߋ ߖߊ߲ߕߏ ߟߊ</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>ߟߊߞߊߣߊ ߞߍߥߊߟߍߟߎ</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>%name ߟߊ ߟߊߞߊߣߊ ߞߍߥߊߟߍߟߎ</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>ߘߏ߲ߣߌߟߎ ߊߣߌ ߦߍߟߍߡߊߟߌߟߎ ߌ ߞߊ ߞߐ߲ߕߌ ߟߊߞߊߣߊߟߌ ߟߊ. ߣߌ ߌ ߦߋ ߝߍ߲ ߘߐ ߦߋ ߌ ߡߊ ߡߌ߲ ߞߍ߸ ߌ ߞߊ ߜ߳ߎ߲ߘߏߘߊߢߍ ߦߍߟߍߡߊ ߊߣߌ ߞߊ ߡߌߣߍ߲ ߡߌ߲ߣߎ߲ ߌ ߕߍ ߏߟߎ ߘߐ߲߸ ߏߟߎ ߓߐ.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>ߌ ߞߊ ߡߌߣߍߣߍߟߎ</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>ߜ߳ߎ߲ߘߏߘߊߢߍ ߦߍߟߍߡߊ</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>ߟߊߞߊߣߊ ߞߍߥߊߟߍߟߎ ߕߍ ߛߍߓߍ ߣߌ߲ ߛߌߕߌ ߣߌ߲ ߞߊ߲ ߝߐߟߐ.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>ߘߏ߲ߣߌߟߎ ߘߏ߲ %days ߟߊߓߊ߲ߟߎ ߞߐߣߐ</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>ߗߍߛߌߙߌ ߡߌ߲ߣߎ߲ ߡߊ ߢߍ</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>ߟߊߞߊߣߊ ߞߍߥߊߟߍ ߛߌ ߡߊ ߛߍߓߍ ߝߐߟߐ.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>ߒ ߞߊ ߘߏ߲ߣߌ ߞߎ߲ߣߊߝߏߣߌߟߎ ߟߊߖߌߜ߳ߌ߲</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>ߌ ߞߊ ߛߍߛߌߦߐ߲ߟߎ ߊߣߌ ߌ ߞߊ ߟߊߞߊߣߊ ߞߍߥߊߟߍߟߎ ߌ ߣ&apos;ߊ ߝߐ JSON ߝߌߛߌߦߋ.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>ߛߍߛߌߦߐ߲ߟߎ ߕߍ ߛߓߍߘߐ ߞߍߦߙߐ ߣߌ߲ ߞߊ߲, ߏ ߘߐ ߡߌߣߍ߲ ߜ߳ߊ߲ߞߊ߲ ߕߍ ߛߋ ߓߐ ߟߊ. ߌ ߞߊ ߜ߳ߎ߲ߘߏߘߊߢߍ ߦߟߍߡߊ ߛߌߛߍ߲.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>ߛߍߛߌߦߐ߲ ߜ߳ߊ߲ߞߊ߲ %count ߓߐߣߍ߲ ߘߌ. ߛߌߛߍ߲ ߌ ߞߊ ߜ߳ߎ߲ߘߏߘߊߢߍ ߦߟߍߡߊ.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>ߡߌߣߍ߲ ߜ߳ߊ߲ߞߊ߲ ߕߍ ߘߏ߲ߣߍ߲ ߕߎߣߎ߲. ߛߌߛߍ߲ ߌ ߞߊ ߜ߳ߎ߲ߘߏߘߊߢߍ ߦߟߍߡߊ.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>ߌ ߣߌ ߗߍ. ߞߍߣߍ߲ ߣߌ߲ ߛߓߍߣߍ߲ ߌ ߕߐߘߐ.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>ߞߍߣߍ߲ ߏ ߡߊ ߖߋߓߌ ߝߍ.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>ߢߍ ߕߍߡߍߣߊ. ߝߏߦߌ ߡߊ ߦߍߟߍߡߊ; ߤߊߞߍߕߏ߸ ߊ ߟߊߖߍ ߕߎߡߊ ߥߍߙߍ.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>ߌ ߞߊ ߞߐ߲ߕߌ ߟߊߞߊߣߊ</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>ߣߌ ߝߋߎ ߦߋ߲ ߣߌ߲ ߡߊ ߞߍ ߌ ߓߟߏ ߡߊ, ߡߌߣߍ߲ ߜ߳ߊ߲ߞߊ߲ ߓߍߍ ߓߐ, ߏ ߞߐ ߜ߳ߎ߲ߘߏߘߊߢߍ ߞߎߘߊ ߕߊ. ߡߌߣߍ߲ ߡߍ߲ ߘߏ߲ߣߍ߲ ߕߎ «ߒ ߤߊߞߌߟߌ ߕߏ» ߟߊ, ߏߟߎ ߝߣߊ ߓߐߟߊ.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>ߡߌߣߍ߲ ߓߍߍ ߓߐߟߊ ߞߏ ߣߌ߲ ߘߐߙߐ߲ ߕߍ, ߊ ߞߊ ߡߊߢߌߣߌ ߣߊߓߊߟߌ ߟߊ. ߏ ߞߐ ߌ ߘߌ ߜ߳ߎ߲ߘߏߘߊߢߍ ߞߎߘߊ ߕߊ.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>ߐߥߐ, ߡߌߣߍ߲ ߜ߳ߊ߲ߞߊ߲ߟߎ ߓߐ</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>ߌ ߟߋ ߞߍ ߘߌ?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>ߐߥߐ, ߒ ߠߋ ߕߘߍ ߞߍ</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>ߊߦߌ, ߒ ߞߊ ߞߐ߲ߕߌ ߟߊߞߊߣߊ</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>ߜ߳ߎ߲ߘߏߘߊߢߍ</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>ߜ߳ߎ߲ߘߏߘߊߢߍ ߊߣߌ ߛߍ߲ ߝߌߟߊ ߞߏߘߍ</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>REST ߢߐߜ߳ߐ߲ߘߊ߲ߓߊߜ߳ߊ</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>SOAP ߢߐߜ߳ߐ߲ߘߊ߲ߓߊߜ߳ߊ</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>ߘߏ߲ߣߌ ߞߋߟߋ߲ (single sign-on)</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>ߊ ߘߏ߲ߣߊ ߛߊ߲ߣߌ ߛߍߛߌߦߐ߲ߟߎ ߞߊ ߘߊߡߌߣߍ ߞߊ ߛߍߓߍ</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>ߘߏ߲ߣߌ ߖߊߕߋߓߐߛߍߓߍ߲</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>ߡߌ߲ߣߎ߲ ߘߏ߲ߣߍ߲ ߓߋ ߛߌߕߌ ߞߐߣߐ߸ ߞߐ߲ߕߌߟߎ ߓߋ ߘߏ߲ ߊߣߌ ߏߟߎ ߓߋ ߕߌߢߍ ߛߌߢߍ ߖߏߟߌ߸ ߊߣߌ ߓߊߙߊߞߍߟߊ ߘߐ ߓߐߟߌ ߦߐߙߐ ߓߍߍ. ߊ ߓߋ ߓߊߙߊ ߞߍ ߣߌ ߛߍߛߌߦߐ߲ ߢߍߣߊߓߐߓߊߜ߳ߊ ߓߍߍ ߦߋ.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>ߛߍߛߌߦߐ߲ ߓߐߙߊ. ߡߌߣߍ߲ ߞߊ ߞߊ߲ ߞߊ ߘߏ߲ ߞߏߞߎߙߊ.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>%login ߓߐߙߊ ߛߍߛߌߦߐ߲ %count ߞߐߣߐ.</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>ߛߍߛߌߦߐ߲ ߛߌ ߕߎ߲ ߕߍ ߕߊ ߟߊ %login ߝߍ.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>ߞߐ߲ߕߌ ߛߌ ߕߍ ߡߌ߲ ߟߊ ID߸ ߓߊߙߊߞߍߟߊ ߕߐߜ߳ߐ ߥߊߟߌߡߊ ߌߡߍߟߌ ߊߘߙߍߛߌ ߦߋ ߏ ߦߋ.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>ߣߌ߲ ߦߋ ߛߍߛߌߦߐ߲ ߦߋ ߌ ߓߋ ߓߊߙߊ ߞߍ ߣߌ ߡߌ߲ ߦߋ. ߥߊߟߊߛߊ ߞߊ ߊ ߟߊߓߊ߲߸ ߌ ߞߊ ߓߐ.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>ߏ ߛߍߛߌߦߐ߲ ߕߎ߲ ߓߊ߲ߣߊ ߞߊߓߊ߲.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>ߢߍ ߥߊߕߌ ߕߎ߲ ߕߍߡߍߣߊ. ߝߏߦߌ ߡߊ ߦߍߟߍߡߊ; ߤߊߞߍߕߏ߸ ߌ ߞߊ ߊ ߟߊߖߍ ߞߏߞߎߙߊ.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>ߛߍߛߌߦߐ߲ߟߎ ߕߍ ߛߍߓߍ ߣߌ߲ ߛߌߕߌ ߣߌ߲ ߞߊ߲ (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>ߕߊߓߊߟߌ expuser_session ߕߍ ߦߋ߲</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>ߛߍߛߌߦߐ߲ߟߎ ߓߋߣߊ ߛߍߓߍ ߣߌ ߊ ߘߌߟߊ߲ߣߊ: php update/common/scripts/6.0/createusersessiontable.php߸ ߥߊߟߌߡߊ 6.0.15 ߟߊ ߓߍߖߍߝߊ߲ߓߊ ߞߎߙߊߦߊ.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>ߛߌߛߊ߲ ߊߣߌ ߓߌ</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>ߛߍߛߌߦߐ߲ ߡߌ߲ߣߎ߲ ߓߋ ߕߊ ߟߊ</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>ߓߊߙߊߞߍߟߊ ߘߏ߲ߣߍ߲ߟߎ</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>ߓߌ ߘߏ߲ߣߌߟߎ</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>ߓߌ ߗߍߛߌߙߌ ߡߌ߲ߣߎ߲ ߡߊ ߢߍ</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>ߓߊߙߊߞߍߟߊ ߘߐ ߓߐ ߦߐߙߐ ߓߍߍ</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>ߞߐ߲ߕߌ ߟߊ ߛߍߛߌߦߐ߲ ߓߍߍ ߓߋ ߓߊ߲ ߊ ߟߊ ߢߌߣߌߣߌ ߣߊߕߊ ߟߊ߸ «ߒ ߤߊߞߌߟߌ ߕߏ» ߦߋ ߡߌ߲ߣߎ߲ ߡߊߙߊ߸ ߏߟߎ ߝߊ߲ߓߊ. ߊ ߞߍ ߣߌ ߞߐ߲ߕߌ ߘߐ ߓߋ ߛߋ ߞߊ ߞߍ ߓߟߏ ߖߎߜ߳ߎ ߟߊ; ߏ ߞߐ ߊ ߟߊ ߜ߳ߎ߲ߘߏߘߊߢߍ ߟߊߓߍ߲ ߞߏߞߎߙߊ.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>ߓߊߙߊߞߍߟߊ ID߸ ߓߊߙߊߞߍߟߊ ߕߐߜ߳ߐ ߥߊߟߌߡߊ ߌߡߍߟߌ ߊߘߙߍߛߌ</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>ߦߐߙߐ ߓߍߍ ߓߐ</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>ߊ ߘߏ߲ߣߍ߲ ߓߋ ߛߌߛߊ߲</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>%limit ߡߌ߲ߣߎ߲ ߞߍߙߊ ߓߊߙߊ ߟߊ ߟߊߓߊ߲ ߣߊ߸ ߏߟߎ ߖߌߙߊߣߍ߲ ߘߏ߲.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>ߓߊߙߊߞߍߟߊ</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>ߡߌߣߍ߲</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>ߊߘߌߙߍߛߌ</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>ߊ ߘߏ߲ߣߊ</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>ߓߊߙߊ ߟߊߓߊ߲ ߥߊߕߌ</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>ߥߊߟߋߟߎ</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>ߣߌ߲ ߡߌߣߍ߲ ߣߌ߲</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>ߊ ߡߊ ߛߍߓߍ</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>ߓߐ</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>ߛߍߛߌߦߐ߲ ߛߌ ߘߏ߲ߣߍ߲ ߕߍ.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>ߘߏ߲ %days ߟߊߓߊ߲ߟߎ</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>ߘߏ߲ߣߌߟߎ ߊߣߌ ߗߍߛߌߙߌ ߡߌ߲ߣߎ߲ ߡߊ ߢߍ߸ ߏߟߎ ߓߋ ߖߊߕߋ ߞߊ ߓߐ ߓߊߙߊߞߍߟߊ ߛߍߜ߳ߍߛߍߜ߳ߍߟߌ ߛߍߓߍ߲ ߣߊ߸ ߡߌ߲ ߕߍ ߦߋ߲; ߛߍߛߌߦߐ߲ ߞߎߙߊߟߎ ߓߋ ߖߊߕߋ.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>ߘߏ߲</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>ߘߏ߲ߣߌߟߎ</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>ߗߍߛߌߙߌ ߡߌ߲ߣߎ߲ ߡߊ ߢߍ</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>ߛߍߛߌߦߐ߲ ߞߎߙߊߟߎ</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>ߛߍߛߌߦߐ߲ ߢߍߣߊߓߐߓߊߜ߳ߊ: %handler. ߛߍߛߌߦߐ߲ߟߎ ߓߋ ߞߊߙߊ߲ ߞߊ ߓߐ ߕߊߓߊߟߌ expuser_session ߣߊ߸ ߏ ߘߐߙߐ߲ ߞߏߛߐ߲ ߖߊߕߋߓߐߛߍߓߍ߲ ߓߋ ߓߊߙߊ ߞߍ ߣߌ ߢߍߣߊߓߐߓߊߜ߳ߊ ߓߍߍ ߦߋ.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>ߛߌߜߌ ߞߍߥߊߟߍߟߎ ߕߎߡߊߙߋ߲ ߟߊߓߊ߲ %hours ߞߣߐ</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>ߙߋߛߏ ߞߋߟߋ߲ ߡߊ ߛߐ߲ ߞߊ ߘߏ߲ ߞߐ߲ߕߌ %accounts ߞߣߐ (ߞߍߟߌ %count)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>ߞߐ߲ߕߌ ߛߐߘߐ߲ߣߍ߲ ߘߏ߲ ߓߍ߲ߓߊߟߌߟߎ ߞߐ</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>ߘߏ߲ ߓߍ߲ߓߊߟߌ %count ߞߐ߲ߕߌ ߞߋߟߋ߲ ߞߊ߲</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>ߘߏ߲ߣߍ߲ ߖߊߡߊߣߊ %count ߟߊ ߕߎߡߊ ߞߋߟߋ߲ ߘߐ</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>ߟߊߞߊߣߊ ߞߍߥߊߟߍߟߎ</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>ߛߍߛߌߦߐ߲ߟߎ</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>ߘߏ߲ ߓߍ߲ߓߊߟߌߟߎ ߞߊߙߊ߲ߣߍ߲ ߓߊߙߊߓߊߟߊ ߟߊߝߊߛߍߦߊ ߛߓߍߘߊ ߟߋ ߘߐ, ߏ ߕߍ ߦߊ߲ ߘߐ.</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>ߛߌߜߌ ߝߏߦߌ ߕߍ: ߞߐ߲ߕߌ ߕߍ ߘߏ߲ ߓߍ߲ߓߊߟߌ ߛߊߦߌߣߍ߲ ߦߋ, ߙߋߛߏ ߕߍ ߞߐ߲ߕߌ ߛߌߦߊߡߊ ߞߍߟߌߟߊ, ߞߐ߲ߕߌ ߕߍ ߘߏ߲ߣߍ߲ ߖߊߡߊߣߊ ߛߌߦߊߡߊ ߟߊ.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>ߟߊߞߊߣߊ ߟߊߛߐߡߌߣߌ ߌ ߞߊ ߞߐ߲ߕߌ ߞߏ ߟߊ</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>ߟߊߞߊߣߊ ߞߍߥߊߟߍ ߘߐ ߞߍߙߊ ߌ ߞߊ ߞߐ߲ߕߌ %login ߞߊ߲: %event. ߣߌ ߌߟߋ ߕߎ߲ ߕߍ߸ ߌ ߞߊ ߞߐ߲ߕߌ ߟߊߞߊߣߊ %url ߟߊ.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>ߟߊߓߍ߲ߣߌ</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>ߣߌ߲ ߛߌߕߌ ߞߐߣߐߞߏ ߟߎ ߢߌߣߌ߲ߞߊ ߦߐߙߐ ߡߍ߲ ߠߎ ߡߊߞߏ ߦߋ ߞߐߜߍ ߦߋ ߏ ߘߐߙߐ߲ ߡߊ߸ ߢߌߣߌ߲ߞߊߟߌ ߞߋߟߋ߲ ߞߣߐ. ߛߌߜ߳ߌߗߏߜ߳ߏ ߦߋ ߞߐߣߐߞߏ ߞߎߟߎ ߟߎ ߣߐߡߌߣߍ߲߸ ߢߌߣߌ߲ߞߊߟߌ ߓߍߍ ߦߋ ߓߏߟߌ ߟߊ ߊ ߗߌߓߊ ߟߊ ߤߊߞߍ ߟߎ ߟߊ.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>GraphQL API ߛߐߜߐߟߍ߲ ߦߋ ߣߌ߲ ߛߌߕߌ ߘߏ߲ߘߊ ߣߌ߲ ߘߐ. ߊ ߦߟߍ graphql.ini ߞߣߐ: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>GraphQL ߜ߳ߊߝߋߓߏ߲ (webonyx/graphql-php 15) ߡߊ ߛߌߜߌ.</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>ߘߏ߲ߘߊ ߦߐߙߐ</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>ߜ߳ߊߝߋߓߏ߲</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>ߛߌߜ߳ߌߗߏߜ߳ߏ</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>ߞߐߣߐߞߏ ߞߎߟߎ %count߸ ߛߌߜ߳ߌߗߏߜ߳ߏ %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>ߢߌߣߌ߲ߞߊߟߌ</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>ߦߟߍߡߊߕߐ ߟߎ (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>ߓߏߟߌ</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>ߖߊߓߌ</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>ߊ ߓߍ ߓߏߟߌ ߟߊ…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>ߖߊߓߌ ߡߊ ߛߋ ߞߊ ߞߊߙߊ߲.</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>ߢߌߣߌ߲ߞߊߟߌ ߦߋ ߓߏߟߌ ߟߊ ߌ ߟߊ ߤߊߞߍ ߟߎ ߟߊ߸ ߌ ߘߏ߲ߣߍ߲ ߣߌ߲ ߛߋߛߐ߲ ߣߌ߲ ߘߐ.</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%count ߛߋߞߐ߲ߘߌ %seconds ߞߣߐ߫</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>ߘߊ߲߬ ߕߍ߫</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>ߘߎ߲߬ߞߊ߬ߦߊ</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>ߜߟߍ߬ߦߊ</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>ߝߋ߲߫ ߛߙߍߘߍ ߞߋߟߋ߲߫ ߞߋߟߋ߲߫ ߘߐ߫</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (ߓߊߓߌߟߊ %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>ߡߊߢߌߣߌ߲ߠߌ ߓߊ߯ߙߊߟߊ ߥߟߊ߫ ߞߌߟߋ ߞߋߟߋ߲߫ ߞߋߟߋ߲߫ ߓߟߏ߫</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>ߡߊߢߌߣߌ߲ߠߌ ߊߘߙߍߛߌ ߕߐ߯ߒߕߊ߲ ߞߋߟߋ߲߫ ߞߋߟߋ߲߫ ߓߟߏ߫</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>ߖߍ߬ߘߍ߬ߝߛߍ߬ߝߛߍ߬ߟߌ</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>ߢߌߣߌ߲ߞߊߟߌ ߟߊߡߙߊ߬ߣߍ߲ ߠߎ߬ ߘߐߙߐ߲</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>ߢߌߣߌ߲ߞߊߟߌ ߓߟߏߓߊ߲ߓߊ</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>%bytes ߓߊߦߌߕ</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>ߟߊߦߟߍ ߓߟߏߓߊ߲ߓߊ</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>ߛߌߕߌ ߘߏ߲ߘߊ %siteaccess ߕߍ߫ ߦߋ߲߬.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>ߡߊ߬ߝߊ߬ߟߋ߲߬ߠߌ ߟߎ߬ ߦߟߍߣߍ߲ ߦߋ߫ %siteaccess ߘߐ߫.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>ߡߊ߬ߝߊ߬ߟߋ߲߬ߠߌ ߟߎ߬ ߛߐߜߐߟߍ߲ ߦߋ߫ %siteaccess ߘߐ߫.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>GraphQL API ߦߟߍߣߍ߲ ߦߋ߫ %siteaccess ߘߐ߫.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>GraphQL API ߛߐߜߐߟߍ߲ ߦߋ߫ %siteaccess ߘߐ߫.</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>ߟߊ߬ߓߍ߲߬ߢߐ߲߰ ߡߊ߫ ߛߋ߫ ߛߓߍ߫ ߟߊ߫: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>ߖߊߓߌ ߟߊߡߙߊ߬ߦߙߐ ߖߊ߬ߛߌ߬ߣߍ߲߫ ߘߊ߫: ߖߊߓߌ %count ߓߐ߫ ߘߊ߫.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>ߢߌߣߌ߲ߞߊߟߌ ߘߊߞߎ ߘߊ߲߬ߕߍ߰ ߛߎ߲ߝߘߍ߫ ߞߊ߬ ߊ߬ ߓߐ߫.</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>ߢߌߣߌ߲ߞߊߟߌ ߡߊ߫ ߛߋ߫ ߓߐ߫ ߟߊ߫: ߢߌߣߌ߲ߞߊߟߌ ߡߍ߲ ߣߊ߬ߣߍ߲߫ PersistedQueryDirectoryList[] ߞߐߕߐ߮ ߟߊߡߙߊ߬ߦߙߐ ߘߐ߫ ߸ ߏ߬ ߦߋ߫ ߓߐ߫ ߟߊ߫ ߊ߬ ߟߊ߫ ߞߐߕߐ߮ ߣߌ߫.</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>ߢߌߣߌ߲ߞߊߟߌ ߟߊߡߙߊ߬ߣߍ߲ ߓߐ߫ ߘߊ߫.</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>ߡߊ߬ߝߊ߬ߟߋ߲߬ߠߌ ߟߎ߬</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>ߦߟߍߣߍ߲</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>ߛߐߜߐߟߍ߲</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>ߛߌߕߌ ߘߏ߲ߘߊ ߟߎ߬</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>API ߣߌ߫ ߊ߬ ߟߊ߫ ߡߊ߬ߝߊ߬ߟߋ߲߬ߠߌ ߟߎ߬ ߦߋ߫ ߖߊ߬ߓߌ߬ ߟߊ߫ ߦߙߐ ߡߍ߲ ߘߐ߫. ߛߎ߲ߝߘߍ ߟߎ߬ ߦߋ߫ graphql.ini ߛߓߍ߫ ߟߊ߫, ߌ ߞߏ߫ ./console exp:graphql:enable ߣߌ߫ exp:graphql:disable ߦߋ߫ ߊ߬ ߞߍ߫ ߟߊ߫ ߡߍ߲߫.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>ߛߌߕߌ ߘߏ߲ߘߊ</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>GraphQL API</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>ߡߊ߬ߝߊ߬ߟߋ߲߫</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>ߊ߬ ߛߐߜߐ߫</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>ߡߊ߬ߝߊ߬ߟߋ߲߬ߠߌ ߛߐߜߐߟߍ߲</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>ߡߊ߬ߝߊ߬ߟߋ߲߬ߠߌ ߦߟߍߣߍ߲</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>ߊ߬ ߦߟߍ߫</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>ߘߊ߲߬ ߠߎ߬</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>ߣߌ߲߬ ߛߌߕߌ ߘߏ߲ߘߊ ߟߊ߫ graphql.ini [GraphQLSettings].</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>ߖߊߓߌ ߟߊߡߙߊ߬ߦߙߐ</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>ߢߌߣߌ߲ߞߊߟߌ ߟߊߡߙߊ߬ߣߍ߲ ߠߎ߬ ߟߊ߫ ߖߊߓߌ ߟߎ߬, ߓߊ߯ߙߊߟߊ ߤߊߞߍ ߟߎ߬ ߓߟߏ߫ ߟߊߡߙߊ߬ߣߍ߲, ߊ߬ ߕߎ߬ߡߊ ߦߋ߫ ߓߊ߲߫ ߞߐߣߐߞߏ ߟߊߓߐߣߍ߲ ߕߎ߬ߡߊ ߓߍ߯ ߘߐ߫.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>ߖߊ߯ߓߌ</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>ߖߊߓߌ ߟߊߡߙߊ߬ߣߍ߲</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>ߖߊߓߌ %count, ߓߊߦߌߕ %bytes</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>ߟߊߡߙߊ߬ ߕߎ߬ߡߊ ߓߟߏߓߊ߲ߓߊ</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds ߛߋߞߐ߲ߘߌ</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>ߕߎ߬ߡߊ ߓߊ߲߫ ߟߊ߫ ߟߊߓߊ߲</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>ߖߊߓߌ ߟߊߡߙߊ߬ߦߙߐ ߖߊ߬ߛߌ߬</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>ߢߌߣߌ߲ߞߊߟߌ ߟߊߡߙߊ߬ߣߍ߲ ߠߎ߬</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>./console exp:graphql:persist ߟߊ߫ ߟߊߡߙߊ߬ߣߍ߲, ߥߟߊ߫ ߞߟߌߦߊ߲ ߟߎ߬ ߓߟߏ߫ (ߢߌߣߌ߲ߞߊߟߌ ߟߊߡߙߊ߬ߣߍ߲ ߖߘߍ߬ߞߊ߬); ߞߟߌ ߦߋ߫ ߞߍ߫ ߟߊ߫ ߕߐ߮ ߥߟߊ߫ SHA-256 ߟߊ߫.</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>ߕߐ߮ ߟߎ߬</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>ߓߟߏߓߊ</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>ߡߌ߲߫</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>ߊ߬ ߓߐ߫</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>ߣߊ߬ߣߍ߲߫</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>ߟߊߡߙߊ߬ߣߍ߲</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>ߐ߲߬ߐ߲߬, ߢߌߣߌ߲ߞߊߟߌ ߣߌ߲߬ ߓߐ߫</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>ߢߌߣߌ߲ߞߊߟߌ ߟߊߡߙߊ߬ߣߍ߲ ߛߌ߫ ߕߍ߫ ߦߋ߲߬ ߝߟߐ߫.</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>API ߞߌߟߋ ߟߎ߬</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>ߞߌߟߋ ߞߍߘߐ ߟߎ߬ ߘߊ߲߬ߠߊ߲ graphql:read (ߢߌߣߌ߲ߞߊߟߌ ߟߎ߬) ߥߟߊ߫ graphql:write (ߡߊ߬ߝߊ߬ߟߋ߲߬ߠߌ ߟߎ߬) ߘߌ߫. ߊ߬ ߟߎ߬ ߘߊߟߊ߫ ߊ߬ ߟߎ߬ ߓߐ߫ API ߘߏ߲ߘߊ ߞߐߜߍ ߞߊ߲߬, ߥߟߊ߫ ./console exp:graphql:keys ߟߊ߫.</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>API ߘߏ߲ߘߊ</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>ߞߌߟߋ ߓߍ߯</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>ߞߌߟߋ</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>ߕߐ߮</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>ߕߌ߮</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>ߘߊ߲߬ߠߊ߲ ߠߎ߬</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>ߟߊߓߊ߯ߙߊ߫ ߟߊߓߊ߲</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>ߓߊ߯ߙߊ ߟߊ߫</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>ߕߎ߬ߡߊ ߓߊ߲߫ ߘߊ߫</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>ߓߐ߫ ߘߊ߫</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>ߝߏߦߌ߬ ߕߍ߫</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>API ߞߌߟߋ ߛߌ߫ ߕߍ߫ ߦߋ߲߬ ߝߟߐ߫ GraphQL ߘߊ߲߬ߠߊ߲ ߦߋ߫ ߡߍ߲ ߠߊ߫.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>GraphQL API ߛߐߜߐߟߍ߲ ߦߋ߫ ߛߌߕߌ ߘߏ߲ߘߊ %siteaccess ߘߐ߫, ߡߍ߲ ߦߋ߫ ߞߐߜߍ ߣߌ߲߬ ߦߌ߬ߘߊ߫ ߟߊ߫. ߛߙߍߘߍ ߡߍ߲ ߦߋ߫ ߘߎ߰ߞߟߏ߬ ߘߐ߫, ߏ߬ ߦߋ߫ ߊ߬ ߖߊ߬ߓߌ߬ ߦߙߐ ߦߌ߬ߘߊ߫ ߟߊ߫.</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>ߛߌߕߌ ߘߏ߲ߘߊ %siteaccess ߓߟߏ߫, ߡߍ߲ ߦߋ߫ ߞߐߜߍ ߣߌ߲߬ ߦߌ߬ߘߊ߫ ߟߊ߫.</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>ߥߋߓߤߎߞ ߟߎ߬</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>ߘߏ߲ߘߊ ߦߐߙߐ ߞߏߞߍߣߍ߲ ߡߍ߲ ߠߎ߫ ߢߌߣߌ߲߫ ߠߊ߫ (publish, update, trash, delete, move, hide, reveal, mutation)، cronjob ߝߊ߲߭ graphqlwebhooks ߦߋ߫ ߏ߬ ߟߎ߬ ߟߊߥߟߌ߫ ߊ߬ ߡߊ߬ ߞߊ߬ ߕߐ߮ ߛߓߍ߫ ߏ߬ ߟߎ߬ ߞߊ߲߬. ./console exp:graphql:webhooks ߦߋ߫ ߓߊ߯ߙߊ ߞߋߟߋ߲߫ ߞߍ߫ ߟߊ߫ ߦߌ߬ߟߊ߬ ߣߌ߲߬ ߘߐ߫.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>ߞߏߞߍߣߍ߲ ߠߎ߬</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>ߓߍ߯</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>ߛߌߕߌ ߘߏ߲ߘߊ ߓߍ߯</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>ߞߊߙߌߣߍ߲</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>ߜ߳ߎ߲ߘߏ ߕߍ߫</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>ߡߊ߬ߞߏ߲߬ߠߌ ߘߐ߫</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count ߓߌ߬ߟߊ߬ߣߍ߲߫</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>ߟߊߥߟߌ߫ ߟߊ߬ߓߊ߲</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>ߞߘߐߓߐߟߌ ߟߊߥߟߌ߫</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>ߐ߲߬ߐ߲߬, ߥߋߓߤߎߞ ߣߌ߲߬ ߓߐ߫</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>ߥߋߓߤߎߞ ߛߌ߫ ߕߍ߫ ߦߋ߲߬ ߝߟߐ߫.</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>ߥߋߓߤߎߞ ߝߙߊ߬</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>ߊ߬ ߝߙߊ߬</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>ߟߊߥߟߌ߫ ߞߎߘߊ ߟߎ߬</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>ߕߎ߬ߡߊ</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>ߞߐߝߟߍ</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>ߕߐ߯ߛߓߍ ߟߎ߬</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>ߞߎߘߊߦߊ߫ ߞߍߕߐ߫ ߞߊ߬ ߓߊ߯ߙߊߓߊ߯ߙߊ ߟߎ߬ ߝߊ߫: ߞߏߞߍߣߍ߲ ߛߎ߲߬ߞߊ߲ ߘߏ߫ /api/graphql/subscribe ߞߊ߲߬، ߊ߬ ߣߌ߫ WebSocket (graphql-transport-ws) ߘߏ߫ Velocity ߞߊ߲߬. ߞߏߞߍߣߍ߲ ߓߍ߯ ߦߋ߫ ߕߊ߯ ߕߐ߯ߛߓߍߓߊ߯ ߡߍ߲ ߠߎ߫ ߘߌ߫ ߛߋ߫ ߊ߬ ߞߐߣߐߞߏ ߟߊߘߊ߲߬ ߠߊ߫ ߏ߬ ߟߎ߬ ߟߋ߬ ߘߐߙߐ߲߫ ߡߊ߬.</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>ߟߊߞߊ߬ߣߍ߲߫ ߛߌߛߍ߲</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>ߟߊߞߊ߬ߟߌ ߛߊ߲ߘߐߞߏ</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>%total ߓߍ߯ ߘߐ߫، %user ߟߊ߬ߓߊ߰ߙߊ߬ߟߊ ߞߋߟߋ߲ߞߋߟߋ߲߫ ߓߟߏ߫، %address ߛߊ߲߬ߞߊ߬ߙߊ߬ߘߐ ߞߋߟߋ߲ߞߋߟߋ߲߫ ߓߟߏ߫</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>ߕߐ߯ߛߓߍ ߕߐ߮ ߣߍ߲߬ߓߊߟߌ ߟߎ߬</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>ߛߎ߲߬ߞߊ߲ ߖߊ߲߬ߡߊ</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>ߥߋߓߤߎߞ ߡߊ߫ ߛߋ߫ ߝߙߊ߬ ߟߊ߫: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>ߥߋߓߤߎߞ %name ߡߊߝߊߟߋ߲߫ ߘߊ߫; ߊ߬ ߕߐ߮ ߛߓߍߟߌ ߜ߳ߎ߲ߘߏ ߦߋ߫ ߕߏ߫ ߟߋ߬.</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>ߕߐ߮ ߛߓߍߟߌ ߜ߳ߎ߲ߘߏ ߡߊ߫ ߛߋ߫ ߟߊߡߙߊ߬ ߟߊ߫ (ߟߊߓߍ߲ߣߌ &gt; ߜ߳ߎ߲ߘߏߟߎ).</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>ߥߋߓߤߎߞ %name ߝߙߊ߬ߣߍ߲߫ ߘߊ߫. ߊ߬ ߕߐ߮ ߛߓߍߟߌ ߜ߳ߎ߲ߘߏ߸ ߡߍ߲ ߦߌ߬ߘߊ߬ߣߍ߲߫ ߦߋ߫ ߕߎ߲߯ ߣߌ߲߬ ߘߐߙߐ߲߫: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>ߥߋߓߤߎߞ %name ߕߍ߫ ߦߋ߲߬.</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>ߥߋߓߤߎߞ %name ߡߊ߫ ߖߋ߬ߓߌ ߟߊߛߊ߬ߦߌ߬: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>ߥߋߓߤߎߞ %name ߓߘߊ߫ ߖߋ߬ߓߌ %status ߟߊߛߊ߬ߦߌ߬ %ms ms ߞߣߐ߫.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>ߥߋߓߤߎߞ ߘߊߞߎ ߘߊ߲߬ߕߍ߰ ߛߎ߲ߝߘߍ߫ ߞߊ߬ ߊ߬ ߓߐ߫.</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>ߥߋߓߤߎߞ %name ߓߐ߫ ߘߊ߫.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>GraphQL API ߛߐߜߐߟߍ߲ ߦߋ ߣߌ߲ ߛߌߕߌ ߘߏ߲ߘߊ ߣߌ߲ ߘߐ.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>GraphQL ߜ߳ߊߝߋߓߏ߲ ߡߊ ߛߌߜߌ.</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>GET ߥߟߊ߫ POST ߟߊߓߊ߯ߙߊ߫.</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>ߡߊߢߌߣߌ߲ߠߌ ߝߊ߰ߘߌ ߕߍ߫ JSON ߝߋ߲ ߘߌ߫.</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables ߕߍ߫ JSON ߝߋ߲ ߘߌ߫.</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions ߕߍ߫ JSON ߝߋ߲ ߘߌ߫.</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>ߢߌߣߌ߲ߞߊߟߌ ߟߊߥߟߌ߫ POST ߟߊ߫.</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>ߢߌߣߌ߲ߞߊߟߌ ߕߍ߫ ߡߊߢߌߣߌ߲ߠߌ ߣߌ߲߬ ߘߐ߫.</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>ߢߌߣߌ߲ߞߊߟߌ ߓߊߦߌߕ ߦߋ߫ %max ߕߊ߬ߡߌ߲߬.</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>ߛߍ߬ߙߝߍ߬ߙ ߞߣߐߟߊ߫ ߝߎ߬ߕߎ߲߬ߕߌ</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node ߦߋ߫ id, remoteId, path ߣߌ߫ urlAlias ߟߎ߬ ߞߋߟߋ߲߫ ߘߐߙߐ߲ ߠߋ߬ ߝߍ߬ߘߊ߫.</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content ߦߋ߫ id ߣߌ߫ remoteId ߟߎ߬ ߞߋߟߋ߲߫ ߘߐߙߐ߲ ߠߋ߬ ߝߍ߬ߘߊ߫.</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>after ߟߊ߫ ߞߎߙߛߐߙ ߕߍ߫ API ߣߌ߲߬ ߠߊ߫ ߘߏ߫ ߘߌ߫.</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>ߖߌ߬ߦߊ߬ߓߍ ߕߐ߯ ߝߟߐ %alias ߕߍ߫ ߦߋ߲߬ (image.ini [AliasSettings] AliasList[]).</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>ߢߌߣߌ߲ߞߊߟߌ ߟߊߡߙߊ߬ߣߍ߲ ߠߎ߬ ߘߐߙߐ߲ ߟߋ߬ ߓߊ߯ ߓߊߟߌ߬ ߦߊ߲߬: ߛߍ߬ߙߝߍ߬ߙ ߞߊ߲߬ ߢߌߣߌ߲ߞߊߟߌ ߟߊߡߙߊ߬ߣߍ߲ ߘߏ߫ ߟߊ߫ id ߟߊߥߟߌ߫.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>ߢߌߣߌ߲ߞߊߟߌ ߟߊߡߙߊ߬ߣߍ߲ ߟߊ߫ ߤߊߛ ߕߍ߫ SHA-256 ߘߌ߫.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>ߢߌߣߌ߲ߞߊߟߌ ߟߊߡߙߊ߬ߣߍ߲ ߟߊ߫ ߤߊߛ ߣߌ߫ ߢߌߣߌ߲ߞߊߟߌ ߕߍ߫ ߓߍ߲߬.</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>ߡߊߢߌߣߌ߲ߠߌ ߦߋ߫ ߛߌߦߊߡߊ߲߬: ߝߏ߫ %limit ߛߋߞߐ߲ߘߌ %window ߞߣߐ߫. ߊ߬ ߞߍ߫ ߕߎ߲߯ ߛߋߞߐ߲ߘߌ %reset ߞߐ߫.</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>ߢߌߣߌ߲ߞߊߟߌ ߘߎ߲߬ߞߊ߬ߦߊ ߦߋ߫ ߞߊ߲ %depth ߠߋ߬ ߘߌ߫; ߡߊ߬ߞߊ߬ߞߎ߲߬ߘߎ߲߫ %max ߟߋ߬ ߘߐߙߐ߲ ߓߘߊ߫ ߟߊߘߌ߬ߦߊ߬.</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>ߢߌߣߌ߲ߞߊߟߌ ߜߟߍ߬ߦߊ ߦߋ߫ %complexity ߘߌ߫; ߡߊ߬ߞߊ߬ߞߎ߲߬ߘߎ߲߫ %max ߟߋ߬ ߘߐߙߐ߲ ߓߘߊ߫ ߟߊߘߌ߬ߦߊ߬.</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>ߡߊߢߌߣߌ߲ߠߌ ߣߌ߲߬ ߕߍ߫ ߛߌ߫ ߛߌߜ߳ߌߗߏߜ߳ߏ ߘߐߞߊ߬ߙߊ߲߬ (introspection).</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search ߦߋ߫ ߛߓߍߟߌ ߥߟߊ߫ ߛߎ߲ߘߎ߲ ߝߍ߬ߘߊ߫ (classes, subtree, sections, publishedAfter, publishedBefore).</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument ߕߍ߫ ߕߎ߬ߡߊ߬ߘߊ ߘߌ߫ (ISO 8601, 2026-10-30).</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag ߦߋ߫ id, remoteId ߣߌ߫ path ߟߎ߬ ߞߋߟߋ߲߫ ߘߐߙߐ߲ ߠߋ߬ ߝߍ߬ߘߊ߫.</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout ߦߋ߫ id, identifier ߣߌ߫ urlAlias ߟߎ߬ ߞߋߟߋ߲߫ ߘߐߙߐ߲ ߠߋ߬ ߝߍ߬ߘߊ߫.</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>multipart ߡߊߢߌߣߌ߲ߠߌ ߟߊ߫ operations ߝߊ߲߬ߞߊ ߕߍ߫ JSON ߡߊߢߌߣߌ߲ߠߌ ߞߋߟߋ߲߫ ߘߌ߫.</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>multipart ߡߊߢߌߣߌ߲ߠߌ ߟߊ߫ map ߝߊ߲߬ߞߊ ߕߍ߫ JSON ߝߋ߲ ߘߌ߫.</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>ߞߐߕߐ߮ %field ߕߍ߫ multipart ߡߊߢߌߣߌ߲ߠߌ ߘߐ߫.</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>ߝߊ߲߬ߞߊ ߓߊ߲ߓߊ߲ ߟߊ߫ ߛߌߟߊ ߘߌ߫ ߘߊߡߌ߬ߣߊ߬ variables. ߟߊ߫: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>ߞߐߕߐ߮ %name ߡߊ߫ ߛߋ߫ ߊ߬ ߘߐߓߍ߲߬ ߘߐ߫ (ߟߊߦߟߍ ߝߎ߬ߕߎ߲߬ߕߌ %error).</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>ߞߐߕߐ߮ %name ߦߋ߫ ߓߊߦߌߕ %max ߕߊ߬ߡߌ߲߬.</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>ߞߐߕߐ߮ %name ߡߊ߫ ߛߋ߫ ߝߛߍ߬ߝߛߍ߬ ߟߊ߫.</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>ߡߊ߬ߝߊ߬ߟߋ߲߬ߠߌ ߟߎ߬ ߛߐߜߐߟߍ߲ ߦߋ߫ ߣߌ߲߬ ߛߌߕߌ ߘߏ߲ߘߊ ߣߌ߲߬ ߘߐ߫ (graphql.ini [GraphQLSettings] MutationsEnabled).</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>ߡߊ߬ߝߊ߬ߟߋ߲߬ߠߌ ߟߊߥߟߌ߫ POST ߟߊ߫.</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>ߌ ߘߏ߲߫ ߞߊ߬ ߞߐߣߐߞߏ ߡߊ߬ߝߊ߬ߟߋ߲߫.</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>API ߞߌߟߋ ߕߍ߫ ߘߊ߲߬ߠߊ߲ %scope ߦߋ߫.</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>ߛߋߛߐ߲ ߡߊ߬ߝߊ߬ߟߋ߲߬ߠߌ ߦߋ߫ ߛߋߛߐ߲ ߟߊ߫ ߛߓߍߘߊ ߕߏߞߍ߲ ߝߍ߬ߘߊ߫ (ߞߎ߲߬ߠߊ X-CSRF-Token).</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>uploadFromUrl ߛߐߜߐߟߍ߲ ߦߋ߫: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] ߕߍ߫ host ߛߌ߫ ߕߐ߮ ߝߐ߫.</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>ߊߘߙߍߛߌ ߘߌ߫ ߞߍ߫ https ߊߘߙߍߛߌ ߘߌ߫.</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>host %host ߕߍ߫ graphql.ini [GraphQLSettings] UploadFromUrlHostList[] ߘߐ߫.</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>ߞߐߕߐ߮ ߡߊ߫ ߛߋ߫ ߘߊ߲߬ߡߌ߬ߣߊ߬ ߟߊ߫.</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload ߦߋ߫ ߘߏ߲߬ߠߌ߲ ߛߎ߮ ߘߐߙߐ߲ ߠߋ߬ ߘߌ߫.</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>Upload ߛߎ߮ ߦߟߍߡߊߕߐ ߦߋ߫ multipart ߡߊߢߌߣߌ߲ߠߌ ߞߐߕߐ߮ ߠߋ߬ ߡߊߛߐ߬ߘߐ߲߬ ߠߊ߫.</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>ߝߊ߬ߘߌ߬ߟߊ߬ߟߌ ߖߊ߰ߡߊ %remoteId ߕߊ߬ߣߍ߲ ߦߋ߫ ߞߘߐ.</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>ߘߟߊߡߌߘߊ ߦߋ߫ ߞߐߣߐߞߏ ߟߊ߫ %language ߘߐ߫ ߞߘߐ: updateContent ߟߊߓߊ߯ߙߊ߫.</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>ߝߊ߲߬ߞߊ ߞߋߟߋ߲߫ ߘߐߘߐ߲߫ ߘߌ߫.</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>ߦߟߌߡߊߛߍߦߌ ߞߎߘߊ߫ ߡߊ߫ ߛߋ߫ ߘߊߟߊ߫ ߟߊ߫ (ߞߐߣߐߞߏ ߓߊ߲߬ߓߊ߬ߓߊ߰ߟߌ ߦߋ߫ ߛߌߦߊߡߊ߲߬).</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>ߦߟߌߡߊߛߍߦߌ %version ߕߍ߫ ߓߊ߲߬ߓߊ߬ߓߊ߰ߟߌ ߘߌ߫.</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent ߦߋ߫ id ߣߌ߫ nodeId ߟߎ߬ ߞߋߟߋ߲߫ ߘߐߙߐ߲ ߠߋ߬ ߝߍ߬ߘߊ߫.</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>ߘߊ߲߬ߕߍ߰ ߕߍ߫ ߛߋ߫ ߟߊߥߊ߫ ߟߊ߫ ߊ߬ ߖߘߍ߬ ߞߘߐ߫.</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>ߘߊ߲߬ߕߍ߰ ߦߋ߫ ߞߐߣߐߞߏ ߟߊ߫ %parentId ߞߘߐ߫ ߞߘߐ.</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>ߝߊ߲߬ߞߊ %field ߛߎ߲ߞߊ߲ ߡߊ߫ ߛߋ߫ ߟߊߡߙߊ߬ ߟߊ߫.</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>ߞߐߣߐߞߏ ߞߊ߲ %language ߕߍ߫ ߦߋ߲߬.</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>ߞߐߣߐߞߏ ߞߎߟߎ %class ߕߍ߫ ߛߌߜ߳ߌߗߏߜ߳ߏ ߘߐ߫.</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>ߞߐߣߐߞߏ ߕߍ߫ ߦߋ߲߬, ߥߟߊ߫ ߌ ߕߍ߫ ߛߌ߫ ߊ߬ ߞߊ߬ߙߊ߲߬.</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>ߌ ߕߍ߫ ߛߌ߫ ߣߌ߲߬ ߞߍ߫ ߞߐߣߐߞߏ ߣߌ߲߬ ߘߐ߫.</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>ߞߎߟߎ %class ߕߍ߫ ߝߊ߲߬ߞߊ %field ߛߓߍߓߊߟߌ ߛߐ߬ߘߐ߲߬.</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>ߝߊ߲߬ߞߊ %field ߘߌߣߍ߲ ߦߋ߫ ߝߋ߲߬ ߝߌ߬ߟߊ.</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>ߝߊ߲߬ߞߊ %field ߦߋ߫ ߞߐߕߐ߮ ߡߊߛߐ߬ߘߐ߲߬ ߠߊ߫: ߊ߬ ߟߊߥߟߌ߫ ߟߊߦߟߍ ߘߌ߫ (multipart ߡߊߢߌߣߌ߲ߠߌ).</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>ߝߊ߲߬ߞߊ %field ߕߍ߫ ߞߐߕߐ߮ ߡߊߛߐ߬ߘߐ߲߬ ߠߊ߫.</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>ߝߊ߲߬ߞߊ %field ߦߋ߫ ߛߎ߲ߞߊ߲ ߝߍ߬ߘߊ߫.</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>ߖߙߎߡߎ %format ߦߋ߫ ߛߓߍߟߌ ߣߊ߲߬ߝߊ߬ߣߍ߲ ߝߊ߲߬ߞߊ ߟߎ߬ ߘߐߙߐ߲ ߠߋ߬ ߓߟߏ߫; %field ߦߋ߫ ߊ߬ ߛߎ߲ߞߊ߲ ߡߊߛߐ߬ߘߐ߲߬ ߠߊ߫ ߊ߬ ߦߋ߫ ߞߏ߫ ߡߍ߲߫ (RAW).</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>ߝߊ߲߬ߞߊ %field ߦߋ߫ ߞߊ߲߫ ߞߍ߫.</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>HTML ߡߊ߫ ߛߋ߫ ߞߊ߬ߙߊ߲߬ ߠߊ߫.</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content ߦߋ߫ version ߡߊߛߐ߬ߘߐ߲߬ ߠߊ߫ id ߘߐߙߐ߲ ߠߋ߬ ߝߍ߬.</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>ߢߍߝߍ߬ߝߌ߬ߟߊ߬ߟߌ ߕߏߞߍ߲ ߕߍ߫ ߓߊ߲߫ ߘߌ߫ ߥߟߊ߫ ߊ߬ ߕߎ߬ߡߊ ߓߊ߲߫ ߘߊ߫.</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>origin ߕߍ߫ (https://host ߥߟߊ߫ https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>GraphQL API ߘߊ߲߬ߠߊ߲ ߕߍ߫: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>ߕߐ߯ߛߓߍ ߟߎ߬ ߟߊߥߟߌ߫ /api/graphql/subscribe ߡߊ߬ (ߞߏߞߍߣߍ߲ ߛߎ߲߬ߞߊ߲ ߥߟߊ߫ WebSocket).</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>ߡߊߢߌߣߌ߲ߠߌ ߡߊ߫ ߛߓߍߘߊ ߓߊ߯ߙߊ߫ ߛߌ߫ ߕߐ߮ ߝߐ߫.</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>ߕߐ߯ߛߓߍ ߞߋߟߋ߲߫ ߦߋ߫ ߝߊ߲߬ߞߊ ߞߋߟߋ߲߫ ߘߐߙߐ߲߫ ߢߌߣߌ߲߫ ߠߊ߫.</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>ߕߐ߯ߛߓߍ ߟߊߞߊ߬ߣߍ߲߫ ߦߋ߫ ߛߌߦߊߡߊ߲߬; ߊ߬ ߞߍ߫ ߕߎ߲߯ ߞߐ߫.</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>ߕߐ߯ߛߓߍ %max ߟߊߞߊ߬ߣߍ߲߫ ߦߋ߫ ߌ ߓߟߏ߫، ߏ߬ ߟߋ߬ ߦߋ߫ ߘߊ߲߬ ߘߌ߬ߣߍ߲߫ ߠߊߞߎ߲߬ߘߎ߬ߣߍ߲ ߘߌ߫.</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>ߕߐ߯ߛߓߍ %max ߟߊߞߊ߬ߣߍ߲߫ ߦߋ߫ ߌ ߟߊ߫ ߛߊ߲߬ߞߊ߬ߙߊ߬ߘߐ ߓߟߏ߫، ߏ߬ ߟߋ߬ ߦߋ߫ ߘߊ߲߬ ߘߌ߬ߣߍ߲߫ ߠߊߞߎ߲߬ߘߎ߬ߣߍ߲ ߘߌ߫.</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>ߕߐ߯ߛߓߍ ߟߎ߬ ߛߐߜߐߟߍ߲ ߦߋ߫ ߣߌ߲߬ ߛߌߕߌ ߘߏ߲ߘߊ ߣߌ߲߬ ߘߐ߫.</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>ߌ ߘߏ߲߫ ߞߊ߬ ߌ ߕߐ߮ ߛߓߍ߫ (ߕߏߞߍ߲ ߥߟߊ߫ ߌ ߖߘߍ߬ ߟߊ߫ API ߞߌߟߋ).</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>ߡߊ߬ߝߊ߬ߟߋ߲߬ߠߌ ߟߎ߬ ߟߊߥߟߌ߫ /api/graphql ߡߊ߬.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>ߕߊߡߌ߲ߠߌ ߟߎ</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>ߤߊߟߌ ߡߊ߫ ߛߋ߫ ߞߊ߬ ߞߊ߬ߙߊ߲߬: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>ߕߊߡߌ߲ߠߌ ߟߎ߬ ߥߊߟߊ ߟߎ߬ ߕߍ߫ ߦߋ߲߬ ߝߟߐ: ./console exp:upgrade --apply ߦߋ߫ ߏ߬ ߟߎ߬ ߟߊߘߊ߲߫ ߠߋ߫.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>ߕߊߡߌ߲ߠߌ %count ߡߊ߫ ߢߍ߫</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>ߓߏߟߌ ߘߏ߫ ߦߋ߫ ߞߍ ߟߊ߫߸ %user ߟߋ߬ ߓߘߊ߫ ߊ߬ ߘߊߡߌ߬ߣߍ߫</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>ߟߊߘߏ߲ߠߌ ߛߐߘߊ߲ߣߍ߲߫ ߠߋ߬: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>ߊ ߓߋ ߡߊߞߐߣߐߣߌ ߣߊ</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>ߊ ߡߊ ߢߍ</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>ߝߊߘߎ߲ ߟߎ</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>ߓߏߟߌ ߟߊߓߊ߲</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>ߝߏߦߌ߫ ߝߟߐ</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>ߕߊߡߌ߲ߠߌ ߓߍߓߍ</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>ߓߏߟߌ ߞߐߙߐߓߐߣߍ߲</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>ߓߏߟߌ ߞߐߙߐߓߐ</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>ߕߊߡߌ߲ߠߌ߫ ߡߊߞߐߣߐߣߍ߲ ߟߎ߬ ߓߏ߬ߟߌ߬ ߞߍ߫ ߘߊ߫ ߓߊ߲ߓߊ߲ߠߌ ߘߏ߫ ߞߣߐ߫ ߡߍ߲ ߞߐ߫ ߟߊߛߋߣߍ߲߫ ߞߐ߫ ߟߋ߬ ߏ߬ ߞߐ߫: ߝߏߦߌ߫ ߡߊ߫ ߡߟߊߞߊ߬. ߘߎ߰ߞߟߏ ߦߊ߲߬ ߦߋ߫ ߞߋߟߋ߲ ߞߋߟߋ߲ ߓߊ߯ ߡߊߝߊߟߋ߲ ߡߍ߲ ߞߍ߫ ߘߊ߫ ߞߎ߲ߣߊߝߏߣߌߛߏ ߞߣߐ߫ ߟߋ߬.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>ߓߏߟߌ ߕߎ߲߬ ߘߌ߫ ߡߍ߲ ߞߍ߫ ߛߎߡߊ߲߬. ߝߏߦߌ߫ ߕߍ߫ ߡߊߝߊߟߋ߲߫: ߕߊߡߌ߲ߠߌ߫ ߡߊߞߐߣߐߣߍ߲ ߞߋߟߋ߲ ߞߋߟߋ߲ ߓߍ߯ ߊ߬ ߟߊ߫ ߡߊߝߊߟߋ߲ߠߌ ߟߎ߬ ߦߌ߬ߘߊ߫ ߟߊ߫߸ ߓߏߟߌ ߝߣߊ߫ ߓߍ߯ ߊ߬ ߘߌ߫ ߡߍ߲ ߞߍ߫ ߊ߬ ߢߍ߫ ߣߌ߫ ߊ߬ ߞߐ߫.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>ߞߐߙߐߓߐ</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>ߓߏߟߌ</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>ߓߏߟߌ ߞߐߙߐߓߐ ߡߊ߫ ߢߍ߫: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>ߞߐߙߐߓߐߟߌ ߦߋ߫ PostgreSQL ߥߟߊ߫ SQLite ߝߍ߬ߘߊ߫߸ ߡߍ߲ ߠߎ߬ ߟߊ߫ ߖߐ߰ߛߌ߰ ߡߊߝߊߟߋ߲ߠߌ ߛߋ߫ ߞߐ߫ ߟߊߛߋ߫ ߟߊ߫; ߞߎ߲ߣߊߝߏߣߌߛߏ ߣߌ߲߬ ߞߊ߲߬߸ ߘߎ߰ߞߟߏ ߛߎ߲ߝߘߍ ߦߋ߫ ߓߏߟߌ ߕߎ߲߬ ߘߌ߫ ߡߍ߲ ߞߍ߫ ߠߋ߬ ߘߌ߫.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>ߕߊߡߌ߲ߠߌ ߟߎ߬</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>ߕߊߡߌ߲ߠߌ</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>ߖߊ߯ߓߌ</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>ߊ߬ ߕߎ߲߬ ߘߌ߫ ߡߍ߲ ߞߍ߫</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>ߞߐߙߐߓߐߟߌ: %result ߞߊ߬ߣߌ߲߬ %ms ߡ.ߛ.</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>ߕߊߡߌ߲ߠߌ߫ ߕߍ߫ ߦߋ߲߬ ߝߟߐ.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>ߓߏߟߌ ߢߍ߫ ߣߌ߫ ߊ߬ ߞߐ߫</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>ߖߌߦߊߓߍ߫ ߢߍߝߍ</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>ߊ߬ ߓߊ߫ ߡߊߕߊ߫߸ ߊ߬ ߦߋ߫ ߟߊߛߋ߫ ߞߐ߫ ߣߌ߫ ߕߊߡߌ߲ߠߌ ߘߏ߫ ߡߊ߫ ߢߍ߫</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>ߊ߬ ߟߊߕߊ߯ߣߍ߲߫ ߠߋ߬</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>ߖߌߦߊߓߍ߫ ߞߐߝߍ</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>ߊ߬ ߓߊ߫ ߡߊߕߊ߫ ߣߌ߫ ߓߏߟߌ ߢߍ߫ ߘߊ߫</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>ߕߊߡߌ߲ߠߌ %total: %pending ߡߊߞߐߣߐߣߍ߲߫߸ %done ߓߊ߲ߣߍ߲߫߸ %failed ߡߊ߫ ߢߍ߫.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>ߕߊߡߌ߲ߠߌ ߕߊߙߌߞߎ</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>ߓߏߟߌ ߓߍߓߍ ߣߌ߫ ߊ߬ ߟߊߓߊ߯ߙߊߟߊ߸ ߊ߬ ߓߊߙߊߦߐߙߐ߸ ߊ߬ ߖߌߦߊߓߍ ߟߎ߬ ߣߌ߫ ߡߍ߲ ߟߊߞߎ߲ߘߎߣߍ߲߫߸ ߕߐߜ߳ߐߣߍ߲߫ ߊ߬ ߣߌ߫ ߗߌߣߍ߲߫. ߓߏߟߌ߫ ߡߊ߫ ߢߍ߫ ߡߍ߲ ߠߊ߫ ߥߟߊ߫ ߡߍ߲ ߟߊߥߎߟߌߣߍ߲߫߸ ߏ߬ ߛߋ߫ ߘߊߡߌ߬ߣߍ߫ ߟߊ߫ ߕߎ߲߯; ߖߌߦߊߓߍ߫ ߓߊ߫ ߡߊߕߊ߫ ߓߏߟߌ ߡߍ߲ ߢߍ߫߸ ߏ߬ ߛߋ߫ ߟߊߛߋ߫ ߟߊ߫ ߞߐ߫.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>ߓߏߟߌ ߟߎ߬ ߡߊ߫ ߛߋ߫ ߞߊ߬ ߞߊ߬ߙߊ߲߬: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>ߕߊߡߌ߲ߠߌ ߟߎ߬ ߥߊߟߊ ߟߎ߬ ߕߍ߫ ߦߋ߲߬ ߝߟߐ: ./console exp:upgrade --apply ߦߋ߫ ߏ߬ ߟߎ߬ ߟߊߘߊ߲߫ ߠߋ߫.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>ߖߌߙߊ</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>ߓߍߓߍ</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>ߓߏߟߌ ߟߎ</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>ߘߊߡߌߣߍߣߊ</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>ߡߐ߰ ߡߍ߲</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>ߖߌߦߊߓߍ ߟߎ</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>ߡߊߙߊߦߐߙߐ</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>ߥߊߟߋߟߎ</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>ߢߍߝߍ</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>ߞߐߝߍ</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>ߗߌߟߌ: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>ߛߋߜ߳ߌ߲ ߞߊ ߘߊߡߌߣߍ</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>ߞߐ߫ ߟߊߛߋ߫</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>ߓߏߟߌ߫ ߕߍ߫ ߖߊ߯ߓߌ ߣߌ߲߬ ߘߐ߫.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>ߘߊߡߌߣߍߣߊ ߦߊ߲߬</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>ߓߏߟߌ߸ ߛߋߜ߳ߌ߲ߘߊߡߌߣߍ ߣߌ߫ ߞߐ߫ ߟߊߛߋߟߌ ߡߍ߲ ߠߎ߬ ߘߊߡߌߣߍߣߊ ߞߐߜߍ ߣߌ߲߬ ߠߎ߬ ߞߊ߲߬߸ ߣߌ߫ ߞߋߟߋ߲ ߞߋߟߋ߲ ߓߊ߯ ߟߊߞߏߝߐ.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>ߡߍ߲</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>ߞߐߝߟߍ</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>ߞߐ߫ ߟߊߛߋߟߌ</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>%target ߞߐ߫ ߟߊߛߋߟߌ</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>ߓߏߟߌ %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>ߓߏߟߌ ߞߍ߫ ߡߍ߲ ߞߍ߫ ߘߊ߫߸ ߊ߬ ߛߓߍߦߊ ߣߌ߫ ߊ߬ ߛߓߍߟߌ. ߓߏߟߌ߫ ߘߊߡߌ߬ߣߍ߬ ߦߊ߲߬ ߡߍ߲ ߠߊ߫߸ ߏ߬ ߦߋ߫ ߕߊ߯ ߟߊ߫ ߢߍ߫ ߞߐ߫ ߡߊ߬ ߣߌ߫ ߞߐߜߍ ߣߌ߲߬ ߘߊߕߎ߲ߣߍ߲߫; ߞߐߜߍ ߟߊߞߊ߬ ߕߎ߲߯ ߞߊ߬ ߊ߬ ߟߊߕߓߊ߰.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>ߓߏߟߌ ߣߌ߲߬ ߘߊߡߌ߬ߣߍ߫ ߕߎ߲߯</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>ߓߏߟߌ ߣߌ߲߬ ߞߐ߫ ߟߊߛߋ߫</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>ߛߓߍߦߊ ߡߊ߫ ߛߋ߫ ߞߊ߬ ߞߊ߬ߙߊ߲߬: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>ߢߍߕߊ</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>%user ߟߋ߬ ߓߘߊ߫ ߊ߬ ߘߊߡߌ߬ߣߍ߫ %time.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>ߞߎߘߎ ߝߛߍ߬ߝߛߍ߬ߟߌ ߣߌ߫ ߖߌߦߊߓߍ ߡߊߕߊߟߌ ߓߏߟߌ ߢߍ߫</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>%id ߓߏߟߌ (%index / %total)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>%done / %total ߓߊ߲ߣߍ߲߫</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>ߕߊߡߌ߲ߠߌ ߟߎ߬ ߓߏ߬ߟߌ߬ ߓߊ߲߫; ߖߌߦߊߓߍ ߟߊߛߋߟߌ ߞߐ߫ ߣߴߊ߬ ߘߏ߫ ߡߊ߫ ߢߍ߫</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>ߖߌߦߊߓߍ ߡߊߕߊߟߌ ߓߏߟߌ ߞߐ߫߸ ߟߊߞߎ߲ߘߎߟߌ߸ ߕߐߜ߳ߐߟߌ ߣߌ߫ ߗߌߟߌ</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>ߖߌߦߊߓߍ ߟߊߛߋߟߌ ߞߐ߫</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>ߓߏߟߌ ߓߊ߲߫ ߘߊ߫. ߊ߬ ߟߊߞߏߝߐ ߟߊߛߊ߬ߟߌ߬ ߦߋ߫ ߞߍ ߟߊ߫.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>ߢߍߕߊ ߡߊ߫ ߛߋ߫ ߟߊߕߓߊ߰ ߟߊ߫. ߞߐߜߍ ߟߊߛߊ߬ ߕߎ߲߯ ߞߊ߬ ߓߏߟߌ ߤߊߟߌ ߦߋ߫.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>ߞߐߜߍ ߣߌ߲߬ ߦߋ߫ ߓߏߟߌ ߟߊߕߓߊ߰ ߟߊ߫ ߊ߬ ߕߊ߯ߕߎ߫.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>ߊ߬ ߟߊߛߊ߬ ߕߎ߲߯</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>ߟߊߞߏߝߐ</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>ߥߊߕߌ</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms ߡ.ߛ.</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>ߓߏߟߌ ߞߍ߫ ߝߌߟߌ ߡߍ߲ ߠߎ߬ ߛߓߍ߫ ߘߊ߫</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>ߛߓߍߦߊ</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>ߓߊߙߊߦߐߙߐ</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>ߝߏߦߌ</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>ߓߊ߲ߣߍ߲߫</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>ߟߊߞߎ߲ߘߎߟߌ</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>ߕߐߜ߳ߐ</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>ߗߌߟߌ</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>ߗߌߞߊ߲</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>ߓߏߟߌ ߣߌ߲߬ ߕߊߡߌ߲ߠߌ ߟߎ߬</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>ߛߐߙߐߘߊߛߌ</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>ߓߏߟߌ ߛߓߍߟߌ</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>ߛߓߍߟߌ ߟߊߓߊ߲ ߘߐߙߐ߲ ߟߋ߬ ߦߌ߬ߘߊ߬ߣߍ߲߫.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>ߊ߬ ߦߋ߫ ߓߏߟߌ ߟߊ߫</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>ߊ߬ ߓߊ߲߫ ߘߊ߫ ߟߊߞߏߝߐ ߕߍ߫</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>ߊ߬ ߢߍ߫ ߘߊ߫</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>ߊ߬ ߡߊ߫ ߢߍ߫</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>ߊ߬ ߓߊ߲߫ ߘߊ߫</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>ߞߎ߲ߣߊߝߏߣߌߛߏ ߡߊ߫ ߛߋ߫ ߡߊߛߐ߬ߘߐ߲߬ ߠߊ߫</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>ߞߣߐߟߊ߫ ߝߌߟߌ</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>ߓߏߟߌ ߘߏ߫ ߦߋ߫ ߞߍ ߟߊ߫</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%user ߟߋ߬ ߓߘߊ߫ %kind ߘߊߡߌ߬ߣߍ߫ %time.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>ߊ߬ ߟߊߕߓߊ߰</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>ߟߊߘߏ߲ߠߌ ߛߐߘߊ߲ߣߍ߲߫ ߠߋ߬</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>ߓߏߟߌ߫ ߜߘߍ߫ ߟߋ߬ ߛߐߘߊ߲ ߡߌߘߊ߫ ߟߊ߫ (ߟߊߥߊ߲ߥߊ߲ߟߌ ߘߏ߫ ߥߟߊ߫ ߞߐ߲ߛߏߟ ߓߏߟߌ ߘߏ߫): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>ߊ߬ ߓߊ߲ߣߍ߲߫</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>ߊ ߓߋ ߡߊߞߐߣߐߣߌ ߣߊ</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>ߊ߬ ߡߊߡߎ߲߬ ߕߍ߫</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>ߕߍ ߘߏ߲</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>ߊ߬ ߟߊߛߋߣߍ߲߫ ߞߐ߫</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>ߊ߬ ߟߊߓߊ߯ߙߊߣߍ߲߫</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>ߊ߬ ߕߎ߲߬ ߘߌ߫ ߟߊߓߊ߯ߙߊ߫</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>ߊ߬ ߟߊߛߋߣߍ߲߫ ߞߐ߫</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>ߊ߬ ߕߎ߲߬ ߘߌ߫ ߟߊߛߋ߫ ߞߐ߫</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>ߊ߬ ߡߊ߫ ߓߏ߬ߟߌ߬</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>ߊ߬ ߦߋ߫ ߜߘߍ߫ ߟߋ߬ ߡߊߞߐ߲ߐ߲ ߠߊ߫</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>ߡߊߝߊߟߋ߲ߠߌ ߓߊ߫ ߓߊ߲߫</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>ߡߊߝߊߟߋ߲ߠߌ ߕߎ߲߬ ߘߌ߫ ߓߊ߲߫</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>ߊ߬ ߞߐߙߐߓߐߣߍ߲߫</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>ߕߊߡߌ߲ߠߌ ߟߎ</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>ߤߊߟߌ</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>ߕߊߙߌߞߎ</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>%target ߟߊߛߋ߫ ߞߐ߫</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>ߓߏߟߌ ߦߋ߫ ߟߊߛߋ߫ ߞߐ߫ ߖߌߦߊߓߍ߫ ߡߍ߲ ߓߊ߫ ߡߊߕߊ߫ ߊ߬ ߢߍ߫߸ ߕߊߡߌ߲ߠߌ߫ ߞߋߟߋ߲ ߦߋ߫ ߟߊߛߋ߫ ߞߐ߫ ߊ߬ ߟߊ߫ down() ߟߊ߫. ߖߌߦߊߓߍ߫ ߞߘߐ߬ ߟߊߛߋߟߌ ߞߐ߫ ߦߋ߫ ߟߐ߲ߣߍ߲ ߠߎ߬ ߟߊ߫ ߘߌ߫. ߞߋߟߋ߲ ߞߋߟߋ߲ ߓߍ߯ ߓߏߟߌ ߞߍ߫ ߟߊ߫ ߞߐ߫ ߡߊ߬ ߌ ߕߐ߮ ߟߊ߫߸ ߛߎߡߊ߲߬ ߤߊߟߌ ߖߌߦߊߓߍ ߡߊߕߊߣߍ߲ ߞߐ߫.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>ߡߍ߲ ߛߋ߫ ߟߊߛߋ߫ ߟߊ߫ ߞߐ߫߸ ߏ߬ ߡߊ߫ ߛߋ߫ ߞߊ߬ ߞߊ߬ߙߊ߲߬: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>ߓߏߟߌ ߘߏ߫</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>ߕߊߡߌ߲ߠߌ߫ ߞߋߟߋ߲</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>ߖߌߦߊߓߍ߫ ߞߘߐ߬ ߘߏ߫</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>ߢߍߝߐߟߌ</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ߐߥߐ</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ߊߦߌ</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>ߖߌߦߊߓߍ</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>ߕߐߜ߳ߐ</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>ߊ߬ ߡߊߕߊߣߍ߲߫</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>ߛߎߜ߳ߎߦߊ</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>ߝߊߘߊ߲߫ ߡߍ߲ ߠߎ߬ ߟߊߛߋ߫ ߞߐ߫</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>ߞߎ߲ߣߊߝߏߣߌߛߏ</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>ߡߟߊߞߊ߬ߟߌ ߞߐߕߐ߮ ߟߎ߬ (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>ߟߊߓߍ߲ߢߐ߲ߡߊ ߟߎ߬ (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>ߞߎ߲ߣߊߝߏߣߌߛߏ ߟߊߛߋߟߌ ߞߐ߫ ߦߋ߫ ߊ߬ ߟߊߛߋ߫ ߟߊ߫ ߖߌߦߊߓߍ ߕߎ߬ߡߊ ߡߊ߬߸ ߓߍ߲߬ߢߐ߲߰ߦߊ ߟߎ߬ ߝߘߊ߫ ߊ߬ ߟߊ߫: ߊ߬ ߛߋ߫ ߟߊ߫ ߌ ߢߌ߬ߣߌ߲߬ߞߌ߲߬ ߠߊ߫ ߞߊ߬ ߘߏ߲߬ ߕߎ߲߯ ߏ߬ ߞߐ߫. ߡߍ߲ ߓߍ߯ ߡߊߝߊߟߋ߲ߣߍ߲߫ ߞߊ߬ ߓߐ߫ ߏ߬ ߡߊ߬߸ ߏ߬ ߓߍ߯ ߕߎ߲߬ ߘߌ߫ ߓߌ߲߬; ߛߎߡߊ߲߬ ߤߊߟߌ ߖߌߦߊߓߍ ߦߋ߫ ߡߊߕߊ߫ ߝߟߐ߫.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>ߒ ߓߘߊ߫ ߊ߬ ߟߐ߲߫ ߣߌ߲߬ ߦߋ߫ ߡߍ߲ ߟߊߛߋ߫ ߟߊ߫ ߞߐ߫</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>ߖߌߦߊߓߍ ߕߐ߮ߘߊ ߛߓߍ߫ ߕߎ߲߯</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>ߐߥߐ߸ ߊ߬ ߟߊߛߋ߫ ߞߐ߫</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>ߘߊߓߌߟߊ</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>ߓߏߟߌ߫ ߡߍ߲ ߠߎ߬ ߢߍ߫ ߖߌߦߊߓߍ ߓߊ߫ ߡߊߕߊ߫.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>ߊ߬ ߓߊߕߐ߮</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>ߓߏߟߌ߫ ߕߍ߫ ߦߋ߲߬ ߖߌߦߊߓߍ ߦߋ߫ ߡߍ߲ ߠߊ߫ ߝߟߐ.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>ߕߊߡߌ߲ߠߌ߫ ߟߊߓߊ߯ߙߊߣߍ߲߫ ߡߍ߲ ߠߎ߬ ߛߋ߫ ߘߊ߲߫ ߠߊ߫ ߟߊߛߋ߫ ߟߊ߫ ߞߐ߫ (down() ߦߋ߫ ߏ߬ ߟߎ߬ ߟߊ߫).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>ߕߊߡߌ߲ߠߌ߫ ߟߊߓߊ߯ߙߊߣߍ߲߫ ߛߌ߫ ߕߍ߫ down() ߘߌ߫.</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>ߖߌߦߊߓߍ߫ ߞߘߐ߬ ߟߎ߬ (ߟߐ߲ߣߍ߲ ߠߎ߬)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>ߖߌߦߊߓߍ߫ ߕߍ߫ ߦߋ߲߬ ߝߟߐ.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>ߕߊߡߌ߲ߠߌ ߟߎ߬ ߓߏ߬ߟߌ߬</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>ߓߏߟߌ ߦߋ߫ ߕߊ߯ ߟߊ߫ ߢߍ߫ ߞߐ߫ ߡߊ߬ %user ߕߐ߮ ߟߊ߫߸ ߊ߬ ߟߊ߫ ߞߐߜߍ ߦߋ߫ ߊ߬ ߦߌ߬ߘߊ߫ ߟߊ߫ ߊ߬ ߕߊ߯ߕߎ߫. ߕߊߡߌ߲ߠߌ߫ ߝߟߐ ߢߍ߫߸ ߟߊߘߏ߲ߠߌ ߖߌߦߊߓߍ ߦߋ߫ ߡߊߕߊ߫; ߣߌ߫ ߕߊߡߌ߲ߠߌ ߘߏ߫ ߡߊ߫ ߢߍ߫߸ ߓߏߟߌ ߦߋ߫ ߟߐ߬ ߟߊ߫ ߊ߬ ߣߌ߫ ߖߌߦߊߓߍ ߦߋ߫ ߟߊߛߋ߫ ߞߐ߫.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>ߓߏߟߌ ߞߐߙߐߓߐ ߝߟߐ߫</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>ߤߊߟߌ ߡߊ߫ ߛߋ߫ ߞߊ߬ ߞߊ߬ߙߊ߲߬: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>ߕߊߡߌ߲ߠߌ߫ ߡߊߞߐߣߐߣߍ߲ ߠߎ߬</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>ߏ߬ ߟߎ߬ ߦߋ߫ ߓߏ߬ߟߌ߬ ߟߊ߫ ߛߌߟߊ ߣߌ߲߬ ߠߋ߬ ߞߊ߲߬. ߞߋߟߋ߲ ߕߐ߲ߓߐ߲ ߓߐ߫ ߞߊ߬ ߊ߬ ߣߌ߫ ߡߍ߲ ߠߎ߬ ߦߋ߫ ߊ߬ ߝߍ߬ߘߊ߫ ߟߊ߫ ߓߌ߬ߟߊ߬ ߓߏߟߌ߫ ߣߊ߬ߓߊ߬ߓߊ ߘߏ߫ ߝߍ߬.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>ߊ߬ ߓߏ߬ߟߌ߬</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>ߊ߬ ߦߋ߫ ߡߊߟߐߟߌ ߗߏߜߏ ߟߊߡߊߦߟߍ߬ ߟߊ߫ ߊ߬ ߓߏߟߌ ߕߎ߬ߡߊ.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>ߊ߬ ߡߊߝߊߟߋ߲߫ ߘߊ߫ ߟߊߓߊ߯ߙߊߟߌ ߞߐ߫</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>ߞߐߕߐ߮ ߣߌ߲߬ ߠߎ߬ ߕߍ߫ ߟߊߓߊ߯ߙߊߣߍ߲ ߠߎ߬ ߘߌ߫. ߓߏߟߌ ߦߋ߫ ߏ߬ ߟߎ߬ ߓߊ߲߫ ߠߊ߫ ߝߏ߫ ߣߴߊ߬ ߓߘߊ߫ ߡߊߝߊߟߋ߲ߠߌ ߓߊ߲߫ ߞߎ߲ ߘߏ߫ ߝߍ߬; ߏ߬ ߟߎ߬ ߕߍ߫ ߓߏ߬ߟߌ߬ ߟߊ߫ ߕߎ߲߯߸ ߝߊ߲߬ߓߊ߬ߟߌ ߞߎߘߊ ߦߋ߫ ߛߓߍ߫ ߟߊ߫ ߊ߬ ߣߌ߫ ߞߎ߲ ߦߋ߫ ߡߟߊߞߊ߬ ߟߊ߫ ߝߛߍ߬ߝߛߍ߬ߟߌ ߛߓߍߟߌ ߘߐ߫.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>ߡߊߝߊߟߋ߲ߠߌ ߟߎ߬ ߓߊ߲߫</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>ߡߎ߲߬ ߠߊ߫</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>ߛߎߡߊ߲߬ߘߊ߲ ߠߎ߬ ߟߋ߬ ߟߊߘߌ߬ߣߍ߲ ߠߎ߬ ߘߌ߫. ߞߎߙߎ߲ ߞߋߟߋ߲ ߞߋߟߋ߲ ߓߍ߯ ߛߋߞߏ߲߬ߠߌ ߞߋߟߋ߲ ߓߐ߫ ߟߊ߫.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>ߖߌߦߊߓߍ߫ ߕߍ߫</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>ߖߌߦߊߓߍ߫ ߕߍ߫ ߓߏߟߌ ߢߍ߫ ߣߌ߫ ߊ߬ ߞߐ߫: ߢߍߒߕߍߟߌ ߕߍߣߊ߬ ߛߋ߫ ߟߊߛߋ߫ ߟߊ߫ ߞߐ߫ ߊ߬ ߖߘߍ߬ ߡߊ߬.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>ߟߊߛߋߟߌ߫ ߞߐ߫ ߕߍ߫</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>ߢߍߒߕߍߟߌ ߞߐ߫߸ ߟߊߘߏ߲ߠߌ ߓߌ߬ߟߊ߬ ߢߍߒߕߍߟߌ ߞߊ߬ ߊ߬ ߓߌ߬ߟߊ߬ ߡߐ߬ߟߐ߲߬ ߡߍ߲ ߠߊ߫.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>ߡߊߝߊߟߋ߲ߠߌ߫ ߡߊ߫ ߟߊߞߎ߲ߘߎ߫ ߡߍ߲ ߠߎ߬ ߡߟߊߞߊ߬</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>ߊ߬ ߓߏ߬ߟߌ߬ ߤߊ߲ߓߊ߫ ߟߊߓߍ߲ߢߐ߲ߡߊ߸ ߘߊߝߊ߬ߟߌ ߥߟߊ߫ ߖߊ߬ߡߊ߬ߙߌ߬ߦߊ ߟߎ߬ ߡߊߝߊߟߋ߲ߠߌ߫ ߡߊ߫ ߟߊߞߎ߲ߘߎ߫ ߡߍ߲ ߠߎ߬ ߘߌ߫; ߏ߬ ߟߎ߬ ߦߋ߫ ߘߏ߲߬ ߠߊ߫ ߖߌߦߊߓߍ ߘߐ߫.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>ߟߊߞߎ߲ߘߎߟߌ߫ ߕߍ߫</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>ߤߊߟߌ ߞߐߕߐ߮ ߣߌ߫ ߓߏߟߌ ߛߓߍߟߌ ߞߊ߫ ߟߊߞߎ߲ߘߎ߫ (ߕߐߜ߳ߐ߫ ߕߍ߫߸ ߗߌߟߌ߫ ߕߍ߫).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>ߗߌߟߌ߫ ߕߍ߫</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>ߊ߬ ߟߊߞߎ߲ߘߎ߫ ߞߊ߬ ߊ߬ ߕߐߜ߳ߐ߫߸ ߞߏ߬ߓߊ߲߬ ߌ ߞߊ߫ ߊ߬ ߗߌ߫.</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>ߕߐߜ߳ߐ߫ ߕߍ߫</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>ߊ߬ ߟߊߞߎ߲ߘߎ߫ ߞߊ߬ ߊ߬ ߗߌ߫߸ ߞߏ߬ߓߊ߲߬ ߌ ߞߊ߫ ߓߏߟߌ ߕߐߜ߳ߐ߫.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>ߐߥߐ߸ ߕߊߡߌ߲ߠߌ ߣߌ߲߬ ߠߎ߬ ߓߏ߬ߟߌ߬ ߛߎߡߊ߲߬</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>ߕߊߡߌ߲ߠߌ߫ ߛߌ߫ ߕߍ߫ ߡߊߞߐߣߐߣߌ ߟߊ߫.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>ߞߐߛߊ߬ߦߌ߬ ߤߊߟߌ ߡߊ߬</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>ߟߊߘߏ߲ߠߌ ߣߌ߲߬ ߡߊߝߊߟߋ߲ߠߌ߫ ߡߍ߲ ߠߎ߬ ߛߓߍߣߍ߲߫ ߞߐߕߐ߮ ߟߎ߬ ߘߐ߫ ߕߎ߲߯ ߞߋߟߋ߲ (ߞߣߐߘߐ߸ ߦߌߟߡߊ߸ ߘߟߊߕߊ߬ߡߌ߲߬ߠߌ߸ ߟߊߓߍ߲ߢߐ߲ߡߊ߸ ߖߐ߰ߛߌ߰)߸ ߏ߬ ߟߎ߬ ߦߋ߫ ߟߊߓߊ߯ߙߊ߫ ߟߊ߫ ߞߍߦߙߐ ߟߊ߫ ߟߊߘߏ߲ߠߌ ߓߍߓߍ ߟߊ߫ ߛߌߟߊ߫ ߞߋߟߋ߲ ߞߊ߲߬. ߓߏߟߌ ߦߋ߫ ߖߌߦߊߓߍ ߡߊߕߊ߫ ߟߊ߫ ߝߟߐ߫߸ ߊ߬ ߦߋ߫ ߊ߬ ߟߊߛߋ߫ ߟߊ߫ ߞߐ߫ ߣߌ߫ ߕߊߡߌ߲ߠߌ ߘߏ߫ ߡߊ߫ ߢߍ߫߸ ߊ߬ ߣߌ߫ ߊ߬ ߦߋ߫ ߊ߬ ߞߍߣߍ߲ ߛߓߍ߫ ߟߊ߫߸ ߞߊ߬ ߊ߬ ߟߊߞߎ߲ߘߎ߫ ߞߊ߬ ߊ߬ ߗߌ߫.</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>ߡߊߞߐߣߐߣߍ߲ %count ߓߏ߬ߟߌ߬</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>ߟߊߖߍ ߞߎ߲ߓߊ</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>ߊ ߓߋ ߡߊߞߐߣߐߣߌ ߣߊ</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>ߊ ߓߊ߲ߣߊ</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>ߊ ߡߊ ߢߍ</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>ߊ߬ ߡߊߡߎ߲߬ ߕߍ߫</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>ߞߎ߲ߣߊߝߏߣߌߛߏ</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>ߓߊ߲ߓߊ߲ߠߌ ߟߎ߬: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>ߞߍߦߙߐ ߕߊߡߌ߲ߠߌ ߟߎ߬ ߦߋ߫ migrations/ ߞߣߐ߫߸ ߘߊߝߊ߬ߟߌ ߟߊ߫ ߟߎ߬ ߦߋ߫ extension/&lt;name&gt;/migrations/ ߞߣߐ߫. ߏ߬ ߟߎ߬ ߦߋ߫ ߓߏ߬ߟߌ߬ ߟߊ߫ ߏ߬ ߟߎ߬ ߕߐ߮ ߛߌߟߊ ߣߌ߫ ߏ߬ ߟߎ߬ ߦߋ߫ ߡߍ߲ ߝߍ߬ߘߊ߫ ߟߊ߫ ߞߊ߲߬.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>ߓߏߟߌ ߟߊߓߊ߲</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>ߞߐߕߐ߮ ߡߊߝߊߟߋ߲߫ ߘߊ߫ ߊ߬ ߟߊߓߊ߯ߙߊߟߌ ߞߐ߫.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>ߕߊߡߌ߲ߠߌ߫ ߕߍ߫ ߦߋ߲߬ ߝߟߐ. ./console exp:migration:generate --skeleton &lt;name&gt; --apply ߦߋ߫ ߝߟߐ߫ ߛߓߍ߫ ߟߊ߫.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>ߓߏߟߌ߫ ߞߎߘߊ߫ ߟߎ߬</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>ߓߏߟߌ ߓߍߓߍ</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>ߓߏߟߌ߫ ߕߍ߫ ߦߋ߲߬ ߝߟߐ.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>ߓߏߟߌ ߞߐߙߐߓߐߟߌ ߦߋ߫ ߗߋߘߊ migration/run ߝߍ߬ߘߊ߫.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>ߓߏߟߌ ߘߏ߫ ߦߋ߫ ߞߍ ߟߊ߫: ߊ߬ ߞߐߙߐߓߐ߫ ߣߌ߫ ߊ߬ ߓߊ߲߫ ߘߊ߫.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>ߟߊߓߍ߲ߣߌ</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target ߕߍ߫ ߟߊߘߏ߲ߠߌ ߣߌ߲߬ ߓߏߟߌ߸ ߕߊߡߌ߲ߠߌ ߥߟߊ߫ ߖߌߦߊߓߍ ߘߌ߫.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>&quot;ߐߥߐ߸ ߊ߬ ߟߊߛߋ߫ ߞߐ߫&quot; ߕߐ߲ߓߐ߲߫ ߝߟߐ߫.</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>ߖߌߦߊߓߍ߫ ߞߘߐ߬ ߟߊߛߋߟߌ ߞߐ߫ ߦߋ߫ ߟߐ߲ߣߍ߲ ߠߎ߬ ߟߊ߫ ߘߌ߫: &quot;ߒ ߓߘߊ߫ ߊ߬ ߟߐ߲߫ ߣߌ߲߬ ߦߋ߫ ߡߍ߲ ߟߊߛߋ߫ ߟߊ߫ ߞߐ߫&quot; ߕߐ߲ߓߐ߲߫.</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>ߖߌߦߊߓߍ ߕߐ߮ߘߊ ߛߓߍ߫ ߕߎ߲߯: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>ߝߊߘߊ߲߫ ߞߋߟߋ߲ ߓߊߕߐ߮ ߘߐߓߍ߲ ߞߊ߬ ߊ߬ ߟߊߛߋ߫ ߞߐ߫.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>ߖߌߦߊߓߍ߫ ߡߊ߫ ߡߊߕߊ߫ ߓߏߟߌ ߣߌ߲߬ ߢߍ߫: ߊ߬ ߟߊ߫ ߕߊߡߌ߲ߠߌ ߟߎ߬ ߟߊߛߋ߫ ߞߐ߫ ߞߋߟߋ߲ ߞߋߟߋ߲߸ ߥߟߊ߫ ߖߌߦߊߓߍ߫ ߞߘߐ߬ ߘߏ߫ ߟߊߛߋ߫ ߞߐ߫.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>ߕߊߡߌ߲ߠߌ ߣߌ߲߬ ߕߍߣߊ߬ ߛߋ߫ ߊ߬ ߘߊ߲߫ ߠߊ߫ ߟߊߛߋ߫ ߟߊ߫ ߞߐ߫: ߊ߬ ߡߊ߫ ߟߊߓߊ߯ߙߊ߫߸ ߥߟߊ߫ down() ߕߍ߫ ߊ߬ ߟߊ߫.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>ߝߊߙߊߡߊ ߡߊ߫ ߛߋ߫ ߞߊ߬ ߞߊ߬ߙߊ߲߬.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>ߓߏߟߌ߫ ߡߍ߲ ߘߌ߫ ߘߊߡߌ߬ߣߍ߫ ߕߎ߲߯߸ ߏ߬ ߓߊߕߐ߮.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>&quot;ߐߥߐ߸ ߕߊߡߌ߲ߠߌ ߣߌ߲߬ ߠߎ߬ ߓߏ߬ߟߌ߬ ߛߎߡߊ߲߬&quot; ߕߐ߲ߓߐ߲߫ ߝߟߐ߫.</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>ߕߊߡߌ߲ߠߌ߫ ߞߋߟߋ߲ ߓߊߕߐ߮ ߘߐߓߍ߲.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>ߕߊߡߌ߲ߠߌ ߘߏ߫ ߡߊߝߊߟߋ߲߫ ߘߊ߫ ߊ߬ ߟߊߓߊ߯ߙߊߟߌ ߞߐ߫: ߡߊߝߊߟߋ߲ߠߌ ߓߊ߲߫ ߞߎ߲ ߘߏ߫ ߝߍ߬߸ ߥߟߊ߫ ߞߐߕߐ߮ ߟߊߛߋ߫ ߞߐ߫.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>ߕߊߡߌ߲ߠߌ߫ ߡߊߝߊߟߋ߲ߣߍ߲ ߠߎ߬ ߓߊ߲߫ ߞߎ߲ ߝߐ߫.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>ߞߎ߲ ߕߍ߫ ߛߋ߫ ߛߓߍߘߋ߲ 500 ߠߊ߫ ߞߏߛߊ߲߬.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>ߓߏߟߌ߫ ߘߊߡߌ߬ߣߍ߬ ߦߊ߲߬ ߡߍ߲ ߠߊ߫߸ ߏ߬ ߦߋ߫ ߞߍ ߟߊ߫ ߝߟߐ (%detail). ߊ߬ ߓߊ߲ ߡߊߞߐ߲ߐ߲߫.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>ߓߏߟߌ߫ ߜߘߍ߫ ߟߋ߬ ߟߊߘߏ߲ߠߌ ߛߐߘߊ߲ ߡߌߘߊ߫ ߟߊ߫: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>ߓߏߟߌ ߦߋ߫ ߟߊߓߊ߯ߙߊߟߊ߫ ߘߏ߲߬ߣߍ߲߫ ߡߍ߲ ߦߋ߫ ߦߋ߲߬ ߝߍ߬ߘߊ߫.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>php ߓߊߘߌ߬ ߛߌߟߊ ߓߊߓߌߟߊ߫ ߡߊ߫ ߛߐ߬ߘߐ߲߬. migration.ini [AdminSettings] PhpCliPath ߟߊߘߌ߬ߦߊ߬ ߊ߬ ߛߌߟߊ ߘߝߊߣߍ߲ ߡߊ߬.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open ߟߊߕߊ߯ߣߍ߲߫ ߠߋ߬߸ ߏ߬ ߘߐ߫ ߓߏߟߌ ߕߍߣߊ߬ ߛߋ߫ ߘߊߡߌ߬ߣߍ߫ ߟߊ߫ ߦߊ߲߬. ./console exp:migration:migrate --apply ߓߏ߬ߟߌ߬ ߛߊ߲߬ߓߊ߬ߕߐ߮ ߞߊ߲߬.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>ߓߏߟߌ ߟߎ߬ ߞߐߕߐ߮ߟߊ߲ ߕߍߣߊ߬ ߛߋ߫ ߛߓߍ߫ ߟߊ߫: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>ߓߏߟߌ ߘߊߡߌ߬ߣߍ߬ ߘߊ߫ ߞߏ߬ߓߊ߲߬ ߊ߬ ߡߊ߫ ߊ߬ ߟߊ߫ ߞߍߟߌ ߕߐ߮ߘߊ ߝߐ߫. %detail ߝߛߍ߬ߝߛߍ߫.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>ߡߍ߲ ߘߌ߫ ߟߊߛߋ߫ ߞߐ߫߸ ߏ߬ ߕߐ߮ ߝߐ߫.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>ߓߏߟߌ ߡߊ߫ ߛߋ߫ ߘߊߡߌ߬ߣߍ߫ ߟߊ߫.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>ߡߊ߬ߝߊ߬ߟߋ߲߬ߠߌ ߟߎ߬ ߛߓߍߟߌ</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>ߛߓߍߟߌ ߦߋ߫ ߕߊ߯ߡߊ ߟߋ߬ ߘߐ߫ ߕߎ߬ߡߊ ߡߍ߲ ߠߊ߫، ߌ ߦߋ߫ ߡߍ߲ ߡߊ߬ߝߊ߬ߟߋ߲߫ ߞߎ߲߬ߠߊ߬ߛߌ߬ߟߊ ߘߐ߫ ߥߟߊ߫ ߛߏ߲߬ߘߊ ߞߊ߲߬ߞߍ ߓߊ߯ߙߊ ߞߊ߲߬، ߏ߬ ߦߋ߫ ߟߊߡߊߙߊ߫ ߟߊ߫ ߖߌ߰ߦߊ߬ߟߌ ߞߊ߲ߓߊ߲ ߘߌ߫: ߞߣߐߘߐ، ߞߟߊߛߌ، ߓߊ߯ߙߊ ߣߌ߫ ߛߌߘߋ߲، ߝߊ߲߭ߠߌ، ߓߊ߯ߙߊߟߊ ߣߌ߫ ߞߙߎ، URL ߕߐ߮ ߜߘߍ߫، ߟߊ߬ߓߍ߲߬ߠߌ. ߊ߬ ߟߐ߬ ߣߴߌ ߓߘߊ߫ ߓߊ߲߫، ߊ߬ ߟߊߓߌ߬ߟߊ߬ ߊ߬ ߘߏ߲߬ ߡߍ߲ ߡߌ߬ߘߊ߬، ߞߊ߬ ߖߌ߰ߦߊ߬ߟߌ ߘߊ߲߬ ߊ߬ ߟߊ߫.</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>ߛߓߍߟߌ ߟߎ߬ ߡߊ߫ ߛߋ߫ ߞߊ߬ ߘߐߞߊ߬ߙߊ߲߬: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>ߛߓߍߟߌ ߟߎ߬ ߞߊ߲߬ߓߍ߲ ߕߍ߫ ߦߋ߲߬ ߝߟߐ߫: ߌ ߦߋ߫ ߟߊߞߎߘߦߊߟߌ ߞߍ߫ ߝߟߐ߫ (exp:upgrade --apply).</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>ߛߓߍߟߌ ߓߊ߲߬ߣߍ߲ ߠߋ߬ migration.ini ߞߣߐ߫ ([RecordingSettings] Recording=disabled).</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>ߒ ߠߊ߫ ߡߊ߬ߝߊ߬ߟߋ߲߬ߠߌ ߟߎ߬</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>ߌ ߦߋ߫ ߡߍ߲ ߡߊ߬ߝߊ߬ߟߋ߲߫ ߏ߬ ߘߐߙߐ߲߫ ߛߓߍ߫ ߟߊ߫، ߦߙߐ ߏ߬ ߦߙߐ، ߝߏ߫ ߌ ߦߋ߫ ߊ߬ ߟߐ߬.</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>ߛߓߍߟߌ</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>ߞߊߓߌ߬ %time، ߝߏ߫ ߛߌߛߊ߲߫ ߡߊ߬ߝߊ߬ߟߋ߲߬ߠߌ %count.</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>ߕߐ߮ߟߊ߲ (ߣߴߌ ߓߘߊ߫ ߊ߬ ߝߍ߬)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>ߊ߬ ߘߏ߲߬ ߡߍ߲ ߡߌ߬ߘߊ߬ ߏ߬ ߦߌ߬ߘߊ߬</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>ߛߓߍߟߌ ߟߐ߬</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>ߒ ߠߊ߫ ߡߊ߬ߝߊ߬ߟߋ߲߬ߠߌ ߛߓߍߟߌ ߘߊߡߌ߬ߣߊ߬</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>ߛߏ߲߬ߘߊ ߓߍ߯ ߟߊ߫ ߝߣߍߕߙߍ</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>ߊ߬ ߦߋ߫ ߓߊ߯ߙߊߟߊ ߓߍ߯ ߣߌ߫ ߞߐ߲ߛߐߟߌ ߟߊ߫ ߡߊ߬ߝߊ߬ߟߋ߲߬ߠߌ ߓߍ߯ ߛߓߍ߫ ߝߏ߫ ߊ߬ ߦߋ߫ ߘߊߕߎ߲߯. ߣߴߌ ߘߴߊ߬ ߟߊߞߊ߬، ߊ߬ ߘߌ߫ ߢߌߣߌ߲߫ ߌ ߓߟߏ߫ ߞߊ߬ ߊ߬ ߛߙߊߕߌ߫ ߞߏ߫ ߌ ߘߌ߫.</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>ߊ߬ ߟߊߞߊ߬ߣߍ߲߫</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>ߝߣߍߕߙߍ ߘߊߕߎ߲߯</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>ߛߏ߲߬ߘߊ ߓߍ߯ ߟߊ߫ ߝߣߍߕߙߍ ߟߊߞߊ߬</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>ߛߓߍߟߌ ߓߍ߯</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>ߓߊ߯ߙߊߟߊ ߟߊ߫ ߖߊߕߋ߬ߘߊ (ߘߏ߲߬ߠߌ ߕߐ߮، ߢߎߡߍߙߋ߲߫ ߛߓߍߘߋ߲، ߜߎ߲߬ߘߎ߬ ߞߎߡߊߘߋ߲) ߣߌ߫ ߓߊ߯ߙߊߟߊ ߟߎ߬ ߟߊ߫ ߖߊߕߋ߬ߘߊ ߟߎ߬ ߦߙߐ ߕߍ߫ ߛߓߍ߫ ߝߏߦߌ߬.</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>ߡߊ߬ߝߊ߬ߟߋ߲߬ߠߌ ߟߎ߬</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>ߛߏ߲߬ߘߊ ߓߍ߯</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>%name ߟߊ߫ ߡߊ߬ߝߊ߬ߟߋ߲߬ߠߌ ߟߎ߬</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>ߊ߬ ߟߐ߬ߣߍ߲߫</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>ߛߓߍߟߌ ߛߌ߫ ߕߍ߫ ߦߋ߲߬ ߝߟߐ߫.</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>ߛߓߍߟߌ %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>ߛߓߍߟߌ ߟߎ߬ ߓߍ߯</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>ߖߌ߰ߦߊ߬ߟߌ ߡߍ߲ ߘߌ߫ ߓߐ߫ ߊ߬ ߟߊ߫</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>ߡߊ߬ߝߊ߬ߟߋ߲߬ߠߌ ߟߎ߬ ߟߊߘߍ߬ߣߍ߲߫ ߞߊ߲ߓߊ߲ ߞߋߟߋ߲ ߘߐ߫ ߝߋ߲߫ ߠߎ߫ ߓߍ߯ ߡߊ߬ߝߊ߬ߟߋ߲߬ߣߍ߲ ߠߎ߬ ߦߋ߫: ߖߌ߰ߦߊ߬ߟߌ ߡߍ߲ ߘߊ߲߬ߣߍ߲߫ ߛߓߍߟߌ ߣߌ߲߬ ߠߊ߫ ߏ߬ ߘߌ߫ ߡߍ߲ ߞߍ߫.</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>ߖߌ߰ߦߊ߬ߟߌ ߘߌ߫ ߛߋ߫ ߘߊ߲߬ ߠߊ߫ ߊ߬ ߟߊ߫ ߣߴߊ߬ ߞߍ߫ ߘߊ߫ ߟߊ߬ߘߏ߲߬ߠߌ ߣߌ߲߬ ߛߐ߬ߘߐ߲߬ YAML ߞߊ߲ߓߊ߲ ߛߎ߯ߦߊ %types ߟߎ߬.</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>ߊ߬ ߕߊ߰ߣߍ߲߫ ߞߊ߲ߞߋ߫ ߟߊ߫ ߘߋ߬: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>ߝߏߦߌ߬ ߡߊ߫ ߛߓߍ߫.</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>ߊ߬ ߘߏ߲߬ ߡߍ߲ ߡߌ߬ߘߊ߬</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>ߡߊ߬ߝߊ߬ߟߋ߲߬ߠߌ %count، ߊ߬ߟߎ߬ ߞߍߣߍ߲߫ ߞߊ߲߬ ߡߍ߲ ߠߊ߫.</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>ߡߊ߬ߝߊ߬ߟߋ߲߬ߠߌ</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>ߞߊ߲ߓߊ߲</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>ߊ߬ ߞߎ߲߬ߠߊ߫</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>%count ߜߘߍ߫: ./console exp:migration:record:show ߦߋ߫ ߊ߬ߟߎ߬ ߓߍ߯ ߦߌ߬ߘߊ߬.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>ߊ߬ ߝߌߟߌ߫</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>ߊ߬ ߦߋ߫ ߛߓߍߟߌ ߣߌ߫ ߊ߬ ߘߏ߲߬ ߡߍ߲ ߡߌ߬ߘߊ߬ ߟߊߓߐ߫. ߡߍ߲ ߡߊ߬ߝߊ߬ߟߋ߲߬ߣߍ߲߫، ߏ߬ ߦߋ߫ ߕߏ߫ ߡߊ߬ߝߊ߬ߟߋ߲߬ߣߍ߲߫.</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>ߒ߬ߓߊ߬، ߛߓߍߟߌ ߣߌ߲߬ ߝߌߟߌ߫</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>ߊ߬ ߦߋ߫ ߛߓߍߟߌ ߞߍ߫…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>ߌ ߟߊ߫ ߡߊ߬ߝߊ߬ߟߋ߲߬ߠߌ ߟߎ߬ ߦߋ߫ ߛߓߍ߫ ߟߊ߫ ߖߌ߰ߦߊ߬ߟߌ ߘߌ߫.</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>ߛߏ߲߬ߘߊ ߣߌ߲߬ ߡߊ߬ߝߊ߬ߟߋ߲߬ߠߌ ߓߍ߯ ߦߋ߫ ߛߓߍ߫ ߟߊ߫ ߖߌ߰ߦߊ߬ߟߌ ߘߌ߫ (ߛߏ߲߬ߘߊ ߓߍ߯ ߟߊ߫ ߝߣߍߕߙߍ).</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>ߛߏ߲߬ߘߊ ߓߍ߯ ߟߊ߫ ߛߓߍߟߌ ߘߊߡߌ߬ߣߊ߬ ߣߊ߬: ߓߊ߯ߙߊߟߊ ߓߍ߯ ߟߊ߫ ߡߊ߬ߝߊ߬ߟߋ߲߬ߠߌ ߓߍ߯ ߘߌ߫ ߛߓߍ߫ ߝߏ߫ ߌ ߦߋ߫ ߊ߬ ߟߐ߬.</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>ߛߓߍߟߌ ߘߊߡߌ߬ߣߊ߬ ߣߊ߬: ߌ ߟߊ߫ ߡߊ߬ߝߊ߬ߟߋ߲߬ߠߌ ߟߎ߬ ߘߌ߫ ߛߓߍ߫ ߝߏ߫ ߌ ߦߋ߫ ߊ߬ ߟߐ߬.</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>ߛߓߍߟߌ ߟߐ߬ߣߍ߲߫ ߠߋ߬. ߊ߬ ߘߏ߲߬ ߡߍ߲ ߡߌ߬ߘߊ߬، ߏ߬ ߘߌ߫ ߕߏ߫ ߝߏ߫ ߌ ߦߋ߫ ߊ߬ ߝߌߟߌ߫.</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>ߛߓߍߟߌ ߣߌ߫ ߊ߬ ߟߊ߫ ߞߎ߬ߓߊ߲߬ߠߌ ߟߎ߬ ߓߐߣߍ߲߫ ߠߋ߬.</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>ߛߓߍߟߌ %id ߕߍ߫ ߦߋ߲߬.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>ߌ ߦߋ߫ "ߒ߬ߓߊ߬، ߛߓߍߟߌ ߣߌ߲߬ ߝߌߟߌ߫" ߕߐ߰ߡߊ߬ߛߙߋ߫ ߝߟߐ߫.</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>ߓߊ߯ߙߊߟߊ ߡߍ߲ ߞߊ߬ ߛߓߍߟߌ ߞߍ߫، ߏ߬ ߘߐߙߐ߲߫ ߘߌ߫ ߛߋ߫ ߞߊ߬ ߘߊ߲߬ߞߊ߲߬ ߛߓߍߟߌ ߟߐ߬.</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>ߛߓߍߟߌ ߡߍ߲ ߘߌ߫ ߟߐ߬، ߏ߬ ߓߊߓߌ߬ߟߊ߬.</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>ߛߎ߯ߦߊ ߣߌ߲߬ ߛߓߍߟߌ ߦߋ߫ ߕߊ߯ߡߊ ߟߋ߬ ߘߐ߫ ߞߘߐ߫.</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>ߛߓߍߟߌ ߡߊ߫ ߛߋ߫ ߞߊ߬ ߡߊ߬ߝߊ߬ߟߋ߲߫: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>ߘߏ߲߬ߞߌ߬ߟߌ ߛߌ߲ߘߌ߫</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>ߘߏ߲߬ߞߌ߬ߟߌ ߕߐ߮ (ߣߴߌ ߓߘߊ߫ ߡߊ߬ߞߏ߬ ߟߊ߫)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>ߘߏ߲߬ߞߌ߬ߟߌ %file ߛߓߍߣߍ߲߫ ߘߊ߫. ߡߊ߬ߝߊ߬ߟߋ߲߬ߠߌ ߡߍ߲ ߠߎ߬ ߕߍ߫ ߛߋ߫ ߞߍ߫ ߟߊ߫ ߛߊߞߍ߬ ߛߌ߫ ߓߟߏ߫ ߸ ߏ߬ ߟߎ߬ ߕߐ߮ ߦߋ߫ ߞߐߕߐ߮ ߞߎ߲߬ߘߐ߫ ߸ ߞߊ߬ ߞߍ߫ ߓߟߏ߫ ߟߊ߫.</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>ߘߏ߲߬ߞߌ߬ߟߌ߫ ߕߍ߫ ߛߓߍߣߍ߲߫: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>ߞߎ߲߬ߘߎ߬ߠߊ߫ ߟߊߢߐ߲߮ ߘߎ߰ߣߍ߲ ߠߎ߬ ߘߐ߫</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>ߓߊ߯ߙߊ߫ ߡߊߙߐ߲ߠߊ߫ ߘߌ߫ ߞߏ߫ migration.ini [RunSettings] ߞߐߜߍ ߟߋ߬</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>ߡߙߏ߬ߘߏ߲߬ߠߌ߲ ߞߏ߲߬ߠߊ߫ ߘߐ߫ ߕߘߍ߬ ߣߌ߲߬</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>ߡߙߏ߬ߘߏ߲߬ߠߌ߲ ߝߊ߲߬ ߕߍ߫ ߞߐ߫ (ߕߎ߲߬ߠߊ߲)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>ߞߵߊ߬ ߕߍ߯ߣߍ߲ ߡߙߏ߬ߘߏ߲߬ߠߌ߲ ߘߐ߫ (ߕߎ߲߬ߠߊ߲)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>ߝߊ߲߬ߞߊ߲ ߘߊ߫ ߖߊ߲߬ߕߌ߲ (1 ߝߊ߲ 19)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>ߞߎ߲߬ߘߎ߬ߠߊ ߞߍߙߏ ߟߋ߬ ߟߊߡߙߊ߬ߟߊ ߘߏ߲߬ߘߏ߲ ߟߋ߬ ߡߍ߲ ߦߋ߫ 1 ߞߊ߲ (ߞߵߊ߬ ߕߍ߯ߣߍ߲: ߕߎ߲߬ߠߊ߲ 0 ߝߊ߲ 60, ߝߊ߲߬ߞߊ߲: 1 ߝߊ߲ 19) ߥߟߊ߫ ߡߊߙߐ߲ߠߊ߫.</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>ߏ߬ ߦߋ߫ ߟߊߘߊ߲߬ ߟߊ߫ %time.</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>ߏ߬ ߟߊߘߊ߲߬ ߞߐ߫ (ߡߌ߬ߣߌ߲ߕ, ߝߊ߲߬ߞߊ߲)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>ߡߌ߬ߣߌ߲ߕ ߦߋ߫ ߟߊߡߙߊ߬ߟߊ ߘߏ߲߬ߘߏ߲ ߘߏ߫ 1 ߝߊ߲ 44640 (ߕߊ߲ 31) ߥߟߊ߫ ߡߊߙߐ߲ߠߊ߫.</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>ߕߊߡߌ߲ߠߌ %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>ߕߊߡߌ߲ߠߌ ߞߎߘߊ</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>YAML ߕߊߡߌ߲ߠߌ: ߊ߬ ߛߓߍ߬ ߛߍߓߍ߲ ߘߌ߫ ߥߟߊ߫ ߊ߬ ߞߊ߲ߓߊ߲ ߠߎ߬ ߟߊߘߊ߲߫ ߝߊߙߊߡߊ ߞߘߐ߫߸ ߊ߬ ߟߊߖߍ߫߸ ߏ߬ ߞߐ߫ ߊ߬ ߡߊߙߊ߫ ߕߊߡߌ߲ߠߌ ߘߏߛߌߦߋ ߞߘߐ߫.</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>ߕߊߡߌ߲ߠߌ ߣߌ߲߬ ߓߏߟߌߣߍ߲߫ ߞߘߐ߫ ߟߋ߬߸ ߏ߬ ߘߐ߫ ߊ߬ ߕߍ߫ ߡߊߙߊ߫ ߟߊ߫ ߕߎ߲߯: ߝߌߛߌߦߋ ߡߊߝߊߟߋ߲ߣߍ߲ ߓߘߊ߫ ߓߊ߲߫ ߖߊ߯ߕߋ߬ߘߐ߬ ߟߊߖߍ ߟߊ߫. ߡߊ߬ߝߊ߬ߟߋ߲߬ߠߌ ߞߍ߫ ߕߊߡߌ߲ߠߌ ߞߎߘߊ ߞߘߐ߫.</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>ߥߍߓ ߛߍߙߝߍߙ ߕߍ߫ ߛߋ߫ ߝߌߛߌߦߋ ߛߓߍ߫ ߟߊ߫.</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>ߞߊߟߊߡߊ ߛߌߘߋ߲ ߡߍ߲ ߠߎ߬ ߦߋ߫ ߛߊ߲ߝߍ߬߸ ߏ߬ ߟߎ߬ ߟߋ߬ ߞߎ߲߬ߠߊ ߘߌ߫ (description, author, requires, environments, engines). ߣߌ߫ ߞߊ߲ߓߊ߲ ߝߙߊ߬ߣߍ߲߫ ߥߟߊ߫ ߡߊߝߊߟߋ߲ߣߍ߲߫ ߝߊߙߊߡߊ ߞߘߐ߫߸ ߕߊߡߌ߲ߠߌ ߓߘߊ߫ ߛߓߍ߫ ߞߊ߬ ߞߎߘߊ߫: ߞߊ߲ߓߊ߲ ߠߎ߬ ߕߍ߫ ߞߊߟߊߡߊ ߟߎ߬ ߕߍ߫ ߡߊߙߊ߫ ߟߊ߫.</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>ߕߊߡߌ߲ߠߌ ߕߐߜ߳ߐ</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>ߊ߬ ߕߊ߯ߦߙߐ</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>ߛߏ߲߬ߘߊ</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>YAML ߛߍߓߍ߲</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>ߟߊߖߍ</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>ߡߊߙߊ</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>ߛߍ߲ߣߊߟߎ</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>ߞߌߟߍߟߎ</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>ߦߍߟߍߡߊ</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>ߦߍߟߍ߲</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>ߖߌߜ߳ߌ߲</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>ߓߐߛߌ</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>ߞߊ߲ߓߊ߲ ߕߍ߫ ߦߋ߲߬ ߝߟߐ: ߞߋߟߋ߲ ߝߙߊ߬ ߝߊߙߊߡߊ ߟߊ߫߸ ߥߟߊ߫ ߊ߬ ߟߎ߬ ߛߓߍ߬ ߛߍߓߍ߲ ߞߘߐ߫.</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>ߞߊ߲ߓߊ߲ %number ߡߊߝߊߟߋ߲</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>ߞߊ߲ߓߊ߲ ߞߋߟߋ߲ ߝߙߊ߬</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>ߞߊ߲ߓߊ߲ ߝߊߙߊߡߊ ߘߌߓߊ߯ ߊ߬ ߞߊ߲ߓߊ߲ ߛߎߜ߳ߎߦߊ ߟߋ߬ ߟߊ߫: ߊ߬ ߞߌߟߍߟߎ߸ ߞߋߟߋ߲ ߞߋߟߋ߲ ߓߊ߯ ߡߍ߲ ߡߊߛߐ߬ߘߐ߲߬ ߣߌ߫ ߞߍߢߐ߲ ߡߍ߲ ߠߎ߬ ߟߊ߫ ߊ߬ ߦߋ߫ ߏ߬ ߟߎ߬ ߟߊ߫.</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>ߞߊ߲ߓߊ߲ ߛߎߜ߳ߎߦߊ</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>ߊ߬ ߝߊߙߊߡߊ ߖߌߙߊ</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>ߞߌߟߍ ߘߏ߫ ߟߎ߫ ߦߋ߫ ߞߊ߲ߓߊ߲ ߘߐ߫ ߊ߬ ߛߎߜ߳ߎߦߊ ߕߍ߫ ߡߍ߲ ߠߐ߲߫߸ ߣߌ߫ ߞߊ߲ߓߊ߲ ߡߊߝߊߟߋ߲߫ ߘߊ߫߸ ߏ߬ ߟߎ߬ ߓߘߊ߫ ߓߐ߫: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>ߞߍߢߐ߲</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>ߞߐߣߐ</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>ߘߐߙߐ߲߫ %modes ߞߘߐ߫</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>ߓߊߓߎ߯ߙߊ: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>ߛߙߊߕߌ ߟߎ߫߸ ߞߊ߬ߝߏ ߟߎ߫ ߣߌ߫ ߞߊߟߊߡߊ</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>ߕߐߜ߳ߐ=ߛߐ߲߬ߢߐ ߝߌ߬ߟߊ߬ ߟߎ߫߸ ߞߐߡߊ ߟߎ߬ ߟߋ߬ ߘߐ߫ ߓߊ߲ߘߊ߲ߣߍ߲. ߞߊ߲ߓߊ߲ ߣߌ߲߬ ߛߐ߲߬ߢߐ ߟߎ߬: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>ߡߌߛߊߟߌ</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>ߞߊ߲ߓߊ߲ ߡߊߝߊߟߋ߲</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>ߞߊ߲ߓߊ߲ ߝߙߊ߬</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>exp:migration:check ߦߋ߫ ߡߍ߲ ߝߐ߫ ߠߊ߫: ߞߎ߲߬ߠߊ߸ ߛߓߍߘߋ߲ ߣߌ߫ ߞߊ߲ߓߊ߲ ߓߍ߯ ߡߍ߲ ߟߊߖߍߣߍ߲߫ ߊ߬ ߛߎߜ߳ߎߦߊ ߟߊ߫.</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>ߕߊߡߌ߲ߠߌ ߓߘߊ߫ ߟߊߖߍ ߕߌ߲ߓߌ߲.</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>ߢߍߝߍߟߊߖߍ</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>YAML ߡߊߙߊߕߊ ߞߍߢߐ߲ ߡߍ߲ ߠߊ߫.</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>YAML ߖߌߙߊ</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>YAML ߕߊߡߌ߲ߠߌ ߟߎ</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>ߓߏߟߌߣߍ߲߫</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>YAML ߕߊߡߌ߲ߠߌ߫ ߕߍ߫ ߦߋ߲߬ ߝߟߐ.</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>ߦߍߟߍߡߊߓߊߜ߳ߊ</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>YAML ߕߊߡߌ߲ߠߌ %id ߕߍ߫ ߕߊߡߌ߲ߠߌ ߘߏߛߌߦߋ ߟߎ߬ ߞߘߐ߫.</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>ߞߊ߲ߓߊ߲ ߛߎߜ߳ߎߦߊ ߓߊߕߐ߮.</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>ߞߊ߲ߓߊ߲ ߝߙߊ߬ߣߍ߲߫ ߘߊ߫. ߕߊߡߌ߲ߠߌ ߟߊߖߍ߫ ߝߟߐ߫ ߞߊ߬ ߕߊ߯ ߊ߬ ߡߊߙߊ߫.</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>ߞߊ߲ߓߊ߲ ߡߊߝߊߟߋ߲ߣߍ߲߫ ߘߊ߫. ߕߊߡߌ߲ߠߌ ߟߊߖߍ߫ ߝߟߐ߫ ߞߊ߬ ߕߊ߯ ߊ߬ ߡߊߙߊ߫.</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>ߞߊ߲ߓߊ߲ ߓߊߕߐ߮.</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>ߝߊߙߊߡߊ߫ ߕߍ߫ ߞߊ߲ߓߊ߲ ߣߌ߲߬ ߘߐ߫ (ߡߊߛߊ߬ߦߌ߬ߟߌ߬ ߘߏ߫߸ ߥߟߊ߫ ߞߊ߲ߓߊ߲ ߛߎߜ߳ߎߦߊ ߘߏ߫ ߟߊߓߍ߲ߣߌ ߣߌ߲߬ ߕߍ߫ ߡߍ߲ ߘߐ߫): ߊ߬ ߡߊߝߊߟߋ߲߫ ߛߍߓߍ߲ ߞߘߐ߫.</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>ߕߊߡߌ߲ߠߌ ߕߊ߯ߦߙߐ ߓߊߕߐ߮: ߛߏ߲߬ߘߊ ߥߟߊ߫ ߝߊ߬ߙߊ߬ߟߌ ߓߊ߯ߙߊߕߐ.</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>%file ߡߊߙߊߣߍ߲߫ ߘߊ߫. ߓߏߟߌ ߞߐߙߐߓߐ ߞߍ߫ ߝߟߐ߫ ߞߊ߬ ߕߊߡߌ߲ߠߌ ߓߏߟߌ߫.</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>ߊ߬ ߡߊ߫ ߡߊߙߊ߫: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>ߖߊ߲߬ߦߙߐ ߟߎ߬</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>ߟߊߘߏ߲ߠߌ߫ ߜߘߍ߫ ߡߍ߲ ߠߎ߬ ߡߊ߬ ߟߊߘߏ߲ߠߌ ߣߌ߲߬ ߦߋ߫ ߊ߬ ߟߊ߫ ߕߊߡߌ߲ߠߌ ߟߎ߬ ߟߊߓߐ߫ ߟߊ߫: ߟߊߓߐߟߌ ߦߋ߫ ߕߊߡߌ߲ߠߌ ߟߎ߬ ߗߌ߫ ߖߊ߲߬ߦߙߐ߫ ߓߊߕߐ߮ߣߍ߲ ߠߎ߬ ߡߊ߬ ߞߊ߬ ߏ߬ ߟߎ߬ ߓߏ߬ߟߌ߬ ߦߋ߲߬߸ ߓߍ߯ ߕߎߡߊ߫ ߞߋߟߋ߲ ߓߍ߲߬ߢߐ߲߯ߦߊ ߘߐ߫. ߖߊ߲߬ߦߙߐ ߕߍ߫ ߜ߳ߎ߲ߘߏ ߡߊߙߊ߫ ߟߊ߫ ߝߋߎ߫: ߊ߬ ߟߊ߫ ߘߏ߲ߠߌ ߞߎ߲ߣߊߝߏߣߌ ߦߋ߫ ߜ߳ߎ߲ߘߏ߫ ߞߋߟߋ߲߫ ߕߐ߮ ߝߐ߫ ߟߊ߫ ߟߊߓߍ߲ߣߌ &gt; ߜ߳ߎ߲ߘߏߟߎ ߘߐ߫.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>ߖߊ߲߬ߦߙߐ ߞߎߘߊ</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>ߘߍߡߍ</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>%id ߖߍߢߐߜ߳ߐ߲ߦߊ ߛߍߜ߳ߍߛߍߜ߳ߍߟߌ</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>ߖߊ߲߬ߦߙߐ ߟߎ߬</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>ߖߊ߲߬ߦߙߐ %parallel ߝߊ߲߬ߘߐ߫ ߦߋ߫ ߓߊ߯ߙߊ߫ ߟߊ߫ ߕߎߡߊ߫ ߞߋߟߋ߲߫; ߕߎߡߊ߫ ߞߋߟߋ߲߫ ߛߋ߫ ߘߊ߫ ߛߋ߲߬ߞߌ߲ %timeout ߕߊ߫ ߖߊ߲߬ߦߙߐ ߓߍ߯ ߞߊ߲߬.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>ߖߊ߲߬ߦߙߐ</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>ߊߘߌߙߍߛߌ</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>ߘߏ߲ߠߌ ߞߎ߲ߣߊߝߏߣߌ</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>ߖߍߞߎߟߎ</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>ߟߊߓߍ߲߫ ߡߍ߲ ߠߎ߬ ߘߌ߫ ߓߍ߲߬ߓߍ߲߬</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>ߝߌߛߌߦߋ ߟߎ߬ ߘߐߙߐ߲߫ (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>SSH ߞߌߟߌ</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>ߜ߳ߎ߲ߘߏߘߊߢߍ</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>ߝߏߦߌ (ߤߐߛߌߕߌ ߟߊ߫ SSH ߗߋߘߊ ߣߌ߫ ߞߌߟߍߟߎ)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>ߖߍߢߐߜ߳ߐ߲ߦߊ ߛߍߜ߳ߍߛߍߜ߳ߍ</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>ߖߍߞߎ߫ ߟߊߓߐߟߌ ߦߋ߫ ߕߊ߯ ߊ߬ ߟߊ߫ ߖߊ߲߬ߦߙߐ ߓߍ߯ ߡߊ߬.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>ߟߊߓߐߟߌ ߖߊ߲߬ߦߙߐ ߟߎ߬ ߡߊ߬</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>ߖߊ߲߬ߦߙߐ߫ ߛߌ߫ ߡߊ߫ ߟߊߓߍ߲߫ ߝߟߐ߫.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>ߖߊ߲߬ߦߙߐ %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>ߝߏߦߌ߬ ߕߍ߫ ߗߌ߫ ߥߟߊ߫ ߓߏ߬ߟߌ߬ ߟߊ߫ ߦߊ߲߬: ߡߊߙߊ ߦߋ߫ ߟߊߓߍ߲ ߠߎ߬ ߛߓߍ߫ ߟߊ߫ settings/override/migration.ini.append.php ߘߐ߫. ߘߏ߲ߠߌ ߞߎ߲ߣߊߝߏߣߌ ߦߋ߫ ߕߐߜ߳ߐ ߟߋ߬ ߘߌ߫; ߊ߬ ߛߐ߲߬ߢߐ߲߬ ߦߋ߫ ߟߊߓߍ߲ߣߌ &gt; ߜ߳ߎ߲ߘߏߟߎ ߘߐ߫ ߟߋ߬ ߥߟߊ߫ ߓߊߙߊߦߐߙߐ ߘߐ߫.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>ߟߊߓߍ߲ ߣߌ߲߬ ߠߎ߬ ߝߛߍ߬ߝߛߍ߬</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>ߟߊߓߍ߲ ߠߎ߬ ߓߊߘߌ߲ ߊ߬ ߛߓߍߣߍ߲߫ ߞߍ߫ ߘߌ߬߸ ߊ߬ ߡߊ߫ ߡߊߙߊ߫ ߝߟߐ߫.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>ߟߊߖߍ</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>ߟߊߓߍ߲ ߟߎ߬ ߓߍ߲߬ ߘߊ߫. ߛߍߓߍ߲ߛߏ ߣߌ߲߬ ߠߎ߬ ߛߓߍ߫ ߕߋ߲߬:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>ߗߌߦߐߙߐ</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>ߕߐ߮ ߘߐߙߐ߲; ߤߊߞߍ ߦߋ߫ ߕߏ߫ ߟߊ߫ ߟߊߓߍ߲ߣߌ &gt; ߜ߳ߎ߲ߘߏߟߎ ߘߐ߫</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>ߛߍߓߍ߲ߛߏ ߡߍ߲ ߠߎ߬ ߛߓߍ߫ ߕߋ߲߬</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>ߖߍߢߐߜ߳ߐ߲ߦߊ</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>ߤߐߛߌߕߌ ߞߌߟߌ</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. ߖߊ߲߬ߦߙߐ</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>ߖߊ߲߬ߦߙߐ ߕߐߜ߳ߐ ߟߋ߬ ߡߍ߲ ߘߌ߫߸ ߊ߬ ߣߌ߫ ߊ߬ ߦߋ߫ ߓߊߙߊߦߐߙߐ ߡߍ߲ ߘߌ߫.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>ߛߓߍߛߎ߲ ߠߎ߬߸ ߖߊ߰ߕߋ߬ߘߋ߲ ߠߎ߬߸ - ߣߌ߫ _߸ ߡߌߛߊߟߌ: production1. ߊ߬ ߦߋ߫ ߖߊ߲߬ߦߙߐ ߕߐ߮ ߝߐ߫ ߟߊ߫ ߟߊߞߏߝߐ ߟߎ߬ ߣߌ߫ ߞߐ߲ߛߏߟߌ ߞߊ߲߬ (--remotes=production1)߸ ߊ߬ ߕߍ߫ ߛߋ߫ ߡߊߝߊߟߋ߲߫ ߟߊ߫ ߞߐ߫ ߟߊ߫.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... ߘߊߞߎ ߘߐ߫ ߟߊߓߐߟߌ ߦߋ߫ ߓߊߙߊߦߐߙߐ ߟߎ߬ ߕߊߡߌ߲߫ ߟߊ߫ ߓߟߏߞߍߢߐ߲ ߣߌ߲߬ ߘߐ߫.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>ߣߴߌ ߓߘߊ߫ ߊ߬ ߝߍ߬߸ ߓߐ߲߬ߘߊ߬ ߟߊ߫ ߞߎ߲߬ߘߐ߬ߓߐ߬ߟߊ߲ ߠߎ߬ ߟߊ߫߸ ߡߌߛߊߟߌ: production. ߖߍߞߎ߫ ߟߊߓߐߟߌ ߦߋ߫ ߕߊ߯ ߊ߬ ߟߊ߫ ߖߊ߲߬ߦߙߐ ߓߍ߯ ߡߊ߬.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. ߖߍߢߐߜ߳ߐ߲ߦߊ</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>ߝߌߛߌߦߋ ߟߎ߬ ߦߋ߫ ߛߋ߫ ߟߊ߫ ߦߋ߲߬ ߘߌ߬߸ ߊ߬ ߣߌ߫ ߟߊߘߏ߲ߠߌ ߦߋ߫ ߡߍ߲ ߘߐ߫.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>SSH ߞߊ߲߬߸ ߡߍ߲ ߡߊߝߊߟߋ߲ߣߍ߲߫ ߘߐߙߐ߲߫߸ ߗߌߟߌ߫ ߡߍ߲ ߕߌߢߍߣߍ߲߫ ߏ߬ ߦߋ߫ ߘߊߡߌ߬ߣߍ߫ ߟߊ߫ ߕߎ߲߯. ߓߊߕߐ߮ߟߌ߫ ߢߎ߲߫ ߦߙߐ߫ ߡߍ߲ ߘߐ߫ rsync ߟߊߘߏ߲ߣߍ߲߫ ߘߌ߫.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>SSH ߣߌ߫ scp ߝߌߛߌߦߋ ߟߎ߬ ߦߋ߫.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>SSH ߣߌ߫ sftp ߝߌߛߌߦߋ ߟߎ߬ ߦߋ߫.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>ߝߌߛߌߦߋ ߟߎ߬ ߘߐߙߐ߲߫: ߕߊߡߌ߲ߠߌ ߟߎ߬ ߦߋ߫ ߗߌ߫ ߟߊ߫ ߞߊ߬ ߞߊ߬ߙߊ߲߬ ߕߎ߲߯߸ ߞߏ߬ ߏ߬ ߕߍ߫ ߛߋ߫ ߓߏ߬ߟߌ߬ ߟߊ߫ ߦߋ߲߬.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>FTP TLS ߞߊ߲߬; ߝߌߛߌߦߋ ߟߎ߬ ߘߐߙߐ߲߫.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>ߟߊߘߏ߲ߠߌ߫ ߜߘߍ߫ ߛߍߙߌߝߍߙߎ ߣߌ߲߬ ߞߊ߲߬߸ ߘߏߛߌߦߋ ߘߐ߫.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>ߤߐߛߌߕߌ</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>ߤߐߛߌߕߌ ߕߐߜ߳ߐ ߥߟߊ߫ ߊߘߌߙߍߛߌ߸ ߡߌߛߊߟߌ: node1.example.com. local ߕߍ߫.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>ߔߐߙߏ</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>ߊ߬ ߟߊߘߐߛߌ߬: 22 SSH ߦߋ߫߸ 21 FTP ߦߋ߫.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>ߓߊߙߊߞߍߟߊ</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>ߛߌߙߊ</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>ߟߊߘߏ߲ߠߌ ߘߎ߲ߛߓߊ ߦߋ߲߬߸ ߡߌߛߊߟߌ: /var/www/site (FTP ߦߋ߫: ߛߌߙߊ߫ ߡߍ߲ FTP ߖߊ߯ߕߋ߬ߘߊ ߦߋ߫ ߦߋ߫ ߟߊ߫).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>PHP ߓߊߘߌ߲ߘߊߛߌߙߊ</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>PHP CLI ߦߋ߲߬: php߸ ߥߟߊ߫ ߛߌߙߊ߫ ߘߝߊߣߍ߲ ߘߏ߫ ߓߊߘߌ߲ /opt/plesk/php/8.4/bin/php.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>ߞߐ߲ߛߏߟߌ ߛߓߍߟߌ ߟߎ߬ ߦߋ߫ ߓߏ߬ߟߌ߬ ߟߊ߫ ߦߋ߲߬ root ߟߊ߫</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>ߣߴߊ߬ ߞߍ߫ ߘߊ߫ ߖߊ߲߬ߦߙߐ ߓߊߙߊߞߍߟߊ ߦߋ߫ root ߘߌ߫ ߘߐߙߐ߲߫ (ߏ߬ ߘߐ߫ ߊ߬ ߟߎ߬ ߦߋ߫ ߓߏ߬ߟߌ߬ ߟߊ߫ --allow-root-user ߟߊ߫).</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. ߘߏ߲ߠߌ ߞߎ߲ߣߊߝߏߣߌ</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>ߟߊߘߏ߲ߠߌ ߣߌ߲߬ ߦߋ߫ ߘߏ߲߬ ߠߊ߫ ߦߋ߲߬ ߘߌ߬. ߕߐߜ߳ߐ ߘߐߙߐ߲߫ ߦߋ߫ ߡߊߙߊ߫ ߟߊ߫.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>ߝߏߦߌ</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>ߓߊߙߊߞߍߟߊ߫ ߡߍ߲ ߞߐߙߐ߫ ߟߊߘߏ߲ߠߌ ߣߌ߲߬ ߦߋ߫ ߓߏߟߌ߫ ߟߊ߫߸ ߏ߬ ߟߊ߫ SSH ߗߋߘߊ ߣߌ߫ ߞߌߟߍߟߎ (ߊ߬ ߣߌ߫ ߕߎߡߊ ߓߍ߯ local ߦߋ߫).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>ߞߌߟߌ߫ ߞߎ߲߬ߠߊ߬ߘߐ߬ ߡߊߙߊߣߍ߲ ߜ߳ߎ߲ߘߏ ߘߌ߫.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>ߜ߳ߎ߲ߘߏߘߊߢߍ߫ ߡߊߙߊߣߍ߲ ߜ߳ߎ߲ߘߏ ߘߌ߫ (FTP ߦߋ߫ ߘߏ߲߬ ߠߊ߫ ߏ߬ ߟߋ߬ ߟߊ߫).</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>ߜ߳ߎ߲ߘߏ ߕߐߜ߳ߐ</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>ߜ߳ߎ߲ߘߏ߫ ߞߋߟߋ߲߫ ߟߊߓߍ߲ߣߌ &gt; ߜ߳ߎ߲ߘߏߟߎ ߘߐ߫߸ ߡߌߛߊߟߌ: deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>ߟߊߓߍ߲ߣߌ &gt; ߜ߳ߎ߲ߘߏߟߎ</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>ߥߟߊ߫ ߓߊߙߊߦߐߙߐ ߡߊߝߊߟߋ߲ߓߊߟߌ</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>ߛߍߙߌߝߍߙߎ ߓߏߟߌ ߡߊߝߊߟߋ߲ߓߊߟߌ߫ ߡߍ߲ ߦߋ߫ ߊ߬ ߡߊߙߊ߫ ߟߊ߫߸ ߡߌߛߊߟߌ: DEPLOY_KEY (ߡߊߙߊߣߍ߲߫ env:DEPLOY_KEY ߘߌ߫). ߊ߬ ߦߋ߫ ߜ߳ߎ߲ߘߏ ߕߐߜ߳ߐ ߝߊ߲߬ߞߊ߲ ߘߐߞߍ߫.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. ߤߐߛߌߕߌ ߞߌߟߌ</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>ߣߴߌ ߓߘߊ߫ ߊ߬ ߝߍ߬߸ SSH߸ sftp ߣߌ߫ rsync ߦߋ߫.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>ߤߐߛߌߕߌ ߞߌߟߌ ߓߟߋߞߎ߲ߘߎ߲߬ߘߎ߲߬</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... ߓߊߘߌ߲ ߝߊߘߌ߲ ߡߍ߲ ssh-keygen -l ߦߋ߫ ߊ߬ ߛߓߍ߫ ߟߊ߫. ߣߴߊ߬ ߦߋ߫ ߦߋ߲߬߸ ߤߐߛߌߕߌ ߞߊߞߊ߲߫ ߞߊ߬ ߞߌߟߌ ߣߌ߲߬ ߖߌߙߊ߫; ߣߴߊ߬ ߕߍ߫ ߦߋ߲߬߸ ߞߌߟߌ ߦߋ߫ ߟߐ߲߫ ߠߊ߫ ߓߍ߲߬ߠߌ߲߬ ߝߟߐ ߘߐ߫.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. ߟߊߖߍ</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>ߖߍߢߐߜ߳ߐ߲ߦߊ ߛߍߜ߳ߍߛߍߜ߳ߍ߫ ߛߊ߲ߝߍ߬ ߟߊߓߍ߲ ߠߎ߬ ߟߊ߫߸ ߏ߬ ߞߐ߫ ߛߌ߰ߙߊ߬ ߡߍ߲ ߠߎ߬ ߘߌ߫ ߛߓߍ߫߸ ߏ߬ ߟߎ߬ ߟߊߖߍ߫.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>ߖߊ߲߬ߦߙߐ ߣߌ߲߬ ߓߐߛߌ</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>ߊ߬ ߟߊߓߍ߲ ߠߎ߬ ߦߋ߫ ߓߐ߫ ߟߊ߫ settings/override/migration.ini.append.php ߘߐ߫. ߝߏߦߌ߬ ߕߍ߫ ߡߊߝߊߟߋ߲߫ ߟߊ߫ ߖߊ߲߬ߦߙߐ ߞߊ߲߬߸ ߊ߬ ߟߊ߫ ߟߊߓߐߟߌ ߟߎ߬ ߦߋ߫ ߕߊ߬ߙߌ߬ߞߎ ߘߐ߫ ߟߋ߬.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>ߐߥߐ߸ ߖߊ߲߬ߦߙߐ ߣߌ߲߬ ߓߐߛߌ</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>ߟߊߓߐߟߌ ߟߎ߬</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>ߟߊߓߐߟߌ ߦߋ߫ ߟߊߘߏ߲ߠߌ ߣߌ߲߬ ߕߊߡߌ߲ߠߌ ߟߎ߬ ߗߌ߫ ߖߊ߲߬ߦߙߐ߫ ߓߊߕߐ߮ߣߍ߲ ߠߎ߬ ߡߊ߬ ߞߊ߬ ߏ߬ ߟߎ߬ ߓߏ߬ߟߌ߬ ߦߙߐ ߟߎ߬ ߟߊ߫ ߓߊߙߊߞߍߟߊ %user ߟߊ߫߸ ߓߍ߯ ߕߎߡߊ߫ ߞߋߟߋ߲ ߓߍ߲߬ߢߐ߲߯ߦߊ ߘߐ߫: ߖߊ߲߬ߦߙߐ ߓߍ߯ ߟߊߖߍ߫ ߟߊ߫ ߝߟߐ߫߸ ߣߴߊ߬ ߞߋߟߋ߲߫ ߡߊ߫ ߢߍ߫߸ ߖߊ߲߬ߦߙߐ߫ ߡߍ߲ ߠߎ߬ ߓߘߊ߫ ߊ߬ ߟߊߓߊ߯ߙߊ߫߸ ߏ߬ ߓߍ߯ ߟߊߛߋ߫ ߟߊ߫ ߞߐ߫. ߊ߬ ߦߋ߫ ߕߊ߯ ߟߊ߫ ߞߐߘߐ߫߸ ߊ߬ ߟߊ߫ ߞߐߜ߭ߍ ߦߋ߫ ߖߊ߲߬ߦߙߐ ߓߍ߯ ߖߌߙߊ߫ ߟߊ߫ ߊ߬ ߕߊߡߊ ߘߐ߫.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. ߖߊ߲߬ߦߙߐ ߟߎ߬</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>ߖߊ߲߬ߦߙߐ ߟߎ߬߸ ߖߍߞߎ߫ ߞߋߟߋ߲߫߸ ߥߟߊ߫ ߊ߬ ߝߌ߬ߟߊ߬ ߓߍ߯ ߛߎߜ߳ߊ߲ߘߌ߫.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>ߊ߬ ߟߊߓߐ߫ ߦߋ߲߬</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. ߞߍߢߐ߲</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>ߊ߬ ߟߊߓߐ߫</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>ߊ߬ ߗߌ߫ ߞߊ߬ ߊ߬ ߓߏ߬ߟߌ߬</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>ߕߊߡߌ߲ߠߌ ߟߎ߬ ߦߋ߫ ߗߌ߫ ߟߊ߫߸ ߞߊ߬ ߟߊߖߍ߫߸ ߞߊ߬ ߓߏ߬ߟߌ߬ ߖߊ߲߬ߦߙߐ ߓߍ߯ ߞߊ߲߬ ߓߏߟߌ ID ߞߋߟߋ߲߫ ߠߊ߫.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>ߝߌߛߌߦߋ ߗߌߟߌ ߘߐߙߐ߲</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>ߝߌߛߌߦߋ ߟߎ߬ ߦߋ߫ ߗߌ߫ ߟߊ߫ ߞߊ߬ ߟߊߖߍ߫߸ ߝߏߦߌ߬ ߕߍ߫ ߓߏ߬ߟߌ߬ ߟߊ߫ (FTP ߖߊ߲߬ߦߙߐ ߛߌߙߊ߫ ߞߋߟߋ߲߫ ߠߋ߬ ߣߌ߲߬).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>ߘߊߞߎ ߘߐ߫</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>ߘߊߞߎ ߣߌ߫ ߘߊߞߎ ߓߊߙߊߦߐߙߐ ߟߎ߬ ߓߟߏߞߍߢߐ߲ ߘߐ߫ (dev, stage, beta, production ...): ߘߊߞߎ߫ ߝߟߐ ߦߋ߫ ߟߊߓߐ߫ ߟߊ߫߸ ߏ߬ ߞߐ߫ ߘߊ ߦߋ߫ ߡߊߞߐ߲ߐ߲߫ ߟߊ߫ ߝߏ߫ ߡߐ߰ ߘߏ߫ ߦߋ߫ ߘߊߞߎ ߣߊߕߊ ߛߐ߲߫. ߓߍ߯ ߥߟߊ߫ ߝߏߦߌ߬ ߘߊߞߎ ߓߍ߯ ߞߣߐ߫.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>ߕߊߡߌ߲ߠߌ ߣߌ߲߬ ߠߎ߬ ߘߐߙߐ߲߫</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>ߣߴߌ ߓߘߊ߫ ߊ߬ ߝߍ߬: ߕߊߡߌ߲ߠߌ ID ߟߎ߬߸ ߓߐ߲߬ߘߊ߬ ߟߊ߫ ߞߎ߲߬ߘߐ߬ߓߐ߬ߟߊ߲ ߠߎ߬ ߟߊ߫. ߊ߬ ߟߊߘߐߛߌ߬: ߛߏ߲߬ߘߊ ߣߌ߫ ߊ߬ ߘߊߝߊ߬ߟߊ߲ ߠߎ߬ ߕߊߡߌ߲ߠߌ ߓߍ߯.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>ߢߍߝߍ ߟߊߖߍ ߘߐߙߐ߲߫</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>ߐߥߐ߸ ߊ߬ ߟߊߓߐ߫ ߛߌߛߍ߲߫</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>ߟߊߓߐߟߌ߫ ߡߍ߲ ߠߎ߬ ߓߘߊ߫ ߝߋ߲߫ ߗߌ߫ ߥߟߊ߫ ߞߊ߬ ߊ߬ ߓߏ߬ߟߌ߬߸ ߞߎߘߊ ߟߋ߬ ߝߟߐ߫ (ߢߍߝߍ ߟߊߖߍ ߕߍ߫ ߟߊߞߏߝߐ ߡߊߙߊ߫ ߟߊ߫).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>ߝߌߛߌߦߋ ߗߌߟߌ ߘߐߙߐ߲</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>ߘߊߞߎ ߘߐ߫߸ ߘߊߞߎ %stages</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>ߓߍ߲߬ߢߐ߲߯ߦߊ ߕߍ߫</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>ߟߊߓߐߟߌ߫ ߕߍ߫ ߦߋ߲߬ ߝߟߐ.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>ߟߊߓߐߟߌ %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>ߟߊߓߐߟߌ ߖߊ߲߬ߦߙߐ ߓߍ߯ ߣߌ߫ ߊ߬ ߖߊ߯ߓߌ. ߟߊߓߐߟߌ߫ ߡߍ߲ ߘߊߡߌߣߍߣߊ ߦߊ߲߬߸ ߏ߬ ߦߋ߫ ߕߊ߯ ߟߊ߫ ߞߐߘߐ߫ ߣߴߊߟߎ߫ ߞߐߜ߭ߍ ߣߌ߲߬ ߘߊߕߎ߲߯; ߞߐߜ߭ߍ ߟߊߞߊ߬ ߕߎ߲߯ ߞߊ߬ ߊ߬ ߟߊߕߓߊ߰.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>ߟߊߓߐߟߌ ߓߍ߯</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>ߢߍߝߍ ߟߊߖߍ</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>ߘߊߞߎ ߣߊߕߊ</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>ߟߊߓߍ߲ ߠߎ߬ ߣߌ߫ ߘߏ߲ߠߌ ߞߎ߲ߣߊߝߏߣߌ ߟߎ߬ ߟߊߖߍߟߌ</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>ߢߍߝߍ ߟߊߖߍ: ߖߊ߲߬ߦߙߐ ߓߍ߯ ߖߊ߯ߓߌ ߞߊ߬ߙߊ߲߬ߠߌ</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>ߕߊߡߌ߲ߠߌ ߝߌߛߌߦߋ ߟߎ߬ ߗߌߟߌ</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>ߡߍ߲ ߓߘߊ߫ ߛߋ߫߸ ߏ߬ ߟߊߖߍߟߌ</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>ߕߊߡߌ߲ߠߌ ߟߎ߬ ߓߏߟߌ ߖߊ߲߬ߦߙߐ ߓߍ߯ ߞߊ߲߬</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>ߖߊ߲߬ߦߙߐ ߟߎ߬ ߟߊߛߋߟߌ ߞߐ߫</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>ߟߊߓߐߟߌ ߓߊ߲ߣߍ߲߫. ߊ߬ ߟߊ߫ ߟߊߞߏߝߐ ߦߋ߫ ߟߊߛߊ߬ ߟߊ߫.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>ߢߍߕߊ ߡߊ߫ ߛߋ߫ ߞߊ߬ ߟߊߕߓߊ߰. ߞߐߜ߭ߍ ߟߊߛߊ߬ ߕߎ߲߯ ߞߊ߬ ߟߊߓߐߟߌ ߖߊ߯ߓߌ ߦߋ߫.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>ߕߎߡߊ</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>ߞߐߜ߭ߍ ߣߌ߲߬ ߦߋ߫ ߟߊߓߐߟߌ ߟߊߕߓߊ߰ ߟߊ߫ ߊ߬ ߕߊߡߊ ߘߐ߫.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>ߓߍ߲߬ߢߐ߲߯ߦߊ ߘߐ߫</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>ߘߊߞߎ ߟߎ߬</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>ߘߊߞߎ %stage ߦߋ߫ ߡߊߞߐ߲ߐ߲߫ ߠߊ߫ ߊ߬ ߘߊ߫ ߘߐ߫</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>ߘߊ %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>%user ߟߋ߬ ߓߘߊ߫ ߊ߬ ߛߐ߲߫ %time</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>ߘߊߞߎ</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>ߝߌߛߌߦߋ߫ ߗߌߣߍ߲ ߠߎ߬</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>ߞߎ߲߬ߠߊ߬ߘߐ߬ ߦߌߟߡߊ</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>ߊ߬ ߟߊߓߊ߯ߙߊߣߍ߲߫: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>ߡߍ߲ ߠߎ߬ ߘߌ߫ ߟߊߓߊ߯ߙߊ߫: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>ߕߎߡߊ ߟߎ߬</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>ߘߊ: ߘߊߞߎ %stage / %stages</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>ߘߊߞߎ߫ ߡߍ߲ ߠߎ߬ ߦߋ߫ ߊ߬ ߢߍ߫߸ ߏ߬ ߟߎ߬ ߟߊߓߐߣߍ߲߫. ߏ߬ ߟߎ߬ ߟߊߖߍ߫߸ ߏ߬ ߞߐ߫ ߘߊߞߎ ߣߊߕߊ ߛߐ߲߫: ߊ߬ ߟߊ߫ ߖߊ߲߬ߦߙߐ ߟߎ߬ ߦߋ߫ ߟߊߖߍ߫ ߟߊ߫ ߕߎ߲߯ ߞߊ߬ ߟߊߓߐ߫߸ ߓߍ߯ ߥߟߊ߫ ߝߏߦߌ߬.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>ߣߊߕߊ</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>ߐߥߐ߸ ߘߊߞߎ ߣߊߕߊ ߟߊߓߐ߫ ߛߌߛߍ߲߫</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>ߛߐ߲</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>ߟߊߓߐߟߌ ߣߌ߲߬ ߞߐ߫ ߟߊߛߋ߫</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>ߖߊ߲߬ߦߙߐ߫ ߡߍ߲ ߠߎ߬ ߓߘߊ߫ ߊ߬ ߟߊߓߊ߯ߙߊ߫ (%list)߸ ߏ߬ ߓߍ߯ ߦߋ߫ ߞߐߛߊ߬ߦߌ߬ ߟߊ߫ ߖߌߦߊߓߍ߫ ߡߍ߲ ߡߊߕߊ߫ ߘߊ߫ ߓߏߟߌ ߢߍ߫߸ ߓߍ߯ ߕߎߡߊ߫ ߞߋߟߋ߲.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>ߐߥߐ߸ ߟߊߓߐߟߌ ߣߌ߲߬ ߞߐ߫ ߟߊߛߋ߫ ߛߌߛߍ߲߫</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>ߊ߬ ߛߎߥߊ߲ߣߍ߲߫</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>ߊ߬ ߗߌߣߍ߲߫</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>ߊ߬ ߟߊߓߐߣߍ߲߫</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>ߊ߬ ߦߋ߫ ߡߊߞߐ߲ߐ߲߫ ߠߊ߫ ߘߊ߫ ߘߐ߫</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>ߛߎߜ߳ߊ߲ߘߌߟߍ߲ߟߎ</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>ߊ߬ ߟߊߓߍ߲ߣߍ߲߫</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>ߊ ߟߊߓߍ߲ߣߍ߲ ߘߏ߲</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>ߊ߬ ߦߋ߫ ߊ߬ ߟߊ߫ ߘߊߞߎ ߡߊߞߐ߲ߐ߲ ߠߊ߫</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>ߝߌߛߌߦߋ ߟߎ߬ ߗߌߣߍ߲߫</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>ߊ߬ ߟߊߖߍߣߍ߲߫</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>ߊ߬ ߡߊ߫ ߢߍ߫߸ ߊ߬ ߓߘߊ߫ ߊ߬ ߖߘߍ߬ ߟߊߛߋ߫ ߞߐ߫</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>ߊ߬ ߡߊ߫ ߡߊߝߊߟߋ߲߫</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>ߊ߬ ߡߊ߫ ߟߊߓߐ߫</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>ߊ߬ ߕߍ߫ ߛߐ߬ߘߐ߲߬ ߠߊ߫</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>ߖߊ߲߬ߦߙߐ ߓߘߊ߫ ߖߊ߬ߓߌ߬ߟߌ ߞߍ߫.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>ߖߊ߲߬ߦߙߐ ߕߍ߫ ߛߋ߫ ߓߊ߯ߙߊ߫ ߟߊ߫ ߛߌߛߍ߲߫.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done ߊ߬ ߓߊ߲ߣߍ߲߫߸ %pending ߊ ߓߋ ߡߊߞߐߣߐߣߌ ߣߊ߸ %failed ߊ߬ ߡߊ߫ ߢߍ߫</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>ߛߐߘߊ߲ߠߌ</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>ߓߏߟߌ ߘߏ߫ ߦߋ߫ ߛߐߘߊ߲ߠߌ ߡߊߙߊ ߟߊ߫ ߦߋ߲߬</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>ߟߊ߲ߞߏߟߏ߲</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stage / %stages</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>ߖߊ߲߬ߦߙߐ߫ ߡߍ߲ ߘߌ߫ ߛߍߜ߳ߍߛߍߜ߳ߍ߫߸ ߏ߬ ߓߊߕߐ߮.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>«ߐߥߐ߸ ߖߊ߲߬ߦߙߐ ߣߌ߲߬ ߓߐߛߌ» ߛߎߜ߳ߊ߲ߘߌ߫ ߝߟߐ߫.</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>ߖߊ߲߬ߦߙߐ ߡߊ߫ ߛߋ߫ ߓߐߛߌ߫ ߟߊ߫: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>ߖߊ߲߬ߦߙߐ ߡߊ߫ ߛߋ߫ ߡߊߙߊ߫ ߟߊ߫: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>ߟߊߓߍ߲ ߝߌߛߌߦߋ ߕߍ߫ ߛߋ߫ ߞߊ߬ߙߊ߲߬ ߠߊ߫: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>ߖߊ߲߬ߦߙߐ߫ ߞߋߟߋ߲߫ ߥߟߊ߫ ߖߍߞߎ߫ ߞߋߟߋ߲߫ ߓߊߕߐ߮ ߝߊߙߌ߲߫ ߘߐ߫.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>ߖߊ߲߬ߦߙߐ߫ ߓߊߕߐ߮ߣߍ߲ ߕߍ߫ ߟߊߓߍ߲ ߠߎ߬ ߘߐ߫ ߕߎ߲߫. ߞߐߜ߭ߍ ߟߊߛߊ߬ ߕߎ߲߯.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>«ߐߥߐ߸ ߊ߬ ߟߊߓߐ߫ ߛߌߛߍ߲߫» ߛߎߜ߳ߊ߲ߘߌ߫ ߝߟߐ߫.</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>FTP ߖߊ߲߬ߦߙߐ ߕߍ߫ ߛߋ߫ ߕߊߡߌ߲ߠߌ ߟߎ߬ ߓߏ߬ߟߌ߬ ߟߊ߫: «ߝߌߛߌߦߋ ߗߌߟߌ ߘߐߙߐ߲» ߓߊߕߐ߮߸ ߥߟߊ߫ ߊ߬ ߓߐ߫ ߊ߬ ߘߐ߫.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>ߕߊߡߌ߲ߠߌ߫ ߡߍ߲ ߠߎ߬ ߘߌ߫ ߟߊߓߐ߫߸ ߏ߬ ߟߎ߬ ߦߋ߫ ߕߊߡߌ߲ߠߌ ID ߟߎ߬ ߘߌ߫߸ ߓߐ߲߬ߘߊ߬ ߟߊ߫ ߞߎ߲߬ߘߐ߬ߓߐ߬ߟߊ߲ ߠߎ߬ ߟߊ߫.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>ߟߊߓߐߟߌ ߦߋ߫ ߞߍ ߟߊ߫ ߝߟߐ߫. ߊ߬ ߡߊߞߐ߲ߐ߲߫ ߝߏ߫ ߊ߬ ߦߋ߫ ߓߊ߲߫.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>ߟߊߓߐߟߌ ߣߌ߲߬ ߕߍ߫ ߡߊߞߐ߲ߐ߲߫ ߟߊ߫ ߘߊ߫ ߘߐ߫.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>ߖߊ߲߬ߦߙߐ߫ ߛߌ߫ ߡߊ߫ ߟߊߓߐߟߌ ߣߌ߲߬ ߟߊߓߊ߯ߙߊ߫: ߝߏߦߌ߬ ߕߍ߫ ߦߋ߲߬ ߞߊ߬ ߟߊߛߋ߫ ߞߐ߫.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>«ߐߥߐ߸ ߘߊߞߎ ߣߊߕߊ ߟߊߓߐ߫ ߛߌߛߍ߲߫» ߛߎߜ߳ߊ߲ߘߌ߫ ߝߟߐ߫.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>«ߐߥߐ߸ ߟߊߓߐߟߌ ߣߌ߲߬ ߞߐ߫ ߟߊߛߋ߫ ߛߌߛߍ߲߫» ߛߎߜ߳ߊ߲ߘߌ߫ ߝߟߐ߫.</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>ߖߊ߲߬ߦߙߐ߫ ߡߍ߲ ߠߊ߫ ID ߦߋ߫ %id ߘߌ߫߸ ߏ߬ ߓߘߊ߫ ߦߋ߲߬ ߞߘߐ߬.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>ߔߐߙߏ ߦߋ߫ ߖߊ߰ߕߋ߬ߘߋ߲ ߘߌ߫ 1 ߝߊ߲ 65535.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>ߓߊߙߊߦߐߙߐ ߦߋ߫ ߞߎߡߊߘߋ߲߫ ߛߓߍߛߎ߲ ߠߎ߬߸ ߖߊ߰ߕߋ߬ߘߋ߲ ߠߎ߬߸ - ߣߌ߫ _ ߟߋ߬ ߘߌ߫ (alpha, dev, stage, beta, production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>ߖߍߞߎ ߦߋ߫ ߞߎߡߊߘߋ߲߫ ߛߓߍߛߎ߲ ߠߎ߬߸ ߖߊ߰ߕߋ߬ߘߋ߲ ߠߎ߬߸ - ߣߌ߫ _ ߟߋ߬ ߘߌ߫ (all ߕߍ߫): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>ߘߏ߲ߠߌ ߞߎ߲ߣߊߝߏߣߌ ߕߍ߫ ߛߋ߫ ߞߊ߬ߙߊ߲߬ ߟߊ߫ ߛߌߛߍ߲߫: %problem. ߊ߬ ߡߊߙߊ߫ ߟߊߓߍ߲ߣߌ &gt; ߜ߳ߎ߲ߘߏߟߎ ߘߐ߫ (ߥߟߊ߫ ߡߊߝߊߟߋ߲ߓߊߟߌ ߟߊߓߍ߲߫) ߟߊߓߐߟߌ߫ ߝߟߐ ߢߍ߫.</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>FTP ߖߊ߲߬ߦߙߐ ߦߋ߫ ߝߌߛߌߦߋ ߟߎ߬ ߘߐߙߐ߲߫ ߘߋ߬ ߡߊߛߐ߬ߘߐ߲߬ ߠߊ߫: ߊ߬ ߟߊߓߐߟߌ ߦߋ߫ «ߝߌߛߌߦߋ ߗߌߟߌ ߘߐߙߐ߲» ߘߌ߫߸ ߊ߬ ߟߊ߫ ߕߊߡߌ߲ߠߌ ߟߎ߬ ߦߋ߫ ߓߏ߬ߟߌ߬ ߟߊ߫ ߦߋ߲߬ ߓߟߏ߫.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>ߖߊ߲߬ߦߙߐ %id ߕߍ߫ settings/override/migration.ini.append.php ߘߐ߫; ߊ߬ ߓߐߛߌ߫ ߊ߬ ߟߊߓߍ߲ߣߍ߲߫ ߦߙߐ߫ ߡߍ߲ ߘߐ߫.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>ߘߏ߲߬ߠߌ߲ ߞߍߣߍ߲߫ FTP ߞߊ߲߬߸ index.php ߞߊ߬ߙߊ߲߬ߣߍ߲߫. FTP ߖߊ߲߬ߦߙߐ ߕߊߡߌ߲ߠߌ ߤߊߟߌ ߕߍ߫ ߛߋ߫ ߞߊ߬ߙߊ߲߬ ߟߊ߫.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>ߦߍߟߍߡߊߣߊ</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>ߘߌߟߊ߲ߣߊ</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>ߕߐߜ߳ߐ</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>ߞߌߟߊߛߌ</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>ߛߍߞߌߛߌߦߐ߲</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>ߘߌߟߊ߲ߓߊߜ߳ߊ</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>ߞߐߣߐߞߏ ߞߎߙߊߟߎ</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>ߛߌߕߌ ߓߍߍ ߞߐߣߐߞߏߟߎ ߡߌ߲ߣߎ ߘߌߟߊ߲ߣߊ ߥߊߟߌߡߊ ߦߍߟߍߡߊߣߊ ߞߐߛߊ ߌ߲ ߣߊ, ߞߎߙߊߟߎ ߝߐߟߐ: ߓߌߛߌߜ߳ߌߦߊߟߊߟߎ ߦߍ ߝߍ߲ ߡߌ߲ߣߎ ߗߌ, ߝߍ߲ ߡߌ߲ߣߎ ߡߌߣߍߣߊ ߞߊ ߟߊߖߍ, ߓߙߎߦߐ߲ߟߎ ߡߌ߲ߣߎ ߓߋ ߎ ߓߌߟߊߟߌ ߡߊߞߐߣߐ. ߝߍ߲ߟߎ ߛߎߜ߳ߊ߲ߘߌ ߥߊߟߊߛߊ ߞߎ ߓߌߟߊ, ߞߎ ߡߌߣߍ, ߞߎ ߘߏߜ߳ߏ, ߞߎ ߖߌߙߊ, ߞߎ ߓߐߛߌ ߥߊߟߌߡߊ ߞߎ ߓߌߟߊ ߛߍߞߌߛߌߦߐ߲ ߥߍߙߍ ߥߊߟߌߡߊ ߗߏߜ߳ߏߦߊ ߥߍߙߍ ߟߊ.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>ߟߌߛߌ ߡߊ ߛߍ ߞߊ ߞߊߟߊ߲: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>ߟߊߖߍߟߌ ߡߌߣߍߣߌ ߡߊ ߟߊߓߍ߲ ߝߐߟߐ, ߏ ߘߍ ߞߏߛߐ߲ ߝߏߦߌ ߡߊ ߡߌߣߍ ߊߣߌ ߡߌߣߍߣߌ ߞߍߥߊߟߍߟߎ ߕߍ ߘߌ. ߦߍߟߍߡߊߟߌ ߕߊߊߓߏߟߏ 6.0.15-review-hold ߓߊ ߟߊߓߍ߲: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>ߟߌߛߌ ߛߍ߲ߛߍ߲</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>ߞߊ ߓߐ</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>ߞߊ ߛߍ</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>ߘߏ߲</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>ߘߌߟߊ߲ߣߊ (ߓߌߟߊߟߌ ߝߐߟߐ)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>ߓߍߍ</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>ߤߊߟߌ</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>ߓߌߟߊߟߍ߲</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>ߓߙߎߦߐ߲, ߡߊ ߓߌߟߊ ߊߓߊߘߊ</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>ߊ ߓߋ ߡߊߞߐߣߐߣߌ ߣߊ (ߊ ߓߋ ߛߐ߲ߣߌ ߥߊߟߌߡߊ ߘߏ߲ ߘߐ ߡߊߞߐߣߐ)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>ߣߐߜ߳ߐߛߌߜ߳ߌߦߐߙߐ ߟߊ</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>ߡߌߣߍߣߊ ߞߊ ߟߊߖߍ</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>ߡߌߣߍߣߊ</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>ߡߊ ߡߌߣߍ</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>ߘߏߜ߳ߏߟߍ߲</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>ߦߍߟߌ</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>ߗߌߙߊ ߘߏ߲ ߡߌ߲ ߣߊ</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>ߛߌߕߌ ߘߏ߲ߘߊ ߏ ߘߏ߲ߘߊ</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>ߛߍߜ߳ߍߛߍߜ߳ߍߟߌ ߦߍ ߡߌ߲ ߛߍߓߍ߲ ߏ ߘߐߙߐ߲.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>ߛߌߛߊ߲: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>ߘߏ߲ߣߌ ߕߐߜ߳ߐ ߥߊߟߌߡߊ ߓߊߊߙߊߞߍߟߊ ID.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>ߛߍ߲ߛߍ߲</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>ߛߍ߲ߛߍ߲ߟߎ ߓߐߛߌ</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>ߝߍ߲ߟߎ</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from ߞߊ ߛߍ %to ߡߊ %count ߞߐߣߐ</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>ߝߍ߲ ߛߌ ߕߍ</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(ߞߊߟߊ߲ߣߊ %ms ߡߛ ߞߐߣߐ)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>ߞߍߥߊߟߍߟߎ ߝߍ߲ ߛߎߜ߳ߊ߲ߘߌߟߍ߲ߟߎ ߞߊ߲</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>ߢߍ ߌ߲ ߓߍߍ ߛߎߜ߳ߊ߲ߘߌ</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>%count ߛߎߜ߳ߊ߲ߘߌߟߍ߲</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>ߞߍߥߊߟߍ</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>ߞߍߥߊߟߍ ߘߐ ߛߎߜ߳ߊ߲ߘߌ</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>ߡߌߣߍߣߌ ߓߐ</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>ߡߌߣߍ ߞߊ ߟߊߖߍ</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>ߘߏߜ߳ߏ</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>ߖߌߙߊ</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>ߓߌߟߊ ߣߐߜ߳ߐߛߌߜ߳ߌߦߐߙߐ ߟߊ</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>ߖߐߛߌ</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>ߛߍߞߌߛߌߦߐ߲ ߘߌ</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>ߗߏߜ߳ߏߦߊ ߘߌ</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>ߛߊߓߊߓߎ</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>ߥߊߖߌߓߌ ߘߏ߲ ߞߊ ߡߌߣߍ; ߊ ߓߋ ߡߊߙߊ ߡߌߣߍߣߌ ߝߍ ߊߣߌ ߛߍߜ߳ߍߛߍߜ߳ߍߟߌ ߞߐߣߐ.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>ߛߍߞߌߛߌߦߐ߲ ߘߐ ߛߎߜ߳ߊ߲ߘߌ</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>ߗߏߜ߳ߏߦߊ</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>ߗߏߜ߳ߏߦߊ ߘߐ ߛߎߜ߳ߊ߲ߘߌ</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>ߊ ߞߍ ߛߎߜ߳ߊ߲ߘߌߟߍ߲ߟߎ ߣߊ</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>ߝߍ߲ ߞߍߟߍ߲ ߞߍߟߍ߲ ߓߋ ߟߊߖߍ ߌ ߦߍߙߍ ߞߊ ߦߊߡߊߙߎߦߊߟߎ ߟߊ. ߓߌߟߊߟߌ ߣߐߜ߳ߐߛߌߜ߳ߌߦߐߙߐ ߟߊ ߊߣߌ ߖߐߛߌߟߌ ߓߊ ߢߌߣߌ ߌ ߞߊ ߛߐ߲. ߣߌ ߝߍ߲ߟߎ ߞߊ ߗߊ ߣߌ %count ߦߍ, ߎ ߓߋ ߞߍ ߞߐߝߍ.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>ߛߎߜ߳ߊ߲ߘߌ</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>ߓߌߟߊߟߌ</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>ߗߌߙߊ ߦߐߙߐ</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>%name ߛߎߜ߳ߊ߲ߘߌ</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>ߊ ߡߊ ߞߍ ߝߐߟߐ</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(ߕߐߜ߳ߐ ߕߍ)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>ߓߙߎߦߐ߲</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>ߊ ߓߋ ߡߊߞߐߣߐߣߌ ߣߊ</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>ߊ ߝߊߊ ߦߍ ߊ ߘߏߜ߳ߏ</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>ߡߌߣߍߣߊ: ߗߌ ߞߎߙߊ</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>ߥߍߙߌߛߌߦߐ߲ %version ߓߋ ߡߊߞߐߣߐߣߌ ߣߊ</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>ߥߍߙߌߛߌߦߐ߲ %version ߓߋ ߓߊߊߙߊ ߟߊ</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>ߓߙߎߦߐ߲, ߥߍߙߌߛߌߦߐ߲ %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>ߥߍߙߌߛߌߦߐ߲ %version ߓߌߟߊߟߍ߲</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>ߟߊߓߍ߲ߣߊ %date ߞߊߡߊ</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>ߊߘߙߍߛߌ ߕߍ</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>ߡߊ ߛߍߓߍ߲</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>ߝߏߦߌ ߕߍ ߓߍ߲ ߛߍ߲ߛߍ߲ ߣߌ߲ߣߎ ߡߊ.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>ߓߍߍ ߖߌߙߊ</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>ߞߐߣߐߞߏ ߛߌ ߕߍ ߝߐߟߐ.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>ߢߍ ߞߍߟߍ߲ ߣߊ</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>ߝߍ߲ %count ߖߌߙߊ ߢߍ ߞߍߟߍ߲ ߣߊ.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says "not recorded".</source>
+        <translation>ߗߌ ߘߐ ߞߊ ߊߘߙߍߛߌ ߣߌ ߊ ߞߊ ߣߊߝ߭ߌߜ߳ߊߕߍߙߌ ߓߋ ߓߐ ߛߍߜ߳ߍߛߍߜ߳ߍߟߌ ߌ߲ߘߍߞߌߛߌ ߟߊ, ߡߌ߲ ߕߍ ߛߐߙߐ ߦߊ߲: ߞߏߟߐߣߌ ߓߊ ߝߐ ߞߏ "ߡߊ ߛߍߓߍ߲".</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>ߊߘߙߍߛߌ ߣߌ ߣߊߝ߭ߌߜ߳ߊߕߍߙߌ ߦߍ ߛߍߜ߳ߍߛߍߜ߳ߍߟߌ ߦߍ ߡߌ߲ߣߎ ߛߍߓߍ߲ ߝߍ߲ ߌ߲ ߞߊߡߊ (ߡߌߣߍߣߌ ߦߍߙߍߡߊ ߓߎ ߛߍߓߍ߲ ߕߎߡߊ ߓߍߍ; ߓߌߟߊߟߌ ߣߌ ߘߌߟߊ߲ߣߌ ߓߎ ߛߍߓߍ߲ ߦߐߙߐ ߡߌ߲ߣߎ ߣߊ ߊ ߓߐߙߊ ߦߍ߲ ߘߐߙߐ߲), ߌ ߣߊ ߝߐ ߊ ߞߊ ߜ߳ߎ߲ߘߏ ߟߊߓߍ߲ߟߎ ߓߎ ߡߊߙߊ ߗߏߜ߳ߏ ߡߌ߲ ߣߊ.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: ߝߍ߲ %count</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>ߖߐߛߌߟߌ ߓߋ ߝߍ߲ߟߎ ߓߐ ߔߍߥߎ, ߎ ߞߊ ߥߍߙߌߛߌߦߐ߲ߟߎ ߣߌ ߎ ߞߊ ߓߊߦߍߟߍߡߊߟߎ ߓߍߍ. ߊ ߕߍ ߛߍ ߞߊ ߛߍߜ߳ߌ߲ ߞߐ.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>ߝߍ߲ߟߎ ߓߋ ߕߊߊ ߣߐߜ߳ߐߛߌߜ߳ߌߦߐߙߐ ߟߊ, ߎ ߓߋ ߛߍ ߞߊ ߛߍߜ߳ߌ߲ ߞߊ ߓߐ ߦߍ߲.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>ߝߍ߲ ߞߍߟߍ߲ ߞߍߟߍ߲ ߓߋ ߟߊߖߍ ߌ ߦߍߙߍ ߞߊ ߦߊߡߊߙߎߦߊߟߎ ߟߊ; ߝߍ߲ ߡߌ߲ ߓߋ ߣߌ ߝߍ߲ ߘߐߜ߳ߐߡߊ߲ߟߎ ߦߍ, ߏ ߓߋ ߕߏ ߊ ߗߏߜ߳ߏ ߟߊ (ߊ ߓߐߛߌ ߞߐߣߐߞߏ ߖߐߗߏߜ߳ߏ ߟߊ). ߊ ߓߍߣߊ ߢߌߣߌ ߌ ߝߍ ߌ ߞߊ ߖߌߙߊ ߞߏ ߌ ߦߍߙߍ ߘߏ߲.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>ߣߌ߲ ߓߋ ߞߍ ߞߐߝߍ: ߊ ߕߊߊ ߢߍ ߓߋ ߦߍߟߍ, ߊߣߌ ߝߍ߲ ߞߍߟߍ߲ ߞߍߟߍ߲ ߖߊߊߓߌ ߓߋ ߖߌߙߊ ߣߊ ߓߊ߲ߣߊ.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>ߝߍ߲ ߛߎߜ߳ߊ߲ߘߌߟߍ߲ߟߎ</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>ߊߣߌ %count ߥߍߙߍ</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>ߘߊߓߌߟߊ</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>ߝߏߦߌ ߡߊ ߞߍ</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>ߛߊߓߊߓߎ: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>ߞߍߥߊߟߍ ߓߋ ߞߍ ߞߐߝߍ ߤߊߟߌ ߛߌߛߊ߲.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>ߊ ߕߊߊ ߢߍ</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>ߞߐߝߍ ߞߍߥߊߟߍ ߡߊ ߢߍ: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>ߊ ߓߊ߲ߣߊ</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>ߊ ߡߊ ߛߐ߲</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>ߊ ߡߊ ߢߍ</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>ߝߍ߲ ߞߍߟߍ߲ ߞߍߟߍ߲</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>ߝߍ߲</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>ߖߊߊߓߌ</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>ߡߎ߲ ߣߊ</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>ߛߍߜ߳ߌ߲ ߟߌߛߌ ߡߊ</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>ߟߊߓߍ߲ߣߌ</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>ߝߏߦߌ ߡߊ ߞߍ ߤߊߟߌ ߘߐߐߣߌ߲</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>ߛߐ߲</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>ߞߍߥߊߟߍ ߘߐ ߛߎߜ߳ߊ߲ߘߌ.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>ߝߍ߲ ߞߍߟߍ߲ ߛߎߜ߳ߊ߲ߘߌ ߊ ߘߐߜ߳ߐߦߊ ߟߊ.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>ߝߍ߲ 1000 ߘߐߙߐ߲ ߛߎߜ߳ߊ߲ߘߌ ߊ ߗߊߦߊ ߟߊ ߛߌߢߍ ߞߍߟߍ߲.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>ߊ ߝߐ ߝߍ߲ߟߎ ߡߌߣߍߣߊ ߡߎ߲ ߣߊ.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>ߛߍߞߌߛߌߦߐ߲ ߛߎߜ߳ߊ߲ߘߌ.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>ߗߏߜ߳ߏߦߊ ߛߎߜ߳ߊ߲ߘߌ.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>ߝߏߙߡߌߟߍߙߌ ߡߊ ߛߍ ߞߊ ߞߊߟߊ߲.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>ߞߎ߲ߣߊߝߏߣߌ ߕߊߓߟߏ</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>ߞߐߣߐߞߏ ߞߎߙߊߟߎ</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>ߖߊߕߍߟߎ ߡߊ ߛߍ ߞߊ ߞߊߟߊ߲: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>ߡߌߣߍߣߊ ߞߊ ߟߊߖߍ</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>ߞߎߙߊ ߓߌ</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>ߟߊߖߍߟߌ ߡߌߣߍߣߌ ߡߊ ߟߊߓߍ߲ ߝߐߟߐ (ߦߍߟߍߡߊߟߌ ߕߊߊߓߏߟߏ 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>ߞߐߣߐߞߏ ߞߎߙߊ ߓߍߍ</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>ߌ ߕߍ ߛߍ ߞߊ ߡߏߘߍߙߊߛߌߦߐ߲ ߞߍߥߊߟߍߟߎ ߞߍ (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>ߡߏߘߍߙߊߛߌߦߐ߲ ߞߍߥߊߟߍ ߡߊ ߘߊߝߊ: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>ߡߏߘߍߙߊߛߌߦߐ߲: %action ߏߓߖߍ %count ߞߊ߲</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%done ߏߓߖߍ %total ߟߊ: %ok ߓߊ߲ߣߊ, %refused ߡߊ ߛߐ߲, %failed ߡߊ ߢߍ</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok ߓߊ߲ߣߊ, %refused ߡߊ ߛߐ߲, %failed ߡߊ ߢߍ</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>ߊ ߕߍ ߦߍ߲ ߕߎߜ߳ߎ߲.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>ߦߐߙߐ ߛߌ ߕߊ ߝߍ (ߊ ߡߊ ߓߌߟߊ).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>ߌ ߕߍ ߛߍ ߞߊ ߘߏߜ߳ߏ (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>ߌ ߕߍ ߛߍ ߞߊ ߖߌߙߊ (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>ߊ ߘߏߜ߳ߏߟߍ߲ ߘߏ߲ ߞߊߓߊ߲.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>ߊ ߡߊ ߘߏߜ߳ߏ.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>ߘߏߜ߳ߏߟߍ߲.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>ߖߌߙߊߟߍ߲.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>ߊ ߓߋ ߣߐߜ߳ߐߛߌߜ߳ߌߦߐߙߐ ߟߊ: ߊ ߟߊ߲ߞߏߟߏ߲ ߥߊߟߌߡߊ ߊ ߛߍߜ߳ߌ߲ ߞߊ ߓߐ ߦߍ߲.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>ߓߙߎߦߐ߲ ߡߌ߲ ߡߊ ߓߌߟߊ ߊߓߊߘߊ, ߏ ߕߍ ߛߍ ߞߊ ߕߊߊ ߣߐߜ߳ߐߛߌߜ߳ߌߦߐߙߐ ߟߊ: ߊ ߖߐߛߌ.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>ߌ ߕߍ ߛߍ ߞߊ ߖߐߛߌ (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>ߖߐߛߌߟߍ߲.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>ߌ ߕߍ ߛߍ ߞߊ ߓߐߛߌ (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>ߝߍ߲ ߘߐߜ߳ߐߡߊ߲ߟߎ ߓߊ ߟߊ: ߊ ߓߐߛߌ ߞߐߣߐߞߏ ߖߐߗߏߜ߳ߏ ߟߊ, ߎ ߟߌߛߌ ߓߋ ߦߐߙߐ ߡߌ߲ ߣߊ.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>ߊ ߡߊ ߓߐߛߌ (ߓߊߊߙߊߛߌߙߊ ߘߐ ߓߋ ߛߍ ߞߊ ߓߐߛߌߟߌ ߡߌߣߍ).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>ߊ ߕߊߊߙߊ ߣߐߜ߳ߐߛߌߜ߳ߌߦߐߙߐ ߟߊ.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>ߛߍߞߌߛߌߦߐ߲ ߕߍ ߦߍ߲.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>ߊ ߓߋ ߛߍߞߌߛߌߦߐ߲ ߌ߲ ߣߊ ߞߊߓߊ߲.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>ߌ ߕߍ ߛߍ ߞߊ ߛߍߞߌߛߌߦߐ߲ ߌ߲ ߘߌ (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>ߛߍߞߌߛߌߦߐ߲ ߡߊ ߘߌ.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>ߛߍߞߌߛߌߦߐ߲ ߘߌߟߍ߲.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>ߗߏߜ߳ߏߦߊ ߕߍ ߦߍ߲.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>ߊ ߓߋ ߗߏߜ߳ߏߦߊ ߌ߲ ߣߊ ߞߊߓߊ߲.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>ߌ ߕߍ ߛߍ ߞߊ ߗߏߜ߳ߏߦߊ ߌ߲ ߘߌ (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>ߗߏߜ߳ߏߦߊ ߡߊ ߘߌ (ߓߊߊߙߊߛߌߙߊ ߘߐ ߓߋ ߛߍ ߞߊ ߦߍߟߍߡߊߟߌ ߡߌߣߍ).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>ߗߏߜ߳ߏߦߊ ߘߌߟߍ߲.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>ߞߍߥߊߟߍ ߛߎߜ߳ߎߦߊ ߕߍ ߦߍ߲.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>ߟߊߖߍߟߌ ߡߌߣߍߣߌ ߡߊ ߟߊߓߍ߲ (ߦߍߟߍߡߊߟߌ ߕߊߊߓߏߟߏ 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>ߊ ߝߐ ߊ ߡߌߣߍߣߊ ߡߎ߲ ߣߊ.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>ߊ ߡߌߣߍߣߊ ߞߊߓߊ߲.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>ߌ ߕߍ ߛߍ ߞߊ ߡߌߣߍ (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>ߡߌߣߍߣߌ ߡߊ ߞߍ (ߓߊߊߙߊߛߌߙߊ ߘߐ ߓߋ ߛߍ ߞߊ ߦߍߟߍߡߊߟߌ ߡߌߣߍ).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>ߡߌߣߍߣߊ.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>ߊ ߡߊ ߡߌߣߍ.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>ߌ ߕߍ ߛߍ ߞߊ ߓߌߟߊ (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>ߡߌߣߍߣߌ ߡߊ ߓߐ (ߓߊߊߙߊߛߌߙߊ ߘߐ ߓߋ ߛߍ ߞߊ ߦߍߟߍߡߊߟߌ ߡߌߣߍ).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>ߊ ߓߌߟߊߟߊ; ߊ ߘߏߜ߳ߏߟߍ߲ ߘߏ߲ ߤߊߟߌ ߓߌ: ߌ ߕߍ ߛߍ ߞߊ ߖߌߙߊ (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>ߊ ߓߌߟߊߟߊ.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>ߕߊ߯ߦߙߐ ߟߎ߬ ߓߍ߯</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>ߞߍߣߍߓߌߟߊߟߌ ߟߊߓߊ߲</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>ߌ ߟߊ߫ ߛߌߕߌ ߞߏߔߌ ߖߐߟߋ߲ ߝߊ߲߲ߝߊ߲߲ ߓߌߟߊ ߞߍߣߍ ߞߊ߲ GitHub Pages ߞߊ߲߬:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>ߞߐߜߍ ߞߐߘߐ ߟߎ߬</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>ߞߍߣߍߓߌߟߊߟߌ ߖߐߟߋ߲</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>ߞߍߣߍߓߌߟߊߟߌ ߖߐߟߋ߲ ߓߐ߫ ߓߊߙߊ ߟߊ߫.</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>ߕߊ߯ߦߙߐ</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>ߕߊ߯ߦߙߐ ߟߎ߬ ߡߊ߫ ߛߋ߫ ߞߊ߬ߙߊ߲߬: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>ߓߊߙߊ ߘߏ߫ ߦߋ߫ ߞߍ ߟߊ߫</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>ߟߊߘߊ߲ߠߌ ߝߛߍ߬ߝߛߍ߬ ߕߐ</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>ߣߌ߲߬ ߘߏߜ߳ߏ</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>ߕߊ߯ߦߙߐ ߟߊߘߊ߲</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>ߊߓߊߘߊ</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>ߞߊ߬ߙߊ߲ߛߓߍ ߞߊ߬ߙߊ߲߬</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>%added ߝߊ߬ߙߊ߬ߣߍ߲߫߸ %changed ߦߟߌߡߊߣߍ߲߫߸ %removed ߓߐߛߌߣߍ߲߫</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%bytes / %limit (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>%count ߥߙߍ߫ ߡߊ߫ ߛߓߍ߫ ߟߌߛߌ ߞߊ߲߬.</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>ߞߐߜߍ %pages ߛߓߍߣߍ߲߫</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path ߓߏ߲ߦߊ ߦߋ߫ %size ߘߌ߫߸ ߏ߬ ߦߋ߫ ߕߊߡߌ߲߫ ߤߐߛߌߕߌ ߦߋ߫ ߡߍ߲ ߟߊߘߌ߬ߢߍ߬ ߟߊ߫ ߝߌߛߌߦߋ ߞߋߟߋ߲ ߦߋ߫ ߘߋ߬.</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>ߘߊ߲ ߟߊ߫ %percent %</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds ߛ.</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag ߦߋ߫ ߞߍߣߍߓߌߟߊߟߌ ߟߋ߬ ߘߌ߫ ߡߍ߲ ߦߋ߫ ߛߌߕߌ ߟߊ߫ ߓߌ߬.</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: ߓߊߙߊ %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>/ߡߊߙߊߦߐߙߐ/ GitHub ߓߊ߯ߙߊߓߏ߲ ߛߌߕߌ ߦߋ߫; ߊ߬ ߟߊߟߊ߲ߞߏߟߏ߲߫ ߘߏߡߍ߲ ߞߙߍߞߙߍߣߍ߲ ߥߟߊ߫ ߓߊߙߊߞߍߟߊ ߛߌߕߌ ߦߋ߫.</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. ߛߌߕߌ</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. ߤߐߛߌߕߌ</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. ߘߏ߲ߠߌ ߡߊߙߊߦߐߙߐ ߘߐ߫</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. ߡߊߙߊߦߐߙߐ</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. ߛߌߙߌߟߊ߲ ߟߎ߬ ߣߌ߫ ߛߌߟߊ ߘߊߝߟߐ</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. ߌ ߖߘߍ߬ ߟߊ߫ ߘߏߡߍ߲</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. ߟߊߘߊ߲ߠߌ ߦߋ߫ ߡߍ߲ ߡߊߙߊ߫ ߟߊ߫</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. ߊ߬ ߦߋ߫ ߓߌߟߊ ߞߍߣߍ ߞߊ߲ ߕߎ߬ߡߊ ߡߍ߲</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. ߟߊߖߍ ߞߊ߬ ߡߊߙߊ߫</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>GitHub ߓߊ߯ߙߊߓߏ߲ ߛߌߕߌ ߦߋ߫ /&lt;repository&gt;/ ߘߎ߰ߞߟߏ ߟߋ߬; ߛߌߙߌߟߊ߲ ߡߊߛߙߋߣߍ߲ ߟߎ߬ ߦߋ߫ ߓߊߙߊ ߞߍ߫ ߟߊ߫ ߦߋ߲߬ ߣߌ߫ ߦߙߐ߫ ߓߍ߯ ߟߊ߫.</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>ߟߊߘߊ߲ߠߌ ߦߋ߫ %site ߞߐߜߍ ߓߍ߯ ߟߊߛߊ߬ ߟߊ߫ ߓߐ߲ߓߐ߲ߓߊ߯ ߡߍ߲ ߡߊ߫ ߘߏ߲߬ ߊ߬ ߦߋ߫ ߊ߬ ߦߋ߫ ߞߏ߫ ߡߍ߲ ߠߊ߫߸ ߊ߬ ߦߋ߫ ߛߌߙߌߟߊ߲ ߟߎ߬ ߛߓߍ߫ ߕߎ߲߯߸ ߊ߬ ߦߋ߫ ߝߌߛߌߦߋ ߟߎ߬ ߞߏߔߌ ߞߍ߫ ߊ߬ ߣߌ߫ ߞߐߝߟߍ ߛߓߍ߫ ߕߊ߯ߦߙߐ ߘߏߛߌߦߋ ߘߐ߫. ߝߏߦߌ߫ ߕߍ߫ ߓߌߟߊ ߞߍߣߍ ߞߊ߲ ߝߏ߫ ߌ ߞߊ߬ ߟߊߘߊ߲ߠߌ ߝߛߍ߬ߝߛߍ߬ ߞߊ߬ ߓߌߟߊ ߞߍߣߍ ߞߊ߲ ߘߌ߲߬.</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>cron ߝߐߟߌ߸ ߡߌ߬ߘߊ߬ߟߊ߫: 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>ߓߌߟߊߟߌ ߞߌߟߍ ߡߊߙߊߣߍ߲߫ ߜ߳ߎ߲ߘߏ %secret ߘߌ߫.</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>ߓߌߟߊߟߌ ߞߌߟߍ ߦߋ߫ ߛߌߜ߳ߌߟߌ ߣߌ߲߬ ߟߊߘߌ߬ߢߍ߬ ߟߊ߫ ߞߊ߬ ߗߌߟߌ ߞߍ߫ ߡߊߙߊߦߐߙߐ ߞߋߟߋ߲ ߘߐߙߐ߲ ߘߐ߫ SSH ߝߍ߬߸ ߦߙߐ߫ ߥߙߍ߫ ߕߍ߫. ߊ߬ ߝߊ߲߬ ߜ߳ߎ߲ߘߏ ߦߋ߫ ߕߏ߫ ߟߊ߫ ߟߊߓߍ߲ߣߌ &gt; ߜ߳ߎ߲ߘߏߟߎ ߘߐ߫; ߊ߬ ߝߊ߲߬ ߞߍߣߍ ߘߐߙߐ߲ ߠߋ߬ ߦߌ߬ߘߊ߬ߣߍ߲߫.</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>ߓߌߟߊߟߌ ߞߌߟߍ ߡߍ߲ ߟߊߘߊ߲ߣߍ߲ ߕߊ߯ߦߙߐ ߣߌ߲߬ ߦߋ߫</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>ߓߌߟߊߟߌ ߞߌߟߍ ߦߋ߫ ߘߏ߲߬ ߟߊ߫ SSH ߝߍ߬: git ߊߘߌߙߍߛߌ ߦߟߌߡߊ߫ SSH ߊߘߌߙߍߛߌ ߟߊ߫ (git@github.com:owner/repo.git).</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>ߓߊߙߊ ߘߏ߫ ߦߋ߫ ߞߍ ߟߊ߫߸ %user ߟߋ߬ ߓߘߊ߫ ߊ߬ ߘߊߡߌ߬ߣߍ߬</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>ߕߊ߯ߦߙߐ ߣߌ߲߬ ߓߊߙߊ ߘߏ߫ ߦߋ߫ ߞߍ ߟߊ߫ ߝߟߐ (%detail). ߡߊߞߐߣߐ߲߫ ߝߏ߫ ߊ߬ ߦߋ߫ ߓߊ߲߫.</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>ߕߊ߯ߦߙߐ ߣߌ߲߬ ߓߊߙߊ ߘߏ߫ ߦߋ߫ ߞߍ ߟߊ߫ ߝߟߐ. ߡߊߞߐߣߐ߲߫ ߝߏ߫ ߊ߬ ߦߋ߫ ߓߊ߲߫.</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>ߛߌߙߌߟߊ߲ ߡߍ߲ ߦߋ߫ ߞߐߜߍ /news/ ߟߊ߫ ߞߊ߬ ߕߊ߯ ߞߐߜߍ /about-us/team ߡߊ߬߸ ߏ߬ ߘߌ߫ ߛߓߍ߫ ߕߋ߲߬ ߣߌ߲߬ ߠߋ߬</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>ߓߌߟߊߟߌ ߞߌߟߍ ߞߎߘߊ߫ ߟߊߘߊ߲߫ ߘߊ߫. ߊ߬ ߝߊ߲߬ ߞߍߣߍ ߝߊ߬ߙߊ߬ ߡߊߙߊߦߐߙߐ ߞߊ߲߬ ߓߌ߬.</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>ߞߐߜߍ ߡߍ߲ ߦߋ߫ ߝߌߟߌ ߝߛߍ߬ߝߛߍ߬ߟߌ ߓߐߟߌ߸ ߝߐߙߡߎ ߕߏߞߍ߲ ߥߟߊ߫ ߛߍߛߌߦߐ߲ ID ߡߊߙߊ߫ ߟߊ߫ ߝߟߐ ߖߐ߰ߛߌ߰ߟߌ ߞߐ߫߸ ߏ߬ ߕߍ߫ ߓߌߟߊ ߞߍߣߍ ߞߊ߲ ߊߓߊߘߊ.</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>ߞߐ߫ ߟߊߛߋߟߌ ߦߋ߫ ߟߐ߲ߠߌߟߊ ߟߎ߬ ߟߊ߫ ߘߋ߬: «ߒ ߦߋ߫ ߊ߬ ߟߐ߲߫ ߣߌ߲߬ ߦߋ߫ ߡߍ߲ ߦߟߌߡߊ߫ ߟߊ߫» ߛߎߥߊߘߋ߫ ߞߊ߬ ߕߐߜ߳ߐ ߕߐ߮ ߛߓߍ߫ ߕߎ߲߯.</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>ߛߌߕߌ ߛߋ߫ ߘߊ߫ ߦߟߍ߬ ߝߏ߫ %site ߡߊ߬߸ ߝߌߛߌߦߋ ߞߋߟߋ߲ ߝߏ߫ %file ߡߊ߬߸ ߣߌ߫ ߕߊ߯ߡߊ߬ߙߊ߬ߟߌ ߦߋ߫ 100 GB ߟߊߝߎ߬ߢߊ߬ ߞߊߙߏ ߞߋߟߋ߲ ߞߐ߫. ߛߎ߲ߝߘߍ ߝߊ߲߲ߝߊ߲߲ ߞߊ߲߬߸ ߡߊߙߊߦߐߙߐ ߞߊ߫ ߞߊ߫ ߞߍߣߍ ߘߌ߫. GitHub Pages ߡߊ߫ ߟߊߘߊ߲߫ ߝߊ߲߬ߞߊ߫ ߟߎ߬ ߥߟߊ߫ ߖߊ߯ߞߏ ߥߙߍ߫ ߟߎ߬ ߦߋ߫.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>ߕߊ߯ߦߙߐ ߦߋ߫ ߛߌߕߌ ߞߋߟߋ߲ ߠߋ߬ ߘߌ߫ ߡߍ߲ ߓߌߟߊߣߍ߲߫ ߞߍߣߍ ߞߊ߲ git ߡߊߙߊߦߐߙߐ ߞߋߟߋ߲ ߘߐ߫. ߝߏߦߌ߫ ߕߍ߫ ߟߊߘߊ߲߫ ߥߟߊ߫ ߓߌߟߊ ߞߍߣߍ ߞߊ߲ ߦߊ߲߬: ߡߊߙߊ߫ ߦߋ߫ ߟߊߓߍ߲ߟߎ ߛߓߍ߫ ߟߊ߫ settings/override/staticcache.ini.append.php ߘߐ߫.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>ߕߊ߯ߦߙߐ ߦߋ߫ ߛߌߕߌ ߞߋߟߋ߲ ߠߋ߬ ߘߌ߫ ߡߍ߲ ߓߌߟߊߣߍ߲߫ ߞߍߣߍ ߞߊ߲ ߦߙߐ߫ ߞߋߟߋ߲ ߘߐ߫߸ ߡߌ߬ߘߊ߬ߟߊ߫: ߌ ߟߊ߫ ߛߌߕߌ ߞߍߣߍ GitHub Pages ߞߊ߲߬.</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>ߕߏߞߍ߲ ߡߍ߲ ߦߋ߫ ߟߊߓߍ߲ߣߌ &gt; ߜ߳ߎ߲ߘߏߟߎ ߘߐ߫</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>ߡߊߙߊߦߐߙߐ ߓߊߙߊߛߌߙߊ ߘߏ߫ ߦߋ߫ ߊ߬ ߓߌߟߊ ߟߊ߫ ߞߍߣߍ ߞߊ߲.</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>ߞߌߟߍ ߞߍߣߍ ߣߌ߲߬ ߝߊ߬ߙߊ߬ ߡߊߙߊߦߐߙߐ ߞߊ߲߬ ߣߌ߫ ߛߓߍߟߌ ߟߊߘߌ߬ߢߍ߬ߟߌ ߦߋ߫. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, Allow write access ߛߎߥߊߘߋ߫.</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>ߊ߬ ߝߊ߬ߙߊ߬ߣߍ߲߫</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>git ߤߐߛߌߕߌ ߥߙߍ߫</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>ߓߊߙߊ ߥߙߍ߫ ߦߋ߫ ߕߊ߯ߦߙߐ ߣߌ߲߬ ߞߍ ߟߊ߫: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>ߛߍߜ߳ߌ߲ ߞߐ</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>ߛߌߟߊ ߘߊߝߟߐ</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>ߢߍߝߍ</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>ߛߌߟߊ ߘߊߝߟߐ ߘߏ߫ ߘߎ߰ߞߟߏ</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>ߝߊ߲ߓߊ</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>ߛߌߙߌߟߊ߲ ߞߌߛߌߣߍ߲ ߟߎ߬</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>ߛߌߙߌߟߊ߲ ߞߌߛߌߣߍ߲ ߟߎ߬ ߟߊߘߊ߲ߠߌ ߘߐ߫</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>ߟߊߘߊ߲ߠߌ</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>ߟߊߘߊ߲ߠߌ %id߸ %user ߟߊ߫</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>%name ߟߊߘߊ߲</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>ߊ߬ ߟߊߘߊ߲߫ ߓߌ߬</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>ߟߊߘߊ߲ߠߌ ߝߛߍ߬ߝߛߍ߬ ߕߐ</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>ߡߐ߰ ߡߍ߲</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>ߓߟߏ߫ ߟߊ߫߸ ߦߊ߲߬</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>ߘߊߓߌߟߊ</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>ߦߍߟߍߡߊ</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>ߦߟߌߡߊߣߍ߲߫</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>ߦߍߟߍߡߊߟߌߟߎ</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>ߊ߬ ߝߛߍ߬ߝߛߍ߬ ߝߟߐ߫</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>ߟߊߓߍ߲ ߣߌ߲߬ ߠߎ߬ ߝߛߍ߬ߝߛߍ߬</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>ߟߊߘߊ߲ߠߌ ߦߋ߫ ߡߍ߲ ߦߟߌߡߊ߫ ߟߊ߫ ߏ߬ ߝߛߍ߬ߝߛߍ߬߸ ߊ߬ ߟߊߖߍ߫߸ ߏ߬ ߞߐ߫ ߞߊ߬ ߊ߬ ߓߌߟߊ ߞߍߣߍ ߞߊ߲ ߥߟߊ߫ ߞߊ߬ ߊ߬ ߝߌ߬ߟߌ߫.</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>ߞߍߣߍߓߌߟߊߟߌ ߡߍ߲ ߡߊ߬ ߌ ߘߌ߫ ߞߐ߫ ߟߊߛߋ߫߸ ߏ߬ ߛߎߥߊ߲ߘߌ߫.</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>ߊ߬ ߘߌ߫ ߣߊ߬ ߓߐߟߌ߫ ߣߊ߬ߕߊ ߘߏ߫ ߘߐ߫.</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>ߟߊߞߎ߲ߘߎߟߌ</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>ߟߊߞߎ߲ߘߎߟߌ ߟߎ߬</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>ߊ߬ ߦߋ߫ ߟߊߘߊ߲ߠߌ ߟߊߞߎ߲ߘߎ߫ ߟߊ߫߸ ߞߊ߬ ߕߐߜ߳ߐ ߘߏ߲߬ ߊ߬ ߟߊ߫ ߞߊ߬ ߊ߬ ߗߌ߫ %remote ߡߊ߬. ߗߌߟߌ ߕߍ߫ ߞߍ߫ ߝߊ߲߭ߞߊ߫ ߟߊ߫ ߊߓߊߘߊ; ߌ ߛߋ߫ ߘߌ߫ ߞߐ߫ ߟߊߛߋ߫ ߞߍߣߍߓߌߟߊߟߌ ߓߍ߯ ߡߊ߬ ߞߐ߫ ߡߊ߬.</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>ߘߏߛߌߦߋ ߢߍߝߍ ߘߌ߫ ߓߌߟߊ߫ ߢߐ߲߮ ߝߍ߬: %added ߝߊ߬ߙߊ߬ߣߍ߲߫߸ %changed ߦߟߌߡߊߣߍ߲߫߸ %removed ߓߐߛߌߣߍ߲߫߸ %unchanged ߡߊ߫ ߦߟߌߡߊ߫.</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>ߞߍߣߍߓߌߟߊߟߌ ߟߊߓߊ߲ ߓߌߟߊߣߍ߲߫ ߢߐ߲߮ ߝߍ߬.</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>ߘߏ߲ߠߌ ߞߎ߲ߣߊߝߏߣߌ</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>ߘߏߡߍ߲ ߞߙߍߞߙߍߣߍ߲</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>ߝߌߟߌ ߝߛߍ߬ߝߛߍ߬ߟߌ ߓߐߟߌ߸ ߝߐߙߡߎ ߕߏߞߍ߲ ߟߎ߬߸ ߛߍߛߌߦߐ߲ ID ߟߎ߬ ߣߌ߫ nonce ߟߎ߬ ߦߋ߫ ߓߐ߫ ߟߊ߫ ߕߎ߬ߡߊ ߓߍ߯.</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>ߓߌߟߊߟߌ ߞߌߟߍ</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>%name ߓߌߟߊߟߌ ߞߌߟߍ</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>ߊ߬ ߝߌ߬ߟߌ߫</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>ߟߊߘߊ߲ߠߌ ߝߌ߬ߟߌ߫</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>ߘߏߡߍ߲</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>ߊ߬ ߟߊߟߊ߲ߞߏߟߏ߲߫: ߛߌߕߌ ߊߘߌߙߍߛߌ. ߣߴߏ߬ ߕߍ߫߸ ߛߌߕߌ ߞߋߟߋ߲ ߣߌ߲߬ ߞߣߐߟߊ߫ ߊߘߌߙߍߛߌ.</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>ߓߊ߲ߣߍ߲߫</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>ߛߌߙߌߟߊ߲ ߓߍ߯ ߦߋ߫ ߘߊߡߌ߬ߣߍ߬ ߟߊ߫ ߛߌߟߊ ߘߊߝߟߐ ߟߋ߬ ߡߊ߬.</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>ߞߍߣߍߓߌߟߊߟߌ ߓߍ߯ ߦߋ߫ ߟߊߞߎ߲ߘߎߟߌ ߘߌ߫ ߣߌ߫ ߕߐߜ߳ߐ static/%id/&lt;n&gt; ߦߋ߫. ߞߐ߫ ߟߊߛߋߟߌ ߦߋ߫ ߟߊߞߎ߲ߘߎߟߌ ߞߎߘߊ߫ ߟߊߘߊ߲߫ ߟߊ߫ ߞߍߣߍߓߌߟߊߟߌ ߢߍߝߍ ߝߌߛߌߦߋ ߟߎ߬ ߟߊ߫: ߕߊߙߌߞߎ ߦߋ߫ ߕߏ߫ ߟߊ߫߸ ߕߐߜ߳ߐ߫ ߕߍ߫ ߟߊߥߎߟߌ߫ ߊ߬ ߣߌ߫ ߝߏߦߌ߫ ߕߍ߫ ߞߍ߫ ߝߊ߲߭ߞߊ߫ ߟߊ߫.</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>ߝߌߛߌߦߋ ߝߊ߬ߙߊ߬ߣߍ߲ ߟߎ߬</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>ߞߐߜߍ ߟߎ߬ ߟߊߛߊ߬ ߦߊ߲߬ ߘߐ߫</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>ߝߌߛߌߦߋ</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>ߝߌߛߌߦߋߟߎ</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>ߝߌߛߌߦߋ ߝߘߎߣߍ߲ ߟߎ߬</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>ߝߌߛߌߦߋߟߎ ߡߍ߲ ߦߋ߫</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>ߝߌߛߌߦߋ ߡߍ߲ ߠߎ߬ ߡߊ߫ ߛߋ߫ ߟߊߘߍ߬ ߟߊ߫</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>ߓߏߟߏߞߐ߲ߣߌ ߕߊߡߊߛߌߦߍ߲</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>ߘߏߛߌߦߋ</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>SSH ߊߘߌߙߍߛߌ ߦߋ߫. ߞߌߟߍ ߦߋ߫ ߟߊߘߊ߲߫ ߠߊ߫ ߡߊߙߊߟߌ ߞߐ߫; ߌ ߦߋ߫ ߊ߬ ߝߊ߲߬ ߞߍߣߍ ߝߊ߬ߙߊ߬ ߟߊ߫ ߡߊߙߊߦߐߙߐ ߞߊ߲߬.</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>https:// ߊߘߌߙߍߛߌ ߦߋ߫. GitHub: ߕߏߞߍ߲ ߢߊ߬ߣߍ߲ ߡߍ߲ ߦߋ߫ Contents ߞߊ߬ߙߊ߲߬ߠߌ ߣߌ߫ ߛߓߍߟߌ ߟߊߘߌ߬ߢߍ߬ ߟߊ߫ ߡߊߙߊߦߐߙߐ ߞߊ߲߬.</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>ߟߐ߲ߠߌߟߊ ߟߎ߬ ߟߊ߫ ߘߋ߬. ߛߌߕߌ ߞߍߣߍ ߦߋ߫ ߦߟߌߡߊ߫ ߟߊ߫ ߗߌߟߌ ߓߊ߲ ߓߊ߲߫ ߟߊ߫ ߘߋ߬.</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>ߝߐߙߡߎ ߟߎ߬</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>ߤߐߛߌߕߌ ߝߊ߲߲ߝߊ߲߲ GitHub ߡߊߙߊߦߐߙߐ ߘߐ߫.</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>ߝߊ߲ߓߊ ߘߐ߫</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>Git ߊߘߌߙߍߛߌ</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages ߦߋ߫ ߛߌߕߌ %site ߣߌ߫ ߝߌߛߌߦߋ %file ߟߊߘߌ߬ߢߍ߬ ߟߊ߫.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>GitHub Pages ߘߊ߲ ߟߎ߬</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages ߦߋ߫ ߝߌߛߌߦߋ ߟߎ߬ ߓߌߟߊ ߟߊ߫ ߞߍߣߍ ߞߊ߲ ߌ ߞߏ߫ ߏ߬ ߟߎ߬ ߦߋ߫ ߡߍ߲ ߠߊ߫ (ߏ߬ ߦߋ߫ ߝߏ߬ߟߌ߬ ߝߌߛߌߦߋ ߟߎ߬ ߟߊ߫ ߡߍ߲ ߠߎ߬ ߦߋ߫ ߘߊߡߌ߬ߣߍ߬ ߟߊ߫ _ ߟߊ߫).</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub ߦߋ߫ ߝߊ߲ߓߊ ߘߌ߫ ߟߊ߫ ߌ ߞߏ߫ ߊ߬ ߗߌߣߍ߲߫ ߞߏ߫ ߡߍ߲ ߠߊ߫. ߛߊߙߌߦߊߟߋ߲.</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, ߌ ߖߘߍ߬ ߟߊ߫ ߛߍߙߌߥߍߙߌ: git ߡߊߙߊߦߐߙߐ ߝߘߏ߬.</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>ߞߐ߫ ߟߊߛߋ߫ ߞߍߣߍߓߌߟߊߟߌ ߢߍߝߍ ߡߊ߬</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>ߘߍߡߍ</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>ߘߍߡߍߓߊߟߌ ߟߊߓߟߏߟߊߟߌ ߟߊ߫</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>ߏ߬ ߟߎ߬ ߘߏߜ߳ߏ</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>ߕߊߙߌߞߎ</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>%name ߕߊߙߌߞߎ</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>ߤߐߛߌߕߌ</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>GitHub Pages ߦߋ߫ ߟߊߘߊ߲ߠߌ ߡߊߛߐ߬ߘߐ߲߬ ߟߊ߫ ߡߎ߬ߣߎ߲߬</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>ߒ ߓߘߊ߫ ߦߍߟߍߡߊߟߌߟߎ ߝߛߍ߬ߝߛߍ߬</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>ߒ ߦߋ߫ ߊ߬ ߟߐ߲߫ ߣߌ߲߬ ߦߋ߫ ߡߍ߲ ߦߟߌߡߊ߫ ߟߊ߫</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>ߊ߬ ߓߐ߫ ߓߊߙߊ ߟߊ߫: ߝߏߦߌ߫ ߕߍ߫ ߛߋ߫ ߟߊߘߊ߲߫ ߠߊ߫ ߝߏ߫ ߊ߬ ߦߋ߫ ߓߌߟߊ߫ ߓߊߙߊ ߟߊ߫.</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>ߊ߬ ߦߋ߫ ߓߏߟߌ ߟߊ߫ ߞߐߝߍ ߟߊ߫ %user ߘߌ߫; ߌ ߛߋ߫ ߘߌ߫ ߞߐߜߍ ߣߌ߲߬ ߘߊߕߎ߲߯.</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>ߓߊߙߊ %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>ߊ߬ ߡߊߙߊߣߍ߲߫ ߜ߳ߎ߲ߘߏ %secret ߘߌ߫.</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>ߛߎߜ߳ߎߦߊ</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>ߞߍߣߍߓߌߟߊߟߌ ߟߊߓߊ߲</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>ߞߐߜߍ ߣߌ߲߬ ߠߎ߬ ߓߐ߫ ߞߊ߲߬</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>ߛߍߞߌߛߌߦߐ߲ ߣߌ߲߬ ߠߎ߬ ߓߐ߫ ߞߊ߲߬</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>ߛߌߙߌߟߊ߲ߟߎ</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>ߛߌߙߌߟߊ߲ ߛߓߍߣߍ߲߫ ߕߎ߲߯ ߟߎ߬</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>ߛߌߕߌ ߞߍߣߍ</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>ߟߊߘߊ߲ߠߌ ߟߊߖߍ߫</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>ߛߓߍߘߋ߲ ߘߐ߯ߡߊ߲ ߠߎ߬߸ ߖߙߎߡߎ ߟߎ߬߸ _ ߣߌ߫ -߸ ߡߌ߬ߘߊ߬ߟߊ߫ github-public. ߊ߬ ߦߋ߫ ߘߏߛߌߦߋ ߣߌ߫ ߕߐߜ߳ߐ ߟߎ߬ (static/&lt;id&gt;/&lt;n&gt;) ߕߐ߮ ߟߊߘߊ߲߫ ߠߊ߫߸ ߊ߬ ߕߍ߫ ߛߋ߫ ߦߟߌߡߊ߫ ߟߊ߫ ߞߐ߫ ߡߊ߬.</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>ߞߌߟߍ ߞߎߘߊ߫ ߟߊߘߊ߲</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>ߕߊ߯ߦߙߐ ߟߊߘߊ߲</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>ߞߌߟߍ ߟߊߘߊ߲</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>ߡߊߙߊߦߐߙߐ ߟߊߘߊ߲߫ ߤߐߛߌߕߌ ߞߊ߲߬ ߝߟߐ߫; ߟߊߟߊ߲ߞߏߟߏ߲ߣߍ߲ ߝߣߊ߫ ߓߍ߲߬ ߘߊ߫.</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>ߡߊߣߌߝߍߛߌ</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>ߗߌߞߊ߲</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>ߞߐߜߍ ߛߌߦߊߡߊ߲ ߠߎ߬</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>ߕߐ߮</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>ߕߏߞߍ߲ ߕߐ߮ ߟߊߓߍ߲ߣߌ &gt; ߜ߳ߎ߲ߘߏߟߎ ߘߐ߫</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>ߕߊ߯ߦߙߐ ߞߎߘߊ</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>ߣߊߕߊ</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>ߊߦߌ</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>ߟߊߞߎ߲ߘߎߟߌ߫ ߕߍ߫ ߦߋ߲߬ ߝߟߐ.</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>ߞߌߟߍ߫ ߕߍ߫ ߟߊߘߊ߲߫: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>php ߞߎߡߊߘߐߓߊ ߓߊߙߌߞߊ߫ ߡߊ߫ ߛߐ߬ߘߐ߲߬. migration.ini [AdminSettings] PhpCliPath ߛߌߜ߳ߌ߫ ߊ߬ ߛߌߟߊ ߘߝߊߣߍ߲ ߡߊ߬.</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>ߕߐߜ߳ߐ߫ ߕߍ߫ ߦߋ߲߬ ߝߟߐ.</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>ߕߊ߯ߦߙߐ߫ ߕߍ߫ ߦߋ߲߬ ߝߟߐ.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>ߝߏߦߌ</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>ߊ߬ ߕߍ߫ ߟߊߘߊ߲ߠߌ ߘߐ߫.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>ߝߏߦߌ߫ ߡߊ߫ ߓߌߟߊ߫ ߞߍߣߍ ߞߊ߲ ߝߟߐ.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>ߝߏߦߌ߫ ߡߊ߫ ߓߌߟߊ߫ ߞߍߣߍ ߞߊ߲ ߝߟߐ: ߝߌߛߌߦߋ ߓߍ߯ ߦߋ߫ ߞߎߘߊ߫ ߘߌ߫.</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>ߊ߬ ߝߐ߫</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>ߥߊߕߌ ߛߌߜ߳ߌߟߍ߲ ߞߊ߲߬</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>ߞߐ߲ߛߐߟߌ ߞߊ߲߬</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>ߛߍߙߌߥߍߙߌ ߞߊ߲߬: ./console exp:static:serve %id ߦߋ߫ ߊ߬ ߘߌ߫ ߟߊ߫ ߞߍߢߊ߫ ߞߋߟߋ߲ ߠߋ߬ ߝߍ߬.</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>ߛߌߟߊ ߞߋߟߋ߲ ߛߍߓߍ߲ߛߏ ߞߋߟߋ߲ ߞߋߟߋ߲ ߞߊ߲߬߸ * ߦߋ߫ ߝߊ߲߬ ߓߍ߯ ߢߐ߲߰ߦߊ߫ ߟߊ߫: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>ߕߐ߮ ߘߐߙߐ߲ ߠߋ߬ ߡߊߙߊߣߍ߲߫ ߕߊ߯ߦߙߐ ߞߐ߫; ߕߏߞߍ߲ ߥߟߊ߫ ߞߌߟߍ ߖߘߍ߬ ߦߋ߫ ߕߏ߫ ߟߊ߫ ߟߊߓߍ߲ߣߌ &gt; ߜ߳ߎ߲ߘߏߟߎ ߘߐ߫߸ ߊ߬ ߕߍ߫ ߦߌ߬ߘߊ߫ ߛߓߍߟߌ ߘߐ߫ ߊߓߊߘߊ.</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>ߞߐߜߍ ߟߎ߬ ߦߋ߫ ߡߍ߲ ߝߐ߫ ߟߊ߫ ߏ߬ ߘߐߙߐ߲</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>ߕߏߞߍ߲ ߘߐߙߐ߲ ߞߐ߫. env:NAME ߦߋ߫ ߛߍߙߌߥߍߙߌ ߓߊߙߊߦߐߙߐ ߝߊ߬ߘߌ߬ߓߊ߰ ߘߏ߫ ߞߊ߬ߙߊ߲߬ ߠߊ߫ ߏ߬ ߣߐ߬ ߘߐ߫.</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>ߢߍߝߍߟߊߖߍ ߟߊߞߊ߬</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>ߊ߬ ߦߋ߫ ߟߊߘߊ߲ߠߌ ߟߊߞߊ߬ ߟߊ߫ ߌ ߞߏ߫ ߤߐߛߌߕߌ ߘߌ߫ ߊ߬ ߘߌ߫ ߞߏ߫ ߡߍ߲ ߠߊ߫߸ ߕߊ߯ߦߙߐ ߘߏߛߌߦߋ ߘߐ߫. ߛߌߙߌߟߊ߲ ߦߋ߫ ߓߊߙߊ ߞߍ߫ ߟߊ߫ ߌ ߦߋ߫ ߕߎ߬ߡߊ߬ߙߋ߲߬ ߞߋߟߋ߲ ߘߐ߫.</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>ߣߊߕߊߓߊߟߌ. ߟߊߟߊ߲ߞߏߟߏ߲ߣߍ߲: ߡߍ߲ ߓߌߟߊߣߍ߲߫ ߞߍߣߍ ߞߊ߲.</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>ߣߊߕߊߓߊߟߌ. ߘߏߡߍ߲ ߦߋ߫߸ ߛߌߕߌ ߦߋ߫ ߘߌ߫ ߟߊ߫ ߊ߬ ߘߎ߰ߡߊ߬.</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>ߓߐߟߌ</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>ߞߐߜߍ ߟߎ߬</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>ߕߊ߯ߦߙߐ ߞߐߜߍ ߟߎ߬</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>ߞߐߜߍ ߓߊ߲߬ߣߍ߲ ߠߎ߬</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>ߞߐߝߍ ߓߊߙߊ</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>ߢߍߝߍߟߊߖߍ</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>ߢߍߝߍߟߊߖߍ ߣߌ߫ ߞߍߣߍߓߌߟߊߟߌ</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>%name ߢߍߝߍߟߊߖߍ ߣߌ߫ ߞߍߣߍߓߌߟߊߟߌ</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>ߟߊߘߊ߲ߠߌ ߢߍߝߍߟߊߖߍ</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>ߢߍߕߊ</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>ߊߘߌߙߍߛߌ ߞߍߣߍ</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>ߞߌߟߍ ߞߍߣߍ</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>ߓߌߟߊ ߞߍߣߍ ߞߊ߲</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>ߛߌߕߌ ߞߏߔߌ ߖߐߟߋ߲ ߓߌߟߊ ߞߍߣߍ ߞߊ߲ GitHub Pages ߥߟߊ߫ git ߤߐߛߌߕߌ ߝߘߏ߬ ߞߊ߲߬: ߊ߬ ߟߊߘߊ߲߫߸ ߦߍߟߍߡߊߟߌߟߎ ߝߛߍ߬ߝߛߍ߬߸ ߊ߬ ߓߌߟߊ ߞߍߣߍ ߞߊ߲߸ ߊ߬ ߣߌ߫ ߞߐ߫ ߟߊߛߋ߫ ߞߍߣߍߓߌߟߊߟߌ ߢߍߝߍ ߡߊ߬ ߣߌ߫ ߊ߬ ߡߊߗߏ߲߬ߣߍ߲߫.</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>ߞߍߣߍߓߌߟߊߟߌ ߡߍ߲ ߡߊ߬ ߞߐ߫ ߟߊߛߋ߫</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>ߞߍߣߍߓߌߟߊߟߌ ߟߎ߬</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>ߗߌߟߌ</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>ߞߊ߬ߙߊ߲ߛߓߍ ߞߊ߬ߙߊ߲߬</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>ߛߓߍߦߊ</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>ߓߊ߲߬ߣߍ߲߫</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>ߡߊߛߙߋߣߍ߲</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>ߊ߬ ߟߊߛߊ߬ ߕߎ߲߯</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>ߓߐߛߌߟߍ߲</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>ߞߌߟߍ ߝߊߟߋ߲߫: ߞߐߘߐ ߕߍ߫ ߓߊߙߊ ߞߍ߫ ߟߊ߫ ߕߎ߲߫</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>ߟߊߞߏߝߐ</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>ߟߊߘߊ߲ߠߌ ߟߊߞߏߝߐ</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>ߡߊߙߊߦߐߙߐ</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>ߟߊߖߍ</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>ߟߊߖߍߟߌ ߦߋ߫ ߟߊߓߍ߲ ߓߍ߯ ߝߛߍ߬ߝߛߍ߬ ߟߊ߫ ߞߊ߬ ߛߍߓߍ߲ߛߏ ߡߍ߲ ߠߎ߬ ߛߓߍ߫ ߕߋ߲߬ ߏ߬ ߟߎ߬ ߦߌ߬ߘߊ߫. ߝߏߦߌ߫ ߡߊ߫ ߡߊߙߊ߫ ߝߟߐ.</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>ߞߐ߫ ߟߊߛߋ߫</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>ߞߐ߫ ߟߊߛߋߟߌ</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>ߡߊߙߊ</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>ߥߊߕߌ ߛߌߜ߳ߌߟߍ߲</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>ߢߌߣߌ ߞߐߜߍ</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>ߛߍߞߌߛߌߦߐ߲ ID ߟߎ߬߸ ߞߊ߬ ߓߐ߫ ߢߐ߲߮ ߘߐ߫ ߓߊ߲߬ߘߊ߬ߟߌ߬ ߟߎ߬ ߝߍ߬.</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>ߏ߬ ߟߎ߬ ߗߋ߫ ߛߌߕߌ ߞߍߣߍ ߡߊ߬</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>ߟߊߓߍ߲</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>ߟߊߓߍ߲ߟߎ</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>%name ߟߊߓߍ߲ߟߎ</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>ߟߊߓߍ߲ߣߌ</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>ߟߊߓߍ߲ߣߌ &gt; ߜ߳ߎ߲ߘߏߟߎ</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>ߊ߬ ߦߌ߬ߘߊ߬ߣߍ߲߫ ߟߌߛߌ ߟߎ߬ ߘߐ߫߸ ߡߌ߬ߘߊ߬ߟߊ߫ «ߛߌߕߌ ߞߍߣߍ GitHub Pages ߞߊ߲߬».</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>ߘߏ߲ߠߌ GitHub App ߝߍ߬ ߘߌ߫ ߣߊ߬ ߣߌ߫ GitHub ߓߍ߲߬ߢߐ߲߰ߦߊ ߘߌ߫.</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>ߛߌߕߌ</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>ߛߌߕߌ ߡߍ߲ ߓߌߟߊ ߟߊ߫ ߞߍߣߍ ߞߊ߲</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>ߓߏ߲ߦߊ</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>ߓߏ߲ߦߊ ߣߌ߫ ߘߊ߲ ߟߎ߬</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>ߟߊߘߊ߲ߠߌ ߓߏ߲ߦߊ</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>ߞߐߜߍ ߞߐߘߐ ߟߎ߬</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>ߘߊߡߌߣߍߣߊ</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>%user ߟߋ߬ ߓߘߊ߫ ߊ߬ ߘߊߡߌ߬ߣߍ߫ %time.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>ߖߊ߯ߓߌ</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>ߞߍߣߍߓߌߟߊߟߌ ߖߐߟߋ߲</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>ߞߍߣߍߓߌߟߊߟߌ ߖߐߟߋ߲ ߓߐ߫ ߓߊߙߊ ߟߊ߫</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>ߞߍߣߍߓߌߟߊߟߌ ߖߐߟߋ߲ ߓߐ߫ ߓߊߙߊ ߟߊ߫.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>ߞߍߣߍߓߌߟߊߟߌ ߖߐߟߋ߲ ߓߐ߫ ߓߊߙߊ ߟߊ߫. ߊ߬ ߓߌߟߊ߫ ߓߊߙߊ ߟߊ߫ ߟߊߓߍ߲ߣߌ &gt; ߞߍߣߍߓߌߟߊߟߌ ߖߐߟߋ߲ ߘߐ߫ ߝߟߐ߫.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>ߞߍߣߍߓߌߟߊߟߌ ߖߐߟߋ߲ ߓߌߟߊߣߍ߲߫ ߓߊߙߊ ߟߊ߫.</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>ߛߌߙߊ %step / %total</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>ߛߍ߲ߣߊߟߎ</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>ߖߐ߰ߛߌ߰ߟߌ</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>ߓߐ ߓߊߙߊ ߟߊ</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>ߓߌߟߊ ߓߊߙߊ ߟߊ</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>ߞߍߣߍߓߌߟߊߟߌ ߖߐߟߋ߲ ߓߌߟߊ߫ ߓߊߙߊ ߟߊ߫</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>ߕߐߜ߳ߐ</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>ߕߐߜ߳ߐ ߟߎ߬</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>ߕߊ߯ߦߙߐ</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>ߕߊ߯ߦߙߐ ߟߎ߬ ߛߋ߫ ߟߊߘߊ߲߫ ߠߊ߫ ߞߊ߬ ߦߟߌߡߊ߫߸ ߝߏߦߌ߫ ߕߍ߫ ߟߊߘߊ߲߫ ߥߟߊ߫ ߓߌߟߊ ߞߍߣߍ ߞߊ߲ ߝߏ߫ ߊ߬ ߦߋ߫ ߓߌߟߊ߫ ߓߊߙߊ ߟߊ߫.</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>ߊ߬ ߦߋ߫ ߢߌߣߌߟߊ߲ ߠߎ߬ ߟߊߟߐ߲߫ ߠߊ߫ ߏ߬ ߟߎ߬ ߦߋ߫ ߡߍ߲ ߞߊ߬ߙߊ߲߬.</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>ߟߊߘߊ߲ߠߌ ߡߊ߫ ߛߋ߫ ߝߌ߬ߟߌ߫ ߟߊ߫: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>ߟߊߘߊ߲ߠߌ ߣߌ߫ ߞߍߣߍߓߌߟߊߟߌ ߟߊߓߊ߲ ߦߋ߫ ߞߋߟߋ߲ ߘߌ߫: ߝߏߦߌ߫ ߕߍ߫ ߦߋ߲߬ ߞߊ߬ ߓߌߟߊ ߞߍߣߍ ߞߊ߲.</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>ߟߊߘߊ߲ߠߌ ߝߌ߬ߟߌ߬ ߘߊ߫: ߞߍߣߍߓߌߟߊߟߌ ߟߊߓߊ߲ ߦߋ߫ ߘߏߛߌߦߋ ߘߐ߫ ߕߎ߲߯.</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>ߛߊߙߌߦߊߟߋ߲ ߟߎ߬ ߓߍ߲߬ ߛߌߕߌ ߛߌߦߊߡߊ߲ ߡߊ߬.</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>ߟߊߘߊ߲ߠߌ ߡߍ߲ ߡߊ߫ ߓߌߟߊ߫ ߞߍߣߍ ߞߊ߲ ߝߟߐ߸ ߏ߬ ߦߋ߫ ߘߏߛߌߦߋ ߘߐ߫; ߟߊߘߊ߲ߠߌ ߞߎߘߊ߫ ߦߋ߫ ߊ߬ ߝߊߟߋ߲߫ ߠߊ߫.</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>ߓߊߙߊ ߟߎ߬ ߘߏߛߌߦߋ ߕߍ߫ ߛߋ߫ ߛߓߍ߫ ߟߊ߫: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>ߓߊߙߊ ߡߊ߫ ߛߋ߫ ߟߊ߫ ߓߍ߲߬ ߟߊ߫: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>ߓߊߙߊ ߡߊ߫ ߛߋ߫ ߘߊߡߌ߬ߣߍ߬ ߟߊ߫.</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>ߓߊߙߊ ߓߊ߲߫ ߘߊ߫. ߊ߬ ߟߊߞߏߝߐ ߟߊߛߊ߬ߟߌ߬ ߦߋ߫ ߞߍ ߟߊ߫.</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>ߓߊߙߊ ߦߋ߫ ߓߊߙߊߞߍߟߊ ߘߏ߲߬ߣߍ߲ ߠߋ߬ ߝߍ߬.</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>ߓߊߙߊ ߘߊߡߌ߬ߣߍ߬ ߘߊ߫ ߞߏ߫ ߊ߬ ߡߊ߫ ߊ߬ ߟߊ߫ ߓߊߙߊ ID ߝߐ߫. %detail ߝߛߍ߬ߝߛߍ߬.</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>ߞߌߟߍ</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>ߝߌߛߌߦߋ ߓߏ߲ߓߊ: %path, %size.</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>ߛߍߓߍ߲ߛߏ ߡߍ߲ ߠߎ߬ ߛߓߍ߫ ߕߋ߲߬</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>ߞߐߜߍ ߟߎ߬ ߟߌߛߌ ߢߌߣߌߟߊ߲ ߠߎ߬ ߦߋ߫; ߊ߬ ߦߋ߫ ߊߘߌߙߍߛߌ ߞߍߣߍ ߝߍ߬.</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>ߞߐߜߍ ߟߎ߬ ߦߋ߫ ߟߊߛߊ߬ ߟߊ߫ ߓߐ߲ߓߐ߲ߓߊ߯ ߡߍ߲ ߡߊ߫ ߘߏ߲߬ ߊ߬ ߦߋ߫ ߏ߬ ߟߎ߬ ߦߋ߫ ߞߏ߫ ߡߍ߲ ߠߊ߫. ߞߎ߲ߠߊߛߌߟߌ ߣߌ߫ ߡߊߦߟߍߡߊ߲ siteaccess ߟߎ߬ ߕߍ߫ ߘߌ߫ ߊߓߊߘߊ.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>ߢߍߕߊ ߡߊ߫ ߛߋ߫ ߟߊߕߓߊ߰ ߟߊ߫. ߞߐߜߍ ߟߊߛߊ߬ ߕߎ߲߯ ߞߊ߬ ߓߊߙߊ ߤߊߟߌ ߦߋ߫.</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>ߞߌߟߍ ߝߊ߲߬ ߞߍߣߍ:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>ߝߊ߲ߓߊ ߘߎ߰ߡߊ</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>ߜ߳ߎ߲ߘߏ ߡߊߙߊߦߐߙߐ ߡߊ߫ ߟߊߓߍ߲߫ ߝߟߐ (./console exp:upgrade --apply ߦߋ߫ ߊ߬ ߥߊߟߊ ߟߊߘߊ߲߫ ߠߊ߫)߸ ߏ߬ ߘߐ߫ ߞߌߟߍ߫ ߕߍ߫ ߛߋ߫ ߡߊߙߊ߫ ߟߊ߫.</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>ߛߍߙߌߥߍߙߌ ߖߘߍ߬ ߦߋ߫ ߘߏ߲߬ ߟߊ߫ (ߊ߬ ߖߘߍ߬ ߟߊ߫ SSH ߞߌߟߍ ߥߟߊ߫ ߘߏ߲ߠߌ ߞߎ߲ߣߊߝߏߣߌ ߘߍߡߍߓߊ߯)߸ ߥߟߊ߫ ߡߊߙߊߦߐߙߐ ߦߋ߫ ߛߍߙߌߥߍߙߌ ߣߌ߲߬ ߠߋ߬ ߞߊ߲߬.</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>ߟߊߓߍ߲ ߡߊ߫ ߛߋ߫ ߛߓߍ߫ ߟߊ߫: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>ߟߊߓߍ߲ ߟߎ߬ ߓߍ߲߬ ߘߊ߫. ߛߍߓߍ߲ߛߏ ߣߌ߲߬ ߠߎ߬ ߛߓߍ߫ ߕߋ߲߬:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>ߟߊߓߍ߲ ߝߌߛߌߦߋ ߕߍ߫ ߛߋ߫ ߞߊ߬ߙߊ߲߬ ߠߊ߫: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>ߛߌߕߌ ߦߋ߫ ߞߐ߫ ߟߊߛߋ߫ ߟߊ߫ ߞߍߣߍߓߌߟߊߟߌ ߣߌ߲߬ ߝߌߛߌߦߋ ߟߎ߬ ߡߊ߬; ߟߊߘߊ߲ߠߌ ߡߍ߲ ߡߊ߫ ߓߌߟߊ߫ ߞߍߣߍ ߞߊ߲ ߝߟߐ߸ ߏ߬ ߞߊ߫ ߞߊ߫ ߓߌߟߊ ߞߍߣߍ ߞߊ߲ ߥߟߊ߫ ߞߊ߬ ߝߌ߬ߟߌ߫ ߝߟߐ߫.</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>ߛߌߕߌ ߖߘߍ߬ ߟߊ߫ ߞߐߜߍ ߊߘߌߙߍߛߌ ߡߍ߲ ߠߎ߬ ߕߍ߫ ߦߋ߲߬ ߏ߬ ߟߎ߬ ߦߋ߫.</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>ߕߊ߯ߦߙߐ ߡߊ߫ ߛߋ߫ ߡߊߙߊ߫ ߟߊ߫: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>ߕߊ߯ߦߙߐ ߕߍ߫ ߘߏ߲߬ ߠߊ߫ ߞߌߟߍ ߣߌ߲߬ ߝߍ߬ ߝߟߐ: «ߓߌߟߊߟߌ ߞߌߟߍ ߡߍ߲ ߟߊߘߊ߲ߣߍ߲ ߕߊ߯ߦߙߐ ߣߌ߲߬ ߦߋ߫» ߛߎߥߊ߲ߘߌ߫ ߊ߬ ߟߊߓߍ߲ ߟߎ߬ ߘߐ߫.</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>ߕߊ߯ߦߙߐ ߟߎ߬ ߡߊ߫ ߛߋ߫ ߞߊ߬ߙߊ߲߬: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>ߟߊߘߊ߲ߠߌ߫ ߕߍ߫ ߦߋ߲߬ ߝߟߐ ߞߊ߬ ߝߛߍ߬ߝߛߍ߬.</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>ߛߌߜ߳ߌߟߌ ߣߌ߲߬ ߕߍ߫ siteaccess ߢߍߝߍ ߝߍ߬. ߞߎ߲ߠߊߛߌߟߌ ߣߌ߫ ߡߊߦߟߍߡߊ߲ siteaccess ߟߎ߬ ߕߍ߫ ߓߌߟߊ ߞߍߣߍ ߞߊ߲ ߊߓߊߘߊ.</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>ߞߐߜߍ ߣߌ߲߬ ߦߋ߫ ߓߊߙߊ ߟߊߕߓߊ߰ ߟߊ߫ ߊ߬ ߕߊ߯ߕߎ߫; ߊ߬ ߦߋ߫ ߕߊ߯ ߟߊ߫ ߢߍ߫ ߞߐߝߍ ߟߊ߫ ߣߌ߫ ߞߐߜߍ ߘߊߕߎ߲߯ߣߍ߲߫.</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>ߞߌߟߍ߫ ߕߍ߫ ߕߊ߯ߦߙߐ ߣߌ߲߬ ߝߍ߬ ߝߟߐ.</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>ߕߊ߯ߦߙߐ ߣߌ߲߬ ߡߊ߫ ߟߊߘߊ߲߫ ߦߊ߲߬ ߝߟߐ.</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>ߕߊ߯ߦߙߐ ߣߌ߲߬ ߓߘߊ߫ ߞߋߟߋ߲ ߛߐ߬ߘߐ߲߬.</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>ߊ߬ ߦߋ߫ ߟߊߘߊ߲ߠߌ ߣߌ߲߬ ߝߌ߬ߟߌ߫ ߟߊ߫: ߞߍߣߍߓߌߟߊߟߌ ߟߊߓߊ߲ ߦߋ߫ ߘߏߛߌߦߋ ߘߐ߫ ߕߎ߲߯. ߛߌߕߌ ߞߍߣߍ ߕߍ߫ ߦߟߌߡߊ߫ ߟߊ߫.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>«ߒ ߓߘߊ߫ ߦߍߟߍߡߊߟߌߟߎ ߝߛߍ߬ߝߛߍ߬» ߛߎߥߊߘߋ߫ ߝߟߐ߫.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>ߥߊߕߌ</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>ߘߊߡߌߣߍߟߊ߲ ߠߎ߬</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>ߕߐߜ߳ߐ ߕߐ߮ ߛߓߍ߫ ߕߎ߲߯</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>ߡߊ ߦߍߟߍߡߊ</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>ߥߍߓߎ ߞߏߟߏ߲</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>ߡߍ߲</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>ߡߍ߲ ߦߋ߫ ߦߟߌߡߊ߫ ߟߊ߫</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>ߝߌߛߌߦߋ ߞߋߟߋ߲ ߞߋߟߋ߲ ߦߋ߫ ߡߍ߲ ߘߌ߫; ߊ߬ ߦߋ߫ ߛߓߍ߫ ߟߊ߫ ߕߎ߬ߡߊ ߓߍ߯.</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>ߓߊߙߊ ߞߍ߫ ߡߍ߲ ߞߍ߫ ߘߊ߫ ߊ߬ ߣߌ߫ ߊ߬ ߛߓߍߦߊ. ߓߊߙߊ ߡߍ߲ ߘߊߡߌ߬ߣߍ߬ ߘߊ߫ ߦߊ߲߬߸ ߏ߬ ߦߋ߫ ߕߊ߯ ߟߊ߫ ߢߍ߫ ߞߐߝߍ ߟߊ߫ ߣߌ߫ ߞߐߜߍ ߣߌ߲߬ ߘߊߕߎ߲߯ߣߍ߲߫.</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>ߓߊߙߊ ߞߍ߫ ߝߌߟߌ ߡߍ߲ ߠߎ߬ ߛߓߍ߫ ߘߊ߫</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>ߞߐߜߍ ߟߎ߬ ߦߋ߫ ߡߍ߲ ߝߐ߫ ߟߊ߫߸ ߊ߬ ߣߌ߫ ߞߐߣߐߞߏ ߓߌߟߊߣߍ߲ ߖߊ ߓߍ߯</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>ߕߎ߬ߡߊ ߖߐ߲߬</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>ߣߌ߫ ߞߍߣߍߓߌߟߊߟߌ ߡߊ߫ ߢߍ߫</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>ߣߌ߫ ߞߍߣߍߓߌߟߊߟߌ ߢߍ߫ ߘߊ߫</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>ߣߌ߫ ߞߐߣߐߞߏ ߓߌߟߊ߫ ߘߊ߫ ߞߍߣߍ ߞߊ߲</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>ߞߏߔߌ ߕߍ߫ ߡߍ߲ ߡߊߙߊ߫ ߟߊ߫߸ ߏ߬ ߟߎ߬ ߛߌߙߌߟߊ߲ ߦߋ߫ ߕߊ߯ ߟߊ߫ ߡߌ߲߫ (ߢߌߣߌ߸ ߜ߭ߊ߲߬ߞߎ߲߬ߠߌ߲).</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>ߞߏߔߌ ߖߐߟߋ߲ ߦߋ߫ ߘߌ߫ ߟߊ߫ ߞߊ߬ ߓߐ߫ ߡߌ߲߫.</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>ߛߌߕߌ ߡߍ߲ ߦߋ߫ ߓߌߟߊ ߟߊ߫ ߞߍߣߍ ߞߊ߲߸ ߊ߬ ߣߌ߫ ߕߊ߯ߦߙߐ ߕߐ߮ ߦߋ߫ ߡߍ߲ ߘߌ߫.</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>ߊ߬ ߦߋ߫ ߓߊߙߊ ߞߍ߫ ߟߊ߫ ߛߌߟߊ ߝߘߏ߬ ߘߎ߰ߞߟߏ. ߛߊߙߌߦߊߟߋ߲.</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>ߊ߬ ߦߋ߫ ߛߓߍ߫ ߟߊ߫ ߘߏߡߍ߲ ߞߙߍߞߙߍߣߍ߲ ߛߌߜ߳ߌߣߍ߲߫ ߕߎ߬ߡߊ ߓߍ߯.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>ߐߥߐ</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>ߌ ߛߋ߫ ߘߌ߫ ߟߊߘߊ߲ߠߌ ߣߌ߫ ߞߍߣߍߓߌߟߊߟߌ ߞߍ߫ ߓߟߏ߫ ߟߊ߫ ߕߎ߬ߡߊ ߓߍ߯ ߦߊ߲߬ ߣߌ߫ ߞߐ߲ߛߐߟߌ ߞߊ߲߬.</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>ߕߐ߮ ߘߐߙߐ߲; ߤߊߞߍ ߦߋ߫ ߕߏ߫ ߟߊ߫ ߟߊߓߍ߲ߣߌ &gt; ߜ߳ߎ߲ߘߏߟߎ ߘߐ߫</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>%path ߘߎ߰ߞߟߏ</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>ߊ߬ ߓߊ߲߫ ߘߊ߫ ߟߊߞߏߝߐ ߕߍ߫</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>ߝߊ߬ߙߊ߬ߣߍ߲</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>ߊ߬ ߡߊ߫ ߢߍ߫</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>ߝߌߛߌߦߋ</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages, ߥߟߊ߫ main ߣߌ߫ ߘߏߛߌߦߋ docs ߦߋ߫.</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>git ߤߐߛߌߕߌ</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (ߕߏߞߍ߲ ߦߋ߫) ߥߟߊ߫ git@github.com:owner/repo.git (ߓߌߟߊߟߌ ߞߌߟߍ ߦߋ߫); ߜ߳ߎ߲ߘߏߘߊߢߍ ߥߟߊ߫ ߕߏߞߍ߲ ߕߍ߫ ߊ߬ ߘߐ߫ ߊߓߊߘߊ.</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/, ߛߌߕߌ ߡߊߔߊ ߣߌ߫ ߛߌߙߌߟߊ߲ ߛߊߙߌߦߊߟߋ߲ ߠߎ߬ ߦߋ߫.</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>ߖߊ</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>ߊߓߊߘߊ</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ߊߦߌ</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>ߖߐ߲߰ߦߙߐ߫ ߕߍ߫</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>ߝߏߦߌ: ߟߊߞߎ߲ߘߎߟߌ ߟߎ߬ ߦߋ߫ ߕߏ߫ ߟߊ߫ ߘߏߛߌߦߋ ߘߐ߫</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>ߝߏߦߌ: ߝߏߦߌ߫ ߡߊ߫ ߦߟߌߡߊ߫</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>ߊ߬ ߡߊ߫ ߗߌ߫</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>ߝߏߦߌ߫ ߡߊ߫ ߦߟߌߡߊ߫</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>ߞߐߜߍ</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>ߊ߬ ߢߍ߫ ߘߊ߫</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>proc_open ߓߐ߫ ߓߊߙߊ ߟߊ߫߸ ߏ߬ ߘߐ߫ ߓߊߙߊ߫ ߕߍ߫ ߛߋ߫ ߘߊߡߌ߬ߣߍ߬ ߟߊ߫ ߦߊ߲߬. ./console exp:static:build ߓߊ߯ߙߊ߫ ߛߍߙߌߥߍߙߌ ߞߊ߲߬.</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>ߞߍߣߍߓߌߟߊߟߌ</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>ߓߌߟߊߣߍ߲߫ ߞߍߣߍ ߞߊ߲</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>ߗߌߟߌ ߡߊߞߐߣߐߣߍ߲߫</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>ߊ߬ ߗߌߣߍ߲߫</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>ߊ߬ ߓߊ߲߬ߣߍ߲߫</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>ߡߊߛߙߋߣߍ߲</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>ߞߐ߫ ߟߊߛߋߟߌ</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>ߊ߬ ߞߐ߫ ߟߊߛߋߣߍ߲߫</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>ߊ߬ ߦߋ߫ ߓߏߟߌ ߟߊ߫</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>ߘߏߛߌߦߋ ߘߐߙߐ߲</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: ߊ߬ ߛߓߍߣߍ߲߫ ߝߌߛߌߦߋ CNAME ߘߐ߫. ߘߏߡߍ߲ DNS ߟߊߓߟߏߟߊ߫ ߤߐߛߌߕߌ ߡߊ߬ ߌ ߞߏ߫ ߊ߬ ߦߋ߫ ߊ߬ ߢߍߕߊߟߊ߫ ߟߊ߫ ߡߍ߲ ߠߊ߫; HTTPS ߛߋ߫ ߘߌ߫ ߡߊߞߐߣߐ߲߫ ߠߊ߫ ߝߏ߫ ߊ߬ ߦߋ߫ ߘߊߡߌ߬ߣߍ߬.</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>ߐߥߐ߸ ߊ߬ ߡߊ߫ ߓߌߟߊ߫ ߞߍߣߍ ߞߊ߲ ߝߟߐ</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>GitHub App ߞߋߟߋ߲</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>ߡߊߙߊߦߐߙߐ ߓߊߙߊߛߌߙߊ ߘߏ߫ ߦߋ߫ ߊ߬ ߓߌߟߊ ߟߊ߫ ߞߍߣߍ ߞߊ߲. ߟߊߘߊ߲ߠߌ ߦߋ߫ ߓߊߙߊߛߌߙߊ ߞߐߕߐ߮ ߛߓߍ߫ ߟߊ߫; ߞߐߕߐ߯ߘߊ ߕߏ߫ ߊ߬ ߘߐ߫ ߝߏߦߌ߫ ߕߍ߫.</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>ߣߌ߫ ߕߊ߯ߦߙߐ ߡߊߙߊߣߍ߲߫ GitHub ߡߊߙߊߦߐߙߐ ߣߌ߫ ߕߏߞߍ߲ ߥߟߊ߫ GitHub App ߘߌ߫߸ ߛߌߙߊ ߣߌ߲߬ ߘߌ߫ ߛߋ߫ ߡߊߙߊߦߐߙߐ ߘߊ߲߫ ߠߊ߫ ߞߊ߬ GitHub Pages ߓߌߟߊ ߓߊߙߊ ߟߊ. ߣߌ߫ ߏ߬ ߕߍ߫߸ ߡߊߙߊߦߐߙߐ ߘߊ߲߫ GitHub ߞߊ߲߬ ߝߟߐ߫; ߡߊߙߊߦߐߙߐ ߝߏߦߌ߫ ߕߍ߫ ߡߍ߲ ߘߐ߫ ߏ߬ ߝߣߊ߫ ߓߍ߲߬ ߘߌ߫.</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>ߝߊ߲ߓߊ ߥߟߊ߫ GitHub Actions?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>DNS ߝߛߍ߬ߝߛߍ߬</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>ߡߊߙߊߦߐߙߐ ߘߊ߲߫ ߣߌ߫ ߊ߬ ߕߍ߫ ߦߋ߲߬</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>ߡߊߙߊߦߐߙߐ ߘߊ߲߫ GitHub ߞߊ߲߬ ߞߊ߬ GitHub Pages ߓߌߟߊ ߓߊߙߊ ߟߊ߫ ߊ߬ ߟߊߓߍ߲ߟߎ ߘߐ߫ (Settings &gt; Pages).</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>ߡߊߙߊߦߐߙߐ %repo ߘߊ߲߫ ߠߊ߫ ߣߌ߫ ߊ߬ ߕߍ߫ ߦߋ߲߬ (ߣߌ߫ ߊ߬ ߡߊߢߌ߬ߣߌ߲߬ ߠߊ߫)߸ ߞߊ߬ GitHub Pages ߓߌߟߊ ߓߊߙߊ ߟߊ߫ ߝߊ߲ߓߊ ߘߐ߫ ߥߟߊ߫ GitHub Actions ߘߐ߫ ߊ߬ ߡߊߙߊߣߍ߲߫ ߞߏ߫ ߡߍ߲ ߠߊ߫߸ ߞߊ߬ ߘߏߡߍ߲ ߞߙߍߞߙߍߣߍ߲ ߣߌ߫ HTTPS ߟߊߓߍ߲߬. ߊ߬ ߦߋ߫ ߟߊߓߍ߲ߟߎ ߡߊߙߊߣߍ߲ ߠߎ߬ ߟߊߓߊ߯ߙߊ߫ ߟߊ߫: ߡߊߝߊ߬ߟߋ߲߬ߠߌ ߟߎ߬ ߡߊߙߊ߫ ߝߟߐ߫.</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>ߝߊߙߊ߲ߝߊ߯ߛߌ GitHub ߞߊ߲߬</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>ߘߏߡߍ߲ ߞߙߍߞߙߍߣߍ߲ ߛߓߍ߫ ߝߟߐ߫.</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>push ߓߍ߯ ߦߋ߫ ߝߛߍ߬ߝߛߍ߬ ߟߊ߫ ߘߊ߲ ߣߌ߲߬ ߠߎ߬ ߡߊ߬ ߝߟߐ߫.</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>GitHub ߞߊ߲߬ ߊߘߌߙߍߛߌ https:// ߦߙߐ߫. App ߡߍ߲ ߟߊߓߍ߲߬ߣߍ߲߫ ߟߊߘߏ߲ߠߌ ߣߌ߲߬ ߦߙߐ߫ ߏ߬ ߦߋ߫ ߘߏ߲߬ ߠߊ߫; ߊ߬ ߦߋ߫ ߟߊߘߏ߲ߠߌ ߕߐ߯ߡߊߛߙߋ ߝߍ߬.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages ߦߋ߫ ߡߊߙߊߦߐߙߐ ߜ߳ߎ߲ߘߏ ߓߊ߯ߙߊ߫ ߛߐ߲߬ߘߐ߬ ߞߍߞߍ ߟߋ߬ ߘߐߙߐ߲߫ ߞߊ߲߬.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: ߘߏߡߍ߲ ߘߋ߲ (www.example.com) ߦߋ߫ ߛߓߍߟߌ CNAME ߝߍ߬ ߞߊ߬ ߕߊ߯ &lt;owner&gt;.github.io ߡߊ߬; ߘߏߡߍ߲ ߞߎ߲߬ߠߊ߬ߓߊ (example.com) ߦߋ߫ ߛߓߍߟߌ A %ips ߝߍ߬.</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>GitHub App ߟߊߘߏ߲ߠߌ ߕߐ߯ߡߊߛߙߋ</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>Pages ߟߊߘߊ߲ߠߌ ߟߊߓߊ߲</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>ߘߊ߲ ߟߎ߬ ߣߌ߫ ߛߙߍߘߍ ߟߎ߬</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>ߊ߬ ߝߣߊ߫ ߞߊ߬ ߞߍ߫ GitHub Pages ߦߙߐ߫ ߞߍߞߍ ߝߊ߲߲ߝߊ߲߲ ߞߊ߲߬.</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>GitHub ߞߊ߲߬</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>GitHub App ߘߐߙߐ߲߫ ߠߋ߬ ߓߟߏ߫: ߝߙߍߕߊ ߡߍ߲ ߦߋ߫ App ߟߊߘߏ߲ߠߌ ߊߘߌߙߍߛߌ ߓߊ߲߫ߘߊ ߟߊ߫ GitHub ߞߊ߲߬. App ߖߘߍ߬ ߦߋ߫ ߟߊߓߍ߲߬ ߠߊ߫ staticcache.ini ߘߐ߫ (GitHubAppId, GitHubAppKey).</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>ߜ߳ߎ߲ߘߏ</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>ߞߍߣߍ</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>ߕߊ߯ߦߙߐ ߡߊߙߊ߫ ߝߟߐ߫ ߣߌ߫ GitHub ߡߊߙߊߦߐߙߐ ߣߌ߫ ߕߏߞߍ߲ ߥߟߊ߫ GitHub App ߘߌ߫.</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>ߛߓߍߟߌ ߣߌ߲߬ ߠߎ߬ ߟߊߓߍ߲߬ ߘߏߡߍ߲ ߘߌ߯ߟߊ ߓߟߏ߫:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>ߊ߬ ߟߊߓߍ߲߬ GitHub ߞߊ߲߬</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>%domain ߟߊ߫ DNS ߕߍ߫ ߕߊ߯ߡߊ߫ GitHub Pages ߡߊ߬ ߝߟߐ.</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>%domain ߟߊ߫ DNS ߦߋ߫ ߕߊ߯ߡߊ߫ GitHub Pages ߡߊ߬.</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>GitHub ߛߘߌ߬ߓߊ߬ߟߌ ߕߍ߫ ߦߊ߲߬: %problem. ߓߌߟߊߟߌ ߞߍߣߍ ߞߊ߲ ߝߊ߲ߓߊ ߘߐ߫ ߓߍ߯ ߦߋ߫ ߓߊ߯ߙߊ߫ ߟߊ߫ ߘߋ߬; GitHub Pages ߓߌߟߊ ߓߊߙߊ ߟߊ߫ ߡߊߙߊߦߐߙߐ ߟߊߓߍ߲ߟߎ ߘߐ߫.</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>GitHub ߛߌߙߊ ߟߎ߬ ߕߍ߫ ߦߋ߲߬ ߕߊ߯ߦߙߐ ߣߌ߲߬ ߦߙߐ߫: %problem.</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>GitHub Pages ߖߊ߯ߓߌ ߦߋ߫ ߦߌߘߊ߫ ߟߊ߫ ߣߌ߫ ߕߏߞߍ߲ ߥߟߊ߫ GitHub App ߦߋ߫ ߘߏ߲ߠߌ ߞߎ߲ߣߊߝߏߣߌ ߘߌ߫.</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>ߌ ߖߘߍ߬ ߟߊ߫ ߘߏߡߍ߲ ߟߊߓߊ߯ߙߊ߫</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>ߡߎ߲߬ ߛߎߥߊ߲ߘߌ߫: ߕߏߞߍ߲߸ ߓߌߟߊߟߌ ߞߌߟߍ ߥߟߊ߫ GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>ߣߌ߫ GitHub ߡߊߙߊߦߐߙߐ ߣߌ߫ ߕߏߞߍ߲ ߥߟߊ߫ GitHub App ߦߋ߫ ߦߋ߲߬߸ ߟߊߓߟߏߟߊߟߌ ߘߌ߫ ߛߋ߫ ߡߊߙߊߦߐߙߐ ߘߊ߲߫ ߠߊ߫߸ ߞߊ߬ GitHub Pages ߓߌߟߊ ߓߊߙߊ ߟߊ߫ ߞߊ߬ ߘߏߡߍ߲ ߟߊߓߍ߲߬ ߌ ߦߙߐ߫ (ߛߌߙߊ 4).</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>ߟߊߘߊ߲ߠߌ ߦߋ߫ ߞߍ ߟߊ߫</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>ߟߊߘߊ߲ߣߍ߲</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>GitHub Actions ߘߐ߫</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>ߝߊ߲ߓߊ %branch ߘߐ߫</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>ߝߏߦߌ߫ ߝߟߐ</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>ߡߊ߫ ߛߐ߬ߘߐ߲߫</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>ߓߐߣߍ߲߫ ߓߊߙߊ ߘߐ߫</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>ߜ߳ߎ߲ߘߏ</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>ߞߍߣߍ</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>ߡߊ߬ߞߐ߲ߠߌ ߘߐ߫</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>ߟߐ߲ߓߊߟߌ</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>ߝߐߞߣߍ߲ %count ߞߐߜߍ %pages ߞߊ߲ ߘߐ߫:</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>ߞߐߜߍ ߘߐ߫ ߝߙߊ߬ߣߍ߲ ߞߎ߲߬ߘߏ ߞߘߐ .gz (ߊ߬ߣߌ߫ .br) ߝߙߊ߬ߣߍ߲ ߦߙߐ ߞߍߣߍ ߠߊ߫ ߞߎ߲ ߘߐ߫.</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>ߞߐߜߍ ߞߍߣߍ߲ ߖߏ߬ߦߊ߬ ߘߐ߫ ߞߘߐ ߞߊ߬ ߛߌ߲ߞߊ߲ߞߍߣߍ ߞߍߣߍ߲ ߡߊ߬ߞߏ ߞߘߐ߫ ߞߊ߲߫ ߟߊ߫ ߡߊ߬ߞߏ ߞߘߐ ߞߊ߲.</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>ߏ߬ ߞߍߣߍ߲ ߞߊ ߘߊߞߎ߲ GitHub Actions ߞߐߜߍ ߛߌߕߌ ߞߍ.</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>SPDX ߞߎ߲ߘߊ ߞߍߣߍ CC-BY-4.0 ߞߊ߬ߣߌ߫ ߞߐ߫ ߞߍߣߍ.</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>ߞߐ߲ߞߍ</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>ߛߌߘߎ߲߫ ߞߍߣߍ ߞߊ߲</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>ߞߊ߲ߞߍߣߍ</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>ߝߐߙߡߎ ߟߎ߬ ߝߊ߲߫</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>GitHub Actions ߛߓߍ</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>ߞߐߜߍ ߘߐ߫ ߞߊ߲ߞߍߣߍ ߞߍߣߍ.</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>ߞߊߞߍߣߍ ߞߍߣߍ ߞߊ߲</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>ߞߊ߲ߞߍߣߍ</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>ߞߍߣߍ</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>ߝߐߙߡߎ ߞߍߣߍ</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>ߞߍߣߍ ߞߍߣߍ</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>ߞߐߜߍ ߞߍߣߍ</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>ߞߐߜߍ ߞߍߣߍ: %count.</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>ߢߌߣߌ</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>ߢߌߣߌ ߞߍߣߍ: %pages ߞߐߜߍ %languages ߘߐ߫.</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>ߞߍߣߍ ߞߍߣߍ ߞߊ߲.</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>ߞߐߜߍ ߞߍߣߍ (cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>ߞߊߞߍߣߍ ߞߍߣߍ ߞߊ߲.</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>ߛߌߕߌ ߞߍߣߍ (cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>ߞߐߜߍ ߞߍߣߍ ߞߍߣߍ ߞߊ߲.</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>ߞߍߣߍ ߞߍߣߍ</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>ߞߍߣߍ ߞߍߣߍ.</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>ߞߍߣߍ</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>ߞߍߣߍ ߞߍߣߍ</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>ߛߌߕߌ ߞߍߣߍ ߝߐߙߡߎ ߞߍߣߍ</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>ߛߌߕߌ ߞߍߣߍ</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>ߞߐߜߍ ߢߌߣߌ ߞߍߣߍ</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>ߝߐߙߡߎ ߞߍߣߍ.</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>ߞߍߣߍ: ߝߐߙߡߎ ߞߍߣߍ.</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>ߝߐߙߡߎ ߞߍߣߍ: ߞߍߣߍ.</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>ߛߘߌ߬ߜߋ߲ ߡߍ߲ ߠߎ߬ ߓߍ߯ ߕߊ߯ ߞߐߜߍ ߟߎ߬ ߡߊ߬ ߡߍ߲ ߠߎ߬ ߕߍ߫ ߓߊߓߎ߯ߙߊ ߘߐ߫߸ ߏ߬ ߟߎ߬ ߓߐ߫</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>ߛߘߌ߬ߜߋ߲ ߡߍ߲ ߠߎ߬ ߓߍ߯ ߕߊ߯ ߡߊߡߙߊߟߌ ߘߐ߫߸ ߏ߬ ߟߎ߬ ߓߐ߫</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>ߏ߬ ߟߎ߬ ߟߊ߫ ߛߓߍߟߌ ߓߍ߯ ߕߏ߫. ߖߌ߬ߦߊ߬ߓߍ߫ ߟߎ߬߸ ߝߐߙߡߎߟߍ߯ߙߎ ߟߎ߬ ߣߌ߫ ߞߍߦߙߐ߫ ߕߐ߭ ߟߎ߬ ߛߘߌ߬ߜߋ߲ ߕߍ߫ ߓߐ߫ ߝߋߎ߫.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>ߥߍߙߌߛߌߦߐ߲</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>ߛߌߕߌ ߘߏ߲ߘߊ߫ ߡߍ߲ ߠߎ߬ ߘߌ߫ ߟߊߥߟߌ߫</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>ߛߌߕߌ ߘߏ߲ߘߊ</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>ߘߎ߲߬ߘߎ߬ ߟߊ߫</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>ߛߌߕߌ ߘߏ߲ߘߊ߫ ߕߍ߫ ߘߎ߲߬ߘߎ߬ ߟߊ߫: ߞߋߟߋ߲߫ ߞߋߟߋ߲߫ ߓߍ߯ ߦߋ߫ ߊ߬ ߟߊ߫ ߞߟߊ߬ߛߎ ߘߐ߫߸ ߘߎ߲߬ߘߎ ߦߋ߫ ߊ߬ߟߎ߬ ߛߘߌ߬ ߟߊ߫</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>ߛߌߕߌ ߘߏ߲ߘߊߟߎ</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>ߛߌߕߌ ߘߏ߲ߘߊ߫ ߞߋߟߋ߲߫ ߛߎߥߊ߲ߘߌ߫߸ ߥߟߊ߫ ߛߌߦߊߡߊ߲߫ ߡߍ߲ ߠߎ߬ ߓߍ߫ ߖߌ߬ߦߊ߬ߓߊ߯ ߞߋߟߋ߲߫ ߕߊ߯ߦߊ߫ ߊ߬ߟߎ߬ ߟߊ߫ URI ߞߐߝߟߍ ߓߟߏ߫. ߘߎ߲߬ߘߎ߬ ߟߊ߫ ߘߌ߫ ߘߌ߫ ߦߋ߲߬߸ ߕߐ߭ ߟߎ߬ ߊ߬ߟߎ߬ ߟߊ߫ ߞߐߝߟߍ ߞߟߊ߬ߛߎ ߘߐ߫ (/ger/)߸ ߛߘߌ߬ߟߊ߲ ߠߎ߬ ߦߋ߫ ߕߏ߫ ߓߊߓߌ߬ߟߊ߬ߟߌ ߘߐ߫. ߞߎ߲߬ߠߊ߬ߛߌ߰ ߘߏ߲ߘߊ ߕߍ߫ ߦߌ߬ߘߊ߬ ߝߋߎ߫.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>%target ߞߍߣߍߓߌߟߊߟߌ ߖߐߟߋ߲ ߡߊ߫ ߓߊ߲߫ %site ߞߊ߲߫</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>%target ߞߍߣߍߓߌߟߊߟߌ ߖߐߟߋ߲ ߓߊ߲߬ߘߊ߫ %site ߞߊ߲߫</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>%site ߟߋ ߞߊ߬ ߗߋߛߓߍ ߣߌ߲߬ ߗߋ߫ ߞߵߊ߬ ߘߐߓߍ߲ ߞߍߣߍߓߌߟߊߟߌ ߖߐߟߋ߲ %target ߦߋ߫ ߊ߬ ߢߌߣߌ߲߫ ߠߊ߫.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>ߟߊߓߐߟߌ %deploy ߡߊ߫ ߢߍ߫ %site ߞߊ߲߬</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>ߟߊߓߐߟߌ %deploy ߦߋ߫ ߡߐ߬ߟߐ߲߬ߠߌ߲ ߘߊ߫ ߘߏ߫ ߟߊ߫ %site ߞߊ߲߬</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>ߟߊߓߐߟߌ %deploy ߢߍ߫ ߘߊ߫ %site ߞߊ߲߬</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>ߗߋߛߓߍ ߣߌ߲߬ ߗߋ߫ ߘߊ߫ %site ߟߋ߬ ߓߟߏ߫، ߓߊߏ߬ migration.ini [RemoteSettings] Notify[] ߦߋ߫ ߏ߬ ߢߌߣߌ߲߫ ߠߊ߫.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>ߞߎ߲ߣߊߝߏߣߌ ߛߎߜ߳ߎߦߊߟߎ (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>ߖߊߕߋߘߊ %time߸ ߕߎߜߎ߲ ߡߌߣߌߕߌ %minutes ߞߐ</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>ߞߎ߲ߣߊߝߏߣߌ ߛߎߜ߳ߎߦߊ ߦߋ ߞߌߟߊߛߌ ߊߕߌߙߌߓߌ ߤߊߞߍ ߛߎߜ߳ߎ ߞߋߟߋ߲ ߟߊߡߊߙߊ ߟߊ ߊ߬ ߣߌ ߞߵߊ ߦߍߟߍߡߊ: ߛߍߓߍ߲ ߛߊߙߌ ߞߋߟߋ߲߸ ߖߊ ߞߋߟߋ߲߸ ߖߍߢߐߜ߳ߐ߲ߦߊ ߞߋߟߋ߲. ߞߌߛߍ ߦߋ ߊ߬ ߟߎ߬ ߛߌߦߊߡߊ߲ ߘߌ߸ ߝߊߙߊߝߍ߲ߟߎ ߦߋ ߘߏ ߝߙߊ ߊ߬ ߞߊ߲. ߊ߬ ߟߎ߬ ߓߍߓߍ ߦߋ ߦߊ߲߸ ߡߐ߱ ߡߍ߲ ߦߋ ߊ߬ ߟߎ߬ ߘߌ ߊ߬ ߣߌ ߞߐߣߐߞߏߟߎ ߦߋ ߊ߬ ߟߎ߬ ߓߊߙߊ ߞߍ ߞߏ ߡߎ߲ ߞߊ߲. ߞߎ߲ߣߊߝߏߣߌ ߛߎߜ߳ߎߦߊ ߡߍ߲ ߓߊߙߊ ߞߍߟߋ߲ ߞߎ߲ߣߊߝߏߣߌߛߏ ߘߐ߸ ߞߏߣߵߊ ߕߐߜ߳ߐߛߍߓߍߣߍ߲ ߕߍ ߕߎߜߎ߲߸ ߏ ߦߋ ߞߐߣߐߞߏߟߎ ߕߌߢߍ ߟߊ ߡߍ߲ ߦߋ ߊ ߘߐ.</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>ߞߌߟߊߛߌ ߖߍߞߎߟߎ</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>ߛߌߛߊ߲ ߖߊߕߋ ߞߍ ߕߎߜߎ߲߸ ߡߌߣߌߕߌ ߟߊߓߊ߲ߠߎ ߖߊߕߋ ߣߐ ߘߐ.</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>ߖߊߕߋ ߞߍ ߕߎߜߎ߲</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>ߟߊߖߍ ߞߎ߲ߓߊ</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>ߕߐߜ߳ߐߛߍߓߍߣߍ߲</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>ߊ ߓߋ ߓߊߙߊ ߟߊ</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>ߊ ߡߊ ߓߊߙߊ</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>ߝߊߙߊߝߍ߲ ߡߍ߲ ߠߎ ߦߋ ߞߎ߲ߣߊߝߏߣߌ ߛߎߜ߳ߎߦߊߟߎ ߘߌ</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>ߞߌߟߊߛߌ ߊߕߌߙߌߓߌߟߎ</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>ߝߍ߲ ߊߕߌߙߌߓߌߟߎ</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>ߕߐߜ߳ߐߛߍߓߍߣߍ߲ ߕߍ</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>ߛߙߍߘߍ ߘߐ߸ ߝߌߛߌߦߋ ߕߍ ߦߋ߲</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>ߞߎ߲ߣߊߝߏߣߌ ߛߎߜ߳ߎߦߊ %count ߓߊߙߊ ߞߍߟߋ߲߸ ߞߏߣߵߊ߬ ߟߎ ߕߐߜ߳ߐߛߍߓߍߣߍ߲ ߕߍ</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>ߞߌߟߊߛߌ ߊߕߌߙߌߓߌ %class_attributes ߣߌ ߝߍ߲ ߊߕߌߙߌߓߌ %object_attributes ߦߋ ߞߎ߲ߣߊߝߏߣߌ ߛߎߜ߳ߎߦߊ ߛߐߘߐ߲ ߠߊ ߡߍ߲ ߕߍ ߕߐߜ߳ߐߛߍߓߍ ߝߊߙߊߝߍ߲ ߥߟߊ ߟߊߓߍ߲ ߛߌ ߝߍ. ߊ߬ ߟߎ ߝߍ߲ߟߎ ߕߍ ߛߋ ߖߌߙߊ ߟߊ߸ ߦߍߟߍߡߊ ߟߊ ߥߟߊ ߓߌߟߊ ߞߍߣߍ ߞߊ߲. ߞߎ߲ߣߊߝߏߣߌ ߛߎߜ߳ߎߦߊ ߘߌߓߊߟߊ ߝߊߙߊߝߍ߲ ߓߌߟߊ ߓߊߙߊ ߟߊ߸ ߥߟߊ ߞߌߟߊߛߌ ߡߊߝߊߟߋ߲.</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>ߢߌ߲ ߠߎ ߘߐߙߐ߲ ߖߌߙߊ</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>ߞߎ߲ߣߊߝߏߣߌ ߛߎߜ߳ߎߦߊ ߢߌߣߌ</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>ߕߊߡߊߛߍߙߍ߸ ߕߐߜ߳ߐ߸ PHP ߞߌߟߊߛߌ ߥߟߊ ߝߊߙߊߝߍ߲.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>ߖߌߙߊ</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>ߓߍߓߍ</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>ߘߌߓߊߟߊ</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>ߡߐߜ߳ߐ ߓߍ</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>ߞߌߛߍ</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>ߞߎ߲ߣߊߝߏߣߌ ߛߎߜ߳ߎߦߊ ߛߌ ߕߍ ߛߍ߲ߛߍ߲ ߣߌ߲ ߓߍ߲ ߠߊ.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>ߓߍ ߖߌߙߊ</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>ߝߊߙߊߝߍ߲</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%shown ߞߎ߲ߣߊߝߏߣߌ ߛߎߜ߳ߎߦߊ %count ߘߐ߸ %used ߓߊߙߊ ߞߍߟߋ߲</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>ߞߎ߲ߣߊߝߏߣߌߛߏ ߦߋ ߞߎ߲ߣߊߝߏߣߌ ߛߎߜ߳ߎߦߊ ߣߌ߲ ߠߎ ߞߌߟߊߛߌ ߥߟߊ ߝߍ߲ ߊߕߌߙߌߓߌߟߎ ߛߐߘߐ߲߸ ߞߏߣߵ content.ini ߕߍ ߊ߬ ߟߎ ߞߋߟߋ߲ ߛߌ ߛߓߍ߸ ߥߟߊ ߊ ߝߌߛߌߦߋ ߕߍ ߦߋ߲.</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>%provider ߟߊ ߞߎ߲ߣߊߝߏߣߌ ߛߎߜ߳ߎߦߊߟߎ</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>ߞߎ߲ߣߊߝߏߣߌ ߛߎߜ߳ߎߦߊ</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>PHP ߞߌߟߊߛߌ ߣߌ ߝߌߛߌߦߋ</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>ߞߌߟߊߛߌߟߎ</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>ߝߍ߲ߟߎ</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>ߕߊߡߊߛߌߦߍ߲ߟߎ</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>ߝߏߦߌ</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>ߞߎ߲ߣߊߝߏߣߌ ߛߎߜ߳ߎߦߊ ߛߌ ߕߍ ߢߌߣߌ ߓߍ߲ ߠߊ. ߢߌߣߌ ߛߊߣߌߦߊ.</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>%shown ߞߎ߲ߣߊߝߏߣߌ ߛߎߜ߳ߎߦߊ %count ߘߐ ߖߌߙߊߣߍ߲</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>ߞߎ߲ߣߊߝߏߣߌ ߛߎߜ߳ߎߦߊ ߖߌߙߊߣߍ߲ߠߎ: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>ߓߏߟߏ ߘߊ %column ߦߋ</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>ߖߊߕߋߘߊ %time</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>ߞߎ߲ߣߊߝߏߣߌ ߛߎߜ߳ߎߦߊߟߎ ߓߍߓߍ</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>ߘߍߡߍ ߞߐߜ߭ߍ</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>ߞߎ߲ߣߊߝߏߣߌ ߛߎߜ߳ߎߦߊ ߣߌ߲ ߓߊߙߊ ߞߍߟߋ߲߸ ߞߏߣߵߊ ߕߐߜ߳ߐߛߍߓߍߣߍ߲ ߕߍ</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>ߣߌ ߝߊߙߊߝߍ߲ ߛߌ ߡߊ ߞߎ߲ߣߊߝߏߣߌ ߛߎߜ߳ߎߦߊ ߕߐߜ߳ߐߛߍߓߍ߸ ߞߌߟߊߛߌ ߘߎߞߊߟߎ ߟߎ ߝߍ߲ߟߎ ߕߍ ߛߋ ߖߌߙߊ ߟߊ߸ ߦߍߟߍߡߊ ߟߊ ߥߟߊ ߓߌߟߊ ߞߍߣߍ ߞߊ߲. ߊ ߘߌߓߊߟߊ ߝߊߙߊߝߍ߲ ߓߌߟߊ ߓߊߙߊ ߟߊ ߊ߬ ߣߌ ߞߵߊ ߝߙߊ content.ini [DataTypeSettings] AvailableDataTypes[] ߞߊ߲߸ ߥߟߊ ߞߌߟߊߛߌߟߎ ߡߊߝߊߟߋ߲.</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini ߓߘߊ ߞߎ߲ߣߊߝߏߣߌ ߛߎߜ߳ߎߦߊ ߣߌ߲ ߛߓߍ߸ ߞߏߣߵߊ ߝߌߛߌߦߋ ߕߍ ߞߎ߲ߣߊߝߏߣߌ ߛߎߜ߳ߎߦߊ ߝߐߟߘߊ ߛߌ ߘߐ. ߝߏߦߌ ߕߍ ߊ ߓߊߙߊ ߞߍ ߟߊ; ߊ ߓߐߛߌ AvailableDataTypes[] ߘߐ ߥߟߊ ߊ ߝߊߙߊߝߍ߲ ߓߌߟߊ ߓߊߙߊ ߟߊ.</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>ߞߎ߲ߣߊߝߏߣߌ ߛߎߜ߳ߎߦߊ ߣߌ߲ ߞߏ</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>ߕߊߡߊߛߍߙߍ</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>ߕߐߜ߳ߐ</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>ߝߊߙߊߝߍ߲ %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>ߡߐ߱ ߛߌ ߕߍ</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>PHP ߞߌߟߊߛߌ</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>ߝߌߛߌߦߋ</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>AvailableDataTypes[] ߘߐ</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ߐߥߐ</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ߊߦߌ</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>ߊ ߤߊߞߍ ߞߏߟߏ߲ߠߎ</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>ߊ ߞߌߟߊߛߌ ߊߕߌߙߌߓߌ ߟߊߓߍ߲ߟߎ ߞߏߟߏ߲ߠߎ</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>ߕߊߓߌߟߌߟߎ</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>ߞߏߟߏ߲ߠߎ ߣߌ ߕߊߓߎߟߏߟߎ ߦߌߘߊߣߍ߲ ߞߎ߲ߣߊߝߏߣߌ ߛߎߜ߳ߎߦߊ ߞߏߘߌ ߞߊߙߊ߲ ߠߋ ߓߟߏ: ߛߌߟߊ ߦߌߘߊ ߟߋ߸ ߟߊߦߌߘߎ ߕߍ.</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>ߡߏߘߍߟߌߟߎ</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>ߛߌߕߌ ߘߏ߲ߘߊ</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>ߡߏߘߍߟߌ</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>ߊ ߛߐߙߐߟߊ ߦߊ߲</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>ߡߊߙߊߟߌ ߣߌ߲</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>ߛߌߕߌ ߛߊߙߌߦߊߟߍ߲</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>ߦߟߌߡߊߟߌ ߕߍ: ߡߏߘߍߟߌ ߦߟߌߡߊߣߍ߲ ߡߍ߲ ߓߍ߲ ߞߌߟߊߛߌ ߥߟߊ ߊߕߌߙߌߓߌ ߡߊ߸ ߏ ߦߋ ߢߌ߲ ߠߎ ߛߊ߲ߘߐ.</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>ߞߌߟߊߛߌ ߡߍ߲ ߠߎ ߦߋ ߊ ߓߊߙߊ ߞߍ (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>ߞߌߟߊߛߌ ߛߌ ߕߍ ߞߎ߲ߣߊߝߏߣߌ ߛߎߜ߳ߎߦߊ ߣߌ߲ ߊߕߌߙߌߓߌ ߛߐߘߐ߲.</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>ߞߌߟߊߛߌ</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>ߊߕߌߙߌߓߌߟߎ</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>ߞߌߟߊߛߌ ߊߕߌߙߌߓߌߟߎ (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>ߊߕߌߙߌߓߌ</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>ߟߊߓߍ߲ߟߎ</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>ߊ ߞߊ ߞߊ߲</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>ߊ ߓߋ ߛߋ ߞߊ ߢߌߣߌ</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>ߊ ߓߋ ߛߋ ߞߊ ߓߊߦߍߟߍߡߊ</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>ߊ ߓߋ ߞߎ߲ߣߊߝߏߣߌ ߟߊߖߍ</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>ߞߐߣߐߞߏߟߎ ߘߏ ߡߍ߲ ߦߋ ߊ ߓߊߙߊ ߞߍ</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>ߦߍߟߍߡߊߣߊ ߟߊߓߊ߲ ߝߟߐ</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>ߦߍߟߍߡߊߣߊ</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>ߣߐߘߌ %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>ߓߊߦߍߟߍߡߊߟߌ ߓߍߙߍ ߓߍߙߍ ߦߋ ߊ ߖߍߘߍ ߤߊߞߍ ߛߐߘߐ߲.</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>ߢߌߣߌ ߦߋ ߊ ߤߊߞߍߟߎ ߛߓߍ ߊ ߛߙߍߘߍ ߘߐ.</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>ߊ ߘߌ ߛߋ ߞߎ߲ߣߊߝߏߣߌ ߟߊߘߍ ߟߊ ߟߊߡߍߣߌߞߍߟߊߟߎ ߓߟߏ (ߝߐߙߡߎ).</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>ߛߙߍߘߍߟߎ ߘߌ ߛߋ ߓߏߟߏ ߘߊ ߟߊ ߊ ߟߊ: ߓߏߟߏ ߘߊ ߞߟߌߦߊ %type.</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>ߊ ߓߋ ߛߋ ߞߊ ߓߏߟߏ ߘߊ</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>ߊ ߤߊߞߍߟߎ ߦߋ ߝߍ߲ ߜ߭ߘߍߟߎ ߦߌߘߊ.</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>ߖߍߢߐߜ߳ߐ߲ߦߊߟߎ</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>ߊ ߘߌ ߛߋ ߝߊ ߟߊ ߛߍߓߍ߲ ߛߌߡߊߓߟߏ ߟߊ (ߟߊߘߏ߲߸ REST).</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>ߛߍߓߍ߲ ߘߐ</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>ߊ ߘߌ ߛߋ ߝߊ ߟߊ ߝߌߛߌߦߋ ߟߊ.</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>ߝߌߛߌߦߋ ߘߐ</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>ߊ ߞߌߟߊߛߌ ߊߕߌߙߌߓߌ ߟߊߓߍ߲ߟߎ ߦߋ ߔߊߞߋߟߎ ߘߐ.</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>ߔߊߞߋߟߎ</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>ߞߐߣߐߞߏߟߎ (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from ߞߊ ߛߋ %to ߡߊ %count ߣߊ</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>ߟߌߛߌ ߛߍ߲ߛߍ߲</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>ߞߌߟߊߛߌ ߓߍߍ</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>ߛߍߞߌߛߌߦߐ߲</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>ߞߊ߲ߟߎ</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>ߕߌߜ߳ߌ</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>ߓߌߟߊߟߍ߲</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>ߓߏߟߏߘߊߗߏߜ߳ߏ ߦߍߟߍߡߊ ߞߐ ߡߊ</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>ߝߍ߲ ߛߌ ߕߍ</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>ߢߍ ߞߋߟߋ߲ ߣߊ</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>ߝߍ߲ %count ߖߌߙߊ ߢߍ ߞߋߟߋ߲ ߞߐߣߐ.</translation>
     </message>
 </context>
 </TS>

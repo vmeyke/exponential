@@ -2,7 +2,7 @@
 /**
  * File containing ezpRestControllerTest class
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -19,6 +19,8 @@ class ezpRestControllerTest extends ezpRestTestCase
      * @group restResponseGroups
      * @group restController
      */
+    #[\PHPUnit\Framework\Attributes\Group('restResponseGroups')]
+    #[\PHPUnit\Framework\Attributes\Group('restController')]
     public function testHasResponseGroup()
     {
         $r = new ezpRestRequest();
@@ -38,6 +40,8 @@ class ezpRestControllerTest extends ezpRestTestCase
      * @group restResponseGroups
      * @group restController
      */
+    #[\PHPUnit\Framework\Attributes\Group('restResponseGroups')]
+    #[\PHPUnit\Framework\Attributes\Group('restController')]
     public function testGetResponseGroups()
     {
         $r = new ezpRestRequest();
@@ -58,6 +62,8 @@ class ezpRestControllerTest extends ezpRestTestCase
      * @group restResponseGroups
      * @group restController
      */
+    #[\PHPUnit\Framework\Attributes\Group('restResponseGroups')]
+    #[\PHPUnit\Framework\Attributes\Group('restController')]
     public function testDefaultResponseGroups()
     {
         $r = new ezpRestRequest();
@@ -82,6 +88,8 @@ class ezpRestControllerTest extends ezpRestTestCase
      * @group restContentVariables
      * @group restController
      */
+    #[\PHPUnit\Framework\Attributes\Group('restContentVariables')]
+    #[\PHPUnit\Framework\Attributes\Group('restController')]
     public function testHasContentVariable()
     {
         $r = new ezpRestRequest();
@@ -100,6 +108,8 @@ class ezpRestControllerTest extends ezpRestTestCase
      * @group restContentVariables
      * @group restController
      */
+    #[\PHPUnit\Framework\Attributes\Group('restContentVariables')]
+    #[\PHPUnit\Framework\Attributes\Group('restController')]
     public function testGetContentVariable()
     {
         $r = new ezpRestRequest();
@@ -118,6 +128,8 @@ class ezpRestControllerTest extends ezpRestTestCase
      * @group restContentVariables
      * @group restController
      */
+    #[\PHPUnit\Framework\Attributes\Group('restContentVariables')]
+    #[\PHPUnit\Framework\Attributes\Group('restController')]
     public function testGetAllContentVariables()
     {
         $r = new ezpRestRequest();

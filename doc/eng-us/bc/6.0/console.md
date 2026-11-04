@@ -4,6 +4,20 @@
 `bin/console`. Read this page if you run scripts by hand or from deploy and cron jobs: you no longer need to remember
 paths under `bin/php/`, `bin/shell/` or inside extensions.
 
+> **Warning**
+> **`.htaccess` slows down every request.** When `.htaccess` files are enabled (`AllowOverride` anything but `None`), let alone
+> used, Apache looks for them and reads and evaluates them on every request, in every directory of the path, and
+> page loading times go up drastically ([measured](../../guides/setup-files-from-the-console.md#measured-htaccess-against-rules-in-the-virtual-host)). The only real fix is to switch the feature off for
+> the virtual host: `AllowOverride None` in the HTTPS virtual host, and the rules in the virtual host's own
+> configuration as mod_rewrite rules. That is far faster in production speed tests and well worth the time it takes
+> to optimize a production configuration. Switch over right away: copy the rules of the
+> [example HTTPS virtual host](../../examples/web-servers/apache-virtual-host.md) into your virtual host (with the static cache, also
+> [`staticcache_offload.conf`](../../examples/staticcache_offload.conf)), set `AllowOverride None`, run `apachectl configtest`, reload Apache and
+> test the site. The same rules for other servers: [nginx](../../examples/web-servers/nginx.md), [LiteSpeed](../../examples/web-servers/litespeed.md),
+> [Caddy](../../examples/web-servers/caddy.md), [IIS](../../examples/web-servers/iis.md), [Velocity](../../examples/web-servers/velocity.md) (built in); where virtual host rules go in a control
+> panel: [Plesk](../../help/hosting/panels/plesk.md), [cPanel](../../help/hosting/panels/cpanel.md), [DirectAdmin](../../help/hosting/panels/directadmin.md), [ISPConfig](../../help/hosting/panels/ispconfig.md).
+> **On LiteSpeed or OpenLiteSpeed,** the server's own page cache can also answer anonymous visitors and crawlers without PHP: [Page caching with LiteSpeed and OpenLiteSpeed](../../guides/litespeed-page-cache.md).
+
 ## In short
 
 | | |
@@ -58,8 +72,8 @@ php bin/php/console exp:ezpgenerateautoloads
 php bin/php/console exp:updatesearchindex
 
 # Warm the caches of the default siteaccess, or of one siteaccess
-php bin/php/console exp:preload
-php bin/php/console exp:preload --siteaccess=sevenx_site_user
+php bin/php/console exp:preload --apply
+php bin/php/console exp:preload --apply --siteaccess=sevenx_site_user
 
 # Fix directory and file permissions after a deployment
 php bin/php/console bin:modfix
@@ -71,7 +85,24 @@ php bin/php/console exp:ezsessiongc
 php bin/php/console exp:benchmark
 php bin/php/console exp:benchmark --compare=https://www.example.com,https://www.example.com:8080
 php bin/php/console exp:benchmark kernel --save=var/benchmark/base.json
+
+# Put .htaccess and config.php into place from the shipped templates (nothing is written without --apply)
+php bin/php/console exp:setup:status
+php bin/php/console exp:setup:htaccess --apply              # .htaccess_root -> .htaccess (--static: .htaccess_root_static)
+php bin/php/console exp:setup:config --apply                # config.php-RECOMMENDED -> config.php
+
+# Read and change the constants in config.php
+php bin/php/console exp:config:list --only-set
+php bin/php/console exp:config:get EZP_INI_FILEMTIME_CHECK
+php bin/php/console exp:config:set EZP_INI_FILEMTIME_CHECK false --apply
+php bin/php/console exp:config:unset EZP_INI_FILEMTIME_CHECK --apply
 ```
+
+The setup and config commands are described in
+[Setting up .htaccess and config.php from the console](../../guides/setup-files-from-the-console.md) and listed with
+every option in [exp:setupfiles](../../examples/commands/setupfiles.md) and [exp:configphp](../../examples/commands/configphp.md).
+`exp:setup:*` and `exp:config:*` are aliases of `exp:setupfiles <htaccess|config|status>` and
+`exp:configphp <list|get|set|unset>`.
 
 The benchmark command is described in [Benchmark](../../features/6.0/benchmark.md) and taught in the guide
 [Benchmarking Exponential](../../guides/benchmarking.md).
@@ -136,7 +167,7 @@ php bin/php/console exp:ezcache --clear-all
 Everything after the command name goes to the script unchanged:
 
 ```bash
-php bin/php/console exp:preload --siteaccess=sevenx_site_user
+php bin/php/console exp:preload --apply --siteaccess=sevenx_site_user
 php bin/php/console exp:cleanupversions --dry-run
 php bin/php/console exp:updatesearchindex --siteaccess=sevenx_site_user --verbose
 ```
@@ -224,6 +255,7 @@ A cronjob script uses the same tag, for example `@description Remove expired bas
 |---|---|
 | `PHP Fatal error: ... autoload.php` | You are not in the Exponential root directory. `cd /path/to/your/exponential-root` and run the command again. |
 | `Running scripts as root may be dangerous` | The script runs as `root`. Add `--allow-root-user` to confirm, for example `php bin/php/console exp:ezcache --clear-all --allow-root-user`. |
+| `Warning: config.php does not compile: ...` | `config.php` has a syntax error; the site is down too. Commands other than `exp:setup:*` and `exp:config:*` stop on it. Fix the line it names, or replace the file with `php bin/php/console exp:setup:config --force --apply` (the broken file is backed up first). |
 | `Unknown command: exp:myscript` | The file is not where the namespace expects it. Check that `bin/php/myscript.php` exists and is readable, then run `php bin/php/console list`. |
 | No colours | The terminal does not support ANSI codes, or output is redirected; colours are switched off automatically. |
 
@@ -237,6 +269,7 @@ A cronjob script uses the same tag, for example `@description Remove expired bas
 ## Related pages
 
 - [Cache console (`exp:cache`)](cache-console.md)
+- [Setting up .htaccess and config.php from the console](../../guides/setup-files-from-the-console.md) (`exp:setup:*`, `exp:config:*`)
 - [Commands, cronjob parts and module views as classes](cli_cronjob_view_abstractions.md)
 - [Cronjobs console](../../features/6.0/cronjobs-console.md)
 - [June 2026, first half (1 to 15 June)](../../history/2026/2026-06a.md)

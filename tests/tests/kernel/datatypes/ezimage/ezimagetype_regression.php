@@ -3,7 +3,7 @@
 /**
  * File containing the eZImageTypeRegression class
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -11,6 +11,7 @@
  * @group database
  */
 
+#[\PHPUnit\Framework\Attributes\Group('database')]
 class eZImageTypeRegression extends ezpDatabaseTestCase
 {
     protected $backupGlobals = false;
@@ -73,6 +74,8 @@ class eZImageTypeRegression extends ezpDatabaseTestCase
      * @group issue14983
      * @group issue17781
      */
+    #[\PHPUnit\Framework\Attributes\Group('issue14983')]
+    #[\PHPUnit\Framework\Attributes\Group('issue17781')]
     public function testIssue14983()
     {
         $files = eZImageFile::fetchForContentObjectAttribute( $this->fileAttribute->attribute( "id" ), true );
@@ -100,6 +103,7 @@ class eZImageTypeRegression extends ezpDatabaseTestCase
      * @link http://issues.ez.no/17781
      * @group issue17781
      */
+    #[\PHPUnit\Framework\Attributes\Group('issue17781')]
     public function testRestoreImageTrashed()
     {
         $this->imageObject->refresh();

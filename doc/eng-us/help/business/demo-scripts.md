@@ -35,7 +35,7 @@ One command installs a complete site on SQLite, with no database server, in `eng
 
 ```bash
 ./console exp:install --dry-run    # checks the configuration and installs nothing
-./console exp:install              # installs the multisite package on SQLite
+./console exp:install --apply              # installs the multisite package on SQLite
 ```
 
 - The administrator is `admin` with a generated password, printed in the summary and written to
@@ -86,7 +86,7 @@ One command installs a complete site on SQLite, with no database server, in `eng
 | 0:40 | Open a folder from the tree, press **Edit** | "Every edit starts a draft. The site keeps showing the published version until you publish." |
 | 1:20 | Change the **Short name**, press **Preview**, press the phone width button | "Before publishing you see the page at phone, tablet and desktop width." |
 | 2:00 | **Back to edit**, **Send for publishing** | "Publishing keeps the earlier version. You can always go back." |
-| 2:30 | **Layouts** tab, **Layouts**, **Open** on a layout | "Pages are arranged here by editors: zones, and blocks inside them. Exponential Layouts brings the Netgen Layouts concept to Exponential." (`README.md`) |
+| 2:30 | **Layouts** tab, **Layouts**, **Open** on a layout | "Pages are arranged here by editors: zones, and blocks inside them. Exponential Layouts brings the concept of the upstream layouts packages to Exponential." (`README.md`) |
 | 3:10 | Click a block | "Its settings are on the right: what it shows, and how it looks." |
 | 3:40 | **Discard**, confirm | "This was a draft. Discarding it leaves the published page exactly as it was." |
 | 4:10 | Press the **Help** button in the header | "The help is built in. The Help button opens the page that belongs to the screen you are on." ([Help system](../../features/6.0/help-system.md)) |
@@ -139,7 +139,7 @@ siteaccess." ([Which pages use a layout](../layouts-editor.md#which-pages-use-a-
    the side columns change places and text starts at the right." ([Right to left](../../features/6.0/right-to-left.md))
 5. Switch back to English.
 
-Talk track: "268 locale files can be used as content languages; administration translations exist (the current totals are at the top of the languages page)." ([Languages in Exponential](../../languages.md))
+Talk track: "368 locale files can be used as content languages; administration translations exist (the current totals are at the top of the languages page)." ([Languages in Exponential](../../languages.md))
 
 ### Part 4: help and proof (4 minutes)
 
@@ -258,7 +258,7 @@ sends nothing anywhere until a provider key is added (`README.md`).
 | The layouts editor asks whether to clear caches after a publish | The site does not clear its caches by itself | Choose **Clear caches** ([The layouts editor](../layouts-editor.md)) |
 | *Possible edit conflict* | A draft from an earlier demo exists | Open **Manage versions**, discard the old draft; clean drafts before each demo |
 | No **Interface** box in the right column | You are in the edit form, or the role lacks the permission | Leave the edit form; use the administrator account |
-| A language shows English texts | It has no complete administration translation | Say so: ten translations are complete ([Support levels](../../languages.md#2-support-levels)) |
+| A language shows English texts | It has no complete administration translation | Say so: it shows English until a translation exists; the complete ones are listed at the top of the languages page ([Support levels](../../languages.md#2-support-levels)) |
 | No **Intelligence** tab | Not activated for this siteaccess, no policy `expai/write`, or no key | Show the documentation page instead |
 | No **Help** button | The role lacks `exphelp/read` | Grant it ([Help system, Who may read it](../../features/6.0/help-system.md#who-may-read-it)) or use the administrator |
 | A page says *Something went wrong on our side* with a reference | A real error | Note the reference; say it is logged and findable ([When something goes wrong](../when-something-goes-wrong.md)); move on |

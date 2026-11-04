@@ -56,12 +56,12 @@ says so instead of choosing one. Where something could not be checked, it is lef
 - **7x used to be Brookins Consulting.** Brookins Consulting was an eZ Publish partner in the USA
   (<https://se7enx.com/about/exponential-hosting-usa>). 7x grew from it in three stages: the idea in 2014, the start
   of the project in 2022 and its launch in December 2023 ([From Brookins Consulting to 7x](#from-brookins-consulting-to-7x-in-three-stages)).
-- **Nearly thirty years.** The copyright notice of Exponential reads "Copyright (C) 1998 - 2026 7x & Exponential
-  Foundation" next to "Copyright (C) 1999 - 2014 eZ Systems AS"
+- **Nearly thirty years.** The copyright notice of Exponential reads "Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved."
+  next to "Copyright (C) 1999 - 2014 eZ Systems AS"
   ([COPYRIGHT.md](https://github.com/se7enxweb/exponential/blob/main/COPYRIGHT.md)).
 - **One code base, kept alive.** "Exponential has made it beyond it's end of life in 2021 and survived" (README,
   "Exponential Project Status"). Since December 2023 7x has published the 6.0.x releases, from 6.0.0 on
-  1 January 2024 to 6.0.14 on 7 June 2026, with 6.0.15 in development ([release overview](../release-overview)).
+  1 January 2024 to 6.0.14 on 7 June 2026, followed by the current 6.0.15 line ([release overview](../release-overview)).
 - **Not eZ Systems, not Ibexa.** "This project is not associated with the original eZ Publish software or its
   original developer, eZ Systems or Ibexa" (README, "Exponential Project Notice : 2025.08.12";
   <https://exponential.earth/about/project>).
@@ -85,11 +85,11 @@ Nexus, Legacy), Winter CMS and Concrete CMS (<https://se7enx.com/>).
 
 ### 7x and the Exponential Foundation
 
-The copyright holder named in every file of the kernel is "7x & Exponential Foundation" (or "7x / Exponential
-Foundation"): see [COPYRIGHT.md](https://github.com/se7enxweb/exponential/blob/main/COPYRIGHT.md),
+The copyright holder named in every file of the kernel is "Exponential Foundation and 7x", together since
+29 October 2026 ([Copyright and copyleft](copyright-and-copyleft.md)): see [COPYRIGHT.md](https://github.com/se7enxweb/exponential/blob/main/COPYRIGHT.md),
 [LICENSE](https://github.com/se7enxweb/exponential/blob/main/LICENSE) and the header of almost every PHP file, for
-example `autoload.php`. The documentation carries "Copyright (C) 1998 - 2026 7x & Exponential Foundation and the
-Exponential contributors" ([The license of this documentation](../README-LICENSE.md)).
+example `autoload.php`. The documentation carries "Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved."
+([The license of this documentation](../README-LICENSE.md)).
 
 The two are not the same organization. 7x is the company; the Exponential Foundation is a nonprofit corporation,
 founded on 19 March 2026, which names 7x "the current leader in contributions both financial, code, extension
@@ -150,7 +150,7 @@ overview" is the file [doc/eng-us/release-overview](../release-overview), which 
 
 | When | What happened | Source |
 |---|---|---|
-| 1998 | The first year of the copyright notice of 7x and the Exponential Foundation. | COPYRIGHT.md |
+| 1998 | The first year of the copyright notice of the Exponential Foundation and 7x. | COPYRIGHT.md |
 | 1999 | The first year of the copyright of eZ Systems AS in the code base. | COPYRIGHT.md |
 | early 2000 | "The content management system (CMS) eZ Publish was developed by the Norwegian company eZ Systems in early 2000." | <https://se7enx.com/about/exponential-hosting-usa> |
 | 2000 | The founder of 7x starts with "the original source code of eZ Publish Version 1.0 and eZ Trade 1.0 building advanced simple to use e-commerce website applications". | <https://graham.se7enx.com/7x> |
@@ -187,7 +187,7 @@ overview" is the file [doc/eng-us/release-overview](../release-overview), which 
 | 12 March 2026 | The repository `exponential-platform-dxp` is created. | GitHub API |
 | 19 March 2026 | The Exponential Foundation is founded in Seattle, Washington. | <https://foundation.exponential.earth/> |
 | 1 June 2026 | MongoDB 8 as a database. | [June 2026](../history/2026/2026-06a.md) |
-| 7 June 2026 | 6.0.14, the newest tag. | release overview, tag v6.0.14 |
+| 7 June 2026 | 6.0.14 is tagged. | release overview, tag v6.0.14 |
 | July 2026 | `ezpm` in the console, a one-command installer and the Kickstarter; the first commits of the Velocity web server (20 July). | [July 2026](../history/2026/2026-07.md), [Velocity chronicle](../history/velocity/README.md) |
 | 31 July 2026 | The repository `explayouts` (Exponential Layouts) is created. | GitHub API |
 | 22 September 2026 | Velocity arrives in Exponential and becomes the recommended engine within two days. | [September 2026](../history/2026/2026-09b.md) |
@@ -264,7 +264,7 @@ From [doc/eng-us/release-overview](../release-overview) and the git tags (`git t
 | 6.0.4 | 5 September 2024 | The first release after admin3, the responsive administration design |
 | 6.0.5 | 1 October 2024 | |
 | 6.0.6 | 17 December 2024 | |
-| 6.0.7 | 1 February 2025 | The last release for PHP 7.4 |
+| 6.0.7 | 1 February 2025 | The last release for PHP 7.4 until 6.0.15 |
 | 6.0.8 | 2 May 2025 | The first release after PHP 8.4 support began (April 2025) |
 | 6.0.9 | 10 June 2025 | |
 | 6.0.10 | 28 August 2025 | The first release named Exponential |
@@ -272,7 +272,7 @@ From [doc/eng-us/release-overview](../release-overview) and the git tags (`git t
 | 6.0.12 | 10 February 2026 | |
 | 6.0.13 | 18 April 2026 | |
 | 6.0.14 | 7 June 2026 | MongoDB 8 as a database |
-| 6.0.15 | not released yet | Velocity, admin4, audit trail, Exponential Layouts, Exponential Intelligence, the help system and much more ([changelog](../../changelogs/6.0/6.0.15.md)) |
+| 6.0.15 | the date of the tag `v6.0.15` | Velocity, admin4, audit trail, Exponential Layouts, Exponential Intelligence, the help system and much more ([changelog](../../changelogs/6.0/6.0.15.md)) |
 
 A published tag is never changed: "a fix for a problem in `v6.0.14` or an earlier tag reaches you as the next
 release, not as a corrected copy of the old one" ([SECURITY.md](https://github.com/se7enxweb/exponential/blob/main/SECURITY.md)).
@@ -293,9 +293,9 @@ publishing, media portals, intranets, e-commerce and extranets" (<https://expone
 | Framework (CMF) | MVC architecture, modules and views, a template engine, INI settings, a database abstraction layer, CLI scripts, a REST API, stand-alone libraries | [Templates and design](../guides/templates-and-design.md), [REST API v1 and v2](../guides/rest-api-v1-and-v2.md) |
 | E-commerce | "Advanced e-Commerce Stores (Built in)": products, baskets, orders, VAT, currencies, PayPal | README, "Main Exponential features"; [Order receipts](../features/6.0/order-receipts.md), [Order list sorting](../features/6.0/order-list-sorting.md) |
 | Multisite | Several sites from one installation, each a siteaccess with its own host, path, language and design | [Siteaccess host and language matching](../features/6.0/siteaccess-host-and-language-matching.md), [Multi-site settings](../features/6.0/multi-site-ini-overrides.md) |
-| Multilingual | 268 locale files (261 languages and countries) as content languages; administration translations (the current totals are at the top of the languages page) in `share/translations`, English included | [Languages in Exponential](../languages.md) |
+| Multilingual | 368 locale files (361 languages and countries) as content languages; administration translations (the current totals are at the top of the languages page) in `share/translations`, English included | [Languages in Exponential](../languages.md) |
 | Right to left | `dir="rtl"` in content and in the administration for right-to-left languages | [Right to left](../features/6.0/right-to-left.md) |
-| Page building | Exponential Layouts: layouts, zones, blocks and rules, a port of the Netgen Layouts concept | README, "Exponential Layouts"; [The layouts editor](layouts-editor.md) |
+| Page building | Exponential Layouts: layouts, zones, blocks and rules, a port of the concept of the upstream layouts packages | README, "Exponential Layouts"; [The layouts editor](layouts-editor.md) |
 | Writing assistance | Exponential Intelligence (`expai`): writes drafts, never publishes on its own, hosted providers in the US or the EU or a local model | [Exponential Intelligence](../features/6.0/extensions/expai.md) |
 | Security | A Content Security Policy in the administration, two-step sign-in, a tamper-evident audit trail, hardening guides | [Content Security Policy](../features/6.0/content-security-policy.md), [Audit trail](../features/6.0/audit-trail.md), [Security hardening](security-hardening.md) |
 | Help | This help system: the repository's own documentation, searchable, by audience, with context help on every page | [Help system](../features/6.0/help-system.md) |
@@ -305,7 +305,7 @@ publishing, media portals, intranets, e-commerce and extranets" (<https://expone
 
 The supported databases, "in order of preference: 1. SQLite 3 (the default) · 2. PostgreSQL · 3. MongoDB · 4. MariaDB ·
 5. Oracle · 6. MySQL" (README, "Requirements"). Each is described on [Database support](database-support.md). The
-operating systems are sorted into tiers on [Operating system support](os-support.md): "almost any that runs PHP 8.0
+operating systems are sorted into tiers on [Operating system support](os-support.md): "almost any that runs PHP 7.4
 or later".
 
 ## The application stack
@@ -367,7 +367,7 @@ feature lists.
 | **Exponential Platform Legacy** (`exponential-platform-legacy`) | "eZ Platform (+Legacy) distribution": the Symfony platform plus the legacy bridge and `se7enxweb/exponential` | Yes |
 | **Exponential Platform Nexus** (`exponential-platform-nexus`) | "Platform v2/v3/v4/v5 + Exponential v6.x (Legacy) + Netgen Media Site + NG Layouts", with a demo site; requires `netgen/layouts-ui` and `se7enxweb/exponential` | Yes |
 | **Exponential Platform DXP** (`exponential-platform-dxp`) | "A meta package for installing 7x Exponential Platform DXP": Symfony only, with the admin UI, content forms, REST, GraphQL and GraphiQL, HTTP cache, Solr and core search, rich text, matrix and query field types, notifications, messenger, cron and JWT; of the layouts packages it requires only `se7enxweb/layouts-core` | No |
-| **Nexus starter** (`exponential-platform-nexus-starter`) | A ready-to-run Nexus installation built on the DXP package, with Netgen Layouts and the media site data | No |
+| **Nexus starter** (`exponential-platform-nexus-starter`) | A ready-to-run Nexus installation built on the DXP package, with Exponential Layouts and the media site data | No |
 
 The DXP does not ship a layouts editor, an approval workflow, a scheduler or the legacy kernel: its requirements
 contain none of them. When an existing Exponential site has to move forward step by step, the dual-kernel
@@ -434,8 +434,8 @@ come from se7enxweb, [ekked](https://github.com/ekked), [fwoldt](https://github.
 
 Exponential names the companies whose open source work it builds on:
 
-- **Netgen**: Exponential Layouts brings "the Netgen Layouts concept to the Exponential kernel" (README); the Nexus
-  distribution is built on Netgen Media Site and Netgen Layouts; the `se7enxweb/exponential` repository is a GitHub
+- **Netgen**: Exponential Layouts brings "the concept of the upstream layouts packages to the Exponential kernel" (README); the Nexus
+  distribution is built on Netgen Media Site and the upstream layouts packages; the `se7enxweb/exponential` repository is a GitHub
   fork of `netgen/ezpublish-legacy`.
 - **Mugo Web**: their LoveStack improvements were rebuilt in 6.0.15 "with full credit to Mugo Web" (README,
   "Exponential Distribution Integration: LoveStack").
@@ -485,12 +485,12 @@ Counted on 18 October 2026. Numbers change; the command or page in the last colu
 | Oldest commit | 2 September 2002 | `git log --reverse` |
 | Merged pull requests in the history | 1,062 (as of 25 October 2026; the inherited history included) | `git log --oneline --grep="Merge pull request" origin/main \| wc -l` |
 | Merged pull requests on GitHub (se7enxweb/exponential) | 288 (as of 25 October 2026) | GitHub search `repo:se7enxweb/exponential is:pr is:merged` |
-| 6.0.x releases | 15 (6.0.0 to 6.0.14), 6.0.15 in development | `git tag -l 'v6.0.*'` |
+| 6.0.x releases | 15 (6.0.0 to 6.0.14), followed by the current 6.0.15 line | `git tag -l 'v6.0.*'` |
 | se7enxweb packages required by `composer.json` | 66 | composer.json |
 | Packages of the vendor se7enxweb on Packagist | 219 | <https://packagist.org/packages/list.json?vendor=se7enxweb> |
 | Public repositories of the GitHub account se7enxweb | 1,025, of them 95 not forks | `gh repo list se7enxweb --limit 1100` |
 | Changes in the history since December 2023 | 6,556 in 53 repositories, 1,037 by the se7enxweb team | [Ecosystem](../history/ecosystem.md) |
-| Locale files | 268 | [Languages](../languages.md) |
+| Locale files | 368 | [Languages](../languages.md) |
 
 ## How to get involved
 

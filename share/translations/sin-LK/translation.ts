@@ -984,6 +984,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>සොයනු ලබන්නේ මෙම පිටුව පමණි: %count න් %from සිට %to දක්වා.</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>හරයේ සහ දිගුවල සෑම දත්ත වර්ගයක්ම, සහ පන්ති සහ අන්තර්ගතය එය භාවිත කරන ආකාරය.</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>දත්ත වර්ග</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2316,6 +2324,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>පද්ධති පිටු ද පිටු සලකුණු කළ හැක: පිටුව විවෘත කර (පිහිටුවීම, විගණන පථය, පරිශීලකයින්ගේ ලැයිස්තුවක් ...) එයට ඉහළින් "මෙම පිටුව පිටු සලකුණු කරන්න" තෝරන්න. එවැනි පිටු සලකුණුවලට ගියර් අයිකනයක් ඇත.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>ඔබට තවදුරටත් මෙම පිටුව මෙහි විවෘත කිරීමට අවසරය නැත. පිටු සලකුණ ඉවත් කරන්න, නැතහොත් ප්‍රවේශය සඳහා පරිපාලකයෙකුගෙන් ඉල්ලන්න.</translation>
     </message>
 </context>
 <context>
@@ -5165,6 +5177,210 @@
         <source>Go to the first page</source>
         <translation>පළමු පිටුවට යන්න</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>වෙනත්</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>පසුගිය දින 7</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>අභිරුචි කාල පරාසය</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>සියලු වචන</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>ඕනෑම වචනයක්</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>නිශ්චිත වාක්‍ය ඛණ්ඩය</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>අදාළත්වය</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>නම A–Z</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>නම Z–A</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>වෙනස් කළ, නවතම පළමුව</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>වෙනස් කළ, පැරණිතම පළමුව</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>ප්‍රකාශිත, නවතම පළමුව</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>ප්‍රකාශිත, පැරණිතම පළමුව</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>වෙනස් කළ</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>පෙරහන්</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>පෙරහන් පෙන්වන්න</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>පෙරහන් සඟවන්න</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>යළි සකසන්න</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>යොදන්න</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>වචන</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>අන්තර්ගත වර්ගය</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>තවත් පෙන්වන්න (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>එහි එක් ගුණාංගයක සෙවීමට එක් අන්තර්ගත වර්ගයක් තෝරන්න.</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>කොටස</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>මෙයින්</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>වෙත</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>ආරම්භක දිනය වලංගු දිනයක් නොවේ.</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>අවසාන දිනය වලංගු දිනයක් නොවේ.</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>හිමිකරු</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>පරිශීලක ID, පිවිසුම් නාමය හෝ ඊමේල් ලිපිනය.</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>“%input” සඳහා පරිශීලකයෙකු හමු නොවීය.</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>භාෂාව</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>ඕනෑම භාෂාවක්</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>ස්ථානය</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>ස්ථාන %count ක්</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>පිටුවකට ප්‍රතිඵල</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>“%text” සඳහා ප්‍රතිඵල (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>ප්‍රතිඵල (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>අනුව වර්ග කරන්න</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>වර්ග කරන්න</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>සක්‍රිය පෙරහන්</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>මෙම පෙරහන ඉවත් කරන්න</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>නැතහොත් පෙරහන් තෝරා ඒවාට ගැළපෙන අන්තර්ගතය ලැයිස්තුගත කිරීමට ඒවා යොදන්න.</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>ඔබ වචන ටයිප් කළ පසු පෙරහන් සෙවීම පටු කරයි.</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>“%text” සඳහා ප්‍රතිඵල හමු නොවීය.</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>ප්‍රතිඵල හමු නොවීය.</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>ඉහත පෙරහනක් ඉවත් කරන්න.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>පරිවර්තන</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>ක්‍රියා</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>%name සංස්කරණය කරන්න</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>සංස්කරණය කරන්න</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -7514,6 +7730,10 @@
         <source>Setup &gt; Cronjobs</source>
         <translation>පිහිටුවීම &gt; Cron කාර්ය</translation>
     </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>තවමත් කිසිදු cron කාර්ය කොටසක් ධාවනය වී නැත: කාර්ය පෝලිම, ආයාත, දැනුම්දීම් සහ සෙවුම් සුචිය රැඳී සිටී. php bin/php/installcrontab.php --add --apply ධාවනය කරන්න, නැතහොත් --show පෙන්වන පේළි crontab ගොනුවට එක් කරන්න.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/dashboard/drafts</name>
@@ -8058,8 +8278,8 @@
         <translation>මුල් කතුවරුන්ගේ සහ Exponential සමඟ ඇතුළත් තෙවන පාර්ශ්ව මෘදුකාංගවල ප්‍රකාශන හිමිකම් දැන්වීම්, බලපත්‍රය අවශ්‍ය කරන පරිදි, මූල ගොනුවල සහ LICENSE ගොනුවෙහි තබා ඇත.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>පහත දැක්වෙන්නේ eZ Systems Contributor Licensing Agreement හි නියමයන් සහ කොන්දේසි යටතේ 7x විසින් භාවිතා කිරීම සඳහා තමන්ගේ වැඩ බලපත්‍රගත කර ඇති Exponential දායකයින්ගේ ලැයිස්තුවකි. මෙම ගිවිසුම මගින් අවසර දී ඇති පරිදි, 7x සෑම දායකත්වයක්ම එය ඇතුළත් ගොනුවේ බලපත්‍රයටම අනුව නැවත බෙදාහරියි. ලැයිස්තුවේ සෑම දායකයෙකුගේම නම, විකල්ප සම්බන්ධතා තොරතුරු සහ ඔවුන් දායක වූ ගොනු දක්වා ඇත.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>Exponential සහ එය බිහි වූ මෘදුකාංගය සඳහා කළ කාර්යය වෙනුවෙන් ගෞරවය හිමි දායකයින්, ඔවුන් දායක වූ ගොනු සමඟ. මෙය ගෞරව දැක්වීමකි, ප්‍රකාශන හිමිකම් දැන්වීමක් නොවේ: Exponential වෙත දායකත්වයන් Contributor Licensing Agreement යටතේ Exponential Foundation සහ 7x වෙත පවරනු ලැබේ.</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13881,32 +14101,20 @@ Note: The packages will not be uninstalled.</source>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%evaluate_link"&gt;Exponential Enterprise Edition ඇගයීමට ලක් කරන්න&lt;/a&gt; - &lt;a href="%share_link"&gt;Exponential ප්‍රජාවේ සාමාජිකයෙකු වන්න, හුවමාරු කරගන්න සහ දායක වන්න&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; ප්‍රකාශන හිමිකම &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; සහ අනෙකුත්.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class="edition-info"&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>&lt;span class="edition-info"&gt;%edition&lt;/span&gt; මගින් බල ගැන්වේ. වැඩි විස්තර සඳහා &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt; බලන්න.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; ප්‍රකාශන හිමිකම &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; සහ අනෙකුත්.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> වැඩි විස්තර සඳහා &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt; බලන්න.</translation>
     </message>
     <message>
-        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; ප්‍රකාශන හිමිකම &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; සහ අනෙකුත්.</translation>
+        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href="%evaluate_link"&gt;Exponential (7x වෙතින්) ඇගයීමට ලක් කරන්න&lt;/a&gt; - &lt;a href="%share_link"&gt;Exponential ප්‍රජාවේ සාමාජිකයෙකු වන්න, සහාය ලබා ගන්න සහ දායක වන්න&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; ප්‍රකාශන හිමිකම &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; සහ අනෙකුත්.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13915,6 +14123,61 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Help center</source>
         <translation>උදව් මධ්‍යස්ථානය</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>අන්තර්ගතය</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>ලේඛන පිටු</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>පරිශීලකයින්</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>අන්තර්ගත පන්ති</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>පරිපාලනය</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>පිටුව %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>සියලු ප්‍රතිඵල බලන්න</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>ප්‍රතිඵල %count ක්</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>එක් ප්‍රතිඵලයක්</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>යෝජනා %count ක්</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>යෝජනා නැත</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>යෝජනා පූරණය කළ නොහැකි විය.</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>යෝජනා</translation>
     </message>
 </context>
 <context>
@@ -14383,6 +14646,14 @@ Note: The packages will not be uninstalled.</source>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>මෙම ස්ථාපනය පොදු ආදර්ශනයකි: පරිපාලක මුරපදය ඕනෑම කෙනෙකුට දැන ගත හැක, පරිපාලක මුරපද වෙනස් කිරීමට හෝ යළි සැකසීමට නොහැක. මෙහි පෞද්ගලික කිසිවක් ඇතුළත් නොකරන්න.</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>ඔබේ උපාංග</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>ආරක්ෂක ක්‍රියාකාරකම්</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14672,6 +14943,14 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>මාර්ගෝපදේශ, සෙවීම සහ දෝෂයක් වාර්තා කරන ආකාරය.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>මෑත අන්තර්ගතය</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>අලුත්ම අන්තර්ගතය, සමාලෝචනය සඳහා රඳවා ඇති දේ, සහ තේරීමක් මත ක්‍රියා.</translation>
     </message>
 </context>
 <context>
@@ -15130,6 +15409,46 @@ Note: The packages will not be uninstalled.</source>
         <source>Synchronisations</source>
         <translation>සමමුහුර්ත කිරීම්</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>GraphQL API: එහි අන්ත ලක්ෂ්‍යය, ස්කීමාව සහ විමසුම් අත්හදා බැලීමට පරීක්ෂණ පිටියක්.</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>සංක්‍රමණ</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>ගොනු ලෙස තබා ඇති ස්ථාපනයේ වෙනස්කම්: ඒවායේ තත්ත්වය, ධාවන, ධාවනය සහ ආපසු හැරවීම.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>මෑත අන්තර්ගතය</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>අලුත්ම අන්තර්ගතය, සමාලෝචනය සඳහා රඳවා ඇති දේ, සහ තේරීමක් මත ක්‍රියා.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>අඩවියක ස්ථිතික පිටපතක් GitHub Pages හෝ ඕනෑම git සත්කාරකයක ප්‍රකාශනය කරන්න.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>ස්ථිතික ප්‍රකාශනය</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>දත්ත වර්ග</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>හරයේ සහ දිගුවල සෑම දත්ත වර්ගයක්ම, සහ පන්ති සහ අන්තර්ගතය එය භාවිත කරන ආකාරය.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15294,6 +15613,22 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>කිසිවෙක් භාවිත නොකරන හෝ අවධානය අවශ්‍ය ගිණුම්; ඒවා අබල කරන්න, අගුලු හරින්න හෝ අපනයනය කරන්න.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>පරිශීලක විගණන ලොගය</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>ගිණුම අනුව වෙනස් කළේ කවුද, පිවිසියේ කවුද හෝ ප්‍රතික්ෂේප වූයේ කවුද; පෙරහන් කර අපනයනය කරන්න.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>පිවිසුම් වාර්තාව</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>පිවිසී සිටින්නේ කවුද, දිනකට පිවිසුම් සහ අසාර්ථක වීම්; පරිශීලකයෙකු සෑම තැනකින්ම ඉවත් කරවන්න.</translation>
     </message>
 </context>
 <context>
@@ -22110,6 +22445,22 @@ Note: The packages will not be uninstalled.</source>
         <source>%n hours ago</source>
         <translation>පැය %n කට පෙර</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>GraphQL API හි ගබඩා කළ විමසුම්වල පිළිතුරු, සහ එහි ස්කීමාවේ අන්තර්ගත පන්ති.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>ස්ථිතික පිටපතක් GitHub Pages හෝ ඕනෑම git සත්කාරකයක ප්‍රකාශනය කරන්න</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>ස්ථිතික ප්‍රකාශනය</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>ස්ථිතික හැඹිලිය මෙම සේවාදායකයෙන් පිටු සපයයි. අඩවියක ස්ථිතික පිටපතක් වෙනත් තැනක, GitHub Pages හෝ ඕනෑම git සත්කාරකයක ප්‍රකාශනය කිරීමට, ස්ථිතික ප්‍රකාශනය භාවිත කරන්න.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25651,6 +26002,10 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>last purge</source>
         <translation>අවසන් ඉවත් කිරීම</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>ලිවීම්වලට තත්ත්ව අගුල ගැනීමට නොහැකි විය (අවසන් වරට %date): එක් එක් ලිවීම හැඹිලිගත සියලු ප්‍රතිඵල යල් පැන ගිය ඒවා බවට පත් කළේය. අඩවිය ධාවනය වන සෑම පරිශීලකයෙකුටම %file ලිවිය හැකි විය යුතුය; NFS මත එයට NFSv4 හෝ lockd අවශ්‍ය වේ.</translation>
     </message>
 </context>
 <context>
@@ -33599,6 +33954,14 @@ Note: The packages will not be uninstalled.</source>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>PHP හසුරුවන්නාගේ කල් ඉකුත් වූ සැසි ඉවත් කරන්නේ PHP විසින්ම (session.gc_maxlifetime) මිස මෙම පිටුව හෝ session_gc කාලසටහන් කාර්යයේ කොටස නොවේ.</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>සියලු පරිශීලකයින්ගේ පිවිසී ඇති සැසි පිවිසුම් වාර්තාවේ ලැයිස්තුගත වන අතර එතැනින්ම ඉවත් කරවිය හැක; එය සෑම සැසි හසුරුවන්නක් සමඟම ක්‍රියා කරයි.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>පිවිසුම් වාර්තාව විවෘත කරන්න</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37923,6 +38286,26 @@ your account.</source>
     <message>
         <source>None yet</source>
         <translation>තවම නැත</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>ආරක්ෂක ක්‍රියාකාරකම්</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>ඔබේ මෑත පිවිසුම්, අසාර්ථක උත්සාහයන් සහ ඔබේ මුරපදය, ඊමේල් ලිපිනය සහ පියවර දෙකේ පිවිසුමේ වෙනස්කම්.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>මෙම ගිණුමේ මෑත පිවිසුම්, අසාර්ථක උත්සාහයන් සහ ආරක්ෂක වෙනස්කම්.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>ක්‍රියාකාරකම් සමාලෝචනය කරන්න</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>අසාර්ථක පිවිසුම් %count</translation>
     </message>
 </context>
 <context>
@@ -44089,6 +44472,42 @@ If you want to send comments to the approver or view the status use the URL belo
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>පිවිසීමෙන් පසු, වෙනත් කිසිවක් කිරීමට පෙර පරිශීලකයා නව මුරපදයක් තෝරා ගත යුතුය. යමෙකුට තාවකාලික මුරපදයක් ලබා දෙන විට මෙය භාවිතා කරන්න.</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>පවතින රූපයක් තෝරන්න</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>ඔබ තෝරන වස්තුවේ රූප ගොනුව මෙම ක්ෂේත්‍රයට පිටපත් කෙරේ. අනෙක් වස්තුව වෙනස් නොවේ.</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>“%name” හි රූපය මෙම ක්ෂේත්‍රයට පිටපත් කරන ලදී.</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>රූපයක් සඳහා පිරික්සන්න</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>නමින් රූප සොයන්න</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>සොයන්න</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>“%name” හි රූපය භාවිත කරන්න</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>මෙම රූපය භාවිත කරන්න</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>ඔබගේ සෙවුමට ගැළපෙන රූපයක් නැත.</translation>
     </message>
 </context>
 <context>
@@ -51013,6 +51432,10 @@ See the requirements page for more information.</source>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>crontab ලියන ලද්දේ නැත (%reason). මෙම පේළි අඩවිය ධාවනය වන පරිශීලකයාගේ crontab වෙත එක් කරන්න, එසේ නොමැති නම් පෝලිම, ආයාත, දැනුම්දීම් සහ සෙවුම් දර්ශකය කිසිවිටෙකත් ධාවනය නොවේ:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>නැවත ස්ථාපනය කරනු ලබන්නේ kickstarter මගින් (%file, ඉන්පසු php bin/php/kickstarter.php run --apply) හෝ නව ස්ථාපනයක් මගිනි.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54892,6 +55315,10 @@ your account.</source>
         <source>eZJSCore Public Packer cache</source>
         <translation>eZJSCore Public Packer හැඹිලිය</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>GraphQL හැඹිලිය (පිළිතුරු සහ ස්කීමා පන්ති)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54978,6 +55405,14 @@ your account.</source>
     <message>
         <source>Copy of %class_name</source>
         <translation>%class_name හි පිටපත</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>දත්ත වර්ග</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>දත්ත වර්ගය %string</translation>
     </message>
 </context>
 <context>
@@ -55804,6 +56239,26 @@ your account.</source>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>SVG රූපය කියවිය නොහැකි විය, නැතහොත් එහි ඇති කිසිවක් ආරක්ෂිතව පෙන්විය නොහැක.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>රූපය පිටපත් කළ නොහැකි විය. කරුණාකර නැවත උත්සාහ කරන්න හෝ අඩවි පරිපාලක අමතන්න.</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>තෝරාගත් වස්තුව නොපවතී හෝ ඔබට එය කියවීමට අවසර නැත.</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>තෝරාගත් වස්තුවට රූපයක් නැත.</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>තෝරාගත් වස්තුවේ රූප ගොනුව කියවිය නොහැකි විය.</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>තෝරාගත් වස්තුවේ රූපය මෙම ක්ෂේත්‍රය ඉඩ දෙන ප්‍රමාණයට වඩා විශාලය: බයිට %1.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56334,6 +56789,42 @@ your account.</source>
         <source>The bookmark was renamed to "%name".</source>
         <translation>පිටු සලකුණේ නම "%name" ලෙස වෙනස් කරන ලදී.</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>මෙම පිටුව මෙම අඩවි ප්‍රවේශයේ (%siteaccess) අබල කර ඇත. මෙම පිටුව ඇති අඩවි ප්‍රවේශයක පිටු සලකුණ විවෘත කරන්න.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>මෙම පිටුවේ මොඩියුලය මෙහි ස්ථාපනය කර නැත, නැතහොත් සබල කර නැත.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>මෙම පිටුව තවදුරටත් නොපවතී: එහි මොඩියුලයට එවැනි දසුනක් නැත.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>ඔබේ කිසිදු භූමිකාවක් ඔබට මෙම පිටුව විවෘත කිරීමට ඉඩ නොදේ.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>ඔබට මෙම අඩවි ප්‍රවේශය භාවිත කිරීමට අවසරය නැත.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>ඔබට මෙම පිටුව පෙන්වන අන්තර්ගතය කියවීමට අවසරය නැත.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>මෙවැනි පිටුවකට පිටු සලකුණක් එක් කළ නොහැක: එය පෝරමයක් මත පමණක් ක්‍රියා කරයි, නැතහොත් එක් මොහොතකට පමණක් වලංගු පිටුවකි.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>මෙම පිටුවේ ලිපිනය නොමැත.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>මෙම පිටුව දැන් විවෘත කළ නොහැක.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56805,6 +57296,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>අවසන් ධාවනයේදී තැපැල් ප්‍රවාහනය පණිවිඩ %count ක් ප්‍රතික්ෂේප කළේය. තැපැල් සේවාදායකය සහ site.ini MailSettings පරීක්ෂා කරන්න.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>සිදුවීම් %count ක් රැඳී සිටින අතර දැනුම්දීම් cron කාර්යයේ කිසිදු ධාවනයක් සටහන් කර නැත. &quot;frequent&quot; නම් cron කාර්ය කොටස crontab ගොනුවට එක් කරන්න, නැතහොත් exp:notification:run --apply ධාවනය කරන්න.</translation>
     </message>
 </context>
 <context>
@@ -63061,6 +63556,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Choose another site or section with the node picker</source>
         <translation>නෝඩ තෝරකය සමඟ වෙනත් අඩවියක් හෝ කොටසක් තෝරන්න</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>හිමිකරු වෙනස් කළ හැක්කේ පද්ධති පරිපාලකට පමණි: root ලෙස ./console exp:content-check --fix-permissions --apply ධාවනය කරන්න.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64594,6 +65093,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>empty</source>
         <translation>හිස්</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>අත්සන් යතුර වසරකට වඩා පැරණිය: exp:audit key rotate --apply මගින් එය මාරු කරන්න.</translation>
     </message>
 </context>
 <context>
@@ -68424,6 +68927,486 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Share of page time</source>
         <translation>පිටු කාලයේ කොටස</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>සම්පූර්ණ විදැහුම්කරණයක් ඉල්ලා තිබුණි</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>පිටු හැඹිලියේ මෙම පිටුව නොතිබුණි (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>පිටු හැඹිලිය ප්‍රතිචාර නොදැක්වීය</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>විදැහුම් කරන ලදී</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>හරය විසින් විදැහුම් කරන ලදී: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>පිටු හැඹිලියෙන් %ms ms කින් සපයන ලදී. මෙම පිටුව %stored ට %render ms ක විදැහුම්කරණයක් මගින් ගබඩා කරන ලදී, %age s කට පෙර.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>දැන් විදැහුම් කරන්න</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>හැඹිලිගත දසුනට ආපසු</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>%stored හි විදැහුම්කරණයෙන් (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>මෙම ඉල්ලීම: පිටු හැඹිලියෙන් %ms ms කින් සපයන ලදී.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>පරිශීලකයා</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>පරිශීලක ID</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>හැඹිලි පැතිකඩ</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>මෙම දසුන</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>දසුන් හැඹිලිය</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>එක් එක් පරිශීලකයාට (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>පරිශීලකයාගේ හැඹිලි පැතිකඩ: එකම පැතිකඩ ඇති පරිශීලකයින් දසුන් හැඹිලි ගොනු බෙදා ගනී</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ඔව්</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>නැත</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>පිවිසුම් නාමය</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>පිවිසී ඇත</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>සැසිය</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>පරිශීලකයා මත රඳා පවතින අන්තර්ගත දසුන් හැඹිලි යතුරේ කොටස්, යතුර ඒවා ගන්නා ආකාරයටම, මෙම පිටුවේ ViewCacheTweaks යටතේ. එකම පැතිකඩ ඇති පරිශීලකයින් දසුන්වල හැඹිලි ගොනු බෙදා ගනී, දසුනකම කොටස් වෙනස් නොවන්නේ නම් (මනාපයන්, සවන්දෙන්නන්ගේ යතුරු): ඒවාට මෙම පිටුවට පමණක් තමන්ගේම පැතිකඩක් ඇත.</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>පැතිකඩ</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>මෙම දසුන (නෝඩය %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: පිවිසී ඇති සෑම පරිශීලකයෙකුටම තමන්ගේම හැඹිලි ගොනු ඇත.</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>ක්‍රියාත්මක ViewCacheTweaks: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>කොටස</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>අගය</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>කිසිදු කොටසක් පරිශීලකයා මත රඳා නොපවතී (ViewCacheTweaks).</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>මෙම දසුන</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>පෙළ ලෙස පිටපත් කරන්න</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>භූමිකා</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>භූමිකා පැවරීම් කියවිය නොහැකි විය.</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>භූමිකා ID</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>භූමිකාව</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>සීමාව</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>පවරා ඇත්තේ</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>පරිශීලකයාට</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>කණ්ඩායම %name (වස්තුව %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>පිටපත් කරන ලදී</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>පිටපත් කළ නොහැකි විය.</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>සවන්දෙන්නෙකු විසින් ඉවත් කරන ලදී</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>නිර්නාමික අමුත්තන්</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>ඔබගේ හා සමානයි</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>වෙනස්</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>එකම ViewCacheTweaks යටතේ, පෙරනිමි මනාපයන් සමඟ, දසුනේ කොටස් නොමැතිව නිර්නාමික අමුත්තන්ට ලැබෙන පැතිකඩ: සැසිය කියවන සවන්දෙන්නෙකුගෙන් ඒවා ඉල්ලිය නොහැක.</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>මනාපයන්</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>කිසිදු දසුන් ප්‍රකාරයක් පරිශීලක මනාපයන් මත රඳා නොපවතී (site.ini [ContentSettings] CachedViewPreferences).</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>මෙම දසුන් ප්‍රකාරවල දසුන් රඳා පවතින මනාපයන් (CachedViewPreferences), පරිශීලකයාගේ අගය හෝ පෙරනිමිය සමඟ. ඒවා පැතිකඩෙහි userpreferences ලෙස ඇත, සියලු දසුන් ප්‍රකාරවල ඒවා එකට.</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>දසුන් ප්‍රකාරය</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>මනාපය</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>පෙරනිමි</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>ප්‍රතිපත්ති</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>භූමිකාවල ප්‍රතිපත්ති පෙන්වන්න (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>මෙම කොටස විවෘත කළ විට ප්‍රතිපත්ති සේවාදායකයෙන් වරකට එක් පිටුවක් බැගින් පූරණය වන අතර මොඩියුලය සහ ශ්‍රිතය අනුව පෙරහන් කළ හැක.</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>ශ්‍රිතය</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>සියලු මොඩියුල</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>සියලු ශ්‍රිත</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>සීමා</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>තවත් පෙන්වන්න</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>මෙම භූමිකාවලට ප්‍රතිපත්ති නැත.</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>පෙරහනට ගැළපෙන ප්‍රතිපත්තියක් නැත.</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>ප්‍රතිපත්ති %matching න් %shown (මුළු %total)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>විවෘත කළ විට පූරණය වේ.</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>module/function, භූමිකාව, සීමාව</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>ප්‍රතිපත්ති සොයන්න</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>තවත් පූරණය කරන්න</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>මොඩියුලය/ශ්‍රිතය</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>සියලු භූමිකා (ප්‍රතිපත්ති %count)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>ගැලපෙන ප්‍රතිපත්තියක් නැත.</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>ප්‍රතිපත්ති %matched න් %shown</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>පිළිතුරක් නැත</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>වසන ලදී</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>පැහැදිලි කිරීම් පෙන්වන්න</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>පැහැදිලි කිරීම් සඟවන්න</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>විවෘත කරන්න</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>සියල්ල විවෘත කරන්න</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>සියල්ල වසන්න</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>යතුර හෝ අගය</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>සැසිය තුළ සොයන්න</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>වර්ගය</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>තවත් %count</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>පෙන්වීමට නොහැකි තරම් ගැඹුරින් කූඩු කර ඇත</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>කපා ඇත, මුළු අක්ෂර %count</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>ආරම්භ කළා</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>කුකියේ නම</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>සැසි ID</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>හසුරුවනය</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>සුරැකීමේ මාර්ගය</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>PHP පෙරනිමිය</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>ආයු කාලය (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>කුකිය</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>ආයු කාලය %s තත්</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>ඔබගේම PHP සැසිය, කොටස විවෘත කළ මොහොතේ තිබූ ආකාරයටම, කිසිදා වෙනත් කෙනෙකුගේ නොවේ. රහස් ලෙස පෙනෙන යතුරුවල (ටෝකන, හැෂ්, මුරපද) අගයන් වසා ඇත (debugbar.ini SessionMask[]); අනෙක් සියල්ල ගබඩා කළ ආකාරයටම පෙන්වයි, පුද්ගලික දත්ත ද.</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>යතුරු %count, %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>විශාල</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>සැසිය හිස් ය.</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>මෙම ඉල්ලීම සඳහා කිසිදු සැසියක් ආරම්භ කර නැත.</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>දිගුව %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>කර්නලය සහ වෙනත්</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>සියලු ඇතුළත් කිරීම් පෙන්වා නැත: සැසියේ මෙහි ලැයිස්තු ගත කළ හැකි ප්‍රමාණයට වඩා ඇත.</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>යතුරු %count ක් ලැයිස්තු ගත කර නැත.</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>රාමුව</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>ටෝකනයක් ලෙස පෙනෙන අගයන් ද (JSON Web Token එකක්, Authorization ශීර්ෂයක අක්තපත්‍ර, පුද්ගලික යතුරක්, දිගු hex හෝ අහඹු පෙළක්) ඒවායේ යතුරේ නම කුමක් වුවත් වසා ඇත (debugbar.ini SessionValueMask[]).</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>යතුර රහසක් ලෙස පෙනේ (debugbar.ini SessionMask[]).</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>අගය ටෝකනයක් ලෙස පෙනේ.</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>වසන ලද යතුරක් යටතේ.</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>පෙළ ලෙස සැසිය, වගුව මෙන් වසා ඇත.</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>සැසිය %size ට වඩා විශාල ය (debugbar.ini SessionWarnBytes): මෙම පරිශීලකයාගේ සෑම ඉල්ලීමක්ම සම්පූර්ණ සැසිය කියවන අතර, එය වෙනස් වූ විට එය ලියයි.</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP මෙම සැසිය ගොනුවල තබා ගන්නා අතර සම්පූර්ණ ඉල්ලීම පුරා ගොනුව අගුළු දමයි: එකම පරිශීලකයාගේ ඉල්ලීම් (ටැබ් කිහිපයක්, AJAX ඇමතුම්) එකිනෙකා එනතුරු බලා සිටී.</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>විවෘතව තබන්න</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>%size ට වඩා විශාල ය (debugbar.ini SessionWarnBytes): මෙම පරිශීලකයාගේ සෑම ඉල්ලීමක්ම සම්පූර්ණ සැසිය කියවයි.</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%count න් %hits ක් හැඹිලියෙන් කියවා ඇත</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>කිසිදු අච්චුවක් විදැහුම් කර නැත (දසුන් හැඹිලියෙන් කියවූ දසුනක් කිසිවක් විදැහුම් නොකරයි).</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>භූමිකා පැවරුම්</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>භූමිකා සහ ප්‍රතිපත්ති</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>නිර්නාමික අමුත්තන්ට වඩා වෙනස්</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>නිර්නාමික අමුත්තන්ට සමානයි</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70304,6 +71287,14 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>not sent</source>
         <translation>යවා නැත</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>දැනුම්දීම් cron කාර්යය එහි සෑම ධාවනයක්ම මෙහි සටහන් කරයි. frequent කොටස crontab ගොනුවට එක් කරන්න, නැතහොත් exp:notification:run --apply ධාවනය කරන්න.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>කොන්සෝලය භාවිත කරන්න: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -76022,6 +77013,98 @@ You will need to change the class of the node by using the swap functionality.</
         <source>This topic is not Released; readers do not see it.</source>
         <translation>මෙම මාතෘකාව නිකුත් කර නැත; පාඨකයින්ට එය නොපෙනේ.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>සංක්‍රමණ</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>ගොනු ලෙස තබා ඇති ස්ථාපනයේ වෙනස්කම්: ඒවායේ තත්ත්වය, ධාවන, ධාවනය සහ ආපසු හැරවීම.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>අඩවියක ස්ථිතික පිටපතක් GitHub Pages හෝ ඕනෑම git සත්කාරකයක ප්‍රකාශනය කරන්න.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>ස්ථිතික ප්‍රකාශනය</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>සමාලෝචනයේ</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>පාඨකයින්ට මෙම පිටුව පෙනේ.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>යමෙකු නිකුත් කරන තුරු පාඨකයින්ගෙන් සඟවා ඇත.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>පිටුව දැන් සමාලෝචනයේ පවතී. එය නිකුත් කරන තුරු පාඨකයින්ගෙන් සඟවා ඇත.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>පිටුව නිකුත් කර ඇත: පාඨකයින්ට දැන් එය පෙනේ.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>පිටුව නැවතත් කෙටුම්පතකි. එය සමාලෝචනය කර නිකුත් කරන තුරු පාඨකයින්ගෙන් සඟවා ඇත.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>දැන් නිකුත් කරන්න</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>මෙම අනුවාදය නිකුත් කළ හැක්කේ %role භූමිකාව ඇති, එය නොලියූ පරිශීලකයෙකුට පමණි.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>නිකුත් කිරීම සඳහා රැඳී සිටින උදව් මාතෘකා</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>නැවත නිකුත් කරන තුරු එය පාඨකයින්ගෙන් සඟවයි.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>ඊළඟට සමාලෝචකයෙකු එය පරීක්ෂා කරයි. පාඨකයින්ට තවම එය නොපෙනේ.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>පාඨකයින්ට එය වහාම පෙනේ.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>තවත් වැඩ සඳහා එය සමාලෝචනයෙන් ඉවත් කරයි. පාඨකයින්ට එය නොපෙනේ.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>මෙම පිටුව පාඨකයින්ගෙන් සඟවන්නද?</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>මෙම පිටුව කෙටුම්පතට ආපසු යවන්නද?</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>යමෙකු නැවත නිකුත් කරන තුරු පාඨකයින්ට %title තවදුරටත් නොපෙනේ.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title තවත් වැඩ සඳහා කෙටුම්පතට ආපසු යයි. පාඨකයින්ට තවමත් එය නොපෙනේ, නිකුත් කිරීමට පෙර නව සමාලෝචනයක් අවශ්‍යයි.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>අවලංගු කරන්න</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>මෙම මාතෘකා සමාලෝචනයේ ඇත. වත්මන් අනුවාදය නොලියූ අයෙකු ඒවා නිකුත් කළ විගස පාඨකයින්ට ඒවා පෙනේ.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76477,6 +77560,46 @@ You will need to change the class of the node by using the swap functionality.</
         <source>None.</source>
         <translation>කිසිවක් නැත.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>සත්‍යාපන යෙදුමක් සමඟ</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>ඊමේල් මගින් ලැබුණු කේතයක් සමඟ</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>ප්‍රතිසාධන කේතයක් සමඟ</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>පාස්කී එකක් සමඟ</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>බාහිර ගිණුමක් සමඟ</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>ආරක්ෂක ක්‍රියාකාරකම්</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>එහි ජාලය ලෙස පෙන්වයි; අඩවියේ දත්ත ආරක්ෂණ සැකසුම් පවසන පරිදි ලිපිනය තබා ගනී.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>සටහන් කර නැත</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>ස්ථානය</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>ආසන්න වශයෙන්</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76720,6 +77843,42 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Manage devices</source>
         <translation>උපාංග කළමනාකරණය කරන්න</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>සත්‍යාපන යෙදුමක් සමඟ</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>ඊමේල් මගින් ලැබුණු කේතයක් සමඟ</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>ප්‍රතිසාධන කේතයක් සමඟ</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>පාස්කී එකක් සමඟ</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>බාහිර ගිණුමක් සමඟ</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>ආරක්ෂක ක්‍රියාකාරකම්</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>සටහන් කර නැත</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>ස්ථානය</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>ආසන්න වශයෙන්</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76799,6 +77958,14 @@ You will need to change the class of the node by using the swap functionality.</
         <source>View the sessions of this user</source>
         <translation>මෙම පරිශීලකයාගේ සැසි බලන්න</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>%site අඩවියේ ඔබේ ගිණුම %login මගින්, මෑතකදී පිවිසී නොමැති ස්ථානයකින් දැන් පිවිසුමක් සිදු විය:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>ආසන්න ස්ථානය</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76837,6 +78004,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%os මත %browser</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>පිවිසුම් වාර්තාව</translation>
     </message>
 </context>
 <context>
@@ -77045,6 +78216,82 @@ You will need to change the class of the node by using the swap functionality.</
         <source>The passkey could not be checked. Please try again.</source>
         <translation>පාස්කී එක පරීක්ෂා කළ නොහැකි විය. කරුණාකර නැවත උත්සාහ කරන්න.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>පාස්කී වලින් පමණක් පිවිසෙන ගිණුම්වලට මෙහි මුරපදයක් භාවිතා කළ නොහැක: &quot;පාස්කී එකකින් පිවිසෙන්න&quot; තෝරන්න.</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>%login ගේ පාස්කී</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>මෙම ගිණුම පිවිසෙන පාස්කී. නැතිවූ හෝ සොරකම් කළ උපාංගයක ඇති එකක් අහෝසි කරන්න: එයින් තවදුරටත් පිවිසිය නොහැක. අලුත් ඒවා හිමිකරු විසින්ම එක් කරයි.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>ඔබේ ගිණුමට පාස්කී එකක් අවශ්‍යයි</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>ඔබේ ගිණුමට පාස්කී එකක් එක් කරන්න</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>ඉදිරියට යාමට පාස්කී එකක් එක් කරන්න. ඉන්පසු ඔබ මුරපදයකින් පමණක් නොව එයින් පිවිසෙනු ඇත.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>පාස්කී එකකින් පිවිසීම මුරපදයකට වඩා වේගවත් හා ආරක්ෂිතයි. දැන්ම එකක් එක් කරන්න, නැතහොත් එය නොමැතිව ඉදිරියට යන්න.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>දැන් නොවේ</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>&quot;%name&quot; පාස්කී එක අහෝසි කරන්නද?</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>එයින් තවදුරටත් මෙම ගිණුමට පිවිසිය නොහැක. එය අවසාන එක නම්, හිමිකරු මුරපදයෙන් පිවිසෙයි, නැතහොත් ඔබ අලුත් එකක් සකසයි.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>පාස්කී එක අහෝසි කරන්න</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>අහෝසි කරන්න</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>මෙම ගිණුමට පාස්කී එකක් නැත.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>සත්‍යාපකය</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>නොදන්නා</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>ඔබේ අවසාන පාස්කී එක: එය ඉවත් කිරීමට පෙර තවත් එකක් එක් කරන්න.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>මෙම ගිණුම පාස්කී වලින් පමණක් පිවිසෙයි (පාස්කී ප්‍රතිපත්තිය): කිසිවක් ඉතිරි නැති විට, එය නැවත සිය මුරපදයෙන් පිවිසෙයි.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>මෙය ඔබේ අවසාන පාස්කී එක වන අතර එකක් නොමැතිව ඔබේ ගිණුමට පිවිසිය නොහැක. පළමුව තවත් පාස්කී එකක් එක් කරන්න.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>&quot;%name&quot; පාස්කී එක අහෝසි කර ඇත. එයින් තවදුරටත් මෙම ගිණුමට පිවිසිය නොහැක.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77144,6 +78391,34 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Code from your authenticator app</source>
         <translation>ඔබේ සත්‍යාපන යෙදුමේ කේතය</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>ඔබ දත්ත ස්ථිරවම මකා දැමීමට හෝ ලොගයක් හිස් කිරීමට යන්නේය.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>ඔබේ මුරපදය සහ පාස්කී එකක්</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>ඔබේ මුරපදය සහ ඔබේ සත්‍යාපක යෙදුමේ කේතයක්</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>නැතහොත්:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>මෙම බ්‍රව්සරයට පාස්කී භාවිතා කළ නොහැක. වෙනත් ක්‍රමයක් හෝ වෙනත් බ්‍රව්සරයක් භාවිතා කරන්න.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>ඔබ ඉදිරියට යන විට, ඔබේ බ්‍රව්සරය ඔබේ පාස්කී වලින් එකක් ඉල්ලයි.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>පාස්කී එකකින් ඉදිරියට යන්න</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77234,6 +78509,70 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Setup</source>
         <translation>පිහිටුවීම</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>තමාගේම මුරපදය, ඊමේල් ලිපිනය, පාස්කී, පියවර දෙකේ පිවිසුම, ප්‍රතිසාධන කේත හෝ API යතුරු වෙනස් කිරීම සහ තමාගේ අනෙකුත් උපාංගවලින් ඉවත් වීම.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>පරිශීලකයින්, ඔවුන්ගේ මුරපද සහ උපාංග, ගිණුම් සැකසුම් සෑදීම සහ සංස්කරණය, නව පරිශීලක ගිණුම් අනුමත කිරීම හෝ ප්‍රතික්ෂේප කිරීම, භූමිකා පැවරීම සහ ප්‍රතිපත්ති සංස්කරණය.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>දත්ත මකා දැමීම</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>කුණු බඳුන හිස් කිරීම, එයින් අයිතම ඉවත් කිරීම සහ අයිතම කිහිපයක් එකවර ඉවත් කිරීම.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>අන්තර්ගතය ඉවත් කිරීම, ප්‍රකාශනය සහ සුරැකීම</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>අන්තර්ගතය ඉවත් කිරීම (කුණු බඳුනට ද), ප්‍රකාශනය සහ කෙටුම්පතක් සුරැකීම, පෝරමය යවන විට අසයි. පෙරනිමියෙන් අක්‍රියයි.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>සංවේදී ක්‍රියාවකට පෙර පිවිසී ඇති පරිශීලකයා තමා කවුදැයි නැවත තහවුරු කරයි: සිය මුරපදය සහ පාස්කී එකකින්, නැතහොත් පාස්කී එකක් නොමැතිව සිය මුරපදය සහ සත්‍යාපක යෙදුමේ කේතයෙන්. වෙබ් පිටු පමණක් අසයි: REST අතුරුමුහුණත, SOAP, WebDAV, expservices පිවිසුම සහ විධාන රේඛාව කිසිදා නොඅසයි.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>සැකසුම් අදාළ වන්නේ කොතැනද</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>සැකසුම් සඳහා</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>සෑම අඩවි ප්‍රවේශයක්ම</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>අඩවි ප්‍රවේශය %name</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>විවෘත කරන්න</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>අසනු ලබන්නේ කාගෙන්ද: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>ඔවුන්ගේ සාමාජිකයින්ගෙන් පමණක් ඇසීමට පරිශීලක සමූහ ලකුණු කරන්න (උදාහරණයක් ලෙස සංස්කාරකවරුන්). කිසිවක් ලකුණු කර නැත: සෑම පරිශීලකයෙක්ම.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>settings/override/site.ini.append.php හි, සෑම අඩවි ප්‍රවේශයක් සඳහාම සුරැකේ. සුරැකීමේදී එය ඔබ බව තහවුරු කිරීමට ඉල්ලයි.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>settings/siteaccess/%name/site.ini.append.php හි සුරැකේ. settings/override හි ඇති අගයට ප්‍රමුඛතාව ඇත. සුරැකීමේදී එය ඔබ බව තහවුරු කිරීමට ඉල්ලයි.</translation>
     </message>
 </context>
 <context>
@@ -77336,6 +78675,6822 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Open the page</source>
         <translation>පිටුව විවෘත කරන්න</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from සිට %to දක්වා, මුළු %count</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>පිවිසුම් නාමයක් හෝ පරිශීලක ID එකක්: සිදුවීම අදාළ වූ ගිණුම හෝ ක්‍රියා කළ පරිශීලකයා.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>ගිණුම</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>ක්‍රියාව</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>පසු</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>ඕනෑම ප්‍රතිඵලයක්</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>පෙර</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>කළේ</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>හිස් කරන්න</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>සාර්ථකයි</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>සිදුවීම් දින %days ක් තබා ගැනේ.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>සිදුවීම් අතින් ඉවත් කරන තෙක් තබා ගැනේ.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>සිදුවීම්</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>සියලු ක්‍රියා</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>මෙම ගිණුමේ සියලු සිදුවීම්</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>ලැයිස්තුව CSV ලෙස අපනයනය කරන්න (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>අසාර්ථකයි</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>සිට</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>ලැයිස්තුව සීමා කරන්න</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>කිසිදු සිදුවීමක් නොගැළපේ.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>පිටුවකට</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>audit.ini ([UserAuditSettings] UserAudit) තුළ වාර්තා කිරීම අක්‍රිය කර ඇත; ලැයිස්තුව පෙර වාර්තා කළ දේ පෙන්වයි.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>ප්‍රතික්ෂේපිතයි</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>ප්‍රතිඵලය</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>පෙන්වන්න</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>පරිශීලක විගණන ලොගයේ වගුව නොමැත. php update/common/scripts/6.0/createuseraudittable.php මගින් එය සාදන්න; එතෙක් විගණන ගොනු සෑම සිදුවීමක්ම තබා ගනී.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>මෙම පිටුවට SQL දත්ත සමුදායක් අවශ්‍යයි; එය MongoDB මත ලබා ගත නොහැක. විගණන ගොනු සෑම සිදුවීමක්ම තබා ගනී.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>දක්වා</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>පරිශීලක විගණන ලොගය</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>පරිශීලකයා</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>කවදා</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>කොහේ</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>කවුරුන් කුමන ගිණුම වෙනස් කළේද, සෑදුවේද, සබල කළේද, අබල කළේද, ගෙන ගියේද හෝ ඉවත් කළේද, කවුරුන් පිවිසියේද හෝ ප්‍රතික්ෂේප වූයේද, සහ කුමන භූමිකා පවරා දුන්නේද: සිදුවීමකට එක් පේළියක්, පෙර සහ පසු ක්ෂේත්‍ර සමඟ. මුරපද සහ රහස් කිසි විටෙක වාර්තා නොකෙරේ.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>සමූහය</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>පද්ධතිය</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>නොදන්නා</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>ඔබේ ගිණුම සුරක්ෂිත කරන්න</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>%site අඩවියේ ඔබේ ගිණුම %login වෙත පිවිසීමට ප්‍රතිසාධන කේතයක් භාවිත කරන ලදී.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>ප්‍රතිසාධන කේතයක් භාවිත කරන ලදී</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>ගිණුම</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>ආසන්න ලිපිනය</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>නැවත පිවිසීමට නව මුරපදයක් ඉල්ලන්න, නැතහොත් අඩවියේ පරිපාලකයින් අමතන්න.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>නව මුරපදයක් ඉල්ලන්න</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>සෑම ප්‍රතිසාධන කේතයක්ම එක් වරක් පමණක් ක්‍රියා කරයි. ඔබේ දුරකථනය නැති වූයේ නම්, ඔබේ සත්‍යාපන යෙදුම නැවත සකසා නව ප්‍රතිසාධන කේත ආරක්ෂිත ස්ථානයක තබා ගන්න.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>ඔබේ ගිණුමේ අසාර්ථක පිවිසුම් උත්සාහයන්</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>මෙතැන් සිට පිවිසීමේදී ඔබේ මුරපදයට අමතරව කේතයක් ද ඉල්ලනු ඇත. මෙය කළේ ඔබ නම්, ඔබ කිසිවක් කළ යුතු නැත.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>එය ඔබ නම් සහ ඔබට මුරපදය අමතක වී ඇත්නම්, නව එකක් ඉල්ලන්න. එසේ නොවේ නම්, වඩා ශක්තිමත් මුරපදයක් තෝරා පියවර දෙකේ පිවිසුම සක්‍රිය කරන්න.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>මෙය ඔබ නොවේ නම්, යමෙකු ඔබේ මුරපදය දන්නවා විය හැක: දැන්ම එය වෙනස් කර ඔබේ ගිණුම පිවිසී ඇත්තේ කොතැනද යන්න පරීක්ෂා කරන්න.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>ඉතිරි ප්‍රතිසාධන කේත</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>ඔබේ උපාංග සමාලෝචනය කරන්න</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>ආරක්ෂක ඇඟවීම</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>යමෙකු %site අඩවියේ ඔබේ ගිණුම %login වෙත වැරදි මුරපදයක් සමඟ අඛණ්ඩව %count වරක් පිවිසීමට උත්සාහ කළේය.</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>%site අඩවියේ ඔබේ ගිණුම %login හි ආරක්ෂක සිදුවීමක් සිදු විය.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>මෙය ඔබේ ගිණුම පිළිබඳ ආරක්ෂක ඇඟවීමකි. එවැනි සෑම වෙනසක් සඳහාම මෙය යවනු ලබන අතර එය අක්‍රිය කළ නොහැක.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>වේලාව</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>%site අඩවියේ ඔබේ ගිණුම %login සඳහා පියවර දෙකේ පිවිසුම අක්‍රිය කරන ලදී.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>පියවර දෙකේ පිවිසුම අක්‍රිය කරන ලදී</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>%site අඩවියේ ඔබේ ගිණුම %login සඳහා පියවර දෙකේ පිවිසුම සක්‍රිය කරන ලදී.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>පියවර දෙකේ පිවිසුම සක්‍රිය කරන ලදී</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>අසාර්ථක පිවිසුම් බොහොමයකට පසු %site අඩවියේ ඔබේ ගිණුම %login අගුළු දමන ලදී.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>ඔබේ ගිණුම දැන් ආරක්ෂා වන්නේ ඔබේ මුරපදයෙන් පමණි. මෙය ඔබ නොකළේ නම්, ඔබේ මුරපදය වෙනස් කළ පසු පියවර දෙකේ පිවිසුම නැවත සක්‍රිය කරන්න.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>ඔබේ ගිණුම අගුළු දමන ලදී</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>%site හි ඔබේ %login ගිණුමට පාස්කී එකක් එක් කරන ලදී.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>මෙම පාස්කී එක ඇති ඕනෑම අයෙකුට ඔබේ මුරපදය නොමැතිව ඔබේ ගිණුමට පිවිසිය හැක. ඔබ එය එක් නොකළේ නම්, පාස්කී යටතේ එය ඉවත් කර ඔබේ මුරපදය වෙනස් කරන්න.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>%site හි ඔබේ %login ගිණුමෙන් පාස්කී එකක් ඉවත් කරන ලදී.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>එයින් තවදුරටත් ඔබේ ගිණුමට පිවිසිය නොහැක. ඔබ එය ඉවත් නොකළේ නම්, ඔබේ පාස්කී සහ උපාංග පරීක්ෂා කරන්න.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>ඔබේ ගිණුමට පාස්කී එකක් එක් කරන ලදී</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>ඔබේ ගිණුමෙන් පාස්කී එකක් ඉවත් කරන ලදී</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>ආරක්ෂක ක්‍රියාකාරකම්</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>%name ගේ ආරක්ෂක ක්‍රියාකාරකම්</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>පිවිසුණු</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>අසාර්ථක පිවිසුම් උත්සාහය</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>ඉවත් විය</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>සැසි ඉවත් කරවන ලදී</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>නව උපාංගයකින් පිවිසුම</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>නව ස්ථානයකින් පිවිසුම</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>අනන්‍යතාව තහවුරු විය (&quot;ඔබ බව තහවුරු කරන්න&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>අනන්‍යතා පරීක්ෂාව අසාර්ථක විය</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>පාස්කී සමඟ පිවිසුණු</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>පාස්කී පිවිසුම අසාර්ථක විය</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>පිවිසුම ප්‍රතික්ෂේප විය: පියවර දෙකේ කේතය නැත හෝ වැරදිය</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>වැරදි පියවර දෙකේ කේතය</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>අසාර්ථක පිවිසුම් නිසා ගිණුම අගුළු දමන ලදී</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>ගිණුමේ අගුළ ඇරින ලදී</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>මුරපදය වෙනස් කරන ලදී</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>මුරපදය වෙනස් කිරීම අසාර්ථක විය</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>මුරපදය යළි සකසන ලදී</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>නව මුරපදයක් ඉල්ලන ලදී</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>ඊමේල් ලිපිනය වෙනස් කරන ලදී</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>පරිශීලක නාමය වෙනස් කරන ලදී</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>පියවර දෙකේ පිවිසුම සක්‍රිය කරන ලදී</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>පියවර දෙකේ පිවිසුම අක්‍රිය කරන ලදී</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>ප්‍රතිසාධන කේතය භාවිත කරන ලදී</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>නව ප්‍රතිසාධන කේත</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>යෙදුම් මුරපදය සාදන ලදී</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>යෙදුම් මුරපදය අවලංගු කරන ලදී</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>පාස්කී එක් කරන ලදී</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>පාස්කී ඉවත් කරන ලදී</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>ගිණුම සබල කරන ලදී</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>ගිණුම අබල කරන ලදී</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>සියල්ල</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>පිවිසුම් සහ සැසි</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>ගිණුම් වෙනස්කම්</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>අවධානය අවශ්‍යයි</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>ඔබ විසින්</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>පරිශීලකයා විසින්</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>කළේ: %login</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>ක්‍රමය</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>බ්‍රව්සරය</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>මෙහෙයුම් පද්ධතිය</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>උපාංගය</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>ස්ථානය</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>රට</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>සැසි</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>කුමක්ද</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>යැවූ මාර්ගය</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>අසාර්ථක උත්සාහයන්</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>ඉතිරි කේත</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>පිවිසුම් හසුරුවන්නා</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>ආරක්ෂක ක්‍රියාකාරකම්</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>%name ගේ ආරක්ෂක ක්‍රියාකාරකම්</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>ඔබේ ගිණුමේ පිවිසුම් සහ ආරක්ෂාවේ වෙනස්කම්. ඔබ නොකළ දෙයක් දුටුවහොත්, ඔබේ මුරපදය වෙනස් කර ඔබ හඳුනා නොගන්නා උපාංග ඉවත් කරවන්න.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>මෙම ගිණුමේ පිවිසුම් සහ ආරක්ෂාවේ වෙනස්කම්.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>ඔබේ උපාංග</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>මුරපදය වෙනස් කරන්න</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>ගිණුමට ආපසු</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>ආරක්ෂක ක්‍රියාකාරකම් සටහන් නොවේ</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>එය කියවනු ලබන්නේ පරිශීලක විගණන ලොගයෙනි, එහි වගුව expuser_audit නොමැත හෝ මෙම දත්ත සමුදායේ සහාය නොදක්වයි. php update/common/scripts/6.0/createuseraudittable.php ධාවනය කරන්න, නැතහොත් 6.0.15 හි දත්ත සමුදා යාවත්කාලීනය ධාවනය කරන්න.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>පසුගිය දින %days</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>පසුගිය දින %days තුළ පිවිසුම්</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>මෑත ආරක්ෂක ක්‍රියාකාරකම්</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>පෙන්වන්න</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>අසාර්ථකයි</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>ප්‍රතික්ෂේපිතයි</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>තවමත් කිසිදු ආරක්ෂක ක්‍රියාකාරකමක් සටහන් කර නැත.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>ආරක්ෂක සිදුවීම් දින %days ක් තබා ගනී.</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>පරිපාලකයෙකු ඉවත් කරන තුරු ආරක්ෂක සිදුවීම් තබා ගනී.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>මගේ පිවිසුම් දත්ත බාගන්න</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>ඔබේ සැසි සහ ආරක්ෂක සිදුවීම් JSON ගොනුවක් ලෙස.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>මෙම අඩවියේ සැසි සටහන් නොකරන බැවින් වෙනත් කිසිදු උපාංගයක් ඉවත් කළ නොහැකි විය. දැන්ම ඔබේ මුරපදය වෙනස් කරන්න.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>වෙනත් සැසි %count ක් ඉවත් කරන ලදී. දැන් ඔබේ මුරපදය වෙනස් කරන්න.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>වෙනත් කිසිදු උපාංගයක් පිවිසී නොතිබුණි. දැන් ඔබේ මුරපදය වෙනස් කරන්න.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>ස්තූතියි. මෙම සිදුවීම ඔබේ ලෙස සලකුණු කර ඇත.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>එම සිදුවීමට පිළිතුරක් අවශ්‍ය නැත.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>පිටුව කල් ඉකුත් වී තිබුණි. කිසිවක් වෙනස් කළේ නැත; කරුණාකර නැවත උත්සාහ කරන්න.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>ඔබේ ගිණුම සුරක්ෂිත කරන්න</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>මෙහි යමක් ඔබ නොකළේ නම්, අනෙකුත් සියලු උපාංග ඉවත් කර, ඉන්පසු නව මුරපදයක් තෝරන්න. මාව මතක තබාගන්න මගින් පිවිසී තිබූ උපාංග ද ඉවත් කෙරේ.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>මෙය හැර සියලු උපාංග ඊළඟ ඉල්ලීමේදී ඉවත් කෙරේ. ඉන්පසු ඔබ නව මුරපදයක් තෝරයි.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>ඔව්, අනෙකුත් උපාංග ඉවත් කරන්න</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>මෙය ඔබද?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>ඔව්, එය මම</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>නැත, මගේ ගිණුම සුරක්ෂිත කරන්න</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>පිවිසුණු</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>අසාර්ථක පිවිසුම් උත්සාහය</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>ඉවත් විය</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>සැසි ඉවත් කරවන ලදී</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>නව උපාංගයකින් පිවිසුම</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>නව ස්ථානයකින් පිවිසුම</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>අනන්‍යතාව තහවුරු විය (&quot;ඔබ බව තහවුරු කරන්න&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>අනන්‍යතා පරීක්ෂාව අසාර්ථක විය</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>පාස්කී සමඟ පිවිසුණු</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>පාස්කී පිවිසුම අසාර්ථක විය</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>පිවිසුම ප්‍රතික්ෂේප විය: පියවර දෙකේ කේතය නැත හෝ වැරදිය</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>වැරදි පියවර දෙකේ කේතය</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>අසාර්ථක පිවිසුම් නිසා ගිණුම අගුළු දමන ලදී</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>ගිණුමේ අගුළ ඇරින ලදී</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>මුරපදය වෙනස් කරන ලදී</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>මුරපදය වෙනස් කිරීම අසාර්ථක විය</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>මුරපදය යළි සකසන ලදී</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>නව මුරපදයක් ඉල්ලන ලදී</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>ඊමේල් ලිපිනය වෙනස් කරන ලදී</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>පරිශීලක නාමය වෙනස් කරන ලදී</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>පියවර දෙකේ පිවිසුම සක්‍රිය කරන ලදී</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>පියවර දෙකේ පිවිසුම අක්‍රිය කරන ලදී</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>ප්‍රතිසාධන කේතය භාවිත කරන ලදී</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>නව ප්‍රතිසාධන කේත</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>යෙදුම් මුරපදය සාදන ලදී</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>යෙදුම් මුරපදය අවලංගු කරන ලදී</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>පාස්කී එක් කරන ලදී</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>පාස්කී ඉවත් කරන ලදී</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>ගිණුම සබල කරන ලදී</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>ගිණුම අබල කරන ලදී</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>සියල්ල</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>පිවිසුම් සහ සැසි</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>ගිණුම් වෙනස්කම්</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>අවධානය අවශ්‍යයි</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>ආරක්ෂක ක්‍රියාකාරකම්</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>%name ගේ ආරක්ෂක ක්‍රියාකාරකම්</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>ඔබේ ගිණුමේ පිවිසුම් සහ ආරක්ෂාවේ වෙනස්කම්. ඔබ නොකළ දෙයක් දුටුවහොත්, ඔබේ මුරපදය වෙනස් කර ඔබ හඳුනා නොගන්නා උපාංග ඉවත් කරවන්න.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>ඔබේ උපාංග</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>මුරපදය වෙනස් කරන්න</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>මෙම අඩවියේ ආරක්ෂක ක්‍රියාකාරකම් තවමත් සටහන් නොවේ.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>පසුගිය දින %days තුළ පිවිසුම්</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>අසාර්ථක උත්සාහයන්</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>තවමත් කිසිදු ආරක්ෂක ක්‍රියාකාරකමක් සටහන් කර නැත.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>මගේ පිවිසුම් දත්ත බාගන්න</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>ඔබේ සැසි සහ ආරක්ෂක සිදුවීම් JSON ගොනුවක් ලෙස.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>මෙම අඩවියේ සැසි සටහන් නොකරන බැවින් වෙනත් කිසිදු උපාංගයක් ඉවත් කළ නොහැකි විය. දැන්ම ඔබේ මුරපදය වෙනස් කරන්න.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>වෙනත් සැසි %count ක් ඉවත් කරන ලදී. දැන් ඔබේ මුරපදය වෙනස් කරන්න.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>වෙනත් කිසිදු උපාංගයක් පිවිසී නොතිබුණි. දැන් ඔබේ මුරපදය වෙනස් කරන්න.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>ස්තූතියි. මෙම සිදුවීම ඔබේ ලෙස සලකුණු කර ඇත.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>එම සිදුවීමට පිළිතුරක් අවශ්‍ය නැත.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>පිටුව කල් ඉකුත් වී තිබුණි. කිසිවක් වෙනස් කළේ නැත; කරුණාකර නැවත උත්සාහ කරන්න.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>ඔබේ ගිණුම සුරක්ෂිත කරන්න</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>මෙහි යමක් ඔබ නොකළේ නම්, අනෙකුත් සියලු උපාංග ඉවත් කර, ඉන්පසු නව මුරපදයක් තෝරන්න. මාව මතක තබාගන්න මගින් පිවිසී තිබූ උපාංග ද ඉවත් කෙරේ.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>මෙය හැර සියලු උපාංග ඊළඟ ඉල්ලීමේදී ඉවත් කෙරේ. ඉන්පසු ඔබ නව මුරපදයක් තෝරයි.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>ඔව්, අනෙකුත් උපාංග ඉවත් කරන්න</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>මෙය ඔබද?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>ඔව්, එය මම</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>නැත, මගේ ගිණුම සුරක්ෂිත කරන්න</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>මුරපදය</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>මුරපදය සහ පියවර දෙකේ කේතය</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>REST අතුරුමුහුණත</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>SOAP අතුරුමුහුණත</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>තනි පිවිසුම (SSO)</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>සැසි සටහන් කිරීමට පෙර පිවිසුණු</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>පිවිසුම් වාර්තාව</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>අඩවියට පිවිසී සිටින්නේ කවුද, ගිණුම් කොපමණ වාර ගණනක් පිවිසෙන්නේද සහ අසාර්ථක වන්නේද, සහ පරිශීලකයෙකු සෑම තැනකින්ම ඉවත් කරවීම. මෙය සෑම සැසි හසුරුවන්නක් සමඟම ක්‍රියා කරයි.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>සැසිය ඉවත් කරවන ලදී. උපාංගය නැවත පිවිසිය යුතුය.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>%login සැසි %count කින් ඉවත් කරවන ලදී.</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>%login සඳහා ධාවනය වන සැසියක් නොතිබුණි.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>මෙම ID, පරිශීලක නාමය හෝ ඊමේල් ලිපිනය ඇති ගිණුමක් නැත.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>මෙය ඔබ භාවිත කරන සැසියයි. එය අවසන් කිරීමට ඉවත් වන්න.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>එම සැසිය දැනටමත් අවසන් වී තිබුණි.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>පිටුව කල් ඉකුත් වී තිබුණි. කිසිවක් වෙනස් නොකළේය; කරුණාකර නැවත උත්සාහ කරන්න.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>මෙම අඩවියේ සැසි සටහන් නොකෙරේ (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>expuser_session වගුව නොමැත</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>එය සෑදූ විගස සැසි සටහන් වේ: php update/common/scripts/6.0/createusersessiontable.php, නැතහොත් 6.0.15 හි දත්ත සමුදා යාවත්කාලීනය.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>දැන් සහ අද</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>ධාවනය වන සැසි</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>පිවිසී සිටින පරිශීලකයින්</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>අද පිවිසුම්</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>අද අසාර්ථක උත්සාහයන්</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>පරිශීලකයෙකු සෑම තැනකින්ම ඉවත් කරවන්න</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>ගිණුමේ සෑම සැසියක්ම එහි මීළඟ ඉල්ලීමේදී අවසන් වේ, &quot;මාව මතක තබාගන්න&quot; මගින් තබා ගත් ඒවා ද ඇතුළුව. ගිණුමක් වැරදි අතට පත්ව ඇති බවට සැකයක් ඇති විට මෙය භාවිත කරන්න; ඉන්පසු එහි මුරපදය යළි සකසන්න.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>පරිශීලක ID, පරිශීලක නාමය හෝ ඊමේල් ලිපිනය</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>සෑම තැනකින්ම ඉවත් කරවන්න</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>දැන් පිවිසී සිටින</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>වඩාත් මෑතකදී භාවිත කළ %limit පෙන්වයි.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>පරිශීලකයා</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>උපාංගය</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>ලිපිනය</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>පිවිසුණු</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>අවසන් වරට සක්‍රිය</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>ක්‍රියා</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>මෙම උපාංගය</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>සටහන් කර නැත</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>ඉවත් කරවන්න</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>කිසිදු සැසියක් පිවිසී නැත.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>පසුගිය දින %days</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>පිවිසුම් සහ අසාර්ථක උත්සාහයන් ගණන් කරනු ලබන්නේ පරිශීලක විගණන ලොගයෙනි, එය නොමැත; නව සැසි ගණන් කෙරේ.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>දිනය</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>පිවිසුම්</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>අසාර්ථක උත්සාහයන්</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>නව සැසි</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>සැසි හසුරුවන්නා: %handler. සැසි කියවනු ලබන්නේ expuser_session වගුවෙන් බැවින්, වාර්තාව සෑම හසුරුවන්නක් සමඟම ක්‍රියා කරයි.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>පසුගිය පැය %hours තුළ සැක සහිත ක්‍රියාකාරකම්</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>එක් ජාලයක් ගිණුම් %accounts කට පිවිසීමට අසමත් විය (උත්සාහයන් %count)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>අසාර්ථක පිවිසීම් නිසා ගිණුම අගුළු දමා ඇත</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>එක් ගිණුමක අසාර්ථක පිවිසීම් %count</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>එකවර රටවල් %count කින් පිවිසී ඇත</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>ආරක්ෂක ක්‍රියාකාරකම්</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>සැසි</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>අසාර්ථක පිවිසීම් පරිශීලක විගණන ලොගයෙන් කියවනු ලැබේ, එය මෙහි ලබා ගත නොහැක.</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>සැක සහිත කිසිවක් නැත: නැවත නැවත අසාර්ථක පිවිසීම් ඇති ගිණුමක් නැත, ගිණුම් කිහිපයක් උත්සාහ කරන ජාලයක් නැත, රටවල් කිහිපයකින් පිවිසි ගිණුමක් නැත.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>ඔබේ ගිණුම සඳහා ආරක්ෂක ඇඟවීම</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>ඔබේ ගිණුම %login හි ආරක්ෂක සිදුවීමක් සිදු විය: %event. මෙය ඔබ නොවේ නම්, %url හි ඔබේ ගිණුම සුරක්ෂිත කරන්න.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>පිහිටුවීම</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>පිටුවකට අවශ්‍ය ක්ෂේත්‍ර පමණක් නිවැරදිව, එක් ඉල්ලීමකින් මෙම අඩවියේ අන්තර්ගතයෙන් ඉල්ලන්න. ස්කීමාව අන්තර්ගත පන්ති අනුගමනය කරයි; සෑම විමසුමක්ම එය යවන පරිශීලකයාගේ අයිතිවාසිකම් සමඟ ක්‍රියාත්මක වේ.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>මෙම අඩවි ප්‍රවේශයේ GraphQL API අක්‍රිය කර ඇත. එය graphql.ini හි සක්‍රිය කරන්න: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>GraphQL පුස්තකාලය (webonyx/graphql-php 15) ස්ථාපනය කර නැත.</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>අන්ත ලක්ෂ්‍යය</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>පුස්තකාලය</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>ස්කීමාව</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>අන්තර්ගත පන්ති %count, ස්කීමාව %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>විමසුම</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>විචල්‍ය (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>ධාවනය කරන්න</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>පිළිතුර</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>ධාවනය වෙමින්…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>පිළිතුර කියවිය නොහැකි විය.</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>මෙම සැසියෙන් පුරනය වී, ඔබගේ අයිතිවාසිකම් සමඟ විමසුම ක්‍රියාත්මක වේ.</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>තත්. %seconds තුළ %count</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>සීමාවක් නැත</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>ගැඹුර</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>සංකීර්ණත්වය</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>ලැයිස්තුවකට අයිතම</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (පෙරනිමි %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>පරිශීලකයෙකුට හෝ යතුරකට ඉල්ලීම්</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>නිර්නාමික ලිපිනයකට ඉල්ලීම්</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>ස්වයං පරීක්ෂණය</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>ගබඩා කළ විමසුම් පමණි</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>විශාලතම විමසුම</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>බයිට %bytes</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>විශාලතම උඩුගත කිරීම</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>%siteaccess අඩවි ප්‍රවේශයක් නැත.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>%siteaccess හි mutations සක්‍රිය කර ඇත.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>%siteaccess හි mutations අක්‍රිය කර ඇත.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>%siteaccess හි GraphQL API සක්‍රිය කර ඇත.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>%siteaccess හි GraphQL API අක්‍රිය කර ඇත.</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>සැකසුම් ලිවිය නොහැකි විය: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>ප්‍රතිචාර හැඹිලිය හිස් කරන ලදී: පිළිතුරු %count ක් ඉවත් කරන ලදී.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>විමසුම ඉවත් කිරීමට එය අසල ඇති කොටුව සලකුණු කරන්න.</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>විමසුම ඉවත් කළ නොහැකි විය: PersistedQueryDirectoryList[] හි නාමාවලියක සපයා ඇති විමසුමක් එහි ගොනුව සමඟ ඉවත් කෙරේ.</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>ගබඩා කළ විමසුම ඉවත් කරන ලදී.</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>Mutations</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>සක්‍රිය</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>අක්‍රිය</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>අඩවි ප්‍රවේශ</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>API සහ එහි mutations පිළිතුරු දෙන ස්ථාන. ./console exp:graphql:enable සහ exp:graphql:disable මෙන් බොත්තම් graphql.ini ලියයි.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>අඩවි ප්‍රවේශය</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>GraphQL API</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>වෙනස් කරන්න</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>අක්‍රිය කරන්න</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>Mutations අක්‍රිය කරන්න</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>Mutations සක්‍රිය කරන්න</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>සක්‍රිය කරන්න</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>සීමා</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>මෙම අඩවි ප්‍රවේශයේ graphql.ini [GraphQLSettings].</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>ප්‍රතිචාර හැඹිලිය</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>ගබඩා කළ විමසුම්වල පිළිතුරු, පරිශීලක අයිතිවාසිකම් අනුව තබා ගන්නා අතර අන්තර්ගතය ප්‍රකාශ කරන සෑම විටම කල් ඉකුත් වේ.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>තත්ත්වය</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>තබා ගත් පිළිතුරු</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>පිළිතුරු %count, බයිට %bytes</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>උපරිම තබා ගැනීම</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>තත්. %seconds</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>අවසන් වරට කල් ඉකුත් විය</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>ප්‍රතිචාර හැඹිලිය හිස් කරන්න</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>ගබඩා කළ විමසුම්</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>./console exp:graphql:persist මඟින් හෝ සේවාලාභීන් විසින් (ස්වයංක්‍රීය ගබඩා කළ විමසුම්) ගබඩා කෙරේ; නමෙන් හෝ SHA-256 මඟින් කැඳවනු ලැබේ.</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>නම්</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>ප්‍රමාණය</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>කොහේද</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>ඉවත් කරන්න</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>සපයා ඇත</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>ගබඩා කළ</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>ඔව්, මෙම විමසුම ඉවත් කරන්න</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>තවම ගබඩා කළ විමසුමක් නැත.</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>API යතුරු</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>graphql:read (විමසුම්) හෝ graphql:write (mutations) විෂය පථය සහිත පුද්ගලික API යතුරු. ඒවා API ප්‍රවේශය පිටුවෙහි හෝ ./console exp:graphql:keys මඟින් සාදා අවලංගු කරන්න.</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>API ප්‍රවේශය</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>සියලු යතුරු</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>යතුර</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>නම</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>හිමිකරු</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>විෂය පථ</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>අවසන් වරට භාවිතා කළේ</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>සක්‍රිය</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>කල් ඉකුත්</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>අවලංගු කළ</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>කිසිදා නැත</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>තවම GraphQL විෂය පථයක් සහිත API යතුරක් නැත.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>මෙම පිටුව පෙන්වන අඩවි ප්‍රවේශය %siteaccess හි GraphQL API අක්‍රිය කර ඇත; එය පිළිතුරු දෙන්නේ කොතැනද යන්න පහත වගුව පෙන්වයි.</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>මෙම පිටුව පෙන්වන අඩවි ප්‍රවේශය %siteaccess සඳහා.</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>වෙබ්හුක්</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>අන්ත ලක්ෂ්‍යයක් ඉල්ලන සෑම සිදුවීමක්ම (publish, update, trash, delete, move, hide, reveal, mutation) cronjob කොටස graphqlwebhooks මඟින් අත්සන් කර එයට යවයි. ./console exp:graphql:webhooks ද මෙම කොටස කරන දේම කරයි.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>සිදුවීම්</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>සියල්ල</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>සෑම අඩවි ප්‍රවේශයක්ම</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>බිඳී ඇත</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>රහසක් නැත</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>රැඳී සිටින</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count අත්හැර ඇත</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>අවසන් බෙදාහැරීම</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>පරීක්ෂණයක් යවන්න</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>ඔව්, මෙම වෙබ්හුක් එක ඉවත් කරන්න</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>තවම වෙබ්හුක් එකක් නැත.</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>වෙබ්හුක් එකක් එක් කරන්න</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>එක් කරන්න</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>මෑත බෙදාහැරීම්</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>වේලාව</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>ප්‍රතිඵලය</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>දායකත්ව</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>සේවාලාභීන් සඳහා සජීවී යාවත්කාලීන: /api/graphql/subscribe හි සිදුවීම් ප්‍රවාහයක්, සහ Velocity මත WebSocket (graphql-transport-ws) එකක්. සෑම සිදුවීමක්ම යන්නේ එහි අන්තර්ගතය කියවීමට අවසර ඇති දායකයින්ට පමණි.</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>දැන් විවෘතයි</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>උපරිම විවෘත</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>සියල්ල %total, පරිශීලකයෙකුට %user, ලිපිනයකට %address</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>නිර්නාමික දායකත්ව</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>ප්‍රවාහයේ කාලය</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>වෙබ්හුක් එක එක් කළ නොහැකි විය: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>%name වෙබ්හුක් එක වෙනස් කරන ලදී; එහි අත්සන් රහස එලෙසම පවතී.</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>අත්සන් රහස ගබඩා කළ නොහැකි විය (පිහිටුවීම &gt; රහස්).</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>%name වෙබ්හුක් එක එක් කරන ලදී. එහි අත්සන් රහස, මෙවර පමණක් පෙන්වයි: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>%name වෙබ්හුක් එකක් නැත.</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>%name වෙබ්හුක් එක පිළිතුරු දුන්නේ නැත: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>%name වෙබ්හුක් එක %ms ms තුළ %status පිළිතුරු දුන්නේය.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>වෙබ්හුක් එක ඉවත් කිරීමට එය අසල ඇති කොටුව සලකුණු කරන්න.</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>%name වෙබ්හුක් එක ඉවත් කරන ලදී.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>මෙම අඩවි ප්‍රවේශයේ GraphQL API අක්‍රිය කර ඇත.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>GraphQL පුස්තකාලය ස්ථාපනය කර නැත.</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>GET හෝ POST භාවිත කරන්න.</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>ඉල්ලීමේ ප්‍රධාන කොටස JSON වස්තුවක් නොවේ.</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables JSON වස්තුවක් නොවේ.</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions JSON වස්තුවක් නොවේ.</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>විමසුම POST මගින් යවන්න.</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>ඉල්ලීමේ විමසුමක් නැත.</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>විමසුම බයිට් %max කට වඩා දිගය.</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>අභ්‍යන්තර සේවාදායක දෝෂය</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node සඳහා id, remoteId, path සහ urlAlias අතරින් හරියටම එකක් අවශ්‍යයි.</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content සඳහා id සහ remoteId අතරින් හරියටම එකක් අවශ්‍යයි.</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>after හි කර්සරය මෙම API මගින් දුන් එකක් නොවේ.</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>%alias නමැති රූප අන්වර්ථයක් නැත (image.ini [AliasSettings] AliasList[]).</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>මෙහි පිළිගනු ලබන්නේ ගබඩා කළ විමසුම් පමණි: සේවාදායකයේ ගබඩා කළ විමසුමක id යවන්න.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>ගබඩා කළ විමසුමේ හැෂ් අගය SHA-256 එකක් නොවේ.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>ගබඩා කළ විමසුමේ හැෂ් අගය විමසුමට නොගැළපේ.</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>ඉල්ලීම් වැඩිය: තත්පර %window තුළ උපරිම %limit. තත්පර %reset කින් නැවත උත්සාහ කරන්න.</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>විමසුම මට්ටම් %depth ක් ගැඹුරුය; උපරිම %max කට ඉඩ ඇත.</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>විමසුමේ සංකීර්ණතාව %complexity වේ; උපරිම %max කට ඉඩ ඇත.</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>මෙම ඉල්ලීමට ස්කීමාව කියවිය නොහැක (introspection).</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search සඳහා පෙළක් හෝ පෙරහනක් අවශ්‍යයි (classes, subtree, sections, publishedAfter, publishedBefore).</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument දිනයක් නොවේ (ISO 8601, 2026-10-30).</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag සඳහා id, remoteId සහ path අතරින් හරියටම එකක් අවශ්‍යයි.</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout සඳහා id, identifier සහ urlAlias අතරින් හරියටම එකක් අවශ්‍යයි.</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>multipart ඉල්ලීමේ operations ක්ෂේත්‍රය එක් JSON ඉල්ලීමක් නොවේ.</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>multipart ඉල්ලීමේ map ක්ෂේත්‍රය JSON වස්තුවක් නොවේ.</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>multipart ඉල්ලීමේ %field ගොනුවක් නැත.</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>map ක්ෂේත්‍රයේ මාර්ගයක් variables. වලින් ආරම්භ විය යුතුය: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>%name ගොනුව සම්පූර්ණයෙන් ලැබුණේ නැත (උඩුගත කිරීමේ දෝෂය %error).</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>%name ගොනුව බයිට %max ට වඩා විශාලය.</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>%name ගොනුව පරීක්ෂා කළ නොහැකි විය.</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>මෙම අඩවි ප්‍රවේශයේ mutations අක්‍රිය කර ඇත (graphql.ini [GraphQLSettings] MutationsEnabled).</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>mutation එක POST මඟින් යවන්න.</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>අන්තර්ගතය වෙනස් කිරීමට පුරනය වන්න.</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>API යතුරට %scope විෂය පථය නැත.</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>සැසියක් සහිත mutation එකකට එම සැසියේ පෝරම ටෝකනය අවශ්‍යයි (ශීර්ෂය X-CSRF-Token).</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>uploadFromUrl අක්‍රිය කර ඇත: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] හි කිසිදු ධාරකයක් සඳහන් නොවේ.</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>ලිපිනය https ලිපිනයක් විය යුතුය.</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>%host ධාරකය graphql.ini [GraphQLSettings] UploadFromUrlHostList[] හි නැත.</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>ගොනුව ලබා ගත නොහැකි විය.</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload යනු ආදාන වර්ගයක් පමණි.</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>Upload වර්ගයේ විචල්‍යයක් multipart ඉල්ලීමක ගොනුවක් ගනී.</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>%remoteId දුරස්ථ id දැනටමත් භාවිතයේ ඇත.</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>අන්තර්ගතයට දැනටමත් %language පරිවර්තනයක් ඇත: updateContent භාවිතා කරන්න.</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>අවම වශයෙන් එක් ක්ෂේත්‍රයක් ලබා දෙන්න.</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>නව අනුවාදයක් සෑදිය නොහැකි විය (අන්තර්ගතයට කෙටුම්පත් ඕනෑවට වඩා ඇත).</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>%version අනුවාදය කෙටුම්පතක් නොවේ.</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent සඳහා id සහ nodeId වලින් හරියටම එකක් අවශ්‍යයි.</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>ස්ථානයක් එයටම යටින් ගෙන යා නොහැක.</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>අන්තර්ගතයට දැනටමත් %parentId යටතේ ස්ථානයක් ඇත.</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>%field ක්ෂේත්‍රයේ අගය ගබඩා කළ නොහැකි විය.</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>%language අන්තර්ගත භාෂාවක් නැත.</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>ස්කීමාවේ %class අන්තර්ගත පන්තියක් නැත.</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>අන්තර්ගතය නොමැත, නැතහොත් ඔබට එය කියවීමට අවසර නැත.</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>මෙම අන්තර්ගතයට මෙය කිරීමට ඔබට අවසර නැත.</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>%class පන්තියේ ලිවිය හැකි %field ක්ෂේත්‍රයක් නැත.</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>%field ක්ෂේත්‍රය දෙවරක් ලබා දී ඇත.</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>%field ක්ෂේත්‍රය ගොනුවක් ගනී: එය upload ලෙස යවන්න (multipart ඉල්ලීමක්).</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>%field ක්ෂේත්‍රය ගොනුවක් නොගනී.</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>%field ක්ෂේත්‍රයට අගයක් අවශ්‍යයි.</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>%format ආකෘතිය පොහොසත් පෙළ ක්ෂේත්‍ර සඳහා පමණි; %field එහි අගය එලෙසම ගනී (RAW).</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>%field ක්ෂේත්‍රය අනිවාර්යයි.</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>HTML කියවිය නොහැකි විය.</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content විසින් version ගන්නේ id සමඟ පමණි.</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>පෙරදසුන් ටෝකනය වලංගු නැත හෝ කල් ඉකුත් වී ඇත.</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>මූලාරම්භයක් නොවේ (https://host හෝ https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>GraphQL API හි විෂය පථයක් නොවේ: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>දායකත්ව /api/graphql/subscribe වෙත යවන්න (සිදුවීම් ප්‍රවාහයක් හෝ WebSocket එකක්).</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>ඉල්ලීම ලේඛනයේ කිසිදු මෙහෙයුමක් නම් නොකරයි.</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>දායකත්වයක් හරියටම එක් ක්ෂේත්‍රයක් ඉල්ලයි.</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>දායකත්ව ඕනෑවට වඩා විවෘතයි; පසුව නැවත උත්සාහ කරන්න.</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>ඔබට දායකත්ව %max ක් විවෘතයි, එය ඉඩ දෙන උපරිමයයි.</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>ඔබගේ ලිපිනයට දායකත්ව %max ක් විවෘතයි, එය ඉඩ දෙන උපරිමයයි.</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>මෙම අඩවි ප්‍රවේශයේ දායකත්ව අක්‍රිය කර ඇත.</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>දායක වීමට පුරනය වන්න (ටෝකනයක් හෝ පුද්ගලික API යතුරක්).</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>mutations /api/graphql වෙත යවන්න.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>සංක්‍රමණ</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>තත්ත්වය කියවිය නොහැකි විය: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>සංක්‍රමණවල වගු තවම නොපවතී: ./console exp:upgrade --apply ඒවා සාදයි.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>අසාර්ථක වූ සංක්‍රමණ: %count</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>ධාවනයක් සිදුවෙමින් පවතී, %user විසින් ආරම්භ කළා</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>ස්ථාපනය අගුළු දමා ඇත: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>පොරොත්තුවෙන්</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>අසාර්ථකයි</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>අනාථ</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>අවසන් ධාවනය</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>තවම කිසිවක් නැත</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>සියලු සංක්‍රමණ</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>අනුකරණය කළ ධාවනය</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>පරීක්ෂණ ධාවනය</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>පොරොත්තු සංක්‍රමණ පසුව ආපසු හරවන ලද ගනුදෙනුවක් තුළ ධාවනය විය: කිසිවක් තබා නොගන්නා ලදී. පහත දැක්වෙන්නේ එක් එක් සංක්‍රමණය දත්ත සමුදායේ වෙනස් කළ දේය.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>ධාවනයක් දැන් කරන දේ. කිසිවක් වෙනස් නොවේ: එක් එක් පොරොත්තු සංක්‍රමණය එය කරන වෙනස්කම් ද, ධාවනය පෙර සහ පසු කරන දේ ද ලැයිස්තුගත කරයි.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>අනුකරණය කරන්න</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>ධාවනය කරන්න</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>පරීක්ෂණ ධාවනය අසාර්ථක විය: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>අනුකරණයකට PostgreSQL හෝ SQLite අවශ්‍ය වේ, ඒවායේ ක්‍රමලේඛ වෙනස්කම් ආපසු හැරවිය හැක; මෙම දත්ත සමුදාය මත පහත සැලැස්ම ධාවනයක් කරන දේය.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>සංක්‍රමණ</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>සංක්‍රමණය</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>තත්ත්වය</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>එය කරන දේ</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>අනුකරණය: %result, %ms ms තුළ</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>තවම සංක්‍රමණයක් නැත.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>ධාවනයට පෙර සහ පසු</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>පෙර සටහන</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>ගනු ලැබේ, සංක්‍රමණයක් අසාර්ථක වූ විට ප්‍රතිසාධනය කෙරේ</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>අක්‍රියයි</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>පසු සටහන</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>ධාවනය සාර්ථක වූ විට ගනු ලැබේ</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>සංක්‍රමණ %total: පොරොත්තු %pending, නිම %done, අසාර්ථක %failed.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>සංක්‍රමණ ඉතිහාසය</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>එක් එක් ධාවනය එහි පරිශීලකයා, පරිසරය, සටහන් සහ commit කළ, ටැග් කළ සහ push කළ දේ සමඟ. අසාර්ථක හෝ බාධා වූ ධාවනයක් නැවත ආරම්භ කළ හැක; පෙර සටහනක් ඇති ධාවනයක් ආපසු ගත හැක.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>ධාවන කියවිය නොහැකි විය: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>සංක්‍රමණවල වගු තවම නොපවතී: ./console exp:upgrade --apply ඒවා සාදයි.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>පෙන්වන්න</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>සියල්ල</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>ධාවන</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>ආරම්භ විය</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>විසින්</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>සටහන්</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>ගබඩාව</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>ක්‍රියා</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>පෙර</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>පසු</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>push කිරීම: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>නැවත ආරම්භ කරන්න</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>ආපසු හරවන්න</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>මෙම තත්ත්වයේ ධාවනයක් නැත.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>මෙහි ආරම්භ කළ</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>මෙම පිටුවල ආරම්භ කළ ධාවන, නැවත ආරම්භ කිරීම් සහ ආපසු හැරවීම්, එක් එක්කේ වාර්තාව සමඟ.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>කුමක්ද</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>ප්‍රතිඵලය</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>ආපසු හැරවීම</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>%target ආපසු හැරවීම</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>ධාවනය %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>ධාවනය කළ දේ, එහි වාර්තාව සහ ලොගය. මෙහි ආරම්භ කළ ධාවනයක් මෙම පිටුව වැසූ විට පසුබිමේ දිගටම පවතී; එය අනුගමනය කිරීමට පිටුව නැවත විවෘත කරන්න.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>මෙම ධාවනය නැවත ආරම්භ කරන්න</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>මෙම ධාවනය ආපසු හරවන්න</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>වාර්තාව කියවිය නොහැකි විය: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>ප්‍රගතිය</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>%user විසින් %time ට ආරම්භ කළා.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>කේතය පරීක්ෂා කරමින් ධාවනයට පෙර සටහනක් ගනිමින්</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>%id ධාවනය වෙමින් (%total න් %index)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>%total න් %done නිමයි</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>සංක්‍රමණ ධාවනය විය; එකක් අසාර්ථක වූයේ නම් සටහන ප්‍රතිසාධනය කෙරේ</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>ධාවනයෙන් පසු සටහනක් ගැනීම, commit, ටැග් සහ push කිරීම</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>සටහන ප්‍රතිසාධනය කෙරේ</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>ධාවනය අවසන් විය. එහි වාර්තාව පූරණය වෙමින්.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>ප්‍රගතිය අනුගමනය කළ නොහැකි විය. ධාවනය සිදුවන ආකාරය බැලීමට පිටුව නැවත පූරණය කරන්න.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>මෙම පිටුව ධාවනය සිදුවන අතරතුර එය අනුගමනය කරයි.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>නැවත පූරණය කරන්න</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>වාර්තාව</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>කාලය</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>මිලිතත්පර %ms</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>ධාවනය දෝෂ ලෙස මුද්‍රණය කළ දේ</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>වාර්තාව</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>පරිසරය</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>කිසිවක් නැත</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>අවසන් විය</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Commit කිරීම</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>ටැගය</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Push කිරීම</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>පණිවිඩය</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>මෙම ධාවනයේ සංක්‍රමණ</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>මූලාශ්‍රය</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>ධාවන ලොගය</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>ලොගයේ අවසානය පමණක් පෙන්වයි.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>ධාවනය වෙමින්</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>වාර්තාවකින් තොරව අවසන් විය</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>සාර්ථකයි</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>අසාර්ථකයි</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>ප්‍රතික්ෂේප විය</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>දත්ත සමුදායට ළඟා විය නොහැකි විය</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>අභ්‍යන්තර දෝෂය</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>ධාවනයක් සිදුවෙමින් පවතී</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind, %user විසින් %time ට ආරම්භ කළා.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>අනුගමනය කරන්න</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>ස්ථාපනය අගුළු දමා ඇත</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>වෙනත් ධාවනයක් අගුල රඳවා ඇත (උත්ශ්‍රේණි කිරීමක් හෝ කොන්සෝලයේ ධාවනයක්): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>නිමයි</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>පොරොත්තුවෙන්</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>අවශ්‍ය නැත</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>නොදන්නා</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>ආපසු හැරවිණි</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>යොදන ලදී</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>යොදනු ඇත</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>ආපසු ගන්නා ලදී</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>ආපසු ගනු ඇත</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>ධාවනය නොකළ</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>වෙනත් එකක් බලාපොරොත්තුවෙන්</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>වෙනස පිළිගන්නා ලදී</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>වෙනස පිළිගනු ඇත</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>අනුකරණය කළ</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>සංක්‍රමණ</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>තත්ත්වය</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>ඉතිහාසය</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>%target ආපසු ගන්න</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>ධාවනයක් එයට පෙර ගත් සටහනට ආපසු ගනු ලැබේ, එක් සංක්‍රමණයක් එහි down() මගින්. පෙර සටහනක් ප්‍රතිසාධනය කිරීම විශේෂඥයින් සඳහාය. එක් එක්ක ඔබ ලෙස පසුබිමේ ධාවනය වේ, වත්මන් තත්ත්වයේ සටහනකින් පසුව.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>ආපසු ගත හැකි දේ කියවිය නොහැකි විය: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>ධාවනයක්</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>එක් සංක්‍රමණයක්</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>පෙර සටහනක්</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>විස්තරය</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ඔව්</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>නැත</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>සටහන</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>ලේබලය</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>ගත් වේලාව</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>වර්ගය</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>ප්‍රතිසාධනය කළ යුතු කොටස්</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>දත්ත සමුදාය</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>ගබඩා ගොනු (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>සැකසුම් (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>දත්ත සමුදාය ප්‍රතිසාධනය කිරීම එය සැසි ඇතුළුව සටහනේ කාලයට ආපසු ගෙන යයි: පසුව ඔබෙන් නැවත පුරනය වීමට ඉල්ලා සිටිය හැක. එතැන් සිට වෙනස් වූ සියල්ල නැති වේ; පළමුව වත්මන් තත්ත්වයේ සටහනක් ගනු ලැබේ.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>මෙය ප්‍රතිසාධනය කරන දේ මම දනිමි</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>සටහනේ id නැවත ටයිප් කරන්න</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>ඔව්, ආපසු ගන්න</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>අවලංගු කරන්න</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>පෙර සටහනක් ගත් ධාවන.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>තෝරන්න</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>තවම සටහනක් සහිත ධාවනයක් නැත.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>තමන්ම ආපසු ගත හැකි යොදන ලද සංක්‍රමණ (ඒවාට down() ඇත).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>කිසිදු යොදන ලද සංක්‍රමණයකට down() නැත.</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>පෙර සටහන් (විශේෂඥයින්)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>තවම සටහනක් නැත.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>සංක්‍රමණ ධාවනය කරන්න</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>ධාවනය %user ලෙස පසුබිමේ සිදු වන අතර එහි පිටුව එය සිදුවන අතරතුර පෙන්වයි. පළමු සංක්‍රමණයට පෙර ස්ථාපනයේ සටහනක් ගනු ලැබේ; සංක්‍රමණයක් අසාර්ථක වූ විට ධාවනය නතර වී සටහන ප්‍රතිසාධනය කෙරේ.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>පළමුව පරීක්ෂණ ධාවනය</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>තත්ත්වය කියවිය නොහැකි විය: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>පොරොත්තු සංක්‍රමණ</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>ඒවා මෙම අනුපිළිවෙලින් ධාවනය වේ. එකක් සහ එය අවශ්‍ය ඒවා පසු ධාවනයකට තැබීමට එහි සලකුණ ඉවත් කරන්න.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>එය ධාවනය කරන්න</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>ධාවනය වන අතරතුර නඩත්තු ප්‍රකාරය සක්‍රිය කරයි.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>යෙදීමෙන් පසු වෙනස් විය</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>මෙම ගොනු යොදන ලද ඒවා නොවේ. වෙනස හේතුවක් සමඟ පිළිගන්නේ නම් මිස ධාවනයක් ඒවා ප්‍රතික්ෂේප කරයි; ඒවා නැවත ධාවනය නොවේ, නව checksum එක සටහන් කර හේතුව විගණන ලොගයේ තබා ගනී.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>වෙනස්කම් පිළිගන්න</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>ඇයි</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>පෙරනිමි අගයන් ආරක්ෂිතයි. එක් එක් කොටුව එක් පියවරක් මඟහරියි.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>සටහනක් නැත</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>ධාවනයට පෙර සහ පසු සටහනක් නැත: අසාර්ථකත්වයක් ස්වයංක්‍රීයව ප්‍රතිසාධනය කළ නොහැක.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>ප්‍රතිසාධනයක් නැත</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>අසාර්ථකත්වයකින් පසු, ස්ථාපනය අසාර්ථකත්වය තැබූ ආකාරයටම තබන්න.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>commit නොකළ වෙනස්කම් තබා ගන්න</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>සැකසුම්, දිගු හෝ නිර්මාණවල commit නොකළ වෙනස්කම් ඇතත් ධාවනය කරන්න; ඒවා සටහනට ඇතුළත් වේ.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>commit නැත</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>තත්ත්ව ගොනුව සහ ධාවන ලොගය commit නොකරන්න (ටැග් හෝ push ද නැත).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>push නැත</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>commit සහ ටැග් කරන්න, නමුත් push නොකරන්න.</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>ටැග් නැත</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>commit සහ push කරන්න, නමුත් ධාවනය ටැග් නොකරන්න.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>ඔව්, මෙම සංක්‍රමණ දැන් ධාවනය කරන්න</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>පොරොත්තුවෙන් සංක්‍රමණයක් නැත.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>තත්ත්වයට ආපසු</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>මෙම ස්ථාපනයේ වෙනස්කම් එක් වරක් ගොනු ලෙස ලියා (අන්තර්ගතය, පන්ති, භූමිකා, සැකසුම්, ක්‍රමලේඛය) අඩවියේ සෑම ස්ථාපනයකටම එකම අනුපිළිවෙලින් යොදයි. ධාවනයක් පළමුව සටහනක් ගනී, සංක්‍රමණයක් අසාර්ථක වූ විට එය ප්‍රතිසාධනය කරයි, සහ කළ දේ සටහන් කර commit සහ push කරයි.</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>පොරොත්තු %count ධාවනය කරන්න</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>දළ විශ්ලේෂණය</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>පොරොත්තුවෙන්</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>නිමයි</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>අසාර්ථකයි</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>අවශ්‍ය නැත</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>දත්ත සමුදාය</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>ගනුදෙනු: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>අඩවි සංක්‍රමණ migrations/ හි ඇත, දිගුවක ඒවා extension/&lt;name&gt;/migrations/ හි. ඒවා ඒවායේ නම් සහ අවශ්‍යතා අනුපිළිවෙලින් ධාවනය වේ.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>අවසන් ධාවනය</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>ගොනුව යෙදීමෙන් පසු වෙනස් විය.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>තවම සංක්‍රමණයක් නැත. ./console exp:migration:generate --skeleton &lt;name&gt; --apply පළමු එක ලියයි.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>නවතම ධාවන</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>සියලු ධාවන</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>තවම ධාවනයක් නැත.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>ධාවනයක් අනුකරණය කිරීමට migration/run ප්‍රතිපත්තිය අවශ්‍ය වේ.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>ධාවනයක් සිදුවෙමින් පවතී: එය අවසන් වූ විට අනුකරණය කරන්න.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>පිහිටුවීම</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target මෙම ස්ථාපනයේ ධාවනයක්, සංක්‍රමණයක් හෝ සටහනක් නොවේ.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>පළමුව &quot;ඔව්, ආපසු ගන්න&quot; සලකුණු කරන්න.</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>පෙර සටහනක් ප්‍රතිසාධනය කිරීම විශේෂඥයින් සඳහාය: &quot;මෙය ප්‍රතිසාධනය කරන දේ මම දනිමි&quot; සලකුණු කරන්න.</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>සටහනේ id නැවත ටයිප් කරන්න: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>ප්‍රතිසාධනය කිරීමට අවම වශයෙන් එක් කොටසක් තෝරන්න.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>මෙම ධාවනයට පෙර ගත් සටහනක් නැත: එහි සංක්‍රමණ එකින් එක ආපසු ගන්න, හෝ පෙර සටහනක් ප්‍රතිසාධනය කරන්න.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>මෙම සංක්‍රමණය තනිවම ආපසු ගත නොහැක: එය යොදා නැත, හෝ එයට down() නැත.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>පෝරමය කියවිය නොහැකි විය.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>නැවත ආරම්භ කළ යුතු ධාවනය තෝරන්න.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>පළමුව &quot;ඔව්, මෙම සංක්‍රමණ දැන් ධාවනය කරන්න&quot; සලකුණු කරන්න.</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>අවම වශයෙන් එක් සංක්‍රමණයක් තෝරන්න.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>සංක්‍රමණයක් යෙදීමෙන් පසු වෙනස් විය: හේතුවක් සමඟ වෙනස පිළිගන්න, හෝ ගොනුව ආපසු තබන්න.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>වෙනස් වූ සංක්‍රමණ පිළිගන්නේ ඇයිදැයි හේතුව දෙන්න.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>හේතුව උපරිම අක්ෂර 500 කි.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>මෙහි ආරම්භ කළ ධාවනයක් තවමත් සිදුවෙමින් පවතී (%detail). එය අවසන් වන තුරු රැඳී සිටින්න.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>වෙනත් ධාවනයක් ස්ථාපනයේ අගුල රඳවා ඇත: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>ධාවනයට පවතින, පුරනය වූ පරිශීලකයෙකු අවශ්‍ය වේ.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>php විධාන රේඛා ක්‍රමලේඛයක් හමු නොවීය. migration.ini [AdminSettings] PhpCliPath එහි සම්පූර්ණ මාර්ගයට සකසන්න.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open අක්‍රිය කර ඇති බැවින් මෙහි ධාවනයක් ආරම්භ කළ නොහැක. සේවාදායකයේ ./console exp:migration:migrate --apply ධාවනය කරන්න.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>ධාවනවල ෆෝල්ඩරයට ලිවිය නොහැක: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>ධාවනය ආරම්භ වූ නමුත් එහි ක්‍රියාවලි id වාර්තා කළේ නැත. %detail පරීක්ෂා කරන්න.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>ආපසු ගත යුතු දේ නම් කරන්න.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>ධාවනය ආරම්භ කළ නොහැකි විය.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>වෙනස්කම් පටිගත කිරීම</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>පටිගත කිරීමක් ක්‍රියාත්මක වන අතරතුර ඔබ පරිපාලනයේ හෝ අඩවියේ පැති තීරුවේ වෙනස් කරන දේ සංක්‍රමණයක පියවර ලෙස තබා ගනී: අන්තර්ගතය, පන්ති, භූමිකා සහ ප්‍රතිපත්ති, කොටස්, පරිශීලකයින් සහ කණ්ඩායම්, URL අන්වර්ථ, සැකසුම්. අවසන් වූ විට එය නවත්වන්න, එය අල්ලාගත් දේ බලන්න, එයින් සංක්‍රමණයක් සාදන්න.</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>පටිගත කිරීම් කියවිය නොහැකි විය: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>පටිගත කිරීම්වල වගු තවම නැත: පළමුව උත්ශ්‍රේණි කිරීම ධාවනය කරන්න (exp:upgrade --apply).</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>migration.ini හි පටිගත කිරීම අක්‍රිය කර ඇත ([RecordingSettings] Recording=disabled).</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>මගේ වෙනස්කම්</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>ඔබ නවත්වන තුරු ඔබ වෙනස් කරන දේ පමණක්, ඕනෑම තැනක, පටිගත කරයි.</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>පටිගත කිරීම</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>%time සිට, මෙතෙක් වෙනස්කම් %count.</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>ලේබලය (විකල්ප)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>එය අල්ලාගත් දේ පෙන්වන්න</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>පටිගත කිරීම නවත්වන්න</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>මගේ වෙනස්කම් පටිගත කිරීම අරඹන්න</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>මුළු අඩවියේ කවුළුව</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>වසන තුරු සෑම පරිශීලකයෙකුගේම සහ කොන්සෝලයේ සෑම වෙනස්කමක්ම පටිගත කරයි. විවෘත කිරීමේදී එය ඔබ බව තහවුරු කිරීමට ඉල්ලා සිටී.</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>විවෘතයි</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>කවුළුව වසන්න</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>මුළු අඩවියේ කවුළුව විවෘත කරන්න</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>පටිගත කිරීම් ලැයිස්තුව</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>පරිශීලකයෙකුගේ ගිණුම (පිවිසුම් නාමය, ඊ-තැපෑල, මුරපදය) සහ පරිශීලක ගිණුම්වල ක්ෂේත්‍ර කිසි විටෙකත් පටිගත නොකෙරේ.</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>වෙනස්කම්</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>මුළු අඩවිය</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>%name ගේ වෙනස්කම්</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>නවතා ඇත</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>තවම පටිගත කිරීමක් නැත.</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>පටිගත කිරීම %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>සියලු පටිගත කිරීම්</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>එයින් ඇති වන සංක්‍රමණය</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>වෙනස් වූ සෑම දෙයකටම එක් පියවරකට එකතු කළ වෙනස්කම්: මෙම පටිගත කිරීමෙන් සාදන සංක්‍රමණයක් කරන දේ.</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>මෙම ස්ථාපනයට YAML පියවර වර්ග %types ලැබුණු විට එයින් සංක්‍රමණයක් සෑදිය හැක.</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>හිතාමතාම ඉවත් කළා: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>කිසිවක් පටිගත නොවීය.</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>එය අල්ලාගත් දේ</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>වෙනස්කම් %count, කළ අනුපිළිවෙළින්.</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>වෙනස</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>පියවර</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>අදාළ</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>තවත් %count: ./console exp:migration:record:show සියල්ල ලැයිස්තු කරයි.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>ඉවත ලන්න</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>පටිගත කිරීම සහ එය අල්ලාගත් දේ ඉවත් කරයි. වෙනස් වූ දේ වෙනස් ලෙසම පවතී.</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>ඔව්, මෙම පටිගත කිරීම ඉවත ලන්න</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>පටිගත වෙමින්…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>ඔබේ වෙනස්කම් සංක්‍රමණයක් සඳහා පටිගත වෙමින් පවතී.</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>මෙම අඩවියේ සෑම වෙනස්කමක්ම සංක්‍රමණයක් සඳහා පටිගත වෙමින් පවතී (මුළු අඩවියේ කවුළුව).</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>මුළු අඩවියේ පටිගත කිරීම ආරම්භ විය: ඔබ නවත්වන තුරු සෑම පරිශීලකයෙකුගේම සෑම වෙනස්කමක්ම පටිගත වේ.</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>පටිගත කිරීම ආරම්භ විය: ඔබ නවත්වන තුරු ඔබේ වෙනස්කම් පටිගත වේ.</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>පටිගත කිරීම නැවතිණි. එය අල්ලාගත් දේ ඔබ ඉවත ලන තුරු පවතී.</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>පටිගත කිරීම සහ එහි සිදුවීම් ඉවත් කරන ලදී.</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>පටිගත කිරීමක් %id නැත.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>පළමුව "ඔව්, මෙම පටිගත කිරීම ඉවත ලන්න" සලකුණු කරන්න.</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>සැසි පටිගත කිරීමක් නැවැත්විය හැක්කේ පටිගත කළ පරිශීලකයාට පමණි.</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>නැවැත්විය යුතු පටිගත කිරීම තෝරන්න.</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>මේ වර්ගයේ පටිගත කිරීමක් දැනටමත් ක්‍රියාත්මකයි.</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>පටිගත කිරීම වෙනස් කළ නොහැකි විය: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>සංක්‍රමණය ජනනය කරන්න</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>සංක්‍රමණයේ නම (අත්‍යවශ්‍ය නොවේ)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>සංක්‍රමණය %file ලියන ලදී. කිසිදු පියවරකට කළ නොහැකි වෙනස්කම් ගොනුවේ ඉහළින් සඳහන් කර ඇත, අතින් කළ යුතුය.</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>කිසිදු සංක්‍රමණයක් ලියා නැත: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>කොටස් වශයෙන් දිගු ධාවනයක්</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>හිස් ක්ෂේත්‍ර migration.ini [RunSettings] හි සැකසුම් රඳවා ගනී.</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>උපරිම වශයෙන් මෙතරම් සංක්‍රමණ</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>මෙයට පසු තවත් සංක්‍රමණයක් නැත (තත්පර)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>සංක්‍රමණ අතර විරාමය (තත්පර)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>පහළ ප්‍රමුඛතාව (1 සිට 19 දක්වා)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>දිගු ධාවන ක්ෂේත්‍රය 1 සිට ආරම්භ වන පූර්ණ සංඛ්‍යාවකි (විරාමය: තත්පර 0 සිට 60 දක්වා, ප්‍රමුඛතාව: 1 සිට 19 දක්වා), නැතහොත් හිස්.</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>එය %time දී ස්වයං වසා දමයි.</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>මෙයට පසු ස්වයං වසන්න (මිනිත්තු, විකල්ප)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>මිනිත්තු 1 සිට 44640 (දින 31) දක්වා පූර්ණ සංඛ්‍යාවකි, නැතහොත් හිස්.</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>සංක්‍රමණය %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>නව සංක්‍රමණය</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>YAML සංක්‍රමණයක්: එය පෙළ ලෙස ලියන්න හෝ පෝරමයේ එහි පියවර ගොඩනඟන්න, එය පරීක්ෂා කරන්න, ඉන්පසු එය සංක්‍රමණ ෆෝල්ඩරයක සුරකින්න.</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>මෙම සංක්‍රමණය දැනටමත් ධාවනය වී ඇති නිසා එය නැවත සුරකින්නේ නැත: වෙනස් කළ ගොනුවක් චෙක්සම් ආරක්ෂකය විසින් ප්‍රතික්ෂේප කරනු ඇත. වෙනස නව සංක්‍රමණයක කරන්න.</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>වෙබ් සේවාදායකයට ගොනුව ලිවිය නොහැක.</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>ඉහළින් ඇති අදහස් පේළි ශීර්ෂය වේ (description, author, requires, environments, engines). පෝරමයේ පියවරක් එක් කළ විට හෝ වෙනස් කළ විට, සංක්‍රමණය නැවත ලියනු ලැබේ: පියවර අතර ඇති අදහස් රඳවා නොගනී.</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>සංක්‍රමණයේ නම</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>එය යන තැන</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>අඩවිය</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>YAML පෙළ</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>පරීක්ෂා කරන්න</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>සුරකින්න</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>පියවර</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>යතුරු</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>සංස්කරණය කරන්න</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>ඉහළට ගෙන යන්න</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>පහළට ගෙන යන්න</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>ඉවත් කරන්න</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>තවමත් පියවර නැත: පෝරමය මඟින් එකක් එක් කරන්න, නැතහොත් ඒවා පෙළෙහි ලියන්න.</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>පියවර %number වෙනස් කරන්න</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>පියවරක් එක් කරන්න</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>පියවරක පෝරමය සෑදෙන්නේ එහි පියවර වර්ගයෙනි: එහි යතුරු, එක් එක් යතුර ගන්නා දේ සහ එය අයත් ප්‍රකාර.</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>පියවර වර්ගය</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>එහි පෝරමය පෙන්වන්න</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>පියවරේ එහි වර්ගය නොදන්නා යතුරු ඇත; පියවර වෙනස් කළ විට ඒවා ඉවත් වේ: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>ප්‍රකාරය</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>තුළ</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>%modes හි පමණි</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>පෙරනිමිය: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>කොන්දේසි, යොමු සහ අදහස් දැක්වීම</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>කොමාවලින් වෙන් කළ නම=අගය යුගල. මෙම පියවරේ අගයන්: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>උදාහරණය</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>පියවර වෙනස් කරන්න</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>පියවර එක් කරන්න</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>exp:migration:check පවසන දේ: ශීර්ෂය, ලේඛනය සහ එහි පියවර වර්ගය මඟින් පරීක්ෂා කළ සෑම පියවරක්ම.</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>සංක්‍රමණය පරීක්ෂාව සමත් වේ.</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>පෙරදසුන</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>සුරකින ආකාරයටම YAML.</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>YAML පෙන්වන්න</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>YAML සංක්‍රමණ</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>ධාවනය වී ඇත</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>තවමත් YAML සංක්‍රමණ නැත.</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>සංස්කාරක</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>සංක්‍රමණ ෆෝල්ඩරවල YAML සංක්‍රමණය %id නැත.</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>පියවර වර්ගයක් තෝරන්න.</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>පියවර එක් කරන ලදී. සුරැකීමට පෙර සංක්‍රමණය පරීක්ෂා කරන්න.</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>පියවර වෙනස් කරන ලදී. සුරැකීමට පෙර සංක්‍රමණය පරීක්ෂා කරන්න.</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>පියවරක් තෝරන්න.</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>මෙම පියවරට පෝරමයක් නැත (ලූපයක්, හෝ මෙම ස්ථාපනයේ නැති පියවර වර්ගයක්): එය පෙළෙහි වෙනස් කරන්න.</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>සංක්‍රමණය යන්නේ කොතැනටද යන්න තෝරන්න: අඩවිය හෝ සක්‍රිය දිගුවක්.</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>%file සුරැකිණි. සංක්‍රමණය ධාවනය වීමට පෙර පරීක්ෂණ ධාවනයක් කරන්න.</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>සුරැකුණේ නැත: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>දුරස්ථයන්</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>මෙම ස්ථාපනය සිය සංක්‍රමණ යොදවන අනෙකුත් ස්ථාපන: යෙදවීමක් සංක්‍රමණ තෝරාගත් දුරස්ථයන් වෙත යවා ඒවා එහි ධාවනය කරයි, සියල්ල එකවර සහ සමමුහුර්තව. දුරස්ථයක් කිසි විටෙක රහසක් දරන්නේ නැත: එහි අක්තපත්‍රය පිහිටුවීම &gt; රහස් හි එකක් නම් කරයි.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>නව දුරස්ථය</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>උදව්</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>%id හි සබැඳුම් පරීක්ෂාව</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>දුරස්ථයන්</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>එකවර දුරස්ථයන් %parallel ක් දක්වා සැකසේ; එක් අවධියකට එක් එකක් මත තත්පර %timeout ක් ගත විය හැක.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>දුරස්ථය</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>ලිපිනය</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>අක්තපත්‍රය</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>සමූහ</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>නිවැරදි කළ යුතු සැකසුම්</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>ගොනු පමණි (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>SSH යතුර</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>මුරපදය</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>කිසිවක් නැත (host හි SSH agent සහ යතුරු)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>සබැඳුම පරීක්ෂා කරන්න</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>සමූහයකට යෙදවීමක් එහි සෑම දුරස්ථයක් වෙතම යයි.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>දුරස්ථයන් වෙත යොදවන්න</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>තවම කිසිදු දුරස්ථයක් පිහිටුවා නැත.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>දුරස්ථය %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>මෙහි කිසිවක් යවන්නේ හෝ ධාවනය කරන්නේ නැත: සුරකින්න සැකසුම් settings/override/migration.ini.append.php වෙත ලියයි. අක්තපත්‍රය නමකි; එහි අගය පිහිටුවීම &gt; රහස් හි හෝ පරිසරයේ රැඳේ.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>මෙම සැකසුම් පරීක්ෂා කරන්න</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>ඇතුළත් කළ පරිදි සැකසුම්, තවම සුරැකී නැත.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>සමාලෝචනය</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>සැකසුම් වලංගුයි. මෙම පේළි ලියනු ලැබේ:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>ප්‍රවාහනය</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>නමක් පමණි; අගය පිහිටුවීම &gt; රහස් හි රැඳේ</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>ලියනු ලබන පේළි</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>සබැඳුම</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>Host යතුර</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. දුරස්ථය</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>දුරස්ථය හඳුන්වන නම සහ එය කුමන පරිසරයද යන්න.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>හැඳුනුම</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>අකුරු, ඉලක්කම්, - සහ _, උදාහරණයක් ලෙස production1. එය වාර්තාවල සහ කොන්සෝලයේ (--remotes=production1) දුරස්ථය නම් කරන අතර පසුව වෙනස් කළ නොහැක.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... අදියර වශයෙන් යෙදවීමක් මෙම අනුපිළිවෙලින් පරිසර හරහා යයි.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>විකල්ප, කොමා වලින් වෙන් කළ, උදාහරණයක් ලෙස production. සමූහයකට යෙදවීමක් එහි සෑම දුරස්ථයක් වෙතම යයි.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. සබැඳුම</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>ගොනු එහි යන ආකාරය සහ ස්ථාපනය ඇති තැන.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>SSH හරහා, වෙනස් වූ දේ පමණි, බිඳුණු මාරු කිරීමක් නැවත ආරම්භ කෙරේ. rsync ස්ථාපනය කර ඇති තැන හොඳම තේරීම.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>ගොනු සඳහා scp සහිත SSH.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>ගොනු සඳහා sftp සහිත SSH.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>ගොනු පමණි: සංක්‍රමණ යවා නැවත කියවනු ලැබේ, නමුත් එහි ධාවනය කළ නොහැක.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>TLS හරහා FTP; ගොනු පමණි.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>මෙම සේවාදායකයේ, ෆෝල්ඩරයක ඇති තවත් ස්ථාපනයක්.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Host</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>Host නාමයක් හෝ ලිපිනයක්, උදාහරණයක් ලෙස node1.example.com. local සඳහා නොවේ.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>තොට</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>හිස්: SSH සඳහා 22, FTP සඳහා 21.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>පරිශීලකයා</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>මාර්ගය</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>එහි ස්ථාපනයේ මූලය, උදාහරණයක් ලෙස /var/www/site (FTP සඳහා: FTP ගිණුම දකින මාර්ගය).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>PHP විධාන පේළිය</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>එහි PHP CLI: php, හෝ /opt/plesk/php/8.4/bin/php වැනි සම්පූර්ණ මාර්ගයක්.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>කොන්සෝල ස්ක්‍රිප්ට් එහි root ලෙස ධාවනය වේ</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>දුරස්ථයේ පරිශීලකයා root වූ විට පමණි (එවිට ඒවා --allow-root-user සමඟ ධාවනය කෙරේ).</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. අක්තපත්‍රය</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>මෙම ස්ථාපනය එහි පිවිසෙන ආකාරය. සුරකින්නේ නමක් පමණි.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>කිසිවක් නැත</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>මෙම ස්ථාපනය ධාවනය වන පරිශීලකයාගේ SSH agent සහ යතුරු (සහ local සඳහා සැමවිටම).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>රහසක් ලෙස තබා ඇති පෞද්ගලික යතුරක්.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>රහසක් ලෙස තබා ඇති මුරපදයක් (FTP එයින් පිවිසෙයි).</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>රහසේ නම</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>පිහිටුවීම &gt; රහස් හි රහසක්, උදාහරණයක් ලෙස deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>පිහිටුවීම &gt; රහස්</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>නැතහොත් පරිසර විචල්‍යයක්</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>එය දරන සේවාදායක ක්‍රියාවලියේ විචල්‍යය, උදාහරණයක් ලෙස DEPLOY_KEY (env:DEPLOY_KEY ලෙස සුරැකේ). එය රහසේ නම වෙනුවට යොදා ගැනේ.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. Host යතුර</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>විකල්ප, SSH, sftp සහ rsync සඳහා.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>Host යතුරේ ඇඟිලි සලකුණ</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:..., ssh-keygen -l මුද්‍රණය කරන පරිදි. එය සහිතව, host එක මෙම යතුර පෙන්විය යුතුය; එය නොමැතිව, පළමු සම්බන්ධතාවයේදී යතුර දැනගනු ලැබේ.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. සමාලෝචනය</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>ඉහත සැකසුම් සමඟ සබැඳුම පරීක්ෂා කරන්න, ඉන්පසු ලියනු ලබන පේළි සමාලෝචනය කරන්න.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>මෙම දුරස්ථය ඉවත් කරන්න</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>එහි සැකසුම් settings/override/migration.ini.append.php වෙතින් ඉවත් කෙරේ. දුරස්ථයේ කිසිවක් වෙනස් නොවන අතර, එහි යෙදවීම් ඉතිහාසයේ රැඳේ.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>ඔව්, මෙම දුරස්ථය ඉවත් කරන්න</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>යෙදවීම්</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>යෙදවීමක් මෙම ස්ථාපනයේ සංක්‍රමණ තෝරාගත් දුරස්ථයන් වෙත යවා ඒවා එහි %user ලෙස ධාවනය කරයි, සියල්ල එකවර සහ සමමුහුර්තව: සෑම දුරස්ථයක්ම පළමුව පරීක්ෂා කෙරේ, එකක් අසාර්ථක වූ විට, යෙදූ සෑම දුරස්ථයක්ම ආපසු ගනු ලැබේ. එය පසුබිමේ සිදු වන අතර, එහි පිටුව එය සිදුවන අතරතුර සෑම දුරස්ථයක්ම පෙන්වයි.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. දුරස්ථයන්</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>දුරස්ථයන්, සමූහයක් හෝ දෙකම සලකුණු කරන්න.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>එයට යොදවන්න</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. කෙසේද</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>යොදවන්න</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>යවා ධාවනය කරන්න</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>සංක්‍රමණ එක් පොදු ධාවන හැඳුනුමක් සමඟ සෑම දුරස්ථයකටම යවා, සත්‍යාපනය කර ධාවනය කෙරේ.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>මාරු කිරීම පමණි</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>ගොනු යවා සත්‍යාපනය කෙරේ, කිසිවක් ධාවනය නොකෙරේ (FTP දුරස්ථයක් සඳහා ඇති එකම මග).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>අදියර වශයෙන්</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>පරිසරවල අනුපිළිවෙලින් අදියරෙන් අදියර (dev, stage, beta, production ...): පළමු අදියර යොදවනු ලැබේ, ඉන්පසු කෙනෙකු ඊළඟ එක අනුමත කරන තෙක් ද්වාරයක් බලා සිටී. එක් එක් අදියර තුළ සියල්ල හෝ කිසිවක් නැත.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>මෙම සංක්‍රමණ පමණි</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>විකල්ප: සංක්‍රමණ හැඳුනුම්, කොමා වලින් වෙන් කළ. හිස්: අඩවියේ සහ එහි දිගු වල සෑම සංක්‍රමණයක්ම.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>පූර්ව පරීක්ෂාව පමණි</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>ඔව්, දැන් යොදවන්න</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>යමක් යැවූ හෝ ධාවනය කළ යෙදවීම්, නවතම පළමුව (පූර්ව පරීක්ෂාවක් වාර්තාවක් තබා නොගනී).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>මාරු කිරීම පමණි</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>අදියර වශයෙන්, අදියර %stages</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>සමමුහුර්ත නැත</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>තවම යෙදවීමක් නැත.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>යෙදවීම %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>යෙදවීමේ සෑම දුරස්ථයක්ම එහි තත්ත්වය සමඟ. මෙහි ආරම්භ කළ යෙදවීමක් මෙම පිටුව වසා දැමූ විට පසුබිමේ දිගටම සිදු වේ; එය අනුගමනය කිරීමට පිටුව නැවත විවෘත කරන්න.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>සියලු යෙදවීම්</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>පූර්ව පරීක්ෂාව</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>ඊළඟ අදියර</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>සැකසුම් සහ අක්තපත්‍ර පරීක්ෂා කෙරේ</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>පූර්ව පරීක්ෂාව: සෑම දුරස්ථයකම තත්ත්වය කියවනු ලැබේ</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>සංක්‍රමණ ගොනු යවනු ලැබේ</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>ලැබුණු දේ සත්‍යාපනය කෙරේ</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>සෑම දුරස්ථයකම සංක්‍රමණ ධාවනය කෙරේ</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>දුරස්ථයන් ආපසු ගනු ලැබේ</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>යෙදවීම අවසන් විය. එහි වාර්තාව පූරණය වෙමින්.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>ප්‍රගතිය අනුගමනය කළ නොහැකි විය. යෙදවීම සිදුවන ආකාරය බැලීමට පිටුව නැවත පූරණය කරන්න.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>අවධිය</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>මෙම පිටුව යෙදවීම සිදුවන අතරතුර එය අනුගමනය කරයි.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>සමමුහුර්තයි</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>අදියරයන්</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>%stage අදියර එහි ද්වාරයේ රැඳී සිටී</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>ද්වාරය %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>%time ට %user විසින් අනුමත කරන ලදී</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>අදියර</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>යැවූ ගොනු</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>කර්නල අනුවාදය</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>යොදන ලදී: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>යෙදිය යුතු: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>අවධි</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>ද්වාරය: %stages න් %stage අදියර</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>එයට පෙර අදියරයන් යොදවා ඇත. ඒවා පරීක්ෂා කරන්න, ඉන්පසු ඊළඟ අදියර අනුමත කරන්න: එහි දුරස්ථයන් නැවත පරීක්ෂා කර යොදවනු ලැබේ, සියල්ල හෝ කිසිවක් නැත.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>ඊළඟ</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>ඔව්, ඊළඟ අදියර දැන් යොදවන්න</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>අනුමත කරන්න</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>මෙම යෙදවීම ආපසු හරවන්න</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>එය යෙදූ සෑම දුරස්ථයක්ම (%list) එහි ධාවනයට පෙර ගත් සටහනට ආපසු යයි, සියල්ල එකවර.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>ඔව්, මෙම යෙදවීම දැන් ආපසු හරවන්න</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>සැලසුම් කළ</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>මාරු කරන ලදී</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>යොදවන ලදී</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>ද්වාරයක රැඳී සිටී</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>තෝරාගත්</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>සූදානම් කළ</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>සූදානම්</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>එහි අදියර බලා සිටී</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>ගොනු යවන ලදී</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>සත්‍යාපනය කළ</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>අසාර්ථක විය, එය විසින්ම ප්‍රතිසාධනය විය</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>නොවෙනස්</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>යොදවා නැත</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>ළඟා විය නොහැක</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>දුරස්ථය පිළිතුරු දුන්නේය.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>දුරස්ථය දැන් භාවිත කළ නොහැක.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done නිමයි, %pending පොරොත්තුවෙන්, %failed අසාර්ථකයි</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>අගුල</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>ධාවනයක් එහි අගුල දරයි</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>නිදහස්</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stages න් %stage</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>පරීක්ෂා කළ යුතු දුරස්ථය තෝරන්න.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>පළමුව “ඔව්, මෙම දුරස්ථය ඉවත් කරන්න” සලකුණු කරන්න.</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>දුරස්ථය ඉවත් කළ නොහැකි විය: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>දුරස්ථය සුරැකිය නොහැකි විය: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>සැකසුම් ගොනුව කියවිය නොහැක: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>අවම වශයෙන් එක් දුරස්ථයක් හෝ සමූහයක් තෝරන්න.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>තෝරාගත් දුරස්ථයක් තවදුරටත් සැකසුම්වල නැත. පිටුව නැවත පූරණය කරන්න.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>පළමුව “ඔව්, දැන් යොදවන්න” සලකුණු කරන්න.</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>FTP දුරස්ථයකට සංක්‍රමණ ධාවනය කළ නොහැක: “මාරු කිරීම පමණි” තෝරන්න, නැතහොත් එය ඉවත තබන්න.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>යෙදවිය යුතු සංක්‍රමණ යනු කොමා වලින් වෙන් කළ සංක්‍රමණ හැඳුනුම් වේ.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>යෙදවීම තවමත් සිදුවෙමින් පවතී. එය අවසන් වන තෙක් රැඳී සිටින්න.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>මෙම යෙදවීම ද්වාරයක රැඳී නොසිටී.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>කිසිදු දුරස්ථයක් මෙම යෙදවීම යොදා නැත: ආපසු හැරවීමට කිසිවක් නැත.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>පළමුව “ඔව්, ඊළඟ අදියර දැන් යොදවන්න” සලකුණු කරන්න.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>පළමුව “ඔව්, මෙම යෙදවීම දැන් ආපසු හරවන්න” සලකුණු කරන්න.</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>%id හැඳුනුම සහිත දුරස්ථයක් දැනටමත් පවතී.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>තොට 1 සිට 65535 දක්වා අංකයකි.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>පරිසරය යනු අකුරු, ඉලක්කම්, - සහ _ වලින් යුත් වචනයකි (alpha, dev, stage, beta, production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>සමූහයක් යනු අකුරු, ඉලක්කම්, - සහ _ වලින් යුත් වචනයකි (all නොවේ): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>අක්තපත්‍රය දැන් කියවිය නොහැක: %problem. පළමු යෙදවීමට පෙර එය පිහිටුවීම &gt; රහස් හි සුරකින්න (හෝ විචල්‍යය සකසන්න).</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>FTP දුරස්ථයක් ගොනු පමණක් ලබා ගනී: එයට යෙදවීමක් “මාරු කිරීම පමණි” වන අතර, එහි සංක්‍රමණ එහි අතින් ධාවනය කෙරේ.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>%id දුරස්ථය settings/override/migration.ini.append.php හි නැත; එය සකසා ඇති තැනින් ඉවත් කරන්න.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>FTP හරහා පිවිස index.php කියවන ලදී. FTP දුරස්ථයක සංක්‍රමණ තත්ත්වය කියවිය නොහැක.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>වෙනස් කළ</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>සෑදූ</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>නම</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>පන්තිය</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>කොටස</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>සාදන්නා</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>මෑත අන්තර්ගතය</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>සම්පූර්ණ අඩවියේ වඩාත් මෑතකදී සෑදූ සහ වෙනස් කළ අන්තර්ගතය, අලුත්ම ඒවා මුලින්: අමුත්තන් ඉදිරිපත් කළ දේ, සමාලෝචනය සඳහා රඳවා ඇති දේ, ප්‍රකාශනය සඳහා බලා සිටින කෙටුම්පත්. අයිතම තෝරා ඒවා නිදහස් කරන්න, රඳවන්න, සඟවන්න, පෙන්වන්න, ඉවත් කරන්න හෝ වෙනත් කොටසකට හෝ තත්ත්වයකට ගෙන යන්න.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>ලැයිස්තුව කියවිය නොහැකි විය: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>සමාලෝචනය සඳහා රඳවා තැබීම තවම පිහිටුවා නැත, එබැවින් කිසිවක් රඳවා නැති අතර රඳවා තැබීමේ ක්‍රියා ලබා නොදේ. උත්ශ්‍රේණි පියවර 6.0.15-review-hold එය පිහිටුවයි: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>ලැයිස්තුව පෙරන්න</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>සිට</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>දක්වා</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>දිනය</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>සෑදූ (පළමු ප්‍රකාශනය)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>සියල්ල</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>තත්ත්වය</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>ප්‍රකාශිත</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>කෙටුම්පත, කිසි දිනෙක ප්‍රකාශ නොකළ</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>පොරොත්තුවෙන් (අනුමැතිය හෝ දිනයක් සඳහා බලා සිටී)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>කුණු බඳුනේ</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>සමාලෝචනය සඳහා රඳවා ඇත</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>රඳවා ඇත</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>රඳවා නැත</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>සැඟවුණු</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>දෘශ්‍යමාන</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>ඉදිරිපත් කළ දිනය</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>ඕනෑම අඩවි ප්‍රවේශයක්</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>විගණනය වාර්තා කළ දේ පමණි.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>දැන්: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>පිවිසුම් නාමයක් හෝ පරිශීලක හැඳුනුම්පතක්.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>පෙරහන</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>පෙරහන් හිස් කරන්න</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>අයිතම</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%count න් %from සිට %to දක්වා</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>අයිතමයක් නැත</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(මි.තත්. %ms කින් කියවන ලදී)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>තෝරාගත් අයිතම මත ක්‍රියා</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>මෙම පිටුවේ සියල්ල තෝරන්න</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>%count ක් තෝරා ඇත</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>ක්‍රියාව</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>ක්‍රියාවක් තෝරන්න</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>රඳවා තැබීම ඉවත් කරන්න</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>සමාලෝචනය සඳහා රඳවන්න</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>සඟවන්න</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>පෙන්වන්න</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>කුණු බඳුනට යවන්න</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>මකන්න</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>කොටස පවරන්න</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>තත්ත්වය පවරන්න</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>හේතුව</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>රඳවා තැබීමට අවශ්‍යයි; රඳවා තැබීම සමඟ සහ විගණනයේ තබා ගනී.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>කොටසක් තෝරන්න</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>තත්ත්වය</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>තත්ත්වයක් තෝරන්න</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>තෝරාගත් ඒවාට යොදන්න</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>සෑම අයිතමයක්ම ඔබගේම අවසර සමඟ පරීක්ෂා කෙරේ. කුණු බඳුනට යැවීම සහ මැකීම සඳහා ඔබෙන් තහවුරු කිරීමක් ඉල්ලයි. අයිතම %count කට වඩා පසුබිමේ ක්‍රියාත්මක වේ.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>තෝරන්න</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>ප්‍රකාශනය</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>ඉදිරිපත් කළ ස්ථානය</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>%name තෝරන්න</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>තවම නැත</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(නමක් නැත)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>හැඳුනුම %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>කෙටුම්පත</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>පොරොත්තුවෙන්</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>එහි මාපියා විසින් සඟවා ඇත</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>රඳවා ඇත: නව ඉදිරිපත් කිරීම</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>අනුවාදය %version පොරොත්තුවෙන්</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>අනුවාදය %version ක්‍රියාත්මක වෙමින්</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>කෙටුම්පත, අනුවාදය %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>අනුවාදය %version ප්‍රකාශිතයි</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>%date සඳහා සැලසුම් කර ඇත</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>ලිපිනයක් නැත</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>වාර්තා කර නැත</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>මෙම පෙරහන්වලට කිසිවක් ගැළපෙන්නේ නැත.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>සියල්ල පෙන්වන්න</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>තවම අන්තර්ගතයක් නැත.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>පිටුවකට</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>පිටුවකට අයිතම %count ක් පෙන්වන්න.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says "not recorded".</source>
+        <translation>ඉදිරිපත් කිරීමක ලිපිනය සහ බ්‍රවුසරය විගණන දර්ශකයෙන් පැමිණේ, එය මෙහි ලබා ගත නොහැක: තීරුවේ "වාර්තා කර නැත" ලෙස සඳහන් වේ.</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>ලිපිනය සහ බ්‍රවුසරය යනු අයිතමය සඳහා විගණනය වාර්තා කළ ඒවා වේ (ස්වයංක්‍රීය රඳවා තැබීම සැමවිටම ඒවා වාර්තා කරයි; ප්‍රකාශ කිරීම සහ සෑදීම සක්‍රිය කර ඇති තැන්වල පමණි), එහි පෞද්ගලිකත්ව සැකසුම් ඒවා තබා ගන්නා පරිදි.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: අයිතම %count</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>මැකීමෙන් අයිතම ඒවායේ සියලු අනුවාද සහ පරිවර්තන සමඟ සදහටම ඉවත් කෙරේ. එය අහෝසි කළ නොහැක.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>අයිතම කුණු බඳුනට යයි, එතැනින් ඒවා ප්‍රතිසාධනය කළ හැක.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>සෑම අයිතමයක්ම ඔබගේම අවසර සමඟ පරීක්ෂා කෙරේ; උප අයිතම ඇති අයිතමයක් එලෙසම තබනු ලැබේ (එය අන්තර්ගත ව්‍යුහයේ ඉවත් කරන්න). එය ඔබ බව තහවුරු කිරීමට ඔබෙන් ඉල්ලනු ඇත.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>මෙය පසුබිමේ ක්‍රියාත්මක වේ: එහි ප්‍රගති පිටුව විවෘත වන අතර, අවසන් වූ විට එක් එක් අයිතමයේ ප්‍රතිඵලය පෙන්වයි.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>තෝරාගත් අයිතම</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>සහ තවත් %count ක්</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>අවලංගු කරන්න</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>කිසිවක් කළේ නැත</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>හේතුව: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>ක්‍රියාව තවමත් පසුබිමේ ක්‍රියාත්මක වේ.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>එහි ප්‍රගතිය</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>පසුබිම් ක්‍රියාව අසාර්ථක විය: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>අවසන්</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>ප්‍රතික්ෂේප විය</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>අසාර්ථකයි</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>අයිතමයකට</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>අයිතමය</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>ප්‍රතිඵලය</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>ඇයි</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>ලැයිස්තුවට ආපසු</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>පිහිටුවීම</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>කිසිවක් කළේ නැත</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>තහවුරු කරන්න</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>ක්‍රියාවක් තෝරන්න.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>අවම වශයෙන් එක් අයිතමයක් තෝරන්න.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>වරකට උපරිම අයිතම 1000 ක් තෝරන්න.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>අයිතම රඳවා ඇත්තේ ඇයිදැයි පවසන්න.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>කොටස තෝරන්න.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>තත්ත්වය තෝරන්න.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>පෝරමය කියවිය නොහැකි විය.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>උපකරණ පුවරුව</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>මෑත අන්තර්ගතය</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>ගණන් කියවිය නොහැකි විය: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>සමාලෝචනය සඳහා රඳවා ඇත</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>අද අලුත්</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>සමාලෝචනය සඳහා රඳවා තැබීම තවම පිහිටුවා නැත (උත්ශ්‍රේණි පියවර 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>සියලු මෑත අන්තර්ගතය</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>ඔබට මධ්‍යස්ථ ක්‍රියා ධාවනය කළ නොහැක (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>මධ්‍යස්ථ ක්‍රියාව සම්පූර්ණ නැත: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>මධ්‍යස්ථකරණය: වස්තු %count ක් මත %action</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>වස්තු %total න් %done: %ok අවසන්, %refused ප්‍රතික්ෂේපිත, %failed අසාර්ථක</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok අවසන්, %refused ප්‍රතික්ෂේපිත, %failed අසාර්ථක</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>එය තවදුරටත් නොපවතී.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>එයට ස්ථානයක් නැත (ප්‍රකාශ කර නැත).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>ඔබට එය සැඟවිය නොහැක (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>ඔබට එය පෙන්විය නොහැක (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>එය දැනටමත් සඟවා ඇත.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>එය සඟවා නැත.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>සඟවන ලදී.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>පෙන්වන ලදී.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>එය කුණු බඳුනේ ඇත: එහිදී කුණු බඳුන හිස් කරන්න හෝ එය ප්‍රතිසාධනය කරන්න.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>කිසි දිනෙක ප්‍රකාශ නොකළ කෙටුම්පතකට කුණු බඳුනට යා නොහැක: එය මකන්න.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>ඔබට එය මැකිය නොහැක (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>මකන ලදී.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>ඔබට එය ඉවත් කළ නොහැක (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>එයට උප අයිතම ඇත: ඒවා ලැයිස්තුගත කර ඇති අන්තර්ගත ව්‍යුහයේ එය ඉවත් කරන්න.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>එය ඉවත් කළේ නැත (කාර්ය ප්‍රවාහයක් ඉවත් කිරීම රඳවා තැබිය හැක).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>කුණු බඳුනට යවන ලදී.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>කොටස නොපවතී.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>එය දැනටමත් මෙම කොටසේ ඇත.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>ඔබට මෙම කොටස පැවරිය නොහැක (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>කොටස පවරා නැත.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>කොටස පවරන ලදී.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>තත්ත්වය නොපවතී.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>එය දැනටමත් මෙම තත්ත්වයේ ඇත.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>ඔබට මෙම තත්ත්වය පැවරිය නොහැක (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>තත්ත්වය පවරා නැත (කාර්ය ප්‍රවාහයක් වෙනස රඳවා තැබිය හැක).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>තත්ත්වය පවරන ලදී.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>එවැනි ක්‍රියාවක් නැත.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>සමාලෝචනය සඳහා රඳවා තැබීම පිහිටුවා නැත (උත්ශ්‍රේණි පියවර 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>එය රඳවා ඇත්තේ ඇයිදැයි පවසන්න.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>එය දැනටමත් රඳවා ඇත.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>ඔබට එය රඳවා තැබිය නොහැක (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>රඳවා තැබීම යෙදුවේ නැත (කාර්ය ප්‍රවාහයක් වෙනස රඳවා තැබිය හැක).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>රඳවන ලදී.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>එය රඳවා නැත.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>ඔබට එය නිදහස් කළ නොහැක (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>රඳවා තැබීම ඉවත් කළේ නැත (කාර්ය ප්‍රවාහයක් වෙනස රඳවා තැබිය හැක).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>නිදහස් කරන ලදී; තවමත් සඟවා ඇත: ඔබට එය පෙන්විය නොහැක (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>නිදහස් කරන ලදී.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>සියලු ඉලක්ක</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>අවසන් ප්‍රකාශනය</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>ඔබේ අඩවියේ නොමිලේ ස්ථිතික පිටපතක් GitHub Pages හි ප්‍රකාශනය කරන්න:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>යල් පැනගිය පිටු</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>ස්ථිතික ප්‍රකාශනය</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>ස්ථිතික ප්‍රකාශනය අක්‍රියයි.</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>ඉලක්කය</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>ඉලක්ක කියවිය නොහැකි විය: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>කාර්යයක් සිදු වෙමින් පවතී</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>පරීක්ෂා කිරීමට ගොඩනැගීම</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>මෙය සඟවන්න</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>ඉලක්කයක් සාදන්න</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>කිසිදා නැත</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>නිබන්ධනය කියවන්න</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>එක් කළ %added, වෙනස් කළ %changed, ඉවත් කළ %removed</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%limit න් %bytes (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>තවත් %count ක් ලැයිස්තුගත කර නැත.</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>පිටු %pages ක් ලියන ලදී</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path හි ප්‍රමාණය %size, සත්කාරකය එක් ගොනුවකට ඉඩ දෙන ප්‍රමාණයට වඩා වැඩිය.</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>සීමාවෙන් %percent %</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>තත්. %seconds</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag යනු අඩවියේ දැනට ඇති ප්‍රකාශනයයි.</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: කාර්යය %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>GitHub ව්‍යාපෘති අඩවියක් සඳහා /ගබඩාව/; අභිරුචි වසමක් හෝ පරිශීලක අඩවියක් සඳහා හිස්ව තබන්න.</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. අඩවිය</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. සත්කාරකය</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. ගබඩාවට පිවිසීම</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. ගබඩාව</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. සබැඳි සහ මූලික මාර්ගය</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. ඔබේම වසම</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. ගොඩනැගීමේ අඩංගු දේ</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. ප්‍රකාශනය කරන විට</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. සමාලෝචනය කර සුරකින්න</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>GitHub ව්‍යාපෘති අඩවියක් /&lt;repository&gt;/ යටතේ පවතී; සාපේක්ෂ සබැඳි එහි සහ වෙනත් ඕනෑම තැනක ක්‍රියා කරයි.</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>ගොඩනැගීමක් %site හි සෑම පිටුවක්ම පිවිසී නොමැති අමුත්තෙකු දකින ආකාරයට ලබා ගනී, සබැඳි නැවත ලියයි, ගොනු පිටපත් කරයි සහ ප්‍රතිඵලය ඉලක්කයේ ෆෝල්ඩරයට ලියයි. ඔබ ගොඩනැගීම පරීක්ෂා කර &quot;ප්‍රකාශනය කරන්න&quot; ඔබන තෙක් කිසිවක් ප්‍රකාශනය නොවේ.</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>cron රටාවක්, උදාහරණයක් ලෙස 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>යෙදවුම් යතුරක් %secret රහස ලෙස තබා ගනී.</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>යෙදවුම් යතුරක් මෙම ස්ථාපනයට SSH හරහා එක් ගබඩාවකට පමණක් push කිරීමට ඉඩ දෙයි, වෙන කොතැනකටවත් නොවේ. එහි පුද්ගලික අර්ධය පිහිටුවීම &gt; රහස් හි රැඳේ; පෙන්වන්නේ පොදු අර්ධය පමණි.</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>මෙම ඉලක්කය සඳහා සාදන ලද යෙදවුම් යතුරක්</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>යෙදවුම් යතුරක් SSH හරහා පිවිසේ: git ලිපිනය SSH ලිපිනයට වෙනස් කරන්න (git@github.com:owner/repo.git).</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>%user ආරම්භ කළ කාර්යයක් සිදු වෙමින් පවතී</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>මෙම ඉලක්කයේ කාර්යයක් තවමත් සිදු වෙමින් පවතී (%detail). එය අවසන් වන තෙක් රැඳී සිටින්න.</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>මෙම ඉලක්කයේ කාර්යයක් තවමත් සිදු වෙමින් පවතී. එය අවසන් වන තෙක් රැඳී සිටින්න.</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>/news/ පිටුවේ සිට /about-us/team පිටුවට සබැඳියක් මෙසේ ලියනු ලැබේ</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>නව යෙදවුම් යතුරක් සාදන ලදී. එහි පොදු අර්ධය දැන්ම ගබඩාවට එක් කරන්න.</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>පිරිසිදු කිරීමෙන් පසුවත් දෝෂ නිරාකරණ ප්‍රතිදානය, ආකෘති ටෝකනයක් හෝ සැසි හැඳුනුම්කාරකයක් ඇති පිටුවක් කිසිදා ප්‍රකාශනය නොවේ.</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>ආපසු හැරවීම ප්‍රවීණයන් සඳහා ය: &quot;මෙය වෙනස් කරන දේ මම දනිමි&quot; සලකුණු කර ටැගයේ නම නැවත ටයිප් කරන්න.</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>අඩවියක් %site දක්වා, එක් ගොනුවක් %file දක්වා විය හැක, මසකට ආසන්න වශයෙන් 100 GB ගමනාගමනයක් සමඟ. නොමිලේ සැලැස්මක ගබඩාව පොදු විය යුතුය. GitHub Pages සාප්පු හෝ වෙනත් වාණිජ ගනුදෙනු සඳහා අදහස් කර නැත.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>ඉලක්කයක් යනු එක් git ගබඩාවකට ප්‍රකාශනය කරන එක් අඩවියකි. මෙහි කිසිවක් ගොඩනඟන්නේ හෝ ප්‍රකාශනය කරන්නේ නැත: &quot;සුරකින්න&quot; සැකසුම් settings/override/staticcache.ini.append.php වෙත ලියයි.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>ඉලක්කයක් යනු එක් ස්ථානයකට ප්‍රකාශනය කරන එක් අඩවියකි, උදාහරණයක් ලෙස GitHub Pages හි ඔබේ පොදු අඩවිය.</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>පිහිටුවීම &gt; රහස් වෙතින් ටෝකනයක්</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>ගබඩාවේ workflow එකක් එය ප්‍රකාශනය කරයි.</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>මෙම පොදු යතුර ලිවීමේ අවසරය සහිතව ගබඩාවට එක් කරන්න. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, Allow write access සලකුණු කරන්න.</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>එක් කළ</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>වෙනත් git සත්කාරකයක්</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>වෙනත් ක්‍රියාවලියක් මෙම ඉලක්කය මත ක්‍රියා කරයි: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>ආපසු</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>මූලික මාර්ගය</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>පෙර</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>මූලික මාර්ගයක් යටතේ</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>ශාඛාව</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>කැඩුණු සබැඳි</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>ගොඩනැගීමේ කැඩුණු සබැඳි</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>ගොඩනැගීම</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>%user විසින් ගොඩනැගීම %id</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>ගොඩනැගීම %name</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>දැන් ගොඩනඟන්න</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>පරීක්ෂා කිරීමට ගොඩනැගීම</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>විසින්</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>අතින්, මෙහි</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>අවලංගු කරන්න</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>වෙනස් කරන්න</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>වෙනස් කළ</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>වෙනස්කම්</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>පළමුව එය පරීක්ෂා කරන්න</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>මෙම සැකසුම් පරීක්ෂා කරන්න</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>ගොඩනැගීම වෙනස් කරන දේ පරීක්ෂා කර, එය බලා, පසුව ප්‍රකාශනය කරන්න හෝ ඉවත දමන්න.</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>ආපසු යා යුතු ප්‍රකාශනය තෝරන්න.</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>පසු නිකුතුවක ලැබේ.</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Commit කිරීම</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>Commit කිරීම්</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>ගොඩනැගීම commit කර, ටැග් කර %remote වෙත push කරයි. Push කිරීමක් කිසිදා බලහත්කාරයෙන් නොකෙරේ; පසුව ඕනෑම ප්‍රකාශනයකට ආපසු යා හැක.</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>පෙර ෆෝල්ඩරය සමඟ සසඳන විට: එක් කළ %added, වෙනස් කළ %changed, ඉවත් කළ %removed, වෙනස් නොවූ %unchanged.</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>අවසන් ප්‍රකාශනය සමඟ සසඳා ඇත.</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>අක්තපත්‍රය</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>අභිරුචි වසම</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>දෝෂ නිරාකරණ ප්‍රතිදානය, ආකෘති ටෝකන, සැසි හැඳුනුම්කාරක සහ nonce සැමවිටම ඉවත් කෙරේ.</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>යෙදවුම් යතුර</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>%name හි යෙදවුම් යතුර</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>ඉවත දමන්න</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>ගොඩනැගීම ඉවත දමන්න</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>වසම</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>හිස්: අඩවියේ ලිපිනය. නැතිනම් එම අඩවියේම අභ්‍යන්තර ලිපිනයක්.</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>අවසන් විය</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>සෑම සබැඳියක්ම මූලික මාර්ගයෙන් ආරම්භ වේ.</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>සෑම ප්‍රකාශනයක්ම static/%id/&lt;n&gt; ටැගය සහිත commit එකකි. ආපසු යාම පෙර ප්‍රකාශනයක ගොනු සමඟ නව commit එකක් සාදයි: ඉතිහාසය රැඳේ, කිසිදු ටැගයක් චලනය නොවේ, කිසිවක් බලහත්කාරයෙන් නොකෙරේ.</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>අමතර</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>පිටු ලබා ගන්නේ</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>ගොනුව</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>ගොනු</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>ගොනු අස්ථානගතයි</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>අඩවියේ ගොනු</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>එකතු කළ නොහැකි වූ ගොනු</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>ඇඟිලි සටහන</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>ෆෝල්ඩරය</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>SSH ලිපිනයක් සඳහා. සුරැකීමෙන් පසු යතුර සාදනු ලැබේ; ඔබ එහි පොදු අර්ධය ගබඩාවට එක් කරයි.</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>https:// ලිපිනයක් සඳහා. GitHub: ගබඩාව මත Contents කියවීම සහ ලිවීම සහිත fine-grained ටෝකනයක්.</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>ප්‍රවීණයන් සඳහා. push කිරීම අවසන් වූ වහාම පොදු අඩවිය වෙනස් වේ.</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>ආකෘති</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>GitHub ගබඩාවකින් නොමිලේ සත්කාරකත්වය.</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>ශාඛාවෙන්</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>Git ලිපිනය</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub යෙදුම</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages %site අඩවියකට සහ %file ගොනුවකට ඉඩ දෙයි.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>GitHub Pages සීමා</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages ගොනු ඒවා පවතින ආකාරයටම ප්‍රකාශනය කරයි (_ න් ආරම්භ වන ගොනු සඳහා අවශ්‍යයි).</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub ශාඛාව push කළ ආකාරයටම සපයයි. පෙරනිමිය.</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, ඔබේම සේවාදායකය: ඕනෑම git ගබඩාවක්.</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>පෙර ප්‍රකාශනයකට ආපසු යන්න</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>උදව්</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>විශාරදය සඳහා උදව්</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>ඒවා සඟවන්න</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>ඉතිහාසය</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>%name හි ඉතිහාසය</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>සත්කාරකය</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>GitHub Pages ගොඩනැගීම ලබා ගන්නා ආකාරය</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>මම වෙනස්කම් පරීක්ෂා කළෙමි</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>මෙය වෙනස් කරන දේ මම දනිමි</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>හැඳුනුම</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>එය අක්‍රියයි: එය සක්‍රිය වන තෙක් කිසිවක් ගොඩනැගිය නොහැක.</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>එය %user ලෙස පසුබිමේ ධාවනය වේ; ඔබට මෙම පිටුව වසා දැමිය හැක.</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>කාර්යය %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>%secret රහස ලෙස තබා ඇත.</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>වර්ගය</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>අවසන් ප්‍රකාශනය</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>මෙම පිටු ඉවත් කර තබන්න</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>මෙම කොටස් ඉවත් කර තබන්න</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>සබැඳි</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>නැවත ලියූ සබැඳි</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>සජීවී අඩවිය</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>ගොඩනැගීම බලන්න</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>කුඩා අකුරු, ඉලක්කම්, _ සහ -, උදාහරණයක් ලෙස github-public. එය ෆෝල්ඩරය සහ ටැග (static/&lt;id&gt;/&lt;n&gt;) නම් කරන අතර පසුව වෙනස් කළ නොහැක.</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>නව යතුරක් සාදන්න</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>ඉලක්කයක් සාදන්න</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>යතුර සාදන්න</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>පළමුව සත්කාරකයේ ගබඩාව සාදන්න; හිස් එකක් වුවද කමක් නැත.</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>ගොනු ලැයිස්තුව</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>පණිවිඩය</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>බොහෝ පිටු</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>නම</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>පිහිටුවීම &gt; රහස් හි ටෝකනයේ නම</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>නව ඉලක්කය</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>ඊළඟ</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>නැත</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>තවම commit එකක් නැත.</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>යතුරක් සාදා නැත: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>php විධාන රේඛා ද්වීමය ගොනුවක් හමු නොවීය. migration.ini [AdminSettings] PhpCliPath එහි සම්පූර්ණ මාර්ගයට සකසන්න.</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>තවම ටැගයක් නැත.</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>තවම ඉලක්කයක් නැත.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>කිසිවක් නැත</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>ගොඩනැගීමේ නැත.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>තවම කිසිවක් ප්‍රකාශනය කර නැත.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>තවම කිසිවක් ප්‍රකාශනය කර නැත: සෑම ගොනුවක්ම නවයි.</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>දැනුම් දෙන්න</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>කාලසටහනකට අනුව</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>කොන්සෝලයේ</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>සේවාදායකයේ: ./console exp:static:serve %id එය එලෙසම සපයයි.</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>පේළියකට එක් මාර්ගයක්, * ඕනෑම කොටසකට ගැළපේ: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>ඉලක්කය සමඟ ගබඩා කරන්නේ නමක් පමණි; ටෝකනය හෝ යතුර පිහිටුවීම &gt; රහස් හි රැඳෙන අතර කිසිදා ලොගයක නොපෙන්වයි.</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>පිටු නම් කරන දේ පමණි</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>ටෝකනයක් සමඟ පමණි. env:NAME ඒ වෙනුවට සේවාදායකයේ පරිසර විචල්‍යයක් කියවයි.</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>පෙරදසුන විවෘත කරන්න</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>සත්කාරකය සපයන ආකාරයටම ඉලක්කයේ ෆෝල්ඩරයෙන් ගොඩනැගීම විවෘත කරයි. සබැඳිය ඔබට පැයක් ක්‍රියා කරයි.</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>විකල්පයි. හිස්: ප්‍රකාශනය කළ දේ.</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>විකල්පයි. වසමක් සමඟ අඩවිය එහි මූලයෙන් සපයනු ලැබේ.</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>ප්‍රතිදානය</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>පිටු</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>ඉලක්කයේ පිටු</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>ප්‍රතික්ෂේප කළ පිටු</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>පශ්චාත් සැකසීම</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>පෙරදසුන</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>පෙරදසුන සහ ප්‍රකාශනය</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>%name පෙරදසුන සහ ප්‍රකාශනය</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>ගොඩනැගීමේ පෙරදසුන</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>ප්‍රගතිය</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>පොදු ලිපිනය</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>පොදු යතුර</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>ප්‍රකාශනය කරන්න</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>අඩවියක ස්ථිතික පිටපතක් GitHub Pages හෝ ඕනෑම git සත්කාරකයක ප්‍රකාශනය කරන්න: එය ගොඩනඟන්න, වෙනස්කම් පරීක්ෂා කරන්න, ප්‍රකාශනය කරන්න, සහ අවශ්‍ය විට පෙර ප්‍රකාශනයකට ආපසු යන්න.</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>ආපසු යා යුතු ප්‍රකාශනය</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>ප්‍රකාශන</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Push කිරීම</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>නිබන්ධනය කියවන්න</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>සටහන් පොත</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>ප්‍රතික්ෂේප විය</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>සාපේක්ෂ</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>නැවත පූරණය කරන්න</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>ඉවත් කළ</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>යතුර ප්‍රතිස්ථාපනය කරන්න: පැරණි යතුර ක්‍රියා කිරීම නවතී</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>වාර්තාව</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>ගොඩනැගීමේ වාර්තාව</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>ගබඩාව</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>සමාලෝචනය</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>සමාලෝචනය සෑම සැකසුමක්ම පරීක්ෂා කර ලියනු ලබන පේළි පෙන්වයි. තවම කිසිවක් සුරැකී නැත.</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>ආපසු හරවන්න</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>ආපසු හැරවීම</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>සුරකින්න</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>කාලසටහන</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>සෙවුම් පිටුව</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>කොටස් හැඳුනුම්, කොමා වලින් වෙන් කළ.</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>ඒවා සජීවී අඩවියට යවන්න</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>සැකසුම</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>සැකසුම්</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>%name හි සැකසුම්</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>පිහිටුවීම</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>පිහිටුවීම &gt; රහස්</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>ලැයිස්තුවල පෙන්වයි, උදාහරණයක් ලෙස &quot;GitHub Pages හි පොදු අඩවිය&quot;.</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>GitHub යෙදුමක් සමඟ පිවිසීම GitHub ඒකාබද්ධතාවය සමඟ ලැබේ.</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>අඩවිය</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>ප්‍රකාශනය කළ යුතු අඩවිය</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>ප්‍රමාණය</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>ප්‍රමාණය සහ සීමා</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>ගොඩනැගීමේ ප්‍රමාණය</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>යල් පැනගිය පිටු</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>ආරම්භ විය</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>%user විසින් %time ට ආරම්භ කළා.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>තත්ත්වය</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>ස්ථිතික ප්‍රකාශනය</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>ස්ථිතික ප්‍රකාශනය අක්‍රියයි</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>ස්ථිතික ප්‍රකාශනය අක්‍රියයි.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>ස්ථිතික ප්‍රකාශනය අක්‍රියයි. පළමුව පිහිටුවීම &gt; ස්ථිතික ප්‍රකාශනය හි එය සක්‍රිය කරන්න.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>ස්ථිතික ප්‍රකාශනය සක්‍රියයි.</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>පියවර %step / %total</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>පියවර</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>පිරිසිදු කිරීම</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>අක්‍රිය කරන්න</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>සක්‍රිය කරන්න</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>ස්ථිතික ප්‍රකාශනය සක්‍රිය කරන්න</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>ටැගය</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>ටැග</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>ඉලක්කය</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>ඉලක්ක සෑදීමට සහ වෙනස් කිරීමට හැකි නමුත් එය සක්‍රිය කරන තෙක් කිසිවක් ගොඩනඟන්නේ හෝ ප්‍රකාශනය කරන්නේ නැත.</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>කියවිය යුතු දේ සෙවුම් යන්ත්‍රවලට කියයි.</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>ගොඩනැගීම ඉවත දැමිය නොහැකි විය: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>ගොඩනැගීම අවසන් ප්‍රකාශනයට සමානයි: ප්‍රකාශනය කිරීමට කිසිවක් නැත.</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>ගොඩනැගීම ඉවත දමන ලදී: ෆෝල්ඩරයේ නැවතත් අවසන් ප්‍රකාශනය ඇත.</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>පෙරනිමි අගයන් බොහෝ අඩවිවලට ගැළපේ.</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>ෆෝල්ඩරයේ තවම ප්‍රකාශනය නොකළ ගොඩනැගීමක් ඇත; නව ගොඩනැගීමක් එය ප්‍රතිස්ථාපනය කරයි.</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>කාර්යයන්ගේ ෆෝල්ඩරයට ලිවිය නොහැක: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>කාර්යය සූදානම් කළ නොහැකි විය: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>කාර්යය ආරම්භ කළ නොහැකි විය.</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>කාර්යය අවසන් විය. එහි වාර්තාව පූරණය වෙමින්.</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>කාර්යයට පිවිසී ඇති පරිශීලකයෙකු අවශ්‍යයි.</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>කාර්යය ආරම්භ වූ නමුත් එහි ක්‍රියාවලි හැඳුනුම වාර්තා කළේ නැත. %detail පරීක්ෂා කරන්න.</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>යතුර</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>විශාලතම ගොනුව: %path, %size.</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>ලියනු ලබන පේළි</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>සෙවුම් යන්ත්‍ර සඳහා පිටු ලැයිස්තුව; පොදු ලිපිනය අවශ්‍යයි.</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>පිටු ලබා ගන්නේ පිවිසී නොමැති අමුත්තෙකු දකින ආකාරයටයි. පරිපාලන සහ සංස්කරණ අඩවි ප්‍රවේශ කිසිදා ඉදිරිපත් නොකෙරේ.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>ප්‍රගතිය අනුගමනය කළ නොහැකි විය. කාර්යය සිදුවන ආකාරය බැලීමට පිටුව නැවත පූරණය කරන්න.</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>යතුරේ පොදු අර්ධය:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>ශාඛාවේ මූලය</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>රහස් ගබඩාව තවම සකසා නැත (./console exp:upgrade --apply එහි වගුව සාදයි), එබැවින් කිසිදු යතුරක් තබා ගත නොහැක.</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>සේවාදායකය තනිවම පිවිසේ (තමන්ගේම SSH යතුර හෝ අක්තපත්‍ර සහායකය මඟින්), නැතහොත් ගබඩාව මෙම සේවාදායකයේ ඇත.</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>සැකසුම ලිවිය නොහැකි විය: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>සැකසුම් වලංගුයි. මෙම පේළි ලියනු ලැබේ:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>සැකසුම් ගොනුව කියවිය නොහැක: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>අඩවිය එම ප්‍රකාශනයේ ගොනු වෙත ආපසු යයි; තවම ප්‍රකාශනය නොකළ ගොඩනැගීමක් පළමුව ප්‍රකාශනය කිරීම හෝ ඉවත දැමීම කළ යුතුය.</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>නොපවතින ලිපින සඳහා අඩවියේම පිටුව.</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>ඉලක්කය සුරැකිය නොහැකි විය: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>ඉලක්කය තවම මෙම යතුරෙන් පිවිසෙන්නේ නැත: එහි සැකසුම්වල &quot;මෙම ඉලක්කය සඳහා සාදන ලද යෙදවුම් යතුරක්&quot; තෝරන්න.</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>ඉලක්ක කියවිය නොහැකි විය: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>පරීක්ෂා කිරීමට තවම ගොඩනැගීමක් නැත.</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>මෙම ස්ථාපනයට ඉදිරිපස අඩවි ප්‍රවේශයක් නැත. පරිපාලන සහ සංස්කරණ අඩවි ප්‍රවේශ කිසිදා ප්‍රකාශනය නොකෙරේ.</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>මෙම පිටුව කාර්යය සිදුවන අතරතුර එය අනුගමනය කරයි; පිටුව වසා දැමූ විට එය පසුබිමේ දිගටම සිදු වේ.</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>මෙම ඉලක්කයට තවම යෙදවුම් යතුරක් නැත.</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>මෙම ඉලක්කය තවම මෙහි ගොඩනඟා නැත.</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>මෙම ඉලක්කයට එකක් ඇත.</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>මෙම ගොඩනැගීම ඉවත දමයි: ෆෝල්ඩරයේ නැවතත් අවසන් ප්‍රකාශනය ඇත. සජීවී අඩවිය වෙනස් නොවේ.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>පළමුව &quot;මම වෙනස්කම් පරීක්ෂා කළෙමි&quot; සලකුණු කරන්න.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>කාලය</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>ප්‍රේරක</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>ටැගයේ නම නැවත ටයිප් කරන්න</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>වෙනස් නොවූ</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>වෙබ්හුක්</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>කුමක්ද</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>වෙනස් වන දේ</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>එක් එක් ගොනුව කුමක්ද; සැමවිටම ලියනු ලැබේ.</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>කාර්යය කළ දේ සහ එහි සටහන් පොත. මෙහි ආරම්භ කළ කාර්යයක් මෙම පිටුව වසා දැමූ විට පසුබිමේ දිගටම සිදු වේ.</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>කාර්යය දෝෂ ලෙස මුද්‍රණය කළ දේ</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>පිටු නම් කරන දේ සහ ප්‍රකාශිත අන්තර්ගතයේ සෑම රූපයක්ම</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>කවදාද</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>ප්‍රකාශනයක් අසාර්ථක වූ විට</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>ප්‍රකාශනයක් සාර්ථක වූ විට</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>අන්තර්ගතය ප්‍රකාශනය කළ විට</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>පිටපතේ නොමැති දේ වෙත සබැඳි යන්නේ කොතැනටද (සෙවුම, පිවිසුම).</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>ස්ථිතික පිටපත සපයනු ලබන ස්ථානය.</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>ප්‍රකාශනය කරන්නේ කුමන අඩවියද, සහ ඉලක්කයේ නම කුමක්ද.</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>ඕනෑම මාර්ගයක් යටතේ ක්‍රියා කරයි. පෙරනිමිය.</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>අභිරුචි වසමක් සකසා ඇති සෑම විටම ලියනු ලැබේ.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>ඔව්</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>ඔබට සැමවිටම මෙහි සහ කොන්සෝලයේ අතින් ගොඩනැගීමට සහ ප්‍රකාශනය කිරීමට හැක.</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>නමක් පමණි; අගය පිහිටුවීම &gt; රහස් හි රැඳේ</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>%path යටතේ</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>වාර්තාවකින් තොරව අවසන් විය</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>අමතර</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>අසාර්ථකයි</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>ගොනුව</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages, හෝ docs ෆෝල්ඩරය සමඟ main.</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>git සත්කාරකය</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (ටෝකනයක් සමඟ) හෝ git@github.com:owner/repo.git (යෙදවුම් යතුරක් සමඟ); එහි කිසිදා මුරපදයක් හෝ ටෝකනයක් නොතබන්න.</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/, අඩවි සිතියම සහ කැනොනිකල් සබැඳි සඳහා.</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>රූපය</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>කිසිදා නැත</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>නැත</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>දුරස්ථයක් නැත</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>නැත: commit ෆෝල්ඩරයේම රැඳේ</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>නැත: කිසිවක් වෙනස් නොවීය</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>push කර නැත</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>කිසිවක් වෙනස් නොවීය</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>පිටුව</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>සාර්ථකයි</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>proc_open අබල කර ඇත, එබැවින් මෙහි කාර්යයක් ආරම්භ කළ නොහැක. සේවාදායකයේ ./console exp:static:build භාවිත කරන්න.</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>ප්‍රකාශනය</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>ප්‍රකාශිත</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>push කිරීම පොරොත්තුවෙන්</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>push කළා</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>ප්‍රතික්ෂේප විය</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>සාපේක්ෂ</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>ආපසු හැරවීම</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>ආපසු හරවන ලදී</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>ධාවනය වෙමින්</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>ෆෝල්ඩරය පමණි</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: CNAME ගොනුවට ලියනු ලැබේ. සත්කාරකය පැහැදිලි කරන පරිදි වසමේ DNS එය වෙත යොමු කරන්න; HTTPS ආරම්භ වීමට ටික කලක් ගත විය හැක.</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>ඔව්, තවම ප්‍රකාශනය කර නැත</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>GitHub App එකක්</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>ගබඩාවේ workflow එකක් එය ප්‍රකාශනය කරයි. ගොඩනැගීම workflow ගොනුව ලියයි; ෆෝල්ඩරය හිස්ව තබන්න.</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>GitHub ගබඩාවක් සහ ටෝකනයක් හෝ GitHub App එකක් සමඟ ඉලක්කයක් සුරැකීමෙන් පසු, මෙම පියවරට ගබඩාව සාදා GitHub Pages සක්‍රිය කළ හැක. නැතහොත් පළමුව GitHub මත ගබඩාව සාදන්න; හිස් එකක් වුවද කමක් නැත.</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>ශාඛාව ද GitHub Actions ද?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>DNS පරීක්ෂා කරන්න</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>ගබඩාව නොමැති නම් සාදන්න</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>GitHub මත ගබඩාව සාදා එහි සැකසීම් තුළ GitHub Pages සක්‍රිය කරන්න (Settings &gt; Pages).</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>%repo ගබඩාව නොමැති නම් (ඉල්ලා ඇත්නම්) එය සාදයි, සුරැකි පරිදි ශාඛාවෙන් හෝ GitHub Actions වෙතින් GitHub Pages සක්‍රිය කරයි, සහ අභිරුචි වසම සහ HTTPS සකසයි. එය සුරැකි සැකසීම් භාවිත කරයි: පළමුව වෙනස්කම් සුරකින්න.</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>GitHub මත විස්තර</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>පළමුව අභිරුචි වසම ඇතුළත් කරන්න.</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>සෑම push එකක්ම පළමුව මෙම සීමාවන්ට එරෙහිව පරීක්ෂා කෙරේ.</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>GitHub මත https:// ලිපිනයක් සඳහා. මෙම ස්ථාපනය සඳහා සැකසූ App පුරනය වේ; එයට ස්ථාපන id අවශ්‍යයි.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages පුද්ගලික ගබඩාවක් සපයන්නේ ගෙවන සැලසුමක පමණි.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: උප වසමකට (www.example.com) &lt;owner&gt;.github.io වෙත CNAME වාර්තාවක් අවශ්‍යයි; මූල වසමකට (example.com) A වාර්තා %ips.</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>GitHub App හි ස්ථාපන id</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>අවසන් Pages ගොඩනැගීම</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>සීමා සහ කොන්දේසි</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>නොමිලේ සැලසුමක GitHub Pages සඳහා අවශ්‍යයි.</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>GitHub මත</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>GitHub App සමඟ පමණි: GitHub මත App හි ස්ථාපනයේ ලිපිනය අවසානයේ ඇති අංකය. App එක staticcache.ini තුළ සකසා ඇත (GitHubAppId, GitHubAppKey).</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>පුද්ගලික</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>පොදු</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>පළමුව GitHub ගබඩාවක් සහ ටෝකනයක් හෝ GitHub App එකක් සමඟ ඉලක්කය සුරකින්න.</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>වසමේ සැපයුම්කරු වෙත මෙම වාර්තා සකසන්න:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>GitHub මත පිහිටුවන්න</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>%domain හි DNS තවම GitHub Pages වෙත යොමු නොවේ.</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>%domain හි DNS GitHub Pages වෙත යොමු වේ.</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>GitHub ඒකාබද්ධතාව මෙහි ලබා ගත නොහැක: %problem. ශාඛාවට ප්‍රකාශනය කිරීම එසේ වුවද ක්‍රියා කරයි; ගබඩාවේ සැකසීම් තුළ GitHub Pages සක්‍රිය කරන්න.</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>මෙම ඉලක්කය සඳහා GitHub පියවර ලබා ගත නොහැක: %problem.</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>අක්තපත්‍රය ලෙස ටෝකනයක් හෝ GitHub App එකක් ඇති විට GitHub Pages හි තත්ත්වය පෙන්වයි.</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>ඔබේම වසම භාවිත කරන්න</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>තෝරා ගත යුත්තේ කුමක්ද: ටෝකනය, යෙදවුම් යතුර හෝ GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>GitHub ගබඩාවක් සහ ටෝකනයක් හෝ GitHub App එකක් සමඟ, විශාරදයට ඔබ වෙනුවෙන් ගබඩාව සාදා, GitHub Pages සක්‍රිය කර වසම සැකසිය හැක (පියවර 4).</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>ගොඩනැගෙමින්</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>ගොඩනගා ඇත</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>GitHub Actions වෙතින්</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>%branch ශාඛාවෙන්</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>තවම නැත</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>හමු නොවීය</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>අක්‍රියයි</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>පුද්ගලික</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>පොදු</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>පෝලිමේ</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>නොදනී</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>පිටු %pages ක %count:</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>ඒවා සපයන සත්කාරක සඳහා, සෑම පෙළ ගොනුවක් අසලම .gz (සහ .br) ගොනුවක්.</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>පිටුවක සෑම පරණ ලිපිනයක් සහ අන්වර්ථ නාමයක් සඳහාම කුඩා පිටුවක්, පරණ සබැඳි දිගටම ක්‍රියා කිරීමට.</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>GitHub Actions මඟින් අඩවිය බෙදා හරින විට සැමවිටම ලියවේ.</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>CC-BY-4.0 වැනි SPDX හැඳුනුම්පතක්, හෝ පෙළම.</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>කූඩය</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>සේවාදායකයට ඇමතුම්</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>අදහස්</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>තොරතුරු රැස් කරන ආකෘති</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>GitHub Actions workflow</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>පිටුවල හිස්තැන් අඩුවෙන් සහ අදහස් නොමැතිව.</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>අන්තර්ගතයේ බලපත්‍රය</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>පිවිසෙන්න</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>Minify</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>වෙනත් ආකෘති</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>Precompress</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>යළි යොමු පිටු</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>යළි යොමු පිටු: %count.</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>සෙවීම</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>සෙවුම් දර්ශකය: %languages භාෂාවලින් පිටු %pages.</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>බ්‍රව්සර වලට තබා ගත හැකි වන පරිදි, අන්තර්ගතයේ හැෂ් අගයෙන් නම් කළ ශෛලි පත්‍ර සහ ස්ක්‍රිප්ට්.</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>වෙනස් වූ පිටු, අවසන් වෙනසෙන් මිනිත්තු කිහිපයකට පසු (cronjob කොටස staticpublish).</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>පහත ක්ෂේත්‍රයෙන් ගත් අන්තර්ගතයේ බලපත්‍රය.</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>සමස්ත අඩවිය, කාලසටහනේ වේලාවන්හි (cronjob කොටස staticpublish).</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>පිටුවල මෙම කොටස් වලට සේවාදායකයක් අවශ්‍යයි; ඒ සෑමට විකල්පයක් ලැබී ඇත. ප්‍රකාශනයට පෙර ඒවා පරීක්ෂා කරන්න.</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>ස්ථිතික ලෙස ක්‍රියා නොකරන දේ</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>ධාරකයේ විවෘත කරන අයට, ගබඩාව කුමක්ද යන්න.</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>ඉවත් කළා</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>විකල්ප පෙළ</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>සජීවී අඩවියේ ආකෘති අන්ත ලක්ෂ්‍යය</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>සජීවී අඩවිය</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>පිටපතේ සෙවුම් පිටුව</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>ආකෘතිය යැවීමට නොහැකි විය.</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>ස්තූතියි: ආකෘතිය යවන ලදී.</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>ආකෘතිය පිළිගත නොහැක: ඔබ ඇතුළත් කළ දේ පරීක්ෂා කර නැවත යවන්න.</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>පිටපතේ නැති පිටුවලට යන සබැඳි ඉවත් කරන්න</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>පරිපාලනයට යන සබැඳි ඉවත් කරන්න</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>ඒවායේ පාඨය ඉතිරි වේ. රූප, පෝරම සහ වෙනත් අඩවිවලට යන සබැඳි කිසිදා ඉවත් නොකෙරේ.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>අනුවාදය</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>ප්‍රකාශ කළ යුතු අඩවි ප්‍රවේශ</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>අඩවි ප්‍රවේශය</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>මූලයේ</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>මූලයේ අඩවි ප්‍රවේශයක් නැත: සෑම එකක්ම තම ෆෝල්ඩරයේ ඇති අතර මූලය ඒවාට සබැඳේ</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>අඩවි ප්‍රවේශ</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>එක් අඩවි ප්‍රවේශයක්, හෝ තම URI උපසර්ගයෙන් එක් ධාරකයක් බෙදාගන්නා කිහිපයක් තෝරන්න. මූලයේ ඇති එක එහිම සපයනු ලැබේ, අනෙක්වා තම උපසර්ගයේ ෆෝල්ඩරයේ (/ger/); ඒවා අතර සබැඳි පිටපතේම රැඳේ. පරිපාලන අඩවි ප්‍රවේශ කිසිවිටෙක පිරිනමනු නොලැබේ.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>%site හි %target හි ස්ථිතික ප්‍රකාශනය අසාර්ථක විය</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>%site හි %target හි ස්ථිතික ප්‍රකාශනය සාර්ථක විය</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>ස්ථිතික ප්‍රකාශන ඉලක්කය %target එය ඉල්ලන නිසා %site මෙම තැපෑල යැවීය.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>යෙදවීම %deploy %site හි අසාර්ථක විය</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>යෙදවීම %deploy %site හි ගේට්ටුවක් අසල රැඳී සිටී</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>යෙදවීම %deploy %site හි සාර්ථක විය</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>migration.ini [RemoteSettings] Notify[] එය ඉල්ලන නිසා මෙම තැපෑල %site විසින් යවන ලදී.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>දත්ත වර්ග (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>%time ගණන් කළා, විනාඩි %minutes කට පසු නැවත</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>දත්ත වර්ගයක් පන්ති ගුණාංගයක එක් ආකාරයක අගයක් ගබඩා කර සංස්කරණය කරයි: පෙළ පේළියක්, රූපයක්, සම්බන්ධතාවක්. බොහොමයක් හරය ගෙන එයි, දිගු තවත් එක් කරයි. මෙහි ඒ සියල්ල, ඒවා සපයන්නේ කවුද සහ අන්තර්ගතයෙන් කොපමණ ප්‍රමාණයක් ඒවා භාවිත කරන්නේද යන්න ඇත. දත්ත සමුදාය භාවිත කරන නමුත් තවදුරටත් කිසිවක් ලියාපදිංචි නොකරන දත්ත වර්ගයක්, එය ඇති අන්තර්ගතය බිඳ දමයි.</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>පන්ති සමූහ</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>පසුගිය විනාඩිවල ගණන් භාවිත කරනවා වෙනුවට දැන් නැවත ගණන් කරන්න.</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>නැවත ගණන් කරන්න</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>දළ විශ්ලේෂණය</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>ලියාපදිංචි වූ</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>භාවිතයේ ඇත</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>භාවිතා නොකළ</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>දත්ත වර්ග සපයන දිගු</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>පන්ති ගුණාංග</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>වස්තු ගුණාංග</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>ලියාපදිංචි නැත</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>ලැයිස්තුගතයි, ගොනුව නැත</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>දත්ත වර්ග %count ක් භාවිත වන නමුත් ලියාපදිංචි නැත</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>පන්ති ගුණාංග %class_attributes ක් සහ වස්තු ගුණාංග %object_attributes ක් කිසිදු දිගුවක් හෝ සැකසුමක් ලියාපදිංචි නොකරන දත්ත වර්ගයක් දරයි. ඒවායේ වස්තු පෙන්වීමට, සංස්කරණය කිරීමට හෝ ප්‍රකාශනය කිරීමට නොහැක. දත්ත වර්ගය සපයන දිගුව සක්‍රිය කරන්න, නැතහොත් පන්තිය වෙනස් කරන්න.</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>මේවා පමණක් පෙන්වන්න</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>දත්ත වර්ගයක් සොයන්න</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>හඳුන්වනය, නම, PHP පන්තිය හෝ දිගුව.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>පෙන්වන්න</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>සියල්ල</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>සපයන්නා</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>සියලු දෙනා</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>හරය</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>මෙම පෙරහනට කිසිදු දත්ත වර්ගයක් නොගැළපේ.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>සියල්ල පෙන්වන්න</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>දිගුව</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>දත්ත වර්ග %count න් %shown, %used භාවිතයේ</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>දත්ත සමුදායේ මෙම දත්ත වර්ගවල පන්ති හෝ වස්තු ගුණාංග ඇත, නමුත් content.ini ඒවායින් එකක්වත් ලැයිස්තුගත නොකරයි, නැතහොත් එහි ගොනුව නැත.</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>%provider හි දත්ත වර්ග</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>දත්ත වර්ගය</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>PHP පන්තිය සහ ගොනුව</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>පන්ති</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>වස්තු</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>ධජ</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>කිසිවක් නැත</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>සෙවුමට කිසිදු දත්ත වර්ගයක් නොගැළපේ. සෙවුම හිස් කරන්න.</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>දත්ත වර්ග %count න් %shown ක් පෙන්වා ඇත</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>පෙන්වූ දත්ත වර්ග: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>%column අනුව වර්ග කරන්න</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>%time ගණන් කළා</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>සියලු දත්ත වර්ග</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>උදව් පිටුව</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>මෙම දත්ත වර්ගය භාවිත වන නමුත් ලියාපදිංචි නැත</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>කිසිදු දිගුවක් දත්ත වර්ගය ලියාපදිංචි නොකරන තාක් පහත පන්තිවල වස්තු පෙන්වීමට, සංස්කරණය කිරීමට හෝ ප්‍රකාශනය කිරීමට නොහැක. එය සපයන දිගුව සක්‍රිය කර එය content.ini [DataTypeSettings] AvailableDataTypes[] වෙත එක් කරන්න, නැතහොත් පන්ති වෙනස් කරන්න.</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini මෙම දත්ත වර්ගය ලැයිස්තුගත කරයි, නමුත් කිසිදු දත්ත වර්ග නාමාවලියක එහි ගොනුව නැත. කිසිවක් එය භාවිත නොකරයි; එය AvailableDataTypes[] වෙතින් ඉවත් කරන්න හෝ එහි දිගුව සක්‍රිය කරන්න.</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>මෙම දත්ත වර්ගය ගැන</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>හඳුන්වනය</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>නම</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>දිගුව %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>කිසිවෙක් නැත</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>PHP පන්තිය</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>ගොනුව</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>AvailableDataTypes[] තුළ</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ඔව්</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>නැත</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>එහි අගයේ තීරු</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>එහි පන්ති ගුණාංග සැකසුම්වල තීරු</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>වගු</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>තීරු සහ වගු සොයා ගන්නේ දත්ත වර්ගයේ කේතය කියවීමෙනි: මඟපෙන්වීමක් මිස පොරොන්දුවක් නොවේ.</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>අච්චු</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>අඩවි ප්‍රවේශය</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>අච්චුව</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>සොයාගත් ස්ථානය</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>මෙම පරිපාලනය</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>පෙරනිමි අඩවිය</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>අභිබවා යාම් නොමැතිව: පන්තිය හෝ ගුණාංගය අනුව ගැළපෙන අභිබවන අච්චුවක් මේවාට වඩා ප්‍රමුඛ වේ.</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>එය භාවිත කරන පන්ති (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>කිසිදු පන්තියක මෙම දත්ත වර්ගයේ ගුණාංගයක් නැත.</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>පන්තිය</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>ගුණාංග</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>පන්ති ගුණාංග (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>ගුණාංගය</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>සැකසුම්</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>අවශ්‍යයි</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>සෙවිය හැකි</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>පරිවර්තනය කළ හැකි</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>තොරතුරු රැස් කරයි</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>එය භාවිත කරන අන්තර්ගත කිහිපයක්</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>අවසන් වරට වෙනස් කළ ඒවා මුලින්</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>වෙනස් කළ</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>නෝඩය %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>සෑම පරිවර්තනයකටම එහිම අගයක් ඇත.</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>සෙවුම එහි අගයන් සුචිගත කරයි.</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>එයට අමුත්තන්ගෙන් තොරතුරු එකතු කළ හැක (පෝරම).</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>ලැයිස්තු එය අනුව වර්ග කළ හැක: වර්ග කිරීමේ යතුර %type.</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>වර්ග කළ හැක</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>එහි අගයන් වෙනත් වස්තු වෙත යොමු කරයි.</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>සම්බන්ධතා</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>එය සරල පෙළකින් පිරවිය හැක (ආයාත කිරීම, REST).</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>පෙළෙන්</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>එය ගොනුවකින් පිරවිය හැක.</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>ගොනුවෙන්</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>එහි පන්ති ගුණාංග සැකසුම් පැකේජවලට යයි.</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>පැකේජ</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>අන්තර්ගතය (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%count න් %from සිට %to දක්වා</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>ලැයිස්තුව පෙරන්න</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>සියලුම පන්ති</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>කොටස</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>භාෂා</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>හිමිකරු</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>ප්‍රකාශිත</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>අනුපිළිවෙළ ප්‍රතිවර්තනය කරන්න</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>අයිතමයක් නැත</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>පිටුවකට</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>පිටුවකට අයිතම %count ක් පෙන්වන්න.</translation>
     </message>
 </context>
 </TS>

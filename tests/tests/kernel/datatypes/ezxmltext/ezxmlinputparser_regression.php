@@ -2,7 +2,7 @@
 /**
  * File containing the eZXMLInputParserRegression class
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -29,6 +29,7 @@ class eZXMLInputParserRegression extends ezpTestCase
      * @link http://issues.ez.no/18186
      * @dataProvider providerForIssue18186
      */
+    #[\PHPUnit\Framework\Attributes\DataProvider('providerForIssue18186')]
     public function testIssue18186( $string, $expected )
     {
         $this->assertEquals(
@@ -65,6 +66,7 @@ class eZXMLInputParserRegression extends ezpTestCase
      * @link http://issues.ez.no/18737
      * @dataProvider providerForIssue18737
      */
+    #[\PHPUnit\Framework\Attributes\DataProvider('providerForIssue18737')]
     public function testIssue18737( $string, $expected )
     {
         $this->assertEquals(

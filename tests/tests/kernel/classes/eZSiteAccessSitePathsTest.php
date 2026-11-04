@@ -12,7 +12,7 @@
  * which a siteaccess cannot change); all are removed afterwards. It runs in its own process, because it changes the
  * global site.ini.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package tests
  */
@@ -237,7 +237,7 @@ class eZSiteAccessSitePathsTest extends PHPUnit\Framework\TestCase
         $this->assertSame( 'var/log/', eZDebug::instance()->logDirectory() );
     }
 
-    /** soap.php and webdav.php declare their own eZUpdateDebugSettings(); the log directory must not depend on it */
+    /** index_soap.php and index_webdav.php declare their own eZUpdateDebugSettings(); the log directory must not depend on it */
     public function testTheLogDirectoryIsSetWithoutTheDebugSettingsFunctions()
     {
         list( $site, $siteDir ) = $this->site( 'l', array( 'UseGlobalLogDir' => 'disabled', 'LogDir' => '{dir}/log' ) );

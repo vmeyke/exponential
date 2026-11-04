@@ -984,6 +984,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>Fuulli kun qofa barbaadama: %from hanga %to, %count keessaa.</translation>
     </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Gosoota deetaa</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Gosoota deetaa handhuuraa fi dabalataalee hunda, akkasumas gitootaa fi qabiyyeen akkamitti akka itti fayyadaman.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2316,6 +2324,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>Fuulonni sirnaas mallatteeffamuu danda'u: fuula banaa (Qopheessa, hordoffii sakatta'iinsaa, tarree fayyadamtootaa ...), achiis olitti Fuula kana mallatteessi filadhaa. Mallattooleen akkasii mallattoo geerii qabu.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>Kana booda fuula kana as banuu hin dandeessan. Mallattoo baasaa, yookiin bulchaa tokko seensa gaafadhaa.</translation>
     </message>
 </context>
 <context>
@@ -5165,6 +5177,210 @@
         <source>Go to the first page</source>
         <translation>Gara fuula jalqabaa deemi</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>Kan biraa</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>Guyyoota 7 darban</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>Yeroo filatame</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>Jechoota hunda</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>Jecha kamiyyuu</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>Gaalee sirrii</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>Walitti dhufeenya</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>Maqaa A–Z</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>Maqaa Z–A</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>Jijjiirame, haaraan dura</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>Jijjiirame, moofaan dura</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>Maxxanfame, haaraan dura</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>Maxxanfame, moofaan dura</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Jijjiirame</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>Calaqqisoota</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>Calaqqisoota agarsiisi</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>Calaqqisoota dhoksi</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Deebisii kaa'i</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>Hojiirra oolchi</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>Jechoota</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>Gosa qabiyyee</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>Dabalataan agarsiisi (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>Amaloota isaa keessaa tokko keessatti barbaaduuf gosa qabiyyee tokko filadhu.</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Kutaa</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Irraa</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Hanga</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>Guyyaan jalqabaa guyyaa sirrii miti.</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>Guyyaan xumuraa guyyaa sirrii miti.</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Abbaa</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>ID fayyadamaa, maqaa seensaa ykn teessoo imeelii.</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>“%input”-f fayyadamaan hin argamne.</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Afaan</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>Afaan kamiyyuu</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Bakka</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>Bakkeewwan %count</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>Bu'aawwan fuula tokkotti</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>Bu'aawwan “%text”-f (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>Bu'aawwan (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>Akka kanaan tartiibessi</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>Tartiibessi</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>Calaqqisoota hojii irra jiran</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>Calaqqisa kana baasi</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>Ykn qabiyyee walsimu tarreessuuf calaqqisoota filadhuu hojiirra oolchi.</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>Erga jechoota barreessitee booda calaqqisoonni barbaacha ni dhiphisu.</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>“%text”-f bu'aan hin argamne.</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>Bu'aan hin argamne.</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>Calaqqisa gubbaa jiru tokko baasi.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Hiikkaawwan</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Gocawwan</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>%name gulaali</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Gulaali</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -7514,6 +7730,10 @@
         <source>Setup &gt; Cronjobs</source>
         <translation>Qopheessa &gt; Cronjobs</translation>
     </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>Kutaan cronjob tokkollee ammallee hin hojjenne: tarree hojiiwwanii, galchiiwwan, beeksisoonnii fi indeeksiin barbaacha eeggachaa jiru. php bin/php/installcrontab.php --add --apply hojjechiisaa, yookiin sararoota --show crontab keessatti ida&apos;aa.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/dashboard/drafts</name>
@@ -8058,8 +8278,8 @@
         <translation>Beeksisni mirga abbummaa barreessitoota jalqabaa fi sooftiweerii dhaabbilee biroo Exponential waliin dhufan, akka laayisansiin barbaadutti, faayilii maddaa fi faayilii LICENSE keessa eegamaniiru.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>Kanatti aanu tarree gumaacha-tootaa Exponential kan hojii isaanii 7x tiif waliigaltee Laayisansii Gumaacha-tootaa eZ Systems jalatti kennaniidha. Akkuma waliigalteen kun hayyamu, 7x gumaacha hundaa laayisansii faayilii gumaachichi keessa jiruu wajjin tokkoon deebisee raabsa. Tarreen kun gumaacha-too hunda, odeeffannoo qunnamtii filannoo fi faayiloota isaan gumaachan yookiin hojii itti gumaachan tarreessa.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>Gumaachitoota hojii isaanii Exponential fi sooftiweerii inni irraa maddee irratti hojjataniif galateeffaman, faayiloota isaan itti gumaachan waliin. Kun galata, beeksisa mirga abbummaa miti: gumaachi Exponential'iif godhamu Contributor Licensing Agreement jalatti Exponential Foundation fi 7x'iif dabarfama.</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13881,32 +14101,20 @@ Yaadannoo: Paakeejiiwwan diriirsi isaanii hin haqamu.</translation>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%evaluate_link"&gt;Exponential Enterprise Edition qoradhaa&lt;/a&gt; - &lt;a href="%share_link"&gt;Miseensa Hawaasa Exponential ta'aa, wal-jijjiiraa fi gumaachaa&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Mirga abbummaa &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; fi kaan.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class="edition-info"&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>&lt;span class="edition-info"&gt;%edition&lt;/span&gt; tiin hojjetama. Odeeffannoo dabalataaf &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt; ilaalaa.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Mirga abbummaa &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; fi kaan.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> Odeeffannoo dabalataaf &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt; ilaalaa.</translation>
     </message>
     <message>
-        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Mirga abbummaa &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; fi kaan.</translation>
+        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href="%evaluate_link"&gt;Exponential qoradhaa (7x irraa)&lt;/a&gt; - &lt;a href="%share_link"&gt;Miseensa Hawaasa Exponential ta'aa, deeggarsa argadhaa fi gumaachaa&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Mirga abbummaa &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; fi kaan.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13915,6 +14123,61 @@ Yaadannoo: Paakeejiiwwan diriirsi isaanii hin haqamu.</translation>
     <message>
         <source>Help center</source>
         <translation>Giddugala gargaarsaa</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>Qabiyyee</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>Fuulota sanadaa</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>Fayyadamtoota</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>Gitoota qabiyyee</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>Bulchiinsa</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>Fuula %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>Bu'aawwan hunda ilaali</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>bu'aawwan %count</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>Bu'aa tokko</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>Yaada %count</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>Yaadni hin jiru</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>Yaadawwan fe'amuu hin dandeenye.</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>Yaadawwan</translation>
     </message>
 </context>
 <context>
@@ -14383,6 +14646,14 @@ Yaadannoo: Paakeejiiwwan diriirsi isaanii hin haqamu.</translation>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>Dhaabbanni kun agarsiisa ummataati: nama kamiyyuu jecha icciitii bulchaa isaa beekuu danda'a, jechi icciitii bulchaa jijjiiramuu yookiin haaromfamuu hin danda'u. Asitti wanta dhuunfaa homaa hin galchinaa.</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Meeshaalee keessan</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Sochii nageenyaa</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14672,6 +14943,14 @@ Yaadannoo: Paakeejiiwwan diriirsi isaanii hin haqamu.</translation>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>Qajeelfamoota, barbaacha fi dogoggora akkamitti akka gabaasan.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Qabiyyee haaraa</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Qabiyyee haaraa, wanta sakatta'iinsaaf qabame, fi tarkaanfiiwwan filannoo irratti.</translation>
     </message>
 </context>
 <context>
@@ -15130,6 +15409,46 @@ Yaadannoo: Paakeejiiwwan diriirsi isaanii hin haqamu.</translation>
         <source>Synchronisations</source>
         <translation>Wal-simsiisuuwwan</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>GraphQL API: qabxii xumuraa isaa, caasaa fi bakka gaaffiiwwan itti yaalan.</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Godaansota</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Jijjiiramoota inistaaleeshinii faayilaan kuufaman: haala isaanii, raawwiiwwan, raawwachiisuu fi duubatti deebisuu.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Qabiyyee haaraa</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Qabiyyee haaraa, wanta sakatta'iinsaaf qabame, fi tarkaanfiiwwan filannoo irratti.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Garagalchaa dhaabbataa marsariitii tokkoo GitHub Pages ykn hoostii git kamiyyuu irratti maxxansi.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Maxxansa dhaabbataa</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Gosoota deetaa</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Gosoota deetaa handhuuraa fi dabalataalee hunda, akkasumas gitootaa fi qabiyyeen akkamitti akka itti fayyadaman.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15294,6 +15613,22 @@ Yaadannoo: Paakeejiiwwan diriirsi isaanii hin haqamu.</translation>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>Herregoota nama tokkollee hin fayyadamne yookiin ilaalamuu barbaadan; dhaabi, banii yookiin al ergi.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Galmee odiitii fayyadamtootaa</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>Eenyutu jijjiire, seene yookiin dhorkame, herrega tokkoon tokkoon; calaqqisuu fi al erguu.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Gabaasa seensaa</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>Eenyutu seene, seensaa fi kufaatii guyyaa guyyaan; fayyadamaa bakka hundaa baasi.</translation>
     </message>
 </context>
 <context>
@@ -22110,6 +22445,22 @@ Yaadannoo: Paakeejiiwwan diriirsi isaanii hin haqamu.</translation>
         <source>%n hours ago</source>
         <translation>sa'aatii %n dura</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>Deebiiwwan gaaffiiwwan kuufaman GraphQL API, fi gosoota qabiyyee caasaa isaa.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>Garagalchaa dhaabbataa GitHub Pages ykn hoostii git kamiyyuu irratti maxxansi</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Maxxansa dhaabbataa</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>Kuusaan yeroo dhaabbataa fuulota sarvara kana irraa dhiyeessa. Garagalchaa dhaabbataa marsariitii tokkoo bakka biraatti, GitHub Pages ykn hoostii git kamiyyuu irratti maxxansuuf, maxxansa dhaabbataa fayyadami.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25651,6 +26002,10 @@ Yaadannoo: Paakeejiiwwan diriirsi isaanii hin haqamu.</translation>
     <message>
         <source>last purge</source>
         <translation>qulqulleessuu dhumaa</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>Barreeffamoonni cufaa haalaa fudhachuu hin dandeenye (dhuma %date): tokkoon tokkoon isaanii bu&apos;aa kuufame hunda moofaa godhe. %file fayyadamaa marsariitiin maqaa isaatiin hojjetu hundaaf kan barreeffamu ta&apos;uu qaba; NFS irratti NFSv4 ykn lockd barbaachisa.</translation>
     </message>
 </context>
 <context>
@@ -33599,6 +33954,14 @@ Yaadannoo: Paakeejiiwwan diriirsi isaanii hin haqamu.</translation>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>Sashaawwan hojjettuu PHP kan yeroon isaanii darbe PHP mataa isaatiin (session.gc_maxlifetime) baafamu, fuula kanaan yookiin kutaa cronjob session_gc'n miti.</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>Sashaawwan seenan kan fayyadamtoota hundaa gabaasa seensaa irratti tarreeffamu, akkasumas ni baafamu; gabaasni kun hojjettaa sashaa kamiin iyyuu ni hojjeta.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>Gabaasa seensaa bani</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37923,6 +38286,26 @@ herrega keessan hojii irra oolchaa.</translation>
     <message>
         <source>None yet</source>
         <translation>Ammallee hin jiru</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Sochii nageenyaa</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>Seensota keessan dhihoo, yaaliiwwan hin milkoofne fi jijjiirama jecha icciitii, teessoo imeelii fi seensa tarkaanfii lamaa keessanii.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>Seensota dhihoo, yaaliiwwan hin milkoofne fi jijjiirama nageenyaa herrega kanaa.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>Sochii ilaali</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>Seensota hin milkoofne: %count</translation>
     </message>
 </context>
 <context>
@@ -44089,6 +44472,42 @@ Yaada nama mirkaneessuuf ergu yookiin sadarkaa ilaaluu yoo barbaaddan URL armaan
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>Erga seenee booda, fayyadamaan wanta biraa osoo hin hojjetin jecha icciitii haaraa filachuu qaba. Yeroo nama tokkoof jecha icciitii yeroo gabaabaa kennitan fayyadamaa.</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>Suuraa jiru filadhaa</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>Faayiliin suuraa wanta isin filattanii dirree kana keessatti garagalfama. Wanti kaan hin jijjiiramu.</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>Suuraan "%name" dirree kana keessatti garagalfameera.</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>Suuraa daawwadhaa</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>Suuraalee maqaan barbaadaa</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Barbaadi</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>Suuraa "%name" fayyadamaa</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>Suuraa kana fayyadamaa</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>Suuraan barbaacha keessan wajjin walsimu hin jiru.</translation>
     </message>
 </context>
 <context>
@@ -51013,6 +51432,10 @@ Ibsa dabalataaf fuula barbaachisummaa ilaalaa.</translation>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>Crontab hin barreeffamne (%reason). Sarara kana crontab fayyadamaa marsariitiin itti hojjetuu keessatti dabaluu; yoo kana hin goone, tarreen, galchiin, beeksisni fi indeeksiin barbaachaa gonkumaa hin hojjetu:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>Irra deebiin fe&apos;uun Kickstarter&apos;iin (%file, achiis php bin/php/kickstarter.php run --apply) yookiin fe&apos;iinsa haaraadhaan raawwatama.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54892,6 +55315,10 @@ herrega keessan hojii irra oolchaa.</translation>
         <source>eZJSCore Public Packer cache</source>
         <translation>Kuusaa yeroo paakeera ummataa eZJSCore</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>Kuusa yeroo GraphQL (deebiiwwan fi gosoota caasaa)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54978,6 +55405,14 @@ herrega keessan hojii irra oolchaa.</translation>
     <message>
         <source>Copy of %class_name</source>
         <translation>Garagalcha %class_name</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Gosoota deetaa</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>Gosa deetaa %string</translation>
     </message>
 </context>
 <context>
@@ -55804,6 +56239,26 @@ herrega keessan hojii irra oolchaa.</translation>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>Suuraan SVG dubbifamuu hin dandeenye, yookiin wanti isa keessa jiru nageenyaan agarsiifamuu hin danda'u.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>Suuraan garagalfamuu hin dandeenye. Maaloo altokko deebi'aa yaalaa yookiin bulchaa marsariitii quunnamaa.</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>Wanti filatame hin jiru yookiin isin dubbisuuf hayyama hin qabdan.</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>Wanti filatame suuraa hin qabu.</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>Faayiliin suuraa wanta filatamee dubbifamuu hin dandeenye.</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>Suuraan wanta filatamee kan dirreen kun hayyamu caalaa guddaa dha: baayitii %1.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56334,6 +56789,42 @@ herrega keessan hojii irra oolchaa.</translation>
         <source>The bookmark was renamed to "%name".</source>
         <translation>Mallattoon gara "%name" tti maqaa jijjiirrameera.</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>Fuulli kun seensa marsariitii kana (%siteaccess) keessatti dhaamsameera. Mallattoo seensa marsariitii fuula kana qabu keessatti banaa.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>Moojuliin fuula kanaa asitti hin fe'amne yookiin hojii irra hin oolfamne.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>Fuulli kun kana booda hin jiru: moojuliin isaa mul'ata akkasii hin qabu.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>Gaheewwan keessan keessaa tokkollee fuula kana akka bantan isin hin hayyamu.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>Seensa marsariitii kana fayyadamuuf hayyama hin qabdan.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>Qabiyyee fuulli kun agarsiisu dubbisuuf hayyama hin qabdan.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>Gosni fuulaa kun mallattoo gochuu hin danda'u: unka tokko irratti qofa hojjeta, yookiin fuula yeroo gabaabaa ti.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>Teessoon fuula kanaa hin jiru.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>Fuulli kun amma banamuu hin danda'u.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56805,6 +57296,10 @@ Gita noodii hojii jijjiiruu fayyadamuun jijjiiruu qabdu.</translation>
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>Geejjibni imeelii hojii dhumaa keessatti ergaawwan %count dideera. Sarvarii imeelii fi site.ini MailSettings mirkaneessaa.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Taateewwan %count eeggachaa jiru, hojjechiisni cronjob beeksisaa tokkollee hin galmeeffamne. Kutaa cronjob &quot;frequent&quot; crontab keessatti ida&apos;aa, yookiin exp:notification:run --apply hojjechiisaa.</translation>
     </message>
 </context>
 <context>
@@ -63061,6 +63556,10 @@ Gita noodii hojii jijjiiruu fayyadamuun jijjiiruu qabdu.</translation>
         <source>Choose another site or section with the node picker</source>
         <translation>Filaa noodii fayyadamuun marsariitii yookiin kutaa biraa filadhaa</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>Abbaa qabeenyaa jijjiiruu kan danda&apos;u bulchaa sirnaa qofa: ./console exp:content-check --fix-permissions --apply akka root hojjechiisaa.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64594,6 +65093,10 @@ Gita noodii hojii jijjiiruu fayyadamuun jijjiiruu qabdu.</translation>
     <message>
         <source>empty</source>
         <translation>duwwaa</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>Furtuun mallattoo waggaa tokkoo ol turee jira: exp:audit key rotate --apply fayyadamuun jijjiiraa.</translation>
     </message>
 </context>
 <context>
@@ -68424,6 +68927,486 @@ Gita noodii hojii jijjiiruu fayyadamuun jijjiiruu qabdu.</translation>
         <source>Share of page time</source>
         <translation>Qooda yeroo fuulaa</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>hojjechuun guutuun gaafatameera</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>kuusaan yeroo fuulaa fuula kana hin qabu ture (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>kuusaan yeroo fuulaa deebii hin kennine</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>Hojjetame</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>Handhuuraan hojjetame: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>Kuusaa yeroo fuulaa irraa %ms ms keessatti kenname. Fuulli %stored irratti hojjechuu %render ms fudhateen kuufame, %age s dura.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>Amma hojjedhu</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>Gara mul'ata kuusaa yeroo deebi'i</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>Hojjechuu %stored irraa (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>Gaaffiin kun: kuusaa yeroo fuulaa irraa %ms ms keessatti kenname.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Fayyadamaa</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>ID fayyadamaa</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>Piroofaayilii cache</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>Mul'ata kana</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>Kuusaa yeroo mul'ataa</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>fayyadamaa tokkoon tokkoon (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>Piroofaayilii cache fayyadamaa: fayyadamtoonni piroofaayilii walfakkaataa qaban faayilota cache mul'ataa qooddatu</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>eeyyee</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>lakki</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Maqaa seensaa</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>Seenee jira</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>Sashaa</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>Qaamolee furtuu cache mul'ata qabiyyee fayyadamaa irratti hundaa'an, akkuma furtuun isaan fudhatutti, ViewCacheTweaks fuula kanaa jalatti. Fayyadamtoonni piroofaayilii walfakkaataa qaban faayilota cache mul'atootaa qooddatu, garuu yoo qaamoleen mul'ata tokkoo mataa isaa adda ta'an (filannoowwan, furtuuwwan dhaggeeffattootaa), isaan sun piroofaayilii mataa isaanii qabu, fuula kanaaf qofa.</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>Piroofaayilii</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>Mul'ata kana (noodii %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: fayyadamaan seene hundi faayilota cache mataa isaa qaba.</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>ViewCacheTweaks hojii irra jiran: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>Kutaa</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>Gatii</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>Qaamni fayyadamaa irratti hundaa'u hin jiru (ViewCacheTweaks).</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>mul'ata kana</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>Akka barreeffamaatti garagalchi</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>Gahee-wwan</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>Ramaddiin gahee tokkollee dubbifamuu hin dandeenye.</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>ID gahee</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Gahee</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>Daangaa</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>Kan ramadame</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>fayyadamaa</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>garee %name (wanta %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>Garagalfameera</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>Garagalchuun hin danda'amne.</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>dhaggeeffataa tokkoon dhiifame</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>Daaw'attoota maqaa hin qabne</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>kan kee wajjin tokko</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>adda</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>Piroofaayilii daawwattoonni maqaa hin qabne ViewCacheTweaks walfakkaataa jalatti argatan, filannoowwan durtii waliin, qaamolee mul'ataa malee: dhaggeeffataan seshinii dubbisu waa'ee isaanii gaafatamuu hin danda'u.</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>Filannoowwan</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>Haalli mul'ataa kamiyyuu filannoowwan fayyadamaa irratti hin hundaa'u (site.ini [ContentSettings] CachedViewPreferences).</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>Filannoowwan mul'atoonni haalota mul'ataa kanneenii irratti hundaa'an (CachedViewPreferences), gatii fayyadamaa ykn durtii waliin. Isaan piroofaayilii keessa akka userpreferences jiru, kan haalota mul'ataa hundaa waliin.</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>Haala mul'ataa</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>Filannoo</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>Durtii</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>Imaammatawwan</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>Imaammata gaheewwanii agarsiisi (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>Imaammanni yeroo kutaan kun banamu sarvarii irraa fe'amu, fuula tokko yeroo tokkotti, akkasumas moojuulii fi hojiidhaan calalamuu danda'u.</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>Hojii</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>Moojuliiwwan hundi</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>Hojiiwwan hunda</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>Daangaawwan</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>Dabalata agarsiisi</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>Gaheewwan kunneen imaammata hin qaban.</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>Imaammanni calaa wajjin walsimu hin jiru.</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%shown kan %matching imaammataa (walumaa galatti %total)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>Yeroo banamu ni fe'ama.</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>module/function, gahee, daangaa</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>Imaammatoota barbaadi</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>Dabalataan fe'i</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>Moojulii/hojii</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>Gahee hunda (imaammata %count)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>Imaammanni walsimu hin jiru.</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%shown imaammata %matched keessaa</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>Deebiin hin jiru</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>dhokfame</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>Ibsawwan agarsiisi</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>Ibsawwan dhoksi</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Bani</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>Hunda bani</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>Hunda cufi</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>Furtuu ykn gatii</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>Sashaa keessa barbaadi</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Gosa</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>%count dabalataa</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>agarsiisuuf baay'ee gadi fagaatee keessa jira</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>kutame, walumaagalatti qubeewwan %count</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Jalqabame</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>Maqaa kuukii</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>ID sashaa</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>Hojjechiisaa</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>Karaa kuusaa</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>Durtii PHP</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>Turtii jireenyaa (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>Kuukii</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>turtii %s s</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>Sashaa PHP kee ofii kee, akkuma yeroo kutaan banametti ture, kan nama biraa gonkumaa miti. Gatiiwwan furtuuwwan iccitii fakkaatanii (tookenoota, hash, jecha icciitii) ni dhokfamu (debugbar.ini SessionMask[]); kan hafe hundi akkuma kuufametti agarsiifama, daataa dhuunfaa illee.</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>furtuuwwan %count, %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>guddaa</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>Sashaan duwwaa dha.</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>Gaaffii kanaaf sashaan tokkollee hin jalqabamne.</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Dabalata %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>Kernel fi kan biroo</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>Galmeewwan hundi hin agarsiifamne: sashaan kan as tarreeffamuu danda'u caalaa qaba.</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>Furtuuwwan %count hin tarreeffamne.</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>Caasaa</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>Gatiiwwan tookena fakkaatan (JSON Web Token, ragaa eenyummaa mataduree Authorization, furtuu dhuunfaa, barreeffama hex dheeraa ykn kan akkasumaan) maqaan furtuu isaanii maal iyyuu yoo ta'e ni dhokfamu (debugbar.ini SessionValueMask[]).</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>Furtuun iccitii fakkaata (debugbar.ini SessionMask[]).</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>Gatiin tookena fakkaata.</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>Furtuu dhokfame jala.</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>Sashaa akka barreeffamaatti, akka gabateetti dhokfame.</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>Sashaan %size caala (debugbar.ini SessionWarnBytes): gaaffiin fayyadamaa kanaa hundi sashaa guutuu dubbisa, yeroo jijjiirames ni barreessa.</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP sashaa kana faayiloota keessatti kuusa, gaaffii guutuu keessatti faayilicha ni cufa: gaaffiiwwan fayyadamaa tokkoo (taabiiwwan hedduu, waamicha AJAX) wal eegu.</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>Banaa tursi</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>%size caala (debugbar.ini SessionWarnBytes): gaaffiin fayyadamaa kanaa hundi sashaa guutuu dubbisa.</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%count keessaa %hits kuusaa irraa dubbifaman</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>Unkaan tokkollee hin dhiyaanne (mul'anni kuusaa mul'ataa irraa dubbifame unka tokkollee hin dhiyeessu).</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>Ramaddiiwwan gahee</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>Gahee-wwan fi imaammatawwan</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>daawwattoota maqaa hin qabne irraa adda</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>akkuma daawwattoota maqaa hin qabne</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70304,6 +71287,14 @@ Gita noodii hojii jijjiiruu fayyadamuun jijjiiruu qabdu.</translation>
     <message>
         <source>not sent</source>
         <translation>hin ergamne</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Cronjob beeksisaa hojjechiisa isaa hunda asitti galmeessa. Kutaa frequent crontab keessatti ida&apos;aa, yookiin exp:notification:run --apply hojjechiisaa.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>Konsoolii fayyadamaa: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -76022,6 +77013,98 @@ Gita noodii hojii jijjiiruu fayyadamuun jijjiiruu qabdu.</translation>
         <source>This topic is not Released; readers do not see it.</source>
         <translation>Mata dureen kun hin Maxxanfamne; dubbistoonni hin ilaalan.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Godaansota</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Jijjiiramoota inistaaleeshinii faayilaan kuufaman: haala isaanii, raawwiiwwan, raawwachiisuu fi duubatti deebisuu.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Garagalchaa dhaabbataa marsariitii tokkoo GitHub Pages ykn hoostii git kamiyyuu irratti maxxansi.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Maxxansa dhaabbataa</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>Ilaalcha keessa</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>Dubbistoonni fuula kana ni argu.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>Hamma namni tokko maxxansutti dubbistoota irraa dhokfameera.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>Fuulli kun amma Ilaalcha keessa jira. Hamma maxxanfamutti dubbistoota irraa dhokfameera.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>Fuulli kun Maxxanfameera: dubbistoonni amma ni argu.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>Fuulli kun deebi'ee Wixinee ta'eera. Hamma ilaalamee maxxanfamutti dubbistoota irraa dhokfameera.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>Amma maxxansi</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>Fayyadamaa gahee %role qabu kan fooyya'iinsa kana hin barreessine qofatu maxxansuu danda'a.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>Mata dureewwan gargaarsaa maxxansa eegaa jiran</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>Hamma irra deebi'ee maxxanfamutti dubbistoota irraa dhoksa.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>Itti aansee ilaalaan tokko ni mirkaneessa. Dubbistoonni ammallee hin argan.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>Dubbistoonni battaluma ni argu.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>Hojii dabalataatiif Ilaalcha keessaa baasa. Dubbistoonni hin argan.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>Fuula kana dubbistoota irraa dhoksituu?</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>Fuula kana gara Wixineetti deebistuu?</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>Hamma namni tokko irra deebi'ee maxxansutti dubbistoonni %title hin argan.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title hojii dabalataatiif gara Wixineetti deebi'a. Dubbistoonni ammallee hin argan, maxxanfamuu isaa dura immoo ilaalcha haaraa barbaada.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Dhiisi</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>Mata dureewwan kun Ilaalcha keessa jiru. Akkuma namni fooyya'iinsa ammaa hin barreessine maxxanseen dubbistoonni ni argu.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76477,6 +77560,46 @@ Gita noodii hojii jijjiiruu fayyadamuun jijjiiruu qabdu.</translation>
         <source>None.</source>
         <translation>Homaa.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>appii mirkaneessaatiin</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>koodii imeeliidhaan ergameen</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>koodii deebisaatiin</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>furtuu darbiitiin (passkey)</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>herrega alaatiin</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Sochii nageenyaa</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>Akka neetworkii isaatti agarsiifama; teessoon akkuma qindaa&apos;inni eegumsa deetaa marsariitichaa jedhutti kuufama.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Hin galmeeffamne</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Bakka</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>tilmaamaan</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76720,6 +77843,42 @@ Gita noodii hojii jijjiiruu fayyadamuun jijjiiruu qabdu.</translation>
         <source>Manage devices</source>
         <translation>Meeshaalee to'adhu</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>appii mirkaneessaatiin</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>koodii imeeliidhaan ergameen</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>koodii deebisaatiin</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>furtuu darbiitiin (passkey)</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>herrega alaatiin</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Sochii nageenyaa</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Hin galmeeffamne</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Bakka</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>tilmaamaan</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76799,6 +77958,14 @@ Gita noodii hojii jijjiiruu fayyadamuun jijjiiruu qabdu.</translation>
         <source>View the sessions of this user</source>
         <translation>Sashaawwan fayyadamaa kanaa ilaali</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>Herregni keessan %login marsariitii %site irratti amma bakka dhihoo kana irraa hin seenin irraa seenuuf fayyadameera:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>Bakka tilmaamaa</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76837,6 +78004,10 @@ Gita noodii hojii jijjiiruu fayyadamuun jijjiiruu qabdu.</translation>
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%browser %os irratti</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Gabaasa seensaa</translation>
     </message>
 </context>
 <context>
@@ -77045,6 +78216,82 @@ Gita noodii hojii jijjiiruu fayyadamuun jijjiiruu qabdu.</translation>
         <source>The passkey could not be checked. Please try again.</source>
         <translation>Furtuun seensaa mirkaneeffamuu hin dandeenye. Maaloo irra deebi'aa yaalaa.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>Herregoonni furtuu seensaatiin qofa seenan asitti jecha icciitii fayyadamuu hin danda&apos;an: &quot;Furtuu seensaatiin seeni&quot; filadhaa.</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>Furtuuwwan seensaa %login</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>Furtuuwwan seensaa herregni kun ittiin seenu. Kan meeshaa bade ykn hatame irra jiru dhorkaa: isa kanaan booda seenuu hin danda&apos;u. Kan haaraa abbaan herregaa ofii isaatii ida&apos;a.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>Herregni keessan furtuu seensaa barbaada</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>Herrega keessanitti furtuu seensaa ida&apos;aa</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>Itti fufuuf furtuu seensaa ida&apos;aa. Achiis jecha icciitii qofaan osoo hin taane isaan seentu.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>Furtuu seensaatiin seenuun jecha icciitii caalaa saffisaa fi nageenya qaba. Amma tokko ida&apos;aa, ykn isa malee itti fufaa.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>Amma miti</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>Furtuu seensaa &quot;%name&quot; dhorkuu?</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>Isa kanaan booda herrega kanatti seenuu hin danda&apos;u. Inni isa dhumaa yoo ture, abbaan herregaa jecha icciitiin seena, ykn isin jecha icciitii haaraa kaa&apos;attu.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>Furtuu seensaa dhorki</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>Dhorki</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>Herregni kun furtuu seensaa hin qabu.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>Mirkaneessaa</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Hin beekamu</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>Furtuu seensaa keessan isa dhumaa: osoo hin baasin dura kan biraa ida&apos;aa.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>Herregni kun furtuu seensaatiin qofa seena (imaammata furtuu seensaa): tokkollee yoo hin hafin, ammas jecha icciitii isaatiin seena.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>Kun furtuu seensaa keessan isa dhumaa ti, herregni keessanis isa malee seenuu hin danda&apos;u. Dura furtuu seensaa biraa ida&apos;aa.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>Furtuun seensaa &quot;%name&quot; dhorkameera. Isa kanaan booda herrega kanatti seenuu hin danda&apos;u.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77144,6 +78391,34 @@ Gita noodii hojii jijjiiruu fayyadamuun jijjiiruu qabdu.</translation>
         <source>Code from your authenticator app</source>
         <translation>Koodii appii mirkaneessaa keessanii</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>Daataa yeroo hundaaf haquuf ykn galmee tokko duwwaa gochuuf jirtu.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>Jecha icciitii keessanii fi furtuu seensaa</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>Jecha icciitii keessanii fi koodii appii mirkaneessaa keessanii</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>Ykn:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>Biraawzarri kun furtuu seensaa fayyadamuu hin danda&apos;u. Karaa biraa ykn biraawzara biraa fayyadamaa.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>Yeroo itti fuftan, biraawzarri keessan furtuuwwan seensaa keessan keessaa tokko gaafata.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>Furtuu seensaatiin itti fufi</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77234,6 +78509,70 @@ Gita noodii hojii jijjiiruu fayyadamuun jijjiiruu qabdu.</translation>
     <message>
         <source>Setup</source>
         <translation>Qopheessa</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>Jecha icciitii ofii, teessoo imeelii, furtuuwwan seensaa, seensa tarkaanfii lamaa, koodii deebisanii argachuu ykn furtuuwwan API jijjiiruu, fi meeshaalee ofii kan biroo irraa ba&apos;uu.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>Fayyadamtoota, jecha icciitii fi meeshaalee isaanii, qindaa&apos;ina herregaa uumuu fi gulaaluu, herrega fayyadamtootaa haaraa raggaasisuu ykn diduu, gahee ramaduu fi imaammata gulaaluu.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>Daataa haquu</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>Kuusaa kosii duwwaa gochuu, wantoota isa keessaa baasuu fi wantoota hedduu yeroo tokkotti baasuu.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>Qabiyyee baasuu, maxxansuu fi olkaa&apos;uu</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>Qabiyyee baasuu (kuusaa kosiittis), maxxansuu fi wixinee olkaa&apos;uu; yeroo unkaan ergamu gaafatama. Durtiin cufaa dha.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>Gocha miira qabeessa tokko dura, fayyadamaan seene eenyu akka ta&apos;e irra deebi&apos;ee mirkaneessa: jecha icciitii isaa fi furtuu seensaatiin, ykn furtuu seensaa malee jecha icciitii isaa fi koodii appii mirkaneessaa isaatiin. Fuulota weebii qofatu gaafata: walqunnamtiin REST, SOAP, WebDAV, seensi expservices fi sararri ajajaa gonkumaa hin gaafatan.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>Bakka qindaa&apos;inni itti hojjetu</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>Qindaa&apos;ina kanaaf</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Seensa marsariitii hunda</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>Seensa marsariitii %name</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Bani</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>Kan gaafatamu: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>Miseensota isaanii qofa gaafachuuf garee fayyadamtootaa mallattoo godhaa (fakkeenyaaf gulaaltota). Homtuu yoo hin mallattoofne: fayyadamaa hunda.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>settings/override/site.ini.append.php keessatti olkaa&apos;ameera, seensa marsariitii hundaaf. Olkaa&apos;uun isin akka taatan akka mirkaneessitan isin gaafata.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>settings/siteaccess/%name/site.ini.append.php keessatti olkaa&apos;ameera. Gatiin settings/override keessa jiru isa caala. Olkaa&apos;uun isin akka taatan akka mirkaneessitan isin gaafata.</translation>
     </message>
 </context>
 <context>
@@ -77336,6 +78675,6822 @@ Gita noodii hojii jijjiiruu fayyadamuun jijjiiruu qabdu.</translation>
     <message>
         <source>Open the page</source>
         <translation>Fuula bani</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from hanga %to, %count keessaa</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>Maqaa seensaa yookiin ID fayyadamaa: herrega taateen ilaallate yookiin fayyadamaa tarkaanfii fudhate.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Herrega</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Tarkaanfii</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>Booda</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>Bu&apos;aa kamiyyuu</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Dura</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Raawwataa</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Qulqulleessi</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Milkaa&apos;e</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>Taatewwan guyyoota %days olkaa&apos;amu.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>Taatewwan hanga harkaan haqamanitti olkaa&apos;amu.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Taatewwan</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>Tarkaanfii kamiyyuu</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>Taatewwan herrega kanaa hunda</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>Tarree akka CSV tti al ergi (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Hin milkoofne</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Irraa</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>Tarree calaqqisuu</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>Taateen walsimu hin jiru.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Fuula tokkotti</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>Galmeessuun audit.ini keessatti dhaabbateera ([UserAuditSettings] UserAudit); tarreen kan dura galmaa&apos;e agarsiisa.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Dhorkame</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Bu&apos;aa</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Agarsiisi</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>Gabateen galmee odiitii fayyadamtootaa hin jiru. php update/common/scripts/6.0/createuseraudittable.php fayyadamaa uumaa; hanga sanaatti faayiloonni odiitii taatee hunda olkaa&apos;u.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>Fuulli kun kuusaa deetaa SQL barbaada; MongoDB irratti hin argamu. Faayiloonni odiitii taatee hunda olkaa&apos;u.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Hanga</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Galmee odiitii fayyadamtootaa</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Fayyadamaa</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Yeroo</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Bakka</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>Eenyutu herrega kam jijjiire, uume, dandeessise, dhaabe, socho&apos;se yookiin haqe, eenyutu seene yookiin dhorkame, akkasumas gaheewwan kamtu ramadame: taatee tokkoof sarara tokko, dirreewwan dura fi booda wajjin. Jechoonni icciitii fi iccitiiwwan gonkumaa hin galmaa&apos;an.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>garee</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>sirna</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>hin beekamu</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>Herrega keessan eegaa</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>Koodiin deebisaa herrega keessan %login marsariitii %site irratti seenuuf fayyadameera.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>Koodiin deebisaa fayyadameera</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Herrega</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>Teessoo tilmaamaa</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>Irra deebitanii seenuuf jecha icciitii haaraa gaafadhaa, yookiin bulchitoota marsariitichaa qunnamaa.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>Jecha icciitii haaraa gaafadhu</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>Koodiin deebisaa tokkoon tokkoon isaa yeroo tokko qofa hojjeta. Yoo bilbila keessan dhabdan, appii mirkaneessaa keessan irra deebitanii qindeessaa, koodii deebisaa haaraas bakka nagaa ta&apos;e kaa&apos;aa.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>Yaalii seensaa hin milkoofne herrega keessan irratti</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>Amma booda, seensi jecha icciitii keessanii malees koodii gaafata. Yoo kana isin gootan, homaa gochuun isin hin barbaachisu.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>Yoo isin taatanii fi jecha icciitii keessan irraanfattan, haaraa gaafadhaa. Yoo isin hin taane, jecha icciitii cimaa filadhaatii seensa tarkaanfii lamaa banaa.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>Yoo isin hin taane, namni tokko jecha icciitii keessan beekuu danda&apos;a: amma jijjiiraatii herregni keessan eessatti akka seene ilaalaa.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>Koodii deebisaa hafan</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>Meeshaalee keessan ilaali</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>Akeekkachiisa nageenyaa</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>Namni tokko jecha icciitii dogoggoraatiin yeroo %count walitti aansee herrega keessan %login marsariitii %site irratti seenuuf yaaleera.</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>Herrega keessan %login marsariitii %site irratti taateen nageenyaa tokko uumameera.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>Kun akeekkachiisa nageenyaa waa&apos;ee herrega keessanii ti. Jijjiirama akkasii hundaaf ni ergama, cufamuus hin danda&apos;u.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Yeroo</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>Seensi tarkaanfii lamaa herrega keessan %login marsariitii %site irratti cufameera.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>Seensi tarkaanfii lamaa cufameera</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>Seensi tarkaanfii lamaa herrega keessan %login marsariitii %site irratti baname.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>Seensi tarkaanfii lamaa baname</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>Herregni keessan %login marsariitii %site irratti seensa hin milkoofne baay&apos;ee booda cufameera.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>Herregni keessan amma jecha icciitii keessan qofaan eegama. Yoo kana isin hin goone, jecha icciitii keessan erga jijjiirtanii booda seensa tarkaanfii lamaa irra deebitanii banaa.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>Herregni keessan cufameera</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>Herrega keessan %login %site irratti furtuun seensaa ida&apos;ameera.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>Namni furtuu seensaa kana qabu kamiyyuu jecha icciitii keessan malee herrega keessanitti seenuu danda&apos;a. Isin yoo hin ida&apos;in, Furtuuwwan darbii jalatti baasaatii jecha icciitii keessan jijjiiraa.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>Herrega keessan %login %site irraa furtuun seensaa baafameera.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>Isa kanaan booda herrega keessanitti seenuu hin danda&apos;u. Isin yoo hin baasin, furtuuwwan seensaa fi meeshaalee keessan ilaalaa.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>Herrega keessanitti furtuun seensaa ida&apos;ameera</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>Herrega keessan irraa furtuun seensaa baafameera</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>Sochii nageenyaa</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Sochii nageenyaa kan %name</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Seenameera</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Yaalii seensaa hin milkoofne</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Ba&apos;ameera</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Sashaawwan baafamaniiru</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Seensa meeshaa haaraa irraa</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Seensa bakka haaraa irraa</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Eenyummaan mirkanaa&apos;eera (&quot;Isin akka taatan mirkaneessi&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Mirkaneessi eenyummaa hin milkoofne</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Furtuu darbiitiin seenameera</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Seensi furtuu darbiitiin hin milkoofne</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Seensi didameera: koodiin tarkaanfii lammaffaa hin jiru yookiin dogoggora</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Koodii tarkaanfii lammaffaa dogoggoraa</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Herregni seensa hin milkoofne booda cufameera</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Herregni baname</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Jechi icciitii jijjiirameera</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Jijjiirraan jecha icciitii hin milkoofne</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Jechi icciitii irra deebiin qindaa&apos;eera</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Jechi icciitii haaraan gaafatameera</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Teessoon imeelii jijjiirameera</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Maqaan fayyadamaa jijjiirameera</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Seensi tarkaanfii lamaa baname</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Seensi tarkaanfii lamaa cufameera</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Koodiin deebisaa fayyadameera</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Koodii deebisaa haaraa</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Jecha icciitii app uumameera</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Jecha icciitii app haqameera</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Furtuun darbii ida&apos;ameera</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Furtuun darbii baafameera</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Herregni hojii irra oolfameera</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Herregni dhaabbateera</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Hunda</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Seensotaa fi sashaawwan</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Jijjiirama herregaa</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Xiyyeeffannaa barbaada</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>isiniin</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>fayyadamaadhaan</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>%login tiin</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>Mala</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>Biraawuzarii</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>Sirna hojii</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Meeshaa</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>Bakka</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>Biyya</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Sashaawwan</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>Kamfaa</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>Karaa ergaa</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Yaaliiwwan hin milkoofne</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>Koodii hafan</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>Hojjettaa seensaa</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Sochii nageenyaa</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Sochii nageenyaa kan %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Seensotaa fi jijjiirama nageenya herrega keessanii. Yoo waan isin hin goone argitan, jecha icciitii keessan jijjiiraatii meeshaalee isin hin beekne baasaa.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>Seensotaa fi jijjiirama nageenya herrega kanaa.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Meeshaalee keessan</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Jecha icciitii jijjiiri</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>Gara herregaatti deebi&apos;i</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>Sochiin nageenyaa hin galmeeffamu</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>Galmee odiitii fayyadamtootaa irraa dubbifama; gabateen isaa expuser_audit hin jiru yookiin kuusaa deetaa kana irratti hin deeggaramu. php update/common/scripts/6.0/createuseraudittable.php, yookiin haaromsa kuusaa deetaa 6.0.15 hojjechiisaa.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Guyyoota %days darban</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Seensota guyyoota %days darban keessatti</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>Sochii nageenyaa dhihoo</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Agarsiisi</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>hin milkoofne</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>didame</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Sochiin nageenyaa tokkollee ammallee hin galmeeffamne.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>Taateewwan nageenyaa guyyoota %days ni turu.</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>Taateewwan nageenyaa hanga bulchaan tokko haqutti ni turu.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Deetaa seensa kootii buusi</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Sashaawwanii fi taateewwan nageenyaa keessan akka faayilii JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Saayitii kana irratti sashaawwan hin galmaa'an, kanaaf meeshaan biraa tokkollee ba'uu hin dandeenye. Amma jecha icciitii keessan jijjiiraa.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>Sashaawwan biroo %count ba'aniiru. Amma jecha icciitii keessan jijjiiraa.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Meeshaan biraa tokkollee seenee hin turre. Amma jecha icciitii keessan jijjiiraa.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Galatoomaa. Taateen kun kan keessan ta'uun mallattoo'eera.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Taateen sun deebii hin barbaachisu.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Fuulli yeroon isaa darbeera. Homaa hin jijjiiramne; maaloo irra deebi'aa yaalaa.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Herrega keessan eegaa</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Wanti asii tokko isin yoo hin taane, meeshaalee biroo hunda ba'isaa, achiis jecha icciitii haaraa filadhaa. Meeshaaleen “Na yaadadhu”n seenanii turanis ni ba'u.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Meeshaan hundi, kana malee, gaaffii isaa itti aanu irratti ni ba'a. Achiis isin jecha icciitii haaraa filattu.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Eeyyee, meeshaalee biroo ba'isi</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Kun isin turtanii?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Eeyyee, ana ture</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Lakki, herrega koo eegi</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Seenameera</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Yaalii seensaa hin milkoofne</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Ba&apos;ameera</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Sashaawwan baafamaniiru</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Seensa meeshaa haaraa irraa</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Seensa bakka haaraa irraa</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Eenyummaan mirkanaa&apos;eera (&quot;Isin akka taatan mirkaneessi&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Mirkaneessi eenyummaa hin milkoofne</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Furtuu darbiitiin seenameera</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Seensi furtuu darbiitiin hin milkoofne</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Seensi didameera: koodiin tarkaanfii lammaffaa hin jiru yookiin dogoggora</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Koodii tarkaanfii lammaffaa dogoggoraa</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Herregni seensa hin milkoofne booda cufameera</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Herregni baname</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Jechi icciitii jijjiirameera</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Jijjiirraan jecha icciitii hin milkoofne</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Jechi icciitii irra deebiin qindaa&apos;eera</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Jechi icciitii haaraan gaafatameera</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Teessoon imeelii jijjiirameera</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Maqaan fayyadamaa jijjiirameera</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Seensi tarkaanfii lamaa baname</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Seensi tarkaanfii lamaa cufameera</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Koodiin deebisaa fayyadameera</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Koodii deebisaa haaraa</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Jecha icciitii app uumameera</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Jecha icciitii app haqameera</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Furtuun darbii ida&apos;ameera</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Furtuun darbii baafameera</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Herregni hojii irra oolfameera</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Herregni dhaabbateera</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Hunda</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Seensotaa fi sashaawwan</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Jijjiirama herregaa</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Xiyyeeffannaa barbaada</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Sochii nageenyaa</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Sochii nageenyaa kan %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Seensotaa fi jijjiirama nageenya herrega keessanii. Yoo waan isin hin goone argitan, jecha icciitii keessan jijjiiraatii meeshaalee isin hin beekne baasaa.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Meeshaalee keessan</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Jecha icciitii jijjiiri</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>Sochiin nageenyaa marsariitii kana irratti ammallee hin galmeeffamu.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Seensota guyyoota %days darban keessatti</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Yaaliiwwan hin milkoofne</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Sochiin nageenyaa tokkollee ammallee hin galmeeffamne.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Deetaa seensa kootii buusi</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Sashaawwanii fi taateewwan nageenyaa keessan akka faayilii JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Saayitii kana irratti sashaawwan hin galmaa'an, kanaaf meeshaan biraa tokkollee ba'uu hin dandeenye. Amma jecha icciitii keessan jijjiiraa.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>Sashaawwan biroo %count ba'aniiru. Amma jecha icciitii keessan jijjiiraa.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Meeshaan biraa tokkollee seenee hin turre. Amma jecha icciitii keessan jijjiiraa.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Galatoomaa. Taateen kun kan keessan ta'uun mallattoo'eera.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Taateen sun deebii hin barbaachisu.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Fuulli yeroon isaa darbeera. Homaa hin jijjiiramne; maaloo irra deebi'aa yaalaa.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Herrega keessan eegaa</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Wanti asii tokko isin yoo hin taane, meeshaalee biroo hunda ba'isaa, achiis jecha icciitii haaraa filadhaa. Meeshaaleen “Na yaadadhu”n seenanii turanis ni ba'u.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Meeshaan hundi, kana malee, gaaffii isaa itti aanu irratti ni ba'a. Achiis isin jecha icciitii haaraa filattu.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Eeyyee, meeshaalee biroo ba'isi</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Kun isin turtanii?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Eeyyee, ana ture</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Lakki, herrega koo eegi</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>Jecha icciitii</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>Jecha icciitii fi koodii tarkaanfii lammaffaa</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>Intarfeesii REST</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>Intarfeesii SOAP</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>Seensa tokkichaa (single sign-on)</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>Utuu sashaawwan hin galmeeffamin dura seenameera</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Gabaasa seensaa</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>Eenyutu marsariitii irratti seene, herregoonni hammam akka seenanii fi hammam akka kufan, akkasumas fayyadamaa bakka hundaa baasuu. Hojjettaa sashaa kamiin iyyuu ni hojjeta.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>Sashaan baafameera. Meeshaan irra deebi&apos;ee seenuu qaba.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>%login sashaawwan %count irraa baafameera.</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>%login sashaa hojii irra jiru hin qabu ture.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>Herregni ID, maqaa fayyadamaa yookiin teessoo imeelii sana qabu hin jiru.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>Kun sashaa isin fayyadamaa jirtanii dha. Xumuruuf, ba&apos;aa.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>Sashaan sun duraanuu xumurameera ture.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Yeroon fuulichaa darbee ture. Homtuu hin jijjiiramne; maaloo irra deebi&apos;aa yaalaa.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>Sashaawwan marsariitii kana irratti hin galmeeffaman (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>Gabateen expuser_session hin jiru</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>Sashaawwan akkuma inni uumameen galmeeffamu: php update/common/scripts/6.0/createusersessiontable.php, yookiin haaromsa kuusaa deetaa 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>Amma fi har&apos;a</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>Sashaawwan hojii irra jiran</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>Fayyadamtoota seenan</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>Seensota har&apos;aa</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>Yaaliiwwan hin milkoofne har&apos;aa</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>Fayyadamaa bakka hundaa baasi</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>Sashaan herregichaa hundi gaaffii isaa itti aanu irratti xumurama, warra &quot;Na yaadadhu&quot;&apos;n turan illee. Yeroo herregni harka dogoggoraa keessa jiraachuu danda&apos;u kana fayyadamaa; achiis jecha icciitii isaa irra deebisaa qindeessaa.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>ID fayyadamaa, maqaa fayyadamaa yookiin teessoo imeelii</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>Bakka hundaa baasi</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>Amma seenameera</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>Kanneen dhihoo fayyadaman %limit agarsiifamaniiru.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Fayyadamaa</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Meeshaa</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Teessoo</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>Seenameera</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>Yeroo dhumaaf hojii irra</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Gocawwan</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>Meeshaa kana</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Hin galmeeffamne</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>Baasi</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>Sashaan seenameera tokkollee hin jiru.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Guyyoota %days darban</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>Seensotaa fi yaaliiwwan hin milkoofne galmee odiitii fayyadamtootaa, kan hin jirre, irraa lakkaa&apos;amu; sashaawwan haaraan lakkaa&apos;amu.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>Guyyaa</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>Seensota</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Yaaliiwwan hin milkoofne</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>Sashaawwan haaraa</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>Hojjettaa sashaa: %handler. Sashaawwan gabatee expuser_session irraa dubbifamu, kanaaf gabaasni hojjettaa kamiin iyyuu ni hojjeta.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>Sochii shakkisiisaa sa'aatii %hours darban keessatti</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>Neetworkiin tokko herregoota %accounts seenuu dadhabe (yaalii %count)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Herregni erga seensi hin milkoofne booda cufame</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>Seensa hin milkoofne %count herrega tokko irratti</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>Yeroo tokkotti biyyoota %count irraa seene</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Sochii nageenyaa</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Sashaawwan</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>Seensi hin milkoofne galmee odiitii fayyadamtootaa irraa dubbifama, kunis asitti hin argamu.</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>Wanti shakkisiisaan hin jiru: herregni seensa hin milkoofne irra deddeebiin qabu hin jiru, neetworkiin herregoota hedduu yaalu hin jiru, herregni biyyoota hedduu irraa seene hin jiru.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>Akeekkachiisa nageenyaa herrega keessaniif</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>Herrega keessan %login irratti taateen nageenyaa tokko uumameera: %event. Yoo isin hin taane, herrega keessan %url irratti eegaa.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Qopheessa</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>Qabiyyee marsariitii kanaa dirreewwan fuulli tokko barbaadu qofa, gaaffii tokkoon gaafadhu. Caasaan gosoota qabiyyee hordofa; gaaffiin hundi mirga fayyadamaa erge sanaatiin hojjeta.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>GraphQL API seensa marsariitii kana keessatti dhaamsameera. graphql.ini keessatti banaa: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>Kuusaan GraphQL (webonyx/graphql-php 15) hin fe'amne.</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>Qabxii xumuraa</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>Kuusaa</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>Caasaa</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>Gosoota qabiyyee %count, caasaa %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>Gaaffii</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>Jijjiiramoota (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Hojjechiisi</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>Deebii</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>Hojjechaa jira…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>Deebiin dubbifamuu hin dandeenye.</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>Gaaffiin mirga keetiin hojjeta, yeroo kanaan seenteetta.</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%count sekondii %seconds keessatti</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>daangaa malee</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>Gadi fageenya</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>Walxaxiinsa</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>Wantoota tarree tokkoon</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (durtii %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>Iyyannoowwan fayyadamaa ykn furtuu tokkoon</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>Iyyannoowwan teessoo maqaa hin qabne tokkoon</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>Ofqorannoo</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>Gaaffiiwwan kuufaman qofa</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>Gaaffii guddaa</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>Baayitii %bytes</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>Olkaa'insa guddaa</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>Seensi marsariitii %siteaccess hin jiru.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>Jijjiiramoonni %siteaccess keessatti banamaniiru.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>Jijjiiramoonni %siteaccess keessatti dhaamsamaniiru.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>GraphQL API %siteaccess keessatti banameera.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>GraphQL API %siteaccess keessatti dhaamsameera.</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>Qindaa'inoota barreessuun hin danda'amne: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>Kuusaan deebii qulqulleeffameera: deebiiwwan %count haqamaniiru.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>Gaaffii haquuf saanduqa cinaa isaa jiru mallatteessi.</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>Gaaffii haquun hin danda'amne: gaaffiin kallattii PersistedQueryDirectoryList[] keessatti dhufe faayilii isaa wajjin haqama.</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>Gaaffiin kuufame haqameera.</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>Jijjiiramoota</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>banaa</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>cufaa</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Seensawwan marsariitii</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>Bakka API fi jijjiiramoonni isaa deebii kennan. Qabduuwwan graphql.ini barreessu, akkuma ./console exp:graphql:enable fi exp:graphql:disable godhan.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Seensa marsariitii</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>GraphQL API</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Jijjiiri</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Dhaamsi</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>Jijjiiramoota cufaa</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>Jijjiiramoota banaa</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Bani</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>Daangaawwan</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>graphql.ini [GraphQLSettings] seensa marsariitii kanaa.</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>Kuusaa deebii</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>Deebiiwwan gaaffiiwwan kuufamanii, mirga fayyadamaatiin kuufamanii fi yeroo qabiyyeen maxxanfamu hunda yeroon isaanii darba.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Haala</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>Deebiiwwan kuufaman</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>Deebiiwwan %count, baayitii %bytes</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>Yoo baay'ate kuufama</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds s</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>Yeroo dhumaa darbe</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>Kuusaa deebii qulqulleessi</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>Gaaffiiwwan kuufaman</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>./console exp:graphql:persist'n, ykn maamiltootaan kuufaman (gaaffiiwwan ofumaan kuufaman); maqaan ykn SHA-256'n waamamu.</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>Maqaawwan</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Hamma</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Eessa</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Haqi</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>kan dhufe</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>kan kuufame</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>Eeyyee, gaaffii kana haqi</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>Ammaaf gaaffiin kuufame hin jiru.</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>Furtuuwwan API</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>Furtuuwwan API dhuunfaa daangaa graphql:read (gaaffiiwwan) ykn graphql:write (jijjiiramoota) qaban. Fuula Seensa API irratti, ykn ./console exp:graphql:keys'n uumi fi haqi.</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>Seensa API</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>Furtuuwwan hunda</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>Furtuu</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Maqaa</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Abbaa</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>Daangaawwan</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>Yeroo dhumaa itti fayyadame</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>hojii irra</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>yeroon darbe</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>haqame</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>gonkumaa</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>Ammaaf furtuun API daangaa GraphQL qabu hin jiru.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>GraphQL API seensa marsariitii %siteaccess, kan fuula kana agarsiisu keessatti dhaamsameera; gabateen armaan gadii bakka inni deebii kennu agarsiisa.</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>Seensa marsariitii %siteaccess, kan fuula kana agarsiisuuf.</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>Webhookiiwwan</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>Taateen qabxiin xumuraa gaafatu hundi (publish, update, trash, delete, move, hide, reveal, mutation) mallattoo waliin kutaa cronjob graphqlwebhooks'n isaaf ergama. ./console exp:graphql:webhooks waanuma kutaa kanaa hojjeta.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Taateewwan</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>hunda</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Seensa marsariitii hunda</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>cabeera</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>icciitii hin qabu</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>Eegaa jira</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count dhiifame</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>Ergaa dhumaa</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Qormaata ergi</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>Eeyyee, webhook kana haqi</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>Ammaaf webhook hin jiru.</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>Webhook dabali</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>Dabali</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>Ergaawwan dhihoo</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Yeroo</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Bu'aa</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>Galmeewwan</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>Haaromsa kallattii maamiltootaaf: yaa'a taateewwanii /api/graphql/subscribe irratti, fi WebSocket (graphql-transport-ws) Velocity irratti. Taateen tokkoon tokkoon isaa galmaa'oota qabiyyee isaa dubbisuu danda'an qofaaf darba.</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>Amma banaa</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>Kan baay'ee banamuu danda'u</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>%total walumaagalatti, %user fayyadamaa tokkoof, %address teessoo tokkoof</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>Galmeewwan maqaa malee</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>Dheerina yaa'aa</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>Webhook dabaluun hin danda'amne: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>Webhook %name jijjiirameera; icciitiin mallattoo isaa ni hafa.</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>Icciitii mallattoo kuusuun hin danda'amne (Qopheessa &gt; Icciitiiwwan).</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>Webhook %name dabalameera. Icciitii mallattoo isaa, yeroo kana qofa kan agarsiifamu: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>Webhook %name hin jiru.</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>Webhook %name deebii hin kennine: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>Webhook %name %status %ms ms keessatti deebiseera.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>Webhook haquuf saanduqa cinaa isaa jiru mallatteessi.</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>Webhook %name haqameera.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>GraphQL API seensa marsariitii kana keessatti dhaamsameera.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>Kuusaan GraphQL hin fe&apos;amne.</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>GET ykn POST fayyadami.</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>Qaamni iyyannoo wanta JSON miti.</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables wanta JSON miti.</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions wanta JSON miti.</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>Gaaffii POST fayyadamuun ergi.</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>Iyyannoon gaaffii hin qabu.</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>Gaaffiin baayitii %max caala dheeraadha.</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>Dogoggora keessoo sarvarii</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node id, remoteId, path fi urlAlias keessaa tokkicha qofa barbaada.</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content id fi remoteId keessaa tokkicha qofa barbaada.</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>Akeekaan after kan API kanaan kenname miti.</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>Maqaan biraa suuraa %alias hin jiru (image.ini [AliasSettings] AliasList[]).</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>As gaaffiiwwan kuufaman qofatu fudhatama: id gaaffii sarvarii irratti kuufamee ergi.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>Hash gaaffii kuufamee SHA-256 miti.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>Hash gaaffii kuufamee gaaffii wajjin wal hin simu.</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>Iyyannoon baay&apos;ee heddu: sekondii %window keessatti yoo baay&apos;ate %limit. Sekondii %reset booda irra deebi&apos;ii yaali.</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>Gaaffiin sadarkaa %depth gadi fagaata; yoo baay&apos;ate %max qofatu hayyamama.</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>Gaaffiin walxaxaa %complexity qaba; yoo baay&apos;ate %max qofatu hayyamama.</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>Iyyannoon kun caasaa dubbisuu hin danda&apos;u (introspection).</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search barreeffama ykn calaltuu barbaada (classes, subtree, sections, publishedAfter, publishedBefore).</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument guyyaa miti (ISO 8601, 2026-10-30).</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag id, remoteId fi path keessaa tokkicha qofa barbaada.</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout id, identifier fi urlAlias keessaa tokkicha qofa barbaada.</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>Dirreen operations iyyannoo multipart iyyannoo JSON tokko miti.</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>Dirreen map iyyannoo multipart wanta JSON miti.</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>Iyyannoon multipart faayilii %field hin qabu.</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>Daandiin kaartaa dirreewwanii variables. jalqabuu qaba: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>Faayiliin %name guutummaatti hin geenye (dogoggora olkaa'insaa %error).</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>Faayiliin %name baayitii %max caala guddaadha.</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>Faayilii %name mirkaneessuun hin danda'amne.</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>Jijjiiramoonni (mutation) seensa marsariitii kana keessatti dhaamsamaniiru (graphql.ini [GraphQLSettings] MutationsEnabled).</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>Jijjiirama POST'n ergi.</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>Qabiyyee jijjiiruuf seeni.</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>Furtuun API daangaa %scope hin qabu.</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>Jijjiiramni yeroo seensaa wajjin jiru mallattoo unka yeroo sanaa barbaada (mataduree X-CSRF-Token).</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>uploadFromUrl dhaamsameera: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] keessatti keessummeessaan tokkollee hin jiru.</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>Teessoon teessoo https ta'uu qaba.</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>Keessummeessaan %host graphql.ini [GraphQLSettings] UploadFromUrlHostList[] keessa hin jiru.</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>Faayilii fiduun hin danda'amne.</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload gosa galtee qofa.</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>Jijjiiraman gosa Upload faayilii iyyannoo multipart fudhata.</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>Eenyummaan fagoo %remoteId duraanuu qabameera.</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>Qabiyyeen duraanuu %language'n hiika qaba: updateContent fayyadami.</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>Yoo xiqqaate dirree tokko kenni.</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>Gulaalli haaraan hojjetamuu hin dandeenye (qabiyyeen wixineewwan baay'ee qaba).</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>Gulaalli %version wixinee miti.</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent id fi nodeId keessaa tokko qofa barbaada.</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>Bakki ofii isaa jala hin socho'u.</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>Qabiyyeen duraanuu %parentId jala bakka qaba.</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>Gatii dirree %field kuusuun hin danda'amne.</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>Afaan qabiyyee %language hin jiru.</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>Caasaa keessa kutaan qabiyyee %class hin jiru.</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>Qabiyyeen hin jiru, ykn dubbisuu hin dandeessu.</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>Qabiyyee kana irratti kana gochuu hin dandeessu.</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>Kutaan %class dirree %field barreeffamuu danda'u hin qabu.</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>Dirreen %field si'a lama kennameera.</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>Dirreen %field faayilii fudhata: akka olkaa'iinsaatti ergi (iyyannoo multipart).</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>Dirreen %field faayilii hin fudhatu.</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>Dirreen %field gatii barbaada.</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>Bifni %format dirreewwan barruu badhaadhaa qofaaf; %field gatii isaa akkuma jirutti fudhata (RAW).</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>Dirreen %field barbaachisaadha.</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>HTML dubbisuun hin danda'amne.</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content version id wajjin qofa fudhata.</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>Mallattoon duraaltee mul'isuu sirrii miti ykn yeroon isaa darbeera.</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>Origin miti (https://host ykn https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>Daangaa GraphQL API miti: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>Galmeewwan gara /api/graphql/subscribe ergi (yaa'a taateewwanii ykn WebSocket).</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>Gaaffiin hojii galmee kamiyyuu hin moggaasu.</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>Galmeen tokko dirree tokko qofa gaafata.</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>Galmeewwan baay'een banaa dha; booda irra deebi'ii yaali.</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>Galmeewwan %max banaa qabda, kan baay'ee hayyamamu.</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>Teessoon kee galmeewwan %max banaa qaba, kan baay'ee hayyamamu.</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>Galmeewwan seensa marsariitii kana keessatti dhaamsamaniiru.</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>Galmaa'uuf seeni (token ykn furtuu API dhuunfaa).</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>Jijjiiramoota gara /api/graphql ergi.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>Godaansota</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Sadarkaan dubbifamuu hin dandeenye: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Gabateewwan godaansotaa ammallee hin jiran: ./console exp:upgrade --apply isaan uuma.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>Godaansota %count fashalaa&apos;aniiru</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>Raawwiin tokko adeemaa jira, %user tu jalqabe</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>Inistaaleeshiniin cufameera: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Eegaa jira</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Fashalaa&apos;e</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>Kanneen abbaa hin qabne</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Raawwii dhumaa</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>ammaaf homtuu hin jiru</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>Godaansota hunda</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>Raawwii fakkeessaa</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>Raawwii yaalii</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>Godaansonni eegaa jiran daldala booda duubatti deebifame keessatti raawwatan: homtuu hin kuufamne. Armaan gaditti wanti tokkoon tokkoon isaanii kuusdeetaa keessatti jijjiiran jira.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>Wanta raawwiin tokko amma godhu. Homtuu hin jijjiiramu: godaansi eegaa jiru hundi jijjiirama inni godhu tarreessa, raawwiinis wanta duraa fi booda godhu.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>Fakkeessi</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Hojjechiisi</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>Raawwiin yaalii fashalaa&apos;e: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>Fakkeessuun PostgreSQL ykn SQLite barbaada, jijjiiramni iskiimaa isaanii duubatti deebi&apos;uu danda&apos;a; kuusdeetaa kana irratti karoorri armaan gadii wanta raawwiin godhu dha.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>Godaansota tarree</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>Godaansa</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Haala</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>Wanta inni godhu</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>Fakkeessa: %result, %ms ms keessatti</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>Ammaaf godaansi hin jiru.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>Raawwii dura fi booda</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>Suuraa haalaa duraa</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>ni fudhatama, godaansi yoo fashalaa&apos;e immoo ni deebifama</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>dhaamee jira</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>Suuraa haalaa boodaa</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>yeroo raawwiin milkaa&apos;e fudhatama</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>Godaansota %total: %pending eegaa jiru, %done xumurame, %failed fashalaa&apos;e.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>Seenaa godaansaa</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>Raawwii hunda fayyadamaa isaa, naannoo isaa, suuraa haalaa isaa fi wanta galmeeffame, mallattaa&apos;e fi ergame waliin. Raawwiin fashalaa&apos;e ykn addaan citee itti fufamuu danda&apos;a; raawwiin suuraa haalaa dura fudhatame qabu duubatti deebi&apos;uu danda&apos;a.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>Raawwiiwwan dubbifamuu hin dandeenye: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Gabateewwan godaansotaa ammallee hin jiran: ./console exp:upgrade --apply isaan uuma.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Agarsiisi</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Hunda</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>Raawwiiwwan</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Jalqabame</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Kan raawwate</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>Suuraawwan haalaa</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Kuusaa koodii</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Gochaalee</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>dura</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>booda</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>erguu: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>Itti fufi</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Duubatti deebisi</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>Haala kana keessatti raawwiin hin jiru.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>Asitti kan jalqabame</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>Raawwiiwwan, itti fufiinsaa fi duubatti deebisuun fuulota kana irratti jalqabaman, gabaasa tokkoon tokkoon isaanii waliin.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Maal</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Bu&apos;aa</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Duubatti deebii</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>Duubatti deebii %target</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>Raawwii %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Wanta raawwiin godhe, galmee isaa fi galmee hojii isaa. Raawwiin asitti jalqabame yeroo fuulli kun cufamu duuba keessatti itti fufa; hordofuuf fuula irra deebiitii bani.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>Raawwii kana itti fufi</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>Raawwii kana duubatti deebisi</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>Galmeen dubbifamuu hin dandeenye: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Adeemsa</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>%user tu %time irratti jalqabe.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>Koodii mirkaneessuu fi raawwii dura suuraa haalaa fudhachuu</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>%id raawwachaa jira (%total keessaa %index)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>%total keessaa %done xumurame</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>Godaansonni raawwataniiru; tokko yoo fashalaa&apos;e suuraa haalaa deebisaa jira</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>Raawwii booda suuraa haalaa fudhachuu, galmeessuu, mallatteessuu fi erguu</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>Suuraa haalaa deebisaa jira</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>Raawwiin xumurameera. Gabaasni isaa fe&apos;amaa jira.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>Adeemsi hordofamuu hin dandeenye. Raawwiin akkamitti akka jiru ilaaluuf fuula irra deebiitii fe&apos;i.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>Fuulli kun raawwii akkuma adeemuun hordofa.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Irra deebiitii fe&apos;i</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Gabaasa</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Yeroo</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms millisekondii</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>Wanta raawwiin akka dogoggoraatti maxxanse</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Galmee</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>Naannoo</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>homaa</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Xumurame</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Galmeessuu</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Mallattoo</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Erguu</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Ergaa</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>Godaansota raawwii kanaa</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>Madda</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>Galmee hojii raawwii</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>Dhumni galmee qofti agarsiifame.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>raawwachaa jira</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>gabaasa malee xumurame</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>milkaa&apos;e</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>fashalaa&apos;e</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>didame</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>kuusdeetaan hin argamne</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>dogoggora keessaa</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>Raawwiin tokko adeemaa jira</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind %user tu %time irratti jalqabe.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>Hordofi</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>Inistaaleeshiniin cufameera</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>Raawwiin biraa cufaa qabata (fooyya&apos;iinsa ykn raawwii konsolii irratti): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>xumurame</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>eegaa jira</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>hin barbaachisu</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>hin beekamu</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>duubatti deebi&apos;e</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>hojiirra oole</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>hojiirra oola</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>deebifame</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>deebifama</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>hin raawwatamne</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>kan biraa eega</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>jijjiiramni fudhatame</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>jijjiiramni ni fudhatama</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>fakkeeffame</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Godaansota</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Sadarkaa</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Seenaa</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>%target deebisi</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>Raawwiin tokko gara suuraa haalaa isa dura fudhatameetti deebifama, godaansi tokko immoo down() isaatiin. Suuraa haalaa duraa deebisuun ogeeyyiif qofa. Tokkoon tokkoon isaa suuraa haala ammaa booda akka keessaniitti duuba keessatti raawwata.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>Wanti deebi&apos;uu danda&apos;u dubbifamuu hin dandeenye: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>Raawwii tokko</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>Godaansa tokko</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>Suuraa haalaa duraa tokko</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>Ibsa</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>eeyyee</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>lakki</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Suuraa haalaa</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Maqaa gabaabaa</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>Kan fudhatame</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Gosa</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>Kutaalee deebifaman</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>Kuusdeetaa</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>Faayiloota kuusaa (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>Qindaa&apos;inoota (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>Kuusdeetaa deebisuun gara yeroo suuraa haalaatti deebisa, seeshinoota dabalatee: booda irra deebitanii akka seentan gaafatamuu dandeessu. Wanti sana booda jijjiirame hundi ni bada; jalqaba suuraan haala ammaa ni fudhatama.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>Wanta kun deebisu nan beeka</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>Eenyummaa suuraa haalaa irra deebiitii barreessi</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>Eeyyee, deebisi</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Dhiisi</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>Raawwiiwwan suuraan haalaa isaan dura fudhatame.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>Filadhu</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>Ammaaf raawwiin suuraa haalaa qabu hin jiru.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>Godaansota hojiirra oolan kanneen of deebisuu danda&apos;an (down() qabu).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>Godaansi hojiirra oole tokkollee down() hin qabu.</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>Suuraawwan haalaa duraa (ogeeyyii)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>Ammaaf suuraan haalaa hin jiru.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>Godaansota hojjechiisi</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>Raawwiin akka %user tti duuba keessatti itti fufa, fuulli isaas akkuma adeemuun agarsiisa. Godaansa jalqabaa dura suuraan haalaa inistaaleeshinii ni fudhatama; godaansi yoo fashalaa&apos;e raawwiin ni dhaabata suuraan haalaas ni deebifama.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>Jalqaba raawwii yaalii</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Sadarkaan dubbifamuu hin dandeenye: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>Godaansota eegaa jiran</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>Tartiiba kanaan raawwatu. Tokko, fi kanneen isa barbaadan, raawwii boodaaf dhiisuuf mallattoo isaa haqi.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>Hojjechiisi isa</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>Yeroo raawwatu haala suphaa ni banna.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>Erga hojiirra oolanii booda jijjiiraman</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>Faayilonni kun warra hojiirra oolan miti. Raawwiin jijjiiramni sababaan yoo hin fudhatamne isaan dida; irra deebiin hin raawwataman, checksum haaraan ni galmeeffama sababni immoo galmee odiitii keessatti ni kuufama.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>Jijjiiramoota fudhadhu</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Sababa</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>Durtiiwwan isaan nageenya qaban. Saanduqni tokkoon tokkoon isaa tarkaanfii tokko hambisa.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>Suuraa haalaa malee</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>Raawwii dura fi booda suuraan haalaa hin jiru: fashalli ofumaan deebi&apos;uu hin danda&apos;u.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>Deebisuu malee</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>Fashala booda, inistaaleeshinii akkuma fashalli dhiiseetti dhiisi.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>Jijjiiramoota hin galmeeffamne eegi</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>Qindaa&apos;inoonni, dabalataaleen ykn dizaayinoonni jijjiiramoota hin galmeeffamne yoo qabaatanillee hojjechiisi; isaan suuraa haalaa keessa galu.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>Galmeessuu malee</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>Faayila sadarkaa fi galmee hojii raawwii hin galmeessin (mallattoo fi erguunis hin jiru).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>Erguu malee</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>Galmeessi fi mallatteessi, garuu hin ergin.</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>Mallattoo malee</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>Galmeessi fi ergi, garuu raawwii hin mallatteessin.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>Eeyyee, godaansota kana amma hojjechiisi</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Godaansi eegaa jiru hin jiru.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>Gara sadarkaatti deebi&apos;i</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>Jijjiiramoota inistaaleeshinii kanaa kanneen yeroo tokko faayilaan barreeffaman (qabiyyee, kilaasota, gaheewwan, qindaa&apos;inoota, iskiimaa) fi inistaaleeshinii marsariitii hunda irratti tartiiba walfakkaatuun hojiirra oolan. Raawwiin jalqaba suuraa haalaa fudhata, godaansi yoo fashalaa&apos;e ni deebisa, wanta godhe galmeessa, komiitii godha fi erga.</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>Kanneen %count eegaa jiran hojjechiisi</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Ilaalcha waliigalaa</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Eegaa jira</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Xumurame</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Fashalaa&apos;e</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>Hin barbaachisu</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>Kuusdeetaa</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>daldaloota: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>Godaansonni marsariitii migrations/ keessa jiru, kanneen dabalataa immoo extension/&lt;name&gt;/migrations/ keessa. Tartiiba maqaa isaanii fi wanta isaan barbaadaniin raawwatu.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Raawwii dhumaa</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>Faayilichi erga hojiirra oolee booda jijjiirame.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>Ammaaf godaansi hin jiru. ./console exp:migration:generate --skeleton &lt;name&gt; --apply isa jalqabaa barreessa.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>Raawwiiwwan dhihoo</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>Raawwii hunda</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>Ammaaf raawwiin hin jiru.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>Raawwii fakkeessuun imaammata migration/run barbaada.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>Raawwiin tokko adeemaa jira: yeroo xumurame fakkeessi.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Qopheessa</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target raawwii, godaansa ykn suuraa haalaa inistaaleeshinii kanaa miti.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>Jalqaba &quot;Eeyyee, deebisi&quot; mallatteessi.</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>Suuraa haalaa duraa deebisuun ogeeyyiif: &quot;Wanta kun deebisu nan beeka&quot; mallatteessi.</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>Eenyummaa suuraa haalaa irra deebiitii barreessi: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>Yoo xiqqaate kutaa deebifamu tokko filadhu.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>Raawwiin kun suuraa haalaa isa dura fudhatame hin qabu: godaansota isaa tokko tokkoon deebisi, ykn suuraa haalaa duraa deebisi.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>Godaansi kun ofumaan deebi&apos;uu hin danda&apos;u: hojiirra hin oolle, ykn down() hin qabu.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Unkaan dubbifamuu hin dandeenye.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>Raawwii itti fufamu filadhu.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>Jalqaba &quot;Eeyyee, godaansota kana amma hojjechiisi&quot; mallatteessi.</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>Yoo xiqqaate godaansa tokko filadhu.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>Godaansi tokko erga hojiirra oolee booda jijjiirame: jijjiirama sababa waliin fudhadhu, ykn faayilicha deebisi.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>Sababa godaansonni jijjiiraman itti fudhataman kenni.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>Sababni yoo baay&apos;ate qubee 500 dha.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>Raawwiin asitti jalqabame ammallee adeemaa jira (%detail). Hanga xumuramutti eegi.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>Raawwiin biraa cufaa inistaaleeshinii qabata: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>Raawwiin fayyadamaa jiru kan seene barbaada.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Baayinarii sarara ajajaa php hin argamne. migration.ini [AdminSettings] PhpCliPath keessatti karaa guutuu isaa kaa&apos;i.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open dhaamee jira, kanaaf raawwiin asitti jalqabamuu hin danda&apos;u. Sarvara irratti ./console exp:migration:migrate --apply hojjechiisi.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>Kuusaa raawwiiwwanii keessatti barreessuun hin danda&apos;amu: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>Raawwiin jalqabame garuu eenyummaa adeemsa isaa hin gabaasne. %detail mirkaneessi.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>Wanta deebi&apos;u ibsi.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>Raawwiin jalqabamuu hin dandeenye.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>Jijjiirama waraabuu</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>Yeroo waraabbiin itti fufaa jiru, wanti ati bulchiinsa keessatti ykn baara cinaa marsariitii irratti jijjiirtu akka tarkaanfii godaansaatti kuufama: qabiyyee, kutaalee, gaheewwanii fi imaammata, kutaalee marsariitii, fayyadamtootaa fi gareewwan, maqaa biroo URL, qindaa'ina. Yeroo xumurtu dhaabi, maal akka qabate ilaali, isa irraas godaansa uumi.</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>Waraabbiiwwan dubbifamuu hin dandeenye: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>Gabateewwan waraabbii ammallee hin jiran: dura fooyyessuu hojjechiisi (exp:upgrade --apply).</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>Waraabuun migration.ini keessatti dhaamsameera ([RecordingSettings] Recording=disabled).</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>Jijjiirama koo</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>Hanga ati dhaabdutti, waan ati jijjiirtu qofa, bakka kamittuu, waraaba.</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>Waraabbii</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>%time irraa, hanga ammaatti jijjiirama %count.</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>Mallattoo (filannoo)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>Waan qabate agarsiisi</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Waraabuu dhaabi</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>Jijjiirama koo waraabuu jalqabi</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>Foddaa marsariitii guutuu</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>Hanga cufamutti jijjiirama hundumaa fayyadamaa hundumaa fi koonsolii waraaba. Yeroo bantu ati ta'uu kee akka mirkaneessitu gaafatamta.</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Banaa</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>Foddaa cufi</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>Foddaa marsariitii guutuu bani</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>Waraabbiiwwan</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>Herregni fayyadamaa (maqaa seensaa, imeelii, jecha icciitii) fi dirreewwan herregoota fayyadamtootaa gonkumaa hin waraabaman.</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Jijjiiramoota</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>Marsariitii guutuu</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>Jijjiirama %name</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Dhaabbateera</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>Ammallee waraabbiin hin jiru.</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>Waraabbii %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>Waraabbiiwwan hunda</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>Godaansa inni uumu</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>Jijjiiramoota waan jijjiirame tokko tokkoof tarkaanfii tokkotti walitti qabaman: waan godaansi waraabbii kana irraa uumame godhu.</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>Yeroo dhaabbiin kun gosoota tarkaanfii YAML %types qabaatu godaansi isa irraa uumamuu danda'a.</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>Beekamee dhiifame: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>Wanti waraabame hin jiru.</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>Waan qabate</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>Jijjiirama %count, akkaataa itti godhametti.</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Jijjiirama</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>Tarkaanfii</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>Waa'ee</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>Dabalataan %count: ./console exp:migration:record:show hunda tarreessa.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Gatii</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>Waraabbii fi waan inni qabate haqa. Wanti jijjiirame jijjiiramee hafa.</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>Eeyyee, waraabbii kana gatii</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>Waraabamaa jira…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Jijjiiramni kee godaansaaf waraabamaa jira.</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>Jijjiiramni marsariitii kana irratti hundi godaansaaf waraabamaa jira (foddaa marsariitii guutuu).</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>Waraabbiin marsariitii guutuu jalqabeera: hanga ati dhaabdutti jijjiiramni fayyadamaa hundumaa waraabama.</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>Waraabbiin jalqabeera: hanga ati dhaabdutti jijjiiramni kee waraabama.</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>Waraabbiin dhaabbateera. Waan qabate hanga ati gatutti hafa.</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>Waraabbii fi taateewwan isaa haqamaniiru.</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>Waraabbiin %id hin jiru.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>Dura "Eeyyee, waraabbii kana gatii" mallattoo godhi.</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>Waraabbii yeroo seenaa kan dhaabuu danda'u fayyadamaa waraabe qofa.</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>Waraabbii dhaabamu filadhu.</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>Waraabbiin gosa kanaa duraanuu itti fufaa jira.</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>Waraabbiin jijjiiramuu hin dandeenye: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>Godaansa uumi</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>Maqaa godaansichaa (filannoo)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>Godaansi %file barreeffameera. Jijjiiramoonni tarkaanfiin kamiyyuu gochuu hin dandeenye gubbaa faayilichaa irratti maqaa dhahamaniiru, harkaan akka hojjetaman.</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>Godaansi tokkollee hin barreeffamne: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>Hojii dheeraa kutaa kutaadhaan</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>Dirreewwan duwwaan qindaa'ina migration.ini [RunSettings] ni eegu.</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>Daangaan guddaan migration kana</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>Migration biraa hin jiru booda (sekondii)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>Boqonnaa migration gidduu (sekondii)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>Dursa gad aanaa (1 hanga 19)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>Dirreen hojii dheeraa lakkoofsa guutuu 1 irraa eegalu dha (boqonnaa: sekondii 0 hanga 60, dursa: 1 hanga 19), yookaan duwwaa.</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>%time irratti ofumaan cufama.</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>Booda ofumaan cufi (daqiiqaa, filannoo)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>Daqiiqaan lakkoofsa guutuu 1 hanga 44640 (guyyaa 31) dha, yookaan duwwaa.</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>Godaansa %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>Godaansa haaraa</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>Godaansa YAML: akka barreeffamaatti barreessi ykn tarkaanfiiwwan isaa unka keessatti ijaari, gulaali, achiis kuusaa faayilii godaansotaa keessatti olkaa'i.</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>Godaansi kun duraan hojjeteera, kanaaf irra deebi'ee hin olkaa'amu: faayiliin jijjiirame eegduu lakkoofsa mirkaneessaatiin ni didama. Jijjiirama sana godaansa haaraa keessatti raawwadhu.</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>Sarvarri weebii faayilicha barreessuu hin danda'u.</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>Sarareen yaadaa gubbaa jiran mataa dha (description, author, requires, environments, engines). Yeroo tarkaanfiin unka keessatti dabalamu ykn jijjiiramu, godaansi irra deebi'ee barreeffama: yaadonni tarkaanfiiwwan gidduu jiran hin eegaman.</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>Maqaa godaansichaa</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>Eessa deema</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>Marsariitii</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>Barreeffama YAML</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>Gulaali</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Olkaa'i</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Tarkaanfiiwwan</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>Furtuuwwan</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Gulaali</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>Gara oliitti sochoosi</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>Gara gadiitti sochoosi</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Baasi</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>Ammaaf tarkaanfiin hin jiru: unkaan tokko dabali, ykn barreeffama keessatti barreessi.</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>Tarkaanfii %number jijjiiri</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>Tarkaanfii tokko dabali</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>Unki tarkaanfii gosa tarkaanfii isaa irraa hojjetama: furtuuwwan isaa, tokkoon tokkoon isaanii maal akka fudhatu fi haalawwan inni keessatti argamu.</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>Gosa tarkaanfii</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>Unka isaa agarsiisi</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>Tarkaanfichi furtuuwwan gosti isaa hin beekne qaba; yeroo tarkaanfichi jijjiiramu ni hafu: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>Haala</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>Keessa</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>%modes keessatti qofa</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>Durtii: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>Haalawwan, wabiiwwan fi yaada</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>Cimdiiwwan maqaa=gatii koomaan addaan baafaman. Gatiiwwan tarkaanfii kanaa: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>Fakkeenya</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>Tarkaanfii jijjiiri</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>Tarkaanfii dabali</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>Wanti exp:migration:check jedhu: mataa, sanadicha fi tarkaanfii hunda gosa tarkaanfii isaatiin gulaalame.</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>Godaansichi gulaala darbeera.</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Dursee ilaali</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>YAML akkuma olkaa'amutti.</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>YAML agarsiisi</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>Godaansota YAML</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>hojjeteera</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>Ammaaf godaansonni YAML hin jiran.</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>Gulaalaa</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>Kuusaa faayilii godaansotaa keessatti godaansi YAML %id hin jiru.</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>Gosa tarkaanfii filadhu.</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>Tarkaanfichi dabalameera. Osoo hin olkaa'in dura godaansicha gulaali.</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>Tarkaanfichi jijjiirameera. Osoo hin olkaa'in dura godaansicha gulaali.</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>Tarkaanfii filadhu.</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>Tarkaanfiin kun unka hin qabu (marsaa, ykn gosa tarkaanfii dhaabbiin kun hin qabne): barreeffama keessatti jijjiiri.</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>Godaansi eessa akka deemu filadhu: marsariitii ykn dabalata hojii irra jiru.</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>%file olkaa'ameera. Godaansi osoo hin hojjetin dura raawwii yaalii gaggeessi.</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>Hin olkaa'amne: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>Bakkeewwan fagoo</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>Inistaaleeshinoota biroo kun godaansota isaa itti diriirsu: diriirsi godaansota gara bakkeewwan fagoo filatamanii erga achittis hojjechiisa, hunda yeroo tokkotti fi walsimaan. Bakki fagoo gonkumaa icciitii hin qabatu: ragaan seensaa isaa Qopheessa &gt; Icciitiiwwan keessaa tokko moggaasa.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>Bakka fagoo haaraa</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Gargaarsa</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>Walitti hidhiinsa %id qori</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>Bakkeewwan fagoo</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>Hanga bakkeewwan fagoo %parallel yeroo tokkotti hojjetamu; kutaan tokko tokkoon tokkoo isaanii irratti sekondii %timeout fudhachuu danda'a.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>Bakka fagoo</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Teessoo</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Ragaa seensaa</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>Gareewwan</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>qindaa'ina sirreeffamuu qabu</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>faayiloota qofa (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>Furtuu SSH</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>Jecha icciitii</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>homaa (ergamaa SSH fi furtuuwwan hoostii)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>Walitti hidhiinsa qori</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>Diriirsi gara garee tokkootti bakkeewwan fagoo isaa hundatti deema.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>Gara bakkeewwan fagootti diriirsi</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>Ammaaf bakki fagoo qophaa'e hin jiru.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>Bakka fagoo %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>Asitti wanti ergamu ykn hojjetamu hin jiru: Olkaa'i qindaa'ina gara settings/override/migration.ini.append.php tti barreessa. Ragaan seensaa maqaa dha; gatiin isaa Qopheessa &gt; Icciitiiwwan ykn naannoo keessa tura.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Qindaa'ina kana mirkaneessi</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>Qindaa'ina akkuma galfametti, ammallee hin olkaa'amne.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Gamaaggami</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Qindaa'inni sirrii dha. Sararoonni kun ni barreeffamu:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>Geejjiba</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>maqaa qofa; gatiin isaa Qopheessa &gt; Icciitiiwwan keessa tura</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Sararoota barreeffaman</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>Walitti hidhiinsa</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>Furtuu hoostii</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. Bakka fagoo</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>Bakki fagoo maal jedhamee akka waamamu fi naannoo kam akka ta'e.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>Eenyummaa</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>Qubeewwan, lakkoofsota, - fi _, fakkeenyaaf production1. Gabaasaalee fi konsoolii irratti (--remotes=production1) bakka fagoo moggaasa, booda jijjiiramuu hin danda'u.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... Diriirsi marsaadhaan naannoowwan tartiiba kanaan keessa darba.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>Filannoo, koomaadhaan addaan baafame, fakkeenyaaf production. Diriirsi gara garee tokkootti bakkeewwan fagoo isaa hundatti deema.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. Walitti hidhiinsa</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>Faayiloonni akkamitti achi gahan, inistaaleeshiniin eessa akka jiru.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>Karaa SSH, waan jijjiirame qofa, dabarsi addaan cite itti fufama. Bakka rsync inistaalii ta'etti filannoo isa caalu.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>SSH faayilootaaf scp wajjin.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>SSH faayilootaaf sftp wajjin.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>Faayiloota qofa: godaansonni ni ergamu, deebi'anii ni dubbifamu, garuu achitti hojjetamuu hin danda'an.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>FTP karaa TLS; faayiloota qofa.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>Inistaaleeshinii biraa sarvara kana irratti, kuusaa faayilii keessatti.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Hoostii</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>Maqaa hoostii ykn teessoo, fakkeenyaaf node1.example.com. local tiif miti.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>Poortii</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>Duwwaa: SSH tiif 22, FTP tiif 21.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Fayyadamaa</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>Karaa</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>Hundee inistaaleeshinii achi jiru, fakkeenyaaf /var/www/site (FTP tiif: karaa herregni FTP argu).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>Sarara ajajaa PHP</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>PHP CLI achi jiru: php, ykn karaa guutuu kan akka /opt/plesk/php/8.4/bin/php.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>Iskiriptiiwwan konsoolii achitti akka root hojjetu</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>Yoo fayyadamaan bakka fagoo root ta'e qofa (sana booda --allow-root-user wajjin hojjetamu).</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. Ragaa seensaa</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>Inistaaleeshiniin kun akkamitti achi seenu. Maqaa qofatu olkaa'ama.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Homaa</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>Ergamaa SSH fi furtuuwwan fayyadamaa inistaaleeshiniin kun ittiin hojjetu (local tiif yeroo hunda).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>Furtuu dhuunfaa akka icciitiitti kuufame.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>Jecha icciitii akka icciitiitti kuufame (FTP isaan seena).</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>Maqaa icciitii</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>Icciitii Qopheessa &gt; Icciitiiwwan keessaa, fakkeenyaaf deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Qopheessa &gt; Icciitiiwwan</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>Ykn jijjiiraa naannoo</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>Jijjiiraa adeemsa sarvaraa kan isa qabatu, fakkeenyaaf DEPLOY_KEY (akka env:DEPLOY_KEY tti olkaa'ame). Bakka maqaa icciitii bu'a.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. Furtuu hoostii</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>Filannoo, SSH, sftp fi rsync tiif.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>Mallattoo quba furtuu hoostii</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... akkuma ssh-keygen -l maxxansutti. Isa wajjin, hoostiin furtuu kana agarsiisuu qaba; isa malee, furtuun quunnamtii jalqabaatti baratama.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. Gamaaggami</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>Walitti hidhiinsa qindaa'ina olii wajjin qori, sana booda sararoota barreeffaman gamaaggami.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>Bakka fagoo kana baasi</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>Qindaa'inni isaa settings/override/migration.ini.append.php keessaa ni baafama. Bakka fagoo irratti wanti jijjiiramu hin jiru, diriirsawwan isaas seenaa keessa turu.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>Eeyyee, bakka fagoo kana baasi</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>Diriirsawwan</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>Diriirsi godaansota inistaaleeshinii kanaa gara bakkeewwan fagoo filatamanii erga, achittis %user ta'ee hunda yeroo tokkotti fi walsimaan hojjechiisa: bakki fagoo hundi dursee ni gulaalama, tokko yoo fashalaa'e, bakki fagoo hojiirra oolche hundi ni deebifama. Duuba keessatti adeema, fuulli isaas bakka fagoo hunda akkuma adeemuutti agarsiisa.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. Bakkeewwan fagoo</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>Bakkeewwan fagoo, garee tokko, ykn lachuu mallatteessi.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>Achitti diriirsi</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. Akkamitti</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>Diriirsi</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>Ergi fi hojjechiisi</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>Godaansonni bakka fagoo hunda irratti ni ergamu, ni mirkanaa'u, eenyummaa raawwii waloo tokkoon ni hojjetamu.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>Dabarsuu qofa</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>Faayiloonni ni ergamu, ni mirkanaa'u, wanti hojjetamu hin jiru (karaa bakka fagoo FTP tiif qofa).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>Marsaadhaan</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>Marsaa marsaadhaan akka tartiiba naannoowwanii (dev, stage, beta, production ...): marsaan jalqabaa ni diriirfama, sana booda karraan hamma namni tokko isa itti aanu raggaasisutti eega. Marsaa hunda keessatti hunda ykn homaa.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>Godaansota kana qofa</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>Filannoo: eenyummaa godaansaa, koomaadhaan addaan baafaman. Duwwaa: godaansa marsariitii fi dabalata isaa hunda.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>Qorannoo duraa qofa</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>Eeyyee, amma diriirsi</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>Diriirsawwan waan tokko ergan ykn hojjechiisan, kan haaraan dursa (qorannoon duraa gabaasa hin qabatu).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>dabarsuu qofa</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>marsaadhaan, marsaalee %stages</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>walsimaa miti</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>Ammaaf diriirsi hin jiru.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>Diriirsa %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Bakka fagoo diriirsichaa hunda haala isaa wajjin. Diriirsi asitti jalqabame yeroo fuulli kun cufamu duuba keessatti itti fufa; hordofuuf fuula irra deebi'ii bani.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>Diriirsawwan hunda</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>Qorannoo duraa</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>Marsaa itti aanu</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>Qindaa'inaa fi ragaa seensaa gulaalaa jira</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>Qorannoo duraa: haala bakka fagoo hundaa dubbisaa jira</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>Faayiloota godaansaa ergaa jira</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>Waan gahe mirkaneessaa jira</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>Godaansota bakka fagoo hunda irratti hojjechiisaa jira</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>Bakkeewwan fagoo deebisaa jira</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>Diriirsichi xumurameera. Gabaasa isaa fe'aa jira.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>Adeemsi hordofamuu hin dandeenye. Diriirsichi akkam akka jiru arguuf fuula irra deebiitii fe'i.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>Kutaa</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>Fuulli kun diriirsa akkuma adeemuutti hordofa.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>Walsimaa</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>Marsaalee</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>marsaan %stage karra isaa irratti eegaa jira</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>Karra %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>%user tiin %time irratti raggaasifame</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>Marsaa</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>Faayiloota ergaman</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>Lakkoofsa gosa kernel</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>hojiirra oole: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>hojiirra ooluu qaba: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>Kutaalee</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>Karra: marsaa %stage keessaa %stages</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>Marsaaleen isa dura jiran diriirfamaniiru. Isaan gulaali, sana booda marsaa itti aanu raggaasisi: bakkeewwan fagoo isaa irra deebiin gulaalamanii diriirfamu, hunda ykn homaa.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Itti aanu</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>Eeyyee, marsaa itti aanu amma diriirsi</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Raggaasisi</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>Diriirsa kana duubatti deebisi</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>Bakki fagoo isa hojiirra oolche hundi (%list) gara suuraa haalaa raawwii isaa dura fudhatameetti deebi'a, hunda yeroo tokkotti.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>Eeyyee, diriirsa kana amma duubatti deebisi</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>karoorfame</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>dabarfame</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>diriirfame</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>karra irratti eegaa jira</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>filatame</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>qophaa'e</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>qophaa'eera</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>marsaa isaa eegaa jira</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>faayiloonni ergaman</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>mirkanaa'e</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>fashalaa'e, ofiin deebi'e</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>hin jijjiiramne</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>hin diriirfamne</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>hin gahamu</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>Bakki fagoo deebii kenneera.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>Bakki fagoo amma fayyadamuu hin danda'amu.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done xumurame, %pending eegaa jira, %failed fashalaa'e</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>Cufaa</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>raawwiin tokko achitti cufaa qabata</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>duwwaa</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stage keessaa %stages</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>Bakka fagoo qoramu filadhu.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>Jalqaba “Eeyyee, bakka fagoo kana baasi” mallatteessi.</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>Bakki fagoo baafamuu hin dandeenye: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>Bakki fagoo olkaa'amuu hin dandeenye: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Faayiliin qindaa'inaa dubbifamuu hin danda'u: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>Yoo xiqqaate bakka fagoo ykn garee tokko filadhu.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>Bakki fagoo filatame tokko qindaa'ina keessa hin jiru. Fuula irra deebiitii fe'i.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>Jalqaba “Eeyyee, amma diriirsi” mallatteessi.</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>Bakki fagoo FTP godaansota hojjechiisuu hin danda'u: “Dabarsuu qofa” filadhu, ykn isa dhiisi.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>Godaansonni diriirfaman eenyummaa godaansaa koomaadhaan addaan baafamaniidha.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>Diriirsichi ammallee adeemaa jira. Hamma inni xumuramutti eegi.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>Diriirsi kun karra irratti hin eegu.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>Bakki fagoo diriirsa kana hojiirra oolche hin jiru: wanti duubatti deebifamu hin jiru.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>Jalqaba “Eeyyee, marsaa itti aanu amma diriirsi” mallatteessi.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>Jalqaba “Eeyyee, diriirsa kana amma duubatti deebisi” mallatteessi.</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>Bakki fagoo eenyummaa %id qabu duraanuu jira.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>Poortiin lakkoofsa 1 hanga 65535 ti.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>Naannoon jecha qubeewwan, lakkoofsota, - fi _ irraa ijaarameedha (alpha, dev, stage, beta, production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>Gareen jecha qubeewwan, lakkoofsota, - fi _ irraa ijaarameedha (all miti): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>Ragaan seensaa amma dubbifamuu hin danda'u: %problem. Diriirsa jalqabaa dura Qopheessa &gt; Icciitiiwwan keessatti olkaa'i (ykn jijjiiraa qindeessi).</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>Bakki fagoo FTP faayiloota qofa fudhata: diriirsi gara isaatti “Dabarsuu qofa” dha, godaansonni isaas achitti harkaan hojjetamu.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>Bakki fagoo %id settings/override/migration.ini.append.php keessa hin jiru; bakka itti qindaa'etti baasi.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>Karaa FTP seenamee index.php dubbifame. Sadarkaan godaansa bakka fagoo FTP dubbifamuu hin danda'u.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>Jijjiirame</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>Uumame</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Maqaa</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Gita</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Kutaa</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>Uumaa</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Qabiyyee haaraa</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>Qabiyyee dhiyeenya uumamee fi jijjiirame marsariitii guutuu, kan haaraan dursee: wanta daawwattoonni galchan, wanta sakatta'iinsaaf qabame, wixineewwan maxxansa isaanii eeggatan. Wantoota filadhu akka gad dhiiftu, qabdu, dhoksitu, agarsiiftu, baastu ykn gara kutaa ykn haala biraatti dabarsitu.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>Tarreen dubbifamuu hin dandeenye: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>Qabiinsi sakatta'iinsaa ammallee hin qophoofne, kanaaf homtuu hin qabamu, tarkaanfiiwwan qabiinsaas hin dhiyaatan. Tarkaanfiin fooyyessaa 6.0.15-review-hold ni qopheessa: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Tarree calaqqisi</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Irraa</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Hanga</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Guyyaa</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>Uumame (yeroo jalqabaaf maxxanfame)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Hunda</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Sadarkaa</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Maxxanfame</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>Wixinee, gonkumaa hin maxxanfamne</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>Eegaa jira (hayyama ykn guyyaa)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>Kuusaa kosii keessa</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Sakatta'iinsaaf qabame</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>Qabame</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>Hin qabamne</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>Dhokateera</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>Mul'ataa</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>Kan itti galfame</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>Seensa marsariitii kamiyyuu</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>Wanta odiitiin galmeesse qofa.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>Amma: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>Maqaa seensaa ykn eenyummaa fayyadamaa.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Calaqqisi</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>Calaqqisoota haqi</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>Wantoota</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from hanga %to %count keessaa</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Wanti hin jiru</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(%ms ms keessatti dubbifame)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>Tarkaanfiiwwan wantoota filatamanii</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>Fuula kana irratti hunda fili</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>%count filatameera</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Tarkaanfii</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>Tarkaanfii filadhu</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>Qabiinsa gad dhiisi</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Sakatta'iinsaaf qabi</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Dhoksi</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>Agarsiisi</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>Gara kuusaa kosiitti ergi</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>Haqi</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>Kutaa ramadi</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>Haala ramadi</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>Sababa</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>Qabuuf barbaachisa; qabiinsaa fi odiitii keessatti ni kuufama.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>Kutaa filadhu</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Haala</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>Haala filadhu</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>Kanneen filataman irratti hojiirra oolchi</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>Wanti tokkoon tokkoon hayyamoota kee mataa keetii wajjin ni sakatta'ama. Gara kuusaa kosiitti erguu fi haquun akka mirkaneessitu si gaafatu. Wantoota %count ol duuba keessatti hojjetamu.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>Fili</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>Maxxansa</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>Kan irraa galfame</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>%name fili</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>ammallee miti</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(maqaa hin qabu)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>Eenyummaa %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>Wixinee</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Eegaa jira</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>Kan olaanaan dhoksame</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>Qabame: galmee haaraa</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>Fooyya'iinsi %version eegaa jira</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>Fooyya'iinsi %version hojii irra jira</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>Wixinee, fooyya'iinsa %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>Fooyya'iinsi %version maxxanfameera</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>%date tti karoorfame</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>teessoon hin jiru</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>hin galmaa'in</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>Calaqqisoota kanneen wajjin homtuu wal hin simu.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Hunda agarsiisi</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>Ammallee qabiyyeen hin jiru.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Fuula tokkoon</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Fuula tokkoon wantoota %count agarsiisi.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says "not recorded".</source>
+        <translation>Teessoon fi barbaacha galmee tokkoo indeeksii odiitii irraa dhufu, kan asitti hin argamne: kutaan "hin galmaa'in" jedha.</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>Teessoon fi barbaachi kanneen odiitiin wanta kanaaf galmeesse dha (qabiinsi ofumaan yeroo hunda galmeessa; maxxansuu fi uumuun bakka banamee qofa), akkuma qindaa'inni dhuunfaa isaa isaan eegutti.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: wantoota %count</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>Haquun wantoota bara baraan, fooyya'iinsota fi hiikkaawwan isaanii hunda wajjin balleessa. Deebi'uu hin danda'u.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>Wantoonni gara kuusaa kosii deemu, achii irraa deebi'anii bakka buufamuu danda'u.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>Wanti tokkoon tokkoon hayyamoota kee wajjin ni sakatta'ama; wanti wantoota xixiqqoo qabu akkuma jirutti dhiifama (caasaa qabiyyee keessatti baasi). Si ta'uu kee akka mirkaneessitu ni gaafatamta.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>Kun duuba keessatti hojjetama: fuulli adeemsa isaa ni banama, bu'aan wanta tokkoon tokkoon yeroo xumuramu ni agarsiifama.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>Wantoota filataman</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>fi %count dabalataa</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Dhiisi</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>Homtuu hin hojjetamne</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Sababa: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>Tarkaanfiin ammallee duuba keessatti hojjetamaa jira.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>Adeemsa isaa</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>Tarkaanfiin duubaa hin milkoofne: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Xumurameera</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Didame</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Hin milkoofne</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>Wanta tokkoon</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>Wanta</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Bu'aa</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Maaliif</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>Gara tarreetti deebi'i</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Qopheessa</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>Homtuu hin hojjetamne</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>Mirkaneessi</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>Tarkaanfii filadhu.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>Yoo xiqqaate wanta tokko filadhu.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>Yeroo tokkotti wantoota 1000 hin caalle filadhu.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>Wantoonni maaliif akka qabaman ibsi.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>Kutaa filadhu.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>Haala filadhu.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Unkaan dubbifamuu hin dandeenye.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>Gabatee to'annoo</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>Qabiyyee haaraa</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>Lakkoofsonni dubbifamuu hin dandeenye: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Sakatta'iinsaaf qabame</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>Har'a haaraa</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Qabiinsi sakatta'iinsaa ammallee hin qophoofne (tarkaanfii fooyyessaa 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>Qabiyyee haaraa hunda</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>Tarkaanfiiwwan to'annoo hojjechuuf hayyama hin qabdu (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>Tarkaanfiin to'annoo hin xumuramne: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>To'annoo: %action wantoota %count irratti</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>Wantoota %total keessaa %done: %ok xumurame, %refused didame, %failed hin milkoofne</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok xumurame, %refused didame, %failed hin milkoofne</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>Kana booda hin jiru.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>Bakka hin qabu (hin maxxanfamne).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>Isa dhoksuuf hayyama hin qabdu (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>Isa agarsiisuuf hayyama hin qabdu (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>Duraanuu dhokateera.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>Hin dhokanne.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>Dhokfame.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>Agarsiifame.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>Kuusaa kosii keessa jira: achitti duwwaasi ykn deebisi.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>Wixineen gonkumaa hin maxxanfamne gara kuusaa kosii deemuu hin danda'u: haqi.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>Isa haquuf hayyama hin qabdu (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>Haqameera.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>Isa baasuuf hayyama hin qabdu (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>Wantoota xixiqqoo qaba: caasaa qabiyyee keessatti baasi, bakka isaan tarreeffaman.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>Hin baafamne (adeemsi hojii baasuu qabaachuu danda'a).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>Gara kuusaa kosiitti ergameera.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>Kutaan hin jiru.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>Duraanuu kutaa kana keessa jira.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>Kutaa kana ramaduuf hayyama hin qabdu (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>Kutaan hin ramadamne.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>Kutaan ramadameera.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>Haalli hin jiru.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>Duraanuu haala kana keessa jira.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>Haala kana ramaduuf hayyama hin qabdu (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>Haalli hin ramadamne (adeemsi hojii jijjiirama qabaachuu danda'a).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>Haalli ramadameera.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>Tarkaanfiin akkasii hin jiru.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Qabiinsi sakatta'iinsaa hin qophoofne (tarkaanfii fooyyessaa 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>Maaliif akka qabame ibsi.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>Duraanuu qabameera.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>Isa qabuuf hayyama hin qabdu (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>Qabiinsi hin kaa'amne (adeemsi hojii jijjiirama qabaachuu danda'a).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>Qabameera.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>Hin qabamne.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>Isa gad dhiisuuf hayyama hin qabdu (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>Qabiinsi gad hin dhiifamne (adeemsi hojii jijjiirama qabaachuu danda'a).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>Gad dhiifameera; ammallee dhokateera: isa agarsiisuuf hayyama hin qabdu (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>Gad dhiifameera.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>Kaayyoowwan hunda</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Maxxansa dhumaa</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>Garagalchaa dhaabbataa bilisaa marsariitii keetii GitHub Pages irratti maxxansi:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Fuulota moofaa ta&apos;an</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Maxxansa dhaabbataa</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Maxxansi dhaabbataan dhaamee jira.</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Kaayyoo</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Kaayyoowwan dubbifamuu hin dandeenye: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>hojiin tokko adeemaa jira</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>ijaarsa mirkanaa&apos;uu qabu</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>kana dhoksi</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>kaayyoo uumi</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>gonkumaa</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>qajeelfama dubbisi</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>%added dabalame, %changed jijjiirame, %removed haqame</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%bytes kan %limit keessaa (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>Kan biroo %count hin tarreeffamne.</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>Fuulota %pages barreeffaman</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path hammi isaa %size, kunis faayilii tokkoof waan hoostiin hayyamu caala.</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>Daangaa irraa %percent %</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds sek.</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag maxxansa marsariitiin amma qabu dha.</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: hojii %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>/kuusaa/ marsariitii pirojektii GitHub tokkoof; domeenii dhuunfaa ykn marsariitii fayyadamaatiif duwwaa.</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. Marsariitii</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. Hoostii</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. Kuusaa koodii seenuu</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. Kuusaa koodii</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. Liinkiiwwanii fi karaa bu&apos;uuraa</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. Domeenii mataa keetii</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. Wanta ijaarsi qabu</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. Yeroo maxxanfamu</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. Gamaaggamii olkaa&apos;i</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>Marsariitiin pirojektii GitHub /&lt;repository&gt;/ jala jiraata; liinkiiwwan walitti dhiyeenyaa achittis bakka kamittuu ni hojjetu.</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>Ijaarsi tokko fuula %site hunda akka daawwataan hin seenin argutti fida, liinkiiwwan irra deebi&apos;ee barreessa, faayilota garagalcha, bu&apos;aa isaas kuusaa faayilii kaayyoo keessatti barreessa. Hanga ijaarsa mirkaneessitee Maxxansi tuqxutti homtuu hin maxxanfamu.</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>Ibsa cron, fakkeenyaaf 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>Furtuun bobbaasaa akka icciitii %secret kuufama.</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>Furtuun bobbaasaa dhaabbii kana SSH dhaan kuusaa koodii tokko qofatti akka ergu hayyama, bakka biraa hin hayyamu. Walakkaan isaa dhuunfaa Qopheessa &gt; Icciitiiwwan keessa tura; walakkaa ummataa qofatu mul&apos;ata.</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>Furtuu bobbaasaa kaayyoo kanaaf uumame</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>Furtuun bobbaasaa SSH dhaan seena: teessoo git gara teessoo SSH (git@github.com:owner/repo.git) jijjiiri.</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>Hojiin tokko adeemaa jira, kan %user jalqabe</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>Hojiin kaayyoo kanaa tokko ammallee adeemaa jira (%detail). Hanga xumuramutti eegi.</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>Hojiin kaayyoo kanaa tokko ammallee adeemaa jira. Hanga xumuramutti eegi.</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>Liinkiin fuula /news/ irraa gara fuula /about-us/team akkasitti barreeffama</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>Furtuun bobbaasaa haaraan uumameera. Walakkaa ummataa isaa amma kuusaa koodiitti dabali.</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>Fuulli qulqulleessuun booda ammallee bu&apos;aa sirreessaa, tookenii unkaa ykn eenyummaa seeshinii qabu gonkumaa hin maxxanfamu.</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>Duubatti deebiin ogeeyyiif qofa: &quot;Wanti kun maal akka jijjiiru nan beeka&quot; mallatteessi, maqaa mallattoo irra deebi&apos;ii barreessi.</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>Marsariitiin hanga %site, faayiliin tokko hanga %file ta&apos;uu danda&apos;a, tiraafikii ji&apos;aan GB 100 naannoo qabu waliin. Karoora bilisaa irratti kuusaan koodii ummataaf banaa ta&apos;uu qaba. GitHub Pages suuqiiwwaniif ykn daldala biraaf hin qophoofne.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>Kaayyoon marsariitii tokko kan kuusaa git tokkotti maxxanfamu dha. Asitti homtuu hin ijaaramu ykn hin maxxanfamu: Olkaa&apos;i qindaa&apos;ina settings/override/staticcache.ini.append.php keessatti barreessa.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>Kaayyoon marsariitii tokko kan bakka tokkotti maxxanfamu dha, fakkeenyaaf marsariitii ummataa kee GitHub Pages irratti.</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>Tookenii Qopheessa &gt; Icciitiiwwan keessaa</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>Adeemsi hojii kuusaa koodii isa maxxansa.</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>Furtuu ummataa kana hayyama barreessuu waliin kuusaa koodiitti dabali. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, Allow write access mallatteessi.</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>Dabalame</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>Hoostii git biraa</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>Adeemsi biraa kaayyoo kana irratti hojjetaa jira: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>Duubatti</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>Karaa bu&apos;uuraa</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Kanaan dura</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>Karaa bu&apos;uuraa tokko jala</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>Damee</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>Liinkiiwwan cabaan</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>Liinkiiwwan cabaan ijaarsa keessa jiran</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>Ijaarsa</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>Ijaarsa %id, kan %user</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>%name ijaari</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>Amma ijaari</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>Ijaarsa mirkanaa&apos;uu qabu</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Kan raawwate</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>Harkaan, asitti</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Dhiisi</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Jijjiiri</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>Jijjiirame</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Jijjiiramoota</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>Dura mirkaneessi</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Qindaa&apos;ina kana mirkaneessi</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>Wanta ijaarsi jijjiiru mirkaneessi, ilaali, achiis maxxansi ykn gatii.</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>Maxxansa itti deebitu filadhu.</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>Gadhiisa itti aanu keessatti dhufa.</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Galmeessuu</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>Galmeewwan</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>Ijaarsa galmeessa, mallattoo itti godha, gara %remote ergas. Erguun gonkumaa dirqiin hin raawwatamu; booda maxxansa kamittuu deebi&apos;uu dandeessa.</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>Kuusaa faayilii duraa waliin yoo wal bira qabamu: %added dabalame, %changed jijjiirame, %removed haqame, %unchanged hin jijjiiramne.</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>Maxxansa dhumaa waliin wal bira qabame.</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Ragaa seensaa</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>Domeenii dhuunfaa</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>Bu&apos;aan sirreessaa, tookeniiwwan unkaa, eenyummaawwan seeshinii fi nonce&apos;n yeroo hunda ni baafamu.</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>Furtuu bobbaasaa</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>Furtuu bobbaasaa %name</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Gatii</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>Ijaarsa gatii</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>Domeenii</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>Duwwaa: teessoo marsariitii. Yoo kana hin taane, teessoo keessaa marsariitii sanaa.</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Xumurame</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>Liinkiin hundi karaa bu&apos;uuraatiin jalqaba.</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>Maxxansi hundi galmee mallattoo static/%id/&lt;n&gt; qabu dha. Duubatti deebi&apos;uun faayilota maxxansa duraa tokkoon galmee haaraa uuma: seenaan ni tura, mallattoon tokkollee hin socho&apos;u, homtuu dirqiin hin raawwatamu.</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>Faayilota dabalataa</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>Fuulota irraa fidi</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Faayilii</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>Faayilota</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>Faayilota hin jirre</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>Faayilota</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>Faayilota walitti qabamuu hin dandeenye</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>Mallattoo addaa</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>Kuusaa faayilii</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>Teessoo SSH tokkoof. Furtuun erga olkaa&apos;amee booda uumama; walakkaa ummataa isaa kuusaa koodiitti dabalta.</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>Teessoo https:// tokkoof. GitHub: tookenii bal&apos;ina xiqqaa qabu, kuusaa koodii irratti Contents dubbisuu fi barreessuu kan hayyamu.</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>Ogeeyyiif. Marsariitiin ummataa akkuma erguun xumurameen jijjiirama.</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Unkaawwan</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>Kuusaa koodii GitHub irraa hoostii bilisaa.</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>Damee irraa</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>Teessoo git</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages marsariitii %site fi faayilii %file hayyama.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>Daangaawwan GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages faayilota akkuma jiranitti maxxansa (faayilota _ dhaan jalqabaniif barbaachisaa dha).</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub damee akkuma ergameetti dhiyeessa. Durtii.</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, sarvara mataa keetii: kuusaa git kamiyyuu.</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>Gara maxxansa duraa tokkootti deebi&apos;i</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Gargaarsa</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>Gargaarsa qajeelchaa</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>Isaan dhoksi</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Seenaa</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>Seenaa %name</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Hoostii</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>Akkaataa GitHub Pages ijaarsa itti fudhatu</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>Jijjiiramoota mirkaneesseera</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>Wanti kun maal akka jijjiiru nan beeka</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>Eenyummaa</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>Dhaamee jira: hanga ka&apos;utti homtuu ijaaramuu hin danda&apos;u.</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>Duuba keessatti akka %user hojjeta; fuula kana cufuu dandeessa.</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>Hojii %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>Akka icciitii %secret kuufame.</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Gosa</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Maxxansa dhumaa</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>Fuulota kana dhiisi</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>Kutaalee kana dhiisi</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Liinkiiwwan</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>Liinkiiwwan irra deebi&apos;amanii barreeffaman</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>Marsariitii jiraataa</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>Ijaarsa ilaali</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>Qubeewwan xiqqaa, lakkoofsota, _ fi -, fakkeenyaaf github-public. Kuusaa faayilii fi mallattoowwan (static/&lt;id&gt;/&lt;n&gt;) moggaasa, booda jijjiiramuu hin danda&apos;u.</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>Furtuu haaraa uumi</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>Kaayyoo uumi</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>Furtuu uumi</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>Dura kuusaa koodii hoostii irratti uumi; kan duwwaa ta&apos;es ni ta&apos;a.</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>Tarree faayilotaa</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Ergaa</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>Fuulota baay&apos;ee</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Maqaa</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>Maqaa tookenii Qopheessa &gt; Icciitiiwwan keessaa</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>Kaayyoo haaraa</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Itti aanu</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>Lakki</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>Ammaaf galmeen hin jiru.</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>Furtuun hin uumamne: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Sarara ajajaa php hin argamne. migration.ini [AdminSettings] PhpCliPath karaa isaa guutuu irratti qindeessi.</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>Ammaaf mallattoon hin jiru.</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>Ammaaf kaayyoon hin jiru.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Homaa</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>Ijaarsa keessa hin jiru.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>Ammaaf homtuu hin maxxanfamne.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>Ammaaf homtuu hin maxxanfamne: faayiliin hundi haaraa dha.</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>Beeksisi</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>Sagantaa irratti</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>Konsoolii irratti</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>Sarvara irratti: ./console exp:static:serve %id haaluma walfakkaatuun dhiyeessa.</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>Sarara tokko keessatti karaa tokko, * kutaa kamiyyuu waliin wal sima: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>Kaayyoo waliin maqaa qofatu kuufama; tookeniin ykn furtuun mataan isaa Qopheessa &gt; Icciitiiwwan keessa tura, galmee hojii keessattis gonkumaa hin mul&apos;atu.</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>Wanta fuulonni maqaa dhahan qofa</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>Tookenii qofa waliin. env:NAME bakka isaa jijjiiramaa naannoo sarvaraa dubbisa.</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>Dursee ilaaluu bani</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>Ijaarsa akkuma hoostiin dhiyeessutti, kuusaa faayilii kaayyoo irraa bana. Liinkiin siif sa&apos;aatii tokkoof hojjeta.</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>Filannoo. Duwwaa: wanta maxxanfame.</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>Filannoo. Domeenii waliin marsariitiin hundee isaatti dhiyaata.</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Bu&apos;aa</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>Fuulota</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>Fuulota kaayyoo</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>Fuulota didaman</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>Booda-qindeessuu</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Dursee ilaali</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>Dursee ilaali fi maxxansi</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>%name dursee ilaali fi maxxansi</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>Ijaarsa dursee ilaali</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Adeemsa</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>Teessoo ummataa</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>Furtuu ummataa</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>Maxxansi</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>Garagalchaa dhaabbataa marsariitii tokkoo GitHub Pages ykn hoostii git kamiyyuu irratti maxxansi: ijaari, jijjiiramoota mirkaneessi, maxxansi, yeroo barbaachisutti immoo gara maxxansa duraatti deebi&apos;i.</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>Maxxansa itti deebi&apos;amu</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>Maxxansawwan</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Erguu</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>Qajeelfama dubbisi</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Galmee</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Didame</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>Walitti dhiyeenyaa</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Irra deebiitii fe&apos;i</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>Haqame</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>Furtuu bakka buusi: inni moofaan hojii dhaabata</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Gabaasa</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>Gabaasa ijaarsaa</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Kuusaa koodii</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Gamaaggamaa</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>Gamaaggamni qindaa&apos;ina hunda mirkaneessa, sararoota barreeffaman ni agarsiisa. Ammaaf homtuu hin olkaa&apos;amne.</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Duubatti deebisi</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Duubatti deebii</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Olkaa&apos;i</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>Sagantaa</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>Fuula barbaachaa</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>Eenyummaa kutaalee, qooddii (,) dhaan addaan baafaman.</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>Gara marsariitii jiraataatti ergi</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>Qindaa&apos;ina</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Qindaa&apos;ina</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>Qindaa&apos;ina %name</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Qopheessa</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Qopheessa &gt; Icciitiiwwan</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>Tarree keessatti mul&apos;ata, fakkeenyaaf &quot;Marsariitii ummataa GitHub Pages irratti&quot;.</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>GitHub App waliin seenuun walitti makama GitHub waliin dhufa.</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>Marsariitii</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>Marsariitii maxxanfamu</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Hamma</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>Hammaa fi daangaawwan</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>Hamma ijaarsaa</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Fuulota moofaa ta&apos;an</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Jalqabame</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>%user dhaan %time irratti jalqabame.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Haala</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Maxxansa dhaabbataa</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>Maxxansi dhaabbataan dhaamee jira</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Maxxansi dhaabbataan dhaamee jira.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>Maxxansi dhaabbataan dhaamee jira. Dura Qopheessa &gt; Maxxansa dhaabbataa keessatti kaasi.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>Maxxansi dhaabbataan ka&apos;ee jira.</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>Tarkaanfii %step kan %total keessaa</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Tarkaanfiiwwan</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>Qulqulleessuu</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Dhaamsi</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Kaasi</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>Maxxansa dhaabbataa kaasi</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Mallattoo</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>Mallattoowwan</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Kaayyoo</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>Kaayyoowwan uumamuu fi jijjiiramuu danda&apos;u, garuu hanga ka&apos;utti homtuu hin ijaaramu ykn hin maxxanfamu.</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>Motora barbaachaatiif wanta dubbisan himti.</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>Ijaarsi gatamuu hin dandeenye: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>Ijaarsi maxxansa dhumaa waliin tokko: wanti maxxanfamu hin jiru.</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>Ijaarsi gatameera: kuusaan faayilii ammas maxxansa dhumaa qaba.</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>Durtiiwwan marsariitiiwwan baay&apos;ee ni ta&apos;u.</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>Kuusaan faayilii ijaarsa ammallee hin maxxanfamne qaba; ijaarsi haaraan bakka isaa bu&apos;a.</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>Kuusaa faayilii hojiiwwanii keessatti barreessuun hin danda&apos;amu: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>Hojiin qophaa&apos;uu hin dandeenye: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>Hojiin jalqabuu hin dandeenye.</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>Hojiin xumurameera. Gabaasni isaa fe&apos;amaa jira.</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>Hojiin fayyadamaa seene barbaada.</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>Hojiin jalqabame garuu eenyummaa adeemsa isaa hin gabaasne. %detail mirkaneessi.</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>Furtuu</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>Faayilii guddaa: %path, %size.</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Sararoota barreeffaman</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>Tarree fuulotaa motora barbaachaatiif; teessoo ummataa barbaada.</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>Fuulonni akka daawwataan hin seenin argutti fidamu. Siteaccess bulchiinsaa fi gulaallii gonkumaa hin dhiyaatan.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>Adeemsi hordofamuu hin dandeenye. Hojiin akkam akka jiru arguuf fuula irra deebiitii fe&apos;i.</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>Walakkaa ummataa furtuu:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>Hundee damee</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>Kuusaan icciitii ammallee hin qophoofne (./console exp:upgrade --apply gabatee isaa uuma), kanaaf furtuun tokkollee kuufamuu hin danda&apos;u.</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>Sarvarri ofumaan seena (furtuu SSH mataa isaa ykn gargaaraa ragaa seensaa), ykn kuusaan koodii sarvara kana irra jira.</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>Qindaa&apos;inni barreeffamuu hin dandeenye: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Qindaa&apos;inni sirrii dha. Sararoonni kun ni barreeffamu:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Faayiliin qindaa&apos;inaa dubbifamuu hin danda&apos;u: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>Marsariitiin gara faayilota maxxansa sanaatti deebi&apos;a; ijaarsi ammallee hin maxxanfamne dura maxxanfamuu ykn gatamuu qaba.</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>Fuula marsariitii mataa isaa teessoowwan hin jirreef.</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>Kaayyoon olkaa&apos;amuu hin dandeenye: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>Kaayyoon ammallee furtuu kanaan hin seenu: qindaa&apos;ina isaa keessatti &quot;Furtuu bobbaasaa kaayyoo kanaaf uumame&quot; filadhu.</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Kaayyoowwan dubbifamuu hin dandeenye: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>Ammaaf ijaarsi mirkanaa&apos;uu qabu hin jiru.</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>Dhaabbiin kun siteaccess fuulduraa hin qabu. Siteaccess bulchiinsaa fi gulaallii gonkumaa hin maxxanfaman.</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>Fuulli kun hojii akkuma adeemutti hordofa; yeroo fuulli cufamu duuba keessatti itti fufa.</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>Kaayyoon kun ammallee furtuu bobbaasaa hin qabu.</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>Kaayyoon kun ammallee asitti hin ijaaramne.</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>Kaayyoon kun tokko qaba.</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>Ijaarsa kana gata: kuusaan faayilii ammas maxxansa dhumaa qaba. Marsariitiin jiraataan hin jijjiiramu.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>Dura &quot;Jijjiiramoota mirkaneesseera&quot; mallatteessi.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Yeroo</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>Kakaasota</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>Maqaa mallattoo irra deebi&apos;ii barreessi</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>Hin jijjiiramne</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>Webhook</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Maal</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>Wanta jijjiiramu</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>Faayiliin tokkoon tokkoon maal akka ta&apos;e; yeroo hunda ni barreeffama.</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>Wanta hojiin godhe fi galmee isaa. Hojiin asitti jalqabame yeroo fuulli kun cufamu duuba keessatti itti fufa.</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>Wanta hojiin akka dogoggoraatti maxxanse</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>Wanta fuulonni maqaa dhahan, fi suuraa qabiyyee maxxanfamee hunda</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Yoom</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>Yeroo maxxansi fashalaa&apos;u</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>Yeroo maxxansi milkaa&apos;u</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>Yeroo qabiyyeen maxxanfamu</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>Liinkiiwwan gara waan garagalchaan hin qabneetti (barbaacha, seensa) eessa akka deeman.</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>Garagalchaan dhaabbataan eessaa akka dhiyaatu.</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>Marsariitiin kam akka maxxanfamu, fi kaayyoon maal akka jedhamu.</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>Karaa kamiyyuu jalatti hojjeta. Durtii.</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>Yeroo domeeniin dhuunfaa qindaa&apos;u hunda ni barreeffama.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>Eeyyee</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>Yeroo hunda asittis konsoolii irrattis harkaan ijaaruu fi maxxansuu dandeessa.</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>maqaa qofa; gatiin isaa Qopheessa &gt; Icciitiiwwan keessa tura</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>%path jala</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>gabaasa malee xumurame</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>dabalataa</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>fashalaa&apos;e</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>faayilii</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages, ykn main kuusaa faayilii docs waliin.</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>hoostii git</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (tookenii waliin) ykn git@github.com:owner/repo.git (furtuu bobbaasaa waliin); jecha darbii ykn tookenii gonkumaa of keessaa hin qabu.</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/, kaartaa marsariitii fi liinkiiwwan seera qabeessaaf.</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>suuraa</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>gonkumaa</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>lakki</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>remote hin jiru</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>homaa: galmeewwan kuusaa faayilii keessa turu</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>homaa: homtuu hin jijjiiramne</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>hin ergamne</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>homtuu hin jijjiiramne</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>fuula</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>milkaa&apos;e</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>proc_open dhaamee jira, kanaaf hojiin asitti jalqabuu hin danda&apos;u. Sarvara irratti ./console exp:static:build fayyadami.</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>maxxansa</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>maxxanfame</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>erguun eegaa jira</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>ergame</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>didame</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>walitti dhiyeenyaa</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>duubatti deebii</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>duubatti deebi&apos;e</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>hojjetaa jira</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>kuusaa faayilii qofa</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: faayilii CNAME keessatti barreeffama. DNS domeenii akka hoostiin ibsutti gara hoostiitti qajeelchi; HTTPS jalqabuuf yeroo fudhachuu danda&apos;a.</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>eeyyee, ammallee hin maxxanfamne</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>GitHub App tokko</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>Workflow kuusaa koodii tokkotu isa maxxansa. Ijaarsi faayilii workflow ni barreessa; kuusaa faayilii duwwaa dhiisi.</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>Erga kaayyoon kuusaa koodii GitHub fi tookenii ykn GitHub App waliin olkaa'amee booda, tarkaanfiin kun kuusaa koodii uumee GitHub Pages banuu danda'a. Yoo kun hin taane, dursa kuusaa koodii GitHub irratti uumi; duwwaanis ni ta'a.</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>Damee moo GitHub Actions?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>DNS mirkaneessi</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>Yoo hin jirre kuusaa koodii uumi</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>Kuusaa koodii GitHub irratti uumiitii qindaa'ina isaa keessatti GitHub Pages bani (Settings &gt; Pages).</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>Kuusaa koodii %repo yoo hin jirre (yoo gaafatame) ni uuma, akka olkaa'ametti damee irraa ykn GitHub Actions irraa GitHub Pages ni bana, domeenii dhuunfaa fi HTTPS ni qindeessa. Qindaa'ina olkaa'ame fayyadama: dursa jijjiirama olkaa'i.</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>Bal'ina GitHub irratti</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>Dursa domeenii dhuunfaa galchi.</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>Push hundi dursa daangaawwan kanaan ni mirkanaa'a.</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>Teessoo https:// GitHub irraa tokkoof. App dhaabbii kanaaf qophaa'e ni seena; id dhaabbii barbaada.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages kuusaa koodii dhuunfaa karoora kaffaltii qofaan tajaajila.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: sab-domeeniin (www.example.com) galmee CNAME gara &lt;owner&gt;.github.io barbaada; domeeniin apex (example.com) galmeewwan A %ips barbaada.</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>Id dhaabbii GitHub App</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>Ijaarsa Pages isa dhumaa</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>Daangaawwanii fi haalawwan</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>GitHub Pages karoora bilisaa irratti ni barbaachisa.</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>GitHub irratti</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>GitHub App qofaan: lakkoofsa dhuma teessoo dhaabbii App GitHub irratti jiru. App ofii isaa staticcache.ini keessatti qindaa'a (GitHubAppId, GitHubAppKey).</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>Dhuunfaa</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>Ummataa</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>Dursa kaayyoo kuusaa koodii GitHub fi tookenii ykn GitHub App waliin olkaa'i.</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>Galmeewwan kana dhiyeessaa domeenii biratti qindeessi:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>GitHub irratti qindeessi</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>DNS %domain ammallee gara GitHub Pages hin agarsiisu.</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>DNS %domain gara GitHub Pages agarsiisa.</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>Walitti hidhamiinsi GitHub asitti hin jiru: %problem. Damee irratti maxxansuun garuu ni hojjeta; qindaa'ina kuusaa koodii keessatti GitHub Pages bani.</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>Tarkaanfiiwwan GitHub kaayyoo kanaaf hin jiran: %problem.</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>Haalli GitHub Pages yeroo tookeniin ykn GitHub App ragaa seensaa ta'u ni agarsiifama.</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>Domeenii kee fayyadami</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>Maal filachuu: tookenii, furtuu bobbaasaa moo GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>Kuusaa koodii GitHub fi tookenii ykn GitHub App waliin, qajeelchaan kuusaa koodii uumuu, GitHub Pages banuu fi domeenii siif qindeessuu danda'a (tarkaanfii 4).</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>ijaaramaa jira</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>ijaarame</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>GitHub Actions irraa</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>damee %branch irraa</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>ammallee hin jiru</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>hin argamne</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>cufaa</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>dhuunfaa</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>ummataa</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>tarree keessa</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>hin beekamu</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>fuulota %pages keessaa %count:</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>Faayilii barreeffamaa hundaa bira .gz (fi .br), hoostiiwwan isaan tajaajilaniif.</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>Teessoo duraanii fi maqaa dabalataa fuula tokkoo hundaaf fuula xiqqoo, hidhatoonni duraanii hojjechuu itti fufaniif.</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>Yeroo GitHub Actions marsariitii geessu yeroo hundaa barreeffama.</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>ID SPDX akka CC-BY-4.0, ykn barreeffama ofii.</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>Kuusaa</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>Waamicha gara tajaajilaatti</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Yaada</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>Unkaawwan odeeffannoo walitti qabatan</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>Sirna hojii GitHub Actions</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>Iddoo duwwaa xiqqaa fi yaadni hin jiru fuulota keessatti.</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>Hayyama qabiyyee</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Seeni</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>Xiqqeessi</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>Unkaawwan biroo</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>Duraan dhiphisi</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>Fuulota geeddaruu</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>Fuulota geeddaruu: %count.</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Barbaadi</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>Eeyyama barbaaduu: fuulota %pages afaan %languages keessatti.</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>Fuula bifaa fi iskiriiptiiwwan maqaa hash qabiyyee isaanii jedhamaniin moggaafaman, burawuzaroonni akka eeggataniif.</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>Fuulota jijjiiraman, daqiiqaa muraasa booda jijjiirama dhumaa (kutaa cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>Hayyama qabiyyee, bakka armaan gaditti.</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>Marsariitii guutuu, yeroo sagantaa (kutaa cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>Kutaaleen fuulotaa kunneen tajaajila barbaadu; tokkoon tokkoon isaanii mala bu'aa argate. Osoo hin maxxansin duraan sakatta'i.</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>Wanti akka dhaabbataatti hin hojjenne</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>Kuusaan maali, nama hoosticha irratti banuuf.</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>ka'e</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>barreeffama bu'aa</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>xumura unkaa marsariitii jiraataa</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>marsariitii jiraataa</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>fuula barbaachaa kopii</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>Unkaan ergamuu hin dandeenye.</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>Galatoomi: unkaan ergameera.</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>Unkaan hin fudhatamne: waan galchite sakatta'iitii irra deebi'ii ergi.</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>Hidhoota fuula koppiin hin qabnetti geessan haqi</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>Hidhoota bulchiinsatti geessan haqi</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>Barreeffamni isaanii ni hafa. Suuraaleen, unkaaleen fi hidhoonni marsariitii biraatti geessan gonkumaa hin haqaman.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Fooyya'iinsa</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>Seensawwan marsariitii maxxanfaman</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Seensa marsariitii</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>Hidda irratti</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>Hidda irratti seensi marsariitii hin jiru: tokkoon tokkoon isaanii kuusaa isaa keessa jira, hiddi immoo isaanitti hidhata</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Seensawwan marsariitii</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>Seensa marsariitii tokko, ykn kanneen maxxantuu URI isaaniitiin keessummeessaa tokko qooddatan hedduu mallattoo godhi. Kan hidda irra jiru achitti dhiyaata, kanneen biroo kuusaa maxxantuu isaanii keessatti (/ger/); hidhaminsi gidduu isaanii garagalcha keessatti hafa. Seensawwan bulchiinsaa gonkumaa hin dhiyaatan.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>Maxxansi dhaabbataa %target %site irratti hin milkoofne</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>Maxxansi dhaabbataa %target %site irratti milkaa'eera</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>Ergaan kun %site irraa ergame sababni isaas galmi maxxansa dhaabbataa %target waan gaafatuuf.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>Diriirsiin %deploy %site irratti fashalaa'e</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>Diriirsiin %deploy %site irratti karra tokko biratti eegaa jira</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>Diriirsiin %deploy %site irratti milkaa'e</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>Ergaan kun %site irraa ergame sababni isaas migration.ini [RemoteSettings] Notify[] ni gaafata.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Class groups</source>
+        <translation>Gareewwan gitaa</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Ilaalcha waliigalaa</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>Galmaa'e</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>Fayyadamaa jira</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>Hin fayyadamamne</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>Amaloota gitaa</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>Amalawwan wanta</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Agarsiisi</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Hunda</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>Nama hundaa</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>Handhuura</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Hunda agarsiisi</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>Dabalata</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>Gosa deetaa</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>Gitoota</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>Wantoota</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>Alaabaalee</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>homaa</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>Tartiibessi %column'n</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>Eenyummeessaa</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Maqaa</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Dabalata %name</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>Gita PHP</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Faayilii</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>eeyyee</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>lakki</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>Gabateewwan</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>Unkawwan</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Seensa marsariitii</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>Unka</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>Kan argame</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Gita</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>Amaloota</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>Amala</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Qindaa'ina</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>Dirqama</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>Barbaadamuu danda'u</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>Hiikamuu kan danda'u</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>Odeeffannoo ni walitti qaba</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Jijjiirame</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>Noodii %id</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>Tartiibessuu kan danda'u</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>Walitti dhufeenyawwan</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>Paakeejiiwwan</translation>
+    </message>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>Gosoota deetaa (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>%time lakkaa'ame, daqiiqaa %minutes booda irra deebi'ee</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>Gosni deetaa gosa gatii tokkoo amala gitaa kuusa, ni gulaalas: sarara barreeffamaa, suuraa, walitti dhufeenya. Handhuurri isaan hedduu fida, dabalataaleen kan biroo dabalu. Asitti hundi isaanii jiru, eenyu akka kennu fi qabiyyeen hammam akka itti fayyadamu. Gosni deetaa kuusaan deetaa itti fayyadamu garuu homtuu kana booda hin galmeessine qabiyyee isa qabu ni balleessa.</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>Lakkoofsa daqiiqaawwan darbanii fayyadamuu mannaa amma irra deebi'ii lakkaa'i.</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>Irra deebi'ii lakkaa'i</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>Dabalataalee gosoota deetaa kennan</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>Hin galmoofne</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>Tarree keessa jira, faayiliin hin jiru</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>Gosoonni deetaa %count fayyadamaa jiru garuu hin galmoofne</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>Amaloonni gitaa %class_attributes fi amaloonni wantaa %object_attributes gosa deetaa dabalanni ykn qindaa'inni kamiyyuu hin galmeessine qabu. Wantoonni isaanii agarsiifamuu, gulaalamuu ykn maxxanfamuu hin danda'an. Dabalata gosa deetaa kennu hojii irra oolchi, ykn gitaa jijjiiri.</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>Kana qofa agarsiisi</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>Gosa deetaa barbaadi</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>Eenyummeessaa, maqaa, gitaa PHP ykn dabalata.</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>Kan kenne</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>Gosni deetaa calaltuu kana wajjin walsimu hin jiru.</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>Gosoota deetaa %count keessaa %shown, %used fayyadamaa jiru</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>Kuusaan deetaa amaloota gitaa ykn wantaa gosoota deetaa kanaa qaba, garuu content.ini isaan keessaa tokkollee hin tarreessu, ykn faayiliin isaa hin jiru.</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>Gosoota deetaa %provider</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>Gitaa PHP fi faayilii</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>Gosni deetaa barbaacha wajjin walsimu hin jiru. Barbaacha qulqulleessi.</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>Gosoota deetaa %count keessaa %shown agarsiifame</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>Gosoota deetaa agarsiifaman: %count</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>%time lakkaa'ame</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>Gosoota deetaa hunda</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>Fuula gargaarsaa</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>Gosni deetaa kun fayyadamaa jira garuu hin galmoofne</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>Yeroo dabalanni kamiyyuu gosa deetaa hin galmeessinetti, wantoonni gitoota armaan gadii agarsiifamuu, gulaalamuu ykn maxxanfamuu hin danda'an. Dabalata isa kennu hojii irra oolchi, content.ini [DataTypeSettings] AvailableDataTypes[] irratti dabali, ykn gitoota jijjiiri.</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini gosa deetaa kana tarreessa, garuu galmeen gosa deetaa kamiyyuu faayilii isaa hin qabu. Homtuu itti hin fayyadamu; AvailableDataTypes[] keessaa baasi ykn dabalata isaa hojii irra oolchi.</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>Waa'ee gosa deetaa kanaa</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>namni hin jiru</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>AvailableDataTypes[] keessa</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>Utuboota gatii isaa</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>Utuboota qindaa'ina amala gitaa isaa</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>Utubootaa fi gabateewwan koodii gosa deetaa dubbisuun argaman: qajeelfama, waadaa miti.</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>bulchiinsa kana</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>marsariitii durtii</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>Bakka buusa malee: unkaan bakka buusaa gitaa ykn amalaan walsimu kanneen kana caala.</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>Gitoota itti fayyadaman (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>Gitaan kamiyyuu amala gosa deetaa kanaa hin qabu.</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>Amaloota gitaa (%count)</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>Qabiyyee itti fayyadamu tokko tokko</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>Kan dhumarratti jijjiirame dura</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>Hiikni hundi gatii mataa isaa qaba.</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>Barbaachi gatiiwwan isaa ni indeksa.</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>Daawwattoota irraa odeeffannoo walitti qabuu danda'a (unkaalee).</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>Tarreewwan isaan tartiibaan qindaa'uu danda'u: furtuu tartiibaa %type.</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>Gatiiwwan isaa wantoota biroo agarsiisu.</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>Barreeffama salphaa irraa guutamuu danda'a (galchuu, REST).</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>Barreeffama irraa</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>Faayilii irraa guutamuu danda'a.</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>Faayilii irraa</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>Qindaa'inni amala gitaa isaa paakeejiiwwan keessa seena.</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>Qabiyyee (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from hanga %to, %count keessaa</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Tarree calaqqisi</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>Gitoota hundaa</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Kutaa</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Afaanota</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Abbaa</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Maxxanfame</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>Tartiiba garagalchi</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Wanti hin jiru</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Fuula tokkotti</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Fuula tokkoon wantoota %count agarsiisi.</translation>
     </message>
 </context>
 </TS>

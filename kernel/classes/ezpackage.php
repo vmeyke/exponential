@@ -2,7 +2,7 @@
 /**
  * File containing the eZPackage class.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -2336,6 +2336,12 @@ class eZPackage
                 }
             }
         }
+        // The package's own migrations (a directory migrations/ in it), once its items are in: one that fails leaves
+        // the package not installed, so installing it again runs what is still pending (migration.ini [InstallSettings])
+        if ( $installResult && !$asDrafts && class_exists( 'expMigrationInstall' ) )
+        {
+            $installResult = expMigrationInstall::afterPackageInstall( $this->path(), (string)$pkgName, $installParameters );
+        }
         // drafts are not an installation: the package can be installed (or installed as drafts) again
         if ( $installResult && !$asDrafts )
         {
@@ -2562,7 +2568,8 @@ class eZPackage
             foreach ( $maintainerNodes as $maintainerNode )
             {
                 // the writer leaves out a maintainer's role when there is none
-                $maintainerName = $maintainerNode->getElementsByTagName( 'name' )->item( 0 )?->textContent ?? '';
+                $maintainerNameNode = $maintainerNode->getElementsByTagName( 'name' )->item( 0 );
+                $maintainerName = $maintainerNameNode ? $maintainerNameNode->textContent : '';
                 $maintainerEmailNode = $maintainerNode->getElementsByTagName( 'email' )->item( 0 );
                 $maintainerRoleNode = $maintainerNode->getElementsByTagName( 'role' )->item( 0 );
                 $this->appendMaintainer( $maintainerName,
@@ -2726,8 +2733,10 @@ class eZPackage
         $versionRelease = false;
         if ( $versionNode )
         {
-            $versionNumber = $versionNode->getElementsByTagName( 'number' )->item( 0 )?->textContent ?? false;
-            $versionRelease = $versionNode->getElementsByTagName( 'release' )->item( 0 )?->textContent ?? false;
+            $versionNumber = $versionNode->getElementsByTagName( 'number' )->item( 0 );
+            $versionNumber = $versionNumber ? $versionNumber->textContent : false;
+            $versionRelease = $versionNode->getElementsByTagName( 'release' )->item( 0 );
+            $versionRelease = $versionRelease ? $versionRelease->textContent : false;
             // A hand-written package.xml may wrap the values in white space (<number>\n  1.0\n</number>). It is
             // no part of the number, and the check below must not refuse such a package for it.
             $versionNumber = $versionNumber === false ? false : trim( $versionNumber );

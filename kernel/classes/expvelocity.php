@@ -2,7 +2,7 @@
 /**
  * File containing the expVelocity class.
  *
- * @copyright Copyright (C) 7x. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
  * @package kernel
@@ -568,6 +568,31 @@ class expVelocity
     public function engineName()
     {
         return 'qbix';
+    }
+
+    /**
+     * The lowest PHP version each engine runs on. Exponential itself runs on PHP 7.4;
+     * the Velocity engine (qbix) needs PHP 8.0, so Composer does not install it on 7.4.
+     */
+    const ENGINE_MINIMUM_PHP = array( 'qbix' => 80000 );
+
+    /**
+     * Why $engine cannot run on this PHP, or '' when it can.
+     *
+     * @param string $engine qbix, frankenphp or php
+     * @param int|null $phpVersionId PHP_VERSION_ID when null
+     * @return string
+     */
+    public static function phpRefusal( $engine, $phpVersionId = null )
+    {
+        $phpVersionId = $phpVersionId === null ? PHP_VERSION_ID : (int)$phpVersionId;
+        $minimum = isset( self::ENGINE_MINIMUM_PHP[$engine] ) ? self::ENGINE_MINIMUM_PHP[$engine] : 0;
+        if ( $phpVersionId >= $minimum )
+            return '';
+        $version = intdiv( $phpVersionId, 10000 ) . '.' . intdiv( $phpVersionId % 10000, 100 );
+        return 'the Velocity engine (' . $engine . ') needs PHP ' . intdiv( $minimum, 10000 ) . '.' . intdiv( $minimum % 10000, 100 )
+            . ' or later, this is PHP ' . $version . '. Exponential is usable without support on PHP ' . $version
+            . ' with Apache or nginx and PHP-FPM, or with the php engine (exp:velocity start --engine=php). Supported: PHP 8.0 to 8.5.';
     }
 
     /**
@@ -1425,6 +1450,54 @@ class expVelocity
         return $this->absolute( $setting );
     }
 
+    /** How many run copies of the engine archive are kept (engineRunArchive()): the current start and a few before. */
+    const ENGINE_RUN_COPIES = 4;
+
+    /**
+     * The archive a starting server runs from: a hard link (a copy where links are not possible) of $archive under
+     * its own name, ".<name>-run-<time>-<pid>.phar" beside it, which no build ever writes.
+     *
+     * A server started on dist/engine.phar itself read its classes from that path for its whole life. A deploy builds
+     * the new archive and renames it over that path before it restarts the server, so for the seconds in between
+     * (and for any worker of the old server that lived on after the restart) a worker that loaded a class it had not
+     * loaded yet read it out of the new archive, while everything loaded before came from the old one. On
+     * 2026-10-29 that mix left the content class attributes of :8080 without their datatypes for two and a half
+     * minutes ("Could not get instance of datatype: ezstring") and /site answered 500. With its own name, a server
+     * keeps the archive it started with until it stops, and only a new server sees a new build.
+     *
+     * The oldest run copies beyond ENGINE_RUN_COPIES are removed (a server still running from one keeps reading it:
+     * an open file stays readable after its name is gone). When neither a link nor a copy can be made, $archive is
+     * returned and the server runs from it as before.
+     *
+     * @param string $archive absolute path of the built archive
+     * @return string absolute path the server is started on
+     */
+    public function engineRunArchive( $archive )
+    {
+        $dir = dirname( $archive );
+        $base = basename( $archive, '.phar' );
+        $run = $dir . '/.' . $base . '-run-' . date( 'YmdHis' ) . '-' . getmypid() . '.phar';
+        clearstatcache( true, $archive );
+        // The instances of one start share the copy (same second, same process): a copy is never written over
+        if ( !is_file( $run ) && !@link( $archive, $run ) )
+        {
+            $tmp = $run . '.' . bin2hex( random_bytes( 4 ) ) . '.tmp';
+            if ( !@copy( $archive, $tmp ) || !@rename( $tmp, $run ) )
+            {
+                @unlink( $tmp );
+                return $archive;
+            }
+        }
+        $copies = glob( $dir . '/.' . $base . '-run-*.phar' ) ?: array();
+        sort( $copies );
+        foreach ( array_slice( $copies, 0, max( 0, count( $copies ) - self::ENGINE_RUN_COPIES ) ) as $old )
+        {
+            if ( $old !== $run )
+                @unlink( $old );
+        }
+        return $run;
+    }
+
     public function command( $instance = 0 )
     {
         $documentRoot = $this->absolute( $this->setting( 'ServerSettings', 'DocumentRoot', '' ) );
@@ -2032,6 +2105,22 @@ class expVelocity
         if ( $streamShare !== '' && is_numeric( $streamShare ) )
             $webserver['streamShare'] = max( 0.0, min( 1.0, (float)$streamShare ) );
 
+        // [ServerSettings] GraphQLWebSocketPaths[] and GraphQLWebSocket* ->
+        // Q.webserver.graphqlWs: the paths where a WebSocket of the protocol
+        // graphql-transport-ws is accepted and bridged to the kernel's event
+        // stream of the same path (the GraphQL subscriptions). An engine
+        // without the bridge ignores them.
+        $graphqlWs = array( 'paths' => array_values( array_filter( array_map( 'trim', (array)$this->setting( 'ServerSettings', 'GraphQLWebSocketPaths', array() ) ),
+                                                                   function ( $path ) { return $path !== '' && $path[0] === '/'; } ) ) );
+        foreach ( array( 'GraphQLWebSocketInitTimeout' => 'initTimeout', 'GraphQLWebSocketIdleTimeout' => 'idleTimeout',
+                         'GraphQLWebSocketPingInterval' => 'pingInterval', 'GraphQLWebSocketMaxSubscriptions' => 'maxSubscriptions' ) as $iniName => $engineName )
+        {
+            $value = trim( (string)$this->setting( 'ServerSettings', $iniName, '' ) );
+            if ( $value !== '' && ctype_digit( $value ) )
+                $graphqlWs[$engineName] = (int)$value;
+        }
+        $webserver['graphqlWs'] = $graphqlWs;
+
         // [ServerSettings] Zygote -> Q.webserver.zygote: fork later workers
         // from a process that never held a client connection, so a worker
         // forked under load does not keep visitors' TLS connections open.
@@ -2625,6 +2714,9 @@ class expVelocity
      */
     protected function startUnchecked()
     {
+        if ( $refusal = self::phpRefusal( $this->engineName() ) )
+            return $this->result( false, $refusal );
+
         $script = $this->scriptPath();
         if ( !is_file( $script ) )
             return $this->result( false, "no server script at $script" );
@@ -2700,7 +2792,7 @@ class expVelocity
             if ( $ready !== true )
                 return $this->result( false, $ready, $this->status() );
 
-            $environment = 'EXP_ENGINE_PHAR=' . escapeshellarg( $enginePhar ) . ' ';
+            $environment = 'EXP_ENGINE_PHAR=' . escapeshellarg( $this->engineRunArchive( $enginePhar ) ) . ' ';
         }
 
         // Started from cron, a systemd unit or a stripped container, PATH can

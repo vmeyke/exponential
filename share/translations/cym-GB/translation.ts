@@ -984,6 +984,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>Dim ond y dudalen hon a chwilir: %from i %to o %count.</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Pob math o ddata yn y craidd a'r estyniadau, a sut mae'r dosbarthiadau a'r cynnwys yn ei ddefnyddio.</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Mathau o ddata</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2316,6 +2324,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>Gellir rhoi tudalennau system ar nod tudalen hefyd: agorwch y dudalen (Gosod, y llwybr archwilio, rhestr o ddefnyddwyr ...) a dewiswch Rhoi'r dudalen hon ar nod tudalen uwch ei phen. Mae gan nodau tudalen o'r fath eicon cog.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>Ni chewch agor y dudalen hon yma mwyach. Tynnwch y nod tudalen, neu gofynnwch i weinyddwr am fynediad.</translation>
     </message>
 </context>
 <context>
@@ -5165,6 +5177,210 @@
         <source>Go to the first page</source>
         <translation>Mynd i'r dudalen gyntaf</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>Arall</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>7 diwrnod diwethaf</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>Ystod bersonol</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>Pob gair</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>Unrhyw air</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>Union ymadrodd</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>Perthnasedd</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>Enw A–Z</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>Enw Z–A</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>Addaswyd, y mwyaf newydd yn gyntaf</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>Addaswyd, yr hynaf yn gyntaf</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>Cyhoeddwyd, y mwyaf newydd yn gyntaf</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>Cyhoeddwyd, yr hynaf yn gyntaf</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Addaswyd</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>Hidlwyr</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>Dangos hidlwyr</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>Cuddio hidlwyr</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Ailosod</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>Gweithredu</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>Geiriau</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>Math o gynnwys</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>Dangos rhagor (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>Dewiswch un math o gynnwys i chwilio yn un o'i briodoleddau.</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Adran</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>O</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>I</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>Nid yw'r dyddiad dechrau yn ddyddiad dilys.</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>Nid yw'r dyddiad gorffen yn ddyddiad dilys.</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Perchennog</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>ID defnyddiwr, enw mewngofnodi neu gyfeiriad e-bost.</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>Ni chafwyd hyd i ddefnyddiwr ar gyfer ‘%input’.</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Iaith</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>Unrhyw iaith</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Lleoliad</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>%count lleoliad</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>Canlyniadau fesul tudalen</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>Canlyniadau ar gyfer ‘%text’ (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>Canlyniadau (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>Didoli yn ôl</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>Didoli</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>Hidlwyr gweithredol</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>Tynnu'r hidlydd hwn</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>Neu dewiswch hidlwyr a'u gweithredu i restru'r cynnwys sy'n cyfateb iddynt.</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>Mae'r hidlwyr yn culhau'r chwiliad ar ôl i chi deipio geiriau.</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>Ni chafwyd canlyniadau ar gyfer ‘%text’.</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>Ni chafwyd canlyniadau.</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>Tynnwch un o'r hidlwyr uchod.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Cyfieithiadau</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Gweithredoedd</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>Golygu %name</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Golygu</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -7514,6 +7730,10 @@
         <source>Setup &gt; Cronjobs</source>
         <translation>Gosod &gt; Cronswyddi</translation>
     </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>Nid oes unrhyw ran o&apos;r cronswyddi wedi rhedeg eto: mae&apos;r ciw swyddi, y mewnforion, yr hysbysiadau a&apos;r mynegai chwilio yn aros. Rhedwch php bin/php/installcrontab.php --add --apply, neu ychwanegwch linellau --show at y crontab.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/dashboard/drafts</name>
@@ -8058,8 +8278,8 @@
         <translation>Cedwir hysbysiadau hawlfraint yr awduron gwreiddiol a'r feddalwedd trydydd parti a gynhwysir gydag Exponential yn y ffeiliau ffynhonnell ac yn y ffeil LICENSE, fel y mae'r drwydded yn ei gwneud yn ofynnol.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>Dyma restr o gyfranwyr Exponential sydd wedi trwyddedu eu gwaith i'w ddefnyddio gan 7x o dan delerau ac amodau Cytundeb Trwyddedu Cyfranwyr eZ Systems. Fel y caniateir gan y cytundeb hwn, mae 7x yn ailddosbarthu pob cyfraniad o dan yr un drwydded â'r ffeil y mae'r cyfraniad wedi'i gynnwys ynddi. Mae'r rhestr yn enwi pob cyfrannwr, gwybodaeth gyswllt ddewisol a'r ffeiliau y maent wedi'u cyfrannu neu wedi cyfrannu gwaith atynt.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>Cyfranwyr a gydnabyddir am eu gwaith ar Exponential ac ar y feddalwedd y tyfodd ohoni, gyda'r ffeiliau y gwnaethant gyfrannu iddynt. Cydnabyddiaeth yw hyn, nid hysbysiad hawlfraint: mae cyfraniadau i Exponential yn cael eu trosglwyddo i'r Exponential Foundation a 7x o dan y Contributor Licensing Agreement.</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13881,32 +14101,20 @@ Sylwer: ni fydd y pecynnau'n cael eu dadosod.</translation>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%evaluate_link"&gt;Gwerthuso Exponential Enterprise Edition&lt;/a&gt; - &lt;a href="%share_link"&gt;Dewch yn aelod o Gymuned Exponential, cyfnewidiwch a chyfrannwch&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Hawlfraint &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; ac eraill.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class="edition-info"&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>Wedi'i bweru gan &lt;span class="edition-info"&gt;%edition&lt;/span&gt;. I gael rhagor o wybodaeth gweler &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Hawlfraint &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; ac eraill.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> I gael rhagor o wybodaeth gweler &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
     </message>
     <message>
-        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Hawlfraint &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; ac eraill.</translation>
+        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href="%evaluate_link"&gt;Gwerthuso Exponential (gan 7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;Dewch yn aelod o Gymuned Exponential, cewch gymorth a chyfrannwch&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Hawlfraint &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; ac eraill.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13915,6 +14123,61 @@ Sylwer: ni fydd y pecynnau'n cael eu dadosod.</translation>
     <message>
         <source>Help center</source>
         <translation>Canolfan gymorth</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>Cynnwys</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>Tudalennau dogfennau</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>Defnyddwyr</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>Dosbarthiadau cynnwys</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>Gweinyddu</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>Tudalen %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>Gweld pob canlyniad</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>%count canlyniad</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>Un canlyniad</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>%count awgrym</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>Dim awgrymiadau</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>Nid oedd modd llwytho'r awgrymiadau.</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>Awgrymiadau</translation>
     </message>
 </context>
 <context>
@@ -14383,6 +14646,14 @@ Sylwer: ni fydd y pecynnau'n cael eu dadosod.</translation>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>Arddangosiad cyhoeddus yw'r gosodiad hwn: gall unrhyw un wybod cyfrinair ei weinyddwr, ac ni ellir newid nac ailosod cyfrineiriau gweinyddwyr. Peidiwch â rhoi unrhyw beth preifat yma.</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Eich dyfeisiau</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Gweithgarwch diogelwch</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14672,6 +14943,14 @@ Sylwer: ni fydd y pecynnau'n cael eu dadosod.</translation>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>Canllawiau, chwilio a sut i adrodd am wall.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Cynnwys diweddar</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Y cynnwys mwyaf newydd, yr hyn sy'n cael ei ddal i'w adolygu, a gweithredoedd ar ddetholiad.</translation>
     </message>
 </context>
 <context>
@@ -15130,6 +15409,46 @@ Sylwer: ni fydd y pecynnau'n cael eu dadosod.</translation>
         <source>Synchronisations</source>
         <translation>Cydamseriadau</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>Yr API GraphQL: ei bwynt terfyn, y sgema a maes chwarae i roi cynnig ar ymholiadau.</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Mudiadau</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Newidiadau i&apos;r gosodiad wedi&apos;u cadw fel ffeiliau: eu cyflwr, y rhediadau, rhedeg a dychwelyd.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Cynnwys diweddar</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Y cynnwys mwyaf newydd, yr hyn sy'n cael ei ddal i'w adolygu, a gweithredoedd ar ddetholiad.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Cyhoeddi copi statig o wefan i GitHub Pages neu unrhyw westeiwr git.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Cyhoeddi statig</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Mathau o ddata</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Pob math o ddata yn y craidd a'r estyniadau, a sut mae'r dosbarthiadau a'r cynnwys yn ei ddefnyddio.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15294,6 +15613,22 @@ Sylwer: ni fydd y pecynnau'n cael eu dadosod.</translation>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>Cyfrifon nad oes neb yn eu defnyddio neu sydd angen golwg arnynt; eu hanalluogi, eu datgloi neu eu hallforio.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Log archwilio defnyddwyr</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>Pwy a newidiodd, a fewngofnododd neu a wrthodwyd, fesul cyfrif; hidlo ac allforio.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Adroddiad mewngofnodi</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>Pwy sydd wedi mewngofnodi, mewngofnodion a methiannau bob dydd; allgofnodi defnyddiwr ym mhobman.</translation>
     </message>
 </context>
 <context>
@@ -22110,6 +22445,22 @@ Sylwer: ni fydd y pecynnau'n cael eu dadosod.</translation>
         <source>%n hours ago</source>
         <translation>%n awr yn ôl</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>Atebion ymholiadau wedi&apos;u cadw yr API GraphQL, a dosbarthiadau cynnwys ei sgema.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>Cyhoeddi copi statig i GitHub Pages neu unrhyw westeiwr git</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Cyhoeddi statig</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>Mae&apos;r storfa statig yn gweini tudalennau o&apos;r gweinydd hwn. I gyhoeddi copi statig o wefan yn rhywle arall, ar GitHub Pages neu unrhyw westeiwr git, defnyddiwch gyhoeddi statig.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25651,6 +26002,10 @@ Sylwer: ni fydd y pecynnau'n cael eu dadosod.</translation>
     <message>
         <source>last purge</source>
         <translation>carthiad olaf</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>Ni allai ysgrifeniadau gymryd clo&apos;r cyflwr (y tro diwethaf %date): gwnaeth pob un bob canlyniad yn y storfa yn hen. Rhaid i %file fod yn ysgrifenadwy i bob defnyddiwr y mae&apos;r wefan yn rhedeg fel; ar NFS mae angen NFSv4 neu lockd.</translation>
     </message>
 </context>
 <context>
@@ -33599,6 +33954,14 @@ Sylwer: ni fydd y pecynnau'n cael eu dadosod.</translation>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>Caiff sesiynau trinwr PHP sydd wedi mynd heibio'u hamser eu tynnu gan PHP ei hun (session.gc_maxlifetime), nid gan y dudalen hon na rhan session_gc y gronswydd.</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>Mae sesiynau mewngofnodi pob defnyddiwr yn cael eu rhestru, a&apos;u hallgofnodi, ar yr adroddiad mewngofnodi, sy&apos;n gweithio gyda phob trinydd sesiynau.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>Agor yr adroddiad mewngofnodi</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37923,6 +38286,26 @@ eich cyfrif.</translation>
     <message>
         <source>None yet</source>
         <translation>Dim eto</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Gweithgarwch diogelwch</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>Eich mewngofnodion diweddar, ymdrechion a fethodd a newidiadau i&apos;ch cyfrinair, eich cyfeiriad e-bost a&apos;ch mewngofnodi dau gam.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>Mewngofnodion diweddar, ymdrechion a fethodd a newidiadau diogelwch y cyfrif hwn.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>Adolygu gweithgarwch</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>Mewngofnodion a fethodd: %count</translation>
     </message>
 </context>
 <context>
@@ -44089,6 +44472,42 @@ Os ydych am anfon sylwadau at y cymeradwywr neu weld y statws defnyddiwch yr URL
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>Ar ôl mewngofnodi, rhaid i'r defnyddiwr ddewis cyfrinair newydd cyn gwneud unrhyw beth arall. Defnyddiwch hyn pan fyddwch yn rhoi cyfrinair dros dro i rywun.</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>Dewis delwedd sy'n bodoli</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>Caiff ffeil delwedd y gwrthrych a ddewiswch ei chopïo i'r maes hwn. Nid yw'r gwrthrych arall yn newid.</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>Cafodd delwedd “%name” ei chopïo i'r maes hwn.</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>Pori am ddelwedd</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>Chwilio delweddau yn ôl enw</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Chwilio</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>Defnyddio delwedd “%name”</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>Defnyddio'r ddelwedd hon</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>Does dim delwedd yn cyfateb i'ch chwiliad.</translation>
     </message>
 </context>
 <context>
@@ -51013,6 +51432,10 @@ Gweler y dudalen gofynion am ragor o wybodaeth.</translation>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>Ni ysgrifennwyd y crontab (%reason). Ychwanegwch y llinellau hyn at crontab y defnyddiwr y mae'r wefan yn rhedeg fel, neu ni fydd y ciw, y mewnforion, yr hysbysiadau na'r mynegai chwilio byth yn rhedeg:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>Mae ailosod yn cael ei wneud gyda&apos;r kickstarter (%file, yna php bin/php/kickstarter.php run --apply) neu gyda gosodiad newydd.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54892,6 +55315,10 @@ eich cyfrif.</translation>
         <source>eZJSCore Public Packer cache</source>
         <translation>Storfa pacio cyhoeddus eZJSCore</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>Storfa GraphQL (atebion a dosbarthiadau&apos;r sgema)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54978,6 +55405,14 @@ eich cyfrif.</translation>
     <message>
         <source>Copy of %class_name</source>
         <translation>Copi o %class_name</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Mathau o ddata</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>Math o ddata %string</translation>
     </message>
 </context>
 <context>
@@ -55804,6 +56239,26 @@ eich cyfrif.</translation>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>Nid oedd modd darllen y ddelwedd SVG, neu ni ellir dangos dim ohoni'n ddiogel.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>Doedd dim modd copïo'r ddelwedd. Rhowch gynnig arall arni neu cysylltwch â gweinyddwr y wefan.</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>Dyw'r gwrthrych a ddewiswyd ddim yn bodoli neu does gennych ddim hawl i'w ddarllen.</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>Does gan y gwrthrych a ddewiswyd ddim delwedd.</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>Doedd dim modd darllen ffeil delwedd y gwrthrych a ddewiswyd.</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>Mae delwedd y gwrthrych a ddewiswyd yn fwy nag y mae'r maes hwn yn ei ganiatáu: %1 beit.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56334,6 +56789,42 @@ eich cyfrif.</translation>
         <source>The bookmark was renamed to "%name".</source>
         <translation>Ailenwyd y nod tudalen yn "%name".</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>Mae'r dudalen hon wedi'i diffodd yn y mynediad hwn i'r wefan (%siteaccess). Agorwch y nod tudalen mewn mynediad i'r wefan sydd â'r dudalen.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>Nid yw modiwl y dudalen hon wedi'i osod na'i alluogi yma.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>Nid yw'r dudalen hon yn bodoli mwyach: nid oes gan ei modiwl y fath olwg.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>Nid yw'r un o'ch rolau yn caniatáu i chi agor y dudalen hon.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>Ni chewch ddefnyddio'r mynediad hwn i'r wefan.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>Ni chewch ddarllen y cynnwys y mae'r dudalen hon yn ei ddangos.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>Ni ellir rhoi nod tudalen ar y math hwn o dudalen: dim ond ar ffurflen y mae'n gweithredu, neu mae'n dudalen am un eiliad.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>Mae cyfeiriad y dudalen hon ar goll.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>Ni ellir agor y dudalen hon ar hyn o bryd.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56805,6 +57296,10 @@ Bydd angen i chi newid dosbarth y nod gan ddefnyddio'r swyddogaeth cyfnewid.</tr
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>Gwrthododd y cludydd post %count neges yn y rhediad diwethaf. Gwiriwch y gweinydd post a site.ini MailSettings.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Mae digwyddiadau&apos;n aros (%count) ac nid oes cofnod bod cronswydd yr hysbysiadau wedi rhedeg. Ychwanegwch y rhan cronswydd &quot;frequent&quot; at y crontab, neu rhedwch exp:notification:run --apply.</translation>
     </message>
 </context>
 <context>
@@ -63061,6 +63556,10 @@ Bydd angen i chi newid dosbarth y nod gan ddefnyddio'r swyddogaeth cyfnewid.</tr
         <source>Choose another site or section with the node picker</source>
         <translation>Dewis gwefan neu adran arall gyda'r dewisydd nodau</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>Dim ond gweinyddwr y system sy&apos;n gallu newid y perchennog: rhedwch ./console exp:content-check --fix-permissions --apply fel root.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64594,6 +65093,10 @@ Bydd angen i chi newid dosbarth y nod gan ddefnyddio'r swyddogaeth cyfnewid.</tr
     <message>
         <source>empty</source>
         <translation>gwag</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>Mae&apos;r allwedd lofnodi dros flwydd oed: newidiwch hi gydag exp:audit key rotate --apply.</translation>
     </message>
 </context>
 <context>
@@ -68424,6 +68927,486 @@ Bydd angen i chi newid dosbarth y nod gan ddefnyddio'r swyddogaeth cyfnewid.</tr
         <source>Share of page time</source>
         <translation>Cyfran o amser y dudalen</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>gofynnwyd am rendro llawn</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>nid oedd y dudalen yn y storfa tudalennau (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>ni atebodd y storfa tudalennau</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>Rendrwyd</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>Rendrwyd gan y craidd: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>Gweinwyd o'r storfa tudalennau mewn %ms ms. Storiwyd y dudalen am %stored gan rendro o %render ms, %age s yn ôl.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>Rendro nawr</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>Yn ôl i'r golwg o'r storfa</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>O'r rendro am %stored (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>Y cais hwn: gweinwyd o'r storfa tudalennau mewn %ms ms.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Defnyddiwr</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>ID defnyddiwr</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>Proffil storfa</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>Yr olwg hon</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>Storfa golygon</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>fesul defnyddiwr (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>Proffil storfa'r defnyddiwr: mae defnyddwyr â'r un proffil yn rhannu ffeiliau storfa'r golwg</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ie</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>na</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Enw mewngofnodi</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>Wedi mewngofnodi</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>Sesiwn</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>Rhannau allwedd storfa golwg y cynnwys sy'n dibynnu ar y defnyddiwr, yn union fel y mae'r allwedd yn eu cymryd, o dan ViewCacheTweaks y dudalen hon. Mae defnyddwyr â'r un proffil yn rhannu ffeiliau storfa'r golygon, oni bai bod rhannau golwg ei hun yn wahanol (dewisiadau, allweddi gwrandawyr): mae gan y rheini eu proffil eu hunain, ar gyfer y dudalen hon yn unig.</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>Proffil</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>Yr olwg hon (nod %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: mae gan bob defnyddiwr sydd wedi mewngofnodi ei ffeiliau storfa ei hun.</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>ViewCacheTweaks mewn grym: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>Rhan</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>Gwerth</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>Nid oes rhan yn dibynnu ar y defnyddiwr (ViewCacheTweaks).</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>yr olwg hon</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>Copïo fel testun</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>Rolau</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>Nid oedd modd darllen unrhyw aseiniadau rôl.</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>ID rôl</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Rôl</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>Cyfyngiad</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>Wedi'i aseinio i</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>y defnyddiwr</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>grŵp %name (gwrthrych %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>Copïwyd</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>Methu copïo.</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>wedi'i hepgor gan wrandawr</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>Ymwelwyr dienw</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>yr un fath â'ch un chi</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>gwahanol</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>Y proffil a gaiff ymwelwyr dienw o dan yr un ViewCacheTweaks, gyda'r dewisiadau rhagosodedig, heb rannau'r golwg: ni ellir gofyn amdanynt i wrandawr sy'n darllen y sesiwn.</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>Dewisiadau</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>Nid oes modd golwg yn dibynnu ar ddewisiadau'r defnyddiwr (site.ini [ContentSettings] CachedViewPreferences).</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>Y dewisiadau y mae golygon y moddau golwg hyn yn dibynnu arnynt (CachedViewPreferences), gyda gwerth y defnyddiwr neu'r rhagosodiad. Maent yn y proffil fel userpreferences, rhai pob modd golwg gyda'i gilydd.</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>Modd gweld</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>Dewis</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>Rhagosodedig</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>Polisïau</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>Dangos polisïau'r rolau (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>Caiff y polisïau eu llwytho o'r gweinydd pan agorir yr adran hon, fesul tudalen, a gellir eu hidlo yn ôl modiwl a swyddogaeth.</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>Swyddogaeth</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>Pob modiwl</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>Pob swyddogaeth</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>Cyfyngiadau</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>Dangos mwy</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>Nid oes gan y rolau hyn bolisïau.</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>Nid oes polisi'n cyfateb i'r hidlydd.</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%shown o %matching polisi (%total i gyd)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>Wedi'i lwytho wrth agor.</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>modiwl/swyddogaeth, rôl, cyfyngiad</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>Chwilio'r polisïau</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>Llwytho mwy</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>Modiwl/swyddogaeth</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>Pob rôl (%count polisi)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>Dim polisi'n cyfateb.</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%shown o %matched polisi</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>Dim ateb</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>wedi'i guddio</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>Dangos esboniadau</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>Cuddio esboniadau</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Agor</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>Agor y cyfan</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>Cau'r cyfan</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>Allwedd neu werth</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>Chwilio'r sesiwn</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Math</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>%count arall</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>wedi'i nythu'n rhy ddwfn i'w ddangos</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>wedi'i dorri, %count nod i gyd</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Cychwynnwyd</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>Enw'r cwci</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>ID y sesiwn</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>Triniwr</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>Llwybr cadw</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>Rhagosodiad PHP</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>Oes (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>Cwci</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>oes %s s</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>Eich sesiwn PHP eich hun, fel yr oedd pan agorwyd yr adran, byth un arall. Mae gwerthoedd allweddi sy'n edrych fel cyfrinachau (tocynnau, stwnshiau, cyfrineiriau) wedi'u cuddio (debugbar.ini SessionMask[]); dangosir popeth arall fel y'i storiwyd, data personol hefyd.</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>%count allwedd, %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>mawr</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>Mae'r sesiwn yn wag.</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>Ni ddechreuwyd sesiwn ar gyfer y cais hwn.</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Estyniad %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>Cnewyllyn ac eraill</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>Nid yw pob cofnod yn cael ei ddangos: mae gan y sesiwn fwy nag y gellir ei restru yma.</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>Nid yw %count allwedd wedi'u rhestru.</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>Ffrâm</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>Mae gwerthoedd sy'n edrych fel tocyn (JSON Web Token, manylion adnabod pennyn Authorization, allwedd breifat, testun hecs neu hap hir) hefyd wedi'u cuddio, beth bynnag yw enw eu hallwedd (debugbar.ini SessionValueMask[]).</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>Mae'r allwedd yn edrych fel cyfrinach (debugbar.ini SessionMask[]).</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>Mae'r gwerth yn edrych fel tocyn.</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>O dan allwedd wedi'i chuddio.</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>Y sesiwn fel testun, wedi'i guddio fel y tabl.</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>Mae'r sesiwn yn fwy na %size (debugbar.ini SessionWarnBytes): mae pob cais gan y defnyddiwr hwn yn darllen y sesiwn gyfan, ac yn ei hysgrifennu pan newidiodd.</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>Mae PHP yn cadw'r sesiwn hon mewn ffeiliau ac yn cloi'r ffeil am y cais cyfan: mae ceisiadau gan yr un defnyddiwr (sawl tab, galwadau AJAX) yn aros am ei gilydd.</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>Cadw ar agor</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>Yn fwy na %size (debugbar.ini SessionWarnBytes): mae pob cais gan y defnyddiwr hwn yn darllen y sesiwn gyfan.</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>Darllenwyd %hits o %count o'r storfa</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>Ni rendrwyd unrhyw dempled (nid yw golwg a ddarllenwyd o storfa'r golygon yn rendro dim).</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>Neilltuadau rôl</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>Rolau a pholisïau</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>yn wahanol i ymwelwyr dienw</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>yr un fath ag ymwelwyr dienw</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70304,6 +71287,14 @@ Bydd angen i chi newid dosbarth y nod gan ddefnyddio'r swyddogaeth cyfnewid.</tr
     <message>
         <source>not sent</source>
         <translation>heb ei anfon</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Mae cronswydd yr hysbysiadau yn cofnodi pob tro y mae&apos;n rhedeg yma. Ychwanegwch y rhan frequent at y crontab, neu rhedwch exp:notification:run --apply.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>Defnyddiwch y consol: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -76022,6 +77013,98 @@ Bydd angen i chi newid dosbarth y nod gan ddefnyddio'r swyddogaeth cyfnewid.</tr
         <source>This topic is not Released; readers do not see it.</source>
         <translation>Nid yw'r pwnc hwn wedi'i ryddhau; nid yw darllenwyr yn ei weld.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Mudiadau</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Newidiadau i&apos;r gosodiad wedi&apos;u cadw fel ffeiliau: eu cyflwr, y rhediadau, rhedeg a dychwelyd.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Cyhoeddi copi statig o wefan i GitHub Pages neu unrhyw westeiwr git.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Cyhoeddi statig</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>Yn yr adolygiad</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>Mae darllenwyr yn gweld y dudalen hon.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>Wedi'i chuddio rhag darllenwyr nes bod rhywun yn ei rhyddhau.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>Mae'r dudalen yn yr adolygiad nawr. Mae wedi'i chuddio rhag darllenwyr nes iddi gael ei rhyddhau.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>Mae'r dudalen wedi'i rhyddhau: mae darllenwyr yn ei gweld nawr.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>Mae'r dudalen yn ddrafft eto. Mae wedi'i chuddio rhag darllenwyr nes iddi gael ei hadolygu a'i rhyddhau.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>Rhyddhau nawr</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>Dim ond defnyddiwr sydd â'r rôl %role ac na ysgrifennodd y fersiwn hon all ei rhyddhau.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>Pynciau cymorth sy'n aros i gael eu rhyddhau</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>Mae'n ei chuddio rhag darllenwyr nes iddi gael ei rhyddhau eto.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>Bydd adolygydd yn ei gwirio nesaf. Nid yw darllenwyr yn ei gweld eto.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>Mae darllenwyr yn ei gweld ar unwaith.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>Mae'n ei thynnu allan o'r adolygiad ar gyfer rhagor o waith. Nid yw darllenwyr yn ei gweld.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>Cuddio'r dudalen hon rhag darllenwyr?</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>Anfon y dudalen hon yn ôl i'r drafft?</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>Nid yw darllenwyr yn gweld %title mwyach nes bod rhywun yn ei rhyddhau eto.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>Mae %title yn mynd yn ôl i'r drafft ar gyfer rhagor o waith. Nid yw darllenwyr yn ei gweld o hyd, ac mae angen adolygiad newydd arni cyn iddi gael ei rhyddhau.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Canslo</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>Mae'r pynciau hyn yn yr adolygiad. Mae darllenwyr yn eu gweld cyn gynted ag y bydd rhywun na ysgrifennodd y fersiwn gyfredol yn eu rhyddhau.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76477,6 +77560,46 @@ Bydd angen i chi newid dosbarth y nod gan ddefnyddio'r swyddogaeth cyfnewid.</tr
         <source>None.</source>
         <translation>Dim.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>gydag ap dilysu</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>gyda chod drwy e-bost</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>gyda chod adfer</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>gydag allwedd pas</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>gyda chyfrif allanol</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Gweithgarwch diogelwch</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>Yn cael ei ddangos fel ei rwydwaith; mae&apos;r cyfeiriad yn cael ei gadw fel y mae gosodiadau diogelu data&apos;r wefan yn ei ddweud.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Heb ei gofnodi</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Lleoliad</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>bras</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76720,6 +77843,42 @@ Bydd angen i chi newid dosbarth y nod gan ddefnyddio'r swyddogaeth cyfnewid.</tr
         <source>Manage devices</source>
         <translation>Rheoli dyfeisiau</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>gydag ap dilysu</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>gyda chod drwy e-bost</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>gyda chod adfer</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>gydag allwedd pas</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>gyda chyfrif allanol</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Gweithgarwch diogelwch</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Heb ei gofnodi</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Lleoliad</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>bras</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76799,6 +77958,14 @@ Bydd angen i chi newid dosbarth y nod gan ddefnyddio'r swyddogaeth cyfnewid.</tr
         <source>View the sessions of this user</source>
         <translation>Gweld sesiynau'r defnyddiwr hwn</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>Mae eich cyfrif %login ar %site newydd gael ei ddefnyddio i fewngofnodi o le nad yw wedi mewngofnodi ohono&apos;n ddiweddar:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>Lleoliad bras</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76837,6 +78004,10 @@ Bydd angen i chi newid dosbarth y nod gan ddefnyddio'r swyddogaeth cyfnewid.</tr
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%browser ar %os</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Adroddiad mewngofnodi</translation>
     </message>
 </context>
 <context>
@@ -77045,6 +78216,82 @@ Bydd angen i chi newid dosbarth y nod gan ddefnyddio'r swyddogaeth cyfnewid.</tr
         <source>The passkey could not be checked. Please try again.</source>
         <translation>Nid oedd modd gwirio'r allwedd pas. Rhowch gynnig arni eto.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>Ni all cyfrifon sy&apos;n mewngofnodi gydag allweddi pas yn unig ddefnyddio cyfrinair yma: dewiswch &quot;Mewngofnodi gydag allwedd pas&quot;.</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>Allweddi pas %login</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>Yr allweddi pas y mae&apos;r cyfrif hwn yn mewngofnodi gyda nhw. Dirymwch un sydd ar ddyfais a gollwyd neu a gafodd ei dwyn: ni all fewngofnodi mwyach. Mae&apos;r perchennog yn ychwanegu rhai newydd ei hun.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>Mae angen allwedd pas ar eich cyfrif</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>Ychwanegu allwedd pas at eich cyfrif</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>Ychwanegwch allwedd pas i barhau. Yna byddwch yn mewngofnodi gyda hi yn lle cyfrinair yn unig.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>Mae mewngofnodi gydag allwedd pas yn gyflymach ac yn fwy diogel na chyfrinair. Ychwanegwch un nawr, neu parhewch hebddi.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>Nid nawr</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>Dirymu&apos;r allwedd pas &quot;%name&quot;?</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>Ni all fewngofnodi i&apos;r cyfrif hwn mwyach. Os mai hon oedd yr olaf, mae&apos;r perchennog yn mewngofnodi gyda&apos;r cyfrinair, neu rydych chi&apos;n gosod un newydd.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>Dirymu&apos;r allwedd pas</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>Dirymu</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>Nid oes gan y cyfrif hwn allwedd pas.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>Dilyswr</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Anhysbys</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>Eich allwedd pas olaf: ychwanegwch un arall cyn ei thynnu.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>Mae&apos;r cyfrif hwn yn mewngofnodi gydag allweddi pas yn unig (polisi allweddi pas): heb yr un ar ôl, mae&apos;n mewngofnodi gyda&apos;i gyfrinair eto.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>Dyma eich allwedd pas olaf ac ni all eich cyfrif fewngofnodi heb un. Ychwanegwch allwedd pas arall yn gyntaf.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>Mae&apos;r allwedd pas &quot;%name&quot; wedi&apos;i dirymu. Ni all fewngofnodi i&apos;r cyfrif hwn mwyach.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77144,6 +78391,34 @@ Bydd angen i chi newid dosbarth y nod gan ddefnyddio'r swyddogaeth cyfnewid.</tr
         <source>Code from your authenticator app</source>
         <translation>Cod o'ch ap dilysu</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>Rydych ar fin dileu data am byth neu glirio cofnod.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>Eich cyfrinair ac allwedd pas</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>Eich cyfrinair a chod o&apos;ch ap dilysu</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>Neu:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>Ni all y porwr hwn ddefnyddio allweddi pas. Defnyddiwch ffordd arall, neu borwr arall.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>Pan fyddwch yn parhau, bydd eich porwr yn gofyn am un o&apos;ch allweddi pas.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>Parhau gydag allwedd pas</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77234,6 +78509,70 @@ Bydd angen i chi newid dosbarth y nod gan ddefnyddio'r swyddogaeth cyfnewid.</tr
     <message>
         <source>Setup</source>
         <translation>Gosod</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>Newid eich cyfrinair, cyfeiriad e-bost, allweddi pas, mewngofnodi dau gam, codau adfer neu allweddi API eich hun, ac allgofnodi o&apos;ch dyfeisiau eraill.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>Creu a golygu defnyddwyr, eu cyfrineiriau a&apos;u dyfeisiau, gosodiadau cyfrif, cymeradwyo neu wrthod cyfrifon defnyddwyr newydd, neilltuo rolau a golygu polisïau.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>Dileu data</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>Gwagio&apos;r sbwriel, tynnu eitemau ohono a thynnu sawl eitem ar unwaith.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>Tynnu, cyhoeddi a chadw cynnwys</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>Tynnu cynnwys (hefyd i&apos;r sbwriel), cyhoeddi a chadw drafft, gofynnir pan anfonir y ffurflen. Wedi&apos;i ddiffodd yn ddiofyn.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>Cyn gweithred sensitif, mae defnyddiwr sydd wedi mewngofnodi yn cadarnhau pwy ydyw eto: gyda&apos;i gyfrinair ac allwedd pas, neu heb allwedd pas gyda&apos;i gyfrinair a chod ei ap dilysu. Dim ond y tudalennau gwe sy&apos;n gofyn: nid yw&apos;r rhyngwyneb REST, SOAP, WebDAV, mewngofnodi expservices na&apos;r llinell orchymyn byth yn gofyn.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>Ble mae&apos;r gosodiadau&apos;n berthnasol</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>Gosodiadau ar gyfer</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Pob mynediad i&apos;r wefan</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>Mynediad i&apos;r wefan %name</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Agor</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>Pwy a holir: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>Ticiwch grwpiau defnyddwyr i ofyn i&apos;w haelodau yn unig (golygyddion, er enghraifft). Dim wedi&apos;i dicio: pob defnyddiwr.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>Cadwyd i settings/override/site.ini.append.php, ar gyfer pob mynediad i&apos;r wefan. Wrth gadw, gofynnir i chi gadarnhau mai chi sydd yno.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>Cadwyd i settings/siteaccess/%name/site.ini.append.php. Mae gwerth yn settings/override yn cael blaenoriaeth drosto. Wrth gadw, gofynnir i chi gadarnhau mai chi sydd yno.</translation>
     </message>
 </context>
 <context>
@@ -77336,6 +78675,6822 @@ Bydd angen i chi newid dosbarth y nod gan ddefnyddio'r swyddogaeth cyfnewid.</tr
     <message>
         <source>Open the page</source>
         <translation>Agor y dudalen</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from i %to o %count</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>Enw mewngofnodi neu ID defnyddiwr: y cyfrif yr oedd y digwyddiad yn ymwneud ag ef neu&apos;r defnyddiwr a weithredodd.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Cyfrif</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Gweithred</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>Ar ôl</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>Unrhyw ganlyniad</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Cyn</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Gan</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Clirio</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Wedi&apos;i wneud</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>Cedwir digwyddiadau am %days diwrnod.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>Cedwir digwyddiadau nes iddynt gael eu tynnu â llaw.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Digwyddiadau</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>Pob gweithred</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>Pob digwyddiad ar gyfer y cyfrif hwn</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>Allforio&apos;r rhestr fel CSV (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Methwyd</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>O</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>Cyfyngu&apos;r rhestr</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>Nid oes digwyddiad yn cyfateb.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Fesul tudalen</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>Mae cofnodi wedi&apos;i ddiffodd yn audit.ini ([UserAuditSettings] UserAudit); mae&apos;r rhestr yn dangos yr hyn a gofnodwyd cyn hynny.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Gwrthodwyd</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Canlyniad</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Dangos</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>Mae tabl y log archwilio defnyddwyr ar goll. Crëwch ef gyda php update/common/scripts/6.0/createuseraudittable.php; tan hynny mae&apos;r ffeiliau archwilio yn cadw pob digwyddiad.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>Mae angen cronfa ddata SQL ar y dudalen hon; nid yw ar gael ar MongoDB. Mae&apos;r ffeiliau archwilio yn cadw pob digwyddiad.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>I</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Log archwilio defnyddwyr</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Defnyddiwr</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Pryd</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Ble</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>Pwy a newidiodd, a greodd, a alluogodd, a analluogodd, a symudodd neu a dynnodd pa gyfrif, pwy a fewngofnododd neu a wrthodwyd, a pha rolau a neilltuwyd: un llinell fesul digwyddiad, gyda&apos;r meysydd cyn ac ar ôl. Ni chofnodir cyfrineiriau na chyfrinachau byth.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>grŵp</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>y system</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>anhysbys</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>Diogelu eich cyfrif</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>Defnyddiwyd cod adfer i fewngofnodi i&apos;ch cyfrif %login ar %site.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>Defnyddiwyd cod adfer</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Cyfrif</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>Cyfeiriad bras</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>Gofynnwch am gyfrinair newydd i fewngofnodi eto, neu cysylltwch â gweinyddwyr y wefan.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>Gofyn am gyfrinair newydd</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>Mae pob cod adfer yn gweithio unwaith. Os ydych wedi colli eich ffôn, gosodwch eich ap dilysu eto a chadwch y codau adfer newydd mewn lle diogel.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>Ymdrechion i fewngofnodi a fethodd ar eich cyfrif</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>O hyn ymlaen, bydd mewngofnodi&apos;n gofyn am god yn ogystal â&apos;ch cyfrinair. Os mai chi wnaeth hyn, nid oes angen i chi wneud dim.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>Os mai chi oedd yno a&apos;ch bod wedi anghofio eich cyfrinair, gofynnwch am un newydd. Os nad chi, dewiswch gyfrinair cryfach a throwch fewngofnodi dau gam ymlaen.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>Os nad chi oedd yno, efallai bod rhywun yn gwybod eich cyfrinair: newidiwch ef nawr a gwiriwch ble mae eich cyfrif wedi mewngofnodi.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>Codau adfer sydd ar ôl</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>Adolygu eich dyfeisiau</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>Rhybudd diogelwch</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>Ceisiodd rhywun fewngofnodi i&apos;ch cyfrif %login ar %site gyda chyfrinair anghywir sawl gwaith yn olynol (nifer: %count).</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>Bu digwyddiad diogelwch ar eich cyfrif %login ar %site.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>Rhybudd diogelwch am eich cyfrif yw hwn. Mae&apos;n cael ei anfon ar gyfer pob newid o&apos;r fath ac nid oes modd ei ddiffodd.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Amser</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>Diffoddwyd mewngofnodi dau gam ar gyfer eich cyfrif %login ar %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>Diffoddwyd mewngofnodi dau gam</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>Trowyd mewngofnodi dau gam ymlaen ar gyfer eich cyfrif %login ar %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>Trowyd mewngofnodi dau gam ymlaen</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>Cafodd eich cyfrif %login ar %site ei gloi ar ôl gormod o fewngofnodion a fethodd.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>Mae eich cyfrif bellach wedi&apos;i ddiogelu gan eich cyfrinair yn unig. Os nad chi wnaeth hyn, trowch fewngofnodi dau gam ymlaen eto ar ôl i chi newid eich cyfrinair.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>Cafodd eich cyfrif ei gloi</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>Ychwanegwyd allwedd pas at eich cyfrif %login ar %site.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>Gall unrhyw un sydd â&apos;r allwedd pas hon fewngofnodi i&apos;ch cyfrif heb eich cyfrinair. Os na wnaethoch chi ei hychwanegu, tynnwch hi o dan Allweddi pas a newidiwch eich cyfrinair.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>Tynnwyd allwedd pas o&apos;ch cyfrif %login ar %site.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>Ni all fewngofnodi i&apos;ch cyfrif mwyach. Os na wnaethoch chi ei thynnu, gwiriwch eich allweddi pas a&apos;ch dyfeisiau.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>Ychwanegwyd allwedd pas at eich cyfrif</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>Tynnwyd allwedd pas o&apos;ch cyfrif</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>Gweithgarwch diogelwch</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Gweithgarwch diogelwch y defnyddiwr %name</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Mewngofnodwyd</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Ymdrech i fewngofnodi a fethodd</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Allgofnodwyd</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Allgofnodwyd sesiynau</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Mewngofnodi o ddyfais newydd</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Mewngofnodi o leoliad newydd</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Cadarnhawyd pwy ydych (&quot;Cadarnhewch mai chi sydd yno&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Methodd y gwiriad hunaniaeth</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Mewngofnodwyd gydag allwedd pas</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Methodd mewngofnodi gydag allwedd pas</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Gwrthodwyd mewngofnodi: cod dau gam ar goll neu&apos;n anghywir</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Cod dau gam anghywir</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Cyfrif wedi&apos;i gloi ar ôl mewngofnodion a fethodd</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Cyfrif wedi&apos;i ddatgloi</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Newidiwyd y cyfrinair</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Methodd newid y cyfrinair</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Ailosodwyd y cyfrinair</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Gofynnwyd am gyfrinair newydd</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Newidiwyd y cyfeiriad e-bost</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Newidiwyd yr enw defnyddiwr</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Trowyd mewngofnodi dau gam ymlaen</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Diffoddwyd mewngofnodi dau gam</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Defnyddiwyd cod adfer</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Codau adfer newydd</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Gwnaed cyfrinair ap</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Dirymwyd cyfrinair ap</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Ychwanegwyd allwedd pas</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Tynnwyd allwedd pas</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Galluogwyd y cyfrif</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Analluogwyd y cyfrif</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Y cyfan</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Mewngofnodion a sesiynau</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Newidiadau i&apos;r cyfrif</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Angen sylw</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>gennych chi</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>gan y defnyddiwr</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>gan %login</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>Dull</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>Porwr</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>System weithredu</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Dyfais</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>Lle</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>Gwlad</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Sesiynau</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>Pa rai</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>Sianel</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Ymdrechion a fethodd</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>Codau ar ôl</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>Trinydd mewngofnodi</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Gweithgarwch diogelwch</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Gweithgarwch diogelwch y defnyddiwr %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Mewngofnodion a newidiadau i ddiogelwch eich cyfrif. Os gwelwch rywbeth na wnaethoch chi, newidiwch eich cyfrinair ac allgofnodwch y dyfeisiau nad ydych yn eu hadnabod.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>Mewngofnodion a newidiadau i ddiogelwch y cyfrif hwn.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Eich dyfeisiau</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Newid cyfrinair</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>Yn ôl i&apos;r cyfrif</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>Nid yw&apos;r gweithgarwch diogelwch yn cael ei gofnodi</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>Mae&apos;n cael ei ddarllen o log archwilio defnyddwyr, ac mae ei dabl expuser_audit ar goll neu heb ei gefnogi ar y gronfa ddata hon. Rhedwch php update/common/scripts/6.0/createuseraudittable.php, neu ddiweddariad cronfa ddata fersiwn 6.0.15.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Y dyddiau diwethaf: %days</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Mewngofnodion yn y dyddiau diwethaf (%days)</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>Gweithgarwch diogelwch diweddar</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Dangos</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>methodd</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>gwrthodwyd</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Dim gweithgarwch diogelwch wedi&apos;i gofnodi eto.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>Mae digwyddiadau diogelwch yn cael eu cadw am nifer o ddyddiau: %days.</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>Mae digwyddiadau diogelwch yn cael eu cadw nes bydd gweinyddwr yn eu tynnu.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Llwytho fy nata mewngofnodi i lawr</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Eich sesiynau a&apos;ch digwyddiadau diogelwch fel ffeil JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Nid yw sesiynau'n cael eu cofnodi ar y wefan hon, felly nid oedd modd allgofnodi unrhyw ddyfais arall. Newidiwch eich cyfrinair nawr.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>Cafodd %count sesiwn arall eu hallgofnodi. Nawr newidiwch eich cyfrinair.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Nid oedd unrhyw ddyfais arall wedi mewngofnodi. Nawr newidiwch eich cyfrinair.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Diolch. Mae'r digwyddiad wedi'i nodi fel eich un chi.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Nid oes angen ateb i'r digwyddiad hwnnw.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Roedd y dudalen wedi dod i ben. Ni newidiwyd dim; rhowch gynnig arall arni.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Diogelu eich cyfrif</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Os nad chi oedd rhywbeth yma, allgofnodwch bob dyfais arall, yna dewiswch gyfrinair newydd. Mae dyfeisiau a arhosodd wedi mewngofnodi gyda Cofio fi yn cael eu hallgofnodi hefyd.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Mae pob dyfais heblaw hon yn cael ei hallgofnodi ar ei chais nesaf. Yna byddwch yn dewis cyfrinair newydd.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Ie, allgofnodi'r dyfeisiau eraill</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Ai chi oedd hwn?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Ie, fi oedd e</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Na, diogelu fy nghyfrif</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Mewngofnodwyd</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Ymdrech i fewngofnodi a fethodd</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Allgofnodwyd</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Allgofnodwyd sesiynau</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Mewngofnodi o ddyfais newydd</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Mewngofnodi o leoliad newydd</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Cadarnhawyd pwy ydych (&quot;Cadarnhewch mai chi sydd yno&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Methodd y gwiriad hunaniaeth</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Mewngofnodwyd gydag allwedd pas</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Methodd mewngofnodi gydag allwedd pas</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Gwrthodwyd mewngofnodi: cod dau gam ar goll neu&apos;n anghywir</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Cod dau gam anghywir</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Cyfrif wedi&apos;i gloi ar ôl mewngofnodion a fethodd</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Cyfrif wedi&apos;i ddatgloi</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Newidiwyd y cyfrinair</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Methodd newid y cyfrinair</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Ailosodwyd y cyfrinair</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Gofynnwyd am gyfrinair newydd</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Newidiwyd y cyfeiriad e-bost</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Newidiwyd yr enw defnyddiwr</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Trowyd mewngofnodi dau gam ymlaen</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Diffoddwyd mewngofnodi dau gam</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Defnyddiwyd cod adfer</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Codau adfer newydd</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Gwnaed cyfrinair ap</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Dirymwyd cyfrinair ap</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Ychwanegwyd allwedd pas</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Tynnwyd allwedd pas</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Galluogwyd y cyfrif</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Analluogwyd y cyfrif</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Y cyfan</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Mewngofnodion a sesiynau</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Newidiadau i&apos;r cyfrif</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Angen sylw</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Gweithgarwch diogelwch</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Gweithgarwch diogelwch y defnyddiwr %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Mewngofnodion a newidiadau i ddiogelwch eich cyfrif. Os gwelwch rywbeth na wnaethoch chi, newidiwch eich cyfrinair ac allgofnodwch y dyfeisiau nad ydych yn eu hadnabod.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Eich dyfeisiau</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Newid cyfrinair</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>Nid yw&apos;r gweithgarwch diogelwch yn cael ei gofnodi ar y wefan hon eto.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Mewngofnodion yn y dyddiau diwethaf (%days)</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Ymdrechion a fethodd</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Dim gweithgarwch diogelwch wedi&apos;i gofnodi eto.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Llwytho fy nata mewngofnodi i lawr</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Eich sesiynau a&apos;ch digwyddiadau diogelwch fel ffeil JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Nid yw sesiynau'n cael eu cofnodi ar y wefan hon, felly nid oedd modd allgofnodi unrhyw ddyfais arall. Newidiwch eich cyfrinair nawr.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>Cafodd %count sesiwn arall eu hallgofnodi. Nawr newidiwch eich cyfrinair.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Nid oedd unrhyw ddyfais arall wedi mewngofnodi. Nawr newidiwch eich cyfrinair.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Diolch. Mae'r digwyddiad wedi'i nodi fel eich un chi.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Nid oes angen ateb i'r digwyddiad hwnnw.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Roedd y dudalen wedi dod i ben. Ni newidiwyd dim; rhowch gynnig arall arni.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Diogelu eich cyfrif</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Os nad chi oedd rhywbeth yma, allgofnodwch bob dyfais arall, yna dewiswch gyfrinair newydd. Mae dyfeisiau a arhosodd wedi mewngofnodi gyda Cofio fi yn cael eu hallgofnodi hefyd.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Mae pob dyfais heblaw hon yn cael ei hallgofnodi ar ei chais nesaf. Yna byddwch yn dewis cyfrinair newydd.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Ie, allgofnodi'r dyfeisiau eraill</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Ai chi oedd hwn?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Ie, fi oedd e</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Na, diogelu fy nghyfrif</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>Cyfrinair</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>Cyfrinair a chod dau gam</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>Rhyngwyneb REST</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>Rhyngwyneb SOAP</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>Mewngofnodi unigol</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>Wedi mewngofnodi cyn i sesiynau gael eu cofnodi</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Adroddiad mewngofnodi</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>Pwy sydd wedi mewngofnodi i&apos;r wefan, pa mor aml y mae cyfrifon yn mewngofnodi ac yn methu, ac allgofnodi defnyddiwr ym mhobman. Mae&apos;n gweithio gyda phob trinydd sesiynau.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>Allgofnodwyd y sesiwn. Rhaid i&apos;r ddyfais fewngofnodi eto.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>Allgofnodwyd %login o sesiynau (nifer: %count).</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>Nid oedd gan %login unrhyw sesiwn yn rhedeg.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>Nid oes gan unrhyw gyfrif yr ID, yr enw defnyddiwr na&apos;r cyfeiriad e-bost hwnnw.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>Dyma&apos;r sesiwn rydych yn ei defnyddio. I&apos;w dod i ben, allgofnodwch.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>Roedd y sesiwn honno eisoes wedi dod i ben.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Roedd y dudalen wedi dod i ben. Ni newidiwyd dim; rhowch gynnig arall arni.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>Nid yw sesiynau&apos;n cael eu cofnodi ar y wefan hon (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>Mae&apos;r tabl expuser_session ar goll</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>Bydd sesiynau&apos;n cael eu cofnodi unwaith y bydd wedi&apos;i greu: php update/common/scripts/6.0/createusersessiontable.php, neu ddiweddariad cronfa ddata fersiwn 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>Nawr a heddiw</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>Sesiynau&apos;n rhedeg</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>Defnyddwyr wedi mewngofnodi</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>Mewngofnodion heddiw</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>Ymdrechion a fethodd heddiw</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>Allgofnodi defnyddiwr ym mhobman</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>Mae pob sesiwn y cyfrif yn dod i ben ar ei chais nesaf, gan gynnwys y rhai a gedwir gan &quot;Cofio fi&quot;. Defnyddiwch hyn pan allai cyfrif fod yn y dwylo anghywir; yna ailosodwch ei gyfrinair.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>ID defnyddiwr, enw defnyddiwr neu gyfeiriad e-bost</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>Allgofnodi ym mhobman</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>Wedi mewngofnodi nawr</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>Dangosir y rhai a ddefnyddiwyd fwyaf diweddar, hyd at %limit.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Defnyddiwr</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Dyfais</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Cyfeiriad</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>Mewngofnodwyd</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>Gweithgar ddiwethaf</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Gweithredoedd</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>Y ddyfais hon</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Heb ei gofnodi</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>Allgofnodi</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>Nid oes unrhyw sesiwn wedi mewngofnodi.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Y dyddiau diwethaf: %days</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>Mae mewngofnodion ac ymdrechion a fethodd yn cael eu cyfrif o log archwilio defnyddwyr, nad yw yno; mae&apos;r sesiynau newydd yn cael eu cyfrif.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>Diwrnod</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>Mewngofnodion</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Ymdrechion a fethodd</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>Sesiynau newydd</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>Trinydd sesiynau: %handler. Mae&apos;r sesiynau&apos;n cael eu darllen o&apos;r tabl expuser_session, felly mae&apos;r adroddiad yn gweithio gyda phob trinydd.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>Gweithgarwch amheus yn ystod y %hours awr diwethaf</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>Methodd un rhwydwaith fewngofnodi i %accounts cyfrif (%count ymgais)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Cyfrif wedi'i gloi ar ôl mewngofnodi aflwyddiannus</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>%count mewngofnodiad aflwyddiannus ar un cyfrif</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>Wedi mewngofnodi o %count gwlad ar yr un pryd</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Gweithgarwch diogelwch</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Sesiynau</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>Darllenir mewngofnodion aflwyddiannus o log archwilio'r defnyddwyr, nad yw ar gael yma.</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>Dim byd amheus: dim cyfrif â mewngofnodion aflwyddiannus dro ar ôl tro, dim rhwydwaith yn rhoi cynnig ar sawl cyfrif, dim cyfrif wedi mewngofnodi o sawl gwlad.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>Rhybudd diogelwch am eich cyfrif</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>Bu digwyddiad diogelwch ar eich cyfrif %login: %event. Os nad chi oedd yno, diogelwch eich cyfrif yn %url.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Gosod</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>Gofynnwch i gynnwys y wefan hon am yr union feysydd sydd eu hangen ar dudalen, mewn un cais. Mae'r sgema yn dilyn y dosbarthiadau cynnwys; mae pob ymholiad yn rhedeg gyda hawliau'r defnyddiwr sy'n ei anfon.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>Mae'r API GraphQL wedi'i ddiffodd yn y mynediad i'r wefan hwn. Trowch ef ymlaen yn graphql.ini: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>Nid yw'r llyfrgell GraphQL (webonyx/graphql-php 15) wedi'i gosod.</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>Pwynt terfyn</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>Llyfrgell</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>Sgema</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>%count dosbarth cynnwys, sgema %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>Ymholiad</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>Newidynnau (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Rhedeg</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>Ateb</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>Yn rhedeg…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>Nid oedd modd darllen yr ateb.</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>Mae'r ymholiad yn rhedeg gyda'ch hawliau chi, wedi mewngofnodi gyda'r sesiwn hon.</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%count mewn %seconds e</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>dim terfyn</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>Dyfnder</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>Cymhlethdod</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>Eitemau fesul rhestr</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (rhagosodiad %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>Ceisiadau fesul defnyddiwr neu allwedd</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>Ceisiadau fesul cyfeiriad dienw</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>Mewnsylliad</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>Ymholiadau wedi'u cadw yn unig</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>Ymholiad mwyaf</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>%bytes beit</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>Llwyth mwyaf</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>Nid oes mynediad i'r wefan %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>Mae'r mwtaniadau wedi'u troi ymlaen yn %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>Mae'r mwtaniadau wedi'u diffodd yn %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>Mae'r API GraphQL wedi'i droi ymlaen yn %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>Mae'r API GraphQL wedi'i ddiffodd yn %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>Nid oedd modd ysgrifennu'r gosodiadau: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>Cliriwyd y storfa ymatebion: tynnwyd %count ateb.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>Ticiwch y blwch wrth ymyl yr ymholiad i'w dynnu.</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>Nid oedd modd tynnu'r ymholiad: caiff ymholiad a ddaw mewn cyfeiriadur o PersistedQueryDirectoryList[] ei dynnu gyda'i ffeil.</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>Tynnwyd yr ymholiad wedi'i gadw.</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>Mwtaniadau</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>ymlaen</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>i ffwrdd</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Mynediadau i'r wefan</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>Lle mae'r API a'i fwtaniadau yn ateb. Mae'r botymau'n ysgrifennu graphql.ini, fel y mae ./console exp:graphql:enable ac exp:graphql:disable yn ei wneud.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Mynediad i'r wefan</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>API GraphQL</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Newid</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Diffodd</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>Diffodd mwtaniadau</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>Troi mwtaniadau ymlaen</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Troi ymlaen</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>Terfynau</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>graphql.ini [GraphQLSettings] y mynediad i'r wefan hwn.</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>Storfa ymatebion</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>Atebion ymholiadau wedi'u cadw, a gedwir fesul hawliau defnyddiwr ac a ddaw i ben pryd bynnag y cyhoeddir cynnwys.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Cyflwr</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>Atebion a gadwyd</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>%count ateb, %bytes beit</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>Cedwir am uchafswm o</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds e</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>Daeth i ben ddiwethaf</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>Clirio'r storfa ymatebion</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>Ymholiadau wedi'u cadw</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>Wedi'u storio gyda ./console exp:graphql:persist, neu gan gleientiaid (ymholiadau wedi'u cadw yn awtomatig); fe'u gelwir wrth enw neu SHA-256.</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>Enwau</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Maint</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Lle</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Tynnu</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>wedi'i gludo</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>wedi'i storio</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>Ie, tynnu'r ymholiad hwn</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>Dim ymholiad wedi'i gadw eto.</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>Allweddi API</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>Allweddi API personol gyda'r cwmpas graphql:read (ymholiadau) neu graphql:write (mwtaniadau). Crëwch a dirymwch nhw ar y dudalen Mynediad API, neu gyda ./console exp:graphql:keys.</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>Mynediad API</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>Pob allwedd</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>Allwedd</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Enw</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Perchennog</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>Cwmpasau</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>Defnyddiwyd ddiwethaf</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>gweithredol</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>wedi dod i ben</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>wedi'i dirymu</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>byth</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>Dim allwedd API gyda chwmpas GraphQL eto.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>Mae'r API GraphQL wedi'i ddiffodd yn y mynediad i'r wefan %siteaccess, sy'n dangos y dudalen hon; mae'r tabl isod yn dangos ble mae'n ateb.</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>Ar gyfer y mynediad i'r wefan %siteaccess, sy'n dangos y dudalen hon.</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>Webhooks</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>Mae pob digwyddiad y mae pwynt terfyn yn gofyn amdano (publish, update, trash, delete, move, hide, reveal, mutation) yn cael ei anfon ato, wedi'i lofnodi, gan y rhan cronjob graphqlwebhooks. Mae ./console exp:graphql:webhooks yn gwneud yr un peth â'r adran hon.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Digwyddiadau</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>pob un</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Pob mynediad i'r wefan</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>wedi torri</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>dim cyfrinach</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>Yn aros</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count wedi'u gadael</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>Danfoniad diwethaf</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Anfon prawf</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>Ie, tynnu'r webhook hwn</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>Dim webhook eto.</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>Ychwanegu webhook</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>Ychwanegu</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>Danfoniadau diweddar</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Amser</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Canlyniad</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>Tanysgrifiadau</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>Diweddariadau byw i gleientiaid: ffrwd ddigwyddiadau yn /api/graphql/subscribe, a WebSocket (graphql-transport-ws) ar Velocity. Dim ond i'r tanysgrifwyr sy'n cael darllen ei gynnwys y mae pob digwyddiad yn mynd.</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>Ar agor nawr</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>Uchafswm ar agor</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>%total i gyd, %user i bob defnyddiwr, %address i bob cyfeiriad</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>Tanysgrifiadau dienw</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>Hyd y ffrwd</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>Nid oedd modd ychwanegu'r webhook: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>Newidiwyd y webhook %name; mae ei gyfrinach lofnodi yn aros.</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>Nid oedd modd cadw'r gyfrinach lofnodi (Gosod &gt; Cyfrinachau).</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>Ychwanegwyd y webhook %name. Ei gyfrinach lofnodi, a ddangosir y tro hwn yn unig: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>Nid oes webhook %name.</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>Ni atebodd y webhook %name: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>Atebodd y webhook %name %status mewn %ms ms.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>Ticiwch y blwch wrth ymyl y webhook i'w dynnu.</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>Tynnwyd y webhook %name.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>Mae&apos;r API GraphQL wedi&apos;i ddiffodd yn y mynediad i&apos;r wefan hwn.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>Nid yw&apos;r llyfrgell GraphQL wedi&apos;i gosod.</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>Defnyddiwch GET neu POST.</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>Nid yw&apos;r corff yn wrthrych JSON.</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>Nid yw variables yn wrthrych JSON.</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>Nid yw extensions yn wrthrych JSON.</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>Anfonwch yr ymholiad gyda POST.</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>Nid oes ymholiad yn y cais.</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>Mae&apos;r ymholiad yn hirach na %max beit.</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>Gwall mewnol y gweinydd</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>Mae node angen union un o id, remoteId, path ac urlAlias.</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>Mae content angen union un o id a remoteId.</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>Nid yw cyrchwr after yn un a roddodd yr API hwn.</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>Nid oes alias delwedd %alias (image.ini [AliasSettings] AliasList[]).</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>Dim ond ymholiadau sydd wedi&apos;u cadw ar y gweinydd a dderbynnir yma: anfonwch id ymholiad sydd wedi&apos;i storio.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>Nid yw hash yr ymholiad wedi&apos;i gadw yn SHA-256.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>Nid yw hash yr ymholiad wedi&apos;i gadw yn cyfateb i&apos;r ymholiad.</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>Gormod o geisiadau: %limit ar y mwyaf mewn %window eiliad. Rhowch gynnig arall ymhen %reset eiliad.</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>Mae&apos;r ymholiad %depth lefel o ddyfnder; caniateir %max ar y mwyaf.</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>Mae gan yr ymholiad gymhlethdod o %complexity; caniateir %max ar y mwyaf.</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>Ni chaiff y cais hwn ddarllen y sgema (introspection).</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>Mae search angen testun neu hidlydd (classes, subtree, sections, publishedAfter, publishedBefore).</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>Nid yw %argument yn ddyddiad (ISO 8601, 2026-10-30).</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>Mae tag angen union un o id, remoteId a path.</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>Mae layout angen union un o id, identifier ac urlAlias.</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>Nid yw maes operations cais amlran yn un cais JSON.</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>Nid yw maes map cais amlran yn wrthrych JSON.</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>Nid oes ffeil %field yn y cais amlran.</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>Rhaid i lwybr yn y maes map ddechrau gyda variables.: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>Ni chyrhaeddodd y ffeil %name yn gyfan (gwall llwytho i fyny %error).</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>Mae'r ffeil %name yn fwy na %max beit.</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>Nid oedd modd gwirio'r ffeil %name.</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>Mae mwtaniadau wedi'u diffodd yn y mynediad i'r wefan hwn (graphql.ini [GraphQLSettings] MutationsEnabled).</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>Anfonwch fwtaniad gyda POST.</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>Mewngofnodwch i newid cynnwys.</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>Nid oes gan yr allwedd API y cwmpas %scope.</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>Mae mwtaniad gyda sesiwn angen tocyn ffurflen y sesiwn (pennyn X-CSRF-Token).</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>Mae uploadFromUrl wedi'i ddiffodd: nid yw graphql.ini [GraphQLSettings] UploadFromUrlHostList[] yn enwi unrhyw westeiwr.</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>Rhaid i'r cyfeiriad fod yn gyfeiriad https.</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>Nid yw'r gwesteiwr %host yn graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>Nid oedd modd nôl y ffeil.</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Math mewnbwn yn unig yw Upload.</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>Mae newidyn o'r math Upload yn derbyn ffeil o gais amlran.</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>Mae'r id pell %remoteId wedi'i gymryd.</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>Mae gan y cynnwys gyfieithiad yn %language eisoes: defnyddiwch updateContent.</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>Rhowch o leiaf un maes.</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>Nid oedd modd creu fersiwn newydd (mae gan y cynnwys ormod o ddrafftiau).</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>Nid yw fersiwn %version yn ddrafft.</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>Mae deleteContent angen union un o id a nodeId.</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>Ni ellir symud lleoliad o dan ei hun.</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>Mae gan y cynnwys leoliad o dan %parentId eisoes.</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>Nid oedd modd storio gwerth y maes %field.</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>Nid oes iaith cynnwys %language.</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>Nid oes dosbarth cynnwys %class yn y sgema.</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>Nid yw'r cynnwys yno, neu ni chewch ei ddarllen.</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>Ni chewch wneud hyn i'r cynnwys hwn.</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>Nid oes gan y dosbarth %class faes %field y caniateir ysgrifennu iddo.</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>Mae'r maes %field wedi'i roi ddwywaith.</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>Mae'r maes %field yn derbyn ffeil: anfonwch hi fel upload (cais amlran).</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>Nid yw'r maes %field yn derbyn ffeil.</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>Mae'r maes %field angen gwerth.</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>Mae'r fformat %format ar gyfer meysydd testun cyfoethog yn unig; mae %field yn derbyn ei werth fel y mae (RAW).</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>Mae angen y maes %field.</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>Nid oedd modd darllen yr HTML.</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>Mae content yn derbyn version gydag id yn unig.</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>Nid yw'r tocyn rhagolwg yn ddilys neu mae wedi dod i ben.</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>Nid yw'n darddiad (https://host neu https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>Nid yw'n gwmpas yr API GraphQL: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>Anfonwch danysgrifiadau i /api/graphql/subscribe (ffrwd ddigwyddiadau neu WebSocket).</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>Nid yw'r cais yn enwi unrhyw weithred o'r ddogfen.</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>Mae tanysgrifiad yn gofyn am union un maes.</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>Mae gormod o danysgrifiadau ar agor; rhowch gynnig arall yn nes ymlaen.</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>Mae gennych %max tanysgrifiad ar agor, yr uchafswm a ganiateir.</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>Mae gan eich cyfeiriad %max tanysgrifiad ar agor, yr uchafswm a ganiateir.</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>Mae tanysgrifiadau wedi'u diffodd yn y mynediad i'r wefan hwn.</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>Mewngofnodwch i danysgrifio (tocyn neu allwedd API bersonol).</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>Anfonwch fwtaniadau i /api/graphql.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>Mudiadau</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Nid oedd modd darllen y statws: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Nid yw tablau&apos;r mudiadau&apos;n bodoli eto: mae ./console exp:upgrade --apply yn eu creu.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>Methodd %count mudiad</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>Mae rhediad ar y gweill, wedi&apos;i gychwyn gan %user</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>Mae&apos;r gosodiad wedi&apos;i gloi: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Yn aros</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Wedi methu</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>Amddifad</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Rhediad olaf</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>dim un eto</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>Pob mudiad</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>Rhediad efelychiedig</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>Rhediad prawf</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>Rhedodd y mudiadau sy&apos;n aros mewn trafodiad a ddychwelwyd wedyn: ni chadwyd dim. Isod mae&apos;r hyn a newidiodd pob un yn y gronfa ddata.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>Beth fyddai rhediad yn ei wneud nawr. Nid oes dim yn cael ei newid: mae pob mudiad sy&apos;n aros yn rhestru&apos;r newidiadau y byddai&apos;n eu gwneud, a&apos;r rhediad beth fyddai&apos;n ei wneud cyn ac ar ôl.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>Efelychu</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Rhedeg</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>Methodd y rhediad prawf: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>Mae efelychiad angen PostgreSQL neu SQLite, y gellir dychwelyd eu newidiadau sgema; ar y gronfa ddata hon, y cynllun isod yw&apos;r hyn y byddai rhediad yn ei wneud.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>Y mudiadau</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>Mudiad</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Cyflwr</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>Beth fyddai&apos;n ei wneud</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>Efelychiad: %result mewn %ms ms</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>Dim mudiad eto.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>Cyn ac ar ôl y rhediad</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>Ciplun cyn</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>yn cael ei dynnu, a&apos;i adfer pan fydd mudiad yn methu</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>i ffwrdd</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>Ciplun ar ôl</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>yn cael ei dynnu pan lwyddodd y rhediad</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>%total mudiad: %pending yn aros, %done wedi&apos;u gwneud, %failed wedi methu.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>Hanes y mudiadau</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>Pob rhediad gyda&apos;i ddefnyddiwr, ei amgylchedd, ei gipluniau a&apos;r hyn a ymrwymwyd, a nodwyd ac a wthiwyd. Gellir ailgychwyn rhediad a fethodd neu a dorrwyd; gellir dadwneud rhediad sydd â chiplun wedi&apos;i dynnu cyn iddo.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>Nid oedd modd darllen y rhediadau: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Nid yw tablau&apos;r mudiadau&apos;n bodoli eto: mae ./console exp:upgrade --apply yn eu creu.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Dangos</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Y cyfan</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>Rhediadau</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Dechreuwyd</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Gan</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>Cipluniau</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Ystorfa</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Gweithredoedd</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>cyn</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>ar ôl</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>gwthio: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>Ailgychwyn</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Dychwelyd</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>Dim rhediad yn y cyflwr hwn.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>Dechreuwyd yma</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>Rhediadau, ailgychwyniadau a dychweliadau a ddechreuwyd ar y tudalennau hyn, gydag adroddiad pob un.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Beth</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Canlyniad</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Dychweliad</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>Dychwelyd %target</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>Rhediad %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Beth wnaeth y rhediad, ei gofnod a&apos;i log. Mae rhediad a ddechreuwyd yma yn parhau yn y cefndir pan gaiff y dudalen hon ei chau; agorwch y dudalen eto i&apos;w ddilyn.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>Ailgychwyn y rhediad hwn</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>Dychwelyd y rhediad hwn</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>Nid oedd modd darllen y cofnod: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Cynnydd</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Dechreuwyd gan %user am %time.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>Gwirio&apos;r cod a thynnu ciplun cyn y rhediad</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>Yn rhedeg %id (%index o %total)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>%done o %total wedi&apos;u gwneud</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>Mae&apos;r mudiadau wedi rhedeg; adfer y ciplun os methodd un</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>Tynnu ciplun ar ôl y rhediad, ymrwymo, nodi a gwthio</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>Adfer y ciplun</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>Mae&apos;r rhediad wedi gorffen. Yn llwytho ei adroddiad.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>Nid oedd modd dilyn y cynnydd. Ail-lwythwch y dudalen i weld sut mae&apos;r rhediad yn mynd.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>Mae&apos;r dudalen hon yn dilyn y rhediad wrth iddo fynd.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Ail-lwytho</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Adroddiad</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Amser</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms milieiliad</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>Beth argraffodd y rhediad fel gwallau</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Cofnod</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>Amgylchedd</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>dim</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Gorffennwyd</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Ymrwymiad</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Nod</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Gwthiad</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Neges</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>Mudiadau&apos;r rhediad hwn</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>Ffynhonnell</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>Log y rhediad</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>Dim ond diwedd y log sy&apos;n cael ei ddangos.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>yn rhedeg</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>wedi gorffen heb adroddiad</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>wedi llwyddo</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>wedi methu</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>wedi&apos;i wrthod</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>nid oedd modd cyrraedd y gronfa ddata</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>gwall mewnol</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>Mae rhediad ar y gweill</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind wedi&apos;i gychwyn gan %user am %time.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>Ei ddilyn</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>Mae&apos;r gosodiad wedi&apos;i gloi</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>Mae rhediad arall yn dal y clo (uwchraddiad neu rediad ar y consol): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>wedi&apos;i wneud</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>yn aros</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>dim angen</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>anhysbys</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>wedi&apos;i ddychwelyd</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>wedi&apos;i gymhwyso</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>byddai&apos;n cael ei gymhwyso</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>wedi&apos;i ddadwneud</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>byddai&apos;n cael ei ddadwneud</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>heb redeg</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>yn aros am un arall</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>newid wedi&apos;i dderbyn</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>byddai&apos;r newid yn cael ei dderbyn</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>wedi&apos;i efelychu</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Mudiadau</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Statws</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Hanes</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>Dadwneud %target</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>Caiff rhediad ei ddadwneud i&apos;r ciplun a dynnwyd cyn iddo, un mudiad gyda&apos;i down(). Mae adfer ciplun cynharach i arbenigwyr. Mae pob un yn rhedeg yn y cefndir fel chi, ar ôl ciplun o&apos;r cyflwr presennol.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>Nid oedd modd darllen yr hyn y gellir ei ddadwneud: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>Rhediad</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>Un mudiad</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>Ciplun cynharach</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>Disgrifiad</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ie</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>na</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Ciplun</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Enw</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>Tynnwyd</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Math</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>Rhannau i&apos;w hadfer</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>Y gronfa ddata</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>Y ffeiliau storio (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>Y gosodiadau (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>Mae adfer y gronfa ddata yn mynd â hi&apos;n ôl i adeg y ciplun, gan gynnwys sesiynau: efallai y gofynnir i chi fewngofnodi eto wedyn. Collir popeth a newidiwyd ers hynny; tynnir ciplun o&apos;r cyflwr presennol yn gyntaf.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>Rwy&apos;n gwybod beth mae hyn yn ei adfer</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>Teipiwch ID y ciplun eto</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>Ie, dadwneud</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Canslo</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>Y rhediadau sydd â chiplun wedi&apos;i dynnu cyn iddynt.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>Dewis</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>Dim rhediad gyda chiplun eto.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>Y mudiadau a gymhwyswyd sy&apos;n gallu dadwneud eu hunain (mae ganddynt down()).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>Nid oes gan unrhyw fudiad a gymhwyswyd down().</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>Cipluniau cynharach (arbenigwyr)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>Dim ciplun eto.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>Rhedeg y mudiadau</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>Mae&apos;r rhediad yn mynd yn ei flaen yn y cefndir fel %user, ac mae ei dudalen yn ei ddangos wrth iddo fynd. Cyn y mudiad cyntaf tynnir ciplun o&apos;r gosodiad; pan fydd mudiad yn methu, mae&apos;r rhediad yn stopio ac adferir y ciplun.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>Rhediad prawf yn gyntaf</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Nid oedd modd darllen y statws: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>Mudiadau sy&apos;n aros</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>Maen nhw&apos;n rhedeg yn y drefn hon. Dad-diciwch un i&apos;w adael, a&apos;r rhai sydd ei angen, ar gyfer rhediad diweddarach.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>Ei redeg</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>Yn troi&apos;r modd cynnal a chadw ymlaen tra mae&apos;n rhedeg.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>Wedi newid ar ôl eu cymhwyso</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>Nid y ffeiliau hyn yw&apos;r rhai a gymhwyswyd. Mae rhediad yn eu gwrthod oni bai bod y newid yn cael ei dderbyn gyda rheswm; nid ydynt yn cael eu rhedeg eto, cofnodir y siec-swm newydd a chedwir y rheswm yn y log archwilio.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>Derbyn y newidiadau</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Pam</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>Y rhagosodiadau yw&apos;r rhai diogel. Mae pob blwch yn hepgor cam.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>Dim ciplun</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>Dim ciplun cyn ac ar ôl y rhediad: ni ellir adfer methiant yn awtomatig.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>Dim adfer</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>Ar ôl methiant, gadael y gosodiad fel y gadawodd y methiant ef.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>Cadw newidiadau heb eu hymrwymo</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>Rhedeg er bod gan osodiadau, estyniadau neu ddyluniadau newidiadau heb eu hymrwymo; maen nhw&apos;n mynd i&apos;r ciplun.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>Dim ymrwymiad</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>Peidio ag ymrwymo&apos;r ffeil statws a log y rhediad (dim nod a dim gwthio chwaith).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>Dim gwthio</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>Ymrwymo a nodi, ond peidio â gwthio.</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>Dim nod</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>Ymrwymo a gwthio, ond peidio â nodi&apos;r rhediad.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>Ie, rhedeg y mudiadau hyn nawr</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Nid oes unrhyw fudiad yn aros.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>Yn ôl i&apos;r statws</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>Newidiadau i&apos;r gosodiad hwn wedi&apos;u hysgrifennu unwaith fel ffeiliau (cynnwys, dosbarthiadau, rolau, gosodiadau, sgema) a&apos;u cymhwyso i bob gosodiad o&apos;r safle yn yr un drefn. Mae rhediad yn tynnu ciplun yn gyntaf, yn ei adfer pan fydd mudiad yn methu, ac yn cofnodi, ymrwymo a gwthio&apos;r hyn a wnaeth.</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>Rhedeg %count sy&apos;n aros</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Trosolwg</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Yn aros</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Wedi&apos;u gwneud</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Wedi methu</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>Dim angen</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>Cronfa ddata</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>trafodion: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>Mae mudiadau&apos;r safle yn migrations/, rhai estyniad yn extension/&lt;name&gt;/migrations/. Maen nhw&apos;n rhedeg yn nhrefn eu henwau a&apos;r hyn sydd ei angen arnynt.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Rhediad olaf</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>Newidiodd y ffeil ar ôl ei chymhwyso.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>Dim mudiad eto. Mae ./console exp:migration:generate --skeleton &lt;name&gt; --apply yn ysgrifennu&apos;r cyntaf.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>Y rhediadau diweddaraf</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>Pob rhediad</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>Dim rhediad eto.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>Mae efelychu rhediad angen y polisi migration/run.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>Mae rhediad ar y gweill: efelychwch pan fydd wedi gorffen.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Gosod</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>Nid yw %target yn rhediad, yn fudiad nac yn giplun o&apos;r gosodiad hwn.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>Ticiwch “Ie, dadwneud” yn gyntaf.</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>Mae adfer ciplun cynharach i arbenigwyr: ticiwch “Rwy&apos;n gwybod beth mae hyn yn ei adfer”.</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>Teipiwch ID y ciplun eto: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>Dewiswch o leiaf un rhan i&apos;w hadfer.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>Nid oes gan y rhediad hwn giplun wedi&apos;i dynnu cyn iddo: dadwnewch ei fudiadau fesul un, neu adferwch giplun cynharach.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>Ni all y mudiad hwn ddadwneud ei hun: nid yw wedi&apos;i gymhwyso, neu nid oes ganddo down().</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Nid oedd modd darllen y ffurflen.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>Dewiswch y rhediad i&apos;w ailgychwyn.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>Ticiwch “Ie, rhedeg y mudiadau hyn nawr” yn gyntaf.</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>Dewiswch o leiaf un mudiad.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>Newidiodd mudiad ar ôl ei gymhwyso: derbyniwch y newid gyda rheswm, neu rhowch y ffeil yn ôl.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>Rhowch y rheswm pam mae&apos;r mudiadau a newidiwyd yn cael eu derbyn.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>Mae&apos;r rheswm yn 500 nod ar y mwyaf.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>Mae rhediad a ddechreuwyd yma yn dal ar y gweill (%detail). Arhoswch iddo orffen.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>Mae rhediad arall yn dal clo&apos;r gosodiad: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>Mae&apos;r rhediad angen defnyddiwr wedi mewngofnodi sy&apos;n bodoli.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Ni chanfuwyd rhaglen llinell orchymyn php. Gosodwch migration.ini [AdminSettings] PhpCliPath i&apos;w llwybr llawn.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>Mae proc_open wedi&apos;i analluogi, felly ni ellir cychwyn rhediad yma. Rhedwch ./console exp:migration:migrate --apply ar y gweinydd.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>Ni ellir ysgrifennu i ffolder y rhediadau: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>Cychwynnwyd y rhediad ond ni adroddodd ID ei broses. Gwiriwch %detail.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>Enwch beth i&apos;w ddadwneud.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>Nid oedd modd cychwyn y rhediad.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>Recordio newidiadau</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>Tra bo recordiad ar waith, mae'r hyn rydych yn ei newid yn y weinyddiaeth neu ym mar ochr y wefan yn cael ei gadw fel camau mudo: cynnwys, dosbarthiadau, rolau a pholisïau, adrannau, defnyddwyr a grwpiau, arallenwau URL, gosodiadau. Stopiwch ef pan fyddwch wedi gorffen, edrychwch ar yr hyn a ddaliodd a chynhyrchwch fudo ohono.</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>Nid oedd modd darllen y recordiadau: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>Nid yw tablau'r recordiadau'n bodoli eto: rhedwch yr uwchraddiad yn gyntaf (exp:upgrade --apply).</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>Mae recordio wedi'i ddiffodd yn migration.ini ([RecordingSettings] Recording=disabled).</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>Fy newidiadau</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>Yn recordio dim ond yr hyn rydych chi'n ei newid, ble bynnag rydych chi'n ei newid, nes i chi ei stopio.</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>Recordiad</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>ers %time, %count newid hyd yma.</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>Label (dewisol)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>Dangos yr hyn a ddaliodd</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Stopio recordio</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>Dechrau recordio fy newidiadau</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>Ffenestr i'r wefan gyfan</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>Yn recordio pob newid gan bob defnyddiwr a'r consol nes iddi gael ei chau. Wrth ei hagor gofynnir i chi gadarnhau mai chi sydd yno.</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Ar agor</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>Cau'r ffenestr</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>Agor y ffenestr i'r wefan gyfan</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>Recordiadau</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>Ni chaiff cyfrif defnyddiwr (enw mewngofnodi, e-bost, cyfrinair) na meysydd cyfrifon defnyddwyr byth eu recordio.</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Newidiadau</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>Y wefan gyfan</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>Newidiadau %name</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Wedi'i stopio</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>Dim recordiad eto.</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>Recordiad %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>Pob recordiad</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>Y mudo a ddeuai ohono</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>Y newidiadau wedi'u cyfuno'n un cam fesul peth a newidiwyd: yr hyn y byddai mudo a gynhyrchir o'r recordiad hwn yn ei wneud.</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>Gellir cynhyrchu mudo ohono unwaith y bydd gan y gosodiad hwn y mathau o gamau YAML %types.</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>Wedi'i adael allan yn fwriadol: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>Ni recordiwyd dim.</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>Yr hyn a ddaliodd</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>%count newid, yn y drefn y'u gwnaed.</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Newid</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>Cam</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>Yn ymwneud â</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>%count arall: mae ./console exp:migration:record:show yn eu rhestru i gyd.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Taflu</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>Yn tynnu'r recordiad a'r hyn a ddaliodd. Mae'r hyn a newidiwyd yn aros wedi'i newid.</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>Ie, taflu'r recordiad hwn</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>Yn recordio…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Mae eich newidiadau'n cael eu recordio ar gyfer mudo.</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>Mae pob newid ar y wefan hon yn cael ei recordio ar gyfer mudo (ffenestr i'r wefan gyfan).</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>Mae'r recordiad i'r wefan gyfan wedi dechrau: caiff pob newid gan bob defnyddiwr ei recordio nes i chi ei stopio.</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>Mae'r recordiad wedi dechrau: caiff eich newidiadau eu recordio nes i chi ei stopio.</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>Recordio wedi'i stopio. Mae'r hyn a ddaliodd yn aros nes i chi ei daflu.</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>Mae'r recordiad a'i ddigwyddiadau wedi'u tynnu.</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>Nid oes recordiad %id.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>Ticiwch "Ie, taflu'r recordiad hwn" yn gyntaf.</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>Dim ond y defnyddiwr a recordiodd all stopio recordiad sesiwn.</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>Dewiswch y recordiad i'w stopio.</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>Mae recordiad o'r math hwn eisoes ar waith.</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>Nid oedd modd newid y recordiad: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>Cynhyrchu mudo</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>Enw'r mudo (dewisol)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>Mae'r mudo %file wedi'i ysgrifennu. Mae newidiadau na all unrhyw gam eu gwneud wedi'u henwi ar frig y ffeil, i'w gwneud â llaw.</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>Ni ysgrifennwyd unrhyw fudo: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>Rhediad hir mewn rhannau</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>Mae meysydd gwag yn cadw gosodiadau migration.ini [RunSettings].</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>Dim mwy na'r nifer hwn o fudo</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>Dim mudo pellach ar ôl (eiliadau)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>Saib rhwng mudo (eiliadau)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>Blaenoriaeth is (1 i 19)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>Mae maes rhediad hir yn rhif cyfan o 1 (y saib: eiliadau o 0 i 60, y flaenoriaeth: 1 i 19), neu'n wag.</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>Mae'n cau ei hun am %time.</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>Cau ei hun ar ôl (munudau, dewisol)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>Mae'r munudau'n rhif cyfan o 1 i 44640 (31 diwrnod), neu'n wag.</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>Mudiad %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>Mudiad newydd</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>Mudiad YAML: ysgrifennwch ef fel testun neu adeiladwch ei gamau yn y ffurflen, gwiriwch ef, ac yna cadwch ef mewn ffolder mudiadau.</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>Mae'r mudiad hwn wedi rhedeg eisoes, felly ni chaiff ei gadw eto: byddai'r gwarchodwr swm gwirio yn gwrthod ffeil wedi'i newid. Gwnewch y newid mewn mudiad newydd.</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>Ni all y gweinydd gwe ysgrifennu'r ffeil.</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>Y llinellau sylw ar y brig yw'r pennawd (description, author, requires, environments, engines). Pan gaiff cam ei ychwanegu neu ei newid yn y ffurflen, caiff y mudiad ei ysgrifennu eto: ni chedwir sylwadau rhwng y camau.</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>Enw'r mudiad</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>I ble mae'n mynd</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>Y wefan</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>Testun YAML</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>Gwirio</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Cadw</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Camau</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>Allweddi</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Golygu</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>Symud i fyny</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>Symud i lawr</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Tynnu</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>Dim camau eto: ychwanegwch un gyda'r ffurflen, neu ysgrifennwch nhw yn y testun.</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>Newid cam %number</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>Ychwanegu cam</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>Caiff ffurflen cam ei gwneud o'i fath o gam: ei allweddi, beth mae pob un yn ei gymryd a'r moddau y mae'n perthyn iddynt.</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>Math o gam</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>Dangos ei ffurflen</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>Mae gan y cam allweddi nad yw ei fath yn eu hadnabod; cânt eu gadael allan pan gaiff y cam ei newid: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>Modd</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>Yn</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>dim ond yn %modes</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>Rhagosodiad: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>Amodau, cyfeiriadau a sylw</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>Parau enw=gwerth wedi'u gwahanu gan atalnodau. Gwerthoedd y cam hwn: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>Enghraifft</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>Newid cam</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>Ychwanegu'r cam</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>Beth mae exp:migration:check yn ei ddweud: y pennawd, y ddogfen a phob cam wedi'i wirio gan ei fath o gam.</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>Mae'r mudiad yn pasio'r gwiriad.</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Rhagolwg</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>Y YAML fel y caiff ei gadw.</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>Dangos y YAML</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>Mudiadau YAML</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>wedi rhedeg</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>Nid oes mudiadau YAML eto.</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>Golygydd</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>Nid oes mudiad YAML %id yn y ffolderi mudiadau.</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>Dewiswch fath o gam.</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>Mae'r cam wedi'i ychwanegu. Gwiriwch y mudiad cyn i chi ei gadw.</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>Mae'r cam wedi'i newid. Gwiriwch y mudiad cyn i chi ei gadw.</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>Dewiswch gam.</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>Nid oes gan y cam hwn ffurflen (dolen, neu fath o gam nad oes gan y gosodiad hwn): newidiwch ef yn y testun.</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>Dewiswch ble mae'r mudiad yn mynd: y wefan neu estyniad gweithredol.</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>Cadwyd %file. Gwnewch rediad prawf cyn i'r mudiad redeg.</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>Heb ei gadw: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>Pennau pell</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>Y gosodiadau eraill y mae'r un hwn yn cyflwyno ei fudiadau iddynt: mae cyflwyniad yn anfon y mudiadau i'r pennau pell a ddewiswyd ac yn eu rhedeg yno, i gyd ar unwaith ac mewn cydamseriad. Nid yw pen pell byth yn dal cyfrinach: mae ei fanylion mewngofnodi yn enwi un yn Gosod &gt; Cyfrinachau.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>Pen pell newydd</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Cymorth</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>Prawf cysylltiad %id</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>Y pennau pell</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>Gweithir ar hyd at %parallel o bennau pell ar yr un pryd; gall un wedd gymryd %timeout eiliad ar bob un.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>Pen pell</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Cyfeiriad</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Manylion mewngofnodi</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>Grwpiau</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>gosodiadau i'w cywiro</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>ffeiliau yn unig (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>Allwedd SSH</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>Cyfrinair</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>dim (asiant SSH ac allweddi'r gwesteiwr)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>Profi'r cysylltiad</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>Mae cyflwyniad i grŵp yn mynd i bob un o'i bennau pell.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>Cyflwyno i bennau pell</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>Nid oes pen pell wedi'i osod eto.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>Pen pell %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>Nid oes dim yn cael ei anfon na'i redeg yma: mae Cadw yn ysgrifennu'r gosodiadau i settings/override/migration.ini.append.php. Enw yw'r manylion mewngofnodi; mae eu gwerth yn aros yn Gosod &gt; Cyfrinachau neu yn yr amgylchedd.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Gwiriwch y gosodiadau hyn</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>Y gosodiadau fel y'u rhoddwyd, heb eu cadw eto.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Adolygu</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Mae'r gosodiadau'n ddilys. Caiff y llinellau hyn eu hysgrifennu:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>Cludiant</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>enw yn unig; mae'r gwerth yn aros yn Gosod &gt; Cyfrinachau</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Y llinellau a gaiff eu hysgrifennu</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>Cysylltiad</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>Allwedd y gwesteiwr</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. Y pen pell</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>Beth yw enw'r pen pell a pha amgylchedd ydyw.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>Llythrennau, digidau, - a _, er enghraifft production1. Mae'n enwi'r pen pell mewn adroddiadau ac ar y consol (--remotes=production1) ac ni ellir ei newid yn nes ymlaen.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... Mae cyflwyniad fesul cymal yn mynd drwy'r amgylcheddau yn y drefn hon.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>Dewisol, wedi'u gwahanu gan gomas, er enghraifft production. Mae cyflwyniad i grŵp yn mynd i bob un o'i bennau pell.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. Y cysylltiad</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>Sut mae'r ffeiliau'n cyrraedd yno, a ble mae'r gosodiad.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>Dros SSH, dim ond yr hyn a newidiodd, ac ailgychwynnir trosglwyddiad a dorrwyd. Y dewis gorau lle mae rsync wedi'i osod.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>SSH gyda scp ar gyfer y ffeiliau.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>SSH gyda sftp ar gyfer y ffeiliau.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>Ffeiliau yn unig: caiff y mudiadau eu hanfon a'u darllen yn ôl, ond ni ellir eu rhedeg yno.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>FTP dros TLS; ffeiliau yn unig.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>Gosodiad arall ar y gweinydd hwn, mewn ffolder.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Gwesteiwr</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>Enw gwesteiwr neu gyfeiriad, er enghraifft node1.example.com. Nid ar gyfer local.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>Porth</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>Gwag: 22 ar gyfer SSH, 21 ar gyfer FTP.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Defnyddiwr</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>Llwybr</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>Gwraidd y gosodiad yno, er enghraifft /var/www/site (ar gyfer FTP: y llwybr y mae'r cyfrif FTP yn ei weld).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>Llinell orchymyn PHP</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>Y PHP CLI yno: php, neu lwybr llawn fel /opt/plesk/php/8.4/bin/php.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>Mae'r sgriptiau consol yn rhedeg fel root yno</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>Dim ond pan mai root yw defnyddiwr y pen pell (yna cânt eu rhedeg gyda --allow-root-user).</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. Y manylion mewngofnodi</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>Sut mae'r gosodiad hwn yn mewngofnodi yno. Dim ond enw sy'n cael ei gadw.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Dim</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>Asiant SSH ac allweddi'r defnyddiwr y mae'r gosodiad hwn yn rhedeg fel (a bob amser ar gyfer local).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>Allwedd breifat a gedwir fel cyfrinach.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>Cyfrinair a gedwir fel cyfrinach (mae FTP yn mewngofnodi ag un).</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>Enw'r gyfrinach</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>Cyfrinach o Gosod &gt; Cyfrinachau, er enghraifft deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Gosod &gt; Cyfrinachau</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>Neu newidyn amgylchedd</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>Newidyn proses y gweinydd sy'n ei ddal, er enghraifft DEPLOY_KEY (wedi'i gadw fel env:DEPLOY_KEY). Mae'n cymryd lle enw'r gyfrinach.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. Allwedd y gwesteiwr</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>Dewisol, ar gyfer SSH, sftp a rsync.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>Ôl bys allwedd y gwesteiwr</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... fel y mae ssh-keygen -l yn ei argraffu. Gydag ef, rhaid i'r gwesteiwr ddangos yr allwedd hon; hebddo, dysgir yr allwedd ar y cyswllt cyntaf.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. Adolygu</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>Profwch y cysylltiad gyda'r gosodiadau uchod, yna adolygwch y llinellau a gaiff eu hysgrifennu.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>Tynnu'r pen pell hwn</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>Caiff ei osodiadau eu tynnu o settings/override/migration.ini.append.php. Nid oes dim yn newid ar y pen pell, ac mae ei gyflwyniadau'n aros yn yr hanes.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>Ie, tynnu'r pen pell hwn</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>Cyflwyniadau</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>Mae cyflwyniad yn anfon mudiadau'r gosodiad hwn i'r pennau pell a ddewiswyd ac yn eu rhedeg yno fel %user, i gyd ar unwaith ac mewn cydamseriad: caiff pob pen pell ei wirio yn gyntaf, ac os bydd un yn methu, caiff pob pen pell a'u cymhwysodd ei ddadwneud. Mae'n parhau yn y cefndir, ac mae ei dudalen yn dangos pob pen pell wrth iddo fynd rhagddo.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. Y pennau pell</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>Ticiwch bennau pell, grŵp, neu'r ddau.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>Cyflwyno iddo</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. Sut</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>Cyflwyno</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>Anfon a rhedeg</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>Caiff y mudiadau eu hanfon, eu gwirio a'u rhedeg ar bob pen pell gydag un ID rhediad a rennir.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>Trosglwyddo yn unig</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>Caiff y ffeiliau eu hanfon a'u gwirio, ni chaiff dim ei redeg (yr unig ffordd ar gyfer pen pell FTP).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>Fesul cymal</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>Cymal wrth gymal yn nhrefn yr amgylcheddau (dev, stage, beta, production ...): caiff y cymal cyntaf ei gyflwyno, yna mae clwyd yn aros nes bod rhywun yn cymeradwyo'r nesaf. Popeth neu ddim o fewn pob cymal.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>Y mudiadau hyn yn unig</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>Dewisol: IDs mudiadau, wedi'u gwahanu gan gomas. Gwag: pob mudiad o'r wefan a'i hestyniadau.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>Rhag-wiriad yn unig</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>Ie, cyflwyno nawr</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>Y cyflwyniadau a anfonodd neu a redodd rywbeth, y diweddaraf yn gyntaf (nid yw rhag-wiriad yn cadw adroddiad).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>trosglwyddo yn unig</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>fesul cymal, %stages cymal</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>allan o gydamseriad</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>Dim cyflwyniad eto.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>Cyflwyniad %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Pob pen pell yn y cyflwyniad gyda'i gyflwr. Mae cyflwyniad a ddechreuwyd yma yn parhau yn y cefndir pan gaiff y dudalen hon ei chau; agorwch y dudalen eto i'w ddilyn.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>Pob cyflwyniad</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>Rhag-wiriad</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>Y cymal nesaf</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>Gwirio'r gosodiadau a'r manylion mewngofnodi</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>Rhag-wiriad: darllen cyflwr pob pen pell</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>Anfon ffeiliau'r mudiadau</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>Gwirio'r hyn a gyrhaeddodd</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>Rhedeg y mudiadau ar bob pen pell</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>Dadwneud y pennau pell</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>Mae'r cyflwyniad wedi gorffen. Yn llwytho ei adroddiad.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>Nid oedd modd dilyn y cynnydd. Ail-lwythwch y dudalen i weld sut mae'r cyflwyniad yn mynd.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>Gwedd</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>Mae'r dudalen hon yn dilyn y cyflwyniad wrth iddo fynd rhagddo.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>Mewn cydamseriad</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>Cymalau</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>mae cymal %stage yn aros wrth ei glwyd</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>Clwyd %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>cymeradwywyd gan %user am %time</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>Cymal</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>Ffeiliau a anfonwyd</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>Fersiwn y cnewyllyn</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>wedi'u cymhwyso: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>i'w cymhwyso: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>Gweddau</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>Clwyd: cymal %stage o %stages</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>Mae'r cymalau cyn hwn wedi'u cyflwyno. Gwiriwch nhw, yna cymeradwywch y cymal nesaf: caiff ei bennau pell eu gwirio eto a'u cyflwyno, popeth neu ddim.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Nesaf</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>Ie, cyflwyno'r cymal nesaf nawr</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Cymeradwyo</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>Dychwelyd y cyflwyniad hwn</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>Mae pob pen pell a'i cymhwysodd (%list) yn mynd yn ôl i'r ciplun a dynnwyd cyn ei rediad, i gyd ar unwaith.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>Ie, dychwelyd y cyflwyniad hwn nawr</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>wedi'i gynllunio</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>wedi'i drosglwyddo</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>wedi'i gyflwyno</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>yn aros wrth glwyd</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>wedi'u dewis</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>wedi'i baratoi</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>parod</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>yn aros am ei gymal</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>ffeiliau wedi'u hanfon</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>wedi'i wirio</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>wedi methu, wedi adfer ei hun</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>heb ei newid</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>heb ei gyflwyno</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>dim modd ei gyrraedd</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>Atebodd y pen pell.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>Ni ellir defnyddio'r pen pell nawr.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done wedi'u gwneud, %pending yn aros, %failed wedi methu</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>Clo</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>mae rhediad yn dal y clo yno</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>yn rhydd</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stage o %stages</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>Dewiswch y pen pell i'w brofi.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>Ticiwch “Ie, tynnu'r pen pell hwn” yn gyntaf.</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>Nid oedd modd tynnu'r pen pell: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>Nid oedd modd cadw'r pen pell: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Nid oes modd darllen y ffeil gosodiadau: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>Dewiswch o leiaf un pen pell neu grŵp.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>Nid yw pen pell a ddewiswyd yn y gosodiadau mwyach. Ail-lwythwch y dudalen.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>Ticiwch “Ie, cyflwyno nawr” yn gyntaf.</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>Ni all pen pell FTP redeg mudiadau: dewiswch “Trosglwyddo yn unig”, neu ei adael allan.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>IDs mudiadau, wedi'u gwahanu gan gomas, yw'r mudiadau i'w cyflwyno.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>Mae'r cyflwyniad yn dal i fynd rhagddo. Arhoswch iddo orffen.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>Nid yw'r cyflwyniad hwn yn aros wrth glwyd.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>Ni chymhwysodd unrhyw ben pell y cyflwyniad hwn: nid oes dim i'w ddychwelyd.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>Ticiwch “Ie, cyflwyno'r cymal nesaf nawr” yn gyntaf.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>Ticiwch “Ie, dychwelyd y cyflwyniad hwn nawr” yn gyntaf.</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>Mae pen pell â'r ID %id yn bodoli eisoes.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>Rhif o 1 i 65535 yw'r porth.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>Gair o lythrennau, digidau, - a _ yw'r amgylchedd (alpha, dev, stage, beta, production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>Gair o lythrennau, digidau, - a _ yw grŵp (nid all): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>Ni ellir darllen y manylion mewngofnodi nawr: %problem. Cadwch nhw yn Gosod &gt; Cyfrinachau (neu gosodwch y newidyn) cyn y cyflwyniad cyntaf.</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>Dim ond ffeiliau y mae pen pell FTP yn eu derbyn: “Trosglwyddo yn unig” yw cyflwyniad iddo, a chaiff ei fudiadau eu rhedeg yno â llaw.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>Nid yw'r pen pell %id yn settings/override/migration.ini.append.php; tynnwch ef lle mae wedi'i osod.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>Wedi mewngofnodi dros FTP a darllen index.php. Ni ellir darllen statws mudiadau pen pell FTP.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>Addaswyd</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>Crëwyd</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Enw</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Dosbarth</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Adran</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>Crëwr</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Cynnwys diweddar</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>Y cynnwys a grëwyd ac a addaswyd fwyaf diweddar ar draws y wefan gyfan, y mwyaf newydd yn gyntaf: yr hyn a gyflwynodd ymwelwyr, yr hyn sy'n cael ei ddal i'w adolygu, drafftiau sy'n aros i gael eu cyhoeddi. Dewiswch eitemau i'w rhyddhau, eu dal, eu cuddio, eu datguddio, eu tynnu neu eu symud i adran neu gyflwr arall.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>Nid oedd modd darllen y rhestr: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>Nid yw'r daliad adolygu wedi'i osod eto, felly nid oes dim yn cael ei ddal ac ni chynigir y gweithredoedd dal. Mae'r cam uwchraddio 6.0.15-review-hold yn ei osod: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Hidlo'r rhestr</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>O</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>I</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Dyddiad</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>Crëwyd (cyhoeddwyd gyntaf)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Y cyfan</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Statws</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Wedi'i gyhoeddi</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>Drafft, heb ei gyhoeddi erioed</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>Yn aros (am gymeradwyaeth neu ddyddiad)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>Yn y sbwriel</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Wedi'i ddal i'w adolygu</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>Wedi'i ddal</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>Heb ei ddal</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>Wedi'i guddio</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>Gweladwy</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>Cyflwynwyd ar</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>Unrhyw fynediad i'r wefan</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>Dim ond yr hyn a gofnododd yr archwiliad.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>Nawr: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>Enw mewngofnodi neu ID defnyddiwr.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Hidlo</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>Clirio'r hidlwyr</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>Eitemau</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from i %to o %count</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Dim eitem</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(darllenwyd mewn %ms ms)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>Gweithredoedd ar yr eitemau a ddewiswyd</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>Dewis y cyfan ar y dudalen hon</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>%count wedi'u dewis</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Gweithred</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>Dewiswch weithred</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>Rhyddhau'r daliad</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Dal i'w adolygu</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Cuddio</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>Datguddio</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>Symud i'r sbwriel</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>Dileu</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>Neilltuo adran</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>Neilltuo cyflwr</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>Rheswm</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>Angen er mwyn dal; yn cael ei gadw gyda'r daliad ac yn yr archwiliad.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>Dewiswch adran</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Cyflwr</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>Dewiswch gyflwr</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>Gweithredu ar y rhai a ddewiswyd</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>Mae pob eitem yn cael ei gwirio yn erbyn eich caniatâd chi. Mae symud i'r sbwriel a dileu yn gofyn i chi gadarnhau. Mae mwy na %count eitem yn rhedeg yn y cefndir.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>Dewis</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>Cyhoeddi</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>Cyflwynwyd o</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>Dewis %name</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>dim eto</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(dim enw)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>Drafft</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Yn aros</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>Wedi'i guddio gan ei riant</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>Wedi'i ddal: cyflwyniad newydd</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>Fersiwn %version yn aros</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>Fersiwn %version ar y gweill</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>Drafft, fersiwn %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>Fersiwn %version wedi'i chyhoeddi</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>Wedi'i drefnu ar gyfer %date</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>dim cyfeiriad</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>heb ei gofnodi</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>Nid oes dim yn cyfateb i'r hidlwyr hyn.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Dangos y cyfan</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>Nid oes cynnwys eto.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Fesul tudalen</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Dangos %count eitem fesul tudalen.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says "not recorded".</source>
+        <translation>Daw cyfeiriad a phorwr cyflwyniad o fynegai'r archwiliad, nad yw ar gael yma: mae'r golofn yn dweud "heb ei gofnodi".</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>Y cyfeiriad a'r porwr yw'r rhai a gofnododd yr archwiliad ar gyfer yr eitem (mae'r daliad awtomatig bob amser yn eu cofnodi; cyhoeddi a chreu dim ond lle mae wedi'i droi ymlaen), fel y mae ei osodiadau preifatrwydd yn eu cadw.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: %count eitem</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>Mae dileu yn tynnu'r eitemau am byth, gyda'u holl fersiynau a chyfieithiadau. Ni ellir ei ddadwneud.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>Mae'r eitemau'n mynd i'r sbwriel, lle gellir eu hadfer.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>Mae pob eitem yn cael ei gwirio yn erbyn eich caniatâd chi; mae eitem ag is-eitemau yn cael ei gadael fel y mae (tynnwch hi yn strwythur y cynnwys). Gofynnir i chi wirio mai chi sydd yno.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>Mae hyn yn rhedeg yn y cefndir: mae ei dudalen gynnydd yn agor, a dangosir y canlyniad ar gyfer pob eitem pan fydd wedi gorffen.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>Yr eitemau a ddewiswyd</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>a %count arall</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Canslo</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>Ni wnaed dim</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Rheswm: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>Mae'r weithred yn dal i redeg yn y cefndir.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>Ei chynnydd</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>Methodd y weithred gefndir: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Wedi'i wneud</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Gwrthodwyd</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Methwyd</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>Fesul eitem</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>Eitem</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Canlyniad</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Pam</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>Yn ôl i'r rhestr</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Gosod</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>Dim wedi'i wneud</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>Cadarnhau</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>Dewiswch weithred.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>Dewiswch o leiaf un eitem.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>Dewiswch 1000 eitem ar y mwyaf ar y tro.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>Dywedwch pam mae'r eitemau'n cael eu dal.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>Dewiswch yr adran.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>Dewiswch y cyflwr.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Nid oedd modd darllen y ffurflen.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>Dangosfwrdd</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>Cynnwys diweddar</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>Nid oedd modd darllen y cyfrifon: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Wedi'i ddal i'w adolygu</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>Newydd heddiw</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Nid yw'r daliad adolygu wedi'i osod eto (y cam uwchraddio 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>Yr holl gynnwys diweddar</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>Ni chewch redeg gweithredoedd cymedroli (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>Nid yw'r weithred gymedroli'n gyflawn: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>Cymedroli: %action ar %count gwrthrych</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%done o %total gwrthrych: %ok wedi'u gwneud, %refused wedi'u gwrthod, %failed wedi methu</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok wedi'u gwneud, %refused wedi'u gwrthod, %failed wedi methu</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>Nid yw'n bodoli mwyach.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>Nid oes ganddo leoliad (heb ei gyhoeddi).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>Ni chewch ei guddio (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>Ni chewch ei ddatguddio (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>Mae wedi'i guddio eisoes.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>Nid yw wedi'i guddio.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>Wedi'i guddio.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>Wedi'i ddatguddio.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>Mae yn y sbwriel: gwagiwch y sbwriel neu adferwch ef yno.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>Ni all drafft na chyhoeddwyd erioed fynd i'r sbwriel: dilëwch ef.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>Ni chewch ei ddileu (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>Wedi'i ddileu.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>Ni chewch ei dynnu (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>Mae ganddo is-eitemau: tynnwch ef yn strwythur y cynnwys, lle maen nhw wedi'u rhestru.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>Ni chafodd ei dynnu (efallai fod llif gwaith yn dal y tynnu).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>Wedi'i symud i'r sbwriel.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>Nid yw'r adran yn bodoli.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>Mae yn yr adran hon eisoes.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>Ni chewch neilltuo'r adran hon (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>Ni neilltuwyd yr adran.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>Adran wedi'i neilltuo.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>Nid yw'r cyflwr yn bodoli.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>Mae yn y cyflwr hwn eisoes.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>Ni chewch neilltuo'r cyflwr hwn (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>Ni neilltuwyd y cyflwr (efallai fod llif gwaith yn dal y newid).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>Cyflwr wedi'i neilltuo.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>Nid oes gweithred o'r fath.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Nid yw'r daliad adolygu wedi'i osod (y cam uwchraddio 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>Dywedwch pam mae'n cael ei ddal.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>Mae wedi'i ddal eisoes.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>Ni chewch ei ddal (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>Ni osodwyd y daliad (efallai fod llif gwaith yn dal y newid).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>Wedi'i ddal.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>Nid yw wedi'i ddal.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>Ni chewch ei ryddhau (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>Ni ryddhawyd y daliad (efallai fod llif gwaith yn dal y newid).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>Wedi'i ryddhau; yn dal wedi'i guddio: ni chewch ei ddatguddio (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>Wedi'i ryddhau.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>Pob targed</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Cyhoeddiad diwethaf</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>Cyhoeddwch gopi statig o&apos;ch gwefan am ddim ar GitHub Pages:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Tudalennau hen</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Cyhoeddi statig</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Mae cyhoeddi statig wedi&apos;i ddiffodd.</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Targed</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Nid oedd modd darllen y targedau: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>mae tasg ar waith</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>adeiladwaith i&apos;w wirio</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>cuddio hwn</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>creu targed</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>byth</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>darllen y tiwtorial</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>%added wedi&apos;u hychwanegu, %changed wedi&apos;u newid, %removed wedi&apos;u tynnu</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%bytes o %limit (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>Nid yw %count arall wedi&apos;u rhestru.</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>%pages tudalen wedi&apos;u hysgrifennu</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>Mae %path yn %size, mwy nag y mae&apos;r gwesteiwr yn ei ganiatáu i ffeil.</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>%percent % o&apos;r terfyn</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds e</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag yw&apos;r cyhoeddiad sydd gan y wefan nawr.</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: tasg %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>/ystorfa/ ar gyfer gwefan prosiect GitHub; gwag ar gyfer parth personol neu wefan defnyddiwr.</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. Y wefan</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. Y gwesteiwr</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. Mewngofnodi i&apos;r ystorfa</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. Yr ystorfa</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. Dolenni a llwybr sylfaen</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. Eich parth eich hun</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. Beth mae&apos;r adeiladwaith yn ei gynnwys</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. Pryd y caiff ei gyhoeddi</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. Adolygu a chadw</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>Mae gwefan prosiect GitHub yn byw o dan /&lt;repository&gt;/; mae dolenni cymharol yn gweithio yno ac yn unrhyw le arall.</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>Mae adeiladwaith yn nôl pob tudalen o %site fel y&apos;i gwelir gan ymwelydd nad yw wedi mewngofnodi, yn ailysgrifennu&apos;r dolenni, yn copïo&apos;r ffeiliau ac yn ysgrifennu&apos;r canlyniad i ffolder y targed. Ni chyhoeddir dim nes i chi wirio&apos;r adeiladwaith a phwyso Cyhoeddi.</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>Mynegiad cron, er enghraifft 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>Cedwir allwedd defnyddio fel y gyfrinach %secret.</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>Mae allwedd defnyddio yn gadael i&apos;r gosodiad hwn wthio i un ystorfa dros SSH a dim unman arall. Mae ei hanner preifat yn aros yn Gosod &gt; Cyfrinachau; dim ond yr hanner cyhoeddus a ddangosir.</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>Allwedd defnyddio a grëwyd ar gyfer y targed hwn</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>Mae allwedd defnyddio yn mewngofnodi dros SSH: newidiwch y cyfeiriad git i&apos;r un SSH (git@github.com:owner/repo.git).</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>Mae tasg ar waith, wedi&apos;i dechrau gan %user</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>Mae tasg y targed hwn yn dal ar waith (%detail). Arhoswch iddi orffen.</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>Mae tasg y targed hwn yn dal ar waith. Arhoswch iddi orffen.</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>Bydd dolen o&apos;r dudalen /news/ i&apos;r dudalen /about-us/team yn cael ei hysgrifennu fel</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>Crëwyd allwedd defnyddio newydd. Ychwanegwch ei hanner cyhoeddus at yr ystorfa nawr.</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>Ni chyhoeddir byth dudalen sy&apos;n dal i gynnwys allbwn dadfygio, tocyn ffurflen neu ID sesiwn ar ôl ei glanhau.</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>Mae dychweliad ar gyfer arbenigwyr: ticiwch &quot;Rwy&apos;n gwybod beth mae hyn yn ei newid&quot; a theipiwch enw&apos;r nod eto.</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>Gall gwefan fod hyd at %site, un ffeil hyd at %file, gyda thua 100 GB o draffig y mis. Ar gynllun am ddim rhaid i&apos;r ystorfa fod yn gyhoeddus. Nid yw GitHub Pages wedi&apos;i fwriadu ar gyfer siopau na thrafodion masnachol eraill.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>Un wefan wedi&apos;i chyhoeddi i un ystorfa git yw targed. Nid oes dim yn cael ei adeiladu na&apos;i gyhoeddi yma: mae Cadw yn ysgrifennu&apos;r gosodiadau i settings/override/staticcache.ini.append.php.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>Un wefan wedi&apos;i chyhoeddi i un lle yw targed, er enghraifft eich gwefan gyhoeddus ar GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>Tocyn o Gosod &gt; Cyfrinachau</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>Mae llif gwaith yr ystorfa yn ei chyhoeddi.</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>Ychwanegwch yr allwedd gyhoeddus hon at yr ystorfa gyda mynediad ysgrifennu. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, ticiwch Allow write access.</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>Ychwanegwyd</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>Gwesteiwr git arall</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>Mae proses arall yn gweithio ar y targed hwn: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>Yn ôl</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>Llwybr sylfaen</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Cyn</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>O dan lwybr sylfaen</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>Cangen</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>Dolenni wedi torri</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>Dolenni wedi torri yn yr adeiladwaith</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>Adeiladwaith</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>Adeiladwaith %id gan %user</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>Adeiladu %name</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>Adeiladu nawr</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>Adeiladwaith i&apos;w wirio</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Gan</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>Â llaw, yma</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Canslo</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Newid</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>Newidiwyd</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Newidiadau</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>Gwiriwch ef yn gyntaf</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Gwiriwch y gosodiadau hyn</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>Gwiriwch beth mae&apos;r adeiladwaith yn ei newid, edrychwch arno, yna cyhoeddwch ef neu ei daflu.</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>Dewiswch y cyhoeddiad i ddychwelyd iddo.</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>Yn dod mewn rhyddhad diweddarach.</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Ymrwymiad</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>Ymrwymiadau</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>Mae&apos;n ymrwymo&apos;r adeiladwaith, yn ei nodi ac yn ei wthio i %remote. Ni orfodir gwthiad byth; gallwch fynd yn ôl i unrhyw gyhoeddiad yn nes ymlaen.</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>O&apos;i gymharu â&apos;r ffolder o&apos;r blaen: %added wedi&apos;u hychwanegu, %changed wedi&apos;u newid, %removed wedi&apos;u tynnu, %unchanged heb eu newid.</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>O&apos;i gymharu â&apos;r cyhoeddiad diwethaf.</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Manylion mewngofnodi</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>Parth personol</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>Mae allbwn dadfygio, tocynnau ffurflen, IDs sesiwn a nonces bob amser yn cael eu tynnu allan.</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>Allwedd defnyddio</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>Allwedd defnyddio %name</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Taflu</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>Taflu&apos;r adeiladwaith</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>Parth</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>Gwag: cyfeiriad y wefan. Fel arall, cyfeiriad mewnol yr un wefan.</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Gorffennodd</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>Mae pob dolen yn dechrau gyda&apos;r llwybr sylfaen.</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>Mae pob cyhoeddiad yn ymrwymiad gyda nod static/%id/&lt;n&gt;. Mae mynd yn ôl yn creu ymrwymiad newydd gyda ffeiliau cyhoeddiad cynharach: mae&apos;r hanes yn aros, nid oes nod yn symud ac ni orfodir dim.</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>Pethau ychwanegol</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>Nôl y tudalennau o</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Ffeil</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>Ffeiliau</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>Ffeiliau ar goll</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>Ffeiliau</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>Ffeiliau nad oedd modd eu casglu</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>Ôl bys</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>Ffolder</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>Ar gyfer cyfeiriad SSH. Caiff yr allwedd ei chreu ar ôl cadw; rydych yn ychwanegu ei hanner cyhoeddus at yr ystorfa.</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>Ar gyfer cyfeiriad https://. GitHub: tocyn manwl gyda Contents darllen ac ysgrifennu ar yr ystorfa.</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>Ar gyfer arbenigwyr. Mae&apos;r wefan gyhoeddus yn newid cyn gynted ag y bydd y gwthiad wedi&apos;i gwblhau.</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Ffurflenni</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>Gwe-letya am ddim o ystorfa GitHub.</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>O&apos;r gangen</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>Cyfeiriad git</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>Mae GitHub Pages yn caniatáu gwefan o %site a ffeil o %file.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>Terfynau GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>Mae GitHub Pages yn cyhoeddi&apos;r ffeiliau fel y maent (angenrheidiol ar gyfer ffeiliau sy&apos;n dechrau gyda _).</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>Mae GitHub yn gweini&apos;r gangen fel y&apos;i gwthiwyd. Y rhagosodiad.</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, eich gweinydd eich hun: unrhyw ystorfa git.</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>Mynd yn ôl i gyhoeddiad cynharach</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Cymorth</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>Cymorth gyda&apos;r dewin</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>Eu cuddio</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Hanes</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>Hanes %name</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Gwesteiwr</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>Sut mae GitHub Pages yn derbyn yr adeiladwaith</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>Rwyf wedi gwirio&apos;r newidiadau</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>Rwy&apos;n gwybod beth mae hyn yn ei newid</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>Mae wedi&apos;i ddiffodd: nid oes modd adeiladu dim nes ei fod ymlaen.</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>Mae&apos;n rhedeg yn y cefndir fel %user; gallwch gau&apos;r dudalen hon.</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>Tasg %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>Wedi&apos;i chadw fel y gyfrinach %secret.</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Math</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Cyhoeddiad diwethaf</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>Gadael y tudalennau hyn allan</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>Gadael yr adrannau hyn allan</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Dolenni</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>Dolenni wedi&apos;u hailysgrifennu</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>Gwefan fyw</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>Edrych ar yr adeiladwaith</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>Llythrennau bach, digidau, _ a -, er enghraifft github-public. Mae&apos;n enwi&apos;r ffolder a&apos;r nodau (static/&lt;id&gt;/&lt;n&gt;) ac ni ellir ei newid yn nes ymlaen.</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>Creu allwedd newydd</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>Creu targed</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>Creu&apos;r allwedd</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>Crëwch yr ystorfa ar y gwesteiwr yn gyntaf; mae un wag yn iawn.</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>Maniffest</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Neges</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>Y rhan fwyaf o dudalennau</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Enw</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>Enw&apos;r tocyn yn Gosod &gt; Cyfrinachau</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>Targed newydd</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Nesaf</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>Na</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>Dim ymrwymiad eto.</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>Ni chrëwyd allwedd: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Ni chanfuwyd rhaglen llinell orchymyn php. Gosodwch migration.ini [AdminSettings] PhpCliPath i&apos;w llwybr llawn.</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>Dim nod eto.</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>Dim targed eto.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Dim</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>Nid yw yn yr adeiladwaith.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>Nid oes dim wedi&apos;i gyhoeddi eto.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>Nid oes dim wedi&apos;i gyhoeddi eto: mae pob ffeil yn newydd.</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>Hysbysu</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>Yn ôl amserlen</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>Ar y consol</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>Ar y gweinydd: mae ./console exp:static:serve %id yn ei weini yn yr un ffordd.</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>Un llwybr i bob llinell, mae * yn cyfateb i unrhyw ran: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>Dim ond enw a gedwir gyda&apos;r targed; mae&apos;r tocyn neu&apos;r allwedd ei hun yn aros yn Gosod &gt; Cyfrinachau ac nid yw byth yn ymddangos mewn log.</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>Dim ond yr hyn y mae&apos;r tudalennau&apos;n ei enwi</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>Dim ond gyda thocyn. Mae env:NAME yn darllen newidyn amgylchedd y gweinydd yn lle hynny.</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>Agor y rhagolwg</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>Mae&apos;n agor yr adeiladwaith fel y bydd y gwesteiwr yn ei weini, o ffolder y targed. Mae&apos;r ddolen yn gweithio i chi am awr.</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>Dewisol. Gwag: yr hyn a gyhoeddwyd.</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>Dewisol. Gyda pharth, caiff y wefan ei gweini wrth ei gwraidd.</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Allbwn</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>Tudalennau</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>Tudalennau&apos;r targed</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>Tudalennau a wrthodwyd</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>Ôl-brosesu</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Rhagolwg</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>Rhagolwg a chyhoeddi</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>Rhagolwg a chyhoeddi %name</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>Rhagolwg o&apos;r adeiladwaith</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Cynnydd</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>Cyfeiriad cyhoeddus</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>Allwedd gyhoeddus</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>Cyhoeddi</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>Cyhoeddi copi statig o wefan i GitHub Pages neu unrhyw westeiwr git: ei adeiladu, gwirio&apos;r newidiadau, cyhoeddi, a mynd yn ôl i gyhoeddiad cynharach pan fydd angen.</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>Cyhoeddiad i ddychwelyd iddo</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>Cyhoeddiadau</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Gwthiad</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>Darllen y tiwtorial</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Cofnod</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Gwrthodwyd</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>Cymharol</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Ail-lwytho</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>Tynnwyd</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>Amnewid yr allwedd: bydd yr hen un yn peidio â gweithio</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Adroddiad</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>Adroddiad yr adeiladwaith</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Ystorfa</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Adolygu</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>Mae Adolygu yn gwirio pob gosodiad ac yn dangos y llinellau a gaiff eu hysgrifennu. Nid oes dim wedi&apos;i gadw eto.</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Dychwelyd</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Dychweliad</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Cadw</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>Amserlen</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>Tudalen chwilio</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>IDs adrannau, wedi&apos;u gwahanu gan atalnodau.</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>Eu hanfon i&apos;r wefan fyw</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>Gosodiad</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Gosodiadau</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>Gosodiadau %name</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Gosod</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Gosod &gt; Cyfrinachau</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>Yn cael ei ddangos mewn rhestrau, er enghraifft &quot;Gwefan gyhoeddus ar GitHub Pages&quot;.</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>Daw mewngofnodi gydag GitHub App gyda&apos;r integreiddio GitHub.</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>Gwefan</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>Gwefan i&apos;w chyhoeddi</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Maint</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>Maint a therfynau</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>Maint yr adeiladwaith</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Tudalennau hen</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Dechreuwyd</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Dechreuwyd gan %user am %time.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Cyflwr</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Cyhoeddi statig</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>Mae cyhoeddi statig wedi&apos;i ddiffodd</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Mae cyhoeddi statig wedi&apos;i ddiffodd.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>Mae cyhoeddi statig wedi&apos;i ddiffodd. Trowch ef ymlaen yn Gosod &gt; Cyhoeddi statig yn gyntaf.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>Mae cyhoeddi statig wedi&apos;i droi ymlaen.</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>Cam %step o %total</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Camau</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>Glanhau</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Diffodd</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Troi ymlaen</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>Troi cyhoeddi statig ymlaen</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Nod</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>Nodau</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Targed</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>Gellir creu a newid targedau, ond nid oes dim yn cael ei adeiladu na&apos;i gyhoeddi nes ei fod wedi&apos;i droi ymlaen.</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>Mae&apos;n dweud wrth beiriannau chwilio beth i&apos;w ddarllen.</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>Nid oedd modd taflu&apos;r adeiladwaith: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>Mae&apos;r adeiladwaith yr un fath â&apos;r cyhoeddiad diwethaf: nid oes dim i&apos;w gyhoeddi.</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>Taflwyd yr adeiladwaith: mae&apos;r ffolder yn dal y cyhoeddiad diwethaf eto.</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>Mae&apos;r rhagosodiadau&apos;n addas i&apos;r rhan fwyaf o wefannau.</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>Mae&apos;r ffolder yn dal adeiladwaith nad yw wedi&apos;i gyhoeddi eto; bydd adeiladwaith newydd yn cymryd ei le.</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>Nid oes modd ysgrifennu i ffolder y tasgau: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>Nid oedd modd paratoi&apos;r dasg: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>Nid oedd modd dechrau&apos;r dasg.</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>Mae&apos;r dasg wedi gorffen. Yn llwytho ei hadroddiad.</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>Mae&apos;r dasg angen defnyddiwr sydd wedi mewngofnodi.</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>Dechreuwyd y dasg ond nid adroddodd ID ei phroses. Gwiriwch %detail.</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>Yr allwedd</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>Y ffeil fwyaf: %path, %size.</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Y llinellau a gaiff eu hysgrifennu</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>Y rhestr o dudalennau ar gyfer peiriannau chwilio; mae angen y cyfeiriad cyhoeddus.</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>Caiff y tudalennau eu nôl fel y&apos;u gwelir gan ymwelydd nad yw wedi mewngofnodi. Ni chynigir mynedfeydd i&apos;r wefan ar gyfer gweinyddu a golygu byth.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>Nid oedd modd dilyn y cynnydd. Ail-lwythwch y dudalen i weld sut mae&apos;r dasg yn dod yn ei blaen.</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>Hanner cyhoeddus yr allwedd:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>Gwraidd y gangen</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>Nid yw&apos;r storfa gyfrinachau wedi&apos;i gosod eto (mae ./console exp:upgrade --apply yn creu ei thabl), felly nid oes modd cadw allwedd.</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>Mae&apos;r gweinydd yn mewngofnodi ar ei ben ei hun (ei allwedd SSH ei hun neu helpwr manylion mewngofnodi), neu mae&apos;r ystorfa ar y gweinydd hwn.</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>Nid oedd modd ysgrifennu&apos;r gosodiad: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Mae&apos;r gosodiadau&apos;n ddilys. Caiff y llinellau hyn eu hysgrifennu:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Nid oes modd darllen y ffeil gosodiadau: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>Mae&apos;r wefan yn mynd yn ôl i ffeiliau&apos;r cyhoeddiad hwnnw; rhaid cyhoeddi neu daflu adeiladwaith nad yw wedi&apos;i gyhoeddi eto yn gyntaf.</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>Tudalen y wefan ei hun ar gyfer cyfeiriadau nad ydynt yn bodoli.</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>Nid oedd modd cadw&apos;r targed: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>Nid yw&apos;r targed yn mewngofnodi gyda&apos;r allwedd hon eto: dewiswch &quot;Allwedd defnyddio a grëwyd ar gyfer y targed hwn&quot; yn ei osodiadau.</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Nid oedd modd darllen y targedau: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>Nid oes adeiladwaith i&apos;w wirio eto.</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>Nid oes gan y gosodiad hwn fynediad blaen i&apos;r wefan. Ni chyhoeddir mynedfeydd i&apos;r wefan ar gyfer gweinyddu a golygu byth.</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>Mae&apos;r dudalen hon yn dilyn y dasg wrth iddi fynd; mae&apos;n parhau yn y cefndir pan fydd y dudalen ar gau.</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>Nid oes gan y targed hwn allwedd defnyddio eto.</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>Nid yw&apos;r targed hwn wedi&apos;i adeiladu yma eto.</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>Mae gan y targed hwn un.</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>Mae&apos;n taflu&apos;r adeiladwaith hwn: mae&apos;r ffolder yn dal y cyhoeddiad diwethaf eto. Nid yw&apos;r wefan fyw yn newid.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>Ticiwch &quot;Rwyf wedi gwirio&apos;r newidiadau&quot; yn gyntaf.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Amser</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>Sbardunau</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>Teipiwch enw&apos;r nod eto</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>Heb ei newid</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>Bachyn gwe</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Beth</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>Beth sy&apos;n newid</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>Beth yw pob ffeil; caiff ei ysgrifennu bob amser.</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>Beth wnaeth y dasg a&apos;i chofnod. Mae tasg a ddechreuwyd yma yn parhau yn y cefndir pan fydd y dudalen hon ar gau.</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>Yr hyn a argraffodd y dasg fel gwallau</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>Yr hyn y mae&apos;r tudalennau&apos;n ei enwi, a phob delwedd o gynnwys cyhoeddedig</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Pryd</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>Pan fydd cyhoeddiad yn methu</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>Pan fydd cyhoeddiad yn llwyddo</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>Pan gyhoeddir cynnwys</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>Ble mae dolenni i&apos;r hyn nad yw yn y copi yn mynd (y chwilio, y mewngofnodi).</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>O ble mae&apos;r copi statig yn cael ei weini.</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>Pa wefan a gyhoeddir, a beth yw enw&apos;r targed.</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>Gweithio o dan unrhyw lwybr. Y rhagosodiad.</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>Caiff ei ysgrifennu pryd bynnag y gosodir parth personol.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>Ie</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>Gallwch bob amser adeiladu a chyhoeddi â llaw yma ac ar y consol.</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>enw yn unig; mae&apos;r gwerth yn aros yn Gosod &gt; Cyfrinachau</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>o dan %path</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>gorffennodd heb adroddiad</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>ychwanegol</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>wedi methu</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>ffeil</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages, neu main gyda&apos;r ffolder docs.</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>gwesteiwr git</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (gyda thocyn) neu git@github.com:owner/repo.git (gydag allwedd defnyddio); byth gyfrinair na thocyn ynddo.</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/, ar gyfer y map gwefan a&apos;r dolenni canonaidd.</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>delwedd</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>byth</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>na</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>dim pell</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>dim: mae ymrwymiadau&apos;n aros yn y ffolder</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>dim: dim wedi newid</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>heb ei wthio</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>dim wedi newid</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>tudalen</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>llwyddodd</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>Mae proc_open wedi&apos;i analluogi, felly nid oes modd dechrau tasg yma. Defnyddiwch ./console exp:static:build ar y gweinydd.</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>cyhoeddiad</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>cyhoeddwyd</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>gwthiad yn aros</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>wedi&apos;i wthio</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>gwrthodwyd</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>cymharol</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>dychweliad</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>dychwelwyd</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>yn rhedeg</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>y ffolder yn unig</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: caiff ei ysgrifennu i&apos;r ffeil CNAME. Pwyntiwch DNS y parth at y gwesteiwr fel y mae&apos;n egluro; gall HTTPS gymryd amser i ddechrau.</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>ie, heb ei gyhoeddi eto</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>Mae llif gwaith yr ystorfa yn ei gyhoeddi. Mae'r adeiladu'n ysgrifennu ffeil y llif gwaith; gadewch y ffolder yn wag.</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>Ar ôl cadw targed gydag ystorfa GitHub a thocyn neu GitHub App, gall y cam hwn greu'r ystorfa a throi GitHub Pages ymlaen. Fel arall, crëwch yr ystorfa ar GitHub yn gyntaf; mae un wag yn iawn.</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>Cangen neu GitHub Actions?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>Gwirio'r DNS</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>Creu'r ystorfa os nad yw'n bodoli</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>Crëwch yr ystorfa ar GitHub a throwch GitHub Pages ymlaen yn ei gosodiadau (Settings &gt; Pages).</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>Yn creu'r ystorfa %repo pan fydd ar goll (os gofynnir), yn troi GitHub Pages ymlaen o'r gangen neu o GitHub Actions fel y'i cadwyd, ac yn gosod y parth personol a HTTPS. Mae'n defnyddio'r gosodiadau a gadwyd: cadwch newidiadau yn gyntaf.</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>Manylion ar GitHub</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>Rhowch y parth personol yn gyntaf.</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>Mae pob gwthiad yn cael ei wirio yn erbyn y terfynau hyn yn gyntaf.</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>Ar gyfer cyfeiriad https:// ar GitHub. Mae'r App a osodwyd ar gyfer y gosodiad hwn yn mewngofnodi; mae angen id y gosodiad arno.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>Dim ond ar gynllun taledig y mae GitHub Pages yn gweini ystorfa breifat.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: mae is-barth (www.example.com) angen cofnod CNAME i &lt;owner&gt;.github.io; parth apig (example.com) y cofnodion A %ips.</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>Id gosodiad y GitHub App</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>Adeiladu Pages diwethaf</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>Terfynau ac amodau</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>Angen ar gyfer GitHub Pages ar gynllun am ddim.</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>Ar GitHub</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>Dim ond gyda GitHub App: y rhif ar ddiwedd cyfeiriad gosodiad yr App ar GitHub. Mae'r App ei hun yn cael ei osod yn staticcache.ini (GitHubAppId, GitHubAppKey).</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>Preifat</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>Cyhoeddus</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>Cadwch y targed gydag ystorfa GitHub a thocyn neu GitHub App yn gyntaf.</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>Gosodwch y cofnodion hyn gyda darparwr y parth:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>Gosod ar GitHub</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>Nid yw DNS %domain yn pwyntio at GitHub Pages eto.</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>Mae DNS %domain yn pwyntio at GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>Nid yw'r integreiddio GitHub ar gael yma: %problem. Mae cyhoeddi i'r gangen yn gweithio'r un fath; trowch GitHub Pages ymlaen yng ngosodiadau'r ystorfa.</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>Nid yw'r camau GitHub ar gael ar gyfer y targed hwn: %problem.</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>Dangosir cyflwr GitHub Pages gyda thocyn neu GitHub App fel y manylion mewngofnodi.</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>Defnyddio eich parth eich hun</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>Pa un i'w ddewis: tocyn, allwedd defnyddio neu GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>Gydag ystorfa GitHub a thocyn neu GitHub App, gall y dewin greu'r ystorfa, troi GitHub Pages ymlaen a gosod y parth i chi (cam 4).</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>yn adeiladu</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>wedi'i adeiladu</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>o GitHub Actions</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>o'r gangen %branch</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>dim eto</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>heb ei ganfod</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>i ffwrdd</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>preifat</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>cyhoeddus</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>mewn ciw</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>anhysbys</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%count ar %pages tudalen:</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>Ffeil .gz (a .br) wrth ymyl pob ffeil testun, ar gyfer gwesteion sy'n eu gweini.</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>Tudalen fach ar gyfer pob hen gyfeiriad ac enw arall tudalen, fel bod hen ddolenni'n dal i weithio.</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>Wedi'i hysgrifennu bob amser pan fydd GitHub Actions yn cyflwyno'r wefan.</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>ID SPDX fel CC-BY-4.0, neu'r testun ei hun.</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>Basged</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>Galwadau i'r gweinydd</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Sylwadau</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>Ffurflenni sy'n casglu gwybodaeth</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>Llif gwaith GitHub Actions</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>Llai o fylchau gwyn a dim sylwadau yn y tudalennau.</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>Trwydded y cynnwys</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Mewngofnodi</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>Lleihau</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>Ffurflenni eraill</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>Rhaggywasgu</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>Tudalennau ailgyfeirio</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>Tudalennau ailgyfeirio: %count.</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Chwilio</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>Mynegai chwilio: %pages tudalen yn %languages.</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>Taflenni arddull a sgriptiau wedi'u henwi yn ôl stwnsh eu cynnwys, fel y gall porwyr eu cadw.</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>Y tudalennau a newidiodd, ychydig funudau ar ôl y newid olaf (y rhan cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>Trwydded y cynnwys, o'r maes isod.</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>Y wefan gyfan, ar adegau'r amserlen (y rhan cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>Mae angen gweinydd ar y rhannau hyn o'r tudalennau; mae gan bob un ddewis amgen. Gwiriwch nhw cyn i chi gyhoeddi.</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>Yr hyn nad yw'n gweithio'n statig</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>Beth yw'r storfa, i bwy bynnag sy'n ei hagor ar y gwesteiwr.</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>wedi'i hepgor</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>y testun wrth gefn</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>pwynt terfyn ffurflenni'r wefan fyw</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>y wefan fyw</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>tudalen chwilio'r copi</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>Doedd dim modd anfon y ffurflen.</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>Diolch: anfonwyd y ffurflen.</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>Ni dderbyniwyd y ffurflen: gwiriwch yr hyn a nodwyd gennych a'i hanfon eto.</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>Tynnu dolenni i dudalennau nad ydynt yn y copi</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>Tynnu dolenni i'r weinyddiaeth</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>Mae eu testun yn aros. Ni chaiff delweddau, ffurflenni na dolenni i wefannau eraill byth eu tynnu.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Fersiwn</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>Mynediadau i'r wefan i'w cyhoeddi</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Mynediad i'r wefan</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>Wrth y gwraidd</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>Dim mynediad wrth y gwraidd: mae pob un yn ei ffolder, ac mae'r gwraidd yn cysylltu â nhw</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Mynediadau i'r wefan</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>Ticiwch un mynediad i'r wefan, neu sawl un sy'n rhannu un gwesteiwr drwy eu rhagddodiad URI. Mae'r un wrth y gwraidd yn cael ei weini yno, y lleill yn ffolder eu rhagddodiad (/ger/); mae'r dolenni rhyngddynt yn aros yn y copi. Ni chynigir mynediadau gweinyddu byth.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>Methodd cyhoeddi statig %target ar %site</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>Llwyddodd cyhoeddi statig %target ar %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>Anfonwyd y neges hon gan %site oherwydd bod y targed cyhoeddi statig %target yn gofyn amdani.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>Mae'r cyflwyniad %deploy wedi methu ar %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>Mae'r cyflwyniad %deploy yn aros wrth giât ar %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>Mae'r cyflwyniad %deploy wedi llwyddo ar %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>Anfonwyd y neges hon gan %site oherwydd bod migration.ini [RemoteSettings] Notify[] yn gofyn amdani.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>Mathau o ddata (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>Cyfrwyd %time, eto ymhen %minutes munud</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>Mae math o ddata yn storio ac yn golygu un math o werth priodoledd dosbarth: llinell o destun, delwedd, perthynas. Daw'r rhan fwyaf o'r craidd, ac mae estyniadau'n ychwanegu rhagor. Dyma nhw i gyd, pwy sy'n eu darparu a faint o'r cynnwys sy'n eu defnyddio. Mae math o ddata y mae'r gronfa ddata yn ei ddefnyddio ond nad oes dim yn ei gofrestru mwyach yn torri'r cynnwys sydd ganddo.</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>Grwpiau dosbarthiadau</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>Cyfrif eto nawr yn lle defnyddio cyfrifon y munudau diwethaf.</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>Cyfrif eto</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Trosolwg</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>Cofrestrwyd</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>Yn cael ei defnyddio</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>Heb ei ddefnyddio</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>Estyniadau sy'n darparu mathau o ddata</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>Priodoleddau'r dosbarth</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>Priodoleddau'r gwrthrych</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>Heb ei gofrestru</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>Yn y rhestr, ffeil ar goll</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>Mathau o ddata sy'n cael eu defnyddio ond heb eu cofrestru: %count</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>Mae gan briodoleddau dosbarth (%class_attributes) a phriodoleddau gwrthrych (%object_attributes) fath o ddata nad oes unrhyw estyniad na gosodiad yn ei gofrestru. Does dim modd dangos, golygu na chyhoeddi eu gwrthrychau. Gweithredwch yr estyniad sy'n darparu'r math o ddata, neu newidiwch y dosbarth.</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>Dangos y rhain yn unig</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>Dod o hyd i fath o ddata</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>Dynodydd, enw, dosbarth PHP neu estyniad.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Dangos</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Y cyfan</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>Darparwyd gan</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>Pawb</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>Craidd</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>Does dim math o ddata yn cyfateb i'r hidlydd hwn.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Dangos y cyfan</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>Estyniad</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%shown o %count math o ddata, %used yn cael eu defnyddio</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>Mae gan y gronfa ddata briodoleddau dosbarth neu wrthrych o'r mathau hyn o ddata, ond nid yw content.ini yn rhestru'r un ohonyn nhw, neu mae eu ffeil ar goll.</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>Mathau o ddata %provider</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>Math o ddata</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>Dosbarth PHP a ffeil</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>Dosbarthiadau</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>Gwrthrychau</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>Baneri</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>dim</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>Does dim math o ddata yn cyfateb i'r chwiliad. Cliriwch y chwiliad.</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>Yn dangos %shown o %count math o ddata</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>Mathau o ddata a ddangosir: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>Didoli yn ôl %column</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>Cyfrwyd %time</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>Pob math o ddata</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>Tudalen gymorth</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>Mae'r math hwn o ddata yn cael ei ddefnyddio ond heb ei gofrestru</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>Does dim modd dangos, golygu na chyhoeddi gwrthrychau'r dosbarthiadau isod tra nad oes estyniad yn cofrestru'r math o ddata. Gweithredwch yr estyniad sy'n ei ddarparu a'i ychwanegu at content.ini [DataTypeSettings] AvailableDataTypes[], neu newidiwch y dosbarthiadau.</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>Mae content.ini yn rhestru'r math hwn o ddata, ond does gan ddim un cyfeiriadur mathau o ddata ei ffeil. Does dim yn ei ddefnyddio; tynnwch ef o AvailableDataTypes[] neu gweithredwch ei estyniad.</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>Am y math hwn o ddata</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>Dynodydd</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Enw</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Estyniad %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>neb</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>Dosbarth PHP</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Ffeil</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>Yn AvailableDataTypes[]</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ie</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>na</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>Colofnau ei werth</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>Colofnau gosodiadau ei briodoledd dosbarth</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>Tablau</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>Canfyddir y colofnau a'r tablau drwy ddarllen cod y math o ddata: canllaw, nid addewid.</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>Templedi</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Mynediad i'r wefan</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>Templed</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>Wedi'i ganfod yn</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>y weinyddiaeth hon</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>gwefan ddiofyn</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>Heb drosysgrifo: mae templed trosysgrifo sy'n cyfateb yn ôl dosbarth neu briodoledd yn cael blaenoriaeth dros y rhain.</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>Dosbarthiadau sy'n ei ddefnyddio (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>Does gan ddim dosbarth briodoledd o'r math hwn o ddata.</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Dosbarth</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>Priodoleddau</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>Priodoleddau'r dosbarth (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>Priodoledd</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Gosodiadau</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>Gofynnol</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>Chwiliadwy</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>Cyfieithadwy</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>Yn casglu gwybodaeth</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>Peth cynnwys sy'n ei ddefnyddio</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>Y diweddaraf a newidiwyd yn gyntaf</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Addaswyd</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>Nod %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>Mae gan bob cyfieithiad ei werth ei hun.</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>Mae'r chwilio'n mynegeio ei werthoedd.</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>Gall gasglu gwybodaeth gan ymwelwyr (ffurflenni).</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>Gellir trefnu rhestrau yn ôl hwn: allwedd drefnu %type.</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>Didolladwy</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>Mae ei werthoedd yn pwyntio at wrthrychau eraill.</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>Perthnasoedd</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>Gellir ei lenwi o linyn testun plaen (mewnforio, REST).</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>O destun</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>Gellir ei lenwi o ffeil.</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>O ffeil</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>Mae gosodiadau ei briodoledd dosbarth yn mynd i becynnau.</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>Pecynnau</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>Cynnwys (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from i %to o %count</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Hidlo'r rhestr</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>Pob dosbarth</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Adran</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Ieithoedd</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Perchennog</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Wedi'i gyhoeddi</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>Gwrthdroi'r drefn</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Dim eitem</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Fesul tudalen</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Dangos %count eitem fesul tudalen.</translation>
     </message>
 </context>
 </TS>

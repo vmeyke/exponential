@@ -16,22 +16,25 @@ Jedes Modul des Kernels und der mitgelieferten Erweiterungen, aus seiner `module
 |---|---|---|
 | [apikey](apikey/README.md) | 1 | `kernel/apikey/module.php` |
 | [audit](audit/README.md) | 9 | `kernel/audit/module.php` |
-| [class](class/README.md) | 11 | `kernel/class/module.php` |
+| [class](class/README.md) | 12 | `kernel/class/module.php` |
 | [collaboration](collaboration/README.md) | 4 | `kernel/collaboration/module.php` |
-| [content](content/README.md) | 44 | `kernel/content/module.php` |
+| [content](content/README.md) | 46 | `kernel/content/module.php` |
 | [contentcheck](contentcheck/README.md) | 7 | `kernel/contentcheck/module.php` |
 | [contentfinder](contentfinder/README.md) | 2 | `kernel/contentfinder/module.php` |
 | [csp](csp/README.md) | 1 | `kernel/csp/module.php` |
 | [datatable](datatable/README.md) | 9 | `kernel/datatable/module.php` |
 | [error](error/README.md) | 1 | `kernel/error/module.php` |
-| [exphelp](exphelp/README.md) | 15 | `kernel/exphelp/module.php` |
+| [exphelp](exphelp/README.md) | 16 | `kernel/exphelp/module.php` |
 | [expimageeditor](expimageeditor/README.md) | 1 | `extension/expimageeditor/modules/expimageeditor/module.php` |
 | [ezinfo](ezinfo/README.md) | 3 | `kernel/ezinfo/module.php` |
 | [ezjscore](ezjscore/README.md) | 3 | `extension/ezjscore/modules/ezjscore/module.php` |
 | [ezoe](ezoe/README.md) | 8 | `extension/ezoe/modules/ezoe/module.php` |
+| [graphql](graphql/README.md) | 2 | `kernel/graphql/module.php` |
 | [infocollector](infocollector/README.md) | 4 | `kernel/infocollector/module.php` |
 | [layout](layout/README.md) | 1 | `kernel/layout/module.php` |
 | [mailpreferences](mailpreferences/README.md) | 7 | `kernel/mailpreferences/module.php` |
+| [migration](migration/README.md) | 14 | `kernel/migration/module.php` |
+| [moderation](moderation/README.md) | 3 | `kernel/moderation/module.php` |
 | [notification](notification/README.md) | 5 | `kernel/notification/module.php` |
 | [oauth](oauth/README.md) | 1 | `kernel/private/modules/oauth/module.php` |
 | [oauthadmin](oauthadmin/README.md) | 6 | `kernel/private/modules/oauthadmin/module.php` |
@@ -46,11 +49,12 @@ Jedes Modul des Kernels und der mitgelieferten Erweiterungen, aus seiner `module
 | [setup](setup/README.md) | 45 | `kernel/setup/module.php` |
 | [shop](shop/README.md) | 36 | `kernel/shop/module.php` |
 | [state](state/README.md) | 6 | `kernel/state/module.php` |
+| [staticpublish](staticpublish/README.md) | 10 | `kernel/staticpublish/module.php` |
 | [switchlanguage](switchlanguage/README.md) | 1 | `kernel/private/modules/switchlanguage/module.php` |
 | [trigger](trigger/README.md) | 1 | `kernel/trigger/module.php` |
 | [uiswitch](uiswitch/README.md) | 2 | `kernel/uiswitch/module.php` |
 | [url](url/README.md) | 3 | `kernel/url/module.php` |
-| [user](user/README.md) | 17 | `kernel/user/module.php` |
+| [user](user/README.md) | 20 | `kernel/user/module.php` |
 | [visual](visual/README.md) | 7 | `kernel/visual/module.php` |
 | [workflow](workflow/README.md) | 11 | `kernel/workflow/module.php` |
 

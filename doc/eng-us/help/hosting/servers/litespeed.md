@@ -4,7 +4,7 @@ audience: hosting
 category: hosting
 order: 60
 summary: What the Exponential sources say about LiteSpeed and OpenLiteSpeed hosting: the shipped Apache rules, the LSAPI SAPI, open_basedir, what to test before selling a plan, and where Velocity fits.
-keywords: LiteSpeed, OpenLiteSpeed, LSAPI, litespeed SAPI, htaccess, .htaccess_root, shared hosting, open_basedir, rewrite, tier 3
+keywords: LiteSpeed, OpenLiteSpeed, LSAPI, litespeed SAPI, htaccess, .htaccess_root, shared hosting, open_basedir, rewrite, tier 3, page cache, LSCache, X-LiteSpeed-Cache, CacheRoot, cache module
 type: help
 ---
 # LiteSpeed and OpenLiteSpeed
@@ -14,6 +14,20 @@ whether Exponential runs there, which rules to use, what the code knows about Li
 plan goes on sale. LiteSpeed's own menus and settings are not described here; check your LiteSpeed documentation for
 them.
 
+> **Warning**
+> **`.htaccess` slows down every request.** When `.htaccess` files are enabled (`AllowOverride` anything but `None`), let alone
+> used, Apache looks for them and reads and evaluates them on every request, in every directory of the path, and
+> page loading times go up drastically ([measured](../../../guides/setup-files-from-the-console.md#measured-htaccess-against-rules-in-the-virtual-host)). The only real fix is to switch the feature off for
+> the virtual host: `AllowOverride None` in the HTTPS virtual host, and the rules in the virtual host's own
+> configuration as mod_rewrite rules. That is far faster in production speed tests and well worth the time it takes
+> to optimize a production configuration. Switch over right away: copy the rules of the
+> [example HTTPS virtual host](../../../examples/web-servers/apache-virtual-host.md) into your virtual host (with the static cache, also
+> [`staticcache_offload.conf`](../../../examples/staticcache_offload.conf)), set `AllowOverride None`, run `apachectl configtest`, reload Apache and
+> test the site. The same rules for other servers: [nginx](../../../examples/web-servers/nginx.md), [LiteSpeed](../../../examples/web-servers/litespeed.md),
+> [Caddy](../../../examples/web-servers/caddy.md), [IIS](../../../examples/web-servers/iis.md), [Velocity](../../../examples/web-servers/velocity.md) (built in); where virtual host rules go in a control
+> panel: [Plesk](../panels/plesk.md), [cPanel](../panels/cpanel.md), [DirectAdmin](../panels/directadmin.md), [ISPConfig](../panels/ispconfig.md).
+> **On LiteSpeed or OpenLiteSpeed,** the server's own page cache can also answer anonymous visitors and crawlers without PHP: [Page caching with LiteSpeed and OpenLiteSpeed](../../../guides/litespeed-page-cache.md).
+
 ## Contents
 
 1. [What the sources say](#what-the-sources-say)
@@ -21,7 +35,8 @@ them.
 3. [PHP under LiteSpeed](#php-under-litespeed)
 4. [What to test before selling a plan](#what-to-test-before-selling-a-plan)
 5. [Velocity on a LiteSpeed host](#velocity-on-a-litespeed-host)
-6. [Checklist](#checklist)
+6. [The page cache of LiteSpeed](#the-page-cache-of-litespeed)
+7. [Checklist](#checklist)
 
 ## What the sources say
 
@@ -46,7 +61,12 @@ your own LiteSpeed version.
    cp .htaccess_root .htaccess
    ```
 
-   Use `.htaccess_root_static` instead only when the site serves a generated static cache
+   or, as the site's user, `./console exp:setup:htaccess --apply`
+   ([Setting up .htaccess and config.php from the console](../../../guides/setup-files-from-the-console.md)).
+   LiteSpeed Enterprise reads it on the next request. OpenLiteSpeed reads only the rewrite rules, only with
+   `autoLoadHtaccess` on and only after a restart; put the rules in its virtual host instead
+   ([LiteSpeed example](../../../examples/web-servers/litespeed.md)).
+   Use `.htaccess_root_static` instead (`--static`) only when the site serves a generated static cache
    ([Static cache](../performance/static-cache.md)).
 3. **PHP:** 8.0 or later with the required extensions ([Chapter 2](../../../install/02-requirements.md#23-php-extensions)),
    `memory_limit` at least 64M (the setup wizard's floor; give production more), `date.timezone` set, `file_uploads`
@@ -89,13 +109,38 @@ that you control, Velocity can run beside it on its own ports and the LiteSpeed 
 same shape as with Apache or nginx ([Velocity beside Apache or nginx](velocity-beside-apache-or-nginx.md)). The proxy
 must be trusted and must set `X-Forwarded-Proto` ([Chapter 8, Behind a reverse proxy](../../../install/08-serving-the-site.md#88-behind-a-reverse-proxy)).
 
+## The page cache of LiteSpeed
+
+LiteSpeed Enterprise and OpenLiteSpeed have a page cache built in. For an Exponential site it is switched on without
+any plugin and without code: `.htaccess_root` carries a commented block (`## >>> LiteSpeed page cache`) that marks
+anonymous `GET` and `HEAD` requests without a query string, session cookie or `is_logged_in` cookie, outside the
+administration, user, shop and editing views, for `max-age` (120) seconds. Removing the first `#` of each line of the
+block switches it on; Apache and nginx ignore it (`<IfModule LiteSpeed>`). For a virtual host, Plesk's "Additional
+directives for HTTPS", cPanel's include files or DirectAdmin's custom configuration there is
+[`litespeed-page-cache.conf`](../../../examples/web-servers/litespeed-page-cache.conf); OpenLiteSpeed's cache module
+is in the [OpenLiteSpeed example](../../../examples/web-servers/litespeed.md#page-cache).
+
+What a host should know before offering it:
+
+| Question | Answer |
+|---|---|
+| What has to be on the server | a cache directory: `CacheRoot` at server level (Enterprise) or the cache module's `storagePath` (OpenLiteSpeed) |
+| Who gets stored pages | anonymous visitors and crawlers only; editors and signed-in members carry a session cookie and always reach PHP |
+| What editors see after publishing | the live page; anonymous visitors see the change after at most `max-age` seconds, because Exponential does not purge LiteSpeed |
+| How to check | `curl -sI https://example.com/ \| grep -i x-litespeed-cache` twice: `miss`, then `hit` |
+| What it saves | a hit takes no PHP process and no database query; crawler bursts become cheap |
+
+Step by step for every panel, purging, troubleshooting and security:
+[Page caching with LiteSpeed and OpenLiteSpeed](../../../guides/litespeed-page-cache.md).
+
 ## Checklist
 
 - [ ] `.htaccess` copied from `.htaccess_root`; document root is the installation root.
 - [ ] Web and CLI PHP are the same version with the same extensions.
 - [ ] The routing checks and the tests above pass on a staging account.
 - [ ] `open_basedir` effects on preload and other background runs are known and documented for support.
-- [ ] After each upgrade, `.htaccess` is refreshed from the new `.htaccess_root`.
+- [ ] After each upgrade, `.htaccess` is refreshed from the new `.htaccess_root` (`./console exp:setup:htaccess` shows the diff; `--force --apply` copies after a backup).
+- [ ] With the page cache on: a second anonymous request says `X-LiteSpeed-Cache: hit`, a signed-in request never does, and customers know the `max-age` delay after publishing ([Page caching with LiteSpeed and OpenLiteSpeed](../../../guides/litespeed-page-cache.md#check-that-it-works)).
 
 **Demo mode on LiteSpeed.** LiteSpeed reads `SetEnv` in `.htaccess` like Apache and passes it to `lsphp`: `SetEnv EXP_DEMO_MODE 1` in a public demo's `.htaccess` switches demo mode on for its web requests, and `security.log` then shows `demo/mode on ... sapi=litespeed`. [Recipe: run a public demo on LiteSpeed and Plesk](run-a-public-demo-on-litespeed-and-plesk.md).
 
@@ -105,6 +150,7 @@ must be trusted and must set `X-Forwarded-Proto` ([Chapter 8, Behind a reverse p
 - [Shared hosting](../models/shared-hosting.md)
 - [Choosing a web server](choosing-a-web-server.md)
 - [Operating system support](../../os-support.md)
+- [Setting up .htaccess and config.php from the console](../../../guides/setup-files-from-the-console.md)
 - [Free documentation](../../free-documentation.md): this page is free to copy, translate and improve under the GNU FDL 1.3.
 
 <!-- exp-partner-block:start -->

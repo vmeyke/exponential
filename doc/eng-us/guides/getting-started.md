@@ -5,6 +5,20 @@ You need no prior knowledge. At the end you have an installed site, you are logg
 interface, you have published a first piece of content, and you have changed a template and seen the change on the
 site. Allow ten to fifteen minutes. The install itself takes about a minute on SQLite.
 
+> **Warning**
+> **`.htaccess` slows down every request.** When `.htaccess` files are enabled (`AllowOverride` anything but `None`), let alone
+> used, Apache looks for them and reads and evaluates them on every request, in every directory of the path, and
+> page loading times go up drastically ([measured](setup-files-from-the-console.md#measured-htaccess-against-rules-in-the-virtual-host)). The only real fix is to switch the feature off for
+> the virtual host: `AllowOverride None` in the HTTPS virtual host, and the rules in the virtual host's own
+> configuration as mod_rewrite rules. That is far faster in production speed tests and well worth the time it takes
+> to optimize a production configuration. Switch over right away: copy the rules of the
+> [example HTTPS virtual host](../examples/web-servers/apache-virtual-host.md) into your virtual host (with the static cache, also
+> [`staticcache_offload.conf`](../examples/staticcache_offload.conf)), set `AllowOverride None`, run `apachectl configtest`, reload Apache and
+> test the site. The same rules for other servers: [nginx](../examples/web-servers/nginx.md), [LiteSpeed](../examples/web-servers/litespeed.md),
+> [Caddy](../examples/web-servers/caddy.md), [IIS](../examples/web-servers/iis.md), [Velocity](../examples/web-servers/velocity.md) (built in); where virtual host rules go in a control
+> panel: [Plesk](../help/hosting/panels/plesk.md), [cPanel](../help/hosting/panels/cpanel.md), [DirectAdmin](../help/hosting/panels/directadmin.md), [ISPConfig](../help/hosting/panels/ispconfig.md).
+> **On LiteSpeed or OpenLiteSpeed,** the server's own page cache can also answer anonymous visitors and crawlers without PHP: [Page caching with LiteSpeed and OpenLiteSpeed](litespeed-page-cache.md).
+
 Every command is run from the root of the installation (the directory that holds `console`, `index.php` and
 `settings/`). Commands that start with `./console` are the same programs as `php bin/php/<name>.php`.
 
@@ -63,7 +77,7 @@ Check that the console runs:
 ```
 
 Expected: the first line reads `console (Exponential) 6.0.15stable` (or the version you installed), and the text ends
-with `Written by 7x (se7enx.com) and the Exponential contributors.`
+with `Written by the Exponential Foundation and 7x (se7enx.com).`
 If you run as `root`, add `--allow-root-user` to the scripts that ask for it. The script's message says so.
 
 ## 3. Install
@@ -71,7 +85,7 @@ If you run as `root`, add `--allow-root-user` to the scripts that ask for it. Th
 ### 3.1 The one command
 
 ```bash
-./console exp:install --random-password --url=http://localhost:8087
+./console exp:install --apply --random-password --url=http://localhost:8087
 ```
 
 This installs the multisite site package on SQLite, in `eng-US`, with the siteaccesses `site` (the public site) and
@@ -102,7 +116,7 @@ Copy the Admin, Username and Password lines now. A copy of the configuration use
 ### 3.2 Other databases
 
 ```bash
-EXP_INSTALL_DB_PASSWORD='YOUR_PASSWORD' ./console exp:install --db=mysql --db-host=127.0.0.1 \
+EXP_INSTALL_DB_PASSWORD='YOUR_PASSWORD' ./console exp:install --apply --db=mysql --db-host=127.0.0.1 \
     --db-name=mysite --db-user=root --db-action=remove --random-password --url=http://localhost:8087
 ```
 
@@ -116,7 +130,7 @@ For the same installation on several servers, write the answers once and run the
 ```bash
 php bin/php/console exp:kickstarter ini        # writes kickstart.ini after a few questions
 php bin/php/console exp:kickstarter run --dry-run
-php bin/php/console exp:kickstarter run --force
+php bin/php/console exp:kickstarter run --apply --force
 ```
 
 `--dry-run` checks the answers and the packages and writes nothing. See
@@ -145,6 +159,9 @@ the installed site. Stop it again with `./console exp:velocity stop --engine=php
 If you ran step 3 with another `--url`, use the Site address that the installer printed.
 
 For production use Apache with PHP-FPM, or Velocity's own `qbix` or `frankenphp` engines: [Velocity engines](../bc/6.0/velocity-engines.md).
+Apache needs the shipped rewrite rules as `.htaccess`: `./console exp:setup:htaccess --apply` copies them, and
+`./console exp:setup:status` shows where `.htaccess` and `config.php` stand
+([Setting up .htaccess and config.php from the console](setup-files-from-the-console.md)).
 If a page is an error, nothing is hidden by the cache yet; read `var/log/error.log` and see
 [Repairing an installation](../bc/6.0/repair.md).
 
@@ -232,6 +249,7 @@ and [Extension loading order](../features/6.0/extension-loading-order.md).
 | Keep the site healthy | [Operating a site](operating-a-site.md), [Security and audit](security-and-audit.md) |
 | Move to a newer release | [Upgrading](upgrading.md) |
 | Change settings from the command line | [exp:ini](../features/6.0/exp-ini-command.md) |
+| Put `.htaccess` and `config.php` into place, change a `config.php` setting | [Setting up .htaccess and config.php from the console](setup-files-from-the-console.md) |
 | Keep an eye on changes made in the admin | [Audit trail](../features/6.0/audit-trail.md) |
 | Run recurring jobs | [Cronjobs console](../features/6.0/cronjobs-console.md) |
 | See what changed and when | [Chronicle by month](../history/README.md), [Changelog 6.0.15](../../changelogs/6.0/6.0.15.md) |

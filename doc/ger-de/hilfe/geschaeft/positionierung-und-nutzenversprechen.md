@@ -51,12 +51,12 @@ Quellen: `README.md` („What does Exponential provide“, „License“, „Req
 | „Exponential ist unabhängig von Datenbank, Plattform und Browser.“ | `README.md` |
 | Die Projekt-Website nennt es „ein preisgekröntes Open-Source-Content-Management-System und Entwicklungsframework für Unternehmen, mit Funktionen für Web-Publishing, Medienportale, Intranets, E-Commerce und Extranets“. | exponential.earth, zitiert auf [Wer ist 7x?](../wer-ist-7x.md#das-produkt-was-exponential-ist) |
 | „Die Nutzung von Exponential unter den Bedingungen der GNU GPL ist kostenlos. Die Professional License ist nicht mehr erhältlich.“ | `README.md`, „License“ |
-| Urheberrechtsvermerke ab 1999 (eZ Systems AS) und ab 1998 (7x und die Exponential Foundation); Git-Historie ab dem 2. September 2002 | `COPYRIGHT.md`; [Wer ist 7x?](../wer-ist-7x.md#fast-dreißig-jahre-die-zeitleiste) |
-| Releases 6.0.0 (1. Januar 2024) bis 6.0.14 (7. Juni 2026); 6.0.15 in Entwicklung | [Wer ist 7x?](../wer-ist-7x.md#die-releases-60x) |
+| Urheberrechtsvermerke ab 1999 (eZ Systems AS) und ab 1998 (die Exponential Foundation und 7x); Git-Historie ab dem 2. September 2002 | `COPYRIGHT.md`; [Wer ist 7x?](../wer-ist-7x.md#fast-dreißig-jahre-die-zeitleiste) |
+| Releases 6.0.0 (1. Januar 2024) bis 6.0.14 (7. Juni 2026); 6.0.15 ist die aktuelle Linie | [Wer ist 7x?](../wer-ist-7x.md#die-releases-60x) |
 | Sechs unterstützte Datenbanken: SQLite 3 (Standard), PostgreSQL, MongoDB, MariaDB, Oracle, MySQL | `README.md`, [Unterstützte Datenbanken](../datenbankunterstuetzung.md) |
 | „fast jedes“ Betriebssystem, „auf dem PHP 8.0 oder später läuft“ | [Unterstützte Betriebssysteme](../betriebssystemunterstuetzung.md) |
-| PHP 8.0 bis 8.5 werden unterstützt | `README.md`, „What version of PHP is required“ |
-| 268 Locale-Dateien, davon 40 mit Schreibrichtung von rechts nach links; Übersetzungen der Administration (die aktuellen Gesamtzahlen stehen am Anfang der Seite Sprachen) | [Sprachen in Exponential](../../sprachen.md) |
+| PHP 8.0 bis 8.5 (PHP 7.4 ohne Support nutzbar) werden unterstützt | `README.md`, „What version of PHP is required“ |
+| 368 Locale-Dateien, davon 43 mit Schreibrichtung von rechts nach links; Übersetzungen der Administration (die aktuellen Gesamtzahlen stehen am Anfang der Seite Sprachen) | [Sprachen in Exponential](../../sprachen.md) |
 | „Der empfohlene Weg ist, den Kernel und jede se7enxweb-Erweiterung als Git-Klon mit vollständiger Historie zu beziehen“ | `README.md`, „Installation“; [Mit Git entwickeln](../mit-git-entwickeln.md) |
 | „Ein veröffentlichter Tag wird nie geändert“ | `SECURITY.md` |
 | Die Dokumentation ist freie Dokumentation unter der GNU FDL 1.3 oder später | [Freie Dokumentation](../freie-dokumentation.md) |
@@ -81,7 +81,7 @@ was andere Produkte tun; so bleiben sie wahr, auch wenn sich der Markt ändert. 
 | **Keine Herstellerbindung** | Code unter der GPL, Pakete über Composer und Packagist, Dokumentation unter der GFDL, jeder beliebige Hoster: Der Kunde kann jederzeit mit jemand anderem weitermachen | `README.md`; [Freie Dokumentation](../freie-dokumentation.md); [Den Code beziehen](../../installation/03-den-code-beschaffen.md) | [Lizenzen für Käufer erklärt](lizenzen-fuer-kaeufer.md) |
 | **Kontinuität über fast dreißig Jahre** | Ein Inhaltsmodell und eine Arbeitsweise, die sich bewährt haben; bestehende Sites können weiterentwickelt werden | [Wer ist 7x?](../wer-ist-7x.md#fast-dreißig-jahre-die-zeitleiste); die Migrationskapitel [14](../../installation/14-migration-von-4x.md), [15](../../installation/15-migration-von-5x-legacy.md), [16](../../installation/16-migration-von-ez-platform-und-ibexa.md) | [Einwandbehandlung](einwandbehandlung.md) |
 | **CMS, Framework und Shop in einem** | Eine Installation für Inhalte, individuelle Anwendungen und einen Onlineshop | [Wer ist 7x?](../wer-ist-7x.md#cms-cmf-und-shop-in-einem) | [Funktionshighlights](funktionshighlights-fuer-kunden.md) |
-| **Viele Sites, viele Sprachen** | Mehrere Sites aus einer Installation; Inhalte in 268 Locales, einschließlich Schreibrichtung von rechts nach links | [Siteaccess-Zuordnung nach Host und Sprache](../../funktionen/6.0/siteaccess-zuordnung-nach-host-und-sprache.md), [Sprachen in Exponential](../../sprachen.md), [Von rechts nach links](../../funktionen/6.0/rechts-nach-links.md) | [Multisite- und mehrsprachige Projekte planen](../fuehrung/multisite-und-mehrsprachigkeit-planen.md) |
+| **Viele Sites, viele Sprachen** | Mehrere Sites aus einer Installation; Inhalte in 368 Locales, einschließlich Schreibrichtung von rechts nach links | [Siteaccess-Zuordnung nach Host und Sprache](../../funktionen/6.0/siteaccess-zuordnung-nach-host-und-sprache.md), [Sprachen in Exponential](../../sprachen.md), [Von rechts nach links](../../funktionen/6.0/rechts-nach-links.md) | [Multisite- und mehrsprachige Projekte planen](../fuehrung/multisite-und-mehrsprachigkeit-planen.md) |
 | **Redakteure haben die Kontrolle** | Seiten bauen ohne Arbeit an Templates; ein Schreibassistent, der nur Entwürfe schreibt | [Der Layout-Editor](../layout-editor.md); [Exponential Intelligence](../../funktionen/6.0/erweiterungen/expai.md) | [Demo-Drehbücher](demo-drehbuecher.md) |
 | **Sichtbare Sicherheit** | Eine Content Security Policy in der Administration, Anmeldung in zwei Schritten, ein manipulationssicheres Audit-Protokoll, ein Leitfaden zur Sicherheitshärtung, vertrauliche Meldung von Sicherheitslücken | [Content Security Policy](../../funktionen/6.0/content-security-policy.md), [Das Audit-Protokoll](../../funktionen/6.0/pruefprotokoll.md), [Sicherheitshärtung](../sicherheitshaertung.md), `SECURITY.md` | [Einwandbehandlung](einwandbehandlung.md) |
 | **Dokumentation im Produkt** | Die Hilfe ist in der Administration, durchsuchbar, nach Zielgruppen gegliedert, als PDF herunterladbar und frei anpassbar | [Das Hilfesystem](../../funktionen/6.0/hilfesystem.md), [Freie Dokumentation](../freie-dokumentation.md) | diese Hilfe |
@@ -113,7 +113,7 @@ Seite ist typisch; ersetzen Sie sie durch das, was Ihr Kunde Ihnen tatsächlich 
 | Exponential 6.0.x: CMS, CMF und eingebauter E-Commerce (`README.md`) | Kostenlos unter der GPL: keine Lizenzgebühr (`README.md`, „License“) | Frei definierbare Inhaltsklassen: ein Objekt, viele Ansichten (`README.md`, „Main Exponential features“) |
 | Exponential Layouts, der visuelle Seitenbaukasten ([Der Layout-Editor](../layout-editor.md)) | Redakteure ordnen Seiten neu an, „ohne Templates anzufassen“ (`README.md`) | Regeln geben jedem Teil einer Site sein eigenes Layout, nach Teilbaum, Klasse, Siteaccess oder Zeit (`README.md`) |
 | Exponential Intelligence, der Schreibassistent ([Exponential Intelligence](../../funktionen/6.0/erweiterungen/expai.md)) | „Nur Entwürfe. Es veröffentlicht nie von sich aus“ (`README.md`) | Felder aus einem Briefing gefüllt, Abgleich von Übersetzungen, Alternativtexte aus Bildern (`README.md`) |
-| Multisite und 268 Locales ([Sprachen in Exponential](../../sprachen.md)) | Sprachen mit Schreibrichtung von rechts nach links werden in Inhalten und Administration unterstützt ([Von rechts nach links](../../funktionen/6.0/rechts-nach-links.md)) | Neue Märkte kommen als Siteaccesses derselben Installation hinzu |
+| Multisite und 368 Locales ([Sprachen in Exponential](../../sprachen.md)) | Sprachen mit Schreibrichtung von rechts nach links werden in Inhalten und Administration unterstützt ([Von rechts nach links](../../funktionen/6.0/rechts-nach-links.md)) | Neue Märkte kommen als Siteaccesses derselben Installation hinzu |
 | Sechs Datenbanken, fast jedes Betriebssystem, viele Webserver oder der mitgelieferte Server Velocity | Kein Datenbankserver ist Pflicht: SQLite braucht keinen (`README.md`) | Freie Wahl des Hostings und die Freiheit umzuziehen |
 | Das Audit-Protokoll, CSP, Anmeldung in zwei Schritten, Leitfaden zur Sicherheitshärtung | „Jeder Eintrag trägt den Hash des vorherigen Eintrags“ ([Das Audit-Protokoll](../../funktionen/6.0/pruefprotokoll.md)) | Nachweis für Prüfer, wer was getan hat |
 | Die Release- und Sicherheitsrichtlinie (`SECURITY.md`) | Korrekturen kommen mit dem nächsten Release; eine veröffentlichte Version ändert sich nie | Planbare Upgrades entlang der 6.0.x-Linie |
@@ -151,13 +151,13 @@ sie für Nachfragen bereit.
 >    bemerkenswertestes Merkmal ist ein Inhaltsmodell, das Sie selbst definieren. [README]
 > 2. Nachrichtenveröffentlichung, E-Commerce und Foren sind eingebaut, und es bedient mehrere Sites und Sprachen aus
 >    einer Installation. [README]
-> 3. Inhalte lassen sich in 268 Locales schreiben, Sprachen mit Schreibrichtung von rechts nach links eingeschlossen,
+> 3. Inhalte lassen sich in 368 Locales schreiben, Sprachen mit Schreibrichtung von rechts nach links eingeschlossen,
 >    und die Administration spricht viele Sprachen, die aktuellen Gesamtzahlen stehen am Anfang der Seite Sprachen. [Sprachen in Exponential]
 > 4. Redakteure bauen Seiten mit Exponential Layouts selbst, und Exponential Intelligence hilft ihnen beim Schreiben,
 >    aber immer nur in Form von Entwürfen, die ein Mensch veröffentlicht. [README]
 > 5. Es ist unter der GNU General Public License, Version 2 oder später, kostenlos nutzbar, und seine Dokumentation ist
 >    frei unter der GNU Free Documentation License. [README, Freie Dokumentation]
-> 6. Es läuft auf fast jedem Betriebssystem mit PHP 8.0 oder später, hinter Apache, Nginx und anderen Webservern oder
+> 6. Es läuft auf fast jedem Betriebssystem mit PHP 8.0 oder später (PHP 7.4 ohne Support nutzbar), hinter Apache, Nginx und anderen Webservern oder
 >    auf seinem eigenen Server Velocity. [Unterstützte Betriebssysteme, README]
 > 7. Es unterstützt sechs Datenbanken, mit SQLite als Standard, sodass eine Site überhaupt keinen Datenbankserver
 >    braucht. [Unterstützte Datenbanken]
@@ -177,7 +177,7 @@ sie für Nachfragen bereit.
 | **Redaktionsleitung** | Entwürfe, Versionen, Freigabe-Workflows und ein Schreibassistent, der nie von sich aus veröffentlicht | [Veröffentlichen, Versionen und der Papierkorb](../veroeffentlichen-und-versionen.md), [Workflows](../../anleitungen/workflows.md), [Exponential Intelligence](../../funktionen/6.0/erweiterungen/expai.md) |
 | **IT und Betrieb** | Ihr Betriebssystem, Ihr Webserver, Ihre Datenbank; ein dokumentierter Leitfaden zur Sicherheitshärtung und ein Audit-Protokoll | [Unterstützte Betriebssysteme](../betriebssystemunterstuetzung.md), [Unterstützte Datenbanken](../datenbankunterstuetzung.md), [Sicherheitshärtung](../sicherheitshaertung.md) |
 | **Sicherheitsbeauftragte** | CSP, Anmeldung in zwei Schritten, manipulationssicheres Audit, vertrauliche Meldung, klare Release-Richtlinie | [Content Security Policy](../../funktionen/6.0/content-security-policy.md), [Das Audit-Protokoll](../../funktionen/6.0/pruefprotokoll.md), `SECURITY.md` |
-| **Entwickler** | Git-Klone mit vollständiger Historie, Composer-Pakete, Erweiterungen, eine REST-API, PHP 8.0 bis 8.5 | [Mit Git entwickeln](../mit-git-entwickeln.md), [REST-API v1 und v2](../../anleitungen/rest-api-v1-und-v2.md), [Erweiterungen](../../anleitungen/extensions.md) |
+| **Entwickler** | Git-Klone mit vollständiger Historie, Composer-Pakete, Erweiterungen, eine REST-API, PHP 8.0 bis 8.5 (PHP 7.4 ohne Support nutzbar) | [Mit Git entwickeln](../mit-git-entwickeln.md), [REST-API v1 und v2](../../anleitungen/rest-api-v1-und-v2.md), [Erweiterungen](../../anleitungen/extensions.md) |
 | **Betreiber einer älteren Site** | Eine gepflegte Fortführung mit dokumentierten Migrationswegen | Installationskapitel [11](../../installation/11-aktualisieren.md), [14](../../installation/14-migration-von-4x.md), [15](../../installation/15-migration-von-5x-legacy.md), [16](../../installation/16-migration-von-ez-platform-und-ibexa.md) |
 
 ## Wörter, die Sie verwenden, und Wörter, die Sie meiden

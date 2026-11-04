@@ -1,0 +1,74 @@
+{
+    "command:expgraphqlpersist": {
+        "en": "Store GraphQL queries on the server as persisted queries (called by name or SHA-256), list them or remove them; a dry run unless --apply",
+        "de": "Speichert GraphQL-Abfragen als gespeicherte Abfragen auf dem Server (aufgerufen nach Name oder SHA-256), listet sie auf oder entfernt sie; ein Probelauf ohne --apply"
+    },
+    "command:expgraphqlpersist --apply": {
+        "en": "write; without it nothing is changed",
+        "de": "schreiben; ohne diese Option wird nichts geändert"
+    },
+    "command:expgraphqlpersist --format": {
+        "en": "text (the default) or json (with --list)",
+        "de": "text (der Standard) oder json (mit --list)"
+    },
+    "command:expgraphqlpersist --list": {
+        "en": "list the persisted queries",
+        "de": "die gespeicherten Abfragen auflisten"
+    },
+    "command:expgraphqlpersist --name": {
+        "en": "the name of the query (one file only); default: the file name without .graphql",
+        "de": "der Name der Abfrage (nur bei einer Datei); Standard: der Dateiname ohne .graphql"
+    },
+    "command:expgraphqlpersist --remove": {
+        "en": "remove the persisted query of this name or SHA-256 (and its names)",
+        "de": "die gespeicherte Abfrage mit diesem Namen oder SHA-256 entfernen (und ihre Namen)"
+    },
+    "command:expgraphqlquery --id": {
+        "en": "run the persisted query of this name or SHA-256 instead of a query text",
+        "de": "die gespeicherte Abfrage mit diesem Namen oder SHA-256 ausführen statt eines Abfragetexts"
+    },
+    "ini:settings/graphql.ini [GraphQLSettings] AutomaticPersistedQueries": {
+        "en": "Who may store a query by sending its text with its SHA-256 (Apollo's automatic persisted queries):\n  signed-in  (the default) a request signed in by a token, a personal API key or a session\n  enabled    every request, the anonymous one too (at most MaxPersistedQueries are stored)\n  disabled   nobody; queries are stored with exp:graphql:persist only\nA query that may not be stored still runs, as an ad-hoc query.",
+        "de": "Wer eine Abfrage speichern darf, indem er ihren Text mit ihrem SHA-256 sendet (die automatischen Persisted Queries von Apollo):\n  signed-in  (der Standard) eine Anfrage, die mit einem Token, einem persönlichen API-Schlüssel oder einer Sitzung angemeldet ist\n  enabled    jede Anfrage, auch die anonyme (es werden höchstens MaxPersistedQueries gespeichert)\n  disabled   niemand; Abfragen werden nur mit exp:graphql:persist gespeichert\nEine Abfrage, die nicht gespeichert werden darf, läuft trotzdem, als Ad-hoc-Abfrage."
+    },
+    "ini:settings/graphql.ini [GraphQLSettings] CredentialCacheTtl": {
+        "en": "A signed-in GET of a persisted query is answered at the start of index_rest.php too, once the kernel has checked its\ntoken or key: the rights of the credentials (their user's roles) are remembered this many seconds\n(var/cache/graphql/credentials/), and forgotten at once when an API key, a role or a user's rights change. A token\nrevoked otherwise still reads the answers cached for its rights until then. 0: signed-in requests always go\nthrough the kernel.",
+        "de": "Ein angemeldetes GET einer gespeicherten Abfrage wird ebenfalls am Anfang von index_rest.php beantwortet, sobald der\nKernel sein Token oder seinen Schlüssel geprüft hat: Die Rechte der Anmeldedaten (die Rollen ihres Benutzers) werden so\nviele Sekunden gemerkt (var/cache/graphql/credentials/) und sofort vergessen, wenn sich ein API-Schlüssel, eine Rolle\noder die Rechte eines Benutzers ändern. Ein anders widerrufenes Token liest bis dahin noch die Antworten, die für seine\nRechte gecacht sind. 0: Angemeldete Anfragen gehen immer durch den Kernel."
+    },
+    "ini:settings/graphql.ini [GraphQLSettings] MaxPersistedQueries": {
+        "en": "The most queries the store holds before an automatic persisted query is no longer stored (exp:graphql:persist\nstores regardless).",
+        "de": "Die meisten Abfragen, die der Speicher hält, bevor eine automatische gespeicherte Abfrage nicht mehr gespeichert wird\n(exp:graphql:persist speichert trotzdem)."
+    },
+    "ini:settings/graphql.ini [GraphQLSettings] MaxQueryLength": {
+        "en": "The longest query text accepted, in bytes.",
+        "de": "Der längste angenommene Abfragetext, in Bytes."
+    },
+    "ini:settings/graphql.ini [GraphQLSettings] PersistedQueries": {
+        "en": "Persisted queries: queries stored on the server (var/<site>/graphql/persisted/) and called by a name\n(GET /api/graphql?id=articles) or by their SHA-256 (Apollo's extensions.persistedQuery.sha256Hash). Stored with\n./console exp:graphql:persist <file or directory> --apply. enabled (the default) or disabled.",
+        "de": "Gespeicherte Abfragen: Abfragen, die auf dem Server liegen (var/<site>/graphql/persisted/) und mit einem Namen\n(GET /api/graphql?id=articles) oder mit ihrem SHA-256 (extensions.persistedQuery.sha256Hash von Apollo) aufgerufen\nwerden. Gespeichert mit ./console exp:graphql:persist <Datei oder Verzeichnis> --apply. enabled (der Standard) oder\ndisabled."
+    },
+    "ini:settings/graphql.ini [GraphQLSettings] PersistedQueriesOnly": {
+        "en": "Only persisted queries are run at /api/graphql (an ad-hoc query is refused with PERSISTED_QUERY_REQUIRED):\n  disabled   (the default) any query\n  anonymous  anonymous requests may run persisted queries only, signed-in ones any query\n  enabled    every request to /api/graphql runs persisted queries only\nThe session end point (the playground of Setup > GraphQL) and the console always run any query.",
+        "de": "Unter /api/graphql werden nur gespeicherte Abfragen ausgeführt (eine Ad-hoc-Abfrage wird mit PERSISTED_QUERY_REQUIRED abgelehnt):\n  disabled   (der Standard) jede Abfrage\n  anonymous  anonyme Anfragen dürfen nur gespeicherte Abfragen ausführen, angemeldete jede Abfrage\n  enabled    jede Anfrage an /api/graphql führt nur gespeicherte Abfragen aus\nDer Sitzungs-Endpunkt (der Playground unter Setup > GraphQL) und die Konsole führen immer jede Abfrage aus."
+    },
+    "ini:settings/graphql.ini [GraphQLSettings] PersistedQueryDirectoryList": {
+        "en": "Directories of persisted queries shipped with the code: every <name>.graphql file is the persisted query <name>,\nread only (exp:graphql:persist --list shows them). Relative to the installation root, or absolute; an extension\nadds its own directory in its settings/graphql.ini.append.php.\nPersistedQueryDirectoryList[]=extension/myfrontend/graphql",
+        "de": "Verzeichnisse gespeicherter Abfragen, die mit dem Code ausgeliefert werden: Jede Datei <name>.graphql ist die\ngespeicherte Abfrage <name>, nur lesbar (exp:graphql:persist --list zeigt sie). Relativ zum Wurzelverzeichnis der\nInstallation oder absolut; eine Erweiterung fügt ihr eigenes Verzeichnis in ihrer settings/graphql.ini.append.php hinzu.\nPersistedQueryDirectoryList[]=extension/myfrontend/graphql"
+    },
+    "ini:settings/graphql.ini [GraphQLSettings] RateLimit": {
+        "en": "Rate limits: the requests one signed-in user or one personal API key (RateLimit), or one IP address of anonymous\nrequests (RateLimitAnonymous), may send in RateLimitWindow seconds; 0: no limit. A request over its limit is\nanswered 429 with RATE_LIMITED and Retry-After; every answer carries X-RateLimit-Limit, X-RateLimit-Remaining and\nX-RateLimit-Reset. Counted in var/cache/graphql/rate/ by every web server worker alike. The console is not limited.",
+        "de": "Ratenbegrenzung: die Anfragen, die ein angemeldeter Benutzer oder ein persönlicher API-Schlüssel (RateLimit) oder\neine IP-Adresse anonymer Anfragen (RateLimitAnonymous) in RateLimitWindow Sekunden senden darf; 0: keine Grenze. Eine\nAnfrage über ihrer Grenze wird mit 429, RATE_LIMITED und Retry-After beantwortet; jede Antwort trägt\nX-RateLimit-Limit, X-RateLimit-Remaining und X-RateLimit-Reset. Gezählt in var/cache/graphql/rate/, von jedem Worker\ndes Webservers gleich. Die Konsole ist nicht begrenzt."
+    },
+    "ini:settings/graphql.ini [GraphQLSettings] ResponseCache": {
+        "en": "The response cache: the answers of persisted queries, kept per siteaccess, schema, user rights (roles and their\nlimitations, as the view cache), variables and address, in var/cache/graphql/responses/. An anonymous GET of a\npersisted query is answered from it at the start of index_rest.php, before the settings and the database. Every\nanswer is expired when content is published (whenever view caches are cleared), when a class changes, when\npersisted queries are stored or removed, and by ezcache --clear-id=graphql (also --clear-tag=ini and content).\nAd-hoc queries are never kept. enabled (the default) or disabled.",
+        "de": "Der Antwort-Cache: die Antworten gespeicherter Abfragen, gehalten je Siteaccess, Schema, Benutzerrechten (Rollen und\nihre Einschränkungen, wie beim View-Cache), Variablen und Adresse, in var/cache/graphql/responses/. Ein anonymes GET\neiner gespeicherten Abfrage wird daraus am Anfang von index_rest.php beantwortet, vor den Einstellungen und der\nDatenbank. Jede Antwort läuft ab, wenn Inhalt veröffentlicht wird (wann immer View-Caches geleert werden), wenn sich\neine Klasse ändert, wenn gespeicherte Abfragen gespeichert oder entfernt werden, und mit ezcache --clear-id=graphql\n(auch --clear-tag=ini und content). Ad-hoc-Abfragen werden nie behalten. enabled (der Standard) oder disabled."
+    },
+    "ini:settings/graphql.ini [GraphQLSettings] ResponseCacheTtl": {
+        "en": "Seconds an answer is kept at most, also without a publish; 0: until it is expired.",
+        "de": "Die Sekunden, die eine Antwort höchstens gehalten wird, auch ohne Veröffentlichung; 0: bis sie abläuft."
+    },
+    "ini:settings/graphql.ini [GraphQLSettings] SchemaExtensionList": {
+        "en": "Schema extensions: classes implementing expGraphQLSchemaExtension that add root queries, fields of Location and the\ntypes of their datatypes; each answers only where it is available (its extension active). The kernel ships the one\nof eztags (the root queries tag and tags, the eztags fields as [Tag]), the one of explayouts (the root query\nlayout, Location.layout) and the one of the migrations (the read-only root queries migrationStatus, migrations,\nmigrationRuns and migrationRun, for users with migration/read). An extension adds its own in its\nsettings/graphql.ini.append.php.",
+        "de": "Schema-Erweiterungen: Klassen, die expGraphQLSchemaExtension implementieren und Abfragen der Wurzel, Felder von\nLocation und die Typen ihrer Datentypen hinzufügen; jede antwortet nur dort, wo sie verfügbar ist (ihre Erweiterung\naktiv). Der Kernel liefert die von eztags (die Abfragen tag und tags, die eztags-Felder als [Tag]), die von\nexplayouts (die Abfrage layout, Location.layout) und die der Migrationen (die nur lesenden Abfragen migrationStatus,\nmigrations, migrationRuns und migrationRun, für Benutzer mit migration/read) mit. Eine Erweiterung fügt ihre eigene in\nihrer settings/graphql.ini.append.php hinzu."
+    }
+}

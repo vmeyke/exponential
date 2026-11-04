@@ -5,21 +5,23 @@
  * (CI) they are skipped.
  *
  *  CS-01 - --help names the options and exits 0
- *  CS-02 - --dry-run lists the plan, ends in PASS and changes nothing (row counts stay the same)
- *  CS-03 - --remove --dry-run changes nothing either
+ *  CS-02 - no option and --dry-run list the plan, end in PASS and change nothing (row counts stay the same);
+ *          --apply together with --dry-run is a usage error (exit 2)
+ *  CS-03 - --remove without --apply changes nothing either
  *  CS-04 - Every marker the command writes starts with "Sample: " / "sample-collab-" / example.invalid (the contract --remove relies on)
  *  CS-05 - Opening an item that does not exist is "not available", not a fatal error (it was a 500)
  *  CS-06 - The state of an approval item: waiting, approved, denied; any other type is open or closed
  *  CS-07 - The group manager refuses an empty name and a missing group before it touches anything
  *  CS-08 - (changes the installation, so only with EXP_COLLAB_SAMPLE_MUTATE=1 on an installation without sample data)
- *          apply builds the set, a second apply creates nothing, --remove leaves nothing behind
+ *          --apply builds the set, a second --apply creates nothing, --remove --apply leaves nothing behind
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package tests
  * @group collaboration
  */
 
+#[\PHPUnit\Framework\Attributes\Group('collaboration')]
 class CollaborationSampleDataTest extends PHPUnit\Framework\TestCase
 {
     private static $installation;
@@ -78,6 +80,7 @@ class CollaborationSampleDataTest extends PHPUnit\Framework\TestCase
         $this->assertSame( 0, $code );
         $this->assertStringContainsString( '--remove', $out );
         $this->assertStringContainsString( '--dry-run', $out );
+        $this->assertStringContainsString( '--apply', $out );
         $this->assertStringContainsString( 'example.invalid', $out );
     }
 
@@ -85,13 +88,19 @@ class CollaborationSampleDataTest extends PHPUnit\Framework\TestCase
     public function testDryRunPlansAndChangesNothing()
     {
         $before = $this->counts();
-        list( $code, $out ) = $this->command( array( '--dry-run' ) );
-        $this->assertSame( 0, $code, $out );
-        $this->assertStringContainsString( 'Dry run', $out );
-        $this->assertStringContainsString( 'Editors (sample)', $out );
-        $this->assertStringContainsString( 'Approval (sample)', $out );
-        $this->assertStringContainsString( 'Sample: Spring campaign announcement', $out );
-        $this->assertMatchesRegularExpression( '/PASS: dry run, \d+ step\(s\) pending/', $out );
+        foreach ( array( array(), array( '--dry-run' ) ) as $args )
+        {
+            list( $code, $out ) = $this->command( $args );
+            $this->assertSame( 0, $code, $out );
+            $this->assertStringContainsString( 'Dry run', $out );
+            $this->assertStringContainsString( 'Editors (sample)', $out );
+            $this->assertStringContainsString( 'Approval (sample)', $out );
+            $this->assertStringContainsString( 'Sample: Spring campaign announcement', $out );
+            $this->assertMatchesRegularExpression( '/PASS: \d+ step\(s\) pending \(dry run, nothing changed; --apply writes\)/', $out );
+            $this->assertSame( $before, $this->counts() );
+        }
+        list( $code, $out ) = $this->command( array( '--apply', '--dry-run' ) );
+        $this->assertSame( 2, $code, $out );
         $this->assertSame( $before, $this->counts() );
     }
 
@@ -99,10 +108,13 @@ class CollaborationSampleDataTest extends PHPUnit\Framework\TestCase
     public function testRemoveDryRunChangesNothing()
     {
         $before = $this->counts();
-        list( $code, $out ) = $this->command( array( '--remove', '--dry-run' ) );
-        $this->assertSame( 0, $code, $out );
-        $this->assertStringContainsString( 'PASS: dry run', $out );
-        $this->assertSame( $before, $this->counts() );
+        foreach ( array( array( '--remove' ), array( '--remove', '--dry-run' ) ) as $args )
+        {
+            list( $code, $out ) = $this->command( $args );
+            $this->assertSame( 0, $code, $out );
+            $this->assertStringContainsString( '(dry run, nothing changed; --apply writes)', $out );
+            $this->assertSame( $before, $this->counts() );
+        }
     }
 
     /** CS-04 */
@@ -217,7 +229,7 @@ class CollaborationSampleDataTest extends PHPUnit\Framework\TestCase
         if ( $start['sample_objects'] || $start['sample_section'] || $start['sample_workflow'] || $start['sample_groups'] )
             $this->markTestSkipped( 'the installation has sample data already: remove it first' );
 
-        list( $code, $out ) = $this->command( array() );
+        list( $code, $out ) = $this->command( array( '--apply' ) );
         $this->assertSame( 0, $code, $out );
         $this->assertMatchesRegularExpression( '/PASS: \d+ created/', $out );
         $built = $this->counts();
@@ -226,12 +238,12 @@ class CollaborationSampleDataTest extends PHPUnit\Framework\TestCase
         $this->assertGreaterThanOrEqual( 11, $built['sample_objects'] ); // folder, group, 3 editors, 7 articles
         $this->assertSame( $start['items'] + 7, $built['items'] );
 
-        list( $code, $out ) = $this->command( array() );
+        list( $code, $out ) = $this->command( array( '--apply' ) );
         $this->assertSame( 0, $code, $out );
         $this->assertStringContainsString( 'PASS: 0 created', $out );
         $this->assertSame( $built, $this->counts(), 'a second run changes nothing' );
 
-        list( $code, $out ) = $this->command( array( '--remove' ) );
+        list( $code, $out ) = $this->command( array( '--remove', '--apply' ) );
         $this->assertSame( 0, $code, $out );
         $this->assertSame( $start, $this->counts(), '--remove leaves exactly what was there before' );
 

@@ -2,7 +2,7 @@
 /**
  * File containing the eZTemplateBlockFunction class.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -136,6 +136,8 @@ class eZTemplateBlockFunction
                 $newNodes = array_merge( $newNodes, $children );
             }
             $newNodes[] = eZTemplateNodeTool::createAssignFromOutputVariableNode( 'blockText' );
+            // a captured value keeps no debug comments of Debug or ShowTemplatePathComments (eZTemplate::capturedText)
+            $newNodes[] = eZTemplateNodeTool::createCodePieceNode( "if ( eZTemplate::debugCommentsEnabled() ) \$blockText = eZTemplate::capturedText( \$blockText );" );
             if ( $functionName == $this->AppendBlockName )
             {
                 $data = array( eZTemplateNodeTool::createVariableElement( $variableName, $name, $scope ) );
@@ -255,6 +257,8 @@ class eZTemplateBlockFunction
                     }
                 }
                 $text = implode( '', $childTextElements );
+                if ( eZTemplate::debugCommentsEnabled() )
+                    $text = eZTemplate::capturedText( $text );
                 if ( $functionName == $this->AppendBlockName )
                 {
                     $textArray = array();

@@ -15,6 +15,10 @@ default, scope) and ends with "Related pages".
 | [Commands, cronjob parts and module views as classes](runnable-commands-cronjobs-views.md) | The runnable classes, entry points, events, re-implementation and listeners |
 | [INI override directories and placements](ini-override-placements.md) | How `eZINI` orders settings files; per-siteaccess settings inside extensions |
 | [Audit event model](audit-event-model.md) | Event names, records, channels, hash chains, `audit.ini`, extension points |
+| [The static publishing build format](static-publishing-build-format.md) | The folders, where pages and files go, what is taken out, what refuses a page, link rewriting, the extras, the manifest `exp-static-manifest/1`, `exp-static/1`, the link check |
+| [The static publishing manifest](static-publishing-manifest.md) | `exp-static-manifest/1` in depth: files, encoding, paths, the file entry, how diff, apply, partial builds, verify, the pages of a publish and rollback use it |
+| [The static publishing form endpoint](static-publishing-form-endpoint.md) | The endpoint `staticpublish/form` that forms of a static copy post to: origin, signed token, rate limit |
+| [The migration file format](migration-file-format.md) | File names, the header, the PHP class, the checksum, order, states, the record tables, the status file, the run log, `exp-migration/1` |
 | [Extension metadata](extension-metadata.md) | `ezinfo.php`, `extension.xml`, `expInfo`, the release rule |
 | [Installer logs and seed data](installer-logs-and-seed-data.md) | Seed files, the content tree of a new installation, installer logs |
 | [Notifications](notifications.md) | Events, handlers, rules, digest, the service, lock and run record, views, templates |
@@ -22,6 +26,7 @@ default, scope) and ends with "Related pages".
 | [Notification commands](notifications-cli.md) | `exp:notification:status`, `run`, `events`, `subscriptions`: options, exit codes, sample output |
 | [E-mail preferences and consent](mail-preferences.md) | Categories, preferences, the consent log, suppression, the mail gate, links, tables, flows, settings |
 | [E-mail preference commands](mail-preferences-cli.md) | `exp:mail:status`, `preferences`, `suppression`, `consent`, `gate`: actions, options, exit codes, sample output |
+| [exp:user JSON output and exit codes](exp-user-json-output.md) | The schema `exp-user/1` of the user management commands: common keys, the keys of each command, the exit codes, the permanent contract |
 | [E-mail preferences: the law checklist](mail-preferences-compliance.md) | CAN-SPAM, GDPR and ePrivacy, CCPA/CPRA, CASL, RFC 8058 mapped to code and tests; the gaps |
 | [Help system](help-system.md) | Help and manuals as content: DITA topic classes, sections, object states, roles, validator, web, context help and e-book delivery |
 | [Help style guide](help-style-guide.md) | Editorial rules for help topics: topic types with templates, steps, notices, figures, `help_id`, fields, terminology |

@@ -2,7 +2,7 @@
 /**
  * File containing the eZProductCollectionItem class.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -176,11 +176,21 @@ class eZProductCollectionItem extends eZPersistentObject
 
         $db = eZDB::instance();
         $db->begin();
-        foreach( $itemOptionList as $itemOption )
+        try
         {
-            $itemOption->remove();
+            foreach( $itemOptionList as $itemOption )
+            {
+                $itemOption->remove();
+            }
+            $this->remove();
         }
-        $this->remove();
+        catch ( Throwable $e )
+        {
+            // nothing of a transaction that failed half way is committed by a later commit()
+            if ( $db->transactionCounter() > 0 )
+                $db->rollback();
+            throw $e;
+        }
         $db->commit();
     }
 
@@ -199,27 +209,37 @@ class eZProductCollectionItem extends eZPersistentObject
         {
             $db = eZDB::instance();
             $db->begin();
-            foreach( $optionList as $option )
+            try
             {
-                $objectAttribute = eZContentObjectAttribute::fetch( $option->attribute( 'object_attribute_id' ), $contentObjectVersion );
-                if ( $objectAttribute == null )
+                foreach( $optionList as $option )
                 {
-                    $optionsPrice += 0.0;
-                    continue;
+                    $objectAttribute = eZContentObjectAttribute::fetch( $option->attribute( 'object_attribute_id' ), $contentObjectVersion );
+                    if ( $objectAttribute == null )
+                    {
+                        $optionsPrice += 0.0;
+                        continue;
+                    }
+
+                    $dataType = $objectAttribute->dataType();
+                    $optionData = $dataType->productOptionInformation( $objectAttribute, $option->attribute( 'option_item_id' ), $this );
+
+                    if ( $optionData )
+                    {
+                        $optionData['additional_price'] = eZShopFunctions::convertAdditionalPrice( $currency, $optionData['additional_price'] );
+                        $option->setAttribute( 'price', $optionData['additional_price'] );
+                        $option->store();
+
+                        $optionsPrice += $optionData['additional_price'];
+                    }
+
                 }
-
-                $dataType = $objectAttribute->dataType();
-                $optionData = $dataType->productOptionInformation( $objectAttribute, $option->attribute( 'option_item_id' ), $this );
-
-                if ( $optionData )
-                {
-                    $optionData['additional_price'] = eZShopFunctions::convertAdditionalPrice( $currency, $optionData['additional_price'] );
-                    $option->setAttribute( 'price', $optionData['additional_price'] );
-                    $option->store();
-
-                    $optionsPrice += $optionData['additional_price'];
-                }
-
+            }
+            catch ( Throwable $e )
+            {
+                // nothing of a transaction that failed half way is committed by a later commit()
+                if ( $db->transactionCounter() > 0 )
+                    $db->rollback();
+                throw $e;
             }
             $db->commit();
         }
@@ -279,18 +299,28 @@ class eZProductCollectionItem extends eZPersistentObject
     {
         $db = eZDB::instance();
         $db->begin();
-        $inText = $db->generateSQLINStatement( $productCollectionIDList, 'productcollection_id', false, false, 'int' );
-        $rows = $db->arrayQuery( "SELECT id FROM ezproductcollection_item WHERE $inText" );
-        if ( count( $rows ) > 0 )
+        try
         {
-            $itemIDList = array();
-            foreach ( $rows as $row )
+            $inText = $db->generateSQLINStatement( $productCollectionIDList, 'productcollection_id', false, false, 'int' );
+            $rows = $db->arrayQuery( "SELECT id FROM ezproductcollection_item WHERE $inText" );
+            if ( count( $rows ) > 0 )
             {
-                $itemIDList[] = $row['id'];
+                $itemIDList = array();
+                foreach ( $rows as $row )
+                {
+                    $itemIDList[] = $row['id'];
+                }
+                eZProductCollectionItemOption::cleanupList( $itemIDList );
             }
-            eZProductCollectionItemOption::cleanupList( $itemIDList );
+            $db->query( "DELETE FROM ezproductcollection_item WHERE $inText" );
         }
-        $db->query( "DELETE FROM ezproductcollection_item WHERE $inText" );
+        catch ( Throwable $e )
+        {
+            // nothing of a transaction that failed half way is committed by a later commit()
+            if ( $db->transactionCounter() > 0 )
+                $db->rollback();
+            throw $e;
+        }
         $db->commit();
     }
 

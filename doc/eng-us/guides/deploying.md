@@ -2,7 +2,21 @@
 
 This guide is for the person who puts a site on a server: an operator, or a developer who runs their own. It takes a freshly installed Exponential site to a server that visitors reach over HTTPS. Then it shows how to ship a code change safely and how to keep the site fast. Read it top to bottom. Every command exists in the installation; where a result is shown, it is what the command prints.
 
-You need a Linux server, shell access in the installation directory (the folder that holds `index.php` and `console`), and a site that already runs. If you have no site yet, run `./console exp:install` first ([Getting started](getting-started.md), [Installing in one command](../features/6.0/install-in-one-command.md)).
+> **Warning**
+> **`.htaccess` slows down every request.** When `.htaccess` files are enabled (`AllowOverride` anything but `None`), let alone
+> used, Apache looks for them and reads and evaluates them on every request, in every directory of the path, and
+> page loading times go up drastically ([measured](setup-files-from-the-console.md#measured-htaccess-against-rules-in-the-virtual-host)). The only real fix is to switch the feature off for
+> the virtual host: `AllowOverride None` in the HTTPS virtual host, and the rules in the virtual host's own
+> configuration as mod_rewrite rules. That is far faster in production speed tests and well worth the time it takes
+> to optimize a production configuration. Switch over right away: copy the rules of the
+> [example HTTPS virtual host](../examples/web-servers/apache-virtual-host.md) into your virtual host (with the static cache, also
+> [`staticcache_offload.conf`](../examples/staticcache_offload.conf)), set `AllowOverride None`, run `apachectl configtest`, reload Apache and
+> test the site. The same rules for other servers: [nginx](../examples/web-servers/nginx.md), [LiteSpeed](../examples/web-servers/litespeed.md),
+> [Caddy](../examples/web-servers/caddy.md), [IIS](../examples/web-servers/iis.md), [Velocity](../examples/web-servers/velocity.md) (built in); where virtual host rules go in a control
+> panel: [Plesk](../help/hosting/panels/plesk.md), [cPanel](../help/hosting/panels/cpanel.md), [DirectAdmin](../help/hosting/panels/directadmin.md), [ISPConfig](../help/hosting/panels/ispconfig.md).
+> **On LiteSpeed or OpenLiteSpeed,** the server's own page cache can also answer anonymous visitors and crawlers without PHP: [Page caching with LiteSpeed and OpenLiteSpeed](litespeed-page-cache.md).
+
+You need a Linux server, shell access in the installation directory (the folder that holds `index.php` and `console`), and a site that already runs. If you have no site yet, run `./console exp:install --apply` first ([Getting started](getting-started.md), [Installing in one command](../features/6.0/install-in-one-command.md)).
 
 Commands use `./console`, the shortcut for `bin/php/console`. The examples add `--allow-root-user` because they are run as root; leave it off when you run as the site user.
 
@@ -34,8 +48,15 @@ The first line shows the PHP version (8.0 or newer, for Velocity too). The secon
 The document root is the installation directory itself. Exponential keeps its own rewrite rules in a file you enable by copying:
 
 ```bash
-cp .htaccess_root .htaccess
+./console exp:setup:htaccess --apply      # or by hand: cp .htaccess_root .htaccess
 ```
+
+The command shows what it would do without `--apply`, copies with the template's mode (and, run as root with
+`--allow-root-user`, its owner), and refuses with a diff when a `.htaccess` that differs is already there; `--force
+--apply` then replaces it after a backup to `var/backup/setup/<time>/`. `./console exp:setup:config --apply` puts
+`config.php` into place the same way, and `./console exp:config:set <NAME> <value> --apply` changes one of its
+settings. See [Setting up .htaccess and config.php from the console](setup-files-from-the-console.md), which also has a
+provisioning script for containers and CI.
 
 The copy turns on `.htaccess` based virtual host mode: dot files, `.git` and scripts below the front controllers answer 404, `/api/` goes to `index_rest.php`, static design files are served directly and everything else goes to `index.php`. Do not edit security rules out of it to make something work ([security defaults](../specifications/6.0/security-defaults-2026-09.md)).
 
@@ -95,7 +116,7 @@ Velocity is a PHP application server that ships with Exponential. It needs no Ap
 ### 4.1 Select the engine and start it
 
 ```bash
-./console exp:velocity config set ServerSettings Engine qbix --allow-root-user
+./console exp:velocity config set --apply ServerSettings Engine qbix --allow-root-user
 ./console exp:velocity start --allow-root-user
 ./console exp:velocity status --allow-root-user
 ```
@@ -112,7 +133,7 @@ Errors     var/vc/qbix/log/site-error.log
 Plain HTTP is on `Port` (8088 shipped), HTTPS on `HTTPSPort` (8080 shipped), both bound to `Host` (`127.0.0.1` shipped). Open `http://127.0.0.1:8088/` on the same machine. To serve the network, set `Host`:
 
 ```bash
-./console exp:velocity config set ServerSettings Host 0.0.0.0 --allow-root-user
+./console exp:velocity config set --apply ServerSettings Host 0.0.0.0 --allow-root-user
 ./console exp:velocity restart --allow-root-user
 ```
 
@@ -133,7 +154,7 @@ Ports below 1024 need root; the usual setup is Velocity on its own ports behind 
 ./console exp:velocity config list ServerSettings --allow-root-user
 ```
 
-`layout` shows the configuration tree in the style of Apache on Debian (`/etc/vc` with `sites-available`, `sites-enabled`, `conf-available` and so on). Sites, snippets and modules are switched on and off like `a2ensite`: `./console exp:velocity site enable <name> --allow-root-user` ([on-disk layout](../bc/6.0/velocity-ondisk-layout.md)). The server also has a control panel ([Velocity control panel](../features/6.0/velocity-control-panel.md)).
+`layout` shows the configuration tree in the style of Apache on Debian (`/etc/vc` with `sites-available`, `sites-enabled`, `conf-available` and so on). Sites, snippets and modules are switched on and off like `a2ensite`: `./console exp:velocity site enable --apply <name> --allow-root-user` ([on-disk layout](../bc/6.0/velocity-ondisk-layout.md)). The server also has a control panel ([Velocity control panel](../features/6.0/velocity-control-panel.md)).
 
 Depth: [Velocity web server](../features/6.0/velocity-web-server.md), [persistent workers](../features/6.0/velocity-persistent-worker-server.md), [worker pool](../specifications/6.0/velocity-worker-pool.md), [engine settings](../specifications/6.0/velocity-engine-settings.md).
 
@@ -169,16 +190,16 @@ To run all three engines side by side, give each its own port and use `--engine=
 For Velocity with a certificate you already have (a PEM file with certificate and key; both settings may name the same file):
 
 ```bash
-./console exp:velocity config set HTTPSSettings Certificate /etc/ssl/example.com/fullchain.pem --allow-root-user
-./console exp:velocity config set HTTPSSettings Key /etc/ssl/example.com/privkey.pem --allow-root-user
-./console exp:velocity config set HTTPSSettings Enabled true --allow-root-user
+./console exp:velocity config set --apply HTTPSSettings Certificate /etc/ssl/example.com/fullchain.pem --allow-root-user
+./console exp:velocity config set --apply HTTPSSettings Key /etc/ssl/example.com/privkey.pem --allow-root-user
+./console exp:velocity config set --apply HTTPSSettings Enabled true --allow-root-user
 ./console exp:velocity restart --allow-root-user
 curl -skI https://127.0.0.1:8080/ | head -1
 ```
 
 Expect `HTTP/2 200` (or a redirect). The Velocity server can also make a self-signed certificate on its own, obtain and renew Let's Encrypt certificates and swap a renewed certificate in without a restart: [Velocity HTTPS and certificates](../features/6.0/velocity-https-certificates.md).
 
-Strict-Transport-Security is sent on HTTPS answers with `[HTTPSSettings] HSTSMaxAge` (300 seconds shipped). Raise it to a year (`31536000`) only when every name of the site is served over HTTPS for good: a browser remembers the value even after you lower it ([HTTP/2 and security](../specifications/6.0/velocity-http2-and-security.md)).
+Strict-Transport-Security is sent on HTTPS answers with `[HTTPSSettings] HSTSMaxAge` (shipped as 0, which sends none; start with 300). Raise it to a year (`31536000`) only when every name of the site is served over HTTPS for good: a browser remembers the value even after you lower it ([HTTP/2 and security](../specifications/6.0/velocity-http2-and-security.md)).
 
 ## 7. Ship a PHP change with one command
 
@@ -209,7 +230,7 @@ Edits to a template or a stylesheet need less: clear the caches without a restar
 
 ```bash
 ./console exp:cache clear --id=template --allow-root-user
-./console exp:velocity cache clear --allow-root-user
+./console exp:velocity cache clear --apply --allow-root-user
 ```
 
 Never run only `exp:cache clear --all` and then forget the web server: FPM and Velocity keep the old classes in memory until they are reloaded.
@@ -225,7 +246,7 @@ Work down this list; each item is a switch or a command that exists, and `exp:ca
 It prints one line per layer, for example `httpcache  the HTTP cache is on: ... entries`, `querycache  the SQL query cache is on`, `velocity  response cache ...: N files`, and `php  OPcache not enabled for this server` when the opcode cache is off for the command line (normal; it matters for the web process).
 
 1. **Opcode cache.** On PHP-FPM keep `opcache.enable=1` in the pool's PHP configuration. Velocity passes its own opcode cache options to the server process; the shipped values are in `[PHPSettings]` of `settings/velocity.ini`. Measured effect and how to profile: [Velocity and the opcode cache](../features/6.0/velocity-opcode-cache-and-profile.md).
-2. **Response cache (Velocity).** `[CacheSettings] Enabled=enabled`, `DefaultTtl=30` seconds. A page served from it never reaches PHP. Clear it after a template change with `./console exp:velocity cache clear --allow-root-user`. See [Velocity response cache](../features/6.0/velocity-response-cache.md).
+2. **Response cache (Velocity).** `[CacheSettings] Enabled=enabled`, `DefaultTtl=30` seconds. A page served from it never reaches PHP. Clear it after a template change with `./console exp:velocity cache clear --apply --allow-root-user`. See [Velocity response cache](../features/6.0/velocity-response-cache.md).
 3. **HTTP cache.** The role-aware page cache for any engine: `./console exp:cache httpcache status --allow-root-user` ([HTTP cache](../bc/6.0/httpcache.md)).
 4. **SQL query cache.** On by default; `./console exp:cache querycache status --allow-root-user` ([SQL query cache](../bc/6.0/sql-query-cache.md)).
 5. **Static files.** Velocity serves them with a long `StaticMaxAge` and can precompress them (`[ServerSettings] StaticMaxAge`, `PrecompressStatic`) ([static files and images](../features/6.0/velocity-static-files-and-images.md)).
@@ -246,6 +267,9 @@ Run it three times: the first request fills the caches, the others show the cach
 - The browser shows the padlock on the HTTPS address.
 - `./console exp:velocity deploy --dry-run --allow-root-user` lists a `reload PHP-FPM` step with the right service.
 - `./console exp:cache status --allow-root-user` shows the layers you expect.
+- Apache: `./console exp:setup:status --allow-root-user` says `.htaccess` is a copy of `.htaccess_root` (or of
+  `.htaccess_root_static`), and `./console exp:config:list --only-set --allow-root-user` shows the `config.php`
+  settings you expect.
 
 ## Settings used in this guide
 
@@ -265,18 +289,20 @@ All are in `settings/velocity.ini` (shipped defaults). `exp:velocity config set`
 | `[CacheSettings]` | `DefaultTtl` | `30` | Seconds a response stays in that cache |
 | `[HTTPSSettings]` | `Enabled` | `false` | HTTPS on Velocity's `HTTPSPort` |
 | `[HTTPSSettings]` | `Certificate`, `Key` | empty | PEM files of your certificate and key |
-| `[HTTPSSettings]` | `HSTSMaxAge` | `300` | Strict-Transport-Security lifetime in seconds |
+| `[HTTPSSettings]` | `HSTSMaxAge` | `0` | Strict-Transport-Security lifetime in seconds |
 | `[DeploySettings]` | `PhpFpmService` | `auto` | The PHP-FPM service `exp:velocity deploy` reloads |
 | `[FrankenPHPSettings]` | `Port`, `HTTPSPort` | `8089`, `8444` | Ports of the FrankenPHP engine |
 | `[PHPServerSettings]` | `Port` | `8087` | Port of the `php` engine (PHP's own server) |
 
 ## Related pages
 
-- Features: [Velocity web server](../features/6.0/velocity-web-server.md), [Velocity HTTPS and certificates](../features/6.0/velocity-https-certificates.md), [Installing in one command](../features/6.0/install-in-one-command.md).
+- Features: [Velocity web server](../features/6.0/velocity-web-server.md), [Velocity HTTPS and certificates](../features/6.0/velocity-https-certificates.md), [Installing in one command](../features/6.0/install-in-one-command.md), [Console commands for .htaccess and config.php](../features/6.0/setup-files-and-config-php-commands.md).
+- Guide: [Setting up .htaccess and config.php from the console](setup-files-from-the-console.md), with a provisioning script for containers and CI.
 - Specifications: [Velocity engine settings](../specifications/6.0/velocity-engine-settings.md), [worker pool](../specifications/6.0/velocity-worker-pool.md), [HTTP/2 and security](../specifications/6.0/velocity-http2-and-security.md).
 - Measuring the result: [Benchmarking Exponential](benchmarking.md) (Apache against Velocity, a deploy checked for regressions).
 - Upgrade notes: [Velocity engines](../bc/6.0/velocity-engines.md), [FrankenPHP](../bc/6.0/frankenphp.md), [Velocity engine upgrade notes](../bc/6.0/velocity-engine-upgrade-notes.md), [cache console](../bc/6.0/cache-console.md).
 - History: [Velocity chronicle](../history/velocity/2026-09a.md), [October 2026](../history/2026/2026-10.md).
+- [Deploying with migrations](../help/migrations/recipes/deploying-with-migrations.md), [Migrations](../help/migrations/README.md)
 
 <!-- exp-partner-block:start -->
 **Become an Exponential Partner.** Partners share their information, provide funding, contribute back and

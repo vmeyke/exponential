@@ -2,7 +2,7 @@
 /**
  * File containing the ezpContentFieldSet class
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -238,7 +238,10 @@ class ezpContentFieldSet implements ArrayAccess, Iterator
         // level 1 ezpFieldSet
         if ( $this->childrenFieldSets !== null )
         {
-            $this->iteratorData = $this->childrenFieldSets[$this->activeLanguage]->fields;
+            // a language the object has no translation in has no fields
+            $this->iteratorData = isset( $this->childrenFieldSets[$this->activeLanguage] )
+                ? $this->childrenFieldSets[$this->activeLanguage]->fields
+                : array();
             $this->iteratorPointer = array_keys( $this->iteratorData );
         }
         else

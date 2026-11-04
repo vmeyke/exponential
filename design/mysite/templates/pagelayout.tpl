@@ -108,12 +108,13 @@
 <tr>
     <td class="spacer" colspan="5">
     <img src={"1x1.gif"|ezimage} width="1" height="3" alt="" border="0" /><br />
-   <center><a href="http://ez.no/developer"><img src={"powered-by-Exponential-100x35-grey.gif"|ezimage} alt="Exponential" border="0" width="100" height="35" /></a></center>
+   <center><a href="https://exponential.earth"><img src={"powered-by-Exponential-100x35-grey.gif"|ezimage} alt="Exponential" border="0" width="100" height="35" /></a></center>
     <img src={"1x1.gif"|ezimage} width="1" height="3" alt="" border="0" /><br />
     </td>
 </tr>
 </table>
 {/cache-block}
 
+{include uri='design:pagelayout/hooks/body_end.tpl'}
 </body>
 </html>

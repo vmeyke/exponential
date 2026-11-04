@@ -982,6 +982,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>Tiek meklēts tikai šajā lapā: %from–%to no %count.</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Visi kodola un paplašinājumu datu tipi, un kā klases un saturs tos izmanto.</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Datu tipi</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2314,6 +2322,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>Grāmatzīmēm var pievienot arī sistēmas lapas: atveriet lapu (Iestatīšana, audita žurnāls, lietotāju saraksts ...) un virs tās izvēlieties „Pievienot lapu grāmatzīmēm“. Šādām grāmatzīmēm ir zobrata ikona.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>Jūs šeit vairs nedrīkstat atvērt šo lapu. Noņemiet grāmatzīmi vai lūdziet administratoram piekļuvi.</translation>
     </message>
 </context>
 <context>
@@ -5163,6 +5175,210 @@
         <source>Go to the first page</source>
         <translation>Pāriet uz pirmo lapu</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>Cits</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>Pēdējās 7 dienas</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>Pielāgots periods</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>Visi vārdi</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>Jebkurš vārds</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>Precīza frāze</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>Atbilstība</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>Nosaukums A–Z</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>Nosaukums Z–A</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>Modificēts, jaunākie vispirms</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>Modificēts, vecākie vispirms</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>Publicēts, jaunākie vispirms</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>Publicēts, vecākie vispirms</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Modificēts</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>Filtri</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>Rādīt filtrus</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>Slēpt filtrus</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Atiestatīt</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>Lietot</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>Vārdi</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>Satura tips</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>Rādīt vairāk (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>Izvēlieties vienu satura tipu, lai meklētu kādā no tā atribūtiem.</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Sadaļa</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>No</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Līdz</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>Sākuma datums nav derīgs datums.</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>Beigu datums nav derīgs datums.</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Īpašnieks</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>Lietotāja ID, pieteikšanās vārds vai e-pasta adrese.</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>Vaicājumam „%input” netika atrasts neviens lietotājs.</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Valoda</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>Jebkura valoda</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Atrašanās vieta</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>Atrašanās vietas: %count</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>Rezultāti lapā</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>Rezultāti vaicājumam „%text” (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>Rezultāti (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>Kārtot pēc</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>Kārtošana</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>Aktīvie filtri</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>Noņemt šo filtru</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>Vai arī izvēlieties un lietojiet filtrus, lai parādītu atbilstošo saturu.</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>Kad esat ievadījis vārdus, filtri sašaurina meklēšanu.</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>Vaicājumam „%text” netika atrasts neviens rezultāts.</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>Netika atrasts neviens rezultāts.</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>Noņemiet kādu no augstāk esošajiem filtriem.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Tulkojumi</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Darbības</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>Rediģēt %name</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Rediģēt</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -8001,8 +8217,8 @@
         <translation>Sākotnējo autoru un sistēmā Exponential iekļautās trešo pušu programmatūras autortiesību paziņojumi ir saglabāti avota failos un failā LICENSE, kā to prasa licence.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>Tālāk ir sniegts to Exponential līdzautoru saraksts, kuri ir licencējuši savu darbu izmantošanai uzņēmumam 7x saskaņā ar eZ Systems līdzautoru licencēšanas līguma (Contributor Licensing Agreement) noteikumiem. Kā to atļauj šis līgums, 7x izplata katru ieguldījumu saskaņā ar to pašu licenci, kas attiecas uz failu, kurā ieguldījums ir iekļauts. Sarakstā ir norādīts katrs līdzautors, neobligāta kontaktinformācija un faili, kurus viņš ir izveidojis vai kuros ir veicis ieguldījumu.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>Līdzstrādnieki, kuri minēti par savu darbu pie Exponential un programmatūras, no kuras tā izauga, kopā ar failiem, kuros viņi ir devuši ieguldījumu. Tā ir atzinība, nevis autortiesību paziņojums: ieguldījumi Exponential saskaņā ar Contributor Licensing Agreement tiek nodoti Exponential Foundation un 7x.</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13824,32 +14040,20 @@ Piezīme: pakotnes netiks atinstalētas.</translation>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;Izmēģināt Exponential Enterprise Edition&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Kļūt par Exponential kopienas dalībnieku, apmainīties un sniegt ieguldījumu&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Autortiesības &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; un citi.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>Darbina &lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt;. Plašāku informāciju skatiet &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Autortiesības &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; un citi.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> Plašāku informāciju skatiet &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
     </message>
     <message>
-        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Autortiesības &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; un citi.</translation>
+        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;Izmēģināt Exponential (no 7x)&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Kļūt par Exponential kopienas dalībnieku, saņemt atbalstu un sniegt ieguldījumu&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Autortiesības &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; un citi.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13858,6 +14062,61 @@ Piezīme: pakotnes netiks atinstalētas.</translation>
     <message>
         <source>Help center</source>
         <translation>Palīdzības centrs</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>Saturs</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>Dokumentu lapas</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>Lietotāji</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>Satura klases</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>Administrēšana</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>Lapa %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>Skatīt visus rezultātus</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>Rezultāti: %count</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>Viens rezultāts</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>Ieteikumi: %count</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>Nav ieteikumu</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>Ieteikumus neizdevās ielādēt.</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>Ieteikumi</translation>
     </message>
 </context>
 <context>
@@ -14326,6 +14585,14 @@ Piezīme: pakotnes netiks atinstalētas.</translation>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>Šī instalācija ir publiska demonstrācija: tās administratora paroli var zināt ikviens, un administratoru paroles nevar mainīt vai atiestatīt. Neievadiet šeit neko privātu.</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Jūsu ierīces</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Drošības darbības</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14615,6 +14882,14 @@ Piezīme: pakotnes netiks atinstalētas.</translation>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>Ceļveži, meklēšana un kā ziņot par kļūdu.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Jaunākais saturs</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Jaunākais saturs, pārskatīšanai aizturētais un darbības ar atlasi.</translation>
     </message>
 </context>
 <context>
@@ -15073,6 +15348,46 @@ Piezīme: pakotnes netiks atinstalētas.</translation>
         <source>Synchronisations</source>
         <translation>Sinhronizācijas</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>GraphQL API: tā galapunkts, shēma un vide vaicājumu izmēģināšanai.</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migrācijas</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Instalācijas izmaiņas, kas glabātas kā faili: to stāvoklis, izpildes, izpilde un atsaukšana.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Jaunākais saturs</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Jaunākais saturs, pārskatīšanai aizturētais un darbības ar atlasi.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Publicējiet statisku vietnes kopiju vietnē GitHub Pages vai jebkurā git resursdatorā.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Statiskā publicēšana</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Datu tipi</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Visi kodola un paplašinājumu datu tipi, un kā klases un saturs tos izmanto.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15237,6 +15552,22 @@ Piezīme: pakotnes netiks atinstalētas.</translation>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>Konti, ko neviens neizmanto vai kas jāpārbauda; atspējojiet, atbloķējiet vai eksportējiet tos.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Lietotāju audita žurnāls</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>Kas mainīja, pierakstījās vai tika noraidīts, pa kontiem; filtrēt un eksportēt.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Pierakstīšanās atskaite</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>Kas ir pierakstījies, pierakstīšanās un neveiksmes pa dienām; lietotāja izrakstīšana visur.</translation>
     </message>
 </context>
 <context>
@@ -22053,6 +22384,22 @@ Piezīme: pakotnes netiks atinstalētas.</translation>
         <source>%n hours ago</source>
         <translation>pirms %n h</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>GraphQL API saglabāto vaicājumu atbildes un tā shēmas satura klases.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>Publicējiet statisku kopiju vietnē GitHub Pages vai jebkurā git resursdatorā</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Statiskā publicēšana</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>Statiskā kešatmiņa pasniedz lapas no šī servera. Lai publicētu statisku vietnes kopiju citur, vietnē GitHub Pages vai jebkurā git resursdatorā, izmantojiet statisko publicēšanu.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25594,6 +25941,10 @@ Piezīme: pakotnes netiks atinstalētas.</translation>
     <message>
         <source>last purge</source>
         <translation>pēdējā iztīrīšana</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>Rakstīšanas darbības nevarēja iegūt stāvokļa slēdzeni (pēdējo reizi %date): katra no tām padarīja novecojušus visus kešatmiņas rezultātus. %file jābūt rakstāmam katram lietotājam, kā kuram darbojas vietne; NFS vajag NFSv4 vai lockd.</translation>
     </message>
 </context>
 <context>
@@ -33542,6 +33893,14 @@ Piezīme: pakotnes netiks atinstalētas.</translation>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>PHP apdarinātāja sesijas, kurām beidzies laiks, noņem pats PHP (session.gc_maxlifetime), nevis šī lapa vai cron uzdevuma daļa session_gc.</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>Visu lietotāju aktīvās sesijas ir uzskaitītas pierakstīšanās atskaitē, un tur tās var arī izrakstīt; atskaite darbojas ar jebkuru sesiju apdarinātāju.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>Atvērt pierakstīšanās atskaiti</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37866,6 +38225,26 @@ tajā sniegtos norādījumus.</translation>
     <message>
         <source>None yet</source>
         <translation>Vēl nav</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Drošības darbības</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>Jūsu nesenās pierakstīšanās, neveiksmīgie mēģinājumi un paroles, e-pasta adreses un divpakāpju pierakstīšanās izmaiņas.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>Šī konta nesenās pierakstīšanās, neveiksmīgie mēģinājumi un drošības izmaiņas.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>Pārskatīt darbības</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>Neveiksmīgas pierakstīšanās: %count</translation>
     </message>
 </context>
 <context>
@@ -44032,6 +44411,42 @@ Ja vēlaties nosūtīt komentārus apstiprinātājam vai skatīt statusu, izmant
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>Pēc pierakstīšanās lietotājam ir jāizvēlas jauna parole, pirms viņš var darīt ko citu. Izmantojiet to, ja kādam piešķirat pagaidu paroli.</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>Izvēlēties esošu attēlu</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>Jūsu izvēlētā objekta attēla fails tiek nokopēts šajā laukā. Otrs objekts netiek mainīts.</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>Objekta „%name” attēls tika nokopēts šajā laukā.</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>Pārlūkot attēlus</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>Meklēt attēlus pēc nosaukuma</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Meklēt</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>Izmantot objekta „%name” attēlu</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>Izmantot šo attēlu</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>Neviens attēls neatbilst jūsu meklēšanai.</translation>
     </message>
 </context>
 <context>
@@ -50956,6 +51371,10 @@ Plašāku informāciju skatiet prasību lapā.</translation>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>Crontab netika ierakstīts (%reason). Pievienojiet šīs rindas tā lietotāja crontab, ar kura tiesībām darbojas vietne, citādi rinda, importēšana, paziņojumi un meklēšanas indekss nekad netiks palaisti:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>Atkārtota instalēšana notiek ar kickstarter (%file, pēc tam php bin/php/kickstarter.php run --apply) vai ar jaunu instalāciju.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54835,6 +55254,10 @@ tajā sniegtos norādījumus.</translation>
         <source>eZJSCore Public Packer cache</source>
         <translation>eZJSCore publiskā pakotāja kešatmiņa</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>GraphQL kešatmiņa (atbildes un shēmas klases)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54921,6 +55344,14 @@ tajā sniegtos norādījumus.</translation>
     <message>
         <source>Copy of %class_name</source>
         <translation>Kopija: %class_name</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Datu tipi</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>Datu tips %string</translation>
     </message>
 </context>
 <context>
@@ -55747,6 +56178,26 @@ tajā sniegtos norādījumus.</translation>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>Neizdevās nolasīt SVG attēlu, vai tajā nav nekā, ko varētu droši parādīt.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>Attēlu nevarēja nokopēt. Lūdzu, mēģiniet vēlreiz vai sazinieties ar vietnes administratoru.</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>Izvēlētais objekts neeksistē, vai jums nav tiesību to lasīt.</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>Izvēlētajam objektam nav attēla.</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>Izvēlētā objekta attēla failu nevarēja nolasīt.</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>Izvēlētā objekta attēls ir lielāks, nekā šis lauks atļauj: %1 baiti.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56277,6 +56728,42 @@ tajā sniegtos norādījumus.</translation>
         <source>The bookmark was renamed to "%name".</source>
         <translation>Grāmatzīme ir pārdēvēta par „%name“.</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>Šī lapa ir izslēgta šajā vietnes piekļuvē (%siteaccess). Atveriet grāmatzīmi vietnes piekļuvē, kurā šī lapa ir.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>Šīs lapas modulis šeit nav instalēts vai nav iespējots.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>Šī lapa vairs nepastāv: tās modulim nav šāda skata.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>Neviena no jūsu lomām neļauj jums atvērt šo lapu.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>Jūs nedrīkstat izmantot šo vietnes piekļuvi.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>Jūs nedrīkstat lasīt saturu, ko rāda šī lapa.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>Šāda veida lapai nevar pievienot grāmatzīmi: tā tikai apstrādā veidlapu vai ir vienreizēja lapa.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>Šīs lapas adreses nav.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>Šo lapu pašlaik nevar atvērt.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56748,6 +57235,10 @@ Mezgla klase jāmaina, izmantojot apmaiņas funkciju.</translation>
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>E-pasta transports pēdējā izpildē noraidīja ziņojumus: %count. Pārbaudiet e-pasta serveri un site.ini MailSettings.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Gaida %count notikumi, un nav reģistrēta neviena paziņojumu cron uzdevuma izpilde. Pievienojiet crontab cron uzdevuma daļu „frequent“ vai palaidiet exp:notification:run --apply.</translation>
     </message>
 </context>
 <context>
@@ -63004,6 +63495,10 @@ Mezgla klase jāmaina, izmantojot apmaiņas funkciju.</translation>
         <source>Choose another site or section with the node picker</source>
         <translation>Izvēlēties citu vietni vai sadaļu ar mezglu atlasītāju</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>Īpašnieku var mainīt tikai sistēmas administrators: palaidiet ./console exp:content-check --fix-permissions --apply kā root.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64537,6 +65032,10 @@ Mezgla klase jāmaina, izmantojot apmaiņas funkciju.</translation>
     <message>
         <source>empty</source>
         <translation>tukšs</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>Parakstīšanas atslēga ir vecāka par gadu: nomainiet to ar exp:audit key rotate --apply.</translation>
     </message>
 </context>
 <context>
@@ -68367,6 +68866,486 @@ Mezgla klase jāmaina, izmantojot apmaiņas funkciju.</translation>
         <source>Share of page time</source>
         <translation>Daļa no lapas laika</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>tika pieprasīta pilna atveidošana</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>lapu kešatmiņā nebija šīs lapas (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>lapu kešatmiņa neatbildēja</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>Atveidots</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>Atveidoja kodols: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>Apkalpots no lapu kešatmiņas %ms ms laikā. Lapu %stored saglabāja atveidošana, kas ilga %render ms, pirms %age s.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>Atveidot tūlīt</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>Atgriezties pie skata no kešatmiņas</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>No atveidošanas %stored (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>Šis pieprasījums: apkalpots no lapu kešatmiņas %ms ms laikā.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Lietotājs</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>Lietotāja ID</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>Kešatmiņas profils</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>Šis skats</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>Skatu kešatmiņa</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>katram lietotājam (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>Lietotāja kešatmiņas profils: lietotāji ar vienādu profilu koplieto skatu kešatmiņas failus</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>jā</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>nē</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Lietotājvārds</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>Pieteicies</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>Sesija</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>Satura skata kešatmiņas atslēgas daļas, kas atkarīgas no lietotāja, tieši tā, kā atslēga tās ņem, saskaņā ar šīs lapas ViewCacheTweaks. Lietotāji ar vienādu profilu koplieto skatu kešatmiņas failus, ja vien neatšķiras paša skata daļas (iestatījumi, klausītāju atslēgas): tiem ir savs profils, tikai šai lapai.</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>Profils</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>Šis skats (mezgls %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: katram pieteikušamies lietotājam ir savi kešatmiņas faili.</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>Spēkā esošie ViewCacheTweaks: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>Daļa</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>Vērtība</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>Neviena daļa nav atkarīga no lietotāja (ViewCacheTweaks).</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>šis skats</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>Kopēt kā tekstu</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>Lomas</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>Neizdevās nolasīt lomu piešķīrumus.</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>Lomas ID</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Loma</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>Ierobežojums</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>Piešķirts</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>lietotājam</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>grupa %name (objekts %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>Nokopēts</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>Neizdevās nokopēt.</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>klausītājs izlaida</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>Anonīmi apmeklētāji</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>tāds pats kā jums</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>atšķirīgs</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>Profils, ko anonīmie apmeklētāji saņem ar tiem pašiem ViewCacheTweaks, ar noklusējuma iestatījumiem, bez skata daļām: klausītājam, kas lasa sesiju, par tām nevar pajautāt.</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>Iestatījumi</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>Neviens skata režīms nav atkarīgs no lietotāja iestatījumiem (site.ini [ContentSettings] CachedViewPreferences).</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>Iestatījumi, no kuriem atkarīgi šo skata režīmu skati (CachedViewPreferences), ar lietotāja vērtību vai noklusējumu. Profilā tie ir kā userpreferences, visu skata režīmu kopā.</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>Skata režīms</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>Iestatījums</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>Noklusējums</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>Politikas</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>Rādīt lomu politikas (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>Politikas tiek ielādētas no servera, kad šī sadaļa tiek atvērta, pa vienai lapai, un tās var filtrēt pēc moduļa un funkcijas.</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>Funkcija</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>Visi moduļi</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>Visas funkcijas</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>Ierobežojumi</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>Rādīt vairāk</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>Šīm lomām nav politiku.</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>Neviena politika neatbilst filtram.</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%shown no %matching politikām (kopā %total)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>Tiek ielādēts, atverot.</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>module/function, loma, ierobežojums</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>Meklēt politikās</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>Ielādēt vairāk</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>Modulis/funkcija</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>Visas lomas (%count politikas)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>Neviena politika neatbilst.</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%shown no %matched politikām</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>Nav atbildes</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>maskēts</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>Rādīt skaidrojumus</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>Slēpt skaidrojumus</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Atvērt</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>Atvērt visu</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>Aizvērt visu</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>Atslēga vai vērtība</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>Meklēt sesijā</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Tips</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>vēl %count</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>ligzdots pārāk dziļi, lai parādītu</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>saīsināts, kopā %count rakstzīmes</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Sākts</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>Sīkfaila nosaukums</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>Sesijas ID</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>Apdarinātājs</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>Saglabāšanas ceļš</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>PHP noklusējums</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>Darbības laiks (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>Sīkfails</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>darbības laiks %s s</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>Jūsu pašu PHP sesija tāda, kāda tā bija, kad sadaļa tika atvērta, nekad cita. To atslēgu vērtības, kas izskatās pēc noslēpumiem (marķieri, jaucējvērtības, paroles), ir maskētas (debugbar.ini SessionMask[]); viss pārējais tiek rādīts tā, kā saglabāts, arī personas dati.</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>%count atslēgas, %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>liela</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>Sesija ir tukša.</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>Šim pieprasījumam netika sākta neviena sesija.</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Paplašinājums %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>Kodols un citi</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>Ne visi ieraksti ir parādīti: sesijā ir vairāk, nekā šeit var uzskaitīt.</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>%count atslēgas nav uzskaitītas.</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>Ietvars</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>Vērtības, kas izskatās pēc marķiera (JSON Web Token, Authorization galvenes akreditācijas dati, privātā atslēga, garš heksadecimāls vai nejaušs teksts), arī tiek maskētas neatkarīgi no tā, kā sauc to atslēgu (debugbar.ini SessionValueMask[]).</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>Atslēga izskatās pēc noslēpuma (debugbar.ini SessionMask[]).</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>Vērtība izskatās pēc marķiera.</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>Zem maskētas atslēgas.</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>Sesija kā teksts, maskēta tāpat kā tabula.</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>Sesija ir lielāka par %size (debugbar.ini SessionWarnBytes): katrs šī lietotāja pieprasījums nolasa visu sesiju un ieraksta to, ja tā ir mainījusies.</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP glabā šo sesiju failos un bloķē failu visa pieprasījuma laikā: viena lietotāja pieprasījumi (vairākas cilnes, AJAX izsaukumi) gaida cits citu.</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>Atstāt atvērtu</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>Lielāka par %size (debugbar.ini SessionWarnBytes): katrs šī lietotāja pieprasījums nolasa visu sesiju.</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%hits no %count nolasīti no kešatmiņas</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>Netika atveidota neviena veidne (skats, kas nolasīts no skatu kešatmiņas, neatveido nevienu).</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>Lomu piešķīrumi</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>Lomas un politikas</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>atšķiras no anonīmajiem apmeklētājiem</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>tāds pats kā anonīmajiem apmeklētājiem</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70247,6 +71226,14 @@ Mezgla klase jāmaina, izmantojot apmaiņas funkciju.</translation>
     <message>
         <source>not sent</source>
         <translation>nav nosūtīts</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Paziņojumu cron uzdevums šeit reģistrē katru savu izpildi. Pievienojiet crontab daļu frequent vai palaidiet exp:notification:run --apply.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>Izmantojiet konsoli: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -75965,6 +76952,98 @@ Mezgla klase jāmaina, izmantojot apmaiņas funkciju.</translation>
         <source>This topic is not Released; readers do not see it.</source>
         <translation>Šī tēma nav izlaista; lasītāji to neredz.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migrācijas</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Instalācijas izmaiņas, kas glabātas kā faili: to stāvoklis, izpildes, izpilde un atsaukšana.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Publicējiet statisku vietnes kopiju vietnē GitHub Pages vai jebkurā git resursdatorā.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Statiskā publicēšana</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>Pārskatīšanā</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>Lasītāji redz šo lapu.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>Paslēpta no lasītājiem, līdz kāds to izlaiž.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>Lapa tagad ir pārskatīšanā. Tā ir paslēpta no lasītājiem, līdz tiek izlaista.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>Lapa ir izlaista: lasītāji to tagad redz.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>Lapa atkal ir melnraksts. Tā ir paslēpta no lasītājiem, līdz tiek pārskatīta un izlaista.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>Izlaist tagad</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>To var izlaist tikai lietotājs ar lomu %role, kurš nav rakstījis šo versiju.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>Palīdzības tēmas, kas gaida izlaišanu</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>Paslēpj to no lasītājiem, līdz tā tiek atkal izlaista.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>Tālāk to pārbauda pārskatītājs. Lasītāji to vēl neredz.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>Lasītāji to redz uzreiz.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>Izņem to no pārskatīšanas turpmākam darbam. Lasītāji to neredz.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>Paslēpt šo lapu no lasītājiem?</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>Atgriezt šo lapu melnrakstā?</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>Lasītāji vairs neredz %title, līdz kāds to atkal izlaiž.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title atgriežas melnrakstā turpmākam darbam. Lasītāji to joprojām neredz, un pirms izlaišanas nepieciešama jauna pārskatīšana.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Atcelt</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>Šīs tēmas ir pārskatīšanā. Lasītāji tās redz, tiklīdz tās izlaiž kāds, kurš nav rakstījis pašreizējo versiju.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76136,6 +77215,10 @@ Mezgla klase jāmaina, izmantojot apmaiņas funkciju.</translation>
     <message>
         <source>Setup &gt; Cronjobs</source>
         <translation>Iestatīšana &gt; Cron uzdevumi</translation>
+    </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>Neviena cron uzdevuma daļa vēl nav izpildīta: darbu rinda, importēšana, paziņojumi un meklēšanas indekss gaida. Palaidiet php bin/php/installcrontab.php --add --apply vai pievienojiet --show izvadītās rindas crontab.</translation>
     </message>
 </context>
 <context>
@@ -76475,6 +77558,46 @@ Mezgla klase jāmaina, izmantojot apmaiņas funkciju.</translation>
         <source>None.</source>
         <translation>Nav.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>ar autentificētāja lietotni</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>ar kodu e-pastā</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>ar atkopšanas kodu</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>ar piekļuves atslēgu</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>ar ārēju kontu</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Drošības darbības</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>Tiek rādīts tās tīkls; adrese tiek glabāta tā, kā nosaka vietnes datu aizsardzības iestatījumi.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Nav reģistrēts</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Atrašanās vieta</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>aptuveni</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76718,6 +77841,42 @@ Mezgla klase jāmaina, izmantojot apmaiņas funkciju.</translation>
         <source>Manage devices</source>
         <translation>Pārvaldīt ierīces</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>ar autentificētāja lietotni</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>ar kodu e-pastā</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>ar atkopšanas kodu</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>ar piekļuves atslēgu</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>ar ārēju kontu</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Drošības darbības</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Nav reģistrēts</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Atrašanās vieta</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>aptuveni</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76797,6 +77956,14 @@ Mezgla klase jāmaina, izmantojot apmaiņas funkciju.</translation>
         <source>View the sessions of this user</source>
         <translation>Skatīt šī lietotāja sesijas</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>Jūsu konts %login vietnē %site tikko tika izmantots, lai pierakstītos no vietas, no kuras tas pēdējā laikā nav pierakstījies:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>Aptuvenā atrašanās vieta</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76835,6 +78002,10 @@ Mezgla klase jāmaina, izmantojot apmaiņas funkciju.</translation>
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%browser operētājsistēmā %os</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Pierakstīšanās atskaite</translation>
     </message>
 </context>
 <context>
@@ -77043,6 +78214,82 @@ Mezgla klase jāmaina, izmantojot apmaiņas funkciju.</translation>
         <source>The passkey could not be checked. Please try again.</source>
         <translation>Piekļuves atslēgu neizdevās pārbaudīt. Lūdzu, mēģiniet vēlreiz.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>Konti, kas pierakstās tikai ar piekļuves atslēgām, šeit nevar izmantot paroli: izvēlieties „Pierakstīties ar piekļuves atslēgu“.</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>%login piekļuves atslēgas</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>Piekļuves atslēgas, ar kurām pierakstās šis konts. Atsauciet to, kas atrodas pazaudētā vai nozagtā ierīcē: ar to vairs nevarēs pierakstīties. Jaunas īpašnieks pievieno pats.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>Jūsu kontam ir nepieciešama piekļuves atslēga</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>Pievienot kontam piekļuves atslēgu</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>Pievienojiet piekļuves atslēgu, lai turpinātu. Pēc tam pierakstīsieties ar to, nevis tikai ar paroli.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>Pierakstīšanās ar piekļuves atslēgu ir ātrāka un drošāka nekā ar paroli. Pievienojiet to tagad vai turpiniet bez tās.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>Ne tagad</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>Vai atsaukt piekļuves atslēgu „%name“?</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>Ar to vairs nevarēs pierakstīties šajā kontā. Ja tā bija pēdējā, īpašnieks pierakstās ar paroli, vai arī jūs iestatāt jaunu.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>Atsaukt piekļuves atslēgu</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>Atsaukt</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>Šim kontam nav piekļuves atslēgas.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>Autentificētājs</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Nezināms</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>Jūsu pēdējā piekļuves atslēga: pirms tās noņemšanas pievienojiet vēl vienu.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>Šis konts pierakstās tikai ar piekļuves atslēgām (piekļuves atslēgu politika): ja neviena nepaliek, tas atkal pierakstās ar savu paroli.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>Šī ir jūsu pēdējā piekļuves atslēga, un bez tās jūsu konts nevar pierakstīties. Vispirms pievienojiet vēl vienu piekļuves atslēgu.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>Piekļuves atslēga „%name“ ir atsaukta. Ar to vairs nevar pierakstīties šajā kontā.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77142,6 +78389,34 @@ Mezgla klase jāmaina, izmantojot apmaiņas funkciju.</translation>
         <source>Code from your authenticator app</source>
         <translation>Kods no autentificētāja lietotnes</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>Jūs gatavojaties neatgriezeniski dzēst datus vai notīrīt žurnālu.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>Jūsu parole un piekļuves atslēga</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>Jūsu parole un kods no autentificētāja lietotnes</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>Vai:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>Šī pārlūkprogramma nevar izmantot piekļuves atslēgas. Izmantojiet citu veidu vai citu pārlūkprogrammu.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>Kad turpināsiet, pārlūkprogramma pieprasīs vienu no jūsu piekļuves atslēgām.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>Turpināt ar piekļuves atslēgu</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77232,6 +78507,70 @@ Mezgla klase jāmaina, izmantojot apmaiņas funkciju.</translation>
     <message>
         <source>Setup</source>
         <translation>Iestatīšana</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>Savas paroles, e-pasta adreses, piekļuves atslēgu, divpakāpju pierakstīšanās, atkopšanas kodu vai API atslēgu maiņa un izrakstīšanās no savām citām ierīcēm.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>Lietotāju, viņu paroļu un ierīču, konta iestatījumu izveide un rediģēšana, jaunu lietotāju kontu apstiprināšana vai noraidīšana, lomu piešķiršana un politiku rediģēšana.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>Datu dzēšana</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>Atkritnes iztukšošana, vienumu noņemšana no tās un vairāku vienumu noņemšana vienlaikus.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>Satura noņemšana, publicēšana un saglabāšana</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>Satura noņemšana (arī uz atkritni), publicēšana un melnraksta saglabāšana; jautā, kad veidlapa tiek nosūtīta. Pēc noklusējuma izslēgts.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>Pirms sensitīvas darbības pierakstījies lietotājs vēlreiz apstiprina, kas viņš ir: ar savu paroli un piekļuves atslēgu vai, ja piekļuves atslēgas nav, ar savu paroli un autentificētāja lietotnes kodu. Jautā tikai tīmekļa lapas: REST saskarne, SOAP, WebDAV, expservices pierakstīšanās un komandrinda to nedara nekad.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>Kur iestatījumi ir spēkā</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>Iestatījumi attiecībā uz</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Katra vietnes piekļuve</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>Vietnes piekļuve %name</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Atvērt</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>Kam jautā: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>Atzīmējiet lietotāju grupas, lai jautātu tikai to dalībniekiem (piemēram, redaktoriem). Nekas nav atzīmēts: katram lietotājam.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>Saglabāts failā settings/override/site.ini.append.php visām vietnes piekļuvēm. Saglabājot jums lūgs apstiprināt, ka tas esat jūs.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>Saglabāts failā settings/siteaccess/%name/site.ini.append.php. Vērtībai no settings/override ir priekšroka. Saglabājot jums lūgs apstiprināt, ka tas esat jūs.</translation>
     </message>
 </context>
 <context>
@@ -77366,6 +78705,6822 @@ Mezgla klase jāmaina, izmantojot apmaiņas funkciju.</translation>
     <message>
         <source>Open the page</source>
         <translation>Atvērt lapu</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from līdz %to no %count</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>Pieteikšanās vārds vai lietotāja ID: konts, uz kuru attiecās notikums, vai lietotājs, kurš rīkojās.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Konts</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Darbība</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>Pēc</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>Jebkurš rezultāts</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Pirms</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Izpildītājs</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Notīrīt</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Izdevās</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>Notikumi tiek glabāti %days d.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>Notikumi tiek glabāti, līdz tos noņem manuāli.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Notikumi</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>Jebkura darbība</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>Visi šī konta notikumi</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>Eksportēt sarakstu kā CSV (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Neizdevās</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>No</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>Sašaurināt sarakstu</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>Neviens notikums neatbilst.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Lapā</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>Ierakstīšana ir izslēgta failā audit.ini ([UserAuditSettings] UserAudit); sarakstā redzams tas, kas tika ierakstīts iepriekš.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Noraidīts</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Rezultāts</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Rādīt</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>Trūkst lietotāju audita žurnāla tabulas. Izveidojiet to ar php update/common/scripts/6.0/createuseraudittable.php; līdz tam audita faili glabā katru notikumu.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>Šai lapai nepieciešama SQL datubāze; ar MongoDB tā nav pieejama. Audita faili glabā katru notikumu.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Līdz</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Lietotāju audita žurnāls</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Lietotājs</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Kad</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Kur</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>Kas mainīja, izveidoja, iespējoja, atspējoja, pārvietoja vai noņēma kuru kontu, kas pierakstījās vai tika noraidīts un kādas lomas tika piešķirtas: viena rinda katram notikumam, ar laukiem pirms un pēc. Paroles un noslēpumi nekad netiek ierakstīti.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>grupa</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>sistēma</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>nezināms</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>Aizsargāt kontu</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>Jūsu kontā %login vietnē %site tika veikta pierakstīšanās ar atkopšanas kodu.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>Tika izmantots atkopšanas kods</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Konts</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>Aptuvenā adrese</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>Pieprasiet jaunu paroli, lai atkal pierakstītos, vai sazinieties ar vietnes administratoriem.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>Pieprasīt jaunu paroli</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>Katrs atkopšanas kods darbojas vienu reizi. Ja esat pazaudējis tālruni, vēlreiz iestatiet autentificētāja lietotni un glabājiet jaunos atkopšanas kodus drošā vietā.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>Neveiksmīgi pierakstīšanās mēģinājumi jūsu kontā</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>Turpmāk pierakstoties papildus parolei tiks prasīts kods. Ja to izdarījāt jūs, nekas nav jādara.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>Ja tas bijāt jūs un esat aizmirsis paroli, pieprasiet jaunu. Ja ne, izvēlieties stiprāku paroli un ieslēdziet divpakāpju pierakstīšanos.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>Ja tas nebijāt jūs, kāds varētu zināt jūsu paroli: nomainiet to tūlīt un pārbaudiet, kur jūsu konts ir pierakstījies.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>Atlikušie atkopšanas kodi</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>Pārskatīt savas ierīces</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>Drošības brīdinājums</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>Kāds %count reizes pēc kārtas mēģināja pierakstīties jūsu kontā %login vietnē %site ar nepareizu paroli.</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>Jūsu kontā %login vietnē %site notika drošības notikums.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>Šis ir drošības brīdinājums par jūsu kontu. Tas tiek sūtīts par katru šādu izmaiņu, un to nevar izslēgt.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Laiks</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>Divpakāpju pierakstīšanās tika izslēgta jūsu kontam %login vietnē %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>Divpakāpju pierakstīšanās tika izslēgta</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>Divpakāpju pierakstīšanās tika ieslēgta jūsu kontam %login vietnē %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>Divpakāpju pierakstīšanās tika ieslēgta</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>Jūsu konts %login vietnē %site tika bloķēts pēc pārāk daudzām neveiksmīgām pierakstīšanās reizēm.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>Jūsu kontu tagad aizsargā tikai parole. Ja to neizdarījāt jūs, pēc paroles nomaiņas atkal ieslēdziet divpakāpju pierakstīšanos.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>Jūsu konts tika bloķēts</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>Jūsu kontam %login vietnē %site tika pievienota piekļuves atslēga.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>Ikviens, kam ir šī piekļuves atslēga, var pierakstīties jūsu kontā bez jūsu paroles. Ja jūs to nepievienojāt, noņemiet to sadaļā Piekļuves atslēgas un nomainiet paroli.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>No jūsu konta %login vietnē %site tika noņemta piekļuves atslēga.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>Ar to vairs nevar pierakstīties jūsu kontā. Ja jūs to nenoņēmāt, pārbaudiet savas piekļuves atslēgas un ierīces.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>Jūsu kontam tika pievienota piekļuves atslēga</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>No jūsu konta tika noņemta piekļuves atslēga</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>Drošības darbības</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Lietotāja %name drošības darbības</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Pierakstījies</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Neveiksmīgs pierakstīšanās mēģinājums</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Izrakstījies</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Sesijas izrakstītas</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Pierakstīšanās no jaunas ierīces</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Pierakstīšanās no jaunas atrašanās vietas</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Identitāte apstiprināta („Apstipriniet, ka tas esat jūs“)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Identitātes pārbaude neizdevās</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Pierakstījies ar piekļuves atslēgu</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Pierakstīšanās ar piekļuves atslēgu neizdevās</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Pierakstīšanās noraidīta: divpakāpju kods trūkst vai ir nepareizs</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Nepareizs divpakāpju kods</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Konts bloķēts pēc neveiksmīgām pierakstīšanās reizēm</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Konts atbloķēts</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Parole nomainīta</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Paroles nomaiņa neizdevās</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Parole atiestatīta</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Pieprasīta jauna parole</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>E-pasta adrese mainīta</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Lietotājvārds mainīts</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Divpakāpju pierakstīšanās ieslēgta</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Divpakāpju pierakstīšanās izslēgta</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Izmantots atkopšanas kods</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Jauni atkopšanas kodi</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Izveidota lietotnes parole</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Atsaukta lietotnes parole</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Pievienota piekļuves atslēga</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Noņemta piekļuves atslēga</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Konts iespējots</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Konts atspējots</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Visi</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Pierakstīšanās un sesijas</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Konta izmaiņas</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Prasa uzmanību</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>to veicāt jūs</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>to veica lietotājs</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>to veica %login</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>Metode</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>Pārlūkprogramma</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>Operētājsistēma</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Ierīce</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>Vieta</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>Valsts</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Sesijas</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>Kuras</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>Kanāls</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Neveiksmīgi mēģinājumi</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>Atlikušie kodi</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>Pierakstīšanās apdarinātājs</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Drošības darbības</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Lietotāja %name drošības darbības</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Pierakstīšanās un jūsu konta drošības izmaiņas. Ja redzat kaut ko, ko neesat darījis, nomainiet paroli un izrakstiet ierīces, kuras neatpazīstat.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>Pierakstīšanās un šī konta drošības izmaiņas.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Jūsu ierīces</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Mainīt paroli</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>Atpakaļ uz kontu</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>Drošības darbības netiek reģistrētas</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>Tās tiek nolasītas no lietotāju audita žurnāla, kura tabula expuser_audit trūkst vai netiek atbalstīta šajā datubāzē. Palaidiet php update/common/scripts/6.0/createuseraudittable.php vai 6.0.15 datubāzes atjauninājumu.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Pēdējās dienas: %days</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Pierakstīšanās pēdējās dienās (%days)</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>Nesenās drošības darbības</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Rādīt</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>neizdevās</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>noraidīts</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Vēl nav reģistrētas drošības darbības.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>Drošības notikumi tiek glabāti %days dienas.</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>Drošības notikumi tiek glabāti, līdz administrators tos noņem.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Lejupielādēt manus pierakstīšanās datus</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Jūsu sesijas un drošības notikumi kā JSON fails.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Šajā vietnē sesijas netiek reģistrētas, tāpēc nevienu citu ierīci nevarēja izrakstīt. Nomainiet paroli tūlīt.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>Izrakstītas %count citas sesijas. Tagad nomainiet paroli.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Neviena cita ierīce nebija pierakstījusies. Tagad nomainiet paroli.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Paldies. Notikums ir atzīmēts kā jūsējais.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Šim notikumam atbilde nav vajadzīga.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Lapas derīgums bija beidzies. Nekas netika mainīts; lūdzu, mēģiniet vēlreiz.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Aizsargāt kontu</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Ja kaut ko šeit neesat veicis jūs, izrakstiet visas pārējās ierīces un pēc tam izvēlieties jaunu paroli. Tiek izrakstītas arī ierīces, kas palikušas pierakstītas ar “Atcerēties mani”.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Visas ierīces, izņemot šo, tiek izrakstītas pie nākamā pieprasījuma. Pēc tam jūs izvēlaties jaunu paroli.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Jā, izrakstīt pārējās ierīces</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Vai tas bijāt jūs?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Jā, tas biju es</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Nē, aizsargāt manu kontu</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Pierakstījies</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Neveiksmīgs pierakstīšanās mēģinājums</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Izrakstījies</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Sesijas izrakstītas</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Pierakstīšanās no jaunas ierīces</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Pierakstīšanās no jaunas atrašanās vietas</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Identitāte apstiprināta („Apstipriniet, ka tas esat jūs“)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Identitātes pārbaude neizdevās</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Pierakstījies ar piekļuves atslēgu</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Pierakstīšanās ar piekļuves atslēgu neizdevās</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Pierakstīšanās noraidīta: divpakāpju kods trūkst vai ir nepareizs</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Nepareizs divpakāpju kods</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Konts bloķēts pēc neveiksmīgām pierakstīšanās reizēm</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Konts atbloķēts</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Parole nomainīta</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Paroles nomaiņa neizdevās</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Parole atiestatīta</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Pieprasīta jauna parole</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>E-pasta adrese mainīta</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Lietotājvārds mainīts</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Divpakāpju pierakstīšanās ieslēgta</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Divpakāpju pierakstīšanās izslēgta</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Izmantots atkopšanas kods</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Jauni atkopšanas kodi</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Izveidota lietotnes parole</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Atsaukta lietotnes parole</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Pievienota piekļuves atslēga</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Noņemta piekļuves atslēga</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Konts iespējots</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Konts atspējots</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Visi</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Pierakstīšanās un sesijas</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Konta izmaiņas</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Prasa uzmanību</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Drošības darbības</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Lietotāja %name drošības darbības</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Pierakstīšanās un jūsu konta drošības izmaiņas. Ja redzat kaut ko, ko neesat darījis, nomainiet paroli un izrakstiet ierīces, kuras neatpazīstat.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Jūsu ierīces</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Mainīt paroli</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>Šajā vietnē drošības darbības vēl netiek reģistrētas.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Pierakstīšanās pēdējās dienās (%days)</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Neveiksmīgi mēģinājumi</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Vēl nav reģistrētas drošības darbības.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Lejupielādēt manus pierakstīšanās datus</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Jūsu sesijas un drošības notikumi kā JSON fails.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Šajā vietnē sesijas netiek reģistrētas, tāpēc nevienu citu ierīci nevarēja izrakstīt. Nomainiet paroli tūlīt.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>Izrakstītas %count citas sesijas. Tagad nomainiet paroli.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Neviena cita ierīce nebija pierakstījusies. Tagad nomainiet paroli.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Paldies. Notikums ir atzīmēts kā jūsējais.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Šim notikumam atbilde nav vajadzīga.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Lapas derīgums bija beidzies. Nekas netika mainīts; lūdzu, mēģiniet vēlreiz.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Aizsargāt kontu</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Ja kaut ko šeit neesat veicis jūs, izrakstiet visas pārējās ierīces un pēc tam izvēlieties jaunu paroli. Tiek izrakstītas arī ierīces, kas palikušas pierakstītas ar “Atcerēties mani”.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Visas ierīces, izņemot šo, tiek izrakstītas pie nākamā pieprasījuma. Pēc tam jūs izvēlaties jaunu paroli.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Jā, izrakstīt pārējās ierīces</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Vai tas bijāt jūs?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Jā, tas biju es</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Nē, aizsargāt manu kontu</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>Parole</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>Parole un divpakāpju kods</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>REST saskarne</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>SOAP saskarne</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>Vienotā pierakstīšanās</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>Pierakstījies, pirms sesijas tika reģistrētas</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Pierakstīšanās atskaite</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>Kas ir pierakstījies vietnē, cik bieži konti pierakstās un cik bieži tas neizdodas, kā arī lietotāja izrakstīšana visur. Darbojas ar jebkuru sesiju apdarinātāju.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>Sesija tika izrakstīta. Ierīcei jāpierakstās no jauna.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>%login tika izrakstīts no sesijām: %count.</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>Lietotājam %login nebija aktīvas sesijas.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>Nevienam kontam nav šāda ID, lietotājvārda vai e-pasta adreses.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>Šī ir sesija, kuru izmantojat. Lai to beigtu, izrakstieties.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>Šī sesija jau bija beigusies.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Lapai bija beidzies derīgums. Nekas netika mainīts; lūdzu, mēģiniet vēlreiz.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>Šajā vietnē sesijas netiek reģistrētas (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>Trūkst tabulas expuser_session</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>Sesijas tiek reģistrētas, tiklīdz tā ir izveidota: php update/common/scripts/6.0/createusersessiontable.php vai 6.0.15 datubāzes atjauninājums.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>Tagad un šodien</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>Aktīvās sesijas</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>Pierakstījušies lietotāji</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>Pierakstīšanās šodien</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>Neveiksmīgi mēģinājumi šodien</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>Izrakstīt lietotāju visur</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>Katra konta sesija beidzas pie tās nākamā pieprasījuma, arī tās, kuras saglabā „Atcerēties mani“. Izmantojiet to, ja konts varētu būt nonācis nepareizās rokās; pēc tam atiestatiet tā paroli.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>Lietotāja ID, lietotājvārds vai e-pasta adrese</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>Izrakstīt visur</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>Pierakstījušies tagad</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>Tiek rādītas pēdējās izmantotās, ne vairāk kā %limit.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Lietotājs</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Ierīce</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adrese</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>Pierakstījies</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>Pēdējo reizi aktīvs</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Darbības</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>Šī ierīce</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Nav reģistrēts</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>Izrakstīt</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>Neviena sesija nav pierakstījusies.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Pēdējās dienas: %days</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>Pierakstīšanās un neveiksmīgie mēģinājumi tiek skaitīti no lietotāju audita žurnāla, kura nav; jaunās sesijas tiek skaitītas.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>Diena</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>Pierakstīšanās</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Neveiksmīgi mēģinājumi</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>Jaunas sesijas</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>Sesiju apdarinātājs: %handler. Sesijas tiek nolasītas no tabulas expuser_session, tāpēc atskaite darbojas ar jebkuru apdarinātāju.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>Aizdomīgas darbības pēdējo %hours stundu laikā</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>Vienam tīklam neizdevās pierakstīties %accounts kontos (%count mēģinājumi)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Konts bloķēts pēc neveiksmīgām pierakstīšanās reizēm</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>%count neveiksmīgas pierakstīšanās vienā kontā</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>Pierakstījies no %count valstīm vienlaikus</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Drošības darbības</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Sesijas</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>Neveiksmīgās pierakstīšanās tiek nolasītas no lietotāju audita žurnāla, kas šeit nav pieejams.</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>Nekā aizdomīga: nav konta ar atkārtotām neveiksmīgām pierakstīšanās reizēm, nav tīkla, kas mēģina vairākus kontus, nav konta, kas pierakstījies no vairākām valstīm.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>Drošības brīdinājums par jūsu kontu</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>Jūsu kontā %login notika drošības notikums: %event. Ja tas nebijāt jūs, aizsargājiet savu kontu adresē %url.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Iestatīšana</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>Pieprasiet no šīs vietnes satura vienā pieprasījumā tieši tos laukus, kas vajadzīgi lapai. Shēma seko satura klasēm; katrs vaicājums tiek izpildīts ar tā lietotāja tiesībām, kurš to nosūta.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>GraphQL API šajā vietnes piekļuvē ir izslēgts. Ieslēdziet to failā graphql.ini: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>GraphQL bibliotēka (webonyx/graphql-php 15) nav instalēta.</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>Galapunkts</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>Bibliotēka</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>Shēma</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>Satura klases: %count, shēma %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>Vaicājums</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>Mainīgie (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Palaist</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>Atbilde</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>Izpilda…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>Atbildi neizdevās nolasīt.</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>Vaicājums tiek izpildīts ar jūsu tiesībām, pierakstoties šajā sesijā.</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%count %seconds s laikā</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>bez ierobežojuma</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>Dziļums</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>Sarežģītība</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>Vienumi sarakstā</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (noklusējums %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>Pieprasījumi uz lietotāju vai atslēgu</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>Pieprasījumi uz anonīmu adresi</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>Introspekcija</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>Tikai saglabāti vaicājumi</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>Lielākais vaicājums</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>%bytes baiti</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>Lielākā augšupielāde</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>Nav vietnes piekļuves %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>Mutācijas vietnes piekļuvē %siteaccess ir ieslēgtas.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>Mutācijas vietnes piekļuvē %siteaccess ir izslēgtas.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>GraphQL API vietnes piekļuvē %siteaccess ir ieslēgts.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>GraphQL API vietnes piekļuvē %siteaccess ir izslēgts.</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>Iestatījumus neizdevās ierakstīt: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>Atbilžu kešatmiņa notīrīta: noņemtas %count atbildes.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>Atzīmējiet rūtiņu blakus vaicājumam, lai to noņemtu.</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>Vaicājumu neizdevās noņemt: vaicājums, kas piegādāts PersistedQueryDirectoryList[] direktorijā, tiek noņemts kopā ar savu failu.</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>Saglabātais vaicājums noņemts.</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>Mutācijas</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>ieslēgts</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>izslēgts</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Vietnes piekļuves</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>Kur atbild API un tā mutācijas. Pogas raksta graphql.ini tāpat kā ./console exp:graphql:enable un exp:graphql:disable.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Vietnes piekļuve</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>GraphQL API</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Mainīt</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Izslēgt</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>Mutācijas izslēgtas</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>Mutācijas ieslēgtas</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Ieslēgt</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>Ierobežojumi</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>Šīs vietnes piekļuves graphql.ini [GraphQLSettings].</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>Atbilžu kešatmiņa</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>Saglabāto vaicājumu atbildes, glabātas atsevišķi pēc lietotāja tiesībām un novecojušas ikreiz, kad tiek publicēts saturs.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Stāvoklis</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>Glabātās atbildes</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>%count atbildes, %bytes baiti</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>Glabā ne ilgāk kā</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds s</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>Pēdējā novecošana</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>Notīrīt atbilžu kešatmiņu</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>Saglabātie vaicājumi</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>Saglabāti ar ./console exp:graphql:persist vai klientu (automātiski saglabātie vaicājumi); izsaucami pēc nosaukuma vai SHA-256.</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>Nosaukumi</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Izmērs</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Kur</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Noņemt</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>piegādāts</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>saglabāts</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>Jā, noņemt šo vaicājumu</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>Vēl nav neviena saglabāta vaicājuma.</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>API atslēgas</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>Personiskās API atslēgas ar tvērumu graphql:read (vaicājumi) vai graphql:write (mutācijas). Izveidojiet un atsauciet tās lapā API piekļuve vai ar ./console exp:graphql:keys.</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>API piekļuve</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>Visas atslēgas</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>Atslēga</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Nosaukums</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Īpašnieks</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>Tvērumi</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>Pēdējoreiz izmantota</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>aktīva</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>beigusies</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>atsaukta</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>nekad</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>Vēl nav nevienas API atslēgas ar GraphQL tvērumu.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>GraphQL API ir izslēgts vietnes piekļuvē %siteaccess, kas rāda šo lapu; tabula zemāk rāda, kur tas atbild.</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>Vietnes piekļuvei %siteaccess, kas rāda šo lapu.</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>Tīmekļa āķi</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>Katru notikumu, ko galapunkts pieprasa (publish, update, trash, delete, move, hide, reveal, mutation), tam parakstītu nosūta cronjob daļa graphqlwebhooks. ./console exp:graphql:webhooks dara to pašu, ko šī sadaļa.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Notikumi</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>visi</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Katra vietnes piekļuve</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>bojāts</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>bez noslēpuma</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>Gaida</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count atmesti</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>Pēdējā piegāde</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Sūtīt testu</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>Jā, noņemt šo tīmekļa āķi</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>Vēl nav neviena tīmekļa āķa.</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>Pievienot tīmekļa āķi</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>Pievienot</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>Nesenās piegādes</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Laiks</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Rezultāts</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>Abonementi</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>Tiešraides atjauninājumi klientiem: notikumu straume adresē /api/graphql/subscribe un WebSocket (graphql-transport-ws) uz Velocity. Katrs notikums tiek nosūtīts tikai tiem abonentiem, kuri drīkst lasīt tā saturu.</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>Atvērti tagad</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>Maksimāli atvērti</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>Kopā %total, %user uz lietotāju, %address uz adresi</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>Anonīmi abonementi</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>Straumes ilgums</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>Tīmekļa āķi nevarēja pievienot: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>Tīmekļa āķis %name tika mainīts; tā parakstīšanas noslēpums paliek.</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>Parakstīšanas noslēpumu nevarēja saglabāt (Iestatīšana &gt; Noslēpumi).</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>Tīmekļa āķis %name tika pievienots. Tā parakstīšanas noslēpums, parādīts tikai šoreiz: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>Nav tīmekļa āķa %name.</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>Tīmekļa āķis %name neatbildēja: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>Tīmekļa āķis %name atbildēja %status %ms ms laikā.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>Atzīmējiet rūtiņu blakus tīmekļa āķim, lai to noņemtu.</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>Tīmekļa āķis %name tika noņemts.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>GraphQL API šajā vietnes piekļuvē ir izslēgts.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>GraphQL bibliotēka nav instalēta.</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>Izmantojiet GET vai POST.</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>Pieprasījuma pamatteksts nav JSON objekts.</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables nav JSON objekts.</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions nav JSON objekts.</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>Nosūtiet vaicājumu ar POST.</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>Pieprasījumā nav vaicājuma.</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>Vaicājums ir garāks par %max baitiem.</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>Iekšēja servera kļūda</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node nepieciešams tieši viens no id, remoteId, path un urlAlias.</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content nepieciešams tieši viens no id un remoteId.</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>after kursoru nav izsniedzis šis API.</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>Attēla aizstājvārda %alias nav (image.ini [AliasSettings] AliasList[]).</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>Šeit tiek pieņemti tikai saglabāti vaicājumi: nosūtiet saglabāta vaicājuma id.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>Saglabātā vaicājuma jaucējvērtība nav SHA-256.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>Saglabātā vaicājuma jaucējvērtība neatbilst vaicājumam.</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>Pārāk daudz pieprasījumu: ne vairāk kā %limit %window sekundēs. Mēģiniet vēlreiz pēc %reset sekundēm.</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>Vaicājuma dziļums ir %depth līmeņi; atļauts ne vairāk kā %max.</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>Vaicājuma sarežģītība ir %complexity; atļauts ne vairāk kā %max.</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>Šis pieprasījums nedrīkst lasīt shēmu (introspection).</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search nepieciešams teksts vai filtrs (classes, subtree, sections, publishedAfter, publishedBefore).</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument nav datums (ISO 8601, 2026-10-30).</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag nepieciešams tieši viens no id, remoteId un path.</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout nepieciešams tieši viens no id, identifier un urlAlias.</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>Daudzdaļīga pieprasījuma lauks operations nav viens JSON pieprasījums.</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>Daudzdaļīga pieprasījuma lauks map nav JSON objekts.</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>Daudzdaļīgajā pieprasījumā nav faila %field.</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>Lauka map ceļam jāsākas ar variables.: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>Fails %name nav saņemts pilnībā (augšupielādes kļūda %error).</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>Fails %name ir lielāks par %max baitiem.</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>Failu %name neizdevās pārbaudīt.</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>Mutācijas šajā vietnes piekļuvē ir izslēgtas (graphql.ini [GraphQLSettings] MutationsEnabled).</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>Sūtiet mutāciju ar POST.</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>Piesakieties, lai mainītu saturu.</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>API atslēgai nav tvēruma %scope.</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>Mutācijai ar sesiju vajadzīgs sesijas veidlapas marķieris (galvene X-CSRF-Token).</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>uploadFromUrl ir izslēgts: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] nenosauc nevienu resursdatoru.</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>Adresei jābūt https adresei.</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>Resursdators %host nav norādīts graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>Failu neizdevās iegūt.</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload ir tikai ievades tips.</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>Tipa Upload mainīgais saņem daudzdaļīga pieprasījuma failu.</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>Attālais id %remoteId jau ir aizņemts.</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>Saturam jau ir tulkojums valodā %language: izmantojiet updateContent.</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>Norādiet vismaz vienu lauku.</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>Jaunu versiju neizdevās izveidot (saturam ir pārāk daudz melnrakstu).</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>Versija %version nav melnraksts.</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent vajag tieši vienu no id un nodeId.</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>Atrašanās vietu nevar pārvietot zem tās pašas.</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>Saturam jau ir atrašanās vieta zem %parentId.</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>Lauka %field vērtību neizdevās saglabāt.</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>Nav satura valodas %language.</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>Shēmā nav satura klases %class.</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>Satura nav, vai jums nav atļauts to lasīt.</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>Jums nav atļauts to darīt ar šo saturu.</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>Klasei %class nav rakstāma lauka %field.</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>Lauks %field ir norādīts divreiz.</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>Lauks %field pieņem failu: sūtiet to kā augšupielādi (daudzdaļīgs pieprasījums).</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>Lauks %field nepieņem failu.</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>Laukam %field vajadzīga vērtība.</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>Formāts %format ir tikai bagātinātā teksta laukiem; %field pieņem vērtību tādu, kāda tā ir (RAW).</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>Lauks %field ir obligāts.</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>HTML neizdevās nolasīt.</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content pieņem version tikai kopā ar id.</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>Priekšskatījuma marķieris nav derīgs vai ir beidzies.</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>Nav izcelsme (https://host vai https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>Nav GraphQL API tvērums: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>Sūtiet abonementus uz /api/graphql/subscribe (notikumu straume vai WebSocket).</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>Pieprasījums nenosauc nevienu dokumenta operāciju.</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>Abonements pieprasa tieši vienu lauku.</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>Atvērts pārāk daudz abonementu; mēģiniet vēlāk vēlreiz.</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>Jums ir atvērti %max abonementi, maksimālais atļautais skaits.</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>Jūsu adresei ir atvērti %max abonementi, maksimālais atļautais skaits.</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>Šajā vietnes piekļuvē abonementi ir izslēgti.</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>Pierakstieties, lai abonētu (marķieris vai personīga API atslēga).</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>Sūtiet mutācijas uz /api/graphql.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>Migrācijas</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Statusu neizdevās nolasīt: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Migrāciju tabulas vēl nepastāv: ./console exp:upgrade --apply tās izveido.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>%count migrācijas neizdevās</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>Notiek izpilde, ko sāka %user</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>Instalācija ir bloķēta: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Gaida</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Neizdevās</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>Bāreņi</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Pēdējā izpilde</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>vēl nav</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>Visas migrācijas</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>Simulēta izpilde</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>Izmēģinājuma izpilde</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>Gaidošās migrācijas tika izpildītas transakcijā, kas pēc tam tika atsaukta: nekas netika saglabāts. Zemāk redzams, ko katra no tām mainīja datu bāzē.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>Ko izpilde darītu tagad. Nekas netiek mainīts: katra gaidošā migrācija uzskaita izmaiņas, ko tā veiktu, un izpilde to, ko tā darītu pirms un pēc.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>Simulēt</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Izpildīt</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>Izmēģinājuma izpilde neizdevās: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>Simulācijai nepieciešams PostgreSQL vai SQLite, kuru shēmas izmaiņas var atsaukt; šajā datu bāzē zemāk redzamais plāns parāda, ko izpilde darītu.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>Migrācijas</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>Migrācija</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Stāvoklis</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>Ko tā darītu</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>Simulācija: %result %ms ms laikā</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>Vēl nav nevienas migrācijas.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>Pirms un pēc izpildes</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>Momentuzņēmums pirms</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>tiek izveidots un atjaunots, ja migrācija neizdodas</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>izslēgts</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>Momentuzņēmums pēc</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>tiek izveidots, ja izpilde izdevās</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>%total migrācijas: %pending gaida, %done pabeigtas, %failed neizdevās.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>Migrāciju vēsture</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>Katra izpilde ar lietotāju, vidi, momentuzņēmumiem un to, kas tika iesūtīts (commit), atzīmēts ar birku un nosūtīts (push). Neizdevušos vai pārtrauktu izpildi var atsākt; izpildi, pirms kuras tika izveidots momentuzņēmums, var atsaukt.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>Izpildes neizdevās nolasīt: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Migrāciju tabulas vēl nepastāv: ./console exp:upgrade --apply tās izveido.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Rādīt</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Visas</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>Izpildes</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Sākta</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Kas</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>Momentuzņēmumi</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Repozitorijs</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Darbības</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>pirms</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>pēc</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>nosūtīšana: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>Atsākt</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Atsaukt</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>Šajā stāvoklī nav nevienas izpildes.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>Sāktas šeit</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>Šajās lapās sāktās izpildes, atsākšanas un atsaukšanas ar katras atskaiti.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Kas</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Rezultāts</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Atsaukšana</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>%target atsaukšana</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>Izpilde %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Ko izpilde darīja, tās ieraksts un žurnāls. Šeit sākta izpilde turpinās fonā, kad šī lapa tiek aizvērta; atveriet lapu vēlreiz, lai tai sekotu.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>Atsākt šo izpildi</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>Atsaukt šo izpildi</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>Ierakstu neizdevās nolasīt: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Gaita</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Sāka %user %time.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>Pārbauda kodu un izveido momentuzņēmumu pirms izpildes</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>Izpilda %id (%index no %total)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>Pabeigtas %done no %total</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>Migrācijas ir izpildītas; atjauno momentuzņēmumu, ja kāda neizdevās</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>Izveido momentuzņēmumu pēc izpildes, iesūta, atzīmē ar birku un nosūta</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>Atjauno momentuzņēmumu</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>Izpilde ir beigusies. Ielādē tās atskaiti.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>Gaitai neizdevās sekot. Pārlādējiet lapu, lai redzētu, kā norit izpilde.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>Šī lapa seko izpildei tās gaitā.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Pārlādēt</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Atskaite</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Ilgums</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms milisek.</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>Ko izpilde izvadīja kā kļūdas</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Ieraksts</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>Vide</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>nav</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Beigusies</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Iesūtījums</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Birka</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Nosūtīšana</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Ziņojums</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>Šīs izpildes migrācijas</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>Avots</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>Izpildes žurnāls</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>Tiek rādītas tikai žurnāla beigas.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>notiek</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>beidzās bez atskaites</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>izdevās</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>neizdevās</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>noraidīta</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>datu bāze nebija sasniedzama</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>iekšēja kļūda</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>Notiek izpilde</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind sāka %user %time.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>Sekot</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>Instalācija ir bloķēta</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>Bloķējumu tur cita izpilde (jauninājums vai izpilde konsolē): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>pabeigta</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>gaida</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>nav vajadzīga</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>nezināms</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>atsaukta</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>piemērota</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>tiktu piemērota</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>atcelta</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>tiktu atcelta</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>nav izpildīta</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>gaida citu</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>izmaiņa pieņemta</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>izmaiņa tiktu pieņemta</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>simulēta</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migrācijas</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Statuss</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Vēsture</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>Atcelt %target</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>Izpilde tiek atcelta līdz momentuzņēmumam, kas izveidots pirms tās, atsevišķa migrācija ar tās down(). Agrāka momentuzņēmuma atjaunošana ir ekspertiem. Katra darbība notiek fonā jūsu vārdā pēc pašreizējā stāvokļa momentuzņēmuma.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>Neizdevās nolasīt, ko var atcelt: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>Izpilde</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>Viena migrācija</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>Agrāks momentuzņēmums</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>Apraksts</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>jā</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>nē</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Momentuzņēmums</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Nosaukums</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>Izveidots</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Veids</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>Atjaunojamās daļas</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>Datu bāze</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>Krātuves faili (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>Iestatījumi (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>Datu bāzes atjaunošana atgriež to momentuzņēmuma laikā, ieskaitot sesijas: pēc tam jums var nākties pieteikties vēlreiz. Viss, kas mainīts kopš tā laika, tiek zaudēts; vispirms tiek izveidots pašreizējā stāvokļa momentuzņēmums.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>Es zinu, ko tas atjauno</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>Ievadiet momentuzņēmuma ID vēlreiz</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>Jā, atcelt</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Atcelt</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>Izpildes, pirms kurām tika izveidots momentuzņēmums.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>Izvēlēties</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>Vēl nav nevienas izpildes ar momentuzņēmumu.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>Piemērotās migrācijas, kas var sevi atcelt (tām ir down()).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>Nevienai piemērotai migrācijai nav down().</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>Agrāki momentuzņēmumi (ekspertiem)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>Vēl nav neviena momentuzņēmuma.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>Izpildīt migrācijas</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>Izpilde notiek fonā kā %user, un tās lapa rāda tās gaitu. Pirms pirmās migrācijas tiek izveidots instalācijas momentuzņēmums; ja migrācija neizdodas, izpilde apstājas un momentuzņēmums tiek atjaunots.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>Vispirms izmēģinājuma izpilde</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Statusu neizdevās nolasīt: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>Gaidošās migrācijas</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>Tās tiek izpildītas šādā secībā. Noņemiet atzīmi kādai, lai to un tās, kurām tā nepieciešama, atstātu vēlākai izpildei.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>Izpildīt</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>Izpildes laikā ieslēdz apkopes režīmu.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>Mainītas pēc piemērošanas</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>Šie faili nav tie, kas tika piemēroti. Izpilde tos noraida, ja vien izmaiņa netiek pieņemta ar pamatojumu; tie netiek izpildīti atkārtoti, jaunā kontrolsumma tiek ierakstīta un pamatojums saglabāts audita žurnālā.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>Pieņemt izmaiņas</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Kāpēc</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>Noklusējuma vērtības ir drošās. Katra izvēles rūtiņa izlaiž vienu soli.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>Bez momentuzņēmuma</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>Pirms un pēc izpildes netiek veidots momentuzņēmums: kļūmi nevar atjaunot automātiski.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>Bez atjaunošanas</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>Pēc kļūmes atstāt instalāciju tādu, kādu to atstāja kļūme.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>Saglabāt neiesūtītās izmaiņas</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>Izpildīt, lai gan iestatījumos, paplašinājumos vai dizainos ir neiesūtītas izmaiņas; tās tiek iekļautas momentuzņēmumā.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>Bez iesūtīšanas</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>Neiesūtīt statusa failu un izpildes žurnālu (arī bez birkas un nosūtīšanas).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>Bez nosūtīšanas</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>Iesūtīt un atzīmēt ar birku, bet nenosūtīt.</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>Bez birkas</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>Iesūtīt un nosūtīt, bet neatzīmēt izpildi ar birku.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>Jā, izpildīt šīs migrācijas tagad</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Neviena migrācija negaida.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>Atpakaļ uz statusu</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>Šīs instalācijas izmaiņas, vienreiz uzrakstītas kā faili (saturs, klases, lomas, iestatījumi, shēma) un piemērotas katrai vietnes instalācijai tādā pašā secībā. Izpilde vispirms izveido momentuzņēmumu, atjauno to, ja migrācija neizdodas, un ieraksta, iesūta un nosūta paveikto.</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>Izpildīt %count gaidošās</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Pārskats</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Gaida</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Pabeigtas</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Neizdevās</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>Nav vajadzīgas</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>Datu bāze</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>transakcijas: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>Vietnes migrācijas atrodas migrations/, paplašinājuma migrācijas — extension/&lt;name&gt;/migrations/. Tās tiek izpildītas to nosaukumu un atkarību secībā.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Pēdējā izpilde</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>Fails tika mainīts pēc piemērošanas.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>Vēl nav nevienas migrācijas. ./console exp:migration:generate --skeleton &lt;name&gt; --apply uzraksta pirmo.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>Jaunākās izpildes</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>Visas izpildes</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>Vēl nav nevienas izpildes.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>Izpildes simulēšanai nepieciešama politika migration/run.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>Notiek izpilde: simulējiet, kad tā būs beigusies.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Iestatīšana</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target nav ne šīs instalācijas izpilde, ne migrācija, ne momentuzņēmums.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>Vispirms atzīmējiet &quot;Jā, atcelt&quot;.</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>Agrāka momentuzņēmuma atjaunošana ir ekspertiem: atzīmējiet &quot;Es zinu, ko tas atjauno&quot;.</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>Ievadiet momentuzņēmuma ID vēlreiz: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>Izvēlieties vismaz vienu atjaunojamo daļu.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>Šai izpildei nav pirms tās izveidota momentuzņēmuma: atceliet tās migrācijas pa vienai vai atjaunojiet agrāku momentuzņēmumu.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>Šo migrāciju nevar atcelt pašu par sevi: tā nav piemērota vai tai nav down().</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Veidlapu neizdevās nolasīt.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>Izvēlieties atsākamo izpildi.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>Vispirms atzīmējiet &quot;Jā, izpildīt šīs migrācijas tagad&quot;.</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>Izvēlieties vismaz vienu migrāciju.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>Migrācija tika mainīta pēc piemērošanas: pieņemiet izmaiņu ar pamatojumu vai atjaunojiet failu.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>Norādiet, kāpēc mainītās migrācijas tiek pieņemtas.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>Pamatojums nedrīkst pārsniegt 500 rakstzīmes.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>Šeit sākta izpilde vēl turpinās (%detail). Pagaidiet, līdz tā beidzas.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>Instalācijas bloķējumu tur cita izpilde: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>Izpildei nepieciešams esošs, pieteicies lietotājs.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Netika atrasta php komandrindas programma. Iestatiet migration.ini [AdminSettings] PhpCliPath uz tās pilno ceļu.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open ir atspējots, tāpēc izpildi šeit nevar sākt. Palaidiet ./console exp:migration:migrate --apply serverī.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>Izpilžu mapē nevar rakstīt: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>Izpilde tika sākta, bet nepaziņoja sava procesa ID. Pārbaudiet %detail.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>Norādiet, ko atcelt.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>Izpildi neizdevās sākt.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>Izmaiņu ierakstīšana</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>Kamēr notiek ierakstīšana, tas, ko maināt administrācijā vai vietnes sānjoslā, tiek saglabāts kā migrācijas soļi: saturs, klases, lomas un politikas, sadaļas, lietotāji un grupas, URL aizstājvārdi, iestatījumi. Kad esat pabeidzis, apturiet to, apskatiet, ko tā fiksēja, un izveidojiet no tās migrāciju.</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>Ierakstus neizdevās nolasīt: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>Ierakstu tabulas vēl nepastāv: vispirms palaidiet jaunināšanu (exp:upgrade --apply).</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>Ierakstīšana ir izslēgta failā migration.ini ([RecordingSettings] Recording=disabled).</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>Manas izmaiņas</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>Ieraksta tikai to, ko maināt jūs, lai kur jūs to mainītu, līdz jūs to apturat.</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>Ierakstīšana</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>kopš %time, līdz šim izmaiņu: %count.</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>Etiķete (neobligāti)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>Rādīt, ko tā fiksēja</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Apturēt ierakstīšanu</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>Sākt manu izmaiņu ierakstīšanu</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>Visas vietnes logs</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>Ieraksta katru katra lietotāja un konsoles izmaiņu, līdz logs tiek aizvērts. Atverot jums jāapstiprina, ka tas esat jūs.</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Atvērts</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>Aizvērt logu</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>Atvērt visas vietnes logu</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>Ieraksti</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>Lietotāja konts (pieteikumvārds, e-pasts, parole) un lietotāju kontu lauki nekad netiek ierakstīti.</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Izmaiņas</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>Visa vietne</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>Lietotāja %name izmaiņas</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Apturēts</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>Vēl nav neviena ieraksta.</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>Ieraksts %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>Visi ieraksti</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>Migrācija, kas no tā rastos</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>Izmaiņas, apvienotas vienā solī katrai mainītajai lietai: ko darītu no šī ieraksta izveidota migrācija.</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>No tā varēs izveidot migrāciju, kad šai instalācijai būs YAML soļu tipi %types.</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>Apzināti izlaists: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>Nekas netika ierakstīts.</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>Ko tā fiksēja</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>Izmaiņu: %count, tādā secībā, kādā tās veiktas.</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Izmaiņa</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>Solis</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>Attiecas uz</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>Vēl %count: ./console exp:migration:record:show uzskaita visas.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Atmest</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>Noņem ierakstu un to, ko tas fiksēja. Tas, kas mainīts, paliek mainīts.</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>Jā, atmest šo ierakstu</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>Notiek ierakstīšana…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Jūsu izmaiņas tiek ierakstītas migrācijai.</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>Katra izmaiņa šajā vietnē tiek ierakstīta migrācijai (visas vietnes logs).</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>Visas vietnes ierakstīšana ir sākusies: katra katra lietotāja izmaiņa tiek ierakstīta, līdz jūs to apturat.</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>Ierakstīšana ir sākusies: jūsu izmaiņas tiek ierakstītas, līdz jūs to apturat.</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>Ierakstīšana apturēta. Tas, ko tā fiksēja, paliek, līdz jūs to atmetat.</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>Ieraksts un tā notikumi ir noņemti.</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>Ieraksta %id nav.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>Vispirms atzīmējiet “Jā, atmest šo ierakstu”.</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>Sesijas ierakstīšanu drīkst apturēt tikai lietotājs, kurš ierakstīja.</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>Izvēlieties ierakstīšanu, ko apturēt.</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>Šāda veida ierakstīšana jau notiek.</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>Ierakstu neizdevās mainīt: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>Ģenerēt migrāciju</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>Migrācijas nosaukums (nav obligāts)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>Migrācija %file ir uzrakstīta. Izmaiņas, ko neviens solis nevar veikt, ir nosauktas faila sākumā, un tās jāveic ar roku.</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>Neviena migrācija netika uzrakstīta: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>Ilga darbināšana pa daļām</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>Tukši lauki saglabā migration.ini [RunSettings] iestatījumus.</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>Ne vairāk kā tik daudz migrāciju</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>Pēc tam vairs nav migrāciju (sekundes)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>Pauze starp migrācijām (sekundes)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>Zemāka prioritāte (no 1 līdz 19)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>Ilgas darbināšanas lauks ir vesels skaitlis no 1 (pauze: sekundes no 0 līdz 60, prioritāte: no 1 līdz 19) vai tukšs.</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>Tas aizveras pats plkst. %time.</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>Aizvērt pašam pēc (minūtes, neobligāti)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>Minūtes ir vesels skaitlis no 1 līdz 44640 (31 diena) vai tukšs.</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>Migrācija %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>Jauna migrācija</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>YAML migrācija: uzrakstiet to kā tekstu vai izveidojiet tās soļus veidlapā, pārbaudiet to un pēc tam saglabājiet migrāciju mapē.</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>Šī migrācija jau ir izpildīta, tāpēc tā netiek saglabāta vēlreiz: kontrolsummas aizsardzība noraidītu mainītu failu. Veiciet izmaiņu jaunā migrācijā.</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>Tīmekļa serveris nevar ierakstīt šo failu.</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>Komentāru rindas augšpusē ir galvene (description, author, requires, environments, engines). Kad veidlapā tiek pievienots vai mainīts solis, migrācija tiek uzrakstīta no jauna: komentāri starp soļiem netiek saglabāti.</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>Migrācijas nosaukums</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>Kur tā tiks novietota</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>Vietne</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>YAML teksts</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>Pārbaudīt</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Saglabāt</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Darbības</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>Atslēgas</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Rediģēt</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>Pārvietot uz augšu</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>Pārvietot uz leju</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Noņemt</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>Vēl nav soļu: pievienojiet vienu ar veidlapu vai ierakstiet tos tekstā.</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>Mainīt soli %number</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>Pievienot vienu soli</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>Soļa veidlapa tiek veidota no tā soļa tipa: tā atslēgām, ko katra pieņem, un režīmiem, kuriem tas pieder.</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>Soļa tips</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>Rādīt tā veidlapu</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>Solim ir atslēgas, kuras tā tips nepazīst; mainot soli, tās tiek izlaistas: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>Režīms</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>Kur</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>tikai %modes</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>Noklusējums: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>Nosacījumi, atsauces un komentārs</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>Nosaukums=vērtība pāri, atdalīti ar komatiem. Šī soļa vērtības: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>Piemērs</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>Mainīt soli</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>Pievienot soli</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>Ko saka exp:migration:check: galvene, dokuments un katrs solis, ko pārbaudījis tā soļa tips.</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>Migrācija iztur pārbaudi.</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Priekšskatījums</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>YAML tādā veidā, kā tas tiks saglabāts.</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>Rādīt YAML</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>YAML migrācijas</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>izpildīta</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>Vēl nav nevienas YAML migrācijas.</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>Redaktora vietnes piekļuve</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>Migrāciju mapēs nav YAML migrācijas %id.</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>Izvēlieties soļa tipu.</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>Solis ir pievienots. Pārbaudiet migrāciju, pirms to saglabājat.</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>Solis ir mainīts. Pārbaudiet migrāciju, pirms to saglabājat.</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>Izvēlieties soli.</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>Šim solim nav veidlapas (cikls vai soļa tips, kura šajā instalācijā nav): mainiet to tekstā.</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>Izvēlieties, kur migrācija tiks novietota: vietnē vai aktīvā paplašinājumā.</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>Saglabāts %file. Pirms migrācijas izpildes veiciet izmēģinājuma izpildi.</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>Nav saglabāts: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>Attālās sistēmas</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>Citas instalācijas, uz kurām šī izvieto savas migrācijas: izvietošana nosūta migrācijas uz izvēlētajām attālajām sistēmām un izpilda tās tur, visās vienlaikus un sinhroni. Attālā sistēma nekad neglabā noslēpumu: tās piekļuves dati norāda uz vienu no sadaļas Iestatīšana &gt; Noslēpumi.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>Jauna attālā sistēma</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Palīdzība</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>Savienojuma pārbaude: %id</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>Attālās sistēmas</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>Vienlaikus tiek apstrādātas līdz %parallel attālajām sistēmām; viena fāze katrā var ilgt %timeout sekundes.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>Attālā sistēma</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adrese</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Akreditācijas dati</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>Grupas</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>jālabo iestatījumi</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>tikai faili (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>SSH atslēga</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>Parole</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>nav (resursdatora SSH aģents un atslēgas)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>Pārbaudīt savienojumu</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>Izvietošana grupai notiek katrā tās attālajā sistēmā.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>Izvietot attālajās sistēmās</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>Vēl nav iestatīta neviena attālā sistēma.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>Attālā sistēma %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>Šeit nekas netiek nosūtīts vai izpildīts: Saglabāt ieraksta iestatījumus failā settings/override/migration.ini.append.php. Piekļuves dati ir nosaukums; to vērtība paliek sadaļā Iestatīšana &gt; Noslēpumi vai vidē.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Pārbaudiet šos iestatījumus</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>Iestatījumi, kā ievadīti, vēl nav saglabāti.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Pārskatīšana</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Iestatījumi ir derīgi. Tiks ierakstītas šīs rindas:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>Transports</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>tikai nosaukums; vērtība paliek sadaļā Iestatīšana &gt; Noslēpumi</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Rindas, kas tiks ierakstītas</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>Savienojums</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>Resursdatora atslēga</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. Attālā sistēma</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>Kā sauc attālo sistēmu un kura vide tā ir.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>Burti, cipari, - un _, piemēram, production1. Tas nosauc attālo sistēmu atskaitēs un konsolē (--remotes=production1), un to vēlāk nevar mainīt.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... Izvietošana pa posmiem iet cauri vidēm šādā secībā.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>Neobligāti, atdalīti ar komatiem, piemēram, production. Izvietošana grupai notiek katrā tās attālajā sistēmā.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. Savienojums</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>Kā faili nonāk tur un kur atrodas instalācija.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>Caur SSH, tikai izmainītais, pārtraukta pārsūtīšana tiek atsākta. Labākā izvēle, ja rsync ir instalēts.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>SSH ar scp failiem.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>SSH ar sftp failiem.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>Tikai faili: migrācijas tiek nosūtītas un nolasītas atpakaļ, bet tur tās nevar izpildīt.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>FTP caur TLS; tikai faili.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>Cita instalācija šajā serverī, mapē.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Resursdators</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>Resursdatora nosaukums vai adrese, piemēram, node1.example.com. Neattiecas uz local.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>Ports</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>Tukšs: 22 SSH, 21 FTP.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Lietotājs</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>Ceļš</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>Instalācijas saknes direktorijs tur, piemēram, /var/www/site (FTP gadījumā: ceļš, ko redz FTP konts).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>PHP komandrinda</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>PHP CLI tur: php vai pilns ceļš, piemēram, /opt/plesk/php/8.4/bin/php.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>Konsoles skripti tur darbojas kā root</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>Tikai tad, ja attālās sistēmas lietotājs ir root (tad tos izpilda ar --allow-root-user).</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. Piekļuves dati</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>Kā šī instalācija tur pierakstās. Tiek saglabāts tikai nosaukums.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Nav</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>Tā lietotāja SSH aģents un atslēgas, kura vārdā darbojas šī instalācija (un vienmēr local gadījumā).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>Privātā atslēga, kas glabāta kā noslēpums.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>Parole, kas glabāta kā noslēpums (FTP ar to pierakstās).</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>Noslēpuma nosaukums</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>Noslēpums no sadaļas Iestatīšana &gt; Noslēpumi, piemēram, deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Iestatīšana &gt; Noslēpumi</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>Vai vides mainīgais</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>Servera procesa mainīgais, kas to satur, piemēram, DEPLOY_KEY (saglabāts kā env:DEPLOY_KEY). Tas aizstāj noslēpuma nosaukumu.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. Resursdatora atslēga</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>Neobligāti, SSH, sftp un rsync gadījumā.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>Resursdatora atslēgas pirkstu nospiedums</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... tā, kā to izdrukā ssh-keygen -l. Ja tas norādīts, resursdatoram jāuzrāda šī atslēga; ja nav, atslēga tiek apgūta pirmajā saziņā.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. Pārskatīšana</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>Pārbaudiet savienojumu ar iepriekš norādītajiem iestatījumiem, pēc tam pārskatiet rindas, kas tiks ierakstītas.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>Noņemt šo attālo sistēmu</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>Tās iestatījumi tiek izņemti no settings/override/migration.ini.append.php. Attālajā sistēmā nekas nemainās, un tās izvietošanas paliek vēsturē.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>Jā, noņemt šo attālo sistēmu</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>Izvietošanas</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>Izvietošana nosūta šīs instalācijas migrācijas uz izvēlētajām attālajām sistēmām un izpilda tās tur kā %user, visās vienlaikus un sinhroni: vispirms tiek pārbaudīta katra attālā sistēma, un, ja kāda neizdodas, katrā attālajā sistēmā, kurā tās tika lietotas, izmaiņas tiek atsauktas. Tā notiek fonā, un tās lapā redzama katra attālā sistēma, darbam turpinoties.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. Attālās sistēmas</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>Atzīmējiet attālās sistēmas, grupu vai abus.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>Izvietot tur</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. Veids</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>Izvietot</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>Nosūtīt un izpildīt</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>Migrācijas tiek nosūtītas, pārbaudītas un izpildītas katrā attālajā sistēmā ar vienu kopīgu izpildes ID.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>Tikai pārsūtīt</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>Faili tiek nosūtīti un pārbaudīti, nekas netiek izpildīts (vienīgais veids FTP attālajai sistēmai).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>Pa posmiem</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>Posmu pa posmam vidžu secībā (dev, stage, beta, production ...): pirmais posms tiek izvietots, tad kontrolpunkts gaida, līdz kāds apstiprina nākamo. Viss vai nekas katra posma ietvaros.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>Tikai šīs migrācijas</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>Neobligāti: migrāciju ID, atdalīti ar komatiem. Tukšs: katra vietnes un tās paplašinājumu migrācija.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>Tikai iepriekšēja pārbaude</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>Jā, izvietot tagad</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>Izvietošanas, kas kaut ko nosūtīja vai izpildīja, jaunākā pirmā (iepriekšēja pārbaude atskaiti nesaglabā).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>tikai pārsūtīt</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>pa posmiem, posmu skaits: %stages</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>nav sinhroni</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>Vēl nav nevienas izvietošanas.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>Izvietošana %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Katra izvietošanas attālā sistēma ar tās stāvokli. Šeit sākta izvietošana turpinās fonā, kad šī lapa tiek aizvērta; atveriet lapu vēlreiz, lai tai sekotu.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>Visas izvietošanas</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>Iepriekšēja pārbaude</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>Nākamais posms</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>Notiek iestatījumu un piekļuves datu pārbaude</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>Iepriekšēja pārbaude: tiek nolasīts katras attālās sistēmas stāvoklis</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>Notiek migrāciju failu nosūtīšana</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>Notiek saņemtā pārbaude</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>Notiek migrāciju izpilde katrā attālajā sistēmā</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>Notiek attālo sistēmu atsaukšana</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>Izvietošana ir beigusies. Notiek tās atskaites ielāde.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>Gaitu neizdevās izsekot. Pārlādējiet lapu, lai redzētu, kā norit izvietošana.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>Fāze</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>Šī lapa seko izvietošanai tās gaitā.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>Sinhroni</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>Posmi</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>posms %stage gaida savā kontrolpunktā</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>Kontrolpunkts %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>apstiprināja %user %time</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>Posms</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>Nosūtītie faili</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>Kodola versija</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>lietotas: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>jālieto: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>Fāzes</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>Kontrolpunkts: posms %stage no %stages</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>Iepriekšējie posmi ir izvietoti. Pārbaudiet tos, pēc tam apstipriniet nākamo posmu: tā attālās sistēmas tiek vēlreiz pārbaudītas un izvietotas, viss vai nekas.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Tālāk</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>Jā, izvietot nākamo posmu tagad</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Apstiprināt</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>Atsaukt šo izvietošanu</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>Katra attālā sistēma, kurā tā tika lietota (%list), atgriežas pie pirms tās izpildes uzņemtā momentuzņēmuma, visas vienlaikus.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>Jā, atsaukt šo izvietošanu tagad</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>plānota</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>pārsūtīta</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>izvietota</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>gaida kontrolpunktā</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>atlasīts</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>sagatavota</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>gatavs</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>gaida savu posmu</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>faili nosūtīti</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>pārbaudīta</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>neizdevās, atjaunojās pati</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>nemainīta</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>nav izvietota</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>nav sasniedzama</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>Attālā sistēma atbildēja.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>Attālo sistēmu pašlaik nevar izmantot.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done pabeigtas, %pending gaida, %failed neizdevās</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>Bloķēšana</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>tur bloķē kāda izpilde</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>brīvs</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stage no %stages</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>Izvēlieties pārbaudāmo attālo sistēmu.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>Vispirms atzīmējiet „Jā, noņemt šo attālo sistēmu“.</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>Attālo sistēmu neizdevās noņemt: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>Attālo sistēmu neizdevās saglabāt: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Iestatījumu failu nevar nolasīt: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>Izvēlieties vismaz vienu attālo sistēmu vai grupu.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>Izvēlēta attālā sistēma vairs nav iestatījumos. Pārlādējiet lapu.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>Vispirms atzīmējiet „Jā, izvietot tagad“.</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>FTP attālā sistēma nevar izpildīt migrācijas: izvēlieties „Tikai pārsūtīt“ vai izlaidiet to.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>Izvietojamās migrācijas ir migrāciju ID, atdalīti ar komatiem.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>Izvietošana vēl notiek. Pagaidiet, līdz tā beigsies.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>Šī izvietošana negaida kontrolpunktā.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>Neviena attālā sistēma nelietoja šo izvietošanu: nav ko atsaukt.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>Vispirms atzīmējiet „Jā, izvietot nākamo posmu tagad“.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>Vispirms atzīmējiet „Jā, atsaukt šo izvietošanu tagad“.</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>Attālā sistēma ar ID %id jau pastāv.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>Ports ir skaitlis no 1 līdz 65535.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>Vide ir vārds no burtiem, cipariem, - un _ (alpha, dev, stage, beta, production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>Grupa ir vārds no burtiem, cipariem, - un _ (ne all): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>Piekļuves datus pašlaik nevar nolasīt: %problem. Pirms pirmās izvietošanas saglabājiet tos sadaļā Iestatīšana &gt; Noslēpumi (vai iestatiet mainīgo).</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>FTP attālā sistēma tikai saņem failus: izvietošana uz to ir „Tikai pārsūtīt“, un tās migrācijas tur izpilda manuāli.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>Attālā sistēma %id nav failā settings/override/migration.ini.append.php; noņemiet to tur, kur tā ir iestatīta.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>Pierakstījās caur FTP un nolasīja index.php. FTP attālās sistēmas migrāciju stāvokli nevar nolasīt.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>Modificēts</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>Izveidots</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Nosaukums</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Klase</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Sadaļa</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>Autors</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Jaunākais saturs</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>Visas vietnes nesen izveidotais un modificētais saturs, jaunākais vispirms: ko apmeklētāji iesūtīja, kas aizturēts pārskatīšanai, kuri melnraksti gaida publicēšanu. Atlasiet vienumus, lai tos atbrīvotu, aizturētu, paslēptu, parādītu, noņemtu vai pārvietotu uz citu sadaļu vai stāvokli.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>Sarakstu nevarēja nolasīt: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>Aizturēšana pārskatīšanai vēl nav iestatīta, tāpēc nekas netiek aizturēts un aizturēšanas darbības netiek piedāvātas. To iestata jaunināšanas solis 6.0.15-review-hold: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Filtrēt sarakstu</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>No</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Līdz</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Datums</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>Izveidots (pirmoreiz publicēts)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Visi</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Statuss</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Publicēts</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>Melnraksts, nekad nav publicēts</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>Gaida (apstiprinājumu vai datumu)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>Atkritnē</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Aizturēts pārskatīšanai</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>Aizturēts</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>Nav aizturēts</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>Paslēpts</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>Redzams</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>Iesūtīts vietnes piekļuvē</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>Jebkura vietnes piekļuve</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>Tikai tas, ko reģistrēja audits.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>Tagad: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>Lietotājvārds vai lietotāja ID.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Filtrēt</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>Notīrīt filtrus</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>Vienumi</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from līdz %to no %count</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Nav vienumu</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(nolasīts %ms ms)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>Darbības ar atlasītajiem vienumiem</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>Atlasīt visu šajā lapā</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>Atlasīti: %count</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Darbība</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>Izvēlieties darbību</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>Atcelt aizturēšanu</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Aizturēt pārskatīšanai</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Paslēpt</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>Parādīt</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>Pārvietot uz atkritni</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>Dzēst</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>Piešķirt sadaļu</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>Piešķirt stāvokli</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>Iemesls</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>Nepieciešams aizturēšanai; tiek saglabāts kopā ar aizturēšanu un auditā.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>Izvēlieties sadaļu</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Stāvoklis</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>Izvēlieties stāvokli</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>Lietot atlasītajiem</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>Katrs vienums tiek pārbaudīts pret jūsu tiesībām. Pārvietošanai uz atkritni un dzēšanai nepieciešams apstiprinājums. Vairāk nekā %count vienumi tiek apstrādāti fonā.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>Atlasīt</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>Publicēšana</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>Iesūtīts no</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>Atlasīt %name</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>vēl nav</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(bez nosaukuma)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>Identifikators %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>Melnraksts</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Gaida</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>Paslēpts vecākelementa dēļ</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>Aizturēts: jauns iesūtījums</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>Versija %version gaida</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>Versija %version tiek rediģēta</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>Melnraksts, versija %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>Versija %version publicēta</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>Ieplānots: %date</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>nav adreses</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>nav reģistrēts</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>Šiem filtriem nekas neatbilst.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Rādīt visu</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>Satura vēl nav.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Lapā</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Rādīt %count vienumus lapā.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says &quot;not recorded&quot;.</source>
+        <translation>Iesūtījuma adrese un pārlūks tiek ņemti no audita indeksa, kas šeit nav pieejams: kolonnā rakstīts &quot;nav reģistrēts&quot;.</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>Adrese un pārlūks ir tie, ko audits reģistrēja par vienumu (automātiskā aizturēšana tos reģistrē vienmēr; publicēšana un izveide tikai tur, kur tas ieslēgts), kā tos saglabā tā privātuma iestatījumi.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: %count vienumi</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>Dzēšana neatgriezeniski noņem vienumus ar visām to versijām un tulkojumiem. To nevar atsaukt.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>Vienumi tiek pārvietoti uz atkritni, no kurienes tos var atjaunot.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>Katrs vienums tiek pārbaudīts pret jūsu tiesībām; vienums ar apakšvienumiem tiek atstāts kā ir (noņemiet to satura struktūrā). Jums tiks lūgts apstiprināt, ka tas esat jūs.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>Tas notiek fonā: atveras tā progresa lapa, un, kad tas ir pabeigts, tiek parādīts rezultāts katram vienumam.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>Atlasītie vienumi</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>un vēl %count</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Atcelt</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>Nekas netika izdarīts</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Iemesls: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>Darbība joprojām notiek fonā.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>Tās progress</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>Fona darbība neizdevās: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Izpildīts</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Noraidīts</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Neizdevās</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>Pa vienumiem</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>Vienums</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Rezultāts</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Kāpēc</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>Atpakaļ uz sarakstu</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Iestatīšana</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>Nekas nav izdarīts</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>Apstiprināt</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>Izvēlieties darbību.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>Atlasiet vismaz vienu vienumu.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>Atlasiet ne vairāk kā 1000 vienumus vienlaikus.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>Norādiet, kāpēc vienumi tiek aizturēti.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>Izvēlieties sadaļu.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>Izvēlieties stāvokli.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Veidlapu nevarēja nolasīt.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>Informācijas panelis</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>Jaunākais saturs</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>Skaitus nevarēja nolasīt: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Aizturēts pārskatīšanai</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>Jauni šodien</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Aizturēšana pārskatīšanai vēl nav iestatīta (jaunināšanas solis 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>Viss jaunākais saturs</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>Jums nav atļauts veikt moderēšanas darbības (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>Moderēšanas darbība nav pabeigta: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>Moderēšana: %action %count objektiem</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%done no %total objektiem: %ok izpildīti, %refused noraidīti, %failed neizdevās</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok izpildīti, %refused noraidīti, %failed neizdevās</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>Tas vairs nepastāv.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>Tam nav atrašanās vietas (nav publicēts).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>Jums nav atļauts to paslēpt (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>Jums nav atļauts to parādīt (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>Tas jau ir paslēpts.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>Tas nav paslēpts.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>Paslēpts.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>Parādīts.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>Tas ir atkritnē: iztukšojiet vai atjaunojiet to tur.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>Melnrakstu, kas nekad nav publicēts, nevar pārvietot uz atkritni: dzēsiet to.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>Jums nav atļauts to dzēst (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>Dzēsts.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>Jums nav atļauts to noņemt (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>Tam ir apakšvienumi: noņemiet to satura struktūrā, kur tie ir uzskaitīti.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>Tas netika noņemts (darbplūsma var aizturēt noņemšanu).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>Pārvietots uz atkritni.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>Sadaļa nepastāv.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>Tas jau ir šajā sadaļā.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>Jums nav atļauts piešķirt šo sadaļu (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>Sadaļa netika piešķirta.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>Sadaļa piešķirta.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>Stāvoklis nepastāv.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>Tas jau ir šajā stāvoklī.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>Jums nav atļauts piešķirt šo stāvokli (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>Stāvoklis netika piešķirts (darbplūsma var aizturēt izmaiņas).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>Stāvoklis piešķirts.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>Šādas darbības nav.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Aizturēšana pārskatīšanai nav iestatīta (jaunināšanas solis 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>Norādiet, kāpēc tas tiek aizturēts.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>Tas jau ir aizturēts.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>Jums nav atļauts to aizturēt (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>Aizturēšana netika piemērota (darbplūsma var aizturēt izmaiņas).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>Aizturēts.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>Tas nav aizturēts.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>Jums nav atļauts to atbrīvot (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>Aizturēšana netika atcelta (darbplūsma var aizturēt izmaiņas).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>Atbrīvots; joprojām paslēpts: jums nav atļauts to parādīt (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>Atbrīvots.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>Visi mērķi</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Pēdējā publikācija</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>Publicējiet bezmaksas statisku vietnes kopiju vietnē GitHub Pages:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Novecojušās lapas</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Statiskā publicēšana</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Statiskā publicēšana ir izslēgta.</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Mērķis</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Mērķus neizdevās nolasīt: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>notiek uzdevums</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>būvējums jāpārbauda</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>slēpt šo</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>izveidot mērķi</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>nekad</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>lasīt pamācību</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>%added pievienoti, %changed mainīti, %removed noņemti</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%bytes no %limit (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>Vēl %count nav uzskaitīti.</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>Uzrakstītas lapas: %pages</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path ir %size – vairāk, nekā resursdators atļauj vienam failam.</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>%percent % no ierobežojuma</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds s</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag ir publikācija, kas vietnei ir pašlaik.</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: uzdevums %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>/repozitorijs/ GitHub projekta vietnei; tukšs pielāgotam domēnam vai lietotāja vietnei.</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. Vietne</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. Resursdators</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. Pieteikšanās repozitorijā</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. Repozitorijs</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. Saites un bāzes ceļš</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. Jūsu domēns</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. Ko satur būvējums</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. Kad tiek publicēts</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. Pārskatīšana un saglabāšana</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>GitHub projekta vietne atrodas zem /&lt;repository&gt;/; relatīvās saites darbojas tur un jebkur citur.</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>Būvējums ielādē katru %site lapu tā, kā to redz nepieteicies apmeklētājs, pārraksta saites, kopē failus un raksta rezultātu mērķa mapē. Nekas netiek publicēts, kamēr nepārbaudāt būvējumu un nenospiežat “Publicēt”.</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>Cron izteiksme, piemēram, 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>Izvietošanas atslēga tiek glabāta kā noslēpums %secret.</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>Izvietošanas atslēga ļauj šai instalācijai nosūtīt (push) uz vienu repozitoriju pa SSH un nekur citur. Tās privātā daļa paliek sadaļā Iestatīšana &gt; Noslēpumi; tiek rādīta tikai publiskā daļa.</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>Šim mērķim izveidota izvietošanas atslēga</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>Izvietošanas atslēga piesakās pa SSH: nomainiet git adresi uz SSH adresi (git@github.com:owner/repo.git).</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>Notiek uzdevums, ko sāka %user</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>Šī mērķa uzdevums joprojām notiek (%detail). Uzgaidiet, līdz tas beidzas.</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>Šī mērķa uzdevums joprojām notiek. Uzgaidiet, līdz tas beidzas.</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>Saite no lapas /news/ uz lapu /about-us/team tiks uzrakstīta šādi:</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>Tika izveidota jauna izvietošanas atslēga. Tagad pievienojiet tās publisko daļu repozitorijam.</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>Lapa, kurā pēc attīrīšanas joprojām ir atkļūdošanas izvade, veidlapas marķieris vai sesijas ID, nekad netiek publicēta.</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>Atsaukšana ir paredzēta ekspertiem: atzīmējiet “Es zinu, ko tas maina” un vēlreiz ierakstiet birkas nosaukumu.</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>Vietne var būt līdz %site, viens fails līdz %file, ar aptuveni 100 GB datplūsmas mēnesī. Bezmaksas plānā repozitorijam jābūt publiskam. GitHub Pages nav paredzēts veikaliem vai citiem komercdarījumiem.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>Mērķis ir viena vietne, kas tiek publicēta vienā git repozitorijā. Šeit nekas netiek būvēts vai publicēts: “Saglabāt” ieraksta iestatījumus failā settings/override/staticcache.ini.append.php.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>Mērķis ir viena vietne, kas tiek publicēta vienā vietā, piemēram, jūsu publiskā vietne GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>Marķieris no sadaļas Iestatīšana &gt; Noslēpumi</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>To publicē repozitorija darbplūsma.</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>Pievienojiet šo publisko atslēgu repozitorijam ar rakstīšanas tiesībām. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, atzīmējiet Allow write access.</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>Pievienots</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>Cits git resursdators</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>Ar šo mērķi strādā cits process: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>Atpakaļ</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>Bāzes ceļš</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Pirms</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>Zem bāzes ceļa</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>Zars</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>Bojātas saites</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>Bojātas saites būvējumā</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>Būvējums</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>Būvējums %id, autors %user</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>Būvēt %name</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>Būvēt tagad</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>Būvējums pārbaudei</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Kas</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>Manuāli, šeit</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Atcelt</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Mainīt</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>Mainīts</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Izmaiņas</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>Vispirms pārbaudiet</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Pārbaudiet šos iestatījumus</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>Pārbaudiet, ko būvējums maina, apskatiet to un tad publicējiet vai izmetiet.</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>Izvēlieties publikāciju, uz kuru atgriezties.</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>Būs pieejams kādā nākamajā laidienā.</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Iesūtījums</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>Iesūtījumi</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>Iesūta (commit) būvējumu, atzīmē to ar birku un nosūta (push) uz %remote. Nosūtīšana nekad netiek veikta piespiedu kārtā; vēlāk varat atgriezties pie jebkuras publikācijas.</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>Salīdzinot ar iepriekšējo mapi: %added pievienoti, %changed mainīti, %removed noņemti, %unchanged nemainīti.</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>Salīdzinot ar pēdējo publikāciju.</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Akreditācijas dati</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>Pielāgots domēns</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>Atkļūdošanas izvade, veidlapu marķieri, sesiju ID un vienreizējie kodi (nonce) vienmēr tiek izņemti.</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>Izvietošanas atslēga</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>%name izvietošanas atslēga</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Izmest</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>Izmest būvējumu</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>Domēns</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>Tukšs: vietnes adrese. Citādi – tās pašas vietnes iekšējā adrese.</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Beidzās</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>Katra saite sākas ar bāzes ceļu.</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>Katra publikācija ir iesūtījums (commit) ar birku static/%id/&lt;n&gt;. Atgriešanās izveido jaunu iesūtījumu ar kādas agrākas publikācijas failiem: vēsture saglabājas, neviena birka netiek pārvietota un nekas netiek veikts piespiedu kārtā.</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>Papildfaili</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>Ielādēt lapas no</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Fails</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>Faili</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>Trūkst failu</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>Faili no</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>Faili, kurus neizdevās savākt</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>Nospiedums</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>Mape</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>SSH adresei. Atslēga tiek izveidota pēc saglabāšanas; tās publisko daļu jūs pievienojat repozitorijam.</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>https:// adresei. GitHub: detalizēts (fine-grained) marķieris ar Contents lasīšanas un rakstīšanas tiesībām repozitorijā.</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>Ekspertiem. Publiskā vietne mainās, tiklīdz nosūtīšana ir pabeigta.</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Veidlapas</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>Bezmaksas mitināšana no GitHub repozitorija.</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>No zara</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>Git adrese</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages atļauj vietni līdz %site un failu līdz %file.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>GitHub Pages ierobežojumi</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages publicē failus tādus, kādi tie ir (nepieciešams failiem, kas sākas ar _).</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub pasniedz zaru tādu, kāds tas ir nosūtīts. Noklusējums.</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, jūsu pašu serveris: jebkurš git repozitorijs.</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>Atgriezties pie agrākas publikācijas</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Palīdzība</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>Palīdzība par vedni</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>Slēpt tās</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Vēsture</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>%name vēsture</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Resursdators</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>Kā GitHub Pages saņem būvējumu</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>Izmaiņas ir pārbaudītas</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>Es zinu, ko tas maina</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>Tā ir izslēgta: neko nevar būvēt, kamēr tā nav ieslēgta.</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>Tas darbojas fonā kā %user; šo lapu varat aizvērt.</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>Uzdevums %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>Glabāts kā noslēpums %secret.</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Veids</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Pēdējā publikācija</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>Izlaist šīs lapas</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>Izlaist šīs sadaļas</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Saites</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>Pārrakstītās saites</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>Tiešsaistes vietne</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>Apskatīt būvējumu</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>Mazie burti, cipari, _ un -, piemēram, github-public. Tas nosauc mapi un birkas (static/&lt;id&gt;/&lt;n&gt;) un vēlāk to nevar mainīt.</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>Izveidot jaunu atslēgu</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>Izveidot mērķi</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>Izveidot atslēgu</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>Vispirms izveidojiet repozitoriju resursdatorā; derēs arī tukšs.</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>Manifests</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Ziņojums</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>Lielākā daļa lapu</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Nosaukums</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>Marķiera nosaukums sadaļā Iestatīšana &gt; Noslēpumi</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>Jauns mērķis</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Tālāk</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>Nē</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>Vēl nav neviena iesūtījuma.</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>Atslēga netika izveidota: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Netika atrasta php komandrindas izpildāmā programma. Iestatiet migration.ini [AdminSettings] PhpCliPath uz tās pilno ceļu.</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>Vēl nav nevienas birkas.</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>Vēl nav neviena mērķa.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Nav</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>Nav būvējumā.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>Vēl nekas nav publicēts.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>Vēl nekas nav publicēts: katrs fails ir jauns.</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>Paziņot</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>Pēc grafika</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>Konsolē</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>Serverī: ./console exp:static:serve %id to pasniedz tādā pašā veidā.</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>Viens ceļš katrā rindā, * atbilst jebkurai daļai: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>Ar mērķi tiek glabāts tikai nosaukums; pats marķieris vai atslēga paliek sadaļā Iestatīšana &gt; Noslēpumi un nekad neparādās žurnālā.</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>Tikai to, ko lapas nosauc</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>Tikai ar marķieri. env:NAME tā vietā nolasa servera vides mainīgo.</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>Atvērt priekšskatījumu</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>Atver būvējumu tā, kā to pasniegs resursdators, no mērķa mapes. Saite jums darbojas vienu stundu.</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>Neobligāts. Tukšs: tas, kas tika publicēts.</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>Neobligāts. Ar domēnu vietne tiek pasniegta tā saknē.</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Izvade</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>Lapas</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>Mērķa lapas</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>Noraidītās lapas</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>Pēcapstrāde</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Priekšskatījums</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>Priekšskatīt un publicēt</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>Priekšskatīt un publicēt %name</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>Priekšskatīt būvējumu</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Gaita</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>Publiskā adrese</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>Publiskā atslēga</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>Publicēt</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>Publicējiet statisku vietnes kopiju vietnē GitHub Pages vai jebkurā git resursdatorā: būvējiet to, pārbaudiet izmaiņas, publicējiet un, ja nepieciešams, atgriezieties pie agrākas publikācijas.</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>Publikācija, uz kuru atgriezties</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>Publikācijas</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Nosūtīšana</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>Lasīt pamācību</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Žurnāls</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Noraidīts</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>Relatīvas</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Pārlādēt</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>Noņemts</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>Aizstāt atslēgu: vecā vairs nedarbosies</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Atskaite</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>Būvējuma atskaite</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Repozitorijs</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Pārskatīšana</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>Pārskatīšana pārbauda katru iestatījumu un parāda rindas, kas tiks ierakstītas. Pagaidām nekas netiek saglabāts.</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Atsaukt</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Atsaukšana</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Saglabāt</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>Grafiks</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>Meklēšanas lapa</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>Sadaļu ID, atdalīti ar komatiem.</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>Novirzīt uz tiešsaistes vietni</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>Iestatījums</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Iestatījumi</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>%name iestatījumi</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Iestatīšana</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Iestatīšana &gt; Noslēpumi</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>Tiek rādīts sarakstos, piemēram, “Publiskā vietne GitHub Pages”.</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>Pieteikšanās ar GitHub App būs pieejama kopā ar GitHub integrāciju.</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>Vietne</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>Publicējamā vietne</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Lielums</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>Lielums un ierobežojumi</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>Būvējuma lielums</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Novecojušās lapas</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Sākts</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Sāka %user, %time.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Stāvoklis</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Statiskā publicēšana</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>Statiskā publicēšana ir izslēgta</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Statiskā publicēšana ir izslēgta.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>Statiskā publicēšana ir izslēgta. Vispirms ieslēdziet to sadaļā Iestatīšana &gt; Statiskā publicēšana.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>Statiskā publicēšana ir ieslēgta.</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>%step. solis no %total</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Soļi</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>Attīrīšana</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Izslēgt</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Ieslēgt</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>Ieslēgt statisko publicēšanu</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Birka</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>Birkas</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Mērķis</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>Mērķus var izveidot un mainīt, taču nekas netiek būvēts vai publicēts, kamēr tā nav ieslēgta.</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>Norāda meklētājprogrammām, ko lasīt.</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>Būvējumu neizdevās izmest: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>Būvējums ir tāds pats kā pēdējā publikācija: nav ko publicēt.</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>Būvējums tika izmests: mapē atkal ir pēdējā publikācija.</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>Noklusējuma vērtības der lielākajai daļai vietņu.</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>Mapē ir vēl nepublicēts būvējums; jauns būvējums to aizstās.</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>Uzdevumu mapē nevar rakstīt: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>Uzdevumu neizdevās sagatavot: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>Uzdevumu neizdevās sākt.</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>Uzdevums ir beidzies. Notiek tā atskaites ielāde.</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>Uzdevumam nepieciešams pieteicies lietotājs.</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>Uzdevums tika sākts, bet neziņoja sava procesa ID. Pārbaudiet %detail.</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>Atslēga</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>Lielākais fails: %path, %size.</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Rindas, kas tiks ierakstītas</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>Lapu saraksts meklētājprogrammām; nepieciešama publiskā adrese.</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>Lapas tiek ielādētas tā, kā tās redz nepieteicies apmeklētājs. Administrēšanas un rediģēšanas vietnes piekļuves nekad netiek piedāvātas.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>Gaitai neizdevās sekot. Pārlādējiet lapu, lai redzētu, kā sokas uzdevumam.</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>Atslēgas publiskā daļa:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>Zara sakne</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>Noslēpumu krātuve vēl nav iestatīta (./console exp:upgrade --apply izveido tās tabulu), tāpēc atslēgu nevar saglabāt.</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>Serveris piesakās pats (ar savu SSH atslēgu vai akreditācijas datu palīgu), vai arī repozitorijs atrodas šajā serverī.</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>Iestatījumu neizdevās ierakstīt: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Iestatījumi ir derīgi. Tiks ierakstītas šīs rindas:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Iestatījumu failu nevar nolasīt: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>Vietne atgriežas pie šīs publikācijas failiem; vēl nepublicēts būvējums vispirms ir jāpublicē vai jāizmet.</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>Vietnes lapa adresēm, kas neeksistē.</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>Mērķi neizdevās saglabāt: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>Mērķis vēl nepiesakās ar šo atslēgu: tā iestatījumos izvēlieties “Šim mērķim izveidota izvietošanas atslēga”.</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Mērķus neizdevās nolasīt: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>Vēl nav būvējuma, ko pārbaudīt.</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>Šai instalācijai nav publiskās vietnes piekļuves. Administrēšanas un rediģēšanas vietnes piekļuves nekad netiek publicētas.</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>Šī lapa seko uzdevuma gaitai; ja lapu aizver, tas turpinās fonā.</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>Šim mērķim vēl nav izvietošanas atslēgas.</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>Šis mērķis šeit vēl nav būvēts.</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>Šim mērķim tāda ir.</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>Izmet šo būvējumu: mapē atkal ir pēdējā publikācija. Tiešsaistes vietne nemainās.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>Vispirms atzīmējiet “Izmaiņas ir pārbaudītas”.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Laiks</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>Palaidēji</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>Vēlreiz ierakstiet birkas nosaukumu</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>Nemainīts</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>Tīmekļa āķis</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Kas</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>Kas mainās</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>Kas ir katrs fails; tiek rakstīts vienmēr.</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>Ko uzdevums paveica, un tā žurnāls. Šeit sākts uzdevums turpinās fonā, kad šī lapa tiek aizvērta.</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>Ko uzdevums izvadīja kā kļūdas</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>To, ko lapas nosauc, un katru publicētā satura attēlu</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Kad</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>Kad publicēšana neizdodas</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>Kad publicēšana izdodas</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>Kad tiek publicēts saturs</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>Kurp ved saites uz to, kā kopijā nav (meklēšana, pieteikšanās).</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>No kurienes tiek pasniegta statiskā kopija.</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>Kura vietne tiek publicēta un kā sauc mērķi.</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>Darbojas zem jebkura ceļa. Noklusējums.</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>Tiek rakstīts, ja ir iestatīts pielāgots domēns.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>Jā</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>Šeit un konsolē vienmēr varat būvēt un publicēt manuāli.</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>tikai nosaukums; vērtība paliek sadaļā Iestatīšana &gt; Noslēpumi</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>zem %path</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>beidzās bez atskaites</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>papildu</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>neizdevās</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>fails</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages vai main ar mapi docs.</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>git resursdators</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (ar marķieri) vai git@github.com:owner/repo.git (ar izvietošanas atslēgu); nekad ar paroli vai marķieri tajā.</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/, vietnes kartei un kanoniskajām saitēm.</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>attēls</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>nekad</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>nē</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>nav attālā repozitorija</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>nav: iesūtījumi paliek mapē</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>nav: nekas nemainījās</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>nav nosūtīts</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>nekas nemainījās</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>lapa</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>izdevās</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>proc_open ir atspējots, tāpēc šeit nevar sākt uzdevumu. Serverī izmantojiet ./console exp:static:build.</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>publikācija</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>publicēts</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>gaida nosūtīšanu</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>nosūtīts</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>noraidīts</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>relatīvas</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>atsaukšana</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>atsaukts</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>notiek</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>tikai mape</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: tiek ierakstīts failā CNAME. Novirziet domēna DNS uz resursdatoru, kā tas norāda; HTTPS ieslēgšanās var aizņemt kādu laiku.</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>jā, vēl nav publicēts</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>To publicē repozitorija darbplūsma. Būvējums ieraksta darbplūsmas failu; atstājiet mapi tukšu.</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>Pēc mērķa saglabāšanas ar GitHub repozitoriju un marķieri vai GitHub App šis solis var izveidot repozitoriju un ieslēgt GitHub Pages. Citādi vispirms izveidojiet repozitoriju GitHub; der arī tukšs.</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>Zars vai GitHub Actions?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>Pārbaudīt DNS</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>Izveidot repozitoriju, ja tā nav</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>Izveidojiet repozitoriju GitHub un ieslēdziet GitHub Pages tā iestatījumos (Settings &gt; Pages).</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>Izveido repozitoriju %repo, ja tā trūkst (ja tas prasīts), ieslēdz GitHub Pages no zara vai no GitHub Actions, kā saglabāts, un iestata pielāgoto domēnu un HTTPS. Izmanto saglabātos iestatījumus: vispirms saglabājiet izmaiņas.</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>Sīkāk GitHub</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>Vispirms ievadiet pielāgoto domēnu.</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>Katra nosūtīšana vispirms tiek pārbaudīta pret šiem ierobežojumiem.</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>Adresei https:// GitHub. Pierakstās šai instalācijai iestatītā App; tai vajadzīgs instalācijas id.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages privātu repozitoriju pasniedz tikai maksas plānā.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: apakšdomēnam (www.example.com) vajadzīgs CNAME ieraksts uz &lt;owner&gt;.github.io; saknes domēnam (example.com) A ieraksti %ips.</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>GitHub App instalācijas id</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>Pēdējais Pages būvējums</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>Ierobežojumi un noteikumi</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>Vajadzīgs GitHub Pages bezmaksas plānā.</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>GitHub</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>Tikai ar GitHub App: skaitlis App instalācijas adreses beigās GitHub. Pati App tiek iestatīta staticcache.ini (GitHubAppId, GitHubAppKey).</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>Privāts</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>Publisks</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>Vispirms saglabājiet mērķi ar GitHub repozitoriju un marķieri vai GitHub App.</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>Iestatiet šos ierakstus pie domēna nodrošinātāja:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>Iestatīt GitHub</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>%domain DNS vēl nenorāda uz GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>%domain DNS norāda uz GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>GitHub integrācija šeit nav pieejama: %problem. Publicēšana zarā darbojas tāpat; ieslēdziet GitHub Pages repozitorija iestatījumos.</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>GitHub soļi šim mērķim nav pieejami: %problem.</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>GitHub Pages stāvoklis tiek rādīts, ja akreditācijas dati ir marķieris vai GitHub App.</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>Izmantot savu domēnu</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>Ko izvēlēties: marķieri, izvietošanas atslēgu vai GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>Ar GitHub repozitoriju un marķieri vai GitHub App vednis var jūsu vietā izveidot repozitoriju, ieslēgt GitHub Pages un iestatīt domēnu (4. solis).</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>tiek būvēts</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>uzbūvēts</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>no GitHub Actions</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>no zara %branch</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>vēl nav</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>nav atrasts</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>izslēgts</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>privāts</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>publisks</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>rindā</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>nezināms</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%count no %pages lapām:</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>Pie katras teksta datnes .gz (un .br) datne, resursdatoriem, kas tās piegādā.</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>Neliela lapa katrai vecai lapas adresei un aliasam, lai vecās saites turpinātu darboties.</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>Vienmēr tiek rakstīts, kad GitHub Actions piegādā vietni.</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>SPDX ID, piemēram, CC-BY-4.0, vai pats teksts.</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>Grozs</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>Izsaukumi serverim</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Komentāri</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>Veidlapas, kas vāc informāciju</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>GitHub Actions darbplūsma</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>Mazāk tukšumu un bez komentāriem lapās.</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>Satura licence</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Pieteikšanās</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>Minificēt</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>Citas veidlapas</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>Iepriekšēja saspiešana</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>Pāradresācijas lapas</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>Pāradresācijas lapas: %count.</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Meklēt</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>Meklēšanas indekss: %pages lapas (%languages).</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>Stila lapas un skripti, kas nosaukti pēc sava satura jaucējkoda, lai pārlūki tos varētu paturēt.</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>Mainītās lapas dažas minūtes pēc pēdējām izmaiņām (cronjob daļa staticpublish).</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>Satura licence no lauka zemāk.</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>Visa vietne grafika laikos (cronjob daļa staticpublish).</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>Šīm lapu daļām vajadzīgs serveris; katrai ir rezerves risinājums. Pārbaudiet tās pirms publicēšanas.</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>Kas statiski nedarbojas</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>Kas ir repozitorijs, tam, kas to atver resursdatorā.</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>izlaists</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>rezerves teksts</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>tiešsaistes vietnes veidlapu galapunkts</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>tiešsaistes vietne</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>kopijas meklēšanas lapa</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>Veidlapu nevarēja nosūtīt.</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>Paldies, veidlapa nosūtīta.</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>Veidlapa netika pieņemta: pārbaudiet ievadīto un nosūtiet vēlreiz.</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>Noņemt saites uz lapām, kuru kopijā nav</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>Noņemt saites uz administrēšanu</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>To teksts paliek. Attēli, veidlapas un saites uz citām vietnēm nekad netiek noņemtas.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Versija</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>Publicējamās vietnes piekļuves</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Vietnes piekļuve</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>Saknē</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>Saknē nav vietnes piekļuves: katra ir savā mapē, un sakne uz tām norāda</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Vietnes piekļuves</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>Atzīmējiet vienu vietnes piekļuvi vai vairākas, kas ar savu URI prefiksu dala vienu resursdatoru. Saknē esošā tiek pasniegta tur, pārējās sava prefiksa mapē (/ger/); saites starp tām paliek kopijā. Administrēšanas piekļuves nekad netiek piedāvātas.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>Mērķa %target statiskā publicēšana vietnē %site neizdevās</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>Mērķa %target statiskā publicēšana vietnē %site izdevās</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>Šo vēstuli nosūtīja %site, jo statiskās publicēšanas mērķis %target to pieprasa.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>Izvietošana %deploy vietnē %site neizdevās</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>Izvietošana %deploy vietnē %site gaida pie vārtiem</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>Izvietošana %deploy vietnē %site izdevās</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>Šo vēstuli nosūtīja %site, jo to pieprasa migration.ini [RemoteSettings] Notify[].</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>Datu tipi (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>Saskaitīts %time, atkārtoti pēc %minutes minūtēm</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>Datu tips glabā un rediģē viena veida klases atribūta vērtību: teksta rindu, attēlu, relāciju. Lielāko daļu nodrošina kodols, paplašinājumi pievieno vēl. Šeit ir visi datu tipi, kas tos nodrošina un cik daudz satura tos izmanto. Datu tips, ko datubāze izmanto, bet neviens vairs nereģistrē, sabojā saturu, kurā tas ir.</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>Klašu grupas</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>Saskaitīt atkārtoti tagad, nevis izmantot pēdējo minūšu skaitus.</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>Saskaitīt atkārtoti</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Pārskats</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>Reģistrēts</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>Tiek izmantota</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>Netiek izmantots</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>Paplašinājumi, kas nodrošina datu tipus</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>Klases atribūti</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>Objekta atribūti</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>Nav reģistrēts</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>Sarakstā, fails trūkst</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>%count datu tipi tiek izmantoti, bet nav reģistrēti</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>%class_attributes klases atribūtiem un %object_attributes objekta atribūtiem ir datu tips, ko nereģistrē neviens paplašinājums vai iestatījums. To objektus nevar parādīt, rediģēt vai publicēt. Aktivizējiet paplašinājumu, kas nodrošina datu tipu, vai mainiet klasi.</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>Rādīt tikai šos</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>Meklēt datu tipu</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>Identifikators, nosaukums, PHP klase vai paplašinājums.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Rādīt</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Visi</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>Nodrošina</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>Visi</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>Kodols</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>Neviens datu tips neatbilst šim filtram.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Rādīt visu</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>Paplašinājums</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%shown no %count datu tipiem, %used tiek izmantoti</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>Datubāzē ir šo datu tipu klašu vai objektu atribūti, bet content.ini neviens no tiem nav uzskaitīts, vai tā fails trūkst.</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>%provider datu tipi</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>Datu tips</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>PHP klase un fails</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>Klases</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>Objekti</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>Karodziņi</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>nav</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>Neviens datu tips neatbilst meklēšanai. Notīriet meklēšanu.</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>Parādīti %shown no %count datu tipiem</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>Parādītie datu tipi: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>Kārtot pēc kolonnas %column</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>Saskaitīts %time</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>Visi datu tipi</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>Palīdzības lapa</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>Šis datu tips tiek izmantots, bet nav reģistrēts</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>Tālāk norādīto klašu objektus nevar parādīt, rediģēt vai publicēt, kamēr neviens paplašinājums nereģistrē šo datu tipu. Aktivizējiet paplašinājumu, kas to nodrošina, un pievienojiet to content.ini [DataTypeSettings] AvailableDataTypes[], vai mainiet klases.</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini uzskaita šo datu tipu, bet nevienā datu tipu direktorijā nav tā faila. To neviens neizmanto; noņemiet to no AvailableDataTypes[] vai aktivizējiet tā paplašinājumu.</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>Par šo datu tipu</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>Identifikators</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Nosaukums</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Paplašinājums %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>neviens</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>PHP klase</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Fails</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>Ir AvailableDataTypes[]</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>jā</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>nē</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>Vērtības kolonnas</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>Klases atribūta iestatījumu kolonnas</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>Tabulas</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>Kolonnas un tabulas ir atrastas, lasot datu tipa kodu: norāde, nevis garantija.</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>Veidnes</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Vietnes piekļuve</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>Veidne</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>Atrasts</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>šī administrācija</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>noklusējuma vietne</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>Bez pārrakstījumiem: pārrakstīšanas veidne, kas atbilst klasei vai atribūtam, ir prioritāra pār šīm.</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>Klases, kas to izmanto (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>Nevienai klasei nav šī datu tipa atribūta.</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Klase</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>Atribūti</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>Klases atribūti (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>Atribūts</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Iestatījumi</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>Obligāts</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>Meklējams</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>Tulkojams</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>Vāc informāciju</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>Daļa satura, kas to izmanto</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>Pēdējie mainītie vispirms</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Modificēts</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>Mezgls %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>Katram tulkojumam ir sava vērtība.</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>Meklēšana indeksē tā vērtības.</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>Tas var vākt informāciju no apmeklētājiem (veidlapas).</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>Sarakstus var kārtot pēc tā: kārtošanas atslēga %type.</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>Kārtojams</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>Tā vērtības norāda uz citiem objektiem.</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>Relācijas</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>To var aizpildīt no vienkāršas virknes (imports, REST).</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>No teksta</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>To var aizpildīt no faila.</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>No faila</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>Tā klases atribūta iestatījumi tiek iekļauti pakotnēs.</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>Pakotnes</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>Saturs (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from–%to no %count</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Filtrēt sarakstu</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>Visas klases</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Sadaļa</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Valodas</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Īpašnieks</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Publicēts</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>Mainīt secību uz pretējo</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Nav vienumu</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Lapā</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Rādīt %count vienumus lapā.</translation>
     </message>
 </context>
 </TS>

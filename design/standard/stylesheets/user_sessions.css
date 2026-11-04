@@ -16,8 +16,14 @@
   --us-bad: #b91c1c;
   color: var(--us-ink);
 }
+/* Light or dark. A design with a light and dark switch of its own marks <html> with the mode in use, and these pages
+   follow that mark, not the system's: html[data-theme="light|dark"] (the common convention), html[data-bs-theme]
+   (Bootstrap 5.3) or html[data-exp-theme="light|dark|darker"] (the media design of sevenx_themes_media). Without a
+   mark they follow the system (prefers-color-scheme). This is the integration point for a site design: set one of
+   the three attributes on <html> before the page is drawn. The two blocks carry the same dark values. */
 @media (prefers-color-scheme: dark) {
-  .us-page, .us-account-link {
+  :root:not([data-theme="light"]):not([data-bs-theme="light"]):not([data-exp-theme="light"]) .us-page,
+  :root:not([data-theme="light"]):not([data-bs-theme="light"]):not([data-exp-theme="light"]) .us-account-link {
     --us-ink: #e6e8ec;
     --us-muted: #a5acb8;
     --us-line: #3a4150;
@@ -29,6 +35,20 @@
     --us-warn-soft: #422006;
     --us-bad: #fca5a5;
   }
+}
+:root[data-theme="dark"] .us-page, :root[data-theme="dark"] .us-account-link,
+:root[data-bs-theme="dark"] .us-page, :root[data-bs-theme="dark"] .us-account-link,
+:root[data-exp-theme^="dark"] .us-page, :root[data-exp-theme^="dark"] .us-account-link {
+  --us-ink: #e6e8ec;
+  --us-muted: #a5acb8;
+  --us-line: #3a4150;
+  --us-soft: #1d222b;
+  --us-card: #161a21;
+  --us-accent: #fb923c;
+  --us-ok: #86efac;
+  --us-ok-soft: #14532d;
+  --us-warn-soft: #422006;
+  --us-bad: #fca5a5;
 }
 .us-page h1 { margin: 0 0 .3em; }
 .us-intro, .us-meta { color: var(--us-muted); }
@@ -52,3 +72,19 @@
 .us-table th, .us-table td { padding: .4em .6em; border-bottom: 1px solid var(--us-line); text-align: left; vertical-align: top; }
 .us-account-link { display: flex; flex-wrap: wrap; gap: .4em 1em; align-items: center; justify-content: space-between; margin: 0 0 1em; padding: .7em .95em; border: 1px solid var(--us-line); border-radius: 9px; background: var(--us-soft); }
 .us-account-link p { margin: 0; flex: 1 1 18em; }
+/* "Security activity" (user/security): the counts, the filter and the events, newest first */
+.us-figures { display: flex; flex-wrap: wrap; gap: .6em; margin: 0 0 1em; padding: 0; list-style: none; }
+.us-figures li { flex: 1 1 10em; padding: .6em .9em; border: 1px solid var(--us-line); border-radius: 9px; background: var(--us-card); color: var(--us-muted); }
+.us-figures li strong { display: block; color: var(--us-ink); font-size: 1.5em; }
+.us-figures li.is-bad strong { color: var(--us-bad); }
+.us-filter { margin: 0 0 1em; }
+.us-events { margin: 0 0 1em; padding: 0; list-style: none; border-left: 2px solid var(--us-line); }
+.us-events li { display: flex; flex-wrap: wrap; gap: .2em .8em; align-items: baseline; padding: .45em 0 .45em .9em; }
+.us-events li time { color: var(--us-muted); font-size: .9em; min-width: 9em; }
+.us-events li.is-bad strong { color: var(--us-bad); }
+.us-events li.is-warn strong { color: var(--us-accent); }
+.us-events li.is-ok strong { color: var(--us-ok); }
+/* The pages draw their own background, so their colors keep their contrast on a theme of either brightness, also when
+   the system is dark and the site's theme is not */
+.us-page { padding: 1em; border-radius: 10px; background-color: var(--us-card); }
+.us-page a { color: var(--us-accent); }

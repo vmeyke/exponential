@@ -13,7 +13,7 @@
  * counts as later than Enabled[]. The answers are compiled once per settings state (expAuditConfig's hash) and kept
  * for the life of the process, so a name that is off costs one array lookup.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package kernel
  */
@@ -52,6 +52,9 @@ class expAuditTaxonomy
         'content.object.translate' => array( 'severity' => 'info', 'default' => 'off', 'channel' => 'content' ),
         'content.object.translation.remove' => array( 'severity' => 'notice', 'default' => 'on', 'channel' => 'content' ),
         'content.version.remove' => array( 'severity' => 'notice', 'default' => 'on', 'channel' => 'content' ),
+        'content.previewlink.create' => array( 'severity' => 'notice', 'default' => 'on', 'channel' => 'content', 'label' => 'Preview link made' ),
+        'content.previewlink.revoke' => array( 'severity' => 'notice', 'default' => 'on', 'channel' => 'content', 'label' => 'Preview link revoked' ),
+        'content.previewlink.open' => array( 'severity' => 'info', 'default' => 'on', 'channel' => 'content', 'label' => 'Preview link opened' ),
         'content.node.move' => array( 'severity' => 'info', 'default' => 'on', 'channel' => 'content' ),
         'content.node.copy' => array( 'severity' => 'info', 'default' => 'off', 'channel' => 'content' ),
         'content.node.add' => array( 'severity' => 'info', 'default' => 'off', 'channel' => 'content', 'label' => 'Location add' ),
@@ -68,9 +71,17 @@ class expAuditTaxonomy
         'content.file.review.mark' => array( 'severity' => 'info', 'default' => 'on', 'channel' => 'content', 'label' => 'Missing file review mark' ),
         'content.node.hide' => array( 'severity' => 'info', 'default' => 'on', 'channel' => 'content' ),
         'content.node.reveal' => array( 'severity' => 'info', 'default' => 'on', 'channel' => 'content' ),
+        // the mutations of the GraphQL API (doc/eng-us/features/6.0/graphql.md, "Mutations")
+        'content.graphql.mutation' => array( 'severity' => 'notice', 'default' => 'on', 'channel' => 'content', 'label' => 'GraphQL mutation' ),
+        'content.graphql.mutation.failed' => array( 'severity' => 'notice', 'default' => 'on', 'channel' => 'content', 'label' => 'GraphQL mutation refused or failed' ),
         'content.node.swap' => array( 'severity' => 'info', 'default' => 'on', 'channel' => 'content' ),
         'content.node.section' => array( 'severity' => 'info', 'default' => 'on', 'channel' => 'content' ),
         'content.object.state' => array( 'severity' => 'info', 'default' => 'on', 'channel' => 'content' ),
+        'content.object.hold.refused' => array( 'severity' => 'notice', 'default' => 'on', 'channel' => 'content', 'label' => 'Publication of a held object refused' ),
+        'content.object.hold.auto' => array( 'severity' => 'info', 'default' => 'on', 'channel' => 'content', 'label' => 'New content held for review automatically' ),
+        'content.object.hold.place' => array( 'severity' => 'notice', 'default' => 'on', 'channel' => 'content', 'label' => 'Review hold placed' ),
+        'content.object.hold.release' => array( 'severity' => 'notice', 'default' => 'on', 'channel' => 'content', 'label' => 'Review hold released' ),
+        'content.moderation.action' => array( 'severity' => 'notice', 'default' => 'on', 'channel' => 'content', 'label' => 'Moderation action on a selection' ),
         'content.node.main' => array( 'severity' => 'info', 'default' => 'off', 'channel' => 'content', 'label' => 'Main location change' ),
         'content.node.sort' => array( 'severity' => 'info', 'default' => 'off', 'channel' => 'content' ),
         'content.node.priority' => array( 'severity' => 'info', 'default' => 'off', 'channel' => 'content' ),
@@ -110,6 +121,13 @@ class expAuditTaxonomy
         'access.session.reauth.failed' => array( 'severity' => 'notice', 'default' => 'on', 'channel' => 'access' ),
         'access.session.revoke' => array( 'severity' => 'notice', 'default' => 'on', 'channel' => 'access' ),
         'access.session.new_device' => array( 'severity' => 'notice', 'default' => 'on', 'channel' => 'access', 'label' => 'Sign-in from a new device' ),
+        'access.session.new_location' => array( 'severity' => 'notice', 'default' => 'on', 'channel' => 'access', 'label' => 'Sign-in from a new location' ),
+        'access.user.activity.confirm' => array( 'severity' => 'info', 'default' => 'on', 'channel' => 'access', 'label' => 'Security event confirmed by the account owner' ),
+        'access.user.two_factor.enroll' => array( 'severity' => 'notice', 'default' => 'on', 'channel' => 'access', 'label' => 'Two-step sign-in turned on' ),
+        'access.user.two_factor.remove' => array( 'severity' => 'warning', 'default' => 'on', 'channel' => 'access', 'label' => 'Two-step sign-in turned off' ),
+        'access.user.two_factor.recovery_used' => array( 'severity' => 'warning', 'default' => 'on', 'channel' => 'access', 'label' => 'Recovery code used' ),
+        'access.user.two_factor.recovery_issued' => array( 'severity' => 'notice', 'default' => 'on', 'channel' => 'access', 'label' => 'New recovery codes' ),
+        'access.user.two_factor.verify.failed' => array( 'severity' => 'notice', 'default' => 'on', 'channel' => 'access', 'label' => 'Wrong two-step code' ),
         'access.user.lock' => array( 'severity' => 'warning', 'default' => 'on', 'channel' => 'access' ),
         'access.user.unlock' => array( 'severity' => 'notice', 'default' => 'on', 'channel' => 'access' ),
         'access.permission.refused' => array( 'severity' => 'notice', 'default' => 'on', 'channel' => 'access' ),
@@ -164,6 +182,10 @@ class expAuditTaxonomy
         'access.passkey.remove' => array( 'severity' => 'notice', 'default' => 'on', 'channel' => 'access', 'label' => 'Passkey removed' ),
         'access.passkey.use' => array( 'severity' => 'info', 'default' => 'on', 'channel' => 'access', 'label' => 'Passkey used' ),
         'access.passkey.use.failed' => array( 'severity' => 'notice', 'default' => 'on', 'channel' => 'access', 'label' => 'Passkey refused' ),
+        'access.passkey.revoke' => array( 'severity' => 'warning', 'default' => 'on', 'channel' => 'access', 'label' => 'Passkey revoked by an administrator' ),
+        'access.passkey.password_refused' => array( 'severity' => 'notice', 'default' => 'on', 'channel' => 'access', 'label' => 'Password sign-in refused: the account signs in with passkeys' ),
+        'access.passkey.required' => array( 'severity' => 'info', 'default' => 'on', 'channel' => 'access', 'label' => 'Sent to add a passkey (required)' ),
+        'access.passkey.suggested' => array( 'severity' => 'info', 'default' => 'on', 'channel' => 'access', 'label' => 'Suggested to add a passkey' ),
         'access.session.reauth.ask' => array( 'severity' => 'info', 'default' => 'on', 'channel' => 'access', 'label' => 'Asked to verify it is you' ),
         'system.setting.write' => array( 'severity' => 'notice', 'default' => 'on', 'channel' => 'system' ),
         'system.setting.undo' => array( 'severity' => 'notice', 'default' => 'on', 'channel' => 'system' ),
@@ -188,6 +210,42 @@ class expAuditTaxonomy
         // demo mode (EXP_DEMO_MODE=1, doc/eng-us/bc/6.0/demo-mode.md): once per process; it cannot be switched off
         'system.demo.mode' => array( 'severity' => 'warning', 'default' => 'always', 'channel' => 'system' ),
         'system.upgrade.run' => array( 'severity' => 'notice', 'default' => 'on', 'channel' => 'system' ),
+        // exp:upgrade (doc/eng-us/guides/upgrading-with-the-console.md): each step applied or failed, the backup, a rollback
+        'system.upgrade.step' => array( 'severity' => 'notice', 'default' => 'on', 'channel' => 'system', 'label' => 'Upgrade step applied' ),
+        'system.upgrade.backup' => array( 'severity' => 'notice', 'default' => 'on', 'channel' => 'system', 'label' => 'Upgrade backup made' ),
+        'system.upgrade.rollback' => array( 'severity' => 'warning', 'default' => 'on', 'channel' => 'system', 'label' => 'Upgrade rolled back' ),
+        'system.upgrade.caption' => array( 'severity' => 'notice', 'default' => 'on', 'channel' => 'system', 'label' => 'Upgrade caption taken, checked or pruned' ),
+        'system.upgrade.verify' => array( 'severity' => 'notice', 'default' => 'on', 'channel' => 'system', 'label' => 'Upgrade verified' ),
+        // migrations (expMigrationRunner): a run, each migration applied (or a changed file accepted with --force
+        // --reason) or failed, a migration undone, a caption taken and a push of the migrations repository
+        'system.migration.run' => array( 'severity' => 'notice', 'default' => 'on', 'channel' => 'system', 'label' => 'Migration run' ),
+        'system.migration.apply' => array( 'severity' => 'notice', 'default' => 'on', 'channel' => 'system', 'label' => 'Migration applied' ),
+        'system.migration.fail' => array( 'severity' => 'warning', 'default' => 'on', 'channel' => 'system', 'label' => 'Migration failed' ),
+        'system.migration.rollback' => array( 'severity' => 'warning', 'default' => 'on', 'channel' => 'system', 'label' => 'Migration rolled back' ),
+        'system.migration.caption' => array( 'severity' => 'notice', 'default' => 'on', 'channel' => 'system', 'label' => 'Migration caption taken' ),
+        'system.migration.push' => array( 'severity' => 'notice', 'default' => 'on', 'channel' => 'system', 'label' => 'Migrations pushed' ),
+        // the steps of YAML migrations that reach out: an HTTP request (method, host and path, status), a mail (how
+        // many recipients) and a console command (its name, exit code); never a header, an address, a text or output
+        'system.migration.http' => array( 'severity' => 'notice', 'default' => 'on', 'channel' => 'system', 'label' => 'Migration HTTP request sent' ),
+        'system.migration.mail' => array( 'severity' => 'notice', 'default' => 'on', 'channel' => 'system', 'label' => 'Migration mail sent' ),
+        'system.migration.command' => array( 'severity' => 'notice', 'default' => 'on', 'channel' => 'system', 'label' => 'Migration console command run' ),
+        // a recording of changes (expMigrationRecording) started, stopped or discarded: the verb says which
+        'system.migration.record' => array( 'severity' => 'notice', 'default' => 'on', 'channel' => 'system', 'label' => 'Migration recording started, stopped or discarded' ),
+        // a deploy of migrations to remotes (expMigrationRemoteDeploy): its mode, state and every remote's state; the
+        // remotes that applied taken back after another failed (never an address detail or a credential)
+        'system.migration.deploy' => array( 'severity' => 'notice', 'default' => 'on', 'channel' => 'system', 'label' => 'Migrations deployed to remotes' ),
+        'system.migration.deploy.rollback' => array( 'severity' => 'warning', 'default' => 'on', 'channel' => 'system', 'label' => 'Migration deploy taken back on remotes' ),
+        'system.migration.remote' => array( 'severity' => 'notice', 'default' => 'on', 'channel' => 'system', 'label' => 'Migration remote added, changed or removed' ),
+        // static publishing (doc/eng-us/guides/static-publishing-targets-and-credentials.md): a publish or a push
+        // retried, a rollback, a deploy key made or replaced (never a credential's value), a target saved in the
+        // administration or the feature switched on or off
+        'system.staticpublish.publish' => array( 'severity' => 'notice', 'default' => 'on', 'channel' => 'system', 'label' => 'Static site published' ),
+        'system.staticpublish.rollback' => array( 'severity' => 'warning', 'default' => 'on', 'channel' => 'system', 'label' => 'Static site rolled back' ),
+        'system.staticpublish.credential' => array( 'severity' => 'notice', 'default' => 'on', 'channel' => 'system', 'label' => 'Static publishing credential changed' ),
+        'system.staticpublish.target' => array( 'severity' => 'notice', 'default' => 'on', 'channel' => 'system', 'label' => 'Static publishing target changed' ),
+        // a build (not a dry run), and a post to the form endpoint taken or refused (origin, token, rate)
+        'system.staticpublish.build' => array( 'severity' => 'info', 'default' => 'on', 'channel' => 'system', 'label' => 'Static site built' ),
+        'system.staticpublish.form' => array( 'severity' => 'info', 'default' => 'on', 'channel' => 'system', 'label' => 'Static site form posted' ),
         'system.velocity.deploy' => array( 'severity' => 'notice', 'default' => 'on', 'channel' => 'system' ),
         // the Velocity watchdog (doc/eng-us/bc/6.0/velocity-engines.md, "The watchdog"): only a run that acts or decides
         // something notable; a run that finds the engine running records nothing (not even system.command.run)
@@ -235,6 +293,7 @@ class expAuditTaxonomy
         'commerce.discount.change' => array( 'severity' => 'info', 'default' => 'on', 'channel' => 'commerce' ),
         'data.export.csv' => array( 'severity' => 'info', 'default' => 'on', 'channel' => 'commerce' ),
         'data.export.package' => array( 'severity' => 'info', 'default' => 'on', 'channel' => 'commerce' ),
+        'data.export.json' => array( 'severity' => 'info', 'default' => 'on', 'channel' => 'commerce', 'label' => 'Data export as JSON' ),
         'data.export.pdf' => array( 'severity' => 'info', 'default' => 'off', 'channel' => 'commerce' ),
         'data.import.csv' => array( 'severity' => 'info', 'default' => 'on', 'channel' => 'commerce' ),
         'data.import.dba' => array( 'severity' => 'info', 'default' => 'on', 'channel' => 'commerce' ),

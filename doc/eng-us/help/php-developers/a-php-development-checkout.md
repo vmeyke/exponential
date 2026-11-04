@@ -41,7 +41,7 @@ the git hooks and a PHP 8.0 binary for compatibility checks.
 git clone https://github.com/se7enxweb/exponential.git exp-dev
 cd exp-dev
 composer install
-php bin/php/console exp:install --package=sevenx_multisite_clean --url=http://127.0.0.1:8088
+php bin/php/console exp:install --apply --package=sevenx_multisite_clean --url=http://127.0.0.1:8088
 ```
 
 `composer install` runs `bin/php/ezpgenerateautoloads.php` afterwards (`"post-install-cmd"` in `composer.json`).
@@ -88,7 +88,7 @@ with a hint.
 
 ## A PHP 8.0 binary
 
-PHP 8.0 is the oldest supported version. The pre-commit hook and `make lint80` find it as `EXP_PHP80`, `php8.0` or
+PHP 8.0 is the oldest supported version (the stock PHP of RHEL 9); PHP 7.4 is usable without support (`make lint74` checks it). The pre-commit hook and `make lint80` find PHP 8.0 as `EXP_PHP80`, `php8.0` or
 `php80` on the `PATH`, or `/opt/plesk/php/8.0/bin/php`:
 
 ```bash

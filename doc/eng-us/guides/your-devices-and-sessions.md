@@ -63,6 +63,19 @@ The very first sign-in of an account sends nothing. To stop the e-mails: untick 
 from a new device or browser** under **Sign-in alerts** on Your devices and click **Save**. The page E-mail preferences
 points to this box: the e-mail is part of account security, so it is switched here.
 
+### If it was not you: Secure your account
+
+**Security activity** (linked from Your devices and the user menu) lists the sign-ins and changes of your account.
+Next to each event of the last 30 days that needs attention it asks **Was this you?**:
+
+- **Yes, it was me**: the question goes away; the event stays in the list.
+- **No, secure my account**: opens the card **Secure your account** at the top of the page.
+
+**Secure your account** first asks you to confirm it is you, then signs out every device except the one you are using,
+also those that stay signed in with Remember me. The page then says how many were signed out and offers **Change
+password**: choose a new one at once. The button **Secure your account** in every security e-mail leads straight to
+this card.
+
 ## 4. For administrators: a user's sessions
 
 Open the user's account page (`user/edit/<id>`, in the user list **Edit** or the account icon). The card **Sessions**
@@ -116,6 +129,7 @@ sessions not used for `[Session] SessionTimeout` and removes ended sessions afte
 | The signed-out device is still signed in | It has not made a request yet: the next click shows the sign-in page. A device that only keeps a page open does not ask the server |
 | No e-mail after a sign-in from a new phone | The box is unticked on Your devices, or `NewDeviceMail=disabled`, or it was the account's first sign-in, or the same browser and system were used within 90 days |
 | A program (WebDAV, REST with an app password) is not listed | Requests that sign in for themselves only, without a session, are not sessions; revoke the app password or API key instead |
+| Your devices or Security activity is dark while the rest of the site is light (or the other way round) | The pages follow the system's light or dark mode unless the site's design marks the mode it uses on `<html>`: `data-theme="light"` or `"dark"`, `data-bs-theme` (Bootstrap 5.3) or `data-exp-theme` (the media design). A design with its own switch sets one of them before the page is drawn; see [Dark mode and design tokens in themes](../help/extension-development/part-6-theme-developers/dark-mode-and-tokens-in-themes.md#kernel-pages-follow-the-switch) |
 
 ## References
 

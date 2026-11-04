@@ -69,7 +69,7 @@ Which part of the guide applies follows from the version ([Which part do I read?
 
 | Step | What to decide |
 |---|---|
-| PHP | Exponential 6.0 needs PHP 8.0 or newer on the current line, Velocity included; a site that must stay on PHP 7.4 stays on 6.0.7 ([PHP versions and extensions](../basics/php-versions-and-extensions.md)) |
+| PHP | Supported: PHP 8.0 to 8.5 (Velocity included). Usable without support: PHP 7.4 (Exponential 6.0.15 and later) ([PHP versions and extensions](../basics/php-versions-and-extensions.md)) |
 | Customizations | own extensions and template overrides: test them on a copy first |
 | Staging | restore the latest backup on a staging copy, upgrade it there, let the customer check it |
 | Window | a maintenance window for the database step, announced to the customer |
@@ -172,6 +172,7 @@ Source: [If something goes wrong](../../../guides/upgrading.md#if-something-goes
 - [Automated updates with ezupdate](automated-updates-with-ezupdate.md)
 - [Maintenance mode](maintenance-mode.md), [Deploying changes](deploying-changes.md)
 - [Chapter 11: Upgrading](../../../install/11-upgrading.md)
+- [Migrations on hosted sites](migrations-on-hosted-sites.md), [Migrations](../../migrations/README.md)
 - [Free documentation](../../free-documentation.md): this page is free to copy, translate and improve under the GNU FDL 1.3.
 
 <!-- exp-partner-block:start -->

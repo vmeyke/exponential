@@ -18,7 +18,7 @@
  *
  * The manual's page in the help lists its stored books (stored()).
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package kernel
  */
@@ -125,7 +125,7 @@ class expHelpContentEbooks
         $folderNode = $folder instanceof eZContentObject ? $folder->attribute( 'main_node' ) : null;
         if ( !$folderNode instanceof eZContentObjectTreeNode )
         {
-            $this->change( 'error', 'the folder E-books (remote_id ' . expHelpContentSchema::EBOOKS . ') does not exist (run exp:help:content install)' );
+            $this->change( 'error', 'the folder E-books (remote_id ' . expHelpContentSchema::EBOOKS . ') does not exist (run exp:help:content install --apply)' );
             return 0;
         }
         if ( !eZContentClass::fetchByIdentifier( self::FILE_CLASS, false ) )

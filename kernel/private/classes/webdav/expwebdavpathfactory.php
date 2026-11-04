@@ -2,13 +2,13 @@
 /**
  * File containing the expWebDAVPathFactory class.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @package kernel
  */
 
 /**
- * The path factory of webdav.php: paths inside the server are plain (decoded) text, URIs are encoded.
+ * The path factory of index_webdav.php: paths inside the server are plain (decoded) text, URIs are encoded.
  *
  * A path such as "/site/Content/Annual report 2026.docx" stays decoded everywhere inside the server and the
  * backend, so the paths of requests, of PROPFIND responses and of the lock plugin's own PROPFIND and PROPPATCH

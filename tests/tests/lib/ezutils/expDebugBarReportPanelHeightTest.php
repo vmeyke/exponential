@@ -13,13 +13,15 @@
  * No database: the preference reader is passed in, and the report is rendered from a debug instance of its own
  * (no eZUser loaded, so the saved height is the default).
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package tests
  * @group lib
  * @group ezutils
  */
 
+#[\PHPUnit\Framework\Attributes\Group('lib')]
+#[\PHPUnit\Framework\Attributes\Group('ezutils')]
 class expDebugBarReportPanelHeightTest extends PHPUnit\Framework\TestCase
 {
     const GLOBAL_KEYS = array( 'eZDebugGlobalInstance', 'eZDebugEnabled', 'eZDebugLogOnly', 'eZDebugAlwaysLog', 'eZDebugLogFileEnabled' );
@@ -168,7 +170,7 @@ class expDebugBarReportPanelHeightTest extends PHPUnit\Framework\TestCase
         // #571: the bar is complete at the first paint: the minimise symbol, the link, "Keep open on reload" and the
         // hidden tab that restores the bar are in the markup, not added by the scripts after load
         $this->assertMatchesRegularExpression(
-            '#<h2><button type="button" class="exp-debug-logo" aria-label="[^"]+" title="[^"]+"><svg [^>]*class="exp-debug-symbol">.*?</svg></button><a href="\#debug-end"[^>]*>Exp Debug.*?<label class="debug-keep-open"><input type="checkbox"> [^<]+</label></h2><button type="button" class="exp-debug-restore" hidden #s',
+            '#<h2><button type="button" class="exp-debug-logo" aria-label="[^"]+" title="[^"]+"><svg [^>]*class="exp-debug-symbol">.*?</svg></button><a href="\#debug-end"[^>]*>Exp Debug.*?<label class="debug-keep-open"[^>]*><input type="checkbox"> [^<]+</label></h2><button type="button" class="exp-debug-restore" hidden #s',
             $report );
     }
 

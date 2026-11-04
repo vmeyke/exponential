@@ -13,7 +13,7 @@
  * /(lang)/eng-us shows the English original of a page to a reader of another language). An address that names a file
  * (doc/eng-us/<id>, ger-de/<translated path>, and the old doc/en/us/<id>, en/us/<id>, de/<translated path>) redirects to the page id.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package kernel
  */
@@ -69,8 +69,10 @@ class Viewer extends \Exponential\Runnable\ModuleView
         $tpl->setVariable( 'help_page', $document );
         $tpl->setVariable( 'help_html', $rendered['html'] );
         $tpl->setVariable( 'help_toc', $rendered['toc'] );
-        // a server process started before the class existed (a Velocity worker) shows the page without the tree
-        $tpl->setVariable( 'help_nav_html', class_exists( 'expHelpNavigation' ) ? ( new \expHelpNavigation( $index ) )->html( $id ) : '' );
+        // only the way to the page is open, the other folders load when opened (a server process started before the
+        // class existed, a Velocity worker, shows the page without the tree)
+        $tpl->setVariable( 'help_nav_html', class_exists( 'expHelpNavigation' ) && method_exists( 'expHelpNavigation', 'pathHtml' )
+                                            ? ( new \expHelpNavigation( $index ) )->pathHtml( $id ) : '' );
         $tpl->setVariable( 'help_prev', $neighbours['prev'] );
         $tpl->setVariable( 'help_next', $neighbours['next'] );
         $tpl->setVariable( 'help_edit_url', self::editUrl( $editBase, $document ) );

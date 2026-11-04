@@ -2,7 +2,7 @@
 /**
  * File containing the eZTemplateCacheFunction class.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -116,9 +116,10 @@ class eZTemplateCacheFunction
             $newNodes[] = eZTemplateNodeTool::createVariableNode( false, $keysData, false, array(), 'cacheKeys' );
             $newNodes[] = eZTemplateNodeTool::createVariableNode( false, $subtreeExpiryData, false, array(), 'subtreeExpiry' );
 
-            // The UI switch variant (expUISwitch, e.g. another interface language) is read at run time and only
-            // joins the key when a switch is applied, so the keys of everybody else stay as they were.
-            $code = "\$cacheKeys = array( \$cacheKeys, $placementKeyStringText, $accessNameText . ( empty( \$GLOBALS['expUISwitchVariantKey'] ) ? '' : '-' . \$GLOBALS['expUISwitchVariantKey'] ) );\n";
+            // The access path (/site under URI matching) and the UI switch variant (expUISwitch, e.g. another
+            // interface language) are read at run time and only join the key when there is one, so the keys of
+            // everybody else stay as they were (eZTemplateCacheBlock::accessSuffix()).
+            $code = "\$cacheKeys = array( \$cacheKeys, $placementKeyStringText, $accessNameText . eZTemplateCacheBlock::accessSuffix() );\n";
             $cachePathText = "\$cachePath";
         }
         else
@@ -128,8 +129,9 @@ class eZTemplateCacheFunction
             $placementKeyStringText = eZPHPCreator::variableText( $placementKeyString, 0, 0, false );
             $accessNameText = eZPHPCreator::variableText( $accessName, 0, 0, false );
             $nodeIDText = var_export( $nodeID, true );
-            $code = "\$cachePath = empty( \$GLOBALS['expUISwitchVariantKey'] ) ? " . eZPHPCreator::variableText( $cachePath, 0, 0, false ) .
-                    " : eZTemplateCacheBlock::cachePath( eZTemplateCacheBlock::keyString( array( $placementKeyStringText, $accessNameText . '-' . \$GLOBALS['expUISwitchVariantKey'] ) ), $nodeIDText );\n";
+            $code = "\$cacheBlockAccessSuffix = eZTemplateCacheBlock::accessSuffix();\n" .
+                    "\$cachePath = \$cacheBlockAccessSuffix === '' ? " . eZPHPCreator::variableText( $cachePath, 0, 0, false ) .
+                    " : eZTemplateCacheBlock::cachePath( eZTemplateCacheBlock::keyString( array( $placementKeyStringText, $accessNameText . \$cacheBlockAccessSuffix ) ), $nodeIDText );\n";
             $cachePathText = "\$cachePath";
         }
 
@@ -157,7 +159,10 @@ class eZTemplateCacheFunction
                                                                "}\n" .
                                                                "else\n" .
                                                                "{\n" .
-                                                               "    unset( \$contentData );" );
+                                                               "    unset( \$contentData );\n" .
+                                                               // A template that includes itself runs this block again in the same scope, which sets and
+                                                               // unsets the handler variable: the handler is kept on a stack until the block's text is stored.
+                                                               "    \$cacheBlockHandlerStack_{$codePlacementHash}[] = \$cacheHandler_{$codePlacementHash};" );
 
         $newNodes[] = eZTemplateNodeTool::createOutputVariableIncreaseNode( array( 'spacing' => 4 ) );
         $newNodes[] = eZTemplateNodeTool::createSpacingIncreaseNode( 4 );
@@ -166,12 +171,15 @@ class eZTemplateCacheFunction
         $newNodes[] = eZTemplateNodeTool::createAssignFromOutputVariableNode( 'cachedText', array( 'spacing' => 4 ) );
 
         $code =
+            "\$cacheHandler_{$codePlacementHash} = array_pop( \$cacheBlockHandlerStack_{$codePlacementHash} );\n" .
             "eZTemplateCacheBlock::store( \$cacheHandler_{$codePlacementHash}, \$cachedText );\n";
 
         $newNodes[] = eZTemplateNodeTool::createCodePieceNode( $code, array( 'spacing' => 4 ) );
         $newNodes[] = eZTemplateNodeTool::createOutputVariableDecreaseNode( array( 'spacing' => 4 ) );
         $newNodes[] = eZTemplateNodeTool::createWriteToOutputVariableNode( 'cachedText', array( 'spacing' => 4 ) );
-        $newNodes[] = eZTemplateNodeTool::createCodePieceNode( "    unset( \$cachedText, \$cacheHandler_{$codePlacementHash} );\n}\n" );
+        $newNodes[] = eZTemplateNodeTool::createCodePieceNode( "    unset( \$cachedText, \$cacheHandler_{$codePlacementHash} );\n" .
+                                                               "    if ( !\$cacheBlockHandlerStack_{$codePlacementHash} )\n" .
+                                                               "        unset( \$cacheBlockHandlerStack_{$codePlacementHash} );\n}\n" );
 
         return $newNodes;
     }
@@ -243,13 +251,8 @@ class eZTemplateCacheFunction
     function processCached( $tpl, $functionChildren, $rootNamespace, $currentNamespace,
                             $placementString, $keys, $subtreeExpiry, $expiry, $ignoreContentExpiry )
     {
-        // Fetch the current siteaccess
-        $accessName = false;
-        if ( isset( $GLOBALS['eZCurrentAccess']['name'] ) )
-            $accessName = $GLOBALS['eZCurrentAccess']['name'];
-        // the UI switch variant, as in the compiled code
-        if ( !empty( $GLOBALS['expUISwitchVariantKey'] ) )
-            $accessName .= '-' . $GLOBALS['expUISwitchVariantKey'];
+        // the current siteaccess, its access path and the UI switch variant, as in the compiled code
+        $accessName = eZTemplateCacheBlock::accessKey();
         if ( $keys === null )
         {
             $keyArray = array( $placementString, $accessName );
@@ -287,7 +290,7 @@ class eZTemplateCacheFunction
                        "functionChildren" => $functionChildren,
                        "rootNamespace" => $rootNamespace,
                        "currentNamespace" => $currentNamespace );
-        $noted = !empty( $GLOBALS['eZDebugEnabled'] ) && class_exists( 'expRenderStats' );
+        $noted = ( !empty( $GLOBALS['eZDebugEnabled'] ) || !empty( $GLOBALS['eZDebugCollect'] ) ) && class_exists( 'expRenderStats' );
         $start = microtime( true );
         $this->generateMs = null;
         $result = $cacheFile->processCache( array( 'eZTemplateCacheBlock', 'retrieveContent' ),
@@ -309,7 +312,7 @@ class eZTemplateCacheFunction
     function generateProcessedContent( $fname, $args )
     {
         extract( $args );
-        $noted = !empty( $GLOBALS['eZDebugEnabled'] ) && class_exists( 'expRenderStats' );
+        $noted = ( !empty( $GLOBALS['eZDebugEnabled'] ) || !empty( $GLOBALS['eZDebugCollect'] ) ) && class_exists( 'expRenderStats' );
         if ( $noted )
             expRenderStats::cacheBlockGenerationStarted();
         $start = microtime( true );

@@ -982,6 +982,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>Ojú ìwé yìí nìkan ni a wá: %from sí %to nínú %count.</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Gbogbo irú dátà ti kẹ̀rnẹ́ẹ̀lì àti àwọn àfikún, àti bí àwọn kíláàsì àti àkóónú ṣe ń lò ó.</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Àwọn irú dátà</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2314,6 +2322,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>Ẹ tún lè fi àmì sí àwọn ojú ìwé ẹ̀rọ: ẹ ṣí ojú ìwé náà (Ìgbékalẹ̀, àkọsílẹ̀ àyẹ̀wò, àtòjọ àwọn olùlò ...) kí ẹ sì yan Fi àmì sí ojú ìwé yìí lókè rẹ̀. Irú àwọn àmì ojú ìwé bẹ́ẹ̀ ní àmì gíà.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>Ẹ kò ní àṣẹ mọ́ láti ṣí ojú ìwé yìí níbí. Ẹ yọ àmì ojú ìwé náà kúrò, tàbí kí ẹ béèrè ìwọlé lọ́wọ́ alákòóso.</translation>
     </message>
 </context>
 <context>
@@ -5163,6 +5175,210 @@
         <source>Go to the first page</source>
         <translation>Lọ sí ojú ìwé àkọ́kọ́</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>Òmíràn</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>Ọjọ́ 7 tó kọjá</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>Àkókò àṣàyàn</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>Gbogbo ọ̀rọ̀</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>Ọ̀rọ̀ èyíkéyìí</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>Gbólóhùn gangan</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>Ìbámu</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>Orúkọ A–Y</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>Orúkọ Y–A</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>Ti yípadà, tuntun jùlọ kọ́kọ́</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>Ti yípadà, àtijọ́ jùlọ kọ́kọ́</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>Ti tẹ̀jáde, tuntun jùlọ kọ́kọ́</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>Ti tẹ̀jáde, àtijọ́ jùlọ kọ́kọ́</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Ti yípadà</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>Àwọn àlẹ̀mọ́</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>Fi àwọn àlẹ̀mọ́ hàn</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>Fi àwọn àlẹ̀mọ́ pamọ́</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Tún ṣe</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>Lò</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>Àwọn ọ̀rọ̀</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>Irú àkóónú</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>Fi púpọ̀ sí i hàn (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>Yan irú àkóónú kan láti wá nínú ọ̀kan lára àwọn àbùdá rẹ̀.</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Abala</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Láti</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Sí</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>Ọjọ́ ìbẹ̀rẹ̀ kì í ṣe ọjọ́ tó tọ́.</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>Ọjọ́ ìparí kì í ṣe ọjọ́ tó tọ́.</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Olùní</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>ID olùlò, orúkọ ìwọlé tàbí àdírẹ́sì í-meèlì.</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>A kò rí olùlò kankan fún “%input”.</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Èdè</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>Èdè èyíkéyìí</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Ibùdó</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>Ibùdó %count</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>Àbájáde fún ojú-ìwé kọ̀ọ̀kan</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>Àbájáde fún “%text” (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>Àbájáde (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>Tò nípasẹ̀</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>Tò</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>Àwọn àlẹ̀mọ́ tí ń ṣiṣẹ́</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>Yọ àlẹ̀mọ́ yìí kúrò</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>Tàbí yan àwọn àlẹ̀mọ́ kí o sì lò wọ́n láti ṣe àkójọ àkóónú tó bá wọn mu.</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>Àwọn àlẹ̀mọ́ máa ń dín ìwádìí kù lẹ́yìn tí o bá ti tẹ ọ̀rọ̀.</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>A kò rí àbájáde kankan fún “%text”.</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>A kò rí àbájáde kankan.</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>Yọ àlẹ̀mọ́ kan kúrò lókè.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Àwọn ìtumọ̀</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Àwọn ìṣe</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>Ṣàtúnṣe %name</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Ṣàtúnṣe</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -7512,6 +7728,10 @@
         <source>Setup &gt; Cronjobs</source>
         <translation>Ìgbékalẹ̀ &gt; Àwọn iṣẹ́ cron</translation>
     </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>Kò sí apá cronjob kankan tí ó tíì ṣiṣẹ́: ìtẹ̀léra iṣẹ́, àwọn ìgbéwọlé, àwọn ìfitónilétí àti atọ́ka ìwádìí ń dúró. Ẹ ṣe php bin/php/installcrontab.php --add --apply, tàbí ẹ fi àwọn ìlà --show kún crontab.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/dashboard/drafts</name>
@@ -8056,8 +8276,8 @@
         <translation>Àwọn ìkíyèsí ẹ̀tọ́ àdàkọ ti àwọn òǹkọ̀wé àtìbẹ̀rẹ̀ àti ti sọ́fítíwia ẹni-kẹta tí ó wà pẹ̀lú Exponential wà nínú àwọn fáìlì orísun àti nínú fáìlì LICENSE, gẹ́gẹ́ bí ìwé-àṣẹ ṣe béèrè.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>Àtòjọ yìí ni àwọn olùkópa Exponential tí wọ́n ti fún 7x ní àṣẹ láti lo iṣẹ́ wọn lábẹ́ àwọn òfin àti ipò Àdéhùn Àṣẹ Olùkópa eZ Systems. Gẹ́gẹ́ bí àdéhùn yìí ṣe yọ̀ǹda, 7x tún pín ọrẹ kọ̀ọ̀kan lábẹ́ ìwé-àṣẹ kan náà pẹ̀lú fáìlì tí ọrẹ náà wà nínú rẹ̀. Àtòjọ náà dárúkọ olùkópa kọ̀ọ̀kan, ìwífún ìkànsí (tí ó bá wà) àti àwọn fáìlì tí wọ́n ti kópa nínú wọn.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>Àwọn olùkópa tí a mọ̀ fún iṣẹ́ wọn lórí Exponential àti lórí sọ́fítíwọ̀ tí ó ti wá, pẹ̀lú àwọn fáìlì tí wọ́n kópa sí. Èyí jẹ́ ìdámọ̀, kì í ṣe àkíyèsí ẹ̀tọ́ àdàkọ: a ń fi àwọn ìkópa sí Exponential lé Exponential Foundation àti 7x lọ́wọ́ lábẹ́ Contributor Licensing Agreement.</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13879,32 +14099,20 @@ Note: The packages will not be uninstalled.</source>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;Ẹ ṣe àyẹ̀wò Exponential Enterprise Edition&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Ẹ di ọmọ ẹgbẹ́ Exponential Community, ẹ pààrọ̀ ìmọ̀ kí ẹ sì ṣe ìtọrẹ&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; àti àwọn mìíràn.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>Agbára láti ọwọ́ &lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt;. Fún ìwífún síwájú sí i, ẹ wo &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; àti àwọn mìíràn.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> Fún ìwífún síwájú sí i, ẹ wo &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
     </message>
     <message>
-        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; àti àwọn mìíràn.</translation>
+        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;Ẹ ṣe àyẹ̀wò Exponential (Láti 7x)&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Ẹ di ọmọ ẹgbẹ́ Exponential Community, ẹ gba ìrànlọ́wọ́ kí ẹ sì ṣe ìtọrẹ&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; àti àwọn mìíràn.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13913,6 +14121,61 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Help center</source>
         <translation>Ibùdó Ìrànlọ́wọ́</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>Àkóónú</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>Àwọn ojú-ìwé ìwé-àkọsílẹ̀</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>Àwọn olùlò</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>Àwọn kíláàsì àkóónú</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>Ìṣàkóso</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>Ojú-ìwé %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>Wo gbogbo àbájáde</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>Àbájáde %count</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>Àbájáde kan</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>Àbá %count</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>Kò sí àbá</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>A kò lè gbé àwọn àbá wọlé.</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>Àwọn àbá</translation>
     </message>
 </context>
 <context>
@@ -14381,6 +14644,14 @@ Note: The packages will not be uninstalled.</source>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>Fífi sori ẹ̀rọ yìí jẹ́ àfihàn gbangba: ẹnikẹ́ni lè mọ ọ̀rọ̀ aṣínà alákòóso rẹ̀, a kò sì lè yí ọ̀rọ̀ aṣínà alákòóso padà tàbí tún un ṣe. Ẹ má ṣe tẹ ohunkóhun tó jẹ́ ti ìkọ̀kọ̀ sí ibí yìí.</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Àwọn ẹ̀rọ yín</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Ìṣẹ̀lẹ̀ ààbò</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14670,6 +14941,14 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>Àwọn ìtọ́sọ́nà, ìwádìí àti bí a ṣe lè ròyìn àṣìṣe.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Àkóónú àìpẹ́</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Àkóónú tuntun jùlọ, ohun tí a dá dúró fún àyẹ̀wò, àti àwọn iṣẹ́ lórí àwọn ohun tí a yàn.</translation>
     </message>
 </context>
 <context>
@@ -15128,6 +15407,46 @@ Note: The packages will not be uninstalled.</source>
         <source>Synchronisations</source>
         <translation>Àwọn ìmúbáramu</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>GraphQL API: ojú ìparí rẹ̀, schema náà àti ibi ìṣeré láti dán àwọn ìbéèrè wò.</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Àwọn ìṣílọ</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Àwọn àyípadà sí ìfisórí tí a pa mọ́ bí fáìlì: ipò wọn, àwọn ìṣiṣẹ́, ṣiṣẹ́ kí o sì yí padà sẹ́yìn.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Àkóónú àìpẹ́</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Àkóónú tuntun jùlọ, ohun tí a dá dúró fún àyẹ̀wò, àti àwọn iṣẹ́ lórí àwọn ohun tí a yàn.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Tẹ ẹ̀dà aláìyípadà ti sáìtì kan jáde sí GitHub Pages tàbí agbàlejò git èyíkéyìí.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Ìtẹ̀jáde aláìyípadà</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Àwọn irú dátà</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Gbogbo irú dátà ti kẹ̀rnẹ́ẹ̀lì àti àwọn àfikún, àti bí àwọn kíláàsì àti àkóónú ṣe ń lò ó.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15292,6 +15611,22 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>Àwọn àkọọ́lẹ̀ tí kò sí ẹni tí ń lò tàbí tí ó nílò àyẹ̀wò; ẹ mú wọn dúró, ṣí wọn sílẹ̀ tàbí gbé wọn jáde.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Àkọsílẹ̀ àyẹ̀wò olùlò</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>Ẹni tí ó ṣe àyípadà, tí ó wọlé tàbí tí a kọ̀, fún àkáǹtì kọ̀ọ̀kan; àlẹ̀mọ́ àti gbígbé jáde.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Ìròyìn ìwọlé</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>Àwọn tí ó ti wọlé, ìwọlé àti ìkùnà lójoojúmọ́; mú olùlò kan jáde níbi gbogbo.</translation>
     </message>
 </context>
 <context>
@@ -22108,6 +22443,22 @@ Note: The packages will not be uninstalled.</source>
         <source>%n hours ago</source>
         <translation>%n wákàtí sẹ́yìn</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>Àwọn ìdáhùn ti àwọn ìbéèrè tí a tọ́jú ti GraphQL API, àti àwọn kílásì àkóónú ti schema rẹ̀.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>Tẹ ẹ̀dà aláìyípadà jáde sí GitHub Pages tàbí agbàlejò git èyíkéyìí</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Ìtẹ̀jáde aláìyípadà</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>Kásẹ̀ aláìyípadà ń pèsè àwọn ojú ìwé láti sáfá yìí. Láti tẹ ẹ̀dà aláìyípadà ti sáìtì kan jáde sí ibòmíràn, lórí GitHub Pages tàbí agbàlejò git èyíkéyìí, lo ìtẹ̀jáde aláìyípadà.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25649,6 +26000,10 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>last purge</source>
         <translation>ìpaárẹ́ ìkẹyìn</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>Àwọn ìkọ̀wé kò lè gba títì ipò (ìgbà ìkẹyìn %date): ọ̀kọ̀ọ̀kan sọ gbogbo àbájáde tí a fi pamọ́ di àtijọ́. %file gbọ́dọ̀ ṣeé kọ sí fún gbogbo olùlò tí ojúlé náà ń ṣiṣẹ́ bí; lórí NFS ó nílò NFSv4 tàbí lockd.</translation>
     </message>
 </context>
 <context>
@@ -33597,6 +33952,14 @@ Note: The packages will not be uninstalled.</source>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>PHP fúnrarẹ̀ (session.gc_maxlifetime) ni ó ń yọ àwọn ìgbà ìwọlé olùṣàkóso PHP tí àkókò wọn ti parí kúrò, kì í ṣe ojú ìwé yìí tàbí apá session_gc ti cronjob.</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>Ìròyìn ìwọlé ń ṣe àtòjọ àwọn ìgbà ìwọlé ti gbogbo olùlò, ó sì ń mú wọn jáde; ó ń ṣiṣẹ́ pẹ̀lú olùgbọ́ ìgbà ìwọlé èyíkéyìí.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>Ṣí ìròyìn ìwọlé</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37921,6 +38284,26 @@ your account.</source>
     <message>
         <source>None yet</source>
         <translation>Kò sí síbẹ̀</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Ìṣẹ̀lẹ̀ ààbò</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>Àwọn ìwọlé yín àìpẹ́ yìí, àwọn ìgbìyànjú tí ó kùnà àti àwọn àyípadà sí ọ̀rọ̀ aṣínà yín, àdírẹ́sì i-meèlì yín àti ìwọlé onípele méjì.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>Àwọn ìwọlé àìpẹ́ yìí, àwọn ìgbìyànjú tí ó kùnà àti àwọn àyípadà ààbò ti àkáǹtì yìí.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>Ṣàyẹ̀wò ìṣẹ̀lẹ̀</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>Àwọn ìwọlé tí ó kùnà: %count</translation>
     </message>
 </context>
 <context>
@@ -44087,6 +44470,42 @@ Bí ẹ bá fẹ́ fi àwọn àsọyé ránṣẹ́ sí olùfọwọ́sí tàb�
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>Lẹ́yìn ìwọlé, olùlò gbọ́dọ̀ yan ọ̀rọ̀ aṣínà tuntun kí ó tó ṣe ohunkóhun mìíràn. Ẹ lò ó nígbà tí ẹ bá fún ẹnìkan ní ọ̀rọ̀ aṣínà ìgbà díẹ̀.</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>Yan àwòrán tó ti wà tẹ́lẹ̀</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>Fáìlì àwòrán ohun tí o bá yàn ni a ó dà kọ sínú pápá yìí. Ohun kejì kò ní yí padà.</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>A ti da àwòrán “%name” kọ sínú pápá yìí.</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>Ṣàwárí àwòrán</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>Wá àwọn àwòrán nípa orúkọ</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Wá</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>Lo àwòrán “%name”</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>Lo àwòrán yìí</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>Kò sí àwòrán tó bá ìwádìí rẹ mu.</translation>
     </message>
 </context>
 <context>
@@ -51011,6 +51430,10 @@ See the requirements page for more information.</source>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>A kò kọ crontab náà (%reason). Ẹ fi àwọn ìlà wọ̀nyí kún crontab ti olùlò tí sáìtì náà ń ṣiṣẹ́ lábẹ́ rẹ̀, bí bẹ́ẹ̀ kọ́ ìtẹ̀léra iṣẹ́, àwọn ìgbéwọlé, àwọn ìfitónilétí àti atọ́ka ìwádìí kò ní ṣiṣẹ́ láéláé:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>A ń tún un fi sórí ẹ̀rọ pẹ̀lú Kickstarter (%file, lẹ́yìn náà php bin/php/kickstarter.php run --apply) tàbí pẹ̀lú ìfisórí-ẹ̀rọ tuntun.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54890,6 +55313,10 @@ your account.</source>
         <source>eZJSCore Public Packer cache</source>
         <translation>Kásẹ̀ eZJSCore Public Packer</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>Cache GraphQL (àwọn ìdáhùn àti kílásì schema)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54976,6 +55403,14 @@ your account.</source>
     <message>
         <source>Copy of %class_name</source>
         <translation>Ẹ̀dà %class_name</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Àwọn irú dátà</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>Irú dátà %string</translation>
     </message>
 </context>
 <context>
@@ -55802,6 +56237,26 @@ your account.</source>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>A kò lè ka àwòrán SVG náà, tàbí kò sí nǹkan kan nínú rẹ̀ tí a lè fihàn láìséwu.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>A kò lè da àwòrán náà kọ. Jọ̀wọ́ gbìyànjú lẹ́ẹ̀kan sí i tàbí kàn sí alábòójútó ojú-òpó náà.</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>Ohun tí a yàn kò sí tàbí o kò ní àṣẹ láti kà á.</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>Ohun tí a yàn kò ní àwòrán.</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>A kò lè ka fáìlì àwòrán ohun tí a yàn.</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>Àwòrán ohun tí a yàn tóbi ju ohun tí pápá yìí gbà láàyè lọ: báìtì %1.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56332,6 +56787,42 @@ your account.</source>
         <source>The bookmark was renamed to &quot;%name&quot;.</source>
         <translation>A ti yí orúkọ àmì ojú ìwé náà padà sí “%name”.</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>Wọ́n ti pa ojú ìwé yìí ní ìwọlé sáìtì yìí (%siteaccess). Ẹ ṣí àmì ojú ìwé náà ní ìwọlé sáìtì tí ó ní ojú ìwé yìí.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>Mọ́dùùlù ojú ìwé yìí kò sí lórí ẹ̀rọ tàbí a kò mú un ṣiṣẹ́ níbí.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>Ojú ìwé yìí kò sí mọ́: mọ́dùùlù rẹ̀ kò ní irú ìwòran bẹ́ẹ̀.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>Kò sí ọ̀kan nínú àwọn ipa yín tí ó fún yín láàyè láti ṣí ojú ìwé yìí.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>Ẹ kò ní àṣẹ láti lo ìwọlé sáìtì yìí.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>Ẹ kò ní àṣẹ láti ka àkóónú tí ojú ìwé yìí ń fi hàn.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>A kò lè fi àmì ojú ìwé sí irú ojú ìwé yìí: ó kàn ń ṣiṣẹ́ lórí fọ́ọ̀mù kan ni, tàbí ojú ìwé ìṣẹ́jú kan ni.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>Àdírẹ́sì ojú ìwé yìí kò sí.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>A kò lè ṣí ojú ìwé yìí báyìí.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56803,6 +57294,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>Ìrìnnà ìmèlì kọ̀ %count àwọn ìfiránṣẹ́ nínú ìṣiṣẹ́ tó kọjá. Ẹ ṣàyẹ̀wò sáfá ìmèlì àti site.ini MailSettings.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Ìṣẹ̀lẹ̀ %count ń dúró, kò sì sí àkọsílẹ̀ ìṣiṣẹ́ cronjob ìfitónilétí kankan. Ẹ fi apá cronjob “frequent” kún crontab, tàbí ẹ ṣe exp:notification:run --apply.</translation>
     </message>
 </context>
 <context>
@@ -63059,6 +63554,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Choose another site or section with the node picker</source>
         <translation>Ẹ yan sáìtì tàbí ẹ̀ka mìíràn pẹ̀lú olùyàn ọ̀pá ìsopọ̀</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>Alákòóso ètò nìkan ló lè yí olùní padà: ẹ ṣe ./console exp:content-check --fix-permissions --apply gẹ́gẹ́ bí root.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64592,6 +65091,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>empty</source>
         <translation>òfo</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>Kọ́kọ́rọ́ ìbuwọ́lù ti ju ọdún kan lọ: ẹ pààrọ̀ rẹ̀ pẹ̀lú exp:audit key rotate --apply.</translation>
     </message>
 </context>
 <context>
@@ -68422,6 +68925,486 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Share of page time</source>
         <translation>Ìpín àkókò ojú ìwé</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>a béèrè pé kí a ṣe é jáde ní kíkún</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>kásẹ̀ ojú ìwé kò ní ojú ìwé náà (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>kásẹ̀ ojú ìwé kò dáhùn</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>A ṣe é jáde</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>Kẹ̀rnẹ́ẹ̀lì ló ṣe é jáde: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>A pèsè rẹ̀ láti inú kásẹ̀ ojú ìwé ní %ms ms. A tọ́jú ojú ìwé náà ní %stored láti inú ṣíṣe jáde tí ó gba %render ms, ní %age s sẹ́yìn.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>Ṣe é jáde báyìí</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>Padà sí ìwòran kásẹ̀</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>Láti inú ṣíṣe jáde ní %stored (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>Ìbéèrè yìí: a pèsè rẹ̀ láti inú kásẹ̀ ojú ìwé ní %ms ms.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Olùlò</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>ID olùlò</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>Profaili cache</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>Ìwò yìí</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>Wo kásẹ̀</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>fún olùlò kọ̀ọ̀kan (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>Profaili cache ti olùlò: àwọn olùlò tí wọ́n ní profaili kan náà ń pín àwọn fáìlì cache ìwò</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>bẹ́ẹ̀ ni</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>rárá</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Wọlé</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>Ti wọlé</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>Ìgbà ìwọlé</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>Àwọn apá kọ́kọ́rọ́ cache ìwò àkóónú tí ó gbára lé olùlò, gẹ́gẹ́ bí kọ́kọ́rọ́ ṣe gbà wọ́n gan-an, lábẹ́ ViewCacheTweaks ojú-ewé yìí. Àwọn olùlò tí wọ́n ní profaili kan náà ń pín àwọn fáìlì cache ti àwọn ìwò, àyàfi tí àwọn apá ìwò fúnra rẹ̀ bá yàtọ̀ (àwọn àyànfẹ́, kọ́kọ́rọ́ àwọn olùgbọ́): àwọn wọ̀nyí ní profaili tiwọn, fún ojú-ewé yìí nìkan.</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>Àkọsílẹ̀ ara ẹni</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>Ìwò yìí (ìkóríta %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: olùlò kọ̀ọ̀kan tí ó wọlé ní àwọn fáìlì cache tirẹ̀.</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>ViewCacheTweaks tí ó ń ṣiṣẹ́: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>Apá</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>Iye</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>Kò sí apá tí ó gbára lé olùlò (ViewCacheTweaks).</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>ìwò yìí</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>Ṣàdàkọ bí ọ̀rọ̀</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>Àwọn ipa</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>Kò ṣeé ṣe láti ka ìyànsípò ipa kankan.</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>ID ipa</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Ipa</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>Ìdínkù</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>Yàn fún</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>olùlò náà</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>ẹgbẹ́ %name (ohun %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>A ti ṣe ẹ̀dà</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>Kò ṣeé ṣàdàkọ.</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>olùgbọ́ kan fi sílẹ̀</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>Àwọn àlejò aláìlórúkọ</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>bákan náà pẹ̀lú tìrẹ</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>yàtọ̀</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>Profaili tí àwọn àlejò àìlórúkọ ń gbà lábẹ́ ViewCacheTweaks kan náà, pẹ̀lú àwọn àyànfẹ́ àtilẹ̀wá, láìsí àwọn apá ìwò: a kò lè béèrè wọn lọ́wọ́ olùgbọ́ tí ń ka ìgbà-ìṣe.</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>Àwọn àyànfẹ́</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>Kò sí ipò ìwò tí ó gbára lé àyànfẹ́ olùlò (site.ini [ContentSettings] CachedViewPreferences).</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>Àwọn àyànfẹ́ tí àwọn ìwò ti àwọn ipò ìwò wọ̀nyí gbára lé (CachedViewPreferences), pẹ̀lú iye olùlò tàbí àtilẹ̀wá. Wọ́n wà nínú profaili gẹ́gẹ́ bí userpreferences, ti gbogbo ipò ìwò papọ̀.</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>Ọ̀nà ìwòran</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>Àyànfẹ́</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>Àìyípadà</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>Àwọn ìlànà</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>Fi àwọn ìlànà àwọn ipa hàn (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>A ń gbé àwọn ìlànà wá láti olupin nígbà tí a bá ṣí abala yìí, ojú-ewé kan lẹ́ẹ̀kan, a sì lè ṣàlẹ̀mọ́ wọn nípa módù àti iṣẹ́.</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>Iṣẹ́</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>Gbogbo mọ́dùùlù</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>Gbogbo iṣẹ́</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>Àwọn ìkálọ́wọ́kò</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>Fi púpọ̀ sí i hàn</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>Àwọn ipa wọ̀nyí kò ní ìlànà kankan.</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>Kò sí ìlànà tí ó bá àlẹ̀mọ́ mu.</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%shown nínú %matching ìlànà (%total lápapọ̀)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>A máa gbé e wá nígbà tí a bá ṣí i.</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>module/function, ipa, ìdínà</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>Wá àwọn ìlànà</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>Gbé díẹ̀ sí i wá</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>Mọ́dùùlù/iṣẹ́</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>Gbogbo ipa (ìlànà %count)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>Kò sí ìlànà tó bá a mu.</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%shown nínú ìlànà %matched</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>Kò sí èsì</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>ti fi pamọ́</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>Fi àlàyé hàn</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>Fi àlàyé pamọ́</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Ṣí</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>Ṣí gbogbo rẹ̀</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>Padé gbogbo rẹ̀</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>Kọ́kọ́rọ́ tàbí iye</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>Wá nínú ìgbà ìwọlé</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Irú</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>%count sí i</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>ó jìn jù láti fihàn</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>a gé e kúrú, %count lẹ́tà lápapọ̀</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Ti bẹ̀rẹ̀</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>Orúkọ kúkì</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>ID ìgbà ìwọlé</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>Olùgbọ́</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>Ọ̀nà ìfipamọ́</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>Àìyípadà PHP</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>Ìgbà ayé (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>Kúkì</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>ìgbà ayé %s ìṣẹ́jú-àáyá</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>Ìgbà ìwọlé PHP tìrẹ, bí ó ṣe rí nígbà tí a ṣí abala náà, kì í ṣe ti ẹlòmíràn rárá. Iye àwọn kọ́kọ́rọ́ tí ó dàbí àṣírí (tókìnì, hash, ọ̀rọ̀ aṣínà) ni a fi pamọ́ (debugbar.ini SessionMask[]); gbogbo ohun mìíràn ni a fihàn bí a ṣe tọ́jú rẹ̀, àwọn dátà ti ara ẹni pẹ̀lú.</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>Kọ́kọ́rọ́ %count, %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>ńlá</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>Ìgbà ìwọlé náà ṣófo.</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>Kò sí ìgbà ìwọlé tí a bẹ̀rẹ̀ fún ìbéèrè yìí.</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Àfikún %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>Kẹ̀rnẹ́ẹ̀lì àti àwọn mìíràn</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>A kò fi gbogbo ohun tí ó wà hàn: ìgbà ìwọlé náà ní ju ohun tí a lè tò síbí lọ.</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>A kò to kọ́kọ́rọ́ %count.</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>Férémù</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>Àwọn iye tí ó dàbí tókìnì (JSON Web Token kan, ìwé-ẹ̀rí orí Authorization kan, kọ́kọ́rọ́ àdáni kan, ọ̀rọ̀ hex tàbí ọ̀rọ̀ àìròtẹ́lẹ̀ gígùn kan) ni a tún fi pamọ́, ohun yòówù kí orúkọ kọ́kọ́rọ́ wọn jẹ́ (debugbar.ini SessionValueMask[]).</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>Kọ́kọ́rọ́ náà dàbí àṣírí (debugbar.ini SessionMask[]).</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>Iye náà dàbí tókìnì.</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>Lábẹ́ kọ́kọ́rọ́ tí a fi pamọ́.</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>Ìgbà ìwọlé náà bí ọ̀rọ̀, tí a fi pamọ́ bí tábìlì.</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>Ìgbà ìwọlé náà tóbi ju %size lọ (debugbar.ini SessionWarnBytes): gbogbo ìbéèrè olùlò yìí ló ń ka gbogbo ìgbà ìwọlé náà, ó sì ń kọ ọ́ nígbà tí ó bá yí padà.</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP ń pa ìgbà ìwọlé yìí mọ́ sínú fáìlì, ó sì ń tì fáìlì náà ní gbogbo ìgbà ìbéèrè: àwọn ìbéèrè olùlò kan náà (ọ̀pọ̀ táàbù, ìpè AJAX) ń dúró de ara wọn.</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>Jẹ́ kí ó ṣí</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>Ó tóbi ju %size lọ (debugbar.ini SessionWarnBytes): gbogbo ìbéèrè olùlò yìí ló ń ka gbogbo ìgbà ìwọlé náà.</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%hits nínú %count ni a kà láti inú kásẹ̀</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>Kò sí àpẹẹrẹ tí a ṣe (ìwò tí a kà láti inú kásẹ̀ ìwò kì í ṣe ìkankan).</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>Àwọn ìyàn ipa</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>Àwọn ipa àti ìlànà</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>yàtọ̀ sí ti àwọn àlejò aláìlórúkọ</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>bákan náà pẹ̀lú ti àwọn àlejò aláìlórúkọ</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70302,6 +71285,14 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>not sent</source>
         <translation>a kò fi ránṣẹ́</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Cronjob ìfitónilétí ń ṣe àkọsílẹ̀ ìṣiṣẹ́ rẹ̀ kọ̀ọ̀kan níbí. Ẹ fi apá frequent kún crontab, tàbí ẹ ṣe exp:notification:run --apply.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>Ẹ lo kọ́ńsóòlù: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -76020,6 +77011,98 @@ You will need to change the class of the node by using the swap functionality.</
         <source>This topic is not Released; readers do not see it.</source>
         <translation>A kò tí ì Tú kókó ọ̀rọ̀ yìí sílẹ̀; àwọn òǹkàwé kò rí i.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Àwọn ìṣílọ</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Àwọn àyípadà sí ìfisórí tí a pa mọ́ bí fáìlì: ipò wọn, àwọn ìṣiṣẹ́, ṣiṣẹ́ kí o sì yí padà sẹ́yìn.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Tẹ ẹ̀dà aláìyípadà ti sáìtì kan jáde sí GitHub Pages tàbí agbàlejò git èyíkéyìí.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Ìtẹ̀jáde aláìyípadà</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>Nínú Àtúnyẹ̀wò</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>Àwọn òǹkàwé ń rí ojú-ìwé yìí.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>Ó farapamọ́ fún àwọn òǹkàwé títí ẹnìkan yóò fi tú u sílẹ̀.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>Ojú-ìwé náà wà ní Àtúnyẹ̀wò báyìí. Ó farapamọ́ fún àwọn òǹkàwé títí a ó fi tú u sílẹ̀.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>A ti Tú ojú-ìwé náà sílẹ̀: àwọn òǹkàwé ń rí i báyìí.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>Ojú-ìwé náà tún di Àkọsílẹ̀ àkọ́kọ́. Ó farapamọ́ fún àwọn òǹkàwé títí a ó fi ṣe àtúnyẹ̀wò rẹ̀ tí a ó sì tú u sílẹ̀.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>Tú sílẹ̀ báyìí</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>Olùmúlò tí ó ní ipa %role tí kò kọ ẹ̀dà yìí nìkan ló lè tú u sílẹ̀.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>Àwọn àkòrí ìrànlọ́wọ́ tí ń dúró de ìtúsílẹ̀</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>Ó fi í pamọ́ fún àwọn òǹkàwé títí a ó fi tún un tú sílẹ̀.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>Olùtúnyẹ̀wò kan ni yóò yẹ̀ ẹ́ wò lẹ́yìn náà. Àwọn òǹkàwé kò tíì rí i.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>Àwọn òǹkàwé ń rí i lẹ́sẹ̀kẹsẹ̀.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>Ó mú u kúrò nínú àtúnyẹ̀wò fún iṣẹ́ síwájú sí i. Àwọn òǹkàwé kò rí i.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>Ṣé kí a fi ojú-ìwé yìí pamọ́ fún àwọn òǹkàwé?</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>Ṣé kí a dá ojú-ìwé yìí padà sí Àkọsílẹ̀ àkọ́kọ́?</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>Àwọn òǹkàwé kò rí %title mọ́ títí ẹnìkan yóò fi tún un tú sílẹ̀.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title padà sí Àkọsílẹ̀ àkọ́kọ́ fún iṣẹ́ síwájú sí i. Àwọn òǹkàwé kò tíì rí i, ó sì nílò àtúnyẹ̀wò tuntun kí a tó tú u sílẹ̀.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Fagilé</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>Àwọn àkòrí wọ̀nyí wà ní Àtúnyẹ̀wò. Àwọn òǹkàwé yóò rí wọn nígbà tí ẹni tí kò kọ ẹ̀dà lọ́wọ́lọ́wọ́ bá tú wọn sílẹ̀.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76475,6 +77558,46 @@ You will need to change the class of the node by using the swap functionality.</
         <source>None.</source>
         <translation>Kò sí.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>pẹ̀lú ohun èlò ìfìdí-ẹni-múlẹ̀</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>pẹ̀lú kóòdù nípasẹ̀ i-meèlì</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>pẹ̀lú kóòdù ìmúpadàbọ̀sípò</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>pẹ̀lú kọ́kọ́rọ́ ìwọlé</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>pẹ̀lú àkáǹtì ìta</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Ìṣẹ̀lẹ̀ ààbò</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>A fi hàn gẹ́gẹ́ bí nẹ́tíwọ̀ọ̀kì rẹ̀; a ń tọ́jú àdírẹ́sì náà bí ètò ìdáàbòbò dátà sáìtì ṣe sọ.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>A kò gbà á sílẹ̀</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Ibùdó</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>ní ìsúnmọ́</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76718,6 +77841,42 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Manage devices</source>
         <translation>Ṣàkóso àwọn ẹ̀rọ</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>pẹ̀lú ohun èlò ìfìdí-ẹni-múlẹ̀</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>pẹ̀lú kóòdù nípasẹ̀ i-meèlì</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>pẹ̀lú kóòdù ìmúpadàbọ̀sípò</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>pẹ̀lú kọ́kọ́rọ́ ìwọlé</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>pẹ̀lú àkáǹtì ìta</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Ìṣẹ̀lẹ̀ ààbò</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>A kò gbà á sílẹ̀</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Ibùdó</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>ní ìsúnmọ́</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76797,6 +77956,14 @@ You will need to change the class of the node by using the swap functionality.</
         <source>View the sessions of this user</source>
         <translation>Wo àwọn ìgbà ìwọlé ti olùlò yìí</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>A ṣẹ̀ṣẹ̀ lo àkáǹtì yín %login lórí %site láti wọlé láti ibì kan tí kò tíì wọlé láti ibẹ̀ láìpẹ́:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>Ibùdó ní ìsúnmọ́</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76835,6 +78002,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%browser lórí %os</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Ìròyìn ìwọlé</translation>
     </message>
 </context>
 <context>
@@ -77043,6 +78214,82 @@ You will need to change the class of the node by using the swap functionality.</
         <source>The passkey could not be checked. Please try again.</source>
         <translation>A kò lè ṣàyẹ̀wò kọ́kọ́rọ́ ìwọlé náà. Ẹ jọ̀wọ́ gbìyànjú lẹ́ẹ̀kan sí i.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>Àwọn àkáǹtì tó ń wọlé pẹ̀lú kọ́kọ́rọ́ ìwọlé nìkan kò lè lo ọ̀rọ̀ aṣínà níbí: ẹ yan “Wọlé pẹ̀lú kọ́kọ́rọ́ ìwọlé”.</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>Àwọn kọ́kọ́rọ́ ìwọlé ti %login</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>Àwọn kọ́kọ́rọ́ ìwọlé tí àkáǹtì yìí fi ń wọlé. Ẹ fagilé èyí tó wà lórí ẹ̀rọ tó sọnù tàbí tí wọ́n jí: kò ní lè wọlé mọ́. Ẹni tó ni àkáǹtì ni yóò fi àwọn tuntun kún un fúnra rẹ̀.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>Àkáǹtì yín nílò kọ́kọ́rọ́ ìwọlé kan</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>Ẹ fi kọ́kọ́rọ́ ìwọlé kan kún àkáǹtì yín</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>Ẹ fi kọ́kọ́rọ́ ìwọlé kan kún un láti tẹ̀síwájú. Lẹ́yìn náà ẹ ó máa fi í wọlé dípò ọ̀rọ̀ aṣínà nìkan.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>Wíwọlé pẹ̀lú kọ́kọ́rọ́ ìwọlé yára jù, ó sì ní ààbò ju ọ̀rọ̀ aṣínà lọ. Ẹ fi ọ̀kan kún un nísinsìnyí, tàbí kí ẹ tẹ̀síwájú láìsí i.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>Kì í ṣe báyìí</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>Ṣé kí a fagilé kọ́kọ́rọ́ ìwọlé “%name”?</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>Kò lè wọlé sí àkáǹtì yìí mọ́. Tí ó bá jẹ́ èyí tó kẹ́yìn, ẹni tó ni àkáǹtì yóò wọlé pẹ̀lú ọ̀rọ̀ aṣínà, tàbí kí ẹ̀yin ṣètò tuntun.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>Fagilé kọ́kọ́rọ́ ìwọlé náà</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>Fagilé</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>Àkáǹtì yìí kò ní kọ́kọ́rọ́ ìwọlé.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>Olùfìdí-ẹni-múlẹ̀</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Àìmọ̀</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>Kọ́kọ́rọ́ ìwọlé yín tó kẹ́yìn: ẹ fi òmíràn kún un kí ẹ tó yọ ọ́ kúrò.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>Àkáǹtì yìí ń wọlé pẹ̀lú kọ́kọ́rọ́ ìwọlé nìkan (ìlànà kọ́kọ́rọ́ ìwọlé): tí kò bá sí èyí tó kù, yóò tún máa wọlé pẹ̀lú ọ̀rọ̀ aṣínà rẹ̀.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>Èyí ni kọ́kọ́rọ́ ìwọlé yín tó kẹ́yìn, àkáǹtì yín kò sì lè wọlé láìsí ọ̀kan. Ẹ kọ́kọ́ fi kọ́kọ́rọ́ ìwọlé mìíràn kún un.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>A ti fagilé kọ́kọ́rọ́ ìwọlé “%name”. Kò lè wọlé sí àkáǹtì yìí mọ́.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77142,6 +78389,34 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Code from your authenticator app</source>
         <translation>Kóòdù láti inú áàpù ìfìdí-ẹni-múlẹ̀ yín</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>Ẹ fẹ́ pa dátà rẹ́ títí láé tàbí kí ẹ pa àkọsílẹ̀ kan rẹ́.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>Ọ̀rọ̀ aṣínà yín àti kọ́kọ́rọ́ ìwọlé kan</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>Ọ̀rọ̀ aṣínà yín àti kóòdù láti inú áàpù ìfìdí-ẹni-múlẹ̀ yín</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>Tàbí:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>Aṣàwákiri yìí kò lè lo kọ́kọ́rọ́ ìwọlé. Ẹ lo ọ̀nà mìíràn, tàbí aṣàwákiri mìíràn.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>Tí ẹ bá tẹ̀síwájú, aṣàwákiri yín yóò béèrè ọ̀kan nínú àwọn kọ́kọ́rọ́ ìwọlé yín.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>Tẹ̀síwájú pẹ̀lú kọ́kọ́rọ́ ìwọlé</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77232,6 +78507,70 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Setup</source>
         <translation>Ìgbékalẹ̀</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>Yíyí ọ̀rọ̀ aṣínà ẹni padà, àdírẹ́sì ímeèlì, kọ́kọ́rọ́ ìwọlé, ìwọlé onípele méjì, kóòdù ìmúpadàbọ̀sípò tàbí kọ́kọ́rọ́ API, àti jíjáde lórí àwọn ẹ̀rọ mìíràn ẹni.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>Ṣíṣẹ̀dá àti ṣíṣàtúnṣe àwọn olùlò, ọ̀rọ̀ aṣínà wọn àti ẹ̀rọ wọn, ètò àkáǹtì, fífọwọ́sí tàbí kíkọ àwọn àkáǹtì olùlò tuntun, yíyan ipa àti ṣíṣàtúnṣe àwọn ìlànà.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>Pípa dátà rẹ́</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>Síṣófo àpótí ìdọ̀tí, yíyọ àwọn nǹkan kúrò nínú rẹ̀ àti yíyọ ọ̀pọ̀ nǹkan kúrò lẹ́ẹ̀kan náà.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>Yíyọ, títẹ̀jáde àti fífi àkóónú pamọ́</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>Yíyọ àkóónú kúrò (bákan náà sí àpótí ìdọ̀tí), títẹ̀jáde àti fífi àkọsílẹ̀ àkọ́kọ́ pamọ́, a ń béèrè nígbà tí a bá fi fọ́ọ̀mù ránṣẹ́. Ó wà ní pípa ní àìyípadà.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>Kí ó tó ṣe ìgbésẹ̀ tó ṣe pàtàkì, olùlò tó ti wọlé yóò tún fìdí ẹni tí òun jẹ́ múlẹ̀: pẹ̀lú ọ̀rọ̀ aṣínà rẹ̀ àti kọ́kọ́rọ́ ìwọlé kan, tàbí láìsí kọ́kọ́rọ́ ìwọlé pẹ̀lú ọ̀rọ̀ aṣínà rẹ̀ àti kóòdù áàpù ìfìdí-ẹni-múlẹ̀ rẹ̀. Àwọn ojú-ewé wẹ́ẹ̀bù nìkan ló ń béèrè: ojú-ìsopọ̀ REST, SOAP, WebDAV, ìwọlé expservices àti ìlà àṣẹ kì í béèrè rárá.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>Ibi tí ètò náà ti ń ṣiṣẹ́</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>Ètò fún</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Gbogbo ìwọlé sáìtì</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>Ìwọlé sáìtì %name</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Ṣí</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>Ẹni tí a ń béèrè lọ́wọ́ rẹ̀: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>Ẹ sàmì sí àwọn ẹgbẹ́ olùlò láti béèrè lọ́wọ́ àwọn ọmọ ẹgbẹ́ wọn nìkan (fún àpẹẹrẹ, àwọn olóòtú). Kò sí èyí tí a sàmì sí: gbogbo olùlò.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>A fi pamọ́ sí settings/override/site.ini.append.php, fún gbogbo ìwọlé sáìtì. Fífi pamọ́ yóò ní kí ẹ fìdí rẹ̀ múlẹ̀ pé ẹ̀yin ni.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>A fi pamọ́ sí settings/siteaccess/%name/site.ini.append.php. Iye kan nínú settings/override ló borí rẹ̀. Fífi pamọ́ yóò ní kí ẹ fìdí rẹ̀ múlẹ̀ pé ẹ̀yin ni.</translation>
     </message>
 </context>
 <context>
@@ -77334,6 +78673,6822 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Open the page</source>
         <translation>Ṣí ojú ìwé náà</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from sí %to nínú %count</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>Orúkọ ìwọlé tàbí ID olùlò: àkáǹtì tí ìṣẹ̀lẹ̀ náà kàn tàbí olùlò tí ó ṣe iṣẹ́ náà.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Àkáǹtì</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Iṣẹ́</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>Lẹ́yìn</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>Èsì èyíkéyìí</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Ṣáájú</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Ẹni tó ṣe é</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Parẹ́</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Ó ṣàṣeyọrí</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>A máa ń tọ́jú àwọn ìṣẹ̀lẹ̀ fún ọjọ́ %days.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>A máa ń tọ́jú àwọn ìṣẹ̀lẹ̀ títí a ó fi pa wọ́n rẹ́ ní ọwọ́.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Àwọn ìṣẹ̀lẹ̀</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>Iṣẹ́ èyíkéyìí</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>Gbogbo ìṣẹ̀lẹ̀ àkáǹtì yìí</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>Gbé àkójọ jáde bí CSV (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Ó kùnà</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Láti</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>Dín àkójọ kù</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>Kò sí ìṣẹ̀lẹ̀ tó bá a mu.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Fún ojú ìwé kọ̀ọ̀kan</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>A ti pa àkọsílẹ̀ ní audit.ini ([UserAuditSettings] UserAudit); àkójọ náà ń fi ohun tí a ti kọ sílẹ̀ tẹ́lẹ̀ hàn.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>A kọ̀ ọ́</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Èsì</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Fihàn</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>Tábìlì àkọsílẹ̀ àyẹ̀wò olùlò kò sí. Ẹ ṣẹ̀dá rẹ̀ pẹ̀lú php update/common/scripts/6.0/createuseraudittable.php; títí di ìgbà náà, àwọn fáìlì àyẹ̀wò máa ń tọ́jú gbogbo ìṣẹ̀lẹ̀.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>Ojú ìwé yìí nílò ibùdó dátà SQL; kò sí lórí MongoDB. Àwọn fáìlì àyẹ̀wò máa ń tọ́jú gbogbo ìṣẹ̀lẹ̀.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Sí</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Àkọsílẹ̀ àyẹ̀wò olùlò</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Olùlò</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Ìgbà</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Ibo</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>Ẹni tí ó yí àkáǹtì wo padà, tí ó ṣẹ̀dá rẹ̀, tí ó mú un ṣiṣẹ́, tí ó mú un dúró, tí ó gbé e lọ tàbí tí ó yọ ọ́ kúrò, ẹni tí ó wọlé tàbí tí a kọ̀, àti àwọn ipa tí a yàn: ìlà kan fún ìṣẹ̀lẹ̀ kọ̀ọ̀kan, pẹ̀lú àwọn pápá ṣáájú àti lẹ́yìn. A kì í kọ ọ̀rọ̀ aṣínà àti àṣírí sílẹ̀ rárá.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>ẹgbẹ́</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>ẹ̀rọ</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>àìmọ̀</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>Ẹ dáàbò bo àkáǹtì yín</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>A lo kóòdù ìmúpadàbọ̀sípò láti wọ àkáǹtì yín %login lórí %site.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>A lo kóòdù ìmúpadàbọ̀sípò</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Àkáǹtì</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>Àdírẹ́sì ní ìsúnmọ́</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>Ẹ béèrè fún ọ̀rọ̀ aṣínà tuntun láti tún wọlé, tàbí ẹ kàn sí àwọn alákòóso sáìtì náà.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>Béèrè fún ọ̀rọ̀ aṣínà tuntun</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>Kóòdù ìmúpadàbọ̀sípò kọ̀ọ̀kan ń ṣiṣẹ́ lẹ́ẹ̀kan ṣoṣo. Bí ẹ bá ti sọ fóònù yín nù, ẹ tún ohun èlò ìfìdí-ẹni-múlẹ̀ yín ṣètò, kí ẹ sì pa àwọn kóòdù ìmúpadàbọ̀sípò tuntun mọ́ sí ibi ààbò.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>Àwọn ìgbìyànjú ìwọlé tí ó kùnà lórí àkáǹtì yín</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>Láti ìsinsìnyí lọ, ìwọlé yóò béèrè fún kóòdù kan ní àfikún sí ọ̀rọ̀ aṣínà yín. Bí ẹ̀yin ni ẹ ṣe èyí, ẹ kò nílò láti ṣe nǹkankan.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>Bí ẹ̀yin ni tí ẹ sì gbàgbé ọ̀rọ̀ aṣínà yín, ẹ béèrè fún tuntun. Bí kì í bá ṣe ẹ̀yin, ẹ yan ọ̀rọ̀ aṣínà tí ó lágbára jù, kí ẹ sì tan ìwọlé onípele méjì.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>Bí kì í bá ṣe ẹ̀yin ni ẹ ṣe èyí, ẹnì kan lè mọ ọ̀rọ̀ aṣínà yín: ẹ yí i padà nísinsìnyí kí ẹ sì ṣàyẹ̀wò ibi tí àkáǹtì yín ti wọlé sí.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>Àwọn kóòdù ìmúpadàbọ̀sípò tí ó kù</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>Ṣàyẹ̀wò àwọn ẹ̀rọ yín</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>Ìkìlọ̀ ààbò</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>Ẹnì kan gbìyànjú láti wọ àkáǹtì yín %login lórí %site pẹ̀lú ọ̀rọ̀ aṣínà tí kò tọ̀nà ní ìgbà %count léraléra.</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>Ìṣẹ̀lẹ̀ ààbò kan wáyé lórí àkáǹtì yín %login lórí %site.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>Èyí jẹ́ ìkìlọ̀ ààbò nípa àkáǹtì yín. A ń fi ránṣẹ́ fún gbogbo irú àyípadà bẹ́ẹ̀, a kò sì lè pa á.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Àkókò</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>A pa ìwọlé onípele méjì fún àkáǹtì yín %login lórí %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>A pa ìwọlé onípele méjì</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>A tan ìwọlé onípele méjì fún àkáǹtì yín %login lórí %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>A tan ìwọlé onípele méjì</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>A ti tì àkáǹtì yín %login lórí %site lẹ́yìn ọ̀pọ̀ ìwọlé tí ó kùnà.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>Ọ̀rọ̀ aṣínà yín nìkan ló ń dáàbò bo àkáǹtì yín báyìí. Bí kì í bá ṣe ẹ̀yin ni ẹ ṣe èyí, ẹ tún tan ìwọlé onípele méjì lẹ́yìn tí ẹ bá ti yí ọ̀rọ̀ aṣínà yín padà.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>A ti tì àkáǹtì yín</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>A fi kọ́kọ́rọ́ ìwọlé kan kún àkáǹtì yín %login lórí %site.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>Ẹnikẹ́ni tó bá ní kọ́kọ́rọ́ ìwọlé yìí lè wọlé sí àkáǹtì yín láìsí ọ̀rọ̀ aṣínà yín. Tí kì í bá ṣe ẹ̀yin ló fi kún un, ẹ yọ ọ́ kúrò lábẹ́ Àwọn kọ́kọ́rọ́ ìwọlé kí ẹ sì yí ọ̀rọ̀ aṣínà yín padà.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>A yọ kọ́kọ́rọ́ ìwọlé kan kúrò nínú àkáǹtì yín %login lórí %site.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>Kò lè wọlé sí àkáǹtì yín mọ́. Tí kì í bá ṣe ẹ̀yin ló yọ ọ́ kúrò, ẹ ṣàyẹ̀wò àwọn kọ́kọ́rọ́ ìwọlé àti ẹ̀rọ yín.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>A fi kọ́kọ́rọ́ ìwọlé kan kún àkáǹtì yín</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>A yọ kọ́kọ́rọ́ ìwọlé kan kúrò nínú àkáǹtì yín</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>Ìṣẹ̀lẹ̀ ààbò</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Ìṣẹ̀lẹ̀ ààbò ti %name</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Ti wọlé</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Ìgbìyànjú ìwọlé tí ó kùnà</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Ti jáde</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>A mú àwọn ìgbà ìwọlé jáde</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Ìwọlé láti ẹ̀rọ tuntun</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Ìwọlé láti ibùdó tuntun</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>A fìdí ìdánimọ̀ múlẹ̀ (“Ẹ jẹ́rìí pé ẹ̀yin ni”)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Ìyẹ̀wò ìdánimọ̀ kùnà</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Ti wọlé pẹ̀lú kọ́kọ́rọ́ ìwọlé</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Ìwọlé pẹ̀lú kọ́kọ́rọ́ ìwọlé kùnà</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>A kọ ìwọlé: kóòdù onípele méjì kò sí tàbí kò tọ̀nà</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Kóòdù onípele méjì tí kò tọ̀nà</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>A tì àkáǹtì lẹ́yìn àwọn ìwọlé tí ó kùnà</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>A ṣí àkáǹtì</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>A yí ọ̀rọ̀ aṣínà padà</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Yíyí ọ̀rọ̀ aṣínà padà kùnà</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>A tún ọ̀rọ̀ aṣínà ṣètò</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>A béèrè fún ọ̀rọ̀ aṣínà tuntun</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>A yí àdírẹ́sì i-meèlì padà</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>A yí orúkọ olùlò padà</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Ìwọlé onípele méjì ti wà ní títan</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Ìwọlé onípele méjì ti wà ní pípa</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>A lo kóòdù ìmúpadàbọ̀sípò kan</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Àwọn kóòdù ìmúpadàbọ̀sípò tuntun</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>A ṣẹ̀dá ọ̀rọ̀ aṣínà áàpù</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>A fagilé ọ̀rọ̀ aṣínà áàpù</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>A fi kọ́kọ́rọ́ ìwọlé kún un</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>A yọ kọ́kọ́rọ́ ìwọlé kúrò</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>A mú àkáǹtì ṣiṣẹ́</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>A mú àkáǹtì dúró</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Gbogbo</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Ìwọlé àti ìgbà ìwọlé</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Àwọn àyípadà àkáǹtì</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Ó nílò àfiyèsí</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>láti ọwọ́ yín</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>láti ọwọ́ olùlò náà</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>láti ọwọ́ %login</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>Ọ̀nà</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>Aṣàwárí wẹ́ẹ̀bù</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>Ẹ̀rọ ìṣiṣẹ́</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Ẹ̀rọ</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>Ibi</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>Orílẹ̀-èdè</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Àwọn ìgbà ìwọlé</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>Èwo</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>Ọ̀nà ìfiránṣẹ́</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Àwọn ìgbìyànjú tí ó kùnà</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>Àwọn kóòdù tí ó kù</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>Olùgbọ́ ìwọlé</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Ìṣẹ̀lẹ̀ ààbò</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Ìṣẹ̀lẹ̀ ààbò ti %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Àwọn ìwọlé àti àyípadà sí ààbò àkáǹtì yín. Bí ẹ bá rí ohun kan tí ẹ kò ṣe, ẹ yí ọ̀rọ̀ aṣínà yín padà kí ẹ sì mú àwọn ẹ̀rọ tí ẹ kò dá mọ̀ jáde.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>Àwọn ìwọlé àti àyípadà sí ààbò àkáǹtì yìí.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Àwọn ẹ̀rọ yín</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Yí ọ̀rọ̀ aṣínà padà</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>Padà sí àkáǹtì</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>A kò ṣe àkọsílẹ̀ ìṣẹ̀lẹ̀ ààbò</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>A ń kà á láti inú àkọsílẹ̀ àyẹ̀wò olùlò, tí tábìlì rẹ̀ expuser_audit kò sí tàbí tí a kò ṣe àtìlẹ́yìn fún lórí ibùdó dátà yìí. Ẹ ṣe php update/common/scripts/6.0/createuseraudittable.php, tàbí ìmúdójúìwọ̀n ibùdó dátà ti 6.0.15.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Ọjọ́ %days tó kọjá</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Àwọn ìwọlé ní ọjọ́ %days tó kọjá</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>Ìṣẹ̀lẹ̀ ààbò àìpẹ́ yìí</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Fihàn</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>ó kùnà</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>a kọ̀ ọ́</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>A kò tíì ṣe àkọsílẹ̀ ìṣẹ̀lẹ̀ ààbò kankan.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>A ń tọ́jú àwọn ìṣẹ̀lẹ̀ ààbò fún ọjọ́ %days.</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>A ń tọ́jú àwọn ìṣẹ̀lẹ̀ ààbò títí alákòóso kan yóò fi yọ wọ́n kúrò.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Gba dátà ìwọlé mi sílẹ̀</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Àwọn ìgbà ìwọlé yín àti àwọn ìṣẹ̀lẹ̀ ààbò yín gẹ́gẹ́ bí fáìlì JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>A kò ń ṣe àkọsílẹ̀ àwọn ìgbà ìṣiṣẹ́ lórí ojú òpó yìí, nítorí náà kò sí ẹ̀rọ mìíràn tí a lè mú jáde. Ẹ yí ọ̀rọ̀ aṣínà yín padà nísinsìnyí.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>A ti mú àwọn ìgbà ìṣiṣẹ́ mìíràn %count jáde. Nísinsìnyí ẹ yí ọ̀rọ̀ aṣínà yín padà.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Kò sí ẹ̀rọ mìíràn tí ó wọlé. Nísinsìnyí ẹ yí ọ̀rọ̀ aṣínà yín padà.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Ẹ ṣé. A ti sàmì sí ìṣẹ̀lẹ̀ náà gẹ́gẹ́ bí tiyín.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Ìṣẹ̀lẹ̀ yẹn kò nílò ìdáhùn.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Ojú ìwé náà ti parí. A kò yí nǹkan kan padà; ẹ jọ̀wọ́ gbìyànjú lẹ́ẹ̀kan sí i.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Ẹ dáàbò bo àkáǹtì yín</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Bí ohun kan níbí kì í bá ṣe ẹ̀yin, ẹ mú gbogbo ẹ̀rọ mìíràn jáde, lẹ́yìn náà ẹ yan ọ̀rọ̀ aṣínà tuntun. Àwọn ẹ̀rọ tí ó wà ní wíwọlé nípasẹ̀ Ẹ ranti mi náà yóò jáde.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Gbogbo ẹ̀rọ àyàfi èyí ni a ó mú jáde nígbà ìbéèrè rẹ̀ tó kàn. Lẹ́yìn náà ẹ ó yan ọ̀rọ̀ aṣínà tuntun.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Bẹ́ẹ̀ni, mú àwọn ẹ̀rọ mìíràn jáde</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Ṣé ẹ̀yin ni èyí?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Bẹ́ẹ̀ni, èmi ni</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Rárá, dáàbò bo àkáǹtì mi</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Ti wọlé</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Ìgbìyànjú ìwọlé tí ó kùnà</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Ti jáde</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>A mú àwọn ìgbà ìwọlé jáde</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Ìwọlé láti ẹ̀rọ tuntun</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Ìwọlé láti ibùdó tuntun</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>A fìdí ìdánimọ̀ múlẹ̀ (“Ẹ jẹ́rìí pé ẹ̀yin ni”)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Ìyẹ̀wò ìdánimọ̀ kùnà</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Ti wọlé pẹ̀lú kọ́kọ́rọ́ ìwọlé</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Ìwọlé pẹ̀lú kọ́kọ́rọ́ ìwọlé kùnà</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>A kọ ìwọlé: kóòdù onípele méjì kò sí tàbí kò tọ̀nà</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Kóòdù onípele méjì tí kò tọ̀nà</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>A tì àkáǹtì lẹ́yìn àwọn ìwọlé tí ó kùnà</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>A ṣí àkáǹtì</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>A yí ọ̀rọ̀ aṣínà padà</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Yíyí ọ̀rọ̀ aṣínà padà kùnà</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>A tún ọ̀rọ̀ aṣínà ṣètò</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>A béèrè fún ọ̀rọ̀ aṣínà tuntun</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>A yí àdírẹ́sì i-meèlì padà</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>A yí orúkọ olùlò padà</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Ìwọlé onípele méjì ti wà ní títan</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Ìwọlé onípele méjì ti wà ní pípa</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>A lo kóòdù ìmúpadàbọ̀sípò kan</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Àwọn kóòdù ìmúpadàbọ̀sípò tuntun</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>A ṣẹ̀dá ọ̀rọ̀ aṣínà áàpù</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>A fagilé ọ̀rọ̀ aṣínà áàpù</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>A fi kọ́kọ́rọ́ ìwọlé kún un</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>A yọ kọ́kọ́rọ́ ìwọlé kúrò</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>A mú àkáǹtì ṣiṣẹ́</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>A mú àkáǹtì dúró</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Gbogbo</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Ìwọlé àti ìgbà ìwọlé</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Àwọn àyípadà àkáǹtì</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Ó nílò àfiyèsí</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Ìṣẹ̀lẹ̀ ààbò</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Ìṣẹ̀lẹ̀ ààbò ti %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Àwọn ìwọlé àti àyípadà sí ààbò àkáǹtì yín. Bí ẹ bá rí ohun kan tí ẹ kò ṣe, ẹ yí ọ̀rọ̀ aṣínà yín padà kí ẹ sì mú àwọn ẹ̀rọ tí ẹ kò dá mọ̀ jáde.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Àwọn ẹ̀rọ yín</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Yí ọ̀rọ̀ aṣínà padà</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>A kò tíì ṣe àkọsílẹ̀ ìṣẹ̀lẹ̀ ààbò lórí sáìtì yìí.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Àwọn ìwọlé ní ọjọ́ %days tó kọjá</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Àwọn ìgbìyànjú tí ó kùnà</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>A kò tíì ṣe àkọsílẹ̀ ìṣẹ̀lẹ̀ ààbò kankan.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Gba dátà ìwọlé mi sílẹ̀</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Àwọn ìgbà ìwọlé yín àti àwọn ìṣẹ̀lẹ̀ ààbò yín gẹ́gẹ́ bí fáìlì JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>A kò ń ṣe àkọsílẹ̀ àwọn ìgbà ìṣiṣẹ́ lórí ojú òpó yìí, nítorí náà kò sí ẹ̀rọ mìíràn tí a lè mú jáde. Ẹ yí ọ̀rọ̀ aṣínà yín padà nísinsìnyí.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>A ti mú àwọn ìgbà ìṣiṣẹ́ mìíràn %count jáde. Nísinsìnyí ẹ yí ọ̀rọ̀ aṣínà yín padà.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Kò sí ẹ̀rọ mìíràn tí ó wọlé. Nísinsìnyí ẹ yí ọ̀rọ̀ aṣínà yín padà.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Ẹ ṣé. A ti sàmì sí ìṣẹ̀lẹ̀ náà gẹ́gẹ́ bí tiyín.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Ìṣẹ̀lẹ̀ yẹn kò nílò ìdáhùn.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Ojú ìwé náà ti parí. A kò yí nǹkan kan padà; ẹ jọ̀wọ́ gbìyànjú lẹ́ẹ̀kan sí i.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Ẹ dáàbò bo àkáǹtì yín</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Bí ohun kan níbí kì í bá ṣe ẹ̀yin, ẹ mú gbogbo ẹ̀rọ mìíràn jáde, lẹ́yìn náà ẹ yan ọ̀rọ̀ aṣínà tuntun. Àwọn ẹ̀rọ tí ó wà ní wíwọlé nípasẹ̀ Ẹ ranti mi náà yóò jáde.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Gbogbo ẹ̀rọ àyàfi èyí ni a ó mú jáde nígbà ìbéèrè rẹ̀ tó kàn. Lẹ́yìn náà ẹ ó yan ọ̀rọ̀ aṣínà tuntun.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Bẹ́ẹ̀ni, mú àwọn ẹ̀rọ mìíràn jáde</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Ṣé ẹ̀yin ni èyí?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Bẹ́ẹ̀ni, èmi ni</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Rárá, dáàbò bo àkáǹtì mi</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>Ọ̀rọ̀ aṣínà</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>Ọ̀rọ̀ aṣínà àti kóòdù onípele méjì</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>Ojúùwò REST</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>Ojúùwò SOAP</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>Ìwọlé ẹ̀ẹ̀kan (single sign-on)</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>Ti wọlé kí a tó máa ṣe àkọsílẹ̀ àwọn ìgbà ìwọlé</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Ìròyìn ìwọlé</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>Àwọn tí ó ti wọ sáìtì, ìgbà mélòó ni àwọn àkáǹtì ń wọlé tí wọ́n sì ń kùnà, àti mímú olùlò kan jáde níbi gbogbo. Ó ń ṣiṣẹ́ pẹ̀lú olùgbọ́ ìgbà ìwọlé èyíkéyìí.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>A ti mú ìgbà ìwọlé náà jáde. Ẹ̀rọ náà gbọ́dọ̀ tún wọlé.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>A mú %login jáde kúrò nínú ìgbà ìwọlé %count.</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>%login kò ní ìgbà ìwọlé tí ń ṣiṣẹ́.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>Kò sí àkáǹtì tí ó ní ID, orúkọ olùlò tàbí àdírẹ́sì i-meèlì yẹn.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>Èyí ni ìgbà ìwọlé tí ẹ ń lò. Láti parí rẹ̀, ẹ jáde.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>Ìgbà ìwọlé yẹn ti parí tẹ́lẹ̀.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Ojú ìwé náà ti parí àkókò rẹ̀. A kò yí nǹkankan padà; ẹ jọ̀wọ́ ẹ tún gbìyànjú.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>A kò ṣe àkọsílẹ̀ àwọn ìgbà ìwọlé lórí sáìtì yìí (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>Tábìlì expuser_session kò sí</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>A ó máa ṣe àkọsílẹ̀ àwọn ìgbà ìwọlé ní kété tí a bá ṣẹ̀dá rẹ̀: php update/common/scripts/6.0/createusersessiontable.php, tàbí ìmúdójúìwọ̀n ibùdó dátà ti 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>Nísinsìnyí àti lónìí</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>Àwọn ìgbà ìwọlé tí ń ṣiṣẹ́</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>Àwọn olùlò tí ó ti wọlé</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>Àwọn ìwọlé lónìí</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>Àwọn ìgbìyànjú tí ó kùnà lónìí</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>Mú olùlò kan jáde níbi gbogbo</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>Gbogbo ìgbà ìwọlé àkáǹtì náà yóò parí ní ìbéèrè rẹ̀ tó kàn, títí kan àwọn tí “Ẹ ranti mi” ń pa mọ́. Ẹ lò ó nígbà tí àkáǹtì kan lè wà lọ́wọ́ àwọn tí kò yẹ; lẹ́yìn náà ẹ tún ọ̀rọ̀ aṣínà rẹ̀ ṣètò.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>ID olùlò, orúkọ olùlò tàbí àdírẹ́sì i-meèlì</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>Jáde níbi gbogbo</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>Ti wọlé nísinsìnyí</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>A fi %limit tí a lò kẹ́yìn hàn.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Olùlò</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Ẹ̀rọ</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Àdírẹ́sì</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>Ti wọlé</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>Ìgbà ìṣiṣẹ́ kẹ́yìn</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Àwọn ìṣe</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>Ẹ̀rọ yìí</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>A kò gbà á sílẹ̀</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>Jáde</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>Kò sí ìgbà ìwọlé kankan tí ó wọlé.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Ọjọ́ %days tó kọjá</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>A ń ka àwọn ìwọlé àti àwọn ìgbìyànjú tí ó kùnà láti inú àkọsílẹ̀ àyẹ̀wò olùlò, tí kò sí; àwọn ìgbà ìwọlé tuntun ni a ń kà.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>Ọjọ́</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>Àwọn ìwọlé</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Àwọn ìgbìyànjú tí ó kùnà</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>Àwọn ìgbà ìwọlé tuntun</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>Olùgbọ́ ìgbà ìwọlé: %handler. A ń ka àwọn ìgbà ìwọlé láti inú tábìlì expuser_session, nítorí náà ìròyìn náà ń ṣiṣẹ́ pẹ̀lú olùgbọ́ èyíkéyìí.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>Ìṣẹ̀lẹ̀ àfura ní wákàtí %hours sẹ́yìn</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>Nẹ́tíwọ́ọ̀kì kan kùnà láti wọlé sí àkáǹtì %accounts (ìgbìyànjú %count)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>A ti ti àkáǹtì pa lẹ́yìn ìwọlé tí ó kùnà</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>Ìwọlé %count tí ó kùnà lórí àkáǹtì kan</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>Wọlé láti orílẹ̀-èdè %count lẹ́ẹ̀kan náà</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Ìṣẹ̀lẹ̀ ààbò</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Àwọn ìgbà ìṣiṣẹ́</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>A ń ka àwọn ìwọlé tí ó kùnà láti inú àkọsílẹ̀ àyẹ̀wò olùmúlò, èyí tí kò sí níbí.</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>Kò sí ohun àfura: kò sí àkáǹtì pẹ̀lú ìwọlé tí ó kùnà léraléra, kò sí nẹ́tíwọ́ọ̀kì tí ń gbìyànjú àkáǹtì púpọ̀, kò sí àkáǹtì tí ó wọlé láti orílẹ̀-èdè púpọ̀.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>Ìkìlọ̀ ààbò fún àkáǹtì yín</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>Ìṣẹ̀lẹ̀ ààbò kan wáyé lórí àkáǹtì yín %login: %event. Bí kì í bá ṣe ẹ̀yin, ẹ dáàbò bo àkáǹtì yín ní %url.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Ìgbékalẹ̀</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>Béèrè àkóónú sáìtì yìí fún àwọn pápá tí ojú-ìwé kan nílò gangan, nínú ìbéèrè kan ṣoṣo. Schema náà ń tẹ̀lé àwọn kílásì àkóónú; ìbéèrè kọ̀ọ̀kan ń ṣiṣẹ́ pẹ̀lú ẹ̀tọ́ olùmúlò tí ó fi ránṣẹ́.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>A ti pa GraphQL API nínú ìwọlé sáìtì yìí. Tàn án nínú graphql.ini: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>A kò tíì fi ilé-ìkàwé GraphQL (webonyx/graphql-php 15) sórí ẹ̀rọ.</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>Ojú ìparí</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>Ilé-ìkàwé</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>Schema</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>Kílásì àkóónú %count, schema %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>Ìbéèrè</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>Àwọn oníyípadà (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Ṣiṣẹ́</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>Ìdáhùn</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>Ó ń ṣiṣẹ́…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>A kò lè ka ìdáhùn náà.</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>Ìbéèrè náà ń ṣiṣẹ́ pẹ̀lú ẹ̀tọ́ rẹ, o ti wọlé pẹ̀lú àkókò yìí.</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%count láàárín ìṣẹ́jú-àáyá %seconds</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>kò sí ìdíwọ̀n</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>Jíjìn</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>Ìdíjú</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>Ohun fún àkójọ kọ̀ọ̀kan</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (àìyípadà %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>Ìfiránṣẹ́ fún olùlò tàbí kọ́kọ́rọ́ kọ̀ọ̀kan</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>Ìfiránṣẹ́ fún àdírẹ́sì àìlórúkọ kọ̀ọ̀kan</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>Ìṣàyẹ̀wò ara ẹni (introspection)</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>Àwọn ìbéèrè tí a tọ́jú nìkan</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>Ìbéèrè tó tóbi jùlọ</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>báìtì %bytes</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>Ìgbéwọlé tó tóbi jùlọ</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>Kò sí ìwọlé sáìtì %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>A ti tan àwọn ìyípadà nínú %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>A ti pa àwọn ìyípadà nínú %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>A ti tan GraphQL API nínú %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>A ti pa GraphQL API nínú %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>A kò lè kọ àwọn ètò náà: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>A ti pa kásẹ̀ ìdáhùn rẹ́: a yọ ìdáhùn %count kúrò.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>Fi àmì sí àpótí tó wà lẹ́gbẹ̀ẹ́ ìbéèrè náà láti yọ ọ́ kúrò.</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>A kò lè yọ ìbéèrè náà kúrò: ìbéèrè tí ó wá nínú àpò-fáìlì kan ti PersistedQueryDirectoryList[] ni a ń yọ kúrò pẹ̀lú fáìlì rẹ̀.</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>A ti yọ ìbéèrè tí a tọ́jú kúrò.</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>Àwọn ìyípadà</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>títàn</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>pípa</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Àwọn ìwọlé sáìtì</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>Ibi tí API àti àwọn ìyípadà rẹ̀ ti ń dáhùn. Àwọn bọ́tìnnì ń kọ graphql.ini, bí ./console exp:graphql:enable àti exp:graphql:disable ṣe ń ṣe.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Ìwọlé sáìtì</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>GraphQL API</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Yí padà</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Pa á</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>Pa àwọn ìyípadà</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>Tan àwọn ìyípadà</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Tàn án</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>Àwọn ìdíwọ̀n</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>graphql.ini [GraphQLSettings] ti ìwọlé sáìtì yìí.</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>Kásẹ̀ ìdáhùn</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>Àwọn ìdáhùn ti àwọn ìbéèrè tí a tọ́jú, tí a pa mọ́ gẹ́gẹ́ bí ẹ̀tọ́ olùlò, tí wọ́n sì ń parí nígbàkúùgbà tí a bá tẹ àkóónú jáde.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Ipò</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>Àwọn ìdáhùn tí a pa mọ́</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>ìdáhùn %count, báìtì %bytes</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>Àkókò tó pọ̀ jùlọ</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds s</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>Ìparí tó kẹ́yìn</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>Pa kásẹ̀ ìdáhùn rẹ́</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>Àwọn ìbéèrè tí a tọ́jú</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>A tọ́jú wọn pẹ̀lú ./console exp:graphql:persist, tàbí láti ọwọ́ àwọn oníbàárà (àwọn ìbéèrè tí a tọ́jú láìfọwọ́yí); a ń pè wọ́n ní orúkọ tàbí SHA-256.</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>Àwọn orúkọ</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Ìwọ̀n</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Ibo</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Yọ kúrò</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>tí ó wá pẹ̀lú</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>tí a tọ́jú</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>Bẹ́ẹ̀ni, yọ ìbéèrè yìí kúrò</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>Kò sí ìbéèrè tí a tọ́jú síbẹ̀.</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>Àwọn kọ́kọ́rọ́ API</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>Àwọn kọ́kọ́rọ́ API ti ara ẹni pẹ̀lú àyè graphql:read (àwọn ìbéèrè) tàbí graphql:write (àwọn ìyípadà). Ṣe wọ́n kí o sì fagilé wọn lórí ojú-ìwé Ìwọlé API, tàbí pẹ̀lú ./console exp:graphql:keys.</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>Ìwọlé API</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>Gbogbo kọ́kọ́rọ́</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>Kọ́kọ́rọ́</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Orúkọ</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Olùní</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>Àwọn àyè</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>Lílò gbẹ̀yìn</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>ń ṣiṣẹ́</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>ti parí</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>ti fagilé</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>láéláé</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>Kò sí kọ́kọ́rọ́ API pẹ̀lú àyè GraphQL síbẹ̀.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>A ti pa GraphQL API nínú ìwọlé sáìtì %siteaccess, tí ó ń fi ojú ìwé yìí hàn; tábìlì ìsàlẹ̀ fi ibi tí ó ti ń dáhùn hàn.</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>Fún ìwọlé sáìtì %siteaccess, tí ó ń fi ojú ìwé yìí hàn.</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>Àwọn webhook</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>Gbogbo ìṣẹ̀lẹ̀ tí ojú ìparí kan bá béèrè fún (publish, update, trash, delete, move, hide, reveal, mutation) ni a ń fi ránṣẹ́ sí i, pẹ̀lú ìbuwọ́lù, láti ọwọ́ apá cronjob graphqlwebhooks. ./console exp:graphql:webhooks ń ṣe ohun kan náà bí abala yìí.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Àwọn ìṣẹ̀lẹ̀</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>gbogbo</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Gbogbo ìwọlé sáìtì</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>ó ti bàjẹ́</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>kò sí àṣírí</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>Ń dúró</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count tí a jọ̀wọ́</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>Ìfiránṣẹ́ tó kẹ́yìn</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Fi ìdánwò ránṣẹ́</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>Bẹ́ẹ̀ni, yọ webhook yìí kúrò</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>Kò sí webhook síbẹ̀.</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>Ṣàfikún webhook kan</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>Ṣàfikún</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>Àwọn ìfiránṣẹ́ àìpẹ́</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Àkókò</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Àbájáde</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>Àwọn ìforúkọsílẹ̀</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>Àwọn ìmúdójúìwọ̀n tààrà fún àwọn oníbàárà: ìṣàn ìṣẹ̀lẹ̀ ní /api/graphql/subscribe, àti WebSocket (graphql-transport-ws) lórí Velocity. Ìṣẹ̀lẹ̀ kọ̀ọ̀kan ń lọ sọ́dọ̀ àwọn olùforúkọsílẹ̀ tí wọ́n lè ka àkóónú rẹ̀ nìkan.</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>Ṣíṣí báyìí</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>Ṣíṣí tó pọ̀ jùlọ</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>%total lápapọ̀, %user fún olùlò kọ̀ọ̀kan, %address fún àdírẹ́sì kọ̀ọ̀kan</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>Àwọn ìforúkọsílẹ̀ aláìlórúkọ</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>Gígùn ìṣàn</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>A kò lè ṣàfikún webhook náà: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>A ti yí webhook %name padà; àṣírí ìbuwọ́lù rẹ̀ wà bí ó ti wà.</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>A kò lè tọ́jú àṣírí ìbuwọ́lù náà (Ìgbékalẹ̀ &gt; Àwọn àṣírí).</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>A ti ṣàfikún webhook %name. Àṣírí ìbuwọ́lù rẹ̀, tí a fihàn lẹ́ẹ̀kan yìí nìkan: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>Kò sí webhook %name.</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>Webhook %name kò dáhùn: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>Webhook %name dáhùn %status ní %ms ms.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>Fi àmì sí àpótí tó wà lẹ́gbẹ̀ẹ́ webhook náà láti yọ ọ́ kúrò.</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>A ti yọ webhook %name kúrò.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>A ti pa GraphQL API nínú ìwọlé sáìtì yìí.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>A kò tíì fi ilé-ìkàwé GraphQL sórí ẹ̀rọ.</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>Lo GET tàbí POST.</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>Ara ìfiránṣẹ́ náà kì í ṣe ohun JSON.</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables kì í ṣe ohun JSON.</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions kì í ṣe ohun JSON.</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>Fi ìbéèrè náà ránṣẹ́ pẹ̀lú POST.</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>Ìfiránṣẹ́ náà kò ní ìbéèrè kankan.</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>Ìbéèrè náà gùn ju báìtì %max lọ.</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>Àṣìṣe inú olùpèsè</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node nílò ọ̀kan ṣoṣo nínú id, remoteId, path àti urlAlias.</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content nílò ọ̀kan ṣoṣo nínú id àti remoteId.</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>Kọ́sọ̀ ti after kì í ṣe èyí tí API yìí fúnni.</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>Kò sí àdàpè àwòrán %alias (image.ini [AliasSettings] AliasList[]).</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>Àwọn ìbéèrè tí a tọ́jú nìkan ni a gbà níbí: fi id ìbéèrè tí a tọ́jú ránṣẹ́.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>Hash ìbéèrè tí a tọ́jú kì í ṣe SHA-256.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>Hash ìbéèrè tí a tọ́jú kò bá ìbéèrè náà mu.</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>Ìfiránṣẹ́ ti pọ̀ jù: %limit ní pupọ̀ jùlọ láàárín ìṣẹ́jú-àáyá %window. Gbìyànjú lẹ́ẹ̀kan sí i lẹ́yìn ìṣẹ́jú-àáyá %reset.</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>Ìbéèrè náà jìn tó ìpele %depth; %max ni ó pọ̀ jùlọ tí a gbà láàyè.</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>Ìbéèrè náà ní ìdíjú %complexity; %max ni ó pọ̀ jùlọ tí a gbà láàyè.</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>Ìfiránṣẹ́ yìí kò lè ka schema (introspection).</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search nílò ọ̀rọ̀ kan tàbí àsẹ́ kan (classes, subtree, sections, publishedAfter, publishedBefore).</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument kì í ṣe ọjọ́ (ISO 8601, 2026-10-30).</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag nílò ọ̀kan ṣoṣo nínú id, remoteId àti path.</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout nílò ọ̀kan ṣoṣo nínú id, identifier àti urlAlias.</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>Pápá operations ti ìfiránṣẹ́ onípin-púpọ̀ kì í ṣe ìfiránṣẹ́ JSON kan.</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>Pápá map ti ìfiránṣẹ́ onípin-púpọ̀ kì í ṣe ohun JSON.</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>Ìfiránṣẹ́ onípin-púpọ̀ náà kò ní fáìlì %field.</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>Ọ̀nà kan nínú pápá map gbọ́dọ̀ bẹ̀rẹ̀ pẹ̀lú variables.: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>Fáìlì %name kò dé ní pípé (àṣìṣe ìgbéwọlé %error).</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>Fáìlì %name tóbi ju báìtì %max lọ.</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>A kò lè ṣàyẹ̀wò fáìlì %name.</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>A ti pa àwọn ìyípadà (mutation) nínú ìwọlé sáìtì yìí (graphql.ini [GraphQLSettings] MutationsEnabled).</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>Fi ìyípadà ránṣẹ́ pẹ̀lú POST.</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>Wọlé láti yí àkóónú padà.</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>Kọ́kọ́rọ́ API náà kò ní àyè %scope.</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>Ìyípadà tí ó ní àkókò ìwọlé nílò àmì fọ́ọ̀mù ti àkókò náà (àkọlé X-CSRF-Token).</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>A ti pa uploadFromUrl: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] kò dárúkọ olùgbàlejò kankan.</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>Àdírẹ́sì náà gbọ́dọ̀ jẹ́ àdírẹ́sì https.</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>Olùgbàlejò %host kò sí nínú graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>A kò lè mú fáìlì náà wá.</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload jẹ́ irú ìtẹ̀wọlé nìkan.</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>Oníyípadà irú Upload máa ń gba fáìlì kan ti ìfiránṣẹ́ onípin-púpọ̀.</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>A ti lo remote id %remoteId tẹ́lẹ̀.</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>Àkóónú náà ti ní ìtumọ̀ ní %language tẹ́lẹ̀: lo updateContent.</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>Fún ní pápá kan ó kéré jù.</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>A kò lè ṣe ẹ̀dà tuntun (àkóónú náà ní àkọsílẹ̀ àkọ́kọ́ tí ó pọ̀ jù).</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>Ẹ̀dà %version kì í ṣe àkọsílẹ̀ àkọ́kọ́.</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent nílò ọ̀kan péré nínú id àti nodeId.</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>A kò lè gbé ibi kan sí abẹ́ ara rẹ̀.</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>Àkóónú náà ti ní ibi kan lábẹ́ %parentId tẹ́lẹ̀.</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>A kò lè tọ́jú iye pápá %field.</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>Kò sí èdè àkóónú %language.</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>Kò sí kíláàsì àkóónú %class nínú schema.</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>Àkóónú náà kò sí, tàbí o kò lè kà á.</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>O kò lè ṣe èyí sí àkóónú yìí.</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>Kíláàsì %class kò ní pápá %field tí a lè kọ sí.</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>A fún ní pápá %field lẹ́ẹ̀mejì.</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>Pápá %field máa ń gba fáìlì: fi ránṣẹ́ gẹ́gẹ́ bí upload (ìfiránṣẹ́ onípin-púpọ̀).</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>Pápá %field kì í gba fáìlì.</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>Pápá %field nílò iye kan.</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>Fọ́ọ̀mátì %format wà fún àwọn pápá ọ̀rọ̀ ọlọ́ràá nìkan; %field máa ń gba iye rẹ̀ bí ó ṣe rí (RAW).</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>Pápá %field jẹ́ dandan.</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>A kò lè ka HTML náà.</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content máa ń gba version pẹ̀lú id nìkan.</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>Àmì àkọ́wò náà kò wúlò tàbí ó ti parí.</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>Kì í ṣe orísun (origin) (https://host tàbí https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>Kì í ṣe àyè ti GraphQL API: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>Fi àwọn ìforúkọsílẹ̀ ránṣẹ́ sí /api/graphql/subscribe (ìṣàn ìṣẹ̀lẹ̀ tàbí WebSocket).</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>Ìbéèrè náà kò dárúkọ iṣẹ́ kankan nínú ìwé náà.</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>Ìforúkọsílẹ̀ kan ń béèrè fún pápá kan ṣoṣo.</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>Ìforúkọsílẹ̀ tó ṣí sílẹ̀ ti pọ̀ jù; gbìyànjú lẹ́ẹ̀kan sí i lẹ́yìn náà.</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>O ní ìforúkọsílẹ̀ %max tó ṣí sílẹ̀, èyí tó pọ̀ jùlọ tí a gbà láàyè.</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>Àdírẹ́sì rẹ ní ìforúkọsílẹ̀ %max tó ṣí sílẹ̀, èyí tó pọ̀ jùlọ tí a gbà láàyè.</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>A ti pa àwọn ìforúkọsílẹ̀ nínú ìwọlé sáìtì yìí.</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>Wọlé láti forúkọsílẹ̀ (token tàbí kọ́kọ́rọ́ API ti ara ẹni).</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>Fi àwọn ìyípadà (mutation) ránṣẹ́ sí /api/graphql.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>Àwọn ìṣílọ</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>A kò lè ka ipò náà: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Àwọn tábìlì ìṣílọ kò tíì sí: ./console exp:upgrade --apply ni yóò ṣẹ̀dá wọn.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>Ìṣílọ %count ti kùnà</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>Ìṣiṣẹ́ kan ń lọ lọ́wọ́, tí %user bẹ̀rẹ̀</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>Ìfisórí náà ti wà ní títì: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Ní ìdúró</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Ó kùnà</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>Àwọn aláìní-orísun</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Ìṣiṣẹ́ tó kẹ́yìn</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>kò sí ọ̀kan síbẹ̀</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>Gbogbo ìṣílọ</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>Ìṣiṣẹ́ àfarawé</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>Ìdánrawò</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>Àwọn ìṣílọ tó wà ní ìdúró ṣiṣẹ́ nínú ìdúnàádúrà kan tí a yí padà sẹ́yìn lẹ́yìn náà: kò sí ohun tí a pa mọ́. Ní ìsàlẹ̀ ni ohun tí ọ̀kọ̀ọ̀kan yí padà nínú ibùdó dátà.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>Ohun tí ìṣiṣẹ́ kan yóò ṣe báyìí. Kò sí ohun tí a yí padà: ìṣílọ kọ̀ọ̀kan tó wà ní ìdúró ń ṣe àkójọ àwọn àyípadà tí yóò ṣe, ìṣiṣẹ́ náà sì ń ṣe àkójọ ohun tí yóò ṣe ṣáájú àti lẹ́yìn.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>Ṣe àfarawé</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Ṣiṣẹ́</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>Ìdánrawò náà kùnà: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>Àfarawé nílò PostgreSQL tàbí SQLite, tí a lè yí àwọn àyípadà ètò wọn padà sẹ́yìn; lórí ibùdó dátà yìí, ètò ìsàlẹ̀ ni ohun tí ìṣiṣẹ́ kan yóò ṣe.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>Àwọn ìṣílọ náà</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>Ìṣílọ</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Ipò</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>Ohun tí yóò ṣe</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>Àfarawé: %result ní ìṣẹ́jú-àáyá-kékeré %ms</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>Kò sí ìṣílọ kankan síbẹ̀.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>Ṣáájú àti lẹ́yìn ìṣiṣẹ́</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>Àwòrán ìpamọ́ ṣáájú</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>a yà á, a sì dá a padà nígbà tí ìṣílọ kan bá kùnà</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>pa</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>Àwòrán ìpamọ́ lẹ́yìn</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>a yà á nígbà tí ìṣiṣẹ́ bá yọrí</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>Ìṣílọ %total: %pending ní ìdúró, %done ti parí, %failed ti kùnà.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>Ìtàn ìṣílọ</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>Ìṣiṣẹ́ kọ̀ọ̀kan pẹ̀lú olùmúlò rẹ̀, àyíká rẹ̀, àwọn àwòrán ìpamọ́ àti ohun tí a fi sílẹ̀, tí a fi àmì sí, tí a sì tì sókè. A lè tẹ̀síwájú ìṣiṣẹ́ tó kùnà tàbí tí a dá dúró; a lè gba ìṣiṣẹ́ tí ó ní àwòrán ìpamọ́ tí a yà ṣáájú rẹ̀ padà.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>A kò lè ka àwọn ìṣiṣẹ́ náà: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Àwọn tábìlì ìṣílọ kò tíì sí: ./console exp:upgrade --apply ni yóò ṣẹ̀dá wọn.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Fihàn</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Gbogbo</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>Àwọn ìṣiṣẹ́</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Ti bẹ̀rẹ̀</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Láti ọwọ́</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>Àwọn àwòrán ìpamọ́</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Ibi ìpamọ́</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Àwọn ìṣe</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>ṣáájú</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>lẹ́yìn</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>ìtìsókè: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>Tẹ̀síwájú</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Yí padà sẹ́yìn</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>Kò sí ìṣiṣẹ́ kankan ní ipò yìí.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>Tí a bẹ̀rẹ̀ níbí</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>Àwọn ìṣiṣẹ́, ìtẹ̀síwájú àti ìyípadà sẹ́yìn tí a bẹ̀rẹ̀ lórí àwọn ojú-ewé yìí, pẹ̀lú ìròyìn ọ̀kọ̀ọ̀kan.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Kí ni</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Èsì</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Ìyípadà sẹ́yìn</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>Ìyípadà sẹ́yìn %target</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>Ìṣiṣẹ́ %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Ohun tí ìṣiṣẹ́ náà ṣe, àkọsílẹ̀ rẹ̀ àti ìwé ìṣẹ̀lẹ̀ rẹ̀. Ìṣiṣẹ́ tí a bẹ̀rẹ̀ níbí ń bá a lọ lẹ́yìn nígbà tí a bá pa ojú-ewé yìí; ṣí ojú-ewé náà lẹ́ẹ̀kan sí i láti tẹ̀lé e.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>Tẹ̀síwájú ìṣiṣẹ́ yìí</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>Yí ìṣiṣẹ́ yìí padà sẹ́yìn</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>A kò lè ka àkọsílẹ̀ náà: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Ìtẹ̀síwájú</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>%user ló bẹ̀rẹ̀ rẹ̀ ní %time.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>A ń ṣàyẹ̀wò kóòdù, a sì ń ya àwòrán ìpamọ́ ṣáájú ìṣiṣẹ́</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>A ń ṣiṣẹ́ %id (%index nínú %total)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>%done nínú %total ti parí</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>Àwọn ìṣílọ ti ṣiṣẹ́; a ń dá àwòrán ìpamọ́ padà bí ọ̀kan bá kùnà</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>A ń ya àwòrán ìpamọ́ lẹ́yìn ìṣiṣẹ́, a ń fi sílẹ̀, a ń fi àmì sí, a sì ń tì sókè</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>A ń dá àwòrán ìpamọ́ padà</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>Ìṣiṣẹ́ náà ti parí. A ń gbé ìròyìn rẹ̀ wọlé.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>A kò lè tẹ̀lé ìtẹ̀síwájú náà. Tún ojú-ewé náà gbé wọlé láti rí bí ìṣiṣẹ́ náà ṣe ń lọ.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>Ojú-ewé yìí ń tẹ̀lé ìṣiṣẹ́ náà bí ó ti ń lọ.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Tún gbé wọlé</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Ìròyìn</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Àkókò</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>ìṣẹ́jú-àáyá-kékeré %ms</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>Ohun tí ìṣiṣẹ́ náà tẹ̀ jáde bí àṣìṣe</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Àkọsílẹ̀</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>Àyíká</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>kò sí</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Ti parí</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Ìfisílẹ̀</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Àmì</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Ìtìsókè</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Ìfiránṣẹ́</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>Àwọn ìṣílọ ìṣiṣẹ́ yìí</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>Orísun</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>Ìwé ìṣẹ̀lẹ̀ ìṣiṣẹ́</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>Òpin ìwé ìṣẹ̀lẹ̀ nìkan ni a fihàn.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>ń ṣiṣẹ́</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>parí láìsí ìròyìn</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>yọrí</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>kùnà</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>a kọ̀ ọ́</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>a kò lè dé ibùdó dátà</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>àṣìṣe inú</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>Ìṣiṣẹ́ kan ń lọ lọ́wọ́</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind tí %user bẹ̀rẹ̀ ní %time.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>Tẹ̀lé e</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>Ìfisórí náà ti wà ní títì</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>Ìṣiṣẹ́ mìíràn ló di títì náà mú (àtúnṣe-sókè tàbí ìṣiṣẹ́ lórí console): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>ti parí</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>ní ìdúró</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>kò pọndandan</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>àìmọ̀</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>ti yí padà sẹ́yìn</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>a ti lò ó</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>a ó lò ó</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>a ti gbà á padà</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>a ó gbà á padà</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>kò ṣiṣẹ́</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>ń dúró de òmíràn</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>a gba àyípadà</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>a ó gba àyípadà</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>àfarawé</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Àwọn ìṣílọ</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Ipò</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Ìtàn</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>Gba %target padà</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>A ń gba ìṣiṣẹ́ kan padà sí àwòrán ìpamọ́ tí a yà ṣáájú rẹ̀, ìṣílọ kan pẹ̀lú down() rẹ̀. Dídá àwòrán ìpamọ́ àtijọ́ padà wà fún àwọn amòye. Ọ̀kọ̀ọ̀kan ń ṣiṣẹ́ lẹ́yìn bí ìwọ, lẹ́yìn àwòrán ìpamọ́ ipò ti ìsinsìnyí.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>A kò lè ka ohun tí a lè gbà padà: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>Ìṣiṣẹ́ kan</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>Ìṣílọ kan</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>Àwòrán ìpamọ́ àtijọ́ kan</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>Àpèjúwe</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>bẹ́ẹ̀ ni</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>rárá</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Àwòrán ìpamọ́</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Àmì orúkọ</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>Ìgbà tí a yà á</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Irú</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>Àwọn apá tí a ó dá padà</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>Ibùdó dátà</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>Àwọn fáìlì ìpamọ́ (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>Àwọn ètò (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>Dídá ibùdó dátà padà ń gbé e padà sí àkókò àwòrán ìpamọ́ náà, pẹ̀lú àwọn sáà ìwọlé: a lè ní kí o wọlé lẹ́ẹ̀kan sí i lẹ́yìn náà. Gbogbo ohun tí a yí padà láti ìgbà náà yóò sọnù; a kọ́kọ́ ya àwòrán ìpamọ́ ipò ti ìsinsìnyí.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>Mo mọ ohun tí èyí ń dá padà</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>Tẹ id àwòrán ìpamọ́ náà lẹ́ẹ̀kan sí i</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>Bẹ́ẹ̀ ni, gbà á padà</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Fagilé</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>Àwọn ìṣiṣẹ́ tí ó ní àwòrán ìpamọ́ tí a yà ṣáájú wọn.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>Yàn</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>Kò sí ìṣiṣẹ́ kankan tí ó ní àwòrán ìpamọ́ síbẹ̀.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>Àwọn ìṣílọ tí a ti lò tí wọ́n lè gba ara wọn padà (wọ́n ní down()).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>Kò sí ìṣílọ tí a ti lò tí ó ní down().</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>Àwọn àwòrán ìpamọ́ àtijọ́ (àwọn amòye)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>Kò sí àwòrán ìpamọ́ kankan síbẹ̀.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>Ṣiṣẹ́ àwọn ìṣílọ náà</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>Ìṣiṣẹ́ náà ń bá a lọ lẹ́yìn bí %user, ojú-ewé rẹ̀ sì ń fihàn bí ó ti ń lọ. Ṣáájú ìṣílọ àkọ́kọ́ a ya àwòrán ìpamọ́ ìfisórí náà; nígbà tí ìṣílọ kan bá kùnà, ìṣiṣẹ́ náà dúró, a sì dá àwòrán ìpamọ́ náà padà.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>Kọ́kọ́ ṣe ìdánrawò</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>A kò lè ka ipò náà: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>Àwọn ìṣílọ tó wà ní ìdúró</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>Wọ́n ń ṣiṣẹ́ ní ètò yìí. Yọ àmì kúrò lára ọ̀kan láti fi sílẹ̀, pẹ̀lú àwọn tí ó nílò rẹ̀, fún ìṣiṣẹ́ mìíràn lẹ́yìn náà.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>Ṣiṣẹ́ ẹ</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>Ó ń tan ipò ìtọ́jú nígbà tí ó ń ṣiṣẹ́.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>Wọ́n yí padà lẹ́yìn tí a lò wọ́n</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>Àwọn fáìlì yìí kì í ṣe àwọn tí a lò. Ìṣiṣẹ́ kan yóò kọ̀ wọ́n àyàfi tí a bá gba àyípadà náà pẹ̀lú ìdí; a kò ní ṣiṣẹ́ wọn lẹ́ẹ̀kan sí i, a ó kọ àyẹ̀wò ìbáramu tuntun sílẹ̀, a ó sì pa ìdí náà mọ́ nínú ìwé ìṣàyẹ̀wò.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>Gba àwọn àyípadà</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Kí nìdí</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>Àwọn àṣàyàn àkọ́kọ́ ni àwọn tó ní ààbò. Àpótí kọ̀ọ̀kan ń fo ìgbésẹ̀ kan.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>Kò sí àwòrán ìpamọ́</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>Kò sí àwòrán ìpamọ́ ṣáájú àti lẹ́yìn ìṣiṣẹ́: a kò lè dá ìkùnà padà fúnra rẹ̀.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>Kò sí ìdápadà</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>Lẹ́yìn ìkùnà, fi ìfisórí sílẹ̀ bí ìkùnà náà ṣe fi í sílẹ̀.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>Pa àwọn àyípadà tí a kò fi sílẹ̀ mọ́</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>Ṣiṣẹ́ bí ó tilẹ̀ jẹ́ pé àwọn ètò, àfikún tàbí àwọn àpẹrẹ ní àwọn àyípadà tí a kò fi sílẹ̀; wọ́n yóò wọ inú àwòrán ìpamọ́.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>Kò sí ìfisílẹ̀</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>Má ṣe fi fáìlì ipò àti ìwé ìṣẹ̀lẹ̀ ìṣiṣẹ́ sílẹ̀ (kò sí àmì àti ìtìsókè pẹ̀lú).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>Kò sí ìtìsókè</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>Fi sílẹ̀ kí o sì fi àmì sí, ṣùgbọ́n má ṣe tì sókè.</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>Kò sí àmì</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>Fi sílẹ̀ kí o sì tì sókè, ṣùgbọ́n má ṣe fi àmì sí ìṣiṣẹ́ náà.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>Bẹ́ẹ̀ ni, ṣiṣẹ́ àwọn ìṣílọ yìí báyìí</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Kò sí ìṣílọ kankan tó wà ní ìdúró.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>Padà sí ipò</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>Àwọn àyípadà sí ìfisórí yìí tí a kọ lẹ́ẹ̀kan bí fáìlì (àkóónú, kílásì, ipa, ètò, ìṣètò dátà) tí a sì lò sí gbogbo ìfisórí ojú-òpó náà ní ètò kan náà. Ìṣiṣẹ́ kan kọ́kọ́ ya àwòrán ìpamọ́, ó dá a padà nígbà tí ìṣílọ kan bá kùnà, ó sì kọ ohun tí ó ṣe sílẹ̀, ó fi í sílẹ̀, ó sì tì í sókè.</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>Ṣiṣẹ́ %count tó wà ní ìdúró</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Àkópọ̀</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Ní ìdúró</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Ti parí</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Ó kùnà</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>Kò pọndandan</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>Ibùdó dátà</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>ìdúnàádúrà: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>Àwọn ìṣílọ ojú-òpó wà nínú migrations/, ti àfikún kan wà nínú extension/&lt;name&gt;/migrations/. Wọ́n ń ṣiṣẹ́ ní ètò orúkọ wọn àti ohun tí wọ́n nílò.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Ìṣiṣẹ́ tó kẹ́yìn</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>Fáìlì náà yí padà lẹ́yìn tí a lò ó.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>Kò sí ìṣílọ kankan síbẹ̀. ./console exp:migration:generate --skeleton &lt;name&gt; --apply ni yóò kọ àkọ́kọ́.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>Àwọn ìṣiṣẹ́ tuntun jùlọ</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>Gbogbo ìṣiṣẹ́</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>Kò sí ìṣiṣẹ́ kankan síbẹ̀.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>Ṣíṣe àfarawé ìṣiṣẹ́ nílò ìlànà migration/run.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>Ìṣiṣẹ́ kan ń lọ lọ́wọ́: ṣe àfarawé nígbà tí ó bá parí.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Ìgbékalẹ̀</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target kì í ṣe ìṣiṣẹ́, ìṣílọ tàbí àwòrán ìpamọ́ ìfisórí yìí.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>Kọ́kọ́ fi àmì sí &quot;Bẹ́ẹ̀ ni, gbà á padà&quot;.</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>Dídá àwòrán ìpamọ́ àtijọ́ padà wà fún àwọn amòye: fi àmì sí &quot;Mo mọ ohun tí èyí ń dá padà&quot;.</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>Tẹ id àwòrán ìpamọ́ náà lẹ́ẹ̀kan sí i: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>Yan ó kéré tán apá kan láti dá padà.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>Ìṣiṣẹ́ yìí kò ní àwòrán ìpamọ́ tí a yà ṣáájú rẹ̀: gba àwọn ìṣílọ rẹ̀ padà ní ọ̀kọ̀ọ̀kan, tàbí dá àwòrán ìpamọ́ àtijọ́ padà.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>A kò lè gba ìṣílọ yìí padà fúnra rẹ̀: a kò tíì lò ó, tàbí kò ní down().</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>A kò lè ka fọ́ọ̀mù náà.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>Yan ìṣiṣẹ́ tí a ó tẹ̀síwájú.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>Kọ́kọ́ fi àmì sí &quot;Bẹ́ẹ̀ ni, ṣiṣẹ́ àwọn ìṣílọ yìí báyìí&quot;.</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>Yan ó kéré tán ìṣílọ kan.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>Ìṣílọ kan yí padà lẹ́yìn tí a lò ó: gba àyípadà náà pẹ̀lú ìdí, tàbí dá fáìlì náà padà.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>Sọ ìdí tí a fi gba àwọn ìṣílọ tí ó yí padà.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>Ìdí náà kò gbọ́dọ̀ ju àmì-ìkọ 500 lọ.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>Ìṣiṣẹ́ tí a bẹ̀rẹ̀ níbí ṣì ń lọ lọ́wọ́ (%detail). Dúró títí yóò fi parí.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>Ìṣiṣẹ́ mìíràn ló di títì ìfisórí náà mú: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>Ìṣiṣẹ́ náà nílò olùmúlò tó wà tí ó ti wọlé.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>A kò rí ètò ìlà àṣẹ php kankan. Ṣètò migration.ini [AdminSettings] PhpCliPath sí ipa ọ̀nà rẹ̀ kíkún.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open ti wà ní pípa, nítorí náà a kò lè bẹ̀rẹ̀ ìṣiṣẹ́ níbí. Ṣiṣẹ́ ./console exp:migration:migrate --apply lórí olupin.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>A kò lè kọ sínú fódà àwọn ìṣiṣẹ́: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>A bẹ̀rẹ̀ ìṣiṣẹ́ náà ṣùgbọ́n kò jábọ̀ id ìlànà rẹ̀. Ṣàyẹ̀wò %detail.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>Dárúkọ ohun tí a ó gbà padà.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>A kò lè bẹ̀rẹ̀ ìṣiṣẹ́ náà.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>Ìgbàsílẹ̀ àwọn àyípadà</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>Nígbà tí ìgbàsílẹ̀ bá ń lọ lọ́wọ́, ohun tí o bá yípadà nínú ìṣàkóso tàbí nínú ọ̀pá ẹ̀gbẹ́ ojú-òpó ni a ń tọ́jú gẹ́gẹ́ bí ìgbésẹ̀ ìṣípòpadà: àkóónú, àwọn kíláàsì, àwọn ipa àti ìlànà, àwọn ìpín, àwọn olùṣàmúlò àti ẹgbẹ́, àwọn orúkọ àfidípò URL, àwọn ètò. Dá a dúró nígbà tí o bá parí, wo ohun tí ó mú, kí o sì ṣẹ̀dá ìṣípòpadà láti inú rẹ̀.</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>A kò lè ka àwọn ìgbàsílẹ̀: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>Àwọn tábìlì ìgbàsílẹ̀ kò tíì sí: kọ́kọ́ ṣe àtúnṣe (exp:upgrade --apply).</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>Ìgbàsílẹ̀ ti wà ní pípa nínú migration.ini ([RecordingSettings] Recording=disabled).</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>Àwọn àyípadà mi</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>Ó ń gba ohun tí o yípadà nìkan sílẹ̀, níbikíbi tí o bá ti yí i padà, títí tí o fi dá a dúró.</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>Ìgbàsílẹ̀</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>láti %time, àyípadà %count títí di báyìí.</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>Àmì (àṣàyàn)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>Fi ohun tí ó mú hàn</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Dá ìgbàsílẹ̀ dúró</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>Bẹ̀rẹ̀ ìgbàsílẹ̀ àwọn àyípadà mi</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>Fèrèsé fún gbogbo ojú-òpó</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>Ó ń gba gbogbo àyípadà olùṣàmúlò kọ̀ọ̀kan àti ti kọ́ńsólù sílẹ̀ títí tí a ó fi tì í. Nígbà tí o bá ṣí i, a ó ní kí o jẹ́rìí pé ìwọ ni.</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Ṣíṣí</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>Ti fèrèsé</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>Ṣí fèrèsé fún gbogbo ojú-òpó</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>Àwọn ìgbàsílẹ̀</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>A kò ní gba àkọọ́lẹ̀ olùṣàmúlò (orúkọ ìwọlé, ímeèlì, ọ̀rọ̀ aṣínà) àti àwọn ààyè àkọọ́lẹ̀ olùṣàmúlò sílẹ̀ láé.</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Àwọn àyípadà</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>Gbogbo ojú-òpó</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>Àwọn àyípadà %name</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Ti dúró</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>Kò sí ìgbàsílẹ̀ kankan síbẹ̀.</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>Ìgbàsílẹ̀ %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>Gbogbo ìgbàsílẹ̀</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>Ìṣípòpadà tí yóò ṣe</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>Àwọn àyípadà tí a kó pọ̀ sí ìgbésẹ̀ kan fún ohun kọ̀ọ̀kan tí ó yípadà: ohun tí ìṣípòpadà tí a ṣẹ̀dá láti inú ìgbàsílẹ̀ yìí yóò ṣe.</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>A lè ṣẹ̀dá ìṣípòpadà láti inú rẹ̀ nígbà tí ìfisórí yìí bá ní àwọn irú ìgbésẹ̀ YAML %types.</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>Ti fi sílẹ̀ mọ̀ọ́mọ̀: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>Kò sí ohun tí a gbà sílẹ̀.</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>Ohun tí ó mú</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>Àyípadà %count, ní ìtẹ̀léra tí a ṣe wọ́n.</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Àyípadà</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>Ìgbésẹ̀</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>Nípa</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>%count sí i: ./console exp:migration:record:show ń ṣe àkójọ gbogbo wọn.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Jù sílẹ̀</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>Ó ń yọ ìgbàsílẹ̀ àti ohun tí ó mú kúrò. Ohun tí ó yípadà ń bá a lọ ní yíyípadà.</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>Bẹ́ẹ̀ni, ju ìgbàsílẹ̀ yìí sílẹ̀</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>Ó ń gbà sílẹ̀…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>A ń gba àwọn àyípadà rẹ sílẹ̀ fún ìṣípòpadà kan.</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>A ń gba gbogbo àyípadà lórí ojú-òpó yìí sílẹ̀ fún ìṣípòpadà kan (fèrèsé fún gbogbo ojú-òpó).</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>Ìgbàsílẹ̀ gbogbo ojú-òpó ti bẹ̀rẹ̀: a ó gba gbogbo àyípadà olùṣàmúlò kọ̀ọ̀kan sílẹ̀ títí tí o fi dá a dúró.</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>Ìgbàsílẹ̀ ti bẹ̀rẹ̀: a ó gba àwọn àyípadà rẹ sílẹ̀ títí tí o fi dá a dúró.</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>Ìgbàsílẹ̀ ti dúró. Ohun tí ó mú yóò wà títí tí o fi jù ú sílẹ̀.</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>A ti yọ ìgbàsílẹ̀ àti àwọn ìṣẹ̀lẹ̀ rẹ̀ kúrò.</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>Kò sí ìgbàsílẹ̀ %id.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>Kọ́kọ́ sàmì sí "Bẹ́ẹ̀ni, ju ìgbàsílẹ̀ yìí sílẹ̀".</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>Olùṣàmúlò tí ó gbà sílẹ̀ nìkan ló lè dá ìgbàsílẹ̀ àkókò ìlò dúró.</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>Yan ìgbàsílẹ̀ tí a ó dá dúró.</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>Ìgbàsílẹ̀ irú yìí ti ń lọ lọ́wọ́.</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>A kò lè yí ìgbàsílẹ̀ padà: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>Ṣẹ̀dá ìṣípòpadà</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>Orúkọ ìṣípòpadà (àṣàyàn)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>A ti kọ ìṣípòpadà %file. Àwọn àyípadà tí ìgbésẹ̀ kankan kò lè ṣe ni a dárúkọ ní òkè fáìlì náà, láti ṣe wọ́n pẹ̀lú ọwọ́.</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>Kò sí ìṣípòpadà tí a kọ: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>Ìṣiṣẹ́ gígùn ní apá-apá</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>Àwọn pápá òfo máa ń pa àwọn ètò migration.ini [RunSettings] mọ́.</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>Pọ̀ jù bẹ́ẹ̀ lọ ni iye ìṣíkiri wọ̀nyí</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>Kò sí ìṣíkiri mìíràn lẹ́yìn (ìṣẹ́jú-àáyá)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>Ìsinmi láàárín àwọn ìṣíkiri (ìṣẹ́jú-àáyá)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>Ìpìlẹ̀ tó kéré jù (1 sí 19)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>Pápá ìṣiṣẹ́ gígùn jẹ́ nọ́ńbà odidi láti 1 (ìsinmi: ìṣẹ́jú-àáyá láti 0 sí 60, ìpìlẹ̀: 1 sí 19), tàbí òfo.</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>Ó máa ń tìpa ara rẹ̀ ní %time.</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>Tìpa ara rẹ̀ lẹ́yìn (ìṣẹ́jú, àṣàyàn)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>Àwọn ìṣẹ́jú jẹ́ nọ́ńbà odidi láti 1 sí 44640 (ọjọ́ 31), tàbí òfo.</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>Ìṣílọ %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>Ìṣílọ tuntun</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>Ìṣílọ YAML kan: kọ ọ́ bí ọ̀rọ̀ tàbí kọ́ àwọn ìgbésẹ̀ rẹ̀ nínú fọ́ọ̀mù, ṣàyẹ̀wò rẹ̀, lẹ́yìn náà fi pamọ́ sínú fóldà ìṣílọ kan.</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>Ìṣílọ yìí ti ṣiṣẹ́ tẹ́lẹ̀, nítorí náà a kò ní fi pamọ́ lẹ́ẹ̀kan sí i: olùṣọ́ àpapọ̀ àyẹ̀wò yóò kọ fáìlì tí a yí padà. Ṣe àyípadà náà nínú ìṣílọ tuntun.</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>Sáfà wẹ́ẹ̀bù kò lè kọ fáìlì náà.</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>Àwọn ìlà àsọyé tó wà lókè ni àkọlé (description, author, requires, environments, engines). Nígbà tí a bá ṣàfikún tàbí yí ìgbésẹ̀ kan padà nínú fọ́ọ̀mù, a ó tún ìṣílọ náà kọ: a kì í pa àwọn àsọyé tó wà láàrin àwọn ìgbésẹ̀ mọ́.</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>Orúkọ ìṣílọ náà</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>Ibi tí ó ń lọ</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>Ojú-òpó náà</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>Ọ̀rọ̀ YAML</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>Ṣàyẹ̀wò</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Fi pamọ́</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Àwọn ìgbésẹ̀</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>Àwọn kọ́kọ́rọ́</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Ṣàtúnṣe</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>Gbé sókè</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>Gbé sísàlẹ̀</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Yọ kúrò</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>Kò sí ìgbésẹ̀ kankan síbẹ̀: ṣàfikún ọ̀kan pẹ̀lú fọ́ọ̀mù, tàbí kọ wọ́n sínú ọ̀rọ̀.</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>Yí ìgbésẹ̀ %number padà</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>Ṣàfikún ìgbésẹ̀ kan</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>Irú ìgbésẹ̀ ni a fi ń ṣe fọ́ọ̀mù ìgbésẹ̀ kan: àwọn kọ́kọ́rọ́ rẹ̀, ohun tí ọ̀kọ̀ọ̀kan ń gbà àti àwọn ipò iṣẹ́ tí ó jẹ́ tirẹ̀.</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>Irú ìgbésẹ̀</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>Fi fọ́ọ̀mù rẹ̀ hàn</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>Ìgbésẹ̀ náà ní àwọn kọ́kọ́rọ́ tí irú rẹ̀ kò mọ̀; a ó fi wọ́n sílẹ̀ nígbà tí a bá yí ìgbésẹ̀ náà padà: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>Ipò iṣẹ́</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>Nínú</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>nínú %modes nìkan</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>Àìyípadà: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>Àwọn ipò, ìtọ́kasí àti àsọyé</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>Àwọn méjì-méjì orúkọ=iye tí a fi kọ́mà yà sọ́tọ̀. Àwọn iye ìgbésẹ̀ yìí: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>Àpẹẹrẹ</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>Yí ìgbésẹ̀ padà</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>Ṣàfikún ìgbésẹ̀</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>Ohun tí exp:migration:check sọ: àkọlé, ìwé náà àti gbogbo ìgbésẹ̀ tí irú ìgbésẹ̀ rẹ̀ ṣàyẹ̀wò.</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>Ìṣílọ náà yege nínú àyẹ̀wò.</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Awotẹ́lẹ̀</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>YAML bí a ó ṣe fi pamọ́.</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>Fi YAML hàn</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>Àwọn ìṣílọ YAML</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>ti ṣiṣẹ́</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>Kò sí ìṣílọ YAML kankan síbẹ̀.</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>Olùṣàtúnṣe</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>Kò sí ìṣílọ YAML %id nínú àwọn fóldà ìṣílọ.</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>Yan irú ìgbésẹ̀.</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>A ti ṣàfikún ìgbésẹ̀ náà. Ṣàyẹ̀wò ìṣílọ náà kí o tó fi pamọ́.</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>A ti yí ìgbésẹ̀ náà padà. Ṣàyẹ̀wò ìṣílọ náà kí o tó fi pamọ́.</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>Yan ìgbésẹ̀ kan.</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>Ìgbésẹ̀ yìí kò ní fọ́ọ̀mù (ìyípo kan, tàbí irú ìgbésẹ̀ tí ìfisórí yìí kò ní): yí i padà nínú ọ̀rọ̀.</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>Yan ibi tí ìṣílọ náà ń lọ: ojú-òpó náà tàbí ìfàgùn tó ń ṣiṣẹ́.</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>A ti fi %file pamọ́. Ṣe ìdánrawò kí ìṣílọ náà tó ṣiṣẹ́.</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>A kò fi pamọ́: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>Àwọn ẹ̀rọ jíjìnnà</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>Àwọn ìfisórí mìíràn tí èyí ń gbé àwọn ìṣílọ rẹ̀ jáde sí: ìgbéjáde kan ń fi àwọn ìṣílọ ránṣẹ́ sí àwọn ẹ̀rọ jíjìnnà tí a yàn, ó sì ń ṣiṣẹ́ wọn níbẹ̀, gbogbo wọn lẹ́ẹ̀kan náà àti ní ìbámu. Ẹ̀rọ jíjìnnà kì í di àṣírí mú: ìwé ẹ̀rí ìwọlé rẹ̀ ń dárúkọ ọ̀kan nínú Ìgbékalẹ̀ &gt; Àwọn àṣírí.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>Ẹ̀rọ jíjìnnà tuntun</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Ìrànlọ́wọ́</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>Ṣàyẹ̀wò ìsopọ̀ %id</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>Àwọn ẹ̀rọ jíjìnnà náà</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>Títí dé %parallel ẹ̀rọ jíjìnnà ni a ń ṣiṣẹ́ lé lórí ní àkókò kan náà; abala kan lè gba ìṣẹ́jú-àáyá %timeout lórí ọ̀kọ̀ọ̀kan.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>Ẹ̀rọ jíjìnnà</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Àdírẹ́sì</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Ìwé ẹ̀rí ìwọlé</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>Àwọn ẹgbẹ́</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>àwọn ètò tí ó yẹ ká tún ṣe</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>fáìlì nìkan (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>Kọ́kọ́rọ́ SSH</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>Ọ̀rọ̀ aṣínà</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>kò sí (aṣojú SSH àti àwọn kọ́kọ́rọ́ agbàlejò)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>Ṣàyẹ̀wò ìsopọ̀</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>Ìgbéjáde sí ẹgbẹ́ kan ń lọ sí gbogbo ẹ̀rọ jíjìnnà inú rẹ̀.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>Gbé jáde sí àwọn ẹ̀rọ jíjìnnà</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>Kò sí ẹ̀rọ jíjìnnà kankan tí a ti ṣètò síbẹ̀.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>Ẹ̀rọ jíjìnnà %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>Kò sí ohun tí a fi ránṣẹ́ tàbí tí a ṣiṣẹ́ níbí: Fi pamọ́ ń kọ àwọn ètò sí settings/override/migration.ini.append.php. Ìwé ẹ̀rí ìwọlé jẹ́ orúkọ kan; iye rẹ̀ wà nínú Ìgbékalẹ̀ &gt; Àwọn àṣírí tàbí nínú àyíká.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Ṣàyẹ̀wò àwọn ètò wọ̀nyí</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>Àwọn ètò bí a ṣe tẹ̀ wọ́n sí, tí a kò tí ì fi pamọ́.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Àyẹ̀wò</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Àwọn ètò náà tọ̀nà. A ó kọ àwọn ìlà wọ̀nyí:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>Ìgbékalẹ̀ ìfiránṣẹ́</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>orúkọ nìkan; iye náà wà nínú Ìgbékalẹ̀ &gt; Àwọn àṣírí</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Àwọn ìlà tí a ó kọ</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>Ìsopọ̀</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>Kọ́kọ́rọ́ agbàlejò</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. Ẹ̀rọ jíjìnnà náà</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>Orúkọ ẹ̀rọ jíjìnnà náà àti àyíká tí ó jẹ́.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>Ìdánimọ̀</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>Lẹ́tà, nọ́ńbà, - àti _, fún àpẹẹrẹ production1. Ó ń dárúkọ ẹ̀rọ jíjìnnà náà nínú àwọn ìròyìn àti lórí console (--remotes=production1), a kò sì lè yí i padà lẹ́yìn náà.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... Ìgbéjáde ìpele-ìpele ń la àwọn àyíká kọjá ní ìtẹ̀léra yìí.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>Àṣàyàn, tí a fi kọ́mà yà sọ́tọ̀, fún àpẹẹrẹ production. Ìgbéjáde sí ẹgbẹ́ kan ń lọ sí gbogbo ẹ̀rọ jíjìnnà inú rẹ̀.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. Ìsopọ̀ náà</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>Bí àwọn fáìlì ṣe ń dé ibẹ̀, àti ibi tí ìfisórí náà wà.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>Lórí SSH, ohun tí ó yí padà nìkan, a ó tẹ̀síwájú ìgbéránṣẹ́ tí ó já. Àṣàyàn tí ó dára jù níbi tí a ti fi rsync sí.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>SSH pẹ̀lú scp fún àwọn fáìlì.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>SSH pẹ̀lú sftp fún àwọn fáìlì.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>Fáìlì nìkan: a ń fi àwọn ìṣílọ ránṣẹ́, a sì ń kà wọ́n padà, ṣùgbọ́n a kò lè ṣiṣẹ́ wọn níbẹ̀.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>FTP lórí TLS; fáìlì nìkan.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>Ìfisórí mìíràn lórí olùpín yìí, nínú fóldà kan.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Agbàlejò</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>Orúkọ agbàlejò tàbí àdírẹ́sì, fún àpẹẹrẹ node1.example.com. Kì í ṣe fún local.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>Ibùdó</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>Òfo: 22 fún SSH, 21 fún FTP.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Olùlò</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>Ọ̀nà</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>Gbòǹgbò ìfisórí náà níbẹ̀, fún àpẹẹrẹ /var/www/site (fún FTP: ọ̀nà tí àkáǹtì FTP náà rí).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>Ìlà àṣẹ PHP</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>PHP CLI tí ó wà níbẹ̀: php, tàbí ọ̀nà kíkún bí /opt/plesk/php/8.4/bin/php.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>Àwọn ìwé àfọwọ́kọ console ń ṣiṣẹ́ bí root níbẹ̀</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>Nígbà tí olùlò ẹ̀rọ jíjìnnà náà bá jẹ́ root nìkan (a ó ṣiṣẹ́ wọn pẹ̀lú --allow-root-user nígbà náà).</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. Ìwé ẹ̀rí ìwọlé náà</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>Bí ìfisórí yìí ṣe ń wọlé síbẹ̀. Orúkọ nìkan ni a ń fi pamọ́.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Kò sí</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>Aṣojú SSH àti àwọn kọ́kọ́rọ́ olùlò tí ìfisórí yìí ń ṣiṣẹ́ bí (àti nígbà gbogbo fún local).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>Kọ́kọ́rọ́ àdáni tí a pa mọ́ gẹ́gẹ́ bí àṣírí.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>Ọ̀rọ̀ aṣínà tí a pa mọ́ gẹ́gẹ́ bí àṣírí (FTP ń wọlé pẹ̀lú ọ̀kan).</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>Orúkọ àṣírí</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>Àṣírí kan nínú Ìgbékalẹ̀ &gt; Àwọn àṣírí, fún àpẹẹrẹ deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Ìgbékalẹ̀ &gt; Àwọn àṣírí</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>Tàbí oníyípadà àyíká kan</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>Oníyípadà ìlànà iṣẹ́ olùpín tí ó dì í mú, fún àpẹẹrẹ DEPLOY_KEY (a fi pamọ́ bí env:DEPLOY_KEY). Ó rọ́pò orúkọ àṣírí náà.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. Kọ́kọ́rọ́ agbàlejò náà</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>Àṣàyàn, fún SSH, sftp àti rsync.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>Àmì ìdánimọ̀ kọ́kọ́rọ́ agbàlejò</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... bí ssh-keygen -l ṣe ń tẹ̀ ẹ́ jáde. Pẹ̀lú rẹ̀, agbàlejò gbọ́dọ̀ fi kọ́kọ́rọ́ yìí hàn; láìsí rẹ̀, a ó kọ́ kọ́kọ́rọ́ náà ní ìpàdé àkọ́kọ́.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. Àyẹ̀wò</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>Ṣàyẹ̀wò ìsopọ̀ pẹ̀lú àwọn ètò tí ó wà lókè, lẹ́yìn náà ṣàyẹ̀wò àwọn ìlà tí a ó kọ.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>Yọ ẹ̀rọ jíjìnnà yìí kúrò</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>A ń yọ àwọn ètò rẹ̀ kúrò nínú settings/override/migration.ini.append.php. Kò sí ohun tí ó yí padà lórí ẹ̀rọ jíjìnnà náà, àwọn ìgbéjáde rẹ̀ sì wà nínú ìtàn.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>Bẹ́ẹ̀ ni, yọ ẹ̀rọ jíjìnnà yìí kúrò</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>Àwọn ìgbéjáde</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>Ìgbéjáde kan ń fi àwọn ìṣílọ ìfisórí yìí ránṣẹ́ sí àwọn ẹ̀rọ jíjìnnà tí a yàn, ó sì ń ṣiṣẹ́ wọn níbẹ̀ gẹ́gẹ́ bí %user, gbogbo wọn lẹ́ẹ̀kan náà àti ní ìbámu: a kọ́kọ́ ṣàyẹ̀wò gbogbo ẹ̀rọ jíjìnnà, nígbà tí ọ̀kan bá sì kùnà, a ó gba gbogbo ẹ̀rọ jíjìnnà tí ó ti lò ó padà. Ó ń bá a lọ ní abẹ́lẹ̀, ojú-ìwé rẹ̀ sì ń fi gbogbo ẹ̀rọ jíjìnnà hàn bí ó ṣe ń lọ.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. Àwọn ẹ̀rọ jíjìnnà náà</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>Sàmì sí àwọn ẹ̀rọ jíjìnnà, ẹgbẹ́ kan, tàbí méjèèjì.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>Gbé jáde sí i</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. Báwo</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>Gbé jáde</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>Fi ránṣẹ́ kí o sì ṣiṣẹ́</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>A ń fi àwọn ìṣílọ ránṣẹ́, a ń ṣàyẹ̀wò wọn, a sì ń ṣiṣẹ́ wọn lórí gbogbo ẹ̀rọ jíjìnnà pẹ̀lú ìdánimọ̀ ìṣiṣẹ́ kan tí wọ́n jọ ní.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>Gbígbé fáìlì nìkan</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>A ń fi àwọn fáìlì ránṣẹ́ a sì ń ṣàyẹ̀wò wọn, kò sí ohun tí a ń ṣiṣẹ́ (ọ̀nà kan ṣoṣo fún ẹ̀rọ jíjìnnà FTP).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>Ní ìpele-ìpele</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>Ìpele sí ìpele ní ìtẹ̀léra àwọn àyíká (dev, stage, beta, production ...): a ó gbé ìpele àkọ́kọ́ jáde, lẹ́yìn náà ẹnubodè kan yóò dúró títí ẹnìkan yóò fi fọwọ́ sí èyí tókàn. Gbogbo rẹ̀ tàbí kò sí nǹkan kan nínú ìpele kọ̀ọ̀kan.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>Àwọn ìṣílọ wọ̀nyí nìkan</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>Àṣàyàn: àwọn ìdánimọ̀ ìṣílọ, tí a fi kọ́mà yà sọ́tọ̀. Òfo: gbogbo ìṣílọ ojú-òpó náà àti àwọn àfikún rẹ̀.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>Àyẹ̀wò ìṣáájú nìkan</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>Bẹ́ẹ̀ ni, gbé jáde nísinsìnyí</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>Àwọn ìgbéjáde tí ó fi nǹkan ránṣẹ́ tàbí tí ó ṣiṣẹ́ nǹkan, tuntun jùlọ ní àkọ́kọ́ (àyẹ̀wò ìṣáájú kì í pa ìròyìn mọ́).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>gbígbé fáìlì nìkan</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>ìpele-ìpele, ìpele %stages</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>kò sí ní ìbámu</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>Kò sí ìgbéjáde kankan síbẹ̀.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>Ìgbéjáde %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Gbogbo ẹ̀rọ jíjìnnà ìgbéjáde náà pẹ̀lú ipò rẹ̀. Ìgbéjáde tí a bẹ̀rẹ̀ níbí ń bá a lọ ní abẹ́lẹ̀ nígbà tí a bá ti ojú-ìwé yìí; tún ṣí ojú-ìwé náà láti tẹ̀lé e.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>Gbogbo ìgbéjáde</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>Àyẹ̀wò ìṣáájú</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>Ìpele tókàn</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>A ń ṣàyẹ̀wò àwọn ètò àti àwọn ìwé ẹ̀rí ìwọlé</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>Àyẹ̀wò ìṣáájú: a ń ka ipò gbogbo ẹ̀rọ jíjìnnà</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>A ń fi àwọn fáìlì ìṣílọ ránṣẹ́</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>A ń ṣàyẹ̀wò ohun tí ó dé</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>A ń ṣiṣẹ́ àwọn ìṣílọ lórí gbogbo ẹ̀rọ jíjìnnà</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>A ń gba àwọn ẹ̀rọ jíjìnnà padà</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>Ìgbéjáde náà ti parí. A ń gbé ìròyìn rẹ̀ wọlé.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>A kò lè tẹ̀lé ìtẹ̀síwájú náà. Tún gbé ojú-ìwé náà wọlé láti rí bí ìgbéjáde náà ṣe ń lọ.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>Abala</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>Ojú-ìwé yìí ń tẹ̀lé ìgbéjáde náà bí ó ṣe ń lọ.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>Ní ìbámu</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>Àwọn ìpele</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>ìpele %stage ń dúró ní ẹnubodè rẹ̀</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>Ẹnubodè %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>%user fọwọ́ sí i ní %time</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>Ìpele</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>Àwọn fáìlì tí a fi ránṣẹ́</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>Ẹ̀yà kernel</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>a ti lò ó: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>láti lò: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>Àwọn abala</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>Ẹnubodè: ìpele %stage nínú %stages</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>A ti gbé àwọn ìpele tí ó ṣáájú rẹ̀ jáde. Ṣàyẹ̀wò wọn, lẹ́yìn náà fọwọ́ sí ìpele tókàn: a ó tún ṣàyẹ̀wò àwọn ẹ̀rọ jíjìnnà rẹ̀, a ó sì gbé e jáde, gbogbo rẹ̀ tàbí kò sí nǹkan kan.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Tókàn</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>Bẹ́ẹ̀ ni, gbé ìpele tókàn jáde nísinsìnyí</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Fọwọ́ sí i</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>Yí ìgbéjáde yìí padà sẹ́yìn</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>Gbogbo ẹ̀rọ jíjìnnà tí ó lò ó (%list) ń padà sí àwòrán ìpamọ́ tí a yà ṣáájú ìṣiṣẹ́ rẹ̀, gbogbo wọn lẹ́ẹ̀kan náà.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>Bẹ́ẹ̀ ni, yí ìgbéjáde yìí padà sẹ́yìn nísinsìnyí</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>a ti ṣètò rẹ̀</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>a ti gbé e kọjá</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>a ti gbé e jáde</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>ń dúró ní ẹnubodè</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>àwọn tí a yàn</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>a ti pèsè rẹ̀</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>ṣetán</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>ń dúró de ìpele rẹ̀</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>a ti fi fáìlì ránṣẹ́</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>a ti ṣàyẹ̀wò rẹ̀</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>kùnà, ó dá ara rẹ̀ padà</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>kò yí padà</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>a kò tí ì gbé e jáde</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>kò ṣeé dé</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>Ẹ̀rọ jíjìnnà náà dáhùn.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>A kò lè lo ẹ̀rọ jíjìnnà náà nísinsìnyí.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done ti parí, %pending ní ìdúró, %failed kùnà</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>Títì</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>ìṣiṣẹ́ kan di títì mú níbẹ̀</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>òfo</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stage nínú %stages</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>Yan ẹ̀rọ jíjìnnà tí a ó ṣàyẹ̀wò.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>Kọ́kọ́ sàmì sí “Bẹ́ẹ̀ ni, yọ ẹ̀rọ jíjìnnà yìí kúrò”.</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>A kò lè yọ ẹ̀rọ jíjìnnà náà kúrò: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>A kò lè fi ẹ̀rọ jíjìnnà náà pamọ́: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>A kò lè ka fáìlì ètò náà: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>Yan ó kéré tán ẹ̀rọ jíjìnnà kan tàbí ẹgbẹ́ kan.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>Ẹ̀rọ jíjìnnà kan tí a yàn kò sí nínú àwọn ètò mọ́. Tún gbé ojú-ìwé náà wọlé.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>Kọ́kọ́ sàmì sí “Bẹ́ẹ̀ ni, gbé jáde nísinsìnyí”.</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>Ẹ̀rọ jíjìnnà FTP kò lè ṣiṣẹ́ àwọn ìṣílọ: yan “Gbígbé fáìlì nìkan”, tàbí fi í sílẹ̀.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>Àwọn ìṣílọ tí a ó gbé jáde jẹ́ àwọn ìdánimọ̀ ìṣílọ, tí a fi kọ́mà yà sọ́tọ̀.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>Ìgbéjáde náà ṣì ń lọ lọ́wọ́. Dúró kí ó parí.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>Ìgbéjáde yìí kò dúró ní ẹnubodè.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>Kò sí ẹ̀rọ jíjìnnà kankan tí ó lo ìgbéjáde yìí: kò sí ohun tí a ó yí padà sẹ́yìn.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>Kọ́kọ́ sàmì sí “Bẹ́ẹ̀ ni, gbé ìpele tókàn jáde nísinsìnyí”.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>Kọ́kọ́ sàmì sí “Bẹ́ẹ̀ ni, yí ìgbéjáde yìí padà sẹ́yìn nísinsìnyí”.</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>Ẹ̀rọ jíjìnnà tí ó ní ìdánimọ̀ %id ti wà tẹ́lẹ̀.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>Ibùdó jẹ́ nọ́ńbà láti 1 sí 65535.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>Àyíká jẹ́ ọ̀rọ̀ kan tí ó ní lẹ́tà, nọ́ńbà, - àti _ (alpha, dev, stage, beta, production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>Ẹgbẹ́ jẹ́ ọ̀rọ̀ kan tí ó ní lẹ́tà, nọ́ńbà, - àti _ (kì í ṣe - àti _ nìkan): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>A kò lè ka ìwé ẹ̀rí ìwọlé náà nísinsìnyí: %problem. Fi í pamọ́ sínú Ìgbékalẹ̀ &gt; Àwọn àṣírí (tàbí ṣètò oníyípadà náà) ṣáájú ìgbéjáde àkọ́kọ́.</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>Ẹ̀rọ jíjìnnà FTP ń gba fáìlì nìkan: ìgbéjáde sí i jẹ́ “Gbígbé fáìlì nìkan”, a sì ń fi ọwọ́ ṣiṣẹ́ àwọn ìṣílọ rẹ̀ níbẹ̀.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>Ẹ̀rọ jíjìnnà %id kò sí nínú settings/override/migration.ini.append.php; yọ ọ́ kúrò níbi tí a ti ṣètò rẹ̀.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>Ó wọlé lórí FTP ó sì ka index.php. A kò lè ka ipò ìṣílọ ẹ̀rọ jíjìnnà FTP.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>Ti yípadà</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>Ti ṣẹ̀dá</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Orúkọ</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Kíláàsì</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Abala</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>Olùdá</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Àkóónú àìpẹ́</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>Àkóónú tí a ṣẹ̀dá àti tí a yípadà láìpẹ́ jùlọ ní gbogbo sáìtì, tuntun jùlọ ní àkọ́kọ́: ohun tí àwọn àlejò fi ránṣẹ́, ohun tí a dá dúró fún àyẹ̀wò, àwọn àkọsílẹ̀ àkọ́kọ́ tí ń dúró de ìtẹ̀jáde. Yan àwọn ohun láti tú wọn sílẹ̀, dá wọn dúró, fi wọ́n pamọ́, fi wọ́n hàn, yọ wọ́n kúrò tàbí gbé wọn lọ sí abala tàbí ipò mìíràn.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>A kò lè ka àkójọ náà: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>A kò tíì ṣètò ìdádúró fún àyẹ̀wò, nítorí náà kò sí ohun tí a dá dúró, a kò sì pèsè àwọn iṣẹ́ ìdádúró. Ìgbésẹ̀ ìmúdójúìwọ̀n 6.0.15-review-hold ló ń ṣètò rẹ̀: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Ṣe àlẹ̀mọ́ àkójọ náà</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Láti</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Sí</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Déètì</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>Ti ṣẹ̀dá (ìtẹ̀jáde àkọ́kọ́)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Gbogbo</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Ipò</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Tí a tẹ̀jáde</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>Àkọsílẹ̀ àkọ́kọ́, a kò tẹ̀ ẹ́ jáde rí</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>Ní ìdúró (ń dúró de ìfọwọ́sí tàbí déètì kan)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>Nínú àpótí ìdọ̀tí</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Tí a dá dúró fún àyẹ̀wò</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>Tí a dá dúró</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>Tí a kò dá dúró</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>Tí a fi pamọ́</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>Tí ó hàn</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>Tí a fi ránṣẹ́ ní</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>Ìwọlé sáìtì èyíkéyìí</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>Ohun tí àyẹ̀wò ìwé ìṣirò kọ sílẹ̀ nìkan.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>Báyìí: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>Orúkọ ìwọlé tàbí ID olùmúlò.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Àlẹ̀mọ́</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>Pa àwọn àlẹ̀mọ́ rẹ́</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>Àwọn ohun</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from sí %to nínú %count</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Kò sí ohun kan</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(a kà á ní %ms ms)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>Àwọn iṣẹ́ lórí àwọn ohun tí a yàn</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>Yan gbogbo rẹ̀ ní ojú ìwé yìí</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>%count ni a yàn</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Iṣẹ́</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>Yan iṣẹ́ kan</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>Tú ìdádúró náà sílẹ̀</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Dá dúró fún àyẹ̀wò</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Fi pamọ́</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>Fihàn</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>Gbé lọ sí àpótí ìdọ̀tí</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>Paarẹ́</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>Yan abala</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>Yan ipò</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>Ìdí</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>Ó pọn dandan láti dá dúró; a ń tọ́jú rẹ̀ pẹ̀lú ìdádúró náà àti nínú àyẹ̀wò ìwé ìṣirò.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>Yan abala kan</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Ipò</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>Yan ipò kan</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>Lò ó fún àwọn tí a yàn</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>A ń yẹ ohun kọ̀ọ̀kan wò lòdì sí àwọn ìgbàláàyè tìrẹ. Gbígbé lọ sí àpótí ìdọ̀tí àti pípaarẹ́ ń béèrè pé kí o fìdí rẹ̀ múlẹ̀. Ohun tí ó ju %count lọ ń ṣiṣẹ́ ní abẹ́lẹ̀.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>Yan</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>Ìtẹ̀jáde</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>Tí a fi ránṣẹ́ láti</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>Yan %name</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>kò tíì</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(kò sí orúkọ)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>Nọ́mbà ID %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>Àkọsílẹ̀ àkọ́kọ́</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Ní ìdúró</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>Òbí rẹ̀ ló fi pamọ́</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>Tí a dá dúró: ìfiránṣẹ́ tuntun</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>Ẹ̀dà %version wà ní ìdúró</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>Ẹ̀dà %version ń lọ lọ́wọ́</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>Àkọsílẹ̀ àkọ́kọ́, ẹ̀dà %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>A ti tẹ ẹ̀dà %version jáde</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>A ṣètò rẹ̀ fún %date</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>kò sí àdírẹ́sì</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>a kò kọ ọ́ sílẹ̀</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>Kò sí ohun tí ó bá àwọn àlẹ̀mọ́ wọ̀nyí mu.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Fi gbogbo rẹ̀ hàn</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>Kò sí àkóónú kankan síbẹ̀.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Fún ojú ìwé kọ̀ọ̀kan</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Fi ohun %count hàn fún ojú ìwé kọ̀ọ̀kan.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says &quot;not recorded&quot;.</source>
+        <translation>Àdírẹ́sì àti aṣàwákiri ìfiránṣẹ́ kan wá láti inú atọ́ka àyẹ̀wò ìwé ìṣirò, tí kò sí níbí: ọ̀wọ̀n náà sọ pé &quot;a kò kọ ọ́ sílẹ̀&quot;.</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>Àdírẹ́sì àti aṣàwákiri ni àwọn tí àyẹ̀wò ìwé ìṣirò kọ sílẹ̀ fún ohun náà (ìdádúró aládàáṣe máa ń kọ wọ́n sílẹ̀ nígbà gbogbo; ìtẹ̀jáde àti ìṣẹ̀dá nìkan níbi tí a ti tàn án), gẹ́gẹ́ bí ètò ìpamọ́ rẹ̀ ṣe ń tọ́jú wọn.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: ohun %count</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>Pípaarẹ́ ń yọ àwọn ohun náà kúrò títí láé, pẹ̀lú gbogbo ẹ̀dà àti ìtúmọ̀ wọn. A kò lè dá a padà.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>Àwọn ohun náà ń lọ sí àpótí ìdọ̀tí, níbi tí a ti lè dá wọn padà.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>A ń yẹ ohun kọ̀ọ̀kan wò lòdì sí àwọn ìgbàláàyè tìrẹ; ohun tí ó ní àwọn ohun abẹ́ ni a fi sílẹ̀ bí ó ti wà (yọ ọ́ kúrò nínú ìgbékalẹ̀ àkóónú). A ó béèrè pé kí o jẹ́rìí pé ìwọ ni.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>Èyí ń ṣiṣẹ́ ní abẹ́lẹ̀: ojú ìwé ìlọsíwájú rẹ̀ yóò ṣí, a ó sì fi èsì ohun kọ̀ọ̀kan hàn nígbà tí ó bá parí.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>Àwọn ohun tí a yàn</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>àti %count mìíràn</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Fagilé</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>A kò ṣe nǹkankan</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Ìdí: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>Iṣẹ́ náà ṣì ń ṣiṣẹ́ ní abẹ́lẹ̀.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>Ìlọsíwájú rẹ̀</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>Iṣẹ́ abẹ́lẹ̀ náà kùnà: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Ti parí</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>A kọ̀ ọ́</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Ó kùnà</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>Fún ohun kọ̀ọ̀kan</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>Ohun kan</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Èsì</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Ìdí rẹ̀</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>Padà sí àkójọ náà</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Ìgbékalẹ̀</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>Kò sí nǹkan tí a ṣe</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>Fìdí rẹ̀ múlẹ̀</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>Yan iṣẹ́ kan.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>Yan ó kéré tán ohun kan.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>Yan ohun tí kò ju 1000 lọ ní ẹ̀ẹ̀kan.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>Sọ ìdí tí a fi dá àwọn ohun náà dúró.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>Yan abala náà.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>Yan ipò náà.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>A kò lè ka fọ́ọ̀mù náà.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>Pánẹ́ẹ̀lì ìṣàkóso</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>Àkóónú àìpẹ́</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>A kò lè ka àwọn ìkà náà: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Tí a dá dúró fún àyẹ̀wò</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>Tuntun lónìí</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>A kò tíì ṣètò ìdádúró fún àyẹ̀wò (ìgbésẹ̀ ìmúdójúìwọ̀n 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>Gbogbo àkóónú àìpẹ́</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>O kò ní ààyè láti ṣe àwọn iṣẹ́ ìṣàkóso àkóónú (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>Iṣẹ́ ìṣàkóso àkóónú náà kò pé: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>Ìṣàkóso àkóónú: %action lórí ohun %count</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%done nínú ohun %total: %ok ti parí, %refused ni a kọ̀, %failed kùnà</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok ti parí, %refused ni a kọ̀, %failed kùnà</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>Kò sí mọ́.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>Kò ní ibùdó (a kò tẹ̀ ẹ́ jáde).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>O kò ní ààyè láti fi pamọ́ (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>O kò ní ààyè láti fi hàn (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>A ti fi pamọ́ tẹ́lẹ̀.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>A kò fi pamọ́.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>A ti fi pamọ́.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>A ti fi hàn.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>Ó wà nínú àpótí ìdọ̀tí: sọ ọ́ di òfo tàbí dá a padà níbẹ̀.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>Àkọsílẹ̀ àkọ́kọ́ tí a kò tẹ̀ jáde rí kò lè lọ sí àpótí ìdọ̀tí: paarẹ́ rẹ̀.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>O kò ní ààyè láti paarẹ́ rẹ̀ (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>A ti paarẹ́.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>O kò ní ààyè láti yọ ọ́ kúrò (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>Ó ní àwọn ohun abẹ́: yọ ọ́ kúrò nínú ìgbékalẹ̀ àkóónú, níbi tí a ti tò wọ́n sí.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>A kò yọ ọ́ kúrò (ìṣàn iṣẹ́ kan lè dá ìyọkúrò náà dúró).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>A ti gbé e lọ sí àpótí ìdọ̀tí.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>Abala náà kò sí.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>Ó ti wà nínú abala yìí tẹ́lẹ̀.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>O kò ní ààyè láti yan abala yìí (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>A kò yan abala náà.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>A ti yan abala.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>Ipò náà kò sí.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>Ó ti wà ní ipò yìí tẹ́lẹ̀.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>O kò ní ààyè láti yan ipò yìí (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>A kò yan ipò náà (ìṣàn iṣẹ́ kan lè dá àyípadà náà dúró).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>A ti yan ipò.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>Kò sí irú iṣẹ́ bẹ́ẹ̀.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>A kò ṣètò ìdádúró fún àyẹ̀wò (ìgbésẹ̀ ìmúdójúìwọ̀n 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>Sọ ìdí tí a fi dá a dúró.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>A ti dá a dúró tẹ́lẹ̀.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>O kò ní ààyè láti dá a dúró (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>A kò gbé ìdádúró náà kalẹ̀ (ìṣàn iṣẹ́ kan lè dá àyípadà náà dúró).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>A ti dá a dúró.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>A kò dá a dúró.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>O kò ní ààyè láti tú u sílẹ̀ (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>A kò tú ìdádúró náà sílẹ̀ (ìṣàn iṣẹ́ kan lè dá àyípadà náà dúró).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>A ti tú u sílẹ̀; ó ṣì wà ní ìpamọ́: o kò ní ààyè láti fi hàn (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>A ti tú u sílẹ̀.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>Gbogbo ibi àfojúsùn</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Ìtẹ̀jáde tó kẹ́yìn</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>Tẹ ẹ̀dà aláìyípadà ọ̀fẹ́ ti sáìtì rẹ jáde lórí GitHub Pages:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Àwọn ojú ìwé tó ti gbó</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Ìtẹ̀jáde aláìyípadà</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>A ti pa ìtẹ̀jáde aláìyípadà.</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Ibi àfojúsùn</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>A kò lè ka àwọn ibi àfojúsùn: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>iṣẹ́ kan ń lọ lọ́wọ́</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>ìkọ́ tí ó yẹ kí a ṣàyẹ̀wò</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>fi èyí pamọ́</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>ṣẹ̀dá ibi àfojúsùn</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>láéláé</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>ka ìkẹ́kọ̀ọ́ náà</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>%added ti fikún, %changed ti yípadà, %removed ti yọ kúrò</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%bytes nínú %limit (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>%count mìíràn kò sí nínú àkójọ.</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>A ti kọ ojú ìwé %pages</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path jẹ́ %size, ó ju ohun tí agbàlejò gbà fún fáìlì kan lọ.</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>%percent % ti ààlà náà</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds ìṣ</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag ni ìtẹ̀jáde tí sáìtì náà ní báyìí.</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: iṣẹ́ %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>/repository/ fún sáìtì iṣẹ́ akanṣe GitHub; òfo fún dómèènì àdáni tàbí sáìtì olùlò.</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. Sáìtì náà</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. Agbàlejò náà</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. Wíwọlé sí ibi ìpamọ́</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. Ibi ìpamọ́ náà</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. Àwọn ìjápọ̀ àti ọ̀nà ìpìlẹ̀</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. Dómèènì tìrẹ</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. Ohun tí ìkọ́ náà ní nínú</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. Ìgbà tí a ó tẹ̀ ẹ́ jáde</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. Ṣàyẹ̀wò kí o sì fi pamọ́</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>Sáìtì iṣẹ́ akanṣe GitHub wà ní abẹ́ /&lt;repository&gt;/; àwọn ìjápọ̀ alábàátan ń ṣiṣẹ́ níbẹ̀ àti níbikíbi mìíràn.</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>Ìkọ́ kan ń mú gbogbo ojú ìwé %site wá bí àlejò tí kò wọlé ṣe ń rí i, ó ń tún àwọn ìjápọ̀ kọ, ó ń ṣe ẹ̀dà àwọn fáìlì, ó sì ń kọ èsì rẹ̀ sí fóldà ibi àfojúsùn. A kò ní tẹ ohunkóhun jáde títí tí o bá ṣàyẹ̀wò ìkọ́ náà tí o sì tẹ Tẹ̀jáde.</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>Ìfihàn cron kan, fún àpẹẹrẹ 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>A tọ́jú kọ́kọ́rọ́ ìfiránṣẹ́ gẹ́gẹ́ bí àṣírí %secret.</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>Kọ́kọ́rọ́ ìfiránṣẹ́ jẹ́ kí ìfisórí yìí tì sókè sí ibi ìpamọ́ kan ṣoṣo lórí SSH, kì í ṣe ibòmíràn. Ìdajì àdáni rẹ̀ wà nínú Ìgbékalẹ̀ &gt; Àwọn àṣírí; ìdajì gbangba nìkan ni a fihàn.</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>Kọ́kọ́rọ́ ìfiránṣẹ́ tí a ṣẹ̀dá fún ibi àfojúsùn yìí</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>Kọ́kọ́rọ́ ìfiránṣẹ́ ń wọlé lórí SSH: yí àdírẹ́sì git padà sí ti SSH (git@github.com:owner/repo.git).</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>Iṣẹ́ kan ń lọ lọ́wọ́, tí %user bẹ̀rẹ̀</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>Iṣẹ́ kan ti ibi àfojúsùn yìí ṣì ń lọ (%detail). Dúró kí ó parí.</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>Iṣẹ́ kan ti ibi àfojúsùn yìí ṣì ń lọ. Dúró kí ó parí.</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>Ìjápọ̀ láti ojú ìwé /news/ sí ojú ìwé /about-us/team yóò jẹ́ kíkọ bí</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>A ti ṣẹ̀dá kọ́kọ́rọ́ ìfiránṣẹ́ tuntun. Fi ìdajì gbangba rẹ̀ kún ibi ìpamọ́ náà báyìí.</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>A kì í tẹ ojú ìwé tí ó ṣì ní àbájáde ìṣàtúnṣe àṣìṣe, tókìnì fọ́ọ̀mù tàbí id ìgbà lẹ́yìn ìyọkúrò jáde láéláé.</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>Ìyípadà sẹ́yìn wà fún àwọn amòye: sàmì sí &quot;Mo mọ ohun tí èyí ń yí padà&quot; kí o sì tún tẹ orúkọ àmì náà.</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>Sáìtì kan lè tó %site, fáìlì kan lè tó %file, pẹ̀lú ìrìnnà tó tó 100 GB lóṣù. Lórí ètò ọ̀fẹ́, ibi ìpamọ́ gbọ́dọ̀ jẹ́ ti gbangba. GitHub Pages kò wà fún ṣọ́ọ̀bù tàbí àwọn ìdúnàádúrà ìṣòwò mìíràn.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>Ibi àfojúsùn jẹ́ sáìtì kan tí a tẹ̀ jáde sí ibi ìpamọ́ git kan. A kò kọ́ tàbí tẹ ohunkóhun jáde níbí: Fi pamọ́ ń kọ àwọn ètò sí settings/override/staticcache.ini.append.php.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>Ibi àfojúsùn jẹ́ sáìtì kan tí a tẹ̀ jáde sí ibì kan, fún àpẹẹrẹ sáìtì gbangba rẹ lórí GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>Tókìnì kan láti Ìgbékalẹ̀ &gt; Àwọn àṣírí</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>Ìṣàn iṣẹ́ kan ti ibi ìpamọ́ ni ó ń tẹ̀ ẹ́ jáde.</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>Fi kọ́kọ́rọ́ gbangba yìí kún ibi ìpamọ́ náà pẹ̀lú àṣẹ kíkọ. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, sàmì sí Allow write access.</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>Ti fikún</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>Agbàlejò git mìíràn</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>Ìlànà mìíràn ń ṣiṣẹ́ lórí ibi àfojúsùn yìí: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>Padà sẹ́yìn</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>Ọ̀nà ìpìlẹ̀</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Ṣáájú</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>Ní abẹ́ ọ̀nà ìpìlẹ̀ kan</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>Ẹ̀ka</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>Àwọn ìjápọ̀ tó já</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>Àwọn ìjápọ̀ tó já nínú ìkọ́ náà</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>Ìkọ́</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>Ìkọ́ %id láti ọwọ́ %user</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>Kọ́ %name</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>Kọ́ báyìí</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>Ìkọ́ tí ó yẹ kí a ṣàyẹ̀wò</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Láti ọwọ́</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>Pẹ̀lú ọwọ́, níbí</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Fagilé</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Yí padà</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>Ti yípadà</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Àwọn àyípadà</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>Kọ́kọ́ ṣàyẹ̀wò rẹ̀</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Ṣàyẹ̀wò àwọn ètò wọ̀nyí</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>Ṣàyẹ̀wò ohun tí ìkọ́ náà yí padà, wò ó, lẹ́yìn náà tẹ̀ ẹ́ jáde tàbí jù ú nù.</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>Yan ìtẹ̀jáde tí o fẹ́ padà sí.</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>Yóò dé pẹ̀lú ìtújáde tó ń bọ̀.</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Ìfisílẹ̀</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>Àwọn ìfisílẹ̀</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>Ó ń fi ìkọ́ náà sílẹ̀, ó ń fi àmì sí i, ó sì ń tì í sókè sí %remote. A kì í fi agbára tì sókè láéláé; o lè padà sí ìtẹ̀jáde èyíkéyìí lẹ́yìn náà.</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>Ní ìfiwéra pẹ̀lú fóldà ti tẹ́lẹ̀: %added ti fikún, %changed ti yípadà, %removed ti yọ kúrò, %unchanged kò yípadà.</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>Ní ìfiwéra pẹ̀lú ìtẹ̀jáde tó kẹ́yìn.</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Ìwé ẹ̀rí ìwọlé</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>Dómèènì àdáni</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>A máa ń yọ àbájáde ìṣàtúnṣe àṣìṣe, àwọn tókìnì fọ́ọ̀mù, àwọn id ìgbà àti àwọn nonce kúrò nígbà gbogbo.</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>Kọ́kọ́rọ́ ìfiránṣẹ́</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>Kọ́kọ́rọ́ ìfiránṣẹ́ ti %name</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Pa tì</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>Pa ìkọ́ náà tì</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>Dómèènì</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>Òfo: àdírẹ́sì sáìtì náà. Bí bẹ́ẹ̀ kọ́, àdírẹ́sì inú ti sáìtì kan náà.</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Ti parí</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>Gbogbo ìjápọ̀ ń bẹ̀rẹ̀ pẹ̀lú ọ̀nà ìpìlẹ̀.</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>Ìtẹ̀jáde kọ̀ọ̀kan jẹ́ ìfisílẹ̀ pẹ̀lú àmì static/%id/&lt;n&gt;. Pípadà sẹ́yìn ń ṣẹ̀dá ìfisílẹ̀ tuntun pẹ̀lú àwọn fáìlì ìtẹ̀jáde ti tẹ́lẹ̀: ìtàn ń wà, kò sí àmì tí ó yí ipò padà, a kò sì fi agbára ṣe ohunkóhun.</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>Àwọn àfikún</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>Mú àwọn ojú ìwé wá láti</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Fáìlì</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>Àwọn fáìlì</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>Àwọn fáìlì tó sọnù</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>Àwọn fáìlì ti</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>Àwọn fáìlì tí a kò lè kó jọ</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>Ìtẹ̀ka</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>Fóldà</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>Fún àdírẹ́sì SSH. A ó ṣẹ̀dá kọ́kọ́rọ́ náà lẹ́yìn ìfipamọ́; ìwọ ni yóò fi ìdajì gbangba rẹ̀ kún ibi ìpamọ́ náà.</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>Fún àdírẹ́sì https://. GitHub: tókìnì fine-grained pẹ̀lú àṣẹ kíkà àti kíkọ Contents lórí ibi ìpamọ́ náà.</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>Fún àwọn amòye. Sáìtì gbangba yóò yí padà ní kété tí ìtìsókè bá parí.</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Àwọn fọ́ọ̀mù</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>Ìgbàlejò ọ̀fẹ́ láti ibi ìpamọ́ GitHub kan.</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>Láti ẹ̀ka náà</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>Àdírẹ́sì git</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages gba sáìtì tó tó %site àti fáìlì tó tó %file láàyè.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>Àwọn ààlà GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages ń tẹ àwọn fáìlì jáde bí wọ́n ṣe wà (ó pọndandan fún àwọn fáìlì tí ó bẹ̀rẹ̀ pẹ̀lú _).</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub ń pèsè ẹ̀ka náà bí a ṣe tì í sókè. Ti àtilẹ̀wá.</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, sáfá tìrẹ: ibi ìpamọ́ git èyíkéyìí.</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>Padà sí ìtẹ̀jáde ti tẹ́lẹ̀</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Ìrànlọ́wọ́</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>Ìrànlọ́wọ́ pẹ̀lú alámọ̀ràn ìgbékalẹ̀</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>Fi wọ́n pamọ́</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Ìtàn</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>Ìtàn %name</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Agbàlejò</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>Bí GitHub Pages ṣe ń gba ìkọ́ náà</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>Mo ti ṣàyẹ̀wò àwọn àyípadà</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>Mo mọ ohun tí èyí ń yí padà</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>Ìdánimọ̀</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>A ti pa á: a kò lè kọ́ ohunkóhun títí tí a ó fi tàn án.</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>Ó ń ṣiṣẹ́ lẹ́yìn gẹ́gẹ́ bí %user; o lè pa ojú ìwé yìí.</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>Iṣẹ́ %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>A tọ́jú rẹ̀ gẹ́gẹ́ bí àṣírí %secret.</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Irú</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Ìtẹ̀jáde tó kẹ́yìn</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>Yọ àwọn ojú ìwé wọ̀nyí kúrò</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>Yọ àwọn abala wọ̀nyí kúrò</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Àwọn ìjápọ̀</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>Àwọn ìjápọ̀ tí a tún kọ</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>Sáìtì tó ń ṣiṣẹ́</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>Wo ìkọ́ náà</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>Àwọn lẹ́tà kékeré, àwọn díjíìtì, _ àti -, fún àpẹẹrẹ github-public. Ó ń fún fóldà àti àwọn àmì (static/&lt;id&gt;/&lt;n&gt;) ní orúkọ, a kò sì lè yí i padà lẹ́yìn náà.</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>Ṣẹ̀dá kọ́kọ́rọ́ tuntun</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>Ṣẹ̀dá ibi àfojúsùn</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>Ṣẹ̀dá kọ́kọ́rọ́ náà</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>Kọ́kọ́ ṣẹ̀dá ibi ìpamọ́ náà lórí agbàlejò; èyí tí ó ṣófo dára.</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>Àkójọ fáìlì</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Ìfiránṣẹ́</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>Ọ̀pọ̀ jùlọ àwọn ojú ìwé</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Orúkọ</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>Orúkọ tókìnì náà nínú Ìgbékalẹ̀ &gt; Àwọn àṣírí</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>Ibi àfojúsùn tuntun</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Tókàn</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>Rárá</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>Kò sí ìfisílẹ̀ kankan síbẹ̀.</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>A kò ṣẹ̀dá kọ́kọ́rọ́ kankan: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>A kò rí bínárì ìlà àṣẹ php kankan. Ṣètò migration.ini [AdminSettings] PhpCliPath sí ọ̀nà rẹ̀ kíkún.</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>Kò sí àmì kankan síbẹ̀.</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>Kò sí ibi àfojúsùn kankan síbẹ̀.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Kò sí</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>Kò sí nínú ìkọ́ náà.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>A kò tíì tẹ ohunkóhun jáde.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>A kò tíì tẹ ohunkóhun jáde: gbogbo fáìlì jẹ́ tuntun.</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>Ìfitóniléti</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>Ní ìbámu pẹ̀lú ètò àkókò</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>Lórí kọ́ńsóòlù</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>Lórí sáfá: ./console exp:static:serve %id ń pèsè rẹ̀ ní ọ̀nà kan náà.</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>Ọ̀nà kan lórí ìlà kọ̀ọ̀kan, * bá apá èyíkéyìí mu: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>Orúkọ nìkan ni a tọ́jú pẹ̀lú ibi àfojúsùn; tókìnì tàbí kọ́kọ́rọ́ fúnra rẹ̀ wà nínú Ìgbékalẹ̀ &gt; Àwọn àṣírí, kò sì ní fara hàn nínú ìwé ìṣẹ̀lẹ̀ láéláé.</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>Ohun tí àwọn ojú ìwé dárúkọ nìkan</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>Pẹ̀lú tókìnì nìkan. env:NAME ń ka àyípadà àyíká ti sáfá dípò rẹ̀.</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>Ṣí awotẹ́lẹ̀ náà</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>Ó ń ṣí ìkọ́ náà bí agbàlejò yóò ṣe pèsè rẹ̀, láti fóldà ibi àfojúsùn. Ìjápọ̀ náà yóò ṣiṣẹ́ fún ọ fún wákàtí kan.</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>Àṣàyàn. Òfo: ohun tí a tẹ̀ jáde.</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>Àṣàyàn. Pẹ̀lú dómèènì, a ó pèsè sáìtì náà ní gbòǹgbò rẹ̀.</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Àbájáde</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>Àwọn ojú ìwé</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>Àwọn ojú ìwé ibi àfojúsùn</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>Àwọn ojú ìwé tí a kọ̀</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>Ìṣiṣẹ́ lẹ́yìn</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Awotẹ́lẹ̀</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>Awotẹ́lẹ̀ àti ìtẹ̀jáde</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>Awotẹ́lẹ̀ àti ìtẹ̀jáde %name</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>Wo awotẹ́lẹ̀ ìkọ́ náà</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Ìtẹ̀síwájú</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>Àdírẹ́sì gbangba</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>Kọ́kọ́rọ́ gbangba</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>Tẹ̀jáde</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>Tẹ ẹ̀dà aláìyípadà ti sáìtì kan jáde sí GitHub Pages tàbí agbàlejò git èyíkéyìí: kọ́ ọ, ṣàyẹ̀wò àwọn àyípadà, tẹ̀ ẹ́ jáde, kí o sì padà sí ìtẹ̀jáde ti tẹ́lẹ̀ nígbà tí o bá nílò rẹ̀.</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>Ìtẹ̀jáde láti padà sí</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>Àwọn ìtẹ̀jáde</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Ìtìsókè</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>Ka ìkẹ́kọ̀ọ́ náà</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Àkọsílẹ̀</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Ti kọ̀</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>Alábàátan</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Tún gbé wọlé</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>A ti yọ kúrò</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>Rọ́pò kọ́kọ́rọ́ náà: èyí àtijọ́ yóò dẹ́kun iṣẹ́</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Ìròyìn</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>Ìròyìn ìkọ́ náà</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Ibi ìpamọ́</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Àyẹ̀wò</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>Àyẹ̀wò ń ṣàyẹ̀wò gbogbo ètò, ó sì ń fi àwọn ìlà tí a ó kọ hàn. A kò tíì fi ohunkóhun pamọ́.</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Yí padà sẹ́yìn</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Ìyípadà sẹ́yìn</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Fi pamọ́</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>Ètò àkókò</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>Ojú ìwé ìwákiri</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>Àwọn id abala, tí a fi kọ́mà yà sọ́tọ̀.</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>Fi wọ́n ránṣẹ́ sí sáìtì tó ń ṣiṣẹ́</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>Ètò</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Àwọn ètò</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>Àwọn ètò %name</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Ìgbékalẹ̀</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Ìgbékalẹ̀ &gt; Àwọn àṣírí</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>A ń fihàn nínú àwọn àkójọ, fún àpẹẹrẹ &quot;Sáìtì gbangba lórí GitHub Pages&quot;.</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>Wíwọlé pẹ̀lú GitHub App yóò dé pẹ̀lú ìṣọ̀kan GitHub.</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>Sáìtì</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>Sáìtì láti tẹ̀ jáde</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Ìwọ̀n</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>Ìwọ̀n àti ààlà</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>Ìwọ̀n ìkọ́ náà</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Àwọn ojú ìwé tó ti gbó</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Ti bẹ̀rẹ̀</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>%user ló bẹ̀rẹ̀ rẹ̀ ní %time.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Ipò</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Ìtẹ̀jáde aláìyípadà</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>A ti pa ìtẹ̀jáde aláìyípadà</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>A ti pa ìtẹ̀jáde aláìyípadà.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>A ti pa ìtẹ̀jáde aláìyípadà. Kọ́kọ́ tàn án nínú Ìgbékalẹ̀ &gt; Ìtẹ̀jáde aláìyípadà.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>A ti tan ìtẹ̀jáde aláìyípadà.</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>Ìgbésẹ̀ %step nínú %total</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Àwọn ìgbésẹ̀</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>Ìyọkúrò</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Pa á</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Tan án</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>Tan ìtẹ̀jáde aláìyípadà</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Àmì</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>Àwọn àmì</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Ibi àfojúsùn</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>A lè ṣẹ̀dá àti yí àwọn ibi àfojúsùn padà, ṣùgbọ́n a kò ní kọ́ tàbí tẹ ohunkóhun jáde títí tí a ó fi tàn án.</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>Ó ń sọ fún àwọn ẹ̀rọ ìwákiri ohun tí wọn yóò kà.</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>A kò lè ju ìkọ́ náà nù: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>Ìkọ́ náà dà bí ìtẹ̀jáde tó kẹ́yìn: kò sí ohun tí a ó tẹ̀ jáde.</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>A ti ju ìkọ́ náà nù: fóldà náà tún ní ìtẹ̀jáde tó kẹ́yìn nínú.</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>Àwọn ti àtilẹ̀wá bá ọ̀pọ̀ jùlọ sáìtì mu.</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>Fóldà náà ní ìkọ́ kan tí a kò tíì tẹ̀ jáde; ìkọ́ tuntun yóò rọ́pò rẹ̀.</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>A kò lè kọ sí fóldà àwọn iṣẹ́: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>A kò lè pèsè iṣẹ́ náà sílẹ̀: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>A kò lè bẹ̀rẹ̀ iṣẹ́ náà.</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>Iṣẹ́ náà ti parí. A ń gbé ìròyìn rẹ̀ wọlé.</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>Iṣẹ́ náà nílò olùlò tí ó ti wọlé.</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>A bẹ̀rẹ̀ iṣẹ́ náà ṣùgbọ́n kò jábọ̀ id ìlànà rẹ̀. Ṣàyẹ̀wò %detail.</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>Kọ́kọ́rọ́ náà</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>Fáìlì tó tóbi jùlọ: %path, %size.</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Àwọn ìlà tí a ó kọ</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>Àkójọ àwọn ojú ìwé fún àwọn ẹ̀rọ ìwákiri; ó nílò àdírẹ́sì gbangba.</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>A ń mú àwọn ojú ìwé wá bí àlejò tí kò wọlé ṣe ń rí wọn. A kì í fi àwọn ìwọlé sáìtì ìṣàkóso àti àtúnṣe hàn láéláé.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>A kò lè tẹ̀lé ìtẹ̀síwájú náà. Tún ojú-ewé náà gbé wọlé láti rí bí iṣẹ́ náà ṣe ń lọ.</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>Ìdajì gbangba kọ́kọ́rọ́ náà:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>Gbòǹgbò ẹ̀ka náà</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>A kò tíì ṣètò ibi ìpamọ́ àṣírí (./console exp:upgrade --apply ni yóò ṣẹ̀dá tábìlì rẹ̀), nítorí náà a kò lè tọ́jú kọ́kọ́rọ́ kankan.</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>Sáfá náà ń wọlé fúnra rẹ̀ (pẹ̀lú kọ́kọ́rọ́ SSH tirẹ̀ tàbí olùrànlọ́wọ́ ìwé ẹ̀rí), tàbí ibi ìpamọ́ náà wà lórí sáfá yìí.</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>A kò lè kọ ètò náà: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Àwọn ètò náà tọ̀nà. A ó kọ àwọn ìlà wọ̀nyí:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>A kò lè ka fáìlì ètò náà: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>Sáìtì náà yóò padà sí àwọn fáìlì ìtẹ̀jáde yẹn; ìkọ́ tí a kò tíì tẹ̀ jáde gbọ́dọ̀ kọ́kọ́ jẹ́ títẹ̀ jáde tàbí jíjù nù.</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>Ojú ìwé tí sáìtì náà ní fún àwọn àdírẹ́sì tí kò sí.</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>A kò lè fi ibi àfojúsùn náà pamọ́: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>Ibi àfojúsùn náà kò tíì wọlé pẹ̀lú kọ́kọ́rọ́ yìí: yan &quot;Kọ́kọ́rọ́ ìfiránṣẹ́ tí a ṣẹ̀dá fún ibi àfojúsùn yìí&quot; nínú àwọn ètò rẹ̀.</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>A kò lè ka àwọn ibi àfojúsùn: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>Kò tíì sí ìkọ́ kankan láti ṣàyẹ̀wò.</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>Ìfisórí yìí kò ní ìwọlé sáìtì iwájú. A kì í tẹ àwọn ìwọlé sáìtì ìṣàkóso àti àtúnṣe jáde láéláé.</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>Ojú ìwé yìí ń tẹ̀lé iṣẹ́ náà bí ó ṣe ń lọ; ó ń bá a lọ lẹ́yìn nígbà tí a bá pa ojú ìwé náà.</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>Ibi àfojúsùn yìí kò tíì ní kọ́kọ́rọ́ ìfiránṣẹ́.</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>A kò tíì kọ́ ibi àfojúsùn yìí níbí.</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>Ibi àfojúsùn yìí ní ọ̀kan.</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>Ó ń ju ìkọ́ yìí nù: fóldà náà tún ní ìtẹ̀jáde tó kẹ́yìn nínú. Sáìtì tó ń ṣiṣẹ́ kò ní yí padà.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>Kọ́kọ́ sàmì sí &quot;Mo ti ṣàyẹ̀wò àwọn àyípadà&quot;.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Àkókò</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>Àwọn ohun ìbẹ̀rẹ̀</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>Tún tẹ orúkọ àmì náà</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>Kò yípadà</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>Webhook</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Kí ni</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>Ohun tí ó yí padà</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>Ohun tí fáìlì kọ̀ọ̀kan jẹ́; a máa ń kọ ọ́ nígbà gbogbo.</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>Ohun tí iṣẹ́ náà ṣe àti àkọsílẹ̀ rẹ̀. Iṣẹ́ tí a bẹ̀rẹ̀ níbí ń bá a lọ lẹ́yìn nígbà tí a bá pa ojú ìwé yìí.</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>Ohun tí iṣẹ́ náà tẹ̀ jáde gẹ́gẹ́ bí àṣìṣe</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>Ohun tí àwọn ojú ìwé dárúkọ, àti gbogbo àwòrán àkóónú tí a tẹ̀ jáde</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Ìgbà wo</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>Nígbà tí ìtẹ̀jáde bá kùnà</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>Nígbà tí ìtẹ̀jáde bá yọrí</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>Nígbà tí a bá tẹ àkóónú jáde</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>Ibi tí àwọn ìjápọ̀ sí ohun tí ẹ̀dà náà kò ní ń lọ (ìwákiri, ìwọlé).</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>Ibi tí a ti ń pèsè ẹ̀dà aláìyípadà náà.</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>Sáìtì wo ni a ń tẹ̀ jáde, àti orúkọ ibi àfojúsùn náà.</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>Ń ṣiṣẹ́ ní abẹ́ ọ̀nà èyíkéyìí. Ti àtilẹ̀wá.</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>A máa ń kọ ọ́ nígbàkúùgbà tí a bá ṣètò dómèènì àdáni.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>Bẹ́ẹ̀ ni</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>O lè máa kọ́ àti tẹ̀jáde pẹ̀lú ọwọ́ níbí àti lórí kọ́ńsóòlù nígbà gbogbo.</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>orúkọ nìkan; iye náà wà nínú Ìgbékalẹ̀ &gt; Àwọn àṣírí</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>ní abẹ́ %path</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>parí láìsí ìròyìn</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>àfikún</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>kùnà</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>fáìlì</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages, tàbí main pẹ̀lú fóldà docs.</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>agbàlejò git</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (pẹ̀lú tókìnì) tàbí git@github.com:owner/repo.git (pẹ̀lú kọ́kọ́rọ́ ìfiránṣẹ́); kò gbọdọ̀ ní ọ̀rọ̀ aṣínà tàbí tókìnì nínú láéláé.</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/, fún máàpù sáìtì àti àwọn ìjápọ̀ ojúlówó.</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>àwòrán</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>láéláé</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>rárá</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>kò sí ibi ìtìsókè</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>kò sí: àwọn ìfisílẹ̀ wà nínú fóldà</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>kò sí: kò sí ohun tí ó yí padà</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>a kò tì í sókè</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>kò sí ohun tí ó yí padà</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>ojú ìwé</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>yọrí</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>A ti pa proc_open, nítorí náà a kò lè bẹ̀rẹ̀ iṣẹ́ níbí. Lo ./console exp:static:build lórí sáfá.</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>ìtẹ̀jáde</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>ti tẹ̀ jáde</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>ìtìsókè ń dúró</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>ti tì sókè</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>ti kọ̀</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>alábàátan</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>ìyípadà sẹ́yìn</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>ti yí padà sẹ́yìn</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>ń ṣiṣẹ́</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>fóldà nìkan</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: a kọ ọ́ sí fáìlì CNAME. Darí DNS dómèènì náà sí agbàlejò bí ó ṣe ṣàlàyé; HTTPS lè gba àkókò díẹ̀ kí ó tó bẹ̀rẹ̀.</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>bẹ́ẹ̀ ni, a kò tíì tẹ̀ ẹ́ jáde</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>GitHub App kan</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>Workflow kan ti ibi ìpamọ́ ni ó ń tẹ̀ ẹ́ jáde. Ìkọ́ ń kọ fáìlì workflow; fi fódà náà sílẹ̀ ní òfo.</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>Lẹ́yìn tí o bá fi ibi àfojúsùn pamọ́ pẹ̀lú ibi ìpamọ́ GitHub àti tókìnì tàbí GitHub App, ìgbésẹ̀ yìí lè ṣẹ̀dá ibi ìpamọ́ náà kí ó sì tan GitHub Pages. Bí bẹ́ẹ̀ kọ́, kọ́kọ́ ṣẹ̀dá ibi ìpamọ́ náà lórí GitHub; èyí tó ṣófo dára.</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>Ẹ̀ka tàbí GitHub Actions?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>Ṣàyẹ̀wò DNS</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>Ṣẹ̀dá ibi ìpamọ́ bí kò bá sí</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>Ṣẹ̀dá ibi ìpamọ́ lórí GitHub kí o sì tan GitHub Pages nínú ètò rẹ̀ (Settings &gt; Pages).</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>Ó ń ṣẹ̀dá ibi ìpamọ́ %repo bí kò bá sí (bí a bá béèrè), ó ń tan GitHub Pages láti inú ẹ̀ka tàbí láti GitHub Actions bí a ṣe fi pamọ́, ó sì ń ṣètò dómèènì àdáni àti HTTPS. Ó ń lo ètò tí a fi pamọ́: kọ́kọ́ fi àwọn àyípadà pamọ́.</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>Àlàyé lórí GitHub</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>Kọ́kọ́ tẹ dómèènì àdáni sí i.</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>A máa ń kọ́kọ́ ṣàyẹ̀wò push kọ̀ọ̀kan sí àwọn ààlà wọ̀nyí.</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>Fún àdírẹ́sì https:// lórí GitHub. App tí a ṣètò fún ìfisílẹ̀ yìí ni ó ń wọlé; ó nílò id ìfisílẹ̀.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages ń pèsè ibi ìpamọ́ àdáni lórí ètò ìsanwó nìkan.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: subdomain (www.example.com) nílò àkọsílẹ̀ CNAME sí &lt;owner&gt;.github.io; apex domain (example.com) nílò àwọn àkọsílẹ̀ A %ips.</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>Id ìfisílẹ̀ GitHub App</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>Ìkọ́ Pages tó kẹ́yìn</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>Àwọn ààlà àti àdéhùn</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>Ó pọndandan fún GitHub Pages lórí ètò ọ̀fẹ́.</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>Lórí GitHub</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>Pẹ̀lú GitHub App nìkan: nọ́mbà tó wà ní òpin àdírẹ́sì ìfisílẹ̀ App lórí GitHub. App fúnra rẹ̀ ni a ṣètò nínú staticcache.ini (GitHubAppId, GitHubAppKey).</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>Àdáni</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>Gbangba</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>Kọ́kọ́ fi ibi àfojúsùn pamọ́ pẹ̀lú ibi ìpamọ́ GitHub àti tókìnì tàbí GitHub App.</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>Ṣètò àwọn àkọsílẹ̀ wọ̀nyí lọ́dọ̀ olùpèsè dómèènì náà:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>Ṣètò lórí GitHub</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>DNS ti %domain kò tíì tọ́ka sí GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>DNS ti %domain ń tọ́ka sí GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>Ìsopọ̀ GitHub kò sí níbí: %problem. Títẹ̀jáde sí ẹ̀ka ṣì ń ṣiṣẹ́; tan GitHub Pages nínú ètò ibi ìpamọ́ náà.</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>Àwọn ìgbésẹ̀ GitHub kò sí fún ibi àfojúsùn yìí: %problem.</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>A ń fi ipò GitHub Pages hàn nígbà tí tókìnì tàbí GitHub App bá jẹ́ ìwé ẹ̀rí ìwọlé.</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>Lo dómèènì tìrẹ</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>Èwo ni kí o yàn: tókìnì, kọ́kọ́rọ́ ìfiránṣẹ́ tàbí GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>Pẹ̀lú ibi ìpamọ́ GitHub àti tókìnì tàbí GitHub App, alámọ̀ràn ìgbékalẹ̀ lè ṣẹ̀dá ibi ìpamọ́, tan GitHub Pages kí ó sì ṣètò dómèènì fún ọ (ìgbésẹ̀ 4).</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>ó ń kọ́</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>ó ti kọ́</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>láti GitHub Actions</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>láti ẹ̀ka %branch</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>kò tíì sí</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>a kò rí i</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>ó ti pa</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>àdáni</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>gbangba</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>ó wà nínú ìlà</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>a kò mọ̀</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%count lórí àwọn ojú ìwé %pages:</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>Fáìlì .gz (àti .br) lẹ́gbẹ̀ẹ́ fáìlì ọ̀rọ̀ kọ̀ọ̀kan, fún àwọn olùgbàlejò tó ń pèsè wọn.</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>Ojú ìwé kékeré fún gbogbo àdírẹ́sì àtijọ́ àti orúkọ mìíràn ti ojú ìwé, kí àwọn ìsopọ̀ àtijọ́ lè máa ṣiṣẹ́.</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>A máa ń kọ ọ́ nígbà gbogbo nígbà tí GitHub Actions bá fi sáìtì náà ránṣẹ́.</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>ID SPDX bíi CC-BY-4.0, tàbí ọ̀rọ̀ náà fúnra rẹ̀.</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>Apẹ̀rẹ̀</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>Àwọn ìpè sí olùpèsè</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Àwọn àtẹ̀ranṣẹ</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>Àwọn fọ́ọ̀mù tó ń kó ìròyìn jọ</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>Ìṣàn iṣẹ́ GitHub Actions</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>Àlàfo díẹ̀ àti kò sí àtẹ̀ranṣẹ nínú àwọn ojú ìwé.</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>Ìwé-àṣẹ àkóónú</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Wọlé</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>Minify</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>Àwọn fọ́ọ̀mù mìíràn</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>Precompress</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>Àwọn ojú ìwé àtúnjúwe</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>Àwọn ojú ìwé àtúnjúwe: %count.</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Wá</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>Atọ́ka ìwákiri: ojú ìwé %pages nínú %languages.</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>Àwọn ojú ìwé ìfọwọ́sí àti àwọn àkọsílẹ̀ tí a sọ orúkọ wọn nípa hash àkóónú wọn, kí àwọn aṣàwákiri lè pa wọ́n mọ́.</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>Àwọn ojú ìwé tó yípadà, ìṣẹ́jú díẹ̀ lẹ́yìn ìyípadà tó gbẹ̀yìn (apá cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>Ìwé-àṣẹ àkóónú, láti inú pápá tó wà nísàlẹ̀.</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>Gbogbo sáìtì náà, ní àwọn àkókò ètò (apá cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>Àwọn apá ojú ìwé wọ̀nyí nílò olùpèsè; ọ̀kọ̀ọ̀kan ti gba àfidípò. Ṣàyẹ̀wò wọn kí o tó tẹ̀jáde.</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>Ohun tí kò ṣiṣẹ́ ní àìyípadà</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>Ohun tí ibi ìpamọ́ jẹ́, fún ẹni tó bá ṣí i lórí olùgbàlejò.</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>fi sílẹ̀</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>ọ̀rọ̀ àfidípò</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>ibi ìgbàfọ́ọ̀mù ti sáìtì tó ń ṣiṣẹ́</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>sáìtì tó ń ṣiṣẹ́</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>ojú ìwé ìwákiri ti ẹ̀dà</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>A kò lè fi fọ́ọ̀mù náà ránṣẹ́.</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>O ṣeun: a ti fi fọ́ọ̀mù náà ránṣẹ́.</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>A kò gba fọ́ọ̀mù náà: ṣàyẹ̀wò ohun tí o fi sínú rẹ̀ kí o tún fi ránṣẹ́.</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>Yọ àwọn ìjápọ̀ sí àwọn ojú-ìwé tí ẹ̀dà náà kò ní kúrò</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>Yọ àwọn ìjápọ̀ sí ìṣàkóso kúrò</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>Ọ̀rọ̀ wọn yóò dúró. A kì í yọ àwọn àwòrán, fọ́ọ̀mù àti ìjápọ̀ sí àwọn ojúlé míràn kúrò láéláé.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Ẹ̀dà</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>Àwọn ìwọlé sáìtì láti tẹ̀jáde</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Ìwọlé sáìtì</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>Ní gbòǹgbò</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>Kò sí ìwọlé sáìtì ní gbòǹgbò: ọ̀kọ̀ọ̀kan wà nínú fódà rẹ̀, gbòǹgbò sì so mọ́ wọn</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Àwọn ìwọlé sáìtì</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>Sàmì sí ìwọlé sáìtì kan, tàbí ọ̀pọ̀ tí ó pín agbàlejò kan nípasẹ̀ ìṣáájú URI wọn. Èyí tí ó wà ní gbòǹgbò ni a ń pèsè níbẹ̀, àwọn yòókù nínú fódà ìṣáájú wọn (/ger/); àwọn ìjápọ̀ láàrin wọn wà nínú ẹ̀dà náà. A kì í fi ìwọlé ìṣàkóso hàn rárá.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>Ìtẹ̀jáde aláìyípadà ti %target kùnà lórí %site</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>Ìtẹ̀jáde aláìyípadà ti %target yọrí sí rere lórí %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>%site ló fi lẹ́tà yìí ránṣẹ́ nítorí pé àfojúsùn ìtẹ̀jáde aláìyípadà %target béèrè fún un.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>Ìgbéjáde %deploy kùnà lórí %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>Ìgbéjáde %deploy ń dúró ní ẹnu ọ̀nà kan lórí %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>Ìgbéjáde %deploy ṣàṣeyọrí lórí %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>%site ló fi lẹ́tà yìí ránṣẹ́ nítorí pé migration.ini [RemoteSettings] Notify[] béèrè fún un.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>Irú dátà (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>A kà á ní %time, a ó tún kà á lẹ́yìn ìṣẹ́jú %minutes</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>Irú dátà kan ń tọ́jú, ó sì ń ṣàtúnṣe irú iye kan ti ìhùwà kíláàsì: ìlà ọ̀rọ̀ kan, àwòrán kan, ìbáṣepọ̀ kan. Kẹ̀rnẹ́ẹ̀lì ló ń mú èyí tó pọ̀ jù wá, àwọn àfikún ń fi òmíràn kún un. Gbogbo wọn nìyí, ẹni tí ó ń pèsè wọn àti iye àkóónú tí ó ń lò wọ́n. Irú dátà tí ibi ìpamọ́ dátà ń lò ṣùgbọ́n tí kò sí ohun tí ó ń forúkọ rẹ̀ sílẹ̀ mọ́ máa ń ba àkóónú tí ó ní in jẹ́.</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>Àwọn ẹgbẹ́ kíláàsì</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>Kà á lẹ́ẹ̀kan sí i báyìí dípò lílo iye tí a kà ní ìṣẹ́jú díẹ̀ sẹ́yìn.</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>Kà á lẹ́ẹ̀kan sí i</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Àkópọ̀</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>Ti forúkọ sílẹ̀</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>Ń lò ó</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>A kò lò ó</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>Àwọn àfikún tí ó ń pèsè irú dátà</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>Àwọn ìhùwà kíláàsì</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>Àwọn ìhùwà ohun</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>A kò forúkọ rẹ̀ sílẹ̀</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>Wà nínú àkójọ, fáìlì kò sí</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>Irú dátà %count ni a ń lò ṣùgbọ́n a kò forúkọ wọn sílẹ̀</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>Àwọn ìhùwà kíláàsì %class_attributes àti àwọn ìhùwà ohun %object_attributes ní irú dátà tí kò sí àfikún tàbí ètò kankan tí ó forúkọ rẹ̀ sílẹ̀. A kò lè fi àwọn ohun wọn hàn, ṣàtúnṣe wọn tàbí tẹ̀ wọ́n jáde. Mú àfikún tí ó pèsè irú dátà náà ṣiṣẹ́, tàbí yí kíláàsì náà padà.</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>Fi àwọn wọ̀nyí nìkan hàn</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>Wá irú dátà kan</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>Ìdánimọ̀, orúkọ, kíláàsì PHP tàbí àfikún.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Fihàn</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Gbogbo</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>Ẹni tí ó pèsè</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>Gbogbo èèyàn</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>Kẹ̀rnẹ́ẹ̀lì</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>Kò sí irú dátà tí ó bá àlẹ̀mọ́ yìí mu.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Fihàn gbogbo rẹ̀</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>Àfikún</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%shown nínú irú dátà %count, %used ni a ń lò</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>Ibi ìpamọ́ dátà ní àwọn ìhùwà kíláàsì tàbí ohun ti àwọn irú dátà wọ̀nyí, ṣùgbọ́n content.ini kò ṣe àkójọ èyíkéyìí nínú wọn, tàbí fáìlì rẹ̀ kò sí.</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>Irú dátà ti %provider</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>Irú dátà</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>Kíláàsì PHP àti fáìlì</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>Àwọn kíláàsì</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>Àwọn ohun èlò</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>Àwọn àmì</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>kò sí</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>Kò sí irú dátà tí ó bá ìwádìí mu. Pa ìwádìí rẹ́.</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>A fi %shown hàn nínú irú dátà %count</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>Irú dátà tí a fi hàn: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>Tò nípasẹ̀ %column</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>A kà á ní %time</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>Gbogbo irú dátà</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>Ojú-ìwé ìrànlọ́wọ́</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>A ń lo irú dátà yìí ṣùgbọ́n a kò forúkọ rẹ̀ sílẹ̀</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>A kò lè fi àwọn ohun ti àwọn kíláàsì ìsàlẹ̀ yìí hàn, ṣàtúnṣe wọn tàbí tẹ̀ wọ́n jáde níwọ̀n ìgbà tí kò sí àfikún tí ó forúkọ irú dátà náà sílẹ̀. Mú àfikún tí ó pèsè rẹ̀ ṣiṣẹ́ kí o sì fi kún content.ini [DataTypeSettings] AvailableDataTypes[], tàbí yí àwọn kíláàsì náà padà.</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini ṣe àkójọ irú dátà yìí, ṣùgbọ́n kò sí àpò-ìwé irú dátà tí ó ní fáìlì rẹ̀. Kò sí ohun tí ó ń lò ó; yọ ọ́ kúrò nínú AvailableDataTypes[] tàbí mú àfikún rẹ̀ ṣiṣẹ́.</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>Nípa irú dátà yìí</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>Atọ́ka ìdánimọ̀</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Orúkọ</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Àfikún %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>kò sí ẹnikẹ́ni</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>Kíláàsì PHP</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Fáìlì</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>Nínú AvailableDataTypes[]</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>bẹ́ẹ̀ ni</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>rárá</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>Àwọn ọwọ̀n iye rẹ̀</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>Àwọn ọwọ̀n ètò ìhùwà kíláàsì rẹ̀</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>Àwọn tábìlì</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>A ń rí àwọn ọwọ̀n àti tábìlì nípa kíka kóòdù irú dátà náà: ìtọ́sọ́nà ni, kì í ṣe ìlérí.</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>Àwọn àwòṣe</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Ìwọlé sáìtì</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>Àpẹẹrẹ</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>A rí i nínú</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>ìṣàkóso yìí</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>sáìtì àkọ́kọ́</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>Láìsí àwọn ìfirọ́pò: àpẹẹrẹ ìfirọ́pò tí ó bá kíláàsì tàbí ìhùwà mu ló borí àwọn wọ̀nyí.</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>Àwọn kíláàsì tí ó ń lò ó (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>Kò sí kíláàsì tí ó ní ìhùwà irú dátà yìí.</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Kíláàsì</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>Àwọn ìhùwà</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>Àwọn ìhùwà kíláàsì (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>Ìhùwà</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Ètò</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>Ó pọn dandan</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>Ó ṣeé wá</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>Ó ṣeé túmọ̀</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>Ó ń gba ìwífún</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>Àwọn àkóónú díẹ̀ tí ó ń lò ó</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>Èyí tí a yípadà kẹ́yìn ní àkọ́kọ́</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Ti yípadà</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>Ọ̀pá ìsopọ̀ %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>Ìtumọ̀ kọ̀ọ̀kan ní iye tirẹ̀.</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>Ìwádìí máa ń ṣe atọ́ka àwọn iye rẹ̀.</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>Ó lè kó ìwífún jọ láti ọ̀dọ̀ àwọn àlejò (fọ́ọ̀mù).</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>A lè to àwọn àkójọ lẹ́sẹẹsẹ pẹ̀lú rẹ̀: kọ́kọ́rọ́ ètò %type.</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>Ó ṣe é tò lẹ́sẹẹsẹ</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>Àwọn iye rẹ̀ ń tọ́ka sí àwọn ohun mìíràn.</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>Àwọn ìbáṣepọ̀</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>A lè kún un láti ọ̀rọ̀ lásán (gbígbé wọlé, REST).</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>Láti ọ̀rọ̀</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>A lè kún un láti fáìlì.</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>Láti fáìlì</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>Àwọn ètò ìhùwà kíláàsì rẹ̀ máa ń wọ inú àwọn àpò.</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>Àwọn Àpò</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>Àkóónú (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from sí %to nínú %count</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Ṣe àlẹ̀mọ́ àkójọ náà</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>Gbogbo àwọn kíláàsì</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Abala</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Àwọn èdè</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Olùní</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Tí a tẹ̀jáde</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>Yí ọ̀nà ìtòlẹ́sẹẹsẹ padà</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Kò sí ohun kan</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Fún ojú ìwé kọ̀ọ̀kan</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Fi ohun %count hàn ní ojú ìwé kọ̀ọ̀kan.</translation>
     </message>
 </context>
 </TS>

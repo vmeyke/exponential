@@ -38,7 +38,7 @@
  *  LAW-23  RFC 8058 / CAN-SPAM: optional mail with SplitRecipients disabled still points to the preference page
  *  LAW-24  RFC 8058: the one-click POST over HTTP without cookies unsubscribes; GET only shows a button (live web)
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package tests
  * @group mailpreferences
@@ -46,6 +46,7 @@
 
 use Exponential\Service\MailPreferencesPage;
 
+#[\PHPUnit\Framework\Attributes\Group('mailpreferences')]
 class MailPreferencesComplianceTest extends PHPUnit\Framework\TestCase
 {
     const DOMAIN = 'mplaw.invalid';
@@ -740,7 +741,8 @@ class MailPreferencesComplianceTest extends PHPUnit\Framework\TestCase
             if ( $body !== null )
                 $opts['http']['content'] = $body;
             $response = @file_get_contents( $url, false, stream_context_create( $opts ) );
-            $headers = isset( $http_response_header ) ? $http_response_header : array();
+            // PHP 8.4 reads the headers with http_get_last_response_headers(); 8.5 deprecates $http_response_header
+            $headers = function_exists( 'http_get_last_response_headers' ) ? (array)http_get_last_response_headers() : ( get_defined_vars()['http_response_header'] ?? array() );
             return array( $response, $headers );
         };
         list( $page, $headers ) = $request( 'GET' );
@@ -768,6 +770,7 @@ class MailPreferencesComplianceTest extends PHPUnit\Framework\TestCase
                                         'header' => "Content-Type: application/x-www-form-urlencoded\r\n" ),
                        'ssl' => array( 'verify_peer' => false, 'verify_peer_name' => false ) );
         @file_get_contents( $base . '/mailpreferences/unsubscribe/' . $bad, false, stream_context_create( $opts ) );
-        $this->assertMatchesRegularExpression( '#^HTTP/\S+ 400#', $http_response_header[0] );
+        $headers = function_exists( 'http_get_last_response_headers' ) ? (array)http_get_last_response_headers() : ( get_defined_vars()['http_response_header'] ?? array() );
+        $this->assertMatchesRegularExpression( '#^HTTP/\S+ 400#', $headers[0] );
     }
 }

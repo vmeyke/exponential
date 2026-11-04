@@ -1,6 +1,6 @@
 <?php
 /**
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -19,7 +19,6 @@ $ViewList["toolbarlist"] = array(
 
 $ViewList["toolbar"] = array(
     "script" => "toolbar.php",
-    'ui_context' => 'edit',
     "default_navigation_part" => 'ezvisualnavigationpart',
     'post_actions' => array( 'BrowseActionName' ),
     'single_post_actions' => array( 'BackToToolbarsButton' => 'BackToToolbars',
@@ -56,7 +55,6 @@ $ViewList["templateview"] = array(
 
 $ViewList['templateedit'] = array(
     'script' => 'templateedit.php',
-    'ui_context' => 'edit',
     'default_navigation_part' => 'ezvisualnavigationpart',
     'single_post_actions' => array( 'SaveButton' => 'Save',
                                     'DiscardButton' => 'Discard' ),
@@ -65,7 +63,6 @@ $ViewList['templateedit'] = array(
 
 $ViewList['templatecreate'] = array(
     'script' => 'templatecreate.php',
-    'ui_context' => 'edit',
     'default_navigation_part' => 'ezvisualnavigationpart',
     'single_post_actions' => array( 'CreateOverrideButton' => 'CreateOverride',
                                     'CancelOverrideButton' => 'CancelOverride' ),

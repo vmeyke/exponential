@@ -29,7 +29,7 @@
  * Building the index reads all of these once; it is kept in the cache for IndexTTL seconds, or built by the CLI
  * script bin/php/contentcheck.php (also a cronjob part) on installations where BuildOnRequest is false.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package kernel
  */
@@ -996,7 +996,8 @@ class expContentCheckReferences
             $dir = $root . '/' . $top;
             if ( !is_dir( $dir ) )
                 continue;
-            $iterator = new RecursiveIteratorIterator( new RecursiveDirectoryIterator( $dir, FilesystemIterator::SKIP_DOTS | FilesystemIterator::FOLLOW_SYMLINKS ) );
+            $iterator = new RecursiveIteratorIterator( new RecursiveDirectoryIterator( $dir, FilesystemIterator::SKIP_DOTS | FilesystemIterator::FOLLOW_SYMLINKS ),
+                                                     RecursiveIteratorIterator::LEAVES_ONLY, RecursiveIteratorIterator::CATCH_GET_CHILD );
             foreach ( $iterator as $file )
             {
                 $path = $file->getPathname();
@@ -1023,7 +1024,8 @@ class expContentCheckReferences
         $dirs = array_merge( glob( $root . '/design/*', GLOB_ONLYDIR ) ?: array(), glob( $root . '/extension/*/design/*', GLOB_ONLYDIR ) ?: array() );
         foreach ( $dirs as $dir )
         {
-            $iterator = new RecursiveIteratorIterator( new RecursiveDirectoryIterator( $dir, FilesystemIterator::SKIP_DOTS ) );
+            $iterator = new RecursiveIteratorIterator( new RecursiveDirectoryIterator( $dir, FilesystemIterator::SKIP_DOTS ),
+                                                     RecursiveIteratorIterator::LEAVES_ONLY, RecursiveIteratorIterator::CATCH_GET_CHILD );
             foreach ( $iterator as $file )
             {
                 $path = $file->getPathname();

@@ -26,7 +26,7 @@ same work cut into a weekend.
 
 ## Before Saturday
 
-- [ ] A computer with PHP 8.0 or later and Composer, or access to a host with the setup wizard
+- [ ] A computer with PHP 8.0 or later (PHP 7.4 usable without support) and Composer, or access to a host with the setup wizard
   ([Requirements at a glance](../../hosting/basics/requirements-at-a-glance.md)).
 - [ ] Your page list and texts in a document, even rough ones.
 - [ ] Five to ten images, already chosen.
@@ -40,7 +40,7 @@ same work cut into a weekend.
 
    ```bash
    php bin/php/console exp:install --dry-run
-   php bin/php/console exp:install
+   php bin/php/console exp:install --apply
    ```
 
    For a real site later, the clean package without demo content is the better start

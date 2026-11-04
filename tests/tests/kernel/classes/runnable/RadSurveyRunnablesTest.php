@@ -15,7 +15,7 @@
  *
  * No database.
  *
- * @copyright Copyright (C) 7x / Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license For full copyright and license information view LICENSE file.
  * @package tests
  * @group runnable
@@ -23,6 +23,7 @@
 
 require_once __DIR__ . '/../../../../../kernel/setup/expradsurvey.php';
 
+#[\PHPUnit\Framework\Attributes\Group('runnable')]
 class ezpTestRadSurveyWithImplementations extends expRADSurvey
 {
     public static $map = array();

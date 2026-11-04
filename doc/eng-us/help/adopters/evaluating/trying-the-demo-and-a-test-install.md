@@ -18,7 +18,7 @@ type: help
 
 ## The public demo
 
-The help names the live demonstration installation at <https://alpha.se7enx.com> as a source of its facts
+The help names a live demonstration installation as a source of its facts
 ([Businesses: start here](../../businesses/businesses-start-here.md)). A public demo runs in demo mode on purpose:
 "administrator passwords cannot be changed or reset there" ([Demo mode](../../demo-mode.md),
 [Demo mode FAQ](../../demo-mode-faq.md)). Treat everything you type there as public.
@@ -27,7 +27,7 @@ The help names the live demonstration installation at <https://alpha.se7enx.com>
 
 A test installation shows the software on your own machine, with your own content:
 
-1. Install PHP 8.0 or later and Composer.
+1. Install PHP 8.0 or later (PHP 7.4 usable without support) and Composer.
 2. Follow [Install in one command](../../../features/6.0/install-in-one-command.md); SQLite is the default and needs no
    database server.
 3. Serve it with Velocity or PHP's built-in server ([Serving the site](../../../install/08-serving-the-site.md)).

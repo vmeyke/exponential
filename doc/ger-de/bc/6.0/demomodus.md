@@ -3,6 +3,21 @@
 Eine öffentliche Demo von Exponential veröffentlicht ihre Administrator-Anmeldung, damit Besucher die Administration
 ausprobieren können. Ohne Hilfe geht dann zweierlei schief:
 
+> **Warnung**
+> **`.htaccess` bremst jede Anfrage.** Sind `.htaccess`-Dateien erlaubt (`AllowOverride` alles außer `None`), geschweige
+> denn genutzt, sucht Apache sie bei jeder Anfrage in jedem Verzeichnis des Pfads und liest und wertet sie aus, und
+> die Ladezeiten der Seiten steigen drastisch ([gemessen](../../anleitungen/setup-dateien-von-der-konsole.md#gemessen-htaccess-gegen-regeln-im-virtuellen-host)). Die einzige wirkliche Abhilfe ist, die
+> Funktion für den virtuellen Host abzuschalten: `AllowOverride None` im virtuellen HTTPS-Host, und die Regeln in
+> der Konfiguration des virtuellen Hosts selbst als mod_rewrite-Regeln. Das ist in Geschwindigkeitstests im
+> Produktivbetrieb weit schneller und die Zeit für die Optimierung einer Produktivkonfiguration unbedingt wert.
+> Stellen Sie sofort um: Übernehmen Sie die Regeln des [Beispiels für einen virtuellen HTTPS-Host](../../beispiele/webserver/apache-virtueller-host.md) in
+> Ihren virtuellen Host (mit dem statischen Cache auch [`staticcache_offload.conf`](../../../eng-us/examples/staticcache_offload.conf)), setzen Sie
+> `AllowOverride None`, führen Sie `apachectl configtest` aus, laden Sie Apache neu und testen Sie die Website.
+> Dieselben Regeln für andere Server: [nginx](../../beispiele/webserver/nginx.md), [LiteSpeed](../../beispiele/webserver/litespeed.md), [Caddy](../../beispiele/webserver/caddy.md), [IIS](../../beispiele/webserver/iis.md),
+> [Velocity](../../beispiele/webserver/velocity.md) (eingebaut); wohin Regeln für virtuelle Hosts in einem Control Panel gehören:
+> [Plesk](../../hilfe/hosting/control-panels/plesk.md), [cPanel](../../hilfe/hosting/control-panels/cpanel.md), [DirectAdmin](../../hilfe/hosting/control-panels/directadmin.md), [ISPConfig](../../hilfe/hosting/control-panels/ispconfig.md).
+> **Unter LiteSpeed oder OpenLiteSpeed** kann zusätzlich der Seiten-Cache des Servers anonyme Besucher und Crawler ohne PHP bedienen: [Seiten-Caching mit LiteSpeed und OpenLiteSpeed](../../anleitungen/seiten-cache-mit-litespeed.md).
+
 1. Ein Besucher ändert das Administratorpasswort oder setzt es zurück, und der nächste Besucher kann sich nicht
    anmelden. Bei einer Demo, die alle paar Stunden neu gebaut wird, ist die Demo damit bis zum nächsten Neubau kaputt;
    bei einer, die nicht neu gebaut wird, für immer.
@@ -221,6 +236,9 @@ einer Demo nie auf eine andere Website.
 
   und verzeichnet das Audit-Ereignis `system.demo.mode` (Schweregrad warning, Kanal system, immer eingeschaltet). Ein
   geforkter Worker hat seine eigene PID und verzeichnet es erneut; ein persistenter Worker verzeichnet es einmal. Ein
+  Webprozess, der jede Anfrage neu beginnt (PHP-FPM, mod_php, LiteSpeed, der eingebaute Server von PHP), legt je Prozess
+  eine leere Markierungsdatei im Cache-Verzeichnis an (`<cache>/demo-mode/<pid>-<start time>`) und verzeichnet es so
+  ebenfalls einmal statt bei jeder Anfrage; nach dem Leeren der Caches verzeichnen die laufenden Prozesse es erneut. Ein
   Konsolenbefehl meldet außerdem `Demo mode is on (EXP_DEMO_MODE=1) ...` auf der Standardfehlerausgabe.
 
 Auf einer Produktivsite bedeutet ein Ereignis `system.demo.mode` oder eine Zeile `demo/mode`, dass die Variable einen
@@ -262,7 +280,7 @@ SQLite ausführt und die neue Website einwechselt. Mit dem Demo-Modus sollte es 
    durch ein zufälliges zu ersetzen und danach zurückzusetzen:
 
    ```sh
-   EXP_DEMO_MODE=1 php bin/php/install.php --db=sqlite --password='<the published demo password>' ...
+   EXP_DEMO_MODE=1 php bin/php/install.php --apply --db=sqlite --password='<the published demo password>' ...
    ```
 
    Der Schritt zum Zurücksetzen nach der Installation (`exp:resetuserpassword`) wird dann nicht mehr gebraucht und

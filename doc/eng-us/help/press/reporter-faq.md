@@ -30,7 +30,8 @@ A free, open source PHP content management system and application framework with
 multisite, many languages and a built-in shop ([Exponential in brief](exponential-in-brief.md)).
 
 **What is the newest version?**
-6.0.14, released on 7 June 2026. 6.0.15 is in development ([The 6.0.x releases at a glance](the-6-0-x-releases-at-a-glance.md)).
+6.0.15 is the current release line; it follows 6.0.14, released on 7 June 2026. Whether the tag `v6.0.15` exists
+shows `git tag -l 'v6.0.*' --sort=version:refname` ([The 6.0.x releases at a glance](the-6-0-x-releases-at-a-glance.md)).
 
 **What is new?**
 The 6.0.15 line adds Exponential Velocity, Exponential Layouts, Exponential Intelligence, the admin4 design, an audit
@@ -43,7 +44,7 @@ own; it sends nothing anywhere until a provider is configured ([Story: Exponenti
 ## The organizations
 
 **Who owns Exponential?**
-Nobody owns it in the sense of a proprietary product. 7x and the Exponential Foundation hold the copyright together; the
+Nobody owns it in the sense of a proprietary product. The Exponential Foundation and 7x hold the copyright together; the
 software is licensed under the GNU GPL ([Licenses explained for reporters](licenses-explained-for-reporters.md)).
 
 **Who is 7x?**
@@ -86,7 +87,7 @@ No source counts installations, users or customers ([What the sources do not say
 No customer list is published. Name an organization as a user only with its consent ([Privacy in your coverage](privacy-in-coverage.md)).
 
 **Where does it run?**
-PHP 8.0 to 8.5; SQLite, PostgreSQL, MongoDB, MariaDB, Oracle or MySQL; Linux, BSD, macOS and Windows in documented tiers
+PHP 8.0 to 8.5 (PHP 7.4 usable without support); SQLite, PostgreSQL, MongoDB, MariaDB, Oracle or MySQL; Linux, BSD, macOS and Windows in documented tiers
 ([Fact sheet for journalists](fact-sheet-for-journalists.md)).
 
 ## Security

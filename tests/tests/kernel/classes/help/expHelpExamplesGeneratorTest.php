@@ -19,7 +19,7 @@
  *  HE-10  a source that asks eZINI while it is read (module.php, a template autoload file) gets the shipped settings
  *         only: no override, no extension outside the repository, nothing injected, no INI cache; eZINI is put back
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package tests
  */
@@ -88,6 +88,12 @@ class expHelpExamplesGeneratorTest extends PHPUnit\Framework\TestCase
         $this->assertSame( array( 'value' => '', 'help' => 'Change nothing' ), $help['options']['dry-run'] );
         $this->assertSame( 'required', $help['options']['limit']['value'] );
         $this->assertSame( '[FILE]', $help['arguments'] );
+
+        // a repeatable option ([exclude:*]) keeps its name, its value and its help
+        $help = expHelpExamplesGenerator::scriptHelp( '<?php $script->startup(); $options = $script->getOptions( "[apply][exclude:*][file:+]", "", array( "exclude" => "Never these", "file" => "A file" ) );' );
+        $this->assertSame( array( 'apply', 'exclude', 'file' ), array_keys( $help['options'] ) );
+        $this->assertSame( array( 'value' => 'required', 'help' => 'Never these' ), $help['options']['exclude'] );
+        $this->assertSame( array( 'value' => 'required', 'help' => 'A file' ), $help['options']['file'] );
     }
 
     /** HE-03 */

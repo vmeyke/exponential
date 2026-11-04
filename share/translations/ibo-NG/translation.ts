@@ -982,6 +982,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>Naanị ibe a ka a na-achọ: %from ruo %to n&apos;ime %count.</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Ụdị data niile nke kernel na ndọtị, na otu klasị na ọdịnaya si eji ha.</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Ụdị data</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2314,6 +2322,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>Ị nwekwara ike itinye akara ibe n&apos;ibe sistemụ: mepee ibe ahụ (Nrụnye, ndekọ nyocha, ndepụta ndị ọrụ ...) ma họrọ Tinye akara ibe n&apos;ibe a n&apos;elu ya. Akara ibe ndị dị otu a nwere akara giya.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>Ị nweghịzi ike imepe ibe a ebe a. Wepụ akara ibe ahụ, ma ọ bụ rịọ onye nchịkwa ka o nye gị nnweta.</translation>
     </message>
 </context>
 <context>
@@ -5163,6 +5175,210 @@
         <source>Go to the first page</source>
         <translation>Gaa n&apos;ibe mbụ</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>Ndị ọzọ</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>Ụbọchị 7 gara aga</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>Oge ahọpụtara</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>Okwu niile</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>Okwu ọ bụla</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>Nkebiokwu kpọmkwem</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>Mkpa</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>Aha A–Z</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>Aha Z–A</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>Gbanwere, nke kachasị ọhụrụ na mbụ</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>Gbanwere, nke kachasị ochie na mbụ</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>Ebipụtara, nke kachasị ọhụrụ na mbụ</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>Ebipụtara, nke kachasị ochie na mbụ</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Gbanwere</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>Nzacha</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>Gosi nzacha</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>Zoo nzacha</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Tọgharịa</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>Tinye</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>Okwu</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>Ụdị ọdịnaya</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>Gosikwuo (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>Họrọ otu ụdị ọdịnaya iji chọọ n'otu n'ime njirimara ya.</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Ngalaba</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Site na</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Ruo</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>Ụbọchị mmalite abụghị ụbọchị ziri ezi.</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>Ụbọchị njedebe abụghị ụbọchị ziri ezi.</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Onye nwe</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>ID onye ọrụ, aha nbanye ma ọ bụ adreesị e-mail.</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>Achọtaghị onye ọrụ ọ bụla maka “%input”.</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Asụsụ</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>Asụsụ ọ bụla</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Ebe</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>Ebe %count</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>Nsonaazụ kwa peeji</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>Nsonaazụ maka “%text” (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>Nsonaazụ (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>Hazie site na</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>Hazie</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>Nzacha ndị dị ọrụ</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>Wepụ nzacha a</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>Ma ọ bụ họrọ nzacha ma tinye ha iji depụta ọdịnaya dakọrọ na ha.</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>Nzacha na-ebelata nchọta ozugbo ị pịnyere okwu.</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>Achọtaghị nsonaazụ ọ bụla maka “%text”.</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>Achọtaghị nsonaazụ ọ bụla.</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>Wepụ otu nzacha dị n'elu.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Ntụgharị asụsụ</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Omume</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>Dezie %name</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Dezie</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -7512,6 +7728,10 @@
         <source>Setup &gt; Cronjobs</source>
         <translation>Nrụnye &gt; Ọrụ cron</translation>
     </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>Ọ dịbeghị akụkụ cronjob ọ bụla gbaworo: ahịrị ọrụ, mbubata, ọkwa na ndepụta nchọ na-eche. Gbaa php bin/php/installcrontab.php --add --apply, ma ọ bụ tinye ahịrị --show na crontab.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/dashboard/drafts</name>
@@ -8056,8 +8276,8 @@
         <translation>Ọkwa ikike mmeputa nke ndị dere mbụ na nke sọftwia ndị ọzọ e mejupụtara na Exponential ka edebere na faịlụ isi mmalite na na faịlụ LICENSE, dịka ikikere ahụ chọrọ.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>Nke a bụ ndepụta ndị nyere aka na Exponential bụ ndị nyere ikikere maka ojiji ọrụ ha site na 7x n&apos;okpuru usoro na ọnọdụ nke Nkwekọrịta Ikikere Onye Nyere Aka nke eZ Systems. Dịka nkwekọrịta a kwadoro, 7x na-ekesaghachi onyinye ọ bụla n&apos;okpuru otu ikikere dịka faịlụ e tinyere onyinye ahụ n&apos;ime ya. Ndepụta a kpọtụrụ onye nyere aka ọ bụla aha, ozi mkpakọrịta nhọrọ na faịlụ ndị ha nyere aka ma ọ bụ nyekwara ọrụ.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>Ndị nyere aka a na-enye otuto maka ọrụ ha na Exponential na sọftụwia o si na ya pụta, ya na faịlụ ndị ha nyere aka na ha. Nke a bụ otuto, ọ bụghị ọkwa nwebiisinka: a na-enyefe onyinye nye Exponential na Exponential Foundation na 7x n&apos;okpuru Contributor Licensing Agreement.</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13879,32 +14099,20 @@ Nzòpụta: Agaghị ewepụ nwụnye mpakị ndị a.</translation>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;Nwale Exponential Enterprise Edition&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Bụrụ onye otu Exponential Community, gbanwee echiche ma tinye aka&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; na ndị ọzọ.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>Ike sitere na &lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt;. Maka ozi ndị ọzọ lee &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; na ndị ọzọ.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> Maka ozi ndị ọzọ lee &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
     </message>
     <message>
-        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; na ndị ọzọ.</translation>
+        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;Nwale Exponential (Site na 7x)&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Bụrụ onye otu Exponential Community, nweta nkwado ma tinye aka&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; na ndị ọzọ.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13913,6 +14121,61 @@ Nzòpụta: Agaghị ewepụ nwụnye mpakị ndị a.</translation>
     <message>
         <source>Help center</source>
         <translation>Ebe Enyemaka</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>Ọdịnaya</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>Peeji akwụkwọ</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>Ndị ọrụ</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>Klaasị ọdịnaya</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>Nchịkwa</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>Peeji %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>Lee nsonaazụ niile</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>Nsonaazụ %count</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>Otu nsonaazụ</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>Ntụnye aro %count</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>Enweghị ntụnye aro</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>Enweghị ike ibunye ntụnye aro.</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>Ntụnye aro</translation>
     </message>
 </context>
 <context>
@@ -14381,6 +14644,14 @@ Nzòpụta: Agaghị ewepụ nwụnye mpakị ndị a.</translation>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>Nwụnye ahụ bụ ngosi ọha: onye ọ bụla nwere ike ịmara Okwuntughe onye nchịkwa ya, a pụghịkwa ịgbanwe ma ọ bụ ịtọgharịa Okwuntughe onye nchịkwa. Biko, tinye ihe nzuzo ọ bụla ebe a ọ bụghị.</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Ngwaọrụ gị</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Omume nchekwa</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14670,6 +14941,14 @@ Nzòpụta: Agaghị ewepụ nwụnye mpakị ndị a.</translation>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>Ndezi aka, nchọ na otu esi akọ akụkọ Njehie.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Ọdịnaya ọhụrụ</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Ọdịnaya kachasị ọhụrụ, ihe e jidere maka nyocha, na omume na ihe ndị a họọrọ.</translation>
     </message>
 </context>
 <context>
@@ -15128,6 +15407,46 @@ Nzòpụta: Agaghị ewepụ nwụnye mpakị ndị a.</translation>
         <source>Synchronisations</source>
         <translation>Nhazi n&apos;otu</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>GraphQL API: ebe njedebe ya, schema na ebe egwuregwu iji nwalee ajụjụ.</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Mbugharị</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Mgbanwe na nrụnye echekwara dị ka faịlụ: ọnọdụ ha, ọgbụgba ha, ịgba na ịtụgharị azụ.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Ọdịnaya ọhụrụ</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Ọdịnaya kachasị ọhụrụ, ihe e jidere maka nyocha, na omume na ihe ndị a họọrọ.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Bipụta otu nnomi nkwụsi ike nke saịtị na GitHub Pages ma ọ bụ ọgbakọ git ọ bụla.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Mbipụta nkwụsi ike</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Ụdị data</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Ụdị data niile nke kernel na ndọtị, na otu klasị na ọdịnaya si eji ha.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15292,6 +15611,22 @@ Nzòpụta: Agaghị ewepụ nwụnye mpakị ndị a.</translation>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>Akaụntụ ndị mmadụ anaghị eji ma ọ bụ ndị chọrọ nlele; gbanyụọ, meghe ma ọ bụ bupụ ha.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Ndekọ nyocha ndị ọrụ</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>Onye gbanwere, banyere ma ọ bụ e jụrụ, n&apos;akaụntụ ọ bụla; nzacha na mbupụ.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Akụkọ nbanye</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>Ndị banyere, nbanye na ọdịda kwa ụbọchị; wepụ onye ọrụ n&apos;ebe niile.</translation>
     </message>
 </context>
 <context>
@@ -22108,6 +22443,22 @@ Nzòpụta: Agaghị ewepụ nwụnye mpakị ndị a.</translation>
         <source>%n hours ago</source>
         <translation>Awa %n gara aga</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>Azịza nke ajụjụ echekwara nke GraphQL API, na klaasị ọdịnaya nke schema ya.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>Bipụta otu nnomi nkwụsi ike na GitHub Pages ma ọ bụ ọgbakọ git ọ bụla</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Mbipụta nkwụsi ike</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>Cache nkwụsi ike na-enye peeji site na sava a. Iji bipụta otu nnomi nkwụsi ike nke saịtị n&apos;ebe ọzọ, na GitHub Pages ma ọ bụ ọgbakọ git ọ bụla, jiri mbipụta nkwụsi ike.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25649,6 +26000,10 @@ Nzòpụta: Agaghị ewepụ nwụnye mpakị ndị a.</translation>
     <message>
         <source>last purge</source>
         <translation>nhichapụ ikpeazụ</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>Ndekọ enweghị ike iwere mkpọchi ọnọdụ (nke ikpeazụ %date): nke ọ bụla mere ka nsonaazụ niile echekwara bụrụ ochie. %file ga-abụrịrị ihe onye ọrụ ọ bụla saịtị ahụ na-arụ ọrụ dị ka ya nwere ike ide; na NFS ọ chọrọ NFSv4 ma ọ bụ lockd.</translation>
     </message>
 </context>
 <context>
@@ -33597,6 +33952,14 @@ Nzòpụta: Agaghị ewepụ nwụnye mpakị ndị a.</translation>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>PHP n&apos;onwe ya na-ewepụ oge nnọdụ nke ihe nrụpụta PHP gafere oge (session.gc_maxlifetime), ọ bụghị ibe a ma ọ bụ akụkụ cronjob session_gc.</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>Akụkọ nbanye na-edepụta oge nnọdụ niile e banyere nke onye ọrụ ọ bụla ma na-ewepụ ha; ọ na-arụ ọrụ na onye njikwa oge nnọdụ ọ bụla.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>Mepee akụkọ nbanye</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37921,6 +38284,26 @@ akaụntụ gị rụọ ọrụ.</translation>
     <message>
         <source>None yet</source>
         <translation>Ọ dịbeghị</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Omume nchekwa</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>Nbanye gị nso nso a, mgbalị dara ada na mgbanwe e mere n&apos;okwuntughe gị, adreesị ozi-e gị na mbanye nzọụkwụ abụọ.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>Nbanye nso nso a, mgbalị dara ada na mgbanwe nchekwa nke akaụntụ a.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>Nyochaa omume</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>Nbanye dara ada: %count</translation>
     </message>
 </context>
 <context>
@@ -44087,6 +44470,42 @@ O ji chọọ izipụ nkọwa nye onye na-ekwenye ma ọ bụ lee ọnọdụ ya
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>Mgbe ọ banyechara, onye ọrụ ga-ahọrọ Okwuntughe ọhụrụ tupu ọ rụọ ihe ọ bụla ọzọ. Jiri ya mgbe ị na-enye mmadụ Okwuntughe nwa oge.</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>Họrọ foto dị adị</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>A na-eṅomi faịlụ foto nke ihe ị họọrọ n’ime ubi a. Ihe nke ọzọ anaghị agbanwe.</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>Eṅomiela foto nke "%name" n’ime ubi a.</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>Chọgharịa maka foto</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>Chọọ foto site n’aha</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Chọọ</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>Jiri foto nke "%name"</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>Jiri foto a</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>Ọ dịghị foto kwekọrọ na ọchụchọ gị.</translation>
     </message>
 </context>
 <context>
@@ -51011,6 +51430,10 @@ Hụ ibe ihe ndị a chọrọ maka ozi ndị ọzọ.</translation>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>Edeghị crontab ahụ (%reason). Tinye ahịrị ndị a na crontab nke onye ọrụ saịtị ahụ na-agba dịka ya, ma ọ bụghị ya ahịrị ọrụ, mbubata, ọkwa na ndepụta nchọ agaghị agba mgbe ọ bụla:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>A na-ewunyeghachi ya site na Kickstarter (%file, mgbe ahụ php bin/php/kickstarter.php run --apply) ma ọ bụ site na nwụnye ọhụrụ.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54890,6 +55313,10 @@ akaụntụ gị rụọ ọrụ.</translation>
         <source>eZJSCore Public Packer cache</source>
         <translation>Cache eZJSCore Public Packer</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>Ebe nchekwa nwa oge GraphQL (azịza na klaasị schema)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54976,6 +55403,14 @@ akaụntụ gị rụọ ọrụ.</translation>
     <message>
         <source>Copy of %class_name</source>
         <translation>Nkeji %class_name e detuo</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Ụdị data</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>Ụdị data %string</translation>
     </message>
 </context>
 <context>
@@ -55802,6 +56237,26 @@ akaụntụ gị rụọ ọrụ.</translation>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>Enweghị ike ịgụ foto SVG ahụ, ma ọ bụ enweghị ihe dị n&apos;ime ya enwere ike igosi n&apos;enweghị ihe egwu.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>Enweghị ike ịṅomi foto ahụ. Biko nwaa ọzọ ma ọ bụ kpọtụrụ onye nchịkwa saịtị.</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>Ihe a họọrọ adịghị ma ọ bụ ị nweghị ikike ịgụ ya.</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>Ihe a họọrọ enweghị foto.</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>Enweghị ike ịgụ faịlụ foto nke ihe a họọrọ.</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>Foto nke ihe a họọrọ karịrị ihe ubi a na-anabata: baịtị %1.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56332,6 +56787,42 @@ akaụntụ gị rụọ ọrụ.</translation>
         <source>The bookmark was renamed to &quot;%name&quot;.</source>
         <translation>Agbanweela aha akara ibe ahụ ka ọ bụrụ “%name”.</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>Agbanyụọla ibe a na nnweta saịtị a (%siteaccess). Mepee akara ibe ahụ na nnweta saịtị nwere ibe a.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>Ewunyeghị modul nke ibe a, ma ọ bụ a kpọgheghị ya ebe a.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>Ibe a adịghịzi: modul ya enweghị nlele dị otú ahụ.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>Ọ dịghị otu n'ime ọrụ gị kwere ka i mepee ibe a.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>Ị nweghị ike iji nnweta saịtị a.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>Ị nweghị ike ịgụ ọdịnaya ibe a na-egosi.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>Enweghị ike itinye akara ibe n'ụdị ibe a: ọ na-arụ ọrụ naanị na fọm, ma ọ bụ na ọ bụ ibe nke otu ntabi anya.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>Adreesị ibe a adịghị.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>Enweghị ike imepe ibe a ugbu a.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56803,6 +57294,10 @@ Ichọrọ ịgbanwe klasị nke nọdụ ahụ site n&apos;iji ọrụ mgbanwe.
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>Njem mel jụrụ ozi %count n&apos;ọgba ikpeazụ. Lelee Sava mel na site.ini MailSettings.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Ihe omume %count na-eche, a dekọghịkwa ọsọ ọ bụla nke cronjob ọkwa. Tinye akụkụ cronjob “frequent” na crontab, ma ọ bụ gbaa exp:notification:run --apply.</translation>
     </message>
 </context>
 <context>
@@ -63059,6 +63554,10 @@ Ichọrọ ịgbanwe klasị nke nọdụ ahụ site n&apos;iji ọrụ mgbanwe.
         <source>Choose another site or section with the node picker</source>
         <translation>Họrọ saịtị ma ọ bụ ngalaba ọzọ site na ihe nhọrọ Nọdụ</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>Naanị onye nchịkwa sistemụ nwere ike ịgbanwe onye nwe ya: gbaa ./console exp:content-check --fix-permissions --apply dị ka root.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64592,6 +65091,10 @@ Ichọrọ ịgbanwe klasị nke nọdụ ahụ site n&apos;iji ọrụ mgbanwe.
     <message>
         <source>empty</source>
         <translation>efu</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>Isi mbinye aka karịrị otu afọ: gbanwee ya site na exp:audit key rotate --apply.</translation>
     </message>
 </context>
 <context>
@@ -68422,6 +68925,486 @@ Ichọrọ ịgbanwe klasị nke nọdụ ahụ site n&apos;iji ọrụ mgbanwe.
         <source>Share of page time</source>
         <translation>Òkè nke oge ibe</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>a rịọrọ ka e gosipụta ya zuru ezu</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>cache ibe enweghị ibe a (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>cache ibe azaghị</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>Egosipụtara</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>Kernel gosipụtara ya: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>E si na cache ibe nye ya n'ime %ms ms. E chekwara ibe a na %stored site na ngosipụta were %render ms, %age s gara aga.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>Gosipụta ugbu a</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>Laghachi na nlele cache</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>Site na ngosipụta nke %stored (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>Arịrịọ a: e si na cache ibe nye ya n'ime %ms ms.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Onye ọrụ</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>ID onye ọrụ</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>Profaịlụ cache</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>Nlele a</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>Cache nlele</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>maka onye ọrụ ọ bụla (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>Profaịlụ cache nke onye ọrụ: ndị ọrụ nwere otu profaịlụ na-ekerịta faịlụ cache nlele</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ee</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>mba</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Banye</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>Abanyela</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>Oge nnọdụ</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>Akụkụ nke igodo cache nlele ọdịnaya ndị dabere na onye ọrụ, kpọmkwem dị ka igodo si were ha, n'okpuru ViewCacheTweaks nke ibe a. Ndị ọrụ nwere otu profaịlụ na-ekerịta faịlụ cache nke nlele, belụsọ ma akụkụ nke nlele n'onwe ya dị iche (mmasị, igodo nke ndị na-ege ntị): ndị ahụ nwere profaịlụ nke ha, maka naanị ibe a.</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>Profaịlụ</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>Nlele a (node %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: onye ọrụ ọ bụla abanyela nwere faịlụ cache nke ya.</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>ViewCacheTweaks na-arụ ọrụ: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>Akụkụ</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>Uru</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>Ọ dịghị akụkụ dabere na onye ọrụ (ViewCacheTweaks).</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>nlele a</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>Detuo dị ka ederede</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>Ọrụ</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>Enweghị ike ịgụ nkenye ọkwa ọ bụla.</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>ID ọkwa</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Ọrụ</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>Oke</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>Ekenyere</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>onye ọrụ ahụ</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>otu %name (ihe %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>Edetuola</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>Enweghị ike idetuo.</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>onye na-ege ntị wepụrụ ya</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>Ndị ọbịa amaghị aha</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>otu ihe ahụ dị ka nke gị</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>dị iche</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>Profaịlụ ndị ọbịa na-amaghị aha na-enweta n'okpuru otu ViewCacheTweaks ahụ, ya na mmasị ndabara, na-enweghị akụkụ nke nlele: a pụghị ịjụ onye na-ege ntị na-agụ nnọkọ maka ha.</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>Mmasị</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>Ọ dịghị ụdị nlele dabere na mmasị onye ọrụ (site.ini [ContentSettings] CachedViewPreferences).</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>Mmasị ndị nlele nke ụdị nlele ndị a dabere na ha (CachedViewPreferences), ya na uru onye ọrụ ma ọ bụ ndabara. Ha dị na profaịlụ dị ka userpreferences, nke ụdị nlele niile ọnụ.</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>Ọnọdụ ọhụụ</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>Otu mmasị</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>Ndabara</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>Iwu</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>Gosi iwu nke ọkwa (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>A na-ebudata iwu ndị ahụ site na sava mgbe e meghere ngalaba a, otu ibe n'otu oge, a pụkwara ịhazi ha site na modul na ọrụ.</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>Ọrụ</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>Modul niile</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>Ọrụ niile</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>Oke</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>Gosi ọzọ</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>Ọkwa ndị a enweghị iwu ọ bụla.</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>Ọ dịghị iwu kwekọrọ na nzacha.</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%shown n'ime %matching iwu (%total na ngụkọta)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>A na-ebudata ya mgbe e meghere ya.</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>module/function, ọrụ, mmachi</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>Chọọ amụma ndị ahụ</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>Bubata ọzọ</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>Modul/ọrụ</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>Ọrụ niile (amụma %count)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>Enweghị amụma kwekọrọ.</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%shown n'ime amụma %matched</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>Enweghị azịza</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>ezoro ezo</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>Gosi nkọwa</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>Zoo nkọwa</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Mepee</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>Mepee ha niile</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>Mechie ha niile</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>Igodo ma ọ bụ uru</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>Chọọ n'ime oge nnọdụ</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Ụdị</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>%count ọzọ</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>etinyere n'ime miri emi nke ukwuu iji gosi</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>ebipụrụ, mkpụrụedemede %count n'ozuzu</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Malitere</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>Aha kuki</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>ID oge nnọdụ</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>Onye njikwa</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>Ụzọ nchekwa</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>Ndabara PHP</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>Ogologo ndụ (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>Kuki</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>ogologo ndụ %s sek</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>Oge nnọdụ PHP nke gị, dị ka ọ dị mgbe e meghere ngalaba ahụ, ọ dịghị mgbe ọ bụ nke ọzọ. A na-ezo uru nke igodo ndị yiri ihe nzuzo (tokens, hashes, okwuntughe) (debugbar.ini SessionMask[]); a na-egosi ihe ndị ọzọ niile dị ka e chekwara ha, gụnyere data nkeonwe.</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>igodo %count, %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>buru ibu</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>Oge nnọdụ ahụ tọgbọrọ chakoo.</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>Amaliteghị oge nnọdụ ọ bụla maka arịrịọ a.</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Mgbatị %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>Isi sistemụ na ndị ọzọ</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>Egosighị ntinye niile: oge nnọdụ ahụ nwere karịa ihe enwere ike idepụta ebe a.</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>Edepụtaghị igodo %count.</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>Okpokolo</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>A na-ezokwa uru ndị yiri token (JSON Web Token, nzere nke isi Authorization, igodo nzuzo, ogologo ederede hex ma ọ bụ nke enweghị usoro), n'agbanyeghị aha igodo ha (debugbar.ini SessionValueMask[]).</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>Igodo ahụ yiri ihe nzuzo (debugbar.ini SessionMask[]).</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>Uru ahụ yiri token.</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>N'okpuru igodo ezoro ezo.</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>Oge nnọdụ ahụ dị ka ederede, ezoro ezo dị ka tebụl ahụ.</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>Oge nnọdụ ahụ karịrị %size (debugbar.ini SessionWarnBytes): arịrịọ ọ bụla nke onye ọrụ a na-agụ oge nnọdụ ahụ dum, ma na-ede ya mgbe ọ gbanwere.</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP na-edobe oge nnọdụ a na faịlụ ma kpọchie faịlụ ahụ maka arịrịọ ahụ dum: arịrịọ nke otu onye ọrụ (ọtụtụ taabụ, oku AJAX) na-echere ibe ha.</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>Debe ya ka ọ mepere emepe</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>Karịrị %size (debugbar.ini SessionWarnBytes): arịrịọ ọ bụla nke onye ọrụ a na-agụ oge nnọdụ ahụ dum.</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%hits n'ime %count agụrụ site na cache</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>Enweghị ndebiri e sere (ele a gụrụ site na cache ele anaghị ese nke ọ bụla).</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>Nkenye ọrụ</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>Ọrụ na ntụziaka iwu</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>dị iche na nke ndị ọbịa na-enweghị aha</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>dị ka nke ndị ọbịa na-enweghị aha</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70302,6 +71285,14 @@ Ichọrọ ịgbanwe klasị nke nọdụ ahụ site n&apos;iji ọrụ mgbanwe.
     <message>
         <source>not sent</source>
         <translation>ezigaghị</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Cronjob ọkwa na-edekọ ọsọ ya ọ bụla ebe a. Tinye akụkụ frequent na crontab, ma ọ bụ gbaa exp:notification:run --apply.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>Jiri njikwa iwu: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -76020,6 +77011,98 @@ Ichọrọ ịgbanwe klasị nke nọdụ ahụ site n&apos;iji ọrụ mgbanwe.
         <source>This topic is not Released; readers do not see it.</source>
         <translation>Atọhapụbeghị isiokwu a; ndị na-agụ ya anaghị ahụ ya.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Mbugharị</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Mgbanwe na nrụnye echekwara dị ka faịlụ: ọnọdụ ha, ọgbụgba ha, ịgba na ịtụgharị azụ.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Bipụta otu nnomi nkwụsi ike nke saịtị na GitHub Pages ma ọ bụ ọgbakọ git ọ bụla.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Mbipụta nkwụsi ike</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>Na Nyocha</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>Ndị na-agụ ya na-ahụ peeji a.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>Ezoro ya ndị na-agụ ya ruo mgbe mmadụ tọhapụrụ ya.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>Peeji a nọ na Nyocha ugbu a. Ezoro ya ndị na-agụ ya ruo mgbe a tọhapụrụ ya.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>Atọhapụla peeji a: ndị na-agụ ya na-ahụ ya ugbu a.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>Peeji a bụ Ndepụta mbụ ọzọ. Ezoro ya ndị na-agụ ya ruo mgbe a nyochara ya ma tọhapụ ya.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>Tọhapụ ugbu a</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>Naanị onye ọrụ nwere ọrụ %role na-edeghị ụdị a nwere ike ịtọhapụ ya.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>Isiokwu Enyemaka na-eche ntọhapụ</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>Ọ na-ezo ya ndị na-agụ ya ruo mgbe a tọhapụrụ ya ọzọ.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>Onye nyocha ga-elele ya ọzọ. Ndị na-agụ ya ahụbeghị ya.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>Ndị na-agụ ya na-ahụ ya ozugbo.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>Ọ na-ewepụ ya na nyocha maka ọrụ ọzọ. Ndị na-agụ ya anaghị ahụ ya.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>Zoo peeji a ndị na-agụ ya?</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>Zighachi peeji a na Ndepụta mbụ?</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>Ndị na-agụ ya anaghị ahụ %title ọzọ ruo mgbe mmadụ tọhapụrụ ya ọzọ.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title na-alaghachi na Ndepụta mbụ maka ọrụ ọzọ. Ndị na-agụ ya ka anaghị ahụ ya, ọ chọkwara nyocha ọhụrụ tupu a tọhapụ ya.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Kagbuo</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>Isiokwu ndị a nọ na Nyocha. Ndị na-agụ ya ga-ahụ ha ozugbo onye na-edeghị ụdị nke ugbu a tọhapụrụ ha.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76475,6 +77558,46 @@ Ichọrọ ịgbanwe klasị nke nọdụ ahụ site n&apos;iji ọrụ mgbanwe.
         <source>None.</source>
         <translation>Enweghị.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>site na ngwa authenticator</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>site na koodu e zitere na ozi-e</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>site na koodu mgbake</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>site na igodo nbanye</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>site na akaụntụ mpụga</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Omume nchekwa</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>E gosipụtara ya dị ka netwọk ya; a na-echekwa adreesị ahụ dị ka ntọala nchekwa data nke saịtị si kwuo.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Edeghị ya</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Ebe</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>ihe dị ka</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76718,6 +77841,42 @@ Ichọrọ ịgbanwe klasị nke nọdụ ahụ site n&apos;iji ọrụ mgbanwe.
         <source>Manage devices</source>
         <translation>Jikwaa ngwaọrụ</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>site na ngwa authenticator</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>site na koodu e zitere na ozi-e</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>site na koodu mgbake</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>site na igodo nbanye</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>site na akaụntụ mpụga</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Omume nchekwa</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Edeghị ya</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Ebe</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>ihe dị ka</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76797,6 +77956,14 @@ Ichọrọ ịgbanwe klasị nke nọdụ ahụ site n&apos;iji ọrụ mgbanwe.
         <source>View the sessions of this user</source>
         <translation>Lee oge nnọdụ nke onye ọrụ a</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>E jiri akaụntụ gị %login na %site banye ugbu a site n&apos;ebe ọ na-esiteghị banye n&apos;oge na-adịbeghị anya:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>Ebe dị ka</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76835,6 +78002,10 @@ Ichọrọ ịgbanwe klasị nke nọdụ ahụ site n&apos;iji ọrụ mgbanwe.
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%browser na %os</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Akụkọ nbanye</translation>
     </message>
 </context>
 <context>
@@ -77043,6 +78214,82 @@ Ichọrọ ịgbanwe klasị nke nọdụ ahụ site n&apos;iji ọrụ mgbanwe.
         <source>The passkey could not be checked. Please try again.</source>
         <translation>Enweghị ike inyocha igodo nbanye ahụ. Biko nwaa ọzọ.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>Akaụntụ ndị na-abanye naanị site na igodo nbanye enweghị ike iji okwuntughe ebe a: họrọ “Banye site na igodo nbanye”.</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>Igodo nbanye nke %login</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>Igodo nbanye akaụntụ a ji abanye. Wepụ nke dị na ngwaọrụ furu efu ma ọ bụ e zuru ezu: ọ gaghị enwe ike ịbanye ọzọ. Onye nwe ya na-etinye ndị ọhụrụ n&apos;onwe ya.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>Akaụntụ gị chọrọ igodo nbanye</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>Tinye igodo nbanye na akaụntụ gị</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>Tinye igodo nbanye ka ị gaa n&apos;ihu. Mgbe ahụ ị ga-eji ya banye kama naanị okwuntughe.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>Ịbanye site na igodo nbanye dị ngwa ma dịkwa nchebe karịa okwuntughe. Tinye otu ugbu a, ma ọ bụ gaa n&apos;ihu na-enweghị ya.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>Ọ bụghị ugbu a</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>Wepụ ikike igodo nbanye “%name”?</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>Ọ gaghị enwe ike ịbanye n&apos;akaụntụ a ọzọ. Ọ bụrụ na ọ bụ nke ikpeazụ, onye nwe ya ga-eji okwuntughe banye, ma ọ bụ ị ga-edobe nke ọhụrụ.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>Wepụ ikike igodo nbanye</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>Wepụ ikike</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>Akaụntụ a enweghị igodo nbanye.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>Ngwa nkwenye njirimara</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Amaghị</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>Igodo nbanye ikpeazụ gị: tinye ọzọ tupu i wepụ ya.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>Akaụntụ a na-abanye naanị site na igodo nbanye (iwu igodo nbanye): ọ bụrụ na ọ dịghị nke fọdụrụ, ọ ga-eji okwuntughe ya banye ọzọ.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>Nke a bụ igodo nbanye ikpeazụ gị, akaụntụ gị enweghịkwa ike ịbanye na-enweghị ya. Buru ụzọ tinye igodo nbanye ọzọ.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>E wepụla ikike igodo nbanye “%name”. Ọ gaghị enwe ike ịbanye n&apos;akaụntụ a ọzọ.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77142,6 +78389,34 @@ Ichọrọ ịgbanwe klasị nke nọdụ ahụ site n&apos;iji ọrụ mgbanwe.
         <source>Code from your authenticator app</source>
         <translation>Koodu sitere na ngwa nkwenye njirimara gị</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>Ị na-achọ ihichapụ data kpamkpam ma ọ bụ ihicha ndekọ.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>Okwuntughe gị na igodo nbanye</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>Okwuntughe gị na koodu sitere na ngwa nkwenye njirimara gị</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>Ma ọ bụ:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>Ihe nchọgharị a enweghị ike iji igodo nbanye. Jiri ụzọ ọzọ, ma ọ bụ ihe nchọgharị ọzọ.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>Mgbe ị gara n&apos;ihu, ihe nchọgharị gị ga-arịọ otu n&apos;ime igodo nbanye gị.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>Gaa n&apos;ihu site na igodo nbanye</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77232,6 +78507,70 @@ Ichọrọ ịgbanwe klasị nke nọdụ ahụ site n&apos;iji ọrụ mgbanwe.
     <message>
         <source>Setup</source>
         <translation>Nrụnye</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>Ịgbanwe okwuntughe nke onwe, adreesị email, igodo nbanye, mbanye nzọụkwụ abụọ, koodu mgbake ma ọ bụ igodo API, na ịpụ na ngwaọrụ ndị ọzọ nke onwe.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>Ịmepụta na idezi ndị ọrụ, okwuntughe na ngwaọrụ ha, ntọala akaụntụ, ịnabata ma ọ bụ ịjụ akaụntụ ndị ọrụ ọhụrụ, ikenye ọrụ na idezi iwu.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>Ihichapụ data</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>Ihicha mkpọkọta ahịhịa, iwepụ ihe n&apos;ime ya na iwepụ ọtụtụ ihe n&apos;otu oge.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>Iwepụ, ibipụta na ichekwa ọdịnaya</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>Iwepụ ọdịnaya (gụnyere n&apos;ime mkpọkọta ahịhịa), ibipụta na ichekwa ndepụta mbụ; a na-ajụ mgbe e zipụrụ fọm ahụ. Agbanyụrụ ya na ndabara.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>Tupu omume dị nro, onye ọrụ banyere na-akwado ọzọ onye ọ bụ: site na okwuntughe ya na igodo nbanye, ma ọ bụ na-enweghị igodo nbanye site na okwuntughe ya na koodu nke ngwa nkwenye njirimara ya. Naanị ibe weebụ na-ajụ: interface REST, SOAP, WebDAV, nbanye expservices na ahịrị iwu anaghị ajụ mgbe ọ bụla.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>Ebe ntọala ndị a na-arụ ọrụ</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>Ntọala maka</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Nnweta saịtị ọ bụla</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>Naanị nnweta saịtị %name</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Mepee</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>Ndị a na-ajụ: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>Kaa akara n&apos;otu ndị ọrụ ka a jụọ naanị ndị otu ha (dịka ọmụmaatụ, ndị editọ). Ọ dịghị nke akaara: onye ọrụ ọ bụla.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>Echekwara na settings/override/site.ini.append.php, maka nnweta saịtị ọ bụla. Ichekwa na-arịọ gị ka ị kwado na ọ bụ gị.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>Echekwara na settings/siteaccess/%name/site.ini.append.php. Uru dị na settings/override na-akarị ya. Ichekwa na-arịọ gị ka ị kwado na ọ bụ gị.</translation>
     </message>
 </context>
 <context>
@@ -77334,6 +78673,6822 @@ Ichọrọ ịgbanwe klasị nke nọdụ ahụ site n&apos;iji ọrụ mgbanwe.
     <message>
         <source>Open the page</source>
         <translation>Mepee ibe ahụ</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from ruo %to n&apos;ime %count</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>Aha nbanye ma ọ bụ ID onye ọrụ: akaụntụ ihe omume ahụ metụtara ma ọ bụ onye ọrụ mere ihe ahụ.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Akaụntụ</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Omume</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>Mgbe e mesịrị</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>Nsonaazụ ọ bụla</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Tupu</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Onye mere ya</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Hichapụ</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Emechara</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>A na-echekwa ihe omume ruo ụbọchị %days.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>A na-echekwa ihe omume ruo mgbe e ji aka wepụ ha.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Ihe omume</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>Omume ọ bụla</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>Ihe omume niile nke akaụntụ a</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>Bupụ ndepụta ahụ dị ka CSV (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Adaala</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Site na</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>Mee ka ndepụta dị warara</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>Ọ dịghị ihe omume dabara.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>N&apos;otu ibe</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>Agbanyụọla ndekọ na audit.ini ([UserAuditSettings] UserAudit); ndepụta ahụ na-egosi ihe e dekọrọ na mbụ.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>E jụrụ ya</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Nsonaazụ</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Gosi</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>Tebụl nke ndekọ nyocha ndị ọrụ adịghị. Mepụta ya site na php update/common/scripts/6.0/createuseraudittable.php; ruo mgbe ahụ, faịlụ nyocha na-echekwa ihe omume ọ bụla.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>Ibe a chọrọ ebe nchekwa data SQL; ọ dịghị na MongoDB. Faịlụ nyocha na-echekwa ihe omume ọ bụla.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Ruo</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Ndekọ nyocha ndị ọrụ</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Onye ọrụ</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Mgbe</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Ebe</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>Onye gbanwere, mepụtara, kpọghere, gbanyụrụ, kpaghaara ma ọ bụ wepụrụ akaụntụ ọ bụla, onye banyere ma ọ bụ e jụrụ, na ọrụ ndị e kenyere: otu ahịrị maka ihe omume ọ bụla, ya na ubi ndị ahụ tupu na mgbe mgbanwe. A naghị edekọ okwuntughe na ihe nzuzo ma ọlị.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>otu</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>sistemụ</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>amaghị</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>Chekwaa akaụntụ gị</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>E jiri koodu mgbake banye n&apos;akaụntụ gị %login na %site.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>E jiri koodu mgbake</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Akaụntụ</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>Adreesị dị ka</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>Rịọ okwuntughe ọhụrụ ka ị banyeghachi, ma ọ bụ kpọtụrụ ndị nchịkwa saịtị ahụ.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>Rịọ okwuntughe ọhụrụ</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>Koodu mgbake ọ bụla na-arụ ọrụ otu ugboro. Ọ bụrụ na ekwentị gị furu efu, hazie ngwa authenticator gị ọzọ ma debe koodu mgbake ọhụrụ ahụ n&apos;ebe nchekwa.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>Mgbalị nbanye dara ada n&apos;akaụntụ gị</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>Site ugbu a gawa, nbanye ga-arịọ koodu tinyere okwuntughe gị. Ọ bụrụ na ọ bụ gị mere nke a, ọ dịghị ihe ị ga-eme.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>Ọ bụrụ na ọ bụ gị ma i chefuru okwuntughe gị, rịọ nke ọhụrụ. Ọ bụrụ na ọ bụghị gị, họrọ okwuntughe siri ike karị ma gbanye mbanye nzọụkwụ abụọ.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>Ọ bụrụ na ọ bụghị gị mere nke a, mmadụ nwere ike ịma okwuntughe gị: gbanwee ya ugbu a ma lelee ebe akaụntụ gị banyere.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>Koodu mgbake fọdụrụ</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>Nyochaa ngwaọrụ gị</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>Ịdọ aka na ntị nchekwa</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>Mmadụ nwara ịbanye n&apos;akaụntụ gị %login na %site jiri okwuntughe na-ezighị ezi ugboro %count n&apos;usoro.</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>Ihe omume nchekwa mere n&apos;akaụntụ gị %login na %site.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>Nke a bụ ịdọ aka na ntị nchekwa gbasara akaụntụ gị. A na-eziga ya maka mgbanwe ọ bụla dị otu a, enweghịkwa ike ịgbanyụ ya.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Oge</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>Agbanyụrụ mbanye nzọụkwụ abụọ maka akaụntụ gị %login na %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>Agbanyụrụ mbanye nzọụkwụ abụọ</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>Agbanyere mbanye nzọụkwụ abụọ maka akaụntụ gị %login na %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>Agbanyere mbanye nzọụkwụ abụọ</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>Ekpochiri akaụntụ gị %login na %site mgbe ọtụtụ nbanye dara ada.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>Ugbu a, ọ bụ naanị okwuntughe gị na-echekwa akaụntụ gị. Ọ bụrụ na ọ bụghị gị mere nke a, gbanyeghachi mbanye nzọụkwụ abụọ mgbe i gbanwechara okwuntughe gị.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>Ekpochiri akaụntụ gị</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>Etinyere igodo nbanye na akaụntụ gị %login na %site.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>Onye ọ bụla jidere igodo nbanye a nwere ike ịbanye n&apos;akaụntụ gị na-enweghị okwuntughe gị. Ọ bụrụ na ọ bụghị gị tinyere ya, wepụ ya n&apos;okpuru Igodo nbanye ma gbanwee okwuntughe gị.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>Ewepụrụ igodo nbanye n&apos;akaụntụ gị %login na %site.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>Ọ gaghị enwe ike ịbanye n&apos;akaụntụ gị ọzọ. Ọ bụrụ na ọ bụghị gị wepụrụ ya, lelee igodo nbanye na ngwaọrụ gị.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>Etinyere igodo nbanye na akaụntụ gị</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>Ewepụrụ igodo nbanye n&apos;akaụntụ gị</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>Omume nchekwa</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Omume nchekwa nke %name</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Abanyela</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Mgbalị nbanye dara ada</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Apụọla</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Ewepụrụ oge nnọdụ</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Nbanye site na ngwaọrụ ọhụrụ</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Nbanye site n&apos;ebe ọhụrụ</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Ekwenyela njirimara (“Kwenye na ọ bụ gị”)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Nlele njirimara dara ada</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Ejiri igodo nbanye banye</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Nbanye site na igodo nbanye dara ada</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Ajụrụ nbanye: koodu nzọụkwụ abụọ adịghị ma ọ bụ ezighị ezi</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Koodu nzọụkwụ abụọ ezighị ezi</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Ekpochiri akaụntụ mgbe nbanye dara ada</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Emepere akaụntụ</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Agbanwere okwuntughe</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Mgbanwe okwuntughe dara ada</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Edoghachiri okwuntughe</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Arịọrọ okwuntughe ọhụrụ</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Agbanwere adreesị ozi-e</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Agbanwere aha onye ọrụ</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Mbanye nzọụkwụ abụọ gbanyere</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Mbanye nzọụkwụ abụọ gbanyụrụ</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Ejiri koodu mgbake</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Koodu mgbake ọhụrụ</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Emepụtara okwuntughe ngwa</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Akagburu okwuntughe ngwa</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Agbakwunyere igodo nbanye</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Ewepụrụ igodo nbanye</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Akaụntụ kpọghere</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Akaụntụ gbanyụrụ</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Ha niile</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Nbanye na oge nnọdụ</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Mgbanwe akaụntụ</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Chọrọ nlebara anya</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>site n&apos;aka gị</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>site n&apos;aka onye ọrụ ahụ</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>site n&apos;aka %login</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>Usoro</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>Nchọgharị</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>Sistemụ arụmọrụ</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Ngwaọrụ</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>Ebe</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>Obodo</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Oge nnọdụ</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>Nke ọ bụ</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>Ụzọ ozi</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Mgbalị dara ada</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>Koodu fọdụrụ</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>Onye njikwa nbanye</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Omume nchekwa</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Omume nchekwa nke %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Nbanye na mgbanwe na nchekwa akaụntụ gị. Ọ bụrụ na ị hụ ihe ị na-emeghị, gbanwee okwuntughe gị ma wepụ ngwaọrụ ị na-amataghị.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>Nbanye na mgbanwe na nchekwa akaụntụ a.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Ngwaọrụ gị</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Gbanwee okwuntughe</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>Laghachi n&apos;akaụntụ</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>A naghị edekọ omume nchekwa</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>A na-agụ ya site na ndekọ nyocha ndị ọrụ, nke tebụl ya expuser_audit na-adịghị ma ọ bụ na-akwadoghị na ebe nchekwa data a. Gbaa php update/common/scripts/6.0/createuseraudittable.php, ma ọ bụ mmelite ebe nchekwa data nke 6.0.15.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Ụbọchị %days gara aga</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Nbanye n&apos;ime ụbọchị %days gara aga</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>Omume nchekwa nso nso a</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Gosi</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>dara ada</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>ajụrụ</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Edebeghị omume nchekwa ọ bụla.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>A na-edebe ihe omume nchekwa ruo ụbọchị %days.</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>A na-edebe ihe omume nchekwa ruo mgbe onye nchịkwa wepụrụ ha.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Budata data nbanye m</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Oge nnọdụ gị na ihe omume nchekwa gị dị ka faịlụ JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>A naghị edekọ oge nnọdụ na saịtị a, ya mere enweghị ike ịpụpụ ngwaọrụ ọzọ ọ bụla. Gbanwee okwuntughe gị ugbu a.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>Ewepụla oge nnọdụ %count ndị ọzọ. Ugbu a gbanwee okwuntughe gị.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Ọ dịghị ngwaọrụ ọzọ banyere. Ugbu a gbanwee okwuntughe gị.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Daalụ. Akaala ihe omume ahụ dịka nke gị.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Ihe omume ahụ achọghị azịza.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Oge ibe ahụ agafeela. Ọ dịghị ihe agbanwere; biko nwaa ọzọ.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Chekwaa akaụntụ gị</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Ọ bụrụ na ihe ọ bụla ebe a abụghị gị, wepụ ngwaọrụ ọ bụla ọzọ, wee họrọ okwuntughe ọhụrụ. A na-ewepụkwa ngwaọrụ ndị a debere n'ime site na Cheta m.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>A na-ewepụ ngwaọrụ ọ bụla ewezuga nke a n'arịrịọ ya na-esote. Mgbe ahụ ị ga-ahọrọ okwuntughe ọhụrụ.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Ee, wepụ ngwaọrụ ndị ọzọ</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Ọ bụ gị?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Ee, ọ bụ m</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Mba, chekwaa akaụntụ m</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Abanyela</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Mgbalị nbanye dara ada</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Apụọla</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Ewepụrụ oge nnọdụ</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Nbanye site na ngwaọrụ ọhụrụ</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Nbanye site n&apos;ebe ọhụrụ</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Ekwenyela njirimara (“Kwenye na ọ bụ gị”)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Nlele njirimara dara ada</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Ejiri igodo nbanye banye</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Nbanye site na igodo nbanye dara ada</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Ajụrụ nbanye: koodu nzọụkwụ abụọ adịghị ma ọ bụ ezighị ezi</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Koodu nzọụkwụ abụọ ezighị ezi</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Ekpochiri akaụntụ mgbe nbanye dara ada</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Emepere akaụntụ</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Agbanwere okwuntughe</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Mgbanwe okwuntughe dara ada</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Edoghachiri okwuntughe</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Arịọrọ okwuntughe ọhụrụ</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Agbanwere adreesị ozi-e</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Agbanwere aha onye ọrụ</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Mbanye nzọụkwụ abụọ gbanyere</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Mbanye nzọụkwụ abụọ gbanyụrụ</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Ejiri koodu mgbake</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Koodu mgbake ọhụrụ</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Emepụtara okwuntughe ngwa</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Akagburu okwuntughe ngwa</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Agbakwunyere igodo nbanye</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Ewepụrụ igodo nbanye</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Akaụntụ kpọghere</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Akaụntụ gbanyụrụ</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Ha niile</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Nbanye na oge nnọdụ</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Mgbanwe akaụntụ</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Chọrọ nlebara anya</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Omume nchekwa</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Omume nchekwa nke %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Nbanye na mgbanwe na nchekwa akaụntụ gị. Ọ bụrụ na ị hụ ihe ị na-emeghị, gbanwee okwuntughe gị ma wepụ ngwaọrụ ị na-amataghị.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Ngwaọrụ gị</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Gbanwee okwuntughe</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>A naghị edekọ omume nchekwa na saịtị a ugbu a.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Nbanye n&apos;ime ụbọchị %days gara aga</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Mgbalị dara ada</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Edebeghị omume nchekwa ọ bụla.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Budata data nbanye m</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Oge nnọdụ gị na ihe omume nchekwa gị dị ka faịlụ JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>A naghị edekọ oge nnọdụ na saịtị a, ya mere enweghị ike ịpụpụ ngwaọrụ ọzọ ọ bụla. Gbanwee okwuntughe gị ugbu a.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>Ewepụla oge nnọdụ %count ndị ọzọ. Ugbu a gbanwee okwuntughe gị.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Ọ dịghị ngwaọrụ ọzọ banyere. Ugbu a gbanwee okwuntughe gị.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Daalụ. Akaala ihe omume ahụ dịka nke gị.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Ihe omume ahụ achọghị azịza.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Oge ibe ahụ agafeela. Ọ dịghị ihe agbanwere; biko nwaa ọzọ.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Chekwaa akaụntụ gị</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Ọ bụrụ na ihe ọ bụla ebe a abụghị gị, wepụ ngwaọrụ ọ bụla ọzọ, wee họrọ okwuntughe ọhụrụ. A na-ewepụkwa ngwaọrụ ndị a debere n'ime site na Cheta m.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>A na-ewepụ ngwaọrụ ọ bụla ewezuga nke a n'arịrịọ ya na-esote. Mgbe ahụ ị ga-ahọrọ okwuntughe ọhụrụ.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Ee, wepụ ngwaọrụ ndị ọzọ</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Ọ bụ gị?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Ee, ọ bụ m</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Mba, chekwaa akaụntụ m</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>Okwuntughe</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>Okwuntughe na koodu nzọụkwụ abụọ</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>Ntanetị REST</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>Ntanetị SOAP</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>Otu nbanye maka ihe niile (single sign-on)</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>Abanyela tupu a malite idekọ oge nnọdụ</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Akụkọ nbanye</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>Ndị banyere na saịtị, ugboro ole akaụntụ na-abanye ma na-ada, na iwepụ onye ọrụ n&apos;ebe niile. Ọ na-arụ ọrụ na onye njikwa oge nnọdụ ọ bụla.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>Ewepụrụ oge nnọdụ ahụ. Ngwaọrụ ahụ ga-abanyeghachi.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>Ewepụrụ %login n&apos;oge nnọdụ %count.</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>%login enweghị oge nnọdụ na-aga n&apos;ihu.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>Ọ dịghị akaụntụ nwere ID ahụ, aha onye ọrụ ahụ ma ọ bụ adreesị ozi-e ahụ.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>Nke a bụ oge nnọdụ ị na-eji. Iji kwụsị ya, pụọ.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>Oge nnọdụ ahụ akwụsịlarị.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Oge ibe ahụ agafeela. Ọ dịghị ihe agbanwere; biko nwaa ọzọ.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>A naghị edekọ oge nnọdụ na saịtị a (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>Tebụl expuser_session adịghị</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>A ga-edekọ oge nnọdụ ozugbo e mepụtara ya: php update/common/scripts/6.0/createusersessiontable.php, ma ọ bụ mmelite ebe nchekwa data nke 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>Ugbu a na taa</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>Oge nnọdụ na-aga n&apos;ihu</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>Ndị ọrụ banyere</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>Nbanye taa</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>Mgbalị dara ada taa</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>Wepụ onye ọrụ n&apos;ebe niile</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>Oge nnọdụ ọ bụla nke akaụntụ ahụ na-akwụsị n&apos;arịrịọ ya na-esote, tinyere ndị “Cheta m” debere. Jiri ya mgbe akaụntụ nwere ike ịnọ n&apos;aka na-ezighị ezi; mgbe ahụ doghachi okwuntughe ya.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>ID onye ọrụ, aha onye ọrụ ma ọ bụ adreesị ozi-e</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>Pụọ ebe niile</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>Abanyela ugbu a</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>A na-egosi %limit ndị e jiri mee ihe n&apos;oge na-adịbeghị anya.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Onye ọrụ</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Ngwaọrụ</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adreesị</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>Abanyela</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>Ọrụ ikpeazụ</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Omume</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>Ngwaọrụ a</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Edeghị ya</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>Pụọ</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>Ọ dịghị oge nnọdụ banyere.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Ụbọchị %days gara aga</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>A na-agụ nbanye na mgbalị dara ada site na ndekọ nyocha ndị ọrụ, nke na-adịghị; a na-agụ oge nnọdụ ọhụrụ.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>Ụbọchị</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>Nbanye</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Mgbalị dara ada</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>Oge nnọdụ ọhụrụ</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>Onye njikwa oge nnọdụ: %handler. A na-agụ oge nnọdụ site na tebụl expuser_session, ya mere akụkọ ahụ na-arụ ọrụ na onye njikwa ọ bụla.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>Omume a na-enyo enyo n'ime awa %hours gara aga</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>Otu netwọk enweghị ike ịbanye na akaụntụ %accounts (mgbalị %count)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Akpọchiri akaụntụ mgbe nbanye dara ada</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>Nbanye %count dara ada n'otu akaụntụ</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>Banyere site na mba %count n'otu oge</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Omume nchekwa</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Oge nnọdụ</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>A na-agụ nbanye dara ada site na ndekọ nyocha ndị ọrụ, nke na-adịghị ebe a.</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>Ọ dịghị ihe a na-enyo enyo: ọ dịghị akaụntụ nwere nbanye dara ada ugboro ugboro, ọ dịghị netwọk na-anwale ọtụtụ akaụntụ, ọ dịghị akaụntụ banyere site n'ọtụtụ mba.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>Ịdọ aka na ntị nchekwa maka akaụntụ gị</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>Ihe omume nchekwa mere n&apos;akaụntụ gị %login: %event. Ọ bụrụ na ọ bụghị gị, chekwaa akaụntụ gị na %url.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Nrụnye</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>Jụọ ọdịnaya saịtị a naanị ubi ndị ibe chọrọ, n'otu arịrịọ. Schema na-eso klaasị ọdịnaya; ajụjụ ọ bụla na-arụ ọrụ site n'ikike onye ọrụ zitere ya.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>Agbanyụrụ GraphQL API na Nnweta saịtị a. Gbanye ya na graphql.ini: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>Etinyeghị ọbá akwụkwọ GraphQL (webonyx/graphql-php 15).</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>Ebe njedebe</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>Ọbá akwụkwọ</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>Schema</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>Klaasị ọdịnaya %count, schema %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>Ajụjụ</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>Mgbanwe (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Gbaa</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>Azịza</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>Ọ na-agba…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>Enweghị ike ịgụ azịza ahụ.</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>Ajụjụ ahụ na-arụ ọrụ site n'ikike gị, ebe ị banyere na nnọkọ a.</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%count n'ime %seconds s</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>enweghị oke</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>Omimi</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>Mgbagwoju anya</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>Ihe n'otu ndepụta</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (ndabara %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>Arịrịọ kwa onye ọrụ ma ọ bụ igodo</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>Arịrịọ kwa adreesị amaghị aha</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>Introspection</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>Naanị ajụjụ echekwara</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>Ajụjụ kachasị ukwuu</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>baịtị %bytes</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>Mbulite kachasị ukwuu</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>Nnweta saịtị %siteaccess adịghị.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>Agbanyela mmegharị na %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>Agbanyụla mmegharị na %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>Agbanyela GraphQL API na %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>Agbanyụla GraphQL API na %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>Enweghị ike ide ntọala: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>Ehichapụla cache nzaghachi: e wepụrụ azịza %count.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>Kaa igbe dị n'akụkụ ajụjụ ahụ iji wepụ ya.</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>Enweghị ike iwepụ ajụjụ ahụ: a na-ewepụ ajụjụ e nyere na ndekọ nke PersistedQueryDirectoryList[] ya na faịlụ ya.</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>E wepụla ajụjụ echekwara.</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>Mmegharị</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>agbanyere</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>agbanyụrụ</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Nnweta saịtị niile</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>Ebe API na mmegharị ya na-aza. Bọtịnụ ndị a na-ede graphql.ini, dị ka ./console exp:graphql:enable na exp:graphql:disable na-eme.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Nnweta saịtị</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>GraphQL API</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Gbanwee</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Gbanyụọ</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>Mmegharị agbanyụrụ</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>Mmegharị agbanyere</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Gbanye</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>Oke</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>graphql.ini [GraphQLSettings] nke Nnweta saịtị a.</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>Cache nzaghachi</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>Azịza nke ajụjụ echekwara, a na-edebe ha dịka ikike onye ọrụ siri dị ma ha na-agwụ oge ọ bụla e bipụtara ọdịnaya.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Ọnọdụ</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>Azịza edebere</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>azịza %count, baịtị %bytes</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>Edebere kachasị</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds s</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>Ngwụcha ikpeazụ</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>Hichapụ cache nzaghachi</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>Ajụjụ echekwara</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>E chekwara ya site na ./console exp:graphql:persist, ma ọ bụ site n'aka ndị ahịa (automatic persisted queries); a na-akpọ ya site n'aha ma ọ bụ SHA-256.</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>Aha</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Nha</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Ebee</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Wepụ</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>e nyere</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>echekwara</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>Ee, wepụ ajụjụ a</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>Enweghị ajụjụ echekwara ka ugbu a.</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>Igodo API</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>Igodo API nkeonwe nwere mpaghara graphql:read (ajụjụ) ma ọ bụ graphql:write (mmegharị). Mepụta ma kagbuo ha na peeji Nnweta API, ma ọ bụ site na ./console exp:graphql:keys.</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>Nnweta API</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>Igodo niile</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>Igodo</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Aha</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Onye nwe</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>Mpaghara</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>Ojiji ikpeazụ</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>na-arụ ọrụ</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>agwụla</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>akagburu</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>ọ dịbeghị mgbe</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>Enweghị igodo API nwere mpaghara GraphQL ka ugbu a.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>Agbanyụla GraphQL API na Nnweta saịtị %siteaccess, nke na-egosi ibe a; tebụl dị n'okpuru na-egosi ebe ọ na-aza.</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>Maka Nnweta saịtị %siteaccess, nke na-egosi ibe a.</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>Webhook</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>Ihe omume ọ bụla ebe njedebe rịọrọ (publish, update, trash, delete, move, hide, reveal, mutation) ka a na-ezigara ya, ebinyere aka, site n'akụkụ cronjob graphqlwebhooks. ./console exp:graphql:webhooks na-eme otu ihe ahụ dị ka ngalaba a.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Ihe omume</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>ha niile</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Nnweta saịtị ọ bụla</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>mebiri emebi</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>enweghị ihe nzuzo</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>Na-echere</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count a hapụrụ</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>Nnyefe ikpeazụ</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Ziga nnwale</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>Ee, wepụ webhook a</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>Enweghị webhook ka ugbu a.</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>Tinye webhook</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>Tinye</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>Nnyefe ndị na-adịbeghị anya</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Oge</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Nsonaazụ</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>Ndenye aha</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>Mmelite ozugbo maka ndị ahịa: iyi ihe omume na /api/graphql/subscribe, na WebSocket (graphql-transport-ws) na Velocity. Ihe omume ọ bụla na-aga naanị n'aka ndị denyere aha nwere ike ịgụ ọdịnaya ya.</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>Mepere ugbu a</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>Kachasị mepee</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>%total na mkpokọta, %user kwa onye ọrụ, %address kwa adreesị</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>Ndenye aha na-enweghị aha</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>Ogologo iyi</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>Enweghị ike ịtinye webhook ahụ: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>Agbanweela webhook %name; ihe nzuzo mbinye aka ya ka dị.</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>Enweghị ike ịchekwa ihe nzuzo mbinye aka (Nrụnye &gt; Ihe nzuzo).</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>Etinyela webhook %name. Ihe nzuzo mbinye aka ya, egosiri naanị otu ugboro a: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>Enweghị webhook %name.</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>Webhook %name azaghị: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>Webhook %name zara %status n'ime %ms ms.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>Kaa igbe dị n'akụkụ webhook ahụ iji wepụ ya.</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>Ewepụla webhook %name.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>Agbanyụrụ GraphQL API na Nnweta saịtị a.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>Etinyeghị ọbá akwụkwọ GraphQL.</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>Jiri GET ma ọ bụ POST.</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>Ahụ arịrịọ ahụ abụghị ihe JSON.</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables abụghị ihe JSON.</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions abụghị ihe JSON.</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>Ziga ajụjụ ahụ site na POST.</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>Arịrịọ ahụ enweghị ajụjụ.</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>Ajụjụ ahụ karịrị baịtị %max n&apos;ogologo.</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>Njehie dị n&apos;ime sava</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node chọrọ otu n&apos;ime id, remoteId, path na urlAlias, naanị otu.</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content chọrọ otu n&apos;ime id na remoteId, naanị otu.</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>Akara cursor nke after esiteghị na API a.</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>Enweghị aha ọzọ onyonyo %alias (image.ini [AliasSettings] AliasList[]).</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>Ọ bụ naanị ajụjụ echekwara ka a na-anabata ebe a: ziga id nke ajụjụ echekwara.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>Hash nke ajụjụ echekwara abụghị SHA-256.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>Hash nke ajụjụ echekwara adabaghị na ajụjụ ahụ.</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>Arịrịọ karịrị akarị: ọ kachasị %limit n&apos;ime sekọnd %window. Nwaa ọzọ mgbe sekọnd %reset gachara.</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>Ajụjụ ahụ dị omimi ọkwa %depth; ọ kachasị %max ka anabatara.</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>Ajụjụ ahụ nwere mgbagwoju anya %complexity; ọ kachasị %max ka anabatara.</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>Arịrịọ a enweghị ike ịgụ schema ahụ (introspection).</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search chọrọ ederede ma ọ bụ nzacha (classes, subtree, sections, publishedAfter, publishedBefore).</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument abụghị ụbọchị (ISO 8601, 2026-10-30).</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag chọrọ otu n&apos;ime id, remoteId na path, naanị otu.</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout chọrọ otu n&apos;ime id, identifier na urlAlias, naanị otu.</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>Ubi operations nke arịrịọ multipart abụghị otu arịrịọ JSON.</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>Ubi map nke arịrịọ multipart abụghị ihe JSON.</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>Arịrịọ multipart enweghị faịlụ %field.</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>Ụzọ nke maapụ ubi ga-amalite na variables.: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>Faịlụ %name erughị ebe a n'ozuzu (njehie mbulite %error).</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>Faịlụ %name karịrị baịtị %max.</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>Enweghị ike ịlele faịlụ %name.</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>Agbanyụrụ mmegharị na Nnweta saịtị a (graphql.ini [GraphQLSettings] MutationsEnabled).</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>Ziga mmegharị site na POST.</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>Banye ka ịgbanwee ọdịnaya.</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>Igodo API enweghị mpaghara %scope.</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>Mmegharị nwere nnọkọ chọrọ tokin fọm nke nnọkọ ahụ (isi X-CSRF-Token).</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>uploadFromUrl agbanyụrụ: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] akpọghị aha sava ọ bụla.</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>Adreesị ga-abụrịrị adreesị https.</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>Sava %host adịghị na graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>Enweghị ike iweta faịlụ ahụ.</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload bụ naanị ụdị ntinye.</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>Ihe agbanwe nke ụdị Upload na-anabata faịlụ nke arịrịọ multipart.</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>E werela remote id %remoteId.</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>Ọdịnaya ahụ enweelarị ntụgharị na %language: jiri updateContent.</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>Nye opekata mpe otu ubi.</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>Enweghị ike ịme ụdị ọhụrụ (ọdịnaya ahụ nwere ndepụta mbụ karịrị akarị).</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>Ụdị %version abụghị ndepụta mbụ.</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent chọrọ otu n'ime id na nodeId, naanị otu.</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>Enweghị ike ibuga ebe n'okpuru onwe ya.</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>Ọdịnaya ahụ enweelarị ebe n'okpuru %parentId.</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>Enweghị ike ichekwa uru nke ubi %field.</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>Asụsụ ọdịnaya %language adịghị.</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>Klasị ọdịnaya %class adịghị na schema.</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>Ọdịnaya ahụ adịghị, ma ọ bụ na ị nweghị ike ịgụ ya.</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>Ị nweghị ike ime nke a n'ọdịnaya a.</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>Klasị %class enweghị ubi %field enwere ike ide.</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>E nyere ubi %field ugboro abụọ.</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>Ubi %field na-anabata faịlụ: ziga ya dị ka mbulite (arịrịọ multipart).</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>Ubi %field anaghị anabata faịlụ.</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>Ubi %field chọrọ uru.</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>Usoro %format bụ naanị maka ubi ederede bara ụba; %field na-anabata uru ya otú ọ dị (RAW).</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>Ubi %field dị mkpa.</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>Enweghị ike ịgụ HTML ahụ.</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content na-anabata version naanị ya na id.</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>Tokin nlele adịghị mma ma ọ bụ agwụla.</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>Ọ bụghị origin (https://host ma ọ bụ https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>Ọ bụghị mpaghara nke GraphQL API: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>Ziga ndenye aha na /api/graphql/subscribe (iyi ihe omume ma ọ bụ WebSocket).</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>Arịrịọ ahụ akpọghị aha ọrụ ọ bụla nke akwụkwọ ahụ.</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>Ndenye aha na-arịọ kpọmkwem otu ubi.</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>Ndenye aha emepere karịrị akarị; nwaa ọzọ ma emechaa.</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>I nwere ndenye aha %max mepere emepe, nke kachasị ekwe.</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>Adreesị gị nwere ndenye aha %max mepere emepe, nke kachasị ekwe.</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>Agbanyụrụ ndenye aha na Nnweta saịtị a.</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>Banye iji denye aha (tokin ma ọ bụ igodo API nke onwe).</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>Ziga mmegharị na /api/graphql.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>Mbugharị</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Enweghị ike ịgụ ọnọdụ ahụ: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Tebụl nke mbugharị adịbeghị: ./console exp:upgrade --apply na-emepụta ha.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>Mbugharị %count adaala</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>Ọgbụgba na-aga n&apos;ihu, nke %user malitere</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>Akpọchiri nrụnye ahụ: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Na-eche</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Adaala</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>Ụmụ mgbei</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Ọgbụgba ikpeazụ</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>ọ dịbeghị</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>Mbugharị niile</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>Ọgbụgba e ṅomiri</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>Ọgbụgba nnwale</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>Mbugharị na-eche gbara n&apos;ime azụmahịa e mesịrị tụgharịa azụ: ọ dịghị ihe echekwara. N&apos;okpuru bụ ihe nke ọ bụla gbanwere n&apos;ebe nchekwa data.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>Ihe ọgbụgba ga-eme ugbu a. Ọ dịghị ihe a gbanwere: mbugharị ọ bụla na-eche na-edepụta mgbanwe ọ ga-eme, ọgbụgba ahụ na-edepụtakwa ihe ọ ga-eme tupu na mgbe e mesịrị.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>Ṅomie</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Gbaa</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>Ọgbụgba nnwale adaala: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>Nṅomi chọrọ PostgreSQL ma ọ bụ SQLite, ndị enwere ike ịtụgharị mgbanwe schema ha azụ; n&apos;ebe nchekwa data a, atụmatụ dị n&apos;okpuru bụ ihe ọgbụgba ga-eme.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>Mbugharị ndị ahụ</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>Mbugharị</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Ọnọdụ</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>Ihe ọ ga-eme</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>Nṅomi: %result n&apos;ime %ms millisekọnd</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>Enwebeghị mbugharị.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>Tupu na mgbe ọgbụgba gasịrị</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>Onyonyo nchekwa tupu</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>a na-ese ya, a na-eweghachikwa ya mgbe mbugharị dara</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>gbanyụrụ</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>Onyonyo nchekwa mgbe e mesịrị</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>a na-ese ya mgbe ọgbụgba gara nke ọma</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>Mbugharị %total: %pending na-eche, %done emechala, %failed adaala.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>Akụkọ ihe mere nke mbugharị</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>Ọgbụgba ọ bụla ya na onye ọrụ ya, gburugburu ya, onyonyo nchekwa ya na ihe e mere commit, tag na push. Enwere ike ịmaliteghachi ọgbụgba dara ada ma ọ bụ nke kwụsịrị; enwere ike ịtụgharị azụ ọgbụgba nwere onyonyo nchekwa e sere tupu ya.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>Enweghị ike ịgụ ọgbụgba ndị ahụ: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Tebụl nke mbugharị adịbeghị: ./console exp:upgrade --apply na-emepụta ha.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Gosi</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Ha niile</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>Ọgbụgba</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Malitere</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Site n&apos;aka</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>Onyonyo nchekwa</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Ebe nchekwa</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Omume</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>tupu</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>mgbe e mesịrị</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>nziga: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>Maliteghachi</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Tụgharịa azụ</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>Enweghị ọgbụgba n&apos;ọnọdụ a.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>Malitere ebe a</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>Ọgbụgba, mmaliteghachi na ntụgharị azụ a malitere na peeji ndị a, ya na akụkọ nke ọ bụla.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Gịnị</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Nsonaazụ</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Ntụgharị azụ</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>Ntụgharị azụ nke %target</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>Ọgbụgba %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Ihe ọgbụgba ahụ mere, ndekọ ya na akwụkwọ ndekọ ya. Ọgbụgba a malitere ebe a na-aga n&apos;ihu n&apos;azụ mgbe e mechiri peeji a; mepee peeji ahụ ọzọ ka ị soro ya.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>Maliteghachi ọgbụgba a</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>Tụgharịa ọgbụgba a azụ</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>Enweghị ike ịgụ ndekọ ahụ: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Ọganihu</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>%user malitere ya na %time.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>Na-enyocha koodu ma na-ese onyonyo nchekwa tupu ọgbụgba</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>Na-agba %id (%index n&apos;ime %total)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>%done n&apos;ime %total emechala</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>Mbugharị agbaala; na-eweghachi onyonyo nchekwa ma ọ bụrụ na otu dara</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>Na-ese onyonyo nchekwa mgbe ọgbụgba gasịrị, commit, tag na push</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>Na-eweghachi onyonyo nchekwa</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>Ọgbụgba ahụ agwụla. Na-ebunye akụkọ ya.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>Enweghị ike iso ọganihu ahụ. Bugharịa peeji ahụ ka ị hụ otú ọgbụgba ahụ si aga.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>Peeji a na-eso ọgbụgba ahụ ka ọ na-aga.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Bugharịa</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Akụkọ</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Oge o were</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms millisekọnd</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>Ihe ọgbụgba ahụ bipụtara dị ka njehie</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Ndekọ</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>Gburugburu</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>ọ dịghị</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Kwụsịrị</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Nkwenye</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Mkpado</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Nziga</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Ozi</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>Mbugharị nke ọgbụgba a</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>Isi mmalite</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>Akwụkwọ ndekọ ọgbụgba</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>Ọ bụ naanị njedebe nke akwụkwọ ndekọ ka egosiri.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>na-agba</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>kwụsịrị na-enweghị akụkọ</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>gara nke ọma</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>dara</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>a jụrụ ya</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>enweghị ike iru ebe nchekwa data</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>njehie ime</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>Ọgbụgba na-aga n&apos;ihu</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind nke %user malitere na %time.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>Soro ya</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>Akpọchiri nrụnye ahụ</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>Ọgbụgba ọzọ jidere mkpọchi ahụ (nkwalite ma ọ bụ ọgbụgba na console): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>emechala</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>na-eche</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>achọghị ya</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>amaghị</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>a tụgharịrị ya azụ</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>etinyela</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>a ga-etinye ya</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>eweghachiri ya</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>a ga-eweghachi ya</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>agbaghị ya</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>na-eche onye ọzọ</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>anabatara mgbanwe</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>a ga-anabata mgbanwe</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>e ṅomiri ya</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Mbugharị</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Ọnọdụ</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Akụkọ ihe mere</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>Tụgharịa %target azụ</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>A na-atụgharị ọgbụgba azụ gaa n&apos;onyonyo nchekwa e sere tupu ya, otu mbugharị site na down() ya. Iweghachi onyonyo nchekwa mbụ bụ maka ndị ọkachamara. Nke ọ bụla na-agba n&apos;azụ dị ka gị, mgbe e sesịrị onyonyo nchekwa nke ọnọdụ ugbu a.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>Enweghị ike ịgụ ihe enwere ike ịtụgharị azụ: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>Otu ọgbụgba</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>Otu mbugharị</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>Onyonyo nchekwa mbụ</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>Nkọwa</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ee</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>mba</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Onyonyo nchekwa</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Aha akara</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>E sere ya</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Ụdị</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>Akụkụ a ga-eweghachi</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>Ebe nchekwa data</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>Faịlụ nchekwa (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>Ntọala (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>Iweghachi ebe nchekwa data na-eweghachi ya n&apos;oge onyonyo nchekwa ahụ, gụnyere nnọkọ: a nwere ike ịgwa gị ka ị banye ọzọ mgbe e mesịrị. Ihe niile gbanwere kemgbe ahụ ga-efu; a na-ebu ụzọ ese onyonyo nchekwa nke ọnọdụ ugbu a.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>Amaara m ihe nke a na-eweghachi</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>Pịnye NJ nke onyonyo nchekwa ọzọ</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>Ee, tụgharịa ya azụ</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Kagbuo</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>Ọgbụgba ndị nwere onyonyo nchekwa e sere tupu ha.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>Họrọ</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>Enwebeghị ọgbụgba nwere onyonyo nchekwa.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>Mbugharị etinyere nwere ike ịtụgharị onwe ha azụ (ha nwere down()).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>Ọ dịghị mbugharị etinyere nwere down().</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>Onyonyo nchekwa mbụ (ndị ọkachamara)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>Enwebeghị onyonyo nchekwa.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>Gbaa mbugharị ndị ahụ</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>Ọgbụgba ahụ na-aga n&apos;azụ dị ka %user, peeji ya na-egosikwa ya ka ọ na-aga. Tupu mbugharị mbụ, a na-ese onyonyo nchekwa nke nrụnye; mgbe mbugharị dara, ọgbụgba ahụ na-akwụsị, a na-eweghachikwa onyonyo nchekwa ahụ.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>Buru ụzọ mee ọgbụgba nnwale</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Enweghị ike ịgụ ọnọdụ ahụ: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>Mbugharị na-eche</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>Ha na-agba n&apos;usoro a. Wepụ akara n&apos;otu iji hapụ ya, ya na ndị chọrọ ya, maka ọgbụgba ọzọ.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>Gbaa ya</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>Na-agbanye ọnọdụ mmezi mgbe ọ na-agba.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>Gbanwere mgbe etinyere ha</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>Faịlụ ndị a abụghị ndị etinyere. Ọgbụgba na-ajụ ha ma ọ bụrụ na a nabataghị mgbanwe ahụ site n&apos;ihe kpatara ya; a naghị agba ha ọzọ, a na-edekọ checksum ọhụrụ, a na-edebekwa ihe kpatara ya n&apos;akwụkwọ ndekọ nyocha.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>Nabata mgbanwe ndị ahụ</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Ihe kpatara ya</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>Ntọala ndabara bụ ndị dị nchebe. Igbe ọ bụla na-ahapụ otu nzọụkwụ.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>Enweghị onyonyo nchekwa</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>Enweghị onyonyo nchekwa tupu na mgbe ọgbụgba gasịrị: enweghị ike iweghachi ọdịda na-akpaghị aka.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>Enweghị mweghachi</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>Mgbe ọdịda gasịrị, hapụ nrụnye ahụ otú ọdịda ahụ hapụrụ ya.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>Debe mgbanwe a na-emebeghị commit</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>Gbaa n&apos;agbanyeghị na ntọala, ndọtị ma ọ bụ imewe nwere mgbanwe a na-emebeghị commit; ha na-abanye n&apos;onyonyo nchekwa ahụ.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>Enweghị commit</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>Emela commit nke faịlụ ọnọdụ na akwụkwọ ndekọ ọgbụgba (enweghịkwa tag na push).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>Enweghị push</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>Mee commit na tag, mana emela push.</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>Enweghị tag</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>Mee commit na push, mana etinyela tag n&apos;ọgbụgba ahụ.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>Ee, gbaa mbugharị ndị a ugbu a</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Ọ dịghị mbugharị na-eche.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>Laghachi n&apos;ọnọdụ</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>Mgbanwe na nrụnye a e dere otu ugboro dị ka faịlụ (ọdịnaya, klas, ọrụ, ntọala, schema) ma tinye ha na nrụnye ọ bụla nke saịtị ahụ n&apos;otu usoro. Ọgbụgba na-ebu ụzọ ese onyonyo nchekwa, na-eweghachi ya mgbe mbugharị dara, ma na-edekọ, na-eme commit ma na-eme push nke ihe o mere.</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>Gbaa %count na-eche</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Nchịkọta</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Na-eche</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Emechala</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Adaala</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>Achọghị ya</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>Ebe nchekwa data</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>azụmahịa: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>Mbugharị saịtị dị na migrations/, nke ndọtị dị na extension/&lt;name&gt;/migrations/. Ha na-agba n&apos;usoro aha ha na ihe ha chọrọ.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Ọgbụgba ikpeazụ</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>Faịlụ ahụ gbanwere mgbe etinyere ya.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>Enwebeghị mbugharị. ./console exp:migration:generate --skeleton &lt;name&gt; --apply na-ede nke mbụ.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>Ọgbụgba kacha ọhụrụ</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>Ọgbụgba niile</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>Enwebeghị ọgbụgba.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>Iṅomi ọgbụgba chọrọ iwu migration/run.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>Ọgbụgba na-aga n&apos;ihu: ṅomie mgbe ọ gwụrụ.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Nrụnye</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target abụghị ọgbụgba, abụghị mbugharị, abụghịkwa onyonyo nchekwa nke nrụnye a.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>Buru ụzọ kaa &quot;Ee, tụgharịa ya azụ&quot;.</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>Iweghachi onyonyo nchekwa mbụ bụ maka ndị ọkachamara: kaa &quot;Amaara m ihe nke a na-eweghachi&quot;.</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>Pịnye NJ nke onyonyo nchekwa ọzọ: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>Họrọ opekata mpe otu akụkụ a ga-eweghachi.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>Ọgbụgba a enweghị onyonyo nchekwa e sere tupu ya: tụgharịa mbugharị ya azụ otu otu, ma ọ bụ weghachi onyonyo nchekwa mbụ.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>Mbugharị a enweghị ike ịtụgharị onwe ya azụ: etinyebeghị ya, ma ọ bụ o nweghị down().</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Enweghị ike ịgụ fọm ahụ.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>Họrọ ọgbụgba a ga-amaliteghachi.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>Buru ụzọ kaa &quot;Ee, gbaa mbugharị ndị a ugbu a&quot;.</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>Họrọ opekata mpe otu mbugharị.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>Otu mbugharị gbanwere mgbe etinyere ya: nabata mgbanwe ahụ site n&apos;ihe kpatara ya, ma ọ bụ weghachi faịlụ ahụ.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>Kọwaa ihe mere e ji nabata mbugharị ndị gbanwere.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>Ihe kpatara ya enweghị ike ịkarị mkpụrụedemede 500.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>Ọgbụgba a malitere ebe a ka na-aga n&apos;ihu (%detail). Chere ka ọ gwụ.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>Ọgbụgba ọzọ jidere mkpọchi nke nrụnye ahụ: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>Ọgbụgba ahụ chọrọ onye ọrụ dị adị nke banyere.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Ahụghị mmemme ahịrị iwu php. Tọọ migration.ini [AdminSettings] PhpCliPath n&apos;ụzọ zuru ezu ya.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>Agbanyụrụ proc_open, ya mere enweghị ike ịmalite ọgbụgba ebe a. Gbaa ./console exp:migration:migrate --apply na sava.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>Enweghị ike ide na folda nke ọgbụgba: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>A malitere ọgbụgba ahụ mana o kwughị NJ usoro ya. Lelee %detail.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>Kpọọ aha ihe a ga-atụgharị azụ.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>Enweghị ike ịmalite ọgbụgba ahụ.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>Ndekọ mgbanwe</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>Mgbe ndekọ na-aga n'ihu, ihe ị gbanwere na nchịkwa ma ọ bụ na ogwe akụkụ nke saịtị ka a na-echekwa dị ka nzọụkwụ nke mbugharị: ọdịnaya, klas, ọrụ na iwu, ngalaba, ndị ọrụ na otu, aha ọzọ URL, ntọala. Kwụsị ya mgbe ị gwụchara, lee ihe o jidere, ma mepụta mbugharị site na ya.</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>Enweghị ike ịgụ ndekọ ndị ahụ: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>Tebụl ndekọ adịbeghị: buru ụzọ mee nkwalite (exp:upgrade --apply).</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>Agbanyụrụ ndekọ na migration.ini ([RecordingSettings] Recording=disabled).</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>Mgbanwe m</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>Na-edekọ naanị ihe ị gbanwere, ebe ọ bụla ị gbanwere ya, ruo mgbe ị kwụsịrị ya.</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>Ndekọ</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>kemgbe %time, mgbanwe %count ruo ugbu a.</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>Akara (nhọrọ)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>Gosi ihe o jidere</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Kwụsị ndekọ</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>Malite idekọ mgbanwe m</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>Windo maka saịtị niile</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>Na-edekọ mgbanwe ọ bụla nke onye ọrụ ọ bụla na nke njikwa ruo mgbe emechiri ya. Mgbe ị meghere ya, a ga-arịọ gị ka ị gosi na ọ bụ gị.</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Emepere</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>Mechie windo</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>Mepee windo maka saịtị niile</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>Ndekọ niile</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>A naghị edekọ akaụntụ onye ọrụ (aha nbanye, ozi-e, okwuntughe) na mpaghara akaụntụ ndị ọrụ ma ọlị.</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Mgbanwe</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>Saịtị niile</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>Mgbanwe nke %name</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Akwụsịla</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>Enwebeghị ndekọ ọ bụla.</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>Ndekọ %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>Ndekọ niile dị</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>Mbugharị ọ ga-emepụta</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>Mgbanwe ejikọtara n'otu nzọụkwụ maka ihe ọ bụla gbanwere: ihe mbugharị emepụtara site na ndekọ a ga-eme.</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>Enwere ike imepụta mbugharị site na ya ozugbo nrụnye a nwere ụdị nzọụkwụ YAML %types.</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>Ahapụrụ ya n'ụma: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>Ọ dịghị ihe edekọrọ.</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>Ihe o jidere</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>Mgbanwe %count, n'usoro e mere ha.</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Mgbanwe (otu)</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>Nzọụkwụ</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>Gbasara</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>%count ọzọ: ./console exp:migration:record:show na-edepụta ha niile.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Tụfuo</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>Na-ewepụ ndekọ ahụ na ihe o jidere. Ihe gbanwere na-anọgide na-agbanwe.</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>Ee, tụfuo ndekọ a</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>Na-edekọ…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>A na-edekọ mgbanwe gị maka mbugharị.</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>A na-edekọ mgbanwe ọ bụla na saịtị a maka mbugharị (windo maka saịtị niile).</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>Ndekọ saịtị niile amalitela: a na-edekọ mgbanwe ọ bụla nke onye ọrụ ọ bụla ruo mgbe ị kwụsịrị ya.</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>Ndekọ amalitela: a na-edekọ mgbanwe gị ruo mgbe ị kwụsịrị ya.</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>Akwụsịla ndekọ. Ihe o jidere ga-anọ ruo mgbe ị tụfuru ya.</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>Ewepụla ndekọ ahụ na ihe omume ya.</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>Enweghị ndekọ %id.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>Buru ụzọ kaa "Ee, tụfuo ndekọ a".</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>Naanị onye ọrụ dekọrọ nwere ike ịkwụsị ndekọ nnọkọ.</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>Họrọ ndekọ a ga-akwụsị.</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>Ndekọ ụdị a na-aga n'ihu ugbu a.</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>Enweghị ike ịgbanwe ndekọ ahụ: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>Mepụta mbugharị</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>Aha mbugharị ahụ (nhọrọ)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>E dere mbugharị %file. Mgbanwe ndị ọ dịghị nzọụkwụ nwere ike ime ka akpọrọ n'elu faịlụ ahụ, ka e jiri aka mee ha.</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>Ọ dịghị mbugharị e dere: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>Ọsọ ogologo n'akụkụ</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>Ebe efu na-ejide ntọala migration.ini [RunSettings].</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>Ọtụtụ kachasị ọtụtụ migration ndị a</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>Enweghị migration ọzọ mgbe (sekọnd) gasịrị</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>Ezumike n'etiti migration (sekọnd)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>Mkpa dị ala (1 ruo 19)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>Ebe ọsọ ogologo bụ ọnụọgụ zuru ezu site na 1 (ezumike: sekọnd site na 0 ruo 60, mkpa: 1 ruo 19), ma ọ bụ efu.</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>Ọ na-emechi onwe ya na %time.</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>Mechie onwe ya mgbe (nkeji, nhọrọ) gasịrị</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>Nkeji bụ ọnụọgụ zuru ezu site na 1 ruo 44640 (ụbọchị 31), ma ọ bụ efu.</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>Mbugharị %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>Mbugharị ọhụrụ</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>Mbugharị YAML: dee ya dị ka ederede ma ọ bụ wuo nzọụkwụ ya n'ime fọm ahụ, lelee ya, wee chekwaa ya n'ime folda mbugharị.</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>Mbugharị a agbaala, ya mere a gaghị echekwa ya ọzọ: nche nchikota nlele ga-ajụ faịlụ e gbanwere. Mee mgbanwe ahụ n'ime mbugharị ọhụrụ.</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>Sava weebụ enweghị ike ide faịlụ ahụ.</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>Ahịrị nkọwa ndị dị n'elu bụ isi okwu (description, author, requires, environments, engines). Mgbe a gbakwunyere ma ọ bụ gbanwee nzọụkwụ n'ime fọm ahụ, a na-edegharị mbugharị ahụ: a naghị edobe nkọwa ndị dị n'etiti nzọụkwụ.</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>Aha mbugharị ahụ</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>Ebe ọ ga-aga</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>Saịtị ahụ</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>Ederede YAML</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>Lelee</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Chekwaa</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Nzọụkwụ</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>Isi</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Dezie</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>Kpugharịa gaa n'elu</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>Kpugharịa gaa n'ala</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Wepụ</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>Enwebeghị nzọụkwụ: jiri fọm ahụ gbakwunye otu, ma ọ bụ dee ha n'ime ederede ahụ.</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>Gbanwee nzọụkwụ %number</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>Gbakwunye otu nzọụkwụ</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>E si n'ụdị nzọụkwụ mee fọm nke nzọụkwụ: isi ya, ihe nke ọ bụla na-anabata na ụzọ ọrụ ndị ọ bụ nke ha.</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>Ụdị nzọụkwụ</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>Gosi fọm ya</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>Nzọụkwụ ahụ nwere isi ndị ụdị ya amaghị; a na-ahapụ ha mgbe a gbanwere nzọụkwụ ahụ: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>Ụzọ ọrụ</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>Na</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>naanị na %modes</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>Nke ndabara: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>Ọnọdụ, ntụaka na okwu nkọwa</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>Aha=uru abụọ abụọ, e jiri rikoma kewaa ha. Uru nke nzọụkwụ a: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>Ọmụmaatụ</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>Gbanwee nzọụkwụ</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>Gbakwunye nzọụkwụ</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>Ihe exp:migration:check kwuru: isi okwu, akwụkwọ ahụ na nzọụkwụ ọ bụla nke ụdị nzọụkwụ ya lelere.</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>Mbugharị ahụ gafere nlele ahụ.</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Ọhụụ mbụ</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>YAML ahụ dị ka a ga-esi chekwaa ya.</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>Gosi YAML ahụ</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>Mbugharị YAML</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>agbaala</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>Enwebeghị mbugharị YAML.</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>Onye nchịkọta</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>Enweghị mbugharị YAML %id n'ime folda mbugharị.</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>Họrọ ụdị nzọụkwụ.</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>E gbakwunyela nzọụkwụ ahụ. Lelee mbugharị ahụ tupu ị chekwaa ya.</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>E gbanweela nzọụkwụ ahụ. Lelee mbugharị ahụ tupu ị chekwaa ya.</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>Họrọ otu nzọụkwụ.</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>Nzọụkwụ a enweghị fọm (okirikiri, ma ọ bụ ụdị nzọụkwụ nrụnye a na-enweghị): gbanwee ya n'ime ederede ahụ.</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>Họrọ ebe mbugharị ahụ ga-aga: saịtị ahụ ma ọ bụ ndọtị nọ n'ọrụ.</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>Echekwara %file. Mee ọgbụgba nnwale tupu mbugharị ahụ agbaa.</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>Echekwaghị ya: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>Ebe dị anya niile</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>Nrụnye ndị ọzọ nrụnye a na-enyefe mbugharị ya: nnyefe na-ezipu mbugharị gaa n'ebe dị anya a họọrọ ma gbaa ha n'ebe ahụ, ha niile n'otu oge na n'otu ọnọdụ. Ebe dị anya anaghị ejide ihe nzuzo ọ bụla: ihe njirimara nbanye ya na-akpọ aha otu dị na Nrụnye &gt; Ihe nzuzo.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>Ebe dị anya ọhụrụ</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Enyemaka</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>Nnwale njikọ nke %id</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>Ebe dị anya ndị ahụ</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>A na-arụ ọrụ n'ihe ruru %parallel ebe dị anya n'otu oge; otu usoro nwere ike iwe sekọnd %timeout n'ebe ọ bụla.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>Ebe dị anya</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adreesị</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Ihe njirimara nbanye</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>Otu</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>ntọala a ga-edozi</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>naanị faịlụ (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>Isi SSH</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>Okwuntughe</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>ọ dịghị (onye nnọchi SSH na isi nke ọgbakọ)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>Nwalee njikọ</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>Nnyefe nye otu na-aga n'ebe dị anya ọ bụla dị n'ime ya.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>Nyefee n'ebe dị anya</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>Edobebeghị ebe dị anya ọ bụla.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>Ebe dị anya %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>Ọ dịghị ihe a na-ezipu ma ọ bụ agba ebe a: Chekwaa na-ede ntọala na settings/override/migration.ini.append.php. Ihe njirimara nbanye bụ aha; uru ya na-anọ na Nrụnye &gt; Ihe nzuzo ma ọ bụ na gburugburu.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Nyochaa ntọala ndị a</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>Ntọala dị ka e tinyere ha, a chekwabeghị ha.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Nyochaa</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Ntọala ndị ahụ ziri ezi. A ga-ede ahịrị ndị a:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>Njem ozi</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>naanị aha; uru ya na-anọ na Nrụnye &gt; Ihe nzuzo</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Ahịrị ndị a ga-ede</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>Njikọ</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>Isi ọgbakọ</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. Ebe dị anya</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>Ihe a na-akpọ ebe dị anya ahụ na gburugburu ọ bụ.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>Njirimara</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>Mkpụrụedemede, ọnụọgụ, - na _, dịka production1. Ọ na-akpọ ebe dị anya ahụ aha n'akụkọ na na console (--remotes=production1), a pụghịkwa ịgbanwe ya emesịa.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... Nnyefe n'ọkwa na-agafe gburugburu n'usoro a.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>Nhọrọ, kewaa ya na rịkọma, dịka production. Nnyefe nye otu na-aga n'ebe dị anya ọ bụla dị n'ime ya.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. Njikọ</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>Otú faịlụ si eru ebe ahụ, na ebe nrụnye ahụ dị.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>Site na SSH, naanị ihe gbanwere, a na-amaliteghachi mbufe kwụsịrị. Nhọrọ kacha mma ebe a wụnyere rsync.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>SSH na scp maka faịlụ.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>SSH na sftp maka faịlụ.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>Naanị faịlụ: a na-ezipu mbugharị ma gụghachi ha, mana a pụghị ịgba ha n'ebe ahụ.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>FTP site na TLS; naanị faịlụ.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>Nrụnye ọzọ na sava a, n'ime folda.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Ọgbakọ</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>Aha ọgbakọ ma ọ bụ adreesị, dịka node1.example.com. Ọ bụghị maka local.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>Ọdụ ụgbọ mmiri</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>Hapụ ya efu: 22 maka SSH, 21 maka FTP.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Onye ọrụ</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>Ụzọ</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>Mgbọrọgwụ nrụnye ahụ n'ebe ahụ, dịka /var/www/site (maka FTP: ụzọ akaụntụ FTP na-ahụ).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>Ahịrị iwu PHP</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>PHP CLI dị n'ebe ahụ: php, ma ọ bụ ụzọ zuru ezu dịka /opt/plesk/php/8.4/bin/php.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>Skript console na-agba dị ka root n'ebe ahụ</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>Naanị mgbe onye ọrụ nke ebe dị anya ahụ bụ root (a na-agba ha mgbe ahụ na --allow-root-user).</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. Ihe njirimara nbanye</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>Otú nrụnye a si abanye n'ebe ahụ. Naanị aha ka a na-echekwa.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Enweghị</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>Onye nnọchi SSH na isi nke onye ọrụ nrụnye a na-agba dị ka ya (na mgbe niile maka local).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>Isi nkeonwe e debere dị ka ihe nzuzo.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>Okwuntughe e debere dị ka ihe nzuzo (FTP ji ya abanye).</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>Aha ihe nzuzo</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>Ihe nzuzo dị na Nrụnye &gt; Ihe nzuzo, dịka deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Nrụnye &gt; Ihe nzuzo</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>Ma ọ bụ ihe mgbanwe gburugburu</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>Ihe mgbanwe nke usoro sava na-ejide ya, dịka DEPLOY_KEY (echekwara dị ka env:DEPLOY_KEY). Ọ na-anọchi aha ihe nzuzo.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. Isi ọgbakọ</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>Nhọrọ, maka SSH, sftp na rsync.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>Akara mkpịsị aka nke isi ọgbakọ</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... dị ka ssh-keygen -l si ebipụta ya. Ọ bụrụ na e nyere ya, ọgbakọ ga-egosi isi a; ọ bụrụ na e nyeghị ya, a na-amụta isi ahụ na kọntaktị mbụ.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. Nyochaa</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>Nwalee njikọ ahụ site na ntọala dị n'elu, wee nyochaa ahịrị a ga-ede.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>Wepụ ebe dị anya a</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>A na-ewepụ ntọala ya na settings/override/migration.ini.append.php. Ọ dịghị ihe na-agbanwe n'ebe dị anya ahụ, nnyefe ya na-anọgidekwa n'akụkọ ihe mere.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>Ee, wepụ ebe dị anya a</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>Nnyefe</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>Nnyefe na-ezipu mbugharị nke nrụnye a gaa n'ebe dị anya a họọrọ ma gbaa ha n'ebe ahụ dị ka %user, ha niile n'otu oge na n'otu ọnọdụ: a na-ebu ụzọ lelee ebe dị anya ọ bụla, ma ọ bụrụ na otu dara, a na-eweghachi ebe ọ bụla tinyere ya. Ọ na-aga n'azụ, ibe ya na-egosikwa ebe dị anya ọ bụla ka ọ na-aga.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. Ebe dị anya niile</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>Kaa ebe dị anya, otu, ma ọ bụ ha abụọ.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>Nyefee ya ebe ahụ</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. Otú</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>Nyefee</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>Zipu ma gbaa</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>A na-ezipu mbugharị, nyochaa ha ma gbaa ha n'ebe dị anya ọ bụla na otu njirimara ọgbụgba a na-ekerịta.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>Naanị ibufe</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>A na-ezipu faịlụ ma nyochaa ha, ọ dịghị ihe a na-agba (naanị ụzọ maka ebe dị anya FTP).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>N'ọkwa</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>Ọkwa n'ọkwa n'usoro gburugburu (dev, stage, beta, production ...): a na-ebu ụzọ nyefee ọkwa mbụ, mgbe ahụ ọnụ ụzọ na-eche ruo mgbe mmadụ kwenyere na nke na-esote. Ha niile ma ọ bụ ọ dịghị nke n'ime ọkwa ọ bụla.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>Naanị mbugharị ndị a</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>Nhọrọ: njirimara mbugharị, kewaa ha na rịkọma. Efu: mbugharị ọ bụla nke saịtị ahụ na ndọtị ya.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>Naanị nlele mbụ</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>Ee, nyefee ugbu a</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>Nnyefe ndị zipụrụ ma ọ bụ gbaa ihe, nke kacha ọhụrụ na mbụ (nlele mbụ anaghị edebe akụkọ).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>naanị ibufe</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>n'ọkwa, ọkwa %stages</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>anọghị n'otu ọnọdụ</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>Enwebeghị nnyefe.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>Nnyefe %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Ebe dị anya ọ bụla nke nnyefe ahụ na ọnọdụ ya. Nnyefe malitere ebe a na-aga n'ihu n'azụ mgbe e mechiri ibe a; mepee ibe ahụ ọzọ ka i soro ya.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>Nnyefe niile</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>Nlele mbụ</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>Ọkwa na-esote</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>Na-elele ntọala na ihe njirimara nbanye</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>Nlele mbụ: na-agụ ọnọdụ ebe dị anya ọ bụla</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>Na-ezipu faịlụ mbugharị</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>Na-enyocha ihe rutere</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>Na-agba mbugharị n'ebe dị anya ọ bụla</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>Na-eweghachi ebe dị anya</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>Nnyefe ahụ akwụsịla. Na-ebugo akụkọ ya.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>Enweghị ike iso ọganihu ahụ. Bugharịa ibe ahụ ka ịhụ otú nnyefe ahụ si aga.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>Usoro</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>Ibe a na-eso nnyefe ahụ ka ọ na-aga.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>N'otu ọnọdụ</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>Ọkwa niile</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>ọkwa %stage na-eche n'ọnụ ụzọ ya</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>Ọnụ ụzọ %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>%user kwenyere na ya na %time</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>Ọkwa</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>Faịlụ ezipụrụ</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>Mbipụta kernel</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>etinyela: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>a ga-etinye: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>Usoro niile</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>Ọnụ ụzọ: ọkwa %stage n'ime %stages</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>E nyefeela ọkwa ndị bu ya ụzọ. Lelee ha, wee kwenye na ọkwa na-esote: a ga-elele ebe dị anya ya ọzọ ma nyefee ha, ha niile ma ọ bụ ọ dịghị nke.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Sonụ</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>Ee, nyefee ọkwa na-esote ugbu a</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Kwenye</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>Tụgharịa nnyefe a azụ</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>Ebe dị anya ọ bụla tinyere ya (%list) na-alaghachi n'onyonyo nchekwa e sere tupu ọgbụgba ya, ha niile n'otu oge.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>Ee, tụgharịa nnyefe a azụ ugbu a</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>e zubere</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>ebufela</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>enyefela</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>na-eche n'ọnụ ụzọ</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>ahọpụtara</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>akwadoro</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>dị njikere</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>na-eche ọkwa ya</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>ezipụla faịlụ</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>enyochala</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>dara, weghachiri onwe ya</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>agbanweghị</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>enyefeghị</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>enweghị ike iru ya</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>Ebe dị anya ahụ zara.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>A pụghị iji ebe dị anya ahụ ugbu a.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done emechala, %pending na-eche, %failed dara</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>Mkpọchi</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>ọgbụgba na-ejide mkpọchi n'ebe ahụ</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>efu</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stage n'ime %stages</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>Họrọ ebe dị anya a ga-anwale.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>Buru ụzọ kaa “Ee, wepụ ebe dị anya a”.</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>Enweghị ike iwepụ ebe dị anya ahụ: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>Enweghị ike ichekwa ebe dị anya ahụ: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Enweghị ike ịgụ faịlụ ntọala ahụ: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>Họrọ opekata mpe otu ebe dị anya ma ọ bụ otu.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>Otu ebe dị anya a họọrọ anọghịzi na ntọala. Bugharịa ibe ahụ.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>Buru ụzọ kaa “Ee, nyefee ugbu a”.</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>Ebe dị anya FTP enweghị ike ịgba mbugharị: họrọ “Naanị ibufe”, ma ọ bụ hapụ ya.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>Mbugharị a ga-enyefe bụ njirimara mbugharị, e kewara na rịkọma.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>Nnyefe ahụ ka na-aga. Chere ka ọ kwụsị.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>Nnyefe a anaghị eche n'ọnụ ụzọ.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>Ọ dịghị ebe dị anya tinyere nnyefe a: ọ dịghị ihe a ga-atụgharị azụ.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>Buru ụzọ kaa “Ee, nyefee ọkwa na-esote ugbu a”.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>Buru ụzọ kaa “Ee, tụgharịa nnyefe a azụ ugbu a”.</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>Ebe dị anya nwere njirimara %id adịlarị.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>Ọdụ ụgbọ mmiri bụ ọnụọgụ site na 1 ruo 65535.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>Gburugburu bụ okwu nwere mkpụrụedemede, ọnụọgụ, - na _ (alpha, dev, stage, beta, production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>Otu bụ okwu nwere mkpụrụedemede, ọnụọgụ, - na _ (ọ bụghị all): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>A pụghị ịgụ ihe njirimara nbanye ugbu a: %problem. Chekwaa ya na Nrụnye &gt; Ihe nzuzo (ma ọ bụ tọọ ihe mgbanwe ahụ) tupu nnyefe mbụ.</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>Ebe dị anya FTP na-anata naanị faịlụ: nnyefe nye ya bụ “Naanị ibufe”, a na-ejikwa aka agba mbugharị ya n'ebe ahụ.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>Ebe dị anya %id anọghị na settings/override/migration.ini.append.php; wepụ ya ebe e tọrọ ya.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>Abanyela site na FTP ma gụọ index.php. A pụghị ịgụ ọnọdụ mbugharị nke ebe dị anya FTP.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>Gbanwere</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>Emepụtara</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Aha</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Klasị</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Ngalaba</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>Onye kere</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Ọdịnaya ọhụrụ</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>Ọdịnaya e mepụtara na nke a gbanwere n&apos;oge na-adịbeghị anya na saịtị niile, nke kachasị ọhụrụ na mbụ: ihe ndị ọbịa zitere, ihe e jidere maka nyocha, ndepụta mbụ na-eche mbipụta ha. Họrọ ihe iji hapụ ha, jide ha, zoo ha, mee ka a hụ ha, wepụ ha ma ọ bụ bufee ha na ngalaba ma ọ bụ ọnọdụ ọzọ.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>Enweghị ike ịgụ ndepụta ahụ: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>Edobebeghị njide maka nyocha, ya mere ọ dịghị ihe e jidere, a naghịkwa enye omume njide. Nzọụkwụ nkwalite 6.0.15-review-hold na-edozi ya: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Zachaa ndepụta ahụ</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Site na</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Ruo</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Ụbọchị</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>Emepụtara (mbipụta mbụ)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Ha niile</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Ọnọdụ</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Ebipụtara</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>Ndepụta mbụ, ebipụtabeghị ya ọ bụla</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>Na-eche (na-eche nkwado ma ọ bụ ụbọchị)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>Na Mkpọkọta ahịhịa</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>E jidere maka nyocha</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>E jidere</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>E jideghị</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>Zoro ezo</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>Hụrụ anya</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>E zitere na</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>Nnweta saịtị ọ bụla</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>Naanị ihe nyocha akụkọ dekọrọ.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>Ugbu a: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>Aha nbanye ma ọ bụ ID onye ọrụ.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Nzacha</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>Kpochapụ nzacha</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>Ihe ndị a</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from ruo %to n&apos;ime %count</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Enweghị ihe ọ bụla</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(agụrụ n&apos;ime %ms ms)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>Omume na ihe ndị a họọrọ</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>Họrọ ha niile na ibe a</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>Ahọrọla %count</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Omume</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>Họrọ omume</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>Hapụ njide ahụ</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Jide maka nyocha</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Zoo</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>Mee ka ọ hụrụ anya</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>Kpugharịa na Mkpọkọta ahịhịa</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>Hichapụ</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>Kenye ngalaba</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>Kenye ọnọdụ</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>Ihe mere</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>Achọrọ ya iji jide; a na-edebe ya na njide ahụ na n&apos;ime nyocha akụkọ.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>Họrọ ngalaba</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Ọnọdụ</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>Họrọ ọnọdụ</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>Tinye na ndị a họọrọ</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>A na-enyocha ihe ọ bụla megide ikike gị. Ibuga na Mkpọkọta ahịhịa na ihichapụ na-arịọ gị ka ị kwenye. Ihe karịrị %count na-arụ ọrụ n&apos;azụ.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>Họrọ</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>Mbipụta</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>E zitere site na</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>Họrọ %name</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>ọ bụbeghị</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(enweghị aha)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>Nọmba ID %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>Ndepụta mbụ</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Na-eche</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>Nne na nna ya zoro ya</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>E jidere: nziga ọhụrụ</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>Ụdị %version na-eche</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>Ụdị %version na-aga n&apos;ihu</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>Ndepụta mbụ, ụdị %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>Ebipụtara ụdị %version</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>Ahazịrị maka %date</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>enweghị adreesị</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>edeghị ya</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>Ọ dịghị ihe dabara na nzacha ndị a.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Gosi ha niile</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>Enwebeghị ọdịnaya ọ bụla.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>N&apos;otu ibe</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Gosi ihe %count n&apos;otu ibe.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says &quot;not recorded&quot;.</source>
+        <translation>Adreesị na ihe nchọgharị nke nziga si na ndeksi nyocha akụkọ, nke na-adịghị ebe a: kọlụm ahụ na-ekwu &quot;edeghị ya&quot;.</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>Adreesị na ihe nchọgharị bụ ndị nyocha akụkọ dekọrọ maka ihe ahụ (njide akpaghị aka na-edekọ ha mgbe niile; mbipụta na mmepụta naanị ebe agbanyere ya), dịka ntọala nzuzo ya si edebe ha.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: ihe %count</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>Ihichapụ na-ewepụ ihe ndị ahụ kpamkpam, ya na ụdị ha niile na ntụgharị ha. Enweghị ike ịlaghachi ya.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>Ihe ndị ahụ na-aga na Mkpọkọta ahịhịa, ebe enwere ike iweghachi ha.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>A na-enyocha ihe ọ bụla megide ikike gị; a na-ahapụ ihe nwere ihe ndị dị n&apos;okpuru ya otu ọ dị (wepụ ya na nhazi ọdịnaya). A ga-arịọ gị ka ị gosi na ọ bụ gị.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>Nke a na-arụ ọrụ n&apos;azụ: ibe ọganihu ya na-emeghe, a na-egosikwa nsonaazụ nke ihe ọ bụla mgbe ọ gwụchara.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>Ihe ndị a họọrọ</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>na %count ọzọ</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Kagbuo</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>Emeghị ihe ọ bụla</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Ihe mere: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>Omume ahụ ka na-arụ ọrụ n&apos;azụ.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>Ọganihu ya</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>Omume n&apos;azụ ahụ adaala: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Emechala</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>A jụrụ ya</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Adaala</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>Kwa ihe</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>Ihe</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Nsonaazụ</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Gịnị kpatara</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>Laghachi na ndepụta</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Nrụnye</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>Ọ dịghị ihe e mere</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>Kwenye</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>Họrọ omume.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>Họrọ opekata mpe otu ihe.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>Họrọ ihe na-erughị 1000 n&apos;otu oge.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>Kwuo ihe mere e ji jide ihe ndị ahụ.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>Họrọ ngalaba ahụ.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>Họrọ ọnọdụ ahụ.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Enweghị ike ịgụ fọm ahụ.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>Dashboard</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>Ọdịnaya ọhụrụ</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>Enweghị ike ịgụ ọnụọgụ ndị ahụ: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>E jidere maka nyocha</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>Ọhụrụ taa</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Edobebeghị njide maka nyocha (nzọụkwụ nkwalite 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>Ọdịnaya ọhụrụ niile</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>I nweghị ike ịrụ omume nlekọta ọdịnaya (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>Omume nlekọta ọdịnaya ahụ ezughị ezu: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>Nlekọta ọdịnaya: %action na ihe %count</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%done n&apos;ime ihe %total: %ok emechala, %refused a jụrụ, %failed adaala</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok emechala, %refused a jụrụ, %failed adaala</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>Ọ dịkwaghị.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>O nweghị ọnọdụ ebe (ebipụtaghị ya).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>I nweghị ike izo ya (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>I nweghị ike ime ka a hụ ya (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>E zoola ya.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>E zoghị ya.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>E zoro ya.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>E mere ka a hụ ya.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>Ọ nọ na Mkpọkọta ahịhịa: tọgbọọ ya ma ọ bụ weghachi ya n&apos;ebe ahụ.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>Ndepụta mbụ a na-ebipụtabeghị enweghị ike ịga na Mkpọkọta ahịhịa: hichapụ ya.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>I nweghị ike ihichapụ ya (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>Ehichapụla.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>I nweghị ike iwepụ ya (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>O nwere ihe ndị dị n&apos;okpuru ya: wepụ ya na nhazi ọdịnaya, ebe e depụtara ha.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>Ewepụghị ya (usoro ọrụ nwere ike ijide mwepụ ahụ).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>E bugara ya na Mkpọkọta ahịhịa.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>Ngalaba ahụ adịghị.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>Ọ nọlarị na ngalaba a.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>I nweghị ike ikenye ngalaba a (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>E kenyeghị ngalaba ahụ.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>E kenyela ngalaba.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>Ọnọdụ ahụ adịghị.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>Ọ nọlarị n&apos;ọnọdụ a.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>I nweghị ike ikenye ọnọdụ a (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>E kenyeghị ọnọdụ ahụ (usoro ọrụ nwere ike ijide mgbanwe ahụ).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>E kenyela ọnọdụ.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>Ọ dịghị ụdị omume ahụ.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Edobeghị njide maka nyocha (nzọụkwụ nkwalite 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>Kwuo ihe mere e ji jide ya.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>E jidelarị ya.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>I nweghị ike ijide ya (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>E dobeghị njide ahụ (usoro ọrụ nwere ike ijide mgbanwe ahụ).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>E jidere ya.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>E jideghị ya.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>I nweghị ike ịhapụ ya (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>A hapụghị njide ahụ (usoro ọrụ nwere ike ijide mgbanwe ahụ).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>A hapụla ya; ọ ka zoro ezo: i nweghị ike ime ka a hụ ya (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>A hapụla ya.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>Ebumnuche niile</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Mbipụta ikpeazụ</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>Bipụta otu nnomi nkwụsi ike nke saịtị gị n&apos;efu na GitHub Pages:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Peeji ochie</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Mbipụta nkwụsi ike</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Agbanyụrụ mbipụta nkwụsi ike.</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Ebumnuche</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Enweghị ike ịgụ ebumnuche ndị ahụ: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>otu ọrụ na-aga n&apos;ihu</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>nrụpụta a ga-enyocha</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>zoo nke a</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>mepụta ebumnuche</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>ọ dịghị mgbe</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>gụọ nkuzi ahụ</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>%added etinyere, %changed gbanwere, %removed wepụrụ</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%bytes n&apos;ime %limit (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>Edepụtaghị %count ndị ọzọ.</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>E dere peeji %pages</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path bụ %size, karịa ihe ọgbakọ ahụ kwere maka otu faịlụ.</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>%percent % nke oke ahụ</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds sek</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag bụ mbipụta saịtị ahụ nwere ugbu a.</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: ọrụ %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>/ebe-nchekwa/ maka saịtị ọrụ GitHub; tọgbọ ya chakoo maka ngalaba aha nke gị ma ọ bụ saịtị onye ọrụ.</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. Saịtị ahụ</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. Ọgbakọ ahụ</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. Ịbanye n&apos;ebe nchekwa ahụ</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. Ebe nchekwa ahụ</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. Njikọ na ụzọ ntọala</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. Ngalaba aha nke gị</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. Ihe nrụpụta ahụ nwere</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. Mgbe a na-ebipụta ya</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. Nyochaa ma chekwaa</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>Saịtị ọrụ GitHub na-adị n&apos;okpuru /&lt;repository&gt;/; njikọ mmekọ na-arụ ọrụ ebe ahụ na ebe ọ bụla ọzọ.</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>Nrụpụta na-ebute peeji ọ bụla nke %site dịka onye ọbịa na-abanyeghị si ahụ ya, na-edegharị njikọ, na-eṅomi faịlụ ma na-ede nsonaazụ ya na folda ebumnuche ahụ. Ọ dịghị ihe a na-ebipụta ruo mgbe ị nyochara nrụpụta ahụ ma pịa Bipụta.</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>Okwu cron, dịka ọmụmaatụ 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>A na-edobe igodo mbunye dịka ihe nzuzo %secret.</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>Igodo mbunye na-ekwe ka ntinye a mee nziga n&apos;otu ebe nchekwa site na SSH, ọ bụghị ebe ọzọ. Akụkụ nzuzo ya na-anọ na Nrụnye &gt; Ihe nzuzo; ọ bụ naanị akụkụ ọha ya ka a na-egosi.</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>Igodo mbunye e mere maka ebumnuche a</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>Igodo mbunye na-abanye site na SSH: gbanwee adreesị git ka ọ bụrụ nke SSH (git@github.com:owner/repo.git).</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>Otu ọrụ na-aga n&apos;ihu, nke %user malitere</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>Ọrụ nke ebumnuche a ka na-aga n&apos;ihu (%detail). Chere ka ọ kwụsị.</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>Ọrụ nke ebumnuche a ka na-aga n&apos;ihu. Chere ka ọ kwụsị.</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>A ga-ede njikọ si na peeji /news/ gaa na peeji /about-us/team dịka</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>E mepụtara igodo mbunye ọhụrụ. Tinye akụkụ ọha ya n&apos;ebe nchekwa ahụ ugbu a.</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>A naghị ebipụta peeji ka nwere mmepụta debug, tokin fọm ma ọ bụ id nnọkọ mgbe e hichachara ya.</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>Ntụgharị azụ bụ maka ndị ọkachamara: kaa akara &quot;Amaara m ihe nke a na-agbanwe&quot; ma pịnyegharịa aha mkpado ahụ ọzọ.</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>Saịtị nwere ike iru %site, otu faịlụ iru %file, ya na ihe dị ka 100 GB nke okporo ụzọ kwa ọnwa. Na atụmatụ n&apos;efu, ebe nchekwa ahụ ga-abụrịrị nke ọha. E meghị GitHub Pages maka ụlọ ahịa ma ọ bụ azụmahịa ndị ọzọ.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>Ebumnuche bụ otu saịtị e bipụtara n&apos;otu ebe nchekwa git. Ọ dịghị ihe a na-arụpụta ma ọ bụ ebipụta ebe a: Chekwaa na-ede ntọala ndị ahụ na settings/override/staticcache.ini.append.php.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>Ebumnuche bụ otu saịtị e bipụtara n&apos;otu ebe, dịka ọmụmaatụ saịtị ọha gị na GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>Tokin si na Nrụnye &gt; Ihe nzuzo</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>Usoro ọrụ nke ebe nchekwa ahụ na-ebipụta ya.</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>Tinye igodo ọha a n&apos;ebe nchekwa ahụ ya na ikike ide. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, kaa akara Allow write access.</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>Etinyere</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>Ọgbakọ git ọzọ</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>Usoro ọzọ na-arụ ọrụ na ebumnuche a: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>Laghachi</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>Ụzọ ntọala</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Tupu</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>N&apos;okpuru ụzọ ntọala</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>Alaka</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>Njikọ mebiri emebi</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>Njikọ mebiri emebi na nrụpụta ahụ</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>Nrụpụta</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>Nrụpụta %id nke %user</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>Nrụpụta %name</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>Rụpụta ugbu a</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>Nrụpụta a ga-enyocha</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Site n&apos;aka</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>Site n&apos;aka, ebe a</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Kagbuo</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Gbanwee</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>Gbanwere</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Mgbanwe</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>Nyochaa ya mbụ</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Nyochaa ntọala ndị a</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>Lelee ihe nrụpụta ahụ na-agbanwe, lee ya anya, wee bipụta ya ma ọ bụ tụfuo ya.</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>Họrọ mbipụta ị ga-alaghachi na ya.</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>Ọ ga-abịa na ntọhapụ ọzọ.</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Nkwenye</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>Nkwenye ndị a</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>Na-eme nkwenye nke nrụpụta ahụ, na-etinye ya mkpado ma na-ezigara ya %remote. A naghị amanye nziga; ị nwere ike ịlaghachi na mbipụta ọ bụla ma emechaa.</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>E jiri ya tụnyere folda ahụ tupu: %added etinyere, %changed gbanwere, %removed wepụrụ, %unchanged agbanweghị.</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>E jiri ya tụnyere mbipụta ikpeazụ.</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Ihe njirimara nbanye</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>Ngalaba aha nke onwe</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>A na-ewepụ mmepụta debug, tokin fọm, id nnọkọ na nonce mgbe niile.</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>Igodo mbunye</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>Igodo mbunye nke %name</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Tụfuo</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>Tụfuo nrụpụta ahụ</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>Ngalaba aha</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>Chakoo: adreesị saịtị ahụ. Ma ọ bụghị ya, adreesị ime nke otu saịtị ahụ.</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Kwụsịrị</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>Njikọ ọ bụla na-amalite n&apos;ụzọ ntọala ahụ.</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>Mbipụta ọ bụla bụ nkwenye nwere mkpado static/%id/&lt;n&gt;. Ịlaghachi azụ na-eme nkwenye ọhụrụ nwere faịlụ nke mbipụta mbụ: akụkọ ihe mere na-adịgide, ọ dịghị mkpado na-akpali, ọ dịghịkwa ihe a na-amanye.</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>Ihe mgbakwunye</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>Bute peeji ndị ahụ site na</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Faịlụ</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>Faịlụ niile</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>Faịlụ na-efu</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>Faịlụ nke</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>Faịlụ a na-enweghị ike ịnakọta</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>Akara mkpịsị aka</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>Folda</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>Maka adreesị SSH. A na-emepụta igodo ahụ mgbe e chekwachara; ị ga-etinye akụkụ ọha ya n&apos;ebe nchekwa ahụ.</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>Maka adreesị https://. GitHub: tokin nwere ikike zuru oke, ya na Contents ịgụ na ide n&apos;ebe nchekwa ahụ.</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>Maka ndị ọkachamara. Saịtị ọha na-agbanwe ozugbo nziga ahụ gwụchara.</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Fọm</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>Nnabata n&apos;efu site n&apos;ebe nchekwa GitHub.</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>Site na alaka</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>Adreesị git</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages na-ekwe ka saịtị ruo %site na faịlụ ruo %file.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>Oke GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages na-ebipụta faịlụ dịka ha dị (dị mkpa maka faịlụ na-amalite na _).</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub na-enye alaka ahụ dịka e zigara ya. Nke ndabara.</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, sava nke gị: ebe nchekwa git ọ bụla.</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>Laghachi na mbipụta mbụ</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Enyemaka</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>Enyemaka maka onye ndụmọdụ</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>Zoo ha</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Akụkọ ihe mere</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>Akụkọ ihe mere nke %name</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Ọgbakọ</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>Otu GitHub Pages si anata nrụpụta ahụ</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>Enyochala m mgbanwe ndị ahụ</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>Amaara m ihe nke a na-agbanwe</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>Njirimara</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>Agbanyụrụ ya: ọ dịghị ihe a ga-arụpụta ruo mgbe a gbanyere ya.</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>Ọ na-agba n&apos;azụ dịka %user; ị nwere ike imechi peeji a.</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>Ọrụ %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>Edobere dịka ihe nzuzo %secret.</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Ụdị</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Mbipụta ikpeazụ</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>Hapụ peeji ndị a</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>Hapụ ngalaba ndị a</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Njikọ</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>E degharịrị njikọ</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>Saịtị dị ndụ</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>Lelee nrụpụta ahụ</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>Mkpụrụedemede obere, ọnụọgụ, _ na -, dịka ọmụmaatụ github-public. Ọ na-akpọ aha folda na mkpado ndị ahụ (static/&lt;id&gt;/&lt;n&gt;) enweghịkwa ike ịgbanwe ya ma emechaa.</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>Mepụta igodo ọhụrụ</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>Mepụta ebumnuche</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>Mepụta igodo ahụ</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>Buru ụzọ mepụta ebe nchekwa ahụ n&apos;ọgbakọ ahụ; nke tọgbọ chakoo dị mma.</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>Ndepụta faịlụ</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Ozi</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>Ọtụtụ peeji</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Aha</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>Aha tokin ahụ na Nrụnye &gt; Ihe nzuzo</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>Ebumnuche ọhụrụ</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Sonụ</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>Mba</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>Enwebeghị nkwenye.</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>E meghị igodo ọ bụla: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Achọtaghị usoro ahịrị iwu php. Debe migration.ini [AdminSettings] PhpCliPath n&apos;ụzọ zuru oke ya.</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>Enwebeghị mkpado.</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>Enwebeghị ebumnuche.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Enweghị</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>Ọ nọghị na nrụpụta ahụ.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>E bipụtabeghị ihe ọ bụla.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>E bipụtabeghị ihe ọ bụla: faịlụ ọ bụla bụ ọhụrụ.</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>Gwa</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>Dịka nhazi oge si dị</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>Na console</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>Na sava: ./console exp:static:serve %id na-enye ya n&apos;otu ụzọ ahụ.</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>Otu ụzọ n&apos;ahịrị ọ bụla, * dabara na akụkụ ọ bụla: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>Ọ bụ naanị aha ka e chekwara ya na ebumnuche ahụ; tokin ma ọ bụ igodo n&apos;onwe ya na-anọ na Nrụnye &gt; Ihe nzuzo, ọ naghịkwa apụta na ndekọ.</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>Naanị ihe peeji ndị ahụ kpọrọ aha</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>Naanị ya na tokin. env:NAME na-agụ mgbanwe gburugburu nke sava kama.</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>Mepee ọhụụ mbụ</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>Na-emepe nrụpụta ahụ dịka ọgbakọ ahụ ga-enye ya, site na folda ebumnuche ahụ. Njikọ ahụ na-arụ ọrụ maka gị otu awa.</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>Nhọrọ. Chakoo: ihe e bipụtara.</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>Nhọrọ. Ya na ngalaba aha, a na-enye saịtị ahụ na mgbọrọgwụ ya.</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Mmepụta</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>Peeji</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>Peeji nke ebumnuche ahụ</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>Peeji a jụrụ</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>Nhazi emechara</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Ọhụụ mbụ</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>Ọhụụ mbụ na mbipụta</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>Ọhụụ mbụ na mbipụta nke %name</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>Ọhụụ mbụ nke nrụpụta ahụ</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Ọganihu</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>Adreesị ọha</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>Igodo ọha</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>Bipụta</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>Bipụta otu nnomi nkwụsi ike nke saịtị na GitHub Pages ma ọ bụ ọgbakọ git ọ bụla: rụpụta ya, nyochaa mgbanwe ndị ahụ, bipụta, ma laghachi na mbipụta mbụ mgbe ọ dị gị mkpa.</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>Mbipụta a ga-alaghachi na ya</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>Mbipụta ndị a</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Nziga</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>Gụọ nkuzi ahụ</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Ndekọ</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>A jụrụ</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>Mmekọ</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Bugharịa</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>Ewepụrụ</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>Dochie igodo ahụ: nke ochie ga-akwụsị ịrụ ọrụ</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Akụkọ</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>Akụkọ nke nrụpụta ahụ</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Ebe nchekwa</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Nyocha</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>Nyocha na-elele ntọala ọ bụla ma na-egosi ahịrị ndị a ga-ede. Echekwabeghị ihe ọ bụla.</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Tụgharịa azụ</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Ntụgharị azụ</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Chekwaa</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>Nhazi oge</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>Peeji ọchụchọ</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>Id ngalaba, kewapụrụ site na rịkọm.</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>Zipụ ha na saịtị dị ndụ</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>Ntọala</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Ntọala niile</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>Ntọala nke %name</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Nrụnye</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Nrụnye &gt; Ihe nzuzo</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>A na-egosi ya na ndepụta, dịka ọmụmaatụ &quot;Saịtị ọha na GitHub Pages&quot;.</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>Ịbanye site na GitHub App ga-abịa ya na njikọta GitHub.</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>Saịtị</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>Saịtị a ga-ebipụta</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Nha</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>Nha na oke</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>Nha nrụpụta ahụ</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Peeji ochie</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Amalitere</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>%user malitere ya na %time.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Ọnọdụ</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Mbipụta nkwụsi ike</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>Agbanyụrụ mbipụta nkwụsi ike</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Agbanyụrụ mbipụta nkwụsi ike.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>Agbanyụrụ mbipụta nkwụsi ike. Buru ụzọ gbanye ya na Nrụnye &gt; Mbipụta nkwụsi ike.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>Agbanyere mbipụta nkwụsi ike.</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>Nzọụkwụ %step n&apos;ime %total</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Nzọụkwụ</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>Nhicha</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Gbanyụọ</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Gbanye</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>Gbanye mbipụta nkwụsi ike</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Mkpado</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>Mkpado ndị a</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Ebumnuche</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>Enwere ike ịmepụta na ịgbanwe ebumnuche, mana ọ dịghị ihe a na-arụpụta ma ọ bụ ebipụta ruo mgbe a gbanyere ya.</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>Na-agwa igwe nchọta ihe ha ga-agụ.</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>Enweghị ike ịtụfu nrụpụta ahụ: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>Nrụpụta ahụ yiri mbipụta ikpeazụ: ọ dịghị ihe a ga-ebipụta.</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>A tụfuru nrụpụta ahụ: folda ahụ nwere mbipụta ikpeazụ ọzọ.</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>Ntọala ndabara dabara ọtụtụ saịtị.</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>Folda ahụ nwere nrụpụta a na-ebipụtabeghị; nrụpụta ọhụrụ ga-anọchi ya.</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>Enweghị ike ide na folda ọrụ ndị ahụ: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>Enweghị ike ịkwadebe ọrụ ahụ: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>Enweghị ike ịmalite ọrụ ahụ.</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>Ọrụ ahụ agwụla. Na-ebunye akụkọ ya.</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>Ọrụ ahụ chọrọ onye ọrụ banyere.</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>Ọrụ ahụ malitere mana o kwughị id usoro ya. Lelee %detail.</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>Igodo ahụ</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>Faịlụ kachasị ibu: %path, %size.</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Ahịrị ndị a ga-ede</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>Ndepụta peeji maka igwe nchọta; ọ chọrọ adreesị ọha.</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>A na-ebute peeji ndị ahụ dịka onye ọbịa na-abanyeghị si ahụ ha. A naghị enye siteaccess nchịkwa na ndezi.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>Enweghị ike iso ọganihu ahụ. Bugharịa peeji ahụ ka ị hụ otú ọrụ ahụ si aga.</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>Akụkụ ọha nke igodo ahụ:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>Mgbọrọgwụ alaka ahụ</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>Edobebeghị ebe nchekwa ihe nzuzo (./console exp:upgrade --apply na-emepụta tebụl ya), ya mere enweghị ike idebe igodo ọ bụla.</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>Sava ahụ na-abanye n&apos;onwe ya (site n&apos;igodo SSH nke ya ma ọ bụ credential helper), ma ọ bụ ebe nchekwa ahụ dị na sava a.</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>Enweghị ike ide ntọala ahụ: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Ntọala ndị ahụ ziri ezi. A ga-ede ahịrị ndị a:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Enweghị ike ịgụ faịlụ ntọala ahụ: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>Saịtị ahụ na-alaghachi na faịlụ nke mbipụta ahụ; a ga-ebu ụzọ bipụta ma ọ bụ tụfuo nrụpụta a na-ebipụtabeghị.</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>Peeji nke saịtị ahụ maka adreesị na-adịghị.</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>Enweghị ike ịchekwa ebumnuche ahụ: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>Ebumnuche ahụ anaghị abanye n&apos;igodo a ka: họrọ &quot;Igodo mbunye e mere maka ebumnuche a&quot; na ntọala ya.</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Enweghị ike ịgụ ebumnuche ndị ahụ: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>Enwebeghị nrụpụta a ga-enyocha.</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>Ntinye a enweghị siteaccess ihu. A naghị ebipụta siteaccess nchịkwa na ndezi.</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>Peeji a na-eso ọrụ ahụ ka ọ na-aga; ọ na-aga n&apos;ihu n&apos;azụ mgbe e mechiri peeji ahụ.</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>Ebumnuche a enwebeghị igodo mbunye.</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>A rụpụtabeghị ebumnuche a ebe a.</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>Ebumnuche a nwere otu.</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>Na-atụfu nrụpụta a: folda ahụ nwere mbipụta ikpeazụ ọzọ. Saịtị dị ndụ anaghị agbanwe.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>Buru ụzọ kaa akara &quot;Enyochala m mgbanwe ndị ahụ&quot;.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Oge</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>Ihe mkpalite</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>Pịnyegharịa aha mkpado ahụ ọzọ</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>Agbanweghị</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>Webhook</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Gịnị</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>Ihe na-agbanwe</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>Ihe faịlụ ọ bụla bụ; a na-ede ya mgbe niile.</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>Ihe ọrụ ahụ mere na ndekọ ya. Ọrụ a malitere ebe a na-aga n&apos;ihu n&apos;azụ mgbe e mechiri peeji a.</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>Ihe ọrụ ahụ bipụtara dịka njehie</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>Ihe peeji ndị ahụ kpọrọ aha, na foto ọ bụla nke ọdịnaya e bipụtara</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Mgbe</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>Mgbe mbipụta dara ada</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>Mgbe mbipụta gara nke ọma</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>Mgbe e bipụtara ọdịnaya</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>Ebe njikọ gaa na ihe nnomi ahụ na-enweghị na-aga (ọchụchọ, nbanye).</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>Ebe a na-enye nnomi nkwụsi ike ahụ.</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>Saịtị nke a na-ebipụta, na aha ebumnuche ahụ.</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>Na-arụ ọrụ n&apos;okpuru ụzọ ọ bụla. Nke ndabara.</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>A na-ede ya mgbe ọ bụla e debere ngalaba aha nke onwe.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>Ee</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>Ị nwere ike ịrụpụta ma bipụta site n&apos;aka mgbe niile ebe a na na console.</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>naanị aha; uru ya na-anọ na Nrụnye &gt; Ihe nzuzo</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>n&apos;okpuru %path</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>kwụsịrị na-enweghị akụkọ</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>mgbakwunye</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>adaala</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>faịlụ</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages, ma ọ bụ main ya na folda docs.</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>ọgbakọ git</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (ya na tokin) ma ọ bụ git@github.com:owner/repo.git (ya na igodo mbunye); ọ dịghị mgbe paswọọdụ ma ọ bụ tokin na-anọ n&apos;ime ya.</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/, maka sitemap na njikọ canonical.</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>foto</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>ọ dịghị mgbe</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>mba</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>enweghị remote</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>enweghị: nkwenye na-anọ na folda</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>enweghị: ọ dịghị ihe gbanwere</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>e zighị ya</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>ọ dịghị ihe gbanwere</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>peeji</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>gara nke ọma</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>Agbanyụrụ proc_open, ya mere enweghị ike ịmalite ọrụ ebe a. Jiri ./console exp:static:build na sava.</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>mbipụta</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>e bipụtara</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>nziga na-echere</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>e zigara</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>a jụrụ</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>mmekọ</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>ntụgharị azụ</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>a tụgharịrị azụ</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>na-aga n&apos;ihu</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>naanị folda ahụ</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: e dere ya na faịlụ CNAME. Duzie DNS nke ngalaba aha ahụ gaa n&apos;ọgbakọ ahụ dịka o si kọwaa; HTTPS nwere ike iwe oge tupu ọ malite.</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>ee, e bipụtabeghị ya</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>Otu GitHub App</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>Usoro ọrụ nke ebe nchekwa ahụ na-ebipụta ya. Nrụpụta na-ede faịlụ usoro ọrụ ahụ; hapụ folda ahụ ka ọ tọgbọ chakoo.</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>Mgbe echekwara ebumnuche nwere ebe nchekwa GitHub na tokin ma ọ bụ GitHub App, nzọụkwụ a nwere ike ịmepụta ebe nchekwa ahụ ma gbanye GitHub Pages. Ma ọ bụghị ya, buru ụzọ mepụta ebe nchekwa ahụ na GitHub; nke tọgbọ chakoo dị mma.</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>Alaka ka ọ bụ GitHub Actions?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>Lelee DNS</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>Mepụta ebe nchekwa ahụ ma ọ bụrụ na ọ dịghị</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>Mepụta ebe nchekwa ahụ na GitHub ma gbanye GitHub Pages na ntọala ya (Settings &gt; Pages).</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>Na-emepụta ebe nchekwa %repo mgbe ọ na-adịghị (ma a rịọ), na-agbanye GitHub Pages site na alaka ma ọ bụ site na GitHub Actions dịka echekwara, ma na-edozi ngalaba aha nke onwe na HTTPS. Ọ na-eji ntọala echekwara: buru ụzọ chekwaa mgbanwe.</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>Nkọwa zuru ezu na GitHub</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>Buru ụzọ tinye ngalaba aha nke onwe.</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>A na-ebu ụzọ lelee push ọ bụla megide oke ndị a.</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>Maka adreesị https:// na GitHub. App edoziri maka nrụnye a na-abanye; ọ chọrọ id nke nrụnye ahụ.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages na-enye ebe nchekwa nzuzo naanị na atụmatụ a na-akwụ ụgwọ.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: ngalaba aha nta (www.example.com) chọrọ ndekọ CNAME gaa na &lt;owner&gt;.github.io; ngalaba aha isi (example.com) chọrọ ndekọ A %ips.</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>Id nrụnye nke GitHub App</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>Nrụpụta Pages ikpeazụ</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>Oke na usoro</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>Achọrọ maka GitHub Pages na atụmatụ n'efu.</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>Na GitHub</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>Naanị site na GitHub App: nọmba dị na njedebe adreesị nrụnye App ahụ na GitHub. A na-edozi App n'onwe ya na staticcache.ini (GitHubAppId, GitHubAppKey).</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>Nzuzo</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>Ọha</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>Buru ụzọ chekwaa ebumnuche ahụ na ebe nchekwa GitHub na tokin ma ọ bụ GitHub App.</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>Dozie ndekọ ndị a n'aka onye na-enye ngalaba aha ahụ:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>Dozie na GitHub</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>DNS nke %domain atụbeghị aka na GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>DNS nke %domain na-atụ aka na GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>Njikọ GitHub adịghị ebe a: %problem. Mbipụta n'alaka ka na-arụ ọrụ; gbanye GitHub Pages na ntọala ebe nchekwa ahụ.</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>Nzọụkwụ GitHub adịghị maka ebumnuche a: %problem.</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>A na-egosi ọnọdụ GitHub Pages mgbe tokin ma ọ bụ GitHub App bụ ihe njirimara nbanye.</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>Jiri ngalaba aha nke gị</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>Kedu nke a ga-ahọrọ: tokin, igodo mbunye ma ọ bụ GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>Site na ebe nchekwa GitHub na tokin ma ọ bụ GitHub App, onye ndụmọdụ nwere ike ịmepụta ebe nchekwa ahụ, gbanye GitHub Pages ma dozie ngalaba aha maka gị (nzọụkwụ 4).</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>a na-arụpụta</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>arụpụtala</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>site na GitHub Actions</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>site na alaka %branch</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>ọ dịbeghị</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>achọtaghị</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>agbanyụrụ</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>nzuzo</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>ọha</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>n'ahịrị</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>amaghị</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%count na peeji %pages:</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>.gz (na .br) n'akụkụ faịlụ ederede ọ bụla, maka ndị nnabata na-eje ha ozi.</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>Obere peeji maka adreesị ochie na aha ọzọ ọ bụla nke peeji, ka njikọ ochie nọgide na-arụ ọrụ.</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>A na-ede ya mgbe niile mgbe GitHub Actions na-ebugara saịtị ahụ.</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>SPDX id dị ka CC-BY-4.0, ma ọ bụ ederede n'onwe ya.</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>Nkata</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>Oku gaa n'sava</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Nkọwa</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>Fọm ndị na-anakọta ozi</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>GitHub Actions workflow</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>Obere oghere efu na enweghị nkọwa n'ime peeji.</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>Ikike nke ọdịnaya</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Banye</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>Mee ka ọ pere mpe</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>Fọm ndị ọzọ</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>Mkpakọ tupu oge</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>Peeji nduga</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>Peeji nduga: %count.</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Chọọ</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>Ndepụta ọchụchọ: peeji %pages na %languages.</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>Mpempe akwụkwọ ụdị na ihe odide akpọrọ aha site na hash nke ọdịnaya ha, ka ndị nchọgharị nwee ike ichekwa ha.</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>Peeji ndị gbanwere, nkeji ole na ole mgbe mgbanwe ikpeazụ gasịrị (akụkụ cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>Ikike nke ọdịnaya, site n'ubi dị n'okpuru.</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>Saịtị niile, n'oge usoro oge (akụkụ cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>Akụkụ peeji ndị a chọrọ sava; nke ọ bụla nwetara nhọrọ ọzọ. Lelee ha tupu ị bipụta.</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>Ihe na-adịghị arụ ọrụ n'ụzọ kwụ ọtọ</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>Ihe ebe nchekwa bụ, maka onye na-emepe ya n'ihe nnabata.</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>hapụrụ</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>ederede nhọrọ ọzọ</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>njedebe fọm nke saịtị dị ndụ</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>saịtị dị ndụ</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>peeji ọchụchọ nke mkpụrụ</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>Enweghị ike izipu fọm ahụ.</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>Daalụ: ezipụla fọm ahụ.</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>Anabataghị fọm ahụ: lelee ihe i tinyere ma zipu ya ọzọ.</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>Wepụ njikọ na ibe ndị na-adịghị na mbipụta ahụ</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>Wepụ njikọ na-aga na nchịkwa</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>Ederede ha na-anọgide. A naghị ewepụ foto, fọm na njikọ na saịtị ndị ọzọ ma ọlị.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Ụdị</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>Nnweta saịtị a ga-ebipụta</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Nnweta saịtị</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>Na mgbọrọgwụ</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>Enweghị nnweta saịtị na mgbọrọgwụ: nke ọ bụla dị na nchekwa ya, mgbọrọgwụ na-ejikọ ha</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Nnweta saịtị</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>Kaa otu nnweta saịtị, ma ọ bụ ọtụtụ ndị na-ekerịta otu ọbịa site na prefix URI ha. A na-enye nke dị na mgbọrọgwụ ebe ahụ, ndị ọzọ na nchekwa prefix ha (/ger/); njikọ dị n'etiti ha na-anọ na mbipụta ahụ. A naghị enye nnweta nchịkwa ma ọlị.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>Mbipụta static nke %target emeghị nke ọma na %site</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>Mbipụta static nke %target gara nke ọma na %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>%site zitere ozi a n'ihi na ebumnuche mbipụta static %target na-arịọ ya.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>Nnyefe %deploy adaala na %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>Nnyefe %deploy na-eche n'ọnụ ụzọ ama na %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>Nnyefe %deploy gara nke ọma na %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>%site zitere ozi a n'ihi na migration.ini [RemoteSettings] Notify[] chọrọ ya.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>Ụdị data (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>Agụrụ na %time, ọzọ mgbe nkeji %minutes gachara</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>Ụdị data na-echekwa ma na-edezi otu ụdị uru nke njirimara klasị: ahịrị ederede, onyonyo, njikọ. Kernel na-ewetara ọtụtụ n'ime ha, ndọtị na-agbakwunye ndị ọzọ. Lee ha niile, onye na-enye ha na ole ọdịnaya ji ha eme ihe. Ụdị data nke ebe nchekwa data ji eme ihe ma ọ dịghị ihe na-edebanye ya aha ọzọ na-emebi ọdịnaya nwere ya.</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>Otu klasị</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>Gụọ ọzọ ugbu a kama iji ọnụ ọgụgụ nke nkeji ole na ole gara aga.</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>Gụọ ọzọ</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Nchịkọta</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>Edebanyere aha</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>Na-eji eji</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>Ejighị ya</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>Ndọtị na-enye ụdị data</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>Njirimara klasị</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>Njirimara Ihe</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>Edebanyeghị aha</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>Edepụtara, faịlụ efuola</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>A na-eji ụdị data %count mana edebanyeghị ha aha</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>Njirimara klasị %class_attributes na njirimara ihe %object_attributes nwere ụdị data nke ọ dịghị ndọtị ma ọ bụ ntọala na-edebanye aha. Enweghị ike igosi, idezi ma ọ bụ ibipụta ihe ha. Mee ka ndọtị na-enye ụdị data ahụ rụọ ọrụ, ma ọ bụ gbanwee klasị ahụ.</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>Gosi naanị ndị a</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>Chọta ụdị data</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>Njirimara, aha, klasị PHP ma ọ bụ ndọtị.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Gosi</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Ha niile</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>Onye nyere ya</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>Onye ọ bụla</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>Kernel</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>Ọ dịghị ụdị data dabara na nzacha a.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Gosi ha niile</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>Mgbatị</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%shown n'ime ụdị data %count, a na-eji %used</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>Ebe nchekwa data nwere njirimara klasị ma ọ bụ nke ihe nke ụdị data ndị a, mana content.ini edepụtaghị nke ọ bụla n'ime ha, ma ọ bụ faịlụ ya efuola.</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>Ụdị data nke %provider</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>Ụdị data</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>Klasị PHP na faịlụ</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>Klasị</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>Ihe</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>Ọkọlọtọ</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>enweghị</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>Ọ dịghị ụdị data dabara na nchọ ahụ. Kpochapụ nchọ ahụ.</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>E gosiri %shown n'ime ụdị data %count</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>Ụdị data e gosiri: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>Hazie site na %column</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>Agụrụ na %time</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>Ụdị data niile</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>Ibe enyemaka</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>A na-eji ụdị data a mana edebanyeghị ya aha</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>Enweghị ike igosi, idezi ma ọ bụ ibipụta ihe nke klasị ndị dị n'okpuru ma ọ bụrụ na ọ dịghị ndọtị na-edebanye ụdị data ahụ aha. Mee ka ndọtị na-enye ya rụọ ọrụ ma tinye ya na content.ini [DataTypeSettings] AvailableDataTypes[], ma ọ bụ gbanwee klasị ndị ahụ.</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini depụtara ụdị data a, mana ọ dịghị nchekwa ụdị data nwere faịlụ ya. Ọ dịghị ihe na-eji ya; wepụ ya na AvailableDataTypes[] ma ọ bụ mee ka ndọtị ya rụọ ọrụ.</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>Banyere ụdị data a</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>Njirimara</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Aha</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Mgbatị %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>ọ dịghị onye</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>Klasị PHP</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Faịlụ</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>Na AvailableDataTypes[]</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ee</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>mba</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>Kọlụm nke uru ya</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>Kọlụm nke ntọala njirimara klasị ya</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>Tebụl</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>A na-achọta kọlụm na tebụl site n'ịgụ koodu nke ụdị data ahụ: ntụziaka, ọ bụghị nkwa.</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>Àkụkụ ndebiri</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Nnweta saịtị</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>Ndebiri</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>Achọtara na</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>nchịkwa a</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>saịtị ndabara</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>Na-enweghị ndochi: ndebiri ndochi dabara site na klasị ma ọ bụ njirimara na-akarị ndị a.</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>Klasị na-eji ya (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>Ọ dịghị klasị nwere njirimara nke ụdị data a.</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Klasị</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>Njirimara</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>Njirimara klasị (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>Njirimara</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Ntọala</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>Chọrọ</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>Enwere ike ịchọ ya</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>Nke enwere ike ịtụgharị</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>Na-anakọta Ozi</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>Ụfọdụ ọdịnaya na-eji ya</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>Nke e mezigharịrị ikpeazụ na mbụ</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Gbanwere</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>Nọdụ %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>Ntụgharị ọ bụla nwere uru nke ya.</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>Nchọ na-edepụta uru ya n'indeksi.</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>Ọ nwere ike ịnakọta ozi n'aka ndị ọbịa (fọm).</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>Enwere ike ịhazi ndepụta site na ya: igodo nhazi %type.</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>Enwere ike ịhazi ya</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>Uru ya na-atụ aka n'ihe ndị ọzọ.</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>Mmekọrịta</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>Enwere ike ijupụta ya site na ederede nkịtị (mbubata, REST).</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>Site na ederede</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>Enwere ike ijupụta ya site na faịlụ.</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>Site na faịlụ</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>Ntọala njirimara klasị ya na-abanye n'ime ngwugwu.</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>Mpakị</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>Ọdịnaya (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from ruo %to n'ime %count</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Zachaa ndepụta ahụ</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>Klasị niile</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Ngalaba</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Asụsụ</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Onye nwe</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Ebipụtara</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>Tụgharịa usoro ahụ</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Enweghị ihe ọ bụla</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>N'otu ibe</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Gosi ihe %count n'ibe ọ bụla.</translation>
     </message>
 </context>
 </TS>

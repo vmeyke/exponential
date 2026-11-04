@@ -34,7 +34,7 @@ installation book: [10.3 Cronjobs](../install/10-after-installing.md#103-cronjob
   `./console cron:<part>` is the same through the console, `./console crontab:list` and `crontab:edit` show and edit
   the crontab.
 - Everything works without JavaScript; with it, runs start in place and the output streams while the job works.
-- A new installation gets its crontab lines from the installer; `php bin/php/installcrontab.php --add` writes them on
+- A new installation gets its crontab lines from the installer; `php bin/php/installcrontab.php --add --apply` writes them on
   one that exists ([section 12](#12-scheduling-with-the-crontab)).
 
 ## Contents
@@ -366,7 +366,7 @@ whoever started it: see the [audit trail](../features/6.0/audit-trail.md).
 and where it is. Nothing ever runs them. In a new installation these are, among others, `session_gc.php` (expired
 sessions), `old_drafts_cleanup.php`, `trashpurge.php` (empties the trash, or with `content.ini [TrashSettings]
 KeepItemsForDays` only what is older), `staticcache_cleanup.php`, `subtreeexpirycleanup.php` and
-`updateviewcount.php`.
+`updateviewcount.php` (counts page views from the access logs: [View count statistics](view-count-statistics.md)).
 
 To run one once, use the shell (section 13) with `--script=<file>`. To run it regularly, add it to a part: to an
 existing one, or to a part of its own so it gets its own schedule:
@@ -415,7 +415,7 @@ DocumentationBase=https://intranet.example.com/operations/
 
 Since 6.0.15 the installers write the crontab of a new installation themselves, in the crontab of the user that owns
 it, between the lines `# BEGIN Exponential cronjobs: <root>` and `# END Exponential cronjobs: <root>`; on an
-installation that exists `php bin/php/installcrontab.php --add` does the same (`--show`, `--remove`, `--dry-run`).
+installation that exists `php bin/php/installcrontab.php --add --apply` does the same (`--show`, `--remove`, `--dry-run`).
 The page below recognises those lines like any other. The dashboard block **Cronjobs** shows when each part last ran
 and warns when one is late. Everything about it: [The installers write the cron job](../bc/6.0/installer-crontab.md).
 

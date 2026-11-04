@@ -14,6 +14,20 @@ Exponential sources say about cPanel, what that means in practice, and how to te
 has not watched Exponential run on cPanel; this page is therefore careful to separate what the sources state from
 general advice.
 
+> **Warning**
+> **`.htaccess` slows down every request.** When `.htaccess` files are enabled (`AllowOverride` anything but `None`), let alone
+> used, Apache looks for them and reads and evaluates them on every request, in every directory of the path, and
+> page loading times go up drastically ([measured](../../../guides/setup-files-from-the-console.md#measured-htaccess-against-rules-in-the-virtual-host)). The only real fix is to switch the feature off for
+> the virtual host: `AllowOverride None` in the HTTPS virtual host, and the rules in the virtual host's own
+> configuration as mod_rewrite rules. That is far faster in production speed tests and well worth the time it takes
+> to optimize a production configuration. Switch over right away: copy the rules of the
+> [example HTTPS virtual host](../../../examples/web-servers/apache-virtual-host.md) into your virtual host (with the static cache, also
+> [`staticcache_offload.conf`](../../../examples/staticcache_offload.conf)), set `AllowOverride None`, run `apachectl configtest`, reload Apache and
+> test the site. The same rules for other servers: [nginx](../../../examples/web-servers/nginx.md), [LiteSpeed](../../../examples/web-servers/litespeed.md),
+> [Caddy](../../../examples/web-servers/caddy.md), [IIS](../../../examples/web-servers/iis.md), [Velocity](../../../examples/web-servers/velocity.md) (built in); where virtual host rules go in a control
+> panel: [Plesk](plesk.md), [cPanel](cpanel.md), [DirectAdmin](directadmin.md), [ISPConfig](ispconfig.md).
+> **On LiteSpeed or OpenLiteSpeed,** the server's own page cache can also answer anonymous visitors and crawlers without PHP: [Page caching with LiteSpeed and OpenLiteSpeed](../../../guides/litespeed-page-cache.md).
+
 > **Note**
 > The Exponential sources describe no cPanel screens or menus. Where this page refers to a panel feature, it does so
 > generically ("the panel's PHP selector", "the panel's cron page"); check cPanel's documentation for the names and
@@ -46,7 +60,7 @@ That is everything the sources say about cPanel specifically.
 Exponential's needs do not depend on the panel. A cPanel account that offers the following runs Exponential, by the
 same reasoning that puts cPanel in tier 3:
 
-- PHP 8.0 or later for the account, with the required extensions: `dom`, `libxml`, `simplexml`, `xsl`, `mbstring`,
+- PHP 8.0 or later (PHP 7.4 usable without support) for the account, with the required extensions: `dom`, `libxml`, `simplexml`, `xsl`, `mbstring`,
   `iconv`, `intl`, `pcre`, `json`, `session`, `zlib`, one database extension, `gd` or ImageMagick
   ([2.3 PHP extensions](../../../install/02-requirements.md#23-php-extensions)). `xsl` and `intl` are critical tests
   of the setup wizard, and are the ones most often missing from a default PHP build.
@@ -65,7 +79,11 @@ The following is general advice derived from the Exponential requirements, not f
    extension settings. Use the same version for the command line if the account has a shell.
 2. **Point the domain's document root at the installation root** (the directory with `index.php`).
 3. **Copy the rewrite rules**: `cp .htaccess_root .htaccess` (or upload `.htaccess_root` as `.htaccess`)
-   ([8.5.1](../../../install/08-serving-the-site.md#851-step-by-step)).
+   ([8.5.1](../../../install/08-serving-the-site.md#851-step-by-step)). With cPanel's **Terminal** (or SSH) the console
+   does it for you, as the account's user: `php bin/php/console exp:setup:htaccess --apply`, and
+   `php bin/php/console exp:setup:config --apply` for `config.php`. Without a shell, copy the files in the
+   **File Manager** (it hides dot files until you switch on "Show Hidden Files")
+   ([Setting up .htaccess and config.php from the console](../../../guides/setup-files-from-the-console.md)).
 4. **Create the database and its user** in the panel, if not SQLite. For MariaDB or MySQL use `utf8mb4`
    ([9.3](../../../install/09-databases.md#93-mysql-and-mariadb)). Since 6.0.15 the wizard needs privileges on that
    database only ([A clean installation that fits shared hosting](../../../features/6.0/clean-install-defaults.md)).
@@ -128,11 +146,14 @@ project ... and the row moves up" ([The four tiers](../../os-support.md#the-four
 
 **A public demo on cPanel.** Set `EXP_DEMO_MODE=1` for the demo's account only: `SetEnv EXP_DEMO_MODE 1` in the site's `.htaccess` (Apache or LiteSpeed), and `EXP_DEMO_MODE=1` on its own line at the top of the account's cron jobs. [Demo mode for hosts](../security/demo-mode-for-hosts.md), [Demo mode examples](../../../examples/demo-mode/README.md).
 
+**The LiteSpeed page cache on cPanel.** With LiteSpeed as the web server, its page cache answers anonymous visitors and crawlers without PHP. Switch it on per site with the commented block of `.htaccess_root` in the account's `.htaccess`, or as an include file below `/etc/apache2/conf.d/userdata/ssl/2_4/<user>/<domain>/` ([`litespeed-page-cache.conf`](../../../examples/web-servers/litespeed-page-cache.conf)). Step by step: [Page caching with LiteSpeed and OpenLiteSpeed](../../../guides/litespeed-page-cache.md#cpanel-and-whm).
+
 ## Related pages
 
 - [Control panels: overview](README.md), [DirectAdmin](directadmin.md)
 - [Shared hosting](../models/shared-hosting.md)
 - [Setup wizard on shared hosting](../provisioning/setup-wizard-on-shared-hosting.md)
+- [Setting up .htaccess and config.php from the console](../../../guides/setup-files-from-the-console.md)
 - [Free documentation](../../free-documentation.md): this page is free to copy, translate and improve under the GNU FDL 1.3.
 
 <!-- exp-partner-block:start -->

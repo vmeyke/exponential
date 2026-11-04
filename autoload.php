@@ -2,7 +2,7 @@
 /**
  * Autoloader definition for eZ Publish
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -21,11 +21,30 @@ if ( !defined( 'EXP_ROOT_DIR' ) && strncmp( __FILE__, 'phar://', 7 ) !== 0 )
     define( 'EXP_ROOT_DIR', __DIR__ );
 }
 
-// PHP functions younger than the oldest supported PHP (8.0), defined only where
-// PHP lacks them. On 8.1 and later the file is not even read.
+// PHP functions younger than the oldest usable PHP (7.4, usable without support; 8.0 is the oldest supported), defined only where
+// PHP lacks them; symfony/polyfill-php80 and -php81 add the rest. On 8.1 and
+// later the file is not even read.
 if ( PHP_VERSION_ID < 80100 )
 {
     require_once __DIR__ . '/lib/phpcompat.php';
+}
+
+// The views of the class module were in the namespace Exponential\View\Kernel\Class
+// until 6.0.15. "Class" is a reserved word before PHP 8.0, so the namespace is
+// Exponential\View\Kernel\ContentClass now; code that still names a class by the old
+// name loads the new one, which registers the old name as an alias.
+if ( !function_exists( 'expAutoloadRenamedClassViews' ) )
+{
+    function expAutoloadRenamedClassViews( $className )
+    {
+        $old = 'Exponential\\View\\Kernel\\Class\\';
+        if ( strncmp( $className, $old, strlen( $old ) ) !== 0 )
+            return;
+        $new = 'Exponential\\View\\Kernel\\ContentClass\\' . substr( $className, strlen( $old ) );
+        if ( class_exists( $new ) && !class_exists( $className, false ) )
+            class_alias( $new, $className );
+    }
+    spl_autoload_register( 'expAutoloadRenamedClassViews' );
 }
 
 // An engine archive, if this installation is running from one.
@@ -117,7 +136,25 @@ if ( file_exists( __DIR__ . '/config.env.php' ) )
     require_once __DIR__ . '/config.env.php';
 }
 
-if ( file_exists( __DIR__ . '/config.php' ) )
+// A config.php that does not compile stops every request and every script here with a parse error. The scripts that
+// show and replace it (bin/php/console, bin/php/setupfiles.php, bin/php/configphp.php) define
+// EXP_CONFIG_PHP_TOLERATE first: for them the file is checked, and when it does not compile it is not read and
+// EXP_CONFIG_PHP_SKIP holds the error, so ./console exp:config:list and exp:setup:config --force can still say so
+// and repair it. Every other entry point reads config.php as before.
+if ( file_exists( __DIR__ . '/config.php' ) && defined( 'EXP_CONFIG_PHP_TOLERATE' ) && !defined( 'EXP_CONFIG_PHP_SKIP' ) )
+{
+    try
+    {
+        token_get_all( (string)file_get_contents( __DIR__ . '/config.php' ), TOKEN_PARSE );
+    }
+    catch ( ParseError $ezpConfigError )
+    {
+        define( 'EXP_CONFIG_PHP_SKIP', 'config.php does not compile: ' . $ezpConfigError->getMessage() . ' on line ' . $ezpConfigError->getLine() );
+        unset( $ezpConfigError );
+    }
+}
+
+if ( file_exists( __DIR__ . '/config.php' ) && !defined( 'EXP_CONFIG_PHP_SKIP' ) )
 {
     require_once __DIR__ . '/config.php';
 }

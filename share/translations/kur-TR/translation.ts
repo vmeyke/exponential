@@ -982,6 +982,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>Tenê li vê rûpelê tê lêgerîn: %from heta %to ji %count.</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Hemû cureyên daneyê yên Kernel û pêvekan, û çîn û naverok çawa wan bi kar tînin.</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Cureyên daneyê</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2314,6 +2322,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>Rûpelên pergalê jî dikarin li nîşankeran werin zêdekirin: rûpelê vekin (Sazkirin, şopa kontrolê, lîsteyeke bikarhêneran ...) û li jorê wê &quot;Rûpelê li nîşankeran zêde kirin&quot; hilbijêrin. Nîşankerên weha îkoneke çerxa diranan hene.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>Hûn êdî nikarin vê rûpelê li vir vekin. Nîşankerê rakin, an jî ji rêveberekî gihîştinê bixwazin.</translation>
     </message>
 </context>
 <context>
@@ -5163,6 +5175,210 @@
         <source>Go to the first page</source>
         <translation>Biçin rûpela yekem</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>Yên din</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>7 rojên dawî</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>Navbera taybet</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>Hemû peyv</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>Her peyvek</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>Hevoka tam</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>Têkildarî</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>Nav A–Z</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>Nav Z–A</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>Guhertin, nûtirîn pêşî</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>Guhertin, kevntirîn pêşî</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>Weşandin, nûtirîn pêşî</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>Weşandin, kevntirîn pêşî</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Dîroka guhertinê</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>Parzûn</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>Parzûnan nîşan bide</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>Parzûnan veşêre</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Ji nû ve danîn</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>Sepandin</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>Peyv</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>Cureyê naverokê</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>Bêtir nîşan bide (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>Ji bo lêgerînê di yek ji taybetmendiyên wê de, cureyekî naverokê hilbijêre.</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Beş</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Ji</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Heta</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>Dîroka destpêkê ne dîrokeke derbasdar e.</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>Dîroka dawiyê ne dîrokeke derbasdar e.</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Xwedî</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>Nasnameya bikarhêner, navê têketinê an navnîşana e-nameyê.</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>Ji bo “%input” tu bikarhêner nehat dîtin.</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Ziman</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>Her ziman</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Cih</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>%count cih</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>Encam ji bo her rûpelê</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>Encamên ji bo “%text” (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>Encam (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>Rêzkirin li gorî</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>Rêzkirin</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>Parzûnên çalak</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>Rakirina vê parzûnê</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>An jî parzûnan hilbijêre û bisepîne da ku naveroka lihevhatî were rêzkirin.</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>Piştî ku te peyv nivîsandin, parzûn lêgerînê teng dikin.</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>Ji bo “%text” tu encam nehat dîtin.</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>Tu encam nehat dîtin.</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>Parzûnekê li jor rake.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Werger</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Çalakî</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>%name sererast bike</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Sererastkirin</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -7512,6 +7728,10 @@
         <source>Setup &gt; Cronjobs</source>
         <translation>Sazkirin &gt; Karên demsazkirî</translation>
     </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>Hêj tu beşeke karên demsazkirî nexebitiye: rêza karan, îtxalkirin, agahdarî û îndeksa lêgerînê li bendê ne. php bin/php/installcrontab.php --add --apply bimeşînin, an rêzên --show li crontab zêde bikin.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/dashboard/drafts</name>
@@ -8056,8 +8276,8 @@
         <translation>Daxuyaniyên mafê kopîkirinê yên nivîskarên orîjînal û yên nermalava aliyên sêyem a ku bi Exponential re tê, wek ku lîsans dixwaze, di pelên çavkaniyê û di pelê LICENSE de têne parastin.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>Ev lîsteya beşdarên Exponential e ku karê xwe li gorî merc û şertên eZ Systems Contributor Licensing Agreement ji bo bikaranîna 7x lîsans kirine. Wek ku ev peyman destûr dide, 7x her beşdariyê di bin heman lîsansa pelê de ku beşdarî tê de cih digire ji nû ve belav dike. Lîste her beşdarekî, agahiyên têkiliyê yên vebijarkî û ew pelên ku wan beşdarî wan kiriye nîşan dide.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>Beşdarên ku ji bo xebata xwe li ser Exponential û li ser nermalava ku jê derketiye tên naskirin, bi pelên ku beşdarî wan bûne. Ev naskirin e, ne agahdariya mafê weşanê ye: beşdariyên ji bo Exponential li gorî Contributor Licensing Agreement ji Exponential Foundation û 7x re têne veguhestin.</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13879,32 +14099,20 @@ Têbînî: Sazkirina pakêtan nayê rakirin.</translation>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;Exponential Enterprise Edition biceribînin&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Bibin endamê Civata Exponential, agahiyan biguherînin û beşdar bibin&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; û yên din.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>Bi hêza &lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt;. Ji bo agahiyên zêdetir li &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt; binêrin.</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; û yên din.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> Ji bo agahiyên zêdetir li &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt; binêrin.</translation>
     </message>
     <message>
-        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; û yên din.</translation>
+        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;Exponential biceribînin (ji 7x)&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Bibin endamê Civata Exponential, piştgiriyê bistînin û beşdar bibin&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; û yên din.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13913,6 +14121,61 @@ Têbînî: Sazkirina pakêtan nayê rakirin.</translation>
     <message>
         <source>Help center</source>
         <translation>Navenda alîkariyê</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>Naverok</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>Rûpelên belgeyê</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>Bikarhêner</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>Çînên naverokê</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>Rêveberî</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>Rûpel %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>Hemû encaman bibîne</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>Encam: %count</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>Encamek</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>%count pêşniyar</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>Pêşniyar tune</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>Pêşniyar nehatin barkirin.</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>Pêşniyar</translation>
     </message>
 </context>
 <context>
@@ -14381,6 +14644,14 @@ Têbînî: Sazkirina pakêtan nayê rakirin.</translation>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>Ev sazkirin demoyeke giştî ye: her kes dikare şîfreya rêveberê wê zanibe, û şîfreyên rêveberan nayên guhertin an ji nû ve danîn. Li vir tiştekî taybet nenivîsin.</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Cîhazên we</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Çalakiya ewlehiyê</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14670,6 +14941,14 @@ Têbînî: Sazkirina pakêtan nayê rakirin.</translation>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>Rêber, lêgerîn û çawa çewtiyekê ragihînin.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Naveroka nû</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Naveroka herî nû, tiştên ku ji bo nirxandinê hatine ragirtin, û kiryarên li ser hilbijartinekê.</translation>
     </message>
 </context>
 <context>
@@ -15128,6 +15407,46 @@ Têbînî: Sazkirina pakêtan nayê rakirin.</translation>
         <source>Synchronisations</source>
         <translation>Hevdemkirin</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>API ya GraphQL: xala wê ya dawî, şema û qadeke ceribandinê ji bo pirsiyaran.</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Koçberkirin</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Guhertinên sazkirinê yên wek pel hatine parastin: rewşa wan, xebitandin, xebitandin û paşvekişandin.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Naveroka nû</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Naveroka herî nû, tiştên ku ji bo nirxandinê hatine ragirtin, û kiryarên li ser hilbijartinekê.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Kopiyeke statîk a malperê li ser GitHub Pages an her mêvandarekî git biweşîne.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Weşandina statîk</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Cureyên daneyê</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Hemû cureyên daneyê yên Kernel û pêvekan, û çîn û naverok çawa wan bi kar tînin.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15292,6 +15611,22 @@ Têbînî: Sazkirina pakêtan nayê rakirin.</translation>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>Hesabên ku kes bikar nayîne an divê li wan were nêrîn; wan neçalak bikin, vekin an derxînin.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Tomara kontrolê ya bikarhêneran</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>Kê guherand, têket an hate redkirin, li gorî her hesabî; fîlterkirin û derxistin.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Rapora têketinê</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>Kî têketî ye, têketin û têkçûn li gorî rojê; derxistina bikarhênerekî ji her derê.</translation>
     </message>
 </context>
 <context>
@@ -22108,6 +22443,22 @@ Têbînî: Sazkirina pakêtan nayê rakirin.</translation>
         <source>%n hours ago</source>
         <translation>Berî %n saetan</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>Bersivên pirsiyarên tomarkirî yên API ya GraphQL, û çînên naverokê yên şemaya wê.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>Kopiyeke statîk li ser GitHub Pages an her mêvandarekî git biweşîne</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Weşandina statîk</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>Cache ya statîk rûpelan ji vê serverê pêşkêş dike. Ji bo weşandina kopiyeke statîk a malperê li cihekî din, li ser GitHub Pages an her mêvandarekî git, weşandina statîk bi kar bîne.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25649,6 +26000,10 @@ Têbînî: Sazkirina pakêtan nayê rakirin.</translation>
     <message>
         <source>last purge</source>
         <translation>paqijkirina dawî</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>Nivîsandin nikaribûn qufla rewşê bigirin (cara dawî %date): her yekê hemû encamên di cache de kevn kirin. %file divê ji bo her bikarhênerê ku malper pê dixebite were nivîsandin; li ser NFS pêdivî bi NFSv4 an lockd heye.</translation>
     </message>
 </context>
 <context>
@@ -33597,6 +33952,14 @@ Têbînî: Sazkirina pakêtan nayê rakirin.</translation>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>Danişînên dema wan qediyayî yên birêvebirê PHP ji aliyê PHP bi xwe ve tên rakirin (session.gc_maxlifetime), ne ji aliyê vê rûpelê an beşa cronjob session_gc ve.</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>Danişînên têketî yên hemû bikarhêneran di rapora têketinê de tên rêzkirin û tên derxistin; ev rapor bi her birêvebirê danişînê re dixebite.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>Vekirina rapora têketinê</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37921,6 +38284,26 @@ bişopînin.</translation>
     <message>
         <source>None yet</source>
         <translation>Hîn tune</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Çalakiya ewlehiyê</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>Têketinên we yên dawî, hewldanên bi ser neketî û guhertinên di şîfre, navnîşana e-nameyê û têketina du-gavî ya we de.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>Têketinên dawî, hewldanên bi ser neketî û guhertinên ewlehiyê yên vî hesabî.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>Çavdêriya çalakiyê</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>Têketinên bi ser neketî: %count</translation>
     </message>
 </context>
 <context>
@@ -44087,6 +44470,42 @@ Heke hûn dixwazin şîroveyan ji pejirîner re bişînin an rewşê bibînin, U
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>Piştî têketinê, divê bikarhêner berî her tiştî şîfreyeke nû hilbijêre. Dema ku hûn şîfreyeke demkî didin kesekî, vê bikar bînin.</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>Wêneyekî heyî hilbijêrin</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>Pelê wêneyê heyberê ku hûn hilbijêrin di vê qadê de tê kopîkirin. Heyberê din nayê guhertin.</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>Wêneyê "%name" di vê qadê de hate kopîkirin.</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>Li wêneyekî bigerin</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>Wêneyan li gorî navê bigerin</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Lêgerîn</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>Wêneyê "%name" bi kar bînin</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>Vê wêneyê bi kar bînin</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>Tu wêne li gorî lêgerîna we nayê dîtin.</translation>
     </message>
 </context>
 <context>
@@ -51011,6 +51430,10 @@ Ji bo bêtir agahiyan li rûpela pêdiviyan binêrin.</translation>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>Crontab nehat nivîsandin (%reason). Van rêzan li crontab a wî bikarhênerî zêde bikin ku malper pê dixebite, wekî din rêza karan, anîn, agahdarî û îndeksa lêgerînê qet naxebitin:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>Ji nû ve sazkirin bi kickstarter tê kirin (%file, paşê php bin/php/kickstarter.php run --apply) an jî bi sazkirineke nû.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54890,6 +55313,10 @@ bişopînin.</translation>
         <source>eZJSCore Public Packer cache</source>
         <translation>Cache ya pakêtkera giştî ya eZJSCore</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>Bîra demkî ya GraphQL (bersiv û çînên şemayê)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54976,6 +55403,14 @@ bişopînin.</translation>
     <message>
         <source>Copy of %class_name</source>
         <translation>Kopiya %class_name</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Cureyên daneyê</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>Cureyê daneyê %string</translation>
     </message>
 </context>
 <context>
@@ -55802,6 +56237,26 @@ bişopînin.</translation>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>Wêneyê SVG nehate xwendin, an tiştek tê de nikare bi ewlehî were nîşandan.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>Wêne nehate kopîkirin. Ji kerema xwe dîsa biceribînin an bi rêvebirê malperê re têkilî daynin.</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>Heyberê hilbijartî tune ye an hûn nikarin wî bixwînin.</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>Wêneyê heyberê hilbijartî tune ye.</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>Pelê wêneyê heyberê hilbijartî nehate xwendin.</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>Wêneyê heyberê hilbijartî ji ya ku ev qad destûr dide mezintir e: %1 bayt.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56332,6 +56787,42 @@ bişopînin.</translation>
         <source>The bookmark was renamed to &quot;%name&quot;.</source>
         <translation>Navê nîşankerê bû &quot;%name&quot;.</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>Ev rûpel di vê gihîştina malperê de (%siteaccess) hatiye girtin. Nîşankerê di gihîştineke malperê de vekin ku ev rûpel tê de heye.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>Modula vê rûpelê li vir nehatiye sazkirin an jî ne çalak e.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>Ev rûpel êdî tune ye: di modula wê de dîtineke wiha tune ye.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>Ti rolên we destûrê nadin ku hûn vê rûpelê vekin.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>Hûn nikarin vê gihîştina malperê bi kar bînin.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>Hûn nikarin naveroka ku ev rûpel nîşan dide bixwînin.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>Ev cure rûpel nikare li nîşankeran were zêdekirin: ew tenê li ser formekê kar dike, an jî rûpeleke yek kêliyê ye.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>Navnîşana vê rûpelê tune ye.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>Ev rûpel niha nayê vekirin.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56803,6 +57294,10 @@ Divê hûn çîna girêkê bi fonksiyona guhertina çînê (swap) biguherînin.<
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>Veguhestina e-nameyê di xebitandina dawî de %count peyam red kirin. Pêşkêşkarê e-nameyê û site.ini MailSettings kontrol bikin.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>%count bûyer li bendê ne û tu meşandina karê demsazkirî yê agahdariyan nehatiye tomarkirin. Beşa karê demsazkirî &quot;frequent&quot; li crontab zêde bikin, an exp:notification:run --apply bimeşînin.</translation>
     </message>
 </context>
 <context>
@@ -63059,6 +63554,10 @@ Divê hûn çîna girêkê bi fonksiyona guhertina çînê (swap) biguherînin.<
         <source>Choose another site or section with the node picker</source>
         <translation>Bi hilbijêrê girêkan malper an beşeke din hilbijartin</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>Tenê rêveberê pergalê dikare xwedî biguherîne: ./console exp:content-check --fix-permissions --apply wek root bimeşînin.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64592,6 +65091,10 @@ Divê hûn çîna girêkê bi fonksiyona guhertina çînê (swap) biguherînin.<
     <message>
         <source>empty</source>
         <translation>vala</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>Mifteya îmzekirinê ji salekê kevntir e: wê bi exp:audit key rotate --apply biguherînin.</translation>
     </message>
 </context>
 <context>
@@ -66972,6 +67475,486 @@ Divê hûn çîna girêkê bi fonksiyona guhertina çînê (swap) biguherînin.<
         <source>Share of page time</source>
         <translation>Para ji dema rûpelê</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>amadekirineke tevahî hate xwestin</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>rûpel di cache ya rûpelan de tune bû (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>cache ya rûpelan bersiv neda</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>Amadekirî</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>Ji aliyê kernel ve hate amadekirin: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>Di %ms ms de ji cache ya rûpelan hate pêşkêşkirin. Rûpel di %stored de ji aliyê amadekirineke %render ms ve hate tomarkirin, berî %age çrk.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>Niha amadekirin</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>Vegerîn bo dîtina ji cache</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>Ji amadekirina di %stored de (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>Ev daxwaz: di %ms ms de ji cache ya rûpelan hate pêşkêşkirin.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Bikarhêner</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>Nasnameya bikarhêner</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>Profîla cacheyê</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>Ev dîmen</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>Cache ya dîtinan</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>ji bo her bikarhênerî (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>Profîla cacheyê ya bikarhêner: bikarhênerên bi heman profîlê pelên cacheya dîmenan parve dikin</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>erê</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>na</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Têketin</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>Têketî</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>Danişîn</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>Beşên mifteya cacheya dîmena naverokê yên bi bikarhêner ve girêdayî, tam wekî ku mifte wan digire, di bin ViewCacheTweaks ên vê rûpelê de. Bikarhênerên bi heman profîlê pelên cacheya dîmenan parve dikin, heya ku beşên dîmenekê bi xwe cuda nebin (tercîh, mifteyên guhdaran): profîla wan a xwe heye, tenê ji bo vê rûpelê.</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>Profîl</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>Ev dîmen (girêk %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: her bikarhênerê têketî pelên cacheyê yên xwe hene.</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>ViewCacheTweaks ên derbasdar: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>Parçe</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>Nirx</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>Tu beş bi bikarhêner ve girêdayî nîne (ViewCacheTweaks).</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>ev dîmen</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>Wekî nivîs kopî bike</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>Rol</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>Tu diyarkirina rolê nehat xwendin.</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>Nasnameya rolê</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Rol</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>Sînorkirin</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>Diyarkirî ji bo</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>bikarhêner</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>kom %name (tişt %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>Hate kopîkirin</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>Nehat kopîkirin.</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>ji aliyê guhdarekî ve hat derxistin</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>Mêvanên nenas</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>wekî ya te</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>cuda</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>Profîla ku mêvanên nenas di bin heman ViewCacheTweaks de distînin, bi tercîhên pêşwext, bê beşên dîmenê: guhdarekî ku danişînê dixwîne nikare li ser wan were pirsîn.</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>Tercîh</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>Tu moda dîmenê bi tercîhên bikarhêner ve girêdayî nîne (site.ini [ContentSettings] CachedViewPreferences).</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>Tercîhên ku dîmenên van modên dîmenê bi wan ve girêdayî ne (CachedViewPreferences), bi nirxa bikarhêner an a pêşwext. Ew di profîlê de wekî userpreferences in, yên hemû modên dîmenê bi hev re.</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>Moda dîtinê</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>Tercîh</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>Standard</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>Polîtîka</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>Polîtîkayên rolan nîşan bide (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>Polîtîka dema ku ev beş tê vekirin ji serverê têne barkirin, her carê rûpelek, û dikarin li gorî modul û fonksiyonê werin parzûnkirin.</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>Fonksiyon</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>Hemû modul</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>Hemû fonksiyon</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>Sînorkirin</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>Zêdetir nîşan bide</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>Polîtîkayên van rolan tune ne.</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>Tu polîtîka li parzûnê nayê.</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%shown ji %matching polîtîkayan (bi giştî %total)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>Gava tê vekirin tê barkirin.</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>module/function, rol, sînorkirin</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>Di polîtîkayan de bigere</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>Zêdetir bar bike</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>Modul/fonksiyon</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>Hemû rol (%count polîtîka)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>Tu polîtîka nayê.</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%shown ji %matched polîtîkayan</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>Bersiv tune</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>veşartî</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>Ravekirinan nîşan bide</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>Ravekirinan veşêre</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Vekirin</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>Hemûyan vekirin</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>Hemûyan girtin</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>Mifte an nirx</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>Di danişînê de bigere</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Cure</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>%count zêdetir</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>ji bo nîşandanê pir kûr hatiye hêlînkirin</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>hatiye birîn, bi tevahî %count tîp</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Dest pê kir</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>Navê kukiyê</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>Nasnameya danişînê</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>Rêveber</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>Rêya tomarkirinê</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>Standarda PHP</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>Jiyandem (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>Kukî</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>jiyandem %s s</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>Danişîna we ya PHP ya xwe, wekî ku dema beş hate vekirin bû, qet ya kesekî din na. Nirxên miftên ku dişibin nehêniyan (token, hash, şîfre) têne veşartin (debugbar.ini SessionMask[]); her tiştê din wekî ku hatiye tomarkirin tê nîşandan, daneyên kesane jî.</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>%count mifte, %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>mezin</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>Danişîn vala ye.</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>Ji bo vê daxwazê tu danişîn nehat destpêkirin.</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Pêveka %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>Kernel û yên din</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>Hemû tomar nayên nîşandan: di danişînê de ji ya ku li vir dikare were lîstekirin zêdetir heye.</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>%count mifte nayên lîstekirin.</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>Çarçove</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>Nirxên ku dişibin tokenekê (JSON Web Token, nasnameyên sernivîsa Authorization, mifteyeke taybet, nivîseke hex a dirêj an rasthatî) jî têne veşartin, navê mifteya wan çi dibe bila bibe (debugbar.ini SessionValueMask[]).</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>Mifte dişibe nehêniyekê (debugbar.ini SessionMask[]).</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>Nirx dişibe tokenekê.</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>Di bin mifteyeke veşartî de.</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>Danişîn wekî nivîs, wekî tabloyê veşartî.</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>Danişîn ji %size mezintir e (debugbar.ini SessionWarnBytes): her daxwaza vê bikarhênerê tevahiya danişînê dixwîne, û dema ku guherî wê dinivîse.</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP vê danişînê di pelan de diparêze û pelê di tevahiya daxwazê de kilît dike: daxwazên heman bikarhênerî (çend tab, bangên AJAX) li hev disekinin.</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>Vekirî bihêlin</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>Ji %size mezintir (debugbar.ini SessionWarnBytes): her daxwaza vê bikarhênerê tevahiya danişînê dixwîne.</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%hits ji %count ji cache hatin xwendin</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>Tu şablon nehat render kirin (dîtineke ku ji cache-a dîtinan hatiye xwendin tu şablonê render nake).</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>Veqetandinên rolan</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>Rol û polîtîka</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>ji yên serdanvanên nenas cuda ye</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>wek yên serdanvanên nenas</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -68852,6 +69835,14 @@ Divê hûn çîna girêkê bi fonksiyona guhertina çînê (swap) biguherînin.<
     <message>
         <source>not sent</source>
         <translation>nehat şandin</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Karê demsazkirî yê agahdariyan her meşandina xwe li vir tomar dike. Beşa frequent li crontab zêde bikin, an exp:notification:run --apply bimeşînin.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>Konsolê bikar bînin: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -74570,6 +75561,98 @@ Divê hûn çîna girêkê bi fonksiyona guhertina çînê (swap) biguherînin.<
         <source>This topic is not Released; readers do not see it.</source>
         <translation>Ev mijar nehatiye belavkirin; xwendevan wê nabînin.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Koçberkirin</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Guhertinên sazkirinê yên wek pel hatine parastin: rewşa wan, xebitandin, xebitandin û paşvekişandin.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Kopiyeke statîk a malperê li ser GitHub Pages an her mêvandarekî git biweşîne.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Weşandina statîk</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>Di venêrînê de</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>Xwendevan vê rûpelê dibînin.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>Heta ku kesek wê belav neke, ji xwendevanan veşartî ye.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>Rûpel niha di venêrînê de ye. Heta ku neyê belavkirin, ji xwendevanan veşartî ye.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>Rûpel hat belavkirin: xwendevan niha wê dibînin.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>Rûpel dîsa reşnivîs e. Heta ku neyê venêrîn û belavkirin, ji xwendevanan veşartî ye.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>Niha belav bike</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>Tenê bikarhênerekî bi rola %role ku ev guherto nenivîsandiye dikare wê belav bike.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>Mijarên alîkariyê yên li benda belavkirinê</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>Heta ku dîsa neyê belavkirin, wê ji xwendevanan vedişêre.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>Piştre venêrerek wê kontrol dike. Xwendevan hêj wê nabînin.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>Xwendevan wê yekser dibînin.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>Ji bo karê zêdetir wê ji venêrînê derdixe. Xwendevan wê nabînin.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>Ev rûpel ji xwendevanan were veşartin?</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>Ev rûpel vegere reşnivîsê?</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>Heta ku kesek dîsa belav neke, xwendevan êdî %title nabînin.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title ji bo karê zêdetir vedigere reşnivîsê. Xwendevan hêj wê nabînin, û berî belavkirinê venêrîneke nû pêwîst e.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Betal</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>Ev mijar di venêrînê de ne. Gava kesekî ku guhertoya niha nenivîsandiye wan belav bike, xwendevan wan dibînin.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/secrets</name>
@@ -76475,6 +77558,46 @@ Divê hûn çîna girêkê bi fonksiyona guhertina çînê (swap) biguherînin.<
         <source>None.</source>
         <translation>Tune.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>bi sepana piştrastkirinê</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>bi kodeke bi e-nameyê</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>bi koda vegerandinê</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>bi mifteya têketinê</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>bi hesabekî derveyî</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Çalakiya ewlehiyê</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>Wek tora wê tê nîşandan; navnîşan li gorî mîhengên parastina daneyan ên malperê tê hilanîn.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Nehatiye tomarkirin</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Cih</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>nêzîkî</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76718,6 +77841,42 @@ Divê hûn çîna girêkê bi fonksiyona guhertina çînê (swap) biguherînin.<
         <source>Manage devices</source>
         <translation>Rêvebirina cîhazan</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>bi sepana piştrastkirinê</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>bi kodeke bi e-nameyê</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>bi koda vegerandinê</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>bi mifteya têketinê</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>bi hesabekî derveyî</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Çalakiya ewlehiyê</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Nehatiye tomarkirin</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Cih</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>nêzîkî</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76797,6 +77956,14 @@ Divê hûn çîna girêkê bi fonksiyona guhertina çînê (swap) biguherînin.<
         <source>View the sessions of this user</source>
         <translation>Nîşandana danişînên vî bikarhênerî</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>Hesabê we %login li ser %site niha ji bo têketinê ji cihekî hat bikaranîn ku vê dawiyê jê neketibû:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>Cihê nêzîkî</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76835,6 +78002,10 @@ Divê hûn çîna girêkê bi fonksiyona guhertina çînê (swap) biguherînin.<
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%browser li ser %os</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Rapora têketinê</translation>
     </message>
 </context>
 <context>
@@ -77043,6 +78214,82 @@ Divê hûn çîna girêkê bi fonksiyona guhertina çînê (swap) biguherînin.<
         <source>The passkey could not be checked. Please try again.</source>
         <translation>Mifteya têketinê nehat kontrolkirin. Ji kerema xwe dîsa biceribînin.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>Hesabên ku tenê bi mifteyên têketinê têdikevin, li vir nikarin şîfreyê bikar bînin: &quot;Bi mifteya têketinê têketin&quot; hilbijêrin.</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>Mifteyên têketinê yên %login</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>Mifteyên têketinê yên ku ev hesab pê têdikeve. Ya ku li ser cîhazeke winda an dizî ye nederbasdar bikin: ew êdî nikare têkeve. Xwedî yên nû bi xwe zêde dike.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>Hesabê we mifteyeke têketinê hewce dike</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>Mifteyeke têketinê li hesabê xwe zêde bikin</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>Ji bo berdewamkirinê mifteyeke têketinê zêde bikin. Paşê hûn ne tenê bi şîfreyê, lê bi wê têdikevin.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>Têketina bi mifteya têketinê ji şîfreyê zûtir û ewletir e. Niha yekê zêde bikin, an bê wê berdewam bikin.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>Ne niha</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>Mifteya têketinê &quot;%name&quot; nederbasdar bikin?</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>Ew êdî nikare têkeve vî hesabî. Heke ew ya dawî bû, xwedî bi şîfreyê têdikeve, an hûn şîfreyeke nû diyar dikin.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>Mifteya têketinê nederbasdar kirin</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>Nederbasdar kirin</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>Mifteya têketinê ya vî hesabî tune ye.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>Rastker</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Nenas</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>Mifteya we ya dawî: berî ku wê rakin, yekê din zêde bikin.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>Ev hesab tenê bi mifteyên têketinê têdikeve (polîtîkaya mifteyên têketinê): dema ku yek nemîne, ew dîsa bi şîfreya xwe têdikeve.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>Ev mifteya we ya dawî ye û hesabê we bêyî wê nikare têkeve. Pêşî mifteyeke din zêde bikin.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>Mifteya têketinê &quot;%name&quot; hate nederbasdarkirin. Ew êdî nikare têkeve vî hesabî.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77142,6 +78389,34 @@ Divê hûn çîna girêkê bi fonksiyona guhertina çînê (swap) biguherînin.<
         <source>Code from your authenticator app</source>
         <translation>Koda ji sepana rastkirinê ya we</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>Hûn ê daneyan bi temamî jê bibin an tomarekê vala bikin.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>Şîfreya we û mifteyeke têketinê</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>Şîfreya we û kodeke ji sepana rastkirinê ya we</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>An jî:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>Ev gerok nikare mifteyên têketinê bikar bîne. Rêyeke din an gerokeke din bikar bînin.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>Dema ku hûn bidomînin, geroka we yek ji mifteyên we yên têketinê dixwaze.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>Bi mifteya têketinê berdewam kirin</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77232,6 +78507,70 @@ Divê hûn çîna girêkê bi fonksiyona guhertina çînê (swap) biguherînin.<
     <message>
         <source>Setup</source>
         <translation>Sazkirin</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>Guhertina şîfre, navnîşana e-nameyê, mifteyên têketinê, têketina du-gavî, kodên vegerandinê an mifteyên API yên xwe, û derxistina cîhazên xwe yên din.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>Afirandin û sererastkirina bikarhêneran, şîfre û cîhazên wan, mîhengên hesaban, pejirandin an redkirina hesabên bikarhêneran ên nû, diyarkirina rolan û sererastkirina polîtîkayan.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>Jêbirina daneyan</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>Valakirina çopdankê, rakirina hêmanan jê û rakirina çend hêmanan bi carekê.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>Rakirin, weşandin û tomarkirina naverokê</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>Rakirina naverokê (ji bo çopdankê jî), weşandin û tomarkirina reşnivîsekê, dema ku form tê şandin tê pirsîn. Ji destpêkê ve girtî ye.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>Berî çalakiyeke hestiyar, bikarhênerê têketî dîsa piştrast dike ku ew kî ye: bi şîfreya xwe û mifteyeke têketinê, an bêyî mifteya têketinê bi şîfreya xwe û koda sepana rastkirinê ya xwe. Tenê rûpelên malperê dipirsin: navrûya REST, SOAP, WebDAV, têketina expservices û rêzika fermanan qet napirsin.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>Mîheng li ku derbas dibin</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>Mîheng ji bo</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Her gihîştina malperê</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>Gihîştina malperê %name</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Vekirin</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>Kî tê pirsîn: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>Komên bikarhêneran nîşan bikin da ku tenê ji endamên wan were pirsîn (wek edîtor). Yek nehatibe nîşankirin: her bikarhêner.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>Di settings/override/site.ini.append.php de hate tomarkirin, ji bo her gihîştina malperê. Dema tomarkirinê ji we tê xwestin ku hûn piştrast bikin ku ev hûn in.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>Di settings/siteaccess/%name/site.ini.append.php de hate tomarkirin. Nirxek di settings/override de li ser wê serdest e. Dema tomarkirinê ji we tê xwestin ku hûn piştrast bikin ku ev hûn in.</translation>
     </message>
 </context>
 <context>
@@ -77334,6 +78673,6822 @@ Divê hûn çîna girêkê bi fonksiyona guhertina çînê (swap) biguherînin.<
     <message>
         <source>Open the page</source>
         <translation>Vekirina rûpelê</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from heta %to ji %count</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>Navê têketinê an nasnameya bikarhêner: hesabê ku bûyer li ser wî bû an bikarhênerê ku kiryar kir.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Hesab</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Kiryar</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>Paşê</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>Her encam</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Berê</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Ji aliyê</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Paqijkirin</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Pêk hat</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>Bûyer %days rojan têne parastin.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>Bûyer têne parastin heta ku bi destan werin rakirin.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Bûyer</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>Her kiryar</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>Hemû bûyerên vî hesabî</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>Lîsteyê wekî CSV derxistin (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Bi ser neket</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Ji</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>Lîsteyê teng kirin</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>Tu bûyer li hev nayê.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Li her rûpelê</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>Tomarkirin di audit.ini de hatiye girtin ([UserAuditSettings] UserAudit); lîste tiştên ku berê hatine tomarkirin nîşan dide.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Hate redkirin</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Encam</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Nîşandan</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>Tabloya tomara kontrolê ya bikarhêneran tune ye. Wê bi php update/common/scripts/6.0/createuseraudittable.php biafirînin; heta wê demê pelên kontrolê her bûyerê diparêzin.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>Ev rûpel danegeheke SQL hewce dike; li ser MongoDB ne berdest e. Pelên kontrolê her bûyerê diparêzin.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Heta</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Tomara kontrolê ya bikarhêneran</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Bikarhêner</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Kengê</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Li ku</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>Kê kîjan hesab guherand, afirand, çalak kir, neçalak kir, bar kir an rakir, kê têket an hate redkirin û kîjan rol hatin diyarkirin: ji bo her bûyerê rêzek, bi qadên berê û paşê. Şîfre û nepenî qet nayên tomarkirin.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>kom</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>pergal</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>nenas</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>Hesabê xwe biparêzin</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>Ji bo têketina hesabê we %login li ser %site kodeke vegerandinê hat bikaranîn.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>Kodeke vegerandinê hat bikaranîn</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Hesab</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>Navnîşana nêzîkî</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>Ji bo ku hûn dîsa têkevin şîfreyeke nû bixwazin, an bi rêveberên malperê re têkilî daynin.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>Şîfreyeke nû xwestin</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>Her koda vegerandinê carekê dixebite. Heke we telefona xwe winda kiriye, sepana xwe ya piştrastkirinê ji nû ve saz bikin û kodên vegerandinê yên nû li cihekî ewle biparêzin.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>Hewldanên têketinê yên bi ser neketî li ser hesabê we</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>Ji niha û pê ve, têketin ji bilî şîfreya we kodekê jî dixwaze. Heke we ev kiriye, ne hewce ye hûn tiştekî bikin.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>Heke hûn bûn û we şîfreya xwe ji bîr kiriye, şîfreyeke nû bixwazin. Heke na, şîfreyeke xurttir hilbijêrin û têketina du-gavî vekin.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>Heke ne hûn bûn, dibe ku kesek şîfreya we dizane: niha wê biguherînin û kontrol bikin ku hesabê we li ku derê têketî ye.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>Kodên vegerandinê yên mayî</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>Cîhazên xwe kontrol bikin</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>Alarma ewlehiyê</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>Kesekî hewl da ku bi şîfreyeke şaş %count caran li pey hev têkeve hesabê we %login li ser %site.</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>Li ser hesabê we %login li ser %site bûyereke ewlehiyê çêbû.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>Ev alarmeke ewlehiyê ye derbarê hesabê we de. Ji bo her guhertineke wiha tê şandin û nayê girtin.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Dem</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>Têketina du-gavî ji bo hesabê we %login li ser %site hat girtin.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>Têketina du-gavî hat girtin</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>Têketina du-gavî ji bo hesabê we %login li ser %site hat vekirin.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>Têketina du-gavî hat vekirin</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>Hesabê we %login li ser %site piştî gelek têketinên bi ser neketî hat kilîtkirin.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>Hesabê we niha tenê bi şîfreya we tê parastin. Heke we ev nekiriye, piştî ku we şîfreya xwe guhert têketina du-gavî dîsa vekin.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>Hesabê we hat kilîtkirin</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>Mifteyeke têketinê li hesabê we yê %login li ser %site hate zêdekirin.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>Kî ev mifteya têketinê hebe, dikare bêyî şîfreya we têkeve hesabê we. Heke we ew zêde nekiribe, wê di bin Mifteyên têketinê de rakin û şîfreya xwe biguherînin.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>Mifteyeke têketinê ji hesabê we yê %login li ser %site hate rakirin.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>Ew êdî nikare têkeve hesabê we. Heke we ew ranekiribe, mifteyên xwe yên têketinê û cîhazên xwe kontrol bikin.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>Mifteyeke têketinê li hesabê we hate zêdekirin</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>Mifteyeke têketinê ji hesabê we hate rakirin</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>Çalakiya ewlehiyê</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Çalakiya ewlehiyê ya %name</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Têketî</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Hewldana têketinê ya bi ser neketî</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Derketî</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Danişîn hatin derxistin</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Têketin ji cîhazeke nû</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Têketin ji cihekî nû</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Nasname hat piştrastkirin (&quot;Piştrast bikin ku hûn in&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Kontrola nasnameyê bi ser neket</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Bi mifteya têketinê têketî</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Têketina bi mifteya têketinê bi ser neket</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Têketin hat redkirin: koda du-gavî tune ye an şaş e</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Koda du-gavî ya şaş</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Hesab piştî têketinên bi ser neketî hat kilîtkirin</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Kilîta hesabê hat vekirin</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Şîfre hat guhertin</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Guhertina şîfreyê bi ser neket</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Şîfre hat nûkirin</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Şîfreyeke nû hat xwestin</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Navnîşana e-nameyê hat guhertin</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Navê bikarhêner hat guhertin</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Têketina du-gavî hat vekirin</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Têketina du-gavî hat girtin</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Koda vegerandinê hat bikaranîn</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Kodên vegerandinê yên nû</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Şîfreya sepanê hat çêkirin</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Şîfreya sepanê hat vekişandin</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Mifteya têketinê hat zêdekirin</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Mifteya têketinê hat rakirin</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Hesab hat çalakkirin</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Hesab hat neçalakkirin</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Hemû</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Têketin û danişîn</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Guhertinên hesabê</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Hewceyî baldariyê</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>ji aliyê we ve</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>ji aliyê bikarhêner ve</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>ji aliyê %login ve</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>Rêbaz</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>Gerok</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>Pergala xebitandinê</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Cîhaz</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>Der</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>Welat</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Danişîn</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>Kîjan</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>Kanal</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Hewldanên bi ser neketî</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>Kodên mayî</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>Birêvebirê têketinê</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Çalakiya ewlehiyê</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Çalakiya ewlehiyê ya %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Têketin û guhertinên di ewlehiya hesabê we de. Heke hûn tiştekî dibînin ku we nekiriye, şîfreya xwe biguherînin û cîhazên ku hûn nas nakin derxînin.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>Têketin û guhertinên di ewlehiya vî hesabî de.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Cîhazên we</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Şîfreyê guhertin</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>Paşve bo hesabê</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>Çalakiya ewlehiyê nayê tomarkirin</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>Ew ji tomara kontrolê ya bikarhêneran tê xwendin, ku tabloya wê expuser_audit tune ye an li ser vê danegehê nayê piştgirîkirin. php update/common/scripts/6.0/createuseraudittable.php bimeşînin, an nûjenkirina danegehê ya 6.0.15.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>%days rojên dawî</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Têketin di %days rojên dawî de</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>Çalakiya ewlehiyê ya dawî</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Nîşandan</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>bi ser neket</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>hat redkirin</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Hêj tu çalakiya ewlehiyê nehatiye tomarkirin.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>Bûyerên ewlehiyê %days rojan tên hilanîn.</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>Bûyerên ewlehiyê heta ku rêveberek wan rake tên hilanîn.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Daneyên têketina min daxistin</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Danişîn û bûyerên ewlehiyê yên we wek pelekî JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Li vê malperê danişîn nayên tomarkirin, ji ber vê yekê tu cîhazeke din nehat derxistin. Niha şîfreya xwe biguherînin.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count danişînên din hatin derxistin. Niha şîfreya xwe biguherînin.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Tu cîhazeke din têketî nebû. Niha şîfreya xwe biguherînin.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Spas. Bûyer wekî ya we hat nîşankirin.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Ew bûyer bersivekê naxwaze.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Dema rûpelê derbas bûbû. Tiştek nehat guhertin; ji kerema xwe dîsa biceribînin.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Hesabê xwe biparêzin</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Heke tiştek li vir ne ji aliyê we ve bû, hemû cîhazên din derxînin, paşê şîfreyeke nû hilbijêrin. Cîhazên ku bi “Min bi bîr bînin” têketî mane jî tên derxistin.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Her cîhaz ji bilî vê yekê di daxwaza xwe ya din de tê derxistin. Paşê hûn şîfreyeke nû hildibijêrin.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Erê, cîhazên din derxînin</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Ev hûn bûn?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Erê, ez bûm</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Na, hesabê min biparêzin</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Têketî</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Hewldana têketinê ya bi ser neketî</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Derketî</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Danişîn hatin derxistin</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Têketin ji cîhazeke nû</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Têketin ji cihekî nû</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Nasname hat piştrastkirin (&quot;Piştrast bikin ku hûn in&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Kontrola nasnameyê bi ser neket</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Bi mifteya têketinê têketî</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Têketina bi mifteya têketinê bi ser neket</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Têketin hat redkirin: koda du-gavî tune ye an şaş e</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Koda du-gavî ya şaş</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Hesab piştî têketinên bi ser neketî hat kilîtkirin</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Kilîta hesabê hat vekirin</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Şîfre hat guhertin</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Guhertina şîfreyê bi ser neket</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Şîfre hat nûkirin</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Şîfreyeke nû hat xwestin</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Navnîşana e-nameyê hat guhertin</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Navê bikarhêner hat guhertin</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Têketina du-gavî hat vekirin</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Têketina du-gavî hat girtin</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Koda vegerandinê hat bikaranîn</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Kodên vegerandinê yên nû</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Şîfreya sepanê hat çêkirin</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Şîfreya sepanê hat vekişandin</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Mifteya têketinê hat zêdekirin</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Mifteya têketinê hat rakirin</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Hesab hat çalakkirin</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Hesab hat neçalakkirin</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Hemû</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Têketin û danişîn</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Guhertinên hesabê</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Hewceyî baldariyê</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Çalakiya ewlehiyê</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Çalakiya ewlehiyê ya %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Têketin û guhertinên di ewlehiya hesabê we de. Heke hûn tiştekî dibînin ku we nekiriye, şîfreya xwe biguherînin û cîhazên ku hûn nas nakin derxînin.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Cîhazên we</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Şîfreyê guhertin</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>Çalakiya ewlehiyê hêj li ser vê malperê nayê tomarkirin.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Têketin di %days rojên dawî de</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Hewldanên bi ser neketî</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Hêj tu çalakiya ewlehiyê nehatiye tomarkirin.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Daneyên têketina min daxistin</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Danişîn û bûyerên ewlehiyê yên we wek pelekî JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Li vê malperê danişîn nayên tomarkirin, ji ber vê yekê tu cîhazeke din nehat derxistin. Niha şîfreya xwe biguherînin.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count danişînên din hatin derxistin. Niha şîfreya xwe biguherînin.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Tu cîhazeke din têketî nebû. Niha şîfreya xwe biguherînin.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Spas. Bûyer wekî ya we hat nîşankirin.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Ew bûyer bersivekê naxwaze.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Dema rûpelê derbas bûbû. Tiştek nehat guhertin; ji kerema xwe dîsa biceribînin.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Hesabê xwe biparêzin</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Heke tiştek li vir ne ji aliyê we ve bû, hemû cîhazên din derxînin, paşê şîfreyeke nû hilbijêrin. Cîhazên ku bi “Min bi bîr bînin” têketî mane jî tên derxistin.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Her cîhaz ji bilî vê yekê di daxwaza xwe ya din de tê derxistin. Paşê hûn şîfreyeke nû hildibijêrin.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Erê, cîhazên din derxînin</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Ev hûn bûn?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Erê, ez bûm</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Na, hesabê min biparêzin</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>Şîfre</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>Şîfre û koda du-gavî</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>Navrûya REST</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>Navrûya SOAP</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>Têketina yekane</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>Têketî berî ku danişîn bên tomarkirin</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Rapora têketinê</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>Kî li ser malperê têketî ye, hesab çiqas caran têdikevin û bi ser nakevin, û derxistina bikarhênerekî ji her derê. Bi her birêvebirê danişînê re dixebite.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>Danişîn hat derxistin. Divê cîhaz dîsa têkeve.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>%login ji %count danişînan hat derxistin.</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>Danişîneke %login a dimeşe tune bû.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>Tu hesab xwediyê vê ID, navê bikarhêner an navnîşana e-nameyê nîne.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>Ev danişîna ku hûn bikar tînin e. Ji bo ku wê biqedînin, derkevin.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>Ew danişîn berê qediyabû.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Dema rûpelê derbas bûbû. Tiştek nehat guhertin; ji kerema xwe dîsa biceribînin.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>Danişîn li ser vê malperê nayên tomarkirin (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>Tabloya expuser_session tune ye</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>Danişîn tên tomarkirin gava ku ew were çêkirin: php update/common/scripts/6.0/createusersessiontable.php, an nûjenkirina danegehê ya 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>Niha û îro</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>Danişînên dimeşin</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>Bikarhênerên têketî</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>Têketinên îro</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>Hewldanên bi ser neketî yên îro</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>Derxistina bikarhênerekî ji her derê</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>Her danişîna hesabê di daxwaza xwe ya din de diqede, yên ku bi &quot;Min bi bîr bînin&quot; hatine hilanîn jî. Wê bikar bînin dema ku dibe ku hesabek di destên şaş de be; paşê şîfreya wê nû bikin.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>ID ya bikarhêner, navê bikarhêner an navnîşana e-nameyê</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>Derketin ji her derê</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>Niha têketî</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>%limit yên herî dawî hatine bikaranîn tên nîşandan.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Bikarhêner</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Cîhaz</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Navnîşan</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>Têketî</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>Çalakiya dawî</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Çalakî</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>Ev cîhaz</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Nehatiye tomarkirin</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>Derketin</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>Tu danişîn têketî nîne.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>%days rojên dawî</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>Têketin û hewldanên bi ser neketî ji tomara kontrolê ya bikarhêneran tên hejmartin, ku tune ye; danişînên nû tên hejmartin.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>Roj</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>Têketin</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Hewldanên bi ser neketî</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>Danişînên nû</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>Birêvebirê danişînê: %handler. Danişîn ji tabloya expuser_session tên xwendin, ji ber vê yekê rapor bi her birêvebirî re dixebite.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>Çalakiya gumanbar di %hours demjimêrên dawî de</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>Torek nekarî têkeve %accounts hesaban (%count hewldan)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Hesab piştî têketinên bi ser neketî hat kilîtkirin</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>%count têketinên bi ser neketî li ser hesabekî</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>Di heman demê de ji %count welatan têketin</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Çalakiya ewlehiyê</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Danişîn</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>Têketinên bi ser neketî ji qeyda kontrolê ya bikarhêneran tên xwendin, ku li vir ne berdest e.</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>Tiştekî gumanbar tune: ne hesabek bi têketinên bi ser neketî yên dubare, ne torek ku çend hesaban diceribîne, ne jî hesabek ku ji çend welatan têketiye.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>Alarma ewlehiyê ji bo hesabê we</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>Li ser hesabê we %login bûyereke ewlehiyê çêbû: %event. Heke ne hûn bûn, hesabê xwe li %url biparêzin.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Sazkirin</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>Ji naveroka vê malperê tam qadên ku rûpelek hewce dike, di yek daxwazê de bixwaze. Şema li pey çînên naverokê diçe; her pirsiyar bi mafên bikarhênerê ku wê dişîne dixebite.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>API ya GraphQL di vê gihîştina malperê de girtî ye. Wê di graphql.ini de veke: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>Pirtûkxaneya GraphQL (webonyx/graphql-php 15) nehatiye sazkirin.</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>Xala dawî</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>Pirtûkxane</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>Şema</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>%count çînên naverokê, şema %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>Pirsiyar</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>Guherbar (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Xebitandin</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>Bersiv</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>Dixebite…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>Bersiv nehat xwendin.</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>Pirsiyar bi mafên te dixebite, bi vê danişînê têketî.</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%count di %seconds çrk de</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>bê sînor</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>Kûrahî</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>Tevlihevî</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>Hêman ji bo her lîsteyê</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (pêşdanasîn %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>Daxwaz ji bo her bikarhêner an mifteyê</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>Daxwaz ji bo her navnîşana nenas</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>Introspection</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>Tenê pirsiyarên tomarkirî</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>Pirsiyara herî mezin</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>%bytes bayt</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>Barkirina herî mezin</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>Gihîştina malperê %siteaccess tune ye.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>Guherandin di %siteaccess de hatin vekirin.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>Guherandin di %siteaccess de hatin girtin.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>API ya GraphQL di %siteaccess de hate vekirin.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>API ya GraphQL di %siteaccess de hate girtin.</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>Mîheng nehatin nivîsandin: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>Cacheya bersivan hate paqijkirin: %count bersiv hatin rakirin.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>Ji bo rakirina pirsiyarê qutîka li kêleka wê nîşan bike.</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>Pirsiyar nehate rakirin: pirsiyareke ku di peldankeke PersistedQueryDirectoryList[] de hatiye şandin bi pela xwe re tê rakirin.</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>Pirsiyara tomarkirî hate rakirin.</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>Guherandin</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>vekirî</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>girtî</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Gihîştinên malperê</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>Cihê ku API û guherandinên wê bersiv didin. Bişkok graphql.ini dinivîsin, wekî ./console exp:graphql:enable û exp:graphql:disable dikin.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Gihîştina malperê</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>API ya GraphQL</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Biguherîne</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Bigire</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>Guherandin girtî</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>Guherandin vekirî</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Veke</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>Sînor</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>graphql.ini [GraphQLSettings] ya vê gihîştina malperê.</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>Cacheya bersivan</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>Bersivên pirsiyarên tomarkirî, li gorî mafên bikarhêner têne hilanîn û her gava naverok tê weşandin diqedin.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Rewş</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>Bersivên hilanîn</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>%count bersiv, %bytes bayt</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>Herî zêde tê hilanîn</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds çrk</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>Qedandina dawî</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>Cacheya bersivan paqij bike</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>Pirsiyarên tomarkirî</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>Bi ./console exp:graphql:persist an ji hêla xerîdaran ve (pirsiyarên tomarkirî yên otomatîk) têne tomarkirin; bi nav an SHA-256 têne gazîkirin.</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>Nav</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Mezinahî</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Cih</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Rake</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>şandî</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>tomarkirî</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>Erê, vê pirsiyarê rake</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>Hîn pirsiyareke tomarkirî tune ye.</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>Mifteyên API</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>Mifteyên API yên kesane bi qada graphql:read (pirsiyar) an graphql:write (guherandin). Wan li ser rûpela Gihîştina API an bi ./console exp:graphql:keys çêke û betal bike.</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>Gihîştina API</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>Hemû mifte</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>Mifte</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Nav</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Xwedî</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>Qad</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>Bikaranîna dawî</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>çalak</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>qediyayî</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>betalkirî</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>qet</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>Hîn mifteyeke API bi qadeke GraphQL tune ye.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>API ya GraphQL di gihîştina malperê %siteaccess de, ku vê rûpelê nîşan dide, girtî ye; tabloya li jêr nîşan dide ku ew li ku bersiv dide.</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>Ji bo gihîştina malperê %siteaccess, ku vê rûpelê nîşan dide.</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>Webhook</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>Her bûyera ku xala dawî dixwaze (publish, update, trash, delete, move, hide, reveal, mutation), ji aliyê beşa cronjob graphqlwebhooks ve, bi îmze, jê re tê şandin. ./console exp:graphql:webhooks heman tiştî wek vê beşê dike.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Bûyer</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>hemû</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Her gihîştina malperê</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>xerabe</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>bê nepenî</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>Li bendê</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count hatin berdan</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>Gihandina dawî</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Ceribandinekê bişîne</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>Erê, vê webhookê rake</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>Hîn webhook tune ye.</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>Webhookekê lê zêde bike</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>Lê zêde bike</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>Gihandinên nû</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Dem</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Encam</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>Abonetî</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>Nûkirinên zindî ji bo xerîdaran: herikîneke bûyeran li /api/graphql/subscribe, û WebSocket (graphql-transport-ws) li ser Velocity. Her bûyer tenê diçe ba aboneyên ku dikarin naveroka wê bixwînin.</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>Niha vekirî</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>Herî zêde vekirî</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>Bi tevahî %total, ji bo her bikarhênerekî %user, ji bo her navnîşanekê %address</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>Abonetiyên bênav</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>Dirêjiya herikînê</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>Webhook nehat lê zêdekirin: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>Webhooka %name hat guhertin; nepeniya wê ya îmzeyê dimîne.</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>Nepeniya îmzeyê nehat tomarkirin (Sazkirin &gt; Nepenî).</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>Webhooka %name hat lê zêdekirin. Nepeniya wê ya îmzeyê, tenê vê carê tê nîşandan: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>Webhooka %name tune ye.</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>Webhooka %name bersiv neda: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>Webhooka %name di %ms ms de bersiva %status da.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>Ji bo rakirina webhookê qutîka li kêleka wê nîşan bike.</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>Webhooka %name hat rakirin.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>API ya GraphQL di vê gihîştina malperê de girtî ye.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>Pirtûkxaneya GraphQL nehatiye sazkirin.</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>GET an POST bi kar bîne.</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>Laşê daxwazê ne objeyek JSON e.</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables ne objeyek JSON e.</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions ne objeyek JSON e.</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>Pirsiyarê bi POST bişîne.</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>Di daxwazê de pirsiyar tune.</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>Pirsiyar ji %max baytan dirêjtir e.</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>Çewtiya navxweyî ya serverê</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node tam yek ji id, remoteId, path û urlAlias hewce dike.</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content tam yek ji id û remoteId hewce dike.</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>Nîşankera after ne ya ku vê API daye ye.</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>Navê alternatîf ê wêneyê %alias tune (image.ini [AliasSettings] AliasList[]).</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>Li vir tenê pirsiyarên tomarkirî têne qebûlkirin: id ya pirsiyareke tomarkirî bişîne.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>Hasha pirsiyara tomarkirî ne SHA-256 e.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>Hasha pirsiyara tomarkirî li pirsiyarê nayê.</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>Gelek zêde daxwaz: herî zêde %limit di %window çirkeyan de. Piştî %reset çirkeyan dîsa biceribîne.</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>Kûrahiya pirsiyarê %depth ast e; herî zêde %max destûr heye.</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>Tevliheviya pirsiyarê %complexity e; herî zêde %max destûr heye.</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>Ev daxwaz nikare şemayê bixwîne (introspection).</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search nivîsek an parzûnek hewce dike (classes, subtree, sections, publishedAfter, publishedBefore).</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument ne dîrok e (ISO 8601, 2026-10-30).</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag tam yek ji id, remoteId û path hewce dike.</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout tam yek ji id, identifier û urlAlias hewce dike.</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>Qada operations ya daxwazeke multipart ne yek daxwaza JSON e.</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>Qada map ya daxwazeke multipart ne objekteke JSON e.</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>Di daxwaza multipart de pela %field tune ye.</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>Rêyeke qada map divê bi variables. dest pê bike: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>Pela %name bi tevahî negihîşt (çewtiya barkirinê %error).</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>Pela %name ji %max baytan mezintir e.</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>Pela %name nehate kontrolkirin.</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>Guherandin (mutation) di vê gihîştina malperê de girtî ne (graphql.ini [GraphQLSettings] MutationsEnabled).</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>Guherandinê bi POST bişîne.</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>Ji bo guhertina naverokê têkeve.</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>Mifteya API xwedî qada %scope nîne.</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>Guherandineke bi danişînê re tokena formê ya danişînê dixwaze (sernivîsa X-CSRF-Token).</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>uploadFromUrl girtî ye: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] tu mêvandar nav nade.</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>Navnîşan divê navnîşaneke https be.</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>Mêvandar %host ne di graphql.ini [GraphQLSettings] UploadFromUrlHostList[] de ye.</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>Pel nehate anîn.</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload tenê cureyekî têketinê ye.</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>Guherbareke ji cureya Upload pelekî daxwazeke multipart digire.</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>Id ya dûr %remoteId jixwe hatiye girtin.</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>Naverok jixwe wergereke bi %language heye: updateContent bi kar bîne.</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>Herî kêm qadekê bide.</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>Guhertoyeke nû nehate çêkirin (naverok gelek zêde reşnivîs hene).</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>Guhertoya %version ne reşnivîs e.</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent tam yek ji id û nodeId dixwaze.</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>Cihek nikare bin xwe de were guhastin.</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>Naverok jixwe cihekî di bin %parentId de heye.</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>Nirxa qada %field nehate tomarkirin.</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>Zimanê naverokê %language tune ye.</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>Di şemayê de çîna naverokê %class tune ye.</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>Naverok tune ye, an tu nikarî wê bixwînî.</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>Tu nikarî vê bi vê naverokê bikî.</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>Çîna %class qadeke %field ya ku were nivîsandin tune ye.</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>Qada %field du caran hatiye dayîn.</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>Qada %field pelekî digire: wê wek barkirin bişîne (daxwazeke multipart).</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>Qada %field pel nagire.</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>Qada %field nirxekê dixwaze.</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>Forma %format tenê ji bo qadên nivîsa dewlemend e; %field nirxa xwe wekî xwe digire (RAW).</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>Qada %field pêwîst e.</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>HTML nehate xwendin.</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content version tenê bi id re digire.</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>Tokena pêşdîtinê ne derbasdar e an jî qediyaye.</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>Ne origin e (https://host an https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>Ne qadeke API ya GraphQL e: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>Abonetiyan bişîne /api/graphql/subscribe (herikîneke bûyeran an WebSocket).</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>Daxwaz navê tu operasyoneke belgeyê nade.</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>Abonetiyek tam qadekê dixwaze.</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>Gelek abonetî vekirî ne; paşê dîsa biceribîne.</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>%max abonetiyên te vekirî ne, ev herî zêde ye ku destûr heye.</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>Li ser navnîşana te %max abonetî vekirî ne, ev herî zêde ye ku destûr heye.</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>Abonetî di vê gihîştina malperê de girtî ne.</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>Ji bo abonebûnê têkeve (token an mifteyeke API ya kesane).</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>Guherandinan bişîne /api/graphql.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>Koçberkirin</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Rewş nehat xwendin: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Tabloyên koçberkirinan hîn tune ne: ./console exp:upgrade --apply wan çêdike.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>%count koçberkirin bi ser neketin</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>Xebitandinek didome, ji aliyê %user ve hat destpêkirin</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>Sazkirin kilîtkirî ye: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Li bendê</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Bi ser neket</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>Sêwî</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Xebitandina dawî</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>hîn tune</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>Hemû koçberkirin</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>Xebitandina simulekirî</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>Ceribandina bê guhertin</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>Koçberkirinên li bendê di nav danûstendinekê de xebitîn ku paşê hat paşvekişandin: tiştek nehat parastin. Li jêr tiştê ku her yek di danegehê de guhert heye.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>Xebitandinek niha dê çi bike. Tiştek nayê guhertin: her koçberkirina li bendê guhertinên ku dê bike rêz dike, û xebitandin jî tiştê ku dê berê û paşê bike.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>Simule bike</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Bixebitîne</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>Ceribandina bê guhertin bi ser neket: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>Simulasyon PostgreSQL an SQLite hewce dike, ku guhertinên şemayê wan dikarin bên paşvekişandin; li ser vê danegehê plana li jêr tiştê ku xebitandinek dê bike nîşan dide.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>Koçberkirin</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>Koçberkirin</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Rewş</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>Dê çi bike</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>Simulasyon: %result di %ms ms-yan de</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>Hîn koçberkirin tune.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>Berî û piştî xebitandinê</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>Wêneya berê</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>tê girtin, û dema koçberkirinek bi ser nekeve tê vegerandin</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>girtî</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>Wêneya piştî</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>dema xebitandin bi ser ket tê girtin</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>%total koçberkirin: %pending li bendê, %done qediyan, %failed bi ser neketin.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>Dîroka koçberkirinan</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>Her xebitandin bi bikarhêner, jîngeh, wêne û tiştê ku hat komîtkirin, etîketkirin û şandin. Xebitandineke bi ser neketî an qutbûyî dikare bê domandin; xebitandineke ku berî wê wêne hatibe girtin dikare bê paşvekişandin.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>Xebitandin nehatin xwendin: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Tabloyên koçberkirinan hîn tune ne: ./console exp:upgrade --apply wan çêdike.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Nîşan bide</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Hemû</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>Xebitandin</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Dest pê kir</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Ji aliyê</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>Wêne</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Depo</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Çalakî</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>berê</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>piştî</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>şandin: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>Bidomîne</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Paşve bikişîne</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>Di vê rewşê de xebitandin tune.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>Li vir dest pê kir</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>Xebitandin, domandin û paşvekişandinên ku li ser van rûpelan dest pê kirin, bi rapora her yekê.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Çi</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Encam</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Paşvekişandin</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>Paşvekişandina %target</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>Xebitandina %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Tiştê ku xebitandinê kir, tomara wê û qeyda wê. Xebitandineke ku li vir dest pê kir dema ev rûpel tê girtin li paşxanê didome; ji bo şopandinê rûpelê dîsa veke.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>Vê xebitandinê bidomîne</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>Vê xebitandinê paşve bikişîne</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>Tomar nehat xwendin: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Pêşveçûn</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Ji aliyê %user ve di %time de dest pê kir.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>Kod tê kontrolkirin û berî xebitandinê wêne tê girtin</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>%id dixebite (%index ji %total)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>%done ji %total qediyan</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>Koçberkirin xebitîn; heke yek bi ser neketibe wêne tê vegerandin</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>Piştî xebitandinê wêne tê girtin, komît, etîket û şandin tên kirin</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>Wêne tê vegerandin</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>Xebitandin qediya. Rapora wê tê barkirin.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>Pêşveçûn nehat şopandin. Rûpelê ji nû ve bar bike da ku bibînî xebitandin çawa diçe.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>Ev rûpel xebitandinê dema ku didome dişopîne.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Ji nû ve bar bike</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Rapor</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Dem</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms msn</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>Tiştê ku xebitandinê wek çewtî nivîsand</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Tomar</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>Jîngeh</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>tune</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Qediya</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Komît</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Etîket</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Şandin</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Peyam</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>Koçberkirinên vê xebitandinê</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>Çavkanî</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>Qeyda xebitandinê</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>Tenê dawiya qeydê tê nîşandan.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>dixebite</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>bê rapor qediya</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>bi ser ket</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>bi ser neket</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>hat redkirin</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>danegeh nedihat gihîştin</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>çewtiya hundirîn</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>Xebitandinek didome</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind ji aliyê %user ve di %time de dest pê kir.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>Bişopîne</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>Sazkirin kilîtkirî ye</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>Xebitandineke din kilîtê digire (nûkirinek an xebitandinek li ser konsolê): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>qediya</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>li bendê</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>ne hewce</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>nenas</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>hat paşvekişandin</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>hat sepandin</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>dê bê sepandin</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>hat vegerandin</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>dê bê vegerandin</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>nexebitî</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>li benda yeke din e</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>guhertin hat qebûlkirin</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>guhertin dê bê qebûlkirin</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>simulekirî</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Koçberkirin</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Rewş</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Dîrok</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>%target paşve bikişîne</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>Xebitandinek vedigere wêneya ku berî wê hatibû girtin, koçberkirinek bi down()-a xwe. Vegerandina wêneyeke berê ji bo pisporan e. Her yek li paşxanê bi navê te dixebite, piştî wêneyeke rewşa niha.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>Tiştê ku dikare bê paşvekişandin nehat xwendin: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>Xebitandinek</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>Koçberkirinek</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>Wêneyeke berê</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>Danasîn</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>erê</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>na</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Wêne</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Etîket</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>Hat girtin</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Cure</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>Beşên ku bên vegerandin</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>Danegeh</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>Pelên embarê (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>Mîheng (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>Vegerandina danegehê wê vedigerîne dema wêneyê, danişîn jî tê de: dibe ku paşê ji te bê xwestin ku dîsa têkevî. Her tiştê ku ji wê demê ve hatiye guhertin winda dibe; pêşî wêneyeke rewşa niha tê girtin.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>Ez dizanim ev çi vedigerîne</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>Nasnameya wêneyê dîsa binivîse</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>Erê, paşve bikişîne</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Betal</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>Xebitandinên ku berî wan wêne hatiye girtin.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>Hilbijêre</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>Hîn xebitandineke bi wêne tune.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>Koçberkirinên sepandî yên ku dikarin xwe paşve bikişînin (down()-a wan heye).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>Tu koçberkirineke sepandî down()-ek tune.</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>Wêneyên berê (pispor)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>Hîn wêne tune.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>Koçberkirinan bixebitîne</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>Xebitandin li paşxanê wek %user didome, û rûpela wê wê dema ku didome nîşan dide. Berî koçberkirina yekem wêneyeke sazkirinê tê girtin; dema koçberkirinek bi ser nekeve xebitandin disekine û wêne tê vegerandin.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>Pêşî ceribandina bê guhertin</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Rewş nehat xwendin: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>Koçberkirinên li bendê</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>Ew bi vê rêzê dixebitin. Nîşana yekê rake da ku wê û yên ku wê hewce dikin ji bo xebitandineke paşê bihêlî.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>Bixebitîne</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>Dema dixebite moda lênêrînê vedike.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>Piştî sepandinê hatin guhertin</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>Ev pel ne yên ku hatin sepandin in. Xebitandinek wan red dike heta ku guhertin bi sedemekê neyê qebûlkirin; ew dîsa naxebitin, checksuma nû tê tomarkirin û sedem di qeyda kontrolê de tê parastin.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>Guhertinan qebûl bike</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Çima</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>Nirxên standard yên ewle ne. Her qutî gavekê derdixe.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>Bê wêne</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>Berî û piştî xebitandinê wêne nayê girtin: têkçûnek nikare bixweber bê vegerandin.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>Bê vegerandin</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>Piştî têkçûnê, sazkirinê wek ku têkçûnê hişt bihêle.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>Guhertinên nekomîtkirî biparêze</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>Bixebitîne her çend mîheng, pêvek an sêwiran guhertinên nekomîtkirî hebin jî; ew dikevin nav wêneyê.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>Bê komît</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>Pela rewşê û qeyda xebitandinê komît neke (ne etîket û ne jî şandin).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>Bê şandin</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>Komît û etîket bike, lê neşîne.</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>Bê etîket</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>Komît bike û bişîne, lê xebitandinê etîket neke.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>Erê, van koçberkirinan niha bixebitîne</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Tu koçberkirin li bendê nîne.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>Vegere rewşê</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>Guhertinên vê sazkirinê ku carekê wek pel hatine nivîsandin (naverok, çîn, rol, mîheng, şema) û bi heman rêzê li ser her sazkirina malperê tên sepandin. Xebitandinek pêşî wêneyekê digire, dema koçberkirinek bi ser nekeve wê vedigerîne, û tiştê ku kir tomar, komît û şandin dike.</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>%count yên li bendê bixebitîne</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Nêrîna giştî</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Li bendê</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Qediya</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Bi ser neket</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>Ne hewce</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>Danegeh</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>danûstendin: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>Koçberkirinên malperê di migrations/ de ne, yên pêvekekê di extension/&lt;name&gt;/migrations/ de. Ew li gorî rêza navên xwe û tiştê ku hewce dikin dixebitin.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Xebitandina dawî</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>Pel piştî sepandinê hat guhertin.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>Hîn koçberkirin tune. ./console exp:migration:generate --skeleton &lt;name&gt; --apply ya yekem dinivîse.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>Xebitandinên dawî</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>Hemû xebitandin</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>Hîn xebitandin tune.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>Simulekirina xebitandinekê polîtîkaya migration/run hewce dike.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>Xebitandinek didome: dema ku qediya simule bike.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Sazkirin</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target ne xebitandin, ne koçberkirin û ne jî wêneyeke vê sazkirinê ye.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>Pêşî &quot;Erê, paşve bikişîne&quot; nîşan bike.</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>Vegerandina wêneyeke berê ji bo pisporan e: &quot;Ez dizanim ev çi vedigerîne&quot; nîşan bike.</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>Nasnameya wêneyê dîsa binivîse: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>Herî kêm beşekê ji bo vegerandinê hilbijêre.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>Berî vê xebitandinê wêne nehatiye girtin: koçberkirinên wê yek bi yek paşve bikişîne, an wêneyeke berê vegerîne.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>Ev koçberkirin nikare xwe paşve bikişîne: ew nehatiye sepandin, an down()-a wê tune.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Form nehat xwendin.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>Xebitandina ku bê domandin hilbijêre.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>Pêşî &quot;Erê, van koçberkirinan niha bixebitîne&quot; nîşan bike.</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>Herî kêm koçberkirinekê hilbijêre.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>Koçberkirinek piştî sepandinê hat guhertin: guhertinê bi sedemekê qebûl bike, an pelê vegerîne.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>Sedema qebûlkirina koçberkirinên guhertî binivîse.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>Sedem herî zêde 500 tîp e.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>Xebitandineke ku li vir dest pê kir hîn didome (%detail). Li benda qedandina wê bimîne.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>Xebitandineke din kilîta sazkirinê digire: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>Xebitandin bikarhênereke têketî yê heyî hewce dike.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Bernameya rêzika fermanê ya php nehat dîtin. migration.ini [AdminSettings] PhpCliPath li ser rêya wê ya tevahî bi cih bike.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open neçalak e, ji ber vê yekê xebitandin li vir nikare dest pê bike. ./console exp:migration:migrate --apply li ser serverê bixebitîne.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>Peldanka xebitandinan nayê nivîsandin: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>Xebitandin dest pê kir lê nasnameya pêvajoya xwe neragihand. %detail kontrol bike.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>Tiştê ku bê paşvekişandin binav bike.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>Xebitandin nikarîbû dest pê bike.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>Tomarkirina guhertinan</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>Dema ku tomarkirinek dixebite, tiştê ku tu di rêveberiyê de an jî di darika kêlekê ya malperê de diguherînî wekî gavên koçberiyekê tê parastin: naverok, çîn, rol û polîtîka, beş, bikarhêner û kom, navên URL ên alternatîf, mîheng. Dema qediya rawestîne, binêre ka çi girtiye û jê koçberiyekê çêke.</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>Tomar nehatin xwendin: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>Tabloyên tomaran hîn tune ne: pêşî nûjenkirinê bimeşîne (exp:upgrade --apply).</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>Tomarkirin di migration.ini de girtî ye ([RecordingSettings] Recording=disabled).</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>Guhertinên min</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>Tenê tiştê ku tu diguherînî tomar dike, li ku derê be jî, heta ku tu wê rawestînî.</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>Tomar</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>ji %time ve, heta niha %count guhertin.</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>Etîket (vebijarkî)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>Nîşan bide ka çi girtiye</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Tomarkirinê rawestîne</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>Tomarkirina guhertinên min dest pê bike</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>Pencereya ji bo tevahiya malperê</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>Her guhertina her bikarhênerî û konsolê tomar dike heta ku were girtin. Dema vekirinê ji te tê xwestin ku tu piştrast bikî ku tu yî.</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Vekirî</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>Pencereyê bigire</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>Pencereya ji bo tevahiya malperê veke</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>Tomarên hemû</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>Hesabê bikarhênerekî (navê têketinê, e-name, şîfre) û qadên hesabên bikarhêneran qet nayên tomarkirin.</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Guhertin</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>Tevahiya malperê</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>Guhertinên %name</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Rawestandî</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>Hîn tu tomar tune.</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>Tomar %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>Hemû tomar</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>Koçberiya ku jê derkeve</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>Guhertin ji bo her tiştê guherî di gavekê de hatine kombûn: tiştê ku koçberiyeke ji vê tomarê hatî çêkirin dê bike.</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>Dema ku vê sazkirinê cureyên gavên YAML %types hebin, dikare jê koçberiyek were çêkirin.</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>Bi mebest hatiye derxistin: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>Tiştek nehat tomarkirin.</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>Çi girtiye</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>%count guhertin, li gorî rêza ku hatine kirin.</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Guhertin (yek)</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>Gav</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>Têkildar</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>%count zêdetir: ./console exp:migration:record:show hemûyan rêz dike.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Avêtin</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>Tomarê û tiştê ku girtiye radike. Tiştê guherî guherî dimîne.</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>Erê, vê tomarê bavêje</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>Tê tomarkirin…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Guhertinên te ji bo koçberiyekê tên tomarkirin.</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>Her guhertina li vê malperê ji bo koçberiyekê tê tomarkirin (pencereya ji bo tevahiya malperê).</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>Tomarkirina tevahiya malperê dest pê kir: her guhertina her bikarhênerî tê tomarkirin heta ku tu wê rawestînî.</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>Tomarkirin dest pê kir: guhertinên te tên tomarkirin heta ku tu wê rawestînî.</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>Tomarkirin hat rawestandin. Tiştê ku girtiye dimîne heta ku tu wê bavêjî.</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>Tomar û bûyerên wê hatin rakirin.</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>Tomara %id tune.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>Pêşî "Erê, vê tomarê bavêje" nîşan bike.</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>Tenê bikarhênerê ku tomar kiriye dikare tomarkirina danişînê rawestîne.</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>Tomara ku were rawestandin hilbijêre.</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>Tomarkirineke bi vî rengî jixwe dixebite.</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>Tomar nehat guhertin: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>Koçberiyê çêke</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>Navê koçberiyê (vebijarkî)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>Koçberiya %file hat nivîsandin. Guhertinên ku tu gav nikare bike li serê pelê hatine binavkirin, da ku bi destan bên kirin.</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>Tu koçberî nehat nivîsandin: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>Xebateke dirêj bi beşan</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>Qadên vala mîhengên migration.ini [RunSettings] diparêzin.</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>Herî zêde ev qas koçberî</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>Piştî (çirke) êdî koçberî tune</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>Navbera koçberiyan (çirke)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>Girîngiya nizmtir (1 heta 19)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>Qada xebata dirêj hejmareke tam e ji 1 û pê ve (navber: çirke ji 0 heta 60, girîngî: 1 heta 19), an vala.</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>Wê di %time de bi xwe bê girtin.</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>Piştî (deqe, bijarte) bi xwe bigire</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>Deqe hejmareke tam e ji 1 heta 44640 (31 roj), an vala.</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>Koçberkirin %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>Koçberkirina nû</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>Koçberkirineke YAML: wê wek nivîs binivîse an gavên wê di formê de ava bike, kontrol bike, paşê di peldankeke koçberkirinan de tomar bike.</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>Ev koçberkirin berê xebitiye, ji ber vê yekê ji nû ve nayê tomarkirin: parêzvana checksumê dê pelekî guhertî red bike. Guhertinê di koçberkirineke nû de bike.</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>Servera webê nikare pelê binivîse.</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>Rêzên şîroveyê yên li jor serî ne (description, author, requires, environments, engines). Dema ku gavek di formê de tê zêdekirin an guhertin, koçberkirin ji nû ve tê nivîsandin: şîroveyên di navbera gavan de nayên parastin.</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>Navê koçberkirinê</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>Ew diçe ku</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>Malper</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>Nivîsa YAML</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>Kontrolkirin</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Tomarkirin</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Gav</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>Mifte</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Sererastkirin</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>Ber bi jor ve livandin</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>Ber bi jêr ve livandin</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Rakirin</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>Hê gav tune ne: bi formê yekê lê zêde bike, an wan di nivîsê de binivîse.</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>Gava %number biguherîne</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>Gavekê lê zêde bike</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>Forma gavekê ji cureyê gava wê tê çêkirin: mifteyên wê, ya ku her yek digire û modên ku ew aîdî wan e.</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>Cureyê gavê</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>Forma wê nîşan bide</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>Mifteyên gavê hene ku cureyê wê nas nake; dema gav tê guhertin ew tên derxistin: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>Mod</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>Di</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>tenê di %modes de</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>Ya xwerû: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>Merc, referans û şîrove</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>Cotên Nav=nirx ku bi bêhnokan ji hev hatine veqetandin. Nirxên vê gavê: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>Mînak</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>Gavê biguherîne</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>Gavê lê zêde bike</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>Ya ku exp:migration:check dibêje: serî, belge û her gava ku ji aliyê cureyê gava xwe ve hatiye kontrolkirin.</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>Koçberkirin ji kontrolê derbas dibe.</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Pêşdîtin</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>YAML wek ku dê were tomarkirin.</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>YAML nîşan bide</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>Koçberkirinên YAML</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>xebitiye</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>Hê koçberkirinên YAML tune ne.</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>Edîtor</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>Di peldankên koçberkirinê de koçberkirina YAML %id tune ye.</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>Cureyekî gavê hilbijêre.</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>Gav hat zêdekirin. Berî ku tu tomar bikî, koçberkirinê kontrol bike.</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>Gav hat guhertin. Berî ku tu tomar bikî, koçberkirinê kontrol bike.</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>Gavekê hilbijêre.</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>Forma vê gavê tune ye (xelek, an cureyekî gavê ku di vê sazkirinê de tune ye): wê di nivîsê de biguherîne.</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>Hilbijêre ka koçberkirin diçe ku: malper an pêvekeke çalak.</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>%file hat tomarkirin. Berî ku koçberkirin bixebite, ceribandineke bê guhertin bixebitîne.</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>Nehat tomarkirin: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>Serverên dûr</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>Sazkirinên din ên ku ev sazkirin koçberkirinên xwe li wan belav dike: belavkirinek koçberkirinan dişîne serverên dûr ên hilbijartî û li wir dixebitîne, hemûyan bi hev re û hevdem. Serverek dûr qet nepeniyekê nahewîne: nasnameya wê ya têketinê navê yekê di Sazkirin &gt; Nepenî de dide.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>Servera dûr a nû</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Alîkarî</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>Ceribandina girêdanê ya %id</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>Serverên dûr</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>Heta %parallel serverên dûr di heman demê de têne xebitandin; fazek dikare li ser her yekê %timeout çirke bidome.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>Servera dûr</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Navnîşan</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Nasnameya têketinê</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>Kom</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>mîhengên ku divê bên rastkirin</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>tenê pel (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>Mifteya SSH</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>Şîfre</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>tune (ajana SSH û mifteyên mêvandar)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>Ceribandina girêdanê</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>Belavkirina ji bo komekê diçe her serverê dûr ê wê komê.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>Li serverên dûr belav bike</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>Hîn tu serverê dûr nehatiye sazkirin.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>Servera dûr %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>Li vir tiştek nayê şandin an xebitandin: “Tomarkirin” mîhengan dinivîse settings/override/migration.ini.append.php. Nasnameya têketinê navek e; nirxa wê di Sazkirin &gt; Nepenî de an di jîngehê de dimîne.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Van mîhengan kontrol bike</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>Mîheng wekî hatine nivîsandin, hîn nehatine tomarkirin.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Venêrîn</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Mîheng derbasdar in. Ev rêz dê bên nivîsandin:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>Veguhastin</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>tenê navek; nirx di Sazkirin &gt; Nepenî de dimîne</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Rêzên ku dê bên nivîsandin</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>Girêdan</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>Mifteya mêvandar</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. Servera dûr</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>Navê servera dûr çi ye û kîjan jîngeh e.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>Nasname</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>Tîp, reqem, - û _, bo nimûne production1. Ew navê servera dûr e di raporan de û li ser konsolê (--remotes=production1) û paşê nayê guhertin.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... Belavkirineke bi qonaxan jîngehan bi vê rêzê derbas dike.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>Vebijarkî, bi bêhnokan veqetandî, bo nimûne production. Belavkirina ji bo komekê diçe her serverê dûr ê wê komê.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. Girêdan</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>Pel çawa digihêjin wir, û sazkirin li ku ye.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>Bi SSH, tenê tiştê ku guheriye, veguhastina qutbûyî tê domandin. Bijartina herî baş li cihê ku rsync sazkirî ye.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>SSH bi scp ji bo pelan.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>SSH bi sftp ji bo pelan.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>Tenê pel: koçberkirin têne şandin û paşve têne xwendin, lê li wir nayên xebitandin.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>FTP li ser TLS; tenê pel.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>Sazkirineke din li ser vê serverê, di peldankekê de.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Mêvandar</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>Navê mêvandar an navnîşanek, bo nimûne node1.example.com. Ne ji bo local.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>Port</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>Vala: 22 ji bo SSH, 21 ji bo FTP.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Bikarhêner</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>Rê</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>Koka sazkirinê li wir, bo nimûne /var/www/site (ji bo FTP: rêya ku hesabê FTP dibîne).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>Rêza fermanê ya PHP</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>PHP CLI ya li wir: php, an rêyeke tevahî wekî /opt/plesk/php/8.4/bin/php.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>Skrîptên konsolê li wir wekî root dixebitin</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>Tenê dema ku bikarhênerê servera dûr root be (wê demê ew bi --allow-root-user têne xebitandin).</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. Nasnameya têketinê</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>Ev sazkirin li wir çawa têdikeve. Tenê navek tê tomarkirin.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Tune</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>Ajana SSH û mifteyên bikarhênerê ku ev sazkirin pê dixebite (û her tim ji bo local).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>Mifteyeke taybet ku wekî nepenî tê hilanîn.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>Şîfreyek ku wekî nepenî tê hilanîn (FTP bi wê têdikeve).</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>Navê nepeniyê</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>Nepeniyek ji Sazkirin &gt; Nepenî, bo nimûne deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Sazkirin &gt; Nepenî</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>An guherbarek jîngehê</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>Guherbarê pêvajoya serverê ku wê dihewîne, bo nimûne DEPLOY_KEY (wekî env:DEPLOY_KEY tê tomarkirin). Ew cihê navê nepeniyê digire.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. Mifteya mêvandar</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>Vebijarkî, ji bo SSH, sftp û rsync.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>Şopa tiliyê ya mifteya mêvandar</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... wekî ku ssh-keygen -l nîşan dide. Bi wê re, divê mêvandar vê mifteyê nîşan bide; bê wê, mifte di têkiliya yekem de tê fêrbûn.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. Venêrîn</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>Girêdanê bi mîhengên li jor biceribîne, paşê rêzên ku dê bên nivîsandin binêre.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>Vê servera dûr rake</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>Mîhengên wê ji settings/override/migration.ini.append.php têne derxistin. Li ser servera dûr tiştek naguhere, û belavkirinên wê di dîrokê de dimînin.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>Erê, vê servera dûr rake</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>Belavkirin</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>Belavkirinek koçberkirinên vê sazkirinê dişîne serverên dûr ên hilbijartî û wan li wir wekî %user dixebitîne, hemûyan bi hev re û hevdem: pêşî her serverê dûr tê kontrolkirin, û heke yek bi ser nekeve, her serverê dûr ê ku sepandiye tê paşvekişandin. Ew di paşxaneyê de didome, û rûpela wê her serverê dûr di dema xebatê de nîşan dide.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. Serverên dûr</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>Serverên dûr, komekê an herduyan nîşan bike.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>Li wir belav bike</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. Çawa</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>Belav bike</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>Bişîne û bixebitîne</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>Koçberkirin ji her serverê dûr re têne şandin, verastkirin û bi nasnameyeke xebitandinê ya hevpar têne xebitandin.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>Tenê veguhastin</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>Pel têne şandin û verastkirin, tiştek nayê xebitandin (rêya tenê ji bo serverek dûr a FTP).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>Bi qonaxan</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>Qonax bi qonax li gorî rêza jîngehan (dev, stage, beta, production ...): qonaxa yekem tê belavkirin, paşê derîyek li bendê dimîne heta ku kesek qonaxa pêş bipejirîne. Di her qonaxê de hemû an tu tişt.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>Tenê ev koçberkirin</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>Vebijarkî: nasnameyên koçberkirinê, bi bêhnokan veqetandî. Vala: her koçberkirina malperê û pêvekên wê.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>Tenê kontrola pêşîn</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>Erê, niha belav bike</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>Belavkirinên ku tiştek şandine an xebitandine, ya herî nû pêşî (kontrola pêşîn rapor nahêle).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>tenê veguhastin</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>bi qonaxan, %stages qonax</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>ne hevdem</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>Hîn belavkirin tune.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>Belavkirin %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Her serverê dûr ê belavkirinê bi rewşa wê. Belavkirineke ku li vir dest pê kiriye, dema ev rûpel tê girtin di paşxaneyê de didome; ji bo şopandinê rûpelê dîsa veke.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>Hemû belavkirin</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>Kontrola pêşîn</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>Qonaxa pêş</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>Mîheng û nasnameyên têketinê têne kontrolkirin</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>Kontrola pêşîn: rewşa her serverê dûr tê xwendin</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>Pelên koçberkirinê têne şandin</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>Tiştê ku gihîştiye tê verastkirin</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>Koçberkirin li ser her serverê dûr dixebitin</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>Serverên dûr têne paşvekişandin</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>Belavkirin qediya. Rapora wê tê barkirin.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>Pêşveçûn nehat şopandin. Rûpelê ji nû ve bar bike da ku bibînî belavkirin çawa diçe.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>Faz</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>Ev rûpel belavkirinê di dema xebatê de dişopîne.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>Hevdem</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>Qonax</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>qonaxa %stage li ber derîyê xwe li bendê ye</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>Derî %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>ji aliyê %user ve di %time de hat pejirandin</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>Qonax</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>Pelên şandî</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>Guhertoya kernelê</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>hat sepandin: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>ji bo sepandinê: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>Faz</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>Derî: qonaxa %stage ji %stages</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>Qonaxên berî wê hatine belavkirin. Wan kontrol bike, paşê qonaxa pêş bipejirîne: serverên wê yên dûr dîsa têne kontrolkirin û belavkirin, hemû an tu tişt.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Pêşve</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>Erê, qonaxa pêş niha belav bike</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Pejirandin</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>Vê belavkirinê paşve bikişîne</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>Her serverê dûr ê ku ew sepandiye (%list) vedigere wêneya ku berî xebitandina wê hatiye girtin, hemû bi hev re.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>Erê, vê belavkirinê niha paşve bikişîne</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>plankirî</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>hat veguhastin</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>hat belavkirin</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>li ber derîyekî li bendê ye</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>hilbijartî</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>amadekirî</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>amade</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>li benda qonaxa xwe ye</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>pel hatin şandin</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>hat verastkirin</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>bi ser neket, xwe vegerand</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>neguherî</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>nehat belavkirin</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>nayê gihîştin</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>Servera dûr bersiv da.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>Servera dûr niha nayê bikaranîn.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done qediya, %pending li bendê, %failed bi ser neket</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>Kilît</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>xebitandinek li wir kilîtê digire</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>vala</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stage ji %stages</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>Servera dûr a ku bê ceribandin hilbijêre.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>Pêşî “Erê, vê servera dûr rake” nîşan bike.</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>Servera dûr nehat rakirin: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>Servera dûr nehat tomarkirin: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Pela mîhengan nayê xwendin: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>Herî kêm serverek dûr an komek hilbijêre.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>Serverek dûr a hilbijartî êdî ne di mîhengan de ye. Rûpelê ji nû ve bar bike.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>Pêşî “Erê, niha belav bike” nîşan bike.</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>Serverek dûr a FTP nikare koçberkirinan bixebitîne: “Tenê veguhastin” hilbijêre, an wê derxe.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>Koçberkirinên ku bên belavkirin nasnameyên koçberkirinê ne, bi bêhnokan veqetandî.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>Belavkirin hîn didome. Li bendê be heta ku biqede.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>Ev belavkirin li ber derîyekî li bendê namîne.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>Tu serverê dûr ev belavkirin nesepandiye: tiştek tune ku paşve bê kişandin.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>Pêşî “Erê, qonaxa pêş niha belav bike” nîşan bike.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>Pêşî “Erê, vê belavkirinê niha paşve bikişîne” nîşan bike.</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>Serverek dûr bi nasnameya %id jixwe heye.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>Port hejmarek ji 1 heta 65535 e.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>Jîngeh peyveke ji tîp, reqem, - û _ ye (alpha, dev, stage, beta, production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>Kom peyveke ji tîp, reqem, - û _ ye (ne all): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>Nasnameya têketinê niha nayê xwendin: %problem. Berî belavkirina yekem wê di Sazkirin &gt; Nepenî de tomar bike (an guherbarê saz bike).</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>Serverek dûr a FTP tenê pelan distîne: belavkirina ji bo wê “Tenê veguhastin” e, û koçberkirinên wê li wir bi destan têne xebitandin.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>Servera dûr %id ne di settings/override/migration.ini.append.php de ye; wê li cihê ku hatiye danîn rake.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>Bi FTP têket û index.php xwend. Rewşa koçberkirinê ya serverek dûr a FTP nayê xwendin.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>Dîroka guhertinê</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>Dîroka afirandinê</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Nav</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Çîn</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Beş</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>Afirîner</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Naveroka nû</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>Naveroka herî dawî ya hemû malperê ku hatiye afirandin û guhertin, ya herî nû pêşî: tiştên ku mêvanan şandine, tiştên ku ji bo nirxandinê hatine ragirtin, reşnivîsên ku li benda weşandinê ne. Hêmanan hilbijêrin da ku wan berdin, ragirin, veşêrin, eşkere bikin, rakin an jî bibin beşek an rewşek din.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>Lîste nehat xwendin: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>Ragirtina ji bo nirxandinê hîn nehatiye sazkirin, ji ber vê yekê tiştek nayê ragirtin û kiryarên ragirtinê nayên pêşkêşkirin. Gava nûkirinê 6.0.15-review-hold wê saz dike: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Lîsteyê fîlter bike</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Ji</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Heta</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Dîrok</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>Dîroka afirandinê (weşana yekem)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Hemû</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Rewşa weşanê</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Weşandî</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>Reşnivîs, qet nehatiye weşandin</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>Li bendê (li benda pejirandinê an dîrokekê)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>Di çopdankê de</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Ji bo nirxandinê hatiye ragirtin</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>Hatiye ragirtin</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>Nehatiye ragirtin</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>Veşartî</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>Xuya</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>Gihîştina malperê ya şandinê</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>Her gihîştina malperê</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>Tenê tiştên ku kontrolê tomar kirine.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>Niha: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>Navê têketinê an nasnameya bikarhêner.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Fîlter bike</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>Fîlteran paqij bike</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>Hêman</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from heta %to ji %count</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Tu hêman tune</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(di %ms ms de hat xwendin)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>Kiryarên li ser hêmanên hilbijartî</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>Hemûyan li vê rûpelê hilbijêre</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>%count hatin hilbijartin</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Kiryar</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>Kiryarekê hilbijêre</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>Ragirtinê rake</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Ji bo nirxandinê ragire</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Veşêre</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>Eşkere bike</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>Bibe çopdankê</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>Jê bibe</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>Beşê destnîşan bike</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>Rewşê destnîşan bike</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>Sedem</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>Ji bo ragirtinê pêwîst e; bi ragirtinê re û di kontrolê de tê parastin.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>Beşekê hilbijêre</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Rewş</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>Rewşekê hilbijêre</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>Li ser yên hilbijartî bicîh bîne</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>Her hêman li gorî destûrên we yên xwe tê kontrolkirin. Birina çopdankê û jêbirin ji we piştrastkirinê dixwazin. Ji %count hêmanan zêdetir di paşperdeyê de dixebitin.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>Hilbijêre</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>Weşan</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>Ji ku hatiye şandin</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>%name hilbijêre</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>hîn na</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(bê nav)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>Nasname %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>Reşnivîs</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Li bendê</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>Ji aliyê dêûbavê xwe ve hatiye veşartin</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>Hatiye ragirtin: şandina nû</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>Guherto %version li bendê ye</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>Guherto %version di amadekirinê de ye</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>Reşnivîs, guherto %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>Guherto %version hat weşandin</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>Ji bo %date hatiye plankirin</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>navnîşan tune</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>nehatiye tomarkirin</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>Tiştek li gorî van fîlteran nayê.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Hemûyan nîşan bide</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>Hîn naverok tune.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Her rûpel</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Li her rûpelê %count hêmanan nîşan bide.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says &quot;not recorded&quot;.</source>
+        <translation>Navnîşan û gerokê şandinekê ji îndeksa kontrolê tên, ku li vir tune ye: stûn dibêje “nehatiye tomarkirin”.</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>Navnîşan û gerok ew in ku kontrolê ji bo hêmanê tomar kirine (ragirtina xweber wan her tim tomar dike; weşandin û afirandin tenê li cihê ku hatiye vekirin), wekî ku mîhengên nepeniyê wan diparêzin.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: %count hêman</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>Jêbirin hêmanan bi hemû guherto û wergerên wan re bi temamî radike. Nayê vegerandin.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>Hêman diçin çopdankê, ji wir dikarin werin vegerandin.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>Her hêman li gorî destûrên we yên xwe tê kontrolkirin; hêmanek ku binhêmanên wê hene wekî xwe tê hiştin (wê di avahiya naverokê de rakin). Dê ji we were xwestin ku hûn piştrast bikin ku hûn in.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>Ev di paşperdeyê de dixebite: rûpela pêşveçûna wê vedibe, û dema ku qediya encama her hêmanê tê nîşandan.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>Hêmanên hilbijartî</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>û %count yên din</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Betal</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>Tiştek nehat kirin</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Sedem: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>Kiryar hîn di paşperdeyê de dixebite.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>Pêşveçûna wê</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>Kiryara paşperdeyê bi ser neket: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Qediya</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Hat redkirin</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Bi ser neket</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>Ji bo her hêmanê</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>Hêman</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Encam</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Çima</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>Vegere lîsteyê</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Sazkirin</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>Tiştek nehat kirin</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>Piştrast bike</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>Kiryarekê hilbijêre.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>Herî kêm hêmanekê hilbijêre.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>Di carekê de herî zêde 1000 hêmanan hilbijêre.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>Binivîse ka çima hêman têne ragirtin.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>Beşê hilbijêre.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>Rewşê hilbijêre.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Form nehat xwendin.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>Panela kontrolê</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>Naveroka nû</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>Hejmar nehatin xwendin: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Ji bo nirxandinê hatiye ragirtin</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>Îro nû</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Ragirtina ji bo nirxandinê hîn nehatiye sazkirin (gava nûkirinê 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>Hemû naveroka nû</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>Hûn nikarin kiryarên moderasyonê bimeşînin (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>Kiryara moderasyonê temam nebûye: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>Moderasyon: %action li ser %count heyberan</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%done ji %total heyberan: %ok qediyan, %refused hatin redkirin, %failed bi ser neketin</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok qediyan, %refused hatin redkirin, %failed bi ser neketin</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>Ew êdî tune ye.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>Cihê wê tune ye (nehatiye weşandin).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>Hûn nikarin wê veşêrin (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>Hûn nikarin wê eşkere bikin (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>Ew jixwe veşartî ye.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>Ew ne veşartî ye.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>Hat veşartin.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>Hat eşkerekirin.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>Ew di çopdankê de ye: li wir wê vala bikin an vegerînin.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>Reşnivîsek ku qet nehatiye weşandin nikare biçe çopdankê: wê jê bibin.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>Hûn nikarin wê jê bibin (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>Hat jêbirin.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>Hûn nikarin wê rakin (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>Binhêmanên wê hene: wê di avahiya naverokê de rakin, li cihê ku ew tên rêzkirin.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>Ew nehat rakirin (dibe ku herikîna kar rakirinê ragire).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>Hat birin çopdankê.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>Beş tune ye.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>Ew jixwe di vê beşê de ye.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>Hûn nikarin vê beşê destnîşan bikin (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>Beş nehat destnîşankirin.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>Beş hat destnîşankirin.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>Rewş tune ye.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>Ew jixwe di vê rewşê de ye.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>Hûn nikarin vê rewşê destnîşan bikin (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>Rewş nehat destnîşankirin (dibe ku herikîna kar guhertinê ragire).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>Rewş hat destnîşankirin.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>Kiryarek wiha tune ye.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Ragirtina ji bo nirxandinê nehatiye sazkirin (gava nûkirinê 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>Binivîse ka çima ew tê ragirtin.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>Ew jixwe hatiye ragirtin.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>Hûn nikarin wê ragirin (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>Ragirtin nehat danîn (dibe ku herikîna kar guhertinê ragire).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>Hat ragirtin.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>Ew nehatiye ragirtin.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>Hûn nikarin wê berdin (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>Ragirtin nehat rakirin (dibe ku herikîna kar guhertinê ragire).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>Hat berdan; hîn veşartî ye: hûn nikarin wê eşkere bikin (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>Hat berdan.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>Hemû armanc</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Weşana dawî</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>Kopiyeke statîk a belaş a malpera xwe li ser GitHub Pages biweşîne:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Rûpelên kevnbûyî</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Weşandina statîk</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Weşandina statîk girtî ye.</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Armanc</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Armanc nehatin xwendin: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>karek dewam dike</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>avakirina ji bo kontrolê</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>vê veşêre</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>armancekê çêke</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>qet</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>rêbernameyê bixwîne</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>%added hatin zêdekirin, %changed hatin guhertin, %removed hatin rakirin</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%bytes ji %limit (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>%count yên din nehatine rêzkirin.</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>%pages rûpel hatin nivîsandin</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path %size e, ji ya ku mêvandar ji bo pelekê destûr dide zêdetir.</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>%percent % ya sînor</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds çirk</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag weşana ku niha li ser malperê ye.</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: kar %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>/depo/ ji bo malpera projeyeke GitHub; vala ji bo domêneke taybet an malpera bikarhênerekî.</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. Malper</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. Mêvandar</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. Têketina depoyê</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. Depo</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. Girêdan û rêça bingehîn</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. Domêna te ya xwe</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. Avakirin çi dihewîne</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. Kengê tê weşandin</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. Kontrol bike û tomar bike</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>Malpera projeyeke GitHub di bin /&lt;repository&gt;/ de ye; girêdanên nisbî li wir û li her derê din dixebitin.</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>Avakirinek her rûpela %site wekî ku mêvanekî ku neketiye hundir dibîne tîne, girêdanan ji nû ve dinivîse, pelan kopî dike û encamê di peldanka armancê de dinivîse. Heta ku tu avakirinê kontrol nekî û li Biweşîne nexî, tiştek nayê weşandin.</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>Îfadeyeke cron, mînak 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>Mifteya bicihkirinê wekî nepeniya %secret tê parastin.</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>Mifteya bicihkirinê dihêle ku ev sazkirin bi SSH tenê ji depoyekê re bişîne û ne ji cihekî din. Nîvê wê yê taybet di Sazkirin &gt; Nepenî de dimîne; tenê nîvê giştî tê nîşandan.</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>Mifteyeke bicihkirinê ku ji bo vê armancê hatiye çêkirin</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>Mifteya bicihkirinê bi SSH dikeve hundir: navnîşana git bi ya SSH biguherîne (git@github.com:owner/repo.git).</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>Karek dewam dike, ji aliyê %user ve hat destpêkirin</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>Karekî vê armancê hîn dewam dike (%detail). Li benda qedandina wî bimîne.</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>Karekî vê armancê hîn dewam dike. Li benda qedandina wî bimîne.</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>Girêdanek ji rûpela /news/ ber bi rûpela /about-us/team ve wiha tê nivîsandin</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>Mifteyeke bicihkirinê ya nû hat çêkirin. Niha nîvê wê yê giştî li depoyê zêde bike.</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>Rûpeleke ku piştî paqijkirinê hîn derketina debugê, tokeneke formê an nasnameya danişînê hildigire qet nayê weşandin.</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>Paşvekişandin ji bo pisporan e: &quot;Ez dizanim ev çi diguherîne&quot; nîşan bike û navê etîketê dîsa binivîse.</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>Malperek dikare heta %site be, pelek heta %file, bi qasî 100 GB trafîk di mehê de. Di plana belaş de divê depo giştî be. GitHub Pages ne ji bo firoşgehan an danûstendinên din ên bazirganî ye.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>Armancek malperek e ku li depoyeke git tê weşandin. Li vir tiştek nayê avakirin an weşandin: Tomar bike mîhengan di settings/override/staticcache.ini.append.php de dinivîse.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>Armancek malperek e ku li cihekî tê weşandin, mînak malpera te ya giştî li ser GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>Tokenek ji Sazkirin &gt; Nepenî</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>Herikîneke kar a depoyê wê diweşîne.</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>Vê mifteya giştî bi destûra nivîsandinê li depoyê zêde bike. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, Allow write access nîşan bike.</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>Hat zêdekirin</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>Mêvandarekî din ê git</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>Pêvajoyeke din li ser vê armancê dixebite: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>Paşve</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>Rêça bingehîn</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Berê</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>Di bin rêçeke bingehîn de</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>Şax</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>Girêdanên şikestî</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>Girêdanên şikestî di avakirinê de</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>Avakirin</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>Avakirina %id ji aliyê %user</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>Avakirina %name</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>Niha ava bike</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>Avakirina ji bo kontrolê</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Ji aliyê</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>Bi destan, li vir</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Betal</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Biguherîne</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>Hat guhertin</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Guhertin</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>Pêşî kontrol bike</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Van mîhengan kontrol bike</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>Kontrol bike ka avakirin çi diguherîne, lê binêre, paşê biweşîne an bavêje.</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>Weşana ku tu dixwazî lê vegerî hilbijêre.</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>Bi weşaneke paştir tê.</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Komît</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>Komît</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>Avakirinê komît dike, etîket dike û ji %remote re dişîne. Şandin qet bi zorê nayê kirin; tu dikarî paşê vegerî her weşanê.</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>Li gorî peldanka berê: %added hatin zêdekirin, %changed hatin guhertin, %removed hatin rakirin, %unchanged neguherîn.</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>Li gorî weşana dawî.</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Nasnameya têketinê</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>Domêna taybet</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>Derketina debugê, tokenên formê, nasnameyên danişînê û nonce her tim tên derxistin.</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>Mifteya bicihkirinê</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>Mifteya bicihkirinê ya %name</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Bavêje</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>Avakirinê bavêje</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>Domên</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>Vala: navnîşana malperê. Wekî din navnîşaneke navxweyî ya heman malperê.</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Qediya</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>Her girêdan bi rêça bingehîn dest pê dike.</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>Her weşan komîteke bi etîketa static/%id/&lt;n&gt; e. Vegerîn komîteke nû bi pelên weşaneke berê çêdike: dîrok dimîne, tu etîket nalive û tiştek bi zorê nayê kirin.</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>Pelên zêde</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>Rûpelan ji vir bîne</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Pel</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>Pel</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>Pel kêm in</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>Pelên</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>Pelên ku nehatin berhevkirin</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>Şopa tiliyê</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>Peldank</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>Ji bo navnîşaneke SSH. Mift piştî tomarkirinê tê çêkirin; tu nîvê wê yê giştî li depoyê zêde dikî.</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>Ji bo navnîşaneke https://. GitHub: tokeneke hûrgilî bi destûra xwendin û nivîsandinê ya Contents li ser depoyê.</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>Ji bo pisporan. Malpera giştî gava şandin biqede tê guhertin.</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Form</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>Mêvandariya belaş ji depoyeke GitHub.</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>Ji şaxê</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>Navnîşana git</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages destûrê dide malpereke %site û pelekî %file.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>Sînorên GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages pelan wekî xwe diweşîne (ji bo pelên ku bi _ dest pê dikin pêwîst e).</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub şaxê wekî ku hatiye şandin pêşkêş dike. Ya standard.</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, servera te ya xwe: her depoyeke git.</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>Vegere weşaneke berê</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Alîkarî</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>Alîkarî bi sêrbazê re</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>Wan veşêre</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Dîrok</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>Dîroka %name</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Mêvandar</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>GitHub Pages avakirinê çawa werdigire</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>Min guhertin kontrol kirin</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>Ez dizanim ev çi diguherîne</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>Nasname</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>Girtî ye: heta ku vebe tiştek nikare were avakirin.</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>Di paşxaneyê de wekî %user dixebite; tu dikarî vê rûpelê bigirî.</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>Kar %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>Wekî nepeniya %secret tê parastin.</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Cure</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Weşana dawî</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>Van rûpelan derxe</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>Van beşan derxe</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Girêdan</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>Girêdanên ji nû ve nivîsandî</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>Malpera zindî</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>Li avakirinê binêre</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>Tîpên biçûk, hejmar, _ û -, mînak github-public. Navê peldankê û etîketan (static/&lt;id&gt;/&lt;n&gt;) dide û paşê nayê guhertin.</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>Mifteyeke nû çêke</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>Armancekê çêke</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>Miftê çêke</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>Pêşî depoyê li ser mêvandar çêke; depoyeke vala baş e.</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>Manîfest</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Peyam</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>Piraniya rûpelan</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Nav</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>Navê tokenê di Sazkirin &gt; Nepenî de</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>Armanca nû</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Pêşve</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>Na</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>Hîn komît tune.</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>Tu mift nehat çêkirin: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Tu pela xebitandinê ya rêzika fermanê ya php nehat dîtin. migration.ini [AdminSettings] PhpCliPath li rêça wê ya tevahî bicih bike.</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>Hîn etîket tune.</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>Hîn armanc tune.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Tune</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>Ne di avakirinê de ye.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>Hîn tiştek nehatiye weşandin.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>Hîn tiştek nehatiye weşandin: her pel nû ye.</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>Agahdarî</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>Li gorî demsaziyê</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>Li ser konsolê</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>Li ser serverê: ./console exp:static:serve %id wê bi heman awayî pêşkêş dike.</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>Her rêzê rêçek, * li her beşê tê: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>Bi armancê re tenê navek tê tomarkirin; token an mift bi xwe di Sazkirin &gt; Nepenî de dimîne û qet di qeydekê de xuya nake.</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>Tenê ya ku rûpel bi nav dikin</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>Tenê bi tokenekê. env:NAME li şûna wê guhêrbareke jîngehê ya serverê dixwîne.</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>Pêşdîtinê veke</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>Avakirinê wekî ku mêvandar dê pêşkêş bike, ji peldanka armancê vedike. Girêdan ji bo te saetekê dixebite.</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>Bijarte. Vala: ya ku hat weşandin.</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>Bijarte. Bi domênekê malper li koka wê tê pêşkêşkirin.</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Encam</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>Rûpel</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>Rûpelên armancê</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>Rûpelên redkirî</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>Piştî-pêvajo</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Pêşdîtin</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>Pêşdîtin û weşandin</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>Pêşdîtin û weşandina %name</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>Pêşdîtina avakirinê</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Pêşveçûn</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>Navnîşana giştî</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>Mifteya giştî</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>Biweşîne</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>Kopiyeke statîk a malperê li ser GitHub Pages an her mêvandarekî git biweşîne: ava bike, guhertinan kontrol bike, biweşîne, û gava pêwîst be vegere weşaneke berê.</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>Weşana ku lê vegere</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>Weşan</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Şandin</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>Rêbernameyê bixwîne</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Qeyd</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Hat redkirin</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>Nisbî</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Ji nû ve bar bike</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>Hat rakirin</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>Miftê biguherîne: ya kevn êdî naxebite</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Rapor</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>Rapora avakirinê</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Depo</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Kontrol</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>Kontrol her mîhengê kontrol dike û rêzên ku dê bên nivîsandin nîşan dide. Hîn tiştek nayê tomarkirin.</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Paşve bikişîne</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Paşvekişandin</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Tomar bike</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>Demsazî</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>Rûpela lêgerînê</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>Nasnameyên beşan, bi bêhnokê veqetandî.</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>Wan bişîne malpera zindî</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>Mîheng</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Mîheng</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>Mîhengên %name</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Sazkirin</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Sazkirin &gt; Nepenî</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>Di lîsteyan de tê nîşandan, mînak &quot;Malpera giştî li ser GitHub Pages&quot;.</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>Têketin bi GitHub App re bi entegrasyona GitHub tê.</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>Malper</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>Malpera ku were weşandin</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Mezinahî</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>Mezinahî û sînor</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>Mezinahiya avakirinê</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Rûpelên kevnbûyî</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Dest pê kir</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Ji aliyê %user ve di %time de dest pê kir.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Rewş</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Weşandina statîk</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>Weşandina statîk girtî ye</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Weşandina statîk girtî ye.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>Weşandina statîk girtî ye. Pêşî wê di Sazkirin &gt; Weşandina statîk de veke.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>Weşandina statîk vekirî ye.</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>Gav %step ji %total</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Gav</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>Paqijkirin</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Bigire</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Veke</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>Weşandina statîk veke</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Etîket</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>Etîket</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Armanc</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>Armanc dikarin bên çêkirin û guhertin, lê heta ku vebe tiştek nayê avakirin an weşandin.</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>Ji motorên lêgerînê re dibêje çi bixwînin.</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>Avakirin nehat avêtin: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>Avakirin heman weşana dawî ye: tiştek tune ku were weşandin.</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>Avakirin hat avêtin: peldank dîsa weşana dawî dihewîne.</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>Nirxên standard li piraniya malperan tên.</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>Di peldankê de avakirineke ku hîn nehatiye weşandin heye; avakirineke nû wê diguherîne.</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>Peldanka karan nayê nivîsandin: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>Kar nehat amadekirin: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>Kar nehat destpêkirin.</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>Kar qediya. Rapora wê tê barkirin.</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>Kar bikarhênerekî ku ketiye hundir hewce dike.</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>Kar dest pê kir lê nasnameya pêvajoya xwe ranegihand. %detail kontrol bike.</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>Mift</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>Pela herî mezin: %path, %size.</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Rêzên ku dê bên nivîsandin</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>Lîsteya rûpelan ji bo motorên lêgerînê; navnîşana giştî hewce dike.</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>Rûpel wekî ku mêvanekî ku neketiye hundir dibîne tên anîn. Siteaccessên rêveberî û sererastkirinê qet nayên pêşniyarkirin.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>Pêşveçûn nehat şopandin. Rûpelê ji nû ve bar bike da ku bibînî kar çawa dimeşe.</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>Nîvê giştî yê miftê:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>Koka şaxê</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>Embara nepeniyan hîn nehatiye sazkirin (./console exp:upgrade --apply tabloya wê çêdike), ji ber vê yekê tu mift nayê parastin.</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>Server bi xwe dikeve hundir (mifteya xwe ya SSH an alîkarê nasnameyê), an depo li ser vê serverê ye.</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>Mîheng nehat nivîsandin: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Mîheng derbasdar in. Ev rêz dê bên nivîsandin:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Pela mîhengan nayê xwendin: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>Malper vedigere pelên wê weşanê; avakirineke ku hîn nehatiye weşandin divê pêşî were weşandin an avêtin.</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>Rûpela malperê ya xwe ji bo navnîşanên ku tune ne.</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>Armanc nehat tomarkirin: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>Armanc hîn bi vê miftê nakeve hundir: di mîhengên wê de &quot;Mifteyeke bicihkirinê ku ji bo vê armancê hatiye çêkirin&quot; hilbijêre.</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Armanc nehatin xwendin: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>Hîn avakirinek ji bo kontrolê tune.</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>Di vê sazkirinê de siteaccesseke pêş tune. Siteaccessên rêveberî û sererastkirinê qet nayên weşandin.</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>Ev rûpel karê dişopîne dema ku dimeşe; dema rûpel bê girtin kar di paşxaneyê de dewam dike.</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>Hîn mifteya bicihkirinê ya vê armancê tune.</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>Ev armanc hîn li vir nehatiye avakirin.</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>Ev armanc yekê heye.</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>Vê avakirinê davêje: peldank dîsa weşana dawî dihewîne. Malpera zindî nayê guhertin.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>Pêşî &quot;Min guhertin kontrol kirin&quot; nîşan bike.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Dem</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>Tetik</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>Navê etîketê dîsa binivîse</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>Neguherî</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>Webhook</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Çi</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>Çi diguhere</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>Her pel çi ye; her tim tê nivîsandin.</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>Kar çi kir û qeyda wê. Karekî ku li vir dest pê kiribe dema ev rûpel bê girtin di paşxaneyê de dewam dike.</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>Ya ku kar wekî çewtî çap kir</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>Ya ku rûpel bi nav dikin, û her wêneyekî naveroka weşandî</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Kengê</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>Dema weşanek bi ser nekeve</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>Dema weşanek bi ser bikeve</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>Dema naverok tê weşandin</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>Girêdanên ber bi tiştên ku kopî nahewîne (lêgerîn, têketin) diçin ku derê.</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>Kopiya statîk ji ku derê tê pêşkêşkirin.</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>Kîjan malper tê weşandin, û navê armancê çi ye.</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>Di bin her rêçekê de dixebite. Ya standard.</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>Her gava domêneke taybet were danîn tê nivîsandin.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>Erê</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>Tu her tim dikarî li vir û li ser konsolê bi destan ava bikî û biweşînî.</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>tenê navek; nirx di Sazkirin &gt; Nepenî de dimîne</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>di bin %path de</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>bê rapor qediya</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>zêde</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>bi ser neket</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>pel</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages, an main bi peldanka docs.</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>mêvandarê git</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (bi tokenekê) an git@github.com:owner/repo.git (bi mifteya bicihkirinê); qet şîfre an token tê de nebe.</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/, ji bo nexşeya malperê û girêdanên kanonîk.</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>wêne</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>qet</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>na</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>bê remote</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>tune: komît di peldankê de dimînin</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>tune: tiştek neguherî</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>nehat şandin</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>tiştek neguherî</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>rûpel</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>derbas bû</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>proc_open neçalak e, ji ber vê yekê kar li vir nikare dest pê bike. Li ser serverê ./console exp:static:build bi kar bîne.</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>weşan</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>hat weşandin</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>şandin li bendê ye</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>hat şandin</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>hat redkirin</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>nisbî</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>paşvekişandin</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>hat paşvekişandin</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>dimeşe</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>tenê peldank</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: di pela CNAME de tê nivîsandin. DNS ya domênê wekî ku mêvandar şirove dike ber bi mêvandar ve bike; dibe ku HTTPS demekê bigire heta dest pê bike.</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>erê, hîn nehatiye weşandin</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>GitHub Appek</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>Workflowek a depoyê wê diweşîne. Avakirin pelê workflowê dinivîse; peldankê vala bihêle.</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>Piştî ku armancek bi depoyeke GitHub û tokenek an GitHub Appek hat tomarkirin, ev gav dikare depoyê biafirîne û GitHub Pages veke. Wekî din pêşî depoyê li ser GitHub biafirîne; yeke vala jî dibe.</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>Şax an GitHub Actions?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>DNS kontrol bike</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>Heke depo tune be, biafirîne</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>Depoyê li ser GitHub biafirîne û di mîhengên wê de GitHub Pages veke (Settings &gt; Pages).</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>Depoya %repo heke tune be (heke hatibe xwestin) diafirîne, GitHub Pages li gorî tomarkirî ji şaxê an ji GitHub Actions vedike, û domêna taybet û HTTPS saz dike. Mîhengên tomarkirî bi kar tîne: pêşî guhertinan tomar bike.</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>Hûrgilî li ser GitHub</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>Pêşî domêna taybet binivîse.</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>Her push pêşî li gorî van sînoran tê kontrolkirin.</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>Ji bo navnîşaneke https:// li ser GitHub. Appa ku ji bo vê sazkirinê hatiye sazkirin têdikeve; ew id ya sazkirinê hewce dike.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages depoyeke taybet tenê bi planeke bi pere pêşkêş dike.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: binedomên (www.example.com) tomareke CNAME ber bi &lt;owner&gt;.github.io ve hewce dike; domêna apex (example.com) tomarên A %ips.</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>Id ya sazkirina GitHub App</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>Avakirina Pages a dawîn</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>Sînor û merc</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>Ji bo GitHub Pages bi planeke belaş pêwîst e.</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>Li ser GitHub</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>Tenê bi GitHub App: hejmara li dawiya navnîşana sazkirina Appê li ser GitHub. Appa bixwe di staticcache.ini de tê diyarkirin (GitHubAppId, GitHubAppKey).</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>Taybet</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>Giştî</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>Pêşî armancê bi depoyeke GitHub û tokenek an GitHub Appek tomar bike.</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>Van tomaran li cem pêşkêşkarê domênê saz bike:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>Li ser GitHub saz bike</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>DNS ya %domain hêj nîşanî GitHub Pages nade.</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>DNS ya %domain nîşanî GitHub Pages dide.</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>Entegrasyona GitHub li vir ne berdest e: %problem. Weşandina li şaxê dîsa jî dixebite; di mîhengên depoyê de GitHub Pages veke.</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>Gavên GitHub ji bo vê armancê ne berdest in: %problem.</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>Rewşa GitHub Pages bi tokenek an GitHub Appek wekî nasnameya têketinê tê nîşandan.</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>Domêna xwe bi kar bîne</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>Kîjan hilbijêrî: token, mifteya bicihkirinê an GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>Bi depoyeke GitHub û tokenek an GitHub Appek, sêrbaz dikare ji bo te depoyê biafirîne, GitHub Pages veke û domênê saz bike (gav 4).</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>tê avakirin</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>hat avakirin</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>ji GitHub Actions</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>ji şaxa %branch</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>hêj tune</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>nehat dîtin</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>girtî</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>taybet</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>giştî</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>di rêzê de</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>nenas</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%count ji %pages rûpelan:</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>Li kêleka her pelê nivîsê .gz (û .br), ji bo mêvandarên ku wan peyda dikin.</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>Ji bo her navnîşan û nasnavê kevn yê rûpelekê rûpelek biçûk, da ku girêdanên kevn bixebitin.</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>Her dem dema GitHub Actions malperê radest dike tê nivîsandin.</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>Naskirinek SPDX ya wekî CC-BY-4.0, an jî nivîsa wê bi xwe.</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>Selik</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>Bangên ji bo serverê</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Şîrove</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>Formên ku agahiyan berhev dikin</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>Herikîna xebatê ya GitHub Actions</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>Valahiya kêmtir û tu şîroveyek di rûpelan de nîne.</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>Lîsansa naverokê</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Têketin</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>Biçûkkirin</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>Formên din</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>Pêşpakkirin</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>Rûpelên beralîkirinê</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>Rûpelên beralîkirinê: %count.</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Lêgerîn</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>Pêrista lêgerînê: %pages rûpel di %languages de.</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>Şêwe û skrîptên ku bi hashê naveroka xwe hatine binavkirin, da ku gerok bikaribin wan bihêlin.</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>Rûpelên guhertî, çend deqe piştî guhertina dawî (beşa cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>Lîsansa naverokê, ji qada li jêr.</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>Tevahiya malperê, di demên bernameyê de (beşa cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>Van beşên rûpelan serverekê hewce dikin; her yekê alternatîfek girt. Berî weşandinê wan kontrol bikin.</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>Çi bi awayekî statîk nexebite</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>Depo çi ye, ji bo kesê ku wê li ser mêvandar vedike.</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>hatiye hiştin</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>nivîsa alternatîf</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>xala dawî ya formê ya malpera zindî</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>malpera zindî</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>rûpela lêgerînê ya kopiyê</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>Form nehat şandin.</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>Spas: form hat şandin.</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>Form nehat pejirandin: ya ku we nivîsî kontrol bikin û dîsa bişînin.</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>Girêdanên ber bi rûpelên ku kopî nahewîne rake</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>Girêdanên ber bi rêveberiyê rake</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>Nivîsa wan dimîne. Wêne, form û girêdanên ber bi malperên din tu carî nayên rakirin.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Guherto</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>Gihîştinên malperê yên ku bên weşandin</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Gihîştina malperê</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>Li kokê</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>Li kokê tu gihîştin tune: her yek di peldanka xwe de ye, û kok girêdanê dide wan</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Gihîştinên malperê</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>Gihîştineke malperê nîşan bike, an çendên ku bi pêşgira xwe ya URI yek mazûvanî parve dikin. Ya li kokê li wir tê pêşkêşkirin, yên din di peldanka pêşgira xwe de (/ger/); girêdanên di navbera wan de di kopiyê de dimînin. Gihîştinên rêveberiyê qet nayên pêşkêşkirin.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>Weşandina statîk a %target li %site bi ser neket</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>Weşandina statîk a %target li %site bi ser ket</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>Ev e-name ji aliyê %site ve hate şandin ji ber ku armanca weşandina statîk %target wê dixwaze.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>Belavkirina %deploy li %site bi ser neket</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>Belavkirina %deploy li %site li ber deriyekî li bendê ye</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>Belavkirina %deploy li %site bi ser ket</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>Ev e-name ji aliyê %site ve hat şandin ji ber ku migration.ini [RemoteSettings] Notify[] wê dixwaze.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>Cureyên daneyê (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>Di %time de hate jimartin, piştî %minutes deqîqeyan dîsa</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>Cureyekî daneyê celebek nirxê taybetmendiyeke çînê tomar dike û sererast dike: rêzeke nivîsê, wêneyek, têkiliyek. Piraniya wan ji Kernel tên, pêvek yên din lê zêde dikin. Li vir hemû hene, kî wan pêşkêş dike û çiqas naverok wan bi kar tîne. Cureyekî daneyê ku databas bi kar tîne lê êdî tiştek qeyd nake, naveroka ku wî heye xera dike.</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>Komên çînan</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>Niha dîsa bijmêre li şûna jimartinên van çend deqîqeyên dawî.</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>Dîsa bijmêre</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Nêrîna giştî</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>Tomarkirî</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>Tê bikaranîn</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>Nehatiye bikaranîn</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>Pêvekên ku cureyên daneyê pêşkêş dikin</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>Taybetmendiyên çînê</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>Taybetmendiyên heyberê</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>Qeydkirî nîne</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>Di lîsteyê de ye, pel tune</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>%count cureyên daneyê tên bikaranîn lê qeydkirî nînin</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>%class_attributes taybetmendiyên çînê û %object_attributes taybetmendiyên heyberê xwedî cureyekî daneyê ne ku tu pêvek an mîheng qeyd nake. Heyberên wan nayên nîşandan, sererastkirin an weşandin. Pêveka ku cureyê daneyê pêşkêş dike çalak bike, an çînê biguherîne.</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>Tenê van nîşan bide</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>Cureyekî daneyê bibîne</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>Nasname, nav, çîna PHP an pêvek.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Nîşandan</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Hemû</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>Pêşkêşkirî ji aliyê</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>Her kes</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>Kernel</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>Tu cureyê daneyê bi vê parzûnê re li hev nayê.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Hemûyan nîşan dan</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>Pêvek</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%shown ji %count cureyên daneyê, %used têne bikaranîn</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>Di databasê de taybetmendiyên çîn an heyberan ên van cureyên daneyê hene, lê content.ini tu yekê ji wan rêz nake, an pela wê tune ye.</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>Cureyên daneyê yên %provider</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>Cureyê daneyê</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>Çîn û pela PHP</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>Çîn</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>Heyber</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>Nîşane</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>tune</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>Tu cureyê daneyê bi lêgerînê re li hev nayê. Lêgerînê paqij bike.</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>%shown ji %count cureyên daneyê têne nîşandan</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>Cureyên daneyê yên nîşandayî: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>Li gorî %column rêzkirin</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>Di %time de hate jimartin</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>Hemû cureyên daneyê</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>Rûpela alîkariyê</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>Ev cureyê daneyê tê bikaranîn lê qeydkirî nîne</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>Heta ku tu pêvek cureyê daneyê qeyd neke, heyberên çînên jêrîn nayên nîşandan, sererastkirin an weşandin. Pêveka ku wî pêşkêş dike çalak bike û wî li content.ini [DataTypeSettings] AvailableDataTypes[] zêde bike, an çînan biguherîne.</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini vî cureyê daneyê rêz dike, lê di tu peldanka cureyên daneyê de pela wî tune ye. Tiştek wî bi kar nayîne; wî ji AvailableDataTypes[] rake an pêveka wî çalak bike.</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>Derbarê vî cureyê daneyê de</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>Nasker</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Nav</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Pêveka %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>kes</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>Çîna PHP</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Pel</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>Di AvailableDataTypes[] de</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>erê</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>na</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>Stûnên nirxa wî</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>Stûnên mîhengên taybetmendiya çînê</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>Tablo</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>Stûn û tablo bi xwendina koda cureyê daneyê hatin dîtin: rêber e, ne soz e.</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>Şablon</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Gihîştina malperê</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>Şablon</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>Hate dîtin di</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>ev rêveberî</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>malpera standard</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>Bê serdestkirin: şablonek serdestkirinê ku li gorî çîn an taybetmendiyê li hev tê, ji van pêştir e.</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>Çînên ku wî bi kar tînin (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>Tu çîn xwedî taybetmendiyeke vî cureyê daneyê nîne.</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Çîn</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>Taybetmendî</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>Taybetmendiyên çînê (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>Taybetmendî</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Mîheng</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>Pêwîst</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>Lêgerbar</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>Wergerbar</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>Agahiyan berhev dike</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>Hin naverokên ku wî bi kar tînin</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>Ya herî dawî hatî guhertin pêşî</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Dîroka guhertinê</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>Girêk %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>Her werger xwedî nirxa xwe ye.</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>Lêgerîn nirxên wî îndeks dike.</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>Dikare agahiyan ji serdanvanan berhev bike (form).</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>Lîste dikarin li gorî wî bên rêzkirin: mifteya rêzkirinê %type.</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>Rêzkirinbar</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>Nirxên wî nîşanî heyberên din didin.</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>Têkilî</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>Dikare ji rêzeke nivîsê ya sade bê dagirtin (import, REST).</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>Ji nivîsê</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>Dikare ji pelekê bê dagirtin.</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>Ji pelê</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>Mîhengên taybetmendiya çînê dikevin nav pakêtan.</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>Pakêt</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>Naverok (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from heta %to ji %count</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Lîsteyê fîlter bike</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>Hemû çîn</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Beş</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Ziman</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Xwedî</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Weşandî</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>Berevajîkirina rêzê</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Tu hêman tune</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Li her rûpelê</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Li her rûpelê %count hêman nîşan bidin.</translation>
     </message>
 </context>
 </TS>

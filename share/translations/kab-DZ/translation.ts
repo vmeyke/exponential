@@ -984,6 +984,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>Anadi yettwaxdem kan deg usebter-a: %from ar %to ɣef %count.</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Yal anaw n yisefka n uẓar d yisiɣzaf, d wamek i t-seqdacen yismilen d ugbur.</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Anawen n yisefka</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2316,6 +2324,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>Isebtar n unagraw zemrent daɣen ad ttwacerḍen: ldi asebter (Asbadu, aɣmis n usenqed, tabdart n yiseqdacen ...) syin fren «Creḍ asebter-a» nnig-s. Ticraḍ-a ɣur-sent tignit n tmuɣli.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>Ur tezmireḍ ara ad teldiḍ asebter-a da ugar. Ssuffeɣ tacreḍt, neɣ suter anekcum ɣer unedbal.</translation>
     </message>
 </context>
 <context>
@@ -5165,6 +5177,210 @@
         <source>Go to the first page</source>
         <translation>Ddu ɣer usebter amezwaru</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>Wiyaḍ</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>7 n wussan ineggura</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>Azilal udmawan</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>Akk awalen</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>Yal awal</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>Tafyirt tusdidt</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>Assaɣ</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>Isem A–Z</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>Isem Z–A</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>Yettwabeddel, amaynut d amezwaru</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>Yettwabeddel, aqbur d amezwaru</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>Yettwasuffeɣ, amaynut d amezwaru</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>Yettwasuffeɣ, aqbur d amezwaru</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Yettwabeddel</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>Imsizdegen</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>Sken imsizdegen</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>Ffer imsizdegen</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Ales asbadu</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>Snes</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>Awalen</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>Anaw n ugbur</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>Sken ugar (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>Fren yiwen n wanaw n ugbur akken ad tnadiḍ deg yiwet seg teɣbula-ines.</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Tigezmi</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Seg</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Ɣer</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>Azemz n tazwara mačči d azemz ameɣtu.</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>Azemz n taggara mačči d azemz ameɣtu.</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Bab</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>Asulay n useqdac, isem n tuqqna neɣ tansa n imayl.</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>Ulac aseqdac i yettwafen i «%input».</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Tutlayt</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>Yal tutlayt</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Adeg</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>%count n yidgan</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>Igmaḍ s usebter</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>Igmaḍ i «%text» (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>Igmaḍ (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>Smizzwer s</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>Asmizzwer</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>Imsizdegen urmiden</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>Ssuffeɣ amsizdeg-a</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>Neɣ fren imsizdegen, snes-iten akken ad d-tbedreḍ agbur yemṣadan yid-sen.</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>Imsizdegen ssenqasen anadi mi ara tettaruḍ awalen.</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>Ulac igmaḍ i yettwafen i «%text».</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>Ulac igmaḍ i yettwafen.</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>Kkes yiwen n umsizdeg nnig.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Tisuqilin</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Tigawin</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>Ẓreg %name</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Ẓreg</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -7514,6 +7730,10 @@
         <source>Setup &gt; Cronjobs</source>
         <translation>Asbadu &gt; Imahilen cron</translation>
     </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>Ulac aḥric n umahil cron i iteddun yakan: tabdart n yimahilen, ikteren, ilɣa d umatar n unadi ttrajun. Selkem php bin/php/installcrontab.php --add --apply, neɣ rnu izirigen n --show ɣer crontab.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/dashboard/drafts</name>
@@ -8058,8 +8278,8 @@
         <translation>Alɣuyen n yizerfan n umeskar n yimeskar imezwura d useɣẓan n yiwwiten wiḍan i yettwabdan akked Exponential ttwaḥerzen deg yifuyla n uɣbalu akked ufaylu LICENSE, akken i d-yessuter turagt.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>Tabdart-a tesɛa imttekkiyen n Exponential i yefkan tagnit i umahil-nsen i 7x s tewtilin n Contributor Licensing Agreement n eZ Systems. Akken i yettwasirag s usentem-a, 7x ittbeddu yal tikci s yiwet n turagt am ufaylu i deg tella tikci. Tabdart-a tbeqqeḍ yal amttekki, talɣut n unermes (ma yella) akked yifuyla i yettekki deg-sen.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>Imttekkiyen yettwasnemmren ɣef uxeddim-nsen deg Exponential d useɣẓan i d-yekkan seg-s, d yifuyla ɣer wacu ttekkan. Wa d asnemmer, mačči d alɣu n copyright: attekki ɣer Exponential ttunefken i Exponential Foundation d 7x s Contributor Licensing Agreement.</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13881,32 +14101,20 @@ Azen: ikemmusen ur ttwakksen ara asebded-nsen.</translation>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%evaluate_link"&gt;Sekyed Exponential Enterprise Edition&lt;/a&gt; - &lt;a href="%share_link"&gt;Uɣal d aɛeggal n tmetti Exponential, seddukkel u semyizwer&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; d wiyaḍ.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class="edition-info"&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>Iteddu s &lt;span class="edition-info"&gt;%edition&lt;/span&gt;. I wugar n talɣut wali &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; d wiyaḍ.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> I wugar n talɣut wali &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
     </message>
     <message>
-        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; d wiyaḍ.</translation>
+        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href="%evaluate_link"&gt;Sekyed Exponential (seg 7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;Uɣal d aɛeggal n tmetti Exponential, awi-d tallalt u semyizwer&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; d wiyaḍ.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13915,6 +14123,61 @@ Azen: ikemmusen ur ttwakksen ara asebded-nsen.</translation>
     <message>
         <source>Help center</source>
         <translation>Tarakalt n tallalt</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>Agbur</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>Isebtar n isemliyen</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>Iseqdacen</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>Ismilen n ugbur</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>Tadbelt</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>Asebter %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>Wali akk igmaḍ</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>%count n yigmaḍ</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>Yiwen n ugmuḍ</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>%count n yisumar</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>Ulac isumar</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>Isumar ur d-ttwasalyen ara.</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>Isumar</translation>
     </message>
 </context>
 <context>
@@ -14383,6 +14646,14 @@ Azen: ikemmusen ur ttwakksen ara asebded-nsen.</translation>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>Asebded-a d aɣus azayez: yal yiwen yezmer ad yessen awal uffir n unedbal-is, u awalen uffiren n inedbalen ur zmiren ara ad ttwabeddlen neɣ ad ttwaṭṭfen. Ur ttaru ula d acemma uslig dagi.</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Ibenkan-ik</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Armud n tɣellist</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14672,6 +14943,14 @@ Azen: ikemmusen ur ttwakksen ara asebded-nsen.</translation>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>Imniren, anadi d wamek ara tselɣuḍ tuccḍa.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Agbur amaynut</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Agbur amaynut, ayen yettwaṭṭfen i weselken, d tigawin ɣef tefrant.</translation>
     </message>
 </context>
 <context>
@@ -15130,6 +15409,46 @@ Azen: ikemmusen ur ttwakksen ara asebded-nsen.</translation>
         <source>Synchronisations</source>
         <translation>Timsemlilt</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>GraphQL API: ixef-is n tuqqna, askema d wadeg n wurar i usekyed n tsuturin.</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Inuzuten</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Ibeddilen n usebded yettwaḥerzen d ifuyla: addad-nsen, isedduyen, aseddu d tuɣalin ɣer deffir.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Agbur amaynut</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Agbur amaynut, ayen yettwaṭṭfen i weselken, d tigawin ɣef tefrant.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Siẓreg anɣel armid n usmel ɣer GitHub Pages neɣ ɣer yal asneftaɣ git.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Asiẓreg armid</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Anawen n yisefka</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Yal anaw n yisefka n uẓar d yisiɣzaf, d wamek i t-seqdacen yismilen d ugbur.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15294,6 +15613,22 @@ Azen: ikemmusen ur ttwakksen ara asebded-nsen.</translation>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>Imiḍanen ur yesseqdac yiwen neɣ yesran ad ttwaẓren; sens-iten, kkes-iten seg usekkur neɣ sifeḍ-iten.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Aɣmis n usenqed n yiseqdacen</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>Anwa i ibeddlen, i ikecmen neɣ i yettwagin, i yal amiḍan; imsizdeg d usifeḍ.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Aneqqis n unekcum</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>Wid yekcmen, inekcumen d wuguren i yal ass; ssufeɣ aseqdac seg yal amkan.</translation>
     </message>
 </context>
 <context>
@@ -22110,6 +22445,22 @@ Azen: ikemmusen ur ttwakksen ara asebded-nsen.</translation>
         <source>%n hours ago</source>
         <translation>send %n n yisragen</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>Tiririyin n tsuturin yettwaḥerzen n GraphQL API, d tiẓunin n ugbur n uskema-ines.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>Siẓreg anɣel armid ɣer GitHub Pages neɣ ɣer yal asneftaɣ git</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Asiẓreg armid</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>Tazarkatut tarmidt tettak-d isebtar seg uqeddac-a. Akken ad tesiẓregeḍ anɣel armid n usmel deg wadeg-nniḍen, deg GitHub Pages neɣ deg yal asneftaɣ git, seqdec asiẓreg armid.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25651,6 +26002,10 @@ Azen: ikemmusen ur ttwakksen ara asebded-nsen.</translation>
     <message>
         <source>last purge</source>
         <translation>asfaḍ aneggaru</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>Tira ur zmirent ara ad ṭṭfent asekkeṛ n waddad (taneggarut %date): yal yiwet terra akk igmaḍ yettwaḥerzen d iqburen. %file ilaq ad yili yettwaru i yal aseqdac s wacu iteddu usmel; ɣef NFS yesra NFSv4 neɣ lockd.</translation>
     </message>
 </context>
 <context>
@@ -33599,6 +33954,14 @@ Azen: ikemmusen ur ttwakksen ara asebded-nsen.</translation>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>Tiɣimiwin yemmden n umsefrak PHP ttwakksent s PHP ɣef yiman-is (session.gc_maxlifetime), mačči s usebter-a neɣ s uḥric session_gc n umahil cron.</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>Aneqqis n unekcum yesskanay tiɣimiyin yekcmen n yal aseqdac, yerna yessuffuɣ-itent; iteddu d yal amsefrak n tɣimiyin.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>Ldi aneqqis n unekcum</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37923,6 +38286,26 @@ amiḍan-ik.</translation>
     <message>
         <source>None yet</source>
         <translation>Ulac akka tura</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Armud n tɣellist</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>Inekcumen-ik ineggura, iɛaṛḍen ur neddi ara d yibeddilen n wawal-ik uffir, n tansa-k imayl d unekcum s snat n tikkal.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>Inekcumen ineggura, iɛaṛḍen ur neddi ara d yibeddilen n tɣellist n umiḍan-a.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>Senqed armud</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>Inekcumen ur neddi ara: %count</translation>
     </message>
 </context>
 <context>
@@ -44089,6 +44472,42 @@ Ma tebɣiḍ ad tazneḍ iwenniten i umqebbel neɣ ad twaliḍ liḥala seqdec U
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>Ticki yekcem, aseqdac ilaq ad yfren awal uffir amaynut uqbel ad yexdem kra-nniḍen. Seqdec-it mi ara teǧǧeḍ i yiwen awal uffir askudan.</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>Fren tugna yellan yakan</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>Afaylu n tugna n taɣawsa i tferneḍ ad yettwanɣel ɣer wurti-a. Taɣawsa-nniḍen ur tettbeddil ara.</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>Tugna n "%name" tettwanɣel ɣer wurti-a.</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>Inig ɣef tugna</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>Nadi tugniwin s yisem</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Nadi</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>Seqdec tugna n "%name"</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>Seqdec tugna-a</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>Ulac tugna yemṣadan d unadi-inek.</translation>
     </message>
 </context>
 <context>
@@ -51013,6 +51432,10 @@ Wali asebter n yimeḥtaǧen i wugar n telɣut.</translation>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>Crontab ur yettwaru ara (%reason). Rnu izirigen-agi ɣer crontab n useqdac i yeddukkel asmel, ma ulac abrid n uṛaǧu, d unekter, d alɣuyen akked tneggarut n unadi ur ttedun ara:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>Asebded tikkelt nniḍen yettwaxdam s Kickstarter (%file, syin php bin/php/kickstarter.php run --apply) neɣ s usebded amaynut.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54892,6 +55315,10 @@ amiḍan-ik.</translation>
         <source>eZJSCore Public Packer cache</source>
         <translation>Tazarkatut n ukemmus eZJSCore azayez</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>Tuffirt n GraphQL (tiririyin d tiẓunin n uskema)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54978,6 +55405,14 @@ amiḍan-ik.</translation>
     <message>
         <source>Copy of %class_name</source>
         <translation>Anɣal n %class_name</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Anawen n yisefka</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>Anaw n yisefka %string</translation>
     </message>
 </context>
 <context>
@@ -55804,6 +56239,26 @@ amiḍan-ik.</translation>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>Tugna SVG ur tezmir ara ad tettwaɣer, neɣ ulac deg-s ayen yezmer ad yettwaskan s tɣellist.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>Tugna ur tezmir ara ad tettwanɣel. Ma ulac aɣilif, ɛreḍ tikkelt-nniḍen neɣ nermes anedbal n usmel.</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>Taɣawsa yettwafernen ulac-itt neɣ ur k-yettwasireg ara ad tt-teɣreḍ.</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>Taɣawsa yettwafernen ulac ɣur-s tugna.</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>Afaylu n tugna n taɣawsa yettwafernen ur yezmir ara ad yettwaɣer.</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>Tugna n taɣawsa yettwafernen tugar ayen i yettaǧǧa wurti-a: %1 n yibiten.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56334,6 +56789,42 @@ amiḍan-ik.</translation>
         <source>The bookmark was renamed to "%name".</source>
         <translation>Tacreḍt tettwasnifel isem-is ɣer "%name".</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>Asebter-a yensa deg unekcum-a ɣer usmel (%siteaccess). Ldi tacreḍt deg unekcum ɣer usmel i yesɛan asebter-a.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>Amudil n usebter-a ur yettwasebded ara neɣ ur yettwarmed ara da.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>Asebter-a ulac-it ugar: amudil-is ur yesɛi ara timeẓri am tagi.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>Ula d yiwet seg temlilin-ik ur ak-tettaǧǧa ad teldiḍ asebter-a.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>Ur tezmireḍ ara ad tesqedceḍ anekcum-a ɣer usmel.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>Ur tezmireḍ ara ad teɣreḍ agbur i d-yesskan usebter-a.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>Anaw-a n usebter ur yettwacreḍ ara: yettmahal kan ɣef tferkit, neɣ d asebter n yiwet n tallit kan.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>Tansa n usebter-a ulac-itt.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>Asebter-a ur yettwaldi ara tura.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56805,6 +57296,10 @@ Yessefk ad tbeddleḍ asmil n tkerrist s useqdec n tawuri n ubeddel.</translatio
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>Asurf n yimaylen yugi %count n yiznan deg usedu aneggaru. Senqed aqeddac n yimaylen d site.ini MailSettings.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>%count n tedyanin ttrajunt yerna ulac aselkem n umahil cron n yilɣa i yettwajerden. Rnu aḥric n umahil cron «frequent» ɣer crontab, neɣ selkem exp:notification:run --apply.</translation>
     </message>
 </context>
 <context>
@@ -63061,6 +63556,10 @@ Yessefk ad tbeddleḍ asmil n tkerrist s useqdec n tawuri n ubeddel.</translatio
         <source>Choose another site or section with the node picker</source>
         <translation>Fren asmel neɣ tigezmi-nniḍen s ufran n tikerrisin</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>D anedbal n unagraw kan i izemren ad ibeddel bab-is: selkem ./console exp:content-check --fix-permissions --apply am root.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64594,6 +65093,10 @@ Yessefk ad tbeddleḍ asmil n tkerrist s useqdec n tawuri n ubeddel.</translatio
     <message>
         <source>empty</source>
         <translation>d ilem</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>Tasarut n uzmul tɛedda aseggas: beddel-itt s exp:audit key rotate --apply.</translation>
     </message>
 </context>
 <context>
@@ -68424,6 +68927,486 @@ Yessefk ad tbeddleḍ asmil n tkerrist s useqdec n tawuri n ubeddel.</translatio
         <source>Share of page time</source>
         <translation>Aḥric n wakud n usebter</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>yettwasuter usebded ummid</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>asebter ulac-it deg tazarkatut n yisebtar (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>tazarkatut n yisebtar ur d-terri ara</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>Yettwasebded</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>Yettwasebded s uẓar: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>Yettwasuffeɣ-d seg tazarkatut n yisebtar deg %ms ms. Asebter yettwaḥrez deg %stored s usebded n %render ms, send %age s.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>Sebded tura</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>Uɣal ɣer timeẓri seg tazarkatut</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>Seg usebded n %stored (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>Tuttra-a: tettwasuffeɣ-d seg tazarkatut n yisebtar deg %ms ms.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Aseqdac</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>ID n useqdac</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>Amaɣnu n tkatut tuffirt</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>Askan-a</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>Tazarkatut n timeẓri</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>i yal aseqdac (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>Amaɣnu n tkatut tuffirt n useqdac: iseqdacen s yiwen n umaɣnu ttbeṭṭun ifuyla n tkatut tuffirt n yiskanen</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ih</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ala</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Isem n useqdac</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>Yeqqen</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>Tiɣimit</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>Iḥricen n tsarut n tkatut tuffirt n yiskanen n ugbur i icudden ɣer useqdac, akken i ten-tettaṭṭaf tsarut, ddaw ViewCacheTweaks n usebter-a. Iseqdacen s yiwen n umaɣnu ttbeṭṭun ifuyla n tkatut tuffirt n yiskanen, ala ma mgaraden yiḥricen n uskan s yiman-is (ismenyifen, tisura n yimesfladen): wigi sɛan amaɣnu-nsen, i usebter-a kan.</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>Amaɣnu</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>Askan-a (tikli %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: yal aseqdac yeqqnen ɣur-s ifuyla-s n tkatut tuffirt.</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>ViewCacheTweaks yettwasnasen: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>Aḥric</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>Azal</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>Ulac aḥric icudden ɣer useqdac (ViewCacheTweaks).</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>askan-a</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>Nɣel d aḍris</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>Timlilin</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>Ulac asegzi n yidwiren i yettwaɣran.</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>Asulay n udwir</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Tamlilt</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>Talast</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>Yettunefk i</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>aseqdac</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>agraw %name (taɣawsa %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>Yettwanɣel</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>Ur yezmir ara ad yettwanɣel.</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>yeǧǧa-t umesflid</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>Imdanen udrigen</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>am winna-k</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>yemgarad</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>Amaɣnu i d-ttawin yinebgawen udrigen ddaw yiwen ViewCacheTweaks, s yismenyifen imezwar, war iḥricen n uskan: amesflid i yeqqaren tiɣimit ur yezmir ara ad ten-id-yefk.</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>Ismenyifen</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>Ulac askar n uskan icudden ɣer yismenyifen n useqdac (site.ini [ContentSettings] CachedViewPreferences).</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>Ismenyifen ɣef ttekkalen yiskanen n yiskaren-a n uskan (CachedViewPreferences), s wazal n useqdac neɣ amezwer. Llan deg umaɣnu am userpreferences, wid n yal askar n uskan akk.</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>Askar n tmeẓri</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>Asmenyif</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>Amezwer</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>Tisertiyin</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>Sken tisertiyin n yidwiren (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>Tisertiyin ttwasalayent-d seg uqeddac mi ara yeldi uḥric-a, yiwen usebter yal tikkelt, yezmer ad ttwasizdgent s umuddu d twuri.</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>Tawuri</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>Imudilen akk</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>Akk tiwuriwin</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>Tilisin</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>Sken ugar</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>Idwiren-a ulac ɣur-sen tisertiyin.</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>Ulac tasertit yemsasan d imsizdeg.</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%shown seg %matching tisertiyin (%total s umata)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>Yettuɣal-d mi ara yettwaldi.</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>module/function, tamlilt, talast</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>Nadi deg tsertiyin</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>Sali-d ugar</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>Amudil/tawuri</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>Akk timlilin (%count n tsertiyin)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>Ulac tasertit i yemṣadan.</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%shown seg %matched n tsertiyin</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>Ulac tiririt</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>yettwaffer</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>Sken isegza</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>Ffer isegza</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Ldi</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>Ldi akk</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>Mdel akk</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>Tasarut neɣ azal</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>Nadi deg tɣimit</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Anaw</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>%count nniḍen</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>deg telqey meqqer aṭas i uskan</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>yettwagzem, %count n yisekkilen akk</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Yebda</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>Isem n unagi</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>Asulay n tɣimit</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>Amsefrak</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>Abrid n usekles</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>Amezwer n PHP</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>Tudert (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>Anagi</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>tudert %s s</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>Tiɣimit-ik·im n PHP s timmad-is, akken tella mi yettwaldi uḥric, maci tin n wayeḍ akk. Azalen n tsura i yemcabin ɣer tbaḍniwin (ijetunen, hash, awalen uffiren) ttwaffren (debugbar.ini SessionMask[]); ayen nniḍen akk yettwaskan akken yettwasekles, ula d isefka udmawanen.</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>%count n tsura, %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>meqqret</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>Tiɣimit d tilemt.</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>Ulac tiɣimit i yebdan i tuttra-a.</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Asiɣzef %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>Aẓar d wiyaḍ</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>Mačči akk inekcamen i d-yettwaskanen: tiɣimit tesɛa ugar n wayen yezmren ad yettwabder dagi.</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>%count n tsura ur ttwabedrent ara.</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>Agrir</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>Azalen i yemcabin ɣer ujetun (JSON Web Token, inezmaz n uqerru Authorization, tasarut tusligt, aḍris aɣezfan n hex neɣ agacuran) ula d nutni ttwaffren, ur yeɛni d acu i d isem n tsarut-nsen (debugbar.ini SessionValueMask[]).</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>Tasarut temcabi ɣer tbaḍnit (debugbar.ini SessionMask[]).</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>Azal yemcabi ɣer ujetun.</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>Ddaw n tsarut yettwaffren.</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>Tiɣimit d aḍris, tettwaffer am wfelwi.</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>Tiɣimit tugar %size (debugbar.ini SessionWarnBytes): yal tuttra n useqdac-a teqqar tiɣimit akk, tettaru-tt mi ara tbeddel.</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP yesekles tiɣimit-a deg yifuyla yerna isekkeṛ afaylu deg tuttra akk: tuttriwin n yiwen useqdac (aṭas n yiccaren, isawalen AJAX) ttraǧunt tiyyaḍ.</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>Eǧǧ-it yeldi</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>Tugar %size (debugbar.ini SessionWarnBytes): yal tuttra n useqdac-a teqqar tiɣimit akk.</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%hits seg %count ttwaɣran seg tazarkatut</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>Ulac tamudemt i yettwasekren (askan yettwaɣren seg tazarkatut n yiskanen ur yesseker ula yiwet).</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>Isumar n tlemmas</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>Timlilin d tsertiyin</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>yemgarad ɣef yinebgawen udrigen</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>am yinebgawen udrigen</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70304,6 +71287,14 @@ Yessefk ad tbeddleḍ asmil n tkerrist s useqdec n tawuri n ubeddel.</translatio
     <message>
         <source>not sent</source>
         <translation>ur yettwazen ara</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Amahil cron n yilɣa yettjerrid dagi yal aselkem-is. Rnu aḥric frequent ɣer crontab, neɣ selkem exp:notification:run --apply.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>Seqdec tadiwent: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -76022,6 +77013,98 @@ Yessefk ad tbeddleḍ asmil n tkerrist s useqdec n tawuri n ubeddel.</translatio
         <source>This topic is not Released; readers do not see it.</source>
         <translation>Asentel-a ur yettwasiẓreg ara; imɣuraen ur t-ttwalin ara.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Inuzuten</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Ibeddilen n usebded yettwaḥerzen d ifuyla: addad-nsen, isedduyen, aseddu d tuɣalin ɣer deffir.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Siẓreg anɣel armid n usmel ɣer GitHub Pages neɣ ɣer yal asneftaɣ git.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Asiẓreg armid</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>Deg usenqed</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>Imɣuraen ttwalin asebter-agi.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>Yeffer ɣef yimɣuraen alamma yiwen yesiẓreg-it.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>Asebter yella tura deg usenqed. Yeffer ɣef yimɣuraen alamma yettwasiẓreg.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>Asebter yettwasiẓreg: imɣuraen ttwalin-t tura.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>Asebter yuɣal d arewway. Yeffer ɣef yimɣuraen alamma yettwasenqed yerna yettwasiẓreg.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>Siẓreg tura</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>D aseqdac kan yesɛan tamlilt %role ur nura ara lqem-agi i izemren ad t-isiẓreg.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>Isental n tallalt yettrajun asiẓreg</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>Yeffer-it ɣef yimɣuraen alamma yettwasiẓreg tikkelt-nniḍen.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>Amsenqed ad t-isenqed sakin. Imɣuraen mazal ur t-ttwalin ara.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>Imɣuraen ttwalin-t din din.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>Yekkes-it seg usenqed i wugar n uxeddim. Imɣuraen ur t-ttwalin ara.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>Ffer asebter-agi ɣef yimɣuraen?</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>Err asebter-agi ɣer warewway?</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>Imɣuraen ur ttwalin ara %title alamma yiwen yesiẓreg-it tikkelt-nniḍen.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title yuɣal ɣer warewway i wugar n uxeddim. Imɣuraen mazal ur t-ttwalin ara, yerna yesra asenqed amaynut send ad yettwasiẓreg.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Sefsex</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>Isental-agi llan deg usenqed. Imɣuraen ad ten-walin mi ara ten-isiẓreg yiwen ur nura ara lqem amiran.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76477,6 +77560,46 @@ Yessefk ad tbeddleḍ asmil n tkerrist s useqdec n tawuri n ubeddel.</translatio
         <source>None.</source>
         <translation>Ulac.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>s usnas n usentem</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>s tengalt s yimayl</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>s tengalt n tririt</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>s tsarut n unekcum</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>s umiḍan n berra</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Armud n tɣellist</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>Yettwaskan am uẓeṭṭa-ines; tansa tettwaḥrez akken qqaren yiɣewwaren n ummesten n yisefka n usmel.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Ur yettwajerred ara</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Adeg</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>s uqarub</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76720,6 +77843,42 @@ Yessefk ad tbeddleḍ asmil n tkerrist s useqdec n tawuri n ubeddel.</translatio
         <source>Manage devices</source>
         <translation>Sefrek ibenkan</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>s usnas n usentem</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>s tengalt s yimayl</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>s tengalt n tririt</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>s tsarut n unekcum</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>s umiḍan n berra</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Armud n tɣellist</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Ur yettwajerred ara</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Adeg</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>s uqarub</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76799,6 +77958,14 @@ Yessefk ad tbeddleḍ asmil n tkerrist s useqdec n tawuri n ubeddel.</translatio
         <source>View the sessions of this user</source>
         <translation>Wali tiɣimiyin n useqdac-a</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>Amiḍan-ik %login deg %site yettwaseqdec tura i unekcum seg yiwen n wadeg ur yekcim ara segs melmi kan:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>Adeg s uqarub</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76837,6 +78004,10 @@ Yessefk ad tbeddleḍ asmil n tkerrist s useqdec n tawuri n ubeddel.</translatio
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%browser ɣef %os</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Aneqqis n unekcum</translation>
     </message>
 </context>
 <context>
@@ -77045,6 +78216,82 @@ Yessefk ad tbeddleḍ asmil n tkerrist s useqdec n tawuri n ubeddel.</translatio
         <source>The passkey could not be checked. Please try again.</source>
         <translation>Tasarut n unekcum ur tezmir ara ad tettwasenqed. Ɛreḍ tikkelt-nniḍen.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>Imiḍanen ikeččmen s tsura n unekcum kan ur zmiren ara ad sseqdecen awal uffir da: fren «Kcem s tsarut n unekcum».</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>Tisura n unekcum n %login</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>Tisura n unekcum s wacu ikeččem umiḍan-a. Ḥbes tin yellan ɣef yibenk yeɣlin neɣ yettwakren: ur tettizmir ara ad tkecmeḍ yid-s. Bab n umiḍan yettarnu tijdidin s yiman-is.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>Amiḍan-ik yesra tasarut n unekcum</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>Rnu tasarut n unekcum ɣer umiḍan-ik</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>Rnu tasarut n unekcum akken ad tkemmleḍ. Syin ad tkecmeḍ yid-s deg wadeg n wawal uffir kan.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>Anekcum s tsarut n unekcum yugar awal uffir deg tɣawla d tɣellist. Rnu yiwet tura, neɣ kemmel war-s.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>Mačči tura</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>Ḥbes tasarut n unekcum «%name»?</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>Ur tettizmir ara ad tekcem ɣer umiḍan-a. Ma d taneggarut, bab n umiḍan ad yekcem s wawal uffir, neɣ ad tesbaduḍ ajdid.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>Ḥbes tasarut n unekcum</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>Ḥbes</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>Amiḍan-a ur yesɛi ara tasarut n unekcum.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>Amsentem</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Arussin</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>Tasarut-ik n unekcum taneggarut: rnu tayeḍ send ad tt-tekkseḍ.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>Amiḍan-a ikeččem s tsura n unekcum kan (tasertit n tsura n unekcum): ma ulac tin d-yeqqimen, ad yekcem i tikkelt-nniḍen s wawal-is uffir.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>Wa d tasarut-ik n unekcum taneggarut, amiḍan-ik ur yezmir ara ad yekcem war-s. Rnu qbel tasarut n unekcum-nniḍen.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>Tasarut n unekcum «%name» tettwaḥbes. Ur tettizmir ara ad tekcem ɣer umiḍan-a.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77144,6 +78391,34 @@ Yessefk ad tbeddleḍ asmil n tkerrist s useqdec n tawuri n ubeddel.</translatio
         <source>Code from your authenticator app</source>
         <translation>Tangalt seg usnas-ik n usenqed</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>Teqrib ad tekkseḍ isefka i lebda neɣ ad tesfeḍ aɣmis.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>Awal-ik uffir d tsarut n unekcum</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>Awal-ik uffir d tengalt seg usnas-ik n usentem</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>Neɣ:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>Iminig-a ur yezmir ara ad yesseqdec tisura n unekcum. Seqdec abrid-nniḍen, neɣ iminig-nniḍen.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>Ma tkemmleḍ, iminig-ik ad ak-d-yessuter yiwet seg tsura-k n unekcum.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>Kemmel s tsarut n unekcum</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77234,6 +78509,70 @@ Yessefk ad tbeddleḍ asmil n tkerrist s useqdec n tawuri n ubeddel.</translatio
     <message>
         <source>Setup</source>
         <translation>Asbadu</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>Abeddel n wawal uffir, n tansa n yimayl, n tsura n unekcum, n unekcum s snat n tikkal, n tengalin n tririt neɣ n tsura n API n yiman-is, d tuffɣa seg yibenkan-nniḍen n yiman-is.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>Timerna d usnifel n iseqdacen, awalen-nsen uffiren d yibenkan-nsen, iɣewwaren n umiḍan, aqbal neɣ agi n yimiḍanen imaynuten n iseqdacen, amudd n timlilin d usnifel n tsertiyin.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>Tukksa n yisefka</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>Asfaḍ n iḍumman, tukksa n yiferdisen seg-sen d tukksa n waṭas n yiferdisen ɣef tikkelt.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>Tukksa, asiẓreg d usekles n ugbur</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>Tukksa n ugbur (ɣer iḍumman daɣen), asiẓreg d usekles n urewway; yettwasteqsa mi ara tettwazen tferkit. Yensa s wudem amezwer.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>Send tigawt tamḥulfut, aseqdac ikecmen ad isentem tikkelt-nniḍen anwa i d netta: s wawal-is uffir d tsarut n unekcum, neɣ war tasarut n unekcum s wawal-is uffir d tengalt n usnas-is n usentem. Ala isebtar web i yesteqsayen: agrudem REST, SOAP, WebDAV, anekcum expservices d yizirig n tiludna ur steqsayen ara akk.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>Anida i ttwasnasen yiɣewwaren</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>Iɣewwaren i</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Yal anekcum ɣer usmel</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>Anekcum ɣer usmel %name kan</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Ldi</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>Anwa ara yettwasteqsin: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>Ṛcem igrawen n iseqdacen akken ad steqsiḍ ala iɛeggalen-nsen (imaẓragen, amedya). Ulac ayen yettwaṛecmen: yal aseqdac.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>Yettwasekles deg settings/override/site.ini.append.php, i yal anekcum ɣer usmel. Asekles ad ak-d-yessuter ad tesnetmeḍ belli d keččini.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>Yettwasekles deg settings/siteaccess/%name/site.ini.append.php. Azal deg settings/override yugar-it. Asekles ad ak-d-yessuter ad tesnetmeḍ belli d keččini.</translation>
     </message>
 </context>
 <context>
@@ -77336,6 +78675,6822 @@ Yessefk ad tbeddleḍ asmil n tkerrist s useqdec n tawuri n ubeddel.</translatio
     <message>
         <source>Open the page</source>
         <translation>Ldi asebter</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from ɣer %to seg %count</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>Isem n useqdac neɣ ID n useqdac: amiḍan ɣef i d-tella tedyant neɣ aseqdac i yexdmen tigawt.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Amiḍan</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Tigawt</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>Seld</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>Yal agmuḍ</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Send</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>S ɣur</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Sfeḍ</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Yemmed</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>Tidyanin ttwaḥrazent %days n wussan.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>Tidyanin ttwaḥrazent alamma ttwakksent s ufus.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Tidyanin</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>Yal tigawt</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>Akk tidyanin n umiḍan-a</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>Sifeḍ tabdart s umasal CSV (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Ur yeddukkel ara</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Seg</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>Ssenqes tabdart</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>Ulac tadyant i yemṣadan.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>I yal asebter</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>Asekles yensa deg audit.ini ([UserAuditSettings] UserAudit); tabdart tesken ayen yettwaskelsen yakan.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Yettwagi</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Agmuḍ</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Sken</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>Tafelwit n uɣmis n usenqed n yiseqdacen ulac-itt. Snulfu-tt s php update/common/scripts/6.0/createuseraudittable.php; alamma d imir, ifuyla n usenqed ḥerzen yal tadyant.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>Asebter-a yesra taffa n yisefka SQL; ur yelli ara deg MongoDB. Ifuyla n usenqed ḥerzen yal tadyant.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Ɣer</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Aɣmis n usenqed n yiseqdacen</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Aseqdac</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Melmi</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Anida</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>Anwa i ibeddlen, i d-yesnulfan, i yermden, i yesnesen, i yesmuttin neɣ i yekksen amiḍan, anwa i ikecmen neɣ i yettwagin, akked timlilin i yettunefken: yiwen n yizirig i yal tadyant, s wurtiyen uqbel d seld. Awalen uffiren d yisefka uffiren ur ttwaskelsen ara akk.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>agraw</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>anagraw</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>arussin</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>Ḥrez amiḍan-ik</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>Tangalt n tririt tettwaseqdec i unekcum ɣer umiḍan-ik %login deg %site.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>Tangalt n tririt tettwaseqdec</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Amiḍan</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>Tansa s uqarub</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>Suter awal uffir amaynut akken ad tkecmeḍ tikkelt nniḍen, neɣ nermes inedbalen n usmel.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>Suter awal uffir amaynut</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>Yal tangalt n tririt tteddu yiwet n tikkelt. Ma tesruḥeḍ tiliɣri-k, sbadu tikkelt nniḍen asnas-ik n usentem, yerna ḥrez tingalin timaynutin n tririt deg wadeg yettwaḥerzen.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>Iɛaṛḍen n unekcum ur neddi ara deg umiḍan-ik</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>Seg tura, anekcum ad isuter tangalt ɣer tama n wawal-ik uffir. Ma d kečč i yexdemen aya, ur tesriḍ ad txedmeḍ kra.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>Ma d kečč yerna tettuḍ awal-ik uffir, suter wayeḍ amaynut. Ma mačči d kečč, fren awal uffir yeǧhed ugar, yerna rmed anekcum s snat n tikkal.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>Ma mačči d kečč i yexdemen aya, yezmer yiwen yessen awal-ik uffir: beddel-it tura yerna senqed anda yekcem umiḍan-ik.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>Tingalin n tririt i d-yeqqimen</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>Senqed ibenkan-ik</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>Alɣu n tɣellist</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>Yiwen yeɛreḍ ad yekcem ɣer umiḍan-ik %login deg %site s wawal uffir ur nelhi ara %count n tikkal yemḍafaren.</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>Tella tedyant n tɣellist deg umiḍan-ik %login deg %site.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>Wagi d alɣu n tɣellist ɣef umiḍan-ik. Yettwazen i yal abeddel am wa, yerna ur yezmir ara ad yettwasens.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Akud</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>Anekcum s snat n tikkal yettwasens i umiḍan-ik %login deg %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>Anekcum s snat n tikkal yettwasens</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>Anekcum s snat n tikkal yettwarmed i umiḍan-ik %login deg %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>Anekcum s snat n tikkal yettwarmed</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>Amiḍan-ik %login deg %site yettwasekker deffir aṭas n yinekcumen ur neddi ara.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>Tura amiḍan-ik yettwaḥrez s wawal-ik uffir kan. Ma mačči d kečč i yexdemen aya, rmed tikkelt nniḍen anekcum s snat n tikkal mi ara tbeddleḍ awal-ik uffir.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>Amiḍan-ik yettwasekker</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>Tasarut n unekcum tettwarna ɣer umiḍan-ik %login deg %site.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>Win yesɛan tasarut-a n unekcum yezmer ad yekcem ɣer umiḍan-ik war awal-ik uffir. Ma mačči d kečč i tt-yernan, kkes-itt ddaw Tisura n unekcum, tbeddleḍ awal-ik uffir.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>Tasarut n unekcum tettwakkes seg umiḍan-ik %login deg %site.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>Ur tettizmir ara ad tekcem ɣer umiḍan-ik. Ma mačči d kečč i tt-yekksen, senqed tisura-k n unekcum d yibenkan-ik.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>Tasarut n unekcum tettwarna ɣer umiḍan-ik</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>Tasarut n unekcum tettwakkes seg umiḍan-ik</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>Armud n tɣellist</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Armud n tɣellist n %name</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Anekcum</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Aɛraḍ n unekcum ur neddi ara</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Yeffeɣ</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Tiɣimiyin ttwassufɣent</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Anekcum seg yibenk amaynut</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Anekcum seg wadeg amaynut</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Timagit tettwasentem («Sentem belli d keččini»)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Asenqed n timagit ur yeddi ara</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Anekcum s tsarut n unekcum</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Anekcum s tsarut n unekcum ur yeddi ara</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Anekcum yettwagi: tangalt n snat n tikkal ulac-itt neɣ ur telhi ara</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Tangalt n snat n tikkal ur nelhi ara</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Amiḍan yettwasekker deffir yinekcumen ur neddi ara</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Amiḍan yettwakkes-as usekker</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Awal uffir yettwabeddel</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Abeddel n wawal uffir ur yeddi ara</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Awal uffir yettwawennez tikkelt nniḍen</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Awal uffir amaynut yettwasuter</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Tansa imayl tettwabeddel</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Isem n useqdac yettwabeddel</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Anekcum s snat n tikkal yermed</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Anekcum s snat n tikkal yensa</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Tangalt n tririt tettwaseqdec</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Tingalin timaynutin n tririt</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Awal uffir n usnas yettwasnulfa-d</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Awal uffir n usnas yettwaḥbes</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Tasarut n unekcum tettwarna</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Tasarut n unekcum tettwakkes</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Amiḍan yettwarmed</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Amiḍan yettwasens</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Akk</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Inekcumen d tɣimiyin</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Ibeddilen n umiḍan</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Yesra ad yettwaɛass</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>sɣur-k</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>sɣur useqdac</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>sɣur %login</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>Tarrayt</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>Iminig</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>Anagraw</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Ibenk</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>Adeg</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>Tamurt</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Tiɣimiyin</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>Anwa</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>Abrid n tuzna</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Iɛaṛḍen ur neddi ara</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>Tingalin i d-yeqqimen</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>Amsefrak n unekcum</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Armud n tɣellist</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Armud n tɣellist n %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Inekcumen d yibeddilen n tɣellist n umiḍan-ik. Ma twalaḍ kra ur txedmeḍ ara, beddel awal-ik uffir yerna ssufeɣ ibenkan ur tessineḍ ara.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>Inekcumen d yibeddilen n tɣellist n umiḍan-a.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Ibenkan-ik</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Beddel awal uffir</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>Uɣal ɣer umiḍan</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>Armud n tɣellist ur yettwajerred ara</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>Yettwaɣra seg uɣmis n usenqed n yiseqdacen, ideg tafelwit expuser_audit ulac-itt neɣ ur tettwasefrak ara deg taffa-a n yisefka. Selkem php update/common/scripts/6.0/createuseraudittable.php, neɣ aleqqem n taffa n yisefka n 6.0.15.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>%days n wussan ineggura</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Inekcumen deg %days n wussan ineggura</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>Armud aneggaru n tɣellist</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Sken</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>ur yeddi ara</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>yettwagi</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Ulac armud n tɣellist i yettwajerden yakan.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>Tidyanin n tɣellist ttwaḥerzent %days n wussan.</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>Tidyanin n tɣellist ttwaḥerzent alamma yekkes-itent unedbal.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Sider isefka-inu n unekcum</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Tiɣimiyin-ik d tedyanin-ik n tɣellist am ufaylu JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Tiɣimiyin ur ttwaseklasent ara deg usmel-a, ihi ulac ibenk-nniḍen i yezmren ad yettwasufeɣ. Beddel awal-ik uffir tura.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count tɣimiyin-nniḍen ttwasufɣent. Tura beddel awal-ik uffir.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Ulac ibenk-nniḍen i yeqqnen. Tura beddel awal-ik uffir.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Tanemmirt. Tadyant tettwacreḍ d tin-ik.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Tadyant-nni ur tesri ara tiririt.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Asebter yezri wakud-is. Ulac ayen yettwabeddlen; ma ulac aɣilif, ɛreḍ tikkelt nniḍen.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Ḥrez amiḍan-ik</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Ma yella kra dagi mačči d kečč, ssufeɣ akk ibenkan-nniḍen, sakin fren awal uffir amaynut. Ibenkan yeqqimen qqnen s Cfu fell-i ad ttwasufɣen daɣen.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Yal ibenk ala wa ad yettwasufeɣ di tuttra-ines i d-iteddun. Sakin ad tferneḍ awal uffir amaynut.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Ih, ssufeɣ ibenkan-nniḍen</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>D kečč aya?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Ih, d nekk</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Ala, ḥrez amiḍan-iw</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Anekcum</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Aɛraḍ n unekcum ur neddi ara</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Yeffeɣ</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Tiɣimiyin ttwassufɣent</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Anekcum seg yibenk amaynut</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Anekcum seg wadeg amaynut</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Timagit tettwasentem («Sentem belli d keččini»)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Asenqed n timagit ur yeddi ara</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Anekcum s tsarut n unekcum</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Anekcum s tsarut n unekcum ur yeddi ara</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Anekcum yettwagi: tangalt n snat n tikkal ulac-itt neɣ ur telhi ara</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Tangalt n snat n tikkal ur nelhi ara</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Amiḍan yettwasekker deffir yinekcumen ur neddi ara</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Amiḍan yettwakkes-as usekker</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Awal uffir yettwabeddel</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Abeddel n wawal uffir ur yeddi ara</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Awal uffir yettwawennez tikkelt nniḍen</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Awal uffir amaynut yettwasuter</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Tansa imayl tettwabeddel</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Isem n useqdac yettwabeddel</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Anekcum s snat n tikkal yermed</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Anekcum s snat n tikkal yensa</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Tangalt n tririt tettwaseqdec</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Tingalin timaynutin n tririt</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Awal uffir n usnas yettwasnulfa-d</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Awal uffir n usnas yettwaḥbes</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Tasarut n unekcum tettwarna</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Tasarut n unekcum tettwakkes</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Amiḍan yettwarmed</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Amiḍan yettwasens</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Akk</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Inekcumen d tɣimiyin</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Ibeddilen n umiḍan</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Yesra ad yettwaɛass</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Armud n tɣellist</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Armud n tɣellist n %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Inekcumen d yibeddilen n tɣellist n umiḍan-ik. Ma twalaḍ kra ur txedmeḍ ara, beddel awal-ik uffir yerna ssufeɣ ibenkan ur tessineḍ ara.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Ibenkan-ik</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Beddel awal uffir</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>Armud n tɣellist ur yettwajerred ara yakan deg usmel-a.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Inekcumen deg %days n wussan ineggura</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Iɛaṛḍen ur neddi ara</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Ulac armud n tɣellist i yettwajerden yakan.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Sider isefka-inu n unekcum</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Tiɣimiyin-ik d tedyanin-ik n tɣellist am ufaylu JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Tiɣimiyin ur ttwaseklasent ara deg usmel-a, ihi ulac ibenk-nniḍen i yezmren ad yettwasufeɣ. Beddel awal-ik uffir tura.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count tɣimiyin-nniḍen ttwasufɣent. Tura beddel awal-ik uffir.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Ulac ibenk-nniḍen i yeqqnen. Tura beddel awal-ik uffir.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Tanemmirt. Tadyant tettwacreḍ d tin-ik.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Tadyant-nni ur tesri ara tiririt.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Asebter yezri wakud-is. Ulac ayen yettwabeddlen; ma ulac aɣilif, ɛreḍ tikkelt nniḍen.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Ḥrez amiḍan-ik</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Ma yella kra dagi mačči d kečč, ssufeɣ akk ibenkan-nniḍen, sakin fren awal uffir amaynut. Ibenkan yeqqimen qqnen s Cfu fell-i ad ttwasufɣen daɣen.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Yal ibenk ala wa ad yettwasufeɣ di tuttra-ines i d-iteddun. Sakin ad tferneḍ awal uffir amaynut.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Ih, ssufeɣ ibenkan-nniḍen</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>D kečč aya?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Ih, d nekk</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Ala, ḥrez amiḍan-iw</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>Awal uffir</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>Awal uffir d tengalt n snat n tikkal</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>Agrudem REST</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>Agrudem SOAP</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>Anekcum asuf (single sign-on)</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>Yekcem uqbel ad ttwajerdent tɣimiyin</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Aneqqis n unekcum</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>Wid yekcmen ɣer usmel, acḥal n tikkal i kecmen yimiḍanen d wacḥal i ten-iɣelben, d usuffeɣ n useqdac seg yal amkan. Iteddu d yal amsefrak n tɣimiyin.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>Tiɣimit tettwassufeɣ. Ibenk ilaq ad yekcem tikkelt nniḍen.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>%login yettwassufeɣ seg %count n tɣimiyin.</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>%login ur yesɛi ara tiɣimit iteddun.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>Ulac amiḍan ɣur-s asulay-a, isem-a n useqdac neɣ tansa-a imayl.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>Tagi d tiɣimit i tseqdaceḍ. Akken ad tt-tfakkeḍ, ffeɣ.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>Tiɣimit-nni tfuk yakan.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Asebter yezri wakud-is. Ulac ayen yettwabeddlen; ma ulac aɣilif, ɛreḍ tikkelt nniḍen.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>Tiɣimiyin ur ttwajerdent ara deg usmel-a (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>Tafelwit expuser_session ulac-itt</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>Tiɣimiyin ad ttwajerdent mi ara tettwasnulfu: php update/common/scripts/6.0/createusersessiontable.php, neɣ aleqqem n taffa n yisefka n 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>Tura d wass-a</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>Tiɣimiyin iteddun</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>Iseqdacen yekcmen</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>Inekcumen n wass-a</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>Iɛaṛḍen ur neddi ara ass-a</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>Ssufeɣ aseqdac seg yal amkan</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>Yal tiɣimit n umiḍan tfukk deg tsuturt-is i d-iteddun, ula d tid i yeḥrez «Cfu fell-i». Seqdec-it ma yella amiḍan yezmer ad yili deg ifassen ur nelhi ara; syin wennez awal-is uffir tikkelt nniḍen.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>Asulay n useqdac, isem n useqdac neɣ tansa imayl</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>Ffeɣ i yal amkan</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>Yekcem tura</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>Ttwaskanent %limit i yettwasqedcen taggara.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Aseqdac</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Ibenk</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Tansa</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>Anekcum</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>Armud aneggaru</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Tigawin</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>Ibenk-a</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Ur yettwajerred ara</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>Ffeɣ</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>Ulac tiɣimit yekcmen.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>%days n wussan ineggura</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>Inekcumen d yiɛaṛḍen ur neddi ara ttwaḥesben seg uɣmis n usenqed n yiseqdacen, i ulac; tiɣimiyin timaynutin ttwaḥesbent.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>Ass</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>Inekcumen</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Iɛaṛḍen ur neddi ara</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>Tiɣimiyin timaynutin</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>Amsefrak n tɣimiyin: %handler. Tiɣimiyin ttwaɣrant seg tfelwit expuser_session, ihi aneqqis iteddu d yal amsefrak.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>Armud yettwagin deg %hours n yisragen ineggura</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>Aẓeṭṭa yiwen ur yessaweḍ ara ad yeqqen ɣer %accounts imiḍanen (%count iɛaṛḍen)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Amiḍan yettwasekker deffir tuqqniwin ur neddi ara</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>%count tuqqniwin ur neddi ara ɣef yiwen umiḍan</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>Yeqqen seg %count tmura deg yiwen wakud</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Armud n tɣellist</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Tiɣimiyin</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>Tuqqniwin ur neddi ara ttwaɣrent seg uɣmis n usenqed n yiseqdacen, ur nelli ara dagi.</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>Ulac ayen yettwagin: ulac amiḍan s tuqqniwin ur neddi ara yettuɣalen, ulac aẓeṭṭa yettɛaraḍen aṭas n yimiḍanen, ulac amiḍan yeqqnen seg aṭas n tmura.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>Alɣu n tɣellist i umiḍan-ik</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>Tella tedyant n tɣellist deg umiḍan-ik %login: %event. Ma mačči d kečč, ḥrez amiḍan-ik deg %url.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Asbadu</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>Suter seg ugbur n usmel-a anagar urtiyen i yeḥwaǧ usebter, deg yiwet n tuttra. Askema yeṭṭafar tiẓunin n ugbur; yal tasuturt tettwaselkam s yizerfan n useqdac i tt-yuznen.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>GraphQL API yensa deg unekcum-a ɣer usmel. Sermed-it deg graphql.ini: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>Tamkarḍit GraphQL (webonyx/graphql-php 15) ur tettwasbeddeḍ ara.</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>Ixef n tuqqna</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>Tamkarḍit</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>Askema</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>%count n tiẓunin n ugbur, askema %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>Tasuturt</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>Imuttiyen (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Sedu</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>Tiririt</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>Aselkem…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>Ur tettwaɣer ara tririt.</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>Tasuturt tettwaselkam s yizerfan-ik, s tɣimit-a ideg tkecmeḍ.</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%count deg %seconds tsn</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>ulac tilisa</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>Telqey</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>Tasemmeskelt</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>Iferdisen i yal tabdart</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (amezwer %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>Tuttriwin i yal aseqdac neɣ tasarut</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>Tuttriwin i yal tansa tarussint</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>Introspection</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>Tisuturin yettwaḥerzen kan</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>Tasuturt tameqrant</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>%bytes n yibiten</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>Asali ameqran</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>Ulac anekcum ɣer usmel %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>Ibeddilen rmed deg %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>Ibeddilen nsan deg %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>GraphQL API yermed deg %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>GraphQL API yensa deg %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>Iɣewwaren ur zmiren ara ad ttwarun: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>Tazarkatut n tririyin tettwasfeḍ: %count n tririyin ttwakksent.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>Ṛcem tanaka ɣer tama n tsuturt akken ad tt-tekkseḍ.</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>Tasuturt ur tezmir ara ad tettwakkes: tasuturt i d-yettunefken deg ukaram n PersistedQueryDirectoryList[] tettwakkas s ufaylu-ines.</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>Tasuturt yettwaḥerzen tettwakkes.</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>Ibeddilen</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>yermed</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>yensa</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Inekcumen ɣer usmel</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>Anda d-ttarran API d yibeddilen-is. Tiqeffalin ttarunt graphql.ini, akken xeddmen ./console exp:graphql:enable d exp:graphql:disable.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Anekcum ɣer usmel</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>GraphQL API</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Abeddel</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Sens</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>Ibeddilen nsan</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>Ibeddilen rmed</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Rmed</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>Tilisa</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>graphql.ini [GraphQLSettings] n unekcum-a ɣer usmel.</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>Tazarkatut n tririyin</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>Tiririyin n tsuturin yettwaḥerzen, ttwaḥerzent ɣef yizerfan n useqdac, fukkunt yal tikkelt ara d-yeffeɣ ugbur.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Addad</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>Tiririyin yettwaḥerzen</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>%count n tririyin, %bytes n yibiten</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>Aḥraz afellay</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds tsn</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>Tagara n tfukka</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>Sfeḍ tazarkatut n tririyin</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>Tisuturin yettwaḥerzen</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>Ttwaḥerzent s ./console exp:graphql:persist, neɣ sɣur imsaɣen (automatic persisted queries); ttwasawalent s yisem neɣ s SHA-256.</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>Ismawen</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Tiddi</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Anda</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Kkes</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>yettunefken</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>yettwaḥerzen</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>Ih, kkes tasuturt-a</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>Ur tella ara akka tura tasuturt yettwaḥerzen.</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>Tisura API</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>Tisura API tudmawanin s tmnaḍt graphql:read (tisuturin) neɣ graphql:write (ibeddilen). Rnu-tent, sefsex-tent deg usebter Anekcum API, neɣ s ./console exp:graphql:keys.</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>Anekcum API</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>Akk tisura</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>Tasarut</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Isem</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Bab</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>Timnaḍin</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>Aseqdec aneggaru</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>urmid</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>yefukk</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>yettwasefsex</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>ulayɣer</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>Ur tella ara akka tura tsarut API s tmnaḍt GraphQL.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>GraphQL API yensa deg unekcum ɣer usmel %siteaccess, i d-yeskanayen asebter-a; tafelwit ddaw-a tesskanay anda d-yettarra.</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>I unekcum ɣer usmel %siteaccess, i d-yeskanayen asebter-a.</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>Webhooks</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>Yal tadyant i d-yessuter yixef n tuqqna (publish, update, trash, delete, move, hide, reveal, mutation) tettwazen-as s uzmul sɣur aḥric n cronjob graphqlwebhooks. ./console exp:graphql:webhooks yettxeddim ayen kif kif d tigezmi-a.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Tidyanin</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>akk</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Yal anekcum ɣer usmel</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>yerreẓ</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>ulac uẓẓay</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>Di ttraju</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count ttwaǧǧan</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>Tuzna taneggarut</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Azen tirmit</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>Ih, kkes webhook-a</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>Ulac akka tura webhook.</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>Rnu webhook</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>Rnu</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>Tuzniwin tineggura</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Akud</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Agmuḍ</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>Imulteɣen</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>Ileqqman srid i yimsaɣen: asuddem n tdyanin deg /api/graphql/subscribe, akked WebSocket (graphql-transport-ws) ɣef Velocity. Yal tadyant tettwazen kan i wid yulteɣen i izemren ad ɣren agbur-is.</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>Yeldin tura</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>Amḍan afellay yeldin</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>%total s umata, %user i yal aseqdac, %address i yal tansa</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>Imulteɣen udrigen</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>Teɣzi n usuddem</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>Ur yezmir ara ad yettwarnu webhook: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>Webhook %name yettwabeddel; aẓẓay-is n uzmul yeqqim.</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>Ur yezmir ara ad yettwasekles uẓẓay n uzmul (Asbadu &gt; Iẓẓayen).</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>Webhook %name yettwarna. Aẓẓay-is n uzmul, yettwasken tikkelt-a kan: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>Ulac webhook %name.</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>Webhook %name ur d-yerri ara: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>Webhook %name yerra-d %status deg %ms ms.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>Ṛcem tanaka ɣer tama n webhook akken ad t-tekkseḍ.</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>Webhook %name yettwakkes.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>GraphQL API yensa deg unekcum-a ɣer usmel.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>Tamkarḍit GraphQL ur tettwasbedd ara.</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>Seqdec GET neɣ POST.</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>Tafekka n tuttra mačči d taɣawsa JSON.</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables mačči d taɣawsa JSON.</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions mačči d taɣawsa JSON.</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>Azen tasuturt s POST.</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>Tuttra ur tesɛi ara tasuturt.</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>Tasuturt teɣzef ugar n %max n yibiten.</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>Tuccḍa tagensant n uqeddac</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node yesra yiwen kan seg id, remoteId, path d urlAlias.</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content yesra yiwen kan seg id d remoteId.</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>Taḥnaccaḍt n after ur d-tekki ara seg API-a.</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>Ulac isem-nniḍen n tugna %alias (image.ini [AliasSettings] AliasList[]).</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>Da ttwaqbalent kan tsuturin yettwaḥerzen: azen id n tsuturt yettwaḥerzen.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>Ahac n tsuturt yettwaḥerzen mačči d SHA-256.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>Ahac n tsuturt yettwaḥerzen ur yemṣada ara d tsuturt.</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>Aṭas n tuttriwin: %limit d afellay deg %window n tasinin. Ɛreḍ tikkelt-nniḍen deg %reset n tasinin.</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>Tasuturt tesɛa %depth n yiswiren n telqayt; %max d afellay i yettwasirgen.</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>Tasuturt tesɛa tuddsa n %complexity; %max d afellay i yettwasirgen.</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>Tuttra-a ur tezmir ara ad teɣṛ askema (introspection).</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search yesra aḍris neɣ imsizdeg (classes, subtree, sections, publishedAfter, publishedBefore).</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument mačči d azemz (ISO 8601, 2026-10-30).</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag yesra yiwen kan seg id, remoteId d path.</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout yesra yiwen kan seg id, identifier d urlAlias.</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>Urti operations n tuttra multipart mačči d yiwet n tuttra JSON.</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>Urti map n tuttra multipart mačči d taɣawsa JSON.</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>Tuttra multipart ur tesɛi ara afaylu %field.</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>Abrid n tkarḍa n wurtiyen ilaq ad yebdu s variables.: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>Afaylu %name ur d-yewweḍ ara ummid (tuccḍa n usali %error).</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>Afaylu %name meqqer ugar n %max n yibiten.</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>Afaylu %name ur yezmir ara ad yettwasenqed.</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>Ibeddilen nsan deg unekcum-a ɣer usmel (graphql.ini [GraphQLSettings] MutationsEnabled).</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>Azen abeddel s POST.</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>Qqen akken ad tbeddleḍ agbur.</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>Tasarut API ur tesɛi ara tamnaḍt %scope.</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>Abeddel s tɣimit yesra ajiṭun n tferkit n tɣimit (aqerru X-CSRF-Token).</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>uploadFromUrl yensa: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] ur d-yebder ara asneftaɣ.</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>Tansa ilaq ad tili d tansa https.</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>Asneftaɣ %host ulac-it deg graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>Afaylu ur yezmir ara ad d-yettwawwi.</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload d anaw n usekcem kan.</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>Amutti n wanaw Upload yeṭṭef afaylu n tuttra multipart.</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>Asulay anmeggag %remoteId yettwaṭṭef yakan.</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>Agbur yesɛa yakan tasuqilt s %language: seqdec updateContent.</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>Efk ma drus yiwen wurti.</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>Lqem amaynut ur yezmir ara ad yettwarnu (agbur yesɛa aṭas n yirewwayen).</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>Lqem %version mačči d arewway.</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent yesra yiwen kan seg id d nodeId.</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>Adeg ur yezmir ara ad yettwasiweḍ ddaw-as.</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>Agbur yesɛa yakan adeg ddaw %parentId.</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>Azal n wurti %field ur yezmir ara ad yettwasekles.</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>Ulac tutlayt n ugbur %language.</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>Ulac asmil n ugbur %class deg uskema.</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>Agbur ulac-it, neɣ ur tzemreḍ ara ad t-teɣreḍ.</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>Ur tzemreḍ ara ad txedmeḍ aya i ugbur-a.</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>Asmil %class ur yesɛi ara urti %field i yezmren ad yettwaru.</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>Urti %field yettunefk snat n tikkal.</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>Urti %field yeṭṭef afaylu: azen-it am usali (tuttra multipart).</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>Urti %field ur yeṭṭef ara afaylu.</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>Urti %field yesra azal.</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>Amasal %format i wurtiyen n uḍris anesbaɣur kan; %field yeṭṭef azal-is akken yella (RAW).</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>Urti %field yettwasra.</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>HTML ur yezmir ara ad yettwaɣer.</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content yeṭṭef version s id kan.</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>Ajiṭun n teskant ur ameɣtu ara neɣ yefukk.</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>Mačči d aɣbalu (https://host neɣ https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>Mačči d tamnaḍt n GraphQL API: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>Azen imulteɣen ɣer /api/graphql/subscribe (asuddem n tdyanin neɣ WebSocket).</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>Asuter ur d-yebder ara tamhelt n warrat.</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>Amulteɣ yessuter yiwen n wurti kan.</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>Aṭas n yimulteɣen i yeldin; ɛreḍ tikkelt-nniḍen ticki.</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>Tesɛiḍ %max n yimulteɣen yeldin, d afellay yettusirgen.</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>Tansa-k tesɛa %max n yimulteɣen yeldin, d afellay yettusirgen.</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>Imulteɣen nsan deg unekcum-a ɣer usmel.</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>Kcem akken ad tmulteɣeḍ (ajiṭun neɣ tasarut API tudmawant).</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>Azen ibeddilen ɣer /api/graphql.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>Inuzuten</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Ur yezmir ara ad yettwaɣer waddad: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Tifelwiyin n yinuzuten ulac-itent akka tura: ./console exp:upgrade --apply ad tent-yesnulfu.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>%count n yinuzuten ur ddukklen ara</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>Asedday iteddu, yebda-t %user</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>Asebded yettwargel: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Yettraǧu</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Ur yeddukkel ara</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>Igujilen</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Asedday aneggaru</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>ulac yakan</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>Akk inuzuten</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>Asedday asugen</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>Asedday n tirmit</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>Inuzuten yettrağun teddun deg tesmekta i yettuɣalen ɣer deffir syin: ulac ayen yettwaḥerzen. Ddaw-a ayen ibeddel yal yiwen deg taffa n yisefka.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>Ayen ara yexdem usedday tura. Ulac ayen ara yettwabeddlen: yal anuzu yettrağun yesskan ibeddilen ara yexdem, u asedday ayen ara yexdem send d deffir.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>Sugen</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Sedu</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>Asedday n tirmit ur yeddukkel ara: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>Asugen yesra PostgreSQL neɣ SQLite, ibeddilen n uɣawas-nsen zemren ad uɣalen ɣer deffir; deg taffa-a n yisefka, aɣawas ddaw-a d ayen ara yexdem usedday.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>Inuzuten</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>Anuzu</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Addad</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>Ayen ara yexdem</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>Asugen: %result deg %ms n tmilisegnatin</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>Ulac anuzu yakan.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>Send d deffir n usedday</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>Tawlaft send</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>tettwaṭṭef, ad d-tettwarr ma yella anuzu ur yeddukkel ara</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>yensa</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>Tawlaft deffir</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>tettwaṭṭef mi yedda usedday akken iwata</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>%total n yinuzuten: %pending yettrağun, %done ifukken, %failed ur neddukkel ara.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>Amazray n yinuzuten</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>Yal asedday s useqdac-is, tallunt-is, tiwlafin-is d wayen yettwasentmen, yettwacerḍen u yettwaznen. Asedday ur nedukkel ara neɣ yeḥbes yezmer ad ikemmel; asedday s tewlaft yettwaṭṭfen send-is yezmer ad yuɣal ɣer deffir.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>Isedduyen ur zmiren ara ad ttwaɣren: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Tifelwiyin n yinuzuten ulac-itent akka tura: ./console exp:upgrade --apply ad tent-yesnulfu.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Sken</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Akk</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>Isedduyen</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Yebda</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Sɣur</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>Tiwlafin</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Akufi</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Tigawin</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>send</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>deffir</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>tuzna: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>Kemmel</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Err ɣer deffir</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>Ulac asedday deg waddad-a.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>Yebda da</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>Isedduyen, ikemmilen d tuɣalin ɣer deffir i yebdan deg yisebtar-a, s ussaɣ n yal yiwen.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Acu</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Agmuḍ</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Tuɣalin ɣer deffir</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>Tuɣalin ɣer deffir n %target</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>Asedday %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Ayen yexdem usedday, asekles-is d uɣmis-is. Asedday yebdan da ad ikemmel deg ugilal ma yettwamdel usebter-a; ldi tikkelt nniḍen asebter akken ad t-teḍfreḍ.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>Kemmel asedday-a</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>Err asedday-a ɣer deffir</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>Asekles ur yezmir ara ad yettwaɣer: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Anecta</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Yebda-t %user ɣef %time.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>Asenqed n tengalt d uṭṭaf n tewlaft send asedday</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>Aseddu n %id (%index seg %total)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>%done seg %total ifukk</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>Inuzuten ddan; tiririt n tewlaft ma yella yiwen ur yeddukkel ara</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>Aṭṭaf n tewlaft deffir usedday, asentem, acraḍ d tuzna</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>Tiririt n tewlaft</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>Asedday yekfa. Asali n ussaɣ-is.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>Anecta ur yezmir ara ad yettwaḍfer. Ales asali n usebter akken ad twaliḍ amek iteddu usedday.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>Asebter-a iḍeffer asedday mi ara iteddu.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Ales asali</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Assaɣ</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Akud</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms n tmilisegnatin</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>Ayen d-yessufeɣ usedday d tuccḍiwin</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Asekles</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>Tallunt</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>ulac</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Yekfa</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Asentem</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Tacreḍt</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Tuzna</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Izen</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>Inuzuten n usedday-a</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>Aɣbalu</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>Aɣmis n usedday</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>D taggara kan n uɣmis i d-yettwaskanen.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>iteddu</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>yekfa war assaɣ</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>yedda</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>ur yeddukkel ara</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>yettwagdel</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>taffa n yisefka ur tettwaweḍ ara</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>tuccḍa tagensant</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>Asedday iteddu</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind yebda-t %user ɣef %time.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>Ḍfer-it</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>Asebded yettwargel</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>Asedday nniḍen yeṭṭef asekker (aleqqem neɣ asedday deg tdiwent): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>yekfa</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>yettraǧu</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>ur yesri ara</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>arussin</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>yuɣal ɣer deffir</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>yettwasnes</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>ad yettwasnes</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>yettwarra</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>ad yettwarr</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>ur yedda ara</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>yettraǧu wayeḍ</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>abeddel yettwaqbel</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>abeddel ad yettwaqbel</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>yettwasugen</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Inuzuten</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Liḥala</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Amazray</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>Err %target ɣer deffir</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>Asedday yettuɣal ɣer tewlaft yettwaṭṭfen send-is, anuzu yiwen s down() ines. Tiririt n tewlaft taqburt i yimazzayen. Yal yiwen iteddu deg ugilal s yisem-ik, deffir n tewlaft n waddad n tura.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>Ayen yezmren ad yettwarr ur yezmir ara ad yettwaɣer: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>Asedday</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>Yiwen unuzu</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>Tawlaft taqburt</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>Aglam</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ih</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ala</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Tawlaft</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Tabzimt</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>Tettwaṭṭef</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Anaw</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>Iḥricen ara d-yettwarren</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>Taffa n yisefka</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>Ifuyla n usekles (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>Iɣewwaren (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>Tiririt n taffa n yisefka tettarra-tt ɣer wakud n tewlaft, ɣas ula d tiɣimiyin: yezmer ad ak-d-yettwasuter ad teqqneḍ tikkelt nniḍen syin. Akk ayen yettwabeddlen seg wakken ad iruḥ; tawlaft n waddad n tura ad tettwaṭṭef deg tazwara.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>Ẓriɣ ayen ara d-yerr waya</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>Aru tikkelt nniḍen asulay n tewlaft</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>Ih, err-it ɣer deffir</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Sefsex</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>Isedduyen s tewlaft yettwaṭṭfen send-sen.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>Fren</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>Ulac asedday s tewlaft yakan.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>Inuzuten yettwasnesen i yezmren ad uɣalen iman-nsen ɣer deffir (sɛan down()).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>Ulac anuzu yettwasnesen yesɛan down().</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>Tiwlafin tiqburin (imazzayen)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>Ulac tawlaft yakan.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>Sedu inuzuten</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>Asedday iteddu deg ugilal am %user, u asebter-is yesskan-it mi ara iteddu. Send anuzu amezwaru, tettwaṭṭef tawlaft n usebded; ma yella anuzu ur yeddukkel ara, asedday ad yeḥbes u tawlaft ad d-tettwarr.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>Asedday n tirmit deg tazwara</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Ur yezmir ara ad yettwaɣer waddad: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>Inuzuten yettrağun</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>Teddun s umizwer-a. Kkes tacreḍt i yiwen akken ad t-teǧǧeḍ, nettat d wid i t-yesran, i usedday i d-iteddun.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>Sedu-t</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>Yessermad askar n tabeddit mi ara iteddu.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>Ttwabeddlen deffir usnes-nsen</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>Ifuyla-a mačči d wid yettwasnesen. Asedday yugi-ten ma yella abeddel ur yettwaqbel ara s tmentilt; ur teddun ara tikkelt nniḍen, tacekkalt tamaynut tettwasekles u tamentilt tettwaḥrez deg uɣmis n usenqed.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>Qbel ibeddilen</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Acimi</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>Azalen imezwura d wid iɣellsen. Yal tankult tettaǧǧa yiwet n tikli.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>War tawlaft</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>Ulac tawlaft send d deffir usedday: tuccḍa ur tezmir ara ad d-tettwarr s wudem awurman.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>War tiririt</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>Deffir tuccḍa, eǧǧ asebded akken i t-teǧǧa tuccḍa.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>Ḥrez ibeddilen ur nettwasentem ara</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>Sedu ɣas ma llan deg yiɣewwaren, isiɣzaf neɣ yifeṣṣalen ibeddilen ur nettwasentem ara; ad kecmen ɣer tewlaft.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>War asentem</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>Ur sentem ara afaylu n waddad d uɣmis n usedday (ula d tacreḍt ula d tuzna).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>War tuzna</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>Sentem u creḍ, maca ur ttazen ara.</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>War tacreḍt</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>Sentem u azen, maca ur creḍ ara asedday.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>Ih, sedu inuzuten-a tura</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Ulac anuzu yettrağun.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>Uɣal ɣer waddad</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>Ibeddilen n usebded-a yettwarun yiwet n tikkelt d ifuyla (agbur, tineɣrufin, timlilin, iɣewwaren, aɣawas) u ttwasnesen ɣef yal asebded n usmel s yiwen n umizwer. Asedday yeṭṭef tawlaft deg tazwara, yerr-itt-id ma yella anuzu ur yeddukkel ara, u yessekles, yesentem u yettazen ayen yexdem.</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>Sedu %count yettrağun</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Tamuɣli tamatut</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Yettraǧu</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Yekfa</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Ur yeddukkel ara</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>Ur yesri ara</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>Taffa n yisefka</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>tismektiwin: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>Inuzuten n usmel llan deg migrations/, wid n usiɣzef deg extension/&lt;name&gt;/migrations/. Teddun s umizwer n yismawen-nsen d wayen sran.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Asedday aneggaru</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>Afaylu yettwabeddel deffir usnes-is.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>Ulac anuzu yakan. ./console exp:migration:generate --skeleton &lt;name&gt; --apply ad yaru amezwaru.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>Isedduyen ineggura</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>Yal asedday</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>Ulac asedday yakan.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>Asugen n usedday yesra tasertit migration/run.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>Asedday iteddu: sugen mi ara yekfu.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Asbadu</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target mačči d asedday, mačči d anuzu, mačči d tawlaft n usebded-a.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>Creḍ «Ih, err-it ɣer deffir» deg tazwara.</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>Tiririt n tewlaft taqburt i yimazzayen: creḍ «Ẓriɣ ayen ara d-yerr waya».</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>Aru tikkelt nniḍen asulay n tewlaft: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>Fren ma drus yiwen n uḥric ara d-yettwarren.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>Asedday-a ulac ɣur-s tawlaft yettwaṭṭfen send-is: err inuzuten-is ɣer deffir yiwen yiwen, neɣ err-d tawlaft taqburt.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>Anuzu-a ur yezmir ara ad yuɣal ɣer deffir iman-is: ur yettwasnes ara, neɣ ulac ɣur-s down().</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Tiferkit ur tezmir ara ad tettwaɣer.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>Fren asedday ara tkemmleḍ.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>Creḍ «Ih, sedu inuzuten-a tura» deg tazwara.</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>Fren ma drus yiwen unuzu.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>Anuzu yettwabeddel deffir usnes-is: qbel abeddel s tmentilt, neɣ err-d afaylu.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>Efk-d tamentilt i wacu ttwaqbalen yinuzuten yettwabeddlen.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>Tamentilt d 500 n yisekkilen ma yugar.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>Asedday yebdan da mazal iteddu (%detail). Rǧu ad yekfu.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>Asedday nniḍen yeṭṭef asekker n usebded: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>Asedday yesra aseqdac yellan u yeqqnen.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Ulac afaylu imsisin n yizirig n tladna n php i yettwafen. Sbadu migration.ini [AdminSettings] PhpCliPath ɣer ubrid-is ummid.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open yensa, ihi asedday ur yezmir ara ad yebdu da. Sedu ./console exp:migration:migrate --apply ɣef uqeddac.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>Akaram n yisedduyen ur yezmir ara ad yettwaru: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>Asedday yebda maca ur d-yenni ara asulay n ukala-s. Senqed %detail.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>Mmel ayen ara yettwarren ɣer deffir.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>Asedday ur yezmir ara ad yebdu.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>Asekles n yibeddilen</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>Mi ara iteddu usekles, ayen ara tbeddleḍ deg tedbelt neɣ deg ufeggag n yidis n usmel yettwaḥraz am tikliwin n tunigin: agbur, ismilen, timlilin d tsertiyin, tigezmiwin, iseqdacen d yigrawen, ismawen-nniḍen n URL, iɣewwaren. Ḥbes-it mi ara tfakkeḍ, wali ayen yeṭṭef, syen snulfu-d tunigin seg-s.</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>Ur ttwaɣran ara yiseklasen: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>Tifelwin n yiseklasen ulac-itent yakan: sedder qbel aleqqem (exp:upgrade --apply).</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>Asekles yensa deg migration.ini ([RecordingSettings] Recording=disabled).</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>Ibeddilen-iw</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>Isekles kan ayen ara tbeddleḍ, anda yebɣu tbeddleḍ-t, alamma tḥebseḍ-t.</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>Asekles</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>seg %time, %count n ubeddel ar tura.</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>Tabzimt (d tafrayant)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>Sken ayen yeṭṭef</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Ḥbes asekles</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>Bdu asekles n yibeddilen-iw</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>Asfaylu i usmel akk</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>Isekles yal abeddel n yal aseqdac d unaṣṣar alamma yettwamdel. Mi ara t-teldiḍ, ad k-ttwasutren ad tesnetmeḍ d kečč.</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Yeldi</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>Mdel asfaylu</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>Ldi asfaylu i usmel akk</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>Iseklasen</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>Amiḍan n useqdac (isem n tuqqna, imayl, awal uffir) d yiɣerba n yimiḍanen n yiseqdacen ur ttwasekelsen ara akk.</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Ibeddilen</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>Asmel akk</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>Ibeddilen n %name</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Yeḥbes</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>Ulac asekles yakan.</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>Asekles %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>Iseklasen akk</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>Tunigin ara d-yefken</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>Ibeddilen yettwasdukklen deg yiwet n tikli i yal taɣawsa yettwabeddlen: ayen ara txeddem tunigin yettwasnulfan seg usekles-a.</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>Tezmer ad tettwasnulfu tunigin seg-s mi ara yesεu usebded-a anawen n tikliwin YAML %types.</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>Yettwaǧǧa s lebɣi: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>Ulac ayen yettwaseklsen.</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>Ayen yeṭṭef</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>%count n ubeddel, s umizzwer i deg ttwagen.</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Abeddel</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>Tikli</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>Ɣef</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>%count nniḍen: ./console exp:migration:record:show ad ten-id-yebder akk.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Ḍeggeṛ</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>Yekkes asekles d wayen yeṭṭef. Ayen yettwabeddlen ad yeqqim yettwabeddel.</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>Ih, ḍeggeṛ asekles-a</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>Asekles iteddu…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Ibeddilen-ik ttwaseklasen i tunigin.</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>Yal abeddel deg usmel-a yettwasekles i tunigin (asfaylu i usmel akk).</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>Asekles n usmel akk yebda: yal abeddel n yal aseqdac yettwasekles alamma tḥebseḍ-t.</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>Asekles yebda: ibeddilen-ik ttwaseklasen alamma tḥebseḍ-t.</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>Asekles yeḥbes. Ayen yeṭṭef ad yeqqim alamma tḍeggṛeḍ-t.</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>Asekles d tedyanin-is ttwakksen.</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>Ulac asekles %id.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>Rcem qbel "Ih, ḍeggeṛ asekles-a".</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>D aseqdac kan i yesseklsen i izemren ad yeḥbes asekles n tɣimit.</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>Fren asekles ara yettwaḥbes.</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>Asekles n wanaw-a yetteddu yakan.</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>Asekles ur yettwabeddel ara: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>Sirew tunigin</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>Isem n tunigin (d afrayan)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>Tunigin %file tettwaru. Ibeddilen ur yezmir ad yexdem ula d yiwen n uḥric ttwabedren deg uqerru n ufaylu, ad ttwaxedmen s ufus.</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>Ulac tunigin i yettwarun: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>Aselkem aɣezfan s tezmilin</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>Urtan ilmawen ttaḥebsen iɣewwaren n migration.ini [RunSettings].</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>Ugar n waya n yiɣumisen</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>Ulac asgunfu nniḍen deffir (tisinin)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>Asgunfu gar yiɣumisen (tisinin)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>Tamezwarut ddaw (1 ar 19)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>Urti n uselkem aɣezfan d amḍan ummid seg 1 (asgunfu: tisinin seg 0 ar 60, tamezwarut: 1 ar 19), neɣ ilem.</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>Ttwaxdem iman-is deg %time.</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>Mdel iman-is deffir (tisdidin, afrayan)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>Tisdidin d amḍan ummid seg 1 ar 44640 (31 n wussan), neɣ ilem.</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>Anuzu %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>Anuzu amaynut</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>Anuzu YAML: aru-t d aḍris neɣ bnu isurifen-is deg tferkit, senqed-it, sakin sekles-it deg ukaram n yinuzuten.</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>Anuzu-a yedda yakan, ihi ur yettwasekles ara tikkelt nniḍen: afaylu yettwabeddlen ad t-yagi ummesten n tegrumma n usenqed. Eg abeddel deg unuzu amaynut.</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>Aqeddac web ur yezmir ara ad yaru afaylu.</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>Izirigen n uwennit deg usawen d aqerru (description, author, requires, environments, engines). Mi ara tettwarnu neɣ ara tettwabeddel tikli deg tferkit, anuzu ad yettwaru tikkelt nniḍen: iwenniten gar isurifen ur ttwaḥerzen ara.</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>Isem n unuzu</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>Anida ara yeddu</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>Asmel</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>Aḍris YAML</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>Asenqed</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Sekles</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Isurifen</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>Tisura</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Ẓreg</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>Smutti ɣer nnig</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>Smutti ɣer wadda</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Ssuffeɣ</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>Ulac isurifen yakan: rnu yiwen s tferkit, neɣ aru-ten deg uḍris.</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>Beddel tikli %number</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>Rnu yiwet n tikli</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>Tiferkit n tikli tettwabna seg unaw-is n tikli: tisura-s, ayen i yettaṭṭaf yal yiwet d iskaren i wumi tettaɣ.</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>Anaw n tikli</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>Sken tiferkit-is</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>Tikli ɣur-s tisura ur yessin ara unaw-is; ad ttwaǧǧent mi ara tettwabeddel tikli: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>Askar</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>Deg</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>deg %modes kan</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>Amezwer: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>Tiwtilin, timsisɣal d uwennit</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>Tiyugiwin Isem=azal, ttwafernent s tefrayin. Azalen n tikli-a: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>Amedya</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>Beddel tikli</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>Rnu tikli</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>Ayen i d-yeqqar exp:migration:check: aqerru, isemli d yal tikli, yettwasenqed s unaw-is n tikli.</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>Anuzu yezri asenqed.</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Taskant</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>YAML akken ara yettwasekles.</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>Sken YAML</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>Inuzuten YAML</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>yedda</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>Ulac inuzuten YAML yakan.</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>Amaẓrag</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>Ulac anuzu YAML %id deg ikaramen n yinuzuten.</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>Fren anaw n tikli.</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>Tikli tettwarna. Senqed anuzu uqbel ad t-teskelseḍ.</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>Tikli tettwabeddel. Senqed anuzu uqbel ad t-teskelseḍ.</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>Fren tikli.</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>Tikli-a ulac ɣur-s tiferkit (tineddict, neɣ anaw n tikli ulac-it deg usbeddi-a): beddel-itt deg uḍris.</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>Fren anida ara yeddu unuzu: asmel neɣ asiɣzef urmid.</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>Yettwasekles %file. Sedu asedday n tirmit uqbel ad yeddu unuzu.</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>Ur yettwasekles ara: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>Iqeddacen ibeɛden</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>Isebdaden nniḍen ɣer wanida yettsers wa inuzuten-is: asers yettazen inuzuten ɣer yiqeddacen ibeɛden i yettwafernen yerna yesseddu-ten dinna, akk ɣef tikkelt s umtawi. Aqeddac ibeɛden ur yettḥerriz ara tuffirt: inekcam-is sɛan isem n tuffirt deg Asbadu &gt; Iẓẓayen.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>Aqeddac ibeɛden amaynut</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Tallalt</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>Aɛraḍ n tuqqna n %id</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>Iqeddacen ibeɛden</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>Alamma d %parallel n yiqeddacen ibeɛden i ttwaxedmen ɣef tikkelt; amecwar yezmer ad yeṭṭef %timeout n tasinin ɣef yal yiwen.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>Aqeddac ibeɛden</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Tansa</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Inekcam</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>Igrawen</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>iɣewwaren ara yettwaseɣten</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>ifuyla kan (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>Tasarut SSH</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>Awal uffir</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>ulac (ameɛiwen SSH d tsura n usenneɣ)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>Ɛreḍ tuqqna</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>Asers ɣer ugraw ad iṛuḥ ɣer yal aqeddac ibeɛden-is.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>Sers ɣer yiqeddacen ibeɛden</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>Ulac aqeddac ibeɛden i yettwasbadun yakan.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>Aqeddac ibeɛden %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>Ulac ayen ara yettwaznen neɣ ara yeddun da: Sekles yettaru iɣewwaren deg settings/override/migration.ini.append.php. Inekcam d isem; azal-is yeqqim deg Asbadu &gt; Iẓẓayen neɣ deg twennaḍt.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Senqed iɣewwaren-a</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>Iɣewwaren akken ttwasekcmen, ur ttwaseklasen ara yakan.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Ɣer</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Iɣewwaren ṣeḥḥan. Izirigen-a ad ttwarun:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>Asiweḍ</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>d isem kan; azal yeqqim deg Asbadu &gt; Iẓẓayen</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Izirigen ara yettwarun</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>Tuqqna</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>Tasarut n usenneɣ</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. Aqeddac ibeɛden</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>Isem n uqeddac ibeɛden d tallunt-is.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>Asulay</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>Isekkilen, uṭṭunen, - d _, amedya production1. D isem n uqeddac ibeɛden deg yissaɣen d tdiwent (--remotes=production1), ur yettwabeddal ara ticki.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... Asers s yiswiren iteddu deg tallunin s umizwer-a.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>D afrayan, yettwabḍan s tefrayin, amedya production. Asers ɣer ugraw ad iṛuḥ ɣer yal aqeddac ibeɛden-is.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. Tuqqna</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>Amek ara awḍen yifuyla ɣer dinna, d anida yella usebded.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>S SSH, ayen yettwabeddlen kan, asiweḍ yerrẓen ad ikemmel. D afran ufrin anida yebded rsync.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>SSH s scp i yifuyla.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>SSH s sftp i yifuyla.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>Ifuyla kan: inuzuten ttwaznen yerna ttwaɣran-d, maca ur zmiren ara ad ttwasseddun dinna.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>FTP s TLS; ifuyla kan.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>Asebded nniḍen ɣef uqeddac-a, deg ukaram.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Asenneɣ</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>Isem n usenneɣ neɣ tansa, amedya node1.example.com. Mačči i local.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>Tawwurt</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>D ilem: 22 i SSH, 21 i FTP.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Aseqdac</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>Abrid</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>Aẓar n usebded dinna, amedya /var/www/site (i FTP: abrid i yettwali umiḍan FTP).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>Izirig n tladna PHP</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>PHP CLI dinna: php, neɣ abrid ummid am /opt/plesk/php/8.4/bin/php.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>Iskripten n tdiwent ttwasseddun s root dinna</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>Ala ma yella aseqdac n uqeddac ibeɛden d root (dɣa ttwasseddun s --allow-root-user).</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. Inekcam</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>Amek ara ikcem usebded-a dinna. D isem kan i yettwaseklasen.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Ulac</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>Ameɛiwen SSH d tsura n useqdac s wayes iteddu usebded-a (yerna yal tikkelt i local).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>Tasarut tusligt yettwaḥerzen d tuffirt.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>Awal uffir yettwaḥerzen d tuffirt (FTP ikeččem yis).</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>Isem n tuffirt</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>Tuffirt n Asbadu &gt; Iẓẓayen, amedya deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Asbadu &gt; Iẓẓayen</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>Neɣ amskil n twennaḍt</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>Amskil n ukala n uqeddac i t-yeṭṭfen, amedya DEPLOY_KEY (yettwasekles d env:DEPLOY_KEY). Ad yeṭṭef amkan n yisem n tuffirt.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. Tasarut n usenneɣ</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>D afrayan, i SSH, sftp d rsync.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>Adsil umḍin n tsarut n usenneɣ</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... akken i t-id-yesskan ssh-keygen -l. S yis, asenneɣ ilaq ad d-yesken tasarut-a; war-s, tasarut ad tettwalmed deg unermis amezwaru.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. Ɣer</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>Ɛreḍ tuqqna s yiɣewwaren nnig, sakin ɣer izirigen ara yettwarun.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>Kkes aqeddac-a ibeɛden</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>Iɣewwaren-is ad ttwakksen seg settings/override/migration.ini.append.php. Ulac ayen ara ibeddlen ɣef uqeddac ibeɛden, yerna isersen-is ad qqimen deg umazray.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>Ih, kkes aqeddac-a ibeɛden</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>Isersen</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>Asers yettazen inuzuten n usebded-a ɣer yiqeddacen ibeɛden i yettwafernen, yerna yesseddu-ten dinna s %user, akk ɣef tikkelt s umtawi: yal aqeddac ibeɛden yettwasenqad qbel, ma yella yiwen ur yeddukkel ara, yal aqeddac ibeɛden i yesnesen yettwarra ɣer deffir. Iteddu deg ugilal, yerna asebter-ines yesskan yal aqeddac ibeɛden mi ara iteddu.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. Iqeddacen ibeɛden</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>Creḍ iqeddacen ibeɛden, agraw, neɣ i sin.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>Sers ɣur-s</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. Amek</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>Sers</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>Azen u sedu</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>Inuzuten ttwaznen, ttwasenqden yerna ttwasseddun ɣef yal aqeddac ibeɛden s yiwen n usulay n usedday yettwabḍan.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>Asiweḍ kan</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>Ifuyla ttwaznen yerna ttwasenqden, ulac ayen yettwasseddan (abrid kan i uqeddac ibeɛden FTP).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>S yiswiren</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>Aswir s aswir s umizwer n tallunin (dev, stage, beta, production ...): aswir amezwaru yettwasers, sakin tabburt tettraǧu alamma yella win iqebblen wayeḍ. Akk neɣ ulac deg yal aswir.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>Inuzuten-a kan</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>D afrayan: isulayen n yinuzuten, yettwabḍan s tefrayin. D ilem: yal anuzu n usmel d yisiɣzaf-is.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>Asenqed uzwir kan</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>Ih, sers tura</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>Isersen i yuznen neɣ i yesseddan kra, amaynut d amezwaru (asenqed uzwir ur yettḥerriz ara assaɣ).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>asiweḍ kan</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>s yiswiren, %stages n yiswiren</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>war amtawi</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>Ulac asers yakan.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>Asers %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Yal aqeddac ibeɛden n users s waddad-is. Asers yebdan da ad ikemmel deg ugilal ma yettwamdel usebter-a; ldi asebter tikkelt nniḍen akken ad t-tḍefreḍ.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>Isersen akk</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>Asenqed uzwir</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>Aswir d-iteddun</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>Asenqed n yiɣewwaren d yinekcam</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>Asenqed uzwir: taɣuri n waddad n yal aqeddac ibeɛden</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>Tuzna n yifuyla n yinuzuten</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>Asenqed n wayen d-yewwḍen</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>Asedday n yinuzuten ɣef yal aqeddac ibeɛden</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>Tiririt n yiqeddacen ibeɛden ɣer deffir</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>Asers yekfa. Asali n wassaɣ-is.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>Anecta ur yezmir ara ad yettwaḍfer. Ales asali n usebter akken ad twaliḍ amek iteddu users.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>Amecwar</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>Asebter-a iḍeffer asers mi ara iteddu.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>S umtawi</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>Iswiren</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>aswir %stage yettraǧu ɣer tebburt-is</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>Tabburt %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>yettwaqbel sɣur %user ɣef %time</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>Aswir</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>Ifuyla yettwaznen</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>Lqem n wul n unagraw</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>yettwasnes: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>ara yettwasnes: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>Imecwaren</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>Tabburt: aswir %stage seg %stages</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>Iswiren send-s ttwasersen. Senqed-iten, sakin qbel aswir d-iteddun: iqeddacen-is ibeɛden ad ttwasenqden tikkelt nniḍen yerna ad ttwasersen, akk neɣ ulac.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Uḍfiṛ</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>Ih, sers aswir d-iteddun tura</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Qbel</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>Err asers-a ɣer deffir</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>Yal aqeddac ibeɛden i t-yesnesen (%list) ad yuɣal ɣer tewlaft yettwaṭṭfen send asedday-is, akk ɣef tikkelt.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>Ih, err asers-a ɣer deffir tura</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>yettwaɣawes</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>yettwasiweḍ</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>yettwasers</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>yettraǧu ɣer tebburt</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>yettwafernen</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>yettwaheyya</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>yewjed</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>yettraǧu aswir-is</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>ifuyla ttwaznen</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>yettwasenqed</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>ur yeddukkel ara, yerra-d iman-is</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>ur yettwabeddel ara</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>ur yettwasers ara</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>ur yettwaweḍ ara</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>Aqeddac ibeɛden yerra-d.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>Aqeddac ibeɛden ur yezmir ara ad yettwaseqdec tura.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done yekfa, %pending yettraǧu, %failed ur yeddukkel ara</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>Asekker</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>asedday iṭṭef asekker dinna</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>ilem</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stage seg %stages</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>Fren aqeddac ibeɛden ara tɛerḍeḍ.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>Creḍ «Ih, kkes aqeddac-a ibeɛden» qbel.</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>Aqeddac ibeɛden ur yezmir ara ad yettwakkes: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>Aqeddac ibeɛden ur yezmir ara ad yettwasekles: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Afaylu n yiɣewwaren ur yezmir ara ad yettwaɣer: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>Fren ma drus yiwen n uqeddac ibeɛden neɣ yiwen n ugraw.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>Aqeddac ibeɛden i yettwafernen ulac-it akk deg yiɣewwaren. Ales asali n usebter.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>Creḍ «Ih, sers tura» qbel.</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>Aqeddac ibeɛden FTP ur yezmir ara ad yesseddu inuzuten: fren «Asiweḍ kan», neɣ eǧǧ-it.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>Inuzuten ara yettwasersen d isulayen n yinuzuten, yettwabḍan s tefrayin.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>Asers mazal iteddu. Ṛǧu alamma yekfa.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>Asers-a ur yettraǧu ara ɣer tebburt.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>Ulac aqeddac ibeɛden i yesnesen asers-a: ulac ayen ara yettwarren ɣer deffir.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>Creḍ «Ih, sers aswir d-iteddun tura» qbel.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>Creḍ «Ih, err asers-a ɣer deffir tura» qbel.</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>Aqeddac ibeɛden s usulay %id yella yakan.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>Tawwurt d amḍan seg 1 ar 65535.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>Tallunt d awal n yisekkilen, n wuṭṭunen, - d _ (alpha, dev, stage, beta, production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>Agraw d awal n yisekkilen, n wuṭṭunen, - d _ (mačči all): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>Inekcam ur zmiren ara ad ttwaɣren tura: %problem. Sekles-iten deg Asbadu &gt; Iẓẓayen (neɣ sbadu amskil) send asers amezwaru.</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>Aqeddac ibeɛden FTP yettremmes kan ifuyla: asers ɣur-s d «Asiweḍ kan», yerna inuzuten-is ttwasseddun dinna s ufus.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>Aqeddac ibeɛden %id ulac-it deg settings/override/migration.ini.append.php; kkes-it anida i yettwasbadu.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>Yekcem s FTP yerna yeɣra index.php. Addad n yinuzuten n uqeddac ibeɛden FTP ur yezmir ara ad yettwaɣer.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>Yettwabeddel</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>Yettwasnulfa-d</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Isem</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Asmil</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Tigezmi</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>Amesnulfu</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Agbur amaynut</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>Agbur yettwasnulfan d win yettwabeddlen taggara n usmel meṛṛa, amaynut d amezwaru: ayen d-uznen yinebgawen, ayen yettwaṭṭfen i weselken, irewwayen yettraǧun asiẓreg-nsen. Fren iferdisen akken ad ten-tserrḥeḍ, ad ten-teṭṭfeḍ, ad ten-teffreḍ, ad ten-tesskneḍ, ad ten-tekkseḍ neɣ ad ten-tesmutteḍ ɣer tgezmi neɣ ɣer waddad nniḍen.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>Tabdart ur tettwaɣra ara: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>Aṭṭaf i weselken mazal ur yettwasbadu ara, ihi ulac ayen yettwaṭṭfen, tigawin n waṭṭaf ur ttwasumrent ara. Taseddart n uleqqem 6.0.15-review-hold tesbadu-t: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Sizdeg tabdart</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Seg</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Ɣer</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Azemz</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>Yettwasnulfa-d (asiẓreg amezwaru)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Akk</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Liḥala</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Yettwasiẓreg</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>Arewway, werǧin yettwasiẓreg</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>Yettraǧu (aqbal neɣ azemz)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>Deg iḍumman</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Yettwaṭṭef i weselken</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>Yettwaṭṭef</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>Ur yettwaṭṭef ara</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>Yeffer</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>Yettban</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>Yettwazen deg</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>Yal anekcum ɣer usmel</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>Ala ayen yesekles usenqed.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>Tura: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>Isem n tuqqna neɣ ID n useqdac.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Sizdeg</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>Sfeḍ imsizdagen</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>Iferdisen</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from ɣer %to seg %count</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Ulac aferdis</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(yettwaɣra deg %ms ms)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>Tigawin ɣef yiferdisen yettwafernen</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>Fren akk deg usebter-a</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>%count yettwafernen</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Tigawt</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>Fren tigawt</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>Serreḥ i waṭṭaf</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Ṭṭef i weselken</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Ffer</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>Sken</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>Smutti ɣer iḍumman</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>Kkes</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>Sekn tigezmi</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>Sekn addad</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>Tamentilt</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>Yesra i waṭṭaf; tettwaḥrez d waṭṭaf akked deg usenqed.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>Fren tigezmi</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Addad</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>Fren addad</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>Snes ɣef wid yettwafernen</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>Yal aferdis yettwasenqad s tsirag-ik. Asmutti ɣer iḍumman d tukksa ad k-d-ssutren asentem. Ugar n %count iferdisen ad teddun deg ugilal.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>Fren</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>Asiẓreg</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>Yettwazen seg</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>Fren %name</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>mazal</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(ulac isem)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>Arewway</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Yettraǧu</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>Yeffer s umaraw-is</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>Yettwaṭṭef: tuzna tamaynut</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>Lqem %version yettraǧu</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>Lqem %version la yettwaxdam</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>Arewway, lqem %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>Lqem %version yettwasiẓreg</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>Yettwasɣiwes i %date</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>ulac tansa</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>ur yettwasekles ara</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>Ulac ayen yemsasan d imsizdagen-a.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Sken akk</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>Mazal ulac agbur.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>I yal asebter</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Sken %count iferdisen i yal asebter.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says "not recorded".</source>
+        <translation>Tansa d yiminig n tuzna d-ttekken seg umatar n usenqed, ur nelli ara dagi: ajgu yeqqar "ur yettwasekles ara".</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>Tansa d yiminig d wid yesekles usenqed i uferdis (aṭṭaf awurman yesekles-iten yal tikkelt; asiẓreg d usnulfu kan anida yermed), akken ten-ḥerzen yiɣewwaren-is n tbaḍnit.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: %count iferdisen</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>Tukksa tekkes iferdisen i lebda, s lqem-nsen akk d tsuqilin-nsen. Ur tezmireḍ ara ad tt-tesfesxeḍ.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>Iferdisen ad ddun ɣer iḍumman, ansi zemren ad d-uɣalen.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>Yal aferdis yettwasenqad s tsirag-ik; aferdis yesɛan iferdisen yeddaw-s ad yeqqim akken yella (kkes-it deg tɣessa n ugbur). Ad k-d-ssutren ad tesneqdeḍ d kečč.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>Aya ad yeddu deg ugilal: asebter n unnerni-ines ad d-yeldi, agmuḍ n yal aferdis ad d-yettwaskan mi ara yekfu.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>Iferdisen yettwafernen</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>d %count nniḍen</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Sefsex</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>Ulac ayen yettwaxedmen</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Tamentilt: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>Tigawt mazal-itt tteddu deg ugilal.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>Anerni-ines</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>Tigawt n ugilal ur teddi ara: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Yekfa</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Yettwagi</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Ur yeddukkel ara</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>I yal aferdis</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>Aferdis</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Agmuḍ</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Acuɣer</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>Uɣal ɣer tebdart</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Asbadu</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>Ur yettwaxdem kra</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>Sentem</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>Fren tigawt.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>Fren ma drus yiwen n uferdis.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>Fren ma ugar 1000 n yiferdisen yal tikkelt.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>Ini-d acuɣer ttwaṭṭfen yiferdisen.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>Fren tigezmi.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>Fren addad.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Tiferkit ur tettwaɣra ara.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>Tafelwit n tadbelt</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>Agbur amaynut</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>Imḍanen ur ttwaɣran ara: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Yettwaṭṭef i weselken</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>Imaynuten ass-a</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Aṭṭaf i weselken mazal ur yettwasbadu ara (taseddart n uleqqem 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>Agbur amaynut akk</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>Ur tezmireḍ ara ad tselkmeḍ tigawin n useɣwel (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>Tigawt n useɣwel ur tfuk ara: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>Aseɣwel: %action ɣef %count tɣawsiwin</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%done seg %total tɣawsiwin: %ok kfant, %refused ttwagint, %failed ur ddukklent ara</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok kfant, %refused ttwagint, %failed ur ddukklent ara</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>Ur yelli ara ultaɣ.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>Ur ɣur-s ara adig (ur yettwasiẓreg ara).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>Ur tezmireḍ ara ad t-teffreḍ (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>Ur tezmireḍ ara ad t-tesskneḍ (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>Yeffer yakan.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>Ur yeffer ara.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>Yeffer.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>Yettwasken.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>Yella deg iḍumman: sefreɣ-iten neɣ err-it-id seg dinna.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>Arewway ur yettwasiẓregen werǧin ur yezmir ara ad yeddu ɣer iḍumman: kkes-it.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>Ur tezmireḍ ara ad t-tekkseḍ (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>Yettwakkes.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>Ur tezmireḍ ara ad t-tessuffɣeḍ (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>Ɣur-s iferdisen yeddaw-s: ssuffeɣ-it deg tɣessa n ugbur, anida ttwabedren.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>Ur yettwassuffeɣ ara (yezmer aɣawas n umahil ad yeṭṭef tukksa).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>Yettwasmutti ɣer iḍumman.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>Tigezmi ulac-itt.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>Yella yakan deg tgezmi-a.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>Ur tezmireḍ ara ad tesneḍ tigezmi-a (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>Tigezmi ur tettwasekn ara.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>Tigezmi tettwasekn.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>Addad ulac-it.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>Yella yakan deg waddad-a.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>Ur tezmireḍ ara ad tesneḍ addad-a (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>Addad ur yettwasekn ara (yezmer aɣawas n umahil ad yeṭṭef abeddel).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>Addad yettwasekn.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>Ulac tigawt am tagi.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Aṭṭaf i weselken ur yettwasbadu ara (taseddart n uleqqem 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>Ini-d acuɣer yettwaṭṭef.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>Yettwaṭṭef yakan.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>Ur tezmireḍ ara ad t-teṭṭfeḍ (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>Aṭṭaf ur yettwasers ara (yezmer aɣawas n umahil ad yeṭṭef abeddel).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>Yettwaṭṭef.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>Ur yettwaṭṭef ara.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>Ur tezmireḍ ara ad t-tserrḥeḍ (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>Aṭṭaf ur yettwakkes ara (yezmer aɣawas n umahil ad yeṭṭef abeddel).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>Yettwaserreḥ; mazal yeffer: ur tezmireḍ ara ad t-tesskneḍ (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>Yettwaserreḥ.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>Akk iswan</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Asiẓreg aneggaru</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>Siẓreg anɣel armid n usmel-ik baṭel deg GitHub Pages:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Isebtar iqburen</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Asiẓreg armid</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Asiẓreg armid yensa.</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Iswi</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Ur zmireɣ ara ad ɣreɣ iswan: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>amahil itteddu</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>asebni ara yettwasenqden</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>ffer aya</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>snulfu-d iswi</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>werǧin</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>ɣer asegmek</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>%added ttwarnan, %changed ttwabeddlen, %removed ttwakksen</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%bytes seg %limit (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>%count-nniḍen ur ttwabdaren ara.</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>%pages n yisebtar ttwarun</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path tiddi-s %size, ugar n wayen i yettaǧǧa usneftaɣ i yiwen ufaylu.</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>%percent % seg tlist</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds tsn</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag d asiẓreg i yesɛa usmel tura.</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: amahil %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>/akufi/ i usmel n usenfar GitHub; d ilem i taɣult tudmawant neɣ i usmel n useqdac.</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. Asmel</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. Asneftaɣ</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. Tuqqna ɣer ukufi</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. Akufi</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. Iseɣwan d ubrid azadur</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. Taɣult-ik</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. Ayen yellan deg usebni</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. Melmi ara yettwasiẓreg</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. Senqed syin sekles</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>Asmel n usenfar GitHub yettili ddaw /&lt;repository&gt;/; iseɣwan imassaɣen xeddmen din d yal amkan-nniḍen.</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>Asebni yettawi-d yal asebter n %site akken i t-iwala yemerzi ur nekcim ara, yettaru-d iseɣwan i tikkelt-nniḍen, yettnaɣal ifuyla syin yettaru agmuḍ deg ukaram n yiswi. Ulac ayen ara yettwasiẓregen alamma tesneqdeḍ asebni syin tsiteḍ ɣef Siẓreg.</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>Tanfalit cron, amedya 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>Tasarut n usebded tettwaḥrez d aẓẓay %secret.</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>Tasarut n usebded tettaǧǧa asebded-a ad yazen ɣer yiwen ukufi kan s SSH, ur yettazen ara ɣer wadeg-nniḍen. Azgen-is uslig yeqqim deg Asbadu &gt; Iẓẓayen; d azgen azayez kan i d-yettbanen.</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>Tasarut n usebded yettwagen i yiswi-a</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>Tasarut n usebded tkeččem s SSH: beddel tansa git ɣer tin n SSH (git@github.com:owner/repo.git).</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>Amahil itteddu, yebda-t %user</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>Amahil n yiswi-a mazal itteddu (%detail). Ṛǧu alamma yekfa.</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>Amahil n yiswi-a mazal itteddu. Ṛǧu alamma yekfa.</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>Aseɣwen seg usebter /news/ ɣer usebter /about-us/team ad yettwaru akka</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>Tasarut n usebded tamaynut tettwagen. Rnu azgen-is azayez ɣer ukufi tura.</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>Asebter mazal yesɛa tuffɣa n tseɣtit, ajetwan n tferkit neɣ asulay n tɣimit deffir usfeḍ ur yettwasiẓrag ara werǧin.</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>Tuɣalin ɣer deffir i yimazzayen: rcem «Ẓriɣ acu ara ibeddel waya» syin aru isem n tbzimt tikkelt-nniḍen.</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>Asmel yezmer ad yaweḍ ɣer %site, afaylu ɣer %file, s wazal n 100 GB n tikli deg wayyur. Deg umuɣ baṭel, akufi ilaq ad yili d azayez. GitHub Pages ur yettwaxdem ara i tḥuna neɣ i tnezzut-nniḍen n ssuq.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>Iswi d yiwen usmel yettwasiẓregen ɣer yiwen ukufi git. Ulac ayen ara yettwabnun neɣ ara yettwasiẓregen dagi: Sekles yettaru iɣewwaren deg settings/override/staticcache.ini.append.php.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>Iswi d yiwen usmel yettwasiẓregen ɣer yiwen wadeg, amedya asmel-ik azayez deg GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>Ajetwan seg Asbadu &gt; Iẓẓayen</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>Asuddim n ukufi i t-yessiẓrigen.</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>Rnu tasarut-a tazayezt ɣer ukufi s turagt n tira. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, rcem Allow write access.</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>Yettwarna</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>Asneftaɣ git nniḍen</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>Akala-nniḍen ixeddem ɣef yiswi-a: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>Uɣal</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>Abrid azadur</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Send</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>Ddaw ubrid azadur</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>Taseṭṭa</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>Iseɣwan yerzen</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>Iseɣwan yerzen deg usebni</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>Asebni</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>Asebni %id sɣur %user</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>Bnu %name</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>Bnu tura</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>Asebni ara yettwasenqden</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Sɣur</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>S ufus, dagi</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Sefsex</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Beddel</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>Yettwabeddel</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Ibeddilen</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>Senqed-it qbel</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Senqed iɣewwaren-a</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>Senqed acu ibeddel usebni, wali-t, syin siẓreg-it neɣ ḍegger-it.</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>Fren asiẓreg ɣer wara tuɣaleḍ.</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>Ad d-yas deg lqem ara d-yasen.</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Commit</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>Commits</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>Yettaru asebni d commit, yettak-as tabzimt syin yettazen-it ɣer %remote. Ur yettazen ara s tmara; tzemreḍ ad tuɣaleḍ ɣer yal asiẓreg ticki.</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>Mgal akaram n send: %added ttwarnan, %changed ttwabeddlen, %removed ttwakksen, %unchanged ur ttwabeddlen ara.</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>Mgal asiẓreg aneggaru.</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Inekcam</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>Taɣult tudmawant</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>Tuffɣa n tseɣtit, ijetwanen n tferkiwin, isulay n tɣimiyin d nonces ttwakksen yal tikkelt.</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>Tasarut n usebded</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>Tasarut n usebded n %name</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Ḍegger</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>Ḍegger asebni</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>Taɣult</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>D ilem: tansa n usmel. Ma ulac, tansa tagensant n yiwen usmel.</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Yekfa</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>Yal aseɣwen ibeddu s ubrid azadur.</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>Yal asiẓreg d commit s tbzimt static/%id/&lt;n&gt;. Tuɣalin ɣer deffir tettgani-d commit amaynut s yifuyla n usiẓreg yezrin: amazray yeqqim, ulac tabzimt ara yembiwlen, ulac ayen ara yettwaḥetmen.</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>Ifuyla-nniḍen</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>Awi-d isebtar seg</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Afaylu</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>Ifuyla</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>Ifuyla ixuṣṣen</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>Ifuyla n</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>Ifuyla ur nezmir ara ad ttwalqeḍen</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>Adsil</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>Akaram</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>I tansa SSH. Tasarut tettwagen deffir usekles; ad ternuḍ azgen-is azayez ɣer ukufi.</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>I tansa https://. GitHub: ajetwan fine-grained s Contents n tɣuri d tira ɣef ukufi.</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>I yimazzayen. Asmel azayez ibeddel akken kan yekfa wazen.</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Tiferkiwin</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>Asneftaɣ baṭel seg ukufi GitHub.</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>Seg tseṭṭa</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>Tansa git</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages yettaǧǧa asmel n %site d ufaylu n %file.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>Tilisa n GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages yessiẓrag ifuyla akken llan (ilaq i yifuyla ibeddun s _).</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub yettak-d taseṭṭa akken tettwazen. Amezwer.</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, aqeddac-ik: yal akufi git.</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>Uɣal ɣer usiẓreg yezrin</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Tallalt</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>Tallalt n umarag</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>Ffer-iten</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Amazray</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>Amazray n %name</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Asneftaɣ</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>Amek i yettaṭṭaf GitHub Pages asebni</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>Senqdeɣ ibeddilen</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>Ẓriɣ acu ara ibeddel waya</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>Asulay</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>Yensa: ulac ayen ara yettwabnun alamma yermed.</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>Itteddu deg ugilal am %user; tzemreḍ ad tmedleḍ asebter-a.</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>Amahil %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>Yettwaḥrez d aẓẓay %secret.</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Anaw</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Asiẓreg aneggaru</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>Eǧǧ isebtar-a</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>Eǧǧ tigezmiwin-a</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Iseɣwan</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>Iseɣwan yettwarun i tikkelt-nniḍen</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>Asmel usrid</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>Wali asebni</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>Isekkilen imecṭuḥen, izwilen, _ d -, amedya github-public. Yettak isem i ukaram d tbzimin (static/&lt;id&gt;/&lt;n&gt;) ur yezmir ara ad yettwabeddel ticki.</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>Snulfu-d tasarut tamaynut</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>Snulfu-d iswi</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>Snulfu-d tasarut</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>Snulfu-d akufi deg usneftaɣ qbel; akufi ilem ulac aɣilif.</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>Tabdart n yifuyla</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Izen</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>Aṭas n yisebtar</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Isem</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>Isem n ujetwan deg Asbadu &gt; Iẓẓayen</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>Iswi amaynut</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Uḍfiṛ</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>Ala</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>Ulac commit akka tura.</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>Ulac tasarut i yettwagen: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Ulac afaylu aselkim n php n yizirig n tladna. Sbadu migration.ini [AdminSettings] PhpCliPath ɣer ubrid-is ummid.</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>Ulac tabzimt akka tura.</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>Ulac iswi akka tura.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Ulac</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>Ulac-it deg usebni.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>Ulac ayen i yettwasiẓregen akka tura.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>Ulac ayen i yettwasiẓregen akka tura: yal afaylu d amaynut.</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>Selɣu</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>S usenfel</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>Deg tdiwent</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>Deg uqeddac: ./console exp:static:serve %id yettak-it-id s yiwet n tarrayt.</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>Yiwen ubrid deg yal izirig, * yemṣada d yal aḥric: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>D isem kan i yettwaḥerzen d yiswi; ajetwan neɣ tasarut s yiman-is yeqqim deg Asbadu &gt; Iẓẓayen ur d-yettban ara werǧin deg uɣmis.</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>D ayen i d-bedren yisebtar kan</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>S ujetwan kan. env:NAME yeqqar amutti n twennaḍt n uqeddac deg umḍiq-is.</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>Ldi taskant</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>Yeldi asebni akken ara t-id-yefk usneftaɣ, seg ukaram n yiswi. Aseɣwen yeddu i kečč kra n usrag.</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>D afrayan. D ilem: ayen i yettwasiẓregen.</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>D afrayan. S taɣult, asmel yettunefk-d deg uẓar-is.</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Tuffɣa</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>Isebtar</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>Isebtar n yiswi</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>Isebtar yettwagin</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>Aseggem deffir</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Taskant</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>Taskant d usiẓreg</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>Taskant d usiẓreg n %name</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>Taskant n usebni</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Tikli</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>Tansa tazayezt</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>Tasarut tazayezt</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>Siẓreg</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>Siẓreg anɣel armid n usmel ɣer GitHub Pages neɣ ɣer yal asneftaɣ git: bnu-t, senqed ibeddilen, siẓreg, syin uɣal ɣer usiẓreg yezrin ma tesriḍ.</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>Asiẓreg ɣer wara tuɣaleḍ</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>Isiẓrigen</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Push</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>Ɣer asegmek</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Aɣmis</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Yettwagi</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>Amassaɣ</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Ales asali</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>Yettwakkes</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>Semselsi tasarut: taqburt ur tettxeddim ara</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Aneqqis</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>Aneqqis n usebni</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Akufi</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Asenqed</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>Asenqed yesenqad yal aɣewwar yerna yesskan-d izirigen ara yettwarun. Ulac ayen i yettwaskelsen akka tura.</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Err ɣer deffir</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Tuɣalin ɣer deffir</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Sekles</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>Asenfel</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>Asebter n unadi</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>Isulay n tgezmiwin, ttwabḍan s tefrayin.</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>Azen-iten ɣer usmel usrid</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>Aɣewwar</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Iɣewwaren</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>Iɣewwaren n %name</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Asbadu</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Asbadu &gt; Iẓẓayen</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>Yettban deg tebdarin, amedya «Asmel azayez deg GitHub Pages».</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>Tuqqna s GitHub App ad d-tas akked umsidef n GitHub.</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>Asmel</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>Asmel ara yettwasiẓergen</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Tiddi</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>Tiddi d tlisa</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>Tiddi n usebni</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Isebtar iqburen</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Yebda</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Yebda-t %user ɣef %time.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Addad</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Asiẓreg armid</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>Asiẓreg armid yensa</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Asiẓreg armid yensa.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>Asiẓreg armid yensa. Rmed-it deg Asbadu &gt; Asiẓreg armid qbel.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>Asiẓreg armid yermed.</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>Asurif %step seg %total</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Isurifen</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>Asfeḍ</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Sens</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Rmed</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>Rmed asiẓreg armid</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Tabzimt</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>Tibzimin</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Iswi</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>Iswan zemren ad ttwagen u ad ttwabeddlen, maca ulac ayen ara yettwabnun neɣ ara yettwasiẓregen alamma yermed.</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>Yessefhamay imsiwaḍen n unadi acu ara ɣren.</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>Asebni ur yezmir ara ad yettwaḍegger: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>Asebni am usiẓreg aneggaru: ulac ayen ara yettwasiẓregen.</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>Asebni yettwaḍegger: akaram yesɛa asiẓreg aneggaru tikkelt-nniḍen.</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>Imezwura ttwaṣlaḥen i tegtert n yismal.</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>Akaram yesɛa asebni ur yettwasiẓreg ara akka tura; asebni amaynut ad t-isemselsi.</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>Akaram n yimahilen ur yezmir ara ad yettwaru: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>Amahil ur yezmir ara ad yettwaheyya: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>Amahil ur yezmir ara ad yebdu.</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>Amahil yekfa. Asali n uneqqis-is.</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>Amahil yesra aseqdac yeqqnen.</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>Amahil yebda maca ur d-yenni ara asulay n ukala-s. Senqed %detail.</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>Tasarut</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>Afaylu ameqqran akk: %path, %size.</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Izirigen ara yettwarun</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>Tabdart n yisebtar i yimsiwaḍen n unadi; tesra tansa tazayezt.</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>Isebtar ttwawin-d akken i ten-iwala yemerzi ur nekcim ara. Anekcum n tedbelt d win n uẓrag ur ttwasumren ara werǧin.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>Tikli ur tezmir ara ad tettwaḍfer. Ales asali n usebter akken ad twaliḍ amek iteddu umahil.</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>Azgen azayez n tsarut:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>Aẓar n tseṭṭa</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>Aḥraz n yiẓẓayen mazal ur yettwasbadu ara (./console exp:upgrade --apply ixeddem tafelwit-is), ihi ulac tasarut ara yettwaḥerzen.</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>Aqeddac ikeččem s yiman-is (tasarut-is SSH neɣ amalal n yinekcam), neɣ akufi yella deg uqeddac-a.</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>Aɣewwar ur yezmir ara ad yettwaru: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Iɣewwaren ṣeḥḥan. Izirigen-a ad ttwarun:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Afaylu n yiɣewwaren ur yezmir ara ad yettwaɣer: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>Asmel yettuɣal ɣer yifuyla n usiẓreg-nni; asebni ur yettwasiẓreg ara ilaq ad yettwasiẓreg neɣ ad yettwaḍegger qbel.</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>Asebter n usmel s yiman-is i tansiwin ur nelli ara.</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>Iswi ur yezmir ara ad yettwasekles: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>Iswi mazal ur ikeččem ara s tsarut-a: fren «Tasarut n usebded yettwagen i yiswi-a» deg yiɣewwaren-is.</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Ur zmireɣ ara ad ɣreɣ iswan: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>Ulac asebni ara yettwasenqden akka tura.</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>Asebded-a ur yesɛi ara anekcum n deffir. Anekcum n tedbelt d win n uẓrag ur ttwasiẓregen ara werǧin.</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>Asebter-a yeṭṭafar amahil mi ara iteddu; ad ikemmel deg ugilal ma yettwamdel usebter.</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>Iswi-a ur yesɛi ara tasarut n usebded akka tura.</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>Iswi-a mazal ur yettwabna ara dagi.</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>Iswi-a yesɛa yiwet.</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>Yettḍegger asebni-a: akaram yesɛa asiẓreg aneggaru tikkelt-nniḍen. Asmel usrid ur ibeddel ara.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>Rcem «Senqdeɣ ibeddilen» qbel.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Akud</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>Imsenkaren</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>Aru isem n tbzimt tikkelt-nniḍen</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>Ur yettwabeddel ara</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>Webhook</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Acu</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>Acu ibeddlen</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>Acu-t yal afaylu; yettwaru yal tikkelt.</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>Acu yexdem umahil d uɣmis-is. Amahil yebdan dagi ad ikemmel deg ugilal ma yettwamdel usebter-a.</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>Ayen i d-yesseḍreg umahil d tuccḍiwin</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>Ayen i d-bedren yisebtar, d yal tugna n ugbur yettwasiẓergen</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Melmi</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>Mi ara yecceḍ usiẓreg</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>Mi ara yeddu usiẓreg</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>Mi ara yettwasiẓreg ugbur</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>Anida ara ddun iseɣwan ɣer wayen ur yelli ara deg unɣel (anadi, tuqqna).</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>Seg anida i d-yettunefk wenɣel armid.</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>Anwa asmel ara yettwasiẓergen, d wamek i yettwasemma yiswi.</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>Ixeddem ddaw yal abrid. Amezwer.</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>Yettwaru yal tikkelt ma tettwasbadu taɣult tudmawant.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>Ih</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>Tzemreḍ yal tikkelt ad tebnuḍ u ad tesiẓregeḍ s ufus dagi d deg tdiwent.</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>d isem kan; azal yeqqim deg Asbadu &gt; Iẓẓayen</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>ddaw %path</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>yekfa war aneqqis</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>nniḍen</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>yecceḍ</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>afaylu</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages, neɣ main s ukaram docs.</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>asneftaɣ git</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (s ujetwan) neɣ git@github.com:owner/repo.git (s tsarut n usebded); ur ttaru ara awal uffir neɣ ajetwan deg-s.</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/, i tkerḍa n usmel d yiseɣwan imeẓḍawanen.</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>tugna</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>werǧin</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ala</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>ulac remote</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>ulac: commits qqimen deg ukaram</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>ulac: ulac ayen ibeddlen</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>ur yettwazen ara</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>ulac ayen ibeddlen</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>asebter</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>yeddukkel</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>proc_open yensa, ihi amahil ur yezmir ara ad yebdu dagi. Seqdec ./console exp:static:build deg uqeddac.</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>asiẓreg</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>yettwasiẓreg</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>azen yettraǧu</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>yettwazen</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>yettwagi</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>amassaɣ</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>tuɣalin ɣer deffir</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>yuɣal ɣer deffir</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>itteddu</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>akaram kan</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: yettwaru deg ufaylu CNAME. Sekker DNS n taɣult ɣer usneftaɣ akken i d-yessefhem; HTTPS yezmer ad yeṭṭef kra n wakud send ad yebdu.</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>ih, mazal ur yettwasiẓreg ara</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>Yiwet n GitHub App</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>Yettɛemmim-it yiwen n usuddem n ukufi. Asefsu yettaru afaylu n usuddem; eǧǧ akaram d ilem.</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>Mi ara teskelseḍ iswi s ukufi GitHub d ujetwan neɣ GitHub App, asurif-a yezmer ad d-yesnulfu akufi yerna ad yessermed GitHub Pages. Ma ulac, snulfu-d akufi deg GitHub uqbel; akufi ilem yelha.</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>Taseṭṭa neɣ GitHub Actions?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>Senqed DNS</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>Snulfu-d akufi ma ulac-it</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>Snulfu-d akufi deg GitHub sakin rmed GitHub Pages deg iɣewwaren-is (Settings &gt; Pages).</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>Yesnulfuy-d akufi %repo ma ulac-it (ma yettwasuter), yessermad GitHub Pages seg teseṭṭa neɣ seg GitHub Actions akken yettwasekles, yerna yesbadu taɣult tudmawant d HTTPS. Yesseqdac iɣewwaren yettwaskelsen: sekles ibeddilen uqbel.</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>Talqayt deg GitHub</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>Sekcem taɣult tudmawant uqbel.</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>Yal tuzzna tettwasenqad uqbel ɣer tilisa-a.</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>I tansa https:// deg GitHub. App yettwasbadun i usebded-a ad yekcem; yesra asulay n usebded.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages yettak-d akufi uslig deg uɣawas s lexlaṣ kan.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: taɣult tamecṭuḥt (www.example.com) tesra asekles CNAME ɣer &lt;owner&gt;.github.io; taɣult tagejdant (example.com) tesra iseklasen A %ips.</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>Asulay n usebded n GitHub App</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>Asefsu aneggaru n Pages</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>Tilisa d tewtilin</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>Yettwasra i GitHub Pages deg uɣawas baṭel.</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>Deg GitHub</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>S GitHub App kan: amḍan deg taggara n tansa n usebded n App deg GitHub. App s yiman-is yettwasbadu deg staticcache.ini (GitHubAppId, GitHubAppKey).</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>Uslig</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>Azayez</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>Sekles iswi s ukufi GitHub d ujetwan neɣ GitHub App uqbel.</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>Sbadu iseklasen-a ɣer usaǧǧaw n taɣult:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>Sbadu deg GitHub</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>DNS n %domain ur yettwehhi ara ɣer GitHub Pages yakan.</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>DNS n %domain yettwehhi ɣer GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>Amsidef n GitHub ulac-it da: %problem. Asiẓreg ɣer teseṭṭa yeddu akken yebɣu yili; rmed GitHub Pages deg iɣewwaren n ukufi.</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>Isurifen n GitHub ulac-iten i yiswi-a: %problem.</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>Addad n GitHub Pages yettwaskan s ujetwan neɣ GitHub App d inekcam.</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>Seqdec taɣult-ik</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>Acu ara tferneḍ: ajetwan, tasarut n usebded neɣ GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>S ukufi GitHub d ujetwan neɣ GitHub App, amarag yezmer ad d-yesnulfu akufi, ad yessermed GitHub Pages yerna ad yesbadu taɣult i kečč (asurif 4).</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>yettwasefsay</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>yettwasefsa</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>seg GitHub Actions</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>seg teseṭṭa %branch</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>ulac yakan</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>ur yettwafa ara</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>yensa</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>uslig</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>azayez</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>yettraǧu deg ubrid</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>arussin</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%count deg %pages n isebtar:</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>.gz (d .br) ɣer yal afaylu aḍris, i yimawen i ten-yessuturen.</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>Asebter amecṭuḥ i yal tansa taqdimt d yal isem i d-yettwabdar n usebter, akken ad ddun yiseɣwan iqburen.</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>Yettwaru yal tikkelt ma yessaweḍ GitHub Actions asmel.</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>Asulay SPDX am CC-BY-4.0, neɣ aḍris-nni s timmad-is.</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>Tabaḍnit</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>Isiwlen ɣer uqeddac</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Iwenniten</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>Tiferkiwin ttnaǧmaɛent talɣut</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>Aseddak n umahil GitHub Actions</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>Ugar n tallunt tilemt d war iwenniten deg isebtar.</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>Turagt n ugbur</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Tuqqna</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>Senqes</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>Tiferkiwin-nniḍen</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>Ḥebbeṣ send</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>Isebtar n uwelleh</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>Isebtar n uwelleh: %count.</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Nadi</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>Amatar n unadi: %pages n isebtar deg %languages.</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>Isebtar n yilugan d yiskripten yettwasemman s uhac n ugbur-nsen, akken ad ten-ḥerzen yimsewweḍ.</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>Isebtar yettwabeddlen, kra n tisdatin deffir abeddel aneggaru (aḥric cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>Turagt n ugbur, seg urti ukessar.</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>Asmel meṛṛa, deg wakud n usenfar (aḥric cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>Ibeddi-agi n isebtar ḥwaǧen aqeddac; yal yiwen yewwi-d abeddel. Wali-ten send ad d-tessuffɣeḍ.</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>Ayen ur nteddu ara s wudem anmmasan</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>D acu-t uḥric, i win i t-ifetḥen deg uqeddac.</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>yettwazgel</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>aḍris n usumer</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>tagara n tferkit n usmel usrid</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>asmel usrid</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>asebter n unadi n unɣal</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>Ur yezmir ara usuffeɣ n tferkit.</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>Tanemmirt: tettwazen tferkit.</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>Tferkit ur tettwaqbel ara: wali ayen i d-teskecmeḍ rnu azen tikkelt-nniḍen.</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>Kkes iseɣwan ɣer isebtar ur yellin ara deg unɣel</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>Kkes iseɣwan ɣer tedbelt</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>Aḍris-nsen ad yeqqim. Tugniwin, tiferkiwin d yiseɣwan ɣer yismal nniḍen ur ttwakksen ara akk.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Lqem</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>Inekcumen ɣer usmel ara d-yettwasuffɣen</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Anekcum ɣer usmel</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>Deg uẓar</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>Ulac anekcum deg uẓar: yal yiwen deg ukaram-is, uẓar yettak-d iseɣwan ɣur-sen</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Inekcumen ɣer usmel</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>Creḍ yiwen n unekcum ɣer usmel, neɣ aṭas yebḍan yiwen n usenneftaɣ s uzwir-nsen URI. Win yellan deg uẓar ad yettwasenfer dinna, wiyaḍ deg ukaram n uzwir-nsen (/ger/); iseɣwan gar-asen ad qqimen deg unɣal. Inekcumen n tdbelt ur d-ttwasumren ara akk.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>Asuffeɣ udmis n %target ur yeddi ara deg %site</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>Asuffeɣ udmis n %target yeddi deg %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>Izen-a yettwazen sɣur %site acku iswi n usuffeɣ udmis %target yessuter-it.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>Asers %deploy ur yeddukkel ara deg %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>Asers %deploy yettraǧu ɣer tewwurt deg %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>Asers %deploy yedda akken iwata deg %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>Izen-a yettwazen sɣur %site acku migration.ini [RemoteSettings] Notify[] yesra-t.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>Anawen n yisefka (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>Yettwasiden %time, tikkelt-nniḍen deffir %minutes n tesdatin</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>Anaw n yisefka yettḥerriz yerna yettẓerrig yiwen n wanaw n wazal n yiwet n tɣara n usmil: izirig n uḍris, tugna, assaɣ. Aẓar d netta i d-yettawin tuget-nsen, isiɣzaf rnan-d wiyaḍ. Ha-ten-id akk dagi, anwa i ten-id-yettaken d acḥal seg ugbur i ten-iseqdacen. Anaw n yisefka i tseqdac taffa n yisefka maca yiwen ur t-yettjerrid ara, ad yerreẓ agbur i t-yesεan.</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>Igrawen n yismilen</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>Ales asiḍen tura deg wadeg n useqdec n yisiḍen n tesdatin tineggura.</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>Ales asiḍen</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Tamuɣli tamatut</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>Yettwajerred</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>Tettwaseqdac</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>Ur yettwaseqdac ara</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>Isiɣzaf i d-yettaken anawen n yisefka</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>Iyla n usmil</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>Iyalen n tɣawsa</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>Ur yettwajerred ara</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>Yettwabder, afaylu ulac-it</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>%count n wanawen n yisefka ttwasqedcen maca ur ttwajerden ara</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>%class_attributes n tɣarac n usmil d %object_attributes n tɣarac n tɣawsiwin sεan anaw n yisefka ur yettjerrid ula d yiwen n usiɣzef neɣ n uɣewwar. Tiɣawsiwin-nsen ur zmirent ara ad ttwaskanent, ad ttwaẓergent neɣ ad ttwasuffɣent. Rmed asiɣzef i d-yettaken anaw n yisefka, neɣ beddel asmil.</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>Sken-d kan wigi</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>Af-d anaw n yisefka</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>Asulay, isem, asmil PHP neɣ asiɣzef.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Sken</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Akk</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>Yettunefk-d sɣur</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>Meṛṛa</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>Aẓar</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>Ulac anaw n yisefka yemṣadan d imsizdeg-a.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Sken akk</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>Asiɣzef</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%shown seg %count n wanawen n yisefka, %used ttwasqedcen</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>Taffa n yisefka tesεa tiɣarac n usmil neɣ n tɣawsa seg wanawen-a n yisefka, maca content.ini ur yebder ula d yiwen seg-sen, neɣ afaylu-ines ulac-it.</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>Anawen n yisefka n %provider</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>Anaw n yisefka</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>Asmil PHP d ufaylu</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>Ismilen</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>Tiɣawsiwin</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>Tibzimin</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>ulac</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>Ulac anaw n yisefka yemṣadan d unadi. Sfeḍ anadi.</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>%shown seg %count n wanawen n yisefka ttwaskanen</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>Anawen n yisefka yettwaskanen: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>Smizzwer s %column</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>Yettwasiden %time</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>Akk anawen n yisefka</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>Asebter n tallalt</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>Anaw-a n yisefka yettwaseqdac maca ur yettwajerred ara</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>Tiɣawsiwin n ismilen-a ddaw ur zmirent ara ad ttwaskanent, ad ttwaẓergent neɣ ad ttwasuffɣent alamma yella usiɣzef i yettjerriden anaw-a n yisefka. Rmed asiɣzef i t-id-yettaken, rnu-t ɣer content.ini [DataTypeSettings] AvailableDataTypes[], neɣ beddel ismilen.</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini yebder anaw-a n yisefka, maca ulac akaram n wanawen n yisefka i yesεan afaylu-ines. Yiwen ur t-iseqdac; kkes-it seg AvailableDataTypes[] neɣ rmed asiɣzef-ines.</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>Ɣef wanaw-a n yisefka</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>Asulay</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Isem</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Asiɣzef %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>ula d yiwen</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>Asmil PHP</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Afaylu</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>Deg AvailableDataTypes[]</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ih</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ala</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>Ijga n wazal-is</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>Ijga n yiɣewwaren n tɣara-ines n usmil</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>Tifelwin</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>Ijga d tfelwiyin ttwafen-d s tɣuri n tengalt n wanaw n yisefka: d amnir, mačči d tamuli.</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>Timudmiyin</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Anekcum ɣer usmel</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>Tamudemt</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>Yettwaf deg</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>anedbal-a</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>asmel amezwer</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>War asemselsi: tamudemt n usemselsi yemṣadan s usmil neɣ s tɣara tezwar wigi.</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>Ismilen i t-iseqdacen (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>Ulac asmil i yesεan tɣara n wanaw-a n yisefka.</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Asmil</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>Iyla</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>Iyla n usmil (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>Ayla</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Iɣewwaren</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>Yettwasra</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>Yezmer ad yettwanadi</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>Yezmer ad yettwasuqqel</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>Yelqeḍ isallen</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>Kra n ugbur i t-iseqdacen</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>Aneggaru yettwabeddlen d amezwaru</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Yettwabeddel</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>Takerrist %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>Yal tasuqilt tesεa azal-is.</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>Anadi yettsemmar azalen-is.</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>Yezmer ad d-yejmeε talɣut sɣur yimerza (tiferkiwin).</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>Tibdarin zemrent ad ttwasmizzwent yis-s: tasarut n usmizzwer %type.</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>Izmer ad yettwasmizzwer</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>Azalen-is ttwehhin ɣer tɣawsiwin-nniḍen.</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>Isaɣen</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>Yezmer ad yettwačar seg uḍris aḥerfi (aktar, REST).</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>Seg uḍris</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>Yezmer ad yettwačar seg ufaylu.</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>Seg ufaylu</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>Iɣewwaren n tɣara-ines n usmil ttekcamen ɣer ikemmusen.</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>Ikemmusen</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>Agbur (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from ar %to ɣef %count</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Sizdeg tabdart</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>Akk ismilen</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Tigezmi</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Tutlayin</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Bab</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Yettwasiẓreg</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>Rrẓ tanila</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Ulac aferdis</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>I yal asebter</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Sken %count n yiferdisen i yal asebter.</translation>
     </message>
 </context>
 </TS>

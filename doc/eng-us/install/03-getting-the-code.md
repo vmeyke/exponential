@@ -9,6 +9,20 @@ the extensions arrive as Composer packages, how the Exponential Velocity package
 on PHP 8.0 to 8.3, and closes with a tour of every top-level entry of the installation root and the permissions to
 set before you install.
 
+> **Warning**
+> **`.htaccess` slows down every request.** When `.htaccess` files are enabled (`AllowOverride` anything but `None`), let alone
+> used, Apache looks for them and reads and evaluates them on every request, in every directory of the path, and
+> page loading times go up drastically ([measured](../guides/setup-files-from-the-console.md#measured-htaccess-against-rules-in-the-virtual-host)). The only real fix is to switch the feature off for
+> the virtual host: `AllowOverride None` in the HTTPS virtual host, and the rules in the virtual host's own
+> configuration as mod_rewrite rules. That is far faster in production speed tests and well worth the time it takes
+> to optimize a production configuration. Switch over right away: copy the rules of the
+> [example HTTPS virtual host](../examples/web-servers/apache-virtual-host.md) into your virtual host (with the static cache, also
+> [`staticcache_offload.conf`](../examples/staticcache_offload.conf)), set `AllowOverride None`, run `apachectl configtest`, reload Apache and
+> test the site. The same rules for other servers: [nginx](../examples/web-servers/nginx.md), [LiteSpeed](../examples/web-servers/litespeed.md),
+> [Caddy](../examples/web-servers/caddy.md), [IIS](../examples/web-servers/iis.md), [Velocity](../examples/web-servers/velocity.md) (built in); where virtual host rules go in a control
+> panel: [Plesk](../help/hosting/panels/plesk.md), [cPanel](../help/hosting/panels/cpanel.md), [DirectAdmin](../help/hosting/panels/directadmin.md), [ISPConfig](../help/hosting/panels/ispconfig.md).
+> **On LiteSpeed or OpenLiteSpeed,** the server's own page cache can also answer anonymous visitors and crawlers without PHP: [Page caching with LiteSpeed and OpenLiteSpeed](../guides/litespeed-page-cache.md).
+
 [Contents](README.md) · Previous: [2. Requirements](02-requirements.md) · Next: [4. Choosing an install method](04-choosing-an-install-method.md)
 
 ## 3.1 Versions, tags and branches
@@ -23,7 +37,7 @@ Exponential is published as the Composer package
 | Default branch | `main` | the current development of the 6.0 line, today 6.0.15 |
 | Release branches | `6.0.7` to `6.0.14` | the state of each release line |
 
-The newest release tag at the time of writing is `v6.0.14`; the `main` branch identifies itself as `6.0.15stable`
+The current line, 6.0.15, follows the tag `v6.0.14`; the `main` branch identifies itself as `6.0.15stable`
 (`lib/version.php`) and carries the changes described in [Changelog 6.0.15](../../changelogs/6.0/6.0.15.md). To see what
 is published now:
 
@@ -62,9 +76,10 @@ requirement your PHP does not meet:
 |---|---|---|
 | `v6.0.0` to `v6.0.7` | `^7.4 \|\| ^8.1` | not installable |
 | `v6.0.8` to `v6.0.14` | `^8.1` and later 8.x | not installable |
-| 6.0.15 (`main`, `dev-main` for Composer) | `^8.0` and later 8.x | installable |
+| 6.0.15 (`~6.0.15`; `main`, `dev-main` for Composer) | `^8.0` and later 8.x | installable |
 
-No published tag accepts PHP 8.0: on PHP 8.0, take `main` until a tag of the 6.0.15 line exists.
+None of the tags up to `v6.0.14` accepts PHP 8.0: on PHP 8.0, take the 6.0.15 line, with `~6.0.15` (the tag
+`v6.0.15` once it is published) or from `main`, which carries it.
 
 `composer.json` gives `main` the branch alias `6.0.x-dev` (`"extra": { "branch-alias": { "dev-main": "6.0.x-dev" } }`).
 Installed from `main`, the root package is then version `6.0.x-dev` as well as `dev-main`, so a package that
@@ -155,6 +170,7 @@ Without a version, Composer takes the newest stable release. To pin one, or to f
 
 ```bash
 composer create-project se7enxweb/exponential:v6.0.14 exponential
+composer create-project se7enxweb/exponential:~6.0.15 exponential
 composer create-project se7enxweb/exponential:dev-main exponential
 ```
 
@@ -268,7 +284,7 @@ stage, is part of Exponential. It is the package
 `composer.json` **requires** it (it was only suggested before 6.0.15):
 
 ```json
-"se7enxweb/exponential-velocity": "~0.0.4.55"
+"se7enxweb/exponential-velocity": "~0.0.4.57"
 ```
 
 Velocity 0.0.4.54 runs on PHP 8.0 and later (`"php": ">=8.0"`) and needs the `sockets` extension
@@ -277,10 +293,10 @@ Linux 9 included. A plain `composer install` installs it; nothing more is needed
 PHP 8.1, and `composer.json` only suggested it; an installation made in that time adds it with:
 
 ```bash
-composer require se7enxweb/exponential-velocity:~0.0.4.55
+composer require se7enxweb/exponential-velocity:~0.0.4.57
 ```
 
-`~0.0.4.55` accepts every later `0.0.4.x` release (`>=0.0.4.55 <0.0.5.0`), so Composer installs the newest of them.
+`~0.0.4.57` accepts every later `0.0.4.x` release (`>=0.0.4.57 <0.0.5.0`), so Composer installs the newest of them.
 The last position of a Velocity version counts on past 9 (`0.0.4.9`, `0.0.4.10`, ...), so a version sort, not a name
 sort, finds the newest.
 
@@ -398,14 +414,16 @@ Git repository; the others are created by Composer or at run time.
 | `index_rest.php` | The front controller of the REST API (`/api/`). |
 | `index_cluster.php` | Serves files from the database cluster. |
 | `index_treemenu.php` | The fast endpoint of the admin's content tree menu. |
-| `soap.php`, `webdav.php` | The SOAP and WebDAV entry points. |
+| `index_soap.php`, `index_webdav.php` | The SOAP and WebDAV entry points. |
+| `soap.php` | Forwards to `index_soap.php`, its name until 6.0.14; removed in a later major version ([what to change](../bc/6.0/soap-entry-script-index-soap.md)). |
+| `webdav.php` | Forwards to `index_webdav.php`, its name until 6.0.14; removed in a later major version ([what to change](../bc/6.0/webdav-entry-script-index-webdav.md)). |
 | `runcronjobs.php` | Runs cronjob parts: `php runcronjobs.php --list`. |
 | `autoload.php` | Loads Composer's autoloader and the kernel's; every entry point starts with it. |
 | `ezpm.php` | The package manager on the command line. |
 | `composer.json` | The requirements: PHP, extensions, Zeta Components. `composer.dev.json` holds the development tools of `make devtools` (installed into `.devtools/`); `composer.json.dist` is an older upstream manifest kept for reference. |
-| `.htaccess_root` | Apache rewrite rules; copy to `.htaccess` (`cp .htaccess_root .htaccess`). `.htaccess_root_static` is the same with the rules that serve the static cache ahead of the application. |
+| `.htaccess_root` | Apache rewrite rules; copy to `.htaccess` with `./console exp:setup:htaccess --apply` (or `cp .htaccess_root .htaccess`). `.htaccess_root_static` is the same with the rules that serve the static cache ahead of the application (`exp:setup:htaccess --static --apply`). |
 | `kickstart.ini-dist` | The commented template of `kickstart.ini`; `kickstart.ini--example` is an example. |
-| `config.php-RECOMMENDED` | A documented list of the settings `config.php` can make; rename to `config.php` and uncomment what you need. |
+| `config.php-RECOMMENDED` | A documented list of the settings `config.php` can make. Copy it to `config.php` with `./console exp:setup:config --apply` (or `cp config.php-RECOMMENDED config.php`), list the settings with `./console exp:config:list` and set one with `./console exp:config:set <NAME> <value> --apply` instead of uncommenting it in an editor. See [Setting up .htaccess and config.php from the console](../guides/setup-files-from-the-console.md). |
 | `config.env.php.example` | Copy to `config.env.php` to name the machine's environment (`EXP_ENV`); see [Settings per environment](../features/6.0/environment-settings.md). |
 | `exponential.cron`, `ezpublish.cron` | Example crontabs for the cronjobs (`crontab exponential.cron` after setting its two variables, `EXPONENTIALROOT` and `PHP`). |
 | `sw.js`, `index.js` | The site's service worker. |

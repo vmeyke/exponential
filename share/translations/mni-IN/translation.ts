@@ -984,6 +984,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>পেজ অসি অমতা সার্চ তৌরি: %count গী মনুংদগী %from দগী %to.</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>কর্নেল অমসুং এক্সটেন্সনশিংগী ডেটা মরীক পুম্নমক, অমসুং ক্লাস অমসুং কন্টেন্টনা মদু করম্না শিজিন্নবগে।</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>ডেটা মরীকশিং</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2316,6 +2324,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>সিস্টেম পেজশিংসু বুকমার্ক তৌজরি: পেজ অদু ফোংবিয়ু (সেটআপ, অডিট ট্রেইল, ইউজর তালিকা ...) অদুগা মগী মতাংদা "পেজ অসি বুকমার্ক তৌবা" সিলেক্ট তৌবিয়ু. অসী মরীকপা বুকমার্কদা গিয়র আইকন অমা লৈ.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>পেজ অসি মফম অসিদা হৌজিক হাংদোকপা ঙমলরোইদ্রে. বুকমার্ক থোক্কদবিয়ু, নত্রগা এদমিনিষ্ট্রেটর অমদা একসেস হায়জবিয়ু.</translation>
     </message>
 </context>
 <context>
@@ -5165,6 +5177,210 @@
         <source>Go to the first page</source>
         <translation>অহানবা পেজতা চৎপা</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>অমনা</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>মখলগী নুমিৎ 7</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>মশানা খল্লবা মতম</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>ৱাহৈ পুম্নমক</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>ৱাহৈ কনানা অমত্তা</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>চুম্লবা ৱাহৈ পরেং</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>মরী লৈনবা</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>মিং A–Z</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>মিং Z–A</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>সুধরবা, অনৌবা অহানবা</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>সুধরবা, অরিবা অহানবা</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>থাদোকপা, অনৌবা অহানবা</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>থাদোকপা, অরিবা অহানবা</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>সুধরবা</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>ফিল্টরশিং</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>ফিল্টরশিং উৎপা</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>ফিল্টরশিং নৈহনবা</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>রিসেট তৌবা</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>লাগ্নবা</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>ৱাহৈশিং</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>কন্টেন্টকী মখল</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>হেন্না উৎপা (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>কন্টেন্টকী মখল অমগী এট্রিবিউট অমদা থিনবগীদমক কন্টেন্টকী মখল অমা খল্লু।</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>সেক্সন</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>মখোয়দগী</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>মফম</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>হৌবা তারিখ অসি চুম্বা তারিখ নত্তে।</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>লোইবা তারিখ অসি চুম্বা তারিখ নত্তে।</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>মওংবা</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>ইউজর ID, লোগিন নত্ত্রগা ই-মেল এড্রেস।</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>“%input” গীদমক ইউজর অমত্তা ফংদ্রে।</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>লোন্</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>লোন্ কনানা অমত্তা</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>মখোয়</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>মফম %count</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>লমায় অমদা ফলাফল</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>“%text” গী ফলাফল (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>ফলাফল (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>মসিগী অসিনা সর্ট তৌবা</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>সর্ট তৌবা</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>চালু ফিল্টরশিং</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>ফিল্টর অসি থোক্কনবা</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>নত্ত্রগা মান্নবা কন্টেন্ট লিস্ট তৌনবা ফিল্টরশিং খল্লগা লাগ্নবীয়ু।</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>ৱাহৈশিং টাইপ তৌরবা মতুংদা ফিল্টরশিংনা থিবা অসি অপিকপা ওইহল্লি।</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>“%text” গী ফলাফল অমত্তা ফংদ্রে।</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>ফলাফল অমত্তা ফংদ্রে।</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>মথক্তা লৈবা ফিল্টর অমা থোক্কদবীয়ু।</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>অনুবাদশিং</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>একসন</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>%name এডিট তৌবা</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>এডিট তৌবা</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -7514,6 +7730,10 @@
         <source>Setup &gt; Cronjobs</source>
         <translation>সেটআপ &gt; ক্রনজব</translation>
     </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>ক্রনজবগী শরুক অমত্তা হৌজিক ফাওবা চলাখিদ্রি: জবগী লাইন, ইমপোর্টশিং, ৱাংবাশিং অমসুং সার্চ ইন্দেক্স ঙাইরি. php bin/php/installcrontab.php --add --apply চলাবিয়ু, নত্রগা --show না উৎপা লাইনশিং crontab ফাইলদা যোগ তৌবিয়ু.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/dashboard/drafts</name>
@@ -8058,8 +8278,8 @@
         <translation>অহানবা ইরাকপাশিং অমসুং Exponential গা থোক্কখিবা তৃতীয় পক্ষগী সফ্টৱেয়রকী কপিরাইট নোটিসশিং লাইসেন্সনা ঙাক্লবগী মখলগা সোর্স ফাইলশিং অমসুং LICENSE ফাইলদা থম্লি.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>মখাদা লৈবা অসি eZ Systems Contributor Licensing Agreement গী চর্তশিংগী মখুংদা 7x না ইউজ তৌবগী ফাওহনি মখোইগী ৱারোল লাইসেন্স পীখিবা Exponential গী অবদান পীবাশিংগী তালিকানি. চুক্তি অসিনা য়ানবগী ওইনা 7x নুংদা অবদান অমা অমা অসি অবদান অসি লৈবা ফাইলকী লাইসেন্স অসিনা অমতা ওইনা পুন বিতরণ তৌরি. তালিকা অসিদা অবদান পীবা অমা অমাগী মমিং, ইচ্ছাধীন খুৎচিন্নবগী ইনফরমেসন অমসুং মখোইনা অবদান পীখিবা নত্রগা ৱারোল তৌখিবা ফাইলশিং ইশিনখ্রে.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>Exponential অমসুং মসি থোরকখিবা ছোফতৱেরদা থবক তৌখিবগীদমক থাগৎপা ফংলিবা মতেং পাংলকপশিং, মখোয়না মতেং পাংলকখিবা ফাইলশিংগা লোয়ননা। মসি থাগৎপনি, কপিরাইটকী খঙহনবা নত্তে: Exponential দা পীবা মতেংশিং Contributor Licensing Agreement গী মখাদা Exponential Foundation অমসুং 7x দা পীদোকই।</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13881,32 +14101,20 @@ Note: The packages will not be uninstalled.</source>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%evaluate_link"&gt;Exponential Enterprise Edition ইন্দ্রি ফংবা&lt;/a&gt; - &lt;a href="%share_link"&gt;Exponential কমিউনিটিগী মেম্বর ওইনা, ফোংদোকনা অদুগা ফাংহনবিয়ু&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; কপিরাইট &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; অদুগা অতোপ্পাশিং.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class="edition-info"&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>&lt;span class="edition-info"&gt;%edition&lt;/span&gt; নে চলহনবা. অতৈ তথ্যগী লাগি &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt; ফংবিয়ু.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; কপিরাইট &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; অদুগা অতোপ্পাশিং.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> অতৈ তথ্যগী লাগি &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt; ফংবিয়ু.</translation>
     </message>
     <message>
-        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; কপিরাইট &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; অদুগা অতোপ্পাশিং.</translation>
+        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href="%evaluate_link"&gt;Exponential (7x গী) ইন্দ্রি ফংবা&lt;/a&gt; - &lt;a href="%share_link"&gt;Exponential কমিউনিটিগী মেম্বর ওইনা, ফংজেল ফংনা অদুগা ফাংহনবিয়ু&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; কপিরাইট &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; অদুগা অতোপ্পাশিং.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13915,6 +14123,61 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Help center</source>
         <translation>ফংজেল কেন্দ্র</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>কন্টেন্ট</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>দোকুমেন্টকী লমায়শিং</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>ইউজরশিং</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>কন্টেন্ট ক্লাসশিং</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>এদমিনিষ্ট্রেসন</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>লমায় %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>ফলাফল পুম্নমক য়েংবা</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>ফলাফল %count</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>ফলাফল অমা</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>পাউতাক %count</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>পাউতাক অমত্তা লৈতে</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>পাউতাকশিং লোড তৌবা ঙমদ্রে।</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>পাউতাকশিং</translation>
     </message>
 </context>
 <context>
@@ -14383,6 +14646,14 @@ Note: The packages will not be uninstalled.</source>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>ইনস্টলেসন অসি পাবলিক ডেমো অমনি: করনাসু মসিগী এদমিনিষ্ট্রেটর পাসওয়র্দ খঙজরি, অদুগা এদমিনিষ্ট্রেটর পাসওয়র্দ সুধরজরদে নত্রগা রিসেট তৌজরদে. অসিদা প্রাইভেট করিসু ইনবিগদ্রবিয়ু.</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>নঙ্গী ডিভাইসশিং</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>সুরক্ষাগী থবকশিং</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14672,6 +14943,14 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>গাইদশিং, সার্চ অদুগা ভুল করম্না রিপোর্ট তৌগদনো.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>অনৌবা কন্টেন্ট</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>অনৌবা কন্টেন্ট, য়েংশিনবগীদমক থিংলিবা, অমসুং সিলেক্সন অমদা কামশিং.</translation>
     </message>
 </context>
 <context>
@@ -15130,6 +15409,46 @@ Note: The packages will not be uninstalled.</source>
         <source>Synchronisations</source>
         <translation>সিংক্রোনাইজেসনশিং</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>GraphQL API: মসিগী এন্দ পোইন্ত, স্কিমা অমসুং কোয়েরি চংশিনবগীদমক প্লেগ্রাউন্দ অমা।</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>মাইগ্রেসনশিং</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>ফাইল ওইনা থম্লিবা ইনস্টলেসনগী অহোংবশিং: মখোয়গী স্থিতি, রনশিং, রন তৌবা অমসুং রোলবেক তৌবা.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>অনৌবা কন্টেন্ট</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>অনৌবা কন্টেন্ট, য়েংশিনবগীদমক থিংলিবা, অমসুং সিলেক্সন অমদা কামশিং.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>সাইট অমগী স্টেটিক কোপি GitHub Pages নত্রগা git হোস্ট কনাগুম্বা অমদা প্রকাশ তৌবা.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>স্টেটিক প্রকাশন</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>ডেটা মরীকশিং</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>কর্নেল অমসুং এক্সটেন্সনশিংগী ডেটা মরীক পুম্নমক, অমসুং ক্লাস অমসুং কন্টেন্টনা মদু করম্না শিজিন্নবগে।</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15294,6 +15613,22 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>করনাসু ব্যবহার তৌদবা নত্রগা ফংনা ঙমবা একাউন্টশিং; বন্দ তৌবিয়ু, আনলক তৌবিয়ু নত্রগা এক্সপোর্ট তৌবিয়ু.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>ইউজর অডিট লগ</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>একাউন্ট অমমমগী মতাংদা কনানা হোংদোকখিবগে, কনানা লগইন তৌখিবগে নত্রগা কনাবু য়াদখিবগে; ফিল্টর তৌবা অমসুং এক্সপোর্ট তৌবা.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>লগইনগী রিপোর্ট</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>কনা লগইন তৌরি, নুমিৎ খুদিংগী লগইন অমসুং ঙমদবশিং; ইউজর অমবু মফম খুদিংদগী লগআউট তৌবা.</translation>
     </message>
 </context>
 <context>
@@ -22110,6 +22445,22 @@ Note: The packages will not be uninstalled.</source>
         <source>%n hours ago</source>
         <translation>ঘন্টা %n মখল</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>GraphQL API গী পুথম্লবা কোয়েরিশিংগী পাউখুমশিং, অমসুং মসিগী স্কিমাগী কন্তেন্ত ক্লাসশিং।</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>স্টেটিক কোপি অমা GitHub Pages নত্রগা git হোস্ট কনাগুম্বা অমদা প্রকাশ তৌবা</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>স্টেটিক প্রকাশন</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>স্টেটিক কেশনা সর্ভর অসিদগী পেজশিং পীরি. সাইট অমগী স্টেটিক কোপি অতোপ্পা মফমদা, GitHub Pages নত্রগা git হোস্ট কনাগুম্বা অমদা প্রকাশ তৌনবা স্টেটিক প্রকাশন শিজিন্নবিয়ু.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25651,6 +26002,10 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>last purge</source>
         <translation>মখলগী ফাহনবা</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>ইরবশিংনা ফিভম্গী লোক লৌবা ঙমদ্রে (অরোইবা %date): মখোয় মমা মমানা কেশ তৌখিবা মহৈ পুম্নমক অরিবা ওহনখ্রে। সাইট অসি চলবা শিজিন্নরিবা মী খুদিংমক্না %file ইবা ঙমগদবনি; NFS দা NFSv4 নত্ত্রগা lockd মথৌ তাই।</translation>
     </message>
 </context>
 <context>
@@ -33599,6 +33954,14 @@ Note: The packages will not be uninstalled.</source>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>PHP হ্যান্দলরগী মতম পুরবা সেসনশিং PHP অমুকনা থোক্কনি (session.gc_maxlifetime), পেজ অসিনা নত্রগা session_gc ক্রনজোব অংশনা থোক্কনদে.</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>ইউজর খুদিংমকগী লগইন তৌরিবা সেসনশিং লগইনগী রিপোর্টতা উৎলি অমসুং মফম অদুদগী লগআউট তৌবা য়াই; মসিনা সেসন হেন্দলর খুদিংমকগা থবক তৌই.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>লগইনগী রিপোর্ট হাংদোকপা</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37923,6 +38286,26 @@ your account.</source>
     <message>
         <source>None yet</source>
         <translation>ঙসিদা অমুক লৈদে</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>সুরক্ষাগী থবকশিং</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>হৌখিবা নুমিৎ খরগী নঙ্গী লগইনশিং, ঙমদবা হোৎনবশিং অমসুং পাসওয়র্দ, ই-মেইল ঠিকানা অমসুং দুইগী স্তরগী সাইন ইনদা অহোংবশিং.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>একাউন্ট অসিগী হৌখিবা নুমিৎ খরগী লগইনশিং, ঙমদবা হোৎনবশিং অমসুং সুরক্ষাগী অহোংবশিং.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>থবকশিং য়েংবা</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>ঙমদবা লগইন: %count</translation>
     </message>
 </context>
 <context>
@@ -44089,6 +44472,42 @@ If you want to send comments to the approver or view the status use the URL belo
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>লগইন তৌরবগী মখাদা ইউজরনা অতোপ্পা করিসু তৌবগী মখলদা অনৌবা পাসওয়র্দ অমা সিলেক্ট তৌবা ঙমই. মীঅমদা অস্থায়ী পাসওয়র্দ পীবদা মসি ব্যবহার তৌবিয়ু.</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>লৈরিবা ইমেজ অমা খনবিয়ু</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>নহাক্না খনবা অবজেক্ট অদুগী ইমেজ ফাইল অসি ফিল্ড অসিদা কোপি তৌই. অতোপ্পা অবজেক্ট অদু হোংদোকপা লৈতে.</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>"%name" গী ইমেজ অসি ফিল্ড অসিদা কোপি তৌরে.</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>ইমেজ অমা ব্রাউজ তৌবা</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>মমিংগী মথক্তা ইমেজশিং সার্চ তৌবা</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>সার্চ</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>"%name" গী ইমেজ শিজিন্নবা</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>ইমেজ অসি শিজিন্নবা</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>নহাক্কী সার্চকা মান্নবা ইমেজ অমত্তা লৈতে.</translation>
     </message>
 </context>
 <context>
@@ -51013,6 +51432,10 @@ See the requirements page for more information.</source>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>crontab ইদ্রে (%reason). সাইট চলিবা ইউজরগী crontab দা লাইন অসিশিং যোগ তৌবিয়ু, নত্তরো কিউ, ইম্পোর্ট, ৱাংবাশিং অমসুং সার্চ ইন্দেক্স মতম্না চলদে:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>অমুক হন্না ইনস্তল তৌবা হায়বসি কিকস্তার্তরনা (%file, অদুগা php bin/php/kickstarter.php run --apply) নত্রগা অনৌবা ইনস্তলেসন অমনা তৌই.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54892,6 +55315,10 @@ your account.</source>
         <source>eZJSCore Public Packer cache</source>
         <translation>eZJSCore পাব্লিক প্যাকর কেশ</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>GraphQL ক্যাশ (পাউখুমশিং অমসুং স্কিমা ক্লাসশিং)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54978,6 +55405,14 @@ your account.</source>
     <message>
         <source>Copy of %class_name</source>
         <translation>%class_name গী কপি</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>ডেটা মরীকশিং</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>ডেটা মরীক %string</translation>
     </message>
 </context>
 <context>
@@ -55804,6 +56239,26 @@ your account.</source>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>SVG ইমেজ অসি পাংজরদে, নত্তরোইসু মনুংদা নিরাপদ তৌনা ফোংদোকপা ঙমবা অমতা লৈদে.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>ইমেজ অদু কোপি তৌবা ঙমদ্রে. অনৌদা ফংবিয়ু নত্তরেগা সাইটগী এদমিনিষ্ট্রেটরগা য়ান্নবিয়ু.</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>খনখিবা অবজেক্ট অদু লৈতে নত্তরগা নহাক্না মদু পাবা য়াদে.</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>খনখিবা অবজেক্ট অদুদা ইমেজ লৈতে.</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>খনখিবা অবজেক্ট অদুগী ইমেজ ফাইল পাবা ঙমদ্রে.</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>খনখিবা অবজেক্ট অদুগী ইমেজ অসি ফিল্ড অসিনা য়াবা মখাক্তগী চাউই: %1 বাইট.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56334,6 +56789,42 @@ your account.</source>
         <source>The bookmark was renamed to "%name".</source>
         <translation>বুকমার্কগী মমিং "%name" ওইনা সুধরখ্রে.</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>পেজ অসি সাইট একসেস অসিদা (%siteaccess) বন্দ তৌরে. পেজ অসি লৈবা সাইট একসেস অমদা বুকমার্ক হাংদোকপিয়ু.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>পেজ অসিগী মডিউল মফম অসিদা ইনস্টল তৌদ্রি নত্রগা ইনেবল তৌদ্রি.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>পেজ অসি হৌজিক লৈরোইদ্রে: মসিগী মডিউলদা অসুম্বা ভিউ অমত্তা লৈতে.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>নঙ্গী ভূমিকাশিং অমত্তনা পেজ অসি হাংদোকপগী অনুমতি পীদে.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>সাইট একসেস অসি শিজিন্নবগী অনুমতি লৈতে.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>পেজ অসিনা উৎলিবা কন্টেন্ট পাবগী অনুমতি লৈতে.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>পেজ মখল অসি বুকমার্ক তৌবা ঙমদে: মসিনা ফোর্ম অমদা খক্তমক থবক পাংথোকই, নত্রগা মতম খরগী পেজ অমনি.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>পেজ অসিগী ঠিকানা লৈতে.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>পেজ অসি হৌজিক হাংদোকপা ঙমদে.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56805,6 +57296,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>মখাংগী রানদা মেইল ট্রান্সপোর্টনা মেসেজ %count ফংদখ্রে. মেইল সার্ভর অমসুং site.ini MailSettings চেক তৌবিয়ু.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>থৌদোক %count ঙাইরি অমসুং ৱাংবাগী ক্রনজব চলাখিবা অমত্তা রেকর্ড তৌদ্রে. ক্রনজবগী শরুক &quot;frequent&quot; crontab ফাইলদা যোগ তৌবিয়ু, নত্রগা exp:notification:run --apply চলাবিয়ু.</translation>
     </message>
 </context>
 <context>
@@ -63061,6 +63556,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Choose another site or section with the node picker</source>
         <translation>নোদ পিকরনা সাইট নত্তসু সেক্সন অমুক সিলেক্ট তৌবিয়ু</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>সিস্তেম এদমিনিস্ত্রেতর খক্তনা মালিক হোংদোকপা ঙম্মি: root ওইনা ./console exp:content-check --fix-permissions --apply চলাবিয়ু.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64594,6 +65093,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>empty</source>
         <translation>খালি</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>সাইন তৌবগী কী অসি চহি অমদগী হেন্না অরিবা ওইরে: exp:audit key rotate --apply না মসি হোংদোকপিয়ু.</translation>
     </message>
 </context>
 <context>
@@ -68424,6 +68927,486 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Share of page time</source>
         <translation>পেজগী মসময়গী অংশ</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>রেন্ডর পুম্নমক তৌনবা হায়জখি</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>পেজ কেশদা পেজ অসি লৈরমদে (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>পেজ কেশনা পাউখুম পীখিদে</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>রেন্ডর তৌরে</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>কর্না রেন্ডর তৌরে: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>পেজ কেশদগী %ms ms দা পীখ্রে. পেজ অসি %stored দা %render ms গী রেন্ডর অমনা থম্লম্মি, %age s মমাংদা.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>হৌজিক রেন্ডর তৌবা</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>কেশ তৌরবা ভিউদা লেপ্পা</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>%stored গী রেন্ডরদগী (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>রিকোয়েস্ট অসি: পেজ কেশদগী %ms ms দা পীখ্রে.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>ইউজর</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>ইউজর ID</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>কেশ প্রোফাইল</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>ভিউ অসি</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>ভিউ কেশ</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>ইউজর মমা মমাগী (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>ইউজরগী কেশ প্রোফাইল: প্রোফাইল মান্নবা ইউজরশিংনা ভিউ কেশ ফাইলশিং শেয়র তৌই</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>অমুক</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>মতোক</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>লগইন মমিং</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>লগইন তৌরে</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>সেসন</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>লমায় অসিগী ViewCacheTweaks মখাদা, কন্টেন্ট ভিউ কেশ কী-গী ইউজরদা মখা পোনবা শরুকশিং, কী-না লৌবগুম্না। প্রোফাইল মান্নবা ইউজরশিংনা ভিউশিংগী কেশ ফাইলশিং শেয়র তৌই, ভিউ মশাগী শরুকশিং তোঙান্নদ্রবদি (পাম্বশিং, লিসনরশিংগী কী): মখোয়গী মশাগী প্রোফাইল লৈ, লমায় অসিগীদমক্তা।</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>প্রোফাইল</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>ভিউ অসি (নোড %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: লগইন তৌরবা ইউজর খুদিংমক্না মশাগী কেশ ফাইলশিং লৈ।</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>চলিরিবা ViewCacheTweaks: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>অংশ</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>মান</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>ইউজরদা মখা পোনবা শরুক অমত্তা লৈতে (ViewCacheTweaks)।</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>ভিউ অসি</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>টেক্সট ওইনা কোপি তৌবা</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>ভূমিকাশিং</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>রোল পীবগী ওইবা অমত্তা পাবা ঙমদ্রে।</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>রোল ID</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>ভূমিকা</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>চাঙ্গোয়বা</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>পীখ্রবা</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>ইউজর</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>গ্রুপ %name (অবজেক্ট %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>কপি তৌরে</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>কোপি তৌবা ঙমদ্রে।</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>লিসনর অমনা থাদোকখ্রে</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>মমিং ফংদবা ভিজিটরশিং</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>নহাক্কীগা মান্নই</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>তোঙান্নই</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>মমিং খংদবা লাকপশিংনা ViewCacheTweaks অদুগী মখাদা ফংবা প্রোফাইল, দিফোল্ট পাম্বশিংগা লোয়ননা, ভিউগী শরুকশিং য়াওদনা: সেসন পাবা লিসনরদা মখোয়গী মরমদা হংবা ঙমদে।</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>পাম্বশিং</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>ভিউ মোড অমত্তা ইউজরগী পাম্বশিংদা মখা পোনদে (site.ini [ContentSettings] CachedViewPreferences)।</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>ভিউ মোড অসিশিংগী ভিউশিংনা মখা পোনবা পাম্বশিং (CachedViewPreferences), ইউজরগী ভেল্যু নত্রগা দিফোল্টকা লোয়ননা। মখোয় প্রোফাইলদা userpreferences ওইনা লৈ, ভিউ মোড পুম্নমকগী পুনশিনদুনা।</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>ভিউ মোদ</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>পাম্বা</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>ডিফল্ট</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>পলিসিশিং</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>রোলশিংগী পোলিসিশিং উৎলু (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>শরুক অসি হাংদোকপা মতমদা পোলিসিশিং সর্ভরদগী লোড তৌই, অমা অমা লমায়, অমসুং মোড্যুল অমসুং ফঙ্কসন্না ফিল্টর তৌবা য়াই।</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>ফাংকসন</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>মডিউল খুদিংমক</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>ফঙ্কসন পুম্নমক</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>চাঙ্গোয়বাশিং</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>হেন্না উৎলু</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>রোল অসিশিংদা পোলিসি অমত্তা লৈতে।</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>ফিল্টরগা মান্নবা পোলিসি অমত্তা লৈতে।</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%matching পোলিসিগী মনুংদা %shown (পুম্নমক %total)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>ইক্পা মতমদা লোড তৌই।</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>মডিউল/ফাংকসন, ভূমিকা, চাঙ্গোয়বা</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>পলিসিশিং সার্চ তৌবা</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>মরক্না লোড তৌরো</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>মডিউল/ফাংকসন</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>ভূমিকা পুম্নমক (পলিসি %count)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>ইকাউবা পলিসি অমত্তা লৈদে।</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>পলিসি %matched গী মনুংদগী %shown</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>হায়বা অমত্তা লৈদে।</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>মাস্ক তৌরবা</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>খঙদোকপশিং উৎপা</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>খঙদোকপশিং থুপ্পা</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>ফোংবা</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>খুদিংমক ফোংবা</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>খুদিংমক শেম্বা</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>কী নত্রগা মান</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>সেসনদা থিবা</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>মরীক</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>অতোপ্পা %count</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>উৎনবা য়াদবা মরম্না য়াম্না অরুবা নেস্ট তৌরি</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>কাক্লে, পুম্নমক %count অক্ষর</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>শুরু তৌরে</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>কুকীগী মমিং</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>সেসন ID</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>হ্যান্ডলর</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>সেভ তৌবগী লম্বী</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>PHP দিফোল্ট</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>হিংবগী মতম (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>কুকী</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>হিংবগী মতম %s s</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>নহাক্কী মশাগী PHP সেসন, সেক্সন অসি হাংদোকপা মতমদা লৈরম্বা অদুগুম্বা, অতোপ্পা অমা কদাইদসু নত্তে। অরুপ্পা ওইবা মওং দৌবা কীশিংগী (তোকেন, হেস, পাসৱার্দ) মানশিং মাস্ক তৌই (debugbar.ini SessionMask[]); অতোপ্পা পুম্নমক থম্লবা অদুগুম্না উৎই, মশাগী দেতা ফাওবা।</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>কী %count, %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>অচৌবা</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>সেসন অসি অহাংবা ওই।</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>রিক্বেস্ত অসিগীদমক সেসন অমত্তা হৌদোকখিদে।</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>এক্সটেন্সন %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>কর্নেল অমসুং অতোপ্পশিং</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>এন্ট্রি খুদিংমক উৎতে: সেসনদা মফম অসিদা লিস্ত তৌবা য়াবদগী হেন্না লৈ।</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>কী %count লিস্ত তৌদ্রি।</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>ফ্রেম</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>তোকেন্গুম্বা মওং দৌবা মানশিং (JSON Web Token, Authorization হেদরগী ক্রেদেন্সিয়েলশিং, প্রাইভেত কী, অসাংবা হেক্স নত্রগা রেন্দম তেক্সত) মখোয়গী কীগী মমিং করিগুম্বা ওইরবসু মাস্ক তৌই (debugbar.ini SessionValueMask[]).</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>কী অসি অরুপ্পা অমগুম্না উৎই (debugbar.ini SessionMask[]).</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>মান অসি তোকেন অমগুম্না উৎই।</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>মাস্ক তৌরবা কী অমগী মখাদা।</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>তেক্সত ওইনা সেসন, তেবলগুম্না মাস্ক তৌরবা।</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>সেসন অসি %size দগী চাউই (debugbar.ini SessionWarnBytes): ইউজর অসিগী রিক্বেস্ত খুদিংমকনা সেসন পুম্নমক পাই, অমসুং অদু হোংলবা মতমদা ইই।</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP না সেসন অসি ফাইলশিংদা থম্মি অমসুং রিক্বেস্ত পুম্নমক্কীদমক ফাইল অদু লক তৌই: ইউজর অমত্তগী রিক্বেস্তশিং (তেব কয়া, AJAX কোল) অমনা অমবু ঙাই।</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>হাংদোক্লগা থম্মু</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>%size দগী চাউই (debugbar.ini SessionWarnBytes): ইউজর অসিগী রিক্বেস্ত খুদিংমকনা সেসন পুম্নমক পাই।</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%count গীদমক %hits কেশদগী পাংলে</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>টেম্প্লেট অমত্তা রেন্দর তৌদ্রে (ভিউ কেশদগী পাখিবা ভিউ অমনা অমত্তা রেন্দর তৌদে)।</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>ভূমিকা অসাইনমেন্টশিং</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>ভূমিকা অদুগা পলিসিশিং</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>মমিং লৈতবা লাকপশিংদগী তোঙানবা</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>মমিং লৈতবা লাকপশিংগা মান্নবা</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70304,6 +71287,14 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>not sent</source>
         <translation>পাঠাদ্রবা</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>ৱাংবাগী ক্রনজবনা মসিগী চলাবা খুদিংমক মফম অসিদা রেকর্ড তৌই. শরুক frequent crontab ফাইলদা যোগ তৌবিয়ু, নত্রগা exp:notification:run --apply চলাবিয়ু.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>কনসোল শিজিন্নবিয়ু: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -76022,6 +77013,98 @@ You will need to change the class of the node by using the swap functionality.</
         <source>This topic is not Released; readers do not see it.</source>
         <translation>বিষয় অসি রিলিজ তৌদ্রে; পাংবা মীশিংনা মসি ফংদে.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>মাইগ্রেসনশিং</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>ফাইল ওইনা থম্লিবা ইনস্টলেসনগী অহোংবশিং: মখোয়গী স্থিতি, রনশিং, রন তৌবা অমসুং রোলবেক তৌবা.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>সাইট অমগী স্টেটিক কোপি GitHub Pages নত্রগা git হোস্ট কনাগুম্বা অমদা প্রকাশ তৌবা.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>স্টেটিক প্রকাশন</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>রিভিউদা লৈরি</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>পাংবা মীশিংনা লমায় অসি ফংই.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>কনাগুম্বা অমনা রিলিজ তৌদ্রিফাওবা পাংবা মীশিংদগী থুপ্না থম্লি.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>লমায় অসি ঙসি রিভিউদা লৈরি. রিলিজ তৌদ্রিফাওবা পাংবা মীশিংদগী থুপ্না থম্লি.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>লমায় অসি রিলিজ তৌরে: পাংবা মীশিংনা ঙসি ফংরি.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>লমায় অসি অমুক ড্রাফ্ট ওইরে. রিভিউ তৌরগা রিলিজ তৌদ্রিফাওবা পাংবা মীশিংদগী থুপ্না থম্লি.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>ঙসি রিলিজ তৌবা</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>%role ভূমিকা লৈবা অমসুং ভর্সন অসি য়ুম্খিদবা শিজিন্নবা মী অমখক্তনা মসি রিলিজ তৌবা ঙম্মি.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>রিলিজ তৌনবা ঙাইরিবা ফংজেলগী বিষয়শিং</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>অমুক রিলিজ তৌদ্রিফাওবা পাংবা মীশিংদগী থুপ্লি.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>মতুংদা রিভিউ তৌবা মী অমনা চেক তৌগনি. পাংবা মীশিংনা হৌজিক ফংদ্রি.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>পাংবা মীশিংনা খুদক্তা ফংই.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>থবক হেন্না তৌনবা রিভিউদগী লৌথোকই. পাংবা মীশিংনা ফংদে.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>লমায় অসি পাংবা মীশিংদগী থুপ্কদ্রা?</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>লমায় অসি ড্রাফ্টদা হন্দোকখিগদ্রা?</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>কনাগুম্বা অমনা অমুক রিলিজ তৌদ্রিফাওবা পাংবা মীশিংনা %title অদু ফংলরোই.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title থবক হেন্না তৌনবা ড্রাফ্টদা হল্লি. পাংবা মীশিংনা হৌজিকসু ফংদ্রি, অমসুং রিলিজ তৌদ্রিঙৈগী মমাংদা অনৌবা রিভিউ অমা মথৌ তাই.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>কেন্সেল তৌবা</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>বিষয়শিং অসি রিভিউদা লৈরি. ঙসিগী ভর্সন য়ুম্খিদবা মী অমনা রিলিজ তৌবা মতমদা পাংবা মীশিংনা ফংগনি.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76477,6 +77560,46 @@ You will need to change the class of the node by using the swap functionality.</
         <source>None.</source>
         <translation>অমুক ফংদে.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>অথেন্টিকেটর এপ অমগা লোয়ননা</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>ই-মেইলদা থাখিবা কোদ অমগা লোয়ননা</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>রিকভরি কোদ অমগা লোয়ননা</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>পাসকী অমগা লোয়ননা</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>মপান্থোংগী একাউন্ট অমগা লোয়ননা</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>সুরক্ষাগী থবকশিং</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>মসিগী নেটৱর্ক ওইনা উৎলি; ঠিকানা অসি সাইতকী দাতা সুরক্ষাগী সেটিংশিংনা হায়বগী মতোংদা থম্লি.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>রেকর্ড তৌদ্রে</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>মফম</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>চপ মান্নবা</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76720,6 +77843,42 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Manage devices</source>
         <translation>ডিভাইসশিং চেন্দোকপা</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>অথেন্টিকেটর এপ অমগা লোয়ননা</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>ই-মেইলদা থাখিবা কোদ অমগা লোয়ননা</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>রিকভরি কোদ অমগা লোয়ননা</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>পাসকী অমগা লোয়ননা</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>মপান্থোংগী একাউন্ট অমগা লোয়ননা</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>সুরক্ষাগী থবকশিং</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>রেকর্ড তৌদ্রে</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>মফম</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>চপ মান্নবা</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76799,6 +77958,14 @@ You will need to change the class of the node by using the swap functionality.</
         <source>View the sessions of this user</source>
         <translation>ইউজর অসিগী সেসনশিং ফংবা</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>নঙ্গী একাউন্টনা হৌখিবা মতমদা লগইন তৌখিদবা মফম অমদগী হৌজিকসু লগইন তৌখ্রে. একাউন্ট: %login, সাইট: %site:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>চপ মান্নবা মফম</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76837,6 +78004,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%os দা %browser</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>লগইনগী রিপোর্ট</translation>
     </message>
 </context>
 <context>
@@ -77045,6 +78216,82 @@ You will need to change the class of the node by using the swap functionality.</
         <source>The passkey could not be checked. Please try again.</source>
         <translation>পাসকী অদু চেক তৌজরদে. অনুগ্রহ তৌরগা অমুক চেষ্টা তৌবিয়ু.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>পাসকীশিংনা খক্তা লগইন তৌবা একাউন্টশিংনা মফম অসিদা পাসওয়র্দ ব্যৱহার তৌবা ঙমদে: &quot;পাসকীনা লগইন তৌবা&quot; সিলেক্ট তৌবিয়ু.</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>%login গী পাসকীশিং</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>একাউন্ট অসিনা লগইন তৌবা পাসকীশিং. মংখ্রবা নত্রগা হুরান্নখিবা ডিভাইস অমদা লৈরিবা পাসকী অদু রিভোক তৌবিয়ু: মসিনা লগইন তৌজরদে. অনৌবাশিং মালিকনা মশামকতা যোগ তৌই.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>নঙ্গী একাউন্টদা পাসকী অমা মথৌ তাই</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>নঙ্গী একাউন্টদা পাসকী অমা যোগ তৌবা</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>মখা চত্থনবা পাসকী অমা যোগ তৌবিয়ু. মদুগী মতুংদা নঙনা পাসওয়র্দ খক্তা নত্তনা মসিনা লগইন তৌগনি.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>পাসকীনা লগইন তৌবা অসি পাসওয়র্দতগী হেন্না থুনাই অমসুং হেন্না অশোয়বা নাইদে. হৌজিক অমা যোগ তৌবিয়ু, নত্রগা মসি য়াওদনা মখা চত্থবিয়ু.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>হৌজিক নত্তে</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>পাসকী &quot;%name&quot; রিভোক তৌবনা?</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>মসিনা একাউন্ট অসিদা লগইন তৌজরদে. মসি অরোইবা ওইরবদি, মালিকনা পাসওয়র্দনা লগইন তৌগনি, নত্রগা নঙনা অনৌবা অমা সেত তৌবিয়ু.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>পাসকী রিভোক তৌবা</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>রিভোক তৌবা</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>একাউন্ট অসিদা পাসকী অমত্তা লৈতে.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>অথেন্টিকেটর</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>খঙদ্রবা</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>নঙ্গী অরোইবা পাসকী: মসি থোক্কনবগী মমাংদা অতোপ্পা অমা যোগ তৌবিয়ু.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>একাউন্ট অসিনা পাসকীশিংনা খক্তা লগইন তৌই (পাসকী পোলিসি): অমত্তা লেপ্পা মতমদা, মসিনা মশাগী পাসওয়র্দনা অমুক হন্না লগইন তৌই.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>মসি নঙ্গী অরোইবা পাসকীনি অমসুং নঙ্গী একাউন্টনা মসি য়াওদনা লগইন তৌবা ঙমদে. অহানবদা অতোপ্পা পাসকী অমা যোগ তৌবিয়ু.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>পাসকী &quot;%name&quot; রিভোক তৌরে. মসিনা একাউন্ট অসিদা লগইন তৌজরদে.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77144,6 +78391,34 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Code from your authenticator app</source>
         <translation>নঙ্গী অথেন্টিকেটর এপকী কোদ</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>নঙ্গীনা দেতা লোইনা ফাহনবা নত্রগা লোগ অমা অশেংবা ওইহনবদা লৈরি.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>নঙ্গী পাসওয়র্দ অমসুং পাসকী অমা</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>নঙ্গী পাসওয়র্দ অমসুং নঙ্গী অথেন্টিকেটর এপকী কোদ অমা</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>নত্রগা:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>ব্রাউজর অসিনা পাসকী ব্যৱহার তৌজরদে. অতোপ্পা মওং অমা নত্রগা অতোপ্পা ব্রাউজর অমা ব্যৱহার তৌবিয়ু.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>নঙনা মখা চত্থবা মতমদা, নঙ্গী ব্রাউজরনা নঙ্গী পাসকীশিংগী মনুংদগী অমা হায়জগনি.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>পাসকীনা মখা চত্থবা</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77234,6 +78509,70 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Setup</source>
         <translation>সেটআপ</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>মশাগী পাসওয়র্দ, ই-মেল এদ্রেস, পাসকীশিং, দুইগী স্তরগী সাইন ইন, রিকভরী কোদশিং নত্রগা API কী হোংদোকপা, অমসুং মশাগী অতোপ্পা ডিভাইসশিংদগী সাইন আউট তৌবা.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>ইউজরশিং, মখোয়গী পাসওয়র্দ অমসুং ডিভাইসশিং, একাউন্ট সেটিংশিং সেম্বা অমসুং এডিট তৌবা, অনৌবা ইউজর একাউন্টশিং য়াবা নত্রগা য়াদবা, রোলশিং পীবা অমসুং পোলিসিশিং এডিট তৌবা.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>দেতা ফাহনবা</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>ট্রেশ অশেংবা ওইহনবা, মসিদগী পোত্শিং থোক্কনবা অমসুং পোত্ কয়া অমুকতা থোক্কনবা.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>কন্টেন্ট থোক্কনবা, প্রকাশ তৌবা অমসুং থম্বা</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>কন্টেন্ট থোক্কনবা (ট্রেশতসু), প্রকাশ তৌবা অমসুং দ্রাফ্ট অমা থম্বা; ফোর্ম পাঠাবা মতমদা হংই. দিফোল্টতা অফ ওই.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>সেন্সিটিভ থবক অমগী মমাংদা লগইন তৌরবা ইউজরনা মহাক কনানো হায়বদু অমুক হন্না কনফর্ম তৌই: মশাগী পাসওয়র্দ অমসুং পাসকী অমনা, নত্রগা পাসকী লৈতবদি মশাগী পাসওয়র্দ অমসুং অথেন্টিকেটর এপকী কোদনা. ৱেব পেজশিংনা খক্তা হংই: REST ইন্টরফেস, SOAP, WebDAV, expservices লগইন অমসুং কমান্দ লাইননা কদাইদসু হংদে.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>সেটিংশিং কদাইদা চলে</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>সেটিংশিং মসিগীদমক</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>সাইট একসেস খুদিংমক</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>সাইট একসেস %name</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>হাংদোকপা</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>কনাদা হংগনি: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>মখোয়গী মেম্বরশিংদা খক্তা হংনবা ইউজর মরুপশিং টিক তৌবিয়ু (খুদম ওইনা এদিতরশিং). অমত্তা টিক তৌদ্রবদি: ইউজর খুদিংমক.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>settings/override/site.ini.append.php দা থম্লে, সাইট একসেস খুদিংমকগীদমক. থম্বা মতমদা নঙ ওইবদু কনফর্ম তৌনবা হায়গনি.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>settings/siteaccess/%name/site.ini.append.php দা থম্লে. settings/override দা লৈবা ভেল্যু অমনা মসিদগী মমাং লৈ. থম্বা মতমদা নঙ ওইবদু কনফর্ম তৌনবা হায়গনি.</translation>
     </message>
 </context>
 <context>
@@ -77336,6 +78675,6822 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Open the page</source>
         <translation>পেজ অসি ফাংবা</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from - %to, পুম্নমক %count</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>লগইন মমিং নত্রগা ইউজর ID: ঘটনা অসি মরী লৈনবা একাউন্ট, নত্রগা থবক পাংথোকখিবা ইউজর.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>একাউন্ট</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>কাম</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>মখলদা</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>রেজল্ট খুদিংমক</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>মখাদা</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>তৌবা মী</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>ফাহনবা</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>ফাংখ্রে</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>ঘটনাশিং অসি নুমিৎ %days ফাওবা থম্মী.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>ঘটনাশিং অসি খুৎনা থোক্কনবা ফাওবা থম্মী.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>ঘটনাশিং</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>কাম খুদিংমক</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>একাউন্ট অসিগী ঘটনা পুম্নমক</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>লিস্ট অসি CSV ওইনা এক্সপোর্ট তৌবা (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>ঙমদ্রে</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>হৌবা নুমিৎ</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>লিস্ট অসি অপিকপা তৌবা</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>মান্নবা ঘটনা অমত্তা লৈতে.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>পেজ অমদা</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>audit.ini দা রেকর্দিং বন্দ তৌরে ([UserAuditSettings] UserAudit); লিস্ট অসিনা হান্নদা রেকর্দ তৌখিবা অদু উৎলি.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>য়াদখ্রে</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>রেজল্ট</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>ফংবা</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>ইউজর অডিট লগকী টেবল অদু লৈতে. মসিবু php update/common/scripts/6.0/createuseraudittable.php শিজিন্নদুনা সেম্বিয়ু; মতম অদু ফাওবা অডিট ফাইলশিংনা ঘটনা খুদিংমক থম্মী.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>পেজ অসিগীদমক SQL দেতাবেস অমা মথৌ তাই; MongoDB দা মসি ফংদে. অডিট ফাইলশিংনা ঘটনা খুদিংমক থম্মী.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>লোইবা নুমিৎ</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>ইউজর অডিট লগ</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>ইউজর</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>মতম</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>মফম</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>কনানা কররম্বা একাউন্ট হোংদোকখিবগে, সেমখিবগে, চালু তৌখিবগে, বন্দ তৌখিবগে, থোংনখিবগে নত্রগা থোক্কনখিবগে, কনানা লগইন তৌখিবগে নত্রগা কনাবু য়াদখিবগে, অমসুং কররম্বা ভূমিকাশিং পীখিবগে: ঘটনা অমমমগীদমক লাইন অমা, মখাদা অমসুং মখলদগী ফিল্দশিংগা লোয়নবা. পাসওয়র্দ অমসুং অরোনবা ৱাশিং কদাইদসু রেকর্দ তৌদে.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>মরুপ</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>সিস্টেম</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>ফংদে</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>নঙ্গী একাউন্ট ঙাক্তবা</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>রিকভরি কোদ অমা শিজিন্নদুনা নঙ্গী একাউন্টতা লগইন তৌখ্রে. একাউন্ট: %login, সাইট: %site.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>রিকভরি কোদ অমা শিজিন্নখ্রে</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>একাউন্ট</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>চপ মান্নবা ঠিকানা</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>অমুক হন্না লগইন তৌনবা অনৌবা পাসওয়র্দ অমা হায়জবিয়ু, নত্রগা সাইতকী এদমিনিস্ত্রেতরশিংগা খরনবিয়ু.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>অনৌবা পাসওয়র্দ হায়জবা</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>রিকভরি কোদ অমমম অমুক খক্তা থবক তৌই. ফোন মাংখ্রবদি, অথেন্টিকেটর এপ অমুক হন্না সেত অপ তৌবিয়ু অমসুং অনৌবা রিকভরি কোদশিং শেংলবা মফমদা থম্বিয়ু.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>নঙ্গী একাউন্টতা লগইন তৌবা হোৎনখিবা ঙমদবশিং</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>হৌজিকদগী লগইন তৌবা মতমদা পাসওয়র্দকী মথক্তা কোদ অমসু হায়জগনি. মসি তৌখিবা নহাক ওইরবদি, কয়া অমত্তা তৌবা মথৌ তাদে.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>নহাক ওইরবদি অমসুং পাসওয়র্দ কাউখ্রবদি, অনৌবা অমা হায়জবিয়ু. নত্রবদি, হেন্না চেকপা পাসওয়র্দ অমা খনবিয়ু অমসুং দুইগী স্তরগী সাইন ইন চালু তৌবিয়ু.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>মসি নহাক নত্রবদি, কনানা অমনা নঙ্গী পাসওয়র্দ খঙবা য়াই: হৌজিক মসি হোংদোকপিয়ু অমসুং নঙ্গী একাউন্ট কদাইদা লগইন তৌরিবগে হায়বা চেক তৌবিয়ু.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>লৈরিবা রিকভরি কোদশিং</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>নঙ্গী ডিভাইসশিং য়েংবা</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>সুরক্ষাগী চেকশিনবা</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>কনানা অমনা অশোইবা পাসওয়র্দ্না নঙ্গী একাউন্টতা মতম চাদনা লগইন তৌবা হোৎনখি. মরক: %count, একাউন্ট: %login, সাইট: %site.</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>নঙ্গী একাউন্টতা সুরক্ষাগী থৌদোক অমা থোকখি. একাউন্ট: %login, সাইট: %site.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>মসি নঙ্গী একাউন্টগী মরমদা সুরক্ষাগী চেকশিনবা অমনি. অসুম্বা অহোংবা খুদিংমকদা থাই অমসুং মসি বন্দ তৌবা ঙম্মদে.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>মতম</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>নঙ্গী একাউন্টগীদমক দুইগী স্তরগী সাইন ইন বন্দ তৌরে. একাউন্ট: %login, সাইট: %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>দুইগী স্তরগী সাইন ইন বন্দ তৌরে</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>নঙ্গী একাউন্টগীদমক দুইগী স্তরগী সাইন ইন চালু তৌরে. একাউন্ট: %login, সাইট: %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>দুইগী স্তরগী সাইন ইন চালু তৌরে</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>য়াম্না য়াম্লবা লগইন ঙমদবগী মতুংদা নঙ্গী একাউন্ট লক তৌরে. একাউন্ট: %login, সাইট: %site.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>হৌজিক নঙ্গী একাউন্ট পাসওয়র্দ খক্তনা ঙাক্লি. মসি নহাক্না তৌখিদ্রবদি, পাসওয়র্দ হোংদোকপগী মতুংদা দুইগী স্তরগী সাইন ইন অমুক হন্না চালু তৌবিয়ু.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>নঙ্গী একাউন্ট লক তৌরে</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>%site দা লৈবা নঙ্গী একাউন্ট %login দা পাসকী অমা যোগ তৌরে.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>পাসকী অসি লৈবা কনাগুম্বা অমনা নঙ্গী পাসওয়র্দ য়াওদনা নঙ্গী একাউন্টদা লগইন তৌবা ঙমগনি. নঙনা যোগ তৌদ্রবদি, পাসকীশিংগী মখাদা মসি থোক্কনবিয়ু অমসুং নঙ্গী পাসওয়র্দ হোংদোকপিয়ু.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>%site দা লৈবা নঙ্গী একাউন্ট %login দগী পাসকী অমা থোক্কনখ্রে.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>মসিনা নঙ্গী একাউন্টদা লগইন তৌজরদে. নঙনা থোক্কনদ্রবদি, নঙ্গী পাসকীশিং অমসুং ডিভাইসশিং চেক তৌবিয়ু.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>নঙ্গী একাউন্টদা পাসকী অমা যোগ তৌরে</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>নঙ্গী একাউন্টদগী পাসকী অমা থোক্কনখ্রে</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>সুরক্ষাগী থবকশিং</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>সুরক্ষাগী থবকশিং: %name</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>লগইন তৌরে</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>লগইন তৌবা হোৎনখিবা ঙমদবা</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>লগআউট তৌরে</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>সেসনশিং লগআউট তৌরে</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>অনৌবা ডিভাইস অমদগী লগইন</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>অনৌবা মফম অমদগী লগইন</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>মশক শোয়দনা তাকখ্রে (&quot;নঙ্গী ওইবদু ভেরিফাই তৌবা&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>মশক চেক তৌবা ঙমদ্রে</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>পাসকীগা লোয়ননা লগইন তৌরে</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>পাসকীগা লোয়ননা লগইন তৌবা ঙমদ্রে</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>লগইন হনথোকখ্রে: দুইগী স্তরগী কোদ লৈতে নত্রগা অশোইবা</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>অশোইবা দুইগী স্তরগী কোদ</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>লগইন ঙমদবগী মতুংদা একাউন্ট লক তৌরে</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>একাউন্টকী লক হাংদোকখ্রে</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>পাসওয়র্দ হোংদোকখ্রে</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>পাসওয়র্দ হোংদোকপা ঙমদ্রে</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>পাসওয়র্দ রিসেত তৌরে</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>অনৌবা পাসওয়র্দ হায়জখ্রে</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>ই-মেইল ঠিকানা হোংদোকখ্রে</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>ইউজর মমিং হোংদোকখ্রে</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>দুইগী স্তরগী সাইন ইন চালু তৌরে</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>দুইগী স্তরগী সাইন ইন বন্দ তৌরে</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>রিকভরি কোদ শিজিন্নখ্রে</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>অনৌবা রিকভরি কোদশিং</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>এপ পাসওয়র্দ সেম্লে</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>এপ পাসওয়র্দ হনখ্রে</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>পাসকী যোগ তৌরে</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>পাসকী থোক্কখ্রে</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>একাউন্ট চালু তৌরে</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>একাউন্ট বন্দ তৌরে</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>খুদিংমক</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>লগইনশিং অমসুং সেসনশিং</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>একাউন্টকী অহোংবশিং</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>মীৎয়েং থম্বা মথৌ তাই</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>নহাক্না</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>ইউজরনা</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>তৌরিবা: %login</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>মওং</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>ব্রাউজর</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>অপরেতিং সিস্তেম</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>ডিভাইস</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>মফম</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>দেশ</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>সেসনশিং</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>করি করি</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>পাঠাবগী লম্বী</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>ঙমদবা হোৎনবশিং</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>লৈরিবা কোদশিং</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>লগইন হেন্দলর</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>সুরক্ষাগী থবকশিং</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>সুরক্ষাগী থবকশিং: %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>নঙ্গী একাউন্টগী লগইনশিং অমসুং সুরক্ষাদা অহোংবশিং. নহাক্না তৌখিদবা কয়া অমা উরবদি, পাসওয়র্দ হোংদোকপিয়ু অমসুং খঙদবা ডিভাইসশিং লগআউট তৌবিয়ু.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>একাউন্ট অসিগী লগইনশিং অমসুং সুরক্ষাদা অহোংবশিং.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>নঙ্গী ডিভাইসশিং</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>পাসওয়র্দ সুধরবা</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>একাউন্টতা হনবা</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>সুরক্ষাগী থবকশিং রেকর্ড তৌদে</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>মসি ইউজর অদিত লোগদগী পাই, মসিগী তেবল expuser_audit লৈতে নত্রগা দাতাবেস অসিদা সপোর্ত তৌদে. php update/common/scripts/6.0/createuseraudittable.php চলাবিয়ু, নত্রগা 6.0.15 গী দাতাবেস অপদেত চলাবিয়ু.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>হৌখিবা নুমিৎ %days</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>হৌখিবা নুমিৎ %days গী মনুংদা লগইনশিং</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>হৌখিবা মতমগী সুরক্ষাগী থবকশিং</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>ফংবা</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>ঙমদ্রে</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>হনথোকখ্রে</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>হৌজিক ফাওবা সুরক্ষাগী থবক অমত্তা রেকর্ড তৌদ্রি.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>সুরক্ষাগী থৌদোকশিং নুমিৎ %days থম্মি.</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>এদমিনিস্ত্রেতর অমনা থোক্কদ্রিফাওবা সুরক্ষাগী থৌদোকশিং থম্মি.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>ঐগী লগইন দাতা ডাউনলোদ তৌবা</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>নঙ্গী সেসনশিং অমসুং সুরক্ষাগী থৌদোকশিং JSON ফাইল ওইনা.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>সাইত অসিদা সেসনশিং রেকর্দ তৌদে, মরম অদুনা অতোপ্পা ডিভাইস অমত্তা লগআউট তৌবা ঙমদ্রে. হৌজিক নঙ্গী পাসওয়র্দ সুধরবিয়ু.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>অতোপ্পা সেসন %count লগআউট তৌরে. হৌজিক নঙ্গী পাসওয়র্দ সুধরবিয়ু.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>অতোপ্পা ডিভাইস অমত্তা লগইন তৌরম্দে. হৌজিক নঙ্গী পাসওয়র্দ সুধরবিয়ু.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>থাগৎচরি. থৌদোক অসি নঙগীনি হায়না মখোল থম্লে.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>থৌদোক অদুগী পাউখুম অমত্তা মথৌ তাদে.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>পেজ অদুগী মতম ফাওরে. করিসু সুধরদ্রে; অনুগ্রহ তৌরগা অমুক চেষ্টা তৌবিয়ু.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>নঙ্গী একাউন্ট ঙাক্তবা</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>মফম অসিদা লৈবা করিগুম্বা অমা নঙনা তৌদ্রবদি, অতোপ্পা ডিভাইস পুম্নমক লগআউট তৌবিয়ু, মতুংদা অনৌবা পাসওয়র্দ অমা খনবিয়ু. “ঐ মনুংদা থম্বা” শিজিন্নদুনা লগইন তৌরিবা ডিভাইসশিংসু লগআউট তৌগনি.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>অসি নত্তবা ডিভাইস খুদিংমক মখোয়গী মতুংদা লাকপা হাইজবদা লগআউট তৌগনি. মতুংদা নঙনা অনৌবা পাসওয়র্দ অমা খনগনি.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>হোয়, অতোপ্পা ডিভাইসশিং লগআউট তৌবিয়ু</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>মসি নঙা?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>হোয়, মসি ঐনি</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>নত্তে, ঐগী একাউন্ট ঙাক্তবিয়ু</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>লগইন তৌরে</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>লগইন তৌবা হোৎনখিবা ঙমদবা</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>লগআউট তৌরে</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>সেসনশিং লগআউট তৌরে</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>অনৌবা ডিভাইস অমদগী লগইন</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>অনৌবা মফম অমদগী লগইন</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>মশক শোয়দনা তাকখ্রে (&quot;নঙ্গী ওইবদু ভেরিফাই তৌবা&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>মশক চেক তৌবা ঙমদ্রে</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>পাসকীগা লোয়ননা লগইন তৌরে</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>পাসকীগা লোয়ননা লগইন তৌবা ঙমদ্রে</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>লগইন হনথোকখ্রে: দুইগী স্তরগী কোদ লৈতে নত্রগা অশোইবা</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>অশোইবা দুইগী স্তরগী কোদ</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>লগইন ঙমদবগী মতুংদা একাউন্ট লক তৌরে</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>একাউন্টকী লক হাংদোকখ্রে</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>পাসওয়র্দ হোংদোকখ্রে</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>পাসওয়র্দ হোংদোকপা ঙমদ্রে</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>পাসওয়র্দ রিসেত তৌরে</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>অনৌবা পাসওয়র্দ হায়জখ্রে</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>ই-মেইল ঠিকানা হোংদোকখ্রে</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>ইউজর মমিং হোংদোকখ্রে</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>দুইগী স্তরগী সাইন ইন চালু তৌরে</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>দুইগী স্তরগী সাইন ইন বন্দ তৌরে</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>রিকভরি কোদ শিজিন্নখ্রে</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>অনৌবা রিকভরি কোদশিং</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>এপ পাসওয়র্দ সেম্লে</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>এপ পাসওয়র্দ হনখ্রে</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>পাসকী যোগ তৌরে</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>পাসকী থোক্কখ্রে</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>একাউন্ট চালু তৌরে</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>একাউন্ট বন্দ তৌরে</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>খুদিংমক</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>লগইনশিং অমসুং সেসনশিং</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>একাউন্টকী অহোংবশিং</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>মীৎয়েং থম্বা মথৌ তাই</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>সুরক্ষাগী থবকশিং</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>সুরক্ষাগী থবকশিং: %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>নঙ্গী একাউন্টগী লগইনশিং অমসুং সুরক্ষাদা অহোংবশিং. নহাক্না তৌখিদবা কয়া অমা উরবদি, পাসওয়র্দ হোংদোকপিয়ু অমসুং খঙদবা ডিভাইসশিং লগআউট তৌবিয়ু.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>নঙ্গী ডিভাইসশিং</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>পাসওয়র্দ সুধরবা</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>সাইট অসিদা সুরক্ষাগী থবকশিং হৌজিক ফাওবা রেকর্ড তৌদ্রি.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>হৌখিবা নুমিৎ %days গী মনুংদা লগইনশিং</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>ঙমদবা হোৎনবশিং</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>হৌজিক ফাওবা সুরক্ষাগী থবক অমত্তা রেকর্ড তৌদ্রি.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>ঐগী লগইন দাতা ডাউনলোদ তৌবা</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>নঙ্গী সেসনশিং অমসুং সুরক্ষাগী থৌদোকশিং JSON ফাইল ওইনা.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>সাইত অসিদা সেসনশিং রেকর্দ তৌদে, মরম অদুনা অতোপ্পা ডিভাইস অমত্তা লগআউট তৌবা ঙমদ্রে. হৌজিক নঙ্গী পাসওয়র্দ সুধরবিয়ু.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>অতোপ্পা সেসন %count লগআউট তৌরে. হৌজিক নঙ্গী পাসওয়র্দ সুধরবিয়ু.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>অতোপ্পা ডিভাইস অমত্তা লগইন তৌরম্দে. হৌজিক নঙ্গী পাসওয়র্দ সুধরবিয়ু.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>থাগৎচরি. থৌদোক অসি নঙগীনি হায়না মখোল থম্লে.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>থৌদোক অদুগী পাউখুম অমত্তা মথৌ তাদে.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>পেজ অদুগী মতম ফাওরে. করিসু সুধরদ্রে; অনুগ্রহ তৌরগা অমুক চেষ্টা তৌবিয়ু.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>নঙ্গী একাউন্ট ঙাক্তবা</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>মফম অসিদা লৈবা করিগুম্বা অমা নঙনা তৌদ্রবদি, অতোপ্পা ডিভাইস পুম্নমক লগআউট তৌবিয়ু, মতুংদা অনৌবা পাসওয়র্দ অমা খনবিয়ু. “ঐ মনুংদা থম্বা” শিজিন্নদুনা লগইন তৌরিবা ডিভাইসশিংসু লগআউট তৌগনি.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>অসি নত্তবা ডিভাইস খুদিংমক মখোয়গী মতুংদা লাকপা হাইজবদা লগআউট তৌগনি. মতুংদা নঙনা অনৌবা পাসওয়র্দ অমা খনগনি.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>হোয়, অতোপ্পা ডিভাইসশিং লগআউট তৌবিয়ু</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>মসি নঙা?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>হোয়, মসি ঐনি</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>নত্তে, ঐগী একাউন্ট ঙাক্তবিয়ু</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>পাসওয়র্দ</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>পাসওয়র্দ অমসুং দুইগী স্তরগী কোদ</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>REST ইন্তরফেস</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>SOAP ইন্তরফেস</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>সিঙ্গল সাইন-অন</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>সেসনশিং রেকর্ড তৌবা হৌদ্রিঙৈগী মমাংদা লগইন তৌখিবা</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>লগইনগী রিপোর্ট</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>সাইততা কনা লগইন তৌরি, একাউন্টশিংনা কয়া খুৎলাই লগইন তৌই অমসুং ঙমদে, অমসুং ইউজর অমবু মফম খুদিংদগী লগআউট তৌবা. মসিনা সেসন হেন্দলর খুদিংমকগা থবক তৌই.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>সেসন অসি লগআউট তৌরে. ডিভাইস অসিনা অমুক হন্না লগইন তৌবা মথৌ তাই.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>সেসন %count পুম্নমক লগআউট তৌরে: %login.</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>চলরিবা সেসন অমত্তা লৈতে: %login.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>ID, ইউজর মমিং নত্রগা ই-মেইল ঠিকানা অসি লৈবা একাউন্ট অমত্তা লৈতে.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>মসি নহাক্না শিজিন্নরিবা সেসননি. মসি লোইশিন্নবা লগআউট তৌবিয়ু.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>সেসন অদু হান্নদগী লোইরম্লে.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>পেজ অসিগী মতম লোইরম্লে. কয়া অমত্তা হোংদোকখিদ্রে; অমুক হন্না হোৎনবিয়ু.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>সাইট অসিদা সেসনশিং রেকর্ড তৌদে (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>তেবল expuser_session লৈতে</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>তেবল অদু সেম্লবা মতুংদা সেসনশিং রেকর্ড তৌগনি: php update/common/scripts/6.0/createusersessiontable.php, নত্রগা 6.0.15 গী দাতাবেস অপদেত.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>হৌজিক অমসুং ঙসি</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>চলরিবা সেসনশিং</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>লগইন তৌরিবা ইউজরশিং</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>ঙসিগী লগইনশিং</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>ঙসিগী ঙমদবা হোৎনবশিং</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>ইউজর অমবু মফম খুদিংদগী লগআউট তৌবা</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>একাউন্ট অসিগী সেসন খুদিংমক মথং লাকপা রিকুয়েস্ততা লোইশিনই, &quot;ঐ মনুংদা থম্বা&quot; না থম্বা সেসনশিংসু. একাউন্ট অমা অশোইবা মীগী খুৎতা লৈবা য়াই হায়বা মতমদা মসি শিজিন্নবিয়ু; অদুগা মসিগী পাসওয়র্দ রিসেত তৌবিয়ু.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>ইউজর ID, ইউজর মমিং নত্রগা ই-মেইল ঠিকানা</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>মফম খুদিংদগী লগআউট তৌবা</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>হৌজিক লগইন তৌরি</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>অনৌবা মতমদা শিজিন্নখিবা অমসুং উৎলিবা: %limit.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>ইউজর</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>ডিভাইস</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>ঠিকানা</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>লগইন তৌরে</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>অরোইবা মতমদা এক্তিভ</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>একসন</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>ডিভাইস অসি</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>রেকর্ড তৌদ্রে</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>লগআউট তৌবা</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>লগইন তৌরিবা সেসন অমত্তা লৈতে.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>হৌখিবা নুমিৎ %days</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>লগইনশিং অমসুং ঙমদবা হোৎনবশিং ইউজর অদিত লোগদগী মশিং থাই, মসি লৈতে; অনৌবা সেসনশিংদি মশিং থাই.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>নুমিৎ</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>লগইনশিং</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>ঙমদবা হোৎনবশিং</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>অনৌবা সেসনশিং</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>সেসন হেন্দলর: %handler. সেসনশিং তেবল expuser_session দগী পাই, মরম অদুনা রিপোর্ট অসিনা হেন্দলর খুদিংমকগা থবক তৌই.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>অরোইবা পুং %hours দা থোকখিবা চিন্নিংঙাই থবকশিং</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>নেটৱর্ক অমনা একাউন্ট %accounts দা লগইন তৌবা ঙমখিদে (হোৎনবা %count)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>লগইন ঙমদবা মতুংদা একাউন্ট লোক তৌখ্রে</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>একাউন্ট অমদা লগইন ঙমদবা %count</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>মতম অমদা দেশ %count দগী লগইন তৌখি</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>সুরক্ষাগী থবকশিং</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>সেসনশিং</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>লগইন ঙমদবাশিং অসি শিজিন্নবগী অডিত লোগতগী পাই, মসি মফম অসিদা ফংদে.</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>চিন্নিংঙাই অমত্তা লৈতে: হন্না হন্না লগইন ঙমদবা একাউন্ট অমত্তা লৈতে, একাউন্ট কয়া হোৎনবা নেটৱর্ক অমত্তা লৈতে, দেশ কয়াদগী লগইন তৌবা একাউন্ট অমত্তা লৈতে.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>নঙ্গী একাউন্টগীদমক সুরক্ষাগী চেকশিনবা</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>নঙ্গী একাউন্টতা সুরক্ষাগী থৌদোক অমা থোকখি. একাউন্ট: %login, থৌদোক: %event. মসি নহাক নত্রবদি, নঙ্গী একাউন্ট মসিদা ঙাক্তবিয়ু: %url.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>সেটআপ</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>সাইট অসিগী কন্তেন্তদগী পেজ অমগী মথৌ তাবা ফিল্দশিং অদু অনুরোধ অমদা হংবীয়ু। স্কিমা অসিনা কন্তেন্ত ক্লাসশিং ইথুং লৈ; কোয়েরি খুদিংমক থাখিবা শিজিন্নবা মীগী হক্কী মথক্তা চলি।</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>সাইট একসেস অসিদা GraphQL API থোংজিনখ্রে। মসিবু graphql.ini দা হাংদোকপীয়ু: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>GraphQL লাইব্রেরি (webonyx/graphql-php 15) ইনস্তল তৌদ্রি।</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>এন্দ পোইন্ত</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>লাইব্রেরি</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>স্কিমা</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>%count কন্তেন্ত ক্লাস, স্কিমা %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>কোয়েরি</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>ভেরিয়েবলশিং (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>চলাবা</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>পাউখুম</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>চলরি…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>পাউখুম অদু পাবা ঙম্লমদে।</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>কোয়েরি অসি নহাক্কী হক্তা, সেসন অসিনা সাইন ইন তৌরগা চলি।</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%seconds সে. দা %count</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>লিমিত লৈতে</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>অরুবা</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>অকরবা মওং</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>লিস্ত অমদা আইতেম</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (দিফোল্ত %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>শিজিন্নরিবা মী অমা নত্রগা কী অমদা হায়জবা</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>মমিং লৈতবা এদ্রেস অমদা হায়জবা</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>ইন্ত্রোস্পেকসন</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>পুথম্লবা কোয়েরিশিং খক্তা</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>খ্বাইদগী চাউবা কোয়েরি</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>%bytes বাইত</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>খ্বাইদগী চাউবা অপলোদ</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>সাইট একসেস %siteaccess লৈতে।</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>%siteaccess দা মিউতেসনশিং হাংদোকখ্রে।</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>%siteaccess দা মিউতেসনশিং থোংজিনখ্রে।</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>%siteaccess দা GraphQL API হাংদোকখ্রে।</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>%siteaccess দা GraphQL API থোংজিনখ্রে।</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>সেত্তিংশিং ইবা ঙম্দ্রে: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>পাউখুম কেস শেংদোকখ্রে: পাউখুম %count লৌথোকখ্রে।</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>কোয়েরি অদু লৌথোক্নবা মগী মনাক্তা লৈবা বোক্স অদু তিক তৌবিয়ু।</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>কোয়েরি অসি লৌথোকপা ঙম্দ্রে: PersistedQueryDirectoryList[] গী দাইরেক্তরি অমদা পুরকপা কোয়েরি অমা মগী ফাইলগা লোয়ননা লৌথোকই।</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>পুথম্লবা কোয়েরি অদু লৌথোকখ্রে।</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>মিউতেসনশিং</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>হাংলি</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>থোংলি</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>সাইট একসেসশিং</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>API অমসুং মগী মিউতেসনশিংনা পাউখুম পীবা মফম। বত্তনশিংনা graphql.ini ইই, ./console exp:graphql:enable অমসুং exp:graphql:disable না তৌবগুম্না।</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>সাইট একসেস</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>GraphQL API</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>হোংদোকউ</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>থোংজিনউ</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>মিউতেসন থোংলি</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>মিউতেসন হাংলি</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>হাংদোকউ</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>লিমিতশিং</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>সাইট একসেস অসিগী graphql.ini [GraphQLSettings]।</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>পাউখুম কেস</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>পুথম্লবা কোয়েরিশিংগী পাউখুম, শিজিন্নরিবা মীগী হক্কী মতুংইন্না থম্লি অমসুং কন্তেন্ত পব্লিস তৌবা খুদিংমক মতম লোই।</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>ফিভম</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>থম্লবা পাউখুম</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>পাউখুম %count, %bytes বাইত</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>খ্বাইদগী য়াম্লবদা থম্বা মতম</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds সে.</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>অরোইবা মতম লোইবা</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>পাউখুম কেস শেংদোকউ</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>পুথম্লবা কোয়েরিশিং</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>./console exp:graphql:persist চানবিদুনা নত্রগা ক্লাইন্তশিংনা থম্লবা (মশানা পুথম্লবা কোয়েরিশিং); মমিং নত্রগা SHA-256 না কৌই।</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>মমিংশিং</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>চাউবা</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>কদাইদা</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>লৌথোকউ</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>পুরকপা</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>থম্লবা</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>হোই, কোয়েরি অসি লৌথোকউ</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>পুথম্লবা কোয়েরি অমত্তা হৌজিক ফাওবা লৈতে।</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>API কীশিং</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>স্কোপ graphql:read (কোয়েরিশিং) নত্রগা graphql:write (মিউতেসনশিং) লৈবা মশাগী API কীশিং। মদুশিং API একসেস লমাইদা নত্রগা ./console exp:graphql:keys চানবিদুনা শেম্বা অমসুং লৌথোকপা।</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>API একসেস</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>কী পুম্নমক</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>কী</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>মমিং</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>মপু</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>স্কোপশিং</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>অরোইবা শিজিন্নবা</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>চৎলি</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>মতম লোইখ্রে</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>লৌথোকখ্রে</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>করিসু নত্তে</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>GraphQL স্কোপ লৈবা API কী অমত্তা হৌজিক ফাওবা লৈতে।</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>পেজ অসি উৎপা সাইট একসেস %siteaccess দা GraphQL API থোংজিনখ্রে; মখাগী তেবলনা মসিনা কদাইদা পাউখুম পীবগে হায়বা উৎলি।</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>পেজ অসি উৎপা সাইট একসেস %siteaccess গীদমক।</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>ৱেবহুকশিং</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>এন্দ পোইন্ত অমনা পীনবা হায়বা থৌদোক খুদিংমক (publish, update, trash, delete, move, hide, reveal, mutation) cronjob শরুক graphqlwebhooks না মিং থোইদুনা মাংদা থাই। ./console exp:graphql:webhooks না সেক্সন অসিগা মান্নবা থবক তৌই।</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>থৌদোকশিং</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>পুম্নমক</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>সাইট একসেস খুদিংমক</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>কাইখ্রবা</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>সিক্রেট লৈতে</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>ঙাইরি</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count থাদোকখ্রে</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>অরোইবা পীখিবা</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>তেস্ত অমা থাবিয়ু</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>হোই, ৱেবহুক অসি লৌথোকউ</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>হৌজিক ফাওবা ৱেবহুক অমত্তা লৈতে।</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>ৱেবহুক অমা হাপচিনবিয়ু</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>হাপচিনবিয়ু</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>অনৌবা পীখিবশিং</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>মতম</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>মহৈ</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>সবস্ক্রিপসনশিং</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>ক্লাইএন্তশিংগীদমক লাইভ অপদেতশিং: /api/graphql/subscribe দা থৌদোকগী স্ত্রীম অমা, অমসুং Velocity দা WebSocket (graphql-transport-ws) অমা। থৌদোক খুদিংমক মসিগী কন্তেন্ত পাবা য়াবা সবস্ক্রাইবরশিংদা খক্তমক চৎই।</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>হৌজিক হাংদোক্লি</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>খ্বাইদগী য়াম্না হাংদোকপা য়াবা</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>পুম্নমক %total, শীজিন্নবা মী অমদা %user, এদ্রেস অমদা %address</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>মমিং লৈতবা সবস্ক্রিপসনশিং</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>স্ত্রীমগী অসাংবা</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>ৱেবহুক অদু হাপচিনবা ঙম্দ্রে: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>ৱেবহুক %name হোংদোকখ্রে; মসিগী মিং থোইবগী সিক্রেট লৈরি।</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>মিং থোইবগী সিক্রেট থম্বা ঙম্দ্রে (সেটআপ &gt; সিক্রেটশিং)।</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>ৱেবহুক %name হাপচিনখ্রে। মসিগী মিং থোইবগী সিক্রেট, অমুক খক্তমক উৎপা: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>ৱেবহুক %name লৈতে।</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>ৱেবহুক %name না পাউখুম পীদ্রে: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>ৱেবহুক %name না %ms ms দা %status পাউখুম পীখ্রে।</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>ৱেবহুক অদু লৌথোক্নবা মগী মনাক্তা লৈবা বোক্স অদু তিক তৌবিয়ু।</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>ৱেবহুক %name লৌথোকখ্রে।</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>সাইট একসেস অসিদা GraphQL API থোংজিনখ্রে।</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>GraphQL লাইব্রেরি ইনস্তল তৌদ্রি।</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>GET নত্রগা POST শীজিন্নবিয়ু।</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>হায়জবগী বডি অসি JSON অবজেক্ট নত্তে।</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables অসি JSON অবজেক্ট নত্তে।</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions অসি JSON অবজেক্ট নত্তে।</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>কোয়েরি অসি POST না থাবিয়ু।</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>হায়জবা অসিদা কোয়েরি অমত্তা লৈতে।</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>কোয়েরি অসি %max বাইততগী হেন্না সাংলি।</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>মনুংগী সর্ভর অশোয়বা</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node না id, remoteId, path অমসুং urlAlias দগী অমখক্তমক মথৌ তাই।</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content না id অমসুং remoteId দগী অমখক্তমক মথৌ তাই।</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>after কী কর্সর অসি API অসিনা পীবা নত্তে।</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>%alias কৌবা ইমেজ এলিয়াস অমত্তা লৈতে (image.ini [AliasSettings] AliasList[])।</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>মফম অসিদা পুথম্লবা কোয়েরিশিং খক্তমক লৌই: সর্ভরদা পুথম্লবা কোয়েরি অমগী id থাবিয়ু।</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>পুথম্লবা কোয়েরিগী হ্যাশ অসি SHA-256 নত্তে।</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>পুথম্লবা কোয়েরিগী হ্যাশ অসি কোয়েরিগা মান্নদে।</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>হায়জবা য়াম্লাবা: %window সেকেন্দতা খ্বাইদগী য়াম্লবদা %limit। %reset সেকেন্দ তুংদা অমুক হন্না হোৎনবিয়ু।</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>কোয়েরি অসি থাক %depth লুই; খ্বাইদগী য়াম্লবদা %max খক্তমক য়াই।</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>কোয়েরি অসিগী অকরবা মওং %complexity নি; খ্বাইদগী য়াম্লবদা %max খক্তমক য়াই।</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>হায়জবা অসিনা স্কিমা পাবা য়াদে (introspection)।</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search না তেক্সত অমা নত্রগা ফিল্তর অমা মথৌ তাই (classes, subtree, sections, publishedAfter, publishedBefore)।</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument অসি তারিখ নত্তে (ISO 8601, 2026-10-30)।</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag না id, remoteId অমসুং path দগী অমখক্তমক মথৌ তাই।</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout না id, identifier অমসুং urlAlias দগী অমখক্তমক মথৌ তাই।</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>মল্তিপার্ত হায়জবা অমগী operations ফিল্দ অসি JSON হায়জবা অমা নত্তে।</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>মল্তিপার্ত হায়জবা অমগী map ফিল্দ অসি JSON ওবজেক্ত অমা নত্তে।</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>মল্তিপার্ত হায়জবা অসিদা ফাইল %field লৈতে।</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>map ফিল্দকী পাথ অমা variables. দগী হৌগদবনি: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>ফাইল %name অসি মপুংফানা লাক্তে (অপলোদ অশোয়বা %error)।</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>ফাইল %name অসি %max বাইততগী হেন্না চাউই।</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>ফাইল %name অসি য়েংশিনবা ঙম্দ্রে।</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>সাইট একসেস অসিদা মিউতেসনশিং থোংজিনখ্রে (graphql.ini [GraphQLSettings] MutationsEnabled)।</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>মিউতেসন অমা POST চানবিদুনা থাবিয়ু।</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>কন্তেন্ত হোংদোকনবগীদমক সাইন ইন তৌবিয়ু।</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>API কী অসিদা স্কোপ %scope লৈতে।</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>সেসন লৈবা মিউতেসন অমগীদমক সেসনগী ফোর্ম তোকেন মথৌ তাই (হেদর X-CSRF-Token)।</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>uploadFromUrl থোংজিনখ্রে: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] না হোস্ত অমত্তা মমিং লৌদ্রে।</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>এদ্রেস অসি https এদ্রেস অমা ওইগদবনি।</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>হোস্ত %host অসি graphql.ini [GraphQLSettings] UploadFromUrlHostList[] দা লৈতে।</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>ফাইল অসি পুরকপা ঙম্দ্রে।</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload অসি ইনপুত মখল খক্তনি।</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>Upload মখলগী ভেরিএবল অমনা মল্তিপার্ত হায়জবা অমগী ফাইল অমা লৌই।</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>রিমোত id %remoteId অসি হান্নদগী লৌখ্রে।</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>কন্তেন্ত অসিদা হান্নদগী %language দা হন্দোকপা লৈরে: updateContent শিজিন্নবিয়ু।</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>খ্বাইদগী নপীবদা ফিল্দ অমা পীবিয়ু।</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>অনৌবা ভর্সন অমা শেমগৎপা ঙম্দ্রে (কন্তেন্ত অসিদা দ্রাফ্ত য়াম্না য়াম্লে)।</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>ভর্সন %version অসি দ্রাফ্ত নত্তে।</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent না id অমসুং nodeId গী মনুংদগী অমখক্তা মথৌ তাই।</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>মফম অমা মশাগী মখাদা লেংদোকপা ঙমদে।</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>কন্তেন্ত অসিদা হান্নদগী %parentId গী মখাদা মফম অমা লৈরে।</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>ফিল্দ %field গী ভেল্যু অসি থম্বা ঙম্দ্রে।</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>কন্তেন্ত লোন %language লৈতে।</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>স্কিমাদা কন্তেন্ত ক্লাস %class লৈতে।</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>কন্তেন্ত অসি লৈতে, নত্রগা নহাক্না পাবা য়াদে।</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>নহাক্না কন্তেন্ত অসিদা মসি তৌবা য়াদে।</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>ক্লাস %class দা ইবা য়াবা ফিল্দ %field লৈতে।</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>ফিল্দ %field অসি অনিরক পীখ্রে।</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>ফিল্দ %field না ফাইল অমা লৌই: মদু অপলোদ ওইনা থাবিয়ু (মল্তিপার্ত হায়জবা)।</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>ফিল্দ %field না ফাইল লৌদে।</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>ফিল্দ %field দা ভেল্যু অমা মথৌ তাই।</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>ফোর্মেত %format অসি রিচ তেক্সত ফিল্দশিংগীদমক খক্তনি; %field না মগী ভেল্যু লৈবা মতৌ অদুম লৌই (RAW)।</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>ফিল্দ %field অসি মথৌ তাই।</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>HTML অসি পাবা ঙম্দ্রে।</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content না version অসি id গা লোয়ননা খক্তা লৌই।</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>প্রিভিউ তোকেন অসি চৎনবা ঙমদে নত্রগা মতম লোইখ্রে।</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>অরিজিন অমা নত্তে (https://host নত্রগা https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>GraphQL API গী স্কোপ অমা নত্তে: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>সবস্ক্রিপসনশিং /api/graphql/subscribe দা থাবিয়ু (থৌদোকগী স্ত্রীম নত্রগা WebSocket)।</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>হায়জবা অসিনা দোকুমেন্তকী ওপরেসন অমত্তগী মমিং পীদে।</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>সবস্ক্রিপসন অমনা ফিল্দ অমখক্তমক হায়জৈ।</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>সবস্ক্রিপসন য়াম্না মরাং কায়না হাংদোক্লি; মতুংদা অমুক হন্না হোৎনবিয়ু।</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>নহাক্কী সবস্ক্রিপসন %max হাংদোক্লি, এলাউ তৌবা খ্বাইদগী য়াম্বা।</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>নহাক্কী এদ্রেসতা সবস্ক্রিপসন %max হাংদোক্লি, এলাউ তৌবা খ্বাইদগী য়াম্বা।</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>সাইট একসেস অসিদা সবস্ক্রিপসনশিং থোংজিনখ্রে।</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>সবস্ক্রাইব তৌনবা সাইন ইন তৌবিয়ু (তোকেন অমা নত্রগা মশাগী API কী অমা)।</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>মিউতেসনশিং /api/graphql দা থাবিয়ু।</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>মাইগ্রেসনশিং</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>স্থিতি পাবা ঙমদ্রে: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>মাইগ্রেসনশিংগী টেবলশিং হৌজিক ফাওবা লৈদ্রি: ./console exp:upgrade --apply না মখোয় শেম্মি.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>মাইগ্রেসন %count ঙমদ্রে</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>রন অমা চলরি, %user না হৌদোকখিবা</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>ইনস্টলেসন লোক তৌরে: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>ঙাক্লিবা</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>ঙমদ্রবা</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>মমা মপা লৈতবা</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>অরোইবা রন</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>হৌজিক ফাওবা লৈতে</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>মাইগ্রেসন পুম্নমক</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>সিমুলেট তৌখিবা রন</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>ড্রাই রন</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>ঙাক্লিবা মাইগ্রেসনশিং ট্রান্সেক্সন অমদা চলখি অমসুং মতুংদা রোলবেক তৌখি: করিসু থম্বা লৈতে. মখাদা মাইগ্রেসন খুদিংমকনা ডেটাবেজদা করি হোংদোকখিবগে উৎলি.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>হৌজিক রন অমনা করি তৌগনি. করিসু হোংদোকপা লৈতে: ঙাক্লিবা মাইগ্রেসন খুদিংমকনা মহাক্না পুরকপা অহোংবশিং পায়রি, অমসুং রননা মমাংদা অমসুং মতুংদা করি তৌগনি.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>সিমুলেট তৌবা</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>রন তৌবা</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>ড্রাই রন ঙমদ্রে: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>সিমুলেসন অমগীদমক PostgreSQL নত্রগা SQLite মথৌ তাই, মখোয়গী স্কিমা অহোংবশিং রোলবেক তৌবা য়াই; ডেটাবেজ অসিদা মখাগী প্লেন অসিনা রন অমনা করি তৌগনি উৎলি.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>মাইগ্রেসনশিং</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>মাইগ্রেসন</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>অবস্থা</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>মসিনা করি তৌগনি</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>সিমুলেসন: %result, %ms ms দা</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>হৌজিক ফাওবা মাইগ্রেসন অমত্তা লৈতে.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>রনগী মমাংদা অমসুং মতুংদা</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>মমাংগী স্নেপশট</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>লৌখি, অমসুং মাইগ্রেসন অমা ঙমদ্রবদা রিস্টোর তৌই</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>অফ</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>মতুংগী স্নেপশট</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>রন মাইপাকপদা লৌখি</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>মাইগ্রেসন %total: %pending ঙাক্লিবা, %done লোইরবা, %failed ঙমদ্রবা.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>মাইগ্রেসনগী ইতিহাস</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>রন খুদিংমক মগী য়ুজার, এনভাইরনমেন্ট, স্নেপশটশিং অমসুং করি কমিট, টেগ অমসুং পুশ তৌখিবগে লোয়না. ঙমদ্রবা নত্রগা লেপখিবা রন অমা অনৌদা শুরু তৌবা য়াই; মমাংদা স্নেপশট লৌখিবা রন অমা হন্দোকপা য়াই.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>রনশিং পাবা ঙমদ্রে: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>মাইগ্রেসনশিংগী টেবলশিং হৌজিক ফাওবা লৈদ্রি: ./console exp:upgrade --apply না মখোয় শেম্মি.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>উৎপা</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>খুদিংমক</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>রনশিং</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>হৌদোকখিবা</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>তৌখিবা মী</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>স্নেপশটশিং</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>রিপোজিটরি</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>থবকশিং</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>মমাংদা</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>মতুংদা</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>পুশ: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>অনৌদা শুরু তৌবা</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>রোলবেক তৌবা</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>অবস্থা অসিদা রন অমত্তা লৈতে.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>মফম অসিদা হৌদোকখিবা</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>পেজ অসিশিংদা হৌদোকখিবা রন, অনৌদা শুরু তৌবা অমসুং রোলবেকশিং, খুদিংমকগী রিপোর্টগা লোয়না.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>করি</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>রেজল্ট</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>রোলবেক</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>%target গী রোলবেক</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>রন %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>রননা করি তৌখিবগে, মগী রেকর্ড অমসুং লোগ. মফম অসিদা হৌদোকখিবা রন অমা পেজ অসি লোক্কনবা মতমদা বেকগ্রাউন্দদা চলহৌরি; মদু ইনবগীদমক পেজ অসি অমুক হন্না হাংদোকউ.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>রন অসি অনৌদা শুরু তৌবা</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>রন অসি রোলবেক তৌবা</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>রেকর্ড পাবা ঙমদ্রে: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>অগ্রগতি</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>%user না %time দা হৌদোকখি.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>কোড চেক তৌরি অমসুং রনগী মমাংদা স্নেপশট লৌরি</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>%id চলরি (%total দগী %index)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>%total দগী %done লোইরে</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>মাইগ্রেসনশিং চলখ্রে; অমা ঙমদ্রবদি স্নেপশট রিস্টোর তৌরি</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>রনগী মতুংদা স্নেপশট লৌরি, কমিট, টেগ অমসুং পুশ তৌরি</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>স্নেপশট রিস্টোর তৌরি</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>রন লোইরে. মগী রিপোর্ট লোড তৌরি.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>অগ্রগতি ইনবা ঙমদ্রে. রন করম্না চলরিবগে য়েংনবা পেজ অসি রিলোড তৌবিয়ু.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>পেজ অসিনা রন চলরিঙৈদা মদু ইন্নরি.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>রিলোড তৌবা</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>রিপোর্ট</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>মসময়</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms মিলিসেকেন্দ</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>রননা ভুল ওইনা প্রিন্ট তৌখিবা</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>রেকর্ড</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>এনভাইরনমেন্ট</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>লৈতে</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>লোইখ্রে</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>কমিট</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>টেগ</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>পুশ</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>ৱাংবা</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>রন অসিগী মাইগ্রেসনশিং</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>মমল</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>রন লোগ</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>লোগকী অরোইবা শরুক খক্তমক উৎলি.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>চলরি</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>রিপোর্ট য়াওদনা লোইখ্রে</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>মাইপাক্লে</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>ঙমদ্রে</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>ইনকার তৌখ্রে</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>ডেটাবেজ য়ৌবা ঙমদ্রে</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>মনুংগী ভুল</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>রন অমা চলরি</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind, %user না %time দা হৌদোকখি.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>মদু ইনবা</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>ইনস্টলেসন লোক তৌরে</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>অতোপ্পা রন অমনা লোক অসি পাইরি (অপগ্রেড অমা নত্রগা কন্সোলদা রন অমা): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>লোইরে</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>ঙাক্লিবা</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>মথৌ তাদে</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>ফংদে</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>রোলবেক তৌখ্রে</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>শীজিন্নখ্রে</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>শীজিন্নগনি</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>হন্দোকখ্রে</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>হন্দোকপগনি</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>চলহৌদ্রি</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>অতোপ্পা অমা ঙাইরি</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>অহোংবা লৌখ্রে</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>অহোংবা লৌগনি</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>সিমুলেট তৌখ্রে</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>মাইগ্রেসনশিং</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>স্থিতি</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>ইতিহাস</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>%target হন্দোকপা</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>রন অমা মগী মমাংদা লৌখিবা স্নেপশটতা হন্দোকই, মাইগ্রেসন অমা মগী down() না. হন্নগী স্নেপশট অমা রিস্টোর তৌবা অসি মথম্বশিংগীদমকনি. খুদিংমক হৌজিকগী অবস্থাগী স্নেপশট লৌরবা মতুংদা নহাক্কী মমিংদা বেকগ্রাউন্দদা চলই.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>করি হন্দোকপা য়াগনি পাবা ঙমদ্রে: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>রন অমা</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>মাইগ্রেসন অমা</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>হন্নগী স্নেপশট অমা</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>বর্ণনা</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>হোই</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>নত্তে</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>স্নেপশট</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>লেবেল</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>লৌখিবা</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>মখল</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>রিস্টোর তৌগদবা শরুকশিং</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>ডেটাবেজ</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>স্টোরেজ ফাইলশিং (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>সেটিংশিং (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>রিস্টোর তৌবনা ডেটাবেজ অসি সেসনশিং যাওনা স্নেপশট লৌখিবা মতমদা হন্দোকই: মতুংদা নহাক্না অমুক হন্না সাইন ইন তৌনবা হায়গনি. মদুদগী হোংখিবা পুম্নমক মাংগনি; অহানবদা হৌজিকগী অবস্থাগী স্নেপশট অমা লৌই.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>মসিনা করি রিস্টোর তৌবগে ঐনা খঙই</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>স্নেপশটকী আইডি অমুক হন্না টাইপ তৌবিয়ু</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>হোই, হন্দোকপা</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>কেন্সেল তৌবা</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>মমাংদা স্নেপশট লৌখিবা রনশিং.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>খনবা</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>হৌজিক ফাওবা স্নেপশট লৈবা রন অমত্তা লৈতে.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>মশাগী মশা হন্দোকপা য়াবা শীজিন্নখিবা মাইগ্রেসনশিং (মখোয়দা down() লৈ).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>শীজিন্নখিবা মাইগ্রেসন অমত্তদা down() লৈতে.</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>হন্নগী স্নেপশটশিং (মথম্বশিং)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>হৌজিক ফাওবা স্নেপশট অমত্তা লৈতে.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>মাইগ্রেসনশিং রন তৌবা</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>রন অসি %user ওইনা বেকগ্রাউন্দদা চলহৌরি, অমসুং মগী পেজনা চলরিঙৈদা উৎলি. অহানবা মাইগ্রেসনগী মমাংদা ইনস্টলেসনগী স্নেপশট অমা লৌই; মাইগ্রেসন অমা ঙমদ্রবদা রন লেপ্পি অমসুং স্নেপশট রিস্টোর তৌই.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>অহানবদা ড্রাই রন</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>স্থিতি পাবা ঙমদ্রে: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>ঙাক্লিবা মাইগ্রেসনশিং</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>মখোয় চাং অসিদা চলই. অমা, অমসুং মদু মথৌ তাবাশিং, মতুংগী রন অমগীদমক থাদোক্নবা মগী টিক লৌথোকউ.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>মদু রন তৌবা</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>চলরিঙৈদা মেন্টেনেন্স মোড হাংদোকই.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>শীজিন্নখিবা মতুংদা হোংখিবা</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>ফাইল অসিশিং শীজিন্নখিবা ফাইলশিং নত্তে. অহোংবা অদু মরম অমগা লোয়না লৌদ্রবদি রননা মখোয় ইনকার তৌই; মখোয় অমুক হন্না চলহৌদে, অনৌবা চেকসম রেকর্ড তৌই অমসুং মরম অদু অডিট লোগতা থমই.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>অহোংবশিং লৌবা</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>মরম</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>ডিফল্টশিং অদু ঙাক্লবশিংনি. বক্স খুদিংমকনা খোঙথাং অমা থাদোক্লি.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>স্নেপশট লৈতে</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>রনগী মমাংদা অমসুং মতুংদা স্নেপশট লৈতে: ঙমদ্রবা অমা মশানা রিস্টোর তৌবা য়াদে.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>রিস্টোর লৈতে</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>ঙমদ্রবা মতুংদা, ইনস্টলেসন অদু ঙমদ্রবনা থাদোকখিবা মওং অদুমক থাদোকউ.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>কমিট তৌদ্রিবা অহোংবশিং থম্বা</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>সেটিংশিং, এক্সটেনসনশিং নত্রগা ডিজাইনশিংদা কমিট তৌদ্রিবা অহোংবশিং লৈরবসু রন তৌবা; মখোয় স্নেপশটতা চঙই.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>কমিট লৈতে</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>স্থিতিগী ফাইল অমসুং রন লোগ কমিট তৌগনু (টেগসু লৈতে, পুশসু লৈতে).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>পুশ লৈতে</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>কমিট অমসুং টেগ তৌবা, অদুবু পুশ তৌগনু.</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>টেগ লৈতে</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>কমিট অমসুং পুশ তৌবা, অদুবু রন অদু টেগ তৌগনু.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>হোই, মাইগ্রেসন অসিশিং হৌজিক রন তৌবা</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>ঙাক্লিবা মাইগ্রেসন অমত্তা লৈতে.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>স্থিতিদা লেপ্পা</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>ইনস্টলেসন অসিগী অহোংবশিং ফাইল ওইনা অমুকতং ইখি (কন্টেন্ট, ক্লাসশিং, রোলশিং, সেটিংশিং, স্কিমা) অমসুং সাইটকী ইনস্টলেসন খুদিংমকতা চাং অমত্তদা শীজিন্নই. রন অমনা অহানবদা স্নেপশট লৌই, মাইগ্রেসন অমা ঙমদ্রবদা মদু রিস্টোর তৌই, অমসুং মহাক্না তৌখিবা রেকর্ড, কমিট অমসুং পুশ তৌই.</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>ঙাক্লিবা %count রন তৌবা</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>ওভারভিউ</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>ঙাক্লিবা</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>লোইরবা</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>ঙমদ্রবা</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>মথৌ তাদবা</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>ডেটাবেজ</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>ট্রান্সেক্সনশিং: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>সাইটকী মাইগ্রেসনশিং migrations/ দা লৈ, এক্সটেনসন অমগীদু extension/&lt;name&gt;/migrations/ দা. মখোয় মমিংগী চাং অমসুং মখোয়না মথৌ তাবা অদুগী মতুং ইন্না চলই.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>অরোইবা রন</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>শীজিন্নখিবা মতুংদা ফাইল অদু হোংখ্রে.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>হৌজিক ফাওবা মাইগ্রেসন অমত্তা লৈতে. ./console exp:migration:generate --skeleton &lt;name&gt; --apply না অহানবা অদু ই.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>অনৌবা রনশিং</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>রন পুম্নমক</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>হৌজিক ফাওবা রন অমত্তা লৈতে.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>রন অমা সিমুলেট তৌনবা migration/run পোলিসি মথৌ তাই.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>রন অমা চলরি: মদু লোইরবা মতুংদা সিমুলেট তৌবিয়ু.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>সেটআপ</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target অসি ইনস্টলেসন অসিগী রনসু নত্তে, মাইগ্রেসনসু নত্তে, স্নেপশটসু নত্তে.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>অহানবদা &quot;হোই, হন্দোকপা&quot; টিক তৌবিয়ু.</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>হন্নগী স্নেপশট অমা রিস্টোর তৌবা অসি মথম্বশিংগীদমকনি: &quot;মসিনা করি রিস্টোর তৌবগে ঐনা খঙই&quot; টিক তৌবিয়ু.</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>স্নেপশটকী আইডি অমুক হন্না টাইপ তৌবিয়ু: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>রিস্টোর তৌনবা খ্বাইদগী নংখনা শরুক অমা খনবিয়ু.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>রন অসিগী মমাংদা স্নেপশট লৌখিদে: মগী মাইগ্রেসনশিং অমমম্না হন্দোকউ, নত্রগা হন্নগী স্নেপশট অমা রিস্টোর তৌবিয়ু.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>মাইগ্রেসন অসি মশানা হন্দোকপা য়াদে: মসি শীজিন্নদ্রি, নত্রগা মসিদা down() লৈতে.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>ফোর্ম পাবা ঙমদ্রে.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>অনৌদা শুরু তৌগদবা রন খনবিয়ু.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>অহানবদা &quot;হোই, মাইগ্রেসন অসিশিং হৌজিক রন তৌবা&quot; টিক তৌবিয়ু.</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>খ্বাইদগী নংখনা মাইগ্রেসন অমা খনবিয়ু.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>মাইগ্রেসন অমা শীজিন্নখিবা মতুংদা হোংখ্রে: অহোংবা অদু মরম অমগা লোয়না লৌবিয়ু, নত্রগা ফাইল অদু হন্দোক্লকউ.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>হোংখিবা মাইগ্রেসনশিং করিগী লৌরিবগে মরম পীবিয়ু.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>মরম অদু খ্বাইদগী য়াম্লবদা চিন 500 নি.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>মফম অসিদা হৌদোকখিবা রন অমা হৌজিকসু চলরি (%detail). মদু লোইবা ফাওবা ঙাইবিয়ু.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>অতোপ্পা রন অমনা ইনস্টলেসনগী লোক পাইরি: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>রন অসিগীদমক লৈরিবা অমসুং সাইন ইন তৌরবা য়ুজার অমা মথৌ তাই.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>php কমান্দ লাইন বাইনারি অমত্তা ফংদ্রে. migration.ini [AdminSettings] PhpCliPath দা মগী মপুং ফাবা পাথ সেট তৌবিয়ু.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open অসি ডিসেবল তৌরে, মরম অদুনা মফম অসিদা রন হৌদোকপা য়াদে. সর্ভরদা ./console exp:migration:migrate --apply রন তৌবিয়ু.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>রনশিংগী ফোল্দরদা ইবা য়াদে: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>রন হৌদোকখি অদুবু মগী প্রোসেস আইডি রিপোর্ট তৌখিদে. %detail চেক তৌবিয়ু.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>করি হন্দোকপগে হায়বিয়ু.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>রন হৌদোকপা ঙমদ্রে.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>ꯑꯍꯣꯡꯕꯁꯤꯡ ꯔꯦꯀꯣꯔꯗ ꯇꯧꯕ</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>ꯔꯦꯀꯣꯔꯗꯤꯡ ꯆꯠꯂꯤꯉꯩꯗ ꯑꯗꯣꯝꯅ ꯑꯦꯗꯃꯤꯟꯗ ꯅꯠꯇ꯭ꯔꯒ ꯁꯥꯏꯠꯀꯤ ꯁꯥꯏꯗꯕꯥꯔꯗ ꯍꯣꯡꯗꯣꯛꯂꯤꯕꯗꯨ ꯃꯥꯏꯒ꯭ꯔꯦꯁꯟ ꯑꯃꯒꯤ ꯈꯣꯡꯊꯥꯡꯁꯤꯡ ꯑꯣꯏꯅ ꯊꯝꯃꯤ: ꯀꯟꯇꯦꯟꯠ, ꯀ꯭ꯂꯥꯁꯁꯤꯡ, ꯊꯧꯗꯥꯡ ꯑꯃꯁꯨꯡ ꯄꯣꯂꯤꯁꯤꯁꯤꯡ, ꯁꯦꯛꯁꯟꯁꯤꯡ, ꯁꯤꯖꯤꯟꯅꯔꯤꯕꯁꯤꯡ ꯑꯃꯁꯨꯡ ꯀꯥꯡꯂꯨꯄꯁꯤꯡ, URL ꯃꯤꯡꯁꯤꯡ, ꯁꯦꯇꯤꯡꯁꯤꯡ꯫ ꯂꯣꯏꯔꯕꯥ ꯃꯇꯨꯡꯗ ꯂꯦꯞꯍꯜꯂꯨ, ꯃꯁꯤꯅ ꯀꯔꯤ ꯐꯥꯔꯤꯕꯒꯦ ꯌꯦꯡꯂꯨ, ꯃꯗꯨꯗꯒꯤ ꯃꯥꯏꯒ꯭ꯔꯦꯁꯟ ꯑꯃ ꯁꯦꯝꯃꯨ꯫</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>ꯔꯦꯀꯣꯔꯗꯤꯡꯁꯤꯡ ꯄꯥꯕ ꯉꯃꯈꯤꯗꯦ: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>ꯔꯦꯀꯣꯔꯗꯤꯡꯒꯤ ꯇꯦꯕꯜꯁꯤꯡ ꯍꯧꯖꯤꯛ ꯐꯥꯑꯣꯕ ꯂꯩꯗ꯭ꯔꯤ: ꯑꯍꯥꯅꯕ ꯑꯞꯒ꯭ꯔꯦꯗ ꯆꯂꯨ (exp:upgrade --apply)꯫</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>migration.ini ꯗ ꯔꯦꯀꯣꯔꯗꯤꯡ ꯊꯤꯡꯂꯦ ([RecordingSettings] Recording=disabled)꯫</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>ꯑꯩꯒꯤ ꯑꯍꯣꯡꯕꯁꯤꯡ</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>ꯅꯍꯥꯛꯅ ꯂꯦꯞꯍꯟꯗ꯭ꯔꯤꯐꯥꯑꯣꯕ ꯅꯍꯥꯛꯅ ꯍꯣꯡꯗꯣꯛꯂꯤꯕꯗꯨ ꯈꯛꯇꯃꯛ ꯔꯦꯀꯣꯔꯗ ꯇꯧꯏ꯫</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>ꯔꯦꯀꯣꯔꯗꯤꯡ</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>%time ꯗꯒꯤ, ꯍꯧꯖꯤꯛ ꯐꯥꯑꯣꯕ ꯑꯍꯣꯡꯕ %count꯫</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>ꯂꯦꯕꯦꯜ (ꯄꯥꯝꯂꯕꯗꯤ)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>ꯃꯁꯤꯅ ꯀꯔꯤ ꯐꯥꯔꯤꯕꯒꯦ ꯎꯠꯂꯨ</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>ꯔꯦꯀꯣꯔꯗꯤꯡ ꯂꯦꯞꯍꯜꯂꯨ</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>ꯑꯩꯒꯤ ꯑꯍꯣꯡꯕꯁꯤꯡ ꯔꯦꯀꯣꯔꯗ ꯇꯧꯕ ꯍꯧꯔꯣ</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>ꯁꯥꯏꯠ ꯄꯨꯝꯕꯒꯤ ꯊꯣꯡꯅꯥꯑꯣ</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>ꯊꯤꯡꯗ꯭ꯔꯤꯐꯥꯑꯣꯕ ꯁꯤꯖꯤꯟꯅꯔꯤꯕ ꯈꯨꯗꯤꯡꯃꯛ ꯑꯃꯁꯨꯡ ꯀꯟꯁꯣꯂꯒꯤ ꯑꯍꯣꯡꯕ ꯈꯨꯗꯤꯡꯃꯛ ꯔꯦꯀꯣꯔꯗ ꯇꯧꯏ꯫ ꯍꯥꯡꯗꯣꯛꯄꯗ ꯅꯍꯥꯛ ꯑꯣꯏꯕꯒꯦ ꯁꯣꯏꯗꯅ ꯇꯧꯅꯕ ꯍꯥꯌꯒꯅꯤ꯫</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>ꯍꯥꯡꯗꯣꯛꯂꯦ</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>ꯊꯣꯡꯅꯥꯑꯣ ꯊꯤꯡꯕ</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>ꯁꯥꯏꯠ ꯄꯨꯝꯕꯒꯤ ꯊꯣꯡꯅꯥꯑꯣ ꯍꯥꯡꯗꯣꯛꯄ</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>ꯔꯦꯀꯣꯔꯗꯤꯡ ꯄꯨꯝꯅꯃꯛ</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>ꯁꯤꯖꯤꯟꯅꯔꯤꯕꯒꯤ ꯑꯦꯀꯥꯎꯟꯇ (ꯂꯣꯒꯏꯟ, ꯏ-ꯃꯦꯜ, ꯄꯥꯁꯋꯥꯔꯗ) ꯑꯃꯁꯨꯡ ꯁꯤꯖꯤꯟꯅꯔꯤꯕꯒꯤ ꯑꯦꯀꯥꯎꯟꯇꯁꯤꯡꯒꯤ ꯐꯤꯜꯗꯁꯤꯡ ꯀꯩꯗꯧꯉꯩꯗꯁꯨ ꯔꯦꯀꯣꯔꯗ ꯇꯧꯗꯦ꯫</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>ꯑꯍꯣꯡꯕ ꯃꯁꯤꯡ</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>ꯁꯥꯏꯠ ꯄꯨꯝꯕ</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>%name ꯒꯤ ꯑꯍꯣꯡꯕꯁꯤꯡ</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>ꯂꯦꯞꯂꯦ</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>ꯍꯧꯖꯤꯛ ꯐꯥꯑꯣꯕ ꯔꯦꯀꯣꯔꯗꯤꯡ ꯑꯃꯠꯇ ꯂꯩꯇꯦ꯫</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>ꯔꯦꯀꯣꯔꯗꯤꯡ %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>ꯔꯦꯀꯣꯔꯗꯤꯡ ꯈꯨꯗꯤꯡꯃꯛ</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>ꯃꯁꯤꯗꯒꯤ ꯊꯣꯛꯀꯗꯕ ꯃꯥꯏꯒ꯭ꯔꯦꯁꯟ</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>ꯍꯣꯡꯂꯕ ꯄꯣꯠ ꯈꯨꯗꯤꯡꯃꯛꯀꯤꯗꯃꯛ ꯈꯣꯡꯊꯥꯡ ꯑꯃꯗ ꯄꯨꯟꯁꯤꯟꯈꯤꯕ ꯑꯍꯣꯡꯕꯁꯤꯡ: ꯔꯦꯀꯣꯔꯗꯤꯡ ꯑꯁꯤꯗꯒꯤ ꯁꯦꯝꯕ ꯃꯥꯏꯒ꯭ꯔꯦꯁꯟ ꯑꯃꯅ ꯇꯧꯒꯗꯕ꯫</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>ꯏꯟꯁ꯭ꯇꯣꯂꯦꯁꯟ ꯑꯁꯤꯗ YAML ꯈꯣꯡꯊꯥꯡꯒꯤ ꯃꯈꯜ %types ꯂꯩꯔꯀꯄꯗ ꯃꯁꯤꯗꯒꯤ ꯃꯥꯏꯒ꯭ꯔꯦꯁꯟ ꯁꯦꯝꯕ ꯌꯥꯒꯅꯤ꯫</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>ꯈꯟꯗꯨꯅ ꯊꯥꯗꯣꯛꯈꯤ: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>ꯀꯔꯤꯁꯨ ꯔꯦꯀꯣꯔꯗ ꯇꯧꯈꯤꯗꯦ꯫</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>ꯃꯁꯤꯅ ꯀꯔꯤ ꯐꯥꯈꯤꯕꯒꯦ</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>ꯑꯍꯣꯡꯕ %count, ꯇꯧꯈꯤꯕ ꯃꯊꯧ ꯃꯇꯧꯗ꯫</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>ꯑꯍꯣꯡꯕ</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>ꯈꯣꯡꯊꯥꯡ</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>ꯃꯔꯤ ꯂꯩꯅꯕ</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>ꯑꯃꯨꯛ %count: ./console exp:migration:record:show ꯅ ꯄꯨꯝꯅꯃꯛ ꯂꯤꯁ꯭ꯠ ꯇꯧꯏ꯫</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>ꯊꯥꯗꯣꯛꯂꯨ</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>ꯔꯦꯀꯣꯔꯗꯤꯡ ꯑꯃꯁꯨꯡ ꯃꯁꯤꯅ ꯐꯥꯈꯤꯕꯗꯨ ꯂꯧꯊꯣꯛꯏ꯫ ꯍꯣꯡꯂꯕꯗꯨ ꯍꯣꯡꯂꯕ ꯑꯣꯏꯅꯃꯛ ꯂꯩꯒꯅꯤ꯫</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>ꯍꯣꯌ, ꯔꯦꯀꯣꯔꯗꯤꯡ ꯑꯁꯤ ꯊꯥꯗꯣꯛꯂꯨ</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>ꯔꯦꯀꯣꯔꯗ ꯇꯧꯔꯤ…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>ꯅꯍꯥꯛꯀꯤ ꯑꯍꯣꯡꯕꯁꯤꯡ ꯃꯥꯏꯒ꯭ꯔꯦꯁꯟ ꯑꯃꯒꯤꯗꯃꯛ ꯔꯦꯀꯣꯔꯗ ꯇꯧꯔꯤ꯫</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>ꯁꯥꯏꯠ ꯑꯁꯤꯒꯤ ꯑꯍꯣꯡꯕ ꯈꯨꯗꯤꯡꯃꯛ ꯃꯥꯏꯒ꯭ꯔꯦꯁꯟ ꯑꯃꯒꯤꯗꯃꯛ ꯔꯦꯀꯣꯔꯗ ꯇꯧꯔꯤ (ꯁꯥꯏꯠ ꯄꯨꯝꯕꯒꯤ ꯊꯣꯡꯅꯥꯑꯣ)꯫</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>ꯁꯥꯏꯠ ꯄꯨꯝꯕꯒꯤ ꯔꯦꯀꯣꯔꯗꯤꯡ ꯍꯧꯔꯦ: ꯅꯍꯥꯛꯅ ꯂꯦꯞꯍꯟꯗ꯭ꯔꯤꯐꯥꯑꯣꯕ ꯁꯤꯖꯤꯟꯅꯔꯤꯕ ꯈꯨꯗꯤꯡꯃꯛꯀꯤ ꯑꯍꯣꯡꯕ ꯈꯨꯗꯤꯡꯃꯛ ꯔꯦꯀꯣꯔꯗ ꯇꯧꯒꯅꯤ꯫</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>ꯔꯦꯀꯣꯔꯗꯤꯡ ꯍꯧꯔꯦ: ꯅꯍꯥꯛꯅ ꯂꯦꯞꯍꯟꯗ꯭ꯔꯤꯐꯥꯑꯣꯕ ꯅꯍꯥꯛꯀꯤ ꯑꯍꯣꯡꯕꯁꯤꯡ ꯔꯦꯀꯣꯔꯗ ꯇꯧꯒꯅꯤ꯫</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>ꯔꯦꯀꯣꯔꯗꯤꯡ ꯂꯦꯞꯂꯦ꯫ ꯃꯁꯤꯅ ꯐꯥꯈꯤꯕꯗꯨ ꯅꯍꯥꯛꯅ ꯊꯥꯗꯣꯛꯇ꯭ꯔꯤꯐꯥꯑꯣꯕ ꯂꯩꯒꯅꯤ꯫</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>ꯔꯦꯀꯣꯔꯗꯤꯡ ꯑꯃꯁꯨꯡ ꯃꯁꯤꯒꯤ ꯊꯧꯗꯣꯛꯁꯤꯡ ꯂꯧꯊꯣꯛꯂꯦ꯫</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>ꯔꯦꯀꯣꯔꯗꯤꯡ %id ꯂꯩꯇꯦ꯫</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>ꯑꯍꯥꯅꯕ "ꯍꯣꯌ, ꯔꯦꯀꯣꯔꯗꯤꯡ ꯑꯁꯤ ꯊꯥꯗꯣꯛꯂꯨ" ꯈꯟꯂꯨ꯫</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>ꯁꯦꯁꯟ ꯔꯦꯀꯣꯔꯗꯤꯡ ꯑꯁꯤ ꯔꯦꯀꯣꯔꯗ ꯇꯧꯈꯤꯕ ꯁꯤꯖꯤꯟꯅꯔꯤꯕꯅ ꯈꯛꯇꯃꯛ ꯂꯦꯞꯍꯟꯕ ꯌꯥꯏ꯫</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>ꯂꯦꯞꯍꯟꯒꯗꯕ ꯔꯦꯀꯣꯔꯗꯤꯡ ꯈꯟꯂꯨ꯫</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>ꯃꯈꯜ ꯑꯁꯤꯒꯤ ꯔꯦꯀꯣꯔꯗꯤꯡ ꯑꯃ ꯍꯥꯟꯅꯗꯒꯤ ꯆꯠꯂꯤ꯫</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>ꯔꯦꯀꯣꯔꯗꯤꯡ ꯍꯣꯡꯗꯣꯛꯄ ꯉꯃꯈꯤꯗꯦ: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>মাইগ্রেসন শেম্মু</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>মাইগ্রেসনগী মিং (পাম্লবদি)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>মাইগ্রেসন %file ইরে। খোঙথাং অমত্তনা তৌবা ঙমদবা হোংলকপশিং ফাইলগী মথক্তা মিং থোনখ্রে, খুৎনা তৌগদবনি।</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>মাইগ্রেসন অমত্তা ইদ্রে: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>ꯀꯥꯟꯅꯕꯗꯥ ꯃꯈꯜ ꯃꯈꯜ ꯑꯣꯏꯅꯥ ꯂꯥꯎꯕ ꯔꯟ</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>ꯑꯣꯏꯗꯕ ꯐꯤꯜꯗꯁꯤꯅꯥ migration.ini [RunSettings] ꯒꯤ ꯁꯦꯠꯇꯤꯡ ꯉꯥꯛꯀꯅꯤ꯫</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>ꯈꯨꯗꯝ ꯈꯔꯗꯨꯃꯛ ꯃꯁꯤꯒꯤ ꯃꯇꯧ ꯃꯥꯏꯒ꯭ꯔꯦꯁꯟ</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>ꯃꯁꯤꯒꯤ ꯃꯇꯨꯡꯗꯥ ꯃꯥꯏꯒ꯭ꯔꯦꯁꯟ ꯑꯇꯣꯞꯄꯥ ꯂꯩꯇꯦ (ꯁꯦꯀꯟꯗ)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>ꯃꯥꯏꯒ꯭ꯔꯦꯁꯟ ꯃꯔꯛꯇꯥ ꯊꯦꯡꯅꯕ (ꯁꯦꯀꯟꯗ)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>ꯅꯦꯝꯕ ꯃꯃꯊꯨ (1 ꯇꯧ 19)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>ꯂꯥꯎꯕ ꯔꯟꯒꯤ ꯐꯤꯜꯗ 1 ꯗꯒꯤ ꯍꯧꯔꯀꯄꯥ ꯃꯄꯨꯟ ꯃꯁꯤꯡ (ꯊꯦꯡꯅꯕ: ꯁꯦꯀꯟꯗ 0 ꯗꯒꯤ 60, ꯃꯃꯊꯨ: 1 ꯗꯒꯤ 19) ꯅꯠꯇ꯭ꯔꯒꯥ ꯑꯣꯏꯗꯕ꯫</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>ꯃꯁꯤ %time ꯗꯥ ꯃꯁꯥꯃꯛꯇꯥ ꯀꯥꯟꯅꯩ꯫</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>ꯃꯁꯤꯒꯤ ꯃꯇꯨꯡꯗꯥ ꯃꯁꯥꯃꯛꯇꯥ ꯀꯥꯟꯅꯧ (ꯃꯤꯅꯤꯠ, ꯑꯄꯥꯝꯕꯥ)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>ꯃꯤꯅꯤꯠ 1 ꯗꯒꯤ 44640 (ꯅꯨꯃꯤꯠ 31) ꯐꯥꯑꯣꯕ ꯃꯄꯨꯟ ꯃꯁꯤꯡ, ꯅꯠꯇ꯭ꯔꯒꯥ ꯑꯣꯏꯗꯕ꯫</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>মাইগ্রেসন %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>অনৌবা মাইগ্রেসন</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>YAML মাইগ্রেসন অমা: মসিবু টেক্সট ওইনা ইয়ু নত্ত্রগা ফর্মদা মসিগী খোংথাংশিং শেম্মু, চেক তৌবিয়ু, অদুগা মাইগ্রেসন ফোল্দর অমদা থম্মু।</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>মাইগ্রেসন অসি হান্নদগী রন তৌখ্রে, মরম অদুনা অমুক হন্না থম্লোই: হোংদোকখিবা ফাইল অমা চেকসম ঙাক্লবনা য়াদবা ওইগনি। হোংদোকপা অদু অনৌবা মাইগ্রেসন অমদা তৌবিয়ু।</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>ৱেব সর্ভরনা ফাইল অসি ইবা ঙম্মোই।</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>মথক্তা লৈবা খন্নরোলগী লাইনশিং অসি হেদর অনি (description, author, requires, environments, engines)। ফর্মদা খোংথাং অমা হাপচিনবা নত্ত্রগা হোংদোকপা মতমদা মাইগ্রেসন অসি অমুক হন্না ইয়ি: খোংথাংশিংগী মরক্তা লৈবা খন্নরোলশিং থম্বা ঙম্লোই।</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>মাইগ্রেসনগী মমিং</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>কদায়দা চৎলগনি</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>সাইট</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>YAML টেক্সট</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>চেক তৌবিয়ু</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>থম্বা</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>ধাপশিং</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>কীশিং</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>এডিট তৌবা</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>মতাংদা সন্নবা</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>মখোলদা সন্নবা</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>থোক্কনবা</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>হৌজিক ফাওবা খোংথাং অমত্তা লৈতে: ফর্মগা লোয়ননা অমা হাপচিনবিয়ু, নত্ত্রগা টেক্সটতা মখোয় ইবিয়ু।</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>খোংথাং %number হোংদোকপা</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>খোংথাং অমা হাপচিনবা</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>খোংথাং অমগী ফর্ম অসি মসিগী খোংথাংগী মখলদগী শেমগনি: মসিগী কীশিং, মখোয় অমমম্তনা করি লৌবগে অমসুং মসি যাওবা মোদশিং।</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>খোংথাংগী মখল</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>মসিগী ফর্ম উৎপা</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>খোংথাং অসিদা মসিগী মখলনা খঙদবা কীশিং লৈ; খোংথাং হোংদোকপা মতমদা মখোয় থাদোকই: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>মোদ</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>অসিদা</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>%modes দা খক্তা</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>দিফোল্ট: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>ফিভমশিং, রেফারেন্সশিং অমসুং খন্নরোল</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>কমানা খায়দোকপা মমিং=মমল পেয়রশিং। খোংথাং অসিগী মমলশিং: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>মখল</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>খোংথাং হোংদোকপা</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>খোংথাং হাপচিনবা</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>exp:migration:check না হায়বা: হেদর, দোকুমেন্ট অমসুং মসিগী খোংথাংগী মখলনা চেক তৌবা খোংথাং খুদিংমক।</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>মাইগ্রেসন অসিনা চেক অদু পাস তৌই।</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>প্রিভিউ</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>থমগদবা মওং অদুদা লৈবা YAML।</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>YAML উৎপা</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>YAML মাইগ্রেসনশিং</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>রন তৌখ্রে</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>হৌজিক ফাওবা YAML মাইগ্রেসন অমত্তা লৈতে।</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>এডিটর</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>মাইগ্রেসন ফোল্দরশিংদা YAML মাইগ্রেসন %id লৈতে।</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>খোংথাংগী মখল অমা খনবিয়ু।</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>খোংথাং হাপচিনখ্রে। থম্বগী মমাংদা মাইগ্রেসন চেক তৌবিয়ু।</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>খোংথাং হোংদোকখ্রে। থম্বগী মমাংদা মাইগ্রেসন চেক তৌবিয়ু।</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>খোংথাং অমা খনবিয়ু।</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>খোংথাং অসিদা ফর্ম লৈতে (লুপ অমা, নত্ত্রগা ইনস্তলেসন অসিদা লৈতবা খোংথাংগী মখল অমা): টেক্সটতা হোংদোকপিয়ু।</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>মাইগ্রেসন অসি কদায়দা চৎলগনি খনবিয়ু: সাইট নত্ত্রগা থবক তৌরিবা এক্সতেনসন অমা।</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>%file থম্লে। মাইগ্রেসন রন তৌদ্রিঙৈগী মমাংদা ড্রাই রন অমা তৌবিয়ু।</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>থম্বা ঙমদ্রে: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>রিমোটশিং</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>ইনস্টলেসন অসিনা মসিগী মাইগ্রেসনশিং ডিপ্লয় তৌবা অতোপ্পা ইনস্টলেসনশিং: ডিপ্লয় অমনা মাইগ্রেসনশিং খনখিবা রিমোটশিংদা থাদুনা মফম অদুদা রন তৌই, পুম্নমক মতম অমতা অমসুং সিঙ্ক ওইনা. রিমোট অমনা সিক্রেট কদাইদসু থম্দে: মসিগী ক্রেডেনসিয়েলনা সেটআপ &gt; সিক্রেটশিং দা লৈবা অমগী মমিং পুল্লি.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>অনৌবা রিমোট</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>ফংজেল</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>%id গী সংযোগ টেস্ট</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>রিমোটশিং</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>রিমোট %parallel ফাওবা মতম অমতা থবক তৌই; ফেজ অমনা অমমম্দা সেকেন্ড %timeout ফাওবা লৌবা য়াই.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>রিমোট</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>ঠিকানা</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>ক্রেডেনসিয়েল</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>মরুপশিং</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>চুম্থোকপা তাবা সেটিংশিং</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>ফাইলশিং খক্তা (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>SSH কী</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>পাসওয়র্দ</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>লৈতে (হোস্টকী SSH এজেন্ট অমসুং কীশিং)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>সংযোগ পরীক্ষা তৌবা</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>গ্রুপ অমদা তৌবা ডিপ্লয় অমনা মসিগী রিমোট খুদিংমকতা চৎলি.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>রিমোটশিংদা ডিপ্লয় তৌবা</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>হৌজিক ফাওবা রিমোট অমত্তা সেটআপ তৌদ্রি.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>রিমোট %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>মফম অসিদা করিসু থাদে নত্রগা রন তৌদে: “থম্বা” না সেটিংশিং settings/override/migration.ini.append.php দা ইই. ক্রেডেনসিয়েল অসি মমিং অমনি; মসিগী ভেল্যু সেটআপ &gt; সিক্রেটশিং দা নত্রগা এনভাইরনমেন্টতা লৈরি.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>সেটিংশিং অসি চেক তৌবিয়ু</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>হাপখিবা মতৌ অদুগুম্বা সেটিংশিং, হৌজিক ফাওবা থম্দ্রি.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>চেক তৌবা</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>সেটিংশিং অসি চৎনবা য়াই. লাইনশিং অসি ইগনি:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>ট্রান্সপোর্ট</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>মমিং খক্তমক; ভেল্যু অদু সেটআপ &gt; সিক্রেটশিংদা লৈরি</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>ইগদবা লাইনশিং</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>সংযোগ</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>হোস্ট কী</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. রিমোট</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>রিমোটকী মমিং অমসুং মসি ওইবা এনভাইরনমেন্ট.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>Id</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>ময়েক, নম্বর, - অমসুং _, খুদম ওইনা production1. মসিনা রিপোর্টশিংদা অমসুং কনসোলদা (--remotes=production1) রিমোটকী মমিং ওই অমসুং মতুংদা হোংদোকপা ঙম্লোই.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... স্টেজ স্টেজ ওইবা ডিপ্লয় অমনা এনভাইরনমেন্টশিং মথং অসিগী মনুংদা চৎলি.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>অপশনেল, কমানা খায়দোকপা, খুদম ওইনা production. গ্রুপ অমদা তৌবা ডিপ্লয় অমনা মসিগী রিমোট খুদিংমকতা চৎলি.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. সংযোগ</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>ফাইলশিং মফম অদুদা করম্না য়ৌবগে, অমসুং ইনস্টলেসন কদায়দা লৈবগে.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>SSH গী মখাদা, হোংলবা খক্তা, কায়খিবা ট্রান্সফর অমুক মখা চত্থই. rsync ইনস্টল তৌরবা মফমদা খ্বাইদগী ফবা খনবা.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>ফাইলশিংগীদমক scp গা লোয়ননা SSH.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>ফাইলশিংগীদমক sftp গা লোয়ননা SSH.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>ফাইলশিং খক্তা: মাইগ্রেসনশিং থাদুনা অমুক পায়খৎলি, অদুবু মফম অদুদা রন তৌবা ঙম্লোই.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>TLS গী মখাদা FTP; ফাইলশিং খক্তা.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>সর্ভর অসিদা লৈবা অতোপ্পা ইনস্টলেসন অমা, ফোল্দর অমদা.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>হোস্ট</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>হোস্টকী মমিং নত্রগা এদ্রেস অমা, খুদম ওইনা node1.example.com. local গীদমক নত্তে.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>পোর্ট</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>অহাংবা: SSH গীদমক 22, FTP গীদমক 21.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>ইউজর</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>পথ</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>মফম অদুদা ইনস্টলেসনগী রুট, খুদম ওইনা /var/www/site (FTP গীদমক: FTP একাউন্টনা উবা পাথ).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>PHP কমান্দ লাইন</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>মফম অদুগী PHP CLI: php, নত্রগা /opt/plesk/php/8.4/bin/php গুম্বা মপুং ফাবা পাথ অমা.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>কনসোল স্ক্রিপ্টশিং মফম অদুদা root ওইনা রন তৌই</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>রিমোটকী ইউজর root ওইরবা মতমদা খক্তা (মতম অদুদা মখোয় --allow-root-user গা লোয়ননা রন তৌই).</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. ক্রেডেনসিয়েল</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>ইনস্টলেসন অসিনা মফম অদুদা করম্না সাইন ইন তৌবগে. মমিং অমখক্তমক থম্মি.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>অমুক ফংদে</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>ইনস্টলেসন অসি রন তৌবা ইউজরগী SSH এজেন্ট অমসুং কীশিং (অমসুং local গীদমক মতম পুম্বদা).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>সিক্রেট অমা ওইনা থম্লবা প্রাইভেট কী অমা.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>সিক্রেট অমা ওইনা থম্লবা পাসওয়র্দ অমা (FTP না পাসওয়র্দ অমনা সাইন ইন তৌই).</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>সিক্রেটকী মমিং</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>সেটআপ &gt; সিক্রেটশিং দগী সিক্রেট অমা, খুদম ওইনা deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>সেটআপ &gt; সিক্রেটশিং</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>নত্রগা এনভাইরনমেন্ট ভেরিয়েবল অমা</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>মসি থম্লিবা সর্ভর প্রোসেসকী ভেরিয়েবল, খুদম ওইনা DEPLOY_KEY (env:DEPLOY_KEY ওইনা থম্মি). মসিনা সিক্রেটকী মমিংগী মফম লৌই.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. হোস্ট কী</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>অপশনেল, SSH, sftp অমসুং rsync গীদমক.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>হোস্ট কীগী ফিঙ্গরপ্রিন্ট</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... ssh-keygen -l না প্রিন্ট তৌবগুম. মসি লৈরবদি, হোস্টনা কী অসি উৎপা তাই; মসি লৈতবদি, অহানবা কন্টেক্টতা কী অদু তম্লগনি.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. রিভিউ তৌবা</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>মথক্কী সেটিংশিং অসিগা লোয়ননা সংযোগ টেস্ট তৌবিয়ু, মতুংদা ইগদবা লাইনশিং রিভিউ তৌবিয়ু.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>রিমোট অসি থোক্কনবা</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>মসিগী সেটিংশিং settings/override/migration.ini.append.php দগী লৌথোকই. রিমোটতা করিসু হোংদে, অমসুং মসিগী ডিপ্লয়শিং ইতিহাসতা লৈরি.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>হোই, রিমোট অসি থোক্কনবা</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>ডিপ্লয়শিং</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>ডিপ্লয় অমনা ইনস্টলেসন অসিগী মাইগ্রেসনশিং খনখিবা রিমোটশিংদা থাদুনা মফম অদুদা %user ওইনা রন তৌই, পুম্নমক মতম অমতা অমসুং সিঙ্ক ওইনা: অহানবদা রিমোট খুদিংমক চেক তৌই, অমসুং অমনা ঙমদ্রবদি, এপ্লাই তৌরবা রিমোট খুদিংমক হন্দোক্লি. মসি বেকগ্রাউন্দতা চত্থরি, অমসুং মসিগী পেজনা চত্লিঙৈদা রিমোট খুদিংমক উত্লি.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. রিমোটশিং</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>রিমোটশিং, গ্রুপ অমা, নত্রগা অনিমক টিক তৌবিয়ু.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>মসিদা ডিপ্লয় তৌবা</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. করম্না</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>ডিপ্লয়</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>থাবা অমসুং রন তৌবা</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>মাইগ্রেসনশিং রিমোট খুদিংমকতা শেয়র তৌবা রন ID অমগা লোয়ননা থাই, ভেরিফাই তৌই অমসুং রন তৌই.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>ট্রান্সফর খক্তা</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>ফাইলশিং থাদুনা ভেরিফাই তৌই, করিসু রন তৌদে (FTP রিমোট অমগীদমক লম্বী অমখক্তা).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>স্টেজ স্টেজ ওইনা</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>এনভাইরনমেন্টশিংগী মথং মনুংদা স্টেজ অমা অমা (dev, stage, beta, production ...): অহানবা স্টেজ ডিপ্লয় তৌই, মতুংদা কনানা মথংগী স্টেজ অনুমোদন তৌবা ফাওবা গেট অমনা ঙাইরি. স্টেজ খুদিংমককী মনুংদা পুম্নমক নত্রগা করিসু নত্তে.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>মাইগ্রেসনশিং অসি খক্তা</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>অপশনেল: মাইগ্রেসন IDশিং, কমানা খায়দোকপা. অহাংবা: সাইট অমসুং মসিগী এক্সটেনসনশিংগী মাইগ্রেসন খুদিংমক.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>প্রিফ্লাইট চেক খক্তা</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>হোই, হৌজিক ডিপ্লয় তৌবা</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>করিগুম্বা থাখিবা নত্রগা রন তৌখিবা ডিপ্লয়শিং, অনৌবা অদু অহানবদা (প্রিফ্লাইট চেক অমনা রিপোর্ট থম্দে).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>ট্রান্সফর খক্তা</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>স্টেজ স্টেজ ওইনা, স্টেজ %stages</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>সিঙ্ক ওইদে</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>হৌজিক ফাওবা ডিপ্লয় অমত্তা লৈতে.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>ডিপ্লয় %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>ডিপ্লয়গী রিমোট খুদিংমক মসিগী স্থিতিগা লোয়ননা. মফম অসিদা হৌদোকখিবা ডিপ্লয় অমা পেজ অসি বন্দ তৌরবা মতমদা বেকগ্রাউন্দতা চত্থরি; মসিগী মতুং ইন্নবা পেজ অসি অমুক হাংদোকপিয়ু.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>ডিপ্লয় পুম্নমক</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>প্রিফ্লাইট চেক</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>মথংগী স্টেজ</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>সেটিংশিং অমসুং ক্রেডেনসিয়েল চেক তৌরি</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>প্রিফ্লাইট চেক: রিমোট খুদিংমকী স্থিতি পারি</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>মাইগ্রেসন ফাইলশিং থারি</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>লাক্লবা অদু ভেরিফাই তৌরি</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>রিমোট খুদিংমকতা মাইগ্রেসনশিং রন তৌরি</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>রিমোটশিং হন্দোক্লি</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>ডিপ্লয় লোইরে. মসিগী রিপোর্ট লোড তৌরি.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>অগ্রগতি মতুং ইন্নবা ঙমদ্রে. ডিপ্লয় করম্না চত্লিবগে উনবা পেজ অসি অনৌবা ওইনা লোড তৌবিয়ু.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>ফেজ</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>পেজ অসিনা ডিপ্লয় চত্লিঙৈদা মতুং ইন্নরি.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>সিঙ্ক ওইরি</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>স্টেজশিং</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>স্টেজ %stage মসিগী গেটতা ঙাইরি</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>গেট %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>%user না %time দা অনুমোদন তৌরে</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>স্টেজ</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>থাখিবা ফাইলশিং</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>কর্নেল ভর্সন</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>এপ্লাই তৌরে: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>এপ্লাই তৌগদবা: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>ফেজশিং</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>গেট: %stages গী স্টেজ %stage</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>মসিগী মমাংগী স্টেজশিং ডিপ্লয় তৌরে. মখোয় চেক তৌবিয়ু, মতুংদা মথংগী স্টেজ অনুমোদন তৌবিয়ু: মসিগী রিমোটশিং অমুক চেক তৌদুনা ডিপ্লয় তৌই, পুম্নমক নত্রগা করিসু নত্তে.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>মখা</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>হোই, মথংগী স্টেজ হৌজিক ডিপ্লয় তৌবা</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>অনুমোদন তৌবা</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>ডিপ্লয় অসি রোলবেক তৌবা</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>মসি এপ্লাই তৌখিবা রিমোট খুদিংমক (%list) মসিগী রন্না মমাংদা লৌখিবা স্নেপশটতা হল্লক্লি, পুম্নমক মতম অমতা.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>হোই, ডিপ্লয় অসি হৌজিক রোলবেক তৌবা</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>প্লান তৌরে</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>ট্রান্সফর তৌরে</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>ডিপ্লয় তৌরে</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>গেট অমদা ঙাইরি</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>সিলেক্ট তৌরবা</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>শেমগৎলে</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>তৈরি</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>মসিগী স্টেজ ঙাইরি</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>ফাইলশিং থারে</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>ভেরিফাই তৌরে</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>ঙমদ্রে, মশাগী মশা অমুক রিস্টোর তৌরে</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>হোংদ্রে</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>ডিপ্লয় তৌদ্রি</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>য়ৌবা ঙম্লোই</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>রিমোটনা পাউখুম পীরে.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>রিমোট অসি হৌজিক শিজিন্নবা ঙম্লোই.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done লোইরবা, %pending ঙাক্লিবা, %failed ঙমদ্রবা</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>লোক</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>মফম অদুদা রন অমনা লোক পাইরি</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>ফাদবা</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stages গী %stage</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>টেস্ট তৌগদবা রিমোট খনবিয়ু.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>অহানবদা “হোই, রিমোট অসি থোক্কনবা” টিক তৌবিয়ু.</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>রিমোট অসি থোক্কনবা ঙমদ্রে: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>রিমোট অসি থম্বা ঙমদ্রে: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>সেটিংশিংগী ফাইল পাবা ঙমদে: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>রিমোট নত্রগা গ্রুপ অমা যাংসু খনবিয়ু.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>খনখিবা রিমোট অমা হৌজিক সেটিংশিংদা লৈত্রে. পেজ অসি অনৌবা ওইনা লোড তৌবিয়ু.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>অহানবদা “হোই, হৌজিক ডিপ্লয় তৌবা” টিক তৌবিয়ু.</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>FTP রিমোট অমনা মাইগ্রেসনশিং রন তৌবা ঙম্লোই: “ট্রান্সফর খক্তা” খনবিয়ু, নত্রগা মসি থাদোকপিয়ু.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>ডিপ্লয় তৌগদবা মাইগ্রেসনশিং অসি মাইগ্রেসন IDশিংনি, কমানা খায়দোকপা.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>ডিপ্লয় অসি হৌজিকসু চত্থরি. মসি লোইবা ফাওবা ঙাইবিয়ু.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>ডিপ্লয় অসিনা গেট অমদা ঙাইদে.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>রিমোট অমত্তনা ডিপ্লয় অসি এপ্লাই তৌখিদে: রোলবেক তৌগদবা করিসু লৈতে.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>অহানবদা “হোই, মথংগী স্টেজ হৌজিক ডিপ্লয় তৌবা” টিক তৌবিয়ু.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>অহানবদা “হোই, ডিপ্লয় অসি হৌজিক রোলবেক তৌবা” টিক তৌবিয়ু.</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>ID %id লৈবা রিমোট অমা হান্নবা লৈরে.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>পোর্ট অসি 1 দগী 65535 ফাওবগী নম্বর অমনি.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>এনভাইরনমেন্ট হায়বসি ময়েক, নম্বর, - অমসুং _ না শেম্বা ৱাহৈ অমনি (alpha, dev, stage, beta, production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>গ্রুপ হায়বসি ময়েক, নম্বর, - অমসুং _ না শেম্বা ৱাহৈ অমনি (all নত্তে): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>ক্রেডেনসিয়েল অসি হৌজিক পাবা ঙম্লোই: %problem. অহানবা ডিপ্লয়গী মমাংদা মসি সেটআপ &gt; সিক্রেটশিং দা থম্বিয়ু (নত্রগা ভেরিয়েবল সেট তৌবিয়ু).</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>FTP রিমোট অমনা ফাইলশিং খক্তা ফংই: মসিদা তৌবা ডিপ্লয় অমা “ট্রান্সফর খক্তা” নি, অমসুং মসিগী মাইগ্রেসনশিং মফম অদুদা খুৎনা রন তৌই.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>রিমোট %id অসি settings/override/migration.ini.append.php দা লৈতে; মসি সেট তৌরবা মফম অদুদা থোক্কনবিয়ু.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>FTP গী মখাদা সাইন ইন তৌরে অমসুং index.php পারে. FTP রিমোট অমগী মাইগ্রেসন স্থিতি পাবা ঙম্লোই.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>সুধরবা</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>সেম্বা</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>মমিং</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>ক্লাস</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>সেক্সন</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>সেম্বা মীওই</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>অনৌবা কন্টেন্ট</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>সাইট পুম্নমক্কী হৌজিক্কী সেম্বা অমসুং সুধরবা কন্টেন্ট, অনৌবশিং অহানবদা: য়েংলকপশিংনা পীখিবা, য়েংশিনবগীদমক থিংলিবা, প্রকাশ তৌনবা ঙাইরিবা ড্রাফ্টশিং. আইটেমশিং সিলেক্ট তৌরগা মখোয়বু থাদোকপা, থিংবা, লুম্বা, ফংহনবা, থোক্কনবা নত্ত্রগা অতোপ্পা সেক্সন নত্ত্রগা স্টেট অমদা লোইশিনবা তৌবিয়ু.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>তালিকা পাবা ঙমদ্রে: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>য়েংশিনবগীদমক থিংবা অসি হৌজিক ফাওবা সেটআপ তৌদ্রি, মরম অদুনা কয়াসু থিংদ্রি অমসুং থিংবগী কামশিং পীদ্রি. অপগ্রেদ খোংথাং 6.0.15-review-hold না মসি সেটআপ তৌই: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>তালিকা ফিল্টর তৌবা</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>দগী</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>ফাওবা</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>তারিখ</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>সেম্বা (অহানবা প্রকাশ)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>খুদিংমক</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>স্থিতি</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>প্রকাশ তৌরবা</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>ড্রাফ্ট, কদাইদসু প্রকাশ তৌদ্রবা</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>ঙাক্লিবা (অয়াবা নত্ত্রগা তারিখ অমগীদমক ঙাইরিবা)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>ট্রেশদা</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>য়েংশিনবগীদমক থিংলিবা</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>থিংলিবা</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>থিংদ্রবা</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>লুমখ্রবা</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>ফংবা</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>পীখিবা তারিখ</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>সাইট একসেস কনাগুম্বা অমা</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>অডিটনা রেকর্দ তৌখিবা খক্তা.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>হৌজিক: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>লগইন অমা নত্ত্রগা শিজিন্নরিবা মীওইগী আইদী অমা.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>ফিল্টর</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>ফিল্টরশিং মুথৎপা</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>আইটেমশিং</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%count দগী %from দগী %to ফাওবা</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>আইটেম অমাসু লৈদে</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(%ms মি.সে.দা পাখি)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>সিলেক্ট তৌরবা আইটেমশিংদা কাম</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>লমাই অসিগী খুদিংমক সিলেক্ট তৌবা</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>%count সিলেক্ট তৌরে</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>কাম</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>কাম অমা খনবা</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>থিংবা থাদোকপা</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>য়েংশিনবগীদমক থিংবা</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>লুম্বা</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>ফংহনবা</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>ট্রেশদা সন্নবা</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>ফাহনবা</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>সেক্সন পীবা</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>স্টেট পীবা</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>মরম</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>থিংনবা মথৌ তাই; থিংবগা লোয়ননা অমসুং অডিটতা থম্মি.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>সেক্সন অমা খনবা</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>স্টেট</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>স্টেট অমা খনবা</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>সিলেক্ট তৌরবশিংদা শিজিন্নবা</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>আইটেম খুদিংমক নঙ্গী অনুমতিশিংগা চান্নবা য়েংই. ট্রেশদা সন্নবা অমসুং ফাহনবা মমাংদা নঙবু শোয়দনা হায়নবা হংই. %count হেনবা আইটেমশিং ব্যাকগ্রাউন্দতা চলই.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>সিলেক্ট তৌবা</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>প্রকাশন</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>পীখিবা মফম</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>%name সিলেক্ট তৌবা</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>অনৌ নত্তে</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(মমিং লৈতে)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>আইদী %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>ড্রাফ্ট</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>ঙাক্লিবা</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>মা-আইটেমনা লুমখ্রবা</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>থিংলিবা: অনৌবা পীখিবা</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>ভর্সন %version ঙাক্লিবা</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>ভর্সন %version চলরি</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>ড্রাফ্ট, ভর্সন %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>ভর্সন %version প্রকাশ তৌরে</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>%date গীদমক থিরে</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>ঠিকানা লৈতে</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>রেকর্দ তৌদ্রি</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>ফিল্টরশিং অসিগা কয়াসু মান্নদে.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>খুদিংমক ফংবা</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>হৌজিক ফাওবা কন্টেন্ট অমাসু লৈদ্রি.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>লমাই খুদিংগী</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>লমাই খুদিংদা আইটেম %count উৎপা.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says "not recorded".</source>
+        <translation>পীখিবা অমগী ঠিকানা অমসুং ব্রাউজর অডিট ইন্দেক্সতগী লাকই, মসি মফম অসিদা লৈতে: কলমদা "রেকর্দ তৌদ্রি" হায়না ইরি.</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>ঠিকানা অমসুং ব্রাউজর অসি আইটেম অদুগীদমক অডিটনা রেকর্দ তৌখিবশিংনি (মশাগী মথন্তা থিংবনা মতম পুম্নমক্তা মখোয় রেকর্দ তৌই; প্রকাশ তৌবা অমসুং সেম্বা অসি হৌদোকপা মফমদা খক্তা), মসিগী প্রাইভেসি সেটিংশিংনা থম্বগুম্না.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: আইটেম %count</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>ফাহনবনা আইটেমশিং মখোয়গী ভর্সন অমসুং হন্দোকপা পুম্নমক্কা লোয়ননা লোইনা মুথৎলগনি. মসি হন্দোকপা ঙমদে.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>আইটেমশিং ট্রেশদা চৎই, মফম অদুদগী মখোয়বু হন্দোকপা ঙম্মি.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>আইটেম খুদিংমক নঙ্গী অনুমতিশিংগা চান্নবা য়েংই; মখাগী আইটেম লৈবা আইটেম অমা লৈরিবা মওংদুম্নমক থম্মি (মদু কন্টেন্ট তৃদা থোক্কনবা). মসি নঙনি হায়বা শোয়দনা হায়নবা নঙবু হংগনি.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>মসি ব্যাকগ্রাউন্দতা চলই: মসিগী চংশিনবগী লমাই হাংদোকই, অমসুং লোইরবা মতমদা আইটেম খুদিংগী রেজল্ট উৎলি.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>সিলেক্ট তৌরবা আইটেমশিং</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>অমসুং অহেনবা %count</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>কেন্সেল তৌবা</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>কয়াসু তৌদ্রে</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>মরম: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>কাম অসি হৌজিকসু ব্যাকগ্রাউন্দতা চলরি.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>মসিগী চংশিনবা</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>ব্যাকগ্রাউন্দকী কাম অসি ঙমদ্রে: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>ফাংখ্রে</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>য়াখিদে</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>ঙমদ্রে</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>আইটেম খুদিংগী</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>আইটেম</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>রেজল্ট</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>করিগীনো</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>তালিকাদা লেপ্পা</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>সেটআপ</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>কয়াসু তৌদ্রি</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>ঠিক তৌবা</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>কাম অমা খনবিয়ু.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>খ্বাইদগী নীংথনা আইটেম অমা সিলেক্ট তৌবিয়ু.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>অমুক্তা হেনখ্রবদা আইটেম 1000 সিলেক্ট তৌবিয়ু.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>আইটেমশিং করিগীনো থিংলিবা হায়বা তাক্কদবিয়ু.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>সেক্সন অদু খনবিয়ু.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>স্টেট অদু খনবিয়ু.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>ফোর্ম অদু পাবা ঙমদ্রে.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>ড্যাশবোর্দ</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>অনৌবা কন্টেন্ট</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>মশিংশিং পাবা ঙমদ্রে: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>য়েংশিনবগীদমক থিংলিবা</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>ঙসিগী অনৌবা</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>য়েংশিনবগীদমক থিংবা অসি হৌজিক ফাওবা সেটআপ তৌদ্রি (অপগ্রেদ খোংথাং 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>অনৌবা কন্টেন্ট খুদিংমক</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>নঙনা মোদরেসনগী কামশিং চলহনবা য়াদে (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>মোদরেসনগী কাম অসি মপুং ফাদ্রি: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>মোদরেসন: অবজেক্ট %count দা %action</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>অবজেক্ট %total দগী %done: %ok ফাংখ্রে, %refused য়াখিদে, %failed ঙমদ্রে</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok ফাংখ্রে, %refused য়াখিদে, %failed ঙমদ্রে</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>মসি হৌজিক লৈরে.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>মসিগী মফম লৈতে (প্রকাশ তৌদ্রি).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>নঙনা মসি লুম্বা য়াদে (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>নঙনা মসি ফংহনবা য়াদে (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>মসি হান্নদগী লুমখ্রে.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>মসি লুমদ্রি.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>লুমখ্রে.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>ফংহন্নখ্রে.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>মসি ট্রেশদা লৈ: মফম অদুদা ট্রেশ অসি থাদোকপা নত্ত্রগা মসি হন্দোকপা তৌবিয়ু.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>কদাইদসু প্রকাশ তৌদ্রবা ড্রাফ্ট অমা ট্রেশদা চৎপা ঙমদে: মসি ফাহনবিয়ু.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>নঙনা মসি ফাহনবা য়াদে (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>ফাহনখ্রে.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>নঙনা মসি থোক্কনবা য়াদে (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>মসিদা মখাগী আইটেমশিং লৈ: মখোয় তালিকাভুক্ত ওইরিবা কন্টেন্ট তৃদা মসি থোক্কনবিয়ু.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>মসি থোক্কনদ্রে (ৱর্কফ্লো অমনা থোক্কনবা অসি থিংবা য়াই).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>ট্রেশদা সন্নখ্রে.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>সেক্সন অদু লৈতে.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>মসি হান্নদগী সেক্সন অসিদা লৈ.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>নঙনা সেক্সন অসি পীবা য়াদে (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>সেক্সন অদু পীদ্রে.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>সেক্সন পীখ্রে.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>স্টেট অদু লৈতে.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>মসি হান্নদগী স্টেট অসিদা লৈ.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>নঙনা স্টেট অসি পীবা য়াদে (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>স্টেট অদু পীদ্রে (ৱর্কফ্লো অমনা অহোংবা অসি থিংবা য়াই).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>স্টেট পীখ্রে.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>অসিগুম্বা কাম অমা লৈতে.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>য়েংশিনবগীদমক থিংবা অসি সেটআপ তৌদ্রি (অপগ্রেদ খোংথাং 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>মসি করিগীনো থিংলিবা হায়বা তাক্কদবিয়ু.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>মসি হান্নদগী থিংলে.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>নঙনা মসি থিংবা য়াদে (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>থিংবা অসি থম্বা ঙমদ্রে (ৱর্কফ্লো অমনা অহোংবা অসি থিংবা য়াই).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>থিংখ্রে.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>মসি থিংদ্রি.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>নঙনা মসি থাদোকপা য়াদে (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>থিংবা অসি থাদোকপা ঙমদ্রে (ৱর্কফ্লো অমনা অহোংবা অসি থিংবা য়াই).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>থাদোকখ্রে; হৌজিকসু লুমখ্রি: নঙনা মসি ফংহনবা য়াদে (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>থাদোকখ্রে.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>টার্গেট পুম্নমক</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>অরোইবা প্রকাশন</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>নহাক্কী সাইটকী স্টেটিক কোপি অমা GitHub Pages তা অশেংবা মওংদা প্রকাশ তৌবিয়ু:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>অরিবা ওইরবা পেজশিং</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>স্টেটিক প্রকাশন</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>স্টেটিক প্রকাশন অফ তৌরে.</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>টার্গেট</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>টার্গেটশিং পাবা ঙমদ্রে: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>থবক অমা চলরি</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>চেক তৌনবা বিল্ড</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>মসি লোত্থোকপা</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>টার্গেট অমা শেম্বা</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>কদাইদসু নত্তে</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>টিউটোরিয়েল পাবা</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>%added হাপখ্রে, %changed হোংখ্রে, %removed থোক্খ্রে</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%limit দগী %bytes (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>অহেনবা %count লিস্ট তৌদ্রে.</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>ইখিবা পেজ: %pages</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path মওং %size নি, হোস্টনা ফাইল অমগীদমক য়াবদগী হেন্না চাউই.</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>লিমিটকী %percent %</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds সেকেন্দ</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag অসি সাইটনা হৌজিক পাইরিবা প্রকাশননি.</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: থবক %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>GitHub প্রোজেক্ট সাইট অমগীদমক /রিপোজিটরি/; নশাগী দোমেন নত্রগা য়ুজরগী সাইটকীদমক অকোন্থবা.</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. সাইট</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. হোস্ট</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. রিপোজিটরিদা সাইন ইন তৌবা</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. রিপোজিটরি</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. লিঙ্কশিং অমসুং বেস পাথ</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. নহাক্কী নশাগী দোমেন</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. বিল্ডতা করি য়াউগনি</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. করিগী মতমদা প্রকাশ তৌগনি</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. রিভিউ তৌবা অমসুং থম্বা</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>GitHub প্রোজেক্ট সাইট অমা /&lt;repository&gt;/ গী মখাদা লৈ; রিলেটিভ লিঙ্কশিং মফম অদুদা অমসুং অতোপ্পা কনাগুম্বা মফমদা থবক তৌই.</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>বিল্ড অমনা %site গী পেজ খুদিংমক সাইন ইন তৌদবা ভিজিটর অমনা উবগুম্না পুরকই, লিঙ্কশিং অনৌবা ওইনা ইই, ফাইলশিং কোপি তৌই অমসুং মহৈ অদু টার্গেটকী ফোল্দরদা ইই. নহাক্না বিল্ড চেক তৌরগা প্রকাশ তৌবা নম্বা মতম ফাওবা করিসু প্রকাশ তৌরোই.</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>cron এক্সপ্রেসন অমা, খুদম ওইনা 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>ডিপ্লোয় কী অমা সিক্রেট %secret ওইনা থম্মি.</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>ডিপ্লোয় কী অমনা ইনস্টলেসন অসিবু SSH মখুত্তা রিপোজিটরি অমখক্তদা পুশ তৌবা য়াহনবা পী, অতোপ্পা মফমদা নত্তে. মগী প্রাইভেট শরুক সেটআপ &gt; সিক্রেটশিংদা লৈরি; পব্লিক শরুক খক্তমক উৎলি.</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>টার্গেট অসিগীদমক শেমখিবা ডিপ্লোয় কী</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>ডিপ্লোয় কী অমনা SSH মখুত্তা সাইন ইন তৌই: git এড্রেস অদু SSH এড্রেসতা হোংদোকপিয়ু (git@github.com:owner/repo.git).</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>%user না হৌদোকখিবা থবক অমা চলরি</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>টার্গেট অসিগী থবক অমা হৌজিকসু চলরি (%detail). লোইবা ফাওবা ঙাইবিয়ু.</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>টার্গেট অসিগী থবক অমা হৌজিকসু চলরি. লোইবা ফাওবা ঙাইবিয়ু.</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>পেজ /news/ দগী পেজ /about-us/team দা চৎপা লিঙ্ক অমা মসিগুম্না ইগনি</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>অনৌবা ডিপ্লোয় কী অমা শেম্লে. মগী পব্লিক শরুক অদু হৌজিক রিপোজিটরিদা হাপচিনবিয়ু.</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>থোক্কনবা মতুংদসু দিবগ আউটপুট, ফোর্ম টোকেন নত্রগা সেসন id লৈরিবা পেজ অমা কদাইদসু প্রকাশ তৌরোই.</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>রোলবেক অসি এক্সপার্টশিংগীদমকনি: &quot;মসিনা করি হোংদোকপগে হায়বা ঈহাক্না খঙই&quot; টিক তৌবিয়ু অমসুং টেগকী মমিং অমুক হন্না টাইপ তৌবিয়ু.</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>সাইট অমা %site ফাওবা, ফাইল অমা %file ফাওবা ওইব য়াই, থা অমদা ট্রাফিক 100 GB হায়বগী মনাক্তা. ফ্রী প্লান অমদা রিপোজিটরি অদু পব্লিক ওইগদবনি. GitHub Pages অসি দুকান নত্রগা অতোপ্পা কমর্সিয়েল ট্রান্সেক্সনগীদমক নত্তে.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>টার্গেট অমা হায়বসি git রিপোজিটরি অমদা প্রকাশ তৌবা সাইট অমনি. মফম অসিদা করিসু বিল্ড নত্রগা প্রকাশ তৌদে: থম্বা হায়বসিনা সেটিংশিং settings/override/staticcache.ini.append.php দা ই.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>টার্গেট অমা হায়বসি মফম অমদা প্রকাশ তৌবা সাইট অমনি, খুদম ওইনা GitHub Pages তা লৈবা নহাক্কী পব্লিক সাইট.</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>সেটআপ &gt; সিক্রেটশিংদগী টোকেন অমা</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>রিপোজিটরিগী workflow অমনা মসি প্রকাশ তৌই.</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>পব্লিক কী অসি ইবগী এক্সেসকা লোয়নবা রিপোজিটরিদা হাপচিনবিয়ু. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, Allow write access টিক তৌবিয়ু.</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>হাপখিবা</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>অতোপ্পা git হোস্ট</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>অতোপ্পা প্রোসেস অমনা টার্গেট অসিদা থবক তৌরি: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>লেপ্পা</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>বেস পাথ</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>মমাংদা</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>বেস পাথ অমগী মখাদা</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>ব্রাঞ্চ</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>কাইখিবা লিঙ্কশিং</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>বিল্ডতা লৈবা কাইখিবা লিঙ্কশিং</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>বিল্ড</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>%user গী বিল্ড %id</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>%name বিল্ড তৌবা</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>হৌজিক বিল্ড তৌবা</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>চেক তৌনবা বিল্ড</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>তৌখিবা মী</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>খুৎনা, মফম অসিদা</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>কেন্সেল তৌবা</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>হোংদোকপা</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>হোংখিবা</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>অহোংবশিং</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>অহানবা চেক তৌবা</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>সেটিংশিং অসি চেক তৌবিয়ু</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>বিল্ডনা করি হোংদোকপগে চেক তৌবিয়ু, য়েংবিয়ু, অদুগা প্রকাশ তৌবিয়ু নত্রগা হুন্থোকপিয়ু.</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>হন্দোকপা প্রকাশন অদু খনবিয়ু.</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>তুংদা লাক্কদবা রিলীজ অমদা লাক্কনি.</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>কমিট</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>কমিটশিং</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>বিল্ড অদু কমিট তৌই, টেগ তৌই অমসুং %remote দা পুশ তৌই. পুশ অমা কদাইদসু ফোর্স তৌদে; নহাক্না মতুংদা প্রকাশন কনাগুম্বা অমদা হল্লকপা য়াই.</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>মমাংগী ফোল্দরগা চাননবদা: %added হাপখ্রে, %changed হোংখ্রে, %removed থোক্খ্রে, %unchanged হোংদ্রে.</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>অরোইবা প্রকাশনগা চাননবা.</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>ক্রেডেনসিয়েল</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>নশাগী দোমেন</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>দিবগ আউটপুট, ফোর্ম টোকেনশিং, সেসন idশিং অমসুং noncesশিং মতম পুম্নমক্তা লৌথোকই.</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>ডিপ্লোয় কী</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>%name গী ডিপ্লোয় কী</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>হুন্থোকপা</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>বিল্ড অদু হুন্থোকপা</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>দোমেন</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>অকোন্থবা: সাইটকী এড্রেস. নত্রগা সাইট অদুগী মনুংগী এড্রেস অমা.</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>লোইখ্রে</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>লিঙ্ক খুদিংমক বেস পাথনা হৌই.</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>প্রকাশন খুদিংমক টেগ static/%id/&lt;n&gt; লৈবা কমিট অমনি. হল্লকপনা মমাংগী প্রকাশন অমগী ফাইলশিংগা লোয়না অনৌবা কমিট অমা শেম্মি: ইতিহাস লৈরি, টেগ অমত্তা থাংগৎতে অমসুং করিসু ফোর্স তৌদে.</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>হেনগৎলবা ফাইলশিং</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>পেজশিং পুরকপা মফম</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>ফাইল</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>ফাইলশিং</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>লৈতবা ফাইলশিং</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>ফাইলশিং:</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>খোমজিনবা ঙমদবা ফাইলশিং</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>ফিংগরপ্রিন্ট</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>ফোল্দর</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>SSH এড্রেস অমগীদমক. থম্লবা মতুংদা কী শেম্মি; মগী পব্লিক শরুক নহাক্না রিপোজিটরিদা হাপচিল্লি.</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>https:// এড্রেস অমগীদমক. GitHub: রিপোজিটরিদা Contents পাবা অমসুং ইবা য়াবা fine-grained টোকেন অমা.</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>এক্সপার্টশিংগীদমক. পুশ লোইবা খক্তদা পব্লিক সাইট হোংলক্লি.</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>ফোর্মশিং</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>GitHub রিপোজিটরি অমদগী অশেংবা মওংদা হোস্টিং.</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>ব্রাঞ্চতগী</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>Git এড্রেস</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages না %site গী সাইট অমসুং %file গী ফাইল য়াহনবা পী.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>GitHub Pages কী লিমিটশিং</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages না ফাইলশিং লৈরিবা মওং অদুম্না প্রকাশ তৌই (_ না হৌবা ফাইলশিংগীদমক মথৌ তাই).</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub না ব্রাঞ্চ অদু পুশ তৌখিবা মওং অদুম্না পী. দিফল্ট.</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, নহাক্কী নশাগী সর্ভর: git রিপোজিটরি কনাগুম্বা অমা.</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>মমাংগী প্রকাশন অমদা হল্লকপা</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>ফংজেল</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>ৱিজার্দকী ফংজেল</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>মখোয় লোত্থোকপা</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>ইতিহাস</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>%name গী ইতিহাস</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>হোস্ট</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>GitHub Pages না বিল্ড করম্না লৌবগে</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>অহোংবশিং অদু ঈহাক্না চেক তৌরে</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>মসিনা করি হোংদোকপগে হায়বা ঈহাক্না খঙই</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>Id</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>মসি অফ তৌরে: অন তৌবা ফাওবা করিসু বিল্ড তৌবা ঙমদে.</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>মসি %user ওইনা মতুংদা চলরি; নহাক্না পেজ অসি লোক্কনবা য়াই.</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>থবক %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>সিক্রেট %secret ওইনা থম্মি.</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>মখল</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>অরোইবা প্রকাশন</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>পেজশিং অসি হন্দোকপা</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>শরুকশিং অসি হন্দোকপা</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>লিঙ্কশিং</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>অনৌবা ওইনা ইখিবা লিঙ্কশিং</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>লাইভ সাইট</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>বিল্ড অদু য়েংবা</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>মচা ওইবা মায়েকশিং, মশিংশিং, _ অমসুং -, খুদম ওইনা github-public. মসিনা ফোল্দর অমসুং টেগশিংগী (static/&lt;id&gt;/&lt;n&gt;) মমিং থোই অমসুং মতুংদা হোংদোকপা ঙমদে.</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>অনৌবা কী অমা শেম্বা</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>টার্গেট অমা শেম্বা</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>কী অদু শেম্বা</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>অহানবা হোস্টতা রিপোজিটরি অদু শেমবিয়ু; অকোন্থবা অমসু য়াই.</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>ম্যানিফেস্ট</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>ৱাংবা</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>পেজ য়াম্নবা</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>মমিং</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>সেটআপ &gt; সিক্রেটশিংদা লৈবা টোকেনগী মমিং</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>অনৌবা টার্গেট</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>মখা</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>নত্তে</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>হৌজিক ফাওবা কমিট অমত্তা লৈতে.</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>কী অমত্তা শেম্বা ঙমদ্রে: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>php কমান্দ লাইন বাইনারি অমত্তা ফংদ্রে. migration.ini [AdminSettings] PhpCliPath দা মগী পুম্নমক পাথ সেট তৌবিয়ু.</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>হৌজিক ফাওবা টেগ অমত্তা লৈতে.</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>হৌজিক ফাওবা টার্গেট অমত্তা লৈতে.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>অমত্তা লৈতে</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>বিল্ডতা লৈতে.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>হৌজিক ফাওবা করিসু প্রকাশ তৌদ্রি.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>হৌজিক ফাওবা করিসু প্রকাশ তৌদ্রি: ফাইল খুদিংমক অনৌবনি.</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>খঙহনবা</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>শেদ্যুল অমগী মতুং ইন্না</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>কন্সোলদা</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>সর্ভরদা: ./console exp:static:serve %id না মসিবু মখল অদুম্না পী.</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>লাইন অমদা পাথ অমা, * না শরুক কনাগুম্বা অমগা মান্নই: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>টার্গেটকা লোয়না মমিং খক্তমক থম্মি; টোকেন নত্রগা কী মশামক সেটআপ &gt; সিক্রেটশিংদা লৈরি অমসুং লোগ অমদা কদাইদসু উদে.</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>পেজশিংনা মমিং থোইবা খক্তমক</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>টোকেনগা লোয়না খক্তমক. মগী মহুৎতা env:NAME না সর্ভরগী এনভাইরনমেন্ট ভেরিয়েবল অমা পাই.</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>প্রিভিউ হাংদোকপা</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>বিল্ড অদু হোস্টনা পীগদবা মওং অদুম্না টার্গেটকী ফোল্দরদগী হাংদোকই. লিঙ্ক অসি নহাক্কীদমক পুং অমা থবক তৌই.</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>তৌরবসু য়াই. অকোন্থবা: প্রকাশ তৌখিবা অদু.</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>তৌরবসু য়াই. দোমেন অমগা লোয়নবদি সাইট অদু মগী রুটতা পী.</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>আউটপুট</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>পেজশিং</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>টার্গেটকী পেজশিং</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>ইনকার তৌখিবা পেজশিং</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>মতুংগী প্রোসেসিং</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>প্রিভিউ</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>প্রিভিউ অমসুং প্রকাশ তৌবা</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>%name প্রিভিউ অমসুং প্রকাশ তৌবা</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>বিল্ড প্রিভিউ তৌবা</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>অগ্রগতি</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>পব্লিক এড্রেস</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>পব্লিক কী</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>প্রকাশ তৌবা</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>সাইট অমগী স্টেটিক কোপি GitHub Pages নত্রগা git হোস্ট কনাগুম্বা অমদা প্রকাশ তৌবা: বিল্ড তৌবা, অহোংবশিং চেক তৌবা, প্রকাশ তৌবা, অমসুং মথৌ তারবা মতমদা মমাংগী প্রকাশন অমদা হল্লকপা.</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>হল্লকপা প্রকাশন</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>প্রকাশনশিং</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>পুশ</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>টিউটোরিয়েল পাবা</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>রেকর্ড</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>ইনকার তৌখিবা</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>রিলেটিভ</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>রিলোড তৌবা</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>থোক্খিবা</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>কী হোংদোকপা: অরিবা কী অদু থবক তৌবা লোইগনি</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>রিপোর্ট</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>বিল্ডকী রিপোর্ট</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>রিপোজিটরি</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>রিভিউ</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>রিভিউনা সেটিং খুদিংমক চেক তৌই অমসুং ইগদবা লাইনশিং উৎই. হৌজিক ফাওবা করিসু থমদ্রি.</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>রোলবেক তৌবা</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>রোলবেক</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>থম্বা</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>শেদ্যুল</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>সর্চ পেজ</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>শরুকশিংগী idশিং, কমানা তোঙান তোঙানবা.</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>মখোয় লাইভ সাইটতা থাবা</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>সেটিং</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>সেটিংশিং</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>%name গী সেটিংশিং</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>সেটআপ</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>সেটআপ &gt; সিক্রেটশিং</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>লিস্টশিংদা উৎই, খুদম ওইনা &quot;GitHub Pages তা লৈবা পব্লিক সাইট&quot;.</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>GitHub App না সাইন ইন তৌবা অসি GitHub ইন্তিগ্রেসনগা লোয়না লাক্কনি.</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>সাইট</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>প্রকাশ তৌগদবা সাইট</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>মওং</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>মওং অমসুং লিমিটশিং</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>বিল্ডকী মওং</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>অরিবা ওইরবা পেজশিং</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>হৌদোকখিবা</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>%user না %time দা হৌদোকখি.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>অবস্থা</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>স্টেটিক প্রকাশন</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>স্টেটিক প্রকাশন অফ তৌরে</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>স্টেটিক প্রকাশন অফ তৌরে.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>স্টেটিক প্রকাশন অফ তৌরে. অহানবা সেটআপ &gt; স্টেটিক প্রকাশনদা অন তৌবিয়ু.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>স্টেটিক প্রকাশন অন তৌরে.</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>%total দগী খোঙথাং %step</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>খোঙথাংশিং</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>শেংদোকপা</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>অফ তৌবা</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>অন তৌবা</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>স্টেটিক প্রকাশন অন তৌবা</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>টেগ</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>টেগশিং</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>টার্গেট</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>টার্গেটশিং শেম্বা অমসুং হোংদোকপা য়াই, অদুবু অন তৌবা ফাওবা করিসু বিল্ড নত্রগা প্রকাশ তৌরোই.</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>সর্চ ইঞ্জিনশিংদা করি পাগদগে হায়রি.</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>বিল্ড অদু হুন্থোকপা ঙমদ্রে: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>বিল্ড অসি অরোইবা প্রকাশনগা মান্নই: প্রকাশ তৌগদবা করিসু লৈতে.</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>বিল্ড অদু হুন্থোকখ্রে: ফোল্দর অদুদা অরোইবা প্রকাশন অমুক হন্না লৈরে.</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>দিফল্টশিং অসি সাইট য়াম্নবদা চানরি.</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>ফোল্দর অদুদা হৌজিক ফাওবা প্রকাশ তৌদ্রিবা বিল্ড অমা লৈ; অনৌবা বিল্ড অমনা মসিগী মহুৎ শিনগনি.</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>থবকশিংগী ফোল্দরদা ইবা ঙমদে: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>থবক অদু শেম্বা ঙমদ্রে: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>থবক অদু হৌদোকপা ঙমদ্রে.</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>থবক লোইরে. মগী রিপোর্ট লোড তৌরি.</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>থবক অসিগীদমক সাইন ইন তৌরবা য়ুজর অমা মথৌ তাই.</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>থবক অদু হৌদোকখি অদুবু মগী প্রোসেস id রিপোর্ট তৌদ্রে. %detail চেক তৌবিয়ু.</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>কী অদু</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>খ্বাইদগী চাউবা ফাইল: %path, %size.</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>ইগদবা লাইনশিং</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>সর্চ ইঞ্জিনশিংগীদমক পেজশিংগী লিস্ট; পব্লিক এড্রেস মথৌ তাই.</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>পেজশিং সাইন ইন তৌদবা ভিজিটর অমনা উবগুম্না পুরকই. এদমিনিস্ট্রেসন অমসুং এডিটিংগী সাইট একসেসশিং কদাইদসু পীদে.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>অগ্রগতি ইনবা ঙমদ্রে. থবক অদু করম্না চলরিবগে য়েংনবা পেজ অসি রিলোড তৌবিয়ু.</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>কীগী পব্লিক শরুক:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>ব্রাঞ্চকী রুট</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>সিক্রেট স্টোর হৌজিক ফাওবা সেট তৌদ্রি (./console exp:upgrade --apply না মগী টেবল শেম্মি), মরম অদুনা কী অমত্তা থম্বা ঙমদে.</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>সর্ভরনা মশানা সাইন ইন তৌই (মশাগী SSH কী নত্রগা credential helper না), নত্রগা রিপোজিটরি অদু সর্ভর অসিদা লৈ.</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>সেটিং অদু ইবা ঙমদ্রে: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>সেটিংশিং অসি চৎনবা য়াই. লাইনশিং অসি ইগনি:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>সেটিংশিংগী ফাইল পাবা ঙমদে: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>সাইট অদু প্রকাশন অদুগী ফাইলশিংদা হল্লক্লি; হৌজিক ফাওবা প্রকাশ তৌদ্রিবা বিল্ড অমা অহানবা প্রকাশ তৌগদবনি নত্রগা হুন্থোকপা তাই.</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>লৈতবা এড্রেসশিংগীদমক সাইটকী মশাগী পেজ.</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>টার্গেট অদু থম্বা ঙমদ্রে: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>টার্গেট অসিনা হৌজিক ফাওবা কী অসিনা সাইন ইন তৌদ্রি: মগী সেটিংশিংদা &quot;টার্গেট অসিগীদমক শেমখিবা ডিপ্লোয় কী&quot; খনবিয়ু.</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>টার্গেটশিং পাবা ঙমদ্রে: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>হৌজিক ফাওবা চেক তৌগদবা বিল্ড অমত্তা লৈতে.</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>ইনস্টলেসন অসিদা ফ্রন্ট সাইট একসেস অমত্তা লৈতে. এদমিনিস্ট্রেসন অমসুং এডিটিংগী সাইট একসেসশিং কদাইদসু প্রকাশ তৌদে.</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>পেজ অসিনা থবক অদু চলরিঙৈদা ইন্নরি; পেজ লোক্কনবা মতমদা থবক অদু মতুংদা চলথরি.</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>টার্গেট অসিদা হৌজিক ফাওবা ডিপ্লোয় কী অমত্তা লৈতে.</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>টার্গেট অসি মফম অসিদা হৌজিক ফাওবা বিল্ড তৌদ্রি.</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>টার্গেট অসিদা অমা লৈ.</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>বিল্ড অসি হুন্থোকই: ফোল্দর অদুদা অরোইবা প্রকাশন অমুক হন্না লৈ. লাইভ সাইট হোংদে.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>অহানবা &quot;অহোংবশিং অদু ঈহাক্না চেক তৌরে&quot; টিক তৌবিয়ু.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>মসময়</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>ট্রিগরশিং</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>টেগকী মমিং অমুক হন্না টাইপ তৌবিয়ু</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>হোংদবা</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>ৱেবহুক</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>করি</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>করি হোংগনি</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>ফাইল খুদিংমক করিনো; মতম পুম্নমক্তা ইই.</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>থবকনা করি তৌখিবগে অমসুং মগী রেকর্ড. মফম অসিদা হৌদোকখিবা থবক অমা পেজ অসি লোক্কনবা মতমদা মতুংদা চলথরি.</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>থবকনা ভুল ওইনা প্রিন্ট তৌখিবা</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>পেজশিংনা মমিং থোইবা, অমসুং প্রকাশ তৌখিবা কন্তেন্তকী ইমেজ খুদিংমক</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>করিগী মতমদা</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>প্রকাশন অমা ঙমদ্রবদা</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>প্রকাশন অমা মাইপাকপদা</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>কন্তেন্ত প্রকাশ তৌবা মতমদা</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>কোপিদা লৈতবা পোৎশক্তা চৎপা লিঙ্কশিং কদায়দা চৎকদগে (সর্চ, লোগিন).</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>স্টেটিক কোপি অদু কদায়দগী পীবগে.</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>কনাগী সাইট প্রকাশ তৌগনি, অমসুং টার্গেট অদুগী মমিং করি কৌগনি.</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>পাথ কনাগুম্বা অমগী মখাদা থবক তৌই. দিফল্ট.</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>নশাগী দোমেন অমা সেট তৌবা মতম খুদিংমক্তা ইই.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>হোই</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>নহাক্না মফম অসিদা অমসুং কন্সোলদা মতম পুম্নমক্তা খুৎনা বিল্ড অমসুং প্রকাশ তৌবা য়াই.</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>মমিং খক্তমক; ভেল্যু অদু সেটআপ &gt; সিক্রেটশিংদা লৈরি</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>%path গী মখাদা</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>রিপোর্ট য়াওদনা লোইখ্রে</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>হেনগৎলবা</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>ঙমদ্রে</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>ফাইল</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages, নত্রগা docs ফোল্দরগা লোয়নবা main.</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>git হোস্ট</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (টোকেনগা লোয়না) নত্রগা git@github.com:owner/repo.git (ডিপ্লোয় কীগা লোয়না); মসিদা পাসৱার্দ নত্রগা টোকেন কদাইদসু হাপচিনগনু.</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/, সাইটমেপ অমসুং কেনোনিকেল লিঙ্কশিংগীদমক.</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>ইমেজ</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>কদাইদসু নত্তে</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>নত্তে</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>রিমোট লৈতে</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>লৈতে: কমিটশিং ফোল্দরদা লৈরি</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>লৈতে: করিসু হোংদ্রে</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>পুশ তৌদ্রি</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>করিসু হোংদ্রে</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>পেজ</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>মাইপাক্লে</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>proc_open অফ তৌরে, মরম অদুনা মফম অসিদা থবক অমা হৌদোকপা ঙমদে. সর্ভরদা ./console exp:static:build শিজিন্নবিয়ু.</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>প্রকাশন</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>প্রকাশ তৌখ্রে</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>পুশ ঙাক্লি</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>পুশ তৌখ্রে</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>ইনকার তৌখ্রে</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>রিলেটিভ</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>রোলবেক</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>রোলবেক তৌখ্রে</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>চলরি</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>ফোল্দর খক্তমক</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: CNAME ফাইলদা ইই. দোমেনগী DNS অদু হোস্টনা তাক্লিবগুম্না হোস্টতা পোইন্ত তৌবিয়ু; HTTPS হৌবদা মতম খরা চাংবা য়াই.</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>হোই, হৌজিক ফাওবা প্রকাশ তৌদ্রি</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>GitHub App অমা</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>রিপোজিটরিগী workflow অমনা মসি প্রকাশ তৌই. বিল্ডনা workflow ফাইল অদু ইই; ফোল্ডর অদু অকোন্থনা থম্মু.</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>GitHub রিপোজিটরি অমা অমসুং টোকেন অমা নত্রগা GitHub App অমগা লোয়না টার্গেট অমা সেভ তৌরবা মতুংদা, স্তেপ অসিনা রিপোজিটরি অদু শেমগৎপা অমসুং GitHub Pages অন তৌবা য়াই. মদু নত্রবদি অহানবা GitHub তা রিপোজিটরি অদু শেমবিয়ু; অকোন্থবা অমসু য়াই.</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>ব্রাঞ্চ নত্রগা GitHub Actions?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>DNS য়েংবা</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>রিপোজিটরি লৈতবদি শেমবা</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>GitHub তা রিপোজিটরি শেমবিয়ু অমসুং মসিগী সেটিংশিংদা GitHub Pages অন তৌবিয়ু (Settings &gt; Pages).</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>রিপোজিটরি %repo লৈতবদি (হায়রবদি) শেমগৎলি, সেভ তৌখিবগুম্না ব্রাঞ্চতগী নত্রগা GitHub Actions তগী GitHub Pages অন তৌই, অমসুং নশাগী দোমেন অমসুং HTTPS সেট তৌই. মসিনা সেভ তৌখিবা সেটিংশিং শিজিন্নই: অহানবা অহোংবশিং সেভ তৌবিয়ু.</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>GitHub তা অকুপ্পা</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>অহানবা নশাগী দোমেন অদু হাপচিনবিয়ু.</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>push খুদিংমক অহানবা লিমিট অসিশিংগা চাননা য়েংই.</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>GitHub তা https:// এড্রেস অমগীদমক. ইনস্টলেসন অসিগীদমক সেট তৌরবা App অদুনা সাইন ইন তৌই; মসিদা ইনস্টলেসন id মথৌ তাই.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages না মশাগী রিপোজিটরি অমা শেন্ফম পীবা প্লানদা খক্তমক পীই.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: সবদোমেন অমগী (www.example.com) &lt;owner&gt;.github.io দা CNAME রেকর্ড অমা মথৌ তাই; apex দোমেন অমগী (example.com) A রেকর্ড %ips.</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>GitHub App কী ইনস্টলেসন id</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>অরোইবা Pages বিল্ড</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>লিমিট অমসুং ওইনবা মতিকশিং</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>অশেংবা মওংদা প্লানদা GitHub Pages কী মথৌ তাই.</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>GitHub তা</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>GitHub App খক্তগা: GitHub তা App কী ইনস্টলেসনগী এড্রেসকী অরোইবদা লৈবা নম্বর. App মশামক staticcache.ini দা সেট তৌই (GitHubAppId, GitHubAppKey).</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>মশাগী</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>মীয়ামগী</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>অহানবা GitHub রিপোজিটরি অমা অমসুং টোকেন অমা নত্রগা GitHub App অমগা লোয়না টার্গেট অদু সেভ তৌবিয়ু.</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>রেকর্ড অসিশিং দোমেনগী প্রোভাইদরদা সেট তৌবিয়ু:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>GitHub তা সেটআপ তৌবা</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>%domain কী DNS না হৌজিক ফাওবা GitHub Pages দা পোইন্ত তৌদ্রি.</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>%domain কী DNS না GitHub Pages দা পোইন্ত তৌই.</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>GitHub ইন্তিগ্রেসন মফম অসিদা লৈতে: %problem. ব্রাঞ্চতা প্রকাশ তৌবা অদু মখোয় চপ মান্ননা থবক তৌই; রিপোজিটরিগী সেটিংশিংদা GitHub Pages অন তৌবিয়ু.</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>টার্গেট অসিগীদমক GitHub স্তেপশিং লৈতে: %problem.</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>ক্রেডেনসিয়েল ওইনা টোকেন অমা নত্রগা GitHub App অমা লৈবদা GitHub Pages কী ফিভম উৎলি.</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>নশাগী দোমেন শিজিন্নবা</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>করি খনগনি: টোকেন, ডিপ্লোয় কী নত্রগা GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>GitHub রিপোজিটরি অমা অমসুং টোকেন অমা নত্রগা GitHub App অমগা লোয়না, উইজার্দনা নখোয়গীদমক রিপোজিটরি শেমবা, GitHub Pages অন তৌবা অমসুং দোমেন সেট তৌবা য়াই (স্তেপ 4).</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>বিল্ড তৌরি</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>বিল্ড তৌরে</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>GitHub Actions তগী</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>ব্রাঞ্চ %branch তগী</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>হৌজিক ফাওবা লৈতে</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>ফংদ্রে</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>অফ</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>মশাগী</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>মীয়ামগী</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>লাইনদা লৈরি</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>খঙদবা</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>পেজ %pages অসিদা %count:</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>টেক্সট ফাইল অমা অমগী মনাকতা .gz (অমসুং .br), মখোয়দু পীবা হোস্টশিংগী মতomতা।</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>পেজ অমগী মীকপ ঠিকানা অমসুং অলিয়াস পুম্নমকতা পেজ ক্লৈবা অমা, মীকপ লিংকশিং কাইরকপদা।</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>GitHub Actions সাইট থোকহল্লবদা ইমুন-ইমুন ইনবা য়াই।</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>CC-BY-4.0 অসি তৌবা SPDX আইডি অমা, নত্রগা টেক্সট মতম্দু।</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>বাস্কেট</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>সার্ভরগা কল</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>কমেন্টশিং</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>ইনফরমেশন লৌনবা ফোর্মশিং</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>GitHub Actions ওয়ার্কফ্লো</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>পেজশিংদা ফাঙ্গবা মফম খুদিংমক অমসুং কমেন্ট মফম নত্তে।</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>কন্টেন্টকী লাইসেন্স</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>লগইন</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>মিনিফাই</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>অতোপ্পা ফোর্মশিং</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>মথক্তা কম্প্রেস তৌবা</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>রিডাইরেক্ট পেজশিং</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>রিডাইরেক্ট পেজশিং: %count।</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>সর্চ</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>সর্চ ইন্ডেক্স: %languages দা পেজ %pages।</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>কন্টেন্টকী হ্যাশ্তা মমিং পীবা স্টাইল শীট অমসুং স্ক্রিপ্টশিং, ব্রাউজরশিংনা মখোয়দু ফোংদোকপা য়াবনি।</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>ঙাক্লবা পেজশিং, মতৌ মখা ঙাক্লবগী মমিং মনিট কয়া ফাওনা (ক্রোনজব অংশ staticpublish)।</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>কন্টেন্টকী লাইসেন্স, মখাদগী ফিল্দগী।</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>সাইট পুম্নমক, শিডিউলকী মতমদা (ক্রোনজব অংশ staticpublish)।</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>পেজশিংগী অংশ অসিদা সার্ভর য়েংনি; অমা অমদা বিকল্প অমা পীরি। প্রকাশ তৌবগী মমাংদা মখোয়দু যেংবীয়ু।</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>স্ট্যাটিকতা কাইদে</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>রিপজিটরী করিনো, হোস্টতা মখোয়দু ঘৌরকপদা।</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>লোইরবা</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>বিকল্প টেক্সট</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>লাইভ সাইটকী ফোর্ম এন্ডপয়েন্ট</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>লাইভ সাইট</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>কপীগী সর্চ পেজ</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>ফোর্মদু থাদোকপা ঙমদ্রে।</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>থাগৎচরি: ফোর্মদু থাদোকলে।</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>ফোর্মদু লৈখি তৌদ্রে: নখোয়না ইনবা অসি যেংবীয়ু অমসুং অমুক থাবীয়ু।</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>কোপিদা লৈতবা লমাইশিংগী লিংকশিং লৌথোকউ</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>এদমিনিস্ত্রেসনদা চৎপা লিংকশিং লৌথোকউ</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>মখোয়গী তেক্সত লৈরি। মফম, ফোর্ম অমসুং অতোপ্পা সাইতকী লিংকশিং কদাইদসু লৌথোকদে।</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>ভর্সন</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>পাউথোকপা সাইট একসেসশিং</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>সাইট একসেস</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>রুটতা</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>রুটতা সাইট একসেস অমত্তা লৈতে: মখোয় খুদিংমক মখোয়গী ফোল্দরদা লৈ, অমসুং রুটনা মখোয়দা লিংক পীরি</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>সাইট একসেসশিং</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>সাইট একসেস অমা, নত্রগা মখোয়গী URI প্রিফিক্সনা হোস্ট অমা শেয়র তৌবা কয়া খনবীয়ু। রুটতা লৈবা অদু মফম অদুদা পীরি, অতোপ্পশিং মখোয়গী প্রিফিক্সকী ফোল্দরদা (/ger/); মখোয়গী মরক্তা লৈবা লিংকশিং কোপীদা লৈরি। প্রশাসনগী সাইট একসেসশিং কদাইদা পীদে।</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>%site দা %target গী স্টেটিক থোরকপা মাইথিবা ফংখ্রে</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>%site দা %target গী স্টেটিক থোরকপা মাইপাকখ্রে</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>স্টেটিক থোরকপগী পান্দম %target না হায়জবা মরমদা %site না মেল অসি থাখি।</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>ডিপ্লয় %deploy %site দা ঙমদ্রে</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>ডিপ্লয় %deploy %site দা থোঙ অমদা ঙাইরি</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>ডিপ্লয় %deploy %site দা মায় পাখ্রে</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>মেল অসি %site না থারকনি মরমদি migration.ini [RemoteSettings] Notify[] না মসি হায়জৈ।</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>ডেটা মরীকশিং (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>%time দা মশিং থীখি, মিনিট %minutes তুংদা অমুক হন্না</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>ডেটা মরীক অমনা ক্লাস এট্রিবিউট অমগী ভেল্যু মখল অমা থম্মি অমসুং শেমদোক্নি: টেক্সত লাইন অমা, ইমেজ অমা, রিলেসন অমা। মখোয়গী য়াম্নবা কর্নেলনা পুরকই, এক্সটেন্সনশিংনা হেন্না হাপচিল্লি। মসিদা মখোয় পুম্নমক, মখোয় কনানা পীবগে অমসুং কন্টেন্ট কয়াম মখোয় শিজিন্নবগে উৎলি। ডেটাবেজনা শিজিন্নরিবা অদুবু কনানাসু রেজিস্টর তৌদ্রবা ডেটা মরীক অমনা মদু লৈবা কন্টেন্ট শোক্নহল্লি।</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>ক্লাস মরুপশিং</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>লোইখ্রবা মিনিটশিংগী মশিং শিজিন্নদনা হৌজিক অমুক হন্না মশিং থীউ।</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>অমুক হন্না মশিং থীউ</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>ওভারভিউ</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>রেজিস্টর তৌরে</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>ব্যবহারদা লৈ</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>ব্যবহার তৌরদে</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>ডেটা মরীক পীরিবা এক্সটেন্সনশিং</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>ক্লাস এট্রিবিউটশিং</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>অবজেক্ট এট্রিবিউটশিং</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>রেজিস্টর তৌদ্রি</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>লিস্টতা লৈ, ফাইল লৈতে</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>ডেটা মরীক %count শিজিন্নরি অদুবু রেজিস্টর তৌদ্রি</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>ক্লাস এট্রিবিউট %class_attributes অমসুং অবজেক্ট এট্রিবিউট %object_attributes দা এক্সটেন্সন নত্রগা সেত্তিং অমত্তনা রেজিস্টর তৌদ্রবা ডেটা মরীক অমা লৈ। মখোয়গী অবজেক্টশিং উৎপা, শেমদোকপা নত্রগা পব্লিশ তৌবা ঙম্মে। ডেটা মরীক অদু পীরিবা এক্সটেন্সন অদু এক্তিভ তৌবিয়ু, নত্রগা ক্লাস অদু হোংদোকপিয়ু।</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>মসিশিং খক্তমক উৎপিয়ু</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>ডেটা মরীক অমা থিবিয়ু</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>পরিচয়, মমিং, PHP ক্লাস নত্রগা এক্সটেন্সন।</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>ফংবা</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>খুদিংমক</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>পীরিবা</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>মীখুদিংমক</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>কর্</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>ফিল্টর অসিগা চান্নবা ডেটা মরীক অমত্তা লৈতে।</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>খুদিংমক ফংবা</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>এক্সটেন্সন</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>ডেটা মরীক %count গী মনুংদা %shown, %used শিজিন্নরি</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>ডেটাবেজদা ডেটা মরীক অসিশিংগী ক্লাস নত্রগা অবজেক্ট এট্রিবিউটশিং লৈ, অদুবু content.ini না মখোয় অমত্তা লিস্ট তৌদ্রি, নত্রগা মসিগী ফাইল অদু লৈতে।</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>%provider গী ডেটা মরীকশিং</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>ডেটা মরীক</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>PHP ক্লাস অমসুং ফাইল</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>ক্লাসশিং</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>অবজেক্টশিং</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>ফ্ল্যাগশিং</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>অমুক ফংদে</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>সার্চকা চান্নবা ডেটা মরীক অমত্তা লৈতে। সার্চ অদু মুত্থৎপিয়ু।</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>ডেটা মরীক %count গী মনুংদা %shown উৎলি</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>উৎলিবা ডেটা মরীকশিং: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>%column অনুসার সর্ট তৌবা</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>%time দা মশিং থীখি</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>ডেটা মরীক পুম্নমক</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>ফংজেলগী লমাই</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>ডেটা মরীক অসি শিজিন্নরি অদুবু রেজিস্টর তৌদ্রি</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>এক্সটেন্সন অমত্তনা ডেটা মরীক অদু রেজিস্টর তৌদ্রিফাওবা মখাদা লৈবা ক্লাসশিংগী অবজেক্টশিং উৎপা, শেমদোকপা নত্রগা পব্লিশ তৌবা ঙম্মে। মদু পীরিবা এক্সটেন্সন অদু এক্তিভ তৌবিয়ু অমসুং content.ini [DataTypeSettings] AvailableDataTypes[] দা হাপচিনবিয়ু, নত্রগা ক্লাসশিং হোংদোকপিয়ু।</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini না ডেটা মরীক অসি লিস্ট তৌরি, অদুবু ডেটা মরীক ডাইরেক্টরি অমত্তদা মসিগী ফাইল লৈতে। কনানাসু শিজিন্নদে; মসি AvailableDataTypes[] দগী লৌথোকপিয়ু নত্রগা মসিগী এক্সটেন্সন এক্তিভ তৌবিয়ু।</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>ডেটা মরীক অসিগী মরমদা</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>পরিচয়</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>মমিং</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>এক্সটেন্সন %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>কনাসু নত্তে</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>PHP ক্লাস</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>ফাইল</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>AvailableDataTypes[] দা লৈ</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>অমুক</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>মতোক</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>মসিগী ভেল্যুগী কলমশিং</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>মসিগী ক্লাস এট্রিবিউট সেত্তিংশিংগী কলমশিং</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>টেবলশিং</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>কলম অমসুং টেবলশিং অসি ডেটা মরীকগী কোড পানা থিল্লকপনি: লম্বী উৎপা, ৱাশক নত্তে।</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>টেম্প্লেটশিং</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>সাইট একসেস</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>টেম্প্লেট</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>ফংখিবা মখোয়</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>এদমিনিস্ট্রেসন অসি</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>দিফোল্ট সাইট</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>ওভররাইড য়াওদনা: ক্লাস নত্রগা এট্রিবিউটকা চান্নবা ওভররাইড টেম্প্লেট অমনা মসিশিংদগী মমাংদা লৈ।</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>মসি শিজিন্নবা ক্লাসশিং (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>ক্লাস অমত্তদা ডেটা মরীক অসিগী এট্রিবিউট লৈতে।</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>ক্লাস</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>এট্রিবিউটশিং</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>ক্লাস এট্রিবিউটশিং (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>এট্রিবিউট</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>সেটিংশিং</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>ঙমবা</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>সার্চ তৌজরবা</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>অনুবাদ তৌজরিবা</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>তথ্য কলেক্ট তৌ</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>মসি শিজিন্নবা কন্টেন্ট খরা</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>অরোইবদা হোংদোকখিবা অহানবদা</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>সুধরবা</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>নোদ %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>ট্রান্সলেসন খুদিংমক্না মশাগী ভেল্যু লৈ।</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>সার্চনা মসিগী ভেল্যুশিং ইন্দেক্স তৌই।</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>মসিনা লাকপা মীশিংদগী ইনফর্মেসন খোমজিনবা ঙম্মি (ফোর্মশিং)।</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>লিস্টশিং মসিনা ময়েক শেংনা থম্বা ঙম্মি: সোর্ট কি %type।</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>সর্ট তৌজরিবা</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>মসিগী ভেল্যুশিংনা অতৈ অবজেক্টশিংদা পোইন্ত তৌই।</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>সম্বন্ধশিং</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>মসি মতিক চাবা স্ট্রিং অমদগী মপুং ফানা হাপপা ঙম্মি (ইম্পোর্ট, REST)।</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>টেক্সতদগী</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>মসি ফাইল অমদগী মপুং ফানা হাপপা ঙম্মি।</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>ফাইলদগী</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>মসিগী ক্লাস এট্রিবিউট সেত্তিংশিং প্যাকেজশিংদা চংই।</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>প্যাকেজশিং</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>কন্টেন্ট (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%count গী মনুংদগী %from দগী %to</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>তালিকা ফিল্টর তৌবা</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>ক্লাস খুদিংমক</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>সেক্সন</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>লোন্শিং</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>মওংবা</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>প্রকাশ তৌরবা</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>ক্রম লেপ্পা তৌবা</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>আইটেম অমাসু লৈদে</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>পেজ অমদা</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>পেজ অমা অমাদা %count আইটেম ফংহনবিয়ু.</translation>
     </message>
 </context>
 </TS>

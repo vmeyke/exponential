@@ -67,6 +67,19 @@ Anmeldungen** auf Ihre Geräte den Haken bei **Mir eine E-Mail schicken, wenn me
 oder Browser anmeldet** und klicken Sie **Speichern**. Die Seite E-Mail-Einstellungen verweist auf dieses Kästchen: Die
 E-Mail gehört zur Kontosicherheit und wird deshalb hier geschaltet.
 
+### Wenn Sie es nicht waren: Konto absichern
+
+**Sicherheitsaktivität** (verlinkt von Ihre Geräte und dem Benutzermenü) listet die Anmeldungen und Änderungen Ihres
+Kontos. Neben jedem Ereignis der letzten 30 Tage, das Aufmerksamkeit braucht, fragt sie **Waren Sie das?**:
+
+- **Ja, das war ich**: Die Frage verschwindet; das Ereignis bleibt in der Liste.
+- **Nein, mein Konto absichern**: öffnet die Karte **Konto absichern** oben auf der Seite.
+
+**Konto absichern** lässt Sie zuerst bestätigen, dass Sie es sind, und meldet dann jedes Gerät außer dem, das Sie gerade
+benutzen, ab, auch die mit „Angemeldet bleiben“. Danach sagt die Seite, wie viele abgemeldet wurden, und bietet
+**Passwort ändern** an: Wählen Sie sofort ein neues. Die Schaltfläche **Konto absichern** in jeder Sicherheits-E-Mail
+führt direkt zu dieser Karte.
+
 ## 4. Für Administratoren: die Sitzungen eines Benutzers
 
 Öffnen Sie die Kontoseite des Benutzers (`user/edit/<id>`, in der Benutzerliste **Bearbeiten** oder das Kontosymbol).
@@ -122,6 +135,7 @@ Sitzungen, die `[Session] SessionTimeout` lang nicht benutzt wurden, und entfern
 | Das abgemeldete Gerät ist noch angemeldet | Es hat noch keine Anfrage gestellt: Der nächste Klick zeigt die Anmeldeseite. Ein Gerät, das nur eine Seite offen hält, fragt den Server nicht |
 | Keine E-Mail nach einer Anmeldung von einem neuen Telefon | Das Kästchen auf Ihre Geräte ist leer, oder `NewDeviceMail=disabled`, oder es war die erste Anmeldung des Kontos, oder derselbe Browser und dasselbe System wurden innerhalb von 90 Tagen benutzt |
 | Ein Programm (WebDAV, REST mit einem App-Passwort) steht nicht in der Liste | Anfragen, die sich nur für sich selbst anmelden, ohne Sitzung, sind keine Sitzungen; widerrufen Sie stattdessen das App-Passwort oder den API-Schlüssel |
+| Ihre Geräte oder die Sicherheitsaktivität ist dunkel, während der Rest der Site hell ist (oder umgekehrt) | Die Seiten folgen dem hellen oder dunklen Modus des Systems, solange das Design der Site den verwendeten Modus nicht an `<html>` angibt: `data-theme="light"` oder `"dark"`, `data-bs-theme` (Bootstrap 5.3) oder `data-exp-theme` (das Media-Design). Ein Design mit eigenem Umschalter setzt eines davon, bevor die Seite gezeichnet wird; siehe [Dunkler Modus und Tokens in Themes](../hilfe/erweiterungsentwicklung/teil-6-theme-entwickler/dunkler-modus-und-tokens-in-themes.md#kernel-seiten-folgen-dem-umschalter) |
 
 ## Verweise
 

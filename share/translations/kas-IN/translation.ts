@@ -984,6 +984,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>صِرف یہِ صَفحہ چھُ ژھارنہٕ آمُت: %from تہٕ %to، کُل %count۔</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>کرنَل تہٕ ایکسٹینشَنَن ہُنٛد پرٛتھ ڈیٹا قِسِم، تہٕ کلاس تہٕ مَواد کِتھ پٲٹھۍ چھِ یہِ وَرتاوان۔</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>ڈیٹا قِسِم</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2316,6 +2324,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>سِسٹَم صَفحہ تہِ ہیکِ بُک مارک گَژھتھ: صَفحہ کھولِو (سیٹ اَپ، آڈِٹ ٹریل، صارِفن ہُنٛد فِہرِسٹ ...) تہٕ تَمہِ برونہہٕ "یہ صَفحہ بُک مارک کٔرِو" ژُنِو۔ یمن بُک مارکن چھُ گیئر آیکَن۔</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>توٚہہ ہیکِو نہٕ یہ صَفحہ اَبہِ یتہِ کھولتھ۔ بُک مارک ہٹٲوِو، یا مُنتظِمہِ پیٹھ رَسایی منگِو۔</translation>
     </message>
 </context>
 <context>
@@ -5165,6 +5177,210 @@
         <source>Go to the first page</source>
         <translation>گۄڈنِکس صفحس گَژھِو</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>بییہ</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>پتمن 7 دۄہن</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>مَرضی مُطٲبِق مُدَت</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>سٲری لَفٕظ</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>کانٛہہ تہِ لَفٕظ</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>ٹھیٖک جُملہٕ</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>مُطابِقَت</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>ناو ا–ی</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>ناو ی–ا</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>تَرمیم شُدٕہ، نٔوۍ گۄڈٕ</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>تَرمیم شُدٕہ، پرٛان گۄڈٕ</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>شایع شُدٕہ، نٔوۍ گۄڈٕ</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>شایع شُدٕہ، پرٛان گۄڈٕ</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>تَرمیم شُدٕہ</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>فِلٹَر</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>فِلٹَر ہاوِو</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>فِلٹَر ژھٔپاوِو</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>ری سیٹ کٔرِو</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>لاگوٗ کٔرِو</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>لَفٕظ</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>مَواد قٕسم</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>بیٚیہِ ہاوِو (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>اَکھ مَواد قٕسم ژارِو تاکہ تَمہٕ کِس اَکِس خٲصِیتس منٛز ژھانٛڈِو۔</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>سیکشَن</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>پیٹھ</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>تام</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>شروٗعاتی تٲریخ چھےٚ نہٕ صحیح تٲریخ۔</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>آخری تٲریخ چھےٚ نہٕ صحیح تٲریخ۔</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>مالِک</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>صارِف ID، لاگ اِن یا ای میل پَتہٕ۔</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>“%input” خٲطرٕ میوٗل نہٕ کانٛہہ صارِف۔</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>زَبان</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>کانٛہہ تہِ زَبان</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>جاے</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>%count جاے</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>فی صفحہٕ نَتیٖجہٕ</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>“%text” خٲطرٕ نَتیٖجہٕ (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>نَتیٖجہٕ (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>یِتھ مُطابِق ترتیٖب دِیُن</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>ترتیٖب دِیُن</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>سَرگَرم فِلٹَر</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>یہ فِلٹَر ہٹٲوِو</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>یا فِلٹَر ژارِو تہٕ لاگوٗ کٔرِو تاکہ مُطابِق مَواد یِیہِ فہرِستس منٛز۔</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>لَفٕظ لیٚکھنہٕ پَتہٕ چھِ فِلٹَر تلاش محدوٗد کران۔</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>“%text” خٲطرٕ میوٗل نہٕ کانٛہہ نَتیٖجہٕ۔</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>کانٛہہ نَتیٖجہٕ میوٗل نہٕ۔</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>پیٹھہٕ کُن اَکھ فِلٹَر ہٹٲوِو۔</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>ترجمہ</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>عَمَل</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>%name تَرمیم کٔرِو</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>تَرمیم کٔرِو</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -7514,6 +7730,10 @@
         <source>Setup &gt; Cronjobs</source>
         <translation>سیٹ اَپ &gt; کرون جاب</translation>
     </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>وُنہِ تام چھُنہٕ کانٛہہ cron حِصہٕ چلیومُت: کٲم قطار، دَرآمَد، اِطلاعات تہٕ ژھارنہٕ ہُنٛد اِنڈیکس چھِ اِنتِظار کران۔ php bin/php/installcrontab.php --add --apply چلٲوِو، یا --show ہِنٛد لایِنہٕ crontab منٛز شامِل کٔرِو۔</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/dashboard/drafts</name>
@@ -8058,8 +8278,8 @@
         <translation>اَسل مُصَنِفَن تہٕ Exponential سان شامِل تھرڈ پارٹی سافٹ ویئرَچ کاپی رایِٹ نوٹِس چھِ، لایِسنسہٕ ہِس شَرطَہ مُطابِق، سورس فایِلن تہٕ LICENSE فایِلَس منز محفوظ۔</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>یِم چھِ Exponential ہِس حِصہ دارَن ہٕنز فِہرِسٹ یِمَو eZ Systems Contributor Licensing Agreement ہٕنزن شَرطَن تَحت پَنُن کٲم 7x ہَس اِستِعمالَس خاطرٕ لایِسنس کوٚرمُت چھُ۔ یَمِ معاہدَس مُطابِق چھُ 7x ہر حِصہ تِمَے لایِسنسَن تَحت دوبارٕ تقسیٖم کَران یُس تَتھ فایِلَکۍ چھُ یَتھ منز سُ حِصہ شامِل چھُ۔ فِہرِسٹَس منز چھُ ہَر حِصہ دارُک ناو، اِختِیاری رابطہ مَعلوٗمات تہٕ تِم فایِل دَرج یِمَن منز تِمَو حِصہ پایہ۔</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>تِم شراکت دار یِمن Exponential تہٕ تَمہِ سافٹ ویرس پیٹھ کامہٕ خٲطرٕ کریڈٹ دِنہٕ چھُ یِوان یَتھ منٛزٕ یہِ بنیوو، تِمن فائلن سٕتۍ یِمن منٛز تِمو شراکت کٔر۔ یہِ چھُ کریڈٹ، کاپی رائٹ نوٹس نہٕ: Exponential منٛز شراکت چھےٚ Contributor Licensing Agreement تحت Exponential Foundation تہٕ 7x حوالہٕ کرنہٕ یِوان۔</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13881,32 +14101,20 @@ Note: The packages will not be uninstalled.</source>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%evaluate_link"&gt;Exponential Enterprise Edition وُچھِو&lt;/a&gt; - &lt;a href="%share_link"&gt;Exponential کمیونٹی ہُنٛد رُکن بَنِو، تبادلہ کٔرِو تہٕ حِصہٕ ہیٚتِو&lt;/a&gt;۔ &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; کاپی رایِٹ &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; تہٕ بییٚتھ۔</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class="edition-info"&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>&lt;span class="edition-info"&gt;%edition&lt;/span&gt; سیتۍ چھُ چلان۔ مَزید مَعلومات خاطرٕ وُچھِو &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;۔</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; کاپی رایِٹ &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; تہٕ بییٚتھ۔</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> مَزید مَعلومات خاطرٕ وُچھِو &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;۔</translation>
     </message>
     <message>
-        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; کاپی رایِٹ &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; تہٕ بییٚتھ۔</translation>
+        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href="%evaluate_link"&gt;Exponential (From 7x) وُچھِو&lt;/a&gt; - &lt;a href="%share_link"&gt;Exponential کمیونٹی ہُنٛد رُکن بَنِو، مَدَد حاصِل کٔرِو تہٕ حِصہٕ ہیٚتِو&lt;/a&gt;۔</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; کاپی رایِٹ &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; تہٕ بییٚتھ۔</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13915,6 +14123,61 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Help center</source>
         <translation>مَدَد مَرکَز</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>مَواد</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>دَستاویز صفحہٕ</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>صارِف</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>مَواد کلاسہٕ</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>اَنتِظام</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>صفحہٕ %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>سٲری نَتیٖجہٕ وُچھِو</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>%count نَتیٖجہٕ</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>اَکھ نَتیٖجہٕ</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>%count تَجویز</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>کانٛہہ تَجویز نہٕ</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>تَجویز ہیٚکہٕ نہٕ لوڈ گٔژھِتھ۔</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>تَجویز</translation>
     </message>
 </context>
 <context>
@@ -14383,6 +14646,14 @@ Note: The packages will not be uninstalled.</source>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>یہ اِنسٹالیشَن چھِ اکھ عوامی ڈیمو: کانٛہہ تہِ ہیکہِ تَمہِ ہُنٛد مُنتظِم پاس ورڈ زٲنتھ، تہٕ مُنتظِم پاس ورڈ ہیکن نہ بَدلاونہٕ یا رِسیٹ کرنہٕ یِتھ۔ ییٚتہِ مَہ لیکھِو کینہہ نِجی۔</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>توٚہہ ہٕنٛد آلہٕ</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>حِفاظتی سرگرمی</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14672,6 +14943,14 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>رہنما، ژھارُن تہٕ خرٲبی رِپورٹ کَرنُک طَریقہٕ۔</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>نَوِ مَواد</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>سارِوٕے کھوتہٕ نَوِ مَواد، یُس جایزٕ خٲطرٕ رُکاونہٕ آمُت چھُ، تہٕ کُنہِ ژارِ پیٹھ عَمَل.</translation>
     </message>
 </context>
 <context>
@@ -15130,6 +15409,46 @@ Note: The packages will not be uninstalled.</source>
         <source>Synchronisations</source>
         <translation>سِنکرونایِزیشَن</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>GraphQL API: اَمیُک اینڈ پوائنٹ، اِسکیما تہٕ کوئری آزماونہٕ خٲطرٕ اکھ پلے گراؤنڈ۔</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>مایگریشَن</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>انسٹالیشنٕچ تَبدیٖلیہِ یِمہٕ فایلَن ہٕنٛدِس صورتَس منٛز تھٲوِمٕژ چھےٚ: تِہنٛز صورتحال، رَن، چلاوُن تہٕ واپَس پھیرُن.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>نَوِ مَواد</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>سارِوٕے کھوتہٕ نَوِ مَواد، یُس جایزٕ خٲطرٕ رُکاونہٕ آمُت چھُ، تہٕ کُنہِ ژارِ پیٹھ عَمَل.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>سایِٹ ہُنٛد سٹیٹِک نَقل GitHub Pages یا کُنہِ تہِ git ہوسٹَس پیٹھ شایع کٔرِو۔</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>سٹیٹِک اِشاعت</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>ڈیٹا قِسِم</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>کرنَل تہٕ ایکسٹینشَنَن ہُنٛد پرٛتھ ڈیٹا قِسِم، تہٕ کلاس تہٕ مَواد کِتھ پٲٹھۍ چھِ یہِ وَرتاوان۔</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15294,6 +15613,22 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>اَکاوُنٹ یِم کانٛہہ ورتاوان چھُنہ یا یِمَن وُچھُن چھُ ضروری؛ تِم بَنٛد کٔرِو، اَن لاک کٔرِو یا بَرآمَد کٔرِو۔</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>صارِف آڈِٹ لاگ</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>ہر اَکاوُنٹس منٛز کٔمۍ کوٚر تبدیل، کٔمۍ کوٚر لاگ اِن یا کٔمِس آو انکار کرنہٕ؛ فِلٹَر تہٕ بَرآمَد کٔرِو۔</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>لاگ اِن رِپورٹ</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>کُس چھُ لاگ اِن، روزانہ لاگ اِن تہٕ ناکامیاہ؛ کانٛسہِ صارِفس ہر جایہِ پؠٹھہٕ لاگ آوُٹ کٔرِو۔</translation>
     </message>
 </context>
 <context>
@@ -22110,6 +22445,22 @@ Note: The packages will not be uninstalled.</source>
         <source>%n hours ago</source>
         <translation>%n گَنٹہٕ برونہہ</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>GraphQL API کٮ۪ن محفوظ کوئرین ہٕنٛد جواب، تہٕ امہِ کِس اِسکیما کٕچ مواد کلاسہٕ۔</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>سٹیٹِک نَقل GitHub Pages یا کُنہِ تہِ git ہوسٹَس پیٹھ شایع کٔرِو</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>سٹیٹِک اِشاعت</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>سٹیٹِک کیش چھُ یَمہِ سَروَرٕ پیٹھٕ صَفحہٕ دِوان۔ سایِٹ ہُنٛد سٹیٹِک نَقل بییٚتہِ جایہِ، GitHub Pages یا کُنہِ تہِ git ہوسٹَس پیٹھ شایع کرنہٕ خاطرٕ سٹیٹِک اِشاعت اِستِعمال کٔرِو۔</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25651,6 +26002,10 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>last purge</source>
         <translation>آخری صفایی</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>لیکھنہٕ ہیٚکہٕ نہٕ حالتُک تالہٕ ہیٚتھ (آخری لٹہٕ %date): پرٛتھ اَکہِ کٔر سٲری کیش کَرنہٕ آمٕتۍ نَتیجہٕ پرٲنۍ۔ %file گژھِ پرٛتھ تَتھ استعمال کرن والِس خٲطرٕ لیکھنَس لایق آسُن یَمہِ سٕندِ ناوَس پؠٹھ سایٹ چلان چھُ؛ NFS پؠٹھ چھُ NFSv4 یا lockd ضروری۔</translation>
     </message>
 </context>
 <context>
@@ -33599,6 +33954,14 @@ Note: The packages will not be uninstalled.</source>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>PHP ہینڈلَرُک مُدَت ختم سیشَن ہٹاوِ PHP پانہٕ (session.gc_maxlifetime)، نہ زِ یہ صَفحہ یا session_gc کرون جابُک حِصہٕ۔</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>ہر صارِف سٕندۍ لاگ اِن سیشَن چھِ لاگ اِن رِپورٹس منٛز ہاونہٕ یِوان تہٕ تَتیٚ پؠٹھہٕ لاگ آوُٹ کرنہٕ یِوان؛ یہ رِپورٹ چھےٚ ہر سیشَن ہینڈلرس سٟتۍ کٲم کران۔</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>لاگ اِن رِپورٹ کھولِو</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37923,6 +38286,26 @@ your account.</source>
     <message>
         <source>None yet</source>
         <translation>اَجُن کانٛہہ نہٕ</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>حِفاظتی سرگرمی</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>توٚہہ ہِنٛد حالیہ لاگ اِن، ناکام کوشِشہٕ تہٕ توٚہہ ہٕنٛدِس پاس ورڈس، ای میل پَتس تہٕ دُمَرحلہٕ لاگ اِنس منٛز تبدیلیاہ۔</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>اَمہِ اَکاوُنٹُک حالیہ لاگ اِن، ناکام کوشِشہٕ تہٕ حِفاظتی تبدیلیاہ۔</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>سرگرمی ہُنٛد جایزٕ ہیٚیِو</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>ناکام لاگ اِن: %count</translation>
     </message>
 </context>
 <context>
@@ -44089,6 +44472,42 @@ If you want to send comments to the approver or view the status use the URL belo
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>سایِن اِن کرنہٕ پَتہٕ گَژھہِ صارِفن بییٚ کینہہ کرنہٕ کھۄتہ گۄڈ نوٚو پاس ورڈ ژُنُن۔ یَتھ اِستعمال کٔرِو یَدۍ توٚہہ کَنہِ کس وقتی پاس ورڈ دِیِو۔</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>موجوٗدٕ تَصویر ژارِو</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>یَتھ آبجیکٹَس توٚہہ ژارِو، تَمِچ تَصویر فایل گَژھہِ یتھ فیلڈَس مَنٛز کاپی۔ بیٚیہ آبجیکٹ چھُنہٕ بَدلان۔</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>"%name" ہٕنٛز تَصویر آیہٕ یتھ فیلڈَس مَنٛز کاپی کرنہٕ۔</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>تَصویرِ خٲطرٕ براوز کٔرِو</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>ناوٕ کِنۍ تَصویرٕ ژھارِو</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>ژھارِو</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>"%name" ہٕنٛز تَصویر استعمال کٔرِو</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>یہ تَصویر استعمال کٔرِو</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>توٚہہٕنٛدِس ژھانٛڈنَس سٟتۍ چھےٚ نہٕ کانٛہہ تَصویر مٕلان۔</translation>
     </message>
 </context>
 <context>
@@ -51013,6 +51432,10 @@ See the requirements page for more information.</source>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>crontab آو نہ لیکھنہٕ (%reason)۔ یِم لایِن شامِل کٔرِو تَتھ صارِفچ crontab منز یِتھ تحتہِ سایِٹ چلان چھیٚ، نَتہٕ قطار، دَرآمَد، اِطلاعات تہٕ ژھارنہٕ ہُنٛد اِنڈیکس چھِ کَنہِ نہ چلان:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>دوبارٕ اِنسٹال چھُ کِک سٹارٹَرٕ سٟتۍ (%file، پَتہٕ php bin/php/kickstarter.php run --apply) یا نۆو اِنسٹالیشن سٟتۍ سپدان۔</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54892,6 +55315,10 @@ your account.</source>
         <source>eZJSCore Public Packer cache</source>
         <translation>eZJSCore Public Packer کیش</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>GraphQL کیش (جواب تہٕ اِسکیما کلاسہٕ)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54978,6 +55405,14 @@ your account.</source>
     <message>
         <source>Copy of %class_name</source>
         <translation>%class_name ہٕنز کاپی</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>ڈیٹا قِسِم</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>ڈیٹا قِسِم %string</translation>
     </message>
 </context>
 <context>
@@ -55804,6 +56239,26 @@ your account.</source>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>SVG تَصویر ہیکِو نہٕ پَرِتھ، یا تَمہِ منز کٲنٛہہ چیز ہیکِو نہٕ محفوظ طریقہ سان ہیکھاوِتھ۔</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>تَصویر ہیچھ نہٕ کاپی گٔژِھتھ۔ مہربٲنی کٔرِتھ بیٚیہ کوٗشِش کٔرِو یا سایٹ اٮ۪ڈمِنِسٹریٹرَس سٟتۍ رابطہٕ کٔرِو۔</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>ژارنہٕ آمُت آبجیکٹ چھُنہٕ موجوٗد یا چھےٚ نہٕ توٚہہِ اَمِیُک پَرنُک اِجازَت۔</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>ژارنہٕ آمتِس آبجیکٹَس چھےٚ نہٕ کانٛہہ تَصویر۔</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>ژارنہٕ آمتِس آبجیکٹٕچ تَصویر فایل ہیچھ نہٕ پٔرِتھ۔</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>ژارنہٕ آمتِس آبجیکٹٕچ تَصویر چھےٚ یتھ فیلڈٕچ اِجازَت کھۄتہٕ بٔڑ: %1 بایٹ۔</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56334,6 +56789,42 @@ your account.</source>
         <source>The bookmark was renamed to "%name".</source>
         <translation>بُک مارکُک ناو بَدلاونہٕ آو "%name" منز۔</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>یہ صَفحہ چھُ یمہِ سایِٹ ایکسیس (%siteaccess) منٛز بَنٛد۔ بُک مارک کھولِو تَتھ سایِٹ ایکسیس منٛز یَتھ منٛز یہ صَفحہ چھُ۔</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>یمہِ صَفحہٕ ہُنٛد ماڈیوٗل چھُ نہٕ یتہِ اِنسٹال یا چالوٗ۔</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>یہ صَفحہ چھُ نہٕ وۄنہِ موجوٗد: اَمہِ کِس ماڈیوٗلس چھُ نہٕ یِتھ قِسمُک کانٛہہ ویو۔</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>توٚہہِ ہُنٛد کانٛہہ تہِ کردار چھُ نہٕ توٚہہِ یہ صَفحہ کھولنٕچ اِجازت دِوان۔</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>توٚہہ ہیکِو نہٕ یہ سایِٹ ایکسیس اِستِعمال کٔرِتھ۔</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>توٚہہ ہیکِو نہٕ سُہ مَواد پٔرِتھ یُس یہ صَفحہ ہاوان چھُ۔</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>یِتھ قِسمُک صَفحہ ہیکہِ نہٕ بُک مارک سَپدِتھ: یہ چھُ صِرف اَکِس فارمس پیٹھ کٲم کَران، یا چھُ اَکِس لمحُک صَفحہ۔</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>یمہِ صَفحہٕ ہُنٛد پَتہٕ چھُ غایِب۔</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>یہ صَفحہ ہیکہِ نہٕ وۄنہِ کھولنہٕ یِتھ۔</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56805,6 +57296,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>آخری رَن منز میل ٹرانسپورٹن %count پیغام رَد کٔرِے۔ میل سَروَر تہٕ site.ini MailSettings وُچھِو۔</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>%count واقعات چھِ اِنتِظار منٛز تہٕ اِطلاع cron کٲمہِ ہُنٛد کانٛہہ رَن چھُنہٕ درج۔ cron حِصہٕ &quot;frequent&quot; crontab منٛز شامِل کٔرِو، یا exp:notification:run --apply چلٲوِو۔</translation>
     </message>
 </context>
 <context>
@@ -63061,6 +63556,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Choose another site or section with the node picker</source>
         <translation>نوڈ پِکَرَس سان بییہِ سایِٹ یا سیکشَن ژُنِو</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>صِرف سِسٹَم مُنتظِم ہیٚکہِ مالِک بَدلٲوِتھ: root ہِنٛدِ پاٹھۍ ./console exp:content-check --fix-permissions --apply چلٲوِو۔</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64594,6 +65093,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>empty</source>
         <translation>خالی</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>دَستخَط کی چھےٚ اکہِ ؤری کھوتہٕ زیادٕ پرٲنۍ: exp:audit key rotate --apply سٟتۍ بَدلٲوِو یہ۔</translation>
     </message>
 </context>
 <context>
@@ -68424,6 +68927,486 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Share of page time</source>
         <translation>صَفحہ وَقتچ حِصہٕ</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>مُکَمَل رینڈرٕچ دَرخواست اوس آمُت کرنہٕ</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>صَفحہ کیشس منز اوس نہٕ یہ صَفحہ (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>صَفحہ کیشن دیُت نہٕ جَواب</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>رینڈر کَرنہٕ آمُت</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>کرنَلن کوٚر رینڈر: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>صَفحہ کیشَن پؠٹھ %ms ms منز دِنہٕ آمُت۔ یہ صَفحہ اوس %stored بجے %render ms کِس رینڈرَن محفوظ کوٚرمُت، %age s برونہہ۔</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>وۄنی رینڈر کٔرِو</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>کیش کَرنہٕ آمتِس ویوس پؠٹھ واپَس</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>%stored بجِک رینڈرٕ پؠٹھ (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>یہ دَرخواست: صَفحہ کیشَن پؠٹھ %ms ms منز دِنہٕ آمِژ۔</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>صارِف</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>صارِف ID</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>کیش پروفایِل</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>یہ ویو</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>ویو کیش</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>پرٛتھ صارِفس خٲطرٕ (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>صارِف سُنٛد کیش پروفایِل: یِمن صارِفن ہُند پروفایِل اکھے چھُ، تِم چھِ ویو کیش فائلہٕ بٲگرٲوِتھ ورتاوان</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>آ</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>نہ</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>لاگ اِن ناو</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>لاگ اِن</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>سیشَن</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>مواد ویو کیش کی ہِنٛدۍ تِم حصہٕ یِم صارِفس پؠٹھ منحصر چھِ، بِلکُل تِتھۍ پٲٹھۍ یِتھۍ کی تِمن نیٚوان چھےٚ، یتھ صفحس کیٚن ViewCacheTweaks تحت۔ اکھے پروفایِل وٲلۍ صارِف چھِ ویوز ہٕنزٕ کیش فائلہٕ بٲگرٲوان، اگر نہٕ کُنہِ ویو کہ پننۍ حصہٕ مختلف آسن (ترجیحات، لِسنرن ہٕنزٕ کیز): تِہندُک پنُن پروفایِل چھُ، صرف یتھ صفحس خٲطرٕ۔</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>پروفایِل</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>یہ ویو (نوڈ %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: پرٛتھ لاگ اِن صارِفس چھےٚ پننۍ کیش فائلہٕ۔</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>لاگو ViewCacheTweaks: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>حصہ</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>قیمَت</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>کانٛہہ حصہٕ چھُ نہٕ صارِفس پؠٹھ منحصر (ViewCacheTweaks)۔</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>یہ ویو</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>ٹیکسٹ پٲٹھۍ کاپی کٔرِو</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>کردار</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>کانٛہہ رول اسائنمنٹ ہیوٚک نہٕ پٔرِتھ۔</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>رول ID</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>کردار</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>حَد</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>اسائن کوٚرمُت</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>صارِف</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>گروپ %name (آبجیکٹ %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>کاپی کرنہٕ آو</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>کاپی ہیوٚک نہٕ کٔرِتھ۔</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>لِسنرن ترٛوو نیبر</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>گُمنام وِزِٹَر</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>تُہنٛدِس ہیوٚو</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>مختلف</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>سُہ پروفایِل یُس گُمنام وزیٹرن اکھے ViewCacheTweaks تحت میلان چھُ، ڈیفالٹ ترجیحاتن سٟتؠ، ویو کہ حصو ورٲے: سیشَن پرن وول لِسنر ہیٚکہِ نہٕ تِمن متعلق پرٛژھنہٕ یِتھ۔</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>ترجیحات</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>کانٛہہ ویو موڈ چھُ نہٕ صارِف ترجیحاتن پؠٹھ منحصر (site.ini [ContentSettings] CachedViewPreferences)۔</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>تِم ترجیحات یِمن پؠٹھ یِمن ویو موڈن ہٕنزٕ ویوز منحصر چھِ (CachedViewPreferences)، صارِف سٕنزِ قدرٕ یا ڈیفالٹ سٟتؠ۔ یِم چھِ پروفایِلس منٛز userpreferences پٲٹھۍ، سارنٕے ویو موڈن ہٕنزٕ اکٹھا۔</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>ویو موڈ</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>ترجیح</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>طٔے شُدٕہ</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>پالیسی</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>رولن ہٕنزٕ پالیسیاں ہٲوِو (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>پالیسیاں چھےٚ سرورٕ پؠٹھٕ لوڈ گژھان ییٚلہِ یہ حصہٕ کھولنہٕ یِیہِ، اکھ صفحہٕ اکہِ لٹہِ، تہٕ ہیٚکن ماڈیول تہٕ فنکشنس مطابق فلٹر گٔژھِتھ۔</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>فَنکشَن</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>سٲرِنی ماڈیوٗل</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>سٲری فنکشن</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>حَد</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>زیادٕ ہٲوِو</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>یِمن رولن چھےٚ نہٕ کانٛہہ پالیسی۔</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>کانٛہہ پالیسی چھےٚ نہٕ فلٹرس سٟتؠ میل کھیوان۔</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%matching پالیسیو منٛزٕ %shown (کُل %total)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>کھولنہٕ وقتہٕ لوڈ گژھان چھ۔</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>ماڈیوٗل/فَنکشَن، کردار، حَد</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>پالیسی ژھارِو</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>مزید لوڈ کٔرِو</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>ماڈیوٗل/فَنکشَن</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>سٲرے کردار (پالیسی %count)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>کانٛہہ پالیسی میل کھاوان چھ نہٕ۔</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%matched پالیسی منٛزہ %shown</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>کانٛہہ جواب چھُ نہٕ</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>ژھپاونہٕ آمُت</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>وضاحتہٕ ہاوِو</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>وضاحتہٕ ژھپاوِو</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>کھولِو</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>سٲرِنی کھولِو</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>سٲرِنی بَنٛد کٔرِو</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>کی یا قیمَت</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>سیشنَس منز ژھارِو</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>قِسِم</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>%count بییہِ</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>ہاونہٕ خاطرٕ واریاہ گہرٕ نیسٹ کرنہٕ آمُت</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>کٹنہٕ آمُت، کُل %count حرف</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>شُروٗع گَیُو</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>کوکی ہُنْد ناو</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>سیشَن ID</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>ہینڈلر</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>محفوظ کرنُک راستہٕ</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>PHP ڈیفالٹ</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>زندگی ہُنْد وقفہٕ (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>کوکی</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>زندگی ہُنْد وقفہٕ %s s</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>توہۍ سُنْد پنُن PHP سیشَن، یِتھ پٲٹھۍ سُہ سیکشن کھولنہٕ وقتہٕ اوس، کُنہِ تہِ صورتس منز بیاکھ نہٕ۔ راز ہِیہِ باسن وٲلۍ کیز ہٕنٛز (ٹوکن، ہیش، پاس ورڈ) قیمتھ چھِ ژھپاونہٕ یِوان (debugbar.ini SessionMask[])؛ باقی سورُے چھُ یِتھ پٲٹھۍ محفوظ کرنہٕ آمُت تِتھ پٲٹھۍ ہاونہٕ یِوان، ذٲتی ڈیٹا تہِ۔</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>%count کیز، %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>بوڑ</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>سیشَن چھُ خٲلی۔</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>یَتھ درخواستہِ خاطرٕ آو نہٕ کانٛہہ سیشَن شروٗع کرنہٕ۔</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>ایکسٹینشَن %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>کرنل تہٕ باقی</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>پرٛتھ اندراج چھُ نہٕ ہاونہٕ یِوان: سیشنَس منز چھُ یَتہِ لِسٹ کرنہٕ کھوتہٕ زیادٕ۔</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>%count کیز چھِ نہٕ لِسٹ کرنہٕ آمتۍ۔</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>فریم</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>ٹوکن ہِیہِ باسن وٲلۍ قیمتھ (JSON Web Token، Authorization ہیڈرُک کریڈینشل، پرایویٹ کی، زیٖٹھ ہیکس یا رینڈم مَتن) تہِ چھِ ژھپاونہٕ یِوان، تِہنٛدِ کی ہُنْد ناو یُس تہِ آسِ (debugbar.ini SessionValueMask[])۔</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>کی چھےٚ راز ہِش باسان (debugbar.ini SessionMask[])۔</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>قیمَت چھےٚ ٹوکن ہِش باسان۔</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>ژھپاونہٕ آمژِ کی ہِنٛدِ تَل۔</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>مَتنٕکۍ صورتس منز سیشَن، ٹیبلہٕ ہِیُو ژھپاونہٕ آمُت۔</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>سیشَن چھُ %size کھوتہٕ بوڑ (debugbar.ini SessionWarnBytes): یَتھ صارفٕچ پرٛتھ درخواست چھےٚ پوٗرٕ سیشَن پرَان، تہٕ بدلنہٕ پیٹھ چھےٚ تَتھ لیکھان۔</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP چھُ یہِ سیشَن فائلن منز تھاوان تہٕ پوٗرٕ درخواستہِ خاطرٕ فائل لاک کران: اکہِ صارفٕچ درخواستہٕ (واریاہ ٹیب، AJAX کال) چھےٚ اکھ أکِس پراران۔</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>کھوٚلمُت تھاوِو</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>%size کھوتہٕ بوڑ (debugbar.ini SessionWarnBytes): یَتھ صارفٕچ پرٛتھ درخواست چھےٚ پوٗرٕ سیشَن پرَان۔</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%count منز %hits کیشَن پَرنہٕ آمتۍ</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>کانٛہہ ٹیمپلیٹ آو نہٕ رینڈر کرنہٕ (ویو کیشہٕ پٮ۪ٹھٕ پرنہٕ آمُت ویو چھُ نہٕ کانٛہہ رینڈر کران)۔</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>کردار تَفویٖض</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>کردار تہٕ پالیسی</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>گُمنام آنہٕ وٲلین نِشہٕ بیٛون</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>گُمنام آنہٕ وٲلین ہِیوٗے</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70304,6 +71287,14 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>not sent</source>
         <translation>روانہ کرنہٕ آمُت نہ</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>اِطلاع cron کٲم چھےٚ پَنُن ہر رَن یِتھ درج کران۔ حِصہٕ frequent crontab منٛز شامِل کٔرِو، یا exp:notification:run --apply چلٲوِو۔</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>کنسول ورتٲوِو: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -76022,6 +77013,98 @@ You will need to change the class of the node by using the swap functionality.</
         <source>This topic is not Released; readers do not see it.</source>
         <translation>یہ موضوع چھُنہ شایع کرنہٕ آمُت؛ قارِیٖن چھِنہ اَتھ وُچھان۔</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>مایگریشَن</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>انسٹالیشنٕچ تَبدیٖلیہِ یِمہٕ فایلَن ہٕنٛدِس صورتَس منٛز تھٲوِمٕژ چھےٚ: تِہنٛز صورتحال، رَن، چلاوُن تہٕ واپَس پھیرُن.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>سایِٹ ہُنٛد سٹیٹِک نَقل GitHub Pages یا کُنہِ تہِ git ہوسٹَس پیٹھ شایع کٔرِو۔</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>سٹیٹِک اِشاعت</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>جایزَس منز</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>قارِیٖن چھِ یہ صَفہٕ وُچھان۔</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>یوٚت تام نہٕ کانٛہہ اَتھ شایع کرِ، قارِیٖن نِشہِ چھُ چھوٗپتھ۔</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>صَفہٕ چھُ ووٚنۍ جایزَس منز۔ شایع گژھنَس تام چھُ یہ قارِیٖن نِشہِ چھوٗپتھ۔</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>صَفہٕ چھُ شایع کرنہٕ آمُت: قارِیٖن چھِ اَتھ ووٚنۍ وُچھان۔</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>صَفہٕ چھُ دوبارہ مَسوٗدہٕ۔ جایزہ تہٕ شایع گژھنَس تام چھُ یہ قارِیٖن نِشہِ چھوٗپتھ۔</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>ووٚنۍ شایع کٔرِو</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>صرف %role کردارہٕ والُک سُہ یوٗزَر ہیٚکہِ اَتھ شایع کٔرِتھ یَمۍ یہ ؤرژَن نہٕ لیوٚکھ۔</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>شایع گژھنُک انتظار کران مَدَد موضوع</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>دوبارہ شایع گژھنَس تام چھُ اَتھ قارِیٖن نِشہِ چھوٗپراوان۔</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>پَتہٕ کرِ کانٛہہ جایزہٕ نِگار اَتھ چیک۔ قارِیٖن چھِ نہٕ اَتھ وُنہِ وُچھان۔</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>قارِیٖن چھِ اَتھ فوراً وُچھان۔</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>مزید کامہِ خاطرٕ چھُ اَتھ جایزَس منزٕ نیبر کڈان۔ قارِیٖن چھِ نہٕ اَتھ وُچھان۔</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>کیا یہ صَفہٕ قارِیٖن نِشہِ چھوٗپراوُن؟</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>کیا یہ صَفہٕ واپَس مَسوٗدَس منز سوزُن؟</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>یوٚت تام نہٕ کانٛہہ اَتھ دوبارہ شایع کرِ، قارِیٖن چھِ نہٕ %title وُچھان۔</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title چھُ مزید کامہِ خاطرٕ واپَس مَسوٗدَس منز گژھان۔ قارِیٖن چھِ نہٕ اَتھ وُنہِ تہِ وُچھان، تہٕ شایع گژھنہٕ برونٛہہ چھُ نوٚو جایزہ ضروری۔</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>منسوٗخ کٔرِو</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>یم موضوع چھِ جایزَس منز۔ ییلہِ کانٛہہ، یَمۍ موجوٗدٕ ؤرژَن نہٕ لیوٚکھ، یِمن شایع کرِ، قارِیٖن چھِ یِم وُچھان۔</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76477,6 +77560,46 @@ You will need to change the class of the node by using the swap functionality.</
         <source>None.</source>
         <translation>کانٛہہ نہٕ۔</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>تَصدیٖقی ایپہِ سٟتۍ</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>ای میلہِ ذٔریعہٕ آمتِس کوڈس سٟتۍ</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>بحالی کوڈس سٟتۍ</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>پاس کی سٟتۍ</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>بیٚیِس اَکاوُنٹس سٟتۍ</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>حِفاظتی سرگرمی</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>اَمہِ کِس نیٹ ورکس ہِنٛدِ پاٹھۍ ہاونہٕ آمُت؛ پَتہٕ چھُ سایِٹ کیٚن ڈیٹا حِفاظتی ترتیباتن مُطٲبِق رَٹنہٕ یِوان۔</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>درج نہٕ کرنہٕ آمُت</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>جاے</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>تَقریٖبَن</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76720,6 +77843,42 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Manage devices</source>
         <translation>آلہٕ سنبھٲلِو</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>تَصدیٖقی ایپہِ سٟتۍ</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>ای میلہِ ذٔریعہٕ آمتِس کوڈس سٟتۍ</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>بحالی کوڈس سٟتۍ</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>پاس کی سٟتۍ</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>بیٚیِس اَکاوُنٹس سٟتۍ</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>حِفاظتی سرگرمی</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>درج نہٕ کرنہٕ آمُت</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>جاے</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>تَقریٖبَن</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76799,6 +77958,14 @@ You will need to change the class of the node by using the swap functionality.</
         <source>View the sessions of this user</source>
         <translation>یمِ صارِفک سیشَن وُچھِو</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>%site پؠٹھ توٚہہ ہٕنٛدِ اَکاوُنٹہٕ %login سٟتۍ آو وُنی وُنی اَکہِ تِتھ جایہِ پؠٹھہٕ لاگ اِن کرنہٕ، یَتہِ پؠٹھہٕ حالَس منٛز لاگ اِن آسہٕ نہٕ سپُد مُت:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>تَقریٖبی جاے</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76837,6 +78004,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%os پؠٹھ %browser</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>لاگ اِن رِپورٹ</translation>
     </message>
 </context>
 <context>
@@ -77045,6 +78216,82 @@ You will need to change the class of the node by using the swap functionality.</
         <source>The passkey could not be checked. Please try again.</source>
         <translation>پاسکی ہیکہِ نہ جانچتھ۔ مہربانی کٔرِتھ دوبارہ کوشِش کٔرِو۔</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>یِم اَکاوُنٹ صِرف پاسکی سیتۍ سایِن اِن کران چھِ، تِم ہیٚکن نہٕ یتھ پاس ورڈ اِستعمال کٔرِتھ: &quot;پاسکی سیتۍ سایِن اِن کٔرِو&quot; ژارِو۔</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>%login ہٕنٛزٕ پاسکی</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>تِم پاسکی یِمَو سیتۍ یہ اَکاوُنٹ سایِن اِن چھُ کران۔ گٲب گٔمتِس یا چوٗرِ گٔمتِس آلَس پیٹھ آسَن وٲلۍ پاسکی منسوٗخ کٔرِو: سۅ ہیٚکہِ نہٕ بیٚیہِ سایِن اِن کٔرِتھ۔ مالِک چھُ نٔوۍ پانَے شامِل کران۔</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>توٚہہ ہٕنٛدِس اَکاوُنٹس چھےٚ پاسکی ہٕنٛز ضروٗرَت</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>پننِس اَکاوُنٹس منز پاسکی شامِل کٔرِو</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>جٲری تھاونہٕ خٲطرٕ پاسکی شامِل کٔرِو۔ پَتہٕ کٔرِو توٚہہ صِرف پاس ورڈ بجاے امہِ سیتۍ سایِن اِن۔</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>پاسکی سیتۍ سایِن اِن کرُن چھُ پاس ورڈ کھۄتہٕ تیز تہٕ زیادٕ محفوٗظ۔ وُنی اکھ شامِل کٔرِو، یا امہِ ورٲے جٲری تھٲوِو۔</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>وُنی نہٕ</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>پاسکی &quot;%name&quot; منسوٗخ کرٕنۍ چھا؟</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>سۅ ہیٚکہِ نہٕ بیٚیہِ یتھ اَکاوُنٹس منز سایِن اِن کٔرِتھ۔ اگر سۅ آخری اوس، مالِک کرِ پاس ورڈ سیتۍ سایِن اِن، یا توٚہہ کٔرِو نوٚو سیٹ۔</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>پاسکی منسوٗخ کٔرِو</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>منسوٗخ کٔرِو</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>یتھ اَکاوُنٹس چھےٚ نہٕ کانٛہہ پاسکی۔</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>تصدیٖق کَرَن وول</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>نامعلوم</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>توٚہہ ہٕنٛز آخری پاسکی: یہ ہٹاونہٕ برونٛہہ کٔرِو بیٚیہِ اکھ شامِل۔</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>یہ اَکاوُنٹ چھُ صِرف پاسکی سیتۍ سایِن اِن کران (پاسکی پالیسی): ییٚلہِ کانٛہہ رُوزِ نہٕ، یہ کرِ دوبارٕ پننِس پاس ورڈس سیتۍ سایِن اِن۔</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>یہ چھےٚ توٚہہ ہٕنٛز آخری پاسکی تہٕ توٚہہ ہُنٛد اَکاوُنٹ ہیٚکہِ نہٕ امہِ ورٲے سایِن اِن کٔرِتھ۔ گۅڈٕ کٔرِو بیٚیہِ پاسکی شامِل۔</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>پاسکی &quot;%name&quot; آیہِ منسوٗخ کرنہٕ۔ سۅ ہیٚکہِ نہٕ بیٚیہِ یتھ اَکاوُنٹس منز سایِن اِن کٔرِتھ۔</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77144,6 +78391,34 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Code from your authenticator app</source>
         <translation>پَنَن تَصدیٖق کَرَن والؠ ایپ ہُنٛد کوڈ</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>توٚہہ چھِو ڈیٹا ہمیشہ خٲطرٕ مِٹاونہٕ یا لاگ خٲلی کرنہٕ والۍ۔</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>توٚہہ ہُنٛد پاس ورڈ تہٕ اکھ پاسکی</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>توٚہہ ہُنٛد پاس ورڈ تہٕ پننۍ تصدیٖق اێپہٕ پیٹھہٕ کوڈ</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>یا:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>یہ براوزَر ہیٚکہِ نہٕ پاسکی اِستعمال کٔرِتھ۔ بیٚیہِ طریقہٕ یا بیٚیہِ براوزَر اِستعمال کٔرِو۔</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>ییٚلہِ توٚہہ اَگہٕ پَکِو، توٚہہ ہُنٛد براوزَر مَنگہِ توٚہہ ہٕنٛزٕ پاسکی منٛزٕ اکھ۔</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>پاسکی سیتۍ جٲری تھٲوِو</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77234,6 +78509,70 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Setup</source>
         <translation>سیٹ اَپ</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>پنُن پاس ورڈ، ای میل پتہٕ، پاسکی، دُمَرحلہٕ سایِن اِن، بحالی کوڈ یا API کییز بدلاوٕنۍ، تہٕ پننیٚن باقی آلَن پیٹھہٕ سایِن آوٗٹ کرُن۔</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>صارِف بناوٕنۍ تہٕ ترمیم کرٕنۍ، تِہنٛدۍ پاس ورڈ تہٕ آلہٕ، اَکاوُنٹ ترتیبات، نٔوۍ صارِف اَکاوُنٹ منظوٗر یا نامنظوٗر کرٕنۍ، کردار دِنۍ تہٕ پالیسی ترمیم کرٕنۍ۔</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>ڈیٹا مِٹاوُن</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>ردی خٲلی کرٕنۍ، امہِ منٛزٕ چیز ہٹاوٕنۍ تہٕ واریاہ چیز اکے ساتھ ہٹاوٕنۍ۔</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>مَواد ہٹاوُن، شایع کرُن تہٕ محفوظ کرُن</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>مَواد ہٹاوُن (ردی منز تہِ)، شایع کرُن تہٕ مَسوٗدہٕ محفوظ کرُن؛ فارم سوزنہٕ وِزِ چھُ پرٛژھنہٕ یِوان۔ پہلے پٲٹھۍ بَنٛد۔</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>کُنہِ حساس عمل برونٛہہ چھُ سایِن اِن کوٚرمُت صارِف دوبارٕ تصدیٖق کران زِ سُہ کُس چھُ: پننِس پاس ورڈس تہٕ پاسکی سیتۍ، یا پاسکی ورٲے پننِس پاس ورڈس تہٕ پننِس تصدیٖق اێپہٕ کِس کوڈس سیتۍ۔ صِرف ویب صفحہٕ چھِ پرٛژھان: REST اِنٹرفیس، SOAP، WebDAV، expservices لاگ اِن تہٕ کمانڈ لائن چھِ نہٕ زانٛہہ پرٛژھان۔</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>ترتیبات کتہِ لاگوٗ گژھن</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>ترتیبات خٲطرٕ</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>پرٛتھ سایِٹ ایکسیس</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>صِرف سایِٹ ایکسیس %name</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>کھولِو</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>کٔمِس چھُ پرٛژھنہٕ یِوان: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>صارِف گروپَن نشان لٲگِو تاکہ صِرف تِہنٛدیٚن مِمبرَن پرٛژھنہٕ یِیہِ (مثلاً مُدیر)۔ کانٛہہ نشان نہٕ: پرٛتھ صارِف۔</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>settings/override/site.ini.append.php منز محفوظ، پرٛتھ سایِٹ ایکسیس خٲطرٕ۔ محفوظ کرنہٕ وِزِ چھُ توٚہہ تصدیٖق کرنہٕ باپتھ ونہٕ یِوان زِ یہ چھِو توٚہہ۔</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>settings/siteaccess/%name/site.ini.append.php منز محفوظ۔ settings/override منز قیمت چھےٚ امہِ پیٹھ غٲلِب۔ محفوظ کرنہٕ وِزِ چھُ توٚہہ تصدیٖق کرنہٕ باپتھ ونہٕ یِوان زِ یہ چھِو توٚہہ۔</translation>
     </message>
 </context>
 <context>
@@ -77336,6 +78675,6822 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Open the page</source>
         <translation>صَفحہ کھولِو</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%count منٛزٕ %from پیٹھ %to تام</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>لاگ اِن ناو یا صارِف ID: سُہ اَکاوُنٹ یَتھ مُتعلِق واقعہٕ اوس، یا سُہ صارِف یَمۍ عَمَل کوٚر۔</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>اَکاوُنٹ</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>عَمَل</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>پتہٕ</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>کانٛہہ تہِ نتیجہ</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>پہلے</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>کرن وول</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>صاف کٔرِو</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>مُکَمَل</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>واقعات چھِ %days دۄہ رَٹِتھ تھاونہٕ یِوان۔</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>واقعات چھِ تَمِ وَقتَس تام رَٹِتھ تھاونہٕ یِوان یُتھ تام نہٕ تِم اَتھٕ سٟتۍ ہٹاونہٕ یِن۔</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>واقعات</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>سٲری عَمَل</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>یَتھ اَکاوُنٹُک پرٛؠتھ واقعہٕ</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>لِسٹ CSV صورتس منٛز بَرآمَد کٔرِو (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>ناکام</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>پیٹھ</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>لِسٹ مختصر کٔرِو</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>کانٛہہ واقعہٕ چھُنہٕ مَلان۔</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>ہرِ صَفحس</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>audit.ini منٛز چھےٚ ریکارڈِنگ بَنٛد ([UserAuditSettings] UserAudit)؛ لِسٹ چھےٚ تِہی ہاوان یُس گۄڈٕ ریکارڈ آو کرنہٕ۔</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>انکار کوٚرمُت</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>نتیجہ</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>وُچھِو</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>صارِف آڈِٹ لاگُک جَدوَل چھُنہٕ۔ یہ بناوِو php update/common/scripts/6.0/createuseraudittable.php سٟتۍ؛ تَمِ وَقتَس تام چھےٚ آڈِٹ فایِل پرٛؠتھ واقعہٕ رَٹِتھ تھاوان۔</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>یَتھ صَفحس چھےٚ SQL ڈیٹابیس ضروٗرت؛ یہ چھُنہٕ MongoDB پیٹھ دٕستیاب۔ آڈِٹ فایِل چھےٚ پرٛؠتھ واقعہٕ رَٹِتھ تھاوان۔</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>تام</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>صارِف آڈِٹ لاگ</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>صارِف</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>وَقت</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>جاے</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>کٔمۍ کوٚر کُس اَکاوُنٹ تبدیل، بنوو، چالوٗ، بَنٛد، مُنتقِل یا ہٹوو، کٔمۍ کوٚر لاگ اِن یا کٔمِس آو انکار کرنہٕ، تہٕ کم کردار آیہِ دِنہٕ: پرٛؠتھ واقعس خٲطرٕ اکھ لٲن، پہلِم تہٕ پتِم فیلڈَن سٟتۍ۔ پاس ورڈ تہٕ راز چھِنہٕ زانٛہہ ریکارڈ کرنہٕ یِوان۔</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>گروپ</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>سِسٹَم</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>نامعلوم</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>پَنُن اَکاوُنٹ محفوظ کٔرِو</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>%site پؠٹھ توٚہہ ہٕنٛدِس اَکاوُنٹس %login منٛز لاگ اِن کرنہٕ خٲطرٕ آو اکھ بحالی کوڈ ورتاونہٕ۔</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>اکھ بحالی کوڈ آو ورتاونہٕ</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>اَکاوُنٹ</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>تَقریٖبی پَتہٕ</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>دوبارٕ لاگ اِن کرنہٕ خٲطرٕ نۆو پاس ورڈ مَنٛگِو، یا سایِٹ کیٚن مُنتظِمَن سٟتۍ رابطہٕ کٔرِو۔</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>نۆو پاس ورڈ مَنٛگِو</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>ہر بحالی کوڈ چھُ صِرف اکہِ لٹہِ کٲم کران۔ اگر توٚہہ ہُنٛد فون گۆو رٲوِتھ، تیٚلہِ کٔرِو پَنٕنۍ تَصدیٖقی ایپ دوبارٕ سیٹ تہٕ نۆو بحالی کوڈ تھٲوِو کُنہِ محفوظ جایہِ۔</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>توٚہہ ہٕنٛدِس اَکاوُنٹس پؠٹھ ناکام لاگ اِن کوشِشہٕ</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>وُنیٚ پؠٹھہٕ لاگ اِن کرنہٕ وِزِ یِیہِ توٚہہ ہٕنٛدِس پاس ورڈس علاوٕ اکھ کوڈ تہِ مَنٛگنہٕ۔ اگر یہ توٚہہ کوٚر، تیٚلہِ چھُنہٕ توٚہہ کیٚنہہ کرنُک ضرورت۔</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>اگر یہ توٚہہ ٲسِو تہٕ توٚہہ گۆو پَنُن پاس ورڈ مٔشِتھ، تیٚلہِ مَنٛگِو نۆو۔ اگر نہٕ، تیٚلہِ ژُنِو اکھ زیادٕ مضبوٗط پاس ورڈ تہٕ کٔرِو دُمَرحلہٕ لاگ اِن چالوٗ۔</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>اگر یہ توٚہہ نہٕ کوٚر، تیٚلہِ ہیٚکہِ کانٛسہِ توٚہہ ہُنٛد پاس ورڈ معلوٗم ٲسِتھ: بَدلٲوِو یہ وُنی تہٕ وُچھِو زِ توٚہہ ہُنٛد اَکاوُنٹ کَتہِ کَتہِ چھُ لاگ اِن۔</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>باقی بحالی کوڈ</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>پَنٕنۍ آلہٕ وُچھِو</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>حِفاظتی اِنتباہ</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>کانٛسہِ کٔر %site پؠٹھ توٚہہ ہٕنٛدِس اَکاوُنٹس %login منٛز غلط پاس ورڈٕ سٟتۍ لگاتار %count لٹہِ لاگ اِن کرنٕچ کوشِش۔</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>%site پؠٹھ توٚہہ ہٕنٛدِس اَکاوُنٹس %login منٛز سپُد اکھ حِفاظتی واقعہٕ۔</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>یہ چھُ توٚہہ ہٕنٛدِس اَکاوُنٹس مُتعلِق اکھ حِفاظتی اِنتباہ۔ یہ چھُ اَتھ کِسمہِ کِس ہر تبدیلی پؠٹھ سوزنہٕ یِوان تہٕ یہ ہیٚکہِ نہٕ بَنٛد کرنہٕ یِتھ۔</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>وَقت</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>%site پؠٹھ توٚہہ ہٕنٛدِس اَکاوُنٹس %login خٲطرٕ آو دُمَرحلہٕ لاگ اِن بَنٛد کرنہٕ۔</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>دُمَرحلہٕ لاگ اِن آو بَنٛد کرنہٕ</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>%site پؠٹھ توٚہہ ہٕنٛدِس اَکاوُنٹس %login خٲطرٕ آو دُمَرحلہٕ لاگ اِن چالوٗ کرنہٕ۔</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>دُمَرحلہٕ لاگ اِن آو چالوٗ کرنہٕ</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>%site پؠٹھ توٚہہ ہُنٛد اَکاوُنٹ %login آو واریاہ ناکام لاگ اِنَو پَتہٕ قُفل کرنہٕ۔</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>توٚہہ ہُنٛد اَکاوُنٹ چھُ وُنی صِرف توٚہہ ہٕنٛدِ پاس ورڈٕ سٟتۍ محفوظ۔ اگر یہ توٚہہ نہٕ کوٚر، تیٚلہِ کٔرِو پَنُن پاس ورڈ بَدلاونہٕ پَتہٕ دُمَرحلہٕ لاگ اِن دوبارٕ چالوٗ۔</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>توٚہہ ہُنٛد اَکاوُنٹ آو قُفل کرنہٕ</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>%site پیٹھ توٚہہ ہٕنٛدِس اَکاوُنٹس %login منز آیہِ اکھ پاسکی شامِل کرنہٕ۔</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>یُس تہِ یہ پاسکی رٹِتھ چھُ، سُہ ہیٚکہِ توٚہہ ہٕنٛدِس پاس ورڈس ورٲے توٚہہ ہٕنٛدِس اَکاوُنٹس منز سایِن اِن کٔرِتھ۔ اگر توٚہہ چھِو نہٕ یہ شامِل کوٚرمُت، پاسکی تَل ہٹٲوِو یہ تہٕ پنُن پاس ورڈ بدلٲوِو۔</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>%site پیٹھ توٚہہ ہٕنٛدِس اَکاوُنٹس %login منٛزٕ آیہِ اکھ پاسکی ہٹاونہٕ۔</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>سۅ ہیٚکہِ نہٕ بیٚیہِ توٚہہ ہٕنٛدِس اَکاوُنٹس منز سایِن اِن کٔرِتھ۔ اگر توٚہہ چھِو نہٕ یہ ہٹوٚومُت، پننۍ پاسکی تہٕ آلہٕ چیک کٔرِو۔</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>توٚہہ ہٕنٛدِس اَکاوُنٹس منز آیہِ اکھ پاسکی شامِل کرنہٕ</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>توٚہہ ہٕنٛدِس اَکاوُنٹس منٛزٕ آیہِ اکھ پاسکی ہٹاونہٕ</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>حِفاظتی سرگرمی</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>حِفاظتی سرگرمی: %name</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>لاگ اِن</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>ناکام لاگ اِن کوشِش</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>لاگ آوُٹ</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>سیشَن آیہِ لاگ آوُٹ کرنہٕ</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>نٔوِس ڈیوایسہِ پؠٹھہٕ لاگ اِن</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>نٔوِ جایہِ پؠٹھہٕ لاگ اِن</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>شِناخت ہٕنٛز تصدیٖق سپٕز (&quot;تصدیٖق کٔرِو زِ یہ چھِو توٚہہ&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>شِناخت ہٕنٛز جانٛچ ناکام</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>پاس کی سٟتۍ لاگ اِن</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>پاس کی سٟتۍ لاگ اِن ناکام</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>لاگ اِن نامَنظوٗر: دُمَرحلہٕ لاگ اِنُک کوڈ چھُنہٕ یا چھُ غلط</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>دُمَرحلہٕ لاگ اِنُک غلط کوڈ</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>ناکام لاگ اِنَو پَتہٕ اَکاوُنٹ قُفل</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>اَکاوُنٹ کھولنہٕ آو</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>پاس ورڈ آو بَدلاونہٕ</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>پاس ورڈ بَدلاوُن ناکام</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>پاس ورڈ آو ری سیٹ کرنہٕ</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>نۆو پاس ورڈ آو مَنٛگنہٕ</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>ای میل پَتہٕ آو بَدلاونہٕ</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>صارِف ناو آو بَدلاونہٕ</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>دُمَرحلہٕ لاگ اِن آو چالوٗ کرنہٕ</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>دُمَرحلہٕ لاگ اِن آو بَنٛد کرنہٕ</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>بحالی کوڈ آو ورتاونہٕ</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>نۆو بحالی کوڈ</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>ایپ پاس ورڈ بناونہٕ آمُت</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>ایپ پاس ورڈ منسوٗخ</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>پاس کی آیہٕ شامِل کرنہٕ</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>پاس کی آیہٕ ہٹاونہٕ</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>اَکاوُنٹ آو چالوٗ کرنہٕ</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>اَکاوُنٹ آو بَنٛد کرنہٕ</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>سٲرِنی</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>لاگ اِن تہٕ سیشَن</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>اَکاوُنٹ تبدیلیاہ</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>توجہ ضروٗری</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>توٚہہ ذٔریعہٕ</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>صارِف ذٔریعہٕ</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>%login ذٔریعہٕ</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>طریٖقہٕ</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>براوزَر</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>سِسٹَم</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>ڈیوایس</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>جاے</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>مُلُک</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>سیشَن</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>کُس</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>ذٔریعہٕ</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>ناکام کوشِشہٕ</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>باقی کوڈ</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>لاگ اِن ہینڈلر</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>حِفاظتی سرگرمی</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>حِفاظتی سرگرمی: %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>توٚہہ ہٕنٛدِس اَکاوُنٹس ہٕنٛزِ حِفاظتہِ سٟتۍ وابستہ لاگ اِن تہٕ تبدیلیاہ۔ اگر توٚہہ کیٚنہہ تِتھ وُچھِو یُس توٚہہ نہٕ کوٚر، تیٚلہِ بَدلٲوِو پَنُن پاس ورڈ تہٕ یِمہٕ ڈیوایس توٚہہ نہٕ زانِو، تِمن کٔرِو لاگ آوُٹ۔</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>اَمہِ اَکاوُنٹہٕ ہٕنٛزِ حِفاظتہِ سٟتۍ وابستہ لاگ اِن تہٕ تبدیلیاہ۔</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>توٚہہ ہٕنٛد آلہٕ</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>پاس ورڈ بَدلاوِو</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>اَکاوُنٹس پؠٹھ واپَس</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>حِفاظتی سرگرمی چھےٚ نہٕ درج سپدان</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>یہ چھےٚ صارِف آڈِٹ لاگہٕ منٛزٕ پَرنہٕ یِوان، یٚمیُک ٹیبل expuser_audit چھُنہٕ موجوٗد یا چھُنہٕ اَتھ ڈیٹا بیسس پؠٹھ سپورٹ۔ php update/common/scripts/6.0/createuseraudittable.php چلٲوِو، یا 6.0.15 ہُنٛد ڈیٹا بیس اَپڈیٹ چلٲوِو۔</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>پٔتِمۍ %days دۄہ</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>پٔتِمَن %days دۄہَن منٛز لاگ اِن</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>حالیہ حِفاظتی سرگرمی</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>ہاوِو</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>ناکام</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>نامَنظوٗر</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>وُنہِ تام چھےٚ نہٕ کانٛہہ حِفاظتی سرگرمی درج۔</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>حِفاظتی واقعات چھِ %days دۄہ رَٹنہٕ یِوان۔</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>حِفاظتی واقعات چھِ تَمہِ وِزِ تام رَٹنہٕ یِوان یوٗت تام نہٕ کانٛہہ مُنتظِم تِم ہٹاوِ۔</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>مےٚ ہُنٛد لاگ اِن ڈیٹا ڈاوُن لوڈ کٔرِو</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>توٚہہ ہِنٛد سیشَن تہٕ حِفاظتی واقعات JSON فایِلہِ ہِنٛدِ پاٹھۍ۔</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>یتھ سایٹس پؠٹھ چھِنہٕ سیشَن درج سپدان، اَمہِ موجوٗب ہیوٚک نہٕ کانٛہہ بیٛاکھ آلہٕ سایِن آوُٹ سپدِتھ۔ وُنی بَدلاوِو پنُن پاس ورڈ۔</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count بیٛاکھ سیشَن آیہِ سایِن آوُٹ کرنہٕ۔ وُنی بَدلاوِو پنُن پاس ورڈ۔</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>کانٛہہ بیٛاکھ آلہٕ اوس نہٕ سایِن اِن۔ وُنی بَدلاوِو پنُن پاس ورڈ۔</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>شُکریہ۔ یہِ واقعہ آو توٚہہ سٕندِس ناوَس پؠٹھ نِشانہٕ کرنہٕ۔</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>تَتھ واقعس چھُنہٕ کانٛہہ جواب درکار۔</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>صفحُک وَقت اوس ختم گومُت۔ کیٚنہہ تہِ آو نہٕ بَدلاونہٕ؛ مہربانی کٔرِتھ کٔرِو دوبارٕ کوشِش۔</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>پنُن کھاتہٕ محفوٗظ کٔرِو</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>اَگر یتھ کیٚنہہ توٚہہ نہٕ ٲسِو، باقی سٲری آلہٕ سایِن آوُٹ کٔرِو، پتہٕ ژارِو نوٚو پاس ورڈ۔ مےٚ یاد رَٹِو سٟتؠ سایِن اِن تھاونہٕ آمٕتؠ آلہٕ تہِ گژھن سایِن آوُٹ۔</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>یِمہِ وَراے گژھہِ پرٛتھ آلہٕ پنٕنہِ نٔوِس درخواستس پؠٹھ سایِن آوُٹ۔ پتہٕ ژارِو توٚہہ نوٚو پاس ورڈ۔</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>آ، باقی آلہٕ سایِن آوُٹ کٔرِو</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>کیا یہِ ٲسِو توٚہہ؟</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>آ، یہِ اوسُس بہٕ</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>نہٕ، میٖون کھاتہٕ محفوٗظ کٔرِو</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>لاگ اِن</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>ناکام لاگ اِن کوشِش</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>لاگ آوُٹ</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>سیشَن آیہِ لاگ آوُٹ کرنہٕ</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>نٔوِس ڈیوایسہِ پؠٹھہٕ لاگ اِن</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>نٔوِ جایہِ پؠٹھہٕ لاگ اِن</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>شِناخت ہٕنٛز تصدیٖق سپٕز (&quot;تصدیٖق کٔرِو زِ یہ چھِو توٚہہ&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>شِناخت ہٕنٛز جانٛچ ناکام</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>پاس کی سٟتۍ لاگ اِن</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>پاس کی سٟتۍ لاگ اِن ناکام</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>لاگ اِن نامَنظوٗر: دُمَرحلہٕ لاگ اِنُک کوڈ چھُنہٕ یا چھُ غلط</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>دُمَرحلہٕ لاگ اِنُک غلط کوڈ</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>ناکام لاگ اِنَو پَتہٕ اَکاوُنٹ قُفل</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>اَکاوُنٹ کھولنہٕ آو</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>پاس ورڈ آو بَدلاونہٕ</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>پاس ورڈ بَدلاوُن ناکام</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>پاس ورڈ آو ری سیٹ کرنہٕ</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>نۆو پاس ورڈ آو مَنٛگنہٕ</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>ای میل پَتہٕ آو بَدلاونہٕ</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>صارِف ناو آو بَدلاونہٕ</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>دُمَرحلہٕ لاگ اِن آو چالوٗ کرنہٕ</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>دُمَرحلہٕ لاگ اِن آو بَنٛد کرنہٕ</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>بحالی کوڈ آو ورتاونہٕ</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>نۆو بحالی کوڈ</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>ایپ پاس ورڈ بناونہٕ آمُت</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>ایپ پاس ورڈ منسوٗخ</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>پاس کی آیہٕ شامِل کرنہٕ</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>پاس کی آیہٕ ہٹاونہٕ</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>اَکاوُنٹ آو چالوٗ کرنہٕ</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>اَکاوُنٹ آو بَنٛد کرنہٕ</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>سٲرِنی</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>لاگ اِن تہٕ سیشَن</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>اَکاوُنٹ تبدیلیاہ</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>توجہ ضروٗری</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>حِفاظتی سرگرمی</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>حِفاظتی سرگرمی: %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>توٚہہ ہٕنٛدِس اَکاوُنٹس ہٕنٛزِ حِفاظتہِ سٟتۍ وابستہ لاگ اِن تہٕ تبدیلیاہ۔ اگر توٚہہ کیٚنہہ تِتھ وُچھِو یُس توٚہہ نہٕ کوٚر، تیٚلہِ بَدلٲوِو پَنُن پاس ورڈ تہٕ یِمہٕ ڈیوایس توٚہہ نہٕ زانِو، تِمن کٔرِو لاگ آوُٹ۔</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>توٚہہ ہٕنٛد آلہٕ</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>پاس ورڈ بَدلاوِو</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>اَتھ سایِٹس پؠٹھ چھےٚ نہٕ حِفاظتی سرگرمی وُنہِ درج سپدان۔</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>پٔتِمَن %days دۄہَن منٛز لاگ اِن</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>ناکام کوشِشہٕ</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>وُنہِ تام چھےٚ نہٕ کانٛہہ حِفاظتی سرگرمی درج۔</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>مےٚ ہُنٛد لاگ اِن ڈیٹا ڈاوُن لوڈ کٔرِو</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>توٚہہ ہِنٛد سیشَن تہٕ حِفاظتی واقعات JSON فایِلہِ ہِنٛدِ پاٹھۍ۔</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>یتھ سایٹس پؠٹھ چھِنہٕ سیشَن درج سپدان، اَمہِ موجوٗب ہیوٚک نہٕ کانٛہہ بیٛاکھ آلہٕ سایِن آوُٹ سپدِتھ۔ وُنی بَدلاوِو پنُن پاس ورڈ۔</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count بیٛاکھ سیشَن آیہِ سایِن آوُٹ کرنہٕ۔ وُنی بَدلاوِو پنُن پاس ورڈ۔</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>کانٛہہ بیٛاکھ آلہٕ اوس نہٕ سایِن اِن۔ وُنی بَدلاوِو پنُن پاس ورڈ۔</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>شُکریہ۔ یہِ واقعہ آو توٚہہ سٕندِس ناوَس پؠٹھ نِشانہٕ کرنہٕ۔</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>تَتھ واقعس چھُنہٕ کانٛہہ جواب درکار۔</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>صفحُک وَقت اوس ختم گومُت۔ کیٚنہہ تہِ آو نہٕ بَدلاونہٕ؛ مہربانی کٔرِتھ کٔرِو دوبارٕ کوشِش۔</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>پنُن کھاتہٕ محفوٗظ کٔرِو</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>اَگر یتھ کیٚنہہ توٚہہ نہٕ ٲسِو، باقی سٲری آلہٕ سایِن آوُٹ کٔرِو، پتہٕ ژارِو نوٚو پاس ورڈ۔ مےٚ یاد رَٹِو سٟتؠ سایِن اِن تھاونہٕ آمٕتؠ آلہٕ تہِ گژھن سایِن آوُٹ۔</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>یِمہِ وَراے گژھہِ پرٛتھ آلہٕ پنٕنہِ نٔوِس درخواستس پؠٹھ سایِن آوُٹ۔ پتہٕ ژارِو توٚہہ نوٚو پاس ورڈ۔</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>آ، باقی آلہٕ سایِن آوُٹ کٔرِو</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>کیا یہِ ٲسِو توٚہہ؟</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>آ، یہِ اوسُس بہٕ</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>نہٕ، میٖون کھاتہٕ محفوٗظ کٔرِو</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>پاس ورڈ</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>پاس ورڈ تہٕ دُمَرحلہٕ لاگ اِنُک کوڈ</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>REST اِنٹرفیس</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>SOAP اِنٹرفیس</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>سِنگَل سایِن آن</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>سیشَن درج سپدنہٕ برونٛہہ لاگ اِن</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>لاگ اِن رِپورٹ</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>سایِٹس پؠٹھ کُس چھُ لاگ اِن، اَکاوُنٹ کوتہٕ لٹہِ چھِ لاگ اِن کران تہٕ کوتہٕ لٹہِ ناکام سپدان، تہٕ کانٛسہِ صارِفس ہر جایہِ پؠٹھہٕ لاگ آوُٹ کرُن۔ یہ چھُ ہر سیشَن ہینڈلرس سٟتۍ کٲم کران۔</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>سیشَن آو لاگ آوُٹ کرنہٕ۔ ڈیوایسس پَزِ دوبارٕ لاگ اِن کرُن۔</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>%login آو %count سیشَنَو پؠٹھہٕ لاگ آوُٹ کرنہٕ۔</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>%login ہُنٛد اوس نہٕ کانٛہہ سیشَن چلان۔</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>اَتھ ID، صارِف ناو یا ای میل پَتس سٟتۍ چھُنہٕ کانٛہہ اَکاوُنٹ۔</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>یہ چھُ سُہ سیشَن یُس توٚہہ ورتاوان چھِو۔ اَتھ ختم کرنہٕ خٲطرٕ کٔرِو لاگ آوُٹ۔</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>سُہ سیشَن اوس گۄڈے ختم گومُت۔</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>صفحُک وَقت اوس ختم گومُت۔ کیٚنہہ تہِ آو نہٕ بَدلاونہٕ؛ مہربانی کٔرِتھ کٔرِو دوبارٕ کوشِش۔</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>اَتھ سایِٹس پؠٹھ چھِ نہٕ سیشَن درج سپدان (site.ini [UserSessionSettings] Tracking=disabled)۔</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>ٹیبل expuser_session چھُنہٕ موجوٗد</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>یہ بننہٕ سٟتۍ سٟتۍ چھِ سیشَن درج سپدان: php update/common/scripts/6.0/createusersessiontable.php، یا 6.0.15 ہُنٛد ڈیٹا بیس اَپڈیٹ۔</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>وُنی تہٕ اَز</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>چلَن وٲلۍ سیشَن</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>لاگ اِن صارِف</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>اَزۍ کۍ لاگ اِن</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>اَزۍ کٕنۍ ناکام کوشِشہٕ</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>کانٛسہِ صارِفس ہر جایہِ پؠٹھہٕ لاگ آوُٹ کٔرِو</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>اَکاوُنٹُک ہر سیشَن چھُ تٔمۍ سٕنٛزِ نٔوِ درخواستہِ پؠٹھ ختم سپدان، &quot;مےٚ یاد رَٹِو&quot; سٟتۍ رَٹنہٕ آمتۍ سیشَن تہِ۔ یہ ورتٲوِو ییٚلہِ کانٛہہ اَکاوُنٹ غلط اَتھن منٛز ٲسِتھ ہیٚکہِ؛ پَتہٕ کٔرِو تٔمۍ سُنٛد پاس ورڈ ری سیٹ۔</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>صارِف ID، صارِف ناو یا ای میل پَتہٕ</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>ہر جایہِ پؠٹھہٕ لاگ آوُٹ کٔرِو</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>وُنی لاگ اِن</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>حالَس منٛز ورتاونہٕ آمتۍ %limit چھِ ہاونہٕ آمتۍ۔</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>صارِف</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>ڈیوایس</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>پَتہٕ</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>لاگ اِن</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>آخری لٹہِ سرگرم</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>عَمَل</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>یہ ڈیوایس</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>درج نہٕ کرنہٕ آمُت</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>لاگ آوُٹ کٔرِو</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>کانٛہہ سیشَن چھُنہٕ لاگ اِن۔</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>پٔتِمۍ %days دۄہ</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>لاگ اِن تہٕ ناکام کوشِشہٕ چھِ صارِف آڈِٹ لاگہٕ منٛزٕ گَنزرنہٕ یِوان، یُس موجوٗد چھُنہٕ؛ نۆو سیشَن چھِ گَنزرنہٕ یِوان۔</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>دۄہ</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>لاگ اِن</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>ناکام کوشِشہٕ</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>نۆو سیشَن</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>سیشَن ہینڈلر: %handler۔ سیشَن چھِ ٹیبل expuser_session منٛزٕ پَرنہٕ یِوان، اَمہِ موجوٗب چھےٚ رِپورٹ ہر ہینڈلرس سٟتۍ کٲم کران۔</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>پَتِمَن %hours گَنٛٹَن منٛز مشکوٗک سرگرمی</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>اَکھ نیٹ ورک ہیوٚک نہٕ %accounts کھاتَن منٛز سایِن اِن کٔرِتھ (%count کوشِشہٕ)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>ناکام سایِن اِنَو پتہٕ کھاتہٕ بنٛد</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>اَکِس کھاتس پؠٹھ %count ناکام سایِن اِن</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>اَکی وِزِ %count مُلکَو پؠٹھہٕ سایِن اِن</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>حِفاظتی سرگرمی</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>سیشَن</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>ناکام سایِن اِن چھِ یوٗزر آڈِٹ لاگہٕ پؠٹھہٕ پرنہٕ یِوان، یُس یتھ دَستیاب چھُنہٕ۔</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>کیٚنہہ مشکوٗک نہٕ: نہٕ کانٛہہ کھاتہٕ بار بار ناکام سایِن اِنَو سٟتؠ، نہٕ کانٛہہ نیٹ ورک کیٚنژن کھاتَن آزماوان، نہٕ کانٛہہ کھاتہٕ کیٚنژن مُلکَو پؠٹھہٕ سایِن اِن۔</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>توٚہہ ہٕنٛدِس اَکاوُنٹس خٲطرٕ حِفاظتی اِنتباہ</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>توٚہہ ہٕنٛدِس اَکاوُنٹس %login منٛز سپُد اکھ حِفاظتی واقعہٕ: %event۔ اگر یہ توٚہہ نہٕ ٲسِو، تیٚلہِ کٔرِو %url پؠٹھ پَنُن اَکاوُنٹ محفوظ۔</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>سیٹ اَپ</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>یمہٕ سایِٹچہِ مواد نِشہِ مانٛگِو اکہِ درخواستہِ منٛز تِمے فیلڈ یِمن ہُنٛد کانٛسہِ صفحس ضرورت چھےٚ۔ اِسکیما چھُ مواد کلاسن ہُنٛد پیروی کران؛ پرٛتھ کوئری چھےٚ سوزن وٲلس یوٗزرس ہٕنٛدِ حقوٗقو سٟتؠ چلان۔</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>یمہٕ سایِٹ ایکسیسس منٛز چھُ GraphQL API بنٛد۔ یہِ کٔرِو graphql.ini منٛز آن: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>GraphQL لائبریری (webonyx/graphql-php 15) چھےٚ نہٕ اِنسٹال۔</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>اینڈ پوائنٹ</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>لائبریری</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>اِسکیما</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>%count مواد کلاس، اِسکیما %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>کوئری</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>ویریایبل (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>چلٲوِو</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>جواب</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>چلان…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>جواب ہیوٚک نہٕ پٔرِتھ۔</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>کوئری چھےٚ تُہٕنٛدِ حقوٗقو سٟتؠ، یمہٕ سیشنہٕ سٟتؠ سائن اِن کٔرِتھ چلان۔</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%seconds سیکنڈن منٛز %count</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>کانٛہہ حَد نہٕ</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>گہرٲیی</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>پیچیدگی</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>فی لِسٹ آئٹم</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (ڈیفالٹ %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>فی یوزر یا کی درخواستہٕ</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>فی گُمنام پتہٕ درخواستہٕ</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>انٹروسپیکشن</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>صرف محفوظ کوئری</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>سب کھوتہٕ بٔڑ کوئری</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>%bytes بائٹ</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>سب کھوتہٕ بٔڑ اپ لوڈ</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>%siteaccess سایِٹ ایکسیسس چھُ نہٕ۔</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>%siteaccess منٛز آیہٕ میوٹیشنز چالوٗ کرنہٕ۔</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>%siteaccess منٛز آیہٕ میوٹیشنز بنٛد کرنہٕ۔</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>%siteaccess منٛز آیہٕ GraphQL API چالوٗ کرنہٕ۔</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>%siteaccess منٛز آیہٕ GraphQL API بنٛد کرنہٕ۔</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>ترتیبات ہیچہٕ نہٕ لیٚکھِتھ: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>ریسپانس کیش آیہٕ صاف کرنہٕ: %count جواب آیہٕ ہٹاونہٕ۔</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>کوئری ہٹاونہٕ خٲطرٕ کٔرِو امہِ نِش وول باکس ٹِک۔</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>کوئری ہیچ نہٕ ہٹٲوِتھ: PersistedQueryDirectoryList[] کہِ ڈائریکٹری منٛز دِنہٕ آمٕژ کوئری چھےٚ پنٕنہِ فایِلہِ سٟتؠ ہٹاونہٕ یِوان۔</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>محفوظ کوئری آیہٕ ہٹاونہٕ۔</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>میوٹیشنز</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>چالوٗ</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>بنٛد</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>سایِٹ ایکسیسز</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>یتھ API تہٕ امیٚک میوٹیشنز جواب دِوان چھِ۔ بٹن چھِ graphql.ini لیکھان، ییٚتھہٕ پٲٹھۍ ./console exp:graphql:enable تہٕ exp:graphql:disable کران چھِ۔</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>سایِٹ ایکسیسس</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>GraphQL API</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>بدلٲوِو</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>بنٛد کٔرِو</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>میوٹیشنز بنٛد</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>میوٹیشنز چالوٗ</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>چالوٗ کٔرِو</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>حَد</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>یمہٕ سایِٹ ایکسیسُک graphql.ini [GraphQLSettings]۔</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>ریسپانس کیش</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>محفوظ کوئریو ہٕنٛد جواب، یوزرٕ سٕندِ حقوٗقو مطٲبق تھاونہٕ آمٕتۍ تہٕ ہر وَتھ مَواد شائع گژھنہٕ پتہٕ ختم۔</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>حالَت</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>تھاونہٕ آمٕتۍ جواب</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>%count جواب، %bytes بائٹ</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>زیادٕ کھوتہٕ زیادٕ تھاونہٕ آمٕت</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds سیکنڈ</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>آخری خٲتمہ</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>ریسپانس کیش صاف کٔرِو</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>محفوظ کوئری</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>./console exp:graphql:persist سٟتؠ یا کلائنٹو ذریعہٕ محفوظ (automatic persisted queries)؛ ناوٕ یا SHA-256 سٟتؠ کال کرنہٕ یِوان۔</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>ناو</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>سایِز</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>جاے</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>ہٹٲوِو</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>شامل</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>محفوظ</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>آ، یہِ کوئری ہٹٲوِو</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>وُنیک چھےٚ نہٕ کانٛہہ محفوظ کوئری۔</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>API کیز</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>graphql:read (کوئری) یا graphql:write (میوٹیشنز) اسکوپ وٲلۍ ذٲتی API کیز۔ یم بنٲوِو تہٕ منسوخ کٔرِو API رسٲیی صفحس پؠٹھ، یا ./console exp:graphql:keys سٟتؠ۔</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>API رسٲیی</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>سٲری کیز</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>کی</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>ناو</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>مالِک</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>اسکوپ</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>آخری استعمال</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>سَرگَرم</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>میعاد ختم</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>منسوخ</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>کَتھ نہ</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>وُنیک چھےٚ نہٕ GraphQL اسکوپ وٲج کانٛہہ API کی۔</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>یہ صَفحہ ہاوَن وٲلِس سایِٹ ایکسیس %siteaccess منٛز چھُ GraphQL API بنٛد؛ تَلہٕ کِس جدولس منٛز چھُ ہاونہٕ آمُت زِ یہِ کتھ جواب چھُ دِوان۔</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>یہ صَفحہ ہاوَن وٲلِس سایِٹ ایکسیس %siteaccess خٲطرٕ۔</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>ویب ہُکس</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>ہر ایوینٹ یُس اینڈ پوائنٹ مَنگان چھُ (publish, update, trash, delete, move, hide, reveal, mutation) چھُ cronjob حِصہٕ graphqlwebhooks دستخط کٔرِتھ تَتھ سوزان۔ ./console exp:graphql:webhooks چھُ سُے کٲم کران یۄس یہِ حِصہٕ کران چھُ۔</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>ایوینٹس</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>سٲری</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>پرٛتھ سایِٹ ایکسیسس</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>خراب</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>کانٛہہ راز نہٕ</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>انتظار منٛز</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count ترٲوِمٕتؠ</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>آخری ترسیل</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>ٹیسٹ سوزِو</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>آ، یہِ ویب ہُک ہٹٲوِو</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>وُنیک چھُ نہٕ کانٛہہ ویب ہُک۔</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>ویب ہُک جوڑِو</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>جوڑِو</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>حالیہ ترسیل</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>وَکھ</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>نتیجہٕ</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>سَبسکرِپشَن</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>کلائنٹن خٲطرٕ لائیو اپڈیٹ: /api/graphql/subscribe پؠٹھ ایوینٹ سٹریم، تہٕ Velocity پؠٹھ WebSocket (graphql-transport-ws)۔ پرٛتھ ایوینٹ چھُ صِرف تِمن سبسکرائبرن واتان یِم امہِ ہُند مواد پٔرِتھ ہیکن۔</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>وۄنی کھُلٕمٕتؠ</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>زیادٕ کھوتہٕ زیادٕ کھُلٕمٕتؠ</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>کُل %total، پرٛتھ یوزرس %user، پرٛتھ پتس %address</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>گُمنام سَبسکرِپشَن</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>سٹریمٕچ مُدت</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>ویب ہُک ہیوٚک نہٕ جوڑنہٕ یِتھ: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>ویب ہُک %name آو بدلاونہٕ؛ اَمیُک دستخطی راز چھُ رُوزان۔</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>دستخطی راز ہیوٚک نہٕ محفوظ کرنہٕ یِتھ (سیٹ اَپ &gt; خُفیہ مَعلوٗمات)۔</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>ویب ہُک %name آو جوڑنہٕ۔ اَمیُک دستخطی راز، صِرف یِہ اکھ لَٹ ہاونہٕ آمُت: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>ویب ہُک %name چھُ نہٕ۔</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>ویب ہُکن %name دیُت نہٕ جواب: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>ویب ہُکن %name دیُت %ms ms منٛز %status جواب۔</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>ویب ہُک ہٹاونہٕ خٲطرٕ کٔرِو امہِ نِش وول باکس ٹِک۔</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>ویب ہُک %name آو ہٹاونہٕ۔</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>یمہٕ سایِٹ ایکسیسس منٛز چھُ GraphQL API بنٛد۔</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>GraphQL لائبریری چھےٚ نہٕ اِنسٹال۔</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>GET یا POST ورتٲوِو۔</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>درخواستہِ ہُنٛد باڈی چھُ نہٕ JSON آبجیکٹ۔</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables چھُ نہٕ JSON آبجیکٹ۔</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions چھُ نہٕ JSON آبجیکٹ۔</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>کوئری سوزِو POST سٟتؠ۔</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>درخواستہِ منٛز چھےٚ نہٕ کانٛہہ کوئری۔</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>کوئری چھےٚ %max بائٹن کھوتہٕ زیٛٹھ۔</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>اندرونی سرور غلطی</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node چھُ id، remoteId، path تہٕ urlAlias منٛزٕ بِلکُل اکھ یژھان۔</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content چھُ id تہٕ remoteId منٛزٕ بِلکُل اکھ یژھان۔</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>after ہُنٛد کرسر چھُ نہٕ یمہٕ API ہُنٛد دیُتمُت۔</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>%alias ناوُک کانٛہہ تصویر عُرف چھُ نہٕ (image.ini [AliasSettings] AliasList[])۔</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>یتھ چھےٚ صرف محفوظ کوئری قبول: محفوظ کوئری ہُنٛد id سوزِو۔</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>محفوظ کوئری ہُنٛد ہیش چھُ نہٕ SHA-256۔</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>محفوظ کوئری ہُنٛد ہیش چھُ نہٕ کوئری سٟتؠ مِلان۔</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>واریاہ درخواستہٕ: %window سیکنڈن منٛز زیادٕ کھوتہٕ زیادٕ %limit۔ %reset سیکنڈن پتہٕ کٔرِو دوبارٕ کوشش۔</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>کوئری چھےٚ %depth سطح گٔہری؛ زیادٕ کھوتہٕ زیادٕ %max چھےٚ اجازت۔</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>کوئری ہٕنٛز پیچیدگی چھےٚ %complexity؛ زیادٕ کھوتہٕ زیادٕ %max چھےٚ اجازت۔</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>یہِ درخواست ہیٚکہِ نہٕ اِسکیما پٔرِتھ (introspection)۔</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search چھُ متن یا فلٹر یژھان (classes, subtree, sections, publishedAfter, publishedBefore)۔</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument چھُ نہٕ تٲریخ (ISO 8601, 2026-10-30)۔</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag چھُ id، remoteId تہٕ path منٛزٕ بِلکُل اکھ یژھان۔</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout چھُ id، identifier تہٕ urlAlias منٛزٕ بِلکُل اکھ یژھان۔</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>multipart درخواستہِ ہُنٛد operations فیلڈ چھُ نہٕ اکھ JSON درخواست۔</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>multipart درخواستہِ ہُنٛد map فیلڈ چھُ نہٕ JSON آبجیکٹ۔</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>multipart درخواستہِ منٛز چھےٚ نہٕ %field فایِل۔</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>فیلڈ میپُک راستہٕ گژھہِ variables. سٟتؠ شروٗع گژھُن: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>%name فایِل آیہٕ نہٕ پوٗرٕ (اپ لوڈ غلطی %error)۔</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>%name فایِل چھےٚ %max بائٹن کھوتہٕ بٔڑ۔</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>%name فایِل ہیٚچ نہٕ چیک کٔرِتھ۔</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>یمہٕ سایِٹ ایکسیسس منٛز چھےٚ میوٹیشنز بنٛد (graphql.ini [GraphQLSettings] MutationsEnabled)۔</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>میوٹیشن سوزِو POST سٟتؠ۔</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>مَواد بدلاونہٕ خٲطرٕ کٔرِو سائن اِن۔</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>API کی ہس چھُ نہٕ %scope اسکوپ۔</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>سیشنہٕ والہِ میوٹیشنہِ چھُ سیشنُک فارم ٹوکن ضروٗری (ہیڈر X-CSRF-Token)۔</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>uploadFromUrl چھُ بنٛد: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] منٛز چھُ نہٕ کانٛہہ ہوسٹ۔</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>پتہٕ گژھہِ https پتہٕ آسُن۔</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>%host ہوسٹ چھُ نہٕ graphql.ini [GraphQLSettings] UploadFromUrlHostList[] منٛز۔</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>فایِل ہیٚچ نہٕ اَنِتھ۔</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload چھُ صرف اِن پُٹ قسم۔</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>Upload قسمُک ویریبل چھُ multipart درخواستہِ ہٕنز فایِل ہیوان۔</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>ریموٹ id %remoteId چھُ پیٚلی استعمال گژھان۔</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>مَوادس چھُ پیٚلی %language منٛز ترجمہٕ: updateContent کٔرِو استعمال۔</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>کَم از کَم اکھ فیلڈ دِیِو۔</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>نوٚو ؤرژَن ہیوٚک نہٕ بنِتھ (مَوادس چھِ واریاہ مَسوٗدٕ)۔</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>ؤرژَن %version چھُ نہٕ مَسوٗدہٕ۔</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent چھُ id تہٕ nodeId منٛزٕ بِلکُل اکھ یژھان۔</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>جاے ہیٚکہِ نہٕ پانس تَل منتقل گٔژھِتھ۔</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>مَوادس چھےٚ پیٚلی %parentId تَل اکھ جاے۔</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>%field فیلڈچ قیمَت ہیچ نہٕ محفوظ کٔرِتھ۔</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>%language مَواد زَبان چھےٚ نہٕ۔</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>اِسکیما منٛز چھےٚ نہٕ %class مَواد کلاس۔</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>مَواد چھُ نہٕ، یا چھےٚ نہٕ توہہِ پرنُک اجازت۔</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>یمہٕ مَوادس سٟتؠ یہِ کرنُک چھُ نہٕ توہہِ اجازت۔</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>%class کلاسس منٛز چھےٚ نہٕ %field فیلڈ یُس لیکھنہٕ یِیہِ۔</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>%field فیلڈ چھےٚ زٕ لٹہٕ دِنہٕ آمٕژ۔</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>%field فیلڈ چھےٚ فایِل ہیوان: سوزِو امہِ اپ لوڈ کِہ پٲٹھۍ (multipart درخواست)۔</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>%field فیلڈ چھےٚ نہٕ فایِل ہیوان۔</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>%field فیلڈس چھےٚ قیمَت ضروٗری۔</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>%format فارمیٹ چھُ صرف رِچ ٹیکسٹ فیلڈن خٲطرٕ؛ %field چھےٚ پنٕنۍ قیمَت یِتھہٕ پٲٹھۍ ہیوان (RAW)۔</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>%field فیلڈ چھےٚ لازمی۔</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>HTML ہیوٚک نہٕ پٔرِتھ۔</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content چھُ version صرف id سٟتؠ ہیوان۔</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>پریویو ٹوکن چھُ نہٕ درست یا گوٚو ختم۔</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>اوریجن چھُ نہٕ (https://host یا https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>GraphQL API ہُنٛد اسکوپ چھُ نہٕ: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>سَبسکرِپشَن سوزِو /api/graphql/subscribe پؠٹھ (ایوینٹ سٹریم یا WebSocket)۔</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>درخواست چھےٚ نہٕ ڈاکیومینٹُک کانٛہہ آپریشن ناو ہیوان۔</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>سَبسکرِپشَن چھُ ٹھیک اکھ فیلڈ مَنگان۔</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>واریاہ سَبسکرِپشَن چھِ کھُلٕمٕتؠ؛ پتہٕ کٔرِو بیٛیہِ کوشش۔</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>توہہِ چھِ %max سَبسکرِپشَن کھُلٕمٕتؠ، یِہ چھُ اجازت ہُند زیادٕ کھوتہٕ زیادٕ۔</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>تُہنٛدِس پتس پؠٹھ چھِ %max سَبسکرِپشَن کھُلٕمٕتؠ، یِہ چھُ اجازت ہُند زیادٕ کھوتہٕ زیادٕ۔</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>یمہٕ سایِٹ ایکسیسس منٛز چھِ سَبسکرِپشَن بنٛد۔</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>سبسکرائب کرنہٕ خٲطرٕ کٔرِو سائن اِن (ٹوکن یا ذٲتی API کی)۔</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>میوٹیشنز سوزِو /api/graphql پؠٹھ۔</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>مایگریشَن</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>صورتحال پٔرِتھ نہٕ ہیوٚک: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>مایگریشنَن ہٕنزٕ ٹیبل چھِنہٕ وُنی موجود: ./console exp:upgrade --apply بناوان یِم.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>%count مایگریشَن گٔیہِ ناکام</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>اکھ رَن چھُ جٲری، %user ٚن کوٚر شروٗع</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>انسٹالیشَن چھُ لاک: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>زیٖر غور</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>ناکام</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>یَتیٖم</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>آخری رَن</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>وُنی کہِنہٕ</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>سٲرِی مایگریشَن</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>نَقلی رَن</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>آزمٲیشی رَن</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>زیٖر غور مایگریشَن چٔلۍ اکِس ٹرانزیکشنَس منٛز یُس پَتہٕ واپَس پھیرنہٕ آو: کہِنہٕ تھوونہٕ آو. بوٚن چھُ ہیٚو کُس مایگریشنَن ڈیٹا بیسَس منٛز کیا بَدلوو.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>اَز رَن کیا کَرِہے. کہِنہٕ چھُ نہٕ بَدلاونہٕ یِوان: پرٛتھ زیٖر غور مایگریشَن ہاوان یِم تَبدیٖلیہِ سُہ کَرِہے، تہٕ رَن ہاوان سُہ برونٛہہ تہٕ پَتہٕ کیا کَرِہے.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>نَقل کٔرِو</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>چلٲوِو</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>آزمٲیشی رَن گوو ناکام: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>نَقلس چھُ PostgreSQL یا SQLite ضروٗری، یِہنٛدۍ اسکیما تَبدیٖلیہِ ہیٚکن واپَس پھیرنہٕ یِتھ؛ یَتھ ڈیٹا بیسَس پیٚٹھ چھُ بوٚنِم مَنصوٗبہٕ سُے یُس رَن کَرِہے.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>مایگریشَن</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>مایگریشَن</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>حالَت</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>یہِ کیا کَرِہے</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>نَقل: %result، %ms مِلی سیکنڈَن منٛز</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>وُنی چھُ نہٕ کانٛہہ مایگریشَن.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>رَنہٕ برونٛہہ تہٕ پَتہٕ</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>برونٛہٕم کیپشَن</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>ہیوٚتمُت، تہٕ مایگریشَن ناکام گژھنَس پیٚٹھ بَحال کرنہٕ یِوان</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>بَنٛد</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>پَتٕم کیپشَن</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>رَن کامیاب گژھنَس پیٚٹھ ہیوٚتمُت</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>%total مایگریشَن: %pending زیٖر غور، %done مُکَمَل، %failed ناکام.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>مایگریشنٕچ تٲریٖخ</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>پرٛتھ رَن پَنٕنہِ صارِف، ماحول، کیپشنَو تہٕ تَمہِ سٕتۍ یُس کَمِٹ، ٹیگ تہٕ پُش کرنہٕ آو. ناکام یا رُکمُت رَن ہیٚکہِ دوبارٕ شروٗع گژھِتھ؛ یَتھ رَنَس برونٛہہ کیپشَن ہیوٚتمُت آسہِ سُہ ہیٚکہِ واپَس نِنہٕ یِتھ.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>رَن پٔرِتھ نہٕ ہیٚکۍ: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>مایگریشنَن ہٕنزٕ ٹیبل چھِنہٕ وُنی موجود: ./console exp:upgrade --apply بناوان یِم.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>وُچھِو</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>سٲرِنی</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>رَن</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>شروٗع</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>کٔمۍ</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>کیپشَن</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>رِپازِٹری</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>عَمَل</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>برونٛہہ</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>پَتہٕ</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>پُش: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>دوبارٕ شروٗع کٔرِو</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>واپَس پھیٖرِو</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>یَتھ حالتَس منٛز چھُ نہٕ کانٛہہ رَن.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>یٮ۪تہِ شروٗع کٔرمٕژ</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>یِمَن صَفَن پیٚٹھ شروٗع کرنہٕ آمٕتۍ رَن، دوبارٕ شروٗعات تہٕ واپسی، پرٛتھ اکِس ہٕنٛز رِپورٹ سٕتۍ.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>کیا</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>نتیجہ</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>واپسی</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>%target ہٕنٛز واپسی</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>رَن %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>رَنَن کیا کوٚر، تٔمۍ سُنٛد رِکارڈ تہٕ لاگ. یٮ۪تہِ شروٗع کوٚرمُت رَن چلان پَتہٕ کِنۍ یَلہِ یہِ صَفہٕ بَنٛد گژھہِ؛ تَتھ پَتہٕ لگنہٕ خٲطرٕ کھولِو صَفہٕ دوبارٕ.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>یہِ رَن دوبارٕ شروٗع کٔرِو</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>یہِ رَن واپَس پھیٖرِو</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>رِکارڈ پٔرِتھ نہٕ ہیوٚک: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>پیش رَفت</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>%user ٚن کوٚر %time پیٚٹھ شروٗع.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>کوڈ ژیکان تہٕ رَنہٕ برونٛہہ کیپشَن ہیوان</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>%id چلان (%total منٛزہٕ %index)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>%total منٛزہٕ %done مُکَمَل</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>مایگریشَن چٔلۍ؛ اگر اکھ ناکام گوو تیٚلہِ کیپشَن بَحال کران</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>رَنہٕ پَتہٕ کیپشَن ہیوان، کَمِٹ، ٹیگ تہٕ پُش کران</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>کیپشَن بَحال کران</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>رَن گوو ختم. تٔمۍ سٕنٛز رِپورٹ لوڈ گژھان.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>پیش رَفتُک پَتہٕ ہیوٚک نہٕ لٔگِتھ. رَن کِتھ کٔنۍ چلان چھُ وُچھنہٕ خٲطرٕ کٔرِو صَفہٕ دوبارٕ لوڈ.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>یہِ صَفہٕ چھُ رَن چلنَس سٕتۍ سٕتۍ ہاوان.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>دوبارٕ لوڈ کٔرِو</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>رِپورٹ</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>وَقت</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms مِلی سیکنڈ</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>رَنَن یُس خرٲبی ہٕنٛدِس صورتَس منٛز چھاپ کوٚر</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>رِکارڈ</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>ماحول</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>کہِنہٕ</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>ختم</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>کَمِٹ</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>ٹیگ</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>پُش</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>پَیغام</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>یَتھ رَنُک مایگریشَن</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>مَنبَع</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>رَنُک لاگ</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>صِرف لاگُک آخری حِصہٕ چھُ ہاونہٕ آمُت.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>چلان</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>رِپورٹہٕ وَرٲے ختم</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>کامیاب</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>ناکام</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>نامنظوٗر</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>ڈیٹا بیسَس تام ہیٚچہٕ نہٕ واتِتھ</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>اَندرٲنۍ خرٲبی</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>اکھ رَن چھُ جٲری</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind کوٚر %user ٚن %time پیٚٹھ شروٗع.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>پَتہٕ لٔگِو</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>انسٹالیشَن چھُ لاک</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>بیٚیِس رَنَس چھُ لاک (اکھ اَپگریڈ یا کنسولَس پیٚٹھ رَن): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>مُکَمَل</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>زیٖر غور</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>ضروٗرت نہٕ</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>نامعلوم</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>واپَس پھیرمُت</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>لاگوٗ</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>لاگوٗ گژھِہے</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>واپَس نیوٚمُت</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>واپَس نِنہٕ یِہے</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>نہٕ چلومُت</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>بیٚیِس انتظار</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>تَبدیٖلی منظوٗر</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>تَبدیٖلی منظوٗر گژھِہے</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>نَقل کوٚرمُت</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>مایگریشَن</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>صورتحال</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>تٲریٖخ</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>%target واپَس نِیو</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>رَن چھُ واپَس نِنہٕ یِوان تَتھ کیپشنَس تام یُس تَمہِ برونٛہہ ہیوٚتمُت آسہِ، اکھ مایگریشَن پَنٕنہِ down() سٕتۍ. برونٛہِم کیپشَن بَحال کرُن چھُ ماہرَن خٲطرٕ. پرٛتھ اکھ چلان پَتہٕ کِنۍ تُہٕنٛدِس ناوَس پیٚٹھ، اَزٕچہِ حالتُک کیپشَن ہیٚنہٕ پَتہٕ.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>کیا ہیٚکہِ واپَس نِنہٕ یِتھ، یہِ پٔرِتھ نہٕ ہیوٚک: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>اکھ رَن</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>اکھ مایگریشَن</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>اکھ برونٛہِم کیپشَن</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>تَفصیٖل</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>آ</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>نہ</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>کیپشَن</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>لیبَل</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>ہیوٚتمُت</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>قٕسم</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>بَحال کرنہٕ وٲلۍ حِصہٕ</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>ڈیٹا بیس</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>اِسٹوریج فایلہٕ (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>ترتیبات (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>ڈیٹا بیس بَحال کرنہٕ سٕتۍ گژھہِ یہِ کیپشنٕکِس وَقتَس تام واپَس، سیشنَو سمیت: پَتہٕ ہیٚکِو تُہۍ دوبارٕ سائن اِن کرنہٕ باپت وَننہٕ یِتھ. تَمہِ پَتہٕ بَدلیوٚمُت سورُے گژھہِ ضایع؛ گوڈٕ ہیٚنہٕ یِیہِ اَزٕچہِ حالتُک کیپشَن.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>مےٚ چھُ پَتہٕ یہِ کیا بَحال کَرِ</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>کیپشنٕچ آیی ڈی لیٚکھِو دوبارٕ</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>آ، واپَس نِیو</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>منسوٗخ کٔرِو</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>تِم رَن یِمَن برونٛہہ کیپشَن ہیوٚتمُت آسہِ.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>ژارِو</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>وُنی چھُ نہٕ کیپشنَس سٕتۍ کانٛہہ رَن.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>لاگوٗ مایگریشَن یِم پانَس واپَس نیٚتھ ہیٚکن (یِمَن چھُ down()).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>کانٛسہِ لاگوٗ مایگریشنَس چھُ نہٕ down().</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>برونٛہِم کیپشَن (ماہر)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>وُنی چھُ نہٕ کانٛہہ کیپشَن.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>مایگریشَن چلٲوِو</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>رَن چلان پَتہٕ کِنۍ %user سٕنٛدِس ناوَس پیٚٹھ، تہٕ تٔمۍ سُنٛد صَفہٕ ہاوان یہِ چلنَس سٕتۍ سٕتۍ. گوڈنِکِس مایگریشنَس برونٛہہ ہیٚنہٕ یِوان انسٹالیشنُک کیپشَن؛ مایگریشَن ناکام گژھنَس پیٚٹھ رُکان رَن تہٕ کیپشَن گژھان بَحال.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>گوڈٕ آزمٲیشی رَن</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>صورتحال پٔرِتھ نہٕ ہیوٚک: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>زیٖر غور مایگریشَن</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>یِم چلان یَتھ ترتیٖبس منٛز. اکھ تہٕ تِم یِمَن یہِ ضروٗری چھُ، پَتٕکِس رَنَس خٲطرٕ تھاونہٕ باپت ہٹٲوِو نِشان.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>چلٲوِو</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>چلنہٕ وِزِ کران مینٹیننس موڈ آن.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>لاگوٗ گژھنہٕ پَتہٕ بَدلیوٚمٕتۍ</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>یِم فایلہٕ چھےٚ نہٕ تِمے یِم لاگوٗ کرنہٕ آیہِ. رَن کران یِم نامنظوٗر یُتام نہٕ تَبدیٖلی وجہہ سٕتۍ منظوٗر گژھہِ؛ یِم چلن نہٕ دوبارٕ، نوٚو چیکسَم گژھہِ درج تہٕ وجہہ تھاونہٕ یِیہِ آڈٹ لاگَس منٛز.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>تَبدیٖلیہِ منظوٗر کٔرِو</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>کیازِ</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>ڈیفالٹ چھِ محفوٗظ. پرٛتھ خانہٕ ترٛاوان اکھ قَدَم.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>کیپشَن نہٕ</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>رَنہٕ برونٛہہ تہٕ پَتہٕ کیپشَن نہٕ: ناکٲمی ہیٚکہِ نہٕ خود بخود بَحال گژھِتھ.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>بَحالی نہٕ</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>ناکٲمی پَتہٕ ترٛٲوِو انسٹالیشَن تِتھے یِتھ ناکٲمی ترٛوو.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>غٲر کَمِٹ تَبدیٖلیہِ تھٲوِو</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>چلٲوِو اگرچہ ترتیبات، ایکسٹینشَن یا ڈیزائنَن منٛز غٲر کَمِٹ تَبدیٖلیہِ آسن؛ یِم گژھن کیپشنَس منٛز.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>کَمِٹ نہٕ</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>صورتحالٕچ فایل تہٕ رَنُک لاگ کٔرِو نہٕ کَمِٹ (نہٕ ٹیگ تہٕ نہٕ پُش).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>پُش نہٕ</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>کَمِٹ تہٕ ٹیگ کٔرِو، مگر پُش نہٕ.</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>ٹیگ نہٕ</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>کَمِٹ تہٕ پُش کٔرِو، مگر رَنَس ٹیگ نہٕ.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>آ، یِم مایگریشَن چلٲوِو وُنی</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>کانٛہہ مایگریشَن چھُ نہٕ زیٖر غور.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>صورتحالَس کُن واپَس</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>یَتھ انسٹالیشنٕچ تَبدیٖلیہِ (مواد، کلاس، رول، ترتیبات، اسکیما) اکہِ لٹہِ فایلَن منٛز لیٚکھِتھ تہٕ سایٹٕکِس پرٛتھ انسٹالیشنَس پیٚٹھ تِتھے ترتیٖبس منٛز لاگوٗ. رَن ہیوان گوڈٕ کیپشَن، مایگریشَن ناکام گژھنَس پیٚٹھ کران سُہ بَحال، تہٕ یُس کوٚر سُہ کران درج، کَمِٹ تہٕ پُش.</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>%count زیٖر غور چلٲوِو</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>جایزہ</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>زیٖر غور</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>مُکَمَل</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>ناکام</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>ضروٗرت نہٕ</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>ڈیٹا بیس</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>ٹرانزیکشَن: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>سایٹٕچ مایگریشَن چھےٚ migrations/ منٛز، ایکسٹینشنٕچ extension/&lt;name&gt;/migrations/ منٛز. یِم چلان پَنٕنٮ۪ن ناوَن ہٕنٛزِ ترتیٖبہٕ تہٕ ضروٗرتَن مُطٲبِق.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>آخری رَن</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>فایل بَدلیوٚو لاگوٗ گژھنہٕ پَتہٕ.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>وُنی چھُ نہٕ کانٛہہ مایگریشَن. ./console exp:migration:generate --skeleton &lt;name&gt; --apply لیٚکھِ گوڈنیُک.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>تازٕ رَن</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>پرٛتھ رَن</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>وُنی چھُ نہٕ کانٛہہ رَن.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>رَنُک نَقل کرنہٕ باپت چھےٚ پالیسی migration/run ضروٗری.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>اکھ رَن چھُ جٲری: ختم گژھنہٕ پَتہٕ کٔرِو نَقل.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>سیٹ اَپ</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target چھُ نہٕ یَتھ انسٹالیشنُک رَن، نہٕ مایگریشَن تہٕ نہٕ کیپشَن.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>گوڈٕ لٲگِو «آ، واپَس نِیو» پیٚٹھ نِشان.</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>برونٛہِم کیپشَن بَحال کرُن چھُ ماہرَن خٲطرٕ: لٲگِو «مےٚ چھُ پَتہٕ یہِ کیا بَحال کَرِ» پیٚٹھ نِشان.</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>کیپشنٕچ آیی ڈی لیٚکھِو دوبارٕ: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>بَحال کرنہٕ خٲطرٕ ژارِو کَم از کَم اکھ حِصہٕ.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>یَتھ رَنَس برونٛہہ چھُ نہٕ کانٛہہ کیپشَن ہیوٚتمُت: تٔمۍ سٕنٛز مایگریشَن نِیو اکھ اکھ کٔرِتھ واپَس، یا کٔرِو برونٛہِم کیپشَن بَحال.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>یہِ مایگریشَن ہیٚکہِ نہٕ کٲژاہ واپَس نِنہٕ یِتھ: یہِ چھُ نہٕ لاگوٗ، یا یَتھ چھُ نہٕ down().</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>فارَم پٔرِتھ نہٕ ہیوٚک.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>دوبارٕ شروٗع کرنہٕ خٲطرٕ ژارِو رَن.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>گوڈٕ لٲگِو «آ، یِم مایگریشَن چلٲوِو وُنی» پیٚٹھ نِشان.</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>ژارِو کَم از کَم اکھ مایگریشَن.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>اکھ مایگریشَن بَدلیوٚو لاگوٗ گژھنہٕ پَتہٕ: تَبدیٖلی کٔرِو وجہہ سٕتۍ منظوٗر، یا تھٲوِو فایل واپَس.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>وَنِو بَدلیوٚمٕتۍ مایگریشَن کیازِ منظوٗر کرنہٕ یِوان چھِ.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>وجہہ ہیٚکہِ زیادٕ کھوٚتہٕ زیادٕ 500 حَرفَن ہٕنٛز آسِتھ.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>یٮ۪تہِ شروٗع کوٚرمُت رَن چھُ وُنی جٲری (%detail). تٔمۍ سٕنٛدِس ختم گژھنَس کٔرِو انتظار.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>بیٚیِس رَنَس چھُ انسٹالیشنُک لاک: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>رَنَس چھُ اکھ موجود تہٕ سائن اِن صارِف ضروٗری.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>php کمانڈ لائن بائنری لَبنہٕ آیہِ نہٕ. migration.ini [AdminSettings] PhpCliPath منٛز لیٚکھِو تٔمۍ سُنٛد پوٗرٕ پاتھ.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open چھُ بَنٛد، امہِ مۄکھہٕ ہیٚکہِ نہٕ رَن یٮ۪تہِ شروٗع گژھِتھ. سَروَرَس پیٚٹھ چلٲوِو ./console exp:migration:migrate --apply.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>رَنَن ہٕنٛدِس فولڈرَس منٛز ہیٚکہِ نہٕ لیٚکھِتھ: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>رَن گوو شروٗع مگر پَنٕنۍ پروسیس آیی ڈی ہوٚوُن نہٕ. %detail ژیکِو.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>وَنِو کیا واپَس نِنُن چھُ.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>رَن ہیوٚک نہٕ شروٗع گژھِتھ.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>تبدیلیَن ہِنٛز ریکارڈِنگ</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>یِتھ وقتہٕ ریکارڈِنگ چلان چھےٚ، توٚہۍ یِمہٕ انتظامیہس منٛز یا سایٹِچ سایڈ بارِ منٛز بدلاوان چھِو، سُہ چھُ اَکھ مایگریشنُک قدم بٔنِتھ رَٹنہٕ یِوان: مواد، کلاس، رول تہٕ پالیسی، حصہٕ، یوزر تہٕ گروپ، URL عرفی ناو، سیٹنگ۔ کام مُکلاونہٕ پتہٕ کٔرِو یہ بنٛد، وُچھِو یَمہِ کیاہ رٹ، تہٕ یَمہِ نِشہِ بناوِو اَکھ مایگریشن۔</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>ریکارڈِنگ ہیٚکہٕ نہٕ پٔرِتھ: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>ریکارڈِنگہٕ ہٕنٛد جدول چھِنہٕ وُنہِ: گۄڈٕ چلاوِو اپ گریڈ (exp:upgrade --apply)۔</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>migration.ini منٛز چھےٚ ریکارڈِنگ بنٛد ([RecordingSettings] Recording=disabled)۔</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>میٲنۍ تبدیلی</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>یوٚت تام نہٕ توٚہۍ بنٛد کٔرِو، صرف سُے کٔرِ ریکارڈ یُس توٚہۍ بدلاوِو، یتہِ تہِ بدلاوِو۔</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>ریکارڈِنگ</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>%time پٮ۪ٹھہٕ، وُنہِ تام %count تبدیلی۔</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>لیبل (اختیٲری)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>ہاوِو یَمہِ کیاہ رٹ</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>ریکارڈِنگ کٔرِو بنٛد</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>میٲنِہ تبدیلیَن ہٕنٛز ریکارڈِنگ کٔرِو شروٗع</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>پوٗرِ سایٹُک دٲرۍ</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>بنٛد گژھنَس تام چھےٚ پرٛتھ یوزرٕ سٕنٛز تہٕ کنسولٕچ پرٛتھ تبدیلی ریکارڈ کران۔ کھولنہٕ وِزِ چھےٚ تصدیق مَنٛگنہٕ یِوان زِ یہ چھِو توٚہۍ۔</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>کھولمُت</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>دٲرۍ کٔرِو بنٛد</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>پوٗرِ سایٹُک دٲرۍ کھولِو</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>ریکارڈِنگہٕ</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>یوزرُن اکاؤنٹ (لاگ اِن، ای میل، پاسورڈ) تہٕ یوزر اکاؤنٹَن ہٕنٛد فیلڈ چھِنہٕ زانٛہہ ریکارڈ گژھان۔</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>تبدیلیہٕ</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>پوٗرٕ سایٹ</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>%name سٕنٛز تبدیلی</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>بنٛد</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>وُنہِ چھےٚ نہٕ کانٛہہ ریکارڈِنگ۔</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>ریکارڈِنگ %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>سٲری ریکارڈِنگہٕ</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>یَمہِ نِشہِ بنَن وول مایگریشن</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>پرٛتھ بدلیمژِ چیزِ خٲطرٕ اَکِس قدمس منٛز سٲرِ تبدیلی: یَمہِ ریکارڈِنگہِ نِشہِ بنومُت مایگریشن کیاہ کَرِ۔</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>ییلہِ یتھ انسٹالیشنس منٛز YAML قدم قسم %types آسن، تیلہِ ہیٚکو یَمہِ نِشہِ مایگریشن بنٲوِتھ۔</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>زانِتھ ترٛٲوِتھ: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>کہِنہٕ گوو ریکارڈ۔</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>یَمہِ کیاہ رٹ</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>%count تبدیلی، تمہِ ترتیبہِ سٟتۍ یتھ منٛز سپٕز۔</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>تبدیلی</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>قدم</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>متعلق</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>بییہٕ %count: ./console exp:migration:record:show چھُ سٲری فہرست کران۔</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>ترٛٲوِو</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>ریکارڈِنگ تہٕ یَمہِ یُس رٹ سُہ چھُ کڈان۔ یُس بدلیوو سُہ روزِ بدلیومُتُے۔</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>آ، یہ ریکارڈِنگ ترٛٲوِو</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>ریکارڈ گژھان…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>تُہنٛز تبدیلی چھےٚ اَکِس مایگریشنہٕ خٲطرٕ ریکارڈ گژھان۔</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>یتھ سایٹس پٮ۪ٹھ پرٛتھ تبدیلی چھےٚ اَکِس مایگریشنہٕ خٲطرٕ ریکارڈ گژھان (پوٗرِ سایٹُک دٲرۍ)۔</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>پوٗرِ سایٹٕچ ریکارڈِنگ گٔیہِ شروٗع: یوٚت تام نہٕ توٚہۍ بنٛد کٔرِو، پرٛتھ یوزرٕ سٕنٛز پرٛتھ تبدیلی گژھِ ریکارڈ۔</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>ریکارڈِنگ گٔیہِ شروٗع: یوٚت تام نہٕ توٚہۍ بنٛد کٔرِو، تُہنٛز تبدیلی گژھن ریکارڈ۔</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>ریکارڈِنگ گٔیہِ بنٛد۔ یَمہِ یُس رٹ سُہ روزِ یوٚت تام نہٕ توٚہۍ ترٛٲوِو۔</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>ریکارڈِنگ تہٕ اَمِیٚک واقعات گٔیہِ کڈنہٕ۔</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>کانٛہہ ریکارڈِنگ %id چھےٚ نہٕ۔</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>گۄڈٕ کٔرِو "آ، یہ ریکارڈِنگ ترٛٲوِو" نِشانہٕ۔</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>سیشن ریکارڈِنگ ہیٚکہِ صرف سُے یوزر بنٛد کٔرِتھ یَمہِ ریکارڈ کوٚر۔</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>بنٛد کرنہٕ خٲطرٕ ریکارڈِنگ ژارِو۔</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>یتھ قسمٕچ ریکارڈِنگ چھےٚ پہلے پٮ۪ٹھہٕ چلان۔</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>ریکارڈِنگ ہیٚکہٕ نہٕ بدلٲوِتھ: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>مایگریشن بناو</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>مایگریشنُک ناو (اختیاری)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>مایگریشن %file آو لیکھنہٕ۔ یِم تبدیلی کانٛہہ قدم ہیٚکہِ نہٕ کٔرِتھ، تِم چھےٚ فایلہِ کیٚس پٮ۪ٹھ درج، اَتھہٕ سٟتؠ کرٕنۍ۔</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>کانٛہہ مایگریشن آو نہٕ لیکھنہٕ: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>حصن منز اکھ لمبہ رن</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>خالی خانہ migration.ini [RunSettings] کس سیٹنگس ہیکھ رکھان۔</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>زیادہ کھوتہ زیادہ ایتھ تعداد مائگریشن</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>یمہ پتہ کینہہ مزید مائگریشن نہ (سیکنڈ)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>مائگریشنن درمیان وقفہ (سیکنڈ)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>کم ترجیح (1 تہ 19)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>لمبہ رنک خانہ چھُ 1 پیٹھ شروع گمتس پوری عدد (وقفہ: 0 پیٹھ 60 سیکنڈ، ترجیح: 1 پیٹھ 19)، یا خالی۔</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>یہ بند گژھہ %time پیٹھ پننہ آپ۔</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>یمہ پتہ پننہ آپ بند کرُن (منٹ، اختیاری)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>منٹ چھ 1 پیٹھ 44640 (31 دۄہ) تام پوری عدد، یا خالی۔</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>مایگریشَن %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>نوٚو مایگریشَن</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>اکھ YAML مایگریشَن: یہِ لیٚکھِو مَتنَس منٛز یا فارمس منٛز بنٲوِو اَمِیک قدم، یہِ چیک کٔرِو، پَتہٕ کٔرِو یہِ مایگریشَن فولڈَرس منٛز محفوظ۔</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>یہِ مایگریشَن چھُ گۄڈے چلیومُت، تَوے یِیہِ نہٕ دوبارٕ محفوظ کرنہٕ: بَدلاومژِ فایِل کَرِہ چیکسَم گارڈ نامنظور۔ بَدلاو کٔرِو اکِس نَوِس مایگریشَنس منٛز۔</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>ویب سَروَر ہیٚکہِ نہٕ فایِل لیٚکھِتھ۔</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>پیٹھہٕ تبصرٕچ لایِنہٕ چھےٚ ہیڈَر (description, author, requires, environments, engines)۔ ییٚلہِ فارمس منٛز اکھ قدم شٲمِل یا بَدلاونہٕ یِیہِ، مایگریشَن یِیہِ دوبارٕ لیٚکھنہٕ: قدمَن درمیان تبصرٕ روزَن نہٕ۔</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>مایگریشَنُک ناو</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>یہِ کَتیٚن گژھان چھُ</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>سایِٹ</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>YAML مَتن</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>چیک کٔرِو</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>محفوظ کٔرِو</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>مَرحلہٕ</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>کی</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>تَرمیم کٔرِو</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>اوپَر تَرجُم کٔرِو</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>تَل تَرجُم کٔرِو</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>ہٹٲوِو</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>وُنی چھُنہٕ کانٛہہ قدم: فارمہٕ سٟتؠ کٔرِو اکھ شٲمِل، یا لیٚکھِو تِم مَتنَس منٛز۔</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>قدم %number بَدلٲوِو</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>اکھ قدم شٲمِل کٔرِو</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>قدمُک فارم بنان چھُ اَمِکہِ قدمہٕ کِس قِسمہٕ پیٹھہٕ: اَمِچ کی، پرٛتھ اکھ کیا ہیوان چھےٚ تہٕ کَمَن موڈَن منٛز یہِ چھُ۔</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>قدمُک قِسِم</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>اَمِیک فارم وُچھِو</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>قدمس چھےٚ تِژھ کی یِمَن اَمیُک قِسِم زانان چھُنہٕ؛ قدم بَدلاونہٕ وِزِ ترٛاونہٕ یِیَن تِم: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>موڈ</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>منز</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>صِرف %modes منٛز</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>ڈیفالٹ: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>شرٕطہٕ، حوالہٕ تہٕ تبصرٕ</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>ناو=قٕدر جوڑٕ، کاماہَو سٟتؠ الگ کٔرِتھ۔ یَمہِ قدمٕچ قٕدرٕ: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>مِثال</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>قدم بَدلٲوِو</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>قدم شٲمِل کٔرِو</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>exp:migration:check کیا ونان چھُ: ہیڈَر، دستاویز تہٕ پرٛتھ قدم، یُس اَمِکہِ قدمہٕ کِس قِسمہٕ سٟتؠ چیک کرنہٕ آو۔</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>مایگریشَن چھُ چیک پاس کران۔</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>پریویو</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>YAML یِتھہٕ پٲٹھؠ یہِ محفوظ یِیہِ کرنہٕ۔</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>YAML وُچھِو</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>YAML مایگریشَن</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>چلیومُت</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>وُنی چھُنہٕ کانٛہہ YAML مایگریشَن۔</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>اێڈِٹَر</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>مایگریشَن فولڈَرَن منٛز چھُنہٕ کانٛہہ YAML مایگریشَن %id۔</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>قدمُک قِسِم ژارِو۔</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>قدم گوٚو شٲمِل۔ محفوظ کرنہٕ برونٛہہ کٔرِو مایگریشَن چیک۔</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>قدم گوٚو بَدلاونہٕ۔ محفوظ کرنہٕ برونٛہہ کٔرِو مایگریشَن چیک۔</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>اکھ قدم ژارِو۔</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>یَمہِ قدمس چھُنہٕ کانٛہہ فارم (اکھ لوپ، یا قدمُک تِتھ قِسِم یُس یَمہِ انسٹالیشَنس منٛز چھُنہٕ): یہِ بَدلٲوِو مَتنَس منٛز۔</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>ژارِو زِ مایگریشَن کَتیٚن گژھہِ: سایِٹ یا اکھ فعال ایکسٹینشَن۔</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>%file گوٚو محفوظ۔ مایگریشَن چلنہٕ برونٛہہ چلٲوِو آزمٲیشی رَن۔</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>محفوظ گوٚو نہٕ: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>رِموٹٕہ</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>تِم بیٚیہِ انسٹالیشَن یِمَن کُن یہِ پنٕنۍ مایگریشَن ڈِپلائے کران چھُ: ڈِپلائے چھُ مایگریشَن ژٕنمٕتین رِموٹٕہَن سوزان تہٕ تَتہِ چلاوان، سٲری اکی وَقتہٕ تہٕ ہم آہنٛگ. رِموٹَس منٛز چھُ نہٕ زانٛہہ کانٛہہ خُفیہ قٕدر: اَمِچ سَنَد چھےٚ سیٹ اَپ &gt; خُفیہ مَعلوٗمات منٛزٕ اکِچ ناو ہیوان.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>نوٚو رِموٹ</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>مَدَد</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>%id ہُنٛد کنکشَن ٹیسٹ</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>سٲری رِموٹ</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>اکی وَقتہٕ چھُ %parallel رِموٹٕہَن تام پیٚٹھ کام گژھان؛ پرٛتھ اکِس پیٚٹھ ہیٚکہِ اکھ فیز %timeout سیکنڈ نِتھ.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>رِموٹ</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>پَتہٕ</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>سَنَد</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>گروپ</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>ٹھیک کرنہٕ وٲلۍ ترتیبات</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>صرف فایلہٕ (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>SSH کی</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>پاس ورڈ</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>کانٛہہ نہٕ (ہوسٹُک SSH ایجنٹ تہٕ کی)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>کنکشَن آزماوِو</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>گروپَس کُن ڈِپلائے چھُ اَمِکِس پرٛتھ رِموٹَس واتان.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>رِموٹٕہَن کُن ڈِپلائے کٔرِو</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>وُنی چھُ نہٕ کانٛہہ رِموٹ سیٹ اَپ کوٚرمُت.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>رِموٹ %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>یٮ۪تہِ چھُ نہٕ کیٚنہہ سوزنہٕ یا چلاونہٕ یِوان: “محفوظ کٔرِو” چھُ ترتیبات settings/override/migration.ini.append.php منٛز لیکھان. سَنَد چھُ اکھ ناو؛ اَمِچ قٕدر چھےٚ سیٹ اَپ &gt; خُفیہ مَعلوٗمات یا ماحولَس منٛز روزان.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>یِم ترتیبات جانچِو</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>ترتیبات یِتھہٕ دِژمٕتۍ، وُنی محفوظ نہٕ.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>جایزہ</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>ترتیبات چھِ ٹھیک۔ یِم لایِنہٕ یِیَن لیکھنہٕ:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>ٹرانسپورٹ</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>صِرف ناو؛ قیمَت چھےٚ سیٹ اَپ &gt; خُفیہ مَعلوٗمات منٛز روزان</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>تِم لایِنہٕ یِم لیکھنہٕ یِیَن</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>کنکشَن</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>ہوسٹ کی</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. رِموٹ</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>رِموٹُک ناو کیا چھُ تہٕ یہِ کُس ماحول چھُ.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>آیی ڈی</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>حَرف، ہِندسہٕ، - تہٕ _، مِثال: production1. یہِ چھُ رِموٹَس رِپورٹَن منٛز تہٕ کنسولَس پیٚٹھ (--remotes=production1) ناو دِوان تہٕ پَتہٕ ہیٚکہِ نہٕ بَدلِتھ.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... سٹیجَن منٛز ڈِپلائے چھُ ماحولَن یَتھ ترتیبہِ سٕتۍ گژھان.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>اختیٲری، کومَہٕ سٕتۍ الگ، مِثال: production. گروپَس کُن ڈِپلائے چھُ اَمِکِس پرٛتھ رِموٹَس واتان.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. کنکشَن</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>فایلہٕ کِتھ پٲٹھۍ چھِ تَتہِ واتان، تہٕ انسٹالیشَن کَتہِ چھُ.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>SSH ذَریعہٕ، صرف یُس بَدلیوو، ٹوٗٹمُت ٹرانسفَر دوبارٕ شروٗع. ییٚتہِ rsync انسٹال آسہِ، تَتہِ بہتریٖن اِنتِخاب.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>فایلَن خٲطرٕ scp سٕتۍ SSH.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>فایلَن خٲطرٕ sftp سٕتۍ SSH.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>صرف فایلہٕ: مایگریشَن چھِ سوزنہٕ تہٕ واپَس پرنہٕ یِوان، مگر تَتہِ ہیٚکن نہٕ چلِتھ.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>TLS ذَریعہٕ FTP؛ صرف فایلہٕ.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>یَتھ سرورَس پیٚٹھ اکھ بیٚاکھ انسٹالیشَن، اکِس فولڈرَس منٛز.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>ہوسٹ</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>ہوسٹُک ناو یا پَتہٕ، مِثال: node1.example.com. local خٲطرٕ نہٕ.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>پورٹ</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>خالی: SSH خٲطرٕ 22، FTP خٲطرٕ 21.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>صارِف</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>راہ</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>تَتہِ انسٹالیشنُک روٗٹ، مِثال: /var/www/site (FTP خٲطرٕ: سُہ راہ یُس FTP اکاونٹ وُچھان چھُ).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>PHP کمانڈ لاین</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>تَتہِ ہُنٛد PHP CLI: php، یا پوٗرٕ راہ یِتھ کٕنۍ /opt/plesk/php/8.4/bin/php.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>کنسول اِسکرِپٹ چھِ تَتہِ root سٕتۍ چلان</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>صرف ییٚلہِ رِموٹُک صارِف root آسہِ (تیٚلہِ چھِ تِم --allow-root-user سٕتۍ چلان).</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. سَنَد</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>یہِ انسٹالیشَن کِتھ پٲٹھۍ چھُ تَتہِ سائن اِن کران. صرف اکھ ناو چھُ محفوظ گژھان.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>کانٛہہ نہٕ</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>تَتھ صارِفُک SSH ایجنٹ تہٕ کی یَمِہ سٕتۍ یہِ انسٹالیشَن چلان چھُ (تہٕ local خٲطرٕ ہمیشہ).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>خُفیہ مَعلوٗمات کِس صورتَس منٛز محفوظ پرایویٹ کی.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>خُفیہ مَعلوٗمات کِس صورتَس منٛز محفوظ پاس ورڈ (FTP چھُ اَمہِ سٕتۍ سائن اِن کران).</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>خُفیہ مَعلوٗماتُک ناو</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>سیٹ اَپ &gt; خُفیہ مَعلوٗمات منٛزٕ اکھ خُفیہ قٕدر، مِثال: deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>سیٹ اَپ &gt; خُفیہ مَعلوٗمات</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>یا اکھ ماحولُک ویریایبَل</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>سرور پروسیسُک سُہ ویریایبَل یَتھ منٛز یہِ چھُ، مِثال: DEPLOY_KEY (env:DEPLOY_KEY ہِیُو محفوظ). یہِ چھُ خُفیہ مَعلوٗماتُک ناوٕچ جاے ہیوان.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. ہوسٹ کی</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>اختیٲری، SSH، sftp تہٕ rsync خٲطرٕ.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>ہوسٹ کی ہُنٛد فِنگر پرِنٹ</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... یِتھہٕ پٲٹھۍ ssh-keygen -l ہاوان چھُ. اَمہِ سٕتۍ پَزِ ہوسٹَن یہِ کی ہاوٕنۍ؛ اَمہِ وَرٲے چھُ کی گوڈنِکِس رابطَس پیٚٹھ ہیچھنہٕ یِوان.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. جایزہ</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>پیٚٹھِمَن ترتیباتَن سٕتۍ کنکشَن آزماوِو، پَتہٕ کٔرِو تِمن لایَنَن ہُنٛد جایزہ یِم لیکھنہٕ یِن.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>یہِ رِموٹ ہٹٲوِو</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>اَمِچ ترتیبات چھِ settings/override/migration.ini.append.php منٛزٕ کَڈنہٕ یِوان. رِموٹَس پیٚٹھ چھُ نہٕ کیٚنہہ بَدلان، تہٕ اَمِکۍ ڈِپلائے چھِ تٲریٖخس منٛز روزان.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>آ، یہِ رِموٹ ہٹٲوِو</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>ڈِپلائے</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>ڈِپلائے چھُ یَتھ انسٹالیشنُک مایگریشَن ژٕنمٕتین رِموٹٕہَن سوزان تہٕ تِم تَتہِ %user سٕتۍ چلاوان، سٲری اکی وَقتہٕ تہٕ ہم آہنٛگ: گوڈٕ چھُ پرٛتھ رِموٹ چیک گژھان، تہٕ ییٚلہِ اکھ ناکام گژھِ، تیٚلہِ چھُ پرٛتھ سُہ رِموٹ واپَس پھیرنہٕ یِوان یَمۍ یِم لاگوٗ کٔرۍ. یہِ چھُ پَس منظرَس منٛز جٲری روزان، تہٕ اَمِیک صفحہٕ چھُ پرٛتھ رِموٹ ہاوان یوٚت تام یہِ چلان چھُ.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. رِموٹٕہ</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>رِموٹٕہ، اکھ گروپ، یا دۄشوَے کٔرِو ٹِک.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>اَتھ کُن ڈِپلائے کٔرِو</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. کِتھ پٲٹھۍ</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>ڈِپلائے کٔرِو</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>سوزِو تہٕ چلٲوِو</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>مایگریشَن چھِ پرٛتھ رِموٹَس پیٚٹھ سوزنہٕ، جانچنہٕ تہٕ اکہِ مُشترکہ رَن آیی ڈی سٕتۍ چلاونہٕ یِوان.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>صرف ٹرانسفَر</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>فایلہٕ چھِ سوزنہٕ تہٕ جانچنہٕ یِوان، کیٚنہہ چھُ نہٕ چلان (FTP رِموٹ خٲطرٕ واحد طریقہٕ).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>سٹیجَن منٛز</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>ماحولَن ہٕنٛزِ ترتیبہِ سٕتۍ سٹیج پَتہٕ سٹیج (dev, stage, beta, production ...): گوڈنیُک سٹیج چھُ ڈِپلائے گژھان، پَتہٕ چھُ اکھ گیٹ انتظار کران یوٚت تام کانٛہہ اَگلُک منظوٗر کَرِ. پرٛتھ سٹیجَس منٛز سورُے یا کہِنہٕ.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>صرف یِم مایگریشَن</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>اختیٲری: مایگریشَن آیی ڈی، کومَہٕ سٕتۍ الگ. خالی: سایِٹ تہٕ اَمِچَن ایکسٹینشنَن ہُنٛد پرٛتھ مایگریشَن.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>صرف پریفلایٹ</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>آ، وُنی ڈِپلائے کٔرِو</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>تِم ڈِپلائے یِمَو کیٚنہہ سوٗز یا چلوو، نوٚو گوڈٕ (پریفلایٹ چھُ نہٕ کانٛہہ رِپورٹ تھاوان).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>صرف ٹرانسفَر</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>سٹیجَن منٛز، %stages سٹیجہٕ</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>ہم آہنٛگ نہٕ</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>وُنی چھُ نہٕ کانٛہہ ڈِپلائے.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>ڈِپلائے %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>ڈِپلائےُک پرٛتھ رِموٹ پنٕنہِ حالتہِ سٕتۍ. یٮ۪تہِ شروٗع کوٚرمُت ڈِپلائے چھُ پَس منظرَس منٛز جٲری روزان ییٚلہِ یہِ صفحہٕ بَنٛد گژھِ؛ اَمِیک پَتہٕ لگاونہٕ خٲطرٕ کھولِو صفحہٕ دوبارٕ.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>سٲری ڈِپلائے</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>پریفلایٹ</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>اَگلہٕ سٹیج</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>ترتیبات تہٕ سَنَد چیک کران</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>پریفلایٹ: پرٛتھ رِموٹُک حالَت پران</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>مایگریشَن فایلہٕ سوزان</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>یُس واتیوو، سُہ جانچان</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>پرٛتھ رِموٹَس پیٚٹھ مایگریشَن چلان</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>رِموٹٕہ واپَس پھیران</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>ڈِپلائے گوو ختم. اَمِچ رِپورٹ لوڈ گژھان.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>پیش رَفتُک پَتہٕ ہیوٚک نہٕ لٔگِتھ. ڈِپلائےچ صورتحال وُچھنہٕ خٲطرٕ کٔرِو صفحہٕ دوبارٕ لوڈ.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>فیز</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>یہِ صفحہٕ چھُ ڈِپلائےچ پیش رَفتُک پَتہٕ لگاوان.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>ہم آہنٛگ</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>سٹیجہٕ</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>سٹیج %stage چھُ پنٕنِس گیٹَس پیٚٹھ انتظار کران</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>گیٹ %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>%user ہِندِ دٔسۍ %time پیٚٹھ منظوٗر</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>سٹیج</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>سوزنہٕ آمژٕ فایلہٕ</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>کَرنَل وَرژَن</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>لاگوٗ: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>لاگوٗ کرنہٕ خٲطرٕ: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>فیزٕ</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>گیٹ: %stages منٛزٕ سٹیج %stage</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>اَمہِ برونٛہِمۍ سٹیجہٕ چھِ ڈِپلائے. تِم کٔرِو چیک، پَتہٕ کٔرِو اَگلُک سٹیج منظوٗر: اَمِکۍ رِموٹ چھِ دوبارٕ چیک تہٕ ڈِپلائے گژھان، سورُے یا کہِنہٕ.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>اَگلہٕ</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>آ، اَگلُک سٹیج وُنی ڈِپلائے کٔرِو</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>منظوٗر کٔرِو</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>یہِ ڈِپلائے واپَس پھیٖرِو</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>پرٛتھ سُہ رِموٹ یَمۍ یہِ لاگوٗ کوٚر (%list) چھُ پنٕنِس رَنہٕ برونٛہہ ہیوٚتمٕتِس کیپشنَس کُن واپَس گژھان، سٲری اکی وَقتہٕ.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>آ، یہِ ڈِپلائے وُنی واپَس پھیٖرِو</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>منصوبہٕ بنٛد</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>ٹرانسفَر گوو</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>ڈِپلائے گوو</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>گیٹَس پیٚٹھ انتظار کران</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>ژُنمُت</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>تَیار کوٚرمُت</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>تَیار</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>پنٕنِس سٹیجَس انتظار کران</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>فایلہٕ سوزمٕژ</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>جانچمُت</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>ناکام، پانَے بَحال گوو</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>بَدلیومُت نہٕ</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>ڈِپلائے نہٕ گومُت</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>واتنہٕ یِوان نہٕ</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>رِموٹَن دیُت جواب.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>رِموٹ ہیٚکہِ نہٕ وُنی استعمال گٔژھِتھ.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done مُکَمَل، %pending زیٖر غور، %failed ناکام</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>لاک</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>تَتہِ چھُ اکھ رَن لاک تھاوان</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>خالی</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stages منٛزٕ %stage</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>آزماونہٕ خٲطرٕ رِموٹ ژارِو.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>گوڈٕ کٔرِو “آ، یہِ رِموٹ ہٹٲوِو” ٹِک.</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>رِموٹ ہیوٚک نہٕ ہٹٲوِتھ: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>رِموٹ ہیوٚک نہٕ محفوظ گٔژھِتھ: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>ترتیبات فایِل ہیٚکہِ نہٕ پٔرِتھ: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>کَم از کَم اکھ رِموٹ یا گروپ ژارِو.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>اکھ ژٕنمُت رِموٹ چھُ نہٕ وُنی ترتیباتَن منٛز. صفحہٕ کٔرِو دوبارٕ لوڈ.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>گوڈٕ کٔرِو “آ، وُنی ڈِپلائے کٔرِو” ٹِک.</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>FTP رِموٹ ہیٚکہِ نہٕ مایگریشَن چلٲوِتھ: “صرف ٹرانسفَر” ژارِو، یا یہِ ترٛٲوِو.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>ڈِپلائے کرنہٕ وٲلۍ مایگریشَن چھِ مایگریشَن آیی ڈی، کومَہٕ سٕتۍ الگ.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>ڈِپلائے چھُ وُنی جٲری. اَمِس ختم گژھنَس تام کٔرِو انتظار.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>یہِ ڈِپلائے چھُ نہٕ کانٛہہ گیٹَس پیٚٹھ انتظار کران.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>کانٛہہ رِموٹ کوٚر نہٕ یہِ ڈِپلائے لاگوٗ: واپَس پھیرنہٕ خٲطرٕ چھُ نہٕ کیٚنہہ.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>گوڈٕ کٔرِو “آ، اَگلُک سٹیج وُنی ڈِپلائے کٔرِو” ٹِک.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>گوڈٕ کٔرِو “آ، یہِ ڈِپلائے وُنی واپَس پھیٖرِو” ٹِک.</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>آیی ڈی %id وول رِموٹ چھُ برونٛہہ پٮ۪ٹھۍ موجوٗد.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>پورٹ چھُ 1 پیٚٹھٕ 65535 تام اکھ نَمبَر.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>ماحول چھُ حَرفَو، ہِندسَو، - تہٕ _ سٕتۍ بنیومُت لَفظ (alpha, dev, stage, beta, production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>گروپ چھُ حَرفَو، ہِندسَو، - تہٕ _ سٕتۍ بنیومُت لَفظ (all نہٕ): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>سَنَد ہیٚکہِ نہٕ وُنی پٔرِتھ: %problem. گوڈنِکِس ڈِپلائےس برونٛہہ کٔرِو یہِ سیٹ اَپ &gt; خُفیہ مَعلوٗمات منٛز محفوظ (یا ویریایبَل سیٹ کٔرِو).</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>FTP رِموٹ چھُ صرف فایلہٕ حٲصِل کران: اَتھ کُن ڈِپلائے چھُ “صرف ٹرانسفَر”، تہٕ اَمِکۍ مایگریشَن چھِ تَتہِ اَتھہٕ سٕتۍ چلاونہٕ یِوان.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>رِموٹ %id چھُ نہٕ settings/override/migration.ini.append.php منٛز؛ ییٚتہِ یہِ سیٹ چھُ، تَتہِ ہٹٲوِو.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>FTP ذَریعہٕ سائن اِن کوٚر تہٕ index.php پوٚر. FTP رِموٹُک مایگریشَن حالَت ہیٚکہِ نہٕ پٔرِتھ.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>تَرمیم شُدٕہ</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>بناونہٕ آمُت</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>ناو</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>کلاس</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>سیکشَن</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>بناونہٕ وول</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>نَوِ مَواد</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>پوٗرٕ سایِٹُک نَوِ بناونہٕ آمُت تہٕ تَرمیم شُدٕہ مَواد، نَو گۄڈٕ: یُس وُچھن والیو سوٗزُس، یُس جایزٕ خٲطرٕ رُکاونہٕ آمُت چھُ، تہٕ شایع گژھنُک انتظار کران مَسوٗدٕ. آیِٹَم ژٔنِو تاکہ تِم آزاد کٔرِو، رُکٲوِو، چھُپٲوِو، ظاہِر کٔرِو، ہٹٲوِو یا بیٚیِس سیکشَنَس یا حالتس منز تَرجُم کٔرِو.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>فہرست ہیٚچ نہٕ پٔرِتھ: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>جایزٕ خٲطرٕ روک چھےٚ نہٕ وُنی ترتیب دِنہٕ آمٕژ، امِ موجوب چھُ نہٕ کیٚنہہ رُکاونہٕ یِوان تہٕ رُکاونٕچ عَمَل چھِ نہٕ پیش یِوان کرنہٕ. اَپ گریڈ قدم 6.0.15-review-hold چھُ یہِ ترتیب دِوان: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>فہرست فِلٹَر کٔرِو</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>پیٹھ</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>تام</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>تٲریٖخ</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>بناونہٕ آمُت (گۄڈنیُک اشاعت)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>سٲرِنی</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>صورتحال</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>شایع کرنہٕ آمُت</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>مَسوٗدہٕ، زانٛہہ نہٕ شایع گوٚمُت</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>زیٖر غور (منظوٗری یا کُنہِ تٲریٖخُک انتظار)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>ردی منز</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>جایزٕ خٲطرٕ رُکاونہٕ آمُت</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>رُکاونہٕ آمُت</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>نہٕ رُکاونہٕ آمُت</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>چھُپیمُت</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>ظاہِر</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>سوزنٕچ تٲریٖخ</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>کانٛہہ تہِ سایِٹ ایکسیس</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>صرف تِہٕ یُس آڈٹن درج کوٚر.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>وۄنی: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>لاگ اِن ناو یا یوزَر آیِ ڈی.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>فِلٹَر</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>فِلٹَر صاف کٔرِو</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>آیِٹَم</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%count منزٕ %from پیٹھ %to تام</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>کانٛہہ آیِٹَم نہٕ</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(%ms مِلی سیکنڈَن منز پٔرِتھ)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>ژارنہٕ آمتیٚن آیِٹمَن پیٹھ عَمَل</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>یَتھ صفحس پیٹھ سٲرِنی ژُنِو</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>%count ژارنہٕ آمٕتی</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>عَمَل</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>اَکھ عَمَل ژٔنِو</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>روک ہٹٲوِو</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>جایزٕ خٲطرٕ رُکٲوِو</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>چھُپٲوِو</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>ظاہِر کٔرِو</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>ردی منز تَرجُم کٔرِو</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>مٹٲوِو</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>سیکشَن تَفویض کٔرِو</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>حالَت تَفویض کٔرِو</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>وجہ</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>رُکاونہٕ خٲطرٕ ضروٗری؛ روکس سٕتۍ تہٕ آڈٹس منز تھاونہٕ یِوان.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>اَکھ سیکشَن ژٔنِو</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>حالَت</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>اَکھ حالَت ژٔنِو</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>ژارنہٕ آمتیٚن پیٹھ لاگوٗ کٔرِو</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>پرٛتھ آیِٹَم چھُ تُہٕنٛدِ پننِ اجازتہٕ مُطٲبِق جانچنہٕ یِوان. ردی منز تَرجُم کرنس تہٕ مٹاونس برونٛہہ چھُ تُہہِ نِشہِ تصدیق مَنگنہٕ یِوان. %count کھوتہٕ زیادٕ آیِٹَم چھِ پَتہٕ کِنہِ چلان.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>ژٔنِو</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>اشاعت</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>یَتہِ پیٹھ سوٗزمُت</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>%name ژٔنِو</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>وُنی نہٕ</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(بِنا ناو)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>آیِ ڈی %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>مَسوٗدہٕ</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>زیٖر غور</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>پننِ والدٕ کِنہِ چھُپیمُت</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>رُکاونہٕ آمُت: نٔو سوز</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>ؤرژَن %version زیٖر غور</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>ؤرژَن %version پیٹھ کٲم جٲری</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>مَسوٗدہٕ، ؤرژَن %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>ؤرژَن %version شایع گوٚو</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>%date خٲطرٕ مُقرَر</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>کانٛہہ پَتہٕ نہٕ</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>درج نہٕ</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>یِمَن فِلٹرَن سٕتۍ چھُ نہٕ کیٚنہہ مِلان.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>سٲرِنی ہاوِو</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>وُنی چھُ نہٕ کانٛہہ مَواد.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>فی صفحہ</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>فی صفحہ %count آیِٹَم ہاوِو.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says "not recorded".</source>
+        <translation>کُنہِ سوزُک پَتہٕ تہٕ براوزَر چھِ آڈٹ اِنڈیکسہٕ پیٹھٕ یِوان، یُس یَتہِ دستیاب چھُ نہٕ: کالمس منز چھُ "درج نہٕ" لیوٚکھمُت.</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>پَتہٕ تہٕ براوزَر چھِ تِمے یِم آڈٹن یَتھ آیِٹمس خٲطرٕ درج کٔری (خودکار روک چھےٚ تِم ہمیشہ درج کران؛ اشاعت تہٕ بناوُن صرف یَتہِ فعال آسہِ)، یِتھہٕ پٲٹھۍ امیٚک رازداری ترتیب تِم تھاوان چھِ.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: %count آیِٹَم</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>مٹاونہٕ سٕتۍ چھِ آیِٹَم پننیٚن سٲرِنی ؤرژنَن تہٕ ترجمَن سمیت ہمیشہ خٲطرٕ ہٹاونہٕ یِوان. یہِ ہیٚکہِ نہٕ واپس گٔژھِتھ.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>آیِٹَم چھِ ردی منز گژھان، یَتہِ پیٹھٕ تِم بحال ہیٚکن کرنہٕ یِتھ.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>پرٛتھ آیِٹَم چھُ تُہٕنٛدِ پننِ اجازتہٕ مُطٲبِق جانچنہٕ یِوان؛ یَتھ آیِٹمس ذیلی آیِٹَم آسن سُہ چھُ یِتھے پٲٹھۍ روزان (سُہ ہٹٲوِو مَواد ڈھانچَس منز). تُہہِ ونہٕ یِیہِ تصدیق کرنہٕ خٲطرٕ زِ یہِ چھِو تۄہۍ.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>یہِ چھُ پَتہٕ کِنہِ چلان: امیٚک پیش رفتُک صفحہ چھُ کھُلان، تہٕ مُکَمَل گژھنہٕ پَتہٕ چھُ پرٛتھ آیِٹمُک نتیجہ ہاونہٕ یِوان.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>ژارنہٕ آمٕتی آیِٹَم</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>تہٕ %count بیٚیہِ</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>منسوٗخ کٔرِو</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>کیٚنہہ نہٕ کرنہٕ آمُت</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>وجہ: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>عَمَل چھُ وُنی تہِ پَتہٕ کِنہِ چلان.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>امیٚک پیش رفت</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>پَتہٕ کِنہِ عَمَل گوٚو ناکام: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>مُکَمَل</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>رد کوٚرمُت</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>ناکام</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>پرٛتھ آیِٹَم</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>آیِٹَم</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>نتیجہ</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>کیازِ</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>فہرستس پیٹھ واپس</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>سیٹ اَپ</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>کیٚنہہ نہٕ کوٚرمُت</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>تصدیق کٔرِو</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>اَکھ عَمَل ژٔنِو.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>کَم از کَم اَکھ آیِٹَم ژٔنِو.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>اَکِ وَقتہٕ زیادٕ کھوتہٕ زیادٕ 1000 آیِٹَم ژٔنِو.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>ؤنِو زِ آیِٹَم کیازِ چھِ رُکاونہٕ آمٕتی.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>سیکشَن ژٔنِو.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>حالَت ژٔنِو.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>فارَم ہیوٚک نہٕ پٔرِتھ.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>ڈیش بورڈ</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>نَوِ مَواد</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>گَنتی ہیٚچ نہٕ پٔرِتھ: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>جایزٕ خٲطرٕ رُکاونہٕ آمٕتی</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>اَز نٔوی</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>جایزٕ خٲطرٕ روک چھےٚ نہٕ وُنی ترتیب دِنہٕ آمٕژ (اَپ گریڈ قدم 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>سورُے نَوِ مَواد</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>تُہہِ چھےٚ نہٕ نِگرانی ہٕنٛدۍ عَمَل چلاونٕچ اجازت (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>نِگرانی ہُند عَمَل چھُ نہٕ مُکَمَل: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>نِگرانی: %count آبجیکٹَن پیٹھ %action</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%total منزٕ %done آبجیکٹ: %ok مُکَمَل، %refused رد، %failed ناکام</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok مُکَمَل، %refused رد، %failed ناکام</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>یہِ چھُ نہٕ وۄنی موجوٗد.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>امیٚک چھُ نہٕ کانٛہہ مقام (شایع نہٕ گوٚمُت).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>تُہہِ چھےٚ نہٕ یہِ چھُپاونٕچ اجازت (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>تُہہِ چھےٚ نہٕ یہِ ظاہِر کرنٕچ اجازت (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>یہِ چھُ گۄڈے چھُپیمُت.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>یہِ چھُ نہٕ چھُپیمُت.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>چھُپاونہٕ آو.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>ظاہِر کرنہٕ آو.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>یہِ چھُ ردی منز: تَتھے کٔرِو خٲلی یا بحال.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>یُس مَسوٗدہٕ زانٛہہ شایع گوٚو نہٕ، سُہ ہیٚکہِ نہٕ ردی منز گٔژھِتھ: سُہ مٹٲوِو.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>تُہہِ چھےٚ نہٕ یہِ مٹاونٕچ اجازت (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>مٹاونہٕ آو.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>تُہہِ چھےٚ نہٕ یہِ ہٹاونٕچ اجازت (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>امِس چھِ ذیلی آیِٹَم: یہِ ہٹٲوِو مَواد ڈھانچَس منز، یَتہِ تِم درج چھِ.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>یہِ آو نہٕ ہٹاونہٕ (مُمکِن چھُ کانٛہہ ورک فلو آسہِ ہٹاوُن رُکٲوِتھ).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>ردی منز تَرجُم کرنہٕ آو.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>سیکشَن چھُ نہٕ موجوٗد.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>یہِ چھُ گۄڈے یَتھ سیکشَنَس منز.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>تُہہِ چھےٚ نہٕ یہِ سیکشَن تَفویض کرنٕچ اجازت (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>سیکشَن آو نہٕ تَفویض کرنہٕ.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>سیکشَن آو تَفویض کرنہٕ.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>حالَت چھےٚ نہٕ موجوٗد.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>یہِ چھُ گۄڈے یَتھ حالتس منز.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>تُہہِ چھےٚ نہٕ یہِ حالَت تَفویض کرنٕچ اجازت (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>حالَت آیہِ نہٕ تَفویض کرنہٕ (مُمکِن چھُ کانٛہہ ورک فلو آسہِ تبدیلی رُکٲوِتھ).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>حالَت آیہِ تَفویض کرنہٕ.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>تِتھ کانٛہہ عَمَل چھُ نہٕ.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>جایزٕ خٲطرٕ روک چھےٚ نہٕ ترتیب دِنہٕ آمٕژ (اَپ گریڈ قدم 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>ؤنِو زِ یہِ کیازِ چھُ رُکاونہٕ آمُت.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>یہِ چھُ گۄڈے رُکاونہٕ آمُت.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>تُہہِ چھےٚ نہٕ یہِ رُکاونٕچ اجازت (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>روک آیہِ نہٕ لاگنہٕ (مُمکِن چھُ کانٛہہ ورک فلو آسہِ تبدیلی رُکٲوِتھ).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>رُکاونہٕ آو.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>یہِ چھُ نہٕ رُکاونہٕ آمُت.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>تُہہِ چھےٚ نہٕ یہِ آزاد کرنٕچ اجازت (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>روک آیہِ نہٕ ہٹاونہٕ (مُمکِن چھُ کانٛہہ ورک فلو آسہِ تبدیلی رُکٲوِتھ).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>آزاد کرنہٕ آو؛ وُنی تہِ چھُپیمُت: تُہہِ چھےٚ نہٕ یہِ ظاہِر کرنٕچ اجازت (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>آزاد کرنہٕ آو.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>سٲرۍ ہَدَف</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>آخری اِشاعت</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>پَنٕنہِ سایِٹ ہُنٛد سٹیٹِک نَقل GitHub Pages پیٹھ مُفتہٕ شایع کٔرِو:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>پرانۍ صَفحہٕ</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>سٹیٹِک اِشاعت</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>سٹیٹِک اِشاعت چھیہ بنٛد۔</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>ہَدَف</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>ہَدَف ہیٚکہِ نہٕ پٔرِتھ: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>اکھ کٲم چھےٚ چلان</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>جانچنہٕ خاطرٕ بِلڈ</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>یہ چھُپٲوِو</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>ہَدَف بناوِو</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>زانٛہہ نہ</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>ٹیوٹوریَل پٔرِو</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>%added شامِل، %changed بَدلیٚمٕتۍ، %removed ہٹاونہٕ آمتۍ</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%limit منٛزٕ %bytes (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>%count بییٚیہِ چھِ نہٕ فِہرِستس منٛز۔</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>%pages صَفحہٕ لیکھنہٕ آمتۍ</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path چھُ %size، یُس ہوسٹ اَکِس فایِلس خاطرٕ اِجازَت دِوان چھُ تَمہِ کھوتہٕ زیادٕ۔</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>حَدٕچ %percent %</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds سیکنڈ</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag چھےٚ سُہ اِشاعت یُس سایِٹس اَز چھُ۔</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: کٲم %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>GitHub پروجیکٹ سایِٹ خاطرٕ /repository/؛ اَپنہِ ڈومینَس یا یوزَر سایِٹ خاطرٕ خالی۔</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. سایِٹ</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. ہوسٹ</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. رِپازِٹری منٛز سایِن اِن</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. رِپازِٹری</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. لِنک تہٕ بیس پاتھ</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. توٚہنٛد پَنُن ڈومین</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. بِلڈس منٛز کیا چھُ</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. کَر چھُ شایع گژھان</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. جانچِو تہٕ محفوظ کٔرِو</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>GitHub پروجیکٹ سایِٹ چھےٚ /&lt;repository&gt;/ تَل آسان؛ رِشتہٕ دار لِنک چھِ تَتہِ تہٕ بییٚتہِ جایہِ تہِ کٲم کران۔</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>بِلڈ چھُ %site ہُنٛد پرٛتھ صَفحہ تِتھہٕ پٲٹھۍ اَنان یِتھہٕ پٲٹھۍ سایِن اِن نہٕ کوٚرمُت مہمان وُچھان چھُ، لِنک دوبارٕ لیکھان، فایِلہٕ نَقل کران تہٕ نَتیجہ ہَدَفٕکِس فولڈَرس منٛز لیکھان۔ ییٚلہِ تام توٚہہ بِلڈ جانچِتھ شایع کٔرِو دَبٲوِو، کہِنہٕ چھُ نہٕ شایع گژھان۔</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>اکھ cron اِظہار، مِثالے 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>ڈِپلائے کی چھےٚ خُفیہ %secret کِس صورتس منٛز رَٹنہٕ آمٕژ۔</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>ڈِپلائے کی چھےٚ یَتھ اِنسٹالیشَنَس SSH ذٔریعہٕ صِرف اَکِس رِپازِٹری منٛز پُش کرنُک اِجازَت دِوان، بییٚتہِ نہٕ کُنہِ۔ تَمِچ نِجی حِصہ چھُ سیٹ اَپ &gt; خُفیہ مَعلوٗمات منٛز روزان؛ صِرف عام حِصہ چھُ ہاونہٕ یِوان۔</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>یَتھ ہَدَفس خاطرٕ بنَومٕژ ڈِپلائے کی</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>ڈِپلائے کی چھےٚ SSH ذٔریعہٕ سایِن اِن کران: git پَتہٕ بَدلٲوِو SSH پَتس (git@github.com:owner/repo.git)۔</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>اکھ کٲم چھےٚ چلان، %user ین کٔر شُروٗع</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>یَمہِ ہَدَفٕچ اکھ کٲم چھےٚ وُنہِ چلان (%detail)۔ تَمہِ ختم گژھنَس تام پرٛارِو۔</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>یَمہِ ہَدَفٕچ اکھ کٲم چھےٚ وُنہِ چلان۔ تَمہِ ختم گژھنَس تام پرٛارِو۔</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>صَفحہ /news/ پیٹھٕ صَفحہ /about-us/team تام لِنک یِیہ یِتھہٕ پٲٹھۍ لیکھنہٕ</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>اکھ نٔو ڈِپلائے کی آیہِ بناونہٕ۔ تَمِچ عام حِصہ اَز رِپازِٹری منٛز شامِل کٔرِو۔</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>صاف کرنہٕ پَتہٕ تہِ ییٚمِس صَفحس منٛز ڈیبگ آوٹ پُٹ، فارم ٹوکَن یا سیشَن آیی ڈی روزِ، سُہ چھُ نہٕ زانٛہہ شایع گژھان۔</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>واپسی چھےٚ ماہِرَن خاطرٕ: &quot;مےٚ چھُ پَتہٕ یہ کیا بَدلاوان چھُ&quot; نِشانہٕ کٔرِو تہٕ ٹیگ ہُنٛد ناو دوبارٕ ٹایپ کٔرِو۔</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>سایِٹ ہیٚکہِ %site تام، اکھ فایِل %file تام آسِتھ، رٕتس منٛز لَگ بَگ 100 GB ٹریفِک سان۔ مُفت پلانَس منٛز گَژھہِ رِپازِٹری عام آسٕنۍ۔ GitHub Pages چھُ نہٕ دُکانَن یا بییٚن تِجارتی لین دینَن خاطرٕ۔</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>ہَدَف چھُ اکھ سایِٹ یُس اَکِس git رِپازِٹری منٛز شایع گژھان چھُ۔ ییٚتہِ چھُ نہٕ کہِنہٕ بِلڈ یا شایع گژھان: محفوظ کٔرِو چھُ ترتیبات settings/override/staticcache.ini.append.php منٛز لیکھان۔</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>ہَدَف چھُ اکھ سایِٹ یُس اَکِس جایہِ شایع گژھان چھُ، مِثالے توٚہنٛز عام سایِٹ GitHub Pages پیٹھ۔</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>سیٹ اَپ &gt; خُفیہ مَعلوٗمات پیٹھٕ اکھ ٹوکَن</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>رِپازِٹری ہُنٛد اکھ ورک فلو چھُ یہ شایع کران۔</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>یہ عام کی رِپازِٹری منٛز لیکھنُک اِجازَت سان شامِل کٔرِو۔ GitHub: Settings &gt; Deploy keys &gt; Add deploy key، Allow write access نِشانہٕ کٔرِو۔</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>شامِل کوٚرمُت</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>بییٚکھ git ہوسٹ</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>بییٚکھ عَمَل چھُ یَتھ ہَدَفس پیٹھ کٲم کران: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>واپَس</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>بیس پاتھ</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>برونٛہہ</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>بیس پاتھ تَل</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>برانچ</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>ژٔٹۍ لِنک</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>بِلڈس منٛز ژٔٹۍ لِنک</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>بِلڈ</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>%user سُنٛد بِلڈ %id</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>%name بِلڈ کٔرِو</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>اَز بِلڈ کٔرِو</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>جانچنہٕ خاطرٕ بِلڈ</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>کٔمۍ</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>اَتھٕ سان، ییٚتہِ</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>منسوٗخ کٔرِو</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>بَدلٲوِو</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>بَدلیوٚمُت</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>تَبدیٖلیہِ</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>گوڈٕ جانچِو</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>یِم ترتیبات جانچِو</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>جانچِو بِلڈ کیا بَدلاوان چھُ، یہ وُچھِو، پَتہٕ شایع کٔرِو یا ترٛٲوِو۔</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>تِم اِشاعت ژارِو یَتھ واپَس گژھُن چھُ۔</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>پَتہٕ کِس رِلیزَس منٛز یِیہ۔</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>کمِٹ</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>کمِٹ</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>بِلڈ کمِٹ کران، ٹیگ دِوان تہٕ %remote پیٹھ پُش کران۔ پُش چھُ نہٕ زانٛہہ زَبَردَستی؛ توٚہہ ہیٚکِو پَتہٕ کُنہِ تہِ اِشاعتس واپَس گٔژِتھ۔</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>برونٛہِم فولڈَرس سان مُقابلہ: %added شامِل، %changed بَدلیٚمٕتۍ، %removed ہٹاونہٕ آمتۍ، %unchanged بےٚ بَدل۔</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>آخری اِشاعتس سان مُقابلہ۔</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>سَنَد</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>اَپنُن ڈومین</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>ڈیبگ آوٹ پُٹ، فارم ٹوکَن، سیشَن آیی ڈی تہٕ nonce چھِ ہمیشہ ہٹاونہٕ یِوان۔</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>ڈِپلائے کی</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>%name ہٕنز ڈِپلائے کی</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>ترٛٲوِو</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>بِلڈ ترٛٲوِو</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>ڈومین</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>خالی: سایِٹ ہُنٛد پَتہٕ۔ نَتہٕ تَتھے سایِٹ ہُنٛد اَندرونی پَتہٕ۔</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>ختم</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>پرٛتھ لِنک چھُ بیس پاتھ سان شُروٗع گژھان۔</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>پرٛتھ اِشاعت چھےٚ اکھ کمِٹ ٹیگ static/%id/&lt;n&gt; سان۔ واپَس گژھنہٕ سان چھُ برونٛہِمہِ اِشاعتُک فایِلَن سان نٔو کمِٹ بَنان: تاریخ چھےٚ روزان، کانٛہہ ٹیگ چھُ نہٕ ہِلان تہٕ کہِنہٕ چھُ نہٕ زَبَردَستی گژھان۔</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>اِضافی فایِلہٕ</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>صَفحہٕ یَتہِ اَنِو</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>فایِل</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>فایِلہٕ</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>غٲر حاضِر فایِلہٕ</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>یَمِچ فایِلہٕ</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>تِم فایِلہٕ یِم نہٕ جَمع ہیٚکہِ کٔرِتھ</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>فِنگَر پرِنٹ</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>فولڈَر</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>SSH پَتس خاطرٕ۔ کی چھےٚ محفوظ کرنہٕ پَتہٕ بَنان؛ تَمِچ عام حِصہ کٔرِو توٚہہ رِپازِٹری منٛز شامِل۔</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>https:// پَتس خاطرٕ۔ GitHub: اکھ fine-grained ٹوکَن یَتھ رِپازِٹری پیٹھ Contents پَرنُک تہٕ لیکھنُک اِجازَت آسہِ۔</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>ماہِرَن خاطرٕ۔ پُش مُکمَل گژھتےٚ چھےٚ عام سایِٹ بَدلان۔</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>فارم</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>GitHub رِپازِٹری پیٹھٕ مُفت ہوسٹِنگ۔</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>برانچہِ پیٹھٕ</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>Git پَتہٕ</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages چھُ %site سایِٹ تہٕ %file فایِلُک اِجازَت دِوان۔</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>GitHub Pages ہٕنز حَد</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages چھُ فایِلہٕ یِتھہٕ پٲٹھۍ چھےٚ تِتھے شایع کران (_ سان شُروٗع گژھن وٲلۍ فایِلَن خاطرٕ ضروٗری)۔</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub چھُ برانچ تِتھے دِوان یِتھ پُش کرنہٕ آمٕژ چھےٚ۔ ڈیفالٹ۔</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab، Gitea، توٚہنٛد پَنُن سَروَر: کانٛہہ تہِ git رِپازِٹری۔</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>برونٛہِمہِ اِشاعتس واپَس گٔژِو</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>مَدَد</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>وِزرڈس منٛز مَدَد</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>یِم چھُپٲوِو</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>تاریخ</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>%name ہٕنز تاریخ</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>ہوسٹ</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>GitHub Pages کِتھہٕ پٲٹھۍ چھُ بِلڈ حٲصِل کران</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>مےٚ چھےٚ تَبدیٖلیہِ جانچمٕژ</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>مےٚ چھُ پَتہٕ یہ کیا بَدلاوان چھُ</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>آیی ڈی</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>یہ چھُ بنٛد: ییٚلہِ تام یہ وَلہِ نہٕ، کہِنہٕ ہیٚکہِ نہٕ بِلڈ گٔژِتھ۔</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>یہ چھُ پَس مَنظرس منٛز %user بَنِتھ چلان؛ توٚہہ ہیٚکِو یہ صَفحہ بنٛد کٔرِتھ۔</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>کٲم %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>خُفیہ %secret کِس صورتس منٛز رَٹنہٕ آمُت۔</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>قِسم</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>آخری اِشاعت</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>یِم صَفحہٕ ترٛٲوِو</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>یِم سیکشَن ترٛٲوِو</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>لِنک</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>دوبارٕ لیکھنہٕ آمتۍ لِنک</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>لایِو سایِٹ</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>بِلڈ وُچھِو</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>لۄکٕٹۍ حَرف، ہِندسہٕ، _ تہٕ -، مِثالے github-public۔ یہ چھُ فولڈَرَس تہٕ ٹیگَن (static/&lt;id&gt;/&lt;n&gt;) ناو دِوان تہٕ پَتہٕ ہیٚکہِ نہٕ بَدلٲوِتھ۔</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>نٔو کی بناوِو</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>ہَدَف بناوِو</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>کی بناوِو</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>گوڈٕ ہوسٹس پیٹھ رِپازِٹری بناوِو؛ خالی تہِ چھےٚ ٹھیک۔</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>مینیفیسٹ</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>پَیغام</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>زیادٕ تر صَفحہٕ</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>ناو</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>سیٹ اَپ &gt; خُفیہ مَعلوٗمات منٛز ٹوکَنُک ناو</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>نٔو ہَدَف</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>اَگلہٕ</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>نہ</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>وُنی چھُ نہٕ کانٛہہ کمِٹ۔</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>کانٛہہ کی آیہِ نہٕ بناونہٕ: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>php کمانڈ لایِن بائنری آیہِ نہٕ لَبنہٕ۔ migration.ini [AdminSettings] PhpCliPath تَمِچ پوٗرٕ پاتھ پیٹھ سیٹ کٔرِو۔</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>وُنی چھُ نہٕ کانٛہہ ٹیگ۔</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>وُنی چھُ نہٕ کانٛہہ ہَدَف۔</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>کانٛہہ نہ</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>بِلڈس منٛز نہٕ۔</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>وُنی آو نہٕ کہِنہٕ شایع کرنہٕ۔</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>وُنی آو نہٕ کہِنہٕ شایع کرنہٕ: پرٛتھ فایِل چھےٚ نٔو۔</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>اِطلاع دِیِو</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>شیڈیول پیٹھ</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>کنسول پیٹھ</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>سَروَرس پیٹھ: ./console exp:static:serve %id چھُ یہ تِتھے پٲٹھۍ دِوان۔</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>پرٛتھ لایِنہِ منٛز اکھ پاتھ، * چھُ کُنہِ تہِ حِصس سان مِلان: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>ہَدَفس سان چھُ صِرف ناو محفوظ گژھان؛ ٹوکَن یا کی پانہٕ چھُ سیٹ اَپ &gt; خُفیہ مَعلوٗمات منٛز روزان تہٕ زانٛہہ چھُ نہٕ لاگس منٛز بوزنہٕ یِوان۔</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>صِرف یُس صَفحہٕ ناو ہیٚوان چھِ</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>صِرف ٹوکَنس سان۔ env:NAME چھُ بَدلہٕ سَروَرٕ ہُنٛد ماحول ویریئیبل پران۔</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>پریویو کھولِو</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>بِلڈ چھُ ہَدَفٕکِس فولڈَرس منٛزٕ تِتھے کھولان یِتھہٕ پٲٹھۍ ہوسٹ دِیہِ۔ لِنک چھُ توٚہہ خاطرٕ اکھ گَنٛٹہٕ کٲم کران۔</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>اِختیٲری۔ خالی: یُس شایع آو کرنہٕ۔</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>اِختیٲری۔ ڈومینَس سان چھےٚ سایِٹ تَمِچ رۄٹ پیٹھ دِنہٕ یِوان۔</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>آوٹ پُٹ</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>صَفحہٕ</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>ہَدَفٕکۍ صَفحہٕ</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>رَد کرنہٕ آمتۍ صَفحہٕ</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>پَتہٕ کِنۍ عَمَل</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>پریویو</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>پریویو تہٕ اِشاعت</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>%name ہُنٛد پریویو تہٕ اِشاعت</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>بِلڈُک پریویو</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>پیش رفت</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>عام پَتہٕ</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>عام کی</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>شایع کٔرِو</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>سایِٹ ہُنٛد سٹیٹِک نَقل GitHub Pages یا کُنہِ تہِ git ہوسٹَس پیٹھ شایع کٔرِو: بِلڈ کٔرِو، تَبدیٖلیہِ جانچِو، شایع کٔرِو، تہٕ ضروٗرتَس پیٹھ برونٛہِمہِ اِشاعتس واپَس گٔژِو۔</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>واپَس گژھنہٕ خاطرٕ اِشاعت</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>اِشاعتہٕ</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>پُش</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>ٹیوٹوریَل پٔرِو</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>رِکارڈ</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>رَد کوٚرمُت</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>رِشتہٕ دار</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>دوبارٕ لوڈ کٔرِو</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>ہٹاونہٕ آمُت</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>کی بَدلٲوِو: پرٲنۍ کی کٔرِ نہٕ کٲم</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>رِپورٹ</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>بِلڈٕچ رِپورٹ</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>رِپازِٹری</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>جانچ</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>جانچ چھےٚ پرٛتھ ترتیب جانچان تہٕ تِم لایِنہٕ ہاوان یِم لیکھنہٕ یِیَن۔ وُنی آو نہٕ کہِنہٕ محفوظ کرنہٕ۔</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>واپَس پھیٖرِو</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>واپسی</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>محفوظ کٔرِو</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>شیڈیول</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>ژھانڈنُک صَفحہ</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>سیکشَن آیی ڈی، کاما سان اَلگ۔</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>یِم لایِو سایِٹس پیٹھ سوزِو</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>ترتیب</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>ترتیبات</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>%name ہٕنز ترتیبات</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>سیٹ اَپ</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>سیٹ اَپ &gt; خُفیہ مَعلوٗمات</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>فِہرِستَن منٛز ہاونہٕ یِوان، مِثالے &quot;GitHub Pages پیٹھ عام سایِٹ&quot;۔</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>GitHub App سان سایِن اِن یِیہ GitHub اِنٹیگریشنَس سان۔</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>سایِٹ</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>شایع کرنہٕ خاطرٕ سایِٹ</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>سایِز</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>سایِز تہٕ حَد</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>بِلڈُک سایِز</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>پرانۍ صَفحہٕ</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>شُروٗع</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>%user ین کٔر %time پیٹھ شُروٗع۔</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>حالَت</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>سٹیٹِک اِشاعت</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>سٹیٹِک اِشاعت چھیہ بنٛد</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>سٹیٹِک اِشاعت چھیہ بنٛد۔</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>سٹیٹِک اِشاعت چھیہ بنٛد۔ گوڈٕ سیٹ اَپ &gt; سٹیٹِک اِشاعت منٛز یہ وٲلِو۔</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>سٹیٹِک اِشاعت چھیہ وٲلِتھ۔</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>قدم %step / %total</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>قدم</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>صفٲیی</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>بنٛد کٔرِو</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>وٲلِو</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>سٹیٹِک اِشاعت وٲلِو</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>ٹیگ</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>ٹیگ</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>ہَدَف</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>ہَدَف ہیٚکن بٔنِتھ تہٕ بَدلٲوِتھ، مگر ییٚلہِ تام یہ وَلہِ نہٕ، کہِنہٕ چھُ نہٕ بِلڈ یا شایع گژھان۔</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>سرچ اِنجنَن وَنان کیا پَرُن چھُ۔</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>بِلڈ ہیٚکہِ نہٕ ترٛٲوِتھ: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>بِلڈ چھُ آخری اِشاعتس ہیوٗے: شایع کرنہٕ خاطرٕ چھُ نہٕ کہِنہٕ۔</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>بِلڈ آو ترٛاونہٕ: فولڈَرس منٛز چھُ دوبارٕ آخری اِشاعت۔</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>ڈیفالٹ چھِ زیادٕ تر سایِٹَن خاطرٕ ٹھیک۔</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>فولڈَرس منٛز چھُ اکھ بِلڈ یُس وُنی شایع چھُ نہٕ؛ نٔو بِلڈ کرِ تَس جاے۔</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>کامَن ہُنٛد فولڈَر ہیٚکہِ نہٕ لیکھِتھ: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>کٲم ہیٚکہِ نہٕ تَیار کٔرِتھ: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>کٲم ہیٚکہِ نہٕ شُروٗع کٔرِتھ۔</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>کٲم گٔیہِ ختم۔ تَمِچ رِپورٹ چھےٚ لوڈ گژھان۔</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>کامِہ خاطرٕ چھُ سایِن اِن کوٚرمُت یوزَر ضروٗری۔</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>کٲم آیہِ شُروٗع کرنہٕ مگر تَمہِ دِیُت نہٕ پَنُن پروسیس آیی ڈی۔ %detail جانچِو۔</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>کی</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>سارِوٕے کھوتہٕ بوٚڈ فایِل: %path، %size۔</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>تِم لایِنہٕ یِم لیکھنہٕ یِیَن</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>سرچ اِنجنَن خاطرٕ صَفحَن ہٕنز فِہرِست؛ عام پَتہٕ چھُ ضروٗری۔</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>صَفحہٕ چھِ تِتھے اَننہٕ یِوان یِتھہٕ پٲٹھۍ سایِن اِن نہٕ کوٚرمُت مہمان وُچھان چھُ۔ اِنتِظامیہ تہٕ تَرمیم سایِٹ ایکسیس چھِ نہٕ زانٛہہ پیش کرنہٕ یِوان۔</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>پیش رفت ہیٚکہِ نہٕ وُچھِتھ۔ کٲم کِتھہٕ پٲٹھۍ چھےٚ چلان، یہ وُچھنہٕ خاطرٕ صَفحہ دوبارٕ لوڈ کٔرِو۔</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>کی ہُنٛد عام حِصہ:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>برانچہِ ہُنٛد رۄٹ</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>خُفیہ سٹور چھُ نہٕ وُنی سیٹ (./console exp:upgrade --apply چھُ تَمِچ ٹیبَل بناوان)، تَوے ہیٚکہِ نہٕ کانٛہہ کی رَٹِتھ۔</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>سَروَر چھُ پانہٕ سایِن اِن کران (پَنٕنہِ SSH کی یا سَنَد مَددگارٕ سان)، یا چھےٚ رِپازِٹری یَتھ سَروَرس پیٹھ۔</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>ترتیب ہیٚکہِ نہٕ لیکھِتھ: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>ترتیبات چھِ ٹھیک۔ یِم لایِنہٕ یِیَن لیکھنہٕ:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>ترتیبات فایِل ہیٚکہِ نہٕ پٔرِتھ: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>سایِٹ چھےٚ تَمہِ اِشاعتٕکۍ فایِلَن واپَس گژھان؛ وُنی شایع نہٕ کوٚرمُت بِلڈ گَژھہِ گوڈٕ شایع یا ترٛاونہٕ یُن۔</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>سایِٹ ہُنٛد پَنُن صَفحہ تِمَن پَتَن خاطرٕ یِم موجوٗد چھِ نہٕ۔</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>ہَدَف ہیٚکہِ نہٕ محفوظ کٔرِتھ: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>ہَدَف چھُ نہٕ وُنی یَتھ کی سان سایِن اِن کران: تَمِچَن ترتیباتَن منٛز &quot;یَتھ ہَدَفس خاطرٕ بنَومٕژ ڈِپلائے کی&quot; ژارِو۔</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>ہَدَف ہیٚکہِ نہٕ پٔرِتھ: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>وُنی چھُ نہٕ جانچنہٕ خاطرٕ کانٛہہ بِلڈ۔</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>یَتھ اِنسٹالیشَنس چھُ نہٕ کانٛہہ فرنٹ سایِٹ ایکسیس۔ اِنتِظامیہ تہٕ تَرمیم سایِٹ ایکسیس چھِ نہٕ زانٛہہ شایع گژھان۔</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>یہ صَفحہ چھُ کٲم چلنہٕ وِزِ تَمِچ پیروی کران؛ صَفحہ بنٛد گژھنہٕ پَتہٕ چھےٚ یہ پَس مَنظرس منٛز جٲری روزان۔</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>یَتھ ہَدَفس چھےٚ نہٕ وُنی کانٛہہ ڈِپلائے کی۔</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>یہ ہَدَف چھُ نہٕ وُنی ییٚتہِ بِلڈ کرنہٕ آمُت۔</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>یَتھ ہَدَفس چھےٚ اکھ۔</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>یہ بِلڈ چھُ ترٛاوان: فولڈَرس منٛز چھُ دوبارٕ آخری اِشاعت۔ لایِو سایِٹ چھےٚ نہٕ بَدلان۔</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>گوڈٕ &quot;مےٚ چھےٚ تَبدیٖلیہِ جانچمٕژ&quot; نِشانہٕ کٔرِو۔</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>وَقت</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>ٹرِگَر</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>ٹیگ ہُنٛد ناو دوبارٕ ٹایپ کٔرِو</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>بےٚ بَدل</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>ویب ہُک</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>کیا</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>کیا چھُ بَدلان</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>پرٛتھ فایِل کیا چھےٚ؛ ہمیشہ لیکھنہٕ یِوان۔</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>کامِہ کیا کوٚر تہٕ تَمِچ رِکارڈ۔ ییٚتہِ شُروٗع کرنہٕ آمٕژ کٲم چھےٚ یہ صَفحہ بنٛد گژھنہٕ پَتہٕ پَس مَنظرس منٛز جٲری روزان۔</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>کامِہ کیا غلطیَن ہٕندِس صورتس منٛز چھاپ کوٚر</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>یُس صَفحہٕ ناو ہیٚوان چھِ، تہٕ شایع شُدٕہ مَوادٕچ پرٛتھ تَصویر</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>کَر</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>ییٚلہِ اِشاعت ناکام گژھہِ</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>ییٚلہِ اِشاعت کامیاب گژھہِ</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>ییٚلہِ مَواد شایع گژھہِ</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>یَتھ چیزَن لِنک کُن گژھن یِم نَقلس منٛز چھِ نہٕ (ژھانڈُن، لاگ اِن)۔</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>سٹیٹِک نَقل کُس جایہِ پیٹھٕ چھُ دِنہٕ یِوان۔</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>کُس سایِٹ چھُ شایع گژھان، تہٕ ہَدَفُک ناو کیا چھُ۔</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>کُنہِ تہِ پاتھ تَل کٲم کران۔ ڈیفالٹ۔</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>ییٚلہِ تہِ اَپنُن ڈومین سیٹ آسہِ، لیکھنہٕ یِوان۔</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>آ</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>توٚہہ ہیٚکِو ییٚتہِ تہٕ کنسولس پیٹھ ہمیشہ اَتھٕ سان بِلڈ تہٕ شایع کٔرِتھ۔</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>صِرف ناو؛ قیمَت چھےٚ سیٹ اَپ &gt; خُفیہ مَعلوٗمات منٛز روزان</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>%path تَل</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>رِپورٹ ورٲے ختم</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>اِضافی</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>ناکام</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>فایِل</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages، یا main فولڈَر docs سان۔</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>git ہوسٹ</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (ٹوکَنس سان) یا git@github.com:owner/repo.git (ڈِپلائے کی سان)؛ اَتھ منٛز زانٛہہ پاس وَرڈ یا ٹوکَن نہٕ۔</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/، سایِٹ میپ تہٕ کینونیکَل لِنکَن خاطرٕ۔</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>تَصویر</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>زانٛہہ نہ</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>نہ</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>کانٛہہ رِموٹ نہٕ</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>کانٛہہ نہ: کمِٹ چھِ فولڈَرس منٛز روزان</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>کانٛہہ نہ: کہِنہٕ بَدلیوٚو نہٕ</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>پُش نہٕ کوٚرمُت</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>کہِنہٕ بَدلیوٚو نہٕ</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>صَفحہ</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>کامیاب</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>proc_open چھُ بنٛد، تَوے ہیٚکہِ نہٕ ییٚتہِ کٲم شُروٗع کٔرِتھ۔ سَروَرس پیٹھ ./console exp:static:build اِستِعمال کٔرِو۔</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>اِشاعت</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>شایع شُدٕہ</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>پُش باقی</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>پُش کوٚرمُت</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>رَد کوٚرمُت</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>رِشتہٕ دار</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>واپسی</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>واپَس پھیرنہٕ آمُت</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>چلان</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>صِرف فولڈَر</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: CNAME فایِلس منٛز لیکھنہٕ یِوان۔ ڈومینٕچ DNS ہوسٹس کُن ہٲوِو یِتھہٕ پٲٹھۍ سُہ سمجھاوان چھُ؛ HTTPS شُروٗع گژھنَس ہیٚکہِ کینٛہہ وَقت لَگِتھ۔</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>آ، وُنی شایع نہٕ کوٚرمُت</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>اکھ GitHub App</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>رِپازِٹری ہُنٛد اکھ ورک فلو چھُ یہ شایع کران۔ بِلڈ چھُ ورک فلو فایِل لیکھان؛ فولڈر تھٲوِو خالی۔</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>GitHub رِپازِٹری تہٕ ٹوکَن یا GitHub App سان ہَدَف محفوظ کرنہٕ پَتہٕ ہیٛکہِ یہ قدم رِپازِٹری بناوِتھ تہٕ GitHub Pages وٲلِتھ۔ نَتہٕ بناوِو گوڈٕ GitHub پیٹھ رِپازِٹری؛ خالی تہِ چھےٚ ٹھیک۔</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>برانچ یا GitHub Actions؟</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>DNS چیک کٔرِو</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>رِپازِٹری نہٕ آسنہٕ پیٹھ بناوِو</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>GitHub پیٹھ بناوِو رِپازِٹری تہٕ اَمہِ کِس سیٹِنگَن مَنٛز وٲلِو GitHub Pages (Settings &gt; Pages)۔</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>رِپازِٹری %repo نہٕ آسنہٕ پیٹھ (وَننہٕ پیٹھ) چھُ بناوان، محفوظ کَرنہٕ مُطٲبِق برانچہِ پیٹھٕ یا GitHub Actions پیٹھٕ GitHub Pages وٲلان، تہٕ اَپنُن ڈومین تہٕ HTTPS سیٹ کران۔ یہ چھُ محفوظ سیٹِنگ ورتاوان: گوڈٕ کٔرِو تبدیلی محفوظ۔</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>GitHub پیٹھ تفصیل</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>گوڈٕ دِیِو اَپنُن ڈومین۔</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>پرٛتھ push چھُ گوڈٕ یِمن حَدَن سٕتۍ چیک یِوان کرنہٕ۔</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>GitHub پیٹھ https:// پَتس خاطرٕ۔ یَتھ اِنسٹالیشنہِ خاطرٕ سیٹ کٔرمُت App چھُ سایِن اِن کران؛ تَتھ چھےٚ اِنسٹالیشن id ضروٗرَت۔</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages چھُ نِجی رِپازِٹری صِرف پیڈ پلانس پیٹھ ہاوان۔</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: سَب ڈومینس (www.example.com) چھےٚ &lt;owner&gt;.github.io کُن CNAME ریکارڈ ضروٗرَت؛ apex ڈومینس (example.com) A ریکارڈ %ips۔</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>GitHub App ہُنٛد اِنسٹالیشن id</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>آخری Pages بِلڈ</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>حَد تہٕ شرٔط</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>مُفت پلانس پیٹھ GitHub Pages خاطرٕ ضروٗری۔</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>GitHub پیٹھ</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>صِرف GitHub App سان: GitHub پیٹھ App کِس اِنسٹالیشنہِ ہٕندِس پَتس آخرس پیٹھ نَمبر۔ App پانہٕ چھُ staticcache.ini مَنٛز سیٹ سپدان (GitHubAppId, GitHubAppKey)۔</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>نِجی</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>عوامی</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>گوڈٕ کٔرِو ہَدَف GitHub رِپازِٹری تہٕ ٹوکَن یا GitHub App سان محفوظ۔</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>یِم ریکارڈ کٔرِو ڈومینہِ کِس فراہم کارس نِشہِ سیٹ:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>GitHub پیٹھ سیٹ اَپ کٔرِو</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>%domain ہُنٛد DNS چھُ نہٕ وُنِ GitHub Pages کُن اِشارٕ کران۔</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>%domain ہُنٛد DNS چھُ GitHub Pages کُن اِشارٕ کران۔</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>GitHub اِنٹیگریشن چھُ نہٕ یَتہِ دٔستیاب: %problem۔ برانچس پیٹھ شایع کرُن چھُ تہِ کٲم کران؛ رِپازِٹری کِس سیٹِنگَن مَنٛز وٲلِو GitHub Pages۔</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>یَتھ ہَدَفس خاطرٕ چھِ نہٕ GitHub قدم دٔستیاب: %problem۔</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>GitHub Pages ہُنٛد حال چھُ تیٚلہِ ہاونہٕ یِوان یُتھ سَنَد ٹوکَن یا GitHub App آسہِ۔</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>پنُن ڈومین ورتاوِو</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>کُس ژارُن: ٹوکَن، ڈِپلائے کی یا GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>GitHub رِپازِٹری تہٕ ٹوکَن یا GitHub App سان ہیٛکہِ وِزارڈ تُہنٛدِ خاطرٕ رِپازِٹری بناوِتھ، GitHub Pages وٲلِتھ تہٕ ڈومین سیٹ کٔرِتھ (قدم 4)۔</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>بِلڈ گژھان</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>بِلڈ گوو</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>GitHub Actions پیٹھٕ</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>برانچ %branch پیٹھٕ</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>وُنِ کانٛہہ نہ</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>نہٕ لوٚبُن</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>بنٛد</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>نِجی</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>عوامی</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>قطارِ مَنٛز</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>نامعلوٗم</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%pages صفحن مَنٛز %count:</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>ہر ٹیکسٹ فایل ہُنٛد پکھ .gz (تہٕ .br)، تمو ہوسٹن کِس خاطرٕ یم تِم پیش کَرن۔</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>صفحہ ہُنٛد ہر پرانٕ پَتہ تہٕ عُرفیَت خاطرٕ اکھ ہیوٚل صفحہ، تاکہ پرانٕ لنک کَم کَرنہ رٔہن۔</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>ہمیشہٕ لیکھنہٕ یِوان، یِتھ وَقتہٕ GitHub Actions سایِٹ پہنچاوان چھہ۔</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>CC-BY-4.0 ہِش SPDX id، یا مَتن پَکھ پانہٕ۔</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>ٹوکری</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>سرور تہِ کال</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>تبصرہ</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>مَعلومات جَمع کَرن وٲلۍ فارم</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>GitHub Actions workflow</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>صفحن مَنٛز کم خٲلی جاے تہٕ تبصرہ نَہ۔</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>مواد ہُند لایسنس</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>لاگ اِن</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>چھوٗٹ کٔرِو</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>دِگر فارم</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>پیشگی کمپریس</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>ری ڈائریکٹ صفحہ</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>ری ڈائریکٹ صفحہ: %count۔</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>ژھانڈ</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>ژھانڈنُک اِنڈیکس: %languages مَنٛز %pages صفحہ۔</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>اسٹائل شیٹ تہٕ اسکرپٹ یم پَنَن مواد ہٕنزِ ہیشہٕ نِش ناو دنہٕ آمتۍ چھِ، تاکہ براوزر تِم رکھ سَگن۔</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>بَدلاونہٕ آمتۍ صفحہ، آخری بدلاوہٕ پتہ کینہہ منٹ (cronjob حصہ staticpublish)۔</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>مواد ہُند لایسنس، تلہٕ والہٕ فیلڈہٕ پیٹھ۔</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>پوٚرٕ سایِٹ، شیڈیول ہٕنز وقتن پیٹھ (cronjob حصہ staticpublish)۔</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>صفحن ہِن یِم حصہ چھِ سرور ہیچھان؛ ہرِ اکِس آو بدل۔ شایع کرنہٕ برونٛہہ تِم زانچِو۔</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>یُس سٹیٹک طور کَم نہ کران چھُ</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>ریپوزِٹری کیا چھ، تمہِ خاطرٕ یُس تَمہِ ہوسٹ پیٹھ کھولان چھُ۔</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>چھوڑنہٕ آمُت</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>بَدل مَتن</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>لایِو سایِٹ ہُند فارم اینڈپوائنٹ</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>لایِو سایِٹ</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>کاپی ہُند ژھانڈنُک صَفحہ</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>فارم گَو نہ سوزنہٕ۔</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>شُکریہ: فارم آو سوزنہٕ۔</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>فارم گوو نہ قبول: یُس تُہؤ دِیُت تمہ زانچِو تہٕ دوبارہ سوزِو۔</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>تِمن صفن ہٕندۍ لِنک ہٹٲیِو یِم نقلس منٛز چھِنہٕ</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>انتظامیہ کُن گژھن وٲلۍ لِنک ہٹٲیِو</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>تِہندِ متن روزان. تصویرہٕ، فارم تہٕ بیین سایٹن ہٕندۍ لِنک چھِنہٕ زانٛہہ ہٹاونہٕ یِوان.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>ؤرژَن</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>شایع کرنہٕ خٲطرٕ سایِٹ ایکسیس</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>سایِٹ ایکسیس</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>روٗٹس پیٚٹھ</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>روٗٹس پیٚٹھ چھُنہٕ کانٛہہ سایِٹ ایکسیس: پرٛتھ اَکھ چھُ پننِس فولڈرس منٛز، تہٕ روٗٹ چھُ تِمن لِنک دِوان</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>سایِٹ ایکسیس</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>اَکھ سایِٹ ایکسیس ژارِو، یا واریاہ یِم پننہِ URI اگرٕ لفظٕ ذریعہٕ اَکھ ہوسٹ بٲگراوان چھِ۔ روٗٹس پیٚٹھ یُس چھُ سُہ چھُ تتی پیش کرنہٕ یِوان، باقی پننہِ اگرٕ لفظُک فولڈرس منٛز (/ger/)؛ تِہندِ درمیان لِنک چھِ کاپی منٛزٕے روزان۔ انتظامیہ ہٕنٛد سایِٹ ایکسیس چھِ نہٕ زانٛہہ پیش کرنہٕ یِوان۔</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>%site پؠٹھ %target ہُند سٹیٹک شایع کرُن گوو ناکام</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>%site پؠٹھ %target ہُند سٹیٹک شایع کرُن گوو کامیاب</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>یہ میل سوز %site، کیازِ سٹیٹک شایع کرنُک ہدف %target چھُ امہِ ہِنٛز مانگ کران۔</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>ڈِپلائے %deploy %site پؠٹھ ناکام گوو</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>ڈِپلائے %deploy %site پؠٹھ اکس گیٹس پؠٹھ پراران</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>ڈِپلائے %deploy %site پؠٹھ کامیاب گوو</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>یہ میل آو %site کِنؠ سوزنہٕ کیازِ migration.ini [RemoteSettings] Notify[] چھُ یہ مَنگان۔</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>ڈیٹا قِسِم (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>%time گَنزرٕنہٕ آو، %minutes مِنَٹَن پَتہٕ دوبارٕ</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>ڈیٹا قِسِم چھُ کلاس وَصفُک اَکھ قِسمُک قیمَت محفوظ تہٕ ایڈِٹ کَران: مَتنٕچ لایِن، تصویٖر، رِشتہٕ۔ کرنَل چھُ زیادٕ تر دِوان، ایکسٹینشَن چھِ بیٚیہِ ہِنٛدۍ جوڑان۔ یِتھ چھِ تِم سٲری، کُس چھُ تِم دِوان تہٕ مَواد کوٚتاہ حِصہٕ چھُ تِم وَرتاوان۔ یُس ڈیٹا قِسِم ڈیٹابیس وَرتاوان چھُ مگر کانٛہہ چیز چھُنہٕ وۄنہِ رَجِسٹَر کَران، سُہ چھُ تَمہِ مَوادَس خَراب کَران یَتھ مَنٛز سُہ چھُ۔</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>کلاس گروپ</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>پَتِمیَن مِنَٹَن ہِنٛدِ گِنتی ہِنٛدِ بَدلہٕ وۄنہِ دوبارٕ گَنزرٲیو۔</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>دوبارٕ گَنزرٲیو</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>جایزہ</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>رَجِسٹَر گَو</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>استعمالس منز</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>نہ استعمال کرنہٕ آمُت</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>ڈیٹا قِسِم دِنہٕ وٲلۍ ایکسٹینشَن</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>کلاس وَصف</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>آبجیکٹ وَصف</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>رَجِسٹَر نہٕ</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>فِہرِستس مَنٛز، فایِل غایِب</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>%count ڈیٹا قِسِم چھِ وَرتاونہٕ یِوان مگر رَجِسٹَر چھِنہٕ</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>%class_attributes کلاس وَصف تہٕ %object_attributes آبجیکٹ وَصفَن چھُ اَکھ ڈیٹا قِسِم یُس نہٕ کانٛہہ ایکسٹینشَن یا سیٹِنگ رَجِسٹَر کَران چھُ۔ تِہُنٛد آبجیکٹ ہیٚکہٕ نہٕ ہاوِتھ، ایڈِٹ کٔرِتھ یا شایع کٔرِتھ۔ سُہ ایکسٹینشَن فَعال کٔرِو یُس یہِ ڈیٹا قِسِم دِوان چھُ، یا کلاس بَدلٲیو۔</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>صِرف یِم ہاوِو</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>ڈیٹا قِسِم ژھانٛڈِو</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>شِناخت، ناو، PHP کلاس یا ایکسٹینشَن۔</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>وُچھِو</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>سٲرِنی</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>دِنہٕ وول</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>ہَر کَس</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>کرنَل</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>یَتھ فِلٹَرَس سٕتۍ چھُنہٕ کانٛہہ ڈیٹا قِسِم مێلان۔</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>سٲرِنی وُچھِو</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>ایکسٹینشَن</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%count ڈیٹا قِسمَو مَنٛزٕ %shown، %used وَرتاوَس مَنٛز</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>ڈیٹابیسَس مَنٛز چھِ یِمَن ڈیٹا قِسمَن ہِنٛدۍ کلاس یا آبجیکٹ وَصف، مگر content.ini چھُنہٕ تِمَو مَنٛزٕ کانٛہہ فِہرِستس مَنٛز ہاوان، یا اَمِچ فایِل چھےٚ غایِب۔</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>%provider ہِنٛدۍ ڈیٹا قِسِم</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>ڈیٹا قِسِم</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>PHP کلاس تہٕ فایِل</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>کلاس</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>آبجیکٹ</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>فلیگ</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>کانٛہہ نہٕ</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>ژھانٛڈِ سٕتۍ چھُنہٕ کانٛہہ ڈیٹا قِسِم مێلان۔ ژھانٛڈ صاف کٔرِو۔</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>%count ڈیٹا قِسمَو مَنٛزٕ %shown ہاونہٕ آمٕتۍ</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>ہاونہٕ آمٕتۍ ڈیٹا قِسِم: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>%column ہِس مُطابِق ترتیٖب دِیُن</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>%time گَنزرٕنہٕ آو</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>سٲری ڈیٹا قِسِم</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>مَدَد صَفہٕ</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>یہِ ڈیٹا قِسِم چھُ وَرتاونہٕ یِوان مگر رَجِسٹَر چھُنہٕ</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>یوٚت تام نہٕ کانٛہہ ایکسٹینشَن یہِ ڈیٹا قِسِم رَجِسٹَر کَرِ، بۄنہٕ کِن کلاسَن ہِنٛدۍ آبجیکٹ ہیٚکَن نہٕ ہاوِتھ، ایڈِٹ کٔرِتھ یا شایع کٔرِتھ۔ سُہ ایکسٹینشَن فَعال کٔرِو یُس یہِ دِوان چھُ تہٕ یہِ content.ini [DataTypeSettings] AvailableDataTypes[] مَنٛز جوڑِو، یا کلاس بَدلٲیو۔</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini چھُ یہِ ڈیٹا قِسِم فِہرِستس مَنٛز ہاوان، مگر کُنہِ ڈیٹا قِسِم ڈایریکٹری مَنٛز چھَنہٕ اَمِچ فایِل۔ کانٛہہ چیز چھُنہٕ یہِ وَرتاوان؛ یہِ AvailableDataTypes[] مَنٛزٕ کٔڈِو یا اَمُک ایکسٹینشَن فَعال کٔرِو۔</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>یَتھ ڈیٹا قِسمَس مُتعلِق</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>شَناخت</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>ناو</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>ایکسٹینشَن %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>کانٛہہ نہٕ</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>PHP کلاس</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>فایِل</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>AvailableDataTypes[] مَنٛز</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>آ</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>نہ</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>اَمہِ قیمتُک کالَم</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>اَمہِ کلاس وَصفُک سیٹِنگَن ہِنٛدۍ کالَم</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>ٹیبَل</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>کالَم تہٕ ٹیبل چھِ ڈیٹا قِسمُک کوڈ پٔرِتھ لَبنہٕ آمٕتۍ: یہِ چھُ رَہنُمٲیی، وَعدٕ نہٕ۔</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>ٹیمپلیٹ</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>سایِٹ ایکسیس</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>ٹیمپلیٹ</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>یتھ مَنٛز ملیو</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>یہِ اِنتِظامیہ</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>ڈِفالٹ سایِٹ</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>اوور رایِڈ وَرٲے: کلاس یا وَصفہٕ سٕتۍ مێلَن وول اوور رایِڈ ٹیمپلیٹ چھُ یِمَن پیٚٹھ غالِب۔</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>یہِ وَرتاوَن وٲلۍ کلاس (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>کُنہِ کلاسَس چھُنہٕ یَتھ ڈیٹا قِسمُک کانٛہہ وَصف۔</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>کلاس</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>وَصف</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>کلاس وَصف (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>وَصف</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>ترتیبات</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>لازِمی</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>ژھارنہٕ لایِق</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>ترجمہ کرنہٕ لایِق</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>چھُ معلومات جَمع کران</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>یہِ وَرتاوَن وول کیٚنٛہہ مَواد</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>آخرس بَدلاونہٕ آمُت گۄڈٕ</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>تَرمیم شُدٕہ</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>نوڈ %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>پرٛتھ ترجمَس چھےٚ پَنٕنۍ قیمَت۔</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>ژھانٛڈ چھےٚ اَمِچ قیمَتہٕ اِنڈیکس کَران۔</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>یہِ ہیٚکہِ مُلاقٲتیَن نِشہِ مَعلومات جمع کٔرِتھ (فارم)۔</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>فِہرِستہٕ ہیٚکَن اَمہِ کِنۍ تَرتیٖب دِتھ: تَرتیٖب کی %type۔</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>ترتیٖب دِنہٕ لایِق</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>اَمِچ قیمَتہٕ چھےٚ بێیَن آبجیکٹَن کُن اِشارٕ کَران۔</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>تَعَلُق</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>یہِ ہیٚکہِ سادٕ سٹرِنگہِ سٕتۍ بٔرِتھ (اِمپورٹ، REST)۔</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>مَتنہٕ پؠٹھٕ</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>یہِ ہیٚکہِ فایِلہِ سٕتۍ بٔرِتھ۔</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>فایِلہِ پؠٹھٕ</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>اَمہِ کلاس وَصفٕچ سیٹِنگ چھےٚ پیکیجَن مَنٛز گَژھان۔</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>پیکیج</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>مَواد (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from تہٕ %to، کُل %count</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>فہرست فِلٹَر کٔرِو</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>سٲرِنی کلاس</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>سیکشَن</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>زَبان</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>مالِک</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>شایع کرنہٕ آمُت</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>ترتیٖب اُلٹ کٔرِو</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>کانٛہہ آیِٹَم نہٕ</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>ہرِ صَفحس</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>ہَر صَفحَس پیٹھ %count آیِٹَم ظاہِر کٔرِو۔</translation>
     </message>
 </context>
 </TS>

@@ -15,6 +15,21 @@ liefert die Site über HTTP/2 mit PHP-FPM aus, und die Routing-Regeln von `.htac
 selbst. Apache liest dann überhaupt keine `.htaccess` (`AllowOverride None`), was bei jeder Anfrage eine Dateisuche pro
 Verzeichnis spart. Die Datei behält ihren historischen Namen.
 
+> **Warnung**
+> **`.htaccess` bremst jede Anfrage.** Sind `.htaccess`-Dateien erlaubt (`AllowOverride` alles außer `None`), geschweige
+> denn genutzt, sucht Apache sie bei jeder Anfrage in jedem Verzeichnis des Pfads und liest und wertet sie aus, und
+> die Ladezeiten der Seiten steigen drastisch ([gemessen](../../anleitungen/setup-dateien-von-der-konsole.md#gemessen-htaccess-gegen-regeln-im-virtuellen-host)). Die einzige wirkliche Abhilfe ist, die
+> Funktion für den virtuellen Host abzuschalten: `AllowOverride None` im virtuellen HTTPS-Host, und die Regeln in
+> der Konfiguration des virtuellen Hosts selbst als mod_rewrite-Regeln. Das ist in Geschwindigkeitstests im
+> Produktivbetrieb weit schneller und die Zeit für die Optimierung einer Produktivkonfiguration unbedingt wert.
+> Stellen Sie sofort um: Übernehmen Sie die Regeln des [Beispiels für einen virtuellen HTTPS-Host](apache-virtueller-host.md) in
+> Ihren virtuellen Host (mit dem statischen Cache auch [`staticcache_offload.conf`](../../../eng-us/examples/staticcache_offload.conf)), setzen Sie
+> `AllowOverride None`, führen Sie `apachectl configtest` aus, laden Sie Apache neu und testen Sie die Website.
+> Dieselben Regeln für andere Server: [nginx](nginx.md), [LiteSpeed](litespeed.md), [Caddy](caddy.md), [IIS](iis.md),
+> [Velocity](velocity.md) (eingebaut); wohin Regeln für virtuelle Hosts in einem Control Panel gehören:
+> [Plesk](../../hilfe/hosting/control-panels/plesk.md), [cPanel](../../hilfe/hosting/control-panels/cpanel.md), [DirectAdmin](../../hilfe/hosting/control-panels/directadmin.md), [ISPConfig](../../hilfe/hosting/control-panels/ispconfig.md).
+> **Unter LiteSpeed oder OpenLiteSpeed** kann zusätzlich der Seiten-Cache des Servers anonyme Besucher und Crawler ohne PHP bedienen: [Seiten-Caching mit LiteSpeed und OpenLiteSpeed](../../anleitungen/seiten-cache-mit-litespeed.md).
+
 ## Installieren
 
 1. Laden Sie die Module `rewrite`, `proxy`, `proxy_fcgi`, `ssl`, `headers`, `expires` und für HTTP/2 `http2`
@@ -37,6 +52,13 @@ Verzeichnis spart. Die Datei behält ihren historischen Namen.
 Sie verwenden ein Hosting-Panel wie Plesk? Es schreibt den virtuellen Host selbst: Bearbeiten Sie seine Dateien nicht,
 bleiben Sie stattdessen bei `.htaccess` ([Apache .htaccess](apache-htaccess.md)) und lesen Sie
 [Kapitel 8, Abschnitt 8.5.3](../../installation/08-die-website-ausliefern.md#853-plesk).
+Dort bringt `./console exp:setup:htaccess --apply` die Datei `.htaccess_root` als `.htaccess` an ihren Platz
+([.htaccess und config.php von der Konsole einrichten](../../anleitungen/setup-dateien-von-der-konsole.md)).
+
+Mit diesem virtuellen Host (`AllowOverride None`) wird eine `.htaccess` im Wurzelverzeichnis nicht gelesen, aber das
+Kopieren schadet nicht und hält die Regeln in Kraft, falls der Baum je mit `AllowOverride All` ausgeliefert wird. Nach
+einem Upgrade zeigt `./console exp:setup:htaccess` den Diff zwischen Ihrer `.htaccess` und der neuen `.htaccess_root`;
+das ist zugleich die Liste der Regeln, die Sie in diesen virtuellen Host übernehmen müssen.
 
 ## Die Datei
 
@@ -145,6 +167,9 @@ später); das dokumentierte Beispiel um sie herum ist freie Dokumentation (GFDL 
         # REST API
         RewriteRule ^/api/ /index_rest.php [L]
         RewriteRule ^/index_rest\.php - [L]
+        # SOAP server (soap.ini EnableSOAP=true): index_soap.php since
+        # Exponential 6.0.15, soap.php only forwards to it. Uncomment with SOAP on:
+        #RewriteRule ^/index_soap\.php - [L]
         RewriteRule ^/([^/]+/)?content/treemenu.* /index_treemenu.php [L]
         RewriteRule ^/var/([^/]+/)?storage/images(-versioned)?/.* - [L]
         # The stored files of PDF exports generated once (Setup > PDF export)
@@ -245,7 +270,10 @@ Und eine Folge daraus: `[L]` beendet hier die Verarbeitung, daher erreicht `/con
 Alles, was nicht auf der Asset-Liste steht, `settings/`, `var/log/`, `vendor/`, `kernel/` und `composer.json`
 eingeschlossen, wird auf `/index.php` umgeschrieben und niemals gesendet. Der Handler `<FilesMatch "\.php$">` übergibt
 `/index.php`, `/index_rest.php` und `/index_treemenu.php` an PHP-FPM; kein anderes Skript wird je erreicht, weil die
-Regeln nichts anderes an eine `.php`-Datei weiterleiten.
+Regeln nichts anderes an eine `.php`-Datei weiterleiten. Mit SOAP an nehmen Sie das Kommentarzeichen vor der Zeile für
+`index_soap.php` weg: Der SOAP-Server heißt seit Exponential 6.0.15 `index_soap.php` (vorher `soap.php`, jetzt ein
+Shim, das dorthin weiterleitet). Was zu ändern und wie es zu testen ist:
+[Das SOAP-Einstiegsskript heißt jetzt index_soap.php](../../bc/6.0/soap-einstiegsskript-index-soap.md).
 
 ## Header und Caching
 
@@ -263,6 +291,16 @@ Endet TLS an einem Proxy, behalten Sie nur den Host für Port 80 (ohne seine Wei
 dem Handler und den Regeln des Hosts für 443), lassen Sie den Proxy `X-Forwarded-Proto` und den ursprünglichen `Host`
 senden und tragen Sie die Adresse des Proxys in `site.ini [HTTPHeaderSettings] TrustedProxies[]` ein. Siehe
 [Kapitel 8, Abschnitt 8.8](../../installation/08-die-website-ausliefern.md#88-hinter-einem-reverse-proxy).
+
+## WebDAV
+
+Dieser virtuelle Host leitet WebDAV nicht weiter (standardmäßig aus). Um es auszuliefern, fügen Sie
+`RewriteRule ^index_webdav\.php - [L]` im Block `<Directory>` vor der Auffangregel ein, im **HTTPS**-Host (der Host
+für Port 80 leitet nur weiter), oder einen eigenen virtuellen Host (`webdav.example.com`) mit
+`RewriteRule . /index_webdav.php [L]`. Seit 6.0.15 heißt das Skript `index_webdav.php`; Regeln für `webdav.php`
+funktionieren über einen weiterleitenden Shim bis zu einer späteren Hauptversion weiter. Vorher/nachher und der Test
+(`curl -X PROPFIND -H 'Depth: 1'`, erwartet: `207 Multi-Status`):
+[Das WebDAV-Einstiegsskript heißt jetzt index_webdav.php](../../bc/6.0/webdav-einstiegsskript-index-webdav.md#apache-die-virtuellen-hosts-http-und-https).
 
 ## Prüfen
 

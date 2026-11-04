@@ -2,7 +2,7 @@
 /**
  * File containing the expApiKey class.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package kernel
  */
@@ -277,7 +277,7 @@ class expApiKey extends eZPersistentObject
         $catalogue = array();
         foreach ( $scopes as $id => $policy )
         {
-            if ( !is_string( $id ) || !preg_match( '/^[a-z][a-z0-9_]*$/', $id ) || !preg_match( '#^[a-z0-9_]+/[a-z0-9_*]+$#i', (string)$policy ) )
+            if ( !is_string( $id ) || !preg_match( '/^[a-z][a-z0-9_]*(?::[a-z][a-z0-9_]*)?$/', $id ) || !preg_match( '#^[a-z0-9_]+/[a-z0-9_*]+$#i', (string)$policy ) )
                 continue;
             $catalogue[$id] = array( 'id' => $id,
                                      'policy' => (string)$policy,
@@ -807,7 +807,30 @@ class expApiKey extends eZPersistentObject
         $this->setAttribute( 'revoked', time() );
         $this->setAttribute( 'revoked_by', (int)$byUserID );
         $this->store( array( 'revoked', 'revoked_by' ) );
+        self::forgetInCaches();
         return true;
+    }
+
+    /**
+     * Removes the key, and forgets it where it is remembered.
+     *
+     * @param array|null $conditions
+     * @param array|null $extraConditions
+     */
+    public function remove( $conditions = null, $extraConditions = null )
+    {
+        parent::remove( $conditions, $extraConditions );
+        self::forgetInCaches();
+    }
+
+    /**
+     * The GraphQL early answer remembers the rights of checked credentials for a minute (graphql.ini
+     * CredentialCacheTtl): a revoked or removed key is forgotten at once.
+     */
+    protected static function forgetInCaches()
+    {
+        if ( class_exists( 'expGraphQLResponseCache' ) )
+            expGraphQLResponseCache::forgetCredentialsIfAvailable();
     }
 
     /**

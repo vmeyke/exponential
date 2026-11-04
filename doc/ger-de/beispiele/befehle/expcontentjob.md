@@ -25,7 +25,7 @@ Was `--help` ausgibt, so wie der Befehl es schreibt:
 ```text
 Content jobs: large subtree removes and copies, run in batches in the background.
 
-  list [--all]                         the jobs
+  list [--all] [--resume]              the jobs (heartbeat age, stalled); --resume: resume every stalled or failed one
   show <id> [--json]                   one job and the end of its log
   run <id>                             run a job in the foreground
   resume <id> [--background]           resume a failed job or one whose worker died
@@ -41,6 +41,7 @@ Content jobs: large subtree removes and copies, run in batches in the background
 | Option | Wert | Hilfe |
 |---|---|---|
 | `--all` |  | list: jeder Auftrag, nicht nur die aktiven und fehlgeschlagenen |
+| `--resume` |  | list: jeden hängenden oder fehlgeschlagenen Auftrag fortsetzen, jeden mit einem Worker im Hintergrund |
 | `--json` |  | show: der Auftrag als JSON |
 | `--background` |  | remove, copy, resume: einen abgekoppelten Worker starten und zurückkehren |
 | `--trash` |  | remove: die Objekte in den Papierkorb verschieben (der Standard von content.ini [RemoveSettings]) |
@@ -48,7 +49,7 @@ Content jobs: large subtree removes and copies, run in batches in the background
 | `--all-versions` |  | copy: alle Versionen jedes Objekts kopieren, nicht nur die aktuelle |
 | `--keep-creator` |  | copy: Eigentümer und Ersteller der kopierten Objekte beibehalten |
 | `--keep-time` |  | copy: die Zeitpunkte der Erstellung und Änderung beibehalten |
-| `--scope` | erforderlich | section: which objects below the node get the section: subtree (the default, all of them), inherited (those that have the section of the node's object, not branches in another section) or object (none) |
+| `--scope` | erforderlich | section: welche Objekte unterhalb des Knotens die Sektion erhalten: subtree (Standard, alle), inherited (die, die die Sektion des Objekts des Knotens haben, nicht Zweige in einer anderen Sektion) oder object (keines) |
 
 Aus den Optionsdefinitionen im Code gelesen (`startup()`, `getOptions()`, `options()` oder `ezcConsoleOption`). Jedes Skript nimmt außerdem die Standardoptionen des Skript-Frameworks (`--help`, `--siteaccess`, `--debug`, `--quiet`, `--allow-root-user` ...).
 

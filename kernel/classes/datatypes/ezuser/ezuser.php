@@ -2,7 +2,7 @@
 /**
  * File containing the eZUser class.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -894,6 +894,21 @@ WHERE user_id = '" . $userID . "' AND
         if ( class_exists( 'expPasskeyService' ) )
             expPasskeyService::removeForRemovedAccount( $user );
 
+        // Signed-in sessions (doc/eng-us/features/6.0/user-sessions.md): the rows of the account and their details are
+        // erased, so its sessions end at their next request; the security events stay in the user audit log until its
+        // retention, as the audit's own record of the removal
+        if ( class_exists( 'expUserSessionTracker' ) )
+        {
+            try
+            {
+                expUserSessionTracker::eraseForUser( (int)$userID );
+            }
+            catch ( Throwable $e )
+            {
+                eZDebug::writeError( 'The sessions of the removed user could not be erased: ' . $e->getMessage(), __METHOD__ );
+            }
+        }
+
         eZSubtreeNotificationRule::removeByUserID( $userID );
         eZCollaborationNotificationRule::removeByUserID( $userID );
         eZUserSetting::removeByUserID( $userID );
@@ -1527,7 +1542,27 @@ WHERE user_id = '" . $userID . "' AND
         // Clear current basket if necessary
         $db = eZDB::instance();
         $db->begin();
-        eZBasket::cleanupCurrentBasket();
+        try
+        {
+            try
+            {
+                eZBasket::cleanupCurrentBasket();
+            }
+            catch ( Throwable $e )
+            {
+                // nothing of a transaction that failed half way is committed by a later commit()
+                if ( $db->transactionCounter() > 0 )
+                    $db->rollback();
+                throw $e;
+            }
+        }
+        catch ( Throwable $e )
+        {
+            // nothing of a transaction that failed half way is committed by a later commit()
+            if ( $db->transactionCounter() > 0 )
+                $db->rollback();
+            throw $e;
+        }
         $db->commit();
 
         if ( $contentObjectID )
@@ -2125,57 +2160,77 @@ WHERE user_id = '" . $userID . "' AND
 
         $db = eZDB::instance();
         $db->begin();
-
-        if ( $db->databaseName() === 'mongo' )
+        try
         {
-            $existing = $db->aggregate( 'ezuservisit', [
-                [ '$match' => [ 'user_id' => $userID ] ],
-                [ '$limit' => 1 ],
-            ] );
-            if ( !empty( $existing ) )
+            try
             {
-                $failedLoginAttempts = $value === false
-                    ? ( (int)( $existing[0]['failed_login_attempts'] ?? 0 ) + 1 )
-                    : (int)$value;
-                $db->mongoUpdateOne( 'ezuservisit',
-                    [ 'user_id' => $userID ],
-                    [ '$set' => [ 'failed_login_attempts' => $failedLoginAttempts ] ] );
+
+                if ( $db->databaseName() === 'mongo' )
+                {
+                    $existing = $db->aggregate( 'ezuservisit', [
+                        [ '$match' => [ 'user_id' => $userID ] ],
+                        [ '$limit' => 1 ],
+                    ] );
+                    if ( !empty( $existing ) )
+                    {
+                        $failedLoginAttempts = $value === false
+                            ? ( (int)( $existing[0]['failed_login_attempts'] ?? 0 ) + 1 )
+                            : (int)$value;
+                        $db->mongoUpdateOne( 'ezuservisit',
+                            [ 'user_id' => $userID ],
+                            [ '$set' => [ 'failed_login_attempts' => $failedLoginAttempts ] ] );
+                    }
+                    else
+                    {
+                        $failedLoginAttempts = $value === false ? 1 : (int)$value;
+                        $db->insert( 'ezuservisit', [
+                            'user_id'               => $userID,
+                            'failed_login_attempts' => $failedLoginAttempts,
+                        ] );
+                    }
+                }
+                else
+                {
+                    $userVisitArray = $db->arrayQuery( "SELECT 1 FROM ezuservisit WHERE user_id=$userID" );
+                    if ( isset( $userVisitArray[0] ) )
+                    {
+                        if ( $value === false )
+                        {
+                            $failedLoginAttempts = $userObject->failedLoginAttempts();
+                            $failedLoginAttempts += 1;
+                        }
+                        else
+                            $failedLoginAttempts = (int) $value;
+
+                        $db->query( "UPDATE ezuservisit SET failed_login_attempts=$failedLoginAttempts WHERE user_id=$userID" );
+                    }
+                    else
+                    {
+                        if ( $value === false )
+                        {
+                            $failedLoginAttempts = 1;
+                        }
+                        else
+                            $failedLoginAttempts = (int) $value;
+
+                        $db->query( "INSERT INTO ezuservisit ( failed_login_attempts, user_id ) VALUES ( $failedLoginAttempts, $userID )" );
+                    }
+                }
             }
-            else
+            catch ( Throwable $e )
             {
-                $failedLoginAttempts = $value === false ? 1 : (int)$value;
-                $db->insert( 'ezuservisit', [
-                    'user_id'               => $userID,
-                    'failed_login_attempts' => $failedLoginAttempts,
-                ] );
+                // nothing of a transaction that failed half way is committed by a later commit()
+                if ( $db->transactionCounter() > 0 )
+                    $db->rollback();
+                throw $e;
             }
         }
-        else
+        catch ( Throwable $e )
         {
-            $userVisitArray = $db->arrayQuery( "SELECT 1 FROM ezuservisit WHERE user_id=$userID" );
-            if ( isset( $userVisitArray[0] ) )
-            {
-                if ( $value === false )
-                {
-                    $failedLoginAttempts = $userObject->failedLoginAttempts();
-                    $failedLoginAttempts += 1;
-                }
-                else
-                    $failedLoginAttempts = (int) $value;
-
-                $db->query( "UPDATE ezuservisit SET failed_login_attempts=$failedLoginAttempts WHERE user_id=$userID" );
-            }
-            else
-            {
-                if ( $value === false )
-                {
-                    $failedLoginAttempts = 1;
-                }
-                else
-                    $failedLoginAttempts = (int) $value;
-
-                $db->query( "INSERT INTO ezuservisit ( failed_login_attempts, user_id ) VALUES ( $failedLoginAttempts, $userID )" );
-            }
+            // nothing of a transaction that failed half way is committed by a later commit()
+            if ( $db->transactionCounter() > 0 )
+                $db->rollback();
+            throw $e;
         }
         $db->commit();
 
@@ -3448,6 +3503,12 @@ WHERE user_id = '" . $userID . "' AND
         // Every user's permissions may have changed: every cached context goes.
         if ( class_exists( 'ezpHttpCacheListener' ) )
             ezpHttpCacheListener::purgeAll();
+        // and the GraphQL answers kept per rights, and the rights the GraphQL early answer knows of credentials
+        if ( class_exists( 'expGraphQLResponseCache' ) )
+        {
+            expGraphQLResponseCache::expireIfAvailable();
+            expGraphQLResponseCache::forgetCredentialsIfAvailable();
+        }
     }
 
     static function fetchUserClassList( $asObject = false, $fields = false )

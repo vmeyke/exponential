@@ -982,6 +982,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>Haku koskee vain tätä sivua: %from–%to / %count.</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Järjestelmäytimen ja laajennusten kaikki tietotyypit sekä se, miten luokat ja sisältö käyttävät niitä.</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Tietotyypit</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2314,6 +2322,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>Myös järjestelmäsivuja voi lisätä kirjanmerkkeihin: avaa sivu (Asetukset, valvontaloki, käyttäjäluettelo ...) ja valitse sen yläpuolelta Lisää sivu kirjanmerkkeihin. Tällaisissa kirjanmerkeissä on rataskuvake.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>Et voi enää avata tätä sivua täällä. Poista kirjanmerkki tai pyydä käyttöoikeutta järjestelmänvalvojalta.</translation>
     </message>
 </context>
 <context>
@@ -5163,6 +5175,210 @@
         <source>Go to the first page</source>
         <translation>Siirry ensimmäiselle sivulle</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>Muut</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>Viimeiset 7 päivää</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>Mukautettu aikaväli</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>Kaikki sanat</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>Mikä tahansa sana</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>Tarkka ilmaus</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>Osuvuus</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>Nimi A–Ö</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>Nimi Ö–A</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>Muokattu, uusin ensin</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>Muokattu, vanhin ensin</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>Julkaistu, uusin ensin</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>Julkaistu, vanhin ensin</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Muokattu</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>Suodattimet</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>Näytä suodattimet</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>Piilota suodattimet</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Nollaa</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>Käytä</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>Sanat</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>Sisältötyyppi</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>Näytä lisää (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>Valitse yksi sisältötyyppi, jotta voit hakea sen yhdestä attribuutista.</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Osio</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Alkaen</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Mihin</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>Alkupäivämäärä ei ole kelvollinen päivämäärä.</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>Loppupäivämäärä ei ole kelvollinen päivämäärä.</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Omistaja</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>Käyttäjän ID, kirjautumisnimi tai sähköpostiosoite.</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>Käyttäjää ei löytynyt haulla ”%input”.</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Kieli</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>Mikä tahansa kieli</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Sijainti</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>%count sijaintia</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>Tuloksia sivulla</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>Tulokset haulle ”%text” (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>Tulokset (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>Lajitteluperuste</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>Lajittelu</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>Aktiiviset suodattimet</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>Poista tämä suodatin</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>Tai valitse suodattimet ja käytä niitä, niin näet niitä vastaavan sisällön.</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>Suodattimet rajaavat hakua, kun olet kirjoittanut hakusanoja.</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>Haulla ”%text” ei löytynyt tuloksia.</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>Tuloksia ei löytynyt.</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>Poista jokin yllä olevista suodattimista.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Käännökset</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Toiminnot</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>Muokkaa: %name</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Muokkaa</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -8001,8 +8217,8 @@
         <translation>Alkuperäisten tekijöiden ja Exponentialin mukana toimitettujen kolmannen osapuolen ohjelmistojen tekijänoikeushuomautukset säilytetään lähdetiedostoissa ja LICENSE-tiedostossa lisenssin edellyttämällä tavalla.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>Seuraavassa on luettelo Exponentialin avustajista, jotka ovat lisensoineet työnsä 7x:n käyttöön eZ Systems Contributor Licensing Agreement -sopimuksen ehtojen mukaisesti. Sopimuksen sallimalla tavalla 7x jakaa jokaisen avustuksen edelleen samalla lisenssillä kuin tiedosto, johon avustus sisältyy. Luettelossa on kunkin avustajan nimi, mahdolliset yhteystiedot sekä tiedostot, joihin hän on tehnyt avustuksia.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>Avustajat, jotka mainitaan heidän työstään Exponentialin ja sen pohjana olleen ohjelmiston parissa, sekä tiedostot, joihin he ovat osallistuneet. Tämä on tunnustus, ei tekijänoikeusilmoitus: Exponentialiin tehdyt lahjoitukset siirretään Exponential Foundationille ja 7x:lle Contributor Licensing Agreementin mukaisesti.</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13824,32 +14040,20 @@ Huomautus: pakettien asennusta ei poisteta.</translation>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;Kokeile Exponential Enterprise Editionia&lt;/a&gt; – &lt;a href=&quot;%share_link&quot;&gt;Liity Exponential-yhteisöön, vaihda kokemuksia ja osallistu&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; ja muut.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>Toteutettu ohjelmistolla &lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt;. Lisätietoja: &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; ja muut.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> Lisätietoja: &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
     </message>
     <message>
-        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; ja muut.</translation>
+        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;Kokeile Exponentialia (7x)&lt;/a&gt; – &lt;a href=&quot;%share_link&quot;&gt;Liity Exponential-yhteisöön, saa tukea ja osallistu&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; ja muut.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13858,6 +14062,61 @@ Huomautus: pakettien asennusta ei poisteta.</translation>
     <message>
         <source>Help center</source>
         <translation>Ohjekeskus</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>Sisältö</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>Asiakirjasivut</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>Käyttäjät</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>Sisältöluokat</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>Hallinta</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>Sivu %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>Näytä kaikki tulokset</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>Tuloksia: %count</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>Yksi tulos</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>%count ehdotusta</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>Ei ehdotuksia</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>Ehdotuksia ei voitu ladata.</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>Ehdotukset</translation>
     </message>
 </context>
 <context>
@@ -14326,6 +14585,14 @@ Huomautus: pakettien asennusta ei poisteta.</translation>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>Tämä asennus on julkinen esittelyversio: kuka tahansa voi tietää sen järjestelmänvalvojan salasanan, eikä järjestelmänvalvojien salasanoja voi muuttaa tai palauttaa. Älä syötä tänne mitään yksityistä.</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Laitteesi</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Tietoturvatapahtumat</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14615,6 +14882,14 @@ Huomautus: pakettien asennusta ei poisteta.</translation>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>Oppaat, haku ja ohjeet virheen ilmoittamiseen.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Uusin sisältö</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Uusin sisältö, tarkistettavaksi pidätetty sisältö ja toiminnot valinnalle.</translation>
     </message>
 </context>
 <context>
@@ -15073,6 +15348,46 @@ Huomautus: pakettien asennusta ei poisteta.</translation>
         <source>Synchronisations</source>
         <translation>Synkronoinnit</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>GraphQL API: sen päätepiste, rakenne ja testiympäristö kyselyjen kokeiluun.</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migraatiot</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Tiedostoina säilytetyt asennuksen muutokset: niiden tila, ajot, ajaminen ja peruminen.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Uusin sisältö</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Uusin sisältö, tarkistettavaksi pidätetty sisältö ja toiminnot valinnalle.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Julkaise sivuston staattinen kopio GitHub Pagesiin tai mihin tahansa git-palveluun.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Staattinen julkaisu</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Tietotyypit</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Järjestelmäytimen ja laajennusten kaikki tietotyypit sekä se, miten luokat ja sisältö käyttävät niitä.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15237,6 +15552,22 @@ Huomautus: pakettien asennusta ei poisteta.</translation>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>Tilit, joita kukaan ei käytä tai jotka kaipaavat tarkistusta; poista ne käytöstä, avaa niiden lukitus tai vie ne.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Käyttäjien valvontaloki</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>Kuka muutti, kirjautui tai hylättiin, tileittäin; suodata ja vie.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Kirjautumisraportti</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>Kuka on kirjautuneena, kirjautumiset ja epäonnistumiset päivittäin; kirjaa käyttäjä ulos kaikkialta.</translation>
     </message>
 </context>
 <context>
@@ -22053,6 +22384,22 @@ Huomautus: pakettien asennusta ei poisteta.</translation>
         <source>%n hours ago</source>
         <translation>%n h sitten</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>GraphQL API:n tallennettujen kyselyjen vastaukset ja sen rakenteen sisältöluokat.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>Julkaise staattinen kopio GitHub Pagesiin tai mihin tahansa git-palveluun</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Staattinen julkaisu</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>Staattinen välimuisti tarjoilee sivuja tältä palvelimelta. Jos haluat julkaista sivuston staattisen kopion muualle, GitHub Pagesiin tai mihin tahansa git-palveluun, käytä staattista julkaisua.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25594,6 +25941,10 @@ Huomautus: pakettien asennusta ei poisteta.</translation>
     <message>
         <source>last purge</source>
         <translation>viimeisin tyhjennys</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>Kirjoitukset eivät saaneet tilan lukkoa (viimeksi %date): jokainen niistä vanhensi kaikki välimuistin tulokset. Kunkin käyttäjän, jona sivusto toimii, on voitava kirjoittaa tiedostoon %file; NFS:ssä se vaatii NFSv4:n tai lockd:n.</translation>
     </message>
 </context>
 <context>
@@ -33542,6 +33893,14 @@ Huomautus: pakettien asennusta ei poisteta.</translation>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>PHP-käsittelijän aikakatkaistut istunnot poistaa PHP itse (session.gc_maxlifetime), ei tämä sivu eikä Cron-työn osa session_gc.</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>Kaikkien käyttäjien kirjautuneet istunnot näytetään ja kirjataan ulos kirjautumisraportissa, joka toimii kaikkien istuntojen käsittelijöiden kanssa.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>Avaa kirjautumisraportti</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37866,6 +38225,26 @@ ohjeita.</translation>
     <message>
         <source>None yet</source>
         <translation>Ei vielä yhtään</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Tietoturvatapahtumat</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>Viimeisimmät kirjautumisesi, epäonnistuneet yritykset sekä muutokset salasanaasi, sähköpostiosoitteeseesi ja kaksivaiheiseen kirjautumiseen.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>Tämän tilin viimeisimmät kirjautumiset, epäonnistuneet yritykset ja tietoturvamuutokset.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>Tarkastele toimintaa</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>Epäonnistuneita kirjautumisia: %count</translation>
     </message>
 </context>
 <context>
@@ -44032,6 +44411,42 @@ Jos haluat lähettää kommentteja hyväksyjälle tai tarkastella tilaa, käytä
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>Kirjautumisen jälkeen käyttäjän on valittava uusi salasana ennen kuin hän voi tehdä mitään muuta. Käytä tätä, kun annat jollekulle väliaikaisen salasanan.</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>Valitse olemassa oleva kuva</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>Valitsemasi objektin kuvatiedosto kopioidaan tähän kenttään. Toinen objekti ei muutu.</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>Objektin ”%name” kuva kopioitiin tähän kenttään.</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>Selaa kuvia</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>Hae kuvia nimen perusteella</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Hae</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>Käytä objektin ”%name” kuvaa</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>Käytä tätä kuvaa</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>Hakuasi vastaavaa kuvaa ei löytynyt.</translation>
     </message>
 </context>
 <context>
@@ -50956,6 +51371,10 @@ Lisätietoja on vaatimussivulla.</translation>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>Crontab-tiedostoa ei kirjoitettu (%reason). Lisää nämä rivit sen käyttäjän crontab-tiedostoon, jonka oikeuksilla sivusto toimii, muuten jonoa, tuonteja, ilmoituksia ja hakuindeksiä ei koskaan suoriteta:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>Uudelleenasennus tehdään kickstarterilla (%file, sitten php bin/php/kickstarter.php run --apply) tai uudella asennuksella.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54835,6 +55254,10 @@ ohjeita.</translation>
         <source>eZJSCore Public Packer cache</source>
         <translation>eZJSCoren julkisen pakkaajan välimuisti</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>GraphQL-välimuisti (vastaukset ja rakenteen luokat)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54921,6 +55344,14 @@ ohjeita.</translation>
     <message>
         <source>Copy of %class_name</source>
         <translation>Kopio: %class_name</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Tietotyypit</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>Tietotyyppi %string</translation>
     </message>
 </context>
 <context>
@@ -55747,6 +56178,26 @@ ohjeita.</translation>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>SVG-kuvaa ei voitu lukea, tai mitään sen sisältöä ei voi näyttää turvallisesti.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>Kuvaa ei voitu kopioida. Yritä uudelleen tai ota yhteyttä sivuston ylläpitäjään.</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>Valittua objektia ei ole olemassa tai sinulla ei ole oikeutta lukea sitä.</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>Valitulla objektilla ei ole kuvaa.</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>Valitun objektin kuvatiedostoa ei voitu lukea.</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>Valitun objektin kuva on suurempi kuin tämä kenttä sallii: %1 tavua.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56277,6 +56728,42 @@ ohjeita.</translation>
         <source>The bookmark was renamed to "%name".</source>
         <translation>Kirjanmerkin uusi nimi on ”%name”.</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>Tämä sivu on poistettu käytöstä tässä sivustoyhteydessä (%siteaccess). Avaa kirjanmerkki sivustoyhteydessä, jossa sivu on käytössä.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>Tämän sivun moduulia ei ole asennettu tai otettu käyttöön tässä.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>Tätä sivua ei ole enää olemassa: sen moduulissa ei ole tällaista näkymää.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>Mikään roolisi ei salli tämän sivun avaamista.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>Sinulla ei ole oikeutta käyttää tätä sivustoyhteyttä.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>Sinulla ei ole oikeutta lukea tämän sivun näyttämää sisältöä.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>Tällaista sivua ei voi lisätä kirjanmerkkeihin: se vain käsittelee lomaketta tai on hetkellinen sivu.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>Tämän sivun osoite puuttuu.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>Tätä sivua ei voi avata nyt.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56748,6 +57235,10 @@ Solmun luokka on vaihdettava vaihtotoiminnolla.</translation>
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>Sähköpostin välitystapa hylkäsi viimeisimmässä ajossa viestejä: %count. Tarkista sähköpostipalvelin ja site.ini MailSettings.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Odottavia tapahtumia: %count, eikä ilmoitusten Cron-työn suorituksia ole kirjattu. Lisää Cron-työn osa ”frequent” crontabiin tai suorita exp:notification:run --apply.</translation>
     </message>
 </context>
 <context>
@@ -63004,6 +63495,10 @@ Solmun luokka on vaihdettava vaihtotoiminnolla.</translation>
         <source>Choose another site or section with the node picker</source>
         <translation>Valitse toinen sivusto tai sivuston osa solmun valitsimella</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>Vain järjestelmänvalvoja voi vaihtaa omistajan: suorita ./console exp:content-check --fix-permissions --apply root-käyttäjänä.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64537,6 +65032,10 @@ Solmun luokka on vaihdettava vaihtotoiminnolla.</translation>
     <message>
         <source>empty</source>
         <translation>tyhjä</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>Allekirjoitusavain on yli vuoden vanha: vaihda se komennolla exp:audit key rotate --apply.</translation>
     </message>
 </context>
 <context>
@@ -68367,6 +68866,486 @@ Solmun luokka on vaihdettava vaihtotoiminnolla.</translation>
         <source>Share of page time</source>
         <translation>Osuus sivun ajasta</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>pyydettiin täydellistä muodostusta</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>sivuvälimuistissa ei ollut sivua (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>sivuvälimuisti ei vastannut</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>Muodostettu</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>Järjestelmäytimen muodostama: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>Toimitettu sivuvälimuistista ajassa %ms ms. Sivu tallennettiin %stored muodostuksella, joka kesti %render ms, %age s sitten.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>Muodosta nyt</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>Takaisin välimuistissa olevaan näkymään</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>Muodostuksesta %stored (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>Tämä pyyntö: toimitettu sivuvälimuistista ajassa %ms ms.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Käyttäjä</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>Käyttäjän tunnus</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>Välimuistiprofiili</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>Tämä näkymä</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>Näkymävälimuisti</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>käyttäjäkohtainen (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>Käyttäjän välimuistiprofiili: saman profiilin käyttäjät jakavat näkymävälimuistin tiedostot</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>kyllä</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ei</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Käyttäjätunnus</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>Kirjautunut</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>Istunto</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>Sisältönäkymän välimuistiavaimen käyttäjästä riippuvat osat, juuri niin kuin avain ne ottaa, tämän sivun ViewCacheTweaks-asetusten mukaan. Saman profiilin käyttäjät jakavat näkymien välimuistitiedostot, ellei itse näkymän osat eroa (asetukset, kuuntelijoiden avaimet): niillä on oma profiilinsa, vain tällä sivulla.</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>Profiili</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>Tämä näkymä (solmu %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: jokaisella kirjautuneella käyttäjällä on omat välimuistitiedostonsa.</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>Voimassa olevat ViewCacheTweaks: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>Osa</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>Arvo</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>Mikään osa ei riipu käyttäjästä (ViewCacheTweaks).</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>tämä näkymä</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>Kopioi tekstinä</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>Roolit</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>Roolimäärityksiä ei voitu lukea.</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>Roolin ID</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Rooli</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>Rajoitus</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>Määritetty</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>käyttäjälle</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>ryhmä %name (objekti %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>Kopioitu</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>Kopiointi epäonnistui.</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>kuuntelija jätti pois</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>Anonyymit vierailijat</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>sama kuin sinun</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>eri</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>Profiili, jonka anonyymit vierailijat saavat samoilla ViewCacheTweaks-asetuksilla, oletusasetuksin, ilman näkymän osia: istuntoa lukevalta kuuntelijalta ei voi kysyä niitä.</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>Asetukset</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>Mikään näkymätila ei riipu käyttäjän asetuksista (site.ini [ContentSettings] CachedViewPreferences).</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>Asetukset, joista näiden näkymätilojen näkymät riippuvat (CachedViewPreferences), käyttäjän arvolla tai oletuksella. Ne ovat profiilissa nimellä userpreferences, kaikkien näkymätilojen yhdessä.</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>Näyttötila</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>Asetus</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>Oletus</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>Käytännöt</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>Näytä roolien käytännöt (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>Käytännöt ladataan palvelimelta, kun tämä osio avataan, sivu kerrallaan, ja niitä voi suodattaa moduulin ja funktion mukaan.</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>Toiminto</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>Kaikki moduulit</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>Kaikki funktiot</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>Rajoitukset</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>Näytä lisää</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>Näillä rooleilla ei ole käytäntöjä.</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>Mikään käytäntö ei vastaa suodatinta.</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%shown / %matching käytäntöä (yhteensä %total)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>Ladataan avattaessa.</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>module/function, rooli, rajoitus</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>Hae käytäntöjä</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>Lataa lisää</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>Moduuli/toiminto</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>Kaikki roolit (%count käytäntöä)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>Mikään käytäntö ei täsmää.</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%shown / %matched käytäntöä</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>Ei vastausta</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>peitetty</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>Näytä selitykset</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>Piilota selitykset</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Avaa</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>Avaa kaikki</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>Sulje kaikki</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>Avain tai arvo</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>Hae istunnosta</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Tyyppi</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>%count lisää</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>liian syvälle sisäkkäinen näytettäväksi</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>katkaistu, yhteensä %count merkkiä</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Aloitettu</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>Evästeen nimi</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>Istunnon tunnus</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>Käsittelijä</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>Tallennuspolku</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>PHP:n oletus</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>Elinaika (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>Eväste</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>elinaika %s s</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>Oma PHP-istuntosi sellaisena kuin se oli, kun osio avattiin, ei koskaan jonkun toisen. Salaisuuksilta näyttävien avainten (tunnisteet, tiivisteet, salasanat) arvot peitetään (debugbar.ini SessionMask[]); kaikki muu näytetään tallennetussa muodossa, myös henkilötiedot.</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>%count avainta, %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>suuri</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>Istunto on tyhjä.</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>Tälle pyynnölle ei aloitettu istuntoa.</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Laajennus %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>Ydin ja muut</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>Kaikkia merkintöjä ei näytetä: istunnossa on enemmän kuin tässä voidaan luetella.</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>%count avainta ei ole luettelossa.</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>Kehys</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>Myös tunnisteelta näyttävät arvot (JSON Web Token, Authorization-otsakkeen tunnistetiedot, yksityinen avain, pitkä heksadesimaali- tai satunnaisteksti) peitetään, olipa niiden avaimen nimi mikä tahansa (debugbar.ini SessionValueMask[]).</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>Avain näyttää salaisuudelta (debugbar.ini SessionMask[]).</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>Arvo näyttää tunnisteelta.</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>Peitetyn avaimen alla.</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>Istunto tekstinä, peitettynä kuten taulukko.</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>Istunto on suurempi kuin %size (debugbar.ini SessionWarnBytes): jokainen tämän käyttäjän pyyntö lukee koko istunnon ja kirjoittaa sen, kun se on muuttunut.</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP säilyttää tämän istunnon tiedostoissa ja lukitsee tiedoston koko pyynnön ajaksi: saman käyttäjän pyynnöt (useat välilehdet, AJAX-kutsut) odottavat toisiaan.</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>Pidä auki</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>Suurempi kuin %size (debugbar.ini SessionWarnBytes): jokainen tämän käyttäjän pyyntö lukee koko istunnon.</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%hits/%count luettu välimuistista</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>Yhtään mallia ei hahmonnettu (näkymävälimuistista luettu näkymä ei hahmonna yhtään).</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>Roolien määritykset</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>Roolit ja käytännöt</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>eri kuin anonyymeillä vierailijoilla</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>sama kuin anonyymeillä vierailijoilla</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70247,6 +71226,14 @@ Solmun luokka on vaihdettava vaihtotoiminnolla.</translation>
     <message>
         <source>not sent</source>
         <translation>ei lähetetty</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Ilmoitusten Cron-työ kirjaa tähän jokaisen suorituksensa. Lisää osa frequent crontabiin tai suorita exp:notification:run --apply.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>Käytä konsolia: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -75965,6 +76952,98 @@ Solmun luokka on vaihdettava vaihtotoiminnolla.</translation>
         <source>This topic is not Released; readers do not see it.</source>
         <translation>Tätä aihetta ei ole julkaistu; lukijat eivät näe sitä.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migraatiot</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Tiedostoina säilytetyt asennuksen muutokset: niiden tila, ajot, ajaminen ja peruminen.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Julkaise sivuston staattinen kopio GitHub Pagesiin tai mihin tahansa git-palveluun.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Staattinen julkaisu</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>Tarkistuksessa</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>Lukijat näkevät tämän sivun.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>Piilotettu lukijoilta, kunnes joku julkaisee sen.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>Sivu on nyt tarkistuksessa. Se on piilotettu lukijoilta, kunnes se julkaistaan.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>Sivu on julkaistu: lukijat näkevät sen nyt.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>Sivu on taas luonnos. Se on piilotettu lukijoilta, kunnes se tarkistetaan ja julkaistaan.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>Julkaise nyt</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>Vain käyttäjä, jolla on rooli %role ja joka ei kirjoittanut tätä versiota, voi julkaista sen.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>Julkaisua odottavat ohjeaiheet</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>Piilottaa sen lukijoilta, kunnes se julkaistaan uudelleen.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>Seuraavaksi tarkistaja käy sen läpi. Lukijat eivät vielä näe sitä.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>Lukijat näkevät sen heti.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>Poistaa sen tarkistuksesta lisätyötä varten. Lukijat eivät näe sitä.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>Piilotetaanko tämä sivu lukijoilta?</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>Palautetaanko tämä sivu luonnokseksi?</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>Lukijat eivät enää näe sivua %title, ennen kuin joku julkaisee sen uudelleen.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title palaa luonnokseksi lisätyötä varten. Lukijat eivät vieläkään näe sitä, ja se tarvitsee uuden tarkistuksen ennen julkaisua.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Peruuta</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>Nämä aiheet ovat tarkistuksessa. Lukijat näkevät ne, kun joku, joka ei kirjoittanut nykyistä versiota, julkaisee ne.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76136,6 +77215,10 @@ Solmun luokka on vaihdettava vaihtotoiminnolla.</translation>
     <message>
         <source>Setup &gt; Cronjobs</source>
         <translation>Asetukset &gt; Cron-työt</translation>
+    </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>Mitään Cron-työn osaa ei ole vielä suoritettu: työjono, tuonnit, ilmoitukset ja hakuindeksi odottavat. Suorita php bin/php/installcrontab.php --add --apply tai lisää --show-komennon rivit crontabiin.</translation>
     </message>
 </context>
 <context>
@@ -76475,6 +77558,46 @@ Solmun luokka on vaihdettava vaihtotoiminnolla.</translation>
         <source>None.</source>
         <translation>Ei yhtään.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>todennussovelluksella</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>sähköpostitse saadulla koodilla</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>palautuskoodilla</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>pääsyavaimella</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>ulkoisella tilillä</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Tietoturvatapahtumat</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>Näytetään verkkona; osoite säilytetään sivuston tietosuoja-asetusten mukaisesti.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Ei kirjattu</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Sijainti</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>likimääräinen</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76718,6 +77841,42 @@ Solmun luokka on vaihdettava vaihtotoiminnolla.</translation>
         <source>Manage devices</source>
         <translation>Hallitse laitteita</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>todennussovelluksella</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>sähköpostitse saadulla koodilla</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>palautuskoodilla</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>pääsyavaimella</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>ulkoisella tilillä</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Tietoturvatapahtumat</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Ei kirjattu</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Sijainti</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>likimääräinen</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76797,6 +77956,14 @@ Solmun luokka on vaihdettava vaihtotoiminnolla.</translation>
         <source>View the sessions of this user</source>
         <translation>Näytä tämän käyttäjän istunnot</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>Tililläsi %login sivustolla %site kirjauduttiin juuri sisään paikasta, josta sillä ei ole viime aikoina kirjauduttu:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>Likimääräinen sijainti</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76835,6 +78002,10 @@ Solmun luokka on vaihdettava vaihtotoiminnolla.</translation>
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%browser käyttöjärjestelmässä %os</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Kirjautumisraportti</translation>
     </message>
 </context>
 <context>
@@ -77043,6 +78214,82 @@ Solmun luokka on vaihdettava vaihtotoiminnolla.</translation>
         <source>The passkey could not be checked. Please try again.</source>
         <translation>Pääsyavainta ei voitu tarkistaa. Yritä uudelleen.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>Tilit, jotka kirjautuvat vain pääsyavaimilla, eivät voi käyttää salasanaa tässä: valitse ”Kirjaudu pääsyavaimella”.</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>Käyttäjän %login pääsyavaimet</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>Pääsyavaimet, joilla tämä tili kirjautuu. Mitätöi avain, joka on kadonneessa tai varastetussa laitteessa: sillä ei voi enää kirjautua. Omistaja lisää uudet itse.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>Tilisi tarvitsee pääsyavaimen</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>Lisää tilillesi pääsyavain</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>Lisää pääsyavain jatkaaksesi. Sen jälkeen kirjaudut sillä pelkän salasanan sijaan.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>Kirjautuminen pääsyavaimella on nopeampaa ja turvallisempaa kuin salasanalla. Lisää avain nyt tai jatka ilman sitä.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>Ei nyt</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>Mitätöidäänkö pääsyavain ”%name”?</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>Sillä ei voi enää kirjautua tälle tilille. Jos se oli viimeinen, omistaja kirjautuu salasanalla, tai asetat uuden.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>Mitätöi pääsyavain</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>Mitätöi</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>Tällä tilillä ei ole pääsyavainta.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>Todennin</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Tuntematon</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>Viimeinen pääsyavaimesi: lisää toinen ennen kuin poistat sen.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>Tämä tili kirjautuu vain pääsyavaimilla (pääsyavainkäytäntö): kun yhtään ei ole jäljellä, se kirjautuu taas salasanallaan.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>Tämä on viimeinen pääsyavaimesi, eikä tilisi voi kirjautua ilman sitä. Lisää ensin toinen pääsyavain.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>Pääsyavain ”%name” mitätöitiin. Sillä ei voi enää kirjautua tälle tilille.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77142,6 +78389,34 @@ Solmun luokka on vaihdettava vaihtotoiminnolla.</translation>
         <source>Code from your authenticator app</source>
         <translation>Todennussovelluksen koodi</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>Olet poistamassa tietoja pysyvästi tai tyhjentämässä lokia.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>Salasanasi ja pääsyavain</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>Salasanasi ja todennussovelluksesi koodi</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>Tai:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>Tämä selain ei voi käyttää pääsyavaimia. Käytä toista tapaa tai toista selainta.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>Kun jatkat, selaimesi pyytää yhtä pääsyavaimistasi.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>Jatka pääsyavaimella</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77232,6 +78507,70 @@ Solmun luokka on vaihdettava vaihtotoiminnolla.</translation>
     <message>
         <source>Setup</source>
         <translation>Asetukset</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>Oman salasanan, sähköpostiosoitteen, pääsyavainten, kaksivaiheisen kirjautumisen, palautuskoodien tai API-avainten muuttaminen sekä omien muiden laitteiden uloskirjaaminen.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>Käyttäjien luominen ja muokkaaminen, heidän salasanansa ja laitteensa, tiliasetukset, uusien käyttäjätilien hyväksyminen tai hylkääminen, roolien määrittäminen ja käytäntöjen muokkaaminen.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>Tietojen poistaminen</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>Roskakorin tyhjentäminen, kohteiden poistaminen siitä ja useiden kohteiden poistaminen kerralla.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>Sisällön poistaminen, julkaiseminen ja tallentaminen</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>Sisällön poistaminen (myös roskakoriin), julkaiseminen ja luonnoksen tallentaminen; kysytään lomaketta lähetettäessä. Oletuksena pois päältä.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>Ennen arkaluonteista toimintoa kirjautunut käyttäjä vahvistaa uudelleen henkilöllisyytensä: salasanallaan ja pääsyavaimella, tai ilman pääsyavainta salasanallaan ja todennussovelluksensa koodilla. Vain verkkosivut kysyvät: REST-rajapinta, SOAP, WebDAV, expservices-kirjautuminen ja komentorivi eivät koskaan.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>Missä asetukset ovat voimassa</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>Asetukset kohteelle</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Jokainen sivustoyhteys</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>Vain sivustoyhteys %name</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Avaa</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>Keneltä kysytään: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>Valitse käyttäjäryhmät, jos haluat kysyä vain niiden jäseniltä (esimerkiksi toimittajilta). Ei valintoja: jokaiselta käyttäjältä.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>Tallennetaan tiedostoon settings/override/site.ini.append.php, jokaiselle sivustoyhteydelle. Tallennettaessa sinua pyydetään vahvistamaan henkilöllisyytesi.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>Tallennetaan tiedostoon settings/siteaccess/%name/site.ini.append.php. Tiedoston settings/override arvo on tämän edellä. Tallennettaessa sinua pyydetään vahvistamaan henkilöllisyytesi.</translation>
     </message>
 </context>
 <context>
@@ -77366,6 +78705,6822 @@ Solmun luokka on vaihdettava vaihtotoiminnolla.</translation>
     <message>
         <source>Open the page</source>
         <translation>Avaa sivu</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from - %to, yhteensä %count</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>Kirjautumistunnus tai käyttäjän ID: tili, jota tapahtuma koski, tai käyttäjä, joka toimi.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Tili</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Toiminto</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>Jälkeen</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>Mikä tahansa tulos</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Ennen</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Tekijä</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Tyhjennä</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Valmis</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>Tapahtumia säilytetään %days päivää.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>Tapahtumia säilytetään, kunnes ne poistetaan käsin.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Tapahtumat</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>Kaikki toiminnot</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>Kaikki tämän tilin tapahtumat</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>Vie luettelo CSV-muodossa (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Epäonnistui</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Alkaen</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>Rajaa luetteloa</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>Mikään tapahtuma ei vastaa hakua.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Sivua kohden</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>Tallennus on poistettu käytöstä tiedostossa audit.ini ([UserAuditSettings] UserAudit); luettelo näyttää aiemmin tallennetut tapahtumat.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Hylätty</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Tulos</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Näytä</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>Käyttäjien valvontalokin taulu puuttuu. Luo se komennolla php update/common/scripts/6.0/createuseraudittable.php; siihen asti valvontatiedostot säilyttävät jokaisen tapahtuman.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>Tämä sivu tarvitsee SQL-tietokannan; se ei ole käytettävissä, kun tietokantana on MongoDB. Valvontatiedostot säilyttävät jokaisen tapahtuman.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Asti</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Käyttäjien valvontaloki</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Käyttäjä</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Milloin</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Missä</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>Kuka muutti, loi, otti käyttöön, poisti käytöstä, siirsi tai poisti minkäkin tilin, kuka kirjautui tai hylättiin ja mitkä roolit määritettiin: yksi rivi tapahtumaa kohden, kentät ennen ja jälkeen. Salasanoja ja salaisuuksia ei koskaan tallenneta.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>ryhmä</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>järjestelmä</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>tuntematon</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>Suojaa tilisi</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>Tilillesi %login sivustolla %site kirjauduttiin palautuskoodilla.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>Palautuskoodia käytettiin</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Tili</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>Likimääräinen osoite</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>Pyydä uusi salasana kirjautuaksesi uudelleen tai ota yhteyttä sivuston ylläpitäjiin.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>Pyydä uusi salasana</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>Kukin palautuskoodi toimii kerran. Jos kadotit puhelimesi, määritä todennussovellus uudelleen ja säilytä uudet palautuskoodit turvallisessa paikassa.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>Epäonnistuneita kirjautumisyrityksiä tilillesi</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>Tästä lähtien kirjautuminen kysyy salasanan lisäksi koodia. Jos teit tämän itse, sinun ei tarvitse tehdä mitään.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>Jos se olit sinä ja unohdit salasanasi, pyydä uusi. Jos et, valitse vahvempi salasana ja ota kaksivaiheinen kirjautuminen käyttöön.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>Jos se et ollut sinä, joku saattaa tietää salasanasi: vaihda se nyt ja tarkista, missä tilisi on kirjautuneena.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>Palautuskoodeja jäljellä</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>Tarkista laitteesi</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>Tietoturvailmoitus</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>Joku yritti kirjautua tilillesi %login sivustolla %site väärällä salasanalla useita kertoja peräkkäin (yrityksiä: %count).</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>Tililläsi %login sivustolla %site tapahtui tietoturvatapahtuma.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>Tämä on tiliäsi koskeva tietoturvailmoitus. Se lähetetään jokaisesta tällaisesta muutoksesta, eikä sitä voi poistaa käytöstä.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Aika</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>Kaksivaiheinen kirjautuminen poistettiin käytöstä tililtäsi %login sivustolla %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>Kaksivaiheinen kirjautuminen poistettiin käytöstä</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>Kaksivaiheinen kirjautuminen otettiin käyttöön tilillesi %login sivustolla %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>Kaksivaiheinen kirjautuminen otettiin käyttöön</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>Tilisi %login sivustolla %site lukittiin liian monen epäonnistuneen kirjautumisen jälkeen.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>Tiliäsi suojaa nyt pelkkä salasana. Jos et tehnyt tätä itse, ota kaksivaiheinen kirjautuminen uudelleen käyttöön vaihdettuasi salasanasi.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>Tilisi lukittiin</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>Tilillesi %login sivustolla %site lisättiin pääsyavain.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>Kuka tahansa, jolla tämä pääsyavain on, voi kirjautua tilillesi ilman salasanaasi. Jos et lisännyt sitä, poista se kohdassa Pääsyavaimet ja vaihda salasanasi.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>Tililtäsi %login sivustolla %site poistettiin pääsyavain.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>Sillä ei voi enää kirjautua tilillesi. Jos et poistanut sitä, tarkista pääsyavaimesi ja laitteesi.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>Tilillesi lisättiin pääsyavain</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>Tililtäsi poistettiin pääsyavain</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>Tietoturvatapahtumat</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Tietoturvatapahtumat: %name</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Kirjautunut</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Epäonnistunut kirjautumisyritys</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Kirjattu ulos</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Istuntoja kirjattu ulos</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Kirjautuminen uudelta laitteelta</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Kirjautuminen uudesta sijainnista</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Henkilöllisyys vahvistettu (”Vahvista henkilöllisyytesi”)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Henkilöllisyyden tarkistus epäonnistui</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Kirjautunut pääsyavaimella</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Kirjautuminen pääsyavaimella epäonnistui</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Kirjautuminen estetty: kaksivaiheisen kirjautumisen koodi puuttuu tai on väärä</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Väärä kaksivaiheisen kirjautumisen koodi</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Tili lukittu epäonnistuneiden kirjautumisten jälkeen</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Tilin lukitus avattu</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Salasana vaihdettu</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Salasanan vaihto epäonnistui</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Salasana nollattu</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Uutta salasanaa pyydetty</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Sähköpostiosoite muutettu</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Käyttäjätunnus muutettu</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Kaksivaiheinen kirjautuminen otettu käyttöön</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Kaksivaiheinen kirjautuminen poistettu käytöstä</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Palautuskoodi käytetty</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Uudet palautuskoodit</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Sovellussalasana luotu</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Sovellussalasana mitätöity</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Pääsyavain lisätty</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Pääsyavain poistettu</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Tili käytössä</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Tili poistettu käytöstä</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Kaikki</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Kirjautumiset ja istunnot</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Tilin muutokset</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Vaatii huomiota</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>sinun tekemäsi</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>käyttäjän tekemä</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>tekijä: %login</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>Menetelmä</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>Selain</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>Käyttöjärjestelmä</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Laite</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>Paikka</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>Maa</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Istunnot</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>Mitkä</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>Kanava</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Epäonnistuneet yritykset</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>Koodeja jäljellä</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>Kirjautumisen käsittelijä</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Tietoturvatapahtumat</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Tietoturvatapahtumat: %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Tilisi kirjautumiset ja tietoturvamuutokset. Jos näet jotain, mitä et ole tehnyt, vaihda salasanasi ja kirjaa ulos laitteet, joita et tunnista.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>Tämän tilin kirjautumiset ja tietoturvamuutokset.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Laitteesi</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Vaihda salasana</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>Takaisin tiliin</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>Tietoturvatapahtumia ei kirjata</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>Ne luetaan käyttäjien valvontalokista, jonka taulu expuser_audit puuttuu tai jota tämä tietokanta ei tue. Suorita php update/common/scripts/6.0/createuseraudittable.php tai version 6.0.15 tietokantapäivitys.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Viimeiset päivät: %days</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Kirjautumiset viime päivinä (päiviä: %days)</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>Viimeaikaiset tietoturvatapahtumat</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Näytä</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>epäonnistui</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>estetty</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Tietoturvatapahtumia ei ole vielä kirjattu.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>Tietoturvatapahtumia säilytetään rajatun ajan (päiviä: %days).</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>Tietoturvatapahtumia säilytetään, kunnes järjestelmänvalvoja poistaa ne.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Lataa kirjautumistietoni</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Istuntosi ja tietoturvatapahtumasi JSON-tiedostona.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Tämä sivusto ei tallenna istuntoja, joten muita laitteita ei voitu kirjata ulos. Vaihda salasanasi nyt.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count muuta istuntoa kirjattiin ulos. Vaihda nyt salasanasi.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Muita laitteita ei ollut kirjautuneena. Vaihda nyt salasanasi.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Kiitos. Tapahtuma on merkitty omaksesi.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Tämä tapahtuma ei vaadi vastausta.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Sivu oli vanhentunut. Mitään ei muutettu; yritä uudelleen.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Suojaa tilisi</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Jos jokin tässä ei ollut sinä, kirjaa ulos kaikki muut laitteet ja valitse sitten uusi salasana. Myös Muista minut -toiminnolla kirjautuneina pidetyt laitteet kirjataan ulos.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Kaikki laitteet tätä lukuun ottamatta kirjataan ulos niiden seuraavassa pyynnössä. Sen jälkeen valitset uuden salasanan.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Kyllä, kirjaa muut laitteet ulos</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Olitko tämä sinä?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Kyllä, se olin minä</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Ei, suojaa tilini</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Kirjautunut</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Epäonnistunut kirjautumisyritys</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Kirjattu ulos</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Istuntoja kirjattu ulos</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Kirjautuminen uudelta laitteelta</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Kirjautuminen uudesta sijainnista</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Henkilöllisyys vahvistettu (”Vahvista henkilöllisyytesi”)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Henkilöllisyyden tarkistus epäonnistui</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Kirjautunut pääsyavaimella</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Kirjautuminen pääsyavaimella epäonnistui</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Kirjautuminen estetty: kaksivaiheisen kirjautumisen koodi puuttuu tai on väärä</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Väärä kaksivaiheisen kirjautumisen koodi</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Tili lukittu epäonnistuneiden kirjautumisten jälkeen</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Tilin lukitus avattu</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Salasana vaihdettu</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Salasanan vaihto epäonnistui</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Salasana nollattu</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Uutta salasanaa pyydetty</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Sähköpostiosoite muutettu</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Käyttäjätunnus muutettu</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Kaksivaiheinen kirjautuminen otettu käyttöön</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Kaksivaiheinen kirjautuminen poistettu käytöstä</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Palautuskoodi käytetty</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Uudet palautuskoodit</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Sovellussalasana luotu</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Sovellussalasana mitätöity</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Pääsyavain lisätty</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Pääsyavain poistettu</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Tili käytössä</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Tili poistettu käytöstä</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Kaikki</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Kirjautumiset ja istunnot</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Tilin muutokset</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Vaatii huomiota</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Tietoturvatapahtumat</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Tietoturvatapahtumat: %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Tilisi kirjautumiset ja tietoturvamuutokset. Jos näet jotain, mitä et ole tehnyt, vaihda salasanasi ja kirjaa ulos laitteet, joita et tunnista.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Laitteesi</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Vaihda salasana</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>Tietoturvatapahtumia ei vielä kirjata tällä sivustolla.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Kirjautumiset viime päivinä (päiviä: %days)</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Epäonnistuneet yritykset</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Tietoturvatapahtumia ei ole vielä kirjattu.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Lataa kirjautumistietoni</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Istuntosi ja tietoturvatapahtumasi JSON-tiedostona.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Tämä sivusto ei tallenna istuntoja, joten muita laitteita ei voitu kirjata ulos. Vaihda salasanasi nyt.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count muuta istuntoa kirjattiin ulos. Vaihda nyt salasanasi.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Muita laitteita ei ollut kirjautuneena. Vaihda nyt salasanasi.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Kiitos. Tapahtuma on merkitty omaksesi.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Tämä tapahtuma ei vaadi vastausta.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Sivu oli vanhentunut. Mitään ei muutettu; yritä uudelleen.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Suojaa tilisi</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Jos jokin tässä ei ollut sinä, kirjaa ulos kaikki muut laitteet ja valitse sitten uusi salasana. Myös Muista minut -toiminnolla kirjautuneina pidetyt laitteet kirjataan ulos.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Kaikki laitteet tätä lukuun ottamatta kirjataan ulos niiden seuraavassa pyynnössä. Sen jälkeen valitset uuden salasanan.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Kyllä, kirjaa muut laitteet ulos</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Olitko tämä sinä?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Kyllä, se olin minä</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Ei, suojaa tilini</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>Salasana</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>Salasana ja kaksivaiheisen kirjautumisen koodi</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>REST-rajapinta</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>SOAP-rajapinta</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>Kertakirjautuminen</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>Kirjautunut ennen istuntojen tallentamista</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Kirjautumisraportti</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>Kuka on kirjautuneena sivustolle, kuinka usein tilit kirjautuvat ja epäonnistuvat siinä, sekä käyttäjän uloskirjaus kaikkialta. Toimii kaikkien istuntojen käsittelijöiden kanssa.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>Istunto kirjattiin ulos. Laitteen on kirjauduttava uudelleen sisään.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>Käyttäjä %login kirjattiin ulos istunnoista (istuntoja: %count).</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>Käyttäjällä %login ei ollut käynnissä olevaa istuntoa.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>Millään tilillä ei ole tätä tunnusta, käyttäjätunnusta tai sähköpostiosoitetta.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>Tämä on käyttämäsi istunto. Lopeta se kirjautumalla ulos.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>Istunto oli jo päättynyt.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Sivu oli vanhentunut. Mitään ei muutettu; yritä uudelleen.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>Istuntoja ei tallenneta tällä sivustolla (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>Taulu expuser_session puuttuu</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>Istuntoja tallennetaan, kun taulu on luotu: php update/common/scripts/6.0/createusersessiontable.php tai version 6.0.15 tietokantapäivitys.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>Nyt ja tänään</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>Käynnissä olevat istunnot</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>Kirjautuneet käyttäjät</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>Kirjautumiset tänään</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>Epäonnistuneet yritykset tänään</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>Kirjaa käyttäjä ulos kaikkialta</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>Tilin jokainen istunto päättyy sen seuraavassa pyynnössä, myös ”Muista minut” -toiminnon ylläpitämät. Käytä tätä, kun tili saattaa olla väärissä käsissä; nollaa sitten sen salasana.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>Käyttäjän tunnus, käyttäjätunnus tai sähköpostiosoite</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>Kirjaa ulos kaikkialta</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>Kirjautuneena nyt</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>Näytetään viimeksi käytetyt (enintään: %limit).</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Käyttäjä</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Laite</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Osoite</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>Kirjautunut</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>Viimeksi aktiivinen</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Toiminnot</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>Tämä laite</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Ei kirjattu</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>Kirjaa ulos</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>Yhtään istuntoa ei ole kirjautuneena.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Viimeiset päivät: %days</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>Kirjautumiset ja epäonnistuneet yritykset lasketaan käyttäjien valvontalokista, jota ei ole; uudet istunnot lasketaan.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>Päivä</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>Kirjautumiset</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Epäonnistuneet yritykset</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>Uudet istunnot</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>Istuntojen käsittelijä: %handler. Istunnot luetaan taulusta expuser_session, joten raportti toimii kaikkien käsittelijöiden kanssa.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>Epäilyttävää toimintaa viimeisten %hours tunnin aikana</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>Yksi verkko epäonnistui kirjautumaan %accounts tilille (%count yritystä)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Tili lukittu epäonnistuneiden kirjautumisten jälkeen</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>%count epäonnistunutta kirjautumista yhdelle tilille</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>Kirjautuneena %count maasta samanaikaisesti</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Tietoturvatapahtumat</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Istunnot</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>Epäonnistuneet kirjautumiset luetaan käyttäjien tarkastuslokista, joka ei ole käytettävissä täällä.</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>Ei mitään epäilyttävää: ei tiliä, jolla on toistuvia epäonnistuneita kirjautumisia, ei verkkoa, joka kokeilee useita tilejä, eikä tiliä, joka on kirjautunut useasta maasta.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>Tilisi tietoturvailmoitus</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>Tililläsi %login tapahtui tietoturvatapahtuma: %event. Jos se et ollut sinä, suojaa tilisi osoitteessa %url.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Asetukset</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>Pyydä tämän sivuston sisällöltä yhdellä pyynnöllä täsmälleen ne kentät, joita sivu tarvitsee. Rakenne seuraa sisältöluokkia; jokainen kysely suoritetaan sen lähettäneen käyttäjän oikeuksilla.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>GraphQL API on poistettu käytöstä tässä sivustoyhteydessä. Ota se käyttöön tiedostossa graphql.ini: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>GraphQL-kirjastoa (webonyx/graphql-php 15) ei ole asennettu.</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>Päätepiste</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>Kirjasto</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>Rakenne</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>Sisältöluokkia: %count, rakenne %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>Kysely</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>Muuttujat (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Suorita</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>Vastaus</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>Suoritetaan…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>Vastausta ei voitu lukea.</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>Kysely suoritetaan sinun oikeuksillasi, tällä istunnolla kirjautuneena.</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%count / %seconds s</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>ei rajaa</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>Syvyys</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>Monimutkaisuus</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>Kohteita luettelossa</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (oletus %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>Pyyntöjä käyttäjää tai avainta kohden</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>Pyyntöjä anonyymiä osoitetta kohden</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>Introspektio</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>Vain tallennetut kyselyt</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>Suurin kysely</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>%bytes tavua</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>Suurin lataus</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>Sivustoyhteyttä %siteaccess ei ole.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>Mutaatiot on otettu käyttöön sivustoyhteydessä %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>Mutaatiot on poistettu käytöstä sivustoyhteydessä %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>GraphQL API on otettu käyttöön sivustoyhteydessä %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>GraphQL API on poistettu käytöstä sivustoyhteydessä %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>Asetuksia ei voitu kirjoittaa: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>Vastausvälimuisti tyhjennettiin: %count vastausta poistettu.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>Valitse kyselyn vieressä oleva ruutu poistaaksesi sen.</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>Kyselyä ei voitu poistaa: PersistedQueryDirectoryList[]-hakemistossa toimitettu kysely poistetaan tiedostonsa mukana.</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>Tallennettu kysely poistettiin.</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>Mutaatiot</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>päällä</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>pois</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Sivustoyhteydet</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>Missä API ja sen mutaatiot vastaavat. Painikkeet kirjoittavat graphql.ini-tiedostoon, kuten ./console exp:graphql:enable ja exp:graphql:disable tekevät.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Sivustoyhteys</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>GraphQL API</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Muuta</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Poista käytöstä</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>Mutaatiot pois</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>Mutaatiot päällä</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Ota käyttöön</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>Rajat</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>Tämän sivustoyhteyden graphql.ini [GraphQLSettings].</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>Vastausvälimuisti</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>Tallennettujen kyselyjen vastaukset, säilytetään käyttöoikeuksittain ja vanhennetaan aina, kun sisältöä julkaistaan.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Tila</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>Säilytetyt vastaukset</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>%count vastausta, %bytes tavua</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>Säilytetään enintään</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds s</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>Viimeksi vanhennettu</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>Tyhjennä vastausvälimuisti</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>Tallennetut kyselyt</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>Tallennettu komennolla ./console exp:graphql:persist tai asiakkaiden toimesta (automaattiset tallennetut kyselyt); kutsutaan nimellä tai SHA-256:lla.</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>Nimet</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Koko</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Sijainti</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Poista</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>toimitettu</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>tallennettu</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>Kyllä, poista tämä kysely</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>Ei vielä tallennettuja kyselyjä.</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>API-avaimet</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>Henkilökohtaiset API-avaimet laajuudella graphql:read (kyselyt) tai graphql:write (mutaatiot). Luo ja peruuta niitä sivulla API-käyttö tai komennolla ./console exp:graphql:keys.</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>API-käyttö</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>Kaikki avaimet</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>Avain</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Nimi</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Omistaja</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>Laajuudet</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>Viimeksi käytetty</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>aktiivinen</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>vanhentunut</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>peruutettu</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>ei koskaan</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>Ei vielä API-avainta GraphQL-laajuudella.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>GraphQL API on poistettu käytöstä sivustoyhteydessä %siteaccess, joka näyttää tämän sivun; alla oleva taulukko näyttää, missä se vastaa.</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>Sivustoyhteydelle %siteaccess, joka näyttää tämän sivun.</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>Webhookit</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>Jokainen tapahtuma, jota päätepiste pyytää (publish, update, trash, delete, move, hide, reveal, mutation), lähetetään sille allekirjoitettuna cronjob-osan graphqlwebhooks kautta. ./console exp:graphql:webhooks tekee saman kuin tämä osio.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Tapahtumat</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>kaikki</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Jokainen sivustoyhteys</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>rikki</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>ei salaisuutta</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>Odottaa</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count luovuttu</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>Viimeisin toimitus</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Lähetä testi</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>Kyllä, poista tämä webhook</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>Ei vielä webhookeja.</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>Lisää webhook</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>Lisää</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>Viimeisimmät toimitukset</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Aika</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Tulos</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>Tilaukset</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>Reaaliaikaiset päivitykset asiakkaille: tapahtumavirta osoitteessa /api/graphql/subscribe ja WebSocket (graphql-transport-ws) Velocityssä. Jokainen tapahtuma menee vain tilaajille, jotka saavat lukea sen sisällön.</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>Nyt auki</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>Enintään auki</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>%total yhteensä, %user käyttäjää kohden, %address osoitetta kohden</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>Nimettömät tilaukset</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>Virran kesto</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>Webhookia ei voitu lisätä: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>Webhookia %name muutettiin; sen allekirjoitussalaisuus säilyy.</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>Allekirjoitussalaisuutta ei voitu tallentaa (Asetukset &gt; Salaisuudet).</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>Webhook %name lisättiin. Sen allekirjoitussalaisuus, näytetään vain tämän kerran: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>Webhookia %name ei ole.</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>Webhook %name ei vastannut: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>Webhook %name vastasi %status ajassa %ms ms.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>Valitse webhookin vieressä oleva ruutu poistaaksesi sen.</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>Webhook %name poistettiin.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>GraphQL API on poistettu käytöstä tässä sivustoyhteydessä.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>GraphQL-kirjastoa ei ole asennettu.</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>Käytä GET- tai POST-pyyntöä.</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>Runko ei ole JSON-objekti.</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables ei ole JSON-objekti.</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions ei ole JSON-objekti.</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>Lähetä kysely POST-pyynnöllä.</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>Pyynnössä ei ole kyselyä.</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>Kysely on pidempi kuin %max tavua.</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>Palvelimen sisäinen virhe</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node tarvitsee täsmälleen yhden seuraavista: id, remoteId, path ja urlAlias.</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content tarvitsee täsmälleen yhden seuraavista: id ja remoteId.</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>Argumentin after kursori ei ole tämän API:n antama.</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>Kuva-aliasta %alias ei ole (image.ini [AliasSettings] AliasList[]).</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>Täällä hyväksytään vain tallennettuja kyselyjä: lähetä tallennetun kyselyn id.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>Tallennetun kyselyn tiiviste ei ole SHA-256.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>Tallennetun kyselyn tiiviste ei vastaa kyselyä.</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>Liian monta pyyntöä: enintään %limit %window sekunnissa. Yritä uudelleen %reset sekunnin kuluttua.</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>Kysely on %depth tasoa syvä; enintään %max on sallittu.</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>Kyselyn monimutkaisuus on %complexity; enintään %max on sallittu.</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>Tämä pyyntö ei saa lukea rakennetta (introspektio).</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search tarvitsee tekstin tai suodattimen (classes, subtree, sections, publishedAfter, publishedBefore).</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument ei ole päivämäärä (ISO 8601, 2026-10-30).</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag tarvitsee täsmälleen yhden seuraavista: id, remoteId ja path.</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout tarvitsee täsmälleen yhden seuraavista: id, identifier ja urlAlias.</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>Multipart-pyynnön kenttä operations ei ole yksi JSON-pyyntö.</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>Multipart-pyynnön kenttä map ei ole JSON-objekti.</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>Multipart-pyynnössä ei ole tiedostoa %field.</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>Kenttäkartan polun on alettava merkkijonolla variables.: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>Tiedosto %name ei saapunut kokonaisena (latausvirhe %error).</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>Tiedosto %name on suurempi kuin %max tavua.</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>Tiedostoa %name ei voitu tarkistaa.</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>Mutaatiot on poistettu käytöstä tässä sivustoyhteydessä (graphql.ini [GraphQLSettings] MutationsEnabled).</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>Lähetä mutaatio POST-menetelmällä.</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>Kirjaudu sisään muuttaaksesi sisältöä.</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>API-avaimella ei ole laajuutta %scope.</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>Istunnon kanssa lähetetty mutaatio tarvitsee istunnon lomaketunnisteen (otsake X-CSRF-Token).</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>uploadFromUrl on poistettu käytöstä: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] ei nimeä yhtään isäntää.</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>Osoitteen on oltava https-osoite.</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>Isäntä %host ei ole asetuksessa graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>Tiedostoa ei voitu noutaa.</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload on pelkkä syötetyyppi.</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>Upload-tyyppinen muuttuja ottaa tiedoston multipart-pyynnöstä.</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>Etätunniste %remoteId on jo käytössä.</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>Sisällöllä on jo käännös kielellä %language: käytä updateContent-mutaatiota.</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>Anna vähintään yksi kenttä.</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>Uutta versiota ei voitu luoda (sisällöllä on liian monta luonnosta).</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>Versio %version ei ole luonnos.</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent tarvitsee täsmälleen yhden arvoista id ja nodeId.</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>Sijaintia ei voi siirtää itsensä alle.</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>Sisällöllä on jo sijainti kohteen %parentId alla.</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>Kentän %field arvoa ei voitu tallentaa.</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>Sisältökieltä %language ei ole.</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>Skeemassa ei ole sisältöluokkaa %class.</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>Sisältöä ei ole, tai sinulla ei ole oikeutta lukea sitä.</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>Sinulla ei ole oikeutta tehdä tätä tälle sisällölle.</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>Luokalla %class ei ole kirjoitettavaa kenttää %field.</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>Kenttä %field on annettu kahdesti.</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>Kenttä %field ottaa tiedoston: lähetä se latauksena (multipart-pyyntö).</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>Kenttä %field ei ota tiedostoa.</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>Kenttä %field tarvitsee arvon.</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>Muoto %format on vain rikastekstikentille; %field ottaa arvonsa sellaisenaan (RAW).</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>Kenttä %field on pakollinen.</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>HTML:ää ei voitu lukea.</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content hyväksyy version vain yhdessä id:n kanssa.</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>Esikatselutunniste ei ole kelvollinen tai se on vanhentunut.</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>Ei alkuperä (https://host tai https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>Ei GraphQL API:n laajuus: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>Lähetä tilaukset osoitteeseen /api/graphql/subscribe (tapahtumavirta tai WebSocket).</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>Pyyntö ei nimeä mitään asiakirjan operaatiota.</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>Tilaus pyytää täsmälleen yhtä kenttää.</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>Liian monta tilausta on auki; yritä myöhemmin uudelleen.</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>Sinulla on %max tilausta auki, suurin sallittu määrä.</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>Osoitteellasi on %max tilausta auki, suurin sallittu määrä.</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>Tilaukset on poistettu käytöstä tässä sivustoyhteydessä.</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>Kirjaudu sisään tilataksesi (tunniste tai henkilökohtainen API-avain).</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>Lähetä mutaatiot osoitteeseen /api/graphql.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>Migraatiot</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Tilaa ei voitu lukea: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Migraatioiden tauluja ei ole vielä olemassa: ./console exp:upgrade --apply luo ne.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>%count migraatiota epäonnistui</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>Ajo on käynnissä, käynnistäjä %user</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>Asennus on lukittu: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Odottaa</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Epäonnistuneet</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>Orvot</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Viimeisin ajo</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>ei vielä yhtään</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>Kaikki migraatiot</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>Simuloitu ajo</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>Kuiva-ajo</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>Odottavat migraatiot ajettiin transaktiossa, joka peruttiin jälkeenpäin: mitään ei säilytetty. Alla näkyy, mitä kukin muutti tietokannassa.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>Mitä ajo tekisi nyt. Mitään ei muuteta: jokainen odottava migraatio luettelee tekemänsä muutokset ja ajo sen, mitä se tekisi ennen ja jälkeen.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>Simuloi</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Aja</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>Kuiva-ajo epäonnistui: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>Simulointi vaatii PostgreSQL:n tai SQLiten, joiden skeemamuutokset voidaan perua; tässä tietokannassa alla oleva suunnitelma kertoo, mitä ajo tekisi.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>Migraatiot</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>Migraatio</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Tila</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>Mitä se tekisi</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>Simulointi: %result, %ms ms</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>Ei vielä migraatioita.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>Ennen ajoa ja sen jälkeen</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>Tilannekuva ennen</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>otetaan ja palautetaan, jos migraatio epäonnistuu</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>pois</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>Tilannekuva jälkeen</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>otetaan, kun ajo onnistui</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>%total migraatiota: %pending odottaa, %done valmiina, %failed epäonnistui.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>Migraatiohistoria</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>Jokainen ajo käyttäjineen, ympäristöineen ja tilannekuvineen sekä se, mitä kommitoitiin, merkittiin tunnisteella ja työnnettiin. Epäonnistunutta tai keskeytynyttä ajoa voi jatkaa; ajon, jota ennen otettiin tilannekuva, voi perua.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>Ajoja ei voitu lukea: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Migraatioiden tauluja ei ole vielä olemassa: ./console exp:upgrade --apply luo ne.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Näytä</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Kaikki</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>Ajot</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Aloitettu</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Käyttäjä</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>Tilannekuvat</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Tietovarasto</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Toiminnot</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>ennen</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>jälkeen</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>työntö: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>Jatka</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Peru</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>Ei ajoja tässä tilassa.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>Täällä käynnistetyt</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>Näillä sivuilla käynnistetyt ajot, jatkamiset ja perumiset kunkin raportteineen.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Mitä</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Tulos</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Peruminen</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>Kohteen %target peruminen</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>Ajo %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Mitä ajo teki, sen tietue ja loki. Täällä käynnistetty ajo jatkuu taustalla, kun tämä sivu suljetaan; avaa sivu uudelleen seurataksesi sitä.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>Jatka tätä ajoa</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>Peru tämä ajo</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>Tietuetta ei voitu lukea: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Edistyminen</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Käynnistäjä %user, aika %time.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>Tarkistetaan koodi ja otetaan tilannekuva ennen ajoa</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>Ajetaan %id (%index/%total)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>%done/%total valmiina</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>Migraatiot on ajettu; tilannekuva palautetaan, jos jokin epäonnistui</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>Otetaan tilannekuva ajon jälkeen, kommitoidaan, merkitään tunnisteella ja työnnetään</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>Palautetaan tilannekuvaa</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>Ajo on päättynyt. Ladataan sen raporttia.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>Edistymistä ei voitu seurata. Lataa sivu uudelleen nähdäksesi ajon tilanteen.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>Tämä sivu seuraa ajoa sen edetessä.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Lataa uudelleen</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Raportti</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Kesto</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms millisekuntia</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>Mitä ajo tulosti virheinä</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Tietue</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>Ympäristö</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>ei mitään</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Päättynyt</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Kommitti</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Tunniste</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Työntö</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Viesti</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>Tämän ajon migraatiot</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>Lähde</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>Ajon loki</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>Vain lokin loppu näytetään.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>käynnissä</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>päättyi ilman raporttia</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>onnistui</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>epäonnistui</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>hylätty</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>tietokantaan ei saatu yhteyttä</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>sisäinen virhe</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>Ajo on käynnissä</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind, käynnistäjä %user, aika %time.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>Seuraa sitä</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>Asennus on lukittu</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>Toinen ajo pitää lukkoa (päivitys tai ajo konsolissa): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>valmis</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>odottaa</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>ei tarpeen</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>tuntematon</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>peruttu</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>otettu käyttöön</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>otettaisiin käyttöön</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>peruttu</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>peruttaisiin</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>ei ajettu</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>odottaa toista</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>muutos hyväksytty</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>muutos hyväksyttäisiin</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>simuloitu</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migraatiot</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Tila</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Historia</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>Peru %target</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>Ajo perutaan palauttamalla ennen sitä otettu tilannekuva, yksittäinen migraatio sen down()-metodilla. Aiemman tilannekuvan palauttaminen on asiantuntijoille. Kukin peruminen ajetaan taustalla sinun nimissäsi, kun nykytilasta on ensin otettu tilannekuva.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>Peruttavissa olevia kohteita ei voitu lukea: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>Ajo</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>Yksi migraatio</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>Aiempi tilannekuva</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>Kuvaus</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>kyllä</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ei</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Tilannekuva</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Nimike</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>Otettu</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Laji</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>Palautettavat osat</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>Tietokanta</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>Tallennetut tiedostot (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>Asetukset (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>Palauttaminen vie tietokannan tilannekuvan hetkeen istuntoineen: sinua voidaan pyytää kirjautumaan sen jälkeen uudelleen. Kaikki sen jälkeen muutettu menetetään; nykytilasta otetaan ensin tilannekuva.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>Tiedän, mitä tämä palauttaa</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>Kirjoita tilannekuvan tunnus uudelleen</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>Kyllä, peru</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Peruuta</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>Ajot, joita ennen otettiin tilannekuva.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>Valitse</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>Ei vielä ajoja, joilla on tilannekuva.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>Käyttöön otetut migraatiot, jotka voivat perua itsensä (niillä on down()).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>Yhdelläkään käyttöön otetulla migraatiolla ei ole down()-metodia.</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>Aiemmat tilannekuvat (asiantuntijat)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>Ei vielä tilannekuvia.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>Aja migraatiot</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>Ajo etenee taustalla käyttäjänä %user, ja sen sivu näyttää etenemisen. Ennen ensimmäistä migraatiota asennuksesta otetaan tilannekuva; jos migraatio epäonnistuu, ajo pysähtyy ja tilannekuva palautetaan.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>Ensin kuiva-ajo</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Tilaa ei voitu lukea: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>Odottavat migraatiot</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>Ne ajetaan tässä järjestyksessä. Poista valinta jättääksesi migraation ja siitä riippuvat myöhempään ajoon.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>Aja se</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>Kytkee huoltotilan päälle ajon ajaksi.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>Muutettu käyttöönoton jälkeen</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>Nämä tiedostot eivät ole ne, jotka otettiin käyttöön. Ajo hylkää ne, ellei muutosta hyväksytä perustellen; niitä ei ajeta uudelleen, uusi tarkistussumma tallennetaan ja perustelu säilytetään tarkastuslokissa.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>Hyväksy muutokset</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Perustelu</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>Oletukset ovat turvallisimmat. Jokainen ruutu jättää yhden vaiheen pois.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>Ei tilannekuvaa</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>Ei tilannekuvaa ennen ajoa eikä sen jälkeen: epäonnistumista ei voi palauttaa automaattisesti.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>Ei palautusta</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>Jätä asennus epäonnistumisen jälkeen siihen tilaan, johon epäonnistuminen sen jätti.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>Säilytä kommitoimattomat muutokset</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>Aja, vaikka asetuksissa, laajennuksissa tai ulkoasuissa on kommitoimattomia muutoksia; ne tallentuvat tilannekuvaan.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>Ei kommittia</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>Älä kommitoi tilatiedostoa ja ajon lokia (ei myöskään tunnistetta eikä työntöä).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>Ei työntöä</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>Kommitoi ja merkitse tunnisteella, mutta älä työnnä.</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>Ei tunnistetta</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>Kommitoi ja työnnä, mutta älä merkitse ajoa tunnisteella.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>Kyllä, aja nämä migraatiot nyt</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Yksikään migraatio ei odota.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>Takaisin tilaan</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>Tämän asennuksen muutokset kirjoitettuina kerran tiedostoiksi (sisältö, luokat, roolit, asetukset, skeema) ja otettuina käyttöön sivuston jokaisessa asennuksessa samassa järjestyksessä. Ajo ottaa ensin tilannekuvan, palauttaa sen migraation epäonnistuessa sekä tallentaa, kommitoi ja työntää tekemänsä.</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>Aja %count odottavaa</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Yleiskatsaus</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Odottaa</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Valmiit</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Epäonnistuneet</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>Ei tarpeen</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>Tietokanta</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>transaktiot: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>Sivuston migraatiot ovat hakemistossa migrations/, laajennuksen migraatiot hakemistossa extension/&lt;name&gt;/migrations/. Ne ajetaan nimiensä ja riippuvuuksiensa mukaisessa järjestyksessä.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Viimeisin ajo</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>Tiedosto muuttui käyttöönoton jälkeen.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>Ei vielä migraatioita. ./console exp:migration:generate --skeleton &lt;name&gt; --apply kirjoittaa ensimmäisen.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>Viimeisimmät ajot</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>Kaikki ajot</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>Ei vielä ajoja.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>Ajon simulointi vaatii käyttöoikeuden migration/run.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>Ajo on käynnissä: simuloi, kun se on päättynyt.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Asetukset</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target ei ole tämän asennuksen ajo, migraatio eikä tilannekuva.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>Valitse ensin ”Kyllä, peru”.</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>Aiemman tilannekuvan palauttaminen on asiantuntijoille: valitse ”Tiedän, mitä tämä palauttaa”.</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>Kirjoita tilannekuvan tunnus uudelleen: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>Valitse vähintään yksi palautettava osa.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>Ennen tätä ajoa ei otettu tilannekuvaa: peru sen migraatiot yksi kerrallaan tai palauta aiempi tilannekuva.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>Tätä migraatiota ei voi perua itsenäisesti: sitä ei ole otettu käyttöön tai siltä puuttuu down().</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Lomaketta ei voitu lukea.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>Valitse jatkettava ajo.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>Valitse ensin ”Kyllä, aja nämä migraatiot nyt”.</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>Valitse vähintään yksi migraatio.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>Migraatio muuttui käyttöönoton jälkeen: hyväksy muutos perustellen tai palauta tiedosto.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>Kerro, miksi muuttuneet migraatiot hyväksytään.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>Perustelu on enintään 500 merkkiä.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>Täällä käynnistetty ajo on yhä käynnissä (%detail). Odota sen päättymistä.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>Toinen ajo pitää asennuksen lukkoa: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>Ajo vaatii kirjautuneen, olemassa olevan käyttäjän.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>php-komentoriviohjelmaa ei löytynyt. Aseta sen koko polku kohtaan migration.ini [AdminSettings] PhpCliPath.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open on poistettu käytöstä, joten ajoa ei voi käynnistää täällä. Suorita ./console exp:migration:migrate --apply palvelimella.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>Ajojen kansioon ei voi kirjoittaa: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>Ajo käynnistettiin, mutta se ei ilmoittanut prosessitunnustaan. Tarkista %detail.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>Kerro, mitä perutaan.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>Ajoa ei voitu käynnistää.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>Muutosten tallennus</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>Kun tallennus on käynnissä, se mitä muutat hallinnassa tai sivuston sivupalkissa säilytetään migraation vaiheina: sisältö, luokat, roolit ja käytännöt, osiot, käyttäjät ja ryhmät, URL-aliakset, asetukset. Pysäytä se, kun olet valmis, katso mitä se tallensi, ja luo siitä migraatio.</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>Tallennuksia ei voitu lukea: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>Tallennusten taulukoita ei ole vielä: aja ensin päivitys (exp:upgrade --apply).</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>Tallennus on poistettu käytöstä tiedostossa migration.ini ([RecordingSettings] Recording=disabled).</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>Omat muutokseni</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>Tallentaa vain sen, mitä sinä muutat, missä tahansa muutat sen, kunnes pysäytät sen.</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>Tallennus</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>alkaen %time, tähän mennessä %count muutos(ta).</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>Nimike (valinnainen)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>Näytä mitä se tallensi</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Pysäytä tallennus</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>Aloita omien muutosteni tallennus</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>Koko sivuston ikkuna</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>Tallentaa jokaisen käyttäjän ja konsolin jokaisen muutoksen, kunnes ikkuna suljetaan. Avattaessa sinua pyydetään vahvistamaan henkilöllisyytesi.</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Auki</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>Sulje ikkuna</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>Avaa koko sivuston ikkuna</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>Tallennukset</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>Käyttäjän tiliä (kirjautumistunnus, sähköposti, salasana) ja käyttäjätilien kenttiä ei koskaan tallenneta.</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Muutokset</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>Koko sivusto</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>Käyttäjän %name muutokset</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Pysäytetty</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>Ei vielä tallennuksia.</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>Tallennus %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>Kaikki tallennukset</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>Migraatio, jonka se tuottaisi</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>Muutokset koottuina yhdeksi vaiheeksi muutettua asiaa kohden: mitä tästä tallennuksesta luotu migraatio tekisi.</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>Siitä voidaan luoda migraatio, kun tässä asennuksessa on YAML-vaihetyypit %types.</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>Jätetty pois tarkoituksella: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>Mitään ei tallennettu.</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>Mitä se tallensi</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>%count muutos(ta) tekojärjestyksessä.</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Muutos</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>Vaihe</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>Koskee</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>Vielä %count: ./console exp:migration:record:show luettelee kaikki.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Hylkää</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>Poistaa tallennuksen ja sen, mitä se tallensi. Muutettu pysyy muutettuna.</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>Kyllä, hylkää tämä tallennus</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>Tallennetaan…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Muutoksesi tallennetaan migraatiota varten.</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>Jokainen tämän sivuston muutos tallennetaan migraatiota varten (koko sivuston ikkuna).</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>Koko sivuston tallennus on alkanut: jokaisen käyttäjän jokainen muutos tallennetaan, kunnes pysäytät sen.</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>Tallennus on alkanut: muutoksesi tallennetaan, kunnes pysäytät sen.</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>Tallennus pysäytetty. Se mitä se tallensi säilyy, kunnes hylkäät sen.</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>Tallennus ja sen tapahtumat on poistettu.</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>Tallennusta %id ei ole.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>Valitse ensin ”Kyllä, hylkää tämä tallennus”.</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>Vain tallentanut käyttäjä voi pysäyttää istuntotallennuksen.</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>Valitse pysäytettävä tallennus.</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>Tämänlainen tallennus on jo käynnissä.</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>Tallennusta ei voitu muuttaa: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>Luo migraatio</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>Migraation nimi (valinnainen)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>Migraatio %file kirjoitettiin. Muutokset, joita mikään vaihe ei voi tehdä, on mainittu tiedoston alussa, ja ne tehdään käsin.</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>Migraatiota ei kirjoitettu: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>Pitkä ajo osissa</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>Tyhjät kentät säilyttävät tiedoston migration.ini [RunSettings] asetukset.</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>Enintään näin monta migraatiota</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>Ei enää migraatioita tämän jälkeen (sekuntia)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>Tauko migraatioiden välillä (sekuntia)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>Alempi prioriteetti (1–19)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>Pitkän ajon kenttä on kokonaisluku alkaen 1:stä (tauko: sekuntia 0–60, prioriteetti: 1–19) tai tyhjä.</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>Se sulkeutuu itsestään kello %time.</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>Sulkeudu itsestään tämän jälkeen (minuuttia, valinnainen)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>Minuutit ovat kokonaisluku väliltä 1–44640 (31 päivää) tai tyhjä.</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>Migraatio %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>Uusi migraatio</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>YAML-migraatio: kirjoita se tekstinä tai kokoa sen vaiheet lomakkeella, tarkista se ja tallenna se sitten migraatiokansioon.</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>Tämä migraatio on jo ajettu, joten sitä ei tallenneta uudelleen: tarkistussummavahti hylkäisi muutetun tiedoston. Tee muutos uudessa migraatiossa.</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>Verkkopalvelin ei voi kirjoittaa tiedostoa.</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>Alun kommenttirivit ovat otsake (description, author, requires, environments, engines). Kun vaihe lisätään tai sitä muutetaan lomakkeella, migraatio kirjoitetaan uudelleen: vaiheiden välisiä kommentteja ei säilytetä.</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>Migraation nimi</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>Minne se menee</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>Sivusto</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>YAML-teksti</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>Tarkista</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Tallenna</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Vaiheet</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>Avaimet</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Muokkaa</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>Siirrä ylös</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>Siirrä alas</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Poista</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>Ei vielä vaiheita: lisää yksi lomakkeella tai kirjoita ne tekstiin.</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>Muuta vaihetta %number</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>Vaiheen lisääminen</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>Vaiheen lomake muodostetaan sen vaihetyypistä: sen avaimet, mitä kukin ottaa vastaan ja toimintatilat, joihin se kuuluu.</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>Vaiheen tyyppi</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>Näytä sen lomake</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>Vaiheessa on avaimia, joita sen tyyppi ei tunne; ne jätetään pois, kun vaihetta muutetaan: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>Toimintatila</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>Kohteessa</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>vain tiloissa %modes</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>Oletus: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>Ehdot, viittaukset ja kommentti</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>Nimi=arvo-pareja pilkuilla erotettuina. Tämän vaiheen arvot: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>Esimerkki</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>Muuta vaihetta</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>Lisää vaihe</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>Mitä exp:migration:check sanoo: otsake, dokumentti ja jokainen vaihe sen vaihetyypin tarkistamana.</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>Migraatio läpäisee tarkistuksen.</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Esikatselu</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>YAML sellaisena kuin se tallennetaan.</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>Näytä YAML</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>YAML-migraatiot</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>ajettu</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>YAML-migraatioita ei ole vielä.</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>Toimittajan näkymä</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>Migraatiokansioissa ei ole YAML-migraatiota %id.</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>Valitse vaiheen tyyppi.</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>Vaihe on lisätty. Tarkista migraatio ennen kuin tallennat sen.</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>Vaihe on muutettu. Tarkista migraatio ennen kuin tallennat sen.</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>Valitse vaihe.</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>Tällä vaiheella ei ole lomaketta (silmukka tai vaihetyyppi, jota tässä asennuksessa ei ole): muuta sitä tekstissä.</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>Valitse, minne migraatio menee: sivustoon vai aktiiviseen laajennukseen.</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>Tallennettu: %file. Tee kuiva-ajo ennen kuin migraatio ajetaan.</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>Ei tallennettu: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>Etäkohteet</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>Muut asennukset, joihin tämä toimittaa migraationsa: toimitus lähettää migraatiot valituille etäkohteille ja ajaa ne siellä, kaikilla yhtä aikaa ja tahdissa. Etäkohde ei koskaan sisällä salaisuutta: sen tunnistetieto nimeää yhden kohdassa Asetukset &gt; Salaisuudet.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>Uusi etäkohde</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Ohje</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>Yhteystesti: %id</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>Etäkohteet</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>Enintään %parallel etäkohdetta käsitellään samanaikaisesti; yksi työvaihe saa kestää kussakin %timeout sekuntia.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>Etäkohde</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Osoite</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Tunnistautuminen</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>Ryhmät</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>korjattavia asetuksia</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>vain tiedostot (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>SSH-avain</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>Salasana</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>ei mitään (isännän SSH-agentti ja avaimet)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>Testaa yhteys</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>Ryhmälle tehty toimitus menee sen jokaiselle etäkohteelle.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>Toimita etäkohteille</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>Etäkohteita ei ole vielä määritetty.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>Etäkohde %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>Täällä ei lähetetä eikä ajeta mitään: Tallenna kirjoittaa asetukset tiedostoon settings/override/migration.ini.append.php. Tunnistetieto on nimi; sen arvo pysyy kohdassa Asetukset &gt; Salaisuudet tai ympäristössä.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Tarkista nämä asetukset</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>Asetukset sellaisina kuin ne syötettiin, ei vielä tallennettu.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Tarkistus</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Asetukset ovat kelvolliset. Nämä rivit kirjoitetaan:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>Välitystapa</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>vain nimi; arvo pysyy kohdassa Asetukset &gt; Salaisuudet</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Rivit, jotka kirjoitetaan</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>Yhteys</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>Isäntäavain</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. Etäkohde</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>Mikä etäkohteen nimi on ja mikä ympäristö se on.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>Tunnus</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>Kirjaimia, numeroita, - ja _, esimerkiksi production1. Se nimeää etäkohteen raporteissa ja konsolissa (--remotes=production1), eikä sitä voi muuttaa myöhemmin.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... Portaittainen toimitus käy ympäristöt läpi tässä järjestyksessä.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>Valinnainen, pilkuilla erotettuna, esimerkiksi production. Ryhmälle tehty toimitus menee sen jokaiselle etäkohteelle.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. Yhteys</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>Miten tiedostot päätyvät sinne ja missä asennus on.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>SSH:n yli, vain muuttunut, katkennut siirto jatkuu. Paras valinta, jos rsync on asennettu.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>SSH ja tiedostoille scp.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>SSH ja tiedostoille sftp.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>Vain tiedostot: migraatiot lähetetään ja luetaan takaisin, mutta niitä ei voi ajaa siellä.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>FTP TLS:n yli; vain tiedostot.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>Toinen asennus tällä palvelimella, kansiossa.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Isäntä</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>Isäntänimi tai osoite, esimerkiksi node1.example.com. Ei local-tavalle.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>Portti</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>Tyhjä: 22 SSH:lle, 21 FTP:lle.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Käyttäjä</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>Polku</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>Asennuksen juuri siellä, esimerkiksi /var/www/site (FTP:ssä: polku, jonka FTP-tili näkee).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>PHP-komentorivi</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>PHP CLI siellä: php tai koko polku, kuten /opt/plesk/php/8.4/bin/php.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>Konsoliskriptit ajetaan siellä root-käyttäjänä</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>Vain kun etäkohteen käyttäjä on root (ne ajetaan silloin valitsimella --allow-root-user).</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. Tunnistetiedot</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>Miten tämä asennus kirjautuu sinne. Vain nimi tallennetaan.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Ei mitään</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>Sen käyttäjän SSH-agentti ja avaimet, jona tämä asennus toimii (ja aina local-tavalle).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>Salaisuutena säilytetty yksityinen avain.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>Salaisuutena säilytetty salasana (FTP kirjautuu sillä).</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>Salaisuuden nimi</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>Salaisuus kohdasta Asetukset &gt; Salaisuudet, esimerkiksi deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Asetukset &gt; Salaisuudet</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>Tai ympäristömuuttuja</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>Palvelinprosessin muuttuja, joka sisältää sen, esimerkiksi DEPLOY_KEY (tallennetaan muodossa env:DEPLOY_KEY). Se korvaa salaisuuden nimen.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. Isäntäavain</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>Valinnainen, SSH:lle, sftp:lle ja rsyncille.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>Isäntäavaimen sormenjälki</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... kuten ssh-keygen -l sen tulostaa. Kun se on annettu, isännän on näytettävä tämä avain; ilman sitä avain opitaan ensimmäisellä yhteydellä.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. Tarkistus</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>Testaa yhteys yllä olevilla asetuksilla ja tarkista sitten rivit, jotka kirjoitetaan.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>Poista tämä etäkohde</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>Sen asetukset poistetaan tiedostosta settings/override/migration.ini.append.php. Etäkohteessa ei muutu mitään, ja sen toimitukset jäävät historiaan.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>Kyllä, poista tämä etäkohde</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>Toimitukset</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>Toimitus lähettää tämän asennuksen migraatiot valituille etäkohteille ja ajaa ne siellä käyttäjänä %user, kaikilla yhtä aikaa ja tahdissa: jokainen etäkohde tarkistetaan ensin, ja jos yksi epäonnistuu, muutokset perutaan jokaisella etäkohteella, jossa ne ehdittiin ottaa käyttöön. Toimitus etenee taustalla, ja sen sivu näyttää jokaisen etäkohteen sitä mukaa kuin se etenee.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. Etäkohteet</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>Rastita etäkohteita, ryhmä tai molemmat.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>Toimita sinne</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. Tapa</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>Toimita</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>Lähetä ja aja</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>Migraatiot lähetetään, tarkistetaan ja ajetaan jokaisella etäkohteella yhteisellä ajotunnuksella.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>Vain siirto</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>Tiedostot lähetetään ja tarkistetaan, mitään ei ajeta (ainoa tapa FTP-etäkohteelle).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>Portaittain</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>Porras kerrallaan ympäristöjen järjestyksessä (dev, stage, beta, production ...): ensimmäinen porras toimitetaan, sitten tarkastuspiste odottaa, kunnes joku hyväksyy seuraavan. Kaikki tai ei mitään kunkin portaan sisällä.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>Vain nämä migraatiot</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>Valinnainen: migraatioiden tunnukset pilkuilla erotettuina. Tyhjä: sivuston ja sen laajennusten jokainen migraatio.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>Vain esitarkistus</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>Kyllä, toimita nyt</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>Toimitukset, jotka lähettivät tai ajoivat jotain, uusin ensin (esitarkistuksesta ei jää raporttia).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>vain siirto</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>portaittain, %stages porrasta</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>ei tahdissa</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>Ei vielä toimituksia.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>Toimitus %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Toimituksen jokainen etäkohde ja sen tila. Täällä aloitettu toimitus jatkuu taustalla, kun tämä sivu suljetaan; avaa sivu uudelleen seurataksesi sitä.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>Kaikki toimitukset</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>Esitarkistus</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>Seuraava porras</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>Tarkistetaan asetuksia ja tunnistetietoja</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>Esitarkistus: luetaan jokaisen etäkohteen tila</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>Lähetetään migraatiotiedostoja</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>Tarkistetaan, mitä saapui</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>Ajetaan migraatioita jokaisella etäkohteella</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>Perutaan etäkohteiden muutokset</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>Toimitus on päättynyt. Ladataan sen raporttia.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>Edistymistä ei voitu seurata. Lataa sivu uudelleen nähdäksesi, miten toimitus etenee.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>Työvaihe</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>Tämä sivu seuraa toimitusta sen edetessä.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>Tahdissa</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>Portaat</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>porras %stage odottaa tarkastuspisteessään</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>Tarkastuspiste %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>hyväksynyt %user klo %time</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>Porras</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>Lähetetyt tiedostot</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>Ytimen versio</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>otettu käyttöön: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>käyttöön otettavat: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>Työvaiheet</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>Tarkastuspiste: porras %stage / %stages</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>Sitä edeltävät portaat on toimitettu. Tarkista ne ja hyväksy sitten seuraava porras: sen etäkohteet tarkistetaan uudelleen ja toimitetaan, kaikki tai ei mitään.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Seuraava</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>Kyllä, toimita seuraava porras nyt</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Hyväksy</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>Peru tämä toimitus</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>Jokainen etäkohde, jossa se otettiin käyttöön (%list), palaa ennen ajoaan otettuun tilannekuvaan, kaikki yhtä aikaa.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>Kyllä, peru tämä toimitus nyt</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>suunniteltu</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>siirretty</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>toimitettu</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>odottaa tarkastuspisteessä</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>valittu</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>valmisteltu</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>valmis</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>odottaa porrastaan</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>tiedostot lähetetty</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>tarkistettu</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>epäonnistui, palautti itsensä</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>muuttumaton</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>ei toimitettu</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>ei tavoitettavissa</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>Etäkohde vastasi.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>Etäkohdetta ei voi nyt käyttää.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done valmiina, %pending odottaa, %failed epäonnistui</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>Lukko</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>ajo pitää siellä lukkoa</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>vapaana</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stage / %stages</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>Valitse testattava etäkohde.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>Rastita ensin ”Kyllä, poista tämä etäkohde”.</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>Etäkohdetta ei voitu poistaa: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>Etäkohdetta ei voitu tallentaa: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Asetustiedostoa ei voi lukea: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>Valitse vähintään yksi etäkohde tai ryhmä.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>Valittu etäkohde ei ole enää asetuksissa. Lataa sivu uudelleen.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>Rastita ensin ”Kyllä, toimita nyt”.</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>FTP-etäkohde ei voi ajaa migraatioita: valitse ”Vain siirto” tai jätä se pois.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>Toimitettavat migraatiot ovat migraatioiden tunnuksia pilkuilla erotettuina.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>Toimitus on yhä käynnissä. Odota, että se päättyy.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>Tämä toimitus ei odota tarkastuspisteessä.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>Mikään etäkohde ei ottanut tätä toimitusta käyttöön: ei ole mitään peruttavaa.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>Rastita ensin ”Kyllä, toimita seuraava porras nyt”.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>Rastita ensin ”Kyllä, peru tämä toimitus nyt”.</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>Etäkohde tunnuksella %id on jo olemassa.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>Portti on luku väliltä 1–65535.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>Ympäristö on sana, jossa on kirjaimia, numeroita, - ja _ (alpha, dev, stage, beta, production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>Ryhmä on sana, jossa on kirjaimia, numeroita, - ja _ (ei all): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>Tunnistetietoa ei voi nyt lukea: %problem. Tallenna se kohtaan Asetukset &gt; Salaisuudet (tai aseta muuttuja) ennen ensimmäistä toimitusta.</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>FTP-etäkohde vain vastaanottaa tiedostoja: toimitus sinne on ”Vain siirto”, ja sen migraatiot ajetaan siellä käsin.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>Etäkohde %id ei ole tiedostossa settings/override/migration.ini.append.php; poista se sieltä, missä se on asetettu.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>Kirjauduttu FTP:llä ja luettu index.php. FTP-etäkohteen migraatioiden tilaa ei voi lukea.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>Muokattu</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>Luotu</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Nimi</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Luokka</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Osio</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>Luoja</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Uusin sisältö</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>Koko sivuston viimeksi luotu ja muokattu sisältö uusimmasta alkaen: mitä vierailijat lähettivät, mikä on pidätetty tarkistettavaksi ja mitkä luonnokset odottavat julkaisuaan. Valitse kohteita vapauttaaksesi, pidättääksesi, piilottaaksesi, näyttääksesi tai poistaaksesi ne tai siirtääksesi ne toiseen osioon tai tilaan.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>Luetteloa ei voitu lukea: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>Tarkistuspidätystä ei ole vielä otettu käyttöön, joten mitään ei pidätetä eikä pidätystoimintoja tarjota. Päivitysvaihe 6.0.15-review-hold ottaa sen käyttöön: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Suodata luetteloa</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Alkaen</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Asti</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Päivämäärä</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>Luotu (ensimmäinen julkaisu)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Kaikki</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Tila</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Julkaistu</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>Luonnos, ei koskaan julkaistu</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>Odottaa (hyväksyntää tai päivämäärää)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>Roskakorissa</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Pidätetty tarkistettavaksi</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>Pidätetty</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>Ei pidätetty</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>Piilotettu</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>Näkyvä</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>Lähetetty sivustoyhteydestä</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>Mikä tahansa sivustoyhteys</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>Vain se, mitä audit-loki kirjasi.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>Nyt: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>Käyttäjätunnus tai käyttäjän tunniste.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Suodata</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>Tyhjennä suodattimet</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>Kohteet</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from–%to / %count</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Ei kohteita</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(luettu %ms ms:ssa)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>Toiminnot valituille kohteille</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>Valitse kaikki tältä sivulta</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>%count valittu</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Toiminto</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>Valitse toiminto</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>Vapauta pidätys</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Pidätä tarkistettavaksi</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Piilota</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>Näytä</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>Siirrä roskakoriin</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>Poista</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>Määritä osio</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>Määritä tila</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>Syy</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>Pakollinen pidätettäessä; tallennetaan pidätyksen ja audit-lokin yhteyteen.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>Valitse osio</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Tila</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>Valitse tila</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>Käytä valittuihin</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>Jokainen kohde tarkistetaan omia oikeuksiasi vasten. Roskakoriin siirtäminen ja poistaminen pyytävät vahvistuksen. Yli %count kohdetta käsitellään taustalla.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>Valitse</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>Julkaisu</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>Lähetetty osoitteesta</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>Valitse %name</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>ei vielä</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(ei nimeä)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>Tunniste %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>Luonnos</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Odottaa</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>Piilotettu ylemmän kohteen vuoksi</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>Pidätetty: uusi lähetys</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>Versio %version odottaa</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>Versio %version työn alla</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>Luonnos, versio %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>Versio %version julkaistu</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>Ajastettu: %date</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>ei osoitetta</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>ei kirjattu</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>Mikään ei vastaa näitä suodattimia.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Näytä kaikki</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>Sisältöä ei ole vielä.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Sivulla</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Näytä %count kohdetta sivulla.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says &quot;not recorded&quot;.</source>
+        <translation>Lähetyksen osoite ja selain tulevat audit-hakemistosta, joka ei ole käytettävissä täällä: sarakkeessa lukee &quot;ei kirjattu&quot;.</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>Osoite ja selain ovat ne, jotka audit-loki kirjasi kohteelle (automaattinen pidätys kirjaa ne aina; julkaisu ja luonti vain, jos se on otettu käyttöön), sen yksityisyysasetusten mukaisesti säilytettyinä.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: %count kohdetta</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>Poistaminen poistaa kohteet pysyvästi kaikkine versioineen ja käännöksineen. Sitä ei voi perua.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>Kohteet siirretään roskakoriin, josta ne voidaan palauttaa.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>Jokainen kohde tarkistetaan omia oikeuksiasi vasten; kohde, jolla on alikohteita, jätetään ennalleen (poista se sisältörakenteessa). Sinua pyydetään vahvistamaan henkilöllisyytesi.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>Tämä suoritetaan taustalla: sen edistymissivu avautuu, ja tulos näytetään kohteittain, kun se on valmis.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>Valitut kohteet</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>ja %count muuta</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Peruuta</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>Mitään ei tehty</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Syy: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>Toiminto on yhä käynnissä taustalla.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>Sen edistyminen</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>Taustatoiminto epäonnistui: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Tehty</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Hylätty</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Epäonnistui</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>Kohteittain</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>Kohde</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Tulos</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Syy</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>Takaisin luetteloon</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Asetukset</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>Mitään ei tehty</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>Vahvista</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>Valitse toiminto.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>Valitse vähintään yksi kohde.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>Valitse enintään 1000 kohdetta kerrallaan.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>Kerro, miksi kohteet pidätetään.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>Valitse osio.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>Valitse tila.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Lomaketta ei voitu lukea.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>Koontinäyttö</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>Uusin sisältö</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>Lukumääriä ei voitu lukea: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Pidätetty tarkistettavaksi</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>Uudet tänään</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Tarkistuspidätystä ei ole vielä otettu käyttöön (päivitysvaihe 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>Kaikki uusin sisältö</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>Sinulla ei ole oikeutta suorittaa moderointitoimintoja (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>Moderointitoiminto ei ole valmis: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>Moderointi: %action %count objektille</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%done / %total objektia: %ok tehty, %refused hylätty, %failed epäonnistui</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok tehty, %refused hylätty, %failed epäonnistui</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>Sitä ei ole enää olemassa.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>Sillä ei ole sijaintia (ei julkaistu).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>Sinulla ei ole oikeutta piilottaa sitä (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>Sinulla ei ole oikeutta näyttää sitä (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>Se on jo piilotettu.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>Se ei ole piilotettu.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>Piilotettu.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>Näytetty.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>Se on roskakorissa: tyhjennä tai palauta se siellä.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>Luonnosta, jota ei ole koskaan julkaistu, ei voi siirtää roskakoriin: poista se.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>Sinulla ei ole oikeutta poistaa sitä (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>Poistettu.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>Sinulla ei ole oikeutta siirtää sitä pois (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>Sillä on alikohteita: poista se sisältörakenteessa, jossa ne on lueteltu.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>Sitä ei poistettu (työnkulku voi pidättää poiston).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>Siirretty roskakoriin.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>Osiota ei ole olemassa.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>Se on jo tässä osiossa.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>Sinulla ei ole oikeutta määrittää tätä osiota (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>Osiota ei määritetty.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>Osio määritetty.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>Tilaa ei ole olemassa.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>Se on jo tässä tilassa.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>Sinulla ei ole oikeutta määrittää tätä tilaa (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>Tilaa ei määritetty (työnkulku voi pidättää muutoksen).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>Tila määritetty.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>Tällaista toimintoa ei ole.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Tarkistuspidätystä ei ole otettu käyttöön (päivitysvaihe 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>Kerro, miksi se pidätetään.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>Se on jo pidätetty.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>Sinulla ei ole oikeutta pidättää sitä (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>Pidätystä ei asetettu (työnkulku voi pidättää muutoksen).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>Pidätetty.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>Se ei ole pidätetty.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>Sinulla ei ole oikeutta vapauttaa sitä (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>Pidätystä ei vapautettu (työnkulku voi pidättää muutoksen).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>Vapautettu; edelleen piilotettu: sinulla ei ole oikeutta näyttää sitä (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>Vapautettu.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>Kaikki kohteet</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Viimeisin julkaisu</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>Julkaise sivustostasi maksuton staattinen kopio GitHub Pagesissa:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Vanhentuneet sivut</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Staattinen julkaisu</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Staattinen julkaisu on poistettu käytöstä.</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Kohde</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Kohteita ei voitu lukea: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>tehtävä on käynnissä</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>tarkistettava koonti</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>piilota tämä</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>luo kohde</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>ei koskaan</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>lue opas</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>%added lisätty, %changed muutettu, %removed poistettu</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%bytes / %limit (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>%count muuta ei ole lueteltu.</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>%pages sivua kirjoitettu</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path on kooltaan %size, enemmän kuin palvelu sallii yhdelle tiedostolle.</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>%percent % rajasta</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds s</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag on sivuston nykyinen julkaisu.</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: tehtävä %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>/tietovarasto/ GitHub-projektisivustolle; tyhjä omalle verkkotunnukselle tai käyttäjäsivustolle.</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. Sivusto</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. Palvelu</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. Kirjautuminen tietovarastoon</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. Tietovarasto</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. Linkit ja peruspolku</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. Oma verkkotunnus</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. Koonnin sisältö</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. Milloin julkaistaan</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. Tarkista ja tallenna</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>GitHub-projektisivusto sijaitsee polun /&lt;repository&gt;/ alla; suhteelliset linkit toimivat siellä ja kaikkialla muualla.</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>Koonti noutaa sivuston %site jokaisen sivun sellaisena kuin kirjautumaton vierailija sen näkee, kirjoittaa linkit uudelleen, kopioi tiedostot ja kirjoittaa tuloksen kohteen kansioon. Mitään ei julkaista ennen kuin tarkistat koonnin ja painat Julkaise.</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>Cron-lauseke, esimerkiksi 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>Käyttöönottoavain säilytetään salaisuutena %secret.</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>Käyttöönottoavaimella tämä asennus voi työntää SSH:n kautta yhteen tietovarastoon eikä minnekään muualle. Sen yksityinen puolisko pysyy kohdassa Asetukset &gt; Salaisuudet; vain julkinen puolisko näytetään.</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>Tälle kohteelle luotu käyttöönottoavain</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>Käyttöönottoavain kirjautuu SSH:n kautta: vaihda git-osoitteeksi SSH-osoite (git@github.com:owner/repo.git).</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>Tehtävä on käynnissä, käynnistäjä %user</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>Tämän kohteen tehtävä on yhä käynnissä (%detail). Odota, että se päättyy.</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>Tämän kohteen tehtävä on yhä käynnissä. Odota, että se päättyy.</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>Linkki sivulta /news/ sivulle /about-us/team kirjoitetaan muodossa</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>Uusi käyttöönottoavain luotiin. Lisää sen julkinen puolisko tietovarastoon nyt.</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>Sivua, jossa on siivouksen jälkeen yhä virheenjäljitystulostetta, lomakkeen tarkistustunnus tai istuntotunnus, ei koskaan julkaista.</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>Peruminen on asiantuntijoille: valitse ”Tiedän, mitä tämä muuttaa” ja kirjoita tunnisteen nimi uudelleen.</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>Sivusto saa olla enintään %site ja yksi tiedosto enintään %file, ja liikennettä noin 100 Gt kuukaudessa. Maksuttomassa tilauksessa tietovaraston on oltava julkinen. GitHub Pages ei ole tarkoitettu verkkokaupoille eikä muuhun kaupalliseen toimintaan.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>Kohde on yksi sivusto, joka julkaistaan yhteen git-tietovarastoon. Täällä ei koota eikä julkaista mitään: Tallenna kirjoittaa asetukset tiedostoon settings/override/staticcache.ini.append.php.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>Kohde on yksi sivusto, joka julkaistaan yhteen paikkaan, esimerkiksi julkinen sivustosi GitHub Pagesissa.</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>Pääsytunnus kohdasta Asetukset &gt; Salaisuudet</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>Tietovaraston työnkulku julkaisee sen.</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>Lisää tämä julkinen avain tietovarastoon kirjoitusoikeuksin. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, valitse Allow write access.</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>Lisätty</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>Muu git-palvelu</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>Toinen prosessi käsittelee tätä kohdetta: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>Takaisin</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>Peruspolku</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Ennen</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>Peruspolun alla</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>Haara</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>Rikkinäiset linkit</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>Rikkinäiset linkit koonnissa</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>Koonti</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>Koonti %id, tekijä %user</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>Koonti %name</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>Kokoa nyt</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>Tarkistettava koonti</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Tekijä</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>Käsin, täällä</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Peruuta</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Muuta</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>Muutettu</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Muutokset</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>Tarkista se ensin</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Tarkista nämä asetukset</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>Tarkista, mitä koonti muuttaa, katso sitä ja julkaise se tai hylkää se.</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>Valitse julkaisu, johon palataan.</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>Tulossa myöhemmässä versiossa.</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Kommitti</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>Kommitit</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>Kommitoi koonnin, merkitsee sen tunnisteella ja työntää sen kohteeseen %remote. Työntöä ei koskaan pakoteta; voit myöhemmin palata mihin tahansa julkaisuun.</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>Verrattuna aiempaan kansioon: %added lisätty, %changed muutettu, %removed poistettu, %unchanged ennallaan.</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>Verrattuna viimeisimpään julkaisuun.</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Tunnistautuminen</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>Oma verkkotunnus</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>Virheenjäljitystuloste, lomakkeiden tarkistustunnukset, istuntotunnukset ja nonce-arvot poistetaan aina.</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>Käyttöönottoavain</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>Kohteen %name käyttöönottoavain</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Hylkää</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>Hylkää koonti</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>Verkkotunnus</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>Tyhjä: sivuston osoite. Muuten saman sivuston sisäinen osoite.</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Päättyi</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>Jokainen linkki alkaa peruspolulla.</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>Jokainen julkaisu on kommitti, jolla on tunniste static/%id/&lt;n&gt;. Palaaminen luo uuden kommitin aiemman julkaisun tiedostoilla: historia säilyy, mikään tunniste ei siirry eikä mitään pakoteta.</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>Lisätiedostot</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>Nouda sivut osoitteesta</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Tiedosto</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>Tiedostot</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>Puuttuvat tiedostot</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>Tiedostot:</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>Tiedostot, joita ei voitu kerätä</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>Sormenjälki</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>Kansio</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>SSH-osoitetta varten. Avain luodaan tallennuksen jälkeen; lisäät sen julkisen puoliskon tietovarastoon.</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>https://-osoitetta varten. GitHub: hienojakoinen pääsytunnus, jolla on tietovarastoon Contents-luku- ja -kirjoitusoikeus.</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>Asiantuntijoille. Julkinen sivusto muuttuu heti, kun työntö on valmis.</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Lomakkeet</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>Maksuton ylläpito GitHub-tietovarastosta.</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>Haarasta</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>Git-osoite</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages sallii %site sivustolle ja %file tiedostolle.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>GitHub Pagesin rajat</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages julkaisee tiedostot sellaisinaan (tarpeen tiedostoille, joiden nimi alkaa merkillä _).</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub tarjoilee haaran sellaisena kuin se on työnnetty. Oletus.</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, oma palvelimesi: mikä tahansa git-tietovarasto.</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>Palaa aiempaan julkaisuun</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Ohje</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>Ohjattu toiminto -ohje</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>Piilota ne</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Historia</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>Kohteen %name historia</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Palvelu</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>Miten GitHub Pages vastaanottaa koonnin</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>Olen tarkistanut muutokset</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>Tiedän, mitä tämä muuttaa</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>Tunnus</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>Se on poistettu käytöstä: mitään ei voi koota ennen kuin se on käytössä.</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>Se toimii taustalla käyttäjänä %user; voit sulkea tämän sivun.</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>Tehtävä %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>Säilytetään salaisuutena %secret.</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Laji</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Viimeisin julkaisu</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>Jätä pois nämä sivut</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>Jätä pois nämä osiot</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Linkit</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>Uudelleen kirjoitetut linkit</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>Julkinen sivusto</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>Katso koontia</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>Pieniä kirjaimia, numeroita, _ ja -, esimerkiksi github-public. Se nimeää kansion ja tunnisteet (static/&lt;id&gt;/&lt;n&gt;), eikä sitä voi myöhemmin muuttaa.</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>Luo uusi avain</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>Luo kohde</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>Luo avain</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>Luo tietovarasto ensin palveluun; tyhjä kelpaa.</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>Luettelo</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Viesti</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>Useimmat sivut</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Nimi</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>Pääsytunnuksen nimi kohdassa Asetukset &gt; Salaisuudet</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>Uusi kohde</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Seuraava</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>Ei</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>Ei vielä kommittia.</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>Avainta ei luotu: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>php-komentorivisovellusta ei löytynyt. Aseta sen koko polku kohtaan migration.ini [AdminSettings] PhpCliPath.</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>Ei vielä tunnistetta.</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>Ei vielä kohdetta.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Ei mitään</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>Ei koonnissa.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>Mitään ei ole vielä julkaistu.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>Mitään ei ole vielä julkaistu: jokainen tiedosto on uusi.</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>Ilmoitukset</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>Aikataulun mukaan</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>Komentorivillä</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>Palvelimella: ./console exp:static:serve %id tarjoilee sen samalla tavalla.</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>Yksi polku riviä kohden, * vastaa mitä tahansa osaa: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>Kohteen kanssa tallennetaan vain nimi; itse pääsytunnus tai avain pysyy kohdassa Asetukset &gt; Salaisuudet eikä näy koskaan lokissa.</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>Vain se, mihin sivut viittaavat</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>Vain pääsytunnuksen kanssa. env:NAME lukee sen sijaan palvelimen ympäristömuuttujan.</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>Avaa esikatselu</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>Avaa koonnin sellaisena kuin palvelu sen tarjoilee, kohteen kansiosta. Linkki toimii sinulle tunnin ajan.</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>Valinnainen. Tyhjä: se, mitä julkaistiin.</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>Valinnainen. Verkkotunnuksen kanssa sivusto tarjoillaan sen juuresta.</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Tuloste</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>Sivut</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>Kohteen sivut</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>Hylätyt sivut</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>Jälkikäsittely</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Esikatselu</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>Esikatselu ja julkaisu</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>Kohteen %name esikatselu ja julkaisu</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>Esikatsele koontia</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Edistyminen</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>Julkinen osoite</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>Julkinen avain</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>Julkaise</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>Julkaise sivuston staattinen kopio GitHub Pagesiin tai mihin tahansa git-palveluun: kokoa se, tarkista muutokset, julkaise ja palaa tarvittaessa aiempaan julkaisuun.</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>Julkaisu, johon palataan</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>Julkaisut</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Työntö</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>Lue opas</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Loki</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Hylätty</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>Suhteellinen</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Lataa uudelleen</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>Poistettu</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>Vaihda avain: vanha lakkaa toimimasta</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Raportti</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>Koonnin raportti</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Tietovarasto</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Tarkistus</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>Tarkistus käy läpi jokaisen asetuksen ja näyttää rivit, jotka kirjoitetaan. Mitään ei ole vielä tallennettu.</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Peru</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Peruminen</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Tallenna</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>Aikataulu</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>Hakusivu</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>Osioiden tunnukset pilkuilla erotettuina.</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>Ohjaa ne julkiselle sivustolle</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>Asetus</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Asetukset</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>Kohteen %name asetukset</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Asetukset</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Asetukset &gt; Salaisuudet</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>Näytetään luetteloissa, esimerkiksi ”Julkinen sivusto GitHub Pagesissa”.</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>Kirjautuminen GitHub Appilla tulee GitHub-integraation mukana.</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>Sivusto</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>Julkaistava sivusto</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Koko</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>Koko ja rajat</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>Koonnin koko</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Vanhentuneet sivut</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Alkoi</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Käynnistäjä %user, aika %time.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Tila</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Staattinen julkaisu</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>Staattinen julkaisu on poistettu käytöstä</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Staattinen julkaisu on poistettu käytöstä.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>Staattinen julkaisu on poistettu käytöstä. Ota se ensin käyttöön kohdassa Asetukset &gt; Staattinen julkaisu.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>Staattinen julkaisu on käytössä.</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>Vaihe %step / %total</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Vaiheet</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>Siivous</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Poista käytöstä</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Ota käyttöön</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>Ota staattinen julkaisu käyttöön</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Tunniste</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>Tunnisteet</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Kohde</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>Kohteita voi luoda ja muuttaa, mutta mitään ei koota eikä julkaista ennen kuin toiminto on otettu käyttöön.</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>Kertoo hakukoneille, mitä niiden kannattaa lukea.</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>Koontia ei voitu hylätä: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>Koonti on sama kuin viimeisin julkaisu: julkaistavaa ei ole.</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>Koonti hylättiin: kansiossa on taas viimeisin julkaisu.</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>Oletusarvot sopivat useimmille sivustoille.</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>Kansiossa on koonti, jota ei ole vielä julkaistu; uusi koonti korvaa sen.</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>Tehtävien kansioon ei voi kirjoittaa: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>Tehtävää ei voitu valmistella: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>Tehtävää ei voitu käynnistää.</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>Tehtävä on päättynyt. Ladataan sen raporttia.</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>Tehtävä vaatii kirjautuneen käyttäjän.</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>Tehtävä käynnistettiin, mutta se ei ilmoittanut prosessitunnustaan. Tarkista %detail.</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>Avain</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>Suurin tiedosto: %path, %size.</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Rivit, jotka kirjoitetaan</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>Sivuluettelo hakukoneille; vaatii julkisen osoitteen.</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>Sivut noudetaan sellaisina kuin kirjautumaton vierailija ne näkee. Ylläpito- ja muokkaus-siteaccesseja ei koskaan tarjota.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>Edistymistä ei voitu seurata. Lataa sivu uudelleen nähdäksesi, miten tehtävä etenee.</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>Avaimen julkinen puolisko:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>Haaran juuri</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>Salaisuusvarastoa ei ole vielä otettu käyttöön (./console exp:upgrade --apply luo sen taulun), joten avainta ei voi säilyttää.</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>Palvelin kirjautuu itse (omalla SSH-avaimellaan tai tunnistetietoapurillaan), tai tietovarasto on tällä palvelimella.</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>Asetusta ei voitu kirjoittaa: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Asetukset ovat kelvolliset. Nämä rivit kirjoitetaan:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Asetustiedostoa ei voi lukea: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>Sivusto palaa kyseisen julkaisun tiedostoihin; vielä julkaisematon koonti on ensin julkaistava tai hylättävä.</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>Sivuston oma sivu osoitteille, joita ei ole olemassa.</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>Kohdetta ei voitu tallentaa: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>Kohde ei vielä kirjaudu tällä avaimella: valitse sen asetuksista ”Tälle kohteelle luotu käyttöönottoavain”.</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Kohteita ei voitu lukea: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>Tarkistettavaa koontia ei vielä ole.</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>Tässä asennuksessa ei ole julkista siteaccessia. Ylläpito- ja muokkaus-siteaccesseja ei koskaan julkaista.</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>Tämä sivu seuraa tehtävää sen edetessä; tehtävä jatkuu taustalla, kun sivu suljetaan.</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>Tällä kohteella ei vielä ole käyttöönottoavainta.</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>Tätä kohdetta ei ole vielä koottu täällä.</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>Tällä kohteella on sellainen.</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>Hylkää tämän koonnin: kansiossa on taas viimeisin julkaisu. Julkinen sivusto ei muutu.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>Valitse ensin ”Olen tarkistanut muutokset”.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Aika</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>Käynnistimet</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>Kirjoita tunnisteen nimi uudelleen</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>Ennallaan</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>Webhook</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Mitä</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>Mitä muuttuu</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>Mikä kukin tiedosto on; kirjoitetaan aina.</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>Mitä tehtävä teki, ja sen loki. Täällä käynnistetty tehtävä jatkuu taustalla, kun tämä sivu suljetaan.</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>Mitä tehtävä tulosti virheinä</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>Se, mihin sivut viittaavat, ja jokainen julkaistun sisällön kuva</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Milloin</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>Kun julkaisu epäonnistuu</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>Kun julkaisu onnistuu</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>Kun sisältöä julkaistaan</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>Minne johtavat linkit sellaiseen, mitä kopiossa ei ole (haku, kirjautuminen).</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>Mistä staattinen kopio tarjoillaan.</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>Mikä sivusto julkaistaan ja mikä kohteen nimi on.</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>Toimii minkä tahansa polun alla. Oletus.</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>Kirjoitetaan aina, kun oma verkkotunnus on asetettu.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>Kyllä</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>Voit aina koota ja julkaista käsin täällä ja komentorivillä.</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>vain nimi; arvo pysyy kohdassa Asetukset &gt; Salaisuudet</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>polun %path alla</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>päättyi ilman raporttia</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>lisä</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>epäonnistui</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>tiedosto</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages, tai main ja kansio docs.</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>git-palvelu</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (pääsytunnuksen kanssa) tai git@github.com:owner/repo.git (käyttöönottoavaimen kanssa); ei koskaan salasanaa tai pääsytunnusta osoitteessa.</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/, sivukarttaa ja kanonisia linkkejä varten.</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>kuva</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>ei koskaan</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ei</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>ei etätietovarastoa</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>ei mitään: kommitit jäävät kansioon</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>ei mitään: mikään ei muuttunut</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>ei työnnetty</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>mikään ei muuttunut</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>sivu</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>onnistui</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>proc_open on poistettu käytöstä, joten tehtävää ei voi käynnistää täältä. Käytä palvelimella komentoa ./console exp:static:build.</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>julkaisu</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>julkaistu</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>työntö odottaa</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>työnnetty</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>hylätty</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>suhteellinen</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>peruminen</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>peruttu</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>käynnissä</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>vain kansio</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: kirjoitetaan tiedostoon CNAME. Ohjaa verkkotunnuksen DNS palveluun sen ohjeiden mukaan; HTTPS:n käynnistyminen voi kestää hetken.</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>kyllä, ei vielä julkaistu</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>GitHub App -sovellus</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>Sen julkaisee tietovaraston työnkulku. Koonti kirjoittaa työnkulkutiedoston; jätä kansio tyhjäksi.</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>Kun kohde on tallennettu GitHub-tietovaraston ja pääsytunnuksen tai GitHub Appin kanssa, tämä vaihe voi luoda tietovaraston ja ottaa GitHub Pagesin käyttöön. Muuten luo tietovarasto ensin GitHubiin; tyhjä kelpaa.</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>Haara vai GitHub Actions?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>Tarkista DNS</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>Luo tietovarasto, jos sitä ei ole</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>Luo tietovarasto GitHubiin ja ota GitHub Pages käyttöön sen asetuksissa (Settings &gt; Pages).</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>Luo tietovaraston %repo, jos sitä ei ole (pyydettäessä), ottaa GitHub Pagesin käyttöön haarasta tai GitHub Actionsista tallennetun mukaan ja asettaa oman verkkotunnuksen ja HTTPS:n. Käyttää tallennettuja asetuksia: tallenna muutokset ensin.</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>Tiedot GitHubissa</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>Anna ensin oma verkkotunnus.</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>Jokainen push tarkistetaan ensin näitä rajoja vasten.</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>https://-osoitteelle GitHubissa. Kirjautuu sisään tälle asennukselle määritetty App; se tarvitsee asennustunnuksen.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages julkaisee yksityisen tietovaraston vain maksullisella tilauksella.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: aliverkkotunnus (www.example.com) tarvitsee CNAME-tietueen kohteeseen &lt;owner&gt;.github.io; juuriverkkotunnus (example.com) A-tietueet %ips.</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>GitHub Appin asennustunnus</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>Viimeisin Pages-koonti</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>Rajat ja ehdot</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>Vaaditaan GitHub Pagesille ilmaisella tilauksella.</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>GitHubissa</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>Vain GitHub Appin kanssa: numero Appin asennuksen osoitteen lopussa GitHubissa. Itse App määritetään tiedostossa staticcache.ini (GitHubAppId, GitHubAppKey).</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>Yksityinen</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>Julkinen</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>Tallenna kohde ensin GitHub-tietovaraston ja pääsytunnuksen tai GitHub Appin kanssa.</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>Aseta nämä tietueet verkkotunnuksen palveluntarjoajalle:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>Määritä GitHubissa</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>Verkkotunnuksen %domain DNS ei vielä osoita GitHub Pagesiin.</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>Verkkotunnuksen %domain DNS osoittaa GitHub Pagesiin.</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>GitHub-integraatio ei ole käytettävissä täällä: %problem. Julkaisu haaraan toimii silti; ota GitHub Pages käyttöön tietovaraston asetuksissa.</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>GitHub-vaiheet eivät ole käytettävissä tälle kohteelle: %problem.</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>GitHub Pagesin tila näytetään, kun tunnistautumisena on pääsytunnus tai GitHub App.</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>Käytä omaa verkkotunnusta</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>Mikä valita: pääsytunnus, käyttöönottoavain vai GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>GitHub-tietovaraston ja pääsytunnuksen tai GitHub Appin avulla ohjattu toiminto voi luoda tietovaraston, ottaa GitHub Pagesin käyttöön ja asettaa verkkotunnuksen puolestasi (vaihe 4).</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>koostetaan</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>koostettu</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>GitHub Actionsista</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>haarasta %branch</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>ei vielä yhtään</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>ei löytynyt</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>pois päältä</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>yksityinen</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>julkinen</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>jonossa</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>tuntematon</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%count %pages sivulla:</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>Jokaisen tekstitiedoston viereen .gz (ja .br) palvelimille, jotka tarjoavat ne.</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>Pieni sivu jokaiselle sivun vanhalle osoitteelle ja aliakselle, jotta vanhat linkit toimivat.</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>Kirjoitetaan aina, kun GitHub Actions toimittaa sivuston.</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>SPDX-tunniste, kuten CC-BY-4.0, tai itse teksti.</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>Kori</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>Palvelinkutsut</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Kommentit</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>Tietoja keräävät lomakkeet</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>GitHub Actions -työnkulku</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>Vähemmän tyhjää ja ei kommentteja sivuilla.</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>Sisällön lisenssi</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Kirjautuminen</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>Pienennä</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>Muut lomakkeet</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>Esipakkaa</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>Uudelleenohjaussivut</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>Uudelleenohjaussivut: %count.</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Haku</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>Hakuindeksi: %pages sivua, kielet: %languages.</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>Sisällön tiivisteellä nimetyt tyylitiedostot ja skriptit, jotta selaimet voivat säilyttää ne.</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>Muuttuneet sivut, muutama minuutti viimeisen muutoksen jälkeen (cronjob-osa staticpublish).</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>Sisällön lisenssi alla olevasta kentästä.</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>Koko sivusto aikataulun ajankohtina (cronjob-osa staticpublish).</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>Nämä sivujen osat tarvitsevat palvelimen; jokaiselle tehtiin varavaihtoehto. Tarkista ne ennen julkaisua.</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>Mikä ei toimi staattisesti</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>Mikä arkisto on, sille joka avaa sen palvelimella.</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>jätetty pois</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>varateksti</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>julkisen sivuston lomakepääte</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>julkinen sivusto</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>kopion hakusivu</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>Lomaketta ei voitu lähettää.</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>Kiitos: lomake lähetettiin.</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>Lomaketta ei hyväksytty: tarkista syöttämäsi ja lähetä se uudelleen.</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>Poista linkit sivuille, joita kopio ei sisällä</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>Poista linkit ylläpitoon</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>Niiden teksti säilyy. Kuvia, lomakkeita ja linkkejä muille sivustoille ei koskaan poisteta.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Versio</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>Julkaistavat sivustoyhteydet</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Sivustoyhteys</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>Juuressa</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>Ei sivustoyhteyttä juuressa: kukin on omassa kansiossaan, ja juuri linkittää niihin</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Sivustoyhteydet</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>Valitse yksi sivustoyhteys tai useampi, jotka jakavat saman palvelimen URI-etuliitteensä avulla. Juuressa oleva tarjoillaan siellä, muut etuliitteensä kansiossa (/ger/); linkit niiden välillä pysyvät kopiossa. Hallinnan sivustoyhteyksiä ei koskaan tarjota.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>Kohteen %target staattinen julkaisu epäonnistui sivustolla %site</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>Kohteen %target staattinen julkaisu onnistui sivustolla %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>Tämän viestin lähetti %site, koska staattisen julkaisun kohde %target pyytää sitä.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>Toimitus %deploy epäonnistui sivustolla %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>Toimitus %deploy odottaa portilla sivustolla %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>Toimitus %deploy onnistui sivustolla %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>Tämän viestin lähetti %site, koska migration.ini [RemoteSettings] Notify[] pyytää sitä.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>Tietotyypit (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>Laskettu %time, uudelleen %minutes minuutin kuluttua</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>Tietotyyppi tallentaa ja muokkaa luokan määritteen yhtä arvotyyppiä: tekstiriviä, kuvaa, suhdetta. Järjestelmäydin tuo suurimman osan niistä, laajennukset lisäävät muita. Tässä ovat ne kaikki, kuka ne tarjoaa ja kuinka paljon sisältöä niitä käyttää. Tietotyyppi, jota tietokanta käyttää mutta jota mikään ei enää rekisteröi, rikkoo sisällön, jossa sitä on.</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>Luokkaryhmät</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>Laske uudelleen nyt viimeisten minuuttien laskentojen sijaan.</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>Laske uudelleen</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Yleiskatsaus</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>Rekisteröity</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>Käytössä</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>Ei käytetty</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>Tietotyyppejä tarjoavat laajennukset</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>Luokan määritteet</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>Objektin määritteet</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>Ei rekisteröity</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>Luettelossa, tiedosto puuttuu</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>%count tietotyyppiä on käytössä mutta ei rekisteröity</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>%class_attributes luokan määritteellä ja %object_attributes objektin määritteellä on tietotyyppi, jota mikään laajennus tai asetus ei rekisteröi. Niiden objekteja ei voi näyttää, muokata eikä julkaista. Ota käyttöön tietotyypin tarjoava laajennus tai muuta luokkaa.</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>Näytä vain nämä</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>Etsi tietotyyppiä</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>Tunniste, nimi, PHP-luokka tai laajennus.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Näytä</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Kaikki</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>Tarjoaja</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>Kaikki</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>Järjestelmäydin</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>Mikään tietotyyppi ei vastaa tätä suodatinta.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Näytä kaikki</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>Laajennus</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%shown / %count tietotyyppiä, %used käytössä</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>Tietokannassa on näiden tietotyyppien luokan tai objektin määritteitä, mutta content.ini ei luettele niistä yhtäkään, tai niiden tiedosto puuttuu.</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>Tarjoajan %provider tietotyypit</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>Tietotyyppi</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>PHP-luokka ja tiedosto</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>Luokat</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>Objektit</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>Merkinnät</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>ei mitään</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>Mikään tietotyyppi ei vastaa hakua. Tyhjennä haku.</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>%shown / %count tietotyyppiä näytetään</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>Näytetyt tietotyypit: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>Lajittele sarakkeen %column mukaan</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>Laskettu %time</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>Kaikki tietotyypit</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>Ohjesivu</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>Tätä tietotyyppiä käytetään, mutta sitä ei ole rekisteröity</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>Alla olevien luokkien objekteja ei voi näyttää, muokata eikä julkaista niin kauan kuin mikään laajennus ei rekisteröi tietotyyppiä. Ota käyttöön sen tarjoava laajennus ja lisää se asetukseen content.ini [DataTypeSettings] AvailableDataTypes[], tai muuta luokkia.</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini luettelee tämän tietotyypin, mutta missään tietotyyppihakemistossa ei ole sen tiedostoa. Mikään ei käytä sitä; poista se asetuksesta AvailableDataTypes[] tai ota sen laajennus käyttöön.</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>Tietoja tästä tietotyypistä</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>Tunniste</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Nimi</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Laajennus %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>ei kukaan</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>PHP-luokka</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Tiedosto</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>Asetuksessa AvailableDataTypes[]</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>kyllä</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ei</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>Sen arvon sarakkeet</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>Sen luokan määritteen asetusten sarakkeet</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>Taulut</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>Sarakkeet ja taulut on löydetty lukemalla tietotyypin koodia: suuntaa antava, ei lupaus.</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>Mallit</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Sivustoyhteys</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>Malli</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>Löytyi kohteesta</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>tämä hallinta</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>oletussivusto</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>Ilman ohituksia: luokan tai määritteen mukaan osuva ohitusmalli menee näiden edelle.</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>Sitä käyttävät luokat (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>Millään luokalla ei ole tämän tietotyypin määritettä.</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Luokka</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>Määritteet</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>Luokan määritteet (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>Määrite</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Asetukset</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>Tunnus %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>Pakollinen</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>Haettavissa</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>Käännettävissä</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>Kerää tietoja</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>Sitä käyttävää sisältöä</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>Viimeksi muokatut ensin</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Muokattu</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>Solmu %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>Jokaisella käännöksellä on oma arvonsa.</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>Haku indeksoi sen arvot.</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>Se voi kerätä tietoja kävijöiltä (lomakkeet).</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>Luetteloita voi lajitella sen mukaan: lajitteluavain %type.</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>Lajiteltava</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>Sen arvot viittaavat muihin objekteihin.</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>Suhteet</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>Sen voi täyttää tavallisesta merkkijonosta (tuonti, REST).</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>Tekstistä</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>Sen voi täyttää tiedostosta.</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>Tiedostosta</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>Sen luokan määritteen asetukset tulevat mukaan paketteihin.</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>Paketit</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>Sisältö (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from–%to / %count</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Suodata luetteloa</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>Kaikki luokat</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Osio</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Kielet</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Omistaja</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Julkaistu</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>Käännä järjestys</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Ei kohteita</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Sivua kohden</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Näytä %count kohdetta sivulla.</translation>
     </message>
 </context>
 </TS>

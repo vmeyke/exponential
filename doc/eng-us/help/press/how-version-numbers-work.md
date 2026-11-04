@@ -27,7 +27,7 @@ schemes. Getting the order wrong is one of the easiest mistakes to make in relea
 |---|---|---|
 | `v6.0.14` | The Git tag of a release | "Exponential 6.0.14" (no `v` in running text) |
 | `6.0.14` | Changelogs, Packagist | "Exponential 6.0.14" |
-| `6.0.15stable` | `lib/version.php` on the `main` branch | "the 6.0.15 development line", never "6.0.15 stable" |
+| `6.0.15stable` | `lib/version.php` on the `main` branch | "the 6.0.15 line", never "6.0.15 stable" |
 | `dev-main`, `6.0.x-dev` | Composer names for the `main` branch | "the development branch" |
 | `v0.0.4.50` | A Velocity release tag | "Exponential Velocity 0.0.4.50" |
 
@@ -81,7 +81,7 @@ You will meet these in `composer.json` and in changelogs that list required pack
 
 | Constraint | Means | Example and source |
 |---|---|---|
-| `~0.0.4.55` | `>=0.0.4.55 <0.0.5.0`, so every later 0.0.4.x | Velocity, [Getting the code](../../install/03-getting-the-code.md#34-the-velocity-package) |
+| `~0.0.4.57` | `>=0.0.4.57 <0.0.5.0`, so every later 0.0.4.x | Velocity, [Getting the code](../../install/03-getting-the-code.md#34-the-velocity-package) |
 | `~2.4.11` | `>=2.4.11 <2.5.0` | eztags, [Getting the code](../../install/03-getting-the-code.md#35-extensions-are-composer-packages) |
 | `^8.0` | PHP 8.0 or any later 8.x | The 6.0.15 line's PHP requirement, same page, section 3.1 |
 

@@ -45,13 +45,13 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       # The design tests run admin4 JavaScript in node and FAIL without it where CI is set
       # (tests/tests/design/AdminNodeBinary.php), so node is installed here instead of relying on the image.
       # Node 22 or later, as the JavaScript syntax check of quality.yml.
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v7
         with:
           node-version: '22'
 
@@ -73,7 +73,7 @@ jobs:
         run: echo "dir=$(composer config cache-files-dir)" >> $GITHUB_OUTPUT
 
       - name: Cache Composer dependencies
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: ${{ steps.composer-cache.outputs.dir }}
           key: ${{ runner.os }}-composer-php${{ matrix.php }}-${{ hashFiles('composer.json', '.github/workflows/phpunit.yml') }}
@@ -114,7 +114,7 @@ jobs:
 
       # Optional but recommended – regenerates autoloads the same way the project does
       - name: Generate autoloads
-        run: php bin/php/ezpgenerateautoloads.php -s -e || true
+        run: php bin/php/ezpgenerateautoloads.php -s -e
 
       # The run below takes every suite of phpunit.xml. The live-installation suites (expservices, ezoe,
       # cjw_newsletter, explayouts_admin, ...) find no installed site here and skip each class with the reason
@@ -127,8 +127,24 @@ jobs:
             grep -qE "^ - ${s}( |$)" <<< "$suites" || { echo "::error::testsuite '${s}' is missing from phpunit.xml"; exit 1; }
           done
 
+      # The summary counts warnings and PHPUnit notices; these flags name each one in the log. PHPUnit 10 (PHP 8.1)
+      # has no --display-phpunit-notices, so each flag is passed where the installed PHPUnit knows it.
       - name: Run PHPUnit
-        run: vendor/bin/phpunit --colors=always
+        run: |
+          help=$(vendor/bin/phpunit --help)
+          flags=()
+          for flag in --display-warnings --display-phpunit-notices; do
+            grep -q -- "$flag" <<< "$help" && flags+=("$flag")
+          done
+          vendor/bin/phpunit --colors=always "${flags[@]}"
+
+      # The Twig performance guard compares two engines in one process and skips itself while
+      # Xdebug is active: "coverage: xdebug" above sets xdebug.mode=coverage, which costs every PHP function call
+      # something, and a Twig render makes several times the calls of a compiled .tpl. Under it the twig/tpl ratio
+      # stood at 2.0-2.5 on PHP 8.2-8.5 from the day the guard arrived (budget 2.0), against 1.2-1.4 on PHP 8.5
+      # with xdebug.mode=off. Here Xdebug stays loaded but does nothing (mode off), as on a production system.
+      - name: Run the performance guard without Xdebug
+        run: php -d xdebug.mode=off vendor/bin/phpunit --colors=always tests/tests/lib/twig/expTwigPerformanceGuardTest.php
 
       - name: Clean CI Composer overlay
         if: always()
@@ -150,6 +166,11 @@ jobs:
           - php: '8.3'
             db: postgresql
             dsn: 'postgresql://postgres@127.0.0.1/testdb'
+          # The migration engine's checks of every step family on MongoDB (the expMigration* classes of the
+          # testsuite mongodb-live)
+          - php: '8.3'
+            db: mongodb
+            dsn: 'mongodb://127.0.0.1:27017'
 
     services:
       mysql:
@@ -177,19 +198,28 @@ jobs:
           --health-interval=10s
           --health-timeout=5s
           --health-retries=10
+      mongodb:
+        image: mongo:7
+        ports:
+          - 27017:27017
+        options: >-
+          --health-cmd="mongosh --quiet --eval 'db.runCommand({ ping: 1 })'"
+          --health-interval=10s
+          --health-timeout=5s
+          --health-retries=10
 
     env:
       TEST_DB_NAME: testdb
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       # The design tests run admin4 JavaScript in node and FAIL without it where CI is set
       # (tests/tests/design/AdminNodeBinary.php), so node is installed here instead of relying on the image.
       # Node 22 or later, as the JavaScript syntax check of quality.yml.
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v7
         with:
           node-version: '22'
 
@@ -211,7 +241,7 @@ jobs:
         run: echo "dir=$(composer config cache-files-dir)" >> $GITHUB_OUTPUT
 
       - name: Cache Composer dependencies
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: ${{ steps.composer-cache-db.outputs.dir }}
           key: ${{ runner.os }}-composer-db-php${{ matrix.php }}-${{ hashFiles('composer.json', '.github/workflows/phpunit.yml') }}
@@ -242,7 +272,7 @@ jobs:
           test -x vendor/bin/phpunit
 
       - name: Generate autoloads
-        run: php bin/php/ezpgenerateautoloads.php -s -e || true
+        run: php bin/php/ezpgenerateautoloads.php -s -e
 
       - name: Prepare database
         run: |
@@ -254,6 +284,9 @@ jobs:
               psql -v ON_ERROR_STOP=1 -h 127.0.0.1 -U postgres -d postgres -c "CREATE DATABASE ${TEST_DB_NAME};"
               psql -v ON_ERROR_STOP=1 -h 127.0.0.1 -U postgres -d "${TEST_DB_NAME}" -c "CREATE EXTENSION IF NOT EXISTS pgcrypto;"
               ;;
+            mongodb)
+              # nothing: each test class makes and drops a MongoDB database of its own
+              ;;
           esac
 
       - name: Run database tests
@@ -263,7 +296,12 @@ jobs:
           echo "$TEST_TIMEZONE"
           # Every suite of phpunit.xml, with its excludes (a directory named here would run the files
           # phpunit.xml leaves out). runtests.php exits with PHPUnit's code, so a failure fails the job.
-          php -d date.timezone="$TEST_TIMEZONE" tests/runtests.php --dsn "${{ matrix.dsn }}" --db-per-test
+          if [ "${{ matrix.db }}" = mongodb ]; then
+            EXP_TEST_MONGO_URI="${{ matrix.dsn }}" php -d date.timezone="$TEST_TIMEZONE" vendor/bin/phpunit --colors=always \
+              --testsuite mongodb-live --group mongodb-live --filter '^expMigration'
+          else
+            php -d date.timezone="$TEST_TIMEZONE" tests/runtests.php --dsn "${{ matrix.dsn }}" --db-per-test
+          fi
 
       - name: Clean CI Composer overlay
         if: always()

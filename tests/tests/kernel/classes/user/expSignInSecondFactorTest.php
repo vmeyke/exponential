@@ -26,7 +26,7 @@
  *
  * Run: php vendor/bin/phpunit tests/tests/kernel/classes/user/expSignInSecondFactorTest.php
  *
- * @copyright Copyright (C) 1998 - 2026 7x and the Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package tests
  * @group kernel
@@ -276,7 +276,7 @@ class expSignInSecondFactorTest extends PHPUnit\Framework\TestCase
         $this->assertStringContainsString( 'expSignInSecondFactor::signInForRequest( $appUser );', $dav );
         $this->assertStringContainsString( 'header( expSignInSecondFactor::REFUSAL_HEADER', $dav );
 
-        $soap = self::file( 'soap.php' );
+        $soap = self::file( 'index_soap.php' );
         $app = strpos( $soap, 'expSignInSecondFactor::appPasswordUser( eZHTTPTool::username(), eZHTTPTool::password(), expSignInSecondFactor::CHANNEL_SOAP )' );
         $check = strpos( $soap, 'expSignInSecondFactor::check( $soapUser, expSignInSecondFactor::CHANNEL_SOAP' );
         $this->assertNotFalse( $app );

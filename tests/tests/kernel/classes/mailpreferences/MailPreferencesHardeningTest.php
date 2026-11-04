@@ -26,7 +26,7 @@
  *  MPH-09  Over HTTP, on the site's web server and on Velocity: the one-click POST answers 200, a broken link 400,
  *          and the JSON and CSV downloads arrive complete
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package tests
  * @group mailpreferences
@@ -34,6 +34,7 @@
 
 use Exponential\Service\MailPreferencesPage;
 
+#[\PHPUnit\Framework\Attributes\Group('mailpreferences')]
 class MailPreferencesHardeningTest extends PHPUnit\Framework\TestCase
 {
     const DOMAIN = 'mph.invalid';
@@ -241,7 +242,7 @@ class MailPreferencesHardeningTest extends PHPUnit\Framework\TestCase
     {
         // in a process of its own: a buffer that cannot be removed stays until the process ends
         $fixture = __DIR__ . '/fixtures/discard_output_worker_buffer.php';
-        $process = proc_open( array( PHP_BINARY, '-n', '-d', 'display_errors=stderr', $fixture ), array( 1 => array( 'pipe', 'w' ), 2 => array( 'pipe', 'w' ) ), $pipes );
+        $process = proc_open( array( ...expTestBarePhpCommand(), '-d', 'display_errors=stderr', $fixture ), array( 1 => array( 'pipe', 'w' ), 2 => array( 'pipe', 'w' ) ), $pipes );
         $this->assertIsResource( $process );
         stream_set_blocking( $pipes[1], false );
         $out = '';
@@ -584,7 +585,8 @@ class MailPreferencesHardeningTest extends PHPUnit\Framework\TestCase
             $opts['http']['content'] = $body;
         $started = microtime( true );
         $answer = @file_get_contents( $url, false, stream_context_create( $opts ) );
-        $headers = isset( $http_response_header ) ? $http_response_header : array();
+        // PHP 8.4 reads the headers with http_get_last_response_headers(); 8.5 deprecates $http_response_header
+        $headers = function_exists( 'http_get_last_response_headers' ) ? (array)http_get_last_response_headers() : ( get_defined_vars()['http_response_header'] ?? array() );
         $status = $headers && preg_match( '#^HTTP/\S+ (\d{3})#', $headers[0], $m ) ? (int)$m[1] : 0;
         return array( 'status' => $status, 'headers' => implode( "\n", $headers ), 'body' => $answer === false ? '' : $answer,
                       'seconds' => microtime( true ) - $started );

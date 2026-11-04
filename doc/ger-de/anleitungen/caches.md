@@ -29,7 +29,7 @@ geleert wurden.
 - **Suchen** schränkt die Liste nach Name, ID, Tag oder Verzeichnis ein; die Knöpfe unter **Gruppen** zeigen eine einzelne Gruppe.
 - Die Cache-Dateien liegen in `var/`, das Apache mit PHP-FPM und Velocity gemeinsam nutzen: Ein hier geleerter Cache erreicht beide.
   Zwei Dinge nicht: Velocity hält Einstellungen im Speicher (starten Sie ihn nach dem Leeren der INI-Caches neu) und beantwortet Seiten
-  einige Sekunden lang aus seinem eigenen Antwort-Cache (leeren Sie ihn in der letzten Gruppe oder mit `./console exp:velocity cache clear`).
+  einige Sekunden lang aus seinem eigenen Antwort-Cache (leeren Sie ihn in der letzten Gruppe oder mit `./console exp:velocity cache clear --apply`).
 
 ## 1. Die Übersicht
 
@@ -83,7 +83,7 @@ Die Spalte gibt an, wann jeder Cache zuletzt geleert wurde und, laut Audit-Proto
 - **INI und Einstellungen** (`global_ini`, `ini`, `active_extensions`, `sslzones`): Ein laufendes Velocity hat die
   Einstellungen in den Speicher gelesen. Führen Sie nach dem Leeren `./console exp:velocity restart --allow-root-user` aus.
 - **Inhalte, Templates und der HTTP-Cache**: Der Antwort-Cache von Velocity kann eine vor dem Leeren erzeugte Seite noch
-  für seine Lebensdauer ausliefern (einige Sekunden auf dem Demonstrationsserver). Leeren Sie ihn mit dem Knopf oder mit `./console exp:velocity cache clear`.
+  für seine Lebensdauer ausliefern (einige Sekunden auf dem Demonstrationsserver). Leeren Sie ihn mit dem Knopf oder mit `./console exp:velocity cache clear --apply`.
 - **OPcache und APCu** gehören zu dem Serverprozess, der geantwortet hat; der andere Server behält seine eigenen.
 
 ## 5. In einer Shell
@@ -93,7 +93,7 @@ php bin/php/ezcache.php --clear-id=template-block,content --allow-root-user   on
 php bin/php/ezcache.php --clear-tag=template --allow-root-user                 by tag
 php bin/php/ezcache.php --clear-all --allow-root-user                          everything
 ./console exp:cache clear --id=content --dry-run --allow-root-user             what would be cleared, with sizes
-./console exp:velocity cache clear                                            Velocity's response cache
+./console exp:velocity cache clear --apply                                            Velocity's response cache
 ./console exp:velocity restart --allow-root-user                               Velocity, after settings changed
 ```
 
@@ -103,6 +103,12 @@ Jede Gruppe und jede Ergebnismeldung zeigt den Befehl für genau die Caches, die
 
 **Eine Seite zeigt nach dem Leeren noch die alte Fassung.** Leeren Sie den Antwort-Cache von Velocity oder warten Sie einige Sekunden. Handelt
 es sich um eine Änderung der Einstellungen, starten Sie Velocity neu.
+
+**Die Website läuft unter LiteSpeed oder OpenLiteSpeed, und anonyme Besucher sehen noch die alte Seite.** Den eigenen
+Seiten-Cache des Servers (eingeschaltet mit dem Block aus `.htaccess_root`) leert diese Seite nicht: Er bewahrt eine
+Seite für ihr `max-age` auf (ausgeliefert 120 Sekunden). Warten Sie, oder leeren Sie ihn, wie
+[Seiten-Caching mit LiteSpeed und OpenLiteSpeed](seiten-cache-mit-litespeed.md#leeren) es beschreibt. Ein
+Response-Header `X-LiteSpeed-Cache: hit` zeigt, dass die Seite von dort kam.
 
 **Das Protokoll meldet „Expiring all view cache“.** Eine Änderung hat so viele Seiten betroffen, dass das einzelne Leeren länger dauern würde
 als das Leeren aller: Wenn die View-Caches von `site.ini [ContentSettings] CacheThreshold` Knoten oder mehr

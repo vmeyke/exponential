@@ -2,7 +2,7 @@
 /**
  * File containing the eZTemplateCompiler class.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * Portions derived from LoveStack (mugoweb/ezpublish-legacy, commit 0bb0bac618), Copyright (C) Mugo Web, GPL v2
@@ -343,6 +343,9 @@ class eZTemplateCompiler
         // the signed-in user's interface choices (expUISwitch: another design, ...); only when one is applied
         if ( !empty( $GLOBALS['expUISwitchVariantKey'] ) )
             $cacheFileKey .= '-' . $GLOBALS['expUISwitchVariantKey'];
+        // Debug compiles its comments into the template (eZTemplate::appendDebugNodes): its own files, so switching
+        // Debug or changing TemplatesWithoutDebugComments needs no template cache clear; empty with Debug off
+        $cacheFileKey .= eZTemplate::debugCommentsCompilationKey();
 
         $cacheFileName = $extraName . md5( $cacheFileKey ) . '.php';
         return $cacheFileName;
@@ -409,7 +412,7 @@ class eZTemplateCompiler
                                                                           $rootNamespace, $currentNamespace );
             if ( $helperStatus )
             {
-                if ( !empty( $GLOBALS['eZDebugEnabled'] ) && class_exists( 'expRenderStats' ) )
+                if ( ( !empty( $GLOBALS['eZDebugEnabled'] ) || !empty( $GLOBALS['eZDebugCollect'] ) ) && class_exists( 'expRenderStats' ) )
                     expRenderStats::noteTemplateExecuted();
                 $textElements[] = $text;
                 return true;
@@ -2214,9 +2217,9 @@ $rbracket
                         $code .=
                             "\$tpl->createLocalVariablesList();\n" .
                             "\$tpl->appendTemplateFetch( $uriText );\n" . // Make sure the template file is recorded, like in loadURIRoot
-                            "if ( eZTemplate::showTemplatePathComments() )\n{\n    \$$textName .= eZTemplate::templatePathComment( 'START', $templatePathText, $templateSourceText );\n}\n" .
+                            "if ( eZTemplate::showTemplatePathComments() && eZTemplate::templateAllowsDebugComments( $templatePathText ) )\n{\n    \$$textName .= eZTemplate::templatePathComment( 'START', $templatePathText, $templateSourceText );\n}\n" .
                             "include( '" . eZTemplateCompiler::TemplatePrefix() . "' . $phpScriptText );\n" .
-                            "if ( eZTemplate::showTemplatePathComments() )\n{\n    \$$textName .= eZTemplate::templatePathComment( 'STOP', $templatePathText, $templateSourceText );\n}\n" .
+                            "if ( eZTemplate::showTemplatePathComments() && eZTemplate::templateAllowsDebugComments( $templatePathText ) )\n{\n    \$$textName .= eZTemplate::templatePathComment( 'STOP', $templatePathText, $templateSourceText );\n}\n" .
                             "\$tpl->unsetLocalVariables();\n" .
                             "\$tpl->destroyLocalVariablesList();\n" .
                             "list( \$rootNamespace, \$currentNamespace ) = array_pop( \$namespaceStack );\n";

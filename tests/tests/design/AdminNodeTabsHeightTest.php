@@ -18,7 +18,7 @@
  *
  * Run: php vendor/bin/phpunit tests/tests/design/AdminNodeTabsHeightTest.php
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package tests
  */
@@ -155,7 +155,7 @@ class AdminNodeTabsHeightTest extends PHPUnit\Framework\TestCase
         $this->assertStringContainsString( 'max: Math.max(min, Math.round(Math.min(em * 60, window.innerHeight * 0.85))),', $js );
         $this->assertStringContainsString( 'def: Math.round(em * 20),', $js );
         $this->assertStringContainsString( "shown: Math.round(em * (box.classList.contains('layouts-active') ? 22 : 20))", $js );
-        $base = self::css( 'pagelayout.css' );
+        $base = self::css( 'base.css' );
         $this->assertMatchesRegularExpression( '/#window-controls \{[^}]*height: 20em;/', $base );
         $this->assertMatchesRegularExpression( '/#window-controls\.layouts-active \{[^}]*height: 22em;/', $base );
 
@@ -190,7 +190,7 @@ class AdminNodeTabsHeightTest extends PHPUnit\Framework\TestCase
         $this->assertStringNotContainsString( 'current_user', $part );
         // inside the box, after the tabs
         $body = self::read( 'design/admin4/templates/node/view/a4_full_body.tpl' );
-        $this->assertStringContainsString( "<div id=\"window-controls\" class=\"tab-block a4-node-tabs\">\n{include uri='design:window_controls.tpl'}\n{include uri='design:parts/a4_tabs_height.tpl'}\n</div>", $body );
+        $this->assertStringContainsString( "<div id=\"window-controls\" class=\"tab-block a4-node-tabs\">\n{include uri='design:window_controls.tpl' tabs_switch_elsewhere=true()}\n{include uri='design:parts/a4_tabs_height.tpl'}\n</div>", $body );
     }
 
     /** TH-03 */

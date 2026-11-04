@@ -6,13 +6,16 @@
  * A stream returned by open() is closed with expAuditFormatBase::close( $stream ), which also ends the
  * decompressing process of a binary handler.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package kernel
  */
 
 abstract class expAuditFormatBase implements expAuditFormatHandler
 {
+    /** how many reads in a row may return nothing before a stream that never reports its end counts as ended */
+    const EMPTY_READS = 1000;
+
     /** @var array (int)stream id => process resource, for the binary handlers */
     protected static $processes = array();
 
@@ -158,15 +161,20 @@ abstract class expAuditFormatBase implements expAuditFormatHandler
     {
         $ctx = hash_init( 'sha256' );
         $bytes = 0;
+        $empty = 0;
         while ( !feof( $stream ) )
         {
             $chunk = fread( $stream, 1048576 );
             if ( $chunk === false || $chunk === '' )
             {
-                if ( feof( $stream ) || $chunk === false )
+                // a stream that never reports its end (a decompressing wrapper, Redmine #16709) ends after
+                // EMPTY_READS reads that returned nothing: the digest then differs and the archive does not verify,
+                // instead of the read looping forever
+                if ( feof( $stream ) || $chunk === false || ++$empty >= self::EMPTY_READS )
                     break;
                 continue;
             }
+            $empty = 0;
             hash_update( $ctx, $chunk );
             $bytes += strlen( $chunk );
         }

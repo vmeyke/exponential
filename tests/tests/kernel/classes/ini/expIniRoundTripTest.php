@@ -11,7 +11,7 @@
  *
  * The real files are only read. The copies sit in var/tmp/ini-tests/roundtrip/<n>/ (overwritten on each run).
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package tests
  * @group ini
@@ -19,6 +19,7 @@
 
 require_once __DIR__ . '/fixtures/expinienginetestfixtures.php';
 
+#[\PHPUnit\Framework\Attributes\Group('ini')]
 class expIniRoundTripTest extends PHPUnit\Framework\TestCase
 {
     /** @var array relative real path => relative copy path */
@@ -73,7 +74,9 @@ class expIniRoundTripTest extends PHPUnit\Framework\TestCase
 
     public function testThereAreManyFiles()
     {
-        $this->assertGreaterThan( 300, count( self::$copies ), 'every real INI file is tested' );
+        // a floor that says the INI files were found at all: 121 in a checkout of the repository, 299 on alpha with
+        // its extensions; not a count to keep, settings files come and go with the extensions
+        $this->assertGreaterThan( 100, count( self::$copies ), 'every real INI file is tested' );
         fwrite( STDERR, "\n[round-trip] " . count( self::$copies ) . " real INI files\n" );
     }
 
@@ -121,7 +124,7 @@ class expIniRoundTripTest extends PHPUnit\Framework\TestCase
             $this->assertSame( $bytes, file_get_contents( $real . $copy ), "$rel: byte-identical after set + remove" );
             ++$tested;
         }
-        $this->assertGreaterThan( 300, $tested );
+        $this->assertGreaterThan( 100, $tested );
     }
 
     /** RT-05 — a new block and removeBlock(): byte-identical, for every file */

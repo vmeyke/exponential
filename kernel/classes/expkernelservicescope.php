@@ -2,7 +2,7 @@
 /**
  * File containing the expKernelServiceScope class.
  *
- * @copyright Copyright (C) 1998 - 2026 7x and the Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package kernel
  */
@@ -61,6 +61,9 @@ class expKernelServiceScope
         'classifier'  => array( 'expRequestClassifier', 'reset' ),
         // the configurations of the "Approve user accounts" events are read again: a changed workflow counts at once
         'userapproval' => array( 'expUserApproval', 'resetRequest' ),
+        // a static publishing build's request: its verdict is made again, the template debug switches it turned off
+        // are given back (expStaticBuildSignature)
+        'staticbuild' => array( 'expStaticBuildSignature', 'resetRequest' ),
     );
 
     /**
@@ -84,6 +87,22 @@ class expKernelServiceScope
      * @var array
      */
     public $resetHooks = array();
+
+    /**
+     * Values worked out from the settings alone (memo()): key => value. Emptied with the INI objects, by another
+     * generation (sync()) and by flush(), so a value never outlives the settings it was made from.
+     *
+     * @var array
+     */
+    public $memo = array();
+
+    /**
+     * Connections kept for the next request of a persistent worker: [driver][key] => what the driver keeps
+     * (eZSQLite3DB::keptConnectionKey()). Not settings: neither another generation nor flush() empties it.
+     *
+     * @var array
+     */
+    public $connections = array();
 
     /**
      * The generation of the compiled container the stored objects belong to; another generation empties the store.
@@ -141,6 +160,7 @@ class expKernelServiceScope
             return false;
         $this->ini = array();
         $this->services = array();
+        $this->memo = array();
         $this->generation = $generation;
         return true;
     }
@@ -152,6 +172,60 @@ class expKernelServiceScope
     {
         $this->ini = array();
         $this->services = array();
+        $this->memo = array();
+    }
+
+    /**
+     * Whether memo() keeps values in this process: on a persistent worker (Exponential Velocity) whose settings files
+     * are kept for the worker (expKernelServices::workerSettingsKept()), that is when a setting can only change with
+     * an INI cache clear or a deploy, which start another generation and empty the memo. Everywhere else (PHP-FPM, the
+     * command line) every call works the value out again, as before.
+     *
+     * @return bool
+     */
+    public static function memoEnabled()
+    {
+        return class_exists( 'Q_WebServer_Snapshot', false ) && class_exists( 'expKernelServices', false )
+               && expKernelServices::workerSettingsKept() && is_string( eZINI::sharedStoreState() );
+    }
+
+    /**
+     * A value worked out from the settings alone (never from the request, the visitor or the session), kept for the
+     * worker while its settings are (memoEnabled()); $build() makes it when there is none. The key names everything
+     * the value depends on besides the settings files in use (a locale, a path list ...); the settings state of the
+     * request (eZINI::sharedStoreState(): the siteaccess, its extensions and the generation) is part of every key, so
+     * siteaccesses served by one worker never share a value.
+     *
+     * @param string $key
+     * @param callable $build
+     * @return mixed
+     */
+    public static function memo( $key, $build )
+    {
+        if ( !self::memoEnabled() )
+            return $build();
+        $key = eZINI::sharedStoreState() . '#' . $key;
+        $worker = self::worker();
+        if ( !array_key_exists( $key, $worker->memo ) )
+            $worker->memo[$key] = $build();
+        return $worker->memo[$key];
+    }
+
+    /**
+     * Stores a value for memo( $key ) (null forgets it), when memos are kept (memoEnabled()).
+     *
+     * @param string $key
+     * @param mixed $value
+     */
+    public static function setMemo( $key, $value )
+    {
+        if ( !self::memoEnabled() )
+            return;
+        $key = eZINI::sharedStoreState() . '#' . $key;
+        if ( $value === null )
+            unset( self::worker()->memo[$key] );
+        else
+            self::worker()->memo[$key] = $value;
     }
 
     /**
@@ -170,6 +244,11 @@ class expKernelServiceScope
         if ( self::hasWorker() )
         {
             $worker = self::worker();
+            // The worker store is kept from a request before (a persistent worker): a transaction that request left
+            // open (an exception between begin() and commit()) is rolled back, so this request's commits are not
+            // nested in it and never commit what it left half done. On PHP-FPM there is no store yet at this point.
+            if ( class_exists( 'eZDB' ) && method_exists( 'eZDB', 'rollbackOpenTransaction' ) )
+                eZDB::rollbackOpenTransaction();
             $worker->requests++;
             foreach ( $worker->resetHooks as $name => $hook )
             {

@@ -2,7 +2,7 @@
 /**
  * File containing the eZSiteInstaller class.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -25,6 +25,17 @@ class eZSiteInstaller
     const ERR_OK = 0;
     const ERR_ABORT = 1;
     const ERR_CONTINUE = 2;
+
+    /** The remote id of the content root's object (node 2), the same in every release. */
+    const CONTENT_ROOT_REMOTE_ID = '9459d3c29e15006e45197295722c7ade';
+
+    /**
+     * The names the content root's object has carried in the clean data of the releases the site packages were
+     * made for. An installer step that names the root by one of them (the legacy site packages name it
+     * "eZ Publish", their rebuilt copies "Websites") is pointed at the root by its remote id when no object has
+     * that name any more.
+     */
+    const CONTENT_ROOT_NAMES = array( 'eZ Publish', 'Exponential', 'Websites', 'eZ Platform' );
 
     public function __construct( $parameters = false )
     {
@@ -674,22 +685,103 @@ class eZSiteInstaller
     */
     function contentObjectByName( $params )
     {
-        $objectName = $params['name'];
-        $classID = isset( $params['class_id'] ) ? $params['class_id'] : false;
+        foreach ( self::objectLookups( $params ) as $lookup )
+        {
+            if ( $lookup[0] === 'remote_id' )
+            {
+                $object = eZContentObject::fetchByRemoteID( $lookup[1] );
+                if ( is_object( $object ) )
+                    return $object;
+                continue;
+            }
 
-        //build up the conditions
-        $conditions = array( 'name' => $objectName );
+            $objectList = eZContentObject::fetchList( true, $lookup[1], 0, 1 );
+            if ( is_array( $objectList ) && count( $objectList ) > 0 )
+                return $objectList[0];
+        }
 
-        if( $classID )
-            array_merge( $conditions, array( 'contentclass_id' => $classID ) );
+        return false;
+    }
 
-        $objectList = eZContentObject::fetchList( true, $conditions, 0, 1 );
+    /**
+     * True when $name is one of the names the content root has carried (CONTENT_ROOT_NAMES), compared without
+     * case and surrounding blanks. Pure.
+     *
+     * @param mixed $name
+     * @return bool
+     */
+    static function isContentRootName( $name )
+    {
+        if ( !is_string( $name ) )
+            return false;
+        $name = strtolower( trim( $name ) );
+        foreach ( self::CONTENT_ROOT_NAMES as $rootName )
+        {
+            if ( $name === strtolower( $rootName ) )
+                return true;
+        }
+        return false;
+    }
 
-        $object = false;
-        if( count( $objectList ) > 0 )
-            $object = $objectList[0];
+    /**
+     * How contentObjectByName() looks for the object a step names, in order; the first one found is used. Pure.
+     *  - array( 'remote_id', <id> ) for the 'remote_id' the step gives;
+     *  - array( 'conditions', <eZContentObject::fetchList() conditions> ) for its 'name' (and 'class_id');
+     *  - array( 'remote_id', CONTENT_ROOT_REMOTE_ID ) last, when the name is one the content root has carried:
+     *    the legacy site packages name the root "eZ Publish", a name the clean data of Exponential 6 no longer
+     *    uses, and their swap of the root with "Home" stopped with "Can't fetch node ''".
+     *
+     * @param array $params
+     * @return array
+     */
+    static function objectLookups( $params )
+    {
+        $lookups = array();
+        if ( isset( $params['remote_id'] ) && is_string( $params['remote_id'] ) && $params['remote_id'] !== '' )
+            $lookups[] = array( 'remote_id', $params['remote_id'] );
 
-        return $object;
+        if ( isset( $params['name'] ) && is_string( $params['name'] ) && $params['name'] !== '' )
+        {
+            $conditions = array( 'name' => $params['name'] );
+            if ( !empty( $params['class_id'] ) )
+                $conditions['contentclass_id'] = $params['class_id'];
+            $lookups[] = array( 'conditions', $conditions );
+
+            if ( self::isContentRootName( $params['name'] ) &&
+                 ( !isset( $params['remote_id'] ) || $params['remote_id'] !== self::CONTENT_ROOT_REMOTE_ID ) )
+                $lookups[] = array( 'remote_id', self::CONTENT_ROOT_REMOTE_ID );
+        }
+        return $lookups;
+    }
+
+    /**
+     * How a step names an object in a message: its name, its remote id, or both. Pure.
+     *
+     * @param mixed $params
+     * @return string
+     */
+    static function describeObjectParams( $params )
+    {
+        $parts = array();
+        if ( is_array( $params ) && isset( $params['name'] ) && is_string( $params['name'] ) && $params['name'] !== '' )
+            $parts[] = "named '" . $params['name'] . "'";
+        if ( is_array( $params ) && isset( $params['remote_id'] ) && is_string( $params['remote_id'] ) && $params['remote_id'] !== '' )
+            $parts[] = "with remote id '" . $params['remote_id'] . "'";
+        return $parts ? 'the object ' . implode( ' or ', $parts ) : 'an object the step does not name';
+    }
+
+    /**
+     * True when removeContentObject() may purge an object whose main node is at $depth: never a top-level node
+     * (depth 1: the content, users and media roots). The legacy site packages remove the old content root after
+     * they swapped it with "Home"; it is then one level down, and the step must not purge the root itself when
+     * the swap did not happen. Pure.
+     *
+     * @param mixed $depth
+     * @return bool
+     */
+    static function mayPurgeAtDepth( $depth )
+    {
+        return is_numeric( $depth ) && (int)$depth > 1;
     }
 
     /*!
@@ -701,11 +793,18 @@ class eZSiteInstaller
         $object = $this->contentObjectByName( $params );
         if( is_object( $object ) )
         {
+            $mainNode = $object->attribute( 'main_node' );
+            if ( is_object( $mainNode ) && !self::mayPurgeAtDepth( $mainNode->attribute( 'depth' ) ) )
+            {
+                eZDebug::writeWarning( 'Not removing ' . self::describeObjectParams( $params ) . ': it is the top-level node ' .
+                                       $mainNode->attribute( 'node_id' ), __METHOD__ );
+                return;
+            }
             $object->purge();
         }
         else
         {
-            eZDebug::writeWarning( "Object with name '" . $params['name'] . "' doesn't exist", __METHOD__ );
+            eZDebug::writeWarning( ucfirst( self::describeObjectParams( $params ) ) . " doesn't exist", __METHOD__ );
         }
     }
 
@@ -1042,11 +1141,13 @@ class eZSiteInstaller
         $node2 = $this->nodeIdByName( $nodeInfo2 );
 
         $nodeID = $node1;
-        $node = eZContentObjectTreeNode::fetch( $nodeID );
+        $node = $nodeID ? eZContentObjectTreeNode::fetch( $nodeID ) : null;
 
         if( !is_object( $node ) )
         {
-            $this->reportError( "Can't fetch node '$nodeID'", 'eZSiteInstaller::swapNodes' );
+            $this->reportError( $nodeID ? "Can't fetch node '$nodeID'"
+                                        : "Can't find the node of " . self::describeObjectParams( $nodeInfo1 ) . ' to swap',
+                                'eZSiteInstaller::swapNodes' );
             return false;
         }
 
@@ -1072,11 +1173,13 @@ class eZSiteInstaller
 
         $selectedNodeID = $node2;
 
-        $selectedNode = eZContentObjectTreeNode::fetch( $selectedNodeID );
+        $selectedNode = $selectedNodeID ? eZContentObjectTreeNode::fetch( $selectedNodeID ) : null;
 
         if( !is_object( $selectedNode ) )
         {
-            $this->reportError( "Cannot fetch node '$selectedNodeID'", 'eZSiteInstaller::swapNodes' );
+            $this->reportError( $selectedNodeID ? "Cannot fetch node '$selectedNodeID'"
+                                                : "Can't find the node of " . self::describeObjectParams( $nodeInfo2 ) . ' to swap with',
+                                'eZSiteInstaller::swapNodes' );
             return false;
         }
 
@@ -1150,43 +1253,53 @@ class eZSiteInstaller
 
         $db = eZDB::instance();
         $db->begin();
-        $node->store();
-        $selectedNode->setAttribute( 'contentobject_id', $objectID );
-        $selectedNode->setAttribute( 'contentobject_version', $objectVersion );
-        $selectedNode->store();
-
-        // modify path string
-        $changedOriginalNode = eZContentObjectTreeNode::fetch( $nodeID );
-        $changedOriginalNode->updateSubTreePath();
-        $changedTargetNode = eZContentObjectTreeNode::fetch( $selectedNodeID );
-        $changedTargetNode->updateSubTreePath();
-
-        // modify section
-        if( $changedOriginalNode->attribute( 'main_node_id' ) == $changedOriginalNode->attribute( 'node_id' ) )
+        try
         {
-            $changedOriginalObject = $changedOriginalNode->object();
-            $parentObject = $nodeParent->object();
-            if( $changedOriginalObject->attribute( 'section_id' ) != $parentObject->attribute( 'section_id' ) )
-            {
+            $node->store();
+            $selectedNode->setAttribute( 'contentobject_id', $objectID );
+            $selectedNode->setAttribute( 'contentobject_version', $objectVersion );
+            $selectedNode->store();
 
-                eZContentObjectTreeNode::assignSectionToSubTree( $changedOriginalNode->attribute( 'main_node_id' ),
-                                                                 $parentObject->attribute( 'section_id' ),
-                                                                 $changedOriginalObject->attribute( 'section_id' ) );
+            // modify path string
+            $changedOriginalNode = eZContentObjectTreeNode::fetch( $nodeID );
+            $changedOriginalNode->updateSubTreePath();
+            $changedTargetNode = eZContentObjectTreeNode::fetch( $selectedNodeID );
+            $changedTargetNode->updateSubTreePath();
+
+            // modify section
+            if( $changedOriginalNode->attribute( 'main_node_id' ) == $changedOriginalNode->attribute( 'node_id' ) )
+            {
+                $changedOriginalObject = $changedOriginalNode->object();
+                $parentObject = $nodeParent->object();
+                if( $changedOriginalObject->attribute( 'section_id' ) != $parentObject->attribute( 'section_id' ) )
+                {
+
+                    eZContentObjectTreeNode::assignSectionToSubTree( $changedOriginalNode->attribute( 'main_node_id' ),
+                                                                     $parentObject->attribute( 'section_id' ),
+                                                                     $changedOriginalObject->attribute( 'section_id' ) );
+                }
             }
+            if( $changedTargetNode->attribute( 'main_node_id' ) == $changedTargetNode->attribute( 'node_id' ) )
+            {
+                $changedTargetObject = $changedTargetNode->object();
+                $selectedParentObject = $selectedNodeParent->object();
+                if( $changedTargetObject->attribute( 'section_id' ) != $selectedParentObject->attribute( 'section_id' ) )
+                {
+
+                    eZContentObjectTreeNode::assignSectionToSubTree( $changedTargetNode->attribute( 'main_node_id' ),
+                                                                     $selectedParentObject->attribute( 'section_id' ),
+                                                                     $changedTargetObject->attribute( 'section_id' ) );
+                }
+            }
+
         }
-        if( $changedTargetNode->attribute( 'main_node_id' ) == $changedTargetNode->attribute( 'node_id' ) )
+        catch ( Throwable $e )
         {
-            $changedTargetObject = $changedTargetNode->object();
-            $selectedParentObject = $selectedNodeParent->object();
-            if( $changedTargetObject->attribute( 'section_id' ) != $selectedParentObject->attribute( 'section_id' ) )
-            {
-
-                eZContentObjectTreeNode::assignSectionToSubTree( $changedTargetNode->attribute( 'main_node_id' ),
-                                                                 $selectedParentObject->attribute( 'section_id' ),
-                                                                 $changedTargetObject->attribute( 'section_id' ) );
-            }
+            // nothing of a transaction that failed half way is committed by a later commit()
+            if ( $db->transactionCounter() > 0 )
+                $db->rollback();
+            throw $e;
         }
-
         $db->commit();
 
         // clear cache for new placement.
@@ -1560,7 +1673,12 @@ class eZSiteInstaller
                 $hostPort = ':' . (int)$hostParts['port'];
         }
 
-        $indexFile = eZSys::wwwDir() . ( array_key_exists( 'index_file', $params ) ? (string)$params['index_file'] : eZSys::indexFileName() );
+        // Without an index_file the urls follow the installation: none when it
+        // was set up with ForceVirtualHost=true (clean urls, see ezstep_create_sites).
+        if ( array_key_exists( 'index_file', $params ) )
+            $indexFile = eZSys::wwwDir() . (string)$params['index_file'];
+        else
+            $indexFile = eZSys::wwwDir() . ( eZINI::instance()->variable( 'SiteAccessSettings', 'ForceVirtualHost' ) === 'true' ? '' : eZSys::indexFileName() );
 
         switch( $accessType )
         {

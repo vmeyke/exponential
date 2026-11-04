@@ -1,23 +1,24 @@
 <?php
 /**
- * The paths of the WebDAV server (webdav.php): the siteaccess PathPrefix every operation resolves its Content paths
+ * The paths of the WebDAV server (index_webdav.php): the siteaccess PathPrefix every operation resolves its Content paths
  * with (eZWebDAVContentBackend::pathWithPrefix()), the key of the stored properties (locks) of a resource
  * (eZWebDAVContentBackend::propertyStoragePath()) and the encoding of URIs in responses
  * (expWebDAVPathFactory::encodePathElements()). No database.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @package tests
  * @group kernel
  */
 
+#[\PHPUnit\Framework\Attributes\Group('kernel')]
 class WebDAVPathsTest extends PHPUnit\Framework\TestCase
 {
     protected function setUp(): void
     {
         chdir( dirname( __DIR__, 5 ) );
         if ( !class_exists( 'ezcWebdavAutomaticPathFactory' ) )
-            $this->markTestSkipped( 'zetacomponents/webdav is not installed' );
+            $this->markTestSkipped( 'se7enxweb/expcomponents-webdav is not installed' );
     }
 
     public function testNoPrefixLeavesThePath()

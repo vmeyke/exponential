@@ -984,6 +984,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>Ang pahinang ito lamang ang hinahanap: %from hanggang %to sa %count.</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Bawat datatype ng kernel at ng mga extension, at kung paano ito ginagamit ng mga class at nilalaman.</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Mga datatype</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2316,6 +2324,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>Maaari ring i-bookmark ang mga pahina ng system: buksan ang pahina (Setup, ang audit trail, listahan ng mga user ...) at piliin ang I-bookmark ang pahinang ito sa itaas nito. May icon na gear ang mga ganoong bookmark.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>Hindi mo na maaaring buksan dito ang pahinang ito. Alisin ang bookmark, o humingi ng access sa administrator.</translation>
     </message>
 </context>
 <context>
@@ -5165,6 +5177,210 @@
         <source>Go to the first page</source>
         <translation>Pumunta sa unang pahina</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>Iba pa</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>Nakaraang 7 araw</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>Sariling saklaw</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>Lahat ng salita</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>Alinmang salita</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>Eksaktong parirala</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>Kaugnayan</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>Pangalan A–Z</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>Pangalan Z–A</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>Binago, pinakabago muna</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>Binago, pinakaluma muna</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>Na-publish, pinakabago muna</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>Na-publish, pinakaluma muna</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Binago</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>Mga filter</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>Ipakita ang mga filter</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>Itago ang mga filter</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>I-reset</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>Ilapat</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>Mga salita</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>Uri ng nilalaman</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>Magpakita pa (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>Pumili ng isang uri ng nilalaman upang maghanap sa isa sa mga attribute nito.</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Seksyon</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Mula sa</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Hanggang</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>Hindi wastong petsa ang petsa ng simula.</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>Hindi wastong petsa ang petsa ng pagtatapos.</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>May-ari</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>ID ng user, login o e-mail address.</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>Walang nahanap na user para sa “%input”.</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Wika</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>Anumang wika</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Lokasyon</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>%count lokasyon</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>Mga resulta bawat pahina</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>Mga resulta para sa “%text” (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>Mga resulta (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>I-sort ayon sa</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>Pag-uuri</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>Mga aktibong filter</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>Alisin ang filter na ito</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>O pumili ng mga filter at ilapat ang mga ito upang ilista ang tumutugmang nilalaman.</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>Pinapakitid ng mga filter ang paghahanap kapag nakapag-type ka na ng mga salita.</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>Walang nahanap na resulta para sa “%text”.</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>Walang nahanap na resulta.</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>Mag-alis ng filter sa itaas.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Mga salin</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Mga aksyon</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>I-edit ang %name</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>I-edit</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -7514,6 +7730,10 @@
         <source>Setup &gt; Cronjobs</source>
         <translation>Setup &gt; Cronjobs</translation>
     </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>Wala pang bahagi ng cronjob na tumakbo: naghihintay ang job queue, ang mga import, ang mga notification at ang search index. Patakbuhin ang php bin/php/installcrontab.php --add --apply, o idagdag ang mga linya ng --show sa crontab.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/dashboard/drafts</name>
@@ -8058,8 +8278,8 @@
         <translation>Pinananatili sa mga source file at sa LICENSE file ang mga abiso sa copyright ng mga orihinal na may-akda at ng software ng third-party na kasama ng Exponential, ayon sa hinihingi ng lisensya.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>Ang sumusunod ay listahan ng mga contributor ng Exponential na naglisensya ng kanilang gawa para magamit ng 7x sa ilalim ng mga tuntunin at kondisyon ng eZ Systems Contributor Licensing Agreement. Ayon sa pinahihintulutan ng kasunduang ito, muling ipinamamahagi ng 7x ang bawat kontribusyon sa ilalim ng parehong lisensya ng file na kinabibilangan ng kontribusyon. Pinangangalanan ng listahan ang bawat contributor, opsyonal na impormasyon sa pakikipag-ugnayan at ang mga file na kinontribyutan nila o pinagkontribyutan ng gawa.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>Mga kontribyutor na kinikilala para sa kanilang gawa sa Exponential at sa software na pinagmulan nito, kasama ang mga file na kanilang inambagan. Ito ay pagkilala, hindi paunawa ng copyright: ang mga ambag sa Exponential ay inililipat sa Exponential Foundation at 7x sa ilalim ng Contributor Licensing Agreement.</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13881,32 +14101,20 @@ Paalala: Hindi ia-uninstall ang mga package.</translation>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%evaluate_link"&gt;Subukan ang Exponential Enterprise Edition&lt;/a&gt; - &lt;a href="%share_link"&gt;Maging miyembro ng Exponential Community, makipagpalitan at mag-ambag&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; at iba pa.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class="edition-info"&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>Pinapagana ng &lt;span class="edition-info"&gt;%edition&lt;/span&gt;. Para sa higit pang impormasyon, tingnan ang &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; at iba pa.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> Para sa higit pang impormasyon, tingnan ang &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
     </message>
     <message>
-        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; at iba pa.</translation>
+        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href="%evaluate_link"&gt;Subukan ang Exponential (mula sa 7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;Maging miyembro ng Exponential Community, humingi ng suporta at mag-ambag&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; at iba pa.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13915,6 +14123,61 @@ Paalala: Hindi ia-uninstall ang mga package.</translation>
     <message>
         <source>Help center</source>
         <translation>Sentro ng tulong</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>Nilalaman</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>Mga pahina ng dokumento</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>Mga user</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>Mga class ng nilalaman</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>Administrasyon</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>Pahina %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>Tingnan ang lahat ng resulta</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>%count resulta</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>Isang resulta</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>%count mungkahi</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>Walang mungkahi</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>Hindi ma-load ang mga mungkahi.</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>Mga mungkahi</translation>
     </message>
 </context>
 <context>
@@ -14383,6 +14646,14 @@ Paalala: Hindi ia-uninstall ang mga package.</translation>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>Pampublikong demo ang installation na ito: maaaring malaman ng sinuman ang password ng administrator nito, at hindi mapapalitan o ma-reset ang mga password ng administrator. Huwag maglagay ng anumang pribado rito.</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Iyong mga device</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Aktibidad sa seguridad</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14672,6 +14943,14 @@ Paalala: Hindi ia-uninstall ang mga package.</translation>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>Mga gabay, paghahanap at kung paano mag-ulat ng error.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Bagong nilalaman</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Ang pinakabagong nilalaman, ang pinipigil para sa pagsusuri, at mga aksyon sa isang pinili.</translation>
     </message>
 </context>
 <context>
@@ -15130,6 +15409,46 @@ Paalala: Hindi ia-uninstall ang mga package.</translation>
         <source>Synchronisations</source>
         <translation>Mga synchronization</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>Ang GraphQL API: ang end point nito, ang schema at isang playground para subukan ang mga query.</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Mga migrasyon</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Mga pagbabago sa instalasyon na nakatago bilang mga file: ang kanilang katayuan, ang mga pagpapatakbo, patakbuhin at ibalik.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Bagong nilalaman</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Ang pinakabagong nilalaman, ang pinipigil para sa pagsusuri, at mga aksyon sa isang pinili.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Mag-publish ng static na kopya ng isang site sa GitHub Pages o sa anumang git host.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Static na pag-publish</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Mga datatype</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Bawat datatype ng kernel at ng mga extension, at kung paano ito ginagamit ng mga class at nilalaman.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15294,6 +15613,22 @@ Paalala: Hindi ia-uninstall ang mga package.</translation>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>Mga account na walang gumagamit o kailangang tingnan; i-disable, i-unlock o i-export ang mga ito.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Audit log ng mga user</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>Sino ang nagbago, nag-log in o tinanggihan, ayon sa account; i-filter at i-export.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Ulat ng pag-sign in</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>Sino ang naka-sign in, mga pag-sign in at pagkabigo bawat araw; i-sign out ang isang user sa lahat ng dako.</translation>
     </message>
 </context>
 <context>
@@ -22110,6 +22445,22 @@ Paalala: Hindi ia-uninstall ang mga package.</translation>
         <source>%n hours ago</source>
         <translation>%n oras ang nakalipas</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>Mga sagot ng mga naka-imbak na query ng GraphQL API, at ang mga class ng nilalaman ng schema nito.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>Mag-publish ng static na kopya sa GitHub Pages o sa anumang git host</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Static na pag-publish</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>Ang static cache ay naghahatid ng mga pahina mula sa server na ito. Para mag-publish ng static na kopya ng site sa ibang lugar, sa GitHub Pages o sa anumang git host, gamitin ang static na pag-publish.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25651,6 +26002,10 @@ Paalala: Hindi ia-uninstall ang mga package.</translation>
     <message>
         <source>last purge</source>
         <translation>huling purga</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>Hindi nakuha ng mga pagsulat ang lock ng estado (huli %date): bawat isa ay ginawang luma ang lahat ng naka-cache na resulta. Ang %file ay dapat masulatan ng bawat user na pinapatakbo ang site; sa NFS kailangan nito ng NFSv4 o lockd.</translation>
     </message>
 </context>
 <context>
@@ -33599,6 +33954,14 @@ Paalala: Hindi ia-uninstall ang mga package.</translation>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>Ang mga na-time out na session ng PHP handler ay inaalis ng mismong PHP (session.gc_maxlifetime), hindi ng pahinang ito o ng bahaging session_gc ng cron job.</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>Ang mga naka-sign in na session ng bawat user ay nakalista, at maaaring i-sign out, sa ulat ng pag-sign in, na gumagana sa bawat session handler.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>Buksan ang ulat ng pag-sign in</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37923,6 +38286,26 @@ ang iyong account.</translation>
     <message>
         <source>None yet</source>
         <translation>Wala pa</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Aktibidad sa seguridad</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>Ang iyong mga kamakailang pag-sign in, mga nabigong pagtatangka at mga pagbabago sa iyong password, email address at dalawang-hakbang na pag-sign in.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>Ang mga kamakailang pag-sign in, mga nabigong pagtatangka at mga pagbabago sa seguridad ng account na ito.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>Suriin ang aktibidad</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>Mga nabigong pag-sign in: %count</translation>
     </message>
 </context>
 <context>
@@ -44089,6 +44472,42 @@ Kung gusto mong magpadala ng mga komento sa tagapag-apruba o tingnan ang status,
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>Pagkatapos mag-log in, dapat pumili ang user ng bagong password bago gumawa ng anupaman. Gamitin ito kapag nagbigay ka ng pansamantalang password sa isang tao.</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>Pumili ng umiiral na larawan</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>Kinokopya sa field na ito ang file ng larawan ng object na pipiliin mo. Hindi nagbabago ang kabilang object.</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>Nakopya sa field na ito ang larawan ng "%name".</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>Mag-browse ng larawan</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>Maghanap ng mga larawan ayon sa pangalan</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Maghanap</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>Gamitin ang larawan ng "%name"</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>Gamitin ang larawang ito</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>Walang larawang tumutugma sa iyong paghahanap.</translation>
     </message>
 </context>
 <context>
@@ -51013,6 +51432,10 @@ Tingnan ang pahina ng mga kinakailangan para sa karagdagang impormasyon.</transl
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>Hindi naisulat ang crontab (%reason). Idagdag ang mga linyang ito sa crontab ng user na pinagtatakbuhan ng site, kung hindi ay hindi kailanman tatakbo ang pila, ang mga import, ang mga notification at ang search index:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>Ang muling pag-install ay ginagawa gamit ang kickstarter (%file, pagkatapos ay php bin/php/kickstarter.php run --apply) o sa isang bagong installation.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54892,6 +55315,10 @@ ang iyong account.</translation>
         <source>eZJSCore Public Packer cache</source>
         <translation>Cache ng eZJSCore Public Packer</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>Cache ng GraphQL (mga sagot at mga class ng schema)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54978,6 +55405,14 @@ ang iyong account.</translation>
     <message>
         <source>Copy of %class_name</source>
         <translation>Kopya ng %class_name</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Mga datatype</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>Datatype %string</translation>
     </message>
 </context>
 <context>
@@ -55804,6 +56239,26 @@ ang iyong account.</translation>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>Hindi mabasa ang SVG na larawan, o walang bahagi nito na maipapakita nang ligtas.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>Hindi makopya ang larawan. Pakisubukang muli o makipag-ugnayan sa administrator ng site.</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>Hindi umiiral ang napiling object o hindi mo ito maaaring basahin.</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>Walang larawan ang napiling object.</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>Hindi mabasa ang file ng larawan ng napiling object.</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>Mas malaki ang larawan ng napiling object kaysa pinapayagan ng field na ito: %1 bytes.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56334,6 +56789,42 @@ ang iyong account.</translation>
         <source>The bookmark was renamed to "%name".</source>
         <translation>Pinalitan ng pangalan ang bookmark bilang "%name".</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>Naka-disable ang pahinang ito sa siteaccess na ito (%siteaccess). Buksan ang bookmark sa siteaccess na mayroon nito.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>Hindi naka-install o hindi naka-enable dito ang module ng pahinang ito.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>Wala na ang pahinang ito: walang ganitong view ang module nito.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>Wala sa iyong mga tungkulin ang nagpapahintulot sa iyong buksan ang pahinang ito.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>Hindi mo maaaring gamitin ang siteaccess na ito.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>Hindi mo maaaring basahin ang nilalamang ipinapakita ng pahinang ito.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>Hindi maaaring i-bookmark ang ganitong uri ng pahina: kumikilos lamang ito sa isang form, o pahina ito ng isang sandali lamang.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>Nawawala ang address ng pahinang ito.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>Hindi mabubuksan ang pahinang ito ngayon.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56805,6 +57296,10 @@ Kailangan mong palitan ang class ng node gamit ang swap functionality.</translat
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>Tinanggihan ng mail transport ang %count mensahe sa huling pagpapatakbo. Suriin ang mail server at site.ini MailSettings.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>%count na event ang naghihintay at walang naitalang pagtakbo ng notification cronjob. Idagdag ang bahagi ng cronjob na &quot;frequent&quot; sa crontab, o patakbuhin ang exp:notification:run --apply.</translation>
     </message>
 </context>
 <context>
@@ -63061,6 +63556,10 @@ Kailangan mong palitan ang class ng node gamit ang swap functionality.</translat
         <source>Choose another site or section with the node picker</source>
         <translation>Pumili ng ibang site o seksyon gamit ang node picker</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>Ang system administrator lamang ang makakapagpalit ng may-ari: patakbuhin ang ./console exp:content-check --fix-permissions --apply bilang root.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64594,6 +65093,10 @@ Kailangan mong palitan ang class ng node gamit ang swap functionality.</translat
     <message>
         <source>empty</source>
         <translation>walang laman</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>Mahigit isang taon na ang signing key: palitan ito gamit ang exp:audit key rotate --apply.</translation>
     </message>
 </context>
 <context>
@@ -68424,6 +68927,486 @@ Kailangan mong palitan ang class ng node gamit ang swap functionality.</translat
         <source>Share of page time</source>
         <translation>Bahagi ng oras ng pahina</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>hiniling ang buong render</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>wala sa cache ng pahina ang pahina (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>hindi sumagot ang cache ng pahina</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>Na-render</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>Na-render ng kernel: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>Inihain mula sa cache ng pahina sa loob ng %ms ms. Inimbak ang pahina noong %stored ng isang render na %render ms, %age seg ang nakalipas.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>I-render ngayon</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>Bumalik sa view mula sa cache</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>Mula sa render noong %stored (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>Ang request na ito: inihain mula sa cache ng pahina sa loob ng %ms ms.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Gumagamit</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>ID ng user</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>Profile ng cache</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>Ang view na ito</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>Cache ng view</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>bawat user (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>Profile ng cache ng user: ang mga user na may parehong profile ay naghahati sa mga file ng view cache</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>oo</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>hindi</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Mag-log in</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>Naka-log in</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>Sesyon</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>Ang mga bahagi ng cache key ng content view na nakadepende sa user, eksakto kung paano kinukuha ng key, sa ilalim ng ViewCacheTweaks ng pahinang ito. Ang mga user na may parehong profile ay naghahati sa mga cache file ng mga view, maliban kung magkaiba ang mga bahagi ng isang view mismo (mga kagustuhan, mga key ng listener): may sariling profile ang mga iyon, para lamang sa pahinang ito.</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>Propayl</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>Ang view na ito (node %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: bawat naka-log in na user ay may sariling mga cache file.</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>Umiiral na ViewCacheTweaks: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>Bahagi</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>Halaga</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>Walang bahaging nakadepende sa user (ViewCacheTweaks).</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>ang view na ito</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>Kopyahin bilang teksto</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>Mga tungkulin</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>Walang mabasang pagtatalaga ng role.</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>ID ng role</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Tungkulin</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>Limitasyon</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>Itinalaga sa</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>ang user</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>grupo %name (object %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>Nakopya</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>Hindi makopya.</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>inalis ng isang listener</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>Mga anonymous na bisita</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>kapareho ng sa iyo</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>iba</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>Ang profile na nakukuha ng mga anonymous na bisita sa ilalim ng parehong ViewCacheTweaks, gamit ang mga default na kagustuhan, nang walang mga bahagi ng view: hindi maaaring tanungin tungkol dito ang listener na nagbabasa ng session.</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>Mga kagustuhan</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>Walang view mode na nakadepende sa mga kagustuhan ng user (site.ini [ContentSettings] CachedViewPreferences).</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>Ang mga kagustuhang dinedependehan ng mga view ng mga view mode na ito (CachedViewPreferences), kasama ang halaga ng user o ang default. Nasa profile ang mga ito bilang userpreferences, ang sa lahat ng view mode nang magkakasama.</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>Mode ng view</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>Kagustuhan</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>Nakatakda</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>Mga patakaran</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>Ipakita ang mga policy ng mga role (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>Nilo-load ang mga policy mula sa server kapag binuksan ang seksyong ito, isang pahina sa bawat pagkakataon, at maaaring i-filter ayon sa module at punsiyon.</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>Punsiyon</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>Lahat ng module</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>Lahat ng punsiyon</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>Mga limitasyon</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>Magpakita pa</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>Walang policy ang mga role na ito.</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>Walang policy na tumutugma sa filter.</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%shown sa %matching na policy (%total lahat)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>Nilo-load kapag binuksan.</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>module/function, tungkulin, limitasyon</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>Hanapin sa mga patakaran</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>Mag-load pa</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>Module/punsiyon</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>Lahat ng tungkulin (%count patakaran)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>Walang tumutugmang patakaran.</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%shown sa %matched na patakaran</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>Walang sagot</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>nakatago</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>Ipakita ang mga paliwanag</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>Itago ang mga paliwanag</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Buksan</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>Buksan lahat</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>Isara lahat</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>Key o halaga</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>Hanapin sa sesyon</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Uri</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>%count pa</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>masyadong malalim ang pagkaka-nest para ipakita</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>pinutol, %count na character sa kabuuan</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Nagsimula</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>Pangalan ng cookie</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>ID ng sesyon</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>Tagapangasiwa</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>Path ng pag-iimbak</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>Default ng PHP</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>Tagal ng buhay (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>Cookie</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>tagal %s s</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>Ang sarili mong PHP na sesyon, gaya noong binuksan ang seksyon, hindi kailanman ang sa iba. Ang mga halaga ng mga key na mukhang lihim (mga token, hash, password) ay nakatago (debugbar.ini SessionMask[]); ang lahat ng iba pa ay ipinapakita gaya ng pagkakaimbak, pati ang personal na datos.</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>%count na key, %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>malaki</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>Walang laman ang sesyon.</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>Walang sinimulang sesyon para sa request na ito.</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Ekstensyon %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>Kernel at iba pa</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>Hindi lahat ng entry ay ipinapakita: mas marami ang laman ng sesyon kaysa sa maililista rito.</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>%count na key ang hindi nakalista.</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>Balangkas</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>Ang mga halagang mukhang token (isang JSON Web Token, ang mga kredensyal ng isang Authorization header, isang pribadong key, mahabang hex o random na teksto) ay nakatago rin, anuman ang pangalan ng kanilang key (debugbar.ini SessionValueMask[]).</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>Mukhang lihim ang key (debugbar.ini SessionMask[]).</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>Mukhang token ang halaga.</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>Sa ilalim ng nakatagong key.</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>Ang sesyon bilang teksto, nakatago gaya ng talahanayan.</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>Mas malaki ang sesyon kaysa %size (debugbar.ini SessionWarnBytes): binabasa ng bawat request ng user na ito ang buong sesyon, at isinusulat ito kapag nagbago.</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>Iniimbak ng PHP ang sesyong ito sa mga file at nila-lock ang file sa buong request: naghihintayan ang mga request ng parehong user (ilang tab, mga AJAX call).</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>Panatilihing bukas</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>Mas malaki kaysa %size (debugbar.ini SessionWarnBytes): binabasa ng bawat request ng user na ito ang buong sesyon.</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%hits sa %count ang nabasa mula sa cache</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>Walang template na na-render (ang view na nabasa mula sa view cache ay walang nire-render).</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>Mga assignment ng tungkulin</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>Mga tungkulin at patakaran</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>iba sa mga anonimong bisita</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>kapareho ng sa mga anonimong bisita</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70304,6 +71287,14 @@ Kailangan mong palitan ang class ng node gamit ang swap functionality.</translat
     <message>
         <source>not sent</source>
         <translation>hindi naipadala</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Itinatala rito ng notification cronjob ang bawat pagtakbo nito. Idagdag ang bahaging frequent sa crontab, o patakbuhin ang exp:notification:run --apply.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>Gamitin ang console: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -76022,6 +77013,98 @@ Kailangan mong palitan ang class ng node gamit ang swap functionality.</translat
         <source>This topic is not Released; readers do not see it.</source>
         <translation>Hindi Released ang paksang ito; hindi ito nakikita ng mga mambabasa.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Mga migrasyon</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Mga pagbabago sa instalasyon na nakatago bilang mga file: ang kanilang katayuan, ang mga pagpapatakbo, patakbuhin at ibalik.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Mag-publish ng static na kopya ng isang site sa GitHub Pages o sa anumang git host.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Static na pag-publish</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>Nasa Review</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>Nakikita ng mga mambabasa ang pahinang ito.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>Nakatago sa mga mambabasa hanggang may mag-release nito.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>Nasa Review na ang pahina. Nakatago ito sa mga mambabasa hanggang ma-release.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>Na-release na ang pahina: nakikita na ito ng mga mambabasa.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>Draft muli ang pahina. Nakatago ito sa mga mambabasa hanggang masuri at ma-release.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>I-release ngayon</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>Tanging user na may tungkuling %role na hindi sumulat ng bersyong ito ang makakapag-release nito.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>Mga paksa ng tulong na naghihintay ng release</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>Itinatago ito sa mga mambabasa hanggang ma-release muli.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>Susuriin ito ng isang reviewer. Hindi pa ito nakikita ng mga mambabasa.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>Makikita agad ito ng mga mambabasa.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>Inaalis ito sa review para sa karagdagang trabaho. Hindi ito nakikita ng mga mambabasa.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>Itago ang pahinang ito sa mga mambabasa?</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>Ibalik ang pahinang ito sa Draft?</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>Hindi na nakikita ng mga mambabasa ang %title hanggang may mag-release ulit nito.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>Babalik sa Draft ang %title para sa karagdagang trabaho. Hindi pa rin ito nakikita ng mga mambabasa, at kailangan nito ng bagong review bago ma-release.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Kanselahin</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>Nasa Review ang mga paksang ito. Makikita ng mga mambabasa ang mga ito kapag ni-release ng taong hindi sumulat ng kasalukuyang bersyon.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76477,6 +77560,46 @@ Kailangan mong palitan ang class ng node gamit ang swap functionality.</translat
         <source>None.</source>
         <translation>Wala.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>gamit ang authenticator app</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>gamit ang code sa email</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>gamit ang recovery code</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>gamit ang passkey</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>gamit ang panlabas na account</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Aktibidad sa seguridad</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>Ipinapakita bilang network nito; iniingatan ang address ayon sa mga setting ng proteksyon ng data ng site.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Hindi naitala</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Lokasyon</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>tinatayang</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76720,6 +77843,42 @@ Kailangan mong palitan ang class ng node gamit ang swap functionality.</translat
         <source>Manage devices</source>
         <translation>Pamahalaan ang mga device</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>gamit ang authenticator app</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>gamit ang code sa email</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>gamit ang recovery code</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>gamit ang passkey</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>gamit ang panlabas na account</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Aktibidad sa seguridad</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Hindi naitala</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Lokasyon</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>tinatayang</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76799,6 +77958,14 @@ Kailangan mong palitan ang class ng node gamit ang swap functionality.</translat
         <source>View the sessions of this user</source>
         <translation>Tingnan ang mga session ng user na ito</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>Ang iyong account na %login sa %site ay ginamit kanina lang para mag-sign in mula sa isang lugar na hindi nito pinag-sign in-an kamakailan:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>Tinatayang lokasyon</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76837,6 +78004,10 @@ Kailangan mong palitan ang class ng node gamit ang swap functionality.</translat
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%browser sa %os</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Ulat ng pag-sign in</translation>
     </message>
 </context>
 <context>
@@ -77045,6 +78216,82 @@ Kailangan mong palitan ang class ng node gamit ang swap functionality.</translat
         <source>The passkey could not be checked. Please try again.</source>
         <translation>Hindi masuri ang passkey. Pakisubukang muli.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>Hindi makagamit ng password dito ang mga account na nagsa-sign in gamit lamang ang mga passkey: piliin ang “Mag-sign in gamit ang passkey”.</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>Mga passkey ni %login</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>Ang mga passkey na ginagamit ng account na ito para mag-sign in. Bawiin ang isang nasa nawala o nanakaw na device: hindi na ito makakapag-sign in. Ang may-ari mismo ang nagdaragdag ng mga bago.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>Kailangan ng iyong account ng passkey</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>Magdagdag ng passkey sa iyong account</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>Magdagdag ng passkey para magpatuloy. Pagkatapos ay mag-sign in ka gamit ito sa halip na password lamang.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>Mas mabilis at mas ligtas ang pag-sign in gamit ang passkey kaysa sa password. Magdagdag ng isa ngayon, o magpatuloy nang wala nito.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>Hindi ngayon</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>Bawiin ang passkey na “%name”?</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>Hindi na ito makakapag-sign in sa account na ito. Kung ito ang huli, mag-sign in ang may-ari gamit ang password, o magtakda ka ng bago.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>Bawiin ang passkey</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>Bawiin</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>Walang passkey ang account na ito.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>Tagapagpatunay</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Hindi alam</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>Ang iyong huling passkey: magdagdag ng isa pa bago mo ito alisin.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>Nagsa-sign in ang account na ito gamit lamang ang mga passkey (patakaran sa passkey): kapag wala nang natira, muli itong magsa-sign in gamit ang password nito.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>Ito ang iyong huling passkey at hindi makakapag-sign in ang iyong account nang wala nito. Magdagdag muna ng isa pang passkey.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>Binawi na ang passkey na “%name”. Hindi na ito makakapag-sign in sa account na ito.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77144,6 +78391,34 @@ Kailangan mong palitan ang class ng node gamit ang swap functionality.</translat
         <source>Code from your authenticator app</source>
         <translation>Code mula sa iyong authenticator app</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>Permanente mong buburahin ang data o lilinisin ang isang log.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>Ang iyong password at isang passkey</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>Ang iyong password at isang code mula sa iyong authenticator app</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>O kaya:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>Hindi makagamit ng mga passkey ang browser na ito. Gumamit ng ibang paraan, o ng ibang browser.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>Kapag nagpatuloy ka, hihingi ang iyong browser ng isa sa iyong mga passkey.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>Magpatuloy gamit ang passkey</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77234,6 +78509,70 @@ Kailangan mong palitan ang class ng node gamit ang swap functionality.</translat
     <message>
         <source>Setup</source>
         <translation>Setup</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>Pagpapalit ng sariling password, e-mail address, mga passkey, dalawang-hakbang na pag-sign in, mga recovery code o mga API key, at pag-sign out sa sarili mong ibang mga device.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>Paggawa at pag-edit ng mga user, ng kanilang mga password at device, mga setting ng account, pag-apruba o pagtanggi sa mga bagong user account, pagtatalaga ng mga tungkulin at pag-edit ng mga patakaran.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>Pagbura ng data</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>Pag-alis ng laman ng basurahan, pag-alis ng mga item mula rito at pag-alis ng ilang item nang sabay-sabay.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>Pag-alis, pag-publish at pag-save ng nilalaman</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>Pag-alis ng nilalaman (pati sa basurahan), pag-publish at pag-save ng draft; itinatanong kapag ipinadala ang form. Naka-off bilang default.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>Bago ang isang sensitibong aksyon, muling kinukumpirma ng naka-sign in na user kung sino siya: gamit ang kanyang password at isang passkey, o kung walang passkey, gamit ang kanyang password at ang code ng kanyang authenticator app. Ang mga web page lamang ang nagtatanong: hindi kailanman nagtatanong ang REST interface, SOAP, WebDAV, ang pag-login sa expservices at ang command line.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>Kung saan umiiral ang mga setting</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>Mga setting para sa</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Bawat siteaccess</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>Ang siteaccess na %name lamang</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Buksan</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>Sino ang tinatanong: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>Lagyan ng tsek ang mga grupo ng user para ang mga miyembro lamang nila ang tanungin (halimbawa, mga editor). Walang may tsek: bawat user.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>Naka-save sa settings/override/site.ini.append.php, para sa bawat siteaccess. Sa pag-save, hihilingin sa iyong kumpirmahin na ikaw ito.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>Naka-save sa settings/siteaccess/%name/site.ini.append.php. Nananaig dito ang isang value sa settings/override. Sa pag-save, hihilingin sa iyong kumpirmahin na ikaw ito.</translation>
     </message>
 </context>
 <context>
@@ -77336,6 +78675,6822 @@ Kailangan mong palitan ang class ng node gamit ang swap functionality.</translat
     <message>
         <source>Open the page</source>
         <translation>Buksan ang pahina</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from hanggang %to ng %count</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>Isang login o user ID: ang account na tinutukoy ng event o ang user na gumawa ng aksyon.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Account ng user</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Aksyon</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>Pagkatapos</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>Anumang resulta</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Bago</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Ginawa ni</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>I-clear</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Tapos na</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>Itinatago ang mga event nang %days araw.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>Itinatago ang mga event hanggang alisin ang mga ito nang mano-mano.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Mga event</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>Lahat ng aksyon</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>Lahat ng event ng account na ito</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>I-export ang listahan bilang CSV (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Nabigo</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Mula sa</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>Paliitin ang listahan</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>Walang tumutugmang event.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Bawat pahina</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>Naka-off ang pagtatala sa audit.ini ([UserAuditSettings] UserAudit); ipinapakita ng listahan ang mga naitala dati.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Tinanggihan</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Resulta</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Ipakita</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>Nawawala ang table ng audit log ng mga user. Gawin ito gamit ang php update/common/scripts/6.0/createuseraudittable.php; hanggang doon, itinatago ng mga audit file ang bawat event.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>Kailangan ng page na ito ng SQL database; hindi ito available sa MongoDB. Itinatago ng mga audit file ang bawat event.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Hanggang</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Audit log ng mga user</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Gumagamit</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Kailan</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Saan</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>Sino ang nagbago, gumawa, nag-enable, nag-disable, naglipat o nag-alis ng aling account, sino ang nag-log in o tinanggihan, at aling mga tungkulin ang itinalaga: isang linya bawat event, kasama ang mga field bago at pagkatapos. Hindi kailanman itinatala ang mga password at lihim.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>grupo</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>sistema</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>hindi alam</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>I-secure ang iyong account</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>May ginamit na recovery code para mag-sign in sa iyong account na %login sa %site.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>May ginamit na recovery code</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Account</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>Tinatayang address</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>Humingi ng bagong password para makapag-sign in muli, o makipag-ugnayan sa mga administrator ng site.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>Humingi ng bagong password</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>Isang beses lang gumagana ang bawat recovery code. Kung nawala mo ang iyong telepono, i-set up muli ang iyong authenticator app at itago ang mga bagong recovery code sa isang ligtas na lugar.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>Mga nabigong pagtatangkang mag-sign in sa iyong account</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>Mula ngayon, hihingi ang pag-sign in ng code bukod sa iyong password. Kung ikaw ang gumawa nito, wala kang kailangang gawin.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>Kung ikaw iyon at nakalimutan mo ang iyong password, humingi ng bago. Kung hindi, pumili ng mas malakas na password at i-on ang dalawang-hakbang na pag-sign in.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>Kung hindi ikaw ito, maaaring may nakakaalam ng iyong password: palitan ito ngayon at tingnan kung saan naka-sign in ang iyong account.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>Natitirang mga recovery code</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>Suriin ang iyong mga device</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>Babala sa seguridad</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>May sumubok na mag-sign in sa iyong account na %login sa %site gamit ang maling password nang %count beses na sunud-sunod.</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>Nagkaroon ng security event sa iyong account na %login sa %site.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>Ito ay isang babala sa seguridad tungkol sa iyong account. Ipinapadala ito sa bawat ganitong pagbabago at hindi ito maaaring i-off.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Oras</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>Na-off ang dalawang-hakbang na pag-sign in para sa iyong account na %login sa %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>Na-off ang dalawang-hakbang na pag-sign in</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>Na-on ang dalawang-hakbang na pag-sign in para sa iyong account na %login sa %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>Na-on ang dalawang-hakbang na pag-sign in</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>Na-lock ang iyong account na %login sa %site matapos ang napakaraming nabigong pag-sign in.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>Ang iyong account ay protektado na lamang ng iyong password. Kung hindi ikaw ang gumawa nito, i-on muli ang dalawang-hakbang na pag-sign in matapos mong palitan ang iyong password.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>Na-lock ang iyong account</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>May idinagdag na passkey sa iyong account na %login sa %site.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>Ang sinumang may hawak ng passkey na ito ay makakapag-sign in sa iyong account nang wala ang iyong password. Kung hindi ikaw ang nagdagdag nito, alisin ito sa ilalim ng Mga passkey at palitan ang iyong password.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>May inalis na passkey sa iyong account na %login sa %site.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>Hindi na ito makakapag-sign in sa iyong account. Kung hindi ikaw ang nag-alis nito, suriin ang iyong mga passkey at device.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>May idinagdag na passkey sa iyong account</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>May inalis na passkey sa iyong account</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>Aktibidad sa seguridad</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Aktibidad sa seguridad ni %name</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Naka-sign in</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Nabigong pagtatangkang mag-sign in</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Naka-sign out</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Na-sign out ang mga session</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Pag-sign in mula sa bagong device</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Pag-sign in mula sa bagong lokasyon</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Nakumpirma ang pagkakakilanlan (“I-verify na ikaw ito”)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Nabigo ang pagsusuri ng pagkakakilanlan</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Nag-sign in gamit ang passkey</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Nabigo ang pag-sign in gamit ang passkey</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Tinanggihan ang pag-sign in: wala o mali ang dalawang-hakbang na code</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Maling dalawang-hakbang na code</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Na-lock ang account matapos ang mga nabigong pag-sign in</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Na-unlock ang account</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Napalitan ang password</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Nabigo ang pagpapalit ng password</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Na-reset ang password</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Humingi ng bagong password</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Napalitan ang email address</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Napalitan ang username</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Na-on ang dalawang-hakbang na pag-sign in</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Na-off ang dalawang-hakbang na pag-sign in</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Ginamit ang recovery code</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Mga bagong recovery code</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Nagawa ang app password</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Binawi ang app password</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Naidagdag ang passkey</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Inalis ang passkey</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Na-enable ang account</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Na-disable ang account</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Lahat</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Mga pag-sign in at session</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Mga pagbabago sa account</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Kailangang tingnan</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>ginawa mo</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>ginawa ng user</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>ginawa ni %login</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>Paraan</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>Web browser</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>Operating system</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Device</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>Lugar</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>Bansa</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Mga session</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>Alin</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>Paraan ng pagpapadala</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Mga nabigong pagtatangka</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>Natitirang mga code</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>Handler ng pag-sign in</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Aktibidad sa seguridad</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Aktibidad sa seguridad ni %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Mga pag-sign in at pagbabago sa seguridad ng iyong account. Kung may makita kang hindi mo ginawa, palitan ang iyong password at i-sign out ang mga device na hindi mo nakikilala.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>Mga pag-sign in at pagbabago sa seguridad ng account na ito.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Iyong mga device</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Palitan ang password</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>Bumalik sa account</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>Hindi naitatala ang aktibidad sa seguridad</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>Binabasa ito mula sa audit log ng user, na ang table na expuser_audit ay wala o hindi suportado sa database na ito. Patakbuhin ang php update/common/scripts/6.0/createuseraudittable.php, o ang database update ng 6.0.15.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Huling %days araw</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Mga pag-sign in sa huling %days araw</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>Kamakailang aktibidad sa seguridad</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Ipakita</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>nabigo</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>tinanggihan</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Wala pang naitalang aktibidad sa seguridad.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>Iniingatan ang mga security event nang %days araw.</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>Iniingatan ang mga security event hanggang alisin ito ng isang administrator.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>I-download ang aking data sa pag-sign in</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Ang iyong mga session at security event bilang isang JSON file.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Hindi itinatala ang mga session sa site na ito, kaya walang ibang device na na-sign out. Palitan ang iyong password ngayon.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>Na-sign out ang %count iba pang session. Ngayon, palitan ang iyong password.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Walang ibang device na naka-sign in. Ngayon, palitan ang iyong password.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Salamat. Minarkahan ang pangyayari bilang iyo.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Hindi kailangan ng sagot ang pangyayaring iyon.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Nag-expire na ang page. Walang binago; pakisubukang muli.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>I-secure ang iyong account</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Kung may hindi ikaw rito, i-sign out ang bawat iba pang device, pagkatapos ay pumili ng bagong password. Na-sign out din ang mga device na nanatiling naka-sign in gamit ang Alalahanin ako.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Ang bawat device maliban dito ay ma-sign out sa susunod nitong request. Pagkatapos ay pipili ka ng bagong password.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Oo, i-sign out ang iba pang device</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Ikaw ba ito?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Oo, ako iyon</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Hindi, i-secure ang aking account</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Naka-sign in</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Nabigong pagtatangkang mag-sign in</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Naka-sign out</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Na-sign out ang mga session</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Pag-sign in mula sa bagong device</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Pag-sign in mula sa bagong lokasyon</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Nakumpirma ang pagkakakilanlan (“I-verify na ikaw ito”)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Nabigo ang pagsusuri ng pagkakakilanlan</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Nag-sign in gamit ang passkey</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Nabigo ang pag-sign in gamit ang passkey</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Tinanggihan ang pag-sign in: wala o mali ang dalawang-hakbang na code</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Maling dalawang-hakbang na code</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Na-lock ang account matapos ang mga nabigong pag-sign in</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Na-unlock ang account</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Napalitan ang password</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Nabigo ang pagpapalit ng password</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Na-reset ang password</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Humingi ng bagong password</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Napalitan ang email address</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Napalitan ang username</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Na-on ang dalawang-hakbang na pag-sign in</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Na-off ang dalawang-hakbang na pag-sign in</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Ginamit ang recovery code</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Mga bagong recovery code</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Nagawa ang app password</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Binawi ang app password</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Naidagdag ang passkey</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Inalis ang passkey</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Na-enable ang account</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Na-disable ang account</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Lahat</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Mga pag-sign in at session</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Mga pagbabago sa account</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Kailangang tingnan</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Aktibidad sa seguridad</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Aktibidad sa seguridad ni %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Mga pag-sign in at pagbabago sa seguridad ng iyong account. Kung may makita kang hindi mo ginawa, palitan ang iyong password at i-sign out ang mga device na hindi mo nakikilala.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Iyong mga device</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Palitan ang password</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>Hindi pa naitatala ang aktibidad sa seguridad sa site na ito.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Mga pag-sign in sa huling %days araw</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Mga nabigong pagtatangka</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Wala pang naitalang aktibidad sa seguridad.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>I-download ang aking data sa pag-sign in</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Ang iyong mga session at security event bilang isang JSON file.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Hindi itinatala ang mga session sa site na ito, kaya walang ibang device na na-sign out. Palitan ang iyong password ngayon.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>Na-sign out ang %count iba pang session. Ngayon, palitan ang iyong password.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Walang ibang device na naka-sign in. Ngayon, palitan ang iyong password.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Salamat. Minarkahan ang pangyayari bilang iyo.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Hindi kailangan ng sagot ang pangyayaring iyon.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Nag-expire na ang page. Walang binago; pakisubukang muli.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>I-secure ang iyong account</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Kung may hindi ikaw rito, i-sign out ang bawat iba pang device, pagkatapos ay pumili ng bagong password. Na-sign out din ang mga device na nanatiling naka-sign in gamit ang Alalahanin ako.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Ang bawat device maliban dito ay ma-sign out sa susunod nitong request. Pagkatapos ay pipili ka ng bagong password.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Oo, i-sign out ang iba pang device</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Ikaw ba ito?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Oo, ako iyon</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Hindi, i-secure ang aking account</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>Password</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>Password at dalawang-hakbang na code</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>Interface ng REST</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>Interface ng SOAP</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>Single sign-on</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>Naka-sign in bago naitala ang mga session</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Ulat ng pag-sign in</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>Sino ang naka-sign in sa site, gaano kadalas nag-sign in at nabibigo ang mga account, at pag-sign out sa isang user sa lahat ng dako. Gumagana ito sa bawat session handler.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>Na-sign out ang session. Kailangang mag-sign in muli ng device.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>Na-sign out si %login sa %count na session.</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>Walang tumatakbong session si %login.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>Walang account na may ganoong ID, username o email address.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>Ito ang session na ginagamit mo. Para tapusin ito, mag-sign out.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>Natapos na ang session na iyon.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Nag-expire na ang page. Walang binago; pakisubukang muli.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>Hindi naitatala ang mga session sa site na ito (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>Wala ang table na expuser_session</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>Maitatala ang mga session kapag nagawa na ito: php update/common/scripts/6.0/createusersessiontable.php, o ang database update ng 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>Ngayon at sa araw na ito</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>Mga tumatakbong session</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>Mga user na naka-sign in</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>Mga pag-sign in ngayong araw</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>Mga nabigong pagtatangka ngayong araw</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>I-sign out ang isang user sa lahat ng dako</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>Natatapos ang bawat session ng account sa susunod nitong request, pati ang mga pinananatili ng Alalahanin ako. Gamitin ito kapag maaaring nasa maling kamay ang isang account; pagkatapos ay i-reset ang password nito.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>User ID, username o email address</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>Mag-sign out sa lahat ng dako</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>Naka-sign in ngayon</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>Ipinapakita ang %limit na pinakahuling ginamit.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>User</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Device</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Address</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>Naka-sign in</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>Huling aktibo</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Mga aksyon</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>Ang device na ito</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Hindi naitala</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>Mag-sign out</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>Walang naka-sign in na session.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Huling %days araw</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>Ang mga pag-sign in at nabigong pagtatangka ay binibilang mula sa audit log ng user, na wala; ang mga bagong session ay binibilang pa rin.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>Araw</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>Mga pag-sign in</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Mga nabigong pagtatangka</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>Mga bagong session</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>Session handler: %handler. Binabasa ang mga session mula sa table na expuser_session, kaya gumagana ang ulat sa bawat handler.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>Kahina-hinalang aktibidad sa nakalipas na %hours oras</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>Isang network ang nabigong mag-sign in sa %accounts account (%count pagtatangka)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Na-lock ang account matapos ang mga nabigong pag-sign in</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>%count nabigong pag-sign in sa isang account</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>Naka-sign in mula sa %count bansa nang sabay-sabay</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Aktibidad sa seguridad</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Mga session</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>Binabasa ang mga nabigong pag-sign in mula sa audit log ng user, na hindi available dito.</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>Walang kahina-hinala: walang account na may paulit-ulit na nabigong pag-sign in, walang network na sumusubok sa ilang account, walang account na naka-sign in mula sa ilang bansa.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>Babala sa seguridad para sa iyong account</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>Nagkaroon ng security event sa iyong account na %login: %event. Kung hindi ikaw iyon, i-secure ang iyong account sa %url.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Setup</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>Hingin sa nilalaman ng site na ito ang eksaktong mga field na kailangan ng isang pahina, sa iisang kahilingan. Sinusunod ng schema ang mga class ng nilalaman; tumatakbo ang bawat query gamit ang mga karapatan ng user na nagpadala nito.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>Naka-off ang GraphQL API sa siteaccess na ito. I-on ito sa graphql.ini: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>Hindi naka-install ang GraphQL library (webonyx/graphql-php 15).</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>End point</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>Library</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>Schema</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>%count class ng nilalaman, schema %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>Query</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>Mga variable (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Patakbuhin</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>Sagot</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>Tumatakbo…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>Hindi mabasa ang sagot.</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>Tumatakbo ang query gamit ang iyong mga karapatan, naka-sign in sa session na ito.</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%count sa loob ng %seconds s</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>walang limit</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>Lalim</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>Complexity</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>Mga item bawat listahan</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (default %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>Mga kahilingan bawat user o key</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>Mga kahilingan bawat anonymous na address</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>Introspection</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>Mga naka-imbak na query lamang</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>Pinakamalaking query</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>%bytes bytes</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>Pinakamalaking upload</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>Walang siteaccess na %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>Naka-on ang mga mutation sa %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>Naka-off ang mga mutation sa %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>Naka-on ang GraphQL API sa %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>Naka-off ang GraphQL API sa %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>Hindi maisulat ang mga setting: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>Na-clear ang response cache: %count sagot ang inalis.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>Lagyan ng tsek ang kahon sa tabi ng query para alisin ito.</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>Hindi maalis ang query: ang query na kasama sa isang directory ng PersistedQueryDirectoryList[] ay inaalis kasama ng file nito.</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>Inalis ang naka-imbak na query.</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>Mga mutation</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>naka-on</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>naka-off</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Mga siteaccess</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>Kung saan sumasagot ang API at ang mga mutation nito. Isinusulat ng mga button ang graphql.ini, gaya ng ginagawa ng ./console exp:graphql:enable at exp:graphql:disable.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>GraphQL API</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Baguhin</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>I-off</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>Naka-off ang mutation</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>Naka-on ang mutation</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>I-on</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>Mga limit</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>graphql.ini [GraphQLSettings] ng siteaccess na ito.</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>Response cache</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>Ang mga sagot ng mga naka-imbak na query, iniingatan ayon sa mga karapatan ng user at nag-e-expire tuwing may nilalamang inilalathala.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Estado</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>Mga sagot na iniingatan</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>%count sagot, %bytes bytes</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>Iniingatan nang hanggang</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds s</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>Huling pag-expire</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>I-clear ang response cache</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>Mga naka-imbak na query</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>Iniimbak gamit ang ./console exp:graphql:persist, o ng mga client (awtomatikong naka-imbak na query); tinatawag ayon sa pangalan o SHA-256.</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>Mga pangalan</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Laki</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Saan</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Alisin</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>kasama</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>naka-imbak</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>Oo, alisin ang query na ito</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>Wala pang naka-imbak na query.</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>Mga API key</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>Mga personal na API key na may scope na graphql:read (mga query) o graphql:write (mga mutation). Gawin at bawiin ang mga ito sa pahinang API access, o gamit ang ./console exp:graphql:keys.</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>API access</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>Lahat ng key</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>Key</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Pangalan</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>May-ari</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>Mga scope</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>Huling ginamit</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>aktibo</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>expired</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>binawi</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>hindi kailanman</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>Wala pang API key na may GraphQL scope.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>Naka-off ang GraphQL API sa siteaccess na %siteaccess, na nagpapakita ng pahinang ito; ipinapakita ng talahanayan sa ibaba kung saan ito sumasagot.</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>Para sa siteaccess na %siteaccess, na nagpapakita ng pahinang ito.</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>Mga webhook</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>Bawat event na hinihingi ng isang end point (publish, update, trash, delete, move, hide, reveal, mutation) ay ipinapadala rito, naka-sign, ng cronjob part na graphqlwebhooks. Ang ./console exp:graphql:webhooks ay gumagawa ng parehong bagay gaya ng seksiyong ito.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Mga event</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>lahat</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Bawat siteaccess</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>sira</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>walang secret</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>Naghihintay</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count sinukuan</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>Huling paghahatid</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Magpadala ng test</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>Oo, alisin ang webhook na ito</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>Wala pang webhook.</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>Magdagdag ng webhook</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>Idagdag</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>Mga kamakailang paghahatid</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Oras</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Resulta</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>Mga subscription</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>Live na update para sa mga client: isang event stream sa /api/graphql/subscribe, at isang WebSocket (graphql-transport-ws) sa Velocity. Ang bawat event ay napupunta lamang sa mga subscriber na may pahintulot na basahin ang nilalaman nito.</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>Bukas ngayon</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>Pinakamaraming bukas</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>%total lahat-lahat, %user bawat user, %address bawat address</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>Mga anonymous na subscription</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>Haba ng stream</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>Hindi maidagdag ang webhook: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>Binago ang webhook na %name; nananatili ang signing secret nito.</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>Hindi maiimbak ang signing secret (Setup &gt; Mga Secret).</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>Naidagdag ang webhook na %name. Ang signing secret nito, ipinapakita nang isang beses lamang: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>Walang webhook na %name.</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>Hindi sumagot ang webhook na %name: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>Sumagot ang webhook na %name ng %status sa loob ng %ms ms.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>Lagyan ng tsek ang kahon sa tabi ng webhook para alisin ito.</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>Inalis ang webhook na %name.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>Naka-off ang GraphQL API sa siteaccess na ito.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>Hindi naka-install ang GraphQL library.</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>Gumamit ng GET o POST.</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>Hindi JSON object ang body.</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>Hindi JSON object ang variables.</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>Hindi JSON object ang extensions.</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>Ipadala ang query gamit ang POST.</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>Walang query ang kahilingan.</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>Mas mahaba ang query kaysa %max byte.</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>Panloob na error ng server</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>Kailangan ng node ang eksaktong isa sa id, remoteId, path at urlAlias.</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>Kailangan ng content ang eksaktong isa sa id at remoteId.</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>Hindi galing sa API na ito ang cursor ng after.</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>Walang image alias na %alias (image.ini [AliasSettings] AliasList[]).</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>Mga naka-imbak na query lamang ang tinatanggap dito: ipadala ang id ng isang naka-imbak na query.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>Hindi SHA-256 ang hash ng naka-imbak na query.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>Hindi tugma ang hash ng naka-imbak na query sa query.</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>Masyadong maraming kahilingan: hanggang %limit lamang sa loob ng %window segundo. Subukang muli pagkalipas ng %reset segundo.</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>May lalim na %depth antas ang query; hanggang %max lamang ang pinapayagan.</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>May complexity na %complexity ang query; hanggang %max lamang ang pinapayagan.</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>Hindi pinapayagang basahin ng kahilingang ito ang schema (introspection).</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>Kailangan ng search ang isang teksto o filter (classes, subtree, sections, publishedAfter, publishedBefore).</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>Hindi petsa ang %argument (ISO 8601, 2026-10-30).</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>Kailangan ng tag ang eksaktong isa sa id, remoteId at path.</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>Kailangan ng layout ang eksaktong isa sa id, identifier at urlAlias.</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>Ang field na operations ng isang multipart na kahilingan ay hindi isang JSON na kahilingan.</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>Ang field na map ng isang multipart na kahilingan ay hindi isang JSON object.</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>Walang file na %field ang multipart na kahilingan.</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>Dapat magsimula sa variables. ang isang path ng field map: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>Hindi buong dumating ang file na %name (error sa pag-upload %error).</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>Mas malaki sa %max bytes ang file na %name.</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>Hindi masuri ang file na %name.</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>Naka-off ang mga mutation sa siteaccess na ito (graphql.ini [GraphQLSettings] MutationsEnabled).</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>Ipadala ang mutation gamit ang POST.</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>Mag-sign in para baguhin ang nilalaman.</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>Walang scope na %scope ang API key.</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>Kailangan ng mutation na may session ang form token ng session (header X-CSRF-Token).</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>Naka-off ang uploadFromUrl: walang host na nakalista sa graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>Dapat https na address ang address.</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>Wala ang host na %host sa graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>Hindi makuha ang file.</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Ang Upload ay isang input type lamang.</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>Ang variable na may type na Upload ay tumatanggap ng file mula sa isang multipart na kahilingan.</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>Gamit na ang remote id na %remoteId.</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>May salin na sa %language ang nilalaman: gamitin ang updateContent.</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>Magbigay ng kahit isang field.</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>Hindi makagawa ng bagong bersyon (masyadong maraming draft ang nilalaman).</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>Hindi draft ang bersyon %version.</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>Kailangan ng deleteContent ang eksaktong isa sa id at nodeId.</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>Hindi maaaring ilipat ang isang lokasyon sa ilalim ng sarili nito.</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>May lokasyon na ang nilalaman sa ilalim ng %parentId.</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>Hindi maimbak ang value ng field na %field.</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>Walang content language na %language.</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>Walang content class na %class sa schema.</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>Wala ang nilalaman, o hindi mo ito pinapayagang basahin.</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>Hindi mo pinapayagang gawin ito sa nilalamang ito.</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>Walang field na %field na maaaring sulatan ang class na %class.</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>Dalawang beses ibinigay ang field na %field.</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>Tumatanggap ng file ang field na %field: ipadala ito bilang upload (isang multipart na kahilingan).</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>Hindi tumatanggap ng file ang field na %field.</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>Kailangan ng value ang field na %field.</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>Para lamang sa mga rich text field ang format na %format; tinatanggap ng %field ang value nito kung ano ito (RAW).</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>Kinakailangan ang field na %field.</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>Hindi mabasa ang HTML.</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>Tumatanggap lamang ang content ng version kasama ang id.</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>Hindi wasto o nag-expire na ang preview token.</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>Hindi isang origin (https://host o https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>Hindi isang scope ng GraphQL API: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>Ipadala ang mga subscription sa /api/graphql/subscribe (isang event stream o isang WebSocket).</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>Walang pinangangalanang operation ng dokumento ang request.</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>Ang isang subscription ay humihingi ng eksaktong isang field.</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>Masyadong maraming subscription ang bukas; subukang muli mamaya.</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>May %max kang bukas na subscription, ang pinakamaraming pinapayagan.</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>May %max na bukas na subscription ang iyong address, ang pinakamaraming pinapayagan.</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>Naka-off ang mga subscription sa siteaccess na ito.</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>Mag-sign in para mag-subscribe (isang token o isang personal na API key).</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>Ipadala ang mga mutation sa /api/graphql.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>Mga migrasyon</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Hindi mabasa ang katayuan: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Wala pa ang mga talahanayan ng mga migrasyon: ginagawa ang mga ito ng ./console exp:upgrade --apply.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>%count migrasyon ang nabigo</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>May pagpapatakbong nagaganap, sinimulan ni %user</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>Naka-lock ang instalasyon: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Nakabinbin</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Nabigo</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>Mga ulila</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Huling pagpapatakbo</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>wala pa</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>Lahat ng migrasyon</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>Simuladong pagpapatakbo</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>Pagsubok na pagpapatakbo</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>Tumakbo ang mga nakabinbing migrasyon sa isang transaksyong ibinalik pagkatapos: walang naitago. Nasa ibaba kung ano ang binago ng bawat isa sa database.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>Ang gagawin ng isang pagpapatakbo ngayon. Walang binabago: inililista ng bawat nakabinbing migrasyon ang mga pagbabagong gagawin nito, at ng pagpapatakbo ang gagawin nito bago at pagkatapos.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>I-simulate</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Patakbuhin</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>Nabigo ang pagsubok na pagpapatakbo: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>Kailangan ng simulation ang PostgreSQL o SQLite, na ang mga pagbabago sa schema ay maibabalik; sa database na ito, ipinapakita ng plano sa ibaba ang gagawin ng isang pagpapatakbo.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>Ang mga migrasyon</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>Migrasyon</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Kalagayan</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>Ang gagawin nito</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>Simulation: %result sa loob ng %ms milisegundo</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>Wala pang migrasyon.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>Bago at pagkatapos ng pagpapatakbo</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>Kuha bago</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>kinukuha, at ibinabalik kapag nabigo ang isang migrasyon</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>nakapatay</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>Kuha pagkatapos</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>kinukuha kapag nagtagumpay ang pagpapatakbo</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>%total migrasyon: %pending nakabinbin, %done tapos, %failed nabigo.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>Kasaysayan ng mga migrasyon</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>Bawat pagpapatakbo kasama ang user, kapaligiran, mga kuha at kung ano ang na-commit, na-tag at na-push. Maipagpapatuloy ang nabigo o naantalang pagpapatakbo; maibabalik ang pagpapatakbong may kuha bago nito.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>Hindi mabasa ang mga pagpapatakbo: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Wala pa ang mga talahanayan ng mga migrasyon: ginagawa ang mga ito ng ./console exp:upgrade --apply.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Ipakita</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Lahat</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>Mga pagpapatakbo</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Sinimulan</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Ni</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>Mga kuha</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Repositoryo</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Mga aksyon</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>bago</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>pagkatapos</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>pag-push: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>Ipagpatuloy</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Ibalik</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>Walang pagpapatakbo sa kalagayang ito.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>Sinimulan dito</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>Mga pagpapatakbo, pagpapatuloy at pagbabalik na sinimulan sa mga pahinang ito, kasama ang ulat ng bawat isa.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Ano</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Resulta</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Pagbabalik</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>Pagbabalik ng %target</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>Pagpapatakbo %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Ang ginawa ng pagpapatakbo, ang rekord at log nito. Nagpapatuloy sa background ang pagpapatakbong sinimulan dito kapag isinara ang pahinang ito; buksan muli ang pahina para subaybayan ito.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>Ipagpatuloy ang pagpapatakbong ito</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>Ibalik ang pagpapatakbong ito</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>Hindi mabasa ang rekord: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Pag-usad</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Sinimulan ni %user noong %time.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>Sinusuri ang code at kumukuha ng kuha bago ang pagpapatakbo</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>Pinapatakbo ang %id (%index sa %total)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>%done sa %total ang tapos</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>Tumakbo na ang mga migrasyon; ibinabalik ang kuha kung may nabigo</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>Kumukuha ng kuha pagkatapos ng pagpapatakbo, nagko-commit, nagta-tag at nagpu-push</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>Ibinabalik ang kuha</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>Natapos na ang pagpapatakbo. Nilo-load ang ulat nito.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>Hindi masubaybayan ang pag-usad. I-reload ang pahina para makita ang lagay ng pagpapatakbo.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>Sinusubaybayan ng pahinang ito ang pagpapatakbo habang umuusad ito.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>I-reload</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Ulat</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Tagal</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms milisegundo</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>Ang inilabas ng pagpapatakbo bilang mga error</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Rekord</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>Kapaligiran</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>wala</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Natapos</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Pag-commit</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Pag-tag</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Pag-push</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Mensahe</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>Mga migrasyon ng pagpapatakbong ito</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>Pinagmulan</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>Log ng pagpapatakbo</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>Ang dulo lamang ng log ang ipinapakita.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>tumatakbo</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>natapos nang walang ulat</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>nagtagumpay</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>nabigo</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>tinanggihan</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>hindi maabot ang database</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>panloob na error</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>May pagpapatakbong nagaganap</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind na sinimulan ni %user noong %time.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>Subaybayan ito</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>Naka-lock ang instalasyon</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>May ibang pagpapatakbong may hawak ng lock (isang upgrade o pagpapatakbo sa console): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>tapos</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>nakabinbin</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>hindi kailangan</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>hindi alam</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>naibalik</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>nailapat</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>ilalapat</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>binawi</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>babawiin</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>hindi pinatakbo</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>naghihintay sa iba</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>tinanggap ang pagbabago</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>tatanggapin ang pagbabago</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>na-simulate</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Mga migrasyon</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Katayuan</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Kasaysayan</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>Bawiin ang %target</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>Binabawi ang isang pagpapatakbo sa kuhang kinuha bago ito, ang isang migrasyon gamit ang down() nito. Para sa mga eksperto ang pagbabalik ng mas naunang kuha. Tumatakbo ang bawat isa sa background bilang ikaw, matapos kumuha ng kuha ng kasalukuyang kalagayan.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>Hindi mabasa kung ano ang maaaring bawiin: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>Isang pagpapatakbo</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>Isang migrasyon</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>Isang mas naunang kuha</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>Paglalarawan</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>oo</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>hindi</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Kuha</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Etiketa</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>Kinuha</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Uri</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>Mga bahaging ibabalik</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>Ang database</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>Ang mga naka-imbak na file (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>Ang mga setting (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>Ibinabalik ng pagpapanumbalik ang database sa oras ng kuha, kasama ang mga session: maaaring hilingin sa iyong mag-sign in muli pagkatapos. Mawawala ang lahat ng binago mula noon; kumukuha muna ng kuha ng kasalukuyang kalagayan.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>Alam ko kung ano ang ibinabalik nito</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>I-type muli ang id ng kuha</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>Oo, bawiin ito</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Kanselahin</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>Ang mga pagpapatakbong may kuha bago ang mga ito.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>Pumili</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>Wala pang pagpapatakbong may kuha.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>Ang mga nailapat na migrasyon na kayang bawiin ang sarili (may down() ang mga ito).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>Walang nailapat na migrasyong may down().</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>Mga mas naunang kuha (mga eksperto)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>Wala pang kuha.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>Patakbuhin ang mga migrasyon</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>Tumatakbo ang pagpapatakbo sa background bilang %user, at ipinapakita ito ng pahina nito habang umuusad. Bago ang unang migrasyon, kumukuha ng kuha ng instalasyon; kapag nabigo ang isang migrasyon, humihinto ang pagpapatakbo at ibinabalik ang kuha.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>Pagsubok na pagpapatakbo muna</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Hindi mabasa ang katayuan: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>Mga nakabinbing migrasyon</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>Tumatakbo ang mga ito sa ganitong ayos. Alisin ang tsek sa isa para iwan ito, at ang mga nangangailangan nito, para sa susunod na pagpapatakbo.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>Patakbuhin ito</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>Binubuksan ang maintenance mode habang tumatakbo ito.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>Binago matapos mailapat</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>Hindi ito ang mga file na nailapat. Tinatanggihan ang mga ito ng pagpapatakbo maliban kung tinanggap ang pagbabago nang may dahilan; hindi na muling pinapatakbo ang mga ito, itinatala ang bagong checksum at itinatago ang dahilan sa audit log.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>Tanggapin ang mga pagbabago</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Bakit</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>Ang mga default ang ligtas. Bawat kahon ay nag-aalis ng isang hakbang.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>Walang kuha</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>Walang kuha bago at pagkatapos ng pagpapatakbo: hindi maibabalik nang awtomatiko ang pagkabigo.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>Walang pagbabalik</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>Pagkatapos ng pagkabigo, iwan ang instalasyon sa kung paano ito iniwan ng pagkabigo.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>Panatilihin ang mga pagbabagong hindi naka-commit</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>Patakbuhin kahit may mga pagbabagong hindi naka-commit ang mga setting, extension o disenyo; isasama ang mga ito sa kuha.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>Walang commit</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>Huwag i-commit ang status file at ang log ng pagpapatakbo (wala ring tag at walang push).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>Walang push</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>I-commit at i-tag, pero huwag i-push.</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>Walang tag</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>I-commit at i-push, pero huwag i-tag ang pagpapatakbo.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>Oo, patakbuhin na ang mga migrasyong ito</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Walang nakabinbing migrasyon.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>Bumalik sa katayuan</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>Mga pagbabago sa instalasyong ito na isinulat nang isang beses bilang mga file (nilalaman, klase, tungkulin, setting, schema) at inilapat sa bawat instalasyon ng site sa parehong ayos. Kumukuha muna ng kuha ang isang pagpapatakbo, ibinabalik ito kapag nabigo ang isang migrasyon, at itinatala, kino-commit at pinu-push ang ginawa nito.</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>Patakbuhin ang %count nakabinbin</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Pangkalahatang-tanaw</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Nakabinbin</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Tapos</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Nabigo</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>Hindi kailangan</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>Database ng site</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>mga transaksyon: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>Nasa migrations/ ang mga migrasyon ng site, at nasa extension/&lt;name&gt;/migrations/ ang sa isang extension. Tumatakbo ang mga ito ayon sa ayos ng kanilang mga pangalan at ng kanilang mga kinakailangan.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Huling pagpapatakbo</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>Nagbago ang file matapos itong mailapat.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>Wala pang migrasyon. Isinusulat ng ./console exp:migration:generate --skeleton &lt;name&gt; --apply ang una.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>Ang mga pinakahuling pagpapatakbo</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>Bawat pagpapatakbo</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>Wala pang pagpapatakbo.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>Kailangan ng patakarang migration/run para i-simulate ang isang pagpapatakbo.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>May pagpapatakbong nagaganap: mag-simulate kapag natapos na ito.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Pagsasaayos</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>Ang %target ay hindi pagpapatakbo, hindi migrasyon at hindi kuha ng instalasyong ito.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>Lagyan muna ng tsek ang &quot;Oo, bawiin ito&quot;.</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>Para sa mga eksperto ang pagbabalik ng mas naunang kuha: lagyan ng tsek ang &quot;Alam ko kung ano ang ibinabalik nito&quot;.</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>I-type muli ang id ng kuha: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>Pumili ng kahit isang bahaging ibabalik.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>Walang kuha bago ang pagpapatakbong ito: bawiin ang mga migrasyon nito nang isa-isa, o ibalik ang isang mas naunang kuha.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>Hindi kayang bawiin ng migrasyong ito ang sarili: hindi ito nailapat, o wala itong down().</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Hindi mabasa ang form.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>Piliin ang pagpapatakbong ipagpapatuloy.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>Lagyan muna ng tsek ang &quot;Oo, patakbuhin na ang mga migrasyong ito&quot;.</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>Pumili ng kahit isang migrasyon.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>Nagbago ang isang migrasyon matapos itong mailapat: tanggapin ang pagbabago nang may dahilan, o ibalik ang file.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>Ibigay ang dahilan kung bakit tinatanggap ang mga binagong migrasyon.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>Hanggang 500 character lamang ang dahilan.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>Nagaganap pa ang isang pagpapatakbong sinimulan dito (%detail). Hintaying matapos ito.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>May ibang pagpapatakbong may hawak ng lock ng instalasyon: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>Kailangan ng pagpapatakbo ang isang naka-sign in na user na umiiral.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Walang nahanap na php command line binary. Itakda ang migration.ini [AdminSettings] PhpCliPath sa buong path nito.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>Naka-disable ang proc_open, kaya hindi makapagsisimula ng pagpapatakbo dito. Patakbuhin ang ./console exp:migration:migrate --apply sa server.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>Hindi masulatan ang folder ng mga pagpapatakbo: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>Nasimulan ang pagpapatakbo pero hindi nito iniulat ang process id nito. Suriin ang %detail.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>Sabihin kung ano ang babawiin.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>Hindi masimulan ang pagpapatakbo.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>Pagre-record ng mga pagbabago</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>Habang tumatakbo ang isang recording, ang binabago mo sa administrasyon o sa sidebar ng site ay itinatago bilang mga hakbang ng isang migration: nilalaman, mga klase, mga tungkulin at patakaran, mga seksyon, mga user at grupo, mga URL alias, mga setting. Itigil ito kapag tapos ka na, tingnan kung ano ang nakuha nito, at gumawa ng migration mula rito.</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>Hindi mabasa ang mga recording: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>Wala pa ang mga talaan ng mga recording: patakbuhin muna ang upgrade (exp:upgrade --apply).</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>Naka-off ang pagre-record sa migration.ini ([RecordingSettings] Recording=disabled).</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>Ang mga pagbabago ko</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>Nire-record lamang ang binabago mo, saanman mo ito baguhin, hanggang itigil mo ito.</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>Pagre-record</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>mula %time, %count pagbabago sa ngayon.</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>Label (opsyonal)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>Ipakita ang nakuha nito</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Itigil ang pagre-record</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>Simulan ang pagre-record ng mga pagbabago ko</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>Window para sa buong site</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>Nire-record ang bawat pagbabago ng bawat user at ng console hanggang ito ay isara. Sa pagbukas nito, hihilingin sa iyong patunayan na ikaw ito.</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Bukas</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>Isara ang window</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>Buksan ang window para sa buong site</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>Mga recording</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>Ang account ng isang user (login, e-mail, password) at ang mga field ng mga user account ay hindi kailanman nire-record.</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Mga pagbabago</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>Buong site</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>Mga pagbabago ni %name</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Itinigil</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>Wala pang recording.</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>Pagre-record %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>Lahat ng recording</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>Ang migration na gagawin nito</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>Ang mga pagbabago na pinagsama sa isang hakbang bawat bagay na binago: ang gagawin ng isang migration na ginawa mula sa recording na ito.</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>Makakagawa ng migration mula rito kapag may mga uri ng hakbang na YAML %types na ang installation na ito.</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>Sinadyang hindi isinama: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>Walang na-record.</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>Ang nakuha nito</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>%count pagbabago, sa pagkakasunod-sunod ng paggawa.</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Pagbabago</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>Hakbang</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>Tungkol sa</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>%count pa: inililista ng ./console exp:migration:record:show ang lahat.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Itapon</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>Inaalis ang recording at ang nakuha nito. Ang binago ay nananatiling binago.</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>Oo, itapon ang recording na ito</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>Nagre-record…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Nire-record ang mga pagbabago mo para sa isang migration.</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>Nire-record ang bawat pagbabago sa site na ito para sa isang migration (window para sa buong site).</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>Nagsimula na ang recording ng buong site: nire-record ang bawat pagbabago ng bawat user hanggang itigil mo ito.</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>Nagsimula na ang recording: nire-record ang mga pagbabago mo hanggang itigil mo ito.</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>Itinigil ang recording. Mananatili ang nakuha nito hanggang itapon mo ito.</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>Inalis na ang recording at ang mga kaganapan nito.</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>Walang recording na %id.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>Lagyan muna ng tsek ang "Oo, itapon ang recording na ito".</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>Ang user lamang na nag-record ang maaaring magtigil ng session recording.</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>Piliin ang recording na ititigil.</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>May tumatakbo nang recording na ganitong uri.</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>Hindi mabago ang recording: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>Bumuo ng migration</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>Pangalan ng migration (opsyonal)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>Naisulat ang migration na %file. Ang mga pagbabagong hindi kayang gawin ng anumang hakbang ay nakalista sa itaas ng file, para gawin nang mano-mano.</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>Walang naisulat na migration: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>Isang mahabang takbo sa mga bahagi</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>Pinananatili ng mga walang laman na field ang mga setting ng migration.ini [RunSettings].</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>Hanggang ganito karaming migration</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>Wala nang migration pagkatapos ng (segundo)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>Pahinga sa pagitan ng mga migration (segundo)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>Mas mababang priyoridad (1 hanggang 19)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>Ang field ng mahabang takbo ay buong bilang mula 1 (ang pahinga: segundo mula 0 hanggang 60, ang priyoridad: 1 hanggang 19), o walang laman.</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>Magsasara ito nang kusa sa %time.</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>Magsara nang kusa pagkatapos ng (minuto, opsyonal)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>Ang mga minuto ay buong bilang mula 1 hanggang 44640 (31 araw), o walang laman.</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>Migrasyon %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>Bagong migrasyon</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>Isang YAML na migrasyon: isulat ito bilang teksto o buuin ang mga hakbang nito sa form, suriin ito, saka i-save ito sa isang folder ng mga migrasyon.</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>Napatakbo na ang migrasyong ito, kaya hindi na ito muling ise-save: tatanggihan ng pananggalang ng checksum ang binagong file. Gawin ang pagbabago sa isang bagong migrasyon.</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>Hindi maisulat ng web server ang file.</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>Ang mga linya ng komento sa itaas ay ang header (description, author, requires, environments, engines). Kapag may hakbang na idinagdag o binago sa form, muling isinusulat ang migrasyon: hindi pinapanatili ang mga komento sa pagitan ng mga hakbang.</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>Pangalan ng migrasyon</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>Kung saan ito mapupunta</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>Ang site</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>Tekstong YAML</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>Suriin</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>I-save</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Mga hakbang</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>Mga key</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>I-edit</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>Ilipat pataas</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>Ilipat pababa</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Alisin</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>Wala pang hakbang: magdagdag ng isa gamit ang form, o isulat ang mga ito sa teksto.</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>Baguhin ang hakbang %number</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>Magdagdag ng hakbang</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>Ang form ng isang hakbang ay ginagawa mula sa uri ng hakbang nito: ang mga key nito, ang tinatanggap ng bawat isa at ang mga mode na kinabibilangan nito.</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>Uri ng hakbang</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>Ipakita ang form nito</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>May mga key ang hakbang na hindi alam ng uri nito; inaalis ang mga ito kapag binago ang hakbang: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>Moda</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>Sa</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>sa %modes lamang</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>Default na halaga: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>Mga kondisyon, reference at komento</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>Mga pares na pangalan=halaga na pinaghihiwalay ng kuwit. Ang mga halaga ng hakbang na ito: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>Halimbawa</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>Baguhin ang hakbang</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>Idagdag ang hakbang</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>Ang sinasabi ng exp:migration:check: ang header, ang dokumento at bawat hakbang na sinuri ng uri ng hakbang nito.</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>Pumapasa ang migrasyon sa pagsusuri.</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Preview</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>Ang YAML kung paano ito ise-save.</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>Ipakita ang YAML</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>Mga YAML na migrasyon</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>napatakbo na</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>Wala pang YAML na migrasyon.</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>Editor</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>Walang YAML na migrasyon na %id sa mga folder ng migrasyon.</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>Pumili ng uri ng hakbang.</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>Naidagdag na ang hakbang. Suriin ang migrasyon bago mo ito i-save.</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>Nabago na ang hakbang. Suriin ang migrasyon bago mo ito i-save.</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>Pumili ng hakbang.</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>Walang form ang hakbang na ito (isang loop, o uri ng hakbang na wala sa instalasyong ito): baguhin ito sa teksto.</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>Piliin kung saan mapupunta ang migrasyon: ang site o isang aktibong extension.</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>Na-save ang %file. Magsagawa ng pagsubok na pagpapatakbo bago patakbuhin ang migrasyon.</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>Hindi na-save: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>Mga remote</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>Ang iba pang instalasyon na pinagde-deploy-an ng isang ito ng mga migrasyon nito: ipinapadala ng isang deploy ang mga migrasyon sa mga napiling remote at pinapatakbo ang mga ito roon, sabay-sabay at magkatugma. Hindi kailanman may hawak na secret ang isang remote: pinapangalanan ng kredensyal nito ang isa sa Setup &gt; Mga secret.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>Bagong remote</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Tulong</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>Pagsubok ng koneksyon ng %id</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>Ang mga remote</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>Hanggang %parallel remote ang sabay-sabay na pinoproseso; maaaring tumagal ng %timeout segundo ang isang bahagi sa bawat isa.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>Remote</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Address</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Kredensyal</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>Mga grupo</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>mga setting na aayusin</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>mga file lamang (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>Key ng SSH</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>Password</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>wala (ang SSH agent at mga key ng host)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>Subukan ang koneksyon</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>Ang isang deploy sa isang grupo ay napupunta sa bawat remote nito.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>I-deploy sa mga remote</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>Wala pang naka-set up na remote.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>Ang remote %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>Walang ipinapadala o pinapatakbo rito: isinusulat ng I-save ang mga setting sa settings/override/migration.ini.append.php. Pangalan ang kredensyal; nananatili ang halaga nito sa Setup &gt; Mga secret o sa kapaligiran.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Suriin ang mga setting na ito</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>Ang mga setting ayon sa pagkakalagay, hindi pa naka-save.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Suriin</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Wasto ang mga setting. Isusulat ang mga linyang ito:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>Transport</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>pangalan lang; nananatili ang value sa Setup &gt; Mga secret</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Ang mga linyang isusulat</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>Koneksyon</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>Key ng host</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. Ang remote</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>Ano ang tawag sa remote at kung aling kapaligiran ito.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>Mga titik, numero, - at _, halimbawa production1. Pinapangalanan nito ang remote sa mga ulat at sa console (--remotes=production1) at hindi na mababago sa ibang pagkakataon.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... Dumadaan sa mga kapaligiran sa ganitong pagkakasunod-sunod ang isang deploy sa mga yugto.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>Opsyonal, pinaghihiwalay ng mga kuwit, halimbawa production. Ang isang deploy sa isang grupo ay napupunta sa bawat remote nito.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. Ang koneksyon</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>Paano napupunta roon ang mga file, at kung nasaan ang instalasyon.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>Sa SSH, ang nagbago lamang, ipinagpapatuloy ang naputol na paglipat. Ang pinakamainam na pagpipilian kung saan naka-install ang rsync.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>SSH na may scp para sa mga file.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>SSH na may sftp para sa mga file.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>Mga file lamang: ipinapadala at binabasang muli ang mga migrasyon, ngunit hindi mapapatakbo roon.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>FTP sa TLS; mga file lamang.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>Isa pang instalasyon sa server na ito, sa isang folder.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Host</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>Isang pangalan ng host o address, halimbawa node1.example.com. Hindi para sa local.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>Port</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>Walang laman: 22 para sa SSH, 21 para sa FTP.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>User</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>Path</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>Ang root ng instalasyon doon, halimbawa /var/www/site (para sa FTP: ang path na nakikita ng FTP account).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>Command line ng PHP</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>Ang PHP CLI doon: php, o isang buong path gaya ng /opt/plesk/php/8.4/bin/php.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>Tumatakbo roon bilang root ang mga console script</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>Kapag root lamang ang user ng remote (pinapatakbo ang mga ito noon gamit ang --allow-root-user).</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. Ang kredensyal</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>Paano nagsa-sign in doon ang instalasyong ito. Pangalan lamang ang sine-save.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Wala</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>Ang SSH agent at mga key ng user na ginagamit ng instalasyong ito sa pagtakbo (at palagi para sa local).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>Isang private key na nakatago bilang secret.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>Isang password na nakatago bilang secret (ginagamit ito ng FTP para mag-sign in).</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>Pangalan ng secret</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>Isang secret ng Setup &gt; Mga secret, halimbawa deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Setup &gt; Mga secret</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>O isang variable ng kapaligiran</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>Ang variable ng proseso ng server na humahawak dito, halimbawa DEPLOY_KEY (naka-save bilang env:DEPLOY_KEY). Pumapalit ito sa pangalan ng secret.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. Ang key ng host</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>Opsyonal, para sa SSH, sftp at rsync.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>Fingerprint ng key ng host</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... gaya ng pagka-print nito ng ssh-keygen -l. Kung mayroon nito, dapat ipakita ng host ang key na ito; kung wala, natututunan ang key sa unang pakikipag-ugnayan.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. Suriin</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>Subukan ang koneksyon gamit ang mga setting sa itaas, pagkatapos ay suriin ang mga linyang isusulat.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>Alisin ang remote na ito</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>Inaalis ang mga setting nito sa settings/override/migration.ini.append.php. Walang nagbabago sa remote, at nananatili ang mga deploy nito sa kasaysayan.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>Oo, alisin ang remote na ito</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>Mga deploy</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>Ipinapadala ng isang deploy ang mga migrasyon ng instalasyong ito sa mga napiling remote at pinapatakbo ang mga ito roon bilang %user, sabay-sabay at magkatugma: sinusuri muna ang bawat remote, at kapag nabigo ang isa, binabawi ang bawat remote na naglapat. Tumatakbo ito sa background, at ipinapakita ng pahina nito ang bawat remote habang tumatakbo ito.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. Ang mga remote</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>Lagyan ng tsek ang mga remote, isang grupo, o pareho.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>I-deploy dito</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. Paano</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>I-deploy</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>Ipadala at patakbuhin</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>Ipinapadala, bine-verify at pinapatakbo ang mga migrasyon sa bawat remote gamit ang iisang pinagsasaluhang ID ng pagpapatakbo.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>Paglipat lamang</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>Ipinapadala at bine-verify ang mga file, walang pinapatakbo (ang tanging paraan para sa isang FTP remote).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>Sa mga yugto</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>Yugto-yugto ayon sa pagkakasunod-sunod ng mga kapaligiran (dev, stage, beta, production ...): idine-deploy ang unang yugto, pagkatapos ay naghihintay ang isang tarangkahan hanggang may mag-apruba sa susunod. Lahat o wala sa loob ng bawat yugto.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>Ang mga migrasyong ito lamang</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>Opsyonal: mga ID ng migrasyon, pinaghihiwalay ng mga kuwit. Walang laman: bawat migrasyon ng site at ng mga extension nito.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>Paunang pagsusuri lamang</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>Oo, i-deploy ngayon</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>Ang mga deploy na nagpadala o nagpatakbo ng isang bagay, ang pinakabago muna (walang ulat na itinatago ang paunang pagsusuri).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>paglipat lamang</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>sa mga yugto, %stages yugto</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>hindi magkatugma</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>Wala pang deploy.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>Pag-deploy %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Bawat remote ng deploy kasama ang kalagayan nito. Nagpapatuloy sa background ang deploy na sinimulan dito kapag isinara ang pahinang ito; buksan muli ang pahina upang subaybayan ito.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>Lahat ng deploy</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>Paunang pagsusuri</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>Susunod na yugto</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>Sinusuri ang mga setting at ang mga kredensyal</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>Paunang pagsusuri: binabasa ang kalagayan ng bawat remote</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>Ipinapadala ang mga file ng migrasyon</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>Bine-verify ang dumating</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>Pinapatakbo ang mga migrasyon sa bawat remote</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>Binabawi ang mga remote</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>Natapos na ang deploy. Nilo-load ang ulat nito.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>Hindi masubaybayan ang pag-usad. I-reload ang pahina upang makita ang lagay ng deploy.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>Bahagi</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>Sinusubaybayan ng pahinang ito ang deploy habang tumatakbo ito.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>Magkatugma</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>Mga yugto</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>naghihintay ang yugto %stage sa tarangkahan nito</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>Tarangkahan %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>inaprubahan ni %user noong %time</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>Yugto</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>Mga file na naipadala</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>Bersyon ng kernel</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>nailapat: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>ilalapat: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>Mga bahagi</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>Tarangkahan: yugto %stage ng %stages</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>Naka-deploy na ang mga yugto bago nito. Suriin ang mga ito, pagkatapos ay aprubahan ang susunod na yugto: muling sinusuri at idine-deploy ang mga remote nito, lahat o wala.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Susunod</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>Oo, i-deploy ngayon ang susunod na yugto</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Aprubahan</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>Ibalik ang deploy na ito</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>Ang bawat remote na naglapat nito (%list) ay babalik sa kuhang kinuha bago ang pagpapatakbo nito, sabay-sabay.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>Oo, ibalik ngayon ang deploy na ito</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>nakaplano</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>nailipat</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>na-deploy</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>naghihintay sa isang tarangkahan</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>napili</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>nakahanda</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>handa</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>naghihintay sa yugto nito</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>naipadala ang mga file</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>na-verify</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>nabigo, naibalik ang sarili</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>hindi nabago</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>hindi na-deploy</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>hindi maabot</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>Sumagot ang remote.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>Hindi magagamit ang remote ngayon.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done tapos, %pending nakabinbin, %failed nabigo</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>Kandado</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>may pagpapatakbong may hawak ng kandado roon</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>libre</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stage ng %stages</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>Piliin ang remote na susubukan.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>Lagyan muna ng tsek ang “Oo, alisin ang remote na ito”.</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>Hindi maalis ang remote: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>Hindi ma-save ang remote: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Hindi mabasa ang file ng mga setting: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>Pumili ng kahit isang remote o grupo.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>Wala na sa mga setting ang isang napiling remote. I-reload ang pahina.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>Lagyan muna ng tsek ang “Oo, i-deploy ngayon”.</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>Hindi makapagpapatakbo ng mga migrasyon ang isang FTP remote: piliin ang “Paglipat lamang”, o huwag itong isama.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>Ang mga migrasyong ide-deploy ay mga ID ng migrasyon, pinaghihiwalay ng mga kuwit.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>Tumatakbo pa ang deploy. Hintayin itong matapos.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>Hindi naghihintay sa isang tarangkahan ang deploy na ito.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>Walang remote na naglapat ng deploy na ito: walang ibabalik.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>Lagyan muna ng tsek ang “Oo, i-deploy ngayon ang susunod na yugto”.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>Lagyan muna ng tsek ang “Oo, ibalik ngayon ang deploy na ito”.</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>Mayroon nang remote na may ID na %id.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>Ang port ay isang numero mula 1 hanggang 65535.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>Ang kapaligiran ay isang salita ng mga titik, numero, - at _ (alpha, dev, stage, beta, production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>Ang grupo ay isang salita ng mga titik, numero, - at _ (hindi all): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>Hindi mabasa ngayon ang kredensyal: %problem. I-save ito sa Setup &gt; Mga secret (o itakda ang variable) bago ang unang deploy.</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>Tumatanggap lamang ng mga file ang isang FTP remote: ang deploy dito ay “Paglipat lamang”, at mano-manong pinapatakbo roon ang mga migrasyon nito.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>Wala ang remote na %id sa settings/override/migration.ini.append.php; alisin ito kung saan ito itinakda.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>Nag-sign in sa FTP at binasa ang index.php. Hindi mababasa ang katayuan ng migrasyon ng isang FTP remote.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>Binago</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>Ginawa</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Pangalan</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Klase</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Seksyon</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>Gumawa</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Bagong nilalaman</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>Ang pinakabagong ginawa at binagong nilalaman ng buong site, pinakabago muna: ang ipinadala ng mga bisita, ang pinipigil para sa pagsusuri, ang mga draft na naghihintay ng paglalathala. Pumili ng mga item upang palayain, pigilin, itago, ipakita, alisin o ilipat sa ibang seksyon o estado.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>Hindi mabasa ang listahan: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>Hindi pa naka-set up ang pagpigil para sa pagsusuri, kaya walang pinipigil at hindi inaalok ang mga aksyon ng pagpigil. Ang hakbang ng upgrade na 6.0.15-review-hold ang nagse-set up nito: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Salain ang listahan</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Mula</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Hanggang</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Petsa</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>Ginawa (unang na-publish)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Lahat</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Katayuan</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Na-publish</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>Draft, hindi pa kailanman na-publish</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>Nakabinbin (naghihintay ng pag-apruba o ng petsa)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>Nasa basurahan</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Pinipigil para sa pagsusuri</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>Pinipigil</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>Hindi pinipigil</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>Nakatago</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>Nakikita</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>Ipinadala noong</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>Anumang siteaccess</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>Ang naitala lamang ng audit.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>Ngayon: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>Isang login o user id.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Salain</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>I-clear ang mga filter</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>Mga item</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from hanggang %to ng %count</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Walang item</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(nabasa sa loob ng %ms ms)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>Mga aksyon sa mga napiling item</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>Piliin lahat sa pahinang ito</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>%count ang napili</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Aksyon</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>Pumili ng aksyon</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>Palayain ang pagpigil</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Pigilin para sa pagsusuri</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Itago</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>Ipakita</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>Ilipat sa basurahan</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>Burahin</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>Magtakda ng seksyon</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>Magtakda ng estado</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>Dahilan</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>Kailangan upang pigilin; itinatago kasama ng pagpigil at sa audit.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>Pumili ng seksyon</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Estado</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>Pumili ng estado</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>Ilapat sa mga napili</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>Sinusuri ang bawat item batay sa sarili mong mga pahintulot. Hihilingin sa iyong kumpirmahin ang paglipat sa basurahan at ang pagbura. Ang higit sa %count item ay tumatakbo sa background.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>Piliin</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>Paglalathala</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>Ipinadala mula sa</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>Piliin ang %name</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>hindi pa</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(walang pangalan)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>Borador</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Nakabinbin</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>Itinago ng magulang nito</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>Pinipigil: bagong pagpapadala</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>Nakabinbin ang bersyon %version</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>Ginagawa pa ang bersyon %version</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>Draft, bersyon %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>Na-publish ang bersyon %version</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>Nakatakda sa %date</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>walang address</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>hindi naitala</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>Walang tumutugma sa mga filter na ito.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Ipakita lahat</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>Wala pang nilalaman.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Bawat pahina</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Magpakita ng %count item bawat pahina.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says "not recorded".</source>
+        <translation>Ang address at ang browser ng isang pagpapadala ay galing sa index ng audit, na hindi magagamit dito: ang nakasulat sa column ay "hindi naitala".</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>Ang address at ang browser ay ang mga naitala ng audit para sa item (laging itinatala ito ng awtomatikong pagpigil; ang paglalathala at paggawa ay kung naka-on lamang), ayon sa pagtatago ng mga setting nito sa privacy.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: %count item</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>Permanenteng inaalis ng pagbura ang mga item, kasama ang lahat ng kanilang bersyon at salin. Hindi ito maibabalik.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>Mapupunta ang mga item sa basurahan, kung saan maaari silang ibalik.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>Sinusuri ang bawat item batay sa sarili mong mga pahintulot; ang item na may mga sub-item ay iniiwan nang ganoon (alisin ito sa istruktura ng nilalaman). Hihilingin sa iyong patunayan na ikaw nga ito.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>Tumatakbo ito sa background: magbubukas ang pahina ng progreso nito, at ipapakita ang resulta ng bawat item kapag tapos na.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>Ang mga napiling item</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>at %count pa</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Kanselahin</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>Walang ginawa</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Dahilan: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>Tumatakbo pa ang aksyon sa background.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>Ang progreso nito</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>Nabigo ang aksyon sa background: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Tapos na</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Tinanggihan</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Nabigo</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>Bawat item</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>Aytem</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Resulta</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Bakit</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>Bumalik sa listahan</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Pagsasaayos</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>Walang nagawa</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>Kumpirmahin</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>Pumili ng aksyon.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>Pumili ng kahit isang item.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>Pumili ng hindi hihigit sa 1000 item sa isang pagkakataon.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>Sabihin kung bakit pinipigil ang mga item.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>Piliin ang seksyon.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>Piliin ang estado.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Hindi mabasa ang form.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>Dashboard</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>Bagong nilalaman</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>Hindi mabasa ang mga bilang: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Pinipigil para sa pagsusuri</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>Bago ngayong araw</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Hindi pa naka-set up ang pagpigil para sa pagsusuri (ang hakbang ng upgrade na 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>Lahat ng bagong nilalaman</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>Hindi ka pinapayagang magpatakbo ng mga aksyon ng moderasyon (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>Hindi kumpleto ang aksyon ng moderasyon: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>Moderasyon: %action sa %count object</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%done sa %total object: %ok tapos, %refused tinanggihan, %failed nabigo</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok tapos, %refused tinanggihan, %failed nabigo</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>Wala na ito.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>Wala itong lokasyon (hindi na-publish).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>Hindi ka pinapayagang itago ito (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>Hindi ka pinapayagang ipakita ito (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>Nakatago na ito.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>Hindi ito nakatago.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>Itinago.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>Ipinakita.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>Nasa basurahan ito: alisan ng laman ang basurahan o ibalik ito mula roon.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>Hindi mapupunta sa basurahan ang draft na hindi pa kailanman na-publish: burahin ito.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>Hindi ka pinapayagang burahin ito (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>Binura.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>Hindi ka pinapayagang alisin ito (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>May mga sub-item ito: alisin ito sa istruktura ng nilalaman, kung saan nakalista ang mga ito.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>Hindi ito naalis (maaaring pinipigil ng isang workflow ang pag-alis).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>Inilipat sa basurahan.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>Hindi umiiral ang seksyon.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>Nasa seksyong ito na ito.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>Hindi ka pinapayagang itakda ang seksyong ito (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>Hindi naitakda ang seksyon.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>Naitakda ang seksyon.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>Hindi umiiral ang estado.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>Nasa estadong ito na ito.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>Hindi ka pinapayagang itakda ang estadong ito (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>Hindi naitakda ang estado (maaaring pinipigil ng isang workflow ang pagbabago).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>Naitakda ang estado.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>Walang ganoong aksyon.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Hindi naka-set up ang pagpigil para sa pagsusuri (ang hakbang ng upgrade na 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>Sabihin kung bakit ito pinipigil.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>Pinipigil na ito.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>Hindi ka pinapayagang pigilin ito (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>Hindi nailagay ang pagpigil (maaaring pinipigil ng isang workflow ang pagbabago).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>Pinigil.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>Hindi ito pinipigil.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>Hindi ka pinapayagang palayain ito (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>Hindi napalaya ang pagpigil (maaaring pinipigil ng isang workflow ang pagbabago).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>Pinalaya; nakatago pa rin: hindi ka pinapayagang ipakita ito (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>Pinalaya.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>Lahat ng destinasyon</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Huling pag-publish</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>Mag-publish ng libreng static na kopya ng iyong site sa GitHub Pages:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Mga luma nang pahina</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Static na pag-publish</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Naka-off ang static na pag-publish.</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Destinasyon</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Hindi mabasa ang mga destinasyon: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>may trabahong tumatakbo</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>build na susuriin</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>itago ito</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>gumawa ng destinasyon</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>hindi kailanman</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>basahin ang tutorial</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>%added idinagdag, %changed binago, %removed inalis</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%bytes sa %limit (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>%count pa ang hindi nakalista.</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>%pages pahina ang naisulat</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>Ang %path ay %size, higit sa pinapayagan ng host para sa isang file.</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>%percent % ng limitasyon</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds seg</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>Ang %tag ang pag-publish na nasa site ngayon.</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: trabaho %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>/repositoryo/ para sa site ng proyekto sa GitHub; walang laman para sa sariling domain o site ng user.</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. Ang site</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. Ang host</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. Pag-sign in sa repositoryo</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. Ang repositoryo</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. Mga link at batayang path</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. Ang sarili mong domain</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. Ang laman ng build</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. Kailan ito ipa-publish</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. Suriin at i-save</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>Ang site ng proyekto sa GitHub ay nasa ilalim ng /&lt;repository&gt;/; gumagana roon at saanman ang mga relatibong link.</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>Kinukuha ng build ang bawat pahina ng %site ayon sa nakikita ng bisitang hindi naka-sign in, isinusulat muli ang mga link, kinokopya ang mga file at isinusulat ang resulta sa folder ng destinasyon. Walang naipa-publish hangga&apos;t hindi mo sinusuri ang build at pinipindot ang I-publish.</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>Isang cron expression, halimbawa 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>Ang deploy key ay itinatago bilang secret na %secret.</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>Pinapayagan ng deploy key ang installation na ito na mag-push sa iisang repositoryo sa pamamagitan ng SSH at wala nang iba. Nananatili ang pribadong kalahati nito sa Setup &gt; Mga secret; ang pampublikong kalahati lang ang ipinapakita.</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>Isang deploy key na ginawa para sa destinasyong ito</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>Nagsa-sign in ang deploy key sa pamamagitan ng SSH: palitan ang address ng git ng SSH address (git@github.com:owner/repo.git).</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>May trabahong tumatakbo, sinimulan ni %user</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>Tumatakbo pa ang isang trabaho ng destinasyong ito (%detail). Hintaying matapos ito.</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>Tumatakbo pa ang isang trabaho ng destinasyong ito. Hintaying matapos ito.</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>Ang link mula sa pahinang /news/ papunta sa pahinang /about-us/team ay isusulat bilang</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>Gumawa ng bagong deploy key. Idagdag na ngayon ang pampublikong kalahati nito sa repositoryo.</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>Ang pahinang may debug output, form token o session id pa rin pagkatapos ng paglilinis ay hindi kailanman ipa-publish.</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>Para sa mga eksperto ang pagbabalik: lagyan ng tsek ang &quot;Alam ko kung ano ang binabago nito&quot; at i-type muli ang pangalan ng tag.</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>Ang isang site ay maaaring umabot nang %site, ang isang file nang %file, na may humigit-kumulang 100 GB na traffic bawat buwan. Sa libreng plan, dapat pampubliko ang repositoryo. Hindi para sa mga tindahan o iba pang komersiyal na transaksyon ang GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>Ang destinasyon ay isang site na ipina-publish sa isang git repositoryo. Walang binubuo o ipina-publish dito: isinusulat ng I-save ang mga setting sa settings/override/staticcache.ini.append.php.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>Ang destinasyon ay isang site na ipina-publish sa isang lugar, halimbawa ang iyong pampublikong site sa GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>Isang token mula sa Setup &gt; Mga secret</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>Ipina-publish ito ng isang workflow ng repositoryo.</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>Idagdag ang pampublikong key na ito sa repositoryo nang may write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, lagyan ng tsek ang Allow write access.</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>Idinagdag</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>Ibang git host</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>May ibang prosesong gumagana sa destinasyong ito: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>Bumalik</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>Batayang path</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Dati</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>Sa ilalim ng batayang path</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>Sangay</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>Mga sirang link</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>Mga sirang link sa build</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>Build</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>Build %id ni %user</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>Build na %name</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>I-build ngayon</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>Build na susuriin</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Ni</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>Mano-mano, dito</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Kanselahin</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Baguhin</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>Binago</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Mga pagbabago</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>Suriin muna ito</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Suriin ang mga setting na ito</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>Suriin kung ano ang binabago ng build, tingnan ito, saka i-publish o itapon.</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>Piliin ang pag-publish na babalikan.</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>Darating sa susunod na release.</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Pag-commit</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>Mga commit</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>Kino-commit ang build, tina-tag ito at pinu-push sa %remote. Hindi kailanman pinipilit ang push; maaari kang bumalik sa anumang pag-publish sa ibang pagkakataon.</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>Kumpara sa naunang folder: %added idinagdag, %changed binago, %removed inalis, %unchanged hindi nagbago.</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>Kumpara sa huling pag-publish.</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Kredensyal</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>Sariling domain</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>Laging tinatanggal ang debug output, mga form token, mga session id at mga nonce.</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>Deploy key</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>Deploy key ng %name</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Itapon</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>Itapon ang build</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>Domeyn</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>Walang laman: ang address ng site. Kung hindi, isang internal na address ng parehong site.</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Natapos</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>Nagsisimula ang bawat link sa batayang path.</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>Ang bawat pag-publish ay isang commit na may tag na static/%id/&lt;n&gt;. Ang pagbabalik ay gumagawa ng bagong commit gamit ang mga file ng naunang pag-publish: nananatili ang kasaysayan, walang tag na gumagalaw at walang pinipilit.</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>Mga dagdag</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>Kunin ang mga pahina mula sa</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>File</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>Mga file</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>Mga nawawalang file</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>Mga file ng</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>Mga file na hindi makolekta</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>Fingerprint</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>Folder</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>Para sa SSH address. Gagawin ang key pagkatapos mag-save; idaragdag mo ang pampublikong kalahati nito sa repositoryo.</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>Para sa https:// address. GitHub: isang fine-grained token na may Contents read at write sa repositoryo.</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>Para sa mga eksperto. Nagbabago ang pampublikong site sa sandaling matapos ang push.</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Mga form</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>Libreng hosting mula sa isang GitHub repositoryo.</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>Mula sa sangay</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>Address ng git</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>Pinapayagan ng GitHub Pages ang site na %site at file na %file.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>Mga limitasyon ng GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>Ipina-publish ng GitHub Pages ang mga file nang ganoon mismo (kailangan para sa mga file na nagsisimula sa _).</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>Inihahatid ng GitHub ang sangay ayon sa pagka-push nito. Ang default.</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, sarili mong server: anumang git repositoryo.</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>Bumalik sa naunang pag-publish</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Tulong</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>Tulong sa wizard</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>Itago ang mga ito</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Kasaysayan</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>Kasaysayan ng %name</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Host</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>Paano tinatanggap ng GitHub Pages ang build</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>Nasuri ko na ang mga pagbabago</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>Alam ko kung ano ang binabago nito</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>Naka-off ito: walang mabubuo hangga&apos;t hindi ito naka-on.</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>Tumatakbo ito sa background bilang %user; maaari mong isara ang pahinang ito.</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>Trabaho %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>Itinatago bilang secret na %secret.</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Uri</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Huling pag-publish</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>Huwag isama ang mga pahinang ito</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>Huwag isama ang mga seksyong ito</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Mga link</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>Mga link na isinulat muli</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>Live na site</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>Tingnan ang build</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>Maliliit na titik, digit, _ at -, halimbawa github-public. Pinapangalanan nito ang folder at ang mga tag (static/&lt;id&gt;/&lt;n&gt;) at hindi na mababago pagkatapos.</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>Gumawa ng bagong key</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>Gumawa ng destinasyon</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>Gawin ang key</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>Gawin muna ang repositoryo sa host; ayos lang kahit walang laman.</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>Manifest</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Mensahe</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>Karamihan ng mga pahina</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Pangalan</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>Pangalan ng token sa Setup &gt; Mga secret</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>Bagong destinasyon</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Susunod</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>Hindi</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>Wala pang commit.</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>Walang nagawang key: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Walang nakitang php command line binary. Itakda ang buong path nito sa migration.ini [AdminSettings] PhpCliPath.</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>Wala pang tag.</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>Wala pang destinasyon.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Wala</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>Wala sa build.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>Wala pang naipa-publish.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>Wala pang naipa-publish: bago ang bawat file.</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>Mag-abiso</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>Ayon sa iskedyul</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>Sa console</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>Sa server: ./console exp:static:serve %id ang naghahatid nito sa parehong paraan.</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>Isang path bawat linya, tumutugma ang * sa anumang bahagi: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>Pangalan lang ang iniimbak kasama ng destinasyon; ang mismong token o key ay nananatili sa Setup &gt; Mga secret at hindi kailanman lumalabas sa log.</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>Ang binabanggit lang ng mga pahina</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>Gamit lang ang token. Ang env:NAME ay nagbabasa sa halip ng environment variable ng server.</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>Buksan ang preview</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>Binubuksan ang build ayon sa paghahatid ng host, mula sa folder ng destinasyon. Gumagana para sa iyo ang link sa loob ng isang oras.</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>Opsyonal. Walang laman: kung ano ang naipa-publish.</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>Opsyonal. Kapag may domain, inihahatid ang site sa root nito.</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Output</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>Mga pahina</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>Mga pahina ng destinasyon</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>Mga tinanggihang pahina</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>Post-processing</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Preview</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>Preview at pag-publish</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>Preview at pag-publish ng %name</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>I-preview ang build</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Progreso</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>Pampublikong address</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>Pampublikong key</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>I-publish</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>Mag-publish ng static na kopya ng isang site sa GitHub Pages o sa anumang git host: buuin ito, suriin ang mga pagbabago, i-publish, at bumalik sa naunang pag-publish kapag kailangan.</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>Pag-publish na babalikan</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>Mga pag-publish</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Pag-push</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>Basahin ang tutorial</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Tala</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Tinanggihan</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>Relatibo</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>I-reload</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>Inalis</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>Palitan ang key: hihinto sa paggana ang luma</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Ulat</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>Ulat ng build</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Repositoryo</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Pagsusuri</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>Sinusuri ng pagsusuri ang bawat setting at ipinapakita ang mga linyang isusulat. Wala pang naise-save.</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Ibalik</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Pagbabalik</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>I-save</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>Iskedyul</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>Pahina ng paghahanap</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>Mga id ng seksyon, pinaghihiwalay ng kuwit.</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>Ipadala ang mga ito sa live na site</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>Setting</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Mga setting</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>Mga setting ng %name</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Setup</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Setup &gt; Mga secret</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>Ipinapakita sa mga listahan, halimbawa &quot;Pampublikong site sa GitHub Pages&quot;.</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>Darating ang pag-sign in gamit ang GitHub App kasama ng GitHub integration.</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>Site</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>Site na ipa-publish</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Laki</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>Laki at mga limitasyon</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>Laki ng build</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Mga luma nang pahina</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Nagsimula</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Sinimulan ni %user noong %time.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Estado</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Static na pag-publish</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>Naka-off ang static na pag-publish</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Naka-off ang static na pag-publish.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>Naka-off ang static na pag-publish. I-on muna ito sa Setup &gt; Static na pag-publish.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>Naka-on ang static na pag-publish.</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>Hakbang %step ng %total</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Mga hakbang</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>Paglilinis</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>I-off</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>I-on</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>I-on ang static na pag-publish</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Tag</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>Mga tag</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Destinasyon</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>Maaaring gumawa at magbago ng mga destinasyon, pero walang binubuo o ipina-publish hangga&apos;t hindi ito naka-on.</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>Sinasabi sa mga search engine kung ano ang babasahin.</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>Hindi maitapon ang build: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>Pareho ang build sa huling pag-publish: walang ipa-publish.</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>Itinapon ang build: muling laman ng folder ang huling pag-publish.</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>Angkop ang mga default sa karamihan ng mga site.</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>May build sa folder na hindi pa naipa-publish; papalitan ito ng bagong build.</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>Hindi masulatan ang folder ng mga trabaho: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>Hindi maihanda ang trabaho: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>Hindi masimulan ang trabaho.</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>Natapos na ang trabaho. Nilo-load ang ulat nito.</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>Kailangan ng trabaho ng user na naka-sign in.</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>Nasimulan ang trabaho pero hindi nito iniulat ang process id nito. Suriin ang %detail.</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>Ang key</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>Ang pinakamalaking file: %path, %size.</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Ang mga linyang isusulat</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>Ang listahan ng mga pahina para sa mga search engine; kailangan ang pampublikong address.</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>Kinukuha ang mga pahina ayon sa nakikita ng bisitang hindi naka-sign in. Hindi kailanman iniaalok ang mga siteaccess ng administrasyon at pag-edit.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>Hindi masundan ang progreso. I-reload ang pahina para makita ang kalagayan ng trabaho.</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>Ang pampublikong kalahati ng key:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>Ang root ng sangay</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>Hindi pa naka-set up ang imbakan ng mga secret (ginagawa ng ./console exp:upgrade --apply ang table nito), kaya walang key na maitatago.</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>Kusang nagsa-sign in ang server (gamit ang sarili nitong SSH key o credential helper), o nasa server na ito ang repositoryo.</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>Hindi maisulat ang setting: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Wasto ang mga setting. Isusulat ang mga linyang ito:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Hindi mabasa ang file ng mga setting: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>Babalik ang site sa mga file ng pag-publish na iyon; ang build na hindi pa naipa-publish ay dapat munang i-publish o itapon.</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>Ang sariling pahina ng site para sa mga address na hindi umiiral.</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>Hindi ma-save ang destinasyon: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>Hindi pa nagsa-sign in ang destinasyon gamit ang key na ito: piliin ang &quot;Isang deploy key na ginawa para sa destinasyong ito&quot; sa mga setting nito.</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Hindi mabasa ang mga destinasyon: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>Wala pang build na susuriin.</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>Walang front siteaccess ang installation na ito. Hindi kailanman ipina-publish ang mga siteaccess ng administrasyon at pag-edit.</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>Sinusundan ng pahinang ito ang trabaho habang tumatakbo; nagpapatuloy ito sa background kapag isinara ang pahina.</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>Wala pang deploy key ang destinasyong ito.</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>Hindi pa nabubuo rito ang destinasyong ito.</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>Mayroon nito ang destinasyong ito.</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>Itinatapon ang build na ito: muling laman ng folder ang huling pag-publish. Hindi nagbabago ang live na site.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>Lagyan muna ng tsek ang &quot;Nasuri ko na ang mga pagbabago&quot;.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Oras</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>Mga trigger</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>I-type muli ang pangalan ng tag</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>Hindi nagbago</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>Webhook</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Ano</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>Ano ang nagbabago</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>Kung ano ang bawat file; laging isinusulat.</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>Ang ginawa ng trabaho at ang tala nito. Ang trabahong sinimulan dito ay nagpapatuloy sa background kapag isinara ang pahinang ito.</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>Ang inilabas ng trabaho bilang mga error</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>Ang binabanggit ng mga pahina, at bawat larawan ng na-publish na nilalaman</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Kailan</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>Kapag nabigo ang pag-publish</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>Kapag nagtagumpay ang pag-publish</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>Kapag may na-publish na nilalaman</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>Kung saan pupunta ang mga link sa wala sa kopya (ang paghahanap, ang login).</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>Kung saan inihahatid ang static na kopya.</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>Aling site ang ipina-publish, at ano ang tawag sa destinasyon.</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>Gumagana sa ilalim ng anumang path. Ang default.</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>Isinusulat tuwing may nakatakdang sariling domain.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>Oo</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>Maaari kang laging bumuo at mag-publish nang mano-mano dito at sa console.</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>pangalan lang; nananatili ang value sa Setup &gt; Mga secret</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>sa ilalim ng %path</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>natapos nang walang ulat</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>dagdag</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>nabigo</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>file</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages, o main na may folder na docs.</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>git host</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (may token) o git@github.com:owner/repo.git (may deploy key); hindi kailanman may password o token dito.</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/, para sa sitemap at sa mga canonical link.</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>larawan</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>hindi kailanman</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>hindi</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>walang remote</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>wala: nananatili sa folder ang mga commit</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>wala: walang nagbago</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>hindi na-push</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>walang nagbago</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>pahina</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>nagtagumpay</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>Naka-disable ang proc_open, kaya hindi masisimulan dito ang trabaho. Gamitin ang ./console exp:static:build sa server.</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>pag-publish</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>na-publish</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>nakabinbin ang push</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>na-push</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>tinanggihan</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>relatibo</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>pagbabalik</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>naibalik</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>tumatakbo</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>ang folder lang</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: isinusulat sa file na CNAME. Ituro ang DNS ng domain sa host ayon sa paliwanag nito; maaaring matagalan bago magsimula ang HTTPS.</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>oo, hindi pa na-publish</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>Isang GitHub App</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>Inilalathala ito ng isang workflow ng repositoryo. Isinusulat ng build ang workflow file; iwanang walang laman ang folder.</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>Pagkatapos i-save ang isang destinasyon na may GitHub repositoryo at token o GitHub App, magagawa ng hakbang na ito ang repositoryo at mabubuksan ang GitHub Pages. Kung hindi, gawin muna ang repositoryo sa GitHub; ayos lang ang walang laman.</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>Sangay o GitHub Actions?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>Suriin ang DNS</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>Gawin ang repositoryo kung wala pa ito</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>Gawin ang repositoryo sa GitHub at buksan ang GitHub Pages sa mga setting nito (Settings &gt; Pages).</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>Ginagawa ang repositoryong %repo kapag wala ito (kapag hiniling), binubuksan ang GitHub Pages mula sa sangay o mula sa GitHub Actions ayon sa naka-save, at itinatakda ang sariling domain at HTTPS. Ginagamit nito ang mga naka-save na setting: i-save muna ang mga pagbabago.</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>Mga detalye sa GitHub</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>Ilagay muna ang sariling domain.</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>Sinusuri muna ang bawat push batay sa mga limitasyong ito.</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>Para sa isang https:// na address sa GitHub. Ang App na naka-set up para sa installation na ito ang nagsa-sign in; kailangan nito ang id ng installation.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>Naghahatid lang ang GitHub Pages ng pribadong repositoryo sa isang bayad na plan.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: kailangan ng subdomain (www.example.com) ang isang CNAME record papunta sa &lt;owner&gt;.github.io; ng apex domain (example.com) ang mga A record na %ips.</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>Id ng installation ng GitHub App</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>Huling build ng Pages</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>Mga limitasyon at tuntunin</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>Kailangan para sa GitHub Pages sa libreng plan.</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>Sa GitHub</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>Sa GitHub App lang: ang numero sa dulo ng address ng installation ng App sa GitHub. Ang App mismo ay itinatakda sa staticcache.ini (GitHubAppId, GitHubAppKey).</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>Pribado</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>Pampubliko</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>I-save muna ang destinasyon na may GitHub repositoryo at token o GitHub App.</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>Itakda ang mga record na ito sa provider ng domain:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>I-set up sa GitHub</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>Hindi pa nakaturo sa GitHub Pages ang DNS ng %domain.</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>Nakaturo sa GitHub Pages ang DNS ng %domain.</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>Hindi available dito ang GitHub integration: %problem. Gumagana pa rin ang pag-publish sa sangay; buksan ang GitHub Pages sa mga setting ng repositoryo.</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>Hindi available ang mga hakbang sa GitHub para sa destinasyong ito: %problem.</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>Ipinapakita ang estado ng GitHub Pages kapag token o GitHub App ang kredensyal.</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>Gamitin ang sarili mong domain</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>Alin ang pipiliin: token, deploy key o GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>Kapag may GitHub repositoryo at token o GitHub App, magagawa ng wizard ang repositoryo, mabubuksan ang GitHub Pages at maitatakda ang domain para sa iyo (hakbang 4).</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>binubuo</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>nabuo na</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>mula sa GitHub Actions</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>mula sa sangay na %branch</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>wala pa</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>hindi nahanap</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>nakasara</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>pribado</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>pampubliko</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>nakapila</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>hindi alam</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%count sa %pages pahina:</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>Isang .gz (at .br) sa tabi ng bawat text file, para sa mga host na nagseserbisyo nito.</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>Isang maliit na pahina para sa bawat lumang address at alias ng isang pahina, para patuloy na gumana ang mga lumang link.</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>Palaging isinusulat kapag inihahatid ng GitHub Actions ang site.</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>Isang SPDX id gaya ng CC-BY-4.0, o ang mismong teksto.</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>Basket</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>Mga tawag sa server</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Mga komento</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>Mga form na kumukuha ng impormasyon</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>GitHub Actions workflow</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>Mas kaunting white space at walang komento sa mga pahina.</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>Lisensya ng nilalaman</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Mag-login</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>I-minify</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>Iba pang mga form</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>I-precompress</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>Mga pahina ng redirect</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>Mga pahina ng redirect: %count.</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Maghanap</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>Index ng paghahanap: %pages pahina sa %languages.</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>Mga style sheet at script na pinangalanan ayon sa hash ng nilalaman nila, para mapanatili ng mga browser.</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>Ang mga binagong pahina, ilang minuto pagkatapos ng huling pagbabago (ang bahagi ng cronjob na staticpublish).</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>Ang lisensya ng nilalaman, mula sa field sa ibaba.</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>Ang buong site, sa mga oras ng iskedyul (ang bahagi ng cronjob na staticpublish).</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>Kailangan ng server ang mga bahaging ito ng mga pahina; bawat isa ay nagkaroon ng fallback. Suriin ang mga ito bago mag-publish.</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>Ang hindi gumagana nang static</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>Kung ano ang repository, para sa sinumang magbubukas nito sa host.</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>hindi isinama</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>ang fallback na teksto</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>ang form endpoint ng live na site</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>ang live na site</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>ang search page ng kopya</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>Hindi maipadala ang form.</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>Salamat: naipadala ang form.</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>Hindi tinanggap ang form: suriin ang inilagay mo at ipadala ulit.</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>Alisin ang mga link sa mga pahinang wala sa kopya</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>Alisin ang mga link papunta sa administrasyon</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>Nananatili ang kanilang teksto. Hindi kailanman inaalis ang mga larawan, form at link sa ibang site.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Bersyon</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>Mga siteaccess na ilalathala</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>Sa ugat</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>Walang siteaccess sa ugat: bawat isa ay nasa sariling folder, at ang ugat ay nagli-link sa kanila</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Mga siteaccess</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>Markahan ang isang siteaccess, o ilan na nagbabahagi ng isang host sa pamamagitan ng kanilang URI prefix. Ang nasa ugat ay inihahain doon, ang iba sa folder ng kanilang prefix (/ger/); nananatili sa kopya ang mga link sa pagitan nila. Hindi kailanman iniaalok ang mga siteaccess ng administrasyon.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>Nabigo ang static publishing ng %target sa %site</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>Matagumpay ang static publishing ng %target sa %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>Ipinadala ng %site ang mail na ito dahil hinihiling ito ng static publishing target na %target.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>Nabigo ang deploy na %deploy sa %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>Naghihintay sa isang gate ang deploy na %deploy sa %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>Nagtagumpay ang deploy na %deploy sa %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>Ipinadala ng %site ang mail na ito dahil hinihingi ito ng migration.ini [RemoteSettings] Notify[].</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>Mga datatype (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>Binilang %time, muli pagkalipas ng %minutes minuto</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>Ang datatype ay nag-iimbak at nag-e-edit ng isang uri ng halaga ng isang attribute ng class: isang linya ng teksto, isang larawan, isang relasyon. Ang kernel ang nagbibigay ng karamihan, at nagdaragdag pa ang mga extension. Narito ang lahat ng ito, kung sino ang nagbibigay ng mga ito at gaano karaming nilalaman ang gumagamit sa mga ito. Ang datatype na ginagamit ng database pero wala nang nagrerehistro ay sumisira sa nilalamang mayroon nito.</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>Mga grupo ng class</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>Bilangin muli ngayon sa halip na gamitin ang mga bilang ng mga huling minuto.</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>Bilangin muli</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Pangkalahatang-tanaw</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>Nagparehistro</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>Ginagamit</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>Hindi ginamit</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>Mga extension na nagbibigay ng datatype</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>Mga attribute ng class</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>Mga attribute ng object</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>Hindi nakarehistro</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>Nakalista, nawawala ang file</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>%count datatype ang ginagamit pero hindi nakarehistro</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>May datatype ang %class_attributes attribute ng class at %object_attributes attribute ng object na hindi nirerehistro ng anumang extension o setting. Hindi maipapakita, mae-edit o mailalathala ang kanilang mga object. I-activate ang extension na nagbibigay ng datatype, o baguhin ang class.</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>Ipakita lamang ang mga ito</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>Maghanap ng datatype</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>Identifier, pangalan, PHP class o extension.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Ipakita</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Lahat</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>Ibinibigay ng</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>Lahat</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>Kernel</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>Walang datatype na tumutugma sa filter na ito.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Ipakita lahat</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>Extension</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%shown sa %count datatype, %used ang ginagamit</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>May mga attribute ng class o object ang database na may ganitong mga datatype, pero walang nakalista sa mga ito sa content.ini, o nawawala ang file nito.</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>Mga datatype ng %provider</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>Uri ng data</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>PHP class at file</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>Mga class</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>Mga object</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>Mga flag</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>wala</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>Walang datatype na tumutugma sa paghahanap. I-clear ang paghahanap.</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>%shown sa %count datatype ang ipinapakita</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>Mga datatype na ipinapakita: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>Pag-uri ayon sa %column</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>Binilang %time</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>Lahat ng datatype</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>Pahina ng tulong</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>Ginagamit ang datatype na ito pero hindi nakarehistro</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>Hindi maipapakita, mae-edit o mailalathala ang mga object ng mga class sa ibaba habang walang extension na nagrerehistro ng datatype. I-activate ang extension na nagbibigay nito at idagdag ito sa content.ini [DataTypeSettings] AvailableDataTypes[], o baguhin ang mga class.</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>Nakalista ang datatype na ito sa content.ini, pero walang direktoryo ng datatype na may file nito. Walang gumagamit nito; alisin ito sa AvailableDataTypes[] o i-activate ang extension nito.</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>Tungkol sa datatype na ito</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>Identifier</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Pangalan</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Extension %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>wala</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>PHP class</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>File</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>Nasa AvailableDataTypes[]</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>oo</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>hindi</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>Mga column ng halaga nito</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>Mga column ng mga setting ng attribute ng class nito</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>Mga table</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>Nakita ang mga column at table sa pagbasa ng code ng datatype: gabay, hindi pangako.</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>Mga template</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>Template</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>Natagpuan sa</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>ang administrasyong ito</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>default na site</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>Walang override: nangingibabaw sa mga ito ang override template na tumutugma ayon sa class o attribute.</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>Mga class na gumagamit nito (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>Walang class na may attribute ng datatype na ito.</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Class</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>Mga attribute</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>Mga attribute ng class (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>Attribute</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Mga setting</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>Kinakailangan</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>Mahahanap</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>Maisasalin</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>Nangongolekta ng impormasyon</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>Ilang nilalamang gumagamit nito</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>Huling binago muna</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Binago</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>Node %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>May sariling halaga ang bawat pagsasalin.</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>Ini-index ng paghahanap ang mga halaga nito.</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>Makakakolekta ito ng impormasyon mula sa mga bisita (mga form).</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>Maaaring pagsunud-sunurin ang mga listahan ayon dito: sort key %type.</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>Maaaring i-sort</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>Tumuturo ang mga halaga nito sa ibang mga object.</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>Mga relasyon</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>Maaari itong punan mula sa isang simpleng string (import, REST).</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>Mula sa teksto</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>Maaari itong punan mula sa isang file.</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>Mula sa file</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>Kasama sa mga package ang mga setting ng attribute ng class nito.</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>Mga package</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>Nilalaman (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from hanggang %to sa %count</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Salain ang listahan</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>Lahat ng class</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Seksyon</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Mga wika</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>May-ari</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Na-publish</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>Baligtarin ang pagkakasunud-sunod</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Walang item</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Bawat pahina</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Magpakita ng %count item bawat pahina.</translation>
     </message>
 </context>
 </TS>

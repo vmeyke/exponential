@@ -229,7 +229,7 @@ SQL-Abfrage-Cache der Anfrage (`querycache`: `eZDBQueryCache::debugSnapshot()`, 
 ihre Anzahl ersetzt sind, `stale_count`; null, solange der Cache aus ist). Jede Zahl hat eine Stufe, `ok`, `warn` oder
 `high`, gegenüber `Thresholds[]` in debugbar.ini (`time_ms`, `sql_count`, `sql_ms`, `memory_mb`, `templates`, jeweils
 `<warn>;<high>`; `opcache_memory` und `apcu_memory` sind der belegte Speicher in Prozent, `opcache` und `apcu` in der
-Übersicht, null, solange sie aus sind, oder für einen Benutzer ohne `setup/setup`; `querycache_hit_rate` ist eine
+Übersicht, null, solange sie aus sind, oder für einen Benutzer, der sie nicht lesen darf ([ReadAccess](#wer-was-lesen-darf-readaccess)); `querycache_hit_rate` ist eine
 Trefferquote in Prozent und hebt die Stufe **unterhalb** ihrer Werte an, siehe
 `expDebugBarReport::queryCacheLevel()`, die eine Stelle dieser Regeln: `expDebugBarSummary::queryCache()` und der
 eigene Rückfall der Leiste bauen die Zahlen beide mit `expDebugBarReport::queryCacheFigures()`).
@@ -242,15 +242,17 @@ eigene Rückfall der Leiste bauen die Zahlen beide mit `expDebugBarReport::query
 
 | Funktion | Anfrage | Braucht |
 |---|---|---|
-| `settings[::<siteaccess>]` | GET | setup/setup (nichts über die Konfiguration geht an jemand anderen) |
+| `settings[::<siteaccess>]` | GET | zum Lesen: setup/setup oder die Debug-Ausgabe unter [ReadAccess](#wer-was-lesen-darf-readaccess) `debug`; `can_write` sagt, ob die Antwort geändert werden darf |
 | `set` | POST `setting`, `op`, `value`, `scope` [`siteaccess`, `confirm`, `dry_run`] | setup/setup |
 | `undo` | POST `entry` oder `group` [`force`] | setup/setup |
 | `preset` | POST `preset` + `scope` (anwenden), `save` [+ `values` als JSON oder `snapshot=1`] oder `delete` | setup/setup |
-| `cache` | GET `action=list`; POST `action=clear`, `by=all\|tag\|id\|node\|velocity\|opcache\|querycache_counters`, `names`, `node_id` | setup/managecache (auflisten und leeren) |
-| `iptest` | `address`, `list` (JSON-Array) | setup/setup |
-| `log[::<limit>]` | GET | setup/setup |
+| `cache` | GET `action=list`; POST `action=clear`, `by=all\|tag\|id\|node\|velocity\|opcache\|querycache_counters`, `names`, `node_id` | auflisten: setup/managecache oder die Debug-Ausgabe unter [ReadAccess](#wer-was-lesen-darf-readaccess) `debug`; leeren: setup/managecache |
+| `iptest` | `address`, `list` (JSON-Array) | setup/setup oder die Debug-Ausgabe unter [ReadAccess](#wer-was-lesen-darf-readaccess) `debug` |
+| `log[::<limit>]` | GET | setup/setup oder die Debug-Ausgabe unter [ReadAccess](#wer-was-lesen-darf-readaccess) `debug` |
 | `summary` | GET | Debug-Ausgabe für die Anfrage (der Bericht selbst; ein Besucher erhält darin keinen Eintrag der IP-Liste) |
 | `panelheight` | POST `height` (Pixel, `0` für den Standard) | ein angemeldeter Benutzer (nie ein anonymer Besucher) mit Debug-Ausgabe für die Anfrage: speichert die Benutzereinstellung `expdebugbar_panel_height` (siehe [Die Höhe des Panels](#die-höhe-des-panels)) |
+| `policies[::<role>[::<offset>[::<search>]]]` | GET; alles im Pfad: eine Rollen-ID oder `-`, der Offset, die Suche als base64url ihres UTF-8-Textes oder `-` (`expdebugbar::policies::-::0::Y29udGVudC9yZWFk` sucht `content/read`) | setup/setup oder die Debug-Ausgabe unter [ReadAccess](#wer-was-lesen-darf-readaccess) `debug`: die Richtlinien der Rollen des aktuellen Benutzers, eine Seite mit 200 Zeilen (siehe [Benutzer: Richtlinien](#richtlinien)) |
+| `session` | GET | wer die Registerkarte Benutzer sieht (`setup/setup`; unter `ReadAccess=debug` jeder mit Debug-Ausgabe, unter `privileged` ein anonymer Besucher mit Debug-Ausgabe): die eigene PHP-Session des Requests, Schlüssel als Baum, nach Extension gruppiert, Geheimnisse maskiert, und ihr Rahmen (siehe [Session](#session)) |
 
 Jeder POST muss das Formular-Token mitbringen (`ezxform_token` oder den Header `X-CSRF-Token`); die Antwort von
 `settings` enthält es. Wer nur den Debug-Bericht sieht, erhält die Einstellungen ohne die IP- und Benutzerlisten, das
@@ -280,8 +282,8 @@ $ curl -s -u YOUR_USER:YOUR_PASSWORD 'https://admin.example.com/ezjscore/call/ex
 {"error_text":"","content":{"address":"...","valid":true,"family":4,"remote_addr":"...","client_ip":"...",
  "trusts_proxy":false,"proxy_header":null,"suggest":{"self":".../32","network":".../24","family":4},
  "debug_by_ip":false,"allowed":false,"matched":null,...}}
-$ curl -s 'https://www.example.com/ezjscore/call/expdebugbar::log?ContentType=json'
-{"error_text":"This needs the policy setup\/setup or setup\/managecache","content":""}
+$ curl -s 'https://www.example.com/ezjscore/call/expdebugbar::log?ContentType=json'    # von einer Adresse ohne Debug-Ausgabe
+{"error_text":"Sign in with setup access to change debug settings (policy setup\/setup)","content":""}
 ```
 
 ## RAD
@@ -305,6 +307,10 @@ php vendor/bin/phpunit tests/tests/kernel/classes/debugbar/
 | `expDebugBarIPListTest` | Adressen und CIDR beider Familien, IPv4-gemappte Clients, Einträge mit Beschriftungen und Abläufen, das Schreiben von Einträgen, der Abgleich, die Warnungen, die Vorschläge. Braucht keinen Kernel |
 | `expDebugBarSettingsTest` | die Registry und das Auffinden, die wirksamen Werte gegenüber `expIniLocator::where()`, Schreibvorgänge jedes Typs und jeder op mit Protokoll und Rückgängigmachen, Probeläufe, Ablehnungen, ein Siteaccess als Geltungsbereich, Voreinstellungen als Gruppe, die Prüfungen auf Aussperren und Öffnen, die IP-Prüfung von eZDebug und ihr Rückfall, die Übersicht, die Server-Funktionen (Registrierung, Antworten, POST, Token und Richtlinie, was ein Besucher ohne Richtlinie sieht) |
 | `RadSurveyDebugBarTest` | die zwei Registries, die Gesamtzahl, die Zahlen der Leiste, die neuen Problemarten |
+| `expDebugBarUserTest` | die Registerkarte Benutzer: die Teile des Schlüssels im Ansichts-Cache, die vom Benutzer abhängen, und jeder ignore-Tweak, der Schlüssel der Präferenzen gegenüber dem Code, den er ersetzt hat, die Präferenzen jedes Ansichtsmodus (ein Name mit zwei Standardwerten), der Fingerabdruck, das Profil aus dem Schlüssel einer Ansicht (Teile, die ein Listener weggelassen oder geändert hat, pr_user), anonyme Besucher, der Chip, die maskierte Registerkarte, der Text zum Kopieren. Ohne Datenbank |
+| `expDebugBarPoliciesTest` | die Richtlinien der Registerkarte Benutzer (UP-01 bis UP-04, UP-06 bis UP-08): Zeilen und Einschränkungswerte als eine sortierte Liste, die Auswahl nach Rolle und nach Suche (Modul/Funktion, Rollenname, Klassenname, Einschränkung, gespeicherter Wert), eine Suche nach Modul und Funktion, die auch die gewährenden Platzhalter findet, eine Zeile mit lesbaren Werten, der Abschnitt nur für Berechtigte mit der Adresse für die Rollen-Links, die Wörter des Skripts, die Abfragen in Blöcken zu 500 IDs, 600 Richtlinien von 300 Rollen. Ohne Datenbank |
+| `expDebugBarUserPoliciesTest` | wer die Registerkarte Benutzer sieht und wie ihre Richtlinien angefragt werden (UP-05 unter beiden Werten von ReadAccess, UP-09, UP-10, UP-11 ReadAccess und die Cache-Liste ohne Formular für einen Leser, UP-12 wer über die Debug-Ausgabe liest, erhält keine Daten anderer): die Argumente von `expdebugbar::policies` im Pfad und was abgelehnt wird, die Anfrage des Skripts ohne Query-String. Ohne Datenbank |
+| `expDebugBarSessionTest` | der Abschnitt Session der Registerkarte Benutzer (US-01 bis US-06): Schlüssel nach der Extension gruppiert, die sie einleitet, der Kernel zuerst; Geheimnisse maskiert samt allem darunter, die Masken aus debugbar.ini oder die Vorgaben, eine ungültige Maske als Text; Typ, Größe, gekürzte Zeichenketten, Binärwerte als Hex, Objekte mit allen Eigenschaften; die Grenzen für Tiefe, Kinder und Einträge; die gekürzte Session-ID; der Abschnitt für alle, die die Registerkarte sehen, Wörter und Anfrage des Skripts. Ohne Session |
 
 `expDebugBarSettingsTest` startet den Kernel einmal im Siteaccess admin mit der eigenen Datenbank der Installation, wie
 es die Tests der Spalten der Unterelemente tun; es wird keine Testdatenbank angelegt. Seine Schreibvorgänge gehen in
@@ -368,7 +374,8 @@ Abfrage-Cache, den Textbericht und dass jedes Token `--xd-*` seine dunklen Werte
 Die Leiste bleibt am unteren Rand des Fensters, wohin die Seite auch gescrollt ist; ein Klick auf „Exp Debug“ öffnet
 das Panel darüber, das selbst scrollt. Keine Seite muss je gescrollt werden, um sie zu verwenden. „Beim Neuladen offen
 lassen“ merkt sich das offene Panel im Browser (`localStorage`-Schlüssel `exp-debug-keep`, `exp-debug-open`) und die
-letzte Registerkarte (`exp-debug-tab`). Escape schließt das Panel.
+letzte Registerkarte (`exp-debug-tab`); im Theme `default` steht dort kurz „Offen halten“, der volle Text als Tooltip.
+Escape schließt das Panel.
 
 ### Themes
 
@@ -377,8 +384,8 @@ gleich. Es ist auch eine Einstellung der Leiste (Registerkarte Einstellungen, De
 
 | Wert | Die Leiste |
 |---|---|
-| `default` | Die Übersicht als helle Chips (dunkel in einem dunklen Farbschema), die Details eines Chips in seinem Tooltip (`title`). Auch jeder Wert, der nicht `toolbar` ist. |
-| `toolbar` | Eine dunkle, kompakte Werkzeugleiste in beiden Farbschemata, nach Art der Web-Debug-Toolbar von Symfony: jeder Block mit einem Icon, der erste Block die Anfrage (HTTP-Status und Modul/View, grün, ab Status 400 gelb, ab 500 rot; er öffnet die Registerkarte Server), gelbe und rote Blöcke mit ihrer Farbe gefüllt und die Details eines Blocks in einem Popup darüber, solange der Zeiger oder der Tastaturfokus darauf ist. „Beim Neuladen offen lassen“ zeigt sein Kästchen allein, die Wörter als Tooltip. „Exp Debug“, der Schalter des Panels, ist ein hellerer eigener Block am rechten Ende, orange gefüllt, solange das Panel offen ist; sein Pfeil zeigt nach oben und, solange es offen ist, nach unten. |
+| `default` | Die Übersicht als helle Chips (dunkel in einem dunklen Farbschema), die Details eines Chips in seinem Tooltip (`title`). Sie beginnt mit der Anfrage: HTTP-Status und Modul/View, grün gefüllt, gelb bei einer Weiterleitung (3xx außer 304), rot ab Status 400; sie öffnet die Registerkarte Rendering oder, für einen Benutzer, der sie nicht sieht, die Registerkarte Server. Auch jeder Wert, der nicht `toolbar` ist. |
+| `toolbar` | Eine dunkle, kompakte Werkzeugleiste in beiden Farbschemata, nach Art der Web-Debug-Toolbar von Symfony: jeder Block mit einem Icon, der erste Block die Anfrage (HTTP-Status und Modul/View, grün, gelb bei einer Weiterleitung (3xx außer 304), ab Status 400 rot; er öffnet die Registerkarte Rendering oder, für einen Benutzer, der sie nicht sieht, die Registerkarte Server), gelbe und rote Blöcke mit ihrer Farbe gefüllt und die Details eines Blocks in einem Popup darüber, solange der Zeiger oder der Tastaturfokus darauf ist. „Beim Neuladen offen lassen“ zeigt sein Kästchen allein, die Wörter als Tooltip. „Exp Debug“, der Schalter des Panels, ist ein hellerer eigener Block am rechten Ende, orange gefüllt, solange das Panel offen ist; sein Pfeil zeigt nach oben und, solange es offen ist, nach unten. |
 
 Im Theme Werkzeugleiste trägt ein Chip seinen Text in `.exp-debug-chip-text` und sein Popup in `.exp-debug-chip-info`
 (`aria-hidden`, das `aria-label` des Chips sagt dasselbe) und hat kein `title`. Das Popup führt die Zeilen auf, die ein
@@ -426,8 +433,8 @@ Die Höhe wird einmal am Ende eines Ziehens gespeichert oder 0,6 s nach dem letz
   `data-exp-debug-panel-height` aus; das erste Skript des Berichts (`expdebugbar-head.js`) setzt `--exp-debug-panel-h`
   daraus, bevor sich das Panel öffnet, sodass es ohne Sprung in dieser Höhe öffnet.
 - **Anonym** (die Leiste über die IP angezeigt): Es wird keine Benutzereinstellung gelesen oder gespeichert und keine
-  Anfrage gesendet, da eZPreferences die Werte eines anonymen Benutzers in der Sitzung halten und die Debug-Leiste nie
-  eine Sitzung starten darf (`savedPanelHeight()` gibt 0 zurück, ohne zu fragen, und `expdebugbar::panelheight` lehnt
+  Anfrage gesendet, da eZPreferences die Werte eines anonymen Benutzers in der Session halten und die Debug-Leiste nie
+  eine Session starten darf (`savedPanelHeight()` gibt 0 zurück, ohne zu fragen, und `expdebugbar::panelheight` lehnt
   einen anonymen Besucher vor der Prüfung des Tokens ab). Die Höhe wird stattdessen im Browser gehalten:
   `localStorage`-Schlüssel `exp-debug-panel-height`, jeder Zugriff in `try`/`catch` (gesperrter Speicher bedeutet die
   Standardhöhe), von `expdebugbar-head.js` vor dem Öffnen des Panels zurückgelesen und zwischen 120 und 4000 px
@@ -465,9 +472,9 @@ Die Übersicht in der Leiste zeigt die Anfrage auf einen Blick; jeder Wert öffn
 | belegter APCu-Speicher (`APCu 25 %`, der Titel mit MB, Einträgen, Trefferquote und Verdrängungen; nur solange APCu für den Prozess eingeschaltet ist) | Server | `Thresholds[apcu_memory]` (gelb ab 75 %, rot ab 90 %) |
 | Versionen (`PHP 8.4.19 \| Exp 6.0.15`, Exponential gekürzt zu Exp; der letzte Chip, am rechten Ende) | Server | nie eingefärbt |
 
-Die Chips für OPcache, APCu und Versionen erscheinen nur für einen Benutzer, der die privilegierten Zeilen der
-Registerkarte Server sehen darf (die Richtlinien `setup/setup` oder `setup/managecache`): Die Leiste erscheint auch für
-anonyme Besucher, wenn `DebugByIP` passt, und der Zustand des Servers ist nicht für sie bestimmt. APCu ist ein Speicher
+Die Chips für OPcache, APCu und Versionen erscheinen unter [ReadAccess](#wer-was-lesen-darf-readaccess) `debug`, dem Standard, für jeden, der die
+Debug-Ausgabe erhält; unter `privileged` nur für einen Benutzer mit `setup/setup` oder `setup/managecache`, der auch die
+privilegierten Zeilen der Registerkarte Server sieht (Prozess, Host, die Cache-Liste). APCu ist ein Speicher
 für jede Website des PHP-Pools; bei 75 % Belegung hat der SQL-Abfrage-Cache bereits aufgehört, Ergebnisse hinzuzufügen
 (`querycache.ini ApcuReserve=25`). Die Registerkarte Server führt APCu unter OPcache auf. Ein Prozess ohne sie (die
 Kommandozeile, wo `apc.enable_cli` meist aus ist) zeigt für sie keinen Chip. Die drei sind die letzten Chips, am rechten
@@ -496,7 +503,8 @@ die eigenen Standardwerte des Berichts.
 | Templates | die verwendeten Templates (`ShowUsedTemplates`) und der Bericht des CSS/JS-Packers, oder wie man sie einschaltet |
 | Eingebundene Dateien | die eingebundenen PHP-Dateien (`DisplayIncludedFiles`), oder ihre Zahl und wie man sie auflistet |
 | Speicher | die klassische Tabelle „Main resources“, Speicher jetzt, Höchstwert, Limit und Anteil und die fünf Schritte, die am meisten brauchten |
-| Rendering | wie die Seite gerendert wurde: der Controller, der Ansichts-Cache von Inhalten und sein Schlüssel, die kompilierten Templates (siehe [unten](#rendering-controller-ansichts-cache-von-inhalten-und-kompilierte-templates)); nur für `setup/setup` |
+| Rendering | wie die Seite gerendert wurde: der Controller, der Ansichts-Cache von Inhalten und sein Schlüssel, die kompilierten Templates (siehe [unten](#rendering-controller-ansichts-cache-von-inhalten-und-kompilierte-templates)); für jeden, der die Debug-Ausgabe erhält, unter [ReadAccess](#wer-was-lesen-darf-readaccess) `debug`, und für `setup/setup` |
+| Benutzer | der Benutzer, sein Cache-Profil (die Teile des Schlüssels im Ansichts-Cache von Inhalten, die von ihm abhängen), seine Präferenzen, Rollenzuweisungen, auf Anfrage seine eigene PHP-Session (Geheimnisse maskiert) und auf Anfrage und für jeden, der die Einstellungen lesen darf, die Richtlinien dieser Rollen (siehe [unten](#benutzer-rollen-und-cache-profil)); für jeden, der die Debug-Ausgabe erhält, unter [ReadAccess](#wer-was-lesen-darf-readaccess) `debug`, und für `setup/setup` |
 | (Erweiterungen) | eine Registerkarte pro Panel, das eine Erweiterung registriert, nach Speicher (siehe [Panels von Erweiterungen](#panels-von-erweiterungen)) |
 | Server | wo die Anfrage einging und welcher Prozess den Bericht gerendert hat (Exponential Velocity, PHP-FPM, mod_php, die Kommandozeile ...), in einem Satz (siehe [unten](#server-wo-die-anfrage-einging-und-was-sie-gerendert-hat)), die Fakten dahinter, der Status von OPcache und der Antwort-Cache von Velocity; bis zum 16. Oktober 2026 hieß sie Velocity, ihre Abschnitts-ID ist weiterhin `exp-debug-panel-velocity` |
 | Sonstiges | Berichte, die Erweiterungen mit `eZDebug::appendBottomReport()` anhängen und die zu keiner Registerkarte gehören (nur wenn es welche gibt) |
@@ -526,10 +534,38 @@ Namen.
 
 Das Änderungsprotokoll führt die letzten Schreibvorgänge auf (wer, welche Einstellung, alter und neuer Wert,
 Geltungsbereich), mit Rückgängig; ein Rückgängigmachen, das die Datei seitdem geändert findet, fragt, bevor es erzwingt.
-Ohne setup/setup enthält die Registerkarte Einstellungen nur den Hinweis „Melden Sie sich mit Setup-Zugriff an, um die
-Debug-Einstellungen zu ändern“ (keine Werte, keine IP- oder Benutzerlisten, kein Protokoll, keine Dateipfade); ohne
-setup/managecache enthält die Registerkarte Cache nur den Hinweis „Melden Sie sich mit Cache-Zugriff an, um die Caches
-zu verwalten“.
+Wer die Einstellungen lesen, aber nicht ändern darf ([ReadAccess](#wer-was-lesen-darf-readaccess)), sieht jeden Wert, die Listen und das Protokoll mit
+gesperrten Bedienelementen und dem Hinweis „Melden Sie sich mit einem Benutzer an, der Einstellungen ändern darf
+(setup/setup), um sie hier zu ändern.“; die Registerkarte Cache listet die Caches ohne die Schaltflächen zum Leeren.
+Wer sie nicht lesen darf, sieht nur den Hinweis „Melden Sie sich mit Setup-Zugriff an, um die Debug-Einstellungen zu
+ändern“ bzw. in der Registerkarte Cache „Melden Sie sich mit Cache-Zugriff an, um die Caches zu verwalten“.
+
+### Wer was lesen darf: ReadAccess
+
+`debugbar.ini [DebugBarSettings] ReadAccess` legt fest, wer liest, was die Leiste zeigt; Einstellungen ändern und
+Caches leeren brauchen immer `setup/setup` bzw. `setup/managecache` und das Formular-Token
+(`expDebugBarRegistry::readAccess()`).
+
+| ReadAccess | Wer liest |
+|---|---|
+| `debug` (Standard) | jeder, der die Debug-Ausgabe erhält (`DebugByIP`, `DebugByUser`), angemeldet oder nicht, liest alles außer den Daten anderer: die Einstellungen mit ihren Werten (IP- und Benutzerliste maskiert), das Änderungsprotokoll ohne den Urheber jeder Änderung, den IP-Test nur für die eigene Adresse, die Cache-Liste, die Richtlinien seiner Rollen, Speicherpfad und Handler-Klasse der Session, die Registerkarten Benutzer und Rendering, die Versionen von PHP und Exponential, OPcache und APCu, Prozess und Host |
+| `privileged` | die strengere Regel: Einstellungen, Protokoll, IP-Test und Richtlinien für `setup/setup`, die Cache-Liste für `setup/managecache`, Versionen, OPcache und APCu für beide; die Registerkarten Benutzer und Rendering für `setup/setup` und für einen anonymen Besucher, der die Debug-Ausgabe erhält |
+
+Wer die Debug-Ausgabe erhält, entscheiden die IP- und die Benutzerliste (unten): Unter `debug` sind sie die Liste
+derer, die die Leiste lesen. Eine Website, die die Debug-Ausgabe an Besucher gibt, denen sie die Konfiguration nicht
+anvertraut, setzt `ReadAccess=privileged`.
+
+**Warnung: Debug-Ausgabe auf einer öffentlichen Adresse zeigt jedem Besucher seine eigene Session.** Mit
+`DebugOutput=enabled` und ausgeschaltetem `DebugByIP` (oder einer IP-Liste, die öffentliche Netze erfasst) erhält jeder
+Besucher die Debug-Ausgabe und liest unter `ReadAccess=debug` die Registerkarte Benutzer mit seiner eigenen PHP-Session
+(Geheimnisse nach Name und Wert maskiert), seinen Rollen, Richtlinien und Präferenzen sowie die Debug-Einstellungen der
+Website mit ihren Dateipfaden. Niemand liest je die Session oder die Benutzerdaten eines anderen Besuchers: Die
+Session-Antwort ist nur die eigene Session der Anfrage, `no-store`, für einen angemeldeten Benutzer ein POST mit dem
+Formular-Token; wer ohne `setup/setup` liest, erhält das Änderungsprotokoll ohne den Urheber jeder Änderung
+(Benutzer-ID, Login und Adresse), IP- und Benutzerliste maskiert und den IP-Test nur für die eigene Adresse
+(`expDebugBarServerFunctions::readsWithoutPolicy()`, `forReader()`, `listsMasked()`, `ownIpAnswer()`). Trotzdem gilt:
+**Im Produktivbetrieb `ReadAccess=privileged` setzen** und die Debug-Ausgabe auf eine IP- oder Benutzerliste
+beschränken.
 
 ### Wer Debug erhält: die IP-Liste und die Benutzerliste
 
@@ -553,16 +589,23 @@ dem Zeitpunkt des letzten Leerens, und alle Caches. Jedes Leeren sagt, was es ge
 
 ### Rendering: Controller, Ansichts-Cache von Inhalten und kompilierte Templates
 
-Die Registerkarte beantwortet „warum ist diese Seite langsam oder nicht gecacht“, ohne den Code zu lesen. Nur ein
-Benutzer mit `setup/setup` sieht sie und ihre Chips, da der Cache-Schlüssel die IDs der Rollen und Einschränkungen des
-Benutzers trägt. Jeder Teil beginnt mit einer kurzen Erklärung, was er zeigt. Sie hat fünf Teile:
+Die Registerkarte beantwortet „warum ist diese Seite langsam oder nicht gecacht“, ohne den Code zu lesen. Wer die
+Debug-Ausgabe erhält, sieht sie und ihre Chips unter [ReadAccess](#wer-was-lesen-darf-readaccess) `debug`, wie die Registerkarte Benutzer, angemeldet oder nicht, und ein Benutzer
+mit `setup/setup`: Der Cache-Schlüssel trägt die eigenen IDs der Rollen und Einschränkungen des Benutzers, und die eines
+anonymen Besuchers sind die jedes anonymen Besuchers. Sie beginnt mit einer **Übersicht** in einer Zeile: die
+zuletzt gelaufene Modul-View, der Zustand des Ansichts-Caches in einem Wort (*Treffer*, *erzeugt*, *aus*; der Grund als
+Tooltip), die aus dem Cache gelesenen Cache-Blöcke von allen, die gerenderten und die in diesem Request kompilierten
+Templates. Darunter die fünf Teile als **Unter-Reiter** wie in der Registerkarte Benutzer: Der zuletzt gezeigte bleibt
+(`exp-debug-rendering-subtab`), die Pfeiltasten, Pos1 und Ende wechseln zwischen ihnen, und die Erklärung, mit der jeder
+Teil beginnt, ist eingeklappt, bis „?“ sie zeigt (`exp-debug-rendering-help`). Ohne das Skript stehen die Teile
+untereinander:
 
 - **Controller**: jede Modul-View, die lief, in der Reihenfolge (eine Fehlerseite oder eine Weiterleitung fügt eine
   hinzu), mit der View-Klasse, die sie ausführte (`Exponential\View\Kernel\...`, siehe
   [cli_cronjob_view_abstractions.md](cli-cronjob-und-view-abstraktionen.md)) und dem Skript; der
   Siteaccess, der Navigationsteil und, eingeklappt, die Reihenfolge der Designs (die erste Basis, die ein Template hat,
   gewinnt).
-- **Template-Baum**, direkt nach dem Controller und aufgeklappt: jedes Template in der Reihenfolge seines Starts
+- **Template-Baum**: jedes Template in der Reihenfolge seines Starts
   (`eZTemplate::fetch()` für das äußerste, `processURI()` für jedes `{include}`, `node_view_gui` und Ähnliches),
   eingerückt unter dem Template, das es eingebunden hat, mit einer Hilfslinie pro Ebene, und die Zeit, die es
   einschließlich dessen brauchte, was es eingebunden hat (nicht das Parsen oder Kompilieren des Templates selbst). Wo
@@ -608,6 +651,141 @@ an `eZTemplateCacheBlock::handle()` (neue optionale Parameter `$placement` und `
 bisher aufruft, funktioniert weiter.
 
 Tests: `expRenderStatsTest`, `expRenderStatsCacheBlockTest` und `expRenderStatsTreeTest` (ohne Datenbank).
+
+### Benutzer: Rollen und Cache-Profil
+
+Ob zwei Benutzer dieselben Dateien im Ansichts-Cache von Inhalten erhalten, und wenn nicht, warum. Der Chip
+**`admin · VC 3f9ac21e`** in der Statusleiste nennt den Benutzer (den Login, nach einem Personen-Symbol) und sein
+**Cache-Profil**: ein Fingerabdruck (8 Hexadezimalziffern)
+der Teile des Schlüssels im Ansichts-Cache, die vom Benutzer abhängen. Zwei Benutzer mit demselben Profil teilen sich
+die Cache-Dateien der Ansichten unter denselben ViewCacheTweaks; vergleichen Sie die Chips zweier Browser, oder kopieren
+Sie beide Profile als Text. Ein zweiter Fingerabdruck dahinter (`VC 3f9ac21e · 7b0d12aa`) deckt die Schlüssel ab, die
+ein Listener von `content/view/cachekeys` für die Ansicht dieser Seite hinzugefügt hat; ` · pr_user` sagt, dass jeder
+angemeldete Benutzer eigene Dateien hat.
+
+Die Teile, wie `eZNodeviewfunctions::generateViewCacheFile()` sie in den Schlüssel aufnimmt, aus denselben Funktionen:
+
+| Teil | Aus |
+|---|---|
+| `userroles` | die Rollen-IDs des Benutzers und seiner Gruppen (`eZNodeviewfunctions::userCacheKeys()`) |
+| `userlimitedlist` | die Werte eingeschränkter Zuweisungen (Teilbäume, Sektionen) |
+| `discountlist` | die Rabattregeln des Benutzers |
+| `uiswitch` | eine Oberfläche, die der angemeldete Benutzer gewählt hat (expUISwitch) |
+| `userpreferences` | die Präferenzen aus `site.ini [ContentSettings] CachedViewPreferences[]`, jedes Ansichtsmodus: pro Ansichtsmodus der Teil, den sein Schlüssel aufnimmt (`eZNodeviewfunctions::userPreferencesKey()`), sodass dasselbe Profil in jedem Ansichtsmodus denselben Teil bedeutet |
+| `pr_user` | die Benutzer-ID, mit dem Tweak `pr_user` (sie steht im Dateinamen) |
+
+Ein Eintrag in `ViewCacheTweaks` (`ignore_userroles`, `ignore_userlimitedlist`, `ignore_discountlist`,
+`ignore_userpreferences`) lässt seinen Teil weg: die Tweaks des Knotens dieser Seite, auf einer Seite ohne Ansicht eines
+Inhalts die globalen. Mit einer Ansicht eines Inhalts auf der Seite entscheidet deren Schlüssel: Ein Teil, den ein
+Listener weggelassen hat, wird als solcher gezeigt und nicht mitgezählt, ein Teil, den er geändert hat, zählt mit dem
+Wert des Schlüssels, markiert mit *Listener*.
+
+Die Registerkarte beginnt mit einer **Übersicht** in ein bis zwei Zeilen: der Benutzer (ID und Login), angemeldet,
+der Siteaccess, die Session (wie viele Schlüssel und wie groß; nur diese Zahlen stehen in der Seite), das Cache-Profil
+mit *wie bei anonymen Besuchern* oder *anders* und die Zahl der Rollenzuweisungen. Darunter vier **Unter-Reiter**; der
+zuletzt gezeigte bleibt (`exp-debug-user-subtab`), die Pfeiltasten, Pos1 und Ende wechseln zwischen ihnen, und mit
+gesetztem Filter nennt jeder die Zahl seiner passenden Zeilen:
+
+- **Cache-Profil**: das Profil mit jedem Teil und eine Schaltfläche, die es als Text kopiert (`name=value` pro Zeile).
+- **Präferenzen**: die Präferenzen pro Ansichtsmodus (`CachedViewPreferences`) mit dem Wert des Benutzers und dem
+  Standardwert.
+- **Rollen und Richtlinien**: die Rollenzuweisungen (Rollen-ID und Name, die Einschränkung der Zuweisung und ob sie dem
+  Benutzer oder einer Gruppe zugewiesen ist, mit Name und Objekt-ID) und die Richtlinien (unten; [ReadAccess](#wer-was-lesen-darf-readaccess)).
+- **Session**: die eigene PHP-Session des Benutzers (unten).
+
+Die Erklärungen der Teile sind eingeklappt; „?“ rechts neben den Unter-Reitern zeigt sie, und die Wahl bleibt erhalten
+(`exp-debug-user-help`). Ohne das Skript stehen die Teile untereinander. Ein angemeldeter Benutzer sieht außerdem das
+Profil **anonymer Besucher**, *gleich wie Ihres* oder *anders*: die Teile des anonymen Benutzers unter denselben Tweaks,
+mit den Standardpräferenzen (die eines anonymen Besuchers liegen in seiner Session), ohne die Schlüssel von Listenern,
+die die Session lesen können und dafür nicht gefragt werden können.
+
+Für jeden, der die Debug-Ausgabe erhält (`DebugByIP`, `DebugByUser`), unter [ReadAccess](#wer-was-lesen-darf-readaccess) `debug`, dem Standard, und für
+`setup/setup`. Die Registerkarte enthält
+die eigenen Daten des Benutzers: Ein angemeldeter Benutzer sieht seine eigenen Rollen, Gruppen und Einschränkungswerte,
+ein anonymer Besucher die des anonymen Benutzers, die die jedes anonymen Besuchers sind, und auf einer Seite mit einer
+Ansicht eines Inhalts die Werte der Schlüssel von Listenern. Was ein Leser der Einstellungen sehen darf, die Richtlinien
+sowie Speicherpfad und Handler-Klasse der Session, wird getrennt abgefragt. Unter `ReadAccess=privileged` sieht ein
+angemeldeter Benutzer ohne `setup/setup` wie bisher weder diese Registerkarte noch die Registerkarte Rendering, nur
+einen Chip mit seinem Login. Für die Registerkarte Rendering gilt dieselbe Regel. Die Daten kommen
+aus `expDebugBarUser` (`kernel/classes/debugbar/expdebugbaruser.php`); es liest die Rollenzuweisungen mit einer Abfrage
+und die Präferenzen mit `eZPreferences::values()`, nur wenn die Leiste für einen solchen Benutzer gerendert wird.
+
+#### Richtlinien
+
+Für jeden, der die Einstellungen lesen darf (`setup/setup` oder die Debug-Ausgabe unter `ReadAccess=debug`), endet der Unter-Reiter **Rollen und Richtlinien** mit dem zugeklappten Abschnitt **Richtlinien**: die Richtlinien der Rollen des
+Benutzers, erst geladen, wenn er geöffnet wird (`expdebugbar::policies`, siehe [Server-Funktionen](#server-funktionen)),
+sodass ein Benutzer mit Hunderten von Rollen die Seite nichts kostet. Die erste Antwort führt die Rollen mit der Zahl
+ihrer Richtlinien auf (die Zuweisungen als Tooltip jeder Rolle) und die erste Seite; eine Rolle, eine Suche und **Weitere
+laden** fragen erneut, jeweils 200 Zeilen. Eine Zeile ist Modul und Funktion (`*` hervorgehoben), die Einschränkungen
+mit lesbaren Werten (Klassen, Sektionen, Siteaccesses und Knoten mit Namen und ID) und die Rolle. Die Suche durchsucht
+Modul/Funktion (`content/read`), Rollennamen, Einschränkungsarten, die gespeicherten Werte und die Namen von Klassen,
+Sektionen und Siteaccesses; andere Einschränkungen (`Owner`, `Group`, `StateGroup_*` ...) zeigen ihre gespeicherten
+Werte. Eine Suche, die ein Modul und eine Funktion nennt, findet auch die Richtlinien, die das mit einem Platzhalter
+gewähren: `content/read` findet auch `content/*` und `*/*`, `content/*` jede Funktion von `content`. Die Rollen-IDs hier
+und in der Tabelle der Rollen verweisen auf `role/view/<id>` im aktuellen Siteaccess (in einem Administrations-Siteaccess
+die Seite der Rolle; sonst nur, wo das Modul `role` erreichbar ist).
+
+Rolle, Seite und Suche stehen im Pfad (`expdebugbar::policies::<role>::<offset>::<search>`, die Suche als base64url, da
+sie ein `/` enthalten kann), nie im Query-String; alles andere wird abgelehnt. Die veröffentlichten Richtlinien, ihre
+Einschränkungen und Werte aller Rollen liest der Server über die persistenten Objekte von `ezpolicy`,
+`ezpolicy_limitation` und `ezpolicy_limitation_value`, drei Abfragen pro 500 IDs, sodass Hunderte von Rollen auf jeder
+Datenbank funktionieren (MySQL, PostgreSQL, SQLite, Oracle, MongoDB); die Namen von Klassen, Sektionen und Siteaccesses
+einmal, die Namen der Knoten einer Seite jeweils 500 auf einmal (`expDebugBarPolicies`,
+`kernel/classes/debugbar/expdebugbarpolicies.php`). Nur die neueste Antwort füllt die Tabelle, wenn sich die Suche
+ändert, während eine unterwegs ist. Unter `ReadAccess=privileged` sieht, wer ohne `setup/setup` die Debug-Ausgabe erhält,
+die Registerkarte, aber nicht die Richtlinien.
+
+Tests: `expDebugBarUserTest`, `expDebugBarPoliciesTest` und `expDebugBarUserPoliciesTest` (ohne Datenbank).
+
+#### Session
+
+Der Unter-Reiter **Session** zeigt die **eigene** PHP-Session des Benutzers, erst geladen, wenn er das erste Mal zu sehen ist:
+Leiste offen, Registerkarte Benutzer und Unter-Reiter gezeigt (`expdebugbar::session` mit `Cache-Control: private,
+no-store`, siehe [Server-Funktionen](#server-funktionen)), sodass sie nie Teil der Seite ist. Er
+beantwortet, was ein Request genau dieser Session gespeichert hat: die Schlüssel von `$_SESSION` als Tabelle je Gruppe
+mit den Spalten Schlüssel, Typ, Größe wie gespeichert (serialisiert) und Wert; ein verschachteltes Array oder Objekt
+öffnet sich mit ▸ in eingerückte Zeilen darunter, ein kurzes mit bis zu sechs einfachen Werten steht in einer Zeile
+(`[85, 93]`, `{region: "x"}`), Zeichenketten stehen in Anführungszeichen, lange werden gekürzt (die volle Länge im
+Tooltip), Binärwerte erscheinen als Hex. Ein Suchfeld findet Schlüssel und Werte und zeigt die Zeilen über einem Treffer;
+„Alle aufklappen“ und „Alle zuklappen“ falten die Tabellen. Die
+Schlüssel sind nach der aktiven Extension gruppiert, deren Name sie einleitet (`ezfind_…`, `myext_…`; der längste Name
+gewinnt), die des Kernels und alle übrigen zuerst. Werte von Schlüsseln, die nach Geheimnissen aussehen, sind
+**maskiert**: Es stehen nur Typ und Länge da, und alles unter einem solchen Schlüssel ist ebenfalls maskiert. Die Masken
+sind Teile von Schlüsselnamen, reguläre Ausdrücke ohne Begrenzer, ohne Rücksicht auf Groß- und Kleinschreibung, in
+`debugbar.ini [DebugBarSettings] SessionMask[]` (token, csrf, nonce, secret, passw, hash, key$, credential, auth, jwt, bearer, otp, saml, assertion, ticket, sid$; eine
+Extension ergänzt eigene). Unter den Schlüsseln der *Rahmen*: ob eine Session gestartet wurde, der Name des Cookies, die
+Session-ID **gekürzt** auf vier Zeichen (ein Bildschirmfoto gibt die Session nicht weiter), der Handler
+(`session.save_handler`; die Handler-Klasse und der Speicherpfad für jeden, der die Einstellungen lesen darf), `session.gc_maxlifetime`,
+`site.ini [Session]` SessionTimeout, ActivityTimeout, CookieTimeout und RememberMeTimeout sowie Lebensdauer, Pfad,
+Domain, `secure`, `httponly` und `samesite` des Cookies. Höchstens 8 Ebenen, 200 Kinder je Ebene und 3000 Einträge werden
+aufgeführt, der Rest gezählt (Schlüssel nach dem letzten Eintrag als *nicht aufgeführt*); eine Session über 64 KB ist als
+*groß* markiert. Schlüssel und Texte, die kein UTF-8 sind, erscheinen als Hex (`0x…`). Die Masken verbergen Geheimnisse,
+keine personenbezogenen Daten: Einen Namen oder eine Adresse, die die Anwendung in der Session ablegt, sieht jeder, der
+den Abschnitt sehen darf, so wie gespeichert. Den Abschnitt bekommt, wer die
+Registerkarte Benutzer sieht (siehe oben, ReadAccess); er zeigt immer nur
+die Session des anfragenden Requests, eine andere lässt sich nicht lesen, und nichts darin ändert die Session
+(`expDebugBarSession`, `kernel/classes/debugbar/expdebugbarsession.php`).
+
+**Maskierte Werte, der Text und die Warnungen.** Werte werden auch danach maskiert, wie sie aussehen, gleich wie ihr
+Schlüssel heißt: ein JSON Web Token irgendwo in einem Text, die Zugangsdaten eines `Authorization`-Headers
+(`Bearer …`, `Basic …`), ein privater PEM-Schlüssel, bekannte Präfixe von API-Schlüsseln (`sk_live_…`, `ghp_…`,
+`xoxb-…`, `AKIA…`), 32 oder mehr Hex-Ziffern und ein zufälliger Text aus 32 oder mehr Base64-Zeichen (Ziffern sowie
+Groß- und Kleinbuchstaben, so abwechslungsreich, dass er kein Wort und kein Slug ist). Ein Schlüssel, der selbst wie
+ein Token aussieht (ein Token als Array-Index), wird auf vier Zeichen gekürzt und mit allem darunter maskiert. Das
+Abzeichen *maskiert* nennt im Tooltip den Grund: den Namen des Schlüssels, den Wert oder einen maskierten Schlüssel
+darüber. Weitere Muster stehen in `debugbar.ini [DebugBarSettings] SessionValueMask[]` (reguläre Ausdrücke ohne
+Begrenzer, mit Rücksicht auf Groß- und Kleinschreibung; `(?i)` am Anfang für ohne), geprüft an den ersten 4096 Bytes
+jedes Textes und jedes Schlüssels; die eingebauten gelten immer. **Als Text kopieren** kopiert die Session als eine
+Zeile `Pfad = Wert` je Eintrag, gruppiert wie die Tabelle und auf dem Server aus denselben maskierten Einträgen gebaut
+(maskierte Werte als `***`, die Session-ID gekürzt), um zwei Sessions nebeneinanderzulegen oder sie einem Ticket
+beizufügen. Eine Session über `SessionWarnBytes` (65536 Bytes) ist in der Übersicht und im Unter-Reiter als *groß*
+markiert, mit dem Grund: Jeder Request des Benutzers liest die ganze Session und schreibt sie, wenn sie sich geändert
+hat. Hält PHP die Session in Dateien (`session.save_handler=files`), sagt ein Hinweis, dass die Datei für den ganzen
+Request gesperrt ist, sodass die Requests eines Benutzers (mehrere Tabs, AJAX-Aufrufe) aufeinander warten. Die Session
+wird mit POST abgefragt, angemeldet mit dem Formular-Token; eine Anfrage, die der Browser als von einer anderen Website
+gesendet markiert, wird abgelehnt (`Sec-Fetch-Site`), und die Antwort, auch eine Ablehnung, trägt `Cache-Control:
+private, no-store, max-age=0`, sodass weder der Browser noch ein Proxy noch der Antwort-Cache von Velocity sie behält.
+Tests: `expDebugBarSessionTest` (ohne Datenbank).
 
 ### Panels von Erweiterungen
 
@@ -714,6 +892,13 @@ rückgängig gemacht wird, eine angewendete und zurückgenommene Voreinstellung 
 verglichen; bei einem Fehler schreibt der Test die Dateien zurück), die Bedienelemente der IP-Liste und „Nur diese
 Seite“. Screenshots gehen nach `var/tmp/debug-bar-<engine>-<page>-<tab>.png`. Eine Prüfung der Wörter stellt sicher,
 dass jede Zeichenkette der Leiste übersetzt ist.
+
+## Seiten aus dem Cache
+
+Ein Besucher, dem die Leiste nach Adresse gezeigt wird, wird aus dem rollenabhängigen HTTP-Cache beantwortet, mit
+der Leiste der Ausgabe, die die Seite gespeichert hat: Ihr erster Chip zeigt **Aus dem Cache** oder **Erzeugt**,
+**Jetzt erzeugen** fordert mit dem View-Parameter `(exp_render)/full` eine vollständige Ausgabe an. Siehe
+[Der rollenabhängige HTTP-Cache](httpcache.md), „Besucher, denen die Debug-Leiste gezeigt wird“.
 
 ## Verwandte Seiten
 

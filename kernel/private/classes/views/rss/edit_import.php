@@ -7,7 +7,7 @@
  * The original header of kernel/rss/edit_import.php:
  *
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -61,11 +61,21 @@ function expModuleViewRssEditImportStore( $rssImport, $http, $publish = false )
     {
         $db = eZDB::instance();
         $db->begin();
-        $rssImport->setAttribute( 'status', eZRSSImport::STATUS_VALID );
-        $rssImport->store();
-        // remove draft
-        $rssImport->setAttribute( 'status', eZRSSImport::STATUS_DRAFT );
-        $rssImport->remove();
+        try
+        {
+            $rssImport->setAttribute( 'status', eZRSSImport::STATUS_VALID );
+            $rssImport->store();
+            // remove draft
+            $rssImport->setAttribute( 'status', eZRSSImport::STATUS_DRAFT );
+            $rssImport->remove();
+        }
+        catch ( \Throwable $e )
+        {
+            // nothing of a transaction that failed half way is committed by a later commit()
+            if ( $db->transactionCounter() > 0 )
+                $db->rollback();
+            throw $e;
+        }
         $db->commit();
     }
     else

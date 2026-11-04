@@ -982,6 +982,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>Otsitakse ainult sellelt lehelt: %from–%to / %count.</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Kõik kerneli ja laienduste andmetüübid ning see, kuidas klassid ja sisu neid kasutavad.</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Andmetüübid</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2314,6 +2322,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>Järjehoidjatesse saab lisada ka süsteemilehti: avage leht (Häälestus, auditijälg, kasutajate loend ...) ja valige selle kohal „Lisa leht järjehoidjatesse“. Sellistel järjehoidjatel on hammasratta ikoon.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>Teil pole enam õigust seda lehte siin avada. Eemaldage järjehoidja või paluge administraatorilt juurdepääsu.</translation>
     </message>
 </context>
 <context>
@@ -5163,6 +5175,210 @@
         <source>Go to the first page</source>
         <translation>Mine esimesele lehele</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>Muu</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>Viimased 7 päeva</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>Kohandatud vahemik</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>Kõik sõnad</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>Ükskõik milline sõna</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>Täpne fraas</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>Asjakohasus</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>Nimi A–Z</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>Nimi Z–A</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>Muudetud, uusimad eespool</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>Muudetud, vanimad eespool</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>Avaldatud, uusimad eespool</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>Avaldatud, vanimad eespool</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Muudetud</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>Filtrid</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>Näita filtreid</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>Peida filtrid</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Lähtesta</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>Rakenda</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>Sõnad</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>Sisutüüp</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>Näita rohkem (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>Valige üks sisutüüp, et otsida selle mõnest atribuudist.</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Jaotis</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Alates</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Kuni</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>Alguskuupäev ei ole kehtiv kuupäev.</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>Lõppkuupäev ei ole kehtiv kuupäev.</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Omanik</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>Kasutaja ID, kasutajanimi või e-posti aadress.</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>Päringule „%input“ ei leitud ühtegi kasutajat.</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Keel</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>Ükskõik milline keel</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Asukoht</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>%count asukohta</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>Tulemusi lehel</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>Tulemused päringule „%text“ (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>Tulemused (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>Sordi järgi</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>Sortimine</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>Aktiivsed filtrid</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>Eemalda see filter</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>Või valige filtrid ja rakendage need, et loetleda neile vastav sisu.</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>Filtrid kitsendavad otsingut, kui olete sõnad sisestanud.</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>Päringule „%text“ ei leitud tulemusi.</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>Tulemusi ei leitud.</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>Eemaldage üks ülalolevatest filtritest.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Tõlked</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Toimingud</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>Redigeeri %name</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Redigeeri</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -8001,8 +8217,8 @@
         <translation>Algsete autorite ja Exponentialiga kaasas oleva kolmanda osapoole tarkvara autoriõiguse teated on litsentsi nõudel säilitatud lähtefailides ja failis LICENSE.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>Järgnev on loend Exponentiali kaastöötajatest, kes on litsentsinud oma töö ettevõttele 7x kasutamiseks eZ Systems Contributor Licensing Agreementi tingimustel. Selle lepingu kohaselt levitab 7x iga kaastööd sama litsentsi alusel kui faili, millesse kaastöö kuulub. Loendis on iga kaastöötaja nimi, valikulised kontaktandmed ning failid, mille ta on loonud või mille loomisele ta on kaasa aidanud.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>Kaastöötajad, keda tunnustatakse nende töö eest Exponentiali ja tarkvara kallal, millest see välja kasvas, koos failidega, millesse nad panustasid. See on tunnustus, mitte autoriõiguse teade: panused Exponentiali antakse Contributor Licensing Agreementi alusel üle Exponential Foundationile ja 7x-ile.</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13824,32 +14040,20 @@ Märkus: pakette ei desinstallita.</translation>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;Proovige Exponential Enterprise Editionit&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Liituge Exponentiali kogukonnaga, vahetage teavet ja panustage&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; ja teised.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>Toetab &lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt;. Lisateavet vt &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; ja teised.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> Lisateavet vt &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
     </message>
     <message>
-        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; ja teised.</translation>
+        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;Proovige Exponentiali (7x-lt)&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Liituge Exponentiali kogukonnaga, saage tuge ja panustage&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; ja teised.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13858,6 +14062,61 @@ Märkus: pakette ei desinstallita.</translation>
     <message>
         <source>Help center</source>
         <translation>Abikeskus</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>Sisu</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>Dokumendi leheküljed</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>Kasutajad</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>Sisuklassid</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>Haldus</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>Lehekülg %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>Vaata kõiki tulemusi</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>Tulemusi: %count</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>Üks tulemus</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>%count soovitust</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>Soovitusi pole</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>Soovitusi ei õnnestunud laadida.</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>Soovitused</translation>
     </message>
 </context>
 <context>
@@ -14326,6 +14585,14 @@ Märkus: pakette ei desinstallita.</translation>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>See installatsioon on avalik demo: administraatori parool võib olla kõigile teada ning administraatori paroole ei saa muuta ega lähtestada. Ärge sisestage siia midagi privaatset.</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Teie seadmed</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Turvategevus</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14615,6 +14882,14 @@ Märkus: pakette ei desinstallita.</translation>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>Juhendid, otsing ja kuidas tõrkest teatada.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Uus sisu</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Uusim sisu, ülevaatuseks kinni peetud sisu ja toimingud valikuga.</translation>
     </message>
 </context>
 <context>
@@ -15073,6 +15348,46 @@ Märkus: pakette ei desinstallita.</translation>
         <source>Synchronisations</source>
         <translation>Sünkroonimised</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>GraphQL API: selle lõpp-punkt, skeem ja mänguväljak päringute proovimiseks.</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migratsioonid</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Paigalduse muudatused failidena: nende olek, käivitused, käivitamine ja tagasivõtmine.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Uus sisu</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Uusim sisu, ülevaatuseks kinni peetud sisu ja toimingud valikuga.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Avaldage saidi staatiline koopia GitHub Pagesis või mis tahes git-hostis.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Staatiline avaldamine</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Andmetüübid</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Kõik kerneli ja laienduste andmetüübid ning see, kuidas klassid ja sisu neid kasutavad.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15237,6 +15552,22 @@ Märkus: pakette ei desinstallita.</translation>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>Kontod, mida keegi ei kasuta või mis vajavad ülevaatamist; keela, ava lukust või ekspordi need.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Kasutajate auditilogi</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>Kes muutis, logis sisse või lükati tagasi, konto kaupa; filtreeri ja ekspordi.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Sisselogimiste aruanne</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>Kes on sisse logitud, sisselogimised ja nurjumised päevade kaupa; kasutaja väljalogimine kõikjalt.</translation>
     </message>
 </context>
 <context>
@@ -22053,6 +22384,22 @@ Märkus: pakette ei desinstallita.</translation>
         <source>%n hours ago</source>
         <translation>%n h tagasi</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>GraphQL API salvestatud päringute vastused ja selle skeemi sisuklassid.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>Avaldage staatiline koopia GitHub Pagesis või mis tahes git-hostis</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Staatiline avaldamine</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>Staatiline vahemälu serveerib lehti sellest serverist. Saidi staatilise koopia avaldamiseks mujal, GitHub Pagesis või mis tahes git-hostis, kasutage staatilist avaldamist.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25594,6 +25941,10 @@ Märkus: pakette ei desinstallita.</translation>
     <message>
         <source>last purge</source>
         <translation>viimane puhastus</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>Kirjutused ei saanud olekulukku võtta (viimati %date): igaüks muutis kõik vahemälus olevad tulemused aegunuks. %file peab olema kirjutatav igale kasutajale, kellena sait töötab; NFS-il on vaja NFSv4 või lockd.</translation>
     </message>
 </context>
 <context>
@@ -33542,6 +33893,14 @@ Märkus: pakette ei desinstallita.</translation>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>PHP töötleja aegunud seansid eemaldab PHP ise (session.gc_maxlifetime), mitte see leht ega cron-töö osa session_gc.</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>Kõigi kasutajate sisselogitud seansid on loetletud sisselogimiste aruandes ja seal saab need välja logida; aruanne töötab iga seansitöötlejaga.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>Ava sisselogimiste aruanne</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37866,6 +38225,26 @@ juhiseid.</translation>
     <message>
         <source>None yet</source>
         <translation>Veel pole</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Turvategevus</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>Teie hiljutised sisselogimised, nurjunud katsed ja muudatused teie paroolis, e-posti aadressis ja kaheastmelises sisselogimises.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>Selle konto hiljutised sisselogimised, nurjunud katsed ja turvamuudatused.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>Vaata tegevus üle</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>Nurjunud sisselogimisi: %count</translation>
     </message>
 </context>
 <context>
@@ -44032,6 +44411,42 @@ Kui soovite kinnitajale kommentaare saata või olekut vaadata, kasutage allpool 
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>Pärast sisselogimist peab kasutaja enne muude toimingute tegemist valima uue parooli. Kasutage seda, kui annate kellelegi ajutise parooli.</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>Olemasoleva pildi valimine</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>Teie valitud objekti pildifail kopeeritakse sellesse välja. Teine objekt ei muutu.</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>Objekti „%name“ pilt kopeeriti sellesse välja.</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>Sirvi pildi valimiseks</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>Otsi pilte nime järgi</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Otsi</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>Kasuta objekti „%name“ pilti</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>Kasuta seda pilti</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>Teie otsingule ei vasta ükski pilt.</translation>
     </message>
 </context>
 <context>
@@ -50956,6 +51371,10 @@ Lisateavet leiate nõuete lehelt.</translation>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>Crontabi ei kirjutatud (%reason). Lisage need read selle kasutaja crontabi, kellena sait töötab, muidu ei käivitu järjekord, impordid, teatised ega otsinguindeks kunagi:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>Uuesti installimiseks kasutatakse kickstarterit (%file, seejärel php bin/php/kickstarter.php run --apply) või tehakse uus installimine.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54835,6 +55254,10 @@ juhiseid.</translation>
         <source>eZJSCore Public Packer cache</source>
         <translation>eZJSCore&apos;i avaliku pakkija vahemälu</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>GraphQL vahemälu (vastused ja skeemi klassid)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54921,6 +55344,14 @@ juhiseid.</translation>
     <message>
         <source>Copy of %class_name</source>
         <translation>Klassi „%class_name“ koopia</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Andmetüübid</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>Andmetüüp %string</translation>
     </message>
 </context>
 <context>
@@ -55747,6 +56178,26 @@ juhiseid.</translation>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>SVG-pilti ei saanud lugeda või selles pole midagi, mida saaks ohutult kuvada.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>Pilti ei õnnestunud kopeerida. Proovige uuesti või võtke ühendust saidi administraatoriga.</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>Valitud objekti ei ole olemas või teil pole õigust seda lugeda.</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>Valitud objektil pole pilti.</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>Valitud objekti pildifaili ei õnnestunud lugeda.</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>Valitud objekti pilt on suurem, kui see väli lubab: %1 baiti.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56277,6 +56728,42 @@ juhiseid.</translation>
         <source>The bookmark was renamed to "%name".</source>
         <translation>Järjehoidja uus nimi on „%name“.</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>See leht on selles saidi juurdepääsus (%siteaccess) välja lülitatud. Avage järjehoidja saidi juurdepääsus, kus see leht olemas on.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>Selle lehe moodul pole siin installitud ega lubatud.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>Seda lehte pole enam olemas: selle moodulil pole sellist vaadet.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>Ükski teie roll ei luba teil seda lehte avada.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>Teil pole õigust seda saidi juurdepääsu kasutada.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>Teil pole õigust lugeda sisu, mida see leht näitab.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>Sellist lehte ei saa järjehoidjatesse lisada: see ainult töötleb vormi või on ühe hetke leht.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>Selle lehe aadress puudub.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>Seda lehte ei saa praegu avada.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56748,6 +57235,10 @@ Peate sõlme klassi vahetamisfunktsiooniga muutma.</translation>
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>Meilitransport keeldus viimasel käivitusel meilidest (%count). Kontrollige meiliserverit ja site.ini MailSettings.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Ootel sündmusi: %count ja teatiste cron-töö ühtegi käivitust pole registreeritud. Lisage cron-töö osa „frequent“ crontab-faili või käivitage exp:notification:run --apply.</translation>
     </message>
 </context>
 <context>
@@ -63004,6 +63495,10 @@ Peate sõlme klassi vahetamisfunktsiooniga muutma.</translation>
         <source>Choose another site or section with the node picker</source>
         <translation>Vali sõlmevalijaga muu sait või jaotis</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>Omanikku saab muuta ainult süsteemiadministraator: käivitage ./console exp:content-check --fix-permissions --apply kasutajana root.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64537,6 +65032,10 @@ Peate sõlme klassi vahetamisfunktsiooniga muutma.</translation>
     <message>
         <source>empty</source>
         <translation>tühi</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>Allkirjastamisvõti on üle aasta vana: vahetage see käsuga exp:audit key rotate --apply.</translation>
     </message>
 </context>
 <context>
@@ -68367,6 +68866,486 @@ Peate sõlme klassi vahetamisfunktsiooniga muutma.</translation>
         <source>Share of page time</source>
         <translation>Osa lehe ajast</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>taotleti täielikku renderdamist</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>lehtede vahemälus seda lehte polnud (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>lehtede vahemälu ei vastanud</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>Renderdatud</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>Renderdas kernel: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>Teenindati lehtede vahemälust %ms ms jooksul. Leht salvestati kell %stored renderdamisel, mis kestis %render ms, %age s tagasi.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>Renderda kohe</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>Tagasi vahemälust võetud vaate juurde</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>Renderdamisest kell %stored (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>See päring: teenindati lehtede vahemälust %ms ms jooksul.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Kasutaja</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>Kasutaja ID</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>Vahemäluprofiil</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>See vaade</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>Vaate vahemälu</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>kasutaja kohta (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>Kasutaja vahemäluprofiil: sama profiiliga kasutajad jagavad vaate vahemälufaile</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>jah</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ei</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Kasutajanimi</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>Sisse logitud</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>Seanss</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>Sisuvaate vahemäluvõtme osad, mis sõltuvad kasutajast, täpselt nii, nagu võti need võtab, selle lehe ViewCacheTweaks alusel. Sama profiiliga kasutajad jagavad vaadete vahemälufaile, välja arvatud juhul, kui vaate enda osad erinevad (eelistused, kuulajate võtmed): neil on oma profiil, ainult selle lehe jaoks.</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>Profiil</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>See vaade (sõlm %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: igal sisselogitud kasutajal on oma vahemälufailid.</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>Kehtivad ViewCacheTweaks: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>Osa</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>Väärtus</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>Ükski osa ei sõltu kasutajast (ViewCacheTweaks).</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>see vaade</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>Kopeeri tekstina</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>Rollid</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>Rollimääranguid ei õnnestunud lugeda.</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>Rolli ID</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Roll</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>Piirang</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>Määratud</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>kasutajale</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>grupile %name (objekt %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>Kopeeritud</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>Kopeerimine ebaõnnestus.</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>kuulaja poolt välja jäetud</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>Anonüümsed külastajad</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>sama mis sinul</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>erinev</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>Profiil, mille anonüümsed külastajad saavad samade ViewCacheTweaks korral, vaikeeelistustega, ilma vaate osadeta: seanssi lugevalt kuulajalt ei saa neid küsida.</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>Eelistused</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>Ükski vaaterežiim ei sõltu kasutaja eelistustest (site.ini [ContentSettings] CachedViewPreferences).</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>Eelistused, millest nende vaaterežiimide vaated sõltuvad (CachedViewPreferences), kasutaja väärtuse või vaikeväärtusega. Need on profiilis kui userpreferences, kõigi vaaterežiimide omad koos.</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>Vaaterežiim</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>Eelistus</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>Vaikimisi</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>Poliitikad</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>Näita rollide poliitikaid (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>Poliitikad laaditakse serverist selle jaotise avamisel, leht korraga, ning neid saab filtreerida mooduli ja funktsiooni järgi.</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>Funktsioon</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>Kõik moodulid</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>Kõik funktsioonid</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>Piirangud</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>Näita rohkem</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>Neil rollidel pole poliitikaid.</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>Ükski poliitika ei vasta filtrile.</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%shown / %matching poliitikat (kokku %total)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>Laaditakse avamisel.</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>moodul/funktsioon, roll, piirang</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>Otsi eeskirjadest</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>Laadi veel</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>Moodul/funktsioon</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>Kõik rollid (%count eeskirja)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>Ühtegi eeskirja ei leitud.</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%shown / %matched eeskirja</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>Vastust pole</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>maskitud</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>Näita selgitusi</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>Peida selgitused</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Ava</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>Ava kõik</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>Sule kõik</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>Võti või väärtus</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>Otsi seansist</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Tüüp</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>veel %count</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>liiga sügavale pesastatud, et näidata</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>kärbitud, kokku %count märki</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Alustatud</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>Küpsise nimi</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>Seansi ID</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>Käsitleja</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>Salvestustee</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>PHP vaikeväärtus</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>Eluiga (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>Küpsis</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>eluiga %s s</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>Teie enda PHP-seanss, nagu see oli jaotise avamisel, mitte kunagi mõni teine. Saladusi meenutavate võtmete (märgid, räsid, paroolid) väärtused on maskitud (debugbar.ini SessionMask[]); kõik muu kuvatakse nii, nagu see on salvestatud, ka isikuandmed.</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>%count võtit, %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>suur</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>Seanss on tühi.</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>Selle päringu jaoks ei alustatud seanssi.</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Laiendus %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>Tuum ja muud</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>Kõiki kirjeid ei näidata: seansis on rohkem, kui siin saab loetleda.</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>%count võtit pole loetletud.</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>Raam</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>Ka märki meenutavad väärtused (JSON Web Token, Authorization-päise volitused, privaatvõti, pikk kuueteistkümnend- või juhuslik tekst) maskitakse, olenemata sellest, mis nende võtme nimi on (debugbar.ini SessionValueMask[]).</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>Võti meenutab saladust (debugbar.ini SessionMask[]).</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>Väärtus meenutab märki.</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>Maskitud võtme all.</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>Seanss tekstina, maskitud nagu tabel.</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>Seanss on suurem kui %size (debugbar.ini SessionWarnBytes): selle kasutaja iga päring loeb kogu seansi ja kirjutab selle, kui see muutus.</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP hoiab seda seanssi failides ja lukustab faili kogu päringu ajaks: sama kasutaja päringud (mitu vahekaarti, AJAX-päringud) ootavad üksteist.</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>Hoia avatuna</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>Suurem kui %size (debugbar.ini SessionWarnBytes): selle kasutaja iga päring loeb kogu seansi.</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>Vahemälust loetud %hits / %count</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>Ühtegi malli ei renderdatud (vaatevahemälust loetud vaade ei renderda ühtegi).</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>Rollide määramised</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>Rollid ja poliitikad</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>erineb anonüümsete külastajate omast</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>sama mis anonüümsetel külastajatel</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70247,6 +71226,14 @@ Peate sõlme klassi vahetamisfunktsiooniga muutma.</translation>
     <message>
         <source>not sent</source>
         <translation>saatmata</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Teatiste cron-töö registreerib siin iga oma käivituse. Lisage osa frequent crontab-faili või käivitage exp:notification:run --apply.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>Kasutage konsooli: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -75965,6 +76952,98 @@ Peate sõlme klassi vahetamisfunktsiooniga muutma.</translation>
         <source>This topic is not Released; readers do not see it.</source>
         <translation>See teema pole avaldatud; lugejad seda ei näe.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migratsioonid</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Paigalduse muudatused failidena: nende olek, käivitused, käivitamine ja tagasivõtmine.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Avaldage saidi staatiline koopia GitHub Pagesis või mis tahes git-hostis.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Staatiline avaldamine</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>Ülevaatusel</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>Lugejad näevad seda lehte.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>Lugejate eest peidetud, kuni keegi selle avaldab.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>Leht on nüüd ülevaatusel. See on lugejate eest peidetud, kuni see avaldatakse.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>Leht on avaldatud: lugejad näevad seda nüüd.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>Leht on jälle mustand. See on lugejate eest peidetud, kuni see üle vaadatakse ja avaldatakse.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>Avalda kohe</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>Selle saab avaldada ainult rolliga %role kasutaja, kes pole seda versiooni kirjutanud.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>Avaldamist ootavad abiteemad</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>Peidab selle lugejate eest, kuni see uuesti avaldatakse.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>Järgmiseks kontrollib seda ülevaataja. Lugejad seda veel ei näe.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>Lugejad näevad seda kohe.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>Võtab selle edasiseks tööks ülevaatuselt tagasi. Lugejad seda ei näe.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>Kas peita see leht lugejate eest?</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>Kas saata see leht tagasi mustandiks?</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>Lugejad ei näe enam lehte %title, kuni keegi selle uuesti avaldab.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title läheb edasiseks tööks tagasi mustandiks. Lugejad ei näe seda endiselt ja enne avaldamist on vaja uut ülevaatust.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Loobu</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>Need teemad on ülevaatusel. Lugejad näevad neid niipea, kui keegi, kes pole praegust versiooni kirjutanud, need avaldab.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76136,6 +77215,10 @@ Peate sõlme klassi vahetamisfunktsiooniga muutma.</translation>
     <message>
         <source>Setup &gt; Cronjobs</source>
         <translation>Häälestus &gt; Cron-tööd</translation>
+    </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>Ükski cron-töö osa pole veel käivitunud: tööde järjekord, impordid, teatised ja otsinguindeks ootavad. Käivitage php bin/php/installcrontab.php --add --apply või lisage --show ridad crontab-faili.</translation>
     </message>
 </context>
 <context>
@@ -76475,6 +77558,46 @@ Peate sõlme klassi vahetamisfunktsiooniga muutma.</translation>
         <source>None.</source>
         <translation>Puuduvad.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>autentimisrakendusega</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>e-postiga saadetud koodiga</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>taastekoodiga</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>pääsuvõtmega</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>välise kontoga</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Turvategevus</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>Kuvatakse võrguna; aadressi säilitatakse nii, nagu saidi andmekaitsesätted ette näevad.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Pole salvestatud</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Asukoht</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>ligikaudne</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76718,6 +77841,42 @@ Peate sõlme klassi vahetamisfunktsiooniga muutma.</translation>
         <source>Manage devices</source>
         <translation>Halda seadmeid</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>autentimisrakendusega</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>e-postiga saadetud koodiga</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>taastekoodiga</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>pääsuvõtmega</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>välise kontoga</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Turvategevus</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Pole salvestatud</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Asukoht</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>ligikaudne</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76797,6 +77956,14 @@ Peate sõlme klassi vahetamisfunktsiooniga muutma.</translation>
         <source>View the sessions of this user</source>
         <translation>Kuva selle kasutaja seansid</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>Teie kontoga %login saidil %site logiti just sisse kohast, kust sellega pole viimasel ajal sisse logitud:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>Ligikaudne asukoht</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76835,6 +78002,10 @@ Peate sõlme klassi vahetamisfunktsiooniga muutma.</translation>
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%browser operatsioonisüsteemis %os</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Sisselogimiste aruanne</translation>
     </message>
 </context>
 <context>
@@ -77043,6 +78214,82 @@ Peate sõlme klassi vahetamisfunktsiooniga muutma.</translation>
         <source>The passkey could not be checked. Please try again.</source>
         <translation>Pääsuvõtit ei saanud kontrollida. Proovige uuesti.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>Kontod, mis logivad sisse ainult pääsuvõtmetega, ei saa siin parooli kasutada: valige „Logi sisse pääsuvõtmega“.</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>Kasutaja %login pääsuvõtmed</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>Pääsuvõtmed, millega see konto sisse logib. Tühistage võti, mis on kadunud või varastatud seadmes: sellega ei saa enam sisse logida. Uued lisab omanik ise.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>Teie konto vajab pääsuvõtit</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>Lisage oma kontole pääsuvõti</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>Jätkamiseks lisage pääsuvõti. Seejärel logite sellega sisse, mitte ainult parooliga.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>Pääsuvõtmega sisselogimine on kiirem ja turvalisem kui parool. Lisage see kohe või jätkake ilma.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>Mitte praegu</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>Kas tühistada pääsuvõti „%name“?</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>Sellega ei saa enam sellesse kontosse sisse logida. Kui see oli viimane, logib omanik sisse parooliga või määrate teie uue.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>Tühista pääsuvõti</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>Tühista</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>Sellel kontol pole pääsuvõtit.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>Autentija</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Tundmatu</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>Teie viimane pääsuvõti: lisage enne selle eemaldamist uus.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>See konto logib sisse ainult pääsuvõtmetega (pääsuvõtmete poliitika): kui ühtegi ei jää, logib see taas sisse oma parooliga.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>See on teie viimane pääsuvõti ja teie konto ei saa ilma selleta sisse logida. Lisage esmalt veel üks pääsuvõti.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>Pääsuvõti „%name“ on tühistatud. Sellega ei saa enam sellesse kontosse sisse logida.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77142,6 +78389,34 @@ Peate sõlme klassi vahetamisfunktsiooniga muutma.</translation>
         <source>Code from your authenticator app</source>
         <translation>Kood autentimisrakendusest</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>Olete andmeid jäädavalt kustutamas või logi tühjendamas.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>Teie parool ja pääsuvõti</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>Teie parool ja kood autentimisrakendusest</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>Või:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>See brauser ei saa pääsuvõtmeid kasutada. Kasutage muud viisi või muud brauserit.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>Kui jätkate, küsib brauser ühte teie pääsuvõtmetest.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>Jätka pääsuvõtmega</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77232,6 +78507,70 @@ Peate sõlme klassi vahetamisfunktsiooniga muutma.</translation>
     <message>
         <source>Setup</source>
         <translation>Häälestus</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>Oma parooli, e-posti aadressi, pääsuvõtmete, kaheastmelise sisselogimise, taastekoodide või API-võtmete muutmine ning oma teistest seadmetest väljalogimine.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>Kasutajate, nende paroolide ja seadmete loomine ja redigeerimine, kontosätted, uute kasutajakontode kinnitamine või tagasilükkamine, rollide määramine ja poliitikate redigeerimine.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>Andmete kustutamine</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>Prügikasti tühjendamine, sealt üksuste eemaldamine ja mitme üksuse korraga eemaldamine.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>Sisu eemaldamine, avaldamine ja salvestamine</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>Sisu eemaldamine (ka prügikasti), avaldamine ja mustandi salvestamine; küsitakse vormi saatmisel. Vaikimisi väljas.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>Enne tundlikku toimingut kinnitab sisseloginud kasutaja uuesti oma isiku: parooli ja pääsuvõtmega või pääsuvõtmeta parooli ja autentimisrakenduse koodiga. Küsivad ainult veebilehed: REST-liides, SOAP, WebDAV, sisselogimine teenuse expservices kaudu ja käsurida ei küsi kunagi.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>Kus sätted kehtivad</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>Sätted järgmisele:</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Iga saidi juurdepääs</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>Saidi juurdepääs %name</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Ava</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>Kellelt küsitakse: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>Märkige kasutajarühmad, et küsida ainult nende liikmetelt (näiteks toimetajatelt). Midagi pole märgitud: igalt kasutajalt.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>Salvestatakse faili settings/override/site.ini.append.php, iga saidi juurdepääsu jaoks. Salvestamisel palutakse teil kinnitada, et see olete teie.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>Salvestatakse faili settings/siteaccess/%name/site.ini.append.php. Väärtus failis settings/override on ülimuslik. Salvestamisel palutakse teil kinnitada, et see olete teie.</translation>
     </message>
 </context>
 <context>
@@ -77366,6 +78705,6822 @@ Peate sõlme klassi vahetamisfunktsiooniga muutma.</translation>
     <message>
         <source>Open the page</source>
         <translation>Ava leht</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from kuni %to, kokku %count</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>Kasutajanimi või kasutaja ID: konto, mida sündmus puudutas, või kasutaja, kes tegutses.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Konto</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Toiming</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>Pärast</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>Iga tulemus</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Enne</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Tegija</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Tühjenda</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Tehtud</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>Sündmusi säilitatakse %days päeva.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>Sündmusi säilitatakse, kuni need käsitsi eemaldatakse.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Sündmused</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>Iga toiming</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>Kõik selle konto sündmused</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>Ekspordi loend vormingus CSV (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Ebaõnnestus</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Alates</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>Kitsenda loendit</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>Ükski sündmus ei sobi.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Lehel</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>Salvestamine on failis audit.ini välja lülitatud ([UserAuditSettings] UserAudit); loend näitab varem salvestatut.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Tagasi lükatud</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Tulemus</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Kuva</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>Kasutajate auditilogi tabel puudub. Looge see käsuga php update/common/scripts/6.0/createuseraudittable.php; seni säilitavad auditifailid iga sündmuse.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>See leht vajab SQL-andmebaasi; andmebaasiga MongoDB pole see saadaval. Auditifailid säilitavad iga sündmuse.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Kuni</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Kasutajate auditilogi</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Kasutaja</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Millal</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Kus</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>Kes muutis, lõi, lubas, keelas, teisaldas või eemaldas millise konto, kes logis sisse või lükati tagasi ja millised rollid määrati: üks rida sündmuse kohta, väljadega enne ja pärast. Paroole ja saladusi ei salvestata kunagi.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>rühm</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>süsteem</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>tundmatu</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>Kaitse oma kontot</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>Teie kontole %login saidil %site logiti sisse taastekoodiga.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>Kasutati taastekoodi</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Konto</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>Ligikaudne aadress</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>Uuesti sisselogimiseks taotlege uus parool või pöörduge saidi administraatorite poole.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>Taotle uus parool</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>Iga taastekood töötab ühe korra. Kui olete oma telefoni kaotanud, seadistage autentimisrakendus uuesti ja hoidke uusi taastekoode turvalises kohas.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>Nurjunud sisselogimiskatsed teie kontole</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>Edaspidi küsitakse sisselogimisel lisaks paroolile koodi. Kui tegite seda ise, ei pea te midagi tegema.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>Kui see olite teie ja unustasite parooli, taotlege uus. Kui mitte, valige tugevam parool ja lülitage kaheastmeline sisselogimine sisse.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>Kui see ei olnud teie, võib keegi teie parooli teada: muutke see kohe ja kontrollige, kus teie konto on sisse logitud.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>Järelejäänud taastekoodid</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>Vaata oma seadmed üle</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>Turvahoiatus</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>Keegi üritas teie kontole %login saidil %site mitu korda järjest vale parooliga sisse logida (katseid: %count).</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>Teie kontol %login saidil %site toimus turvasündmus.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>See on turvahoiatus teie konto kohta. See saadetakse iga sellise muudatuse korral ja seda ei saa välja lülitada.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Aeg</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>Teie konto %login kaheastmeline sisselogimine saidil %site lülitati välja.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>Kaheastmeline sisselogimine lülitati välja</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>Teie konto %login kaheastmeline sisselogimine saidil %site lülitati sisse.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>Kaheastmeline sisselogimine lülitati sisse</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>Teie konto %login saidil %site lukustati liiga paljude nurjunud sisselogimiste järel.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>Teie kontot kaitseb nüüd ainult parool. Kui te seda ise ei teinud, lülitage kaheastmeline sisselogimine pärast parooli muutmist uuesti sisse.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>Teie konto lukustati</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>Teie kontole %login saidil %site lisati pääsuvõti.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>Igaüks, kellel on see pääsuvõti, saab teie kontole sisse logida ilma teie paroolita. Kui teie seda ei lisanud, eemaldage see jaotises Pääsuvõtmed ja muutke oma parooli.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>Teie kontolt %login saidil %site eemaldati pääsuvõti.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>Sellega ei saa enam teie kontole sisse logida. Kui teie seda ei eemaldanud, kontrollige oma pääsuvõtmeid ja seadmeid.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>Teie kontole lisati pääsuvõti</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>Teie kontolt eemaldati pääsuvõti</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>Turvategevus</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Kasutaja %name turvategevus</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Sisse logitud</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Nurjunud sisselogimiskatse</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Välja logitud</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Seansid välja logitud</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Sisselogimine uuest seadmest</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Sisselogimine uuest asukohast</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Isik kinnitatud („Kinnitage, et see olete teie“)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Isiku kontroll nurjus</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Sisse logitud pääsuvõtmega</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Sisselogimine pääsuvõtmega nurjus</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Sisselogimine keelatud: kaheastmelise sisselogimise kood puudub või on vale</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Vale kaheastmelise sisselogimise kood</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Konto lukustatud nurjunud sisselogimiste järel</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Konto lukust avatud</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Parool muudetud</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Parooli muutmine nurjus</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Parool lähtestatud</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Uus parool taotletud</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>E-posti aadress on muudetud</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Kasutajanimi muudetud</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Kaheastmeline sisselogimine sisse lülitatud</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Kaheastmeline sisselogimine välja lülitatud</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Taastekood kasutatud</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Uued taastekoodid</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Rakenduse parool loodud</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Rakenduse parool tühistatud</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Pääsuvõti lisatud</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Pääsuvõti eemaldatud</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Konto lubatud</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Konto on keelatud</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Kõik</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Sisselogimised ja seansid</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Konto muudatused</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Vajab tähelepanu</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>teie poolt</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>kasutaja poolt</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>tegija: %login</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>Meetod</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>Brauser</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>Operatsioonisüsteem</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Seade</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>Koht</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>Riik</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Seansid</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>Millised</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>Kanal</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Nurjunud katsed</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>Järelejäänud koodid</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>Sisselogimise töötleja</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Turvategevus</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Kasutaja %name turvategevus</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Sisselogimised ja muudatused teie konto turvalisuses. Kui näete midagi, mida te pole teinud, muutke oma parooli ja logige välja seadmed, mida te ei tunne.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>Sisselogimised ja muudatused selle konto turvalisuses.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Teie seadmed</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Muuda parooli</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>Tagasi konto juurde</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>Turvategevust ei salvestata</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>Seda loetakse kasutajate auditilogist, mille tabel expuser_audit puudub või mida see andmebaas ei toeta. Käivitage php update/common/scripts/6.0/createuseraudittable.php või versiooni 6.0.15 andmebaasi uuendus.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Viimased päevad: %days</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Sisselogimised viimastel päevadel (päevi: %days)</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>Hiljutine turvategevus</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Kuva</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>nurjus</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>keelatud</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Turvategevust pole veel salvestatud.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>Turvasündmusi säilitatakse piiratud aja (päevi: %days).</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>Turvasündmusi säilitatakse, kuni administraator need eemaldab.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Laadi alla minu sisselogimisandmed</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Teie seansid ja turvasündmused JSON-failina.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Seansse sellel saidil ei salvestata, seega ühtegi teist seadet ei saanud välja logida. Muutke kohe oma parooli.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count teist seanssi logiti välja. Nüüd muutke oma parooli.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Ükski teine seade polnud sisse logitud. Nüüd muutke oma parooli.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Aitäh. Sündmus on märgitud teie omaks.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>See sündmus ei vaja vastust.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Leht oli aegunud. Midagi ei muudetud; proovige uuesti.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Kaitse oma kontot</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Kui midagi siin ei olnud teie, logige kõik teised seadmed välja ja valige seejärel uus parool. Välja logitakse ka seadmed, mis jäid sisse valikuga „Jäta mind meelde“.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Iga seade peale selle logitakse välja selle järgmisel päringul. Seejärel valite uue parooli.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Jah, logi teised seadmed välja</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Kas see olite teie?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Jah, see olin mina</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Ei, kaitse minu kontot</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Sisse logitud</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Nurjunud sisselogimiskatse</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Välja logitud</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Seansid välja logitud</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Sisselogimine uuest seadmest</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Sisselogimine uuest asukohast</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Isik kinnitatud („Kinnitage, et see olete teie“)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Isiku kontroll nurjus</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Sisse logitud pääsuvõtmega</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Sisselogimine pääsuvõtmega nurjus</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Sisselogimine keelatud: kaheastmelise sisselogimise kood puudub või on vale</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Vale kaheastmelise sisselogimise kood</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Konto lukustatud nurjunud sisselogimiste järel</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Konto lukust avatud</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Parool muudetud</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Parooli muutmine nurjus</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Parool lähtestatud</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Uus parool taotletud</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>E-posti aadress on muudetud</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Kasutajanimi muudetud</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Kaheastmeline sisselogimine sisse lülitatud</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Kaheastmeline sisselogimine välja lülitatud</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Taastekood kasutatud</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Uued taastekoodid</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Rakenduse parool loodud</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Rakenduse parool tühistatud</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Pääsuvõti lisatud</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Pääsuvõti eemaldatud</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Konto lubatud</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Konto on keelatud</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Kõik</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Sisselogimised ja seansid</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Konto muudatused</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Vajab tähelepanu</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Turvategevus</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Kasutaja %name turvategevus</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Sisselogimised ja muudatused teie konto turvalisuses. Kui näete midagi, mida te pole teinud, muutke oma parooli ja logige välja seadmed, mida te ei tunne.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Teie seadmed</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Muuda parooli</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>Turvategevust sellel saidil veel ei salvestata.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Sisselogimised viimastel päevadel (päevi: %days)</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Nurjunud katsed</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Turvategevust pole veel salvestatud.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Laadi alla minu sisselogimisandmed</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Teie seansid ja turvasündmused JSON-failina.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Seansse sellel saidil ei salvestata, seega ühtegi teist seadet ei saanud välja logida. Muutke kohe oma parooli.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count teist seanssi logiti välja. Nüüd muutke oma parooli.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Ükski teine seade polnud sisse logitud. Nüüd muutke oma parooli.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Aitäh. Sündmus on märgitud teie omaks.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>See sündmus ei vaja vastust.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Leht oli aegunud. Midagi ei muudetud; proovige uuesti.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Kaitse oma kontot</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Kui midagi siin ei olnud teie, logige kõik teised seadmed välja ja valige seejärel uus parool. Välja logitakse ka seadmed, mis jäid sisse valikuga „Jäta mind meelde“.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Iga seade peale selle logitakse välja selle järgmisel päringul. Seejärel valite uue parooli.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Jah, logi teised seadmed välja</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Kas see olite teie?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Jah, see olin mina</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Ei, kaitse minu kontot</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>Parool</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>Parool ja kaheastmelise sisselogimise kood</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>REST-liides</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>SOAP-liides</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>Ühekordne sisselogimine</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>Sisse logitud enne seansside salvestamist</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Sisselogimiste aruanne</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>Kes on saidile sisse logitud, kui sageli kontod sisse logivad ja selles nurjuvad, ning kasutaja väljalogimine kõikjalt. Töötab iga seansitöötlejaga.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>Seanss logiti välja. Seade peab uuesti sisse logima.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>Kasutaja %login logiti seanssidest välja (seansse: %count).</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>Kasutajal %login polnud käimasolevat seanssi.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>Ühelgi kontol pole sellist ID-d, kasutajanime ega e-posti aadressi.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>See on seanss, mida te kasutate. Selle lõpetamiseks logige välja.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>See seanss oli juba lõppenud.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Leht oli aegunud. Midagi ei muudetud; proovige uuesti.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>Sellel saidil seansse ei salvestata (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>Tabel expuser_session puudub</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>Seansse hakatakse salvestama, kui see on loodud: php update/common/scripts/6.0/createusersessiontable.php või versiooni 6.0.15 andmebaasi uuendus.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>Praegu ja täna</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>Käimasolevad seansid</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>Sisselogitud kasutajad</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>Sisselogimised täna</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>Nurjunud katsed täna</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>Logi kasutaja kõikjalt välja</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>Konto iga seanss lõpeb selle järgmise päringu juures, ka need, mida hoiab alles „Jäta mind meelde“. Kasutage seda, kui konto võib olla valedes kätes; seejärel lähtestage selle parool.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>Kasutaja ID, kasutajanimi või e-posti aadress</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>Logi välja kõikjalt</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>Praegu sisse logitud</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>Kuvatakse viimati kasutatud (kõige rohkem: %limit).</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Kasutaja</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Seade</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Aadress</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>Sisse logitud</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>Viimati aktiivne</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Toimingud</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>See seade</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Pole salvestatud</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>Logi välja</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>Ükski seanss pole sisse logitud.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Viimased päevad: %days</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>Sisselogimised ja nurjunud katsed loetakse kasutajate auditilogist, mida pole olemas; uued seansid loetakse.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>Päev</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>Sisselogimised</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Nurjunud katsed</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>Uued seansid</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>Seansitöötleja: %handler. Seansid loetakse tabelist expuser_session, seega töötab aruanne iga töötlejaga.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>Kahtlane tegevus viimase %hours tunni jooksul</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>Üks võrk ei suutnud sisse logida %accounts kontole (%count katset)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Konto lukustati pärast nurjunud sisselogimisi</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>%count nurjunud sisselogimist ühel kontol</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>Sisse logitud korraga %count riigist</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Turvategevus</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Seansid</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>Nurjunud sisselogimised loetakse kasutajate auditilogist, mis pole siin saadaval.</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>Midagi kahtlast pole: pole kontot korduvate nurjunud sisselogimistega, pole võrku, mis prooviks mitut kontot, pole kontot, mis oleks sisse logitud mitmest riigist.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>Turvahoiatus teie konto kohta</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>Teie kontol %login toimus turvasündmus: %event. Kui see ei olnud teie, kaitske oma kontot aadressil %url.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Häälestus</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>Küsi selle saidi sisult ühe päringuga täpselt need väljad, mida leht vajab. Skeem järgib sisuklasse; iga päring töötab selle kasutaja õigustega, kes selle saadab.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>GraphQL API on selles saidi juurdepääsus välja lülitatud. Lülita see sisse failis graphql.ini: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>GraphQL teek (webonyx/graphql-php 15) pole paigaldatud.</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>Lõpp-punkt</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>Teek</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>Skeem</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>Sisuklasse: %count, skeem %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>Päring</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>Muutujad (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Käivita</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>Vastus</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>Käivitamine…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>Vastust ei õnnestunud lugeda.</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>Päring töötab sinu õigustega, selle seansiga sisse logituna.</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%count %seconds s jooksul</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>piiranguta</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>Sügavus</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>Keerukus</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>Üksusi loendis</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (vaikimisi %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>Taotlusi kasutaja või võtme kohta</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>Taotlusi anonüümse aadressi kohta</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>Introspektsioon</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>Ainult salvestatud päringud</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>Suurim päring</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>%bytes baiti</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>Suurim üleslaadimine</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>Saidi juurdepääsu %siteaccess pole olemas.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>Mutatsioonid on saidi juurdepääsus %siteaccess sisse lülitatud.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>Mutatsioonid on saidi juurdepääsus %siteaccess välja lülitatud.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>GraphQL API on saidi juurdepääsus %siteaccess sisse lülitatud.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>GraphQL API on saidi juurdepääsus %siteaccess välja lülitatud.</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>Seadeid ei õnnestunud kirjutada: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>Vastuste vahemälu tühjendati: eemaldati %count vastust.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>Päringu eemaldamiseks märgi selle kõrval olev kast.</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>Päringut ei õnnestunud eemaldada: PersistedQueryDirectoryList[] kataloogis tarnitud päring eemaldatakse koos selle failiga.</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>Salvestatud päring eemaldati.</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>Mutatsioonid</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>sees</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>väljas</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Saidi juurdepääsud</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>Kus API ja selle mutatsioonid vastavad. Nupud kirjutavad faili graphql.ini, nagu ./console exp:graphql:enable ja exp:graphql:disable seda teevad.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Saidi juurdepääs</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>GraphQL API</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Muuda</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Lülita välja</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>Mutatsioonid välja</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>Mutatsioonid sisse</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Lülita sisse</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>Piirangud</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>Selle saidi juurdepääsu graphql.ini [GraphQLSettings].</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>Vastuste vahemälu</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>Salvestatud päringute vastused, hoitud kasutajaõiguste kaupa ja aegunud iga kord, kui sisu avaldatakse.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Olek</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>Hoitud vastuseid</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>%count vastust, %bytes baiti</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>Hoitakse kõige rohkem</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds s</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>Viimati aegunud</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>Tühjenda vastuste vahemälu</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>Salvestatud päringud</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>Salvestatud käsuga ./console exp:graphql:persist või klientide poolt (automaatsed salvestatud päringud); kutsutakse nime või SHA-256 järgi.</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>Nimed</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Suurus</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Asukoht</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Eemalda</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>tarnitud</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>salvestatud</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>Jah, eemalda see päring</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>Salvestatud päringuid veel pole.</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>API-võtmed</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>Isiklikud API-võtmed ulatusega graphql:read (päringud) või graphql:write (mutatsioonid). Loo ja tühista neid lehel API juurdepääs või käsuga ./console exp:graphql:keys.</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>API juurdepääs</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>Kõik võtmed</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>Võti</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Nimi</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Omanik</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>Ulatused</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>Viimati kasutatud</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>aktiivne</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>aegunud</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>tühistatud</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>mitte kunagi</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>GraphQL-ulatusega API-võtmeid veel pole.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>GraphQL API on välja lülitatud saidi juurdepääsus %siteaccess, mis seda lehte näitab; allolev tabel näitab, kus see vastab.</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>Saidi juurdepääsu %siteaccess jaoks, mis seda lehte näitab.</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>Veebihaagid</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>Iga sündmus, mida lõpp-punkt küsib (publish, update, trash, delete, move, hide, reveal, mutation), saadetakse sellele allkirjastatult cronjob'i osa graphqlwebhooks kaudu. ./console exp:graphql:webhooks teeb sama mis see jaotis.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Sündmused</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>kõik</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Iga saidi juurdepääs</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>katki</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>saladuseta</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>Ootel</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count loobutud</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>Viimane kohaletoimetamine</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Saada test</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>Jah, eemalda see veebihaak</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>Veebihaake veel pole.</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>Lisa veebihaak</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>Lisa</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>Viimased kohaletoimetamised</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Aeg</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Tulemus</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>Tellimused</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>Reaalajas uuendused klientidele: sündmuste voog aadressil /api/graphql/subscribe ja WebSocket (graphql-transport-ws) Velocity peal. Iga sündmus läheb ainult tellijatele, kes tohivad selle sisu lugeda.</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>Praegu avatud</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>Kõige rohkem avatud</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>%total kokku, %user kasutaja kohta, %address aadressi kohta</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>Anonüümsed tellimused</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>Voo kestus</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>Veebihaaki ei õnnestunud lisada: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>Veebihaaki %name muudeti; selle allkirjastamise saladus jääb samaks.</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>Allkirjastamise saladust ei õnnestunud salvestada (Häälestus &gt; Saladused).</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>Veebihaak %name lisati. Selle allkirjastamise saladus, näidatud ainult see kord: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>Veebihaaki %name pole olemas.</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>Veebihaak %name ei vastanud: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>Veebihaak %name vastas %status %ms ms jooksul.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>Veebihaagi eemaldamiseks märgi selle kõrval olev kast.</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>Veebihaak %name eemaldati.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>GraphQL API on selles saidi juurdepääsus välja lülitatud.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>GraphQL teek pole paigaldatud.</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>Kasuta GET või POST.</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>Sisu pole JSON-objekt.</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables pole JSON-objekt.</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions pole JSON-objekt.</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>Saada päring POST-iga.</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>Taotlus ei sisalda päringut.</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>Päring on pikem kui %max baiti.</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>Serveri sisemine viga</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node vajab täpselt ühte järgmistest: id, remoteId, path ja urlAlias.</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content vajab täpselt ühte järgmistest: id ja remoteId.</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>Argumendi after kursor ei pärine sellelt API-lt.</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>Pildi aliast %alias ei ole (image.ini [AliasSettings] AliasList[]).</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>Siin võetakse vastu ainult salvestatud päringuid: saada salvestatud päringu id.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>Salvestatud päringu räsi pole SHA-256.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>Salvestatud päringu räsi ei vasta päringule.</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>Liiga palju taotlusi: kõige rohkem %limit %window sekundi jooksul. Proovi uuesti %reset sekundi pärast.</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>Päring on %depth taset sügav; lubatud on kõige rohkem %max.</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>Päringu keerukus on %complexity; lubatud on kõige rohkem %max.</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>See taotlus ei tohi skeemi lugeda (introspektsioon).</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search vajab teksti või filtrit (classes, subtree, sections, publishedAfter, publishedBefore).</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument ei ole kuupäev (ISO 8601, 2026-10-30).</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag vajab täpselt ühte järgmistest: id, remoteId ja path.</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout vajab täpselt ühte järgmistest: id, identifier ja urlAlias.</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>Multipart-taotluse väli operations ei ole üks JSON-taotlus.</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>Multipart-taotluse väli map ei ole JSON-objekt.</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>Multipart-taotluses pole faili %field.</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>Välja map tee peab algama sõnaga variables.: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>Fail %name ei saabunud tervikuna (üleslaadimise viga %error).</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>Fail %name on suurem kui %max baiti.</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>Faili %name ei õnnestunud kontrollida.</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>Mutatsioonid on selles saidi juurdepääsus välja lülitatud (graphql.ini [GraphQLSettings] MutationsEnabled).</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>Saada mutatsioon POST-iga.</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>Sisu muutmiseks logi sisse.</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>API-võtmel pole ulatust %scope.</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>Seansiga mutatsioon vajab seansi vormitõendit (päis X-CSRF-Token).</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>uploadFromUrl on välja lülitatud: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] ei nimeta ühtegi hosti.</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>Aadress peab olema https-aadress.</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>Host %host pole loendis graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>Faili ei õnnestunud tuua.</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload on ainult sisendtüüp.</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>Tüüpi Upload muutuja võtab vastu multipart-taotluse faili.</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>Kaug-id %remoteId on juba kasutusel.</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>Sisul on juba tõlge keeles %language: kasuta updateContent.</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>Anna vähemalt üks väli.</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>Uut versiooni ei õnnestunud luua (sisul on liiga palju mustandeid).</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>Versioon %version ei ole mustand.</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent vajab täpselt ühte järgmistest: id ja nodeId.</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>Asukohta ei saa teisaldada iseenda alla.</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>Sisul on juba asukoht %parentId all.</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>Välja %field väärtust ei õnnestunud salvestada.</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>Sisukeelt %language pole olemas.</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>Skeemis pole sisuklassi %class.</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>Sisu pole olemas või sul pole õigust seda lugeda.</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>Sul pole õigust seda selle sisuga teha.</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>Klassil %class pole kirjutatavat välja %field.</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>Väli %field on antud kaks korda.</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>Väli %field võtab vastu faili: saada see üleslaadimisena (multipart-taotlus).</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>Väli %field ei võta faili vastu.</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>Väli %field vajab väärtust.</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>Vorming %format on ainult rikasteksti väljadele; %field võtab väärtuse sellisena, nagu see on (RAW).</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>Väli %field on kohustuslik.</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>HTML-i ei õnnestunud lugeda.</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content võtab version vastu ainult koos id-ga.</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>Eelvaate tõend ei kehti või on aegunud.</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>Ei ole päritolu (https://host või https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>Ei ole GraphQL API ulatus: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>Saada tellimused aadressile /api/graphql/subscribe (sündmuste voog või WebSocket).</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>Taotlus ei nimeta ühtegi dokumendi operatsiooni.</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>Tellimus küsib täpselt ühte välja.</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>Liiga palju tellimusi on avatud; proovi hiljem uuesti.</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>Sul on %max tellimust avatud, lubatud maksimum.</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>Sinu aadressil on %max tellimust avatud, lubatud maksimum.</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>Tellimused on selles saidi juurdepääsus välja lülitatud.</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>Tellimiseks logi sisse (tõend või isiklik API-võti).</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>Saada mutatsioonid aadressile /api/graphql.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>Migratsioonid</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Olekut ei õnnestunud lugeda: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Migratsioonide tabeleid veel pole: ./console exp:upgrade --apply loob need.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>%count migratsiooni nurjus</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>Käivitus on pooleli, alustas %user</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>Paigaldus on lukus: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Ootel</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Nurjunud</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>Orvud</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Viimane käivitus</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>veel pole</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>Kõik migratsioonid</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>Simuleeritud käivitus</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>Proovikäivitus</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>Ootel migratsioonid käivitati tehingus, mis hiljem tagasi pöörati: midagi ei säilitatud. Allpool on näha, mida igaüks andmebaasis muutis.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>Mida käivitus praegu teeks. Midagi ei muudeta: iga ootel migratsioon loetleb muudatused, mida see teeks, ja käivitus selle, mida see enne ja pärast teeks.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>Simuleeri</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Käivita</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>Proovikäivitus nurjus: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>Simulatsioon vajab PostgreSQL-i või SQLite&apos;i, mille skeemimuudatusi saab tagasi pöörata; selles andmebaasis näitab allolev plaan, mida käivitus teeks.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>Migratsioonid</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>Migratsioon</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Olek</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>Mida see teeks</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>Simulatsioon: %result, %ms ms</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>Migratsioone veel pole.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>Enne ja pärast käivitust</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>Hetktõmmis enne</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>tehakse ja taastatakse, kui mõni migratsioon nurjub</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>väljas</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>Hetktõmmis pärast</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>tehakse, kui käivitus õnnestus</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>%total migratsiooni: %pending ootel, %done tehtud, %failed nurjunud.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>Migratsioonide ajalugu</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>Iga käivitus koos kasutaja, keskkonna, hetktõmmiste ja sellega, mis sisse kanti, sildistati ja edasi lükati. Nurjunud või katkestatud käivitust saab jätkata; käivituse, millele eelnes hetktõmmis, saab tagasi võtta.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>Käivitusi ei õnnestunud lugeda: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Migratsioonide tabeleid veel pole: ./console exp:upgrade --apply loob need.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Kuva</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Kõik</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>Käivitused</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Alustatud</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Kasutaja</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>Hetktõmmised</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Hoidla</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Toimingud</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>enne</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>pärast</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>edasilükkamine: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>Jätka</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Võta tagasi</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>Selles olekus käivitusi pole.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>Siin alustatud</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>Nendel lehtedel alustatud käivitused, jätkamised ja tagasivõtmised koos igaühe aruandega.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Mis</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Tulemus</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Tagasivõtmine</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>%target tagasivõtmine</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>Käivitus %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Mida käivitus tegi, selle kirje ja logi. Siin alustatud käivitus jätkub taustal, kui see leht suletakse; selle jälgimiseks avage leht uuesti.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>Jätka seda käivitust</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>Võta see käivitus tagasi</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>Kirjet ei õnnestunud lugeda: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Edenemine</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Alustas %user, aeg %time.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>Koodi kontrollimine ja hetktõmmise tegemine enne käivitust</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>Käib %id (%index/%total)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>%done/%total tehtud</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>Migratsioonid on käivitatud; hetktõmmise taastamine, kui mõni nurjus</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>Hetktõmmis pärast käivitust, sissekanne, sildistamine ja edasilükkamine</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>Hetktõmmise taastamine</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>Käivitus on lõppenud. Aruande laadimine.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>Edenemist ei õnnestunud jälgida. Laadige leht uuesti, et näha, kuidas käivitusel läheb.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>See leht jälgib käivitust selle käigus.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Laadi uuesti</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Aruanne</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Kestus</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms millisekundit</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>Mida käivitus vigadena väljastas</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Kirje</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>Keskkond</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>puudub</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Lõppenud</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Sissekanne</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Silt</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Edasilükkamine</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Sõnum</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>Selle käivituse migratsioonid</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>Allikas</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>Käivituse logi</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>Kuvatakse ainult logi lõppu.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>käib</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>lõppes aruandeta</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>õnnestus</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>nurjus</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>keelduti</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>andmebaas polnud kättesaadav</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>sisemine viga</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>Käivitus on pooleli</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind, alustas %user, aeg %time.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>Jälgi</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>Paigaldus on lukus</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>Lukku hoiab teine käivitus (uuendus või käivitus konsoolis): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>tehtud</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>ootel</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>pole vaja</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>tundmatu</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>tagasi pööratud</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>rakendatud</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>rakendataks</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>tagasi võetud</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>võetaks tagasi</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>käivitamata</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>ootab teist</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>muudatus aktsepteeritud</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>muudatus aktsepteeritaks</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>simuleeritud</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migratsioonid</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Olek</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Ajalugu</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>Võta tagasi %target</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>Käivitus võetakse tagasi sellele eelnenud hetktõmmiseni, üksik migratsioon oma down() abil. Varasema hetktõmmise taastamine on asjatundjatele. Iga tagasivõtmine käib taustal teie nimel pärast praeguse oleku hetktõmmist.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>Ei õnnestunud lugeda, mida saab tagasi võtta: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>Käivitus</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>Üks migratsioon</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>Varasem hetktõmmis</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>Kirjeldus</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>jah</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ei</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Hetktõmmis</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Pealdis</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>Tehtud</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Liik</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>Taastatavad osad</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>Andmebaas</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>Salvestatud failid (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>Sätted (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>Andmebaasi taastamine viib selle tagasi hetktõmmise ajahetke, ka seansid: pärast võidakse teil paluda uuesti sisse logida. Kõik vahepeal muudetu läheb kaotsi; enne tehakse praegusest olekust hetktõmmis.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>Ma tean, mida see taastab</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>Sisestage hetktõmmise ID uuesti</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>Jah, võta tagasi</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Loobu</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>Käivitused, millele eelnes hetktõmmis.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>Vali</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>Hetktõmmisega käivitusi veel pole.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>Rakendatud migratsioonid, mis saavad end ise tagasi võtta (neil on down()).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>Ühelgi rakendatud migratsioonil pole down()-i.</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>Varasemad hetktõmmised (asjatundjatele)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>Hetktõmmiseid veel pole.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>Käivita migratsioonid</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>Käivitus jätkub taustal kasutajana %user ja selle leht näitab käiku. Enne esimest migratsiooni tehakse paigaldusest hetktõmmis; kui mõni migratsioon nurjub, käivitus peatub ja hetktõmmis taastatakse.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>Kõigepealt proovikäivitus</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Olekut ei õnnestunud lugeda: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>Ootel migratsioonid</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>Need käivitatakse selles järjekorras. Eemaldage linnuke, et jätta migratsioon koos sellest sõltuvatega hilisemaks käivituseks.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>Käivita</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>Lülitab käivituse ajaks sisse hooldusrežiimi.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>Pärast rakendamist muudetud</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>Need failid pole need, mis rakendati. Käivitus keeldub neist, kui muudatust ei aktsepteerita koos põhjusega; neid ei käivitata uuesti, uus kontrollsumma salvestatakse ja põhjus säilitatakse auditilogis.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>Aktsepteeri muudatused</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Põhjus</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>Vaikeväärtused on turvalised. Iga ruut jätab ühe sammu vahele.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>Hetktõmmiseta</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>Hetktõmmist ei tehta enne ega pärast käivitust: nurjumise korral ei saa automaatselt taastada.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>Taastamiseta</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>Nurjumise järel jäetakse paigaldus sellisesse olekusse, nagu nurjumine selle jättis.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>Säilita sisse kandmata muudatused</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>Käivita ka siis, kui sätetes, laiendustes või kujundustes on sisse kandmata muudatusi; need lähevad hetktõmmisesse.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>Sissekandeta</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>Ära kanna sisse olekufaili ega käivituse logi (ka sildistamist ega edasilükkamist ei toimu).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>Edasilükkamiseta</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>Kanna sisse ja sildista, kuid ära lükka edasi.</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>Sildita</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>Kanna sisse ja lükka edasi, kuid ära sildista käivitust.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>Jah, käivita need migratsioonid kohe</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Ükski migratsioon pole ootel.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>Tagasi oleku juurde</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>Selle paigalduse muudatused, mis on üks kord failidena kirja pandud (sisu, klassid, rollid, sätted, skeem) ja rakendatakse saidi igale paigaldusele samas järjekorras. Käivitus teeb kõigepealt hetktõmmise, taastab selle, kui mõni migratsioon nurjub, ning salvestab, kannab sisse ja lükkab edasi, mida tegi.</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>Käivita %count ootel</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Ülevaade</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Ootel</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Tehtud</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Nurjunud</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>Pole vaja</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>Andmebaas</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>tehingud: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>Saidi migratsioonid on kaustas migrations/, laienduse omad kaustas extension/&lt;name&gt;/migrations/. Need käivitatakse nimede ja sõltuvuste järjekorras.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Viimane käivitus</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>Fail muutus pärast rakendamist.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>Migratsioone veel pole. ./console exp:migration:generate --skeleton &lt;name&gt; --apply kirjutab esimese.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>Viimased käivitused</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>Kõik käivitused</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>Käivitusi veel pole.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>Käivituse simuleerimiseks on vaja reeglit migration/run.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>Käivitus on pooleli: simuleerige, kui see on lõppenud.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Häälestus</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target pole selle paigalduse käivitus, migratsioon ega hetktõmmis.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>Märkige kõigepealt „Jah, võta tagasi“.</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>Varasema hetktõmmise taastamine on asjatundjatele: märkige „Ma tean, mida see taastab“.</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>Sisestage hetktõmmise ID uuesti: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>Valige vähemalt üks taastatav osa.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>Sellele käivitusele ei eelnenud hetktõmmist: võtke selle migratsioonid ükshaaval tagasi või taastage varasem hetktõmmis.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>Seda migratsiooni ei saa iseseisvalt tagasi võtta: see pole rakendatud või sel pole down()-i.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Vormi ei õnnestunud lugeda.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>Valige jätkatav käivitus.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>Märkige kõigepealt „Jah, käivita need migratsioonid kohe“.</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>Valige vähemalt üks migratsioon.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>Migratsioon muutus pärast rakendamist: aktsepteerige muudatus koos põhjusega või taastage fail.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>Andke põhjus, miks muudetud migratsioonid aktsepteeritakse.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>Põhjus on kuni 500 märki.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>Siin alustatud käivitus on veel pooleli (%detail). Oodake, kuni see lõpeb.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>Paigalduse lukku hoiab teine käivitus: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>Käivitus vajab olemasolevat sisseloginud kasutajat.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>php käsureaprogrammi ei leitud. Määrake selle täielik tee sättes migration.ini [AdminSettings] PhpCliPath.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open on keelatud, seega ei saa siin käivitust alustada. Käivitage serveris ./console exp:migration:migrate --apply.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>Käivituste kausta ei saa kirjutada: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>Käivitus alustati, kuid see ei teatanud oma protsessi ID-d. Kontrollige: %detail.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>Märkige, mida tagasi võtta.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>Käivitust ei õnnestunud alustada.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>Muudatuste salvestamine</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>Salvestamise ajal säilitatakse see, mida muudate halduses või saidi külgribal, migratsiooni sammudena: sisu, klassid, rollid ja poliitikad, sektsioonid, kasutajad ja rühmad, URL-i aliased, seaded. Peatage see, kui olete valmis, vaadake, mida see jäädvustas, ja looge sellest migratsioon.</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>Salvestusi ei õnnestunud lugeda: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>Salvestuste tabeleid veel pole: käivitage esmalt uuendus (exp:upgrade --apply).</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>Salvestamine on failis migration.ini välja lülitatud ([RecordingSettings] Recording=disabled).</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>Minu muudatused</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>Salvestab ainult seda, mida teie muudate, ükskõik kus, kuni selle peatate.</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>Salvestamine</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>alates %time, seni muudatusi: %count.</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>Silt (valikuline)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>Näita, mida see jäädvustas</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Peata salvestamine</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>Alusta minu muudatuste salvestamist</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>Kogu saidi aken</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>Salvestab iga kasutaja ja konsooli iga muudatuse, kuni aken suletakse. Avamisel palutakse teil kinnitada, et see olete teie.</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Avatud</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>Sulge aken</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>Ava kogu saidi aken</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>Salvestused</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>Kasutaja kontot (kasutajanimi, e-post, parool) ja kasutajakontode välju ei salvestata kunagi.</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Muudatused</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>Kogu sait</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>Kasutaja %name muudatused</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Peatatud</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>Salvestusi veel pole.</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>Salvestus %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>Kõik salvestused</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>Migratsioon, mis sellest tekiks</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>Muudatused, koondatud üheks sammuks iga muudetud asja kohta: mida teeks sellest salvestusest loodud migratsioon.</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>Sellest saab luua migratsiooni, kui sellel paigaldusel on YAML-i sammutüübid %types.</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>Teadlikult välja jäetud: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>Midagi ei salvestatud.</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>Mida see jäädvustas</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>Muudatusi: %count, tegemise järjekorras.</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Muudatus</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>Samm</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>Puudutab</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>Veel %count: ./console exp:migration:record:show loetleb kõik.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Hülga</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>Eemaldab salvestuse ja selle, mida see jäädvustas. Muudetu jääb muudetuks.</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>Jah, hülga see salvestus</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>Salvestamine käib…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Teie muudatused salvestatakse migratsiooni jaoks.</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>Iga muudatus sellel saidil salvestatakse migratsiooni jaoks (kogu saidi aken).</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>Kogu saidi salvestamine on alanud: iga kasutaja iga muudatus salvestatakse, kuni selle peatate.</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>Salvestamine on alanud: teie muudatused salvestatakse, kuni selle peatate.</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>Salvestamine peatatud. See, mida see jäädvustas, jääb alles, kuni selle hülgate.</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>Salvestus ja selle sündmused on eemaldatud.</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>Salvestust %id pole.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>Märkige esmalt „Jah, hülga see salvestus“.</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>Seansi salvestamise võib peatada ainult kasutaja, kes salvestas.</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>Valige peatatav salvestus.</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>Seda liiki salvestamine juba käib.</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>Salvestust ei õnnestunud muuta: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>Genereeri migratsioon</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>Migratsiooni nimi (valikuline)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>Migratsioon %file on kirjutatud. Muudatused, mida ükski samm teha ei saa, on nimetatud faili alguses ja need tuleb teha käsitsi.</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>Ühtegi migratsiooni ei kirjutatud: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>Pikk käivitus osadena</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>Tühjad väljad säilitavad faili migration.ini [RunSettings] sätted.</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>Kuni nii palju migratsioone</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>Rohkem migratsioone pärast (sekundit)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>Paus migratsioonide vahel (sekundit)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>Madalam prioriteet (1 kuni 19)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>Pika käivituse väli on täisarv alates 1 (paus: sekundeid 0 kuni 60, prioriteet: 1 kuni 19) või tühi.</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>See sulgub ise kell %time.</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>Sulge ise pärast (minutit, valikuline)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>Minutid on täisarv vahemikus 1 kuni 44640 (31 päeva) või tühi.</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>Migratsioon %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>Uus migratsioon</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>YAML-migratsioon: kirjutage see tekstina või koostage selle sammud vormis, kontrollige seda ja salvestage see siis migratsioonide kausta.</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>See migratsioon on juba käivitatud, seega seda uuesti ei salvestata: kontrollsumma kaitse lükkaks muudetud faili tagasi. Tehke muudatus uues migratsioonis.</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>Veebiserver ei saa faili kirjutada.</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>Kommentaariread alguses on päis (description, author, requires, environments, engines). Kui vormis lisatakse või muudetakse sammu, kirjutatakse migratsioon uuesti: sammude vahelisi kommentaare ei säilitata.</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>Migratsiooni nimi</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>Kuhu see läheb</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>Sait</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>YAML-tekst</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>Kontrolli</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Salvesta</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Sammud</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>Võtmed</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Redigeeri</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>Teisalda üles</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>Teisalda alla</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Eemalda</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>Samme veel pole: lisage üks vormiga või kirjutage need teksti.</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>Muuda sammu %number</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>Sammu lisamine</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>Sammu vorm luuakse selle sammu tüübist: selle võtmed, mida igaüks vastu võtab, ja režiimid, kuhu see kuulub.</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>Sammu tüüp</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>Näita selle vormi</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>Sammul on võtmeid, mida selle tüüp ei tunne; sammu muutmisel jäetakse need välja: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>Režiim</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>Asukoht</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>ainult režiimides %modes</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>Vaikimisi: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>Tingimused, viited ja kommentaar</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>Paarid Nimi=väärtus, komadega eraldatud. Selle sammu väärtused: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>Näide</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>Muuda sammu</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>Lisa samm</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>Mida ütleb exp:migration:check: päis, dokument ja iga samm, mida kontrollib selle sammu tüüp.</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>Migratsioon läbib kontrolli.</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Eelvaade</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>YAML-tekst sellisena, nagu see salvestatakse.</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>Näita YAML-i</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>YAML-migratsioonid</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>käivitatud</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>YAML-migratsioone veel pole.</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>Toimetaja</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>Migratsioonide kaustades pole YAML-migratsiooni %id.</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>Valige sammu tüüp.</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>Samm on lisatud. Kontrollige migratsiooni enne selle salvestamist.</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>Samm on muudetud. Kontrollige migratsiooni enne selle salvestamist.</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>Valige samm.</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>Sellel sammul pole vormi (tsükkel või sammu tüüp, mida sellel paigaldusel pole): muutke seda tekstis.</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>Valige, kuhu migratsioon läheb: sait või aktiivne laiendus.</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>%file on salvestatud. Tehke proovikäivitus, enne kui migratsioon käivitub.</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>Ei salvestatud: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>Kaugsüsteemid</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>Teised paigaldused, kuhu see paigaldus oma migratsioone juurutab: juurutus saadab migratsioonid valitud kaugsüsteemidesse ja käivitab need seal, kõik korraga ja sünkroonis. Kaugsüsteem ei hoia kunagi saladust: selle mandaat nimetab ühe saladuse jaotises Häälestus &gt; Saladused.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>Uus kaugsüsteem</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Abi</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>Kaugsüsteemi %id ühenduse test</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>Kaugsüsteemid</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>Korraga töödeldakse kuni %parallel kaugsüsteemi; üks faas võib igaühes kesta %timeout sekundit.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>Kaugsüsteem</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Aadress</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Mandaat</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>Rühmad</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>sätted vajavad parandamist</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>ainult failid (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>SSH-võti</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>Parool</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>puudub (hosti SSH-agent ja võtmed)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>Testi ühendust</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>Rühmale suunatud juurutus läheb rühma igasse kaugsüsteemi.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>Juuruta kaugsüsteemidesse</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>Ühtegi kaugsüsteemi pole veel seadistatud.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>Kaugsüsteem %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>Siin ei saadeta ega käivitata midagi: Salvesta kirjutab sätted faili settings/override/migration.ini.append.php. Mandaat on nimi; selle väärtus jääb jaotisse Häälestus &gt; Saladused või keskkonda.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Kontrollige neid sätteid</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>Sätted sisestatud kujul, veel salvestamata.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Ülevaatus</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Sätted on kehtivad. Kirjutatakse need read:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>Edastusviis</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>ainult nimi; väärtus jääb asukohta Häälestus &gt; Saladused</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Read, mis kirjutatakse</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>Ühendus</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>Hosti võti</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. Kaugsüsteem</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>Kuidas kaugsüsteemi nimetatakse ja mis keskkond see on.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>Tähed, numbrid, - ja _, näiteks production1. See nimetab kaugsüsteemi aruannetes ja konsoolil (--remotes=production1) ning seda ei saa hiljem muuta.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... Etappidena juurutus läbib keskkonnad selles järjekorras.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>Valikuline, komadega eraldatud, näiteks production. Rühmale suunatud juurutus läheb rühma igasse kaugsüsteemi.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. Ühendus</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>Kuidas failid sinna jõuavad ja kus paigaldus asub.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>Üle SSH, ainult muutunu, katkenud edastust jätkatakse. Parim valik seal, kus rsync on paigaldatud.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>SSH koos scp-ga failide jaoks.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>SSH koos sftp-ga failide jaoks.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>Ainult failid: migratsioonid saadetakse ja loetakse tagasi, kuid neid ei saa seal käivitada.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>FTP üle TLS-i; ainult failid.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>Teine paigaldus selles serveris, kaustas.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Host</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>Hostinimi või aadress, näiteks node1.example.com. Mitte local puhul.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>Port</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>Tühi: SSH puhul 22, FTP puhul 21.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Kasutaja</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>Tee</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>Paigalduse juurkaust seal, näiteks /var/www/site (FTP puhul: tee, mida FTP-konto näeb).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>PHP käsurida</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>Sealne PHP CLI: php või täielik tee, näiteks /opt/plesk/php/8.4/bin/php.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>Konsooliskriptid töötavad seal kasutajana root</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>Ainult siis, kui kaugsüsteemi kasutaja on root (siis käivitatakse need võtmega --allow-root-user).</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. Mandaat</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>Kuidas see paigaldus seal sisse logib. Salvestatakse ainult nimi.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Puudub</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>Selle kasutaja SSH-agent ja võtmed, kellena see paigaldus töötab (local puhul alati).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>Saladusena hoitav privaatvõti.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>Saladusena hoitav parool (FTP logib sellega sisse).</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>Saladuse nimi</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>Saladus jaotisest Häälestus &gt; Saladused, näiteks deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Häälestus &gt; Saladused</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>Või keskkonnamuutuja</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>Serveriprotsessi muutuja, mis seda hoiab, näiteks DEPLOY_KEY (salvestatakse kujul env:DEPLOY_KEY). See asendab saladuse nime.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. Hosti võti</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>Valikuline, SSH, sftp ja rsynci jaoks.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>Hosti võtme sõrmejälg</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... nii, nagu ssh-keygen -l selle väljastab. Selle olemasolul peab host näitama just seda võtit; ilma selleta õpitakse võti esimesel ühendusel.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. Ülevaatus</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>Testige ühendust ülaltoodud sätetega, seejärel vaadake üle read, mis kirjutatakse.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>Eemalda see kaugsüsteem</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>Selle sätted eemaldatakse failist settings/override/migration.ini.append.php. Kaugsüsteemis ei muutu midagi ja selle juurutused jäävad ajalukku.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>Jah, eemalda see kaugsüsteem</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>Juurutused</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>Juurutus saadab selle paigalduse migratsioonid valitud kaugsüsteemidesse ja käivitab need seal kasutajana %user, kõik korraga ja sünkroonis: iga kaugsüsteemi kontrollitakse esmalt ning kui üks nurjub, võetakse tagasi iga kaugsüsteem, mis need rakendas. See toimub taustal ja selle lehel on iga kaugsüsteem edenemise käigus näha.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. Kaugsüsteemid</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>Märkige kaugsüsteemid, rühm või mõlemad.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>Juuruta sinna</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. Kuidas</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>Juuruta</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>Saada ja käivita</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>Migratsioonid saadetakse igasse kaugsüsteemi, kontrollitakse ja käivitatakse ühise käivituse ID-ga.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>Ainult edastus</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>Failid saadetakse ja kontrollitakse, midagi ei käivitata (FTP-kaugsüsteemi ainus võimalus).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>Etappidena</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>Etapp etapi järel keskkondade järjekorras (dev, stage, beta, production ...): juurutatakse esimene etapp, seejärel ootab värav, kuni keegi järgmise kinnitab. Iga etapi piires kõik või mitte midagi.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>Ainult need migratsioonid</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>Valikuline: migratsioonide ID-d, komadega eraldatud. Tühi: saidi ja selle laienduste kõik migratsioonid.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>Ainult eelkontroll</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>Jah, juuruta kohe</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>Juurutused, mis midagi saatsid või käivitasid, uusim eespool (eelkontroll aruannet ei säilita).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>ainult edastus</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>etappidena, %stages etappi</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>pole sünkroonis</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>Juurutusi veel pole.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>Juurutus %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Juurutuse iga kaugsüsteem koos olekuga. Siin alustatud juurutus jätkub taustal, kui see leht suletakse; selle jälgimiseks avage leht uuesti.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>Kõik juurutused</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>Eelkontroll</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>Järgmine etapp</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>Sätete ja mandaatide kontrollimine</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>Eelkontroll: iga kaugsüsteemi oleku lugemine</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>Migratsioonifailide saatmine</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>Saabunu kontrollimine</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>Migratsioonide käivitamine igas kaugsüsteemis</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>Kaugsüsteemide tagasivõtmine</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>Juurutus on lõppenud. Selle aruande laadimine.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>Edenemist ei õnnestunud jälgida. Laadige leht uuesti, et näha, kuidas juurutusel läheb.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>Faas</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>See leht jälgib juurutust selle käigus.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>Sünkroonis</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>Etapid</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>etapp %stage ootab oma väravas</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>Värav %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>kinnitas %user, %time</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>Etapp</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>Saadetud failid</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>Tuuma versioon</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>rakendatud: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>rakendada: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>Faasid</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>Värav: etapp %stage %stages-st</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>Eelnevad etapid on juurutatud. Kontrollige neid ja kinnitage seejärel järgmine etapp: selle kaugsüsteeme kontrollitakse uuesti ja juurutatakse, kõik või mitte midagi.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Järgmine</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>Jah, juuruta järgmine etapp kohe</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Kinnita</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>Võta see juurutus tagasi</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>Iga kaugsüsteem, mis selle rakendas (%list), naaseb oma käivituse eel tehtud hetktõmmise juurde, kõik korraga.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>Jah, võta see juurutus kohe tagasi</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>kavandatud</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>edastatud</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>juurutatud</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>ootab väravas</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>valitud</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>ettevalmistatud</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>valmis</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>ootab oma etappi</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>failid saadetud</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>kontrollitud</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>nurjus, taastas end ise</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>muutmata</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>juurutamata</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>pole kättesaadav</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>Kaugsüsteem vastas.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>Kaugsüsteemi ei saa praegu kasutada.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done tehtud, %pending ootel, %failed nurjus</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>Lukk</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>käivitus hoiab seal lukku</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>vaba</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stage %stages-st</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>Valige testitav kaugsüsteem.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>Märkige esmalt „Jah, eemalda see kaugsüsteem“.</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>Kaugsüsteemi ei õnnestunud eemaldada: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>Kaugsüsteemi ei õnnestunud salvestada: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Sätete faili ei saa lugeda: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>Valige vähemalt üks kaugsüsteem või rühm.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>Valitud kaugsüsteemi pole enam sätetes. Laadige leht uuesti.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>Märkige esmalt „Jah, juuruta kohe“.</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>FTP-kaugsüsteem ei saa migratsioone käivitada: valige „Ainult edastus“ või jätke see välja.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>Juurutatavad migratsioonid on migratsioonide ID-d, komadega eraldatud.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>Juurutus on veel pooleli. Oodake, kuni see lõpeb.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>See juurutus ei oota väravas.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>Ükski kaugsüsteem ei rakendanud seda juurutust: tagasi võtta pole midagi.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>Märkige esmalt „Jah, juuruta järgmine etapp kohe“.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>Märkige esmalt „Jah, võta see juurutus kohe tagasi“.</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>Kaugsüsteem ID-ga %id on juba olemas.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>Port on arv vahemikus 1 kuni 65535.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>Keskkond on sõna, mis koosneb tähtedest, numbritest ning märkidest - ja _ (alpha, dev, stage, beta, production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>Rühm on sõna, mis koosneb tähtedest, numbritest ning märkidest - ja _ (mitte all): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>Mandaati ei saa praegu lugeda: %problem. Salvestage see enne esimest juurutust jaotisse Häälestus &gt; Saladused (või määrake muutuja).</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>FTP-kaugsüsteem ainult võtab faile vastu: juurutus sinna on „Ainult edastus“ ja selle migratsioonid käivitatakse seal käsitsi.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>Kaugsüsteemi %id pole failis settings/override/migration.ini.append.php; eemaldage see seal, kus see on määratud.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>Logiti sisse üle FTP ja loeti index.php. FTP-kaugsüsteemi migratsioonide olekut ei saa lugeda.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>Muudetud</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>Loodud</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Nimi</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Klass</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Jaotis</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>Looja</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Uus sisu</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>Kogu saidi viimati loodud ja muudetud sisu, uusim eespool: mida külastajad saatsid, mis on ülevaatuseks kinni peetud, millised mustandid ootavad avaldamist. Valige üksused, et need vabastada, kinni pidada, peita, kuvada, eemaldada või teise jaotisesse või olekusse viia.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>Loendit ei saanud lugeda: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>Ülevaatuseks kinnipidamine pole veel seadistatud, seega midagi kinni ei peeta ja kinnipidamise toiminguid ei pakuta. Uuendussamm 6.0.15-review-hold seadistab selle: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Filtreeri loendit</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Alates</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Kuni</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Kuupäev</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>Loodud (esmakordselt avaldatud)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Kõik</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Olek</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Avaldatud</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>Mustand, pole kunagi avaldatud</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>Ootel (ootab kinnitust või kuupäeva)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>Prügikastis</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Ülevaatuseks kinni peetud</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>Kinni peetud</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>Pole kinni peetud</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>Peidetud</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>Nähtav</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>Saadetud saidi juurdepääsust</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>Mis tahes saidi juurdepääs</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>Ainult see, mille audit salvestas.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>Praegu: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>Kasutajanimi või kasutaja ID.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Filtreeri</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>Tühjenda filtrid</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>Üksused</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from kuni %to / %count</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Üksusi pole</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(loetud %ms ms jooksul)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>Toimingud valitud üksustega</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>Vali kõik sellel lehel</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>%count valitud</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Toiming</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>Valige toiming</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>Vabasta kinnipidamisest</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Pea ülevaatuseks kinni</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Peida</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>Kuva</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>Vii prügikasti</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>Kustuta</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>Määra jaotis</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>Määra olek</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>Põhjus</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>Kinnipidamiseks vajalik; säilitatakse koos kinnipidamise ja auditiga.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>Valige jaotis</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Olek</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>Valige olek</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>Rakenda valitutele</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>Iga üksust kontrollitakse teie enda õiguste suhtes. Prügikasti viimine ja kustutamine nõuavad kinnitust. Üle %count üksuse töödeldakse taustal.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>Vali</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>Avaldamine</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>Saadetud aadressilt</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>Vali %name</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>veel mitte</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(nimeta)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>Tunnus %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>Mustand</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Ootel</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>Peidetud ülema tõttu</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>Kinni peetud: uus saadetis</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>Versioon %version ootel</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>Versioon %version pooleli</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>Mustand, versioon %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>Versioon %version avaldatud</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>Ajastatud: %date</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>aadress puudub</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>pole salvestatud</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>Nende filtritega ei leitud midagi.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Kuva kõik</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>Sisu veel pole.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Lehel</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Kuva %count üksust lehel.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says &quot;not recorded&quot;.</source>
+        <translation>Saadetise aadress ja brauser tulevad auditi indeksist, mis pole siin saadaval: veerus on kirjas &quot;pole salvestatud&quot;.</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>Aadress ja brauser on need, mille audit üksuse kohta salvestas (automaatne kinnipidamine salvestab need alati; avaldamine ja loomine ainult siis, kui see on sisse lülitatud), nii nagu selle privaatsusseaded neid säilitavad.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: %count üksust</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>Kustutamine eemaldab üksused jäädavalt koos kõigi nende versioonide ja tõlgetega. Seda ei saa tagasi võtta.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>Üksused viiakse prügikasti, kust neid saab taastada.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>Iga üksust kontrollitakse teie enda õiguste suhtes; alamüksustega üksus jäetakse puutumata (eemaldage see sisu struktuuris). Teil palutakse kinnitada, et see olete teie.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>See töötab taustal: avaneb selle edenemise leht ja kui see on valmis, kuvatakse tulemus iga üksuse kohta.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>Valitud üksused</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>ja veel %count</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Loobu</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>Midagi ei tehtud</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Põhjus: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>Toiming töötab endiselt taustal.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>Selle edenemine</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>Taustatoiming nurjus: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Tehtud</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Keeldutud</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Nurjus</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>Üksuste kaupa</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>Üksus</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Tulemus</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Miks</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>Tagasi loendisse</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Häälestus</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>Midagi ei tehtud</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>Kinnita</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>Valige toiming.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>Valige vähemalt üks üksus.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>Valige korraga kõige rohkem 1000 üksust.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>Öelge, miks üksused kinni peetakse.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>Valige jaotis.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>Valige olek.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Vormi ei saanud lugeda.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>Armatuurlaud</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>Uus sisu</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>Arve ei saanud lugeda: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Ülevaatuseks kinni peetud</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>Täna uued</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Ülevaatuseks kinnipidamine pole veel seadistatud (uuendussamm 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>Kogu uus sisu</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>Teil pole lubatud modereerimistoiminguid käivitada (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>Modereerimistoiming pole lõpetatud: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>Modereerimine: %action %count objektil</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%done / %total objektist: %ok tehtud, %refused keeldutud, %failed nurjus</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok tehtud, %refused keeldutud, %failed nurjus</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>Seda pole enam olemas.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>Sellel pole asukohta (pole avaldatud).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>Teil pole lubatud seda peita (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>Teil pole lubatud seda kuvada (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>See on juba peidetud.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>See pole peidetud.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>Peidetud.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>Kuvatud.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>See on prügikastis: tühjendage või taastage see seal.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>Mustandit, mida pole kunagi avaldatud, ei saa prügikasti viia: kustutage see.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>Teil pole lubatud seda kustutada (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>Kustutatud.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>Teil pole lubatud seda eemaldada (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>Sellel on alamüksused: eemaldage see sisu struktuuris, kus need on loetletud.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>Seda ei eemaldatud (töövoog võib eemaldamist kinni pidada).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>Viidud prügikasti.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>Jaotist pole olemas.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>See on juba selles jaotises.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>Teil pole lubatud seda jaotist määrata (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>Jaotist ei määratud.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>Jaotis määratud.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>Olekut pole olemas.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>See on juba selles olekus.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>Teil pole lubatud seda olekut määrata (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>Olekut ei määratud (töövoog võib muudatust kinni pidada).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>Olek määratud.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>Sellist toimingut pole.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Ülevaatuseks kinnipidamine pole seadistatud (uuendussamm 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>Öelge, miks see kinni peetakse.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>See on juba kinni peetud.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>Teil pole lubatud seda kinni pidada (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>Kinnipidamist ei rakendatud (töövoog võib muudatust kinni pidada).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>Kinni peetud.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>See pole kinni peetud.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>Teil pole lubatud seda vabastada (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>Kinnipidamist ei vabastatud (töövoog võib muudatust kinni pidada).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>Vabastatud; endiselt peidetud: teil pole lubatud seda kuvada (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>Vabastatud.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>Kõik sihtkohad</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Viimane avaldamine</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>Avaldage oma saidi tasuta staatiline koopia GitHub Pagesis:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Aegunud lehed</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Staatiline avaldamine</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Staatiline avaldamine on välja lülitatud.</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Sihtkoht</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Sihtkohti ei õnnestunud lugeda: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>töö on käimas</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>kooste kontrollimiseks</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>peida see</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>loo sihtkoht</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>mitte kunagi</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>loe õpetust</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>%added lisatud, %changed muudetud, %removed eemaldatud</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%bytes / %limit (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>Veel %count pole loetletud.</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>%pages lehte kirjutatud</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path on %size, rohkem kui host ühe faili jaoks lubab.</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>%percent % piirangust</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds s</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag on avaldamine, mis saidil praegu on.</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: töö %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>/hoidla/ GitHubi projektisaidi jaoks; tühi oma domeeni või kasutajasaidi jaoks.</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. Sait</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. Host</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. Hoidlasse sisselogimine</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. Hoidla</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. Lingid ja baastee</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. Teie oma domeen</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. Mida kooste sisaldab</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. Millal avaldatakse</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. Ülevaatus ja salvestamine</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>GitHubi projektisait asub tee /&lt;repository&gt;/ all; suhtelised lingid töötavad seal ja ka mujal.</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>Kooste toob saidi %site iga lehe nii, nagu seda näeb sisselogimata külastaja, kirjutab lingid ümber, kopeerib failid ja kirjutab tulemuse sihtkoha kausta. Midagi ei avaldata enne, kui olete koostet kontrollinud ja vajutanud Avalda.</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>Croni avaldis, näiteks 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>Juurutusvõtit hoitakse saladusena %secret.</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>Juurutusvõti lubab sellel paigaldusel SSH kaudu edasi lükata ühte hoidlasse ja mitte kuhugi mujale. Selle privaatne pool jääb asukohta Häälestus &gt; Saladused; näidatakse ainult avalikku poolt.</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>Selle sihtkoha jaoks loodud juurutusvõti</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>Juurutusvõti logib sisse SSH kaudu: muutke git-aadress SSH-aadressiks (git@github.com:owner/repo.git).</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>Töö on käimas, alustas %user</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>Selle sihtkoha töö on veel käimas (%detail). Oodake, kuni see lõpeb.</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>Selle sihtkoha töö on veel käimas. Oodake, kuni see lõpeb.</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>Link lehelt /news/ lehele /about-us/team kirjutatakse kujul</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>Loodi uus juurutusvõti. Lisage selle avalik pool nüüd hoidlasse.</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>Lehte, mis pärast puhastamist sisaldab endiselt silumisväljundit, vormitõendit või seansi ID-d, ei avaldata kunagi.</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>Tagasivõtmine on ekspertidele: märkige &quot;Tean, mida see muudab&quot; ja tippige sildi nimi uuesti.</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>Sait võib olla kuni %site, üks fail kuni %file, liiklust umbes 100 GB kuus. Tasuta paketi puhul peab hoidla olema avalik. GitHub Pages pole mõeldud poodidele ega muudele kaubanduslikele tehingutele.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>Sihtkoht on üks sait, mis avaldatakse ühte git-hoidlasse. Siin ei koostata ega avaldata midagi: Salvesta kirjutab sätted faili settings/override/staticcache.ini.append.php.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>Sihtkoht on üks sait, mis avaldatakse ühte kohta, näiteks teie avalik sait GitHub Pagesis.</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>Tõend asukohast Häälestus &gt; Saladused</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>Hoidla töövoog avaldab selle.</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>Lisage see avalik võti hoidlasse kirjutusõigusega. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, märkige Allow write access.</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>Lisatud</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>Muu git-host</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>Teine protsess töötab selle sihtkohaga: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>Tagasi</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>Baastee</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Enne</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>Baastee all</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>Haru</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>Katkised lingid</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>Katkised lingid koostes</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>Kooste</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>Kooste %id, koostas %user</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>Koosta %name</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>Koosta kohe</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>Kooste kontrollimiseks</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Kasutaja</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>Käsitsi, siin</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Loobu</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Muuda</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>Muudetud</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Muudatused</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>Kontrollige seda esmalt</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Kontrollige neid sätteid</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>Kontrollige, mida kooste muudab, vaadake seda ning seejärel avaldage see või visake ära.</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>Valige avaldamine, mille juurde naasta.</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>Tuleb hilisemas väljalaskes.</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Sissekanne</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>Sissekanded</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>Teeb koostest sissekande, sildistab selle ja lükkab edasi asukohta %remote. Edasilükkamist ei sunnita kunagi; hiljem saate naasta mis tahes avaldamise juurde.</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>Võrreldes varasema kaustaga: %added lisatud, %changed muudetud, %removed eemaldatud, %unchanged muutmata.</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>Võrreldes viimase avaldamisega.</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Mandaat</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>Oma domeen</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>Silumisväljund, vormitõendid, seansi ID-d ja nonce&apos;id eemaldatakse alati.</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>Juurutusvõti</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>%name juurutusvõti</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Hülga</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>Hülga kooste</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>Domeen</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>Tühi: saidi aadress. Muul juhul sama saidi sisemine aadress.</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Lõppenud</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>Iga link algab baasteega.</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>Iga avaldamine on sissekanne sildiga static/%id/&lt;n&gt;. Tagasiminek teeb uue sissekande varasema avaldamise failidega: ajalugu jääb alles, ükski silt ei liigu ja midagi ei sunnita.</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>Lisafailid</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>Too lehed aadressilt</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Fail</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>Failid</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>Puuduvad failid</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>Failid:</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>Failid, mida ei õnnestunud koguda</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>Sõrmejälg</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>Kaust</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>SSH-aadressi jaoks. Võti luuakse pärast salvestamist; selle avaliku poole lisate ise hoidlasse.</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>https://-aadressi jaoks. GitHub: peeneteraline tõend, millel on hoidlas Contents lugemis- ja kirjutusõigus.</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>Ekspertidele. Avalik sait muutub kohe, kui edasilükkamine on lõpule jõudnud.</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Vormid</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>Tasuta majutus GitHubi hoidlast.</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>Harust</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>Git-aadress</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages lubab saiti suurusega %site ja faili suurusega %file.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>GitHub Pagesi piirangud</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages avaldab failid nii, nagu need on (vajalik failide puhul, mis algavad märgiga _).</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub serveerib haru nii, nagu see edasi lükati. Vaikimisi.</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, teie oma server: mis tahes git-hoidla.</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>Naase varasema avaldamise juurde</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Abi</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>Abi viisardiga</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>Peida need</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Ajalugu</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>%name ajalugu</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Host</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>Kuidas GitHub Pages koostet vastu võtab</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>Olen muudatusi kontrollinud</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>Tean, mida see muudab</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>See on välja lülitatud: midagi ei saa koostada enne, kui see on sisse lülitatud.</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>See töötab taustal kasutajana %user; võite selle lehe sulgeda.</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>Töö %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>Hoitakse saladusena %secret.</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Liik</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Viimane avaldamine</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>Jäta need lehed välja</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>Jäta need jaotised välja</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Lingid</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>Ümberkirjutatud lingid</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>Avalik sait</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>Vaata koostet</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>Väiketähed, numbrid, _ ja -, näiteks github-public. See annab nime kaustale ja siltidele (static/&lt;id&gt;/&lt;n&gt;) ning seda ei saa hiljem muuta.</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>Loo uus võti</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>Loo sihtkoht</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>Loo võti</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>Looge hoidla esmalt hostis; tühi hoidla sobib.</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>Manifest</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Sõnum</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>Enamik lehti</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Nimi</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>Tõendi nimi asukohas Häälestus &gt; Saladused</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>Uus sihtkoht</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Edasi</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>Ei</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>Sissekandeid veel pole.</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>Võtit ei loodud: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>php käsurea programmi ei leitud. Määrake migration.ini [AdminSettings] PhpCliPath väärtuseks selle täielik tee.</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>Silte veel pole.</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>Sihtkohti veel pole.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Puudub</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>Pole koostes.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>Midagi pole veel avaldatud.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>Midagi pole veel avaldatud: iga fail on uus.</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>Teavitused</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>Ajakava järgi</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>Konsoolis</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>Serveris: ./console exp:static:serve %id serveerib seda samamoodi.</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>Üks tee rea kohta, * vastab mis tahes osale: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>Sihtkohaga salvestatakse ainult nimi; tõend või võti ise jääb asukohta Häälestus &gt; Saladused ega ilmu kunagi logisse.</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>Ainult see, mida lehed nimetavad</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>Ainult tõendiga. env:NAME loeb selle asemel serveri keskkonnamuutujat.</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>Ava eelvaade</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>Avab kooste nii, nagu host seda serveerib, sihtkoha kaustast. Link töötab teie jaoks ühe tunni.</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>Valikuline. Tühi: see, mis avaldati.</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>Valikuline. Domeeniga serveeritakse saiti selle juurest.</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Väljund</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>Lehed</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>Sihtkoha lehed</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>Tagasi lükatud lehed</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>Järeltöötlus</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Eelvaade</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>Eelvaade ja avaldamine</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>%name eelvaade ja avaldamine</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>Koostu eelvaade</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Edenemine</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>Avalik aadress</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>Avalik võti</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>Avalda</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>Avaldage saidi staatiline koopia GitHub Pagesis või mis tahes git-hostis: koostage see, kontrollige muudatusi, avaldage ja naaske vajaduse korral varasema avaldamise juurde.</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>Avaldamine, mille juurde naasta</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>Avaldamised</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Edasilükkamine</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>Loe õpetust</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Kirje</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Tagasi lükatud</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>Suhteline</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Laadi uuesti</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>Eemaldatud</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>Asenda võti: vana lakkab töötamast</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Aruanne</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>Koostu aruanne</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Hoidla</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Ülevaatus</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>Ülevaatus kontrollib iga sätet ja näitab ridu, mis kirjutatakse. Midagi pole veel salvestatud.</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Võta tagasi</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Tagasivõtmine</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Salvesta</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>Ajakava</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>Otsinguleht</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>Jaotiste ID-d, komadega eraldatud.</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>Saada need avalikule saidile</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>Säte</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Sätted</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>%name sätted</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Häälestus</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Häälestus &gt; Saladused</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>Kuvatakse loendites, näiteks &quot;Avalik sait GitHub Pagesis&quot;.</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>GitHub Appiga sisselogimine tuleb koos GitHubi integratsiooniga.</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>Sait</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>Avaldatav sait</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Suurus</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>Suurus ja piirangud</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>Koostu suurus</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Aegunud lehed</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Alustatud</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Alustas %user kell %time.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Olek</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Staatiline avaldamine</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>Staatiline avaldamine on välja lülitatud</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Staatiline avaldamine on välja lülitatud.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>Staatiline avaldamine on välja lülitatud. Lülitage see esmalt sisse asukohas Häälestus &gt; Staatiline avaldamine.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>Staatiline avaldamine on sisse lülitatud.</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>Samm %step / %total</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Sammud</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>Puhastus</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Lülita välja</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Lülita sisse</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>Lülita staatiline avaldamine sisse</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Silt</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>Sildid</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Sihtkoht</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>Sihtkohti saab luua ja muuta, kuid midagi ei koostata ega avaldata enne, kui see on sisse lülitatud.</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>Ütleb otsingumootoritele, mida lugeda.</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>Koostet ei õnnestunud ära visata: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>Kooste on sama mis viimane avaldamine: avaldada pole midagi.</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>Kooste visati ära: kaustas on taas viimane avaldamine.</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>Vaikeväärtused sobivad enamikule saitidele.</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>Kaustas on kooste, mida pole veel avaldatud; uus kooste asendab selle.</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>Tööde kausta ei saa kirjutada: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>Tööd ei õnnestunud ette valmistada: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>Tööd ei õnnestunud alustada.</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>Töö on lõppenud. Aruande laadimine.</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>Töö vajab sisselogitud kasutajat.</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>Töö käivitati, kuid see ei teatanud oma protsessi ID-d. Kontrollige: %detail.</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>Võti</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>Suurim fail: %path, %size.</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Read, mis kirjutatakse</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>Lehtede loend otsingumootoritele; vajab avalikku aadressi.</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>Lehed tuuakse nii, nagu neid näeb sisselogimata külastaja. Haldus- ja toimetamissaidipääse ei pakuta kunagi.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>Edenemist ei õnnestunud jälgida. Laadige leht uuesti, et näha, kuidas tööl läheb.</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>Võtme avalik pool:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>Haru juur</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>Saladuste hoidla pole veel seadistatud (./console exp:upgrade --apply loob selle tabeli), seega ei saa võtit hoida.</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>Server logib ise sisse (oma SSH-võtme või mandaadiabilisega) või on hoidla selles serveris.</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>Sätet ei õnnestunud kirjutada: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Sätted on kehtivad. Kirjutatakse need read:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Sätete faili ei saa lugeda: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>Sait naaseb selle avaldamise failide juurde; veel avaldamata kooste tuleb esmalt avaldada või ära visata.</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>Saidi oma leht aadresside jaoks, mida pole olemas.</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>Sihtkohta ei õnnestunud salvestada: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>Sihtkoht ei logi veel selle võtmega sisse: valige selle sätetes &quot;Selle sihtkoha jaoks loodud juurutusvõti&quot;.</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Sihtkohti ei õnnestunud lugeda: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>Kontrollimiseks pole veel koostet.</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>Sellel paigaldusel pole avalikku saidipääsu. Haldus- ja toimetamissaidipääse ei avaldata kunagi.</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>See leht jälgib tööd selle käigus; töö jätkub taustal, kui leht suletakse.</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>Sellel sihtkohal pole veel juurutusvõtit.</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>Seda sihtkohta pole siin veel koostatud.</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>Sellel sihtkohal on see olemas.</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>Viskab selle koostu ära: kaustas on taas viimane avaldamine. Avalik sait ei muutu.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>Märkige esmalt &quot;Olen muudatusi kontrollinud&quot;.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Aeg</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>Käivitajad</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>Tippige sildi nimi uuesti</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>Muutmata</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>Veebihaak</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Mis</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>Mis muutub</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>Mis iga fail on; kirjutatakse alati.</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>Mida töö tegi ja selle kirje. Siin alustatud töö jätkub taustal, kui see leht suletakse.</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>Mida töö vigadena väljastas</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>See, mida lehed nimetavad, ja avaldatud sisu iga pilt</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Millal</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>Kui avaldamine nurjub</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>Kui avaldamine õnnestub</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>Kui sisu avaldatakse</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>Kuhu viivad lingid sellele, mida koopia ei sisalda (otsing, sisselogimine).</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>Kust staatilist koopiat serveeritakse.</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>Milline sait avaldatakse ja mis on sihtkoha nimi.</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>Töötab mis tahes tee all. Vaikimisi.</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>Kirjutatakse alati, kui oma domeen on määratud.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>Jah</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>Siin ja konsoolis saate alati käsitsi koostada ja avaldada.</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>ainult nimi; väärtus jääb asukohta Häälestus &gt; Saladused</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>tee %path all</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>lõppes aruandeta</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>lisa</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>nurjus</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>fail</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages või main kaustaga docs.</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>git-host</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (tõendiga) või git@github.com:owner/repo.git (juurutusvõtmega); kunagi mitte parooli ega tõendit selles.</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/, saidikaardi ja kanooniliste linkide jaoks.</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>pilt</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>mitte kunagi</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ei</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>kaughoidlat pole</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>puudub: sissekanded jäävad kausta</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>puudub: midagi ei muutunud</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>edasi lükkamata</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>midagi ei muutunud</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>leht</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>läbitud</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>proc_open on keelatud, seega ei saa siin tööd alustada. Kasutage serveris käsku ./console exp:static:build.</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>avaldamine</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>avaldatud</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>edasilükkamine ootel</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>edasi lükatud</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>tagasi lükatud</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>suhteline</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>tagasivõtmine</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>tagasi võetud</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>käimas</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>ainult kaust</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: kirjutatakse faili CNAME. Suunake domeeni DNS hostile, nagu host juhendab; HTTPS-i käivitumine võib veidi aega võtta.</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>jah, veel avaldamata</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>Selle avaldab hoidla töövoog. Kooste kirjutab töövoo faili; jätke kaust tühjaks.</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>Kui siht on salvestatud GitHubi hoidla ja tõendi või GitHub Appiga, saab see samm hoidla luua ja GitHub Pagesi sisse lülitada. Muidu looge esmalt hoidla GitHubis; tühi hoidla sobib.</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>Haru või GitHub Actions?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>Kontrolli DNS-i</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>Loo hoidla, kui seda pole</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>Looge hoidla GitHubis ja lülitage selle seadetes GitHub Pages sisse (Settings &gt; Pages).</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>Loob hoidla %repo, kui see puudub (kui soovitud), lülitab GitHub Pagesi sisse harust või GitHub Actionsist, nagu salvestatud, ning seab oma domeeni ja HTTPS-i. Kasutab salvestatud seadeid: salvestage muudatused enne.</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>Üksikasjad GitHubis</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>Sisestage esmalt oma domeen.</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>Iga push kontrollitakse esmalt nende piirangute vastu.</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>GitHubi https://-aadressi jaoks. Sisse logib selle paigalduse jaoks seadistatud App; see vajab paigalduse ID-d.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages teenindab privaatset hoidlat ainult tasulise paketiga.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: alamdomeen (www.example.com) vajab CNAME-kirjet, mis viitab &lt;owner&gt;.github.io-le; tipudomeen (example.com) A-kirjeid %ips.</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>GitHub Appi paigalduse ID</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>Viimane Pagesi kooste</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>Piirangud ja tingimused</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>Vajalik GitHub Pagesi jaoks tasuta paketiga.</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>GitHubis</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>Ainult GitHub Appiga: number Appi paigalduse aadressi lõpus GitHubis. App ise määratakse failis staticcache.ini (GitHubAppId, GitHubAppKey).</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>Privaatne</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>Avalik</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>Salvestage esmalt siht GitHubi hoidla ja tõendi või GitHub Appiga.</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>Määrake need kirjed domeeni teenusepakkuja juures:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>Seadista GitHubis</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>Domeeni %domain DNS ei viita veel GitHub Pagesile.</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>Domeeni %domain DNS viitab GitHub Pagesile.</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>GitHubi lõimimine pole siin saadaval: %problem. Harusse avaldamine töötab sellegipoolest; lülitage GitHub Pages sisse hoidla seadetes.</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>GitHubi sammud pole selle sihi jaoks saadaval: %problem.</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>GitHub Pagesi olekut näidatakse, kui mandaadiks on tõend või GitHub App.</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>Kasuta oma domeeni</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>Mida valida: tõend, juurutusvõti või GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>GitHubi hoidla ja tõendi või GitHub Appiga saab viisard teie eest hoidla luua, GitHub Pagesi sisse lülitada ja domeeni seada (samm 4).</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>koostamisel</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>koostatud</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>GitHub Actionsist</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>harust %branch</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>veel pole</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>ei leitud</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>väljas</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>privaatne</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>avalik</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>järjekorras</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>teadmata</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%count %pages lehel:</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>Iga tekstifaili kõrval .gz- (ja .br-) fail, neile hostidele, mis neid serveerivad.</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>Väike leht iga lehe vana aadressi ja varjunime jaoks, et vanad lingid jätkaksid töötamist.</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>Kirjutatakse alati, kui GitHub Actions saidi kohale toimetab.</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>SPDX-id, näiteks CC-BY-4.0, või tekst ise.</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>Korv</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>Serverikutsed</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Kommentaarid</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>Teavet koguvad vormid</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>GitHub Actionsi töövoog</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>Lehtedel vähem tühja ruumi ja kommentaare pole.</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>Sisu litsents</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Sisselogimine</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>Minimeeri</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>Muud vormid</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>Eelpakkimine</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>Ümbersuunamislehed</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>Ümbersuunamislehed: %count.</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Otsing</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>Otsinguindeks: %pages lehte keeles %languages.</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>Laadilehed ja skriptid, mis on nimetatud nende sisu räsi järgi, et brauserid tohiksid neid hoida.</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>Muudetud lehed, mõni minut pärast viimast muudatust (cronjobi osa staticpublish).</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>Sisu litsents allolevast väljast.</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>Kogu sait ajakava kellaaegadel (cronjobi osa staticpublish).</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>Need lehe osad vajavad serverit; igaühele on antud varulahendus. Kontrolli neid enne avaldamist.</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>Mis ei tööta staatiliselt</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>Mis hoidla on, selle jaoks, kes selle hostis avab.</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>välja jäetud</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>varutekst</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>avaliku saidi vormide lõpp-punkt</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>avalik sait</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>koopia otsingulehe</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>Vormi ei õnnestunud saata.</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>Aitäh: vorm saadeti.</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>Vormi ei võetud vastu: kontrolli sisestatut ja saada see uuesti.</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>Eemalda lingid lehtedele, mida koopias ei ole</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>Eemalda lingid haldusesse</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>Nende tekst jääb alles. Pilte, vorme ja linke teistele saitidele ei eemaldata kunagi.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Versioon</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>Avaldatavad saidi juurdepääsud</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Saidi juurdepääs</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>Juurkaustas</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>Juurkaustas pole saidi juurdepääsu: igaüks on oma kaustas ja juurkaust viitab neile</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Saidi juurdepääsud</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>Märgi üks saidi juurdepääs või mitu, mis jagavad URI-eesliite kaudu üht hosti. Juurkausta oma pakutakse seal, teised oma eesliite kaustas (/ger/); lingid nende vahel jäävad koopiasse. Halduse juurdepääse ei pakuta kunagi.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>Sihtkoha %target staatiline avaldamine saidil %site ebaõnnestus</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>Sihtkoha %target staatiline avaldamine saidil %site õnnestus</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>Selle kirja saatis %site, sest staatilise avaldamise sihtkoht %target seda soovib.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>Juurutus %deploy nurjus saidil %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>Juurutus %deploy ootab saidil %site väravas</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>Juurutus %deploy õnnestus saidil %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>Selle kirja saatis %site, sest migration.ini [RemoteSettings] Notify[] nõuab seda.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>Andmetüübid (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>Loendatud %time, uuesti %minutes minuti pärast</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>Andmetüüp salvestab ja muudab klassi atribuudi ühte liiki väärtust: tekstirida, pilti, seost. Enamiku neist toob kernel, laiendused lisavad veel. Siin on need kõik, kes neid pakub ja kui palju sisu neid kasutab. Andmetüüp, mida andmebaas kasutab, kuid mida enam miski ei registreeri, rikub sisu, millel see on.</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>Klassirühmad</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>Loenda kohe uuesti, selle asemel et kasutada viimaste minutite loendust.</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>Loenda uuesti</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Ülevaade</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>Registreeritud</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>Kasutusel</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>Pole kasutatud</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>Andmetüüpe pakkuvad laiendused</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>Klassi atribuudid</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>Objekti atribuudid</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>Registreerimata</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>Loetletud, fail puudub</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>%count andmetüüpi on kasutusel, kuid registreerimata</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>%class_attributes klassi atribuudil ja %object_attributes objekti atribuudil on andmetüüp, mida ükski laiendus ega seade ei registreeri. Nende objekte ei saa kuvada, muuta ega avaldada. Aktiveerige andmetüüpi pakkuv laiendus või muutke klassi.</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>Näita ainult neid</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>Otsi andmetüüpi</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>Identifikaator, nimi, PHP-klass või laiendus.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Kuva</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Kõik</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>Pakkuja</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>Kõik</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>Kernel</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>Selle filtriga ei sobi ükski andmetüüp.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Kuva kõik</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>Laiendus</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%shown / %count andmetüüpi, %used kasutusel</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>Andmebaasis on nende andmetüüpidega klassi- või objektiatribuute, kuid content.ini ei loetle ühtegi neist või nende fail puudub.</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>Pakkuja %provider andmetüübid</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>Andmetüüp</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>PHP-klass ja fail</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>Klassid</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>Objektid</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>Lipud</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>puudub</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>Otsinguga ei sobi ükski andmetüüp. Tühjendage otsing.</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>Kuvatud %shown / %count andmetüüpi</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>Kuvatud andmetüübid: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>Sordi veeru „%column“ järgi</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>Loendatud %time</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>Kõik andmetüübid</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>Abileht</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>Seda andmetüüpi kasutatakse, kuid see on registreerimata</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>Allpool olevate klasside objekte ei saa kuvada, muuta ega avaldada, kuni ükski laiendus andmetüüpi ei registreeri. Aktiveerige seda pakkuv laiendus ja lisage see sättesse content.ini [DataTypeSettings] AvailableDataTypes[] või muutke klasse.</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini loetleb selle andmetüübi, kuid ühelgi andmetüüpide kataloogil pole selle faili. Miski ei kasuta seda; eemaldage see loendist AvailableDataTypes[] või aktiveerige selle laiendus.</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>Andmetüübi teave</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>Identifikaator</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Nimi</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Laiendus %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>mitte keegi</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>PHP-klass</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Fail</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>Loendis AvailableDataTypes[]</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>jah</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ei</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>Väärtuse veerud</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>Klassi atribuudi seadete veerud</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>Tabelid</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>Veerud ja tabelid leitakse andmetüübi koodi lugedes: juhis, mitte lubadus.</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>Mallid</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Saidi juurdepääs</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>Mall</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>Leitud asukohast</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>see haldusliides</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>vaikesait</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>Ilma ülekirjutusteta: klassi või atribuudi järgi sobiv ülekirjutav mall on nende ees eelisjärjekorras.</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>Seda kasutavad klassid (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>Ühelgi klassil pole selle andmetüübiga atribuuti.</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Klass</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>Atribuudid</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>Klassi atribuudid (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>Atribuut</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Sätted</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>Kohustuslik</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>Otsitav</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>Tõlgitav</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>Kogub teavet</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>Osa seda kasutavast sisust</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>Viimati muudetud eespool</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Muudetud</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>Sõlm %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>Igal tõlkel on oma väärtus.</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>Otsing indekseerib selle väärtused.</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>See saab koguda külastajatelt teavet (vormid).</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>Loendeid saab selle järgi sortida: sortimisvõti %type.</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>Sorditav</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>Selle väärtused viitavad teistele objektidele.</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>Seosed</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>Selle saab täita lihtsast stringist (import, REST).</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>Tekstist</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>Selle saab täita failist.</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>Failist</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>Selle klassi atribuudi seaded lähevad pakettidesse.</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>Paketid</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>Sisu (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from–%to / %count</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Filtreeri loendit</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>Kõik klassid</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Jaotis</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Keeled</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Omanik</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Avaldatud</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>Pööra järjestus ümber</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Üksusi pole</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Lehel</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Kuva lehel %count üksust.</translation>
     </message>
 </context>
 </TS>

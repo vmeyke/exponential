@@ -3,14 +3,24 @@ title: Moving a template from Smarty
 audience: developer, designer, app-creator
 category: templates
 order: 50
-summary: A porting guide - a typical Smarty list template translated to the template language in three steps (variables, data from fetch, the loop with conditions, links, dates and escaping), each step rendered on alpha, plus a checklist of the replacements to make.
+summary: A porting guide - a typical Smarty list template translated to the template language in three steps (variables, data from fetch, the loop with conditions, links, dates and escaping), each step rendered on a development installation, plus a checklist of the replacements to make.
 keywords: Smarty, port, migrate, convert, translate, porting guide, checklist, fetch, foreach, sequence, cycle, ezurl, wash, datetime
 type: help
 ---
 # Moving a template from Smarty
 
 This page ports one small Smarty template to the template language, step by step, and ends with a checklist for your
-own templates. Each step was rendered on alpha against the "Fit & Healthy" front page (node 89).
+own templates. Each step was rendered on a development installation against the "Fit & Healthy" front page (node 89).
+
+> **Exponential runs Smarty templates itself:** a design can hold Smarty 5 templates (`.stpl`) next to its `.tpl`
+> templates, with every operator, fetch function, template function, override rule and cache of the template system.
+> If you would rather keep writing Smarty, see [Smarty templates (.stpl) next to .tpl](../../features/6.0/smarty-templates.md)
+> and [Moving from .tpl to .stpl](moving-from-tpl-to-stpl.md), which also converts templates in both directions.
+
+> **Exponential runs Smarty templates itself:** a design can hold Smarty 5 templates (`.stpl`) next to its `.tpl`
+> templates, with every operator, fetch function, template function, override rule and cache of the template system.
+> If you would rather keep writing Smarty, see [Smarty templates (.stpl) next to .tpl](../../features/6.0/smarty-templates.md)
+> and [Moving from .tpl to .stpl](moving-from-tpl-to-stpl.md), which also converts templates in both directions.
 
 ## Contents
 
@@ -52,7 +62,7 @@ from PHP, the template fetches the node. `escape` becomes `wash`:
 <h2>{$site.name|wash}</h2>
 ```
 
-Output on alpha:
+Output:
 
 ```text
 <h2>Fit &amp; Healthy</h2>
@@ -73,7 +83,7 @@ operator; there is no `@` and no `==`:
 <p>{$pages|count} of {$site.children_count} pages</p>
 ```
 
-Output on alpha:
+Output:
 
 ```text
 <h2>Fit &amp; Healthy</h2>
@@ -114,7 +124,7 @@ The finished template. What changed:
 {undef $site $limit $pages}
 ```
 
-Output on alpha:
+Output:
 
 ```text
 <h2>Fit &amp; Healthy</h2><ul>  <li class="odd"><a href="/slash-quotes">Slash Quotes</a>
@@ -123,7 +133,7 @@ Output on alpha:
       2026-08-31</li></ul>
 ```
 
-The list shows what was published last on alpha when this page was built, so the names will differ on your site.
+The list shows what was published last on a development installation when this page was built, so the names will differ on your site.
 
 ## Checklist
 
@@ -155,8 +165,9 @@ After porting, render the template with debug output on and read the warnings: a
 
 ## Related pages
 
+- [Moving from Exponential templates (.tpl) to Exponential Smarty templates (.stpl)](moving-from-tpl-to-stpl.md) and [Smarty templates (.stpl) next to .tpl](../../features/6.0/smarty-templates.md): Smarty templates run by Exponential itself
 - Previous: [Smarty and the template language: the differences in depth](smarty-differences-in-depth.md)
-- Next: [Lexical structure](lexical-structure.md)
+- Next: [Moving from .tpl to .stpl](moving-from-tpl-to-stpl.md)
 - [Fetching nodes and lists](../designers/templates/fetching-nodes-and-lists.md)
 - [URL operators](../designers/templates/url-operators.md)
 - [Dates, numbers and localization](../designers/templates/dates-numbers-and-l10n.md)

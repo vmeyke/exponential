@@ -3,7 +3,7 @@ title: "Thema: Sprachen und Schreibrichtung von rechts nach links"
 audience: press
 category: press-media
 order: 64
-summary: Ein Themenbeitrag über Sprachen in Exponential - 268 Locale-Dateien, 40 davon von rechts nach links, Übersetzungen der Administration, alle vollständig, eine Administration, die sich für Hebräisch und Arabisch umdreht - mit druckbaren Fakten, einem Zählunterschied, auf den Sie achten sollten, und den Aussagen, die Sie vermeiden sollten.
+summary: Ein Themenbeitrag über Sprachen in Exponential - 368 Locale-Dateien, 43 davon von rechts nach links, Übersetzungen der Administration, alle vollständig, eine Administration, die sich für Hebräisch und Arabisch umdreht - mit druckbaren Fakten, einem Zählunterschied, auf den Sie achten sollten, und den Aussagen, die Sie vermeiden sollten.
 keywords: Thema, Sprachen, Locales, Übersetzungen, rechts nach links, RTL, Hebräisch, Arabisch, mehrsprachig, Internationalisierung, Presse, story, languages, locales, translations, right to left, Hebrew, Arabic, multilingual, internationalization, press
 type: help
 ---
@@ -26,12 +26,13 @@ die dokumentierten Zahlen mit ihrem Datum und zeigt, wo zwei Quellen unterschied
 
 ## Das Thema in einem Absatz
 
-Exponential trennt die Sprache der **Inhalte** von der Sprache der **Administration**. „268 Locale-Dateien (261
-Sprachen und Länder, [eine Testsprache] und 6 Varianten, in 32 Schriften, 40 davon von rechts nach links geschrieben)
+Exponential trennt die Sprache der **Inhalte** von der Sprache der **Administration**. „368 Locale-Dateien (361
+Sprachen und Länder, [eine Testsprache] und 6 Varianten, 43 davon von rechts nach links geschrieben)
 lassen sich als Inhaltssprachen und Siteaccess-Locales wählen; es gibt Übersetzungen der Administration (die aktuellen Gesamtzahlen stehen am Anfang der Seite Sprachen)“ ([Sprachen in Exponential](../../sprachen.md)). Wenn ein Redakteur eine Oberflächensprache mit
 Schreibrichtung von rechts nach links wählt, „dreht sich die Administration um“: Die Seite sagt `dir="rtl"`, die
 Seitenspalten tauschen die Plätze, und Text beginnt rechts ([Rechts nach links](../../funktionen/6.0/rechts-nach-links.md)).
-Das meiste davon kam im Oktober 2026, in der Entwicklungslinie 6.0.15, die nicht veröffentlicht ist.
+Das meiste davon kam im Oktober 2026, in der Linie 6.0.15. Die Daten sind Daten der Änderungen, keine
+Veröffentlichungsdaten; ob der Tag `v6.0.15` existiert, zeigt `git tag -l 'v6.0.*' --sort=version:refname`.
 
 ## Was neu ist, und seit wann
 
@@ -40,30 +41,29 @@ Das meiste davon kam im Oktober 2026, in der Entwicklungslinie 6.0.15, die nicht
 | Vollständige englische und deutsche Kataloge, ein Übersetzungsstring für fast jeden sichtbaren Text | 27. und 28. September 2026 | [Übersetzungen und Sprachen](../../funktionen/6.0/uebersetzungen-und-sprachen.md) |
 | 89 neue Locales und eine Seite für jede Sprache | 15. Oktober 2026 | [Changelog 6.0.15](../../../changelogs/6.0/6.0.15.md#15-october-2026-89-new-locales-and-one-page-for-every-language) |
 | Sprachen mit Schreibrichtung von rechts nach links, Hebräisch, Latein, Klingonisch und 81 weitere Locales | 16. Oktober 2026 | [Changelog 6.0.15](../../../changelogs/6.0/6.0.15.md#16-october-2026-right-to-left-languages-hebrew-latin-klingon-and-81-more-locales) |
-| Die Administration auf Arabisch, maschinell unterstützt und noch von einem Muttersprachler zu prüfen | 18. Oktober 2026 | [Changelog 6.0.15](../../../changelogs/6.0/6.0.15.md#18-october-2026-the-administration-in-arabic-and-hebrew-for-the-newest-strings) |
+| Die Administration auf Arabisch und Hebräisch für die neuesten Strings, maschinell unterstützt | 18. Oktober 2026 | [Changelog 6.0.15](../../../changelogs/6.0/6.0.15.md#18-october-2026-the-administration-in-arabic-and-hebrew-for-the-newest-strings) |
 
 ## Fakten, die Sie drucken können
 
 | Fakt | Quelle |
 |---|---|
-| 268 Locale-Dateien, 40 von rechts nach links geschrieben, in 32 Schriften (Stand 15. Oktober 2026). | [Sprachen in Exponential](../../sprachen.md) |
+| 368 Locale-Dateien, 43 von rechts nach links geschrieben (Stand 29. Oktober 2026). | [Sprachen in Exponential](../../sprachen.md) |
 | Übersetzungen der Administration (die aktuellen Gesamtzahlen stehen am Anfang der Seite [Sprachen in Exponential](../../sprachen.md)), aufgeführt in [Sprachen in Exponential, Abschnitt 4](../../sprachen.md#4-alle-übersetzungen-der-administrationsoberfläche). | [Sprachen in Exponential, Unterstützungsstufen](../../sprachen.md#2-unterstützungsstufen) |
 | Jede Übersetzung eines Elements wird für sich veröffentlicht; Kennzeichen zeigen, was vorhanden ist und was fehlt. | [Sprachen](../sprachen.md) |
 | Ein Land ohne eigene Übersetzung fällt auf eine verwandte zurück, zum Beispiel jedes deutschsprachige Land auf Deutsch. | [Sprachen in Exponential, Unterstützungsstufen](../../sprachen.md#2-unterstützungsstufen) |
 | Eine Seite mit Schreibrichtung von links nach rechts bleibt nach der Arbeit an rechts nach links „Byte für Byte dasselbe Markup“. | [Rechts nach links](../../funktionen/6.0/rechts-nach-links.md) |
 | Für die Sprachen ist zur Laufzeit keine PHP-Erweiterung nötig. | [Sprachen in Exponential, Abschnitt 10](../../sprachen.md#10-keine-php-extension-zur-laufzeit) |
 | Eine Installation kann auf 64-Bit-PHP höchstens 62 Inhaltssprachen enthalten. | [Sprachen in Exponential, Abschnitt 11](../../sprachen.md#11-die-grenze-von-62-inhaltssprachen) |
-| Mehrere vollständige Übersetzungen entstanden maschinell unterstützt; eine Prüfung durch Muttersprachler ist erwünscht. | [Sprachen in Exponential, Abschnitt 8](../../sprachen.md#8-eine-übersetzung-der-administrationsoberfläche-hinzufügen-oder-vervollständigen) |
 
 ## Wo die Quellen voneinander abweichen
 
-Das README zählt „219 locales, 170 of them new“ ([README, Recent improvements](https://github.com/se7enxweb/exponential/blob/main/README.md#recent-improvements-to-exponential)),
-während [Sprachen in Exponential](../../sprachen.md) am 15. Oktober 2026 268 Locale-Dateien zählt. Locales kamen im
+Das README rundet: „more than 360 locales, over 300 of them new“ ([README, Recent improvements](https://github.com/se7enxweb/exponential/blob/main/README.md#recent-improvements-to-exponential)),
+während [Sprachen in Exponential](../../sprachen.md) am 29. Oktober 2026 368 Locale-Dateien zählt. Locales kamen im
 Oktober in mehreren Schritten hinzu; verwenden Sie also die datierte Zahl der Sprachenseite und nennen Sie ihr Datum.
 
 ## Was Sie nicht behaupten sollten
 
-- „Exponential ist in 268 Sprachen verfügbar.“ Sagen Sie „268 Locale-Dateien als Inhaltssprachen; Übersetzungen der Administration (die aktuellen Gesamtzahlen stehen am Anfang der Seite [Sprachen in Exponential](../../sprachen.md))“.
+- „Exponential ist in 368 Sprachen verfügbar.“ Sagen Sie „368 Locale-Dateien als Inhaltssprachen; Übersetzungen der Administration (die aktuellen Gesamtzahlen stehen am Anfang der Seite [Sprachen in Exponential](../../sprachen.md))“.
 - „Jede Übersetzung ist perfekt“ oder „professionell übersetzt“. Mehrere entstanden maschinell unterstützt.
 - „Unbegrenzt viele Inhaltssprachen.“ Die dokumentierte Grenze liegt bei 62 pro Installation auf 64-Bit-PHP.
 - „Unterstützung für Klingonisch“ als ernsthafte Funktion: Das README selbst sagt „(for fun)“.
@@ -72,12 +72,12 @@ Oktober in mehreren Schritten hinzu; verwenden Sie also die datierte Zahl der Sp
 
 - Regionaler Blickwinkel: Ist Ihre Sprache vollständig, teilweise oder nur für Inhalte vorhanden? Sehen Sie in
   Abschnitt 4 der Sprachenseite nach.
-- Blickwinkel Community: Muttersprachler sind eingeladen, maschinell unterstützte Übersetzungen zu prüfen.
+- Blickwinkel Community: wie jeder eine Übersetzung der Administration hinzufügen oder vervollständigen kann ([Sprachen in Exponential, Abschnitt 8](../../sprachen.md#8-eine-übersetzung-der-administrationsoberfläche-hinzufügen-oder-vervollständigen)).
 
 ```text
 „Eine Administration, die von rechts nach links liest: Exponential ergänzt Hebräisch und Arabisch“
-„268 Locales, viele vollständige Übersetzungen: Sprachen ehrlich zählen“
-„Muttersprachler gesucht: ein mit maschineller Hilfe übersetztes CMS prüfen“
+„368 Locales, viele vollständige Übersetzungen: Sprachen ehrlich zählen“
+„Mit maschineller Hilfe übersetzt, und offen gesagt: ein CMS in vielen Sprachen“
 ```
 
 ## Wen Sie fragen

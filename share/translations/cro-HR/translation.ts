@@ -948,6 +948,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>Pretražuje se samo ova stranica: %from do %to od %count.</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Svaka vrsta podataka jezgre i proširenja te kako je klase i sadržaj koriste.</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Vrste podataka</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2300,6 +2308,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>I stranice sustava mogu se dodati u oznake: otvorite stranicu (Postavljanje, revizijski trag, popis korisnika ...) i iznad nje odaberite „Dodaj stranicu u oznake“. Takve oznake imaju ikonu zupčanika.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>Ovu stranicu ovdje više ne smijete otvoriti. Uklonite oznaku ili zatražite pristup od administratora.</translation>
     </message>
 </context>
 <context>
@@ -5153,6 +5165,210 @@
         <source>Go to the first page</source>
         <translation>Idi na prvu stranicu</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>Ostalo</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>Posljednjih 7 dana</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>Prilagođeno razdoblje</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>Sve riječi</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>Bilo koja riječ</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>Točan izraz</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>Relevantnost</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>Naziv A–Ž</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>Naziv Ž–A</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>Izmijenjeno, najnovije prvo</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>Izmijenjeno, najstarije prvo</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>Objavljeno, najnovije prvo</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>Objavljeno, najstarije prvo</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Izmijenjeno</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>Filtri</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>Prikaži filtre</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>Sakrij filtre</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Poništi</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>Primijeni</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>Riječi</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>Vrsta sadržaja</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>Prikaži više (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>Odaberite jednu vrstu sadržaja kako biste pretraživali u jednom od njezinih atributa.</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Odjeljak</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Iz</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Do</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>Početni datum nije valjan datum.</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>Završni datum nije valjan datum.</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Vlasnik</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>ID korisnika, korisničko ime ili adresa e-pošte.</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>Nije pronađen nijedan korisnik za „%input”.</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Jezik</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>Bilo koji jezik</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Lokacija</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>Lokacija: %count</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>Rezultata po stranici</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>Rezultati za „%text” (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>Rezultati (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>Poredaj po</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>Poredaj</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>Aktivni filtri</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>Ukloni ovaj filtar</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>Ili odaberite filtre i primijenite ih kako biste ispisali sadržaj koji im odgovara.</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>Filtri sužavaju pretraživanje nakon što upišete riječi.</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>Nisu pronađeni rezultati za „%text”.</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>Nisu pronađeni rezultati.</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>Uklonite jedan od filtara iznad.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Prijevodi</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Radnje</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>Uredi %name</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Uredi</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -7694,6 +7910,10 @@
         <source>Setup &gt; Cronjobs</source>
         <translation>Postavljanje &gt; Cron-zadaci</translation>
     </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>Nijedan dio cron-zadataka još se nije pokrenuo: red čekanja poslova, uvozi, obavijesti i indeks pretraživanja čekaju. Pokrenite php bin/php/installcrontab.php --add --apply ili dodajte retke iz --show u crontab.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/dashboard/drafts</name>
@@ -8238,8 +8458,8 @@
         <translation>Obavijesti o autorskim pravima izvornih autora i softvera trećih strana isporučenog s Exponentialom zadržane su u izvornim datotekama i u datoteci LICENSE, kako to licenca zahtijeva.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>Slijedi popis suradnika na Exponentialu koji su svoj rad licencirali tvrtki 7x pod uvjetima ugovora eZ Systems Contributor Licensing Agreement. Kako taj ugovor dopušta, 7x svaki doprinos dalje distribuira pod istom licencom kao i datoteku u kojoj se doprinos nalazi. Na popisu su navedeni svi suradnici, po želji podaci za kontakt te datoteke kojima su pridonijeli.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>Suradnici zaslužni za rad na Exponentialu i na softveru iz kojeg je nastao, s datotekama kojima su pridonijeli. Ovo je priznanje, a ne obavijest o autorskim pravima: doprinosi Exponentialu prenose se na Exponential Foundation i 7x prema Contributor Licensing Agreementu.</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -14170,32 +14390,20 @@ Napomena: paketi neće biti deinstalirani.</translation>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;Isprobajte Exponential Enterprise Edition&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Postanite član zajednice Exponential, razmjenjujte iskustva i doprinosite&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; i drugi.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>Pokreće &lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt;. Za više informacija pogledajte &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; i drugi.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> Za više informacija pogledajte &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
     </message>
     <message>
-        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; i drugi.</translation>
+        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;Isprobajte Exponential (tvrtke 7x)&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Postanite član zajednice Exponential, dobijte podršku i doprinosite&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; i drugi.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -14204,6 +14412,61 @@ Napomena: paketi neće biti deinstalirani.</translation>
     <message>
         <source>Help center</source>
         <translation>Centar za pomoć</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>Sadržaj</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>Stranice dokumenata</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>Korisnici</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>Klase sadržaja</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>Administracija</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>Stranica %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>Prikaži sve rezultate</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>Broj rezultata: %count</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>Jedan rezultat</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>Prijedloga: %count</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>Nema prijedloga</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>Prijedlozi se nisu mogli učitati.</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>Prijedlozi</translation>
     </message>
 </context>
 <context>
@@ -14724,6 +14987,14 @@ Napomena: paketi neće biti deinstalirani.</translation>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>Ova je instalacija javni demo: administratorsku lozinku može znati bilo tko, a administratorske lozinke ne mogu se promijeniti ni poništiti. Ovdje ne unosite ništa privatno.</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Vaši uređaji</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Sigurnosna aktivnost</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -15025,6 +15296,14 @@ Napomena: paketi neće biti deinstalirani.</translation>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>Vodiči, pretraživanje i kako prijaviti pogrešku.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Novi sadržaj</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Najnoviji sadržaj, ono što je zadržano radi pregleda, i radnje na odabiru.</translation>
     </message>
 </context>
 <context>
@@ -15487,6 +15766,46 @@ Napomena: paketi neće biti deinstalirani.</translation>
         <source>Synchronisations</source>
         <translation>Sinkronizacije</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>GraphQL API: krajnja točka, shema i prostor za isprobavanje upita.</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migracije</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Promjene instalacije čuvane kao datoteke: njihovo stanje, pokretanja, izvođenje i poništavanje.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Novi sadržaj</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Najnoviji sadržaj, ono što je zadržano radi pregleda, i radnje na odabiru.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Objavite statičku kopiju web-mjesta na GitHub Pages ili bilo kojem git poslužitelju.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Statičko objavljivanje</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Vrste podataka</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Svaka vrsta podataka jezgre i proširenja te kako je klase i sadržaj koriste.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15644,6 +15963,22 @@ Napomena: paketi neće biti deinstalirani.</translation>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>Računi koje nitko ne koristi ili koje treba pogledati; onemogućivanje, otključavanje ili izvoz.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Revizijski zapisnik korisnika</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>Tko je mijenjao, prijavio se ili je odbijen, po računu; filtriranje i izvoz.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Izvješće o prijavama</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>Tko je prijavljen, prijave i neuspjesi po danu; odjava korisnika posvuda.</translation>
     </message>
 </context>
 <context>
@@ -22049,6 +22384,22 @@ Napomena: paketi neće biti deinstalirani.</translation>
         <source>%n hours ago</source>
         <translation>prije %n h</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>Odgovori pohranjenih upita GraphQL API-ja i klase sadržaja njegove sheme.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>Objavite statičku kopiju na GitHub Pages ili bilo kojem git poslužitelju</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Statičko objavljivanje</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>Statička predmemorija poslužuje stranice s ovog poslužitelja. Za objavu statičke kopije web-mjesta negdje drugdje, na GitHub Pages ili bilo kojem git poslužitelju, koristite statičko objavljivanje.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/datatypecode</name>
@@ -24808,6 +25159,10 @@ Napomena: paketi neće biti deinstalirani.</translation>
         <source>last purge</source>
         <translation>zadnje uklanjanje</translation>
     </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>Upisi nisu mogli preuzeti zaključavanje stanja (posljednji put %date): svaki je učinio zastarjelima sve rezultate iz predmemorije. %file mora biti zapisiv za svakog korisnika pod kojim mjesto radi; na NFS-u treba NFSv4 ili lockd.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/operatorcode</name>
@@ -27410,6 +27765,14 @@ Napomena: paketi neće biti deinstalirani.</translation>
     <message>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>Istekle sesije PHP rukovatelja uklanja sam PHP (session.gc_maxlifetime), a ne ova stranica ni dio cron-zadatka session_gc.</translation>
+    </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>Prijavljene sesije svih korisnika navedene su i odjavljuju se u izvješću o prijavama, koje radi sa svakim rukovateljem sesijama.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>Otvori izvješće o prijavama</translation>
     </message>
 </context>
 <context>
@@ -36816,6 +37179,42 @@ Ako želite poslati komentare odobravatelju ili vidjeti status, upotrijebite URL
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>Nakon prijave korisnik mora odabrati novu lozinku prije nego što učini bilo što drugo. Koristite ovo kada nekome dajete privremenu lozinku.</translation>
     </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>Odabir postojeće slike</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>Datoteka slike objekta koji odaberete kopira se u ovo polje. Drugi se objekt ne mijenja.</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>Slika objekta „%name“ kopirana je u ovo polje.</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>Potraži sliku pregledavanjem</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>Pretraži slike po nazivu</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Pretraži</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>Upotrijebi sliku objekta „%name“</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>Upotrijebi ovu sliku</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>Nijedna slika ne odgovara vašem pretraživanju.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/content/diff</name>
@@ -43880,6 +44279,10 @@ Više podataka potražite na stranici sa zahtjevima.</translation>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>Crontab nije zapisan (%reason). Dodajte ove retke u crontab korisnika pod kojim radi web-mjesto, inače se red čekanja, uvozi, obavijesti i indeks pretraživanja nikad neće pokretati:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>Ponovna instalacija provodi se pomoću kickstartera (%file, zatim php bin/php/kickstarter.php run --apply) ili novom instalacijom.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -47613,6 +48016,10 @@ svoj račun.</translation>
         <source>eZJSCore Public Packer cache</source>
         <translation>Javna predmemorija pakiranja eZJSCore</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>Predmemorija GraphQL-a (odgovori i klase sheme)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -47699,6 +48106,14 @@ svoj račun.</translation>
     <message>
         <source>Copy of %class_name</source>
         <translation>Kopija klase %class_name</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Vrste podataka</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>Vrsta podataka %string</translation>
     </message>
 </context>
 <context>
@@ -48525,6 +48940,26 @@ svoj račun.</translation>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>SVG sliku nije moguće pročitati ili se ništa u njoj ne može sigurno prikazati.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>Sliku nije moguće kopirati. Pokušajte ponovno ili se obratite administratoru web-mjesta.</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>Odabrani objekt ne postoji ili ga ne smijete čitati.</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>Odabrani objekt nema sliku.</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>Datoteku slike odabranog objekta nije moguće pročitati.</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>Slika odabranog objekta veća je nego što ovo polje dopušta: %1 bajtova.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -49063,6 +49498,42 @@ svoj račun.</translation>
         <source>The bookmark was renamed to &quot;%name&quot;.</source>
         <translation>Oznaka je preimenovana u „%name“.</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>Ova je stranica isključena u ovom pristupu web-mjestu (%siteaccess). Otvorite oznaku u pristupu web-mjestu koji je ima.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>Modul ove stranice ovdje nije instaliran ili nije omogućen.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>Ova stranica više ne postoji: njezin modul nema takav prikaz.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>Nijedna od vaših uloga ne dopušta vam otvaranje ove stranice.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>Ne smijete upotrebljavati ovaj pristup web-mjestu.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>Ne smijete čitati sadržaj koji ova stranica prikazuje.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>Ova se vrsta stranice ne može dodati u oznake: ona samo djeluje na obrazac ili je stranica jednog trenutka.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>Adresa ove stranice nedostaje.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>Ova se stranica trenutačno ne može otvoriti.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -49515,6 +49986,10 @@ Klasu čvora morat ćete promijeniti pomoću funkcije zamjene.</translation>
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>Prijenos pošte odbio je pri posljednjem pokretanju poruka: %count. Provjerite poslužitelj pošte i site.ini MailSettings.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Broj događaja na čekanju: %count, a nije zabilježeno nijedno pokretanje cron-zadatka obavijesti. Dodajte dio cron-zadataka &quot;frequent&quot; u crontab ili pokrenite exp:notification:run --apply.</translation>
     </message>
 </context>
 <context>
@@ -58938,6 +59413,26 @@ Klasu čvora morat ćete promijeniti pomoću funkcije zamjene.</translation>
         <source>None yet</source>
         <translation>Još nema</translation>
     </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Sigurnosna aktivnost</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>Vaše nedavne prijave, neuspjeli pokušaji i promjene lozinke, adrese e-pošte i prijave u dva koraka.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>Nedavne prijave, neuspjeli pokušaji i sigurnosne promjene ovog računa.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>Pregledaj aktivnost</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>Neuspjele prijave: %count</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/user/unactivated</name>
@@ -64107,6 +64602,10 @@ Klasu čvora morat ćete promijeniti pomoću funkcije zamjene.</translation>
         <source>Choose another site or section with the node picker</source>
         <translation>Odaberi drugo web-mjesto ili odjeljak pomoću birača čvorova</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>Vlasnika može promijeniti samo administrator sustava: pokrenite ./console exp:content-check --fix-permissions --apply kao root.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -65640,6 +66139,10 @@ Klasu čvora morat ćete promijeniti pomoću funkcije zamjene.</translation>
     <message>
         <source>empty</source>
         <translation>prazan</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>Ključ za potpisivanje stariji je od godinu dana: zamijenite ga naredbom exp:audit key rotate --apply.</translation>
     </message>
 </context>
 <context>
@@ -68020,6 +68523,486 @@ Klasu čvora morat ćete promijeniti pomoću funkcije zamjene.</translation>
         <source>Share of page time</source>
         <translation>Udio u vremenu stranice</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>zatraženo je potpuno generiranje</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>predmemorija stranica nije imala stranicu (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>predmemorija stranica nije odgovorila</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>Generirano</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>Generirala jezgra: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>Posluženo iz predmemorije stranica za %ms ms. Stranica je spremljena u %stored nakon generiranja od %render ms, prije %age s.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>Generiraj sada</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>Natrag na prikaz iz predmemorije</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>Iz generiranja u %stored (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>Ovaj zahtjev: posluženo iz predmemorije stranica za %ms ms.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Korisnik</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>ID korisnika</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>Profil predmemorije</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>Ovaj prikaz</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>Predmemorija prikaza</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>po korisniku (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>Profil predmemorije korisnika: korisnici s istim profilom dijele datoteke predmemorije prikaza</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>da</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ne</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Korisničko ime</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>Prijavljen</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>Sesija</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>Dijelovi ključa predmemorije prikaza sadržaja koji ovise o korisniku, točno kako ih ključ uzima, prema ViewCacheTweaks ove stranice. Korisnici s istim profilom dijele datoteke predmemorije prikaza, osim ako se razlikuju dijelovi samog prikaza (postavke, ključevi slušatelja): oni imaju vlastiti profil, samo za ovu stranicu.</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>Profil</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>Ovaj prikaz (čvor %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: svaki prijavljeni korisnik ima vlastite datoteke predmemorije.</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>Aktivni ViewCacheTweaks: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>Dio</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>Vrijednost</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>Nijedan dio ne ovisi o korisniku (ViewCacheTweaks).</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>ovaj prikaz</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>Kopiraj kao tekst</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>Uloge</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>Dodjele uloga nije moguće pročitati.</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>ID uloge</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Uloga</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>Ograničenje</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>Dodijeljeno</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>korisniku</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>grupa %name (objekt %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>Kopirano</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>Kopiranje nije uspjelo.</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>izostavio slušatelj</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>Anonimni posjetitelji</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>isto kao vaš</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>različit</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>Profil koji dobivaju anonimni posjetitelji uz iste ViewCacheTweaks, sa zadanim postavkama, bez dijelova prikaza: slušatelja koji čita sesiju ne može se pitati za njih.</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>Postavke</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>Nijedan način prikaza ne ovisi o korisničkim postavkama (site.ini [ContentSettings] CachedViewPreferences).</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>Postavke o kojima ovise prikazi ovih načina prikaza (CachedViewPreferences), s vrijednošću korisnika ili zadanom. U profilu su kao userpreferences, zajedno za sve načine prikaza.</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>Način prikaza</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>Postavka</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>Zadano</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>Pravila</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>Prikaži pravila uloga (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>Pravila se učitavaju s poslužitelja kada se ovaj odjeljak otvori, stranicu po stranicu, i mogu se filtrirati po modulu i funkciji.</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>Funkcija</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>Svi moduli</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>Sve funkcije</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>Ograničenja</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>Prikaži više</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>Ove uloge nemaju pravila.</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>Nijedno pravilo ne odgovara filtru.</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%shown od %matching pravila (ukupno %total)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>Učitava se pri otvaranju.</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>module/function, uloga, ograničenje</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>Pretraži pravila</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>Učitaj još</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>Modul/funkcija</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>Sve uloge (%count pravila)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>Nijedno pravilo ne odgovara.</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%shown od %matched pravila</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>Nema odgovora</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>maskirano</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>Prikaži objašnjenja</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>Sakrij objašnjenja</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Otvori</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>Otvori sve</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>Zatvori sve</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>Ključ ili vrijednost</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>Pretraži sesiju</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Vrsta</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>još %count</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>preduboko ugniježđeno za prikaz</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>skraćeno, ukupno %count znakova</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Pokrenuto</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>Naziv kolačića</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>ID sesije</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>Rukovatelj</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>Putanja spremanja</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>Zadano u PHP-u</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>Trajanje (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>Kolačić</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>trajanje %s s</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>Vaša vlastita PHP sesija, onakva kakva je bila kad je odjeljak otvoren, nikad neka druga. Vrijednosti ključeva koji izgledaju kao tajne (tokeni, hashevi, lozinke) maskirane su (debugbar.ini SessionMask[]); sve ostalo prikazuje se onako kako je pohranjeno, pa i osobni podaci.</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>%count ključeva, %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>velika</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>Sesija je prazna.</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>Za ovaj zahtjev nije pokrenuta nijedna sesija.</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Proširenje %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>Jezgra i ostali</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>Nisu prikazani svi unosi: sesija sadrži više nego što se ovdje može navesti.</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>%count ključeva nije navedeno.</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>Okvir</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>Vrijednosti koje izgledaju kao token (JSON Web Token, vjerodajnice zaglavlja Authorization, privatni ključ, dugačak heksadecimalni ili nasumičan tekst) također se maskiraju, bez obzira na to kako se njihov ključ zove (debugbar.ini SessionValueMask[]).</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>Ključ izgleda kao tajna (debugbar.ini SessionMask[]).</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>Vrijednost izgleda kao token.</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>Ispod maskiranog ključa.</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>Sesija kao tekst, maskirana kao i tablica.</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>Sesija je veća od %size (debugbar.ini SessionWarnBytes): svaki zahtjev ovog korisnika čita cijelu sesiju i zapisuje je kad se promijeni.</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP ovu sesiju čuva u datotekama i zaključava datoteku tijekom cijelog zahtjeva: zahtjevi istog korisnika (više kartica, AJAX pozivi) čekaju jedan drugoga.</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>Ostavi otvoreno</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>Veća od %size (debugbar.ini SessionWarnBytes): svaki zahtjev ovog korisnika čita cijelu sesiju.</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%hits od %count pročitano iz predmemorije</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>Nijedan predložak nije iscrtan (prikaz pročitan iz predmemorije prikaza ne iscrtava nijedan).</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>Dodjele uloga</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>Uloge i pravila</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>drukčije nego kod anonimnih posjetitelja</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>isto kao kod anonimnih posjetitelja</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -69900,6 +70883,14 @@ Klasu čvora morat ćete promijeniti pomoću funkcije zamjene.</translation>
     <message>
         <source>not sent</source>
         <translation>nije poslano</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Cron-zadatak obavijesti ovdje bilježi svako svoje pokretanje. Dodajte dio frequent u crontab ili pokrenite exp:notification:run --apply.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>Upotrijebite konzolu: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -75625,6 +76616,98 @@ Klasu čvora morat ćete promijeniti pomoću funkcije zamjene.</translation>
         <source>This topic is not Released; readers do not see it.</source>
         <translation>Ova tema nije izdana; čitatelji je ne vide.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migracije</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Promjene instalacije čuvane kao datoteke: njihovo stanje, pokretanja, izvođenje i poništavanje.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Objavite statičku kopiju web-mjesta na GitHub Pages ili bilo kojem git poslužitelju.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Statičko objavljivanje</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>U pregledu</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>Čitatelji vide ovu stranicu.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>Skrivena od čitatelja dok je netko ne izda.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>Stranica je sada u pregledu. Skrivena je od čitatelja dok ne bude izdana.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>Stranica je izdana: čitatelji je sada vide.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>Stranica je ponovno nacrt. Skrivena je od čitatelja dok ne bude pregledana i izdana.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>Izdaj sada</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>Može je izdati samo korisnik s ulogom %role koji nije napisao ovu verziju.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>Teme pomoći koje čekaju izdavanje</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>Skriva je od čitatelja dok ponovno ne bude izdana.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>Sljedeći je provjerava recenzent. Čitatelji je još ne vide.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>Čitatelji je odmah vide.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>Uklanja je iz pregleda radi daljnjeg rada. Čitatelji je ne vide.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>Sakriti ovu stranicu od čitatelja?</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>Vratiti ovu stranicu u nacrt?</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>Čitatelji više ne vide %title dok je netko ponovno ne izda.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title vraća se u nacrt radi daljnjeg rada. Čitatelji je i dalje ne vide, a prije izdavanja potreban je novi pregled.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Odustani</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>Ove su teme u pregledu. Čitatelji ih vide čim ih izda netko tko nije napisao trenutačnu verziju.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/secrets</name>
@@ -77530,6 +78613,46 @@ Klasu čvora morat ćete promijeniti pomoću funkcije zamjene.</translation>
         <source>None.</source>
         <translation>Nema.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>aplikacijom za autentifikaciju</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>kodom putem e-pošte</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>kodom za oporavak</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>pristupnim ključem</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>vanjskim računom</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Sigurnosna aktivnost</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>Prikazano kao mreža; adresa se čuva onako kako to određuju postavke zaštite podataka web-mjesta.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Nije zabilježeno</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Lokacija</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>približno</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -77773,6 +78896,42 @@ Klasu čvora morat ćete promijeniti pomoću funkcije zamjene.</translation>
         <source>Manage devices</source>
         <translation>Upravljaj uređajima</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>aplikacijom za autentifikaciju</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>kodom putem e-pošte</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>kodom za oporavak</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>pristupnim ključem</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>vanjskim računom</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Sigurnosna aktivnost</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Nije zabilježeno</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Lokacija</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>približno</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -77852,6 +79011,14 @@ Klasu čvora morat ćete promijeniti pomoću funkcije zamjene.</translation>
         <source>View the sessions of this user</source>
         <translation>Prikaži sesije ovog korisnika</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>Vaš račun %login na web-mjestu %site upravo je upotrijebljen za prijavu s mjesta s kojeg se u posljednje vrijeme nije prijavljivao:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>Približna lokacija</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -77890,6 +79057,10 @@ Klasu čvora morat ćete promijeniti pomoću funkcije zamjene.</translation>
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%browser na %os</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Izvješće o prijavama</translation>
     </message>
 </context>
 <context>
@@ -78098,6 +79269,82 @@ Klasu čvora morat ćete promijeniti pomoću funkcije zamjene.</translation>
         <source>The passkey could not be checked. Please try again.</source>
         <translation>Pristupni ključ nije bilo moguće provjeriti. Pokušajte ponovno.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>Računi koji se prijavljuju samo pristupnim ključevima ovdje ne mogu upotrijebiti lozinku: odaberite „Prijavi se pristupnim ključem“.</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>Pristupni ključevi korisnika %login</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>Pristupni ključevi kojima se ovaj račun prijavljuje. Opozovite ključ koji je na izgubljenom ili ukradenom uređaju: njime se više neće moći prijaviti. Nove vlasnik dodaje sam.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>Vašem računu potreban je pristupni ključ</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>Dodajte pristupni ključ svojem računu</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>Dodajte pristupni ključ da biste nastavili. Tada se prijavljujete njime umjesto samo lozinkom.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>Prijava pristupnim ključem brža je i sigurnija od lozinke. Dodajte ga sada ili nastavite bez njega.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>Ne sada</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>Opozvati pristupni ključ „%name“?</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>Njime se više neće moći prijaviti na ovaj račun. Ako je bio posljednji, vlasnik se prijavljuje lozinkom ili vi postavljate novu.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>Opozovi pristupni ključ</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>Opozovi</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>Ovaj račun nema pristupni ključ.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>Autentifikator</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Nepoznato</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>Vaš posljednji pristupni ključ: dodajte još jedan prije nego što ga uklonite.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>Ovaj se račun prijavljuje samo pristupnim ključevima (pravilo o pristupnim ključevima): kada ne ostane nijedan, ponovno se prijavljuje svojom lozinkom.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>Ovo je vaš posljednji pristupni ključ i vaš se račun bez njega ne može prijaviti. Najprije dodajte još jedan pristupni ključ.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>Pristupni ključ „%name“ je opozvan. Njime se više ne može prijaviti na ovaj račun.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -78197,6 +79444,34 @@ Klasu čvora morat ćete promijeniti pomoću funkcije zamjene.</translation>
         <source>Code from your authenticator app</source>
         <translation>Kôd iz aplikacije za autentifikaciju</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>Upravo ćete trajno izbrisati podatke ili isprazniti zapisnik.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>Vaša lozinka i pristupni ključ</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>Vaša lozinka i kôd iz aplikacije za autentifikaciju</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>Ili:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>Ovaj preglednik ne može upotrebljavati pristupne ključeve. Upotrijebite drugi način ili drugi preglednik.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>Kada nastavite, preglednik će zatražiti jedan od vaših pristupnih ključeva.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>Nastavi pristupnim ključem</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -78287,6 +79562,70 @@ Klasu čvora morat ćete promijeniti pomoću funkcije zamjene.</translation>
     <message>
         <source>Setup</source>
         <translation>Postavljanje</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>Promjena vlastite lozinke, adrese e-pošte, pristupnih ključeva, prijave u dva koraka, kodova za oporavak ili API ključeva te odjava s vlastitih drugih uređaja.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>Stvaranje i uređivanje korisnika, njihovih lozinki i uređaja, postavke računa, odobravanje ili odbijanje novih korisničkih računa, dodjeljivanje uloga i uređivanje pravila.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>Brisanje podataka</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>Pražnjenje smeća, uklanjanje stavki iz njega i uklanjanje više stavki odjednom.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>Uklanjanje, objavljivanje i spremanje sadržaja</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>Uklanjanje sadržaja (i u smeće), objavljivanje i spremanje skice, traži se pri slanju obrasca. Zadano isključeno.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>Prije osjetljive radnje prijavljeni korisnik ponovno potvrđuje svoj identitet: lozinkom i pristupnim ključem ili, bez pristupnog ključa, lozinkom i kodom iz aplikacije za autentifikaciju. Pitaju samo web-stranice: REST sučelje, SOAP, WebDAV, prijava u expservices i naredbeni redak nikada.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>Gdje postavke vrijede</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>Postavke za</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Svaki pristup web-mjestu</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>Pristup web-mjestu %name</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Otvori</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>Koga se pita: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>Označite grupe korisnika da biste pitali samo njihove članove (npr. urednike). Ništa nije označeno: svakog korisnika.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>Sprema se u settings/override/site.ini.append.php, za svaki pristup web-mjestu. Pri spremanju morat ćete potvrditi da ste to vi.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>Sprema se u settings/siteaccess/%name/site.ini.append.php. Vrijednost u settings/override ima prednost. Pri spremanju morat ćete potvrditi da ste to vi.</translation>
     </message>
 </context>
 <context>
@@ -78389,6 +79728,6822 @@ Klasu čvora morat ćete promijeniti pomoću funkcije zamjene.</translation>
     <message>
         <source>Open the page</source>
         <translation>Otvori stranicu</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from do %to od %count</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>Korisničko ime ili ID korisnika: račun na koji se događaj odnosio ili korisnik koji je izvršio radnju.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Račun</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Radnja</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>Poslije</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>Bilo koji rezultat</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Prije</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Izvršio</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Očisti</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Uspjelo</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>Događaji se čuvaju %days dana.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>Događaji se čuvaju dok se ručno ne uklone.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Događaji</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>Sve radnje</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>Svi događaji ovog računa</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>Izvezi popis kao CSV (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Neuspjelo</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Od</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>Suzi popis</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>Nijedan događaj ne odgovara.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Po stranici</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>Bilježenje je isključeno u audit.ini ([UserAuditSettings] UserAudit); popis prikazuje ono što je prije zabilježeno.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Odbijeno</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Rezultat</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Prikaži</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>Tablica revizijskog zapisnika korisnika nedostaje. Izradite je pomoću php update/common/scripts/6.0/createuseraudittable.php; do tada revizijske datoteke čuvaju svaki događaj.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>Ova stranica zahtijeva SQL bazu podataka; nije dostupna na sustavu MongoDB. Revizijske datoteke čuvaju svaki događaj.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Do</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Revizijski zapisnik korisnika</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Korisnik</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Kada</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Gdje</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>Tko je promijenio, izradio, omogućio, onemogućio, premjestio ili uklonio koji račun, tko se prijavio ili je odbijen i koje su uloge dodijeljene: jedan redak po događaju, s poljima prije i poslije. Lozinke i tajni podaci nikada se ne bilježe.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>grupa</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>sustav</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>nepoznato</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>Zaštiti račun</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>Za prijavu u vaš račun %login na web-mjestu %site upotrijebljen je kôd za oporavak.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>Upotrijebljen je kôd za oporavak</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Račun</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>Približna adresa</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>Zatražite novu lozinku kako biste se ponovno prijavili ili se obratite administratorima web-mjesta.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>Zatraži novu lozinku</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>Svaki kôd za oporavak vrijedi samo jednom. Ako ste izgubili telefon, ponovno postavite aplikaciju za autentifikaciju i nove kodove za oporavak čuvajte na sigurnom mjestu.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>Neuspjeli pokušaji prijave u vaš račun</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>Od sada prijava osim lozinke traži i kôd. Ako ste to učinili vi, ne morate ništa poduzeti.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>Ako ste to bili vi i zaboravili ste lozinku, zatražite novu. Ako niste, odaberite jaču lozinku i uključite prijavu u dva koraka.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>Ako to niste bili vi, netko možda zna vašu lozinku: odmah je promijenite i provjerite gdje je vaš račun prijavljen.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>Preostali kodovi za oporavak</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>Pregledaj svoje uređaje</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>Sigurnosno upozorenje</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>Netko se pokušao prijaviti u vaš račun %login na web-mjestu %site s pogrešnom lozinkom. Broj uzastopnih pokušaja: %count.</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>Na vašem računu %login na web-mjestu %site dogodio se sigurnosni događaj.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>Ovo je sigurnosno upozorenje o vašem računu. Šalje se pri svakoj takvoj promjeni i ne može se isključiti.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Vrijeme</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>Prijava u dva koraka isključena je za vaš račun %login na web-mjestu %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>Prijava u dva koraka je isključena</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>Prijava u dva koraka uključena je za vaš račun %login na web-mjestu %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>Prijava u dva koraka je uključena</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>Vaš račun %login na web-mjestu %site zaključan je nakon previše neuspjelih prijava.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>Vaš je račun sada zaštićen samo lozinkom. Ako to niste učinili vi, promijenite lozinku i zatim ponovno uključite prijavu u dva koraka.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>Vaš je račun zaključan</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>Vašem računu %login na web-mjestu %site dodan je pristupni ključ.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>Tko god ima ovaj pristupni ključ, može se prijaviti na vaš račun bez vaše lozinke. Ako ga niste dodali vi, uklonite ga pod Pristupni ključevi i promijenite lozinku.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>S vašeg računa %login na web-mjestu %site uklonjen je pristupni ključ.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>Njime se više ne može prijaviti na vaš račun. Ako ga niste uklonili vi, provjerite svoje pristupne ključeve i uređaje.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>Vašem računu dodan je pristupni ključ</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>S vašeg računa uklonjen je pristupni ključ</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>Sigurnosna aktivnost</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Sigurnosna aktivnost: %name</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Prijavljeno</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Neuspjeli pokušaj prijave</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Odjavljeno</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Sesije odjavljene</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Prijava s novog uređaja</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Prijava s nove lokacije</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Identitet potvrđen („Potvrdite da ste to vi“)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Provjera identiteta nije uspjela</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Prijava pristupnim ključem</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Prijava pristupnim ključem nije uspjela</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Prijava odbijena: kôd prijave u dva koraka nedostaje ili je pogrešan</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Pogrešan kôd prijave u dva koraka</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Račun zaključan nakon neuspjelih prijava</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Račun otključan</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Lozinka promijenjena</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Promjena lozinke nije uspjela</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Lozinka ponovno postavljena</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Zatražena nova lozinka</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Adresa e-pošte promijenjena</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Korisničko ime promijenjeno</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Prijava u dva koraka uključena</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Prijava u dva koraka isključena</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Upotrijebljen kôd za oporavak</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Novi kodovi za oporavak</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Stvorena lozinka aplikacije</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Opozvana lozinka aplikacije</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Dodan pristupni ključ</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Uklonjen pristupni ključ</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Račun omogućen</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Račun onemogućen</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Sve</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Prijave i sesije</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Promjene računa</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Zahtijeva pozornost</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>izvršili ste vi</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>izvršio korisnik</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>izvršio %login</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>Način</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>Preglednik</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>Operacijski sustav</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Uređaj</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>Mjesto</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>Država</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Sesije</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>Koje</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>Kanal</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Neuspjeli pokušaji</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>Preostali kodovi</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>Rukovatelj prijavom</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Sigurnosna aktivnost</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Sigurnosna aktivnost: %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Prijave i promjene sigurnosti vašeg računa. Ako vidite nešto što niste učinili, promijenite lozinku i odjavite uređaje koje ne prepoznajete.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>Prijave i promjene sigurnosti ovog računa.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Vaši uređaji</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Promijeni lozinku</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>Natrag na račun</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>Sigurnosna aktivnost ne bilježi se</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>Čita se iz revizijskog zapisnika korisnika, čija tablica expuser_audit nedostaje ili nije podržana u ovoj bazi podataka. Pokrenite php update/common/scripts/6.0/createuseraudittable.php ili ažuriranje baze podataka na verziju 6.0.15.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Posljednji dani: %days</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Prijave u posljednjim danima: %days</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>Nedavna sigurnosna aktivnost</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Prikaži</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>neuspjelo</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>odbijeno</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Još nije zabilježena nikakva sigurnosna aktivnost.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>Sigurnosni događaji čuvaju se određeni broj dana: %days.</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>Sigurnosni događaji čuvaju se dok ih administrator ne ukloni.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Preuzmi moje podatke o prijavama</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Vaše sesije i sigurnosni događaji kao datoteka JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Sesije se na ovom mjestu ne bilježe, pa nijedan drugi uređaj nije mogao biti odjavljen. Promijenite lozinku odmah.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>Odjavljeno je drugih sesija: %count. Sada promijenite lozinku.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Nijedan drugi uređaj nije bio prijavljen. Sada promijenite lozinku.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Hvala. Događaj je označen kao vaš.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Taj događaj ne zahtijeva odgovor.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Stranica je istekla. Ništa nije promijenjeno; pokušajte ponovno.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Zaštiti račun</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Ako nešto ovdje niste bili vi, odjavite sve ostale uređaje, a zatim odaberite novu lozinku. Uređaji koji su ostali prijavljeni pomoću opcije „Zapamti me” također se odjavljuju.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Svaki uređaj osim ovoga odjavljuje se pri sljedećem zahtjevu. Zatim odabirete novu lozinku.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Da, odjavi ostale uređaje</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Jeste li to bili vi?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Da, to sam bio ja</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Ne, zaštiti moj račun</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Prijavljeno</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Neuspjeli pokušaj prijave</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Odjavljeno</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Sesije odjavljene</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Prijava s novog uređaja</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Prijava s nove lokacije</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Identitet potvrđen („Potvrdite da ste to vi“)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Provjera identiteta nije uspjela</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Prijava pristupnim ključem</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Prijava pristupnim ključem nije uspjela</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Prijava odbijena: kôd prijave u dva koraka nedostaje ili je pogrešan</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Pogrešan kôd prijave u dva koraka</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Račun zaključan nakon neuspjelih prijava</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Račun otključan</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Lozinka promijenjena</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Promjena lozinke nije uspjela</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Lozinka ponovno postavljena</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Zatražena nova lozinka</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Adresa e-pošte promijenjena</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Korisničko ime promijenjeno</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Prijava u dva koraka uključena</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Prijava u dva koraka isključena</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Upotrijebljen kôd za oporavak</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Novi kodovi za oporavak</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Stvorena lozinka aplikacije</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Opozvana lozinka aplikacije</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Dodan pristupni ključ</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Uklonjen pristupni ključ</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Račun omogućen</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Račun onemogućen</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Sve</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Prijave i sesije</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Promjene računa</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Zahtijeva pozornost</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Sigurnosna aktivnost</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Sigurnosna aktivnost: %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Prijave i promjene sigurnosti vašeg računa. Ako vidite nešto što niste učinili, promijenite lozinku i odjavite uređaje koje ne prepoznajete.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Vaši uređaji</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Promijeni lozinku</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>Sigurnosna aktivnost na ovom se web-mjestu još ne bilježi.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Prijave u posljednjim danima: %days</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Neuspjeli pokušaji</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Još nije zabilježena nikakva sigurnosna aktivnost.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Preuzmi moje podatke o prijavama</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Vaše sesije i sigurnosni događaji kao datoteka JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Sesije se na ovom mjestu ne bilježe, pa nijedan drugi uređaj nije mogao biti odjavljen. Promijenite lozinku odmah.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>Odjavljeno je drugih sesija: %count. Sada promijenite lozinku.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Nijedan drugi uređaj nije bio prijavljen. Sada promijenite lozinku.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Hvala. Događaj je označen kao vaš.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Taj događaj ne zahtijeva odgovor.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Stranica je istekla. Ništa nije promijenjeno; pokušajte ponovno.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Zaštiti račun</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Ako nešto ovdje niste bili vi, odjavite sve ostale uređaje, a zatim odaberite novu lozinku. Uređaji koji su ostali prijavljeni pomoću opcije „Zapamti me” također se odjavljuju.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Svaki uređaj osim ovoga odjavljuje se pri sljedećem zahtjevu. Zatim odabirete novu lozinku.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Da, odjavi ostale uređaje</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Jeste li to bili vi?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Da, to sam bio ja</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Ne, zaštiti moj račun</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>Lozinka</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>Lozinka i kôd prijave u dva koraka</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>Sučelje REST</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>Sučelje SOAP</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>Jedinstvena prijava (SSO)</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>Prijavljeno prije početka bilježenja sesija</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Izvješće o prijavama</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>Tko je prijavljen na web-mjesto, koliko se često računi prijavljuju i koliko često u tome ne uspiju te odjava korisnika posvuda. Radi sa svakim rukovateljem sesijama.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>Sesija je odjavljena. Uređaj se mora ponovno prijaviti.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>Korisnik %login odjavljen je iz sesija. Broj sesija: %count.</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>Korisnik %login nije imao nijednu aktivnu sesiju.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>Nijedan račun nema taj ID, korisničko ime ili adresu e-pošte.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>Ovo je sesija koju upotrebljavate. Da biste je završili, odjavite se.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>Ta je sesija već završila.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Stranica je istekla. Ništa nije promijenjeno; pokušajte ponovno.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>Sesije se na ovom web-mjestu ne bilježe (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>Tablica expuser_session nedostaje</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>Sesije se bilježe čim se tablica stvori: php update/common/scripts/6.0/createusersessiontable.php ili ažuriranje baze podataka na verziju 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>Sada i danas</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>Aktivne sesije</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>Prijavljeni korisnici</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>Prijave danas</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>Neuspjeli pokušaji danas</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>Odjava korisnika posvuda</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>Svaka sesija računa završava pri svojem sljedećem zahtjevu, uključujući one koje čuva opcija „Zapamti me“. Upotrijebite to kad bi račun mogao biti u pogrešnim rukama; zatim ponovno postavite njegovu lozinku.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>ID korisnika, korisničko ime ili adresa e-pošte</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>Odjavi posvuda</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>Trenutačno prijavljeni</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>Prikazane su nedavno upotrijebljene (najviše %limit).</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Korisnik</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Uređaj</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adresa</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>Prijavljeno</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>Posljednja aktivnost</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Radnje</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>Ovaj uređaj</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Nije zabilježeno</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>Odjavi</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>Nijedna sesija nije prijavljena.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Posljednji dani: %days</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>Prijave i neuspjeli pokušaji broje se iz revizijskog zapisnika korisnika, koji ne postoji; nove sesije se broje.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>Dan</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>Prijave</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Neuspjeli pokušaji</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>Nove sesije</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>Rukovatelj sesijama: %handler. Sesije se čitaju iz tablice expuser_session pa izvješće radi sa svakim rukovateljem.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>Sumnjiva aktivnost u posljednjih %hours sati</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>Jedna mreža nije se uspjela prijaviti na %accounts računa (%count pokušaja)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Račun zaključan nakon neuspjelih prijava</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>%count neuspjelih prijava na jednom računu</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>Prijavljen iz %count zemalja istodobno</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Sigurnosna aktivnost</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Sesije</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>Neuspjele prijave čitaju se iz revizijskog zapisnika korisnika, koji ovdje nije dostupan.</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>Ništa sumnjivo: nema računa s ponovljenim neuspjelim prijavama, nema mreže koja pokušava više računa, nema računa prijavljenog iz više zemalja.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>Sigurnosno upozorenje za vaš račun</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>Na vašem računu %login dogodio se sigurnosni događaj: %event. Ako to niste bili vi, zaštitite svoj račun na adresi %url.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Postavljanje</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>Zatražite od sadržaja ovog web-mjesta točno ona polja koja su stranici potrebna, jednim zahtjevom. Shema prati klase sadržaja; svaki se upit izvršava s pravima korisnika koji ga šalje.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>GraphQL API isključen je u ovom pristupu web-mjestu. Uključite ga u graphql.ini: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>Biblioteka GraphQL (webonyx/graphql-php 15) nije instalirana.</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>Krajnja točka</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>Biblioteka</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>Shema</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>Klase sadržaja: %count, shema %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>Upit</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>Varijable (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Pokreni</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>Odgovor</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>Izvršava se…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>Odgovor nije moguće pročitati.</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>Upit se izvršava s vašim pravima, prijavljeni ste u ovoj sesiji.</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%count u %seconds s</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>bez ograničenja</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>Dubina</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>Složenost</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>Stavki po popisu</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (zadano %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>Zahtjeva po korisniku ili ključu</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>Zahtjeva po anonimnoj adresi</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>Introspekcija</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>Samo pohranjeni upiti</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>Najveći upit</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>%bytes bajtova</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>Najveći prijenos</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>Ne postoji pristup web-mjestu %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>Mutacije su uključene u %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>Mutacije su isključene u %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>GraphQL API uključen je u %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>GraphQL API isključen je u %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>Postavke nije moguće zapisati: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>Predmemorija odgovora je očišćena: uklonjeno odgovora: %count.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>Označite okvir pokraj upita kako biste ga uklonili.</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>Upit nije moguće ukloniti: upit isporučen u direktoriju iz PersistedQueryDirectoryList[] uklanja se zajedno sa svojom datotekom.</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>Pohranjeni upit je uklonjen.</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>Mutacije</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>uključeno</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>isključeno</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Pristupi web-mjestu</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>Gdje API i njegove mutacije odgovaraju. Gumbi zapisuju graphql.ini, kao i ./console exp:graphql:enable i exp:graphql:disable.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Pristup web-mjestu</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>GraphQL API</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Promijeni</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Isključi</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>Isključi mutacije</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>Uključi mutacije</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Uključi</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>Ograničenja</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>graphql.ini [GraphQLSettings] ovog pristupa web-mjestu.</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>Predmemorija odgovora</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>Odgovori pohranjenih upita, čuvani prema korisničkim pravima i poništeni pri svakoj objavi sadržaja.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Stanje</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>Sačuvani odgovori</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>Odgovora: %count, %bytes bajtova</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>Čuva se najviše</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds s</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>Posljednje poništenje</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>Očisti predmemoriju odgovora</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>Pohranjeni upiti</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>Pohranjeni naredbom ./console exp:graphql:persist ili od strane klijenata (automatski pohranjeni upiti); pozivaju se imenom ili SHA-256.</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>Imena</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Veličina</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Gdje</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Ukloni</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>isporučeno</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>pohranjeno</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>Da, ukloni ovaj upit</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>Još nema pohranjenih upita.</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>API ključevi</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>Osobni API ključevi s opsegom graphql:read (upiti) ili graphql:write (mutacije). Stvarajte ih i opozivajte na stranici API pristup ili naredbom ./console exp:graphql:keys.</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>API pristup</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>Svi ključevi</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>Ključ</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Naziv</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Vlasnik</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>Opsezi</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>Zadnja upotreba</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>aktivan</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>istekao</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>opozvan</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>nikad</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>Još nema API ključa s GraphQL opsegom.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>GraphQL API isključen je u pristupu web-mjestu %siteaccess, koji prikazuje ovu stranicu; tablica ispod pokazuje gdje odgovara.</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>Za pristup web-mjestu %siteaccess, koji prikazuje ovu stranicu.</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>Webhookovi</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>Svaki događaj koji krajnja točka traži (publish, update, trash, delete, move, hide, reveal, mutation) šalje joj, potpisan, dio cronjoba graphqlwebhooks. ./console exp:graphql:webhooks radi isto što i ovaj odjeljak.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Događaji</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>svi</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Svaki pristup web-mjestu</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>neispravan</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>bez tajne</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>Na čekanju</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count odustano</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>Posljednja isporuka</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Pošalji test</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>Da, ukloni ovaj webhook</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>Još nema webhooka.</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>Dodaj webhook</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>Dodaj</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>Nedavne isporuke</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Vrijeme</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Rezultat</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>Pretplate</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>Ažuriranja uživo za klijente: tok događaja na /api/graphql/subscribe i WebSocket (graphql-transport-ws) na Velocity. Svaki događaj ide samo pretplatnicima koji smiju čitati njegov sadržaj.</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>Trenutačno otvoreno</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>Najviše otvorenih</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>%total ukupno, %user po korisniku, %address po adresi</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>Anonimne pretplate</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>Trajanje toka</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>Webhook nije moguće dodati: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>Webhook %name je promijenjen; njegova tajna za potpisivanje ostaje.</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>Tajnu za potpisivanje nije moguće pohraniti (Postavljanje &gt; Tajne).</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>Webhook %name je dodan. Njegova tajna za potpisivanje, prikazana samo ovaj put: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>Ne postoji webhook %name.</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>Webhook %name nije odgovorio: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>Webhook %name odgovorio je %status za %ms ms.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>Označite okvir pokraj webhooka kako biste ga uklonili.</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>Webhook %name je uklonjen.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>GraphQL API isključen je u ovom pristupu web-mjestu.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>Biblioteka GraphQL nije instalirana.</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>Upotrijebite GET ili POST.</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>Tijelo nije JSON objekt.</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables nije JSON objekt.</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions nije JSON objekt.</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>Pošaljite upit metodom POST.</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>Zahtjev ne sadrži upit.</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>Upit je dulji od %max bajtova.</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>Interna pogreška poslužitelja</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node treba točno jedno od id, remoteId, path i urlAlias.</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content treba točno jedno od id i remoteId.</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>Pokazivač za after nije izdao ovaj API.</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>Ne postoji alias slike %alias (image.ini [AliasSettings] AliasList[]).</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>Ovdje se prihvaćaju samo upiti pohranjeni na poslužitelju: pošaljite id pohranjenog upita.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>Hash pohranjenog upita nije SHA-256.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>Hash pohranjenog upita ne odgovara upitu.</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>Previše zahtjeva: najviše %limit u %window sekundi. Pokušajte ponovno za %reset sekundi.</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>Upit je dubok %depth razina; dopušteno je najviše %max.</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>Upit ima složenost %complexity; dopušteno je najviše %max.</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>Ovaj zahtjev ne smije čitati shemu (introspection).</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search treba tekst ili filtar (classes, subtree, sections, publishedAfter, publishedBefore).</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument nije datum (ISO 8601, 2026-10-30).</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag treba točno jedno od id, remoteId i path.</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout treba točno jedno od id, identifier i urlAlias.</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>Polje operations višedijelnog zahtjeva nije jedan JSON zahtjev.</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>Polje map višedijelnog zahtjeva nije JSON objekt.</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>Višedijelni zahtjev ne sadrži datoteku %field.</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>Putanja u polju map mora počinjati s variables.: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>Datoteka %name nije stigla cijela (pogreška prijenosa %error).</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>Datoteka %name veća je od %max bajtova.</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>Datoteku %name nije moguće provjeriti.</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>Mutacije su isključene u ovom pristupu web-mjestu (graphql.ini [GraphQLSettings] MutationsEnabled).</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>Pošaljite mutaciju metodom POST.</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>Prijavite se kako biste mijenjali sadržaj.</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>API ključ nema opseg %scope.</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>Mutacija sa sesijom treba token obrasca te sesije (zaglavlje X-CSRF-Token).</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>uploadFromUrl je isključen: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] ne navodi nijedan host.</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>Adresa mora biti https adresa.</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>Host %host nije u graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>Datoteku nije moguće dohvatiti.</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload je samo ulazni tip.</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>Varijabla tipa Upload prima datoteku višedijelnog zahtjeva.</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>Udaljeni id %remoteId već je zauzet.</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>Sadržaj već ima prijevod na %language: upotrijebite updateContent.</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>Navedite barem jedno polje.</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>Nije moguće stvoriti novu verziju (sadržaj ima previše skica).</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>Verzija %version nije skica.</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent treba točno jedno od id i nodeId.</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>Lokacija se ne može premjestiti ispod same sebe.</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>Sadržaj već ima lokaciju ispod %parentId.</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>Vrijednost polja %field nije moguće pohraniti.</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>Ne postoji jezik sadržaja %language.</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>U shemi ne postoji klasa sadržaja %class.</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>Sadržaj ne postoji ili ga ne smijete čitati.</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>Ovo ne smijete učiniti s ovim sadržajem.</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>Klasa %class nema polje %field u koje se smije pisati.</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>Polje %field navedeno je dvaput.</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>Polje %field prima datoteku: pošaljite je kao upload (višedijelni zahtjev).</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>Polje %field ne prima datoteku.</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>Polje %field treba vrijednost.</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>Format %format namijenjen je samo poljima obogaćenog teksta; %field prima vrijednost kakva jest (RAW).</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>Polje %field je obavezno.</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>HTML nije moguće pročitati.</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content prima version samo uz id.</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>Token pregleda nije valjan ili je istekao.</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>Nije ishodište (https://host ili https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>Nije opseg GraphQL API-ja: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>Pošaljite pretplate na /api/graphql/subscribe (tok događaja ili WebSocket).</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>Zahtjev ne navodi nijednu operaciju dokumenta.</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>Pretplata traži točno jedno polje.</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>Otvoreno je previše pretplata; pokušajte ponovno kasnije.</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>Imate %max otvorenih pretplata, najviše što je dopušteno.</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>Vaša adresa ima %max otvorenih pretplata, najviše što je dopušteno.</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>Pretplate su isključene u ovom pristupu web-mjestu.</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>Prijavite se kako biste se pretplatili (token ili osobni API ključ).</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>Pošaljite mutacije na /api/graphql.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>Migracije</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Stanje nije bilo moguće pročitati: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Tablice migracija još ne postoje: ./console exp:upgrade --apply ih stvara.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>Neuspjelih migracija: %count</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>Pokretanje je u tijeku, pokrenuo ga je %user</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>Instalacija je zaključana: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Na čekanju</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Neuspjelo</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>Napuštene</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Zadnje pokretanje</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>još nijedno</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>Sve migracije</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>Simulirano pokretanje</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>Probno pokretanje</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>Migracije na čekanju izvedene su u transakciji koja je potom poništena: ništa nije zadržano. U nastavku je što je svaka promijenila u bazi podataka.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>Što bi pokretanje sada učinilo. Ništa se ne mijenja: svaka migracija na čekanju navodi promjene koje bi napravila, a pokretanje što bi učinilo prije i poslije.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>Simuliraj</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Pokreni</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>Probno pokretanje nije uspjelo: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>Simulacija zahtijeva PostgreSQL ili SQLite, čije se promjene sheme mogu poništiti; na ovoj bazi podataka plan u nastavku pokazuje što bi pokretanje učinilo.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>Migracije</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>Migracija</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Stanje</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>Što bi učinila</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>Simulacija: %result za %ms ms</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>Još nema migracija.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>Prije i poslije pokretanja</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>Snimka prije</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>snima se i vraća ako migracija ne uspije</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>isključeno</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>Snimka poslije</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>snima se kad pokretanje uspije</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>Migracija ukupno: %total; na čekanju %pending, gotovo %done, neuspjelo %failed.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>Povijest migracija</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>Svako pokretanje s korisnikom, okruženjem, snimkama i onim što je predano, označeno i poslano. Neuspjelo ili prekinuto pokretanje može se nastaviti; pokretanje sa snimkom prije njega može se poništiti.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>Pokretanja nije bilo moguće pročitati: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Tablice migracija još ne postoje: ./console exp:upgrade --apply ih stvara.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Prikaži</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Sve</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>Pokretanja</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Pokrenuto</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Pokrenuo</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>Snimke</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Repozitorij</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Radnje</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>prije</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>poslije</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>slanje: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>Nastavi</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Poništi</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>Nema pokretanja u ovom stanju.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>Pokrenuto ovdje</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>Pokretanja, nastavci i poništavanja pokrenuti na ovim stranicama, s izvješćem za svako.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Što</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Rezultat</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Poništavanje</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>Poništavanje: %target</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>Pokretanje %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Što je pokretanje učinilo, njegov zapis i dnevnik. Pokretanje započeto ovdje nastavlja se u pozadini kad se ova stranica zatvori; ponovno otvorite stranicu da biste ga pratili.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>Nastavi ovo pokretanje</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>Poništi ovo pokretanje</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>Zapis nije bilo moguće pročitati: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Napredak</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Pokrenuo %user u %time.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>Provjera koda i snimanje prije pokretanja</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>Izvodi se %id (%index od %total)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>Gotovo %done od %total</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>Migracije su izvedene; vraćanje snimke ako neka nije uspjela</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>Snimanje nakon pokretanja, predaja, označavanje i slanje</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>Vraćanje snimke</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>Pokretanje je završeno. Učitavanje izvješća.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>Napredak nije bilo moguće pratiti. Ponovno učitajte stranicu da vidite kako napreduje pokretanje.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>Ova stranica prati pokretanje dok traje.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Ponovno učitaj</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Izvješće</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Trajanje</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms milisekundi</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>Što je pokretanje ispisalo kao pogreške</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Zapis</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>Okruženje</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>nema</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Završeno</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Predaja</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Oznaka</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Slanje</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Poruka</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>Migracije ovog pokretanja</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>Izvor</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>Dnevnik pokretanja</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>Prikazan je samo kraj dnevnika.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>u tijeku</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>završeno bez izvješća</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>uspjelo</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>neuspjelo</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>odbijeno</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>baza podataka nije bila dostupna</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>interna pogreška</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>Pokretanje je u tijeku</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind pokrenuo %user u %time.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>Prati</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>Instalacija je zaključana</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>Drugo pokretanje drži zaključavanje (nadogradnja ili pokretanje u konzoli): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>gotovo</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>na čekanju</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>nije potrebno</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>nepoznato</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>poništeno</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>primijenjeno</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>bilo bi primijenjeno</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>vraćeno</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>bilo bi vraćeno</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>nije izvedeno</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>čeka drugu</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>promjena prihvaćena</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>promjena bi bila prihvaćena</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>simulirano</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migracije</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Stanje</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Povijest</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>Vrati %target</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>Pokretanje se vraća na snimku napravljenu prije njega, jedna migracija pomoću svoje down(). Vraćanje ranije snimke namijenjeno je stručnjacima. Svako vraćanje izvodi se u pozadini pod vašim korisnikom, nakon snimke trenutačnog stanja.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>Nije bilo moguće pročitati što se može vratiti: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>Pokretanje</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>Jedna migracija</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>Ranija snimka</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>Opis</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>da</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ne</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Snimka</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Naziv</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>Snimljeno</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Vrsta</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>Dijelovi za vraćanje</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>Baza podataka</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>Pohranjene datoteke (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>Postavke (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>Vraćanje baze podataka vraća je u trenutak snimke, uključujući sesije: nakon toga možda ćete se morati ponovno prijaviti. Sve promijenjeno od tada se gubi; najprije se snima trenutačno stanje.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>Znam što ovo vraća</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>Ponovno upišite ID snimke</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>Da, vrati</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Odustani</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>Pokretanja sa snimkom napravljenom prije njih.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>Odaberi</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>Još nema pokretanja sa snimkom.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>Primijenjene migracije koje se mogu same vratiti (imaju down()).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>Nijedna primijenjena migracija nema down().</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>Ranije snimke (stručnjaci)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>Još nema snimki.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>Pokreni migracije</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>Pokretanje se odvija u pozadini kao %user, a njegova ga stranica prikazuje dok traje. Prije prve migracije snima se instalacija; ako migracija ne uspije, pokretanje se zaustavlja i snimka se vraća.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>Najprije probno pokretanje</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Stanje nije bilo moguće pročitati: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>Migracije na čekanju</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>Izvode se ovim redoslijedom. Uklonite kvačicu s jedne da biste nju i one koje o njoj ovise ostavili za kasnije pokretanje.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>Pokreni je</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>Uključuje način održavanja dok se izvodi.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>Promijenjene nakon primjene</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>Ove datoteke nisu one koje su primijenjene. Pokretanje ih odbija osim ako se promjena prihvati s obrazloženjem; ne izvode se ponovno, nova kontrolna suma se bilježi, a obrazloženje se čuva u revizijskom dnevniku.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>Prihvati promjene</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Zašto</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>Zadane postavke su sigurne. Svaki okvir izostavlja jedan korak.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>Bez snimke</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>Bez snimke prije i poslije pokretanja: neuspjeh se ne može automatski popraviti.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>Bez vraćanja</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>Nakon neuspjeha ostavi instalaciju kakvom ju je neuspjeh ostavio.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>Zadrži nepredane promjene</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>Pokreni iako postavke, proširenja ili dizajni imaju nepredane promjene; one ulaze u snimku.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>Bez predaje</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>Ne predaji datoteku stanja i dnevnik pokretanja (ni oznaku ni slanje).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>Bez slanja</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>Predaj i označi, ali ne šalji.</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>Bez oznake</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>Predaj i pošalji, ali ne označavaj pokretanje.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>Da, pokreni ove migracije sada</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Nijedna migracija nije na čekanju.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>Natrag na stanje</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>Promjene ove instalacije zapisane jednom kao datoteke (sadržaj, klase, uloge, postavke, shema) i primijenjene na svaku instalaciju stranice istim redoslijedom. Pokretanje najprije napravi snimku, vraća je ako migracija ne uspije te bilježi, predaje i šalje ono što je učinilo.</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>Pokreni migracije na čekanju: %count</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Pregled</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Na čekanju</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Gotovo</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Neuspjelo</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>Nije potrebno</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>Baza podataka</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>transakcije: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>Migracije stranice nalaze se u migrations/, a migracije proširenja u extension/&lt;name&gt;/migrations/. Izvode se redoslijedom svojih naziva i ovisnosti.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Zadnje pokretanje</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>Datoteka se promijenila nakon primjene.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>Još nema migracija. ./console exp:migration:generate --skeleton &lt;name&gt; --apply zapisuje prvu.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>Najnovija pokretanja</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>Sva pokretanja</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>Još nema pokretanja.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>Za simulaciju pokretanja potrebna je dozvola migration/run.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>Pokretanje je u tijeku: simulirajte kad završi.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Postavljanje</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target nije ni pokretanje, ni migracija, ni snimka ove instalacije.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>Najprije označite „Da, vrati“.</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>Vraćanje ranije snimke namijenjeno je stručnjacima: označite „Znam što ovo vraća“.</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>Ponovno upišite ID snimke: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>Odaberite barem jedan dio za vraćanje.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>Ovo pokretanje nema snimku prije sebe: vratite njegove migracije jednu po jednu ili vratite raniju snimku.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>Ova se migracija ne može sama vratiti: nije primijenjena ili nema down().</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Obrazac nije bilo moguće pročitati.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>Odaberite pokretanje koje želite nastaviti.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>Najprije označite „Da, pokreni ove migracije sada“.</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>Odaberite barem jednu migraciju.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>Migracija se promijenila nakon primjene: prihvatite promjenu s obrazloženjem ili vratite datoteku.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>Navedite zašto se promijenjene migracije prihvaćaju.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>Obrazloženje može imati najviše 500 znakova.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>Pokretanje započeto ovdje još je u tijeku (%detail). Pričekajte da završi.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>Drugo pokretanje drži zaključavanje instalacije: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>Pokretanje zahtijeva prijavljenog korisnika koji postoji.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Nije pronađen php program za naredbeni redak. Postavite migration.ini [AdminSettings] PhpCliPath na njegovu punu putanju.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open je onemogućen pa se pokretanje ne može započeti ovdje. Izvedite ./console exp:migration:migrate --apply na poslužitelju.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>U mapu pokretanja nije moguće pisati: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>Pokretanje je započelo, ali nije javilo ID procesa. Provjerite %detail.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>Navedite što treba vratiti.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>Pokretanje nije bilo moguće započeti.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>Snimanje promjena</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>Dok snimanje traje, ono što mijenjate u administraciji ili na bočnoj traci web-mjesta sprema se kao koraci migracije: sadržaj, klase, uloge i pravila, sekcije, korisnici i grupe, URL aliasi, postavke. Zaustavite ga kad završite, pogledajte što je zabilježilo i iz njega generirajte migraciju.</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>Snimke nije bilo moguće pročitati: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>Tablice snimki još ne postoje: najprije pokrenite nadogradnju (exp:upgrade --apply).</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>Snimanje je isključeno u migration.ini ([RecordingSettings] Recording=disabled).</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>Moje promjene</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>Snima samo ono što vi mijenjate, gdje god to mijenjali, dok ga ne zaustavite.</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>Snimanje</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>od %time, dosad promjena: %count.</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>Oznaka (neobavezno)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>Prikaži što je zabilježilo</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Zaustavi snimanje</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>Počni snimati moje promjene</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>Prozor za cijelo web-mjesto</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>Snima svaku promjenu svakog korisnika i konzole dok se ne zatvori. Pri otvaranju trebate potvrditi da ste to vi.</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Otvoreno</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>Zatvori prozor</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>Otvori prozor za cijelo web-mjesto</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>Snimke</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>Račun korisnika (korisničko ime, e-pošta, lozinka) i polja korisničkih računa nikad se ne snimaju.</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Promjene</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>Cijelo web-mjesto</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>Promjene korisnika %name</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Zaustavljeno</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>Još nema snimki.</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>Snimka %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>Sve snimke</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>Migracija koja bi iz nje nastala</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>Promjene objedinjene u jedan korak po promijenjenoj stavci: što bi napravila migracija generirana iz ove snimke.</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>Iz nje će se moći generirati migracija kad ova instalacija bude imala YAML vrste koraka %types.</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>Namjerno izostavljeno: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>Ništa nije snimljeno.</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>Što je zabilježilo</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>Promjena: %count, redoslijedom kojim su napravljene.</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Promjena</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>Korak</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>Odnosi se na</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>Još %count: ./console exp:migration:record:show ispisuje sve.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Odbaci</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>Uklanja snimku i ono što je zabilježila. Što je promijenjeno, ostaje promijenjeno.</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>Da, odbaci ovu snimku</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>Snimanje u tijeku…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Vaše se promjene snimaju za migraciju.</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>Svaka promjena na ovom web-mjestu snima se za migraciju (prozor za cijelo web-mjesto).</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>Snimanje cijelog web-mjesta je počelo: svaka promjena svakog korisnika snima se dok ga ne zaustavite.</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>Snimanje je počelo: vaše se promjene snimaju dok ga ne zaustavite.</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>Snimanje zaustavljeno. Ono što je zabilježilo ostaje dok ga ne odbacite.</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>Snimka i njezini događaji su uklonjeni.</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>Nema snimke %id.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>Najprije označite „Da, odbaci ovu snimku”.</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>Samo korisnik koji je snimao smije zaustaviti snimanje sesije.</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>Odaberite snimanje koje želite zaustaviti.</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>Snimanje ove vrste već je u tijeku.</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>Snimku nije bilo moguće promijeniti: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>Generiraj migraciju</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>Naziv migracije (neobavezno)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>Migracija %file je zapisana. Promjene koje nijedan korak ne može napraviti navedene su na vrhu datoteke, treba ih napraviti ručno.</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>Nijedna migracija nije zapisana: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>Dugo izvođenje u dijelovima</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>Prazna polja zadržavaju postavke iz migration.ini [RunSettings].</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>Najviše toliko migracija</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>Nema daljnjih migracija nakon (sekundi)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>Stanka između migracija (sekundi)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>Niži prioritet (1 do 19)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>Polje dugog izvođenja cijeli je broj od 1 (stanka: sekunde od 0 do 60, prioritet: 1 do 19) ili prazno.</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>Zatvara se samo u %time.</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>Zatvori samo nakon (minuta, neobavezno)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>Minute su cijeli broj od 1 do 44640 (31 dan) ili prazno.</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>Migracija %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>Nova migracija</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>YAML migracija: napišite je kao tekst ili složite njezine korake u obrascu, provjerite je i zatim spremite u mapu migracija.</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>Ova je migracija već pokrenuta pa se ne sprema ponovno: zaštita kontrolnog zbroja odbila bi promijenjenu datoteku. Promjenu napravite u novoj migraciji.</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>Web-poslužitelj ne može zapisati datoteku.</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>Retci komentara na vrhu čine zaglavlje (description, author, requires, environments, engines). Kad se korak doda ili promijeni u obrascu, migracija se ponovno zapisuje: komentari između koraka ne zadržavaju se.</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>Naziv migracije</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>Kamo ide</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>Web-mjesto</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>YAML tekst</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>Provjeri</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Spremi</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Koraci</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>Ključevi</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Uredi</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>Pomakni gore</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>Pomakni dolje</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Ukloni</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>Još nema koraka: dodajte jedan pomoću obrasca ili ih napišite u tekstu.</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>Promijeni korak %number</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>Dodavanje koraka</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>Obrazac koraka nastaje iz njegove vrste koraka: njegovi ključevi, što svaki prima i načini rada kojima pripada.</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>Vrsta koraka</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>Prikaži njegov obrazac</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>Korak ima ključeve koje njegova vrsta ne poznaje; izostavljaju se kad se korak promijeni: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>Način rada</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>U</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>samo u %modes</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>Zadano: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>Uvjeti, reference i komentar</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>Parovi Naziv=vrijednost odvojeni zarezima. Vrijednosti ovog koraka: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>Primjer</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>Promijeni korak</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>Dodaj korak</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>Što kaže exp:migration:check: zaglavlje, dokument i svaki korak koji provjerava njegova vrsta koraka.</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>Migracija prolazi provjeru.</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Pretpregled</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>YAML kako će biti spremljen.</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>Prikaži YAML</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>YAML migracije</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>pokrenuta</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>Još nema YAML migracija.</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>Uređivanje</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>U mapama migracija nema YAML migracije %id.</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>Odaberite vrstu koraka.</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>Korak je dodan. Provjerite migraciju prije nego što je spremite.</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>Korak je promijenjen. Provjerite migraciju prije nego što je spremite.</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>Odaberite korak.</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>Ovaj korak nema obrazac (petlja ili vrsta koraka koju ova instalacija nema): promijenite ga u tekstu.</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>Odaberite kamo ide migracija: web-mjesto ili aktivno proširenje.</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>Spremljeno: %file. Prije pokretanja migracije izvedite probno pokretanje.</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>Nije spremljeno: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>Odredišta</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>Druge instalacije na koje ova isporučuje svoje migracije: isporuka šalje migracije na odabrana odredišta i ondje ih pokreće, sve odjednom i usklađeno. Odredište nikad ne sadrži tajnu: njegova vjerodajnica imenuje jednu u Postavljanje &gt; Tajne.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>Novo odredište</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Pomoć</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>Test veze za %id</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>Odredišta</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>Istodobno se obrađuje do %parallel odredišta; jedna faza smije trajati %timeout sekundi na svakom.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>Odredište</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adresa</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Vjerodajnica</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>Grupe</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>postavke za ispravak</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>samo datoteke (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>SSH ključ</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>Lozinka</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>nema (SSH agent i ključevi računala)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>Testiraj vezu</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>Isporuka grupi ide na svako njezino odredište.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>Isporuka na odredišta</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>Još nije postavljeno nijedno odredište.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>Odredište %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>Ovdje se ništa ne šalje ni ne pokreće: Spremi zapisuje postavke u settings/override/migration.ini.append.php. Vjerodajnica je naziv; njezina vrijednost ostaje u Postavljanje &gt; Tajne ili u okruženju.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Provjerite ove postavke</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>Postavke kako su unesene, još nisu spremljene.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Pregled</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Postavke su valjane. Bit će zapisani ovi retci:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>Prijenos</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>samo naziv; vrijednost ostaje u Postavljanje &gt; Tajne</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Retci koji će biti zapisani</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>Veza</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>Ključ računala</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. Odredište</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>Kako se odredište zove i koje je okruženje.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>Slova, znamenke, - i _, na primjer production1. Imenuje odredište u izvješćima i na konzoli (--remotes=production1) i kasnije se ne može promijeniti.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... Isporuka u etapama prolazi kroz okruženja ovim redoslijedom.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>Neobavezno, odvojeno zarezima, na primjer production. Isporuka grupi ide na svako njezino odredište.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. Veza</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>Kako datoteke dolaze onamo i gdje je instalacija.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>Preko SSH-a, samo ono što se promijenilo, a prekinuti prijenos se nastavlja. Najbolji izbor gdje je rsync instaliran.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>SSH sa scp za datoteke.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>SSH sa sftp za datoteke.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>Samo datoteke: migracije se šalju i čitaju natrag, ali se ondje ne mogu pokrenuti.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>FTP preko TLS-a; samo datoteke.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>Druga instalacija na ovom poslužitelju, u mapi.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Računalo (host)</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>Naziv ili adresa računala, na primjer node1.example.com. Ne za local.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>Priključak</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>Prazno: 22 za SSH, 21 za FTP.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Korisnik</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>Putanja</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>Korijenska mapa instalacije ondje, na primjer /var/www/site (za FTP: putanja koju vidi FTP račun).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>PHP naredbeni redak</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>Ondašnji PHP CLI: php ili puna putanja poput /opt/plesk/php/8.4/bin/php.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>Skripte konzole ondje se izvode kao root</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>Samo kad je korisnik odredišta root (tada se pokreću s --allow-root-user).</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. Vjerodajnica</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>Kako se ova instalacija ondje prijavljuje. Sprema se samo naziv.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Nijedan</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>SSH agent i ključevi korisnika pod kojim se ova instalacija izvodi (i uvijek za local).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>Privatni ključ spremljen kao tajna.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>Lozinka spremljena kao tajna (FTP se prijavljuje njome).</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>Naziv tajne</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>Tajna iz Postavljanje &gt; Tajne, na primjer deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Postavljanje &gt; Tajne</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>Ili varijabla okruženja</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>Varijabla poslužiteljskog procesa koja je sadrži, na primjer DEPLOY_KEY (sprema se kao env:DEPLOY_KEY). Zamjenjuje naziv tajne.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. Ključ računala</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>Neobavezno, za SSH, sftp i rsync.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>Otisak ključa računala</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... kako ga ispisuje ssh-keygen -l. S njim računalo mora pokazati ovaj ključ; bez njega se ključ uči pri prvom kontaktu.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. Pregled</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>Testirajte vezu s gornjim postavkama, a zatim pregledajte retke koji će biti zapisani.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>Ukloni ovo odredište</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>Njegove se postavke uklanjaju iz settings/override/migration.ini.append.php. Na odredištu se ništa ne mijenja, a njegove isporuke ostaju u povijesti.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>Da, ukloni ovo odredište</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>Isporuke</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>Isporuka šalje migracije ove instalacije na odabrana odredišta i ondje ih pokreće kao %user, sve odjednom i usklađeno: najprije se provjerava svako odredište, a ako jedno ne uspije, vraća se svako odredište koje ih je primijenilo. Odvija se u pozadini, a njezina stranica prikazuje svako odredište dok traje.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. Odredišta</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>Označite odredišta, grupu ili oboje.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>Isporuči na njega</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. Način</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>Isporuči</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>Pošalji i pokreni</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>Migracije se šalju, provjeravaju i pokreću na svakom odredištu s jednim zajedničkim ID-om pokretanja.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>Samo prijenos</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>Datoteke se šalju i provjeravaju, ništa se ne pokreće (jedini način za FTP odredište).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>U etapama</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>Etapu po etapu redoslijedom okruženja (dev, stage, beta, production ...): isporučuje se prva etapa, zatim prolaz čeka dok netko ne odobri sljedeću. Sve ili ništa unutar svake etape.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>Samo ove migracije</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>Neobavezno: ID-ovi migracija, odvojeni zarezima. Prazno: svaka migracija web-mjesta i njegovih proširenja.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>Samo predprovjera</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>Da, isporuči sada</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>Isporuke koje su nešto poslale ili pokrenule, najnovija prva (predprovjera ne čuva izvješće).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>samo prijenos</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>u etapama, broj etapa: %stages</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>neusklađeno</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>Još nema isporuka.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>Isporuka %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Svako odredište isporuke s njegovim stanjem. Isporuka pokrenuta ovdje nastavlja se u pozadini kad se ova stranica zatvori; ponovno otvorite stranicu da biste je pratili.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>Sve isporuke</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>Predprovjera</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>Sljedeća etapa</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>Provjera postavki i vjerodajnica</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>Predprovjera: čitanje stanja svakog odredišta</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>Slanje datoteka migracija</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>Provjera onoga što je stiglo</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>Pokretanje migracija na svakom odredištu</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>Vraćanje odredišta</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>Isporuka je završena. Učitava se njezino izvješće.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>Napredak nije bilo moguće pratiti. Ponovno učitajte stranicu da vidite kako napreduje isporuka.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>Faza</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>Ova stranica prati isporuku dok traje.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>Usklađeno</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>Etape</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>etapa %stage čeka na svojem prolazu</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>Prolaz %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>odobrio %user u %time</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>Etapa</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>Poslane datoteke</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>Verzija jezgre</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>primijenjeno: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>za primjenu: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>Faze</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>Prolaz: etapa %stage od %stages</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>Etape prije nje su isporučene. Provjerite ih, a zatim odobrite sljedeću etapu: njezina se odredišta ponovno provjeravaju i isporučuju, sve ili ništa.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Sljedeća</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>Da, isporuči sljedeću etapu sada</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Odobri</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>Poništi ovu isporuku</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>Svako odredište koje ju je primijenilo (%list) vraća se na snimku napravljenu prije svojeg pokretanja, sva odjednom.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>Da, poništi ovu isporuku sada</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>planirano</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>preneseno</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>isporučeno</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>čeka na prolazu</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>odabrano</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>pripremljeno</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>spremno</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>čeka svoju etapu</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>datoteke poslane</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>provjereno</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>neuspjelo, samo se vratilo</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>nepromijenjeno</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>nije isporučeno</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>nedostupno</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>Odredište je odgovorilo.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>Odredište se sada ne može koristiti.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done gotovo, %pending na čekanju, %failed neuspjelo</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>Zaključavanje</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>ondje pokretanje drži zaključavanje</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>slobodno</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stage od %stages</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>Odaberite odredište koje želite testirati.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>Najprije označite „Da, ukloni ovo odredište”.</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>Odredište nije bilo moguće ukloniti: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>Odredište nije bilo moguće spremiti: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Datoteku postavki nije moguće pročitati: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>Odaberite barem jedno odredište ili grupu.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>Odabrano odredište više nije u postavkama. Ponovno učitajte stranicu.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>Najprije označite „Da, isporuči sada”.</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>FTP odredište ne može pokretati migracije: odaberite „Samo prijenos” ili ga izostavite.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>Migracije za isporuku su ID-ovi migracija, odvojeni zarezima.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>Isporuka je još u tijeku. Pričekajte da završi.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>Ova isporuka ne čeka na prolazu.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>Nijedno odredište nije primijenilo ovu isporuku: nema se što poništiti.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>Najprije označite „Da, isporuči sljedeću etapu sada”.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>Najprije označite „Da, poništi ovu isporuku sada”.</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>Odredište s ID-om %id već postoji.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>Priključak je broj od 1 do 65535.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>Okruženje je riječ od slova, znamenki, - i _ (alpha, dev, stage, beta, production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>Grupa je riječ od slova, znamenki, - i _ (ne all): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>Vjerodajnicu sada nije moguće pročitati: %problem. Spremite je u Postavljanje &gt; Tajne (ili postavite varijablu) prije prve isporuke.</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>FTP odredište samo prima datoteke: isporuka na njega je „Samo prijenos”, a njegove se migracije ondje pokreću ručno.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>Odredište %id nije u settings/override/migration.ini.append.php; uklonite ga ondje gdje je postavljeno.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>Prijava preko FTP-a uspjela je i index.php je pročitan. Stanje migracija FTP odredišta ne može se pročitati.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>Izmijenjeno</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>Stvoreno</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Naziv</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Klasa</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Odjeljak</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>Kreirao</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Novi sadržaj</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>Najnovije stvoreni i izmijenjeni sadržaj cijelog web-mjesta, od najnovijeg: što su poslali posjetitelji, što je zadržano radi pregleda, skice koje čekaju objavu. Odaberite stavke kako biste ih otpustili, zadržali, sakrili, otkrili, uklonili ili premjestili u drugi odjeljak ili stanje.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>Popis nije moguće pročitati: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>Zadržavanje radi pregleda još nije postavljeno, pa ništa nije zadržano i radnje zadržavanja nisu ponuđene. Postavlja ga korak nadogradnje 6.0.15-review-hold: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Filtriraj popis</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Od</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Do</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Datum</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>Stvoreno (prva objava)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Sve</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Status objave</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Objavljeno</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>Skica, nikad objavljena</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>Na čekanju (čeka odobrenje ili datum)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>U smeću</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Zadržano radi pregleda</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>Zadržano</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>Nije zadržano</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>Skriveno</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>Vidljivo</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>Poslano</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>Bilo koji pristup web-mjestu</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>Samo ono što je revizija zabilježila.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>Sada: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>Korisničko ime ili ID korisnika.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Filtriraj</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>Očisti filtre</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>Stavke</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from do %to od %count</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Nema stavki</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(pročitano za %ms ms)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>Radnje na odabranim stavkama</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>Odaberi sve na ovoj stranici</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>Odabrano: %count</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Radnja</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>Odaberite radnju</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>Otpusti zadržavanje</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Zadrži radi pregleda</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Sakrij</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>Otkrij</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>Premjesti u smeće</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>Izbriši</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>Dodijeli odjeljak</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>Dodijeli stanje</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>Razlog</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>Potreban za zadržavanje; čuva se uz zadržavanje i u reviziji.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>Odaberite odjeljak</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Stanje</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>Odaberite stanje</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>Primijeni na odabrano</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>Svaka se stavka provjerava prema vašim vlastitim dozvolama. Premještanje u smeće i brisanje traže potvrdu. Više od %count stavki izvodi se u pozadini.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>Odaberi</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>Objava</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>Poslano s</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>Odaberi %name</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>još ne</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(bez naziva)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>Skica</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Na čekanju</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>Skriveno zbog nadređenog</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>Zadržano: nova prijava</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>Verzija %version na čekanju</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>Verzija %version u izradi</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>Skica, verzija %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>Verzija %version objavljena</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>Zakazano za %date</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>nema adrese</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>nije zabilježeno</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>Ništa ne odgovara ovim filtrima.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Prikaži sve</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>Još nema sadržaja.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Po stranici</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Prikaži %count stavki po stranici.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says &quot;not recorded&quot;.</source>
+        <translation>Adresa i preglednik prijave dolaze iz indeksa revizije, koji ovdje nije dostupan: u stupcu piše „nije zabilježeno”.</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>Adresa i preglednik su oni koje je revizija zabilježila za stavku (automatsko zadržavanje ih uvijek bilježi; objavljivanje i stvaranje samo ondje gdje je uključeno), onako kako ih čuvaju njezine postavke privatnosti.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: %count stavki</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>Brisanje trajno uklanja stavke, sa svim njihovim verzijama i prijevodima. To se ne može poništiti.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>Stavke odlaze u smeće, odakle se mogu vratiti.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>Svaka se stavka provjerava prema vašim vlastitim dozvolama; stavka s podstavkama ostaje kakva jest (uklonite je u strukturi sadržaja). Bit ćete zamoljeni da potvrdite da ste to vi.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>Ovo se izvodi u pozadini: otvara se stranica napretka, a rezultat za svaku stavku prikazuje se kad završi.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>Odabrane stavke</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>i još %count</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Odustani</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>Ništa nije učinjeno</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Razlog: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>Radnja se još izvodi u pozadini.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>Njezin napredak</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>Radnja u pozadini nije uspjela: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Gotovo</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Odbijeno</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Neuspjelo</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>Po stavci</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>Stavka</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Rezultat</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Zašto</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>Natrag na popis</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Postavljanje</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>Ništa učinjeno</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>Potvrdi</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>Odaberite radnju.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>Odaberite barem jednu stavku.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>Odaberite najviše 1000 stavki odjednom.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>Navedite zašto su stavke zadržane.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>Odaberite odjeljak.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>Odaberite stanje.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Obrazac nije moguće pročitati.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>Nadzorna ploča</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>Novi sadržaj</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>Brojeve nije moguće pročitati: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Zadržano radi pregleda</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>Novo danas</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Zadržavanje radi pregleda još nije postavljeno (korak nadogradnje 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>Sav novi sadržaj</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>Ne smijete izvoditi radnje moderiranja (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>Radnja moderiranja nije dovršena: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>Moderiranje: %action na %count objekata</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%done od %total objekata: %ok uspjelo, %refused odbijeno, %failed neuspjelo</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok uspjelo, %refused odbijeno, %failed neuspjelo</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>Više ne postoji.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>Nema lokaciju (nije objavljeno).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>Ne smijete ga sakriti (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>Ne smijete ga otkriti (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>Već je skriveno.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>Nije skriveno.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>Skriveno.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>Otkriveno.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>U smeću je: ondje ispraznite smeće ili ga vratite.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>Skica koja nikad nije objavljena ne može u smeće: izbrišite je.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>Ne smijete ga izbrisati (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>Izbrisano.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>Ne smijete ga ukloniti (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>Ima podstavke: uklonite ga u strukturi sadržaja, gdje su navedene.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>Nije uklonjeno (tijek rada možda zadržava uklanjanje).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>Premješteno u smeće.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>Odjeljak ne postoji.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>Već je u ovom odjeljku.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>Ne smijete dodijeliti ovaj odjeljak (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>Odjeljak nije dodijeljen.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>Odjeljak dodijeljen.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>Stanje ne postoji.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>Već je u ovom stanju.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>Ne smijete dodijeliti ovo stanje (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>Stanje nije dodijeljeno (tijek rada možda zadržava promjenu).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>Stanje dodijeljeno.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>Takva radnja ne postoji.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Zadržavanje radi pregleda nije postavljeno (korak nadogradnje 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>Navedite zašto je zadržano.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>Već je zadržano.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>Ne smijete ga zadržati (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>Zadržavanje nije postavljeno (tijek rada možda zadržava promjenu).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>Zadržano.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>Nije zadržano.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>Ne smijete ga otpustiti (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>Zadržavanje nije otpušteno (tijek rada možda zadržava promjenu).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>Otpušteno; i dalje skriveno: ne smijete ga otkriti (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>Otpušteno.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>Sva odredišta</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Posljednja objava</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>Besplatno objavite statičku kopiju svojeg web-mjesta na GitHub Pages:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Zastarjele stranice</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Statičko objavljivanje</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Statičko objavljivanje je isključeno.</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Odredište</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Odredišta nije bilo moguće pročitati: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>zadatak je u tijeku</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>izgradnja za provjeru</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>sakrij ovo</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>izradite odredište</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>nikad</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>pročitajte vodič</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>dodano %added, promijenjeno %changed, uklonjeno %removed</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%bytes od %limit (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>Još %count nije navedeno.</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>Zapisano stranica: %pages</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path ima %size, više nego što poslužitelj dopušta za jednu datoteku.</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>%percent % ograničenja</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds s</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag je objava koju web-mjesto sada ima.</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: zadatak %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>/repozitorij/ za web-mjesto GitHub projekta; prazno za vlastitu domenu ili korisničko web-mjesto.</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. Web-mjesto</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. Poslužitelj</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. Prijava u repozitorij</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. Repozitorij</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. Poveznice i osnovna putanja</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. Vaša vlastita domena</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. Što izgradnja sadrži</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. Kada se objavljuje</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. Pregled i spremanje</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>Web-mjesto GitHub projekta nalazi se ispod /&lt;repository&gt;/; relativne poveznice rade ondje i bilo gdje drugdje.</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>Izgradnja dohvaća svaku stranicu web-mjesta %site onako kako je vidi posjetitelj koji nije prijavljen, prepisuje poveznice, kopira datoteke i zapisuje rezultat u mapu odredišta. Ništa se ne objavljuje dok ne provjerite izgradnju i ne pritisnete Objavi.</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>Cron izraz, na primjer 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>Ključ za implementaciju čuva se kao tajna %secret.</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>Ključ za implementaciju omogućuje ovoj instalaciji slanje u jedan repozitorij preko SSH-a i nikamo drugamo. Njegov privatni dio ostaje u Postavljanje &gt; Tajne; prikazuje se samo javni dio.</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>Ključ za implementaciju izrađen za ovo odredište</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>Ključ za implementaciju prijavljuje se preko SSH-a: promijenite git adresu u SSH adresu (git@github.com:owner/repo.git).</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>Zadatak je u tijeku, pokrenuo ga je %user</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>Zadatak ovog odredišta još je u tijeku (%detail). Pričekajte da završi.</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>Zadatak ovog odredišta još je u tijeku. Pričekajte da završi.</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>Poveznica sa stranice /news/ na stranicu /about-us/team bit će zapisana kao</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>Izrađen je novi ključ za implementaciju. Sada dodajte njegov javni dio u repozitorij.</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>Stranica koja nakon čišćenja još sadrži ispis za otklanjanje pogrešaka, token obrasca ili ID sesije nikad se ne objavljuje.</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>Poništavanje je za stručnjake: označite &quot;Znam što ovo mijenja&quot; i ponovno upišite naziv oznake.</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>Web-mjesto smije imati do %site, jedna datoteka do %file, uz oko 100 GB prometa mjesečno. Na besplatnom planu repozitorij mora biti javan. GitHub Pages nije namijenjen trgovinama ni drugim komercijalnim transakcijama.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>Odredište je jedno web-mjesto objavljeno u jedan git repozitorij. Ovdje se ništa ne izgrađuje ni objavljuje: Spremi zapisuje postavke u settings/override/staticcache.ini.append.php.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>Odredište je jedno web-mjesto objavljeno na jedno mjesto, na primjer vaše javno web-mjesto na GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>Token iz Postavljanje &gt; Tajne</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>Objavljuje ga tijek rada repozitorija.</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>Dodajte ovaj javni ključ u repozitorij s pravom pisanja. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, označite Allow write access.</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>Dodano</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>Drugi git poslužitelj</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>Drugi proces radi na ovom odredištu: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>Natrag</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>Osnovna putanja</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Prije</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>Ispod osnovne putanje</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>Grana</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>Neispravne poveznice</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>Neispravne poveznice u izgradnji</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>Izgradnja</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>Izgradnja %id, pokrenuo %user</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>Izgradnja %name</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>Izgradi sada</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>Izgradnja za provjeru</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Pokrenuo</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>Ručno, ovdje</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Odustani</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Promijeni</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>Promijenjeno</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Promjene</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>Najprije provjerite</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Provjerite ove postavke</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>Provjerite što izgradnja mijenja, pogledajte je, a zatim je objavite ili odbacite.</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>Odaberite objavu na koju se želite vratiti.</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>Dolazi u jednom od sljedećih izdanja.</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Predaja</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>Predaje</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>Predaje izgradnju, označava je i šalje u %remote. Slanje se nikad ne prisiljava; kasnije se možete vratiti na bilo koju objavu.</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>U usporedbi s prethodnom mapom: dodano %added, promijenjeno %changed, uklonjeno %removed, nepromijenjeno %unchanged.</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>U usporedbi s posljednjom objavom.</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Vjerodajnica</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>Vlastita domena</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>Ispis za otklanjanje pogrešaka, tokeni obrazaca, ID-ovi sesija i nonce vrijednosti uvijek se uklanjaju.</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>Ključ za implementaciju</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>Ključ za implementaciju za %name</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Odbaci</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>Odbaci izgradnju</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>Domena</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>Prazno: adresa web-mjesta. Inače interna adresa istog web-mjesta.</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Završeno</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>Svaka poveznica počinje osnovnom putanjom.</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>Svaka objava je predaja s oznakom static/%id/&lt;n&gt;. Vraćanje izrađuje novu predaju s datotekama ranije objave: povijest ostaje, nijedna se oznaka ne pomiče i ništa se ne prisiljava.</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>Dodaci</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>Dohvati stranice s</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Datoteka</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>Datoteke</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>Nedostaju datoteke</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>Datoteke web-mjesta</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>Datoteke koje nije bilo moguće prikupiti</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>Otisak</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>Mapa</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>Za SSH adresu. Ključ se izrađuje nakon spremanja; njegov javni dio dodajete u repozitorij.</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>Za https:// adresu. GitHub: precizno ograničen token s pravom Contents za čitanje i pisanje u repozitoriju.</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>Za stručnjake. Javno web-mjesto mijenja se čim slanje završi.</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Obrasci</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>Besplatno udomljavanje iz GitHub repozitorija.</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>Iz grane</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>Git adresa</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages dopušta web-mjesto od %site i datoteku od %file.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>Ograničenja GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages objavljuje datoteke kakve jesu (potrebno za datoteke koje počinju s _).</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub poslužuje granu onakvu kakva je poslana. Zadano.</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, vaš vlastiti poslužitelj: bilo koji git repozitorij.</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>Vratite se na raniju objavu</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Pomoć</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>Pomoć za čarobnjak</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>Sakrij ih</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Povijest</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>Povijest: %name</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Poslužitelj</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>Kako GitHub Pages prima izgradnju</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>Promjene su provjerene</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>Znam što ovo mijenja</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>Isključeno je: ništa se ne može izgraditi dok se ne uključi.</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>Izvodi se u pozadini kao %user; možete zatvoriti ovu stranicu.</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>Zadatak %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>Čuva se kao tajna %secret.</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Vrsta</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Posljednja objava</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>Izostavi ove stranice</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>Izostavi ove odjeljke</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Poveznice</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>Prepisane poveznice</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>Javno web-mjesto</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>Pogledajte izgradnju</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>Mala slova, znamenke, _ i -, na primjer github-public. Imenuje mapu i oznake (static/&lt;id&gt;/&lt;n&gt;) i kasnije se ne može promijeniti.</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>Izradi novi ključ</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>Izradi odredište</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>Izradi ključ</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>Najprije izradite repozitorij na poslužitelju; prazan je u redu.</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>Popis datoteka</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Poruka</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>Većina stranica</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Naziv</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>Naziv tokena u Postavljanje &gt; Tajne</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>Novo odredište</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Dalje</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>Ne</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>Još nema predaje.</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>Ključ nije izrađen: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Nije pronađena izvršna datoteka php za naredbeni redak. Postavite migration.ini [AdminSettings] PhpCliPath na njezinu punu putanju.</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>Još nema oznake.</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>Još nema odredišta.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Ništa</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>Nije u izgradnji.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>Još ništa nije objavljeno.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>Još ništa nije objavljeno: svaka je datoteka nova.</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>Obavijesti</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>Prema rasporedu</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>Na konzoli</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>Na poslužitelju: ./console exp:static:serve %id poslužuje je na isti način.</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>Jedna putanja po retku, * odgovara bilo kojem dijelu: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>Uz odredište se pohranjuje samo naziv; sam token ili ključ ostaje u Postavljanje &gt; Tajne i nikad se ne pojavljuje u zapisniku.</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>Samo ono što stranice navode</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>Samo s tokenom. env:NAME umjesto toga čita varijablu okruženja poslužitelja.</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>Otvori pretpregled</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>Otvara izgradnju onako kako će je poslužitelj posluživati, iz mape odredišta. Poveznica vam radi jedan sat.</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>Neobavezno. Prazno: ono što je objavljeno.</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>Neobavezno. S domenom se web-mjesto poslužuje u njezinu korijenu.</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Izlaz</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>Stranice</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>Stranice odredišta</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>Odbijene stranice</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>Naknadna obrada</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Pretpregled</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>Pretpregled i objava</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>Pretpregled i objava: %name</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>Pretpregled izgradnje</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Napredak</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>Javna adresa</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>Javni ključ</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>Objavi</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>Objavite statičku kopiju web-mjesta na GitHub Pages ili bilo kojem git poslužitelju: izgradite je, provjerite promjene, objavite i po potrebi se vratite na raniju objavu.</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>Objava na koju se vraćate</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>Objave</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Slanje</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>Pročitajte vodič</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Zapis</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Odbijeno</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>Relativno</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Ponovno učitaj</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>Uklonjeno</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>Zamijeni ključ: stari prestaje raditi</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Izvješće</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>Izvješće o izgradnji</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Repozitorij</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Pregled</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>Pregled provjerava svaku postavku i prikazuje retke koji će biti zapisani. Još ništa nije spremljeno.</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Poništi</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Poništavanje</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Spremi</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>Raspored</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>Stranica pretraživanja</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>ID-ovi odjeljaka, odvojeni zarezima.</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>Pošalji ih na javno web-mjesto</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>Postavka</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Postavke</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>Postavke: %name</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Postavljanje</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Postavljanje &gt; Tajne</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>Prikazuje se u popisima, na primjer &quot;Javno web-mjesto na GitHub Pages&quot;.</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>Prijava s GitHub App dolazi s integracijom za GitHub.</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>Web-mjesto</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>Web-mjesto za objavu</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Veličina</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>Veličina i ograničenja</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>Veličina izgradnje</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Zastarjele stranice</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Pokrenuto</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Pokrenuo %user u %time.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Stanje</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Statičko objavljivanje</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>Statičko objavljivanje je isključeno</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Statičko objavljivanje je isključeno.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>Statičko objavljivanje je isključeno. Najprije ga uključite u Postavljanje &gt; Statičko objavljivanje.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>Statičko objavljivanje je uključeno.</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>Korak %step od %total</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Koraci</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>Čišćenje</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Isključi</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Uključi</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>Uključi statičko objavljivanje</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Oznaka</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>Oznake</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Odredište</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>Odredišta se mogu izrađivati i mijenjati, ali ništa se ne izgrađuje ni objavljuje dok se ne uključi.</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>Govori tražilicama što da čitaju.</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>Izgradnju nije bilo moguće odbaciti: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>Izgradnja je ista kao posljednja objava: nema se što objaviti.</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>Izgradnja je odbačena: mapa ponovno sadrži posljednju objavu.</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>Zadane postavke odgovaraju većini web-mjesta.</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>Mapa sadrži izgradnju koja još nije objavljena; nova izgradnja je zamjenjuje.</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>U mapu zadataka nije moguće pisati: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>Zadatak nije bilo moguće pripremiti: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>Zadatak nije bilo moguće pokrenuti.</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>Zadatak je završio. Učitava se njegovo izvješće.</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>Zadatak zahtijeva prijavljenog korisnika.</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>Zadatak je pokrenut, ali nije javio ID svojeg procesa. Provjerite %detail.</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>Ključ</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>Najveća datoteka: %path, %size.</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Retci koji će biti zapisani</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>Popis stranica za tražilice; zahtijeva javnu adresu.</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>Stranice se dohvaćaju onako kako ih vidi posjetitelj koji nije prijavljen. Pristupi web-mjestu za administraciju i uređivanje nikad se ne nude.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>Napredak nije bilo moguće pratiti. Ponovno učitajte stranicu da vidite kako zadatak napreduje.</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>Javni dio ključa:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>Korijen grane</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>Spremište tajni još nije postavljeno (./console exp:upgrade --apply izrađuje njegovu tablicu), pa se nijedan ključ ne može čuvati.</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>Poslužitelj se prijavljuje sam (vlastitim SSH ključem ili pomoćnikom za vjerodajnice) ili je repozitorij na ovom poslužitelju.</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>Postavku nije bilo moguće zapisati: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Postavke su valjane. Bit će zapisani ovi retci:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Datoteku postavki nije moguće pročitati: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>Web-mjesto se vraća na datoteke te objave; izgradnja koja još nije objavljena mora se najprije objaviti ili odbaciti.</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>Vlastita stranica web-mjesta za adrese koje ne postoje.</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>Odredište nije bilo moguće spremiti: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>Odredište se još ne prijavljuje ovim ključem: u njegovim postavkama odaberite &quot;Ključ za implementaciju izrađen za ovo odredište&quot;.</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Odredišta nije bilo moguće pročitati: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>Još nema izgradnje za provjeru.</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>Ova instalacija nema javni pristup web-mjestu. Pristupi web-mjestu za administraciju i uređivanje nikad se ne objavljuju.</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>Ova stranica prati zadatak dok traje; on se nastavlja u pozadini kad se stranica zatvori.</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>Ovo odredište još nema ključ za implementaciju.</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>Ovo odredište ovdje još nije izgrađeno.</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>Ovo odredište ga ima.</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>Odbacuje ovu izgradnju: mapa ponovno sadrži posljednju objavu. Javno web-mjesto se ne mijenja.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>Najprije označite &quot;Promjene su provjerene&quot;.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Vrijeme</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>Okidači</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>Ponovno upišite naziv oznake</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>Nepromijenjeno</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>Webhook</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Što</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>Što se mijenja</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>Što je koja datoteka; uvijek se zapisuje.</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>Što je zadatak učinio i njegov zapis. Zadatak pokrenut ovdje nastavlja se u pozadini kad se ova stranica zatvori.</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>Što je zadatak ispisao kao pogreške</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>Ono što stranice navode i svaka slika objavljenog sadržaja</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Kada</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>Kada objava ne uspije</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>Kada objava uspije</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>Kada se sadržaj objavi</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>Kamo vode poveznice na ono što kopija ne sadrži (pretraživanje, prijava).</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>Odakle se poslužuje statička kopija.</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>Koje se web-mjesto objavljuje i kako se odredište zove.</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>Radi ispod bilo koje putanje. Zadano.</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>Zapisuje se kad god je postavljena vlastita domena.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>Da</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>Ovdje i na konzoli uvijek možete ručno izgraditi i objaviti.</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>samo naziv; vrijednost ostaje u Postavljanje &gt; Tajne</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>ispod %path</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>završeno bez izvješća</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>dodatak</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>neuspjelo</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>datoteka</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages ili main s mapom docs.</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>git poslužitelj</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (s tokenom) ili git@github.com:owner/repo.git (s ključem za implementaciju); nikad lozinka ni token u njoj.</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/, za kartu web-mjesta i kanonske poveznice.</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>slika</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>nikad</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ne</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>nema udaljenog repozitorija</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>ništa: predaje ostaju u mapi</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>ništa: ništa se nije promijenilo</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>nije poslano</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>ništa se nije promijenilo</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>stranica</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>uspjelo</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>proc_open je onemogućen, pa se zadatak ovdje ne može pokrenuti. Na poslužitelju koristite ./console exp:static:build.</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>objava</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>objavljeno</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>slanje na čekanju</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>poslano</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>odbijeno</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>relativno</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>poništavanje</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>poništeno</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>u tijeku</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>samo mapa</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: zapisuje se u datoteku CNAME. Usmjerite DNS domene na poslužitelj kako on objašnjava; pokretanje HTTPS-a može potrajati.</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>da, još nije objavljeno</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>Aplikacija GitHub App</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>Objavljuje ga tijek rada repozitorija. Izgradnja zapisuje datoteku tijeka rada; ostavite mapu praznom.</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>Nakon spremanja odredišta s GitHub repozitorijem i tokenom ili GitHub App, ovaj korak može izraditi repozitorij i uključiti GitHub Pages. Inače najprije izradite repozitorij na GitHubu; prazan je u redu.</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>Grana ili GitHub Actions?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>Provjeri DNS</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>Izradi repozitorij ako ne postoji</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>Izradite repozitorij na GitHubu i uključite GitHub Pages u njegovim postavkama (Settings &gt; Pages).</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>Izrađuje repozitorij %repo ako nedostaje (kada se zatraži), uključuje GitHub Pages iz grane ili iz GitHub Actions prema spremljenom te postavlja vlastitu domenu i HTTPS. Koristi spremljene postavke: najprije spremite promjene.</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>Pojedinosti na GitHubu</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>Najprije unesite vlastitu domenu.</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>Svaki push najprije se provjerava prema ovim ograničenjima.</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>Za https:// adresu na GitHubu. Prijavljuje se aplikacija postavljena za ovu instalaciju; potreban joj je id instalacije.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages poslužuje privatni repozitorij samo uz plaćeni plan.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: poddomeni (www.example.com) potreban je CNAME zapis prema &lt;owner&gt;.github.io; glavnoj domeni (example.com) A zapisi %ips.</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>Id instalacije GitHub App</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>Posljednja izgradnja Pages</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>Ograničenja i uvjeti</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>Potrebno za GitHub Pages uz besplatni plan.</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>Na GitHubu</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>Samo uz GitHub App: broj na kraju adrese instalacije aplikacije na GitHubu. Sama aplikacija postavlja se u staticcache.ini (GitHubAppId, GitHubAppKey).</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>Privatno</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>Javno</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>Najprije spremite odredište s GitHub repozitorijem i tokenom ili GitHub App.</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>Postavite ove zapise kod pružatelja domene:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>Postavi na GitHubu</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>DNS domene %domain još ne upućuje na GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>DNS domene %domain upućuje na GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>Integracija za GitHub ovdje nije dostupna: %problem. Objava u granu svejedno radi; uključite GitHub Pages u postavkama repozitorija.</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>Koraci za GitHub nisu dostupni za ovo odredište: %problem.</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>Stanje GitHub Pages prikazuje se kada je vjerodajnica token ili GitHub App.</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>Koristite vlastitu domenu</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>Što odabrati: token, ključ za implementaciju ili GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>S GitHub repozitorijem i tokenom ili GitHub App čarobnjak može umjesto vas izraditi repozitorij, uključiti GitHub Pages i postaviti domenu (korak 4).</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>u izgradnji</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>izgrađeno</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>iz GitHub Actions</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>iz grane %branch</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>još nema</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>nije pronađeno</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>isključeno</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>privatno</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>javno</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>u redu čekanja</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>nepoznato</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%count na %pages stranica:</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>Datoteka .gz (i .br) uz svaku tekstnu datoteku, za poslužitelje koji ih isporučuju.</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>Mala stranica za svaku staru adresu i alias stranice, kako bi stare poveznice i dalje radile.</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>Uvijek se zapisuje kada GitHub Actions isporučuje web-mjesto.</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>SPDX oznaka kao što je CC-BY-4.0 ili sam tekst.</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>Košarica</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>Pozivi poslužitelju</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Komentari</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>Obrasci koji prikupljaju podatke</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>GitHub Actions tijek rada</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>Manje praznog prostora i bez komentara na stranicama.</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>Licencija sadržaja</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Prijava</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>Smanji</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>Ostali obrasci</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>Prethodno sažimanje</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>Stranice preusmjeravanja</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>Stranice preusmjeravanja: %count.</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Pretraživanje</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>Indeks pretraživanja: %pages stranica na jezicima: %languages.</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>Stilovi i skripte imenovani prema hashu njihova sadržaja, kako bi ih preglednici mogli zadržati.</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>Promijenjene stranice, nekoliko minuta nakon posljednje promjene (cronjob dio staticpublish).</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>Licencija sadržaja, iz polja ispod.</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>Cijelo web-mjesto, u vrijeme rasporeda (cronjob dio staticpublish).</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>Ovi dijelovi stranica trebaju poslužitelj; svaki je dobio zamjenu. Provjerite ih prije objave.</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>Što ne radi statički</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>Što je repozitorij, za onoga tko ga otvori na poslužitelju.</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>izostavljeno</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>zamjenski tekst</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>krajnja točka obrazaca javnog web-mjesta</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>javno web-mjesto</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>stranica pretraživanja kopije</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>Obrazac nije moguće poslati.</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>Hvala: obrazac je poslan.</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>Obrazac nije prihvaćen: provjerite što ste unijeli i pošaljite ga ponovno.</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>Ukloni poveznice na stranice koje kopija ne sadrži</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>Ukloni poveznice na administraciju</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>Njihov tekst ostaje. Slike, obrasci i poveznice na druge stranice nikad se ne uklanjaju.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Verzija</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>Pristupi web-mjestu za objavu</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Pristup web-mjestu</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>U korijenu</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>Nijedan pristup u korijenu: svaki je u svojoj mapi, a korijen vodi na njih</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Pristupi web-mjestu</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>Označite jedan pristup web-mjestu ili više njih koji dijele jedan host prema URI prefiksu. Onaj u korijenu poslužuje se ondje, ostali u mapi svog prefiksa (/ger/); poveznice među njima ostaju u kopiji. Administratorski pristupi nikad se ne nude.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>Statičko objavljivanje za %target nije uspjelo na %site</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>Statičko objavljivanje za %target uspjelo je na %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>Ovu poruku poslao je %site jer to traži cilj statičkog objavljivanja %target.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>Isporuka %deploy na %site nije uspjela</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>Isporuka %deploy na %site čeka na vratima</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>Isporuka %deploy na %site je uspjela</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>Ovu poruku poslao je %site jer to zahtijeva migration.ini [RemoteSettings] Notify[].</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>Vrste podataka (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>Prebrojeno %time, ponovno za %minutes min.</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>Vrsta podataka sprema i uređuje jednu vrstu vrijednosti atributa klase: redak teksta, sliku, vezu. Većinu donosi jezgra, proširenja dodaju još. Ovdje su sve, tko ih pruža i koliko ih sadržaja koristi. Vrsta podataka koju baza podataka koristi, a koju više ništa ne registrira, kvari sadržaj koji je ima.</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>Grupe klasa</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>Prebroji ponovno sada umjesto korištenja brojeva iz posljednjih minuta.</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>Prebroji ponovno</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Pregled</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>Registrirano</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>U upotrebi</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>Nije korišteno</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>Proširenja koja pružaju vrste podataka</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>Atributi klase</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>Atributi objekta</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>Nije registrirana</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>Na popisu, datoteka nedostaje</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>Vrsta podataka koje se koriste, ali nisu registrirane: %count</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>Atributi klase (%class_attributes) i atributi objekta (%object_attributes) imaju vrstu podataka koju ne registrira nijedno proširenje ni postavka. Njihovi se objekti ne mogu prikazati, urediti ni objaviti. Aktivirajte proširenje koje pruža vrstu podataka ili promijenite klasu.</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>Prikaži samo ove</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>Pronađi vrstu podataka</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>Identifikator, naziv, PHP klasa ili proširenje.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Prikaži</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Sve</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>Pruža</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>Svi</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>Jezgra</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>Nijedna vrsta podataka ne odgovara ovom filtru.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Prikaži sve</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>Proširenje</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%shown od %count vrsta podataka, %used u upotrebi</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>Baza podataka ima atribute klase ili objekta ovih vrsta podataka, ali content.ini ne navodi nijednu od njih ili njihova datoteka nedostaje.</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>Vrste podataka: %provider</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>Vrsta podataka</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>PHP klasa i datoteka</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>Klase</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>Objekti</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>Oznake svojstava</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>nema</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>Nijedna vrsta podataka ne odgovara pretraživanju. Očistite pretraživanje.</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>Prikazano %shown od %count vrsta podataka</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>Prikazane vrste podataka: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>Poredaj po stupcu %column</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>Prebrojeno %time</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>Sve vrste podataka</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>Stranica pomoći</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>Ova se vrsta podataka koristi, ali nije registrirana</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>Objekti klasa u nastavku ne mogu se prikazati, urediti ni objaviti dok nijedno proširenje ne registrira vrstu podataka. Aktivirajte proširenje koje je pruža i dodajte je u content.ini [DataTypeSettings] AvailableDataTypes[] ili promijenite klase.</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini navodi ovu vrstu podataka, ali nijedan direktorij vrsta podataka nema njezinu datoteku. Ništa je ne koristi; uklonite je iz AvailableDataTypes[] ili aktivirajte njezino proširenje.</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>O ovoj vrsti podataka</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>Identifikator</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Naziv</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Proširenje %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>nitko</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>PHP klasa</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Datoteka</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>U AvailableDataTypes[]</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>da</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ne</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>Stupci njezine vrijednosti</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>Stupci postavki njezina atributa klase</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>Tablice</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>Stupci i tablice pronađeni su čitanjem koda vrste podataka: smjernica, a ne obećanje.</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>Predlošci</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Pristup web-mjestu</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>Predložak</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>Pronađeno u</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>ova administracija</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>zadano web-mjesto</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>Bez nadjačavanja: predložak nadjačavanja koji odgovara klasi ili atributu ima prednost pred ovima.</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>Klase koje je koriste (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>Nijedna klasa nema atribut ove vrste podataka.</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Klasa</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>Atributi</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>Atributi klase (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>Atribut</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Postavke</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>Obavezno</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>Pretraživo</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>Prevodivo</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>Prikuplja podatke</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>Dio sadržaja koji je koristi</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>Posljednje izmijenjeno prvo</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Izmijenjeno</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>Čvor %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>Svaki prijevod ima vlastitu vrijednost.</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>Pretraživanje indeksira njezine vrijednosti.</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>Može prikupljati informacije od posjetitelja (obrasci).</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>Popisi se mogu sortirati po njoj: ključ sortiranja %type.</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>Moguće razvrstavanje</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>Njezine vrijednosti upućuju na druge objekte.</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>Veze</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>Može se popuniti iz običnog teksta (uvoz, REST).</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>Iz teksta</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>Može se popuniti iz datoteke.</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>Iz datoteke</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>Postavke njezina atributa klase ulaze u pakete.</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>Paketi</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>Sadržaj (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from do %to od %count</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Filtriraj popis</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>Sve klase</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Odjeljak</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Jezici</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Vlasnik</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Objavljeno</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>Obrni redoslijed</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Nema stavki</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Po stranici</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Prikaži %count stavki po stranici.</translation>
     </message>
 </context>
 </TS>

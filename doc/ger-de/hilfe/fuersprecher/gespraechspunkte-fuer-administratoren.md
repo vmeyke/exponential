@@ -13,6 +13,21 @@ Diese Seite ist für Fürsprecher, die mit den Menschen sprechen, die Websites i
 Systemadministratoren, Hosting-Personal, DevOps-Leute. Sie wollen wissen, was es braucht, was schiefgehen kann und wie
 sie es sehen werden.
 
+> **Warnung**
+> **`.htaccess` bremst jede Anfrage.** Sind `.htaccess`-Dateien erlaubt (`AllowOverride` alles außer `None`), geschweige
+> denn genutzt, sucht Apache sie bei jeder Anfrage in jedem Verzeichnis des Pfads und liest und wertet sie aus, und
+> die Ladezeiten der Seiten steigen drastisch ([gemessen](../../anleitungen/setup-dateien-von-der-konsole.md#gemessen-htaccess-gegen-regeln-im-virtuellen-host)). Die einzige wirkliche Abhilfe ist, die
+> Funktion für den virtuellen Host abzuschalten: `AllowOverride None` im virtuellen HTTPS-Host, und die Regeln in
+> der Konfiguration des virtuellen Hosts selbst als mod_rewrite-Regeln. Das ist in Geschwindigkeitstests im
+> Produktivbetrieb weit schneller und die Zeit für die Optimierung einer Produktivkonfiguration unbedingt wert.
+> Stellen Sie sofort um: Übernehmen Sie die Regeln des [Beispiels für einen virtuellen HTTPS-Host](../../beispiele/webserver/apache-virtueller-host.md) in
+> Ihren virtuellen Host (mit dem statischen Cache auch [`staticcache_offload.conf`](../../../eng-us/examples/staticcache_offload.conf)), setzen Sie
+> `AllowOverride None`, führen Sie `apachectl configtest` aus, laden Sie Apache neu und testen Sie die Website.
+> Dieselben Regeln für andere Server: [nginx](../../beispiele/webserver/nginx.md), [LiteSpeed](../../beispiele/webserver/litespeed.md), [Caddy](../../beispiele/webserver/caddy.md), [IIS](../../beispiele/webserver/iis.md),
+> [Velocity](../../beispiele/webserver/velocity.md) (eingebaut); wohin Regeln für virtuelle Hosts in einem Control Panel gehören:
+> [Plesk](../hosting/control-panels/plesk.md), [cPanel](../hosting/control-panels/cpanel.md), [DirectAdmin](../hosting/control-panels/directadmin.md), [ISPConfig](../hosting/control-panels/ispconfig.md).
+> **Unter LiteSpeed oder OpenLiteSpeed** kann zusätzlich der Seiten-Cache des Servers anonyme Besucher und Crawler ohne PHP bedienen: [Seiten-Caching mit LiteSpeed und OpenLiteSpeed](../../anleitungen/seiten-cache-mit-litespeed.md).
+
 ## Inhalt
 
 1. [Was Administratoren wissen wollen](#was-administratoren-wissen-wollen)
@@ -34,7 +49,7 @@ sie es sehen werden.
 |---|---|
 | „Ein Befehl installiert eine vollständige Website auf SQLite, ohne Datenbankserver.“ | [Exponential mit einem Befehl installieren](../../funktionen/6.0/installation-mit-einem-befehl.md) |
 | „Sechs Datenbanken: SQLite 3, PostgreSQL, MongoDB, MariaDB, Oracle und MySQL, in dieser offiziellen Reihenfolge.“ | [Datenbankunterstützung](../datenbankunterstuetzung.md#die-unterstützten-datenbanken-in-ihrer-reihenfolge) |
-| „PHP 8.0 ist die älteste unterstützte Version, sodass das mitgelieferte PHP von Red Hat Enterprise Linux 9 es ausführt.“ | [PHP-Versionen](../wer-ist-die-exponential-foundation.md#php-versionen) |
+| „PHP 8.0 bis 8.5 werden unterstützt, sodass das mitgelieferte PHP von Red Hat Enterprise Linux 9 es ausführt; PHP 7.4 ist ohne Support nutzbar für Hoster, die es noch nicht verlassen können.“ | [PHP-Versionen](../wer-ist-die-exponential-foundation.md#php-versionen) |
 | „Betriebssysteme in vier dokumentierten Stufen, von getestet bis theoretisch.“ | [Betriebssystemunterstützung](../betriebssystemunterstuetzung.md#die-vier-stufen) |
 | „Velocity ist die empfohlene Engine; FrankenPHP ist die produktionsreife Alternative; Apache oder nginx mit PHP-FPM liefern es ebenfalls aus.“ | [Velocity](../../funktionen/6.0/velocity-server-mit-dauerhaften-workern.md#wozu-sie-es-verwenden), [Webserver](../betriebssystemunterstuetzung.md#webserver) |
 | „Eine Anleitung zur Härtung, Bedrohung für Bedrohung, mit einer Checkliste.“ | [Sicherheitshärtung](../sicherheitshaertung.md#checkliste) |

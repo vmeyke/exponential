@@ -2,7 +2,7 @@
 /**
  * File containing the eZBasket class.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -428,12 +428,22 @@ class eZBasket extends eZPersistentObject
         {
             $db = eZDB::instance();
             $db->begin();
-            $collection = eZProductCollection::create();
-            $collection->store();
+            try
+            {
+                $collection = eZProductCollection::create();
+                $collection->store();
 
-            $currentBasket = new eZBasket( array( "session_id" => $sessionID,
-                                                  "productcollection_id" => $collection->attribute( "id" ) ) );
-            $currentBasket->store();
+                $currentBasket = new eZBasket( array( "session_id" => $sessionID,
+                                                      "productcollection_id" => $collection->attribute( "id" ) ) );
+                $currentBasket->store();
+            }
+            catch ( Throwable $e )
+            {
+                // nothing of a transaction that failed half way is committed by a later commit()
+                if ( $db->transactionCounter() > 0 )
+                    $db->rollback();
+                throw $e;
+            }
             $db->commit();
         }
         else
@@ -464,16 +474,29 @@ class eZBasket extends eZPersistentObject
                                      'created' => $time,
                                      'status_id' => eZOrderStatus::PENDING,
                                      'status_modified' => $time,
-                                     'status_modifier_id' => $userID
+                                     'status_modifier_id' => $userID,
+                                     // the siteaccess (store or site) the order is placed in; on the command line
+                                     // the one the script runs in, through REST the one REST runs in
+                                     'siteaccess' => expOrderSiteaccess::current()
                                      ) );
 
         $db = eZDB::instance();
         $db->begin();
-        $order->store();
+        try
+        {
+            $order->store();
 
-        $orderID = $order->attribute( 'id' );
-        $this->setAttribute( 'order_id', $orderID );
-        $this->store();
+            $orderID = $order->attribute( 'id' );
+            $this->setAttribute( 'order_id', $orderID );
+            $this->store();
+        }
+        catch ( Throwable $e )
+        {
+            // nothing of a transaction that failed half way is committed by a later commit()
+            if ( $db->transactionCounter() > 0 )
+                $db->rollback();
+            throw $e;
+        }
         $db->commit();
 
         return $order;
@@ -493,48 +516,58 @@ class eZBasket extends eZPersistentObject
 
             $db = eZDB::instance();
             $db->begin();
-            foreach( $items as $itemArray )
+            try
             {
-                $item = $itemArray['item_object'];
-                $productContentObject = $item->attribute( 'contentobject' );
-                $priceObj = null;
-                $price = 0.0;
-                $attributes = $productContentObject->contentObjectAttributes();
-                foreach ( $attributes as $attribute )
+                foreach( $items as $itemArray )
                 {
-                    $dataType = $attribute->dataType();
-                    if ( eZShopFunctions::isProductDatatype( $dataType->isA() ) )
+                    $item = $itemArray['item_object'];
+                    $productContentObject = $item->attribute( 'contentobject' );
+                    $priceObj = null;
+                    $price = 0.0;
+                    $attributes = $productContentObject->contentObjectAttributes();
+                    foreach ( $attributes as $attribute )
                     {
-                        $priceObj = $attribute->content();
-                        $price += $priceObj->attribute( 'price' );
-                        break;
+                        $dataType = $attribute->dataType();
+                        if ( eZShopFunctions::isProductDatatype( $dataType->isA() ) )
+                        {
+                            $priceObj = $attribute->content();
+                            $price += $priceObj->attribute( 'price' );
+                            break;
+                        }
                     }
-                }
-                if ( !is_object( $priceObj ) )
-                    break;
+                    if ( !is_object( $priceObj ) )
+                        break;
 
-                $currency = $priceObj->attribute( 'currency' );
-                $optionsPrice = $item->calculatePriceWithOptions( $currency );
+                    $currency = $priceObj->attribute( 'currency' );
+                    $optionsPrice = $item->calculatePriceWithOptions( $currency );
 
-                $price += $optionsPrice;
-                $item->setAttribute( "price", $price );
-                if ( $priceObj->attribute( 'is_vat_included' ) )
-                {
-                    $item->setAttribute( "is_vat_inc", '1' );
-                }
-                else
-                {
-                    $item->setAttribute( "is_vat_inc", '0' );
-                }
-                $item->setAttribute( "vat_value", $priceObj->VATPercent( $productContentObject ) );
-                $item->setAttribute( "discount", $priceObj->attribute( 'discount_percent' ) );
-                $item->store();
+                    $price += $optionsPrice;
+                    $item->setAttribute( "price", $price );
+                    if ( $priceObj->attribute( 'is_vat_included' ) )
+                    {
+                        $item->setAttribute( "is_vat_inc", '1' );
+                    }
+                    else
+                    {
+                        $item->setAttribute( "is_vat_inc", '0' );
+                    }
+                    $item->setAttribute( "vat_value", $priceObj->VATPercent( $productContentObject ) );
+                    $item->setAttribute( "discount", $priceObj->attribute( 'discount_percent' ) );
+                    $item->store();
 
-                $currencyCode = $priceObj->attribute( 'currency' );
+                    $currencyCode = $priceObj->attribute( 'currency' );
+                }
+
+                $productCollection->setAttribute( 'currency_code', $currencyCode );
+                $productCollection->store();
             }
-
-            $productCollection->setAttribute( 'currency_code', $currencyCode );
-            $productCollection->store();
+            catch ( Throwable $e )
+            {
+                // nothing of a transaction that failed half way is committed by a later commit()
+                if ( $db->transactionCounter() > 0 )
+                    $db->rollback();
+                throw $e;
+            }
             $db->commit();
 
             // update prices that are related to shipping values.
@@ -634,35 +667,45 @@ WHERE ezbasket.session_id = ezsession.session_key AND
         $limit = self::ITEM_LIMIT;
 
         $db->begin();
-        do
+        try
         {
-            if ( $db->databaseName() === 'mongo' )
-                $rows = $db->aggregate( 'ezbasket', [
-                    [ '$project' => [ '_id' => 0, 'productcollection_id' => 1 ] ],
-                    [ '$limit'   => $limit ],
-                ] );
-            else
-                $rows = $db->arrayQuery( $sql, array( 'offset' => 0, 'limit' => $limit ) );
-
-            if ( count( $rows ) == 0 )
-                break;
-
-            $productCollectionIDList = array();
-            foreach ( $rows as $row )
+            do
             {
-                $productCollectionIDList[] = (int)$row['productcollection_id'];
-            }
-            eZProductCollection::cleanupList( $productCollectionIDList );
+                if ( $db->databaseName() === 'mongo' )
+                    $rows = $db->aggregate( 'ezbasket', [
+                        [ '$project' => [ '_id' => 0, 'productcollection_id' => 1 ] ],
+                        [ '$limit'   => $limit ],
+                    ] );
+                else
+                    $rows = $db->arrayQuery( $sql, array( 'offset' => 0, 'limit' => $limit ) );
 
-            if ( $db->databaseName() === 'mongo' )
-                $db->deleteWhere( 'ezbasket', [ 'productcollection_id' => [ '$in' => $productCollectionIDList ] ] );
-            else
-            {
-                $ids = implode( ', ', $productCollectionIDList );
-                $db->query( "DELETE FROM ezbasket WHERE productcollection_id IN ( $ids )" );
+                if ( count( $rows ) == 0 )
+                    break;
+
+                $productCollectionIDList = array();
+                foreach ( $rows as $row )
+                {
+                    $productCollectionIDList[] = (int)$row['productcollection_id'];
+                }
+                eZProductCollection::cleanupList( $productCollectionIDList );
+
+                if ( $db->databaseName() === 'mongo' )
+                    $db->deleteWhere( 'ezbasket', [ 'productcollection_id' => [ '$in' => $productCollectionIDList ] ] );
+                else
+                {
+                    $ids = implode( ', ', $productCollectionIDList );
+                    $db->query( "DELETE FROM ezbasket WHERE productcollection_id IN ( $ids )" );
+                }
             }
+            while ( true );
         }
-        while ( true );
+        catch ( Throwable $e )
+        {
+            // nothing of a transaction that failed half way is committed by a later commit()
+            if ( $db->transactionCounter() > 0 )
+                $db->rollback();
+            throw $e;
+        }
         $db->commit();
     }
 
@@ -744,9 +787,19 @@ WHERE ezbasket.session_id = ezsession.session_key AND
                 return false;
             $db = eZDB::instance();
             $db->begin();
-            $productCollectionID = $basket->attribute( 'productcollection_id' );
-            eZProductCollection::cleanupList( array( $productCollectionID ) );
-            $basket->remove();
+            try
+            {
+                $productCollectionID = $basket->attribute( 'productcollection_id' );
+                eZProductCollection::cleanupList( array( $productCollectionID ) );
+                $basket->remove();
+            }
+            catch ( Throwable $e )
+            {
+                // nothing of a transaction that failed half way is committed by a later commit()
+                if ( $db->transactionCounter() > 0 )
+                    $db->rollback();
+                throw $e;
+            }
             $db->commit();
         }
 

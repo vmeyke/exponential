@@ -28,7 +28,7 @@ Datenbankserver), das Standard-Seitenpaket und Velocity. Für eine echte Website
 
 ## Bevor Sie beginnen
 
-Sie brauchen PHP 8.1 oder neuer auf der Kommandozeile, Composer 2 und Git
+Sie brauchen PHP 8.0 oder neuer (PHP 7.4 ohne Support nutzbar) auf der Kommandozeile, Composer 2 und Git
 ([Anforderungen](../../../installation/02-voraussetzungen.md)). Führen Sie jeden Befehl im Wurzelverzeichnis der Installation
 aus, dem Verzeichnis mit `index.php`, und zwar als Ihr eigener Benutzer (nicht `root`).
 
@@ -48,7 +48,7 @@ Prüfen: `ls index.php kernel settings` listet alle drei auf.
 Administrator `admin` und einem erzeugten Passwort ([Die Installation über die Konsole](../../../installation/07-installation-ueber-die-konsole.md)):
 
 ```bash
-php bin/php/console exp:install --url=http://127.0.0.1:8088
+php bin/php/console exp:install --apply --url=http://127.0.0.1:8088
 ```
 
 Prüfen: Die Zusammenfassung am Ende sagt "Exponential is installed" und zeigt das Passwort einmal an. Notieren Sie es;
@@ -59,7 +59,7 @@ es steht außerdem in `var/log/initial-admin-password` (nur für Sie lesbar), bi
 
 ```bash
 composer require se7enxweb/exponential-velocity
-php bin/php/console exp:velocity config set ServerSettings Engine qbix
+php bin/php/console exp:velocity config set --apply ServerSettings Engine qbix
 php bin/php/console exp:velocity start
 php bin/php/console exp:velocity status
 ```
@@ -116,7 +116,7 @@ wieder aus derselben Liste.
 
 | Sie sehen | Tun Sie |
 |---|---|
-| `composer install` lehnt Ihr PHP ab | installieren Sie PHP 8.1 oder neuer ([2.2 PHP](../../../installation/02-voraussetzungen.md#22-php)) |
+| `composer install` lehnt Ihr PHP ab | installieren Sie PHP 8.0 oder neuer (PHP 7.4 ohne Support nutzbar) ([2.2 PHP](../../../installation/02-voraussetzungen.md#22-php)) |
 | Die Installation stoppt bei `SystemCheck` | lesen Sie die ausgegebene Lösung; meist eine fehlende PHP-Erweiterung oder ein Rechteproblem |
 | Eine Wartungsseite statt der Website | `php bin/php/maintenance.php status`, dann `off` |
 | Fehler über Dateien, die nicht geschrieben werden können | Sie haben einen Befehl als `root` ausgeführt; siehe [12. Fehlerbehebung](../../../installation/12-fehlerbehebung.md) |

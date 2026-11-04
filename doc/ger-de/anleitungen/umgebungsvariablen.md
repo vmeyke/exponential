@@ -4,6 +4,21 @@ Diese Seite listet die Umgebungsvariablen auf, die Exponential 6 liest, was jede
 richtet sich an Administratoren, Hoster und Entwickler, die einen Server, einen Container oder eine
 Deployment-Pipeline konfigurieren.
 
+> **Warnung**
+> **`.htaccess` bremst jede Anfrage.** Sind `.htaccess`-Dateien erlaubt (`AllowOverride` alles außer `None`), geschweige
+> denn genutzt, sucht Apache sie bei jeder Anfrage in jedem Verzeichnis des Pfads und liest und wertet sie aus, und
+> die Ladezeiten der Seiten steigen drastisch ([gemessen](setup-dateien-von-der-konsole.md#gemessen-htaccess-gegen-regeln-im-virtuellen-host)). Die einzige wirkliche Abhilfe ist, die
+> Funktion für den virtuellen Host abzuschalten: `AllowOverride None` im virtuellen HTTPS-Host, und die Regeln in
+> der Konfiguration des virtuellen Hosts selbst als mod_rewrite-Regeln. Das ist in Geschwindigkeitstests im
+> Produktivbetrieb weit schneller und die Zeit für die Optimierung einer Produktivkonfiguration unbedingt wert.
+> Stellen Sie sofort um: Übernehmen Sie die Regeln des [Beispiels für einen virtuellen HTTPS-Host](../beispiele/webserver/apache-virtueller-host.md) in
+> Ihren virtuellen Host (mit dem statischen Cache auch [`staticcache_offload.conf`](../../eng-us/examples/staticcache_offload.conf)), setzen Sie
+> `AllowOverride None`, führen Sie `apachectl configtest` aus, laden Sie Apache neu und testen Sie die Website.
+> Dieselben Regeln für andere Server: [nginx](../beispiele/webserver/nginx.md), [LiteSpeed](../beispiele/webserver/litespeed.md), [Caddy](../beispiele/webserver/caddy.md), [IIS](../beispiele/webserver/iis.md),
+> [Velocity](../beispiele/webserver/velocity.md) (eingebaut); wohin Regeln für virtuelle Hosts in einem Control Panel gehören:
+> [Plesk](../hilfe/hosting/control-panels/plesk.md), [cPanel](../hilfe/hosting/control-panels/cpanel.md), [DirectAdmin](../hilfe/hosting/control-panels/directadmin.md), [ISPConfig](../hilfe/hosting/control-panels/ispconfig.md).
+> **Unter LiteSpeed oder OpenLiteSpeed** kann zusätzlich der Seiten-Cache des Servers anonyme Besucher und Crawler ohne PHP bedienen: [Seiten-Caching mit LiteSpeed und OpenLiteSpeed](seiten-cache-mit-litespeed.md).
+
 Exponential wird über seine INI-Dateien (`settings/`) konfiguriert und, für einige Dinge, die bekannt sein müssen,
 bevor die Einstellungen gelesen werden, über Konstanten in `config.php` und `config.env.php` (`EXP_ENV`,
 `EZP_INI_FILEMTIME_CHECK` und ähnliche). Umgebungsvariablen werden dort verwendet, wo die Einstellung zu **einem
@@ -28,7 +43,7 @@ erben beim Start die Umgebung des Serverprozesses.
 
 | Variable | Werte | Was sie bewirkt | Gelesen von |
 |---|---|---|---|
-| `EXP_DEMO_MODE` | `1` (genau) | **Demo-Modus** für eine öffentliche Demo: Administratorpasswörter können auf keinem Weg geändert oder zurückgesetzt werden, die Installer akzeptieren ein bekanntes oder kurzes Administratorpasswort (`publish`, `publishing`; nie ein leeres), die Administration zeigt ein Banner, und jeder Prozess vermerkt `demo/mode` in `security.log` und `system.demo.mode` im Audit. Jeder andere Wert oder gar keiner lässt ihn ausgeschaltet. Wird bei jedem Aufruf gelesen (`getenv()`, dann `$_SERVER`); nie aus einer INI-Datei oder einer Anfrage. Setzen Sie ihn nie für eine echte Site. [Demo-Modus](../bc/6.0/demomodus.md) | `expDemoMode` (`kernel/classes/expdemomode.php`) |
+| `EXP_DEMO_MODE` | `1` (genau) | **Demo-Modus** für eine öffentliche Demo: Administratorpasswörter können auf keinem Weg geändert oder zurückgesetzt werden, die Installer akzeptieren ein bekanntes oder kurzes Administratorpasswort (`publish`, `publishing`; nie ein leeres), die Administration zeigt ein Banner, und jeder Prozess vermerkt `demo/mode` in `security.log` und `system.demo.mode` im Audit. Jeder andere Wert oder gar keiner lässt ihn ausgeschaltet. Wird bei jedem Aufruf gelesen (`getenv()`, dann `$_SERVER`); nie aus einer INI-Datei oder einer Anfrage. Unter Velocity nie aus der gemeinsamen `/etc/vc/envvars` (verwenden Sie die Site-envvars). Setzen Sie ihn nie für eine echte Site. [Demo-Modus](../bc/6.0/demomodus.md) | `expDemoMode` (`kernel/classes/expdemomode.php`) |
 | `EXP_ENGINE_PHAR` | der Pfad eines Engine-Archivs | Führt die Kernel- und Bibliotheksklassen aus diesem Archiv statt aus den Dateien auf der Festplatte aus (nur wenn die Datei existiert). `exp:velocity` setzt sie für die von ihm gestarteten Server, wenn ein Archiv konfiguriert ist. [Velocity-Engines](../bc/6.0/velocity-engines.md) | `autoload.php`, `expVelocity` |
 | `EXP_INSTALL_DB_PASSWORD` | ein Passwort | Das Datenbankpasswort für `exp:install`, wenn `--db-password` nicht angegeben ist, damit es weder in der Prozessliste noch in der Shell-Historie erscheint. [Kapitel 7](../installation/07-installation-ueber-die-konsole.md) | `bin/php/install.php` |
 | `EXP_KICKSTART_LOG` | `0` | `0` schaltet `var/log/kickstart.log` von `exp:kickstarter run` ab. [Kapitel 6](../installation/06-kickstarter.md) | der Kickstarter |
@@ -57,6 +72,15 @@ sind PHP-Konstanten, die in diesen Dateien definiert werden. Eine gleichnamige U
 nichts. Umgekehrt gilt für `EXP_DEMO_MODE`: Eine gleichnamige Konstante in `config.php` zu definieren, bewirkt nichts;
 der Demo-Modus kommt nur aus der Umgebung.
 
+Die beiden Dateien haben unterschiedliche Aufgaben. `config.env.php` enthält nur, was sich je Maschine unterscheidet,
+den Namen der Umgebung `EXP_ENV`; sie wird von Hand aus `config.env.php.example` kopiert und von der Konsole nicht
+angefasst. `config.php` enthält die Konstanten der Installation (Dateimodi, INI-Prüfungen, Cluster-Speicher,
+Log-Rotation); sie wird mit `./console exp:setup:config --apply` an ihren Platz gebracht und mit
+`./console exp:config:list`, `exp:config:get`, `exp:config:set` und `exp:config:unset` gelesen und geändert. Um einen
+Wert aus einer Umgebungsvariablen in `config.php` zu übernehmen, setzen Sie ihn beim Deployment oder beim Start des
+Containers: `./console exp:config:set CLUSTER_STORAGE_HOST "$CLUSTER_DB_HOST" --apply`. Siehe
+[.htaccess und config.php von der Konsole aus einrichten](setup-dateien-von-der-konsole.md).
+
 ## Wo eine Umgebungsvariable gesetzt wird
 
 | Wo PHP läuft | Wie |
@@ -65,7 +89,7 @@ der Demo-Modus kommt nur aus der Umgebung.
 | LiteSpeed / OpenLiteSpeed mit `lsphp` | `SetEnv` in `.htaccess` (LiteSpeed liest sie wie Apache) oder die Umgebung des virtuellen Hosts |
 | PHP-FPM | `env[NAME] = value` im Pool der Site, dann den Master dieses Pools neu laden |
 | nginx mit PHP-FPM | `fastcgi_param NAME value;` dort, wo Anfragen an PHP-FPM übergeben werden, oder der Pool |
-| Exponential Velocity | die Umgebung des Prozesses, der `exp:velocity start` ausführt: `Environment=` in seiner systemd-Unit oder einem Drop-in, oder `export` in der Shell. Worker erben sie; ein Neustart aus einer anderen Shell startet mit der Umgebung dieser Shell. Für eine einzelne Installation dauerhaft: `export NAME=value` in ihren Site-envvars `/etc/vc/sites-available/<site>.envvars`, die `exp:velocity start` nur für den Server dieser Installation liest (`./console exp:velocity layout` zeigt `<site>`). Die gemeinsame `/etc/vc/envvars` liest der Server jeder Installation auf dem Host; `EXP_DEMO_MODE` wird von dort nie übernommen |
+| Exponential Velocity | `export NAME=value` in `/etc/vc/envvars`: Der Server liest die Datei bei jedem Start und exportiert, was sie setzt, in seine eigene Umgebung, bevor er forkt, sodass jeder Worker es sieht und ein Neustart oder Deploy aus einer beliebigen Shell es behält. Die Umgebung des Prozesses, der `exp:velocity start` ausführt (`Environment=` in seiner systemd-Unit oder einem Drop-in, oder `export` in der Shell), hat Vorrang vor der Datei. `/etc/vc/envvars` liest der Server jeder Installation auf dem Host; eine Variable nur für eine Installation gehört in ihre Site-envvars, `/etc/vc/sites-available/<site>.envvars`, die `exp:velocity start` nur an den Server dieser Installation übergibt und die Vorrang vor beiden hat. `EXP_DEMO_MODE` wird nur von dort (oder aus der Startumgebung) übernommen: Ein Worker weist es aus der gemeinsamen Datei zurück. Die Dateien werden gelesen, nie ausgeführt, und weisen `PATH`, `LD_*`, `DYLD_*`, `MALLOC_*`, `HTTP_*`, `PHPRC`, `PHP_INI_SCAN_DIR`, `GLIBC_TUNABLES`, `HOME`, `USER` und die anderen Namen zurück, die in [der Verzeichnisstruktur](../bc/6.0/velocity-verzeichnisstruktur.md) aufgeführt sind |
 | Cron | eine Zeile `NAME=value` am Anfang der Crontab |
 | Konsole | `export NAME=value` oder `NAME=value command` für einen einzelnen Befehl |
 | Container | `ENV` im Image, `-e`, `--env-file` oder `environment:` / `env_file:` für einen Dienst |
@@ -77,6 +101,7 @@ Beispiele für den Demo-Modus, eines pro Ort: [Beispiele zum Demo-Modus](../beis
 - [Demo-Modus](../bc/6.0/demomodus.md), [FAQ zum Demo-Modus](../hilfe/demomodus-faq.md)
 - [Kapitel 2: Voraussetzungen](../installation/02-voraussetzungen.md), [Kapitel 13: Sicherheitshärtung](../installation/13-sicherheitshaertung.md)
 - [Velocity-Engines](../bc/6.0/velocity-engines.md)
+- [.htaccess und config.php von der Konsole aus einrichten](setup-dateien-von-der-konsole.md): `config.php` von der Kommandozeile
 
 <!-- exp-partner-block:start -->
 **Werden Sie Exponential-Partner.** Partner teilen ihre Informationen, stellen Mittel bereit, geben Beiträge zurück

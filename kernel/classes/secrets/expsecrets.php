@@ -2,7 +2,7 @@
 /**
  * File containing the expSecrets class.
  *
- * @copyright Copyright (C) 1998 - 2026 7x and the Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package kernel
  */
@@ -293,7 +293,17 @@ class expSecrets
             return false;
         $db = eZDB::instance();
         $db->begin();
-        $counts = self::reencryptAllWith( $next );
+        try
+        {
+            $counts = self::reencryptAllWith( $next );
+        }
+        catch ( Throwable $e )
+        {
+            // nothing of a transaction that failed half way is committed by a later commit()
+            if ( $db->transactionCounter() > 0 )
+                $db->rollback();
+            throw $e;
+        }
         $db->commit();
         if ( !expSecretKey::commitRotation() )
             return false;

@@ -26,7 +26,7 @@ ist dieselbe Arbeit, auf ein Wochenende verteilt.
 
 ## Vor dem Samstag
 
-- [ ] Ein Computer mit PHP 8.0 oder neuer und Composer, oder Zugang zu einem Hoster mit dem Einrichtungsassistenten
+- [ ] Ein Computer mit PHP 8.0 oder neuer (PHP 7.4 ohne Support nutzbar) und Composer, oder Zugang zu einem Hoster mit dem Einrichtungsassistenten
   ([Anforderungen auf einen Blick](../../hosting/grundlagen/anforderungen-auf-einen-blick.md)).
 - [ ] Ihre Seitenliste und Texte in einem Dokument, auch als grobe Entwürfe.
 - [ ] Fünf bis zehn Bilder, bereits ausgewählt.
@@ -40,7 +40,7 @@ ist dieselbe Arbeit, auf ein Wochenende verteilt.
 
    ```bash
    php bin/php/console exp:install --dry-run
-   php bin/php/console exp:install
+   php bin/php/console exp:install --apply
    ```
 
    Für eine echte Website ist später das saubere Paket ohne Demo-Inhalte der bessere Anfang

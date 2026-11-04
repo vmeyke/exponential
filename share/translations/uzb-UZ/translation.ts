@@ -984,6 +984,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>Faqat shu sahifadan qidiriladi: %count tadan %from–%to.</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Yadro va kengaytmalarning har bir maʼlumot turi hamda sinflar va kontent undan qanday foydalanishi.</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Maʼlumot turlari</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2316,6 +2324,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>Tizim sahifalarini ham xatchoʻpga qoʻshish mumkin: sahifani oching (Sozlash, audit jurnali, foydalanuvchilar roʻyxati ...) va uning tepasidagi "Bu sahifani xatchoʻpga qoʻshish"ni tanlang. Bunday xatchoʻplarda tishli gʻildirak belgisi boʻladi.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>Siz endi bu sahifani bu yerda ocha olmaysiz. Xatchoʻpni olib tashlang yoki administratordan kirish ruxsatini soʻrang.</translation>
     </message>
 </context>
 <context>
@@ -5165,6 +5177,210 @@
         <source>Go to the first page</source>
         <translation>Birinchi sahifaga oʻtish</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>Boshqa</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>Oxirgi 7 kun</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>Maxsus davr</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>Barcha soʻzlar</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>Istalgan soʻz</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>Aniq ibora</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>Moslik</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>Nomi A–Z</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>Nomi Z–A</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>Oʻzgartirilgan, avval yangilari</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>Oʻzgartirilgan, avval eskilari</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>Eʼlon qilingan, avval yangilari</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>Eʼlon qilingan, avval eskilari</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Oʻzgartirilgan</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>Filtrlar</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>Filtrlarni koʻrsatish</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>Filtrlarni yashirish</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Nolga tushirish</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>Qoʻllash</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>Soʻzlar</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>Kontent turi</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>Yana koʻrsatish (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>Uning atributlaridan birida qidirish uchun bitta kontent turini tanlang.</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Boʻlim</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Manba</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Gacha</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>Boshlanish sanasi toʻgʻri sana emas.</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>Tugash sanasi toʻgʻri sana emas.</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Egasi</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>Foydalanuvchi ID, login yoki e-mail manzili.</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>«%input» uchun foydalanuvchi topilmadi.</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Til</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>Istalgan til</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Joylashuv</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>%count ta joylashuv</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>Sahifadagi natijalar</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>«%text» boʻyicha natijalar (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>Natijalar (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>Saralash mezoni</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>Saralash</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>Faol filtrlar</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>Bu filtrni olib tashlash</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>Yoki filtrlarni tanlab qoʻllang, shunda mos kontent roʻyxati chiqadi.</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>Soʻzlarni kiritganingizdan soʻng filtrlar qidiruvni toraytiradi.</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>«%text» boʻyicha natija topilmadi.</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>Natija topilmadi.</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>Yuqoridagi filtrlardan birini olib tashlang.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Tarjimalar</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Amallar</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>%name ni tahrirlash</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Tahrirlash</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -7514,6 +7730,10 @@
         <source>Setup &gt; Cronjobs</source>
         <translation>Sozlash &gt; Cron vazifalari</translation>
     </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>Cron vazifalarining hech bir qismi hali ishga tushmagan: vazifalar navbati, importlar, bildirishnomalar va qidiruv indeksi kutmoqda. php bin/php/installcrontab.php --add --apply buyrugʻini bajaring yoki --show chiqargan qatorlarni crontab fayliga qoʻshing.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/dashboard/drafts</name>
@@ -8058,8 +8278,8 @@
         <translation>Asl mualliflarning va Exponential bilan birga kelgan uchinchi tomon dasturlarining mualliflik huquqi haqidagi eslatmalari litsenziya talab qilganidek manba fayllarida va LICENSE faylida saqlanadi.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>Quyida eZ Systems Contributor Licensing Agreement shartlari asosida oʻz ishini 7x tomonidan foydalanish uchun litsenziyalagan Exponential hissa qoʻshuvchilarining roʻyxati keltirilgan. Ushbu shartnoma ruxsat bergani kabi, 7x har bir hissani u kiritilgan fayl bilan bir xil litsenziya ostida qayta tarqatadi. Roʻyxatda har bir hissa qoʻshuvchi, ixtiyoriy aloqa maʼlumotlari va ular hissa qoʻshgan fayllar koʻrsatilgan.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>Exponential va u kelib chiqqan dasturiy ta'minot ustidagi ishi uchun tilga olingan hissa qo'shuvchilar, ular hissa qo'shgan fayllar bilan. Bu mualliflik huquqi haqidagi bildirishnoma emas, minnatdorlikdir: Exponential'ga qo'shilgan hissalar Contributor Licensing Agreement asosida Exponential Foundation va 7x'ga o'tkaziladi.</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13881,32 +14101,20 @@ Eslatma: paketlar oʻchirib tashlanmaydi.</translation>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%evaluate_link"&gt;Exponential Enterprise Edition ni sinab koʻring&lt;/a&gt; - &lt;a href="%share_link"&gt;Exponential hamjamiyati aʼzosi boʻling, almashing va hissa qoʻshing&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Mualliflik huquqi &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; va boshqalar.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class="edition-info"&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>&lt;span class="edition-info"&gt;%edition&lt;/span&gt; asosida ishlaydi. Batafsil maʼlumot uchun &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt; ga qarang.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Mualliflik huquqi &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; va boshqalar.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> Batafsil maʼlumot uchun &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt; ga qarang.</translation>
     </message>
     <message>
-        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Mualliflik huquqi &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; va boshqalar.</translation>
+        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href="%evaluate_link"&gt;Exponential ni sinab koʻring (7x dan)&lt;/a&gt; - &lt;a href="%share_link"&gt;Exponential hamjamiyati aʼzosi boʻling, yordam oling va hissa qoʻshing&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Mualliflik huquqi &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; va boshqalar.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13915,6 +14123,61 @@ Eslatma: paketlar oʻchirib tashlanmaydi.</translation>
     <message>
         <source>Help center</source>
         <translation>Yordam markazi</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>Kontent</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>Hujjat sahifalari</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>Foydalanuvchilar</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>Kontent sinflari</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>Boshqaruv</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>%number-sahifa</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>Barcha natijalarni koʻrish</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>%count ta natija</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>Bitta natija</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>%count ta taklif</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>Takliflar yoʻq</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>Takliflarni yuklab boʻlmadi.</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>Takliflar</translation>
     </message>
 </context>
 <context>
@@ -14383,6 +14646,14 @@ Eslatma: paketlar oʻchirib tashlanmaydi.</translation>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>Bu oʻrnatilma ommaviy demo: administrator parolini istalgan kishi bilishi mumkin va administrator parollarini oʻzgartirib yoki tiklab boʻlmaydi. Bu yerga shaxsiy hech narsa kiritmang.</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Qurilmalaringiz</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Xavfsizlik faolligi</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14672,6 +14943,14 @@ Eslatma: paketlar oʻchirib tashlanmaydi.</translation>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>Qoʻllanmalar, qidiruv va xatoni qanday xabar qilish.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Yangi kontent</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Eng yangi kontent, tekshiruv uchun ushlab turilganlar va tanlov ustida amallar.</translation>
     </message>
 </context>
 <context>
@@ -15130,6 +15409,46 @@ Eslatma: paketlar oʻchirib tashlanmaydi.</translation>
         <source>Synchronisations</source>
         <translation>Sinxronlashlar</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>GraphQL API: uning yakuniy nuqtasi, sxemasi va soʻrovlarni sinab koʻrish uchun maydoncha.</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migratsiyalar</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>O‘rnatmadagi fayl sifatida saqlangan o‘zgarishlar: ularning holati, ishga tushirishlar, bajarish va orqaga qaytarish.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Yangi kontent</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Eng yangi kontent, tekshiruv uchun ushlab turilganlar va tanlov ustida amallar.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Sayt statik nusxasini GitHub Pages yoki istalgan git xostiga nashr qilish.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Statik nashr qilish</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Maʼlumot turlari</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Yadro va kengaytmalarning har bir maʼlumot turi hamda sinflar va kontent undan qanday foydalanishi.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15294,6 +15613,22 @@ Eslatma: paketlar oʻchirib tashlanmaydi.</translation>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>Hech kim ishlatmaydigan yoki koʻrib chiqishni talab qiladigan hisoblar; ularni oʻchirib qoʻying, blokdan chiqaring yoki eksport qiling.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Foydalanuvchilar audit jurnali</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>Kim oʻzgartirgan, tizimga kirgan yoki rad etilgan, har bir hisob boʻyicha; filtrlash va eksport qilish.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Kirishlar hisoboti</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>Kim tizimga kirgan, kunlar boʻyicha kirishlar va muvaffaqiyatsizliklar; foydalanuvchini hamma joydan chiqarish.</translation>
     </message>
 </context>
 <context>
@@ -22110,6 +22445,22 @@ Eslatma: paketlar oʻchirib tashlanmaydi.</translation>
         <source>%n hours ago</source>
         <translation>%n soat oldin</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>GraphQL API saqlangan soʻrovlarining javoblari va uning sxemasidagi kontent sinflari.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>Statik nusxani GitHub Pages yoki istalgan git xostiga nashr qilish</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Statik nashr qilish</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>Statik kesh sahifalarni shu serverdan beradi. Sayt statik nusxasini boshqa joyda, GitHub Pages yoki istalgan git xostida nashr qilish uchun statik nashr qilishdan foydalaning.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25651,6 +26002,10 @@ Eslatma: paketlar oʻchirib tashlanmaydi.</translation>
     <message>
         <source>last purge</source>
         <translation>oxirgi tozalash</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>Yozuvlar holat qulfini ola olmadi (oxirgi marta %date): har biri keshdagi barcha natijalarni eskirtirdi. %file sayt ishlaydigan har bir foydalanuvchi uchun yoziladigan bo‘lishi kerak; NFS da NFSv4 yoki lockd kerak.</translation>
     </message>
 </context>
 <context>
@@ -33599,6 +33954,14 @@ Eslatma: paketlar oʻchirib tashlanmaydi.</translation>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>PHP ishlovchisining muddati tugagan seanslarini bu sahifa yoki session_gc cron vazifasi qismi emas, PHP oʻzi olib tashlaydi (session.gc_maxlifetime).</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>Barcha foydalanuvchilarning kirilgan seanslari kirishlar hisobotida koʻrsatiladi va oʻsha yerda tugatiladi; hisobot har qanday seans ishlovchisi bilan ishlaydi.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>Kirishlar hisobotini ochish</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37923,6 +38286,26 @@ shu xatdagi yoʻriqnomaga amal qiling.</translation>
     <message>
         <source>None yet</source>
         <translation>Hozircha yoʻq</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Xavfsizlik faolligi</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>Soʻnggi kirishlaringiz, muvaffaqiyatsiz urinishlar hamda parol, elektron pochta manzili va ikki bosqichli kirishdagi oʻzgarishlar.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>Ushbu hisobning soʻnggi kirishlari, muvaffaqiyatsiz urinishlari va xavfsizlik oʻzgarishlari.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>Faollikni koʻrish</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>Muvaffaqiyatsiz kirishlar: %count</translation>
     </message>
 </context>
 <context>
@@ -44089,6 +44472,42 @@ Agar tasdiqlovchiga izoh yubormoqchi yoki maqomni koʻrmoqchi boʻlsangiz, quyid
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>Tizimga kirgandan soʻng foydalanuvchi boshqa narsa qilishdan oldin yangi parol tanlashi kerak. Kimgadir vaqtinchalik parol berganingizda foydalaning.</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>Mavjud rasmni tanlang</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>Siz tanlagan obyektning rasm fayli ushbu maydonga nusxalanadi. Boshqa obyekt oʻzgarmaydi.</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>“%name” rasmi ushbu maydonga nusxalandi.</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>Rasm uchun koʻrib chiqish</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>Rasmlarni nomi boʻyicha qidirish</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Qidirish</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>“%name” rasmidan foydalanish</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>Ushbu rasmdan foydalanish</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>Qidiruvingizga mos rasm topilmadi.</translation>
     </message>
 </context>
 <context>
@@ -51013,6 +51432,10 @@ Batafsil maʼlumot uchun talablar sahifasiga qarang.</translation>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>Crontab yozilmadi (%reason). Quyidagi qatorlarni sayt ishlaydigan foydalanuvchining crontab fayliga qoʻshing, aks holda navbat, import, bildirishnomalar va qidiruv indeksi hech qachon ishlamaydi:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>Qayta oʻrnatish kickstarter yordamida (%file, soʻng php bin/php/kickstarter.php run --apply) yoki yangi oʻrnatish bilan bajariladi.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54892,6 +55315,10 @@ shu xatdagi yoʻriqnomaga amal qiling.</translation>
         <source>eZJSCore Public Packer cache</source>
         <translation>eZJSCore ommaviy paketlovchi keshi</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>GraphQL keshi (javoblar va sxema sinflari)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54978,6 +55405,14 @@ shu xatdagi yoʻriqnomaga amal qiling.</translation>
     <message>
         <source>Copy of %class_name</source>
         <translation>%class_name nusxasi</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Maʼlumot turlari</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>Maʼlumot turi %string</translation>
     </message>
 </context>
 <context>
@@ -55804,6 +56239,26 @@ shu xatdagi yoʻriqnomaga amal qiling.</translation>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>SVG rasmini oʻqib boʻlmadi yoki undagi hech narsani xavfsiz koʻrsatib boʻlmaydi.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>Rasmni nusxalab boʻlmadi. Qaytadan urinib koʻring yoki sayt administratoriga murojaat qiling.</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>Tanlangan obyekt mavjud emas yoki uni oʻqishga ruxsatingiz yoʻq.</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>Tanlangan obyektda rasm yoʻq.</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>Tanlangan obyektning rasm faylini oʻqib boʻlmadi.</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>Tanlangan obyektning rasmi ushbu maydon ruxsat berganidan katta: %1 bayt.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56334,6 +56789,42 @@ shu xatdagi yoʻriqnomaga amal qiling.</translation>
         <source>The bookmark was renamed to "%name".</source>
         <translation>Xatchoʻp nomi "%name" ga oʻzgartirildi.</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>Bu sahifa ushbu sayt kirish nuqtasida (%siteaccess) oʻchirilgan. Xatchoʻpni bu sahifa mavjud boʻlgan sayt kirish nuqtasida oching.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>Bu sahifaning moduli bu yerda oʻrnatilmagan yoki yoqilmagan.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>Bu sahifa endi mavjud emas: uning modulida bunday koʻrinish yoʻq.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>Rollaringizdan hech biri Sizga bu sahifani ochishga ruxsat bermaydi.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>Sizda bu sayt kirish nuqtasidan foydalanish uchun ruxsat yoʻq.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>Sizda bu sahifa koʻrsatadigan kontentni oʻqish uchun ruxsat yoʻq.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>Bunday turdagi sahifani xatchoʻpga qoʻshib boʻlmaydi: u faqat forma bilan ishlaydi yoki faqat bir lahzalik sahifa.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>Bu sahifaning manzili yoʻq.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>Bu sahifani hozir ochib boʻlmaydi.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56805,6 +57296,10 @@ Tugunning sinfini almashtirish funksiyasi yordamida oʻzgartirishingiz kerak bo�
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>Pochta transporti oxirgi ishga tushirishda %count ta xabarni rad etdi. Pochta serveri va site.ini MailSettings sozlamalarini tekshiring.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>%count ta hodisa kutmoqda, bildirishnomalar cron vazifasining esa birorta ham ishga tushishi qayd etilmagan. &quot;frequent&quot; cron qismini crontab fayliga qoʻshing yoki exp:notification:run --apply buyrugʻini bajaring.</translation>
     </message>
 </context>
 <context>
@@ -63061,6 +63556,10 @@ Tugunning sinfini almashtirish funksiyasi yordamida oʻzgartirishingiz kerak bo�
         <source>Choose another site or section with the node picker</source>
         <translation>Tugun tanlagich bilan boshqa sayt yoki boʻlimni tanlang</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>Egasini faqat tizim administratori oʻzgartira oladi: ./console exp:content-check --fix-permissions --apply buyrugʻini root sifatida bajaring.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64594,6 +65093,10 @@ Tugunning sinfini almashtirish funksiyasi yordamida oʻzgartirishingiz kerak bo�
     <message>
         <source>empty</source>
         <translation>boʻsh</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>Imzo kaliti bir yildan eski: uni exp:audit key rotate --apply buyrugʻi bilan almashtiring.</translation>
     </message>
 </context>
 <context>
@@ -68424,6 +68927,486 @@ Tugunning sinfini almashtirish funksiyasi yordamida oʻzgartirishingiz kerak bo�
         <source>Share of page time</source>
         <translation>Sahifa vaqtidagi ulushi</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>toʻliq yaratish soʻraldi</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>sahifa keshida sahifa yoʻq edi (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>sahifa keshi javob bermadi</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>Yaratildi</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>Yadro tomonidan yaratildi: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>Sahifa keshidan %ms ms ichida xizmat koʻrsatildi. Sahifa %stored vaqtida %render ms davom etgan yaratish orqali saqlangan, %age soniya oldin.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>Hozir yaratish</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>Keshdagi koʻrinishga qaytish</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>%stored vaqtidagi yaratishdan (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>Bu soʻrov: sahifa keshidan %ms ms ichida xizmat koʻrsatildi.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Foydalanuvchi</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>Foydalanuvchi ID</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>Kesh profili</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>Ushbu ko‘rinish</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>Koʻrinish keshi</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>har bir foydalanuvchi uchun (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>Foydalanuvchining kesh profili: bir xil profilga ega foydalanuvchilar ko‘rinish kesh fayllarini birgalikda ishlatadi</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ha</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>yoʻq</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Login nomi</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>Tizimga kirgan</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>Seans</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>Kontent ko‘rinishi kesh kalitining foydalanuvchiga bog‘liq qismlari, kalit ularni qanday olsa, aynan shunday, ushbu sahifaning ViewCacheTweaks sozlamalari ostida. Bir xil profilga ega foydalanuvchilar ko‘rinishlarning kesh fayllarini birgalikda ishlatadi, ko‘rinishning o‘z qismlari farq qiladigan holatlar bundan mustasno (afzalliklar, tinglovchilar kalitlari): ularning faqat shu sahifa uchun o‘z profili bor.</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>Profil</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>Ushbu ko‘rinish (tugun %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: tizimga kirgan har bir foydalanuvchining o‘z kesh fayllari bor.</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>Amaldagi ViewCacheTweaks: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>Qism</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>Qiymat</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>Hech bir qism foydalanuvchiga bog‘liq emas (ViewCacheTweaks).</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>ushbu ko‘rinish</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>Matn sifatida nusxalash</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>Rollar</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>Rol tayinlovlarini o‘qib bo‘lmadi.</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>Rol ID</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Rol</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>Cheklov</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>Tayinlangan</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>foydalanuvchi</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>guruh %name (obyekt %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>Nusxalandi</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>Nusxalab bo‘lmadi.</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>tinglovchi tomonidan chiqarib tashlangan</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>Anonim tashrif buyuruvchilar</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>siznikidek</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>boshqacha</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>Anonim tashrifchilar bir xil ViewCacheTweaks ostida, standart afzalliklar bilan, ko‘rinish qismlarisiz oladigan profil: seansni o‘qiydigan tinglovchidan ular haqida so‘rab bo‘lmaydi.</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>Afzalliklar</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>Hech bir ko‘rinish rejimi foydalanuvchi afzalliklariga bog‘liq emas (site.ini [ContentSettings] CachedViewPreferences).</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>Ushbu ko‘rinish rejimlarining ko‘rinishlari bog‘liq bo‘lgan afzalliklar (CachedViewPreferences), foydalanuvchi qiymati yoki standart qiymat bilan. Ular profilda userpreferences sifatida, barcha ko‘rinish rejimlariniki birgalikda.</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>Koʻrish rejimi</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>Afzallik</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>Standart</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>Siyosatlar</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>Rollarning siyosatlarini ko‘rsatish (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>Siyosatlar ushbu bo‘lim ochilganda serverdan sahifama-sahifa yuklanadi va ularni modul va funksiya bo‘yicha filtrlash mumkin.</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>Funksiya</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>Barcha modullar</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>Barcha funksiyalar</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>Cheklovlar</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>Ko‘proq ko‘rsatish</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>Bu rollarda siyosatlar yo‘q.</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>Filtrga mos siyosat yo‘q.</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%matching ta siyosatdan %shown ta (jami %total)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>Ochilganda yuklanadi.</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>modul/funksiya, rol, cheklov</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>Siyosatlarni qidirish</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>Yana yuklash</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>Modul/funksiya</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>Barcha rollar (%count siyosat)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>Mos keladigan siyosat yo‘q.</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%matched siyosatdan %shown</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>Javob yo‘q</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>niqoblangan</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>Izohlarni koʻrsatish</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>Izohlarni yashirish</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Ochish</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>Hammasini ochish</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>Hammasini yopish</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>Kalit yoki qiymat</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>Seansda qidirish</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Tur</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>yana %count ta</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>koʻrsatish uchun juda chuqur joylashgan</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>qisqartirildi, jami %count belgi</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Boshlangan</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>Kuki nomi</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>Seans ID</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>Ishlovchi</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>Saqlash yoʻli</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>PHP standarti</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>Yashash muddati (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>Kuki</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>yashash muddati %s s</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>Sizning oʻz PHP seansingiz, boʻlim ochilgan paytdagi holatida, hech qachon boshqasi emas. Sirga oʻxshagan kalitlarning (tokenlar, xeshlar, parollar) qiymatlari niqoblanadi (debugbar.ini SessionMask[]); qolgan hamma narsa saqlanganidek koʻrsatiladi, shaxsiy maʼlumotlar ham.</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>%count ta kalit, %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>katta</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>Seans boʻsh.</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>Bu soʻrov uchun seans boshlanmadi.</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>%name kengaytmasi</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>Yadro va boshqalar</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>Hamma yozuvlar koʻrsatilmagan: seansda bu yerda roʻyxatga olinishi mumkin boʻlganidan koʻproq narsa bor.</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>%count ta kalit roʻyxatga kiritilmagan.</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>Ramka</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>Tokenga oʻxshagan qiymatlar (JSON Web Token, Authorization sarlavhasining hisob maʼlumotlari, shaxsiy kalit, uzun oʻn oltilik yoki tasodifiy matn) ham, kaliti qanday nomlanishidan qatʼi nazar, niqoblanadi (debugbar.ini SessionValueMask[]).</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>Kalit sirga oʻxshaydi (debugbar.ini SessionMask[]).</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>Qiymat tokenga oʻxshaydi.</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>Niqoblangan kalit ostida.</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>Matn koʻrinishidagi seans, jadval kabi niqoblangan.</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>Seans %size dan katta (debugbar.ini SessionWarnBytes): bu foydalanuvchining har bir soʻrovi butun seansni oʻqiydi va u oʻzgarganda uni yozadi.</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP bu seansni fayllarda saqlaydi va butun soʻrov davomida faylni qulflaydi: bir foydalanuvchining soʻrovlari (bir nechta varaq, AJAX chaqiruvlari) bir-birini kutadi.</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>Ochiq qoldirish</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>%size dan katta (debugbar.ini SessionWarnBytes): bu foydalanuvchining har bir soʻrovi butun seansni oʻqiydi.</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%count tadan %hits tasi keshdan oʻqildi</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>Hech qanday shablon chizilmadi (koʻrinish keshidan oʻqilgan koʻrinish hech narsa chizmaydi).</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>Rol tayinlanishlari</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>Rollar va siyosatlar</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>anonim tashrif buyuruvchilarnikidan farq qiladi</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>anonim tashrif buyuruvchilarnikidek</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70304,6 +71287,14 @@ Tugunning sinfini almashtirish funksiyasi yordamida oʻzgartirishingiz kerak bo�
     <message>
         <source>not sent</source>
         <translation>yuborilmadi</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Bildirishnomalar cron vazifasi bu yerda har bir ishga tushishini qayd etadi. frequent qismini crontab fayliga qoʻshing yoki exp:notification:run --apply buyrugʻini bajaring.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>Konsoldan foydalaning: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -76022,6 +77013,98 @@ Tugunning sinfini almashtirish funksiyasi yordamida oʻzgartirishingiz kerak bo�
         <source>This topic is not Released; readers do not see it.</source>
         <translation>Bu mavzu nashr qilinmagan; oʻquvchilar uni koʻrmaydi.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migratsiyalar</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>O‘rnatmadagi fayl sifatida saqlangan o‘zgarishlar: ularning holati, ishga tushirishlar, bajarish va orqaga qaytarish.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Sayt statik nusxasini GitHub Pages yoki istalgan git xostiga nashr qilish.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Statik nashr qilish</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>Koʻrib chiqilmoqda</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>Oʻquvchilar bu sahifani koʻradi.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>Kimdir nashr qilmaguncha oʻquvchilardan yashirin.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>Sahifa hozir koʻrib chiqishda. Nashr qilinmaguncha oʻquvchilardan yashirin.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>Sahifa nashr qilindi: oʻquvchilar endi uni koʻradi.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>Sahifa yana qoralama boʻldi. Koʻrib chiqilib, nashr qilinmaguncha oʻquvchilardan yashirin.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>Hozir nashr qilish</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>Bu versiyani faqat %role roliga ega va uni yozmagan foydalanuvchi nashr qila oladi.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>Nashrni kutayotgan yordam mavzulari</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>Qayta nashr qilinmaguncha uni oʻquvchilardan yashiradi.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>Keyin uni koʻrib chiquvchi tekshiradi. Oʻquvchilar uni hali koʻrmaydi.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>Oʻquvchilar uni darhol koʻradi.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>Qoʻshimcha ish uchun uni koʻrib chiqishdan oladi. Oʻquvchilar uni koʻrmaydi.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>Bu sahifa oʻquvchilardan yashirilsinmi?</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>Bu sahifa qoralamaga qaytarilsinmi?</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>Kimdir qayta nashr qilmaguncha oʻquvchilar %title sahifasini endi koʻrmaydi.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title qoʻshimcha ish uchun qoralamaga qaytadi. Oʻquvchilar uni hali ham koʻrmaydi va nashrdan oldin yangi koʻrib chiqish kerak.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Bekor qilish</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>Bu mavzular koʻrib chiqishda. Joriy versiyani yozmagan kishi ularni nashr qilgach, oʻquvchilar ularni koʻradi.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76477,6 +77560,46 @@ Tugunning sinfini almashtirish funksiyasi yordamida oʻzgartirishingiz kerak bo�
         <source>None.</source>
         <translation>Yoʻq.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>autentifikator ilovasi bilan</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>elektron pochta orqali kelgan kod bilan</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>tiklash kodi bilan</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>kirish kaliti bilan</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>tashqi hisob bilan</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Xavfsizlik faolligi</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>Tarmoq sifatida koʻrsatiladi; manzil saytning maʼlumotlarni himoya qilish sozlamalarida belgilanganidek saqlanadi.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Qayd etilmagan</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Joylashuv</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>taxminiy</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76720,6 +77843,42 @@ Tugunning sinfini almashtirish funksiyasi yordamida oʻzgartirishingiz kerak bo�
         <source>Manage devices</source>
         <translation>Qurilmalarni boshqarish</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>autentifikator ilovasi bilan</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>elektron pochta orqali kelgan kod bilan</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>tiklash kodi bilan</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>kirish kaliti bilan</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>tashqi hisob bilan</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Xavfsizlik faolligi</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Qayd etilmagan</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Joylashuv</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>taxminiy</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76799,6 +77958,14 @@ Tugunning sinfini almashtirish funksiyasi yordamida oʻzgartirishingiz kerak bo�
         <source>View the sessions of this user</source>
         <translation>Ushbu foydalanuvchining seanslarini koʻrish</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>%site saytidagi %login hisobingizga hozirgina soʻnggi paytda kirilmagan joydan kirildi:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>Taxminiy joylashuv</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76837,6 +78004,10 @@ Tugunning sinfini almashtirish funksiyasi yordamida oʻzgartirishingiz kerak bo�
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%os da %browser</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Kirishlar hisoboti</translation>
     </message>
 </context>
 <context>
@@ -77045,6 +78216,82 @@ Tugunning sinfini almashtirish funksiyasi yordamida oʻzgartirishingiz kerak bo�
         <source>The passkey could not be checked. Please try again.</source>
         <translation>Kirish kalitini tekshirib boʻlmadi. Iltimos, qayta urinib koʻring.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>Faqat kirish kalitlari bilan kiradigan hisoblar bu yerda paroldan foydalana olmaydi: “Kirish kaliti bilan kirish” ni tanlang.</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>%login kirish kalitlari</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>Bu hisob kiradigan kirish kalitlari. Yoʻqolgan yoki oʻgʻirlangan qurilmadagi kalitni qaytarib oling: u bilan endi kirib boʻlmaydi. Yangilarini egasi oʻzi qoʻshadi.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>Hisobingizga kirish kaliti kerak</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>Hisobingizga kirish kaliti qoʻshing</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>Davom etish uchun kirish kaliti qoʻshing. Shundan soʻng faqat parol emas, u bilan kirasiz.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>Kirish kaliti bilan kirish paroldan tezroq va xavfsizroq. Hozir qoʻshing yoki usiz davom eting.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>Hozir emas</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>“%name” kirish kalitini qaytarib olasizmi?</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>U bilan endi bu hisobga kirib boʻlmaydi. Agar u oxirgisi boʻlsa, egasi parol bilan kiradi yoki siz yangi parol oʻrnatasiz.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>Kirish kalitini qaytarib olish</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>Qaytarib olish</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>Bu hisobda kirish kaliti yoʻq.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>Autentifikator</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Nomaʼlum</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>Oxirgi kirish kalitingiz: uni olib tashlashdan oldin boshqasini qoʻshing.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>Bu hisob faqat kirish kalitlari bilan kiradi (kirish kalitlari siyosati): birortasi qolmasa, yana paroli bilan kiradi.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>Bu oxirgi kirish kalitingiz va hisobingiz usiz kira olmaydi. Avval boshqa kirish kalitini qoʻshing.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>“%name” kirish kaliti qaytarib olindi. U bilan endi bu hisobga kirib boʻlmaydi.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77144,6 +78391,34 @@ Tugunning sinfini almashtirish funksiyasi yordamida oʻzgartirishingiz kerak bo�
         <source>Code from your authenticator app</source>
         <translation>Autentifikator ilovangizdagi kod</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>Siz maʼlumotlarni butunlay oʻchirmoqchi yoki jurnalni tozalamoqchisiz.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>Parolingiz va kirish kaliti</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>Parolingiz va autentifikator ilovangizdagi kod</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>Yoki:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>Bu brauzer kirish kalitlaridan foydalana olmaydi. Boshqa usul yoki boshqa brauzerdan foydalaning.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>Davom etganingizda brauzeringiz kirish kalitlaringizdan birini soʻraydi.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>Kirish kaliti bilan davom etish</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77234,6 +78509,70 @@ Tugunning sinfini almashtirish funksiyasi yordamida oʻzgartirishingiz kerak bo�
     <message>
         <source>Setup</source>
         <translation>Sozlash</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>Oʻz parolini, elektron pochta manzilini, kirish kalitlarini, ikki bosqichli kirishni, tiklash kodlarini yoki API kalitlarini oʻzgartirish va boshqa qurilmalaridan chiqish.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>Foydalanuvchilarni, ularning parollari va qurilmalarini, hisob sozlamalarini yaratish va tahrirlash, yangi foydalanuvchi hisoblarini tasdiqlash yoki rad etish, rollarni tayinlash va siyosatlarni tahrirlash.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>Maʼlumotlarni oʻchirish</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>Savatni boʻshatish, undan elementlarni olib tashlash va bir nechta elementni birdaniga olib tashlash.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>Kontentni olib tashlash, nashr qilish va saqlash</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>Kontentni olib tashlash (savatga ham), nashr qilish va qoralamani saqlash, shakl yuborilganda soʻraladi. Standart holatda oʻchiq.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>Muhim amaldan oldin tizimga kirgan foydalanuvchi kimligini yana tasdiqlaydi: paroli va kirish kaliti bilan yoki kirish kalitisiz paroli va autentifikator ilovasidagi kod bilan. Faqat veb-sahifalar soʻraydi: REST interfeysi, SOAP, WebDAV, expservices kirishi va buyruqlar qatori hech qachon soʻramaydi.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>Sozlamalar qayerda amal qiladi</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>Sozlamalar:</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Har bir sayt kirish nuqtasi</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>Sayt kirish nuqtasi %name</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Ochish</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>Kimdan soʻraladi: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>Faqat aʼzolaridan soʻrash uchun foydalanuvchilar guruhlarini belgilang (masalan, muharrirlar). Hech biri belgilanmagan: har bir foydalanuvchi.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>settings/override/site.ini.append.php fayliga, har bir sayt kirish nuqtasi uchun saqlanadi. Saqlashda bu siz ekanligingizni tasdiqlash soʻraladi.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>settings/siteaccess/%name/site.ini.append.php fayliga saqlanadi. settings/override dagi qiymat ustun turadi. Saqlashda bu siz ekanligingizni tasdiqlash soʻraladi.</translation>
     </message>
 </context>
 <context>
@@ -77336,6 +78675,6822 @@ Tugunning sinfini almashtirish funksiyasi yordamida oʻzgartirishingiz kerak bo�
     <message>
         <source>Open the page</source>
         <translation>Sahifani ochish</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from – %to, jami %count</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>Login nomi yoki foydalanuvchi ID: hodisa tegishli boʻlgan hisob yoki amalni bajargan foydalanuvchi.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Hisob</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Amal</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>Keyin</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>Har qanday natija</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Oldin</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Bajaruvchi</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Tozalash</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Bajarildi</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>Hodisalar %days kun saqlanadi.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>Hodisalar qoʻlda olib tashlanmaguncha saqlanadi.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Hodisalar</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>Har qanday amal</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>Bu hisobning barcha hodisalari</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>Roʻyxatni CSV sifatida eksport qilish (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Muvaffaqiyatsiz</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Boshlanish</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>Roʻyxatni toraytirish</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>Mos hodisa yoʻq.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Har bir sahifada</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>audit.ini faylida yozib olish oʻchirilgan ([UserAuditSettings] UserAudit); roʻyxat avval yozib olinganlarni koʻrsatadi.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Rad etildi</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Natija</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Koʻrsatish</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>Foydalanuvchilar audit jurnali jadvali mavjud emas. Uni php update/common/scripts/6.0/createuseraudittable.php bilan yarating; ungacha audit fayllari har bir hodisani saqlaydi.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>Bu sahifa SQL maʼlumotlar bazasini talab qiladi; MongoDB bilan u mavjud emas. Audit fayllari har bir hodisani saqlaydi.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Gacha</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Foydalanuvchilar audit jurnali</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Foydalanuvchi</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Qachon</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Qayerda</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>Kim qaysi hisobni oʻzgartirgan, yaratgan, yoqqan, oʻchirib qoʻygan, koʻchirgan yoki olib tashlagan, kim tizimga kirgan yoki rad etilgan va qaysi rollar tayinlangan: har bir hodisa uchun bitta qator, oldingi va keyingi maydonlar bilan. Parollar va maxfiy maʼlumotlar hech qachon yozib olinmaydi.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>guruh</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>tizim</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>nomaʼlum</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>Hisobingizni himoyalash</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>%site saytidagi %login hisobingizga tiklash kodi bilan kirildi.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>Tiklash kodi ishlatildi</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Hisob</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>Taxminiy manzil</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>Qayta kirish uchun yangi parol soʻrang yoki sayt administratorlariga murojaat qiling.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>Yangi parol soʻrash</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>Har bir tiklash kodi faqat bir marta ishlaydi. Agar telefoningizni yoʻqotgan boʻlsangiz, autentifikator ilovasini qayta sozlang va yangi tiklash kodlarini xavfsiz joyda saqlang.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>Hisobingizga muvaffaqiyatsiz kirish urinishlari</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>Bundan buyon kirishda parolingizdan tashqari kod ham soʻraladi. Agar buni Siz qilgan boʻlsangiz, hech narsa qilishingiz shart emas.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>Agar bu Siz boʻlsangiz va parolingizni unutgan boʻlsangiz, yangisini soʻrang. Aks holda kuchliroq parol tanlang va ikki bosqichli kirishni yoqing.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>Agar bu Siz boʻlmasangiz, parolingizni kimdir bilishi mumkin: uni hozir oʻzgartiring va hisobingiz qayerlarda kirilgan holatda ekanini tekshiring.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>Qolgan tiklash kodlari</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>Qurilmalaringizni tekshirish</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>Xavfsizlik ogohlantirishi</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>Kimdir %site saytidagi %login hisobingizga notoʻgʻri parol bilan ketma-ket %count marta kirishga urindi.</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>%site saytidagi %login hisobingizda xavfsizlik hodisasi yuz berdi.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>Bu hisobingiz haqidagi xavfsizlik ogohlantirishi. U har bir shunday oʻzgarishda yuboriladi va uni oʻchirib qoʻyib boʻlmaydi.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Vaqt</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>%site saytidagi %login hisobingiz uchun ikki bosqichli kirish oʻchirildi.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>Ikki bosqichli kirish oʻchirildi</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>%site saytidagi %login hisobingiz uchun ikki bosqichli kirish yoqildi.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>Ikki bosqichli kirish yoqildi</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>%site saytidagi %login hisobingiz juda koʻp muvaffaqiyatsiz kirishlardan soʻng qulflandi.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>Endi hisobingiz faqat parol bilan himoyalangan. Agar buni Siz qilmagan boʻlsangiz, parolingizni oʻzgartirgandan soʻng ikki bosqichli kirishni qayta yoqing.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>Hisobingiz qulflandi</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>%site saytidagi %login hisobingizga kirish kaliti qoʻshildi.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>Bu kirish kalitiga ega boʻlgan har kim hisobingizga parolingizsiz kira oladi. Agar uni siz qoʻshmagan boʻlsangiz, Kirish kalitlari boʻlimida olib tashlang va parolingizni oʻzgartiring.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>%site saytidagi %login hisobingizdan kirish kaliti olib tashlandi.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>U bilan endi hisobingizga kirib boʻlmaydi. Agar uni siz olib tashlamagan boʻlsangiz, kirish kalitlaringiz va qurilmalaringizni tekshiring.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>Hisobingizga kirish kaliti qoʻshildi</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>Hisobingizdan kirish kaliti olib tashlandi</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>Xavfsizlik faolligi</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Xavfsizlik faolligi: %name</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Kirilgan</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Muvaffaqiyatsiz kirish urinishi</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Chiqilgan</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Seanslar tugatildi</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Yangi qurilmadan kirish</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Yangi joydan kirish</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Shaxs tasdiqlandi (&quot;Oʻzingizni tasdiqlang&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Shaxsni tekshirish muvaffaqiyatsiz tugadi</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Kirish kaliti bilan kirildi</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Kirish kaliti bilan kirish muvaffaqiyatsiz tugadi</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Kirish rad etildi: ikki bosqichli kirish kodi yoʻq yoki notoʻgʻri</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Ikki bosqichli kirishning notoʻgʻri kodi</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Hisob muvaffaqiyatsiz kirishlardan soʻng qulflandi</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Hisob qulfdan chiqarildi</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Parol oʻzgartirildi</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Parolni oʻzgartirish muvaffaqiyatsiz tugadi</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Parol tiklandi</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Yangi parol soʻraldi</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Elektron pochta manzili oʻzgartirildi</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Foydalanuvchi nomi oʻzgartirildi</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Ikki bosqichli kirish yoqildi</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Ikki bosqichli kirish oʻchirildi</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Tiklash kodi ishlatildi</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Yangi tiklash kodlari</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Ilova paroli yaratildi</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Ilova paroli bekor qilindi</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Kirish kaliti qoʻshildi</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Kirish kaliti olib tashlandi</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Hisob yoqildi</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Hisob oʻchirib qoʻyildi</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Hammasi</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Kirishlar va seanslar</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Hisobdagi oʻzgarishlar</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Eʼtibor talab qiladi</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>Siz tomoningizdan</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>foydalanuvchi tomonidan</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>foydalanuvchi tomonidan: %login</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>Usul</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>Brauzer</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>Operatsion tizim</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Qurilma</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>Joy</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>Mamlakat</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Seanslar</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>Qaysilari</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>Kanal</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Muvaffaqiyatsiz urinishlar</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>Qolgan kodlar</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>Kirish ishlovchisi</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Xavfsizlik faolligi</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Xavfsizlik faolligi: %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Hisobingizga kirishlar va uning xavfsizligidagi oʻzgarishlar. Agar Siz qilmagan biror narsani koʻrsangiz, parolingizni oʻzgartiring va tanimagan qurilmalaringizni chiqarib yuboring.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>Ushbu hisobga kirishlar va uning xavfsizligidagi oʻzgarishlar.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Qurilmalaringiz</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Parolni oʻzgartirish</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>Hisobga qaytish</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>Xavfsizlik faolligi qayd etilmaydi</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>U foydalanuvchilar audit jurnalidan oʻqiladi, uning expuser_audit jadvali esa mavjud emas yoki ushbu maʼlumotlar bazasida qoʻllab-quvvatlanmaydi. php update/common/scripts/6.0/createuseraudittable.php buyrugʻini yoki 6.0.15 maʼlumotlar bazasi yangilanishini bajaring.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Soʻnggi %days kun</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Soʻnggi %days kundagi kirishlar</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>Soʻnggi xavfsizlik faolligi</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Koʻrsatish</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>muvaffaqiyatsiz</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>rad etildi</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Hozircha xavfsizlik faolligi qayd etilmagan.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>Xavfsizlik hodisalari %days kun saqlanadi.</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>Xavfsizlik hodisalari administrator ularni olib tashlaguncha saqlanadi.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Kirishlarim haqidagi maʼlumotlarni yuklab olish</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Seanslaringiz va xavfsizlik hodisalari JSON fayli sifatida.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Bu saytda seanslar qayd etilmaydi, shuning uchun boshqa hech bir qurilmani chiqarib boʻlmadi. Parolingizni hoziroq oʻzgartiring.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>Boshqa %count ta seans yakunlandi. Endi parolingizni oʻzgartiring.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Boshqa hech bir qurilma tizimga kirmagan edi. Endi parolingizni oʻzgartiring.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Rahmat. Hodisa sizniki deb belgilandi.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Bu hodisa javob talab qilmaydi.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Sahifa muddati tugagan edi. Hech narsa oʻzgartirilmadi; iltimos, qayta urinib koʻring.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Hisobingizni himoyalash</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Agar bu yerdagi biror narsa siz boʻlmasangiz, boshqa barcha qurilmalardan chiqing, soʻngra yangi parol tanlang. Meni eslab qol orqali tizimda qolgan qurilmalar ham chiqariladi.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Bundan boshqa har bir qurilma keyingi soʻrovida tizimdan chiqariladi. Soʻngra siz yangi parol tanlaysiz.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Ha, boshqa qurilmalardan chiqish</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Bu siz edingizmi?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Ha, bu men edim</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Yoʻq, hisobimni himoyalash</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Kirilgan</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Muvaffaqiyatsiz kirish urinishi</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Chiqilgan</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Seanslar tugatildi</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Yangi qurilmadan kirish</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Yangi joydan kirish</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Shaxs tasdiqlandi (&quot;Oʻzingizni tasdiqlang&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Shaxsni tekshirish muvaffaqiyatsiz tugadi</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Kirish kaliti bilan kirildi</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Kirish kaliti bilan kirish muvaffaqiyatsiz tugadi</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Kirish rad etildi: ikki bosqichli kirish kodi yoʻq yoki notoʻgʻri</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Ikki bosqichli kirishning notoʻgʻri kodi</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Hisob muvaffaqiyatsiz kirishlardan soʻng qulflandi</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Hisob qulfdan chiqarildi</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Parol oʻzgartirildi</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Parolni oʻzgartirish muvaffaqiyatsiz tugadi</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Parol tiklandi</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Yangi parol soʻraldi</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Elektron pochta manzili oʻzgartirildi</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Foydalanuvchi nomi oʻzgartirildi</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Ikki bosqichli kirish yoqildi</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Ikki bosqichli kirish oʻchirildi</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Tiklash kodi ishlatildi</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Yangi tiklash kodlari</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Ilova paroli yaratildi</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Ilova paroli bekor qilindi</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Kirish kaliti qoʻshildi</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Kirish kaliti olib tashlandi</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Hisob yoqildi</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Hisob oʻchirib qoʻyildi</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Hammasi</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Kirishlar va seanslar</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Hisobdagi oʻzgarishlar</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Eʼtibor talab qiladi</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Xavfsizlik faolligi</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Xavfsizlik faolligi: %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Hisobingizga kirishlar va uning xavfsizligidagi oʻzgarishlar. Agar Siz qilmagan biror narsani koʻrsangiz, parolingizni oʻzgartiring va tanimagan qurilmalaringizni chiqarib yuboring.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Qurilmalaringiz</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Parolni oʻzgartirish</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>Bu saytda xavfsizlik faolligi hali qayd etilmaydi.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Soʻnggi %days kundagi kirishlar</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Muvaffaqiyatsiz urinishlar</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Hozircha xavfsizlik faolligi qayd etilmagan.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Kirishlarim haqidagi maʼlumotlarni yuklab olish</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Seanslaringiz va xavfsizlik hodisalari JSON fayli sifatida.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Bu saytda seanslar qayd etilmaydi, shuning uchun boshqa hech bir qurilmani chiqarib boʻlmadi. Parolingizni hoziroq oʻzgartiring.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>Boshqa %count ta seans yakunlandi. Endi parolingizni oʻzgartiring.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Boshqa hech bir qurilma tizimga kirmagan edi. Endi parolingizni oʻzgartiring.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Rahmat. Hodisa sizniki deb belgilandi.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Bu hodisa javob talab qilmaydi.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Sahifa muddati tugagan edi. Hech narsa oʻzgartirilmadi; iltimos, qayta urinib koʻring.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Hisobingizni himoyalash</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Agar bu yerdagi biror narsa siz boʻlmasangiz, boshqa barcha qurilmalardan chiqing, soʻngra yangi parol tanlang. Meni eslab qol orqali tizimda qolgan qurilmalar ham chiqariladi.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Bundan boshqa har bir qurilma keyingi soʻrovida tizimdan chiqariladi. Soʻngra siz yangi parol tanlaysiz.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Ha, boshqa qurilmalardan chiqish</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Bu siz edingizmi?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Ha, bu men edim</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Yoʻq, hisobimni himoyalash</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>Parol</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>Parol va ikki bosqichli kirish kodi</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>REST interfeysi</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>SOAP interfeysi</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>Yagona kirish</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>Seanslar qayd etila boshlashidan oldin kirilgan</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Kirishlar hisoboti</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>Saytga kim kirgan, hisoblar qanchalik tez-tez kiradi va kira olmaydi, shuningdek foydalanuvchini hamma joydan chiqarish. Har qanday seans ishlovchisi bilan ishlaydi.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>Seans tugatildi. Qurilma qayta kirishi kerak.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>%login foydalanuvchisi %count ta seansdan chiqarildi.</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>%login foydalanuvchisining faol seansi yoʻq edi.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>Bunday ID, foydalanuvchi nomi yoki elektron pochta manziliga ega hisob yoʻq.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>Bu Siz foydalanayotgan seans. Uni tugatish uchun tizimdan chiqing.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>Bu seans allaqachon tugagan edi.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Sahifa muddati oʻtgan edi. Hech narsa oʻzgartirilmadi; iltimos, qayta urinib koʻring.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>Bu saytda seanslar qayd etilmaydi (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>expuser_session jadvali mavjud emas</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>U yaratilgach, seanslar qayd etila boshlaydi: php update/common/scripts/6.0/createusersessiontable.php yoki 6.0.15 maʼlumotlar bazasi yangilanishi.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>Hozir va bugun</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>Faol seanslar</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>Kirgan foydalanuvchilar</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>Bugungi kirishlar</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>Bugungi muvaffaqiyatsiz urinishlar</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>Foydalanuvchini hamma joydan chiqarish</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>Hisobning har bir seansi keyingi soʻrovda tugaydi, &quot;Meni eslab qol&quot; orqali saqlanganlari ham. Hisob begona qoʻlga tushgan boʻlishi mumkin boʻlsa, bundan foydalaning; soʻng uning parolini tiklang.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>Foydalanuvchi ID, foydalanuvchi nomi yoki elektron pochta manzili</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>Hamma joydan chiqish</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>Hozir kirgan</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>Eng soʻnggi foydalanilgan %limit tasi koʻrsatilgan.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Foydalanuvchi</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Qurilma</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Manzil</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>Kirilgan</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>Oxirgi faollik</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Amallar</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>Ushbu qurilma</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Qayd etilmagan</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>Chiqish</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>Kirilgan seans yoʻq.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Soʻnggi %days kun</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>Kirishlar va muvaffaqiyatsiz urinishlar foydalanuvchilar audit jurnalidan sanaladi, u esa mavjud emas; yangi seanslar sanaladi.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>Kun</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>Kirishlar</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Muvaffaqiyatsiz urinishlar</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>Yangi seanslar</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>Seans ishlovchisi: %handler. Seanslar expuser_session jadvalidan oʻqiladi, shuning uchun hisobot har qanday ishlovchi bilan ishlaydi.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>Soʻnggi %hours soatdagi shubhali faollik</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>Bitta tarmoq %accounts ta hisobga kira olmadi (%count ta urinish)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Muvaffaqiyatsiz kirishlardan soʻng hisob bloklandi</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>Bitta hisobda %count ta muvaffaqiyatsiz kirish</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>Bir vaqtning oʻzida %count ta mamlakatdan kirilgan</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Xavfsizlik faolligi</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Seanslar</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>Muvaffaqiyatsiz kirishlar foydalanuvchilar audit jurnalidan oʻqiladi, u bu yerda mavjud emas.</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>Shubhali hech narsa yoʻq: takroriy muvaffaqiyatsiz kirishlari bor hisob yoʻq, bir nechta hisobni sinayotgan tarmoq yoʻq, bir nechta mamlakatdan kirilgan hisob yoʻq.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>Hisobingiz uchun xavfsizlik ogohlantirishi</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>%login hisobingizda xavfsizlik hodisasi yuz berdi: %event. Agar bu Siz boʻlmasangiz, hisobingizni %url manzilida himoyalang.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Sozlash</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>Ushbu sayt kontentidan sahifaga kerakli maydonlarni aynan bitta soʻrov bilan oling. Sxema kontent sinflariga mos keladi; har bir soʻrov uni yuborgan foydalanuvchining huquqlari bilan bajariladi.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>GraphQL API ushbu sayt kirish nuqtasida oʻchirilgan. Uni graphql.ini faylida yoqing: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>GraphQL kutubxonasi (webonyx/graphql-php 15) oʻrnatilmagan.</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>Yakuniy nuqta</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>Kutubxona</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>Sxema</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>Kontent sinflari: %count, sxema %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>Soʻrov</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>Oʻzgaruvchilar (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Ishga tushirish</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>Javob</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>Bajarilmoqda…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>Javobni oʻqib boʻlmadi.</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>Soʻrov ushbu seansda kirgan holda sizning huquqlaringiz bilan bajariladi.</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%seconds s ichida %count</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>cheklovsiz</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>Chuqurlik</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>Murakkablik</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>Roʻyxatdagi elementlar</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (standart %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>Foydalanuvchi yoki kalit boʻyicha murojaatlar</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>Anonim manzil boʻyicha murojaatlar</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>Introspeksiya</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>Faqat saqlangan soʻrovlar</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>Eng katta soʻrov</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>%bytes bayt</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>Eng katta yuklama</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>%siteaccess sayt kirish nuqtasi yoʻq.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>Mutatsiyalar %siteaccess da yoqildi.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>Mutatsiyalar %siteaccess da oʻchirildi.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>GraphQL API %siteaccess da yoqildi.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>GraphQL API %siteaccess da oʻchirildi.</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>Sozlamalarni yozib boʻlmadi: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>Javob keshi tozalandi: %count ta javob olib tashlandi.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>Soʻrovni olib tashlash uchun yonidagi katakchani belgilang.</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>Soʻrovni olib tashlab boʻlmadi: PersistedQueryDirectoryList[] katalogida kelgan soʻrov fayli bilan birga olib tashlanadi.</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>Saqlangan soʻrov olib tashlandi.</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>Mutatsiyalar</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>yoqilgan</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>oʻchiq</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Sayt kirish nuqtalari</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>API va uning mutatsiyalari javob beradigan joylar. Tugmalar graphql.ini ni ./console exp:graphql:enable va exp:graphql:disable kabi yozadi.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Sayt kirish nuqtasi</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>GraphQL API</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Oʻzgartirish</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Oʻchirish</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>Mutatsiyalarni oʻchirish</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>Mutatsiyalarni yoqish</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Yoqish</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>Chegaralar</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>Ushbu sayt kirish nuqtasining graphql.ini [GraphQLSettings] sozlamalari.</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>Javob keshi</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>Saqlangan soʻrovlarning javoblari: foydalanuvchi huquqlari boʻyicha saqlanadi va kontent har safar nashr etilganda eskiradi.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Holat</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>Saqlangan javoblar</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>%count ta javob, %bytes bayt</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>Eng koʻp saqlanadi</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds s</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>Oxirgi eskirish</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>Javob keshini tozalash</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>Saqlangan soʻrovlar</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>./console exp:graphql:persist bilan yoki mijozlar tomonidan saqlanadi (avtomatik saqlangan soʻrovlar); nom yoki SHA-256 orqali chaqiriladi.</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>Nomlar</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Hajm</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Joyi</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Olib tashlash</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>birga kelgan</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>saqlangan</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>Ha, bu soʻrovni olib tashlash</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>Hali saqlangan soʻrov yoʻq.</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>API kalitlari</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>graphql:read (soʻrovlar) yoki graphql:write (mutatsiyalar) qamrovli shaxsiy API kalitlari. Ularni API ga kirish sahifasida yoki ./console exp:graphql:keys bilan yarating va qaytarib oling.</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>API ga kirish</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>Barcha kalitlar</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>Kalit</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Nom</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Egasi</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>Qamrovlar</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>Oxirgi foydalanish</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>faol</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>muddati tugagan</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>qaytarib olingan</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>hech qachon</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>Hali GraphQL qamrovli API kaliti yoʻq.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>GraphQL API ushbu sahifani koʻrsatayotgan %siteaccess sayt kirish nuqtasida oʻchirilgan; quyidagi jadval uning qayerda javob berishini koʻrsatadi.</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>Ushbu sahifani koʻrsatayotgan %siteaccess sayt kirish nuqtasi uchun.</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>Vebxuklar</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>Yakuniy nuqta soʻragan har bir hodisa (publish, update, trash, delete, move, hide, reveal, mutation) unga cronjob qismi graphqlwebhooks tomonidan imzolangan holda yuboriladi. ./console exp:graphql:webhooks ushbu boʻlim bilan bir xil ishni bajaradi.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Hodisalar</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>hammasi</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Har bir sayt kirish nuqtasi</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>buzilgan</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>maxfiy kalit yoʻq</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>Kutilmoqda</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count ta voz kechildi</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>Oxirgi yetkazish</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Sinov yuborish</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>Ha, bu vebxukni olib tashlash</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>Hali vebxuk yoʻq.</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>Vebxuk qoʻshish</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>Qoʻshish</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>Soʻnggi yetkazishlar</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Vaqt</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Natija</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>Obunalar</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>Mijozlar uchun jonli yangilanishlar: /api/graphql/subscribe manzilidagi hodisalar oqimi va Velocity dagi WebSocket (graphql-transport-ws). Har bir hodisa faqat uning kontentini oʻqishi mumkin boʻlgan obunachilarga boradi.</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>Hozir ochiq</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>Eng koʻp ochiq</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>jami %total, har bir foydalanuvchiga %user, har bir manzilga %address</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>Anonim obunalar</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>Oqim davomiyligi</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>Vebxukni qoʻshib boʻlmadi: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>%name vebxuki oʻzgartirildi; uning imzo maxfiy kaliti saqlanib qoladi.</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>Imzo maxfiy kalitini saqlab boʻlmadi (Sozlash &gt; Maxfiy kalitlar).</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>%name vebxuki qoʻshildi. Uning imzo maxfiy kaliti, faqat shu safar koʻrsatiladi: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>%name vebxuki mavjud emas.</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>%name vebxuki javob bermadi: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>%name vebxuki %ms ms ichida %status javobini berdi.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>Vebxukni olib tashlash uchun yonidagi katakchani belgilang.</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>%name vebxuki olib tashlandi.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>GraphQL API ushbu sayt kirish nuqtasida oʻchirilgan.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>GraphQL kutubxonasi oʻrnatilmagan.</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>GET yoki POST dan foydalaning.</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>Murojaat tanasi JSON obyekti emas.</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables JSON obyekti emas.</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions JSON obyekti emas.</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>Soʻrovni POST bilan yuboring.</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>Murojaatda soʻrov yoʻq.</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>Soʻrov %max baytdan uzun.</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>Serverning ichki xatosi</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node uchun id, remoteId, path va urlAlias dan aynan bittasi kerak.</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content uchun id va remoteId dan aynan bittasi kerak.</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>after kursori bu API tomonidan berilmagan.</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>%alias nomli rasm taxallusi yoʻq (image.ini [AliasSettings] AliasList[]).</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>Bu yerda faqat saqlangan soʻrovlar qabul qilinadi: saqlangan soʻrovning id sini yuboring.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>Saqlangan soʻrov xeshi SHA-256 emas.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>Saqlangan soʻrov xeshi soʻrovga mos kelmaydi.</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>Murojaatlar juda koʻp: %window soniyada koʻpi bilan %limit. %reset soniyadan keyin qayta urinib koʻring.</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>Soʻrov %depth daraja chuqur; koʻpi bilan %max ga ruxsat beriladi.</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>Soʻrovning murakkabligi %complexity; koʻpi bilan %max ga ruxsat beriladi.</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>Bu murojaat sxemani oʻqiy olmaydi (introspection).</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search uchun matn yoki filtr kerak (classes, subtree, sections, publishedAfter, publishedBefore).</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument sana emas (ISO 8601, 2026-10-30).</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag uchun id, remoteId va path dan aynan bittasi kerak.</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout uchun id, identifier va urlAlias dan aynan bittasi kerak.</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>Koʻp qismli murojaatning operations maydoni bitta JSON soʻrovi emas.</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>Koʻp qismli murojaatning map maydoni JSON obyekti emas.</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>Koʻp qismli murojaatda %field fayli yoʻq.</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>map maydonidagi yoʻl variables. bilan boshlanishi kerak: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>%name fayli toʻliq kelmadi (yuklash xatosi %error).</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>%name fayli %max baytdan katta.</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>%name faylini tekshirib boʻlmadi.</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>Mutatsiyalar ushbu sayt kirish nuqtasida oʻchirilgan (graphql.ini [GraphQLSettings] MutationsEnabled).</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>Mutatsiyani POST bilan yuboring.</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>Kontentni oʻzgartirish uchun tizimga kiring.</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>API kalitida %scope qamrovi yoʻq.</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>Seans bilan yuborilgan mutatsiyaga seansning shakl tokeni kerak (X-CSRF-Token sarlavhasi).</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>uploadFromUrl oʻchirilgan: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] hech qanday xostni koʻrsatmaydi.</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>Manzil https manzili boʻlishi kerak.</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>%host xosti graphql.ini [GraphQLSettings] UploadFromUrlHostList[] roʻyxatida yoʻq.</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>Faylni olib boʻlmadi.</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload faqat kiritish turi.</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>Upload turidagi oʻzgaruvchi koʻp qismli murojaatning faylini qabul qiladi.</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>%remoteId masofaviy identifikatori band.</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>Kontentda %language tilidagi tarjima allaqachon bor: updateContent dan foydalaning.</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>Kamida bitta maydon bering.</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>Yangi versiya yaratib boʻlmadi (kontentda qoralamalar juda koʻp).</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>%version versiyasi qoralama emas.</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent uchun id va nodeId dan aynan bittasi kerak.</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>Joylashuvni oʻzining ostiga koʻchirib boʻlmaydi.</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>Kontentning %parentId ostida allaqachon joylashuvi bor.</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>%field maydonining qiymatini saqlab boʻlmadi.</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>%language kontent tili yoʻq.</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>Sxemada %class kontent sinfi yoʻq.</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>Kontent mavjud emas yoki uni oʻqishga ruxsatingiz yoʻq.</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>Bu kontent bilan buni qilishga ruxsatingiz yoʻq.</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>%class sinfida yozish mumkin boʻlgan %field maydoni yoʻq.</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>%field maydoni ikki marta berilgan.</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>%field maydoni fayl qabul qiladi: uni upload sifatida yuboring (koʻp qismli murojaat).</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>%field maydoni fayl qabul qilmaydi.</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>%field maydoniga qiymat kerak.</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>%format formati faqat formatlangan matn maydonlari uchun; %field qiymatni boricha qabul qiladi (RAW).</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>%field maydoni majburiy.</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>HTML ni oʻqib boʻlmadi.</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content version ni faqat id bilan qabul qiladi.</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>Oldindan koʻrish tokeni yaroqsiz yoki muddati tugagan.</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>Manba (origin) emas (https://host yoki https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>GraphQL API qamrovi emas: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>Obunalarni /api/graphql/subscribe manziliga yuboring (hodisalar oqimi yoki WebSocket).</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>Soʻrov hujjatning hech bir amalini nomlamaydi.</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>Obuna aynan bitta maydonni soʻraydi.</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>Juda koʻp obuna ochiq; keyinroq qayta urinib koʻring.</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>Sizda %max ta ochiq obuna bor, bu ruxsat etilgan eng koʻp son.</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>Manzilingizda %max ta ochiq obuna bor, bu ruxsat etilgan eng koʻp son.</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>Obunalar ushbu sayt kirish nuqtasida oʻchirilgan.</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>Obuna boʻlish uchun tizimga kiring (token yoki shaxsiy API kaliti).</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>Mutatsiyalarni /api/graphql manziliga yuboring.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>Migratsiyalar</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Holatni o‘qib bo‘lmadi: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Migratsiyalar jadvallari hali mavjud emas: ./console exp:upgrade --apply ularni yaratadi.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>%count ta migratsiya muvaffaqiyatsiz tugadi</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>Ishga tushirish davom etmoqda, uni %user boshlagan</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>O‘rnatma qulflangan: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Kutilmoqda</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Muvaffaqiyatsiz</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>Egasizlar</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Oxirgi ishga tushirish</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>hali yo‘q</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>Barcha migratsiyalar</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>Taqlidiy ishga tushirish</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>Sinov ishga tushirishi</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>Kutilayotgan migratsiyalar keyin orqaga qaytarilgan tranzaksiyada bajarildi: hech narsa saqlanmadi. Quyida har biri maʼlumotlar bazasida nimani o‘zgartirgani ko‘rsatilgan.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>Ishga tushirish hozir nima qilishi. Hech narsa o‘zgarmaydi: har bir kutilayotgan migratsiya kiritadigan o‘zgarishlarini, ishga tushirish esa oldin va keyin nima qilishini sanab beradi.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>Taqlid qilish</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Bajarish</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>Sinov ishga tushirishi muvaffaqiyatsiz tugadi: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>Taqlid uchun sxema o‘zgarishlarini orqaga qaytarish mumkin bo‘lgan PostgreSQL yoki SQLite kerak; bu maʼlumotlar bazasida quyidagi reja ishga tushirish nima qilishini ko‘rsatadi.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>Migratsiyalar</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>Migratsiya</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Holat</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>U nima qilardi</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>Taqlid: %result, %ms ms ichida</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>Hali migratsiya yo‘q.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>Ishga tushirishdan oldin va keyin</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>Oldingi tiklash nuqtasi</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>yaratiladi va migratsiya muvaffaqiyatsiz bo‘lsa tiklanadi</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>o‘chiq</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>Keyingi tiklash nuqtasi</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>ishga tushirish muvaffaqiyatli bo‘lsa yaratiladi</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>%total ta migratsiya: %pending ta kutilmoqda, %done ta bajarildi, %failed ta muvaffaqiyatsiz.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>Migratsiyalar tarixi</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>Har bir ishga tushirish foydalanuvchisi, muhiti, tiklash nuqtalari hamda nima kommit qilingani, teg qo‘yilgani va yuborilgani (push) bilan. Muvaffaqiyatsiz yoki uzilgan ishga tushirishni davom ettirish mumkin; oldidan tiklash nuqtasi yaratilgan ishga tushirishni bekor qilish mumkin.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>Ishga tushirishlarni o‘qib bo‘lmadi: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Migratsiyalar jadvallari hali mavjud emas: ./console exp:upgrade --apply ularni yaratadi.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Ko‘rsatish</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Hammasi</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>Ishga tushirishlar</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Boshlangan</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Kim tomonidan</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>Tiklash nuqtalari</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Repozitoriy</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Amallar</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>oldin</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>keyin</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>yuborish (push): %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>Davom ettirish</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Orqaga qaytarish</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>Bu holatda ishga tushirish yo‘q.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>Shu yerda boshlangan</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>Shu sahifalarda boshlangan ishga tushirishlar, davom ettirishlar va orqaga qaytarishlar, har birining hisoboti bilan.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Nima</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Natija</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Orqaga qaytarish</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>%target ni orqaga qaytarish</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>Ishga tushirish %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Ishga tushirish nima qilgani, uning yozuvi va jurnali. Shu yerda boshlangan ishga tushirish sahifa yopilganda fonda davom etadi; uni kuzatish uchun sahifani qayta oching.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>Bu ishga tushirishni davom ettirish</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>Bu ishga tushirishni orqaga qaytarish</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>Yozuvni o‘qib bo‘lmadi: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Jarayon</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>%user tomonidan %time da boshlangan.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>Kod tekshirilmoqda va ishga tushirishdan oldin tiklash nuqtasi yaratilmoqda</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>%id bajarilmoqda (%total dan %index)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>%total dan %done tasi bajarildi</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>Migratsiyalar bajarildi; biri muvaffaqiyatsiz bo‘lsa tiklash nuqtasi tiklanmoqda</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>Ishga tushirishdan keyin tiklash nuqtasi, kommit, teg va yuborish (push)</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>Tiklash nuqtasi tiklanmoqda</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>Ishga tushirish tugadi. Hisobot yuklanmoqda.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>Jarayonni kuzatib bo‘lmadi. Ishga tushirish qanday ketayotganini ko‘rish uchun sahifani qayta yuklang.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>Bu sahifa ishga tushirishni u davom etayotganda kuzatadi.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Qayta yuklash</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Hisobot</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Davomiylik</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms millisoniya</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>Ishga tushirish xato sifatida nima chiqardi</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Yozuv</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>Muhit</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>yo‘q</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Tugagan</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Kommit</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Teg</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Yuborish (push)</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Xabar</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>Bu ishga tushirishning migratsiyalari</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>Manba</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>Ishga tushirish jurnali</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>Faqat jurnalning oxiri ko‘rsatilgan.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>bajarilmoqda</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>hisobotsiz tugadi</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>muvaffaqiyatli</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>muvaffaqiyatsiz</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>rad etildi</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>maʼlumotlar bazasiga ulanib bo‘lmadi</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>ichki xato</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>Ishga tushirish davom etmoqda</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind %user tomonidan %time da boshlangan.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>Kuzatish</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>O‘rnatma qulflangan</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>Boshqa ishga tushirish qulfni ushlab turibdi (yangilash yoki konsoldagi ishga tushirish): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>bajarildi</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>kutilmoqda</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>kerak emas</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>nomaʼlum</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>orqaga qaytarildi</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>qo‘llanildi</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>qo‘llanilardi</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>bekor qilindi</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>bekor qilinardi</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>bajarilmagan</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>boshqasini kutmoqda</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>o‘zgarish qabul qilindi</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>o‘zgarish qabul qilinardi</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>taqlid qilindi</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migratsiyalar</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Holat</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Tarix</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>%target ni bekor qilish</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>Ishga tushirish undan oldin yaratilgan tiklash nuqtasigacha, bitta migratsiya esa o‘zining down() metodi bilan bekor qilinadi. Oldingi tiklash nuqtasini tiklash mutaxassislar uchun. Har biri joriy holatning tiklash nuqtasi yaratilgach, sizning nomingizdan fonda bajariladi.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>Nimani bekor qilish mumkinligini o‘qib bo‘lmadi: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>Ishga tushirish</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>Bitta migratsiya</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>Oldingi tiklash nuqtasi</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>Tavsif</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ha</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>yo‘q</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Tiklash nuqtasi</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Yorliq</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>Yaratilgan</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Turi</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>Tiklanadigan qismlar</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>Maʼlumotlar bazasi</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>Saqlash fayllari (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>Sozlamalar (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>Maʼlumotlar bazasini tiklash uni seanslar bilan birga tiklash nuqtasi vaqtiga qaytaradi: keyin qayta kirishingiz so‘ralishi mumkin. O‘shandan beri o‘zgargan hamma narsa yo‘qoladi; avval joriy holatning tiklash nuqtasi yaratiladi.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>Bu nimani tiklashini bilaman</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>Tiklash nuqtasi identifikatorini qayta kiriting</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>Ha, bekor qilish</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Bekor qilish</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>Oldidan tiklash nuqtasi yaratilgan ishga tushirishlar.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>Tanlash</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>Hali tiklash nuqtali ishga tushirish yo‘q.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>O‘zini bekor qila oladigan qo‘llanilgan migratsiyalar (ularda down() bor).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>Hech bir qo‘llanilgan migratsiyada down() yo‘q.</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>Oldingi tiklash nuqtalari (mutaxassislar uchun)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>Hali tiklash nuqtasi yo‘q.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>Migratsiyalarni bajarish</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>Ishga tushirish fonda %user nomidan bajariladi va uning sahifasi jarayonni ko‘rsatib boradi. Birinchi migratsiyadan oldin o‘rnatmaning tiklash nuqtasi yaratiladi; migratsiya muvaffaqiyatsiz bo‘lsa, ishga tushirish to‘xtaydi va tiklash nuqtasi tiklanadi.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>Avval sinov ishga tushirishi</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Holatni o‘qib bo‘lmadi: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>Kutilayotgan migratsiyalar</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>Ular shu tartibda bajariladi. Birini va unga bog‘liq bo‘lganlarini keyingi ishga tushirishga qoldirish uchun belgisini olib tashlang.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>Bajarish</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>Bajarilish vaqtida texnik xizmat rejimini yoqadi.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>Qo‘llanilgandan keyin o‘zgargan</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>Bu fayllar qo‘llanilganlari emas. O‘zgarish sabab bilan qabul qilinmasa, ishga tushirish ularni rad etadi; ular qayta bajarilmaydi, yangi nazorat yig‘indisi yoziladi va sabab audit jurnalida saqlanadi.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>O‘zgarishlarni qabul qilish</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Nega</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>Standart qiymatlar xavfsiz. Har bir katakcha bitta qadamni tashlab ketadi.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>Tiklash nuqtasisiz</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>Ishga tushirishdan oldin va keyin tiklash nuqtasi yo‘q: nosozlikni avtomatik tiklab bo‘lmaydi.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>Tiklashsiz</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>Nosozlikdan keyin o‘rnatmani nosozlik qoldirgan holatda qoldirish.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>Kommit qilinmagan o‘zgarishlarni saqlash</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>Sozlamalar, kengaytmalar yoki dizaynlarda kommit qilinmagan o‘zgarishlar bo‘lsa ham bajarish; ular tiklash nuqtasiga kiradi.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>Kommitsiz</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>Holat fayli va ishga tushirish jurnalini kommit qilmaslik (teg ham, push ham yo‘q).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>Yuborishsiz (push)</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>Kommit qilish va teg qo‘yish, lekin yubormaslik (push).</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>Tegsiz</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>Kommit qilish va yuborish (push), lekin ishga tushirishga teg qo‘ymaslik.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>Ha, bu migratsiyalarni hozir bajarish</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Kutilayotgan migratsiya yo‘q.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>Holatga qaytish</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>Bu o‘rnatmaga kiritilgan, bir marta fayl sifatida yozilgan (kontent, klasslar, rollar, sozlamalar, sxema) va saytning har bir o‘rnatmasiga bir xil tartibda qo‘llaniladigan o‘zgarishlar. Ishga tushirish avval tiklash nuqtasini yaratadi, migratsiya muvaffaqiyatsiz bo‘lsa uni tiklaydi va qilgan ishini yozib, kommit qiladi va yuboradi (push).</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>%count ta kutilayotganni bajarish</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Umumiy ko‘rinish</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Kutilmoqda</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Bajarilgan</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Muvaffaqiyatsiz</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>Kerak emas</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>Maʼlumotlar bazasi</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>tranzaksiyalar: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>Sayt migratsiyalari migrations/ da, kengaytmaniki esa extension/&lt;name&gt;/migrations/ da joylashgan. Ular nomlari va bog‘liqliklari tartibida bajariladi.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Oxirgi ishga tushirish</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>Fayl qo‘llanilgandan keyin o‘zgargan.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>Hali migratsiya yo‘q. ./console exp:migration:generate --skeleton &lt;name&gt; --apply birinchisini yozadi.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>So‘nggi ishga tushirishlar</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>Barcha ishga tushirishlar</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>Hali ishga tushirish yo‘q.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>Ishga tushirishni taqlid qilish uchun migration/run siyosati kerak.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>Ishga tushirish davom etmoqda: u tugagach taqlid qiling.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Sozlash</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target bu o‘rnatmaning ishga tushirishi ham, migratsiyasi ham, tiklash nuqtasi ham emas.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>Avval «Ha, bekor qilish» ni belgilang.</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>Oldingi tiklash nuqtasini tiklash mutaxassislar uchun: «Bu nimani tiklashini bilaman» ni belgilang.</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>Tiklash nuqtasi identifikatorini qayta kiriting: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>Tiklash uchun kamida bitta qismni tanlang.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>Bu ishga tushirishdan oldin tiklash nuqtasi yaratilmagan: uning migratsiyalarini birma-bir bekor qiling yoki oldingi tiklash nuqtasini tiklang.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>Bu migratsiyani o‘zicha bekor qilib bo‘lmaydi: u qo‘llanilmagan yoki unda down() yo‘q.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Shaklni o‘qib bo‘lmadi.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>Davom ettiriladigan ishga tushirishni tanlang.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>Avval «Ha, bu migratsiyalarni hozir bajarish» ni belgilang.</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>Kamida bitta migratsiyani tanlang.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>Migratsiya qo‘llanilgandan keyin o‘zgargan: o‘zgarishni sabab bilan qabul qiling yoki faylni qaytaring.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>O‘zgargan migratsiyalar nega qabul qilinayotganini ko‘rsating.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>Sabab ko‘pi bilan 500 belgidan iborat bo‘lishi mumkin.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>Shu yerda boshlangan ishga tushirish hali davom etmoqda (%detail). Uning tugashini kuting.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>Boshqa ishga tushirish o‘rnatma qulfini ushlab turibdi: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>Ishga tushirish uchun mavjud va tizimga kirgan foydalanuvchi kerak.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>php buyruq satri dasturi topilmadi. migration.ini [AdminSettings] PhpCliPath da uning to‘liq yo‘lini ko‘rsating.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open o‘chirilgan, shuning uchun bu yerda ishga tushirishni boshlab bo‘lmaydi. Serverda ./console exp:migration:migrate --apply ni bajaring.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>Ishga tushirishlar jildiga yozib bo‘lmaydi: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>Ishga tushirish boshlandi, lekin jarayon identifikatorini bildirmadi. %detail ni tekshiring.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>Nimani bekor qilish kerakligini ko‘rsating.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>Ishga tushirishni boshlab bo‘lmadi.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>Oʻzgarishlarni yozib olish</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>Yozib olish davom etar ekan, boshqaruvda yoki saytning yon panelida oʻzgartirganlaringiz migratsiya qadamlari sifatida saqlanadi: kontent, sinflar, rollar va siyosatlar, boʻlimlar, foydalanuvchilar va guruhlar, URL taxalluslari, sozlamalar. Tugatgach, uni toʻxtating, nimani ushlaganini koʻring va undan migratsiya yarating.</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>Yozuvlarni oʻqib boʻlmadi: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>Yozuvlar jadvallari hali mavjud emas: avval yangilashni ishga tushiring (exp:upgrade --apply).</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>Yozib olish migration.ini da oʻchirilgan ([RecordingSettings] Recording=disabled).</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>Mening oʻzgarishlarim</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>Siz toʻxtatmaguningizcha faqat siz oʻzgartirgan narsani, qayerda oʻzgartirsangiz ham, yozib oladi.</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>Yozuv</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>%time dan beri, hozirgacha %count oʻzgarish.</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>Yorliq (ixtiyoriy)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>Nimani ushlaganini koʻrsatish</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Yozib olishni toʻxtatish</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>Oʻzgarishlarimni yozib olishni boshlash</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>Butun sayt oynasi</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>Yopilguncha har bir foydalanuvchi va konsolning har bir oʻzgarishini yozib oladi. Ochishda bu siz ekaningizni tasdiqlash soʻraladi.</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Ochiq</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>Oynani yopish</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>Butun sayt oynasini ochish</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>Yozuvlar</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>Foydalanuvchi hisobi (login, e-pochta, parol) va foydalanuvchi hisoblari maydonlari hech qachon yozib olinmaydi.</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Oʻzgarishlar</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>Butun sayt</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>%name oʻzgarishlari</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Toʻxtatilgan</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>Hali yozuv yoʻq.</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>Yozuv %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>Barcha yozuvlar</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>Undan chiqadigan migratsiya</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>Har bir oʻzgargan narsa uchun bitta qadamga birlashtirilgan oʻzgarishlar: bu yozuvdan yaratilgan migratsiya nima qilishi.</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>Bu oʻrnatishda YAML qadam turlari %types boʻlganda undan migratsiya yaratish mumkin.</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>Ataylab chiqarib tashlangan: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>Hech narsa yozib olinmadi.</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>Nimani ushlagani</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>%count oʻzgarish, bajarilgan tartibida.</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Oʻzgarish</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>Qadam</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>Tegishli</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>Yana %count: ./console exp:migration:record:show hammasini roʻyxatlaydi.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Voz kechish</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>Yozuvni va u ushlagan narsalarni oʻchiradi. Oʻzgargan narsa oʻzgargancha qoladi.</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>Ha, bu yozuvdan voz kechish</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>Yozib olinmoqda…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Oʻzgarishlaringiz migratsiya uchun yozib olinmoqda.</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>Bu saytdagi har bir oʻzgarish migratsiya uchun yozib olinmoqda (butun sayt oynasi).</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>Butun sayt yozuvi boshlandi: siz toʻxtatmaguningizcha har bir foydalanuvchining har bir oʻzgarishi yozib olinadi.</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>Yozib olish boshlandi: siz toʻxtatmaguningizcha oʻzgarishlaringiz yozib olinadi.</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>Yozib olish toʻxtatildi. U ushlagan narsa siz voz kechmaguningizcha qoladi.</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>Yozuv va uning hodisalari oʻchirildi.</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>%id yozuvi yoʻq.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>Avval «Ha, bu yozuvdan voz kechish» ni belgilang.</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>Seans yozuvini faqat yozib olgan foydalanuvchi toʻxtata oladi.</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>Toʻxtatiladigan yozuvni tanlang.</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>Bu turdagi yozuv allaqachon davom etmoqda.</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>Yozuvni oʻzgartirib boʻlmadi: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>Migratsiya yaratish</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>Migratsiya nomi (ixtiyoriy)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>%file migratsiyasi yozildi. Hech bir qadam qila olmaydigan o'zgarishlar faylning boshida ko'rsatilgan, ularni qo'lda qilish kerak.</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>Hech qanday migratsiya yozilmadi: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>Qismlarga bo'lingan uzoq ishga tushirish</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>Bo'sh maydonlar migration.ini [RunSettings] sozlamalarini saqlaydi.</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>Ko'pi bilan shuncha migratsiya</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>Bundan keyin migratsiya yo'q (soniya)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>Migratsiyalar orasidagi pauza (soniya)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>Pastroq ustuvorlik (1 dan 19 gacha)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>Uzoq ishga tushirish maydoni 1 dan boshlanadigan butun son (pauza: 0 dan 60 soniyagacha, ustuvorlik: 1 dan 19 gacha) yoki bo'sh.</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>U %time da o'zi yopiladi.</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>Shundan keyin o'zi yopilsin (daqiqa, ixtiyoriy)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>Daqiqalar 1 dan 44640 gacha (31 kun) butun son yoki bo'sh.</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>Migratsiya %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>Yangi migratsiya</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>YAML migratsiyasi: uni matn sifatida yozing yoki qadamlarini shaklda tuzing, tekshiring, so‘ng migratsiyalar jildiga saqlang.</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>Bu migratsiya allaqachon bajarilgan, shuning uchun qayta saqlanmaydi: o‘zgartirilgan faylni nazorat yig‘indisi himoyasi rad etadi. O‘zgarishni yangi migratsiyada kiriting.</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>Veb-server faylni yoza olmaydi.</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>Boshidagi izoh satrlari sarlavhadir (description, author, requires, environments, engines). Shaklda qadam qo‘shilganda yoki o‘zgartirilganda migratsiya qaytadan yoziladi: qadamlar orasidagi izohlar saqlanmaydi.</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>Migratsiya nomi</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>Qayerga joylashadi</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>Sayt</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>YAML matni</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>Tekshirish</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Saqlash</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Qadamlar</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>Kalitlar</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Tahrirlash</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>Yuqoriga koʻchirish</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>Pastga koʻchirish</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Olib tashlash</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>Hali qadamlar yo‘q: shakl orqali bittasini qo‘shing yoki ularni matnga yozing.</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>%number-qadamni o‘zgartirish</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>Qadam qo‘shish</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>Qadam shakli uning qadam turidan tuziladi: uning kalitlari, har biri nimani qabul qilishi va u tegishli bo‘lgan rejimlar.</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>Qadam turi</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>Uning shaklini ko‘rsatish</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>Qadamda uning turi bilmaydigan kalitlar bor; qadam o‘zgartirilganda ular tashlab yuboriladi: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>Rejim</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>Ichida</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>faqat %modes rejimlarida</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>Standart: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>Shartlar, havolalar va izoh</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>Vergul bilan ajratilgan nom=qiymat juftliklari. Ushbu qadam qiymatlari: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>Namuna</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>Qadamni o‘zgartirish</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>Qadamni qo‘shish</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>exp:migration:check nima deydi: sarlavha, hujjat va o‘z qadam turi bo‘yicha tekshirilgan har bir qadam.</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>Migratsiya tekshiruvdan o‘tadi.</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Oldindan koʻrish</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>Saqlanadigan ko‘rinishdagi YAML.</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>YAMLni ko‘rsatish</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>YAML migratsiyalari</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>bajarilgan</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>Hali YAML migratsiyalari yo‘q.</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>Muharrir</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>Migratsiya jildlarida %id YAML migratsiyasi yo‘q.</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>Qadam turini tanlang.</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>Qadam qo‘shildi. Saqlashdan oldin migratsiyani tekshiring.</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>Qadam o‘zgartirildi. Saqlashdan oldin migratsiyani tekshiring.</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>Qadamni tanlang.</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>Bu qadamning shakli yo‘q (sikl yoki ushbu o‘rnatmada mavjud bo‘lmagan qadam turi): uni matnda o‘zgartiring.</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>Migratsiya qayerga joylashishini tanlang: saytga yoki faol kengaytmaga.</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>%file saqlandi. Migratsiya bajarilishidan oldin sinov ishga tushirishini bajaring.</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>Saqlanmadi: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>Masofaviy tizimlar</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>Bu oʻrnatma oʻz migratsiyalarini joylashtiradigan boshqa oʻrnatmalar: joylashtirish migratsiyalarni tanlangan masofaviy tizimlarga yuboradi va ularni u yerda bajaradi, hammasida bir vaqtda va sinxron. Masofaviy tizim hech qachon maxfiy qiymat saqlamaydi: uning kirish maʼlumotlari Sozlash &gt; Maxfiy qiymatlar boʻlimidagi bittasini nomlaydi.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>Yangi masofaviy tizim</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Yordam</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>%id ulanish sinovi</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>Masofaviy tizimlar roʻyxati</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>Bir vaqtda %parallel tagacha masofaviy tizim bilan ishlanadi; har birida bitta faza %timeout soniya davom etishi mumkin.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>Masofaviy tizim</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Manzil</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Kirish ma’lumotlari</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>Guruhlar</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>tuzatiladigan sozlamalar</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>faqat fayllar (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>SSH kaliti</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>Parol</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>yoʻq (xostning SSH agenti va kalitlari)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>Ulanishni sinash</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>Guruhga joylashtirish uning har bir masofaviy tizimiga boradi.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>Masofaviy tizimlarga joylashtirish</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>Hali birorta masofaviy tizim sozlanmagan.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>Masofaviy tizim %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>Bu yerda hech narsa yuborilmaydi va bajarilmaydi: «Saqlash» sozlamalarni settings/override/migration.ini.append.php ga yozadi. Kirish maʼlumotlari – bu nom; uning qiymati Sozlash &gt; Maxfiy qiymatlar boʻlimida yoki muhitda qoladi.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Ushbu sozlamalarni tekshiring</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>Kiritilgan sozlamalar, hali saqlanmagan.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Koʻrib chiqish</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Sozlamalar to‘g‘ri. Quyidagi qatorlar yoziladi:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>Transport</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>faqat nom; qiymat Sozlash &gt; Maxfiy qiymatlar bo‘limida qoladi</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Yoziladigan qatorlar</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>Ulanish</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>Xost kaliti</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. Masofaviy tizim</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>Masofaviy tizim qanday nomlanishi va qaysi muhit ekani.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>Harflar, raqamlar, - va _, masalan production1. U masofaviy tizimni hisobotlarda va konsolda (--remotes=production1) nomlaydi va keyin oʻzgartirib boʻlmaydi.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... Bosqichma-bosqich joylashtirish muhitlardan shu tartibda oʻtadi.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>Ixtiyoriy, vergul bilan ajratilgan, masalan production. Guruhga joylashtirish uning har bir masofaviy tizimiga boradi.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. Ulanish</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>Fayllar u yerga qanday yetib boradi va oʻrnatma qayerda joylashgan.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>SSH orqali, faqat oʻzgargan narsa, uzilgan uzatish davom ettiriladi. rsync oʻrnatilgan joyda eng yaxshi tanlov.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>Fayllar uchun scp bilan SSH.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>Fayllar uchun sftp bilan SSH.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>Faqat fayllar: migratsiyalar yuboriladi va qayta oʻqiladi, lekin u yerda bajarilmaydi.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>TLS orqali FTP; faqat fayllar.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>Shu serverdagi boshqa oʻrnatma, jildda.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Xost</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>Xost nomi yoki manzili, masalan node1.example.com. local uchun emas.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>Port</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>Boʻsh: SSH uchun 22, FTP uchun 21.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Foydalanuvchi</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>Yoʻl</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>U yerdagi oʻrnatmaning ildiz katalogi, masalan /var/www/site (FTP uchun: FTP hisobi koʻradigan yoʻl).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>PHP buyruq satri</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>U yerdagi PHP CLI: php yoki /opt/plesk/php/8.4/bin/php kabi toʻliq yoʻl.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>Konsol skriptlari u yerda root sifatida ishlaydi</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>Faqat masofaviy tizim foydalanuvchisi root boʻlsa (ular shunda --allow-root-user bilan bajariladi).</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. Kirish maʼlumotlari</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>Bu oʻrnatma u yerga qanday kiradi. Faqat nom saqlanadi.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Yoʻq</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>Bu oʻrnatma qaysi foydalanuvchi nomidan ishlasa, oʻsha foydalanuvchining SSH agenti va kalitlari (local uchun esa doimo).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>Maxfiy qiymat sifatida saqlangan shaxsiy kalit.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>Maxfiy qiymat sifatida saqlangan parol (FTP u bilan kiradi).</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>Maxfiy qiymat nomi</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>Sozlash &gt; Maxfiy qiymatlar boʻlimidagi maxfiy qiymat, masalan deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Sozlash &gt; Maxfiy qiymatlar</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>Yoki muhit oʻzgaruvchisi</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>Uni saqlaydigan server jarayonining oʻzgaruvchisi, masalan DEPLOY_KEY (env:DEPLOY_KEY sifatida saqlanadi). U maxfiy qiymat nomi oʻrnini egallaydi.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. Xost kaliti</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>Ixtiyoriy, SSH, sftp va rsync uchun.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>Xost kalitining barmoq izi</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... ssh-keygen -l chiqarganidek. U koʻrsatilsa, xost aynan shu kalitni koʻrsatishi kerak; koʻrsatilmasa, kalit birinchi aloqada oʻrganiladi.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. Koʻrib chiqish</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>Yuqoridagi sozlamalar bilan ulanishni sinang, soʻng yoziladigan satrlarni koʻrib chiqing.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>Bu masofaviy tizimni olib tashlash</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>Uning sozlamalari settings/override/migration.ini.append.php dan olib tashlanadi. Masofaviy tizimda hech narsa oʻzgarmaydi, uning joylashtirishlari tarixda qoladi.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>Ha, bu masofaviy tizimni olib tashlash</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>Joylashtirishlar</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>Joylashtirish ushbu oʻrnatmaning migratsiyalarini tanlangan masofaviy tizimlarga yuboradi va ularni u yerda %user sifatida bajaradi, hammasida bir vaqtda va sinxron: avval har bir masofaviy tizim tekshiriladi, biri muvaffaqiyatsiz boʻlsa, ularni qoʻllagan har bir masofaviy tizim orqaga qaytariladi. Joylashtirish fonda davom etadi, uning sahifasi esa jarayon davomida har bir masofaviy tizimni koʻrsatib boradi.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. Masofaviy tizimlar</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>Masofaviy tizimlarni, guruhni yoki ikkalasini belgilang.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>Unga joylashtirish</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. Qanday</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>Joylashtirish</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>Yuborish va bajarish</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>Migratsiyalar har bir masofaviy tizimga yuboriladi, tekshiriladi va bitta umumiy ishga tushirish ID si bilan bajariladi.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>Faqat uzatish</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>Fayllar yuboriladi va tekshiriladi, hech narsa bajarilmaydi (FTP masofaviy tizimi uchun yagona yoʻl).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>Bosqichma-bosqich</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>Muhitlar tartibida bosqichma-bosqich (dev, stage, beta, production ...): birinchi bosqich joylashtiriladi, soʻng tasdiq nuqtasi kimdir keyingisini tasdiqlaguncha kutadi. Har bir bosqich ichida hammasi yoki hech narsa.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>Faqat shu migratsiyalar</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>Ixtiyoriy: vergul bilan ajratilgan migratsiya ID lari. Boʻsh: sayt va uning kengaytmalarining barcha migratsiyalari.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>Faqat dastlabki tekshiruv</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>Ha, hozir joylashtirish</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>Biror narsa yuborgan yoki bajargan joylashtirishlar, eng yangisi birinchi (dastlabki tekshiruv hisobot saqlamaydi).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>faqat uzatish</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>bosqichma-bosqich, %stages bosqich</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>sinxron emas</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>Hali joylashtirish yoʻq.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>Joylashtirish %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Joylashtirishning har bir masofaviy tizimi va uning holati. Shu yerda boshlangan joylashtirish bu sahifa yopilganda fonda davom etadi; uni kuzatish uchun sahifani qayta oching.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>Barcha joylashtirishlar</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>Dastlabki tekshiruv</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>Keyingi bosqich</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>Sozlamalar va kirish maʼlumotlari tekshirilmoqda</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>Dastlabki tekshiruv: har bir masofaviy tizimning holati oʻqilmoqda</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>Migratsiya fayllari yuborilmoqda</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>Yetib kelgan narsa tekshirilmoqda</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>Migratsiyalar har bir masofaviy tizimda bajarilmoqda</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>Masofaviy tizimlar orqaga qaytarilmoqda</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>Joylashtirish tugadi. Uning hisoboti yuklanmoqda.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>Jarayonni kuzatib boʻlmadi. Joylashtirish qanday ketayotganini koʻrish uchun sahifani qayta yuklang.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>Faza</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>Bu sahifa joylashtirishni jarayon davomida kuzatib boradi.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>Sinxron</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>Bosqichlar</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>%stage-bosqich oʻz tasdiq nuqtasida kutmoqda</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>Tasdiq nuqtasi %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>%user tomonidan %time da tasdiqlangan</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>Bosqich</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>Yuborilgan fayllar</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>Yadro versiyasi</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>qoʻllanildi: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>qoʻllanadigan: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>Fazalar</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>Tasdiq nuqtasi: %stages tadan %stage-bosqich</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>Undan oldingi bosqichlar joylashtirilgan. Ularni tekshiring, soʻng keyingi bosqichni tasdiqlang: uning masofaviy tizimlari qayta tekshiriladi va joylashtiriladi, hammasi yoki hech narsa.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Keyingi</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>Ha, keyingi bosqichni hozir joylashtirish</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Tasdiqlash</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>Bu joylashtirishni orqaga qaytarish</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>Uni qoʻllagan har bir masofaviy tizim (%list) oʻz ishga tushirishidan oldin yaratilgan tiklash nuqtasiga qaytadi, hammasi bir vaqtda.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>Ha, bu joylashtirishni hozir orqaga qaytarish</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>rejalashtirilgan</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>uzatildi</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>joylashtirildi</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>tasdiq nuqtasida kutmoqda</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>tanlangan</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>tayyorlangan</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>tayyor</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>oʻz bosqichini kutmoqda</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>fayllar yuborildi</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>tekshirildi</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>muvaffaqiyatsiz, oʻzini tikladi</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>oʻzgarmagan</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>joylashtirilmagan</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>ulanib boʻlmaydi</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>Masofaviy tizim javob berdi.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>Masofaviy tizimdan hozir foydalanib boʻlmaydi.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done bajarildi, %pending kutilmoqda, %failed muvaffaqiyatsiz</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>Qulf</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>u yerda qulfni bir ishga tushirish ushlab turibdi</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>boʻsh</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stages tadan %stage</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>Sinanadigan masofaviy tizimni tanlang.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>Avval «Ha, bu masofaviy tizimni olib tashlash» belgisini qoʻying.</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>Masofaviy tizimni olib tashlab boʻlmadi: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>Masofaviy tizimni saqlab boʻlmadi: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Sozlamalar faylini o‘qib bo‘lmaydi: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>Kamida bitta masofaviy tizim yoki guruhni tanlang.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>Tanlangan masofaviy tizim endi sozlamalarda yoʻq. Sahifani qayta yuklang.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>Avval «Ha, hozir joylashtirish» belgisini qoʻying.</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>FTP masofaviy tizimi migratsiyalarni bajara olmaydi: «Faqat uzatish»ni tanlang yoki uni chiqarib tashlang.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>Joylashtiriladigan migratsiyalar – vergul bilan ajratilgan migratsiya ID lari.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>Joylashtirish hali davom etmoqda. U tugashini kuting.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>Bu joylashtirish tasdiq nuqtasida kutmaydi.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>Hech bir masofaviy tizim bu joylashtirishni qoʻllamagan: orqaga qaytariladigan narsa yoʻq.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>Avval «Ha, keyingi bosqichni hozir joylashtirish» belgisini qoʻying.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>Avval «Ha, bu joylashtirishni hozir orqaga qaytarish» belgisini qoʻying.</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>%id identifikatorli masofaviy tizim allaqachon mavjud.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>Port – 1 dan 65535 gacha boʻlgan son.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>Muhit – harflar, raqamlar, - va _ dan iborat soʻz (alpha, dev, stage, beta, production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>Guruh – harflar, raqamlar, - va _ dan iborat soʻz (all emas): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>Kirish maʼlumotlarini hozir oʻqib boʻlmaydi: %problem. Birinchi joylashtirishdan oldin ularni Sozlash &gt; Maxfiy qiymatlar boʻlimiga saqlang (yoki oʻzgaruvchini oʻrnating).</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>FTP masofaviy tizimi faqat fayllarni qabul qiladi: unga joylashtirish «Faqat uzatish» boʻladi, uning migratsiyalari esa u yerda qoʻlda bajariladi.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>%id masofaviy tizimi settings/override/migration.ini.append.php da yoʻq; uni qayerda sozlangan boʻlsa, oʻsha yerda olib tashlang.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>FTP orqali kirildi va index.php oʻqildi. FTP masofaviy tizimining migratsiya holatini oʻqib boʻlmaydi.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>Oʻzgartirilgan</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>Yaratilgan</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Nom</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Sinf</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Boʻlim</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>Yaratuvchi</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Yangi kontent</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>Butun saytning eng soʻnggi yaratilgan va oʻzgartirilgan kontenti, eng yangisi birinchi: tashrif buyuruvchilar yuborganlari, tekshiruv uchun ushlab turilganlari, nashr qilinishini kutayotgan qoralamalar. Elementlarni qoʻyib yuborish, ushlab turish, yashirish, koʻrsatish, olib tashlash yoki boshqa boʻlim yoki holatga koʻchirish uchun ularni tanlang.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>Roʻyxatni oʻqib boʻlmadi: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>Tekshiruv uchun ushlab turish hali sozlanmagan, shuning uchun hech narsa ushlab turilmaydi va ushlab turish amallari taklif qilinmaydi. Uni 6.0.15-review-hold yangilash bosqichi sozlaydi: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Roʻyxatni filtrlash</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Dan</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Gacha</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Sana</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>Yaratilgan (birinchi nashr)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Hammasi</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Nashr maqomi</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Nashr qilingan</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>Qoralama, hech qachon nashr qilinmagan</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>Kutilmoqda (tasdiq yoki sanani kutmoqda)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>Savatda</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Tekshiruv uchun ushlab turilgan</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>Ushlab turilgan</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>Ushlab turilmagan</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>Yashirin</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>Koʻrinadigan</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>Yuborilgan sayt kirish nuqtasi</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>Har qanday sayt kirish nuqtasi</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>Faqat audit qayd etganlari.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>Hozir: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>Login yoki foydalanuvchi identifikatori.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Filtrlash</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>Filtrlarni tozalash</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>Elementlar</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%count tadan %from–%to</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Element yoʻq</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(%ms ms da oʻqildi)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>Tanlangan elementlar ustida amallar</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>Ushbu sahifadagi hammasini tanlash</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>%count ta tanlandi</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Amal</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>Amalni tanlang</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>Ushlab turishni bekor qilish</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Tekshiruv uchun ushlab turish</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Yashirish</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>Koʻrsatish</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>Savatga koʻchirish</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>Oʻchirish</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>Boʻlim tayinlash</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>Holat tayinlash</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>Sabab</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>Ushlab turish uchun kerak; ushlab turish bilan birga va auditda saqlanadi.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>Boʻlimni tanlang</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Holat</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>Holatni tanlang</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>Tanlanganlarga qoʻllash</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>Har bir element sizning ruxsatlaringiz boʻyicha tekshiriladi. Savatga koʻchirish va oʻchirish tasdiqlashni soʻraydi. %count tadan ortiq element fonda bajariladi.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>Tanlash</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>Nashr</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>Qayerdan yuborilgan</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>%name ni tanlash</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>hali emas</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(nomsiz)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>Identifikator %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>Qoralama</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Kutilmoqda</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>Ota elementi tomonidan yashirilgan</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>Ushlab turilgan: yangi yuborilgan</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>%version-versiya kutilmoqda</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>%version-versiya ustida ish olib borilmoqda</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>Qoralama, %version-versiya</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>%version-versiya nashr qilingan</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>%date ga rejalashtirilgan</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>manzil yoʻq</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>qayd etilmagan</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>Bu filtrlarga hech narsa mos kelmaydi.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Hammasini koʻrsatish</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>Hali kontent yoʻq.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Sahifada</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Sahifada %count ta element koʻrsatish.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says "not recorded".</source>
+        <translation>Yuborilgan elementning manzili va brauzeri audit indeksidan olinadi, u esa bu yerda mavjud emas: ustunda “qayd etilmagan” deb yoziladi.</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>Manzil va brauzer audit element uchun qayd etganlaridir (avtomatik ushlab turish ularni doim qayd etadi; nashr qilish va yaratish faqat yoqilgan joyda), maxfiylik sozlamalari ularni qanday saqlasa, shunday.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: %count ta element</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>Oʻchirish elementlarni barcha versiyalari va tarjimalari bilan butunlay olib tashlaydi. Buni bekor qilib boʻlmaydi.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>Elementlar savatga tushadi, u yerdan ularni tiklash mumkin.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>Har bir element sizning ruxsatlaringiz boʻyicha tekshiriladi; ichki elementlari bor element oʻz holicha qoldiriladi (uni kontent tuzilmasida olib tashlang). Sizdan bu siz ekanligingizni tasdiqlash soʻraladi.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>Bu fonda bajariladi: uning jarayon sahifasi ochiladi va tugagach, har bir element boʻyicha natija koʻrsatiladi.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>Tanlangan elementlar</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>va yana %count ta</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Bekor qilish</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>Hech narsa bajarilmadi</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Sabab: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>Amal hali ham fonda bajarilmoqda.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>Uning jarayoni</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>Fondagi amal muvaffaqiyatsiz tugadi: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Bajarildi</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Rad etildi</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Muvaffaqiyatsiz</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>Har bir element boʻyicha</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>Element</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Natija</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Nega</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>Roʻyxatga qaytish</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Sozlash</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>Hech narsa bajarilmadi</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>Tasdiqlash</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>Amalni tanlang.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>Kamida bitta elementni tanlang.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>Bir vaqtda koʻpi bilan 1000 ta element tanlang.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>Elementlar nega ushlab turilishini yozing.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>Boʻlimni tanlang.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>Holatni tanlang.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Formani oʻqib boʻlmadi.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>Boshqaruv paneli</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>Yangi kontent</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>Sonlarni oʻqib boʻlmadi: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Tekshiruv uchun ushlab turilgan</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>Bugun yangi</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Tekshiruv uchun ushlab turish hali sozlanmagan (6.0.15-review-hold yangilash bosqichi).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>Barcha yangi kontent</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>Siz moderatsiya amallarini bajara olmaysiz (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>Moderatsiya amali tugallanmadi: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>Moderatsiya: %count ta obyektda %action</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%total ta obyektdan %done tasi: %ok tasi bajarildi, %refused tasi rad etildi, %failed tasi muvaffaqiyatsiz</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok tasi bajarildi, %refused tasi rad etildi, %failed tasi muvaffaqiyatsiz</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>U endi mavjud emas.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>Uning joylashuvi yoʻq (nashr qilinmagan).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>Siz uni yashira olmaysiz (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>Siz uni koʻrsata olmaysiz (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>U allaqachon yashirin.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>U yashirin emas.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>Yashirildi.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>Koʻrsatildi.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>U savatda: uni oʻsha yerda boʻshating yoki tiklang.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>Hech qachon nashr qilinmagan qoralama savatga tusha olmaydi: uni oʻchiring.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>Siz uni oʻchira olmaysiz (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>Oʻchirildi.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>Siz uni olib tashlay olmaysiz (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>Uning ichki elementlari bor: uni ular koʻrsatilgan kontent tuzilmasida olib tashlang.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>U olib tashlanmadi (ish jarayoni olib tashlashni ushlab turgan boʻlishi mumkin).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>Savatga koʻchirildi.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>Boʻlim mavjud emas.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>U allaqachon bu boʻlimda.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>Siz bu boʻlimni tayinlay olmaysiz (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>Boʻlim tayinlanmadi.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>Boʻlim tayinlandi.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>Holat mavjud emas.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>U allaqachon bu holatda.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>Siz bu holatni tayinlay olmaysiz (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>Holat tayinlanmadi (ish jarayoni oʻzgarishni ushlab turgan boʻlishi mumkin).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>Holat tayinlandi.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>Bunday amal yoʻq.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Tekshiruv uchun ushlab turish sozlanmagan (6.0.15-review-hold yangilash bosqichi).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>U nega ushlab turilishini yozing.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>U allaqachon ushlab turilgan.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>Siz uni ushlab tura olmaysiz (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>Ushlab turish qoʻyilmadi (ish jarayoni oʻzgarishni ushlab turgan boʻlishi mumkin).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>Ushlab turildi.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>U ushlab turilmagan.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>Siz uni qoʻyib yubora olmaysiz (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>Ushlab turish bekor qilinmadi (ish jarayoni oʻzgarishni ushlab turgan boʻlishi mumkin).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>Qoʻyib yuborildi; hali ham yashirin: siz uni koʻrsata olmaysiz (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>Qoʻyib yuborildi.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>Barcha maqsadlar</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Oxirgi nashr</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>Saytingizning bepul statik nusxasini GitHub Pages’da nashr qiling:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Eskirgan sahifalar</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Statik nashr qilish</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Statik nashr qilish o‘chirilgan.</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Maqsad</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Maqsadlarni o‘qib bo‘lmadi: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>vazifa bajarilmoqda</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>tekshiriladigan yig‘ma</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>buni yashirish</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>maqsad yaratish</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>hech qachon</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>qo‘llanmani o‘qish</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>%added ta qo‘shildi, %changed ta o‘zgardi, %removed ta o‘chirildi</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%bytes / %limit (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>Yana %count ta ro‘yxatda ko‘rsatilmagan.</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>%pages ta sahifa yozildi</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path hajmi %size, bu xost bitta fayl uchun ruxsat beradigan hajmdan ko‘p.</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>Chegaraning %percent %</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds soniya</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag — saytdagi hozirgi nashr.</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: vazifa %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>/repozitoriy/ GitHub loyiha sayti uchun; maxsus domen yoki foydalanuvchi sayti uchun bo‘sh.</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. Sayt</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. Xost</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. Repozitoriyga kirish</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. Repozitoriy</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. Havolalar va asosiy yo‘l</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. O‘z domeningiz</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. Yig‘ma nimalarni o‘z ichiga oladi</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. Qachon nashr qilinadi</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. Ko‘rib chiqish va saqlash</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>GitHub loyiha sayti /&lt;repository&gt;/ ostida joylashadi; nisbiy havolalar u yerda ham, boshqa har qanday joyda ham ishlaydi.</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>Yig‘ma %site saytining har bir sahifasini tizimga kirmagan tashrifchi ko‘rganidek yuklab oladi, havolalarni qayta yozadi, fayllarni nusxalaydi va natijani maqsad papkasiga yozadi. Siz yig‘mani tekshirib, Nashr qilish tugmasini bosmaguningizcha hech narsa nashr qilinmaydi.</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>Cron ifodasi, masalan 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>Joylashtirish kaliti %secret maxfiy qiymati sifatida saqlanadi.</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>Joylashtirish kaliti bu o‘rnatmaga SSH orqali faqat bitta repozitoriyga yuborish (push) imkonini beradi, boshqa hech qayerga emas. Uning yopiq qismi Sozlash &gt; Maxfiy qiymatlar bo‘limida qoladi; faqat ochiq qismi ko‘rsatiladi.</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>Shu maqsad uchun yaratilgan joylashtirish kaliti</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>Joylashtirish kaliti SSH orqali kiradi: git manzilini SSH manziliga o‘zgartiring (git@github.com:owner/repo.git).</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>Vazifa bajarilmoqda, uni %user boshlagan</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>Bu maqsadning vazifasi hali bajarilmoqda (%detail). U tugashini kuting.</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>Bu maqsadning vazifasi hali bajarilmoqda. U tugashini kuting.</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>/news/ sahifasidan /about-us/team sahifasiga havola quyidagicha yoziladi:</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>Yangi joylashtirish kaliti yaratildi. Uning ochiq qismini hoziroq repozitoriyga qo‘shing.</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>Tozalashdan keyin ham nosozliklarni tuzatish chiqishi, forma tokeni yoki seans identifikatori qolgan sahifa hech qachon nashr qilinmaydi.</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>Orqaga qaytarish mutaxassislar uchun: &quot;Bu nimani o‘zgartirishini bilaman&quot; belgisini qo‘ying va teg nomini qayta kiriting.</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>Sayt %site gacha, bitta fayl %file gacha bo‘lishi mumkin, oyiga taxminan 100 GB trafik bilan. Bepul tarifda repozitoriy ochiq bo‘lishi kerak. GitHub Pages do‘konlar yoki boshqa tijoriy operatsiyalar uchun mo‘ljallanmagan.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>Maqsad — bitta git repozitoriyga nashr qilinadigan bitta sayt. Bu yerda hech narsa yig‘ilmaydi yoki nashr qilinmaydi: Saqlash sozlamalarni settings/override/staticcache.ini.append.php fayliga yozadi.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>Maqsad — bitta joyga nashr qilinadigan bitta sayt, masalan GitHub Pages’dagi ochiq saytingiz.</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>Sozlash &gt; Maxfiy qiymatlar bo‘limidagi token</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>Repozitoriydagi ish oqimi (workflow) uni nashr qiladi.</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>Ushbu ochiq kalitni repozitoriyga yozish huquqi bilan qo‘shing. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, Allow write access belgisini qo‘ying.</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>Qo‘shilgan</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>Boshqa git xosti</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>Bu maqsad ustida boshqa jarayon ishlamoqda: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>Orqaga</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>Asosiy yo‘l</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Oldin</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>Asosiy yo‘l ostida</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>Tarmoq</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>Buzilgan havolalar</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>Yig‘madagi buzilgan havolalar</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>Yig‘ma</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>Yig‘ma %id, %user tomonidan</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>%name ni yig‘ish</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>Hozir yig‘ish</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>Tekshiriladigan yig‘ma</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Kim tomonidan</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>Qo‘lda, shu yerda</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Bekor qilish</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>O‘zgartirish</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>O‘zgargan</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>O‘zgarishlar</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>Avval tekshiring</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Ushbu sozlamalarni tekshiring</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>Yig‘ma nimani o‘zgartirishini tekshiring, uni ko‘rib chiqing, so‘ng nashr qiling yoki tashlab yuboring.</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>Qaytiladigan nashrni tanlang.</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>Keyingi relizda paydo bo‘ladi.</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Kommit</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>Kommitlar</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>Yig‘mani kommit qiladi, unga teg qo‘yadi va %remote ga yuboradi. Yuborish hech qachon majburiy qilinmaydi; keyinroq istalgan nashrga qaytishingiz mumkin.</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>Oldingi papka bilan solishtirganda: %added ta qo‘shildi, %changed ta o‘zgardi, %removed ta o‘chirildi, %unchanged ta o‘zgarmadi.</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>Oxirgi nashr bilan solishtirilgan.</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Kirish ma’lumotlari</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>Maxsus domen</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>Nosozliklarni tuzatish chiqishi, forma tokenlari, seans identifikatorlari va nonce qiymatlari doim olib tashlanadi.</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>Joylashtirish kaliti</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>%name joylashtirish kaliti</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Tashlab yuborish</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>Yig‘mani tashlab yuborish</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>Domen</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>Bo‘sh: saytning manzili. Aks holda o‘sha saytning ichki manzili.</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Tugagan</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>Har bir havola asosiy yo‘l bilan boshlanadi.</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>Har bir nashr static/%id/&lt;n&gt; tegli kommitdir. Orqaga qaytish oldingi nashr fayllari bilan yangi kommit yaratadi: tarix saqlanadi, hech bir teg ko‘chmaydi va hech narsa majburlanmaydi.</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>Qo‘shimchalar</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>Sahifalarni qayerdan yuklash</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Fayl</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>Fayllar</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>Yetishmayotgan fayllar</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>Sayt fayllari:</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>Yig‘ib bo‘lmagan fayllar</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>Barmoq izi</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>Papka</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>SSH manzili uchun. Kalit saqlangandan keyin yaratiladi; uning ochiq qismini repozitoriyga qo‘shasiz.</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>https:// manzili uchun. GitHub: repozitoriyda Contents uchun o‘qish va yozish huquqiga ega fine-grained token.</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>Mutaxassislar uchun. Yuborish tugashi bilan ochiq sayt o‘zgaradi.</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Formalar</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>GitHub repozitoriyidan bepul xosting.</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>Tarmoqdan</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>Git manzili</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages %site hajmdagi sayt va %file hajmdagi faylga ruxsat beradi.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>GitHub Pages cheklovlari</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages fayllarni o‘zgartirmasdan nashr qiladi (_ bilan boshlanadigan fayllar uchun kerak).</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub tarmoqni qanday yuborilgan bo‘lsa, shunday beradi. Standart.</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, o‘z serveringiz: istalgan git repozitoriy.</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>Oldingi nashrga qaytish</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Yordam</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>Sozlash ustasi bo‘yicha yordam</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>Ularni yashirish</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Tarix</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>%name tarixi</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Xost</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>GitHub Pages yig‘mani qanday qabul qiladi</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>O‘zgarishlarni tekshirdim</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>Bu nimani o‘zgartirishini bilaman</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>U o‘chirilgan: yoqilmaguncha hech narsa yig‘ilmaydi.</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>U fonda %user sifatida ishlaydi; bu sahifani yopishingiz mumkin.</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>Vazifa %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>%secret maxfiy qiymati sifatida saqlanadi.</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Turi</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Oxirgi nashr</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>Bu sahifalarni chiqarib tashlash</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>Bu bo‘limlarni chiqarib tashlash</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Havolalar</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>Qayta yozilgan havolalar</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>Jonli sayt</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>Yig‘mani ko‘rish</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>Kichik harflar, raqamlar, _ va -, masalan github-public. U papka va teglarni (static/&lt;id&gt;/&lt;n&gt;) nomlaydi va keyin o‘zgartirib bo‘lmaydi.</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>Yangi kalit yaratish</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>Maqsad yaratish</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>Kalitni yaratish</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>Avval xostda repozitoriy yarating; bo‘sh repozitoriy ham bo‘ladi.</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>Fayllar ro‘yxati (manifest)</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Xabar</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>Ko‘pchilik sahifalar</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Nomi</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>Sozlash &gt; Maxfiy qiymatlar bo‘limidagi token nomi</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>Yangi maqsad</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Keyingi</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>Yo‘q</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>Hali kommit yo‘q.</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>Kalit yaratilmadi: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>php buyruq qatori dasturi topilmadi. migration.ini [AdminSettings] PhpCliPath ni uning to‘liq yo‘liga sozlang.</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>Hali teg yo‘q.</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>Hali maqsad yo‘q.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Hech biri</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>Yig‘mada yo‘q.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>Hali hech narsa nashr qilinmagan.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>Hali hech narsa nashr qilinmagan: har bir fayl yangi.</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>Xabar berish</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>Jadval bo‘yicha</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>Konsolda</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>Serverda: ./console exp:static:serve %id uni xuddi shunday beradi.</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>Har bir qatorda bitta yo‘l, * istalgan qismga mos keladi: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>Maqsad bilan faqat nom saqlanadi; tokenning yoki kalitning o‘zi Sozlash &gt; Maxfiy qiymatlar bo‘limida qoladi va hech qachon jurnalda ko‘rinmaydi.</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>Faqat sahifalar nomlagan narsalar</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>Faqat token bilan. env:NAME buning o‘rniga serverning muhit o‘zgaruvchisini o‘qiydi.</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>Oldindan ko‘rishni ochish</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>Yig‘mani maqsad papkasidan, xost uni qanday bersa, shunday ochadi. Havola siz uchun bir soat ishlaydi.</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>Ixtiyoriy. Bo‘sh: nashr qilingan narsa.</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>Ixtiyoriy. Domen bilan sayt uning ildizida beriladi.</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Chiqish</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>Sahifalar</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>Maqsad sahifalari</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>Rad etilgan sahifalar</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>Keyingi ishlov</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Oldindan ko‘rish</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>Oldindan ko‘rish va nashr qilish</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>%name ni oldindan ko‘rish va nashr qilish</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>Yig‘mani oldindan ko‘rish</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Jarayon</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>Ochiq manzil</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>Ochiq kalit</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>Nashr qilish</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>Sayt statik nusxasini GitHub Pages yoki istalgan git xostiga nashr qiling: uni yig‘ing, o‘zgarishlarni tekshiring, nashr qiling va kerak bo‘lganda oldingi nashrga qayting.</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>Qaytiladigan nashr</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>Nashrlar</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Yuborish (push)</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>Qo‘llanmani o‘qing</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Jurnal</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Rad etilgan</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>Nisbiy</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Qayta yuklash</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>O‘chirilgan</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>Kalitni almashtirish: eskisi ishlashdan to‘xtaydi</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Hisobot</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>Yig‘ma hisoboti</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Repozitoriy</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Ko‘rib chiqish</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>Ko‘rib chiqish har bir sozlamani tekshiradi va yoziladigan qatorlarni ko‘rsatadi. Hali hech narsa saqlanmagan.</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Orqaga qaytarish</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Orqaga qaytarish</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Saqlash</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>Jadval</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>Qidiruv sahifasi</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>Bo‘lim identifikatorlari, vergul bilan ajratilgan.</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>Ularni jonli saytga yuborish</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>Sozlama</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Sozlamalar</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>%name sozlamalari</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Sozlash</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Sozlash &gt; Maxfiy qiymatlar</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>Ro‘yxatlarda ko‘rsatiladi, masalan &quot;GitHub Pages’dagi ochiq sayt&quot;.</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>GitHub App orqali kirish GitHub integratsiyasi bilan birga keladi.</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>Sayt</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>Nashr qilinadigan sayt</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Hajm</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>Hajm va cheklovlar</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>Yig‘ma hajmi</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Eskirgan sahifalar</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Boshlangan</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>%user tomonidan %time da boshlangan.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Holat</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Statik nashr qilish</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>Statik nashr qilish o‘chirilgan</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Statik nashr qilish o‘chirilgan.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>Statik nashr qilish o‘chirilgan. Avval uni Sozlash &gt; Statik nashr qilish bo‘limida yoqing.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>Statik nashr qilish yoqilgan.</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>Qadam %step / %total</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Qadamlar</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>Tozalash</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>O‘chirish</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Yoqish</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>Statik nashr qilishni yoqish</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Teg</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>Teglar</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Maqsad</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>Maqsadlarni yaratish va o‘zgartirish mumkin, lekin u yoqilmaguncha hech narsa yig‘ilmaydi yoki nashr qilinmaydi.</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>Qidiruv tizimlariga nimani o‘qish kerakligini aytadi.</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>Yig‘mani tashlab yuborib bo‘lmadi: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>Yig‘ma oxirgi nashr bilan bir xil: nashr qiladigan narsa yo‘q.</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>Yig‘ma tashlab yuborildi: papkada yana oxirgi nashr turibdi.</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>Standart qiymatlar ko‘pchilik saytlarga mos keladi.</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>Papkada hali nashr qilinmagan yig‘ma bor; yangi yig‘ma uni almashtiradi.</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>Vazifalar papkasiga yozib bo‘lmaydi: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>Vazifani tayyorlab bo‘lmadi: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>Vazifani boshlab bo‘lmadi.</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>Vazifa tugadi. Uning hisoboti yuklanmoqda.</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>Vazifa uchun tizimga kirgan foydalanuvchi kerak.</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>Vazifa boshlandi, lekin jarayon identifikatorini xabar qilmadi. %detail ni tekshiring.</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>Kalit</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>Eng katta fayl: %path, %size.</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Yoziladigan qatorlar</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>Qidiruv tizimlari uchun sahifalar ro‘yxati; ochiq manzil kerak.</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>Sahifalar tizimga kirmagan tashrifchi ko‘rganidek yuklanadi. Boshqaruv va tahrirlash siteaccesslari hech qachon taklif qilinmaydi.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>Jarayonni kuzatib bo‘lmadi. Vazifa qanday ketayotganini ko‘rish uchun sahifani qayta yuklang.</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>Kalitning ochiq qismi:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>Tarmoq ildizi</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>Maxfiy qiymatlar ombori hali sozlanmagan (./console exp:upgrade --apply uning jadvalini yaratadi), shuning uchun hech qanday kalitni saqlab bo‘lmaydi.</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>Server o‘zi kiradi (o‘z SSH kaliti yoki kirish ma’lumotlari yordamchisi bilan), yoki repozitoriy shu serverda.</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>Sozlamani yozib bo‘lmadi: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Sozlamalar to‘g‘ri. Quyidagi qatorlar yoziladi:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Sozlamalar faylini o‘qib bo‘lmaydi: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>Sayt o‘sha nashr fayllariga qaytadi; hali nashr qilinmagan yig‘ma avval nashr qilinishi yoki tashlab yuborilishi kerak.</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>Mavjud bo‘lmagan manzillar uchun saytning o‘z sahifasi.</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>Maqsadni saqlab bo‘lmadi: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>Maqsad hali bu kalit bilan kirmaydi: uning sozlamalarida &quot;Shu maqsad uchun yaratilgan joylashtirish kaliti&quot; ni tanlang.</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Maqsadlarni o‘qib bo‘lmadi: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>Hali tekshiriladigan yig‘ma yo‘q.</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>Bu o‘rnatmada ochiq siteaccess yo‘q. Boshqaruv va tahrirlash siteaccesslari hech qachon nashr qilinmaydi.</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>Bu sahifa vazifani bajarilish davomida kuzatadi; sahifa yopilganda u fonda davom etadi.</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>Bu maqsadda hali joylashtirish kaliti yo‘q.</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>Bu maqsad hali bu yerda yig‘ilmagan.</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>Bu maqsadda kalit bor.</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>Bu yig‘mani tashlab yuboradi: papkada yana oxirgi nashr turadi. Jonli sayt o‘zgarmaydi.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>Avval &quot;O‘zgarishlarni tekshirdim&quot; belgisini qo‘ying.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Vaqt</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>Ishga tushiruvchilar</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>Teg nomini qayta kiriting</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>O‘zgarmagan</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>Vebxuk</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Nima</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>Nima o‘zgaradi</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>Har bir fayl nima ekanligi; doim yoziladi.</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>Vazifa nima qilgani va uning jurnali. Shu yerda boshlangan vazifa bu sahifa yopilganda fonda davom etadi.</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>Vazifa xato sifatida chiqargan narsalar</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>Sahifalar nomlagan narsalar va nashr qilingan kontentning har bir rasmi</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Qachon</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>Nashr muvaffaqiyatsiz bo‘lganda</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>Nashr muvaffaqiyatli bo‘lganda</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>Kontent nashr qilinganda</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>Nusxada bo‘lmagan narsalarga (qidiruv, kirish) havolalar qayerga olib borishi.</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>Statik nusxa qayerdan beriladi.</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>Qaysi sayt nashr qilinadi va maqsad qanday nomlanadi.</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>Istalgan yo‘l ostida ishlaydi. Standart.</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>Maxsus domen o‘rnatilganda yoziladi.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>Ha</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>Bu yerda va konsolda har doim qo‘lda yig‘ish va nashr qilish mumkin.</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>faqat nom; qiymat Sozlash &gt; Maxfiy qiymatlar bo‘limida qoladi</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>%path ostida</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>hisobotsiz tugadi</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>qo‘shimcha</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>muvaffaqiyatsiz</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>fayl</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages, yoki docs papkasi bilan main.</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>git xosti</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (token bilan) yoki git@github.com:owner/repo.git (joylashtirish kaliti bilan); unda hech qachon parol yoki token bo‘lmasin.</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/, sayt xaritasi va kanonik havolalar uchun.</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>rasm</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>hech qachon</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>yo‘q</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>masofaviy repozitoriy yo‘q</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>yo‘q: kommitlar papkada qoladi</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>yo‘q: hech narsa o‘zgarmadi</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>yuborilmagan</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>hech narsa o‘zgarmadi</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>sahifa</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>o‘tdi</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>proc_open o‘chirilgan, shuning uchun bu yerda vazifani boshlab bo‘lmaydi. Serverda ./console exp:static:build dan foydalaning.</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>nashr</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>nashr qilingan</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>yuborish kutilmoqda</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>yuborilgan</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>rad etilgan</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>nisbiy</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>orqaga qaytarish</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>orqaga qaytarilgan</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>bajarilmoqda</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>faqat papka</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: CNAME fayliga yoziladi. Domen DNS yozuvlarini xost tushuntirganidek unga yo‘naltiring; HTTPS ishga tushishi biroz vaqt olishi mumkin.</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>ha, hali nashr qilinmagan</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>Uni repozitoriyning ish oqimi nashr qiladi. Yig‘ish ish oqimi faylini yozadi; jildni bo‘sh qoldiring.</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>Maqsadni GitHub repozitoriyi va token yoki GitHub App bilan saqlagandan so‘ng, bu qadam repozitoriyni yaratib, GitHub Pages’ni yoqishi mumkin. Aks holda avval GitHub’da repozitoriy yarating; bo‘sh bo‘lsa ham bo‘ladi.</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>Tarmoqmi yoki GitHub Actions?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>DNS’ni tekshirish</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>Repozitoriy mavjud bo‘lmasa, yaratish</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>GitHub’da repozitoriy yarating va uning sozlamalarida GitHub Pages’ni yoqing (Settings &gt; Pages).</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>Repozitoriy %repo yo‘q bo‘lsa, uni yaratadi (so‘ralganda), saqlanganidek tarmoqdan yoki GitHub Actions’dan GitHub Pages’ni yoqadi hamda maxsus domen va HTTPS’ni o‘rnatadi. Saqlangan sozlamalardan foydalanadi: avval o‘zgarishlarni saqlang.</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>GitHub’dagi tafsilotlar</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>Avval maxsus domenni kiriting.</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>Har bir yuborish avval shu cheklovlar bo‘yicha tekshiriladi.</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>GitHub’dagi https:// manzil uchun. Shu o‘rnatma uchun sozlangan App kiradi; unga o‘rnatma id’si kerak.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages yopiq repozitoriyni faqat pullik rejada xizmat qiladi.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: subdomenga (www.example.com) &lt;owner&gt;.github.io ga CNAME yozuvi, asosiy domenga (example.com) A yozuvlari %ips kerak.</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>GitHub App o‘rnatma id’si</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>Oxirgi Pages yig‘ilishi</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>Cheklovlar va shartlar</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>Bepul rejada GitHub Pages uchun kerak.</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>GitHub’da</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>Faqat GitHub App bilan: GitHub’dagi App o‘rnatmasi manzilining oxiridagi raqam. App’ning o‘zi staticcache.ini’da belgilanadi (GitHubAppId, GitHubAppKey).</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>Yopiq</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>Ochiq</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>Avval maqsadni GitHub repozitoriyi va token yoki GitHub App bilan saqlang.</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>Ushbu yozuvlarni domen provayderida o‘rnating:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>GitHub’da sozlash</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>%domain DNS’i hali GitHub Pages’ga yo‘naltirilmagan.</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>%domain DNS’i GitHub Pages’ga yo‘naltirilgan.</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>GitHub integratsiyasi bu yerda mavjud emas: %problem. Tarmoqqa nashr qilish baribir ishlaydi; repozitoriy sozlamalarida GitHub Pages’ni yoqing.</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>Bu maqsad uchun GitHub qadamlari mavjud emas: %problem.</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>Kirish ma’lumotlari token yoki GitHub App bo‘lganda GitHub Pages holati ko‘rsatiladi.</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>O‘z domeningizdan foydalaning</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>Qaysi birini tanlash: token, joylashtirish kaliti yoki GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>GitHub repozitoriyi va token yoki GitHub App bilan sozlash ustasi siz uchun repozitoriyni yaratishi, GitHub Pages’ni yoqishi va domenni o‘rnatishi mumkin (4-qadam).</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>yig‘ilmoqda</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>yig‘ildi</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>GitHub Actions’dan</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>%branch tarmog‘idan</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>hozircha yo‘q</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>topilmadi</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>o‘chiq</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>yopiq</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>ochiq</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>navbatda</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>noma’lum</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%pages sahifada %count:</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>Har bir matn faylining yonida .gz (va .br), ularni beradigan hostlar uchun.</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>Sahifaning har bir eski manzili va taxallusi uchun kichik sahifa, eski havolalar ishlashda davom etishi uchun.</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>GitHub Actions saytni yetkazganda doim yoziladi.</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>CC-BY-4.0 kabi SPDX identifikatori yoki matnning o‘zi.</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>Savat</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>Serverga murojaatlar</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Izohlar</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>Ma’lumot yig‘adigan formalar</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>GitHub Actions ish jarayoni</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>Sahifalarda kamroq bo‘sh joy va izohlarsiz.</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>Kontent litsenziyasi</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Kirish</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>Minifikatsiya</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>Boshqa formalar</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>Oldindan siqish</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>Yo‘naltirish sahifalari</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>Yo‘naltirish sahifalari: %count.</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Qidiruv</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>Qidiruv indeksi: %languages tillarida %pages sahifa.</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>Brauzerlar saqlashi uchun mazmuni xeshi bilan nomlangan uslub jadvallari va skriptlar.</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>O‘zgargan sahifalar, oxirgi o‘zgarishdan bir necha daqiqa o‘tgach (cronjob qismi staticpublish).</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>Kontent litsenziyasi, quyidagi maydondan.</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>Butun sayt, jadval vaqtlarida (cronjob qismi staticpublish).</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>Sahifalarning bu qismlariga server kerak; har biriga zaxira berildi. Nashr qilishdan oldin ularni tekshiring.</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>Statik ishlamaydigan narsalar</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>Repozitoriy nima ekani, uni hostda ochadigan kishi uchun.</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>tashlab ketilgan</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>zaxira matn</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>jonli saytning forma qabul qilish manzili</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>jonli sayt</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>nusxaning qidiruv sahifasi</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>Formani yuborib bo‘lmadi.</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>Rahmat: forma yuborildi.</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>Forma qabul qilinmadi: kiritganingizni tekshiring va qayta yuboring.</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>Nusxada yoʻq sahifalarga havolalarni olib tashlash</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>Boshqaruvga havolalarni olib tashlash</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>Ularning matni qoladi. Rasmlar, shakllar va boshqa saytlarga havolalar hech qachon olib tashlanmaydi.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Versiya</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>Nashr qilinadigan sayt kirish nuqtalari</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Sayt kirish nuqtasi</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>Ildizda</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>Ildizda sayt kirish nuqtasi yo'q: har biri o'z jildida, ildiz esa ularga havola beradi</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Sayt kirish nuqtalari</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>Bitta kirish nuqtasini yoki URI prefiksi orqali bitta xostni bo'lishadigan bir nechtasini belgilang. Ildizdagisi o'sha yerda beriladi, qolganlari o'z prefiksi jildida (/ger/); ular orasidagi havolalar nusxada qoladi. Boshqaruv kirish nuqtalari hech qachon taklif qilinmaydi.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>%site saytida %target statik nashri muvaffaqiyatsiz tugadi</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>%site saytida %target statik nashri muvaffaqiyatli tugadi</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>Bu xatni %site yubordi, chunki statik nashr maqsadi %target buni so‘raydi.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>%deploy joylashtirishi %site saytida muvaffaqiyatsiz tugadi</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>%deploy joylashtirishi %site saytida darvoza oldida kutmoqda</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>%deploy joylashtirishi %site saytida muvaffaqiyatli tugadi</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>Bu xat %site tomonidan yuborildi, chunki migration.ini [RemoteSettings] Notify[] buni talab qiladi.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>Maʼlumot turlari (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>%time sanaldi, %minutes daqiqadan keyin yana</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>Maʼlumot turi sinf atributining bir xil qiymatini saqlaydi va tahrirlaydi: matn qatori, rasm, bogʻlanish. Ularning aksariyatini yadro beradi, kengaytmalar yana qoʻshadi. Bu yerda ularning hammasi, ularni kim taqdim etishi va kontentning qanchasi ularni ishlatishi bor. Maʼlumotlar bazasi ishlatadigan, lekin endi hech narsa roʻyxatdan oʻtkazmaydigan maʼlumot turi uni oʻz ichiga olgan kontentni buzadi.</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>Sinflar guruhlari</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>Oxirgi daqiqalar sonlaridan foydalanish oʻrniga hozir qayta sanash.</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>Qayta sanash</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Umumiy koʻrinish</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>Roʻyxatdan oʻtgan</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>Ishlatilmoqda</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>Ishlatilmagan</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>Maʼlumot turlarini taqdim etuvchi kengaytmalar</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>Sinf atributlari</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>Obyekt atributlari</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>Roʻyxatdan oʻtmagan</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>Roʻyxatda bor, fayl yoʻq</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>%count ta maʼlumot turi ishlatilmoqda, lekin roʻyxatdan oʻtmagan</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>%class_attributes ta sinf atributi va %object_attributes ta obyekt atributi hech bir kengaytma yoki sozlama roʻyxatdan oʻtkazmagan maʼlumot turiga ega. Ularning obyektlarini koʻrsatib, tahrirlab yoki nashr qilib boʻlmaydi. Maʼlumot turini taqdim etuvchi kengaytmani yoqing yoki sinfni oʻzgartiring.</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>Faqat shularni koʻrsatish</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>Maʼlumot turini topish</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>Identifikator, nom, PHP sinfi yoki kengaytma.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Koʻrsatish</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Hammasi</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>Taqdim etuvchi</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>Hamma</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>Yadro</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>Bu filtrga mos maʼlumot turi yoʻq.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Hammasini koʻrsatish</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>Kengaytma</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%count ta maʼlumot turidan %shown, %used tasi ishlatilmoqda</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>Maʼlumotlar bazasida bu maʼlumot turlaridagi sinf yoki obyekt atributlari bor, lekin content.ini ularning hech birini koʻrsatmaydi yoki uning fayli yoʻq.</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>%provider maʼlumot turlari</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>Maʼlumot turi</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>PHP sinfi va fayl</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>Sinflar</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>Obyektlar</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>Bayroqlar</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>yoʻq</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>Qidiruvga mos maʼlumot turi yoʻq. Qidiruvni tozalang.</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>%count ta maʼlumot turidan %shown tasi koʻrsatildi</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>Koʻrsatilgan maʼlumot turlari: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>%column boʻyicha saralash</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>%time sanaldi</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>Barcha maʼlumot turlari</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>Yordam sahifasi</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>Bu maʼlumot turi ishlatilmoqda, lekin roʻyxatdan oʻtmagan</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>Hech bir kengaytma maʼlumot turini roʻyxatdan oʻtkazmaguncha quyidagi sinflarning obyektlarini koʻrsatib, tahrirlab yoki nashr qilib boʻlmaydi. Uni taqdim etuvchi kengaytmani yoqing va uni content.ini [DataTypeSettings] AvailableDataTypes[] ga qoʻshing yoki sinflarni oʻzgartiring.</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini bu maʼlumot turini koʻrsatadi, lekin hech bir maʼlumot turlari katalogida uning fayli yoʻq. Uni hech narsa ishlatmaydi; uni AvailableDataTypes[] dan olib tashlang yoki uning kengaytmasini yoqing.</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>Bu maʼlumot turi haqida</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>Identifikator</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Nom</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>%name kengaytmasi</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>hech kim</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>PHP klassi</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Fayl</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>AvailableDataTypes[] ichida</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ha</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>yoʻq</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>Uning qiymati ustunlari</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>Uning sinf atributi sozlamalari ustunlari</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>Jadvallar</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>Ustunlar va jadvallar maʼlumot turining kodini oʻqish orqali topiladi: bu yoʻl-yoʻriq, vaʼda emas.</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>Shablonlar</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Sayt kirish nuqtasi</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>Shablon</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>Joylashgan joyi</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>bu boshqaruv</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>standart sayt</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>Almashtirishlarsiz: sinf yoki atribut boʻyicha mos kelgan almashtirish shabloni bulardan ustun turadi.</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>Uni ishlatadigan sinflar (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>Hech bir sinfda bu maʼlumot turidagi atribut yoʻq.</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Sinf</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>Atributlar</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>Sinf atributlari (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>Atribut</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Sozlamalar</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>Majburiy</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>Qidiriladigan</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>Tarjima qilinadigan</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>Maʼlumot yigʻadi</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>Uni ishlatadigan baʼzi kontent</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>Oxirgi oʻzgartirilgani birinchi</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Oʻzgartirilgan</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>Tugun %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>Har bir tarjimaning oʻz qiymati bor.</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>Qidiruv uning qiymatlarini indekslaydi.</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>U tashrif buyuruvchilardan maʼlumot toʻplashi mumkin (formalar).</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>Roʻyxatlarni u boʻyicha saralash mumkin: saralash kaliti %type.</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>Saralanadigan</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>Uning qiymatlari boshqa obyektlarga ishora qiladi.</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>Bogʻliqliklar</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>Uni oddiy satrdan toʻldirish mumkin (import, REST).</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>Matndan</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>Uni fayldan toʻldirish mumkin.</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>Fayldan</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>Uning sinf atributi sozlamalari paketlarga kiradi.</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>Paketlar</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>Kontent (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%count tadan %from–%to</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Roʻyxatni filtrlash</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>Barcha sinflar</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Boʻlim</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Tillar</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Egasi</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Nashr qilingan</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>Tartibni teskari qilish</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Element yoʻq</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Har bir sahifada</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Har sahifada %count ta elementni koʻrsatish.</translation>
     </message>
 </context>
 </TS>

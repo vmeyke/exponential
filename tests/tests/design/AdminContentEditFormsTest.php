@@ -17,7 +17,7 @@
  *
  * Run: php vendor/bin/phpunit tests/tests/design/AdminContentEditFormsTest.php
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package tests
  */
@@ -103,7 +103,7 @@ class AdminContentEditFormsTest extends PHPUnit\Framework\TestCase
         $this->assertSame( 'var(--a4-space-1) var(--a4-space-3)', $button['padding'] );
         $this->assertSame( 'var(--a4-radius-s)', $button['border-radius'] );
         $this->assertSame( 'var(--a4-text-s)', $button['font-size'] );
-        $this->assertSame( '600', $button['font-weight'] );
+        $this->assertSame( 'var(--a4-weight-strong)', $button['font-weight'] );
 
         $hover = $rules[':is(.a4-content-attr, .a4-content-edit) :is(input.button, button.button):hover:not(:disabled)'];
         $this->assertSame( 'var(--a4-accent)', $hover['border-color'] );

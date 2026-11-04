@@ -2,7 +2,7 @@
 /**
  * File containing (site)access functionality
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -481,6 +481,31 @@ class eZSiteAccess
     }
 
     /**
+     * The siteaccess that served an address, as match() finds it for a web request, for a tool that reads where
+     * requests went (the view counter reading an access log): without the side effects of a request, so no redirect
+     * of RedirectOnNormalize and no choice by the browser's language. Where no probe of MatchOrder matched, the
+     * answer is DefaultAccess with the key unmatched set.
+     *
+     * @param string $uriString the path, URL decoded, with or without the leading slash
+     * @param string $host
+     * @param int $port
+     * @param string $file
+     * @return array see match(), plus unmatched (true) where no probe matched
+     */
+    static function matchAddress( $uriString, $host, $port = 80, $file = '/index.php' )
+    {
+        self::$matchingTarget = true;
+        try
+        {
+            return self::match( new eZURI( trim( (string)$uriString, '/' ), false ), (string)$host, $port, $file );
+        }
+        finally
+        {
+            self::$matchingTarget = false;
+        }
+    }
+
+    /**
      * The default siteaccess for an address no probe of MatchOrder matched: the first entry of
      * $items (DefaultHostUriMatchMapItems[]=host;uri;siteaccess[;method[;language]]) whose host matches and whose
      * language the browser accepts, trying the languages of $acceptLanguage from the most wanted; else the first
@@ -623,11 +648,11 @@ class eZSiteAccess
             case 'strict':
                 return $matchHost === $host;
             case 'start':
-                return strpos( $host, $matchHost ) === 0;
+                return str_starts_with( $host, $matchHost ); // PHP 8 semantics on 7.4 too (polyfill): an empty host matches
             case 'end':
                 return $matchHost !== '' && str_ends_with( $host, $matchHost );
             case 'part':
-                return strpos( $host, $matchHost ) !== false;
+                return str_contains( $host, $matchHost ); // PHP 8 semantics on 7.4 too (polyfill): an empty host matches
         }
         eZDebug::writeError( "Unknown host match: $method", 'access' );
         return false;
@@ -902,7 +927,7 @@ class eZSiteAccess
      * (eZSys::logDirectory()) when site.ini [FileSettings] UseGlobalLogDir is disabled, and back at var/log otherwise.
      *
      * change() calls it for every front controller and every script, whether or not that has loaded the function
-     * file of eZUpdateDebugLogDirectory() (soap.php and webdav.php declare their own eZUpdateDebugSettings()).
+     * file of eZUpdateDebugLogDirectory() (index_soap.php and index_webdav.php declare their own eZUpdateDebugSettings()).
      *
      * @param eZINI $ini site.ini of the siteaccess
      * @return string|false The log directory used, false for var/log

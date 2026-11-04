@@ -7,13 +7,15 @@
  *
  * The content object attribute is a stand-in that holds the data_* fields and the content in memory.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @package tests
  * @group kernel
  * @group datatypes
  */
 
+#[\PHPUnit\Framework\Attributes\Group('kernel')]
+#[\PHPUnit\Framework\Attributes\Group('datatypes')]
 class eZDatatypeStringRoundTripAttributeStub
 {
     public $fields = array( 'data_int' => null, 'data_float' => null, 'data_text' => null );

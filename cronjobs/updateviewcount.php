@@ -1,10 +1,10 @@
 <?php
 /**
- * @description Flush the in-memory view count buffer to the database
+ * @description Count the page views of the web server's access logs into the view counter (ezview_counter)
  *
  * File containing the updateviewcount.php cronjob
  *
- * @copyright Copyright (C) 1998 - 2026 7x and the Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package kernel
  */

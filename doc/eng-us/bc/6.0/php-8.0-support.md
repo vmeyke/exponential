@@ -1,7 +1,8 @@
 # PHP 8.0 support
 
-Exponential 6 runs on PHP 8.0 and later. PHP 8.0 is the oldest supported version because it is the stock PHP of
-Red Hat Enterprise Linux 9 (and of AlmaLinux 9 and Rocky Linux 9). Read this page if you run Exponential on RHEL 9
+Exponential 6 runs on PHP 8.0 and later, and from 6.0.15 it is usable without support on PHP 7.4 (see
+[Why Exponential supports PHP 7.4](../../help/why-exponential-supports-php-7-4.md)). PHP 8.0 matters because it is the
+stock PHP of Red Hat Enterprise Linux 9 (and of AlmaLinux 9 and Rocky Linux 9). Read this page if you run Exponential on RHEL 9
 without a newer PHP, if you write kernel or extension code, or if you wonder why a function newer than 8.0 is
 wrapped in `function_exists()`.
 
@@ -9,11 +10,11 @@ wrapped in `function_exists()`.
 
 | | |
 |---|---|
-| Oldest PHP | 8.0 for the kernel and the shipped extensions, under Apache with mod_php, PHP-FPM or Velocity. |
+| Oldest PHP | 8.0 for the kernel and the shipped extensions, under Apache with mod_php, PHP-FPM or Velocity; 7.4 usable without support for the kernel from 6.0.15, without Velocity. |
 | Velocity | Exponential Velocity, the application server, runs on PHP 8.0 too, from its release 0.0.4.54 (until then it needed 8.1; see below). |
 | What changed in 6.0.15 | The few places that needed PHP 8.1 or later were made to work on 8.0; CI checks 8.0 on every push. |
 | Behaviour on 8.1 and later | Unchanged. Every fallback is used only where PHP lacks the function. |
-| Composer | `composer.json` declares `^8.0` and requires Velocity at `~0.0.4.55`; a plain `composer install` works on 8.0 and installs the engine too. |
+| Composer | `composer.json` declares `^8.0` and requires Velocity at `~0.0.4.57`; a plain `composer install` works on 8.0 and installs the engine too. |
 
 ## What was found and how it was fixed
 
@@ -90,7 +91,7 @@ its `composer.json` requires `"php": ">=8.0"` (it was `>=8.1`). Nothing extra is
 and no extension. Until 0.0.4.54 the engine declared 8.1 as its minimum, so on PHP 8.0 a site had to be served by
 Apache or PHP-FPM; that limit is gone. So:
 
-- Apache or PHP-FPM serving the site: PHP 8.0 or later.
+- Apache or PHP-FPM serving the site: PHP 8.0 or later (PHP 7.4 usable without support).
 - Velocity: PHP 8.0 or later, including the stock PHP 8.0 of RHEL 9.
 
 What differs on PHP 8.0, and only this:
@@ -110,7 +111,7 @@ page; the engine's minimums are in its
 [requirements](https://github.com/se7enxweb/exponential-velocity/blob/main/docs/requirements.md) and the release in
 its [changelog](https://github.com/se7enxweb/exponential-velocity/blob/main/CHANGELOG.md).
 
-With that, **Velocity is part of Exponential as of 6.0.15**: the root `composer.json` requires it at `~0.0.4.55`, so
+With that, **Velocity is part of Exponential as of 6.0.15**: the root `composer.json` requires it at `~0.0.4.57`, so
 the kernel, the shipped extensions and the server share one minimum, PHP 8.0. The story for every reader:
 [Velocity is part of Exponential 6.0.15](../../help/velocity-is-part-of-exponential-6-0-15.md).
 
@@ -138,12 +139,12 @@ expchangeclass, expquery-translator, sevenx-themes-media 1.5.32, `exponential-le
 syndication 1.3.5, ezstarrating 6.0.9, swark 1.0.5, birthday 1.3.3 and enhancedezbinaryfile 4.4.5 were released with fixes for code no PHP 8
 could load.
 
-Velocity is required again, at `~0.0.4.55` (0.0.4.54 was the first release that runs on PHP 8.0). Between its move to
+Velocity is required again, at `~0.0.4.57` (0.0.4.54 was the first release that runs on PHP 8.0). Between its move to
 `"suggest"` (because it needed PHP 8.1) and that release, it had to be added by hand; an installation made in that
 time adds it with:
 
 ```sh
-composer require se7enxweb/exponential-velocity:~0.0.4.55
+composer require se7enxweb/exponential-velocity:~0.0.4.57
 ```
 
 | Package | Declares | Blocks 8.0 |

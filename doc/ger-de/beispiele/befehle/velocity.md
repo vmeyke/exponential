@@ -34,12 +34,18 @@ php bin/php/velocity.php --help
 | `--no-https` |  |  |
 | `--rebuild-phar` |  | start, restart, graceful, deploy: das Engine-Archiv neu bauen, auch wenn es aktuell ist |
 | `--kernel` |  | deploy: auch das Autoload-Array des Kernels neu erzeugen (nur kernel/ und lib/) |
-| `--dry-run` |  | deploy: die Schritte ausgeben und was jeder täte, und nichts tun |
+| `--apply` |  | config set\|unset, cache clear, layout migrate, site\|conf\|mod, ssl renew, watchdog install\|remove, install: die Änderung vornehmen (ohne die Option sind sie ein Probelauf, der nichts ändert) |
+| `--dry-run` |  | der Standard der schreibenden Befehle (beibehalten für Skripte, die die Option übergeben); deploy: die Schritte ausgeben und was jeder täte, und nichts tun |
 | `--no-fpm` |  | deploy: PHP-FPM in Ruhe lassen (kein Neuladen, kein Warten) |
 | `--fpm-reload` |  | deploy: PHP-FPM neu laden, auch wenn sein OPcache die Dateien neu prüft (php.ini oder Pool geändert, Dateien umbenannt) |
 | `--no-velocity` |  | deploy: Velocity nicht neu starten |
 | `--no-autoload` |  | deploy: die Autoload-Arrays nicht neu erzeugen |
 | `--packer` |  | deploy: auch die gepackten Skripte und Styles leeren (ezjscore-packer, direkt vor template-block) |
+| `--clear-content` |  | deploy: die Caches content, exphttpcache, template-block und den Antwort-Cache auch leeren, wenn sich kein Template, keine Design-Datei, keine Einstellung und keine Übersetzung geändert hat |
+| `--all-caches` |  | deploy: jeden Cache leeren, gleich was sich seit dem letzten Deployment geändert hat |
+| `--caches` | erforderlich | deploy: diese Caches auch leeren, was immer sich geändert hat (IDs oder Tags von ezcache, durch Kommas getrennt: die Liste, die ein Migrationslauf meldet) |
+| `--migrate` |  | deploy: run the pending migrations (exp:migration:migrate --apply) before PHP-FPM and Velocity run the new code, whatever [DeploySettings] Migrate says |
+| `--no-migrate` |  | deploy: do not run the pending migrations, whatever [DeploySettings] Migrate says |
 
 Aus den Optionsdefinitionen im Code gelesen (`startup()`, `getOptions()`, `options()` oder `ezcConsoleOption`). Jedes Skript nimmt außerdem die Standardoptionen des Skript-Frameworks (`--help`, `--siteaccess`, `--debug`, `--quiet`, `--allow-root-user` ...).
 

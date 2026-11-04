@@ -16,7 +16,7 @@ veröffentlichen dürfen; dieses Skript nennt daher diese Bildschirme und sagt, 
 
 Melden Sie sich als Administrator einer Demo-Installation an, die nur erfundene Inhalte und erfundene Konten enthält
 ([Eine Demo-Installation einrichten](eine-demo-installation-einrichten.md)). Die Menünamen unten sind die des Designs admin4
-der Entwicklungslinie 6.0.15; sagen Sie, welche Version Sie zeigen.
+der Linie 6.0.15; sagen Sie, welche Version Sie zeigen.
 
 ## Inhalt
 
@@ -44,7 +44,7 @@ der Entwicklungslinie 6.0.15; sagen Sie, welche Version Sie zeigen.
 2. Zeigen Sie auf die Richtlinie, die die Hilfe öffnet: „Die Hilfe ist für Redakteure auf einer neuen Installation über
    die Richtlinie `exphelp/read` lesbar.“ ([Das Hilfesystem](../../funktionen/6.0/hilfesystem.md#wer-sie-lesen-darf))
 3. **Setup > Sprachen**: Zeigen Sie die Inhaltssprachen. Nennen Sie die dokumentierten Zahlen mit ihrer Quelle:
-   268 Locale-Dateien können als Inhaltssprachen verwendet werden; es gibt Übersetzungen der Administration (die aktuellen Gesamtzahlen stehen am Anfang der Seite Sprachen) ([Sprachen in Exponential](../../sprachen.md)).
+   368 Locale-Dateien können als Inhaltssprachen verwendet werden; es gibt Übersetzungen der Administration (die aktuellen Gesamtzahlen stehen am Anfang der Seite Sprachen) ([Sprachen in Exponential](../../sprachen.md)).
 
 ![Rollen, gezeigt in Teil 2](../bilder/help/pr-admin-roles.webp)
 

@@ -33,10 +33,11 @@ Enabled=true
 
 ## Rules
 
+> Another user's devices in full (their addresses and browsers) and signing them out  
 > Approve and Deny of a new user account waiting for approval (the workflow event  
 > "Approve user accounts"); content approvals address no account and never ask here  
 
-Default: a list of 12: `content/edit other`, `user/password other`, `user/sessions other RevokeSessionButton RevokeOthersButton`, `user/setting`, `user/unactivated`, `user/hygiene`, `user/deactivate`, `user/registration`, `content/removeuserobject ConfirmButton`, `collaboration/action other CollaborationAction_Accept CollaborationAction_Deny CollaborationAction_Defer`, `role/*`, `oauthadmin/*`.
+Default: a list of 13: `content/edit other`, `user/password other`, `user/sessions other *`, `user/sessionreport *`, `user/setting`, `user/unactivated`, `user/hygiene DisableButton EnableButton UnlockButton ConfirmButton ExportButton`, `user/deactivate`, `user/registration`, `content/removeuserobject ConfirmButton`, `collaboration/action other CollaborationAction_Accept CollaborationAction_Deny CollaborationAction_Defer`, `role/*` ....
 
 ```ini
 <?php /* #?ini charset="utf-8"?
@@ -46,10 +47,11 @@ Default: a list of 12: `content/edit other`, `user/password other`, `user/sessio
 Rules[]
 Rules[]=content/edit other
 Rules[]=user/password other
-Rules[]=user/sessions other RevokeSessionButton RevokeOthersButton
+Rules[]=user/sessions other *
+Rules[]=user/sessionreport *
 Rules[]=user/setting
 Rules[]=user/unactivated
-Rules[]=user/hygiene
+Rules[]=user/hygiene DisableButton EnableButton UnlockButton ConfirmButton ExportButton
 Rules[]=user/deactivate
 Rules[]=user/registration
 Rules[]=content/removeuserobject ConfirmButton

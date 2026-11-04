@@ -34,7 +34,7 @@ des PHP-Stacks: ihre Anwender und Ersteller.**
 
 Mitglieder der Community machen mit: Sie "use, contribute to, promote and develop software using Exponential
 worldwide", nutzen also Exponential weltweit, tragen dazu bei, werben dafür und entwickeln Software damit
-([Community: hier beginnen](../../../eng-us/help/community/community-start-here.md)). Zum Ökosystem gehören auch Menschen und Dinge, die
+([Community: hier beginnen](../gemeinschaft/community-hier-beginnen.md)). Zum Ökosystem gehören auch Menschen und Dinge, die
 in diesem Sinn nie mitmachen:
 
 - eine Organisation, deren Website ein Partner gebaut hat und die nie ein Forum besucht;
@@ -49,7 +49,7 @@ Exponential ist PHP-Software, die mit Composer installiert wird. Seine Welt lieg
 Grenzen sind in beide Richtungen offen:
 
 - Exponential verwendet PHP-Projekte: Zeta Components für seine Kernel-Bibliotheken, Symfony, Twig und Doctrine für die
-  Platform-Linie, Netgen Layouts für das Konzept des Seitenbaukastens, den Webserver Qbix für die Velocity-Engine.
+  Platform-Linie, die Upstream-Layouts-Pakete für das Konzept des Seitenbaukastens, den Webserver Qbix für die Velocity-Engine.
 - Es gibt etwas zurück: Forks und Patches, die für neue PHP-Versionen aktuell gehalten werden, und Pull-Requests an die
   Ursprungsprojekte, zum Beispiel "14 security PRs submitted upstream to zetacomponents", also 14 Sicherheits-Pull-Requests
   an zetacomponents ([Der PHP-Stack, auf dem es steht und dem es etwas zurückgibt](../wer-ist-die-exponential-foundation.md#der-php-stack-auf-dem-es-steht-und-dem-es-etwas-zurückgibt)).
@@ -76,8 +76,8 @@ mit Belegen beantwortet: [Community und Ökosystem als Verkaufsargument](../gesc
 
 - [Ökosystem: hier beginnen](oekosystem-hier-beginnen.md)
 - [Die Karte des Ökosystems](karte-des-oekosystems.md)
-- [Partner, Community und Ökosystem](../../../eng-us/help/community/partners-community-and-ecosystem.md)
-- [Was die Community ist](../../../eng-us/help/community/what-the-community-is.md)
+- [Partner, Community und Ökosystem](../gemeinschaft/partner-community-und-oekosystem.md)
+- [Was die Community ist](../gemeinschaft/was-die-community-ist.md)
 - [Freie Dokumentation](../freie-dokumentation.md): Diese Seite dürfen Sie unter der GNU FDL 1.3 frei kopieren, übersetzen und verbessern.
 
 <!-- exp-partner-block:start -->

@@ -2,7 +2,7 @@
 /**
  * File containing the rest bootstrap
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -19,6 +19,19 @@ if ( !class_exists( 'expMaintenance', false ) )
     require_once __DIR__ . '/kernel/classes/expmaintenance.php';
 if ( expMaintenance::check( __DIR__ ) )
     return;
+
+// The GraphQL response cache: a GET or a POST of a persisted query (/api/graphql?id=..., or a JSON body naming one)
+// whose answer is cached is answered here, before autoload, settings, siteaccess and database, anonymous or with
+// credentials the kernel checked a moment ago (doc/eng-us/features/6.0/graphql.md, "Speed"). Only what the raw
+// request says decides it; anything else goes on to the kernel. See kernel/classes/graphql/expgraphqlresponsecache.php.
+if ( isset( $_SERVER['REQUEST_METHOD'], $_SERVER['REQUEST_URI'] ) && ( $_SERVER['REQUEST_METHOD'] === 'GET' || $_SERVER['REQUEST_METHOD'] === 'POST' )
+     && strpos( $_SERVER['REQUEST_URI'], '/api/graphql' ) !== false )
+{
+    if ( !class_exists( 'expGraphQLResponseCache', false ) )
+        require_once __DIR__ . '/kernel/classes/graphql/expgraphqlresponsecache.php';
+    if ( expGraphQLResponseCache::serveEarly( __DIR__, $_SERVER ) )
+        return;
+}
 
 require __DIR__ . '/autoload.php';
 

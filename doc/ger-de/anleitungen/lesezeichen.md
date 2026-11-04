@@ -97,11 +97,14 @@ Die Seitengröße kommt aus `admininterface.ini [PaginationSettings] ItemsPerPag
 Seiten der Administration selbst (die Systeminformationen, die Cache-Seite, die Hilfe-Übersicht, das Audit-Protokoll
 gefiltert auf einen Benutzer, eine Liste auf einer bestimmten Seite) merken Sie auf der Seite: **Seite merken** über dem
 Pfad oder dieselbe Schaltfläche im Kasten Lesezeichen. Das Formular nimmt einen Namen (standardmäßig den Seitentitel)
-und einen Ordner. Solche Lesezeichen haben ein Zahnrad-Symbol, eine Karte mit ihrer Adresse, **Öffnen** und
-**Umbenennen** und werden wie jedes andere Lesezeichen angeordnet, verschoben und entfernt; eine Seite, die Sie nicht
-mehr öffnen dürfen, erscheint ohne Link und mit **Kein Zugriff**. Schritt für Schritt, mit Bildern:
-[Systemseiten als Lesezeichen](../hilfe/systemseiten-als-lesezeichen.md); Einzelheiten:
-[Lesezeichen für Systemseiten](../funktionen/6.0/lesezeichen-fuer-systemseiten.md).
+und einen Ordner. Eine Suche merken Sie genauso; sie behält ihren Suchtext. Solche Lesezeichen haben das Symbol ihres
+Bereichs (eine Lupe für eine Suche), eine Karte mit ihrer Adresse, **Öffnen** und **Umbenennen** und werden wie jedes
+andere Lesezeichen angeordnet, verschoben und entfernt. Sie behalten weder Hostnamen noch Siteaccess und öffnen sich
+deshalb in jeder Administration der Installation; wo eine Seite nicht geöffnet werden kann (in diesem Siteaccess
+abgeschaltet, von Ihren Rollen nicht erlaubt, entfernt), ist das Lesezeichen ausgegraut, ohne Link, und sagt warum.
+Seiten, die nur ein Formular verarbeiten (Speichern, Entfernen, Abmelden, die Bearbeitungsformulare), lassen sich nicht
+merken. Schritt für Schritt, mit Bildern jedes Designs: [Systemseiten als Lesezeichen](../hilfe/systemseiten-als-lesezeichen.md);
+Einzelheiten und Einstellungen: [Lesezeichen für Systemseiten](../funktionen/6.0/lesezeichen-fuer-systemseiten.md).
 
 ## 4. Lesezeichen und Ordner anordnen
 
@@ -188,6 +191,10 @@ verschoben.
   alles Übrige. Der Baum des Kastens Lesezeichen und des Auswahldialogs (`content/bookmark_tree.tpl`) ist unverändert.
 - Das Aussehen steht im Lesezeichen-Abschnitt von `stylesheets/modules/content.css` (design/admin und design/admin4),
   in der Gestaltungssprache der Seiten für Sektionen, Linklisten und Sitzungen.
+- Ein Lesezeichen einer Systemseite behält seine Adresse (`expbookmark_view.module_uri`) und dieselbe Adresse zerlegt:
+  `module_name`, `view_name` und `view_parameters` (`expBookmarkView::parse()`). Wird ein Modul oder eine Ansicht
+  umbenannt, verschiebt `php update/common/scripts/6.0/createbookmarkviewtable.php --rename=<alt>=<neu>` die
+  Lesezeichen aller Benutzer ([Einzelheiten](../funktionen/6.0/lesezeichen-fuer-systemseiten.md#ein-modul-oder-eine-ansicht-umbenennen)).
 
 Tests, ohne Datenbank: `php vendor/bin/phpunit tests/tests/kernel/classes/bookmarks/expBookmarkPageTest.php`.
 Mit einer Installation: `php vendor/bin/phpunit tests/tests/kernel/classes/bookmarks/BookmarkFoldersTest.php --filter 'testShift|testSetOrderAndMoveToPosition'`.

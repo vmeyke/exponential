@@ -982,6 +982,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>ಈ ಪುಟವನ್ನು ಮಾತ್ರ ಹುಡುಕಲಾಗುತ್ತದೆ: %count ರಲ್ಲಿ %from ರಿಂದ %to.</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>ಕರ್ನಲ್ ಮತ್ತು ವಿಸ್ತರಣೆಗಳ ಪ್ರತಿಯೊಂದು ಡೇಟಾ ಪ್ರಕಾರ, ಮತ್ತು ವರ್ಗಗಳು ಹಾಗೂ ವಿಷಯ ಅದನ್ನು ಹೇಗೆ ಬಳಸುತ್ತವೆ.</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>ಡೇಟಾಟೈಪ್‌ಗಳು</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2314,6 +2322,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>ಸಿಸ್ಟಮ್ ಪುಟಗಳನ್ನೂ ಬುಕ್‌ಮಾರ್ಕ್ ಮಾಡಬಹುದು: ಪುಟವನ್ನು ತೆರೆಯಿರಿ (ಸೆಟಪ್, ಆಡಿಟ್ ಟ್ರೇಲ್, ಬಳಕೆದಾರರ ಪಟ್ಟಿ ...) ಮತ್ತು ಅದರ ಮೇಲಿರುವ “ಈ ಪುಟವನ್ನು ಬುಕ್‌ಮಾರ್ಕ್ ಮಾಡು” ಆರಿಸಿ. ಅಂತಹ ಬುಕ್‌ಮಾರ್ಕ್‌ಗಳಿಗೆ ಗೇರ್ ಐಕಾನ್ ಇರುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>ನೀವು ಇನ್ನು ಮುಂದೆ ಇಲ್ಲಿ ಈ ಪುಟವನ್ನು ತೆರೆಯುವಂತಿಲ್ಲ. ಬುಕ್‌ಮಾರ್ಕ್ ಅನ್ನು ತೆಗೆದುಹಾಕಿ, ಅಥವಾ ಪ್ರವೇಶಕ್ಕಾಗಿ ನಿರ್ವಾಹಕರನ್ನು ಕೇಳಿ.</translation>
     </message>
 </context>
 <context>
@@ -5163,6 +5175,210 @@
         <source>Go to the first page</source>
         <translation>ಮೊದಲ ಪುಟಕ್ಕೆ ಹೋಗಿ</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>ಇತರೆ</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>ಕಳೆದ 7 ದಿನಗಳು</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>ಕಸ್ಟಮ್ ಅವಧಿ</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>ಎಲ್ಲಾ ಪದಗಳು</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>ಯಾವುದೇ ಪದ</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>ನಿಖರ ಪದಗುಚ್ಛ</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>ಪ್ರಸ್ತುತತೆ</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>ಹೆಸರು ಅ–ಳ</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>ಹೆಸರು ಳ–ಅ</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>ಮಾರ್ಪಡಿಸಲಾಗಿದೆ, ಹೊಸದು ಮೊದಲು</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>ಮಾರ್ಪಡಿಸಲಾಗಿದೆ, ಹಳೆಯದು ಮೊದಲು</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>ಪ್ರಕಟಿಸಲಾಗಿದೆ, ಹೊಸದು ಮೊದಲು</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>ಪ್ರಕಟಿಸಲಾಗಿದೆ, ಹಳೆಯದು ಮೊದಲು</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>ಮಾರ್ಪಡಿಸಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>ಫಿಲ್ಟರ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>ಫಿಲ್ಟರ್‌ಗಳನ್ನು ತೋರಿಸು</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>ಫಿಲ್ಟರ್‌ಗಳನ್ನು ಮರೆಮಾಡು</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>ಮರುಹೊಂದಿಸು</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>ಅನ್ವಯಿಸು</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>ಪದಗಳು</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>ವಿಷಯದ ಪ್ರಕಾರ</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>ಇನ್ನಷ್ಟು ತೋರಿಸು (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>ಅದರ ಗುಣಲಕ್ಷಣಗಳಲ್ಲಿ ಒಂದರಲ್ಲಿ ಹುಡುಕಲು ಒಂದು ವಿಷಯದ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ.</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>ವಿಭಾಗ</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>ಇಂದ</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>ಗೆ</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>ಪ್ರಾರಂಭ ದಿನಾಂಕವು ಮಾನ್ಯ ದಿನಾಂಕವಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>ಅಂತಿಮ ದಿನಾಂಕವು ಮಾನ್ಯ ದಿನಾಂಕವಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>ಮಾಲೀಕ</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>ಬಳಕೆದಾರ ID, ಲಾಗಿನ್ ಅಥವಾ ಇ-ಮೇಲ್ ವಿಳಾಸ.</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>“%input” ಗಾಗಿ ಯಾವುದೇ ಬಳಕೆದಾರ ಕಂಡುಬಂದಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>ಭಾಷೆ</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>ಯಾವುದೇ ಭಾಷೆ</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>ಸ್ಥಳ</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>%count ಸ್ಥಳಗಳು</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>ಪ್ರತಿ ಪುಟಕ್ಕೆ ಫಲಿತಾಂಶಗಳು</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>“%text” ಗಾಗಿ ಫಲಿತಾಂಶಗಳು (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>ಫಲಿತಾಂಶಗಳು (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>ಇದರಂತೆ ವಿಂಗಡಿಸಿ</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>ವಿಂಗಡಿಸು</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>ಸಕ್ರಿಯ ಫಿಲ್ಟರ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>ಈ ಫಿಲ್ಟರ್ ಅನ್ನು ತೆಗೆದುಹಾಕಿ</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>ಅಥವಾ ಹೊಂದಾಣಿಕೆಯಾಗುವ ವಿಷಯವನ್ನು ಪಟ್ಟಿ ಮಾಡಲು ಫಿಲ್ಟರ್‌ಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ ಮತ್ತು ಅನ್ವಯಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>ನೀವು ಪದಗಳನ್ನು ಟೈಪ್ ಮಾಡಿದ ನಂತರ ಫಿಲ್ಟರ್‌ಗಳು ಹುಡುಕಾಟವನ್ನು ಕಿರಿದಾಗಿಸುತ್ತವೆ.</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>“%text” ಗಾಗಿ ಯಾವುದೇ ಫಲಿತಾಂಶಗಳು ಕಂಡುಬಂದಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>ಯಾವುದೇ ಫಲಿತಾಂಶಗಳು ಕಂಡುಬಂದಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>ಮೇಲಿನ ಒಂದು ಫಿಲ್ಟರ್ ಅನ್ನು ತೆಗೆದುಹಾಕಿ.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>ಅನುವಾದಗಳು</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>ಕ್ರಿಯೆಗಳು</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>%name ಸಂಪಾದಿಸು</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>ಸಂಪಾದಿಸು</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -7512,6 +7728,10 @@
         <source>Setup &gt; Cronjobs</source>
         <translation>ಸೆಟಪ್ &gt; ಕ್ರಾನ್ ಜಾಬ್‌ಗಳು</translation>
     </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>ಇನ್ನೂ ಯಾವುದೇ ಕ್ರಾನ್‌ಜಾಬ್ ಭಾಗ ರನ್ ಆಗಿಲ್ಲ: ಜಾಬ್ ಸರತಿ, ಆಮದುಗಳು, ಅಧಿಸೂಚನೆಗಳು ಮತ್ತು ಹುಡುಕಾಟ ಸೂಚ್ಯಂಕ ಕಾಯುತ್ತಿವೆ. php bin/php/installcrontab.php --add --apply ಅನ್ನು ರನ್ ಮಾಡಿ, ಅಥವಾ --show ತೋರಿಸುವ ಸಾಲುಗಳನ್ನು crontab ಫೈಲ್‌ಗೆ ಸೇರಿಸಿ.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/dashboard/drafts</name>
@@ -8056,8 +8276,8 @@
         <translation>ಪರವಾನಗಿ ಅಗತ್ಯಪಡಿಸುವಂತೆ, ಮೂಲ ಲೇಖಕರ ಮತ್ತು Exponential ಜೊತೆಗೆ ಸೇರಿಸಲಾದ ಮೂರನೇ ಪಕ್ಷದ ಸಾಫ್ಟ್‌ವೇರ್‌ನ ಹಕ್ಕುಸ್ವಾಮ್ಯ ಸೂಚನೆಗಳನ್ನು ಮೂಲ ಫೈಲ್‌ಗಳಲ್ಲಿ ಮತ್ತು LICENSE ಫೈಲ್‌ನಲ್ಲಿ ಇರಿಸಲಾಗಿದೆ.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>ಕೆಳಗಿನದು, eZ Systems Contributor Licensing Agreement ನ ನಿಯಮಗಳು ಮತ್ತು ಷರತ್ತುಗಳ ಅಡಿಯಲ್ಲಿ 7x ಬಳಕೆಗಾಗಿ ತಮ್ಮ ಕೆಲಸಕ್ಕೆ ಪರವಾನಗಿ ನೀಡಿರುವ Exponential ಕೊಡುಗೆದಾರರ ಪಟ್ಟಿ. ಈ ಒಪ್ಪಂದದಲ್ಲಿ ಅನುಮತಿಸಿದಂತೆ, 7x ಪ್ರತಿಯೊಂದು ಕೊಡುಗೆಯನ್ನು ಅದು ಸೇರಿರುವ ಫೈಲ್‌ನ ಪರವಾನಗಿಯ ಅಡಿಯಲ್ಲೇ ಮರುವಿತರಿಸುತ್ತದೆ. ಪಟ್ಟಿಯು ಪ್ರತಿ ಕೊಡುಗೆದಾರರ ಹೆಸರು, ಐಚ್ಛಿಕ ಸಂಪರ್ಕ ಮಾಹಿತಿ ಮತ್ತು ಅವರು ಕೊಡುಗೆ ನೀಡಿದ ಅಥವಾ ಕೆಲಸ ಮಾಡಿದ ಫೈಲ್‌ಗಳನ್ನು ಹೆಸರಿಸುತ್ತದೆ.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>Exponential ಮತ್ತು ಅದು ಹುಟ್ಟಿದ ತಂತ್ರಾಂಶದ ಮೇಲಿನ ಕೆಲಸಕ್ಕಾಗಿ ಮನ್ನಣೆ ಪಡೆದ ಕೊಡುಗೆದಾರರು, ಅವರು ಕೊಡುಗೆ ನೀಡಿದ ಕಡತಗಳೊಂದಿಗೆ. ಇದು ಮನ್ನಣೆ, ಹಕ್ಕುಸ್ವಾಮ್ಯ ಸೂಚನೆಯಲ್ಲ: Exponential ಗೆ ನೀಡಿದ ಕೊಡುಗೆಗಳನ್ನು Contributor Licensing Agreement ಅಡಿಯಲ್ಲಿ Exponential Foundation ಮತ್ತು 7x ಗೆ ವರ್ಗಾಯಿಸಲಾಗುತ್ತದೆ.</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13879,32 +14099,20 @@ Note: The packages will not be uninstalled.</source>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;Exponential Enterprise Edition ಅನ್ನು ಮೌಲ್ಯಮಾಪನ ಮಾಡಿ&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Exponential ಸಮುದಾಯದ ಸದಸ್ಯರಾಗಿ, ವಿನಿಮಯ ಮಾಡಿ ಮತ್ತು ಕೊಡುಗೆ ನೀಡಿ&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; ಕಾಪಿರೈಟ್ &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; ಮತ್ತು ಇತರರು.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>&lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt; ಇದರಿಂದ ಚಾಲಿತವಾಗಿದೆ. ಹೆಚ್ಚಿನ ಮಾಹಿತಿಗಾಗಿ &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt; ನೋಡಿ.</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; ಕಾಪಿರೈಟ್ &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;7x AS&lt;/a&gt; ಮತ್ತು ಇತರರು.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> ಹೆಚ್ಚಿನ ಮಾಹಿತಿಗಾಗಿ &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt; ನೋಡಿ.</translation>
     </message>
     <message>
-        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; ಕಾಪಿರೈಟ್ &amp;copy; 1998-2026 &lt;a href=&quot;%ez_link&quot;&gt;7x&lt;/a&gt; ಮತ್ತು ಇತರರು.</translation>
+        <source>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%foundation_link&quot;&gt;Exponential Foundation&lt;/a&gt; and &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;Exponential (From 7x) ಅನ್ನು ಮೌಲ್ಯಮಾಪನ ಮಾಡಿ&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Exponential ಸಮುದಾಯದ ಸದಸ್ಯರಾಗಿ, ಬೆಂಬಲ ಪಡೆಯಿರಿ ಮತ್ತು ಕೊಡುಗೆ ನೀಡಿ&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;Exponential&lt;/a&gt; ಕಾಪಿರೈಟ್ &amp;copy; 1998-2026 &lt;a href=&quot;%7x_link&quot;&gt;7x&lt;/a&gt; ಮತ್ತು ಇತರರು.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13913,6 +14121,61 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Help center</source>
         <translation>ಸಹಾಯ ಕೇಂದ್ರ</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>ವಿಷಯ</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>ದಾಖಲೆ ಪುಟಗಳು</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>ಬಳಕೆದಾರರು</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>ವಿಷಯ ವರ್ಗಗಳು</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>ಆಡಳಿತ</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>ಪುಟ %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>ಎಲ್ಲಾ ಫಲಿತಾಂಶಗಳನ್ನು ನೋಡಿ</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>%count ಫಲಿತಾಂಶಗಳು</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>ಒಂದು ಫಲಿತಾಂಶ</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>%count ಸಲಹೆಗಳು</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>ಯಾವುದೇ ಸಲಹೆಗಳಿಲ್ಲ</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>ಸಲಹೆಗಳನ್ನು ಲೋಡ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>ಸಲಹೆಗಳು</translation>
     </message>
 </context>
 <context>
@@ -14381,6 +14644,14 @@ Note: The packages will not be uninstalled.</source>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>ಈ ಇನ್‌ಸ್ಟಾಲೇಶನ್ ಸಾರ್ವಜನಿಕ ಡೆಮೊ ಆಗಿದೆ: ಯಾರಿಗಾದರೂ ಇದರ ನಿರ್ವಾಹಕ ಪಾಸ್‌ವರ್ಡ್ ತಿಳಿದಿರಬಹುದು, ಮತ್ತು ನಿರ್ವಾಹಕ ಪಾಸ್‌ವರ್ಡ್‌ಗಳನ್ನು ಬದಲಾಯಿಸಲು ಅಥವಾ ಮರುಹೊಂದಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ. ಇಲ್ಲಿ ಯಾವುದೇ ಖಾಸಗಿ ಮಾಹಿತಿಯನ್ನು ನಮೂದಿಸಬೇಡಿ.</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>ನಿಮ್ಮ ಸಾಧನಗಳು</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>ಭದ್ರತಾ ಚಟುವಟಿಕೆ</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14670,6 +14941,14 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>ಮಾರ್ಗದರ್ಶಿಗಳು, ಹುಡುಕಾಟ ಮತ್ತು ದೋಷವನ್ನು ವರದಿ ಮಾಡುವ ವಿಧಾನ.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>ಇತ್ತೀಚಿನ ವಿಷಯ</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>ಅತ್ಯಂತ ಹೊಸ ವಿಷಯ, ಪರಿಶೀಲನೆಗಾಗಿ ತಡೆಹಿಡಿಯಲಾದದ್ದು, ಮತ್ತು ಆಯ್ಕೆಯ ಮೇಲಿನ ಕ್ರಿಯೆಗಳು.</translation>
     </message>
 </context>
 <context>
@@ -15128,6 +15407,46 @@ Note: The packages will not be uninstalled.</source>
         <source>Synchronisations</source>
         <translation>ಸಿಂಕ್ರೊನೈಸೇಶನ್‌ಗಳು</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>GraphQL API: ಅದರ ಎಂಡ್ ಪಾಯಿಂಟ್, ಸ್ಕೀಮಾ ಮತ್ತು ಕ್ವೆರಿಗಳನ್ನು ಪ್ರಯತ್ನಿಸಲು ಒಂದು ಪ್ಲೇಗ್ರೌಂಡ್.</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>ಮೈಗ್ರೇಶನ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>ಫೈಲ್‌ಗಳಾಗಿ ಇರಿಸಲಾದ ಇನ್‌ಸ್ಟಾಲೇಶನ್ ಬದಲಾವಣೆಗಳು: ಅವುಗಳ ಸ್ಥಿತಿ, ರನ್‌ಗಳು, ರನ್ ಮತ್ತು ರೋಲ್‌ಬ್ಯಾಕ್.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>ಇತ್ತೀಚಿನ ವಿಷಯ</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>ಅತ್ಯಂತ ಹೊಸ ವಿಷಯ, ಪರಿಶೀಲನೆಗಾಗಿ ತಡೆಹಿಡಿಯಲಾದದ್ದು, ಮತ್ತು ಆಯ್ಕೆಯ ಮೇಲಿನ ಕ್ರಿಯೆಗಳು.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>ಸೈಟ್‌ನ ಸ್ಥಿರ ಪ್ರತಿಯನ್ನು GitHub Pages ಅಥವಾ ಯಾವುದೇ git ಹೋಸ್ಟ್‌ಗೆ ಪ್ರಕಟಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>ಸ್ಥಿರ ಪ್ರಕಟಣೆ</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>ಡೇಟಾಟೈಪ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>ಕರ್ನಲ್ ಮತ್ತು ವಿಸ್ತರಣೆಗಳ ಪ್ರತಿಯೊಂದು ಡೇಟಾ ಪ್ರಕಾರ, ಮತ್ತು ವರ್ಗಗಳು ಹಾಗೂ ವಿಷಯ ಅದನ್ನು ಹೇಗೆ ಬಳಸುತ್ತವೆ.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15292,6 +15611,22 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>ಯಾರೂ ಬಳಸದ ಅಥವಾ ಗಮನಿಸಬೇಕಾದ ಖಾತೆಗಳು; ಅವನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ, ಅನ್‌ಲಾಕ್ ಮಾಡಿ ಅಥವಾ ರಫ್ತು ಮಾಡಿ.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>ಬಳಕೆದಾರ ಆಡಿಟ್ ಲಾಗ್</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>ಪ್ರತಿ ಖಾತೆಗೆ ಯಾರು ಬದಲಾಯಿಸಿದರು, ಸೈನ್ ಇನ್ ಮಾಡಿದರು ಅಥವಾ ನಿರಾಕರಿಸಲ್ಪಟ್ಟರು; ಫಿಲ್ಟರ್ ಮಾಡಿ ಮತ್ತು ರಫ್ತು ಮಾಡಿ.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>ಸೈನ್ ಇನ್ ವರದಿ</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>ಯಾರು ಸೈನ್ ಇನ್ ಆಗಿದ್ದಾರೆ, ದಿನವಾರು ಸೈನ್ ಇನ್‌ಗಳು ಮತ್ತು ವೈಫಲ್ಯಗಳು; ಒಬ್ಬ ಬಳಕೆದಾರರನ್ನು ಎಲ್ಲೆಡೆಯಿಂದ ಸೈನ್ ಔಟ್ ಮಾಡು.</translation>
     </message>
 </context>
 <context>
@@ -22108,6 +22443,22 @@ Note: The packages will not be uninstalled.</source>
         <source>%n hours ago</source>
         <translation>%n ಗಂಟೆಗಳ ಹಿಂದೆ</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>GraphQL API ಯ ಸಂಗ್ರಹಿಸಿದ ಕ್ವೆರಿಗಳ ಉತ್ತರಗಳು ಮತ್ತು ಅದರ ಸ್ಕೀಮಾದ ವಿಷಯ ವರ್ಗಗಳು.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>ಸ್ಥಿರ ಪ್ರತಿಯನ್ನು GitHub Pages ಅಥವಾ ಯಾವುದೇ git ಹೋಸ್ಟ್‌ಗೆ ಪ್ರಕಟಿಸಿ</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>ಸ್ಥಿರ ಪ್ರಕಟಣೆ</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>ಸ್ಥಿರ ಕ್ಯಾಷ್ ಈ ಸರ್ವರ್‌ನಿಂದ ಪುಟಗಳನ್ನು ಒದಗಿಸುತ್ತದೆ. ಸೈಟ್‌ನ ಸ್ಥಿರ ಪ್ರತಿಯನ್ನು ಬೇರೆಡೆ, GitHub Pages ನಲ್ಲಿ ಅಥವಾ ಯಾವುದೇ git ಹೋಸ್ಟ್‌ನಲ್ಲಿ ಪ್ರಕಟಿಸಲು ಸ್ಥಿರ ಪ್ರಕಟಣೆಯನ್ನು ಬಳಸಿ.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25649,6 +26000,10 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>last purge</source>
         <translation>ಕೊನೆಯ ತೆರವು</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>ಬರಹಗಳು ಸ್ಥಿತಿ ಲಾಕ್ ಪಡೆಯಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ (ಕೊನೆಯದಾಗಿ %date): ಪ್ರತಿಯೊಂದೂ ಎಲ್ಲಾ ಕ್ಯಾಶ್ ಮಾಡಿದ ಫಲಿತಾಂಶಗಳನ್ನು ಹಳತಾಗಿಸಿತು. ಸೈಟ್ ಯಾವ ಬಳಕೆದಾರರಾಗಿ ಚಲಿಸುತ್ತದೋ ಅವರೆಲ್ಲರಿಗೂ %file ಬರೆಯಲು ಸಾಧ್ಯವಾಗಿರಬೇಕು; NFS ನಲ್ಲಿ ಇದಕ್ಕೆ NFSv4 ಅಥವಾ lockd ಬೇಕು.</translation>
     </message>
 </context>
 <context>
@@ -33597,6 +33952,14 @@ Note: The packages will not be uninstalled.</source>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>PHP ಹ್ಯಾಂಡ್ಲರ್‌ನ ಅವಧಿ ಮುಗಿದ ಸೆಷನ್‌ಗಳನ್ನು PHP ತಾನೇ (session.gc_maxlifetime) ತೆಗೆದುಹಾಕುತ್ತದೆ; ಈ ಪುಟ ಅಥವಾ session_gc ಕ್ರಾನ್‌ಜಾಬ್ ಭಾಗ ಅದನ್ನು ಮಾಡುವುದಿಲ್ಲ.</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>ಎಲ್ಲಾ ಬಳಕೆದಾರರ ಸೈನ್ ಇನ್ ಆಗಿರುವ ಸೆಷನ್‌ಗಳನ್ನು ಸೈನ್ ಇನ್ ವರದಿಯಲ್ಲಿ ಪಟ್ಟಿ ಮಾಡಲಾಗುತ್ತದೆ ಮತ್ತು ಅಲ್ಲಿಂದಲೇ ಸೈನ್ ಔಟ್ ಮಾಡಲಾಗುತ್ತದೆ; ಅದು ಪ್ರತಿಯೊಂದು ಸೆಷನ್ ಹ್ಯಾಂಡ್ಲರ್‌ನೊಂದಿಗೆ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>ಸೈನ್ ಇನ್ ವರದಿ ತೆರೆ</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37921,6 +38284,26 @@ your account.</source>
     <message>
         <source>None yet</source>
         <translation>ಇನ್ನೂ ಯಾವುದೂ ಇಲ್ಲ</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>ಭದ್ರತಾ ಚಟುವಟಿಕೆ</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>ನಿಮ್ಮ ಇತ್ತೀಚಿನ ಸೈನ್ ಇನ್‌ಗಳು, ವಿಫಲ ಪ್ರಯತ್ನಗಳು ಮತ್ತು ನಿಮ್ಮ ಪಾಸ್‌ವರ್ಡ್, ಇ-ಮೇಲ್ ವಿಳಾಸ ಹಾಗೂ ಎರಡು ಹಂತದ ಸೈನ್ ಇನ್‌ನಲ್ಲಿನ ಬದಲಾವಣೆಗಳು.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>ಈ ಖಾತೆಯ ಇತ್ತೀಚಿನ ಸೈನ್ ಇನ್‌ಗಳು, ವಿಫಲ ಪ್ರಯತ್ನಗಳು ಮತ್ತು ಭದ್ರತಾ ಬದಲಾವಣೆಗಳು.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>ಚಟುವಟಿಕೆ ಪರಿಶೀಲಿಸು</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>%count ವಿಫಲ ಸೈನ್ ಇನ್‌ಗಳು</translation>
     </message>
 </context>
 <context>
@@ -44087,6 +44470,42 @@ If you want to send comments to the approver or view the status use the URL belo
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>ಸೈನ್ ಇನ್ ಆದ ನಂತರ, ಬೇರೆ ಏನನ್ನಾದರೂ ಮಾಡುವ ಮೊದಲು ಬಳಕೆದಾರರು ಹೊಸ ಪಾಸ್‌ವರ್ಡ್ ಆರಿಸಬೇಕು. ನೀವು ಯಾರಿಗಾದರೂ ತಾತ್ಕಾಲಿಕ ಪಾಸ್‌ವರ್ಡ್ ನೀಡಿದಾಗ ಇದನ್ನು ಬಳಸಿ.</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ ಚಿತ್ರವನ್ನು ಆಯ್ಕೆಮಾಡಿ</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>ನೀವು ಆಯ್ಕೆಮಾಡುವ ವಸ್ತುವಿನ ಚಿತ್ರ ಫೈಲ್ ಅನ್ನು ಈ ಕ್ಷೇತ್ರಕ್ಕೆ ನಕಲಿಸಲಾಗುತ್ತದೆ. ಇನ್ನೊಂದು ವಸ್ತು ಬದಲಾಗುವುದಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>"%name" ನ ಚಿತ್ರವನ್ನು ಈ ಕ್ಷೇತ್ರಕ್ಕೆ ನಕಲಿಸಲಾಗಿದೆ.</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>ಚಿತ್ರಕ್ಕಾಗಿ ಬ್ರೌಸ್ ಮಾಡಿ</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>ಹೆಸರಿನಿಂದ ಚಿತ್ರಗಳನ್ನು ಹುಡುಕಿ</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>ಹುಡುಕು</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>"%name" ನ ಚಿತ್ರವನ್ನು ಬಳಸಿ</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>ಈ ಚಿತ್ರವನ್ನು ಬಳಸಿ</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>ನಿಮ್ಮ ಹುಡುಕಾಟಕ್ಕೆ ಹೊಂದುವ ಯಾವುದೇ ಚಿತ್ರವಿಲ್ಲ.</translation>
     </message>
 </context>
 <context>
@@ -51011,6 +51430,10 @@ See the requirements page for more information.</source>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>crontab ಬರೆಯಲಾಗಿಲ್ಲ (%reason). ಸೈಟ್ ಯಾವ ಬಳಕೆದಾರರಾಗಿ ಚಾಲನೆಯಾಗುತ್ತದೆಯೋ ಆ ಬಳಕೆದಾರರ crontab ಗೆ ಈ ಸಾಲುಗಳನ್ನು ಸೇರಿಸಿ, ಇಲ್ಲದಿದ್ದರೆ ಸರತಿ, ಆಮದುಗಳು, ಅಧಿಸೂಚನೆಗಳು ಮತ್ತು ಹುಡುಕಾಟ ಸೂಚಿ ಎಂದಿಗೂ ಚಾಲನೆಯಾಗುವುದಿಲ್ಲ:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>ಮರುಸ್ಥಾಪನೆಯನ್ನು ಕಿಕ್‌ಸ್ಟಾರ್ಟರ್ ಮೂಲಕ (%file, ನಂತರ php bin/php/kickstarter.php run --apply) ಅಥವಾ ಹೊಸ ಸ್ಥಾಪನೆಯ ಮೂಲಕ ಮಾಡಲಾಗುತ್ತದೆ.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54890,6 +55313,10 @@ your account.</source>
         <source>eZJSCore Public Packer cache</source>
         <translation>eZJSCore Public Packer ಕ್ಯಾಷ್</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>GraphQL ಕ್ಯಾಶ್ (ಉತ್ತರಗಳು ಮತ್ತು ಸ್ಕೀಮಾ ವರ್ಗಗಳು)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54976,6 +55403,14 @@ your account.</source>
     <message>
         <source>Copy of %class_name</source>
         <translation>%class_name ಇದರ ನಕಲು</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>ಡೇಟಾಟೈಪ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>ಡೇಟಾ ಪ್ರಕಾರ %string</translation>
     </message>
 </context>
 <context>
@@ -55802,6 +56237,26 @@ your account.</source>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>SVG ಚಿತ್ರವನ್ನು ಓದಲಾಗಲಿಲ್ಲ, ಅಥವಾ ಅದರಲ್ಲಿರುವ ಯಾವುದನ್ನೂ ಸುರಕ್ಷಿತವಾಗಿ ತೋರಿಸಲಾಗುವುದಿಲ್ಲ.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>ಚಿತ್ರವನ್ನು ನಕಲಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ. ದಯವಿಟ್ಟು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ ಅಥವಾ ಸೈಟ್ ನಿರ್ವಾಹಕರನ್ನು ಸಂಪರ್ಕಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>ಆಯ್ಕೆಮಾಡಿದ ವಸ್ತು ಅಸ್ತಿತ್ವದಲ್ಲಿಲ್ಲ ಅಥವಾ ಅದನ್ನು ಓದಲು ನಿಮಗೆ ಅನುಮತಿ ಇಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>ಆಯ್ಕೆಮಾಡಿದ ವಸ್ತುವಿಗೆ ಚಿತ್ರವಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>ಆಯ್ಕೆಮಾಡಿದ ವಸ್ತುವಿನ ಚಿತ್ರ ಫೈಲ್ ಅನ್ನು ಓದಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>ಆಯ್ಕೆಮಾಡಿದ ವಸ್ತುವಿನ ಚಿತ್ರವು ಈ ಕ್ಷೇತ್ರ ಅನುಮತಿಸುವುದಕ್ಕಿಂತ ದೊಡ್ಡದಾಗಿದೆ: %1 ಬೈಟ್‌ಗಳು.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56332,6 +56787,42 @@ your account.</source>
         <source>The bookmark was renamed to &quot;%name&quot;.</source>
         <translation>ಬುಕ್‌ಮಾರ್ಕ್ ಅನ್ನು “%name” ಎಂದು ಮರುಹೆಸರಿಸಲಾಗಿದೆ.</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>ಈ ಸೈಟ್‌ಆಕ್ಸೆಸ್‌ನಲ್ಲಿ (%siteaccess) ಈ ಪುಟವನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ. ಈ ಪುಟ ಇರುವ ಸೈಟ್‌ಆಕ್ಸೆಸ್‌ನಲ್ಲಿ ಬುಕ್‌ಮಾರ್ಕ್ ಅನ್ನು ತೆರೆಯಿರಿ.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>ಈ ಪುಟದ ಮಾಡ್ಯೂಲ್ ಅನ್ನು ಇಲ್ಲಿ ಸ್ಥಾಪಿಸಲಾಗಿಲ್ಲ ಅಥವಾ ಸಕ್ರಿಯಗೊಳಿಸಲಾಗಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>ಈ ಪುಟ ಇನ್ನು ಮುಂದೆ ಅಸ್ತಿತ್ವದಲ್ಲಿಲ್ಲ: ಅದರ ಮಾಡ್ಯೂಲ್‌ನಲ್ಲಿ ಅಂತಹ ನೋಟವಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>ನಿಮ್ಮ ಯಾವುದೇ ಪಾತ್ರವು ಈ ಪುಟವನ್ನು ತೆರೆಯಲು ನಿಮಗೆ ಅನುಮತಿ ನೀಡುವುದಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>ನೀವು ಈ ಸೈಟ್‌ಆಕ್ಸೆಸ್ ಅನ್ನು ಬಳಸುವಂತಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>ಈ ಪುಟ ತೋರಿಸುವ ವಿಷಯವನ್ನು ನೀವು ಓದುವಂತಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>ಈ ರೀತಿಯ ಪುಟವನ್ನು ಬುಕ್‌ಮಾರ್ಕ್ ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ: ಇದು ಫಾರ್ಮ್ ಮೇಲೆ ಮಾತ್ರ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ, ಅಥವಾ ಇದು ಒಂದು ಕ್ಷಣದ ಪುಟವಾಗಿದೆ.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>ಈ ಪುಟದ ವಿಳಾಸ ಕಾಣೆಯಾಗಿದೆ.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>ಈ ಪುಟವನ್ನು ಈಗ ತೆರೆಯಲು ಸಾಧ್ಯವಿಲ್ಲ.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56803,6 +57294,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>ಕೊನೆಯ ರನ್‌ನಲ್ಲಿ ಮೇಲ್ ಟ್ರಾನ್ಸ್‌ಪೋರ್ಟ್ %count ಸಂದೇಶಗಳನ್ನು ನಿರಾಕರಿಸಿದೆ. ಮೇಲ್ ಸರ್ವರ್ ಮತ್ತು site.ini MailSettings ಪರಿಶೀಲಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>%count ಘಟನೆಗಳು ಕಾಯುತ್ತಿವೆ ಮತ್ತು ಅಧಿಸೂಚನೆ ಕ್ರಾನ್‌ಜಾಬ್‌ನ ಯಾವುದೇ ರನ್ ದಾಖಲಾಗಿಲ್ಲ. &quot;frequent&quot; ಎಂಬ ಕ್ರಾನ್‌ಜಾಬ್ ಭಾಗವನ್ನು crontab ಫೈಲ್‌ಗೆ ಸೇರಿಸಿ, ಅಥವಾ exp:notification:run --apply ಅನ್ನು ರನ್ ಮಾಡಿ.</translation>
     </message>
 </context>
 <context>
@@ -63059,6 +63554,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Choose another site or section with the node picker</source>
         <translation>ನೋಡ್ ಪಿಕ್ಕರ್ ಬಳಸಿ ಮತ್ತೊಂದು ಸೈಟ್ ಅಥವಾ ವಿಭಾಗವನ್ನು ಆರಿಸಿ</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>ಸಿಸ್ಟಮ್ ನಿರ್ವಾಹಕರು ಮಾತ್ರ ಮಾಲೀಕರನ್ನು ಬದಲಾಯಿಸಬಹುದು: root ಆಗಿ ./console exp:content-check --fix-permissions --apply ಅನ್ನು ರನ್ ಮಾಡಿ.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64592,6 +65091,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>empty</source>
         <translation>ಖಾಲಿ</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>ಸಹಿ ಕೀ ಒಂದು ವರ್ಷಕ್ಕಿಂತ ಹಳೆಯದು: exp:audit key rotate --apply ಮೂಲಕ ಅದನ್ನು ಬದಲಾಯಿಸಿ.</translation>
     </message>
 </context>
 <context>
@@ -68422,6 +68925,486 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Share of page time</source>
         <translation>ಪುಟ ಸಮಯದ ಪಾಲು</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>ಪೂರ್ಣ ರೆಂಡರ್ ಅನ್ನು ವಿನಂತಿಸಲಾಗಿತ್ತು</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>ಪುಟ ಕ್ಯಾಷ್‌ನಲ್ಲಿ ಈ ಪುಟ ಇರಲಿಲ್ಲ (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>ಪುಟ ಕ್ಯಾಷ್ ಪ್ರತಿಕ್ರಿಯಿಸಲಿಲ್ಲ</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>ರೆಂಡರ್ ಮಾಡಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>ಕರ್ನಲ್ ರೆಂಡರ್ ಮಾಡಿದೆ: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>ಪುಟ ಕ್ಯಾಷ್‌ನಿಂದ %ms ms ನಲ್ಲಿ ಒದಗಿಸಲಾಗಿದೆ. ಈ ಪುಟವನ್ನು %stored ಸಮಯದಲ್ಲಿ %render ms ನ ರೆಂಡರ್ ಮೂಲಕ ಸಂಗ್ರಹಿಸಲಾಗಿತ್ತು, %age s ಹಿಂದೆ.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>ಈಗ ರೆಂಡರ್ ಮಾಡು</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>ಕ್ಯಾಷ್ ಮಾಡಿದ ವೀಕ್ಷಣೆಗೆ ಹಿಂದೆ</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>%stored ಸಮಯದ ರೆಂಡರ್‌ನಿಂದ (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>ಈ ವಿನಂತಿ: ಪುಟ ಕ್ಯಾಷ್‌ನಿಂದ %ms ms ನಲ್ಲಿ ಒದಗಿಸಲಾಗಿದೆ.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>ಬಳಕೆದಾರ</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>ಬಳಕೆದಾರ ID</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>ಕ್ಯಾಶ್ ಪ್ರೊಫೈಲ್</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>ಈ ವೀಕ್ಷಣೆ</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>ವೀಕ್ಷಣೆ ಕ್ಯಾಷ್</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>ಪ್ರತಿ ಬಳಕೆದಾರ (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>ಬಳಕೆದಾರರ ಕ್ಯಾಶ್ ಪ್ರೊಫೈಲ್: ಒಂದೇ ಪ್ರೊಫೈಲ್ ಹೊಂದಿರುವ ಬಳಕೆದಾರರು ವೀಕ್ಷಣೆ ಕ್ಯಾಶ್ ಫೈಲ್‌ಗಳನ್ನು ಹಂಚಿಕೊಳ್ಳುತ್ತಾರೆ</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ಹೌದು</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ಇಲ್ಲ</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>ಲಾಗ್ ಇನ್</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>ಲಾಗಿನ್ ಆಗಿದ್ದಾರೆ</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>ಸೆಷನ್</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>ಈ ಪುಟದ ViewCacheTweaks ಅಡಿಯಲ್ಲಿ, ಬಳಕೆದಾರರನ್ನು ಅವಲಂಬಿಸಿರುವ ವಿಷಯ ವೀಕ್ಷಣೆ ಕ್ಯಾಶ್ ಕೀಲಿಯ ಭಾಗಗಳು, ಕೀಲಿ ಅವುಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳುವಂತೆಯೇ. ಒಂದೇ ಪ್ರೊಫೈಲ್ ಹೊಂದಿರುವ ಬಳಕೆದಾರರು ವೀಕ್ಷಣೆಗಳ ಕ್ಯಾಶ್ ಫೈಲ್‌ಗಳನ್ನು ಹಂಚಿಕೊಳ್ಳುತ್ತಾರೆ, ವೀಕ್ಷಣೆಯ ಸ್ವಂತ ಭಾಗಗಳು (ಆದ್ಯತೆಗಳು, ಲಿಸನರ್‌ಗಳ ಕೀಲಿಗಳು) ಭಿನ್ನವಾಗಿರದಿದ್ದರೆ: ಅವುಗಳಿಗೆ ಈ ಪುಟಕ್ಕೆ ಮಾತ್ರ ತಮ್ಮದೇ ಪ್ರೊಫೈಲ್ ಇರುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>ಪ್ರೊಫೈಲ್</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>ಈ ವೀಕ್ಷಣೆ (ನೋಡ್ %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: ಲಾಗಿನ್ ಆದ ಪ್ರತಿ ಬಳಕೆದಾರರಿಗೂ ತಮ್ಮದೇ ಕ್ಯಾಶ್ ಫೈಲ್‌ಗಳಿವೆ.</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>ಜಾರಿಯಲ್ಲಿರುವ ViewCacheTweaks: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>ಭಾಗ</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>ಮೌಲ್ಯ</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>ಯಾವುದೇ ಭಾಗ ಬಳಕೆದಾರರನ್ನು ಅವಲಂಬಿಸಿಲ್ಲ (ViewCacheTweaks).</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>ಈ ವೀಕ್ಷಣೆ</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>ಪಠ್ಯವಾಗಿ ನಕಲಿಸಿ</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>ಪಾತ್ರಗಳು</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>ಯಾವುದೇ ಪಾತ್ರ ನಿಯೋಜನೆಗಳನ್ನು ಓದಲಾಗಲಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>ಪಾತ್ರ ID</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>ಪಾತ್ರ</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>ಮಿತಿ</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>ನಿಯೋಜಿಸಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>ಬಳಕೆದಾರ</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>ಗುಂಪು %name (ಆಬ್ಜೆಕ್ಟ್ %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>ನಕಲಿಸಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>ನಕಲಿಸಲಾಗಲಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>ಲಿಸನರ್ ಹೊರಗಿಟ್ಟಿದೆ</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>ಅನಾಮಧೇಯ ಸಂದರ್ಶಕರು</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>ನಿಮ್ಮದರಂತೆಯೇ</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>ಭಿನ್ನ</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>ಅನಾಮಧೇಯ ಸಂದರ್ಶಕರು ಅದೇ ViewCacheTweaks ಅಡಿಯಲ್ಲಿ, ಡೀಫಾಲ್ಟ್ ಆದ್ಯತೆಗಳೊಂದಿಗೆ, ವೀಕ್ಷಣೆಯ ಭಾಗಗಳಿಲ್ಲದೆ ಪಡೆಯುವ ಪ್ರೊಫೈಲ್: ಸೆಷನ್ ಓದುವ ಲಿಸನರ್‌ನಿಂದ ಅವುಗಳನ್ನು ಕೇಳಲಾಗುವುದಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>ಆದ್ಯತೆಗಳು</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>ಯಾವುದೇ ವೀಕ್ಷಣೆ ಮೋಡ್ ಬಳಕೆದಾರ ಆದ್ಯತೆಗಳನ್ನು ಅವಲಂಬಿಸಿಲ್ಲ (site.ini [ContentSettings] CachedViewPreferences).</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>ಈ ವೀಕ್ಷಣೆ ಮೋಡ್‌ಗಳ ವೀಕ್ಷಣೆಗಳು ಅವಲಂಬಿಸಿರುವ ಆದ್ಯತೆಗಳು (CachedViewPreferences), ಬಳಕೆದಾರರ ಮೌಲ್ಯ ಅಥವಾ ಡೀಫಾಲ್ಟ್‌ನೊಂದಿಗೆ. ಅವು ಪ್ರೊಫೈಲ್‌ನಲ್ಲಿ userpreferences ಆಗಿ, ಎಲ್ಲಾ ವೀಕ್ಷಣೆ ಮೋಡ್‌ಗಳದ್ದೂ ಒಟ್ಟಿಗೆ ಇರುತ್ತವೆ.</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>ವೀಕ್ಷಣೆ ಮೋಡ್</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>ಆದ್ಯತೆ</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>ಡೀಫಾಲ್ಟ್</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>ನೀತಿಗಳು</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>ಪಾತ್ರಗಳ ನೀತಿಗಳನ್ನು ತೋರಿಸಿ (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>ಈ ವಿಭಾಗವನ್ನು ತೆರೆದಾಗ ನೀತಿಗಳನ್ನು ಸರ್ವರ್‌ನಿಂದ ಒಂದೊಂದು ಪುಟವಾಗಿ ಲೋಡ್ ಮಾಡಲಾಗುತ್ತದೆ, ಮತ್ತು ಅವುಗಳನ್ನು ಮಾಡ್ಯೂಲ್ ಮತ್ತು ಫಂಕ್ಷನ್ ಮೂಲಕ ಫಿಲ್ಟರ್ ಮಾಡಬಹುದು.</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>ಫಂಕ್ಷನ್</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>ಎಲ್ಲಾ ಮಾಡ್ಯೂಲ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>ಎಲ್ಲಾ ಫಂಕ್ಷನ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>ಮಿತಿಗಳು</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>ಇನ್ನಷ್ಟು ತೋರಿಸಿ</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>ಈ ಪಾತ್ರಗಳಿಗೆ ಯಾವುದೇ ನೀತಿಗಳಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>ಯಾವುದೇ ನೀತಿ ಫಿಲ್ಟರ್‌ಗೆ ಹೊಂದಿಕೆಯಾಗುವುದಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%matching ರಲ್ಲಿ %shown ನೀತಿಗಳು (ಒಟ್ಟು %total)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>ತೆರೆದಾಗ ಲೋಡ್ ಆಗುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>module/function, ಪಾತ್ರ, ಮಿತಿ</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>ನೀತಿಗಳನ್ನು ಹುಡುಕಿ</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>ಇನ್ನಷ್ಟು ಲೋಡ್ ಮಾಡಿ</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>ಮಾಡ್ಯೂಲ್/ಫಂಕ್ಷನ್</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>ಎಲ್ಲಾ ಪಾತ್ರಗಳು (%count ನೀತಿಗಳು)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>ಯಾವುದೇ ನೀತಿ ಹೊಂದಿಕೆಯಾಗುತ್ತಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%matched ನೀತಿಗಳಲ್ಲಿ %shown</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>ಉತ್ತರವಿಲ್ಲ</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>ಮರೆಮಾಡಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>ವಿವರಣೆಗಳನ್ನು ತೋರಿಸಿ</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>ವಿವರಣೆಗಳನ್ನು ಮರೆಮಾಡಿ</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>ತೆರೆ</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>ಎಲ್ಲವನ್ನೂ ತೆರೆ</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>ಎಲ್ಲವನ್ನೂ ಮುಚ್ಚು</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>ಕೀ ಅಥವಾ ಮೌಲ್ಯ</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>ಸೆಷನ್‌ನಲ್ಲಿ ಹುಡುಕಿ</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>ಪ್ರಕಾರ</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>ಇನ್ನೂ %count</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>ತೋರಿಸಲು ತುಂಬಾ ಆಳವಾಗಿ ಅಡಕವಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>ಕತ್ತರಿಸಲಾಗಿದೆ, ಒಟ್ಟು %count ಅಕ್ಷರಗಳು</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>ಪ್ರಾರಂಭವಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>ಕುಕೀ ಹೆಸರು</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>ಸೆಷನ್ ID</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>ಹ್ಯಾಂಡ್ಲರ್</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>ಉಳಿಸುವ ಪಥ</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>PHP ಡೀಫಾಲ್ಟ್</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>ಜೀವಿತಾವಧಿ (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>ಕುಕೀ</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>ಜೀವಿತಾವಧಿ %s ಸೆ</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>ನಿಮ್ಮದೇ PHP ಸೆಷನ್, ವಿಭಾಗವನ್ನು ತೆರೆದಾಗ ಇದ್ದಂತೆ, ಎಂದಿಗೂ ಬೇರೊಂದಲ್ಲ. ರಹಸ್ಯಗಳಂತೆ ಕಾಣುವ ಕೀಗಳ (ಟೋಕನ್‌ಗಳು, ಹ್ಯಾಶ್‌ಗಳು, ಪಾಸ್‌ವರ್ಡ್‌ಗಳು) ಮೌಲ್ಯಗಳನ್ನು ಮರೆಮಾಡಲಾಗುತ್ತದೆ (debugbar.ini SessionMask[]); ಉಳಿದೆಲ್ಲವನ್ನೂ, ವೈಯಕ್ತಿಕ ಡೇಟಾವನ್ನೂ ಸಹ, ಸಂಗ್ರಹಿಸಿದಂತೆಯೇ ತೋರಿಸಲಾಗುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>%count ಕೀಗಳು, %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>ದೊಡ್ಡದು</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>ಸೆಷನ್ ಖಾಲಿಯಾಗಿದೆ.</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>ಈ ವಿನಂತಿಗಾಗಿ ಯಾವುದೇ ಸೆಷನ್ ಪ್ರಾರಂಭವಾಗಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>ವಿಸ್ತರಣೆ %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>ಕರ್ನಲ್ ಮತ್ತು ಇತರರು</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>ಎಲ್ಲ ನಮೂದುಗಳನ್ನು ತೋರಿಸಲಾಗಿಲ್ಲ: ಇಲ್ಲಿ ಪಟ್ಟಿ ಮಾಡಬಹುದಾದುದಕ್ಕಿಂತ ಹೆಚ್ಚಿನದು ಸೆಷನ್‌ನಲ್ಲಿದೆ.</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>%count ಕೀಗಳನ್ನು ಪಟ್ಟಿ ಮಾಡಲಾಗಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>ಚೌಕಟ್ಟು</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>ಟೋಕನ್‌ನಂತೆ ಕಾಣುವ ಮೌಲ್ಯಗಳನ್ನೂ (JSON Web Token, Authorization ಹೆಡರ್‌ನ ರುಜುವಾತುಗಳು, ಖಾಸಗಿ ಕೀ, ಉದ್ದವಾದ ಹೆಕ್ಸ್ ಅಥವಾ ಯಾದೃಚ್ಛಿಕ ಪಠ್ಯ) ಅವುಗಳ ಕೀಯ ಹೆಸರು ಏನೇ ಇರಲಿ ಮರೆಮಾಡಲಾಗುತ್ತದೆ (debugbar.ini SessionValueMask[]).</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>ಕೀ ರಹಸ್ಯದಂತೆ ಕಾಣುತ್ತದೆ (debugbar.ini SessionMask[]).</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>ಮೌಲ್ಯ ಟೋಕನ್‌ನಂತೆ ಕಾಣುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>ಮರೆಮಾಡಿದ ಕೀಯ ಕೆಳಗೆ.</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>ಪಠ್ಯವಾಗಿ ಸೆಷನ್, ಕೋಷ್ಟಕದಂತೆಯೇ ಮರೆಮಾಡಲಾಗಿದೆ.</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>ಸೆಷನ್ %size ಗಿಂತ ದೊಡ್ಡದಾಗಿದೆ (debugbar.ini SessionWarnBytes): ಈ ಬಳಕೆದಾರರ ಪ್ರತಿಯೊಂದು ವಿನಂತಿಯೂ ಇಡೀ ಸೆಷನ್ ಅನ್ನು ಓದುತ್ತದೆ, ಮತ್ತು ಅದು ಬದಲಾದಾಗ ಬರೆಯುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP ಈ ಸೆಷನ್ ಅನ್ನು ಫೈಲ್‌ಗಳಲ್ಲಿ ಇರಿಸುತ್ತದೆ ಮತ್ತು ಇಡೀ ವಿನಂತಿಯವರೆಗೆ ಫೈಲ್ ಅನ್ನು ಲಾಕ್ ಮಾಡುತ್ತದೆ: ಅದೇ ಬಳಕೆದಾರರ ವಿನಂತಿಗಳು (ಹಲವು ಟ್ಯಾಬ್‌ಗಳು, AJAX ಕರೆಗಳು) ಒಂದಕ್ಕೊಂದು ಕಾಯುತ್ತವೆ.</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>ತೆರೆದಿಡು</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>%size ಗಿಂತ ದೊಡ್ಡದು (debugbar.ini SessionWarnBytes): ಈ ಬಳಕೆದಾರರ ಪ್ರತಿಯೊಂದು ವಿನಂತಿಯೂ ಇಡೀ ಸೆಷನ್ ಅನ್ನು ಓದುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%count ರಲ್ಲಿ %hits ಕ್ಯಾಷ್‌ನಿಂದ ಓದಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>ಯಾವುದೇ ಟೆಂಪ್ಲೇಟ್ ರೆಂಡರ್ ಆಗಿಲ್ಲ (ವೀಕ್ಷಣೆ ಕ್ಯಾಷ್‌ನಿಂದ ಓದಿದ ವೀಕ್ಷಣೆ ಯಾವುದನ್ನೂ ರೆಂಡರ್ ಮಾಡುವುದಿಲ್ಲ).</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>ಪಾತ್ರ ನಿಯೋಜನೆಗಳು</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>ಪಾತ್ರಗಳು ಮತ್ತು ನೀತಿಗಳು</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>ಅನಾಮಧೇಯ ಸಂದರ್ಶಕರಿಗಿಂತ ಭಿನ್ನ</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>ಅನಾಮಧೇಯ ಸಂದರ್ಶಕರಂತೆಯೇ</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70302,6 +71285,14 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>not sent</source>
         <translation>ಕಳುಹಿಸಿಲ್ಲ</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>ಅಧಿಸೂಚನೆ ಕ್ರಾನ್‌ಜಾಬ್ ತನ್ನ ಪ್ರತಿ ರನ್ ಅನ್ನು ಇಲ್ಲಿ ದಾಖಲಿಸುತ್ತದೆ. frequent ಭಾಗವನ್ನು crontab ಫೈಲ್‌ಗೆ ಸೇರಿಸಿ, ಅಥವಾ exp:notification:run --apply ಅನ್ನು ರನ್ ಮಾಡಿ.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>ಕನ್ಸೋಲ್ ಬಳಸಿ: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -76020,6 +77011,98 @@ You will need to change the class of the node by using the swap functionality.</
         <source>This topic is not Released; readers do not see it.</source>
         <translation>ಈ ವಿಷಯಾಂಶ ಬಿಡುಗಡೆಯಾಗಿಲ್ಲ; ಓದುಗರು ಇದನ್ನು ನೋಡುವುದಿಲ್ಲ.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>ಮೈಗ್ರೇಶನ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>ಫೈಲ್‌ಗಳಾಗಿ ಇರಿಸಲಾದ ಇನ್‌ಸ್ಟಾಲೇಶನ್ ಬದಲಾವಣೆಗಳು: ಅವುಗಳ ಸ್ಥಿತಿ, ರನ್‌ಗಳು, ರನ್ ಮತ್ತು ರೋಲ್‌ಬ್ಯಾಕ್.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>ಸೈಟ್‌ನ ಸ್ಥಿರ ಪ್ರತಿಯನ್ನು GitHub Pages ಅಥವಾ ಯಾವುದೇ git ಹೋಸ್ಟ್‌ಗೆ ಪ್ರಕಟಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>ಸ್ಥಿರ ಪ್ರಕಟಣೆ</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>ಪರಿಶೀಲನೆಯಲ್ಲಿದೆ</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>ಓದುಗರು ಈ ಪುಟವನ್ನು ನೋಡುತ್ತಾರೆ.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>ಯಾರಾದರೂ ಬಿಡುಗಡೆ ಮಾಡುವವರೆಗೆ ಓದುಗರಿಂದ ಮರೆಮಾಡಲಾಗಿದೆ.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>ಪುಟ ಈಗ ಪರಿಶೀಲನೆಯಲ್ಲಿದೆ. ಬಿಡುಗಡೆಯಾಗುವವರೆಗೆ ಅದು ಓದುಗರಿಂದ ಮರೆಯಾಗಿದೆ.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>ಪುಟ ಬಿಡುಗಡೆಯಾಗಿದೆ: ಓದುಗರು ಈಗ ಅದನ್ನು ನೋಡುತ್ತಾರೆ.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>ಪುಟ ಮತ್ತೆ ಕರಡು ಆಗಿದೆ. ಪರಿಶೀಲಿಸಿ ಬಿಡುಗಡೆ ಮಾಡುವವರೆಗೆ ಅದು ಓದುಗರಿಂದ ಮರೆಯಾಗಿದೆ.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>ಈಗ ಬಿಡುಗಡೆ ಮಾಡು</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>ಈ ಆವೃತ್ತಿಯನ್ನು ಬರೆಯದ, %role ಪಾತ್ರ ಹೊಂದಿರುವ ಬಳಕೆದಾರರು ಮಾತ್ರ ಅದನ್ನು ಬಿಡುಗಡೆ ಮಾಡಬಹುದು.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>ಬಿಡುಗಡೆಗಾಗಿ ಕಾಯುತ್ತಿರುವ ಸಹಾಯ ವಿಷಯಗಳು</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>ಮತ್ತೆ ಬಿಡುಗಡೆಯಾಗುವವರೆಗೆ ಅದನ್ನು ಓದುಗರಿಂದ ಮರೆಮಾಡುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>ಮುಂದೆ ಪರಿಶೀಲಕರು ಅದನ್ನು ಪರಿಶೀಲಿಸುತ್ತಾರೆ. ಓದುಗರು ಅದನ್ನು ಇನ್ನೂ ನೋಡುವುದಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>ಓದುಗರು ಅದನ್ನು ತಕ್ಷಣ ನೋಡುತ್ತಾರೆ.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>ಹೆಚ್ಚಿನ ಕೆಲಸಕ್ಕಾಗಿ ಅದನ್ನು ಪರಿಶೀಲನೆಯಿಂದ ಹೊರತೆಗೆಯುತ್ತದೆ. ಓದುಗರು ಅದನ್ನು ನೋಡುವುದಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>ಈ ಪುಟವನ್ನು ಓದುಗರಿಂದ ಮರೆಮಾಡಬೇಕೆ?</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>ಈ ಪುಟವನ್ನು ಮತ್ತೆ ಕರಡಿಗೆ ಕಳುಹಿಸಬೇಕೆ?</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>ಯಾರಾದರೂ ಮತ್ತೆ ಬಿಡುಗಡೆ ಮಾಡುವವರೆಗೆ ಓದುಗರು %title ಅನ್ನು ನೋಡುವುದಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title ಹೆಚ್ಚಿನ ಕೆಲಸಕ್ಕಾಗಿ ಕರಡಿಗೆ ಮರಳುತ್ತದೆ. ಓದುಗರು ಇನ್ನೂ ಅದನ್ನು ನೋಡುವುದಿಲ್ಲ, ಮತ್ತು ಬಿಡುಗಡೆಗೆ ಮೊದಲು ಹೊಸ ಪರಿಶೀಲನೆ ಬೇಕು.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>ರದ್ದುಮಾಡು</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>ಈ ವಿಷಯಗಳು ಪರಿಶೀಲನೆಯಲ್ಲಿವೆ. ಪ್ರಸ್ತುತ ಆವೃತ್ತಿಯನ್ನು ಬರೆಯದ ಯಾರಾದರೂ ಅವುಗಳನ್ನು ಬಿಡುಗಡೆ ಮಾಡಿದ ಕೂಡಲೇ ಓದುಗರು ಅವುಗಳನ್ನು ನೋಡುತ್ತಾರೆ.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76475,6 +77558,46 @@ You will need to change the class of the node by using the swap functionality.</
         <source>None.</source>
         <translation>ಯಾವುದೂ ಇಲ್ಲ.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>ದೃಢೀಕರಣ ಆ್ಯಪ್‌ನೊಂದಿಗೆ</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>ಇ-ಮೇಲ್ ಮೂಲಕ ಬಂದ ಕೋಡ್‌ನೊಂದಿಗೆ</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>ಮರುಪ್ರಾಪ್ತಿ ಕೋಡ್‌ನೊಂದಿಗೆ</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>ಪಾಸ್‌ಕೀಯೊಂದಿಗೆ</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>ಬಾಹ್ಯ ಖಾತೆಯೊಂದಿಗೆ</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>ಭದ್ರತಾ ಚಟುವಟಿಕೆ</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>ಅದರ ನೆಟ್‌ವರ್ಕ್ ಆಗಿ ತೋರಿಸಲಾಗಿದೆ; ಸೈಟ್‌ನ ಡೇಟಾ ಸಂರಕ್ಷಣಾ ಸೆಟ್ಟಿಂಗ್‌ಗಳು ಹೇಳಿದಂತೆ ವಿಳಾಸವನ್ನು ಇರಿಸಲಾಗುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>ದಾಖಲಾಗಿಲ್ಲ</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>ಸ್ಥಳ</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>ಅಂದಾಜು</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76718,6 +77841,42 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Manage devices</source>
         <translation>ಸಾಧನಗಳನ್ನು ನಿರ್ವಹಿಸು</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>ದೃಢೀಕರಣ ಆ್ಯಪ್‌ನೊಂದಿಗೆ</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>ಇ-ಮೇಲ್ ಮೂಲಕ ಬಂದ ಕೋಡ್‌ನೊಂದಿಗೆ</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>ಮರುಪ್ರಾಪ್ತಿ ಕೋಡ್‌ನೊಂದಿಗೆ</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>ಪಾಸ್‌ಕೀಯೊಂದಿಗೆ</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>ಬಾಹ್ಯ ಖಾತೆಯೊಂದಿಗೆ</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>ಭದ್ರತಾ ಚಟುವಟಿಕೆ</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>ದಾಖಲಾಗಿಲ್ಲ</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>ಸ್ಥಳ</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>ಅಂದಾಜು</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76797,6 +77956,14 @@ You will need to change the class of the node by using the swap functionality.</
         <source>View the sessions of this user</source>
         <translation>ಈ ಬಳಕೆದಾರರ ಸೆಷನ್‌ಗಳನ್ನು ವೀಕ್ಷಿಸು</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>%site ಸೈಟ್‌ನಲ್ಲಿರುವ ನಿಮ್ಮ ಖಾತೆ %login ಮೂಲಕ, ಇತ್ತೀಚೆಗೆ ಸೈನ್ ಇನ್ ಆಗದ ಸ್ಥಳದಿಂದ ಈಗಷ್ಟೇ ಸೈನ್ ಇನ್ ಮಾಡಲಾಗಿದೆ:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>ಅಂದಾಜು ಸ್ಥಳ</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76835,6 +78002,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%os ನಲ್ಲಿ %browser</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>ಸೈನ್ ಇನ್ ವರದಿ</translation>
     </message>
 </context>
 <context>
@@ -77043,6 +78214,82 @@ You will need to change the class of the node by using the swap functionality.</
         <source>The passkey could not be checked. Please try again.</source>
         <translation>ಪಾಸ್‌ಕೀಯನ್ನು ಪರಿಶೀಲಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ. ದಯವಿಟ್ಟು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>ಪಾಸ್‌ಕೀಗಳ ಮೂಲಕ ಮಾತ್ರ ಸೈನ್ ಇನ್ ಮಾಡುವ ಖಾತೆಗಳು ಇಲ್ಲಿ ಪಾಸ್‌ವರ್ಡ್ ಬಳಸಲು ಸಾಧ್ಯವಿಲ್ಲ: “ಪಾಸ್‌ಕೀ ಮೂಲಕ ಸೈನ್ ಇನ್ ಮಾಡಿ” ಆಯ್ಕೆಮಾಡಿ.</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>%login ಅವರ ಪಾಸ್‌ಕೀಗಳು</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>ಈ ಖಾತೆ ಸೈನ್ ಇನ್ ಮಾಡಲು ಬಳಸುವ ಪಾಸ್‌ಕೀಗಳು. ಕಳೆದುಹೋದ ಅಥವಾ ಕಳ್ಳತನವಾದ ಸಾಧನದಲ್ಲಿರುವ ಪಾಸ್‌ಕೀಯನ್ನು ಹಿಂಪಡೆಯಿರಿ: ಅದು ಇನ್ನು ಸೈನ್ ಇನ್ ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ. ಹೊಸವನ್ನು ಮಾಲೀಕರೇ ಸೇರಿಸುತ್ತಾರೆ.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>ನಿಮ್ಮ ಖಾತೆಗೆ ಪಾಸ್‌ಕೀ ಅಗತ್ಯವಿದೆ</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>ನಿಮ್ಮ ಖಾತೆಗೆ ಪಾಸ್‌ಕೀ ಸೇರಿಸಿ</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>ಮುಂದುವರಿಯಲು ಪಾಸ್‌ಕೀ ಸೇರಿಸಿ. ನಂತರ ನೀವು ಕೇವಲ ಪಾಸ್‌ವರ್ಡ್ ಬದಲು ಅದರ ಮೂಲಕ ಸೈನ್ ಇನ್ ಮಾಡುತ್ತೀರಿ.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>ಪಾಸ್‌ಕೀ ಮೂಲಕ ಸೈನ್ ಇನ್ ಮಾಡುವುದು ಪಾಸ್‌ವರ್ಡ್‌ಗಿಂತ ವೇಗವಾಗಿ ಮತ್ತು ಸುರಕ್ಷಿತವಾಗಿದೆ. ಈಗ ಒಂದನ್ನು ಸೇರಿಸಿ, ಅಥವಾ ಅದಿಲ್ಲದೆ ಮುಂದುವರಿಯಿರಿ.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>ಈಗ ಬೇಡ</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>“%name” ಪಾಸ್‌ಕೀಯನ್ನು ಹಿಂಪಡೆಯಬೇಕೇ?</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>ಅದು ಇನ್ನು ಈ ಖಾತೆಗೆ ಸೈನ್ ಇನ್ ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ. ಅದು ಕೊನೆಯದಾಗಿದ್ದರೆ, ಮಾಲೀಕರು ಪಾಸ್‌ವರ್ಡ್ ಮೂಲಕ ಸೈನ್ ಇನ್ ಮಾಡುತ್ತಾರೆ, ಅಥವಾ ನೀವು ಹೊಸದನ್ನು ಹೊಂದಿಸುತ್ತೀರಿ.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>ಪಾಸ್‌ಕೀಯನ್ನು ಹಿಂಪಡೆ</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>ಹಿಂಪಡೆ</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>ಈ ಖಾತೆಗೆ ಯಾವುದೇ ಪಾಸ್‌ಕೀ ಇಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>ದೃಢೀಕರಣಕಾರಕ</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>ಅಜ್ಞಾತ</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>ನಿಮ್ಮ ಕೊನೆಯ ಪಾಸ್‌ಕೀ: ಅದನ್ನು ತೆಗೆದುಹಾಕುವ ಮೊದಲು ಇನ್ನೊಂದನ್ನು ಸೇರಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>ಈ ಖಾತೆ ಪಾಸ್‌ಕೀಗಳ ಮೂಲಕ ಮಾತ್ರ ಸೈನ್ ಇನ್ ಮಾಡುತ್ತದೆ (ಪಾಸ್‌ಕೀ ನೀತಿ): ಯಾವುದೂ ಉಳಿದಿಲ್ಲದಿದ್ದರೆ, ಅದು ಮತ್ತೆ ತನ್ನ ಪಾಸ್‌ವರ್ಡ್ ಮೂಲಕ ಸೈನ್ ಇನ್ ಮಾಡುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>ಇದು ನಿಮ್ಮ ಕೊನೆಯ ಪಾಸ್‌ಕೀ, ಮತ್ತು ಅದಿಲ್ಲದೆ ನಿಮ್ಮ ಖಾತೆ ಸೈನ್ ಇನ್ ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ. ಮೊದಲು ಇನ್ನೊಂದು ಪಾಸ್‌ಕೀ ಸೇರಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>“%name” ಪಾಸ್‌ಕೀಯನ್ನು ಹಿಂಪಡೆಯಲಾಗಿದೆ. ಅದು ಇನ್ನು ಈ ಖಾತೆಗೆ ಸೈನ್ ಇನ್ ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77142,6 +78389,34 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Code from your authenticator app</source>
         <translation>ನಿಮ್ಮ ದೃಢೀಕರಣ ಆ್ಯಪ್‌ನ ಕೋಡ್</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>ನೀವು ಡೇಟಾವನ್ನು ಶಾಶ್ವತವಾಗಿ ಅಳಿಸಲಿದ್ದೀರಿ ಅಥವಾ ಲಾಗ್ ಅನ್ನು ಖಾಲಿ ಮಾಡಲಿದ್ದೀರಿ.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>ನಿಮ್ಮ ಪಾಸ್‌ವರ್ಡ್ ಮತ್ತು ಒಂದು ಪಾಸ್‌ಕೀ</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>ನಿಮ್ಮ ಪಾಸ್‌ವರ್ಡ್ ಮತ್ತು ನಿಮ್ಮ ದೃಢೀಕರಣ ಆ್ಯಪ್‌ನ ಕೋಡ್</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>ಅಥವಾ:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>ಈ ಬ್ರೌಸರ್ ಪಾಸ್‌ಕೀಗಳನ್ನು ಬಳಸಲು ಸಾಧ್ಯವಿಲ್ಲ. ಬೇರೆ ವಿಧಾನವನ್ನು ಅಥವಾ ಬೇರೆ ಬ್ರೌಸರ್ ಅನ್ನು ಬಳಸಿ.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>ನೀವು ಮುಂದುವರಿದಾಗ, ನಿಮ್ಮ ಬ್ರೌಸರ್ ನಿಮ್ಮ ಪಾಸ್‌ಕೀಗಳಲ್ಲಿ ಒಂದನ್ನು ಕೇಳುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>ಪಾಸ್‌ಕೀ ಮೂಲಕ ಮುಂದುವರಿಸಿ</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77232,6 +78507,70 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Setup</source>
         <translation>ಸೆಟಪ್</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>ತನ್ನದೇ ಪಾಸ್‌ವರ್ಡ್, ಇಮೇಲ್ ವಿಳಾಸ, ಪಾಸ್‌ಕೀಗಳು, ಎರಡು ಹಂತದ ಸೈನ್ ಇನ್, ಮರುಪಡೆಯುವಿಕೆ ಕೋಡ್‌ಗಳು ಅಥವಾ API ಕೀಗಳನ್ನು ಬದಲಾಯಿಸುವುದು, ಮತ್ತು ತನ್ನ ಇತರ ಸಾಧನಗಳಿಂದ ಸೈನ್ ಔಟ್ ಮಾಡುವುದು.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>ಬಳಕೆದಾರರನ್ನು ರಚಿಸುವುದು ಮತ್ತು ಸಂಪಾದಿಸುವುದು, ಅವರ ಪಾಸ್‌ವರ್ಡ್‌ಗಳು ಮತ್ತು ಸಾಧನಗಳು, ಖಾತೆ ಸೆಟ್ಟಿಂಗ್‌ಗಳು, ಹೊಸ ಬಳಕೆದಾರ ಖಾತೆಗಳನ್ನು ಅನುಮೋದಿಸುವುದು ಅಥವಾ ನಿರಾಕರಿಸುವುದು, ಪಾತ್ರಗಳನ್ನು ನಿಯೋಜಿಸುವುದು ಮತ್ತು ನೀತಿಗಳನ್ನು ಸಂಪಾದಿಸುವುದು.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>ಡೇಟಾ ಅಳಿಸುವುದು</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>ಕಸದ ಬುಟ್ಟಿಯನ್ನು ಖಾಲಿ ಮಾಡುವುದು, ಅದರಿಂದ ಐಟಂಗಳನ್ನು ತೆಗೆದುಹಾಕುವುದು ಮತ್ತು ಹಲವು ಐಟಂಗಳನ್ನು ಒಮ್ಮೆಗೇ ತೆಗೆದುಹಾಕುವುದು.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>ವಿಷಯವನ್ನು ತೆಗೆದುಹಾಕುವುದು, ಪ್ರಕಟಿಸುವುದು ಮತ್ತು ಉಳಿಸುವುದು</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>ವಿಷಯವನ್ನು ತೆಗೆದುಹಾಕುವುದು (ಕಸದ ಬುಟ್ಟಿಗೂ ಸಹ), ಪ್ರಕಟಿಸುವುದು ಮತ್ತು ಕರಡು ಉಳಿಸುವುದು; ಫಾರ್ಮ್ ಕಳುಹಿಸಿದಾಗ ಕೇಳಲಾಗುತ್ತದೆ. ಡೀಫಾಲ್ಟ್ ಆಗಿ ಆಫ್.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>ಸೂಕ್ಷ್ಮ ಕ್ರಿಯೆಯ ಮೊದಲು, ಸೈನ್ ಇನ್ ಆಗಿರುವ ಬಳಕೆದಾರರು ತಾವು ಯಾರು ಎಂಬುದನ್ನು ಮತ್ತೆ ದೃಢೀಕರಿಸುತ್ತಾರೆ: ತಮ್ಮ ಪಾಸ್‌ವರ್ಡ್ ಮತ್ತು ಪಾಸ್‌ಕೀ ಮೂಲಕ, ಅಥವಾ ಪಾಸ್‌ಕೀ ಇಲ್ಲದೆ ತಮ್ಮ ಪಾಸ್‌ವರ್ಡ್ ಮತ್ತು ತಮ್ಮ ದೃಢೀಕರಣ ಆ್ಯಪ್‌ನ ಕೋಡ್ ಮೂಲಕ. ವೆಬ್ ಪುಟಗಳು ಮಾತ್ರ ಕೇಳುತ್ತವೆ: REST ಇಂಟರ್‌ಫೇಸ್, SOAP, WebDAV, expservices ಲಾಗಿನ್ ಮತ್ತು ಕಮಾಂಡ್ ಲೈನ್ ಎಂದಿಗೂ ಕೇಳುವುದಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>ಸೆಟ್ಟಿಂಗ್‌ಗಳು ಎಲ್ಲಿ ಅನ್ವಯಿಸುತ್ತವೆ</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>ಇದಕ್ಕಾಗಿ ಸೆಟ್ಟಿಂಗ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>ಪ್ರತಿ ಸೈಟ್‌ಆಕ್ಸೆಸ್</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>ಸೈಟ್‌ಆಕ್ಸೆಸ್ %name ಮಾತ್ರ</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>ತೆರೆ</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>ಯಾರನ್ನು ಕೇಳಲಾಗುತ್ತದೆ: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>ಅವುಗಳ ಸದಸ್ಯರನ್ನು ಮಾತ್ರ ಕೇಳಲು ಬಳಕೆದಾರ ಗುಂಪುಗಳನ್ನು ಗುರುತಿಸಿ (ಉದಾಹರಣೆಗೆ, ಸಂಪಾದಕರು). ಯಾವುದನ್ನೂ ಗುರುತಿಸಿಲ್ಲ: ಪ್ರತಿಯೊಬ್ಬ ಬಳಕೆದಾರ.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>ಪ್ರತಿ ಸೈಟ್‌ಆಕ್ಸೆಸ್‌ಗಾಗಿ settings/override/site.ini.append.php ನಲ್ಲಿ ಉಳಿಸಲಾಗಿದೆ. ಉಳಿಸುವಾಗ ಇದು ನೀವೇ ಎಂದು ದೃಢೀಕರಿಸಲು ಕೇಳಲಾಗುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>settings/siteaccess/%name/site.ini.append.php ನಲ್ಲಿ ಉಳಿಸಲಾಗಿದೆ. settings/override ನಲ್ಲಿರುವ ಮೌಲ್ಯಕ್ಕೆ ಇದರ ಮೇಲೆ ಆದ್ಯತೆ ಇದೆ. ಉಳಿಸುವಾಗ ಇದು ನೀವೇ ಎಂದು ದೃಢೀಕರಿಸಲು ಕೇಳಲಾಗುತ್ತದೆ.</translation>
     </message>
 </context>
 <context>
@@ -77334,6 +78673,6822 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Open the page</source>
         <translation>ಪುಟವನ್ನು ತೆರೆ</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from - %to, ಒಟ್ಟು %count</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>ಲಾಗಿನ್ ಅಥವಾ ಬಳಕೆದಾರ ID: ಈವೆಂಟ್ ಯಾವ ಖಾತೆಗೆ ಸಂಬಂಧಿಸಿದೆಯೋ ಆ ಖಾತೆ, ಅಥವಾ ಕ್ರಿಯೆ ನಡೆಸಿದ ಬಳಕೆದಾರ.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>ಖಾತೆ</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>ಕ್ರಿಯೆ</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>ನಂತರ</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>ಯಾವುದೇ ಫಲಿತಾಂಶ</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>ಮೊದಲು</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>ಮಾಡಿದವರು</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>ತೆರವುಗೊಳಿಸು</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>ಮುಗಿದಿದೆ</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>ಈವೆಂಟ್‌ಗಳನ್ನು %days ದಿನಗಳವರೆಗೆ ಇರಿಸಲಾಗುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>ಈವೆಂಟ್‌ಗಳನ್ನು ಕೈಯಾರೆ ತೆಗೆದುಹಾಕುವವರೆಗೆ ಇರಿಸಲಾಗುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>ಈವೆಂಟ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>ಎಲ್ಲಾ ಕ್ರಿಯೆಗಳು</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>ಈ ಖಾತೆಯ ಎಲ್ಲಾ ಈವೆಂಟ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>ಪಟ್ಟಿಯನ್ನು CSV ಆಗಿ ರಫ್ತು ಮಾಡು (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>ವಿಫಲವಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>ಇಂದ</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>ಪಟ್ಟಿಯನ್ನು ಸಂಕುಚಿತಗೊಳಿಸು</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>ಯಾವುದೇ ಈವೆಂಟ್ ಹೊಂದಿಕೆಯಾಗುವುದಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>ಪ್ರತಿ ಪುಟಕ್ಕೆ</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>audit.ini ನಲ್ಲಿ ದಾಖಲಾತಿ ಆಫ್ ಮಾಡಲಾಗಿದೆ ([UserAuditSettings] UserAudit); ಪಟ್ಟಿಯು ಹಿಂದೆ ದಾಖಲಾದುದನ್ನು ತೋರಿಸುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>ನಿರಾಕರಿಸಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>ಫಲಿತಾಂಶ</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>ತೋರಿಸು</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>ಬಳಕೆದಾರ ಆಡಿಟ್ ಲಾಗ್‌ನ ಕೋಷ್ಟಕ ಇಲ್ಲ. ಅದನ್ನು php update/common/scripts/6.0/createuseraudittable.php ಮೂಲಕ ರಚಿಸಿ; ಅಲ್ಲಿಯವರೆಗೆ ಆಡಿಟ್ ಫೈಲ್‌ಗಳು ಪ್ರತಿಯೊಂದು ಈವೆಂಟ್ ಅನ್ನು ಇರಿಸಿಕೊಳ್ಳುತ್ತವೆ.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>ಈ ಪುಟಕ್ಕೆ SQL ಡೇಟಾಬೇಸ್ ಅಗತ್ಯವಿದೆ; ಇದು MongoDB ನಲ್ಲಿ ಲಭ್ಯವಿಲ್ಲ. ಆಡಿಟ್ ಫೈಲ್‌ಗಳು ಪ್ರತಿಯೊಂದು ಈವೆಂಟ್ ಅನ್ನು ಇರಿಸಿಕೊಳ್ಳುತ್ತವೆ.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>ವರೆಗೆ</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>ಬಳಕೆದಾರ ಆಡಿಟ್ ಲಾಗ್</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>ಬಳಕೆದಾರ</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>ಯಾವಾಗ</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>ಎಲ್ಲಿ</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>ಯಾರು ಯಾವ ಖಾತೆಯನ್ನು ಬದಲಾಯಿಸಿದರು, ರಚಿಸಿದರು, ಸಕ್ರಿಯಗೊಳಿಸಿದರು, ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿದರು, ಸರಿಸಿದರು ಅಥವಾ ತೆಗೆದುಹಾಕಿದರು, ಯಾರು ಸೈನ್ ಇನ್ ಮಾಡಿದರು ಅಥವಾ ನಿರಾಕರಿಸಲ್ಪಟ್ಟರು, ಮತ್ತು ಯಾವ ಪಾತ್ರಗಳನ್ನು ನಿಯೋಜಿಸಲಾಯಿತು: ಪ್ರತಿ ಈವೆಂಟ್‌ಗೆ ಒಂದು ಸಾಲು, ಮೊದಲಿನ ಮತ್ತು ನಂತರದ ಕ್ಷೇತ್ರಗಳೊಂದಿಗೆ. ಪಾಸ್‌ವರ್ಡ್‌ಗಳು ಮತ್ತು ರಹಸ್ಯಗಳನ್ನು ಎಂದಿಗೂ ದಾಖಲಿಸಲಾಗುವುದಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>ಗುಂಪು</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>ಸಿಸ್ಟಮ್</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>ಅಜ್ಞಾತ</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>ನಿಮ್ಮ ಖಾತೆಯನ್ನು ಸುರಕ್ಷಿತಗೊಳಿಸಿ</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>%site ಸೈಟ್‌ನಲ್ಲಿರುವ ನಿಮ್ಮ ಖಾತೆ %login ಗೆ ಸೈನ್ ಇನ್ ಮಾಡಲು ಮರುಪ್ರಾಪ್ತಿ ಕೋಡ್ ಬಳಸಲಾಗಿದೆ.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>ಮರುಪ್ರಾಪ್ತಿ ಕೋಡ್ ಬಳಸಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>ಖಾತೆ</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>ಅಂದಾಜು ವಿಳಾಸ</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>ಮತ್ತೆ ಸೈನ್ ಇನ್ ಮಾಡಲು ಹೊಸ ಪಾಸ್‌ವರ್ಡ್‌ಗೆ ವಿನಂತಿಸಿ, ಅಥವಾ ಸೈಟ್‌ನ ನಿರ್ವಾಹಕರನ್ನು ಸಂಪರ್ಕಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>ಹೊಸ ಪಾಸ್‌ವರ್ಡ್‌ಗೆ ವಿನಂತಿಸು</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>ಪ್ರತಿ ಮರುಪ್ರಾಪ್ತಿ ಕೋಡ್ ಒಮ್ಮೆ ಮಾತ್ರ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ. ನಿಮ್ಮ ಫೋನ್ ಕಳೆದುಹೋಗಿದ್ದರೆ, ನಿಮ್ಮ ದೃಢೀಕರಣ ಆ್ಯಪ್ ಅನ್ನು ಮತ್ತೆ ಹೊಂದಿಸಿ ಮತ್ತು ಹೊಸ ಮರುಪ್ರಾಪ್ತಿ ಕೋಡ್‌ಗಳನ್ನು ಸುರಕ್ಷಿತ ಸ್ಥಳದಲ್ಲಿ ಇರಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>ನಿಮ್ಮ ಖಾತೆಯಲ್ಲಿ ವಿಫಲ ಸೈನ್ ಇನ್ ಪ್ರಯತ್ನಗಳು</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>ಇನ್ನು ಮುಂದೆ ಸೈನ್ ಇನ್ ಮಾಡುವಾಗ ನಿಮ್ಮ ಪಾಸ್‌ವರ್ಡ್ ಜೊತೆಗೆ ಒಂದು ಕೋಡ್ ಕೇಳಲಾಗುತ್ತದೆ. ಇದನ್ನು ನೀವೇ ಮಾಡಿದ್ದರೆ, ನೀವು ಏನನ್ನೂ ಮಾಡಬೇಕಾಗಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>ಅದು ನೀವೇ ಆಗಿದ್ದು ನಿಮ್ಮ ಪಾಸ್‌ವರ್ಡ್ ಮರೆತಿದ್ದರೆ, ಹೊಸದಕ್ಕೆ ವಿನಂತಿಸಿ. ಇಲ್ಲದಿದ್ದರೆ, ಹೆಚ್ಚು ಬಲವಾದ ಪಾಸ್‌ವರ್ಡ್ ಆಯ್ಕೆಮಾಡಿ ಮತ್ತು ಎರಡು ಹಂತದ ಸೈನ್ ಇನ್ ಆನ್ ಮಾಡಿ.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>ಇದು ನೀವಲ್ಲದಿದ್ದರೆ, ಯಾರಿಗಾದರೂ ನಿಮ್ಮ ಪಾಸ್‌ವರ್ಡ್ ತಿಳಿದಿರಬಹುದು: ಈಗಲೇ ಅದನ್ನು ಬದಲಾಯಿಸಿ ಮತ್ತು ನಿಮ್ಮ ಖಾತೆ ಎಲ್ಲಿ ಸೈನ್ ಇನ್ ಆಗಿದೆ ಎಂದು ಪರಿಶೀಲಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>ಉಳಿದಿರುವ ಮರುಪ್ರಾಪ್ತಿ ಕೋಡ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>ನಿಮ್ಮ ಸಾಧನಗಳನ್ನು ಪರಿಶೀಲಿಸು</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>ಭದ್ರತಾ ಎಚ್ಚರಿಕೆ</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>ಯಾರೋ %site ಸೈಟ್‌ನಲ್ಲಿರುವ ನಿಮ್ಮ ಖಾತೆ %login ಗೆ ತಪ್ಪು ಪಾಸ್‌ವರ್ಡ್‌ನೊಂದಿಗೆ ಸತತವಾಗಿ %count ಬಾರಿ ಸೈನ್ ಇನ್ ಮಾಡಲು ಪ್ರಯತ್ನಿಸಿದ್ದಾರೆ.</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>%site ಸೈಟ್‌ನಲ್ಲಿರುವ ನಿಮ್ಮ ಖಾತೆ %login ನಲ್ಲಿ ಒಂದು ಭದ್ರತಾ ಘಟನೆ ನಡೆದಿದೆ.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>ಇದು ನಿಮ್ಮ ಖಾತೆಯ ಕುರಿತಾದ ಭದ್ರತಾ ಎಚ್ಚರಿಕೆ. ಇಂತಹ ಪ್ರತಿಯೊಂದು ಬದಲಾವಣೆಗೂ ಇದನ್ನು ಕಳುಹಿಸಲಾಗುತ್ತದೆ ಮತ್ತು ಇದನ್ನು ಆಫ್ ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>ಸಮಯ</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>%site ಸೈಟ್‌ನಲ್ಲಿರುವ ನಿಮ್ಮ ಖಾತೆ %login ಗೆ ಎರಡು ಹಂತದ ಸೈನ್ ಇನ್ ಅನ್ನು ಆಫ್ ಮಾಡಲಾಗಿದೆ.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>ಎರಡು ಹಂತದ ಸೈನ್ ಇನ್ ಆಫ್ ಮಾಡಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>%site ಸೈಟ್‌ನಲ್ಲಿರುವ ನಿಮ್ಮ ಖಾತೆ %login ಗೆ ಎರಡು ಹಂತದ ಸೈನ್ ಇನ್ ಅನ್ನು ಆನ್ ಮಾಡಲಾಗಿದೆ.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>ಎರಡು ಹಂತದ ಸೈನ್ ಇನ್ ಆನ್ ಮಾಡಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>ಹಲವು ವಿಫಲ ಸೈನ್ ಇನ್‌ಗಳ ನಂತರ %site ಸೈಟ್‌ನಲ್ಲಿರುವ ನಿಮ್ಮ ಖಾತೆ %login ಅನ್ನು ಲಾಕ್ ಮಾಡಲಾಗಿದೆ.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>ನಿಮ್ಮ ಖಾತೆ ಈಗ ನಿಮ್ಮ ಪಾಸ್‌ವರ್ಡ್‌ನಿಂದ ಮಾತ್ರ ರಕ್ಷಿತವಾಗಿದೆ. ಇದನ್ನು ನೀವು ಮಾಡದಿದ್ದರೆ, ನಿಮ್ಮ ಪಾಸ್‌ವರ್ಡ್ ಬದಲಾಯಿಸಿದ ನಂತರ ಎರಡು ಹಂತದ ಸೈನ್ ಇನ್ ಅನ್ನು ಮತ್ತೆ ಆನ್ ಮಾಡಿ.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>ನಿಮ್ಮ ಖಾತೆಯನ್ನು ಲಾಕ್ ಮಾಡಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>%site ಸೈಟ್‌ನಲ್ಲಿರುವ ನಿಮ್ಮ ಖಾತೆ %login ಗೆ ಒಂದು ಪಾಸ್‌ಕೀ ಸೇರಿಸಲಾಗಿದೆ.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>ಈ ಪಾಸ್‌ಕೀ ಹೊಂದಿರುವ ಯಾರಾದರೂ ನಿಮ್ಮ ಪಾಸ್‌ವರ್ಡ್ ಇಲ್ಲದೆ ನಿಮ್ಮ ಖಾತೆಗೆ ಸೈನ್ ಇನ್ ಮಾಡಬಹುದು. ನೀವು ಅದನ್ನು ಸೇರಿಸದಿದ್ದರೆ, ಪಾಸ್‌ಕೀಗಳು ಅಡಿಯಲ್ಲಿ ಅದನ್ನು ತೆಗೆದುಹಾಕಿ ಮತ್ತು ನಿಮ್ಮ ಪಾಸ್‌ವರ್ಡ್ ಬದಲಾಯಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>%site ಸೈಟ್‌ನಲ್ಲಿರುವ ನಿಮ್ಮ ಖಾತೆ %login ನಿಂದ ಒಂದು ಪಾಸ್‌ಕೀ ತೆಗೆದುಹಾಕಲಾಗಿದೆ.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>ಅದು ಇನ್ನು ನಿಮ್ಮ ಖಾತೆಗೆ ಸೈನ್ ಇನ್ ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ. ನೀವು ಅದನ್ನು ತೆಗೆದುಹಾಕದಿದ್ದರೆ, ನಿಮ್ಮ ಪಾಸ್‌ಕೀಗಳು ಮತ್ತು ಸಾಧನಗಳನ್ನು ಪರಿಶೀಲಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>ನಿಮ್ಮ ಖಾತೆಗೆ ಒಂದು ಪಾಸ್‌ಕೀ ಸೇರಿಸಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>ನಿಮ್ಮ ಖಾತೆಯಿಂದ ಒಂದು ಪಾಸ್‌ಕೀ ತೆಗೆದುಹಾಕಲಾಗಿದೆ</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>ಭದ್ರತಾ ಚಟುವಟಿಕೆ</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>%name ಅವರ ಭದ್ರತಾ ಚಟುವಟಿಕೆ</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>ಸೈನ್ ಇನ್ ಆಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>ವಿಫಲ ಸೈನ್ ಇನ್ ಪ್ರಯತ್ನ</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>ಸೈನ್ ಔಟ್ ಆಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>ಸೆಷನ್‌ಗಳನ್ನು ಸೈನ್ ಔಟ್ ಮಾಡಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>ಹೊಸ ಸಾಧನದಿಂದ ಸೈನ್ ಇನ್</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>ಹೊಸ ಸ್ಥಳದಿಂದ ಸೈನ್ ಇನ್</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>ಗುರುತು ದೃಢೀಕರಿಸಲಾಗಿದೆ (“ಇದು ನೀವೇ ಎಂದು ಪರಿಶೀಲಿಸಿ”)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>ಗುರುತು ಪರಿಶೀಲನೆ ವಿಫಲವಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>ಪಾಸ್‌ಕೀಯೊಂದಿಗೆ ಸೈನ್ ಇನ್ ಆಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>ಪಾಸ್‌ಕೀ ಸೈನ್ ಇನ್ ವಿಫಲವಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>ಸೈನ್ ಇನ್ ನಿರಾಕರಿಸಲಾಗಿದೆ: ಎರಡು ಹಂತದ ಕೋಡ್ ಇಲ್ಲ ಅಥವಾ ತಪ್ಪಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>ತಪ್ಪು ಎರಡು ಹಂತದ ಕೋಡ್</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>ವಿಫಲ ಸೈನ್ ಇನ್‌ಗಳ ನಂತರ ಖಾತೆ ಲಾಕ್ ಮಾಡಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>ಖಾತೆ ಅನ್‌ಲಾಕ್ ಮಾಡಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>ಪಾಸ್‌ವರ್ಡ್ ಬದಲಾಯಿಸಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>ಪಾಸ್‌ವರ್ಡ್ ಬದಲಾವಣೆ ವಿಫಲವಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>ಪಾಸ್‌ವರ್ಡ್ ಮರುಹೊಂದಿಸಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>ಹೊಸ ಪಾಸ್‌ವರ್ಡ್‌ಗೆ ವಿನಂತಿಸಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>ಇ-ಮೇಲ್ ವಿಳಾಸ ಬದಲಾಯಿಸಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>ಬಳಕೆದಾರಹೆಸರು ಬದಲಾಯಿಸಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>ಎರಡು ಹಂತದ ಸೈನ್ ಇನ್ ಆನ್ ಮಾಡಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>ಎರಡು ಹಂತದ ಸೈನ್ ಇನ್ ಆಫ್ ಮಾಡಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>ಮರುಪ್ರಾಪ್ತಿ ಕೋಡ್ ಬಳಸಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>ಹೊಸ ಮರುಪ್ರಾಪ್ತಿ ಕೋಡ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>ಆ್ಯಪ್ ಪಾಸ್‌ವರ್ಡ್ ರಚಿಸಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>ಆ್ಯಪ್ ಪಾಸ್‌ವರ್ಡ್ ಹಿಂಪಡೆಯಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>ಪಾಸ್‌ಕೀ ಸೇರಿಸಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>ಪಾಸ್‌ಕೀ ತೆಗೆದುಹಾಕಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>ಖಾತೆ ಸಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>ಖಾತೆ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>ಎಲ್ಲಾ</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>ಸೈನ್ ಇನ್‌ಗಳು ಮತ್ತು ಸೆಷನ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>ಖಾತೆ ಬದಲಾವಣೆಗಳು</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>ಗಮನ ಅಗತ್ಯ</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>ನಿಮ್ಮಿಂದ</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>ಬಳಕೆದಾರರಿಂದ</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>ಮಾಡಿದವರು: %login</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>ವಿಧಾನ</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>ಬ್ರೌಸರ್</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>ಆಪರೇಟಿಂಗ್ ಸಿಸ್ಟಮ್</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>ಸಾಧನ</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>ಸ್ಥಳ</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>ದೇಶ</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>ಸೆಷನ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>ಯಾವುವು</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>ಕಳುಹಿಸಿದ ಮಾರ್ಗ</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>ವಿಫಲ ಪ್ರಯತ್ನಗಳು</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>ಉಳಿದಿರುವ ಕೋಡ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>ಸೈನ್ ಇನ್ ಹ್ಯಾಂಡ್ಲರ್</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>ಭದ್ರತಾ ಚಟುವಟಿಕೆ</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>%name ಅವರ ಭದ್ರತಾ ಚಟುವಟಿಕೆ</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>ನಿಮ್ಮ ಖಾತೆಯ ಸೈನ್ ಇನ್‌ಗಳು ಮತ್ತು ಭದ್ರತೆಯಲ್ಲಿನ ಬದಲಾವಣೆಗಳು. ನೀವು ಮಾಡದ ಏನಾದರೂ ಕಂಡರೆ, ನಿಮ್ಮ ಪಾಸ್‌ವರ್ಡ್ ಬದಲಾಯಿಸಿ ಮತ್ತು ನೀವು ಗುರುತಿಸದ ಸಾಧನಗಳನ್ನು ಸೈನ್ ಔಟ್ ಮಾಡಿ.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>ಈ ಖಾತೆಯ ಸೈನ್ ಇನ್‌ಗಳು ಮತ್ತು ಭದ್ರತೆಯಲ್ಲಿನ ಬದಲಾವಣೆಗಳು.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>ನಿಮ್ಮ ಸಾಧನಗಳು</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>ಪಾಸ್‌ವರ್ಡ್ ಬದಲಾಯಿಸು</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>ಖಾತೆಗೆ ಹಿಂತಿರುಗು</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>ಭದ್ರತಾ ಚಟುವಟಿಕೆ ದಾಖಲಾಗುತ್ತಿಲ್ಲ</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>ಇದನ್ನು ಬಳಕೆದಾರ ಆಡಿಟ್ ಲಾಗ್‌ನಿಂದ ಓದಲಾಗುತ್ತದೆ, ಅದರ ಟೇಬಲ್ expuser_audit ಇಲ್ಲ ಅಥವಾ ಈ ಡೇಟಾಬೇಸ್‌ನಲ್ಲಿ ಬೆಂಬಲಿತವಾಗಿಲ್ಲ. php update/common/scripts/6.0/createuseraudittable.php ಅನ್ನು ರನ್ ಮಾಡಿ, ಅಥವಾ 6.0.15 ರ ಡೇಟಾಬೇಸ್ ಅಪ್‌ಡೇಟ್ ರನ್ ಮಾಡಿ.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>ಕಳೆದ %days ದಿನಗಳು</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>ಕಳೆದ %days ದಿನಗಳಲ್ಲಿ ಸೈನ್ ಇನ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>ಇತ್ತೀಚಿನ ಭದ್ರತಾ ಚಟುವಟಿಕೆ</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>ತೋರಿಸು</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>ವಿಫಲವಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>ನಿರಾಕರಿಸಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>ಇನ್ನೂ ಯಾವುದೇ ಭದ್ರತಾ ಚಟುವಟಿಕೆ ದಾಖಲಾಗಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>ಭದ್ರತಾ ಘಟನೆಗಳನ್ನು %days ದಿನಗಳವರೆಗೆ ಇರಿಸಲಾಗುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>ನಿರ್ವಾಹಕರು ತೆಗೆದುಹಾಕುವವರೆಗೆ ಭದ್ರತಾ ಘಟನೆಗಳನ್ನು ಇರಿಸಲಾಗುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>ನನ್ನ ಸೈನ್ ಇನ್ ಡೇಟಾ ಡೌನ್‌ಲೋಡ್ ಮಾಡು</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>ನಿಮ್ಮ ಸೆಷನ್‌ಗಳು ಮತ್ತು ಭದ್ರತಾ ಘಟನೆಗಳು JSON ಫೈಲ್ ಆಗಿ.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>ಈ ಸೈಟ್‌ನಲ್ಲಿ ಸೆಷನ್‌ಗಳನ್ನು ದಾಖಲಿಸಲಾಗುವುದಿಲ್ಲ, ಆದ್ದರಿಂದ ಬೇರೆ ಯಾವುದೇ ಸಾಧನವನ್ನು ಸೈನ್ ಔಟ್ ಮಾಡಲಾಗಲಿಲ್ಲ. ಈಗಲೇ ನಿಮ್ಮ ಪಾಸ್‌ವರ್ಡ್ ಬದಲಾಯಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count ಇತರ ಸೆಷನ್‌ಗಳನ್ನು ಸೈನ್ ಔಟ್ ಮಾಡಲಾಗಿದೆ. ಈಗ ನಿಮ್ಮ ಪಾಸ್‌ವರ್ಡ್ ಬದಲಾಯಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>ಬೇರೆ ಯಾವುದೇ ಸಾಧನ ಸೈನ್ ಇನ್ ಆಗಿರಲಿಲ್ಲ. ಈಗ ನಿಮ್ಮ ಪಾಸ್‌ವರ್ಡ್ ಬದಲಾಯಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>ಧನ್ಯವಾದಗಳು. ಈ ಘಟನೆಯನ್ನು ನಿಮ್ಮದೆಂದು ಗುರುತಿಸಲಾಗಿದೆ.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>ಆ ಘಟನೆಗೆ ಯಾವುದೇ ಉತ್ತರದ ಅಗತ್ಯವಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>ಪುಟದ ಅವಧಿ ಮುಗಿದಿತ್ತು. ಏನನ್ನೂ ಬದಲಾಯಿಸಲಾಗಿಲ್ಲ; ದಯವಿಟ್ಟು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>ನಿಮ್ಮ ಖಾತೆಯನ್ನು ಸುರಕ್ಷಿತಗೊಳಿಸಿ</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>ಇಲ್ಲಿರುವ ಏನಾದರೂ ನೀವಲ್ಲದಿದ್ದರೆ, ಇತರ ಪ್ರತಿಯೊಂದು ಸಾಧನವನ್ನು ಸೈನ್ ಔಟ್ ಮಾಡಿ, ನಂತರ ಹೊಸ ಪಾಸ್‌ವರ್ಡ್ ಆಯ್ಕೆಮಾಡಿ. ನನ್ನನ್ನು ನೆನಪಿಡಿ ಮೂಲಕ ಸೈನ್ ಇನ್ ಆಗಿ ಉಳಿದ ಸಾಧನಗಳನ್ನೂ ಸೈನ್ ಔಟ್ ಮಾಡಲಾಗುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>ಇದನ್ನು ಹೊರತುಪಡಿಸಿ ಪ್ರತಿಯೊಂದು ಸಾಧನವನ್ನು ಅದರ ಮುಂದಿನ ವಿನಂತಿಯಲ್ಲಿ ಸೈನ್ ಔಟ್ ಮಾಡಲಾಗುತ್ತದೆ. ನಂತರ ನೀವು ಹೊಸ ಪಾಸ್‌ವರ್ಡ್ ಆಯ್ಕೆಮಾಡುತ್ತೀರಿ.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>ಹೌದು, ಇತರ ಸಾಧನಗಳನ್ನು ಸೈನ್ ಔಟ್ ಮಾಡಿ</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>ಇದು ನೀವೇ ಆಗಿದ್ದಿರಾ?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>ಹೌದು, ಅದು ನಾನೇ</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>ಇಲ್ಲ, ನನ್ನ ಖಾತೆಯನ್ನು ಸುರಕ್ಷಿತಗೊಳಿಸಿ</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>ಸೈನ್ ಇನ್ ಆಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>ವಿಫಲ ಸೈನ್ ಇನ್ ಪ್ರಯತ್ನ</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>ಸೈನ್ ಔಟ್ ಆಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>ಸೆಷನ್‌ಗಳನ್ನು ಸೈನ್ ಔಟ್ ಮಾಡಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>ಹೊಸ ಸಾಧನದಿಂದ ಸೈನ್ ಇನ್</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>ಹೊಸ ಸ್ಥಳದಿಂದ ಸೈನ್ ಇನ್</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>ಗುರುತು ದೃಢೀಕರಿಸಲಾಗಿದೆ (“ಇದು ನೀವೇ ಎಂದು ಪರಿಶೀಲಿಸಿ”)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>ಗುರುತು ಪರಿಶೀಲನೆ ವಿಫಲವಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>ಪಾಸ್‌ಕೀಯೊಂದಿಗೆ ಸೈನ್ ಇನ್ ಆಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>ಪಾಸ್‌ಕೀ ಸೈನ್ ಇನ್ ವಿಫಲವಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>ಸೈನ್ ಇನ್ ನಿರಾಕರಿಸಲಾಗಿದೆ: ಎರಡು ಹಂತದ ಕೋಡ್ ಇಲ್ಲ ಅಥವಾ ತಪ್ಪಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>ತಪ್ಪು ಎರಡು ಹಂತದ ಕೋಡ್</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>ವಿಫಲ ಸೈನ್ ಇನ್‌ಗಳ ನಂತರ ಖಾತೆ ಲಾಕ್ ಮಾಡಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>ಖಾತೆ ಅನ್‌ಲಾಕ್ ಮಾಡಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>ಪಾಸ್‌ವರ್ಡ್ ಬದಲಾಯಿಸಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>ಪಾಸ್‌ವರ್ಡ್ ಬದಲಾವಣೆ ವಿಫಲವಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>ಪಾಸ್‌ವರ್ಡ್ ಮರುಹೊಂದಿಸಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>ಹೊಸ ಪಾಸ್‌ವರ್ಡ್‌ಗೆ ವಿನಂತಿಸಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>ಇ-ಮೇಲ್ ವಿಳಾಸ ಬದಲಾಯಿಸಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>ಬಳಕೆದಾರಹೆಸರು ಬದಲಾಯಿಸಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>ಎರಡು ಹಂತದ ಸೈನ್ ಇನ್ ಆನ್ ಮಾಡಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>ಎರಡು ಹಂತದ ಸೈನ್ ಇನ್ ಆಫ್ ಮಾಡಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>ಮರುಪ್ರಾಪ್ತಿ ಕೋಡ್ ಬಳಸಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>ಹೊಸ ಮರುಪ್ರಾಪ್ತಿ ಕೋಡ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>ಆ್ಯಪ್ ಪಾಸ್‌ವರ್ಡ್ ರಚಿಸಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>ಆ್ಯಪ್ ಪಾಸ್‌ವರ್ಡ್ ಹಿಂಪಡೆಯಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>ಪಾಸ್‌ಕೀ ಸೇರಿಸಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>ಪಾಸ್‌ಕೀ ತೆಗೆದುಹಾಕಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>ಖಾತೆ ಸಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>ಖಾತೆ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>ಎಲ್ಲಾ</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>ಸೈನ್ ಇನ್‌ಗಳು ಮತ್ತು ಸೆಷನ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>ಖಾತೆ ಬದಲಾವಣೆಗಳು</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>ಗಮನ ಅಗತ್ಯ</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>ಭದ್ರತಾ ಚಟುವಟಿಕೆ</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>%name ಅವರ ಭದ್ರತಾ ಚಟುವಟಿಕೆ</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>ನಿಮ್ಮ ಖಾತೆಯ ಸೈನ್ ಇನ್‌ಗಳು ಮತ್ತು ಭದ್ರತೆಯಲ್ಲಿನ ಬದಲಾವಣೆಗಳು. ನೀವು ಮಾಡದ ಏನಾದರೂ ಕಂಡರೆ, ನಿಮ್ಮ ಪಾಸ್‌ವರ್ಡ್ ಬದಲಾಯಿಸಿ ಮತ್ತು ನೀವು ಗುರುತಿಸದ ಸಾಧನಗಳನ್ನು ಸೈನ್ ಔಟ್ ಮಾಡಿ.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>ನಿಮ್ಮ ಸಾಧನಗಳು</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>ಪಾಸ್‌ವರ್ಡ್ ಬದಲಾಯಿಸು</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>ಈ ಸೈಟ್‌ನಲ್ಲಿ ಭದ್ರತಾ ಚಟುವಟಿಕೆ ಇನ್ನೂ ದಾಖಲಾಗುತ್ತಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>ಕಳೆದ %days ದಿನಗಳಲ್ಲಿ ಸೈನ್ ಇನ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>ವಿಫಲ ಪ್ರಯತ್ನಗಳು</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>ಇನ್ನೂ ಯಾವುದೇ ಭದ್ರತಾ ಚಟುವಟಿಕೆ ದಾಖಲಾಗಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>ನನ್ನ ಸೈನ್ ಇನ್ ಡೇಟಾ ಡೌನ್‌ಲೋಡ್ ಮಾಡು</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>ನಿಮ್ಮ ಸೆಷನ್‌ಗಳು ಮತ್ತು ಭದ್ರತಾ ಘಟನೆಗಳು JSON ಫೈಲ್ ಆಗಿ.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>ಈ ಸೈಟ್‌ನಲ್ಲಿ ಸೆಷನ್‌ಗಳನ್ನು ದಾಖಲಿಸಲಾಗುವುದಿಲ್ಲ, ಆದ್ದರಿಂದ ಬೇರೆ ಯಾವುದೇ ಸಾಧನವನ್ನು ಸೈನ್ ಔಟ್ ಮಾಡಲಾಗಲಿಲ್ಲ. ಈಗಲೇ ನಿಮ್ಮ ಪಾಸ್‌ವರ್ಡ್ ಬದಲಾಯಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count ಇತರ ಸೆಷನ್‌ಗಳನ್ನು ಸೈನ್ ಔಟ್ ಮಾಡಲಾಗಿದೆ. ಈಗ ನಿಮ್ಮ ಪಾಸ್‌ವರ್ಡ್ ಬದಲಾಯಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>ಬೇರೆ ಯಾವುದೇ ಸಾಧನ ಸೈನ್ ಇನ್ ಆಗಿರಲಿಲ್ಲ. ಈಗ ನಿಮ್ಮ ಪಾಸ್‌ವರ್ಡ್ ಬದಲಾಯಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>ಧನ್ಯವಾದಗಳು. ಈ ಘಟನೆಯನ್ನು ನಿಮ್ಮದೆಂದು ಗುರುತಿಸಲಾಗಿದೆ.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>ಆ ಘಟನೆಗೆ ಯಾವುದೇ ಉತ್ತರದ ಅಗತ್ಯವಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>ಪುಟದ ಅವಧಿ ಮುಗಿದಿತ್ತು. ಏನನ್ನೂ ಬದಲಾಯಿಸಲಾಗಿಲ್ಲ; ದಯವಿಟ್ಟು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>ನಿಮ್ಮ ಖಾತೆಯನ್ನು ಸುರಕ್ಷಿತಗೊಳಿಸಿ</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>ಇಲ್ಲಿರುವ ಏನಾದರೂ ನೀವಲ್ಲದಿದ್ದರೆ, ಇತರ ಪ್ರತಿಯೊಂದು ಸಾಧನವನ್ನು ಸೈನ್ ಔಟ್ ಮಾಡಿ, ನಂತರ ಹೊಸ ಪಾಸ್‌ವರ್ಡ್ ಆಯ್ಕೆಮಾಡಿ. ನನ್ನನ್ನು ನೆನಪಿಡಿ ಮೂಲಕ ಸೈನ್ ಇನ್ ಆಗಿ ಉಳಿದ ಸಾಧನಗಳನ್ನೂ ಸೈನ್ ಔಟ್ ಮಾಡಲಾಗುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>ಇದನ್ನು ಹೊರತುಪಡಿಸಿ ಪ್ರತಿಯೊಂದು ಸಾಧನವನ್ನು ಅದರ ಮುಂದಿನ ವಿನಂತಿಯಲ್ಲಿ ಸೈನ್ ಔಟ್ ಮಾಡಲಾಗುತ್ತದೆ. ನಂತರ ನೀವು ಹೊಸ ಪಾಸ್‌ವರ್ಡ್ ಆಯ್ಕೆಮಾಡುತ್ತೀರಿ.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>ಹೌದು, ಇತರ ಸಾಧನಗಳನ್ನು ಸೈನ್ ಔಟ್ ಮಾಡಿ</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>ಇದು ನೀವೇ ಆಗಿದ್ದಿರಾ?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>ಹೌದು, ಅದು ನಾನೇ</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>ಇಲ್ಲ, ನನ್ನ ಖಾತೆಯನ್ನು ಸುರಕ್ಷಿತಗೊಳಿಸಿ</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>ಪಾಸ್‌ವರ್ಡ್</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>ಪಾಸ್‌ವರ್ಡ್ ಮತ್ತು ಎರಡು ಹಂತದ ಕೋಡ್</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>REST ಇಂಟರ್‌ಫೇಸ್</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>SOAP ಇಂಟರ್‌ಫೇಸ್</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>ಸಿಂಗಲ್ ಸೈನ್-ಆನ್</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>ಸೆಷನ್‌ಗಳು ದಾಖಲಾಗುವ ಮೊದಲೇ ಸೈನ್ ಇನ್ ಆಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>ಸೈನ್ ಇನ್ ವರದಿ</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>ಸೈಟ್‌ನಲ್ಲಿ ಯಾರು ಸೈನ್ ಇನ್ ಆಗಿದ್ದಾರೆ, ಖಾತೆಗಳು ಎಷ್ಟು ಬಾರಿ ಸೈನ್ ಇನ್ ಆಗುತ್ತವೆ ಮತ್ತು ವಿಫಲವಾಗುತ್ತವೆ, ಹಾಗೂ ಒಬ್ಬ ಬಳಕೆದಾರರನ್ನು ಎಲ್ಲೆಡೆಯಿಂದ ಸೈನ್ ಔಟ್ ಮಾಡುವುದು. ಇದು ಪ್ರತಿಯೊಂದು ಸೆಷನ್ ಹ್ಯಾಂಡ್ಲರ್‌ನೊಂದಿಗೆ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>ಸೆಷನ್ ಅನ್ನು ಸೈನ್ ಔಟ್ ಮಾಡಲಾಗಿದೆ. ಸಾಧನವು ಮತ್ತೆ ಸೈನ್ ಇನ್ ಮಾಡಬೇಕು.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>%login ಅವರನ್ನು %count ಸೆಷನ್‌ಗಳಿಂದ ಸೈನ್ ಔಟ್ ಮಾಡಲಾಗಿದೆ.</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>%login ಅವರಿಗೆ ಯಾವುದೇ ಚಾಲನೆಯಲ್ಲಿರುವ ಸೆಷನ್ ಇರಲಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>ಈ ID, ಬಳಕೆದಾರಹೆಸರು ಅಥವಾ ಇ-ಮೇಲ್ ವಿಳಾಸ ಹೊಂದಿರುವ ಯಾವುದೇ ಖಾತೆ ಇಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>ಇದು ನೀವು ಬಳಸುತ್ತಿರುವ ಸೆಷನ್. ಅದನ್ನು ಕೊನೆಗೊಳಿಸಲು ಸೈನ್ ಔಟ್ ಮಾಡಿ.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>ಆ ಸೆಷನ್ ಈಗಾಗಲೇ ಕೊನೆಗೊಂಡಿತ್ತು.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>ಪುಟದ ಅವಧಿ ಮುಗಿದಿತ್ತು. ಏನನ್ನೂ ಬದಲಾಯಿಸಲಾಗಿಲ್ಲ; ದಯವಿಟ್ಟು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>ಈ ಸೈಟ್‌ನಲ್ಲಿ ಸೆಷನ್‌ಗಳನ್ನು ದಾಖಲಿಸಲಾಗುವುದಿಲ್ಲ (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>expuser_session ಟೇಬಲ್ ಇಲ್ಲ</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>ಅದನ್ನು ರಚಿಸಿದ ತಕ್ಷಣ ಸೆಷನ್‌ಗಳು ದಾಖಲಾಗುತ್ತವೆ: php update/common/scripts/6.0/createusersessiontable.php, ಅಥವಾ 6.0.15 ರ ಡೇಟಾಬೇಸ್ ಅಪ್‌ಡೇಟ್.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>ಈಗ ಮತ್ತು ಇಂದು</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>ಚಾಲನೆಯಲ್ಲಿರುವ ಸೆಷನ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>ಸೈನ್ ಇನ್ ಆಗಿರುವ ಬಳಕೆದಾರರು</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>ಇಂದಿನ ಸೈನ್ ಇನ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>ಇಂದಿನ ವಿಫಲ ಪ್ರಯತ್ನಗಳು</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>ಒಬ್ಬ ಬಳಕೆದಾರರನ್ನು ಎಲ್ಲೆಡೆಯಿಂದ ಸೈನ್ ಔಟ್ ಮಾಡು</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>ಖಾತೆಯ ಪ್ರತಿಯೊಂದು ಸೆಷನ್ ಅದರ ಮುಂದಿನ ವಿನಂತಿಯಲ್ಲಿ ಕೊನೆಗೊಳ್ಳುತ್ತದೆ, “ನನ್ನನ್ನು ನೆನಪಿಡಿ” ಮೂಲಕ ಇರಿಸಿದವೂ ಸಹ. ಒಂದು ಖಾತೆ ತಪ್ಪು ಕೈಗಳಲ್ಲಿರಬಹುದು ಎನಿಸಿದಾಗ ಇದನ್ನು ಬಳಸಿ; ನಂತರ ಅದರ ಪಾಸ್‌ವರ್ಡ್ ಮರುಹೊಂದಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>ಬಳಕೆದಾರ ID, ಬಳಕೆದಾರಹೆಸರು ಅಥವಾ ಇ-ಮೇಲ್ ವಿಳಾಸ</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>ಎಲ್ಲೆಡೆಯಿಂದ ಸೈನ್ ಔಟ್ ಮಾಡು</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>ಈಗ ಸೈನ್ ಇನ್ ಆಗಿರುವವು</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>ಇತ್ತೀಚೆಗೆ ಬಳಸಿದ %limit ಅನ್ನು ತೋರಿಸಲಾಗಿದೆ.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>ಬಳಕೆದಾರ</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>ಸಾಧನ</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>ವಿಳಾಸ</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>ಸೈನ್ ಇನ್ ಆಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>ಕೊನೆಯದಾಗಿ ಸಕ್ರಿಯ</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>ಕ್ರಿಯೆಗಳು</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>ಈ ಸಾಧನ</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>ದಾಖಲಾಗಿಲ್ಲ</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>ಸೈನ್ ಔಟ್ ಮಾಡು</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>ಯಾವುದೇ ಸೆಷನ್ ಸೈನ್ ಇನ್ ಆಗಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>ಕಳೆದ %days ದಿನಗಳು</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>ಸೈನ್ ಇನ್‌ಗಳು ಮತ್ತು ವಿಫಲ ಪ್ರಯತ್ನಗಳನ್ನು ಬಳಕೆದಾರ ಆಡಿಟ್ ಲಾಗ್‌ನಿಂದ ಎಣಿಸಲಾಗುತ್ತದೆ, ಅದು ಇಲ್ಲ; ಹೊಸ ಸೆಷನ್‌ಗಳನ್ನು ಎಣಿಸಲಾಗುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>ದಿನ</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>ಸೈನ್ ಇನ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>ವಿಫಲ ಪ್ರಯತ್ನಗಳು</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>ಹೊಸ ಸೆಷನ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>ಸೆಷನ್ ಹ್ಯಾಂಡ್ಲರ್: %handler. ಸೆಷನ್‌ಗಳನ್ನು expuser_session ಟೇಬಲ್‌ನಿಂದ ಓದಲಾಗುತ್ತದೆ, ಆದ್ದರಿಂದ ವರದಿ ಪ್ರತಿಯೊಂದು ಹ್ಯಾಂಡ್ಲರ್‌ನೊಂದಿಗೆ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>ಕಳೆದ %hours ಗಂಟೆಗಳಲ್ಲಿ ಸಂಶಯಾಸ್ಪದ ಚಟುವಟಿಕೆ</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>ಒಂದು ನೆಟ್‌ವರ್ಕ್ %accounts ಖಾತೆಗಳಿಗೆ ಸೈನ್ ಇನ್ ಮಾಡಲು ವಿಫಲವಾಯಿತು (%count ಪ್ರಯತ್ನಗಳು)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>ವಿಫಲ ಸೈನ್-ಇನ್‌ಗಳ ನಂತರ ಖಾತೆ ಲಾಕ್ ಆಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>ಒಂದು ಖಾತೆಯಲ್ಲಿ %count ವಿಫಲ ಸೈನ್-ಇನ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>ಏಕಕಾಲದಲ್ಲಿ %count ದೇಶಗಳಿಂದ ಸೈನ್ ಇನ್</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>ಭದ್ರತಾ ಚಟುವಟಿಕೆ</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>ಸೆಷನ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>ವಿಫಲ ಸೈನ್-ಇನ್‌ಗಳನ್ನು ಬಳಕೆದಾರ ಆಡಿಟ್ ಲಾಗ್‌ನಿಂದ ಓದಲಾಗುತ್ತದೆ, ಅದು ಇಲ್ಲಿ ಲಭ್ಯವಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>ಸಂಶಯಾಸ್ಪದ ಏನೂ ಇಲ್ಲ: ಪುನರಾವರ್ತಿತ ವಿಫಲ ಸೈನ್-ಇನ್‌ಗಳಿರುವ ಖಾತೆ ಇಲ್ಲ, ಹಲವು ಖಾತೆಗಳನ್ನು ಪ್ರಯತ್ನಿಸುವ ನೆಟ್‌ವರ್ಕ್ ಇಲ್ಲ, ಹಲವು ದೇಶಗಳಿಂದ ಸೈನ್ ಇನ್ ಆದ ಖಾತೆ ಇಲ್ಲ.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>ನಿಮ್ಮ ಖಾತೆಗಾಗಿ ಭದ್ರತಾ ಎಚ್ಚರಿಕೆ</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>ನಿಮ್ಮ ಖಾತೆ %login ನಲ್ಲಿ ಒಂದು ಭದ್ರತಾ ಘಟನೆ ನಡೆದಿದೆ: %event. ಇದು ನೀವಲ್ಲದಿದ್ದರೆ, %url ನಲ್ಲಿ ನಿಮ್ಮ ಖಾತೆಯನ್ನು ಸುರಕ್ಷಿತಗೊಳಿಸಿ.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>ಸೆಟಪ್</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>ಈ ಸೈಟ್‌ನ ವಿಷಯದಿಂದ ಒಂದು ಪುಟಕ್ಕೆ ಬೇಕಾದ ನಿಖರ ಫೀಲ್ಡ್‌ಗಳನ್ನು ಒಂದೇ ವಿನಂತಿಯಲ್ಲಿ ಕೇಳಿ. ಸ್ಕೀಮಾ ವಿಷಯ ವರ್ಗಗಳನ್ನು ಅನುಸರಿಸುತ್ತದೆ; ಪ್ರತಿಯೊಂದು ಕ್ವೆರಿ ಅದನ್ನು ಕಳುಹಿಸುವ ಬಳಕೆದಾರರ ಹಕ್ಕುಗಳೊಂದಿಗೆ ನಡೆಯುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>ಈ ಸೈಟ್‌ಆಕ್ಸೆಸ್‌ನಲ್ಲಿ GraphQL API ಆಫ್ ಆಗಿದೆ. ಅದನ್ನು graphql.ini ನಲ್ಲಿ ಆನ್ ಮಾಡಿ: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>GraphQL ಲೈಬ್ರರಿ (webonyx/graphql-php 15) ಸ್ಥಾಪಿಸಲಾಗಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>ಎಂಡ್ ಪಾಯಿಂಟ್</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>ಲೈಬ್ರರಿ</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>ಸ್ಕೀಮಾ</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>%count ವಿಷಯ ವರ್ಗಗಳು, ಸ್ಕೀಮಾ %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>ಕ್ವೆರಿ</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>ವೇರಿಯಬಲ್‌ಗಳು (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>ಚಾಲನೆ ಮಾಡು</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>ಉತ್ತರ</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>ಚಾಲನೆಯಲ್ಲಿದೆ…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>ಉತ್ತರವನ್ನು ಓದಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>ಕ್ವೆರಿ ನಿಮ್ಮ ಹಕ್ಕುಗಳೊಂದಿಗೆ, ಈ ಸೆಷನ್‌ನಿಂದ ಸೈನ್ ಇನ್ ಆಗಿ ನಡೆಯುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%seconds ಸೆ ನಲ್ಲಿ %count</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>ಮಿತಿ ಇಲ್ಲ</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>ಆಳ</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>ಸಂಕೀರ್ಣತೆ</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>ಪ್ರತಿ ಪಟ್ಟಿಗೆ ಐಟಂಗಳು</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (ಡೀಫಾಲ್ಟ್ %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>ಪ್ರತಿ ಬಳಕೆದಾರ ಅಥವಾ ಕೀಗೆ ವಿನಂತಿಗಳು</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>ಪ್ರತಿ ಅನಾಮಧೇಯ ವಿಳಾಸಕ್ಕೆ ವಿನಂತಿಗಳು</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>ಇಂಟ್ರೋಸ್ಪೆಕ್ಷನ್</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>ಸಂಗ್ರಹಿಸಿದ ಕ್ವೆರಿಗಳು ಮಾತ್ರ</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>ಅತಿ ದೊಡ್ಡ ಕ್ವೆರಿ</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>%bytes ಬೈಟ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>ಅತಿ ದೊಡ್ಡ ಅಪ್‌ಲೋಡ್</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>%siteaccess ಸೈಟ್‌ಆಕ್ಸೆಸ್ ಇಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>%siteaccess ನಲ್ಲಿ ಮ್ಯುಟೇಶನ್‌ಗಳು ಆನ್ ಆಗಿವೆ.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>%siteaccess ನಲ್ಲಿ ಮ್ಯುಟೇಶನ್‌ಗಳು ಆಫ್ ಆಗಿವೆ.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>%siteaccess ನಲ್ಲಿ GraphQL API ಆನ್ ಆಗಿದೆ.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>%siteaccess ನಲ್ಲಿ GraphQL API ಆಫ್ ಆಗಿದೆ.</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಬರೆಯಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>ಪ್ರತಿಕ್ರಿಯೆ ಕ್ಯಾಶ್ ತೆರವುಗೊಳಿಸಲಾಗಿದೆ: %count ಉತ್ತರಗಳನ್ನು ತೆಗೆದುಹಾಕಲಾಗಿದೆ.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>ಕ್ವೆರಿಯನ್ನು ತೆಗೆದುಹಾಕಲು ಅದರ ಪಕ್ಕದ ಚೌಕವನ್ನು ಗುರುತಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>ಕ್ವೆರಿಯನ್ನು ತೆಗೆದುಹಾಕಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ: PersistedQueryDirectoryList[] ನ ಡೈರೆಕ್ಟರಿಯಲ್ಲಿ ಒದಗಿಸಿದ ಕ್ವೆರಿಯನ್ನು ಅದರ ಫೈಲ್‌ನೊಂದಿಗೆ ತೆಗೆದುಹಾಕಲಾಗುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>ಸಂಗ್ರಹಿಸಿದ ಕ್ವೆರಿಯನ್ನು ತೆಗೆದುಹಾಕಲಾಗಿದೆ.</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>ಮ್ಯುಟೇಶನ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>ಆನ್</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>ಆಫ್</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>ಸೈಟ್‌ಆಕ್ಸೆಸ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>API ಮತ್ತು ಅದರ ಮ್ಯುಟೇಶನ್‌ಗಳು ಉತ್ತರಿಸುವ ಸ್ಥಳಗಳು. ಬಟನ್‌ಗಳು ./console exp:graphql:enable ಮತ್ತು exp:graphql:disable ಮಾಡುವಂತೆಯೇ graphql.ini ಅನ್ನು ಬರೆಯುತ್ತವೆ.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>ಸೈಟ್‌ಆಕ್ಸೆಸ್</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>GraphQL API</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>ಬದಲಾಯಿಸಿ</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>ಆಫ್ ಮಾಡಿ</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>ಮ್ಯುಟೇಶನ್‌ಗಳು ಆಫ್</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>ಮ್ಯುಟೇಶನ್‌ಗಳು ಆನ್</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>ಆನ್ ಮಾಡಿ</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>ಮಿತಿಗಳು</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>ಈ ಸೈಟ್‌ಆಕ್ಸೆಸ್‌ನ graphql.ini [GraphQLSettings].</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>ಪ್ರತಿಕ್ರಿಯೆ ಕ್ಯಾಶ್</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>ಸಂಗ್ರಹಿಸಿದ ಕ್ವೆರಿಗಳ ಉತ್ತರಗಳು, ಬಳಕೆದಾರ ಹಕ್ಕುಗಳ ಪ್ರಕಾರ ಇರಿಸಲಾಗುತ್ತದೆ ಮತ್ತು ವಿಷಯ ಪ್ರಕಟವಾದಾಗಲೆಲ್ಲ ಅವಧಿ ಮುಗಿಯುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>ಸ್ಥಿತಿ</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>ಇರಿಸಿದ ಉತ್ತರಗಳು</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>%count ಉತ್ತರಗಳು, %bytes ಬೈಟ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>ಗರಿಷ್ಠ ಇರಿಸುವ ಅವಧಿ</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds ಸೆ</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>ಕೊನೆಯ ಅವಧಿ ಮುಕ್ತಾಯ</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>ಪ್ರತಿಕ್ರಿಯೆ ಕ್ಯಾಶ್ ತೆರವುಗೊಳಿಸಿ</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>ಸಂಗ್ರಹಿಸಿದ ಕ್ವೆರಿಗಳು</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>./console exp:graphql:persist ಮೂಲಕ ಅಥವಾ ಕ್ಲೈಂಟ್‌ಗಳಿಂದ ಸಂಗ್ರಹಿಸಲಾಗಿದೆ (automatic persisted queries); ಹೆಸರು ಅಥವಾ SHA-256 ಮೂಲಕ ಕರೆಯಲಾಗುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>ಹೆಸರುಗಳು</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>ಗಾತ್ರ</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>ಎಲ್ಲಿ</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>ತೆಗೆದುಹಾಕಿ</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>ಒದಗಿಸಿದ</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>ಸಂಗ್ರಹಿಸಿದ</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>ಹೌದು, ಈ ಕ್ವೆರಿಯನ್ನು ತೆಗೆದುಹಾಕಿ</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>ಇನ್ನೂ ಯಾವುದೇ ಸಂಗ್ರಹಿಸಿದ ಕ್ವೆರಿ ಇಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>API ಕೀಗಳು</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>graphql:read (ಕ್ವೆರಿಗಳು) ಅಥವಾ graphql:write (ಮ್ಯುಟೇಶನ್‌ಗಳು) ಸ್ಕೋಪ್ ಹೊಂದಿರುವ ವೈಯಕ್ತಿಕ API ಕೀಗಳು. ಅವುಗಳನ್ನು API ಪ್ರವೇಶ ಪುಟದಲ್ಲಿ ಅಥವಾ ./console exp:graphql:keys ಮೂಲಕ ರಚಿಸಿ ಮತ್ತು ಹಿಂಪಡೆಯಿರಿ.</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>API ಪ್ರವೇಶ</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>ಎಲ್ಲಾ ಕೀಗಳು</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>ಕೀ</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>ಹೆಸರು</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>ಮಾಲೀಕರು</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>ಸ್ಕೋಪ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>ಕೊನೆಯ ಬಳಕೆ</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>ಸಕ್ರಿಯ</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>ಅವಧಿ ಮುಗಿದಿದೆ</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>ಹಿಂಪಡೆಯಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>ಎಂದಿಗೂ ಇಲ್ಲ</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>GraphQL ಸ್ಕೋಪ್ ಹೊಂದಿರುವ API ಕೀ ಇನ್ನೂ ಇಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>ಈ ಪುಟವನ್ನು ತೋರಿಸುವ ಸೈಟ್‌ಆಕ್ಸೆಸ್ %siteaccess ನಲ್ಲಿ GraphQL API ಆಫ್ ಆಗಿದೆ; ಅದು ಎಲ್ಲಿ ಉತ್ತರಿಸುತ್ತದೆ ಎಂಬುದನ್ನು ಕೆಳಗಿನ ಕೋಷ್ಟಕ ತೋರಿಸುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>ಈ ಪುಟವನ್ನು ತೋರಿಸುವ ಸೈಟ್‌ಆಕ್ಸೆಸ್ %siteaccess ಗಾಗಿ.</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>ವೆಬ್‌ಹುಕ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>ಎಂಡ್ ಪಾಯಿಂಟ್ ಕೇಳುವ ಪ್ರತಿಯೊಂದು ಘಟನೆಯನ್ನು (publish, update, trash, delete, move, hide, reveal, mutation) cronjob ಭಾಗ graphqlwebhooks ಸಹಿ ಮಾಡಿ ಅದಕ್ಕೆ ಕಳುಹಿಸುತ್ತದೆ. ./console exp:graphql:webhooks ಈ ವಿಭಾಗದಂತೆಯೇ ಕೆಲಸ ಮಾಡುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>ಘಟನೆಗಳು</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>ಎಲ್ಲಾ</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>ಪ್ರತಿ ಸೈಟ್‌ಆಕ್ಸೆಸ್</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>ಮುರಿದಿದೆ</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>ರಹಸ್ಯವಿಲ್ಲ</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>ಕಾಯುತ್ತಿವೆ</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count ಕೈಬಿಡಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>ಕೊನೆಯ ವಿತರಣೆ</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>ಪರೀಕ್ಷೆ ಕಳುಹಿಸಿ</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>ಹೌದು, ಈ ವೆಬ್‌ಹುಕ್ ಅನ್ನು ತೆಗೆದುಹಾಕಿ</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>ಇನ್ನೂ ಯಾವುದೇ ವೆಬ್‌ಹುಕ್ ಇಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>ವೆಬ್‌ಹುಕ್ ಸೇರಿಸಿ</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>ಸೇರಿಸಿ</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>ಇತ್ತೀಚಿನ ವಿತರಣೆಗಳು</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>ಸಮಯ</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>ಫಲಿತಾಂಶ</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>ಚಂದಾದಾರಿಕೆಗಳು</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>ಕ್ಲೈಂಟ್‌ಗಳಿಗೆ ನೇರ ನವೀಕರಣಗಳು: /api/graphql/subscribe ನಲ್ಲಿ ಘಟನೆ ಸ್ಟ್ರೀಮ್, ಮತ್ತು Velocity ಮೇಲೆ WebSocket (graphql-transport-ws). ಪ್ರತಿ ಘಟನೆ ಅದರ ವಿಷಯವನ್ನು ಓದಲು ಅನುಮತಿ ಇರುವ ಚಂದಾದಾರರಿಗೆ ಮಾತ್ರ ಹೋಗುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>ಈಗ ತೆರೆದಿರುವವು</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>ಗರಿಷ್ಠ ತೆರೆದಿರುವವು</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>ಒಟ್ಟು %total, ಪ್ರತಿ ಬಳಕೆದಾರರಿಗೆ %user, ಪ್ರತಿ ವಿಳಾಸಕ್ಕೆ %address</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>ಅನಾಮಧೇಯ ಚಂದಾದಾರಿಕೆಗಳು</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>ಸ್ಟ್ರೀಮ್ ಅವಧಿ</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>ವೆಬ್‌ಹುಕ್ ಸೇರಿಸಲಾಗಲಿಲ್ಲ: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>ವೆಬ್‌ಹುಕ್ %name ಬದಲಾಯಿಸಲಾಗಿದೆ; ಅದರ ಸಹಿ ರಹಸ್ಯ ಹಾಗೆಯೇ ಉಳಿಯುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>ಸಹಿ ರಹಸ್ಯವನ್ನು ಸಂಗ್ರಹಿಸಲಾಗಲಿಲ್ಲ (ಸೆಟಪ್ &gt; ರಹಸ್ಯಗಳು).</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>ವೆಬ್‌ಹುಕ್ %name ಸೇರಿಸಲಾಗಿದೆ. ಅದರ ಸಹಿ ರಹಸ್ಯ, ಈ ಒಂದು ಬಾರಿ ಮಾತ್ರ ತೋರಿಸಲಾಗಿದೆ: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>ವೆಬ್‌ಹುಕ್ %name ಇಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>ವೆಬ್‌ಹುಕ್ %name ಉತ್ತರಿಸಲಿಲ್ಲ: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>ವೆಬ್‌ಹುಕ್ %name %ms ms ನಲ್ಲಿ %status ಉತ್ತರಿಸಿತು.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>ವೆಬ್‌ಹುಕ್ ತೆಗೆದುಹಾಕಲು ಅದರ ಪಕ್ಕದ ಚೌಕವನ್ನು ಗುರುತಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>ವೆಬ್‌ಹುಕ್ %name ತೆಗೆದುಹಾಕಲಾಗಿದೆ.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>ಈ ಸೈಟ್‌ಆಕ್ಸೆಸ್‌ನಲ್ಲಿ GraphQL API ಆಫ್ ಆಗಿದೆ.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>GraphQL ಲೈಬ್ರರಿಯನ್ನು ಸ್ಥಾಪಿಸಲಾಗಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>GET ಅಥವಾ POST ಬಳಸಿ.</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>ವಿನಂತಿಯ ಬಾಡಿ JSON ಆಬ್ಜೆಕ್ಟ್ ಅಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables JSON ಆಬ್ಜೆಕ್ಟ್ ಅಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions JSON ಆಬ್ಜೆಕ್ಟ್ ಅಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>ಕ್ವೆರಿಯನ್ನು POST ಮೂಲಕ ಕಳುಹಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>ವಿನಂತಿಯಲ್ಲಿ ಯಾವುದೇ ಕ್ವೆರಿ ಇಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>ಕ್ವೆರಿ %max ಬೈಟ್‌ಗಳಿಗಿಂತ ಉದ್ದವಾಗಿದೆ.</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>ಆಂತರಿಕ ಸರ್ವರ್ ದೋಷ</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node ಗೆ id, remoteId, path ಮತ್ತು urlAlias ಇವುಗಳಲ್ಲಿ ನಿಖರವಾಗಿ ಒಂದು ಬೇಕು.</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content ಗೆ id ಮತ್ತು remoteId ಇವುಗಳಲ್ಲಿ ನಿಖರವಾಗಿ ಒಂದು ಬೇಕು.</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>after ನ ಕರ್ಸರ್ ಈ API ನೀಡಿದುದಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>%alias ಎಂಬ ಚಿತ್ರ ಅಲಿಯಾಸ್ ಇಲ್ಲ (image.ini [AliasSettings] AliasList[]).</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>ಇಲ್ಲಿ ಸಂಗ್ರಹಿಸಿದ ಕ್ವೆರಿಗಳನ್ನು ಮಾತ್ರ ಸ್ವೀಕರಿಸಲಾಗುತ್ತದೆ: ಸಂಗ್ರಹಿಸಿದ ಕ್ವೆರಿಯ id ಕಳುಹಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>ಸಂಗ್ರಹಿಸಿದ ಕ್ವೆರಿಯ ಹ್ಯಾಶ್ SHA-256 ಅಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>ಸಂಗ್ರಹಿಸಿದ ಕ್ವೆರಿಯ ಹ್ಯಾಶ್ ಕ್ವೆರಿಗೆ ಹೊಂದಿಕೆಯಾಗುತ್ತಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>ತುಂಬಾ ಹೆಚ್ಚು ವಿನಂತಿಗಳು: %window ಸೆಕೆಂಡುಗಳಲ್ಲಿ ಗರಿಷ್ಠ %limit. %reset ಸೆಕೆಂಡುಗಳ ನಂತರ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>ಕ್ವೆರಿ %depth ಹಂತಗಳಷ್ಟು ಆಳವಾಗಿದೆ; ಗರಿಷ್ಠ %max ಗೆ ಅನುಮತಿ ಇದೆ.</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>ಕ್ವೆರಿಯ ಸಂಕೀರ್ಣತೆ %complexity ಆಗಿದೆ; ಗರಿಷ್ಠ %max ಗೆ ಅನುಮತಿ ಇದೆ.</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>ಈ ವಿನಂತಿ ಸ್ಕೀಮಾವನ್ನು ಓದುವಂತಿಲ್ಲ (introspection).</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search ಗೆ ಪಠ್ಯ ಅಥವಾ ಫಿಲ್ಟರ್ ಬೇಕು (classes, subtree, sections, publishedAfter, publishedBefore).</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument ದಿನಾಂಕವಲ್ಲ (ISO 8601, 2026-10-30).</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag ಗೆ id, remoteId ಮತ್ತು path ಇವುಗಳಲ್ಲಿ ನಿಖರವಾಗಿ ಒಂದು ಬೇಕು.</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout ಗೆ id, identifier ಮತ್ತು urlAlias ಇವುಗಳಲ್ಲಿ ನಿಖರವಾಗಿ ಒಂದು ಬೇಕು.</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>multipart ವಿನಂತಿಯ operations ಫೀಲ್ಡ್ ಒಂದು JSON ವಿನಂತಿ ಅಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>multipart ವಿನಂತಿಯ map ಫೀಲ್ಡ್ JSON ಆಬ್ಜೆಕ್ಟ್ ಅಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>multipart ವಿನಂತಿಯಲ್ಲಿ %field ಫೈಲ್ ಇಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>ಫೀಲ್ಡ್ ಮ್ಯಾಪ್‌ನ ಪಾತ್ variables. ನಿಂದ ಆರಂಭವಾಗಬೇಕು: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>%name ಫೈಲ್ ಪೂರ್ಣವಾಗಿ ಬಂದಿಲ್ಲ (ಅಪ್‌ಲೋಡ್ ದೋಷ %error).</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>%name ಫೈಲ್ %max ಬೈಟ್‌ಗಳಿಗಿಂತ ದೊಡ್ಡದಾಗಿದೆ.</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>%name ಫೈಲ್ ಅನ್ನು ಪರಿಶೀಲಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>ಈ ಸೈಟ್‌ಆಕ್ಸೆಸ್‌ನಲ್ಲಿ ಮ್ಯುಟೇಶನ್‌ಗಳು ಆಫ್ ಆಗಿವೆ (graphql.ini [GraphQLSettings] MutationsEnabled).</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>ಮ್ಯುಟೇಶನ್ ಅನ್ನು POST ಮೂಲಕ ಕಳುಹಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>ವಿಷಯವನ್ನು ಬದಲಾಯಿಸಲು ಸೈನ್ ಇನ್ ಮಾಡಿ.</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>API ಕೀಗೆ %scope ಸ್ಕೋಪ್ ಇಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>ಸೆಷನ್ ಹೊಂದಿರುವ ಮ್ಯುಟೇಶನ್‌ಗೆ ಆ ಸೆಷನ್‌ನ ಫಾರ್ಮ್ ಟೋಕನ್ ಬೇಕು (ಹೆಡರ್ X-CSRF-Token).</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>uploadFromUrl ಆಫ್ ಆಗಿದೆ: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] ಯಾವುದೇ ಹೋಸ್ಟ್ ಅನ್ನು ಹೆಸರಿಸಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>ವಿಳಾಸವು https ವಿಳಾಸವಾಗಿರಬೇಕು.</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>%host ಹೋಸ್ಟ್ graphql.ini [GraphQLSettings] UploadFromUrlHostList[] ನಲ್ಲಿ ಇಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>ಫೈಲ್ ಅನ್ನು ತರಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload ಕೇವಲ ಇನ್‌ಪುಟ್ ಪ್ರಕಾರ.</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>Upload ಪ್ರಕಾರದ ವೇರಿಯೇಬಲ್ multipart ವಿನಂತಿಯ ಫೈಲ್ ಅನ್ನು ಸ್ವೀಕರಿಸುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>ರಿಮೋಟ್ id %remoteId ಈಗಾಗಲೇ ಬಳಕೆಯಲ್ಲಿದೆ.</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>ವಿಷಯಕ್ಕೆ ಈಗಾಗಲೇ %language ಅನುವಾದವಿದೆ: updateContent ಬಳಸಿ.</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>ಕನಿಷ್ಠ ಒಂದು ಫೀಲ್ಡ್ ನೀಡಿ.</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>ಹೊಸ ಆವೃತ್ತಿಯನ್ನು ರಚಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ (ವಿಷಯಕ್ಕೆ ತುಂಬಾ ಡ್ರಾಫ್ಟ್‌ಗಳಿವೆ).</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>ಆವೃತ್ತಿ %version ಡ್ರಾಫ್ಟ್ ಅಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent ಗೆ id ಮತ್ತು nodeId ಇವುಗಳಲ್ಲಿ ನಿಖರವಾಗಿ ಒಂದು ಬೇಕು.</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>ಸ್ಥಳವನ್ನು ತನ್ನದೇ ಕೆಳಗೆ ಸರಿಸಲಾಗುವುದಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>ವಿಷಯಕ್ಕೆ ಈಗಾಗಲೇ %parentId ಕೆಳಗೆ ಒಂದು ಸ್ಥಳವಿದೆ.</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>%field ಫೀಲ್ಡ್‌ನ ಮೌಲ್ಯವನ್ನು ಉಳಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>%language ವಿಷಯ ಭಾಷೆ ಇಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>ಸ್ಕೀಮಾದಲ್ಲಿ %class ವಿಷಯ ವರ್ಗ ಇಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>ವಿಷಯ ಇಲ್ಲ, ಅಥವಾ ಅದನ್ನು ಓದಲು ನಿಮಗೆ ಅನುಮತಿ ಇಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>ಈ ವಿಷಯದ ಮೇಲೆ ಇದನ್ನು ಮಾಡಲು ನಿಮಗೆ ಅನುಮತಿ ಇಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>%class ವರ್ಗದಲ್ಲಿ ಬರೆಯಬಹುದಾದ %field ಫೀಲ್ಡ್ ಇಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>%field ಫೀಲ್ಡ್ ಎರಡು ಬಾರಿ ನೀಡಲಾಗಿದೆ.</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>%field ಫೀಲ್ಡ್ ಫೈಲ್ ಸ್ವೀಕರಿಸುತ್ತದೆ: ಅದನ್ನು ಅಪ್‌ಲೋಡ್ ಆಗಿ ಕಳುಹಿಸಿ (multipart ವಿನಂತಿ).</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>%field ಫೀಲ್ಡ್ ಫೈಲ್ ಸ್ವೀಕರಿಸುವುದಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>%field ಫೀಲ್ಡ್‌ಗೆ ಮೌಲ್ಯ ಬೇಕು.</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>%format ಫಾರ್ಮ್ಯಾಟ್ ರಿಚ್ ಟೆಕ್ಸ್ಟ್ ಫೀಲ್ಡ್‌ಗಳಿಗೆ ಮಾತ್ರ; %field ತನ್ನ ಮೌಲ್ಯವನ್ನು ಇದ್ದಂತೆಯೇ ಸ್ವೀಕರಿಸುತ್ತದೆ (RAW).</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>%field ಫೀಲ್ಡ್ ಕಡ್ಡಾಯ.</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>HTML ಅನ್ನು ಓದಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content id ಜೊತೆಗೆ ಮಾತ್ರ version ಸ್ವೀಕರಿಸುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>ಪೂರ್ವವೀಕ್ಷಣೆ ಟೋಕನ್ ಮಾನ್ಯವಲ್ಲ ಅಥವಾ ಅವಧಿ ಮುಗಿದಿದೆ.</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>ಮೂಲ (origin) ಅಲ್ಲ (https://host ಅಥವಾ https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>GraphQL API ಯ ಸ್ಕೋಪ್ ಅಲ್ಲ: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>ಚಂದಾದಾರಿಕೆಗಳನ್ನು /api/graphql/subscribe ಗೆ ಕಳುಹಿಸಿ (ಘಟನೆ ಸ್ಟ್ರೀಮ್ ಅಥವಾ WebSocket).</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>ವಿನಂತಿಯು ಡಾಕ್ಯುಮೆಂಟ್‌ನ ಯಾವುದೇ ಕಾರ್ಯಾಚರಣೆಯನ್ನು ಹೆಸರಿಸುವುದಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>ಚಂದಾದಾರಿಕೆ ನಿಖರವಾಗಿ ಒಂದು ಫೀಲ್ಡ್ ಅನ್ನು ಕೇಳುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>ತುಂಬಾ ಚಂದಾದಾರಿಕೆಗಳು ತೆರೆದಿವೆ; ನಂತರ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>ನೀವು %max ಚಂದಾದಾರಿಕೆಗಳನ್ನು ತೆರೆದಿದ್ದೀರಿ, ಇದು ಅನುಮತಿಸಲಾದ ಗರಿಷ್ಠ.</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>ನಿಮ್ಮ ವಿಳಾಸದಲ್ಲಿ %max ಚಂದಾದಾರಿಕೆಗಳು ತೆರೆದಿವೆ, ಇದು ಅನುಮತಿಸಲಾದ ಗರಿಷ್ಠ.</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>ಈ ಸೈಟ್‌ಆಕ್ಸೆಸ್‌ನಲ್ಲಿ ಚಂದಾದಾರಿಕೆಗಳು ಆಫ್ ಆಗಿವೆ.</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>ಚಂದಾದಾರರಾಗಲು ಸೈನ್ ಇನ್ ಮಾಡಿ (ಟೋಕನ್ ಅಥವಾ ವೈಯಕ್ತಿಕ API ಕೀ).</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>ಮ್ಯುಟೇಶನ್‌ಗಳನ್ನು /api/graphql ಗೆ ಕಳುಹಿಸಿ.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>ಮೈಗ್ರೇಶನ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>ಸ್ಥಿತಿಯನ್ನು ಓದಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>ಮೈಗ್ರೇಶನ್‌ಗಳ ಟೇಬಲ್‌ಗಳು ಇನ್ನೂ ಇಲ್ಲ: ./console exp:upgrade --apply ಅವುಗಳನ್ನು ರಚಿಸುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>%count ಮೈಗ್ರೇಶನ್‌ಗಳು ವಿಫಲವಾಗಿವೆ</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>ಒಂದು ರನ್ ನಡೆಯುತ್ತಿದೆ, %user ಪ್ರಾರಂಭಿಸಿದ್ದಾರೆ</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>ಇನ್‌ಸ್ಟಾಲೇಶನ್ ಲಾಕ್ ಆಗಿದೆ: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>ಬಾಕಿ ಇರುವ</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>ವಿಫಲವಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>ಅನಾಥ</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>ಕೊನೆಯ ರನ್</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>ಇನ್ನೂ ಯಾವುದೂ ಇಲ್ಲ</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>ಎಲ್ಲಾ ಮೈಗ್ರೇಶನ್‌ಗಳು</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>ಅನುಕರಿಸಿದ ರನ್</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>ಡ್ರೈ ರನ್</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>ಬಾಕಿ ಇರುವ ಮೈಗ್ರೇಶನ್‌ಗಳು ಒಂದು ಟ್ರಾನ್ಸಾಕ್ಷನ್‌ನಲ್ಲಿ ನಡೆದು ನಂತರ ಅದನ್ನು ರೋಲ್‌ಬ್ಯಾಕ್ ಮಾಡಲಾಯಿತು: ಏನನ್ನೂ ಉಳಿಸಲಾಗಿಲ್ಲ. ಪ್ರತಿಯೊಂದು ಡೇಟಾಬೇಸ್‌ನಲ್ಲಿ ಏನು ಬದಲಾಯಿಸಿತು ಎಂಬುದು ಕೆಳಗಿದೆ.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>ಈಗ ರನ್ ಮಾಡಿದರೆ ಏನಾಗುತ್ತದೆ. ಏನನ್ನೂ ಬದಲಾಯಿಸಲಾಗುವುದಿಲ್ಲ: ಪ್ರತಿ ಬಾಕಿ ಮೈಗ್ರೇಶನ್ ತಾನು ಮಾಡುವ ಬದಲಾವಣೆಗಳನ್ನು, ಮತ್ತು ರನ್ ಮೊದಲು ಹಾಗೂ ನಂತರ ಏನು ಮಾಡುತ್ತದೆ ಎಂಬುದನ್ನು ಪಟ್ಟಿ ಮಾಡುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>ಅನುಕರಿಸು</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>ರನ್ ಮಾಡು</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>ಡ್ರೈ ರನ್ ವಿಫಲವಾಗಿದೆ: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>ಅನುಕರಣೆಗೆ PostgreSQL ಅಥವಾ SQLite ಬೇಕು, ಅವುಗಳ ಸ್ಕೀಮಾ ಬದಲಾವಣೆಗಳನ್ನು ರೋಲ್‌ಬ್ಯಾಕ್ ಮಾಡಬಹುದು; ಈ ಡೇಟಾಬೇಸ್‌ನಲ್ಲಿ ಕೆಳಗಿನ ಯೋಜನೆಯೇ ರನ್ ಮಾಡುವುದು.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>ಮೈಗ್ರೇಶನ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>ಮೈಗ್ರೇಶನ್</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>ಸ್ಥಿತಿ</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>ಅದು ಏನು ಮಾಡುತ್ತದೆ</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>ಅನುಕರಣೆ: %result, %ms ಮಿ.ಸೆ.</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>ಇನ್ನೂ ಯಾವುದೇ ಮೈಗ್ರೇಶನ್ ಇಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>ರನ್‌ಗೆ ಮೊದಲು ಮತ್ತು ನಂತರ</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>ಮೊದಲಿನ ಕ್ಯಾಪ್ಶನ್</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>ತೆಗೆದುಕೊಳ್ಳಲಾಗುತ್ತದೆ, ಮೈಗ್ರೇಶನ್ ವಿಫಲವಾದರೆ ಮರುಸ್ಥಾಪಿಸಲಾಗುತ್ತದೆ</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>ಆಫ್</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>ನಂತರದ ಕ್ಯಾಪ್ಶನ್</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>ರನ್ ಯಶಸ್ವಿಯಾದಾಗ ತೆಗೆದುಕೊಳ್ಳಲಾಗುತ್ತದೆ</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>%total ಮೈಗ್ರೇಶನ್‌ಗಳು: %pending ಬಾಕಿ, %done ಮುಗಿದಿವೆ, %failed ವಿಫಲ.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>ಮೈಗ್ರೇಶನ್ ಇತಿಹಾಸ</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>ಪ್ರತಿ ರನ್, ಅದರ ಬಳಕೆದಾರ, ಪರಿಸರ, ಕ್ಯಾಪ್ಶನ್‌ಗಳು ಮತ್ತು ಕಮಿಟ್, ಟ್ಯಾಗ್, ಪುಶ್ ಮಾಡಿದ್ದು. ವಿಫಲವಾದ ಅಥವಾ ಅಡ್ಡಿಯಾದ ರನ್ ಅನ್ನು ಮುಂದುವರಿಸಬಹುದು; ಮೊದಲು ಕ್ಯಾಪ್ಶನ್ ತೆಗೆದುಕೊಂಡ ರನ್ ಅನ್ನು ಹಿಂಪಡೆಯಬಹುದು.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>ರನ್‌ಗಳನ್ನು ಓದಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>ಮೈಗ್ರೇಶನ್‌ಗಳ ಟೇಬಲ್‌ಗಳು ಇನ್ನೂ ಇಲ್ಲ: ./console exp:upgrade --apply ಅವುಗಳನ್ನು ರಚಿಸುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>ತೋರಿಸು</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>ಎಲ್ಲಾ</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>ರನ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>ಪ್ರಾರಂಭ</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>ಯಾರಿಂದ</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>ಕ್ಯಾಪ್ಶನ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>ರೆಪೊಸಿಟರಿ</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>ಕ್ರಿಯೆಗಳು</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>ಮೊದಲು</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>ನಂತರ</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>ಪುಶ್: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>ಮುಂದುವರಿಸು</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>ರೋಲ್‌ಬ್ಯಾಕ್ ಮಾಡು</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>ಈ ಸ್ಥಿತಿಯಲ್ಲಿ ಯಾವುದೇ ರನ್ ಇಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>ಇಲ್ಲಿ ಪ್ರಾರಂಭಿಸಿದವು</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>ಈ ಪುಟಗಳಲ್ಲಿ ಪ್ರಾರಂಭಿಸಿದ ರನ್‌ಗಳು, ಮುಂದುವರಿಕೆಗಳು ಮತ್ತು ರೋಲ್‌ಬ್ಯಾಕ್‌ಗಳು, ಪ್ರತಿಯೊಂದರ ವರದಿಯೊಂದಿಗೆ.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>ಏನು</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>ಫಲಿತಾಂಶ</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>ರೋಲ್‌ಬ್ಯಾಕ್</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>%target ರ ರೋಲ್‌ಬ್ಯಾಕ್</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>ರನ್ %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>ರನ್ ಏನು ಮಾಡಿತು, ಅದರ ದಾಖಲೆ ಮತ್ತು ಲಾಗ್. ಇಲ್ಲಿ ಪ್ರಾರಂಭಿಸಿದ ರನ್ ಈ ಪುಟವನ್ನು ಮುಚ್ಚಿದಾಗಲೂ ಹಿನ್ನೆಲೆಯಲ್ಲಿ ಮುಂದುವರಿಯುತ್ತದೆ; ಅದನ್ನು ಗಮನಿಸಲು ಪುಟವನ್ನು ಮತ್ತೆ ತೆರೆಯಿರಿ.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>ಈ ರನ್ ಮುಂದುವರಿಸು</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>ಈ ರನ್ ರೋಲ್‌ಬ್ಯಾಕ್ ಮಾಡು</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>ದಾಖಲೆಯನ್ನು ಓದಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>ಪ್ರಗತಿ</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>%user ಅವರು %time ಕ್ಕೆ ಪ್ರಾರಂಭಿಸಿದರು.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>ಕೋಡ್ ಪರಿಶೀಲಿಸಿ ರನ್‌ಗೆ ಮೊದಲು ಕ್ಯಾಪ್ಶನ್ ತೆಗೆದುಕೊಳ್ಳಲಾಗುತ್ತಿದೆ</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>%id ರನ್ ಆಗುತ್ತಿದೆ (%total ರಲ್ಲಿ %index)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>%total ರಲ್ಲಿ %done ಮುಗಿದಿವೆ</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>ಮೈಗ್ರೇಶನ್‌ಗಳು ರನ್ ಆಗಿವೆ; ಯಾವುದಾದರೂ ವಿಫಲವಾಗಿದ್ದರೆ ಕ್ಯಾಪ್ಶನ್ ಮರುಸ್ಥಾಪಿಸಲಾಗುತ್ತಿದೆ</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>ರನ್ ನಂತರ ಕ್ಯಾಪ್ಶನ್ ತೆಗೆದು, ಕಮಿಟ್, ಟ್ಯಾಗ್ ಮತ್ತು ಪುಶ್ ಮಾಡಲಾಗುತ್ತಿದೆ</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>ಕ್ಯಾಪ್ಶನ್ ಮರುಸ್ಥಾಪಿಸಲಾಗುತ್ತಿದೆ</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>ರನ್ ಮುಗಿದಿದೆ. ಅದರ ವರದಿ ಲೋಡ್ ಆಗುತ್ತಿದೆ.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>ಪ್ರಗತಿಯನ್ನು ಗಮನಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ. ರನ್ ಹೇಗೆ ನಡೆಯುತ್ತಿದೆ ಎಂದು ನೋಡಲು ಪುಟವನ್ನು ರೀಲೋಡ್ ಮಾಡಿ.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>ರನ್ ನಡೆಯುತ್ತಿದ್ದಂತೆ ಈ ಪುಟ ಅದನ್ನು ಅನುಸರಿಸುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>ರೀಲೋಡ್</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>ವರದಿ</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>ಸಮಯ</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms ಮಿ.ಸೆ.</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>ರನ್ ದೋಷಗಳಾಗಿ ಮುದ್ರಿಸಿದ್ದು</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>ದಾಖಲೆ</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>ಪರಿಸರ</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>ಯಾವುದೂ ಇಲ್ಲ</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>ಮುಕ್ತಾಯ</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>ಕಮಿಟ್</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>ಟ್ಯಾಗ್</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>ಪುಶ್</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>ಸಂದೇಶ</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>ಈ ರನ್‌ನ ಮೈಗ್ರೇಶನ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>ಮೂಲ</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>ರನ್ ಲಾಗ್</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>ಲಾಗ್‌ನ ಕೊನೆಯ ಭಾಗ ಮಾತ್ರ ತೋರಿಸಲಾಗಿದೆ.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>ನಡೆಯುತ್ತಿದೆ</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>ವರದಿ ಇಲ್ಲದೆ ಮುಗಿದಿದೆ</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>ಯಶಸ್ವಿ</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>ವಿಫಲ</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>ನಿರಾಕರಿಸಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>ಡೇಟಾಬೇಸ್ ತಲುಪಲಾಗಲಿಲ್ಲ</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>ಆಂತರಿಕ ದೋಷ</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>ಒಂದು ರನ್ ನಡೆಯುತ್ತಿದೆ</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind ಅನ್ನು %user ಅವರು %time ಕ್ಕೆ ಪ್ರಾರಂಭಿಸಿದರು.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>ಅನುಸರಿಸು</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>ಇನ್‌ಸ್ಟಾಲೇಶನ್ ಲಾಕ್ ಆಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>ಇನ್ನೊಂದು ರನ್ ಲಾಕ್ ಹಿಡಿದಿದೆ (ಅಪ್‌ಗ್ರೇಡ್ ಅಥವಾ ಕನ್ಸೋಲ್‌ನಲ್ಲಿ ರನ್): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>ಮುಗಿದಿದೆ</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>ಬಾಕಿ</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>ಅಗತ್ಯವಿಲ್ಲ</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>ಅಜ್ಞಾತ</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>ರೋಲ್‌ಬ್ಯಾಕ್ ಆಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>ಅನ್ವಯಿಸಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>ಅನ್ವಯಿಸಲಾಗುತ್ತದೆ</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>ಹಿಂಪಡೆಯಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>ಹಿಂಪಡೆಯಲಾಗುತ್ತದೆ</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>ರನ್ ಆಗಿಲ್ಲ</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>ಇನ್ನೊಂದಕ್ಕಾಗಿ ಕಾಯುತ್ತಿದೆ</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>ಬದಲಾವಣೆ ಸ್ವೀಕರಿಸಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>ಬದಲಾವಣೆ ಸ್ವೀಕರಿಸಲಾಗುತ್ತದೆ</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>ಅನುಕರಿಸಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>ಮೈಗ್ರೇಶನ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>ಸ್ಥಿತಿ</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>ಇತಿಹಾಸ</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>%target ಹಿಂಪಡೆ</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>ಒಂದು ರನ್ ಅನ್ನು ಅದರ ಮೊದಲು ತೆಗೆದ ಕ್ಯಾಪ್ಶನ್‌ಗೆ ಹಿಂಪಡೆಯಲಾಗುತ್ತದೆ, ಒಂದು ಮೈಗ್ರೇಶನ್ ಅನ್ನು ಅದರ down() ಮೂಲಕ. ಹಿಂದಿನ ಕ್ಯಾಪ್ಶನ್ ಮರುಸ್ಥಾಪನೆ ತಜ್ಞರಿಗಾಗಿ. ಪ್ರಸ್ತುತ ಸ್ಥಿತಿಯ ಕ್ಯಾಪ್ಶನ್ ನಂತರ ಪ್ರತಿಯೊಂದೂ ನಿಮ್ಮ ಹೆಸರಿನಲ್ಲಿ ಹಿನ್ನೆಲೆಯಲ್ಲಿ ನಡೆಯುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>ಏನನ್ನು ಹಿಂಪಡೆಯಬಹುದು ಎಂಬುದನ್ನು ಓದಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>ಒಂದು ರನ್</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>ಒಂದು ಮೈಗ್ರೇಶನ್</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>ಹಿಂದಿನ ಕ್ಯಾಪ್ಶನ್</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>ವಿವರಣೆ</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ಹೌದು</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ಇಲ್ಲ</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>ಕ್ಯಾಪ್ಶನ್</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>ಲೇಬಲ್</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>ತೆಗೆದ ಸಮಯ</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>ಪ್ರಕಾರ</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>ಮರುಸ್ಥಾಪಿಸಬೇಕಾದ ಭಾಗಗಳು</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>ಡೇಟಾಬೇಸ್</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>ಸಂಗ್ರಹಣಾ ಫೈಲ್‌ಗಳು (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>ಸೆಟ್ಟಿಂಗ್‌ಗಳು (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>ಡೇಟಾಬೇಸ್ ಮರುಸ್ಥಾಪನೆ ಅದನ್ನು ಸೆಷನ್‌ಗಳ ಸಹಿತ ಕ್ಯಾಪ್ಶನ್ ಸಮಯಕ್ಕೆ ಹಿಂದಿರುಗಿಸುತ್ತದೆ: ನಂತರ ನಿಮ್ಮನ್ನು ಮತ್ತೆ ಸೈನ್ ಇನ್ ಮಾಡಲು ಕೇಳಬಹುದು. ಅಂದಿನಿಂದ ಬದಲಾದ ಎಲ್ಲವೂ ಕಳೆದುಹೋಗುತ್ತದೆ; ಮೊದಲು ಪ್ರಸ್ತುತ ಸ್ಥಿತಿಯ ಕ್ಯಾಪ್ಶನ್ ತೆಗೆದುಕೊಳ್ಳಲಾಗುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>ಇದು ಏನನ್ನು ಮರುಸ್ಥಾಪಿಸುತ್ತದೆ ಎಂದು ನನಗೆ ತಿಳಿದಿದೆ</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>ಕ್ಯಾಪ್ಶನ್‌ನ ಐಡಿಯನ್ನು ಮತ್ತೆ ಟೈಪ್ ಮಾಡಿ</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>ಹೌದು, ಹಿಂಪಡೆ</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>ರದ್ದುಮಾಡು</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>ಮೊದಲು ಕ್ಯಾಪ್ಶನ್ ತೆಗೆದ ರನ್‌ಗಳು.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>ಆಯ್ಕೆಮಾಡು</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>ಕ್ಯಾಪ್ಶನ್ ಇರುವ ರನ್ ಇನ್ನೂ ಇಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>ತಮ್ಮನ್ನು ತಾವೇ ಹಿಂಪಡೆಯಬಲ್ಲ ಅನ್ವಯಿಸಿದ ಮೈಗ್ರೇಶನ್‌ಗಳು (ಅವುಗಳಿಗೆ down() ಇದೆ).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>ಯಾವುದೇ ಅನ್ವಯಿಸಿದ ಮೈಗ್ರೇಶನ್‌ಗೆ down() ಇಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>ಹಿಂದಿನ ಕ್ಯಾಪ್ಶನ್‌ಗಳು (ತಜ್ಞರಿಗೆ)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>ಇನ್ನೂ ಯಾವುದೇ ಕ್ಯಾಪ್ಶನ್ ಇಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>ಮೈಗ್ರೇಶನ್‌ಗಳನ್ನು ರನ್ ಮಾಡು</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>ರನ್ %user ಆಗಿ ಹಿನ್ನೆಲೆಯಲ್ಲಿ ನಡೆಯುತ್ತದೆ, ಮತ್ತು ಅದರ ಪುಟ ಅದು ನಡೆಯುತ್ತಿದ್ದಂತೆ ತೋರಿಸುತ್ತದೆ. ಮೊದಲ ಮೈಗ್ರೇಶನ್‌ಗೆ ಮೊದಲು ಇನ್‌ಸ್ಟಾಲೇಶನ್‌ನ ಕ್ಯಾಪ್ಶನ್ ತೆಗೆದುಕೊಳ್ಳಲಾಗುತ್ತದೆ; ಮೈಗ್ರೇಶನ್ ವಿಫಲವಾದರೆ ರನ್ ನಿಲ್ಲುತ್ತದೆ ಮತ್ತು ಕ್ಯಾಪ್ಶನ್ ಮರುಸ್ಥಾಪಿಸಲಾಗುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>ಮೊದಲು ಡ್ರೈ ರನ್</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>ಸ್ಥಿತಿಯನ್ನು ಓದಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>ಬಾಕಿ ಇರುವ ಮೈಗ್ರೇಶನ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>ಅವು ಈ ಕ್ರಮದಲ್ಲಿ ರನ್ ಆಗುತ್ತವೆ. ಒಂದನ್ನು ಮತ್ತು ಅದನ್ನು ಅವಲಂಬಿಸಿದವನ್ನು ನಂತರದ ರನ್‌ಗೆ ಬಿಡಲು ಅದರ ಗುರುತು ತೆಗೆಯಿರಿ.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>ರನ್ ಮಾಡು</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>ರನ್ ಆಗುತ್ತಿರುವಾಗ ನಿರ್ವಹಣಾ ಮೋಡ್ ಆನ್ ಮಾಡುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>ಅನ್ವಯಿಸಿದ ನಂತರ ಬದಲಾದವು</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>ಈ ಫೈಲ್‌ಗಳು ಅನ್ವಯಿಸಿದವುಗಳಲ್ಲ. ಕಾರಣದೊಂದಿಗೆ ಬದಲಾವಣೆಯನ್ನು ಸ್ವೀಕರಿಸದ ಹೊರತು ರನ್ ಅವನ್ನು ನಿರಾಕರಿಸುತ್ತದೆ; ಅವನ್ನು ಮತ್ತೆ ರನ್ ಮಾಡಲಾಗುವುದಿಲ್ಲ, ಹೊಸ ಚೆಕ್‌ಸಮ್ ದಾಖಲಿಸಲಾಗುತ್ತದೆ ಮತ್ತು ಕಾರಣವನ್ನು ಆಡಿಟ್ ಲಾಗ್‌ನಲ್ಲಿ ಇರಿಸಲಾಗುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>ಬದಲಾವಣೆಗಳನ್ನು ಸ್ವೀಕರಿಸು</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>ಏಕೆ</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>ಡೀಫಾಲ್ಟ್‌ಗಳು ಸುರಕ್ಷಿತವಾದವು. ಪ್ರತಿ ಚೆಕ್‌ಬಾಕ್ಸ್ ಒಂದು ಹಂತವನ್ನು ಬಿಟ್ಟುಬಿಡುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>ಕ್ಯಾಪ್ಶನ್ ಇಲ್ಲ</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>ರನ್‌ಗೆ ಮೊದಲು ಮತ್ತು ನಂತರ ಕ್ಯಾಪ್ಶನ್ ಇಲ್ಲ: ವಿಫಲತೆಯನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಮರುಸ್ಥಾಪಿಸಲಾಗುವುದಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>ಮರುಸ್ಥಾಪನೆ ಇಲ್ಲ</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>ವಿಫಲತೆಯ ನಂತರ, ಇನ್‌ಸ್ಟಾಲೇಶನ್ ಅನ್ನು ವಿಫಲತೆ ಬಿಟ್ಟಂತೆಯೇ ಬಿಡು.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>ಕಮಿಟ್ ಆಗದ ಬದಲಾವಣೆಗಳನ್ನು ಉಳಿಸು</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>ಸೆಟ್ಟಿಂಗ್‌ಗಳು, ಎಕ್ಸ್‌ಟೆನ್ಶನ್‌ಗಳು ಅಥವಾ ಡಿಸೈನ್‌ಗಳಲ್ಲಿ ಕಮಿಟ್ ಆಗದ ಬದಲಾವಣೆಗಳಿದ್ದರೂ ರನ್ ಮಾಡು; ಅವು ಕ್ಯಾಪ್ಶನ್‌ಗೆ ಸೇರುತ್ತವೆ.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>ಕಮಿಟ್ ಇಲ್ಲ</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>ಸ್ಥಿತಿ ಫೈಲ್ ಮತ್ತು ರನ್ ಲಾಗ್ ಅನ್ನು ಕಮಿಟ್ ಮಾಡಬೇಡ (ಟ್ಯಾಗ್ ಮತ್ತು ಪುಶ್ ಕೂಡ ಇಲ್ಲ).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>ಪುಶ್ ಇಲ್ಲ</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>ಕಮಿಟ್ ಮತ್ತು ಟ್ಯಾಗ್ ಮಾಡು, ಆದರೆ ಪುಶ್ ಮಾಡಬೇಡ.</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>ಟ್ಯಾಗ್ ಇಲ್ಲ</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>ಕಮಿಟ್ ಮತ್ತು ಪುಶ್ ಮಾಡು, ಆದರೆ ರನ್‌ಗೆ ಟ್ಯಾಗ್ ಮಾಡಬೇಡ.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>ಹೌದು, ಈ ಮೈಗ್ರೇಶನ್‌ಗಳನ್ನು ಈಗ ರನ್ ಮಾಡು</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>ಯಾವುದೇ ಮೈಗ್ರೇಶನ್ ಬಾಕಿ ಇಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>ಸ್ಥಿತಿಗೆ ಹಿಂತಿರುಗಿ</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>ಈ ಇನ್‌ಸ್ಟಾಲೇಶನ್‌ನ ಬದಲಾವಣೆಗಳು (ವಿಷಯ, ಕ್ಲಾಸ್‌ಗಳು, ಪಾತ್ರಗಳು, ಸೆಟ್ಟಿಂಗ್‌ಗಳು, ಸ್ಕೀಮಾ) ಒಮ್ಮೆ ಫೈಲ್‌ಗಳಾಗಿ ಬರೆಯಲ್ಪಟ್ಟು ಸೈಟ್‌ನ ಪ್ರತಿ ಇನ್‌ಸ್ಟಾಲೇಶನ್‌ಗೆ ಅದೇ ಕ್ರಮದಲ್ಲಿ ಅನ್ವಯಿಸಲ್ಪಡುತ್ತವೆ. ರನ್ ಮೊದಲು ಕ್ಯಾಪ್ಶನ್ ತೆಗೆದುಕೊಳ್ಳುತ್ತದೆ, ಮೈಗ್ರೇಶನ್ ವಿಫಲವಾದರೆ ಅದನ್ನು ಮರುಸ್ಥಾಪಿಸುತ್ತದೆ, ಮತ್ತು ಮಾಡಿದ್ದನ್ನು ದಾಖಲಿಸಿ, ಕಮಿಟ್ ಮತ್ತು ಪುಶ್ ಮಾಡುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>%count ಬಾಕಿಯನ್ನು ರನ್ ಮಾಡು</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>ಅವಲೋಕನ</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>ಬಾಕಿ ಇರುವ</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>ಮುಗಿದಿದೆ</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>ವಿಫಲವಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>ಅಗತ್ಯವಿಲ್ಲ</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>ಡೇಟಾಬೇಸ್</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>ಟ್ರಾನ್ಸಾಕ್ಷನ್‌ಗಳು: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>ಸೈಟ್ ಮೈಗ್ರೇಶನ್‌ಗಳು migrations/ ನಲ್ಲಿವೆ, ಎಕ್ಸ್‌ಟೆನ್ಶನ್‌ನವು extension/&lt;name&gt;/migrations/ ನಲ್ಲಿವೆ. ಅವು ಅವುಗಳ ಹೆಸರುಗಳ ಕ್ರಮದಲ್ಲಿ ಮತ್ತು ಅವಲಂಬನೆಗಳ ಪ್ರಕಾರ ರನ್ ಆಗುತ್ತವೆ.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>ಕೊನೆಯ ರನ್</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>ಅನ್ವಯಿಸಿದ ನಂತರ ಫೈಲ್ ಬದಲಾಗಿದೆ.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>ಇನ್ನೂ ಯಾವುದೇ ಮೈಗ್ರೇಶನ್ ಇಲ್ಲ. ./console exp:migration:generate --skeleton &lt;name&gt; --apply ಮೊದಲನೆಯದನ್ನು ಬರೆಯುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>ಇತ್ತೀಚಿನ ರನ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>ಎಲ್ಲಾ ರನ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>ಇನ್ನೂ ಯಾವುದೇ ರನ್ ಇಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>ರನ್ ಅನುಕರಿಸಲು migration/run ನೀತಿ ಬೇಕು.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>ಒಂದು ರನ್ ನಡೆಯುತ್ತಿದೆ: ಅದು ಮುಗಿದ ನಂತರ ಅನುಕರಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>ಸೆಟಪ್</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target ಈ ಇನ್‌ಸ್ಟಾಲೇಶನ್‌ನ ರನ್ ಅಲ್ಲ, ಮೈಗ್ರೇಶನ್ ಅಲ್ಲ ಮತ್ತು ಕ್ಯಾಪ್ಶನ್ ಅಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>ಮೊದಲು “ಹೌದು, ಹಿಂಪಡೆ” ಗುರುತಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>ಹಿಂದಿನ ಕ್ಯಾಪ್ಶನ್ ಮರುಸ್ಥಾಪನೆ ತಜ್ಞರಿಗಾಗಿ: “ಇದು ಏನನ್ನು ಮರುಸ್ಥಾಪಿಸುತ್ತದೆ ಎಂದು ನನಗೆ ತಿಳಿದಿದೆ” ಗುರುತಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>ಕ್ಯಾಪ್ಶನ್‌ನ ಐಡಿಯನ್ನು ಮತ್ತೆ ಟೈಪ್ ಮಾಡಿ: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>ಮರುಸ್ಥಾಪಿಸಲು ಕನಿಷ್ಠ ಒಂದು ಭಾಗವನ್ನು ಆಯ್ಕೆಮಾಡಿ.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>ಈ ರನ್‌ಗೆ ಮೊದಲು ತೆಗೆದ ಕ್ಯಾಪ್ಶನ್ ಇಲ್ಲ: ಅದರ ಮೈಗ್ರೇಶನ್‌ಗಳನ್ನು ಒಂದೊಂದಾಗಿ ಹಿಂಪಡೆಯಿರಿ, ಅಥವಾ ಹಿಂದಿನ ಕ್ಯಾಪ್ಶನ್ ಮರುಸ್ಥಾಪಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>ಈ ಮೈಗ್ರೇಶನ್ ಅನ್ನು ಸ್ವತಃ ಹಿಂಪಡೆಯಲಾಗುವುದಿಲ್ಲ: ಅದು ಅನ್ವಯಿಸಲಾಗಿಲ್ಲ, ಅಥವಾ ಅದಕ್ಕೆ down() ಇಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>ಫಾರ್ಮ್ ಅನ್ನು ಓದಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>ಮುಂದುವರಿಸಬೇಕಾದ ರನ್ ಆಯ್ಕೆಮಾಡಿ.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>ಮೊದಲು “ಹೌದು, ಈ ಮೈಗ್ರೇಶನ್‌ಗಳನ್ನು ಈಗ ರನ್ ಮಾಡು” ಗುರುತಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>ಕನಿಷ್ಠ ಒಂದು ಮೈಗ್ರೇಶನ್ ಆಯ್ಕೆಮಾಡಿ.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>ಒಂದು ಮೈಗ್ರೇಶನ್ ಅನ್ವಯಿಸಿದ ನಂತರ ಬದಲಾಗಿದೆ: ಕಾರಣದೊಂದಿಗೆ ಬದಲಾವಣೆಯನ್ನು ಸ್ವೀಕರಿಸಿ, ಅಥವಾ ಫೈಲ್ ಅನ್ನು ಮರಳಿ ಇಡಿ.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>ಬದಲಾದ ಮೈಗ್ರೇಶನ್‌ಗಳನ್ನು ಏಕೆ ಸ್ವೀಕರಿಸಲಾಗಿದೆ ಎಂಬ ಕಾರಣ ನೀಡಿ.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>ಕಾರಣ ಗರಿಷ್ಠ 500 ಅಕ್ಷರಗಳು.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>ಇಲ್ಲಿ ಪ್ರಾರಂಭಿಸಿದ ರನ್ ಇನ್ನೂ ನಡೆಯುತ್ತಿದೆ (%detail). ಅದು ಮುಗಿಯುವವರೆಗೆ ಕಾಯಿರಿ.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>ಇನ್ನೊಂದು ರನ್ ಇನ್‌ಸ್ಟಾಲೇಶನ್‌ನ ಲಾಕ್ ಹಿಡಿದಿದೆ: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>ರನ್‌ಗೆ ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ, ಸೈನ್ ಇನ್ ಆದ ಬಳಕೆದಾರ ಬೇಕು.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>php ಕಮಾಂಡ್ ಲೈನ್ ಬೈನರಿ ಕಂಡುಬಂದಿಲ್ಲ. migration.ini [AdminSettings] PhpCliPath ಅನ್ನು ಅದರ ಪೂರ್ಣ ಪಥಕ್ಕೆ ಹೊಂದಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open ನಿಷ್ಕ್ರಿಯವಾಗಿದೆ, ಆದ್ದರಿಂದ ಇಲ್ಲಿ ರನ್ ಪ್ರಾರಂಭಿಸಲಾಗುವುದಿಲ್ಲ. ಸರ್ವರ್‌ನಲ್ಲಿ ./console exp:migration:migrate --apply ರನ್ ಮಾಡಿ.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>ರನ್‌ಗಳ ಫೋಲ್ಡರ್‌ಗೆ ಬರೆಯಲಾಗುವುದಿಲ್ಲ: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>ರನ್ ಪ್ರಾರಂಭವಾಯಿತು ಆದರೆ ಅದರ ಪ್ರಕ್ರಿಯೆ ಐಡಿ ವರದಿ ಮಾಡಲಿಲ್ಲ. %detail ಪರಿಶೀಲಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>ಏನನ್ನು ಹಿಂಪಡೆಯಬೇಕು ಎಂದು ಸೂಚಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>ರನ್ ಪ್ರಾರಂಭಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>ಬದಲಾವಣೆಗಳ ದಾಖಲೀಕರಣ</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>ದಾಖಲೀಕರಣ ನಡೆಯುತ್ತಿರುವಾಗ ನೀವು ಆಡಳಿತದಲ್ಲಿ ಅಥವಾ ತಾಣದ ಪಕ್ಕಪಟ್ಟಿಯಲ್ಲಿ ಬದಲಿಸುವುದು ಒಂದು ವಲಸೆಯ ಹಂತಗಳಾಗಿ ಇರಿಸಲಾಗುತ್ತದೆ: ವಿಷಯ, ವರ್ಗಗಳು, ಪಾತ್ರಗಳು ಮತ್ತು ನೀತಿಗಳು, ವಿಭಾಗಗಳು, ಬಳಕೆದಾರರು ಮತ್ತು ಗುಂಪುಗಳು, URL ಪರ್ಯಾಯ ಹೆಸರುಗಳು, ಸೆಟ್ಟಿಂಗ್‌ಗಳು. ಮುಗಿದ ನಂತರ ಅದನ್ನು ನಿಲ್ಲಿಸಿ, ಅದು ಏನು ಹಿಡಿದಿದೆ ಎಂದು ನೋಡಿ, ಅದರಿಂದ ವಲಸೆಯನ್ನು ರಚಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>ದಾಖಲೆಗಳನ್ನು ಓದಲಾಗಲಿಲ್ಲ: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>ದಾಖಲೆಗಳ ಕೋಷ್ಟಕಗಳು ಇನ್ನೂ ಇಲ್ಲ: ಮೊದಲು ನವೀಕರಣವನ್ನು ಚಲಾಯಿಸಿ (exp:upgrade --apply).</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>migration.ini ನಲ್ಲಿ ದಾಖಲೀಕರಣ ಆಫ್ ಆಗಿದೆ ([RecordingSettings] Recording=disabled).</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>ನನ್ನ ಬದಲಾವಣೆಗಳು</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>ನೀವು ನಿಲ್ಲಿಸುವವರೆಗೆ ನೀವು ಬದಲಿಸುವುದನ್ನು ಮಾತ್ರ, ಎಲ್ಲಿ ಬದಲಿಸಿದರೂ, ದಾಖಲಿಸುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>ದಾಖಲೀಕರಣ</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>%time ರಿಂದ, ಇಲ್ಲಿಯವರೆಗೆ %count ಬದಲಾವಣೆಗಳು.</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>ಲೇಬಲ್ (ಐಚ್ಛಿಕ)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>ಅದು ಏನು ಹಿಡಿದಿದೆ ತೋರಿಸು</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>ದಾಖಲೀಕರಣ ನಿಲ್ಲಿಸು</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>ನನ್ನ ಬದಲಾವಣೆಗಳ ದಾಖಲೀಕರಣ ಪ್ರಾರಂಭಿಸು</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>ಇಡೀ ತಾಣದ ಕಿಟಕಿ</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>ಮುಚ್ಚುವವರೆಗೆ ಪ್ರತಿ ಬಳಕೆದಾರರ ಮತ್ತು ಕನ್ಸೋಲ್‌ನ ಪ್ರತಿ ಬದಲಾವಣೆಯನ್ನು ದಾಖಲಿಸುತ್ತದೆ. ತೆರೆಯುವಾಗ ನೀವೇ ಎಂದು ದೃಢೀಕರಿಸಲು ಕೇಳಲಾಗುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>ತೆರೆದಿದೆ</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>ಕಿಟಕಿ ಮುಚ್ಚು</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>ಇಡೀ ತಾಣದ ಕಿಟಕಿ ತೆರೆ</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>ದಾಖಲೆಗಳು</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>ಬಳಕೆದಾರರ ಖಾತೆ (ಲಾಗಿನ್, ಇ-ಮೇಲ್, ಪಾಸ್‌ವರ್ಡ್) ಮತ್ತು ಬಳಕೆದಾರ ಖಾತೆಗಳ ಕ್ಷೇತ್ರಗಳನ್ನು ಎಂದಿಗೂ ದಾಖಲಿಸಲಾಗುವುದಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>ಬದಲಾವಣೆಗಳು</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>ಇಡೀ ತಾಣ</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>%name ಅವರ ಬದಲಾವಣೆಗಳು</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>ನಿಲ್ಲಿಸಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>ಇನ್ನೂ ಯಾವುದೇ ದಾಖಲೆ ಇಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>ದಾಖಲೆ %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>ಎಲ್ಲಾ ದಾಖಲೆಗಳು</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>ಇದರಿಂದ ಆಗುವ ವಲಸೆ</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>ಬದಲಾದ ಪ್ರತಿಯೊಂದಕ್ಕೂ ಒಂದು ಹಂತವಾಗಿ ಸೇರಿಸಿದ ಬದಲಾವಣೆಗಳು: ಈ ದಾಖಲೆಯಿಂದ ರಚಿಸಿದ ವಲಸೆ ಏನು ಮಾಡುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>ಈ ಸ್ಥಾಪನೆಯಲ್ಲಿ YAML ಹಂತದ ಪ್ರಕಾರಗಳು %types ಇದ್ದಾಗ ಇದರಿಂದ ವಲಸೆಯನ್ನು ರಚಿಸಬಹುದು.</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>ಉದ್ದೇಶಪೂರ್ವಕವಾಗಿ ಬಿಡಲಾಗಿದೆ: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>ಏನೂ ದಾಖಲಾಗಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>ಅದು ಏನು ಹಿಡಿದಿದೆ</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>%count ಬದಲಾವಣೆಗಳು, ಮಾಡಿದ ಕ್ರಮದಲ್ಲಿ.</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>ಬದಲಾವಣೆ</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>ಹಂತ</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>ಸಂಬಂಧಿಸಿದ್ದು</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>ಇನ್ನೂ %count: ./console exp:migration:record:show ಎಲ್ಲವನ್ನೂ ಪಟ್ಟಿ ಮಾಡುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>ತ್ಯಜಿಸು</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>ದಾಖಲೆಯನ್ನು ಮತ್ತು ಅದು ಹಿಡಿದಿದ್ದನ್ನು ತೆಗೆದುಹಾಕುತ್ತದೆ. ಬದಲಾದುದು ಬದಲಾದಂತೆಯೇ ಇರುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>ಹೌದು, ಈ ದಾಖಲೆಯನ್ನು ತ್ಯಜಿಸು</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>ದಾಖಲಿಸಲಾಗುತ್ತಿದೆ…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>ನಿಮ್ಮ ಬದಲಾವಣೆಗಳನ್ನು ಒಂದು ವಲಸೆಗಾಗಿ ದಾಖಲಿಸಲಾಗುತ್ತಿದೆ.</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>ಈ ತಾಣದ ಪ್ರತಿ ಬದಲಾವಣೆಯನ್ನು ಒಂದು ವಲಸೆಗಾಗಿ ದಾಖಲಿಸಲಾಗುತ್ತಿದೆ (ಇಡೀ ತಾಣದ ಕಿಟಕಿ).</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>ಇಡೀ ತಾಣದ ದಾಖಲೀಕರಣ ಪ್ರಾರಂಭವಾಗಿದೆ: ನೀವು ನಿಲ್ಲಿಸುವವರೆಗೆ ಪ್ರತಿ ಬಳಕೆದಾರರ ಪ್ರತಿ ಬದಲಾವಣೆ ದಾಖಲಾಗುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>ದಾಖಲೀಕರಣ ಪ್ರಾರಂಭವಾಗಿದೆ: ನೀವು ನಿಲ್ಲಿಸುವವರೆಗೆ ನಿಮ್ಮ ಬದಲಾವಣೆಗಳು ದಾಖಲಾಗುತ್ತವೆ.</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>ದಾಖಲೀಕರಣ ನಿಂತಿದೆ. ಅದು ಹಿಡಿದಿದ್ದು ನೀವು ತ್ಯಜಿಸುವವರೆಗೆ ಉಳಿಯುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>ದಾಖಲೆ ಮತ್ತು ಅದರ ಘಟನೆಗಳನ್ನು ತೆಗೆದುಹಾಕಲಾಗಿದೆ.</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>ದಾಖಲೆ %id ಇಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>ಮೊದಲು "ಹೌದು, ಈ ದಾಖಲೆಯನ್ನು ತ್ಯಜಿಸು" ಆಯ್ಕೆಮಾಡಿ.</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>ಅಧಿವೇಶನ ದಾಖಲೀಕರಣವನ್ನು ದಾಖಲಿಸಿದ ಬಳಕೆದಾರರು ಮಾತ್ರ ನಿಲ್ಲಿಸಬಹುದು.</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>ನಿಲ್ಲಿಸಬೇಕಾದ ದಾಖಲೀಕರಣವನ್ನು ಆಯ್ಕೆಮಾಡಿ.</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>ಈ ರೀತಿಯ ದಾಖಲೀಕರಣ ಈಗಾಗಲೇ ನಡೆಯುತ್ತಿದೆ.</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>ದಾಖಲೆಯನ್ನು ಬದಲಿಸಲಾಗಲಿಲ್ಲ: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>ವಲಸೆ ರಚಿಸಿ</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>ವಲಸೆಯ ಹೆಸರು (ಐಚ್ಛಿಕ)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>ವಲಸೆ %file ಬರೆಯಲಾಗಿದೆ. ಯಾವುದೇ ಹಂತ ಮಾಡಲಾಗದ ಬದಲಾವಣೆಗಳನ್ನು ಕಡತದ ಮೇಲ್ಭಾಗದಲ್ಲಿ ಹೆಸರಿಸಲಾಗಿದೆ, ಕೈಯಾರೆ ಮಾಡಬೇಕು.</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>ಯಾವುದೇ ವಲಸೆ ಬರೆಯಲಾಗಿಲ್ಲ: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>ಭಾಗಗಳಲ್ಲಿ ಒಂದು ದೀರ್ಘ ರನ್</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>ಖಾಲಿ ಕ್ಷೇತ್ರಗಳು migration.ini [RunSettings] ನ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಉಳಿಸಿಕೊಳ್ಳುತ್ತವೆ.</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>ಗರಿಷ್ಠ ಇಷ್ಟು ಮೈಗ್ರೇಶನ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>ಇದರ ನಂತರ ಮತ್ತೆ ಮೈಗ್ರೇಶನ್ ಇಲ್ಲ (ಸೆಕೆಂಡುಗಳು)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>ಮೈಗ್ರೇಶನ್‌ಗಳ ನಡುವೆ ವಿರಾಮ (ಸೆಕೆಂಡುಗಳು)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>ಕಡಿಮೆ ಆದ್ಯತೆ (1 ರಿಂದ 19)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>ದೀರ್ಘ ರನ್ ಕ್ಷೇತ್ರವು 1 ರಿಂದ ಪ್ರಾರಂಭವಾಗುವ ಪೂರ್ಣಾಂಕ (ವಿರಾಮ: 0 ರಿಂದ 60 ಸೆಕೆಂಡುಗಳು, ಆದ್ಯತೆ: 1 ರಿಂದ 19), ಅಥವಾ ಖಾಲಿ.</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>ಇದು %time ಕ್ಕೆ ತಾನಾಗಿಯೇ ಮುಚ್ಚುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>ಇದರ ನಂತರ ತಾನಾಗಿಯೇ ಮುಚ್ಚಿ (ನಿಮಿಷಗಳು, ಐಚ್ಛಿಕ)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>ನಿಮಿಷಗಳು 1 ರಿಂದ 44640 (31 ದಿನಗಳು) ವರೆಗಿನ ಪೂರ್ಣಾಂಕ, ಅಥವಾ ಖಾಲಿ.</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>ಮೈಗ್ರೇಶನ್ %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>ಹೊಸ ಮೈಗ್ರೇಶನ್</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>YAML ಮೈಗ್ರೇಶನ್: ಅದನ್ನು ಪಠ್ಯವಾಗಿ ಬರೆಯಿರಿ ಅಥವಾ ಅದರ ಹಂತಗಳನ್ನು ಫಾರ್ಮ್‌ನಲ್ಲಿ ರಚಿಸಿ, ಅದನ್ನು ಪರಿಶೀಲಿಸಿ, ನಂತರ ಅದನ್ನು ಮೈಗ್ರೇಶನ್‌ಗಳ ಫೋಲ್ಡರ್‌ನಲ್ಲಿ ಉಳಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>ಈ ಮೈಗ್ರೇಶನ್ ಈಗಾಗಲೇ ರನ್ ಆಗಿದೆ, ಆದ್ದರಿಂದ ಅದನ್ನು ಮತ್ತೆ ಉಳಿಸಲಾಗುವುದಿಲ್ಲ: ಬದಲಾದ ಫೈಲ್ ಅನ್ನು ಚೆಕ್‌ಸಮ್ ರಕ್ಷಣೆ ತಿರಸ್ಕರಿಸುತ್ತದೆ. ಬದಲಾವಣೆಯನ್ನು ಹೊಸ ಮೈಗ್ರೇಶನ್‌ನಲ್ಲಿ ಮಾಡಿ.</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>ವೆಬ್ ಸರ್ವರ್ ಈ ಫೈಲ್ ಅನ್ನು ಬರೆಯಲು ಸಾಧ್ಯವಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>ಮೇಲ್ಭಾಗದ ಟಿಪ್ಪಣಿ ಸಾಲುಗಳು ಶೀರ್ಷಿಕೆ ಭಾಗವಾಗಿವೆ (description, author, requires, environments, engines). ಫಾರ್ಮ್‌ನಲ್ಲಿ ಹಂತವನ್ನು ಸೇರಿಸಿದಾಗ ಅಥವಾ ಬದಲಾಯಿಸಿದಾಗ, ಮೈಗ್ರೇಶನ್ ಅನ್ನು ಮತ್ತೆ ಬರೆಯಲಾಗುತ್ತದೆ: ಹಂತಗಳ ನಡುವಿನ ಟಿಪ್ಪಣಿಗಳನ್ನು ಉಳಿಸಿಕೊಳ್ಳಲಾಗುವುದಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>ಮೈಗ್ರೇಶನ್‌ನ ಹೆಸರು</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>ಅದು ಎಲ್ಲಿಗೆ ಹೋಗುತ್ತದೆ</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>ಸೈಟ್</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>YAML ಪಠ್ಯ</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>ಪರಿಶೀಲಿಸು</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>ಉಳಿಸು</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>ಹಂತಗಳು</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>ಕೀಗಳು</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>ಸಂಪಾದಿಸು</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>ಮೇಲೆ ಸರಿಸು</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>ಕೆಳಗೆ ಸರಿಸು</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>ತೆಗೆದುಹಾಕು</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>ಇನ್ನೂ ಯಾವುದೇ ಹಂತಗಳಿಲ್ಲ: ಫಾರ್ಮ್ ಮೂಲಕ ಒಂದನ್ನು ಸೇರಿಸಿ, ಅಥವಾ ಅವುಗಳನ್ನು ಪಠ್ಯದಲ್ಲಿ ಬರೆಯಿರಿ.</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>ಹಂತ %number ಬದಲಾಯಿಸು</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>ಒಂದು ಹಂತವನ್ನು ಸೇರಿಸು</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>ಹಂತದ ಫಾರ್ಮ್ ಅದರ ಹಂತದ ಪ್ರಕಾರದಿಂದ ರಚಿತವಾಗುತ್ತದೆ: ಅದರ ಕೀಗಳು, ಪ್ರತಿಯೊಂದೂ ಏನನ್ನು ಸ್ವೀಕರಿಸುತ್ತದೆ ಮತ್ತು ಅದು ಸೇರಿರುವ ಮೋಡ್‌ಗಳು.</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>ಹಂತದ ಪ್ರಕಾರ</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>ಅದರ ಫಾರ್ಮ್ ತೋರಿಸು</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>ಹಂತದಲ್ಲಿ ಅದರ ಪ್ರಕಾರಕ್ಕೆ ತಿಳಿಯದ ಕೀಗಳಿವೆ; ಹಂತವನ್ನು ಬದಲಾಯಿಸಿದಾಗ ಅವುಗಳನ್ನು ಬಿಡಲಾಗುತ್ತದೆ: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>ಮೋಡ್</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>ಇಲ್ಲಿ</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>%modes ನಲ್ಲಿ ಮಾತ್ರ</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>ಡೀಫಾಲ್ಟ್: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>ಷರತ್ತುಗಳು, ಉಲ್ಲೇಖಗಳು ಮತ್ತು ಟಿಪ್ಪಣಿ</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>ಅಲ್ಪವಿರಾಮಗಳಿಂದ ಬೇರ್ಪಡಿಸಿದ ಹೆಸರು=ಮೌಲ್ಯ ಜೋಡಿಗಳು. ಈ ಹಂತದ ಮೌಲ್ಯಗಳು: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>ಉದಾಹರಣೆ</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>ಹಂತ ಬದಲಾಯಿಸು</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>ಹಂತ ಸೇರಿಸು</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>exp:migration:check ಏನು ಹೇಳುತ್ತದೆ: ಶೀರ್ಷಿಕೆ ಭಾಗ, ದಾಖಲೆ ಮತ್ತು ಅದರ ಹಂತದ ಪ್ರಕಾರದಿಂದ ಪರಿಶೀಲಿಸಲಾದ ಪ್ರತಿಯೊಂದು ಹಂತ.</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>ಮೈಗ್ರೇಶನ್ ಪರಿಶೀಲನೆಯಲ್ಲಿ ಉತ್ತೀರ್ಣವಾಗಿದೆ.</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>ಮುನ್ನೋಟ</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>ಉಳಿಸಲಾಗುವಂತೆ YAML.</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>YAML ತೋರಿಸು</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>YAML ಮೈಗ್ರೇಶನ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>ರನ್ ಆಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>ಇನ್ನೂ ಯಾವುದೇ YAML ಮೈಗ್ರೇಶನ್‌ಗಳಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>ಸಂಪಾದಕ</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>ಮೈಗ್ರೇಶನ್ ಫೋಲ್ಡರ್‌ಗಳಲ್ಲಿ YAML ಮೈಗ್ರೇಶನ್ %id ಇಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>ಹಂತದ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ.</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>ಹಂತವನ್ನು ಸೇರಿಸಲಾಗಿದೆ. ಉಳಿಸುವ ಮೊದಲು ಮೈಗ್ರೇಶನ್ ಅನ್ನು ಪರಿಶೀಲಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>ಹಂತವನ್ನು ಬದಲಾಯಿಸಲಾಗಿದೆ. ಉಳಿಸುವ ಮೊದಲು ಮೈಗ್ರೇಶನ್ ಅನ್ನು ಪರಿಶೀಲಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>ಒಂದು ಹಂತವನ್ನು ಆಯ್ಕೆಮಾಡಿ.</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>ಈ ಹಂತಕ್ಕೆ ಫಾರ್ಮ್ ಇಲ್ಲ (ಲೂಪ್, ಅಥವಾ ಈ ಇನ್‌ಸ್ಟಾಲೇಶನ್‌ನಲ್ಲಿ ಇಲ್ಲದ ಹಂತದ ಪ್ರಕಾರ): ಅದನ್ನು ಪಠ್ಯದಲ್ಲಿ ಬದಲಾಯಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>ಮೈಗ್ರೇಶನ್ ಎಲ್ಲಿಗೆ ಹೋಗುತ್ತದೆ ಎಂಬುದನ್ನು ಆಯ್ಕೆಮಾಡಿ: ಸೈಟ್ ಅಥವಾ ಸಕ್ರಿಯ ವಿಸ್ತರಣೆ.</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>%file ಉಳಿಸಲಾಗಿದೆ. ಮೈಗ್ರೇಶನ್ ರನ್ ಆಗುವ ಮೊದಲು ಡ್ರೈ ರನ್ ಮಾಡಿ.</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>ಉಳಿಸಲಾಗಿಲ್ಲ: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>ರಿಮೋಟ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>ಈ ಇನ್‌ಸ್ಟಾಲೇಶನ್ ತನ್ನ ಮೈಗ್ರೇಶನ್‌ಗಳನ್ನು ಡಿಪ್ಲಾಯ್ ಮಾಡುವ ಇತರ ಇನ್‌ಸ್ಟಾಲೇಶನ್‌ಗಳು: ಡಿಪ್ಲಾಯ್ ಮೈಗ್ರೇಶನ್‌ಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿದ ರಿಮೋಟ್‌ಗಳಿಗೆ ಕಳುಹಿಸಿ ಅಲ್ಲಿ ರನ್ ಮಾಡುತ್ತದೆ, ಎಲ್ಲವೂ ಒಂದೇ ಬಾರಿಗೆ ಮತ್ತು ಸಿಂಕ್‌ನಲ್ಲಿ. ರಿಮೋಟ್ ಎಂದಿಗೂ ರಹಸ್ಯವನ್ನು ಹೊಂದಿರುವುದಿಲ್ಲ: ಅದರ ರುಜುವಾತು ಸೆಟಪ್ &gt; ರಹಸ್ಯಗಳು ನಲ್ಲಿರುವ ಒಂದರ ಹೆಸರನ್ನು ಸೂಚಿಸುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>ಹೊಸ ರಿಮೋಟ್</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>ಸಹಾಯ</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>%id ನ ಸಂಪರ್ಕ ಪರೀಕ್ಷೆ</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>ರಿಮೋಟ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>ಒಂದೇ ಸಮಯದಲ್ಲಿ %parallel ರಿಮೋಟ್‌ಗಳವರೆಗೆ ಕೆಲಸ ಮಾಡಲಾಗುತ್ತದೆ; ಪ್ರತಿಯೊಂದರಲ್ಲೂ ಒಂದು ಹಂತ %timeout ಸೆಕೆಂಡುಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳಬಹುದು.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>ರಿಮೋಟ್</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>ವಿಳಾಸ</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>ರುಜುವಾತು</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>ಗುಂಪುಗಳು</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>ಸರಿಪಡಿಸಬೇಕಾದ ಸೆಟ್ಟಿಂಗ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>ಫೈಲ್‌ಗಳು ಮಾತ್ರ (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>SSH ಕೀ</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>ಪಾಸ್‌ವರ್ಡ್</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>ಯಾವುದೂ ಇಲ್ಲ (ಹೋಸ್ಟ್‌ನ SSH ಏಜೆಂಟ್ ಮತ್ತು ಕೀಗಳು)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>ಸಂಪರ್ಕವನ್ನು ಪರೀಕ್ಷಿಸು</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>ಗುಂಪಿಗೆ ಮಾಡುವ ಡಿಪ್ಲಾಯ್ ಅದರ ಪ್ರತಿ ರಿಮೋಟ್‌ಗೆ ಹೋಗುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>ರಿಮೋಟ್‌ಗಳಿಗೆ ಡಿಪ್ಲಾಯ್ ಮಾಡು</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>ಇನ್ನೂ ಯಾವುದೇ ರಿಮೋಟ್ ಹೊಂದಿಸಲಾಗಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>ರಿಮೋಟ್ %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>ಇಲ್ಲಿ ಏನನ್ನೂ ಕಳುಹಿಸುವುದಿಲ್ಲ ಅಥವಾ ರನ್ ಮಾಡುವುದಿಲ್ಲ: ಉಳಿಸು ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು settings/override/migration.ini.append.php ಗೆ ಬರೆಯುತ್ತದೆ. ರುಜುವಾತು ಒಂದು ಹೆಸರು; ಅದರ ಮೌಲ್ಯ ಸೆಟಪ್ &gt; ರಹಸ್ಯಗಳು ನಲ್ಲಿ ಅಥವಾ ಪರಿಸರದಲ್ಲಿ ಉಳಿಯುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>ಈ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಪರಿಶೀಲಿಸಿ</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>ನಮೂದಿಸಿದಂತೆ ಸೆಟ್ಟಿಂಗ್‌ಗಳು, ಇನ್ನೂ ಉಳಿಸಲಾಗಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>ಪರಿಶೀಲಿಸು</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>ಸೆಟ್ಟಿಂಗ್‌ಗಳು ಮಾನ್ಯವಾಗಿವೆ. ಈ ಸಾಲುಗಳನ್ನು ಬರೆಯಲಾಗುತ್ತದೆ:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>ಸಾಗಣೆ</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>ಹೆಸರು ಮಾತ್ರ; ಮೌಲ್ಯ ಸೆಟಪ್ &gt; ರಹಸ್ಯಗಳು ನಲ್ಲಿ ಉಳಿಯುತ್ತದೆ</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>ಬರೆಯಲಾಗುವ ಸಾಲುಗಳು</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>ಸಂಪರ್ಕ</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>ಹೋಸ್ಟ್ ಕೀ</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. ರಿಮೋಟ್</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>ರಿಮೋಟ್‌ನ ಹೆಸರೇನು ಮತ್ತು ಅದು ಯಾವ ಪರಿಸರ.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ಐಡಿ</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>ಅಕ್ಷರಗಳು, ಅಂಕೆಗಳು, - ಮತ್ತು _, ಉದಾಹರಣೆಗೆ production1. ಇದು ವರದಿಗಳಲ್ಲಿ ಮತ್ತು ಕನ್ಸೋಲ್‌ನಲ್ಲಿ (--remotes=production1) ರಿಮೋಟ್‌ನ ಹೆಸರಾಗುತ್ತದೆ ಮತ್ತು ನಂತರ ಬದಲಾಯಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... ಘಟ್ಟಗಳ ಡಿಪ್ಲಾಯ್ ಈ ಕ್ರಮದಲ್ಲಿ ಪರಿಸರಗಳ ಮೂಲಕ ಸಾಗುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>ಐಚ್ಛಿಕ, ಅಲ್ಪವಿರಾಮಗಳಿಂದ ಬೇರ್ಪಡಿಸಿ, ಉದಾಹರಣೆಗೆ production. ಗುಂಪಿಗೆ ಮಾಡುವ ಡಿಪ್ಲಾಯ್ ಅದರ ಪ್ರತಿ ರಿಮೋಟ್‌ಗೆ ಹೋಗುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. ಸಂಪರ್ಕ</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>ಫೈಲ್‌ಗಳು ಅಲ್ಲಿಗೆ ಹೇಗೆ ತಲುಪುತ್ತವೆ, ಮತ್ತು ಇನ್‌ಸ್ಟಾಲೇಶನ್ ಎಲ್ಲಿದೆ.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>SSH ಮೂಲಕ, ಬದಲಾದದ್ದು ಮಾತ್ರ, ಮುರಿದ ವರ್ಗಾವಣೆಯನ್ನು ಮುಂದುವರಿಸಲಾಗುತ್ತದೆ. rsync ಇನ್‌ಸ್ಟಾಲ್ ಆಗಿರುವಲ್ಲಿ ಉತ್ತಮ ಆಯ್ಕೆ.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>ಫೈಲ್‌ಗಳಿಗೆ scp ನೊಂದಿಗೆ SSH.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>ಫೈಲ್‌ಗಳಿಗೆ sftp ನೊಂದಿಗೆ SSH.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>ಫೈಲ್‌ಗಳು ಮಾತ್ರ: ಮೈಗ್ರೇಶನ್‌ಗಳನ್ನು ಕಳುಹಿಸಿ ಮತ್ತೆ ಓದಲಾಗುತ್ತದೆ, ಆದರೆ ಅಲ್ಲಿ ರನ್ ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>TLS ಮೂಲಕ FTP; ಫೈಲ್‌ಗಳು ಮಾತ್ರ.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>ಈ ಸರ್ವರ್‌ನಲ್ಲಿ, ಒಂದು ಫೋಲ್ಡರ್‌ನಲ್ಲಿರುವ ಇನ್ನೊಂದು ಇನ್‌ಸ್ಟಾಲೇಶನ್.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>ಹೋಸ್ಟ್</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>ಹೋಸ್ಟ್ ಹೆಸರು ಅಥವಾ ವಿಳಾಸ, ಉದಾಹರಣೆಗೆ node1.example.com. local ಗಾಗಿ ಅಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>ಪೋರ್ಟ್</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>ಖಾಲಿ: SSH ಗೆ 22, FTP ಗೆ 21.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>ಬಳಕೆದಾರ</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>ಪಾತ್</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>ಅಲ್ಲಿ ಇನ್‌ಸ್ಟಾಲೇಶನ್‌ನ ಮೂಲ ಫೋಲ್ಡರ್, ಉದಾಹರಣೆಗೆ /var/www/site (FTP ಗೆ: FTP ಖಾತೆ ನೋಡುವ ಪಾತ್).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>PHP ಕಮಾಂಡ್ ಲೈನ್</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>ಅಲ್ಲಿನ PHP CLI: php, ಅಥವಾ /opt/plesk/php/8.4/bin/php ನಂತಹ ಪೂರ್ಣ ಪಾತ್.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>ಅಲ್ಲಿ ಕನ್ಸೋಲ್ ಸ್ಕ್ರಿಪ್ಟ್‌ಗಳು root ಆಗಿ ನಡೆಯುತ್ತವೆ</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>ರಿಮೋಟ್‌ನ ಬಳಕೆದಾರ root ಆಗಿದ್ದಾಗ ಮಾತ್ರ (ಆಗ ಅವುಗಳನ್ನು --allow-root-user ನೊಂದಿಗೆ ರನ್ ಮಾಡಲಾಗುತ್ತದೆ).</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. ರುಜುವಾತು</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>ಈ ಇನ್‌ಸ್ಟಾಲೇಶನ್ ಅಲ್ಲಿ ಹೇಗೆ ಸೈನ್ ಇನ್ ಆಗುತ್ತದೆ. ಹೆಸರನ್ನು ಮಾತ್ರ ಉಳಿಸಲಾಗುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>ಯಾವುದೂ ಇಲ್ಲ</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>ಈ ಇನ್‌ಸ್ಟಾಲೇಶನ್ ಯಾವ ಬಳಕೆದಾರನಾಗಿ ನಡೆಯುತ್ತದೆಯೋ ಆ ಬಳಕೆದಾರನ SSH ಏಜೆಂಟ್ ಮತ್ತು ಕೀಗಳು (ಮತ್ತು local ಗಾಗಿ ಯಾವಾಗಲೂ).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>ರಹಸ್ಯವಾಗಿ ಇರಿಸಿದ ಖಾಸಗಿ ಕೀ.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>ರಹಸ್ಯವಾಗಿ ಇರಿಸಿದ ಪಾಸ್‌ವರ್ಡ್ (FTP ಇದರಿಂದ ಸೈನ್ ಇನ್ ಆಗುತ್ತದೆ).</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>ರಹಸ್ಯದ ಹೆಸರು</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>ಸೆಟಪ್ &gt; ರಹಸ್ಯಗಳು ನಲ್ಲಿರುವ ಒಂದು ರಹಸ್ಯ, ಉದಾಹರಣೆಗೆ deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>ಸೆಟಪ್ &gt; ರಹಸ್ಯಗಳು</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>ಅಥವಾ ಪರಿಸರ ವೇರಿಯೇಬಲ್</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>ಅದನ್ನು ಹೊಂದಿರುವ ಸರ್ವರ್ ಪ್ರಕ್ರಿಯೆಯ ವೇರಿಯೇಬಲ್, ಉದಾಹರಣೆಗೆ DEPLOY_KEY (env:DEPLOY_KEY ಆಗಿ ಉಳಿಸಲಾಗುತ್ತದೆ). ಇದು ರಹಸ್ಯದ ಹೆಸರಿನ ಸ್ಥಾನವನ್ನು ತೆಗೆದುಕೊಳ್ಳುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. ಹೋಸ್ಟ್ ಕೀ</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>ಐಚ್ಛಿಕ, SSH, sftp ಮತ್ತು rsync ಗಾಗಿ.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>ಹೋಸ್ಟ್ ಕೀ ಫಿಂಗರ್‌ಪ್ರಿಂಟ್</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:..., ssh-keygen -l ಮುದ್ರಿಸುವ ರೂಪದಲ್ಲಿ. ಇದಿದ್ದರೆ, ಹೋಸ್ಟ್ ಈ ಕೀಯನ್ನೇ ತೋರಿಸಬೇಕು; ಇಲ್ಲದಿದ್ದರೆ, ಮೊದಲ ಸಂಪರ್ಕದಲ್ಲಿ ಕೀಯನ್ನು ಕಲಿಯಲಾಗುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. ಪರಿಶೀಲನೆ</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>ಮೇಲಿನ ಸೆಟ್ಟಿಂಗ್‌ಗಳೊಂದಿಗೆ ಸಂಪರ್ಕವನ್ನು ಪರೀಕ್ಷಿಸಿ, ನಂತರ ಬರೆಯಲಾಗುವ ಸಾಲುಗಳನ್ನು ಪರಿಶೀಲಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>ಈ ರಿಮೋಟ್ ತೆಗೆದುಹಾಕು</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>ಅದರ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು settings/override/migration.ini.append.php ನಿಂದ ತೆಗೆದುಹಾಕಲಾಗುತ್ತದೆ. ರಿಮೋಟ್‌ನಲ್ಲಿ ಏನೂ ಬದಲಾಗುವುದಿಲ್ಲ, ಮತ್ತು ಅದರ ಡಿಪ್ಲಾಯ್‌ಗಳು ಇತಿಹಾಸದಲ್ಲಿ ಉಳಿಯುತ್ತವೆ.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>ಹೌದು, ಈ ರಿಮೋಟ್ ತೆಗೆದುಹಾಕು</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>ಡಿಪ್ಲಾಯ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>ಡಿಪ್ಲಾಯ್ ಈ ಇನ್‌ಸ್ಟಾಲೇಶನ್‌ನ ಮೈಗ್ರೇಶನ್‌ಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿದ ರಿಮೋಟ್‌ಗಳಿಗೆ ಕಳುಹಿಸಿ ಅಲ್ಲಿ %user ಆಗಿ ರನ್ ಮಾಡುತ್ತದೆ, ಎಲ್ಲವೂ ಒಂದೇ ಬಾರಿಗೆ ಮತ್ತು ಸಿಂಕ್‌ನಲ್ಲಿ: ಪ್ರತಿ ರಿಮೋಟ್ ಅನ್ನು ಮೊದಲು ಪರಿಶೀಲಿಸಲಾಗುತ್ತದೆ, ಮತ್ತು ಒಂದು ವಿಫಲವಾದರೆ, ಅನ್ವಯಿಸಿದ ಪ್ರತಿ ರಿಮೋಟ್ ಅನ್ನು ಹಿಂಪಡೆಯಲಾಗುತ್ತದೆ. ಇದು ಹಿನ್ನೆಲೆಯಲ್ಲಿ ನಡೆಯುತ್ತದೆ, ಮತ್ತು ಅದರ ಪುಟವು ನಡೆಯುತ್ತಿರುವಂತೆ ಪ್ರತಿ ರಿಮೋಟ್ ಅನ್ನು ತೋರಿಸುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. ರಿಮೋಟ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>ರಿಮೋಟ್‌ಗಳು, ಒಂದು ಗುಂಪು, ಅಥವಾ ಎರಡನ್ನೂ ಗುರುತಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>ಅದಕ್ಕೆ ಡಿಪ್ಲಾಯ್ ಮಾಡು</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. ಹೇಗೆ</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>ಡಿಪ್ಲಾಯ್ ಮಾಡು</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>ಕಳುಹಿಸು ಮತ್ತು ರನ್ ಮಾಡು</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>ಮೈಗ್ರೇಶನ್‌ಗಳನ್ನು ಪ್ರತಿ ರಿಮೋಟ್‌ಗೆ ಕಳುಹಿಸಿ, ಪರಿಶೀಲಿಸಿ, ಒಂದೇ ಹಂಚಿಕೊಂಡ ರನ್ ಐಡಿಯೊಂದಿಗೆ ರನ್ ಮಾಡಲಾಗುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>ವರ್ಗಾವಣೆ ಮಾತ್ರ</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>ಫೈಲ್‌ಗಳನ್ನು ಕಳುಹಿಸಿ ಪರಿಶೀಲಿಸಲಾಗುತ್ತದೆ, ಏನನ್ನೂ ರನ್ ಮಾಡುವುದಿಲ್ಲ (FTP ರಿಮೋಟ್‌ಗೆ ಇರುವ ಏಕೈಕ ಮಾರ್ಗ).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>ಘಟ್ಟಗಳಲ್ಲಿ</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>ಪರಿಸರಗಳ ಕ್ರಮದಲ್ಲಿ ಘಟ್ಟದಿಂದ ಘಟ್ಟಕ್ಕೆ (dev, stage, beta, production ...): ಮೊದಲ ಘಟ್ಟವನ್ನು ಡಿಪ್ಲಾಯ್ ಮಾಡಲಾಗುತ್ತದೆ, ನಂತರ ಯಾರಾದರೂ ಮುಂದಿನದನ್ನು ಅನುಮೋದಿಸುವವರೆಗೆ ಒಂದು ಗೇಟ್ ಕಾಯುತ್ತದೆ. ಪ್ರತಿ ಘಟ್ಟದೊಳಗೆ ಎಲ್ಲವೂ ಅಥವಾ ಏನೂ ಇಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>ಈ ಮೈಗ್ರೇಶನ್‌ಗಳು ಮಾತ್ರ</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>ಐಚ್ಛಿಕ: ಮೈಗ್ರೇಶನ್ ಐಡಿಗಳು, ಅಲ್ಪವಿರಾಮಗಳಿಂದ ಬೇರ್ಪಡಿಸಿ. ಖಾಲಿ: ಸೈಟ್ ಮತ್ತು ಅದರ ಎಕ್ಸ್‌ಟೆನ್ಶನ್‌ಗಳ ಪ್ರತಿ ಮೈಗ್ರೇಶನ್.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>ಪೂರ್ವಪರಿಶೀಲನೆ ಮಾತ್ರ</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>ಹೌದು, ಈಗ ಡಿಪ್ಲಾಯ್ ಮಾಡು</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>ಏನನ್ನಾದರೂ ಕಳುಹಿಸಿದ ಅಥವಾ ರನ್ ಮಾಡಿದ ಡಿಪ್ಲಾಯ್‌ಗಳು, ಹೊಸದು ಮೊದಲು (ಪೂರ್ವಪರಿಶೀಲನೆ ಯಾವುದೇ ವರದಿಯನ್ನು ಇಡುವುದಿಲ್ಲ).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>ವರ್ಗಾವಣೆ ಮಾತ್ರ</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>ಘಟ್ಟಗಳಲ್ಲಿ, %stages ಘಟ್ಟಗಳು</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>ಸಿಂಕ್‌ನಲ್ಲಿಲ್ಲ</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>ಇನ್ನೂ ಯಾವುದೇ ಡಿಪ್ಲಾಯ್ ಇಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>ಡಿಪ್ಲಾಯ್ %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>ಡಿಪ್ಲಾಯ್‌ನ ಪ್ರತಿ ರಿಮೋಟ್ ಅದರ ಸ್ಥಿತಿಯೊಂದಿಗೆ. ಇಲ್ಲಿ ಪ್ರಾರಂಭಿಸಿದ ಡಿಪ್ಲಾಯ್ ಈ ಪುಟವನ್ನು ಮುಚ್ಚಿದಾಗ ಹಿನ್ನೆಲೆಯಲ್ಲಿ ಮುಂದುವರಿಯುತ್ತದೆ; ಅದನ್ನು ಅನುಸರಿಸಲು ಪುಟವನ್ನು ಮತ್ತೆ ತೆರೆಯಿರಿ.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>ಎಲ್ಲಾ ಡಿಪ್ಲಾಯ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>ಪೂರ್ವಪರಿಶೀಲನೆ</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>ಮುಂದಿನ ಘಟ್ಟ</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>ಸೆಟ್ಟಿಂಗ್‌ಗಳು ಮತ್ತು ರುಜುವಾತುಗಳನ್ನು ಪರಿಶೀಲಿಸಲಾಗುತ್ತಿದೆ</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>ಪೂರ್ವಪರಿಶೀಲನೆ: ಪ್ರತಿ ರಿಮೋಟ್‌ನ ಸ್ಥಿತಿಯನ್ನು ಓದಲಾಗುತ್ತಿದೆ</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>ಮೈಗ್ರೇಶನ್ ಫೈಲ್‌ಗಳನ್ನು ಕಳುಹಿಸಲಾಗುತ್ತಿದೆ</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>ತಲುಪಿದ್ದನ್ನು ಪರಿಶೀಲಿಸಲಾಗುತ್ತಿದೆ</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>ಪ್ರತಿ ರಿಮೋಟ್‌ನಲ್ಲಿ ಮೈಗ್ರೇಶನ್‌ಗಳನ್ನು ರನ್ ಮಾಡಲಾಗುತ್ತಿದೆ</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>ರಿಮೋಟ್‌ಗಳನ್ನು ಹಿಂಪಡೆಯಲಾಗುತ್ತಿದೆ</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>ಡಿಪ್ಲಾಯ್ ಮುಗಿದಿದೆ. ಅದರ ವರದಿಯನ್ನು ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>ಪ್ರಗತಿಯನ್ನು ಅನುಸರಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ. ಡಿಪ್ಲಾಯ್ ಹೇಗೆ ನಡೆಯುತ್ತಿದೆ ಎಂದು ನೋಡಲು ಪುಟವನ್ನು ರೀಲೋಡ್ ಮಾಡಿ.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>ಹಂತ</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>ಈ ಪುಟವು ಡಿಪ್ಲಾಯ್ ನಡೆಯುತ್ತಿರುವಂತೆ ಅದನ್ನು ಅನುಸರಿಸುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>ಸಿಂಕ್‌ನಲ್ಲಿ</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>ಘಟ್ಟಗಳು</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>ಘಟ್ಟ %stage ತನ್ನ ಗೇಟ್‌ನಲ್ಲಿ ಕಾಯುತ್ತಿದೆ</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>ಗೇಟ್ %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>%time ಕ್ಕೆ %user ಅವರಿಂದ ಅನುಮೋದಿಸಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>ಘಟ್ಟ</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>ಕಳುಹಿಸಿದ ಫೈಲ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>ಕರ್ನಲ್ ಆವೃತ್ತಿ</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>ಅನ್ವಯಿಸಲಾಗಿದೆ: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>ಅನ್ವಯಿಸಬೇಕಾದವು: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>ಹಂತಗಳು</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>ಗೇಟ್: %stages ರಲ್ಲಿ ಘಟ್ಟ %stage</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>ಅದಕ್ಕಿಂತ ಹಿಂದಿನ ಘಟ್ಟಗಳು ಡಿಪ್ಲಾಯ್ ಆಗಿವೆ. ಅವುಗಳನ್ನು ಪರಿಶೀಲಿಸಿ, ನಂತರ ಮುಂದಿನ ಘಟ್ಟವನ್ನು ಅನುಮೋದಿಸಿ: ಅದರ ರಿಮೋಟ್‌ಗಳನ್ನು ಮತ್ತೆ ಪರಿಶೀಲಿಸಿ ಡಿಪ್ಲಾಯ್ ಮಾಡಲಾಗುತ್ತದೆ, ಎಲ್ಲವೂ ಅಥವಾ ಏನೂ ಇಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>ಮುಂದೆ</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>ಹೌದು, ಮುಂದಿನ ಘಟ್ಟವನ್ನು ಈಗ ಡಿಪ್ಲಾಯ್ ಮಾಡು</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>ಅನುಮೋದಿಸು</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>ಈ ಡಿಪ್ಲಾಯ್ ರೋಲ್‌ಬ್ಯಾಕ್ ಮಾಡು</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>ಅದನ್ನು ಅನ್ವಯಿಸಿದ ಪ್ರತಿ ರಿಮೋಟ್ (%list) ತನ್ನ ರನ್‌ಗೆ ಮೊದಲು ತೆಗೆದ ಕ್ಯಾಪ್ಶನ್‌ಗೆ ಹಿಂತಿರುಗುತ್ತದೆ, ಎಲ್ಲವೂ ಒಂದೇ ಬಾರಿಗೆ.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>ಹೌದು, ಈ ಡಿಪ್ಲಾಯ್ ಅನ್ನು ಈಗ ರೋಲ್‌ಬ್ಯಾಕ್ ಮಾಡು</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>ಯೋಜಿಸಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>ವರ್ಗಾಯಿಸಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>ಡಿಪ್ಲಾಯ್ ಆಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>ಒಂದು ಗೇಟ್‌ನಲ್ಲಿ ಕಾಯುತ್ತಿದೆ</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>ಆಯ್ಕೆಮಾಡಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>ಸಿದ್ಧಪಡಿಸಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>ಸಿದ್ಧ</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>ತನ್ನ ಘಟ್ಟಕ್ಕಾಗಿ ಕಾಯುತ್ತಿದೆ</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>ಫೈಲ್‌ಗಳನ್ನು ಕಳುಹಿಸಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>ಪರಿಶೀಲಿಸಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>ವಿಫಲವಾಗಿದೆ, ತಾನೇ ಮರುಸ್ಥಾಪಿಸಿಕೊಂಡಿದೆ</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>ಬದಲಾಗಿಲ್ಲ</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>ಡಿಪ್ಲಾಯ್ ಆಗಿಲ್ಲ</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>ತಲುಪಲಾಗುತ್ತಿಲ್ಲ</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>ರಿಮೋಟ್ ಉತ್ತರಿಸಿದೆ.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>ರಿಮೋಟ್ ಅನ್ನು ಈಗ ಬಳಸಲು ಸಾಧ್ಯವಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done ಮುಗಿದಿದೆ, %pending ಬಾಕಿ, %failed ವಿಫಲ</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>ಲಾಕ್</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>ಅಲ್ಲಿ ಒಂದು ರನ್ ಲಾಕ್ ಹಿಡಿದಿದೆ</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>ಖಾಲಿ</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stages ರಲ್ಲಿ %stage</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>ಪರೀಕ್ಷಿಸಬೇಕಾದ ರಿಮೋಟ್ ಆಯ್ಕೆಮಾಡಿ.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>ಮೊದಲು “ಹೌದು, ಈ ರಿಮೋಟ್ ತೆಗೆದುಹಾಕು” ಗುರುತಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>ರಿಮೋಟ್ ಅನ್ನು ತೆಗೆದುಹಾಕಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>ರಿಮೋಟ್ ಅನ್ನು ಉಳಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>ಸೆಟ್ಟಿಂಗ್‌ಗಳ ಫೈಲ್ ಓದಲು ಸಾಧ್ಯವಿಲ್ಲ: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>ಕನಿಷ್ಠ ಒಂದು ರಿಮೋಟ್ ಅಥವಾ ಗುಂಪನ್ನು ಆಯ್ಕೆಮಾಡಿ.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>ಆಯ್ಕೆಮಾಡಿದ ಒಂದು ರಿಮೋಟ್ ಇನ್ನು ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ ಇಲ್ಲ. ಪುಟವನ್ನು ರೀಲೋಡ್ ಮಾಡಿ.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>ಮೊದಲು “ಹೌದು, ಈಗ ಡಿಪ್ಲಾಯ್ ಮಾಡು” ಗುರುತಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>FTP ರಿಮೋಟ್ ಮೈಗ್ರೇಶನ್‌ಗಳನ್ನು ರನ್ ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ: “ವರ್ಗಾವಣೆ ಮಾತ್ರ” ಆಯ್ಕೆಮಾಡಿ, ಅಥವಾ ಅದನ್ನು ಬಿಟ್ಟುಬಿಡಿ.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>ಡಿಪ್ಲಾಯ್ ಮಾಡಬೇಕಾದ ಮೈಗ್ರೇಶನ್‌ಗಳು ಅಲ್ಪವಿರಾಮಗಳಿಂದ ಬೇರ್ಪಡಿಸಿದ ಮೈಗ್ರೇಶನ್ ಐಡಿಗಳು.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>ಡಿಪ್ಲಾಯ್ ಇನ್ನೂ ನಡೆಯುತ್ತಿದೆ. ಅದು ಮುಗಿಯುವವರೆಗೆ ಕಾಯಿರಿ.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>ಈ ಡಿಪ್ಲಾಯ್ ಯಾವುದೇ ಗೇಟ್‌ನಲ್ಲಿ ಕಾಯುವುದಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>ಯಾವುದೇ ರಿಮೋಟ್ ಈ ಡಿಪ್ಲಾಯ್ ಅನ್ನು ಅನ್ವಯಿಸಿಲ್ಲ: ರೋಲ್‌ಬ್ಯಾಕ್ ಮಾಡಲು ಏನೂ ಇಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>ಮೊದಲು “ಹೌದು, ಮುಂದಿನ ಘಟ್ಟವನ್ನು ಈಗ ಡಿಪ್ಲಾಯ್ ಮಾಡು” ಗುರುತಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>ಮೊದಲು “ಹೌದು, ಈ ಡಿಪ್ಲಾಯ್ ಅನ್ನು ಈಗ ರೋಲ್‌ಬ್ಯಾಕ್ ಮಾಡು” ಗುರುತಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>%id ಐಡಿ ಇರುವ ರಿಮೋಟ್ ಈಗಾಗಲೇ ಇದೆ.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>ಪೋರ್ಟ್ 1 ರಿಂದ 65535 ರವರೆಗಿನ ಒಂದು ಸಂಖ್ಯೆ.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>ಪರಿಸರ ಎಂದರೆ ಅಕ್ಷರಗಳು, ಅಂಕೆಗಳು, - ಮತ್ತು _ ಇರುವ ಒಂದು ಪದ (alpha, dev, stage, beta, production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>ಗುಂಪು ಎಂದರೆ ಅಕ್ಷರಗಳು, ಅಂಕೆಗಳು, - ಮತ್ತು _ ಇರುವ ಒಂದು ಪದ (all ಅಲ್ಲ): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>ರುಜುವಾತನ್ನು ಈಗ ಓದಲು ಸಾಧ್ಯವಿಲ್ಲ: %problem. ಮೊದಲ ಡಿಪ್ಲಾಯ್‌ಗೆ ಮೊದಲು ಅದನ್ನು ಸೆಟಪ್ &gt; ರಹಸ್ಯಗಳು ನಲ್ಲಿ ಉಳಿಸಿ (ಅಥವಾ ವೇರಿಯೇಬಲ್ ಹೊಂದಿಸಿ).</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>FTP ರಿಮೋಟ್ ಫೈಲ್‌ಗಳನ್ನು ಮಾತ್ರ ಸ್ವೀಕರಿಸುತ್ತದೆ: ಅದಕ್ಕೆ ಮಾಡುವ ಡಿಪ್ಲಾಯ್ “ವರ್ಗಾವಣೆ ಮಾತ್ರ” ಆಗಿರುತ್ತದೆ, ಮತ್ತು ಅದರ ಮೈಗ್ರೇಶನ್‌ಗಳನ್ನು ಅಲ್ಲಿ ಕೈಯಿಂದ ರನ್ ಮಾಡಲಾಗುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>ರಿಮೋಟ್ %id settings/override/migration.ini.append.php ನಲ್ಲಿ ಇಲ್ಲ; ಅದನ್ನು ಹೊಂದಿಸಿರುವ ಸ್ಥಳದಲ್ಲಿ ತೆಗೆದುಹಾಕಿ.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>FTP ಮೂಲಕ ಸೈನ್ ಇನ್ ಆಗಿ index.php ಓದಲಾಗಿದೆ. FTP ರಿಮೋಟ್‌ನ ಮೈಗ್ರೇಶನ್ ಸ್ಥಿತಿಯನ್ನು ಓದಲು ಸಾಧ್ಯವಿಲ್ಲ.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>ಮಾರ್ಪಡಿಸಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>ರಚಿಸಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>ಹೆಸರು</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>ವರ್ಗ</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>ವಿಭಾಗ</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>ರಚಿಸಿದವರು</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>ಇತ್ತೀಚಿನ ವಿಷಯ</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>ಇಡೀ ಸೈಟ್‌ನಲ್ಲಿ ಇತ್ತೀಚೆಗೆ ರಚಿಸಿದ ಮತ್ತು ಮಾರ್ಪಡಿಸಿದ ವಿಷಯ, ಹೊಸದು ಮೊದಲು: ಸಂದರ್ಶಕರು ಸಲ್ಲಿಸಿದ್ದು, ಪರಿಶೀಲನೆಗಾಗಿ ತಡೆಹಿಡಿಯಲಾದದ್ದು, ಪ್ರಕಟಣೆಗಾಗಿ ಕಾಯುತ್ತಿರುವ ಕರಡುಗಳು. ತಡೆಯನ್ನು ತೆಗೆಯಲು, ತಡೆಹಿಡಿಯಲು, ಅಡಗಿಸಲು, ಬಹಿರಂಗಪಡಿಸಲು, ತೆಗೆದುಹಾಕಲು ಅಥವಾ ಬೇರೆ ವಿಭಾಗ ಅಥವಾ ಸ್ಥಿತಿಗೆ ಸರಿಸಲು ಐಟಂಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>ಪಟ್ಟಿಯನ್ನು ಓದಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>ಪರಿಶೀಲನಾ ತಡೆ ಇನ್ನೂ ಹೊಂದಿಸಲಾಗಿಲ್ಲ, ಆದ್ದರಿಂದ ಏನೂ ತಡೆಹಿಡಿಯಲಾಗಿಲ್ಲ ಮತ್ತು ತಡೆ ಕ್ರಿಯೆಗಳನ್ನು ನೀಡಲಾಗುವುದಿಲ್ಲ. ಅಪ್‌ಗ್ರೇಡ್ ಹಂತ 6.0.15-review-hold ಅದನ್ನು ಹೊಂದಿಸುತ್ತದೆ: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>ಪಟ್ಟಿಯನ್ನು ಫಿಲ್ಟರ್ ಮಾಡಿ</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>ಇಂದ</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>ವರೆಗೆ</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>ದಿನಾಂಕ</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>ರಚಿಸಲಾಗಿದೆ (ಮೊದಲು ಪ್ರಕಟಿಸಲಾಗಿದೆ)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>ಎಲ್ಲಾ</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>ಸ್ಥಿತಿ</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>ಪ್ರಕಟಿಸಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>ಕರಡು, ಎಂದಿಗೂ ಪ್ರಕಟಿಸಲಾಗಿಲ್ಲ</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>ಬಾಕಿ ಇದೆ (ಅನುಮೋದನೆ ಅಥವಾ ದಿನಾಂಕಕ್ಕಾಗಿ ಕಾಯುತ್ತಿದೆ)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>ಕಸದ ಬುಟ್ಟಿಯಲ್ಲಿ</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>ಪರಿಶೀಲನೆಗಾಗಿ ತಡೆಹಿಡಿಯಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>ತಡೆಹಿಡಿಯಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>ತಡೆಹಿಡಿಯಲಾಗಿಲ್ಲ</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>ಅಡಗಿಸಲಾದ</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>ಗೋಚರಿಸುವ</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>ಸಲ್ಲಿಸಿದ ಸ್ಥಳ</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>ಯಾವುದೇ ಸೈಟ್‌ಆಕ್ಸೆಸ್</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>ಆಡಿಟ್ ದಾಖಲಿಸಿದ್ದು ಮಾತ್ರ.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>ಈಗ: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>ಲಾಗಿನ್ ಹೆಸರು ಅಥವಾ ಬಳಕೆದಾರ ID.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>ಫಿಲ್ಟರ್ ಮಾಡಿ</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>ಫಿಲ್ಟರ್‌ಗಳನ್ನು ತೆರವುಗೊಳಿಸಿ</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>ಐಟಂಗಳು</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%count ರಲ್ಲಿ %from ರಿಂದ %to</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>ಯಾವುದೇ ಐಟಂ ಇಲ್ಲ</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(%ms ms ನಲ್ಲಿ ಓದಲಾಗಿದೆ)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>ಆಯ್ಕೆಮಾಡಿದ ಐಟಂಗಳ ಮೇಲಿನ ಕ್ರಿಯೆಗಳು</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>ಈ ಪುಟದಲ್ಲಿ ಎಲ್ಲವನ್ನೂ ಆಯ್ಕೆಮಾಡಿ</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>%count ಆಯ್ಕೆಮಾಡಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>ಕ್ರಿಯೆ</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>ಕ್ರಿಯೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>ತಡೆಯನ್ನು ತೆಗೆಯಿರಿ</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>ಪರಿಶೀಲನೆಗಾಗಿ ತಡೆಹಿಡಿಯಿರಿ</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>ಅಡಗಿಸು</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>ಬಹಿರಂಗಪಡಿಸು</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>ಕಸದ ಬುಟ್ಟಿಗೆ ಸರಿಸಿ</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>ಅಳಿಸು</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>ವಿಭಾಗವನ್ನು ನಿಯೋಜಿಸಿ</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>ಸ್ಥಿತಿಯನ್ನು ನಿಯೋಜಿಸಿ</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>ಕಾರಣ</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>ತಡೆಹಿಡಿಯಲು ಅಗತ್ಯ; ತಡೆಯೊಂದಿಗೆ ಮತ್ತು ಆಡಿಟ್‌ನಲ್ಲಿ ಇರಿಸಲಾಗುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>ವಿಭಾಗವನ್ನು ಆಯ್ಕೆಮಾಡಿ</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>ಸ್ಥಿತಿ</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>ಸ್ಥಿತಿಯನ್ನು ಆಯ್ಕೆಮಾಡಿ</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>ಆಯ್ಕೆಮಾಡಿದವುಗಳಿಗೆ ಅನ್ವಯಿಸಿ</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>ಪ್ರತಿ ಐಟಂ ಅನ್ನು ನಿಮ್ಮ ಸ್ವಂತ ಅನುಮತಿಗಳೊಂದಿಗೆ ಪರಿಶೀಲಿಸಲಾಗುತ್ತದೆ. ಕಸದ ಬುಟ್ಟಿಗೆ ಸರಿಸುವುದು ಮತ್ತು ಅಳಿಸುವುದು ನಿಮ್ಮ ದೃಢೀಕರಣವನ್ನು ಕೇಳುತ್ತವೆ. %count ಕ್ಕಿಂತ ಹೆಚ್ಚು ಐಟಂಗಳು ಹಿನ್ನೆಲೆಯಲ್ಲಿ ಚಲಿಸುತ್ತವೆ.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>ಆಯ್ಕೆಮಾಡಿ</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>ಪ್ರಕಟಣೆ</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>ಇಲ್ಲಿಂದ ಸಲ್ಲಿಸಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>%name ಆಯ್ಕೆಮಾಡಿ</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>ಇನ್ನೂ ಇಲ್ಲ</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(ಹೆಸರಿಲ್ಲ)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>ಕರಡು</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>ಬಾಕಿ ಇದೆ</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>ಅದರ ಪೋಷಕದಿಂದ ಅಡಗಿಸಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>ತಡೆಹಿಡಿಯಲಾಗಿದೆ: ಹೊಸ ಸಲ್ಲಿಕೆ</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>ಆವೃತ್ತಿ %version ಬಾಕಿ ಇದೆ</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>ಆವೃತ್ತಿ %version ಪ್ರಗತಿಯಲ್ಲಿದೆ</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>ಕರಡು, ಆವೃತ್ತಿ %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>ಆವೃತ್ತಿ %version ಪ್ರಕಟಿಸಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>%date ಗೆ ನಿಗದಿಪಡಿಸಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>ವಿಳಾಸವಿಲ್ಲ</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>ದಾಖಲಿಸಲಾಗಿಲ್ಲ</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>ಈ ಫಿಲ್ಟರ್‌ಗಳಿಗೆ ಯಾವುದೂ ಹೊಂದಿಕೆಯಾಗುವುದಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>ಎಲ್ಲವನ್ನೂ ತೋರಿಸು</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>ಇನ್ನೂ ಯಾವುದೇ ವಿಷಯವಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>ಪ್ರತಿ ಪುಟಕ್ಕೆ</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>ಪ್ರತಿ ಪುಟಕ್ಕೆ %count ಐಟಂಗಳನ್ನು ತೋರಿಸು.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says &quot;not recorded&quot;.</source>
+        <translation>ಸಲ್ಲಿಕೆಯ ವಿಳಾಸ ಮತ್ತು ಬ್ರೌಸರ್ ಆಡಿಟ್ ಸೂಚಿಯಿಂದ ಬರುತ್ತವೆ, ಅದು ಇಲ್ಲಿ ಲಭ್ಯವಿಲ್ಲ: ಕಾಲಮ್ &quot;ದಾಖಲಿಸಲಾಗಿಲ್ಲ&quot; ಎಂದು ತೋರಿಸುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>ವಿಳಾಸ ಮತ್ತು ಬ್ರೌಸರ್ ಆ ಐಟಂಗಾಗಿ ಆಡಿಟ್ ದಾಖಲಿಸಿದವು (ಸ್ವಯಂ-ತಡೆ ಅವುಗಳನ್ನು ಯಾವಾಗಲೂ ದಾಖಲಿಸುತ್ತದೆ; ಪ್ರಕಟಿಸುವುದು ಮತ್ತು ರಚಿಸುವುದು ಸಕ್ರಿಯಗೊಳಿಸಿದಾಗ ಮಾತ್ರ), ಅದರ ಗೌಪ್ಯತಾ ಸೆಟ್ಟಿಂಗ್‌ಗಳು ಇರಿಸಿದಂತೆ.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: %count ಐಟಂಗಳು</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>ಅಳಿಸುವುದು ಐಟಂಗಳನ್ನು ಅವುಗಳ ಎಲ್ಲಾ ಆವೃತ್ತಿಗಳು ಮತ್ತು ಅನುವಾದಗಳೊಂದಿಗೆ ಶಾಶ್ವತವಾಗಿ ತೆಗೆದುಹಾಕುತ್ತದೆ. ಇದನ್ನು ರದ್ದುಗೊಳಿಸಲಾಗುವುದಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>ಐಟಂಗಳು ಕಸದ ಬುಟ್ಟಿಗೆ ಹೋಗುತ್ತವೆ, ಅಲ್ಲಿಂದ ಅವುಗಳನ್ನು ಮರುಸ್ಥಾಪಿಸಬಹುದು.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>ಪ್ರತಿ ಐಟಂ ಅನ್ನು ನಿಮ್ಮ ಸ್ವಂತ ಅನುಮತಿಗಳೊಂದಿಗೆ ಪರಿಶೀಲಿಸಲಾಗುತ್ತದೆ; ಉಪ ಐಟಂಗಳಿರುವ ಐಟಂ ಅನ್ನು ಹಾಗೆಯೇ ಬಿಡಲಾಗುತ್ತದೆ (ಅದನ್ನು ವಿಷಯ ರಚನೆಯಲ್ಲಿ ತೆಗೆದುಹಾಕಿ). ಅದು ನೀವೇ ಎಂದು ದೃಢೀಕರಿಸಲು ನಿಮ್ಮನ್ನು ಕೇಳಲಾಗುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>ಇದು ಹಿನ್ನೆಲೆಯಲ್ಲಿ ಚಲಿಸುತ್ತದೆ: ಅದರ ಪ್ರಗತಿ ಪುಟ ತೆರೆಯುತ್ತದೆ, ಮತ್ತು ಮುಗಿದಾಗ ಪ್ರತಿ ಐಟಂನ ಫಲಿತಾಂಶವನ್ನು ತೋರಿಸಲಾಗುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>ಆಯ್ಕೆಮಾಡಿದ ಐಟಂಗಳು</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>ಮತ್ತು ಇನ್ನೂ %count</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>ರದ್ದುಮಾಡು</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>ಏನನ್ನೂ ಮಾಡಲಾಗಿಲ್ಲ</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>ಕಾರಣ: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>ಕ್ರಿಯೆ ಇನ್ನೂ ಹಿನ್ನೆಲೆಯಲ್ಲಿ ಚಲಿಸುತ್ತಿದೆ.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>ಅದರ ಪ್ರಗತಿ</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>ಹಿನ್ನೆಲೆ ಕ್ರಿಯೆ ವಿಫಲವಾಗಿದೆ: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>ಮುಗಿದಿದೆ</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>ನಿರಾಕರಿಸಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>ವಿಫಲವಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>ಪ್ರತಿ ಐಟಂಗೆ</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>ಐಟಂ</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>ಫಲಿತಾಂಶ</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>ಏಕೆ</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>ಪಟ್ಟಿಗೆ ಹಿಂತಿರುಗಿ</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>ಸೆಟಪ್</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>ಏನೂ ಮಾಡಿಲ್ಲ</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>ದೃಢೀಕರಿಸಿ</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>ಕ್ರಿಯೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>ಕನಿಷ್ಠ ಒಂದು ಐಟಂ ಆಯ್ಕೆಮಾಡಿ.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>ಒಂದು ಬಾರಿಗೆ ಗರಿಷ್ಠ 1000 ಐಟಂಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>ಐಟಂಗಳನ್ನು ಏಕೆ ತಡೆಹಿಡಿಯಲಾಗಿದೆ ಎಂದು ತಿಳಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>ವಿಭಾಗವನ್ನು ಆಯ್ಕೆಮಾಡಿ.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>ಸ್ಥಿತಿಯನ್ನು ಆಯ್ಕೆಮಾಡಿ.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>ಫಾರ್ಮ್ ಅನ್ನು ಓದಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>ಡ್ಯಾಶ್‌ಬೋರ್ಡ್</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>ಇತ್ತೀಚಿನ ವಿಷಯ</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>ಎಣಿಕೆಗಳನ್ನು ಓದಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>ಪರಿಶೀಲನೆಗಾಗಿ ತಡೆಹಿಡಿಯಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>ಇಂದು ಹೊಸದು</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>ಪರಿಶೀಲನಾ ತಡೆ ಇನ್ನೂ ಹೊಂದಿಸಲಾಗಿಲ್ಲ (ಅಪ್‌ಗ್ರೇಡ್ ಹಂತ 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>ಎಲ್ಲಾ ಇತ್ತೀಚಿನ ವಿಷಯ</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>ನೀವು ಮಾಡರೇಶನ್ ಕ್ರಿಯೆಗಳನ್ನು ಚಲಾಯಿಸುವಂತಿಲ್ಲ (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>ಮಾಡರೇಶನ್ ಕ್ರಿಯೆ ಪೂರ್ಣಗೊಂಡಿಲ್ಲ: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>ಮಾಡರೇಶನ್: %count ವಸ್ತುಗಳ ಮೇಲೆ %action</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%total ರಲ್ಲಿ %done ವಸ್ತುಗಳು: %ok ಮುಗಿದಿವೆ, %refused ನಿರಾಕರಿಸಲಾಗಿದೆ, %failed ವಿಫಲವಾಗಿವೆ</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok ಮುಗಿದಿವೆ, %refused ನಿರಾಕರಿಸಲಾಗಿದೆ, %failed ವಿಫಲವಾಗಿವೆ</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>ಇದು ಇನ್ನು ಮುಂದೆ ಅಸ್ತಿತ್ವದಲ್ಲಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>ಇದಕ್ಕೆ ಸ್ಥಳವಿಲ್ಲ (ಪ್ರಕಟಿಸಲಾಗಿಲ್ಲ).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>ನೀವು ಇದನ್ನು ಅಡಗಿಸುವಂತಿಲ್ಲ (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>ನೀವು ಇದನ್ನು ಬಹಿರಂಗಪಡಿಸುವಂತಿಲ್ಲ (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>ಇದನ್ನು ಈಗಾಗಲೇ ಅಡಗಿಸಲಾಗಿದೆ.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>ಇದನ್ನು ಅಡಗಿಸಲಾಗಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>ಅಡಗಿಸಲಾಗಿದೆ.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>ಬಹಿರಂಗಪಡಿಸಲಾಗಿದೆ.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>ಇದು ಕಸದ ಬುಟ್ಟಿಯಲ್ಲಿದೆ: ಅಲ್ಲಿ ಖಾಲಿ ಮಾಡಿ ಅಥವಾ ಮರುಸ್ಥಾಪಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>ಎಂದಿಗೂ ಪ್ರಕಟಿಸದ ಕರಡು ಕಸದ ಬುಟ್ಟಿಗೆ ಹೋಗುವಂತಿಲ್ಲ: ಅದನ್ನು ಅಳಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>ನೀವು ಇದನ್ನು ಅಳಿಸುವಂತಿಲ್ಲ (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>ಅಳಿಸಲಾಗಿದೆ.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>ನೀವು ಇದನ್ನು ತೆಗೆದುಹಾಕುವಂತಿಲ್ಲ (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>ಇದಕ್ಕೆ ಉಪ ಐಟಂಗಳಿವೆ: ಅವು ಪಟ್ಟಿಯಾಗಿರುವ ವಿಷಯ ರಚನೆಯಲ್ಲಿ ಇದನ್ನು ತೆಗೆದುಹಾಕಿ.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>ಇದನ್ನು ತೆಗೆದುಹಾಕಲಾಗಿಲ್ಲ (ಒಂದು ವರ್ಕ್‌ಫ್ಲೋ ತೆಗೆದುಹಾಕುವಿಕೆಯನ್ನು ತಡೆಹಿಡಿದಿರಬಹುದು).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>ಕಸದ ಬುಟ್ಟಿಗೆ ಸರಿಸಲಾಗಿದೆ.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>ವಿಭಾಗ ಅಸ್ತಿತ್ವದಲ್ಲಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>ಇದು ಈಗಾಗಲೇ ಈ ವಿಭಾಗದಲ್ಲಿದೆ.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>ನೀವು ಈ ವಿಭಾಗವನ್ನು ನಿಯೋಜಿಸುವಂತಿಲ್ಲ (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>ವಿಭಾಗವನ್ನು ನಿಯೋಜಿಸಲಾಗಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>ವಿಭಾಗವನ್ನು ನಿಯೋಜಿಸಲಾಗಿದೆ.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>ಸ್ಥಿತಿ ಅಸ್ತಿತ್ವದಲ್ಲಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>ಇದು ಈಗಾಗಲೇ ಈ ಸ್ಥಿತಿಯಲ್ಲಿದೆ.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>ನೀವು ಈ ಸ್ಥಿತಿಯನ್ನು ನಿಯೋಜಿಸುವಂತಿಲ್ಲ (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>ಸ್ಥಿತಿಯನ್ನು ನಿಯೋಜಿಸಲಾಗಿಲ್ಲ (ಒಂದು ವರ್ಕ್‌ಫ್ಲೋ ಬದಲಾವಣೆಯನ್ನು ತಡೆಹಿಡಿದಿರಬಹುದು).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>ಸ್ಥಿತಿಯನ್ನು ನಿಯೋಜಿಸಲಾಗಿದೆ.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>ಅಂತಹ ಕ್ರಿಯೆ ಇಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>ಪರಿಶೀಲನಾ ತಡೆ ಹೊಂದಿಸಲಾಗಿಲ್ಲ (ಅಪ್‌ಗ್ರೇಡ್ ಹಂತ 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>ಇದನ್ನು ಏಕೆ ತಡೆಹಿಡಿಯಲಾಗಿದೆ ಎಂದು ತಿಳಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>ಇದನ್ನು ಈಗಾಗಲೇ ತಡೆಹಿಡಿಯಲಾಗಿದೆ.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>ನೀವು ಇದನ್ನು ತಡೆಹಿಡಿಯುವಂತಿಲ್ಲ (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>ತಡೆಯನ್ನು ಹಾಕಲಾಗಿಲ್ಲ (ಒಂದು ವರ್ಕ್‌ಫ್ಲೋ ಬದಲಾವಣೆಯನ್ನು ತಡೆಹಿಡಿದಿರಬಹುದು).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>ತಡೆಹಿಡಿಯಲಾಗಿದೆ.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>ಇದನ್ನು ತಡೆಹಿಡಿಯಲಾಗಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>ನೀವು ಇದನ್ನು ಬಿಡುಗಡೆ ಮಾಡುವಂತಿಲ್ಲ (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>ತಡೆಯನ್ನು ತೆಗೆಯಲಾಗಿಲ್ಲ (ಒಂದು ವರ್ಕ್‌ಫ್ಲೋ ಬದಲಾವಣೆಯನ್ನು ತಡೆಹಿಡಿದಿರಬಹುದು).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>ಬಿಡುಗಡೆ ಮಾಡಲಾಗಿದೆ; ಇನ್ನೂ ಅಡಗಿಸಲಾಗಿದೆ: ನೀವು ಇದನ್ನು ಬಹಿರಂಗಪಡಿಸುವಂತಿಲ್ಲ (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>ಬಿಡುಗಡೆ ಮಾಡಲಾಗಿದೆ.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>ಎಲ್ಲಾ ಗುರಿಗಳು</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>ಕೊನೆಯ ಪ್ರಕಟಣೆ</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>ನಿಮ್ಮ ಸೈಟ್‌ನ ಸ್ಥಿರ ಪ್ರತಿಯನ್ನು GitHub Pages ನಲ್ಲಿ ಉಚಿತವಾಗಿ ಪ್ರಕಟಿಸಿ:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>ಹಳೆಯದಾದ ಪುಟಗಳು</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>ಸ್ಥಿರ ಪ್ರಕಟಣೆ</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>ಸ್ಥಿರ ಪ್ರಕಟಣೆ ಆಫ್ ಆಗಿದೆ.</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>ಗುರಿ</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>ಗುರಿಗಳನ್ನು ಓದಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>ಒಂದು ಕಾರ್ಯ ನಡೆಯುತ್ತಿದೆ</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>ಪರಿಶೀಲಿಸಬೇಕಾದ ಬಿಲ್ಡ್</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>ಇದನ್ನು ಮರೆಮಾಡಿ</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>ಗುರಿಯನ್ನು ರಚಿಸಿ</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>ಎಂದಿಗೂ ಇಲ್ಲ</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>ಟ್ಯುಟೋರಿಯಲ್ ಓದಿ</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>%added ಸೇರಿಸಲಾಗಿದೆ, %changed ಬದಲಾಗಿದೆ, %removed ತೆಗೆದುಹಾಕಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%limit ರಲ್ಲಿ %bytes (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>ಇನ್ನೂ %count ಪಟ್ಟಿ ಮಾಡಲಾಗಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>%pages ಪುಟಗಳನ್ನು ಬರೆಯಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path ಗಾತ್ರ %size, ಹೋಸ್ಟ್ ಒಂದು ಫೈಲ್‌ಗೆ ಅನುಮತಿಸುವುದಕ್ಕಿಂತ ಹೆಚ್ಚು.</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>ಮಿತಿಯ %percent %</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds ಸೆ</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag ಸೈಟ್‌ನ ಈಗಿನ ಪ್ರಕಟಣೆ.</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: ಕಾರ್ಯ %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>GitHub ಪ್ರಾಜೆಕ್ಟ್ ಸೈಟ್‌ಗೆ /repository/; ಕಸ್ಟಮ್ ಡೊಮೇನ್ ಅಥವಾ ಬಳಕೆದಾರ ಸೈಟ್‌ಗೆ ಖಾಲಿ.</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. ಸೈಟ್</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. ಹೋಸ್ಟ್</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. ರೆಪೊಸಿಟರಿಗೆ ಸೈನ್ ಇನ್</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. ರೆಪೊಸಿಟರಿ</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. ಲಿಂಕ್‌ಗಳು ಮತ್ತು ಮೂಲ ಪಥ</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. ನಿಮ್ಮ ಸ್ವಂತ ಡೊಮೇನ್</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. ಬಿಲ್ಡ್‌ನಲ್ಲಿ ಏನಿದೆ</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. ಯಾವಾಗ ಪ್ರಕಟಿಸಲಾಗುತ್ತದೆ</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. ಪರಿಶೀಲಿಸಿ ಮತ್ತು ಉಳಿಸಿ</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>GitHub ಪ್ರಾಜೆಕ್ಟ್ ಸೈಟ್ /&lt;repository&gt;/ ಅಡಿಯಲ್ಲಿ ಇರುತ್ತದೆ; ಸಾಪೇಕ್ಷ ಲಿಂಕ್‌ಗಳು ಅಲ್ಲಿ ಮತ್ತು ಬೇರೆಲ್ಲೆಡೆ ಕೆಲಸ ಮಾಡುತ್ತವೆ.</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>ಬಿಲ್ಡ್ %site ನ ಪ್ರತಿ ಪುಟವನ್ನು ಸೈನ್ ಇನ್ ಮಾಡದ ಸಂದರ್ಶಕ ನೋಡುವಂತೆ ತರುತ್ತದೆ, ಲಿಂಕ್‌ಗಳನ್ನು ಪುನಃ ಬರೆಯುತ್ತದೆ, ಫೈಲ್‌ಗಳನ್ನು ನಕಲಿಸುತ್ತದೆ ಮತ್ತು ಫಲಿತಾಂಶವನ್ನು ಗುರಿಯ ಫೋಲ್ಡರ್‌ಗೆ ಬರೆಯುತ್ತದೆ. ನೀವು ಬಿಲ್ಡ್ ಪರಿಶೀಲಿಸಿ ಪ್ರಕಟಿಸು ಒತ್ತುವವರೆಗೆ ಏನನ್ನೂ ಪ್ರಕಟಿಸಲಾಗುವುದಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>cron ಅಭಿವ್ಯಕ್ತಿ, ಉದಾಹರಣೆಗೆ 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>ಡಿಪ್ಲಾಯ್ ಕೀಯನ್ನು ರಹಸ್ಯ %secret ಆಗಿ ಇರಿಸಲಾಗಿದೆ.</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>ಡಿಪ್ಲಾಯ್ ಕೀ ಈ ಸ್ಥಾಪನೆಗೆ SSH ಮೂಲಕ ಒಂದೇ ರೆಪೊಸಿಟರಿಗೆ ಪುಷ್ ಮಾಡಲು ಅವಕಾಶ ನೀಡುತ್ತದೆ, ಬೇರೆಲ್ಲಿಗೂ ಅಲ್ಲ. ಅದರ ಖಾಸಗಿ ಭಾಗ ಸೆಟಪ್ &gt; ರಹಸ್ಯಗಳು ನಲ್ಲಿ ಉಳಿಯುತ್ತದೆ; ಸಾರ್ವಜನಿಕ ಭಾಗ ಮಾತ್ರ ತೋರಿಸಲಾಗುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>ಈ ಗುರಿಗಾಗಿ ರಚಿಸಿದ ಡಿಪ್ಲಾಯ್ ಕೀ</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>ಡಿಪ್ಲಾಯ್ ಕೀ SSH ಮೂಲಕ ಸೈನ್ ಇನ್ ಮಾಡುತ್ತದೆ: git ವಿಳಾಸವನ್ನು SSH ವಿಳಾಸಕ್ಕೆ ಬದಲಾಯಿಸಿ (git@github.com:owner/repo.git).</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>%user ಪ್ರಾರಂಭಿಸಿದ ಒಂದು ಕಾರ್ಯ ನಡೆಯುತ್ತಿದೆ</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>ಈ ಗುರಿಯ ಒಂದು ಕಾರ್ಯ ಇನ್ನೂ ನಡೆಯುತ್ತಿದೆ (%detail). ಅದು ಮುಗಿಯುವವರೆಗೆ ಕಾಯಿರಿ.</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>ಈ ಗುರಿಯ ಒಂದು ಕಾರ್ಯ ಇನ್ನೂ ನಡೆಯುತ್ತಿದೆ. ಅದು ಮುಗಿಯುವವರೆಗೆ ಕಾಯಿರಿ.</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>/news/ ಪುಟದಿಂದ /about-us/team ಪುಟಕ್ಕೆ ಇರುವ ಲಿಂಕ್ ಹೀಗೆ ಬರೆಯಲ್ಪಡುತ್ತದೆ</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>ಹೊಸ ಡಿಪ್ಲಾಯ್ ಕೀ ರಚಿಸಲಾಗಿದೆ. ಅದರ ಸಾರ್ವಜನಿಕ ಭಾಗವನ್ನು ಈಗಲೇ ರೆಪೊಸಿಟರಿಗೆ ಸೇರಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>ಸ್ವಚ್ಛಗೊಳಿಸಿದ ನಂತರವೂ ಡೀಬಗ್ ಔಟ್‌ಪುಟ್, ಫಾರ್ಮ್ ಟೋಕನ್ ಅಥವಾ ಸೆಷನ್ ಐಡಿ ಹೊಂದಿರುವ ಪುಟವನ್ನು ಎಂದಿಗೂ ಪ್ರಕಟಿಸಲಾಗುವುದಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>ರೋಲ್‌ಬ್ಯಾಕ್ ಪರಿಣತರಿಗೆ ಮಾತ್ರ: &quot;ಇದು ಏನನ್ನು ಬದಲಾಯಿಸುತ್ತದೆ ಎಂದು ನನಗೆ ತಿಳಿದಿದೆ&quot; ಗುರುತು ಮಾಡಿ ಮತ್ತು ಟ್ಯಾಗ್‌ನ ಹೆಸರನ್ನು ಮತ್ತೆ ಟೈಪ್ ಮಾಡಿ.</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>ಸೈಟ್ %site ವರೆಗೆ, ಒಂದು ಫೈಲ್ %file ವರೆಗೆ ಇರಬಹುದು, ತಿಂಗಳಿಗೆ ಸುಮಾರು 100 GB ಟ್ರಾಫಿಕ್‌ನೊಂದಿಗೆ. ಉಚಿತ ಯೋಜನೆಯಲ್ಲಿ ರೆಪೊಸಿಟರಿ ಸಾರ್ವಜನಿಕವಾಗಿರಬೇಕು. GitHub Pages ಅಂಗಡಿಗಳಿಗೆ ಅಥವಾ ಇತರ ವಾಣಿಜ್ಯ ವಹಿವಾಟುಗಳಿಗೆ ಉದ್ದೇಶಿಸಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>ಗುರಿ ಎಂದರೆ ಒಂದು git ರೆಪೊಸಿಟರಿಗೆ ಪ್ರಕಟಿಸಲಾದ ಒಂದು ಸೈಟ್. ಇಲ್ಲಿ ಏನನ್ನೂ ಬಿಲ್ಡ್ ಅಥವಾ ಪ್ರಕಟಿಸಲಾಗುವುದಿಲ್ಲ: ಉಳಿಸು ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು settings/override/staticcache.ini.append.php ಗೆ ಬರೆಯುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>ಗುರಿ ಎಂದರೆ ಒಂದು ಸ್ಥಳಕ್ಕೆ ಪ್ರಕಟಿಸಲಾದ ಒಂದು ಸೈಟ್, ಉದಾಹರಣೆಗೆ GitHub Pages ನಲ್ಲಿರುವ ನಿಮ್ಮ ಸಾರ್ವಜನಿಕ ಸೈಟ್.</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>ಸೆಟಪ್ &gt; ರಹಸ್ಯಗಳು ನಿಂದ ಒಂದು ಟೋಕನ್</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>ರೆಪೊಸಿಟರಿಯ ಒಂದು ವರ್ಕ್‌ಫ್ಲೋ ಅದನ್ನು ಪ್ರಕಟಿಸುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>ಈ ಸಾರ್ವಜನಿಕ ಕೀಯನ್ನು ಬರೆಯುವ ಅನುಮತಿಯೊಂದಿಗೆ ರೆಪೊಸಿಟರಿಗೆ ಸೇರಿಸಿ. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, Allow write access ಗುರುತು ಮಾಡಿ.</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>ಸೇರಿಸಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>ಇನ್ನೊಂದು git ಹೋಸ್ಟ್</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>ಇನ್ನೊಂದು ಪ್ರಕ್ರಿಯೆ ಈ ಗುರಿಯ ಮೇಲೆ ಕೆಲಸ ಮಾಡುತ್ತಿದೆ: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>ಹಿಂದೆ</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>ಮೂಲ ಪಥ</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>ಮೊದಲು</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>ಮೂಲ ಪಥದ ಅಡಿಯಲ್ಲಿ</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>ಬ್ರಾಂಚ್</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>ಮುರಿದ ಲಿಂಕ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>ಬಿಲ್ಡ್‌ನಲ್ಲಿರುವ ಮುರಿದ ಲಿಂಕ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>ಬಿಲ್ಡ್</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>%user ಅವರಿಂದ ಬಿಲ್ಡ್ %id</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>%name ಬಿಲ್ಡ್ ಮಾಡು</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>ಈಗ ಬಿಲ್ಡ್ ಮಾಡು</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>ಪರಿಶೀಲಿಸಬೇಕಾದ ಬಿಲ್ಡ್</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>ಯಾರಿಂದ</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>ಕೈಯಾರೆ, ಇಲ್ಲಿ</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>ರದ್ದುಮಾಡು</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>ಬದಲಾಯಿಸು</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>ಬದಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>ಬದಲಾವಣೆಗಳು</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>ಮೊದಲು ಪರಿಶೀಲಿಸಿ</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>ಈ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಪರಿಶೀಲಿಸಿ</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>ಬಿಲ್ಡ್ ಏನನ್ನು ಬದಲಾಯಿಸುತ್ತದೆ ಎಂದು ಪರಿಶೀಲಿಸಿ, ಅದನ್ನು ನೋಡಿ, ನಂತರ ಪ್ರಕಟಿಸಿ ಅಥವಾ ತ್ಯಜಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>ಹಿಂದಿರುಗಬೇಕಾದ ಪ್ರಕಟಣೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ.</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>ಮುಂದಿನ ಬಿಡುಗಡೆಯಲ್ಲಿ ಬರುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>ಕಮಿಟ್</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>ಕಮಿಟ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>ಬಿಲ್ಡ್ ಅನ್ನು ಕಮಿಟ್ ಮಾಡಿ, ಟ್ಯಾಗ್ ಮಾಡಿ, %remote ಗೆ ಪುಷ್ ಮಾಡುತ್ತದೆ. ಪುಷ್ ಎಂದಿಗೂ ಬಲವಂತವಾಗಿರುವುದಿಲ್ಲ; ನಂತರ ಯಾವುದೇ ಪ್ರಕಟಣೆಗೆ ಹಿಂದಿರುಗಬಹುದು.</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>ಹಿಂದಿನ ಫೋಲ್ಡರ್‌ಗೆ ಹೋಲಿಸಿದರೆ: %added ಸೇರಿಸಲಾಗಿದೆ, %changed ಬದಲಾಗಿದೆ, %removed ತೆಗೆದುಹಾಕಲಾಗಿದೆ, %unchanged ಬದಲಾಗಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>ಕೊನೆಯ ಪ್ರಕಟಣೆಗೆ ಹೋಲಿಸಲಾಗಿದೆ.</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>ರುಜುವಾತು</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>ಕಸ್ಟಮ್ ಡೊಮೇನ್</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>ಡೀಬಗ್ ಔಟ್‌ಪುಟ್, ಫಾರ್ಮ್ ಟೋಕನ್‌ಗಳು, ಸೆಷನ್ ಐಡಿಗಳು ಮತ್ತು nonce ಗಳನ್ನು ಯಾವಾಗಲೂ ತೆಗೆದುಹಾಕಲಾಗುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>ಡಿಪ್ಲಾಯ್ ಕೀ</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>%name ನ ಡಿಪ್ಲಾಯ್ ಕೀ</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>ತ್ಯಜಿಸು</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>ಬಿಲ್ಡ್ ತ್ಯಜಿಸು</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>ಡೊಮೇನ್</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>ಖಾಲಿ: ಸೈಟ್‌ನ ವಿಳಾಸ. ಇಲ್ಲದಿದ್ದರೆ ಅದೇ ಸೈಟ್‌ನ ಆಂತರಿಕ ವಿಳಾಸ.</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>ಮುಗಿದಿದೆ</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>ಪ್ರತಿ ಲಿಂಕ್ ಮೂಲ ಪಥದಿಂದ ಆರಂಭವಾಗುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>ಪ್ರತಿ ಪ್ರಕಟಣೆಯೂ static/%id/&lt;n&gt; ಟ್ಯಾಗ್ ಇರುವ ಒಂದು ಕಮಿಟ್. ಹಿಂದಿರುಗುವುದು ಹಿಂದಿನ ಪ್ರಕಟಣೆಯ ಫೈಲ್‌ಗಳೊಂದಿಗೆ ಹೊಸ ಕಮಿಟ್ ರಚಿಸುತ್ತದೆ: ಇತಿಹಾಸ ಉಳಿಯುತ್ತದೆ, ಯಾವ ಟ್ಯಾಗ್ ಕೂಡ ಸರಿಯುವುದಿಲ್ಲ ಮತ್ತು ಏನನ್ನೂ ಬಲವಂತಪಡಿಸಲಾಗುವುದಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>ಹೆಚ್ಚುವರಿಗಳು</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>ಪುಟಗಳನ್ನು ಇಲ್ಲಿಂದ ತರು</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>ಫೈಲ್</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>ಫೈಲ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>ಕಾಣೆಯಾದ ಫೈಲ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>ಇದರ ಫೈಲ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>ಸಂಗ್ರಹಿಸಲಾಗದ ಫೈಲ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>ಫಿಂಗರ್‌ಪ್ರಿಂಟ್</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>ಫೋಲ್ಡರ್</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>SSH ವಿಳಾಸಕ್ಕಾಗಿ. ಉಳಿಸಿದ ನಂತರ ಕೀ ರಚಿಸಲಾಗುತ್ತದೆ; ಅದರ ಸಾರ್ವಜನಿಕ ಭಾಗವನ್ನು ನೀವು ರೆಪೊಸಿಟರಿಗೆ ಸೇರಿಸುತ್ತೀರಿ.</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>https:// ವಿಳಾಸಕ್ಕಾಗಿ. GitHub: ರೆಪೊಸಿಟರಿಯ ಮೇಲೆ Contents ಓದುವ ಮತ್ತು ಬರೆಯುವ ಅನುಮತಿ ಇರುವ fine-grained ಟೋಕನ್.</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>ಪರಿಣತರಿಗೆ. ಪುಷ್ ಮುಗಿದ ತಕ್ಷಣ ಸಾರ್ವಜನಿಕ ಸೈಟ್ ಬದಲಾಗುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>ಫಾರ್ಮ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>GitHub ರೆಪೊಸಿಟರಿಯಿಂದ ಉಚಿತ ಹೋಸ್ಟಿಂಗ್.</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>ಬ್ರಾಂಚ್‌ನಿಂದ</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>Git ವಿಳಾಸ</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages %site ಸೈಟ್ ಮತ್ತು %file ಫೈಲ್ ಅನ್ನು ಅನುಮತಿಸುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>GitHub Pages ಮಿತಿಗಳು</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages ಫೈಲ್‌ಗಳನ್ನು ಇದ್ದಂತೆಯೇ ಪ್ರಕಟಿಸುತ್ತದೆ (_ ನಿಂದ ಆರಂಭವಾಗುವ ಫೈಲ್‌ಗಳಿಗೆ ಅಗತ್ಯ).</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub ಬ್ರಾಂಚ್ ಅನ್ನು ಪುಷ್ ಮಾಡಿದಂತೆಯೇ ಒದಗಿಸುತ್ತದೆ. ಡೀಫಾಲ್ಟ್.</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, ನಿಮ್ಮ ಸ್ವಂತ ಸರ್ವರ್: ಯಾವುದೇ git ರೆಪೊಸಿಟರಿ.</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>ಹಿಂದಿನ ಪ್ರಕಟಣೆಗೆ ಹಿಂದಿರುಗು</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>ಸಹಾಯ</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>ವಿಝಾರ್ಡ್‌ಗೆ ಸಹಾಯ</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>ಅವುಗಳನ್ನು ಮರೆಮಾಡು</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>ಇತಿಹಾಸ</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>%name ನ ಇತಿಹಾಸ</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>ಹೋಸ್ಟ್</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>GitHub Pages ಬಿಲ್ಡ್ ಅನ್ನು ಹೇಗೆ ಪಡೆಯುತ್ತದೆ</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>ನಾನು ಬದಲಾವಣೆಗಳನ್ನು ಪರಿಶೀಲಿಸಿದ್ದೇನೆ</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>ಇದು ಏನನ್ನು ಬದಲಾಯಿಸುತ್ತದೆ ಎಂದು ನನಗೆ ತಿಳಿದಿದೆ</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ಐಡಿ</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>ಇದು ಆಫ್ ಆಗಿದೆ: ಆನ್ ಆಗುವವರೆಗೆ ಏನನ್ನೂ ಬಿಲ್ಡ್ ಮಾಡಲಾಗುವುದಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>ಇದು %user ಆಗಿ ಹಿನ್ನೆಲೆಯಲ್ಲಿ ನಡೆಯುತ್ತದೆ; ನೀವು ಈ ಪುಟವನ್ನು ಮುಚ್ಚಬಹುದು.</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>ಕಾರ್ಯ %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>ರಹಸ್ಯ %secret ಆಗಿ ಇರಿಸಲಾಗಿದೆ.</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>ಪ್ರಕಾರ</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>ಕೊನೆಯ ಪ್ರಕಟಣೆ</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>ಈ ಪುಟಗಳನ್ನು ಹೊರಗಿಡಿ</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>ಈ ವಿಭಾಗಗಳನ್ನು ಹೊರಗಿಡಿ</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>ಲಿಂಕ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>ಪುನಃ ಬರೆದ ಲಿಂಕ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>ಲೈವ್ ಸೈಟ್</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>ಬಿಲ್ಡ್ ನೋಡಿ</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>ಸಣ್ಣಕ್ಷರಗಳು, ಅಂಕಿಗಳು, _ ಮತ್ತು -, ಉದಾಹರಣೆಗೆ github-public. ಇದು ಫೋಲ್ಡರ್ ಮತ್ತು ಟ್ಯಾಗ್‌ಗಳಿಗೆ (static/&lt;id&gt;/&lt;n&gt;) ಹೆಸರು ನೀಡುತ್ತದೆ ಮತ್ತು ನಂತರ ಬದಲಾಯಿಸಲಾಗುವುದಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>ಹೊಸ ಕೀ ರಚಿಸು</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>ಗುರಿ ರಚಿಸು</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>ಕೀ ರಚಿಸು</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>ಮೊದಲು ಹೋಸ್ಟ್‌ನಲ್ಲಿ ರೆಪೊಸಿಟರಿ ರಚಿಸಿ; ಖಾಲಿಯಾದದ್ದು ಸಾಕು.</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>ಮ್ಯಾನಿಫೆಸ್ಟ್</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>ಸಂದೇಶ</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>ಹೆಚ್ಚಿನ ಪುಟಗಳು</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>ಹೆಸರು</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>ಸೆಟಪ್ &gt; ರಹಸ್ಯಗಳು ನಲ್ಲಿರುವ ಟೋಕನ್‌ನ ಹೆಸರು</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>ಹೊಸ ಗುರಿ</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>ಮುಂದೆ</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>ಇಲ್ಲ</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>ಇನ್ನೂ ಯಾವುದೇ ಕಮಿಟ್ ಇಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>ಯಾವುದೇ ಕೀ ರಚಿಸಲಾಗಿಲ್ಲ: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>php ಕಮಾಂಡ್ ಲೈನ್ ಬೈನರಿ ಕಂಡುಬಂದಿಲ್ಲ. migration.ini [AdminSettings] PhpCliPath ಅನ್ನು ಅದರ ಪೂರ್ಣ ಪಥಕ್ಕೆ ಹೊಂದಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>ಇನ್ನೂ ಯಾವುದೇ ಟ್ಯಾಗ್ ಇಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>ಇನ್ನೂ ಯಾವುದೇ ಗುರಿ ಇಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>ಯಾವುದೂ ಇಲ್ಲ</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>ಬಿಲ್ಡ್‌ನಲ್ಲಿ ಇಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>ಇನ್ನೂ ಏನನ್ನೂ ಪ್ರಕಟಿಸಲಾಗಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>ಇನ್ನೂ ಏನನ್ನೂ ಪ್ರಕಟಿಸಲಾಗಿಲ್ಲ: ಪ್ರತಿ ಫೈಲ್ ಹೊಸದು.</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>ಸೂಚಿಸು</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>ವೇಳಾಪಟ್ಟಿಯಂತೆ</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>ಕನ್ಸೋಲ್‌ನಲ್ಲಿ</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>ಸರ್ವರ್‌ನಲ್ಲಿ: ./console exp:static:serve %id ಇದನ್ನು ಅದೇ ರೀತಿಯಲ್ಲಿ ಒದಗಿಸುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>ಪ್ರತಿ ಸಾಲಿಗೆ ಒಂದು ಪಥ, * ಯಾವುದೇ ಭಾಗಕ್ಕೆ ಹೊಂದುತ್ತದೆ: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>ಗುರಿಯೊಂದಿಗೆ ಹೆಸರನ್ನು ಮಾತ್ರ ಸಂಗ್ರಹಿಸಲಾಗುತ್ತದೆ; ಟೋಕನ್ ಅಥವಾ ಕೀ ಸ್ವತಃ ಸೆಟಪ್ &gt; ರಹಸ್ಯಗಳು ನಲ್ಲಿ ಉಳಿಯುತ್ತದೆ ಮತ್ತು ಲಾಗ್‌ನಲ್ಲಿ ಎಂದಿಗೂ ಕಾಣಿಸುವುದಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>ಪುಟಗಳು ಹೆಸರಿಸುವುದು ಮಾತ್ರ</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>ಟೋಕನ್‌ನೊಂದಿಗೆ ಮಾತ್ರ. env:NAME ಬದಲಿಗೆ ಸರ್ವರ್‌ನ ಪರಿಸರ ವೇರಿಯಬಲ್ ಅನ್ನು ಓದುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>ಮುನ್ನೋಟ ತೆರೆಯಿರಿ</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>ಹೋಸ್ಟ್ ಒದಗಿಸುವಂತೆಯೇ ಬಿಲ್ಡ್ ಅನ್ನು ಗುರಿಯ ಫೋಲ್ಡರ್‌ನಿಂದ ತೆರೆಯುತ್ತದೆ. ಲಿಂಕ್ ನಿಮಗೆ ಒಂದು ಗಂಟೆ ಕೆಲಸ ಮಾಡುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>ಐಚ್ಛಿಕ. ಖಾಲಿ: ಪ್ರಕಟಿಸಿದ್ದು.</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>ಐಚ್ಛಿಕ. ಡೊಮೇನ್ ಇದ್ದರೆ ಸೈಟ್ ಅದರ ಮೂಲದಲ್ಲಿ ಒದಗಿಸಲಾಗುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>ಔಟ್‌ಪುಟ್</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>ಪುಟಗಳು</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>ಗುರಿಯ ಪುಟಗಳು</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>ನಿರಾಕರಿಸಿದ ಪುಟಗಳು</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>ನಂತರದ ಸಂಸ್ಕರಣೆ</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>ಮುನ್ನೋಟ</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>ಮುನ್ನೋಟ ಮತ್ತು ಪ್ರಕಟಣೆ</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>%name ಮುನ್ನೋಟ ಮತ್ತು ಪ್ರಕಟಣೆ</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>ಬಿಲ್ಡ್‌ನ ಮುನ್ನೋಟ</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>ಪ್ರಗತಿ</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>ಸಾರ್ವಜನಿಕ ವಿಳಾಸ</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>ಸಾರ್ವಜನಿಕ ಕೀ</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>ಪ್ರಕಟಿಸು</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>ಸೈಟ್‌ನ ಸ್ಥಿರ ಪ್ರತಿಯನ್ನು GitHub Pages ಅಥವಾ ಯಾವುದೇ git ಹೋಸ್ಟ್‌ಗೆ ಪ್ರಕಟಿಸಿ: ಬಿಲ್ಡ್ ಮಾಡಿ, ಬದಲಾವಣೆಗಳನ್ನು ಪರಿಶೀಲಿಸಿ, ಪ್ರಕಟಿಸಿ, ಮತ್ತು ಬೇಕಾದಾಗ ಹಿಂದಿನ ಪ್ರಕಟಣೆಗೆ ಹಿಂದಿರುಗಿ.</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>ಹಿಂದಿರುಗಬೇಕಾದ ಪ್ರಕಟಣೆ</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>ಪ್ರಕಟಣೆಗಳು</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>ಪುಷ್</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>ಟ್ಯುಟೋರಿಯಲ್ ಓದಿ</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>ದಾಖಲೆ</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>ನಿರಾಕರಿಸಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>ಸಾಪೇಕ್ಷ</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>ಮರುಲೋಡ್ ಮಾಡು</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>ತೆಗೆದುಹಾಕಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>ಕೀ ಬದಲಾಯಿಸು: ಹಳೆಯದು ಕೆಲಸ ಮಾಡುವುದನ್ನು ನಿಲ್ಲಿಸುತ್ತದೆ</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>ವರದಿ</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>ಬಿಲ್ಡ್‌ನ ವರದಿ</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>ರೆಪೊಸಿಟರಿ</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>ಪರಿಶೀಲನೆ</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>ಪರಿಶೀಲನೆ ಪ್ರತಿ ಸೆಟ್ಟಿಂಗ್ ಅನ್ನು ಪರೀಕ್ಷಿಸಿ ಬರೆಯಲಾಗುವ ಸಾಲುಗಳನ್ನು ತೋರಿಸುತ್ತದೆ. ಇನ್ನೂ ಏನನ್ನೂ ಉಳಿಸಲಾಗಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>ರೋಲ್‌ಬ್ಯಾಕ್ ಮಾಡು</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>ರೋಲ್‌ಬ್ಯಾಕ್</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>ಉಳಿಸು</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>ವೇಳಾಪಟ್ಟಿ</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>ಹುಡುಕಾಟ ಪುಟ</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>ವಿಭಾಗ ಐಡಿಗಳು, ಅಲ್ಪವಿರಾಮದಿಂದ ಬೇರ್ಪಡಿಸಲಾಗಿದೆ.</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>ಅವುಗಳನ್ನು ಲೈವ್ ಸೈಟ್‌ಗೆ ಕಳುಹಿಸು</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>ಸೆಟ್ಟಿಂಗ್</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>ಸೆಟ್ಟಿಂಗ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>%name ನ ಸೆಟ್ಟಿಂಗ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>ಸೆಟಪ್</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>ಸೆಟಪ್ &gt; ರಹಸ್ಯಗಳು</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>ಪಟ್ಟಿಗಳಲ್ಲಿ ತೋರಿಸಲಾಗುತ್ತದೆ, ಉದಾಹರಣೆಗೆ &quot;GitHub Pages ನಲ್ಲಿ ಸಾರ್ವಜನಿಕ ಸೈಟ್&quot;.</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>GitHub App ಮೂಲಕ ಸೈನ್ ಇನ್ GitHub ಏಕೀಕರಣದೊಂದಿಗೆ ಬರುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>ಸೈಟ್</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>ಪ್ರಕಟಿಸಬೇಕಾದ ಸೈಟ್</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>ಗಾತ್ರ</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>ಗಾತ್ರ ಮತ್ತು ಮಿತಿಗಳು</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>ಬಿಲ್ಡ್‌ನ ಗಾತ್ರ</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>ಹಳೆಯದಾದ ಪುಟಗಳು</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>ಪ್ರಾರಂಭವಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>%user ಅವರು %time ಕ್ಕೆ ಪ್ರಾರಂಭಿಸಿದರು.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>ಸ್ಥಿತಿ</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>ಸ್ಥಿರ ಪ್ರಕಟಣೆ</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>ಸ್ಥಿರ ಪ್ರಕಟಣೆ ಆಫ್ ಆಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>ಸ್ಥಿರ ಪ್ರಕಟಣೆ ಆಫ್ ಆಗಿದೆ.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>ಸ್ಥಿರ ಪ್ರಕಟಣೆ ಆಫ್ ಆಗಿದೆ. ಮೊದಲು ಸೆಟಪ್ &gt; ಸ್ಥಿರ ಪ್ರಕಟಣೆ ನಲ್ಲಿ ಅದನ್ನು ಆನ್ ಮಾಡಿ.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>ಸ್ಥಿರ ಪ್ರಕಟಣೆ ಆನ್ ಆಗಿದೆ.</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>ಹಂತ %step / %total</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>ಹಂತಗಳು</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>ಸ್ವಚ್ಛಗೊಳಿಸುವಿಕೆ</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>ಆಫ್ ಮಾಡು</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>ಆನ್ ಮಾಡು</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>ಸ್ಥಿರ ಪ್ರಕಟಣೆಯನ್ನು ಆನ್ ಮಾಡು</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>ಟ್ಯಾಗ್</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>ಟ್ಯಾಗ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>ಗುರಿ</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>ಗುರಿಗಳನ್ನು ರಚಿಸಬಹುದು ಮತ್ತು ಬದಲಾಯಿಸಬಹುದು, ಆದರೆ ಅದು ಆನ್ ಆಗುವವರೆಗೆ ಏನನ್ನೂ ಬಿಲ್ಡ್ ಅಥವಾ ಪ್ರಕಟಿಸಲಾಗುವುದಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>ಸರ್ಚ್ ಎಂಜಿನ್‌ಗಳಿಗೆ ಏನನ್ನು ಓದಬೇಕು ಎಂದು ತಿಳಿಸುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>ಬಿಲ್ಡ್ ಅನ್ನು ತ್ಯಜಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>ಬಿಲ್ಡ್ ಕೊನೆಯ ಪ್ರಕಟಣೆಯಂತೆಯೇ ಇದೆ: ಪ್ರಕಟಿಸಲು ಏನೂ ಇಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>ಬಿಲ್ಡ್ ತ್ಯಜಿಸಲಾಗಿದೆ: ಫೋಲ್ಡರ್ ಮತ್ತೆ ಕೊನೆಯ ಪ್ರಕಟಣೆಯನ್ನು ಹೊಂದಿದೆ.</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>ಡೀಫಾಲ್ಟ್‌ಗಳು ಹೆಚ್ಚಿನ ಸೈಟ್‌ಗಳಿಗೆ ಸೂಕ್ತ.</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>ಫೋಲ್ಡರ್‌ನಲ್ಲಿ ಇನ್ನೂ ಪ್ರಕಟಿಸದ ಬಿಲ್ಡ್ ಇದೆ; ಹೊಸ ಬಿಲ್ಡ್ ಅದನ್ನು ಬದಲಾಯಿಸುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>ಕಾರ್ಯಗಳ ಫೋಲ್ಡರ್‌ಗೆ ಬರೆಯಲು ಸಾಧ್ಯವಿಲ್ಲ: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>ಕಾರ್ಯವನ್ನು ಸಿದ್ಧಪಡಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>ಕಾರ್ಯವನ್ನು ಪ್ರಾರಂಭಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>ಕಾರ್ಯ ಮುಗಿದಿದೆ. ಅದರ ವರದಿಯನ್ನು ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ.</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>ಕಾರ್ಯಕ್ಕೆ ಸೈನ್ ಇನ್ ಮಾಡಿದ ಬಳಕೆದಾರರು ಬೇಕು.</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>ಕಾರ್ಯ ಪ್ರಾರಂಭವಾಯಿತು ಆದರೆ ಅದರ ಪ್ರಕ್ರಿಯೆ ಐಡಿಯನ್ನು ವರದಿ ಮಾಡಲಿಲ್ಲ. %detail ಪರಿಶೀಲಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>ಕೀ</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>ಅತಿ ದೊಡ್ಡ ಫೈಲ್: %path, %size.</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>ಬರೆಯಲಾಗುವ ಸಾಲುಗಳು</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>ಸರ್ಚ್ ಎಂಜಿನ್‌ಗಳಿಗಾಗಿ ಪುಟಗಳ ಪಟ್ಟಿ; ಸಾರ್ವಜನಿಕ ವಿಳಾಸ ಬೇಕು.</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>ಸೈನ್ ಇನ್ ಮಾಡದ ಸಂದರ್ಶಕ ನೋಡುವಂತೆ ಪುಟಗಳನ್ನು ತರಲಾಗುತ್ತದೆ. ಆಡಳಿತ ಮತ್ತು ಸಂಪಾದನೆ ಸೈಟ್‌ಆಕ್ಸೆಸ್‌ಗಳನ್ನು ಎಂದಿಗೂ ನೀಡಲಾಗುವುದಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>ಪ್ರಗತಿಯನ್ನು ಅನುಸರಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ. ಕಾರ್ಯ ಹೇಗೆ ನಡೆಯುತ್ತಿದೆ ಎಂದು ನೋಡಲು ಪುಟವನ್ನು ಮರುಲೋಡ್ ಮಾಡಿ.</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>ಕೀಯ ಸಾರ್ವಜನಿಕ ಭಾಗ:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>ಬ್ರಾಂಚ್‌ನ ಮೂಲ</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>ರಹಸ್ಯ ಸಂಗ್ರಹವನ್ನು ಇನ್ನೂ ಹೊಂದಿಸಲಾಗಿಲ್ಲ (./console exp:upgrade --apply ಅದರ ಟೇಬಲ್ ರಚಿಸುತ್ತದೆ), ಆದ್ದರಿಂದ ಯಾವುದೇ ಕೀಯನ್ನು ಇರಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>ಸರ್ವರ್ ಸ್ವತಃ ಸೈನ್ ಇನ್ ಮಾಡುತ್ತದೆ (ಅದರ ಸ್ವಂತ SSH ಕೀ ಅಥವಾ ರುಜುವಾತು ಸಹಾಯಕ), ಅಥವಾ ರೆಪೊಸಿಟರಿ ಈ ಸರ್ವರ್‌ನಲ್ಲಿದೆ.</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>ಸೆಟ್ಟಿಂಗ್ ಅನ್ನು ಬರೆಯಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>ಸೆಟ್ಟಿಂಗ್‌ಗಳು ಮಾನ್ಯವಾಗಿವೆ. ಈ ಸಾಲುಗಳನ್ನು ಬರೆಯಲಾಗುತ್ತದೆ:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>ಸೆಟ್ಟಿಂಗ್‌ಗಳ ಫೈಲ್ ಓದಲು ಸಾಧ್ಯವಿಲ್ಲ: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>ಸೈಟ್ ಆ ಪ್ರಕಟಣೆಯ ಫೈಲ್‌ಗಳಿಗೆ ಹಿಂದಿರುಗುತ್ತದೆ; ಇನ್ನೂ ಪ್ರಕಟಿಸದ ಬಿಲ್ಡ್ ಅನ್ನು ಮೊದಲು ಪ್ರಕಟಿಸಬೇಕು ಅಥವಾ ತ್ಯಜಿಸಬೇಕು.</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>ಅಸ್ತಿತ್ವದಲ್ಲಿಲ್ಲದ ವಿಳಾಸಗಳಿಗಾಗಿ ಸೈಟ್‌ನ ಸ್ವಂತ ಪುಟ.</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>ಗುರಿಯನ್ನು ಉಳಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>ಗುರಿ ಇನ್ನೂ ಈ ಕೀಯೊಂದಿಗೆ ಸೈನ್ ಇನ್ ಮಾಡುವುದಿಲ್ಲ: ಅದರ ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ &quot;ಈ ಗುರಿಗಾಗಿ ರಚಿಸಿದ ಡಿಪ್ಲಾಯ್ ಕೀ&quot; ಆಯ್ಕೆಮಾಡಿ.</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>ಗುರಿಗಳನ್ನು ಓದಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>ಪರಿಶೀಲಿಸಲು ಇನ್ನೂ ಯಾವುದೇ ಬಿಲ್ಡ್ ಇಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>ಈ ಸ್ಥಾಪನೆಯಲ್ಲಿ ಯಾವುದೇ ಫ್ರಂಟ್ ಸೈಟ್‌ಆಕ್ಸೆಸ್ ಇಲ್ಲ. ಆಡಳಿತ ಮತ್ತು ಸಂಪಾದನೆ ಸೈಟ್‌ಆಕ್ಸೆಸ್‌ಗಳನ್ನು ಎಂದಿಗೂ ಪ್ರಕಟಿಸಲಾಗುವುದಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>ಈ ಪುಟ ಕಾರ್ಯವನ್ನು ಅದು ನಡೆಯುತ್ತಿದ್ದಂತೆ ಅನುಸರಿಸುತ್ತದೆ; ಪುಟ ಮುಚ್ಚಿದಾಗ ಅದು ಹಿನ್ನೆಲೆಯಲ್ಲಿ ಮುಂದುವರಿಯುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>ಈ ಗುರಿಗೆ ಇನ್ನೂ ಡಿಪ್ಲಾಯ್ ಕೀ ಇಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>ಈ ಗುರಿಯನ್ನು ಇನ್ನೂ ಇಲ್ಲಿ ಬಿಲ್ಡ್ ಮಾಡಲಾಗಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>ಈ ಗುರಿಗೆ ಒಂದು ಇದೆ.</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>ಈ ಬಿಲ್ಡ್ ಅನ್ನು ತ್ಯಜಿಸುತ್ತದೆ: ಫೋಲ್ಡರ್ ಮತ್ತೆ ಕೊನೆಯ ಪ್ರಕಟಣೆಯನ್ನು ಹೊಂದುತ್ತದೆ. ಲೈವ್ ಸೈಟ್ ಬದಲಾಗುವುದಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>ಮೊದಲು &quot;ನಾನು ಬದಲಾವಣೆಗಳನ್ನು ಪರಿಶೀಲಿಸಿದ್ದೇನೆ&quot; ಗುರುತು ಮಾಡಿ.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>ಸಮಯ</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>ಪ್ರಚೋದಕಗಳು</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>ಟ್ಯಾಗ್‌ನ ಹೆಸರನ್ನು ಮತ್ತೆ ಟೈಪ್ ಮಾಡಿ</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>ಬದಲಾಗಿಲ್ಲ</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>ವೆಬ್‌ಹುಕ್</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>ಏನು</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>ಏನು ಬದಲಾಗುತ್ತದೆ</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>ಪ್ರತಿ ಫೈಲ್ ಏನು; ಯಾವಾಗಲೂ ಬರೆಯಲಾಗುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>ಕಾರ್ಯ ಏನು ಮಾಡಿತು ಮತ್ತು ಅದರ ದಾಖಲೆ. ಇಲ್ಲಿ ಪ್ರಾರಂಭಿಸಿದ ಕಾರ್ಯ ಈ ಪುಟ ಮುಚ್ಚಿದಾಗ ಹಿನ್ನೆಲೆಯಲ್ಲಿ ಮುಂದುವರಿಯುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>ಕಾರ್ಯ ದೋಷಗಳಾಗಿ ಮುದ್ರಿಸಿದ್ದು</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>ಪುಟಗಳು ಹೆಸರಿಸುವುದು, ಮತ್ತು ಪ್ರಕಟಿತ ವಿಷಯದ ಪ್ರತಿ ಚಿತ್ರ</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>ಯಾವಾಗ</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>ಪ್ರಕಟಣೆ ವಿಫಲವಾದಾಗ</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>ಪ್ರಕಟಣೆ ಯಶಸ್ವಿಯಾದಾಗ</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>ವಿಷಯ ಪ್ರಕಟವಾದಾಗ</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>ಪ್ರತಿಯಲ್ಲಿ ಇಲ್ಲದವುಗಳಿಗೆ (ಹುಡುಕಾಟ, ಲಾಗಿನ್) ಇರುವ ಲಿಂಕ್‌ಗಳು ಎಲ್ಲಿಗೆ ಹೋಗುತ್ತವೆ.</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>ಸ್ಥಿರ ಪ್ರತಿಯನ್ನು ಎಲ್ಲಿಂದ ಒದಗಿಸಲಾಗುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>ಯಾವ ಸೈಟ್ ಪ್ರಕಟವಾಗುತ್ತದೆ, ಮತ್ತು ಗುರಿಯ ಹೆಸರೇನು.</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>ಯಾವುದೇ ಪಥದ ಅಡಿಯಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತದೆ. ಡೀಫಾಲ್ಟ್.</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>ಕಸ್ಟಮ್ ಡೊಮೇನ್ ಹೊಂದಿಸಿದಾಗಲೆಲ್ಲಾ ಬರೆಯಲಾಗುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>ಹೌದು</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>ನೀವು ಇಲ್ಲಿ ಮತ್ತು ಕನ್ಸೋಲ್‌ನಲ್ಲಿ ಯಾವಾಗಲೂ ಕೈಯಾರೆ ಬಿಲ್ಡ್ ಮಾಡಬಹುದು ಮತ್ತು ಪ್ರಕಟಿಸಬಹುದು.</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>ಹೆಸರು ಮಾತ್ರ; ಮೌಲ್ಯ ಸೆಟಪ್ &gt; ರಹಸ್ಯಗಳು ನಲ್ಲಿ ಉಳಿಯುತ್ತದೆ</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>%path ಅಡಿಯಲ್ಲಿ</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>ವರದಿಯಿಲ್ಲದೆ ಮುಗಿಯಿತು</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>ಹೆಚ್ಚುವರಿ</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>ವಿಫಲವಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>ಫೈಲ್</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages, ಅಥವಾ docs ಫೋಲ್ಡರ್‌ನೊಂದಿಗೆ main.</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>git ಹೋಸ್ಟ್</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (ಟೋಕನ್‌ನೊಂದಿಗೆ) ಅಥವಾ git@github.com:owner/repo.git (ಡಿಪ್ಲಾಯ್ ಕೀಯೊಂದಿಗೆ); ಇದರಲ್ಲಿ ಎಂದಿಗೂ ಪಾಸ್‌ವರ್ಡ್ ಅಥವಾ ಟೋಕನ್ ಬೇಡ.</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/, ಸೈಟ್‌ಮ್ಯಾಪ್ ಮತ್ತು ಕ್ಯಾನೊನಿಕಲ್ ಲಿಂಕ್‌ಗಳಿಗಾಗಿ.</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>ಚಿತ್ರ</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>ಎಂದಿಗೂ ಇಲ್ಲ</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ಇಲ್ಲ</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>ರಿಮೋಟ್ ಇಲ್ಲ</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>ಯಾವುದೂ ಇಲ್ಲ: ಕಮಿಟ್‌ಗಳು ಫೋಲ್ಡರ್‌ನಲ್ಲೇ ಉಳಿಯುತ್ತವೆ</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>ಯಾವುದೂ ಇಲ್ಲ: ಏನೂ ಬದಲಾಗಿಲ್ಲ</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>ಪುಷ್ ಮಾಡಿಲ್ಲ</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>ಏನೂ ಬದಲಾಗಿಲ್ಲ</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>ಪುಟ</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>ಯಶಸ್ವಿ</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>proc_open ನಿಷ್ಕ್ರಿಯವಾಗಿದೆ, ಆದ್ದರಿಂದ ಇಲ್ಲಿ ಕಾರ್ಯವನ್ನು ಪ್ರಾರಂಭಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ. ಸರ್ವರ್‌ನಲ್ಲಿ ./console exp:static:build ಬಳಸಿ.</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>ಪ್ರಕಟಣೆ</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>ಪ್ರಕಟಿಸಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>ಪುಷ್ ಬಾಕಿ ಇದೆ</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>ಪುಷ್ ಮಾಡಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>ನಿರಾಕರಿಸಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>ಸಾಪೇಕ್ಷ</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>ರೋಲ್‌ಬ್ಯಾಕ್</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>ರೋಲ್‌ಬ್ಯಾಕ್ ಮಾಡಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>ನಡೆಯುತ್ತಿದೆ</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>ಫೋಲ್ಡರ್ ಮಾತ್ರ</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: CNAME ಫೈಲ್‌ಗೆ ಬರೆಯಲಾಗುತ್ತದೆ. ಹೋಸ್ಟ್ ವಿವರಿಸಿದಂತೆ ಡೊಮೇನ್‌ನ DNS ಅನ್ನು ಹೋಸ್ಟ್‌ನತ್ತ ತೋರಿಸಿ; HTTPS ಪ್ರಾರಂಭವಾಗಲು ಸ್ವಲ್ಪ ಸಮಯ ಹಿಡಿಯಬಹುದು.</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>ಹೌದು, ಇನ್ನೂ ಪ್ರಕಟಿಸಿಲ್ಲ</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>ಒಂದು GitHub App</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>ರೆಪೊಸಿಟರಿಯ ಒಂದು ವರ್ಕ್‌ಫ್ಲೋ ಅದನ್ನು ಪ್ರಕಟಿಸುತ್ತದೆ. ಬಿಲ್ಡ್ ವರ್ಕ್‌ಫ್ಲೋ ಫೈಲ್ ಅನ್ನು ಬರೆಯುತ್ತದೆ; ಫೋಲ್ಡರ್ ಖಾಲಿ ಬಿಡಿ.</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>GitHub ರೆಪೊಸಿಟರಿ ಮತ್ತು ಟೋಕನ್ ಅಥವಾ GitHub App ಜೊತೆಗೆ ಗುರಿಯನ್ನು ಉಳಿಸಿದ ನಂತರ, ಈ ಹಂತವು ರೆಪೊಸಿಟರಿಯನ್ನು ರಚಿಸಿ GitHub Pages ಅನ್ನು ಆನ್ ಮಾಡಬಹುದು. ಇಲ್ಲದಿದ್ದರೆ ಮೊದಲು GitHub ನಲ್ಲಿ ರೆಪೊಸಿಟರಿ ರಚಿಸಿ; ಖಾಲಿ ರೆಪೊಸಿಟರಿ ಸಾಕು.</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>ಬ್ರಾಂಚ್ ಅಥವಾ GitHub Actions?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>DNS ಪರಿಶೀಲಿಸಿ</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>ರೆಪೊಸಿಟರಿ ಇಲ್ಲದಿದ್ದರೆ ರಚಿಸಿ</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>GitHub ನಲ್ಲಿ ರೆಪೊಸಿಟರಿ ರಚಿಸಿ ಮತ್ತು ಅದರ ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ GitHub Pages ಆನ್ ಮಾಡಿ (Settings &gt; Pages).</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>ರೆಪೊಸಿಟರಿ %repo ಇಲ್ಲದಿದ್ದಾಗ ಅದನ್ನು ರಚಿಸುತ್ತದೆ (ಕೇಳಿದರೆ), ಉಳಿಸಿದಂತೆ ಬ್ರಾಂಚ್‌ನಿಂದ ಅಥವಾ GitHub Actions ನಿಂದ GitHub Pages ಆನ್ ಮಾಡುತ್ತದೆ, ಮತ್ತು ಕಸ್ಟಮ್ ಡೊಮೇನ್ ಹಾಗೂ HTTPS ಹೊಂದಿಸುತ್ತದೆ. ಇದು ಉಳಿಸಿದ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಬಳಸುತ್ತದೆ: ಮೊದಲು ಬದಲಾವಣೆಗಳನ್ನು ಉಳಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>GitHub ನಲ್ಲಿ ವಿವರಗಳು</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>ಮೊದಲು ಕಸ್ಟಮ್ ಡೊಮೇನ್ ನಮೂದಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>ಪ್ರತಿ push ಅನ್ನು ಮೊದಲು ಈ ಮಿತಿಗಳ ವಿರುದ್ಧ ಪರಿಶೀಲಿಸಲಾಗುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>GitHub ನಲ್ಲಿನ https:// ವಿಳಾಸಕ್ಕಾಗಿ. ಈ ಸ್ಥಾಪನೆಗಾಗಿ ಹೊಂದಿಸಲಾದ App ಸೈನ್ ಇನ್ ಮಾಡುತ್ತದೆ; ಅದಕ್ಕೆ ಸ್ಥಾಪನೆಯ id ಬೇಕು.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages ಖಾಸಗಿ ರೆಪೊಸಿಟರಿಯನ್ನು ಪಾವತಿಸಿದ ಯೋಜನೆಯಲ್ಲಿ ಮಾತ್ರ ಒದಗಿಸುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: ಉಪಡೊಮೇನ್‌ಗೆ (www.example.com) &lt;owner&gt;.github.io ಗೆ CNAME ದಾಖಲೆ ಬೇಕು; ಮೂಲ ಡೊಮೇನ್‌ಗೆ (example.com) A ದಾಖಲೆಗಳು %ips.</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>GitHub App ನ ಸ್ಥಾಪನೆ id</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>ಕೊನೆಯ Pages ಬಿಲ್ಡ್</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>ಮಿತಿಗಳು ಮತ್ತು ನಿಯಮಗಳು</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>ಉಚಿತ ಯೋಜನೆಯಲ್ಲಿ GitHub Pages ಗೆ ಅಗತ್ಯ.</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>GitHub ನಲ್ಲಿ</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>GitHub App ಜೊತೆ ಮಾತ್ರ: GitHub ನಲ್ಲಿ App ನ ಸ್ಥಾಪನೆಯ ವಿಳಾಸದ ಕೊನೆಯಲ್ಲಿರುವ ಸಂಖ್ಯೆ. App ಅನ್ನು staticcache.ini ನಲ್ಲಿ ಹೊಂದಿಸಲಾಗುತ್ತದೆ (GitHubAppId, GitHubAppKey).</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>ಖಾಸಗಿ</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>ಸಾರ್ವಜನಿಕ</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>ಮೊದಲು GitHub ರೆಪೊಸಿಟರಿ ಮತ್ತು ಟೋಕನ್ ಅಥವಾ GitHub App ಜೊತೆಗೆ ಗುರಿಯನ್ನು ಉಳಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>ಡೊಮೇನ್ ಒದಗಿಸುವವರಲ್ಲಿ ಈ ದಾಖಲೆಗಳನ್ನು ಹೊಂದಿಸಿ:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>GitHub ನಲ್ಲಿ ಹೊಂದಿಸಿ</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>%domain ನ DNS ಇನ್ನೂ GitHub Pages ಕಡೆಗೆ ಸೂಚಿಸುವುದಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>%domain ನ DNS GitHub Pages ಕಡೆಗೆ ಸೂಚಿಸುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>GitHub ಏಕೀಕರಣ ಇಲ್ಲಿ ಲಭ್ಯವಿಲ್ಲ: %problem. ಬ್ರಾಂಚ್‌ಗೆ ಪ್ರಕಟಿಸುವುದು ಹಾಗೆಯೇ ಕೆಲಸ ಮಾಡುತ್ತದೆ; ರೆಪೊಸಿಟರಿಯ ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ GitHub Pages ಆನ್ ಮಾಡಿ.</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>ಈ ಗುರಿಗೆ GitHub ಹಂತಗಳು ಲಭ್ಯವಿಲ್ಲ: %problem.</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>ರುಜುವಾತಾಗಿ ಟೋಕನ್ ಅಥವಾ GitHub App ಇದ್ದಾಗ GitHub Pages ನ ಸ್ಥಿತಿ ತೋರಿಸಲಾಗುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>ನಿಮ್ಮ ಸ್ವಂತ ಡೊಮೇನ್ ಬಳಸಿ</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>ಯಾವುದನ್ನು ಆರಿಸಬೇಕು: ಟೋಕನ್, ಡಿಪ್ಲಾಯ್ ಕೀ ಅಥವಾ GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>GitHub ರೆಪೊಸಿಟರಿ ಮತ್ತು ಟೋಕನ್ ಅಥವಾ GitHub App ಇದ್ದರೆ, ವಿಝಾರ್ಡ್ ನಿಮಗಾಗಿ ರೆಪೊಸಿಟರಿ ರಚಿಸಬಹುದು, GitHub Pages ಆನ್ ಮಾಡಬಹುದು ಮತ್ತು ಡೊಮೇನ್ ಹೊಂದಿಸಬಹುದು (ಹಂತ 4).</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>ಬಿಲ್ಡ್ ಆಗುತ್ತಿದೆ</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>ಬಿಲ್ಡ್ ಆಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>GitHub Actions ನಿಂದ</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>ಬ್ರಾಂಚ್ %branch ನಿಂದ</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>ಇನ್ನೂ ಇಲ್ಲ</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>ಕಂಡುಬಂದಿಲ್ಲ</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>ಆಫ್</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>ಖಾಸಗಿ</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>ಸಾರ್ವಜನಿಕ</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>ಸರದಿಯಲ್ಲಿದೆ</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>ಅಜ್ಞಾತ</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%pages ಪುಟಗಳಲ್ಲಿ %count:</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>ಪ್ರತಿ ಪಠ್ಯ ಫೈಲ್‌ನ ಪಕ್ಕದಲ್ಲಿ .gz (ಮತ್ತು .br), ಅವುಗಳನ್ನು ಒದಗಿಸುವ ಹೋಸ್ಟ್‌ಗಳಿಗಾಗಿ.</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>ಪುಟದ ಪ್ರತಿ ಹಳೆಯ ವಿಳಾಸ ಮತ್ತು ಅಲಿಯಾಸ್‌ಗೆ ಒಂದು ಸಣ್ಣ ಪುಟ, ಹಳೆಯ ಲಿಂಕ್‌ಗಳು ಕೆಲಸ ಮಾಡುತ್ತಿರಲು.</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>GitHub Actions ಸೈಟ್ ಅನ್ನು ತಲುಪಿಸಿದಾಗ ಯಾವಾಗಲೂ ಬರೆಯಲಾಗುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>CC-BY-4.0 ನಂತಹ SPDX id, ಅಥವಾ ಪಠ್ಯವೇ.</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>ಬುಟ್ಟಿ</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>ಸರ್ವರ್‌ಗೆ ಕರೆಗಳು</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>ಕಾಮೆಂಟ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>ಮಾಹಿತಿ ಸಂಗ್ರಹಿಸುವ ಫಾರ್ಮ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>GitHub Actions workflow</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>ಪುಟಗಳಲ್ಲಿ ಕಡಿಮೆ ಖಾಲಿ ಜಾಗ ಮತ್ತು ಕಾಮೆಂಟ್‌ಗಳಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>ವಿಷಯದ ಪರವಾನಗಿ</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>ಲಾಗಿನ್</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>ಚಿಕ್ಕದಾಗಿಸು</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>ಇತರ ಫಾರ್ಮ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>ಮುಂಚಿತ-ಸಂಕುಚನ</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>ಮರುನಿರ್ದೇಶನ ಪುಟಗಳು</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>ಮರುನಿರ್ದೇಶನ ಪುಟಗಳು: %count.</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>ಹುಡುಕು</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>ಹುಡುಕಾಟ ಸೂಚ್ಯಂಕ: %languages ನಲ್ಲಿ %pages ಪುಟಗಳು.</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>ವಿಷಯದ ಹ್ಯಾಶ್‌ನಿಂದ ಹೆಸರಿಸಲಾದ ಶೈಲಿ ಹಾಳೆಗಳು ಮತ್ತು ಸ್ಕ್ರಿಪ್ಟ್‌ಗಳು, ಬ್ರೌಸರ್‌ಗಳು ಅವನ್ನು ಉಳಿಸಿಕೊಳ್ಳಬಹುದು.</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>ಬದಲಾದ ಪುಟಗಳು, ಕೊನೆಯ ಬದಲಾವಣೆಯ ಕೆಲವು ನಿಮಿಷಗಳ ನಂತರ (cronjob ಭಾಗ staticpublish).</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>ವಿಷಯದ ಪರವಾನಗಿ, ಕೆಳಗಿನ ಕ್ಷೇತ್ರದಿಂದ.</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>ಇಡೀ ಸೈಟ್, ವೇಳಾಪಟ್ಟಿಯ ಸಮಯಗಳಲ್ಲಿ (cronjob ಭಾಗ staticpublish).</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>ಪುಟಗಳ ಈ ಭಾಗಗಳಿಗೆ ಸರ್ವರ್ ಬೇಕು; ಪ್ರತಿಯೊಂದಕ್ಕೂ ಪರ್ಯಾಯ ನೀಡಲಾಗಿದೆ. ಪ್ರಕಟಿಸುವ ಮೊದಲು ಪರಿಶೀಲಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>ಸ್ಥಿರವಾಗಿ ಕೆಲಸ ಮಾಡದಿರುವುದು</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>ರೆಪೊಸಿಟರಿ ಎಂದರೇನು, ಹೋಸ್ಟ್‌ನಲ್ಲಿ ತೆರೆಯುವವರಿಗೆ.</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>ಬಿಟ್ಟುಬಿಡಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>ಪರ್ಯಾಯ ಪಠ್ಯ</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>ಲೈವ್ ಸೈಟ್‌ನ ಫಾರ್ಮ್ ಎಂಡ್‌ಪಾಯಿಂಟ್</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>ಲೈವ್ ಸೈಟ್</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>ಪ್ರತಿಯ ಹುಡುಕಾಟ ಪುಟ</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>ಫಾರ್ಮ್ ಕಳುಹಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>ಧನ್ಯವಾದ: ಫಾರ್ಮ್ ಕಳುಹಿಸಲಾಗಿದೆ.</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>ಫಾರ್ಮ್ ಸ್ವೀಕರಿಸಲಾಗಿಲ್ಲ: ನೀವು ನಮೂದಿಸಿದ್ದನ್ನು ಪರಿಶೀಲಿಸಿ ಮತ್ತು ಮತ್ತೆ ಕಳುಹಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>ನಕಲಿನಲ್ಲಿ ಇಲ್ಲದ ಪುಟಗಳ ಲಿಂಕ್‌ಗಳನ್ನು ತೆಗೆದುಹಾಕಿ</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>ಆಡಳಿತಕ್ಕೆ ಹೋಗುವ ಲಿಂಕ್‌ಗಳನ್ನು ತೆಗೆದುಹಾಕಿ</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>ಅವುಗಳ ಪಠ್ಯ ಉಳಿಯುತ್ತದೆ. ಚಿತ್ರಗಳು, ಫಾರ್ಮ್‌ಗಳು ಮತ್ತು ಇತರ ಸೈಟ್‌ಗಳ ಲಿಂಕ್‌ಗಳನ್ನು ಎಂದಿಗೂ ತೆಗೆದುಹಾಕಲಾಗುವುದಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>ಆವೃತ್ತಿ</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>ಪ್ರಕಟಿಸಬೇಕಾದ ಸೈಟ್‌ಆಕ್ಸೆಸ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>ಸೈಟ್‌ಆಕ್ಸೆಸ್</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>ಮೂಲದಲ್ಲಿ</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>ಮೂಲದಲ್ಲಿ ಯಾವುದೇ ಸೈಟ್‌ಆಕ್ಸೆಸ್ ಇಲ್ಲ: ಪ್ರತಿಯೊಂದೂ ತನ್ನ ಫೋಲ್ಡರ್‌ನಲ್ಲಿದೆ, ಮೂಲವು ಅವುಗಳಿಗೆ ಲಿಂಕ್ ನೀಡುತ್ತದೆ</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>ಸೈಟ್‌ಆಕ್ಸೆಸ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>ಒಂದು ಸೈಟ್‌ಆಕ್ಸೆಸ್ ಅಥವಾ ತಮ್ಮ URI ಪೂರ್ವಪ್ರತ್ಯಯದ ಮೂಲಕ ಒಂದೇ ಹೋಸ್ಟ್ ಹಂಚಿಕೊಳ್ಳುವ ಹಲವನ್ನು ಆಯ್ಕೆಮಾಡಿ. ಮೂಲದಲ್ಲಿರುವುದು ಅಲ್ಲೇ ಒದಗಿಸಲ್ಪಡುತ್ತದೆ, ಉಳಿದವು ತಮ್ಮ ಪೂರ್ವಪ್ರತ್ಯಯದ ಫೋಲ್ಡರ್‌ನಲ್ಲಿ (/ger/); ಅವುಗಳ ನಡುವಿನ ಲಿಂಕ್‌ಗಳು ಪ್ರತಿಯಲ್ಲೇ ಉಳಿಯುತ್ತವೆ. ಆಡಳಿತದ ಸೈಟ್‌ಆಕ್ಸೆಸ್‌ಗಳನ್ನು ಎಂದಿಗೂ ನೀಡಲಾಗುವುದಿಲ್ಲ.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>%site ನಲ್ಲಿ %target ನ ಸ್ಥಿರ ಪ್ರಕಟಣೆ ವಿಫಲವಾಯಿತು</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>%site ನಲ್ಲಿ %target ನ ಸ್ಥಿರ ಪ್ರಕಟಣೆ ಯಶಸ್ವಿಯಾಯಿತು</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>ಸ್ಥಿರ ಪ್ರಕಟಣೆಯ ಗುರಿ %target ಇದನ್ನು ಕೇಳುವುದರಿಂದ %site ಈ ಮೇಲ್ ಕಳುಹಿಸಿದೆ.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>%site ನಲ್ಲಿ ಡಿಪ್ಲಾಯ್ %deploy ವಿಫಲವಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>%site ನಲ್ಲಿ ಡಿಪ್ಲಾಯ್ %deploy ಒಂದು ಗೇಟ್‌ನಲ್ಲಿ ಕಾಯುತ್ತಿದೆ</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>%site ನಲ್ಲಿ ಡಿಪ್ಲಾಯ್ %deploy ಯಶಸ್ವಿಯಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>ಈ ಮೇಲ್ ಅನ್ನು %site ಕಳುಹಿಸಿದೆ, ಏಕೆಂದರೆ migration.ini [RemoteSettings] Notify[] ಅದನ್ನು ಕೇಳುತ್ತದೆ.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>ಡೇಟಾಟೈಪ್‌ಗಳು (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>%time ರಂದು ಎಣಿಸಲಾಗಿದೆ, %minutes ನಿಮಿಷಗಳ ನಂತರ ಮತ್ತೆ</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>ಡೇಟಾ ಪ್ರಕಾರವು ವರ್ಗದ ಗುಣಲಕ್ಷಣದ ಒಂದು ಬಗೆಯ ಮೌಲ್ಯವನ್ನು ಸಂಗ್ರಹಿಸುತ್ತದೆ ಮತ್ತು ಸಂಪಾದಿಸುತ್ತದೆ: ಪಠ್ಯದ ಸಾಲು, ಚಿತ್ರ, ಸಂಬಂಧ. ಅವುಗಳಲ್ಲಿ ಹೆಚ್ಚಿನವನ್ನು ಕರ್ನಲ್ ಒದಗಿಸುತ್ತದೆ, ವಿಸ್ತರಣೆಗಳು ಇನ್ನಷ್ಟು ಸೇರಿಸುತ್ತವೆ. ಇಲ್ಲಿ ಅವೆಲ್ಲವೂ, ಅವುಗಳನ್ನು ಯಾರು ಒದಗಿಸುತ್ತಾರೆ ಮತ್ತು ವಿಷಯದ ಎಷ್ಟು ಭಾಗ ಅವುಗಳನ್ನು ಬಳಸುತ್ತದೆ ಎಂಬುದು ಇದೆ. ಡೇಟಾಬೇಸ್ ಬಳಸುವ ಆದರೆ ಇನ್ನು ಯಾವುದೂ ನೋಂದಾಯಿಸದ ಡೇಟಾ ಪ್ರಕಾರವು ಅದನ್ನು ಹೊಂದಿರುವ ವಿಷಯವನ್ನು ಹಾಳುಮಾಡುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>ವರ್ಗ ಗುಂಪುಗಳು</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>ಕಳೆದ ನಿಮಿಷಗಳ ಎಣಿಕೆಗಳನ್ನು ಬಳಸುವ ಬದಲು ಈಗಲೇ ಮತ್ತೆ ಎಣಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>ಮತ್ತೆ ಎಣಿಸಿ</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>ಅವಲೋಕನ</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>ನೋಂದಾಯಿಸಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>ಬಳಕೆಯಲ್ಲಿದೆ</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>ಬಳಸಲಾಗಿಲ್ಲ</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>ಡೇಟಾಟೈಪ್‌ಗಳನ್ನು ಒದಗಿಸುವ ವಿಸ್ತರಣೆಗಳು</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>ವರ್ಗದ ಗುಣಲಕ್ಷಣಗಳು</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>ವಸ್ತು ಗುಣಲಕ್ಷಣಗಳು</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>ನೋಂದಾಯಿಸಿಲ್ಲ</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>ಪಟ್ಟಿಯಲ್ಲಿದೆ, ಫೈಲ್ ಇಲ್ಲ</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>%count ಡೇಟಾಟೈಪ್‌ಗಳು ಬಳಕೆಯಲ್ಲಿವೆ ಆದರೆ ನೋಂದಾಯಿಸಿಲ್ಲ</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>%class_attributes ವರ್ಗದ ಗುಣಲಕ್ಷಣಗಳು ಮತ್ತು %object_attributes ವಸ್ತುವಿನ ಗುಣಲಕ್ಷಣಗಳು ಯಾವುದೇ ವಿಸ್ತರಣೆ ಅಥವಾ ಸೆಟ್ಟಿಂಗ್ ನೋಂದಾಯಿಸದ ಡೇಟಾ ಪ್ರಕಾರವನ್ನು ಹೊಂದಿವೆ. ಅವುಗಳ ವಸ್ತುಗಳನ್ನು ತೋರಿಸಲು, ಸಂಪಾದಿಸಲು ಅಥವಾ ಪ್ರಕಟಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ. ಡೇಟಾ ಪ್ರಕಾರವನ್ನು ಒದಗಿಸುವ ವಿಸ್ತರಣೆಯನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ ಅಥವಾ ವರ್ಗವನ್ನು ಬದಲಾಯಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>ಇವುಗಳನ್ನು ಮಾತ್ರ ತೋರಿಸಿ</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>ಡೇಟಾ ಪ್ರಕಾರವನ್ನು ಹುಡುಕಿ</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>ಗುರುತು, ಹೆಸರು, PHP ವರ್ಗ ಅಥವಾ ವಿಸ್ತರಣೆ.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>ತೋರಿಸು</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>ಎಲ್ಲಾ</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>ಒದಗಿಸಿದವರು</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>ಎಲ್ಲರೂ</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>ಕರ್ನಲ್</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>ಈ ಫಿಲ್ಟರ್‌ಗೆ ಹೊಂದುವ ಡೇಟಾ ಪ್ರಕಾರ ಇಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>ಎಲ್ಲಾ ತೋರಿಸು</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>ವಿಸ್ತರಣೆ</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%count ಡೇಟಾಟೈಪ್‌ಗಳಲ್ಲಿ %shown, %used ಬಳಕೆಯಲ್ಲಿ</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>ಡೇಟಾಬೇಸ್‌ನಲ್ಲಿ ಈ ಡೇಟಾಟೈಪ್‌ಗಳ ವರ್ಗ ಅಥವಾ ವಸ್ತು ಗುಣಲಕ್ಷಣಗಳಿವೆ, ಆದರೆ content.ini ಅವುಗಳಲ್ಲಿ ಯಾವುದನ್ನೂ ಪಟ್ಟಿ ಮಾಡುವುದಿಲ್ಲ, ಅಥವಾ ಅದರ ಫೈಲ್ ಇಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>%provider ನ ಡೇಟಾಟೈಪ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>ಡೇಟಾ ಪ್ರಕಾರ</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>PHP ವರ್ಗ ಮತ್ತು ಫೈಲ್</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>ವರ್ಗಗಳು</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>ವಸ್ತುಗಳು</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>ಫ್ಲ್ಯಾಗ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>ಯಾವುದೂ ಇಲ್ಲ</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>ಹುಡುಕಾಟಕ್ಕೆ ಹೊಂದುವ ಡೇಟಾ ಪ್ರಕಾರ ಇಲ್ಲ. ಹುಡುಕಾಟವನ್ನು ತೆರವುಗೊಳಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>%count ಡೇಟಾಟೈಪ್‌ಗಳಲ್ಲಿ %shown ತೋರಿಸಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>ತೋರಿಸಿದ ಡೇಟಾಟೈಪ್‌ಗಳು: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>%column ಪ್ರಕಾರ ವಿಂಗಡಿಸು</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>%time ರಂದು ಎಣಿಸಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>ಎಲ್ಲಾ ಡೇಟಾಟೈಪ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>ಸಹಾಯ ಪುಟ</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>ಈ ಡೇಟಾ ಪ್ರಕಾರ ಬಳಕೆಯಲ್ಲಿದೆ ಆದರೆ ನೋಂದಾಯಿಸಿಲ್ಲ</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>ಯಾವುದೇ ವಿಸ್ತರಣೆ ಈ ಡೇಟಾ ಪ್ರಕಾರವನ್ನು ನೋಂದಾಯಿಸುವವರೆಗೆ ಕೆಳಗಿನ ವರ್ಗಗಳ ವಸ್ತುಗಳನ್ನು ತೋರಿಸಲು, ಸಂಪಾದಿಸಲು ಅಥವಾ ಪ್ರಕಟಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ. ಅದನ್ನು ಒದಗಿಸುವ ವಿಸ್ತರಣೆಯನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ ಮತ್ತು ಅದನ್ನು content.ini [DataTypeSettings] AvailableDataTypes[] ಗೆ ಸೇರಿಸಿ, ಅಥವಾ ವರ್ಗಗಳನ್ನು ಬದಲಾಯಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini ಈ ಡೇಟಾ ಪ್ರಕಾರವನ್ನು ಪಟ್ಟಿ ಮಾಡುತ್ತದೆ, ಆದರೆ ಯಾವುದೇ ಡೇಟಾಟೈಪ್ ಡೈರೆಕ್ಟರಿಯಲ್ಲಿ ಅದರ ಫೈಲ್ ಇಲ್ಲ. ಯಾವುದೂ ಅದನ್ನು ಬಳಸುವುದಿಲ್ಲ; ಅದನ್ನು AvailableDataTypes[] ನಿಂದ ತೆಗೆದುಹಾಕಿ ಅಥವಾ ಅದರ ವಿಸ್ತರಣೆಯನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>ಈ ಡೇಟಾ ಪ್ರಕಾರದ ಬಗ್ಗೆ</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>ಗುರುತಿಸುವಿಕೆ</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>ಹೆಸರು</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>ವಿಸ್ತರಣೆ %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>ಯಾರೂ ಇಲ್ಲ</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>PHP ವರ್ಗ</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>ಫೈಲ್</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>AvailableDataTypes[] ನಲ್ಲಿ</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ಹೌದು</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ಇಲ್ಲ</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>ಅದರ ಮೌಲ್ಯದ ಕಾಲಮ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>ಅದರ ವರ್ಗ ಗುಣಲಕ್ಷಣ ಸೆಟ್ಟಿಂಗ್‌ಗಳ ಕಾಲಮ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>ಕೋಷ್ಟಕಗಳು</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>ಕಾಲಮ್‌ಗಳು ಮತ್ತು ಕೋಷ್ಟಕಗಳನ್ನು ಡೇಟಾ ಪ್ರಕಾರದ ಕೋಡ್ ಓದಿ ಕಂಡುಹಿಡಿಯಲಾಗಿದೆ: ಇದು ಮಾರ್ಗದರ್ಶಿ, ಖಾತರಿಯಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>ಟೆಂಪ್ಲೇಟ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>ಸೈಟ್‌ಆಕ್ಸೆಸ್</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>ಟೆಂಪ್ಲೇಟ್</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>ಕಂಡುಬಂದ ಸ್ಥಳ</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>ಈ ಆಡಳಿತ</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>ಡೀಫಾಲ್ಟ್ ಸೈಟ್</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>ಓವರ್‌ರೈಡ್‌ಗಳಿಲ್ಲದೆ: ವರ್ಗ ಅಥವಾ ಗುಣಲಕ್ಷಣದ ಮೂಲಕ ಹೊಂದಿಕೆಯಾದ ಓವರ್‌ರೈಡ್ ಟೆಂಪ್ಲೇಟ್ ಇವುಗಳಿಗಿಂತ ಮೇಲುಗೈ ಪಡೆಯುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>ಇದನ್ನು ಬಳಸುವ ವರ್ಗಗಳು (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>ಯಾವುದೇ ವರ್ಗದಲ್ಲಿ ಈ ಡೇಟಾ ಪ್ರಕಾರದ ಗುಣಲಕ್ಷಣವಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>ವರ್ಗ</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>ಗುಣಲಕ್ಷಣಗಳು</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>ವರ್ಗದ ಗುಣಲಕ್ಷಣಗಳು (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>ಗುಣಲಕ್ಷಣ</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>ಸೆಟ್ಟಿಂಗ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>ಅಗತ್ಯವಿದೆ</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>ಹುಡುಕಬಹುದಾದ</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>ಅನುವಾದಿಸಬಹುದಾದ</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>ಮಾಹಿತಿಯನ್ನು ಸಂಗ್ರಹಿಸುತ್ತದೆ</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>ಇದನ್ನು ಬಳಸುವ ಕೆಲವು ವಿಷಯ</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>ಕೊನೆಯದಾಗಿ ಬದಲಾಯಿಸಿದ್ದು ಮೊದಲು</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>ಮಾರ್ಪಡಿಸಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>ನೋಡ್ %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>ಪ್ರತಿಯೊಂದು ಅನುವಾದಕ್ಕೂ ತನ್ನದೇ ಮೌಲ್ಯವಿದೆ.</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>ಹುಡುಕಾಟವು ಅದರ ಮೌಲ್ಯಗಳನ್ನು ಸೂಚೀಕರಿಸುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>ಇದು ಸಂದರ್ಶಕರಿಂದ ಮಾಹಿತಿ ಸಂಗ್ರಹಿಸಬಹುದು (ಫಾರ್ಮ್‌ಗಳು).</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>ಪಟ್ಟಿಗಳನ್ನು ಇದರ ಪ್ರಕಾರ ವಿಂಗಡಿಸಬಹುದು: ವಿಂಗಡಣೆ ಕೀ %type.</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>ವಿಂಗಡಿಸಬಹುದಾದ</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>ಇದರ ಮೌಲ್ಯಗಳು ಇತರ ವಸ್ತುಗಳನ್ನು ಸೂಚಿಸುತ್ತವೆ.</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>ಸಂಬಂಧಗಳು</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>ಇದನ್ನು ಸರಳ ಸ್ಟ್ರಿಂಗ್‌ನಿಂದ ತುಂಬಬಹುದು (ಆಮದು, REST).</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>ಪಠ್ಯದಿಂದ</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>ಇದನ್ನು ಫೈಲ್‌ನಿಂದ ತುಂಬಬಹುದು.</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>ಫೈಲ್‌ನಿಂದ</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>ಇದರ ವರ್ಗ ಗುಣಲಕ್ಷಣ ಸೆಟ್ಟಿಂಗ್‌ಗಳು ಪ್ಯಾಕೇಜ್‌ಗಳಿಗೆ ಹೋಗುತ್ತವೆ.</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>ಪ್ಯಾಕೇಜ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>ವಿಷಯ (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%count ರಲ್ಲಿ %from ರಿಂದ %to</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>ಪಟ್ಟಿಯನ್ನು ಫಿಲ್ಟರ್ ಮಾಡಿ</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>ಎಲ್ಲಾ ವರ್ಗಗಳು</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>ವಿಭಾಗ</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>ಭಾಷೆಗಳು</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>ಮಾಲೀಕ</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>ಪ್ರಕಟಿಸಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>ಕ್ರಮವನ್ನು ಹಿಮ್ಮುಖಗೊಳಿಸು</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>ಯಾವುದೇ ಐಟಂ ಇಲ್ಲ</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>ಪ್ರತಿ ಪುಟಕ್ಕೆ</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>ಪ್ರತಿ ಪುಟಕ್ಕೆ %count ಐಟಂಗಳನ್ನು ತೋರಿಸಿ.</translation>
     </message>
 </context>
 </TS>

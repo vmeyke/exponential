@@ -2,7 +2,7 @@
 /**
  * File containing the expMaintenance class.
  *
- * @copyright Copyright (C) 1998 - 2026 7x. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @package kernel
  */
@@ -425,7 +425,7 @@ class expMaintenance
         $setupRun = class_exists( 'expSetupLog', false ) ? expSetupLog::runId() : null;
         $environment = $setupRun !== null ? 'EXP_SETUP_RUN=' . escapeshellarg( $setupRun ) . ' ' : '';
         if ( PHP_SAPI === 'cli' && is_file( $root . '/console' ) && function_exists( 'exec' ) )
-            @exec( 'cd ' . escapeshellarg( $root ) . ' && ' . $environment . 'php console exp:velocity cache clear --allow-root-user >/dev/null 2>&1' );
+            @exec( 'cd ' . escapeshellarg( $root ) . ' && ' . $environment . 'php console exp:velocity cache clear --apply --allow-root-user >/dev/null 2>&1' );
     }
 }
 ?>

@@ -984,6 +984,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>Uru rupapuro gusa ni rwo rurondewe: %from kugera %to muri %count.</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Ubwoko bwose bw'amakuru bw'intango n'ivyongerwako, n'ingene amoko n'ibirimwo bibukoresha.</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Ubwoko bw'amakuru</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2316,6 +2324,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>Impapuro za sisitemu na zo zishobora gushirwako akamenyetso: mufungure urupapuro (Gutunganya, igitabo c'ugusuzuma, urutonde rw'abakoresha ...) hanyuma muhitemwo Gushira akamenyetso kuri uru rupapuro hejuru yarwo. Utwo tumenyetso dufise ishusho y'igikoresho.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>Ntimugishoboye kwugurura uru rupapuro ng'aha. Mukureho akamenyetso, canke musabe umuyobozi uburenganzira bwo kwinjira.</translation>
     </message>
 </context>
 <context>
@@ -5165,6 +5177,210 @@
         <source>Go to the first page</source>
         <translation>Kwerekeza ku rupapuro rwa mbere</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>Ibindi</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>Imisi 7 ishize</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>Igihe uhisemwo</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>Amajambo yose</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>Ijambo iryo ari ryo ryose</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>Imvugo nyayo</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>Ukwisanisha</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>Izina A–Z</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>Izina Z–A</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>Vyahinduwe, ivya vuba imbere</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>Vyahinduwe, ivya kera imbere</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>Vyasohowe, ivya vuba imbere</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>Vyasohowe, ivya kera imbere</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Vyahinduwe</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>Amayungurura</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>Kwerekana amayungurura</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>Guhisha amayungurura</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Gusubiza ku ntango</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>Gushira mu ngiro</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>Amajambo</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>Ubwoko bw'ibirimwo</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>Kwerekana ibindi (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>Hitamwo ubwoko bumwe bw'ibirimwo kugira murondere muri kimwe mu biranga bwo.</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Igice</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Kuva kuri</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Gushika</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>Itariki yo gutangura si itariki yemewe.</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>Itariki yo guheraako si itariki yemewe.</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Nyene</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>ID y'umukoresha, izina ryo kwinjira canke aderesi ya imeyili.</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>Nta mukoresha yabonetse kuri “%input”.</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Ururimi</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>Ururimi urwo ari rwo rwose</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Ahantu</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>Ahantu %count</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>Ivyavuye kuri buri rupapuro</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>Ivyavuye kuri “%text” (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>Ivyavuye (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>Gutondeka hakurikijwe</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>Gutondeka</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>Amayungurura akora</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>Gukuraho iri yungurura</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>Canke muhitemwo amayungurura muyashire mu ngiro kugira mwerekane ibirimwo bihuye.</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>Amayungurura agabanya irondera mumaze kwandika amajambo.</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>Nta vyavuye vyabonetse kuri “%text”.</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>Nta vyavuye vyabonetse.</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>Mukureho iyungurura riri hejuru.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Ubuhinduzi</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Ibikorwa</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>Guhindura %name</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Guhindura</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -7514,6 +7730,10 @@
         <source>Setup &gt; Cronjobs</source>
         <translation>Gutunganya &gt; Ibikorwa bya cron</translation>
     </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>Nta gice ca cronjob kirakora: urutonde rw&apos;ibikorwa, ivyinjizwa, amamenyesha n&apos;urutonde rw&apos;irondera birarindiriye. Mukoreshe php bin/php/installcrontab.php --add --apply, canke mwongere imirongo ya --show muri crontab.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/dashboard/drafts</name>
@@ -8058,8 +8278,8 @@
         <translation>Amamenyesha y'uburenganzira bw'umwanditsi y'abanditsi ba mbere n'aya porogaramu z'abandi bantu zazanye na Exponential abitswe mu madosiye y'inkomoko no mu dosiye LICENSE, nk'uko uruhushya rubishaka.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>Ibikurikira ni urutonde rw'abagize uruhara muri Exponential batanze uruhushya rwo gukoresha ibikorwa vyabo na 7x hakurikijwe amategeko y'eZ Systems Contributor Licensing Agreement. Nk'uko iyo masezerano yemera, 7x isaranganya ikintu cose catanzwe ikoresheje uruhushya nk'urw'idosiye cirimwo. Urutonde ruvuga buri wese yatanze, amakuru yo kumuhamagara niba ahari, n'amadosiye yatanzemwo.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>Abatanze intererano bashimirwa ku gikorwa cabo kuri Exponential no kuri porogarama yavuyemwo, hamwe n'amadosiye batanzemwo intererano. Iki ni ugukengurukira, si itangazo ry'uburenganzira bw'umwanditsi: intererano kuri Exponential zihabwa Exponential Foundation na 7x hisunzwe Contributor Licensing Agreement.</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13881,32 +14101,20 @@ Ikitonderwa: Amapaki ntazokurwamwo.</translation>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%evaluate_link"&gt;Gerageza Exponential Enterprise Edition&lt;/a&gt; - &lt;a href="%share_link"&gt;Mube umunywanyi w'Umuryango wa Exponential, musangire kandi mutange umusanzu&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Uburenganzira bw'umwanditsi &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; n'abandi.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class="edition-info"&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>Ikoreshwa na &lt;span class="edition-info"&gt;%edition&lt;/span&gt;. Kugira mumenye ibindi raba &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Uburenganzira bw'umwanditsi &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; n'abandi.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> Kugira mumenye ibindi raba &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
     </message>
     <message>
-        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Uburenganzira bw'umwanditsi &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; n'abandi.</translation>
+        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href="%evaluate_link"&gt;Gerageza Exponential (ivuye kuri 7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;Mube umunywanyi w'Umuryango wa Exponential, mushike ku mfashanyo kandi mutange umusanzu&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Uburenganzira bw'umwanditsi &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; n'abandi.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13915,6 +14123,61 @@ Ikitonderwa: Amapaki ntazokurwamwo.</translation>
     <message>
         <source>Help center</source>
         <translation>Ikigo c'imfashanyo</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>Ibirimwo</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>Impapuro z'inyandiko</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>Abakoresha</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>Ubwoko bw'ibirimwo</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>Ubuyobozi</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>Urupapuro %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>Kuraba ivyavuye vyose</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>Ivyavuye %count</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>Icavuye kimwe</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>Ivyiyumviro %count</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>Nta vyiyumviro</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>Ivyiyumviro ntivyashoboye gupakirwa.</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>Ivyiyumviro</translation>
     </message>
 </context>
 <context>
@@ -14383,6 +14646,14 @@ Ikitonderwa: Amapaki ntazokurwamwo.</translation>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>Iri shiramwo ni iryo kwerekana rusangi: umuntu wese arashobora kumenya ijambo ry'ibanga ry'umuyobozi waryo, kandi amajambo y'ibanga y'abayobozi ntashobora guhindurwa canke gusubizwa. Ntimwandike hano ikintu c'ibanga.</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Ibikoresho vyanyu</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Ibikorwa vy&apos;umutekano</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14672,6 +14943,14 @@ Ikitonderwa: Amapaki ntazokurwamwo.</translation>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>Ubuyobozi, ugushakisha n'ingene bavuga ikosa.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Ibirimwo bishasha</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Ibirimwo bishasha cane, ivyafashwe ngo vyihwezwe, n'ibikorwa ku vyatowe.</translation>
     </message>
 </context>
 <context>
@@ -15130,6 +15409,46 @@ Ikitonderwa: Amapaki ntazokurwamwo.</translation>
         <source>Synchronisations</source>
         <translation>Ugusangira</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>GraphQL API: iherezo ryayo, iskema n'ahantu ho kugerageza ibibazo.</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Ivyimurwa</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Amahinduka y&apos;iyinjizwa abikwa nk&apos;amadosiye: uko ahagaze, amakorwa, gukoresha no gusubiza inyuma.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Ibirimwo bishasha</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Ibirimwo bishasha cane, ivyafashwe ngo vyihwezwe, n'ibikorwa ku vyatowe.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Gusohora kopi idahinduka y&apos;urubuga kuri GitHub Pages canke ku mutanzi uwo ari we wese wa git.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Isohora ridahinduka</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Ubwoko bw'amakuru</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Ubwoko bwose bw'amakuru bw'intango n'ivyongerwako, n'ingene amoko n'ibirimwo bibukoresha.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15294,6 +15613,22 @@ Ikitonderwa: Amapaki ntazokurwamwo.</translation>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>Konti zitagira uzikoresha canke zikeneye kurebwa; muzihagarike, muzifungure canke muzisohore hanze.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Igitabo c&apos;ikurikiranwa ry&apos;abakoresha</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>Uwahinduye, uwinjiye canke uwanswe, kuri buri konti; kuyungurura no gusohora hanze.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Icegeranyo co kwinjira</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>Abinjiye, kwinjira n&apos;ivyananiranye ku musi; gusohora umukoresha hose.</translation>
     </message>
 </context>
 <context>
@@ -22110,6 +22445,22 @@ Ikitonderwa: Amapaki ntazokurwamwo.</translation>
         <source>%n hours ago</source>
         <translation>amasaha %n ashize</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>Inyishu z&apos;ibibazo vyabitswe vya GraphQL API, n&apos;imice y&apos;ibirimwo y&apos;iskema ryayo.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>Gusohora kopi idahinduka kuri GitHub Pages canke ku mutanzi uwo ari we wese wa git</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Isohora ridahinduka</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>Ububiko bw&apos;igihe gito butahinduka butanga amapapuro biva kuri iyi seriveri. Kugira musohore kopi idahinduka y&apos;urubuga ahandi, kuri GitHub Pages canke ku mutanzi uwo ari we wese wa git, mukoreshe isohora ridahinduka.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25651,6 +26002,10 @@ Ikitonderwa: Amapaki ntazokurwamwo.</translation>
     <message>
         <source>last purge</source>
         <translation>ifuta rya nyuma</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>Ivyanditswe ntivyashoboye gufata ugufunga kw&apos;imimerere (ubwa nyuma %date): kimwe cose catumye inyishu zose zibitswe ziba izakera. %file itegerezwa kwandikwamwo na buri mukoresha urubuga rukorera mw&apos;izina ryiwe; kuri NFS ikenera NFSv4 canke lockd.</translation>
     </message>
 </context>
 <context>
@@ -33599,6 +33954,14 @@ Ikitonderwa: Amapaki ntazokurwamwo.</translation>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>Ibihe vyo kwinjira vyarengeje igihe vy'umukoresha wa PHP bikurwaho na PHP ubwayo (session.gc_maxlifetime), atari n'uru rupapuro canke igice ca cronjob session_gc.</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>Ibihe vyo kwinjira vy&apos;abakoresha bose biboneka, kandi bisohorwa, ku cegeranyo co kwinjira, gikora n&apos;umushinzwe igihe co kwinjira uwo ari we wese.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>Kwugurura icegeranyo co kwinjira</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37923,6 +38286,26 @@ konti yanyu.</translation>
     <message>
         <source>None yet</source>
         <translation>Nta n'imwe kugeza ubu</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Ibikorwa vy&apos;umutekano</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>Kwinjira kwanyu guheruka, ukugerageza kwananiranye n&apos;ihinduka ry&apos;ijambo ry&apos;ibanga ryanyu, aderese ya imeyili no kwinjira mu ntambwe zibiri.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>Kwinjira guheruka, ukugerageza kwananiranye n&apos;ihinduka ry&apos;umutekano w&apos;iyi konti.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>Gusuzuma ibikorwa</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>Kwinjira kwananiranye: %count</translation>
     </message>
 </context>
 <context>
@@ -44089,6 +44472,42 @@ Nimba mushaka kurungikira uwemeza ibitekerezo canke kuraba uko bihagaze, mukores
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>Nyuma yo kwinjira, umukoresha agomba guhitamwo ijambo ry'ibanga rishasha imbere yo gukora ikindi kintu. Mukoreshe ivyo mu gihe mutanze ijambo ry'ibanga ry'igihe gito.</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>Muhitemwo ishusho isanzwe ihari</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>Idosiye y'ishusho y'ikintu muhisemwo izokopororwa muri iki kibanza. Ikindi kintu nticahinduka.</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>Ishusho ya "%name" yakopororwe muri iki kibanza.</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>Kuvyura amashusho</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>Kurondera amashusho ku izina</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Kurondera</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>Gukoresha ishusho ya "%name"</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>Gukoresha iyi shusho</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>Nta shusho ihuye n'ivyo murondera.</translation>
     </message>
 </context>
 <context>
@@ -51013,6 +51432,10 @@ Murabe urupapuro rw'ivyasabwe kugira muronke andi makuru.</translation>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>Crontab ntiyanditswe (%reason). Mwongere iyi mirongo kuri crontab y'umukoresha urubuga rukoreshwamwo, naho ukwo umurongo, ivyinjijwe, imenyesha n'urutonde rw'irondera ntibizokora na rimwe:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>Gusubira gushiramwo bikorwa na Kickstarter (%file, hanyuma php bin/php/kickstarter.php run --apply) canke no gushiramwo bushasha.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54892,6 +55315,10 @@ konti yanyu.</translation>
         <source>eZJSCore Public Packer cache</source>
         <translation>Ububiko bw'igihe gito bwa Public Packer ya eZJSCore</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>Ububiko bwa GraphQL (inyishu n&apos;imice y&apos;iskema)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54978,6 +55405,14 @@ konti yanyu.</translation>
     <message>
         <source>Copy of %class_name</source>
         <translation>Kopi ya %class_name</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Ubwoko bw'amakuru</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>Ubwoko bw'amakuru %string</translation>
     </message>
 </context>
 <context>
@@ -55804,6 +56239,26 @@ konti yanyu.</translation>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>Ishusho ya SVG ntiyashoboye gusomwa, canke nta kintu kirimwo gishobora kwerekanwa mu mutekano.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>Ishusho ntiyashoboye gukopororwa. Turabasavye mugerageze kandi canke muvugane n'umuyobozi w'urubuga.</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>Ikintu catowe ntikiriho canke ntimurekuriwe kugisoma.</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>Ikintu catowe nta shusho gifise.</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>Idosiye y'ishusho y'ikintu catowe ntiyashoboye gusomwa.</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>Ishusho y'ikintu catowe iruta ubunini iki kibanza kirekura: bayite %1.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56334,6 +56789,42 @@ konti yanyu.</translation>
         <source>The bookmark was renamed to "%name".</source>
         <translation>Akamenyetso kahinduwe izina kakitwa "%name".</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>Uru rupapuro rwazimijwe muri ubu buryo bwo gushika ku rubuga (%siteaccess). Mwugurure akamenyetso mu buryo bwo gushika ku rubuga bufise uru rupapuro.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>Modile y'uru rupapuro ntiyashizwemwo canke ntiyatanguzwa ng'aha.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>Uru rupapuro ntirukiriho: modile yarwo ntifise ivyerekanwa nk'ivyo.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>Nta ruhara rwanyu na rumwe rubemerera kwugurura uru rupapuro.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>Ntimufise uburenganzira bwo gukoresha ubu buryo bwo gushika ku rubuga.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>Ntimufise uburenganzira bwo gusoma ibirimwo uru rupapuro rwerekana.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>Uru rupapuro rw'ubu bwoko ntirushobora gushirwako akamenyetso: rukora gusa ku rupapuro rwo kwuzuza, canke ni urupapuro rw'akanya gato.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>Aderese y'uru rupapuro ntiriho.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>Uru rupapuro ntirushobora kwugururwa ubu.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56805,6 +57296,10 @@ Mukeneye guhindura ubwoko bw'ihuriro mukoresheje igikorwa co guhinduranya.</tran
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>Uburyo bwo kurungika imeyili bwanse ubutumwa %count mu gikorwa ca nyuma. Murabe serivere y'imeyili na site.ini MailSettings.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Ibikorwa %count birarindiriye kandi nta ikoreshwa rya cronjob y&apos;amamenyesha ryanditswe. Mwongere igice ca cronjob &quot;frequent&quot; muri crontab, canke mukoreshe exp:notification:run --apply.</translation>
     </message>
 </context>
 <context>
@@ -63061,6 +63556,10 @@ Mukeneye guhindura ubwoko bw'ihuriro mukoresheje igikorwa co guhinduranya.</tran
         <source>Choose another site or section with the node picker</source>
         <translation>Muhitemwo urundi rubuga canke ikindi gice mukoresheje uwuhitamwo ihuriro</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>Umuyobozi wa sisitemu wenyene ni we ashobora guhindura nyene ico kintu: mukoreshe ./console exp:content-check --fix-permissions --apply nka root.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64594,6 +65093,10 @@ Mukeneye guhindura ubwoko bw'ihuriro mukoresheje igikorwa co guhinduranya.</tran
     <message>
         <source>empty</source>
         <translation>ubusa</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>Urufunguzo rwo gushiraho umukono rumaze imyaka irenga umwe: muruhindure mukoresheje exp:audit key rotate --apply.</translation>
     </message>
 </context>
 <context>
@@ -68424,6 +68927,486 @@ Mukeneye guhindura ubwoko bw'ihuriro mukoresheje igikorwa co guhinduranya.</tran
         <source>Share of page time</source>
         <translation>Umugabane w'igihe c'urupapuro</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>hasabwe ugukora kwuzuye</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>ububiko bw'igihe gito bw'impapuro ntibwari bufise urwo rupapuro (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>ububiko bw'igihe gito bw'impapuro ntibwishuye</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>Vyakozwe</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>Vyakozwe n'intango: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>Vyatanzwe n'ububiko bw'igihe gito bw'impapuro mu %ms ms. Urupapuro rwabitswe saa %stored n'ugukora kwamaze %render ms, haheze %age s.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>Gukora ubu</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>Gusubira ku kuraba kuvuye mu bubiko bw'igihe gito</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>Bivuye mu gukora kwo saa %stored (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>Iki gisabisho: vyatanzwe n'ububiko bw'igihe gito bw'impapuro mu %ms ms.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Umukoresha</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>ID y'umukoresha</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>Umwirondoro wa cache</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>Iyi ndoro</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>Ububiko bw'igihe gito bw'ivyerekanwa</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>kuri buri mukoresha (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>Umwirondoro wa cache w'umukoresha: abakoresha bafise umwirondoro umwe basangira amadosiye ya cache y'indoro</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ego</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>oya</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Izina ryo kwinjira</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>Yinjiye</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>Igihe co kwinjira</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>Ibihimba vy'urufunguzo rwa cache y'indoro z'ibirimwo bivana n'umukoresha, nk'uko urufunguzo rubifata, hakurikijwe ViewCacheTweaks z'uru rupapuro. Abakoresha bafise umwirondoro umwe basangira amadosiye ya cache y'indoro, kiretse ibihimba vy'indoro ubwayo bitandukanye (ivyo bakunda, imfunguzo z'abumviriza): ivyo bifise umwirondoro wabyo, kuri uru rupapuro gusa.</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>Umwirondoro</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>Iyi ndoro (ipfundo %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: umukoresha wese yinjiye afise amadosiye ya cache yiwe.</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>ViewCacheTweaks zikora: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>Igice</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>Agaciro</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>Nta gihimba kivana n'umukoresha (ViewCacheTweaks).</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>iyi ndoro</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>Kopora nk'inyandiko</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>Uruhara</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>Nta mashingwa y'uruhara yashoboye gusomwa.</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>ID y'uruhara</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Uruhara</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>Imbibe</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>Yashinzwe</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>umukoresha</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>umugwi %name (ikintu %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>Vyakoporowe</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>Ntivyashobotse gukopora.</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>vyakuweho n'umwumviriza</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>Abashitsi batazwi</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>bimwe n'ivyawe</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>bitandukanye</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>Umwirondoro abashitsi batazwi baronka munsi ya ViewCacheTweaks zimwe, n'ivyo bakunda vy'ibanze, ata bihimba vy'indoro: umwumviriza asoma isesiyo ntashobora kubibazwa.</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>Ivyo ukunda</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>Nta buryo bw'indoro buvana n'ivyo umukoresha akunda (site.ini [ContentSettings] CachedViewPreferences).</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>Ivyo ukunda indoro z'ubu buryo bw'indoro zivana navyo (CachedViewPreferences), n'agaciro k'umukoresha canke ak'ibanze. Biri mu mwirondoro nka userpreferences, ivy'uburyo bwose bw'indoro hamwe.</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>Uburyo bwo kuraba</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>Ico ukunda</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>Isanzwe</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>Politike</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>Erekana amategeko y'impara (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>Amategeko azanwa kuva kuri seriveri iyo iki gice cuguruwe, urupapuro rumwe rumwe, kandi ashobora gutoranywa hakurikijwe moderi n'igikorwa.</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>Igikorwa</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>Modile zose</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>Ibikorwa vyose</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>Imbibe</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>Erekana ibindi</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>Izi mpara nta mategeko zifise.</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>Nta tegeko rihuye n'akayunguruzo.</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%shown kuri %matching y'amategeko (%total yose hamwe)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>Biraremerwa igihe bifunguwe.</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>module/function, uruhara, ikibujijwe</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>Rondera amategeko</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>Rema ibindi</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>Modile/igikorwa</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>Uruhara rwose (amategeko %count)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>Nta tegeko rihuye.</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%shown muri %matched y'amategeko</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>Nta gisubizo</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>vyanyegejwe</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>Erekana insiguro</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>Nyegeza insiguro</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Gufungura</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>Gufungura vyose</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>Gufunga vyose</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>Urufunguzo canke agaciro</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>Rondera mu gihe co kwinjira</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Ubwoko</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>%count zindi</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>vyinjijwe cane ku buryo bitoshobora kwerekanwa</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>vyaciwe, indome %count zose hamwe</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Vyatanguwe</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>Izina rya kuki</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>ID y'igihe co kwinjira</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>Umushinzwe</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>Inzira yo kubikamwo</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>Agaciro gasanzwe ka PHP</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>Igihe co kubaho (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>Kuki</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>igihe co kubaho %s s</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>Igihe co kwinjira cawe bwite ca PHP, uko cari kimeze igihe igice cugururwa, ntibishoboka ko ari ic'uwundi. Agaciro k'imfunguzo zisa n'amabanga (tokeni, hash, amajambo y'ibanga) karanyegezwa (debugbar.ini SessionMask[]); ibindi vyose vyerekanwa uko vyabitswe, n'amakuru bwite.</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>Imfunguzo %count, %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>kinini</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>Igihe co kwinjira kirimwo ubusa.</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>Nta gihe co kwinjira catanguwe kuri ubu busabe.</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Iyongerwako %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>Intango n'ibindi</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>Ivyinjijwe vyose ntivyerekanwa: igihe co kwinjira gifise ibirenze ivyo bishobora gushirwa ku rutonde ngaha.</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>Imfunguzo %count ntizashizwe ku rutonde.</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>Ikadiri</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>Agaciro gasa na tokeni (JSON Web Token, ivyemezo vy'umutwe wa Authorization, urufunguzo bwite, ijambo rirerire rya hex canke ry'impurirane) na kwo karanyegezwa, uko urufunguzo rwako rwoba rwitwa kwose (debugbar.ini SessionValueMask[]).</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>Urufunguzo rusa n'ibanga (debugbar.ini SessionMask[]).</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>Agaciro gasa na tokeni.</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>Munsi y'urufunguzo rwanyegejwe.</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>Igihe co kwinjira nk'inyandiko, canyegejwe nk'urutonde.</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>Igihe co kwinjira kirenze %size (debugbar.ini SessionWarnBytes): ubusabe bwose bw'uyu mukoresha busoma igihe co kwinjira cose, kandi bukacandika iyo cahindutse.</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP ibika iki gihe co kwinjira mu madosiye kandi igakinga idosiye mu gihe c'ubusabe bwose: ubusabe bw'umukoresha umwe (amatabu menshi, amahamagara ya AJAX) burarindiranya.</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>Kuguma bikinguye</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>Kirenze %size (debugbar.ini SessionWarnBytes): ubusabe bwose bw'uyu mukoresha busoma igihe co kwinjira cose.</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%hits kuri %count zasomwe mu bubiko bw'igihe gito</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>Nta citegererezo cakozwe (ikiboneka casomwe mu bubiko bw'igihe gito bw'ivyiboneka nta na kimwe gikora).</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>Ugushinga uruhara</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>Uruhara na politike</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>bitandukanye n'ivy'abagenzi batazwi</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>kimwe n'ivy'abagenzi batazwi</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70304,6 +71287,14 @@ Mukeneye guhindura ubwoko bw'ihuriro mukoresheje igikorwa co guhinduranya.</tran
     <message>
         <source>not sent</source>
         <translation>ntivyarungitswe</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Cronjob y&apos;amamenyesha yandika ng&apos;aha igihe cose ikoreshejwe. Mwongere igice frequent muri crontab, canke mukoreshe exp:notification:run --apply.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>Mukoreshe konsole: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -76022,6 +77013,98 @@ Mukeneye guhindura ubwoko bw'ihuriro mukoresheje igikorwa co guhinduranya.</tran
         <source>This topic is not Released; readers do not see it.</source>
         <translation>Iki kiyago nticarasohoka; abasomyi ntibakibona.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Ivyimurwa</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Amahinduka y&apos;iyinjizwa abikwa nk&apos;amadosiye: uko ahagaze, amakorwa, gukoresha no gusubiza inyuma.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Gusohora kopi idahinduka y&apos;urubuga kuri GitHub Pages canke ku mutanzi uwo ari we wese wa git.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Isohora ridahinduka</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>Mu Gusuzuma</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>Abasomyi barabona uru rupapuro.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>Rwanyegejwe abasomyi gushika umuntu arusohoye.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>Urupapuro ruri mu Gusuzuma ubu. Rwanyegejwe abasomyi gushika rusohowe.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>Urupapuro rwarasohowe: abasomyi bararubona ubu.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>Urupapuro ni umushinga none kandi. Rwanyegejwe abasomyi gushika rusuzumwe kandi rusohowe.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>Sohora ubu</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>Uwukoresha afise uruhara %role atanditse iyi verisiyo ni we wenyene ashobora kuyisohora.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>Ibiyago vy'imfashanyo birindiriye gusohorwa</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>Bituma abasomyi batabibona gushika bisohowe kandi.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>Uwusuzuma azobisuzuma hanyuma. Abasomyi ntibarabibona.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>Abasomyi barabibona ningoga.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>Bikurwa mu Gusuzuma kugira bikorwe kandi. Abasomyi ntibabibona.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>Kunyegeza uru rupapuro abasomyi?</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>Gusubiza uru rupapuro ku mushinga?</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>Abasomyi ntibacabona %title gushika umuntu agisohoye kandi.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title gisubira ku mushinga kugira gikorwe kandi. Abasomyi ntibarakibona, kandi gikeneye isuzuma rishasha imbere yo gusohorwa.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Guhagarika</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>Ibi biyago biri mu Gusuzuma. Abasomyi bazobibona umuntu atanditse verisiyo y'ubu nabisohora.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76477,6 +77560,46 @@ Mukeneye guhindura ubwoko bw'ihuriro mukoresheje igikorwa co guhinduranya.</tran
         <source>None.</source>
         <translation>Nta na kimwe.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>hakoreshejwe porogaramu yo kwemeza</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>hakoreshejwe kode yarungitswe kuri imeyili</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>hakoreshejwe kode yo kugarura</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>hakoreshejwe urufunguzo rwo kwinjira (passkey)</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>hakoreshejwe konti yo hanze</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Ibikorwa vy&apos;umutekano</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>Biboneka nk&apos;urusobe rwayo; aderese ibikwa nk&apos;uko ingene vyateguwe vyo gukingira amakuru vy&apos;urubuga bibivuga.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Ntivyanditswe</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Ahantu</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>hafi</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76720,6 +77843,42 @@ Mukeneye guhindura ubwoko bw'ihuriro mukoresheje igikorwa co guhinduranya.</tran
         <source>Manage devices</source>
         <translation>Gutunganya ibikoresho</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>hakoreshejwe porogaramu yo kwemeza</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>hakoreshejwe kode yarungitswe kuri imeyili</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>hakoreshejwe kode yo kugarura</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>hakoreshejwe urufunguzo rwo kwinjira (passkey)</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>hakoreshejwe konti yo hanze</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Ibikorwa vy&apos;umutekano</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Ntivyanditswe</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Ahantu</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>hafi</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76799,6 +77958,14 @@ Mukeneye guhindura ubwoko bw'ihuriro mukoresheje igikorwa co guhinduranya.</tran
         <source>View the sessions of this user</source>
         <translation>Kuraba ibihe vyo kwinjira vy'uyu mukoresha</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>Konti yanyu %login kuri %site imaze gukoreshwa kwinjira ivuye ahantu itaherutse kwinjirira:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>Ahantu hagereranijwe</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76837,6 +78004,10 @@ Mukeneye guhindura ubwoko bw'ihuriro mukoresheje igikorwa co guhinduranya.</tran
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%browser kuri %os</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Icegeranyo co kwinjira</translation>
     </message>
 </context>
 <context>
@@ -77045,6 +78216,82 @@ Mukeneye guhindura ubwoko bw'ihuriro mukoresheje igikorwa co guhinduranya.</tran
         <source>The passkey could not be checked. Please try again.</source>
         <translation>Passkey ntiyashoboye kugenzurwa. Turabasavye mugerageze kandi.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>Konti zinjira na passkey gusa ntizishobora gukoresha ijambo ry&apos;ibanga ngaha: muhitemwo &quot;Kwinjira na passkey&quot;.</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>Passkey za %login</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>Passkey iyi konti yinjiramwo. Mwambure ububasha iyiri ku gikoresho catakaye canke cibwe: ntishobora kongera kwinjira. Nyene konti ni we yongerako inshasha.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>Konti yanyu ikeneye passkey</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>Mwongere passkey kuri konti yanyu</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>Mwongereko passkey kugira mubandanye. Hanyuma muzokwinjira nayo aho kwinjira n&apos;ijambo ry&apos;ibanga gusa.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>Kwinjira na passkey birihuta kandi biratekanye kuruta ijambo ry&apos;ibanga. Mwongereko imwe ubu, canke mubandanye ata yo.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>Si ubu</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>Kwambura ububasha passkey &quot;%name&quot;?</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>Ntishobora kongera kwinjira kuri iyi konti. Niba yari iya nyuma, nyene konti yinjira n&apos;ijambo ry&apos;ibanga, canke mwebwe mushiraho irishasha.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>Kwambura ububasha passkey</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>Kwambura ububasha</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>Iyi konti nta passkey ifise.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>Icemeza</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Ntivyizwi</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>Passkey yanyu ya nyuma: mwongereko iyindi imbere yo kuyikuraho.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>Iyi konti yinjira na passkey gusa (politike ya passkey): iyo nta n&apos;imwe isigaye, yongera kwinjira n&apos;ijambo ryayo ry&apos;ibanga.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>Iyi ni passkey yanyu ya nyuma kandi konti yanyu ntishobora kwinjira itayifise. Mubanze mwongereko iyindi passkey.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>Passkey &quot;%name&quot; yambuwe ububasha. Ntishobora kongera kwinjira kuri iyi konti.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77144,6 +78391,34 @@ Mukeneye guhindura ubwoko bw'ihuriro mukoresheje igikorwa co guhinduranya.</tran
         <source>Code from your authenticator app</source>
         <translation>Kode iva kuri porogaramu yanyu yo kwemeza</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>Mugira gufuta amakuru burundu canke gusiba ivyanditswe vy&apos;ibikorwa.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>Ijambo ry&apos;ibanga ryanyu na passkey</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>Ijambo ry&apos;ibanga ryanyu n&apos;ikode iva muri porogaramu yanyu yemeza</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>Canke:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>Uyu mushakisha ntushobora gukoresha passkey. Mukoreshe ubundi buryo canke uwundi mushakisha.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>Igihe mubandanije, umushakisha wanyu azobasaba imwe muri passkey zanyu.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>Kubandanya na passkey</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77234,6 +78509,70 @@ Mukeneye guhindura ubwoko bw'ihuriro mukoresheje igikorwa co guhinduranya.</tran
     <message>
         <source>Setup</source>
         <translation>Gutunganya</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>Guhindura ijambo ry&apos;ibanga ryawe bwite, aderese ya imeyili, passkey, kwinjira mu ntambwe zibiri, kode zo gusubiza canke imfunguzo za API, no gusohora ibindi bikoresho vyawe bwite.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>Kurema no guhindura abakoresha, amajambo yabo y&apos;ibanga n&apos;ibikoresho vyabo, ingene konti zateguwe, kwemeza canke kwanka konti nshasha z&apos;abakoresha, gutanga uruhara no guhindura politike.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>Gufuta amakuru</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>Gusiba igiseke c&apos;imyanda, gukuramwo ibintu no gukuraho ibintu vyinshi icarimwe.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>Gukuraho, gusohora no kubika ibirimwo</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>Gukuraho ibirimwo (no mu giseke c&apos;imyanda), gusohora no kubika icandiko c&apos;agateganyo; birabazwa igihe urupapuro rurungitswe. Vyazimye mu ntango.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>Imbere y&apos;igikorwa gikomeye, umukoresha yinjiye yongera kwemeza uwo ari we: n&apos;ijambo ryiwe ry&apos;ibanga na passkey, canke ata passkey n&apos;ijambo ryiwe ry&apos;ibanga n&apos;ikode ya porogaramu yiwe yemeza. Impapuro z&apos;urubuga gusa ni zo zibaza: uburyo bwa REST, SOAP, WebDAV, kwinjira kwa expservices n&apos;umurongo w&apos;amabwirizwa ntibibaza na rimwe.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>Aho ingene vyateguwe bikora</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>Ingene vyateguwe kuri</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Uburyo bwose bwo gushika ku rubuga</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>Uburyo bwo gushika ku rubuga %name</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Gufungura</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>Ababazwa: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>Mushire akamenyetso ku migwi y&apos;abakoresha kugira hababazwe abanyamuryango bayo gusa (nk&apos;abahinduzi). Nta na kimwe kirangiwe: umukoresha wese.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>Vyabitswe muri settings/override/site.ini.append.php, ku buryo bwose bwo gushika ku rubuga. Mu kubika muzosabwa kwemeza ko ari mwebwe.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>Vyabitswe muri settings/siteaccess/%name/site.ini.append.php. Agaciro kari muri settings/override ni ko gatsinda. Mu kubika muzosabwa kwemeza ko ari mwebwe.</translation>
     </message>
 </context>
 <context>
@@ -77336,6 +78675,6822 @@ Mukeneye guhindura ubwoko bw'ihuriro mukoresheje igikorwa co guhinduranya.</tran
     <message>
         <source>Open the page</source>
         <translation>Gufungura urupapuro</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from gushika %to muri %count</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>Izina ryo kwinjira canke ID y&apos;umukoresha: konti igikorwa cabaye cerekeye canke umukoresha yagikoze.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Konti</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Igikorwa</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>Inyuma</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>Umusaruro uwo ari wo wose</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Imbere</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Uwabikoze</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Gusukura</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Vyakozwe</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>Ibikorwa vyabaye bibikwa imisi %days.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>Ibikorwa vyabaye bibikwa gushika bikuweho n&apos;amaboko.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Ibikorwa vyabaye</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>Igikorwa ico ari co cose</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>Ibikorwa vyose vyabaye vy&apos;iyi konti</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>Gusohora hanze urutonde nka CSV (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Vyananiranye</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Kuva kuri</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>Iyungurura ry&apos;urutonde</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>Nta gikorwa cabaye gihuye.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Kuri buri rupapuro</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>Kwandika vyahagaritswe muri audit.ini ([UserAuditSettings] UserAudit); urutonde rwerekana ivyanditswe imbere.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Vyanswe</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Umusaruro</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Kwerekana</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>Imbonerahamwe y&apos;igitabo c&apos;ikurikiranwa ry&apos;abakoresha ntiriho. Muyireme na php update/common/scripts/6.0/createuseraudittable.php; gushika ico gihe, amadosiye y&apos;ikurikiranwa abika igikorwa cose cabaye.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>Uru rupapuro rukenera ububiko bw&apos;amakuru bwa SQL; ntirushobora gukoreshwa kuri MongoDB. Amadosiye y&apos;ikurikiranwa abika igikorwa cose cabaye.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Gushika</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Igitabo c&apos;ikurikiranwa ry&apos;abakoresha</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Umukoresha</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Igihe</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Aho</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>Uwahinduye, uwaremye, uwakoresheje, uwahagaritse, uwimuye canke uwakuyeho konti iyihe, uwinjiye canke uwanswe, n&apos;uruhara rwatanzwe: umurongo umwe kuri buri gikorwa cabaye, hamwe n&apos;imirima imbere n&apos;inyuma. Amajambo y&apos;ibanga n&apos;amabanga ntivyigera vyandikwa.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>umugwi</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>sisitemu</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>ntivyizwi</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>Mukingire konti yanyu</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>Kode yo kugarura yakoreshejwe kwinjira muri konti yanyu %login kuri %site.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>Kode yo kugarura yakoreshejwe</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Konti</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>Aderese igereranijwe</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>Musabe ijambo ry&apos;ibanga rishasha kugira ngo musubire kwinjira, canke muvugane n&apos;abayobozi b&apos;urubuga.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>Gusaba ijambo ry&apos;ibanga rishasha</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>Kode yo kugarura imwe imwe ikora rimwe gusa. Nimba mwatakaje terefone yanyu, musubire mushireho porogaramu yanyu yo kwemeza kandi mubike kode nshasha zo kugarura ahantu hizigirwa.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>Ukugerageza kwinjira kwananiranye kuri konti yanyu</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>Kuva ubu, kwinjira bisaba kode hiyongereyeko ijambo ry&apos;ibanga ryanyu. Nimba ari mwebwe mwavyikoze, nta co mutegerezwa gukora.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>Nimba ari mwebwe kandi mwibagiye ijambo ry&apos;ibanga ryanyu, musabe irishasha. Nimba atari mwebwe, muhitemwo ijambo ry&apos;ibanga rikomeye kuruta kandi mutangize kwinjira mu ntambwe zibiri.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>Nimba atari mwebwe, hari uwushobora kuba azi ijambo ry&apos;ibanga ryanyu: murihindure ubu nyene kandi murabe aho konti yanyu yinjiye.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>Kode zo kugarura zisigaye</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>Gusuzuma ibikoresho vyanyu</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>Integuza y&apos;umutekano</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>Hari uwagerageje kwinjira muri konti yanyu %login kuri %site akoresheje ijambo ry&apos;ibanga ritari ryo incuro %count zikurikirana.</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>Habaye igikorwa c&apos;umutekano kuri konti yanyu %login kuri %site.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>Iyi ni integuza y&apos;umutekano yerekeye konti yanyu. Irungikwa ku ihinduka ryose nk&apos;iryo kandi ntishobora guhagarikwa.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Igihe</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>Kwinjira mu ntambwe zibiri vyahagaritswe kuri konti yanyu %login kuri %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>Kwinjira mu ntambwe zibiri vyahagaritswe</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>Kwinjira mu ntambwe zibiri vyatangijwe kuri konti yanyu %login kuri %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>Kwinjira mu ntambwe zibiri vyatangijwe</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>Konti yanyu %login kuri %site yugaritswe inyuma yo kwinjira kwananiranye incuro nyinshi cane.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>Konti yanyu ubu ikingiwe n&apos;ijambo ry&apos;ibanga ryanyu ryonyene. Nimba atari mwebwe mwavyikoze, musubire mutangize kwinjira mu ntambwe zibiri inyuma yo guhindura ijambo ry&apos;ibanga ryanyu.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>Konti yanyu yugaritswe</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>Passkey yongewe kuri konti yanyu %login kuri %site.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>Uwo wese afise iyi passkey arashobora kwinjira kuri konti yanyu ata jambo ry&apos;ibanga ryanyu. Niba atari mwebwe mwayongeyeko, muyikureho muri Passkey hanyuma muhindure ijambo ry&apos;ibanga ryanyu.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>Passkey yakuwe kuri konti yanyu %login kuri %site.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>Ntishobora kongera kwinjira kuri konti yanyu. Niba atari mwebwe mwayikuyeho, murabe passkey zanyu n&apos;ibikoresho vyanyu.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>Passkey yongewe kuri konti yanyu</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>Passkey yakuwe kuri konti yanyu</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>Ibikorwa vy&apos;umutekano</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Ibikorwa vy&apos;umutekano vya %name</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Yinjiye</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Ukugerageza kwinjira kwananiranye</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Yasohotse</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Ibihe vyo kwinjira vyasohowe</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Kwinjira bivuye ku gikoresho gishasha</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Kwinjira bivuye ahantu hashasha</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Akaranga kemejwe (&quot;Emeza ko ari mwebwe&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Igenzura ry&apos;akaranga ryananiranye</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Yinjiye akoresheje urufunguzo rwo kwinjira</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Kwinjira n&apos;urufunguzo rwo kwinjira vyananiranye</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Kwinjira vyanswe: kode y&apos;intambwe ya kabiri irabuze canke si yo</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Kode y&apos;intambwe ya kabiri si yo</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Konti yugaritswe inyuma yo kwinjira kwananiranye</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Konti yuguruwe</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Ijambo ry&apos;ibanga ryahinduwe</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Guhindura ijambo ry&apos;ibanga vyananiranye</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Ijambo ry&apos;ibanga ryasubiwemwo</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Ijambo ry&apos;ibanga rishasha ryasabwe</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Aderese ya imeyili yahinduwe</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Izina ry&apos;umukoresha ryahinduwe</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Kwinjira mu ntambwe zibiri vyatangijwe</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Kwinjira mu ntambwe zibiri vyahagaritswe</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Kode yo kugarura yakoreshejwe</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Kode nshasha zo kugarura</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Ijambo ry&apos;ibanga rya porogaramu ryaremwe</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Ijambo ry&apos;ibanga rya porogaramu ryatesheje agaciro</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Urufunguzo rwo kwinjira rwongeweko</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Urufunguzo rwo kwinjira rwakuweho</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Konti yatangijwe</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Konti yahagaritswe</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Vyose</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Kwinjira n&apos;ibihe vyo kwinjira</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Ihinduka rya konti</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Bikeneye kwitwararikwa</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>vyakozwe namwe</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>vyakozwe n&apos;umukoresha</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>vyakozwe na %login</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>Uburyo</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>Mucukumbuzi</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>Sisitemu ikoresha</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Igikoresho</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>Ahantu</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>Igihugu</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Ibihe vyo kwinjira</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>Ibihe</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>Inzira yarungitswemwo</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Ukugerageza kwananiranye</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>Kode zisigaye</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>Umushinzwe kwinjira</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Ibikorwa vy&apos;umutekano</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Ibikorwa vy&apos;umutekano vya %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Kwinjira n&apos;ihinduka ry&apos;umutekano wa konti yanyu. Nimba mubonye ikintu mutakoze, muhindure ijambo ry&apos;ibanga ryanyu kandi musohore ibikoresho mutazi.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>Kwinjira n&apos;ihinduka ry&apos;umutekano w&apos;iyi konti.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Ibikoresho vyanyu</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Guhindura ijambo ry&apos;ibanga</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>Gusubira kuri konti</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>Ibikorwa vy&apos;umutekano ntibiriko birandikwa</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>Bisomwa mu gitabo c&apos;ikurikiranwa ry&apos;abakoresha, gifise imbonerahamwe expuser_audit ibuze canke idashigikiwe kuri ubu bubiko bw&apos;amakuru. Mukoreshe php update/common/scripts/6.0/createuseraudittable.php, canke ivugurura ry&apos;ububiko bw&apos;amakuru rya 6.0.15.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Imisi %days iheze</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Kwinjira mu misi %days iheze</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>Ibikorwa vy&apos;umutekano biheruka</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Kwerekana</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>vyananiranye</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>vyanswe</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Nta bikorwa vy&apos;umutekano biranditswe.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>Ibikorwa vy&apos;umutekano bibikwa imisi %days.</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>Ibikorwa vy&apos;umutekano bibikwa gushika umuyobozi abikuyeho.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Kumanura amakuru yanje yo kwinjira</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Ibihe vyanyu vyo kwinjira n&apos;ibikorwa vy&apos;umutekano nk&apos;idosiye ya JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Ibihe vyo kwinjira ntibibikwa kuri uru rubuga, rero nta kindi gikoresho cashobora gusohorwa. Muhindure ijambo ry'ibanga ryanyu ubu nyene.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>Ibindi bihe vyo kwinjira %count vyasohowe. Ubu muhindure ijambo ry'ibanga ryanyu.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Nta kindi gikoresho cari cinjiye. Ubu muhindure ijambo ry'ibanga ryanyu.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Murakoze. Iki kintu canditswe ko ari icanyu.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Iki kintu ntigikeneye inyishu.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Urupapuro rwari rwararangiye. Nta kintu cahinduwe; mugerageze kandi.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Mukingire konti yanyu</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Nimba hari ikintu hano kitari mwebwe, musohore ibindi bikoresho vyose, hanyuma muhitemwo ijambo ry'ibanga rishasha. Ibikoresho vyagumye vyinjiye biciye kuri Nyibuka na vyo birasohorwa.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Ibikoresho vyose kiretse iki birasohorwa ku gisabwa gikurikira. Hanyuma muhitamwo ijambo ry'ibanga rishasha.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Ego, musohore ibindi bikoresho</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Ni mwebwe?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Ego, ni jewe</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Oya, mukingire konti yanje</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Yinjiye</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Ukugerageza kwinjira kwananiranye</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Yasohotse</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Ibihe vyo kwinjira vyasohowe</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Kwinjira bivuye ku gikoresho gishasha</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Kwinjira bivuye ahantu hashasha</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Akaranga kemejwe (&quot;Emeza ko ari mwebwe&quot;)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Igenzura ry&apos;akaranga ryananiranye</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Yinjiye akoresheje urufunguzo rwo kwinjira</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Kwinjira n&apos;urufunguzo rwo kwinjira vyananiranye</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Kwinjira vyanswe: kode y&apos;intambwe ya kabiri irabuze canke si yo</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Kode y&apos;intambwe ya kabiri si yo</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Konti yugaritswe inyuma yo kwinjira kwananiranye</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Konti yuguruwe</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Ijambo ry&apos;ibanga ryahinduwe</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Guhindura ijambo ry&apos;ibanga vyananiranye</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Ijambo ry&apos;ibanga ryasubiwemwo</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Ijambo ry&apos;ibanga rishasha ryasabwe</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Aderese ya imeyili yahinduwe</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Izina ry&apos;umukoresha ryahinduwe</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Kwinjira mu ntambwe zibiri vyatangijwe</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Kwinjira mu ntambwe zibiri vyahagaritswe</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Kode yo kugarura yakoreshejwe</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Kode nshasha zo kugarura</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Ijambo ry&apos;ibanga rya porogaramu ryaremwe</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Ijambo ry&apos;ibanga rya porogaramu ryatesheje agaciro</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Urufunguzo rwo kwinjira rwongeweko</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Urufunguzo rwo kwinjira rwakuweho</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Konti yatangijwe</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Konti yahagaritswe</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Vyose</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Kwinjira n&apos;ibihe vyo kwinjira</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Ihinduka rya konti</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Bikeneye kwitwararikwa</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Ibikorwa vy&apos;umutekano</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Ibikorwa vy&apos;umutekano vya %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Kwinjira n&apos;ihinduka ry&apos;umutekano wa konti yanyu. Nimba mubonye ikintu mutakoze, muhindure ijambo ry&apos;ibanga ryanyu kandi musohore ibikoresho mutazi.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Ibikoresho vyanyu</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Guhindura ijambo ry&apos;ibanga</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>Ibikorwa vy&apos;umutekano ntibirandikwa kuri uru rubuga.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Kwinjira mu misi %days iheze</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Ukugerageza kwananiranye</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Nta bikorwa vy&apos;umutekano biranditswe.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Kumanura amakuru yanje yo kwinjira</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Ibihe vyanyu vyo kwinjira n&apos;ibikorwa vy&apos;umutekano nk&apos;idosiye ya JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>Ibihe vyo kwinjira ntibibikwa kuri uru rubuga, rero nta kindi gikoresho cashobora gusohorwa. Muhindure ijambo ry'ibanga ryanyu ubu nyene.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>Ibindi bihe vyo kwinjira %count vyasohowe. Ubu muhindure ijambo ry'ibanga ryanyu.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Nta kindi gikoresho cari cinjiye. Ubu muhindure ijambo ry'ibanga ryanyu.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Murakoze. Iki kintu canditswe ko ari icanyu.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Iki kintu ntigikeneye inyishu.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Urupapuro rwari rwararangiye. Nta kintu cahinduwe; mugerageze kandi.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Mukingire konti yanyu</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Nimba hari ikintu hano kitari mwebwe, musohore ibindi bikoresho vyose, hanyuma muhitemwo ijambo ry'ibanga rishasha. Ibikoresho vyagumye vyinjiye biciye kuri Nyibuka na vyo birasohorwa.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Ibikoresho vyose kiretse iki birasohorwa ku gisabwa gikurikira. Hanyuma muhitamwo ijambo ry'ibanga rishasha.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Ego, musohore ibindi bikoresho</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Ni mwebwe?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Ego, ni jewe</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Oya, mukingire konti yanje</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>Ijambo ry&apos;ibanga</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>Ijambo ry&apos;ibanga na kode y&apos;intambwe ya kabiri</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>Interface ya REST</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>Interface ya SOAP</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>Kwinjira rimwe (single sign-on)</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>Yinjiye imbere y&apos;uko ibihe vyo kwinjira vyandikwa</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Icegeranyo co kwinjira</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>Abinjiye ku rubuga, incuro konti zinjira n&apos;izo binanirwa, no gusohora umukoresha hose. Gikora n&apos;umushinzwe igihe co kwinjira uwo ari we wese.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>Igihe co kwinjira casohowe. Igikoresho kitegerezwa gusubira kwinjira.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>%login yasohowe mu bihe vyo kwinjira %count.</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>%login nta gihe co kwinjira gikora yari afise.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>Nta konti ifise iyo ID, iryo zina ry&apos;umukoresha canke iyo aderese ya imeyili.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>Iki ni co gihe co kwinjira muriko murakoresha. Kugira ngo mukirangize, musohoke.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>Ico gihe co kwinjira cari carangiye.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Igihe c&apos;uru rupapuro cari carangiye. Nta kintu cahindutse; turabasavye mwongere mugerageze.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>Ibihe vyo kwinjira ntibyandikwa kuri uru rubuga (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>Imbonerahamwe expuser_session irabuze</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>Ibihe vyo kwinjira vyandikwa ikimara kuremwa: php update/common/scripts/6.0/createusersessiontable.php, canke ivugurura ry&apos;ububiko bw&apos;amakuru rya 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>Ubu n&apos;uyu musi</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>Ibihe vyo kwinjira bikora</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>Abakoresha binjiye</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>Kwinjira kw&apos;uyu musi</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>Ukugerageza kwananiranye kw&apos;uyu musi</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>Gusohora umukoresha hose</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>Igihe cose co kwinjira ca konti kirangira ku gisabwa gikurikira, harimwo n&apos;ivyagumijwe na Nyibuka. Mubikoreshe igihe konti ishobora kuba iri mu minwe itari yo; hanyuma musubiremwo ijambo ryayo ry&apos;ibanga.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>ID y&apos;umukoresha, izina ry&apos;umukoresha canke aderese ya imeyili</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>Gusohora hose</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>Yinjiye ubu</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>Herekanwa %limit vyakoreshejwe vuba.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Umukoresha</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Igikoresho</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Aderese</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>Yinjiye</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>Igikorwa giheruka</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Ibikorwa</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>Iki gikoresho</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Ntivyanditswe</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>Gusohora</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>Nta gihe co kwinjira kiriho.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Imisi %days iheze</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>Kwinjira n&apos;ukugerageza kwananiranye biharurwa mu gitabo c&apos;ikurikiranwa ry&apos;abakoresha, kitariho; ibihe bishasha vyo kwinjira ni vyo biharurwa.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>Umusi</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>Kwinjira</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Ukugerageza kwananiranye</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>Ibihe bishasha vyo kwinjira</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>Umushinzwe igihe co kwinjira: %handler. Ibihe vyo kwinjira bisomwa mu mbonerahamwe expuser_session, ni co gituma icegeranyo gikora n&apos;umushinzwe uwo ari we wese.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>Ibikorwa bikekwa mu masaha %hours aheze</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>Umuyoboro umwe wananiwe kwinjira muri konti %accounts (ukugerageza %count)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Konti yugaliwe inyuma y'ukwinjira kwananiranye</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>Ukwinjira kwananiranye %count kuri konti imwe</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>Yinjiye ivuye mu bihugu %count icarimwe</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Ibikorwa vy'umutekano</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Ibihe vyo kwinjira</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>Ukwinjira kwananiranye gusomwa mu gitabo c'igenzura c'abakoresha, kitaboneka hano.</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>Nta gikekwa: nta konti ifise ukwinjira kwananiranye gusubiramwo, nta muyoboro ugerageza konti nyinshi, nta konti yinjiye ivuye mu bihugu bitandukanye.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>Integuza y&apos;umutekano yerekeye konti yanyu</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>Habaye igikorwa c&apos;umutekano kuri konti yanyu %login: %event. Nimba atari mwebwe, mukingire konti yanyu kuri %url.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Gutunganya</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>Saba ibiri kuri uru rubuga ivyo urupapuro rukeneye gusa, mu cifuzo kimwe. Iskema ikurikira imice y'ibirimwo; ikibazo cose gikorwa n'uburenganzira bw'ukoresha yakirungitse.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>GraphQL API irazimije muri iyi siteaccess. Yatse muri graphql.ini: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>Isomero rya GraphQL (webonyx/graphql-php 15) ntiryashizweho.</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>Iherezo</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>Isomero</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>Iskema</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>Imice y'ibirimwo %count, iskema %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>Ikibazo</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>Ibihinduka (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Gukoresha</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>Inyishu</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>Birakorwa…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>Inyishu ntiyashoboye gusomwa.</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>Ikibazo gikorwa n'uburenganzira bwawe, winjiye muri iki gihe.</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%count mu masegonda %seconds</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>nta rugero</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>Uburebure bw'imbere</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>Ingorane</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>Ibintu kuri buri rutonde</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (bisanzwe %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>Ivyifuzo kuri buri mukoresha canke rufunguzo</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>Ivyifuzo kuri buri aderesi itazwi</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>Kwisuzuma</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>Ibibazo bibitswe gusa</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>Ikibazo kinini</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>Bayiti %bytes</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>Ukurungika kunini</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>Nta siteaccess %siteaccess iriho.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>Ihinduka riratse muri %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>Ihinduka rirazimije muri %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>GraphQL API iratse muri %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>GraphQL API irazimije muri %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>Amagenamiterere ntiyashoboye kwandikwa: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>Ububiko bw'inyishu bwahanaguwe: inyishu %count zakuweho.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>Shira akamenyetso mu gasandugu kari iruhande y'ikibazo kugira ugikureho.</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>Ikibazo ntikyashoboye gukurwaho: ikibazo kizanywe mu bubiko bwa PersistedQueryDirectoryList[] gikurwaho hamwe na dosiye yaco.</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>Ikibazo cabitswe cakuweho.</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>Ihinduka</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>caka</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>camye</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Ama-siteaccess</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>Aho API n'ihinduka ryayo vyishura. Utubuto twandika graphql.ini, nk'uko ./console exp:graphql:enable na exp:graphql:disable bibigira.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Siteaccess</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>GraphQL API</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Hindura</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Zimya</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>Ihinduka rizimije</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>Ihinduka ryatse</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Atsa</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>Imipaka</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>graphql.ini [GraphQLSettings] y'iyi siteaccess.</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>Ububiko bw'inyishu</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>Inyishu z'ibibazo bibitswe, zibikwa hakurikijwe uburenganzira bw'umukoresha kandi zihera igihe ibirimwo bisohowe.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Uko bimeze</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>Inyishu zibitswe</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>Inyishu %count, bayiti %bytes</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>Zibikwa ntarengwa</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds s</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>Igihe giheruka guhera</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>Hanagura ububiko bw'inyishu</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>Ibibazo bibitswe</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>Bibikwa na ./console exp:graphql:persist, canke n'abakiriya (ibibazo bibitswe vyikora); bihamagarwa n'izina canke SHA-256.</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>Amazina</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Ingano</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Aho</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Kuraho</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>vyazanywe</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>vyabitswe</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>Ego, kuraho iki kibazo</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>Nta kibazo cabitswe kirahari.</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>Imfunguzo za API</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>Imfunguzo za API bwite zifise akarere graphql:read (ibibazo) canke graphql:write (ihinduka). Zikore kandi uzikureho ku rupapuro Ukwinjira muri API, canke na ./console exp:graphql:keys.</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>Ukwinjira muri API</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>Imfunguzo zose</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>Urufunguzo</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Izina</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Nyen'ukuyifata</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>Uturere</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>Ikoreshwa riheruka</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>irakora</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>yahejeje igihe</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>yakuweho</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>nta na rimwe</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>Nta rufunguzo rwa API rufise akarere ka GraphQL ruraboneka.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>GraphQL API irazimije muri siteaccess %siteaccess, yerekana uru rupapuro; urutonde ruri munsi rwerekana aho yishura.</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>Ku bijanye na siteaccess %siteaccess, yerekana uru rupapuro.</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>Webhook</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>Igikorwa cose iherezo risaba (publish, update, trash, delete, move, hide, reveal, mutation) rirungikirwa, gishizweko umukono, n'igice ca cronjob graphqlwebhooks. ./console exp:graphql:webhooks ikora ivyo nk'iki gice.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Ibikorwa</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>vyose</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Siteaccess zose</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>vyononekaye</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>nta banga</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>Birarindiriye</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count vyaretswe</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>Irungikwa rya nyuma</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Rungika igerageza</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>Ego, kuraho iyi webhook</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>Nta webhook irahari.</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>Ongeraho webhook</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>Ongeraho</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>Amarungikwa aheruka</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Igihe</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Inyishu</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>Iyandikisha</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>Ibishasha vy'ako kanya ku bakiriya: umugezi w'ibikorwa kuri /api/graphql/subscribe, na WebSocket (graphql-transport-ws) kuri Velocity. Igikorwa cose kija gusa ku biyandikishije bashobora gusoma ibirimwo.</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>Bifunguye ubu</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>Ivyinshi bishobora kuguruka</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>%total vyose hamwe, %user ku mukoresha, %address kuri aderese</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>Iyandikisha ritagira izina</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>Uburebure bw'umugezi</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>Webhook ntiyashoboye kwongerwako: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>Webhook %name yahinduwe; ibanga ryayo ry'umukono riguma.</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>Ibanga ry'umukono ntiryashoboye kubikwa (Gutunganya &gt; Ibanga).</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>Webhook %name yongewemwo. Ibanga ryayo ry'umukono, ryerekanywe ubu gusa: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>Nta webhook %name ihari.</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>Webhook %name ntiyishuye: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>Webhook %name yishuye %status mu %ms ms.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>Shira akamenyetso mu gasandugu kari iruhande ya webhook kugira uyikureho.</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>Webhook %name yakuweho.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>GraphQL API irazimije muri iyi siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>Isomero rya GraphQL ntiryashizweho.</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>Koresha GET canke POST.</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>Umubiri w&apos;icifuzo si ikintu ca JSON.</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables si ikintu ca JSON.</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions si ikintu ca JSON.</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>Rungika ikibazo ukoresheje POST.</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>Icifuzo nta kibazo kirimwo.</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>Ikibazo kirarenza bayiti %max.</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>Ikosa ry&apos;imbere muri seriveri</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node ikeneye kimwe gusa muri id, remoteId, path na urlAlias.</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content ikeneye kimwe gusa muri id na remoteId.</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>Akamenyetso ka after si ako iyi API yatanze.</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>Nta zina ry&apos;irindi ry&apos;ishusho %alias rihari (image.ini [AliasSettings] AliasList[]).</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>Ng&apos;aha hemerwa gusa ibibazo vyabitswe: rungika id y&apos;ikibazo cabitswe kuri seriveri.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>Hash y&apos;ikibazo cabitswe si SHA-256.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>Hash y&apos;ikibazo cabitswe ntihuye n&apos;ikibazo.</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>Ivyifuzo ni vyinshi cane: ntibirenze %limit mu masegonda %window. Subira ugerageze mu masegonda %reset.</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>Ikibazo gifise ubwimbike bw&apos;intambwe %depth; hemewe ntiharenga %max.</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>Ikibazo gifise ingorane ingana na %complexity; hemewe ntiharenga %max.</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>Iki cifuzo ntikiremerewe gusoma iskema (introspection).</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search ikeneye inyandiko canke iyungurura (classes, subtree, sections, publishedAfter, publishedBefore).</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument si itariki (ISO 8601, 2026-10-30).</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag ikeneye kimwe gusa muri id, remoteId na path.</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout ikeneye kimwe gusa muri id, identifier na urlAlias.</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>Umwanya operations w'icifuzo ca multipart si icifuzo kimwe ca JSON.</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>Umwanya map w'icifuzo ca multipart si ikintu ca JSON.</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>Icifuzo ca multipart nta dosiye %field gifise.</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>Inzira yo mu ikarata y'imyanya itegerezwa gutangurwa na variables.: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>Dosiye %name ntiyashitse yuzuye (ikosa ryo kurungika %error).</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>Dosiye %name irarenza bayiti %max.</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>Dosiye %name ntiyashoboye gusuzumwa.</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>Ihinduka (mutations) rirazimije muri iyi siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>Rungika ihinduka ukoresheje POST.</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>Injira kugira uhindure ibirimwo.</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>Urufunguzo rwa API nta karere %scope rufise.</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>Ihinduka rifise isesiyo rikenera ikimenyetso c'urupapuro c'isesiyo (umutwe X-CSRF-Token).</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>uploadFromUrl irazimije: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] nta host ivuga.</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>Aderesi itegerezwa kuba aderesi ya https.</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>Host %host ntiri muri graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>Dosiye ntiyashoboye kuzanwa.</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload ni ubwoko bwo kwinjiza gusa.</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>Igihinduka c'ubwoko Upload gifata dosiye y'icifuzo ca multipart.</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>Id ya kure %remoteId yaramaze gufatwa.</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>Ibirimwo bifise ubuhinduzi muri %language: koresha updateContent.</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>Tanga byibuze umwanya umwe.</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>Nta verisiyo nshasha yashoboye gukorwa (ibirimwo bifise imishinga myinshi cane).</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>Verisiyo %version si umushinga.</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent ikenera kimwe gusa muri id na nodeId.</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>Ikibanza ntigishobora kwimurirwa munsi yaco ubwaco.</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>Ibirimwo bifise ikibanza munsi ya %parentId.</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>Agaciro k'umwanya %field ntikashoboye kubikwa.</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>Nta rurimi rw'ibirimwo %language ruriho.</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>Nta mugwi w'ibirimwo %class uri mu iskema.</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>Ibirimwo ntibiriho, canke ntiwemerewe kubisoma.</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>Ntiwemerewe gukora ivyo kuri ibi birimwo.</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>Umugwi %class nta mwanya %field ushobora kwandikwamwo ufise.</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>Umwanya %field watanzwe kabiri.</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>Umwanya %field ufata dosiye: yirungike nk'ukurungika (icifuzo ca multipart).</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>Umwanya %field ntufata dosiye.</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>Umwanya %field ukeneye agaciro.</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>Imiterere %format ni iy'imyanya y'inyandiko ikungahaye gusa; %field ifata agaciro kayo uko kari (RAW).</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>Umwanya %field urakenewe.</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>HTML ntiyashoboye gusomwa.</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content ifata version hamwe na id gusa.</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>Ikimenyetso co kuraba imbere si co canke carahejeje igihe.</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>Si inkomoko (https://host canke https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>Si akarere ka GraphQL API: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>Rungika iyandikisha kuri /api/graphql/subscribe (umugezi w'ibikorwa canke WebSocket).</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>Isaba ntirivuga igikorwa na kimwe c'inyandiko.</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>Iyandikisha risaba umwanya umwe gusa.</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>Iyandikisha ryinshi cane rirafunguye; subira ugerageze mu nyuma.</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>Ufise iyandikisha %max rifunguye, ari ryo ryinshi ryemewe.</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>Aderese yawe ifise iyandikisha %max rifunguye, ari ryo ryinshi ryemewe.</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>Iyandikisha rirazimije muri iyi siteaccess.</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>Injira kugira wiyandikishe (token canke urufunguzo rwa API rwawe bwite).</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>Rungika ihinduka kuri /api/graphql.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>Ivyimurwa</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Uko bihagaze ntivyashoboye gusomwa: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Imbonerahamwe z&apos;ivyimurwa ntizirabaho: ./console exp:upgrade --apply ni yo izirema.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>Ivyimurwa %count vyananiranye</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>Hari ikorwa riri mu nzira, ryatanguwe na %user</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>Iyinjizwa rirugaritswe: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Birindiriye</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Vyananiranye</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>Impfuvyi</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Igihe giheruka gukoreshwa</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>Nta n&apos;imwe kugeza ubu</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>Ivyimurwa vyose</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>Ikorwa ryiganwe</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>Igerageza ritagira ico rihindura (dry run)</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>Ivyimurwa birindiriye vyakorewe mu gikorwa kimwe c&apos;ububiko bw&apos;amakuru casubijwe inyuma hanyuma: nta na kimwe cabitswe. Musi aha hari ivyo ikimurwa cose cahinduye mu bubiko bw&apos;amakuru.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>Ivyo ikorwa ryokora ubu. Nta na kimwe gihindurwa: ikimurwa cose kirindiriye gitondora amahinduka cokora, n&apos;ikorwa ritondora ivyo ryokora imbere n&apos;inyuma.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>Kwigana</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Gukoresha</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>Igerageza ritagira ico rihindura ryananiranye: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>Kwigana bisaba PostgreSQL canke SQLite, aho amahinduka y&apos;iskema ashobora gusubizwa inyuma; kuri ubu bubiko bw&apos;amakuru, umugambi uri musi werekana ivyo ikorwa ryokora.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>Ivyimurwa</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>Ikimurwa</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Uko bihagaze</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>Ivyo cokora</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>Kwigana: %result mu %ms ms</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>Nta kimurwa kirabaho.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>Imbere n&apos;inyuma y&apos;ikorwa</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>Ifoto imbere y&apos;ikorwa</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>irafatwa, igasubizwaho iyo ikimurwa kinaniwe</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>Ntibikora</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>Ifoto inyuma y&apos;ikorwa</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>ifatwa iyo ikorwa ryagenze neza</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>Ivyimurwa %total: %pending birindiriye, %done vyarangiye, %failed vyananiranye.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>Kahise k&apos;ivyimurwa</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>Ikorwa ryose n&apos;umukoresha waryo, ibidukikije, amafoto n&apos;ivyagiriwe commit, tag na push. Ikorwa ryananiranye canke ryahagaritswe rirashobora gusubizwa gukora; ikorwa ryafatiwe ifoto imbere yaryo rirashobora gusubizwa inyuma.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>Amakorwa ntiyashoboye gusomwa: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Imbonerahamwe z&apos;ivyimurwa ntizirabaho: ./console exp:upgrade --apply ni yo izirema.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Kwerekana</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Vyose</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>Amakorwa</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Vyatanguwe</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Uwabikoze</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>Amafoto</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Ububiko</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Ibikorwa</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>imbere</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>inyuma</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>ukurungika (push): %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>Gusubiza gukora</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Gusubiza inyuma</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>Nta korwa riri muri uko bihagaze.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>Vyatanguriwe ngaha</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>Amakorwa, ugusubiza gukora n&apos;ugusubiza inyuma vyatanguriwe kuri izi mpapuro, na raporo ya kimwe cose.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Iki</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Umusaruro</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Ugusubiza inyuma</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>Ugusubiza inyuma %target</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>Ikorwa %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Ivyo ikorwa ryakoze, icandiko caryo n&apos;igitabo c&apos;ivyakozwe caryo. Ikorwa ryatanguriwe ngaha ribandanya inyuma y&apos;amaso iyo uru rupapuro rwugawe; mwongere mwugurure uru rupapuro kugira murikurikirane.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>Gusubiza gukora iri korwa</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>Gusubiza inyuma iri korwa</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>Icandiko ntivyashoboye gusomwa: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Aho bigeze</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Ryatanguwe na %user ku %time.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>Kode iriko irasuzumwa kandi ifoto irafatwa imbere y&apos;ikorwa</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>Hariko harakorwa %id (%index kuri %total)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>Vyarangiye: %done kuri %total</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>Ivyimurwa vyakozwe; ifoto irasubizwaho nimba hari ikimurwa canananiwe</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>Ifoto irafatwa inyuma y&apos;ikorwa, hagakorwa commit, tag na push</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>Ifoto irasubizwaho</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>Ikorwa ryarangiye. Raporo yaryo iriko irapakirwa.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>Aho bigeze ntivyashoboye gukurikiranwa. Mwongere mupakire urupapuro kugira mubone uko ikorwa rigenda.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>Uru rupapuro rukurikirana ikorwa uko rigenda.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Kuvugurura</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Raporo</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Igihe</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms ms</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>Ivyo ikorwa ryerekanye nk&apos;amakosa</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Icandiko</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>Ibidukikije</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>nta na kimwe</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Vyarangiye</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Ukwemeza (commit)</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Akarango (tag)</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Ukurungika (push)</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Ubutumwa</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>Ivyimurwa vy&apos;iri korwa</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>Inkomoko</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>Igitabo c&apos;ivyakozwe n&apos;ikorwa</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>Impera y&apos;igitabo c&apos;ivyakozwe gusa ni yo yerekanwa.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>irakora</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>vyarangiye ata raporo</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>vyagenze neza</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>vyananiranye</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>vyanswe</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>ububiko bw&apos;amakuru ntibwashoboye gushikwako</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>Ikosa ryo mu nda</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>Hari ikorwa riri mu nzira</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind ryatanguwe na %user ku %time.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>Gukurikirana</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>Iyinjizwa rirugaritswe</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>Irindi korwa ni ryo rifise ugufunga (ukugira vya vuba canke ikorwa kuri console): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>vyarangiye</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>birindiriye</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>ntibikenewe</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>ntivyizwi</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>vyasubijwe inyuma</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>vyashizwe mu ngiro</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>vyoshirwa mu ngiro</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>vyasubijwe inyuma</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>vyosubizwa inyuma</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>ntivyakozwe</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>birarindiriye ikindi</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>ihinduka ryemewe</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>ihinduka ryokwemerwa</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>vyiganwe</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Ivyimurwa</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Uko bihagaze</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Kahise</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>Gusubiza inyuma %target</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>Ikorwa risubizwa ku foto yafashwe imbere yaryo, ikimurwa kimwe gisubizwa inyuma na down() yaco. Gusubizaho ifoto ya kera ni ivy&apos;abahinga. Kimwe cose gikorerwa inyuma y&apos;amaso mu izina ryanyu, inyuma y&apos;ifoto y&apos;uko bihagaze ubu.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>Ivyoshobora gusubizwa inyuma ntivyashoboye gusomwa: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>Ikorwa</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>Ikimurwa kimwe</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>Ifoto ya kera</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>Insiguro</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ego</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>oya</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Ifoto</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Akarango</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>Yafashwe</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Ubwoko</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>Ibihimba vyo gusubizaho</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>Ububiko bw&apos;amakuru</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>Amadosiye abitswe (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>Ingene vyateguwe (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>Gusubizaho ububiko bw&apos;amakuru bibusubiza ku gihe ifoto yafashwe, harimwo n&apos;ibihe vyo kwinjira: inyuma y&apos;aho mushobora gusabwa kwongera kwinjira. Ivyahindutse vyose kuva ico gihe biratakara; imbere na mbere hafatwa ifoto y&apos;uko bihagaze ubu.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>Ndazi ivyo ibi bisubizaho</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>Mwongere mwandike ID y&apos;ifoto</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>Ego, gusubiza inyuma</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Guhagarika</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>Amakorwa yafatiwe ifoto imbere yayo.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>Guhitamwo</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>Nta korwa rifise ifoto rirabaho.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>Ivyimurwa vyashizwe mu ngiro bishobora kwisubiza inyuma ubwavyo (bifise down()).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>Nta kimurwa cashizwe mu ngiro gifise down().</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>Amafoto ya kera (abahinga)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>Nta foto irabaho.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>Gukoresha ivyimurwa</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>Ikorwa ribandanya inyuma y&apos;amaso nka %user, kandi urupapuro rwaryo rurerekana uko rigenda. Imbere y&apos;ikimurwa ca mbere hafatwa ifoto y&apos;iyinjizwa; ikimurwa nikinanirwa, ikorwa rirahagarara n&apos;ifoto igasubizwaho.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>Igerageza ritagira ico rihindura imbere</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Uko bihagaze ntivyashoboye gusomwa: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>Ivyimurwa birindiriye</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>Bikorwa muri uru rukurikirane. Mukureko akamenyetso ku kimurwa kugira mukireke, hamwe n&apos;ivyo bigikeneye, ku ikorwa rizoza.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>Gukoresha</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>Ifungura uburyo bwo gutunganya igihe ririko rirakorwa.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>Vyahinduwe inyuma yo gushirwa mu ngiro</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>Aya madosiye si yo yashizwe mu ngiro. Ikorwa rirayanka atari uko ihinduka ryemewe hamwe n&apos;igituma; ntiyongera gukorwa, umubare mushasha wo kugenzura urandikwa kandi igituma kikabikwa mu gitabo c&apos;igenzura.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>Kwemera amahinduka</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Igituma</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>Ivyagenywe ubwavyo ni vyo bitekanye. Akazu kose gasimba intambwe imwe.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>Nta foto</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>Nta foto imbere n&apos;inyuma y&apos;ikorwa: ukunanirwa ntigushobora gusubizwaho ubwavyo.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>Nta gusubizaho</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>Inyuma yo kunanirwa, kureka iyinjizwa uko ukunanirwa kwarisize.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>Kugumya amahinduka atagiriwe commit</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>Gukoresha naho ingene vyateguwe, ivyongerwako canke ibishushanyo vyoba bifise amahinduka atagiriwe commit; ajanwa mu foto.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>Nta commit</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>Ntihakorwe commit y&apos;idosiye y&apos;uko bihagaze n&apos;igitabo c&apos;ivyakozwe n&apos;ikorwa (nta tag kandi nta push).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>Nta push</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>Commit na tag, ariko nta push.</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>Nta tag</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>Commit na push, ariko nta tag ku ikorwa.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>Ego, gukoresha ivyo vyimurwa ubu</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Nta kimurwa kirindiriye.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>Gusubira ku vyerekeye uko bihagaze</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>Amahinduka y&apos;iri yinjizwa yanditswe rimwe gusa nk&apos;amadosiye (ibirimwo, ubwoko, uruhara, ingene vyateguwe, iskema) agashirwa mu ngiro kuri buri yinjizwa ry&apos;urubuga mu rukurikirane rumwe. Ikorwa ribanza gufata ifoto, rikayisubizaho iyo ikimurwa kinaniwe, kandi rikandika ivyo ryakoze, rikabigirira commit na push.</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>Gukoresha %count birindiriye</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Incamake</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Birindiriye</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Vyarangiye</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Vyananiranye</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>Ntibikenewe</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>Ububiko bw&apos;amakuru</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>ibikorwa vy&apos;ububiko bw&apos;amakuru (transactions): %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>Ivyimurwa vy&apos;urubuga biri muri migrations/, ivy&apos;iyongerwako biri muri extension/&lt;name&gt;/migrations/. Bikorwa ukurikije amazina yavyo n&apos;ivyo bikeneye.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Igihe giheruka gukoreshwa</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>Idosiye yarahindutse inyuma yo gushirwa mu ngiro.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>Nta kimurwa kirabaho. ./console exp:migration:generate --skeleton &lt;name&gt; --apply ni yo yandika ica mbere.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>Amakorwa aheruka</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>Amakorwa yose</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>Nta korwa rirabaho.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>Kwigana ikorwa bisaba politike migration/run.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>Hari ikorwa riri mu nzira: mwigane rimaze kurangira.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Gutunganya</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target si ikorwa, si ikimurwa, kandi si ifoto y&apos;iri yinjizwa.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>Mubanze mushireko akamenyetso kuri &quot;Ego, gusubiza inyuma&quot;.</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>Gusubizaho ifoto ya kera ni ivy&apos;abahinga: mushireko akamenyetso kuri &quot;Ndazi ivyo ibi bisubizaho&quot;.</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>Mwongere mwandike ID y&apos;ifoto: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>Muhitemwo byibura igihimba kimwe co gusubizaho.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>Iri korwa ntiryafatiwe ifoto imbere yaryo: musubize inyuma ivyimurwa vyaryo kimwe kimwe, canke musubizeho ifoto ya kera.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>Iki kimurwa ntigishobora kwisubiza inyuma ubwaco: ntikirashirwa mu ngiro, canke ntigifise down().</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Urupapuro rwo kwuzuza ntirwashoboye gusomwa.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>Muhitemwo ikorwa ryo gusubiza gukora.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>Mubanze mushireko akamenyetso kuri &quot;Ego, gukoresha ivyo vyimurwa ubu&quot;.</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>Muhitemwo byibura ikimurwa kimwe.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>Ikimurwa carahindutse inyuma yo gushirwa mu ngiro: mwemere ihinduka hamwe n&apos;igituma, canke musubizeho idosiye.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>Mutange igituma ivyimurwa vyahinduwe vyemerwa.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>Igituma ntikirenga indome 500.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>Ikorwa ryatanguriwe ngaha riracariko rirakorwa (%detail). Murindire rirangire.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>Irindi korwa ni ryo rifise ugufunga kw&apos;iyinjizwa: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>Ikorwa rikeneye umukoresha abaho kandi yinjiye.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Nta porogaramu ya php y&apos;umurongo w&apos;amabwirizwa yabonetse. Mushire migration.ini [AdminSettings] PhpCliPath ku nzira yayo yuzuye.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open ntikora, ni co gituma ikorwa ridashobora gutangurirwa ngaha. Mukoreshe ./console exp:migration:migrate --apply kuri serivere.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>Ububiko bw&apos;amakorwa ntibushobora kwandikwamwo: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>Ikorwa ryaratanguye ariko ntiryamenyesheje ID y&apos;igikorwa caryo. Musuzume %detail.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>Muvuge ico gusubiza inyuma.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>Ikorwa ntiryashoboye gutangura.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>Gufata ivyahindutse</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>Igihe ifata ririko riraba, ivyo uhindura mu buyobozi canke ku mwanya wo ku ruhande rw'urubuga bibikwa nk'intambwe z'iyimurwa: ibirimwo, amasomo, ibikorwa n'amabwiriza, ibice, abakoresha n'imigwi, amazina asubirira ya URL, ingene vyateguwe. Urihagarike urangije, urabe ivyo ryafashe, maze uryakuremwo iyimurwa.</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>Ivyafashwe ntivyashoboye gusomwa: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>Imbonerahamwe z'ivyafashwe ntiziraboneka: banza ukoreshe ivugurura (exp:upgrade --apply).</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>Gufata kwahagaritswe muri migration.ini ([RecordingSettings] Recording=disabled).</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>Ivyo nahinduye</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>Rifata gusa ivyo uhindura, aho woba ubihindura hose, gushika urihagaritse.</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>Ifata</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>kuva %time, ivyahindutse %count gushika ubu.</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>Ikimenyetso (si ngombwa)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>Erekana ivyo ryafashe</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Hagarika gufata</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>Tangura gufata ivyo nahinduye</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>Idirisha ry'urubuga rwose</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>Rifata ihinduka ryose ry'umukoresha wese n'irya konsole gushika rifunzwe. Uriguruye, usabwa kwemeza ko ari wewe.</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Ryuguruye</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>Ugara idirisha</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>Ugurura idirisha ry'urubuga rwose</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>Ivyafashwe</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>Konti y'umukoresha (izina ryo kwinjira, imeyili, ijambo ry'ibanga) n'ibibanza vya konti z'abakoresha ntibifatwa na rimwe.</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Ivyahindutse</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>Urubuga rwose</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>Ivyo %name yahinduye</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Vyahagaritswe</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>Nta fata rirabaho.</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>Ifata %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>Ivyafashwe vyose</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>Iyimurwa ryovamwo</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>Ivyahindutse bihurijwe mu ntambwe imwe kuri kimwe cose cahinduwe: ivyo iyimurwa rikuwe muri iri fata ryokora.</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>Iyimurwa rishobora gukurwa muri ryo iki gishirwamwo nikimara kugira ubwoko bw'intambwe za YAML %types.</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>Vyasizwe nkana: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>Nta na kimwe cafashwe.</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>Ivyo ryafashe</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>Ivyahindutse %count, uko vyagiye birakorwa.</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Ihinduka</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>Intambwe</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>Vyerekeye</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>Ibindi %count: ./console exp:migration:record:show birerekana vyose.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Ta</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>Ikuraho ifata n'ivyo ryafashe. Ivyahinduwe bigumana guhinduka.</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>Ego, ta iri fata</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>Birafatwa…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Ivyo uhindura birafatwa ku bw'iyimurwa.</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>Ihinduka ryose kuri uru rubuga rirafatwa ku bw'iyimurwa (idirisha ry'urubuga rwose).</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>Ifata ry'urubuga rwose ryatanguye: ihinduka ryose ry'umukoresha wese rirafatwa gushika urihagaritse.</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>Ifata ryatanguye: ivyo uhindura birafatwa gushika urihagaritse.</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>Ifata ryahagaritswe. Ivyo ryafashe bigumaho gushika urita.</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>Ifata n'ivyabaye vyaryo vyakuweho.</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>Nta fata %id rihari.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>Banza uhitemwo "Ego, ta iri fata".</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>Umukoresha yafashe wenyene ni we ashobora guhagarika ifata ry'ikiringo.</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>Hitamwo ifata rikwiye guhagarikwa.</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>Ifata ry'ubu bwoko risanzwe ririko riraba.</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>Ifata ntiryashoboye guhindurwa: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>Kora iyimurwa</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>Izina ry'iyimurwa (si ngombwa)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>Iyimurwa %file ryanditswe. Ihinduka ridashobora gukorwa n'intambwe iyo ari yo yose rivugwa hejuru mu dosiye, rikorwa n'amaboko.</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>Nta yimurwa ryanditswe: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>Igikorwa kirekire mu bice</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>Imirima irimwo ubusa igumana ingenamiterere ya migration.ini [RunSettings].</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>Ntiharenze iyi migration</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>Nta migration yindi inyuma ya (amasegonda)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>Akaruhuko hagati ya migration (amasegonda)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>Ibanze rito (1 kugeza kuri 19)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>Umurima w'igikorwa kirekire ni umubare wuzuye uhereye kuri 1 (akaruhuko: amasegonda kuva kuri 0 kugeza kuri 60, ibanze: 1 kugeza kuri 19), canke ubusa.</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>Kirafunga ubwacyo saa %time.</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>Funga ubwayo inyuma ya (iminuta, ntibihambaye)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>Iminuta ni umubare wuzuye kuva kuri 1 kugeza kuri 44640 (iminsi 31), canke ubusa.</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>Ikimurwa %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>Ikimurwa gishasha</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>Ikimurwa ca YAML: kiyandike nk'inyandiko canke wubake intambwe zaco mu rupapuro, ukigenzure, hanyuma ukibike mu bubiko bw'ivyimurwa.</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>Iki kimurwa camaze gukoreshwa, rero ntigisubira kubikwa: dosiye yahinduwe yokwankwa n'umuzamu wa checksum. Kora ihinduka mu kimurwa gishasha.</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>Seriveri y'urubuga ntishobora kwandika iyo dosiye.</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>Imirongo y'iciyumviro iri hejuru ni umutwe (description, author, requires, environments, engines). Iyo intambwe yongewemwo canke ihinduwe mu rupapuro, ikimurwa kirasubira kwandikwa: ivyiyumviro biri hagati y'intambwe ntibigumizwa.</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>Izina ry'ikimurwa</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>Aho kija</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>Urubuga</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>Inyandiko ya YAML</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>Kugenzura</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Kubika</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Intambwe</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>Imfunguzo</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Guhindura</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>Kwimura hejuru</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>Kwimura hasi</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Gukuraho</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>Nta ntambwe irahari: ongeramwo imwe ukoresheje urupapuro, canke uzandike mu nyandiko.</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>Hindura intambwe %number</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>Kwongeramwo intambwe</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>Urupapuro rw'intambwe rukorwa hisunzwe ubwoko bwayo: imfunguzo zayo, ico urufunguzo rwose rwakira n'uburyo intambwe irimwo.</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>Ubwoko bw'intambwe</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>Erekana urupapuro rwayo</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>Intambwe ifise imfunguzo ubwoko bwayo butazi; zikurwamwo iyo intambwe ihinduwe: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>Uburyo</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>Mu</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>muri %modes gusa</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>Agaciro gasanzwe: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>Ivyangombwa, ivyerekezo n'iciyumviro</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>Ibice Izina=agaciro bitandukanijwe na koma. Agaciro k'iyi ntambwe: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>Urugero</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>Hindura intambwe</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>Ongeramwo intambwe</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>Ico exp:migration:check ivuga: umutwe, inyandiko n'intambwe yose igenzurwa n'ubwoko bwayo.</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>Ikimurwa catsinze igenzura.</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Kubanza kuraba</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>YAML uko izobikwa.</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>Erekana YAML</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>Ivyimurwa vya YAML</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>cakoreshejwe</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>Nta kimurwa ca YAML kirahari.</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>Umwanditsi</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>Nta kimurwa ca YAML %id kiri mu bubiko bw'ivyimurwa.</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>Hitamwo ubwoko bw'intambwe.</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>Intambwe yongewemwo. Genzura ikimurwa imbere yo kukibika.</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>Intambwe yahinduwe. Genzura ikimurwa imbere yo kukibika.</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>Hitamwo intambwe.</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>Iyi ntambwe ntigira urupapuro (uruzinga, canke ubwoko bw'intambwe iyi nyubakwa idafise): yihindurire mu nyandiko.</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>Hitamwo aho ikimurwa kija: urubuga canke umugereka ukora.</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>%file yabitswe. Banza ukore igerageza imbere y'uko ikimurwa gikoreshwa.</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>Ntivyabitswe: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>Amayinjizwa ya kure</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>Ayandi mayinjizwa iri rishikiriza ivyimurwa vyaryo: ugushikiriza kurungika ivyimurwa ku mayinjizwa ya kure yatowe kandi kukabikoresha ngaho, vyose icarimwe kandi bihuje. Iyinjizwa rya kure ntiribika ibanga na rimwe: icemezo caryo co kwinjira kivuga izina ry'ibanga riri muri Gutunganya &gt; Ibanga.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>Iyinjizwa rya kure rishasha</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Imfashanyo</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>Igeragezwa ry'ihuza rya %id</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>Amayinjizwa ya kure</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>Amayinjizwa ya kure agera kuri %parallel akorwako icarimwe; igice kimwe gishobora kumara amasegonda %timeout kuri rimwe rimwe.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>Iyinjizwa rya kure</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Aderese</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Icemezo co kwinjira</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>Imigwi</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>ivyateguwe vyo gukosora</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>amadosiye gusa (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>Urufunguzo rwa SSH</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>Ijambo ry'ibanga</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>nta na kimwe (umukozi wa SSH n'imfunguzo za host)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>Kugerageza ihuza</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>Ugushikiriza ku mugwi kuja ku mayinjizwa ya kure yawo yose.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>Gushikiriza ku mayinjizwa ya kure</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>Nta yinjizwa rya kure riratunganywa.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>Iyinjizwa rya kure %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>Nta kintu kirungikwa canke gikoreshwa ngaha: Kubika vyandika ivyateguwe muri settings/override/migration.ini.append.php. Icemezo co kwinjira ni izina; agaciro kaco kaguma muri Gutunganya &gt; Ibanga canke mu bidukikije.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Musuzume ingene vyateguwe</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>Ivyateguwe nk'uko vyinjijwe, bitarabikwa.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Kurabura</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Ingene vyateguwe ni vyiza. Iyi mirongo izokwandikwa:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>Ukurungika</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>izina gusa; agaciro kaguma muri Gutunganya &gt; Ibanga</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Imirongo izokwandikwa</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>Ihuza</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>Urufunguzo rwa host</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. Iyinjizwa rya kure</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>Ingene iyinjizwa rya kure ryitwa n'ibidukikije ririmwo.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>Inomero</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>Indome, ibiharuro, - na _, nk'akarorero production1. Ni ryo zina ry'iyinjizwa rya kure muri raporo no kuri konsole (--remotes=production1) kandi ntirishobora guhindurwa mu nyuma.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... Ugushikiriza mu bigero guca mu bidukikije kuri uru rutonde.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>Si ngombwa, bitandukanijwe n'utwatuzo, nk'akarorero production. Ugushikiriza ku mugwi kuja ku mayinjizwa ya kure yawo yose.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. Ihuza</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>Ingene amadosiye ashika ngaho, n'aho iyinjizwa riri.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>Biciye kuri SSH, ivyahindutse gusa, irungikwa ryacitse rirasubizwa. Uburyo bwiza kuruta aho rsync yashizwe.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>SSH na scp ku madosiye.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>SSH na sftp ku madosiye.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>Amadosiye gusa: ivyimurwa birarungikwa kandi bigasomwa kandi, ariko ntibishobora gukoreshwa ngaho.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>FTP iciye kuri TLS; amadosiye gusa.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>Iyindi yinjizwa kuri iyi sereveri, mu bubiko.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Host</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>Izina rya host canke aderese, nk'akarorero node1.example.com. Si ivya local.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>Porte</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>Ubusa: 22 ku SSH, 21 ku FTP.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Umukoresha</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>Inzira</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>Umuzi w'iyinjizwa ngaho, nk'akarorero /var/www/site (ku FTP: inzira konte ya FTP ibona).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>Umurongo w'amabwirizwa wa PHP</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>PHP CLI iriyo: php, canke inzira yuzuye nka /opt/plesk/php/8.4/bin/php.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>Inyandiko za konsole zikoreshwa ngaho nka root</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>Gusa iyo umukoresha w'iyinjizwa rya kure ari root (bica bikoreshwa na --allow-root-user).</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. Icemezo co kwinjira</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>Ingene iri yinjizwa ryinjira ngaho. Izina gusa ni ryo ribikwa.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Nta na kimwe</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>Umukozi wa SSH n'imfunguzo z'umukoresha iri yinjizwa rikoreshwa nka we (kandi ibihe vyose kuri local).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>Urufunguzo rwihariye rubitswe nk'ibanga.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>Ijambo ry'ibanga ribitswe nk'ibanga (FTP yinjira irikoresheje).</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>Izina ry'ibanga</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>Ibanga riri muri Gutunganya &gt; Ibanga, nk'akarorero deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Gutunganya &gt; Ibanga</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>Canke variable y'ibidukikije</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>Variable y'igikorwa ca sereveri irimwo, nk'akarorero DEPLOY_KEY (ibitswe nka env:DEPLOY_KEY). Isubirira izina ry'ibanga.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. Urufunguzo rwa host</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>Si ngombwa, ku SSH, sftp na rsync.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>Icerekana c'urufunguzo rwa host (fingerprint)</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... nk'uko ssh-keygen -l ivyerekana. Iyo kiriho, host itegerezwa kwerekana uru rufunguzo; iyo kitariho, urufunguzo rumenyekana ku guhura kwa mbere.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. Kurabura</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>Mugerageze ihuza n'ivyateguwe biri hejuru, hanyuma murabure imirongo izokwandikwa.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>Gukuraho iri yinjizwa rya kure</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>Ivyateguwe vyaryo bikurwa muri settings/override/migration.ini.append.php. Nta kintu gihinduka ku yinjizwa rya kure, kandi ibikorwa vyaryo vyo gushikiriza biguma muri kahise.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>Ego, gukuraho iri yinjizwa rya kure</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>Ibikorwa vyo gushikiriza</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>Ugushikiriza kurungika ivyimurwa vy'iri yinjizwa ku mayinjizwa ya kure yatowe kandi kukabikoresha ngaho nka %user, vyose icarimwe kandi bihuje: iyinjizwa rya kure ryose rigenzurwa imbere, kandi iyo rimwe rinaniwe, iyinjizwa rya kure ryose ryabishize mu ngiro risubizwa inyuma. Bikorerwa inyuma, kandi urupapuro rwakwo rwerekana iyinjizwa rya kure ryose uko bigenda.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. Amayinjizwa ya kure</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>Mushireko akamenyetso ku mayinjizwa ya kure, ku mugwi, canke kuri vyompi.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>Gushikiriza ngaho</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. Gute</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>Gushikiriza</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>Kurungika no gukoresha</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>Ivyimurwa birarungikwa, bikagenzurwa kandi bigakoreshwa ku yinjizwa rya kure ryose n'inomero imwe y'ikorwa isangiwe.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>Kurungika gusa</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>Amadosiye ararungikwa kandi akagenzurwa, nta kintu gikoreshwa (inzira yonyene ku yinjizwa rya kure rya FTP).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>Mu bigero</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>Icigero ku kindi ukurikije urutonde rw'ibidukikije (dev, stage, beta, production ...): icigero ca mbere kirashikirizwa, hanyuma irembo rirarindira gushika umuntu yemeje igikurikira. Vyose canke nta na kimwe muri buri cigero.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>Ibi vyimurwa gusa</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>Si ngombwa: inomero z'ivyimurwa, zitandukanijwe n'utwatuzo. Ubusa: ikimurwa cose c'urubuga n'ivyongerwako vyarwo.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>Isuzuma ry'imbere gusa</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>Ego, gushikiriza ubu</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>Ibikorwa vyo gushikiriza vyarungitse canke vyakoresheje ikintu, ica vuba imbere (isuzuma ry'imbere ntiribika raporo).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>kurungika gusa</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>mu bigero, ibigero %stages</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>ntibihuje</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>Nta gushikiriza kurabaho.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>Ugushikiriza %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Iyinjizwa rya kure ryose ry'ugushikiriza n'uko rihagaze. Ugushikiriza gutanguriwe ngaha kubandanya inyuma iyo uru rupapuro rwugawe; mwugurure urupapuro kandi kugira mugukurikirane.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>Ibikorwa vyose vyo gushikiriza</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>Isuzuma ry'imbere</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>Icigero gikurikira</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>Ivyateguwe n'ivyemezo vyo kwinjira biriko biragenzurwa</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>Isuzuma ry'imbere: uko iyinjizwa rya kure ryose rihagaze kuriko kurasomwa</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>Amadosiye y'ivyimurwa ariko ararungikwa</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>Ivyashitse biriko biragenzurwa</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>Ivyimurwa biriko birakoreshwa ku yinjizwa rya kure ryose</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>Amayinjizwa ya kure ariko arasubizwa inyuma</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>Ugushikiriza kwarangiye. Raporo yakwo iriko irapakirwa.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>Aho bigeze ntivyashoboye gukurikiranwa. Muvugurure urupapuro kugira mubone ingene ugushikiriza kugenda.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>Igice</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>Uru rupapuro rukurikirana ugushikiriza uko kugenda.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>Bihuje</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>Ibigero</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>icigero %stage kirarindiriye ku irembo ryaco</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>Irembo %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>vyemejwe na %user ku isaha %time</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>Icigero</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>Amadosiye yarungitswe</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>Verisiyo ya kernel</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>vyashizwe mu ngiro: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>vyo gushira mu ngiro: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>Ibice</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>Irembo: icigero %stage muri %stages</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>Ibigero bibanziriza vyarashikirijwe. Muvyigenzure, hanyuma mwemeze icigero gikurikira: amayinjizwa ya kure yaco aragenzurwa kandi agashikirizwa, vyose canke nta na kimwe.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Igikurikira</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>Ego, gushikiriza icigero gikurikira ubu</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Kwemeza</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>Gusubiza inyuma uku gushikiriza</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>Iyinjizwa rya kure ryose ryabishize mu ngiro (%list) risubira ku foto yafashwe imbere y'ikorwa ryaryo, vyose icarimwe.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>Ego, gusubiza inyuma uku gushikiriza ubu</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>vyateganijwe</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>vyarungitswe</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>vyashikirijwe</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>birarindiriye ku irembo</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>vyatowe</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>vyateguwe</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>vyiteguye</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>birarindiriye icigero cavyo</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>amadosiye yarungitswe</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>vyagenzuwe</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>vyananiranye, vyisubije uko vyari</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>ntivyahindutse</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>ntivyashikirijwe</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>ntibishikirwa</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>Iyinjizwa rya kure ryishuye.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>Iyinjizwa rya kure ntirishobora gukoreshwa ubu.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done vyarangiye, %pending birindiriye, %failed vyananiranye</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>Ugufunga</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>ikorwa rifise ugufunga ngaho</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>ubusa</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stage muri %stages</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>Muhitemwo iyinjizwa rya kure ryo kugerageza.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>Mubanze mushireko akamenyetso kuri “Ego, gukuraho iri yinjizwa rya kure”.</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>Iyinjizwa rya kure ntiryashoboye gukurwaho: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>Iyinjizwa rya kure ntiryashoboye kubikwa: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Idosiye y'ingene vyateguwe ntishobora gusomwa: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>Muhitemwo nibura iyinjizwa rya kure rimwe canke umugwi.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>Iyinjizwa rya kure ryatowe ntirikiri mu vyateguwe. Muvugurure urupapuro.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>Mubanze mushireko akamenyetso kuri “Ego, gushikiriza ubu”.</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>Iyinjizwa rya kure rya FTP ntirishobora gukoresha ivyimurwa: muhitemwo “Kurungika gusa”, canke murireke.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>Ivyimurwa vyo gushikiriza ni inomero z'ivyimurwa, zitandukanijwe n'utwatuzo.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>Ugushikiriza kuracabandanya. Murindire gushika kurangiye.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>Uku gushikiriza ntikurindira ku irembo.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>Nta yinjizwa rya kure ryashize mu ngiro uku gushikiriza: nta co gusubiza inyuma.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>Mubanze mushireko akamenyetso kuri “Ego, gushikiriza icigero gikurikira ubu”.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>Mubanze mushireko akamenyetso kuri “Ego, gusubiza inyuma uku gushikiriza ubu”.</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>Iyinjizwa rya kure rifise inomero %id risanzwe ririho.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>Porte ni igiharuro kiva kuri 1 gushika kuri 65535.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>Ibidukikije ni ijambo ry'indome, ibiharuro, - na _ (alpha, dev, stage, beta, production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>Umugwi ni ijambo ry'indome, ibiharuro, - na _ (si all): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>Icemezo co kwinjira ntigishobora gusomwa ubu: %problem. Mukibike muri Gutunganya &gt; Ibanga (canke mushireho variable) imbere y'ugushikiriza kwa mbere.</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>Iyinjizwa rya kure rya FTP ryakira amadosiye gusa: ugushikiriza kuriryo ni “Kurungika gusa”, kandi ivyimurwa vyaryo bikoreshwa ngaho n'amaboko.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>Iyinjizwa rya kure %id ntiriri muri settings/override/migration.ini.append.php; murikureho aho ryashizwe.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>Vyinjiye biciye kuri FTP kandi index.php yasomwe. Uko ivyimurwa vy'iyinjizwa rya kure rya FTP bihagaze ntibishobora gusomwa.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>Vyahinduwe</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>Vyakozwe</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Izina</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Ubwoko</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Igice</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>Uwakoze</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Ibirimwo bishasha</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>Ibirimwo vyakozwe kandi vyahinduwe vuba ku rubuga rwose, ibishasha imbere: ivyo abaraba barungitse, ivyafashwe ngo vyihwezwe, imishinga irindiriye gusohorwa. Hitamwo ibintu kugira ubirekure, ubifate, ubinyegeze, ubyerekane, ubikureho canke ubyimurire mu kindi gice canke mu kindi ngene vimeze.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>Urutonde ntirwashoboye gusomwa: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>Ifatwa ryo kwihweza ntiriratunganywa, ntaco rero gifashwe kandi ibikorwa vyo gufata ntibitangwa. Intambwe yo kuvugurura 6.0.15-review-hold irabitunganya: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Iyungurura urutonde</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Kuva kuri</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Gushika</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Itariki</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>Vyakozwe (vyasohowe ubwa mbere)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Vyose</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Uko bihagaze</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Vyasohowe</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>Umushinga, utigeze usohorwa</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>Birindiriye (kwemezwa canke itariki)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>Mu giseke c'imyanda</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Vyafashwe ngo vyihwezwe</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>Vyafashwe</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>Ntivyafashwe</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>Vyanyegejwe</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>Biraboneka</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>Vyarungitswe kuri</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>Uburyo bwose bwo gushika ku rubuga</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>Ivyo ikurikiranwa ryanditse gusa.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>Ubu: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>Izina ryo kwinjira canke inomero y'ukoresha.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Iyungurura</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>Kuraho amayungurura</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>Ibintu</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from gushika %to muri %count</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Nta kintu</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(vyasomwe mu ms %ms)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>Ibikorwa ku bintu vyatowe</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>Hitamwo vyose kuri uru rupapuro</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>%count vyatowe</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Igikorwa</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>Hitamwo igikorwa</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>Rekura ifatwa</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Fata ngo vyihwezwe</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Kunyegeza</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>Kwerekana</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>Kurungika mu giseke</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>Gufuta</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>Gushinga igice</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>Gushinga ingene vimeze</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>Igituma</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>Kirakenewe kugira vyafatwe; kibikwa hamwe n'ifatwa no mu ikurikiranwa.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>Hitamwo igice</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Ingene vimeze</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>Hitamwo ingene vimeze</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>Shira mu ngiro ku vyatowe</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>Ikintu cose kigenzurwa hakurikijwe uburenganzira bwawe. Kurungika mu giseke no gufuta bigusaba kwemeza. Ibintu birenze %count bikorerwa inyuma.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>Hitamwo</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>Isohorwa</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>Vyarungitswe biturutse</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>Hitamwo %name</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>ntibiraba</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(nta zina)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>Inomero %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>Umushinga</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Birindiriye</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>Vyanyegejwe n'ibiri hejuru</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>Vyafashwe: ivyarungitswe bishasha</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>Verisiyo %version irindiriye</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>Verisiyo %version iriko irakorwa</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>Umushinga, verisiyo %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>Verisiyo %version yasohowe</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>Vyateguriwe ku wa %date</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>nta aderese</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>ntivyanditswe</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>Nta kintu gihuye n'aya mayungurura.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Kwerekana vyose</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>Nta birimwo biriho.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Ku rupapuro</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Erekana ibintu %count ku rupapuro.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says "not recorded".</source>
+        <translation>Aderese na mushakisha vy'ivyarungitswe biva mu rutonde rw'ikurikiranwa, rutaboneka ng'aha: inkingi ivuga "ntivyanditswe".</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>Aderese na mushakisha ni ivyo ikurikiranwa ryanditse kuri iki kintu (ifatwa ryikora rihora ribyandika; gusohora no gukora gusa aho vyugurujwe), uko amategeko yaryo y'ibanga abibika.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: ibintu %count</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>Gufuta bikuraho ibintu burundu, hamwe na verisiyo zavyo zose n'ubuhinduzi bwavyo. Ntibishobora gusubizwa inyuma.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>Ibintu bija mu giseke c'imyanda, aho bishobora kugarukanwa.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>Ikintu cose kigenzurwa hakurikijwe uburenganzira bwawe; ikintu gifise ibindi bintu munsi yaco gisigara uko kiri (gikureho mu miterere y'ibirimwo). Uzosabwa kwemeza ko ari wewe.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>Ivyo bikorerwa inyuma: urupapuro rw'aho bigeze rurugurura, kandi umusaruro wa ca kintu cose werekanwa iyo birangiye.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>Ibintu vyatowe</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>n'ibindi %count</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Guhagarika</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>Ntaco cakozwe</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Igituma: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>Igikorwa kiracakorerwa inyuma.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>Aho kigeze</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>Igikorwa cakorerwa inyuma canyaniranye: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Vyarangiye</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Vyanswe</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Vyananiranye</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>Ku kintu cose</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>Ikintu</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Umusaruro</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Kubera iki</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>Subira ku rutonde</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Gutunganya</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>Ntaco cakozwe</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>Kwemeza</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>Hitamwo igikorwa.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>Hitamwo nibura ikintu kimwe.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>Hitamwo ibintu bitarenze 1000 icarimwe.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>Vuga igituma ibintu vyafashwe.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>Hitamwo igice.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>Hitamwo ingene vimeze.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Ifishi ntiyashoboye gusomwa.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>Ikibaho</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>Ibirimwo bishasha</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>Ibiharuro ntivyashoboye gusomwa: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Vyafashwe ngo vyihwezwe</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>Bishasha uyu musi</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Ifatwa ryo kwihweza ntiriratunganywa (intambwe yo kuvugurura 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>Ibirimwo bishasha vyose</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>Ntiwemerewe gukora ibikorwa vyo kugenzura (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>Igikorwa co kugenzura ntikiraheze: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>Igenzura: %action ku bintu %count</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%done muri %total vy'ibintu: %ok vyarangiye, %refused vyanswe, %failed vyananiranye</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok vyarangiye, %refused vyanswe, %failed vyananiranye</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>Ntikikiriho.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>Nta kibanza gifise (ntikirasohorwa).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>Ntiwemerewe kukinyegeza (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>Ntiwemerewe kukigaragaza (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>Gisanzwe kinyegejwe.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>Ntikinyegejwe.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>Canyegejwe.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>Caragaragajwe.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>Kiri mu giseke c'imyanda: gifute canke ukigarukane ng'aho.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>Umushinga utigeze usohorwa ntushobora kuja mu giseke c'imyanda: ufute.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>Ntiwemerewe kugifuta (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>Cafuswe.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>Ntiwemerewe kugikuraho (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>Gifise ibindi bintu munsi yaco: gikureho mu miterere y'ibirimwo, aho vyerekanywe.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>Nticakuweho (urugendo rw'igikorwa rushobora kuba rufashe ikurwaho).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>Carungitswe mu giseke c'imyanda.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>Igice ntikibaho.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>Gisanzwe kiri muri iki gice.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>Ntiwemerewe gushinga iki gice (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>Igice nticashinzwe.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>Igice carashinzwe.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>Ingene vimeze ntibaho.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>Gisanzwe kiri muri iyi ngene vimeze.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>Ntiwemerewe gushinga iyi ngene vimeze (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>Ingene vimeze ntiyashinzwe (urugendo rw'igikorwa rushobora kuba rufashe ihinduka).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>Ingene vimeze yarashinzwe.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>Nta gikorwa nk'ico kibaho.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Ifatwa ryo kwihweza ntiritunganijwe (intambwe yo kuvugurura 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>Vuga igituma gifashwe.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>Gisanzwe gifashwe.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>Ntiwemerewe kugifata (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>Ifatwa ntiryashizweho (urugendo rw'igikorwa rushobora kuba rufashe ihinduka).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>Carafashwe.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>Ntigifashwe.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>Ntiwemerewe kukirekura (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>Ifatwa ntiryarekuwe (urugendo rw'igikorwa rushobora kuba rufashe ihinduka).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>Cararekuwe; kiracanyegejwe: ntiwemerewe kukigaragaza (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>Cararekuwe.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>Intumbero zose</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Isohorwa riheruka</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>Musohore ku buntu kopi idahinduka y&apos;urubuga rwanyu kuri GitHub Pages:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Amapapuro ashaje</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Isohora ridahinduka</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Isohora ridahinduka ryazimijwe.</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Intumbero</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Intumbero ntizashoboye gusomwa: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>igikorwa kiriko kirakorwa</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>iyubakwa ryo gusuzuma</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>hisha iki</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>rema intumbero</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>nta na rimwe</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>soma inyigisho</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>%added vyongerewe, %changed vyahinduwe, %removed vyakuweho</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%bytes muri %limit (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>Ibindi %count ntibitondowe.</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>Amapapuro %pages yanditswe</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path ifise %size, birenze ivyo umutanzi yemerera idosiye imwe.</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>%percent % y&apos;urugero ntarengwa</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds s</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag ni isohorwa urubuga rufise ubu.</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: igikorwa %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>/ububiko/ ku rubuga rw&apos;umugambi wa GitHub; ubusa ku domeni yanyu bwite canke ku rubuga rw&apos;umukoresha.</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. Urubuga</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. Umutanzi</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. Kwinjira mu bubiko</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. Ububiko</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. Imihuza n&apos;inzira fatizo</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. Domeni yanyu bwite</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. Ibiri mu iyubakwa</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. Igihe risohorwa</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. Gusuzuma no kubika</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>Urubuga rw&apos;umugambi wa GitHub ruba musi ya /&lt;repository&gt;/; imihuza ifatiye ku kibanza ikora ngaho n&apos;ahandi hose.</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>Iyubakwa rizana urupapuro rwose rwa %site nk&apos;uko umugenzi atinjiye arubona, rikandika bushasha imihuza, rigakopora amadosiye kandi rikandika umusaruro mu kabiko k&apos;intumbero. Nta kintu gisohorwa imbere y&apos;uko musuzuma iyubakwa hanyuma mugakanda Gusohora.</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>Imvugo ya cron, nk&apos;akarorero 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>Urufunguzo rwo gushiramwo rubikwa nk&apos;ibanga %secret.</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>Urufunguzo rwo gushiramwo rwemerera iri shirwaho kurungika mu bubiko bumwe gusa biciye kuri SSH, ntiruje ahandi. Igice carwo c&apos;ibanga kiguma muri Gutunganya &gt; Ibanga; igice c&apos;icese ni co conyene cerekanwa.</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>Urufunguzo rwo gushiramwo rwakorewe iyi ntumbero</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>Urufunguzo rwo gushiramwo rwinjira biciye kuri SSH: muhindure aderese ya git muyigire iya SSH (git@github.com:owner/repo.git).</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>Igikorwa kiriko kirakorwa, catanguwe na %user</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>Igikorwa c&apos;iyi ntumbero kiracariko kirakorwa (%detail). Murindire kirangire.</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>Igikorwa c&apos;iyi ntumbero kiracariko kirakorwa. Murindire kirangire.</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>Umuhuza uva ku rupapuro /news/ uja ku rupapuro /about-us/team uzokwandikwa nk&apos;uku</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>Urufunguzo rushasha rwo gushiramwo rwakozwe. Mwongere ubu igice carwo c&apos;icese mu bubiko.</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>Urupapuro rukibitse ibisohoka vy&apos;isuzuma (debug), token y&apos;urupapuro rw&apos;ibibazo canke id y&apos;ikiringo inyuma yo gusukura ntirusohorwa na rimwe.</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>Ugusubiza inyuma ni ukw&apos;abahinga: muhitemwo &quot;Ndazi ico ibi bihindura&quot; hanyuma mwongere mwandike izina ry&apos;akarango.</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>Urubuga rushobora gushika kuri %site, idosiye imwe gushika kuri %file, hamwe n&apos;urujya n&apos;uruza nka 100 GB ku kwezi. Ku mugambi w&apos;ubuntu, ububiko butegerezwa kuba bwa bose. GitHub Pages ntiyagenewe amaduka canke ibindi bikorwa vy&apos;ubudandaji.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>Intumbero ni urubuga rumwe rusohorwa mu bubiko bumwe bwa git. Nta kintu cubakwa canke gisohorwa ngaha: Kubika vyandika ingene vyateguwe muri settings/override/staticcache.ini.append.php.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>Intumbero ni urubuga rumwe rusohorwa ahantu hamwe, nk&apos;akarorero urubuga rwanyu rwa bose kuri GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>Token iva muri Gutunganya &gt; Ibanga</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>Umugenderanyo w&apos;ibikorwa (workflow) w&apos;ububiko ni wo urisohora.</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>Mwongere uru rufunguzo rw&apos;icese mu bubiko hamwe n&apos;uburenganzira bwo kwandika. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, muhitemwo Allow write access.</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>Vyongerewe</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>Uwundi mutanzi wa git</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>Iyindi gahunda iriko irakora kuri iyi ntumbero: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>Gusubira inyuma</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>Inzira fatizo</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Imbere</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>Musi y&apos;inzira fatizo</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>Ishami</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>Imihuza yononekaye</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>Imihuza yononekaye mu iyubakwa</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>Iyubakwa</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>Iyubakwa %id rya %user</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>Kwubaka %name</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>Kwubaka ubu</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>Iyubakwa ryo gusuzuma</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Uwabikoze</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>N&apos;amaboko, ngaha</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Guhagarika</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Guhindura</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>Vyahinduwe</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Amahinduka</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>Banza urisuzume</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Musuzume ingene vyateguwe</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>Musuzume ivyo iyubakwa rihindura, murirabe, hanyuma murisohore canke murite.</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>Muhitemwo isohorwa mushaka gusubirako.</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>Bizoza mu gisohoka gikurikira.</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Ukwemeza (commit)</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>Ivyemezo (commits)</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>Ryemeza (commit) iyubakwa, ririshirako akarango hanyuma rirarungika kuri %remote. Ukurungika ntigushirwako agahato na rimwe; murashobora gusubira ku isohorwa iryo ari ryo ryose mu nyuma.</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>Bigereranijwe n&apos;akabiko ka mbere: %added vyongerewe, %changed vyahinduwe, %removed vyakuweho, %unchanged bitahindutse.</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>Bigereranijwe n&apos;isohorwa riheruka.</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Icemezo co kwinjira</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>Domeni bwite</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>Ibisohoka vy&apos;isuzuma, token z&apos;impapuro z&apos;ibibazo, id z&apos;ikiringo na nonce bikurwaho imisi yose.</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>Urufunguzo rwo gushiramwo</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>Urufunguzo rwo gushiramwo rwa %name</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Guta</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>Guta iyubakwa</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>Domeni</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>Ubusa: aderese y&apos;urubuga. Ahandi ho, aderese y&apos;imbere y&apos;urwo rubuga nyene.</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Vyarangiye</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>Umuhuza wose utangurwa n&apos;inzira fatizo.</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>Isohorwa ryose ni ukwemeza (commit) gufise akarango static/%id/&lt;n&gt;. Gusubira inyuma bikora ukwemeza gushasha n&apos;amadosiye y&apos;isohorwa rya kera: kahise kaguma, nta karango kimurwa kandi nta kintu gishirwako agahato.</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>Ivyongerwako</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>Kuzana amapapuro biva kuri</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Idosiye</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>Amadosiye</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>Amadosiye abuze</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>Amadosiye ya</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>Amadosiye atashoboye gukoranywa</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>Ikimenyetso (fingerprint)</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>Akabiko</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>Ku aderese ya SSH. Urufunguzo rukorwa inyuma yo kubika; mwongera igice carwo c&apos;icese mu bubiko.</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>Ku aderese ya https://. GitHub: token ifise uburenganzira butomoye (fine-grained) bwa Contents bwo gusoma no kwandika ku bubiko.</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>Ku bahinga. Urubuga rwa bose ruhinduka ukurungika kukirangira.</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Impapuro z&apos;ibibazo</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>Uburaro bw&apos;ubuntu buva mu bubiko bwa GitHub.</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>Biva ku ishami</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>Aderese ya git</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages yemera urubuga rwa %site n&apos;idosiye ya %file.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>Imbibe za GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages isohora amadosiye uko ari (birakenewe ku madosiye atangurwa na _).</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub itanga ishami uko ryarungitswe. Ivyo bisanzwe.</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, seriveri yanyu bwite: ububiko bwa git ubwo ari bwo bwose.</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>Gusubira ku isohorwa rya kera</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Imfashanyo</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>Imfashanyo y&apos;umuyobozi w&apos;intambwe</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>Kubihisha</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Kahise</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>Kahise ka %name</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Umutanzi</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>Ingene GitHub Pages yakira iyubakwa</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>Narasuzumye amahinduka</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>Ndazi ico ibi bihindura</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>Inomero</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>Ryazimijwe: nta kintu gishobora kwubakwa imbere y&apos;uko ryatswa.</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>Rikora inyuma y&apos;urupapuro nka %user; murashobora kwugara uru rupapuro.</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>Igikorwa %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>Kibitswe nk&apos;ibanga %secret.</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Ubwoko</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Isohorwa riheruka</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>Kureka aya mapapuro</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>Kureka ibi bihimba</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Imihuza</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>Imihuza yanditswe bushasha</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>Urubuga ruriho</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>Kuraba iyubakwa</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>Indome ntoya, ibiharuro, _ na -, nk&apos;akarorero github-public. Ryita akabiko n&apos;uturango (static/&lt;id&gt;/&lt;n&gt;) kandi ntirishobora guhindurwa mu nyuma.</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>Kurema urufunguzo rushasha</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>Kurema intumbero</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>Kurema urufunguzo</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>Mubanze murema ububiko ku mutanzi; ububiko butagira ikintu nabwo burakwiye.</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>Urutonde rw&apos;amadosiye</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Ubutumwa</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>Amapapuro menshi</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Izina</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>Izina rya token muri Gutunganya &gt; Ibanga</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>Intumbero nshasha</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Igikurikira</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>Oya</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>Nta kwemeza (commit) kurabaho.</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>Nta rufunguzo rwakozwe: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Nta porogarama ya php y&apos;umurongo w&apos;amabwirizwa yabonetse. Mushireho migration.ini [AdminSettings] PhpCliPath n&apos;inzira yayo yuzuye.</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>Nta karango karabaho.</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>Nta ntumbero irabaho.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Nta na kimwe</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>Ntikiri mu iyubakwa.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>Nta kintu kirasohorwa.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>Nta kintu kirasohorwa: idosiye yose ni nshasha.</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>Kumenyesha</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>Ku gihe cagenwe</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>Kuri konsole</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>Kuri seriveri: ./console exp:static:serve %id iritanga mu buryo bumwe.</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>Inzira imwe ku murongo, * ihuye n&apos;igice icarico cose: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>Izina gusa ni ryo ribikwa hamwe n&apos;intumbero; token canke urufunguzo nyene biguma muri Gutunganya &gt; Ibanga kandi ntibigaragara na rimwe mu gitabo c&apos;ibikorwa.</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>Ivyo amapapuro avuga gusa</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>Hamwe na token gusa. env:NAME isoma ahubwo impinduka y&apos;ibidukikije ya seriveri.</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>Kwugurura ukubanza kuraba</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>Ryugurura iyubakwa nk&apos;uko umutanzi azoritanga, rivuye mu kabiko k&apos;intumbero. Umuhuza ubakorera isaha imwe.</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>Si ngombwa. Ubusa: ivyasohowe.</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>Si ngombwa. Hamwe na domeni, urubuga rutangwa ku muzi wayo.</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Ibisohoka</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>Amapapuro</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>Amapapuro y&apos;intumbero</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>Amapapuro yanzwe</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>Ugutunganya inyuma</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Kubanza kuraba</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>Kubanza kuraba no gusohora</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>Kubanza kuraba no gusohora %name</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>Kubanza kuraba iyubakwa</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Iterambere</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>Aderese ya bose</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>Urufunguzo rw&apos;icese</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>Gusohora</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>Gusohora kopi idahinduka y&apos;urubuga kuri GitHub Pages canke ku mutanzi uwo ari we wese wa git: kuyubaka, gusuzuma amahinduka, gusohora, no gusubira ku isohorwa rya kera igihe bikenewe.</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>Isohorwa ryo gusubirako</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>Amasohorwa</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Ukurungika (push)</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>Soma inyigisho</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Igitabo c&apos;ibikorwa</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Vyanzwe</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>Ifatiye ku kibanza</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Kwongera gupakira</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>Vyakuweho</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>Gusubiriza urufunguzo: urwa kera ruraheba gukora</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Raporo</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>Raporo y&apos;iyubakwa</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Ububiko</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Isuzuma</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>Isuzuma rirasuzuma ingene vyateguwe kimwe kimwe kandi rikerekana imirongo izokwandikwa. Nta kintu kirabikwa.</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Gusubiza inyuma</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Ugusubiza inyuma</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Kubika</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>Gahunda y&apos;igihe</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>Urupapuro rwo kurondera</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>Inomero z&apos;ibihimba, zitandukanijwe n&apos;utwatuzo.</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>Kubirungika ku rubuga ruriho</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>Igitegurwa</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Ingene vyateguwe</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>Ingene vyateguwe vya %name</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Gutunganya</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Gutunganya &gt; Ibanga</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>Vyerekanwa mu nonde, nk&apos;akarorero &quot;Urubuga rwa bose kuri GitHub Pages&quot;.</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>Kwinjira hamwe na GitHub App bizozana n&apos;uguhuzwa na GitHub.</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>Urubuga</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>Urubuga rwo gusohora</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Ingano</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>Ingano n&apos;imbibe</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>Ingano y&apos;iyubakwa</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Amapapuro ashaje</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Vyatanguwe</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Vyatanguwe na %user ku %time.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Uko bihagaze</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Isohora ridahinduka</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>Isohora ridahinduka ryazimijwe</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Isohora ridahinduka ryazimijwe.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>Isohora ridahinduka ryazimijwe. Mubanze muryatse muri Gutunganya &gt; Isohora ridahinduka.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>Isohora ridahinduka ryatswe.</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>Intambwe %step kuri %total</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Intambwe</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>Gusukura</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Kuzimya</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Kwatsa</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>Kwatsa isohora ridahinduka</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Akarango (tag)</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>Uturango (tags)</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Intumbero</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>Intumbero zirashobora kuremwa no guhindurwa, ariko nta kintu cubakwa canke gisohorwa imbere y&apos;uko ryatswa.</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>Ibwira moteri zirondera ivyo zisoma.</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>Iyubakwa ntiryashoboye gutabwa: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>Iyubakwa ni kimwe n&apos;isohorwa riheruka: nta kintu co gusohora.</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>Iyubakwa ryatawe: akabiko kongeye gufise isohorwa riheruka.</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>Ivyo bisanzwe bibereye imbuga nyinshi.</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>Akabiko gafise iyubakwa ritarasohorwa; iyubakwa rishasha rirarisubirira.</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>Akabiko k&apos;ibikorwa ntigashobora kwandikwamwo: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>Igikorwa ntivyashobotse kugitegura: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>Igikorwa ntivyashobotse kugitangura.</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>Igikorwa carangiye. Raporo yaco iriko irapakirwa.</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>Igikorwa gikeneye umukoresha yinjiye.</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>Igikorwa catanguwe ariko ntico cavuze id ya gahunda yaco. Musuzume %detail.</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>Urufunguzo</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>Idosiye nini kuruta izindi: %path, %size.</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Imirongo izokwandikwa</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>Urutonde rw&apos;amapapuro ku moteri zirondera; rukeneye aderese ya bose.</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>Amapapuro azanwa nk&apos;uko umugenzi atinjiye ayabona. Siteaccess z&apos;ubuyobozi n&apos;izo gutunganya ibirimwo ntizitangwa na rimwe.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>Iterambere ntiryashoboye gukurikiranwa. Musubire mupakire urupapuro kugira mubone ingene igikorwa kigenda.</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>Igice c&apos;icese c&apos;urufunguzo:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>Umuzi w&apos;ishami</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>Ububiko bw&apos;amabanga ntiburategurwa (./console exp:upgrade --apply ni yo irema imbonerahamwe yabwo), ni co gituma nta rufunguzo rushobora kubikwa.</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>Seriveri yinjira yonyene (n&apos;urufunguzo rwayo bwite rwa SSH canke credential helper), canke ububiko buri kuri iyi seriveri.</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>Igitegurwa ntivyashobotse kucandika: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Ingene vyateguwe ni vyiza. Iyi mirongo izokwandikwa:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Idosiye y&apos;ingene vyateguwe ntishobora gusomwa: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>Urubuga rusubira ku madosiye y&apos;iryo sohorwa; iyubakwa ritarasohorwa ritegerezwa kubanza gusohorwa canke gutabwa.</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>Urupapuro rw&apos;urubuga nyene rw&apos;amaderese atabaho.</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>Intumbero ntiyashoboye kubikwa: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>Intumbero ntirinjira n&apos;uru rufunguzo: muhitemwo &quot;Urufunguzo rwo gushiramwo rwakorewe iyi ntumbero&quot; mu ngene vyayo vyateguwe.</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Intumbero ntizashoboye gusomwa: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>Nta iyubakwa ryo gusuzuma rirabaho.</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>Iri shirwaho ntirifise siteaccess y&apos;imbere. Siteaccess z&apos;ubuyobozi n&apos;izo gutunganya ibirimwo ntizisohorwa na rimwe.</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>Uru rupapuro rukurikira igikorwa uko kigenda; kibandanya inyuma igihe urupapuro rwugawe.</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>Iyi ntumbero ntirafise urufunguzo rwo gushiramwo.</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>Iyi ntumbero ntirubakwa ngaha.</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>Iyi ntumbero irarufise.</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>Rita iri yubakwa: akabiko kongeye gufise isohorwa riheruka. Urubuga ruriho ntiruhinduka.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>Mubanze muhitemwo &quot;Narasuzumye amahinduka&quot;.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Igihe</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>Ibitangura</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>Mwongere mwandike izina ry&apos;akarango</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>Bitahindutse</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>Webhook</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Iki</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>Ibihinduka</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>Ico idosiye yose ari co; yandikwa imisi yose.</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>Ivyo igikorwa cakoze n&apos;igitabo caco c&apos;ibikorwa. Igikorwa gitanguriwe ngaha kibandanya inyuma igihe uru rupapuro rwugawe.</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>Ivyo igikorwa canditse nk&apos;amakosa</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>Ivyo amapapuro avuga, n&apos;ishusho yose y&apos;ibirimwo vyasohowe</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Ryari</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>Igihe isohorwa ryananiwe</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>Igihe isohorwa ryagenze neza</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>Igihe ibirimwo bisohowe</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>Aho imihuza ija ku bitari muri kopi (kurondera, kwinjira).</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>Aho kopi idahinduka itangirwa.</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>Urubuga rusohorwa, n&apos;izina ry&apos;intumbero.</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>Ikora musi y&apos;inzira iyo ari yo yose. Ivyo bisanzwe.</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>Yandikwa igihe cose domeni bwite ishizweho.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>Ego</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>Murashobora imisi yose kwubaka no gusohora n&apos;amaboko ngaha no kuri konsole.</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>izina gusa; agaciro kaguma muri Gutunganya &gt; Ibanga</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>musi ya %path</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>vyarangiye ata raporo</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>ikiyongera</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>vyananiranye</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>idosiye</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages, canke main hamwe n&apos;akabiko docs.</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>umutanzi wa git</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (hamwe na token) canke git@github.com:owner/repo.git (hamwe n&apos;urufunguzo rwo gushiramwo); nta jambo ry&apos;ibanga canke token na rimwe muri yo.</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/, ku gishushanyo c&apos;urubuga n&apos;imihuza nyamukuru (canonical).</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>ishusho</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>nta na rimwe</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>oya</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>nta bubiko bwa kure</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>nta na kimwe: ivyemezo (commits) biguma mu kabiko</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>nta na kimwe: nta kintu cahindutse</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>ntivyarungitswe</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>nta kintu cahindutse</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>urupapuro</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>vyagenze neza</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>proc_open irazimijwe, ni co gituma igikorwa kidashobora gutangurwa ngaha. Mukoreshe ./console exp:static:build kuri seriveri.</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>isohorwa</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>vyasohowe</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>ukurungika kurarindiriye</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>vyarungitswe</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>vyanzwe</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>ifatiye ku kibanza</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>ugusubiza inyuma</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>vyasubijwe inyuma</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>biriko birakorwa</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>akabiko gusa</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: vyandikwa mu idosiye CNAME. Muyobore DNS ya domeni ku mutanzi nk&apos;uko abisigura; HTTPS irashobora gufata akanya kugira itangure.</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>ego, ntivyari vyasohorwa</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>GitHub App imwe</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>Igikorwa c'ububiko ni co kibisohora. Kwubaka kwandika idosiye y'igikorwa; reka ububiko bw'amadosiye bube ubusa.</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>Umaze kubika intumbero ifise ububiko bwa GitHub na token canke GitHub App, iyi ntambwe irashobora gushinga ububiko no gufungura GitHub Pages. Bitabaye ivyo, banza ushinge ububiko kuri GitHub; ubusa nabwo ni sawa.</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>Ishami canke GitHub Actions?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>Suzuma DNS</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>Shinga ububiko nimba butariho</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>Shinga ububiko kuri GitHub hanyuma ufungure GitHub Pages mu vyo gutunganya vyabwo (Settings &gt; Pages).</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>Ishinga ububiko %repo iyo butariho (iyo bisabwe), ifungura GitHub Pages ivuye ku ishami canke kuri GitHub Actions nk'uko vyabitswe, igashiraho domeni bwite na HTTPS. Ikoresha ivyo gutunganya vyabitswe: banza ubike ihinduka.</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>Ibisobanuro kuri GitHub</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>Banza wandike domeni bwite.</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>Irungikwa ryose ribanza gusuzumwa hakurikijwe izi mbibe.</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>Ku aderese ya https:// kuri GitHub. App yashiriweho iri shirwaho ni yo yinjira; ikeneye id y'ishirwaho.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages itanga ububiko bwite gusa ku mugambi uriha.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: domeni ntoya (www.example.com) ikeneye icanditswe CNAME kija kuri &lt;owner&gt;.github.io; domeni nyamukuru (example.com) ikeneye ivyanditswe A %ips.</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>Id y'ishirwaho rya GitHub App</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>Iyubakwa rya Pages riheruka</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>Imbibe n'amategeko</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>Birakenewe kuri GitHub Pages ku mugambi w'ubuntu.</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>Kuri GitHub</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>Gusa na GitHub App: inomero iri ku mpera ya aderese y'ishirwaho rya App kuri GitHub. App nyene ishirwa muri staticcache.ini (GitHubAppId, GitHubAppKey).</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>Bwite</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>Rusangi</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>Banza ubike intumbero ifise ububiko bwa GitHub na token canke GitHub App.</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>Shiraho ivyo vyanditswe ku mutanzi wa domeni:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>Tunganya kuri GitHub</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>DNS ya %domain ntirarungika kuri GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>DNS ya %domain irarungika kuri GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>Uguhuzwa na GitHub ntikuboneka hano: %problem. Gusohora ku ishami birakora uko biri kwose; fungura GitHub Pages mu vyo gutunganya vy'ububiko.</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>Intambwe za GitHub ntiziboneka kuri iyi ntumbero: %problem.</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>Uko GitHub Pages imeze kwerekanwa iyo token canke GitHub App ari icemezo co kwinjira.</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>Koresha domeni yawe bwite</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>Ico wohitamwo: token, urufunguzo rwo gushiramwo canke GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>Ufise ububiko bwa GitHub na token canke GitHub App, umuyobozi w'intambwe arashobora kugushingira ububiko, gufungura GitHub Pages no gushiraho domeni (intambwe ya 4).</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>biriko birubakwa</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>vyubatswe</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>bivuye kuri GitHub Actions</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>bivuye ku ishami %branch</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>nta na kimwe kugeza ubu</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>ntivyabonetse</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>vyugaye</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>bwite</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>rusangi</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>biri ku murongo</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>ntibizwi</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%count kuri %pages urupapuro:</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>Dosiye .gz (na .br) iruhande ya buri dosiye y'inyandiko, ku bakiriye babitanga.</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>Urupapuroruto kuri buri aderesi n'izina ry'irindi ya kera y'urupapuro, kugira ngo amahuza ya kera akomeze gukora.</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>Iyandikwa buri gihe iyo GitHub Actions itanze urubuga.</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>SPDX id nka CC-BY-4.0, canke inyandiko ubwayo.</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>Agaseke</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>Guhamagara seriveri</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Ibitekerezo</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>Impapuro z'ibibazo zikusanya amakuru</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>GitHub Actions workflow</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>Ibisigisigi bike n'ibitekerezo bidahari mu mapaji.</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>Uruhusa rw'ibikubiyemo</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Kwinjira</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>Minify</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>Izindi mpapuro z'ibibazo</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>Precompress</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>Impapuro zirungika</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>Impapuro zirungika: %count.</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Kurondera</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>Urutonde rwo kurondera: %pages urupapuro muri %languages.</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>Impapuro z'imyambarire n'inyandiko zitwa n'ihash y'ibizirimwo, kugira ngo ibisokozo bishobore kubibika.</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>Impapuro zahinduwe, iminota mikeya nyuma y'impinduka ya nyuma (igice cya cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>Uruhusa rw'ibikubiyemo, ruva mu gisate kiri hepfo.</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>Urubuga rwose, mu masaha y'igenekerezo (igice cya cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>Ibi bice vy'impapuro bikenera seriveri; buri gice cahawe ikindi gisubira. Bisuzume imbere yo gusohora.</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>Ibitagikora mu buryo budahinduka</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>Ico icegeranyo ari co, ku wese akifunguriye ku mukiriye.</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>byasizwe</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>inyandiko isubirwaho</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>aho impapuro z'ibibazo zirungikwa ku rubuga ruriho</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>urubuga ruriho</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>urupapuro rwo kurondera rw'ikopi</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>Urupapuro ntirwashoboye kurungikwa.</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>Urakoze: urupapuro rwarungitswe.</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>Urupapuro ntirwemewe: suzuma ivyo wanditse maze wongere ururungike.</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>Kuraho amahuza aja ku mpapuro kopi itarimwo</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>Kuraho amahuza aja mu buyobozi</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>Inyandiko yayo irasigara. Amashusho, amafishi n'amahuza aja ku zindi mbuga ntibikurwaho na rimwe.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Verisiyo</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>Uburyo bwo gushika ku rubuga buzosohorwa</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Uburyo bwo gushika ku rubuga</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>Mu mizi</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>Nta buryo bwo gushika ku rubuga buri mu mizi: kimwe cose kiri mu bubiko bwaco, imizi irabihuza</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Uburyo bwo gushika ku rubuga</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>Hitamwo uburyo bumwe bwo gushika ku rubuga, canke bwinshi busangiye umushitsi umwe biciye ku ntango ya URI. Uburi mu mizi butangirwa ngaho, ubundi mu bubiko bw'intango yabwo (/ger/); amahuza hagati yabwo aguma mu kopi. Uburyo bw'ubuyobozi ntibutangwa na rimwe.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>Gusohora guhamye kwa %target kwanse kuri %site</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>Gusohora guhamye kwa %target kwagenze neza kuri %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>Iyi mesaje yarungitswe na %site kubera ko intumbero yo gusohora guhamye %target iyisaba.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>Ishikiriza %deploy ryananiranye kuri %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>Ishikiriza %deploy ririndiriye ku irembo kuri %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>Ishikiriza %deploy ryagenze neza kuri %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>Iyi mesaje yarungitswe na %site kubera yuko migration.ini [RemoteSettings] Notify[] ibisaba.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>Amoko y'amakuru (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>Vyaharuwe %time, bizosubira guharurwa haciye iminota %minutes</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>Ubwoko bw'amakuru bubika kandi buhindura ubwoko bumwe bw'agaciro k'ikiranga c'ubwoko: umurongo w'inyandiko, ishusho, isano. Intango izana menshi muri yo, ivyongerwako vyongerako ayandi. Ng'aya yose, uwuyatanga n'ingene ibirimwo vyinshi biyakoresha. Ubwoko bw'amakuru ububiko bw'amakuru bukoresha ariko ata kintu kikibwandika bwonona ibirimwo bubufise.</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>Imigwi y'ubwoko</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>Subira uharure ubu aho gukoresha ibiharuro vy'iminota iheze.</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>Subira uharure</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Incamake</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>Yiyandikishije</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>Rirakoreshwa</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>Ntivyakoreshejwe</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>Ivyongerwako bitanga amoko y'amakuru</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>Ibiranga vy'ubwoko</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>Ibiranga ikintu</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>Ntibwanditswe</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>Biri ku rutonde, idosiye ntiboneka</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>Amoko y'amakuru %count arakoreshwa ariko ntiyanditswe</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>Ibiranga vy'ubwoko %class_attributes n'ibiranga vy'ikintu %object_attributes bifise ubwoko bw'amakuru ata congerwako canke itunganywa ribwandika. Ibintu vyabo ntibishobora kwerekanwa, guhindurwa canke gusohorwa. Shira mu ngiro iyongerwako ritanga ubwo bwoko bw'amakuru, canke uhindure ubwoko.</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>Erekana aya gusa</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>Rondera ubwoko bw'amakuru</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>Ikiranga, izina, ubwoko bwa PHP canke iyongerwako.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Kwerekana</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Vyose</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>Bitangwa na</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>Bose</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>Intango</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>Nta bwoko bw'amakuru buhuye n'iki kiyungurura.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Kwerekana vyose</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>Iyongerwako</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%shown muri %count y'amoko y'amakuru, %used arakoreshwa</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>Ububiko bw'amakuru bufise ibiranga vy'ubwoko canke vy'ikintu vy'aya moko y'amakuru, ariko content.ini nta na kimwe ivuga, canke idosiye yabwo ntiboneka.</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>Amoko y'amakuru ya %provider</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>Ubwoko bw'amakuru</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>Ubwoko bwa PHP n'idosiye</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>Ubwoko</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>Ibintu</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>Ibimenyetso</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>nta na kimwe</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>Nta bwoko bw'amakuru buhuye n'irondera. Futa irondera.</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>%shown muri %count y'amoko y'amakuru yerekanywe</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>Amoko y'amakuru yerekanywe: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>Gutondeka hakurikijwe %column</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>Vyaharuwe %time</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>Amoko yose y'amakuru</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>Urupapuro rw'imfashanyo</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>Ubu bwoko bw'amakuru burakoreshwa ariko ntibwanditswe</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>Ibintu vy'amoko ari munsi ntibishobora kwerekanwa, guhindurwa canke gusohorwa igihe nta congerwako kibwandika. Shira mu ngiro iyongerwako ributanga hanyuma ubwongere muri content.ini [DataTypeSettings] AvailableDataTypes[], canke uhindure amoko.</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini ivuga ubu bwoko bw'amakuru, ariko nta bubiko bw'amoko y'amakuru bufise idosiye yabwo. Nta kintu kibukoresha; bukure muri AvailableDataTypes[] canke ushire mu ngiro iyongerwako ryabwo.</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>Ibijanye n'ubu bwoko bw'amakuru</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>Ikiranga</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Izina</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Iyongerwako %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>nta n'umwe</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>Ubwoko bwa PHP</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Idosiye</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>Muri AvailableDataTypes[]</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ego</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>oya</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>Inkingi z'agaciro kabwo</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>Inkingi z'itunganywa ry'ikiranga c'ubwoko bwabwo</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>Imbonerahamwe</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>Inkingi n'imbonerahamwe biboneka mu gusoma kode y'ubwoko bw'amakuru: ni intumbero, si isezerano.</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>Ibitegererezo</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Uburyo bwo gushika ku rubuga</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>Icitegererezo</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>Vyabonetse muri</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>ubu buyobozi</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>urubuga rusanzwe</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>Ata vyasubirijwe: icitegererezo gisubirira gihuye n'ubwoko canke n'ikiranga kirusha ibi.</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>Amoko abukoresha (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>Nta bwoko bufise ikiranga c'ubu bwoko bw'amakuru.</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Ubwoko</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>Ibiranga</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>Ibiranga vy'ubwoko (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>Ikiranga</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Ingene vyateguwe</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>Birakenewe</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>Birashobora kurondwa</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>Birahinduzwa</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>Bikusanya amakuru</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>Bimwe mu birimwo bibukoresha</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>Ivyahinduwe vuba imbere</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Vyahinduwe</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>Ihuriro %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>Ubuhinduzi bwose bufise agaciro kabwo.</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>Irondera rishira agaciro kabwo mu rutonde.</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>Bushobora gukusanya amakuru y'abashitsi (amafomu).</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>Intonde zirashobora gutondekwa hakurikijwe bwo: urufunguzo rwo gutondeka %type.</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>Bishobora gutondekwa</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>Agaciro kabwo kerekeza ku bindi bintu.</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>Isano</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>Bushobora kwuzuzwa biciye ku nyandiko yoroshe (kwinjiza, REST).</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>Bivuye ku nyandiko</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>Bushobora kwuzuzwa biciye ku idosiye.</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>Bivuye ku idosiye</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>Itunganywa ry'ikiranga c'ubwoko bwabwo rija mu mapaki.</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>Amapaki</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>Ibirimwo (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from kugera %to muri %count</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Iyungurura urutonde</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>Ubwoko bwose</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Igice</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Indimi</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Nyene</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Vyasohowe</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>Gusubiza urutonde inyuma</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Nta kintu</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>Kuri buri rupapuro</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Kwerekana ibintu %count kuri buri rupapuro.</translation>
     </message>
 </context>
 </TS>

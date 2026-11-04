@@ -1,0 +1,16 @@
+# description: The first news articles
+# requires: extension:expnews
+# requires: 20261005100000_news_folder
+-
+    type: content
+    mode: create
+    class: article
+    parent: remote:news-folder
+    remote_id: news-first-article
+    fields:
+        title: The first article
+-
+    type: content
+    mode: create
+    fields:
+        title: An article without class and parent

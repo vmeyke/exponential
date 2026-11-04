@@ -11,6 +11,21 @@ Ersatzzertifikats und Let's Encrypt. Anschließend behandelt das Kapitel die kla
 auch unter Plesk; nginx; FrankenPHP), die Dateiberechtigungen, die jedes Setup braucht, und den Betrieb hinter einem
 Reverse Proxy.
 
+> **Warnung**
+> **`.htaccess` bremst jede Anfrage.** Sind `.htaccess`-Dateien erlaubt (`AllowOverride` alles außer `None`), geschweige
+> denn genutzt, sucht Apache sie bei jeder Anfrage in jedem Verzeichnis des Pfads und liest und wertet sie aus, und
+> die Ladezeiten der Seiten steigen drastisch ([gemessen](../anleitungen/setup-dateien-von-der-konsole.md#gemessen-htaccess-gegen-regeln-im-virtuellen-host)). Die einzige wirkliche Abhilfe ist, die
+> Funktion für den virtuellen Host abzuschalten: `AllowOverride None` im virtuellen HTTPS-Host, und die Regeln in
+> der Konfiguration des virtuellen Hosts selbst als mod_rewrite-Regeln. Das ist in Geschwindigkeitstests im
+> Produktivbetrieb weit schneller und die Zeit für die Optimierung einer Produktivkonfiguration unbedingt wert.
+> Stellen Sie sofort um: Übernehmen Sie die Regeln des [Beispiels für einen virtuellen HTTPS-Host](../beispiele/webserver/apache-virtueller-host.md) in
+> Ihren virtuellen Host (mit dem statischen Cache auch [`staticcache_offload.conf`](../../eng-us/examples/staticcache_offload.conf)), setzen Sie
+> `AllowOverride None`, führen Sie `apachectl configtest` aus, laden Sie Apache neu und testen Sie die Website.
+> Dieselben Regeln für andere Server: [nginx](../beispiele/webserver/nginx.md), [LiteSpeed](../beispiele/webserver/litespeed.md), [Caddy](../beispiele/webserver/caddy.md), [IIS](../beispiele/webserver/iis.md),
+> [Velocity](../beispiele/webserver/velocity.md) (eingebaut); wohin Regeln für virtuelle Hosts in einem Control Panel gehören:
+> [Plesk](../hilfe/hosting/control-panels/plesk.md), [cPanel](../hilfe/hosting/control-panels/cpanel.md), [DirectAdmin](../hilfe/hosting/control-panels/directadmin.md), [ISPConfig](../hilfe/hosting/control-panels/ispconfig.md).
+> **Unter LiteSpeed oder OpenLiteSpeed** kann zusätzlich der Seiten-Cache des Servers anonyme Besucher und Crawler ohne PHP bedienen: [Seiten-Caching mit LiteSpeed und OpenLiteSpeed](../anleitungen/seiten-cache-mit-litespeed.md).
+
 [Inhalt](README.md) · Zurück: [7. Die Installation über die Konsole](07-installation-ueber-die-konsole.md) · Weiter: [9. Datenbanken](09-datenbanken.md)
 
 ---
@@ -139,9 +154,47 @@ Was schiefgehen kann: Ein `200` für die `.git`- oder die Kernel-Anfrage bedeute
 und beheben Sie das, bevor die Website von außen erreichbar ist. Ein `404` für jedes Asset unter `design/` bedeutet,
 dass das Document Root nicht das Installationsverzeichnis ist.
 
+**WebDAV steht nicht in dieser Liste.** Es ist standardmäßig aus, und die mitgelieferten Regeln schicken
+`/index_webdav.php` wie jedes andere Skript an `index.php`. Um WebDAV auszuliefern, kommentieren Sie
+`RewriteRule ^index_webdav\.php - [L]` in `.htaccess` ein (oder schreiben dieselbe Regel in den HTTPS-Host), oder Sie
+geben WebDAV einen eigenen Host, der jede Anfrage an `index_webdav.php` schickt. Velocity und die
+FrankenPHP-Konfiguration liefern WebDAV nicht aus; verwenden Sie dafür Apache oder nginx mit PHP-FPM. **Seit 6.0.15
+heißt das Skript `index_webdav.php`, nicht `webdav.php`:** Regeln für den alten Namen funktionieren über einen
+weiterleitenden Shim weiter, der in einer späteren Hauptversion entfernt wird. Die Regeln für jeden Server und der Test
+(`curl -X PROPFIND -H 'Depth: 1'`, erwartet: `207 Multi-Status`) stehen in
+[Das WebDAV-Einstiegsskript heißt jetzt index_webdav.php](../bc/6.0/webdav-einstiegsskript-index-webdav.md).
+
+**Auch SOAP steht nicht in dieser Liste.** Es ist standardmäßig aus (`soap.ini` `EnableSOAP=false`). Um es
+auszuliefern, kommentieren Sie `RewriteRule ^index_soap\.php - [L]` in `.htaccess` ein (oder schreiben dieselbe Regel
+in den HTTPS-Host). Velocity und die FrankenPHP-Konfiguration liefern SOAP nicht aus; verwenden Sie dafür Apache oder
+nginx mit PHP-FPM. **Seit 6.0.15 heißt das Skript `index_soap.php`, nicht `soap.php`:** Regeln und Clients mit dem
+alten Namen funktionieren über einen weiterleitenden Shim weiter, der in einer späteren Hauptversion entfernt wird.
+Testen Sie es nach dem Neuladen: `curl -sS -i 'https://www.example.com/index_soap.php?wsdl'` antwortet mit `200` und
+`Error: this web page does only understand POST methods`; ein `404` oder eine Seite der Website bedeutet, dass die
+Regel fehlt. Die Regeln für jeden Server und der vollständige Test stehen in
+[Das SOAP-Einstiegsskript heißt jetzt index_soap.php](../bc/6.0/soap-einstiegsskript-index-soap.md).
+
 ---
 
 ## 8.3 Exponential Velocity, der empfohlene Weg
+
+**Velocity ist seit 6.0.15 Teil von Exponential.** Die `composer.json` im Wurzelverzeichnis verlangt
+`se7enxweb/exponential-velocity ~0.0.4.57`, also hat das `composer install` aus
+[Kapitel 3](03-den-code-beschaffen.md#34-das-velocity-paket) es schon installiert, auf demselben PHP wie den Kernel
+(8.0 und höher, das mitgelieferte PHP 8.0 von Red Hat Enterprise Linux 9 eingeschlossen). Vor dem ersten
+`exp:velocity start` ist nichts zusätzlich herunterzuladen. Das ist der Wendepunkt der Linie 6.0: Der Internet / Web
+Application Server ist ein Grundstein des Kernprodukts, sodass Ausliefern, Cachen, HTTPS und Deployment ab Werk und
+standardmäßig aus derselben Quelle kommen wie die Anwendung. Der Hintergrund:
+[Velocity ist Teil von Exponential 6.0.15](../hilfe/velocity-ist-teil-von-exponential-6-0-15.md).
+
+Die vier Befehle der täglichen Arbeit:
+
+```bash
+./console exp:velocity deploy --allow-root-user       # after a change: autoloads, settings, caches, PHP-FPM, Velocity
+./console exp:velocity start --allow-root-user
+./console exp:velocity restart --allow-root-user      # workers load changed classes and settings
+./console exp:velocity cache clear --allow-root-user  # empty the response cache
+```
 
 Velocity ist ein Anwendungsserver, der für Exponential geschrieben wurde. Ein Elternprozess lädt die Anwendung einmal
 und forkt **Worker**, die eine Anfrage nach der anderen beantworten; zwischen den Anfragen wird jeder Worker in den
@@ -171,16 +224,16 @@ Engines mit denselben Verben: `qbix` (der eigene Server von Velocity, Thema dies
 
 ### 8.3.1 Das Engine-Paket installieren
 
-Die `composer.json` von Exponential verlangt die Engine als `~0.0.4.55`, sodass `composer install` sie unter jedem
+Die `composer.json` von Exponential verlangt die Engine als `~0.0.4.57`, sodass `composer install` sie unter jedem
 unterstützten PHP installiert, 8.0 eingeschlossen. Bis zu ihrem Release 0.0.4.54 brauchte die Engine PHP 8.1 und wurde
 nur vorgeschlagen; eine Installation aus dieser Zeit fügt sie mit Composer hinzu:
 
 ```bash
-composer require se7enxweb/exponential-velocity:~0.0.4.55
+composer require se7enxweb/exponential-velocity:~0.0.4.57
 ```
 
 Sie landet in `vendor/se7enxweb/exponential-velocity` (der frühere Paketname `se7enxweb/qbix-webserver` wird weiterhin
-gefunden). Die Tilde-Einschränkung folgt der letzten Versionsstelle der Engine, sodass `~0.0.4.55` spätere
+gefunden). Die Tilde-Einschränkung folgt der letzten Versionsstelle der Engine, sodass `~0.0.4.57` spätere
 `0.0.4.x`-Releases akzeptiert.
 
 Die `composer.json` des Pakets setzt PHP 8.0 (`"php": ">=8.0"`, ab dem Release 0.0.4.54; zuvor `>=8.1`) und die
@@ -211,7 +264,7 @@ Für eine Exponential-Installation ist das Composer-Paket dasjenige, das `exp:ve
 funktioniert. Für jede echte Website setzen Sie `qbix`:
 
 ```bash
-php bin/php/console exp:velocity config set ServerSettings Engine qbix
+php bin/php/console exp:velocity config set --apply ServerSettings Engine qbix
 ```
 
 | Engine | Rolle | Ausgelieferte Ports (HTTP / HTTPS) | Hinweise |
@@ -237,8 +290,8 @@ laufen können. Eine Website wird von einer einzigen ausgeliefert.
 php bin/php/console exp:velocity config list                 # every setting; * marks the ones you set
 php bin/php/console exp:velocity config list HTTPSSettings   # one block
 php bin/php/console exp:velocity config get ServerSettings Workers
-php bin/php/console exp:velocity config set ServerSettings Workers 16
-php bin/php/console exp:velocity config unset ServerSettings Workers   # back to the shipped value
+php bin/php/console exp:velocity config set --apply ServerSettings Workers 16
+php bin/php/console exp:velocity config unset --apply ServerSettings Workers   # back to the shipped value
 php bin/php/console exp:velocity config paths                # which file is which
 ```
 
@@ -288,9 +341,9 @@ Die Startzeilen, einschließlich des Worker-Benutzers (`Workers as: ...`) und de
 Um Besucher direkt zu bedienen, binden Sie an alle Adressen auf den Standardports:
 
 ```bash
-php bin/php/console exp:velocity config set ServerSettings Host 0.0.0.0 --allow-root-user
-php bin/php/console exp:velocity config set ServerSettings Port 80 --allow-root-user
-php bin/php/console exp:velocity config set ServerSettings HTTPSPort 443 --allow-root-user
+php bin/php/console exp:velocity config set --apply ServerSettings Host 0.0.0.0 --allow-root-user
+php bin/php/console exp:velocity config set --apply ServerSettings Port 80 --allow-root-user
+php bin/php/console exp:velocity config set --apply ServerSettings HTTPSPort 443 --allow-root-user
 php bin/php/console exp:velocity restart --allow-root-user
 ```
 
@@ -323,8 +376,8 @@ Document Root root, bleiben die Worker root, und der Start weist darauf hin: Geb
 Benutzer (Abschnitt 8.7) oder setzen Sie `User` und `Group`. Setzen Sie sie auf den Benutzer, dem die Dateien gehören:
 
 ```bash
-php bin/php/console exp:velocity config set ServerSettings User example --allow-root-user
-php bin/php/console exp:velocity config set ServerSettings Group example --allow-root-user
+php bin/php/console exp:velocity config set --apply ServerSettings User example --allow-root-user
+php bin/php/console exp:velocity config set --apply ServerSettings Group example --allow-root-user
 ```
 
 Als gewöhnlicher Benutzer gestartet, läuft der Server vollständig unter diesem Benutzer; verwenden Sie dann Ports über
@@ -389,7 +442,10 @@ Modus Header und Shutdown-Funktionen mitführt (Header und Shutdown-Funktionen a
 Zwischen den Anfragen setzt der Worker statische Klasseneigenschaften, Superglobals, eigene Globals, Ausgabepuffer,
 Handler und Antwort-Header auf den Zustand zurück, mit dem er geforkt wurde. Einige Registries im Kernel werden mit
 `include_once` gefüllt und könnten nach dem Leeren nie wieder gefüllt werden; sie müssen daher **behalten** werden: die
-Registries für Datentypen, Workflow-Ereignisse, Benachrichtigungsereignisse und Payment-Gateways. Diese Namen sind
+Registries für Datentypen, Workflow-Ereignisse, Benachrichtigungsereignisse und Payment-Gateways. Auch der
+Worker-Bereich des Kernel-Service-Containers (`expKernelServicesWorker`) wird behalten: Er hält die Einstellungsdateien
+jedes Siteaccess, einmal pro Worker statt bei jeder Anfrage gebaut
+([der Kernel-Service-Container](../bc/6.0/kernel-dienste.md)). Diese Namen sind
 eingebaut (`expVelocity::DEFAULT_KEEP_GLOBALS`) und brauchen keine Einstellung.
 
 ```ini
@@ -431,7 +487,7 @@ Angemeldete Besucher werden nie aus dem Cache bedient, und eine Seite mit einem 
 gesendet. Nach einer Änderung an einem Template oder Stylesheet:
 
 ```bash
-php bin/php/console exp:velocity cache clear     # every cached page is rendered again on its next request
+php bin/php/console exp:velocity cache clear --apply     # every cached page is rendered again on its next request
 php bin/php/console exp:velocity cache stats     # where it is, how much it holds, when it was cleared
 ```
 
@@ -458,9 +514,9 @@ Jedes PEM-Zertifikat von einer CA oder einem Hosting-Panel (Endzertifikat mit Ke
 Datei darf beides enthalten):
 
 ```bash
-php bin/php/console exp:velocity config set HTTPSSettings Certificate /etc/ssl/example.com/fullchain.pem --allow-root-user
-php bin/php/console exp:velocity config set HTTPSSettings Key /etc/ssl/example.com/privkey.pem --allow-root-user
-php bin/php/console exp:velocity config set HTTPSSettings Enabled true --allow-root-user
+php bin/php/console exp:velocity config set --apply HTTPSSettings Certificate /etc/ssl/example.com/fullchain.pem --allow-root-user
+php bin/php/console exp:velocity config set --apply HTTPSSettings Key /etc/ssl/example.com/privkey.pem --allow-root-user
+php bin/php/console exp:velocity config set --apply HTTPSSettings Enabled true --allow-root-user
 php bin/php/console exp:velocity restart --allow-root-user
 php bin/php/console exp:velocity ssl show --allow-root-user
 curl -sI https://example.com/ | head -1      # expect HTTP/2 200 or a redirect
@@ -537,7 +593,7 @@ cat > /etc/vc/conf-available/https-acme.conf <<'EOF'
   }
 } } } }
 EOF
-php bin/php/console exp:velocity conf enable https-acme --allow-root-user
+php bin/php/console exp:velocity conf enable --apply https-acme --allow-root-user
 php bin/php/console exp:velocity restart --allow-root-user
 php bin/php/console exp:velocity ssl show --allow-root-user
 ```
@@ -574,7 +630,7 @@ Entwicklung ganz ohne Zertifikat:
 ```bash
 php bin/php/console exp:velocity ssl show --allow-root-user          # served certificate, every known one by expiry
 php bin/php/console exp:velocity ssl show --json --allow-root-user   # for monitoring: watch daysLeft
-php bin/php/console exp:velocity ssl renew example.com --allow-root-user
+php bin/php/console exp:velocity ssl renew --apply example.com --allow-root-user
 ```
 
 Ein CA-Zertifikat mit 90 Tagen Laufzeit wird erneuert, wenn noch etwa 30 Tage übrig sind; eines mit weniger als 14
@@ -644,11 +700,11 @@ ein aktiviertes Snippet) werden berücksichtigt und in der Startmeldung genannt.
 
 ```bash
 php bin/php/console exp:velocity layout --allow-root-user                 # every path, what is enabled, the files in use
-php bin/php/console exp:velocity layout migrate --allow-root-user         # write the tree now
-php bin/php/console exp:velocity site enable <name> --allow-root-user     # sites-enabled/<name>.conf -> ../sites-available/
-php bin/php/console exp:velocity site disable <name> --allow-root-user    # removes only the symlink
-php bin/php/console exp:velocity conf enable|disable <name> --allow-root-user
-php bin/php/console exp:velocity mod enable|disable <name> --allow-root-user
+php bin/php/console exp:velocity layout migrate --apply --allow-root-user         # write the tree now
+php bin/php/console exp:velocity site enable --apply <name> --allow-root-user     # sites-enabled/<name>.conf -> ../sites-available/
+php bin/php/console exp:velocity site disable --apply <name> --allow-root-user    # removes only the symlink
+php bin/php/console exp:velocity conf enable --apply|disable <name> --allow-root-user
+php bin/php/console exp:velocity mod enable --apply|disable <name> --allow-root-user
 php bin/php/console exp:velocity ctl configtest --allow-root-user         # the engine's own check of the tree
 ```
 
@@ -831,7 +887,7 @@ gemessen ist es nicht schneller, sobald OPcache warm ist.
 php bin/php/console exp:phar build                      # build (only when something changed; --force always)
 php bin/php/console exp:phar check                      # is the archive current?
 php bin/php/console exp:phar info
-php bin/php/console exp:velocity config set ServerSettings EnginePhar enabled
+php bin/php/console exp:velocity config set --apply ServerSettings EnginePhar enabled
 php bin/php/console exp:velocity restart
 ```
 
@@ -882,7 +938,7 @@ wie unter PHP-FPM von einem sauberen Zustand aus startet, daher gelten `ForkPerR
 Antwort-Cache hier nicht.
 
 ```bash
-php bin/php/console exp:velocity config set ServerSettings Engine frankenphp --allow-root-user
+php bin/php/console exp:velocity config set --apply ServerSettings Engine frankenphp --allow-root-user
 php bin/php/console exp:velocity install --allow-root-user    # optional: start installs it when missing
 php bin/php/console exp:velocity start --allow-root-user
 ```
@@ -931,11 +987,16 @@ dauerhaft laufenden Prozess.
    zu verschieben, damit ein Update eine neue Version mitbringen kann:
 
    ```bash
-   cp .htaccess_root .htaccess
+   ./console exp:setup:htaccess --apply      # oder von Hand: cp .htaccess_root .htaccess
    ```
 
    Verwenden Sie stattdessen `.htaccess_root_static` nur, wenn Sie einen generierten statischen Cache ausliefern (es
-   ist `.htaccess_root` mit zusätzlichen Regeln zum Ausliefern des statischen Caches).
+   ist `.htaccess_root` mit zusätzlichen Regeln zum Ausliefern des statischen Caches):
+   `./console exp:setup:htaccess --static --apply`. Der Befehl kopiert mit dem Modus der Vorlage (und, als root mit
+   `--allow-root-user`, mit ihrem Eigentümer), zeigt einen Diff und lehnt ab, wenn bereits eine abweichende
+   `.htaccess` vorhanden ist, und sichert die alte Datei nach `var/backup/setup/<time>/`, bevor `--force --apply` sie
+   ersetzt. `./console exp:setup:status` zeigt, von welcher Vorlage die aktuelle `.htaccess` eine Kopie ist. Siehe
+   [.htaccess und config.php von der Konsole aus einrichten](../anleitungen/setup-dateien-von-der-konsole.md).
 
 2. **Die Module laden.** `mod_rewrite`, `mod_proxy` und `mod_proxy_fcgi` (Debian: `a2enmod rewrite proxy_fcgi`);
    für HTTPS `mod_ssl`, für HTTP/2 `mod_http2`.
@@ -1021,7 +1082,8 @@ Plesk erzeugt den virtuellen Host selbst; bearbeiten Sie seine Dateien nicht. In
 
 - richten Sie das Document Root der Domain auf das Installationsverzeichnis (das Verzeichnis mit `index.php`);
 - wählen Sie in den PHP-Einstellungen „FPM-Anwendung, bereitgestellt von Apache“ und die PHP-Version;
-- behalten Sie `.htaccess` (kopiert aus `.htaccess_root`); das Apache von Plesk liest sie;
+- behalten Sie `.htaccess` (kopiert aus `.htaccess_root`, zum Beispiel mit `./console exp:setup:htaccess --apply`);
+  das Apache von Plesk liest sie;
 - installieren Sie das Zertifikat in Plesk (über seine Let's-Encrypt-Erweiterung oder ein eigenes) und schalten Sie
   die Weiterleitung auf HTTPS ein.
 
@@ -1293,7 +1355,7 @@ funktioniert:
 cat > /etc/vc/conf-available/reverse-proxy.conf <<'EOF'
 { "Q": { "webserver": { "proxy": { "trusted": ["127.0.0.1", "::1", "192.0.2.10", "10.0.0.0/8"] } } } }
 EOF
-php bin/php/console exp:velocity conf enable reverse-proxy --allow-root-user
+php bin/php/console exp:velocity conf enable --apply reverse-proxy --allow-root-user
 php bin/php/console exp:velocity restart --allow-root-user
 ```
 
@@ -1376,7 +1438,8 @@ Was hinter einem Proxy schiefgehen kann:
 - [ ] `[DeploySettings] PhpFpmService=disabled`, wenn Velocity die Website allein ausliefert;
       `exp:velocity deploy --dry-run` zeigt die erwarteten Schritte.
 - [ ] Apache oder nginx: `.htaccess` aus `.htaccess_root` kopiert (oder der abgeleitete nginx-Block), Front-Controller
-      und Asset-Pfade getestet, eine `.php` unterhalb des Wurzelverzeichnisses antwortet mit 404.
+      und Asset-Pfade getestet, eine `.php` unterhalb des Wurzelverzeichnisses antwortet mit 404;
+      `./console exp:setup:status` nennt die Vorlage.
 - [ ] `var/` und `settings/` beschreibbar für den einen Benutzer (oder die eine Gruppe), der PHP ausführt; keine
       Dateien in `var/`, die root gehören.
 - [ ] Hinter einem Proxy: Dem Proxy wird vertraut (`TrustedProxies[]` bzw. für Velocity `Q.webserver.proxy.trusted`),

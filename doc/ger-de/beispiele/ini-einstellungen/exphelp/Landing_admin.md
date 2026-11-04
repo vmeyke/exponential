@@ -2,14 +2,14 @@
 title: exphelp.ini [Landing_admin]
 audience: developer, admin
 category: examples
-summary: "Die Einstellungen von [Landing_admin] in exphelp.ini: StartPage, Related"
-keywords: Einstellung, exphelp.ini, Landing_admin, INI, setting, StartPage, Related
+summary: "Die Einstellungen von [Landing_admin] in exphelp.ini: StartPage, InfoPages, Related"
+keywords: Einstellung, exphelp.ini, Landing_admin, INI, setting, StartPage, InfoPages, Related
 type: generated
 generated: exp:help:examples
 ---
 # exphelp.ini [Landing_admin]
 
-Der Block `[Landing_admin]` von `settings/exphelp.ini`, mit 2 Einstellung(en).
+Der Block `[Landing_admin]` von `settings/exphelp.ini`, mit 3 Einstellung(en).
 
 Bearbeiten Sie `settings/exphelp.ini` nie selbst: Ein Update ersetzt die Datei. Schreiben Sie die Einstellungen, die Sie ändern, in ein Override, das Vorrang vor der ausgelieferten Datei hat:
 
@@ -26,6 +26,30 @@ Standard: `help/admin-tour.md`.
 # settings/override/exphelp.ini.append.php
 [Landing_admin]
 StartPage=help/admin-tour.md
+*/ ?>
+```
+
+## InfoPages
+
+Standard: eine Liste mit 11: `help/migrations/migrations-for-administrators.md`, `help/migrations/README.md`, `help/migrations/in-the-administration.md`, `help/migrations/a-tour-of-setup-migrations.md`, `help/migrations/deploy-step-by-step.md`, `help/migrations/when-a-migration-fails.md`, `help/migrations/recipes/captions-and-rollback-in-practice.md`, `help/migrations/faq.md`, `guides/host-static-sites-on-github-pages.md`, `help/static-publishing/keep-private-content-private.md`, `help/static-publishing/github-pages-limits-and-terms.md`.
+
+```ini
+<?php /* #?ini charset="utf-8"?
+# settings/override/exphelp.ini.append.php
+[Landing_admin]
+# ein leeres "InfoPages[]" zuerst ersetzt die ausgelieferte Liste; ohne es werden die Einträge hinzugefügt
+InfoPages[]
+InfoPages[]=help/migrations/migrations-for-administrators.md
+InfoPages[]=help/migrations/README.md
+InfoPages[]=help/migrations/in-the-administration.md
+InfoPages[]=help/migrations/a-tour-of-setup-migrations.md
+InfoPages[]=help/migrations/deploy-step-by-step.md
+InfoPages[]=help/migrations/when-a-migration-fails.md
+InfoPages[]=help/migrations/recipes/captions-and-rollback-in-practice.md
+InfoPages[]=help/migrations/faq.md
+InfoPages[]=guides/host-static-sites-on-github-pages.md
+InfoPages[]=help/static-publishing/keep-private-content-private.md
+InfoPages[]=help/static-publishing/github-pages-limits-and-terms.md
 */ ?>
 ```
 

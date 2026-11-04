@@ -68,6 +68,24 @@ language in `language-names-<code>.json`). Both are keyed by a signature of the 
 locale and translation file, so a new or changed file builds the catalogue again on its next use; nothing needs
 clearing. With the cache, the list costs about 2 ms per page.
 
+Each translation file is kept as a mask of the source messages it translates, per file, in
+`<cache directory>/uiswitch/translation-masks.json`, keyed by the file's size, time and inode and by those of the
+source catalogue. When a translation changes, only that file is read again, not all of them. A well-formed file is
+read by string search, about three times faster than building an XML node for each message. A file the scan cannot
+read exactly as the XML parser does (broken, with CDATA, or in another encoding than UTF-8) is streamed with
+XMLReader as before. The cache files get the installation's file mode (`site.ini [FileSettings]
+StorageFilePermissions`), so Velocity (root) and PHP-FPM (the site user) can both replace them.
+`exp:velocity deploy` builds them in its "interface language caches" step.
+
+Building every mask from nothing is the expensive part: with 156 translations it takes about 30 seconds. The language
+choice in the administration's toolbar is on every page, so it never waits for all of them: its catalogue has a time
+budget of 2 seconds per request (`expUISwitchLanguageProvider::COVERAGE_TIME_BUDGET`,
+`expUISwitchLanguageCatalogue::setTimeBudget()`). The masks not built within it are left for the next requests; until
+then those languages are listed without a percentage (their entries carry `pending`), and the complete catalogue is
+cached as soon as every mask is there, usually after about ten pages. Setup > Interface languages and the console
+build everything at once, as before. Before this, the first administration page after the masks were gone built them
+all and could run into `max_execution_time` (Redmine #16709).
+
 A regional variant without a translation of its own takes the one `i18n.ini [TranslationSettings]
 FallbackLanguages[]` names: `ger-AT` and `ger-CH` show the `ger-DE` texts, the French-speaking countries `fre-FR`,
 the Spanish-speaking ones `esl-ES`, the Arabic ones `ara-SA` once it exists. The translator looks this up for the

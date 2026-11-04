@@ -8,6 +8,13 @@ und einen Pool von Workern am Leben hält. Das Ergebnis ist eine Website, die zw
 unter einer Millisekunde CPU-Zeit beantwortet und nicht zwischengespeicherte Seiten mit einer warmen
 Datenbankverbindung, warmen Datei-Caches und einem warmen Opcode-Cache rendert.
 
+**Ab 6.0.15 ist Velocity Teil von Exponential.** `composer.json` verlangt `se7enxweb/exponential-velocity
+~0.0.4.57`, sodass `composer install` den Server mit dem übrigen Produkt installiert, unter PHP 8.0 und neuer. Vor dem
+ersten Start muss nichts hinzugefügt werden, und nichts wechselt die Engine von selbst: Die mitgelieferte
+`velocity.ini` startet den eingebauten Server von PHP, bis `[ServerSettings] Engine=qbix` gesetzt ist. Warum das ein
+Wendepunkt, ein Grundstein und ein Schlussstein für das Projekt ist und was es für jede Art von Leser bedeutet:
+[Velocity ist Teil von Exponential 6.0.15](../../hilfe/velocity-ist-teil-von-exponential-6-0-15.md).
+
 Im Folgenden: was zwischen dem 22. und 30. September 2026 hinzukam, wie Sie es starten, welche Einstellungen zuerst
 wichtig sind und wo die ausführlichen Anleitungen stehen.
 
@@ -96,7 +103,7 @@ bevor es die Server-Konfiguration erstellt, sodass eine Änderung beim nächsten
 | `[ServerSettings]` | `HTTP2` | `enabled` | HTTP/2 für HTTPS-Verbindungen. |
 | `[ServerSettings]` | `ResponseHeaders[]` | vier Sicherheits-Header | Header, die statischen Dateien, Fehlerseiten, Weiterleitungen und 304-Antworten hinzugefügt werden. |
 | `[ServerSettings]` | `ResponseHeadersOnScripts` | `enabled` | Dieselben Header bei Antworten von `index.php`, `index_rest.php` und `index_treemenu.php`, nur wo das Skript sie nicht gesendet hat. |
-| `[HTTPSSettings]` | `HSTSMaxAge`, `HSTSIncludeSubDomains`, `HSTSPreload` | `300`, `disabled`, `disabled` | `Strict-Transport-Security` bei jeder HTTPS-Antwort, nie bei einfachem HTTP. `0` schreibt nichts. |
+| `[HTTPSSettings]` | `HSTSMaxAge`, `HSTSIncludeSubDomains`, `HSTSPreload` | `0`, `disabled`, `disabled` | `Strict-Transport-Security` bei jeder HTTPS-Antwort, nie bei einfachem HTTP. `0` schreibt nichts. |
 | `[CacheSettings]` | `Enabled` | `enabled` | Der eigene Antwort-Cache des Servers. `disabled` schaltet ihn wirklich aus (seit dem 28. September; vorher fiel ein deaktivierter Wert auf den Standard des Servers zurück). |
 | `[PHPSettings]` | `IniOptions[]` | Optionen für opcache und APCu | PHP-Optionen, die an den Serverprozess übergeben werden, eine pro Zeile, wie nach `-d`. Ausgeliefert: `opcache.enable_cli=1`, `opcache.memory_consumption=256`, `opcache.max_accelerated_files=20000`, `opcache.interned_strings_buffer=32`, `opcache.revalidate_freq=0`, `opcache.file_update_protection=0`, `apc.shm_size=256M` (die vollständige Liste und die Gründe stehen in `settings/velocity.ini`). |
 
@@ -126,8 +133,8 @@ zwischen den verglichenen Servern ab, statt sie nacheinander zu messen.
 ```bash
 ./console exp:velocity config list ServerSettings
 ./console exp:velocity config get ServerSettings Workers
-./console exp:velocity config set ServerSettings Workers 8
-./console exp:velocity config unset ServerSettings Workers
+./console exp:velocity config set --apply ServerSettings Workers 8
+./console exp:velocity config unset --apply ServerSettings Workers
 ./console exp:velocity config paths      # which of the three look-alike files is the real one
 ```
 
@@ -159,7 +166,7 @@ September nahm das Ausschalten des Antwort-Cache den beiden anderen stillschweig
 Leeren Sie nach einer Änderung an einem Template oder Stylesheet jeden Cache:
 
 ```bash
-./console exp:velocity cache clear
+./console exp:velocity cache clear --apply
 ```
 
 Für die Schaltflächen unter **Setup > Caches** auf der Kommandozeile siehe

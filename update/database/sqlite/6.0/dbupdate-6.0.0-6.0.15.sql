@@ -51,6 +51,15 @@ ALTER TABLE ezprest_authcode ADD COLUMN code_challenge_method varchar(10) DEFAUL
 CREATE INDEX IF NOT EXISTS ezcontentobject_trash__ezcobj_trash_trashed_by ON ezcontentobject_trash ( trashed_by );
 
 --
+-- An index on ezcontentobject.modified: Dashboard > Recent content lists the
+-- objects by their modification date, a page at a time, and on a large
+-- database that read must be indexed. Created only when missing, under the
+-- name a new installation gives it.
+--
+
+CREATE INDEX IF NOT EXISTS idx_ezcontentobject_ezcontentobject_modified ON ezcontentobject ( modified );
+
+--
 -- The pdf export carries its own footer wording.
 --
 -- Every page of every export used to read "Exponential PDF export", because
@@ -118,6 +127,18 @@ CREATE INDEX "idx_ezrss_export_opml_item_ezrss_export_opml_rsseid" ON "ezrss_exp
 --
 
 ALTER TABLE ezrss_export ADD COLUMN podcast_head longtext;
+
+--
+-- ezorder.siteaccess: the siteaccess (store or site) an order was placed in
+-- (doc/eng-us/features/6.0/order-siteaccess.md). The shop records it when the
+-- basket becomes an order; the order view and the order lists show it and
+-- filter by it. Orders placed before keep '' and are shown as unknown: which
+-- siteaccess they came from is not recorded; bin/php/expbackfillordersiteaccess.php
+-- infers it from the content tree where it can (dry run unless --apply).
+-- Until the column is there the kernel stores and reads orders without it.
+-- Run once; a second run stops at "duplicate column name", which means the column is there.
+--
+ALTER TABLE ezorder ADD COLUMN siteaccess varchar(255) NOT NULL DEFAULT '';
 
 --
 -- The order statuses of a whole order lifecycle.
@@ -273,11 +294,20 @@ CREATE INDEX expbookmark_folder_user ON expbookmark_folder ( user_id, parent_id 
 -- it has a name, a folder and a place in its folder like every other; expbookmark_view holds
 -- its address (module_uri, without the siteaccess). New table only: node bookmarks do not
 -- change. Written with IF NOT EXISTS, so running these statements again changes nothing.
+-- The table has the address parsed as well: module_name, view_name and view_parameters (JSON of the
+-- ordered, unordered and query parameters), so bookmarks are found and moved by module and view.
+-- SQLite cannot add a column only when it is missing: a table made by an early 6.0.15 build, with
+-- the address alone, gets them from update/common/scripts/6.0/createbookmarkviewtable.php or
+-- ./console exp:upgrade --apply, which also fill them and add their index (expbookmark_view_module,
+-- left out here because it would fail on such a table); until then the kernel reads the address alone.
 CREATE TABLE IF NOT EXISTS expbookmark_view (
   bookmark_id integer NOT NULL DEFAULT 0,
   created integer NOT NULL DEFAULT 0,
+  module_name varchar(100) NOT NULL DEFAULT '',
   module_uri longtext,
   user_id integer NOT NULL DEFAULT 0,
+  view_name varchar(100) NOT NULL DEFAULT '',
+  view_parameters longtext,
   PRIMARY KEY ( bookmark_id )
 );
 CREATE INDEX IF NOT EXISTS expbookmark_view_user ON expbookmark_view ( user_id );
@@ -562,6 +592,23 @@ CREATE INDEX IF NOT EXISTS expuser_session_user ON expuser_session ( user_id, en
 CREATE INDEX IF NOT EXISTS expuser_session_active ON expuser_session ( ended, last_active );
 
 --
+-- What a signed-in session adds to its row of expuser_session (doc/eng-us/features/6.0/user-sessions.md): the host
+-- the sign-in was made on, the country and place a local GeoIP database names (empty without one) and the second
+-- step of the sign-in (totp, email, recovery). One row per session, removed with it. Without the table the sessions
+-- are tracked as before, without these details; update/common/scripts/6.0/createusersessiontable.php creates it on
+-- any engine. Written with IF NOT EXISTS, so running these statements again changes nothing.
+CREATE TABLE IF NOT EXISTS expuser_session_info (
+  auth_detail varchar(32) NOT NULL DEFAULT '',
+  country varchar(2) NOT NULL DEFAULT '',
+  host varchar(255) NOT NULL DEFAULT '',
+  location varchar(128) NOT NULL DEFAULT '',
+  session_id integer NOT NULL DEFAULT 0,
+  user_id integer NOT NULL DEFAULT 0,
+  PRIMARY KEY ( session_id )
+);
+CREATE INDEX IF NOT EXISTS expuser_session_info_user ON expuser_session_info ( user_id );
+
+--
 -- ezuser.login: one account per login.
 --
 -- A new installation has a unique index on ezuser.login from the kernel schema.
@@ -631,3 +678,200 @@ CREATE TABLE IF NOT EXISTS exphelp_feedback (
 );
 CREATE INDEX IF NOT EXISTS exphelp_feedback_object ON exphelp_feedback ( object_id, created );
 CREATE INDEX IF NOT EXISTS exphelp_feedback_created ON exphelp_feedback ( created );
+
+-- expuser_audit: the user audit log (doc/eng-us/features/6.0/user-audit.md). One row per security event about a user
+-- account or a user group (a change with its fields before and after, a sign-in, a refused attempt, a role
+-- assignment): who, when, where (siteaccess, host, the address as the audit's privacy rules leave it), whom and what.
+-- Filled from the audit records of the access channel; read on user/audit. Never a password, a hash or a secret.
+-- Written with IF NOT EXISTS, so running these statements again changes nothing.
+CREATE TABLE IF NOT EXISTS expuser_audit (
+  actor_id integer NOT NULL DEFAULT '0',
+  actor_login varchar(150) NOT NULL DEFAULT '',
+  client_ip varchar(64) NOT NULL DEFAULT '',
+  created integer NOT NULL DEFAULT '0',
+  event_id varchar(26) NOT NULL DEFAULT '',
+  event_name varchar(128) NOT NULL DEFAULT '',
+  host varchar(255) NOT NULL DEFAULT '',
+  id integer NOT NULL PRIMARY KEY AUTOINCREMENT,
+  module_view varchar(128) NOT NULL DEFAULT '',
+  reason varchar(64) NOT NULL DEFAULT '',
+  request_id varchar(40) NOT NULL DEFAULT '',
+  result varchar(16) NOT NULL DEFAULT '',
+  siteaccess varchar(64) NOT NULL DEFAULT '',
+  target_id integer NOT NULL DEFAULT '0',
+  target_login varchar(150) NOT NULL DEFAULT '',
+  target_type varchar(16) NOT NULL DEFAULT '',
+  time_ms integer NOT NULL DEFAULT '0',
+  value_after longtext,
+  value_before longtext
+);
+CREATE UNIQUE INDEX IF NOT EXISTS expuser_audit_event ON expuser_audit ( event_id );
+CREATE INDEX IF NOT EXISTS expuser_audit_target ON expuser_audit ( target_id, created );
+CREATE INDEX IF NOT EXISTS expuser_audit_actor ON expuser_audit ( actor_id, created );
+CREATE INDEX IF NOT EXISTS expuser_audit_name ON expuser_audit ( event_name, created );
+CREATE INDEX IF NOT EXISTS expuser_audit_created ON expuser_audit ( created );
+
+-- expupgrade_step: the older record of exp:upgrade, which only a pre-release of 6.0.15 had (no released
+-- version has it). exp_migration below replaces it: its rows are copied over and the table is dropped at the
+-- end of this section. Created empty here when it is missing, so the copy below can read it on every
+-- installation; the upgrade step 6.0.15-upgrade-record-table does the same from the console.
+CREATE TABLE IF NOT EXISTS expupgrade_step (
+  applied_at integer NOT NULL DEFAULT '0',
+  applied_by varchar(150) NOT NULL DEFAULT '',
+  checksum varchar(64) NOT NULL DEFAULT '',
+  duration_ms integer NOT NULL DEFAULT '0',
+  engine varchar(30) NOT NULL DEFAULT '',
+  message varchar(1000) NOT NULL DEFAULT '',
+  stage varchar(20) NOT NULL DEFAULT '',
+  state varchar(20) NOT NULL DEFAULT '',
+  step_id varchar(150) NOT NULL DEFAULT '' PRIMARY KEY,
+  version varchar(30) NOT NULL DEFAULT ''
+);
+
+-- exp_static_run and exp_static_page: the record of static publishing, one row per publish or rollback of a
+-- target and one per page of a target as last published (the upgrade step 6.0.15-static-publish-tables makes
+-- them). Written with IF NOT EXISTS, so running these statements again changes nothing.
+
+CREATE TABLE IF NOT EXISTS exp_static_page (
+  built_at integer NOT NULL DEFAULT '0',
+  hash varchar(64) NOT NULL DEFAULT '',
+  node_id integer NOT NULL DEFAULT '0',
+  page_bytes integer NOT NULL DEFAULT '0',
+  path varchar(255) NOT NULL DEFAULT '',
+  stale integer NOT NULL DEFAULT '0',
+  target varchar(50) NOT NULL DEFAULT '',
+  PRIMARY KEY ( target, path )
+);
+CREATE INDEX IF NOT EXISTS exp_static_page_node ON exp_static_page ( node_id );
+CREATE TABLE IF NOT EXISTS exp_static_run (
+  added integer NOT NULL DEFAULT '0',
+  bytes integer NOT NULL DEFAULT '0',
+  changed integer NOT NULL DEFAULT '0',
+  commit_id varchar(64) NOT NULL DEFAULT '',
+  files integer NOT NULL DEFAULT '0',
+  finished_at integer NOT NULL DEFAULT '0',
+  kind varchar(20) NOT NULL DEFAULT '',
+  message varchar(1000) NOT NULL DEFAULT '',
+  pages integer NOT NULL DEFAULT '0',
+  push_state varchar(20) NOT NULL DEFAULT '',
+  removed integer NOT NULL DEFAULT '0',
+  run_by varchar(150) NOT NULL DEFAULT '',
+  run_id varchar(64) NOT NULL DEFAULT '' PRIMARY KEY,
+  started_at integer NOT NULL DEFAULT '0',
+  state varchar(20) NOT NULL DEFAULT '',
+  tag_name varchar(150) NOT NULL DEFAULT '',
+  target varchar(50) NOT NULL DEFAULT ''
+);
+CREATE INDEX IF NOT EXISTS exp_static_run_target ON exp_static_run ( target, started_at );
+
+-- exp_migration and exp_migration_run: the migration record (one row per migration, the key is its source and
+-- id) and its runs; exp:upgrade writes its steps there as migrations of the source "kernel" (the upgrade step
+-- 6.0.15-migration-tables makes them). Written with IF NOT EXISTS, the copy leaves out a row that exp_migration
+-- has already and the table expupgrade_step is gone afterwards, so running these statements again changes nothing.
+CREATE TABLE IF NOT EXISTS exp_migration (
+  caption_id varchar(150) NOT NULL DEFAULT '',
+  checksum varchar(64) NOT NULL DEFAULT '',
+  duration_ms integer NOT NULL DEFAULT '0',
+  engine varchar(30) NOT NULL DEFAULT '',
+  environment varchar(50) NOT NULL DEFAULT '',
+  file_path varchar(255) NOT NULL DEFAULT '',
+  finished_at integer NOT NULL DEFAULT '0',
+  message varchar(1000) NOT NULL DEFAULT '',
+  migration_id varchar(150) NOT NULL DEFAULT '',
+  revision varchar(64) NOT NULL DEFAULT '',
+  run_by varchar(150) NOT NULL DEFAULT '',
+  run_id varchar(64) NOT NULL DEFAULT '',
+  source varchar(100) NOT NULL DEFAULT '',
+  stage varchar(20) NOT NULL DEFAULT '',
+  started_at integer NOT NULL DEFAULT '0',
+  state varchar(20) NOT NULL DEFAULT '',
+  version varchar(30) NOT NULL DEFAULT '',
+  PRIMARY KEY ( source, migration_id )
+);
+CREATE INDEX IF NOT EXISTS exp_migration_run_id ON exp_migration ( run_id );
+CREATE TABLE IF NOT EXISTS exp_migration_run (
+  caption_post varchar(150) NOT NULL DEFAULT '',
+  caption_pre varchar(150) NOT NULL DEFAULT '',
+  commit_id varchar(64) NOT NULL DEFAULT '',
+  environment varchar(50) NOT NULL DEFAULT '',
+  finished_at integer NOT NULL DEFAULT '0',
+  log_file varchar(255) NOT NULL DEFAULT '',
+  message varchar(1000) NOT NULL DEFAULT '',
+  push_state varchar(20) NOT NULL DEFAULT '',
+  run_by varchar(150) NOT NULL DEFAULT '',
+  run_id varchar(64) NOT NULL DEFAULT '' PRIMARY KEY,
+  started_at integer NOT NULL DEFAULT '0',
+  state varchar(20) NOT NULL DEFAULT '',
+  tag_name varchar(150) NOT NULL DEFAULT ''
+);
+CREATE INDEX IF NOT EXISTS exp_migration_run_started ON exp_migration_run ( started_at );
+INSERT INTO exp_migration ( source, migration_id, stage, version, state, started_at, finished_at, duration_ms, run_by, engine, checksum, message, caption_id )
+  SELECT 'kernel', s.step_id, s.stage, s.version, s.state,
+         CASE WHEN s.applied_at > 0 THEN max( s.applied_at - CAST( ROUND( s.duration_ms / 1000.0 ) AS integer ), 0 ) ELSE 0 END,
+         s.applied_at, s.duration_ms, s.applied_by, s.engine, s.checksum, s.message,
+         CASE WHEN s.stage = 'caption' AND s.step_id LIKE 'caption:%' THEN substr( s.step_id, 9 ) ELSE '' END
+    FROM expupgrade_step s
+   WHERE NOT EXISTS ( SELECT 1 FROM exp_migration m WHERE m.source = 'kernel' AND m.migration_id = s.step_id );
+DROP TABLE IF EXISTS expupgrade_step;
+
+-- exp_migration_recording and exp_migration_recording_event: the recordings of changes for migrations (one row per
+-- recording, one row per recorded change with the migration step it stands for as JSON in payload). The upgrade
+-- step 6.0.15-migration-recording-tables does the same. New tables only, written with IF NOT EXISTS, so running
+-- these statements again changes nothing.
+CREATE TABLE IF NOT EXISTS exp_migration_recording (
+  environment varchar(50) NOT NULL DEFAULT '',
+  event_count integer NOT NULL DEFAULT '0',
+  kind varchar(20) NOT NULL DEFAULT '',
+  label varchar(255) NOT NULL DEFAULT '',
+  message varchar(1000) NOT NULL DEFAULT '',
+  recording_id varchar(64) NOT NULL DEFAULT '' PRIMARY KEY,
+  started_at integer NOT NULL DEFAULT '0',
+  state varchar(20) NOT NULL DEFAULT '',
+  stopped_at integer NOT NULL DEFAULT '0',
+  user_id integer NOT NULL DEFAULT '0'
+);
+CREATE INDEX IF NOT EXISTS exp_migration_recording_state ON exp_migration_recording ( state );
+CREATE TABLE IF NOT EXISTS exp_migration_recording_event (
+  actor_id integer NOT NULL DEFAULT '0',
+  audit_name varchar(100) NOT NULL DEFAULT '',
+  event_id varchar(32) NOT NULL DEFAULT '',
+  payload longtext DEFAULT NULL,
+  recorded_at integer NOT NULL DEFAULT '0',
+  recording_id varchar(64) NOT NULL DEFAULT '',
+  step_mode varchar(20) NOT NULL DEFAULT '',
+  step_type varchar(50) NOT NULL DEFAULT '',
+  subject varchar(255) NOT NULL DEFAULT '',
+  PRIMARY KEY ( recording_id, event_id )
+);
+
+-- exp_migration_deploy and exp_migration_deploy_host: the record of the deploys of migrations to remotes (one row
+-- per deploy, one per remote of it; exp:migration:deploy and Setup > Migrations > Deploys). The upgrade step
+-- 6.0.15-migration-deploy-tables makes them the same way.
+CREATE TABLE IF NOT EXISTS exp_migration_deploy (
+  deploy_id varchar(64) NOT NULL DEFAULT '' PRIMARY KEY,
+  finished_at integer NOT NULL DEFAULT '0',
+  in_sync integer NOT NULL DEFAULT '0',
+  message varchar(1000) NOT NULL DEFAULT '',
+  mode varchar(20) NOT NULL DEFAULT '',
+  next_stage integer NOT NULL DEFAULT '0',
+  run_by varchar(150) NOT NULL DEFAULT '',
+  stages integer NOT NULL DEFAULT '0',
+  started_at integer NOT NULL DEFAULT '0',
+  state varchar(20) NOT NULL DEFAULT ''
+);
+CREATE INDEX IF NOT EXISTS exp_migration_deploy_started ON exp_migration_deploy ( started_at );
+
+CREATE TABLE IF NOT EXISTS exp_migration_deploy_host (
+  address varchar(255) NOT NULL DEFAULT '',
+  applied integer NOT NULL DEFAULT '0',
+  caption varchar(150) NOT NULL DEFAULT '',
+  deploy_id varchar(64) NOT NULL DEFAULT '',
+  environment varchar(50) NOT NULL DEFAULT '',
+  message varchar(1000) NOT NULL DEFAULT '',
+  remote_id varchar(64) NOT NULL DEFAULT '',
+  stage integer NOT NULL DEFAULT '0',
+  state varchar(20) NOT NULL DEFAULT '',
+  transport varchar(20) NOT NULL DEFAULT '',
+  PRIMARY KEY ( deploy_id, remote_id )
+);
+CREATE INDEX IF NOT EXISTS exp_migration_deploy_host_remote ON exp_migration_deploy_host ( remote_id );

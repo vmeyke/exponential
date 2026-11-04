@@ -52,7 +52,7 @@ mit [Mit Git entwickeln](../hilfe/mit-git-entwickeln.md).
 - **Ein Beitrag zum Kernel wird gemergt, sobald die CLA seines Autors vorliegt.** 7x und die Exponential Foundation
   verlangen für jeden Codebeitrag zum Kern-Kernel eine unterzeichnete Contributor Licensing Agreement, gleich ob er als
   Pull Request, Patch, Issue oder per Mail eingeht ([Übertragung des Urheberrechts (CLA)](../../../CONTRIBUTING.md#copyright-assignment-cla)).
-  Mit Unterzeichnung und Einreichung überträgt der Beitragende das Urheberrecht am Beitrag an 7x, das damit dessen Eigentümer wird, und gibt die Kontrolle darüber auf: 7x darf ihn in jeder Weise verwenden, ändern, neu lizenzieren und verbreiten, und der Beitragende kann ihn weder zurückziehen noch an Bedingungen knüpfen. Die Vorlage für Pull Requests hat dafür ein Kontrollkästchen. Eigene Extensions der Benutzer
+  Mit Unterzeichnung und Einreichung überträgt der Beitragende das Urheberrecht am Beitrag an die Exponential Foundation und 7x, die damit dessen Eigentümer werden, und gibt die Kontrolle darüber auf: Die Exponential Foundation und 7x dürfen ihn in jeder Weise verwenden, ändern, neu lizenzieren und verbreiten, und der Beitragende kann ihn weder zurückziehen noch an Bedingungen knüpfen. Die Vorlage für Pull Requests hat dafür ein Kontrollkästchen. Eigene Extensions der Benutzer
   sind nicht betroffen.
 - **Kein Force-Push und kein Umschreiben veröffentlichter Historie.** Ein Commit auf `main` ist öffentlich; ein
   Umschreiben würde jeden späteren Commit verschieben und jeden Tag, der in diesen Bereich zeigt, verwaisen lassen. Die
@@ -101,7 +101,8 @@ Weitere Regeln des Projekts, die kein Werkzeug prüft:
 ## Changelogs
 
 - Kernel-Changelogs: `doc/changelogs/<series>/<version>.md`, zum Beispiel
-  [6.0.15](../../changelogs/6.0/6.0.15.md) (in Entwicklung; „Not released yet“ in der ersten Zeile). Ältere Serien bis
+  [6.0.15](../../changelogs/6.0/6.0.15.md) (die aktuelle Linie; bis zum Tag steht „Not released yet“ in der ersten
+  Zeile). Ältere Serien bis
   zurück zu 2.9 liegen in `doc/changelogs/`.
 - Extension-Changelogs: `doc/changelogs/extensions/<name>.md`, zum Beispiel
   [exponential-velocity.md](../../changelogs/extensions/exponential-velocity.md).
@@ -150,7 +151,7 @@ gh release list --limit 10
   `VERSION_RELEASE = 15`). Die `composer.json` im Wurzelverzeichnis hat kein Feld `version`; Composer nimmt die Version
   aus dem Tag, und `main` ist `6.0.x-dev`.
 - Veröffentlichte Tags `v6.0.0` bis `v6.0.14` existieren; GitHub-Releases gibt es für `v6.0.10` bis `v6.0.14` (das
-  neueste, „Exponential 6.0.14“, am 07.06.2026). `v6.0.10` bis `v6.0.12` sind leichtgewichtige Tags, `v6.0.13` und
+  letzte vor der Linie 6.0.15, „Exponential 6.0.14“, am 07.06.2026; den Tag `v6.0.15` zeigt `git tag`). `v6.0.10` bis `v6.0.12` sind leichtgewichtige Tags, `v6.0.13` und
   `v6.0.14` annotiert (geprüft mit `git for-each-ref`).
 
 ### Releases von Extensions

@@ -1,10 +1,25 @@
 # Upgrade: von 4.x, 5.x oder einer früheren 6.0.x auf den aktuellen Stand
 
 Diese Anleitung richtet sich an alle, die eine bestehende Installation betreiben und sie auf die aktuelle Linie
-Exponential 6.0 bringen möchten. Diese Linie ist 6.0.15, noch in Entwicklung; der neueste Release-Tag zum Zeitpunkt
-des Schreibens ist `v6.0.14` (siehe [Changelog 6.0.15](../../changelogs/6.0/6.0.15.md)). Ermitteln Sie Ihre Version,
+Exponential 6.0 bringen möchten. Diese Linie ist 6.0.15; sie folgt auf `v6.0.14` (siehe
+[Changelog 6.0.15](../../changelogs/6.0/6.0.15.md)). Ermitteln Sie Ihre Version,
 folgen Sie dem Teil dafür und schließen Sie mit den Prüfungen am Ende ab. Sie zeigen Ihnen, dass das Ergebnis in
 Ordnung ist.
+
+> **Warnung**
+> **`.htaccess` bremst jede Anfrage.** Sind `.htaccess`-Dateien erlaubt (`AllowOverride` alles außer `None`), geschweige
+> denn genutzt, sucht Apache sie bei jeder Anfrage in jedem Verzeichnis des Pfads und liest und wertet sie aus, und
+> die Ladezeiten der Seiten steigen drastisch ([gemessen](setup-dateien-von-der-konsole.md#gemessen-htaccess-gegen-regeln-im-virtuellen-host)). Die einzige wirkliche Abhilfe ist, die
+> Funktion für den virtuellen Host abzuschalten: `AllowOverride None` im virtuellen HTTPS-Host, und die Regeln in
+> der Konfiguration des virtuellen Hosts selbst als mod_rewrite-Regeln. Das ist in Geschwindigkeitstests im
+> Produktivbetrieb weit schneller und die Zeit für die Optimierung einer Produktivkonfiguration unbedingt wert.
+> Stellen Sie sofort um: Übernehmen Sie die Regeln des [Beispiels für einen virtuellen HTTPS-Host](../beispiele/webserver/apache-virtueller-host.md) in
+> Ihren virtuellen Host (mit dem statischen Cache auch [`staticcache_offload.conf`](../../eng-us/examples/staticcache_offload.conf)), setzen Sie
+> `AllowOverride None`, führen Sie `apachectl configtest` aus, laden Sie Apache neu und testen Sie die Website.
+> Dieselben Regeln für andere Server: [nginx](../beispiele/webserver/nginx.md), [LiteSpeed](../beispiele/webserver/litespeed.md), [Caddy](../beispiele/webserver/caddy.md), [IIS](../beispiele/webserver/iis.md),
+> [Velocity](../beispiele/webserver/velocity.md) (eingebaut); wohin Regeln für virtuelle Hosts in einem Control Panel gehören:
+> [Plesk](../hilfe/hosting/control-panels/plesk.md), [cPanel](../hilfe/hosting/control-panels/cpanel.md), [DirectAdmin](../hilfe/hosting/control-panels/directadmin.md), [ISPConfig](../hilfe/hosting/control-panels/ispconfig.md).
+> **Unter LiteSpeed oder OpenLiteSpeed** kann zusätzlich der Seiten-Cache des Servers anonyme Besucher und Crawler ohne PHP bedienen: [Seiten-Caching mit LiteSpeed und OpenLiteSpeed](seiten-cache-mit-litespeed.md).
 
 Planen Sie für eine kleine Site zwanzig Minuten ein. Der riskante Schritt ist die Datenbank. Deshalb ist Schritt 1
 eine Datensicherung.
@@ -173,8 +188,8 @@ Lesen Sie dann die Hinweise der Linie 5.90, die den Wechsel zu PHP 7 und eine l�
    `SET default_storage_engine=InnoDB;`, was MySQL (ab 5.5.3) und MariaDB akzeptieren, führen Sie also die ganze Datei
    aus. Kopien der Datei von vor Oktober 2026 begannen mit `SET storage_engine=InnoDB;`, was MySQL ab 5.7.5 und
    MariaDB ab 12.0 ablehnen; nehmen Sie die aktuelle Datei. Details: [Changelog 6.0.0](../../changelogs/6.0/6.0.0.md).
-3. PHP: Exponential 6.0 benötigt auf der aktuellen Linie PHP 8.0 oder neuer (auch für Exponential Velocity, ab seinem Release 0.0.4.54;
-   siehe [Unterstützung für PHP 8.0](../bc/6.0/php-8.0-unterstuetzung.md)). Eine Site, die bei PHP 7.4 bleiben muss, bleibt bei 6.0.7; lesen Sie [Unterstützung für PHP 8](../bc/6.0/php8.md) für die Reihenfolge der Upgrade-Schritte, und prüfen Sie Ihre eigenen Extensions
+3. PHP: Exponential 6.0.15 läuft unter PHP 8.0 oder neuer (PHP 7.4 ohne Support nutzbar), Exponential Velocity unter 8.0 oder neuer (ab seinem Release 0.0.4.54;
+   siehe [Unterstützung für PHP 8.0](../bc/6.0/php-8.0-unterstuetzung.md) und [Warum Exponential PHP 7.4 unterstützt](../hilfe/warum-exponential-php-7-4-unterstuetzt.md)). Eine Site unter PHP 7.4 kann ab 6.0.15 wieder die aktuelle Linie betreiben, ohne Support (6.0.8 bis 6.0.14 brauchen PHP 8.1); lesen Sie [Unterstützung für PHP 8](../bc/6.0/php8.md) für die Reihenfolge der Upgrade-Schritte, und prüfen Sie Ihre eigenen Extensions
    auf PHP-8-Warnungen (Klassen, die `eZPersistentObject` oder `eZDataType` erweitern, sind die üblichen Fälle).
 4. Fahren Sie mit Teil C fort, der für jeden 6.0.x-Schritt dasselbe Verfahren ist.
 
@@ -196,6 +211,20 @@ Verwenden Sie `-k` nicht auf einer Installation, die zusätzliche Arbeitskopien 
 Laden Sie dann das PHP-FPM neu, das die Site ausliefert (`systemctl reload <your-php-fpm-service>`), und wenn Sie
 Velocity betreiben, zeigt `./console exp:velocity deploy --dry-run --allow-root-user` jeden Schritt, den der echte
 Befehl ausführen würde.
+
+Vergleichen Sie dann `.htaccess` und `config.php` mit den neuen Vorlagen. Eine Release kann `.htaccess_root`,
+`.htaccess_root_static` und `config.php-RECOMMENDED` ändern, und Ihre Kopien bleiben, wie sie sind:
+
+```bash
+./console exp:setup:status                     # ist .htaccess noch eine Kopie einer Vorlage?
+./console exp:setup:htaccess                   # der Diff zwischen Ihrer .htaccess und der neuen Vorlage
+./console exp:setup:htaccess --force --apply   # die neuen Regeln übernehmen (vorher Sicherung), wenn der Diff nichts Eigenes enthält
+./console exp:config:list                      # Einstellungen, die neu in config.php-RECOMMENDED sind, erscheinen als (not set)
+```
+
+Setzen Sie die neuen Einstellungen, die Sie möchten, mit `./console exp:config:set <NAME> <value> --apply`; die
+Einstellungen, die Sie hatten, behalten ihre Werte. Dasselbe gilt nach Teil A und B. Siehe
+[.htaccess und config.php von der Konsole aus einrichten](setup-dateien-von-der-konsole.md).
 
 ### C2. Das Datenbank-Update anwenden
 
@@ -264,6 +293,25 @@ Die drei Änderungen, auf die man am häufigsten stößt:
   eingeschaltet (September und Oktober 2026): Wenn ein Host Ihre Administration in einem Frame einbettet, setzen Sie den
   Header bewusst.
 
+**Wenn WebDAV eingeschaltet ist**: Seit 6.0.15 heißt sein Einstiegsskript `index_webdav.php`. `webdav.php` leitet nur
+noch dorthin weiter und wird in einer späteren Hauptversion entfernt. Ändern Sie den virtuellen Host (auch den für
+HTTPS) und die Rewrite-Regeln, und testen Sie mit
+`curl -i -X PROPFIND -H 'Depth: 1' https://www.example.com/index_webdav.php/` (erwartet: `207 Multi-Status`):
+[Das WebDAV-Einstiegsskript heißt jetzt index_webdav.php](../bc/6.0/webdav-einstiegsskript-index-webdav.md).
+
+**Wenn SOAP eingeschaltet ist** (`soap.ini` `EnableSOAP=true`, zum Beispiel für die Erweiterung `syndication`): Seit
+6.0.15 heißt sein Einstiegsskript `index_soap.php`. `soap.php` leitet nur noch dorthin weiter und wird in einer späteren
+Hauptversion entfernt. Lassen Sie `index_soap.php` im HTTPS-Virtual-Host und in `.htaccess` durch, stellen Sie die
+SOAP-Clients darauf um, laden Sie den Webserver neu und testen Sie mit
+`curl -sS -i 'https://www.example.com/index_soap.php?wsdl'` (erwartet: `200` und
+`Error: this web page does only understand POST methods`; ein `404` oder eine Seite der Website bedeutet, dass die
+Regel fehlt): [Das SOAP-Einstiegsskript heißt jetzt index_soap.php](../bc/6.0/soap-einstiegsskript-index-soap.md).
+
+**Das ist der Schritt, der am häufigsten vergessen wird.** Eine Aktualisierung ersetzt die Skripte, aber der virtuelle
+Host, die Rewrite-Regeln und die Direktiven im Control Panel gehören Ihnen: Keine Aktualisierung ändert sie. Ändern
+Sie sie im HTTPS-Host (`*:443`), nicht nur im HTTP-Host, und führen Sie den `curl`-Test nach dem Neuladen aus, bevor
+Sie die Aktualisierung für abgeschlossen erklären.
+
 Was sich Monat für Monat geändert hat, erzählt die [Chronik](../../eng-us/history/2026/); jede einzelne Änderung steht im
 [Verzeichnis des Root-Repositorys](../geschichte/aenderungsverzeichnis/exponential-root.md).
 
@@ -315,6 +363,13 @@ sehen, was eine Version enthält, öffnen Sie ihr Changelog: [6.0.0 bis 6.0.15](
 
 **USt-Regeln (6.0.15).** An der Berechnung der Umsatzsteuer ändert sich nichts. USt-Regeln werden nur angewendet, wenn `shop.ini [VATSettings] Handler` einen Handler nennt (`ezdefault`), und die ausgelieferte `settings/shop.ini` nennt weiterhin keinen. Ein Shop, dessen Regeln nie angewendet wurden, sieht jetzt einen Hinweis unter **Store > VAT rules**; um sie anzuwenden, setzen Sie `Handler=ezdefault` in `settings/override/shop.ini.append.php`, stellen sicher, dass das Land des Kunden beim Checkout bekannt ist, und testen eine Bestellung, bevor Sie live gehen.
 
+**Migrationen (6.0.15).** Ab 6.0.15 schreiben Sie die eigenen Änderungen einer Site nach dem Upgrade (eine Tabelle,
+eine Inhaltsklasse, Rollen, eine Korrektur von Inhalten) am besten als Migrationen: Dateien unter Versionskontrolle,
+die jede Installation der Site mit `./console exp:migration:migrate --apply` in derselben Reihenfolge anwendet, mit
+einem Sicherungspunkt vor jedem Lauf. Die Upgrade-Schritte des Kernels sind darunter gelistet. Beginnen Sie mit
+[Migrationen](../hilfe/migrationen/README.md); das Wort meint etwas anderes als das Upgrade einer Site:
+[Migrationen oder Umzug einer Site](../hilfe/migrationen/migrationen-oder-umzug-einer-site.md).
+
 **Demo-Modus (6.0.15).** Die Umgebungsvariable `EXP_DEMO_MODE=1` kennzeichnet eine öffentliche Demo; ohne sie ändert sich nichts. Upgrade einer Demo: Behalten Sie die Variable für den Webserver, Cron und die Konsole bei, und prüfen Sie danach das Banner. Upgrade einer echten Site: Stellen Sie sicher, dass die Variable für keinen ihrer Prozesse gesetzt ist. [Demo-Modus](../bc/6.0/demomodus.md).
 
 ## Siehe auch
@@ -323,6 +378,9 @@ sehen, was eine Version enthält, öffnen Sie ihr Changelog: [6.0.0 bis 6.0.15](
 - [Betrieb einer Site](betrieb-einer-website.md): Datensicherungen, Caches und Reparaturen nach dem Upgrade.
 - [Bereitstellung](bereitstellung.md) und [Velocity-Engines](../bc/6.0/velocity-engines.md): das richtige PHP-FPM neu laden oder auf einen schnelleren Server wechseln.
 - [Extensions](extensions.md): Versionen, Ladereihenfolge und Releases Ihrer eigenen Extensions.
+- [Upgrade mit der Konsole](aktualisieren-mit-der-konsole.md) und [Migrationen](../hilfe/migrationen/README.md): das
+  Upgrade als ein Befehl, und die eigenen Änderungen der Site danach.
+- [.htaccess und config.php von der Konsole aus einrichten](setup-dateien-von-der-konsole.md): beide Dateien mit den neuen Vorlagen vergleichen.
 - Release-Hinweise: [Changelogs von Exponential 6.0](../../changelogs/6.0/6.0.15.md) und [die Release-Hinweise der Extensions](../../changelogs/extensions/README.md).
 
 <!-- exp-partner-block:start -->

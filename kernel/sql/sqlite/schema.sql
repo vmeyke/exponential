@@ -178,8 +178,11 @@ CREATE TABLE `expbookmark_folder` (
 CREATE TABLE `expbookmark_view` (
   `bookmark_id` integer NOT NULL DEFAULT '0'
 ,  `created` integer NOT NULL DEFAULT '0'
+,  `module_name` varchar(100) NOT NULL DEFAULT ''
 ,  `module_uri` longtext
 ,  `user_id` integer NOT NULL DEFAULT '0'
+,  `view_name` varchar(100) NOT NULL DEFAULT ''
+,  `view_parameters` longtext
 ,  PRIMARY KEY (`bookmark_id`)
 );
 CREATE TABLE `ezcontentbrowserecent` (
@@ -194,7 +197,7 @@ CREATE TABLE `ezcontentclass` (
 ,  `contentobject_name` varchar(255) DEFAULT NULL
 ,  `created` integer NOT NULL DEFAULT '0'
 ,  `creator_id` integer NOT NULL DEFAULT '0'
-,  `id` integer NOT NULL PRIMARY KEY AUTOINCREMENT
+,  `id` integer
 ,  `identifier` varchar(50) NOT NULL DEFAULT ''
 ,  `initial_language_id` integer NOT NULL DEFAULT '0'
 ,  `is_container` integer NOT NULL DEFAULT '0'
@@ -208,6 +211,7 @@ CREATE TABLE `ezcontentclass` (
 ,  `sort_order` integer NOT NULL DEFAULT '1'
 ,  `url_alias_name` varchar(255) DEFAULT NULL
 ,  `version` integer NOT NULL DEFAULT '0'
+,  PRIMARY KEY (`id`,`version`)
 );
 CREATE TABLE `ezcontentclass_attribute` (
   `can_translate` integer DEFAULT '1'
@@ -227,7 +231,7 @@ CREATE TABLE `ezcontentclass_attribute` (
 ,  `data_text4` varchar(255) DEFAULT NULL
 ,  `data_text5` longtext
 ,  `data_type_string` varchar(50) NOT NULL DEFAULT ''
-,  `id` integer NOT NULL PRIMARY KEY AUTOINCREMENT
+,  `id` integer
 ,  `identifier` varchar(50) NOT NULL DEFAULT ''
 ,  `is_information_collector` integer NOT NULL DEFAULT '0'
 ,  `is_required` integer NOT NULL DEFAULT '0'
@@ -237,6 +241,7 @@ CREATE TABLE `ezcontentclass_attribute` (
 ,  `serialized_description_list` longtext
 ,  `serialized_name_list` longtext NOT NULL
 ,  `version` integer NOT NULL DEFAULT '0'
+,  PRIMARY KEY (`id`,`version`)
 );
 CREATE TABLE `ezcontentclass_classgroup` (
   `contentclass_id` integer NOT NULL DEFAULT '0'
@@ -284,12 +289,13 @@ CREATE TABLE `ezcontentobject_attribute` (
 ,  `data_int` integer DEFAULT NULL
 ,  `data_text` longtext
 ,  `data_type_string` varchar(50) DEFAULT ''
-,  `id` integer NOT NULL PRIMARY KEY AUTOINCREMENT
+,  `id` integer
 ,  `language_code` varchar(20) NOT NULL DEFAULT ''
 ,  `language_id` integer NOT NULL DEFAULT '0'
 ,  `sort_key_int` integer NOT NULL DEFAULT '0'
 ,  `sort_key_string` varchar(255) NOT NULL DEFAULT ''
 ,  `version` integer NOT NULL DEFAULT '0'
+,  PRIMARY KEY (`id`,`version`)
 );
 CREATE TABLE `ezcontentobject_link` (
   `contentclassattribute_id` integer NOT NULL DEFAULT '0'
@@ -390,16 +396,19 @@ CREATE TABLE `ezdiscountsubrule_value` (
 CREATE TABLE `ezenumobjectvalue` (
   `contentobject_attribute_id` integer NOT NULL DEFAULT '0'
 ,  `contentobject_attribute_version` integer NOT NULL DEFAULT '0'
-,  `text` NOT NULL DEFAULT ''
+,  `enumelement` varchar(255) NOT NULL DEFAULT ''
 ,  `enumid` integer NOT NULL DEFAULT '0'
-,  PRIMARY KEY (`contentobject_attribute_id`,`contentobject_attribute_version`,`text`)
+,  `enumvalue` varchar(255) NOT NULL DEFAULT ''
+,  PRIMARY KEY (`contentobject_attribute_id`,`contentobject_attribute_version`,`enumid`)
 );
 CREATE TABLE `ezenumvalue` (
   `contentclass_attribute_id` integer NOT NULL DEFAULT '0'
 ,  `contentclass_attribute_version` integer NOT NULL DEFAULT '0'
-,  `text` NOT NULL DEFAULT ''
-,  `id` integer NOT NULL PRIMARY KEY
+,  `enumelement` varchar(255) NOT NULL DEFAULT ''
+,  `enumvalue` varchar(255) NOT NULL DEFAULT ''
+,  `id` integer
 ,  `placement` integer NOT NULL DEFAULT '0'
+,  PRIMARY KEY (`id`,`contentclass_attribute_id`,`contentclass_attribute_version`)
 );
 CREATE TABLE `ezforgot_password` (
   `hash_key` varchar(32) NOT NULL DEFAULT ''
@@ -565,11 +574,12 @@ CREATE TABLE `eznotificationevent` (
 ,  `status` integer NOT NULL DEFAULT '0'
 );
 CREATE TABLE `ezoperation_memento` (
-  `id` integer NOT NULL PRIMARY KEY AUTOINCREMENT
+  `id` integer
 ,  `main` integer NOT NULL DEFAULT '0'
 ,  `main_key` varchar(32) NOT NULL DEFAULT ''
 ,  `memento_data` longtext NOT NULL
 ,  `memento_key` varchar(32) NOT NULL DEFAULT ''
+,  PRIMARY KEY (`id`,`memento_key`)
 );
 CREATE TABLE `ezorder` (
   `account_identifier` varchar(100) NOT NULL DEFAULT 'default'
@@ -583,6 +593,7 @@ CREATE TABLE `ezorder` (
 ,  `is_temporary` integer NOT NULL DEFAULT '1'
 ,  `order_nr` integer NOT NULL DEFAULT '0'
 ,  `productcollection_id` integer NOT NULL DEFAULT '0'
+,  `siteaccess` varchar(255) NOT NULL DEFAULT ''
 ,  `status_id` integer DEFAULT '0'
 ,  `status_modified` integer DEFAULT '0'
 ,  `status_modifier_id` integer DEFAULT '0'
@@ -631,7 +642,7 @@ CREATE TABLE `ezpdf_export` (
 ,  `creator_id` integer DEFAULT NULL
 ,  `export_classes` varchar(255) DEFAULT NULL
 ,  `export_structure` varchar(255) DEFAULT NULL
-,  `id` integer NOT NULL PRIMARY KEY AUTOINCREMENT
+,  `id` integer
 ,  `intro_text` longtext
 ,  `modified` integer DEFAULT NULL
 ,  `modifier_id` integer DEFAULT NULL
@@ -641,8 +652,11 @@ CREATE TABLE `ezpdf_export` (
 ,  `source_node_id` integer DEFAULT NULL
 ,  `status` integer DEFAULT NULL
 ,  `sub_text` longtext
+,  `show_footer` integer NOT NULL DEFAULT '1'
+,  `footer_text` varchar(255) NOT NULL DEFAULT ''
 ,  `title` varchar(255) DEFAULT NULL
 ,  `version` integer NOT NULL DEFAULT '0'
+,  PRIMARY KEY (`id`,`version`)
 );
 CREATE TABLE `ezpending_actions` (
   `id` integer NOT NULL PRIMARY KEY AUTOINCREMENT
@@ -869,6 +883,149 @@ CREATE TABLE `expuser_session` (
 ,  `user_agent` varchar(512) NOT NULL DEFAULT ''
 ,  `user_id` integer NOT NULL DEFAULT '0'
 );
+CREATE TABLE `expuser_session_info` (
+  `auth_detail` varchar(32) NOT NULL DEFAULT ''
+,  `country` varchar(2) NOT NULL DEFAULT ''
+,  `host` varchar(255) NOT NULL DEFAULT ''
+,  `location` varchar(128) NOT NULL DEFAULT ''
+,  `session_id` integer NOT NULL DEFAULT '0'
+,  `user_id` integer NOT NULL DEFAULT '0'
+,  PRIMARY KEY (`session_id`)
+);
+CREATE TABLE `expuser_audit` (
+  `actor_id` integer NOT NULL DEFAULT '0'
+,  `actor_login` varchar(150) NOT NULL DEFAULT ''
+,  `client_ip` varchar(64) NOT NULL DEFAULT ''
+,  `created` integer NOT NULL DEFAULT '0'
+,  `event_id` varchar(26) NOT NULL DEFAULT ''
+,  `event_name` varchar(128) NOT NULL DEFAULT ''
+,  `host` varchar(255) NOT NULL DEFAULT ''
+,  `id` integer NOT NULL PRIMARY KEY AUTOINCREMENT
+,  `module_view` varchar(128) NOT NULL DEFAULT ''
+,  `reason` varchar(64) NOT NULL DEFAULT ''
+,  `request_id` varchar(40) NOT NULL DEFAULT ''
+,  `result` varchar(16) NOT NULL DEFAULT ''
+,  `siteaccess` varchar(64) NOT NULL DEFAULT ''
+,  `target_id` integer NOT NULL DEFAULT '0'
+,  `target_login` varchar(150) NOT NULL DEFAULT ''
+,  `target_type` varchar(16) NOT NULL DEFAULT ''
+,  `time_ms` integer NOT NULL DEFAULT '0'
+,  `value_after` longtext
+,  `value_before` longtext
+);
+CREATE TABLE `exp_migration` (
+  `caption_id` varchar(150) NOT NULL DEFAULT ''
+,  `checksum` varchar(64) NOT NULL DEFAULT ''
+,  `duration_ms` integer NOT NULL DEFAULT '0'
+,  `engine` varchar(30) NOT NULL DEFAULT ''
+,  `environment` varchar(50) NOT NULL DEFAULT ''
+,  `file_path` varchar(255) NOT NULL DEFAULT ''
+,  `finished_at` integer NOT NULL DEFAULT '0'
+,  `message` varchar(1000) NOT NULL DEFAULT ''
+,  `migration_id` varchar(150) NOT NULL DEFAULT ''
+,  `revision` varchar(64) NOT NULL DEFAULT ''
+,  `run_by` varchar(150) NOT NULL DEFAULT ''
+,  `run_id` varchar(64) NOT NULL DEFAULT ''
+,  `source` varchar(100) NOT NULL DEFAULT ''
+,  `stage` varchar(20) NOT NULL DEFAULT ''
+,  `started_at` integer NOT NULL DEFAULT '0'
+,  `state` varchar(20) NOT NULL DEFAULT ''
+,  `version` varchar(30) NOT NULL DEFAULT ''
+,  PRIMARY KEY (`source`,`migration_id`)
+);
+CREATE TABLE `exp_static_page` (
+  `built_at` integer NOT NULL DEFAULT '0'
+,  `hash` varchar(64) NOT NULL DEFAULT ''
+,  `node_id` integer NOT NULL DEFAULT '0'
+,  `page_bytes` integer NOT NULL DEFAULT '0'
+,  `path` varchar(255) NOT NULL DEFAULT ''
+,  `stale` integer NOT NULL DEFAULT '0'
+,  `target` varchar(50) NOT NULL DEFAULT ''
+,  PRIMARY KEY (`target`,`path`)
+);
+CREATE TABLE `exp_static_run` (
+  `added` integer NOT NULL DEFAULT '0'
+,  `bytes` integer NOT NULL DEFAULT '0'
+,  `changed` integer NOT NULL DEFAULT '0'
+,  `commit_id` varchar(64) NOT NULL DEFAULT ''
+,  `files` integer NOT NULL DEFAULT '0'
+,  `finished_at` integer NOT NULL DEFAULT '0'
+,  `kind` varchar(20) NOT NULL DEFAULT ''
+,  `message` varchar(1000) NOT NULL DEFAULT ''
+,  `pages` integer NOT NULL DEFAULT '0'
+,  `push_state` varchar(20) NOT NULL DEFAULT ''
+,  `removed` integer NOT NULL DEFAULT '0'
+,  `run_by` varchar(150) NOT NULL DEFAULT ''
+,  `run_id` varchar(64) NOT NULL DEFAULT '' PRIMARY KEY
+,  `started_at` integer NOT NULL DEFAULT '0'
+,  `state` varchar(20) NOT NULL DEFAULT ''
+,  `tag_name` varchar(150) NOT NULL DEFAULT ''
+,  `target` varchar(50) NOT NULL DEFAULT ''
+);
+CREATE TABLE `exp_migration_deploy` (
+  `deploy_id` varchar(64) NOT NULL DEFAULT '' PRIMARY KEY
+,  `finished_at` integer NOT NULL DEFAULT '0'
+,  `in_sync` integer NOT NULL DEFAULT '0'
+,  `message` varchar(1000) NOT NULL DEFAULT ''
+,  `mode` varchar(20) NOT NULL DEFAULT ''
+,  `next_stage` integer NOT NULL DEFAULT '0'
+,  `run_by` varchar(150) NOT NULL DEFAULT ''
+,  `stages` integer NOT NULL DEFAULT '0'
+,  `started_at` integer NOT NULL DEFAULT '0'
+,  `state` varchar(20) NOT NULL DEFAULT ''
+);
+CREATE TABLE `exp_migration_deploy_host` (
+  `address` varchar(255) NOT NULL DEFAULT ''
+,  `applied` integer NOT NULL DEFAULT '0'
+,  `caption` varchar(150) NOT NULL DEFAULT ''
+,  `deploy_id` varchar(64) NOT NULL DEFAULT ''
+,  `environment` varchar(50) NOT NULL DEFAULT ''
+,  `message` varchar(1000) NOT NULL DEFAULT ''
+,  `remote_id` varchar(64) NOT NULL DEFAULT ''
+,  `stage` integer NOT NULL DEFAULT '0'
+,  `state` varchar(20) NOT NULL DEFAULT ''
+,  `transport` varchar(20) NOT NULL DEFAULT ''
+,  PRIMARY KEY (`deploy_id`,`remote_id`)
+);
+CREATE TABLE `exp_migration_run` (
+  `caption_post` varchar(150) NOT NULL DEFAULT ''
+,  `caption_pre` varchar(150) NOT NULL DEFAULT ''
+,  `commit_id` varchar(64) NOT NULL DEFAULT ''
+,  `environment` varchar(50) NOT NULL DEFAULT ''
+,  `finished_at` integer NOT NULL DEFAULT '0'
+,  `log_file` varchar(255) NOT NULL DEFAULT ''
+,  `message` varchar(1000) NOT NULL DEFAULT ''
+,  `push_state` varchar(20) NOT NULL DEFAULT ''
+,  `run_by` varchar(150) NOT NULL DEFAULT ''
+,  `run_id` varchar(64) NOT NULL DEFAULT '' PRIMARY KEY
+,  `started_at` integer NOT NULL DEFAULT '0'
+,  `state` varchar(20) NOT NULL DEFAULT ''
+,  `tag_name` varchar(150) NOT NULL DEFAULT ''
+);
+CREATE TABLE `exp_migration_recording` (
+  `environment` varchar(50) NOT NULL DEFAULT ''
+,  `event_count` integer NOT NULL DEFAULT '0'
+,  `kind` varchar(20) NOT NULL DEFAULT ''
+,  `label` varchar(255) NOT NULL DEFAULT ''
+,  `message` varchar(1000) NOT NULL DEFAULT ''
+,  `recording_id` varchar(64) NOT NULL DEFAULT '' PRIMARY KEY
+,  `started_at` integer NOT NULL DEFAULT '0'
+,  `state` varchar(20) NOT NULL DEFAULT ''
+,  `stopped_at` integer NOT NULL DEFAULT '0'
+,  `user_id` integer NOT NULL DEFAULT '0'
+);
+CREATE TABLE `exp_migration_recording_event` (
+  `actor_id` integer NOT NULL DEFAULT '0'
+,  `audit_name` varchar(100) NOT NULL DEFAULT ''
+,  `event_id` varchar(32) NOT NULL DEFAULT ''
+,  `payload` longtext DEFAULT NULL
+,  `recorded_at` integer NOT NULL DEFAULT '0'
+,  `recording_id` varchar(64) NOT NULL DEFAULT ''
+,  `step_mode` varchar(20) NOT NULL DEFAULT ''
+,  `step_type` varchar(50) NOT NULL DEFAULT ''
+,  `subject` varchar(255) NOT NULL DEFAULT ''
+,  PRIMARY KEY (`recording_id`,`event_id`)
+);
 CREATE TABLE `exphelp_help_id` (
   `help_id` varchar(80) NOT NULL DEFAULT '' PRIMARY KEY
 ,  `object_id` integer NOT NULL DEFAULT '0'
@@ -936,7 +1093,7 @@ CREATE TABLE `ezrss_export` (
 ,  `created` integer DEFAULT NULL
 ,  `creator_id` integer DEFAULT NULL
 ,  `description` longtext
-,  `id` integer NOT NULL PRIMARY KEY AUTOINCREMENT
+,  `id` integer
 ,  `image_id` integer DEFAULT NULL
 ,  `main_node_only` integer NOT NULL DEFAULT '1'
 ,  `modified` integer DEFAULT NULL
@@ -948,21 +1105,23 @@ CREATE TABLE `ezrss_export` (
 ,  `status` integer NOT NULL DEFAULT '0'
 ,  `title` varchar(255) DEFAULT NULL
 ,  `url` varchar(255) DEFAULT NULL
+,  PRIMARY KEY (`id`,`status`)
 );
 CREATE TABLE `ezrss_export_item` (
   `category` varchar(255) DEFAULT NULL
 ,  `class_id` integer DEFAULT NULL
 ,  `description` varchar(255) DEFAULT NULL
 ,  `enclosure` varchar(255) DEFAULT NULL
-,  `id` integer NOT NULL PRIMARY KEY AUTOINCREMENT
+,  `id` integer
 ,  `rssexport_id` integer DEFAULT NULL
 ,  `source_node_id` integer DEFAULT NULL
 ,  `status` integer NOT NULL DEFAULT '0'
 ,  `subnodes` integer NOT NULL DEFAULT '0'
 ,  `title` varchar(255) DEFAULT NULL
+,  PRIMARY KEY (`id`,`status`)
 );
 CREATE TABLE `ezrss_export_opml_item` (
-  `id` integer NOT NULL PRIMARY KEY AUTOINCREMENT
+  `id` integer
 ,  `rssexport_id` integer NOT NULL DEFAULT '0'
 ,  `parent_id` integer NOT NULL DEFAULT '0'
 ,  `priority` integer NOT NULL DEFAULT '0'
@@ -982,6 +1141,7 @@ CREATE TABLE `ezrss_export_opml_item` (
 ,  `is_breakpoint` integer NOT NULL DEFAULT '0'
 ,  `created` integer NOT NULL DEFAULT '0'
 ,  `status` integer NOT NULL DEFAULT '0'
+,  PRIMARY KEY (`id`,`status`)
 );
 CREATE TABLE `ezrss_import` (
   `active` integer DEFAULT NULL
@@ -992,7 +1152,7 @@ CREATE TABLE `ezrss_import` (
 ,  `created` integer DEFAULT NULL
 ,  `creator_id` integer DEFAULT NULL
 ,  `destination_node_id` integer DEFAULT NULL
-,  `id` integer NOT NULL PRIMARY KEY AUTOINCREMENT
+,  `id` integer
 ,  `import_description` longtext NOT NULL
 ,  `modified` integer DEFAULT NULL
 ,  `modifier_id` integer DEFAULT NULL
@@ -1000,6 +1160,7 @@ CREATE TABLE `ezrss_import` (
 ,  `object_owner_id` integer DEFAULT NULL
 ,  `status` integer NOT NULL DEFAULT '0'
 ,  `url` longtext
+,  PRIMARY KEY (`id`,`status`)
 );
 CREATE TABLE `ezscheduled_script` (
   `command` varchar(255) NOT NULL DEFAULT ''
@@ -1209,9 +1370,10 @@ CREATE TABLE `ezview_counter` (
 CREATE TABLE `ezwaituntildatevalue` (
   `contentclass_attribute_id` integer NOT NULL DEFAULT '0'
 ,  `contentclass_id` integer NOT NULL DEFAULT '0'
-,  `id` integer NOT NULL PRIMARY KEY AUTOINCREMENT
+,  `id` integer
 ,  `workflow_event_id` integer NOT NULL DEFAULT '0'
 ,  `workflow_event_version` integer NOT NULL DEFAULT '0'
+,  PRIMARY KEY (`id`,`workflow_event_id`,`workflow_event_version`)
 );
 CREATE TABLE `ezwishlist` (
   `id` integer NOT NULL PRIMARY KEY AUTOINCREMENT
@@ -1221,13 +1383,14 @@ CREATE TABLE `ezwishlist` (
 CREATE TABLE `ezworkflow` (
   `created` integer NOT NULL DEFAULT '0'
 ,  `creator_id` integer NOT NULL DEFAULT '0'
-,  `id` integer NOT NULL PRIMARY KEY AUTOINCREMENT
+,  `id` integer
 ,  `is_enabled` integer NOT NULL DEFAULT '0'
 ,  `modified` integer NOT NULL DEFAULT '0'
 ,  `modifier_id` integer NOT NULL DEFAULT '0'
 ,  `name` varchar(255) NOT NULL DEFAULT ''
 ,  `version` integer NOT NULL DEFAULT '0'
 ,  `workflow_type_string` varchar(50) NOT NULL DEFAULT ''
+,  PRIMARY KEY (`id`,`version`)
 );
 CREATE TABLE `ezworkflow_assign` (
   `access_type` integer NOT NULL DEFAULT '0'
@@ -1247,11 +1410,12 @@ CREATE TABLE `ezworkflow_event` (
 ,  `data_text4` varchar(255) DEFAULT NULL
 ,  `data_text5` longtext
 ,  `description` varchar(50) NOT NULL DEFAULT ''
-,  `id` integer NOT NULL PRIMARY KEY AUTOINCREMENT
+,  `id` integer
 ,  `placement` integer NOT NULL DEFAULT '0'
 ,  `version` integer NOT NULL DEFAULT '0'
 ,  `workflow_id` integer NOT NULL DEFAULT '0'
 ,  `workflow_type_string` varchar(50) NOT NULL DEFAULT ''
+,  PRIMARY KEY (`id`,`version`)
 );
 CREATE TABLE `ezworkflow_group` (
   `created` integer NOT NULL DEFAULT '0'
@@ -1389,6 +1553,7 @@ CREATE INDEX "idx_ezworkflow_event_wid_version_placement" ON "ezworkflow_event" 
 CREATE INDEX "idx_ezcontentbrowsebookmark_ezcontentbrowsebookmark_user" ON "ezcontentbrowsebookmark" (`user_id`);
 CREATE INDEX "idx_ezcontentbrowsebookmark_ezcontentbrowsebookmark_folder" ON "ezcontentbrowsebookmark" (`user_id`,`folder_id`);
 CREATE INDEX "idx_expbookmark_folder_expbookmark_folder_user" ON "expbookmark_folder" (`user_id`,`parent_id`);
+CREATE INDEX "idx_expbookmark_view_expbookmark_view_module" ON "expbookmark_view" (`module_name`,`view_name`);
 CREATE INDEX "idx_expbookmark_view_expbookmark_view_user" ON "expbookmark_view" (`user_id`);
 CREATE INDEX "idx_ezcontentobject_link_ezco_link_from" ON "ezcontentobject_link" (`from_contentobject_id`,`from_contentobject_version`,`contentclassattribute_id`);
 CREATE INDEX "idx_ezcontentobject_link_ezco_link_to_co_id" ON "ezcontentobject_link" (`to_contentobject_id`);
@@ -1411,9 +1576,22 @@ CREATE INDEX exp_data_sync_link_object ON exp_data_sync_link ( sync_id, object_i
 CREATE UNIQUE INDEX expuser_session_token ON expuser_session ( token_hash );
 CREATE INDEX expuser_session_user ON expuser_session ( user_id, ended );
 CREATE INDEX expuser_session_active ON expuser_session ( ended, last_active );
+CREATE INDEX expuser_session_info_user ON expuser_session_info ( user_id );
+CREATE UNIQUE INDEX expuser_audit_event ON expuser_audit ( event_id );
+CREATE INDEX expuser_audit_target ON expuser_audit ( target_id, created );
+CREATE INDEX expuser_audit_actor ON expuser_audit ( actor_id, created );
+CREATE INDEX expuser_audit_name ON expuser_audit ( event_name, created );
+CREATE INDEX expuser_audit_created ON expuser_audit ( created );
 CREATE INDEX exphelp_help_id_object ON exphelp_help_id ( object_id );
 CREATE INDEX exphelp_feedback_object ON exphelp_feedback ( object_id, created );
 CREATE INDEX exphelp_feedback_created ON exphelp_feedback ( created );
+CREATE INDEX exp_migration_run_id ON exp_migration ( run_id );
+CREATE INDEX exp_static_page_node ON exp_static_page ( node_id );
+CREATE INDEX exp_static_run_target ON exp_static_run ( target, started_at );
+CREATE INDEX exp_migration_run_started ON exp_migration_run ( started_at );
+CREATE INDEX exp_migration_deploy_started ON exp_migration_deploy ( started_at );
+CREATE INDEX exp_migration_deploy_host_remote ON exp_migration_deploy_host ( remote_id );
+CREATE INDEX exp_migration_recording_state ON exp_migration_recording ( state );
 CREATE INDEX "idx_ezorder_status_history_ezorder_status_history_mod" ON "ezorder_status_history" (`modified`);
 CREATE INDEX "idx_ezorder_status_history_ezorder_status_history_oid" ON "ezorder_status_history" (`order_id`);
 CREATE INDEX "idx_ezorder_status_history_ezorder_status_history_sid" ON "ezorder_status_history" (`status_id`);
@@ -1440,6 +1618,7 @@ CREATE INDEX "idx_eznode_assignment_eznode_assignment_parent_node" ON "eznode_as
 CREATE INDEX "idx_ezcontentobject_ezcontentobject_classid" ON "ezcontentobject" (`contentclass_id`);
 CREATE INDEX "idx_ezcontentobject_ezcontentobject_currentversion" ON "ezcontentobject" (`current_version`);
 CREATE INDEX "idx_ezcontentobject_ezcontentobject_lmask" ON "ezcontentobject" (`language_mask`);
+CREATE INDEX "idx_ezcontentobject_ezcontentobject_modified" ON "ezcontentobject" (`modified`);
 CREATE INDEX "idx_ezcontentobject_ezcontentobject_owner" ON "ezcontentobject" (`owner_id`);
 CREATE INDEX "idx_ezcontentobject_ezcontentobject_pub" ON "ezcontentobject" (`published`);
 CREATE INDEX "idx_ezcontentobject_ezcontentobject_status" ON "ezcontentobject" (`status`);

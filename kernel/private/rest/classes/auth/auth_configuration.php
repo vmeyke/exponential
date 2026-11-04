@@ -2,7 +2,7 @@
 /**
  * File containing ezpRestAuthConfiguration
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -52,6 +52,8 @@ class ezpRestAuthConfiguration
         // Nor the password sign-in of an earlier request (signedInWithPassword())
         expRestPasswordAuthFilter::$user = null;
         expRestPasswordAuthFilter::$viaAppPassword = false;
+        // Nor the OAuth token (signsInForRequestOnly())
+        ezpOauthFilter::$tokenInfo = null;
 
         // 0. Check if the given route needs authentication.
         if ( !$this->shallAuthenticate() )
@@ -108,9 +110,10 @@ class ezpRestAuthConfiguration
                 return new ezcMvcInternalRedirect( $this->req );
             }
             $userID = $user->id();
-            if ( class_exists( 'expSignInSecondFactor' ) && expRestPasswordAuthFilter::$viaAppPassword )
+            if ( class_exists( 'expSignInSecondFactor' ) && ( expRestPasswordAuthFilter::$viaAppPassword || self::signsInForRequestOnly( $this->filter ) ) )
             {
-                // An app password signs in for this request only: no session, so no cookie comes of it
+                // An app password, an OAuth token and a personal API key sign in for this request only: no session,
+                // so no cookie comes of it, and no row in "Your devices" (expUserSessionTracker) for every request
                 expSignInSecondFactor::signInForRequest( $user );
             }
             else if ( $userID != eZUser::currentUserID() )
@@ -155,9 +158,54 @@ class ezpRestAuthConfiguration
     }
 
     /**
+     * Whether the credentials of a request are a bearer credential (an OAuth token or a personal API key): the client
+     * presents them with every request, so the request is signed in for itself only. A session would only give the
+     * client a cookie it does not use, and every request a new session and a new row in "Your devices"
+     * (expUserSessionTracker; with SQLite about 20 statements and 5 ms a request).
+     *
+     * @param ezpRestAuthenticationStyle|null $filter
+     * @return bool
+     */
+    public static function signsInForRequestOnly( $filter )
+    {
+        if ( class_exists( 'expApiKeyRest' ) && expApiKeyRest::current() !== null )
+            return true;
+        return $filter instanceof ezpRestOauthAuthenticationStyle && ezpOauthFilter::$tokenInfo !== null;
+    }
+
+    /**
      * Checks if authentication should be requested or not
      * @return bool
      */
+    /**
+     * @param ezcMvcRoutingInformation $info
+     * @return bool the route is listed in rest.ini [RouteSettings] OptionalAuthentication[] (controller_action)
+     */
+    public static function isOptional( ezcMvcRoutingInformation $info )
+    {
+        $ini = eZINI::instance( 'rest.ini' );
+        if ( !$ini->hasVariable( 'RouteSettings', 'OptionalAuthentication' ) )
+            return false;
+        return in_array( $info->controllerClass . '_' . $info->action, (array)$ini->variable( 'RouteSettings', 'OptionalAuthentication' ), true );
+    }
+
+    /**
+     * @param ezcMvcRequest $req
+     * @return bool the request carries an Authorization header, or a token or key parameter
+     */
+    public static function presentsCredentials( ezcMvcRequest $req )
+    {
+        $header = ezpOauthUtility::getAuthorizationHeader();
+        if ( is_string( $header ) && trim( $header ) !== '' )
+            return true;
+        foreach ( array( 'oauth_token', 'access_token', 'api_key' ) as $name )
+        {
+            if ( isset( $req->get[$name] ) || isset( $req->post[$name] ) )
+                return true;
+        }
+        return false;
+    }
+
     private function shallAuthenticate()
     {
         $shallAuthenticate = true;
@@ -169,6 +217,10 @@ class ezpRestAuthConfiguration
         {
             $routeFilter = ezpRestRouteFilterInterface::getRouteFilter();
             $shallAuthenticate = $routeFilter->shallDoActionWithRoute( $this->info );
+            // A route of rest.ini [RouteSettings] OptionalAuthentication[] (the GraphQL end point) is authenticated
+            // only when the request presents credentials; without any it runs as the anonymous user.
+            if ( $shallAuthenticate && self::isOptional( $this->info ) && !self::presentsCredentials( $this->req ) )
+                $shallAuthenticate = false;
         }
 
         return $shallAuthenticate;

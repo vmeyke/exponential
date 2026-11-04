@@ -12,7 +12,7 @@
  * what was read before the write (a file the move created is moved aside to var/backup/ini/), unless --force.
  * The message names the file whose value now wins. Guide: doc/eng-us/bc/6.0/console-exp-ini.md.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package kernel
  */
@@ -238,7 +238,7 @@ class expIniMover
     {
         return "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<software>\n    <metadata>\n        <name>$ext</name>\n"
              . "        <version>1.0.0</version>\n"
-             . "        <copyright>Copyright (C) 1998 - 2026 7x &amp; Exponential Foundation. All rights reserved.</copyright>\n"
+             . "        <copyright>Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.</copyright>\n"
              . "        <license>GNU General Public License v2.0 (or any later version)</license>\n"
              . "    </metadata>\n</software>\n";
     }
@@ -247,11 +247,11 @@ class expIniMover
     public static function ezinfo( $ext )
     {
         return "<?php\n/**\n * File containing the {$ext}Info class.\n *\n"
-             . " * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.\n"
+             . " * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.\n"
              . " * @license GNU General Public License v2.0 (or any later version)\n * @package $ext\n */\n\n"
              . "class {$ext}Info\n{\n    public static function info()\n    {\n        return array(\n"
              . "            'Name' => \"$ext\",\n            'Version' => \"1.0.0\",\n"
-             . "            'Copyright' => \"Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.\",\n"
+             . "            'Copyright' => \"Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.\",\n"
              . "            'License' => \"GNU General Public License v2.0 (or any later version)\"\n        );\n    }\n}\n";
     }
 
@@ -551,11 +551,16 @@ class expIniMover
     {
         list( $b, $v, $sa ) = explode( "\x1f", $key );
         $winner = self::winningFile( $file, $b, $v, $sa === '' ? null : $sa );
+        if ( $winner === null )
+            $why = '';
+        else if ( $winner === $target->relativePath() )
+            $why = " ($winner wins: it is read" . ( $sa === '' ? '' : " for siteaccess $sa" ) . ' after every file that sets it)';
+        else
+            $why = " ($winner wins: it loads after " . $target->relativePath() . ')';
         return sprintf( '%s.ini [%s] %s in effect%s would change from %s to %s%s', $file, $b, $v,
                         $sa === '' ? '' : " for siteaccess $sa",
                         self::shown( $this->c->display( $v, $before[$key] ) ),
-                        self::shown( $this->c->display( $v, $after[$key] ) ),
-                        $winner !== null ? " ($winner wins: it loads after " . $target->relativePath() . ')' : '' );
+                        self::shown( $this->c->display( $v, $after[$key] ) ), $why );
     }
 
     /**
@@ -641,24 +646,11 @@ class expIniMover
                 $last = end( $where['files'] );
                 return $last ? $last['path'] : null;
             }
-            // the editor's chain under another root (expIniEditor::effectiveValue())
-            $order = array( 'default' );
-            foreach ( array_reverse( expIniEditor::activeExtensions() ) as $ext )
-                $order[] = "extension:$ext";
-            if ( $siteAccess !== null )
-            {
-                $order[] = "siteaccess:$siteAccess";
-                foreach ( expIniEditor::activeExtensions() as $ext )
-                    $order[] = "extension:$ext:siteaccess:$siteAccess";
-            }
-            $order[] = 'global';
-            $byName = array();
-            foreach ( expIniEditor::scopes() as $s )
-                $byName[$s->name()] = $s;
+            // the editor's chain under another root, in eZINI's order (expIniEditor::loadOrder())
             $winner = null;
-            foreach ( $order as $name )
-                if ( isset( $byName[$name] ) && ( new expIniEditor( $byName[$name], $file ) )->get( $block, $variable ) !== null )
-                    $winner = $byName[$name]->relativePath( $file );
+            foreach ( expIniEditor::loadOrder( $siteAccess ) as $scope )
+                if ( is_file( $scope->path( $file ) ) && ( new expIniEditor( $scope, $file ) )->get( $block, $variable ) !== null )
+                    $winner = $scope->relativePath( $file );
             return $winner;
         }
         catch ( Exception $e )

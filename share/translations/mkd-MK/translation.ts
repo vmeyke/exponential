@@ -984,6 +984,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>Се пребарува само оваа страница: од %from до %to од %count.</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Секој тип на податоци од јадрото и проширувањата и како класите и содржината го користат.</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Типови на податоци</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2316,6 +2324,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>Може да се обележат и системски страници: отворете ја страницата (Конфигурација, ревизиската трага, листа на корисници ...) и изберете „Обележи ја оваа страница“ над неа. Таквите обележувачи имаат икона на запчаник.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>Веќе не смеете да ја отворате оваа страница тука. Отстранете го обележувачот или побарајте пристап од администратор.</translation>
     </message>
 </context>
 <context>
@@ -5165,6 +5177,210 @@
         <source>Go to the first page</source>
         <translation>Оди на првата страница</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>Друго</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>Последни 7 дена</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>Прилагоден период</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>Сите зборови</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>Кој било збор</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>Точна фраза</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>Релевантност</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>Име А–Ш</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>Име Ш–А</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>Изменето, најново прво</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>Изменето, најстаро прво</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>Објавено, најново прво</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>Објавено, најстаро прво</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Изменето</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>Филтри</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>Прикажи филтри</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>Скриј филтри</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Ресетирај</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>Примени</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>Зборови</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>Тип на содржина</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>Прикажи повеќе (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>Изберете еден тип на содржина за да пребарувате во еден од неговите атрибути.</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Секција</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Од</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>До</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>Почетниот датум не е валиден датум.</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>Крајниот датум не е валиден датум.</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Сопственик</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>Кориснички ID, најава или е-адреса.</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>Не е пронајден корисник за „%input“.</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Јазик</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>Кој било јазик</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Локација</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>%count локации</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>Резултати по страница</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>Резултати за „%text“ (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>Резултати (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>Подреди по</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>Подредување</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>Активни филтри</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>Отстрани го овој филтер</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>Или изберете филтри и применете ги за да се прикаже содржината што одговара.</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>Филтрите го стеснуваат пребарувањето откако ќе внесете зборови.</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>Не се пронајдени резултати за „%text“.</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>Не се пронајдени резултати.</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>Отстранете филтер погоре.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Преводи</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Дејства</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>Уреди %name</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Уреди</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -7514,6 +7730,10 @@
         <source>Setup &gt; Cronjobs</source>
         <translation>Конфигурација &gt; Cron-задачи</translation>
     </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>Ниту еден дел од cron-задачите сè уште не е извршен: редицата на задачи, увозите, известувањата и индексот за пребарување чекаат. Извршете php bin/php/installcrontab.php --add --apply или додајте ги редовите од --show во crontab.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/dashboard/drafts</name>
@@ -8058,8 +8278,8 @@
         <translation>Известувањата за авторски права на првичните автори и на софтверот од трети страни вклучен во Exponential се чуваат во изворните датотеки и во датотеката LICENSE, како што бара лиценцата.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>Следува листа на придонесувачи на Exponential кои го лиценцирале своето дело за употреба од 7x според условите на Contributor Licensing Agreement на eZ Systems. Како што е дозволено со овој договор, 7x го редистрибуира секој придонес под истата лиценца како датотеката во која е вклучен придонесот. Листата го именува секој придонесувач, по избор податоци за контакт и датотеките до кои придонел или на кои работел.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>Соработници признати за својата работа на Exponential и на софтверот од кој произлезе, со датотеките кон кои придонеле. Ова е признание, а не известување за авторски права: придонесите кон Exponential се пренесуваат на Exponential Foundation и 7x според Contributor Licensing Agreement.</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13881,32 +14101,20 @@ Note: The packages will not be uninstalled.</source>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%evaluate_link"&gt;Испробајте го Exponential Enterprise Edition&lt;/a&gt; - &lt;a href="%share_link"&gt;Станете член на заедницата на Exponential, разменувајте и придонесувајте&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; и други.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class="edition-info"&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>Работи на &lt;span class="edition-info"&gt;%edition&lt;/span&gt;. За повеќе информации видете &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; и други.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> За повеќе информации видете &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
     </message>
     <message>
-        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; и други.</translation>
+        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href="%evaluate_link"&gt;Испробајте го Exponential (од 7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;Станете член на заедницата на Exponential, добијте поддршка и придонесувајте&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; и други.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13915,6 +14123,61 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Help center</source>
         <translation>Центар за помош</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>Содржина</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>Страници на документи</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>Корисници</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>Класи на содржина</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>Администрација</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>Страница %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>Прикажи ги сите резултати</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>%count резултати</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>Еден резултат</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>%count предлози</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>Нема предлози</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>Предлозите не можеа да се вчитаат.</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>Предлози</translation>
     </message>
 </context>
 <context>
@@ -14383,6 +14646,14 @@ Note: The packages will not be uninstalled.</source>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>Оваа инсталација е јавно демо: секој може да ја знае лозинката на администраторот, а лозинките на администраторите не можат да се менуваат или ресетираат. Не внесувајте ништо приватно овде.</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Ваши уреди</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Безбедносна активност</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14672,6 +14943,14 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>Водичи, пребарување и како да пријавите грешка.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Нова содржина</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Најновата содржина, она што е задржано за преглед и дејства врз избор.</translation>
     </message>
 </context>
 <context>
@@ -15130,6 +15409,46 @@ Note: The packages will not be uninstalled.</source>
         <source>Synchronisations</source>
         <translation>Синхронизации</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>GraphQL API: крајната точка, шемата и простор за испробување барања.</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Миграции</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Промени на инсталацијата чувани како датотеки: нивната состојба, извршувањата, извршување и враќање назад.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Нова содржина</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>Најновата содржина, она што е задржано за преглед и дејства врз избор.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Објавете статичка копија од сајт на GitHub Pages или кој било git-хост.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Статичко објавување</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Типови на податоци</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>Секој тип на податоци од јадрото и проширувањата и како класите и содржината го користат.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15294,6 +15613,22 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>Сметки што никој не ги користи или што бараат поглед; оневозможете ги, отклучете ги или извезете ги.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Ревизорски дневник на корисници</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>Кој менувал, се најавил или бил одбиен, по сметка; филтрирање и извоз.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Извештај за најави</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>Кој е најавен, најави и неуспеси по ден; одјавување корисник насекаде.</translation>
     </message>
 </context>
 <context>
@@ -22110,6 +22445,22 @@ Note: The packages will not be uninstalled.</source>
         <source>%n hours ago</source>
         <translation>пред %n часа</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>Одговори на зачуваните барања на GraphQL API и класите на содржина на неговата шема.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>Објавете статичка копија на GitHub Pages или кој било git-хост</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Статичко објавување</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>Статичкиот кеш служи страници од овој сервер. За да објавите статичка копија од сајт на друго место, на GitHub Pages или кој било git-хост, користете статичко објавување.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25651,6 +26002,10 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>last purge</source>
         <translation>последно чистење</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>Запишувањата не можеа да го земат заклучувањето на состојбата (последно %date): секое од нив ги направи застарени сите кеширани резултати. %file мора да може да се запишува од секој корисник под кој работи сајтот; на NFS му треба NFSv4 или lockd.</translation>
     </message>
 </context>
 <context>
@@ -33599,6 +33954,14 @@ Note: The packages will not be uninstalled.</source>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>Истечените сесии на PHP управувачот ги отстранува самиот PHP (session.gc_maxlifetime), а не оваа страница или делот session_gc од cron-задачата.</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>Најавените сесии на сите корисници се наведени и одјавени во извештајот за најави, кој работи со секој ракувач со сесии.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>Отвори го извештајот за најави</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37923,6 +38286,26 @@ your account.</source>
     <message>
         <source>None yet</source>
         <translation>Сè уште нема</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Безбедносна активност</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>Вашите неодамнешни најави, неуспешни обиди и промени на лозинката, адресата на е-пошта и најавата во два чекора.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>Неодамнешните најави, неуспешни обиди и безбедносни промени на оваа сметка.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>Прегледај ја активноста</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>Неуспешни најави: %count</translation>
     </message>
 </context>
 <context>
@@ -44089,6 +44472,42 @@ If you want to send comments to the approver or view the status use the URL belo
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>По најавата, корисникот мора да избере нова лозинка пред да направи нешто друго. Користете го тоа кога на некого му давате привремена лозинка.</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>Изберете постојна слика</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>Датотеката со слика на објектот што ќе го изберете се копира во ова поле. Другиот објект не се менува.</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>Сликата на „%name“ беше копирана во ова поле.</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>Прелистај слики</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>Пребарај слики по име</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Барај</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>Користи ја сликата на „%name“</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>Користи ја оваа слика</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>Ниту една слика не одговара на вашето пребарување.</translation>
     </message>
 </context>
 <context>
@@ -51013,6 +51432,10 @@ See the requirements page for more information.</source>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>Crontab не беше запишан (%reason). Додадете ги овие линии во crontab на корисникот под кој работи сајтот, инаку редицата, увозите, известувањата и индексот за пребарување никогаш нема да се извршуваат:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>Повторната инсталација се врши со kickstarter (%file, потоа php bin/php/kickstarter.php run --apply) или со нова инсталација.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54892,6 +55315,10 @@ your account.</source>
         <source>eZJSCore Public Packer cache</source>
         <translation>Јавен кеш на eZJSCore Packer</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>GraphQL кеш (одговори и класи на шемата)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54978,6 +55405,14 @@ your account.</source>
     <message>
         <source>Copy of %class_name</source>
         <translation>Копија од %class_name</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>Типови на податоци</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>Тип на податоци %string</translation>
     </message>
 </context>
 <context>
@@ -55804,6 +56239,26 @@ your account.</source>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>SVG сликата не може да се прочита или ништо во неа не може безбедно да се прикаже.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>Сликата не можеше да се копира. Обидете се повторно или контактирајте со администраторот на сајтот.</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>Избраниот објект не постои или немате дозвола да го читате.</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>Избраниот објект нема слика.</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>Датотеката со слика на избраниот објект не можеше да се прочита.</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>Сликата на избраниот објект е поголема отколку што дозволува ова поле: %1 бајти.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56334,6 +56789,42 @@ your account.</source>
         <source>The bookmark was renamed to "%name".</source>
         <translation>Обележувачот е преименуван во „%name“.</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>Оваа страница е исклучена во овој пристап до сајтот (%siteaccess). Отворете го обележувачот во пристап до сајтот што ја има.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>Модулот на оваа страница не е инсталиран или не е овозможен тука.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>Оваа страница веќе не постои: нејзиниот модул нема таков приказ.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>Ниедна од Вашите улоги не Ви дозволува да ја отворите оваа страница.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>Не смеете да го користите овој пристап до сајтот.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>Не смеете да ја читате содржината што ја прикажува оваа страница.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>Овој вид страница не може да се додаде во обележувачи: таа само дејствува врз формулар или е минлива страница.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>Адресата на оваа страница недостасува.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>Оваа страница сега не може да се отвори.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56805,6 +57296,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>Транспортот за пошта одби %count пораки при последното извршување. Проверете го серверот за пошта и site.ini MailSettings.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Настани на чекање: %count, а не е забележано ниедно извршување на cron-задачата за известувања. Додајте го делот од cron-задачите &quot;frequent&quot; во crontab или извршете exp:notification:run --apply.</translation>
     </message>
 </context>
 <context>
@@ -63061,6 +63556,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Choose another site or section with the node picker</source>
         <translation>Изберете друг сајт или секција со избирачот на јазли</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>Само системскиот администратор може да го промени сопственикот: извршете ./console exp:content-check --fix-permissions --apply како root.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64594,6 +65093,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>empty</source>
         <translation>празно</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>Клучот за потпишување е постар од една година: заменете го со exp:audit key rotate --apply.</translation>
     </message>
 </context>
 <context>
@@ -68424,6 +68927,486 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Share of page time</source>
         <translation>Удел во времето на страницата</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>побарано е целосно изведување</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>кешот на страници ја немаше страницата (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>кешот на страници не одговори</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>Изведено</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>Изведено од јадрото: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>Услужено од кешот на страници за %ms ms. Страницата е зачувана во %stored по изведување од %render ms, пред %age s.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>Изведи сега</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>Назад кон приказот од кешот</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>Од изведувањето во %stored (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>Ова барање: услужено од кешот на страници за %ms ms.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Корисник</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>ID на корисникот</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>Профил на кешот</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>Овој приказ</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>Кеш на прикази</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>по корисник (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>Профил на кешот на корисникот: корисниците со ист профил ги делат датотеките од кешот на прикази</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>да</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>не</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Корисничко име</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>Најавен</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>Сесија</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>Деловите од клучот на кешот на прикази на содржина што зависат од корисникот, точно како што ги зема клучот, според ViewCacheTweaks на оваа страница. Корисниците со ист профил ги делат датотеките од кешот на приказите, освен ако не се разликуваат деловите на самиот приказ (поставки, клучеви на слушатели): тие имаат сопствен профил, само за оваа страница.</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>Профил</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>Овој приказ (јазол %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: секој најавен корисник има сопствени датотеки во кешот.</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>Активни ViewCacheTweaks: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>Дел</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>Вредност</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>Ниеден дел не зависи од корисникот (ViewCacheTweaks).</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>овој приказ</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>Копирај како текст</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>Улоги</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>Доделувањата на улоги не можеа да се прочитаат.</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>ID на улога</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>Улога</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>Ограничување</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>Доделено на</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>корисникот</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>група %name (објект %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>Копирано</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>Не можеше да се копира.</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>изоставено од слушател</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>Анонимни посетители</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>исто како вашиот</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>различно</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>Профилот што го добиваат анонимните посетители под истите ViewCacheTweaks, со стандардните поставки, без деловите на приказот: слушател што ја чита сесијата не може да се праша за нив.</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>Поставки</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>Ниеден режим на приказ не зависи од корисничките поставки (site.ini [ContentSettings] CachedViewPreferences).</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>Поставките од кои зависат приказите на овие режими на приказ (CachedViewPreferences), со вредноста на корисникот или стандардната. Во профилот се како userpreferences, оние на сите режими на приказ заедно.</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>Режим на приказ</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>Поставка</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>Стандардно</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>Политики</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>Прикажи ги политиките на улогите (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>Политиките се вчитуваат од серверот кога ќе се отвори овој дел, страница по страница, и може да се филтрираат по модул и функција.</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>Функција</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>Сите модули</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>Сите функции</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>Ограничувања</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>Прикажи повеќе</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>Овие улоги немаат политики.</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>Ниедна политика не одговара на филтерот.</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%shown од %matching политики (вкупно %total)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>Се вчитува при отворање.</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>module/function, улога, ограничување</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>Пребарај ги политиките</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>Вчитај повеќе</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>Модул/функција</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>Сите улоги (%count политики)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>Ниту една политика не се совпаѓа.</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%shown од %matched политики</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>Нема одговор</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>маскирано</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>Прикажи објаснувања</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>Скриј објаснувања</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Отвори</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>Отвори ги сите</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>Затвори ги сите</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>Клуч или вредност</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>Пребарај ја сесијата</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Тип</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>уште %count</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>премногу длабоко вгнездено за прикажување</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>скратено, вкупно %count знаци</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Започнато</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>Име на колачето</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>ID на сесијата</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>Ракувач</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>Патека за зачувување</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>Стандардно за PHP</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>Траење (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>Колаче</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>траење %s s</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>Вашата сопствена PHP-сесија, каква што беше кога е отворен делот, никогаш друга. Вредностите на клучевите што изгледаат како тајни (токени, хашеви, лозинки) се маскирани (debugbar.ini SessionMask[]); сè друго се прикажува како што е зачувано, и личните податоци.</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>%count клучеви, %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>голема</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>Сесијата е празна.</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>За ова барање не е започната сесија.</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Проширување %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>Јадро и други</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>Не се прикажани сите ставки: сесијата има повеќе отколку што може да се наведе тука.</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>%count клучеви не се наведени.</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>Рамка</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>Вредностите што изгледаат како токен (JSON Web Token, акредитивите на заглавие Authorization, приватен клуч, долг хексадецимален или случаен текст) исто така се маскирани, без оглед на тоа како се вика нивниот клуч (debugbar.ini SessionValueMask[]).</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>Клучот изгледа како тајна (debugbar.ini SessionMask[]).</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>Вредноста изгледа како токен.</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>Под маскиран клуч.</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>Сесијата како текст, маскирана како табелата.</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>Сесијата е поголема од %size (debugbar.ini SessionWarnBytes): секое барање на овој корисник ја чита целата сесија и ја запишува кога ќе се промени.</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP ја чува оваа сесија во датотеки и ја заклучува датотеката за целото барање: барањата на истиот корисник (повеќе јазичиња, AJAX-повици) се чекаат едни со други.</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>Задржи отворено</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>Поголема од %size (debugbar.ini SessionWarnBytes): секое барање на овој корисник ја чита целата сесија.</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%hits од %count прочитани од кешот</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>Не е рендериран ниту еден шаблон (приказ прочитан од кешот за прикази не рендерира ниту еден).</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>Доделени улоги</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>Улоги и политики</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>различно од анонимните посетители</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>исто како кај анонимните посетители</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70304,6 +71287,14 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>not sent</source>
         <translation>не се испратени</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>Cron-задачата за известувања овде го бележи секое свое извршување. Додајте го делот frequent во crontab или извршете exp:notification:run --apply.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>Користете ја конзолата: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -76022,6 +77013,98 @@ You will need to change the class of the node by using the swap functionality.</
         <source>This topic is not Released; readers do not see it.</source>
         <translation>Оваа тема не е објавена; читателите не ја гледаат.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Миграции</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>Промени на инсталацијата чувани како датотеки: нивната состојба, извршувањата, извршување и враќање назад.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>Објавете статичка копија од сајт на GitHub Pages или кој било git-хост.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Статичко објавување</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>Во проверка</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>Читателите ја гледаат оваа страница.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>Скриена од читателите додека некој не ја објави.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>Страницата сега е во проверка. Скриена е од читателите додека не биде објавена.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>Страницата е објавена: читателите ја гледаат сега.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>Страницата повторно е нацрт. Скриена е од читателите додека не биде проверена и објавена.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>Објави сега</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>Само корисник со улогата %role што не ја напишал оваа верзија може да ја објави.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>Теми на помошта што чекаат објавување</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>Ја скрива од читателите додека повторно не биде објавена.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>Следно ја проверува проверувач. Читателите сè уште не ја гледаат.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>Читателите ја гледаат веднаш.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>Ја вади од проверка за понатамошна работа. Читателите не ја гледаат.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>Да се скрие оваа страница од читателите?</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>Да се врати оваа страница на нацрт?</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>Читателите повеќе не ја гледаат %title додека некој повторно не ја објави.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title се враќа на нацрт за понатамошна работа. Читателите сè уште не ја гледаат и потребна е нова проверка пред да биде објавена.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Откажи</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>Овие теми се во проверка. Читателите ги гледаат штом ги објави некој што не ја напишал тековната верзија.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76477,6 +77560,46 @@ You will need to change the class of the node by using the swap functionality.</
         <source>None.</source>
         <translation>Нема.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>со апликација за автентикација</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>со код по е-пошта</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>со код за враќање</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>со клуч за пристап</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>со надворешна сметка</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Безбедносна активност</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>Прикажано како мрежа; адресата се чува како што пропишуваат поставките за заштита на податоците на сајтот.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Не е забележано</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Локација</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>приближно</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76720,6 +77843,42 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Manage devices</source>
         <translation>Управувај со уредите</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>со апликација за автентикација</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>со код по е-пошта</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>со код за враќање</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>со клуч за пристап</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>со надворешна сметка</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Безбедносна активност</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Не е забележано</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Локација</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>приближно</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76799,6 +77958,14 @@ You will need to change the class of the node by using the swap functionality.</
         <source>View the sessions of this user</source>
         <translation>Прикажи ги сесиите на овој корисник</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>Вашата сметка %login на %site штотуку беше искористена за најава од место од кое неодамна не се најавувала:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>Приближна локација</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76837,6 +78004,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%browser на %os</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Извештај за најави</translation>
     </message>
 </context>
 <context>
@@ -77045,6 +78216,82 @@ You will need to change the class of the node by using the swap functionality.</
         <source>The passkey could not be checked. Please try again.</source>
         <translation>Клучот за пристап не можеше да се провери. Обидете се повторно.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>Сметките што се најавуваат само со клучеви за пристап не можат да користат лозинка тука: изберете „Најави се со клуч за пристап“.</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>Клучеви за пристап на %login</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>Клучевите за пристап со кои се најавува оваа сметка. Отповикајте го оној што е на изгубен или украден уред: со него повеќе не може да се најави. Новите ги додава самиот сопственик.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>На Вашата сметка ѝ треба клуч за пристап</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>Додајте клуч за пристап на Вашата сметка</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>Додајте клуч за пристап за да продолжите. Потоа ќе се најавувате со него наместо само со лозинка.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>Најавата со клуч за пристап е побрза и побезбедна од лозинката. Додајте еден сега или продолжете без него.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>Не сега</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>Да се отповика клучот за пристап „%name“?</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>Со него повеќе не може да се најави на оваа сметка. Ако бил последниот, сопственикот се најавува со лозинката, или Вие поставувате нова.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>Отповикај го клучот за пристап</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>Отповикај</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>Оваа сметка нема клуч за пристап.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>Автентикатор</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Непознато</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>Вашиот последен клуч за пристап: додајте друг пред да го отстраните.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>Оваа сметка се најавува само со клучеви за пристап (политика за клучеви за пристап): ако не остане ниеден, повторно се најавува со својата лозинка.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>Ова е Вашиот последен клуч за пристап и Вашата сметка не може да се најави без него. Прво додајте друг клуч за пристап.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>Клучот за пристап „%name“ е отповикан. Со него повеќе не може да се најави на оваа сметка.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77144,6 +78391,34 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Code from your authenticator app</source>
         <translation>Код од Вашата апликација за автентикација</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>Се подготвувате трајно да избришете податоци или да испразните дневник.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>Вашата лозинка и клуч за пристап</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>Вашата лозинка и код од Вашата апликација за автентикација</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>Или:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>Овој прелистувач не може да користи клучеви за пристап. Користете друг начин или друг прелистувач.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>Кога ќе продолжите, Вашиот прелистувач ќе побара еден од Вашите клучеви за пристап.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>Продолжи со клуч за пристап</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77234,6 +78509,70 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Setup</source>
         <translation>Конфигурација</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>Промена на сопствената лозинка, адреса за е-пошта, клучеви за пристап, најава во два чекора, кодови за обнова или API-клучеви и одјавување од сопствените други уреди.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>Создавање и уредување корисници, нивните лозинки и уреди, поставки на сметката, одобрување или одбивање нови кориснички сметки, доделување улоги и уредување политики.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>Бришење податоци</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>Празнење на корпата, отстранување ставки од неа и отстранување повеќе ставки одеднаш.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>Отстранување, објавување и зачувување содржина</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>Отстранување содржина (и во корпата), објавување и зачувување нацрт; се прашува при испраќање на формуларот. Стандардно исклучено.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>Пред чувствително дејство, најавениот корисник повторно потврдува кој е: со својата лозинка и клуч за пристап, или без клуч за пристап со својата лозинка и кодот од својата апликација за автентикација. Прашуваат само веб-страниците: REST-интерфејсот, SOAP, WebDAV, најавата на expservices и командната линија никогаш.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>Каде важат поставките</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>Поставки за</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Секој пристап до сајтот</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>Пристап до сајтот %name</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Отвори</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>Кој се прашува: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>Штиклирајте групи корисници за да се прашуваат само нивните членови (на пример уредници). Ништо не е штиклирано: секој корисник.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>Зачувано во settings/override/site.ini.append.php, за секој пристап до сајтот. При зачувувањето ќе Ве праша да потврдите дека сте Вие.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>Зачувано во settings/siteaccess/%name/site.ini.append.php. Вредност во settings/override има предност пред неа. При зачувувањето ќе Ве праша да потврдите дека сте Вие.</translation>
     </message>
 </context>
 <context>
@@ -77336,6 +78675,6822 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Open the page</source>
         <translation>Отвори ја страницата</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from до %to од %count</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>Корисничко име или ID на корисник: сметката на која се однесува настанот или корисникот што дејствувал.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Сметка</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Дејство</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>По</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>Секој резултат</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Пред</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Извршил</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Исчисти</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Извршено</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>Настаните се чуваат %days дена.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>Настаните се чуваат додека не се отстранат рачно.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Настани</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>Секое дејство</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>Сите настани на оваа сметка</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>Извези ја листата како CSV (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Неуспешно</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Од</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>Стеснете ја листата</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>Ниту еден настан не одговара.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>По страница</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>Снимањето е исклучено во audit.ini ([UserAuditSettings] UserAudit); листата го прикажува она што било снимено претходно.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Одбиено</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Резултат</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Прикажи</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>Табелата на ревизорскиот дневник на корисници недостасува. Создајте ја со php update/common/scripts/6.0/createuseraudittable.php; дотогаш ревизорските датотеки го чуваат секој настан.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>Оваа страница бара SQL база на податоци; не е достапна на MongoDB. Ревизорските датотеки го чуваат секој настан.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>До</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>Ревизорски дневник на корисници</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Корисник</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Кога</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Каде</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>Кој ја променил, создал, овозможил, оневозможил, преместил или отстранил која сметка, кој се најавил или бил одбиен и кои улоги биле доделени: по еден ред за секој настан, со полињата пред и по промената. Лозинките и тајните никогаш не се снимаат.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>група</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>систем</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>непознато</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>Заштити ја сметката</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>За најава на Вашата сметка %login на %site беше искористен код за враќање.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>Искористен е код за враќање</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>Сметка</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>Приближна адреса</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>Побарајте нова лозинка за повторно да се најавите или обратете се до администраторите на сајтот.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>Побарај нова лозинка</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>Секој код за враќање работи само еднаш. Ако сте го изгубиле телефонот, повторно поставете ја апликацијата за автентикација и чувајте ги новите кодови за враќање на безбедно место.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>Неуспешни обиди за најава на Вашата сметка</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>Отсега најавата бара код покрај Вашата лозинка. Ако тоа сте го направиле Вие, не треба ништо да правите.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>Ако сте биле Вие и сте ја заборавиле лозинката, побарајте нова. Ако не, изберете посилна лозинка и вклучете ја најавата во два чекора.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>Ако тоа не сте биле Вие, некој можеби ја знае Вашата лозинка: веднаш сменете ја и проверете каде е најавена Вашата сметка.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>Преостанати кодови за враќање</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>Прегледај ги уредите</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>Безбедносно предупредување</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>Некој се обиде да се најави на Вашата сметка %login на %site со погрешна лозинка. Број на последователни обиди: %count.</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>На Вашата сметка %login на %site се случи безбедносен настан.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>Ова е безбедносно предупредување за Вашата сметка. Се испраќа при секоја таква промена и не може да се исклучи.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Време</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>Најавата во два чекора е исклучена за Вашата сметка %login на %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>Најавата во два чекора е исклучена</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>Најавата во два чекора е вклучена за Вашата сметка %login на %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>Најавата во два чекора е вклучена</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>Вашата сметка %login на %site е заклучена по премногу неуспешни најави.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>Вашата сметка сега е заштитена само со лозинката. Ако тоа не сте го направиле Вие, сменете ја лозинката и потоа повторно вклучете ја најавата во два чекора.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>Вашата сметка е заклучена</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>На Вашата сметка %login на %site е додаден клуч за пристап.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>Секој што го има овој клуч за пристап може да се најави на Вашата сметка без Вашата лозинка. Ако не сте го додале Вие, отстранете го во Клучеви за пристап и сменете ја лозинката.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>Од Вашата сметка %login на %site е отстранет клуч за пристап.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>Со него повеќе не може да се најави на Вашата сметка. Ако не сте го отстраниле Вие, проверете ги Вашите клучеви за пристап и уреди.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>На Вашата сметка е додаден клуч за пристап</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>Од Вашата сметка е отстранет клуч за пристап</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>Безбедносна активност</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Безбедносна активност: %name</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Најавен</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Неуспешен обид за најава</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Одјавен</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Сесиите се одјавени</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Најава од нов уред</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Најава од нова локација</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Идентитетот е потврден („Потврдете дека сте Вие“)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Проверката на идентитетот не успеа</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Најава со клуч за пристап</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Најавата со клуч за пристап не успеа</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Најавата е одбиена: кодот за најава во два чекора недостасува или е погрешен</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Погрешен код за најава во два чекора</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Сметката е заклучена по неуспешни најави</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Сметката е отклучена</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Лозинката е сменета</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Промената на лозинката не успеа</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Лозинката е ресетирана</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Побарана е нова лозинка</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Адресата на е-пошта е сменета</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Корисничкото име е сменето</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Најавата во два чекора е вклучена</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Најавата во два чекора е исклучена</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Искористен код за враќање</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Нови кодови за враќање</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Создадена лозинка за апликација</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Отповикана лозинка за апликација</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Додаден клуч за пристап</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Отстранет клуч за пристап</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Сметката е овозможена</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Сметката е оневозможена</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Сите</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Најави и сесии</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Промени на сметката</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Бара внимание</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>од Вас</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>од корисникот</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>од %login</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>Метод</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>Прелистувач</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>Оперативен систем</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Уред</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>Место</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>Земја</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Сесии</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>Кои</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>Канал</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Неуспешни обиди</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>Преостанати кодови</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>Ракувач со најава</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Безбедносна активност</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Безбедносна активност: %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Најави и промени во безбедноста на Вашата сметка. Ако видите нешто што не сте го направиле, сменете ја лозинката и одјавете ги уредите што не ги препознавате.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>Најави и промени во безбедноста на оваа сметка.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Ваши уреди</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Смени ја лозинката</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>Назад кон сметката</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>Безбедносната активност не се бележи</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>Се чита од ревизорскиот дневник на корисници, чија табела expuser_audit недостасува или не е поддржана во оваа база на податоци. Извршете php update/common/scripts/6.0/createuseraudittable.php или ажурирање на базата на податоци на 6.0.15.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Последни денови: %days</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Најави во последните денови: %days</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>Неодамнешна безбедносна активност</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Прикажи</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>неуспешно</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>одбиено</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Сè уште не е забележана безбедносна активност.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>Безбедносните настани се чуваат одреден број денови: %days.</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>Безбедносните настани се чуваат додека администратор не ги отстрани.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Преземи ги моите податоци за најава</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Вашите сесии и безбедносни настани како JSON-датотека.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>На ова мрежно место сесиите не се евидентираат, па ниту еден друг уред не можеше да се одјави. Сменете ја лозинката сега.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count други сесии беа одјавени. Сега сменете ја лозинката.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Ниту еден друг уред не беше најавен. Сега сменете ја лозинката.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Ви благодариме. Настанот е означен како ваш.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Тој настан не бара одговор.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Страницата истече. Ништо не е изменето; обидете се повторно.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Заштити ја сметката</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Ако нешто тука не сте го направиле вие, одјавете ги сите други уреди, а потоа изберете нова лозинка. Се одјавуваат и уредите што останале најавени со „Запомни ме“.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Секој уред освен овој се одјавува при своето следно барање. Потоа избирате нова лозинка.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Да, одјави ги другите уреди</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Дали ова бевте вие?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Да, тоа бев јас</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Не, заштити ја мојата сметка</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>Најавен</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>Неуспешен обид за најава</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>Одјавен</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>Сесиите се одјавени</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>Најава од нов уред</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>Најава од нова локација</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>Идентитетот е потврден („Потврдете дека сте Вие“)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>Проверката на идентитетот не успеа</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>Најава со клуч за пристап</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>Најавата со клуч за пристап не успеа</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>Најавата е одбиена: кодот за најава во два чекора недостасува или е погрешен</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>Погрешен код за најава во два чекора</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Сметката е заклучена по неуспешни најави</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>Сметката е отклучена</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>Лозинката е сменета</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>Промената на лозинката не успеа</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>Лозинката е ресетирана</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>Побарана е нова лозинка</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>Адресата на е-пошта е сменета</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>Корисничкото име е сменето</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>Најавата во два чекора е вклучена</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>Најавата во два чекора е исклучена</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>Искористен код за враќање</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>Нови кодови за враќање</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>Создадена лозинка за апликација</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>Отповикана лозинка за апликација</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>Додаден клуч за пристап</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>Отстранет клуч за пристап</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>Сметката е овозможена</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>Сметката е оневозможена</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Сите</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>Најави и сесии</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>Промени на сметката</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>Бара внимание</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Безбедносна активност</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>Безбедносна активност: %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>Најави и промени во безбедноста на Вашата сметка. Ако видите нешто што не сте го направиле, сменете ја лозинката и одјавете ги уредите што не ги препознавате.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>Ваши уреди</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Смени ја лозинката</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>Безбедносната активност сè уште не се бележи на овој сајт.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>Најави во последните денови: %days</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Неуспешни обиди</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>Сè уште не е забележана безбедносна активност.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>Преземи ги моите податоци за најава</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>Вашите сесии и безбедносни настани како JSON-датотека.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>На ова мрежно место сесиите не се евидентираат, па ниту еден друг уред не можеше да се одјави. Сменете ја лозинката сега.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count други сесии беа одјавени. Сега сменете ја лозинката.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>Ниту еден друг уред не беше најавен. Сега сменете ја лозинката.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>Ви благодариме. Настанот е означен како ваш.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>Тој настан не бара одговор.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Страницата истече. Ништо не е изменето; обидете се повторно.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>Заштити ја сметката</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>Ако нешто тука не сте го направиле вие, одјавете ги сите други уреди, а потоа изберете нова лозинка. Се одјавуваат и уредите што останале најавени со „Запомни ме“.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>Секој уред освен овој се одјавува при своето следно барање. Потоа избирате нова лозинка.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>Да, одјави ги другите уреди</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>Дали ова бевте вие?</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>Да, тоа бев јас</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>Не, заштити ја мојата сметка</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>Лозинка</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>Лозинка и код за најава во два чекора</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>REST-интерфејс</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>SOAP-интерфејс</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>Единствена најава (SSO)</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>Најавен пред да почне бележењето на сесиите</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>Извештај за најави</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>Кој е најавен на сајтот, колку често сметките се најавуваат и колку често не успеваат, и одјавување корисник насекаде. Работи со секој ракувач со сесии.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>Сесијата е одјавена. Уредот мора повторно да се најави.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>Корисникот %login е одјавен од сесиите. Број на сесии: %count.</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>Корисникот %login немаше активна сесија.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>Ниедна сметка нема таков ID, корисничко име или адреса на е-пошта.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>Ова е сесијата што ја користите. За да ја завршите, одјавете се.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>Таа сесија веќе беше завршена.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>Страницата истече. Ништо не е променето; обидете се повторно.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>Сесиите не се бележат на овој сајт (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>Табелата expuser_session недостасува</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>Сесиите се бележат штом таа ќе се создаде: php update/common/scripts/6.0/createusersessiontable.php или ажурирање на базата на податоци на 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>Сега и денес</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>Активни сесии</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>Најавени корисници</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>Најави денес</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>Неуспешни обиди денес</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>Одјавување корисник насекаде</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>Секоја сесија на сметката завршува при своето следно барање, вклучително и оние што ги чува „Запомни ме“. Користете го ова кога сметката можеби е во погрешни раце; потоа ресетирајте ја нејзината лозинка.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>ID на корисник, корисничко име или адреса на е-пошта</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>Одјави насекаде</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>Сега најавени</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>Прикажани се последно користените (најмногу %limit).</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Корисник</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>Уред</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Адреса</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>Најавен</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>Последна активност</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Дејства</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>Овој уред</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>Не е забележано</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>Одјави</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>Ниедна сесија не е најавена.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>Последни денови: %days</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>Најавите и неуспешните обиди се бројат од ревизорскиот дневник на корисници, кој не постои; новите сесии се бројат.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>Ден</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>Најави</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>Неуспешни обиди</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>Нови сесии</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>Ракувач со сесии: %handler. Сесиите се читаат од табелата expuser_session, па извештајот работи со секој ракувач.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>Сомнителна активност во последните %hours часа</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>Една мрежа не успеа да се најави на %accounts сметки (%count обиди)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>Сметката е заклучена по неуспешни најавувања</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>%count неуспешни најавувања на една сметка</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>Најавено од %count земји истовремено</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>Безбедносна активност</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>Сесии</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>Неуспешните најавувања се читаат од ревизорскиот дневник на корисниците, кој не е достапен тука.</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>Ништо сомнително: нема сметка со повторени неуспешни најавувања, нема мрежа што пробува повеќе сметки, нема сметка најавена од повеќе земји.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>Безбедносно предупредување за Вашата сметка</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>На Вашата сметка %login се случи безбедносен настан: %event. Ако тоа не сте биле Вие, заштитете ја Вашата сметка на %url.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Конфигурација</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>Побарајте од содржината на овој сајт точно полињата што ѝ се потребни на страницата, со едно барање. Шемата ги следи класите на содржина; секое барање се извршува со правата на корисникот што го испраќа.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>GraphQL API е исклучен во овој пристап до сајтот. Вклучете го во graphql.ini: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>Библиотеката GraphQL (webonyx/graphql-php 15) не е инсталирана.</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>Крајна точка</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>Библиотека</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>Шема</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>Класи на содржина: %count, шема %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>Барање</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>Променливи (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Изврши</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>Одговор</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>Се извршува…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>Одговорот не можеше да се прочита.</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>Барањето се извршува со вашите права, најавени во оваа сесија.</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%count за %seconds с</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>без ограничување</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>Длабочина</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>Сложеност</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>Ставки по листа</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (стандардно %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>Повици по корисник или клуч</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>Повици по анонимна адреса</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>Интроспекција</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>Само зачувани барања</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>Најголемо барање</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>%bytes бајти</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>Најголемо прикачување</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>Нема пристап до сајтот %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>Мутациите се вклучени во %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>Мутациите се исклучени во %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>GraphQL API е вклучен во %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>GraphQL API е исклучен во %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>Поставките не можеа да се запишат: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>Кешот на одговори е исчистен: отстранети се %count одговори.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>Штиклирајте го полето до барањето за да го отстраните.</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>Барањето не можеше да се отстрани: барање испорачано во директориум од PersistedQueryDirectoryList[] се отстранува со својата датотека.</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>Зачуваното барање е отстрането.</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>Мутации</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>вклучено</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>исклучено</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Пристапи до сајтот</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>Каде одговараат API и неговите мутации. Копчињата запишуваат во graphql.ini, исто како ./console exp:graphql:enable и exp:graphql:disable.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Пристап до сајтот</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>GraphQL API</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Промени</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Исклучи</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>Мутации исклучени</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>Мутации вклучени</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Вклучи</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>Ограничувања</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>graphql.ini [GraphQLSettings] на овој пристап до сајтот.</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>Кеш на одговори</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>Одговорите на зачуваните барања, чувани според правата на корисникот и истекуваат секогаш кога се објавува содржина.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Состојба</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>Чувани одговори</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>%count одговори, %bytes бајти</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>Се чува најмногу</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds с</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>Последно истекување</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>Исчисти го кешот на одговори</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>Зачувани барања</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>Зачувани со ./console exp:graphql:persist или од клиентите (автоматски зачувани барања); се повикуваат по име или SHA-256.</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>Имиња</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Големина</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Каде</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Отстрани</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>испорачано</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>зачувано</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>Да, отстрани го ова барање</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>Сè уште нема зачувано барање.</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>API клучеви</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>Лични API клучеви со опсег graphql:read (барања) или graphql:write (мутации). Креирајте ги и отповикајте ги на страницата API пристап или со ./console exp:graphql:keys.</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>API пристап</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>Сите клучеви</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>Клуч</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Име</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Сопственик</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>Опсези</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>Последно користен</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>активен</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>истечен</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>отповикан</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>никогаш</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>Сè уште нема API клуч со GraphQL опсег.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>GraphQL API е исклучен во пристапот до сајтот %siteaccess, кој ја прикажува оваа страница; табелата подолу покажува каде одговара.</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>За пристапот до сајтот %siteaccess, кој ја прикажува оваа страница.</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>Вебхукови</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>Секој настан што го бара крајна точка (publish, update, trash, delete, move, hide, reveal, mutation) ѝ се испраќа, потпишан, од делот на cronjob graphqlwebhooks. ./console exp:graphql:webhooks го прави истото како овој дел.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Настани</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>сите</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>Секој пристап до сајтот</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>расипан</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>без тајна</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>Чекаат</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count откажани</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>Последна испорака</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Испрати тест</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>Да, отстрани го овој вебхук</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>Сè уште нема вебхук.</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>Додај вебхук</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>Додај</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>Неодамнешни испораки</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Време</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Резултат</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>Претплати</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>Ажурирања во живо за клиентите: тек на настани на /api/graphql/subscribe и WebSocket (graphql-transport-ws) на Velocity. Секој настан оди само до претплатниците што смеат да ја читаат неговата содржина.</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>Отворени сега</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>Најмногу отворени</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>%total вкупно, %user по корисник, %address по адреса</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>Анонимни претплати</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>Должина на текот</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>Вебхукот не можеше да се додаде: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>Вебхукот %name е изменет; неговата тајна за потпишување останува.</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>Тајната за потпишување не можеше да се зачува (Конфигурација &gt; Тајни).</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>Вебхукот %name е додаден. Неговата тајна за потпишување, прикажана само овој пат: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>Нема вебхук %name.</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>Вебхукот %name не одговори: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>Вебхукот %name одговори %status за %ms ms.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>Штиклирајте го полето до вебхукот за да го отстраните.</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>Вебхукот %name е отстранет.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>GraphQL API е исклучен во овој пристап до сајтот.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>Библиотеката GraphQL не е инсталирана.</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>Користете GET или POST.</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>Телото на повикот не е JSON објект.</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables не е JSON објект.</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions не е JSON објект.</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>Испратете го барањето со POST.</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>Повикот не содржи барање.</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>Барањето е подолго од %max бајти.</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>Внатрешна грешка на серверот</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node бара точно едно од id, remoteId, path и urlAlias.</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content бара точно едно од id и remoteId.</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>Курсорот на after не е издаден од овој API.</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>Не постои алијас на слика %alias (image.ini [AliasSettings] AliasList[]).</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>Тука се прифаќаат само зачувани барања: испратете го id на зачувано барање.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>Хешот на зачуваното барање не е SHA-256.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>Хешот на зачуваното барање не одговара на барањето.</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>Премногу повици: најмногу %limit за %window секунди. Обидете се повторно за %reset секунди.</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>Барањето е длабоко %depth нивоа; дозволени се најмногу %max.</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>Барањето има сложеност %complexity; дозволено е најмногу %max.</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>Овој повик не смее да ја чита шемата (introspection).</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search бара текст или филтер (classes, subtree, sections, publishedAfter, publishedBefore).</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument не е датум (ISO 8601, 2026-10-30).</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag бара точно едно од id, remoteId и path.</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout бара точно едно од id, identifier и urlAlias.</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>Полето operations на повекеделниот повик не е еден JSON повик.</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>Полето map на повекеделниот повик не е JSON објект.</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>Повекеделниот повик нема датотека %field.</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>Патеката во полето map мора да почнува со variables.: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>Датотеката %name не пристигна цела (грешка при прикачување %error).</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>Датотеката %name е поголема од %max бајти.</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>Датотеката %name не можеше да се провери.</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>Мутациите се исклучени во овој пристап до сајтот (graphql.ini [GraphQLSettings] MutationsEnabled).</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>Испратете ја мутацијата со POST.</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>Најавете се за да менувате содржина.</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>API клучот го нема опсегот %scope.</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>Мутација со сесија бара токен на формуларот од сесијата (заглавие X-CSRF-Token).</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>uploadFromUrl е исклучен: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] не наведува ниеден хост.</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>Адресата мора да биде https адреса.</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>Хостот %host не е во graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>Датотеката не можеше да се преземе.</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload е само влезен тип.</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>Променлива од типот Upload прима датотека од повекеделен повик.</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>Далечинскиот id %remoteId е веќе зафатен.</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>Содржината веќе има превод на %language: користете updateContent.</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>Наведете барем едно поле.</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>Не можеше да се направи нова верзија (содржината има премногу нацрти).</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>Верзијата %version не е нацрт.</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent бара точно едно од id и nodeId.</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>Локацијата не може да се премести под самата себе.</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>Содржината веќе има локација под %parentId.</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>Вредноста на полето %field не можеше да се зачува.</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>Нема јазик на содржина %language.</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>Нема класа на содржина %class во шемата.</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>Содржината не постои или не смеете да ја читате.</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>Не смеете да го правите ова со оваа содржина.</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>Класата %class нема поле %field во кое може да се запишува.</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>Полето %field е наведено двапати.</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>Полето %field прима датотека: испратете ја како прикачување (повекеделен повик).</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>Полето %field не прима датотека.</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>Полето %field бара вредност.</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>Форматот %format е само за полиња со богат текст; %field ја прима вредноста онаква каква што е (RAW).</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>Полето %field е задолжително.</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>HTML не можеше да се прочита.</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content прима version само со id.</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>Токенот за преглед не е важечки или е истечен.</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>Не е потекло (https://host или https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>Не е опсег на GraphQL API: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>Испраќајте ги претплатите на /api/graphql/subscribe (тек на настани или WebSocket).</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>Барањето не именува ниедна операција од документот.</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>Претплатата бара точно едно поле.</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>Отворени се премногу претплати; обидете се повторно подоцна.</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>Имате %max отворени претплати, најмногу што е дозволено.</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>Вашата адреса има %max отворени претплати, најмногу што е дозволено.</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>Претплатите се исклучени во овој пристап до сајтот.</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>Најавете се за да се претплатите (токен или личен API клуч).</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>Испраќајте ги мутациите на /api/graphql.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>Миграции</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Статусот не можеше да се прочита: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Табелите на миграциите сè уште не постојат: ./console exp:upgrade --apply ги создава.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>%count миграции не успеаја</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>Тече извршување, започнато од %user</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>Инсталацијата е заклучена: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>На чекање</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Неуспешни</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>Сирачиња</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Последно извршување</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>сè уште нема</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>Сите миграции</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>Симулирано извршување</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>Пробно извршување</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>Миграциите на чекање се извршија во трансакција која потоа беше вратена назад: ништо не е зачувано. Подолу е што секоја од нив промени во базата на податоци.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>Што би направило извршувањето сега. Ништо не се менува: секоја миграција на чекање ги наведува промените што би ги направила, а извршувањето што би направило пред и потоа.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>Симулирај</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Изврши</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>Пробното извршување не успеа: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>Симулацијата бара PostgreSQL или SQLite, чии промени на шемата можат да се вратат назад; на оваа база на податоци планот подолу покажува што би направило извршувањето.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>Миграциите</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>Миграција</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Состојба</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>Што би направила</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>Симулација: %result за %ms ms</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>Сè уште нема миграција.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>Пред и по извршувањето</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>Снимка пред</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>направена и вратена кога миграција ќе не успее</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>исклучено</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>Снимка потоа</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>направена кога извршувањето успеало</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>%total миграции: %pending на чекање, %done завршени, %failed неуспешни.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>Историја на миграции</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>Секое извршување со неговиот корисник, околина, снимки и што е комитирано, означено и испратено. Неуспешно или прекинато извршување може да се продолжи; извршување со снимка направена пред него може да се врати назад.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>Извршувањата не можеа да се прочитаат: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>Табелите на миграциите сè уште не постојат: ./console exp:upgrade --apply ги создава.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Прикажи</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Сите</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>Извршувања</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Започнато</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Од</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>Снимки</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Складиште</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>Дејства</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>пред</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>потоа</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>испраќање: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>Продолжи</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Врати назад</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>Нема извршување во оваа состојба.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>Започнати овде</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>Извршувања, продолжувања и враќања назад започнати на овие страници, со извештајот за секое.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Што</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Резултат</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Враќање назад</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>Враќање назад на %target</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>Извршување %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Што направи извршувањето, неговиот запис и дневник. Извршување започнато овде продолжува во позадина кога страницата ќе се затвори; отворете ја страницата повторно за да го следите.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>Продолжи го ова извршување</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>Врати го назад ова извршување</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>Записот не можеше да се прочита: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Напредок</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Започнато од %user во %time.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>Проверка на кодот и правење снимка пред извршувањето</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>Се извршува %id (%index од %total)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>%done од %total завршени</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>Миграциите се извршија; враќање на снимката ако некоја не успеала</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>Правење снимка по извршувањето, комитирање, означување и испраќање</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>Враќање на снимката</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>Извршувањето заврши. Се вчитува неговиот извештај.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>Напредокот не можеше да се следи. Повторно вчитајте ја страницата за да видите како оди извршувањето.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>Оваа страница го следи извршувањето додека трае.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Вчитај повторно</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Извештај</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Време</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms мс</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>Што извршувањето испиша како грешки</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Запис</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>Околина</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>нема</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Завршено</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Комит</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Ознака</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Испраќање</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Порака</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>Миграции на ова извршување</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>Извор</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>Дневник на извршувањето</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>Се прикажува само крајот на дневникот.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>се извршува</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>завршено без извештај</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>успешно</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>неуспешно</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>одбиено</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>базата на податоци не беше достапна</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>внатрешна грешка</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>Тече извршување</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind започнато од %user во %time.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>Следи го</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>Инсталацијата е заклучена</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>Друго извршување ја држи бравата (надградба или извршување во конзолата): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>завршено</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>на чекање</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>не е потребно</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>непознато</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>вратено назад</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>применето</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>би била применета</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>повлечено</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>би била повлечена</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>не е извршено</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>чека друга</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>промената е прифатена</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>промената би била прифатена</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>симулирано</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Миграции</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Статус</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Историја</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>Повлечи %target</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>Извршувањето се враќа на снимката направена пред него, една миграција со нејзиното down(). Враќањето на постара снимка е за експерти. Секое се извршува во позадина како вас, по снимка на сегашната состојба.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>Она што може да се повлече не можеше да се прочита: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>Извршување</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>Една миграција</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>Постара снимка</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>Опис</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>да</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>не</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Снимка</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Натпис</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>Направена</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Вид</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>Делови за враќање</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>Базата на податоци</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>Датотеките за складирање (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>Поставките (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>Враќањето ја враќа базата на податоци во времето на снимката, вклучително и сесиите: можеби потоа ќе треба повторно да се најавите. Сè што е променето оттогаш се губи; прво се прави снимка на сегашната состојба.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>Знам што враќа ова</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>Внесете го повторно идентификаторот на снимката</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>Да, повлечи</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Откажи</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>Извршувањата со снимка направена пред нив.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>Избери</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>Сè уште нема извршување со снимка.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>Применетите миграции што можат сами да се повлечат (имаат down()).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>Ниедна применета миграција нема down().</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>Постари снимки (експерти)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>Сè уште нема снимка.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>Изврши ги миграциите</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>Извршувањето продолжува во позадина како %user, а неговата страница го прикажува додека трае. Пред првата миграција се прави снимка на инсталацијата; кога миграција ќе не успее, извршувањето запира и снимката се враќа.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>Прво пробно извршување</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>Статусот не можеше да се прочита: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>Миграции на чекање</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>Се извршуваат по овој редослед. Отштиклирајте една за да ја оставите, заедно со оние што ја бараат, за подоцнежно извршување.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>Изврши ја</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>Го вклучува режимот на одржување додека се извршува.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>Променети откако биле применети</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>Овие датотеки не се оние што беа применети. Извршувањето ги одбива освен ако промената не е прифатена со причина; не се извршуваат повторно, новата контролна сума се запишува, а причината се чува во дневникот за ревизија.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>Прифати ги промените</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Причина</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>Стандардните вредности се безбедните. Секое поле изоставува еден чекор.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>Без снимка</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>Без снимка пред и по извршувањето: неуспехот не може автоматски да се врати.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>Без враќање</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>По неуспех, остави ја инсталацијата како што ја оставил неуспехот.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>Задржи ги некомитираните промени</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>Изврши иако поставките, екстензиите или дизајните имаат некомитирани промени; тие влегуваат во снимката.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>Без комит</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>Не ги комитирај датотеката со статус и дневникот на извршувањето (ниту ознака ниту испраќање).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>Без испраќање</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>Комитирај и означи, но не испраќај.</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>Без ознака</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>Комитирај и испрати, но не го означувај извршувањето.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>Да, изврши ги овие миграции сега</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Ниедна миграција не е на чекање.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>Назад кон статусот</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>Промени на оваа инсталација напишани еднаш како датотеки (содржина, класи, улоги, поставки, шема) и применети на секоја инсталација на сајтот по истиот редослед. Извршувањето прво прави снимка, ја враќа кога миграција ќе не успее, и запишува, комитира и испраќа што направило.</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>Изврши %count на чекање</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Преглед</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>На чекање</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Завршени</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Неуспешни</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>Не се потребни</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>База на податоци</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>трансакции: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>Миграциите на сајтот се во migrations/, оние на екстензија во extension/&lt;name&gt;/migrations/. Се извршуваат по редоследот на нивните имиња и она што го бараат.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Последно извршување</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>Датотеката е променета откако била применета.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>Сè уште нема миграција. ./console exp:migration:generate --skeleton &lt;name&gt; --apply ја пишува првата.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>Најновите извршувања</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>Сите извршувања</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>Сè уште нема извршување.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>Симулирањето на извршување бара политика migration/run.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>Тече извршување: симулирајте кога ќе заврши.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Конфигурација</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target не е ниту извршување, ниту миграција, ниту снимка на оваа инсталација.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>Прво штиклирајте „Да, повлечи“.</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>Враќањето на постара снимка е за експерти: штиклирајте „Знам што враќа ова“.</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>Внесете го повторно идентификаторот на снимката: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>Изберете барем еден дел за враќање.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>Ова извршување нема снимка направена пред него: повлечете ги неговите миграции една по една или вратете постара снимка.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>Оваа миграција не може сама да се повлече: не е применета или нема down().</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Формуларот не можеше да се прочита.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>Изберете го извршувањето за продолжување.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>Прво штиклирајте „Да, изврши ги овие миграции сега“.</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>Изберете барем една миграција.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>Миграција е променета откако била применета: прифатете ја промената со причина или вратете ја датотеката.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>Наведете ја причината зошто се прифаќаат променетите миграции.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>Причината има најмногу 500 знаци.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>Извршување започнато овде сè уште трае (%detail). Почекајте да заврши.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>Друго извршување ја држи бравата на инсталацијата: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>Извршувањето бара најавен корисник што постои.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Не е пронајдена извршна датотека php за командна линија. Поставете ја нејзината целосна патека во migration.ini [AdminSettings] PhpCliPath.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open е оневозможен, па извршување не може да се започне овде. Извршете ./console exp:migration:migrate --apply на серверот.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>Во папката на извршувањата не може да се запишува: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>Извршувањето е започнато, но не го пријави идентификаторот на својот процес. Проверете %detail.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>Наведете што да се повлече.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>Извршувањето не можеше да се започне.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>Снимање промени</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>Додека снимањето трае, она што го менувате во администрацијата или во страничната лента на сајтот се чува како чекори на миграција: содржина, класи, улоги и правила, секции, корисници и групи, URL алијаси, поставки. Запрете го кога ќе завршите, погледнете што забележало и од него создадете миграција.</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>Снимките не можеа да се прочитаат: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>Табелите на снимките сè уште не постојат: прво извршете ја надградбата (exp:upgrade --apply).</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>Снимањето е исклучено во migration.ini ([RecordingSettings] Recording=disabled).</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>Мои промени</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>Снима само она што вие го менувате, каде и да го менувате, додека не го запрете.</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>Снимање</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>од %time, досега промени: %count.</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>Ознака (незадолжително)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>Прикажи што забележало</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>Запри снимање</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>Почни да ги снимаш моите промени</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>Прозорец за целиот сајт</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>Ја снима секоја промена на секој корисник и на конзолата додека не се затвори. При отворање треба да потврдите дека сте вие.</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Отворено</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>Затвори го прозорецот</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>Отвори прозорец за целиот сајт</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>Снимки</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>Сметката на корисникот (корисничко име, е-пошта, лозинка) и полињата на корисничките сметки никогаш не се снимаат.</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Промени</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>Целиот сајт</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>Промени на %name</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Запрено</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>Сè уште нема снимки.</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>Снимка %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>Сите снимки</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>Миграцијата што би произлегла</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>Промените споени во еден чекор по променета ставка: што би направила миграција создадена од оваа снимка.</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>Од неа ќе може да се создаде миграција кога оваа инсталација ќе ги има YAML типовите на чекори %types.</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>Намерно изоставено: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>Ништо не е снимено.</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>Што забележало</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>Промени: %count, по редоследот по кој се направени.</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Промена</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>Чекор</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>Се однесува на</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>Уште %count: ./console exp:migration:record:show ги прикажува сите.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Отфрли</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>Ја отстранува снимката и она што го забележала. Она што е променето останува променето.</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>Да, отфрли ја оваа снимка</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>Се снима…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>Вашите промени се снимаат за миграција.</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>Секоја промена на овој сајт се снима за миграција (прозорец за целиот сајт).</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>Снимањето на целиот сајт започна: секоја промена на секој корисник се снима додека не го запрете.</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>Снимањето започна: вашите промени се снимаат додека не го запрете.</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>Снимањето е запрено. Она што го забележало останува додека не го отфрлите.</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>Снимката и нејзините настани се отстранети.</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>Нема снимка %id.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>Прво означете „Да, отфрли ја оваа снимка“.</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>Само корисникот што снимал може да го запре снимањето на сесијата.</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>Изберете го снимањето што сакате да го запрете.</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>Снимање од овој вид веќе трае.</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>Снимката не можеше да се промени: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>Генерирај миграција</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>Име на миграцијата (незадолжително)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>Миграцијата %file е запишана. Промените што ниту еден чекор не може да ги направи се наведени на врвот на датотеката, за да се направат рачно.</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>Не е запишана миграција: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>Долго извршување во делови</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>Празните полиња ги задржуваат поставките од migration.ini [RunSettings].</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>Најмногу толку миграции</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>Повеќе миграции по (секунди)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>Пауза меѓу миграциите (секунди)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>Понизок приоритет (од 1 до 19)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>Полето за долго извршување е цел број од 1 (паузата: секунди од 0 до 60, приоритетот: од 1 до 19) или празно.</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>Се затвора самo во %time.</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>Затвори сам по (минути, по избор)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>Минутите се цел број од 1 до 44640 (31 ден) или празно.</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>Миграција %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>Нова миграција</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>YAML-миграција: напишете ја како текст или составете ги нејзините чекори во формуларот, проверете ја, па зачувајте ја во папка за миграции.</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>Оваа миграција веќе е извршена, па не се зачувува повторно: изменета датотека би ја одбила заштитата со контролен збир. Направете ја промената во нова миграција.</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>Веб-серверот не може да ја запише датотеката.</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>Линиите со коментари на врвот се заглавието (description, author, requires, environments, engines). Кога ќе се додаде или промени чекор во формуларот, миграцијата се запишува одново: коментарите меѓу чекорите не се зачувуваат.</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>Име на миграцијата</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>Каде оди</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>Сајтот</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>YAML-текст</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>Провери</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Зачувај</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Чекори</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>Клучеви</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Уреди</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>Премести нагоре</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>Премести надолу</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Отстрани</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>Сè уште нема чекори: додајте еден со формуларот или напишете ги во текстот.</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>Промени го чекорот %number</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>Додај еден чекор</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>Формуларот на чекорот се прави од неговиот тип на чекор: неговите клучеви, што прима секој од нив и на кои режими припаѓа.</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>Тип на чекор</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>Прикажи го неговиот формулар</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>Чекорот има клучеви што неговиот тип не ги знае; тие се изоставаат кога чекорот ќе се промени: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>Режим</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>Во</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>само во %modes</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>Стандардно: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>Услови, референци и коментар</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>Парови име=вредност, одделени со запирки. Вредностите на овој чекор: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>Пример</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>Промени чекор</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>Додај чекор</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>Што вели exp:migration:check: заглавието, документот и секој чекор проверен од неговиот тип на чекор.</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>Миграцијата ја поминува проверката.</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Преглед</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>YAML-от како што ќе биде зачуван.</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>Прикажи го YAML</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>YAML-миграции</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>извршена</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>Сè уште нема YAML-миграции.</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>Уредништво</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>Во папките за миграции нема YAML-миграција %id.</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>Изберете тип на чекор.</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>Чекорот е додаден. Проверете ја миграцијата пред да ја зачувате.</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>Чекорот е променет. Проверете ја миграцијата пред да ја зачувате.</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>Изберете чекор.</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>Овој чекор нема формулар (јамка или тип на чекор што оваа инсталација го нема): променете го во текстот.</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>Изберете каде оди миграцијата: сајтот или активна екстензија.</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>%file е зачувана. Направете пробно извршување пред да се изврши миграцијата.</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>Не е зачувано: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>Далечни системи</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>Другите инсталации до кои оваа ги испорачува своите миграции: испораката ги испраќа миграциите до избраните далечни системи и ги извршува таму, сите одеднаш и усогласено. Далечен систем никогаш не чува тајна: неговиот акредитив именува една во Конфигурација &gt; Тајни.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>Нов далечен систем</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Помош</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>Тест на врската на %id</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>Далечните системи</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>До %parallel далечни системи се обработуваат истовремено; една фаза може да трае %timeout секунди на секој.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>Далечен систем</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Адреса</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Акредитив</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>Групи</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>поставки за поправка</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>само датотеки (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>SSH клуч</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>Лозинка</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>нема (SSH агентот и клучевите на хостот)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>Тестирај ја врската</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>Испорака до група оди до секој нејзин далечен систем.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>Испорака до далечни системи</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>Сè уште не е поставен ниеден далечен систем.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>Далечен систем %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>Тука ништо не се испраќа ниту извршува: Зачувај ги запишува поставките во settings/override/migration.ini.append.php. Акредитивот е име; неговата вредност останува во Конфигурација &gt; Тајни или во околината.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Проверете ги овие поставки</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>Поставките како што се внесени, сè уште незачувани.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Преглед</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Поставките се валидни. Ќе бидат запишани овие редови:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>Транспорт</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>само име; вредноста останува во Конфигурација &gt; Тајни</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Редовите што ќе бидат запишани</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>Врска</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>Клуч на хостот</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. Далечниот систем</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>Како се вика далечниот систем и која околина е.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>Букви, цифри, - и _, на пример production1. Го именува далечниот систем во извештаите и на конзолата (--remotes=production1) и не може подоцна да се промени.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... Испорака во етапи минува низ околините по овој редослед.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>Опционално, одделени со запирки, на пример production. Испорака до група оди до секој нејзин далечен систем.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. Врската</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>Како датотеките стигнуваат таму и каде е инсталацијата.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>Преку SSH, само она што се променило, а прекинат пренос продолжува. Најдобар избор таму каде што е инсталиран rsync.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>SSH со scp за датотеките.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>SSH со sftp за датотеките.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>Само датотеки: миграциите се испраќаат и повторно се читаат, но таму не можат да се извршат.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>FTP преку TLS; само датотеки.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>Друга инсталација на овој сервер, во папка.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Хост</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>Име на хост или адреса, на пример node1.example.com. Не за local.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>Порта</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>Празно: 22 за SSH, 21 за FTP.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Корисник</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>Патека</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>Коренот на инсталацијата таму, на пример /var/www/site (за FTP: патеката што ја гледа FTP сметката).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>PHP командна линија</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>PHP CLI таму: php или целосна патека како /opt/plesk/php/8.4/bin/php.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>Конзолните скрипти таму се извршуваат како root</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>Само кога корисникот на далечниот систем е root (тогаш се извршуваат со --allow-root-user).</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. Акредитивот</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>Како оваа инсталација се најавува таму. Се зачувува само име.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Нема</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>SSH агентот и клучевите на корисникот под кој работи оваа инсталација (и секогаш за local).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>Приватен клуч чуван како тајна.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>Лозинка чувана како тајна (FTP се најавува со неа).</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>Име на тајната</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>Тајна од Конфигурација &gt; Тајни, на пример deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Конфигурација &gt; Тајни</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>Или променлива на околината</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>Променливата на серверскиот процес што го содржи, на пример DEPLOY_KEY (зачувано како env:DEPLOY_KEY). Таа го зазема местото на името на тајната.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. Клучот на хостот</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>Опционално, за SSH, sftp и rsync.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>Отпечаток на клучот на хостот</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... како што го печати ssh-keygen -l. Со него хостот мора да го покаже овој клуч; без него клучот се учи при првиот контакт.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. Преглед</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>Тестирајте ја врската со поставките погоре, а потоа прегледајте ги редовите што ќе бидат запишани.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>Отстрани го овој далечен систем</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>Неговите поставки се отстрануваат од settings/override/migration.ini.append.php. На далечниот систем ништо не се менува, а неговите испораки остануваат во историјата.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>Да, отстрани го овој далечен систем</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>Испораки</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>Испораката ги испраќа миграциите на оваа инсталација до избраните далечни системи и ги извршува таму како %user, сите одеднаш и усогласено: секој далечен систем прво се проверува, а кога еден ќе не успее, секој што ги применил се враќа назад. Таа тече во позадина, а нејзината страница го прикажува секој далечен систем додека трае.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. Далечните системи</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>Штиклирајте далечни системи, група или двете.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>Испорачај до него</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. Како</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>Испорачај</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>Испрати и изврши</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>Миграциите се испраќаат, проверуваат и извршуваат на секој далечен систем со еден заеднички ID на извршувањето.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>Само пренос</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>Датотеките се испраќаат и проверуваат, ништо не се извршува (единствениот начин за FTP далечен систем).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>Во етапи</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>Етапа по етапа, по редоследот на околините (dev, stage, beta, production ...): првата етапа се испорачува, потоа капија чека додека некој не ја одобри следната. Сè или ништо во секоја етапа.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>Само овие миграции</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>Опционално: ID на миграции, одделени со запирки. Празно: секоја миграција на сајтот и неговите екстензии.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>Само претходна проверка</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>Да, испорачај сега</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>Испораките што нешто испратиле или извршиле, најновата прва (претходната проверка не чува извештај).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>само пренос</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>во етапи, %stages етапи</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>неусогласено</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>Сè уште нема испорака.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>Испорака %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>Секој далечен систем на испораката со својата состојба. Испорака започната тука продолжува во позадина кога оваа страница ќе се затвори; отворете ја страницата повторно за да ја следите.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>Сите испораки</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>Претходна проверка</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>Следна етапа</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>Проверка на поставките и акредитивите</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>Претходна проверка: читање на состојбата на секој далечен систем</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>Испраќање на датотеките на миграциите</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>Проверка на она што пристигна</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>Извршување на миграциите на секој далечен систем</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>Враќање назад на далечните системи</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>Испораката заврши. Се вчитува нејзиниот извештај.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>Напредокот не можеше да се следи. Вчитајте ја страницата повторно за да видите како напредува испораката.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>Фаза</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>Оваа страница ја следи испораката додека трае.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>Усогласено</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>Етапи</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>етапата %stage чека на својата капија</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>Капија %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>одобрено од %user во %time</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>Етапа</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>Испратени датотеки</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>Верзија на кернелот</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>применето: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>за примена: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>Фази</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>Капија: етапа %stage од %stages</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>Етапите пред неа се испорачани. Проверете ги, а потоа одобрете ја следната етапа: нејзините далечни системи повторно се проверуваат и испорачуваат, сè или ништо.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Следно</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>Да, испорачај ја следната етапа сега</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Одобри</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>Врати ја назад оваа испорака</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>Секој далечен систем што ја применил (%list) се враќа на снимката направена пред неговото извршување, сите одеднаш.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>Да, врати ја назад оваа испорака сега</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>планирано</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>пренесено</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>испорачано</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>чека на капија</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>избрано</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>подготвено</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>подготвено</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>чека на својата етапа</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>датотеките испратени</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>проверено</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>неуспешно, самото се врати</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>непроменето</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>не е испорачано</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>недостапно</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>Далечниот систем одговори.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>Далечниот систем сега не може да се користи.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done завршени, %pending на чекање, %failed неуспешни</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>Заклучување</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>извршување таму го држи заклучувањето</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>слободно</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stage од %stages</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>Изберете го далечниот систем што треба да се тестира.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>Прво штиклирајте „Да, отстрани го овој далечен систем“.</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>Далечниот систем не можеше да се отстрани: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>Далечниот систем не можеше да се зачува: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Датотеката со поставки не може да се прочита: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>Изберете барем еден далечен систем или група.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>Избран далечен систем веќе не е во поставките. Вчитајте ја страницата повторно.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>Прво штиклирајте „Да, испорачај сега“.</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>FTP далечен систем не може да извршува миграции: изберете „Само пренос“ или изоставете го.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>Миграциите за испорака се ID на миграции, одделени со запирки.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>Испораката сè уште трае. Почекајте да заврши.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>Оваа испорака не чека на капија.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>Ниеден далечен систем не ја применил оваа испорака: нема што да се врати назад.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>Прво штиклирајте „Да, испорачај ја следната етапа сега“.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>Прво штиклирајте „Да, врати ја назад оваа испорака сега“.</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>Далечен систем со ID %id веќе постои.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>Портата е број од 1 до 65535.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>Околината е збор од букви, цифри, - и _ (alpha, dev, stage, beta, production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>Групата е збор од букви, цифри, - и _ (не all): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>Акредитивот сега не може да се прочита: %problem. Зачувајте го во Конфигурација &gt; Тајни (или поставете ја променливата) пред првата испорака.</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>FTP далечен систем само прима датотеки: испораката до него е „Само пренос“, а неговите миграции таму се извршуваат рачно.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>Далечниот систем %id не е во settings/override/migration.ini.append.php; отстранете го таму каде што е поставен.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>Најавено преку FTP и прочитан index.php. Статусот на миграциите на FTP далечен систем не може да се прочита.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>Изменето</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>Создадено</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Име</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Класа</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Секција</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>Создавач</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>Нова содржина</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>Најновата создадена и изменета содржина на целиот сајт, прво најновото: што испратиле посетителите, што е задржано за преглед, нацрти што чекаат објавување. Изберете ставки за да го ослободите задржувањето, да ги задржите, скриете, прикажете, отстраните или преместите во друга секција или состојба.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>Листата не можеше да се прочита: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>Задржувањето за преглед сè уште не е поставено, па ништо не се задржува и дејствата за задржување не се нудат. Чекорот за надградба 6.0.15-review-hold го поставува: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Филтрирај ја листата</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Од</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>До</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Датум</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>Создадено (прво објавување)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Сите</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Статус</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Објавено</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>Нацрт, никогаш објавен</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>На чекање (одобрување или датум)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>Во корпата</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Задржано за преглед</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>Задржано</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>Не е задржано</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>Скриено</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>Видливо</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>Испратено преку</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>Секој пристап до сајтот</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>Само она што го запишала ревизијата.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>Сега: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>Корисничко име или ID на корисник.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Филтер</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>Исчисти ги филтрите</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>Ставки</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from до %to од %count</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Нема ставки</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(прочитано за %ms ms)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>Дејства врз избраните ставки</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>Избери ги сите на оваа страница</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>Избрани: %count</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>Дејство</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>Изберете дејство</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>Ослободи го задржувањето</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Задржи за преглед</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Скриј</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>Прикажи</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>Премести во корпата</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>Избриши</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>Додели секција</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>Додели состојба</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>Причина</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>Потребна за задржување; се чува со задржувањето и во ревизијата.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>Изберете секција</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Состојба</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>Изберете состојба</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>Примени на избраните</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>Секоја ставка се проверува според вашите сопствени дозволи. Преместувањето во корпата и бришењето бараат потврда. Повеќе од %count ставки се извршуваат во позадина.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>Избери</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>Објавување</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>Испратено од</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>Избери %name</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>сè уште не</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(без име)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>Нацрт</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>На чекање</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>Скриено од родителот</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>Задржано: ново испраќање</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>Верзија %version на чекање</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>Верзија %version во тек</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>Нацрт, верзија %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>Верзија %version објавена</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>Закажано за %date</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>нема адреса</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>не е запишано</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>Ништо не одговара на овие филтри.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Прикажи ги сите</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>Сè уште нема содржина.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>По страница</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Прикажи %count ставки по страница.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says "not recorded".</source>
+        <translation>Адресата и прелистувачот на испраќањето доаѓаат од индексот на ревизијата, кој тука не е достапен: во колоната пишува „не е запишано“.</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>Адресата и прелистувачот се оние што ревизијата ги запишала за ставката (автоматското задржување секогаш ги запишува; објавувањето и создавањето само каде што е вклучено), како што ги чуваат нејзините поставки за приватност.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: %count ставки</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>Бришењето ги отстранува ставките засекогаш, со сите нивни верзии и преводи. Тоа не може да се врати.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>Ставките одат во корпата, од каде што можат да се вратат.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>Секоја ставка се проверува според вашите сопствени дозволи; ставка со подставки останува каква што е (отстранете ја во структурата на содржината). Ќе биде побарано да потврдите дека сте вие.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>Ова се извршува во позадина: се отвора страницата за напредок, а резултатот за секоја ставка се прикажува кога ќе заврши.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>Избраните ставки</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>и уште %count</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Откажи</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>Ништо не беше направено</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Причина: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>Дејството сè уште се извршува во позадина.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>Неговиот напредок</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>Дејството во позадина не успеа: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Готово</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Одбиено</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Неуспешно</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>По ставка</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>Ставка</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Резултат</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>Зошто</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>Назад кон листата</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Конфигурација</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>Ништо не е направено</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>Потврди</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>Изберете дејство.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>Изберете барем една ставка.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>Изберете најмногу 1000 ставки одеднаш.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>Наведете зошто ставките се задржани.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>Изберете ја секцијата.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>Изберете ја состојбата.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>Формуларот не можеше да се прочита.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>Контролна табла</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>Нова содржина</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>Бројачите не можеа да се прочитаат: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Задржано за преглед</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>Ново денес</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Задржувањето за преглед сè уште не е поставено (чекорот за надградба 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>Сета нова содржина</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>Немате дозвола да извршувате дејства за модерација (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>Дејството за модерација не е завршено: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>Модерација: %action врз %count објекти</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%done од %total објекти: %ok извршени, %refused одбиени, %failed неуспешни</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok извршени, %refused одбиени, %failed неуспешни</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>Веќе не постои.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>Нема локација (не е објавено).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>Немате дозвола да го скриете (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>Немате дозвола да го прикажете (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>Веќе е скриено.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>Не е скриено.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>Скриено.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>Прикажано.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>Во корпата е: испразнете ја или вратете го оттаму.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>Нацрт што никогаш не бил објавен не може да оди во корпата: избришете го.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>Немате дозвола да го избришете (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>Избришано.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>Немате дозвола да го отстраните (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>Има подставки: отстранете го во структурата на содржината, каде што тие се наведени.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>Не беше отстрането (работен тек може да го задржува отстранувањето).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>Преместено во корпата.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>Секцијата не постои.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>Веќе е во оваа секција.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>Немате дозвола да ја доделите оваа секција (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>Секцијата не беше доделена.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>Секцијата е доделена.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>Состојбата не постои.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>Веќе е во оваа состојба.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>Немате дозвола да ја доделите оваа состојба (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>Состојбата не беше доделена (работен тек може да ја задржува промената).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>Состојбата е доделена.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>Нема такво дејство.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>Задржувањето за преглед не е поставено (чекорот за надградба 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>Наведете зошто е задржано.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>Веќе е задржано.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>Немате дозвола да го задржите (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>Задржувањето не беше поставено (работен тек може да ја задржува промената).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>Задржано.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>Не е задржано.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>Немате дозвола да го ослободите (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>Задржувањето не беше ослободено (работен тек може да ја задржува промената).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>Ослободено; сè уште скриено: немате дозвола да го прикажете (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>Ослободено.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>Сите цели</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Последна објава</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>Објавете бесплатна статичка копија од Вашиот сајт на GitHub Pages:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Застарени страници</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Статичко објавување</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Статичкото објавување е исклучено.</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Цел</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Целите не можеа да се прочитаат: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>се извршува задача</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>изградба за проверка</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>скриј го ова</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>создајте цел</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>никогаш</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>прочитајте го упатството</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>%added додадени, %changed изменети, %removed отстранети</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%bytes од %limit (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>Уште %count не се наведени.</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>Запишани страници: %pages</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path има %size, повеќе отколку што хостот дозволува за една датотека.</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>%percent % од ограничувањето</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds с</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag е објавата што сајтот ја има сега.</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: задача %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>/складиште/ за проектен сајт на GitHub; празно за сопствен домен или кориснички сајт.</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. Сајтот</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. Хостот</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. Најавување во складиштето</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. Складиштето</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. Врски и основна патека</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. Вашиот сопствен домен</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. Што содржи изградбата</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. Кога се објавува</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. Проверка и зачувување</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>Проектен сајт на GitHub се наоѓа под /&lt;repository&gt;/; релативните врски работат таму и каде било друго.</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>Изградбата ја презема секоја страница од %site како што ја гледа посетител кој не е најавен, ги препишува врските, ги копира датотеките и го запишува резултатот во папката на целта. Ништо не се објавува додека не ја проверите изградбата и не притиснете Објави.</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>Cron-израз, на пример 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>Клучот за распоредување се чува како тајната %secret.</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>Клучот за распоредување ѝ овозможува на оваа инсталација да испраќа во едно складиште преку SSH и никаде на друго место. Неговата приватна половина останува во Конфигурација &gt; Тајни; се прикажува само јавната половина.</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>Клуч за распоредување создаден за оваа цел</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>Клучот за распоредување се најавува преку SSH: сменете ја git-адресата во SSH-адресата (git@github.com:owner/repo.git).</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>Се извршува задача, започната од %user</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>Задача на оваа цел сè уште се извршува (%detail). Почекајте да заврши.</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>Задача на оваа цел сè уште се извршува. Почекајте да заврши.</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>Врска од страницата /news/ до страницата /about-us/team ќе биде запишана како</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>Создаден е нов клуч за распоредување. Додајте ја неговата јавна половина во складиштето сега.</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>Страница која по чистењето сè уште содржи излез за дебагирање, токен на формулар или ID на сесија никогаш не се објавува.</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>Враќањето назад е за експерти: штиклирајте „Знам што менува ова“ и повторно внесете го името на ознаката.</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>Сајтот може да има до %site, една датотека до %file, со околу 100 GB сообраќај месечно. Со бесплатен план складиштето мора да биде јавно. GitHub Pages не е наменет за продавници или други комерцијални трансакции.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>Целта е еден сајт објавен во едно git-складиште. Тука ништо не се гради ниту објавува: Зачувај ги запишува поставките во settings/override/staticcache.ini.append.php.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>Целта е еден сајт објавен на едно место, на пример Вашиот јавен сајт на GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>Токен од Конфигурација &gt; Тајни</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>Го објавува работен тек на складиштето.</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>Додајте го овој јавен клуч во складиштето со пристап за запишување. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, штиклирајте Allow write access.</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>Додадено</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>Друг git-хост</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>Друг процес работи на оваа цел: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>Назад</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>Основна патека</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>Претходно</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>Под основна патека</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>Гранка</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>Скршени врски</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>Скршени врски во изградбата</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>Изградба</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>Изградба %id од %user</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>Изградба на %name</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>Изгради сега</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>Изградба за проверка</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>Од</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>Рачно, тука</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Откажи</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Измени</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>Изменето</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>Промени</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>Прво проверете ја</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>Проверете ги овие поставки</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>Проверете што менува изградбата, погледнете ја, па објавете ја или отфрлете ја.</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>Изберете ја објавата на која ќе се вратите.</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>Доаѓа во подоцнежно издание.</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>Комит</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>Комитови</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>Ја комитува изградбата, ја означува со ознака и ја испраќа на %remote. Испраќањето никогаш не е насилно; подоцна можете да се вратите на која било објава.</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>Споредено со претходната папка: %added додадени, %changed изменети, %removed отстранети, %unchanged непроменети.</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>Споредено со последната објава.</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>Акредитив</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>Сопствен домен</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>Излезот за дебагирање, токените на формулари, ID-ата на сесии и nonce-вредностите секогаш се отстрануваат.</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>Клуч за распоредување</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>Клуч за распоредување на %name</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Отфрли</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>Отфрли ја изградбата</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>Домен</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>Празно: адресата на сајтот. Инаку, внатрешна адреса на истиот сајт.</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>Завршено</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>Секоја врска започнува со основната патека.</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>Секоја објава е комит со ознака static/%id/&lt;n&gt;. Враќањето назад создава нов комит со датотеките од претходна објава: историјата останува, ниедна ознака не се поместува и ништо не е насилно.</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>Дополнителни датотеки</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>Преземи ги страниците од</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Датотека</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>Датотеки</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>Недостасуваат датотеки</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>Датотеки на</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>Датотеки што не можеа да се соберат</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>Отпечаток</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>Папка</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>За SSH-адреса. Клучот се создава по зачувувањето; Вие ја додавате неговата јавна половина во складиштето.</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>За https:// адреса. GitHub: детален (fine-grained) токен со Contents за читање и запишување на складиштето.</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>За експерти. Јавниот сајт се менува штом испраќањето ќе заврши.</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Формулари</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>Бесплатен хостинг од GitHub-складиште.</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>Од гранката</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>Git-адреса</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages дозволува сајт од %site и датотека од %file.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>Ограничувања на GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages ги објавува датотеките такви какви што се (потребно за датотеки што започнуваат со _).</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub ја служи гранката таква каква што е испратена. Стандардно.</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab, Gitea, Вашиот сопствен сервер: кое било git-складиште.</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>Вратете се на претходна објава</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Помош</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>Помош за волшебникот</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>Скриј ги</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Историја</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>Историја на %name</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Хост</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>Како GitHub Pages ја прима изградбата</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>Ги проверив промените</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>Знам што менува ова</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>Исклучено е: ништо не може да се изгради додека не се вклучи.</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>Се извршува во позадина како %user; можете да ја затворите оваа страница.</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>Задача %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>Се чува како тајната %secret.</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>Вид</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>Последна објава</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>Изостави ги овие страници</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>Изостави ги овие делови</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>Врски</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>Препишани врски</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>Живиот сајт</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>Погледнете ја изградбата</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>Мали букви, цифри, _ и -, на пример github-public. Ги именува папката и ознаките (static/&lt;id&gt;/&lt;n&gt;) и не може да се промени подоцна.</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>Создај нов клуч</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>Создај цел</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>Создај го клучот</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>Прво создадете го складиштето на хостот; може да биде празно.</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>Манифест</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Порака</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>Повеќето страници</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Име</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>Име на токенот во Конфигурација &gt; Тајни</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>Нова цел</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Следно</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>Не</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>Сè уште нема комит.</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>Не е создаден клуч: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>Не е пронајдена извршна датотека за php командна линија. Поставете migration.ini [AdminSettings] PhpCliPath на нејзината целосна патека.</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>Сè уште нема ознака.</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>Сè уште нема цел.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Нема</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>Не е во изградбата.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>Сè уште ништо не е објавено.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>Сè уште ништо не е објавено: секоја датотека е нова.</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>Известувања</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>Според распоред</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>На конзолата</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>На серверот: ./console exp:static:serve %id ја служи на ист начин.</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>Една патека по ред, * одговара на кој било дел: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>Со целта се зачувува само име; самиот токен или клуч останува во Конфигурација &gt; Тајни и никогаш не се појавува во дневник.</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>Само она што страниците го наведуваат</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>Само со токен. env:NAME наместо тоа чита променлива на околината на серверот.</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>Отвори го прегледот</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>Ја отвора изградбата како што ќе ја служи хостот, од папката на целта. Врската работи за Вас еден час.</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>Опционално. Празно: она што е објавено.</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>Опционално. Со домен сајтот се служи во неговиот корен.</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Излез</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>Страници</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>Страници на целта</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>Одбиени страници</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>Дополнителна обработка</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>Преглед</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>Преглед и објавување</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>Преглед и објавување на %name</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>Прегледај ја изградбата</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Напредок</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>Јавна адреса</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>Јавен клуч</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>Објави</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>Објавете статичка копија од сајт на GitHub Pages или кој било git-хост: изградете ја, проверете ги промените, објавете и вратете се на претходна објава кога ќе Ви треба.</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>Објава на која се враќате</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>Објави</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Испраќање</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>Прочитајте го упатството</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>Запис</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>Одбиено</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>Релативни</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Вчитај повторно</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>Отстрането</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>Замени го клучот: стариот престанува да работи</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>Извештај</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>Извештај за изградбата</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>Складиште</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>Проверка</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>Проверката ја проверува секоја поставка и ги прикажува редовите што ќе бидат запишани. Сè уште ништо не е зачувано.</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>Врати назад</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>Враќање назад</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Зачувај</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>Распоред</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>Страница за пребарување</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>ID-ата на делови, одделени со запирки.</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>Испрати ги на живиот сајт</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>Поставка</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Поставки</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>Поставки на %name</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Конфигурација</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>Конфигурација &gt; Тајни</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>Се прикажува во списоци, на пример „Јавен сајт на GitHub Pages“.</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>Најавувањето со GitHub App доаѓа со интеграцијата со GitHub.</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>Сајт</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>Сајт за објавување</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Големина</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>Големина и ограничувања</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>Големина на изградбата</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>Застарени страници</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Започнато</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>Започнато од %user во %time.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Состојба</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>Статичко објавување</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>Статичкото објавување е исклучено</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>Статичкото објавување е исклучено.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>Статичкото објавување е исклучено. Прво вклучете го во Конфигурација &gt; Статичко објавување.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>Статичкото објавување е вклучено.</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>Чекор %step од %total</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Чекори</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>Чистење</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>Исклучи</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>Вклучи</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>Вклучи статичко објавување</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Ознака</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>Ознаки</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>Цел</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>Целите може да се создаваат и менуваат, но ништо не се гради ниту објавува додека не се вклучи.</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>Им кажува на пребарувачите што да читаат.</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>Изградбата не можеше да се отфрли: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>Изградбата е иста како последната објава: нема што да се објави.</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>Изградбата е отфрлена: папката повторно ја содржи последната објава.</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>Стандардните вредности одговараат на повеќето сајтови.</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>Папката содржи изградба што сè уште не е објавена; нова изградба ја заменува.</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>Во папката на задачите не може да се запишува: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>Задачата не можеше да се подготви: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>Задачата не можеше да се започне.</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>Задачата заврши. Се вчитува нејзиниот извештај.</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>Задачата бара најавен корисник.</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>Задачата е започната, но не го пријави ID-то на својот процес. Проверете %detail.</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>Клучот</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>Најголемата датотека: %path, %size.</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>Редовите што ќе бидат запишани</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>Списокот страници за пребарувачите; ја бара јавната адреса.</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>Страниците се преземаат како што ги гледа посетител кој не е најавен. Пристапите за администрација и уредување никогаш не се нудат.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>Напредокот не можеше да се следи. Вчитајте ја страницата повторно за да видите како оди задачата.</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>Јавната половина на клучот:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>Коренот на гранката</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>Складиштето за тајни сè уште не е поставено (./console exp:upgrade --apply ја создава неговата табела), па не може да се чува клуч.</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>Серверот се најавува сам (со сопствен SSH-клуч или помошник за акредитиви), или складиштето е на овој сервер.</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>Поставката не можеше да се запише: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>Поставките се валидни. Ќе бидат запишани овие редови:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>Датотеката со поставки не може да се прочита: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>Сајтот се враќа на датотеките од таа објава; изградба што сè уште не е објавена мора прво да се објави или отфрли.</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>Сопствената страница на сајтот за адреси што не постојат.</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>Целта не можеше да се зачува: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>Целта сè уште не се најавува со овој клуч: изберете „Клуч за распоредување создаден за оваа цел“ во нејзините поставки.</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>Целите не можеа да се прочитаат: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>Сè уште нема изградба за проверка.</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>Оваа инсталација нема јавен пристап до сајтот. Пристапите за администрација и уредување никогаш не се објавуваат.</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>Оваа страница ја следи задачата додека трае; задачата продолжува во позадина кога страницата ќе се затвори.</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>Оваа цел сè уште нема клуч за распоредување.</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>Оваа цел сè уште не е изградена тука.</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>Оваа цел има еден.</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>Ја отфрла оваа изградба: папката повторно ја содржи последната објава. Живиот сајт не се менува.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>Прво штиклирајте „Ги проверив промените“.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Време</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>Активатори</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>Повторно внесете го името на ознаката</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>Непроменето</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>Вебхук</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>Што</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>Што се менува</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>Што е секоја датотека; секогаш се запишува.</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>Што направила задачата и нејзиниот запис. Задача започната тука продолжува во позадина кога оваа страница ќе се затвори.</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>Што задачата испечатила како грешки</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>Она што страниците го наведуваат и секоја слика од објавената содржина</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>Кога</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>Кога објавата не успева</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>Кога објавата успева</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>Кога се објавува содржина</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>Каде водат врските до она што копијата не го содржи (пребарувањето, најавата).</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>Од каде се служи статичката копија.</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>Кој сајт се објавува и како се вика целта.</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>Работи под која било патека. Стандардно.</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>Се запишува секогаш кога е поставен сопствен домен.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>Да</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>Секогаш можете рачно да градите и објавувате тука и на конзолата.</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>само име; вредноста останува во Конфигурација &gt; Тајни</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>под %path</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>завршено без извештај</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>дополнително</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>неуспешно</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>датотека</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages, или main со папката docs.</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>git-хост</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (со токен) или git@github.com:owner/repo.git (со клуч за распоредување); никогаш лозинка или токен во неа.</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/, за мапата на сајтот и каноничните врски.</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>слика</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>никогаш</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>не</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>без далечинско складиште</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>нема: комитите остануваат во папката</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>нема: ништо не е променето</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>не е испратено</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>ништо не е променето</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>страница</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>успешно</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>proc_open е оневозможено, па тука не може да се започне задача. Користете ./console exp:static:build на серверот.</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>објава</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>објавено</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>испраќањето чека</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>испратено</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>одбиено</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>релативни</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>враќање назад</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>вратено назад</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>се извршува</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>само папката</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: се запишува во датотеката CNAME. Насочете го DNS на доменот кон хостот како што тој објаснува; на HTTPS може да му треба малку време да стартува.</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>да, сè уште не е објавено</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>Го објавува работен тек на складиштето. Изградбата ја запишува датотеката на работниот тек; оставете ја папката празна.</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>Откако ќе зачувате цел со GitHub-складиште и токен или GitHub App, овој чекор може да го создаде складиштето и да го вклучи GitHub Pages. Инаку, прво создадете го складиштето на GitHub; празно е во ред.</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>Гранка или GitHub Actions?</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>Провери го DNS</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>Создај го складиштето ако не постои</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>Создадете го складиштето на GitHub и вклучете го GitHub Pages во неговите поставки (Settings &gt; Pages).</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>Го создава складиштето %repo кога недостасува (ако е побарано), го вклучува GitHub Pages од гранката или од GitHub Actions како што е зачувано и ги поставува сопствениот домен и HTTPS. Ги користи зачуваните поставки: прво зачувајте ги промените.</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>Детали на GitHub</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>Прво внесете го сопствениот домен.</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>Секое испраќање прво се проверува според овие ограничувања.</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>За https:// адреса на GitHub. Се најавува апликацијата поставена за оваа инсталација; ѝ треба id на инсталацијата.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages служи приватно складиште само со платен план.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: на поддомен (www.example.com) му треба CNAME запис кон &lt;owner&gt;.github.io; на основен домен (example.com) A записите %ips.</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>Id на инсталацијата на GitHub App</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>Последна изградба на Pages</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>Ограничувања и услови</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>Потребно за GitHub Pages со бесплатен план.</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>На GitHub</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>Само со GitHub App: бројот на крајот од адресата на инсталацијата на апликацијата на GitHub. Самата апликација се поставува во staticcache.ini (GitHubAppId, GitHubAppKey).</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>Приватно</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>Јавно</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>Прво зачувајте ја целта со GitHub-складиште и токен или GitHub App.</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>Поставете ги овие записи кај давателот на доменот:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>Постави на GitHub</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>DNS на %domain сè уште не покажува кон GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>DNS на %domain покажува кон GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>Интеграцијата со GitHub не е достапна тука: %problem. Објавувањето во гранката работи и така; вклучете го GitHub Pages во поставките на складиштето.</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>Чекорите на GitHub не се достапни за оваа цел: %problem.</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>Состојбата на GitHub Pages се прикажува со токен или GitHub App како акредитив.</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>Користете сопствен домен</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>Што да изберете: токен, клуч за распоредување или GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>Со GitHub-складиште и токен или GitHub App, волшебникот може наместо вас да го создаде складиштето, да го вклучи GitHub Pages и да го постави доменот (чекор 4).</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>се гради</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>изградено</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>од GitHub Actions</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>од гранката %branch</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>сè уште нема</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>не е пронајдено</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>исклучено</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>приватно</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>јавно</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>во ред</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>непознато</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%count на %pages страница/и:</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>Датотека .gz (и .br) покрај секоја текстуална датотека, за домаќини што ги служат.</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>Мала страница за секоја стара адреса и алијас на страница, за старите врски да продолжат да работат.</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>Секогаш се запишува кога GitHub Actions го испорачува сајтот.</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>SPDX ознака како CC-BY-4.0, или самиот текст.</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>Кошничка</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>Повици до серверот</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Коментари</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>Формулари што собираат информации</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>GitHub Actions работен тек</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>Помалку празен простор и без коментари во страниците.</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>Лиценца на содржината</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Најава</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>Минифицирај</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>Други формулари</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>Претходно компресирај</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>Страници за пренасочување</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>Страници за пренасочување: %count.</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Пребарување</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>Индекс за пребарување: %pages страница/и на %languages.</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>Стилски датотеки и скрипти именувани според хешот на нивната содржина, за прелистувачите да можат да ги чуваат.</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>Променетите страници, неколку минути по последната промена (дел од cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>Лиценцата на содржината, од полето подолу.</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>Целиот сајт, во времињата од распоредот (дел од cronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>Овие делови од страниците бараат сервер; секој доби замена. Проверете ги пред да објавите.</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>Што не работи статички</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>Што е складиштето, за оној што го отвора на домаќинот.</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>изоставено</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>резервниот текст</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>крајната точка за формулари на живиот сајт</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>живиот сајт</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>страницата за пребарување на копијата</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>Формуларот не можеше да се испрати.</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>Благодариме: формуларот е испратен.</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>Формуларот не беше прифатен: проверете го внесеното и испратете повторно.</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>Отстрани ги врските до страници што копијата не ги содржи</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>Отстрани ги врските до администрацијата</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>Нивниот текст останува. Сликите, формуларите и врските до други сајтови никогаш не се отстрануваат.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Верзија</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>Пристапи до сајтот за објавување</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Пристап до сајтот</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>Во коренот</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>Нема пристап во коренот: секој е во својата папка, а коренот води кон нив</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>Пристапи до сајтот</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>Означете еден пристап до сајтот или неколку што делат еден хост преку својот URI-префикс. Оној во коренот се служи таму, другите во папката на својот префикс (/ger/); врските меѓу нив остануваат во копијата. Администраторските пристапи никогаш не се нудат.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>Статичкото објавување на %target на %site не успеа</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>Статичкото објавување на %target на %site успеа</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>Оваа порака ја испрати %site бидејќи целта за статичко објавување %target го бара тоа.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>Испораката %deploy на %site не успеа</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>Испораката %deploy на %site чека пред порта</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>Испораката %deploy на %site успеа</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>Оваа порака ја испрати %site бидејќи тоа го бара migration.ini [RemoteSettings] Notify[].</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>Типови на податоци (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>Изброено %time, повторно по %minutes минути</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>Типот на податоци зачувува и уредува еден вид вредност на атрибут на класа: ред текст, слика, релација. Јадрото ги носи повеќето, проширувањата додаваат уште. Тука се сите, кој ги обезбедува и колку содржина ги користи. Тип на податоци што базата на податоци го користи, а веќе ништо не го регистрира, ја расипува содржината што го има.</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>Групи класи</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>Изброј повторно сега наместо да се користат броевите од последните минути.</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>Изброј повторно</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Преглед</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>Регистриран</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>Во употреба</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>Не се користи</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>Проширувања што обезбедуваат типови на податоци</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>Атрибути на класата</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>Атрибути на објектот</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>Не е регистриран</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>Наведен, датотеката недостасува</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>%count типови на податоци се користат, но не се регистрирани</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>%class_attributes атрибути на класа и %object_attributes атрибути на објект имаат тип на податоци што не го регистрира ниедно проширување или поставка. Нивните објекти не можат да се прикажат, уредат или објават. Активирајте го проширувањето што го обезбедува типот на податоци или сменете ја класата.</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>Прикажи само овие</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>Најди тип на податоци</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>Идентификатор, име, PHP класа или проширување.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Прикажи</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Сите</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>Обезбедено од</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>Сите</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>Јадро</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>Ниеден тип на податоци не одговара на овој филтер.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Прикажи ги сите</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>Проширување</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%shown од %count типови на податоци, %used во употреба</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>Базата на податоци има атрибути на класи или објекти од овие типови на податоци, но content.ini не наведува ниеден од нив или неговата датотека недостасува.</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>Типови на податоци од %provider</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>Тип на податоци</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>PHP класа и датотека</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>Класи</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>Објекти</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>Ознаки</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>нема</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>Ниеден тип на податоци не одговара на пребарувањето. Исчистете го пребарувањето.</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>Прикажани %shown од %count типови на податоци</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>Прикажани типови на податоци: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>Подреди по %column</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>Изброено %time</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>Сите типови на податоци</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>Страница за помош</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>Овој тип на податоци се користи, но не е регистриран</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>Објектите на класите подолу не можат да се прикажат, уредат или објават додека ниедно проширување не го регистрира типот на податоци. Активирајте го проширувањето што го обезбедува и додадете го во content.ini [DataTypeSettings] AvailableDataTypes[], или сменете ги класите.</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini го наведува овој тип на податоци, но ниеден директориум за типови на податоци ја нема неговата датотека. Ништо не го користи; отстранете го од AvailableDataTypes[] или активирајте го неговото проширување.</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>За овој тип на податоци</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>Идентификатор</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Име</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>Проширување %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>никој</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>PHP-класа</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Датотека</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>Во AvailableDataTypes[]</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>да</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>не</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>Колони на неговата вредност</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>Колони на поставките на атрибутот на класата</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>Табели</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>Колоните и табелите се пронајдени со читање на кодот на типот на податоци: насока, не ветување.</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>Шаблони</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>Пристап до сајтот</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>Шаблон</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>Пронајдено во</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>оваа администрација</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>стандарден сајт</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>Без замени: шаблон за замена што одговара по класа или атрибут има предност пред овие.</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>Класи што го користат (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>Ниедна класа нема атрибут од овој тип на податоци.</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>Класа</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>Атрибути</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>Атрибути на класата (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>Атрибут</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Поставки</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>Задолжително</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>Може да се пребарува</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>Преводливо</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>Собира информации</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>Дел од содржината што го користи</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>Последно изменетите прво</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>Изменето</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>Јазол %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>Секој превод има своја вредност.</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>Пребарувањето ги индексира неговите вредности.</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>Може да собира информации од посетителите (формулари).</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>Листите може да се сортираат според него: клуч за сортирање %type.</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>Може да се сортира</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>Неговите вредности покажуваат кон други објекти.</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>Врски</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>Може да се пополни од обичен текст (увоз, REST).</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>Од текст</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>Може да се пополни од датотека.</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>Од датотека</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>Поставките на атрибутот на класата влегуваат во пакетите.</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>Пакети</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>Содржина (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from до %to од %count</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>Филтрирај ја листата</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>Сите класи</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Секција</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Јазици</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Сопственик</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>Објавено</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>Обрни го редоследот</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>Нема ставки</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>По страница</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>Прикажи %count ставки по страница.</translation>
     </message>
 </context>
 </TS>

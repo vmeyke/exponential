@@ -5,9 +5,23 @@ PHP changes to a site that Velocity serves. Velocity drives one of three web ser
 `stop`, `graceful`, `restart`, `kill`, `status`, `deploy`, `command`, `config`, `install`) and the same
 `velocity.ini`.
 
+> **Warning**
+> **`.htaccess` slows down every request.** When `.htaccess` files are enabled (`AllowOverride` anything but `None`), let alone
+> used, Apache looks for them and reads and evaluates them on every request, in every directory of the path, and
+> page loading times go up drastically ([measured](../../guides/setup-files-from-the-console.md#measured-htaccess-against-rules-in-the-virtual-host)). The only real fix is to switch the feature off for
+> the virtual host: `AllowOverride None` in the HTTPS virtual host, and the rules in the virtual host's own
+> configuration as mod_rewrite rules. That is far faster in production speed tests and well worth the time it takes
+> to optimize a production configuration. Switch over right away: copy the rules of the
+> [example HTTPS virtual host](../../examples/web-servers/apache-virtual-host.md) into your virtual host (with the static cache, also
+> [`staticcache_offload.conf`](../../examples/staticcache_offload.conf)), set `AllowOverride None`, run `apachectl configtest`, reload Apache and
+> test the site. The same rules for other servers: [nginx](../../examples/web-servers/nginx.md), [LiteSpeed](../../examples/web-servers/litespeed.md),
+> [Caddy](../../examples/web-servers/caddy.md), [IIS](../../examples/web-servers/iis.md), [Velocity](../../examples/web-servers/velocity.md) (built in); where virtual host rules go in a control
+> panel: [Plesk](../../help/hosting/panels/plesk.md), [cPanel](../../help/hosting/panels/cpanel.md), [DirectAdmin](../../help/hosting/panels/directadmin.md), [ISPConfig](../../help/hosting/panels/ispconfig.md).
+> **On LiteSpeed or OpenLiteSpeed,** the server's own page cache can also answer anonymous visitors and crawlers without PHP: [Page caching with LiteSpeed and OpenLiteSpeed](../../guides/litespeed-page-cache.md).
+
 ## Velocity is part of Exponential as of 6.0.15
 
-As of 6.0.15 the root `composer.json` **requires** `se7enxweb/exponential-velocity ~0.0.4.55`; before, it only
+As of 6.0.15 the root `composer.json` **requires** `se7enxweb/exponential-velocity ~0.0.4.57` (through `se7enxweb/exponential-php-floor`, on PHP 8.0 and later); before, it only
 suggested it. What that changes for an existing installation:
 
 | | |
@@ -77,19 +91,60 @@ php bin/php/console exp:velocity deploy --dry-run --allow-root-user  # what it w
 |---|---|---|
 | 1 | extension autoloads | `php bin/php/ezpgenerateautoloads.php -e` |
 | 2 | kernel autoloads, only with `--kernel` | `php bin/php/ezpgenerateautoloads.php -k`, restricted to `kernel/` and `lib/` |
-| 3 | INI caches, and the compiled kernel service container (cache item `kernelservices`, [kernel services](kernel-services.md)) | `php bin/php/ezcache.php --clear-tag=ini` (`./console exp:services:compile` for the container alone) |
-| 4 | template, template-override, translation and design_base caches | `--clear-id=template`, `--clear-id=template-override`, `--clear-id=translation`, `--clear-id=design_base`, one id per call |
+| 3 | INI caches, and the compiled kernel service container (cache item `kernelservices`, [kernel services](kernel-services.md)), when settings changed or with `--kernel` | `php bin/php/ezcache.php --clear-tag=ini` (`./console exp:services:compile` for the container alone) |
+| 4 | template, template-override, translation and design_base caches, each when what it holds can have changed (below) | `--clear-id=template`, `--clear-id=template-override`, `--clear-id=translation`, `--clear-id=design_base`, one id per call |
 | 5 | engine archive, when Velocity runs from one | `php bin/php/phar.php build`: rebuilt only when a file in `kernel/`, `lib/` or `autoload/` changed, every file parsed first |
 | 6 | PHP-FPM: wait until its OPcache has revalidated the changed files (no reload), or reload it when that cannot be relied on | `sleep <revalidate_freq + 1>`, or `systemctl reload <[DeploySettings] PhpFpmService>` |
 | 7 | restart Velocity, when it is running | `exp:velocity restart` |
-| 8 | content, exphttpcache, ezjscore-packer (only with `--packer`) and template-block caches | `--clear-id=content`, `--clear-id=exphttpcache`, `--clear-id=ezjscore-packer`, `--clear-id=template-block` |
-| 9 | Velocity's response cache | `exp:velocity cache clear` |
+| 8 | content, exphttpcache, ezjscore-packer (only with `--packer`) and template-block caches, when templates, design files, settings or translations changed | `--clear-id=content`, `--clear-id=exphttpcache`, `--clear-id=ezjscore-packer`, `--clear-id=template-block` |
+| 9 | Velocity's response cache, with step 8 | `exp:velocity cache clear` |
 | 10 | warm-up: `[DeploySettings] WarmUpURL[]` requested once each by a background process | `curl URL...` |
+
+**`config.php` counts as a PHP change.** The qbix engine's persistent workers
+read it once, when they start. After `./console exp:config:set <NAME> <value>
+--apply` (or `exp:setup:config --force --apply`), run `exp:velocity restart`,
+or `deploy`, which restarts in step 7. FrankenPHP in classic mode and PHP-FPM
+read it on every request once OPcache sees the new file; with
+`opcache.validate_timestamps=0`, reload PHP-FPM
+([Setting up .htaccess and config.php from the console](../../guides/setup-files-from-the-console.md)).
 
 **The order is the point.** The caches that hold rendered output (8 and 9)
 are cleared only after PHP-FPM and Velocity run the new code. Cleared before,
 every page requested in between is rendered by the old code and cached again,
 and the change looks as if it had not worked.
+
+**A cache is cleared only when what it holds can have changed.** A deploy that
+passes records when it started (`var/cache/velocity-deploy/last.json`); the next
+one looks for files modified since then below `design/`, `settings/`,
+`share/translations/`, the same directories of every extension, and the code of
+the template engines and operator registrations (`lib/eztemplate`, `lib/smarty`,
+`lib/twig`, `lib/templatebridge`, `kernel/common`, `extension/*/autoloads`):
+
+| Changed since the last deploy | Cleared |
+|---|---|
+| settings | INI caches, template-override, design_base, the caches of rendered output (steps 8 and 9) |
+| templates or other design files | template, template-override, design_base, the caches of rendered output |
+| translations | translation, the caches of rendered output |
+| template engine or operator registration code | template (compiled templates) |
+| only PHP classes | nothing of steps 3, 4, 8 and 9 |
+
+So a deploy of PHP classes keeps the pages already rendered, and the first
+visitors after it do not each wait for a page to be rendered again. `--dry-run`
+says for each cache why it would be cleared or kept, naming the changed files.
+`--clear-content` clears the caches of rendered output anyway (after a change of
+PHP code that changes what a page shows), `--all-caches` clears every cache. With
+`--kernel` the INI caches are cleared too (the kernel service container is
+compiled again). Without a record of an earlier deploy (the first one, or the
+file removed) every cache is cleared, as before; an upgrade
+(`exp:upgrade`) deploys with `--all-caches`. A file is "changed" by its
+modification time: a copy that keeps the old time (`cp -p`, `rsync -t`) is not
+seen, so deploy such a copy with `--all-caches`. `--caches=<list>` clears the caches it names (ids or
+tags of ezcache, `tag:<name>` for a tag) whatever changed: a migration run reports the caches its steps touched
+with exactly that deploy (`./console exp:velocity deploy --caches=content,template-block --apply`), since a run that
+changes only the database changes no file the deploy would see. `--migrate` runs the pending migrations
+(`exp:migration:migrate --apply`) after the caches of settings and templates and before the engine archive, PHP-FPM
+and Velocity; `[DeploySettings] Migrate=enabled` makes every deploy do it, `--no-migrate` skips it
+([Migrations: packages, deploys and long runs](../../guides/migrations-packages-deploy-and-long-runs.md#in-a-deploy)).
 
 **The first step that fails stops the run.** A kernel file that does not parse
 fails step 5, before PHP-FPM or Velocity has been touched; a restart that does
@@ -235,11 +290,11 @@ second safety net for what still can: a crash, an out-of-memory kill, or a stop 
 It is off until you install it (root, systemd):
 
 ```
-./console exp:velocity watchdog install --allow-root-user   # vc-watchdog.service + .timer, conf-available/watchdog.conf, enabled
+./console exp:velocity watchdog install --apply --allow-root-user   # vc-watchdog.service + .timer, conf-available/watchdog.conf, enabled
 ./console exp:velocity watchdog status --allow-root-user    # timer, markers, last check and last start
 ./console exp:velocity watchdog run --allow-root-user       # one check now (--json for a script)
-./console exp:velocity conf disable watchdog --allow-root-user   # pause it (conf enable: resume)
-./console exp:velocity watchdog remove --allow-root-user    # timer off, units and configuration file removed
+./console exp:velocity conf disable --apply watchdog --allow-root-user   # pause it (conf enable: resume)
+./console exp:velocity watchdog remove --apply --allow-root-user    # timer off, units and configuration file removed
 ```
 
 Every `Interval` seconds (45 by default) the timer runs one check of the default engine (or the engine named with
@@ -507,7 +562,7 @@ headers).
 ## FrankenPHP
 
 ```bash
-php bin/php/console exp:velocity config set ServerSettings Engine frankenphp --allow-root-user
+php bin/php/console exp:velocity config set --apply ServerSettings Engine frankenphp --allow-root-user
 php bin/php/console exp:velocity install --allow-root-user     # optional: start installs it
 php bin/php/console exp:velocity start --allow-root-user
 ```
@@ -732,6 +787,11 @@ The three Qbix keys need a qbix-webserver that has them; an older one ignores
 them, runs any `.php` file requested by name and sends every file with a
 served extension — `.htaccess` is not read on its pooled path.
 
+None of the three engines reads `.htaccess`. Copy it anyway
+(`./console exp:setup:htaccess --apply`) when Apache may serve the same tree,
+for example beside Velocity or during a move
+([Setting up .htaccess and config.php from the console](../../guides/setup-files-from-the-console.md)).
+
 ## Symbolic links out of the document root
 
 `[ServerSettings] FollowSymlinks=disabled` (the default) refuses a file that a
@@ -815,7 +875,7 @@ rather than assuming velocity.ini's.
 
 The `qbix` engine runs on PHP 8.0 to 8.5 from release 0.0.4.54 (20 October 2026); its `composer.json` requires
 `"php": ">=8.0"` (it was `>=8.1`), and nothing extra is needed on 8.0, no polyfill package and no extension.
-Exponential's `composer.json` requires the engine at `~0.0.4.55`, so `composer install` on PHP 8.0 installs it too.
+Exponential's `composer.json` requires the engine at `~0.0.4.57`, so `composer install` on PHP 8.0 installs it too.
 
 - **RHEL 9, AlmaLinux 9, Rocky Linux 9**: the default AppStream PHP 8.0 works, with the el9 rpm
   (`exponential-velocity-<release>-1.el9.noarch.rpm`, which depends on `php-cli >= 8.0`) or with Composer; no module
@@ -874,4 +934,5 @@ file can set `PATH`, `LD_*`, `PHPRC` and the other loader and shell variables ([
 - [FrankenPHP](frankenphp.md)
 - [Engine archive (phar)](phar.md)
 - [Deploying guide](../../guides/deploying.md)
+- [Setting up .htaccess and config.php from the console](../../guides/setup-files-from-the-console.md)
 - [Benchmarking guide](../../guides/benchmarking.md): measuring the engines against each other

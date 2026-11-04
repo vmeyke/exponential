@@ -19,7 +19,7 @@
  *
  * Parameters: release (bool, default true), languages (locales, default [ManualSettings] Languages[]), manual (one key).
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package kernel
  */
@@ -138,6 +138,14 @@ class expContentJobHelpManuals implements expContentJobType
 
     public function prepare( expContentJob $job )
     {
+        // run again after a batch was rolled back (a busy database; expContentJobWorker tries it again): the sync of
+        // the previous try knows objects, ids and an open transaction that the rollback took away. It is dropped
+        // without a commit and a new one reads what is stored, so nothing is made twice or pointed at what is gone.
+        if ( isset( self::$runs[$job->id()] ) )
+        {
+            self::$runs[$job->id()]['sync']->abandon();
+            unset( self::$runs[$job->id()] );
+        }
         // the lowest CPU priority: the site comes first
         if ( function_exists( 'proc_nice' ) )
             @proc_nice( 15 );

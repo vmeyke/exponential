@@ -52,7 +52,7 @@ Budget and timeline
 | Which databases? | SQLite 3 (the default), PostgreSQL, MongoDB, MariaDB, Oracle, MySQL, in that order of preference | [Database support](../../database-support.md) |
 | Which PHP versions? | 8.0 to 8.5 | [Requirements at a glance](../../hosting/basics/requirements-at-a-glance.md) |
 | Can we have several sites? | Yes, as siteaccesses on one installation, sharing content and users where wanted | [Multi-site offers](../offers/multi-site-offers.md) |
-| Which languages? | 268 locale files for content; administration translations at three support levels; right to left supported | [Multilingual offers](../offers/multilingual-offers.md) |
+| Which languages? | 368 locale files for content; administration translations at three support levels; right to left supported | [Multilingual offers](../offers/multilingual-offers.md) |
 | Can we sell online? | Yes, a shop is built in; some things (stock, coupons, shipping labels) are not included | [E-commerce offers](../offers/e-commerce-offers.md) |
 | How is security handled? | Private reports to security@se7enx.com with a first answer within one business day; fixes in the next 6.0.x release; hardening guide | `SECURITY.md`, [Security hardening](../../security-hardening.md) |
 | Can editors sign in with two steps? | Yes, two-step sign-in exists | [Two-step sign-in](../../../guides/two-factor-login.md) |
@@ -60,7 +60,7 @@ Budget and timeline
 | Is it accessible? | The administration is tested against WCAG 2.2 AA with the status "Partly complies"; your public design must be audited | [Accessibility standards](../../../standards/accessibility.md) |
 | Who keeps it up to date? | We do, under the care plan; the project releases 6.0.x versions and publishes no release calendar | [Keeping customers current](../customers/keeping-customers-current.md) |
 | Is there an SLA from the project? | No; the project publishes no SLA. Our contract gives you ours | [Service level design](../offers/service-level-design.md) |
-| Is it still maintained? | Yes: fifteen 6.0.x releases from 1 January 2024 to 7 June 2026, 6.0.15 in development | [Handling objections](../../business/objection-handling.md) |
+| Is it still maintained? | Yes: fifteen 6.0.x releases from 1 January 2024 to 7 June 2026, followed by the current 6.0.15 line | [Handling objections](../../business/objection-handling.md) |
 | Is this the old product under a new name? | Exponential continues the old code base, a product its creator discontinued after almost 18 years; it is maintained today by 7x and the Exponential Foundation | [Who is 7x?](../../who-is-7x.md) |
 
 Never answer with a feature you have not checked in the version you will deliver. The help's feature pages

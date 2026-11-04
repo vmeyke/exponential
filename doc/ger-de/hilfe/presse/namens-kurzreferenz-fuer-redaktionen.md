@@ -71,9 +71,9 @@ license                American spelling in the project's own texts
 | 7x Foundation, Exponential Inc. | die Exponential Foundation |
 | Exponential AI, ExpAI | Exponential Intelligence |
 | Exponential Qbix | Exponential Velocity |
-| Netgen Layouts für Exponential | Exponential Layouts (eine Portierung des Konzepts von Netgen Layouts) |
+| Netgen Layouts für Exponential | Exponential Layouts (eine Portierung des Konzepts der Upstream-Layouts-Pakete) |
 | v6.0.14 im Fließtext | 6.0.14 |
-| Exponential 6.0.15 wurde veröffentlicht ... | 6.0.15 ist in Entwicklung (bis es getaggt ist) |
+| Exponential 6.0.15 wurde veröffentlicht ... | Nur, wenn der Tag `v6.0.15` existiert (`git tag -l 'v6.0.*'`); dann mit dessen Datum |
 
 ## Testen Sie sich selbst
 

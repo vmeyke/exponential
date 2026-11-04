@@ -2,7 +2,7 @@
 /**
  * File containing eZObjectRelationListDatatypeRegression class
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @package tests
@@ -14,6 +14,7 @@
  *  object relation list data tupe regression test
  * @group database
  */
+#[\PHPUnit\Framework\Attributes\Group('database')]
 class eZObjectRelationListDatatypeRegression extends ezpDatabaseTestCase
 {
 
@@ -38,6 +39,7 @@ class eZObjectRelationListDatatypeRegression extends ezpDatabaseTestCase
     /**
      * @group issue18249
      */
+    #[\PHPUnit\Framework\Attributes\Group('issue18249')]
     public function testIssue18249()
     {
 

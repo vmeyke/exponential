@@ -984,6 +984,14 @@
         <source>Only this page is searched: %from to %to of %count.</source>
         <translation>ܗܕܐ ܦܐܬܐ ܒܠܚܘܕ ܡܬܒܨܝܐ: %from ܥܕܡܐ %to ܡܢ %count.</translation>
     </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>ܟܠ ܓܢܣܐ ܕܝܕ̈ܥܬܐ ܕܥܩܪܐ ܘܕܬܘ̈ܣܦܬܐ، ܘܐܝܟܢܐ ܙܢ̈ܐ ܘܬܚܘܝܬܐ ܡܦܠܚܝܢ ܠܗ.</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>ܓܢ̈ܣܐ ܕܝܕ̈ܥܬܐ</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/removeclass</name>
@@ -2316,6 +2324,10 @@
     <message>
         <source>System pages can be bookmarked too: open the page (Setup, the audit trail, a list of users ...) and choose Bookmark this page above it. Such bookmarks have a gear icon.</source>
         <translation>ܐܦ ܦܐܬ̈ܐ ܕܣܝܣܛܡܐ ܡܨܝܢ ܕܗܘܝܢ ܓܘ ܢܝ̈ܫܢܐ: ܦܬܘܚܘܢ ܦܐܬܐ (ܛܘܝܒܐ، ܥܩܒܐ ܕܒܘܩܝܐ، ܪܫܝܡܬܐ ܕܡܦܠ̈ܚܢܐ ...) ܘܓܒܘܢ «ܢܝܫܢܐ ܠܗܕܐ ܦܐܬܐ» ܠܥܠ ܡܢܗ. ܐܝܟ ܗܠܝܢ ܢܝ̈ܫܢܐ ܐܝܬ ܠܗܘܢ ܨܘܪܬܐ ܕܓܝܓܠܐ.</translation>
+    </message>
+    <message>
+        <source>You may no longer open this page here. Remove the bookmark, or ask an administrator for access.</source>
+        <translation>ܠܝܬ ܠܘܟܘܢ ܬܘܒ ܐܦܣܢܘܬܐ ܠܦܬܚܐ ܕܗܕܐ ܦܐܬܐ ܗܪܟܐ. ܫܩܘܠܘܢ ܢܝܫܢܐ، ܐܘ ܒܥܘܢ ܡܥܠܢܐ ܡܢ ܡܕܒܪܢܐ.</translation>
     </message>
 </context>
 <context>
@@ -5165,6 +5177,210 @@
         <source>Go to the first page</source>
         <translation>ܐܙܠܬܐ ܠܦܐܬܐ ܩܕܡܝܬܐ</translation>
     </message>
+    <message>
+        <source>Other</source>
+        <translation>ܐܚܪܢܐ</translation>
+    </message>
+    <message>
+        <source>Last 7 days</source>
+        <translation>7 ܝܘܡ̈ܬܐ ܐܚܪ̈ܝܐ</translation>
+    </message>
+    <message>
+        <source>Custom range</source>
+        <translation>ܡܫܘܚܬܐ ܓܒܝܬܐ</translation>
+    </message>
+    <message>
+        <source>All words</source>
+        <translation>ܟܠܗܝܢ ܡ̈ܠܐ</translation>
+    </message>
+    <message>
+        <source>Any word</source>
+        <translation>ܐܝܕܐ ܕܗܘ ܡܠܬܐ</translation>
+    </message>
+    <message>
+        <source>Exact phrase</source>
+        <translation>ܦܣܘܩܐ ܚܬܝܬܐ</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>ܐܚܝܕܘܬܐ</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>ܫܡܐ ܐ–ܬ</translation>
+    </message>
+    <message>
+        <source>Name Z–A</source>
+        <translation>ܫܡܐ ܬ–ܐ</translation>
+    </message>
+    <message>
+        <source>Modified, newest first</source>
+        <translation>ܡܫܘܚܠܦܐ، ܚ̈ܕܬܐ ܠܘܩܕܡ</translation>
+    </message>
+    <message>
+        <source>Modified, oldest first</source>
+        <translation>ܡܫܘܚܠܦܐ، ܥ̈ܬܝܩܐ ܠܘܩܕܡ</translation>
+    </message>
+    <message>
+        <source>Published, newest first</source>
+        <translation>ܦܪܝܣܐ، ܚ̈ܕܬܐ ܠܘܩܕܡ</translation>
+    </message>
+    <message>
+        <source>Published, oldest first</source>
+        <translation>ܦܪܝܣܐ، ܥ̈ܬܝܩܐ ܠܘܩܕܡ</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>ܡܫܘܚܠܦܐ</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>ܡܨܠܠ̈ܢܐ</translation>
+    </message>
+    <message>
+        <source>Show filters</source>
+        <translation>ܚܘܝ ܡܨܠܠ̈ܢܐ</translation>
+    </message>
+    <message>
+        <source>Hide filters</source>
+        <translation>ܛܫܝ ܡܨܠܠ̈ܢܐ</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>ܐܦܣܝܐ</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>ܡܦܠܚܐ</translation>
+    </message>
+    <message>
+        <source>Words</source>
+        <translation>ܡ̈ܠܐ</translation>
+    </message>
+    <message>
+        <source>Content type</source>
+        <translation>ܙܢܐ ܕܡܠܝܘܬܐ</translation>
+    </message>
+    <message>
+        <source>Show more (%count)</source>
+        <translation>ܚܘܝ ܝܬܝܪ (%count)</translation>
+    </message>
+    <message>
+        <source>Choose one content type to search in one of its attributes.</source>
+        <translation>ܓܒܝ ܙܢܐ ܚܕ ܕܡܠܝܘܬܐ ܠܡܒܥܐ ܒܚܕ ܡܢ ܕܝ̈ܠܝܬܗ.</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>ܦܠܓܘܬܐ</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>ܡܢ</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>ܥܕ</translation>
+    </message>
+    <message>
+        <source>The from date is not a valid date.</source>
+        <translation>ܣܝܩܘܡܐ ܕܫܘܪܝܐ ܠܐ ܗܘܐ ܣܝܩܘܡܐ ܬܪܝܨܐ.</translation>
+    </message>
+    <message>
+        <source>The to date is not a valid date.</source>
+        <translation>ܣܝܩܘܡܐ ܕܫܘܠܡܐ ܠܐ ܗܘܐ ܣܝܩܘܡܐ ܬܪܝܨܐ.</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>ܡܪܐ</translation>
+    </message>
+    <message>
+        <source>User ID, login or e-mail address.</source>
+        <translation>ID ܕܡܦܠܚܢܐ، ܫܡܐ ܕܡܥܠܬܐ ܐܘ ܡܘܢܥܐ ܕܒܝܠܕܪܐ ܐܠܩܛܪܘܢܝܐ.</translation>
+    </message>
+    <message>
+        <source>No user was found for “%input”.</source>
+        <translation>ܠܐ ܐܫܬܟܚ ܡܦܠܚܢܐ ܠ“%input”.</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>ܠܫܢܐ</translation>
+    </message>
+    <message>
+        <source>Any language</source>
+        <translation>ܐܝܕܐ ܕܗܘ ܠܫܢܐ</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>ܕܘܟܬܐ</translation>
+    </message>
+    <message>
+        <source>%count locations</source>
+        <translation>%count ܕܘܟ̈ܝܬܐ</translation>
+    </message>
+    <message>
+        <source>Results per page</source>
+        <translation>ܦܬܘܪ̈ܐ ܒܟܠ ܦܐܬܐ</translation>
+    </message>
+    <message>
+        <source>Results for “%text” (%count)</source>
+        <translation>ܦܬܘܪ̈ܐ ܠ“%text” (%count)</translation>
+    </message>
+    <message>
+        <source>Results (%count)</source>
+        <translation>ܦܬܘܪ̈ܐ (%count)</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>ܣܕܪܐ ܐܝܟ</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation>ܣܕܪܐ</translation>
+    </message>
+    <message>
+        <source>Active filters</source>
+        <translation>ܡܨܠܠ̈ܢܐ ܦܥܝܠܐ</translation>
+    </message>
+    <message>
+        <source>Remove this filter</source>
+        <translation>ܫܩܠܐ ܕܗܢܐ ܡܨܠܠܢܐ</translation>
+    </message>
+    <message>
+        <source>Or choose filters and apply them to list the content they match.</source>
+        <translation>ܐܘ ܓܒܝ ܡܨܠܠ̈ܢܐ ܘܡܦܠܚ ܠܗܘܢ ܠܡܚܘܝܘ ܡܠܝܘܬܐ ܕܡܫܬܘܝܐ ܠܗܘܢ.</translation>
+    </message>
+    <message>
+        <source>The filters narrow the search down once you have typed words.</source>
+        <translation>ܡܨܠܠ̈ܢܐ ܡܥܨܪܝܢ ܠܒܥܬܐ ܡܐ ܕܟܬܒܬ ܡ̈ܠܐ.</translation>
+    </message>
+    <message>
+        <source>No results were found for “%text”.</source>
+        <translation>ܠܐ ܐܫܬܟܚܘ ܦܬܘܪ̈ܐ ܠ“%text”.</translation>
+    </message>
+    <message>
+        <source>No results were found.</source>
+        <translation>ܠܐ ܐܫܬܟܚܘ ܦܬܘܪ̈ܐ.</translation>
+    </message>
+    <message>
+        <source>Remove a filter above.</source>
+        <translation>ܫܩܘܠ ܚܕ ܡܨܠܠܢܐ ܠܥܠ.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>ܬܘܪ̈ܓܡܐ</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>ܣܘܥܪ̈ܢܐ</translation>
+    </message>
+    <message>
+        <source>Edit %name</source>
+        <translation>ܬܩܢ %name</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>ܬܘܩܢܐ</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationnew</name>
@@ -7514,6 +7730,10 @@
         <source>Setup &gt; Cronjobs</source>
         <translation>ܛܘܝܒܐ &gt; ܥܒ̈ܕܐ ܕ cron</translation>
     </message>
+    <message>
+        <source>No cronjob part has run yet: the job queue, the imports, the notifications and the search index wait. Run php bin/php/installcrontab.php --add --apply, or add the lines of --show to the crontab.</source>
+        <translation>ܠܐ ܚܕ ܦܠܓܐ ܕ cron ܪܗܛ ܥܕܟܝܠ: ܣܕܪܐ ܕܥܒ̈ܕܐ، ܡ̈ܥܠܐ، ܡܘܕܥ̈ܢܘܬܐ ܘܡܚܘܝܢܐ ܕܒܨܝܐ ܡܣܟܝܢ. ܪܗܛܘܢ php bin/php/installcrontab.php --add --apply، ܐܘ ܐܘܣܦܘܢ ܣܪ̈ܛܐ ܕ --show ܠ crontab.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/dashboard/drafts</name>
@@ -8058,8 +8278,8 @@
         <translation>ܡܘܕܥ̈ܢܘܬܐ ܕܙܕܩܐ ܕܢܣܚܐ ܕܣܝܘ̈ܡܐ ܫܪ̈ܫܝܐ ܘܕܣܘܦܛܘܝܪ ܕܓܒܐ ܬܠܝܬܝܐ ܕܥܠܝܠ ܥܡ Exponential ܢܛܝܪ̈ܢ ܒܦܢܩ̈ܝܬܐ ܕܡܒܘܥܐ ܘܒܦܢܩܝܬܐ LICENSE، ܐܝܟ ܡܐ ܕܪܫܝܘܬܐ ܒܥܝܐ.</translation>
     </message>
     <message>
-        <source>The following is a list of Exponential contributors who have licensed their work for use by 7x under the terms and conditions of the eZ Systems Contributor Licensing Agreement. As permitted by this agreement, 7x redistributes each contribution under the same license as the file that the contribution is included in. The list names each contributor, optional contact info and the files they have contributed or contributed work to.</source>
-        <translation>ܗܕܐ ܗܝ ܪܫܝܡܬܐ ܕܡܥܕܪ̈ܢܐ ܕ Exponential ܕܝܗܒܘ ܪܫܝܘܬܐ ܠܥܒܕܐ ܕܝܠܗܘܢ ܠܦܘܠܚܢܐ ܒܝܕ 7x ܬܚܝܬ ܬܢܐ̈ܝ ܩܝܡܐ ܕܪܫܝܘܬܐ ܕܡܥܕܪ̈ܢܐ ܕ eZ Systems. ܐܝܟ ܡܐ ܕܗܢܐ ܩܝܡܐ ܡܦܣ، 7x ܡܦܠܓ ܟܠ ܥܘܕܪܢܐ ܬܚܝܬ ܗܝ ܪܫܝܘܬܐ ܕܦܢܩܝܬܐ ܕܒܗ ܥܠܝܠ ܥܘܕܪܢܐ. ܪܫܝܡܬܐ ܡܫܡܗܐ ܟܠ ܡܥܕܪܢܐ، ܝܕ̈ܥܬܐ ܕܐܚܝܢܘܬܐ ܠܐ ܐܠܨ̈ܝܬܐ ܘܦܢܩ̈ܝܬܐ ܕܥܕܪܘ ܒܗܝܢ.</translation>
+        <source>Contributors credited for their work on Exponential and on the software it grew from, with the files they contributed to. This is credit, not a copyright notice: contributions to Exponential are assigned to the Exponential Foundation and 7x under the Contributor Licensing Agreement.</source>
+        <translation>ܡܥܕܪ̈ܢܐ ܕܡܬܝܕܥܝܢ ܥܠ ܥܒܕܗܘܢ ܒ Exponential ܘܒܬܘܟܢܝܬܐ ܕܡܢܗ ܪܒܬ، ܥܡ ܦܢܝܬ̈ܐ ܕܥܕܪܘ ܠܗܝܢ. ܗܕܐ ܬܘܕܝܬܐ ܗܝ ܘܠܐ ܡܘܕܥܢܘܬܐ ܕ copyright: ܥܘܕܪ̈ܢܐ ܠ Exponential ܡܫܬܠܡܝܢ ܠ Exponential Foundation ܘ 7x ܬܚܝܬ Contributor Licensing Agreement.</translation>
     </message>
     <message>
         <source>The following is a list of the extensions that have been loaded at run-time by this copy of Exponential.</source>
@@ -13881,32 +14101,20 @@ Note: The packages will not be uninstalled.</source>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential Enterprise Edition&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, exchange and contribute&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%evaluate_link"&gt;ܒܘܚܪܢܐ ܕ Exponential Enterprise Edition&lt;/a&gt; - &lt;a href="%share_link"&gt;ܗܘܘ ܗܕܡܐ ܕܟܢܘܫܬܐ ܕ Exponential، ܚܠܘܦ ܘܫܘܬܦܘ&lt;/a&gt;. &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; ܙܕܩܐ ܕܢܘܣܚܐ &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; ܘܐܚܪ̈ܢܐ.</translation>
-    </message>
-    <message>
         <source>Powered by &lt;span class="edition-info"&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation>ܡܬܙܝܥ ܒ &lt;span class="edition-info"&gt;%edition&lt;/span&gt;. ܠܝܕ̈ܥܬܐ ܝܬܝܪ̈ܬܐ ܚܙܘܢ &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; ܙܕܩܐ ܕܢܘܣܚܐ &amp;copy; 1999-2014 &lt;a href="%ez_link"&gt;7x AS&lt;/a&gt; ܘܐܚܪ̈ܢܐ.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
         <translation> ܠܝܕ̈ܥܬܐ ܝܬܝܪ̈ܬܐ ܚܙܘܢ &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
     </message>
     <message>
-        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; ܙܕܩܐ ܕܢܘܣܚܐ &amp;copy; 1998-2026 &lt;a href="%ez_link"&gt;7x&lt;/a&gt; ܘܐܚܪ̈ܢܐ.</translation>
+        <source>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</source>
+        <translation>&lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%foundation_link"&gt;Exponential Foundation&lt;/a&gt; and &lt;a href="%7x_link"&gt;7x&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&lt;a href="%evaluate_link"&gt;Evaluate Exponential (From 7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;Become a member of the Exponential Community, get support and contribute&lt;/a&gt;.</source>
         <translation>&lt;a href="%evaluate_link"&gt;ܒܘܚܪܢܐ ܕ Exponential (ܡܢ 7x)&lt;/a&gt; - &lt;a href="%share_link"&gt;ܗܘܘ ܗܕܡܐ ܕܟܢܘܫܬܐ ܕ Exponential، ܩܒܠܘ ܥܘܕܪܢܐ ܘܫܘܬܦܘ&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; Copyright &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; and others.</source>
-        <translation> &lt;a href="%ezpublish_link"&gt;Exponential&lt;/a&gt; ܙܕܩܐ ܕܢܘܣܚܐ &amp;copy; 1998-2026 &lt;a href="%7x_link"&gt;7x&lt;/a&gt; ܘܐܚܪ̈ܢܐ.</translation>
     </message>
     <message>
         <source>&lt;p&gt;For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.&lt;/p&gt;</source>
@@ -13915,6 +14123,61 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Help center</source>
         <translation>ܡܪܟܙܐ ܕܥܘܕܪܢܐ</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/search/suggest</name>
+    <message>
+        <source>Content</source>
+        <translation>ܡܠܝܘܬܐ</translation>
+    </message>
+    <message>
+        <source>Document pages</source>
+        <translation>ܦܐܬ̈ܐ ܕܟܬܒ̈ܐ</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>ܡܦܠ̈ܚܢܐ</translation>
+    </message>
+    <message>
+        <source>Content classes</source>
+        <translation>ܙ̈ܢܝܐ ܕܡܠܝܘܬܐ</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>ܕܘܒܪܐ</translation>
+    </message>
+    <message>
+        <source>Page %number</source>
+        <translation>ܦܐܬܐ %number</translation>
+    </message>
+    <message>
+        <source>View all results</source>
+        <translation>ܚܙܝ ܟܠܗܘܢ ܦܬܘܪ̈ܐ</translation>
+    </message>
+    <message>
+        <source>%count results</source>
+        <translation>%count ܦܬܘܪ̈ܐ</translation>
+    </message>
+    <message>
+        <source>One result</source>
+        <translation>ܦܬܘܪܐ ܚܕ</translation>
+    </message>
+    <message>
+        <source>%count suggestions</source>
+        <translation>%count ܡܚܫܒ̈ܬܐ</translation>
+    </message>
+    <message>
+        <source>No suggestions</source>
+        <translation>ܠܝܬ ܡܚܫܒ̈ܬܐ</translation>
+    </message>
+    <message>
+        <source>The suggestions could not be loaded.</source>
+        <translation>ܠܐ ܐܫܬܟܚ ܠܡܛܥܢܘ ܡܚܫܒ̈ܬܐ.</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>ܡܚܫܒ̈ܬܐ</translation>
     </message>
 </context>
 <context>
@@ -14383,6 +14646,14 @@ Note: The packages will not be uninstalled.</source>
         <source>This installation is a public demo: anyone may know its administrator password, and administrator passwords cannot be changed or reset. Do not enter anything private here.</source>
         <translation>ܗܕܐ ܡܩܝܡܢܘܬܐ ܚܘܝܐ ܓܠܝܐ ܗܝ: ܟܠ ܐܢܫ ܡܨܐ ܝܕܥ ܠܡܠܬܐ ܕܥܒܪܐ ܕܡܕܒܪܢܐ ܕܝܠܗ، ܘܡ̈ܠܐ ܕܥܒܪܐ ܕܡܕܒܪ̈ܢܐ ܠܐ ܡܨܝܢ ܕܡܫܬܚܠܦܢ ܐܘ ܡܬܚܕܬܢ. ܠܐ ܥܠܘܢ ܗܪܟܐ ܡܕܡ ܕܝܚܝܕܝܐ.</translation>
     </message>
+    <message>
+        <source>Your devices</source>
+        <translation>ܡܐܢ̈ܐ ܕܝܠܘܟܘܢ</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>ܥܒܕܢܘܬܐ ܕܫܠܡܘܬܐ</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
@@ -14672,6 +14943,14 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Guides, search and how to report an error.</source>
         <translation>ܡܕܪ̈ܫܢܐ، ܒܨܝܐ ܘܐܝܟܢܐ ܠܡܘܕܥܐ ܥܠ ܦܘܕܐ.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>ܡܠܝܘܬܐ ܚܕܬܬܐ</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>ܡܠܝܘܬܐ ܚܕܬܬܐ, ܡܕܡ ܕܟܠܝܐ ܠܒܘܚܢܐ, ܘܣܘܥܪܢܐ ܥܠ ܓܒܝܬܐ.</translation>
     </message>
 </context>
 <context>
@@ -15130,6 +15409,46 @@ Note: The packages will not be uninstalled.</source>
         <source>Synchronisations</source>
         <translation>ܫܘܘ̈ܝܐ</translation>
     </message>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>The GraphQL API: its end point, the schema and a playground to try queries.</source>
+        <translation>API ܕ GraphQL: ܢܘܩܙܐ ܕܣܘܦܐ ܕܝܠܗ، ܣܟܡܐ ܘܕܘܟܬܐ ܠܢܣܝܘܢܐ ܕܫܘ̈ܐܠܐ.</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>ܫܘܢ̈ܝܐ</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>ܫܘ̈ܚܠܦܐ ܕܐܩܡܬܐ ܕܡܬܢܛܪܝܢ ܐܝܟ ܦܢܩ̈ܝܬܐ: ܡܩܡܗܘܢ، ܡܪ̈ܗܛܐ، ܡܪܗܛܐ ܘܡܗܦܟܐ ܠܒܣܬܪ.</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>ܡܠܝܘܬܐ ܚܕܬܬܐ</translation>
+    </message>
+    <message>
+        <source>The newest content, what is held for review, and actions on a selection.</source>
+        <translation>ܡܠܝܘܬܐ ܚܕܬܬܐ, ܡܕܡ ܕܟܠܝܐ ܠܒܘܚܢܐ, ܘܣܘܥܪܢܐ ܥܠ ܓܒܝܬܐ.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>ܦܪܣܐ ܕܨܘܪܬܐ ܩܒܝܥܬܐ ܕܐܬܪܐ ܥܠ GitHub Pages ܐܘ ܥܠ ܟܠ ܡܐܪܚܢܐ ܕ git.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>ܦܪܣܐ ܩܒܝܥܐ</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>ܓܢ̈ܣܐ ܕܝܕ̈ܥܬܐ</translation>
+    </message>
+    <message>
+        <source>Every datatype of the kernel and the extensions, and how the classes and content use it.</source>
+        <translation>ܟܠ ܓܢܣܐ ܕܝܕ̈ܥܬܐ ܕܥܩܪܐ ܘܕܬܘ̈ܣܦܬܐ، ܘܐܝܟܢܐ ܙܢ̈ܐ ܘܬܚܘܝܬܐ ܡܦܠܚܝܢ ܠܗ.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -15294,6 +15613,22 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Accounts nobody uses or that need a look; disable, unlock or export them.</source>
         <translation>ܚܘܫ̈ܒܢܐ ܕܐܢܫ ܠܐ ܡܦܠܚ ܠܗܘܢ ܐܘ ܕܣܢܝܩܝܢ ܠܚܙܝܐ؛ ܡܒܛܠܐ، ܦܬܚܐ ܕܩܦܠܐ ܐܘ ܡܦܩܐ ܕܝܠܗܘܢ.</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>ܥܩܒܐ ܕܒܘܩܝܐ ܕܡܦܠܚܢ̈ܐ</translation>
+    </message>
+    <message>
+        <source>Who changed, signed in or was refused, per account; filter and export.</source>
+        <translation>ܡܢܘ ܫܚܠܦ، ܥܠ ܐܘ ܐܬܟܠܝ، ܠܟܠ ܚܘܫܒܢܐ؛ ܨܠܠܐ ܘܡܦܩܐ.</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>ܡܘܕܥܢܘܬܐ ܕܥܠܠܐ</translation>
+    </message>
+    <message>
+        <source>Who is signed in, sign-ins and failures per day; sign a user out everywhere.</source>
+        <translation>ܡܢܘ ܥܠܝܠܐ، ܥܠ̈ܠܐ ܘܥܠ̈ܠܐ ܕܠܐ ܐܨܠܚܘ ܠܟܠ ܝܘܡܐ؛ ܦܠܛܐ ܕܡܦܠܚܢܐ ܡܢ ܟܠ ܕܘܟܐ.</translation>
     </message>
 </context>
 <context>
@@ -22110,6 +22445,22 @@ Note: The packages will not be uninstalled.</source>
         <source>%n hours ago</source>
         <translation>ܡܢ %n ܫܥ̈ܐ</translation>
     </message>
+    <message>
+        <source>Answers of the GraphQL API&apos;s persisted queries, and the content classes of its schema.</source>
+        <translation>ܦܘ̈ܢܝܐ ܕܫܘ̈ܐܠܐ ܢܛܝܪ̈ܐ ܕ API ܕ GraphQL، ܘܙ̈ܢܝܐ ܕܡܠܝܘܬܐ ܕܣܟܡܐ ܕܝܠܗ.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy to GitHub Pages or any git host</source>
+        <translation>ܦܪܣܐ ܕܨܘܪܬܐ ܩܒܝܥܬܐ ܥܠ GitHub Pages ܐܘ ܥܠ ܟܠ ܡܐܪܚܢܐ ܕ git</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>ܦܪܣܐ ܩܒܝܥܐ</translation>
+    </message>
+    <message>
+        <source>The static cache serves pages from this server. To publish a static copy of a site somewhere else, on GitHub Pages or any git host, use static publishing.</source>
+        <translation>ܣܝܡܬܐ ܡܬܢܛܪܬܐ ܡܫܡܫܐ ܦܐܬ̈ܐ ܡܢ ܗܢܐ ܡܫܡܫܢܐ. ܠܦܪܣܐ ܕܨܘܪܬܐ ܩܒܝܥܬܐ ܕܐܬܪܐ ܒܕܘܟܬܐ ܐܚܪܬܐ، ܥܠ GitHub Pages ܐܘ ܥܠ ܟܠ ܡܐܪܚܢܐ ܕ git، ܐܦܠܚܘ ܦܪܣܐ ܩܒܝܥܐ.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/cronjobs</name>
@@ -25651,6 +26002,10 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>last purge</source>
         <translation>ܣܘܪܩܐ ܐܚܪܝܐ</translation>
+    </message>
+    <message>
+        <source>Writes could not take the state lock (last %date): each one made every cached result stale. %file must be writable by every user the site runs as; on NFS it needs NFSv4 or lockd.</source>
+        <translation>ܟܬܒ̈ܐ ܠܐ ܐܫܟܚܘ ܠܡܐܚܕ ܩܦܠܐ ܕܡܨܒܐ (ܐܚܪܝܐ %date): ܟܠ ܚܕ ܡܢܗܘܢ ܥܒܕ ܟܠ ܦܘܪܥܢܐ ܛܡܝܪܐ ܥܬܝܩܐ. %file ܘܠܐ ܕܢܗܘܐ ܟܬܝܒܐ ܠܟܠ ܡܫܡܫܢܐ ܕܐܬܪܐ ܪܗܛ ܒܫܡܗ؛ ܥܠ NFS ܣܢܝܩ NFSv4 ܐܘ lockd.</translation>
     </message>
 </context>
 <context>
@@ -33599,6 +33954,14 @@ Note: The packages will not be uninstalled.</source>
         <source>Timed out sessions of the PHP handler are removed by PHP itself (session.gc_maxlifetime), not by this page or the session_gc cronjob part.</source>
         <translation>ܡܘܬ̈ܒܐ ܕܓܡܪܘ ܙܒܢܗܘܢ ܕܡܥܒܕܢܐ ܕ PHP ܡܬܫܩܠܝܢ ܒ PHP ܒܢܦܫܗ (session.gc_maxlifetime)، ܘܠܐ ܒܦܐܬܐ ܗܕܐ ܘܠܐ ܒܦܠܓܐ ܕܥܒܕܐ ܕ session_gc.</translation>
     </message>
+    <message>
+        <source>The signed-in sessions of every user are listed, and signed out, on the sign-in report, which works with every session handler.</source>
+        <translation>ܡܘܬ̈ܒܐ ܥܠܝ̈ܠܐ ܕܟܠ ܡܦܠ̈ܚܢܐ ܡܬܚܘܝܢ، ܘܡܬܦܠܛܝܢ، ܒܡܘܕܥܢܘܬܐ ܕܥܠܠܐ، ܕܦܠܚܐ ܥܡ ܟܠ ܡܥܒܕܢܐ ܕܡܘܬ̈ܒܐ.</translation>
+    </message>
+    <message>
+        <source>Open the sign-in report</source>
+        <translation>ܦܬܚܐ ܕܡܘܕܥܢܘܬܐ ܕܥܠܠܐ</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/systemupgrade</name>
@@ -37923,6 +38286,26 @@ your account.</source>
     <message>
         <source>None yet</source>
         <translation>ܠܥܠܡ ܠܐ ܐܝܬ</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>ܥܒܕܢܘܬܐ ܕܫܠܡܘܬܐ</translation>
+    </message>
+    <message>
+        <source>Your recent sign-ins, failed attempts and changes to your password, e-mail address and two-step sign-in.</source>
+        <translation>ܥܠ̈ܠܐ ܐܚܪ̈ܝܐ ܕܝܠܘܟܘܢ، ܢܣܝܘܢ̈ܐ ܕܠܐ ܐܨܠܚܘ ܘܫܘܚ̈ܠܦܐ ܒܡܠܬܐ ܕܥܒܪܐ، ܒܡܘܢܥܐ ܕܒܪܝܕܐ ܘܒܥܠܠܐ ܒܬܪܬܝܢ ܕܪ̈ܓܐ.</translation>
+    </message>
+    <message>
+        <source>The recent sign-ins, failed attempts and security changes of this account.</source>
+        <translation>ܥܠ̈ܠܐ ܐܚܪ̈ܝܐ، ܢܣܝܘܢ̈ܐ ܕܠܐ ܐܨܠܚܘ ܘܫܘܚ̈ܠܦܐ ܕܫܠܡܘܬܐ ܕܗܢܐ ܚܘܫܒܢܐ.</translation>
+    </message>
+    <message>
+        <source>Review activity</source>
+        <translation>ܒܘܚܢܐ ܕܥܒܕܢܘܬܐ</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins</source>
+        <translation>%count ܥܠ̈ܠܐ ܕܠܐ ܐܨܠܚܘ</translation>
     </message>
 </context>
 <context>
@@ -44089,6 +44472,42 @@ If you want to send comments to the approver or view the status use the URL belo
     <message>
         <source>After signing in, the user must choose a new password before doing anything else. Use it when you give someone a temporary password.</source>
         <translation>ܒܬܪ ܥܠܠܐ، ܡܦܠܚܢܐ ܚܝܒ ܠܡܓܒܐ ܡܠܬܐ ܕܥܒܪܐ ܚܕܬܐ ܩܕܡ ܕܢܥܒܕ ܡܕܡ ܐܚܪܝܢ. ܐܡܠܘ ܒܗ ܟܕ ܝܗܒܝܢ ܠܐܢܫ ܡܠܬܐ ܕܥܒܪܐ ܙܡܢܝܬܐ.</translation>
+    </message>
+    <message>
+        <source>Choose an existing image</source>
+        <translation>ܓܒܝ ܨܘܪܬܐ ܐܝܬܝܬܐ</translation>
+    </message>
+    <message>
+        <source>The image file of the object you choose is copied into this field. The other object does not change.</source>
+        <translation>ܦܢܩܝܬܐ ܕܨܘܪܬܐ ܕܨܒܘܬܐ ܕܓܒܐ ܐܢܬ ܡܬܢܣܚܐ ܠܚܩܠܐ ܗܢܐ. ܨܒܘܬܐ ܐܚܪܬܐ ܠܐ ܡܫܬܚܠܦܐ.</translation>
+    </message>
+    <message>
+        <source>The image of "%name" was copied into this field.</source>
+        <translation>ܨܘܪܬܐ ܕ«%name» ܐܬܢܣܚܬ ܠܚܩܠܐ ܗܢܐ.</translation>
+    </message>
+    <message>
+        <source>Browse for an image</source>
+        <translation>ܚܝܪ ܠܨܘܪܬܐ</translation>
+    </message>
+    <message>
+        <source>Search images by name</source>
+        <translation>ܒܨܝ ܨܘܪܬܐ ܒܫܡܐ</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>ܒܨܝܐ</translation>
+    </message>
+    <message>
+        <source>Use the image of "%name"</source>
+        <translation>ܐܦܠܚ ܨܘܪܬܐ ܕ«%name»</translation>
+    </message>
+    <message>
+        <source>Use this image</source>
+        <translation>ܐܦܠܚ ܨܘܪܬܐ ܗܕܐ</translation>
+    </message>
+    <message>
+        <source>No image matches your search.</source>
+        <translation>ܠܝܬ ܨܘܪܬܐ ܕܫܘܝܐ ܠܒܨܝܬܟ.</translation>
     </message>
 </context>
 <context>
@@ -51013,6 +51432,10 @@ See the requirements page for more information.</source>
         <source>The crontab was not written (%reason). Add these lines to the crontab of the user the site runs as, or the queue, the imports, the notifications and the search index never run:</source>
         <translation>crontab ܠܐ ܐܬܟܬܒ (%reason). ܘܣܦܘ ܫܪܒ̈ܬܐ ܗܠܝܢ ܠ crontab ܕܡܦܠܚܢܐ ܕܐܬܪܐ ܡܬܪܗܛ ܒܗ، ܐܘ ܣܕܪܐ ܘܡܥܠܝ̈ܐ ܘܡܘܕܥܢܘ̈ܬܐ ܘܡܚܘܝܢܐ ܕܒܨܝܐ ܠܐ ܡܬܪܗܛܝܢ ܠܥܠܡ:</translation>
     </message>
+    <message>
+        <source>Reinstalling is done with the kickstarter (%file, then php bin/php/kickstarter.php run --apply) or with a fresh installation.</source>
+        <translation>ܐܩܡܬܐ ܡܢ ܕܪܝܫ ܡܬܥܒܕܐ ܥܡ kickstarter (%file، ܗܝܕܝܢ php bin/php/kickstarter.php run --apply) ܐܘ ܥܡ ܐܩܡܬܐ ܚܕܬܐ.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -54892,6 +55315,10 @@ your account.</source>
         <source>eZJSCore Public Packer cache</source>
         <translation>ܣܝܡܬܐ ܕܨܪܪ ܓܠܝܐ ܕ ezjscore</translation>
     </message>
+    <message>
+        <source>GraphQL cache (answers and schema classes)</source>
+        <translation>ܓܢܙܐ ܕ GraphQL (ܦܘ̈ܢܝܐ ܘܙ̈ܢܝܐ ܕܣܟܡܐ)</translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -54978,6 +55405,14 @@ your account.</source>
     <message>
         <source>Copy of %class_name</source>
         <translation>ܢܘܣܚܐ ܕ %class_name</translation>
+    </message>
+    <message>
+        <source>Datatypes</source>
+        <translation>ܓܢ̈ܣܐ ܕܝܕ̈ܥܬܐ</translation>
+    </message>
+    <message>
+        <source>Datatype %string</source>
+        <translation>ܓܢܣܐ ܕܝܕ̈ܥܬܐ %string</translation>
     </message>
 </context>
 <context>
@@ -55804,6 +56239,26 @@ your account.</source>
         <source>The SVG image could not be read, or nothing in it can be shown safely.</source>
         <translation>ܨܘܪܬܐ ܕ SVG ܠܐ ܐܫܬܡܠܝ ܠܡܬܩܪܝܘ، ܐܘ ܠܝܬ ܒܗ ܡܕܡ ܕܡܨܝܐ ܠܡܬܚܙܝܘ ܒܛܝܒܘܬܐ.</translation>
     </message>
+    <message>
+        <source>The image could not be copied. Please try again or contact the site administrator.</source>
+        <translation>ܨܘܪܬܐ ܠܐ ܐܫܟܚܬ ܠܡܬܢܣܚܘ. ܒܥܝܐ ܢܣܝ ܬܘܒ ܐܘ ܡܠܠ ܥܡ ܡܕܒܪܢܐ ܕܕܘܟܬܐ.</translation>
+    </message>
+    <message>
+        <source>The selected object does not exist or you may not read it.</source>
+        <translation>ܨܒܘܬܐ ܓܒܝܬܐ ܠܐ ܐܝܬܝܗ ܐܘ ܠܐ ܫܠܝܛ ܠܟ ܠܡܩܪܝܗ.</translation>
+    </message>
+    <message>
+        <source>The selected object has no image.</source>
+        <translation>ܨܒܘܬܐ ܓܒܝܬܐ ܠܝܬ ܠܗ ܨܘܪܬܐ.</translation>
+    </message>
+    <message>
+        <source>The image file of the selected object could not be read.</source>
+        <translation>ܦܢܩܝܬܐ ܕܨܘܪܬܐ ܕܨܒܘܬܐ ܓܒܝܬܐ ܠܐ ܐܫܟܚܬ ܠܡܬܩܪܝܘ.</translation>
+    </message>
+    <message>
+        <source>The image of the selected object is larger than this field allows: %1 bytes.</source>
+        <translation>ܨܘܪܬܐ ܕܨܒܘܬܐ ܓܒܝܬܐ ܪܒܬܐ ܝܬܝܪ ܡܢ ܕܡܦܣ ܚܩܠܐ ܗܢܐ: %1 ܒܝܬ̈ܐ.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -56334,6 +56789,42 @@ your account.</source>
         <source>The bookmark was renamed to "%name".</source>
         <translation>ܫܡܐ ܕܢܝܫܢܐ ܐܫܬܚܠܦ ܠ «%name».</translation>
     </message>
+    <message>
+        <source>This page is switched off in this siteaccess (%siteaccess). Open the bookmark in a siteaccess that has it.</source>
+        <translation>ܗܕܐ ܦܐܬܐ ܒܛܝܠܬܐ ܝܠܗ ܓܘ ܗܢܐ ܡܥܠܢܐ ܕܐܬܪܐ (%siteaccess). ܦܬܘܚܘܢ ܢܝܫܢܐ ܓܘ ܡܥܠܢܐ ܕܐܬܪܐ ܕܐܝܬ ܠܗ ܗܕܐ ܦܐܬܐ.</translation>
+    </message>
+    <message>
+        <source>The module of this page is not installed or not enabled here.</source>
+        <translation>ܡܘܕܘܠ ܕܗܕܐ ܦܐܬܐ ܠܐ ܝܠܗ ܡܬܩܢܐ ܐܘ ܡܦܥܠܐ ܗܪܟܐ.</translation>
+    </message>
+    <message>
+        <source>This page no longer exists: its module has no such view.</source>
+        <translation>ܗܕܐ ܦܐܬܐ ܠܐ ܐܝܬܝܗ ܬܘܒ: ܠܡܘܕܘܠ ܕܝܠܗ ܠܝܬ ܚܙܝܐ ܗܕܟܐ.</translation>
+    </message>
+    <message>
+        <source>None of your roles allows you to open this page.</source>
+        <translation>ܠܐ ܚܕ ܡܢ ܕܘܪ̈ܐ ܕܝܠܘܟܘܢ ܝܗܒ ܠܘܟܘܢ ܐܦܣܢܘܬܐ ܠܦܬܚܐ ܕܗܕܐ ܦܐܬܐ.</translation>
+    </message>
+    <message>
+        <source>You may not use this siteaccess.</source>
+        <translation>ܠܝܬ ܠܘܟܘܢ ܐܦܣܢܘܬܐ ܠܦܠܚܢܐ ܕܗܢܐ ܡܥܠܢܐ ܕܐܬܪܐ.</translation>
+    </message>
+    <message>
+        <source>You may not read the content this page shows.</source>
+        <translation>ܠܝܬ ܠܘܟܘܢ ܐܦܣܢܘܬܐ ܠܩܪܝܢܐ ܕܡܠܝܘܬܐ ܕܗܕܐ ܦܐܬܐ ܡܚܘܝܐ.</translation>
+    </message>
+    <message>
+        <source>This kind of page cannot be bookmarked: it only acts on a form, or is a page of one moment.</source>
+        <translation>ܗܢܐ ܙܢܐ ܕܦܐܬܐ ܠܐ ܡܨܝܐ ܕܡܬܪܫܡܐ ܒܢܝܫܢܐ: ܦܠܚܐ ܠܚܘܕ ܥܠ ܛܘܦܣܐ، ܐܘ ܦܐܬܐ ܕܚܕ ܪܦܦܐ ܝܠܗ.</translation>
+    </message>
+    <message>
+        <source>The address of this page is missing.</source>
+        <translation>ܡܘܢܥܐ ܕܗܕܐ ܦܐܬܐ ܚܣܝܪܐ ܝܠܗ.</translation>
+    </message>
+    <message>
+        <source>This page cannot be opened now.</source>
+        <translation>ܗܕܐ ܦܐܬܐ ܠܐ ܡܨܝܐ ܕܡܬܦܬܚܐ ܗܫܐ.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
@@ -56805,6 +57296,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>The mail transport refused %count messages in the last run. Check the mail server and site.ini MailSettings.</source>
         <translation>ܡܕܒܪܢܐ ܕܒܪܝ̈ܕܐ ܣܠܐ %count ܫܠܝ̈ܚܘܬܐ ܒܡܪܗܛܐ ܐܚܪܝܐ. ܒܚܘܢ ܡܫܡܫܢܐ ܕܒܪܝ̈ܕܐ ܘܛܘܝܒܐ ܕ site.ini MailSettings.</translation>
+    </message>
+    <message>
+        <source>%count events wait and no run of the notification cronjob is recorded. Add the cronjob part &quot;frequent&quot; to the crontab, or run exp:notification:run --apply.</source>
+        <translation>%count ܓܕ̈ܫܐ ܡܣܟܝܢ ܘܠܐ ܚܕ ܪܗܛܐ ܕܥܒܕܐ ܕ cron ܕܡܘܕܥ̈ܢܘܬܐ ܐܬܪܫܡ. ܐܘܣܦܘܢ ܦܠܓܐ ܕ cron «frequent» ܠ crontab، ܐܘ ܪܗܛܘܢ exp:notification:run --apply.</translation>
     </message>
 </context>
 <context>
@@ -63069,6 +63564,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Choose another site or section with the node picker</source>
         <translation>ܓܒܘܢ ܐܬܪܐ ܐܘ ܦܠܓܘܬܐ ܐܚܪܬܐ ܒܓܒܝܢܐ ܕܩܛܪ̈ܐ</translation>
     </message>
+    <message>
+        <source>Only the system administrator can change the owner: run ./console exp:content-check --fix-permissions --apply as root.</source>
+        <translation>ܒܠܚܘܕ ܡܕܒܪܢܐ ܕܡܪܟܒܬܐ ܡܨܐ ܠܫܘܚܠܦܐ ܕܡܪܐ: ܪܗܛܘܢ ./console exp:content-check --fix-permissions --apply ܐܝܟ root.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/contentfinder</name>
@@ -64602,6 +65101,10 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>empty</source>
         <translation>ܣܪܝܩܐ</translation>
+    </message>
+    <message>
+        <source>The signing key is over a year old: rotate it with exp:audit key rotate --apply.</source>
+        <translation>ܩܠܝܕܐ ܕܚܬܡܐ ܥܬܝܩ ܝܬܝܪ ܡܢ ܫܢܬܐ: ܫܚܠܦܘܢ ܠܗ ܥܡ exp:audit key rotate --apply.</translation>
     </message>
 </context>
 <context>
@@ -68432,6 +68935,486 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Share of page time</source>
         <translation>ܦܠܓܐ ܡܢ ܙܒܢܐ ܕܦܐܬܐ</translation>
     </message>
+    <message>
+        <source>a full render was asked for</source>
+        <translation>ܪܡܝܐ ܡܫܡܠܝܐ ܐܬܒܥܝ</translation>
+    </message>
+    <message>
+        <source>the page cache did not have the page (%reason)</source>
+        <translation>ܦܐܬܐ ܠܐ ܗܘܬ ܒܣܝܡܬܐ ܕܦܐܬ̈ܐ (%reason)</translation>
+    </message>
+    <message>
+        <source>the page cache did not answer</source>
+        <translation>ܣܝܡܬܐ ܕܦܐܬ̈ܐ ܠܐ ܥܢܬ</translation>
+    </message>
+    <message>
+        <source>Rendered</source>
+        <translation>ܡܬܪܗܛ</translation>
+    </message>
+    <message>
+        <source>Rendered by the kernel: %why</source>
+        <translation>ܐܬܪܗܛ ܒܝܕ ܥܩܪܐ: %why</translation>
+    </message>
+    <message>
+        <source>Served from the page cache in %ms ms. The page was stored at %stored by a render of %render ms, %age s ago.</source>
+        <translation>ܡܫܬܡܫܢܐ ܡܢ ܣܝܡܬܐ ܕܦܐܬ̈ܐ ܒ %ms ms. ܦܐܬܐ ܐܬܢܛܪܬ ܒ %stored ܒܝܕ ܪܡܝܐ ܕ %render ms، ܩܕܡ %age ܬܢܝܢܬܐ.</translation>
+    </message>
+    <message>
+        <source>Render now</source>
+        <translation>ܪܡܝܐ ܗܫܐ</translation>
+    </message>
+    <message>
+        <source>Back to the cached view</source>
+        <translation>ܕܥܪܐ ܠܚܙܘܐ ܡܢ ܣܝܡܬܐ</translation>
+    </message>
+    <message>
+        <source>From the render at %stored (%render ms)</source>
+        <translation>ܡܢ ܪܡܝܐ ܒ %stored (%render ms)</translation>
+    </message>
+    <message>
+        <source>This request: served from the page cache in %ms ms.</source>
+        <translation>ܗܕܐ ܒܥܘܬܐ: ܡܫܬܡܫܢܐ ܡܢ ܣܝܡܬܐ ܕܦܐܬ̈ܐ ܒ %ms ms.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>ܡܦܠܚܢܐ</translation>
+    </message>
+    <message>
+        <source>VC %profile</source>
+        <translation>VC %profile</translation>
+    </message>
+    <message>
+        <source>User ID</source>
+        <translation>ܡܫܘܕܥܢܐ ܕܡܦܠܚܢܐ</translation>
+    </message>
+    <message>
+        <source>Cache profile</source>
+        <translation>ܦܪܘܦܝܠ ܟܐܫ</translation>
+    </message>
+    <message>
+        <source>This view</source>
+        <translation>ܗܢܐ ܚܙܘܐ</translation>
+    </message>
+    <message>
+        <source>View cache</source>
+        <translation>ܣܝܡܬܐ ܕܚܙܝܐ</translation>
+    </message>
+    <message>
+        <source>per user (pr_user)</source>
+        <translation>ܠܟܠ ܡܦܠܚܢܐ (pr_user)</translation>
+    </message>
+    <message>
+        <source>Cache profile of the user: users with the same profile share the view cache files</source>
+        <translation>ܦܪܘܦܝܠ ܟܐܫ ܕܡܦܠܚܢܐ: ܡܦܠܚܢ̈ܐ ܕܐܝܬ ܠܗܘܢ ܗܘ ܗܘ ܦܪܘܦܝܠ ܡܫܬܘܬܦܝܢ ܒܦܝܠ̈ܐ ܕܟܐܫ ܚܙܘ̈ܐ</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ܐܝܢ</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ܠܐ</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>ܫܡܐ ܕܡܦܠܚܢܐ</translation>
+    </message>
+    <message>
+        <source>Logged in</source>
+        <translation>ܥܠܝܠܐ</translation>
+    </message>
+    <message>
+        <source>Session</source>
+        <translation>ܡܘܬܒܐ</translation>
+    </message>
+    <message>
+        <source>The parts of the content view cache key that depend on the user, exactly as the key takes them, under the ViewCacheTweaks of this page. Users with the same profile share the cache files of the views, unless the parts of a view itself differ (preferences, keys of listeners): those have a profile of their own, for this page only.</source>
+        <translation>ܡܢܘ̈ܬܐ ܕܩܠܝܕܐ ܕܟܐܫ ܚܙܘ̈ܐ ܕܬܘܟܢܐ ܕܬܠܝܢ ܒܡܦܠܚܢܐ، ܐܝܟ ܕܢܣܒ ܠܗܝܢ ܩܠܝܕܐ ܒܕܝܩܘܬܐ، ܬܚܝܬ ViewCacheTweaks ܕܗܕܐ ܦܐܬܐ. ܡܦܠܚܢ̈ܐ ܕܐܝܬ ܠܗܘܢ ܗܘ ܗܘ ܦܪܘܦܝܠ ܡܫܬܘܬܦܝܢ ܒܦܝܠ̈ܐ ܕܟܐܫ ܕܚܙܘ̈ܐ، ܐܠܐ ܐܢ ܡܢܘ̈ܬܐ ܕܚܙܘܐ ܒܢܦܫܗ ܫܚܠܦܢ (ܓܒܝ̈ܬܐ، ܩܠܝ̈ܕܐ ܕܫܡܘܥ̈ܐ): ܠܗܠܝܢ ܐܝܬ ܦܪܘܦܝܠ ܕܝܠܗܝܢ، ܠܗܕܐ ܦܐܬܐ ܒܠܚܘܕ.</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>ܦܪܘܦܝܠ</translation>
+    </message>
+    <message>
+        <source>This view (node %node)</source>
+        <translation>ܗܢܐ ܚܙܘܐ (ܩܛܪܐ %node)</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks pr_user: every logged-in user has cache files of their own.</source>
+        <translation>ViewCacheTweaks pr_user: ܠܟܠ ܡܦܠܚܢܐ ܥܠܝܠܐ ܐܝܬ ܦܝܠ̈ܐ ܕܟܐܫ ܕܝܠܗ.</translation>
+    </message>
+    <message>
+        <source>ViewCacheTweaks in effect: %tweaks</source>
+        <translation>ViewCacheTweaks ܦܥܝ̈ܠܐ: %tweaks</translation>
+    </message>
+    <message>
+        <source>Part</source>
+        <translation>ܡܢܬܐ</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>ܛܝܡܐ</translation>
+    </message>
+    <message>
+        <source>No part depends on the user (ViewCacheTweaks).</source>
+        <translation>ܠܝܬ ܡܢܬܐ ܕܬܠܝܐ ܒܡܦܠܚܢܐ (ViewCacheTweaks).</translation>
+    </message>
+    <message>
+        <source>this view</source>
+        <translation>ܗܢܐ ܚܙܘܐ</translation>
+    </message>
+    <message>
+        <source>Copy as text</source>
+        <translation>ܢܣܘܚ ܐܝܟ ܟܬܝܒܬܐ</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation>ܕܘܪ̈ܐ</translation>
+    </message>
+    <message>
+        <source>No role assignments could be read.</source>
+        <translation>ܠܐ ܐܫܟܚܢ ܠܡܩܪܐ ܡܫܠܡܢܘ̈ܬܐ ܕܕܘܪ̈ܐ.</translation>
+    </message>
+    <message>
+        <source>Role ID</source>
+        <translation>ID ܕܕܘܪܐ</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation>ܕܘܪܐ</translation>
+    </message>
+    <message>
+        <source>Limitation</source>
+        <translation>ܬܚܘܡܐ</translation>
+    </message>
+    <message>
+        <source>Assigned to</source>
+        <translation>ܡܫܠܡ ܠܘܬ</translation>
+    </message>
+    <message>
+        <source>the user</source>
+        <translation>ܡܦܠܚܢܐ</translation>
+    </message>
+    <message>
+        <source>group %name (object %id)</source>
+        <translation>ܟܢܘܫܬܐ %name (ܨܒܘܬܐ %id)</translation>
+    </message>
+    <message>
+        <source>Copied</source>
+        <translation>ܐܬܢܣܚ</translation>
+    </message>
+    <message>
+        <source>Could not copy.</source>
+        <translation>ܠܐ ܐܫܟܚܢ ܠܡܢܣܚ.</translation>
+    </message>
+    <message>
+        <source>left out by a listener</source>
+        <translation>ܫܒܝܩܐ ܡܢ ܫܡܘܥܐ</translation>
+    </message>
+    <message>
+        <source>Anonymous visitors</source>
+        <translation>ܥܒܪ̈ܐ ܠܐ ܝܕܝܥ̈ܐ</translation>
+    </message>
+    <message>
+        <source>same as yours</source>
+        <translation>ܗܘ ܗܘ ܐܝܟ ܕܝܠܟ</translation>
+    </message>
+    <message>
+        <source>different</source>
+        <translation>ܫܚܠܦܐ</translation>
+    </message>
+    <message>
+        <source>The profile anonymous visitors get under the same ViewCacheTweaks, with the default preferences, without the parts of the view: a listener that reads the session cannot be asked for them.</source>
+        <translation>ܦܪܘܦܝܠ ܕܢܣܒܝܢ ܣܥܘܪ̈ܐ ܠܐ ܝܕܝ̈ܥܐ ܬܚܝܬ ܗܢܘܢ ViewCacheTweaks، ܥܡ ܓܒܝ̈ܬܐ ܫܪܫܝ̈ܬܐ، ܕܠܐ ܡܢܘ̈ܬܐ ܕܚܙܘܐ: ܫܡܘܥܐ ܕܩܪܐ ܠܡܘܬܒܐ ܠܐ ܡܫܟܚ ܠܡܬܫܐܠܘ ܥܠܝܗܝܢ.</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>ܓܒܝ̈ܬܐ</translation>
+    </message>
+    <message>
+        <source>No view mode depends on user preferences (site.ini [ContentSettings] CachedViewPreferences).</source>
+        <translation>ܠܝܬ ܐܣܟܝܡܐ ܕܚܙܘܐ ܕܬܠܐ ܒܓܒܝ̈ܬܐ ܕܡܦܠܚܢܐ (site.ini [ContentSettings] CachedViewPreferences).</translation>
+    </message>
+    <message>
+        <source>The preferences the views of these view modes depend on (CachedViewPreferences), with the user's value or the default. They are in the profile as userpreferences, those of every view mode together.</source>
+        <translation>ܓܒܝ̈ܬܐ ܕܒܗܝܢ ܬܠܝܢ ܚܙܘ̈ܐ ܕܗܠܝܢ ܐܣܟܝܡ̈ܐ ܕܚܙܘܐ (CachedViewPreferences)، ܥܡ ܛܝܡܐ ܕܡܦܠܚܢܐ ܐܘ ܫܪܫܝܐ. ܐܝܬܝܗܝܢ ܒܦܪܘܦܝܠ ܐܝܟ userpreferences، ܕܟܠܗܘܢ ܐܣܟܝܡ̈ܐ ܕܚܙܘܐ ܐܟܚܕܐ.</translation>
+    </message>
+    <message>
+        <source>View mode</source>
+        <translation>ܐܘܪܚܐ ܕܚܙܘܐ</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>ܓܒܝܬܐ</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>ܥܝܕܝܐ</translation>
+    </message>
+    <message>
+        <source>Policies</source>
+        <translation>ܦܘܩ̈ܕܢܐ</translation>
+    </message>
+    <message>
+        <source>Show the policies of the roles (%count)</source>
+        <translation>ܚܘܝ ܢܡܘܣ̈ܐ ܕܕܘܪ̈ܐ (%count)</translation>
+    </message>
+    <message>
+        <source>The policies are loaded from the server when this section is opened, a page at a time, and can be filtered by module and function.</source>
+        <translation>ܢܡܘܣ̈ܐ ܡܬܛܥܢܝܢ ܡܢ ܡܫܡܫܢܐ ܟܕ ܡܬܦܬܚ ܗܢܐ ܦܣܩܐ، ܦܐܬܐ ܦܐܬܐ، ܘܡܫܟܚܝܢ ܠܡܬܨܠܠܘ ܐܝܟ ܡܘܕܘܠ ܘܦܘܠܚܢܐ.</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation>ܦܘܠܚܢܐ</translation>
+    </message>
+    <message>
+        <source>All modules</source>
+        <translation>ܟܠ ܡܘܕܘ̈ܠܐ</translation>
+    </message>
+    <message>
+        <source>All functions</source>
+        <translation>ܟܠܗܘܢ ܦܘܠܚܢ̈ܐ</translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation>ܬܚܘ̈ܡܐ</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>ܚܘܝ ܝܬܝܪ</translation>
+    </message>
+    <message>
+        <source>These roles have no policies.</source>
+        <translation>ܠܗܠܝܢ ܕܘܪ̈ܐ ܠܝܬ ܠܗܘܢ ܢܡܘܣ̈ܐ.</translation>
+    </message>
+    <message>
+        <source>No policy matches the filter.</source>
+        <translation>ܠܝܬ ܢܡܘܣܐ ܕܫܘܐ ܠܡܨܠܠܢܐ.</translation>
+    </message>
+    <message>
+        <source>%shown of %matching policies (%total in all)</source>
+        <translation>%shown ܡܢ %matching ܢܡܘܣ̈ܐ (%total ܒܟܠ)</translation>
+    </message>
+    <message>
+        <source>Loaded when opened.</source>
+        <translation>ܡܫܬܥܝܐ ܟܕ ܡܬܦܬܚ.</translation>
+    </message>
+    <message>
+        <source>module/function, role, limitation</source>
+        <translation>module/function, ܬܫܡܫܬܐ, ܚܘܕܪܐ</translation>
+    </message>
+    <message>
+        <source>Search the policies</source>
+        <translation>ܒܨܝ ܒܣܝܡܬܐ</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>ܛܥܘܢ ܝܬܝܪ</translation>
+    </message>
+    <message>
+        <source>Module/function</source>
+        <translation>ܡܘܕܘܠ/ܦܘܠܚܢܐ</translation>
+    </message>
+    <message>
+        <source>All roles (%count policies)</source>
+        <translation>ܟܠ ܬܫܡܫܬܐ (%count ܣܝܡܬܐ)</translation>
+    </message>
+    <message>
+        <source>No policy matches.</source>
+        <translation>ܠܐ ܐܝܬ ܣܝܡܬܐ ܕܡܬܚܠܦܐ.</translation>
+    </message>
+    <message>
+        <source>%shown of %matched policies</source>
+        <translation>%shown ܡܢ %matched ܣܝܡܬܐ</translation>
+    </message>
+    <message>
+        <source>No answer</source>
+        <translation>ܠܐ ܐܝܬ ܬܘܒܬܐ</translation>
+    </message>
+    <message>
+        <source>masked</source>
+        <translation>ܟܣܝܐ</translation>
+    </message>
+    <message>
+        <source>Show explanations</source>
+        <translation>ܚܘܝ ܦܘܫ̈ܩܐ</translation>
+    </message>
+    <message>
+        <source>Hide explanations</source>
+        <translation>ܟܣܝ ܦܘܫ̈ܩܐ</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>ܦܬܚܐ</translation>
+    </message>
+    <message>
+        <source>Open all</source>
+        <translation>ܦܬܚܐ ܕܟܠ</translation>
+    </message>
+    <message>
+        <source>Close all</source>
+        <translation>ܣܟܪܐ ܕܟܠ</translation>
+    </message>
+    <message>
+        <source>Key or value</source>
+        <translation>ܩܠܝܕܐ ܐܘ ܛܝܡܐ</translation>
+    </message>
+    <message>
+        <source>Search the session</source>
+        <translation>ܒܨܝ ܒܡܘܬܒܐ</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>ܓܢܣܐ</translation>
+    </message>
+    <message>
+        <source>%count more</source>
+        <translation>%count ܝܬܝܪ̈ܐ</translation>
+    </message>
+    <message>
+        <source>nested too deep to show</source>
+        <translation>ܥܡܝܩ ܛܒ ܠܡܚܘܝܘ</translation>
+    </message>
+    <message>
+        <source>cut, %count characters in all</source>
+        <translation>ܦܣܝܩ، ܒܟܠܗ %count ܐܬ̈ܘܬܐ</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>ܫܪܝ</translation>
+    </message>
+    <message>
+        <source>Cookie name</source>
+        <translation>ܫܡܐ ܕܟܘܟܝ</translation>
+    </message>
+    <message>
+        <source>Session ID</source>
+        <translation>ID ܕܡܘܬܒܐ</translation>
+    </message>
+    <message>
+        <source>Handler</source>
+        <translation>ܡܕܒܪܢܐ</translation>
+    </message>
+    <message>
+        <source>Save path</source>
+        <translation>ܫܒܝܠܐ ܕܢܛܘܪܬܐ</translation>
+    </message>
+    <message>
+        <source>PHP default</source>
+        <translation>ܩܘܝܡܐ ܕPHP</translation>
+    </message>
+    <message>
+        <source>Lifetime (gc_maxlifetime)</source>
+        <translation>ܙܒܢܐ ܕܚܝ̈ܐ (gc_maxlifetime)</translation>
+    </message>
+    <message>
+        <source>Cookie</source>
+        <translation>ܟܘܟܝ</translation>
+    </message>
+    <message>
+        <source>lifetime %s s</source>
+        <translation>ܙܒܢܐ ܕܚܝ̈ܐ %s ܪ̈ܦܦܐ</translation>
+    </message>
+    <message>
+        <source>Your own PHP session, as it was when the section was opened, never another one. Values of keys that look like secrets (tokens, hashes, passwords) are masked (debugbar.ini SessionMask[]); everything else is shown as stored, personal data too.</source>
+        <translation>ܡܘܬܒܐ ܕPHP ܕܝܠܟ ܒܠܚܘܕ، ܐܝܟ ܕܗܘܐ ܟܕ ܐܬܦܬܚ ܦܢܝܬܐ، ܘܠܐ ܡܬܘܡ ܕܐܢܫ ܐܚܪܢܐ. ܛܝ̈ܡܐ ܕܩܠܝ̈ܕܐ ܕܡܬܚܙܝܢ ܐܝܟ ܐܪ̈ܙܐ (token، hash، ܡ̈ܠܐ ܕܥܒܘܪܐ) ܟܣܝܢ (debugbar.ini SessionMask[])؛ ܟܠ ܡܕܡ ܐܚܪܢܐ ܡܬܚܘܐ ܐܝܟ ܕܢܛܝܪ، ܐܦ ܝܕ̈ܥܬܐ ܦܪ̈ܨܘܦܝܬܐ.</translation>
+    </message>
+    <message>
+        <source>%count keys, %size</source>
+        <translation>%count ܩܠܝ̈ܕܐ، %size</translation>
+    </message>
+    <message>
+        <source>large</source>
+        <translation>ܪܒܐ</translation>
+    </message>
+    <message>
+        <source>The session is empty.</source>
+        <translation>ܡܘܬܒܐ ܣܦܝܩ ܗܘ.</translation>
+    </message>
+    <message>
+        <source>No session was started for this request.</source>
+        <translation>ܠܐ ܐܫܬܪܝ ܡܘܬܒܐ ܠܗܕܐ ܒܥܘܬܐ.</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>ܬܘܣܦܬܐ %name</translation>
+    </message>
+    <message>
+        <source>Kernel and others</source>
+        <translation>ܟܝܪܢܠ ܘܐܚܪ̈ܢܐ</translation>
+    </message>
+    <message>
+        <source>Not every entry is shown: the session has more than can be listed here.</source>
+        <translation>ܠܐ ܟܠܗܝܢ ܥܠ̈ܠܬܐ ܡܬܚܘ̈ܝܢ: ܒܡܘܬܒܐ ܐܝܬ ܝܬܝܪ ܡܢ ܡܐ ܕܡܫܟܚ ܠܡܬܪܫܡܘ ܗܪܟܐ.</translation>
+    </message>
+    <message>
+        <source>%count keys are not listed.</source>
+        <translation>%count ܩܠܝ̈ܕܐ ܠܐ ܪ̈ܫܝܡܢ.</translation>
+    </message>
+    <message>
+        <source>Frame</source>
+        <translation>ܬܚܘܡܐ</translation>
+    </message>
+    <message>
+        <source>Values that look like a token (a JSON Web Token, the credentials of an Authorization header, a private key, a long hex or random text) are masked too, whatever their key is called (debugbar.ini SessionValueMask[]).</source>
+        <translation>ܛܝ̈ܡܐ ܕܡܬܚܙܝܢ ܐܝܟ token (JSON Web Token، ܫܘܪ̈ܪܐ ܕܪܝܫܐ ܕAuthorization، ܩܠܝܕܐ ܦܪܨܘܦܝܐ، ܟܬܒܐ hex ܐܪܝܟܐ ܐܘ ܕܡܓܢ) ܐܦ ܗܢܘܢ ܟܣܝܢ، ܡܐ ܕܗܘ ܫܡܐ ܕܩܠܝܕܗܘܢ (debugbar.ini SessionValueMask[]).</translation>
+    </message>
+    <message>
+        <source>The key looks like a secret (debugbar.ini SessionMask[]).</source>
+        <translation>ܩܠܝܕܐ ܡܬܚܙܐ ܐܝܟ ܐܪܙܐ (debugbar.ini SessionMask[]).</translation>
+    </message>
+    <message>
+        <source>The value looks like a token.</source>
+        <translation>ܛܝܡܐ ܡܬܚܙܐ ܐܝܟ token.</translation>
+    </message>
+    <message>
+        <source>Below a masked key.</source>
+        <translation>ܬܚܝܬ ܩܠܝܕܐ ܟܣܝܐ.</translation>
+    </message>
+    <message>
+        <source>The session as text, masked like the table.</source>
+        <translation>ܡܘܬܒܐ ܐܝܟ ܟܬܒܐ، ܟܣܝܐ ܐܝܟ ܠܘܚܐ.</translation>
+    </message>
+    <message>
+        <source>The session is larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session, and writes it when it changed.</source>
+        <translation>ܡܘܬܒܐ ܪܒ ܡܢ %size (debugbar.ini SessionWarnBytes): ܟܠ ܒܥܘܬܐ ܕܗܢܐ ܡܦܠܚܢܐ ܩܪܝܐ ܠܡܘܬܒܐ ܟܠܗ، ܘܟܬܒ ܠܗ ܟܕ ܐܫܬܚܠܦ.</translation>
+    </message>
+    <message>
+        <source>PHP keeps this session in files and locks the file for the whole request: requests of the same user (several tabs, AJAX calls) wait for each other.</source>
+        <translation>PHP ܢܛܪ ܠܗܢܐ ܡܘܬܒܐ ܒܦܐܝ̈ܠܐ ܘܐܚܕ ܠܦܐܝܠܐ ܒܟܠܗ ܒܥܘܬܐ: ܒ̈ܥܘܬܐ ܕܗܘ ܡܦܠܚܢܐ (ܛ̈ܒܐ ܣܓܝ̈ܐܐ، ܩܪ̈ܝܬܐ ܕAJAX) ܡܣܟܝܢ ܚܕ ܠܚܕ.</translation>
+    </message>
+    <message>
+        <source>Keep open</source>
+        <translation>ܦܬܝܚ ܢܗܘܐ</translation>
+    </message>
+    <message>
+        <source>Larger than %size (debugbar.ini SessionWarnBytes): every request of this user reads the whole session.</source>
+        <translation>ܪܒ ܡܢ %size (debugbar.ini SessionWarnBytes): ܟܠ ܒܥܘܬܐ ܕܗܢܐ ܡܦܠܚܢܐ ܩܪܝܐ ܠܡܘܬܒܐ ܟܠܗ.</translation>
+    </message>
+    <message>
+        <source>%hits of %count read from the cache</source>
+        <translation>%hits ܡܢ %count ܐܬܩܪܝܘ ܡܢ ܣܝܡܬܐ</translation>
+    </message>
+    <message>
+        <source>No template was rendered (a view read from the view cache renders none).</source>
+        <translation>ܠܐ ܐܬܥܒܕ ܛܘܦܣܐ ܡܕܡ (ܚܙܬܐ ܕܐܬܩܪܝܬ ܡܢ ܣܝܡܬܐ ܕܚܙ̈ܘܬܐ ܠܐ ܥܒܕܐ ܡܕܡ).</translation>
+    </message>
+    <message>
+        <source>Role assignments</source>
+        <translation>ܦܘ̈ܩܕܐ ܕܕܘܪ̈ܐ</translation>
+    </message>
+    <message>
+        <source>Roles and policies</source>
+        <translation>ܕܘܪ̈ܐ ܘܦܘܩ̈ܕܢܐ</translation>
+    </message>
+    <message>
+        <source>differs from anonymous visitors</source>
+        <translation>ܦܪܝܫ ܡܢ ܣܥܘܪ̈ܐ ܕܠܐ ܫܡܐ</translation>
+    </message>
+    <message>
+        <source>same as anonymous visitors</source>
+        <translation>ܐܝܟ ܣܥܘܪ̈ܐ ܕܠܐ ܫܡܐ</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/sitedata</name>
@@ -70312,6 +71295,14 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>not sent</source>
         <translation>ܠܐ ܐܫܬܕܪ</translation>
+    </message>
+    <message>
+        <source>The notification cronjob records each of its runs here. Add the part frequent to the crontab, or run exp:notification:run --apply.</source>
+        <translation>ܥܒܕܐ ܕ cron ܕܡܘܕܥ̈ܢܘܬܐ ܪܫܡ ܗܪܟܐ ܟܠ ܪܗܛܐ ܕܝܠܗ. ܐܘܣܦܘܢ ܦܠܓܐ frequent ܠ crontab، ܐܘ ܪܗܛܘܢ exp:notification:run --apply.</translation>
+    </message>
+    <message>
+        <source>Use the console: ./console exp:notification:run --apply</source>
+        <translation>ܦܠܚܘܢ ܒܟܘܢܣܘܠ: ./console exp:notification:run --apply</translation>
     </message>
 </context>
 <context>
@@ -76030,6 +77021,98 @@ You will need to change the class of the node by using the swap functionality.</
         <source>This topic is not Released; readers do not see it.</source>
         <translation>ܗܢܐ ܣܘܓܐ ܠܐ ܦܪܝܣܐ ܗܘ؛ ܩܪܘ̈ܝܐ ܠܐ ܚܙܝܢ ܠܗ.</translation>
     </message>
+    <message>
+        <source>Migrations</source>
+        <translation>ܫܘܢ̈ܝܐ</translation>
+    </message>
+    <message>
+        <source>Changes to the installation kept as files: their state, the runs, run and roll back.</source>
+        <translation>ܫܘ̈ܚܠܦܐ ܕܐܩܡܬܐ ܕܡܬܢܛܪܝܢ ܐܝܟ ܦܢܩ̈ܝܬܐ: ܡܩܡܗܘܢ، ܡܪ̈ܗܛܐ، ܡܪܗܛܐ ܘܡܗܦܟܐ ܠܒܣܬܪ.</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host.</source>
+        <translation>ܦܪܣܐ ܕܨܘܪܬܐ ܩܒܝܥܬܐ ܕܐܬܪܐ ܥܠ GitHub Pages ܐܘ ܥܠ ܟܠ ܡܐܪܚܢܐ ܕ git.</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>ܦܪܣܐ ܩܒܝܥܐ</translation>
+    </message>
+    <message>
+        <source>In review</source>
+        <translation>ܒܒܘܚܪܢܐ</translation>
+    </message>
+    <message>
+        <source>Readers see this page.</source>
+        <translation>ܩܪܘ̈ܝܐ ܚܙܝܢ ܠܦܐܬܐ ܗܕܐ.</translation>
+    </message>
+    <message>
+        <source>Hidden from readers until someone releases it.</source>
+        <translation>ܛܫܝܐ ܡܢ ܩܪܘ̈ܝܐ ܥܕܡܐ ܕܐܢܫ ܦܪܣ ܠܗ̇.</translation>
+    </message>
+    <message>
+        <source>The page is in Review now. It is hidden from readers until it is released.</source>
+        <translation>ܦܐܬܐ ܗܫܐ ܒܒܘܚܪܢܐ ܐܝܬܝܗ̇. ܛܫܝܐ ܡܢ ܩܪܘ̈ܝܐ ܥܕܡܐ ܕܬܬܦܪܣ.</translation>
+    </message>
+    <message>
+        <source>The page is Released: readers see it now.</source>
+        <translation>ܦܐܬܐ ܐܬܦܪܣܬ: ܩܪܘ̈ܝܐ ܚܙܝܢ ܠܗ̇ ܗܫܐ.</translation>
+    </message>
+    <message>
+        <source>The page is a Draft again. It is hidden from readers until it is reviewed and released.</source>
+        <translation>ܦܐܬܐ ܬܘܒ ܣܘܪܛܐ ܐܝܬܝܗ̇. ܛܫܝܐ ܡܢ ܩܪܘ̈ܝܐ ܥܕܡܐ ܕܬܬܒܚܪ ܘܬܬܦܪܣ.</translation>
+    </message>
+    <message>
+        <source>Release now</source>
+        <translation>ܦܪܘܣ ܗܫܐ</translation>
+    </message>
+    <message>
+        <source>Only a user with the role %role who did not write this version can release it.</source>
+        <translation>ܒܠܚܘܕ ܡܦܠܚܢܐ ܕܐܝܬ ܠܗ ܬܦܩܝܕܐ %role ܘܠܐ ܟܬܒ ܠܗܢܐ ܢܘܣܚܐ ܡܨܐ ܕܢܦܪܘܣ ܠܗ.</translation>
+    </message>
+    <message>
+        <source>Help topics waiting for release</source>
+        <translation>ܣܘ̈ܓܐ ܕܥܘܕܪܢܐ ܕܡܣܟܝܢ ܠܦܘܪܣܐ</translation>
+    </message>
+    <message>
+        <source>Hides it from readers until it is released again.</source>
+        <translation>ܛܫܐ ܠܗ̇ ܡܢ ܩܪܘ̈ܝܐ ܥܕܡܐ ܕܬܬܦܪܣ ܬܘܒ.</translation>
+    </message>
+    <message>
+        <source>A reviewer checks it next. Readers do not see it yet.</source>
+        <translation>ܒܚܘܪܐ ܒܚܪ ܠܗ̇ ܒܬܪܟܢ. ܩܪܘ̈ܝܐ ܥܕܟܝܠ ܠܐ ܚܙܝܢ ܠܗ̇.</translation>
+    </message>
+    <message>
+        <source>Readers see it at once.</source>
+        <translation>ܩܪܘ̈ܝܐ ܚܙܝܢ ܠܗ̇ ܡܚܕܐ.</translation>
+    </message>
+    <message>
+        <source>Takes it out of review for more work. Readers do not see it.</source>
+        <translation>ܡܦܩ ܠܗ̇ ܡܢ ܒܘܚܪܢܐ ܠܦܘܠܚܢܐ ܝܬܝܪܐ. ܩܪܘ̈ܝܐ ܠܐ ܚܙܝܢ ܠܗ̇.</translation>
+    </message>
+    <message>
+        <source>Hide this page from readers?</source>
+        <translation>ܬܛܫܐ ܠܦܐܬܐ ܗܕܐ ܡܢ ܩܪܘ̈ܝܐ؟</translation>
+    </message>
+    <message>
+        <source>Send this page back to Draft?</source>
+        <translation>ܬܗܦܟ ܠܦܐܬܐ ܗܕܐ ܠܣܘܪܛܐ؟</translation>
+    </message>
+    <message>
+        <source>Readers no longer see %title until someone releases it again.</source>
+        <translation>ܩܪܘ̈ܝܐ ܠܐ ܚܙܝܢ ܬܘܒ %title ܥܕܡܐ ܕܐܢܫ ܦܪܣ ܠܗ̇ ܬܘܒ.</translation>
+    </message>
+    <message>
+        <source>%title goes back to Draft for more work. Readers still do not see it, and it needs a new review before it is released.</source>
+        <translation>%title ܗܦܟ ܠܣܘܪܛܐ ܠܦܘܠܚܢܐ ܝܬܝܪܐ. ܩܪܘ̈ܝܐ ܥܕܟܝܠ ܠܐ ܚܙܝܢ ܠܗ̇، ܘܣܢܝܩܐ ܠܒܘܚܪܢܐ ܚܕܬܐ ܩܕܡ ܕܬܬܦܪܣ.</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>ܒܘܛܠܐ</translation>
+    </message>
+    <message>
+        <source>These topics are in Review. Readers see them once someone who did not write the current version releases them.</source>
+        <translation>ܣܘ̈ܓܐ ܗܠܝܢ ܒܒܘܚܪܢܐ ܐܝܬܝܗܘܢ. ܩܪܘ̈ܝܐ ܚܙܝܢ ܠܗܘܢ ܡܐ ܕܦܪܣ ܠܗܘܢ ܐܢܫ ܕܠܐ ܟܬܒ ܠܢܘܣܚܐ ܗܫܝܐ.</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/demo</name>
@@ -76485,6 +77568,46 @@ You will need to change the class of the node by using the swap functionality.</
         <source>None.</source>
         <translation>ܠܐ ܚܕ.</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>ܥܡ ܐܦܠܝܩܐܨܝܐ ܕܫܘܪܪܐ</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>ܥܡ ܪܡܙܐ ܒܒܪܝܕܐ</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>ܥܡ ܪܡܙܐ ܕܕܘܥܪܐ</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>ܥܡ ܩܠܝܕܐ ܕܥܠܠܐ</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>ܥܡ ܚܘܫܒܢܐ ܒܪܝܐ</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>ܥܒܕܢܘܬܐ ܕܫܠܡܘܬܐ</translation>
+    </message>
+    <message>
+        <source>Shown as its network; the address is kept as the data protection settings of the site say.</source>
+        <translation>ܡܬܚܘܝܐ ܐܝܟ ܡܨܕܬܐ ܕܝܠܗ؛ ܡܘܢܥܐ ܡܬܢܛܪ ܐܝܟ ܕܐܡܪܝܢ ܛܘܝ̈ܒܐ ܕܢܛܘܪܘܬܐ ܕܝܕ̈ܥܬܐ ܕܐܬܪܐ.</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>ܠܐ ܐܬܪܫܡ</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>ܕܘܟܬܐ</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>ܒܩܘܪܒܐ</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/sessions</name>
@@ -76728,6 +77851,42 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Manage devices</source>
         <translation>ܕܘܒܪܐ ܕܡܐܢ̈ܐ</translation>
     </message>
+    <message>
+        <source>with an authenticator app</source>
+        <translation>ܥܡ ܐܦܠܝܩܐܨܝܐ ܕܫܘܪܪܐ</translation>
+    </message>
+    <message>
+        <source>with a code by e-mail</source>
+        <translation>ܥܡ ܪܡܙܐ ܒܒܪܝܕܐ</translation>
+    </message>
+    <message>
+        <source>with a recovery code</source>
+        <translation>ܥܡ ܪܡܙܐ ܕܕܘܥܪܐ</translation>
+    </message>
+    <message>
+        <source>with a passkey</source>
+        <translation>ܥܡ ܩܠܝܕܐ ܕܥܠܠܐ</translation>
+    </message>
+    <message>
+        <source>with an external account</source>
+        <translation>ܥܡ ܚܘܫܒܢܐ ܒܪܝܐ</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>ܥܒܕܢܘܬܐ ܕܫܠܡܘܬܐ</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>ܠܐ ܐܬܪܫܡ</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>ܕܘܟܬܐ</translation>
+    </message>
+    <message>
+        <source>approximate</source>
+        <translation>ܒܩܘܪܒܐ</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/new_signin_mail</name>
@@ -76807,6 +77966,14 @@ You will need to change the class of the node by using the swap functionality.</
         <source>View the sessions of this user</source>
         <translation>ܚܙܝܐ ܕܡܘܬܒ̈ܐ ܕܗܢܐ ܡܦܠܚܢܐ</translation>
     </message>
+    <message>
+        <source>Your account %login on %site was just used to sign in from a place it has not signed in from lately:</source>
+        <translation>ܚܘܫܒܢܐ ܕܝܠܘܟܘܢ %login ܥܠ %site ܗܫܐ ܐܬܦܠܚ ܠܥܠܠܐ ܡܢ ܕܘܟܬܐ ܕܡܢܗ ܠܐ ܥܠ ܒܙܒܢܐ ܐܚܪܝܐ:</translation>
+    </message>
+    <message>
+        <source>Approximate location</source>
+        <translation>ܕܘܟܬܐ ܒܩܘܪܒܐ</translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/sessions/mail</name>
@@ -76845,6 +78012,10 @@ You will need to change the class of the node by using the swap functionality.</
         <source>%browser on %os</source>
         <comment>a browser and the operating system it runs on, e.g. "Firefox 131 on Windows 10/11"</comment>
         <translation>%browser ܥܠ %os</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>ܡܘܕܥܢܘܬܐ ܕܥܠܠܐ</translation>
     </message>
 </context>
 <context>
@@ -77053,6 +78224,82 @@ You will need to change the class of the node by using the swap functionality.</
         <source>The passkey could not be checked. Please try again.</source>
         <translation>ܠܐ ܐܫܬܟܚ ܠܡܒܚܪ ܩܠܝܕܐ ܕܥܠܠܐ. ܒܒܥܘܬܐ ܢܣܘ ܬܘܒ.</translation>
     </message>
+    <message>
+        <source>Accounts that sign in with passkeys only cannot use a password here: choose &quot;Sign in with a passkey&quot;.</source>
+        <translation>ܚܘܫܒܢ̈ܐ ܕܥܐܠܝܢ ܒܩܠܝ̈ܕܐ ܕܥܠܠܐ ܒܠܚܘܕ ܠܐ ܡܨܝܢ ܕܢܫܬܡܫܘܢ ܗܪܟܐ ܒܡܠܬܐ ܕܥܒܪܐ: ܓܒܘ «ܥܠܠܐ ܒܩܠܝܕܐ ܕܥܠܠܐ».</translation>
+    </message>
+    <message>
+        <source>Passkeys of %login</source>
+        <translation>ܩܠܝ̈ܕܐ ܕܥܠܠܐ ܕ%login</translation>
+    </message>
+    <message>
+        <source>The passkeys this account signs in with. Revoke one that is on a lost or stolen device: it cannot sign in any more. The owner adds new ones themselves.</source>
+        <translation>ܩܠܝ̈ܕܐ ܕܥܠܠܐ ܕܒܗܘܢ ܥܐܠ ܗܢܐ ܚܘܫܒܢܐ. ܒܛܠܘ ܩܠܝܕܐ ܕܐܝܬܘܗܝ ܥܠ ܡܐܢܐ ܕܐܒܝܕ ܐܘ ܓܢܝܒ: ܠܐ ܡܨܐ ܬܘܒ ܕܢܥܘܠ. ܚ̈ܕܬܐ ܡܘܣܦ ܡܪܐ ܚܘܫܒܢܐ ܒܢܦܫܗ.</translation>
+    </message>
+    <message>
+        <source>Your account needs a passkey</source>
+        <translation>ܚܘܫܒܢܐ ܕܝܘܟܘܢ ܣܢܝܩ ܠܩܠܝܕܐ ܕܥܠܠܐ</translation>
+    </message>
+    <message>
+        <source>Add a passkey to your account</source>
+        <translation>ܣܦܘ ܩܠܝܕܐ ܕܥܠܠܐ ܠܚܘܫܒܢܐ ܕܝܘܟܘܢ</translation>
+    </message>
+    <message>
+        <source>Add a passkey to go on. You then sign in with it instead of a password alone.</source>
+        <translation>ܣܦܘ ܩܠܝܕܐ ܕܥܠܠܐ ܕܬܫܡܠܘܢ. ܒܬܪܟܢ ܥܐܠܝܢ ܐܢܬܘܢ ܒܗ ܚܠܦ ܡܠܬܐ ܕܥܒܪܐ ܒܠܚܘܕ.</translation>
+    </message>
+    <message>
+        <source>Signing in with a passkey is faster and safer than a password. Add one now, or go on without it.</source>
+        <translation>ܥܠܠܐ ܒܩܠܝܕܐ ܕܥܠܠܐ ܡܣܪܗܒ ܘܫܠܝܡ ܝܬܝܪ ܡܢ ܡܠܬܐ ܕܥܒܪܐ. ܣܦܘ ܚܕ ܗܫܐ، ܐܘ ܫܡܠܘ ܕܠܐ ܗܘ.</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>ܠܐ ܗܫܐ</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey &quot;%name&quot;?</source>
+        <translation>ܕܢܒܛܠ ܩܠܝܕܐ ܕܥܠܠܐ «%name»?</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to this account. If it was the last one, the owner signs in with the password, or you set a new one.</source>
+        <translation>ܠܐ ܡܨܐ ܬܘܒ ܕܢܥܘܠ ܠܗܢܐ ܚܘܫܒܢܐ. ܐܢ ܗܘܐ ܐܚܪܝܐ، ܡܪܐ ܚܘܫܒܢܐ ܥܐܠ ܒܡܠܬܐ ܕܥܒܪܐ، ܐܘ ܐܢܬܘܢ ܣܝܡܝܢ ܚܕܬܐ.</translation>
+    </message>
+    <message>
+        <source>Revoke the passkey</source>
+        <translation>ܒܛܠ ܩܠܝܕܐ ܕܥܠܠܐ</translation>
+    </message>
+    <message>
+        <source>Revoke</source>
+        <translation>ܒܛܠ</translation>
+    </message>
+    <message>
+        <source>This account has no passkey.</source>
+        <translation>ܠܝܬ ܠܗܢܐ ܚܘܫܒܢܐ ܩܠܝܕܐ ܕܥܠܠܐ.</translation>
+    </message>
+    <message>
+        <source>Authenticator</source>
+        <translation>ܡܫܪܪܢܐ</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>ܠܐ ܝܕܝܥܐ</translation>
+    </message>
+    <message>
+        <source>Your last passkey: add another before you remove it.</source>
+        <translation>ܩܠܝܕܐ ܕܥܠܠܐ ܐܚܪܝܐ ܕܝܘܟܘܢ: ܣܦܘ ܐܚܪܢܐ ܩܕܡ ܕܬܫܩܠܘܢܗ.</translation>
+    </message>
+    <message>
+        <source>This account signs in with passkeys only (passkey policy): with none left, it signs in with its password again.</source>
+        <translation>ܗܢܐ ܚܘܫܒܢܐ ܥܐܠ ܒܩܠܝ̈ܕܐ ܕܥܠܠܐ ܒܠܚܘܕ (ܦܘܩܕܢܐ ܕܩܠܝ̈ܕܐ ܕܥܠܠܐ): ܡܐ ܕܠܐ ܦܫ ܚܕ، ܥܐܠ ܬܘܒ ܒܡܠܬܐ ܕܥܒܪܐ ܕܝܠܗ.</translation>
+    </message>
+    <message>
+        <source>This is your last passkey and your account cannot sign in without one. Add another passkey first.</source>
+        <translation>ܗܢܐ ܗܘ ܩܠܝܕܐ ܕܥܠܠܐ ܐܚܪܝܐ ܕܝܘܟܘܢ، ܘܚܘܫܒܢܐ ܕܝܘܟܘܢ ܠܐ ܡܨܐ ܕܢܥܘܠ ܕܠܐ ܚܕ. ܩܕܡܝܬ ܣܦܘ ܩܠܝܕܐ ܕܥܠܠܐ ܐܚܪܢܐ.</translation>
+    </message>
+    <message>
+        <source>The passkey &quot;%name&quot; is revoked. It cannot sign in to this account any more.</source>
+        <translation>ܩܠܝܕܐ ܕܥܠܠܐ «%name» ܐܬܒܛܠ. ܠܐ ܡܨܐ ܬܘܒ ܕܢܥܘܠ ܠܗܢܐ ܚܘܫܒܢܐ.</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/reauth</name>
@@ -77152,6 +78399,34 @@ You will need to change the class of the node by using the swap functionality.</
         <source>Code from your authenticator app</source>
         <translation>ܪܡܙܐ ܡܢ ܬܘܛܦܐ ܕܡܫܪܪܢܐ ܕܝܘܟܘܢ</translation>
     </message>
+    <message>
+        <source>You are about to delete data for good or clear a log.</source>
+        <translation>ܥܬܝܕܝܢ ܐܢܬܘܢ ܕܬܥܛܘܢ ܝܕ̈ܥܬܐ ܠܥܠܡ ܐܘ ܕܬܣܪܩܘܢ ܣܦܪܐ ܕܥܘܗܕܢ̈ܐ.</translation>
+    </message>
+    <message>
+        <source>Your password and a passkey</source>
+        <translation>ܡܠܬܐ ܕܥܒܪܐ ܕܝܘܟܘܢ ܘܩܠܝܕܐ ܕܥܠܠܐ</translation>
+    </message>
+    <message>
+        <source>Your password and a code from your authenticator app</source>
+        <translation>ܡܠܬܐ ܕܥܒܪܐ ܕܝܘܟܘܢ ܘܪܡܙܐ ܡܢ ܬܘܛܦܐ ܕܡܫܪܪܢܐ ܕܝܘܟܘܢ</translation>
+    </message>
+    <message>
+        <source>Or:</source>
+        <translation>ܐܘ:</translation>
+    </message>
+    <message>
+        <source>This browser cannot use passkeys. Use another way, or another browser.</source>
+        <translation>ܗܢܐ ܡܦܬܫܢܐ ܠܐ ܡܨܐ ܕܢܫܬܡܫ ܒܩܠܝ̈ܕܐ ܕܥܠܠܐ. ܐܫܬܡܫܘ ܒܐܘܪܚܐ ܐܚܪܬܐ ܐܘ ܒܡܦܬܫܢܐ ܐܚܪܢܐ.</translation>
+    </message>
+    <message>
+        <source>When you continue, your browser asks for one of your passkeys.</source>
+        <translation>ܡܐ ܕܡܫܡܠܝܢ ܐܢܬܘܢ، ܡܦܬܫܢܐ ܕܝܘܟܘܢ ܫܐܠ ܚܕ ܡܢ ܩܠܝ̈ܕܐ ܕܥܠܠܐ ܕܝܘܟܘܢ.</translation>
+    </message>
+    <message>
+        <source>Continue with a passkey</source>
+        <translation>ܫܡܠܐ ܒܩܠܝܕܐ ܕܥܠܠܐ</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/reauth</name>
@@ -77242,6 +78517,70 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Setup</source>
         <translation>ܛܘܝܒܐ</translation>
+    </message>
+    <message>
+        <source>Changing one&apos;s own password, e-mail address, passkeys, two-step sign-in, recovery codes or API keys, and signing out one&apos;s other devices.</source>
+        <translation>ܫܘܚܠܦܐ ܕܡܠܬܐ ܕܥܒܪܐ ܕܝܠܗ، ܕܡܘܢܥܐ ܕܒܝܠܕܪܐ ܐܠܩܛܪܘܢܝܐ، ܕܩܠܝ̈ܕܐ ܕܥܠܠܐ، ܕܥܠܠܐ ܒܬܪܬܝܢ ܕܪ̈ܓܐ، ܕܪ̈ܡܙܐ ܕܦܘܢܝܐ ܐܘ ܕܩܠܝ̈ܕܐ ܕ API، ܘܡܦܩܢܐ ܡܢ ܡܐܢ̈ܐ ܐܚܪ̈ܢܐ ܕܝܠܗ.</translation>
+    </message>
+    <message>
+        <source>Creating and editing users, their passwords and devices, account settings, approving or denying new user accounts, assigning roles and editing policies.</source>
+        <translation>ܒܪܝܬܐ ܘܫܘܚܠܦܐ ܕܡܦܠ̈ܚܢܐ، ܕܡ̈ܠܐ ܕܥܒܪܐ ܘܡܐܢ̈ܐ ܕܝܠܗܘܢ، ܕܛܘܝ̈ܒܐ ܕܚܘܫܒܢܐ، ܫܘܪܪܐ ܐܘ ܣܠܝܐ ܕܚܘܫܒܢ̈ܐ ܚ̈ܕܬܐ، ܝܗܒܐ ܕܕܘܪ̈ܐ ܘܫܘܚܠܦܐ ܕܦܘܩ̈ܕܢܐ.</translation>
+    </message>
+    <message>
+        <source>Deleting data</source>
+        <translation>ܥܛܝܐ ܕܝܕ̈ܥܬܐ</translation>
+    </message>
+    <message>
+        <source>Emptying the trash, removing items from it and removing several items at once.</source>
+        <translation>ܣܪܩܐ ܕܡܙܒܠܬܐ، ܫܩܠܐ ܕܡܕܡ̈ܝܢ ܡܢܗ ܘܫܩܠܐ ܕܣܓܝ̈ܐܐ ܡܕܡ̈ܝܢ ܒܚܕܐ ܙܒܢܐ.</translation>
+    </message>
+    <message>
+        <source>Removing, publishing and saving content</source>
+        <translation>ܫܩܠܐ، ܦܪܣܘܡܐ ܘܢܛܘܪܐ ܕܬܘܟܠܣܐ</translation>
+    </message>
+    <message>
+        <source>Removing content (also to the trash), publishing and storing a draft, asked when the form is sent. Off by default.</source>
+        <translation>ܫܩܠܐ ܕܬܘܟܠܣܐ (ܐܦ ܠܡܙܒܠܬܐ)، ܦܪܣܘܡܐ ܘܢܛܘܪܐ ܕܣܘܪܛܐ، ܡܫܬܐܠ ܡܐ ܕܡܫܬܕܪ ܛܘܦܣܐ. ܡܛܦܝܐ ܐܝܟ ܡܥܡܕܐ.</translation>
+    </message>
+    <message>
+        <source>Before a sensitive action a signed-in user confirms who they are again: with their password and a passkey, or without a passkey with their password and the code of their authenticator app. Only the web pages ask: the REST interface, SOAP, WebDAV, the expservices login and the command line never do.</source>
+        <translation>ܩܕܡ ܣܘܥܪܢܐ ܪܓܝܫܐ، ܡܦܠܚܢܐ ܕܥܠ ܬܘܒ ܡܫܪܪ ܡܢܘ ܗܘ: ܒܡܠܬܐ ܕܥܒܪܐ ܕܝܠܗ ܘܩܠܝܕܐ ܕܥܠܠܐ، ܐܘ ܕܠܐ ܩܠܝܕܐ ܕܥܠܠܐ ܒܡܠܬܐ ܕܥܒܪܐ ܕܝܠܗ ܘܪܡܙܐ ܕܬܘܛܦܐ ܕܡܫܪܪܢܐ ܕܝܠܗ. ܦܐܬ̈ܐ ܕܓܪܓܘܫܬܐ ܒܠܚܘܕ ܫܐܠܢ: ܡܨܥܝܘܬܐ ܕ REST، SOAP، WebDAV، ܥܠܠܐ ܕ expservices ܘܣܪܛܐ ܕܦܘ̈ܩܕܢܐ ܡܢ ܡܬܘܡ ܠܐ.</translation>
+    </message>
+    <message>
+        <source>Where the settings apply</source>
+        <translation>ܐܝܟܐ ܕܛܘܝ̈ܒܐ ܡܬܚܝܠܝܢ</translation>
+    </message>
+    <message>
+        <source>Settings for</source>
+        <translation>ܛܘܝ̈ܒܐ ܠ</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>ܟܠ ܡܥܠܢܐ ܕܐܬܪܐ</translation>
+    </message>
+    <message>
+        <source>Siteaccess %name</source>
+        <translation>ܡܥܠܢܐ ܕܐܬܪܐ %name</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>ܦܬܚܐ</translation>
+    </message>
+    <message>
+        <source>Who is asked: %group</source>
+        <translation>ܡܢܘ ܡܫܬܐܠ: %group</translation>
+    </message>
+    <message>
+        <source>Tick user groups to ask only their members (editors, for example). None ticked: every user.</source>
+        <translation>ܪܫܘܡܘ ܟܢ̈ܫܐ ܕܡܦܠ̈ܚܢܐ ܕܬܫܐܠܘܢ ܠܗܕ̈ܡܐ ܕܝܠܗܘܢ ܒܠܚܘܕ (ܡܬܩ̈ܢܢܐ ܠܡܬܠ). ܠܐ ܚܕ ܪܫܝܡܐ: ܟܠ ܡܦܠܚܢܐ.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/override/site.ini.append.php, for every siteaccess. Saving asks you to confirm it is you.</source>
+        <translation>ܢܛܝܪ ܒ settings/override/site.ini.append.php، ܠܟܠ ܡܥܠܢܐ ܕܐܬܪܐ. ܢܛܘܪܐ ܫܐܠ ܕܬܫܪܪܘܢ ܕܐܢܬܘܢ ܐܢܬܘܢ.</translation>
+    </message>
+    <message>
+        <source>Saved to settings/siteaccess/%name/site.ini.append.php. A value in settings/override wins over it. Saving asks you to confirm it is you.</source>
+        <translation>ܢܛܝܪ ܒ settings/siteaccess/%name/site.ini.append.php. ܛܝܡܐ ܒ settings/override ܙܟܐ ܥܠܘܗܝ. ܢܛܘܪܐ ܫܐܠ ܕܬܫܪܪܘܢ ܕܐܢܬܘܢ ܐܢܬܘܢ.</translation>
     </message>
 </context>
 <context>
@@ -77344,6 +78683,6822 @@ You will need to change the class of the node by using the swap functionality.</
     <message>
         <source>Open the page</source>
         <translation>ܦܬܚܐ ܕܦܐܬܐ</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/audit</name>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from ܥܕ %to ܡܢ %count</translation>
+    </message>
+    <message>
+        <source>A login or a user id: the account the event was about or the user who acted.</source>
+        <translation>ܫܡܐ ܕܡܦܠܚܢܐ ܐܘ ID ܕܡܦܠܚܢܐ: ܚܘܫܒܢܐ ܕܥܠܘܗܝ ܗܘܐ ܓܕܫܐ ܐܘ ܡܦܠܚܢܐ ܕܥܒܕ ܣܘܥܪܢܐ.</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>ܚܘܫܒܢܐ</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>ܣܘܥܪܢܐ</translation>
+    </message>
+    <message>
+        <source>After</source>
+        <translation>ܒܬܪ</translation>
+    </message>
+    <message>
+        <source>Any result</source>
+        <translation>ܟܠ ܦܠܛܐ</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>ܩܕܡ</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>ܥܒܘܕܐ</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>ܣܪܩܐ</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>ܓܡܝܪܐ</translation>
+    </message>
+    <message>
+        <source>Events are kept for %days days.</source>
+        <translation>ܓܕ̈ܫܐ ܡܬܢܛܪܝܢ %days ܝܘܡ̈ܬܐ.</translation>
+    </message>
+    <message>
+        <source>Events are kept until they are removed by hand.</source>
+        <translation>ܓܕ̈ܫܐ ܡܬܢܛܪܝܢ ܥܕܡܐ ܕܡܫܬܩܠܝܢ ܒܐܝܕܐ.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>ܓܕ̈ܫܐ</translation>
+    </message>
+    <message>
+        <source>Every action</source>
+        <translation>ܟܠ ܣܘܥܪܢܐ</translation>
+    </message>
+    <message>
+        <source>Every event of this account</source>
+        <translation>ܟܠܗܘܢ ܓܕ̈ܫܐ ܕܗܢܐ ܚܘܫܒܢܐ</translation>
+    </message>
+    <message>
+        <source>Export the list as CSV (%count)</source>
+        <translation>ܡܦܩܐ ܕܪܫܝܡܬܐ ܐܝܟ CSV (%count)</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>ܠܐ ܐܨܠܚ</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>ܡܢ</translation>
+    </message>
+    <message>
+        <source>Narrow the list</source>
+        <translation>ܨܠܠܐ ܕܪܫܝܡܬܐ</translation>
+    </message>
+    <message>
+        <source>No event matches.</source>
+        <translation>ܠܝܬ ܓܕܫܐ ܕܫܘܐ.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>ܒܟܠ ܦܐܬܐ</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in audit.ini ([UserAuditSettings] UserAudit); the list shows what was recorded before.</source>
+        <translation>ܪܫܡܐ ܒܛܝܠܐ ܓܘ audit.ini ([UserAuditSettings] UserAudit)؛ ܪܫܝܡܬܐ ܡܚܘܝܐ ܡܕܡ ܕܐܬܪܫܡ ܡܢ ܩܕܡ.</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>ܐܬܟܠܝ</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>ܦܠܛܐ</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>ܡܚܘܝܐ</translation>
+    </message>
+    <message>
+        <source>The table of the user audit log is missing. Create it with php update/common/scripts/6.0/createuseraudittable.php; until then the audit files keep every event.</source>
+        <translation>ܠܘܚܐ ܕܥܩܒܐ ܕܒܘܩܝܐ ܕܡܦܠܚܢ̈ܐ ܠܝܬܘܗܝ. ܒܪܘܢ ܠܗ ܥܡ php update/common/scripts/6.0/createuseraudittable.php؛ ܥܕܡܐ ܠܗܝ ܥܕܢܐ ܦܢܩ̈ܝܬܐ ܕܒܘܩܝܐ ܢܛܪܢ ܟܠ ܓܕܫܐ.</translation>
+    </message>
+    <message>
+        <source>This page needs an SQL database; it is not available on MongoDB. The audit files keep every event.</source>
+        <translation>ܗܕܐ ܦܐܬܐ ܣܢܝܩܐ ܠܒܝܬ ܝܕ̈ܥܬܐ ܕ SQL؛ ܠܐ ܡܬܡܨܝܐ ܥܠ MongoDB. ܦܢܩ̈ܝܬܐ ܕܒܘܩܝܐ ܢܛܪܢ ܟܠ ܓܕܫܐ.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>ܥܕ</translation>
+    </message>
+    <message>
+        <source>User audit log</source>
+        <translation>ܥܩܒܐ ܕܒܘܩܝܐ ܕܡܦܠܚܢ̈ܐ</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>ܡܦܠܚܢܐ</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>ܐܡܬܝ</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>ܐܝܟܐ</translation>
+    </message>
+    <message>
+        <source>Who changed, created, enabled, disabled, moved or removed which account, who signed in or was refused, and which roles were assigned: one line per event, with the fields before and after. Passwords and secrets are never recorded.</source>
+        <translation>ܡܢܘ ܫܚܠܦ، ܒܪܐ، ܐܦܥܠ، ܐܒܛܠ، ܫܢܐ ܐܘ ܫܩܠ ܐܝܢܐ ܚܘܫܒܢܐ، ܡܢܘ ܥܠ ܐܘ ܐܬܟܠܝ، ܘܐܝܠܝܢ ܕܘܪ̈ܐ ܐܬܝܗܒܘ: ܣܛܪܐ ܚܕ ܠܟܠ ܓܕܫܐ، ܥܡ ܚܩܠ̈ܐ ܩܕܡ ܘܒܬܪ. ܡ̈ܠܐ ܕܥܒܪܐ ܘܐܪ̈ܙܐ ܡܡܬܘܡ ܠܐ ܡܬܪܫܡܝܢ.</translation>
+    </message>
+    <message>
+        <source>group</source>
+        <translation>ܟܢܫܐ</translation>
+    </message>
+    <message>
+        <source>system</source>
+        <translation>ܡܛܟܣܬܐ</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>ܠܐ ܝܕܝܥܐ</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security_mail</name>
+    <message>
+        <source>Secure your account</source>
+        <translation>ܚܡܝܐ ܕܚܘܫܒܢܐ ܕܝܠܘܟܘܢ</translation>
+    </message>
+    <message>
+        <source>A recovery code was used to sign in to your account %login on %site.</source>
+        <translation>ܪܡܙܐ ܕܕܘܥܪܐ ܐܬܦܠܚ ܠܥܠܠܐ ܠܚܘܫܒܢܐ ܕܝܠܘܟܘܢ %login ܥܠ %site.</translation>
+    </message>
+    <message>
+        <source>A recovery code was used</source>
+        <translation>ܪܡܙܐ ܕܕܘܥܪܐ ܐܬܦܠܚ</translation>
+    </message>
+    <message>
+        <source>Account</source>
+        <translation>ܚܘܫܒܢܐ</translation>
+    </message>
+    <message>
+        <source>Approximate address</source>
+        <translation>ܡܘܢܥܐ ܒܩܘܪܒܐ</translation>
+    </message>
+    <message>
+        <source>Ask for a new password to sign in again, or contact the administrators of the site.</source>
+        <translation>ܒܥܘ ܡܠܬܐ ܕܥܒܪܐ ܚܕܬܐ ܕܬܥܠܘܢ ܬܘܒ، ܐܘ ܐܬܚܒܪܘ ܥܡ ܡܕܒܪ̈ܢܐ ܕܐܬܪܐ.</translation>
+    </message>
+    <message>
+        <source>Ask for a new password</source>
+        <translation>ܒܥܬܐ ܕܡܠܬܐ ܕܥܒܪܐ ܚܕܬܐ</translation>
+    </message>
+    <message>
+        <source>Each recovery code works once. If you lost your phone, set up your authenticator app again and keep the new recovery codes in a safe place.</source>
+        <translation>ܟܠ ܪܡܙܐ ܕܕܘܥܪܐ ܦܠܚ ܚܕ ܙܒܢܐ. ܐܢ ܐܘܒܕܬܘܢ ܬܠܝܦܘܢ ܕܝܠܘܟܘܢ، ܛܝܒܘ ܬܘܒ ܐܦܠܝܩܐܨܝܐ ܕܫܘܪܪܐ ܘܢܛܘܪܘ ܪ̈ܡܙܐ ܚܕ̈ܬܐ ܕܕܘܥܪܐ ܒܕܘܟܬܐ ܫܠܝܡܬܐ.</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempts on your account</source>
+        <translation>ܢܣܝܘܢ̈ܐ ܕܥܠܠܐ ܕܠܐ ܐܨܠܚܘ ܠܚܘܫܒܢܐ ܕܝܠܘܟܘܢ</translation>
+    </message>
+    <message>
+        <source>From now on, signing in asks for a code besides your password. If you did this, you do not need to do anything.</source>
+        <translation>ܡܢ ܗܫܐ ܘܠܗܠ، ܥܠܠܐ ܒܥܐ ܪܡܙܐ ܠܒܪ ܡܢ ܡܠܬܐ ܕܥܒܪܐ ܕܝܠܘܟܘܢ. ܐܢ ܐܚܬܘܢ ܥܒܕܬܘܢ ܗܕܐ، ܠܐ ܣܢܝܩܝܬܘܢ ܠܡܥܒܕ ܡܕܡ.</translation>
+    </message>
+    <message>
+        <source>If it was you and you forgot your password, ask for a new one. If not, choose a stronger password and turn on two-step sign-in.</source>
+        <translation>ܐܢ ܐܚܬܘܢ ܗܘܝܬܘܢ ܘܛܥܝܬܘܢ ܡܠܬܐ ܕܥܒܪܐ ܕܝܠܘܟܘܢ، ܒܥܘ ܚܕܐ ܚܕܬܐ. ܐܢ ܠܐ، ܓܒܘܢ ܡܠܬܐ ܕܥܒܪܐ ܚܝܠܬܢܝܬܐ ܝܬܝܪ ܘܦܥܠܘ ܥܠܠܐ ܒܬܪܬܝܢ ܕܪ̈ܓܐ.</translation>
+    </message>
+    <message>
+        <source>If this was not you, someone may know your password: change it now and check where your account is signed in.</source>
+        <translation>ܐܢ ܠܐ ܐܚܬܘܢ ܗܘܝܬܘܢ، ܐܢܫ ܡܨܐ ܕܝܕܥ ܡܠܬܐ ܕܥܒܪܐ ܕܝܠܘܟܘܢ: ܫܚܠܦܘܗ ܗܫܐ ܘܒܨܘ ܐܝܟܐ ܚܘܫܒܢܐ ܕܝܠܘܟܘܢ ܥܠܝܠܐ.</translation>
+    </message>
+    <message>
+        <source>Recovery codes left</source>
+        <translation>ܪ̈ܡܙܐ ܕܕܘܥܪܐ ܕܦܫܘ</translation>
+    </message>
+    <message>
+        <source>Review your devices</source>
+        <translation>ܒܘܚܢܐ ܕܡܐܢ̈ܐ ܕܝܠܘܟܘܢ</translation>
+    </message>
+    <message>
+        <source>Security alert</source>
+        <translation>ܙܘܗܪܐ ܕܫܠܡܘܬܐ</translation>
+    </message>
+    <message>
+        <source>Someone tried to sign in to your account %login on %site with a wrong password %count times in a row.</source>
+        <translation>ܐܢܫ ܢܣܐ ܠܡܥܠ ܠܚܘܫܒܢܐ ܕܝܠܘܟܘܢ %login ܥܠ %site ܥܡ ܡܠܬܐ ܕܥܒܪܐ ܠܐ ܬܪܝܨܬܐ %count ܙܒ̈ܢܐ ܚܕ ܒܬܪ ܚܕ.</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login on %site.</source>
+        <translation>ܗܘܐ ܓܕܫܐ ܕܫܠܡܘܬܐ ܒܚܘܫܒܢܐ ܕܝܠܘܟܘܢ %login ܥܠ %site.</translation>
+    </message>
+    <message>
+        <source>This is a security alert about your account. It is sent for every such change and cannot be turned off.</source>
+        <translation>ܗܢܐ ܙܘܗܪܐ ܕܫܠܡܘܬܐ ܥܠ ܚܘܫܒܢܐ ܕܝܠܘܟܘܢ. ܡܫܬܕܪ ܥܠ ܟܠ ܫܘܚܠܦܐ ܐܝܟ ܗܢܐ ܘܠܐ ܡܨܐ ܕܡܬܒܛܠ.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>ܙܒܢܐ</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off for your account %login on %site.</source>
+        <translation>ܥܠܠܐ ܒܬܪܬܝܢ ܕܪ̈ܓܐ ܐܬܒܛܠ ܠܚܘܫܒܢܐ ܕܝܠܘܟܘܢ %login ܥܠ %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned off</source>
+        <translation>ܥܠܠܐ ܒܬܪܬܝܢ ܕܪ̈ܓܐ ܐܬܒܛܠ</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on for your account %login on %site.</source>
+        <translation>ܥܠܠܐ ܒܬܪܬܝܢ ܕܪ̈ܓܐ ܐܬܦܥܠ ܠܚܘܫܒܢܐ ܕܝܠܘܟܘܢ %login ܥܠ %site.</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in was turned on</source>
+        <translation>ܥܠܠܐ ܒܬܪܬܝܢ ܕܪ̈ܓܐ ܐܬܦܥܠ</translation>
+    </message>
+    <message>
+        <source>Your account %login on %site was locked after too many failed sign-ins.</source>
+        <translation>ܚܘܫܒܢܐ ܕܝܠܘܟܘܢ %login ܥܠ %site ܐܬܩܦܠ ܒܬܪ ܣܓܝܐܐ ܥܠ̈ܠܐ ܕܠܐ ܐܨܠܚܘ.</translation>
+    </message>
+    <message>
+        <source>Your account is now protected by your password alone. If you did not do this, turn two-step sign-in on again after you changed your password.</source>
+        <translation>ܚܘܫܒܢܐ ܕܝܠܘܟܘܢ ܗܫܐ ܢܛܝܪ ܒܠܚܘܕ ܒܡܠܬܐ ܕܥܒܪܐ ܕܝܠܘܟܘܢ. ܐܢ ܠܐ ܐܚܬܘܢ ܥܒܕܬܘܢ ܗܕܐ، ܦܥܠܘ ܬܘܒ ܥܠܠܐ ܒܬܪܬܝܢ ܕܪ̈ܓܐ ܒܬܪ ܕܫܚܠܦܬܘܢ ܡܠܬܐ ܕܥܒܪܐ ܕܝܠܘܟܘܢ.</translation>
+    </message>
+    <message>
+        <source>Your account was locked</source>
+        <translation>ܚܘܫܒܢܐ ܕܝܠܘܟܘܢ ܐܬܩܦܠ</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account %login on %site.</source>
+        <translation>ܩܠܝܕܐ ܕܥܠܠܐ ܐܬܘܣܦ ܠܚܘܫܒܢܐ ܕܝܘܟܘܢ %login ܥܠ %site.</translation>
+    </message>
+    <message>
+        <source>Whoever holds this passkey can sign in to your account without your password. If you did not add it, remove it under Passkeys and change your password.</source>
+        <translation>ܡܢ ܕܐܝܬ ܠܗ ܗܢܐ ܩܠܝܕܐ ܕܥܠܠܐ ܡܨܐ ܕܢܥܘܠ ܠܚܘܫܒܢܐ ܕܝܘܟܘܢ ܕܠܐ ܡܠܬܐ ܕܥܒܪܐ ܕܝܘܟܘܢ. ܐܢ ܠܐ ܐܘܣܦܬܘܢܝܗܝ، ܫܩܠܘܗܝ ܬܚܝܬ ܩܠܝ̈ܕܐ ܕܥܠܠܐ ܘܫܚܠܦܘ ܡܠܬܐ ܕܥܒܪܐ ܕܝܘܟܘܢ.</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account %login on %site.</source>
+        <translation>ܩܠܝܕܐ ܕܥܠܠܐ ܐܫܬܩܠ ܡܢ ܚܘܫܒܢܐ ܕܝܘܟܘܢ %login ܥܠ %site.</translation>
+    </message>
+    <message>
+        <source>It can no longer sign in to your account. If you did not remove it, check your passkeys and devices.</source>
+        <translation>ܠܐ ܡܨܐ ܬܘܒ ܕܢܥܘܠ ܠܚܘܫܒܢܐ ܕܝܘܟܘܢ. ܐܢ ܠܐ ܫܩܠܬܘܢܝܗܝ، ܒܨܘ ܩܠܝ̈ܕܐ ܕܥܠܠܐ ܘܡܐܢ̈ܐ ܕܝܘܟܘܢ.</translation>
+    </message>
+    <message>
+        <source>A passkey was added to your account</source>
+        <translation>ܩܠܝܕܐ ܕܥܠܠܐ ܐܬܘܣܦ ܠܚܘܫܒܢܐ ܕܝܘܟܘܢ</translation>
+    </message>
+    <message>
+        <source>A passkey was removed from your account</source>
+        <translation>ܩܠܝܕܐ ܕܥܠܠܐ ܐܫܬܩܠ ܡܢ ܚܘܫܒܢܐ ܕܝܘܟܘܢ</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security</name>
+    <message>
+        <source>Security activity</source>
+        <translation>ܥܒܕܢܘܬܐ ܕܫܠܡܘܬܐ</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>ܥܒܕܢܘܬܐ ܕܫܠܡܘܬܐ ܕ %name</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>ܥܠܝܠܐ</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>ܢܣܝܘܢܐ ܕܥܠܠܐ ܕܠܐ ܐܨܠܚ</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>ܦܠܝܛܐ</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>ܡܘܬ̈ܒܐ ܐܬܦܠܛܘ</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>ܥܠܠܐ ܡܢ ܡܐܢܐ ܚܕܬܐ</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>ܥܠܠܐ ܡܢ ܕܘܟܬܐ ܚܕܬܐ</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>ܐܝܬܝܘܬܐ ܐܫܬܪܪܬ («ܫܪܪܘ ܕܐܢܬܘܢ ܗܘܝܬܘܢ»)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>ܒܘܚܢܐ ܕܐܝܬܝܘܬܐ ܠܐ ܐܨܠܚ</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>ܥܠܝܠܐ ܥܡ ܩܠܝܕܐ ܕܥܠܠܐ</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>ܥܠܠܐ ܥܡ ܩܠܝܕܐ ܕܥܠܠܐ ܠܐ ܐܨܠܚ</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>ܥܠܠܐ ܐܬܟܠܝ: ܪܡܙܐ ܕܥܠܠܐ ܒܬܪܬܝܢ ܕܪ̈ܓܐ ܚܣܝܪܐ ܐܘ ܠܐ ܬܪܝܨܐ</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>ܪܡܙܐ ܕܥܠܠܐ ܒܬܪܬܝܢ ܕܪ̈ܓܐ ܠܐ ܬܪܝܨܐ</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>ܚܘܫܒܢܐ ܐܬܩܦܠ ܒܬܪ ܥܠ̈ܠܐ ܕܠܐ ܐܨܠܚܘ</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>ܚܘܫܒܢܐ ܐܬܦܬܚ</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>ܡܠܬܐ ܕܥܒܪܐ ܐܫܬܚܠܦܬ</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>ܫܘܚܠܦܐ ܕܡܠܬܐ ܕܥܒܪܐ ܠܐ ܐܨܠܚ</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>ܡܠܬܐ ܕܥܒܪܐ ܐܬܛܝܒܬ ܡܢ ܕܪܝܫ</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>ܡܠܬܐ ܕܥܒܪܐ ܚܕܬܐ ܐܬܒܥܝܬ</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>ܡܘܢܥܐ ܕܒܪܝܕܐ ܐܫܬܚܠܦ</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>ܫܡܐ ܕܡܦܠܚܢܐ ܐܫܬܚܠܦ</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>ܥܠܠܐ ܒܬܪܬܝܢ ܕܪ̈ܓܐ ܐܬܦܥܠ</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>ܥܠܠܐ ܒܬܪܬܝܢ ܕܪ̈ܓܐ ܐܬܒܛܠ</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>ܪܡܙܐ ܕܕܘܥܪܐ ܐܬܦܠܚ</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>ܪ̈ܡܙܐ ܚܕ̈ܬܐ ܕܕܘܥܪܐ</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>ܡܠܬܐ ܕܥܒܪܐ ܕܐܦܠܝܩܐܨܝܐ ܐܬܒܪܝܬ</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>ܡܠܬܐ ܕܥܒܪܐ ܕܐܦܠܝܩܐܨܝܐ ܐܬܒܛܠܬ</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>ܩܠܝܕܐ ܕܥܠܠܐ ܐܬܘܣܦ</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>ܩܠܝܕܐ ܕܥܠܠܐ ܐܫܬܩܠ</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>ܚܘܫܒܢܐ ܐܬܦܥܠ</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>ܚܘܫܒܢܐ ܐܬܒܛܠ</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>ܟܠ</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>ܥܠ̈ܠܐ ܘܡܘܬ̈ܒܐ</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>ܫܘܚ̈ܠܦܐ ܕܚܘܫܒܢܐ</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>ܣܢܝܩ ܠܚܦܝܛܘܬܐ</translation>
+    </message>
+    <message>
+        <source>by you</source>
+        <translation>ܡܢ ܠܘܬܟܘܢ</translation>
+    </message>
+    <message>
+        <source>by the user</source>
+        <translation>ܡܢ ܡܦܠܚܢܐ</translation>
+    </message>
+    <message>
+        <source>by %login</source>
+        <translation>ܡܢ %login</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>ܐܘܪܚܐ</translation>
+    </message>
+    <message>
+        <source>Browser</source>
+        <translation>ܚܝܪܢܐ</translation>
+    </message>
+    <message>
+        <source>System</source>
+        <translation>ܡܪܟܒܬܐ ܕܦܘܠܚܢܐ</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>ܡܐܢܐ</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>ܐܬܪܐ ܓܘܢܝܐ</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation>ܡܕܝܢܬܐ</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>ܡܘܬ̈ܒܐ</translation>
+    </message>
+    <message>
+        <source>Which</source>
+        <translation>ܐܝܢܝܢ</translation>
+    </message>
+    <message>
+        <source>Channel</source>
+        <translation>ܐܘܪܚܐ ܕܫܘܕܪܐ</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>ܢܣܝܘܢ̈ܐ ܕܠܐ ܐܨܠܚܘ</translation>
+    </message>
+    <message>
+        <source>Codes left</source>
+        <translation>ܪ̈ܡܙܐ ܕܦܫܘ</translation>
+    </message>
+    <message>
+        <source>Sign-in handler</source>
+        <translation>ܡܥܒܕܢܐ ܕܥܠܠܐ</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>ܥܒܕܢܘܬܐ ܕܫܠܡܘܬܐ</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>ܥܒܕܢܘܬܐ ܕܫܠܡܘܬܐ ܕ %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>ܥܠ̈ܠܐ ܘܫܘܚ̈ܠܦܐ ܒܫܠܡܘܬܐ ܕܚܘܫܒܢܐ ܕܝܠܘܟܘܢ. ܐܢ ܚܙܝܬܘܢ ܡܕܡ ܕܠܐ ܥܒܕܬܘܢ، ܫܚܠܦܘ ܡܠܬܐ ܕܥܒܪܐ ܕܝܠܘܟܘܢ ܘܦܠܛܘ ܡܐܢ̈ܐ ܕܠܐ ܝܕܥܝܬܘܢ.</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of this account.</source>
+        <translation>ܥܠ̈ܠܐ ܘܫܘܚ̈ܠܦܐ ܒܫܠܡܘܬܐ ܕܗܢܐ ܚܘܫܒܢܐ.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>ܡܐܢ̈ܐ ܕܝܠܘܟܘܢ</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>ܫܘܚܠܦܐ ܕܡܠܬܐ ܕܥܒܪܐ</translation>
+    </message>
+    <message>
+        <source>Back to the account</source>
+        <translation>ܠܒܣܬܪ ܠܚܘܫܒܢܐ</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded</source>
+        <translation>ܥܒܕܢܘܬܐ ܕܫܠܡܘܬܐ ܠܐ ܡܬܪܫܡܐ</translation>
+    </message>
+    <message>
+        <source>It is read from the user audit log, whose table expuser_audit is missing or not supported on this database. Run php update/common/scripts/6.0/createuseraudittable.php, or the database update of 6.0.15.</source>
+        <translation>ܡܬܩܪܝܐ ܡܢ ܪܘܫܡܐ ܕܒܘܩܝܐ ܕܡܦܠ̈ܚܢܐ، ܕܦܬܘܪܐ ܕܝܠܗ expuser_audit ܚܣܝܪܐ ܐܘ ܠܐ ܡܣܬܡܟܐ ܒܗܢܐ ܒܝܬ ܝܕ̈ܥܬܐ. ܪܗܛܘܢ php update/common/scripts/6.0/createuseraudittable.php، ܐܘ ܚܘܕܬܐ ܕܒܝܬ ܝܕ̈ܥܬܐ ܕ 6.0.15.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>%days ܝܘ̈ܡܬܐ ܐܚܪ̈ܝܐ</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>ܥܠ̈ܠܐ ܒ %days ܝܘ̈ܡܬܐ ܐܚܪ̈ܝܐ</translation>
+    </message>
+    <message>
+        <source>Recent security activity</source>
+        <translation>ܥܒܕܢܘܬܐ ܐܚܪܝܬܐ ܕܫܠܡܘܬܐ</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>ܡܚܘܝܐ</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>ܠܐ ܐܨܠܚ</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>ܐܬܟܠܝ</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>ܥܕܟܝܠ ܠܐ ܐܬܪܫܡܬ ܥܒܕܢܘܬܐ ܕܫܠܡܘܬܐ.</translation>
+    </message>
+    <message>
+        <source>Security events are kept for %days days.</source>
+        <translation>ܓܕ̈ܫܐ ܕܫܠܡܘܬܐ ܡܬܢܛܪܝܢ %days ܝܘ̈ܡܬܐ.</translation>
+    </message>
+    <message>
+        <source>Security events are kept until an administrator removes them.</source>
+        <translation>ܓܕ̈ܫܐ ܕܫܠܡܘܬܐ ܡܬܢܛܪܝܢ ܥܕܡܐ ܕܡܕܒܪܢܐ ܫܩܠ ܠܗܘܢ.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>ܡܚܬܐ ܕܝܕ̈ܥܬܐ ܕܥܠܠܐ ܕܝܠܝ</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>ܡܘܬ̈ܒܐ ܘܓܕ̈ܫܐ ܕܫܠܡܘܬܐ ܕܝܠܘܟܘܢ ܐܝܟ ܦܢܩܝܬܐ ܕ JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>ܡܘ̈ܬܒܐ ܠܐ ܡܬܟܬܒܝܢ ܒܐܬܪܐ ܗܢܐ، ܡܛܠ ܗܢܐ ܡܐܢܐ ܐܚܪܢܐ ܠܐ ܐܫܟܚ ܠܡܦܠܛ. ܫܚܠܦܘ ܡܠܬܐ ܕܥܒܪܐ ܕܝܠܟܘܢ ܗܫܐ.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count ܡܘ̈ܬܒܐ ܐܚܪ̈ܢܐ ܐܬܦܠܛܘ. ܗܫܐ ܫܚܠܦܘ ܡܠܬܐ ܕܥܒܪܐ ܕܝܠܟܘܢ.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>ܡܐܢܐ ܐܚܪܢܐ ܠܐ ܗܘܐ ܥܠܝܠ. ܗܫܐ ܫܚܠܦܘ ܡܠܬܐ ܕܥܒܪܐ ܕܝܠܟܘܢ.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>ܬܘܕܝ. ܓܕܫܐ ܐܬܪܫܡ ܐܝܟ ܕܝܠܟܘܢ.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>ܓܕܫܐ ܗܘ ܠܐ ܣܢܝܩ ܠܦܘܢܝ ܦܬܓܡܐ.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>ܦܐܬܐ ܥܒܪ ܙܒܢܗ. ܡܕܡ ܠܐ ܐܫܬܚܠܦ؛ ܒܒܥܘܬܐ ܢܣܘ ܬܘܒ.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>ܚܡܝܐ ܕܚܘܫܒܢܐ ܕܝܠܘܟܘܢ</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>ܐܢ ܡܕܡ ܗܪܟܐ ܠܐ ܗܘܐ ܐܢܬܘܢ، ܦܠܛܘ ܟܠ ܡܐܢ̈ܐ ܐܚܪ̈ܢܐ، ܘܒܬܪܟܢ ܓܒܘ ܡܠܬܐ ܕܥܒܪܐ ܚܕܬܐ. ܡܐܢ̈ܐ ܕܦܝܫܝܢ ܥܠܝܠܝܢ ܒܝܕ ܕܟܪܘܢܝ ܐܦ ܗܢܘܢ ܡܬܦܠܛܝܢ.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>ܟܠ ܡܐܢܐ ܣܛܪ ܡܢ ܗܢܐ ܡܬܦܠܛ ܒܒܥܬܐ ܕܐܬܝܐ. ܒܬܪܟܢ ܓܒܝܬܘܢ ܡܠܬܐ ܕܥܒܪܐ ܚܕܬܐ.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>ܐܝܢ، ܦܠܛܘ ܡܐܢ̈ܐ ܐܚܪ̈ܢܐ</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>ܐܢܬܘܢ ܗܘܝܬܘܢ ܗܢܐ؟</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>ܐܝܢ، ܐܢܐ ܗܘܝܬ</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>ܠܐ، ܚܡܘ ܚܘܫܒܢܐ ܕܝܠܝ</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/user/security</name>
+    <message>
+        <source>Signed in</source>
+        <translation>ܥܠܝܠܐ</translation>
+    </message>
+    <message>
+        <source>Failed sign-in attempt</source>
+        <translation>ܢܣܝܘܢܐ ܕܥܠܠܐ ܕܠܐ ܐܨܠܚ</translation>
+    </message>
+    <message>
+        <source>Signed out</source>
+        <translation>ܦܠܝܛܐ</translation>
+    </message>
+    <message>
+        <source>Sessions signed out</source>
+        <translation>ܡܘܬ̈ܒܐ ܐܬܦܠܛܘ</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new device</source>
+        <translation>ܥܠܠܐ ܡܢ ܡܐܢܐ ܚܕܬܐ</translation>
+    </message>
+    <message>
+        <source>Sign-in from a new location</source>
+        <translation>ܥܠܠܐ ܡܢ ܕܘܟܬܐ ܚܕܬܐ</translation>
+    </message>
+    <message>
+        <source>Identity confirmed (&quot;Verify it is you&quot;)</source>
+        <translation>ܐܝܬܝܘܬܐ ܐܫܬܪܪܬ («ܫܪܪܘ ܕܐܢܬܘܢ ܗܘܝܬܘܢ»)</translation>
+    </message>
+    <message>
+        <source>Identity check failed</source>
+        <translation>ܒܘܚܢܐ ܕܐܝܬܝܘܬܐ ܠܐ ܐܨܠܚ</translation>
+    </message>
+    <message>
+        <source>Signed in with a passkey</source>
+        <translation>ܥܠܝܠܐ ܥܡ ܩܠܝܕܐ ܕܥܠܠܐ</translation>
+    </message>
+    <message>
+        <source>Passkey sign-in failed</source>
+        <translation>ܥܠܠܐ ܥܡ ܩܠܝܕܐ ܕܥܠܠܐ ܠܐ ܐܨܠܚ</translation>
+    </message>
+    <message>
+        <source>Sign-in refused: two-step code missing or wrong</source>
+        <translation>ܥܠܠܐ ܐܬܟܠܝ: ܪܡܙܐ ܕܥܠܠܐ ܒܬܪܬܝܢ ܕܪ̈ܓܐ ܚܣܝܪܐ ܐܘ ܠܐ ܬܪܝܨܐ</translation>
+    </message>
+    <message>
+        <source>Wrong two-step code</source>
+        <translation>ܪܡܙܐ ܕܥܠܠܐ ܒܬܪܬܝܢ ܕܪ̈ܓܐ ܠܐ ܬܪܝܨܐ</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>ܚܘܫܒܢܐ ܐܬܩܦܠ ܒܬܪ ܥܠ̈ܠܐ ܕܠܐ ܐܨܠܚܘ</translation>
+    </message>
+    <message>
+        <source>Account unlocked</source>
+        <translation>ܚܘܫܒܢܐ ܐܬܦܬܚ</translation>
+    </message>
+    <message>
+        <source>Password changed</source>
+        <translation>ܡܠܬܐ ܕܥܒܪܐ ܐܫܬܚܠܦܬ</translation>
+    </message>
+    <message>
+        <source>Password change failed</source>
+        <translation>ܫܘܚܠܦܐ ܕܡܠܬܐ ܕܥܒܪܐ ܠܐ ܐܨܠܚ</translation>
+    </message>
+    <message>
+        <source>Password reset</source>
+        <translation>ܡܠܬܐ ܕܥܒܪܐ ܐܬܛܝܒܬ ܡܢ ܕܪܝܫ</translation>
+    </message>
+    <message>
+        <source>New password requested</source>
+        <translation>ܡܠܬܐ ܕܥܒܪܐ ܚܕܬܐ ܐܬܒܥܝܬ</translation>
+    </message>
+    <message>
+        <source>E-mail address changed</source>
+        <translation>ܡܘܢܥܐ ܕܒܪܝܕܐ ܐܫܬܚܠܦ</translation>
+    </message>
+    <message>
+        <source>Username changed</source>
+        <translation>ܫܡܐ ܕܡܦܠܚܢܐ ܐܫܬܚܠܦ</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned on</source>
+        <translation>ܥܠܠܐ ܒܬܪܬܝܢ ܕܪ̈ܓܐ ܐܬܦܥܠ</translation>
+    </message>
+    <message>
+        <source>Two-step sign-in turned off</source>
+        <translation>ܥܠܠܐ ܒܬܪܬܝܢ ܕܪ̈ܓܐ ܐܬܒܛܠ</translation>
+    </message>
+    <message>
+        <source>Recovery code used</source>
+        <translation>ܪܡܙܐ ܕܕܘܥܪܐ ܐܬܦܠܚ</translation>
+    </message>
+    <message>
+        <source>New recovery codes</source>
+        <translation>ܪ̈ܡܙܐ ܚܕ̈ܬܐ ܕܕܘܥܪܐ</translation>
+    </message>
+    <message>
+        <source>App password created</source>
+        <translation>ܡܠܬܐ ܕܥܒܪܐ ܕܐܦܠܝܩܐܨܝܐ ܐܬܒܪܝܬ</translation>
+    </message>
+    <message>
+        <source>App password revoked</source>
+        <translation>ܡܠܬܐ ܕܥܒܪܐ ܕܐܦܠܝܩܐܨܝܐ ܐܬܒܛܠܬ</translation>
+    </message>
+    <message>
+        <source>Passkey added</source>
+        <translation>ܩܠܝܕܐ ܕܥܠܠܐ ܐܬܘܣܦ</translation>
+    </message>
+    <message>
+        <source>Passkey removed</source>
+        <translation>ܩܠܝܕܐ ܕܥܠܠܐ ܐܫܬܩܠ</translation>
+    </message>
+    <message>
+        <source>Account enabled</source>
+        <translation>ܚܘܫܒܢܐ ܐܬܦܥܠ</translation>
+    </message>
+    <message>
+        <source>Account disabled</source>
+        <translation>ܚܘܫܒܢܐ ܐܬܒܛܠ</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>ܟܠ</translation>
+    </message>
+    <message>
+        <source>Sign-ins and sessions</source>
+        <translation>ܥܠ̈ܠܐ ܘܡܘܬ̈ܒܐ</translation>
+    </message>
+    <message>
+        <source>Account changes</source>
+        <translation>ܫܘܚ̈ܠܦܐ ܕܚܘܫܒܢܐ</translation>
+    </message>
+    <message>
+        <source>Needs attention</source>
+        <translation>ܣܢܝܩ ܠܚܦܝܛܘܬܐ</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>ܥܒܕܢܘܬܐ ܕܫܠܡܘܬܐ</translation>
+    </message>
+    <message>
+        <source>Security activity of %name</source>
+        <translation>ܥܒܕܢܘܬܐ ܕܫܠܡܘܬܐ ܕ %name</translation>
+    </message>
+    <message>
+        <source>Sign-ins and changes to the security of your account. If you see something you did not do, change your password and sign out the devices you do not recognize.</source>
+        <translation>ܥܠ̈ܠܐ ܘܫܘܚ̈ܠܦܐ ܒܫܠܡܘܬܐ ܕܚܘܫܒܢܐ ܕܝܠܘܟܘܢ. ܐܢ ܚܙܝܬܘܢ ܡܕܡ ܕܠܐ ܥܒܕܬܘܢ، ܫܚܠܦܘ ܡܠܬܐ ܕܥܒܪܐ ܕܝܠܘܟܘܢ ܘܦܠܛܘ ܡܐܢ̈ܐ ܕܠܐ ܝܕܥܝܬܘܢ.</translation>
+    </message>
+    <message>
+        <source>Your devices</source>
+        <translation>ܡܐܢ̈ܐ ܕܝܠܘܟܘܢ</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>ܫܘܚܠܦܐ ܕܡܠܬܐ ܕܥܒܪܐ</translation>
+    </message>
+    <message>
+        <source>The security activity is not recorded on this site yet.</source>
+        <translation>ܥܒܕܢܘܬܐ ܕܫܠܡܘܬܐ ܥܕܟܝܠ ܠܐ ܡܬܪܫܡܐ ܒܗܢܐ ܐܬܪܐ.</translation>
+    </message>
+    <message>
+        <source>Sign-ins in the last %days days</source>
+        <translation>ܥܠ̈ܠܐ ܒ %days ܝܘ̈ܡܬܐ ܐܚܪ̈ܝܐ</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>ܢܣܝܘܢ̈ܐ ܕܠܐ ܐܨܠܚܘ</translation>
+    </message>
+    <message>
+        <source>No security activity recorded yet.</source>
+        <translation>ܥܕܟܝܠ ܠܐ ܐܬܪܫܡܬ ܥܒܕܢܘܬܐ ܕܫܠܡܘܬܐ.</translation>
+    </message>
+    <message>
+        <source>Download my sign-in data</source>
+        <translation>ܡܚܬܐ ܕܝܕ̈ܥܬܐ ܕܥܠܠܐ ܕܝܠܝ</translation>
+    </message>
+    <message>
+        <source>Your sessions and security events as a JSON file.</source>
+        <translation>ܡܘܬ̈ܒܐ ܘܓܕ̈ܫܐ ܕܫܠܡܘܬܐ ܕܝܠܘܟܘܢ ܐܝܟ ܦܢܩܝܬܐ ܕ JSON.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site, so no other device could be signed out. Change your password now.</source>
+        <translation>ܡܘ̈ܬܒܐ ܠܐ ܡܬܟܬܒܝܢ ܒܐܬܪܐ ܗܢܐ، ܡܛܠ ܗܢܐ ܡܐܢܐ ܐܚܪܢܐ ܠܐ ܐܫܟܚ ܠܡܦܠܛ. ܫܚܠܦܘ ܡܠܬܐ ܕܥܒܪܐ ܕܝܠܟܘܢ ܗܫܐ.</translation>
+    </message>
+    <message>
+        <source>%count other sessions were signed out. Now change your password.</source>
+        <translation>%count ܡܘ̈ܬܒܐ ܐܚܪ̈ܢܐ ܐܬܦܠܛܘ. ܗܫܐ ܫܚܠܦܘ ܡܠܬܐ ܕܥܒܪܐ ܕܝܠܟܘܢ.</translation>
+    </message>
+    <message>
+        <source>No other device was signed in. Now change your password.</source>
+        <translation>ܡܐܢܐ ܐܚܪܢܐ ܠܐ ܗܘܐ ܥܠܝܠ. ܗܫܐ ܫܚܠܦܘ ܡܠܬܐ ܕܥܒܪܐ ܕܝܠܟܘܢ.</translation>
+    </message>
+    <message>
+        <source>Thank you. The event is marked as yours.</source>
+        <translation>ܬܘܕܝ. ܓܕܫܐ ܐܬܪܫܡ ܐܝܟ ܕܝܠܟܘܢ.</translation>
+    </message>
+    <message>
+        <source>That event needs no answer.</source>
+        <translation>ܓܕܫܐ ܗܘ ܠܐ ܣܢܝܩ ܠܦܘܢܝ ܦܬܓܡܐ.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>ܦܐܬܐ ܥܒܪ ܙܒܢܗ. ܡܕܡ ܠܐ ܐܫܬܚܠܦ؛ ܒܒܥܘܬܐ ܢܣܘ ܬܘܒ.</translation>
+    </message>
+    <message>
+        <source>Secure your account</source>
+        <translation>ܚܡܝܐ ܕܚܘܫܒܢܐ ܕܝܠܘܟܘܢ</translation>
+    </message>
+    <message>
+        <source>If something here was not you, sign out every other device, then choose a new password. Devices kept signed in with Remember me are signed out too.</source>
+        <translation>ܐܢ ܡܕܡ ܗܪܟܐ ܠܐ ܗܘܐ ܐܢܬܘܢ، ܦܠܛܘ ܟܠ ܡܐܢ̈ܐ ܐܚܪ̈ܢܐ، ܘܒܬܪܟܢ ܓܒܘ ܡܠܬܐ ܕܥܒܪܐ ܚܕܬܐ. ܡܐܢ̈ܐ ܕܦܝܫܝܢ ܥܠܝܠܝܢ ܒܝܕ ܕܟܪܘܢܝ ܐܦ ܗܢܘܢ ܡܬܦܠܛܝܢ.</translation>
+    </message>
+    <message>
+        <source>Every device except this one is signed out at its next request. Then you choose a new password.</source>
+        <translation>ܟܠ ܡܐܢܐ ܣܛܪ ܡܢ ܗܢܐ ܡܬܦܠܛ ܒܒܥܬܐ ܕܐܬܝܐ. ܒܬܪܟܢ ܓܒܝܬܘܢ ܡܠܬܐ ܕܥܒܪܐ ܚܕܬܐ.</translation>
+    </message>
+    <message>
+        <source>Yes, sign out the other devices</source>
+        <translation>ܐܝܢ، ܦܠܛܘ ܡܐܢ̈ܐ ܐܚܪ̈ܢܐ</translation>
+    </message>
+    <message>
+        <source>Was this you?</source>
+        <translation>ܐܢܬܘܢ ܗܘܝܬܘܢ ܗܢܐ؟</translation>
+    </message>
+    <message>
+        <source>Yes, it was me</source>
+        <translation>ܐܝܢ، ܐܢܐ ܗܘܝܬ</translation>
+    </message>
+    <message>
+        <source>No, secure my account</source>
+        <translation>ܠܐ، ܚܡܘ ܚܘܫܒܢܐ ܕܝܠܝ</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/sessionreport</name>
+    <message>
+        <source>Password</source>
+        <translation>ܡܠܬܐ ܕܥܒܪܐ</translation>
+    </message>
+    <message>
+        <source>Password and two-step code</source>
+        <translation>ܡܠܬܐ ܕܥܒܪܐ ܘܪܡܙܐ ܕܥܠܠܐ ܒܬܪܬܝܢ ܕܪ̈ܓܐ</translation>
+    </message>
+    <message>
+        <source>REST interface</source>
+        <translation>ܡܨܥܝܘܬܐ ܕ REST</translation>
+    </message>
+    <message>
+        <source>SOAP interface</source>
+        <translation>ܡܨܥܝܘܬܐ ܕ SOAP</translation>
+    </message>
+    <message>
+        <source>WebDAV</source>
+        <translation>WebDAV</translation>
+    </message>
+    <message>
+        <source>Single sign-on</source>
+        <translation>ܥܠܠܐ ܚܕ ܙܒܢܐ</translation>
+    </message>
+    <message>
+        <source>Signed in before sessions were recorded</source>
+        <translation>ܥܠܝܠܐ ܩܕܡ ܕܡܘܬ̈ܒܐ ܢܬܪܫܡܘܢ</translation>
+    </message>
+    <message>
+        <source>Sign-in report</source>
+        <translation>ܡܘܕܥܢܘܬܐ ܕܥܠܠܐ</translation>
+    </message>
+    <message>
+        <source>Who is signed in to the site, how often accounts sign in and fail to, and signing a user out everywhere. It works with every session handler.</source>
+        <translation>ܡܢܘ ܥܠܝܠܐ ܒܐܬܪܐ، ܟܡܐ ܙܒ̈ܢܐ ܚܘܫ̈ܒܢܐ ܥܐܠܝܢ ܘܠܐ ܡܨܠܚܝܢ، ܘܦܠܛܐ ܕܡܦܠܚܢܐ ܡܢ ܟܠ ܕܘܟܐ. ܦܠܚ ܥܡ ܟܠ ܡܥܒܕܢܐ ܕܡܘܬ̈ܒܐ.</translation>
+    </message>
+    <message>
+        <source>The session was signed out. The device has to sign in again.</source>
+        <translation>ܡܘܬܒܐ ܐܬܦܠܛ. ܡܐܢܐ ܣܢܝܩ ܠܡܥܠ ܬܘܒ.</translation>
+    </message>
+    <message>
+        <source>%login was signed out of %count sessions.</source>
+        <translation>%login ܐܬܦܠܛ ܡܢ %count ܡܘܬ̈ܒܐ.</translation>
+    </message>
+    <message>
+        <source>%login had no running session.</source>
+        <translation>ܠ %login ܠܐ ܗܘܐ ܡܘܬܒܐ ܪܗܛܐ.</translation>
+    </message>
+    <message>
+        <source>No account has that ID, username or e-mail address.</source>
+        <translation>ܠܐ ܚܕ ܚܘܫܒܢܐ ܐܝܬ ܠܗ ܗܢܐ ID، ܫܡܐ ܕܡܦܠܚܢܐ ܐܘ ܡܘܢܥܐ ܕܒܪܝܕܐ.</translation>
+    </message>
+    <message>
+        <source>This is the session you are using. To end it, sign out.</source>
+        <translation>ܗܢܘ ܡܘܬܒܐ ܕܐܚܬܘܢ ܡܦܠܚܝܬܘܢ. ܠܫܘܠܡܗ، ܦܠܛܘ.</translation>
+    </message>
+    <message>
+        <source>That session had already ended.</source>
+        <translation>ܗܘ ܡܘܬܒܐ ܟܒܪ ܫܠܡ ܗܘܐ.</translation>
+    </message>
+    <message>
+        <source>The page had expired. Nothing was changed; please try again.</source>
+        <translation>ܦܐܬܐ ܥܒܪ ܙܒܢܗ. ܡܕܡ ܠܐ ܐܫܬܚܠܦ؛ ܒܒܥܘܬܐ ܢܣܘ ܬܘܒ.</translation>
+    </message>
+    <message>
+        <source>Sessions are not recorded on this site (site.ini [UserSessionSettings] Tracking=disabled).</source>
+        <translation>ܡܘܬ̈ܒܐ ܠܐ ܡܬܪܫܡܝܢ ܒܗܢܐ ܐܬܪܐ (site.ini [UserSessionSettings] Tracking=disabled).</translation>
+    </message>
+    <message>
+        <source>The table expuser_session is missing</source>
+        <translation>ܦܬܘܪܐ expuser_session ܚܣܝܪܐ</translation>
+    </message>
+    <message>
+        <source>Sessions are recorded once it is created: php update/common/scripts/6.0/createusersessiontable.php, or the database update of 6.0.15.</source>
+        <translation>ܡܘܬ̈ܒܐ ܡܬܪܫܡܝܢ ܡܐ ܕܐܬܒܪܝ: php update/common/scripts/6.0/createusersessiontable.php، ܐܘ ܚܘܕܬܐ ܕܒܝܬ ܝܕ̈ܥܬܐ ܕ 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Now and today</source>
+        <translation>ܗܫܐ ܘܐܕܝܘܡ</translation>
+    </message>
+    <message>
+        <source>Sessions running</source>
+        <translation>ܡܘܬ̈ܒܐ ܪܗܛ̈ܐ</translation>
+    </message>
+    <message>
+        <source>Users signed in</source>
+        <translation>ܡܦܠ̈ܚܢܐ ܥܠܝ̈ܠܐ</translation>
+    </message>
+    <message>
+        <source>Sign-ins today</source>
+        <translation>ܥܠ̈ܠܐ ܐܕܝܘܡ</translation>
+    </message>
+    <message>
+        <source>Failed attempts today</source>
+        <translation>ܢܣܝܘܢ̈ܐ ܕܠܐ ܐܨܠܚܘ ܐܕܝܘܡ</translation>
+    </message>
+    <message>
+        <source>Sign a user out everywhere</source>
+        <translation>ܦܠܛܐ ܕܡܦܠܚܢܐ ܡܢ ܟܠ ܕܘܟܐ</translation>
+    </message>
+    <message>
+        <source>Every session of the account ends at its next request, also those kept by Remember me. Use it when an account may be in the wrong hands; then reset its password.</source>
+        <translation>ܟܠ ܡܘܬܒܐ ܕܚܘܫܒܢܐ ܫܠܡ ܒܒܥܘܬܐ ܕܒܬܪܗ، ܐܦ ܐܝܠܝܢ ܕܡܬܢܛܪܝܢ ܒ «ܕܟܪܘܢܝ». ܦܠܚܘ ܒܗ ܐܡܬܝ ܕܚܘܫܒܢܐ ܡܨܐ ܕܢܗܘܐ ܒܐܝ̈ܕܝܐ ܠܐ ܬܪ̈ܝܨܬܐ؛ ܘܗܝܕܝܢ ܛܝܒܘ ܡܢ ܕܪܝܫ ܡܠܬܐ ܕܥܒܪܐ ܕܝܠܗ.</translation>
+    </message>
+    <message>
+        <source>User ID, username or e-mail address</source>
+        <translation>ID ܕܡܦܠܚܢܐ، ܫܡܐ ܕܡܦܠܚܢܐ ܐܘ ܡܘܢܥܐ ܕܒܪܝܕܐ</translation>
+    </message>
+    <message>
+        <source>Sign out everywhere</source>
+        <translation>ܦܠܛܐ ܡܢ ܟܠ ܕܘܟܐ</translation>
+    </message>
+    <message>
+        <source>Signed in now</source>
+        <translation>ܥܠܝܠܐ ܗܫܐ</translation>
+    </message>
+    <message>
+        <source>The %limit most recently used are shown.</source>
+        <translation>%limit ܐܝܠܝܢ ܕܐܬܦܠܚܘ ܐܚܪܝܐܝܬ ܡܬܚܘܝܢ.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>ܡܦܠܚܢܐ</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <translation>ܡܐܢܐ</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>ܡܘܢܥܐ</translation>
+    </message>
+    <message>
+        <source>Signed in</source>
+        <translation>ܥܠܝܠܐ</translation>
+    </message>
+    <message>
+        <source>Last active</source>
+        <translation>ܦܥܝܠܐ ܐܚܪܝܐܝܬ</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>ܣܘܥܪ̈ܢܐ</translation>
+    </message>
+    <message>
+        <source>This device</source>
+        <translation>ܗܢܐ ܡܐܢܐ</translation>
+    </message>
+    <message>
+        <source>Not recorded</source>
+        <translation>ܠܐ ܐܬܪܫܡ</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>ܦܠܛܐ</translation>
+    </message>
+    <message>
+        <source>No session is signed in.</source>
+        <translation>ܠܐ ܚܕ ܡܘܬܒܐ ܥܠܝܠܐ.</translation>
+    </message>
+    <message>
+        <source>The last %days days</source>
+        <translation>%days ܝܘ̈ܡܬܐ ܐܚܪ̈ܝܐ</translation>
+    </message>
+    <message>
+        <source>Sign-ins and failed attempts are counted from the user audit log, which is not there; the new sessions are.</source>
+        <translation>ܥܠ̈ܠܐ ܘܢܣܝܘܢ̈ܐ ܕܠܐ ܐܨܠܚܘ ܡܬܡܢܝܢ ܡܢ ܪܘܫܡܐ ܕܒܘܩܝܐ ܕܡܦܠ̈ܚܢܐ، ܕܠܝܬܘܗܝ؛ ܡܘܬ̈ܒܐ ܚܕ̈ܬܐ ܡܬܡܢܝܢ.</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>ܝܘܡܐ</translation>
+    </message>
+    <message>
+        <source>Sign-ins</source>
+        <translation>ܥܠ̈ܠܐ</translation>
+    </message>
+    <message>
+        <source>Failed attempts</source>
+        <translation>ܢܣܝܘܢ̈ܐ ܕܠܐ ܐܨܠܚܘ</translation>
+    </message>
+    <message>
+        <source>New sessions</source>
+        <translation>ܡܘܬ̈ܒܐ ܚܕ̈ܬܐ</translation>
+    </message>
+    <message>
+        <source>Session handler: %handler. The sessions are read from the table expuser_session, so the report works with every handler.</source>
+        <translation>ܡܥܒܕܢܐ ܕܡܘܬ̈ܒܐ: %handler. ܡܘܬ̈ܒܐ ܡܬܩܪܝܢ ܡܢ ܦܬܘܪܐ expuser_session، ܡܛܠ ܗܢܐ ܡܘܕܥܢܘܬܐ ܦܠܚܐ ܥܡ ܟܠ ܡܥܒܕܢܐ.</translation>
+    </message>
+    <message>
+        <source>Suspicious activity in the last %hours hours</source>
+        <translation>ܥܒܕܢܘܬܐ ܚܫܝܕܬܐ ܒ%hours ܫܥ̈ܐ ܐܚܪ̈ܝܐ</translation>
+    </message>
+    <message>
+        <source>One network failed to sign in to %accounts accounts (%count attempts)</source>
+        <translation>ܫܒܟܬܐ ܚܕܐ ܠܐ ܐܨܠܚܬ ܠܡܥܠ ܠ%accounts ܚܘܫܒܢ̈ܐ (%count ܢܣܝܘܢ̈ܐ)</translation>
+    </message>
+    <message>
+        <source>Account locked after failed sign-ins</source>
+        <translation>ܚܘܫܒܢܐ ܐܬܚܪܡ ܒܬܪ ܡܥܠܢ̈ܐ ܕܠܐ ܐܨܠܚܘ</translation>
+    </message>
+    <message>
+        <source>%count failed sign-ins on one account</source>
+        <translation>%count ܡܥܠܢ̈ܐ ܕܠܐ ܐܨܠܚܘ ܥܠ ܚܘܫܒܢܐ ܚܕ</translation>
+    </message>
+    <message>
+        <source>Signed in from %count countries at once</source>
+        <translation>ܥܠܝܠ ܡܢ %count ܐܬܪ̈ܘܬܐ ܒܚܕ ܙܒܢܐ</translation>
+    </message>
+    <message>
+        <source>Security activity</source>
+        <translation>ܥܒܕܢܘܬܐ ܕܫܠܡܘܬܐ</translation>
+    </message>
+    <message>
+        <source>Sessions</source>
+        <translation>ܡܘܬ̈ܒܐ</translation>
+    </message>
+    <message>
+        <source>Failed sign-ins are read from the user audit log, which is not available here.</source>
+        <translation>ܡܥܠܢ̈ܐ ܕܠܐ ܐܨܠܚܘ ܡܬܩܪܝܢ ܡܢ ܟܬܒܐ ܕܒܘܚܢܐ ܕܡܦܠܚܢ̈ܐ، ܕܠܐ ܐܝܬܘܗܝ ܡܫܟܚܢܐ ܗܪܟܐ.</translation>
+    </message>
+    <message>
+        <source>Nothing suspicious: no account with repeated failed sign-ins, no network trying several accounts, no account signed in from several countries.</source>
+        <translation>ܠܝܬ ܡܕܡ ܚܫܝܕܐ: ܠܝܬ ܚܘܫܒܢܐ ܥܡ ܡܥܠܢ̈ܐ ܕܠܐ ܐܨܠܚܘ ܡܬܢܝܢ̈ܐ، ܠܝܬ ܫܒܟܬܐ ܕܡܢܣܝܐ ܚܘܫܒܢ̈ܐ ܣܓܝܐ̈ܐ، ܠܝܬ ܚܘܫܒܢܐ ܕܥܠ ܡܢ ܐܬܪ̈ܘܬܐ ܣܓܝܐ̈ܬܐ.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/user/security/mail</name>
+    <message>
+        <source>Security alert for your account</source>
+        <translation>ܙܘܗܪܐ ܕܫܠܡܘܬܐ ܠܚܘܫܒܢܐ ܕܝܠܘܟܘܢ</translation>
+    </message>
+    <message>
+        <source>There was a security event on your account %login: %event. If it was not you, secure your account at %url.</source>
+        <translation>ܗܘܐ ܓܕܫܐ ܕܫܠܡܘܬܐ ܒܚܘܫܒܢܐ ܕܝܠܘܟܘܢ %login: %event. ܐܢ ܠܐ ܐܚܬܘܢ ܗܘܝܬܘܢ، ܚܡܘ ܚܘܫܒܢܐ ܕܝܠܘܟܘܢ ܒ %url.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/graphql</name>
+    <message>
+        <source>GraphQL</source>
+        <translation>GraphQL</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>ܛܘܝܒܐ</translation>
+    </message>
+    <message>
+        <source>Ask the content of this site for exactly the fields a page needs, in one request. The schema follows the content classes; every query runs with the rights of the user who sends it.</source>
+        <translation>ܫܐܠ ܠܡܠܝܘܬܐ ܕܗܢܐ ܐܬܪܐ ܚܩ̈ܠܐ ܗܢܘܢ ܒܠܚܘܕ ܕܣܢܝܩܐ ܠܗܘܢ ܦܐܬܐ، ܒܚܕܐ ܒܥܘܬܐ. ܣܟܡܐ ܐܙܠ ܒܬܪ ܙ̈ܢܝܐ ܕܡܠܝܘܬܐ؛ ܟܠ ܫܘܐܠܐ ܪܗܛ ܒܫܘ̈ܠܛܢܐ ܕܡܦܠܚܢܐ ܕܡܫܕܪ ܠܗ.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess. Switch it on in graphql.ini: [GraphQLSettings] Enabled=enabled.</source>
+        <translation>API ܕ GraphQL ܒܛܝܠܐ ܒܗܢܐ ܡܥܠܢܐ ܕܐܬܪܐ. ܦܥܠ ܠܗ ܒ graphql.ini: [GraphQLSettings] Enabled=enabled.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library (webonyx/graphql-php 15) is not installed.</source>
+        <translation>ܒܝܬ ܟܬܒܐ ܕ GraphQL (webonyx/graphql-php 15) ܠܐ ܡܬܩܝܡ.</translation>
+    </message>
+    <message>
+        <source>End point</source>
+        <translation>ܢܘܩܙܐ ܕܣܘܦܐ</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>ܒܝܬ ܟܬܒܐ</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>ܣܟܡܐ</translation>
+    </message>
+    <message>
+        <source>%count content classes, schema %hash</source>
+        <translation>%count ܙ̈ܢܝܐ ܕܡܠܝܘܬܐ، ܣܟܡܐ %hash</translation>
+    </message>
+    <message>
+        <source>Query</source>
+        <translation>ܫܘܐܠܐ</translation>
+    </message>
+    <message>
+        <source>Variables (JSON)</source>
+        <translation>ܡܫܚܠܦ̈ܢܐ (JSON)</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>ܡܪܗܛܐ</translation>
+    </message>
+    <message>
+        <source>Answer</source>
+        <translation>ܦܘܢܝܐ</translation>
+    </message>
+    <message>
+        <source>Running…</source>
+        <translation>ܪܗܛ…</translation>
+    </message>
+    <message>
+        <source>The answer could not be read.</source>
+        <translation>ܦܘܢܝܐ ܠܐ ܐܫܬܟܚ ܠܡܬܩܪܝܘ.</translation>
+    </message>
+    <message>
+        <source>The query runs with your rights, signed in with this session.</source>
+        <translation>ܫܘܐܠܐ ܪܗܛ ܒܫܘ̈ܠܛܢܝܟ، ܥܠܝܠܐ ܒܗܢܐ ܡܘܬܒܐ.</translation>
+    </message>
+    <message>
+        <source>%count in %seconds s</source>
+        <translation>%count ܒ %seconds ܪ̈ܦܦܐ</translation>
+    </message>
+    <message>
+        <source>no limit</source>
+        <translation>ܠܐ ܬܚܘܡܐ</translation>
+    </message>
+    <message>
+        <source>Depth</source>
+        <translation>ܥܘܡܩܐ</translation>
+    </message>
+    <message>
+        <source>Complexity</source>
+        <translation>ܥܪܩܠܘܬܐ</translation>
+    </message>
+    <message>
+        <source>Items per list</source>
+        <translation>ܡܢܘ̈ܬܐ ܠܟܠ ܪܫܝܡܐ</translation>
+    </message>
+    <message>
+        <source>%max (default %default)</source>
+        <translation>%max (ܡܬܩܢܢܐ %default)</translation>
+    </message>
+    <message>
+        <source>Requests per user or key</source>
+        <translation>ܒܥܘ̈ܬܐ ܠܟܠ ܡܦܠܚܢܐ ܐܘ ܩܠܝܕܐ</translation>
+    </message>
+    <message>
+        <source>Requests per anonymous address</source>
+        <translation>ܒܥܘ̈ܬܐ ܠܟܠ ܡܘܢܥܐ ܠܐ ܝܕܝܥܐ</translation>
+    </message>
+    <message>
+        <source>Introspection</source>
+        <translation>ܒܨܝܐ ܓܘܝܐ</translation>
+    </message>
+    <message>
+        <source>Persisted queries only</source>
+        <translation>ܫܘܐ̈ܠܐ ܢܛܝܪ̈ܐ ܒܠܚܘܕ</translation>
+    </message>
+    <message>
+        <source>Largest query</source>
+        <translation>ܫܘܐܠܐ ܪܒܐ ܝܬܝܪ</translation>
+    </message>
+    <message>
+        <source>%bytes bytes</source>
+        <translation>%bytes ܒܝܬ̈ܐ</translation>
+    </message>
+    <message>
+        <source>Largest upload</source>
+        <translation>ܐܣܩܬܐ ܪܒܬܐ ܝܬܝܪ</translation>
+    </message>
+    <message>
+        <source>There is no siteaccess %siteaccess.</source>
+        <translation>ܠܝܬ ܡܥܠܢܐ ܕܐܬܪܐ %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched on in %siteaccess.</source>
+        <translation>ܫܘ̈ܚܠܦܐ ܦܥܝ̈ܠܝܢ ܒ %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The mutations are switched off in %siteaccess.</source>
+        <translation>ܫܘ̈ܚܠܦܐ ܒܛܝ̈ܠܝܢ ܒ %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched on in %siteaccess.</source>
+        <translation>API ܕ GraphQL ܦܥܝܠܐ ܒ %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in %siteaccess.</source>
+        <translation>API ܕ GraphQL ܒܛܝܠܐ ܒ %siteaccess.</translation>
+    </message>
+    <message>
+        <source>The settings could not be written: %error</source>
+        <translation>ܛܘܝ̈ܒܐ ܠܐ ܐܫܟܚܘ ܠܡܬܟܬܒܘ: %error</translation>
+    </message>
+    <message>
+        <source>The response cache was cleared: %count answers removed.</source>
+        <translation>cache ܕܦܘܢܝ̈ܐ ܐܬܕܟܝ: %count ܦܘܢܝ̈ܐ ܐܫܬܩܠܘ.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the query to remove it.</source>
+        <translation>ܪܫܘܡ ܩܘܛܝܐ ܕܠܓܒ ܫܘܐܠܐ ܕܬܫܩܘܠܝܘܗܝ.</translation>
+    </message>
+    <message>
+        <source>The query could not be removed: a query shipped in a directory of PersistedQueryDirectoryList[] is removed with its file.</source>
+        <translation>ܫܘܐܠܐ ܠܐ ܐܫܟܚ ܠܡܫܬܩܠܘ: ܫܘܐܠܐ ܕܡܫܕܪ ܒܡܕܪܫܐ ܕ PersistedQueryDirectoryList[] ܡܫܬܩܠ ܥܡ ܦܘܪܣܗ.</translation>
+    </message>
+    <message>
+        <source>The persisted query was removed.</source>
+        <translation>ܫܘܐܠܐ ܢܛܝܪܐ ܐܫܬܩܠ.</translation>
+    </message>
+    <message>
+        <source>Mutations</source>
+        <translation>ܫܘ̈ܚܠܦܐ</translation>
+    </message>
+    <message>
+        <source>on</source>
+        <translation>ܦܥܝܠܐ</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>ܒܛܝܠܐ</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>ܡܥܠܢ̈ܐ ܕܐܬܪܐ</translation>
+    </message>
+    <message>
+        <source>Where the API and its mutations answer. The buttons write graphql.ini, as ./console exp:graphql:enable and exp:graphql:disable do.</source>
+        <translation>ܐܝܟܐ ܕ API ܘܫܘ̈ܚܠܦܘܗܝ ܦܢܝܢ. ܩܦ̈ܣܐ ܟܬܒܝܢ graphql.ini، ܐܝܟ ܕܥܒܕܝܢ ./console exp:graphql:enable ܘ exp:graphql:disable.</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>ܡܥܠܢܐ ܕܐܬܪܐ</translation>
+    </message>
+    <message>
+        <source>GraphQL API</source>
+        <translation>API ܕ GraphQL</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>ܫܚܠܦ</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>ܒܛܠ</translation>
+    </message>
+    <message>
+        <source>Mutations off</source>
+        <translation>ܫܘ̈ܚܠܦܐ ܒܛܝ̈ܠܝܢ</translation>
+    </message>
+    <message>
+        <source>Mutations on</source>
+        <translation>ܫܘ̈ܚܠܦܐ ܦܥܝ̈ܠܝܢ</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>ܦܥܠ</translation>
+    </message>
+    <message>
+        <source>Limits</source>
+        <translation>ܬܚܘ̈ܡܐ</translation>
+    </message>
+    <message>
+        <source>graphql.ini [GraphQLSettings] of this siteaccess.</source>
+        <translation>graphql.ini [GraphQLSettings] ܕܗܢܐ ܡܥܠܢܐ ܕܐܬܪܐ.</translation>
+    </message>
+    <message>
+        <source>Response cache</source>
+        <translation>cache ܕܦܘܢܝ̈ܐ</translation>
+    </message>
+    <message>
+        <source>The answers of persisted queries, kept per user rights and expired whenever content is published.</source>
+        <translation>ܦܘܢܝ̈ܐ ܕܫܘܐ̈ܠܐ ܢܛܝܪ̈ܐ، ܢܛܝܪ̈ܝܢ ܐܝܟ ܫܘ̈ܠܛܢܐ ܕܡܦܠܚܢܐ ܘܫܠܡ ܙܒܢܗܘܢ ܟܠ ܐܡܬܝ ܕܡܠܝܘܬܐ ܡܬܦܪܣܡ.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>ܐܘܪܚܐ</translation>
+    </message>
+    <message>
+        <source>Answers kept</source>
+        <translation>ܦܘܢܝ̈ܐ ܢܛܝܪ̈ܐ</translation>
+    </message>
+    <message>
+        <source>%count answers, %bytes bytes</source>
+        <translation>%count ܦܘܢܝ̈ܐ، %bytes ܒܝܬ̈ܐ</translation>
+    </message>
+    <message>
+        <source>Kept at most</source>
+        <translation>ܢܛܝܪ ܥܕ</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds ܪ̈ܦܦܐ</translation>
+    </message>
+    <message>
+        <source>Last expired</source>
+        <translation>ܫܠܡ ܙܒܢܗ ܠܚܪܬܐ</translation>
+    </message>
+    <message>
+        <source>Clear the response cache</source>
+        <translation>ܕܟܝ cache ܕܦܘܢܝ̈ܐ</translation>
+    </message>
+    <message>
+        <source>Persisted queries</source>
+        <translation>ܫܘܐ̈ܠܐ ܢܛܝܪ̈ܐ</translation>
+    </message>
+    <message>
+        <source>Stored with ./console exp:graphql:persist, or by clients (automatic persisted queries); called by name or SHA-256.</source>
+        <translation>ܢܛܝܪ̈ܝܢ ܒ ./console exp:graphql:persist، ܐܘ ܡܢ ܡܩܒ̈ܠܢܐ (ܫܘܐ̈ܠܐ ܢܛܝܪ̈ܐ ܝܬܝܪ̈ܐ ܡܢ ܢܦܫܗܘܢ)؛ ܡܬܩܪܝܢ ܒܫܡܐ ܐܘ ܒ SHA-256.</translation>
+    </message>
+    <message>
+        <source>Names</source>
+        <translation>ܫܡܗ̈ܐ</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>ܪܒܘܬܐ</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>ܐܝܟܐ</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>ܫܩܘܠ</translation>
+    </message>
+    <message>
+        <source>shipped</source>
+        <translation>ܡܫܕܪ</translation>
+    </message>
+    <message>
+        <source>stored</source>
+        <translation>ܢܛܝܪ</translation>
+    </message>
+    <message>
+        <source>Yes, remove this query</source>
+        <translation>ܐܝܢ، ܫܩܘܠ ܗܢܐ ܫܘܐܠܐ</translation>
+    </message>
+    <message>
+        <source>No persisted query yet.</source>
+        <translation>ܥܕܡܐ ܠܗܫܐ ܠܝܬ ܫܘܐܠܐ ܢܛܝܪܐ.</translation>
+    </message>
+    <message>
+        <source>API keys</source>
+        <translation>ܩܠܝ̈ܕܐ ܕ API</translation>
+    </message>
+    <message>
+        <source>Personal API keys with the scope graphql:read (queries) or graphql:write (mutations). Make and revoke them on the page API access, or with ./console exp:graphql:keys.</source>
+        <translation>ܩܠܝ̈ܕܐ ܕ API ܦܪ̈ܨܘܦܝܐ ܥܡ ܚܘܕܪܐ graphql:read (ܫܘܐ̈ܠܐ) ܐܘ graphql:write (ܫܘ̈ܚܠܦܐ). ܥܒܕ ܘܒܛܠ ܐܢܘܢ ܒܦܐܬܐ ܡܥܠܢܐ ܕ API، ܐܘ ܒ ./console exp:graphql:keys.</translation>
+    </message>
+    <message>
+        <source>API access</source>
+        <translation>ܡܥܠܢܐ ܕ API</translation>
+    </message>
+    <message>
+        <source>All keys</source>
+        <translation>ܟܠ ܩܠܝ̈ܕܐ</translation>
+    </message>
+    <message>
+        <source>Key</source>
+        <translation>ܩܠܝܕܐ</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>ܫܡܐ</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>ܡܪܐ</translation>
+    </message>
+    <message>
+        <source>Scopes</source>
+        <translation>ܚܘܕܪ̈ܐ</translation>
+    </message>
+    <message>
+        <source>Last used</source>
+        <translation>ܐܬܦܠܚ ܠܚܪܬܐ</translation>
+    </message>
+    <message>
+        <source>active</source>
+        <translation>ܦܥܝܠܐ</translation>
+    </message>
+    <message>
+        <source>expired</source>
+        <translation>ܫܠܡ ܙܒܢܗ</translation>
+    </message>
+    <message>
+        <source>revoked</source>
+        <translation>ܒܛܝܠܐ</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>ܠܐ ܡܡܬܘܡ</translation>
+    </message>
+    <message>
+        <source>No API key with a GraphQL scope yet.</source>
+        <translation>ܥܕܡܐ ܠܗܫܐ ܠܝܬ ܩܠܝܕܐ ܕ API ܥܡ ܚܘܕܪܐ ܕ GraphQL.</translation>
+    </message>
+    <message>
+        <source>The GraphQL API is switched off in the siteaccess %siteaccess, which shows this page; the table below shows where it answers.</source>
+        <translation>API ܕ GraphQL ܒܛܝܠܐ ܒܡܥܠܢܐ ܕܐܬܪܐ %siteaccess ܕܡܚܘܐ ܠܗܕܐ ܦܐܬܐ؛ ܠܘܚܐ ܕܠܬܚܬ ܡܚܘܐ ܐܝܟܐ ܕܥܢܐ.</translation>
+    </message>
+    <message>
+        <source>For the siteaccess %siteaccess, which shows this page.</source>
+        <translation>ܠܡܥܠܢܐ ܕܐܬܪܐ %siteaccess ܕܡܚܘܐ ܠܗܕܐ ܦܐܬܐ.</translation>
+    </message>
+    <message>
+        <source>Webhooks</source>
+        <translation>ܘܝܒܗܘܟ̈ܐ</translation>
+    </message>
+    <message>
+        <source>Every event an end point asks for (publish, update, trash, delete, move, hide, reveal, mutation) is sent to it, signed, by the cronjob part graphqlwebhooks. ./console exp:graphql:webhooks does the same as this section.</source>
+        <translation>ܟܠ ܓܕܫܐ ܕܢܘܩܙܐ ܕܣܘܦܐ ܒܥܐ (publish, update, trash, delete, move, hide, reveal, mutation) ܡܫܬܕܪ ܠܗ، ܚܬܝܡܐ، ܡܢ ܡܢܬܐ ܕ cronjob graphqlwebhooks. ./console exp:graphql:webhooks ܥܒܕ ܗܝ ܕܐܝܟ ܗܢܐ ܦܣܘܩܐ.</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>ܓܕ̈ܫܐ</translation>
+    </message>
+    <message>
+        <source>all</source>
+        <translation>ܟܠܗܘܢ</translation>
+    </message>
+    <message>
+        <source>Every siteaccess</source>
+        <translation>ܟܠ ܡܥܠܢܐ ܕܐܬܪܐ</translation>
+    </message>
+    <message>
+        <source>broken</source>
+        <translation>ܬܒܝܪܐ</translation>
+    </message>
+    <message>
+        <source>no secret</source>
+        <translation>ܠܐ ܐܪܙܐ</translation>
+    </message>
+    <message>
+        <source>Waiting</source>
+        <translation>ܡܣܟܝܢ</translation>
+    </message>
+    <message>
+        <source>%count given up</source>
+        <translation>%count ܫܒܝܩܝܢ</translation>
+    </message>
+    <message>
+        <source>Last delivery</source>
+        <translation>ܫܕܪܐ ܐܚܪܝܐ</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>ܫܕܪ ܢܣܝܘܢܐ</translation>
+    </message>
+    <message>
+        <source>Yes, remove this webhook</source>
+        <translation>ܐܝܢ، ܫܩܘܠ ܗܢܐ ܘܝܒܗܘܟ</translation>
+    </message>
+    <message>
+        <source>No webhook yet.</source>
+        <translation>ܥܕܡܐ ܠܗܫܐ ܠܝܬ ܘܝܒܗܘܟ.</translation>
+    </message>
+    <message>
+        <source>Add a webhook</source>
+        <translation>ܐܘܣܦ ܘܝܒܗܘܟ</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>ܐܘܣܦ</translation>
+    </message>
+    <message>
+        <source>Recent deliveries</source>
+        <translation>ܫܕܪ̈ܐ ܚܕ̈ܬܐ</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>ܥܕܢܐ</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>ܦܐܪܐ</translation>
+    </message>
+    <message>
+        <source>Subscriptions</source>
+        <translation>ܡܫܬܘܬܦܘ̈ܝܬܐ</translation>
+    </message>
+    <message>
+        <source>Live updates for clients: an event stream at /api/graphql/subscribe, and a WebSocket (graphql-transport-ws) on Velocity. Each event goes only to subscribers who may read its content.</source>
+        <translation>ܚܘܕ̈ܬܐ ܚܝ̈ܐ ܠܡܩܒܠ̈ܢܐ: ܪܕܝܐ ܕܓܕ̈ܫܐ ܒ /api/graphql/subscribe، ܘ WebSocket (graphql-transport-ws) ܥܠ Velocity. ܟܠ ܓܕܫܐ ܐܙܠ ܠܚܘܕ ܠܡܫܬܘܬܦ̈ܢܐ ܕܡܨܝܢ ܠܡܩܪܐ ܡܠܝܘܬܗ.</translation>
+    </message>
+    <message>
+        <source>Open now</source>
+        <translation>ܦܬܝܚܢ ܗܫܐ</translation>
+    </message>
+    <message>
+        <source>Most open</source>
+        <translation>ܣܟܐ ܕܦܬܝܚܢ</translation>
+    </message>
+    <message>
+        <source>%total in all, %user per user, %address per address</source>
+        <translation>%total ܒܟܠ، %user ܠܟܠ ܡܦܠܚܢܐ، %address ܠܟܠ ܡܘܢܥܐ</translation>
+    </message>
+    <message>
+        <source>Anonymous subscriptions</source>
+        <translation>ܡܫܬܘܬܦܘ̈ܝܬܐ ܕܠܐ ܫܡܐ</translation>
+    </message>
+    <message>
+        <source>Stream length</source>
+        <translation>ܐܘܪܟܐ ܕܪܕܝܐ</translation>
+    </message>
+    <message>
+        <source>The webhook could not be added: %error</source>
+        <translation>ܘܝܒܗܘܟ ܠܐ ܐܫܟܚ ܠܡܬܘܣܦܘ: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name was changed; its signing secret stays.</source>
+        <translation>ܘܝܒܗܘܟ %name ܐܫܬܚܠܦ؛ ܐܪܙܐ ܕܚܬܡܐ ܕܝܠܗ ܩܐܡ.</translation>
+    </message>
+    <message>
+        <source>The signing secret could not be stored (Setup &gt; Secrets).</source>
+        <translation>ܐܪܙܐ ܕܚܬܡܐ ܠܐ ܐܫܟܚ ܠܡܬܢܛܪܘ (ܛܘܝܒܐ &gt; ܐܪ̈ܙܐ).</translation>
+    </message>
+    <message>
+        <source>The webhook %name was added. Its signing secret, shown this once: %secret</source>
+        <translation>ܘܝܒܗܘܟ %name ܐܬܘܣܦ. ܐܪܙܐ ܕܚܬܡܐ ܕܝܠܗ، ܡܬܚܙܐ ܗܕܐ ܙܒܢܬܐ ܠܚܘܕ: %secret</translation>
+    </message>
+    <message>
+        <source>There is no webhook %name.</source>
+        <translation>ܠܝܬ ܘܝܒܗܘܟ %name.</translation>
+    </message>
+    <message>
+        <source>The webhook %name did not answer: %error</source>
+        <translation>ܘܝܒܗܘܟ %name ܠܐ ܦܢܝ: %error</translation>
+    </message>
+    <message>
+        <source>The webhook %name answered %status in %ms ms.</source>
+        <translation>ܘܝܒܗܘܟ %name ܦܢܝ %status ܒ %ms ms.</translation>
+    </message>
+    <message>
+        <source>Tick the box beside the webhook to remove it.</source>
+        <translation>ܪܫܘܡ ܩܘܛܝܐ ܕܠܓܒ ܘܝܒܗܘܟ ܕܬܫܩܘܠܝܘܗܝ.</translation>
+    </message>
+    <message>
+        <source>The webhook %name was removed.</source>
+        <translation>ܘܝܒܗܘܟ %name ܐܫܬܩܠ.</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/graphql</name>
+    <message>
+        <source>The GraphQL API is switched off in this siteaccess.</source>
+        <translation>API ܕ GraphQL ܒܛܝܠܐ ܒܗܢܐ ܡܥܠܢܐ ܕܐܬܪܐ.</translation>
+    </message>
+    <message>
+        <source>The GraphQL library is not installed.</source>
+        <translation>ܒܝܬ ܟܬܒܐ ܕ GraphQL ܠܐ ܡܬܩܝܡ.</translation>
+    </message>
+    <message>
+        <source>Use GET or POST.</source>
+        <translation>ܦܠܘܚ ܒ GET ܐܘ POST.</translation>
+    </message>
+    <message>
+        <source>The body is not a JSON object.</source>
+        <translation>ܓܘܫܡܐ ܕܒܥܘܬܐ ܠܐ ܗܘܐ ܨܒܘܬܐ ܕ JSON.</translation>
+    </message>
+    <message>
+        <source>variables is not a JSON object.</source>
+        <translation>variables ܠܐ ܗܘܐ ܨܒܘܬܐ ܕ JSON.</translation>
+    </message>
+    <message>
+        <source>extensions is not a JSON object.</source>
+        <translation>extensions ܠܐ ܗܘܐ ܨܒܘܬܐ ܕ JSON.</translation>
+    </message>
+    <message>
+        <source>Send the query with POST.</source>
+        <translation>ܫܕܪ ܫܘܐܠܐ ܒ POST.</translation>
+    </message>
+    <message>
+        <source>The request has no query.</source>
+        <translation>ܒܥܘܬܐ ܠܝܬ ܒܗ ܫܘܐܠܐ.</translation>
+    </message>
+    <message>
+        <source>The query is longer than %max bytes.</source>
+        <translation>ܫܘܐܠܐ ܐܪܝܟ ܡܢ %max ܒܐܝܬܐ.</translation>
+    </message>
+    <message>
+        <source>Internal server error</source>
+        <translation>ܛܥܝܘܬܐ ܓܘܝܬܐ ܕܡܫܡܫܢܐ</translation>
+    </message>
+    <message>
+        <source>node needs exactly one of id, remoteId, path and urlAlias.</source>
+        <translation>node ܣܢܝܩ ܠܚܕ ܒܠܚܘܕ ܡܢ id، remoteId، path ܘ urlAlias.</translation>
+    </message>
+    <message>
+        <source>content needs exactly one of id and remoteId.</source>
+        <translation>content ܣܢܝܩ ܠܚܕ ܒܠܚܘܕ ܡܢ id ܘ remoteId.</translation>
+    </message>
+    <message>
+        <source>The cursor of after is not one this API gave.</source>
+        <translation>ܣܡܢܐ ܕ after ܠܐ ܗܘܐ ܡܢ ܗܢܐ API.</translation>
+    </message>
+    <message>
+        <source>There is no image alias %alias (image.ini [AliasSettings] AliasList[]).</source>
+        <translation>ܠܝܬ ܫܡܐ ܐܚܪܢܐ ܕܨܘܪܬܐ %alias (image.ini [AliasSettings] AliasList[]).</translation>
+    </message>
+    <message>
+        <source>Only persisted queries are accepted here: send the id of a stored query.</source>
+        <translation>ܗܪܟܐ ܡܬܩܒܠܝܢ ܒܠܚܘܕ ܫܘܐ̈ܠܐ ܢܛܝܪ̈ܐ: ܫܕܪ id ܕܫܘܐܠܐ ܢܛܝܪܐ.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash is not a SHA-256.</source>
+        <translation>hash ܕܫܘܐܠܐ ܢܛܝܪܐ ܠܐ ܗܘܐ SHA-256.</translation>
+    </message>
+    <message>
+        <source>The persisted query hash does not match the query.</source>
+        <translation>hash ܕܫܘܐܠܐ ܢܛܝܪܐ ܠܐ ܫܘܐ ܠܫܘܐܠܐ.</translation>
+    </message>
+    <message>
+        <source>Too many requests: at most %limit in %window seconds. Try again in %reset seconds.</source>
+        <translation>ܒܥܘ̈ܬܐ ܣܓܝܐܬܐ ܛܒ: ܥܕ %limit ܒ %window ܪ̈ܦܦܐ. ܢܣܝ ܬܘܒ ܒܬܪ %reset ܪ̈ܦܦܐ.</translation>
+    </message>
+    <message>
+        <source>The query is %depth levels deep; at most %max are allowed.</source>
+        <translation>ܫܘܐܠܐ ܥܡܝܩ %depth ܕܪ̈ܓܐ؛ ܥܕ %max ܡܦܣܝܢ.</translation>
+    </message>
+    <message>
+        <source>The query has a complexity of %complexity; at most %max is allowed.</source>
+        <translation>ܠܫܘܐܠܐ ܐܝܬ ܥܪܩܠܘܬܐ %complexity؛ ܥܕ %max ܡܦܣܐ.</translation>
+    </message>
+    <message>
+        <source>This request may not read the schema (introspection).</source>
+        <translation>ܗܕܐ ܒܥܘܬܐ ܠܐ ܡܦܣܐ ܠܗ ܠܡܩܪܐ ܠܣܟܡܐ (introspection).</translation>
+    </message>
+    <message>
+        <source>search needs a text or a filter (classes, subtree, sections, publishedAfter, publishedBefore).</source>
+        <translation>search ܣܢܝܩ ܠܟܬܒܐ ܐܘ ܠܡܨܠܠܢܐ (classes, subtree, sections, publishedAfter, publishedBefore).</translation>
+    </message>
+    <message>
+        <source>%argument is not a date (ISO 8601, 2026-10-30).</source>
+        <translation>%argument ܠܐ ܗܘܐ ܬܐܪܝܟܐ (ISO 8601, 2026-10-30).</translation>
+    </message>
+    <message>
+        <source>tag needs exactly one of id, remoteId and path.</source>
+        <translation>tag ܣܢܝܩ ܠܚܕ ܒܠܚܘܕ ܡܢ id، remoteId ܘ path.</translation>
+    </message>
+    <message>
+        <source>layout needs exactly one of id, identifier and urlAlias.</source>
+        <translation>layout ܣܢܝܩ ܠܚܕ ܒܠܚܘܕ ܡܢ id، identifier ܘ urlAlias.</translation>
+    </message>
+    <message>
+        <source>The field operations of a multipart request is not one JSON request.</source>
+        <translation>ܚܩܠܐ operations ܕܒܥܘܬܐ multipart ܠܐ ܗܘܐ ܚܕܐ ܒܥܘܬܐ JSON.</translation>
+    </message>
+    <message>
+        <source>The field map of a multipart request is not a JSON object.</source>
+        <translation>ܚܩܠܐ map ܕܒܥܘܬܐ multipart ܠܐ ܗܘܐ ܨܒܘܬܐ JSON.</translation>
+    </message>
+    <message>
+        <source>The multipart request has no file %field.</source>
+        <translation>ܒܥܘܬܐ multipart ܠܝܬ ܠܗ ܦܘܪܣܐ %field.</translation>
+    </message>
+    <message>
+        <source>A path of the field map must start with variables.: %path</source>
+        <translation>ܫܒܝܠܐ ܕܚܩܠܐ map ܘܠܐ ܕܢܫܪܐ ܒ variables.: %path</translation>
+    </message>
+    <message>
+        <source>The file %name did not arrive whole (upload error %error).</source>
+        <translation>ܦܘܪܣܐ %name ܠܐ ܡܛܐ ܓܡܝܪܐ (ܛܥܝܘܬܐ ܕܐܣܩܬܐ %error).</translation>
+    </message>
+    <message>
+        <source>The file %name is larger than %max bytes.</source>
+        <translation>ܦܘܪܣܐ %name ܪܒ ܡܢ %max ܒܝܬ̈ܐ.</translation>
+    </message>
+    <message>
+        <source>The file %name could not be checked.</source>
+        <translation>ܦܘܪܣܐ %name ܠܐ ܐܫܟܚ ܠܡܬܒܨܝܘ.</translation>
+    </message>
+    <message>
+        <source>Mutations are switched off in this siteaccess (graphql.ini [GraphQLSettings] MutationsEnabled).</source>
+        <translation>ܫܘ̈ܚܠܦܐ ܒܛܝܠܝܢ ܒܗܢܐ ܡܥܠܢܐ ܕܐܬܪܐ (graphql.ini [GraphQLSettings] MutationsEnabled).</translation>
+    </message>
+    <message>
+        <source>Send a mutation with POST.</source>
+        <translation>ܫܕܪ ܫܘܚܠܦܐ ܒ POST.</translation>
+    </message>
+    <message>
+        <source>Sign in to change content.</source>
+        <translation>ܥܘܠ ܕܬܫܚܠܦ ܡܠܝܘܬܐ.</translation>
+    </message>
+    <message>
+        <source>The API key has no scope %scope.</source>
+        <translation>ܩܠܝܕܐ ܕ API ܠܝܬ ܠܗ ܚܘܕܪܐ %scope.</translation>
+    </message>
+    <message>
+        <source>A mutation with a session needs the form token of the session (header X-CSRF-Token).</source>
+        <translation>ܫܘܚܠܦܐ ܥܡ ܡܘܬܒܐ ܣܢܝܩ ܠܐܬܐ ܕܛܘܦܣܐ ܕܡܘܬܒܐ (ܪܫܐ X-CSRF-Token).</translation>
+    </message>
+    <message>
+        <source>uploadFromUrl is switched off: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] names no host.</source>
+        <translation>uploadFromUrl ܒܛܝܠܐ: graphql.ini [GraphQLSettings] UploadFromUrlHostList[] ܠܐ ܩܪܐ ܠܫܡܐ ܕܡܫܡܫܢܐ ܡܕܡ.</translation>
+    </message>
+    <message>
+        <source>The address must be an https address.</source>
+        <translation>ܡܘܢܥܐ ܘܠܐ ܕܢܗܘܐ ܡܘܢܥܐ https.</translation>
+    </message>
+    <message>
+        <source>The host %host is not in graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</source>
+        <translation>ܡܫܡܫܢܐ %host ܠܝܬܘܗܝ ܒ graphql.ini [GraphQLSettings] UploadFromUrlHostList[].</translation>
+    </message>
+    <message>
+        <source>The file could not be fetched.</source>
+        <translation>ܦܘܪܣܐ ܠܐ ܐܫܟܚ ܠܡܬܝܬܝܘ.</translation>
+    </message>
+    <message>
+        <source>Upload is an input type only.</source>
+        <translation>Upload ܗܘ ܓܢܣܐ ܕܡܥܠܬܐ ܒܠܚܘܕ.</translation>
+    </message>
+    <message>
+        <source>A variable of type Upload takes a file of a multipart request.</source>
+        <translation>ܡܫܚܠܦܢܐ ܕܓܢܣܐ Upload ܢܣܒ ܦܘܪܣܐ ܕܒܥܘܬܐ multipart.</translation>
+    </message>
+    <message>
+        <source>The remote id %remoteId is taken.</source>
+        <translation>remote id %remoteId ܡܬܚܫܚ ܗܘܐ ܡܢ ܩܕܝܡ.</translation>
+    </message>
+    <message>
+        <source>The content has a translation in %language already: use updateContent.</source>
+        <translation>ܠܡܠܝܘܬܐ ܐܝܬ ܠܗ ܬܘܪܓܡܐ ܒ %language ܡܢ ܩܕܝܡ: ܦܠܘܚ ܒ updateContent.</translation>
+    </message>
+    <message>
+        <source>Give at least one field.</source>
+        <translation>ܗܒ ܠܟܡܐ ܚܕ ܚܩܠܐ.</translation>
+    </message>
+    <message>
+        <source>No new version could be made (the content has too many drafts).</source>
+        <translation>ܠܐ ܐܫܟܚ ܠܡܬܥܒܕ ܢܘܣܚܐ ܚܕܬܐ (ܠܡܠܝܘܬܐ ܐܝܬ ܠܗ ܣܘܪ̈ܛܐ ܣܓܝܐܐ ܛܒ).</translation>
+    </message>
+    <message>
+        <source>Version %version is not a draft.</source>
+        <translation>ܢܘܣܚܐ %version ܠܐ ܗܘܐ ܣܘܪܛܐ.</translation>
+    </message>
+    <message>
+        <source>deleteContent needs exactly one of id and nodeId.</source>
+        <translation>deleteContent ܣܢܝܩ ܠܚܕ ܒܠܚܘܕ ܡܢ id ܘ nodeId.</translation>
+    </message>
+    <message>
+        <source>A location cannot be moved below itself.</source>
+        <translation>ܕܘܟܬܐ ܠܐ ܡܫܟܚܐ ܠܡܫܢܝܘ ܠܬܚܬ ܡܢ ܢܦܫܗ.</translation>
+    </message>
+    <message>
+        <source>The content has a location below %parentId already.</source>
+        <translation>ܠܡܠܝܘܬܐ ܐܝܬ ܠܗ ܕܘܟܬܐ ܠܬܚܬ ܡܢ %parentId ܡܢ ܩܕܝܡ.</translation>
+    </message>
+    <message>
+        <source>The value of the field %field could not be stored.</source>
+        <translation>ܛܝܡܐ ܕܚܩܠܐ %field ܠܐ ܐܫܟܚ ܠܡܬܢܛܪܘ.</translation>
+    </message>
+    <message>
+        <source>There is no content language %language.</source>
+        <translation>ܠܝܬ ܠܫܢܐ ܕܡܠܝܘܬܐ %language.</translation>
+    </message>
+    <message>
+        <source>There is no content class %class in the schema.</source>
+        <translation>ܠܝܬ ܙܢܐ ܕܡܠܝܘܬܐ %class ܒܣܟܡܐ.</translation>
+    </message>
+    <message>
+        <source>The content is not there, or you may not read it.</source>
+        <translation>ܡܠܝܘܬܐ ܠܝܬܘܗܝ، ܐܘ ܠܐ ܡܦܣܐ ܠܟ ܠܡܩܪܝܘܗܝ.</translation>
+    </message>
+    <message>
+        <source>You may not do this to this content.</source>
+        <translation>ܠܐ ܡܦܣܐ ܠܟ ܠܡܥܒܕ ܗܕܐ ܠܗܢܐ ܡܠܝܘܬܐ.</translation>
+    </message>
+    <message>
+        <source>The class %class has no field %field that may be written.</source>
+        <translation>ܠܙܢܐ %class ܠܝܬ ܠܗ ܚܩܠܐ %field ܕܡܦܣܐ ܠܡܟܬܒܘ.</translation>
+    </message>
+    <message>
+        <source>The field %field is given twice.</source>
+        <translation>ܚܩܠܐ %field ܝܗܝܒ ܬܪܬܝܢ ܙܒ̈ܢܝܢ.</translation>
+    </message>
+    <message>
+        <source>The field %field takes a file: send it as upload (a multipart request).</source>
+        <translation>ܚܩܠܐ %field ܢܣܒ ܦܘܪܣܐ: ܫܕܪܝܗܝ ܐܝܟ ܐܣܩܬܐ (ܒܥܘܬܐ multipart).</translation>
+    </message>
+    <message>
+        <source>The field %field takes no file.</source>
+        <translation>ܚܩܠܐ %field ܠܐ ܢܣܒ ܦܘܪܣܐ.</translation>
+    </message>
+    <message>
+        <source>The field %field needs a value.</source>
+        <translation>ܚܩܠܐ %field ܣܢܝܩ ܠܛܝܡܐ.</translation>
+    </message>
+    <message>
+        <source>The format %format is only for rich text fields; %field takes its value as it is (RAW).</source>
+        <translation>ܐܣܟܝܡܐ %format ܗܘ ܒܠܚܘܕ ܠܚܩ̈ܠܐ ܕܟܬܝܒܬܐ ܥܬܝܪܬܐ؛ %field ܢܣܒ ܛܝܡܗ ܐܝܟ ܕܐܝܬܘܗܝ (RAW).</translation>
+    </message>
+    <message>
+        <source>The field %field is required.</source>
+        <translation>ܚܩܠܐ %field ܐܠܨܝܐ.</translation>
+    </message>
+    <message>
+        <source>The HTML could not be read.</source>
+        <translation>HTML ܠܐ ܐܫܟܚ ܠܡܬܩܪܝܘ.</translation>
+    </message>
+    <message>
+        <source>content takes version with id only.</source>
+        <translation>content ܢܣܒ version ܥܡ id ܒܠܚܘܕ.</translation>
+    </message>
+    <message>
+        <source>The preview token is not valid or has expired.</source>
+        <translation>ܐܬܐ ܕܚܙܬܐ ܩܕܡܝܬܐ ܠܐ ܫܪܝܪܐ ܐܘ ܫܠܡ ܙܒܢܗ.</translation>
+    </message>
+    <message>
+        <source>Not an origin (https://host or https://host:port): %origin</source>
+        <translation>ܠܐ ܗܘܐ ܡܒܘܥܐ (https://host ܐܘ https://host:port): %origin</translation>
+    </message>
+    <message>
+        <source>Not a scope of the GraphQL API: %scope (graphql:read, graphql:write)</source>
+        <translation>ܠܐ ܗܘܐ ܚܘܕܪܐ ܕ API ܕ GraphQL: %scope (graphql:read, graphql:write)</translation>
+    </message>
+    <message>
+        <source>Send subscriptions to /api/graphql/subscribe (an event stream or a WebSocket).</source>
+        <translation>ܫܕܪ ܡܫܬܘܬܦܘ̈ܝܬܐ ܠ /api/graphql/subscribe (ܪܕܝܐ ܕܓܕ̈ܫܐ ܐܘ WebSocket).</translation>
+    </message>
+    <message>
+        <source>The request names no operation of the document.</source>
+        <translation>ܒܥܘܬܐ ܠܐ ܩܪܝܐ ܫܡܐ ܕܥܒܕܐ ܡܢ ܟܬܒܐ.</translation>
+    </message>
+    <message>
+        <source>A subscription asks for exactly one field.</source>
+        <translation>ܡܫܬܘܬܦܘܬܐ ܒܥܝܐ ܚܕ ܚܩܠܐ ܒܠܚܘܕ.</translation>
+    </message>
+    <message>
+        <source>Too many subscriptions are open; try again later.</source>
+        <translation>ܡܫܬܘܬܦܘ̈ܝܬܐ ܣܓܝܐܬܐ ܛܒ ܦܬܝܚܢ؛ ܢܣܝ ܬܘܒ ܒܬܪܟܢ.</translation>
+    </message>
+    <message>
+        <source>You have %max subscriptions open, the most allowed.</source>
+        <translation>ܐܝܬ ܠܟ %max ܡܫܬܘܬܦܘ̈ܝܬܐ ܦܬܝܚ̈ܬܐ، ܣܟܐ ܕܡܦܣܐ.</translation>
+    </message>
+    <message>
+        <source>Your address has %max subscriptions open, the most allowed.</source>
+        <translation>ܠܡܘܢܥܐ ܕܝܠܟ ܐܝܬ %max ܡܫܬܘܬܦܘ̈ܝܬܐ ܦܬܝܚ̈ܬܐ، ܣܟܐ ܕܡܦܣܐ.</translation>
+    </message>
+    <message>
+        <source>Subscriptions are switched off in this siteaccess.</source>
+        <translation>ܡܫܬܘܬܦܘ̈ܝܬܐ ܒܛܝܠܢ ܒܗܢܐ ܡܥܠܢܐ ܕܐܬܪܐ.</translation>
+    </message>
+    <message>
+        <source>Sign in to subscribe (a token or a personal API key).</source>
+        <translation>ܥܘܠ ܕܬܫܬܘܬܦ (ܐܬܐ ܐܘ ܩܠܝܕܐ ܕ API ܦܪܨܘܦܝܐ).</translation>
+    </message>
+    <message>
+        <source>Send mutations to /api/graphql.</source>
+        <translation>ܫܕܪ ܫܘ̈ܚܠܦܐ ܠ /api/graphql.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/migrations</name>
+    <message>
+        <source>Migrations</source>
+        <translation>ܫܘܢ̈ܝܐ</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>ܡܩܡܐ ܠܐ ܐܫܬܟܚ ܠܡܬܩܪܝܘ: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>ܛܒܠ̈ܐ ܕܫܘܢ̈ܝܐ ܠܐ ܐܝܬܝܗܘܢ ܥܕܡܐ ܠܗܫܐ: ./console exp:upgrade --apply ܒܪܐ ܠܗܘܢ.</translation>
+    </message>
+    <message>
+        <source>%count migrations failed</source>
+        <translation>%count ܫܘܢ̈ܝܐ ܠܐ ܐܨܠܚܘ</translation>
+    </message>
+    <message>
+        <source>A run is going on, started by %user</source>
+        <translation>ܡܪܗܛܐ ܡܬܥܒܕ، ܫܪܝ ܠܗ %user</translation>
+    </message>
+    <message>
+        <source>The installation is locked: %holder</source>
+        <translation>ܐܩܡܬܐ ܩܦܝܠܐ: %holder</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>ܡܣܟܝܐ</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>ܠܐ ܐܨܠܚ</translation>
+    </message>
+    <message>
+        <source>Orphans</source>
+        <translation>ܝܬܡ̈ܐ</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>ܪܘܗܛܐ ܐܚܪܝܐ</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>ܠܐ ܚܕ ܥܕܡܐ ܠܗܫܐ</translation>
+    </message>
+    <message>
+        <source>All migrations</source>
+        <translation>ܟܠܗܘܢ ܫܘܢ̈ܝܐ</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/migration</name>
+    <message>
+        <source>Simulated run</source>
+        <translation>ܡܪܗܛܐ ܡܕܡܝܐ</translation>
+    </message>
+    <message>
+        <source>Dry run</source>
+        <translation>ܪܗܛܐ ܕܒܘܚܪܢܐ</translation>
+    </message>
+    <message>
+        <source>The pending migrations ran in a transaction that was rolled back afterwards: nothing was kept. Below is what each one changed in the database.</source>
+        <translation>ܫܘܢ̈ܝܐ ܡܣܟܝ̈ܢܐ ܪܗܛܘ ܒܥܒܪܐ ܕܐܬܗܦܟ ܠܒܣܬܪ ܡܢ ܒܬܪܟܢ: ܡܕܡ ܠܐ ܐܬܢܛܪ. ܠܬܚܬ ܐܝܬ ܡܐ ܕܟܠ ܚܕ ܡܢܗܘܢ ܫܚܠܦ ܒܒܝܬ ܝܕ̈ܥܬܐ.</translation>
+    </message>
+    <message>
+        <source>What a run would do now. Nothing is changed: each pending migration lists the changes it would make, and the run what it would do before and after.</source>
+        <translation>ܡܐ ܕܡܪܗܛܐ ܥܒܕ ܗܘܐ ܗܫܐ. ܡܕܡ ܠܐ ܡܫܬܚܠܦ: ܟܠ ܫܘܢܝܐ ܡܣܟܝܐ ܡܡܢܐ ܫܘ̈ܚܠܦܐ ܕܥܒܕ ܗܘܐ، ܘܡܪܗܛܐ ܡܐ ܕܥܒܕ ܗܘܐ ܩܕܡ ܘܒܬܪ.</translation>
+    </message>
+    <message>
+        <source>Simulate</source>
+        <translation>ܡܕܡܝܐ</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>ܡܪܗܛܐ</translation>
+    </message>
+    <message>
+        <source>The dry run failed: %problem</source>
+        <translation>ܪܗܛܐ ܕܒܘܚܪܢܐ ܠܐ ܐܨܠܚ: %problem</translation>
+    </message>
+    <message>
+        <source>A simulation needs PostgreSQL or SQLite, whose schema changes can be rolled back; on this database the plan below is what a run would do.</source>
+        <translation>ܕܡܘܬܐ ܣܢܝܩܐ ܠ PostgreSQL ܐܘ SQLite، ܕܫܘ̈ܚܠܦܐ ܕܣܟܡܐ ܕܝܠܗܘܢ ܡܨܝܢ ܕܢܬܗܦܟܘܢ ܠܒܣܬܪ؛ ܒܗܢܐ ܒܝܬ ܝܕ̈ܥܬܐ ܬܪܥܝܬܐ ܕܠܬܚܬ ܗܝ ܡܐ ܕܡܪܗܛܐ ܥܒܕ ܗܘܐ.</translation>
+    </message>
+    <message>
+        <source>The migrations</source>
+        <translation>ܫܘܢ̈ܝܐ</translation>
+    </message>
+    <message>
+        <source>Migration</source>
+        <translation>ܫܘܢܝܐ</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>ܡܩܡܐ</translation>
+    </message>
+    <message>
+        <source>What it would do</source>
+        <translation>ܡܐ ܕܥܒܕ ܗܘܐ</translation>
+    </message>
+    <message>
+        <source>Simulation: %result in %ms ms</source>
+        <translation>ܕܡܘܬܐ: %result ܒ %ms ms</translation>
+    </message>
+    <message>
+        <source>No migration yet.</source>
+        <translation>ܠܝܬ ܫܘܢܝܐ ܥܕܡܐ ܠܗܫܐ.</translation>
+    </message>
+    <message>
+        <source>Before and after the run</source>
+        <translation>ܩܕܡ ܡܪܗܛܐ ܘܒܬܪܗ</translation>
+    </message>
+    <message>
+        <source>Caption before</source>
+        <translation>ܢܘܣܚܐ ܕܣܡܟܐ ܕܩܕܡ</translation>
+    </message>
+    <message>
+        <source>taken, and restored when a migration fails</source>
+        <translation>ܡܬܢܣܒ، ܘܡܬܕܥܪ ܟܕ ܫܘܢܝܐ ܠܐ ܡܨܠܚ</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>ܒܛܝܠ</translation>
+    </message>
+    <message>
+        <source>Caption after</source>
+        <translation>ܢܘܣܚܐ ܕܣܡܟܐ ܕܒܬܪ</translation>
+    </message>
+    <message>
+        <source>taken when the run passed</source>
+        <translation>ܡܬܢܣܒ ܟܕ ܡܪܗܛܐ ܐܨܠܚ</translation>
+    </message>
+    <message>
+        <source>%total migrations: %pending pending, %done done, %failed failed.</source>
+        <translation>%total ܫܘܢ̈ܝܐ: %pending ܡܣܟܝܢ، %done ܓܡܝܪܝܢ، %failed ܠܐ ܐܨܠܚܘ.</translation>
+    </message>
+    <message>
+        <source>Migration history</source>
+        <translation>ܬܫܥܝܬܐ ܕܫܘܢ̈ܝܐ</translation>
+    </message>
+    <message>
+        <source>Every run with its user, environment, captions and what was committed, tagged and pushed. A failed or interrupted run can be resumed; a run with a caption taken before it can be taken back.</source>
+        <translation>ܟܠ ܡܪܗܛܐ ܥܡ ܡܦܠܚܢܐ ܕܝܠܗ، ܣܒܝܒܘܬܐ، ܢܘܣ̈ܚܐ ܕܣܡܟܐ ܘܡܐ ܕܐܬܥܒܕ ܠܗ ܩܘܡܝܛ، ܛܐܓ ܘܦܘܫ. ܡܪܗܛܐ ܕܠܐ ܐܨܠܚ ܐܘ ܕܐܬܦܣܩ ܡܨܐ ܕܡܫܬܪܐ ܬܘܒ؛ ܡܪܗܛܐ ܕܐܬܢܣܒ ܢܘܣܚܐ ܕܣܡܟܐ ܩܕܡܘܗܝ ܡܨܐ ܕܡܬܗܦܟ ܠܒܣܬܪ.</translation>
+    </message>
+    <message>
+        <source>The runs could not be read: %problem</source>
+        <translation>ܡܪ̈ܗܛܐ ܠܐ ܐܫܬܟܚܘ ܠܡܬܩܪܝܘ: %problem</translation>
+    </message>
+    <message>
+        <source>The tables of the migrations do not exist yet: ./console exp:upgrade --apply makes them.</source>
+        <translation>ܛܒܠ̈ܐ ܕܫܘܢ̈ܝܐ ܠܐ ܐܝܬܝܗܘܢ ܥܕܡܐ ܠܗܫܐ: ./console exp:upgrade --apply ܒܪܐ ܠܗܘܢ.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>ܡܚܘܝܐ</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>ܟܠ</translation>
+    </message>
+    <message>
+        <source>Runs</source>
+        <translation>ܡܪ̈ܗܛܐ</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>ܫܪܝ</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>ܡܢ</translation>
+    </message>
+    <message>
+        <source>Captions</source>
+        <translation>ܢܘܣ̈ܚܐ ܕܣܡܟܐ</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>ܓܙܐ</translation>
+    </message>
+    <message>
+        <source>Actions</source>
+        <translation>ܣܘܥܪ̈ܢܐ</translation>
+    </message>
+    <message>
+        <source>before</source>
+        <translation>ܩܕܡ</translation>
+    </message>
+    <message>
+        <source>after</source>
+        <translation>ܒܬܪ</translation>
+    </message>
+    <message>
+        <source>push: %state</source>
+        <translation>ܦܘܫ: %state</translation>
+    </message>
+    <message>
+        <source>Resume</source>
+        <translation>ܡܫܪܝܐ ܬܘܒ</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>ܡܗܦܟܐ ܠܒܣܬܪ</translation>
+    </message>
+    <message>
+        <source>No run in this state.</source>
+        <translation>ܠܝܬ ܡܪܗܛܐ ܒܗܢܐ ܡܩܡܐ.</translation>
+    </message>
+    <message>
+        <source>Started here</source>
+        <translation>ܫܪܝ ܗܪܟܐ</translation>
+    </message>
+    <message>
+        <source>Runs, resumes and rollbacks started on these pages, with the report of each.</source>
+        <translation>ܡܪ̈ܗܛܐ، ܫܘܪ̈ܝܐ ܬܘܒ ܘܗܘܦ̈ܟܐ ܠܒܣܬܪ ܕܫܪܝܘ ܒܗܠܝܢ ܦܐܬ̈ܐ، ܥܡ ܡܘܕܥܢܘܬܐ ܕܟܠ ܚܕ.</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>ܡܐ</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>ܦܐܪܐ</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>ܗܘܦܟܐ ܠܒܣܬܪ</translation>
+    </message>
+    <message>
+        <source>Rollback of %target</source>
+        <translation>ܗܘܦܟܐ ܠܒܣܬܪ ܕ %target</translation>
+    </message>
+    <message>
+        <source>Run %run</source>
+        <translation>ܡܪܗܛܐ %run</translation>
+    </message>
+    <message>
+        <source>What the run did, its record and its log. A run started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>ܡܐ ܕܡܪܗܛܐ ܥܒܕ، ܪܫܡܐ ܕܝܠܗ ܘܪܘܫܡܐ ܕܝܠܗ. ܡܪܗܛܐ ܕܫܪܝ ܗܪܟܐ ܡܡܛܐ ܒܣܬܪܐ ܟܕ ܦܐܬܐ ܗܕܐ ܡܬܬܚܕܐ؛ ܦܬܚܘ ܦܐܬܐ ܬܘܒ ܕܬܪܕܘܢ ܒܬܪܗ.</translation>
+    </message>
+    <message>
+        <source>Resume this run</source>
+        <translation>ܡܫܪܝܐ ܬܘܒ ܕܗܢܐ ܡܪܗܛܐ</translation>
+    </message>
+    <message>
+        <source>Roll back this run</source>
+        <translation>ܡܗܦܟܐ ܠܒܣܬܪ ܕܗܢܐ ܡܪܗܛܐ</translation>
+    </message>
+    <message>
+        <source>The record could not be read: %problem</source>
+        <translation>ܪܫܡܐ ܠܐ ܐܫܬܟܚ ܠܡܬܩܪܝܘ: %problem</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>ܡܩܕܡܢܘܬܐ</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>ܫܪܝ ܠܗ %user ܒ %time.</translation>
+    </message>
+    <message>
+        <source>Checking the code and taking a caption before the run</source>
+        <translation>ܒܘܚܪܢܐ ܕܩܘܕܐ ܘܢܣܒܐ ܕܢܘܣܚܐ ܕܣܡܟܐ ܩܕܡ ܡܪܗܛܐ</translation>
+    </message>
+    <message>
+        <source>Running %id (%index of %total)</source>
+        <translation>%id ܪܗܛ (%index ܡܢ %total)</translation>
+    </message>
+    <message>
+        <source>%done of %total done</source>
+        <translation>%done ܡܢ %total ܐܫܬܠܡܘ</translation>
+    </message>
+    <message>
+        <source>The migrations have run; restoring the caption if one failed</source>
+        <translation>ܫܘܢ̈ܝܐ ܪܗܛܘ؛ ܢܘܣܚܐ ܕܣܡܟܐ ܡܬܕܥܪ ܐܢ ܚܕ ܠܐ ܐܨܠܚ</translation>
+    </message>
+    <message>
+        <source>Taking a caption after the run, committing, tagging and pushing</source>
+        <translation>ܢܣܒܐ ܕܢܘܣܚܐ ܕܣܡܟܐ ܒܬܪ ܡܪܗܛܐ، ܩܘܡܝܛ، ܛܐܓ ܘܦܘܫ</translation>
+    </message>
+    <message>
+        <source>Restoring the caption</source>
+        <translation>ܢܘܣܚܐ ܕܣܡܟܐ ܡܬܕܥܪ</translation>
+    </message>
+    <message>
+        <source>The run has ended. Loading its report.</source>
+        <translation>ܡܪܗܛܐ ܫܠܡ. ܡܘܕܥܢܘܬܐ ܕܝܠܗ ܡܬܛܥܢܐ.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the run is doing.</source>
+        <translation>ܡܩܕܡܢܘܬܐ ܠܐ ܐܫܬܟܚܬ ܠܡܬܪܕܝܘ. ܚܕܬܘ ܦܐܬܐ ܕܬܚܙܘܢ ܐܝܟܢܐ ܡܪܗܛܐ ܡܬܩܕܡ.</translation>
+    </message>
+    <message>
+        <source>This page follows the run as it goes.</source>
+        <translation>ܦܐܬܐ ܗܕܐ ܪܕܝܐ ܒܬܪ ܡܪܗܛܐ ܟܕ ܡܬܥܒܕ.</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>ܡܚܕܬܐ</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>ܡܘܕܥܢܘܬܐ</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>ܙܒܢܐ</translation>
+    </message>
+    <message>
+        <source>%ms ms</source>
+        <translation>%ms ms</translation>
+    </message>
+    <message>
+        <source>What the run printed as errors</source>
+        <translation>ܡܐ ܕܡܪܗܛܐ ܟܬܒ ܐܝܟ ܦܘ̈ܕܐ</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>ܪܫܡܐ</translation>
+    </message>
+    <message>
+        <source>Environment</source>
+        <translation>ܣܒܝܒܘܬܐ</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>ܠܐ ܚܕ</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>ܫܠܡ</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>ܩܘܡܝܛ</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>ܛܐܓ</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>ܦܘܫ</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>ܫܠܝܚܘܬܐ</translation>
+    </message>
+    <message>
+        <source>Migrations of this run</source>
+        <translation>ܫܘܢ̈ܝܐ ܕܗܢܐ ܡܪܗܛܐ</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>ܡܒܘܥܐ</translation>
+    </message>
+    <message>
+        <source>Run log</source>
+        <translation>ܪܘܫܡܐ ܕܡܪܗܛܐ</translation>
+    </message>
+    <message>
+        <source>Only the end of the log is shown.</source>
+        <translation>ܚܪܬܐ ܕܪܘܫܡܐ ܒܠܚܘܕ ܡܬܚܘܝܐ.</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>ܪܗܛ</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>ܫܠܡ ܕܠܐ ܡܘܕܥܢܘܬܐ</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>ܐܨܠܚ</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>ܠܐ ܐܨܠܚ</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>ܐܬܟܠܝ</translation>
+    </message>
+    <message>
+        <source>the database was not reachable</source>
+        <translation>ܒܝܬ ܝܕ̈ܥܬܐ ܠܐ ܐܫܬܟܚ ܠܡܛܝܘ ܠܗ</translation>
+    </message>
+    <message>
+        <source>internal error</source>
+        <translation>ܦܘܕܐ ܓܘܝܐ</translation>
+    </message>
+    <message>
+        <source>A run is going on</source>
+        <translation>ܡܪܗܛܐ ܡܬܥܒܕ</translation>
+    </message>
+    <message>
+        <source>%kind started by %user at %time.</source>
+        <translation>%kind ܫܪܝ ܠܗ %user ܒ %time.</translation>
+    </message>
+    <message>
+        <source>Follow it</source>
+        <translation>ܡܪܕܝܐ ܒܬܪܗ</translation>
+    </message>
+    <message>
+        <source>The installation is locked</source>
+        <translation>ܐܩܡܬܐ ܩܦܝܠܐ</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock (an upgrade or a run on the console): %holder</source>
+        <translation>ܡܪܗܛܐ ܐܚܪܢܐ ܐܚܝܕ ܠܩܘܦܠܐ (ܡܪܡܐ ܐܘ ܡܪܗܛܐ ܒ console): %holder</translation>
+    </message>
+    <message>
+        <source>done</source>
+        <translation>ܓܡܝܪܐ</translation>
+    </message>
+    <message>
+        <source>pending</source>
+        <translation>ܡܣܟܝܐ</translation>
+    </message>
+    <message>
+        <source>not needed</source>
+        <translation>ܠܐ ܣܢܝܩ</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>ܠܐ ܝܕܝܥ</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>ܐܬܗܦܟ ܠܒܣܬܪ</translation>
+    </message>
+    <message>
+        <source>applied</source>
+        <translation>ܐܬܦܠܚ</translation>
+    </message>
+    <message>
+        <source>would be applied</source>
+        <translation>ܡܬܦܠܚ ܗܘܐ</translation>
+    </message>
+    <message>
+        <source>taken back</source>
+        <translation>ܐܬܗܦܟ ܠܒܣܬܪ</translation>
+    </message>
+    <message>
+        <source>would be taken back</source>
+        <translation>ܡܬܗܦܟ ܗܘܐ ܠܒܣܬܪ</translation>
+    </message>
+    <message>
+        <source>not run</source>
+        <translation>ܠܐ ܪܗܛ</translation>
+    </message>
+    <message>
+        <source>waits for another</source>
+        <translation>ܡܣܟܐ ܠܐܚܪܢܐ</translation>
+    </message>
+    <message>
+        <source>change accepted</source>
+        <translation>ܫܘܚܠܦܐ ܐܬܩܒܠ</translation>
+    </message>
+    <message>
+        <source>change would be accepted</source>
+        <translation>ܫܘܚܠܦܐ ܡܬܩܒܠ ܗܘܐ</translation>
+    </message>
+    <message>
+        <source>simulated</source>
+        <translation>ܡܕܡܝܐ</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>ܫܘܢ̈ܝܐ</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>ܡܩܡܐ</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>ܬܫܥܝܬܐ</translation>
+    </message>
+    <message>
+        <source>Take back %target</source>
+        <translation>ܡܗܦܟܐ ܠܒܣܬܪ ܕ %target</translation>
+    </message>
+    <message>
+        <source>A run is taken back to the caption taken before it, one migration with its down(). Restoring an earlier caption is for experts. Each runs in the background as you, after a caption of the state now.</source>
+        <translation>ܡܪܗܛܐ ܡܬܗܦܟ ܠܒܣܬܪ ܠܢܘܣܚܐ ܕܣܡܟܐ ܕܐܬܢܣܒ ܩܕܡܘܗܝ، ܫܘܢܝܐ ܚܕ ܒ down() ܕܝܠܗ. ܕܘܥܪܐ ܕܢܘܣܚܐ ܕܣܡܟܐ ܩܕܡܝܐ ܠܡܗܝܪ̈ܐ ܗܘ. ܟܠ ܚܕ ܪܗܛ ܒܣܬܪܐ ܐܝܟ ܡܦܠܚܢܐ ܕܝܠܟܘܢ، ܒܬܪ ܢܘܣܚܐ ܕܣܡܟܐ ܕܡܩܡܐ ܕܗܫܐ.</translation>
+    </message>
+    <message>
+        <source>What can be taken back could not be read: %problem</source>
+        <translation>ܡܐ ܕܡܨܐ ܕܡܬܗܦܟ ܠܒܣܬܪ ܠܐ ܐܫܬܟܚ ܠܡܬܩܪܝܘ: %problem</translation>
+    </message>
+    <message>
+        <source>A run</source>
+        <translation>ܡܪܗܛܐ</translation>
+    </message>
+    <message>
+        <source>One migration</source>
+        <translation>ܫܘܢܝܐ ܚܕ</translation>
+    </message>
+    <message>
+        <source>An earlier caption</source>
+        <translation>ܢܘܣܚܐ ܕܣܡܟܐ ܩܕܡܝܐ</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>ܬܚܘܝܬܐ</translation>
+    </message>
+    <message>
+        <source>down()</source>
+        <translation>down()</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ܐܝܢ</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ܠܐ</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>ܢܘܣܚܐ ܕܣܡܟܐ</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>ܐܬܐ</translation>
+    </message>
+    <message>
+        <source>Taken</source>
+        <translation>ܐܬܢܣܒ</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>ܓܢܣܐ</translation>
+    </message>
+    <message>
+        <source>Parts to restore</source>
+        <translation>ܡܢ̈ܘܬܐ ܠܕܘܥܪܐ</translation>
+    </message>
+    <message>
+        <source>The database</source>
+        <translation>ܒܝܬ ܝܕ̈ܥܬܐ</translation>
+    </message>
+    <message>
+        <source>The storage files (var/)</source>
+        <translation>ܦܢܩ̈ܝܬܐ ܕܚܘܣܢܐ (var/)</translation>
+    </message>
+    <message>
+        <source>The settings (settings/override)</source>
+        <translation>ܛܘܝ̈ܒܐ (settings/override)</translation>
+    </message>
+    <message>
+        <source>Restoring the database takes it back to the time of the caption, sessions included: you may be asked to sign in again afterwards. Everything changed since then is lost; a caption of the state now is taken first.</source>
+        <translation>ܕܘܥܪܐ ܕܒܝܬ ܝܕ̈ܥܬܐ ܡܗܦܟ ܠܗ ܠܒܣܬܪ ܠܙܒܢܐ ܕܢܘܣܚܐ ܕܣܡܟܐ، ܥܡ ܡܘܬ̈ܒܐ: ܡܢ ܒܬܪܟܢ ܫܟܝܚ ܕܬܬܒܥܘܢ ܕܬܥܠܘܢ ܬܘܒ. ܟܠ ܡܕܡ ܕܐܫܬܚܠܦ ܡܢ ܗܝܕܝܢ ܡܬܐܒܕ؛ ܩܕܡܝܬ ܡܬܢܣܒ ܢܘܣܚܐ ܕܣܡܟܐ ܕܡܩܡܐ ܕܗܫܐ.</translation>
+    </message>
+    <message>
+        <source>I know what this restores</source>
+        <translation>ܝܕܥ ܐܢܐ ܡܐ ܕܗܢܐ ܡܕܥܪ</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again</source>
+        <translation>ܟܬܘܒܘ ܬܘܒ ܡܫܘܕܥܢܐ ܕܢܘܣܚܐ ܕܣܡܟܐ</translation>
+    </message>
+    <message>
+        <source>Yes, take it back</source>
+        <translation>ܐܝܢ، ܡܗܦܟܐ ܠܒܣܬܪ</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>ܒܘܛܠܐ</translation>
+    </message>
+    <message>
+        <source>The runs with a caption taken before them.</source>
+        <translation>ܡܪ̈ܗܛܐ ܕܐܬܢܣܒ ܢܘܣܚܐ ܕܣܡܟܐ ܩܕܡܝܗܘܢ.</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>ܓܒܝܐ</translation>
+    </message>
+    <message>
+        <source>No run with a caption yet.</source>
+        <translation>ܠܝܬ ܡܪܗܛܐ ܥܡ ܢܘܣܚܐ ܕܣܡܟܐ ܥܕܡܐ ܠܗܫܐ.</translation>
+    </message>
+    <message>
+        <source>The applied migrations that can take themselves back (they have a down()).</source>
+        <translation>ܫܘܢ̈ܝܐ ܕܐܬܦܠܚܘ ܕܡܨܝܢ ܕܢܗܦܟܘܢ ܢܦܫܗܘܢ ܠܒܣܬܪ (ܐܝܬ ܠܗܘܢ down()).</translation>
+    </message>
+    <message>
+        <source>No applied migration has a down().</source>
+        <translation>ܠܐ ܚܕ ܫܘܢܝܐ ܕܐܬܦܠܚ ܐܝܬ ܠܗ down().</translation>
+    </message>
+    <message>
+        <source>Earlier captions (experts)</source>
+        <translation>ܢܘܣ̈ܚܐ ܕܣܡܟܐ ܩܕܡܝ̈ܐ (ܡܗܝܪ̈ܐ)</translation>
+    </message>
+    <message>
+        <source>No caption yet.</source>
+        <translation>ܠܝܬ ܢܘܣܚܐ ܕܣܡܟܐ ܥܕܡܐ ܠܗܫܐ.</translation>
+    </message>
+    <message>
+        <source>Run the migrations</source>
+        <translation>ܡܪܗܛܐ ܕܫܘܢ̈ܝܐ</translation>
+    </message>
+    <message>
+        <source>The run goes on in the background as %user, and its page shows it as it goes. Before the first migration a caption of the installation is taken; when a migration fails the run stops and the caption is restored.</source>
+        <translation>ܡܪܗܛܐ ܡܡܛܐ ܒܣܬܪܐ ܐܝܟ %user، ܘܦܐܬܐ ܕܝܠܗ ܡܚܘܝܐ ܠܗ ܟܕ ܡܬܥܒܕ. ܩܕܡ ܫܘܢܝܐ ܩܕܡܝܐ ܡܬܢܣܒ ܢܘܣܚܐ ܕܣܡܟܐ ܕܐܩܡܬܐ؛ ܟܕ ܫܘܢܝܐ ܠܐ ܡܨܠܚ ܡܪܗܛܐ ܩܐܡ ܘܢܘܣܚܐ ܕܣܡܟܐ ܡܬܕܥܪ.</translation>
+    </message>
+    <message>
+        <source>Dry run first</source>
+        <translation>ܪܗܛܐ ܕܒܘܚܪܢܐ ܩܕܡܝܬ</translation>
+    </message>
+    <message>
+        <source>The status could not be read: %problem</source>
+        <translation>ܡܩܡܐ ܠܐ ܐܫܬܟܚ ܠܡܬܩܪܝܘ: %problem</translation>
+    </message>
+    <message>
+        <source>Pending migrations</source>
+        <translation>ܫܘܢ̈ܝܐ ܡܣܟܝ̈ܢܐ</translation>
+    </message>
+    <message>
+        <source>They run in this order. Untick one to leave it, and the ones that require it, for a later run.</source>
+        <translation>ܪܗܛܝܢ ܒܛܟܣܐ ܗܢܐ. ܫܩܘܠܘ ܓܒܝܬܐ ܡܢ ܚܕ ܕܬܫܒܩܘܢ ܠܗ، ܘܠܗܠܝܢ ܕܣܢܝܩܝܢ ܠܗ، ܠܡܪܗܛܐ ܕܒܬܪ.</translation>
+    </message>
+    <message>
+        <source>Run it</source>
+        <translation>ܡܪܗܛܐ</translation>
+    </message>
+    <message>
+        <source>Switches maintenance mode on while it runs.</source>
+        <translation>ܡܦܥܠ ܐܘܪܚܐ ܕܢܛܘܪܘܬܐ ܟܕ ܪܗܛ.</translation>
+    </message>
+    <message>
+        <source>Changed after they were applied</source>
+        <translation>ܐܫܬܚܠܦܘ ܒܬܪ ܕܐܬܦܠܚܘ</translation>
+    </message>
+    <message>
+        <source>These files are not the ones that were applied. A run refuses them unless the change is accepted with a reason; they are not run again, the new checksum is recorded and the reason kept in the audit log.</source>
+        <translation>ܦܢܩ̈ܝܬܐ ܗܠܝܢ ܠܐ ܐܝܬܝܗܝܢ ܗܠܝܢ ܕܐܬܦܠܚܘ. ܡܪܗܛܐ ܟܠܐ ܠܗܝܢ ܐܠܐ ܐܢ ܫܘܚܠܦܐ ܡܬܩܒܠ ܥܡ ܥܠܬܐ؛ ܠܐ ܪܗܛܢ ܬܘܒ، ܚܘܫܒܢܐ ܕܒܘܚܪܢܐ ܚܕܬܐ ܡܬܪܫܡ ܘܥܠܬܐ ܡܬܢܛܪܐ ܒܪܘܫܡܐ ܕܒܘܩܝܐ.</translation>
+    </message>
+    <message>
+        <source>Accept the changes</source>
+        <translation>ܩܘܒܠܐ ܕܫܘ̈ܚܠܦܐ</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>ܠܡܢܐ</translation>
+    </message>
+    <message>
+        <source>The defaults are the safe ones. Each box leaves a step out.</source>
+        <translation>ܛܝܡ̈ܐ ܥܝܕܝ̈ܐ ܐܢܘܢ ܐܡܝܢ̈ܐ. ܟܠ ܬܝܒܘܬܐ ܫܒܩܐ ܦܣܥܬܐ ܚܕܐ.</translation>
+    </message>
+    <message>
+        <source>No caption</source>
+        <translation>ܕܠܐ ܢܘܣܚܐ ܕܣܡܟܐ</translation>
+    </message>
+    <message>
+        <source>No caption before and after the run: a failure cannot be restored automatically.</source>
+        <translation>ܕܠܐ ܢܘܣܚܐ ܕܣܡܟܐ ܩܕܡ ܡܪܗܛܐ ܘܒܬܪܗ: ܣܘܪܚܢܐ ܠܐ ܡܨܐ ܕܡܬܕܥܪ ܡܢ ܢܦܫܗ.</translation>
+    </message>
+    <message>
+        <source>No restore</source>
+        <translation>ܕܠܐ ܕܘܥܪܐ</translation>
+    </message>
+    <message>
+        <source>After a failure, leave the installation as the failure left it.</source>
+        <translation>ܒܬܪ ܣܘܪܚܢܐ، ܫܒܘܩܘ ܠܐܩܡܬܐ ܐܝܟ ܕܣܘܪܚܢܐ ܫܒܩܗ.</translation>
+    </message>
+    <message>
+        <source>Keep changes that are not committed</source>
+        <translation>ܢܛܪܐ ܕܫܘ̈ܚܠܦܐ ܕܠܐ ܐܬܥܒܕ ܠܗܘܢ ܩܘܡܝܛ</translation>
+    </message>
+    <message>
+        <source>Run although settings, extensions or designs have changes that are not committed; they go into the caption.</source>
+        <translation>ܡܪܗܛܐ ܐܦܢ ܛܘܝ̈ܒܐ، ܬܘ̈ܣܦܬܐ ܐܘ ܬܨܒ̈ܝܬܐ ܐܝܬ ܠܗܘܢ ܫܘ̈ܚܠܦܐ ܕܠܐ ܐܬܥܒܕ ܠܗܘܢ ܩܘܡܝܛ؛ ܥܐܠܝܢ ܠܢܘܣܚܐ ܕܣܡܟܐ.</translation>
+    </message>
+    <message>
+        <source>No commit</source>
+        <translation>ܕܠܐ ܩܘܡܝܛ</translation>
+    </message>
+    <message>
+        <source>Do not commit the status file and the run log (no tag and no push either).</source>
+        <translation>ܠܐ ܬܥܒܕܘܢ ܩܘܡܝܛ ܠܦܢܩܝܬܐ ܕܡܩܡܐ ܘܠܪܘܫܡܐ ܕܡܪܗܛܐ (ܐܦ ܠܐ ܛܐܓ ܘܠܐ ܦܘܫ).</translation>
+    </message>
+    <message>
+        <source>No push</source>
+        <translation>ܕܠܐ ܦܘܫ</translation>
+    </message>
+    <message>
+        <source>Commit and tag, but do not push.</source>
+        <translation>ܩܘܡܝܛ ܘܛܐܓ، ܐܠܐ ܕܠܐ ܦܘܫ.</translation>
+    </message>
+    <message>
+        <source>No tag</source>
+        <translation>ܕܠܐ ܛܐܓ</translation>
+    </message>
+    <message>
+        <source>Commit and push, but do not tag the run.</source>
+        <translation>ܩܘܡܝܛ ܘܦܘܫ، ܐܠܐ ܕܠܐ ܛܐܓ ܠܡܪܗܛܐ.</translation>
+    </message>
+    <message>
+        <source>Yes, run these migrations now</source>
+        <translation>ܐܝܢ، ܡܪܗܛܐ ܕܗܠܝܢ ܫܘܢ̈ܝܐ ܗܫܐ</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>ܠܐ ܚܕ ܫܘܢܝܐ ܡܣܟܐ.</translation>
+    </message>
+    <message>
+        <source>Back to the status</source>
+        <translation>ܠܒܣܬܪ ܠܡܩܡܐ</translation>
+    </message>
+    <message>
+        <source>Changes to this installation written once as files (content, classes, roles, settings, schema) and applied to every installation of the site in the same order. A run takes a caption first, restores it when a migration fails, and records, commits and pushes what it did.</source>
+        <translation>ܫܘ̈ܚܠܦܐ ܕܗܕܐ ܐܩܡܬܐ ܕܡܬܟܬܒܝܢ ܚܕ ܙܒܢ ܐܝܟ ܦܢܩ̈ܝܬܐ (ܡܠܝܘܬܐ، ܙ̈ܢܝܐ، ܕܘܪ̈ܐ، ܛܘܝ̈ܒܐ، ܣܟܡܐ) ܘܡܬܦܠܚܝܢ ܥܠ ܟܠ ܐܩܡܬܐ ܕܐܬܪܐ ܒܗ ܒܛܟܣܐ. ܡܪܗܛܐ ܢܣܒ ܩܕܡܝܬ ܢܘܣܚܐ ܕܣܡܟܐ، ܡܕܥܪ ܠܗ ܟܕ ܫܘܢܝܐ ܠܐ ܡܨܠܚ، ܘܪܫܡ ܘܥܒܕ ܩܘܡܝܛ ܘܦܘܫ ܠܡܐ ܕܥܒܕ.</translation>
+    </message>
+    <message>
+        <source>Run %count pending</source>
+        <translation>ܡܪܗܛܐ ܕ %count ܡܣܟܝ̈ܢܐ</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>ܚܙܝܐ ܟܠܢܝܐ</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>ܡܣܟܝܐ</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>ܓܡܝܪܐ</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>ܠܐ ܐܨܠܚ</translation>
+    </message>
+    <message>
+        <source>Not needed</source>
+        <translation>ܠܐ ܣܢܝܩ</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>ܒܝܬ ܝܕ̈ܥܬܐ</translation>
+    </message>
+    <message>
+        <source>transactions: %mode</source>
+        <translation>ܥܒܪ̈ܐ: %mode</translation>
+    </message>
+    <message>
+        <source>Site migrations are in migrations/, those of an extension in extension/&lt;name&gt;/migrations/. They run in the order of their names and what they require.</source>
+        <translation>ܫܘܢ̈ܝܐ ܕܐܬܪܐ ܐܝܬܝܗܘܢ ܒ migrations/، ܘܕܬܘܣܦܬܐ ܒ extension/&lt;name&gt;/migrations/. ܪܗܛܝܢ ܒܛܟܣܐ ܕܫܡ̈ܗܝܗܘܢ ܘܕܡܐ ܕܣܢܝܩܝܢ ܠܗ.</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>ܪܘܗܛܐ ܐܚܪܝܐ</translation>
+    </message>
+    <message>
+        <source>The file changed after it was applied.</source>
+        <translation>ܦܢܩܝܬܐ ܐܫܬܚܠܦܬ ܒܬܪ ܕܐܬܦܠܚܬ.</translation>
+    </message>
+    <message>
+        <source>No migration yet. ./console exp:migration:generate --skeleton &lt;name&gt; --apply writes the first one.</source>
+        <translation>ܠܝܬ ܫܘܢܝܐ ܥܕܡܐ ܠܗܫܐ. ./console exp:migration:generate --skeleton &lt;name&gt; --apply ܟܬܒ ܠܩܕܡܝܐ.</translation>
+    </message>
+    <message>
+        <source>The latest runs</source>
+        <translation>ܡܪ̈ܗܛܐ ܐܚܪ̈ܝܐ</translation>
+    </message>
+    <message>
+        <source>Every run</source>
+        <translation>ܟܠ ܡܪ̈ܗܛܐ</translation>
+    </message>
+    <message>
+        <source>No run yet.</source>
+        <translation>ܠܝܬ ܡܪܗܛܐ ܥܕܡܐ ܠܗܫܐ.</translation>
+    </message>
+    <message>
+        <source>Simulating a run needs the policy migration/run.</source>
+        <translation>ܕܡܘܬܐ ܕܡܪܗܛܐ ܣܢܝܩܐ ܠܦܘܩܕܢܐ migration/run.</translation>
+    </message>
+    <message>
+        <source>A run is going on: simulate when it has ended.</source>
+        <translation>ܡܪܗܛܐ ܡܬܥܒܕ: ܕܡܘ ܟܕ ܫܠܡ.</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>ܛܘܝܒܐ</translation>
+    </message>
+    <message>
+        <source>%target is no run, no migration and no caption of this installation.</source>
+        <translation>%target ܠܐ ܡܪܗܛܐ، ܠܐ ܫܘܢܝܐ ܘܠܐ ܢܘܣܚܐ ܕܣܡܟܐ ܕܗܕܐ ܐܩܡܬܐ ܗܘ.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, take it back&quot; first.</source>
+        <translation>ܓܒܘ «ܐܝܢ، ܡܗܦܟܐ ܠܒܣܬܪ» ܩܕܡܝܬ.</translation>
+    </message>
+    <message>
+        <source>Restoring an earlier caption is for experts: tick &quot;I know what this restores&quot;.</source>
+        <translation>ܕܘܥܪܐ ܕܢܘܣܚܐ ܕܣܡܟܐ ܩܕܡܝܐ ܠܡܗܝܪ̈ܐ ܗܘ: ܓܒܘ «ܝܕܥ ܐܢܐ ܡܐ ܕܗܢܐ ܡܕܥܪ».</translation>
+    </message>
+    <message>
+        <source>Type the id of the caption again: %target</source>
+        <translation>ܟܬܘܒܘ ܬܘܒ ܡܫܘܕܥܢܐ ܕܢܘܣܚܐ ܕܣܡܟܐ: %target</translation>
+    </message>
+    <message>
+        <source>Choose at least one part to restore.</source>
+        <translation>ܓܒܘ ܠܦܚܘܬ ܡܢܬܐ ܚܕܐ ܠܕܘܥܪܐ.</translation>
+    </message>
+    <message>
+        <source>This run has no caption taken before it: take its migrations back one by one, or restore an earlier caption.</source>
+        <translation>ܠܗܢܐ ܡܪܗܛܐ ܠܝܬ ܢܘܣܚܐ ܕܣܡܟܐ ܕܐܬܢܣܒ ܩܕܡܘܗܝ: ܗܦܘܟܘ ܠܒܣܬܪ ܫܘܢ̈ܝܘܗܝ ܚܕ ܚܕ، ܐܘ ܕܥܪܘ ܢܘܣܚܐ ܕܣܡܟܐ ܩܕܡܝܐ.</translation>
+    </message>
+    <message>
+        <source>This migration cannot be taken back by itself: it is not applied, or it has no down().</source>
+        <translation>ܫܘܢܝܐ ܗܢܐ ܠܐ ܡܨܐ ܕܡܬܗܦܟ ܠܒܣܬܪ ܡܢ ܢܦܫܗ: ܠܐ ܐܬܦܠܚ، ܐܘ ܠܝܬ ܠܗ down().</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>ܛܘܦܣܐ ܠܐ ܐܫܬܟܚ ܠܡܬܩܪܝܘ.</translation>
+    </message>
+    <message>
+        <source>Choose the run to resume.</source>
+        <translation>ܓܒܘ ܠܡܪܗܛܐ ܕܢܫܬܪܐ ܬܘܒ.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;Yes, run these migrations now&quot; first.</source>
+        <translation>ܓܒܘ «ܐܝܢ، ܡܪܗܛܐ ܕܗܠܝܢ ܫܘܢ̈ܝܐ ܗܫܐ» ܩܕܡܝܬ.</translation>
+    </message>
+    <message>
+        <source>Choose at least one migration.</source>
+        <translation>ܓܒܘ ܠܦܚܘܬ ܫܘܢܝܐ ܚܕ.</translation>
+    </message>
+    <message>
+        <source>A migration changed after it was applied: accept the change with a reason, or put the file back.</source>
+        <translation>ܫܘܢܝܐ ܐܫܬܚܠܦ ܒܬܪ ܕܐܬܦܠܚ: ܩܒܠܘ ܫܘܚܠܦܐ ܥܡ ܥܠܬܐ، ܐܘ ܕܥܪܘ ܦܢܩܝܬܐ.</translation>
+    </message>
+    <message>
+        <source>Give the reason why the changed migrations are accepted.</source>
+        <translation>ܗܒܘ ܥܠܬܐ ܕܡܛܠܬܗ ܫܘܢ̈ܝܐ ܕܐܫܬܚܠܦܘ ܡܬܩܒܠܝܢ.</translation>
+    </message>
+    <message>
+        <source>The reason is at most 500 characters.</source>
+        <translation>ܥܠܬܐ ܐܝܬ ܠܗ ܠܟܠ ܗܝ ܕܝܬܝܪ 500 ܐܬ̈ܘܬܐ.</translation>
+    </message>
+    <message>
+        <source>A run started here is still going on (%detail). Wait for it to end.</source>
+        <translation>ܡܪܗܛܐ ܕܫܪܝ ܗܪܟܐ ܥܕܟܝܠ ܡܬܥܒܕ (%detail). ܣܟܘ ܥܕܡܐ ܕܢܫܠܡ.</translation>
+    </message>
+    <message>
+        <source>Another run holds the lock of the installation: %detail</source>
+        <translation>ܡܪܗܛܐ ܐܚܪܢܐ ܐܚܝܕ ܠܩܘܦܠܐ ܕܐܩܡܬܐ: %detail</translation>
+    </message>
+    <message>
+        <source>The run needs a signed-in user that exists.</source>
+        <translation>ܡܪܗܛܐ ܣܢܝܩ ܠܡܦܠܚܢܐ ܕܥܠ ܘܕܐܝܬܘܗܝ.</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>ܠܐ ܐܫܬܟܚ ܬܪܥܝܬܐ ܕ php ܕܫܘܪܬܐ ܕܦܘܩܕ̈ܢܐ. ܣܝܡܘ migration.ini [AdminSettings] PhpCliPath ܠܫܒܝܠܐ ܫܠܡܐ ܕܝܠܗ.</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a run cannot be started here. Run ./console exp:migration:migrate --apply on the server.</source>
+        <translation>proc_open ܒܛܝܠ، ܘܡܛܠ ܗܢܐ ܠܐ ܡܨܐ ܡܪܗܛܐ ܕܢܫܬܪܐ ܗܪܟܐ. ܪܗܛܘ ./console exp:migration:migrate --apply ܥܠ ܡܫܡܫܢܐ.</translation>
+    </message>
+    <message>
+        <source>The folder of the runs cannot be written: %detail</source>
+        <translation>ܬܝܩܐ ܕܡܪ̈ܗܛܐ ܠܐ ܡܨܐ ܕܡܬܟܬܒ: %detail</translation>
+    </message>
+    <message>
+        <source>The run was started but did not report its process id. Check %detail.</source>
+        <translation>ܡܪܗܛܐ ܐܫܬܪܝ ܐܠܐ ܠܐ ܐܘܕܥ ܡܫܘܕܥܢܐ ܕܬܪܗܘܛܐ ܕܝܠܗ. ܒܨܘ %detail.</translation>
+    </message>
+    <message>
+        <source>Name what to take back.</source>
+        <translation>ܐܡܪܘ ܡܐ ܕܢܬܗܦܟ ܠܒܣܬܪ.</translation>
+    </message>
+    <message>
+        <source>The run could not be started.</source>
+        <translation>ܡܪܗܛܐ ܠܐ ܐܫܬܟܚ ܠܡܫܬܪܝܘ.</translation>
+    </message>
+    <message>
+        <source>Recording changes</source>
+        <translation>ܟܬܝܒܘܬܐ ܕܫܘܚܠܦܐ</translation>
+    </message>
+    <message>
+        <source>While a recording runs, what you change in the administration or the website sidebar is kept as the steps of a migration: content, classes, roles and policies, sections, users and groups, URL aliases, settings. Stop it when you are done, look at what it captured, and generate a migration from it.</source>
+        <translation>ܥܕ ܕܟܬܝܒܘܬܐ ܪܗܛܐ، ܡܕܡ ܕܡܫܚܠܦܬ ܒܡܕܒܪܢܘܬܐ ܐܘ ܒܣܪܓܐ ܕܓܢܒܐ ܕܐܬܪܐ ܡܬܢܛܪ ܐܝܟ ܦܣܥܬܐ ܕܫܘܢܝܐ: ܚܒܝܫܘܬܐ، ܛܘܟܣܐ، ܡܫܡܫܢܘܬܐ ܘܢܡܘܣܐ، ܦܠܓܘܬܐ، ܡܦܠܚܢܐ ܘܟܢܘܫܬܐ، ܫܡܗܐ ܐܚܪܢܐ ܕ URL، ܛܘܝܒܐ. ܟܠܝ ܠܗ ܟܕ ܫܠܡܬ، ܚܙܝ ܡܢܐ ܐܚܕ، ܘܥܒܕ ܡܢܗ ܫܘܢܝܐ.</translation>
+    </message>
+    <message>
+        <source>The recordings could not be read: %problem</source>
+        <translation>ܟܬܝܒܘܬܐ ܠܐ ܐܫܟܚܬ ܠܡܬܩܪܝܘ: %problem</translation>
+    </message>
+    <message>
+        <source>The recording tables do not exist yet: run the upgrade (exp:upgrade --apply) first.</source>
+        <translation>ܦܬܘܪܐ ܕܟܬܝܒܘܬܐ ܠܐ ܐܝܬ ܥܕܡܐ ܠܗܫܐ: ܩܕܡܝܬ ܪܗܛ ܚܘܕܬܐ (exp:upgrade --apply).</translation>
+    </message>
+    <message>
+        <source>Recording is switched off in migration.ini ([RecordingSettings] Recording=disabled).</source>
+        <translation>ܟܬܝܒܘܬܐ ܕܥܝܟܐ ܒ migration.ini ([RecordingSettings] Recording=disabled).</translation>
+    </message>
+    <message>
+        <source>My changes</source>
+        <translation>ܫܘܚܠܦܝ</translation>
+    </message>
+    <message>
+        <source>Records only what you change, wherever you change it, until you stop it.</source>
+        <translation>ܟܬܒܐ ܒܠܚܘܕ ܡܕܡ ܕܐܢܬ ܡܫܚܠܦܬ، ܐܝܟܐ ܕܡܫܚܠܦܬ، ܥܕܡܐ ܕܬܟܠܐ ܠܗ.</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <translation>ܟܬܝܒܘܬܐ</translation>
+    </message>
+    <message>
+        <source>since %time, %count change(s) so far.</source>
+        <translation>ܡܢ %time، ܥܕܡܐ ܠܗܫܐ %count ܫܘܚܠܦܐ.</translation>
+    </message>
+    <message>
+        <source>Label (optional)</source>
+        <translation>ܬܘܬܐ (ܨܒܝܢܝܐ)</translation>
+    </message>
+    <message>
+        <source>Show what it captured</source>
+        <translation>ܚܘܝ ܡܢܐ ܐܚܕ</translation>
+    </message>
+    <message>
+        <source>Stop recording</source>
+        <translation>ܟܠܝ ܟܬܝܒܘܬܐ</translation>
+    </message>
+    <message>
+        <source>Start recording my changes</source>
+        <translation>ܫܪܝ ܟܬܝܒܘܬܐ ܕܫܘܚܠܦܝ</translation>
+    </message>
+    <message>
+        <source>Site-wide window</source>
+        <translation>ܟܘܬܐ ܕܟܠܗ ܐܬܪܐ</translation>
+    </message>
+    <message>
+        <source>Records every change of every user and of the console until it is closed. Opening it asks you to verify it is you.</source>
+        <translation>ܟܬܒܐ ܟܠ ܫܘܚܠܦܐ ܕܟܠ ܡܦܠܚܢܐ ܘܕܡܕܒܪܢܐ ܥܕܡܐ ܕܡܬܐܚܕܐ. ܟܕ ܦܬܚܬ ܠܗ ܡܬܒܥܐ ܡܢܟ ܕܬܫܪܪ ܕܐܢܬ ܐܝܬܝܟ.</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>ܦܬܝܚܐ</translation>
+    </message>
+    <message>
+        <source>Close the window</source>
+        <translation>ܐܚܘܕ ܟܘܬܐ</translation>
+    </message>
+    <message>
+        <source>Open the site-wide window</source>
+        <translation>ܦܬܘܚ ܟܘܬܐ ܕܟܠܗ ܐܬܪܐ</translation>
+    </message>
+    <message>
+        <source>Recordings</source>
+        <translation>ܟܬܝܒܘܬܐ ܟܠܗܝܢ</translation>
+    </message>
+    <message>
+        <source>The account of a user (login, e-mail, password) and the fields of user accounts are never recorded.</source>
+        <translation>ܚܘܫܒܢܐ ܕܡܦܠܚܢܐ (ܫܡܐ ܕܡܥܠܬܐ، ܒܝܠܕܪܐ ܐܠܩܛܪܘܢܝܐ، ܡܠܬܐ ܕܥܒܪܐ) ܘܚܩܠܐ ܕܚܘܫܒܢܐ ܕܡܦܠܚܢܐ ܡܢ ܡܬܘܡ ܠܐ ܡܬܟܬܒܝܢ.</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>ܫܘܚܠܦܐ</translation>
+    </message>
+    <message>
+        <source>Site-wide</source>
+        <translation>ܟܠܗ ܐܬܪܐ</translation>
+    </message>
+    <message>
+        <source>Changes of %name</source>
+        <translation>ܫܘܚܠܦܐ ܕ %name</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>ܟܠܝܐ</translation>
+    </message>
+    <message>
+        <source>No recording yet.</source>
+        <translation>ܠܝܬ ܟܬܝܒܘܬܐ ܥܕܡܐ ܠܗܫܐ.</translation>
+    </message>
+    <message>
+        <source>Recording %id</source>
+        <translation>ܟܬܝܒܘܬܐ %id</translation>
+    </message>
+    <message>
+        <source>All recordings</source>
+        <translation>ܟܠ ܟܬܝܒܘܬܐ</translation>
+    </message>
+    <message>
+        <source>The migration it would make</source>
+        <translation>ܫܘܢܝܐ ܕܢܗܘܐ ܡܢܗ</translation>
+    </message>
+    <message>
+        <source>The changes folded into one step per thing changed: what a migration generated from this recording would do.</source>
+        <translation>ܫܘܚܠܦܐ ܕܡܟܢܫܝܢ ܠܦܣܥܬܐ ܚܕܐ ܥܠ ܟܠ ܡܕܡ ܕܐܫܬܚܠܦ: ܡܢܐ ܕܥܒܕ ܫܘܢܝܐ ܕܡܬܥܒܕ ܡܢ ܗܕܐ ܟܬܝܒܘܬܐ.</translation>
+    </message>
+    <message>
+        <source>A migration can be generated from it once this installation has the YAML step types %types.</source>
+        <translation>ܡܫܟܚ ܠܡܬܥܒܕܘ ܫܘܢܝܐ ܡܢܗ ܟܕ ܗܢܐ ܬܘܩܢܐ ܢܗܘܐ ܠܗ ܙܢܝܐ ܕܦܣܥܬܐ YAML %types.</translation>
+    </message>
+    <message>
+        <source>Left out on purpose: %list</source>
+        <translation>ܫܒܝܩܐ ܒܨܒܝܢܐ: %list</translation>
+    </message>
+    <message>
+        <source>Nothing was recorded.</source>
+        <translation>ܡܕܡ ܠܐ ܐܬܟܬܒ.</translation>
+    </message>
+    <message>
+        <source>What it captured</source>
+        <translation>ܡܢܐ ܐܚܕ</translation>
+    </message>
+    <message>
+        <source>%count change(s), in the order they were made.</source>
+        <translation>%count ܫܘܚܠܦܐ، ܒܛܟܣܐ ܕܐܬܥܒܕܘ.</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>ܫܘܚܠܦܐ ܚܕ</translation>
+    </message>
+    <message>
+        <source>Step</source>
+        <translation>ܦܣܥܬܐ</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>ܥܠ</translation>
+    </message>
+    <message>
+        <source>%count more: ./console exp:migration:record:show lists every one.</source>
+        <translation>ܐܚܪܢܐ %count: ./console exp:migration:record:show ܡܚܘܐ ܟܠܗܘܢ.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>ܫܕܝ</translation>
+    </message>
+    <message>
+        <source>Removes the recording and what it captured. What was changed stays changed.</source>
+        <translation>ܡܫܩܠ ܟܬܝܒܘܬܐ ܘܡܕܡ ܕܐܚܕ. ܡܕܡ ܕܐܫܬܚܠܦ ܦܐܫ ܡܫܚܠܦܐ.</translation>
+    </message>
+    <message>
+        <source>Yes, discard this recording</source>
+        <translation>ܐܝܢ، ܫܕܝ ܗܕܐ ܟܬܝܒܘܬܐ</translation>
+    </message>
+    <message>
+        <source>Recording…</source>
+        <translation>ܟܬܒܐ…</translation>
+    </message>
+    <message>
+        <source>Your changes are recorded for a migration.</source>
+        <translation>ܫܘܚܠܦܝܟ ܡܬܟܬܒܝܢ ܡܛܠ ܫܘܢܝܐ.</translation>
+    </message>
+    <message>
+        <source>Every change on this site is recorded for a migration (site-wide window).</source>
+        <translation>ܟܠ ܫܘܚܠܦܐ ܒܗܢܐ ܐܬܪܐ ܡܬܟܬܒ ܡܛܠ ܫܘܢܝܐ (ܟܘܬܐ ܕܟܠܗ ܐܬܪܐ).</translation>
+    </message>
+    <message>
+        <source>The site-wide recording has started: every change of every user is recorded until you stop it.</source>
+        <translation>ܟܬܝܒܘܬܐ ܕܟܠܗ ܐܬܪܐ ܫܪܬ: ܟܠ ܫܘܚܠܦܐ ܕܟܠ ܡܦܠܚܢܐ ܡܬܟܬܒ ܥܕܡܐ ܕܬܟܠܐ ܠܗ.</translation>
+    </message>
+    <message>
+        <source>Recording has started: your changes are recorded until you stop it.</source>
+        <translation>ܟܬܝܒܘܬܐ ܫܪܬ: ܫܘܚܠܦܝܟ ܡܬܟܬܒܝܢ ܥܕܡܐ ܕܬܟܠܐ ܠܗ.</translation>
+    </message>
+    <message>
+        <source>Recording stopped. What it captured stays until you discard it.</source>
+        <translation>ܟܬܝܒܘܬܐ ܐܬܟܠܝܬ. ܡܕܡ ܕܐܚܕܬ ܦܐܫ ܥܕܡܐ ܕܬܫܕܐ ܠܗ.</translation>
+    </message>
+    <message>
+        <source>The recording and its events are removed.</source>
+        <translation>ܟܬܝܒܘܬܐ ܘܓܕܫܝܗ ܐܫܬܩܠܘ.</translation>
+    </message>
+    <message>
+        <source>There is no recording %id.</source>
+        <translation>ܠܝܬ ܟܬܝܒܘܬܐ %id.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, discard this recording" first.</source>
+        <translation>ܩܕܡܝܬ ܪܫܘܡ «ܐܝܢ، ܫܕܝ ܗܕܐ ܟܬܝܒܘܬܐ».</translation>
+    </message>
+    <message>
+        <source>Only the user who recorded may stop a session recording.</source>
+        <translation>ܒܠܚܘܕ ܡܦܠܚܢܐ ܕܟܬܒ ܡܫܟܚ ܠܡܟܠܝܘ ܟܬܝܒܘܬܐ ܕܥܕܢܐ.</translation>
+    </message>
+    <message>
+        <source>Choose the recording to stop.</source>
+        <translation>ܓܒܝ ܟܬܝܒܘܬܐ ܕܬܬܟܠܐ.</translation>
+    </message>
+    <message>
+        <source>A recording of this kind is running already.</source>
+        <translation>ܟܬܝܒܘܬܐ ܡܢ ܗܢܐ ܙܢܐ ܪܗܛܐ ܡܢ ܩܕܡ.</translation>
+    </message>
+    <message>
+        <source>The recording could not be changed: %reason</source>
+        <translation>ܟܬܝܒܘܬܐ ܠܐ ܐܫܟܚܬ ܠܡܫܬܚܠܦܘ: %reason</translation>
+    </message>
+    <message>
+        <source>Generate migration</source>
+        <translation>ܒܪܝ ܫܘܢܝܐ</translation>
+    </message>
+    <message>
+        <source>Name of the migration (optional)</source>
+        <translation>ܫܡܐ ܕܫܘܢܝܐ (ܓܒܝܐ)</translation>
+    </message>
+    <message>
+        <source>Wrote the migration %file. Changes no step can make are named at the top of the file, to be made by hand.</source>
+        <translation>ܐܬܟܬܒ ܫܘܢܝܐ %file. ܫܘܚܠܦܐ ܕܠܐ ܡܨܝܐ ܦܣܥܬܐ ܡܕܡ ܠܡܥܒܕ ܐܢܘܢ ܡܬܟܪܝܢ ܒܪܝܫ ܟܢܫܐ، ܠܡܬܥܒܕܘ ܒܐܝܕܐ.</translation>
+    </message>
+    <message>
+        <source>No migration was written: %reason</source>
+        <translation>ܠܐ ܐܬܟܬܒ ܫܘܢܝܐ: %reason</translation>
+    </message>
+    <message>
+        <source>A long run in parts</source>
+        <translation>ܥܒܕܐ ܐܪܝܟܐ ܒܦܘܠܓܐ</translation>
+    </message>
+    <message>
+        <source>Empty fields keep the settings of migration.ini [RunSettings].</source>
+        <translation>ܚܩܠܐ ܣܪܝܩܐ ܢܛܪܝܢ ܣܝܡܬܐ ܕmigration.ini [RunSettings].</translation>
+    </message>
+    <message>
+        <source>At most this many migrations</source>
+        <translation>ܐܬܪܘܬܐ ܠܐ ܝܬܝܪܐ ܡܢ ܗܠܝܢ</translation>
+    </message>
+    <message>
+        <source>No further migration after (seconds)</source>
+        <translation>ܐܬܪܘܬܐ ܐܚܪܬܐ ܠܝܬ ܒܬܪ (ܪܦܦܐ)</translation>
+    </message>
+    <message>
+        <source>Pause between migrations (seconds)</source>
+        <translation>ܢܝܚܐ ܒܝܢܬ ܐܬܪܘܬܐ (ܪܦܦܐ)</translation>
+    </message>
+    <message>
+        <source>Lower priority (1 to 19)</source>
+        <translation>ܩܕܡܘܬܐ ܬܚܬܝܬܐ (1 ܥܕܡܐ 19)</translation>
+    </message>
+    <message>
+        <source>A long-run field is a whole number from 1 (the pause: seconds from 0 to 60, the priority: 1 to 19), or empty.</source>
+        <translation>ܚܩܠܐ ܕܥܒܕܐ ܐܪܝܟܐ ܡܢܝܢܐ ܡܠܝܐ ܗܘ ܡܢ 1 (ܢܝܚܐ: ܪܦܦܐ ܡܢ 0 ܥܕܡܐ 60، ܩܕܡܘܬܐ: 1 ܥܕܡܐ 19)، ܐܘ ܣܪܝܩܐ.</translation>
+    </message>
+    <message>
+        <source>It closes by itself at %time.</source>
+        <translation>ܣܟܪ ܒܢܦܫܗ ܒ%time.</translation>
+    </message>
+    <message>
+        <source>Close by itself after (minutes, optional)</source>
+        <translation>ܣܟܪ ܒܢܦܫܗ ܒܬܪ (ܩܛܝܢܬܐ، ܨܒܘܬܢܝܬܐ)</translation>
+    </message>
+    <message>
+        <source>The minutes are a whole number from 1 to 44640 (31 days), or empty.</source>
+        <translation>ܩܛܝܢܬܐ ܡܢܝܢܐ ܡܠܝܐ ܗܘ ܡܢ 1 ܥܕܡܐ 44640 (31 ܝܘܡܬܐ)، ܐܘ ܣܪܝܩܐ.</translation>
+    </message>
+    <message>
+        <source>Migration %id</source>
+        <translation>ܫܘܢܝܐ %id</translation>
+    </message>
+    <message>
+        <source>New migration</source>
+        <translation>ܫܘܢܝܐ ܚܕܬܐ</translation>
+    </message>
+    <message>
+        <source>A YAML migration: write it as text or build its steps in the form, check it, then save it into a migrations folder.</source>
+        <translation>ܫܘܢܝܐ ܕ YAML: ܟܬܘܒ ܠܗ ܐܝܟ ܟܬܝܒܬܐ ܐܘ ܒܢܝ ܦܣܥ̈ܬܗ ܒܛܘܦܣܐ، ܒܚܘܪ ܠܗ، ܘܗܝܕܝܢ ܛܪ ܠܗ ܒܬܝܩܐ ܕܫܘܢ̈ܝܐ.</translation>
+    </message>
+    <message>
+        <source>This migration has run already, so it is not saved again: a changed file would be refused by the checksum guard. Make the change in a new migration.</source>
+        <translation>ܗܢܐ ܫܘܢܝܐ ܟܒܪ ܪܗܛ، ܘܡܛܠ ܗܢܐ ܠܐ ܡܬܢܛܪ ܬܘܒ: ܦܢܩܝܬܐ ܡܫܚܠܦܬܐ ܡܬܛܪܕܐ ܗܘܬ ܡܢ ܢܛܘܪܐ ܕܚܘܫܒܢܐ ܕܒܘܚܪܢܐ. ܥܒܕ ܫܘܚܠܦܐ ܒܫܘܢܝܐ ܚܕܬܐ.</translation>
+    </message>
+    <message>
+        <source>The file cannot be written by the web server.</source>
+        <translation>ܡܫܡܫܢܐ ܕܘܝܒ ܠܐ ܡܨܐ ܠܡܟܬܒ ܦܢܩܝܬܐ.</translation>
+    </message>
+    <message>
+        <source>The comment lines at the top are the header (description, author, requires, environments, engines). When a step is added or changed in the form, the migration is written again: comments between the steps are not kept.</source>
+        <translation>ܣܪ̈ܛܐ ܕܦܘܫܩܐ ܕܒܪܝܫܐ ܐܝܬܝܗܘܢ ܪܝܫܐ (description, author, requires, environments, engines). ܡܐ ܕܦܣܥܬܐ ܡܬܬܘܣܦܐ ܐܘ ܡܫܬܚܠܦܐ ܒܛܘܦܣܐ، ܫܘܢܝܐ ܡܬܟܬܒ ܙܒܢܐ ܐܚܪܬܐ: ܦܘ̈ܫܩܐ ܕܒܝܬ ܦܣܥ̈ܬܐ ܠܐ ܡܬܢܛܪܝܢ.</translation>
+    </message>
+    <message>
+        <source>Name of the migration</source>
+        <translation>ܫܡܐ ܕܫܘܢܝܐ</translation>
+    </message>
+    <message>
+        <source>Where it goes</source>
+        <translation>ܠܐܝܟܐ ܐܙܠ</translation>
+    </message>
+    <message>
+        <source>The site</source>
+        <translation>ܐܬܪܐ</translation>
+    </message>
+    <message>
+        <source>YAML</source>
+        <translation>ܟܬܝܒܬܐ ܕ YAML</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>ܒܘܚܪܢܐ</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>ܢܛܪܐ</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>ܕܪ̈ܓܐ</translation>
+    </message>
+    <message>
+        <source>Keys</source>
+        <translation>ܩܠܝܕ̈ܐ</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>ܬܘܩܢܐ</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>ܫܢܝܐ ܠܥܠ</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>ܫܢܝܐ ܠܬܚܬ</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>ܫܩܠܐ</translation>
+    </message>
+    <message>
+        <source>No steps yet: add one with the form, or write them in the text.</source>
+        <translation>ܠܝܬ ܦܣܥ̈ܬܐ ܥܕܡܐ ܠܗܫܐ: ܐܘܣܦ ܚܕܐ ܒܛܘܦܣܐ، ܐܘ ܟܬܘܒ ܐܢܝܢ ܒܟܬܝܒܬܐ.</translation>
+    </message>
+    <message>
+        <source>Change step %number</source>
+        <translation>ܫܘܚܠܦܐ ܕܦܣܥܬܐ %number</translation>
+    </message>
+    <message>
+        <source>Add a step</source>
+        <translation>ܐܘܣܦ ܦܣܥܬܐ ܚܕܐ</translation>
+    </message>
+    <message>
+        <source>The form of a step is made from its step type: its keys, what each takes and the modes it belongs to.</source>
+        <translation>ܛܘܦܣܐ ܕܦܣܥܬܐ ܡܬܥܒܕ ܡܢ ܓܢܣܐ ܕܦܣܥܬܗ: ܩܠܝܕ̈ܘܗܝ، ܡܐ ܕܟܠ ܚܕ ܡܩܒܠ، ܘܐܘܪ̈ܚܐ ܕܗܝ ܕܝܠܗܘܢ.</translation>
+    </message>
+    <message>
+        <source>Step type</source>
+        <translation>ܓܢܣܐ ܕܦܣܥܬܐ</translation>
+    </message>
+    <message>
+        <source>Show its form</source>
+        <translation>ܚܘܝ ܛܘܦܣܗ</translation>
+    </message>
+    <message>
+        <source>The step has keys its type does not know; they are left out when the step is changed: %keys</source>
+        <translation>ܠܦܣܥܬܐ ܐܝܬ ܩܠܝܕ̈ܐ ܕܓܢܣܗ ܠܐ ܝܕܥ ܠܗܘܢ؛ ܡܫܬܒܩܝܢ ܡܐ ܕܦܣܥܬܐ ܡܫܬܚܠܦܐ: %keys</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>ܐܘܪܚܐ</translation>
+    </message>
+    <message>
+        <source>In</source>
+        <translation>ܓܘ</translation>
+    </message>
+    <message>
+        <source>only in %modes</source>
+        <translation>ܒ %modes ܒܠܚܘܕ</translation>
+    </message>
+    <message>
+        <source>Default: %value</source>
+        <translation>ܣܝܡܐ ܡܢ ܩܕܝܡ: %value</translation>
+    </message>
+    <message>
+        <source>Conditions, references and comment</source>
+        <translation>ܫܪ̈ܛܐ، ܡܚܘ̈ܝܢܘܬܐ ܘܦܘܫܩܐ</translation>
+    </message>
+    <message>
+        <source>Name=value pairs separated by commas. The values of this step: %values</source>
+        <translation>ܙܘܓ̈ܐ ܕܫܡܐ=ܛܝܡܐ ܦܪ̈ܝܫܐ ܒܦܣܘܩ̈ܐ. ܛܝܡ̈ܐ ܕܗܕܐ ܦܣܥܬܐ: %values</translation>
+    </message>
+    <message>
+        <source>Example</source>
+        <translation>ܡܬܠܐ</translation>
+    </message>
+    <message>
+        <source>Change step</source>
+        <translation>ܫܘܚܠܦܐ ܕܦܣܥܬܐ</translation>
+    </message>
+    <message>
+        <source>Add step</source>
+        <translation>ܬܘܣܦܬܐ ܕܦܣܥܬܐ</translation>
+    </message>
+    <message>
+        <source>What exp:migration:check says: the header, the document and every step checked by its step type.</source>
+        <translation>ܡܐ ܕܐܡܪ exp:migration:check: ܪܝܫܐ، ܟܬܒܐ، ܘܟܠ ܦܣܥܬܐ ܕܒܚܝܪܐ ܡܢ ܓܢܣܐ ܕܦܣܥܬܗ.</translation>
+    </message>
+    <message>
+        <source>The migration passes the check.</source>
+        <translation>ܫܘܢܝܐ ܥܒܪ ܒܘܚܪܢܐ.</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>ܚܙܝܐ ܩܕܡܝܐ</translation>
+    </message>
+    <message>
+        <source>The YAML as it will be saved.</source>
+        <translation>YAML ܐܝܟ ܕܢܬܢܛܪ.</translation>
+    </message>
+    <message>
+        <source>Show the YAML</source>
+        <translation>ܚܘܝ ܠ YAML</translation>
+    </message>
+    <message>
+        <source>YAML migrations</source>
+        <translation>ܫܘܢ̈ܝܐ ܕ YAML</translation>
+    </message>
+    <message>
+        <source>has run</source>
+        <translation>ܪܗܛ</translation>
+    </message>
+    <message>
+        <source>There are no YAML migrations yet.</source>
+        <translation>ܠܝܬ ܫܘܢ̈ܝܐ ܕ YAML ܥܕܡܐ ܠܗܫܐ.</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>ܡܬܩܢܢܐ</translation>
+    </message>
+    <message>
+        <source>There is no YAML migration %id in the migration folders.</source>
+        <translation>ܠܝܬ ܫܘܢܝܐ ܕ YAML %id ܒܬܝܩ̈ܐ ܕܫܘܢ̈ܝܐ.</translation>
+    </message>
+    <message>
+        <source>Choose a step type.</source>
+        <translation>ܓܒܝ ܓܢܣܐ ܕܦܣܥܬܐ.</translation>
+    </message>
+    <message>
+        <source>The step is added. Check the migration before you save it.</source>
+        <translation>ܦܣܥܬܐ ܐܬܬܘܣܦܬ. ܒܚܘܪ ܠܫܘܢܝܐ ܩܕܡ ܕܬܛܪܝܘܗܝ.</translation>
+    </message>
+    <message>
+        <source>The step is changed. Check the migration before you save it.</source>
+        <translation>ܦܣܥܬܐ ܐܫܬܚܠܦܬ. ܒܚܘܪ ܠܫܘܢܝܐ ܩܕܡ ܕܬܛܪܝܘܗܝ.</translation>
+    </message>
+    <message>
+        <source>Choose a step.</source>
+        <translation>ܓܒܝ ܦܣܥܬܐ.</translation>
+    </message>
+    <message>
+        <source>This step has no form (a loop, or a step type this installation does not have): change it in the text.</source>
+        <translation>ܠܗܕܐ ܦܣܥܬܐ ܠܝܬ ܛܘܦܣܐ (ܚܘܕܪܐ، ܐܘ ܓܢܣܐ ܕܦܣܥܬܐ ܕܠܝܬ ܠܗ ܠܗܕܐ ܣܝܡܬܐ): ܫܚܠܦ ܠܗ ܒܟܬܝܒܬܐ.</translation>
+    </message>
+    <message>
+        <source>Choose where the migration goes: the site or an active extension.</source>
+        <translation>ܓܒܝ ܠܐܝܟܐ ܐܙܠ ܫܘܢܝܐ: ܠܐܬܪܐ ܐܘ ܠܬܘܣܦܬܐ ܦܥܠܬܐ.</translation>
+    </message>
+    <message>
+        <source>Saved %file. Run a dry run before the migration runs.</source>
+        <translation>%file ܐܬܢܛܪ. ܥܒܕ ܪܗܛܐ ܕܒܘܚܪܢܐ ܩܕܡ ܕܢܪܗܛ ܫܘܢܝܐ.</translation>
+    </message>
+    <message>
+        <source>Not saved: %reason</source>
+        <translation>ܠܐ ܐܬܢܛܪ: %reason</translation>
+    </message>
+    <message>
+        <source>Remotes</source>
+        <translation>ܪ̈ܚܝܩܐ</translation>
+    </message>
+    <message>
+        <source>The other installations this one deploys its migrations to: a deploy sends the migrations to the remotes chosen and runs them there, all at once and in sync. A remote never holds a secret: its credential names one in Setup &gt; Secrets.</source>
+        <translation>ܐܩܡ̈ܬܐ ܐܚܪ̈ܢܝܬܐ ܕܗܕܐ ܦܪܣܐ ܠܘܬܗܝܢ ܫܘܢ̈ܝܐ ܕܝܠܗ̇: ܦܘܪܣܐ ܫܕܪ ܫܘܢ̈ܝܐ ܠܪ̈ܚܝܩܐ ܓܒܝ̈ܐ ܘܡܪܗܛ ܠܗܘܢ ܬܡܢ، ܟܠܗܘܢ ܒܚܕ ܙܒܢܐ ܘܒܫܘܝܘܬܐ. ܪܚܝܩܐ ܡܡܬܘܡ ܠܐ ܐܚܝܕ ܐܪܙܐ: ܫܘܕܥܐ ܕܡܥܠܢܐ ܕܝܠܗ ܡܫܡܗ ܚܕ ܓܘ ܛܘܝܒܐ &gt; ܐܪ̈ܙܐ.</translation>
+    </message>
+    <message>
+        <source>New remote</source>
+        <translation>ܪܚܝܩܐ ܚܕܬܐ</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>ܥܘܕܪܢܐ</translation>
+    </message>
+    <message>
+        <source>Test connection of %id</source>
+        <translation>ܒܘܚܪܢܐ ܕܚܘܒܪܐ ܕ %id</translation>
+    </message>
+    <message>
+        <source>The remotes</source>
+        <translation>ܪ̈ܚܝܩܐ</translation>
+    </message>
+    <message>
+        <source>Up to %parallel remotes are worked on at the same time; one phase may take %timeout seconds on each.</source>
+        <translation>ܥܕܡܐ ܠ %parallel ܪ̈ܚܝܩܐ ܡܬܦܠܚܝܢ ܒܚܕ ܙܒܢܐ؛ ܡܢܬܐ ܚܕܐ ܡܨܝܐ ܕܬܣܒ %timeout ܪ̈ܦܦܐ ܥܠ ܟܠ ܚܕ.</translation>
+    </message>
+    <message>
+        <source>Remote</source>
+        <translation>ܪܚܝܩܐ</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>ܡܘܢܥܐ</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>ܫܘܕܥܐ ܕܡܥܠܢܐ</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>ܟܢ̈ܫܐ</translation>
+    </message>
+    <message>
+        <source>settings to fix</source>
+        <translation>ܛܘܝ̈ܒܐ ܕܣܢܝܩܝܢ ܠܬܘܪܨܐ</translation>
+    </message>
+    <message>
+        <source>files only (FTP)</source>
+        <translation>ܦܢܩܝ̈ܬܐ ܒܠܚܘܕ (FTP)</translation>
+    </message>
+    <message>
+        <source>SSH key</source>
+        <translation>ܩܠܝܕܐ ܕ SSH</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>ܡܠܬܐ ܕܥܒܪܐ</translation>
+    </message>
+    <message>
+        <source>none (the host's SSH agent and keys)</source>
+        <translation>ܠܐ ܚܕ (ܣܥܘܪܐ ܕ SSH ܘܩܠܝܕ̈ܐ ܕܡܬܚܡܐ)</translation>
+    </message>
+    <message>
+        <source>Test connection</source>
+        <translation>ܒܘܚܪܢܐ ܕܚܘܒܪܐ</translation>
+    </message>
+    <message>
+        <source>A deploy to a group goes to every remote of it.</source>
+        <translation>ܦܘܪܣܐ ܠܟܢܘܫܬܐ ܐܙܠ ܠܟܠ ܪܚܝܩܐ ܕܝܠܗ̇.</translation>
+    </message>
+    <message>
+        <source>Deploy to remotes</source>
+        <translation>ܦܘܪܣܐ ܠܪ̈ܚܝܩܐ</translation>
+    </message>
+    <message>
+        <source>No remote is set up yet.</source>
+        <translation>ܠܝܬ ܪܚܝܩܐ ܡܛܝܒܐ ܥܕܡܐ ܠܗܫܐ.</translation>
+    </message>
+    <message>
+        <source>Remote %id</source>
+        <translation>ܪܚܝܩܐ %id</translation>
+    </message>
+    <message>
+        <source>Nothing is sent or run here: Save writes the settings to settings/override/migration.ini.append.php. The credential is a name; its value stays in Setup &gt; Secrets or in the environment.</source>
+        <translation>ܡܕܡ ܠܐ ܡܫܬܕܪ ܐܘ ܡܬܪܗܛ ܗܪܟܐ: «ܢܛܪܐ» ܟܬܒ ܛܘܝ̈ܒܐ ܠ settings/override/migration.ini.append.php. ܫܘܕܥܐ ܕܡܥܠܢܐ ܗܘ ܫܡܐ؛ ܛܝܡܐ ܕܝܠܗ ܦܐܫ ܓܘ ܛܘܝܒܐ &gt; ܐܪ̈ܙܐ ܐܘ ܒܣܒܝܒܘܬܐ.</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>ܒܨܘ ܗܠܝܢ ܛܘܝ̈ܒܐ</translation>
+    </message>
+    <message>
+        <source>The settings as entered, not saved yet.</source>
+        <translation>ܛܘܝ̈ܒܐ ܐܝܟ ܕܐܬܥܠܘ، ܥܕܟܝܠ ܠܐ ܢܛܝܪܝܢ.</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>ܒܘܚܪܢܐ ܚܪܝܐ</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>ܛܘܝ̈ܒܐ ܫܪܝܪ̈ܐ ܐܢܘܢ. ܗܠܝܢ ܣܪ̈ܛܐ ܢܬܟܬܒܘܢ:</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation>ܫܘܕܥܐ</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>ܫܡܐ ܒܠܚܘܕ؛ ܛܝܡܐ ܦܐܫ ܒ ܛܘܝܒܐ &gt; ܐܪ̈ܙܐ</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>ܣܪ̈ܛܐ ܕܢܬܟܬܒܘܢ</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>ܚܘܒܪܐ</translation>
+    </message>
+    <message>
+        <source>Host key</source>
+        <translation>ܩܠܝܕܐ ܕܡܬܚܡܐ</translation>
+    </message>
+    <message>
+        <source>1. The remote</source>
+        <translation>1. ܪܚܝܩܐ</translation>
+    </message>
+    <message>
+        <source>What the remote is called and which environment it is.</source>
+        <translation>ܡܢܐ ܫܡܗ ܕܪܚܝܩܐ ܘܐܝܕܐ ܣܒܝܒܘܬܐ ܗܘ.</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ܫܘܕܥܐ</translation>
+    </message>
+    <message>
+        <source>Letters, digits, - and _, for example production1. It names the remote in reports and on the console (--remotes=production1) and cannot be changed later.</source>
+        <translation>ܐܬ̈ܘܬܐ، ܡܢ̈ܝܢܐ، - ܘ _، ܠܡܬܠ production1. ܗܘ ܫܡܐ ܕܪܚܝܩܐ ܒܡܘܕܥܢܘ̈ܬܐ ܘܒܟܘܢܣܘܠ (--remotes=production1) ܘܠܐ ܡܨܐ ܕܢܫܬܚܠܦ ܡܢ ܒܬܪ.</translation>
+    </message>
+    <message>
+        <source>alpha, dev, stage, beta, production ... A staged deploy goes through the environments in this order.</source>
+        <translation>alpha, dev, stage, beta, production ... ܦܘܪܣܐ ܒܕܪ̈ܓܐ ܥܒܪ ܒܣܒܝܒܘ̈ܬܐ ܒܗܢܐ ܛܟܣܐ.</translation>
+    </message>
+    <message>
+        <source>Optional, separated by commas, for example production. A deploy to a group goes to every remote of it.</source>
+        <translation>ܓܒܝܝܐ، ܦܪܝܫܐ ܒܦܣܝܩ̈ܬܐ، ܠܡܬܠ production. ܦܘܪܣܐ ܠܟܢܘܫܬܐ ܐܙܠ ܠܟܠ ܪܚܝܩܐ ܕܝܠܗ̇.</translation>
+    </message>
+    <message>
+        <source>2. The connection</source>
+        <translation>2. ܚܘܒܪܐ</translation>
+    </message>
+    <message>
+        <source>How the files get there, and where the installation is.</source>
+        <translation>ܐܝܟܢܐ ܦܢܩܝ̈ܬܐ ܡܛܝܢ ܠܬܡܢ، ܘܐܝܟܐ ܐܝܬܝܗ̇ ܐܩܡܬܐ.</translation>
+    </message>
+    <message>
+        <source>Over SSH, only what changed, a broken transfer resumed. The best choice where rsync is installed.</source>
+        <translation>ܥܠ SSH، ܒܠܚܘܕ ܡܐ ܕܐܫܬܚܠܦ، ܡܥܒܪܢܘܬܐ ܬܒܝܪܬܐ ܡܫܬܪܝܐ ܬܘܒ. ܓܒܝܬܐ ܛܒܬܐ ܐܝܟܐ ܕ rsync ܡܩܝܡ.</translation>
+    </message>
+    <message>
+        <source>SSH with scp for the files.</source>
+        <translation>SSH ܥܡ scp ܠܦܢܩܝ̈ܬܐ.</translation>
+    </message>
+    <message>
+        <source>SSH with sftp for the files.</source>
+        <translation>SSH ܥܡ sftp ܠܦܢܩܝ̈ܬܐ.</translation>
+    </message>
+    <message>
+        <source>Files only: the migrations are sent and read back, but cannot be run there.</source>
+        <translation>ܦܢܩܝ̈ܬܐ ܒܠܚܘܕ: ܫܘܢ̈ܝܐ ܡܫܬܕܪܝܢ ܘܡܬܩܪܝܢ ܠܒܣܬܪ، ܐܠܐ ܠܐ ܡܨܝܢ ܕܢܬܪܗܛܘܢ ܬܡܢ.</translation>
+    </message>
+    <message>
+        <source>FTP over TLS; files only.</source>
+        <translation>FTP ܥܠ TLS؛ ܦܢܩܝ̈ܬܐ ܒܠܚܘܕ.</translation>
+    </message>
+    <message>
+        <source>Another installation on this server, in a folder.</source>
+        <translation>ܐܩܡܬܐ ܐܚܪܬܐ ܥܠ ܗܕܐ ܬܫܡܫܬܐ، ܒܬܝܩܐ.</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>ܡܬܚܡܐ</translation>
+    </message>
+    <message>
+        <source>A host name or address, for example node1.example.com. Not for local.</source>
+        <translation>ܫܡܐ ܕܡܬܚܡܐ ܐܘ ܡܘܢܥܐ، ܠܡܬܠ node1.example.com. ܠܐ ܠ local.</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>ܦܘܪܛ</translation>
+    </message>
+    <message>
+        <source>Empty: 22 for SSH, 21 for FTP.</source>
+        <translation>ܣܦܝܩܐ: 22 ܠ SSH، 21 ܠ FTP.</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>ܡܦܠܚܢܐ</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>ܫܒܝܠܐ</translation>
+    </message>
+    <message>
+        <source>The installation's root there, for example /var/www/site (for FTP: the path the FTP account sees).</source>
+        <translation>ܥܩܪܐ ܕܐܩܡܬܐ ܬܡܢ، ܠܡܬܠ /var/www/site (ܠ FTP: ܫܒܝܠܐ ܕܚܙܐ ܚܘܫܒܢܐ ܕ FTP).</translation>
+    </message>
+    <message>
+        <source>PHP command line</source>
+        <translation>ܣܪܛܐ ܕܦܘܩܕ̈ܢܐ ܕ PHP</translation>
+    </message>
+    <message>
+        <source>The PHP CLI there: php, or a full path such as /opt/plesk/php/8.4/bin/php.</source>
+        <translation>PHP CLI ܬܡܢ: php، ܐܘ ܫܒܝܠܐ ܓܡܝܪܐ ܐܝܟ /opt/plesk/php/8.4/bin/php.</translation>
+    </message>
+    <message>
+        <source>The console scripts run as root there</source>
+        <translation>ܟܬܝܒ̈ܬܐ ܕܟܘܢܣܘܠ ܪܗܛܢ ܬܡܢ ܐܝܟ root</translation>
+    </message>
+    <message>
+        <source>Only when the remote's user is root (they are then run with --allow-root-user).</source>
+        <translation>ܒܠܚܘܕ ܟܕ ܡܦܠܚܢܐ ܕܪܚܝܩܐ ܗܘ root (ܗܝܕܝܢ ܡܬܪܗܛܝܢ ܥܡ --allow-root-user).</translation>
+    </message>
+    <message>
+        <source>3. The credential</source>
+        <translation>3. ܫܘܕܥܐ ܕܡܥܠܢܐ</translation>
+    </message>
+    <message>
+        <source>How this installation signs in there. Only a name is saved.</source>
+        <translation>ܐܝܟܢܐ ܗܕܐ ܐܩܡܬܐ ܥܐܠܐ ܬܡܢ. ܫܡܐ ܒܠܚܘܕ ܡܬܢܛܪ.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>ܠܐ ܚܕ</translation>
+    </message>
+    <message>
+        <source>The SSH agent and keys of the user this installation runs as (and always for local).</source>
+        <translation>ܣܥܘܪܐ ܕ SSH ܘܩܠܝܕ̈ܐ ܕܡܦܠܚܢܐ ܕܗܕܐ ܐܩܡܬܐ ܪܗܛܐ ܐܝܟܘܬܗ (ܘܐܡܝܢܐܝܬ ܠ local).</translation>
+    </message>
+    <message>
+        <source>A private key kept as a secret.</source>
+        <translation>ܩܠܝܕܐ ܦܪܨܘܦܝܐ ܢܛܝܪܐ ܐܝܟ ܐܪܙܐ.</translation>
+    </message>
+    <message>
+        <source>A password kept as a secret (FTP signs in with one).</source>
+        <translation>ܡܠܬܐ ܕܥܒܪܐ ܢܛܝܪܬܐ ܐܝܟ ܐܪܙܐ (FTP ܥܐܠ ܒܡܠܬܐ ܕܥܒܪܐ).</translation>
+    </message>
+    <message>
+        <source>Secret name</source>
+        <translation>ܫܡܐ ܕܐܪܙܐ</translation>
+    </message>
+    <message>
+        <source>A secret of Setup &gt; Secrets, for example deploy_production1.</source>
+        <translation>ܐܪܙܐ ܡܢ ܛܘܝܒܐ &gt; ܐܪ̈ܙܐ، ܠܡܬܠ deploy_production1.</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>ܛܘܝܒܐ &gt; ܐܪ̈ܙܐ</translation>
+    </message>
+    <message>
+        <source>Or an environment variable</source>
+        <translation>ܐܘ ܫܚܠܦܢܐ ܕܣܒܝܒܘܬܐ</translation>
+    </message>
+    <message>
+        <source>The variable of the server process that holds it, for example DEPLOY_KEY (saved as env:DEPLOY_KEY). It takes the place of the secret name.</source>
+        <translation>ܫܚܠܦܢܐ ܕܥܒܕܐ ܕܬܫܡܫܬܐ ܕܐܚܝܕ ܠܗ، ܠܡܬܠ DEPLOY_KEY (ܢܛܝܪ ܐܝܟ env:DEPLOY_KEY). ܗܘ ܢܣܒ ܕܘܟܬܐ ܕܫܡܐ ܕܐܪܙܐ.</translation>
+    </message>
+    <message>
+        <source>4. The host key</source>
+        <translation>4. ܩܠܝܕܐ ܕܡܬܚܡܐ</translation>
+    </message>
+    <message>
+        <source>Optional, for SSH, sftp and rsync.</source>
+        <translation>ܓܒܝܝܐ، ܠ SSH، sftp ܘ rsync.</translation>
+    </message>
+    <message>
+        <source>Host key fingerprint</source>
+        <translation>ܪܘܫܡܐ ܕܩܠܝܕܐ ܕܡܬܚܡܐ</translation>
+    </message>
+    <message>
+        <source>SHA256:... as ssh-keygen -l prints it. With it, the host must show this key; without it, the key is learnt on first contact.</source>
+        <translation>SHA256:... ܐܝܟ ܕ ssh-keygen -l ܡܚܘܐ ܠܗ. ܥܡܗ، ܡܬܚܡܐ ܘܠܐ ܠܗ ܕܢܚܘܐ ܗܢܐ ܩܠܝܕܐ؛ ܕܠܐ ܗܘ، ܩܠܝܕܐ ܡܬܝܠܦ ܒܦܓܥܐ ܩܕܡܝܐ.</translation>
+    </message>
+    <message>
+        <source>5. Review</source>
+        <translation>5. ܒܘܚܪܢܐ ܚܪܝܐ</translation>
+    </message>
+    <message>
+        <source>Test the connection with the settings above, then review the lines that will be written.</source>
+        <translation>ܒܚܘܪܘ ܠܚܘܒܪܐ ܥܡ ܛܘܝ̈ܒܐ ܕܠܥܠ، ܘܒܬܪܟܢ ܒܨܘ ܣܪ̈ܛܐ ܕܥܬܝܕܝܢ ܕܢܬܟܬܒܘܢ.</translation>
+    </message>
+    <message>
+        <source>Remove this remote</source>
+        <translation>ܫܩܘܠܘ ܗܢܐ ܪܚܝܩܐ</translation>
+    </message>
+    <message>
+        <source>Its settings are taken out of settings/override/migration.ini.append.php. Nothing changes on the remote, and its deploys stay in the history.</source>
+        <translation>ܛܘܝ̈ܒܐ ܕܝܠܗ ܡܫܬܩܠܝܢ ܡܢ settings/override/migration.ini.append.php. ܡܕܡ ܠܐ ܡܫܬܚܠܦ ܥܠ ܪܚܝܩܐ، ܘܦܘܪ̈ܣܐ ܕܝܠܗ ܦܝܫܝܢ ܒܬܫܥܝܬܐ.</translation>
+    </message>
+    <message>
+        <source>Yes, remove this remote</source>
+        <translation>ܐܝܢ، ܫܩܘܠ ܗܢܐ ܪܚܝܩܐ</translation>
+    </message>
+    <message>
+        <source>Deploys</source>
+        <translation>ܦܘܪ̈ܣܐ</translation>
+    </message>
+    <message>
+        <source>A deploy sends this installation's migrations to the remotes chosen and runs them there as %user, all at once and in sync: every remote is checked first, and when one fails, every remote that applied is taken back. It goes on in the background, and its page shows every remote as it goes.</source>
+        <translation>ܦܘܪܣܐ ܫܕܪ ܫܘܢ̈ܝܐ ܕܗܕܐ ܐܩܡܬܐ ܠܪ̈ܚܝܩܐ ܓܒܝ̈ܐ ܘܡܪܗܛ ܠܗܘܢ ܬܡܢ ܐܝܟ %user، ܟܠܗܘܢ ܒܚܕ ܙܒܢܐ ܘܒܫܘܝܘܬܐ: ܟܠ ܪܚܝܩܐ ܡܬܒܚܪ ܠܘܩܕܡ، ܘܐܢ ܚܕ ܠܐ ܐܨܠܚ، ܟܠ ܪܚܝܩܐ ܕܣܡ ܠܗܘܢ ܡܬܗܦܟ ܠܒܣܬܪ. ܗܘ ܐܙܠ ܒܛܘܫܝܐ، ܘܦܐܬܐ ܕܝܠܗ ܡܚܘܝܐ ܟܠ ܪܚܝܩܐ ܟܕ ܐܙܠ.</translation>
+    </message>
+    <message>
+        <source>1. The remotes</source>
+        <translation>1. ܪ̈ܚܝܩܐ</translation>
+    </message>
+    <message>
+        <source>Tick remotes, a group, or both.</source>
+        <translation>ܪܫܘܡܘ ܪ̈ܚܝܩܐ، ܟܢܘܫܬܐ، ܐܘ ܬܪܘܝܗܘܢ.</translation>
+    </message>
+    <message>
+        <source>Deploy to it</source>
+        <translation>ܦܪܘܣܘ ܠܘܬܗ</translation>
+    </message>
+    <message>
+        <source>2. How</source>
+        <translation>2. ܐܝܟܢܐ</translation>
+    </message>
+    <message>
+        <source>Deploy</source>
+        <translation>ܦܘܪܣܐ</translation>
+    </message>
+    <message>
+        <source>Send and run</source>
+        <translation>ܫܕܪܐ ܘܡܪܗܛܐ</translation>
+    </message>
+    <message>
+        <source>The migrations are sent, verified and run on every remote with one shared run id.</source>
+        <translation>ܫܘܢ̈ܝܐ ܡܫܬܕܪܝܢ، ܡܬܒܚܪܝܢ ܘܡܬܪܗܛܝܢ ܥܠ ܟܠ ܪܚܝܩܐ ܥܡ ID ܚܕ ܓܘܢܝܐ ܕܡܪܗܛܐ.</translation>
+    </message>
+    <message>
+        <source>Transfer only</source>
+        <translation>ܡܥܒܪܢܘܬܐ ܒܠܚܘܕ</translation>
+    </message>
+    <message>
+        <source>The files are sent and verified, nothing is run (the only way for an FTP remote).</source>
+        <translation>ܦܢܩܝ̈ܬܐ ܡܫܬܕܪܢ ܘܡܬܒܚܪܢ، ܡܕܡ ܠܐ ܡܬܪܗܛ (ܐܘܪܚܐ ܝܚܝܕܝܬܐ ܠܪܚܝܩܐ ܕ FTP).</translation>
+    </message>
+    <message>
+        <source>Staged</source>
+        <translation>ܒܕܪ̈ܓܐ</translation>
+    </message>
+    <message>
+        <source>Stage by stage in the order of the environments (dev, stage, beta, production ...): the first stage is deployed, then a gate waits until someone approves the next one. All or nothing within each stage.</source>
+        <translation>ܕܪܓܐ ܒܬܪ ܕܪܓܐ ܒܛܟܣܐ ܕܣܒܝܒܘ̈ܬܐ (dev, stage, beta, production ...): ܕܪܓܐ ܩܕܡܝܐ ܡܬܦܪܣ، ܘܒܬܪܟܢ ܬܪܥܐ ܡܣܟܐ ܥܕܡܐ ܕܐܢܫ ܡܫܪܪ ܠܕܒܬܪܗ. ܟܠ ܡܕܡ ܐܘ ܠܐ ܡܕܡ ܓܘ ܟܠ ܕܪܓܐ.</translation>
+    </message>
+    <message>
+        <source>Only these migrations</source>
+        <translation>ܗܠܝܢ ܫܘܢ̈ܝܐ ܒܠܚܘܕ</translation>
+    </message>
+    <message>
+        <source>Optional: migration ids, separated by commas. Empty: every migration of the site and its extensions.</source>
+        <translation>ܓܒܝܝܐ: ID ܕܫܘܢ̈ܝܐ، ܦܪܝܫܐ ܒܦܣܝܩ̈ܬܐ. ܣܦܝܩܐ: ܟܠ ܫܘܢܝܐ ܕܐܬܪܐ ܘܕܡܘܬܪ̈ܐ ܕܝܠܗ.</translation>
+    </message>
+    <message>
+        <source>Preflight only</source>
+        <translation>ܒܘܚܪܢܐ ܩܕܡܝܐ ܒܠܚܘܕ</translation>
+    </message>
+    <message>
+        <source>Yes, deploy now</source>
+        <translation>ܐܝܢ، ܦܪܘܣ ܗܫܐ</translation>
+    </message>
+    <message>
+        <source>The deploys that sent or ran something, the newest first (a preflight keeps no report).</source>
+        <translation>ܦܘܪ̈ܣܐ ܕܫܕܪܘ ܐܘ ܪܗܛܘ ܡܕܡ، ܚܕܬܐ ܩܕܡܝܐ (ܒܘܚܪܢܐ ܩܕܡܝܐ ܠܐ ܢܛܪ ܡܘܕܥܢܘܬܐ).</translation>
+    </message>
+    <message>
+        <source>transfer only</source>
+        <translation>ܡܥܒܪܢܘܬܐ ܒܠܚܘܕ</translation>
+    </message>
+    <message>
+        <source>staged, %stages stages</source>
+        <translation>ܒܕܪ̈ܓܐ، %stages ܕܪ̈ܓܐ</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>ܠܐ ܒܫܘܝܘܬܐ</translation>
+    </message>
+    <message>
+        <source>No deploy yet.</source>
+        <translation>ܠܝܬ ܦܘܪܣܐ ܥܕܡܐ ܠܗܫܐ.</translation>
+    </message>
+    <message>
+        <source>Deploy %deploy</source>
+        <translation>ܦܘܪܣܐ %deploy</translation>
+    </message>
+    <message>
+        <source>Every remote of the deploy with its state. A deploy started here goes on in the background when this page is closed; open the page again to follow it.</source>
+        <translation>ܟܠ ܪܚܝܩܐ ܕܦܘܪܣܐ ܥܡ ܡܩܡܐ ܕܝܠܗ. ܦܘܪܣܐ ܕܫܪܝ ܗܪܟܐ ܐܙܠ ܒܛܘܫܝܐ ܟܕ ܗܕܐ ܦܐܬܐ ܡܬܣܟܪܐ؛ ܦܬܘܚܘ ܬܘܒ ܠܦܐܬܐ ܕܬܪܕܦܘܢ ܠܗ.</translation>
+    </message>
+    <message>
+        <source>All deploys</source>
+        <translation>ܟܠ ܦܘܪ̈ܣܐ</translation>
+    </message>
+    <message>
+        <source>Preflight</source>
+        <translation>ܒܘܚܪܢܐ ܩܕܡܝܐ</translation>
+    </message>
+    <message>
+        <source>Next stage</source>
+        <translation>ܕܪܓܐ ܕܒܬܪܗ</translation>
+    </message>
+    <message>
+        <source>Checking the settings and the credentials</source>
+        <translation>ܒܘܚܪܢܐ ܕܛܘܝ̈ܒܐ ܘܕܫܘܕܥܐ ܕܡܥܠܢܐ</translation>
+    </message>
+    <message>
+        <source>Preflight: reading the state of every remote</source>
+        <translation>ܒܘܚܪܢܐ ܩܕܡܝܐ: ܩܪܝܢܐ ܕܡܩܡܐ ܕܟܠ ܪܚܝܩܐ</translation>
+    </message>
+    <message>
+        <source>Sending the migration files</source>
+        <translation>ܫܕܪܐ ܕܦܢܩܝ̈ܬܐ ܕܫܘܢ̈ܝܐ</translation>
+    </message>
+    <message>
+        <source>Verifying what arrived</source>
+        <translation>ܒܘܚܪܢܐ ܕܡܐ ܕܡܛܐ</translation>
+    </message>
+    <message>
+        <source>Running the migrations on every remote</source>
+        <translation>ܡܪܗܛܐ ܕܫܘܢ̈ܝܐ ܥܠ ܟܠ ܪܚܝܩܐ</translation>
+    </message>
+    <message>
+        <source>Taking the remotes back</source>
+        <translation>ܡܗܦܟܐ ܕܪ̈ܚܝܩܐ ܠܒܣܬܪ</translation>
+    </message>
+    <message>
+        <source>The deploy has ended. Loading its report.</source>
+        <translation>ܦܘܪܣܐ ܫܠܡ. ܡܘܕܥܢܘܬܐ ܕܝܠܗ ܡܬܛܥܢܐ.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the deploy is doing.</source>
+        <translation>ܡܩܕܡܢܘܬܐ ܠܐ ܐܫܟܚܬ ܕܬܬܪܕܦ. ܛܥܘܢܘ ܬܘܒ ܠܦܐܬܐ ܕܬܚܙܘܢ ܐܝܟܢܐ ܐܙܠ ܦܘܪܣܐ.</translation>
+    </message>
+    <message>
+        <source>Phase</source>
+        <translation>ܡܢܬܐ</translation>
+    </message>
+    <message>
+        <source>This page follows the deploy as it goes.</source>
+        <translation>ܗܕܐ ܦܐܬܐ ܪܕܦܐ ܠܦܘܪܣܐ ܟܕ ܐܙܠ.</translation>
+    </message>
+    <message>
+        <source>In sync</source>
+        <translation>ܒܫܘܝܘܬܐ</translation>
+    </message>
+    <message>
+        <source>Stages</source>
+        <translation>ܕܪ̈ܓܐ</translation>
+    </message>
+    <message>
+        <source>stage %stage waits at its gate</source>
+        <translation>ܕܪܓܐ %stage ܡܣܟܐ ܥܠ ܬܪܥܐ ܕܝܠܗ</translation>
+    </message>
+    <message>
+        <source>Gate %stage</source>
+        <translation>ܬܪܥܐ %stage</translation>
+    </message>
+    <message>
+        <source>approved by %user at %time</source>
+        <translation>ܡܫܪܪ ܡܢ %user ܒ %time</translation>
+    </message>
+    <message>
+        <source>Stage</source>
+        <translation>ܕܪܓܐ</translation>
+    </message>
+    <message>
+        <source>Files sent</source>
+        <translation>ܦܢܩܝ̈ܬܐ ܕܐܫܬܕܪ</translation>
+    </message>
+    <message>
+        <source>Kernel version</source>
+        <translation>ܡܦܩܬܐ ܕܟܪܢܠ</translation>
+    </message>
+    <message>
+        <source>applied: %list</source>
+        <translation>ܣܝܡܐ: %list</translation>
+    </message>
+    <message>
+        <source>to apply: %list</source>
+        <translation>ܠܡܣܡ: %list</translation>
+    </message>
+    <message>
+        <source>Phases</source>
+        <translation>ܡܢ̈ܘܬܐ</translation>
+    </message>
+    <message>
+        <source>Gate: stage %stage of %stages</source>
+        <translation>ܬܪܥܐ: ܕܪܓܐ %stage ܡܢ %stages</translation>
+    </message>
+    <message>
+        <source>The stages before it are deployed. Check them, then approve the next stage: its remotes are checked again and deployed, all or nothing.</source>
+        <translation>ܕܪ̈ܓܐ ܕܩܕܡܘܗܝ ܐܬܦܪܣܘ. ܒܨܘ ܐܢܘܢ، ܘܒܬܪܟܢ ܫܪܪܘ ܠܕܪܓܐ ܕܒܬܪܗ: ܪ̈ܚܝܩܐ ܕܝܠܗ ܡܬܒܚܪܝܢ ܬܘܒ ܘܡܬܦܪܣܝܢ، ܟܠ ܡܕܡ ܐܘ ܠܐ ܡܕܡ.</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>ܕܒܬܪ</translation>
+    </message>
+    <message>
+        <source>Yes, deploy the next stage now</source>
+        <translation>ܐܝܢ، ܦܪܘܣ ܕܪܓܐ ܕܒܬܪܗ ܗܫܐ</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>ܡܫܪܪܐ</translation>
+    </message>
+    <message>
+        <source>Roll this deploy back</source>
+        <translation>ܗܦܘܟܘ ܗܢܐ ܦܘܪܣܐ ܠܒܣܬܪ</translation>
+    </message>
+    <message>
+        <source>Every remote that applied it (%list) goes back to the caption taken before its run, all at once.</source>
+        <translation>ܟܠ ܪܚܝܩܐ ܕܣܡ ܠܗ (%list) ܗܦܟ ܠܢܘܣܚܐ ܕܣܡܟܐ ܕܐܬܢܣܒ ܩܕܡ ܡܪܗܛܐ ܕܝܠܗ، ܟܠܗܘܢ ܒܚܕ ܙܒܢܐ.</translation>
+    </message>
+    <message>
+        <source>Yes, roll this deploy back now</source>
+        <translation>ܐܝܢ، ܗܦܘܟ ܗܢܐ ܦܘܪܣܐ ܠܒܣܬܪ ܗܫܐ</translation>
+    </message>
+    <message>
+        <source>planned</source>
+        <translation>ܡܬܬܚܫܒܐ</translation>
+    </message>
+    <message>
+        <source>transferred</source>
+        <translation>ܥܒܝܪܐ</translation>
+    </message>
+    <message>
+        <source>deployed</source>
+        <translation>ܦܪܝܣܐ</translation>
+    </message>
+    <message>
+        <source>waits at a gate</source>
+        <translation>ܡܣܟܐ ܥܠ ܬܪܥܐ</translation>
+    </message>
+    <message>
+        <source>selected</source>
+        <translation>ܓܒܝܐ</translation>
+    </message>
+    <message>
+        <source>prepared</source>
+        <translation>ܡܛܝܒܐ</translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation>ܬܩܝܢ</translation>
+    </message>
+    <message>
+        <source>waits for its stage</source>
+        <translation>ܡܣܟܐ ܠܕܪܓܐ ܕܝܠܗ</translation>
+    </message>
+    <message>
+        <source>files sent</source>
+        <translation>ܦܢܩܝ̈ܬܐ ܐܫܬܕܪ</translation>
+    </message>
+    <message>
+        <source>verified</source>
+        <translation>ܒܚܝܪܐ</translation>
+    </message>
+    <message>
+        <source>failed, restored itself</source>
+        <translation>ܠܐ ܐܨܠܚ، ܐܗܦܟ ܢܦܫܗ</translation>
+    </message>
+    <message>
+        <source>unchanged</source>
+        <translation>ܠܐ ܡܫܚܠܦܐ</translation>
+    </message>
+    <message>
+        <source>not deployed</source>
+        <translation>ܠܐ ܦܪܝܣܐ</translation>
+    </message>
+    <message>
+        <source>not reachable</source>
+        <translation>ܠܐ ܡܬܡܛܝܢܐ</translation>
+    </message>
+    <message>
+        <source>The remote answered.</source>
+        <translation>ܪܚܝܩܐ ܦܢܝ.</translation>
+    </message>
+    <message>
+        <source>The remote cannot be used now.</source>
+        <translation>ܪܚܝܩܐ ܠܐ ܡܨܐ ܕܢܬܦܠܚ ܗܫܐ.</translation>
+    </message>
+    <message>
+        <source>%done done, %pending pending, %failed failed</source>
+        <translation>%done ܓܡܝܪܐ، %pending ܡܣܟܝܐ، %failed ܠܐ ܐܨܠܚ</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation>ܩܘܦܠܐ</translation>
+    </message>
+    <message>
+        <source>a run holds the lock there</source>
+        <translation>ܡܪܗܛܐ ܐܚܝܕ ܩܘܦܠܐ ܬܡܢ</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <translation>ܦܪܝܩ</translation>
+    </message>
+    <message>
+        <source>%stage of %stages</source>
+        <translation>%stage ܡܢ %stages</translation>
+    </message>
+    <message>
+        <source>Choose the remote to test.</source>
+        <translation>ܓܒܘ ܠܪܚܝܩܐ ܕܢܬܒܚܪ.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, remove this remote" first.</source>
+        <translation>ܪܫܘܡܘ ܠܘܩܕܡ «ܐܝܢ، ܫܩܘܠ ܗܢܐ ܪܚܝܩܐ».</translation>
+    </message>
+    <message>
+        <source>The remote could not be removed: %problem</source>
+        <translation>ܪܚܝܩܐ ܠܐ ܐܫܟܚ ܕܢܫܬܩܠ: %problem</translation>
+    </message>
+    <message>
+        <source>The remote could not be saved: %problem</source>
+        <translation>ܪܚܝܩܐ ܠܐ ܐܫܟܚ ܕܢܬܢܛܪ: %problem</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>ܦܢܩܝܬܐ ܕܛܘܝ̈ܒܐ ܠܐ ܡܨܝܐ ܕܬܬܩܪܐ: %problem</translation>
+    </message>
+    <message>
+        <source>Choose at least one remote or group.</source>
+        <translation>ܓܒܘ ܠܟܠ ܗܘ ܩܠܝܠ ܪܚܝܩܐ ܚܕ ܐܘ ܟܢܘܫܬܐ.</translation>
+    </message>
+    <message>
+        <source>A chosen remote is no longer in the settings. Reload the page.</source>
+        <translation>ܪܚܝܩܐ ܓܒܝܐ ܠܐ ܐܝܬܘܗܝ ܬܘܒ ܒܛܘܝ̈ܒܐ. ܛܥܘܢܘ ܬܘܒ ܠܦܐܬܐ.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy now" first.</source>
+        <translation>ܪܫܘܡܘ ܠܘܩܕܡ «ܐܝܢ، ܦܪܘܣ ܗܫܐ».</translation>
+    </message>
+    <message>
+        <source>An FTP remote cannot run migrations: choose "Transfer only", or leave it out.</source>
+        <translation>ܪܚܝܩܐ ܕ FTP ܠܐ ܡܨܐ ܕܢܪܗܛ ܫܘܢ̈ܝܐ: ܓܒܘ «ܡܥܒܪܢܘܬܐ ܒܠܚܘܕ»، ܐܘ ܫܒܘܩܘ ܠܗ.</translation>
+    </message>
+    <message>
+        <source>The migrations to deploy are migration ids, separated by commas.</source>
+        <translation>ܫܘܢ̈ܝܐ ܕܢܬܦܪܣܘܢ ܐܢܘܢ ID ܕܫܘܢ̈ܝܐ، ܦܪܝܫܐ ܒܦܣܝܩ̈ܬܐ.</translation>
+    </message>
+    <message>
+        <source>The deploy is still going on. Wait for it to end.</source>
+        <translation>ܦܘܪܣܐ ܥܕܟܝܠ ܐܙܠ. ܣܟܘ ܥܕܡܐ ܕܢܫܠܡ.</translation>
+    </message>
+    <message>
+        <source>This deploy does not wait at a gate.</source>
+        <translation>ܗܢܐ ܦܘܪܣܐ ܠܐ ܡܣܟܐ ܥܠ ܬܪܥܐ.</translation>
+    </message>
+    <message>
+        <source>No remote applied this deploy: there is nothing to roll back.</source>
+        <translation>ܐܦ ܠܐ ܪܚܝܩܐ ܚܕ ܣܡ ܠܗܢܐ ܦܘܪܣܐ: ܠܝܬ ܡܕܡ ܠܡܗܦܟܘ ܠܒܣܬܪ.</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, deploy the next stage now" first.</source>
+        <translation>ܪܫܘܡܘ ܠܘܩܕܡ «ܐܝܢ، ܦܪܘܣ ܕܪܓܐ ܕܒܬܪܗ ܗܫܐ».</translation>
+    </message>
+    <message>
+        <source>Tick "Yes, roll this deploy back now" first.</source>
+        <translation>ܪܫܘܡܘ ܠܘܩܕܡ «ܐܝܢ، ܗܦܘܟ ܗܢܐ ܦܘܪܣܐ ܠܒܣܬܪ ܗܫܐ».</translation>
+    </message>
+    <message>
+        <source>A remote with the id %id exists already.</source>
+        <translation>ܪܚܝܩܐ ܥܡ ID %id ܐܝܬܘܗܝ ܡܢ ܩܕܝܡ.</translation>
+    </message>
+    <message>
+        <source>The port is a number from 1 to 65535.</source>
+        <translation>ܦܘܪܬ ܗܘ ܡܢܝܢܐ ܡܢ 1 ܥܕܡܐ 65535.</translation>
+    </message>
+    <message>
+        <source>The environment is a word of letters, digits, - and _ (alpha, dev, stage, beta, production ...).</source>
+        <translation>ܣܒܝܒܘܬܐ ܗܝ ܡܠܬܐ ܕܐܬ̈ܘܬܐ، ܡܢ̈ܝܢܐ، - ܘ _ (alpha, dev, stage, beta, production ...).</translation>
+    </message>
+    <message>
+        <source>A group is a word of letters, digits, - and _ (not all): %group</source>
+        <translation>ܟܢܘܫܬܐ ܗܝ ܡܠܬܐ ܕܐܬ̈ܘܬܐ، ܡܢ̈ܝܢܐ، - ܘ _ (ܠܐ all): %group</translation>
+    </message>
+    <message>
+        <source>The credential cannot be read now: %problem. Save it in Setup &gt; Secrets (or set the variable) before the first deploy.</source>
+        <translation>ܫܘܕܥܐ ܕܡܥܠܢܐ ܠܐ ܡܨܐ ܕܢܬܩܪܐ ܗܫܐ: %problem. ܢܛܘܪܘ ܠܗ ܓܘ ܛܘܝܒܐ &gt; ܐܪ̈ܙܐ (ܐܘ ܣܝܡܘ ܠܫܚܠܦܢܐ) ܩܕܡ ܦܘܪܣܐ ܩܕܡܝܐ.</translation>
+    </message>
+    <message>
+        <source>An FTP remote only receives files: a deploy to it is "Transfer only", and its migrations are run there by hand.</source>
+        <translation>ܪܚܝܩܐ ܕ FTP ܡܩܒܠ ܦܢܩܝ̈ܬܐ ܒܠܚܘܕ: ܦܘܪܣܐ ܠܘܬܗ ܗܘ «ܡܥܒܪܢܘܬܐ ܒܠܚܘܕ»، ܘܫܘܢ̈ܝܐ ܕܝܠܗ ܡܬܪܗܛܝܢ ܬܡܢ ܒܐܝܕܐ.</translation>
+    </message>
+    <message>
+        <source>The remote %id is not in settings/override/migration.ini.append.php; remove it where it is set.</source>
+        <translation>ܪܚܝܩܐ %id ܠܐ ܐܝܬܘܗܝ ܓܘ settings/override/migration.ini.append.php؛ ܫܩܘܠܘ ܠܗ ܐܝܟܐ ܕܡܛܝܒ.</translation>
+    </message>
+    <message>
+        <source>Signed in over FTP and read index.php. The migration status of an FTP remote cannot be read.</source>
+        <translation>ܥܐܠ ܥܠ FTP ܘܩܪܐ index.php. ܡܩܡܐ ܕܫܘܢ̈ܝܐ ܕܪܚܝܩܐ ܕ FTP ܠܐ ܡܨܐ ܕܢܬܩܪܐ.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/moderation</name>
+    <message>
+        <source>Modified</source>
+        <translation>ܡܫܘܚܠܦܐ</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>ܒܪܝܐ</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>ܫܡܐ</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>ܙܢܐ</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>ܦܠܓܘܬܐ</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation>ܥܒܘܕܐ</translation>
+    </message>
+    <message>
+        <source>Recent content</source>
+        <translation>ܡܠܝܘܬܐ ܚܕܬܬܐ</translation>
+    </message>
+    <message>
+        <source>The most recently created and modified content of the whole site, newest first: what visitors submitted, what is held for review, drafts waiting for their publication. Select items to release, hold, hide, reveal, remove or move them to another section or state.</source>
+        <translation>ܡܠܝܘܬܐ ܕܐܬܒܪܝܘ ܘܐܫܬܚܠܦܘ ܠܚܪܬܐ ܒܟܠܗ ܐܬܪܐ, ܚܕܬܐ ܩܕܡܝܬܐ: ܡܕܡ ܕܫܕܪܘ ܡܣܬܟܠܢܐ, ܡܕܡ ܕܟܠܝܐ ܠܒܘܚܢܐ, ܣܘܪܛܐ ܕܡܣܟܝܢ ܠܦܘܪܣܗܘܢ. ܓܒܘ ܡܢܘܬܐ ܠܡܫܪܐ, ܠܡܟܠܐ, ܠܡܛܫܝܘ, ܠܡܚܘܝܘ, ܠܡܫܩܠܘ ܐܘ ܠܡܫܢܝܘ ܠܦܠܓܘܬܐ ܐܘ ܠܐܣܟܡܐ ܐܚܪܬܐ.</translation>
+    </message>
+    <message>
+        <source>The list could not be read: %problem</source>
+        <translation>ܠܐ ܐܫܬܟܚܬ ܠܡܩܪܝܗ ܠܪܫܝܡܬܐ: %problem</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet, so nothing is held and the hold actions are not offered. The upgrade step 6.0.15-review-hold sets it up: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</source>
+        <translation>ܟܠܝܬܐ ܠܒܘܚܢܐ ܠܐ ܐܬܬܩܢܬ ܥܕܟܝܠ, ܡܛܠ ܗܢܐ ܡܕܡ ܠܐ ܟܠܝܐ ܘܣܘܥܪܢܐ ܕܟܠܝܬܐ ܠܐ ܡܬܩܪܒܝܢ. ܕܪܓܐ ܕܚܘܕܬܐ 6.0.15-review-hold ܡܬܩܢ ܠܗ: ./console exp:upgrade:scripts --only=6.0.15-review-hold --apply</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>ܨܠܠܘ ܠܪܫܝܡܬܐ</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>ܡܢ</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>ܥܕ</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>ܬܐܪܝܟܐ</translation>
+    </message>
+    <message>
+        <source>Created (first published)</source>
+        <translation>ܒܪܝܐ (ܦܘܪܣܐ ܩܕܡܝܐ)</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>ܟܠ</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>ܡܩܡܐ</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>ܦܪܝܣܐ</translation>
+    </message>
+    <message>
+        <source>Draft, never published</source>
+        <translation>ܣܘܪܛܐ, ܡܢ ܡܬܘܡ ܠܐ ܦܪܝܣ</translation>
+    </message>
+    <message>
+        <source>Pending (waiting for approval or a date)</source>
+        <translation>ܡܣܟܝܐ (ܡܣܟܐ ܠܫܘܪܪܐ ܐܘ ܠܬܐܪܝܟܐ)</translation>
+    </message>
+    <message>
+        <source>In the trash</source>
+        <translation>ܒܡܙܒܠܬܐ</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>ܟܠܝܐ ܠܒܘܚܢܐ</translation>
+    </message>
+    <message>
+        <source>Held</source>
+        <translation>ܟܠܝܐ</translation>
+    </message>
+    <message>
+        <source>Not held</source>
+        <translation>ܠܐ ܟܠܝܐ</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>ܛܫܝܐ</translation>
+    </message>
+    <message>
+        <source>Visible</source>
+        <translation>ܡܬܚܙܝܢܐ</translation>
+    </message>
+    <message>
+        <source>Submitted on</source>
+        <translation>ܐܫܬܕܪ ܒܝܘܡ</translation>
+    </message>
+    <message>
+        <source>Any siteaccess</source>
+        <translation>ܟܠ ܡܥܠܢܐ ܕܐܬܪܐ</translation>
+    </message>
+    <message>
+        <source>Only what the audit recorded.</source>
+        <translation>ܒܠܚܘܕ ܡܕܡ ܕܟܬܒ ܒܘܩܝܐ.</translation>
+    </message>
+    <message>
+        <source>Now: %name</source>
+        <translation>ܗܫܐ: %name</translation>
+    </message>
+    <message>
+        <source>A login or a user id.</source>
+        <translation>ܫܡܐ ܕܡܦܠܚܢܐ ܐܘ ܡܢܝܢܐ ܕܡܦܠܚܢܐ.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>ܡܨܠܠܢܐ</translation>
+    </message>
+    <message>
+        <source>Clear filters</source>
+        <translation>ܕܟܝܘ ܠܡܨܠܠܢܐ</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>ܡܢܘܬܐ</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from ܥܕ %to ܡܢ %count</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>ܠܝܬ ܡܢܬܐ</translation>
+    </message>
+    <message>
+        <source>(read in %ms ms)</source>
+        <translation>(ܐܬܩܪܝ ܒ%ms ms)</translation>
+    </message>
+    <message>
+        <source>Actions on the selected items</source>
+        <translation>ܣܘܥܪܢܐ ܥܠ ܡܢܘܬܐ ܓܒܝܬܐ</translation>
+    </message>
+    <message>
+        <source>Select all on this page</source>
+        <translation>ܓܒܝܐ ܕܟܠ ܒܗܕܐ ܦܐܬܐ</translation>
+    </message>
+    <message>
+        <source>%count selected</source>
+        <translation>%count ܓܒܝܝܢ</translation>
+    </message>
+    <message>
+        <source>Action</source>
+        <translation>ܣܘܥܪܢܐ</translation>
+    </message>
+    <message>
+        <source>Choose an action</source>
+        <translation>ܓܒܘ ܣܘܥܪܢܐ</translation>
+    </message>
+    <message>
+        <source>Release the hold</source>
+        <translation>ܫܪܝܐ ܕܟܠܝܬܐ</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>ܟܠܝܐ ܠܒܘܚܢܐ</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>ܡܛܫܝܐ</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>ܡܚܘܝܐ</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>ܫܢܝܐ ܠܡܙܒܠܬܐ</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>ܫܝܦܐ</translation>
+    </message>
+    <message>
+        <source>Assign section</source>
+        <translation>ܡܫܚܐ ܕܦܠܓܘܬܐ</translation>
+    </message>
+    <message>
+        <source>Assign state</source>
+        <translation>ܡܫܚܐ ܕܐܣܟܡܐ</translation>
+    </message>
+    <message>
+        <source>Reason</source>
+        <translation>ܥܠܬܐ</translation>
+    </message>
+    <message>
+        <source>Needed to hold; kept with the hold and in the audit.</source>
+        <translation>ܣܢܝܩܐ ܠܡܟܠܝܬܐ; ܡܬܢܛܪܐ ܥܡ ܟܠܝܬܐ ܘܒܒܘܩܝܐ.</translation>
+    </message>
+    <message>
+        <source>Choose a section</source>
+        <translation>ܓܒܘ ܦܠܓܘܬܐ</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>ܐܣܟܡܐ</translation>
+    </message>
+    <message>
+        <source>Choose a state</source>
+        <translation>ܓܒܘ ܐܣܟܡܐ</translation>
+    </message>
+    <message>
+        <source>Apply to the selected</source>
+        <translation>ܡܦܠܚܐ ܥܠ ܓܒܝܬܐ</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions. Moving to the trash and deleting ask you to confirm. More than %count items run in the background.</source>
+        <translation>ܟܠ ܡܢܬܐ ܡܬܒܚܢܐ ܠܘܬ ܫܘܠܛܢܝܟܘܢ. ܫܢܝܐ ܠܡܙܒܠܬܐ ܘܫܝܦܐ ܫܐܠܝܢ ܠܫܘܪܪܐ. ܝܬܝܪ ܡܢ %count ܡܢܘܬܐ ܡܬܥܒܕܢ ܒܛܫܝܘܬܐ.</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>ܓܒܝܐ</translation>
+    </message>
+    <message>
+        <source>Publication</source>
+        <translation>ܦܘܪܣܐ</translation>
+    </message>
+    <message>
+        <source>Submitted from</source>
+        <translation>ܐܫܬܕܪ ܡܢ</translation>
+    </message>
+    <message>
+        <source>Select %name</source>
+        <translation>ܓܒܝܐ %name</translation>
+    </message>
+    <message>
+        <source>not yet</source>
+        <translation>ܠܐ ܥܕܟܝܠ</translation>
+    </message>
+    <message>
+        <source>(no name)</source>
+        <translation>(ܕܠܐ ܫܡܐ)</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ܡܢܝܢܐ %id</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>ܣܘܪܛܐ</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>ܡܣܟܝܐ</translation>
+    </message>
+    <message>
+        <source>Hidden by its parent</source>
+        <translation>ܛܫܝܐ ܡܢ ܐܒܘܗܝ</translation>
+    </message>
+    <message>
+        <source>Held: new submission</source>
+        <translation>ܟܠܝܐ: ܡܫܕܪܢܘܬܐ ܚܕܬܐ</translation>
+    </message>
+    <message>
+        <source>Version %version pending</source>
+        <translation>ܡܦܩܬܐ %version ܡܣܟܝܐ</translation>
+    </message>
+    <message>
+        <source>Version %version in progress</source>
+        <translation>ܡܦܩܬܐ %version ܒܥܒܕܐ</translation>
+    </message>
+    <message>
+        <source>Draft, version %version</source>
+        <translation>ܣܘܪܛܐ, ܡܦܩܬܐ %version</translation>
+    </message>
+    <message>
+        <source>Version %version published</source>
+        <translation>ܡܦܩܬܐ %version ܦܪܝܣܐ</translation>
+    </message>
+    <message>
+        <source>Scheduled for %date</source>
+        <translation>ܡܛܟܣܐ ܠ%date</translation>
+    </message>
+    <message>
+        <source>no address</source>
+        <translation>ܕܠܐ ܡܘܢܥܐ</translation>
+    </message>
+    <message>
+        <source>not recorded</source>
+        <translation>ܠܐ ܟܬܝܒܐ</translation>
+    </message>
+    <message>
+        <source>Nothing matches these filters.</source>
+        <translation>ܡܕܡ ܠܐ ܫܘܐ ܠܗܠܝܢ ܡܨܠܠܢܐ.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>ܡܚܘܝܐ ܕܟܠ</translation>
+    </message>
+    <message>
+        <source>There is no content yet.</source>
+        <translation>ܠܝܬ ܡܠܝܘܬܐ ܥܕܟܝܠ.</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>ܒܟܠ ܦܐܬܐ</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>ܚܘܘ %count ܡܢܘܬܐ ܒܟܠ ܦܐܬܐ.</translation>
+    </message>
+    <message>
+        <source>The address and the browser of a submission come from the audit index, which is not available here: the column says "not recorded".</source>
+        <translation>ܡܘܢܥܐ ܘܚܝܪܢܐ ܕܡܫܕܪܢܘܬܐ ܐܬܝܢ ܡܢ ܡܚܘܝܬܐ ܕܒܘܩܝܐ, ܕܠܐ ܐܝܬܝܗ ܗܪܟܐ: ܥܡܘܕܐ ܐܡܪ „ܠܐ ܟܬܝܒܐ”.</translation>
+    </message>
+    <message>
+        <source>The address and the browser are those the audit recorded for the item (the auto-hold always records them; publishing and creating only where switched on), as its privacy settings keep them.</source>
+        <translation>ܡܘܢܥܐ ܘܚܝܪܢܐ ܐܢܘܢ ܗܠܝܢ ܕܟܬܒ ܒܘܩܝܐ ܠܡܢܬܐ (ܟܠܝܬܐ ܕܡܢ ܢܦܫܗ ܟܬܒܐ ܠܗܘܢ ܐܡܝܢܝܘܬ; ܦܘܪܣܐ ܘܒܪܝܬܐ ܒܠܚܘܕ ܐܝܟܐ ܕܐܬܥܝܪܘ), ܐܝܟ ܕܢܛܪܝܢ ܠܗܘܢ ܛܟܣܐ ܕܢܟܝܘܬܗ.</translation>
+    </message>
+    <message>
+        <source>%action: %count items</source>
+        <translation>%action: %count ܡܢܘܬܐ</translation>
+    </message>
+    <message>
+        <source>Deleting removes the items for good, with all their versions and translations. It cannot be undone.</source>
+        <translation>ܫܝܦܐ ܫܩܠ ܠܡܢܘܬܐ ܠܥܠܡ, ܥܡ ܟܠܗܝܢ ܡܦܩܬܗܝܢ ܘܬܘܪܓܡܝܗܝܢ. ܠܐ ܡܫܟܚ ܕܢܬܗܦܟ.</translation>
+    </message>
+    <message>
+        <source>The items go to the trash, from where they can be restored.</source>
+        <translation>ܡܢܘܬܐ ܐܙܠܢ ܠܡܙܒܠܬܐ, ܡܢ ܬܡܢ ܡܫܟܚܢ ܕܢܬܕܥܪܢ.</translation>
+    </message>
+    <message>
+        <source>Each item is checked against your own permissions; an item with sub items is left as it is (remove it in the content structure). You will be asked to verify that it is you.</source>
+        <translation>ܟܠ ܡܢܬܐ ܡܬܒܚܢܐ ܠܘܬ ܫܘܠܛܢܝܟܘܢ; ܡܢܬܐ ܕܐܝܬ ܠܗ ܡܢܘܬܐ ܬܚܬܝܬܐ ܡܫܬܒܩܐ ܐܝܟ ܕܐܝܬܝܗ (ܫܩܠܘܗ ܒܒܢܝܢܐ ܕܡܠܝܘܬܐ). ܬܫܬܐܠܘܢ ܕܬܫܪܪܘܢ ܕܐܢܬܘܢ ܐܢܬܘܢ.</translation>
+    </message>
+    <message>
+        <source>This runs in the background: its progress page opens, and the result per item is shown when it is done.</source>
+        <translation>ܗܢܐ ܡܬܥܒܕ ܒܛܫܝܘܬܐ: ܦܐܬܐ ܕܡܩܕܡܢܘܬܗ ܡܬܦܬܚܐ, ܘܦܠܛܐ ܕܟܠ ܡܢܬܐ ܡܬܚܙܐ ܟܕ ܢܫܬܡܠܐ.</translation>
+    </message>
+    <message>
+        <source>The selected items</source>
+        <translation>ܡܢܘܬܐ ܓܒܝܬܐ</translation>
+    </message>
+    <message>
+        <source>and %count more</source>
+        <translation>ܘ%count ܐܚܪܢܝܬܐ</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>ܒܘܛܠܐ</translation>
+    </message>
+    <message>
+        <source>Nothing was done</source>
+        <translation>ܡܕܡ ܠܐ ܐܬܥܒܕ</translation>
+    </message>
+    <message>
+        <source>%action (%extra)</source>
+        <translation>%action (%extra)</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>ܥܠܬܐ: %reason</translation>
+    </message>
+    <message>
+        <source>The action is still running in the background.</source>
+        <translation>ܣܘܥܪܢܐ ܥܕܟܝܠ ܡܬܥܒܕ ܒܛܫܝܘܬܐ.</translation>
+    </message>
+    <message>
+        <source>Its progress</source>
+        <translation>ܡܩܕܡܢܘܬܗ</translation>
+    </message>
+    <message>
+        <source>The background action failed: %error</source>
+        <translation>ܣܘܥܪܢܐ ܕܒܛܫܝܘܬܐ ܠܐ ܐܨܠܚ: %error</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>ܓܡܝܪܐ</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>ܣܠܝܐ</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>ܠܐ ܐܨܠܚ</translation>
+    </message>
+    <message>
+        <source>Per item</source>
+        <translation>ܠܟܠ ܡܢܬܐ</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>ܡܢܬܐ</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>ܦܠܛܐ</translation>
+    </message>
+    <message>
+        <source>Why</source>
+        <translation>ܠܡܢܐ</translation>
+    </message>
+    <message>
+        <source>Back to the list</source>
+        <translation>ܠܒܣܬܪ ܠܪܫܝܡܬܐ</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>ܛܘܝܒܐ</translation>
+    </message>
+    <message>
+        <source>Nothing done</source>
+        <translation>ܡܕܡ ܠܐ ܐܬܥܒܕ ܗܪܟܐ</translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation>ܫܪܪܐ</translation>
+    </message>
+    <message>
+        <source>Choose an action.</source>
+        <translation>ܓܒܘ ܣܘܥܪܢܐ.</translation>
+    </message>
+    <message>
+        <source>Select at least one item.</source>
+        <translation>ܓܒܘ ܠܟܠ ܗܠܦܚܘܬ ܡܢܬܐ ܚܕܐ.</translation>
+    </message>
+    <message>
+        <source>Select at most 1000 items at a time.</source>
+        <translation>ܓܒܘ ܠܟܠ ܗܝܘܬܪ 1000 ܡܢܘܬܐ ܒܙܒܢܐ ܚܕ.</translation>
+    </message>
+    <message>
+        <source>Say why the items are held.</source>
+        <translation>ܐܡܪܘ ܠܡܢܐ ܟܠܝܝܢ ܡܢܘܬܐ.</translation>
+    </message>
+    <message>
+        <source>Choose the section.</source>
+        <translation>ܓܒܘ ܦܠܓܘܬܐ.</translation>
+    </message>
+    <message>
+        <source>Choose the state.</source>
+        <translation>ܓܒܘ ܐܣܟܡܐ.</translation>
+    </message>
+    <message>
+        <source>The form could not be read.</source>
+        <translation>ܠܐ ܐܫܬܟܚ ܠܡܩܪܝܗ ܠܦܢܩܝܬܐ.</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation>ܦܬܘܪܐ</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/moderation</name>
+    <message>
+        <source>Recent content</source>
+        <translation>ܡܠܝܘܬܐ ܚܕܬܬܐ</translation>
+    </message>
+    <message>
+        <source>The counts could not be read: %problem</source>
+        <translation>ܠܐ ܐܫܬܟܚܘ ܠܡܩܪܝܘ ܠܡܢܝܢܝܐ: %problem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>ܟܠܝܐ ܠܒܘܚܢܐ</translation>
+    </message>
+    <message>
+        <source>New today</source>
+        <translation>ܚܕܬܐ ܝܘܡܢܐ</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up yet (the upgrade step 6.0.15-review-hold).</source>
+        <translation>ܟܠܝܬܐ ܠܒܘܚܢܐ ܠܐ ܐܬܬܩܢܬ ܥܕܟܝܠ (ܕܪܓܐ ܕܚܘܕܬܐ 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>All recent content</source>
+        <translation>ܟܠܗ ܡܠܝܘܬܐ ܚܕܬܬܐ</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/contentjob</name>
+    <message>
+        <source>You may not run moderation actions (moderation/act).</source>
+        <translation>ܠܐ ܡܨܝܬܘܢ ܕܬܥܒܕܘܢ ܣܘܥܪܢܐ ܕܒܘܚܢܐ (moderation/act).</translation>
+    </message>
+    <message>
+        <source>The moderation action is not complete: %errors.</source>
+        <translation>ܣܘܥܪܢܐ ܕܒܘܚܢܐ ܠܐ ܓܡܝܪ: %errors.</translation>
+    </message>
+    <message>
+        <source>Moderation: %action on %count objects</source>
+        <translation>ܒܘܚܢܐ: %action ܥܠ %count ܨܒܘܬܐ</translation>
+    </message>
+    <message>
+        <source>%done of %total objects: %ok done, %refused refused, %failed failed</source>
+        <translation>%done ܡܢ %total ܨܒܘܬܐ: %ok ܓܡܝܪܢ, %refused ܣܠܝܝܢ, %failed ܠܐ ܐܨܠܚܘ</translation>
+    </message>
+    <message>
+        <source>%ok done, %refused refused, %failed failed</source>
+        <translation>%ok ܓܡܝܪܢ, %refused ܣܠܝܝܢ, %failed ܠܐ ܐܨܠܚܘ</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/moderation</name>
+    <message>
+        <source>It does not exist any more.</source>
+        <translation>ܠܐ ܐܝܬܘܗܝ ܬܘܒ.</translation>
+    </message>
+    <message>
+        <source>It has no location (not published).</source>
+        <translation>ܠܝܬ ܠܗ ܕܘܟܬܐ (ܠܐ ܦܪܝܣܐ).</translation>
+    </message>
+    <message>
+        <source>You may not hide it (content/hide).</source>
+        <translation>ܠܐ ܡܨܝܬܘܢ ܕܬܛܫܘܢܗ (content/hide).</translation>
+    </message>
+    <message>
+        <source>You may not reveal it (content/hide).</source>
+        <translation>ܠܐ ܡܨܝܬܘܢ ܕܬܚܘܘܢܗ (content/hide).</translation>
+    </message>
+    <message>
+        <source>It is hidden already.</source>
+        <translation>ܛܫܝܐ ܗܝ ܡܢ ܩܕܡ.</translation>
+    </message>
+    <message>
+        <source>It is not hidden.</source>
+        <translation>ܠܐ ܛܫܝܐ.</translation>
+    </message>
+    <message>
+        <source>Hidden.</source>
+        <translation>ܐܬܛܫܝܬ.</translation>
+    </message>
+    <message>
+        <source>Revealed.</source>
+        <translation>ܐܬܚܙܝܬ.</translation>
+    </message>
+    <message>
+        <source>It is in the trash: empty or restore it there.</source>
+        <translation>ܒܡܙܒܠܬܐ ܐܝܬܝܗ: ܣܪܩܘܗ ܐܘ ܕܥܪܘܗ ܡܢ ܬܡܢ.</translation>
+    </message>
+    <message>
+        <source>A draft that was never published cannot go to the trash: delete it.</source>
+        <translation>ܣܘܪܛܐ ܕܡܢ ܡܬܘܡ ܠܐ ܐܬܦܪܣ ܠܐ ܡܫܟܚ ܕܢܐܙܠ ܠܡܙܒܠܬܐ: ܫܘܦܘܗܝ.</translation>
+    </message>
+    <message>
+        <source>You may not delete it (content/remove).</source>
+        <translation>ܠܐ ܡܨܝܬܘܢ ܕܬܫܘܦܘܢܗ (content/remove).</translation>
+    </message>
+    <message>
+        <source>Deleted.</source>
+        <translation>ܐܬܫܝܦ.</translation>
+    </message>
+    <message>
+        <source>You may not remove it (content/remove).</source>
+        <translation>ܠܐ ܡܨܝܬܘܢ ܕܬܫܩܠܘܢܗ (content/remove).</translation>
+    </message>
+    <message>
+        <source>It has sub items: remove it in the content structure, where they are listed.</source>
+        <translation>ܐܝܬ ܠܗ ܡܢܘܬܐ ܬܚܬܝܬܐ: ܫܩܠܘܗ ܒܒܢܝܢܐ ܕܡܠܝܘܬܐ, ܐܝܟܐ ܕܡܬܚܙܝܢ.</translation>
+    </message>
+    <message>
+        <source>It was not removed (a workflow may hold the removal).</source>
+        <translation>ܠܐ ܐܫܬܩܠ (ܪܕܝܐ ܕܥܒܕܐ ܡܫܟܚ ܕܢܟܠܐ ܠܫܩܠܐ).</translation>
+    </message>
+    <message>
+        <source>Moved to the trash.</source>
+        <translation>ܐܫܬܢܝ ܠܡܙܒܠܬܐ.</translation>
+    </message>
+    <message>
+        <source>The section does not exist.</source>
+        <translation>ܦܠܓܘܬܐ ܠܐ ܐܝܬܝܗ.</translation>
+    </message>
+    <message>
+        <source>It is in this section already.</source>
+        <translation>ܒܗܕܐ ܦܠܓܘܬܐ ܐܝܬܝܗ ܡܢ ܩܕܡ.</translation>
+    </message>
+    <message>
+        <source>You may not assign this section (section/assign).</source>
+        <translation>ܠܐ ܡܨܝܬܘܢ ܕܬܡܫܚܘܢ ܗܕܐ ܦܠܓܘܬܐ (section/assign).</translation>
+    </message>
+    <message>
+        <source>The section was not assigned.</source>
+        <translation>ܦܠܓܘܬܐ ܠܐ ܐܬܡܫܚܬ.</translation>
+    </message>
+    <message>
+        <source>Section assigned.</source>
+        <translation>ܦܠܓܘܬܐ ܐܬܡܫܚܬ.</translation>
+    </message>
+    <message>
+        <source>The state does not exist.</source>
+        <translation>ܐܣܟܡܐ ܠܐ ܐܝܬܘܗܝ.</translation>
+    </message>
+    <message>
+        <source>It is in this state already.</source>
+        <translation>ܒܗܢܐ ܐܣܟܡܐ ܐܝܬܝܗ ܡܢ ܩܕܡ.</translation>
+    </message>
+    <message>
+        <source>You may not assign this state (state/assign).</source>
+        <translation>ܠܐ ܡܨܝܬܘܢ ܕܬܡܫܚܘܢ ܗܢܐ ܐܣܟܡܐ (state/assign).</translation>
+    </message>
+    <message>
+        <source>The state was not assigned (a workflow may hold the change).</source>
+        <translation>ܐܣܟܡܐ ܠܐ ܐܬܡܫܚ (ܪܕܝܐ ܕܥܒܕܐ ܡܫܟܚ ܕܢܟܠܐ ܠܫܘܚܠܦܐ).</translation>
+    </message>
+    <message>
+        <source>State assigned.</source>
+        <translation>ܐܣܟܡܐ ܐܬܡܫܚ.</translation>
+    </message>
+    <message>
+        <source>There is no such action.</source>
+        <translation>ܠܝܬ ܣܘܥܪܢܐ ܗܟܢܐ.</translation>
+    </message>
+    <message>
+        <source>The review hold is not set up (the upgrade step 6.0.15-review-hold).</source>
+        <translation>ܟܠܝܬܐ ܠܒܘܚܢܐ ܠܐ ܐܬܬܩܢܬ (ܕܪܓܐ ܕܚܘܕܬܐ 6.0.15-review-hold).</translation>
+    </message>
+    <message>
+        <source>Say why it is held.</source>
+        <translation>ܐܡܪܘ ܠܡܢܐ ܟܠܝܐ.</translation>
+    </message>
+    <message>
+        <source>It is held already.</source>
+        <translation>ܟܠܝܐ ܗܝ ܡܢ ܩܕܡ.</translation>
+    </message>
+    <message>
+        <source>You may not hold it (state/assign).</source>
+        <translation>ܠܐ ܡܨܝܬܘܢ ܕܬܟܠܘܢܗ (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not placed (a workflow may hold the change).</source>
+        <translation>ܟܠܝܬܐ ܠܐ ܐܬܣܝܡܬ (ܪܕܝܐ ܕܥܒܕܐ ܡܫܟܚ ܕܢܟܠܐ ܠܫܘܚܠܦܐ).</translation>
+    </message>
+    <message>
+        <source>Held.</source>
+        <translation>ܐܬܟܠܝܝܬ.</translation>
+    </message>
+    <message>
+        <source>It is not held.</source>
+        <translation>ܠܐ ܟܠܝܐ.</translation>
+    </message>
+    <message>
+        <source>You may not release it (state/assign).</source>
+        <translation>ܠܐ ܡܨܝܬܘܢ ܕܬܫܪܘܢܗ (state/assign).</translation>
+    </message>
+    <message>
+        <source>The hold was not released (a workflow may hold the change).</source>
+        <translation>ܟܠܝܬܐ ܠܐ ܐܫܬܪܝܬ (ܪܕܝܐ ܕܥܒܕܐ ܡܫܟܚ ܕܢܟܠܐ ܠܫܘܚܠܦܐ).</translation>
+    </message>
+    <message>
+        <source>Released; still hidden: you may not reveal it (content/hide).</source>
+        <translation>ܐܫܬܪܝܬ; ܥܕܟܝܠ ܛܫܝܐ: ܠܐ ܡܨܝܬܘܢ ܕܬܚܘܘܢܗ (content/hide).</translation>
+    </message>
+    <message>
+        <source>Released.</source>
+        <translation>ܐܫܬܪܝܬ.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/staticpublish</name>
+    <message>
+        <source>All targets</source>
+        <translation>ܟܠܗܘܢ ܢܝ̈ܫܐ</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>ܦܪܣܐ ܐܚܪܝܐ</translation>
+    </message>
+    <message>
+        <source>Publish a free static copy of your site on GitHub Pages:</source>
+        <translation>ܦܪܘܣܘ ܨܘܪܬܐ ܩܒܝܥܬܐ ܡܓܢ ܕܐܬܪܐ ܕܝܠܟܘܢ ܥܠ GitHub Pages:</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>ܦܐܬ̈ܐ ܥܬܝܩ̈ܬܐ</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>ܦܪܣܐ ܩܒܝܥܐ</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>ܦܪܣܐ ܩܒܝܥܐ ܒܛܝܠ.</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>ܢܝܫܐ</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>ܢܝ̈ܫܐ ܠܐ ܐܫܬܟܚܘ ܠܡܬܩܪܝܘ: %problem</translation>
+    </message>
+    <message>
+        <source>a job is going on</source>
+        <translation>ܥܒܕܐ ܪܗܛ</translation>
+    </message>
+    <message>
+        <source>build to check</source>
+        <translation>ܒܢܝܢܐ ܠܒܨܝܐ</translation>
+    </message>
+    <message>
+        <source>hide this</source>
+        <translation>ܛܫܝ ܗܕܐ</translation>
+    </message>
+    <message>
+        <source>make a target</source>
+        <translation>ܒܪܝ ܢܝܫܐ</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>ܡܡܬܘܡ ܠܐ</translation>
+    </message>
+    <message>
+        <source>read the tutorial</source>
+        <translation>ܩܪܝ ܡܠܦܢܘܬܐ</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/staticpublish</name>
+    <message>
+        <source>%added added, %changed changed, %removed removed</source>
+        <translation>%added ܐܬܬܘܣܦܘ، %changed ܐܫܬܚܠܦܘ، %removed ܐܫܬܩܠܘ</translation>
+    </message>
+    <message>
+        <source>%bytes of %limit (%percent %)</source>
+        <translation>%bytes ܡܢ %limit (%percent %)</translation>
+    </message>
+    <message>
+        <source>%count more are not listed.</source>
+        <translation>%count ܐܚܪ̈ܢܐ ܠܐ ܡܬܚܘܝܢ.</translation>
+    </message>
+    <message>
+        <source>%pages pages written</source>
+        <translation>%pages ܦܐܬ̈ܐ ܐܬܟܬܒ</translation>
+    </message>
+    <message>
+        <source>%path is %size, more than the host allows a file.</source>
+        <translation>%path ܐܝܬܘܗܝ %size، ܝܬܝܪ ܡܢ ܡܐ ܕܡܐܪܚܢܐ ܡܦܣ ܠܦܢܩܝܬܐ.</translation>
+    </message>
+    <message>
+        <source>%percent % of the limit</source>
+        <translation>%percent % ܡܢ ܬܚܘܡܐ</translation>
+    </message>
+    <message>
+        <source>%seconds s</source>
+        <translation>%seconds ܪ̈ܦܦܐ</translation>
+    </message>
+    <message>
+        <source>%tag is the publish the site has now.</source>
+        <translation>%tag ܗܘ ܦܪܣܐ ܕܐܝܬ ܠܐܬܪܐ ܗܫܐ.</translation>
+    </message>
+    <message>
+        <source>%target: job %id</source>
+        <translation>%target: ܥܒܕܐ %id</translation>
+    </message>
+    <message>
+        <source>+%added ~%changed -%removed</source>
+        <translation>+%added ~%changed -%removed</translation>
+    </message>
+    <message>
+        <source>/repository/ for a GitHub project site; empty for a custom domain or a user site.</source>
+        <translation>/ܓܙܐ/ ܠܐܬܪܐ ܕܦܪܘܝܩܛ ܕ GitHub؛ ܣܦܝܩܐ ܠܚܘܕܪܐ ܕܝܠܟܘܢ ܐܘ ܠܐܬܪܐ ܕܡܦܠܚܢܐ.</translation>
+    </message>
+    <message>
+        <source>1. The site</source>
+        <translation>1. ܐܬܪܐ</translation>
+    </message>
+    <message>
+        <source>2. The host</source>
+        <translation>2. ܡܐܪܚܢܐ</translation>
+    </message>
+    <message>
+        <source>3. Signing in to the repository</source>
+        <translation>3. ܡܥܠܢܐ ܠܓܙܐ</translation>
+    </message>
+    <message>
+        <source>4. The repository</source>
+        <translation>4. ܓܙܐ</translation>
+    </message>
+    <message>
+        <source>5. Links and base path</source>
+        <translation>5. ܐܣܘܪ̈ܐ ܘܫܒܝܠܐ ܫܪܫܝܐ</translation>
+    </message>
+    <message>
+        <source>6. Your own domain</source>
+        <translation>6. ܚܘܕܪܐ ܕܝܠܟܘܢ</translation>
+    </message>
+    <message>
+        <source>7. What the build holds</source>
+        <translation>7. ܡܐ ܕܐܝܬ ܒܒܢܝܢܐ</translation>
+    </message>
+    <message>
+        <source>8. When it is published</source>
+        <translation>8. ܐܡܬܝ ܡܬܦܪܣ</translation>
+    </message>
+    <message>
+        <source>9. Review and save</source>
+        <translation>9. ܒܘܚܢܐ ܘܢܛܪܐ</translation>
+    </message>
+    <message>
+        <source>A GitHub project site lives below /&lt;repository&gt;/; relative links work there and anywhere else.</source>
+        <translation>ܐܬܪܐ ܕܦܪܘܝܩܛ ܕ GitHub ܥܡܪ ܠܬܚܬ /&lt;repository&gt;/؛ ܐܣܘܪ̈ܐ ܡܬܢܣܒܢܝ̈ܐ ܦܠܚܝܢ ܬܡܢ ܘܒܟܠ ܕܘܟܐ ܐܚܪܬܐ.</translation>
+    </message>
+    <message>
+        <source>A build fetches every page of %site as a visitor who is not signed in sees it, rewrites the links, copies the files and writes the result to the target&apos;s folder. Nothing is published until you check the build and press Publish.</source>
+        <translation>ܒܢܝܢܐ ܡܝܬܐ ܟܠ ܦܐܬܐ ܕ %site ܐܝܟ ܕܚܙܐ ܠܗ ܣܥܘܪܐ ܕܠܐ ܥܠ، ܟܬܒ ܬܘܒ ܐܣܘܪ̈ܐ، ܢܣܚ ܦܢܩܝ̈ܬܐ ܘܟܬܒ ܦܐܪܐ ܒܬܝܩܐ ܕܢܝܫܐ. ܡܕܡ ܠܐ ܡܬܦܪܣ ܥܕܡܐ ܕܒܨܝܬܘܢ ܒܢܝܢܐ ܘܕܚܨܬܘܢ ܥܠ ܦܪܣܐ.</translation>
+    </message>
+    <message>
+        <source>A cron expression, for example 0 3 * * *</source>
+        <translation>ܡܠܬܐ ܕ cron، ܠܡܬܠ 0 3 * * *</translation>
+    </message>
+    <message>
+        <source>A deploy key is kept as the secret %secret.</source>
+        <translation>ܩܠܝܕܐ ܕܫܘܕܪܐ ܡܬܢܛܪ ܐܝܟ ܐܪܙܐ %secret.</translation>
+    </message>
+    <message>
+        <source>A deploy key lets this installation push to one repository over SSH and nowhere else. Its private half stays in Setup &gt; Secrets; only the public half is shown.</source>
+        <translation>ܩܠܝܕܐ ܕܫܘܕܪܐ ܡܦܣ ܠܗܕܐ ܐܩܡܬܐ ܕܬܥܒܕ ܦܘܫ ܠܚܕ ܓܙܐ ܒܠܚܘܕ ܒܝܕ SSH ܘܠܐ ܠܕܘܟܐ ܐܚܪܬܐ. ܦܠܓܗ ܦܪܨܘܦܝܐ ܦܐܫ ܒ ܛܘܝܒܐ &gt; ܐܪ̈ܙܐ؛ ܦܠܓܗ ܓܠܝܐ ܒܠܚܘܕ ܡܬܚܘܐ.</translation>
+    </message>
+    <message>
+        <source>A deploy key made for this target</source>
+        <translation>ܩܠܝܕܐ ܕܫܘܕܪܐ ܕܐܬܥܒܕ ܠܗܢܐ ܢܝܫܐ</translation>
+    </message>
+    <message>
+        <source>A deploy key signs in over SSH: change the git address to the SSH one (git@github.com:owner/repo.git).</source>
+        <translation>ܩܠܝܕܐ ܕܫܘܕܪܐ ܥܐܠ ܒܝܕ SSH: ܫܚܠܦܘ ܡܘܢܥܐ ܕ git ܠܡܘܢܥܐ ܕ SSH (git@github.com:owner/repo.git).</translation>
+    </message>
+    <message>
+        <source>A job is going on, started by %user</source>
+        <translation>ܥܒܕܐ ܪܗܛ، ܕܫܪܝ ܡܢ %user</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on (%detail). Wait for it to end.</source>
+        <translation>ܥܒܕܐ ܕܗܢܐ ܢܝܫܐ ܥܕܟܝܠ ܪܗܛ (%detail). ܡܣܟܘ ܥܕܡܐ ܕܢܫܠܡ.</translation>
+    </message>
+    <message>
+        <source>A job of this target is still going on. Wait for it to end.</source>
+        <translation>ܥܒܕܐ ܕܗܢܐ ܢܝܫܐ ܥܕܟܝܠ ܪܗܛ. ܡܣܟܘ ܥܕܡܐ ܕܢܫܠܡ.</translation>
+    </message>
+    <message>
+        <source>A link from the page /news/ to the page /about-us/team will be written as</source>
+        <translation>ܐܣܘܪܐ ܡܢ ܦܐܬܐ /news/ ܠܦܐܬܐ /about-us/team ܢܬܟܬܒ ܗܟܢܐ</translation>
+    </message>
+    <message>
+        <source>A new deploy key was made. Add its public half to the repository now.</source>
+        <translation>ܩܠܝܕܐ ܚܕܬܐ ܕܫܘܕܪܐ ܐܬܥܒܕ. ܐܘܣܦܘ ܦܠܓܗ ܓܠܝܐ ܠܓܙܐ ܗܫܐ.</translation>
+    </message>
+    <message>
+        <source>A page that still carries debug output, a form token or a session id after stripping is never published.</source>
+        <translation>ܦܐܬܐ ܕܥܕܟܝܠ ܛܥܝܢܐ ܦܘܪܥܢܐ ܕܬܘܪܨ ܡܘܡܐ، ܬܘܟܢܐ ܕܛܘܦܣܐ ܐܘ ܫܘܕܥܐ ܕܡܘܬܒܐ ܒܬܪ ܡܥܛܠܢܐ ܡܡܬܘܡ ܠܐ ܡܬܦܪܣܐ.</translation>
+    </message>
+    <message>
+        <source>A rollback is for experts: tick &quot;I know what this changes&quot; and type the name of the tag again.</source>
+        <translation>ܗܘܦܟܐ ܠܒܣܬܪ ܠܡܗܝܪ̈ܐ ܗܘ: ܐܬܘ ܥܠ &quot;ܝܕܥ ܐܢܐ ܡܐ ܕܗܕܐ ܡܫܚܠܦܐ&quot; ܘܟܬܘܒܘ ܫܡܐ ܕܛܐܓ ܬܘܒ.</translation>
+    </message>
+    <message>
+        <source>A site may be up to %site, one file up to %file, with about 100 GB of traffic a month. On a free plan the repository must be public. GitHub Pages is not meant for shops or other commercial transactions.</source>
+        <translation>ܐܬܪܐ ܡܨܐ ܕܢܗܘܐ ܥܕܡܐ ܠ %site، ܦܢܩܝܬܐ ܚܕܐ ܥܕܡܐ ܠ %file، ܥܡ ܩܪܝܒ ܠ 100 GB ܕܬܢܘܥܬܐ ܒܝܪܚܐ. ܒܬܘܟܣܐ ܡܓܢܝܐ ܓܙܐ ܠܐܡ ܕܢܗܘܐ ܓܠܝܐ. GitHub Pages ܠܐ ܡܛܟܣ ܠܚܢܘ̈ܬܐ ܐܘ ܠܬܓܘܪ̈ܬܐ ܐܚܪ̈ܢܝܬܐ.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one git repository. Nothing is built or published here: Save writes the settings to settings/override/staticcache.ini.append.php.</source>
+        <translation>ܢܝܫܐ ܗܘ ܚܕ ܐܬܪܐ ܕܡܬܦܪܣ ܠܚܕ ܓܙܐ ܕ git. ܗܪܟܐ ܡܕܡ ܠܐ ܡܬܒܢܐ ܘܠܐ ܡܬܦܪܣ: ܢܛܪܐ ܟܬܒ ܛܘܝ̈ܒܐ ܒ settings/override/staticcache.ini.append.php.</translation>
+    </message>
+    <message>
+        <source>A target is one site published to one place, for example your public site on GitHub Pages.</source>
+        <translation>ܢܝܫܐ ܗܘ ܚܕ ܐܬܪܐ ܕܡܬܦܪܣ ܠܚܕܐ ܕܘܟܬܐ، ܠܡܬܠ ܐܬܪܐ ܓܠܝܐ ܕܝܠܟܘܢ ܥܠ GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>A token from Setup &gt; Secrets</source>
+        <translation>ܬܘܟܢܐ ܡܢ ܛܘܝܒܐ &gt; ܐܪ̈ܙܐ</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it.</source>
+        <translation>ܫܪܓܐ ܕܥܒܕܐ ܕܓܙܐ ܦܪܣ ܠܗ.</translation>
+    </message>
+    <message>
+        <source>Add this public key to the repository with write access. GitHub: Settings &gt; Deploy keys &gt; Add deploy key, tick Allow write access.</source>
+        <translation>ܐܘܣܦܘ ܗܢܐ ܩܠܝܕܐ ܓܠܝܐ ܠܓܙܐ ܥܡ ܦܣܐ ܕܟܬܒܐ. GitHub: Settings &gt; Deploy keys &gt; Add deploy key، ܐܬܘ ܥܠ Allow write access.</translation>
+    </message>
+    <message>
+        <source>Added</source>
+        <translation>ܐܬܬܘܣܦ</translation>
+    </message>
+    <message>
+        <source>Another git host</source>
+        <translation>ܡܐܪܚܢܐ ܐܚܪܢܐ ܕ git</translation>
+    </message>
+    <message>
+        <source>Another process works on this target: %detail</source>
+        <translation>ܥܒܕܐ ܐܚܪܢܐ ܦܠܚ ܥܠ ܗܢܐ ܢܝܫܐ: %detail</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>ܠܒܣܬܪ</translation>
+    </message>
+    <message>
+        <source>Base path</source>
+        <translation>ܫܒܝܠܐ ܫܪܫܝܐ</translation>
+    </message>
+    <message>
+        <source>Before</source>
+        <translation>ܩܕܡ</translation>
+    </message>
+    <message>
+        <source>Below a base path</source>
+        <translation>ܠܬܚܬ ܫܒܝܠܐ ܫܪܫܝܐ</translation>
+    </message>
+    <message>
+        <source>Branch</source>
+        <translation>ܣܘܟܐ</translation>
+    </message>
+    <message>
+        <source>Broken links</source>
+        <translation>ܐܣܘܪ̈ܐ ܬܒܝܪ̈ܐ</translation>
+    </message>
+    <message>
+        <source>Broken links in the build</source>
+        <translation>ܐܣܘܪ̈ܐ ܬܒܝܪ̈ܐ ܒܒܢܝܢܐ</translation>
+    </message>
+    <message>
+        <source>Build</source>
+        <translation>ܒܢܝܢܐ</translation>
+    </message>
+    <message>
+        <source>Build %id by %user</source>
+        <translation>ܒܢܝܢܐ %id ܡܢ %user</translation>
+    </message>
+    <message>
+        <source>Build %name</source>
+        <translation>ܒܢܝܐ %name</translation>
+    </message>
+    <message>
+        <source>Build now</source>
+        <translation>ܒܢܝܐ ܗܫܐ</translation>
+    </message>
+    <message>
+        <source>Build to check</source>
+        <translation>ܒܢܝܢܐ ܠܒܨܝܐ</translation>
+    </message>
+    <message>
+        <source>By</source>
+        <translation>ܡܢ</translation>
+    </message>
+    <message>
+        <source>By hand, here</source>
+        <translation>ܒܐܝܕܐ، ܗܪܟܐ</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>ܒܘܛܠܐ</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>ܫܘܚܠܦܐ</translation>
+    </message>
+    <message>
+        <source>Changed</source>
+        <translation>ܐܫܬܚܠܦ</translation>
+    </message>
+    <message>
+        <source>Changes</source>
+        <translation>ܫܘ̈ܚܠܦܐ</translation>
+    </message>
+    <message>
+        <source>Check it first</source>
+        <translation>ܒܨܘ ܠܗ ܠܘܩܕܡ</translation>
+    </message>
+    <message>
+        <source>Check these settings</source>
+        <translation>ܒܨܘ ܗܠܝܢ ܛܘܝ̈ܒܐ</translation>
+    </message>
+    <message>
+        <source>Check what the build changes, look at it, then publish it or throw it away.</source>
+        <translation>ܒܨܘ ܡܐ ܕܒܢܝܢܐ ܡܫܚܠܦ، ܚܙܘ ܠܗ، ܘܗܝܕܝܢ ܦܪܘܣܘ ܠܗ ܐܘ ܫܕܘ ܠܗ.</translation>
+    </message>
+    <message>
+        <source>Choose the publish to go back to.</source>
+        <translation>ܓܒܘ ܦܪܣܐ ܕܠܗ ܬܗܦܟܘܢ.</translation>
+    </message>
+    <message>
+        <source>Comes with a later release.</source>
+        <translation>ܐܬܐ ܒܡܦܩܬܐ ܐܚܪܝܬܐ.</translation>
+    </message>
+    <message>
+        <source>Commit</source>
+        <translation>ܩܘܡܝܛ</translation>
+    </message>
+    <message>
+        <source>Commits</source>
+        <translation>ܩܘܡܝܛ̈ܐ</translation>
+    </message>
+    <message>
+        <source>Commits the build, tags it and pushes it to %remote. A push is never forced; you can go back to any publish later.</source>
+        <translation>ܥܒܕ ܩܘܡܝܛ ܠܒܢܝܢܐ، ܣܐܡ ܠܗ ܛܐܓ ܘܥܒܕ ܠܗ ܦܘܫ ܠ %remote. ܦܘܫ ܡܡܬܘܡ ܠܐ ܡܬܐܠܨ؛ ܡܨܝܬܘܢ ܕܬܗܦܟܘܢ ܠܟܠ ܦܪܣܐ ܡܢ ܒܬܪܟܢ.</translation>
+    </message>
+    <message>
+        <source>Compared with the folder before: %added added, %changed changed, %removed removed, %unchanged unchanged.</source>
+        <translation>ܒܦܘܚܡܐ ܥܡ ܬܝܩܐ ܕܡܢ ܩܕܡ: %added ܐܬܬܘܣܦܘ، %changed ܐܫܬܚܠܦܘ، %removed ܐܫܬܩܠܘ، %unchanged ܠܐ ܐܫܬܚܠܦܘ.</translation>
+    </message>
+    <message>
+        <source>Compared with the last publish.</source>
+        <translation>ܒܦܘܚܡܐ ܥܡ ܦܪܣܐ ܐܚܪܝܐ.</translation>
+    </message>
+    <message>
+        <source>Credential</source>
+        <translation>ܫܘܕܥܐ ܕܡܥܠܢܐ</translation>
+    </message>
+    <message>
+        <source>Custom domain</source>
+        <translation>ܚܘܕܪܐ ܕܝܠܟܘܢ</translation>
+    </message>
+    <message>
+        <source>Debug output, form tokens, session ids and nonces are always taken out.</source>
+        <translation>ܦܘܪܥܢܐ ܕܬܘܪܨ ܡܘܡܐ، ܬܘܟܢ̈ܐ ܕܛܘܦܣܐ، ܫܘܕܥ̈ܐ ܕܡܘܬܒܐ ܘ nonces ܐܡܝܢܐܝܬ ܡܫܬܩܠܝܢ.</translation>
+    </message>
+    <message>
+        <source>Deploy key</source>
+        <translation>ܩܠܝܕܐ ܕܫܘܕܪܐ</translation>
+    </message>
+    <message>
+        <source>Deploy key of %name</source>
+        <translation>ܩܠܝܕܐ ܕܫܘܕܪܐ ܕ %name</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>ܫܕܝܐ</translation>
+    </message>
+    <message>
+        <source>Discard the build</source>
+        <translation>ܫܕܝܐ ܕܒܢܝܢܐ</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation>ܚܘܕܪܐ</translation>
+    </message>
+    <message>
+        <source>Empty: the address of the site. An internal address of the same site otherwise.</source>
+        <translation>ܣܦܝܩܐ: ܡܘܢܥܐ ܕܐܬܪܐ. ܐܢ ܠܐ، ܡܘܢܥܐ ܓܘܝܐ ܕܗܘ ܐܬܪܐ.</translation>
+    </message>
+    <message>
+        <source>Ended</source>
+        <translation>ܫܠܡ</translation>
+    </message>
+    <message>
+        <source>Every link starts with the base path.</source>
+        <translation>ܟܠ ܐܣܘܪܐ ܫܪܐ ܒܫܒܝܠܐ ܫܪܫܝܐ.</translation>
+    </message>
+    <message>
+        <source>Every publish is a commit with a tag static/%id/&lt;n&gt;. Going back makes a new commit with the files of an earlier publish: the history stays, no tag moves and nothing is forced.</source>
+        <translation>ܟܠ ܦܪܣܐ ܗܘ ܩܘܡܝܛ ܥܡ ܛܐܓ static/%id/&lt;n&gt;. ܗܘܦܟܐ ܠܒܣܬܪ ܥܒܕ ܩܘܡܝܛ ܚܕܬܐ ܥܡ ܦܢܩܝ̈ܬܐ ܕܦܪܣܐ ܕܡܢ ܩܕܡ: ܬܫܥܝܬܐ ܦܐܫܐ، ܠܐ ܛܐܓ ܡܫܬܢܐ ܘܡܕܡ ܠܐ ܡܬܐܠܨ.</translation>
+    </message>
+    <message>
+        <source>Extras</source>
+        <translation>ܦܢܩܝ̈ܬܐ ܝܬܝܪ̈ܬܐ</translation>
+    </message>
+    <message>
+        <source>Fetch the pages from</source>
+        <translation>ܐܝܬܘ ܦܐܬ̈ܐ ܡܢ</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>ܦܢܩܝܬܐ</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>ܦܢܩܝ̈ܬܐ</translation>
+    </message>
+    <message>
+        <source>Files missing</source>
+        <translation>ܦܢܩܝ̈ܬܐ ܚܣܝܪ̈ܬܐ</translation>
+    </message>
+    <message>
+        <source>Files of</source>
+        <translation>ܦܢܩܝ̈ܬܐ ܕ</translation>
+    </message>
+    <message>
+        <source>Files that could not be collected</source>
+        <translation>ܦܢܩܝ̈ܬܐ ܕܠܐ ܐܫܬܟܚܘ ܠܡܬܟܢܫܘ</translation>
+    </message>
+    <message>
+        <source>Fingerprint</source>
+        <translation>ܪܘܫܡܐ ܕܨܒܥܐ</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>ܬܝܩܐ</translation>
+    </message>
+    <message>
+        <source>For an SSH address. The key is made after saving; you add its public half to the repository.</source>
+        <translation>ܠܡܘܢܥܐ ܕ SSH. ܩܠܝܕܐ ܡܬܥܒܕ ܒܬܪ ܢܛܪܐ؛ ܐܢܬܘܢ ܡܘܣܦܝܬܘܢ ܦܠܓܗ ܓܠܝܐ ܠܓܙܐ.</translation>
+    </message>
+    <message>
+        <source>For an https:// address. GitHub: a fine-grained token with Contents read and write on the repository.</source>
+        <translation>ܠܡܘܢܥܐ ܕ https://. GitHub: ܬܘܟܢܐ fine-grained ܥܡ Contents ܠܡܩܪܐ ܘܠܡܟܬܒ ܥܠ ܓܙܐ.</translation>
+    </message>
+    <message>
+        <source>For experts. The public site changes as soon as the push is through.</source>
+        <translation>ܠܡܗܝܪ̈ܐ. ܐܬܪܐ ܓܠܝܐ ܡܫܬܚܠܦ ܡܚܕܐ ܕܦܘܫ ܫܠܡ.</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>ܛܘ̈ܦܣܐ</translation>
+    </message>
+    <message>
+        <source>Free hosting from a GitHub repository.</source>
+        <translation>ܐܪܚܘܬܐ ܡܓܢܝܬܐ ܡܢ ܓܙܐ ܕ GitHub.</translation>
+    </message>
+    <message>
+        <source>From the branch</source>
+        <translation>ܡܢ ܣܘܟܐ</translation>
+    </message>
+    <message>
+        <source>Git address</source>
+        <translation>ܡܘܢܥܐ ܕ git</translation>
+    </message>
+    <message>
+        <source>GitHub Actions</source>
+        <translation>GitHub Actions</translation>
+    </message>
+    <message>
+        <source>GitHub App</source>
+        <translation>GitHub App</translation>
+    </message>
+    <message>
+        <source>GitHub Pages</source>
+        <translation>GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages allows a site of %site and a file of %file.</source>
+        <translation>GitHub Pages ܡܦܣ ܠܐܬܪܐ ܕ %site ܘܠܦܢܩܝܬܐ ܕ %file.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages limits</source>
+        <translation>ܬܚܘ̈ܡܐ ܕ GitHub Pages</translation>
+    </message>
+    <message>
+        <source>GitHub Pages publishes the files as they are (needed for files starting with _).</source>
+        <translation>GitHub Pages ܦܪܣ ܠܦܢܩܝ̈ܬܐ ܐܝܟ ܕܐܝܬܝܗܝܢ (ܣܢܝܩ ܠܦܢܩܝ̈ܬܐ ܕܫܪܝܢ ܒ _).</translation>
+    </message>
+    <message>
+        <source>GitHub serves the branch as it is pushed. The default.</source>
+        <translation>GitHub ܡܫܡܫ ܣܘܟܐ ܐܝܟ ܕܐܬܥܒܕ ܠܗ ܦܘܫ. ܡܛܟܣܐ ܡܢ ܪܫ.</translation>
+    </message>
+    <message>
+        <source>GitLab, Gitea, your own server: any git repository.</source>
+        <translation>GitLab، Gitea، ܡܫܡܫܢܐ ܕܝܠܟܘܢ: ܟܠ ܓܙܐ ܕ git.</translation>
+    </message>
+    <message>
+        <source>Go back to an earlier publish</source>
+        <translation>ܗܦܘܟܘ ܠܦܪܣܐ ܕܡܢ ܩܕܡ</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>ܥܘܕܪܢܐ</translation>
+    </message>
+    <message>
+        <source>Help with the wizard</source>
+        <translation>ܥܘܕܪܢܐ ܥܡ ܡܕܒܪܢܐ</translation>
+    </message>
+    <message>
+        <source>Hide them</source>
+        <translation>ܛܫܝ ܠܗܝܢ</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>ܬܫܥܝܬܐ</translation>
+    </message>
+    <message>
+        <source>History of %name</source>
+        <translation>ܬܫܥܝܬܐ ܕ %name</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>ܡܐܪܚܢܐ</translation>
+    </message>
+    <message>
+        <source>How GitHub Pages receives the build</source>
+        <translation>ܐܝܟܢܐ GitHub Pages ܡܩܒܠ ܒܢܝܢܐ</translation>
+    </message>
+    <message>
+        <source>I have checked the changes</source>
+        <translation>ܒܨܝܬ ܫܘ̈ܚܠܦܐ</translation>
+    </message>
+    <message>
+        <source>I know what this changes</source>
+        <translation>ܝܕܥ ܐܢܐ ܡܐ ܕܗܕܐ ܡܫܚܠܦܐ</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation>ܫܘܕܥܐ</translation>
+    </message>
+    <message>
+        <source>It is switched off: nothing can be built until it is on.</source>
+        <translation>ܒܛܝܠ ܗܘ: ܡܕܡ ܠܐ ܡܨܐ ܕܢܬܒܢܐ ܥܕܡܐ ܕܢܬܦܥܠ.</translation>
+    </message>
+    <message>
+        <source>It runs in the background as %user; you can close this page.</source>
+        <translation>ܪܗܛ ܒܚܣܪܐ ܐܝܟ %user؛ ܡܨܝܬܘܢ ܕܬܚܪܡܘܢ ܗܕܐ ܦܐܬܐ.</translation>
+    </message>
+    <message>
+        <source>Job %id</source>
+        <translation>ܥܒܕܐ %id</translation>
+    </message>
+    <message>
+        <source>Kept as the secret %secret.</source>
+        <translation>ܡܬܢܛܪ ܐܝܟ ܐܪܙܐ %secret.</translation>
+    </message>
+    <message>
+        <source>Kind</source>
+        <translation>ܓܢܣܐ</translation>
+    </message>
+    <message>
+        <source>Last publish</source>
+        <translation>ܦܪܣܐ ܐܚܪܝܐ</translation>
+    </message>
+    <message>
+        <source>Leave out these pages</source>
+        <translation>ܫܒܘܩܘ ܗܠܝܢ ܦܐܬ̈ܐ</translation>
+    </message>
+    <message>
+        <source>Leave out these sections</source>
+        <translation>ܫܒܘܩܘ ܗܠܝܢ ܡ̈ܢܘܬܐ</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>ܐܣܘܪ̈ܐ</translation>
+    </message>
+    <message>
+        <source>Links rewritten</source>
+        <translation>ܐܣܘܪ̈ܐ ܕܐܬܟܬܒܘ ܬܘܒ</translation>
+    </message>
+    <message>
+        <source>Live site</source>
+        <translation>ܐܬܪܐ ܚܝܐ</translation>
+    </message>
+    <message>
+        <source>Look at the build</source>
+        <translation>ܚܙܘ ܒܢܝܢܐ</translation>
+    </message>
+    <message>
+        <source>Lower case letters, digits, _ and -, for example github-public. It names the folder and the tags (static/&lt;id&gt;/&lt;n&gt;) and cannot be changed later.</source>
+        <translation>ܐܬܘ̈ܬܐ ܙܥܘܪ̈ܬܐ، ܡܢܝ̈ܢܐ، _ ܘ -، ܠܡܬܠ github-public. ܗܘ ܝܗܒ ܫܡܐ ܠܬܝܩܐ ܘܠܛܐܓ̈ܐ (static/&lt;id&gt;/&lt;n&gt;) ܘܠܐ ܡܨܐ ܕܢܫܬܚܠܦ ܡܢ ܒܬܪܟܢ.</translation>
+    </message>
+    <message>
+        <source>Make a new key</source>
+        <translation>ܒܪܝ ܩܠܝܕܐ ܚܕܬܐ</translation>
+    </message>
+    <message>
+        <source>Make a target</source>
+        <translation>ܒܪܝ ܢܝܫܐ</translation>
+    </message>
+    <message>
+        <source>Make the key</source>
+        <translation>ܒܪܝ ܩܠܝܕܐ</translation>
+    </message>
+    <message>
+        <source>Make the repository on the host first; an empty one is fine.</source>
+        <translation>ܒܪܘ ܓܙܐ ܥܠ ܡܐܪܚܢܐ ܠܘܩܕܡ؛ ܓܙܐ ܣܦܝܩܐ ܫܦܝܪ ܗܘ.</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>ܡܢܝܢܐ ܕܦܢܩܝ̈ܬܐ</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>ܫܠܝܚܘܬܐ</translation>
+    </message>
+    <message>
+        <source>Most pages</source>
+        <translation>ܣܘܓܐܐ ܕܦܐܬ̈ܐ</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>ܫܡܐ</translation>
+    </message>
+    <message>
+        <source>Name of the token in Setup &gt; Secrets</source>
+        <translation>ܫܡܐ ܕܬܘܟܢܐ ܒ ܛܘܝܒܐ &gt; ܐܪ̈ܙܐ</translation>
+    </message>
+    <message>
+        <source>New target</source>
+        <translation>ܢܝܫܐ ܚܕܬܐ</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>ܕܒܬܪ</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>ܠܐ</translation>
+    </message>
+    <message>
+        <source>No commit yet.</source>
+        <translation>ܠܝܬ ܩܘܡܝܛ ܥܕܡܐ ܠܗܫܐ.</translation>
+    </message>
+    <message>
+        <source>No key was made: %problem</source>
+        <translation>ܠܐ ܐܬܥܒܕ ܩܠܝܕܐ: %problem</translation>
+    </message>
+    <message>
+        <source>No php command line binary was found. Set migration.ini [AdminSettings] PhpCliPath to its full path.</source>
+        <translation>ܠܐ ܐܫܬܟܚ ܡܦܠܚܢܐ ܕܣܪܛܐ ܕܦܘܩܕܢ̈ܐ ܕ php. ܣܝܡܘ ܫܒܝܠܗ ܓܡܝܪܐ ܒ migration.ini [AdminSettings] PhpCliPath.</translation>
+    </message>
+    <message>
+        <source>No tag yet.</source>
+        <translation>ܠܝܬ ܛܐܓ ܥܕܡܐ ܠܗܫܐ.</translation>
+    </message>
+    <message>
+        <source>No target yet.</source>
+        <translation>ܠܝܬ ܢܝܫܐ ܥܕܡܐ ܠܗܫܐ.</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>ܠܐ ܚܕ</translation>
+    </message>
+    <message>
+        <source>Not in the build.</source>
+        <translation>ܠܐ ܐܝܬܘܗܝ ܒܒܢܝܢܐ.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet.</source>
+        <translation>ܡܕܡ ܠܐ ܐܬܦܪܣ ܥܕܡܐ ܠܗܫܐ.</translation>
+    </message>
+    <message>
+        <source>Nothing was published yet: every file is new.</source>
+        <translation>ܡܕܡ ܠܐ ܐܬܦܪܣ ܥܕܡܐ ܠܗܫܐ: ܟܠ ܦܢܩܝܬܐ ܚܕܬܐ ܗܝ.</translation>
+    </message>
+    <message>
+        <source>Notify</source>
+        <translation>ܡܘܕܥܢܘܬܐ</translation>
+    </message>
+    <message>
+        <source>On a schedule</source>
+        <translation>ܒܣܕܪܐ ܕܙܒܢܐ</translation>
+    </message>
+    <message>
+        <source>On the console</source>
+        <translation>ܒܟܘܢܣܘܠ</translation>
+    </message>
+    <message>
+        <source>On the server: ./console exp:static:serve %id serves it the same way.</source>
+        <translation>ܥܠ ܡܫܡܫܢܐ: ./console exp:static:serve %id ܡܫܡܫ ܠܗ ܒܗ ܒܐܘܪܚܐ.</translation>
+    </message>
+    <message>
+        <source>One path per line, * matches any part: /members/*</source>
+        <translation>ܫܒܝܠܐ ܚܕ ܒܟܠ ܣܪܛܐ، * ܫܘܐ ܠܟܠ ܡܢܬܐ: /members/*</translation>
+    </message>
+    <message>
+        <source>Only a name is stored with the target; the token or key itself stays in Setup &gt; Secrets and never appears in a log.</source>
+        <translation>ܫܡܐ ܒܠܚܘܕ ܡܬܢܛܪ ܥܡ ܢܝܫܐ؛ ܬܘܟܢܐ ܐܘ ܩܠܝܕܐ ܦܐܫ ܒ ܛܘܝܒܐ &gt; ܐܪ̈ܙܐ ܘܡܡܬܘܡ ܠܐ ܡܬܚܙܐ ܒܪܘܫܡܐ.</translation>
+    </message>
+    <message>
+        <source>Only what the pages name</source>
+        <translation>ܒܠܚܘܕ ܡܐ ܕܦܐܬ̈ܐ ܡܫܡܗܢ</translation>
+    </message>
+    <message>
+        <source>Only with a token. env:NAME reads an environment variable of the server instead.</source>
+        <translation>ܒܠܚܘܕ ܥܡ ܬܘܟܢܐ. env:NAME ܩܪܐ ܚܠܦܘܗܝ ܫܚܠܘܦܐ ܕܣܒܝܒܘܬܐ ܕܡܫܡܫܢܐ.</translation>
+    </message>
+    <message>
+        <source>Open the preview</source>
+        <translation>ܦܬܚ ܚܙܝܐ ܩܕܡܝܐ</translation>
+    </message>
+    <message>
+        <source>Opens the build as the host will serve it, from the target&apos;s folder. The link works for you for an hour.</source>
+        <translation>ܦܬܚ ܒܢܝܢܐ ܐܝܟ ܕܡܐܪܚܢܐ ܢܫܡܫܝܘܗܝ، ܡܢ ܬܝܩܐ ܕܢܝܫܐ. ܐܣܘܪܐ ܦܠܚ ܠܟܘܢ ܫܥܬܐ ܚܕܐ.</translation>
+    </message>
+    <message>
+        <source>Optional. Empty: what was published.</source>
+        <translation>ܓܒܝܝܐ. ܣܦܝܩܐ: ܡܐ ܕܐܬܦܪܣ.</translation>
+    </message>
+    <message>
+        <source>Optional. With a domain the site is served at its root.</source>
+        <translation>ܓܒܝܝܐ. ܥܡ ܚܘܕܪܐ ܐܬܪܐ ܡܫܬܡܫ ܒܥܩܪܗ.</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>ܦܘܪܥܢܐ</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>ܦܐܬ̈ܐ</translation>
+    </message>
+    <message>
+        <source>Pages of the target</source>
+        <translation>ܦܐܬ̈ܐ ܕܢܝܫܐ</translation>
+    </message>
+    <message>
+        <source>Pages refused</source>
+        <translation>ܦܐܬ̈ܐ ܕܐܬܟܠܝ</translation>
+    </message>
+    <message>
+        <source>Post-processing</source>
+        <translation>ܥܒܕܐ ܕܒܬܪ</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>ܚܙܝܐ ܩܕܡܝܐ</translation>
+    </message>
+    <message>
+        <source>Preview and publish</source>
+        <translation>ܚܙܝܐ ܩܕܡܝܐ ܘܦܪܣܐ</translation>
+    </message>
+    <message>
+        <source>Preview and publish %name</source>
+        <translation>ܚܙܝܐ ܩܕܡܝܐ ܘܦܪܣܐ ܕ %name</translation>
+    </message>
+    <message>
+        <source>Preview the build</source>
+        <translation>ܚܙܝܐ ܩܕܡܝܐ ܕܒܢܝܢܐ</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>ܡܩܕܡܢܘܬܐ</translation>
+    </message>
+    <message>
+        <source>Public address</source>
+        <translation>ܡܘܢܥܐ ܓܠܝܐ</translation>
+    </message>
+    <message>
+        <source>Public key</source>
+        <translation>ܩܠܝܕܐ ܓܠܝܐ</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>ܦܪܣܐ</translation>
+    </message>
+    <message>
+        <source>Publish a static copy of a site to GitHub Pages or any git host: build it, check the changes, publish, and go back to an earlier publish when you need to.</source>
+        <translation>ܦܪܣܐ ܕܨܘܪܬܐ ܩܒܝܥܬܐ ܕܐܬܪܐ ܥܠ GitHub Pages ܐܘ ܥܠ ܟܠ ܡܐܪܚܢܐ ܕ git: ܒܢܝܐ ܠܗ، ܒܨܝܐ ܕܫܘ̈ܚܠܦܐ، ܦܪܣܐ، ܘܗܘܦܟܐ ܠܦܪܣܐ ܕܡܢ ܩܕܡ ܟܕ ܣܢܝܩܝܬܘܢ.</translation>
+    </message>
+    <message>
+        <source>Publish to go back to</source>
+        <translation>ܦܪܣܐ ܕܠܗ ܬܗܦܟܘܢ</translation>
+    </message>
+    <message>
+        <source>Publishes</source>
+        <translation>ܦܪ̈ܣܐ</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>ܦܘܫ</translation>
+    </message>
+    <message>
+        <source>Read the tutorial</source>
+        <translation>ܩܪܝ ܡܠܦܢܘܬܐ</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation>ܪܘܫܡܐ</translation>
+    </message>
+    <message>
+        <source>Refused</source>
+        <translation>ܐܬܟܠܝ</translation>
+    </message>
+    <message>
+        <source>Relative</source>
+        <translation>ܡܬܢܣܒܢܝܐ</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>ܛܥܢܐ ܬܘܒ</translation>
+    </message>
+    <message>
+        <source>Removed</source>
+        <translation>ܐܫܬܩܠ</translation>
+    </message>
+    <message>
+        <source>Replace the key: the old one stops working</source>
+        <translation>ܫܚܠܦ ܩܠܝܕܐ: ܥܬܝܩܐ ܫܠܐ ܡܢ ܦܘܠܚܢܐ</translation>
+    </message>
+    <message>
+        <source>Report</source>
+        <translation>ܡܘܕܥܢܘܬܐ</translation>
+    </message>
+    <message>
+        <source>Report of the build</source>
+        <translation>ܡܘܕܥܢܘܬܐ ܕܒܢܝܢܐ</translation>
+    </message>
+    <message>
+        <source>Repository</source>
+        <translation>ܓܙܐ</translation>
+    </message>
+    <message>
+        <source>Review</source>
+        <translation>ܒܘܚܢܐ</translation>
+    </message>
+    <message>
+        <source>Review checks every setting and shows the lines that will be written. Nothing is saved yet.</source>
+        <translation>ܒܘܚܢܐ ܒܨܐ ܟܠ ܛܘܝܒܐ ܘܡܚܘܐ ܣܪ̈ܛܐ ܕܢܬܟܬܒܘܢ. ܡܕܡ ܠܐ ܐܬܢܛܪ ܥܕܡܐ ܠܗܫܐ.</translation>
+    </message>
+    <message>
+        <source>Roll back</source>
+        <translation>ܡܗܦܟܐ ܠܒܣܬܪ</translation>
+    </message>
+    <message>
+        <source>Rollback</source>
+        <translation>ܗܘܦܟܐ ܠܒܣܬܪ</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>ܢܛܪܐ</translation>
+    </message>
+    <message>
+        <source>Schedule</source>
+        <translation>ܣܕܪܐ ܕܙܒܢܐ</translation>
+    </message>
+    <message>
+        <source>Search page</source>
+        <translation>ܦܐܬܐ ܕܒܨܝܐ</translation>
+    </message>
+    <message>
+        <source>Section ids, separated by commas.</source>
+        <translation>ܫܘܕܥ̈ܐ ܕܡ̈ܢܘܬܐ، ܦܪܝܫܝ̈ܢ ܒܦܣܘ̈ܩܝܬܐ.</translation>
+    </message>
+    <message>
+        <source>Send them to the live site</source>
+        <translation>ܫܕܪܘ ܠܗܝܢ ܠܐܬܪܐ ܚܝܐ</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>ܛܘܝܒܐ</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>ܛܘܝ̈ܒܐ</translation>
+    </message>
+    <message>
+        <source>Settings of %name</source>
+        <translation>ܛܘܝ̈ܒܐ ܕ %name</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>ܛܘܝܒܐ</translation>
+    </message>
+    <message>
+        <source>Setup &gt; Secrets</source>
+        <translation>ܛܘܝܒܐ &gt; ܐܪ̈ܙܐ</translation>
+    </message>
+    <message>
+        <source>Shown in lists, for example &quot;Public site on GitHub Pages&quot;.</source>
+        <translation>ܡܬܚܘܐ ܒܡܢܝ̈ܢܐ، ܠܡܬܠ &quot;ܐܬܪܐ ܓܠܝܐ ܥܠ GitHub Pages&quot;.</translation>
+    </message>
+    <message>
+        <source>Signing in with a GitHub App comes with the GitHub integration.</source>
+        <translation>ܡܥܠܢܐ ܒ GitHub App ܐܬܐ ܥܡ ܚܘܝܕܐ ܕ GitHub.</translation>
+    </message>
+    <message>
+        <source>Site</source>
+        <translation>ܐܬܪܐ</translation>
+    </message>
+    <message>
+        <source>Site to publish</source>
+        <translation>ܐܬܪܐ ܠܦܪܣܐ</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>ܪܒܘܬܐ</translation>
+    </message>
+    <message>
+        <source>Size and limits</source>
+        <translation>ܪܒܘܬܐ ܘܬܚܘ̈ܡܐ</translation>
+    </message>
+    <message>
+        <source>Size of the build</source>
+        <translation>ܪܒܘܬܐ ܕܒܢܝܢܐ</translation>
+    </message>
+    <message>
+        <source>Stale pages</source>
+        <translation>ܦܐܬ̈ܐ ܥܬܝܩ̈ܬܐ</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>ܫܪܝ</translation>
+    </message>
+    <message>
+        <source>Started by %user at %time.</source>
+        <translation>ܫܪܝ ܡܢ %user ܒ %time.</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>ܡܩܡܐ</translation>
+    </message>
+    <message>
+        <source>Static publishing</source>
+        <translation>ܦܪܣܐ ܩܒܝܥܐ</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off</source>
+        <translation>ܦܪܣܐ ܩܒܝܥܐ ܒܛܝܠ</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off.</source>
+        <translation>ܦܪܣܐ ܩܒܝܥܐ ܒܛܝܠ.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched off. Switch it on in Setup &gt; Static publishing first.</source>
+        <translation>ܦܪܣܐ ܩܒܝܥܐ ܒܛܝܠ. ܐܦܥܠܘ ܠܗ ܠܘܩܕܡ ܒ ܛܘܝܒܐ &gt; ܦܪܣܐ ܩܒܝܥܐ.</translation>
+    </message>
+    <message>
+        <source>Static publishing is switched on.</source>
+        <translation>ܦܪܣܐ ܩܒܝܥܐ ܦܥܝܠ.</translation>
+    </message>
+    <message>
+        <source>Step %step of %total</source>
+        <translation>ܕܪܓܐ %step ܡܢ %total</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>ܕܪ̈ܓܐ</translation>
+    </message>
+    <message>
+        <source>Strip</source>
+        <translation>ܡܥܛܠܢܐ</translation>
+    </message>
+    <message>
+        <source>Switch off</source>
+        <translation>ܡܒܛܠܢܘܬܐ</translation>
+    </message>
+    <message>
+        <source>Switch on</source>
+        <translation>ܡܦܥܠܢܘܬܐ</translation>
+    </message>
+    <message>
+        <source>Switch static publishing on</source>
+        <translation>ܐܦܥܠ ܦܪܣܐ ܩܒܝܥܐ</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>ܛܐܓ</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>ܛܐܓ̈ܐ</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <translation>ܢܝܫܐ</translation>
+    </message>
+    <message>
+        <source>Targets can be made and changed, but nothing is built or published until it is switched on.</source>
+        <translation>ܢܝ̈ܫܐ ܡܨܝܢ ܕܢܬܒܪܘܢ ܘܢܫܬܚܠܦܘܢ، ܐܠܐ ܡܕܡ ܠܐ ܡܬܒܢܐ ܘܠܐ ܡܬܦܪܣ ܥܕܡܐ ܕܢܬܦܥܠ.</translation>
+    </message>
+    <message>
+        <source>Tells search engines what to read.</source>
+        <translation>ܐܡܪ ܠܡܢܘ̈ܥܐ ܕܒܨܝܐ ܡܐ ܕܢܩܪܘܢ.</translation>
+    </message>
+    <message>
+        <source>The build could not be thrown away: %problem</source>
+        <translation>ܒܢܝܢܐ ܠܐ ܐܫܬܟܚ ܠܡܫܬܕܝܘ: %problem</translation>
+    </message>
+    <message>
+        <source>The build is the same as the last publish: there is nothing to publish.</source>
+        <translation>ܒܢܝܢܐ ܐܝܟ ܦܪܣܐ ܐܚܪܝܐ ܗܘ: ܠܝܬ ܡܕܡ ܠܦܪܣܐ.</translation>
+    </message>
+    <message>
+        <source>The build was thrown away: the folder holds the last publish again.</source>
+        <translation>ܒܢܝܢܐ ܐܫܬܕܝ: ܬܝܩܐ ܛܥܝܢ ܬܘܒ ܦܪܣܐ ܐܚܪܝܐ.</translation>
+    </message>
+    <message>
+        <source>The defaults suit most sites.</source>
+        <translation>ܡܛܟܣ̈ܐ ܡܢ ܪܫ ܫܠܡܝܢ ܠܣܘܓܐܐ ܕܐܬܪ̈ܐ.</translation>
+    </message>
+    <message>
+        <source>The folder holds a build that is not published yet; a new build replaces it.</source>
+        <translation>ܬܝܩܐ ܛܥܝܢ ܒܢܝܢܐ ܕܠܐ ܐܬܦܪܣ ܥܕܡܐ ܠܗܫܐ؛ ܒܢܝܢܐ ܚܕܬܐ ܡܫܚܠܦ ܠܗ.</translation>
+    </message>
+    <message>
+        <source>The folder of the jobs cannot be written: %detail</source>
+        <translation>ܬܝܩܐ ܕܥܒ̈ܕܐ ܠܐ ܡܨܐ ܕܢܬܟܬܒ: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be prepared: %detail</source>
+        <translation>ܥܒܕܐ ܠܐ ܐܫܬܟܚ ܠܡܬܛܝܒܘ: %detail</translation>
+    </message>
+    <message>
+        <source>The job could not be started.</source>
+        <translation>ܥܒܕܐ ܠܐ ܐܫܬܟܚ ܠܡܫܪܐ.</translation>
+    </message>
+    <message>
+        <source>The job has ended. Loading its report.</source>
+        <translation>ܥܒܕܐ ܫܠܡ. ܡܘܕܥܢܘܬܗ ܡܬܛܥܢܐ.</translation>
+    </message>
+    <message>
+        <source>The job needs a signed-in user.</source>
+        <translation>ܥܒܕܐ ܣܢܝܩ ܠܡܦܠܚܢܐ ܕܥܐܠ.</translation>
+    </message>
+    <message>
+        <source>The job was started but did not report its process id. Check %detail.</source>
+        <translation>ܥܒܕܐ ܫܪܝ ܐܠܐ ܠܐ ܐܘܕܥ ܫܘܕܥܐ ܕܥܒܕܗ. ܒܨܘ %detail.</translation>
+    </message>
+    <message>
+        <source>The key</source>
+        <translation>ܩܠܝܕܐ</translation>
+    </message>
+    <message>
+        <source>The largest file: %path, %size.</source>
+        <translation>ܦܢܩܝܬܐ ܪܒܬܐ ܝܬܝܪ: %path، %size.</translation>
+    </message>
+    <message>
+        <source>The lines that will be written</source>
+        <translation>ܣܪ̈ܛܐ ܕܢܬܟܬܒܘܢ</translation>
+    </message>
+    <message>
+        <source>The list of pages for search engines; needs the public address.</source>
+        <translation>ܡܢܝܢܐ ܕܦܐܬ̈ܐ ܠܡܢܘ̈ܥܐ ܕܒܨܝܐ؛ ܣܢܝܩ ܠܡܘܢܥܐ ܓܠܝܐ.</translation>
+    </message>
+    <message>
+        <source>The pages are fetched as a visitor who is not signed in sees them. Administration and editing siteaccesses are never offered.</source>
+        <translation>ܦܐܬ̈ܐ ܡܬܝܬܝܢ ܐܝܟ ܕܚܙܐ ܠܗܝܢ ܣܥܘܪܐ ܕܠܐ ܥܠ. siteaccesses ܕܡܕܒܪܢܘܬܐ ܘܕܬܘܪܨܐ ܡܡܬܘܡ ܠܐ ܡܬܩܪܒܝܢ.</translation>
+    </message>
+    <message>
+        <source>The progress could not be followed. Reload the page to see how the job is doing.</source>
+        <translation>ܡܩܕܡܢܘܬܐ ܠܐ ܐܫܬܟܚܬ ܠܡܬܢܩܦܘ. ܛܥܢܘ ܦܐܬܐ ܬܘܒ ܠܡܚܙܐ ܐܝܟܢܐ ܥܒܕܐ ܐܙܠ.</translation>
+    </message>
+    <message>
+        <source>The public half of the key:</source>
+        <translation>ܦܠܓܗ ܓܠܝܐ ܕܩܠܝܕܐ:</translation>
+    </message>
+    <message>
+        <source>The root of the branch</source>
+        <translation>ܥܩܪܐ ܕܣܘܟܐ</translation>
+    </message>
+    <message>
+        <source>The secret store is not set up yet (./console exp:upgrade --apply makes its table), so no key can be kept.</source>
+        <translation>ܓܙܐ ܕܐܪ̈ܙܐ ܠܐ ܐܬܛܝܒ ܥܕܡܐ ܠܗܫܐ (./console exp:upgrade --apply ܒܪܐ ܛܒܠܗ)، ܡܛܠ ܗܢܐ ܠܐ ܡܨܐ ܩܠܝܕܐ ܕܢܬܢܛܪ.</translation>
+    </message>
+    <message>
+        <source>The server signs in by itself (its own SSH key or credential helper), or the repository is on this server.</source>
+        <translation>ܡܫܡܫܢܐ ܥܐܠ ܒܢܦܫܗ (ܒܩܠܝܕܐ ܕ SSH ܕܝܠܗ ܐܘ ܒܡܥܕܪܢܐ ܕܫܘܕܥܐ ܕܡܥܠܢܐ)، ܐܘ ܓܙܐ ܐܝܬܘܗܝ ܥܠ ܗܢܐ ܡܫܡܫܢܐ.</translation>
+    </message>
+    <message>
+        <source>The setting could not be written: %problem</source>
+        <translation>ܛܘܝܒܐ ܠܐ ܐܫܬܟܚ ܠܡܬܟܬܒܘ: %problem</translation>
+    </message>
+    <message>
+        <source>The settings are valid. These lines will be written:</source>
+        <translation>ܛܘܝ̈ܒܐ ܫܪܝܪ̈ܐ ܐܢܘܢ. ܗܠܝܢ ܣܪ̈ܛܐ ܢܬܟܬܒܘܢ:</translation>
+    </message>
+    <message>
+        <source>The settings file cannot be read: %problem</source>
+        <translation>ܦܢܩܝܬܐ ܕܛܘܝ̈ܒܐ ܠܐ ܡܨܝܐ ܕܬܬܩܪܐ: %problem</translation>
+    </message>
+    <message>
+        <source>The site goes back to the files of that publish; a build not published yet must be published or thrown away first.</source>
+        <translation>ܐܬܪܐ ܗܦܟ ܠܦܢܩܝ̈ܬܐ ܕܗܘ ܦܪܣܐ؛ ܒܢܝܢܐ ܕܠܐ ܐܬܦܪܣ ܥܕܡܐ ܠܗܫܐ ܠܐܡ ܕܢܬܦܪܣ ܐܘ ܢܫܬܕܐ ܠܘܩܕܡ.</translation>
+    </message>
+    <message>
+        <source>The site&apos;s own page for addresses that do not exist.</source>
+        <translation>ܦܐܬܐ ܕܐܬܪܐ ܒܢܦܫܗ ܠܡܘܢ̈ܥܐ ܕܠܐ ܐܝܬܝܗܘܢ.</translation>
+    </message>
+    <message>
+        <source>The target could not be saved: %problem</source>
+        <translation>ܢܝܫܐ ܠܐ ܐܫܬܟܚ ܠܡܬܢܛܪܘ: %problem</translation>
+    </message>
+    <message>
+        <source>The target does not sign in with this key yet: choose &quot;A deploy key made for this target&quot; in its settings.</source>
+        <translation>ܢܝܫܐ ܥܕܡܐ ܠܗܫܐ ܠܐ ܥܐܠ ܒܗܢܐ ܩܠܝܕܐ: ܓܒܘ &quot;ܩܠܝܕܐ ܕܫܘܕܪܐ ܕܐܬܥܒܕ ܠܗܢܐ ܢܝܫܐ&quot; ܒܛܘܝ̈ܒܐ ܕܝܠܗ.</translation>
+    </message>
+    <message>
+        <source>The targets could not be read: %problem</source>
+        <translation>ܢܝ̈ܫܐ ܠܐ ܐܫܬܟܚܘ ܠܡܬܩܪܝܘ: %problem</translation>
+    </message>
+    <message>
+        <source>There is no build to check yet.</source>
+        <translation>ܠܝܬ ܒܢܝܢܐ ܠܒܨܝܐ ܥܕܡܐ ܠܗܫܐ.</translation>
+    </message>
+    <message>
+        <source>This installation has no front siteaccess. Administration and editing siteaccesses are never published.</source>
+        <translation>ܠܝܬ ܠܗܕܐ ܐܩܡܬܐ siteaccess ܩܕܡܝܐ. siteaccesses ܕܡܕܒܪܢܘܬܐ ܘܕܬܘܪܨܐ ܡܡܬܘܡ ܠܐ ܡܬܦܪܣܝܢ.</translation>
+    </message>
+    <message>
+        <source>This page follows the job as it goes; it goes on in the background when the page is closed.</source>
+        <translation>ܗܕܐ ܦܐܬܐ ܢܩܦܐ ܠܥܒܕܐ ܟܕ ܐܙܠ؛ ܗܘ ܡܫܬܪܓ ܒܚܣܪܐ ܟܕ ܦܐܬܐ ܡܬܚܪܡܐ.</translation>
+    </message>
+    <message>
+        <source>This target has no deploy key yet.</source>
+        <translation>ܠܝܬ ܠܗܢܐ ܢܝܫܐ ܩܠܝܕܐ ܕܫܘܕܪܐ ܥܕܡܐ ܠܗܫܐ.</translation>
+    </message>
+    <message>
+        <source>This target has not been built here yet.</source>
+        <translation>ܗܢܐ ܢܝܫܐ ܠܐ ܐܬܒܢܝ ܗܪܟܐ ܥܕܡܐ ܠܗܫܐ.</translation>
+    </message>
+    <message>
+        <source>This target has one.</source>
+        <translation>ܐܝܬ ܠܗܢܐ ܢܝܫܐ ܚܕ.</translation>
+    </message>
+    <message>
+        <source>Throws this build away: the folder holds the last publish again. The live site does not change.</source>
+        <translation>ܫܕܐ ܠܗܢܐ ܒܢܝܢܐ: ܬܝܩܐ ܛܥܝܢ ܬܘܒ ܦܪܣܐ ܐܚܪܝܐ. ܐܬܪܐ ܚܝܐ ܠܐ ܡܫܬܚܠܦ.</translation>
+    </message>
+    <message>
+        <source>Tick &quot;I have checked the changes&quot; first.</source>
+        <translation>ܐܬܘ ܥܠ &quot;ܒܨܝܬ ܫܘ̈ܚܠܦܐ&quot; ܠܘܩܕܡ.</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>ܙܒܢܐ</translation>
+    </message>
+    <message>
+        <source>Triggers</source>
+        <translation>ܡܙܝܥܢ̈ܐ</translation>
+    </message>
+    <message>
+        <source>Type the name of the tag again</source>
+        <translation>ܟܬܘܒܘ ܫܡܐ ܕܛܐܓ ܬܘܒ</translation>
+    </message>
+    <message>
+        <source>Unchanged</source>
+        <translation>ܠܐ ܐܫܬܚܠܦ</translation>
+    </message>
+    <message>
+        <source>Webhook</source>
+        <translation>ܘܝܒܗܘܟ</translation>
+    </message>
+    <message>
+        <source>What</source>
+        <translation>ܡܐ</translation>
+    </message>
+    <message>
+        <source>What changes</source>
+        <translation>ܡܐ ܕܡܫܬܚܠܦ</translation>
+    </message>
+    <message>
+        <source>What each file is; always written.</source>
+        <translation>ܡܢܘ ܟܠ ܦܢܩܝܬܐ؛ ܐܡܝܢܐܝܬ ܡܬܟܬܒ.</translation>
+    </message>
+    <message>
+        <source>What the job did and its record. A job started here goes on in the background when this page is closed.</source>
+        <translation>ܡܐ ܕܥܒܕܐ ܥܒܕ ܘܪܘܫܡܗ. ܥܒܕܐ ܕܫܪܝ ܗܪܟܐ ܡܫܬܪܓ ܒܚܣܪܐ ܟܕ ܗܕܐ ܦܐܬܐ ܡܬܚܪܡܐ.</translation>
+    </message>
+    <message>
+        <source>What the job printed as errors</source>
+        <translation>ܡܐ ܕܥܒܕܐ ܛܒܥ ܐܝܟ ܦܘܕ̈ܐ</translation>
+    </message>
+    <message>
+        <source>What the pages name, and every image of published content</source>
+        <translation>ܡܐ ܕܦܐܬ̈ܐ ܡܫܡܗܢ، ܘܟܠ ܨܘܪܬܐ ܕܬܚܘܝܬܐ ܕܐܬܦܪܣܬ</translation>
+    </message>
+    <message>
+        <source>When</source>
+        <translation>ܐܡܬܝ</translation>
+    </message>
+    <message>
+        <source>When a publish fails</source>
+        <translation>ܟܕ ܦܪܣܐ ܠܐ ܡܨܠܚ</translation>
+    </message>
+    <message>
+        <source>When a publish succeeds</source>
+        <translation>ܟܕ ܦܪܣܐ ܡܨܠܚ</translation>
+    </message>
+    <message>
+        <source>When content is published</source>
+        <translation>ܟܕ ܬܚܘܝܬܐ ܡܬܦܪܣܐ</translation>
+    </message>
+    <message>
+        <source>Where links to what the copy does not hold go (the search, the login).</source>
+        <translation>ܠܐܝܟܐ ܐܙܠܝܢ ܐܣܘܪ̈ܐ ܠܡܐ ܕܨܘܪܬܐ ܠܐ ܛܥܢܐ (ܒܨܝܐ، ܡܥܠܢܐ).</translation>
+    </message>
+    <message>
+        <source>Where the static copy is served from.</source>
+        <translation>ܡܢ ܐܝܟܐ ܨܘܪܬܐ ܩܒܝܥܬܐ ܡܫܬܡܫܐ.</translation>
+    </message>
+    <message>
+        <source>Which site is published, and what the target is called.</source>
+        <translation>ܐܝܢܐ ܐܬܪܐ ܡܬܦܪܣ، ܘܡܢܘ ܫܡܐ ܕܢܝܫܐ.</translation>
+    </message>
+    <message>
+        <source>Work below any path. The default.</source>
+        <translation>ܦܠܚ ܠܬܚܬ ܟܠ ܫܒܝܠܐ. ܡܛܟܣܐ ܡܢ ܪܫ.</translation>
+    </message>
+    <message>
+        <source>Written whenever a custom domain is set.</source>
+        <translation>ܡܬܟܬܒ ܟܠ ܐܡܬܝ ܕܚܘܕܪܐ ܕܝܠܟܘܢ ܡܬܬܣܝܡ.</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>ܐܝܢ</translation>
+    </message>
+    <message>
+        <source>You can always build and publish by hand here and on the console.</source>
+        <translation>ܡܨܝܬܘܢ ܐܡܝܢܐܝܬ ܕܬܒܢܘܢ ܘܬܦܪܣܘܢ ܒܐܝܕܐ ܗܪܟܐ ܘܥܠ ܟܘܢܣܘܠ.</translation>
+    </message>
+    <message>
+        <source>a name only; the value stays in Setup &gt; Secrets</source>
+        <translation>ܫܡܐ ܒܠܚܘܕ؛ ܛܝܡܐ ܦܐܫ ܒ ܛܘܝܒܐ &gt; ܐܪ̈ܙܐ</translation>
+    </message>
+    <message>
+        <source>below %path</source>
+        <translation>ܠܬܚܬ %path</translation>
+    </message>
+    <message>
+        <source>ended without a report</source>
+        <translation>ܫܠܡ ܕܠܐ ܡܘܕܥܢܘܬܐ</translation>
+    </message>
+    <message>
+        <source>extra</source>
+        <translation>ܝܬܝܪܐ</translation>
+    </message>
+    <message>
+        <source>failed</source>
+        <translation>ܠܐ ܐܨܠܚ</translation>
+    </message>
+    <message>
+        <source>file</source>
+        <translation>ܦܢܩܝܬܐ</translation>
+    </message>
+    <message>
+        <source>gh-pages, or main with the folder docs.</source>
+        <translation>gh-pages، ܐܘ main ܥܡ ܬܝܩܐ docs.</translation>
+    </message>
+    <message>
+        <source>git host</source>
+        <translation>ܡܐܪܚܢܐ ܕ git</translation>
+    </message>
+    <message>
+        <source>https://github.com/owner/repo.git (with a token) or git@github.com:owner/repo.git (with a deploy key); never a password or token in it.</source>
+        <translation>https://github.com/owner/repo.git (ܥܡ ܬܘܟܢܐ) ܐܘ git@github.com:owner/repo.git (ܥܡ ܩܠܝܕܐ ܕܫܘܕܪܐ)؛ ܡܡܬܘܡ ܠܐ ܡܠܬܐ ܕܥܘܠܐ ܐܘ ܬܘܟܢܐ ܒܓܘܗ.</translation>
+    </message>
+    <message>
+        <source>https://owner.github.io/repository/, for the sitemap and the canonical links.</source>
+        <translation>https://owner.github.io/repository/، ܠܨܘܪܬ ܐܬܪܐ ܘܠܐܣܘܪ̈ܐ ܩܢܘܢܝ̈ܐ.</translation>
+    </message>
+    <message>
+        <source>image</source>
+        <translation>ܨܘܪܬܐ</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>ܡܡܬܘܡ ܠܐ</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ܠܐ</translation>
+    </message>
+    <message>
+        <source>no remote</source>
+        <translation>ܠܝܬ ܓܙܐ ܪܚܝܩܐ</translation>
+    </message>
+    <message>
+        <source>none: commits stay in the folder</source>
+        <translation>ܠܐ ܚܕ: ܩܘܡܝܛ̈ܐ ܦܝܫܝܢ ܒܬܝܩܐ</translation>
+    </message>
+    <message>
+        <source>none: nothing changed</source>
+        <translation>ܠܐ ܚܕ: ܡܕܡ ܠܐ ܐܫܬܚܠܦ</translation>
+    </message>
+    <message>
+        <source>not pushed</source>
+        <translation>ܠܐ ܐܬܥܒܕ ܠܗ ܦܘܫ</translation>
+    </message>
+    <message>
+        <source>nothing changed</source>
+        <translation>ܡܕܡ ܠܐ ܐܫܬܚܠܦ</translation>
+    </message>
+    <message>
+        <source>page</source>
+        <translation>ܦܐܬܐ</translation>
+    </message>
+    <message>
+        <source>passed</source>
+        <translation>ܥܒܪ</translation>
+    </message>
+    <message>
+        <source>proc_open is disabled, so a job cannot be started here. Use ./console exp:static:build on the server.</source>
+        <translation>proc_open ܒܛܝܠ ܗܘ، ܡܛܠ ܗܢܐ ܥܒܕܐ ܠܐ ܡܨܐ ܕܢܫܪܐ ܗܪܟܐ. ܐܦܠܚܘ ./console exp:static:build ܥܠ ܡܫܡܫܢܐ.</translation>
+    </message>
+    <message>
+        <source>publish</source>
+        <translation>ܦܪܣܐ</translation>
+    </message>
+    <message>
+        <source>published</source>
+        <translation>ܐܬܦܪܣ</translation>
+    </message>
+    <message>
+        <source>push pending</source>
+        <translation>ܦܘܫ ܡܣܟܐ</translation>
+    </message>
+    <message>
+        <source>pushed</source>
+        <translation>ܐܬܥܒܕ ܠܗ ܦܘܫ</translation>
+    </message>
+    <message>
+        <source>refused</source>
+        <translation>ܐܬܟܠܝ</translation>
+    </message>
+    <message>
+        <source>relative</source>
+        <translation>ܡܬܢܣܒܢܝܐ</translation>
+    </message>
+    <message>
+        <source>rollback</source>
+        <translation>ܗܘܦܟܐ ܠܒܣܬܪ</translation>
+    </message>
+    <message>
+        <source>rolled back</source>
+        <translation>ܐܬܗܦܟ ܠܒܣܬܪ</translation>
+    </message>
+    <message>
+        <source>running</source>
+        <translation>ܪܗܛ</translation>
+    </message>
+    <message>
+        <source>the folder only</source>
+        <translation>ܬܝܩܐ ܒܠܚܘܕ</translation>
+    </message>
+    <message>
+        <source>www.example.com: written to the file CNAME. Point the DNS of the domain at the host as it explains; HTTPS can take a while to start.</source>
+        <translation>www.example.com: ܡܬܟܬܒ ܒܦܢܩܝܬܐ CNAME. ܚܘܘ DNS ܕܚܘܕܪܐ ܠܡܐܪܚܢܐ ܐܝܟ ܕܗܘ ܡܦܫܩ؛ HTTPS ܡܨܐ ܕܢܣܒ ܩܨܬ ܙܒܢܐ ܠܡܫܪܐ.</translation>
+    </message>
+    <message>
+        <source>yes, not published yet</source>
+        <translation>ܐܝܢ، ܠܐ ܐܬܦܪܣ ܥܕܡܐ ܠܗܫܐ</translation>
+    </message>
+    <message>
+        <source>A GitHub App</source>
+        <translation>GitHub App ܚܕ</translation>
+    </message>
+    <message>
+        <source>A workflow of the repository publishes it. The build writes the workflow file; leave the folder empty.</source>
+        <translation>workflow ܕܓܙܐ ܦܪܣ ܠܗ. ܒܢܝܢܐ ܟܬܒ ܠܦܘܠܐ ܕ workflow؛ ܫܒܘܩ ܠܡܐܢܐ ܣܦܝܩܐ.</translation>
+    </message>
+    <message>
+        <source>After saving a target with a GitHub repository and a token or GitHub App, this step can create the repository and switch GitHub Pages on. Otherwise create the repository on GitHub first; an empty one is fine.</source>
+        <translation>ܒܬܪ ܕܢܛܪܬ ܢܝܫܐ ܥܡ ܓܙܐ ܕ GitHub ܘܬܘܟܢܐ ܐܘ GitHub App، ܗܢܐ ܦܣܘܥܐ ܡܨܐ ܕܢܥܒܕ ܠܓܙܐ ܘܢܦܬܚ GitHub Pages. ܐܢ ܠܐ، ܩܕܡ ܥܒܕ ܠܓܙܐ ܥܠ GitHub؛ ܐܦ ܣܦܝܩܐ ܫܦܝܪ.</translation>
+    </message>
+    <message>
+        <source>Branch or GitHub Actions?</source>
+        <translation>ܣܘܟܐ ܐܘ GitHub Actions؟</translation>
+    </message>
+    <message>
+        <source>Check the DNS</source>
+        <translation>ܒܨܝ ܠ DNS</translation>
+    </message>
+    <message>
+        <source>Create the repository if it does not exist</source>
+        <translation>ܥܒܕ ܠܓܙܐ ܐܢ ܠܝܬܘܗܝ</translation>
+    </message>
+    <message>
+        <source>Create the repository on GitHub and switch GitHub Pages on in its settings (Settings &gt; Pages).</source>
+        <translation>ܥܒܕ ܠܓܙܐ ܥܠ GitHub ܘܦܬܚ GitHub Pages ܒܛܘܝܒ̈ܐ ܕܝܠܗ (Settings &gt; Pages).</translation>
+    </message>
+    <message>
+        <source>Creates the repository %repo when it is missing (when asked), switches GitHub Pages on from the branch or from GitHub Actions as saved, and sets the custom domain and HTTPS. It uses the saved settings: save changes first.</source>
+        <translation>ܥܒܕ ܠܓܙܐ %repo ܐܢ ܠܝܬܘܗܝ (ܐܢ ܐܬܒܥܝ)، ܦܬܚ GitHub Pages ܡܢ ܣܘܟܐ ܐܘ ܡܢ GitHub Actions ܐܝܟ ܕܢܛܝܪ، ܘܣܐܡ ܚܘܕܪܐ ܕܝܠܟܘܢ ܘ HTTPS. ܡܦܠܚ ܠܛܘܝܒ̈ܐ ܢܛܝܪ̈ܐ: ܩܕܡ ܢܛܘܪ ܠܫܘܚܠܦ̈ܐ.</translation>
+    </message>
+    <message>
+        <source>Details on GitHub</source>
+        <translation>ܦܘܪ̈ܫܐ ܥܠ GitHub</translation>
+    </message>
+    <message>
+        <source>Enter the custom domain first.</source>
+        <translation>ܩܕܡ ܥܠܠ ܚܘܕܪܐ ܕܝܠܟܘܢ.</translation>
+    </message>
+    <message>
+        <source>Every push is checked against these limits first.</source>
+        <translation>ܟܠ push ܩܕܡ ܡܬܒܨܐ ܠܘܩܒܠ ܬܚܘ̈ܡܐ ܗܠܝܢ.</translation>
+    </message>
+    <message>
+        <source>For an https:// address on GitHub. The App set up for this installation signs in; it needs the installation id.</source>
+        <translation>ܠܡܘܢܥܐ https:// ܥܠ GitHub. App ܕܛܘܝܒ ܠܗܢܐ ܫܪܪܐ ܥܐܠ؛ ܣܢܝܩ ܠ id ܕܫܪܪܐ.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages serves a private repository only on a paid plan.</source>
+        <translation>GitHub Pages ܡܫܡܫ ܓܙܐ ܦܪܨܘܦܝܐ ܒܠܚܘܕ ܥܠ ܬܘܟܣܐ ܕܦܘܪܥܢܐ.</translation>
+    </message>
+    <message>
+        <source>GitHub Pages: a subdomain (www.example.com) needs a CNAME record to &lt;owner&gt;.github.io; an apex domain (example.com) the A records %ips.</source>
+        <translation>GitHub Pages: ܚܘܕܪܐ ܬܚܬܝܐ (www.example.com) ܣܢܝܩ ܠܪܫܡܐ CNAME ܠܘܬ &lt;owner&gt;.github.io؛ ܚܘܕܪܐ ܪܫܝܐ (example.com) ܠܪ̈ܫܡܐ A %ips.</translation>
+    </message>
+    <message>
+        <source>Installation id of the GitHub App</source>
+        <translation>id ܕܫܪܪܐ ܕ GitHub App</translation>
+    </message>
+    <message>
+        <source>Last Pages build</source>
+        <translation>ܒܢܝܢܐ ܐܚܪܝܐ ܕ Pages</translation>
+    </message>
+    <message>
+        <source>Limits and terms</source>
+        <translation>ܬܚܘ̈ܡܐ ܘܫܪ̈ܛܐ</translation>
+    </message>
+    <message>
+        <source>Needed for GitHub Pages on a free plan.</source>
+        <translation>ܣܢܝܩ ܠ GitHub Pages ܥܠ ܬܘܟܣܐ ܡܓܢ.</translation>
+    </message>
+    <message>
+        <source>On GitHub</source>
+        <translation>ܥܠ GitHub</translation>
+    </message>
+    <message>
+        <source>Only with a GitHub App: the number at the end of the address of the App's installation on GitHub. The App itself is set in staticcache.ini (GitHubAppId, GitHubAppKey).</source>
+        <translation>ܒܠܚܘܕ ܥܡ GitHub App: ܡܢܝܢܐ ܒܚܪܬܐ ܕܡܘܢܥܐ ܕܫܪܪܐ ܕ App ܥܠ GitHub. App ܗܘ ܡܬܛܘܝܒ ܒ staticcache.ini (GitHubAppId, GitHubAppKey).</translation>
+    </message>
+    <message>
+        <source>Private</source>
+        <translation>ܦܪܨܘܦܝܐ</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>ܓܠܝܐ</translation>
+    </message>
+    <message>
+        <source>Save the target with a GitHub repository and a token or GitHub App first.</source>
+        <translation>ܩܕܡ ܢܛܘܪ ܠܢܝܫܐ ܥܡ ܓܙܐ ܕ GitHub ܘܬܘܟܢܐ ܐܘ GitHub App.</translation>
+    </message>
+    <message>
+        <source>Set these records at the provider of the domain:</source>
+        <translation>ܣܝܡ ܪ̈ܫܡܐ ܗܠܝܢ ܠܘܬ ܡܛܝܒܢܐ ܕܚܘܕܪܐ:</translation>
+    </message>
+    <message>
+        <source>Set up on GitHub</source>
+        <translation>ܛܝܒ ܥܠ GitHub</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain does not point at GitHub Pages yet.</source>
+        <translation>DNS ܕ %domain ܥܕܟܝܠ ܠܐ ܡܚܘܐ ܠ GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The DNS of %domain points at GitHub Pages.</source>
+        <translation>DNS ܕ %domain ܡܚܘܐ ܠ GitHub Pages.</translation>
+    </message>
+    <message>
+        <source>The GitHub integration is not available here: %problem. Publishing to the branch works all the same; switch GitHub Pages on in the repository's settings.</source>
+        <translation>ܚܘܝܕܐ ܕ GitHub ܠܐ ܐܝܬܘܗܝ ܬܢܐ: %problem. ܦܪܣܐ ܠܣܘܟܐ ܦܠܚ ܐܦ ܗܟܢ؛ ܦܬܚ GitHub Pages ܒܛܘܝܒ̈ܐ ܕܓܙܐ.</translation>
+    </message>
+    <message>
+        <source>The GitHub steps are not available for this target: %problem.</source>
+        <translation>ܦܣܘ̈ܥܐ ܕ GitHub ܠܐ ܐܝܬܝܗܘܢ ܠܗܢܐ ܢܝܫܐ: %problem.</translation>
+    </message>
+    <message>
+        <source>The state of GitHub Pages is shown with a token or GitHub App as the credential.</source>
+        <translation>ܐܝܟܢܘܬܐ ܕ GitHub Pages ܡܬܚܘܝܐ ܥܡ ܬܘܟܢܐ ܐܘ GitHub App ܐܝܟ ܫܘܕܥܐ ܕܡܥܠܢܐ.</translation>
+    </message>
+    <message>
+        <source>Use your own domain</source>
+        <translation>ܦܠܘܚ ܚܘܕܪܐ ܕܝܠܟ</translation>
+    </message>
+    <message>
+        <source>Which to choose: token, deploy key or GitHub App</source>
+        <translation>ܡܢܐ ܠܡܓܒܐ: ܬܘܟܢܐ، ܩܠܝܕܐ ܕܫܘܕܪܐ ܐܘ GitHub App</translation>
+    </message>
+    <message>
+        <source>With a GitHub repository and a token or GitHub App, the wizard can create the repository, switch GitHub Pages on and set the domain for you (step 4).</source>
+        <translation>ܥܡ ܓܙܐ ܕ GitHub ܘܬܘܟܢܐ ܐܘ GitHub App، ܡܕܒܪܢܐ ܡܨܐ ܕܢܥܒܕ ܠܓܙܐ، ܢܦܬܚ GitHub Pages ܘܢܣܝܡ ܚܘܕܪܐ ܡܛܠܬܟ (ܦܣܘܥܐ 4).</translation>
+    </message>
+    <message>
+        <source>building</source>
+        <translation>ܡܬܒܢܐ</translation>
+    </message>
+    <message>
+        <source>built</source>
+        <translation>ܒܢܝܐ</translation>
+    </message>
+    <message>
+        <source>from GitHub Actions</source>
+        <translation>ܡܢ GitHub Actions</translation>
+    </message>
+    <message>
+        <source>from the branch %branch</source>
+        <translation>ܡܢ ܣܘܟܐ %branch</translation>
+    </message>
+    <message>
+        <source>none yet</source>
+        <translation>ܥܕܟܝܠ ܠܝܬ</translation>
+    </message>
+    <message>
+        <source>not found</source>
+        <translation>ܠܐ ܐܫܬܟܚ</translation>
+    </message>
+    <message>
+        <source>off</source>
+        <translation>ܛܦܝܐ</translation>
+    </message>
+    <message>
+        <source>private</source>
+        <translation>ܦܪܨܘܦܝܐ</translation>
+    </message>
+    <message>
+        <source>public</source>
+        <translation>ܓܠܝܐ</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>ܒܣܕܪܐ</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>ܠܐ ܝܕܝܥܐ</translation>
+    </message>
+    <message>
+        <source>%count on %pages page(s):</source>
+        <translation>%count ܒ%pages ܦܐܬ݂ܐ:</translation>
+    </message>
+    <message>
+        <source>A .gz (and .br) next to each text file, for hosts that serve them.</source>
+        <translation>ܠܦܦܐ .gz (ܘ .br) ܩܪܝܒ ܠܟܠ ܠܦܦܐ ܕܟܬܒܐ, ܠܡܘܕܝܐ ܕܡܦܩܕܝܢ ܠܗܘܢ.</translation>
+    </message>
+    <message>
+        <source>A small page for every old address and alias of a page, so old links keep working.</source>
+        <translation>ܦܐܬܐ ܙܥܘܪܬܐ ܠܟܠ ܟܬܒܬܐ ܥܬܝܩܬܐ ܘܫܡܐ ܕܦܐܬܐ، ܕܐܣܘܪܐ ܥܬܝܩܐ ܢܗܘܘܢ ܥܒܕܝܢ.</translation>
+    </message>
+    <message>
+        <source>Always written when GitHub Actions delivers the site.</source>
+        <translation>ܡܬܟܬܒܐ ܒܟܠ ܙܒܢ ܕGitHub Actions ܡܦܩܕ ܠܐܬܪܐ.</translation>
+    </message>
+    <message>
+        <source>An SPDX id such as CC-BY-4.0, or the text itself.</source>
+        <translation>ܡܘܕܥܢܐ ܕSPDX ܐܝܟ CC-BY-4.0، ܐܘ ܢܝܫܐ ܠܚܘܕܗ.</translation>
+    </message>
+    <message>
+        <source>Basket</source>
+        <translation>ܣܠܐ</translation>
+    </message>
+    <message>
+        <source>Calls to the server</source>
+        <translation>ܩܪܝܬ݂ܐ ܠܡܫܡܫܢܐ</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>ܬܘܒ݂ܐ</translation>
+    </message>
+    <message>
+        <source>Forms that collect information</source>
+        <translation>ܛܘ̈ܦܣܐ ܕܟܢܫܝܢ ܝܕܥܬܐ</translation>
+    </message>
+    <message>
+        <source>GitHub Actions workflow</source>
+        <translation>ܬܪܥܐ ܕܥܒܕܐ ܕGitHub Actions</translation>
+    </message>
+    <message>
+        <source>Less white space and no comments in the pages.</source>
+        <translation>ܙܥܘܪ ܛܠܝܘܬܐ ܘܠܐ ܬܘܒ݂ܐ ܒܦܐܬ݂ܐ.</translation>
+    </message>
+    <message>
+        <source>License of the content</source>
+        <translation>ܪܫܝܘܬܐ ܕܡܚܘܝܬܐ</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>ܥܠܡܐ</translation>
+    </message>
+    <message>
+        <source>Minify</source>
+        <translation>ܙܥܘܪܘܬܐ</translation>
+    </message>
+    <message>
+        <source>Other forms</source>
+        <translation>ܛܘ̈ܦܣܐ ܐܚܪ̈ܢܐ</translation>
+    </message>
+    <message>
+        <source>Precompress</source>
+        <translation>ܕܘܚܣܐ ܩܕܡܝܐ</translation>
+    </message>
+    <message>
+        <source>Redirect pages</source>
+        <translation>ܦܐ̈ܬܐ ܕܡܦܢܝܢ</translation>
+    </message>
+    <message>
+        <source>Redirect pages: %count.</source>
+        <translation>ܦܐ̈ܬܐ ܕܡܦܢܝܢ: %count.</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>ܒܨܝܐ</translation>
+    </message>
+    <message>
+        <source>Search index: %pages page(s) in %languages.</source>
+        <translation>ܪܫܡܐ ܕܒܨܝܐ: %pages ܦܐ̈ܬܐ ܒ%languages.</translation>
+    </message>
+    <message>
+        <source>Style sheets and scripts named by the hash of their content, so browsers may keep them.</source>
+        <translation>ܛܘܦܣܐ ܕܫܘܝܐ ܘܟܬܒܐ ܕܡܬܩܪܝܢ ܒܗܐܫ ܕܡܚܘܝܬܗܘܢ، ܕܡܦܢܝܐ ܢܕܟܪܘܢ ܠܗܘܢ.</translation>
+    </message>
+    <message>
+        <source>The changed pages, a few minutes after the last change (the cronjob part staticpublish).</source>
+        <translation>ܦܐ̈ܬܐ ܕܐܫܬܚܠܦܘ، ܚܕ̈ܐ ܕܩܝܩܐ ܒܬܪ ܫܘܚܠܦܐ ܐܚܪܝܐ (ܡܢܬܐ ܕcronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>The license of the content, from the field below.</source>
+        <translation>ܪܫܝܘܬܐ ܕܡܚܘܝܬܐ، ܡܢ ܚܩܠܐ ܕܬܚܬ.</translation>
+    </message>
+    <message>
+        <source>The whole site, at the times of the schedule (the cronjob part staticpublish).</source>
+        <translation>ܟܠܗ ܐܬܪܐ، ܒܙܒܢܐ ܕܬܘܪܨܐ (ܡܢܬܐ ܕcronjob staticpublish).</translation>
+    </message>
+    <message>
+        <source>These parts of the pages need a server; each got a fallback. Check them before you publish.</source>
+        <translation>ܗܠܝܢ ܡܢܘ̈ܬܐ ܕܦܐ̈ܬܐ ܨܒܝܢ ܡܫܡܫܢܐ; ܠܟܠ ܚܕ ܐܬܝܗܒ ܚܠܦܐ. ܒܣܝܡܘ ܠܗܘܢ ܩܕܡ ܕܬܦܪܣܘܢ.</translation>
+    </message>
+    <message>
+        <source>What does not work statically</source>
+        <translation>ܡܕܡ ܕܠܐ ܦܠܚ ܡܬܬܪܨܢܐܝܬ</translation>
+    </message>
+    <message>
+        <source>What the repository is, for whoever opens it on the host.</source>
+        <translation>ܡܢܐ ܗܘ ܡܟܣܢܬܐ، ܠܡܢ ܕܦܬܚ ܠܗ ܒܡܘܕܥܢܐ.</translation>
+    </message>
+    <message>
+        <source>left out</source>
+        <translation>ܐܫܬܒܩ</translation>
+    </message>
+    <message>
+        <source>the fallback text</source>
+        <translation>ܢܝܫܐ ܚܠܦܝܐ</translation>
+    </message>
+    <message>
+        <source>the form endpoint of the live site</source>
+        <translation>ܢܩܘܛܬܐ ܕܡܩܒܠܢܐ ܕܛܘ̈ܦܣܐ ܕܐܬܪܐ ܚܝܐ</translation>
+    </message>
+    <message>
+        <source>the live site</source>
+        <translation>ܐܬܪܐ ܚܝܐ</translation>
+    </message>
+    <message>
+        <source>the search page of the copy</source>
+        <translation>ܦܐܬܐ ܕܒܨܝܐ ܕܡܦܠܘܬܐ</translation>
+    </message>
+    <message>
+        <source>The form could not be sent.</source>
+        <translation>ܡܘܦܣܐ ܠܐ ܐܫܬܕܪ.</translation>
+    </message>
+    <message>
+        <source>Thank you: the form was sent.</source>
+        <translation>ܬܘܕܝ: ܛܘܦܣܐ ܐܫܬܕܪ.</translation>
+    </message>
+    <message>
+        <source>The form was not accepted: check what you entered and send it again.</source>
+        <translation>ܛܘܦܣܐ ܠܐ ܐܬܩܒܠ: ܒܣܘܡ ܡܐ ܕܟܬܒܬ ܘܫܕܪܘ ܬܘܒ.</translation>
+    </message>
+    <message>
+        <source>Remove links to pages the copy does not hold</source>
+        <translation>ܫܩܘܠ ܐܣܘܪܐ ܠܦܐܬܐ ܕܠܐ ܐܚܝܕܐ ܢܘܣܚܬܐ</translation>
+    </message>
+    <message>
+        <source>Remove links into the administration</source>
+        <translation>ܫܩܘܠ ܐܣܘܪܐ ܠܡܕܒܪܢܘܬܐ</translation>
+    </message>
+    <message>
+        <source>Their text stays. Images, forms and links to other sites are never removed.</source>
+        <translation>ܟܬܒܗܘܢ ܡܩܘܐ. ܨܘܪܬܐ ܘܛܘܦܣܐ ܘܐܣܘܪܐ ܠܕܘܟܝܬܐ ܐܚܪܢܝܬܐ ܠܐ ܡܫܬܩܠܝܢ ܡܢ ܡܬܘܡ.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>ܡܦܩܬܐ</translation>
+    </message>
+    <message>
+        <source>Siteaccesses to publish</source>
+        <translation>ܡܥܠ̈ܢܐ ܕܐܬܪܐ ܠܡܦܪܣܡܘ</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>ܡܥܠܢܐ ܕܐܬܪܐ</translation>
+    </message>
+    <message>
+        <source>At the root</source>
+        <translation>ܒܥܩܪܐ</translation>
+    </message>
+    <message>
+        <source>No siteaccess at the root: each is in its folder, and the root links to them</source>
+        <translation>ܠܝܬ ܡܥܠܢܐ ܒܥܩܪܐ: ܟܠ ܚܕ ܒܬܝܩܗ ܕܝܠܗ، ܘܥܩܪܐ ܡܐܣܪ ܠܗܘܢ</translation>
+    </message>
+    <message>
+        <source>Siteaccesses</source>
+        <translation>ܡܥܠ̈ܢܐ ܕܐܬܪܐ</translation>
+    </message>
+    <message>
+        <source>Tick one siteaccess, or several that share one host by their URI prefix. The one at the root is served there, the others in the folder of their prefix (/ger/); links between them stay in the copy. Administration siteaccesses are never offered.</source>
+        <translation>ܪܫܘܡ ܚܕ ܡܥܠܢܐ ܕܐܬܪܐ، ܐܘ ܣܓܝܐܐ ܕܡܫܬܘܬܦܝܢ ܒܡܐܪܚ ܚܕ ܒܐܦܬܚܐ ܕURI ܕܝܠܗܘܢ. ܗܘ ܕܒܥܩܪܐ ܡܬܬܝܗܒ ܬܡܢ، ܘܐܚܪܢܐ ܒܬܝܩܐ ܕܐܦܬܚܐ ܕܝܠܗܘܢ (/ger/)؛ ܐܣܘܪܐ ܕܒܝܢܝܗܘܢ ܡܩܘܝܢ ܒܢܘܣܚܬܐ. ܡܥܠ̈ܢܐ ܕܡܕܒܪܢܘܬܐ ܠܐ ܡܬܩܪܒܝܢ ܡܢ ܡܬܘܡ.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/staticpublish/mail</name>
+    <message>
+        <source>Static publishing of %target failed on %site</source>
+        <translation>ܦܪܣܐ ܩܒܝܥܐ ܕ%target ܠܐ ܐܨܠܚ ܒ%site</translation>
+    </message>
+    <message>
+        <source>Static publishing of %target succeeded on %site</source>
+        <translation>ܦܪܣܐ ܩܒܝܥܐ ܕ%target ܐܨܠܚ ܒ%site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because the static publishing target %target asks for it.</source>
+        <translation>ܐܓܪܬܐ ܗܕܐ ܐܫܬܕܪܬ ܡܢ %site ܡܛܠ ܕܢܝܫܐ ܕܦܪܣܐ ܩܒܝܥܐ %target ܒܥܐ ܠܗ.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/migration/mail</name>
+    <message>
+        <source>The deploy %deploy failed on %site</source>
+        <translation>ܦܘܪܣܐ %deploy ܠܐ ܐܨܠܚ ܥܠ %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy waits at a gate on %site</source>
+        <translation>ܦܘܪܣܐ %deploy ܡܣܟܐ ܠܘܬ ܬܪܥܐ ܥܠ %site</translation>
+    </message>
+    <message>
+        <source>The deploy %deploy succeeded on %site</source>
+        <translation>ܦܘܪܣܐ %deploy ܐܨܠܚ ܥܠ %site</translation>
+    </message>
+    <message>
+        <source>This mail was sent by %site because migration.ini [RemoteSettings] Notify[] asks for it.</source>
+        <translation>ܗܕܐ ܐܓܪܬܐ ܐܫܬܕܪܬ ܡܢ %site ܡܛܠ ܕܒܥܐ ܠܗ migration.ini [RemoteSettings] Notify[].</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/class/datatype</name>
+    <message>
+        <source>Datatypes (%count)</source>
+        <translation>ܓܢ̈ܣܐ ܕܝܕ̈ܥܬܐ (%count)</translation>
+    </message>
+    <message>
+        <source>Counted %time, again after %minutes minutes</source>
+        <translation>ܡܢܝܐ %time، ܬܘܒ ܒܬܪ %minutes ܩܛܝ̈ܢܬܐ</translation>
+    </message>
+    <message>
+        <source>A datatype stores and edits one kind of value of a class attribute: a text line, an image, a relation. The kernel brings most of them, extensions add more. Here are all of them, who provides them and how much of the content uses them. A datatype that the database uses but nothing registers any more breaks the content that has it.</source>
+        <translation>ܓܢܣܐ ܕܝܕ̈ܥܬܐ ܢܛܪ ܘܡܬܩܢ ܙܢܐ ܚܕ ܕܛܝܡܐ ܕܕܝܠܝܘܬܐ ܕܙܢܐ: ܣܪܛܐ ܕܟܬܒܐ، ܨܘܪܬܐ، ܐܣܘܪܐ. ܥܩܪܐ ܡܝܬܐ ܠܣܓܝܐܐ ܡܢܗܘܢ، ܘܬܘ̈ܣܦܬܐ ܡܘܣܦܢ ܝܬܝܪ. ܗܪܟܐ ܐܝܬܝܗܘܢ ܟܠܗܘܢ، ܡܢܘ ܝܗܒ ܠܗܘܢ ܘܟܡܐ ܡܢ ܬܚܘܝܬܐ ܡܦܠܚ ܠܗܘܢ. ܓܢܣܐ ܕܝܕ̈ܥܬܐ ܕܒܣܝܣ ܝܕ̈ܥܬܐ ܡܦܠܚ ܠܗ ܘܡܕܡ ܠܐ ܟܬܒ ܠܗ ܬܘܒ، ܬܒܪ ܠܬܚܘܝܬܐ ܕܐܝܬ ܠܗ.</translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation>ܟܢ̈ܫܐ ܕܙ̈ܢܝܐ</translation>
+    </message>
+    <message>
+        <source>Count again now instead of using the counts of the last minutes.</source>
+        <translation>ܡܢܝ ܙܒܢܐ ܐܚܪܢܐ ܗܫܐ ܚܠܦ ܡܦܠܚܢܘܬܐ ܕܡܢܝ̈ܢܐ ܕܩܛܝ̈ܢܬܐ ܐܚܪ̈ܝܬܐ.</translation>
+    </message>
+    <message>
+        <source>Count again</source>
+        <translation>ܡܢܝ ܙܒܢܐ ܐܚܪܢܐ</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>ܚܙܝܐ ܟܠܢܝܐ</translation>
+    </message>
+    <message>
+        <source>Registered</source>
+        <translation>ܐܬܟܬܒ</translation>
+    </message>
+    <message>
+        <source>In use</source>
+        <translation>ܡܬܦܠܚܐ</translation>
+    </message>
+    <message>
+        <source>Not used</source>
+        <translation>ܠܐ ܐܫܬܡܫ</translation>
+    </message>
+    <message>
+        <source>Extensions providing datatypes</source>
+        <translation>ܬܘ̈ܣܦܬܐ ܕܝܗ̈ܒܢ ܓܢ̈ܣܐ ܕܝܕ̈ܥܬܐ</translation>
+    </message>
+    <message>
+        <source>Class attributes</source>
+        <translation>ܕܝ̈ܠܝܘܬܐ ܕܙܢܐ</translation>
+    </message>
+    <message>
+        <source>Object attributes</source>
+        <translation>ܕܝ̈ܠܝܘܬܐ ܕܨܒܘܬܐ</translation>
+    </message>
+    <message>
+        <source>Not registered</source>
+        <translation>ܠܐ ܟܬܝܒ</translation>
+    </message>
+    <message>
+        <source>Listed, file missing</source>
+        <translation>ܟܬܝܒ ܒܪܫܝܡܐ، ܠܦܦܐ ܚܣܝܪ</translation>
+    </message>
+    <message>
+        <source>%count datatypes are used but not registered</source>
+        <translation>%count ܓܢ̈ܣܐ ܕܝܕ̈ܥܬܐ ܡܬܦܠܚܝܢ ܐܠܐ ܠܐ ܟܬܝܒܝܢ</translation>
+    </message>
+    <message>
+        <source>%class_attributes class attributes and %object_attributes object attributes have a datatype that no extension or setting registers. Their objects cannot be shown, edited or published. Activate the extension that provides the datatype, or change the class.</source>
+        <translation>%class_attributes ܕܝ̈ܠܝܘܬܐ ܕܙܢܐ ܘ%object_attributes ܕܝ̈ܠܝܘܬܐ ܕܨܒܘܬܐ ܐܝܬ ܠܗܝܢ ܓܢܣܐ ܕܝܕ̈ܥܬܐ ܕܠܐ ܬܘܣܦܬܐ ܘܠܐ ܛܘܝܒܐ ܟܬܒ ܠܗ. ܨܒܘ̈ܬܐ ܕܝܠܗܝܢ ܠܐ ܡܫܟܚܢ ܠܡܬܚܙܝܘ ܐܘ ܠܡܬܬܩܢܘ ܐܘ ܠܡܬܦܪܣܘ. ܐܦܥܠ ܠܬܘܣܦܬܐ ܕܝܗܒܐ ܠܓܢܣܐ ܕܝܕ̈ܥܬܐ، ܐܘ ܫܚܠܦ ܠܙܢܐ.</translation>
+    </message>
+    <message>
+        <source>Show only these</source>
+        <translation>ܚܘܝ ܗܠܝܢ ܒܠܚܘܕ</translation>
+    </message>
+    <message>
+        <source>Find a datatype</source>
+        <translation>ܒܨܝ ܓܢܣܐ ܕܝܕ̈ܥܬܐ</translation>
+    </message>
+    <message>
+        <source>Identifier, name, PHP class or extension.</source>
+        <translation>ܡܫܘܕܥܢܐ، ܫܡܐ، ܙܢܐ ܕPHP ܐܘ ܬܘܣܦܬܐ.</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>ܡܚܘܝܐ</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>ܟܠ</translation>
+    </message>
+    <message>
+        <source>Provided by</source>
+        <translation>ܝܗܝܒ ܡܢ</translation>
+    </message>
+    <message>
+        <source>Everyone</source>
+        <translation>ܟܠܢܫ</translation>
+    </message>
+    <message>
+        <source>Kernel</source>
+        <translation>ܥܩܪܐ</translation>
+    </message>
+    <message>
+        <source>No datatype matches this filter.</source>
+        <translation>ܠܐ ܐܝܬ ܓܢܣܐ ܕܝܕ̈ܥܬܐ ܕܫܘܐ ܠܗܢܐ ܡܨܠܠܢܐ.</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>ܡܚܘܝܐ ܕܟܠ</translation>
+    </message>
+    <message>
+        <source>Extension</source>
+        <translation>ܬܘܣܦܬܐ</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes, %used in use</source>
+        <translation>%shown ܡܢ %count ܓܢ̈ܣܐ ܕܝܕ̈ܥܬܐ، %used ܡܬܦܠܚܝܢ</translation>
+    </message>
+    <message>
+        <source>The database has class or object attributes of these datatypes, but content.ini lists none of them, or its file is missing.</source>
+        <translation>ܒܣܝܣ ܝܕ̈ܥܬܐ ܐܝܬ ܠܗ ܕܝ̈ܠܝܘܬܐ ܕܙܢܐ ܐܘ ܕܨܒܘܬܐ ܕܗܠܝܢ ܓܢ̈ܣܐ ܕܝܕ̈ܥܬܐ، ܐܠܐ content.ini ܠܐ ܟܬܒ ܠܚܕ ܡܢܗܘܢ، ܐܘ ܠܦܦܐ ܕܝܠܗ ܚܣܝܪ.</translation>
+    </message>
+    <message>
+        <source>Datatypes of %provider</source>
+        <translation>ܓܢ̈ܣܐ ܕܝܕ̈ܥܬܐ ܕ%provider</translation>
+    </message>
+    <message>
+        <source>Datatype</source>
+        <translation>ܓܢܣܐ ܕܝܕ̈ܥܬܐ</translation>
+    </message>
+    <message>
+        <source>PHP class and file</source>
+        <translation>ܙܢܐ ܕPHP ܘܠܦܦܐ</translation>
+    </message>
+    <message>
+        <source>Classes</source>
+        <translation>ܙ̈ܢܝܐ</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation>ܨܒ̈ܘܬܐ</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>ܐܬܘ̈ܬܐ ܕܣܘܡܢܐ</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>ܠܐ ܚܕ</translation>
+    </message>
+    <message>
+        <source>No datatype matches the search. Clear the search.</source>
+        <translation>ܠܐ ܐܝܬ ܓܢܣܐ ܕܝܕ̈ܥܬܐ ܕܫܘܐ ܠܒܨܝܐ. ܕܟܝ ܠܒܨܝܐ.</translation>
+    </message>
+    <message>
+        <source>%shown of %count datatypes shown</source>
+        <translation>%shown ܡܢ %count ܓܢ̈ܣܐ ܕܝܕ̈ܥܬܐ ܡܬܚܙܝܢ</translation>
+    </message>
+    <message>
+        <source>Datatypes shown: %count</source>
+        <translation>ܓܢ̈ܣܐ ܕܝܕ̈ܥܬܐ ܡܬܚܙܝܢܐ: %count</translation>
+    </message>
+    <message>
+        <source>Sort by %column</source>
+        <translation>ܣܕܪܐ ܠܦܘܬ %column</translation>
+    </message>
+    <message>
+        <source>Counted %time</source>
+        <translation>ܡܢܝܐ %time</translation>
+    </message>
+    <message>
+        <source>All datatypes</source>
+        <translation>ܟܠ ܓܢ̈ܣܐ ܕܝܕ̈ܥܬܐ</translation>
+    </message>
+    <message>
+        <source>Help page</source>
+        <translation>ܦܐܬܐ ܕܥܘܕܪܢܐ</translation>
+    </message>
+    <message>
+        <source>This datatype is used but not registered</source>
+        <translation>ܗܢܐ ܓܢܣܐ ܕܝܕ̈ܥܬܐ ܡܬܦܠܚ ܐܠܐ ܠܐ ܟܬܝܒ</translation>
+    </message>
+    <message>
+        <source>The objects of the classes below cannot be shown, edited or published while no extension registers the datatype. Activate the extension that provides it and add it to content.ini [DataTypeSettings] AvailableDataTypes[], or change the classes.</source>
+        <translation>ܨܒܘ̈ܬܐ ܕܙܢ̈ܐ ܕܠܬܚܬ ܠܐ ܡܫܟܚܢ ܠܡܬܚܙܝܘ ܐܘ ܠܡܬܬܩܢܘ ܐܘ ܠܡܬܦܪܣܘ ܥܕܡܐ ܕܠܐ ܬܘܣܦܬܐ ܟܬܒܐ ܠܓܢܣܐ ܕܝܕ̈ܥܬܐ. ܐܦܥܠ ܠܬܘܣܦܬܐ ܕܝܗܒܐ ܠܗ ܘܐܘܣܦ ܠܗ ܠcontent.ini [DataTypeSettings] AvailableDataTypes[]، ܐܘ ܫܚܠܦ ܠܙܢ̈ܐ.</translation>
+    </message>
+    <message>
+        <source>content.ini lists this datatype, but no datatype directory has its file. Nothing uses it; remove it from AvailableDataTypes[] or activate its extension.</source>
+        <translation>content.ini ܟܬܒ ܠܗܢܐ ܓܢܣܐ ܕܝܕ̈ܥܬܐ، ܐܠܐ ܠܐ ܐܝܬ ܬܝܩܐ ܕܓܢ̈ܣܐ ܕܝܕ̈ܥܬܐ ܕܐܝܬ ܠܗ ܠܦܦܐ ܕܝܠܗ. ܡܕܡ ܠܐ ܡܦܠܚ ܠܗ؛ ܫܩܘܠ ܠܗ ܡܢ AvailableDataTypes[] ܐܘ ܐܦܥܠ ܠܬܘܣܦܬܐ ܕܝܠܗ.</translation>
+    </message>
+    <message>
+        <source>About this datatype</source>
+        <translation>ܥܠ ܗܢܐ ܓܢܣܐ ܕܝܕ̈ܥܬܐ</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation>ܡܫܘܕܥܢܐ</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>ܫܡܐ</translation>
+    </message>
+    <message>
+        <source>Extension %name</source>
+        <translation>ܬܘܣܦܬܐ %name</translation>
+    </message>
+    <message>
+        <source>nobody</source>
+        <translation>ܠܐ ܐܢܫ</translation>
+    </message>
+    <message>
+        <source>PHP class</source>
+        <translation>ܙܢܐ ܕ PHP</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>ܦܢܩܝܬܐ</translation>
+    </message>
+    <message>
+        <source>In AvailableDataTypes[]</source>
+        <translation>ܒAvailableDataTypes[]</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ܐܝܢ</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ܠܐ</translation>
+    </message>
+    <message>
+        <source>Columns of its value</source>
+        <translation>ܥܡܘ̈ܕܐ ܕܛܝܡܐ ܕܝܠܗ</translation>
+    </message>
+    <message>
+        <source>Columns of its class attribute settings</source>
+        <translation>ܥܡܘ̈ܕܐ ܕܛܘܝܒ̈ܐ ܕܕܝܠܝܘܬܐ ܕܙܢܐ ܕܝܠܗ</translation>
+    </message>
+    <message>
+        <source>Tables</source>
+        <translation>ܦܢܩ̈ܝܬܐ</translation>
+    </message>
+    <message>
+        <source>The columns and tables are found by reading the code of the datatype: a guide, not a promise.</source>
+        <translation>ܥܡܘ̈ܕܐ ܘܠܘ̈ܚܐ ܡܫܬܟܚܝܢ ܒܩܪܝܢܐ ܕܩܘܕܐ ܕܓܢܣܐ ܕܝܕ̈ܥܬܐ: ܡܕܒܪܢܘܬܐ، ܠܐ ܫܘܘܕܝܐ.</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>ܛܘ̈ܦܣܐ</translation>
+    </message>
+    <message>
+        <source>Siteaccess</source>
+        <translation>ܡܥܠܢܐ ܕܐܬܪܐ</translation>
+    </message>
+    <message>
+        <source>Template</source>
+        <translation>ܛܘܦܣܐ</translation>
+    </message>
+    <message>
+        <source>Found in</source>
+        <translation>ܡܫܬܟܚ ܒ</translation>
+    </message>
+    <message>
+        <source>this administration</source>
+        <translation>ܗܕܐ ܡܕܒܪܢܘܬܐ</translation>
+    </message>
+    <message>
+        <source>default site</source>
+        <translation>ܐܬܪܐ ܡܥܡܕܐ</translation>
+    </message>
+    <message>
+        <source>Without overrides: an override template matched by class or attribute wins over these.</source>
+        <translation>ܕܠܐ ܚܘ̈ܠܦܐ: ܛܘܦܣܐ ܕܚܘܠܦܐ ܕܫܘܐ ܠܙܢܐ ܐܘ ܠܕܝܠܝܘܬܐ ܙܟܐ ܥܠ ܗܠܝܢ.</translation>
+    </message>
+    <message>
+        <source>Classes using it (%count)</source>
+        <translation>ܙܢ̈ܐ ܕܡܦܠܚܝܢ ܠܗ (%count)</translation>
+    </message>
+    <message>
+        <source>No class has an attribute of this datatype.</source>
+        <translation>ܠܐ ܐܝܬ ܙܢܐ ܕܐܝܬ ܠܗ ܕܝܠܝܘܬܐ ܕܗܢܐ ܓܢܣܐ ܕܝܕ̈ܥܬܐ.</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation>ܙܢܐ</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation>ܕܝ̈ܠܝܘܬܐ</translation>
+    </message>
+    <message>
+        <source>Class attributes (%count)</source>
+        <translation>ܕܝ̈ܠܝܘܬܐ ܕܙܢܐ (%count)</translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation>ܕܝܠܝܘܬܐ</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>ܛܘܝ̈ܒܐ</translation>
+    </message>
+    <message>
+        <source>ID %id</source>
+        <translation>ID %id</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation>ܐܠܨܝܐ</translation>
+    </message>
+    <message>
+        <source>Searchable</source>
+        <translation>ܡܬܒܨܝܢܐ</translation>
+    </message>
+    <message>
+        <source>Translatable</source>
+        <translation>ܡܬܬܪܓܡܢܐ</translation>
+    </message>
+    <message>
+        <source>Collects information</source>
+        <translation>ܟܢܫ ܝܕ̈ܥܬܐ</translation>
+    </message>
+    <message>
+        <source>Some content using it</source>
+        <translation>ܩܠܝܠ ܬܚܘܝܬܐ ܕܡܦܠܚܐ ܠܗ</translation>
+    </message>
+    <message>
+        <source>Last modified first</source>
+        <translation>ܐܚܪܝܐ ܕܐܫܬܚܠܦ ܩܕܡܝܐ</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation>ܡܫܘܚܠܦܐ</translation>
+    </message>
+    <message>
+        <source>Node %id</source>
+        <translation>ܩܛܪܐ %id</translation>
+    </message>
+    <message>
+        <source>Each translation has its own value.</source>
+        <translation>ܟܠ ܬܘܪܓܡܐ ܐܝܬ ܠܗ ܛܝܡܐ ܕܝܠܗ.</translation>
+    </message>
+    <message>
+        <source>The search indexes its values.</source>
+        <translation>ܒܨܝܐ ܡܫܪܐ ܠܛܝܡ̈ܐ ܕܝܠܗ ܒܦܗܪܣܬܐ.</translation>
+    </message>
+    <message>
+        <source>It can collect information from visitors (forms).</source>
+        <translation>ܡܫܟܚ ܠܡܟܢܫ ܝܕ̈ܥܬܐ ܡܢ ܣܥܘ̈ܪܐ (ܛܘܦ̈ܣܐ ܕܡܠܝܐ).</translation>
+    </message>
+    <message>
+        <source>Lists can be sorted by it: sort key %type.</source>
+        <translation>ܪ̈ܫܝܡܐ ܡܫܟܚܝܢ ܠܡܬܛܟܣܘ ܒܗ: ܩܠܝܕܐ ܕܛܟܣܐ %type.</translation>
+    </message>
+    <message>
+        <source>Sortable</source>
+        <translation>ܡܬܣܕܪܢܐ</translation>
+    </message>
+    <message>
+        <source>Its values point to other objects.</source>
+        <translation>ܛܝܡ̈ܐ ܕܝܠܗ ܡܚܘܝܢ ܠܨܒܘ̈ܬܐ ܐܚܪ̈ܢܝܬܐ.</translation>
+    </message>
+    <message>
+        <source>Relations</source>
+        <translation>ܐܚܝ̈ܢܘܬܐ</translation>
+    </message>
+    <message>
+        <source>It can be filled from a plain string (import, REST).</source>
+        <translation>ܡܫܟܚ ܠܡܬܡܠܝܘ ܡܢ ܣܪܛܐ ܦܫܝܛܐ ܕܟܬܒܐ (ܡܥܠܢܘܬܐ، REST).</translation>
+    </message>
+    <message>
+        <source>From text</source>
+        <translation>ܡܢ ܟܬܒܐ</translation>
+    </message>
+    <message>
+        <source>It can be filled from a file.</source>
+        <translation>ܡܫܟܚ ܠܡܬܡܠܝܘ ܡܢ ܠܦܦܐ.</translation>
+    </message>
+    <message>
+        <source>From file</source>
+        <translation>ܡܢ ܠܦܦܐ</translation>
+    </message>
+    <message>
+        <source>Its class attribute settings go into packages.</source>
+        <translation>ܛܘܝܒ̈ܐ ܕܕܝܠܝܘܬܐ ܕܙܢܐ ܕܝܠܗ ܥܐܠܝܢ ܠܓܘ ܨܪ̈ܘܪܐ.</translation>
+    </message>
+    <message>
+        <source>Packages</source>
+        <translation>ܨܪ̈ܪܐ</translation>
+    </message>
+    <message>
+        <source>Content (%count)</source>
+        <translation>ܡܠܝܘܬܐ (%count)</translation>
+    </message>
+    <message>
+        <source>%from to %to of %count</source>
+        <translation>%from ܥܕܡܐ %to ܡܢ %count</translation>
+    </message>
+    <message>
+        <source>Filter the list</source>
+        <translation>ܨܠܠܘ ܠܪܫܝܡܬܐ</translation>
+    </message>
+    <message>
+        <source>All classes</source>
+        <translation>ܟܠ ܙ̈ܢܝܐ</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>ܦܠܓܘܬܐ</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>ܠܫ̈ܢܐ</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>ܡܪܐ</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>ܦܪܝܣܐ</translation>
+    </message>
+    <message>
+        <source>Reverse the order</source>
+        <translation>ܗܦܟܐ ܕܛܟܣܐ</translation>
+    </message>
+    <message>
+        <source>No item</source>
+        <translation>ܠܝܬ ܡܢܬܐ</translation>
+    </message>
+    <message>
+        <source>Per page</source>
+        <translation>ܒܟܠ ܦܐܬܐ</translation>
+    </message>
+    <message>
+        <source>Show %count items per page.</source>
+        <translation>ܚܘܝܐ ܕ %count ܡ̈ܢܘܬܐ ܒܦܐܬܐ.</translation>
     </message>
 </context>
 </TS>

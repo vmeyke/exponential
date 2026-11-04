@@ -26,7 +26,8 @@ the lifecycle part of the procurement section explains them for contracts
 
 ## Which version is current?
 
-The 6.0 line. Published kernel tags run from `v6.0.0` to `v6.0.14`; 6.0.15 is in development on `main`
+The 6.0 line. Its current release line is 6.0.15, which follows `v6.0.14` and is carried by `main`; list the published
+kernel tags with `git tag -l 'v6.0.*' --sort=version:refname`
 ([Source control and releases](../../../standards/source-control-and-releases.md#the-kernels-versions)). **Setup > System
 information** shows what your site runs.
 
@@ -60,7 +61,7 @@ and stops when something needs a person. It advises testing on staging first and
 
 ## Which PHP versions are supported?
 
-PHP 8.0 to 8.5, Velocity included (from its release 0.0.4.54); PHP 7.4 only up to 6.0.7 ([2. Requirements](../../../install/02-requirements.md#versions)).
+PHP 8.0 to 8.5, Velocity included (from its release 0.0.4.54); PHP 7.4 usable without support from 6.0.15 ([2. Requirements](../../../install/02-requirements.md#versions)).
 
 ## Related pages
 

@@ -16,7 +16,7 @@
  *
  * No installation database: SQLite through pdo_sqlite in a file of var/tmp, removed afterwards.
  *
- * @copyright Copyright (C) 1998 - 2026 7x and the Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
  * @package tests
  * @group lib
@@ -25,6 +25,8 @@
 
 require_once dirname( __DIR__, 4 ) . '/lib/ezdb/classes/exppdodb.php';
 
+#[\PHPUnit\Framework\Attributes\Group('lib')]
+#[\PHPUnit\Framework\Attributes\Group('ezdb')]
 class expPDODBTest extends PHPUnit\Framework\TestCase
 {
     /** @var string */

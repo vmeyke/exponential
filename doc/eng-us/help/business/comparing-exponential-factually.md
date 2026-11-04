@@ -15,6 +15,20 @@ of Exponential that are documented and that the buyer can verify, each with the 
 does not rank, name or criticize other products. A buyer who compares fairly will fill in the other column; your job
 is to make the Exponential column complete, sourced and honest, including where Exponential is not the right fit.
 
+> **Warning**
+> **`.htaccess` slows down every request.** When `.htaccess` files are enabled (`AllowOverride` anything but `None`), let alone
+> used, Apache looks for them and reads and evaluates them on every request, in every directory of the path, and
+> page loading times go up drastically ([measured](../../guides/setup-files-from-the-console.md#measured-htaccess-against-rules-in-the-virtual-host)). The only real fix is to switch the feature off for
+> the virtual host: `AllowOverride None` in the HTTPS virtual host, and the rules in the virtual host's own
+> configuration as mod_rewrite rules. That is far faster in production speed tests and well worth the time it takes
+> to optimize a production configuration. Switch over right away: copy the rules of the
+> [example HTTPS virtual host](../../examples/web-servers/apache-virtual-host.md) into your virtual host (with the static cache, also
+> [`staticcache_offload.conf`](../../examples/staticcache_offload.conf)), set `AllowOverride None`, run `apachectl configtest`, reload Apache and
+> test the site. The same rules for other servers: [nginx](../../examples/web-servers/nginx.md), [LiteSpeed](../../examples/web-servers/litespeed.md),
+> [Caddy](../../examples/web-servers/caddy.md), [IIS](../../examples/web-servers/iis.md), [Velocity](../../examples/web-servers/velocity.md) (built in); where virtual host rules go in a control
+> panel: [Plesk](../hosting/panels/plesk.md), [cPanel](../hosting/panels/cpanel.md), [DirectAdmin](../hosting/panels/directadmin.md), [ISPConfig](../hosting/panels/ispconfig.md).
+> **On LiteSpeed or OpenLiteSpeed,** the server's own page cache can also answer anonymous visitors and crawlers without PHP: [Page caching with LiteSpeed and OpenLiteSpeed](../../guides/litespeed-page-cache.md).
+
 ## Contents
 
 1. [The rules of a fair comparison](#the-rules-of-a-fair-comparison)
@@ -49,11 +63,11 @@ is to make the Exponential column complete, sourced and honest, including where 
 | Contributions stay free | "any modifications made to the project are also released under the same GPLv2 or later license" | `CONTRIBUTING.md` |
 | Documentation license | GNU Free Documentation License 1.3 or later | [The license of this documentation](../../README-LICENSE.md), [Free documentation](../free-documentation.md) |
 | Source and history | The full history is kept, back to the oldest commit of 2 September 2002; 27,242 commits on `main` on 18 October 2026 | [Who is 7x?, The eZ Publish years](../who-is-7x.md#the-ez-publish-years-1999-to-2021) |
-| Lineage | Copyright notice "1998 - 2026 7x & Exponential Foundation" next to "1999 - 2014 eZ Systems AS" | `COPYRIGHT.md` |
-| Self-hosting | Runs on "almost any [operating system] that runs PHP 8.0 or later", in four documented tiers | [Operating system support](../os-support.md) |
+| Lineage | Copyright notice "1998 - 2026 Exponential Foundation and 7x" next to "1999 - 2014 eZ Systems AS" | `COPYRIGHT.md` |
+| Self-hosting | Runs on "almost any [operating system] that runs PHP 8.0 or later (PHP 7.4 usable without support)", in four documented tiers | [Operating system support](../os-support.md) |
 | Databases | "1. SQLite 3 (the default) · 2. PostgreSQL · 3. MongoDB · 4. MariaDB · 5. Oracle · 6. MySQL" | [Database support](../database-support.md) |
 | Web servers | Exponential Velocity (recommended), Apache, nginx, FrankenPHP, LiteSpeed, Caddy, IIS, lighttpd and others | [Operating system support, Web servers](../os-support.md#web-servers), `README.md` |
-| PHP versions | PHP 8.0 to 8.5, Velocity included (from its release 0.0.4.54); PHP 7.4 only up to 6.0.7 | [Who is the Exponential Foundation?, PHP versions](../who-is-the-exponential-foundation.md#php-versions) |
+| PHP versions | PHP 8.0 to 8.5, Velocity included (from its release 0.0.4.54); PHP 7.4 usable without support from 6.0.15 | [Who is the Exponential Foundation?, PHP versions](../who-is-the-exponential-foundation.md#php-versions) |
 | Release integrity | "A published tag is never changed": a fix arrives as the next release | `SECURITY.md` |
 | Security process | Private reporting, a first answer "within one business day", fixes on `main` and in the next 6.0.x release | `SECURITY.md` |
 | Continuous integration | Quality and PHPUnit on every push and pull request; PHPUnit on PHP 8.1 to 8.5; database tests on MySQL 8.0 and PostgreSQL 15; PHP 8.0 boot check | [Continuous integration](../../bc/6.0/ci.md) |
@@ -87,7 +101,7 @@ In a running installation, an administrator can show the database engine under *
 
 > **Tip**
 > Offer the buyer a test installation they control. One command installs a working site on SQLite, with no database
-> server: `./console exp:install` ([Installing Exponential in one command](../../features/6.0/install-in-one-command.md)).
+> server: `./console exp:install --apply` ([Installing Exponential in one command](../../features/6.0/install-in-one-command.md)).
 
 ## No lock-in, point by point
 
@@ -133,15 +147,15 @@ the other columns for the buyer.
 | License of the code               | GPL v2 or later, free of charge                     |          |          | LICENSE      |
 | License of the documentation      | GNU FDL 1.3 or later                                |          |          | doc/eng-us/README-LICENSE.md |
 | Source and full history public    | Yes, since 2002                                     |          |          | git log      |
-| Self-hosting                      | Yes, any OS with PHP 8.0+ (tiers)                   |          |          | os-support   |
+| Self-hosting                      | Yes, any OS with PHP 8.0+ (7.4 usable without support) (tiers)                   |          |          | os-support   |
 | Databases                         | SQLite, PostgreSQL, MongoDB, MariaDB, Oracle, MySQL |          |          | database-support |
 | Web servers                       | Velocity, Apache, nginx, FrankenPHP and others      |          |          | os-support   |
 | PHP versions                      | 8.0 to 8.5                                          |          |          | composer.json |
 | Published releases immutable      | Yes                                                 |          |          | SECURITY.md  |
 | Security reporting                | Private, first answer within one business day       |          |          | SECURITY.md  |
 | Multisite from one installation   | Yes (siteaccesses)                                  |          |          | README.md    |
-| Content languages                 | 268 locale files; at most 62 per installation       |          |          | doc/eng-us/languages.md |
-| Administration translations       | 32, ten complete                                    |          |          | doc/eng-us/languages.md |
+| Content languages                 | 368 locale files; at most 62 per installation       |          |          | doc/eng-us/languages.md |
+| Administration translations       | all complete (totals: languages page)               |          |          | doc/eng-us/languages.md |
 | Visual page builder               | Exponential Layouts                                 |          |          | layouts-editor |
 | Audit trail                       | Tamper-evident, on by default                       |          |          | audit-trail  |
 | Writing assistant                 | Drafts only, region per provider                    |          |          | expai        |
@@ -160,7 +174,7 @@ Say these yourself. Each is documented.
 | Shared hosting that forbids long-running processes | Velocity usually cannot run; Apache or LiteSpeed with `.htaccess` still serve the site | `README.md`, "When a traditional server is still the right answer" |
 | Strict isolation of several customers on one server | Run one Velocity instance per site as its own system user | same |
 | More than 62 content languages in one installation | The limit is 62 (30 on 32-bit PHP) | [Languages in Exponential](../../languages.md#11-the-limit-of-62-content-languages) |
-| An administration fully translated into a language that is not complete today | Only ten administration translations are complete; others are partial or content only | [Support levels](../../languages.md#2-support-levels) |
+| An administration fully translated into a language that is not complete today | Every shipped administration translation is complete; a language without one shows English (the current totals are at the top of the languages page) | [Support levels](../../languages.md#2-support-levels) |
 | A requirement for CI-tested MariaDB or Oracle | Both are supported, neither is run in the project's CI | [Test coverage](../database-support.md#test-coverage-ci) |
 | A demand for a published support policy or SLA document | The project publishes no single support policy; commitments are in the places listed on the Foundation page; contract terms come from a service provider | [The support commitment](../who-is-the-exponential-foundation.md#the-support-commitment) |
 
@@ -172,7 +186,7 @@ Some buyers know the history. Use the tone of the history pages: factual, source
   18 years ([Who is 7x?, The eZ Publish years](../who-is-7x.md#the-ez-publish-years-1999-to-2021)).
 - **No association.** "This project is not associated with the original eZ Publish software or its original developer,
   eZ Systems or Ibexa" (`README.md`, "Exponential Project Notice : 2025.08.12").
-- **Credit where it is due.** Exponential Layouts brings the Netgen Layouts concept to the kernel; the LoveStack
+- **Credit where it is due.** Exponential Layouts brings the concept of the upstream layouts packages to the kernel; the LoveStack
   improvements of Mugo Web were rebuilt "with full credit to Mugo Web"; `cjw_newsletter` comes from CJW Network
   ([Who is 7x?, Contributors and friends of the project](../who-is-7x.md#contributors-and-friends-of-the-project)).
 - **Customers on eZ Platform or Ibexa.** Do not argue about their current platform. Point to the documented migration
@@ -187,7 +201,7 @@ Some buyers know the history. Use the tone of the history pages: factual, source
 | "We are better than X." | "Here is what Exponential does, and how you can check it." | No source can prove a ranking. |
 | "X locks you in." | "With Exponential you keep the code under the GPL and your content in a standard database." | Describe Exponential, not others. |
 | "It is the fastest CMS." | "The README documents 0.36 ms per cached page on a 12-core machine, reproducible with shipped scripts; let us measure on your hardware." | Figures need their context ([Benchmarking](../../guides/benchmarking.md)). |
-| "It supports every language." | "268 locale files for content; administration translations (the current totals are at the top of [Languages in Exponential](../../languages.md))." | Exact and sourced. |
+| "It supports every language." | "368 locale files for content; administration translations (the current totals are at the top of [Languages in Exponential](../../languages.md))." | Exact and sourced. |
 | "It is the new eZ Publish." | "Exponential continues the code base of eZ Publish, a product its creator discontinued after almost 18 years." | The product's name is Exponential. |
 | "We guarantee support." | "Security reports get a first answer within one business day (SECURITY.md); service terms come from your provider." | Only what is written down. |
 | "Hundreds of companies use it." | "The sources do not count users. The history shows hundreds of contributors over the years." | [Contributors](../who-is-7x.md#contributors-and-friends-of-the-project) |

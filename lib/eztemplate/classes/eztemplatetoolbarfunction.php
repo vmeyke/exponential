@@ -2,7 +2,7 @@
 /**
  * File containing the eZTemplateToolbarFunction class.
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @version //autogentag//
@@ -129,7 +129,8 @@ class eZTemplateToolbarFunction
                     return false;
 
                 $uniqID = md5( uniqid('inc') );
-                $newNodes[] = eZTemplateNodeTool::createCodePieceNode( "\$oldRestoreIncludeArray" . "_$uniqID = isset( \$restoreIncludeArray ) ? \$restoreIncludeArray : array();\n".
+                // a stack, not one value: a template that includes itself runs this code again in the same scope before the restore
+                $newNodes[] = eZTemplateNodeTool::createCodePieceNode( "\$oldRestoreIncludeArray" . "_{$uniqID}[] = isset( \$restoreIncludeArray ) ? \$restoreIncludeArray : array();\n".
                                                                        "\$restoreIncludeArray = array();\n");
                 $variableList = array();
                 foreach ( array_keys( $parameters ) as $parameterName )
@@ -201,7 +202,7 @@ class eZTemplateToolbarFunction
                                                                        "    }\n".
                                                                        "    \$vars[\$element[0]][\$element[1]] = \$element[2];\n".
                                                                        "}\n".
-                                                                       "\$restoreIncludeArray = \$oldRestoreIncludeArray" . "_$uniqID;\n" );
+                                                                       "\$restoreIncludeArray = array_pop( \$oldRestoreIncludeArray" . "_$uniqID );\n" );
             }
         }
         return $newNodes;
